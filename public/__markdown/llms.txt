@@ -1,0 +1,33 @@
+# Flashcards
+
+> Open-source flashcards app with spaced repetition, review queue, passwordless auth, and a self-hosted AWS/Postgres deployment path.
+
+## Documentation
+
+- [Getting Started](https://flashcards-open-source-app.com/docs/getting-started/): Open the hosted web app or run the local stack with Postgres, auth, backend, and web.
+- [Self-Hosting Guide](https://flashcards-open-source-app.com/docs/self-hosting/): Run Flashcards on your own machine or server with the documented local and AWS flow.
+- [API Reference](https://flashcards-open-source-app.com/docs/api/): Current web and auth endpoints for sessions, cards, review queue, and reviews.
+- [Architecture](https://flashcards-open-source-app.com/docs/architecture/): System overview, public domains, data flow, and the offline-first direction.
+
+## Blog
+
+- Posts coming soon.
+
+## Pages
+
+- [Home](https://flashcards-open-source-app.com/): Product overview and feature highlights
+- [Features](https://flashcards-open-source-app.com/features/): Detailed feature list
+- [Pricing](https://flashcards-open-source-app.com/pricing/): Self-hosted (free) and cloud beta plans
+- [Privacy Policy](https://flashcards-open-source-app.com/privacy/): Data handling practices
+- [Terms of Service](https://flashcards-open-source-app.com/terms/): Usage terms
+
+## Links
+
+- [GitHub Repository](https://github.com/kirill-markin/flashcards-open-source-app)
+- [Cloud App](https://app.flashcards-open-source-app.com)
+
+## Markdown Access
+
+Any page on this site is available as clean Markdown for LLM consumption:
+- Append `.md` to any URL (e.g. https://flashcards-open-source-app.com/.md, https://flashcards-open-source-app.com/features.md, https://flashcards-open-source-app.com/docs/api.md)
+- Or send the HTTP header `Accept: text/markdown` to get Markdown from the original URL
