@@ -47,8 +47,3 @@ Browser auth                    -> auth.<domain> -> API Gateway -> Auth Lambda -
 - `api.<domain>` -> API Gateway + Lambda backend
 - `auth.<domain>` -> API Gateway + Lambda auth service
 - Postgres in AWS RDS
-
----
-*[View the styled HTML version of this page](https://flashcards-open-source-app.com/docs/architecture/)*
-
-*Tip: Append `.md` to any URL on https://flashcards-open-source-app.com to get a clean Markdown version of that page.*

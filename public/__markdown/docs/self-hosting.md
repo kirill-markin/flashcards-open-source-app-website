@@ -56,8 +56,3 @@ Restart the local services after dependency changes.
 ## AWS Deployment
 
 For production deployment on AWS (CloudFront + S3 + API Gateway + Lambda + RDS + Cognito), see the [AWS CDK guide](https://github.com/kirill-markin/flashcards-open-source-app/tree/main/infra/aws).
-
----
-*[View the styled HTML version of this page](https://flashcards-open-source-app.com/docs/self-hosting/)*
-
-*Tip: Append `.md` to any URL on https://flashcards-open-source-app.com to get a clean Markdown version of that page.*
