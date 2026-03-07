@@ -3,6 +3,7 @@ import { Source_Serif_4 } from "next/font/google";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { JsonLdSchema } from "@/components/JsonLdSchema";
+import { HOME_PAGE_METADATA } from "@/content/pages/home";
 import "./globals.css";
 
 const sourceSerif = Source_Serif_4({
@@ -16,30 +17,26 @@ const SITE_URL = "https://flashcards-open-source-app.com";
 
 export const metadata: Metadata = {
   title: {
-    default: "Flashcards - Open Source Spaced Repetition",
+    default: HOME_PAGE_METADATA.title,
     template: "%s | Flashcards",
   },
-  description:
-    "Open-source flashcards app with spaced repetition, review queue, passwordless auth, and a self-hosted AWS/Postgres deployment path.",
+  description: HOME_PAGE_METADATA.description,
   metadataBase: new URL(SITE_URL),
   openGraph: {
     type: "website",
     locale: "en_US",
     url: `${SITE_URL}/`,
     siteName: "Flashcards",
-    title: "Flashcards - Open Source Spaced Repetition",
-    description:
-      "Open-source flashcards app with spaced repetition, review queue, passwordless auth, and a self-hosted AWS/Postgres deployment path.",
+    title: HOME_PAGE_METADATA.title,
+    description: HOME_PAGE_METADATA.description,
   },
   twitter: {
     card: "summary_large_image",
-    title: "Flashcards - Open Source Spaced Repetition",
-    description:
-      "Open-source flashcards app with spaced repetition, review queue, passwordless auth, and self-hosting support.",
+    title: HOME_PAGE_METADATA.title,
+    description: HOME_PAGE_METADATA.description,
   },
   alternates: {
     canonical: `${SITE_URL}/`,
-    types: { "text/markdown": "/.md" },
   },
 };
 

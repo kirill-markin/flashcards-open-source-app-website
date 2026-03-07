@@ -1,11 +1,12 @@
+import { HOME_PAGE_METADATA } from "@/content/pages/home";
+
 const SITE_URL = "https://flashcards-open-source-app.com";
 
 const softwareAppSchema = {
   "@context": "https://schema.org",
   "@type": "SoftwareApplication",
   name: "Flashcards",
-  description:
-    "Open-source flashcards app with spaced repetition, review queue, passwordless auth, and a self-hosted AWS/Postgres stack.",
+  description: HOME_PAGE_METADATA.description,
   url: `${SITE_URL}/`,
   applicationCategory: "EducationalApplication",
   operatingSystem: "Web",
@@ -24,8 +25,7 @@ const websiteSchema = {
   "@type": "WebSite",
   url: `${SITE_URL}/`,
   name: "Flashcards",
-  description:
-    "Open-source flashcards app with spaced repetition, review queue, passwordless auth, and self-hosting support.",
+  description: HOME_PAGE_METADATA.description,
 };
 
 export function JsonLdSchema(): React.JSX.Element {

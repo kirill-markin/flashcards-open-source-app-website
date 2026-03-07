@@ -1,4 +1,4 @@
-# Flashcards
+# Flashcards - Open Source Spaced Repetition
 
 Create cards. Review on time. Own your data.
 

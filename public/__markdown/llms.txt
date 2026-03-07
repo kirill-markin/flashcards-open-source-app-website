@@ -4,7 +4,7 @@
 
 ## Pages
 
-- [Flashcards](https://flashcards-open-source-app.com/): Open-source flashcards app with spaced repetition, review queue, passwordless auth, and a self-hosted AWS/Postgres deployment path.
+- [Flashcards - Open Source Spaced Repetition](https://flashcards-open-source-app.com/): Open-source flashcards app with spaced repetition, review queue, passwordless auth, and a self-hosted AWS/Postgres deployment path.
 - [Features](https://flashcards-open-source-app.com/features/): Review queue, card creation, passwordless auth, self-hosting, and the offline-first roadmap.
 - [Pricing](https://flashcards-open-source-app.com/pricing/): Free self-hosting or hosted cloud beta. Open source, no feature gating.
 - [Privacy Policy](https://flashcards-open-source-app.com/privacy/): Privacy policy for Flashcards.
