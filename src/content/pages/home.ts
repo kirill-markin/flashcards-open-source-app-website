@@ -1,9 +1,14 @@
 import type { PageContent } from "@/lib/content/types";
 
-export const HOME_PAGE_CONTENT: PageContent = {
-  title: "Flashcards",
+export const HOME_PAGE_METADATA = {
+  title: "Flashcards - Open Source Spaced Repetition",
   description:
     "Open-source flashcards app with spaced repetition, review queue, passwordless auth, and a self-hosted AWS/Postgres deployment path.",
+} as const;
+
+export const HOME_PAGE_CONTENT: PageContent = {
+  title: HOME_PAGE_METADATA.title,
+  description: HOME_PAGE_METADATA.description,
   slug: "home",
   sections: [
     {
