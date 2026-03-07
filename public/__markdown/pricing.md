@@ -2,7 +2,7 @@
 
 All features are available in every plan. No feature gating.
 
-## Self-Hosted — Free
+## Self-Hosted - Free
 
 - Full source code on GitHub
 - Local Postgres + auth + backend + web stack
@@ -12,7 +12,7 @@ All features are available in every plan. No feature gating.
 
 [View on GitHub](https://github.com/kirill-markin/flashcards-open-source-app)
 
-## Cloud Beta — Free during beta
+## Cloud Beta - Free during beta
 
 - Hosted web app on the project domain
 - Email OTP authentication

@@ -49,6 +49,7 @@ Marketing website for Flashcards Open Source App. Static Next.js site deployed o
 
 - `src/app/` - Pages (landing, features, pricing, docs, blog, privacy, terms)
 - `src/components/` - Shared components (Header, Footer, AuthButton)
+- `src/content/pages/` - Typed marketing page content modules and markdown-backed legal pages
 - `src/content/docs/` - Documentation markdown files
 - `src/content/blog/` - Blog post markdown files
 - `src/lib/` - Utilities (auth helpers)
@@ -68,6 +69,15 @@ The marketing site has zero auth logic. It only checks for the `logged_in` cooki
 
 ## Content
 
-Add docs: create a `.md` file in `src/content/docs/` with frontmatter (`title`, `description`), then add the slug to `generateStaticParams` in `src/app/docs/[slug]/page.tsx`.
+Composed and list pages use typed content modules:
+- `src/content/pages/home.ts`
+- `src/content/pages/features.ts`
+- `src/content/pages/pricing.ts`
 
-Add blog posts: create a `.md` file in `src/content/blog/` with frontmatter (`title`, `description`, `date`). Posts are auto-discovered and sorted by date.
+Mostly-text pages stay Markdown-backed:
+- `src/content/pages/privacy/index.md`
+- `src/content/pages/terms/index.md`
+- `src/content/docs/*.md`
+- `src/content/blog/*.md`
+
+Keep typed content models mirrored with the other marketing website repository. Build-time generation must render both HTML and Markdown from the same source of truth.

@@ -2,6 +2,14 @@
 
 > Open-source flashcards app with spaced repetition, review queue, passwordless auth, and a self-hosted AWS/Postgres deployment path.
 
+## Pages
+
+- [Flashcards](https://flashcards-open-source-app.com/): Open-source flashcards app with spaced repetition, review queue, passwordless auth, and a self-hosted AWS/Postgres deployment path.
+- [Features](https://flashcards-open-source-app.com/features/): Review queue, card creation, passwordless auth, self-hosting, and the offline-first roadmap.
+- [Pricing](https://flashcards-open-source-app.com/pricing/): Free self-hosting or hosted cloud beta. Open source, no feature gating.
+- [Privacy Policy](https://flashcards-open-source-app.com/privacy/): Privacy policy for Flashcards.
+- [Terms of Service](https://flashcards-open-source-app.com/terms/): Terms of service for Flashcards.
+
 ## Documentation
 
 - [Getting Started](https://flashcards-open-source-app.com/docs/getting-started/): Open the hosted web app or run the local stack with Postgres, auth, backend, and web.
@@ -12,14 +20,6 @@
 ## Blog
 
 - Posts coming soon.
-
-## Pages
-
-- [Home](https://flashcards-open-source-app.com/): Product overview and feature highlights
-- [Features](https://flashcards-open-source-app.com/features/): Detailed feature list
-- [Pricing](https://flashcards-open-source-app.com/pricing/): Self-hosted (free) and cloud beta plans
-- [Privacy Policy](https://flashcards-open-source-app.com/privacy/): Data handling practices
-- [Terms of Service](https://flashcards-open-source-app.com/terms/): Usage terms
 
 ## Links
 

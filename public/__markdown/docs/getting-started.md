@@ -24,8 +24,3 @@ If you prefer to run your own instance, see the [Self-Hosting Guide](/docs/self-
 ## What Is Next
 
 The repository direction is offline-first. The web app is the first public client, with iOS planned next and Android later.
-
----
-*[View the styled HTML version of this page](https://flashcards-open-source-app.com/docs/getting-started/)*
-
-*Tip: Append `.md` to any URL on https://flashcards-open-source-app.com to get a clean Markdown version of that page.*

@@ -1,82 +1,68 @@
 import { AuthButton } from "@/components/AuthButton";
+import { readPageContent } from "@/lib/content/readPageContent";
 import styles from "./page.module.css";
+
+const pageContent = readPageContent("home");
+
+function getHeroSection() {
+  const section = pageContent.sections[0];
+
+  if (section?.type !== "hero") {
+    throw new Error("Invalid home page content structure");
+  }
+
+  return section;
+}
+
+function getFeatureSection() {
+  const section = pageContent.sections[1];
+
+  if (section?.type !== "feature_list") {
+    throw new Error("Invalid home page content structure");
+  }
+
+  return section;
+}
+
+const heroSection = getHeroSection();
+const featureSection = getFeatureSection();
 
 export default function HomePage() {
   return (
     <div className={styles.hero}>
       <div className={styles.heroInner}>
         <h1 className={styles.title}>
-          Create cards.
-          <br />
-          Review on time.
-          <br />
-          Own your data.
+          {heroSection.titleLines.map((line, index) => (
+            <span key={line}>
+              {line}
+              {index < heroSection.titleLines.length - 1 ? <br /> : null}
+            </span>
+          ))}
         </h1>
-        <p className={styles.subtitle}>
-          Open-source flashcards app with spaced repetition, a fast review
-          queue, passwordless auth, and a self-hosted AWS/Postgres stack. Use
-          the web MVP today and keep the door open for the iOS offline-first
-          client.
-        </p>
+        <p className={styles.subtitle}>{heroSection.subtitle}</p>
         <div className={styles.cta}>
           <AuthButton />
         </div>
         <p className={styles.hint}>
-          Free and open source.{" "}
+          {heroSection.hintText}{" "}
           <a
-            href="https://github.com/kirill-markin/flashcards-open-source-app"
+            href={heroSection.hintLink.href}
             target="_blank"
             rel="noopener noreferrer"
           >
-            View on GitHub
+            {heroSection.hintLink.label}
           </a>
         </p>
       </div>
 
       <section className={styles.features}>
         <div className={styles.featureGrid}>
-          <div className={styles.featureCard}>
-            <h3>Spaced Repetition</h3>
-            <p>
-              Review cards with a built-in queue and a simple rating flow. The
-              backend updates scheduling fields on every review submission.
-            </p>
-          </div>
-          <div className={styles.featureCard}>
-            <h3>Fast Web MVP</h3>
-            <p>
-              Create cards, browse your collection, and work through due items
-              in the browser with a minimal interface.
-            </p>
-          </div>
-          <div className={styles.featureCard}>
-            <h3>Passwordless Auth</h3>
-            <p>
-              Email OTP via Cognito with shared-domain cookies across the auth
-              and app subdomains.
-            </p>
-          </div>
-          <div className={styles.featureCard}>
-            <h3>Self-Hosted</h3>
-            <p>
-              Run Postgres locally, start auth, backend, and web separately,
-              and keep the full stack under your control.
-            </p>
-          </div>
-          <div className={styles.featureCard}>
-            <h3>API Surface</h3>
-            <p>
-              Use the existing `/v1/me`, `/v1/cards`, `/v1/review-queue`, and
-              `/v1/reviews` endpoints from your own clients and scripts.
-            </p>
-          </div>
-          <div className={styles.featureCard}>
-            <h3>Offline-First Direction</h3>
-            <p>
-              The repository is structured around an offline-first roadmap with
-              Postgres on the backend and iOS as the next client priority.
-            </p>
-          </div>
+          {featureSection.items.map((item) => (
+            <div key={item.title} className={styles.featureCard}>
+              <h3>{item.title}</h3>
+              <p>{item.description}</p>
+            </div>
+          ))}
         </div>
       </section>
     </div>

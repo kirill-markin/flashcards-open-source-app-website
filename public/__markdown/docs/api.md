@@ -61,8 +61,3 @@ Implemented routes:
 - Browser session requests use cookies plus CSRF protection
 - Local development can run with `AUTH_MODE=none`
 - The planned sync endpoints exist but currently return `501 Not Implemented`
-
----
-*[View the styled HTML version of this page](https://flashcards-open-source-app.com/docs/api/)*
-
-*Tip: Append `.md` to any URL on https://flashcards-open-source-app.com to get a clean Markdown version of that page.*
