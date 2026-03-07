@@ -1,0 +1,44 @@
+.buttonGroup {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.loginButton {
+  padding: 10px 16px;
+  min-height: 40px;
+  border: 1px solid var(--accent);
+  color: var(--accent);
+  font-family: inherit;
+  font-size: 14px;
+  text-decoration: none;
+  transition: background 0.15s, color 0.15s;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .loginButton:hover {
+    background: var(--accent);
+    color: var(--bg);
+    text-decoration: none;
+  }
+}
+
+.signupButton {
+  padding: 10px 16px;
+  min-height: 40px;
+  background: var(--accent);
+  color: var(--bg);
+  border: 1px solid var(--accent);
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: opacity 0.15s;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .signupButton:hover {
+    opacity: 0.85;
+    text-decoration: none;
+  }
+}
