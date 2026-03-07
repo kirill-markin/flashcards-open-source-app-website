@@ -3,6 +3,13 @@ import type { NextRequest } from "next/server";
 
 export function proxy(request: NextRequest): NextResponse {
   const { pathname } = request.nextUrl;
+  const host = request.headers.get("host") ?? "";
+
+  if (host === "www.flashcards-open-source-app.com") {
+    const redirectUrl = request.nextUrl.clone();
+    redirectUrl.host = "flashcards-open-source-app.com";
+    return NextResponse.redirect(redirectUrl, 308);
+  }
 
   // --- Markdown serving: .md extension ---
   if (pathname.endsWith(".md")) {
