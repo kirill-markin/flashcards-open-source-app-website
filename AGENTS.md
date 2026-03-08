@@ -2,7 +2,7 @@
 
 Marketing website for Flashcards Open Source App. Static Next.js site deployed on Vercel.
 
-**Git Workflow**: Commit directly to `main` branch (no PRs). Deploy is automatic after push.
+**Git Workflow**: commit directly to `main`; deploy is automatic after push.
 
 ## Rules
 
@@ -14,54 +14,48 @@ Marketing website for Flashcards Open Source App. Static Next.js site deployed o
 - Raise explicit, actionable errors with context.
 - Keep changes minimal and scoped to the current request.
 - Prefer non-interactive terminal commands.
-- RTL support: use CSS logical properties (`inset-inline-start`/`end`, `margin-inline-start`/`end`, `padding-inline-start`/`end`, `text-align: start`/`end`). No physical directional properties.
+- RTL support: use CSS logical properties such as `inset-inline-start`/`end`, `margin-inline-start`/`end`, `padding-inline-start`/`end`, and `text-align: start`/`end`; do not use physical directional properties.
 
-## Development Commands
+## Development
 
-- `npm run dev` - Development server with Turbopack
-- `npm run build` - Production build
-- `npm run lint` - ESLint linting
+- `npm run dev`: development server with Turbopack
+- `npm run build`: production build
+- `npm run lint`: ESLint
 
-## Tech Stack
+## Stack
 
-- Next.js 16 with App Router, TypeScript, React 19 Server Components
+- Next.js 16 App Router, TypeScript, React 19 Server Components
 - Tailwind CSS v4 + CSS Modules
-- Markdown processing: gray-matter, remark
+- Markdown via `gray-matter` and `remark`
 - Path alias: `@/*` -> `./src/*`
 
 ## Core Principles
 
-**Static Generation First**: Pre-render all content at build time. Zero server-side computation at request time.
-
-**Server Components First**: Client components only where interactivity required (AuthButton, Header mobile menu).
-
-**Public Content Only**: This repository contains no secret pages, no private data, and no server-side personalization. All user-visible content is public and should be safe to render and cache for everyone.
-
-**No Request-Time HTML Rendering**: Do not introduce SSR, server-side cookie checks, or other request-time personalization for marketing HTML. If a small UI detail depends on browser state, handle it after page load in a tiny client component.
-
-**Narrow Runtime Negotiation Layer**: The runtime proxy stays in place only for `.md` URLs, `Accept: text/markdown`, `Vary: Accept`, `Link rel="alternate"`, and existing host-level redirects. Do not use it for HTML rendering or personalization.
-
-**Static Markdown and LLM Assets**: `.md` URLs and `Accept: text/markdown` are both required public interfaces. Generate Markdown and `llms.txt` at build time whenever possible, and use the runtime proxy only to route requests to those prebuilt assets.
-
-**Smaller Client Islands Over Time**: Optimize by shrinking client-rendered regions, not by introducing SSR. Prefer server-rendered shells with small client islands for auth buttons and mobile navigation.
+- Static generation first: pre-render all content at build time; no request-time server computation.
+- Server Components first: use client components only where interactivity is required (`AuthButton`, header mobile menu).
+- Public content only: no secret pages, private data, or server-side personalization.
+- No request-time HTML rendering: do not add SSR, server-side cookie checks, or similar HTML personalization; if a UI detail depends on browser state, handle it after load in a small client component.
+- Narrow runtime negotiation layer: keep the proxy only for `.md` URLs, `Accept: text/markdown`, `Vary: Accept`, `Link rel="alternate"`, and existing host-level redirects; never use it for HTML rendering or personalization.
+- Static Markdown and LLM assets: `.md` URLs and `Accept: text/markdown` are required public interfaces; generate Markdown and `llms.txt` at build time whenever possible and use the runtime proxy only to route to those prebuilt assets.
+- Shrink client islands over time instead of adding SSR; prefer server-rendered shells with small client islands for auth buttons and mobile navigation.
 
 ## Project Structure
 
-- `src/app/` - Pages (landing, features, pricing, docs, blog, privacy, terms)
-- `src/components/` - Shared components (Header, Footer, AuthButton)
-- `src/content/pages/` - Typed marketing page content modules and markdown-backed legal pages
-- `src/content/docs/` - Documentation markdown files
-- `src/content/blog/` - Blog post markdown files
-- `src/lib/` - Utilities (auth helpers)
+- `src/app/`: landing, features, pricing, docs, blog, privacy, terms
+- `src/components/`: shared components (`Header`, `Footer`, `AuthButton`)
+- `src/content/pages/`: typed marketing page content modules plus markdown-backed legal pages
+- `src/content/docs/`: documentation markdown files
+- `src/content/blog/`: blog markdown files
+- `src/lib/`: utilities (`auth` helpers)
 
 ## Auth Integration
 
-The marketing site has zero auth logic. It only checks for the `logged_in` cookie presence (set by `auth.flashcards-open-source-app.com` on the shared `.flashcards-open-source-app.com` domain) to toggle between "Log In / Sign Up" and "Open App" buttons. No JWT verification.
+The site has zero auth logic. It only checks whether the `logged_in` cookie is present (set by `auth.flashcards-open-source-app.com` on `.flashcards-open-source-app.com`) to switch between "Log In / Sign Up" and "Open App" buttons. There is no JWT verification.
 
 ## Domain Layout
 
 | Domain | What | Where |
-|---|---|---|
+| --- | --- | --- |
 | `flashcards-open-source-app.com` | This marketing site | Vercel |
 | `app.flashcards-open-source-app.com` | Main app | AWS CloudFront + S3 |
 | `auth.flashcards-open-source-app.com` | Cognito auth UI/API | AWS API Gateway + Lambda |
@@ -69,15 +63,15 @@ The marketing site has zero auth logic. It only checks for the `logged_in` cooki
 
 ## Content
 
-Composed and list pages use typed content modules:
+Typed content modules power composed/list pages:
 - `src/content/pages/home.ts`
 - `src/content/pages/features.ts`
 - `src/content/pages/pricing.ts`
 
-Mostly-text pages stay Markdown-backed:
+Mostly text pages stay Markdown-backed:
 - `src/content/pages/privacy/index.md`
 - `src/content/pages/terms/index.md`
 - `src/content/docs/*.md`
 - `src/content/blog/*.md`
 
-Keep typed content models mirrored with the other marketing website repository. Build-time generation must render both HTML and Markdown from the same source of truth.
+Keep typed content models mirrored with the other marketing website repository. Build-time generation must produce both HTML and Markdown from the same source of truth.
