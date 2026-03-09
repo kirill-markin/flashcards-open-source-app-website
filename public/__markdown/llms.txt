@@ -19,6 +19,7 @@
 
 ## Blog
 
+- [Anki vs Quizlet vs Open-Source Flashcards App: Best Spaced Repetition Tool in 2026](https://flashcards-open-source-app.com/blog/anki-vs-quizlet-vs-open-source-flashcards-app/): Comparing Anki, Quizlet, and a modern open-source flashcards app in 2026. Here is the practical tradeoff between spaced repetition power, product polish, self-hosting, and long-term ownership of your study data.
 - [Self-Hosted Open Source Flashcards App for Spaced Repetition](https://flashcards-open-source-app.com/blog/self-hosted-open-source-flashcards-app-for-spaced-repetition/): Looking for an open-source flashcards app you can self-host? Run spaced repetition with a fast review queue, passwordless auth, and full control of your study data.
 
 ## Links
