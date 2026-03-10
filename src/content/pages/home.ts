@@ -28,19 +28,10 @@ export const HOME_PAGE_CONTENT: PageContent = {
         label: "View on GitHub",
         href: "https://github.com/kirill-markin/flashcards-open-source-app",
       },
-      hintText: "Free and open source.",
+      hintText: "Using an AI agent? Give it this discovery URL:",
       hintLink: {
-        label: "View on GitHub",
-        href: "https://github.com/kirill-markin/flashcards-open-source-app",
-      },
-      agentCallout: {
-        title: "Give your agent one link",
-        description:
-          "Share this discovery URL with Claude Code, Codex, or OpenClaw. The agent can handle login and workspace setup on its own. The only human step is sending back the latest 8-digit email code.",
-        link: {
-          label: "https://auth.flashcards-open-source-app.com/api/agent",
-          href: "https://auth.flashcards-open-source-app.com/api/agent",
-        },
+        label: "auth.flashcards-open-source-app.com/api/agent",
+        href: "https://auth.flashcards-open-source-app.com/api/agent",
       },
     },
     {
