@@ -28,7 +28,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
         label: "View on GitHub",
         href: "https://github.com/kirill-markin/flashcards-open-source-app",
       },
-      hintText: "Tell your agent: connect using this discovery URL.",
+      hintText: "Start with GET on this discovery URL:",
       hintLink: {
         label: "https://auth.flashcards-open-source-app.com/api/agent",
         href: "https://auth.flashcards-open-source-app.com/api/agent",
