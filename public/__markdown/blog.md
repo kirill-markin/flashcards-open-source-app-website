@@ -1,4 +1,5 @@
 # Blog
 
+- [How to Let Claude Code, Codex, or OpenClaw Log In to Flashcards for You](https://flashcards-open-source-app.com/blog/claude-code-codex-openclaw-flashcards-login/) — 2026-03-10: Flashcards exposes an open-source agent login flow built around one discovery URL, email OTP, and a long-lived API key. Give your agent one link, send back the 8-digit email code, and let it finish account and workspace setup.
 - [Anki vs Quizlet vs Open-Source Flashcards App: Best Spaced Repetition Tool in 2026](https://flashcards-open-source-app.com/blog/anki-vs-quizlet-vs-open-source-flashcards-app/) — 2026-03-09: Comparing Anki, Quizlet, and a modern open-source flashcards app in 2026. Here is the practical tradeoff between spaced repetition power, product polish, self-hosting, and long-term ownership of your study data.
 - [Self-Hosted Open Source Flashcards App for Spaced Repetition](https://flashcards-open-source-app.com/blog/self-hosted-open-source-flashcards-app-for-spaced-repetition/) — 2026-03-08: Looking for an open-source flashcards app you can self-host? Run spaced repetition with a fast review queue, passwordless auth, and full control of your study data.

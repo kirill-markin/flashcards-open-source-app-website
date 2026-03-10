@@ -3,7 +3,7 @@ import type { PageContent } from "@/lib/content/types";
 export const HOME_PAGE_METADATA = {
   title: "Flashcards - Open Source Spaced Repetition",
   description:
-    "Open-source flashcards app with spaced repetition, review queue, passwordless auth, and a self-hosted AWS/Postgres deployment path.",
+    "Open-source flashcards app with spaced repetition, agent-ready onboarding, passwordless auth, and a self-hosted AWS/Postgres deployment path.",
 } as const;
 
 export const HOME_PAGE_CONTENT: PageContent = {
@@ -19,7 +19,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
         "Own your data.",
       ],
       subtitle:
-        "Open-source flashcards app with spaced repetition, a fast review queue, passwordless auth, and a self-hosted AWS/Postgres stack. Use the web MVP today and keep the door open for the iOS offline-first client.",
+        "Open-source flashcards app with spaced repetition, a fast review queue, passwordless auth, and an agent-ready onboarding flow. Use the web MVP today, let Claude Code, Codex, or OpenClaw connect through one discovery URL, and keep the door open for the iOS offline-first client.",
       primaryLink: {
         label: "Get Started",
         href: "https://app.flashcards-open-source-app.com",
@@ -32,6 +32,15 @@ export const HOME_PAGE_CONTENT: PageContent = {
       hintLink: {
         label: "View on GitHub",
         href: "https://github.com/kirill-markin/flashcards-open-source-app",
+      },
+      agentCallout: {
+        title: "Give your agent one link",
+        description:
+          "Share this discovery URL with Claude Code, Codex, or OpenClaw. The agent can handle login and workspace setup on its own. The only human step is sending back the latest 8-digit email code.",
+        link: {
+          label: "https://auth.flashcards-open-source-app.com/api/agent",
+          href: "https://auth.flashcards-open-source-app.com/api/agent",
+        },
       },
     },
     {
@@ -56,14 +65,14 @@ export const HOME_PAGE_CONTENT: PageContent = {
             "Email OTP via Cognito with shared-domain cookies across the auth and app subdomains.",
         },
         {
+          title: "Agent-Ready Onboarding",
+          description:
+            "Give an AI agent the discovery URL, confirm the latest 8-digit email code, and let it finish login, API key setup, account loading, and workspace selection.",
+        },
+        {
           title: "Self-Hosted",
           description:
             "Run Postgres locally, start auth, backend, and web separately, and keep the full stack under your control.",
-        },
-        {
-          title: "API Surface",
-          description:
-            "Use the existing `/v1/me`, `/v1/cards`, `/v1/review-queue`, and `/v1/reviews` endpoints from your own clients and scripts.",
         },
         {
           title: "Offline-First Direction",

@@ -3,7 +3,7 @@ import type { PageContent } from "@/lib/content/types";
 export const FEATURES_PAGE_CONTENT: PageContent = {
   title: "Features",
   description:
-    "Review queue, card creation, passwordless auth, self-hosting, and the offline-first roadmap.",
+    "Review queue, card creation, agent-ready onboarding, passwordless auth, self-hosting, and the offline-first roadmap.",
   slug: "features",
   sections: [
     {
@@ -21,6 +21,11 @@ export const FEATURES_PAGE_CONTENT: PageContent = {
           title: "Card Creation",
           description:
             "Create front/back cards from the web client today. The app keeps the current surface area intentionally small while the core model settles.",
+        },
+        {
+          title: "Agent-Ready Onboarding",
+          description:
+            "Point Claude Code, Codex, or OpenClaw at the discovery URL and the agent can walk the whole auth flow, store the API key, load account context, and choose the right workspace with only one human step: sharing the latest 8-digit email code.",
         },
         {
           title: "Passwordless Auth",
