@@ -18,7 +18,7 @@ const SITE_CONTEXT: MarkdownSiteContext = {
   appUrl: "https://app.flashcards-open-source-app.com",
   githubUrl: "https://github.com/kirill-markin/flashcards-open-source-app",
 };
-const DISCOVERY_URL = "https://auth.flashcards-open-source-app.com/api/agent";
+const DISCOVERY_URL = "https://api.flashcards-open-source-app.com/v1/agent";
 const DOCS_DIR = join(process.cwd(), "src/content/docs");
 const BLOG_DIR = join(process.cwd(), "src/content/blog");
 

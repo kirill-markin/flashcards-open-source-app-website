@@ -30,8 +30,8 @@ export const HOME_PAGE_CONTENT: PageContent = {
       },
       hintText: "Start with GET on this discovery URL:",
       hintLink: {
-        label: "https://auth.flashcards-open-source-app.com/api/agent",
-        href: "https://auth.flashcards-open-source-app.com/api/agent",
+        label: "https://api.flashcards-open-source-app.com/v1/agent",
+        href: "https://api.flashcards-open-source-app.com/v1/agent",
       },
     },
     {
