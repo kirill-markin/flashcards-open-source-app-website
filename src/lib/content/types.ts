@@ -23,11 +23,6 @@ export interface HeroSection {
   readonly secondaryLink: ContentLink;
   readonly hintText: string;
   readonly hintLink: ContentLink;
-  readonly agentCallout?: Readonly<{
-    title: string;
-    description: string;
-    link: ContentLink;
-  }>;
 }
 
 export interface FeatureListSection {
