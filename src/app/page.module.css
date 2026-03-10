@@ -32,44 +32,15 @@
   margin-bottom: 16px;
 }
 
-.agentCallout {
-  max-width: 720px;
-  margin: 0 auto 20px;
-  padding: 18px 20px;
-  border: 1px solid var(--border);
-  background: #fafafa;
-}
-
-.agentCalloutTitle {
-  font-size: 12px;
-  font-weight: 700;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  margin-bottom: 10px;
-}
-
-.agentCalloutText {
-  font-size: 14px;
-  color: var(--muted);
-  line-height: 1.7;
-  margin-bottom: 12px;
-}
-
-.agentCalloutLink {
-  display: inline-block;
-  font-size: 13px;
-  font-family: var(--font-mono, ui-monospace, SFMono-Regular, "SF Mono", Consolas, "Liberation Mono", Menlo, monospace);
-  overflow-wrap: anywhere;
-  text-decoration: underline;
-}
-
 .hint {
-  font-size: 13px;
-  color: var(--muted);
+  display: grid;
+  gap: 10px;
+  margin: 0 auto;
 }
 
-.hint a {
-  text-decoration: underline;
+.hintText {
+  font-size: 13px;
+  color: var(--muted);
 }
 
 .features {
@@ -108,10 +79,6 @@
 
   .title {
     font-size: 32px;
-  }
-
-  .agentCallout {
-    text-align: start;
   }
 
   .featureGrid {
