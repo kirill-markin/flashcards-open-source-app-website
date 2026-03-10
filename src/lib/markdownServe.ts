@@ -9,7 +9,7 @@ import {
   readPageContent,
 } from "@/lib/content/readPageContent";
 import {
-  renderMarketingPageDocument,
+  renderMarketingPageMarkdown,
   type MarkdownSiteContext,
 } from "@/lib/content/renderMarkdown";
 
@@ -18,6 +18,7 @@ const SITE_CONTEXT: MarkdownSiteContext = {
   appUrl: "https://app.flashcards-open-source-app.com",
   githubUrl: "https://github.com/kirill-markin/flashcards-open-source-app",
 };
+const DISCOVERY_URL = "https://auth.flashcards-open-source-app.com/api/agent";
 const DOCS_DIR = join(process.cwd(), "src/content/docs");
 const BLOG_DIR = join(process.cwd(), "src/content/blog");
 
@@ -51,6 +52,20 @@ function getBlogFilePath(slug: string): string {
   return join(BLOG_DIR, `${slug}.md`);
 }
 
+function getOriginalPageUrl(pagePath: string): string {
+  if (pagePath === "") {
+    return `${SITE_CONTEXT.siteUrl}/`;
+  }
+
+  return `${SITE_CONTEXT.siteUrl}/${pagePath}/`;
+}
+
+function appendMarkdownFooter(markdown: string, pagePath: string): string {
+  return `${markdown.trim()}\n\n---\n*[View the styled HTML version of this page](${getOriginalPageUrl(
+    pagePath
+  )})*\n\n*AI agents can create an account for the user in this service by starting with \`GET ${DISCOVERY_URL}\`.*\n\n*Tip: Append \`.md\` to any URL on ${SITE_CONTEXT.siteUrl} to get a clean Markdown version of that page.*`;
+}
+
 function renderMarketingPageMarkdownDocument(pagePath: string): MarkdownResult {
   const pageSlug = getMarketingPageSlugFromPath(pagePath);
 
@@ -61,7 +76,10 @@ function renderMarketingPageMarkdownDocument(pagePath: string): MarkdownResult {
   const pageContent = readPageContent(pageSlug);
 
   return {
-    markdown: renderMarketingPageDocument(pageContent, SITE_CONTEXT),
+    markdown: appendMarkdownFooter(
+      renderMarketingPageMarkdown(pageContent),
+      pagePath
+    ),
     status: 200,
   };
 }
@@ -78,7 +96,7 @@ export function renderDocsListingMarkdown(): MarkdownResult {
     );
   }
 
-  return { markdown: lines.join("\n"), status: 200 };
+  return { markdown: appendMarkdownFooter(lines.join("\n"), "docs"), status: 200 };
 }
 
 export function getBlogPosts(): ReadonlyArray<BlogMeta> {
@@ -113,7 +131,13 @@ export function renderDocMarkdown(slug: string): MarkdownResult {
   const { data, content } = matter(raw);
   const frontmatter = data as DocFrontmatter;
 
-  return { markdown: `# ${frontmatter.title}\n\n${content.trim()}`, status: 200 };
+  return {
+    markdown: appendMarkdownFooter(
+      `# ${frontmatter.title}\n\n${content.trim()}`,
+      `docs/${slug}`
+    ),
+    status: 200,
+  };
 }
 
 export function renderBlogListingMarkdown(): MarkdownResult {
@@ -134,7 +158,7 @@ export function renderBlogListingMarkdown(): MarkdownResult {
     );
   }
 
-  return { markdown: lines.join("\n"), status: 200 };
+  return { markdown: appendMarkdownFooter(lines.join("\n"), "blog"), status: 200 };
 }
 
 export function renderBlogPostMarkdown(slug: string): MarkdownResult {
@@ -148,7 +172,10 @@ export function renderBlogPostMarkdown(slug: string): MarkdownResult {
   const frontmatter = data as BlogFrontmatter;
 
   return {
-    markdown: `# ${frontmatter.title}\n\n*${frontmatter.date}*\n\n${content.trim()}`,
+    markdown: appendMarkdownFooter(
+      `# ${frontmatter.title}\n\n*${frontmatter.date}*\n\n${content.trim()}`,
+      `blog/${slug}`
+    ),
     status: 200,
   };
 }
