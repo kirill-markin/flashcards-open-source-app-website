@@ -25,7 +25,7 @@ export const FEATURES_PAGE_CONTENT: PageContent = {
         {
           title: "Agent-Ready Onboarding",
           description:
-            "Point Claude Code, Codex, or OpenClaw at the discovery URL and the agent can walk the whole auth flow, store the API key, load account context, and choose the right workspace with only one human step: sharing the latest 8-digit email code.",
+            "Point Claude Code, Codex, or OpenClaw at the discovery URL and the agent can walk the whole auth flow, store the API key, load account context, choose the right workspace, and continue through the compact /v1/agent/tools surface with only one human step: sharing the latest 8-digit email code.",
         },
         {
           title: "Passwordless Auth",

@@ -19,7 +19,9 @@ That is exactly the kind of work a tool should handle for you.
 
 In [Flashcards](https://flashcards-open-source-app.com/), we now expose an open-source agent login flow that starts from one discovery URL:
 
-`https://api.flashcards-open-source-app.com/v1/agent`
+`https://api.flashcards-open-source-app.com/v1/`
+
+That is the canonical entrypoint. The same discovery payload is also available at `https://api.flashcards-open-source-app.com/v1/agent`, but the current contract starts from `/v1/`.
 
 Give that URL to Claude Code, Codex, or OpenClaw. The agent can inspect the flow, request the email code, verify it, store the API key, load the account, and continue to workspace setup on its own.
 
@@ -37,7 +39,7 @@ The discovery endpoint returns the service description, the auth model, the firs
 So instead of writing custom onboarding text for every tool, you can just point the agent to the URL and let it follow the returned actions.
 
 ```text
-GET https://api.flashcards-open-source-app.com/v1/agent
+GET https://api.flashcards-open-source-app.com/v1/
 ```
 
 At a high level, the agent learns four things immediately:
@@ -56,8 +58,8 @@ The sequence is intentionally small.
 3. Flashcards emails the 8-digit code and returns an `otpSessionToken`.
 4. The agent asks the user for that latest code.
 5. The agent verifies the code and receives a long-lived API key.
-6. The agent calls `/v1/me` and `/v1/workspaces`.
-7. The agent creates or selects the correct workspace and can start doing real work.
+6. The agent calls `/v1/agent/me` and `/v1/agent/workspaces`.
+7. The agent creates or selects the correct workspace, then continues through `/v1/agent/tools`.
 
 That matters because the agent is not stopping at "login succeeded". It can keep going through the rest of the setup flow.
 
@@ -67,7 +69,7 @@ This is enough:
 
 ```text
 Use this Flashcards discovery URL:
-https://api.flashcards-open-source-app.com/v1/agent
+https://api.flashcards-open-source-app.com/v1/
 
 Log in to my Flashcards account, load account context, and select or create the correct workspace.
 Ask me only for the latest 8-digit email code when the flow requires it.
@@ -81,7 +83,7 @@ Same idea, slightly more explicit:
 
 ```text
 Connect my Flashcards account using this URL:
-https://api.flashcards-open-source-app.com/v1/agent
+https://api.flashcards-open-source-app.com/v1/
 
 Follow the returned actions, keep the API key secure, load my account, then continue to workspace setup.
 If verification is needed, ask me for the latest 8-digit code from the email.
@@ -92,7 +94,7 @@ If verification is needed, ask me for the latest 8-digit code from the email.
 This is the first request:
 
 ```bash
-curl https://api.flashcards-open-source-app.com/v1/agent
+curl https://api.flashcards-open-source-app.com/v1/
 ```
 
 And the response is shaped so terminal agents can follow it without guessing:
@@ -183,7 +185,7 @@ Successful verification returns a long-lived API key and the next action:
     {
       "name": "load_account",
       "method": "GET",
-      "url": "https://api.flashcards-open-source-app.com/v1/me",
+      "url": "https://api.flashcards-open-source-app.com/v1/agent/me",
       "auth": {
         "scheme": "ApiKey"
       }
@@ -199,7 +201,7 @@ That is the handoff point where the agent stops thinking about auth and starts u
 The next request is a normal authenticated API call:
 
 ```bash
-curl https://api.flashcards-open-source-app.com/v1/me \
+curl https://api.flashcards-open-source-app.com/v1/agent/me \
   -H "Authorization: ApiKey YOUR_API_KEY"
 ```
 
@@ -222,7 +224,7 @@ The response tells the agent to keep going into workspace bootstrap:
     {
       "name": "list_workspaces",
       "method": "GET",
-      "url": "https://api.flashcards-open-source-app.com/v1/workspaces",
+      "url": "https://api.flashcards-open-source-app.com/v1/agent/workspaces",
       "auth": {
         "scheme": "ApiKey"
       }
@@ -236,6 +238,7 @@ From there the agent can:
 - load all workspaces
 - create the first workspace if none exist
 - select the correct workspace if several exist
+- call `GET /v1/agent/tools` and continue through `POST /v1/agent/tools/*`
 
 That makes the login flow useful in practice, not just technically correct.
 
@@ -271,7 +274,7 @@ If you care about open-source API authentication, email OTP login, or agent onbo
 
 If you want to test the flow, give your agent this URL:
 
-`https://api.flashcards-open-source-app.com/v1/agent`
+`https://api.flashcards-open-source-app.com/v1/`
 
 Then let it handle the rest.
 

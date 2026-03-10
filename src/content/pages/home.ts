@@ -30,8 +30,8 @@ export const HOME_PAGE_CONTENT: PageContent = {
       },
       hintText: "Start with GET on this discovery URL:",
       hintLink: {
-        label: "https://api.flashcards-open-source-app.com/v1/agent",
-        href: "https://api.flashcards-open-source-app.com/v1/agent",
+        label: "https://api.flashcards-open-source-app.com/v1/",
+        href: "https://api.flashcards-open-source-app.com/v1/",
       },
     },
     {
@@ -58,7 +58,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
         {
           title: "Agent-Ready Onboarding",
           description:
-            "Give an AI agent the discovery URL, confirm the latest 8-digit email code, and let it finish login, API key setup, account loading, and workspace selection.",
+            "Give an AI agent the discovery URL, confirm the latest 8-digit email code, and let it finish login, API key setup, account loading, workspace selection, and tool discovery.",
         },
         {
           title: "Self-Hosted",
