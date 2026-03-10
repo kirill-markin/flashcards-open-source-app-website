@@ -61,6 +61,12 @@ The site has zero auth logic. It only checks whether the `logged_in` cookie is p
 | `auth.flashcards-open-source-app.com` | Cognito auth UI/API | AWS API Gateway + Lambda |
 | `api.flashcards-open-source-app.com` | Backend API | AWS API Gateway + Lambda |
 
+## Client Entry Points
+
+- Hosted web app for humans starts at `https://app.flashcards-open-source-app.com`
+- Terminal / AI-agent onboarding starts at `GET https://api.flashcards-open-source-app.com/v1/agent`
+- Start here for instructions: `src/content/docs/getting-started.md`, `src/content/docs/api.md`, and `src/content/blog/claude-code-codex-openclaw-flashcards-login.md`
+
 ## Content
 
 Typed content modules power composed/list pages:
