@@ -4,6 +4,7 @@ A focused flashcards stack: the current web MVP, the public API surface, and the
 
 - **Review Queue** - Due cards are loaded from the backend in a dedicated review queue. Submit one of four ratings and the server computes the next review time on write.
 - **Card Creation** - Create front/back cards from the web client today. The app keeps the current surface area intentionally small while the core model settles.
+- **Agent-Ready Onboarding** - Point Claude Code, Codex, or OpenClaw at the discovery URL and the agent can walk the whole auth flow, store the API key, load account context, and choose the right workspace with only one human step: sharing the latest 8-digit email code.
 - **Passwordless Auth** - Email OTP authentication runs on a dedicated auth service. Browser sessions reuse shared-domain cookies so login works cleanly across subdomains.
 - **Self-Hosted Stack** - Run Postgres, auth, backend, and the web client locally. Production deployment is already wired for AWS with CDK, CloudFront, API Gateway, Lambda, and RDS.
 - **Typed API** - The current API covers session discovery, card listing, card creation, review queue reads, and review submission. It is a practical base for future mobile sync.
