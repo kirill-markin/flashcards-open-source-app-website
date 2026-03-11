@@ -49,6 +49,7 @@ export default function HomePage() {
           </div>
         </div>
         <div className={styles.heroHint}>
+          <h2 className={styles.hintTitle}>FOR AI AGENT</h2>
           <p className={styles.hintDescription}>{agentHintText}</p>
           <CopyCodeField
             value={`${heroSection.hintText}\n${heroSection.hintLink.href}`}

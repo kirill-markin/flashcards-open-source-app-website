@@ -51,8 +51,19 @@
 .heroHint {
   padding: 14px;
   display: grid;
-  align-content: start;
+  align-content: center;
   gap: 14px;
+}
+
+.hintTitle {
+  margin: 0;
+  color: var(--text);
+  font-size: 18px;
+  line-height: 1.1;
+  letter-spacing: 0.11em;
+  font-weight: 760;
+  text-transform: uppercase;
+  text-align: start;
 }
 
 .hintDescription {
@@ -120,6 +131,10 @@
   .heroMain {
     padding: 20px;
     gap: 16px;
+  }
+
+  .hintTitle {
+    font-size: 16px;
   }
 
   .featureGrid {
