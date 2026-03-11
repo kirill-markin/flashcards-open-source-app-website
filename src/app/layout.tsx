@@ -1,9 +1,17 @@
 import type { Metadata } from "next";
+import { Source_Serif_4 } from "next/font/google";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { JsonLdSchema } from "@/components/JsonLdSchema";
 import { HOME_PAGE_METADATA } from "@/content/pages/home";
 import "./globals.css";
+
+const sourceSerif = Source_Serif_4({
+  subsets: ["latin", "cyrillic"],
+  weight: ["400", "600", "700"],
+  display: "swap",
+  variable: "--font-source-serif",
+});
 
 const SITE_URL = "https://flashcards-open-source-app.com";
 
@@ -38,7 +46,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className={sourceSerif.variable}>
       <body>
         <JsonLdSchema />
         <Header />
