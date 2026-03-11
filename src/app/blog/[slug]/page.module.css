@@ -2,12 +2,16 @@
   width: min(100%, 980px);
   margin: 0 auto;
   padding: 36px 20px 0;
-  display: grid;
+  display: flex;
+  flex-direction: column;
   gap: 16px;
 }
 
 .intro,
 .contentPanel {
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
   border: 1px solid var(--border);
   border-radius: var(--radius-xl);
   background: var(--surface);
@@ -51,6 +55,9 @@
 }
 
 .content {
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
   font-size: 16px;
   line-height: 1.68;
   color: var(--text);
@@ -68,6 +75,7 @@
 .content p {
   margin-bottom: 12px;
   color: var(--text-secondary);
+  overflow-wrap: anywhere;
 }
 
 .content p strong {
@@ -117,6 +125,7 @@
 
 .content li {
   margin-bottom: 6px;
+  overflow-wrap: anywhere;
 }
 
 .content a {
