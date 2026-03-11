@@ -26,6 +26,7 @@
   --radius-xl: 24px;
   --radius-pill: 999px;
   --content-width: 1240px;
+  --reading-serif-font-family: var(--font-source-serif), Georgia, Cambria, "Times New Roman", Times, serif;
 }
 
 html,

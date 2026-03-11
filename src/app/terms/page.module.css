@@ -29,6 +29,10 @@
   padding: clamp(18px, 3vw, 28px);
 }
 
+.content {
+  font-family: var(--reading-serif-font-family);
+}
+
 .content h2 {
   margin: 26px 0 10px;
   font-size: 21px;
