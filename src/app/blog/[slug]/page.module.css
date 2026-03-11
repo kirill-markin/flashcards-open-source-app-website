@@ -37,6 +37,7 @@
   font-size: clamp(1.9rem, 3.2vw, 2.5rem);
   line-height: 1.05;
   letter-spacing: -0.035em;
+  overflow-wrap: anywhere;
 }
 
 .empty {
@@ -53,6 +54,7 @@
   font-size: 16px;
   line-height: 1.68;
   color: var(--text);
+  overflow-wrap: anywhere;
 }
 
 .content h2 {
@@ -72,7 +74,7 @@
 }
 
 .content code {
-  display: inline-block;
+  display: inline;
   padding: 2px 6px;
   border: 1px solid var(--border);
   border-radius: 8px;
@@ -80,6 +82,9 @@
   color: var(--text);
   font-size: 13px;
   font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+  white-space: normal;
 }
 
 .content pre {
@@ -92,10 +97,14 @@
 }
 
 .content pre code {
+  display: inline;
   padding: 0;
   border: 0;
   border-radius: 0;
   background: transparent;
+  overflow-wrap: normal;
+  word-break: normal;
+  white-space: pre;
 }
 
 .content ul,
