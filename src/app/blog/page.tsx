@@ -45,25 +45,29 @@ export default function BlogPage() {
 
   return (
     <div className={styles.container}>
-      <Breadcrumbs items={[{ label: "Blog", href: "/blog/" }]} />
-      <h1 className={styles.title}>Blog</h1>
-      {posts.length === 0 ? (
-        <p className={styles.empty}>Posts coming soon.</p>
-      ) : (
-        <div className={styles.list}>
-          {posts.map((post) => (
-            <Link
-              key={post.slug}
-              href={`/blog/${post.slug}/`}
-              className={styles.card}
-            >
-              <time className={styles.date}>{post.date}</time>
-              <h2>{post.title}</h2>
-              <p>{post.description}</p>
-            </Link>
-          ))}
-        </div>
-      )}
+      <section className={styles.intro}>
+        <Breadcrumbs items={[{ label: "Blog", href: "/blog/" }]} />
+        <h1 className={styles.title}>Blog</h1>
+      </section>
+      <section className={styles.listPanel}>
+        {posts.length === 0 ? (
+          <p className={styles.empty}>Posts coming soon.</p>
+        ) : (
+          <div className={styles.list}>
+            {posts.map((post) => (
+              <Link
+                key={post.slug}
+                href={`/blog/${post.slug}/`}
+                className={styles.card}
+              >
+                <time className={styles.date}>{post.date}</time>
+                <h2>{post.title}</h2>
+                <p>{post.description}</p>
+              </Link>
+            ))}
+          </div>
+        )}
+      </section>
     </div>
   );
 }

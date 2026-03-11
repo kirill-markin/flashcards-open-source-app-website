@@ -67,8 +67,12 @@ export default async function BlogPostPage({ params }: PageProps) {
   if (!post) {
     return (
       <div className={styles.container}>
-        <h1>Not Found</h1>
-        <p>This blog post does not exist.</p>
+        <section className={styles.intro}>
+          <h1 className={styles.title}>Not Found</h1>
+        </section>
+        <section className={styles.contentPanel}>
+          <p className={styles.empty}>This blog post does not exist.</p>
+        </section>
       </div>
     );
   }
@@ -93,18 +97,22 @@ export default async function BlogPostPage({ params }: PageProps) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
       />
-      <Breadcrumbs
-        items={[
-          { label: "Blog", href: "/blog/" },
-          { label: post.frontmatter.title, href: `/blog/${slug}/` },
-        ]}
-      />
-      <time className={styles.date}>{post.frontmatter.date}</time>
-      <h1 className={styles.title}>{post.frontmatter.title}</h1>
-      <div
-        className={styles.content}
-        dangerouslySetInnerHTML={{ __html: post.contentHtml }}
-      />
+      <section className={styles.intro}>
+        <Breadcrumbs
+          items={[
+            { label: "Blog", href: "/blog/" },
+            { label: post.frontmatter.title, href: `/blog/${slug}/` },
+          ]}
+        />
+        <time className={styles.date}>{post.frontmatter.date}</time>
+        <h1 className={styles.title}>{post.frontmatter.title}</h1>
+      </section>
+      <section className={styles.contentPanel}>
+        <div
+          className={styles.content}
+          dangerouslySetInnerHTML={{ __html: post.contentHtml }}
+        />
+      </section>
     </article>
   );
 }

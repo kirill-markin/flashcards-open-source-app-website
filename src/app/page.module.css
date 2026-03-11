@@ -1,90 +1,119 @@
-.hero {
-  max-width: 1200px;
+.page {
+  width: min(100%, var(--content-width));
   margin: 0 auto;
-  padding: 0 24px;
+  padding: 36px 20px 0;
+  display: grid;
+  gap: 22px;
 }
 
-.heroInner {
-  padding: 80px 0 64px;
-  text-align: center;
+.hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1.35fr) minmax(0, 1fr);
+  gap: 18px;
+}
+
+.heroMain,
+.heroHint,
+.featuresInner {
+  border: 1px solid var(--border);
+  border-radius: var(--radius-xl);
+  background: var(--surface);
+  box-shadow: var(--shadow-soft);
+}
+
+.heroMain {
+  padding: clamp(26px, 4vw, 44px);
+  display: grid;
+  gap: 20px;
 }
 
 .title {
-  font-size: 48px;
-  font-weight: 700;
-  line-height: 1.15;
-  letter-spacing: -0.02em;
-  text-transform: uppercase;
-  margin-bottom: 24px;
+  margin: 0;
+  font-size: clamp(2.3rem, 4.6vw, 4.4rem);
+  line-height: 0.96;
+  letter-spacing: -0.055em;
+  font-weight: 760;
 }
 
 .subtitle {
+  margin: 0;
+  max-width: 760px;
   font-size: 16px;
-  color: var(--muted);
-  max-width: 560px;
-  margin: 0 auto 32px;
-  line-height: 1.7;
+  line-height: 1.65;
+  color: var(--text-secondary);
 }
 
 .cta {
   display: flex;
-  justify-content: center;
-  margin-bottom: 16px;
+  align-items: center;
 }
 
-.hint {
-  margin: 0 auto;
+.heroHint {
+  padding: 14px;
+  display: grid;
+  align-content: center;
 }
 
 .features {
-  padding: 64px 0;
-  border-top: 1px solid var(--border);
+  padding-bottom: 4px;
+}
+
+.featuresInner {
+  padding: 18px;
 }
 
 .featureGrid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 32px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
 }
 
 .featureCard {
-  padding: 24px;
+  padding: 16px;
   border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  background: var(--surface-elevated);
 }
 
 .featureCard h3 {
-  font-size: 14px;
-  text-transform: uppercase;
-  letter-spacing: 0.06em;
-  margin-bottom: 8px;
+  margin: 0 0 8px;
+  font-size: 15px;
+  line-height: 1.3;
+  letter-spacing: -0.01em;
 }
 
 .featureCard p {
+  margin: 0;
+  color: var(--text-secondary);
   font-size: 14px;
-  color: var(--muted);
-  line-height: 1.6;
+  line-height: 1.58;
 }
 
-@media (max-width: 768px) {
-  .heroInner {
-    padding: 48px 0 40px;
-  }
-
-  .title {
-    font-size: 32px;
-  }
-
-  .featureGrid {
+@media (max-width: 1080px) {
+  .hero {
     grid-template-columns: 1fr;
   }
 }
 
-@media (max-width: 480px) {
-  .title {
-    font-size: 26px;
+@media (max-width: 768px) {
+  .page {
+    padding-inline: 14px;
+    padding-top: 26px;
+    gap: 16px;
   }
 
-  .featureCard {
-    padding: 16px;
+  .heroMain,
+  .heroHint,
+  .featuresInner {
+    border-radius: 20px;
+  }
+
+  .heroMain {
+    padding: 20px;
+    gap: 16px;
+  }
+
+  .featureGrid {
+    grid-template-columns: 1fr;
   }
 }

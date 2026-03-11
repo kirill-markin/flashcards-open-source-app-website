@@ -35,41 +35,45 @@ export const metadata: Metadata = createPageMetadata({
 export default function PricingPage() {
   return (
     <div className={styles.container}>
-      <h1 className={styles.title}>{pageContent.title}</h1>
-      <p className={styles.subtitle}>{pricingSection.intro}</p>
+      <section className={styles.intro}>
+        <h1 className={styles.title}>{pageContent.title}</h1>
+        <p className={styles.subtitle}>{pricingSection.intro}</p>
+      </section>
 
-      <div className={styles.grid}>
-        <div className={styles.card}>
-          <h2>{selfHostedTier.name}</h2>
-          <div className={styles.price}>{selfHostedTier.price}</div>
-          <ul className={styles.features}>
-            {selfHostedTier.bullets.map((bullet) => (
-              <li key={bullet}>{bullet}</li>
-            ))}
-          </ul>
-          <a
-            href={selfHostedTier.cta.href}
-            target="_blank"
-            rel="noopener noreferrer"
-            className={styles.secondaryButton}
-          >
-            {selfHostedTier.cta.label}
-          </a>
-        </div>
+      <section className={styles.tiersPanel}>
+        <div className={styles.grid}>
+          <div className={styles.card}>
+            <h2>{selfHostedTier.name}</h2>
+            <div className={styles.price}>{selfHostedTier.price}</div>
+            <ul className={styles.features}>
+              {selfHostedTier.bullets.map((bullet) => (
+                <li key={bullet}>{bullet}</li>
+              ))}
+            </ul>
+            <a
+              href={selfHostedTier.cta.href}
+              target="_blank"
+              rel="noopener noreferrer"
+              className={styles.secondaryButton}
+            >
+              {selfHostedTier.cta.label}
+            </a>
+          </div>
 
-        <div className={`${styles.card} ${styles.highlighted}`}>
-          <h2>{cloudTier.name}</h2>
-          <div className={styles.price}>{cloudTier.price}</div>
-          <ul className={styles.features}>
-            {cloudTier.bullets.map((bullet) => (
-              <li key={bullet}>{bullet}</li>
-            ))}
-          </ul>
-          <div className={styles.ctaWrapper}>
-            <AuthButton />
+          <div className={`${styles.card} ${styles.highlighted}`}>
+            <h2>{cloudTier.name}</h2>
+            <div className={styles.price}>{cloudTier.price}</div>
+            <ul className={styles.features}>
+              {cloudTier.bullets.map((bullet) => (
+                <li key={bullet}>{bullet}</li>
+              ))}
+            </ul>
+            <div className={styles.ctaWrapper}>
+              <AuthButton />
+            </div>
           </div>
         </div>
-      </div>
+      </section>
     </div>
   );
 }

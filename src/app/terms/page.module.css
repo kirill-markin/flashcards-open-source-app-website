@@ -1,37 +1,81 @@
 .container {
-  max-width: 760px;
+  width: min(100%, 980px);
   margin: 0 auto;
-  padding: 64px 24px;
+  padding: 36px 20px 0;
+  display: grid;
+  gap: 16px;
+}
+
+.intro,
+.contentPanel {
+  border: 1px solid var(--border);
+  border-radius: var(--radius-xl);
+  background: var(--surface);
+  box-shadow: var(--shadow-soft);
+}
+
+.intro {
+  padding: clamp(20px, 3vw, 28px);
 }
 
 .title {
-  font-size: 32px;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: -0.01em;
-  margin-bottom: 32px;
+  margin: 0;
+  font-size: clamp(1.9rem, 3.2vw, 2.5rem);
+  line-height: 1.05;
+  letter-spacing: -0.035em;
+}
+
+.contentPanel {
+  padding: clamp(18px, 3vw, 28px);
 }
 
 .content h2 {
-  font-size: 18px;
-  text-transform: uppercase;
-  letter-spacing: 0.03em;
-  margin-top: 32px;
-  margin-bottom: 12px;
+  margin: 26px 0 10px;
+  font-size: 21px;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
 }
 
 .content p {
-  font-size: 15px;
-  line-height: 1.75;
-  margin-bottom: 16px;
+  margin-bottom: 12px;
+  color: var(--text-secondary);
+  font-size: 16px;
+  line-height: 1.68;
+}
+
+.content p strong {
+  color: var(--text);
+}
+
+.content code {
+  display: inline-block;
+  padding: 2px 6px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.06);
+  color: var(--text);
+  font-size: 13px;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+}
+
+.content a {
+  color: #ffd6c9;
+  text-decoration: underline;
 }
 
 @media (max-width: 768px) {
   .container {
-    padding: 40px 24px;
+    padding-inline: 14px;
+    padding-top: 26px;
   }
 
-  .title {
-    font-size: 24px;
+  .intro,
+  .contentPanel {
+    border-radius: 20px;
+  }
+
+  .intro,
+  .contentPanel {
+    padding: 16px;
   }
 }

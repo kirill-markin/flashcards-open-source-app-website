@@ -1,17 +1,25 @@
 .root {
-  display: flex;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
   align-items: center;
-  justify-content: space-between;
   gap: 12px;
-  max-width: 640px;
-  margin: 0 auto;
-  padding: 10px 12px;
+  width: 100%;
+  max-width: 100%;
+  padding: 10px;
   border: 1px solid var(--border);
-  background: #fafafa;
+  border-radius: var(--radius-md);
+  background: var(--surface-elevated);
+  box-shadow: var(--shadow-soft);
 }
 
 .value {
   margin: 0;
+  min-width: 0;
+  padding: 10px 12px;
+  border-radius: var(--radius-sm);
+  background: rgba(255, 255, 255, 0.04);
+  color: var(--text-secondary);
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
   font-size: 13px;
   line-height: 1.5;
   white-space: pre-wrap;
@@ -21,29 +29,29 @@
 
 .button {
   flex-shrink: 0;
-  min-height: 36px;
-  padding: 8px 12px;
-  border: 1px solid var(--accent);
-  background: transparent;
-  color: var(--accent);
-  font-family: inherit;
+  min-height: 40px;
+  padding-inline: 14px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-pill);
+  background: rgba(255, 255, 255, 0.05);
+  color: var(--text-secondary);
   font-size: 13px;
   font-weight: 600;
   cursor: pointer;
-  transition: background 0.15s, color 0.15s;
+  transition: background 140ms ease, border-color 140ms ease, color 140ms ease;
 }
 
 @media (hover: hover) and (pointer: fine) {
   .button:hover {
-    background: var(--accent);
-    color: var(--bg);
+    border-color: var(--border-strong);
+    background: rgba(255, 255, 255, 0.09);
+    color: var(--text);
   }
 }
 
 @media (max-width: 640px) {
   .root {
-    flex-direction: column;
-    align-items: stretch;
+    grid-template-columns: 1fr;
   }
 
   .button {
