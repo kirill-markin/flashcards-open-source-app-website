@@ -17,20 +17,24 @@ export const metadata: Metadata = createPageMetadata({
 export default function DocsPage() {
   return (
     <div className={styles.container}>
-      <Breadcrumbs items={[{ label: "Docs", href: "/docs/" }]} />
-      <h1 className={styles.title}>Documentation</h1>
-      <div className={styles.grid}>
-        {DOCS.map((doc) => (
-          <Link
-            key={doc.slug}
-            href={`/docs/${doc.slug}/`}
-            className={styles.card}
-          >
-            <h2>{doc.title}</h2>
-            <p>{doc.description}</p>
-          </Link>
-        ))}
-      </div>
+      <section className={styles.intro}>
+        <Breadcrumbs items={[{ label: "Docs", href: "/docs/" }]} />
+        <h1 className={styles.title}>Documentation</h1>
+      </section>
+      <section className={styles.gridPanel}>
+        <div className={styles.grid}>
+          {DOCS.map((doc) => (
+            <Link
+              key={doc.slug}
+              href={`/docs/${doc.slug}/`}
+              className={styles.card}
+            >
+              <h2>{doc.title}</h2>
+              <p>{doc.description}</p>
+            </Link>
+          ))}
+        </div>
+      </section>
     </div>
   );
 }

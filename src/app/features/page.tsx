@@ -28,16 +28,20 @@ export const metadata: Metadata = createPageMetadata({
 export default function FeaturesPage() {
   return (
     <div className={styles.container}>
-      <h1 className={styles.title}>{pageContent.title}</h1>
-      <p className={styles.subtitle}>{featureSection.intro}</p>
-      <div className={styles.grid}>
-        {featureSection.items.map((item) => (
-          <div key={item.title} className={styles.card}>
-            <h2>{item.title}</h2>
-            <p>{item.description}</p>
-          </div>
-        ))}
-      </div>
+      <section className={styles.intro}>
+        <h1 className={styles.title}>{pageContent.title}</h1>
+        <p className={styles.subtitle}>{featureSection.intro}</p>
+      </section>
+      <section className={styles.gridPanel}>
+        <div className={styles.grid}>
+          {featureSection.items.map((item) => (
+            <div key={item.title} className={styles.card}>
+              <h2>{item.title}</h2>
+              <p>{item.description}</p>
+            </div>
+          ))}
+        </div>
+      </section>
     </div>
   );
 }

@@ -62,25 +62,33 @@ export default async function DocPage({ params }: PageProps) {
   if (!doc) {
     return (
       <div className={styles.container}>
-        <h1>Coming Soon</h1>
-        <p>This documentation page is being written.</p>
+        <section className={styles.intro}>
+          <h1 className={styles.title}>Coming Soon</h1>
+        </section>
+        <section className={styles.contentPanel}>
+          <p className={styles.empty}>This documentation page is being written.</p>
+        </section>
       </div>
     );
   }
 
   return (
     <div className={styles.container}>
-      <Breadcrumbs
-        items={[
-          { label: "Docs", href: "/docs/" },
-          { label: doc.frontmatter.title, href: `/docs/${slug}/` },
-        ]}
-      />
-      <h1 className={styles.title}>{doc.frontmatter.title}</h1>
-      <div
-        className={styles.content}
-        dangerouslySetInnerHTML={{ __html: doc.contentHtml }}
-      />
+      <section className={styles.intro}>
+        <Breadcrumbs
+          items={[
+            { label: "Docs", href: "/docs/" },
+            { label: doc.frontmatter.title, href: `/docs/${slug}/` },
+          ]}
+        />
+        <h1 className={styles.title}>{doc.frontmatter.title}</h1>
+      </section>
+      <section className={styles.contentPanel}>
+        <div
+          className={styles.content}
+          dangerouslySetInnerHTML={{ __html: doc.contentHtml }}
+        />
+      </section>
     </div>
   );
 }

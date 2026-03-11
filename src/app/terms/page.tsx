@@ -31,13 +31,17 @@ export default async function TermsPage() {
 
   return (
     <div className={styles.container}>
-      <h1 className={styles.title}>{pageContent.title}</h1>
-      <div className={styles.content}>
-        <p>
-          <strong>Last updated:</strong> {legalSection.lastUpdated}
-        </p>
-        <div dangerouslySetInnerHTML={{ __html: contentHtml }} />
-      </div>
+      <section className={styles.intro}>
+        <h1 className={styles.title}>{pageContent.title}</h1>
+      </section>
+      <section className={styles.contentPanel}>
+        <div className={styles.content}>
+          <p>
+            <strong>Last updated:</strong> {legalSection.lastUpdated}
+          </p>
+          <div dangerouslySetInnerHTML={{ __html: contentHtml }} />
+        </div>
+      </section>
     </div>
   );
 }

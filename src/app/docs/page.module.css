@@ -1,58 +1,87 @@
 .container {
-  max-width: 1200px;
+  width: min(100%, var(--content-width));
   margin: 0 auto;
-  padding: 64px 24px;
+  padding: 36px 20px 0;
+  display: grid;
+  gap: 16px;
+}
+
+.intro,
+.gridPanel {
+  border: 1px solid var(--border);
+  border-radius: var(--radius-xl);
+  background: var(--surface);
+  box-shadow: var(--shadow-soft);
+}
+
+.intro {
+  padding: clamp(20px, 3vw, 28px);
 }
 
 .title {
-  font-size: 36px;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: -0.01em;
-  margin-bottom: 32px;
+  margin: 0;
+  font-size: clamp(2rem, 3.6vw, 2.8rem);
+  letter-spacing: -0.04em;
+  line-height: 1;
+}
+
+.gridPanel {
+  padding: 16px;
 }
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 24px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
 }
 
 .card {
-  padding: 28px;
-  border: 1px solid var(--border);
   display: block;
-  transition: border-color 0.15s;
+  padding: 16px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  background: var(--surface-elevated);
+  transition: border-color 140ms ease, background 140ms ease;
 }
 
 .card:hover {
-  border-color: var(--accent);
-  text-decoration: none;
+  border-color: var(--border-strong);
+  background: linear-gradient(180deg, rgba(34, 34, 40, 0.98), rgba(22, 22, 28, 0.98));
 }
 
 .card h2 {
-  font-size: 15px;
-  text-transform: uppercase;
-  letter-spacing: 0.04em;
-  margin-bottom: 8px;
+  margin: 0 0 8px;
+  font-size: 17px;
+  letter-spacing: -0.015em;
+  line-height: 1.3;
 }
 
 .card p {
+  margin: 0;
   font-size: 14px;
-  color: var(--muted);
-  line-height: 1.6;
+  color: var(--text-secondary);
+  line-height: 1.55;
+}
+
+@media (max-width: 900px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 @media (max-width: 768px) {
   .container {
-    padding: 40px 24px;
+    padding-inline: 14px;
+    padding-top: 26px;
   }
 
-  .title {
-    font-size: 28px;
+  .intro,
+  .gridPanel {
+    border-radius: 20px;
   }
 
-  .grid {
-    grid-template-columns: 1fr;
+  .intro,
+  .gridPanel {
+    padding: 16px;
   }
 }
