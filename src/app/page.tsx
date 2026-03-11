@@ -27,6 +27,8 @@ function getFeatureSection() {
 
 const heroSection = getHeroSection();
 const featureSection = getFeatureSection();
+const agentHintText =
+  "Share this discovery URL with your AI agent. It can sign up, create your account, and manage your Flashcards workspace for you.";
 
 export default function HomePage() {
   return (
@@ -47,6 +49,7 @@ export default function HomePage() {
           </div>
         </div>
         <div className={styles.heroHint}>
+          <p className={styles.hintDescription}>{agentHintText}</p>
           <CopyCodeField
             value={`${heroSection.hintText}\n${heroSection.hintLink.href}`}
           />
