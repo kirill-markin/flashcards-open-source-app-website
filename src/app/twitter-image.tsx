@@ -27,25 +27,26 @@ export default function TwitterImage(): ImageResponse {
           }}
         >
           <svg
-            width="80"
-            height="80"
+            width="108"
+            height="108"
             viewBox="0 0 512 512"
             xmlns="http://www.w3.org/2000/svg"
           >
-            <rect width="512" height="512" rx="96" fill="#404040" />
-            <path
-              d="M256 80v352"
-              stroke="#fff"
-              strokeWidth="40"
-              strokeLinecap="round"
+            <rect
+              x="104"
+              y="92"
+              width="184"
+              height="264"
+              rx="32"
+              fill="#f8f3ec"
             />
-            <path
-              d="M336 176c0-44-36-72-80-72s-80 28-80 72c0 48 40 64 80 80s80 32 80 80c0 44-36 72-80 72s-80-28-80-72"
-              stroke="#fff"
-              strokeWidth="40"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              fill="none"
+            <rect
+              x="212"
+              y="156"
+              width="196"
+              height="272"
+              rx="32"
+              fill="#c44b2d"
             />
           </svg>
         </div>
