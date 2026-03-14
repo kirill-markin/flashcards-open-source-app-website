@@ -64,6 +64,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.3,
     },
     {
+      url: `${SITE_URL}/support/`,
+      lastModified: getFileLastModified(join(PAGES_DIR, "support", "index.md")),
+      changeFrequency: "yearly",
+      priority: 0.3,
+    },
+    {
       url: `${SITE_URL}/terms/`,
       lastModified: getFileLastModified(join(PAGES_DIR, "terms", "index.md")),
       changeFrequency: "yearly",

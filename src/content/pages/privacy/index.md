@@ -8,15 +8,19 @@ sections:
 ---
 ## What We Collect
 
-When you use the cloud beta, we store the flashcards data you create (cards, review history, workspace metadata) and your email address for authentication. Self-hosted instances do not send data to us unless you deploy your own copy that does so.
+When you use the hosted cloud beta, we store the email address you use for authentication and the learning data needed to operate the service, including cards, review history, and workspace metadata. Self-hosted instances do not send data to us unless you deploy your own copy that does so.
+
+## AI Features
+
+If you choose to use AI chat in the hosted app, your typed prompts, card-derived context needed for the request, uploaded files, uploaded images, and dictated audio or transcription requests may be sent to third-party AI providers configured on the server. The exact provider used depends on the hosted server configuration at the time of the request.
 
 ## How We Use Your Data
 
-Your data is used solely to provide the service. We do not sell, share, or use your data for advertising. Authentication and workspace access are isolated by the backend services documented in the public repository.
+Your data is used to provide authentication, cloud sync, and optional AI features. We do not sell your data or use it for advertising. Authentication and workspace access are handled by the backend services documented in the public repository.
 
 ## Data Storage
 
-Cloud data is stored in AWS RDS (Postgres) in the eu-central-1 region with daily automated backups. Data is encrypted at rest and in transit.
+Hosted cloud data is stored in AWS infrastructure, including Postgres for primary application data. Data is encrypted in transit, and service operators may retain operational logs needed to run and debug the hosted beta.
 
 ## Cookies
 
@@ -24,7 +28,11 @@ We use authentication cookies such as `session`, `refresh`, and `logged_in` for 
 
 ## Data Deletion
 
-For self-hosted instances, you control the database directly. The hosted beta is still evolving, so operational data removal may be a manual support action.
+For self-hosted instances, you control the database directly. In the hosted app, you can delete your account from the iOS app, and you can contact support if you need additional help with hosted data removal.
+
+## Support
+
+For privacy questions, contact [kirill@kirill-markin.com](mailto:kirill@kirill-markin.com) or use the [support page](/support/).
 
 ## Open Source
 

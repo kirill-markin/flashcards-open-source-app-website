@@ -3,6 +3,7 @@ export type MarketingPageSlug =
   | "features"
   | "pricing"
   | "privacy"
+  | "support"
   | "terms";
 
 export interface ContentLink {
