@@ -19,7 +19,7 @@ const SITE_CONTEXT: MarkdownSiteContext = {
   appUrl: "https://app.flashcards-open-source-app.com",
   githubUrl: "https://github.com/kirill-markin/flashcards-open-source-app",
 };
-const DISCOVERY_URL = "https://api.flashcards-open-source-app.com/v1/agent";
+const DISCOVERY_URL = "https://api.flashcards-open-source-app.com/v1/";
 const DOCS_DIR = join(process.cwd(), "src/content/docs");
 
 type MarkdownResult = {
@@ -224,7 +224,7 @@ export function renderLlmsText(): string {
 
   return `# Flashcards
 
-> Open-source flashcards app with spaced repetition, review queue, passwordless auth, and a self-hosted AWS/Postgres deployment path.
+> Open-source flashcards app with spaced repetition, web and iOS clients, agent-ready onboarding, and a self-hosted AWS/Postgres deployment path.
 
 ## Pages
 

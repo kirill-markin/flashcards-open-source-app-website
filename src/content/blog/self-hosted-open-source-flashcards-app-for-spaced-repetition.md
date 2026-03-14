@@ -21,7 +21,7 @@ That would be easier to accept if software were still hard to ship. It isn't.
 
 Small teams can build real products in a week now. We can ship fast, wire AI into actual workflows, and expose clean APIs from day one. Flashcards software should not still be trapped between clunky legacy UX and closed platforms.
 
-That's the gap [Flashcards](https://flashcards-open-source-app.com/) is trying to fill: a self-hosted open-source flashcards app with spaced repetition, a modern web stack, and AI built into the product direction instead of taped on later.
+That's the gap [Flashcards](https://flashcards-open-source-app.com/) is trying to fill: a self-hosted open-source flashcards app with spaced repetition, a modern web stack, offline-first client support, and AI built into the product direction instead of taped on later.
 
 ## Anki still works, but it feels old
 
@@ -61,7 +61,7 @@ That is not the interesting part.
 
 The interesting part is letting AI work inside the real product.
 
-In [Flashcards](https://flashcards-open-source-app.com/), the current app already has AI chat foundations tied to the actual workspace. The AI layer can work with real card operations: listing cards, searching cards, checking what is due, summarizing deck state, and creating or updating cards with explicit confirmation.
+In [Flashcards](https://flashcards-open-source-app.com/), the current web app already has AI chat tied to the actual workspace. The broader architecture also exposes a separate external agent surface for terminal tools, while the iOS client keeps its own offline-first sync flow.
 
 That's a much stronger direction than "generate 20 cards from this paragraph" and call it a day.
 
@@ -82,15 +82,16 @@ That means a clear review queue, card creation from the web client, spaced repet
 
 The project already has that foundation:
 
-- a web MVP you can use now
-- a review queue built around due cards
+- a hosted web app you can use now
+- an iOS app in the repository with local SQLite and sync
+- a review flow built around due cards and FSRS
 - open-source code on GitHub
-- a documented API surface
+- a documented external agent API surface
 - passwordless auth
 - a [self-hosting guide](https://flashcards-open-source-app.com/docs/self-hosting/)
 - [architecture docs](https://flashcards-open-source-app.com/docs/architecture/)
 
-It is still early, and I'm not pretending otherwise. The current public app is a web MVP. The broader direction is offline-first, with iOS planned next. But I'd rather use something early and honest than something polished and boxed-in.
+It is still early, and I'm not pretending otherwise. But the product is already more than a browser-only prototype: the repository ships the hosted web app, the iOS client, the auth service, the backend API, and the current sync path. I'd rather use something early and honest than something polished and boxed-in.
 
 ## This is exactly the kind of product we should be building now
 

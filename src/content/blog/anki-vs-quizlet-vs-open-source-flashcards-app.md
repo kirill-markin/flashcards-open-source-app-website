@@ -92,16 +92,18 @@ That is valuable data. I do not love the idea of treating it like rented platfor
 
 [Flashcards](https://flashcards-open-source-app.com/) is the direction I wish existed more often in this category: a modern **open source flashcards app** with spaced repetition, a documented self-hosting path, and a product surface simple enough to grow without turning into a museum.
 
-The current public version is intentionally honest about its stage. It is a web MVP, not a giant finished ecosystem.
+The current public version is intentionally honest about its stage. It is still early, but it is already more than a browser-only prototype.
 
 What you get today is clear:
 
-- create front/back cards from the browser
-- load your current cards list
-- work through a review queue of due cards
+- create front/back cards from the hosted web app
+- review due cards with FSRS scheduling
+- use AI chat with workspace data and file attachments
 - sign in with passwordless email OTP
+- connect terminal agents through the discovery-first API flow
+- run the iOS client from the main repository with offline-first sync
 - self-host the stack if you want control
-- use a focused API around cards, review queue, and reviews
+- use a focused external agent API for workspace bootstrap and SQL access
 
 That is already enough to cover the core loop that matters: create cards, review what is due, keep going tomorrow.
 

@@ -19,7 +19,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
         "Own your data.",
       ],
       subtitle:
-        "Open-source flashcards app with spaced repetition, a fast review queue, passwordless auth, and an agent-ready onboarding flow. Use the web MVP today, let Claude Code, Codex, or OpenClaw connect through one discovery URL, and keep the door open for the iOS offline-first client.",
+        "Open-source flashcards app with spaced repetition, passwordless auth, AI chat, and an agent-ready onboarding flow. Use the hosted web app today, connect Claude Code, Codex, or OpenClaw through one discovery URL, and keep web, iOS, and agent workflows on the same backend model.",
       primaryLink: {
         label: "Get Started",
         href: "https://app.flashcards-open-source-app.com",
@@ -38,17 +38,17 @@ export const HOME_PAGE_CONTENT: PageContent = {
       type: "feature_list",
       title: "Features",
       intro:
-        "A focused flashcards stack: the current web MVP, the public API surface, and the infrastructure already in place for self-hosting and future mobile clients.",
+        "A focused flashcards stack: hosted web app, iOS client in the repo, external agent API, and the infrastructure already in place for self-hosting.",
       items: [
         {
           title: "Spaced Repetition",
           description:
-            "Review cards with a built-in queue and a simple rating flow. The backend updates scheduling fields on every review submission.",
+            "Review cards with FSRS scheduling and a simple rating flow. The backend and iOS client keep the scheduler behavior aligned.",
         },
         {
-          title: "Fast Web MVP",
+          title: "Web App And AI Chat",
           description:
-            "Create cards, browse your collection, and work through due items in the browser with a minimal interface.",
+            "Create cards, browse your collection, review due items, and work with AI chat plus file attachments in the hosted web app.",
         },
         {
           title: "Passwordless Auth",
@@ -58,17 +58,17 @@ export const HOME_PAGE_CONTENT: PageContent = {
         {
           title: "Agent-Ready Onboarding",
           description:
-            "Give an AI agent the discovery URL, confirm the latest 8-digit email code, and let it finish login, API key setup, account loading, workspace selection, and tool discovery.",
+            "Give an AI agent the discovery URL, confirm the latest 8-digit email code, and let it finish login, API key setup, account loading, workspace selection, and SQL discovery.",
         },
         {
           title: "Self-Hosted",
           description:
-            "Run Postgres locally, start auth, backend, and web separately, and keep the full stack under your control.",
+            "Run Postgres locally, start auth, backend, and web separately, and keep the AWS deployment path under your control.",
         },
         {
-          title: "Offline-First Direction",
+          title: "Offline-First Clients",
           description:
-            "The repository is structured around an offline-first roadmap with Postgres on the backend and iOS as the next client priority.",
+            "The repository already includes the iOS app with local SQLite and sync, with Android still planned later.",
         },
       ],
     },
