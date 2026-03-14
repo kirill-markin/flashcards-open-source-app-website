@@ -32,7 +32,7 @@ The hosted service is provided on a best-effort basis and may change, pause, or 
 
 ## Support
 
-For support, contact [kirill@kirill-markin.com](mailto:kirill@kirill-markin.com) or use the [support page](/support/).
+For support, contact [kirill+flashcards@kirill-markin.com](mailto:kirill+flashcards@kirill-markin.com) or use the [support page](/support/).
 
 ## Open Source
 
