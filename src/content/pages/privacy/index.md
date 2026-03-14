@@ -10,6 +10,10 @@ sections:
 
 When you use the hosted cloud beta, we store the email address you use for authentication and the learning data needed to operate the service, including cards, review history, and workspace metadata. Self-hosted instances do not send data to us unless you deploy your own copy that does so.
 
+## Operator
+
+The hosted Flashcards service is operated by SAMO DANNI EOOD (VAT: BG207395566). Flashcards was created by Kirill Markin, and [kirill-markin.com](https://kirill-markin.com/) is the related personal website for the same creator and product ecosystem.
+
 ## AI Features
 
 If you choose to use AI chat in the hosted app, your typed prompts, card-derived context needed for the request, uploaded files, uploaded images, and dictated audio or transcription requests may be sent to third-party AI providers configured on the server. The exact provider used depends on the hosted server configuration at the time of the request.

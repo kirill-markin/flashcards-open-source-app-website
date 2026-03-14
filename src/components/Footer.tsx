@@ -34,9 +34,22 @@ export const Footer: React.FC = () => {
           </div>
         </div>
         <div className={styles.bottom}>
-          <span className={styles.copyright}>
-            {year} Flashcards
-          </span>
+          <span className={styles.copyright}>{year} Flashcards</span>
+          <div className={styles.attribution}>
+            <span className={styles.attributionLine}>
+              Built by Kirill Markin ·{" "}
+              <a
+                href="https://kirill-markin.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                kirill-markin.com
+              </a>
+            </span>
+            <span className={styles.attributionLine}>
+              Operated by SAMO DANNI EOOD · VAT: BG207395566
+            </span>
+          </div>
         </div>
       </div>
     </footer>

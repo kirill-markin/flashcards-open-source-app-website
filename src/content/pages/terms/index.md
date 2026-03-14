@@ -10,6 +10,10 @@ sections:
 
 Flashcards is an open-source spaced-repetition and flashcards tool. The hosted cloud beta is provided on an as-is and as-available basis during the beta period.
 
+## Service Provider
+
+The hosted Flashcards service is provided by SAMO DANNI EOOD (VAT: BG207395566). Flashcards was created by Kirill Markin, and [kirill-markin.com](https://kirill-markin.com/) is the related personal website for the same creator and product ecosystem.
+
 ## Your Data
 
 You own your data. We do not claim any rights to the cards, review history, or other learning content you enter.

@@ -48,11 +48,34 @@
 .bottom {
   border-top: 1px solid var(--border);
   padding-top: 16px;
+  display: grid;
+  gap: 8px;
 }
 
 .copyright {
   color: var(--text-tertiary);
   font-size: 13px;
+}
+
+.attribution {
+  display: grid;
+  gap: 4px;
+}
+
+.attributionLine {
+  color: var(--text-tertiary);
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.attributionLine a {
+  color: inherit;
+  text-decoration: underline;
+  text-underline-offset: 0.18em;
+}
+
+.attributionLine a:hover {
+  color: var(--text);
 }
 
 @media (max-width: 900px) {
