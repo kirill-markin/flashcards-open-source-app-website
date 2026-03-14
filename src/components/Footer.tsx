@@ -34,7 +34,9 @@ export const Footer: React.FC = () => {
           </div>
         </div>
         <div className={styles.bottom}>
-          <span className={styles.copyright}>{year} Flashcards</span>
+          <span className={styles.copyright}>
+            {year} Flashcards Open Source App
+          </span>
           <div className={styles.attribution}>
             <span className={styles.attributionLine}>
               Built by Kirill Markin ·{" "}
