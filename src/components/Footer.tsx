@@ -29,6 +29,7 @@ export const Footer: React.FC = () => {
           <div className={styles.column}>
             <h3>Legal</h3>
             <Link href="/privacy/">Privacy Policy</Link>
+            <Link href="/support/">Support</Link>
             <Link href="/terms/">Terms of Service</Link>
           </div>
         </div>

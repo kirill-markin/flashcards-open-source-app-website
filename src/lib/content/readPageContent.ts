@@ -23,7 +23,7 @@ import type {
 const CONTENT_DIR = join(process.cwd(), "src/content/pages");
 
 type StructuredMarketingPageSlug = "home" | "features" | "pricing";
-type MarkdownBackedPageSlug = "privacy" | "terms";
+type MarkdownBackedPageSlug = "privacy" | "support" | "terms";
 
 const STRUCTURED_PAGE_CONTENT: Readonly<
   Record<StructuredMarketingPageSlug, PageContent>
@@ -38,6 +38,7 @@ export const MARKETING_PAGE_SLUGS: ReadonlyArray<MarketingPageSlug> = [
   "features",
   "pricing",
   "privacy",
+  "support",
   "terms",
 ] as const;
 
@@ -269,6 +270,7 @@ function validatePageStructure(pageContent: PageContent): PageContent {
       }
       return pageContent;
     case "privacy":
+    case "support":
     case "terms":
       if (
         pageContent.sections.length !== 1 ||
