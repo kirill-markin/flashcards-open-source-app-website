@@ -36,7 +36,7 @@ For self-hosted instances, you control the database directly. In the hosted app,
 
 ## Support
 
-For privacy questions, contact [kirill@kirill-markin.com](mailto:kirill@kirill-markin.com) or use the [support page](/support/).
+For privacy questions, contact [kirill+flashcards@kirill-markin.com](mailto:kirill+flashcards@kirill-markin.com) or use the [support page](/support/).
 
 ## Open Source
 

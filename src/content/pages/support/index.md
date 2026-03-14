@@ -8,7 +8,7 @@ sections:
 ---
 ## Contact
 
-For product support, account help, or App Store review questions, email [kirill@kirill-markin.com](mailto:kirill@kirill-markin.com).
+For product support, account help, or App Store review questions, email [kirill+flashcards@kirill-markin.com](mailto:kirill+flashcards@kirill-markin.com).
 
 ## Account Deletion
 
