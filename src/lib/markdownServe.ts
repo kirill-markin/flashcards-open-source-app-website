@@ -1,7 +1,8 @@
-import { readFileSync, readdirSync, existsSync } from "fs";
+import { readFileSync, existsSync } from "fs";
 import { join } from "path";
 import matter from "gray-matter";
 import { DOCS } from "@/data/docs";
+import { listBlogPosts, readBlogPost } from "@/lib/blog";
 import {
   getMarketingPageSlugFromPath,
   listMarketingPagePaths,
@@ -20,7 +21,6 @@ const SITE_CONTEXT: MarkdownSiteContext = {
 };
 const DISCOVERY_URL = "https://api.flashcards-open-source-app.com/v1/agent";
 const DOCS_DIR = join(process.cwd(), "src/content/docs");
-const BLOG_DIR = join(process.cwd(), "src/content/blog");
 
 type MarkdownResult = {
   readonly markdown: string;
@@ -29,12 +29,6 @@ type MarkdownResult = {
 
 interface DocFrontmatter {
   readonly title: string;
-}
-
-interface BlogFrontmatter {
-  readonly title: string;
-  readonly description: string;
-  readonly date: string;
 }
 
 export interface BlogMeta {
@@ -46,10 +40,6 @@ export interface BlogMeta {
 
 function getDocFilePath(slug: string): string {
   return join(DOCS_DIR, `${slug}.md`);
-}
-
-function getBlogFilePath(slug: string): string {
-  return join(BLOG_DIR, `${slug}.md`);
 }
 
 function getOriginalPageUrl(pagePath: string): string {
@@ -100,25 +90,12 @@ export function renderDocsListingMarkdown(): MarkdownResult {
 }
 
 export function getBlogPosts(): ReadonlyArray<BlogMeta> {
-  if (!existsSync(BLOG_DIR)) {
-    return [];
-  }
-
-  return readdirSync(BLOG_DIR)
-    .filter((fileName) => fileName.endsWith(".md"))
-    .map((fileName): BlogMeta => {
-      const raw = readFileSync(getBlogFilePath(fileName.replace(/\.md$/, "")), "utf-8");
-      const { data } = matter(raw);
-      const frontmatter = data as BlogFrontmatter;
-
-      return {
-        slug: fileName.replace(/\.md$/, ""),
-        title: frontmatter.title,
-        description: frontmatter.description,
-        date: frontmatter.date,
-      };
-    })
-    .sort((leftPost, rightPost) => (leftPost.date > rightPost.date ? -1 : 1));
+  return listBlogPosts().map((post): BlogMeta => ({
+    slug: post.slug,
+    title: post.title,
+    description: post.description,
+    date: post.date,
+  }));
 }
 
 export function renderDocMarkdown(slug: string): MarkdownResult {
@@ -162,18 +139,15 @@ export function renderBlogListingMarkdown(): MarkdownResult {
 }
 
 export function renderBlogPostMarkdown(slug: string): MarkdownResult {
-  const filePath = getBlogFilePath(slug);
-  if (!existsSync(filePath)) {
+  const post = readBlogPost(slug);
+
+  if (post === null) {
     return { markdown: `# 404\n\nBlog post not found: ${slug}`, status: 404 };
   }
 
-  const raw = readFileSync(filePath, "utf-8");
-  const { data, content } = matter(raw);
-  const frontmatter = data as BlogFrontmatter;
-
   return {
     markdown: appendMarkdownFooter(
-      `# ${frontmatter.title}\n\n*${frontmatter.date}*\n\n${content.trim()}`,
+      `# ${post.title}\n\n*${post.date}*\n\n${post.bodyMarkdown.trim()}`,
       `blog/${slug}`
     ),
     status: 200,
