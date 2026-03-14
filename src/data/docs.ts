@@ -9,7 +9,7 @@ export const DOCS: ReadonlyArray<DocEntry> = [
     slug: "getting-started",
     title: "Getting Started",
     description:
-      "Open the hosted web app or run the local stack with Postgres, auth, backend, and web.",
+      "Start with the hosted web app, connect an agent through discovery, or run the local stack yourself.",
   },
   {
     slug: "self-hosting",
@@ -21,12 +21,12 @@ export const DOCS: ReadonlyArray<DocEntry> = [
     slug: "api",
     title: "API Reference",
     description:
-      "Current web and auth endpoints for sessions, cards, review queue, and reviews.",
+      "External agent API for discovery, OTP bootstrap, workspace setup, and the published SQL surface.",
   },
   {
     slug: "architecture",
     title: "Architecture",
     description:
-      "System overview, public domains, data flow, and the offline-first direction.",
+      "System overview, supported clients, public domains, and the current offline-first data flow.",
   },
 ] as const;

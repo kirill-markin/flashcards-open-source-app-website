@@ -101,7 +101,7 @@ Saying "we use FSRS" does not automatically make a flashcards product good.
 
 What matters is whether the implementation is actually careful.
 
-In [Flashcards](https://flashcards-open-source-app.com/), FSRS is treated as a product contract, not just a marketing label. The scheduler behavior is mirrored between the backend and the iOS app. The system stores hidden memory state on the card, keeps explicit learning and relearning steps, supports workspace-level settings like desired retention, maximum interval, and fuzz, and uses the real review timestamp from the client during scheduling.
+In [Flashcards](https://flashcards-open-source-app.com/), FSRS is treated as a product contract, not just a marketing label. The scheduler behavior is mirrored between the backend and the iOS app. The web app mirrors the scheduler data contract, but does not ship a third independent FSRS implementation. The system stores hidden memory state on each card, keeps explicit learning and relearning steps, supports workspace-level settings like desired retention, learning steps, relearning steps, maximum interval, and fuzz, and uses the real client review timestamp through `reviewedAtClient` during scheduling.
 
 That sounds like backend detail, but it is exactly the kind of detail that decides whether two clients schedule the same card the same way or drift apart.
 

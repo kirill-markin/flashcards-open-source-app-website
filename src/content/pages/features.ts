@@ -3,29 +3,29 @@ import type { PageContent } from "@/lib/content/types";
 export const FEATURES_PAGE_CONTENT: PageContent = {
   title: "Features",
   description:
-    "Review queue, card creation, agent-ready onboarding, passwordless auth, self-hosting, and the offline-first roadmap.",
+    "FSRS review, card creation, AI chat, agent-ready onboarding, passwordless auth, self-hosting, and offline-first clients.",
   slug: "features",
   sections: [
     {
       type: "feature_list",
       title: "Features",
       intro:
-        "A focused flashcards stack: the current web MVP, the public API surface, and the infrastructure already in place for self-hosting and future mobile clients.",
+        "A focused flashcards stack: hosted web app, iOS client in the repository, external agent API, and the infrastructure already in place for self-hosting.",
       items: [
         {
-          title: "Review Queue",
+          title: "FSRS Review",
           description:
-            "Due cards are loaded from the backend in a dedicated review queue. Submit one of four ratings and the server computes the next review time on write.",
+            "Due cards are scheduled with FSRS. Submit one of four ratings and the backend updates the next review time using the client review timestamp.",
         },
         {
-          title: "Card Creation",
+          title: "Card Creation And Chat",
           description:
-            "Create front/back cards from the web client today. The app keeps the current surface area intentionally small while the core model settles.",
+            "Create front/back cards from the web client and use AI chat with workspace data and file attachments, including plain text uploads.",
         },
         {
           title: "Agent-Ready Onboarding",
           description:
-            "Point Claude Code, Codex, or OpenClaw at the discovery URL and the agent can walk the whole auth flow, store the API key, load account context, choose the right workspace, and continue through the compact /v1/agent/tools surface with only one human step: sharing the latest 8-digit email code.",
+            "Point Claude Code, Codex, or OpenClaw at the discovery URL and the agent can walk the whole auth flow, store the API key, load account context, choose the right workspace, and continue through the compact /v1/agent/sql surface with only one human step: sharing the latest 8-digit email code.",
         },
         {
           title: "Passwordless Auth",
@@ -38,14 +38,14 @@ export const FEATURES_PAGE_CONTENT: PageContent = {
             "Run Postgres, auth, backend, and the web client locally. Production deployment is already wired for AWS with CDK, CloudFront, API Gateway, Lambda, and RDS.",
         },
         {
-          title: "Typed API",
+          title: "Published Agent API",
           description:
-            "The current API covers session discovery, card listing, card creation, review queue reads, and review submission. It is a practical base for future mobile sync.",
+            "The current external contract covers discovery, OTP bootstrap, workspace selection, and a published SQL dialect over workspace, cards, decks, and review events.",
         },
         {
-          title: "Offline-First Roadmap",
+          title: "Offline-First Clients",
           description:
-            "The repository is designed around local-first clients with backend sync. iOS is the next planned client, with Android following later.",
+            "The repository already ships the iOS client with local SQLite and sync routes on the backend. Android remains planned later.",
         },
       ],
     },

@@ -62,14 +62,14 @@ Migration gets easier when you stop demanding museum-grade preservation of every
 
 ## Upload the TXT file and let the assistant do the repetitive part
 
-This is where [Flashcards](https://flashcards-open-source-app.com/) gets more interesting than another static **Anki alternative 2026** comparison. The app already supports text file attachments in AI chat. You can upload a `.txt` file and ask the assistant to draft flashcards from it.
+This is where [Flashcards](https://flashcards-open-source-app.com/) gets more interesting than another static **Anki alternative 2026** comparison. The web app already supports text file attachments in AI chat. You can upload a `.txt` file and ask the assistant to draft flashcards from it.
 
 That changes the workflow in a practical way. Instead of copying cards one by one, you hand the assistant the exported text and say what you want:
 
 - turn this export into front/back cards
 - keep only Spanish verbs
 - split long answers into smaller cards
-- preserve tags where possible
+- preserve tags where possible if the export includes them clearly
 - show me drafts before applying anything
 
 In normal human language, not importer language. "Keep the tags if they are in the file. Split the long answers. Show me the draft first." That kind of workflow is much easier to trust.
@@ -83,7 +83,7 @@ I do not trust migration tools that promise too much. The phrase "smart import" 
 - the product silently guesses and gets details wrong
 - the product claims more compatibility than it really has
 
-I would rather have an explicit workflow. You upload the file. The assistant reads it. It drafts cards. You review what it understood. Then you tell it to create the cards you actually want.
+I would rather have an explicit workflow. You upload the file. The assistant reads it. It drafts cards. You review what it understood. Then you decide what should be created in the workspace.
 
 That is slower than marketing language.
 
@@ -147,4 +147,4 @@ Export the cards. Upload the `.txt` file. Let the assistant help with the repeti
 
 That is why I think this is one of the more useful ways to approach an **Anki export TXT** workflow in 2026.
 
-[Flashcards](https://flashcards-open-source-app.com/) will not pretend to be a magical one-click importer. It is a better kind of tool for this job: an **open source flashcards** app that gives you a realistic migration path and a stronger place to land after the move.
+[Flashcards](https://flashcards-open-source-app.com/) will not pretend to be a magical one-click importer or a dedicated Anki migration utility. It is a better kind of tool for this job: an **open source flashcards** app that gives you a realistic migration path and a stronger place to land after the move.
