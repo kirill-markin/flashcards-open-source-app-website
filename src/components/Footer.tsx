@@ -41,15 +41,15 @@ export const Footer: React.FC = () => {
             <span className={styles.attributionLine}>
               Built by Kirill Markin ·{" "}
               <a
-                href="https://kirill-markin.com/"
+                href="https://ozma.io/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                kirill-markin.com
+                ozma.io
               </a>
             </span>
             <span className={styles.attributionLine}>
-              Operated by SAMO DANNI EOOD · VAT: BG207395566 · Country: Bulgaria
+              Operated by Ozma Inc
             </span>
           </div>
         </div>

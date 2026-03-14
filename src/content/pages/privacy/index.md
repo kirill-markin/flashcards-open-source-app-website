@@ -12,7 +12,7 @@ When you use the hosted cloud beta, we store the email address you use for authe
 
 ## Operator
 
-The hosted Flashcards service is operated by SAMO DANNI EOOD (VAT: BG207395566). Flashcards was created by Kirill Markin, and [kirill-markin.com](https://kirill-markin.com/) is the related personal website for the same creator and product ecosystem.
+The hosted Flashcards service is operated by Ozma Inc. Flashcards was created by Kirill Markin, and [ozma.io](https://ozma.io/) is the related company website for the hosted service.
 
 ## AI Features
 

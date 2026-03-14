@@ -12,7 +12,7 @@ Flashcards is an open-source spaced-repetition and flashcards tool. The hosted c
 
 ## Service Provider
 
-The hosted Flashcards service is provided by SAMO DANNI EOOD (VAT: BG207395566). Flashcards was created by Kirill Markin, and [kirill-markin.com](https://kirill-markin.com/) is the related personal website for the same creator and product ecosystem.
+The hosted Flashcards service is provided by Ozma Inc. Flashcards was created by Kirill Markin, and [ozma.io](https://ozma.io/) is the related company website for the hosted service.
 
 ## Your Data
 
