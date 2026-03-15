@@ -76,22 +76,12 @@
 }
 
 .appShowcase {
-  padding: 18px;
+  padding: 16px;
   display: grid;
-  gap: 18px;
+  gap: 12px;
 }
 
-.appShowcaseHeader {
-  display: grid;
-  gap: 8px;
-}
-
-.appShowcaseCopy {
-  display: grid;
-  gap: 8px;
-}
-
-.appShowcaseEyebrow {
+.appShowcaseLabel {
   margin: 0;
   color: var(--text-secondary);
   font-size: 12px;
@@ -99,22 +89,6 @@
   letter-spacing: 0.14em;
   font-weight: 760;
   text-transform: uppercase;
-}
-
-.appShowcaseTitle {
-  margin: 0;
-  font-size: clamp(1.5rem, 2.1vw, 2rem);
-  line-height: 1;
-  letter-spacing: -0.035em;
-  font-weight: 760;
-}
-
-.appShowcaseDescription {
-  margin: 0;
-  max-width: 780px;
-  color: var(--text-secondary);
-  font-size: 15px;
-  line-height: 1.6;
 }
 
 .appShowcaseFrame {
