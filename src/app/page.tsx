@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { AuthButton } from "@/components/AuthButton";
 import { CopyCodeField } from "@/components/CopyCodeField";
 import { readPageContent } from "@/lib/content/readPageContent";
@@ -29,6 +30,9 @@ const heroSection = getHeroSection();
 const featureSection = getFeatureSection();
 const agentHintText =
   "Share this discovery URL with your AI agent. It can sign up, create your account, and manage your Flashcards workspace for you.";
+const appShowcaseTitle = "Inside the app";
+const appShowcaseDescription =
+  "A full-width preview of review, search, AI chat, editing, open-source, and server setup screens from the native client.";
 
 export default function HomePage() {
   return (
@@ -53,6 +57,29 @@ export default function HomePage() {
           <p className={styles.hintDescription}>{agentHintText}</p>
           <CopyCodeField
             value={`${heroSection.hintText}\n${heroSection.hintLink.href}`}
+          />
+        </div>
+      </section>
+
+      <section className={styles.appShowcase} aria-labelledby="app-showcase-title">
+        <div className={styles.appShowcaseHeader}>
+          <div className={styles.appShowcaseCopy}>
+            <p className={styles.appShowcaseEyebrow}>IN THE APP</p>
+            <h2 id="app-showcase-title" className={styles.appShowcaseTitle}>
+              {appShowcaseTitle}
+            </h2>
+            <p className={styles.appShowcaseDescription}>{appShowcaseDescription}</p>
+          </div>
+        </div>
+        <div className={styles.appShowcaseFrame}>
+          <Image
+            src="/home/app-screens-showcase.jpg"
+            alt="Flashcards app screens showing review, cards, AI, editing, open source, and server setup flows."
+            width={8452}
+            height={2889}
+            priority
+            sizes="(max-width: 768px) calc(100vw - 28px), (max-width: 1280px) calc(100vw - 40px), 1240px"
+            className={styles.appShowcaseImage}
           />
         </div>
       </section>
