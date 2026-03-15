@@ -14,6 +14,7 @@
 
 .heroMain,
 .heroHint,
+.appShowcase,
 .featuresInner {
   border: 1px solid var(--border);
   border-radius: var(--radius-xl);
@@ -74,6 +75,65 @@
   text-align: start;
 }
 
+.appShowcase {
+  padding: 18px;
+  display: grid;
+  gap: 18px;
+}
+
+.appShowcaseHeader {
+  display: grid;
+  gap: 8px;
+}
+
+.appShowcaseCopy {
+  display: grid;
+  gap: 8px;
+}
+
+.appShowcaseEyebrow {
+  margin: 0;
+  color: var(--text-secondary);
+  font-size: 12px;
+  line-height: 1.2;
+  letter-spacing: 0.14em;
+  font-weight: 760;
+  text-transform: uppercase;
+}
+
+.appShowcaseTitle {
+  margin: 0;
+  font-size: clamp(1.5rem, 2.1vw, 2rem);
+  line-height: 1;
+  letter-spacing: -0.035em;
+  font-weight: 760;
+}
+
+.appShowcaseDescription {
+  margin: 0;
+  max-width: 780px;
+  color: var(--text-secondary);
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.appShowcaseFrame {
+  padding: clamp(10px, 1.6vw, 16px);
+  border: 1px solid var(--border);
+  border-radius: calc(var(--radius-xl) - 4px);
+  background:
+    radial-gradient(circle at top, rgba(196, 75, 45, 0.12), transparent 42%),
+    rgba(255, 255, 255, 0.02);
+  overflow: hidden;
+}
+
+.appShowcaseImage {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: calc(var(--radius-xl) - 8px);
+}
+
 .features {
   padding-bottom: 4px;
 }
@@ -124,6 +184,7 @@
 
   .heroMain,
   .heroHint,
+  .appShowcase,
   .featuresInner {
     border-radius: 20px;
   }
@@ -131,6 +192,11 @@
   .heroMain {
     padding: 20px;
     gap: 16px;
+  }
+
+  .appShowcase {
+    padding: 14px;
+    gap: 14px;
   }
 
   .hintTitle {
