@@ -51,7 +51,7 @@ export default function HomePage() {
           </div>
         </div>
         <div className={styles.heroHint}>
-          <div className={styles.humanAccessRow}>
+          <div className={styles.humanAccess}>
             <h2 className={styles.hintTitle}>FOR HUMAN</h2>
             <HumanPlatformLinks />
           </div>

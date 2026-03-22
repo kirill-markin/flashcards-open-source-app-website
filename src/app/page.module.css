@@ -67,11 +67,9 @@
   text-align: start;
 }
 
-.humanAccessRow {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 16px;
+.humanAccess {
+  display: grid;
+  gap: 14px;
 }
 
 .hintDivider {
@@ -189,11 +187,6 @@
   .appShowcase {
     padding: 14px;
     gap: 14px;
-  }
-
-  .humanAccessRow {
-    flex-direction: column;
-    align-items: flex-start;
   }
 
   .hintTitle {
