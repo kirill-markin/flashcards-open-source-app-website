@@ -1,24 +1,20 @@
 .platformList {
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 10px;
-  flex-wrap: wrap;
 }
 
 .platformLink,
 .platformDisabled {
-  min-width: 78px;
-  min-height: 74px;
-  padding: 10px 12px;
+  position: relative;
+  min-height: 92px;
+  padding: 14px 16px;
   border: 1px solid var(--border);
   border-radius: var(--radius-md);
   background: rgba(255, 255, 255, 0.03);
-  display: inline-flex;
-  flex-direction: column;
+  display: flex;
   align-items: center;
   justify-content: center;
-  gap: 8px;
   transition:
     transform 140ms ease,
     border-color 140ms ease,
@@ -34,7 +30,7 @@
 .platformDisabled {
   color: var(--text-tertiary);
   background: rgba(255, 255, 255, 0.02);
-  opacity: 0.58;
+  opacity: 0.78;
   cursor: not-allowed;
 }
 
@@ -51,6 +47,13 @@
   height: 22px;
 }
 
+.platformBadge {
+  display: block;
+  width: auto;
+  max-width: 100%;
+  height: auto;
+}
+
 .platformLabel {
   font-size: 11px;
   line-height: 1.1;
@@ -60,8 +63,43 @@
   text-align: center;
 }
 
+.platformLink {
+  flex-direction: column;
+  gap: 10px;
+}
+
+.platformDisabled::after {
+  content: attr(data-tooltip);
+  position: absolute;
+  inset-inline-start: 50%;
+  inset-block-end: calc(100% + 8px);
+  transform: translateX(-50%) translateY(4px);
+  padding: 7px 10px;
+  border: 1px solid var(--border-strong);
+  border-radius: var(--radius-pill);
+  background: rgba(17, 17, 22, 0.94);
+  color: var(--text);
+  font-size: 11px;
+  line-height: 1;
+  letter-spacing: 0.04em;
+  white-space: nowrap;
+  opacity: 0;
+  pointer-events: none;
+  transition:
+    opacity 140ms ease,
+    transform 140ms ease;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .platformDisabled:hover::after,
+  .platformDisabled:focus-visible::after {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+  }
+}
+
 @media (max-width: 768px) {
   .platformList {
-    justify-content: flex-start;
+    grid-template-columns: 1fr;
   }
 }
