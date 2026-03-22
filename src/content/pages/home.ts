@@ -3,7 +3,7 @@ import type { PageContent } from "@/lib/content/types";
 export const HOME_PAGE_METADATA = {
   title: "Flashcards - Open Source Spaced Repetition",
   description:
-    "Open-source flashcards app with spaced repetition, agent-ready onboarding, passwordless auth, and a self-hosted AWS/Postgres deployment path.",
+    "Create cards, learn more, and forget less with an open-source flashcards app for spaced repetition, AI chat, and agent-ready onboarding.",
 } as const;
 
 export const HOME_PAGE_CONTENT: PageContent = {
@@ -15,8 +15,8 @@ export const HOME_PAGE_CONTENT: PageContent = {
       type: "hero",
       titleLines: [
         "Create cards.",
-        "Review on time.",
-        "Own your data.",
+        "Learn more.",
+        "Forget less.",
       ],
       subtitle:
         "Open-source flashcards app with spaced repetition, passwordless auth, AI chat, and an agent-ready onboarding flow. Use the hosted web app today, connect Claude Code, Codex, or OpenClaw through one discovery URL, and keep web, iOS, and agent workflows on the same backend model.",

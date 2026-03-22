@@ -1,0 +1,67 @@
+.platformList {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.platformLink,
+.platformDisabled {
+  min-width: 78px;
+  min-height: 74px;
+  padding: 10px 12px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  background: rgba(255, 255, 255, 0.03);
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  transition:
+    transform 140ms ease,
+    border-color 140ms ease,
+    background 140ms ease,
+    color 140ms ease,
+    opacity 140ms ease;
+}
+
+.platformLink {
+  color: var(--text);
+}
+
+.platformDisabled {
+  color: var(--text-tertiary);
+  background: rgba(255, 255, 255, 0.02);
+  opacity: 0.58;
+  cursor: not-allowed;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .platformLink:hover {
+    border-color: var(--border-strong);
+    background: rgba(255, 255, 255, 0.06);
+    transform: translateY(-1px);
+  }
+}
+
+.platformIcon {
+  width: 22px;
+  height: 22px;
+}
+
+.platformLabel {
+  font-size: 11px;
+  line-height: 1.1;
+  letter-spacing: 0.08em;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .platformList {
+    justify-content: flex-start;
+  }
+}
