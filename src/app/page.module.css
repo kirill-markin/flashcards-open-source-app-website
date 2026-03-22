@@ -52,7 +52,7 @@
 .heroHint {
   padding: 14px;
   display: grid;
-  align-content: start;
+  align-content: center;
   gap: 18px;
 }
 
