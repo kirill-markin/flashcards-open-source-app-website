@@ -68,7 +68,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
         {
           title: "Offline-First Clients",
           description:
-            "The repository already includes the iOS app with local SQLite and sync, with Android still planned later.",
+            "The repository already includes the iOS app with local SQLite and sync, and the Android app is now available on Google Play.",
         },
       ],
     },

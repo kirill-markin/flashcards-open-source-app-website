@@ -24,9 +24,8 @@ Apex fallback                   -> <domain>      -> CloudFront redirect -> app.<
 
 - Web app on `app.flashcards-open-source-app.com`
 - iOS app in the main repository with local SQLite storage
+- Android app on Google Play
 - External agent clients through discovery, OTP bootstrap, and `Authorization: ApiKey`
-
-Android is not part of the current shipped client set yet.
 
 ## Data Model
 

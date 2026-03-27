@@ -1,58 +1,10 @@
 "use client";
 
 import Image from "next/image";
+import { getHumanPlatforms } from "@/lib/humanPlatforms";
 import { getAppUrl, getLoginUrl } from "@/lib/auth";
 import { useLoggedInCookie } from "@/lib/useLoggedInCookie";
 import styles from "./HumanPlatformLinks.module.css";
-
-type ActivePlatform = {
-  readonly imageAlt?: string;
-  readonly imageHeight?: number;
-  readonly imageSrc?: string;
-  readonly imageWidth?: number;
-  readonly href: string;
-  readonly label: string;
-  readonly state: "active";
-};
-
-type DisabledPlatform = {
-  readonly imageAlt: string;
-  readonly imageHeight: number;
-  readonly imageSrc: string;
-  readonly imageWidth: number;
-  readonly label: string;
-  readonly state: "disabled";
-};
-
-type HumanPlatform = ActivePlatform | DisabledPlatform;
-
-const getHumanPlatforms = (loggedIn: boolean): readonly HumanPlatform[] => {
-  const webEntryHref = loggedIn ? getAppUrl() : getLoginUrl("/");
-
-  return [
-    {
-      href: webEntryHref,
-      label: "Web App",
-      state: "active",
-    },
-    {
-      label: "App Store",
-      imageAlt: "Official App Store badge",
-      imageHeight: 40,
-      imageSrc: "/home/app-store-badge.svg",
-      imageWidth: 120,
-      state: "disabled",
-    },
-    {
-      label: "Google Play",
-      imageAlt: "Official Google Play lockup",
-      imageHeight: 61,
-      imageSrc: "/home/google-play-lockup.png",
-      imageWidth: 300,
-      state: "disabled",
-    },
-  ];
-};
 
 function WebIcon() {
   return (
@@ -75,12 +27,13 @@ function WebIcon() {
 
 export const HumanPlatformLinks: React.FC = () => {
   const loggedIn = useLoggedInCookie();
-  const platforms = getHumanPlatforms(loggedIn);
+  const webEntryHref = loggedIn ? getAppUrl() : getLoginUrl("/");
+  const platforms = getHumanPlatforms(webEntryHref);
 
   return (
     <div className={styles.platformList}>
       {platforms.map((platform) => {
-        if (platform.state === "active") {
+        if (platform.kind === "active") {
           return (
             <a
               key={platform.label}
@@ -88,8 +41,20 @@ export const HumanPlatformLinks: React.FC = () => {
               className={styles.platformLink}
               aria-label={platform.label}
             >
-              <WebIcon />
-              <span className={styles.platformLabel}>{platform.label}</span>
+              {platform.image ? (
+                <Image
+                  src={platform.image.src}
+                  alt={platform.image.alt}
+                  width={platform.image.width}
+                  height={platform.image.height}
+                  className={styles.platformBadge}
+                />
+              ) : (
+                <>
+                  <WebIcon />
+                  <span className={styles.platformLabel}>{platform.label}</span>
+                </>
+              )}
             </a>
           );
         }
@@ -99,15 +64,15 @@ export const HumanPlatformLinks: React.FC = () => {
             key={platform.label}
             className={styles.platformDisabled}
             aria-disabled="true"
-            aria-label={`${platform.label}. In development. Coming soon.`}
-            data-tooltip="In development. Coming soon."
+            aria-label={`${platform.label}. ${platform.tooltip}`}
+            data-tooltip={platform.tooltip}
             tabIndex={0}
           >
             <Image
-              src={platform.imageSrc}
-              alt={platform.imageAlt}
-              width={platform.imageWidth}
-              height={platform.imageHeight}
+              src={platform.image.src}
+              alt={platform.image.alt}
+              width={platform.image.width}
+              height={platform.image.height}
               className={styles.platformBadge}
             />
           </span>
