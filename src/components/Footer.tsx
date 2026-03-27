@@ -1,8 +1,11 @@
 import Link from "next/link";
+import { getAppUrl } from "@/lib/auth";
+import { getHumanPlatforms } from "@/lib/humanPlatforms";
 import styles from "./Footer.module.css";
 
 export const Footer: React.FC = () => {
   const year = new Date().getFullYear();
+  const platforms = getHumanPlatforms(getAppUrl());
 
   return (
     <footer className={styles.footer}>
@@ -25,6 +28,34 @@ export const Footer: React.FC = () => {
               GitHub
             </a>
             <Link href="/docs/self-hosting/">Self-Hosting Guide</Link>
+          </div>
+          <div className={styles.column}>
+            <h3>Apps</h3>
+            {platforms.map((platform) => {
+              if (platform.kind === "active") {
+                return (
+                  <a
+                    key={platform.label}
+                    href={platform.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {platform.label}
+                  </a>
+                );
+              }
+
+              return (
+                <span
+                  key={platform.label}
+                  className={styles.placeholderLink}
+                  aria-label={`${platform.label}. ${platform.tooltip}`}
+                  title={platform.tooltip}
+                >
+                  {platform.label} · In Development
+                </span>
+              );
+            })}
           </div>
           <div className={styles.column}>
             <h3>Legal</h3>

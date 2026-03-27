@@ -45,7 +45,7 @@ export const FEATURES_PAGE_CONTENT: PageContent = {
         {
           title: "Offline-First Clients",
           description:
-            "The repository already ships the iOS client with local SQLite and sync routes on the backend. Android remains planned later.",
+            "The repository already ships the iOS client with local SQLite and sync routes on the backend, and the Android app is now available on Google Play.",
         },
       ],
     },

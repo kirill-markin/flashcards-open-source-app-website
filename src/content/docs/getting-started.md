@@ -41,4 +41,4 @@ If you prefer to run your own instance, see the [Self-Hosting Guide](/docs/self-
 
 The project is offline-first.
 
-Today the repository includes the web app, the iOS app, the auth service, the backend API, and the external agent flow. Android is the next major client that is still planned later.
+Today the repository includes the web app, the iOS app, the auth service, the backend API, the external agent flow, and the Android app published on Google Play.
