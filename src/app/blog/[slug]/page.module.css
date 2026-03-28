@@ -37,6 +37,16 @@
   text-transform: uppercase;
 }
 
+.byline {
+  display: block;
+  margin-top: 10px;
+  color: var(--text-secondary);
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 0.14em;
+}
+
 .title {
   margin: 10px 0 0;
   font-size: clamp(1.9rem, 3.2vw, 2.5rem);
