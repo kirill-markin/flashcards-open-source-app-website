@@ -18,6 +18,20 @@ interface PageProps {
 }
 
 const SITE_URL = "https://flashcards-open-source-app.com";
+const AUTHOR_NAME = "Kirill Markin";
+const AUTHOR_URL = "https://kirill-markin.com/";
+
+interface ArticleAuthor {
+  "@type": "Person";
+  name: string;
+  url: string;
+}
+
+const ARTICLE_AUTHOR: ArticleAuthor = {
+  "@type": "Person",
+  name: AUTHOR_NAME,
+  url: AUTHOR_URL,
+};
 
 export const generateMetadata = async ({
   params,
@@ -59,6 +73,7 @@ export default async function BlogPostPage({ params }: PageProps) {
     description: post.description,
     datePublished: post.date,
     url: `${SITE_URL}/blog/${slug}/`,
+    author: ARTICLE_AUTHOR,
     publisher: {
       "@type": "Organization",
       name: "Flashcards",
@@ -81,6 +96,9 @@ export default async function BlogPostPage({ params }: PageProps) {
           ]}
         />
         <time className={styles.date}>{post.date}</time>
+        <a href={AUTHOR_URL} className={styles.byline}>
+          By {AUTHOR_NAME}
+        </a>
         <h1 className={styles.title}>{post.title}</h1>
       </section>
       <section className={styles.contentPanel}>
