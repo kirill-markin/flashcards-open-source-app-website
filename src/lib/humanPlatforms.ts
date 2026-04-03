@@ -21,6 +21,9 @@ export type DisabledHumanPlatform = {
 
 export type HumanPlatform = ActiveHumanPlatform | DisabledHumanPlatform;
 
+export const APP_STORE_URL =
+  "https://apps.apple.com/us/app/flashcards-open-source-app/id6760538964";
+
 export const GOOGLE_PLAY_URL =
   "https://play.google.com/store/apps/details?id=com.flashcardsopensourceapp.app&pcampaignid=web_share";
 
@@ -47,10 +50,10 @@ export const getHumanPlatforms = (
     label: "Web App",
   },
   {
+    href: APP_STORE_URL,
     image: APP_STORE_IMAGE,
-    kind: "disabled",
+    kind: "active",
     label: "App Store",
-    tooltip: "iOS App Store release is in development.",
   },
   {
     href: GOOGLE_PLAY_URL,
