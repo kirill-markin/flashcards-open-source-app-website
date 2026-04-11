@@ -1,3 +1,6 @@
+import type { AppLocale } from "@/lib/i18n";
+import { getUiCopy } from "@/lib/uiCopy";
+
 export type PlatformImage = {
   readonly alt: string;
   readonly height: number;
@@ -41,24 +44,29 @@ const GOOGLE_PLAY_IMAGE: PlatformImage = {
   width: 300,
 };
 
-export const getHumanPlatforms = (
+export function getHumanPlatforms(
   webEntryHref: string,
-): readonly HumanPlatform[] => [
-  {
-    href: webEntryHref,
-    kind: "active",
-    label: "Web App",
-  },
-  {
-    href: APP_STORE_URL,
-    image: APP_STORE_IMAGE,
-    kind: "active",
-    label: "App Store",
-  },
-  {
-    href: GOOGLE_PLAY_URL,
-    image: GOOGLE_PLAY_IMAGE,
-    kind: "active",
-    label: "Google Play",
-  },
-];
+  locale: AppLocale
+): readonly HumanPlatform[] {
+  const uiCopy = getUiCopy(locale);
+
+  return [
+    {
+      href: webEntryHref,
+      kind: "active",
+      label: uiCopy.platforms.webApp,
+    },
+    {
+      href: APP_STORE_URL,
+      image: APP_STORE_IMAGE,
+      kind: "active",
+      label: uiCopy.platforms.appStore,
+    },
+    {
+      href: GOOGLE_PLAY_URL,
+      image: GOOGLE_PLAY_IMAGE,
+      kind: "active",
+      label: uiCopy.platforms.googlePlay,
+    },
+  ];
+}

@@ -6,10 +6,15 @@ import styles from "./CopyCodeField.module.css";
 type CopyState = "idle" | "copied" | "failed";
 
 interface CopyCodeFieldProps {
+  readonly labels: {
+    readonly copied: string;
+    readonly copy: string;
+    readonly copyFailed: string;
+  };
   readonly value: string;
 }
 
-export function CopyCodeField({ value }: CopyCodeFieldProps) {
+export function CopyCodeField({ value, labels }: CopyCodeFieldProps) {
   const [copyState, setCopyState] = useState<CopyState>("idle");
   const resetTimeoutRef = useRef<number | null>(null);
 
@@ -47,10 +52,10 @@ export function CopyCodeField({ value }: CopyCodeFieldProps) {
       </pre>
       <button type="button" className={styles.button} onClick={handleCopy}>
         {copyState === "copied"
-          ? "Copied"
+          ? labels.copied
           : copyState === "failed"
-            ? "Copy failed"
-            : "Copy"}
+            ? labels.copyFailed
+            : labels.copy}
       </button>
     </div>
   );

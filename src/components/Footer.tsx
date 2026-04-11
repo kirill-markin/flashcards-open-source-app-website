@@ -1,25 +1,72 @@
 import Link from "next/link";
 import { getAppUrl } from "@/lib/auth";
+import type { AppLocale } from "@/lib/i18n";
+import { getLocalizedPathname } from "@/lib/i18n";
 import { getHumanPlatforms } from "@/lib/humanPlatforms";
+import { getUiCopy } from "@/lib/uiCopy";
 import styles from "./Footer.module.css";
 
-export const Footer: React.FC = () => {
+interface FooterProps {
+  readonly locale: AppLocale;
+}
+
+export const Footer: React.FC<FooterProps> = ({ locale }) => {
   const year = new Date().getFullYear();
-  const platforms = getHumanPlatforms(getAppUrl());
+  const platforms = getHumanPlatforms(getAppUrl(), locale);
+  const uiCopy = getUiCopy(locale);
+  const productLinks =
+    locale === "es"
+      ? [
+          {
+            href: getLocalizedPathname(locale, "/features/"),
+            label: uiCopy.footer.featuresLabel,
+          },
+          {
+            href: getLocalizedPathname(locale, "/pricing/"),
+            label: uiCopy.footer.pricingLabel,
+          },
+          {
+            href: getLocalizedPathname(locale, "/docs/"),
+            label: uiCopy.footer.documentationLabel,
+          },
+          {
+            href: getLocalizedPathname(locale, "/blog/"),
+            label: uiCopy.footer.blogLabel,
+          },
+        ]
+      : [
+          {
+            href: getLocalizedPathname(locale, "/features/"),
+            label: uiCopy.footer.featuresLabel,
+          },
+          {
+            href: getLocalizedPathname(locale, "/pricing/"),
+            label: uiCopy.footer.pricingLabel,
+          },
+          {
+            href: getLocalizedPathname(locale, "/docs/"),
+            label: uiCopy.footer.documentationLabel,
+          },
+          {
+            href: getLocalizedPathname(locale, "/blog/"),
+            label: uiCopy.footer.blogLabel,
+          },
+        ];
 
   return (
     <footer className={styles.footer}>
       <div className={styles.inner}>
         <div className={styles.columns}>
           <div className={styles.column}>
-            <h3>Product</h3>
-            <Link href="/features/">Features</Link>
-            <Link href="/pricing/">Pricing</Link>
-            <Link href="/docs/">Documentation</Link>
-            <Link href="/blog/">Blog</Link>
+            <h3>{uiCopy.footer.productHeading}</h3>
+            {productLinks.map((link) => (
+              <Link key={link.href} href={link.href}>
+                {link.label}
+              </Link>
+            ))}
           </div>
           <div className={styles.column}>
-            <h3>Open Source</h3>
+            <h3>{uiCopy.footer.openSourceHeading}</h3>
             <a
               href="https://github.com/kirill-markin/flashcards-open-source-app"
               target="_blank"
@@ -27,10 +74,12 @@ export const Footer: React.FC = () => {
             >
               GitHub
             </a>
-            <Link href="/docs/self-hosting/">Self-Hosting Guide</Link>
+            <Link href={getLocalizedPathname(locale, "/docs/self-hosting/")}>
+              {uiCopy.footer.selfHostingGuideLabel}
+            </Link>
           </div>
           <div className={styles.column}>
-            <h3>Apps</h3>
+            <h3>{uiCopy.footer.appsHeading}</h3>
             {platforms.map((platform) => {
               if (platform.kind === "active") {
                 return (
@@ -52,25 +101,31 @@ export const Footer: React.FC = () => {
                   aria-label={`${platform.label}. ${platform.tooltip}`}
                   title={platform.tooltip}
                 >
-                  {platform.label} · In Development
+                  {platform.label} · {uiCopy.footer.inDevelopmentLabel}
                 </span>
               );
             })}
           </div>
           <div className={styles.column}>
-            <h3>Legal</h3>
-            <Link href="/privacy/">Privacy Policy</Link>
-            <Link href="/support/">Support</Link>
-            <Link href="/terms/">Terms of Service</Link>
+            <h3>{uiCopy.footer.legalHeading}</h3>
+            <Link href={getLocalizedPathname(locale, "/privacy/")}>
+              {uiCopy.footer.privacyPolicyLabel}
+            </Link>
+            <Link href={getLocalizedPathname(locale, "/support/")}>
+              {uiCopy.footer.supportLabel}
+            </Link>
+            <Link href={getLocalizedPathname(locale, "/terms/")}>
+              {uiCopy.footer.termsOfServiceLabel}
+            </Link>
           </div>
         </div>
         <div className={styles.bottom}>
           <span className={styles.copyright}>
-            {year} Flashcards Open Source App
+            {year} {uiCopy.footer.copyrightLabel}
           </span>
           <div className={styles.attribution}>
             <span className={styles.attributionLine}>
-              Built by Kirill Markin ·{" "}
+              {uiCopy.footer.builtByLabel} ·{" "}
               <a
                 href="https://ozma.io/"
                 target="_blank"
@@ -80,7 +135,7 @@ export const Footer: React.FC = () => {
               </a>
             </span>
             <span className={styles.attributionLine}>
-              Operated by Ozma Inc
+              {uiCopy.footer.operatedByLabel}
             </span>
           </div>
         </div>

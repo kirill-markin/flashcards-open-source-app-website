@@ -1,9 +1,22 @@
 import { existsSync, readFileSync } from "fs";
-import { join } from "path";
 import matter from "gray-matter";
-import { FEATURES_PAGE_CONTENT } from "@/content/pages/features";
-import { HOME_PAGE_CONTENT } from "@/content/pages/home";
-import { PRICING_PAGE_CONTENT } from "@/content/pages/pricing";
+import { FEATURES_PAGE_CONTENT as EN_FEATURES_PAGE_CONTENT } from "@/content/en/pages/features";
+import { HOME_PAGE_CONTENT as EN_HOME_PAGE_CONTENT } from "@/content/en/pages/home";
+import { PRICING_PAGE_CONTENT as EN_PRICING_PAGE_CONTENT } from "@/content/en/pages/pricing";
+import { FEATURES_PAGE_CONTENT as ES_FEATURES_PAGE_CONTENT } from "@/content/es/pages/features";
+import { HOME_PAGE_CONTENT as ES_HOME_PAGE_CONTENT } from "@/content/es/pages/home";
+import { PRICING_PAGE_CONTENT as ES_PRICING_PAGE_CONTENT } from "@/content/es/pages/pricing";
+import {
+  getMarkdownMarketingPageFilePath,
+  getStructuredMarketingPageFilePath,
+} from "@/lib/content/paths";
+import {
+  SUPPORTED_LOCALES,
+  type AppLocale,
+  getLocalizedPathname,
+  normalizePathname,
+  resolveLocaleFromPathname,
+} from "@/lib/i18n";
 import type {
   AuthPricingTier,
   ContentLink,
@@ -20,18 +33,43 @@ import type {
   SimpleMarkdownPageSection,
 } from "./types";
 
-const CONTENT_DIR = join(process.cwd(), "src/content/pages");
-
 type StructuredMarketingPageSlug = "home" | "features" | "pricing";
 type MarkdownBackedPageSlug = "privacy" | "support" | "terms";
+const STRUCTURED_PAGE_SLUGS: ReadonlyArray<StructuredMarketingPageSlug> = [
+  "home",
+  "features",
+  "pricing",
+] as const;
 
 const STRUCTURED_PAGE_CONTENT: Readonly<
-  Record<StructuredMarketingPageSlug, PageContent>
+  Record<AppLocale, Readonly<Record<StructuredMarketingPageSlug, PageContent>>>
 > = {
-  home: HOME_PAGE_CONTENT,
-  features: FEATURES_PAGE_CONTENT,
-  pricing: PRICING_PAGE_CONTENT,
-};
+  en: {
+    home: EN_HOME_PAGE_CONTENT,
+    features: EN_FEATURES_PAGE_CONTENT,
+    pricing: EN_PRICING_PAGE_CONTENT,
+  },
+  es: {
+    home: ES_HOME_PAGE_CONTENT,
+    features: ES_FEATURES_PAGE_CONTENT,
+    pricing: ES_PRICING_PAGE_CONTENT,
+  },
+} as const;
+
+const STRUCTURED_PAGE_SOURCE_FILE_PATHS: Readonly<
+  Record<AppLocale, Readonly<Record<StructuredMarketingPageSlug, string>>>
+> = {
+  en: {
+    home: getStructuredMarketingPageFilePath("en", "home"),
+    features: getStructuredMarketingPageFilePath("en", "features"),
+    pricing: getStructuredMarketingPageFilePath("en", "pricing"),
+  },
+  es: {
+    home: getStructuredMarketingPageFilePath("es", "home"),
+    features: getStructuredMarketingPageFilePath("es", "features"),
+    pricing: getStructuredMarketingPageFilePath("es", "pricing"),
+  },
+} as const;
 
 export const MARKETING_PAGE_SLUGS: ReadonlyArray<MarketingPageSlug> = [
   "home",
@@ -42,8 +80,25 @@ export const MARKETING_PAGE_SLUGS: ReadonlyArray<MarketingPageSlug> = [
   "terms",
 ] as const;
 
-function getMarkdownPageFilePath(slug: MarkdownBackedPageSlug): string {
-  return join(CONTENT_DIR, slug, "index.md");
+function getPagePathname(slug: MarketingPageSlug): string {
+  if (slug === "home") {
+    return "/";
+  }
+
+  return `/${slug}/`;
+}
+
+function getMarkdownPageFilePath(
+  slug: MarkdownBackedPageSlug,
+  locale: AppLocale
+): string {
+  return getMarkdownMarketingPageFilePath(locale, slug);
+}
+
+function isStructuredMarketingPageSlug(
+  slug: MarketingPageSlug
+): slug is StructuredMarketingPageSlug {
+  return STRUCTURED_PAGE_SLUGS.includes(slug as StructuredMarketingPageSlug);
 }
 
 function assertNonEmptyString(
@@ -291,38 +346,82 @@ function validatePageStructure(pageContent: PageContent): PageContent {
   }
 }
 
-export function getMarketingPagePath(slug: MarketingPageSlug): string {
-  if (slug === "home") {
+export function hasMarketingPageTranslation(
+  slug: MarketingPageSlug,
+  locale: AppLocale
+): boolean {
+  if (isStructuredMarketingPageSlug(slug)) {
+    return STRUCTURED_PAGE_CONTENT[locale][slug] !== undefined;
+  }
+
+  return existsSync(getMarkdownPageFilePath(slug as MarkdownBackedPageSlug, locale));
+}
+
+export function getMarketingPageSourceFilePath(
+  slug: MarketingPageSlug,
+  locale: AppLocale
+): string {
+  if (isStructuredMarketingPageSlug(slug)) {
+    return STRUCTURED_PAGE_SOURCE_FILE_PATHS[locale][slug];
+  }
+
+  return getMarkdownPageFilePath(slug as MarkdownBackedPageSlug, locale);
+}
+
+export function getMarketingPagePath(
+  slug: MarketingPageSlug,
+  locale: AppLocale
+): string {
+  const localizedPathname = getLocalizedPathname(locale, getPagePathname(slug));
+
+  if (localizedPathname === "/") {
     return "";
   }
 
-  return slug;
+  return localizedPathname.replace(/^\/+/, "").replace(/\/+$/, "");
 }
 
-export function getMarketingPageSlugFromPath(
+export function getMarketingPageFromPath(
   pagePath: string
-): MarketingPageSlug | null {
-  const normalizedPagePath = pagePath.replace(/^\/+/, "").replace(/\/+$/, "");
+): { readonly locale: AppLocale; readonly slug: MarketingPageSlug } | null {
+  const pagePathname =
+    pagePath.trim() === "" ? "/" : normalizePathname(`/${pagePath}`);
+  const { locale, routePathname } = resolveLocaleFromPathname(pagePathname);
+  const normalizedRoutePathname = normalizePathname(routePathname);
 
-  if (normalizedPagePath === "" || normalizedPagePath === "home") {
-    return "home";
+  if (normalizedRoutePathname === "/") {
+    return { locale, slug: "home" };
   }
 
-  if (MARKETING_PAGE_SLUGS.includes(normalizedPagePath as MarketingPageSlug)) {
-    return normalizedPagePath as MarketingPageSlug;
+  const slug = normalizedRoutePathname.replace(/^\/+/, "").replace(/\/+$/, "");
+
+  if (MARKETING_PAGE_SLUGS.includes(slug as MarketingPageSlug)) {
+    return { locale, slug: slug as MarketingPageSlug };
   }
 
   return null;
 }
 
 export function listMarketingPagePaths(): ReadonlyArray<string> {
-  return MARKETING_PAGE_SLUGS.map((slug) => getMarketingPagePath(slug));
+  return MARKETING_PAGE_SLUGS.flatMap((slug) => {
+    const locales = SUPPORTED_LOCALES.filter((locale) =>
+      hasMarketingPageTranslation(slug, locale)
+    );
+
+    return locales.map((locale) => getMarketingPagePath(slug, locale));
+  });
 }
 
-export function readPageContent(slug: MarketingPageSlug): PageContent {
-  if (slug in STRUCTURED_PAGE_CONTENT) {
-    const structuredPageContent =
-      STRUCTURED_PAGE_CONTENT[slug as StructuredMarketingPageSlug];
+export function readPageContent(
+  slug: MarketingPageSlug,
+  locale: AppLocale
+): PageContent {
+  if (isStructuredMarketingPageSlug(slug)) {
+    const structuredPageContent = STRUCTURED_PAGE_CONTENT[locale][slug];
+
+    if (structuredPageContent === undefined) {
+      throw new Error(`Missing structured page content for page: ${slug}, locale: ${locale}`);
+    }
 
     return validatePageStructure({
       title: assertNonEmptyString(
@@ -344,10 +443,12 @@ export function readPageContent(slug: MarketingPageSlug): PageContent {
   }
 
   const markdownBackedSlug = slug as MarkdownBackedPageSlug;
-  const filePath = getMarkdownPageFilePath(markdownBackedSlug);
+  const filePath = getMarkdownPageFilePath(markdownBackedSlug, locale);
 
   if (!existsSync(filePath)) {
-    throw new Error(`Missing page content file: ${filePath}`);
+    throw new Error(
+      `Missing page content file for page: ${slug}, locale: ${locale}, path: ${filePath}`
+    );
   }
 
   const raw = readFileSync(filePath, "utf-8");
@@ -374,6 +475,10 @@ export function readPageContent(slug: MarketingPageSlug): PageContent {
   return validatePageStructure(pageContent);
 }
 
-export function readAllMarketingPages(): ReadonlyArray<PageContent> {
-  return MARKETING_PAGE_SLUGS.map((slug) => readPageContent(slug));
+export function readAllMarketingPages(
+  locale: AppLocale
+): ReadonlyArray<PageContent> {
+  return MARKETING_PAGE_SLUGS.filter((slug) =>
+    hasMarketingPageTranslation(slug, locale)
+  ).map((slug) => readPageContent(slug, locale));
 }

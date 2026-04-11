@@ -1,34 +1,45 @@
-import { HOME_PAGE_METADATA } from "@/content/pages/home";
+import type { AppLocale } from "@/lib/i18n";
+import { getAbsoluteUrl, getLocalizedPathname } from "@/lib/i18n";
+import { readPageContent } from "@/lib/content/readPageContent";
 
-const SITE_URL = "https://flashcards-open-source-app.com";
+interface JsonLdSchemaProps {
+  readonly locale: AppLocale;
+}
 
-const softwareAppSchema = {
-  "@context": "https://schema.org",
-  "@type": "SoftwareApplication",
-  name: "Flashcards",
-  description: HOME_PAGE_METADATA.description,
-  url: `${SITE_URL}/`,
-  applicationCategory: "EducationalApplication",
-  operatingSystem: "Web",
-  license: "https://opensource.org/licenses/MIT",
-  offers: {
-    "@type": "Offer",
-    price: "0",
-    priceCurrency: "USD",
-  },
-  codeRepository:
-    "https://github.com/kirill-markin/flashcards-open-source-app",
-};
+export function JsonLdSchema({
+  locale,
+}: JsonLdSchemaProps): React.JSX.Element {
+  const homePageContent = readPageContent("home", locale);
+  const localizedHomeUrl = getAbsoluteUrl(getLocalizedPathname(locale, "/"));
 
-const websiteSchema = {
-  "@context": "https://schema.org",
-  "@type": "WebSite",
-  url: `${SITE_URL}/`,
-  name: "Flashcards",
-  description: HOME_PAGE_METADATA.description,
-};
+  const softwareAppSchema = {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    name: "Flashcards",
+    description: homePageContent.description,
+    url: localizedHomeUrl,
+    inLanguage: locale,
+    applicationCategory: "EducationalApplication",
+    operatingSystem: "Web",
+    license: "https://opensource.org/licenses/MIT",
+    offers: {
+      "@type": "Offer",
+      price: "0",
+      priceCurrency: "USD",
+    },
+    codeRepository:
+      "https://github.com/kirill-markin/flashcards-open-source-app",
+  };
 
-export function JsonLdSchema(): React.JSX.Element {
+  const websiteSchema = {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    url: localizedHomeUrl,
+    name: "Flashcards",
+    description: homePageContent.description,
+    inLanguage: locale,
+  };
+
   return (
     <>
       <script

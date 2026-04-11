@@ -1,95 +1,181 @@
 import type { MetadataRoute } from "next";
 import { join } from "path";
-import { DOCS } from "@/data/docs";
+import { BLOG_POST_SLUGS } from "@/data/blog";
+import { DOC_SLUGS } from "@/data/docs";
+import { hasBlogTranslation } from "@/lib/blog";
+import {
+  getBlogDirectory,
+  getBlogFilePath,
+  getDocFilePath,
+  getDocsDirectory,
+} from "@/lib/content/paths";
+import { hasDocTranslation } from "@/lib/docs";
+import {
+  getAbsoluteUrl,
+  getLanguageAlternates,
+  getLocalizedPathname,
+  SUPPORTED_LOCALES,
+  type AppLocale,
+} from "@/lib/i18n";
+import {
+  getMarketingPageSourceFilePath,
+  hasMarketingPageTranslation,
+  MARKETING_PAGE_SLUGS,
+} from "@/lib/content/readPageContent";
 import {
   getFileLastModified,
-  getMarkdownSlugs,
   getNewestDirectoryFileLastModified,
 } from "@/lib/sitemap/getLastModified";
 
-const SITE_URL = "https://flashcards-open-source-app.com";
-const BLOG_DIR = join(process.cwd(), "src/content/blog");
-const DOCS_DIR = join(process.cwd(), "src/content/docs");
-const PAGES_DIR = join(process.cwd(), "src/content/pages");
-const APP_DIR = join(process.cwd(), "src/app");
+const DEFAULT_ROUTES_DIR = join(process.cwd(), "src/app", "(default)");
 
-export default function sitemap(): MetadataRoute.Sitemap {
-  const blogSlugs = getMarkdownSlugs(BLOG_DIR);
-  const newestBlogLastModified = getNewestDirectoryFileLastModified(BLOG_DIR);
-  const blogIndexLastModified =
-    newestBlogLastModified ??
-    getFileLastModified(join(APP_DIR, "blog", "page.tsx"));
-
-  const docsIndexLastModified = getNewestDirectoryFileLastModified(DOCS_DIR);
-
-  if (docsIndexLastModified === null) {
-    throw new Error(`Missing docs markdown files for sitemap: ${DOCS_DIR}`);
+function getMarketingRoutePathname(
+  slug: (typeof MARKETING_PAGE_SLUGS)[number]
+): string {
+  if (slug === "home") {
+    return "/";
   }
 
-  const staticEntries: MetadataRoute.Sitemap = [
-    {
-      url: `${SITE_URL}/`,
-      lastModified: getFileLastModified(join(PAGES_DIR, "home.ts")),
-      changeFrequency: "weekly",
-      priority: 1.0,
-    },
-    {
-      url: `${SITE_URL}/features/`,
-      lastModified: getFileLastModified(join(PAGES_DIR, "features.ts")),
-      changeFrequency: "monthly",
-      priority: 0.8,
-    },
-    {
-      url: `${SITE_URL}/pricing/`,
-      lastModified: getFileLastModified(join(PAGES_DIR, "pricing.ts")),
-      changeFrequency: "monthly",
-      priority: 0.8,
-    },
-    {
-      url: `${SITE_URL}/blog/`,
-      lastModified: blogIndexLastModified,
-      changeFrequency: "weekly",
-      priority: 0.7,
-    },
-    {
-      url: `${SITE_URL}/docs/`,
-      lastModified: docsIndexLastModified,
-      changeFrequency: "monthly",
-      priority: 0.7,
-    },
-    {
-      url: `${SITE_URL}/privacy/`,
-      lastModified: getFileLastModified(join(PAGES_DIR, "privacy", "index.md")),
-      changeFrequency: "yearly",
-      priority: 0.3,
-    },
-    {
-      url: `${SITE_URL}/support/`,
-      lastModified: getFileLastModified(join(PAGES_DIR, "support", "index.md")),
-      changeFrequency: "yearly",
-      priority: 0.3,
-    },
-    {
-      url: `${SITE_URL}/terms/`,
-      lastModified: getFileLastModified(join(PAGES_DIR, "terms", "index.md")),
-      changeFrequency: "yearly",
-      priority: 0.3,
-    },
-  ];
+  return `/${slug}/`;
+}
 
-  const blogEntries: MetadataRoute.Sitemap = blogSlugs.map((slug) => ({
-    url: `${SITE_URL}/blog/${slug}/`,
-    lastModified: getFileLastModified(join(BLOG_DIR, `${slug}.md`)),
-    changeFrequency: "monthly" as const,
-    priority: 0.6,
+function getMarketingPriority(
+  slug: (typeof MARKETING_PAGE_SLUGS)[number]
+): number {
+  switch (slug) {
+    case "home":
+      return 1;
+    case "features":
+    case "pricing":
+      return 0.8;
+    case "privacy":
+    case "support":
+    case "terms":
+      return 0.3;
+    default:
+      throw new Error(`Unsupported marketing page slug in sitemap: ${slug}`);
+  }
+}
+
+function getMarketingChangeFrequency(
+  slug: (typeof MARKETING_PAGE_SLUGS)[number]
+): MetadataRoute.Sitemap[number]["changeFrequency"] {
+  switch (slug) {
+    case "home":
+      return "weekly";
+    case "features":
+    case "pricing":
+      return "monthly";
+    case "privacy":
+    case "support":
+    case "terms":
+      return "yearly";
+    default:
+      throw new Error(`Unsupported marketing page slug in sitemap: ${slug}`);
+  }
+}
+
+function getMarketingEntries(): MetadataRoute.Sitemap {
+  return MARKETING_PAGE_SLUGS.flatMap((slug) => {
+    const routePathname = getMarketingRoutePathname(slug);
+
+    return SUPPORTED_LOCALES.filter((locale) =>
+      hasMarketingPageTranslation(slug, locale)
+    ).map((locale) => ({
+      url: getAbsoluteUrl(getLocalizedPathname(locale, routePathname)),
+      lastModified: getFileLastModified(getMarketingPageSourceFilePath(slug, locale)),
+      changeFrequency: getMarketingChangeFrequency(slug),
+      priority: getMarketingPriority(slug),
+      alternates: {
+        languages: getLanguageAlternates(routePathname),
+      },
+    }));
+  });
+}
+
+function getLocalizedContentEntries(
+  routePathname: string,
+  priority: number,
+  changeFrequency: MetadataRoute.Sitemap[number]["changeFrequency"],
+  getLastModified: (locale: AppLocale) => Date
+): MetadataRoute.Sitemap {
+  return SUPPORTED_LOCALES.map((locale) => ({
+    url: getAbsoluteUrl(getLocalizedPathname(locale, routePathname)),
+    lastModified: getLastModified(locale),
+    changeFrequency,
+    priority,
+    alternates: {
+      languages: getLanguageAlternates(routePathname),
+    },
   }));
+}
 
-  const docEntries: MetadataRoute.Sitemap = DOCS.map((doc) => ({
-    url: `${SITE_URL}/docs/${doc.slug}/`,
-    lastModified: getFileLastModified(join(DOCS_DIR, `${doc.slug}.md`)),
-    changeFrequency: "monthly" as const,
-    priority: 0.5,
-  }));
+function getDocsEntries(): MetadataRoute.Sitemap {
+  const docsIndexEntries = getLocalizedContentEntries(
+    "/docs/",
+    0.7,
+    "monthly",
+    (locale) => {
+      const lastModified = getNewestDirectoryFileLastModified(getDocsDirectory(locale));
 
-  return [...staticEntries, ...blogEntries, ...docEntries];
+      if (lastModified === null) {
+        throw new Error(
+          `Missing localized docs markdown files for sitemap locale: ${locale}`
+        );
+      }
+
+      return lastModified;
+    }
+  );
+
+  const docEntries = DOC_SLUGS.flatMap((slug) =>
+    SUPPORTED_LOCALES.filter((locale) => hasDocTranslation(slug, locale)).map(
+      (locale) => ({
+        url: getAbsoluteUrl(getLocalizedPathname(locale, `/docs/${slug}/`)),
+        lastModified: getFileLastModified(getDocFilePath(locale, slug)),
+        changeFrequency: "monthly" as const,
+        priority: 0.5,
+        alternates: {
+          languages: getLanguageAlternates(`/docs/${slug}/`),
+        },
+      })
+    )
+  );
+
+  return [...docsIndexEntries, ...docEntries];
+}
+
+function getBlogEntries(): MetadataRoute.Sitemap {
+  const blogIndexEntries = getLocalizedContentEntries(
+    "/blog/",
+    0.7,
+    "weekly",
+    (locale) => {
+      const lastModified =
+        getNewestDirectoryFileLastModified(getBlogDirectory(locale)) ??
+        getFileLastModified(join(DEFAULT_ROUTES_DIR, "blog", "page.tsx"));
+
+      return lastModified;
+    }
+  );
+
+  const blogEntries = BLOG_POST_SLUGS.flatMap((slug) =>
+    SUPPORTED_LOCALES.filter((locale) => hasBlogTranslation(slug, locale)).map(
+      (locale) => ({
+        url: getAbsoluteUrl(getLocalizedPathname(locale, `/blog/${slug}/`)),
+        lastModified: getFileLastModified(getBlogFilePath(locale, slug)),
+        changeFrequency: "monthly" as const,
+        priority: 0.6,
+        alternates: {
+          languages: getLanguageAlternates(`/blog/${slug}/`),
+        },
+      })
+    )
+  );
+
+  return [...blogIndexEntries, ...blogEntries];
+}
+
+export default function sitemap(): MetadataRoute.Sitemap {
+  return [...getMarketingEntries(), ...getDocsEntries(), ...getBlogEntries()];
 }

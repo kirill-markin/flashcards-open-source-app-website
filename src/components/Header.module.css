@@ -68,6 +68,10 @@
 }
 
 .desktopAuth {
+  display: flex;
+}
+
+.desktopLocale {
   margin-inline-start: auto;
   display: flex;
 }
@@ -123,8 +127,13 @@
   padding-top: 2px;
 }
 
+.mobileLocale {
+  padding-inline: 12px;
+}
+
 @media (max-width: 900px) {
   .desktopNav,
+  .desktopLocale,
   .desktopAuth {
     display: none;
   }

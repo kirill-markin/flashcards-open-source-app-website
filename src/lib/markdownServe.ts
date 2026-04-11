@@ -1,10 +1,15 @@
-import { readFileSync, existsSync } from "fs";
-import { join } from "path";
-import matter from "gray-matter";
-import { DOCS } from "@/data/docs";
+import { DOC_SLUGS } from "@/data/docs";
 import { listBlogPosts, readBlogPost } from "@/lib/blog";
+import { getDocs, readDoc } from "@/lib/docs";
 import {
-  getMarketingPageSlugFromPath,
+  getLocalizedPathname,
+  resolveLocaleFromPathname,
+  SUPPORTED_LOCALES,
+  type AppLocale,
+} from "@/lib/i18n";
+import { localizeInternalLinks } from "@/lib/localizeInternalLinks";
+import {
+  getMarketingPageFromPath,
   listMarketingPagePaths,
   readAllMarketingPages,
   readPageContent,
@@ -13,6 +18,7 @@ import {
   renderMarketingPageMarkdown,
   type MarkdownSiteContext,
 } from "@/lib/content/renderMarkdown";
+import { getUiCopy } from "@/lib/uiCopy";
 
 const SITE_CONTEXT: MarkdownSiteContext = {
   siteUrl: "https://flashcards-open-source-app.com",
@@ -20,26 +26,16 @@ const SITE_CONTEXT: MarkdownSiteContext = {
   githubUrl: "https://github.com/kirill-markin/flashcards-open-source-app",
 };
 const DISCOVERY_URL = "https://api.flashcards-open-source-app.com/v1/";
-const DOCS_DIR = join(process.cwd(), "src/content/docs");
-
 type MarkdownResult = {
   readonly markdown: string;
   readonly status: 200 | 404;
 };
-
-interface DocFrontmatter {
-  readonly title: string;
-}
 
 export interface BlogMeta {
   readonly slug: string;
   readonly title: string;
   readonly description: string;
   readonly date: string;
-}
-
-function getDocFilePath(slug: string): string {
-  return join(DOCS_DIR, `${slug}.md`);
 }
 
 function getOriginalPageUrl(pagePath: string): string {
@@ -50,47 +46,73 @@ function getOriginalPageUrl(pagePath: string): string {
   return `${SITE_CONTEXT.siteUrl}/${pagePath}/`;
 }
 
-function appendMarkdownFooter(markdown: string, pagePath: string): string {
-  return `${markdown.trim()}\n\n---\n*[View the styled HTML version of this page](${getOriginalPageUrl(
-    pagePath
-  )})*\n\n*AI agents can create an account for the user in this service by starting with \`GET ${DISCOVERY_URL}\`.*\n\n*Tip: Append \`.md\` to any URL on ${SITE_CONTEXT.siteUrl} to get a clean Markdown version of that page.*`;
+function appendMarkdownFooter(
+  markdown: string,
+  locale: AppLocale,
+  pagePath: string
+): string {
+  const htmlVersionLine =
+    locale === "es"
+      ? `*[Ver la version HTML con estilo de esta pagina](${getOriginalPageUrl(pagePath)})*`
+      : `*[View the styled HTML version of this page](${getOriginalPageUrl(pagePath)})*`;
+  const agentLine =
+    locale === "es"
+      ? `*Los agentes de IA pueden crear una cuenta para el usuario en este servicio comenzando con \`GET ${DISCOVERY_URL}\`.*`
+      : `*AI agents can create an account for the user in this service by starting with \`GET ${DISCOVERY_URL}\`.*`;
+  const markdownTipLine =
+    locale === "es"
+      ? `*Consejo: Anade \`.md\` a cualquier URL en ${SITE_CONTEXT.siteUrl} para obtener una version limpia en Markdown de esa pagina.*`
+      : `*Tip: Append \`.md\` to any URL on ${SITE_CONTEXT.siteUrl} to get a clean Markdown version of that page.*`;
+
+  return `${markdown.trim()}\n\n---\n${htmlVersionLine}\n\n${agentLine}\n\n${markdownTipLine}`;
 }
 
 function renderMarketingPageMarkdownDocument(pagePath: string): MarkdownResult {
-  const pageSlug = getMarketingPageSlugFromPath(pagePath);
+  const page = getMarketingPageFromPath(pagePath);
 
-  if (pageSlug === null) {
+  if (page === null) {
     return { markdown: `# 404\n\nPage not found: /${pagePath}`, status: 404 };
   }
 
-  const pageContent = readPageContent(pageSlug);
+  const pageContent = readPageContent(page.slug, page.locale);
 
   return {
     markdown: appendMarkdownFooter(
-      renderMarketingPageMarkdown(pageContent),
+      renderMarketingPageMarkdown(pageContent, page.locale),
+      page.locale,
       pagePath
     ),
     status: 200,
   };
 }
 
-export function renderDocsListingMarkdown(): MarkdownResult {
+export function renderDocsListingMarkdown(locale: AppLocale): MarkdownResult {
+  const uiCopy = getUiCopy(locale);
   const lines: string[] = [
-    "# Documentation",
+    `# ${uiCopy.docs.title}`,
     "",
   ];
 
-  for (const doc of DOCS) {
+  for (const doc of getDocs(locale, DOC_SLUGS)) {
+    const docPath = getLocalizedPathname(locale, `/docs/${doc.slug}/`);
+
     lines.push(
-      `- [${doc.title}](${SITE_CONTEXT.siteUrl}/docs/${doc.slug}/): ${doc.description}`
+      `- [${doc.title}](${SITE_CONTEXT.siteUrl}${docPath}): ${doc.description}`
     );
   }
 
-  return { markdown: appendMarkdownFooter(lines.join("\n"), "docs"), status: 200 };
+  return {
+    markdown: appendMarkdownFooter(
+      lines.join("\n"),
+      locale,
+      getPagePath(getLocalizedPathname(locale, "/docs/"))
+    ),
+    status: 200,
+  };
 }
 
-export function getBlogPosts(): ReadonlyArray<BlogMeta> {
-  return listBlogPosts().map((post): BlogMeta => ({
+export function getBlogPosts(locale: AppLocale): ReadonlyArray<BlogMeta> {
+  return listBlogPosts(locale).map((post): BlogMeta => ({
     slug: post.slug,
     title: post.title,
     description: post.description,
@@ -98,72 +120,110 @@ export function getBlogPosts(): ReadonlyArray<BlogMeta> {
   }));
 }
 
-export function renderDocMarkdown(slug: string): MarkdownResult {
-  const filePath = getDocFilePath(slug);
-  if (!existsSync(filePath)) {
+export function renderDocMarkdown(
+  locale: AppLocale,
+  slug: string
+): MarkdownResult {
+  const doc = readDoc(locale, slug);
+
+  if (doc === null) {
     return { markdown: `# 404\n\nDocument not found: ${slug}`, status: 404 };
   }
 
-  const raw = readFileSync(filePath, "utf-8");
-  const { data, content } = matter(raw);
-  const frontmatter = data as DocFrontmatter;
+  const docPath = getPagePath(getLocalizedPathname(locale, `/docs/${slug}/`));
 
   return {
     markdown: appendMarkdownFooter(
-      `# ${frontmatter.title}\n\n${content.trim()}`,
-      `docs/${slug}`
+      `# ${doc.title}\n\n${localizeInternalLinks(doc.bodyMarkdown, locale)}`,
+      locale,
+      docPath
     ),
     status: 200,
   };
 }
 
-export function renderBlogListingMarkdown(): MarkdownResult {
-  const posts = getBlogPosts();
+export function renderBlogListingMarkdown(locale: AppLocale): MarkdownResult {
+  const posts = getBlogPosts(locale);
+  const uiCopy = getUiCopy(locale);
 
   if (posts.length === 0) {
-    return { markdown: "# Blog\n\nPosts coming soon.", status: 200 };
+    return {
+      markdown:
+        locale === "es"
+          ? "# Blog\n\nPublicaciones proximamente."
+          : "# Blog\n\nPosts coming soon.",
+      status: 200,
+    };
   }
 
   const lines: string[] = [
-    "# Blog",
+    `# ${uiCopy.blog.title}`,
     "",
   ];
 
   for (const post of posts) {
+    const postPath = getLocalizedPathname(locale, `/blog/${post.slug}/`);
+
     lines.push(
-      `- [${post.title}](${SITE_CONTEXT.siteUrl}/blog/${post.slug}/) — ${post.date}: ${post.description}`
+      `- [${post.title}](${SITE_CONTEXT.siteUrl}${postPath}) — ${post.date}: ${post.description}`
     );
   }
 
-  return { markdown: appendMarkdownFooter(lines.join("\n"), "blog"), status: 200 };
+  return {
+    markdown: appendMarkdownFooter(
+      lines.join("\n"),
+      locale,
+      getPagePath(getLocalizedPathname(locale, "/blog/"))
+    ),
+    status: 200,
+  };
 }
 
-export function renderBlogPostMarkdown(slug: string): MarkdownResult {
-  const post = readBlogPost(slug);
+export function renderBlogPostMarkdown(
+  locale: AppLocale,
+  slug: string
+): MarkdownResult {
+  const post = readBlogPost(locale, slug);
 
   if (post === null) {
     return { markdown: `# 404\n\nBlog post not found: ${slug}`, status: 404 };
   }
 
+  const postPath = getPagePath(getLocalizedPathname(locale, `/blog/${slug}/`));
+
   return {
     markdown: appendMarkdownFooter(
-      `# ${post.title}\n\n*${post.date}*\n\n${post.bodyMarkdown.trim()}`,
-      `blog/${slug}`
+      `# ${post.title}\n\n*${post.date}*\n\n${localizeInternalLinks(
+        post.bodyMarkdown.trim(),
+        locale
+      )}`,
+      locale,
+      postPath
     ),
     status: 200,
   };
 }
 
 export function listMarkdownPagePaths(): ReadonlyArray<string> {
-  const blogPostPaths = getBlogPosts().map((post) => `blog/${post.slug}`);
-  const docPaths = DOCS.map((doc) => `docs/${doc.slug}`);
+  const localizedDocsAndBlogPaths = SUPPORTED_LOCALES.flatMap((locale) => {
+      const blogPostPaths = getBlogPosts(locale).map((post) =>
+        getPagePath(getLocalizedPathname(locale, `/blog/${post.slug}/`))
+      );
+      const docPaths = getDocs(locale, DOC_SLUGS).map((doc) =>
+        getPagePath(getLocalizedPathname(locale, `/docs/${doc.slug}/`))
+      );
+
+      return [
+        getPagePath(getLocalizedPathname(locale, "/docs/")),
+        ...docPaths,
+        getPagePath(getLocalizedPathname(locale, "/blog/")),
+        ...blogPostPaths,
+      ];
+    });
 
   return [
     ...listMarketingPagePaths(),
-    "docs",
-    ...docPaths,
-    "blog",
-    ...blogPostPaths,
+    ...localizedDocsAndBlogPaths,
   ];
 }
 
@@ -174,27 +234,34 @@ export function renderMarkdownDocument(pagePath: string): MarkdownResult {
     return marketingPageResult;
   }
 
-  if (pagePath === "docs") {
-    return renderDocsListingMarkdown();
+  const pagePathname = pagePath === "" ? "/" : `/${pagePath}/`;
+  const { locale, routePathname } = resolveLocaleFromPathname(pagePathname);
+  const normalizedRoutePathname = routePathname.replace(/\/+$/, "") || "/";
+
+  if (normalizedRoutePathname === "/docs") {
+    return renderDocsListingMarkdown(locale);
   }
 
-  if (pagePath.startsWith("docs/")) {
-    return renderDocMarkdown(pagePath.replace(/^docs\//, ""));
+  if (normalizedRoutePathname.startsWith("/docs/")) {
+    return renderDocMarkdown(locale, normalizedRoutePathname.replace(/^\/docs\//, ""));
   }
 
-  if (pagePath === "blog") {
-    return renderBlogListingMarkdown();
+  if (normalizedRoutePathname === "/blog") {
+    return renderBlogListingMarkdown(locale);
   }
 
-  if (pagePath.startsWith("blog/")) {
-    return renderBlogPostMarkdown(pagePath.replace(/^blog\//, ""));
+  if (normalizedRoutePathname.startsWith("/blog/")) {
+    return renderBlogPostMarkdown(
+      locale,
+      normalizedRoutePathname.replace(/^\/blog\//, "")
+    );
   }
 
   return marketingPageResult;
 }
 
 export function renderLlmsText(): string {
-  const pagesSection = readAllMarketingPages()
+  const pagesSection = readAllMarketingPages("en")
     .map((pageContent) => {
       const pageHref =
         pageContent.slug === "home"
@@ -205,9 +272,9 @@ export function renderLlmsText(): string {
     })
     .join("\n");
 
-  const posts = getBlogPosts();
+  const posts = getBlogPosts("en");
 
-  const docsSection = DOCS.map(
+  const docsSection = getDocs("en", DOC_SLUGS).map(
     (doc) =>
       `- [${doc.title}](${SITE_CONTEXT.siteUrl}/docs/${doc.slug}/): ${doc.description}`
   ).join("\n");
@@ -248,4 +315,8 @@ ${blogSection}
 Any page on this site is available as clean Markdown for LLM consumption:
 - Append \`.md\` to any URL (e.g. ${SITE_CONTEXT.siteUrl}/.md, ${SITE_CONTEXT.siteUrl}/features.md, ${SITE_CONTEXT.siteUrl}/docs/api.md)
 - Or send the HTTP header \`Accept: text/markdown\` to get Markdown from the original URL`;
+}
+
+function getPagePath(pathname: string): string {
+  return pathname === "/" ? "" : pathname.replace(/^\/+/, "").replace(/\/+$/, "");
 }

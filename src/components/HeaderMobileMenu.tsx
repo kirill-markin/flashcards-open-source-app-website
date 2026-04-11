@@ -2,12 +2,23 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import { LocaleSwitcher } from "@/components/LocaleSwitcher";
+import type { AppLocale } from "@/lib/i18n";
+import { getUiCopy } from "@/lib/uiCopy";
 import { AuthButton } from "./AuthButton";
-import { HEADER_LINKS } from "./headerLinks";
+import { getHeaderLinks } from "./headerLinks";
 import styles from "./Header.module.css";
 
-export const HeaderMobileMenu: React.FC = () => {
+interface HeaderMobileMenuProps {
+  readonly locale: AppLocale;
+}
+
+export const HeaderMobileMenu: React.FC<HeaderMobileMenuProps> = ({
+  locale,
+}) => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState<boolean>(false);
+  const headerLinks = getHeaderLinks(locale);
+  const uiCopy = getUiCopy(locale);
 
   const toggleMobileMenu = (): void => {
     setMobileMenuOpen(!mobileMenuOpen);
@@ -23,20 +34,23 @@ export const HeaderMobileMenu: React.FC = () => {
         className={styles.mobileToggle}
         onClick={toggleMobileMenu}
         aria-expanded={mobileMenuOpen}
-        aria-label="Toggle menu"
+        aria-label={uiCopy.menuToggleLabel}
       >
         {mobileMenuOpen ? "\u2715" : "\u2630"}
       </button>
 
       {mobileMenuOpen && (
         <nav className={styles.mobileNav}>
-          {HEADER_LINKS.map((link) => (
+          {headerLinks.map((link) => (
             <Link key={link.href} href={link.href} onClick={closeMobileMenu}>
               {link.label}
             </Link>
           ))}
+          <div className={styles.mobileLocale}>
+            <LocaleSwitcher />
+          </div>
           <div className={styles.mobileAuth}>
-            <AuthButton />
+            <AuthButton locale={locale} />
           </div>
         </nav>
       )}

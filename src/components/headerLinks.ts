@@ -1,11 +1,25 @@
+import type { AppLocale } from "@/lib/i18n";
+import { getLocalizedPathname } from "@/lib/i18n";
+
 export interface HeaderLink {
   readonly href: string;
   readonly label: string;
 }
 
-export const HEADER_LINKS: ReadonlyArray<HeaderLink> = [
-  { href: "/features/", label: "Features" },
-  { href: "/pricing/", label: "Pricing" },
-  { href: "/docs/", label: "Docs" },
-  { href: "/blog/", label: "Blog" },
-];
+export function getHeaderLinks(locale: AppLocale): ReadonlyArray<HeaderLink> {
+  if (locale === "es") {
+    return [
+      { href: getLocalizedPathname(locale, "/features/"), label: "Funciones" },
+      { href: getLocalizedPathname(locale, "/pricing/"), label: "Precios" },
+      { href: getLocalizedPathname(locale, "/docs/"), label: "Documentacion" },
+      { href: getLocalizedPathname(locale, "/blog/"), label: "Blog" },
+    ];
+  }
+
+  return [
+    { href: getLocalizedPathname(locale, "/features/"), label: "Features" },
+    { href: getLocalizedPathname(locale, "/pricing/"), label: "Pricing" },
+    { href: getLocalizedPathname(locale, "/docs/"), label: "Docs" },
+    { href: getLocalizedPathname(locale, "/blog/"), label: "Blog" },
+  ];
+}

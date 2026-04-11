@@ -3,6 +3,8 @@
 import Image from "next/image";
 import { getHumanPlatforms } from "@/lib/humanPlatforms";
 import { getAppUrl, getLoginUrl } from "@/lib/auth";
+import type { AppLocale } from "@/lib/i18n";
+import { getLocalizedPathname } from "@/lib/i18n";
 import { useLoggedInCookie } from "@/lib/useLoggedInCookie";
 import styles from "./HumanPlatformLinks.module.css";
 
@@ -25,10 +27,18 @@ function WebIcon() {
   );
 }
 
-export const HumanPlatformLinks: React.FC = () => {
+interface HumanPlatformLinksProps {
+  readonly locale: AppLocale;
+}
+
+export const HumanPlatformLinks: React.FC<HumanPlatformLinksProps> = ({
+  locale,
+}) => {
   const loggedIn = useLoggedInCookie();
-  const webEntryHref = loggedIn ? getAppUrl() : getLoginUrl("/");
-  const platforms = getHumanPlatforms(webEntryHref);
+  const webEntryHref = loggedIn
+    ? getAppUrl()
+    : getLoginUrl(getLocalizedPathname(locale, "/"));
+  const platforms = getHumanPlatforms(webEntryHref, locale);
 
   return (
     <div className={styles.platformList}>

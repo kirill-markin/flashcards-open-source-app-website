@@ -1,9 +1,11 @@
 import { existsSync, readFileSync, readdirSync } from "fs";
 import matter from "gray-matter";
-import { join } from "path";
+import { hasTranslatedBlogPostSlug } from "@/data/blog";
 import { renderMarkdownToHtml } from "@/lib/content/renderMarkdownToHtml";
+import { getBlogDirectory, getBlogFilePath } from "@/lib/content/paths";
+import type { AppLocale } from "@/lib/i18n";
 
-const BLOG_DIR = join(process.cwd(), "src/content/blog");
+const DEFAULT_BLOG_LOCALE: AppLocale = "en";
 const TITLE_TOKEN_WEIGHT = 3;
 const DESCRIPTION_TOKEN_WEIGHT = 2;
 const BODY_TOKEN_WEIGHT = 1;
@@ -203,9 +205,9 @@ interface RankedRecommendation {
   readonly score: number;
 }
 
-let cachedBlogPosts: ReadonlyArray<BlogPostRecord> | null = null;
+const cachedBlogPostsByLocale = new Map<AppLocale, ReadonlyArray<BlogPostRecord>>();
 let cachedArticleVectors: ReadonlyMap<string, ArticleTokenVector> | null = null;
-const renderedHtmlBySlug = new Map<string, Promise<string>>();
+const renderedHtmlByLocaleAndSlug = new Map<AppLocale, Map<string, Promise<string>>>();
 
 function assertNonEmptyString(
   value: unknown,
@@ -233,8 +235,8 @@ function getSlugFromFileName(fileName: string): string {
   return fileName.replace(/\.md$/, "");
 }
 
-function parseBlogPost(fileName: string): BlogPostRecord {
-  const filePath = join(BLOG_DIR, fileName);
+function parseBlogPost(locale: AppLocale, fileName: string): BlogPostRecord {
+  const filePath = getBlogFilePath(locale, getSlugFromFileName(fileName));
   const raw = readFileSync(filePath, "utf-8");
   const { data, content } = matter(raw);
   const frontmatter = data as BlogFrontmatterInput;
@@ -263,22 +265,28 @@ function compareByPublishedAtDescending(
   return rightPost.publishedAt - leftPost.publishedAt;
 }
 
-function loadBlogPosts(): ReadonlyArray<BlogPostRecord> {
-  if (cachedBlogPosts !== null) {
+function loadBlogPosts(locale: AppLocale): ReadonlyArray<BlogPostRecord> {
+  const cachedBlogPosts = cachedBlogPostsByLocale.get(locale);
+
+  if (cachedBlogPosts !== undefined) {
     return cachedBlogPosts;
   }
 
-  if (!existsSync(BLOG_DIR)) {
-    cachedBlogPosts = [];
-    return cachedBlogPosts;
+  const localizedBlogDirectory = getBlogDirectory(locale);
+
+  if (!existsSync(localizedBlogDirectory)) {
+    cachedBlogPostsByLocale.set(locale, []);
+    return [];
   }
 
-  cachedBlogPosts = readdirSync(BLOG_DIR)
+  const blogPosts = readdirSync(localizedBlogDirectory)
     .filter((fileName) => fileName.endsWith(".md"))
-    .map(parseBlogPost)
+    .map((fileName) => parseBlogPost(locale, fileName))
     .sort(compareByPublishedAtDescending);
 
-  return cachedBlogPosts;
+  cachedBlogPostsByLocale.set(locale, blogPosts);
+
+  return blogPosts;
 }
 
 function stripMarkdownForAnalysis(markdown: string): string {
@@ -573,7 +581,7 @@ function buildArticleVectors(): ReadonlyMap<string, ArticleTokenVector> {
     return cachedArticleVectors;
   }
 
-  const posts = loadBlogPosts();
+  const posts = loadBlogPosts(DEFAULT_BLOG_LOCALE);
   const rawTokenWeightsBySlug = new Map<string, Map<string, number>>();
   const documentFrequencyByToken = new Map<string, number>();
 
@@ -683,29 +691,46 @@ function compareRankedRecommendations(
   );
 }
 
-export function listBlogPosts(): ReadonlyArray<BlogPostRecord> {
-  return loadBlogPosts();
+export function hasBlogTranslation(slug: string, locale: AppLocale): boolean {
+  return hasTranslatedBlogPostSlug(locale, slug);
 }
 
-export function readBlogPost(slug: string): BlogPostRecord | null {
-  return loadBlogPosts().find((post) => post.slug === slug) ?? null;
+export function listTranslatedBlogPostSlugs(
+  locale: AppLocale,
+  slugs: ReadonlyArray<string>
+): ReadonlyArray<string> {
+  return slugs.filter((slug) => hasBlogTranslation(slug, locale));
+}
+
+export function listBlogPosts(locale: AppLocale): ReadonlyArray<BlogPostRecord> {
+  return loadBlogPosts(locale);
+}
+
+export function readBlogPost(
+  locale: AppLocale,
+  slug: string
+): BlogPostRecord | null {
+  return loadBlogPosts(locale).find((post) => post.slug === slug) ?? null;
 }
 
 export async function readBlogPostContent(
+  locale: AppLocale,
   slug: string
 ): Promise<BlogPostContent | null> {
-  const post = readBlogPost(slug);
+  const post = readBlogPost(locale, slug);
 
   if (post === null) {
     return null;
   }
 
+  const renderedHtmlBySlug =
+    renderedHtmlByLocaleAndSlug.get(locale) ?? new Map<string, Promise<string>>();
   const cachedHtml = renderedHtmlBySlug.get(slug);
-  const contentHtmlPromise =
-    cachedHtml ?? renderMarkdownToHtml(post.bodyMarkdown);
+  const contentHtmlPromise = cachedHtml ?? renderMarkdownToHtml(post.bodyMarkdown);
 
   if (cachedHtml === undefined) {
     renderedHtmlBySlug.set(slug, contentHtmlPromise);
+    renderedHtmlByLocaleAndSlug.set(locale, renderedHtmlBySlug);
   }
 
   return {
@@ -715,10 +740,11 @@ export async function readBlogPostContent(
 }
 
 export function getRecommendedBlogPosts(
+  locale: AppLocale,
   slug: string,
   limit: number
 ): ReadonlyArray<RecommendedBlogPost> {
-  const currentPost = readBlogPost(slug);
+  const currentPost = readBlogPost(locale, slug);
 
   if (currentPost === null) {
     throw new Error(`Cannot recommend blog posts for missing slug: ${slug}`);
@@ -731,10 +757,19 @@ export function getRecommendedBlogPosts(
     throw new Error(`Missing recommendation vector for blog post: ${slug}`);
   }
 
+  const localizedPostsBySlug = new Map(
+    loadBlogPosts(locale).map((post) => [post.slug, post] as const)
+  );
   const rankedRecommendations: RankedRecommendation[] = [];
 
-  for (const post of loadBlogPosts()) {
+  for (const post of loadBlogPosts(DEFAULT_BLOG_LOCALE)) {
     if (post.slug === slug) {
+      continue;
+    }
+
+    const localizedPost = localizedPostsBySlug.get(post.slug);
+
+    if (localizedPost === undefined) {
       continue;
     }
 
@@ -747,19 +782,19 @@ export function getRecommendedBlogPosts(
     }
 
     rankedRecommendations.push({
-      post,
+      post: localizedPost,
       score: getCosineSimilarity(currentVector, candidateVector),
     });
   }
 
   const scoredRecommendations = rankedRecommendations
     .filter((recommendation) => recommendation.score > 0)
-    .sort(compareRankedRecommendations)
-    .map((recommendation) => toRecommendedBlogPost(recommendation.post));
+    .sort(compareRankedRecommendations);
   const fallbackRecommendations = rankedRecommendations
     .filter((recommendation) => recommendation.score <= 0)
-    .sort(compareRankedRecommendations)
-    .map((recommendation) => toRecommendedBlogPost(recommendation.post));
+    .sort(compareRankedRecommendations);
 
-  return [...scoredRecommendations, ...fallbackRecommendations].slice(0, limit);
+  return [...scoredRecommendations, ...fallbackRecommendations]
+    .slice(0, limit)
+    .map((recommendation) => toRecommendedBlogPost(recommendation.post));
 }
