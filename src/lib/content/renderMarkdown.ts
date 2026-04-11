@@ -1,3 +1,5 @@
+import type { AppLocale } from "@/lib/i18n";
+import { getUiCopy } from "@/lib/uiCopy";
 import type {
   FeatureListSection,
   HeroSection,
@@ -17,9 +19,10 @@ export interface MarkdownSiteContext {
 
 function getPageUrl(
   siteContext: MarkdownSiteContext,
-  slug: MarketingPageSlug
+  slug: MarketingPageSlug,
+  locale: AppLocale
 ): string {
-  const pagePath = getMarketingPagePath(slug);
+  const pagePath = getMarketingPagePath(slug, locale);
 
   if (pagePath === "") {
     return `${siteContext.siteUrl}/`;
@@ -94,15 +97,22 @@ function renderPricingTiersSection(
 function renderLegalPageSection(
   section: LegalPageSection,
   pageContent: PageContent,
+  locale: AppLocale,
   lines: string[]
 ): void {
-  lines.push(`**Last updated:** ${section.lastUpdated}`);
+  const uiCopy = getUiCopy(locale);
+
+  lines.push(`**${uiCopy.legal.lastUpdatedLabel}:** ${section.lastUpdated}`);
   lines.push("");
   lines.push(pageContent.body);
   lines.push("");
 }
 
-function renderPageSections(pageContent: PageContent, lines: string[]): void {
+function renderPageSections(
+  pageContent: PageContent,
+  locale: AppLocale,
+  lines: string[]
+): void {
   pageContent.sections.forEach((section) => {
     switch (section.type) {
       case "hero":
@@ -115,7 +125,7 @@ function renderPageSections(pageContent: PageContent, lines: string[]): void {
         renderPricingTiersSection(section, pageContent, lines);
         return;
       case "legal_page":
-        renderLegalPageSection(section, pageContent, lines);
+        renderLegalPageSection(section, pageContent, locale, lines);
         return;
       case "simple_markdown_page":
         lines.push(pageContent.body);
@@ -127,27 +137,33 @@ function renderPageSections(pageContent: PageContent, lines: string[]): void {
 
 function renderMarkdownFooter(
   pageContent: PageContent,
+  locale: AppLocale,
   siteContext: MarkdownSiteContext
 ): string {
-  const originalUrl = getPageUrl(siteContext, pageContent.slug);
+  const originalUrl = getPageUrl(siteContext, pageContent.slug, locale);
 
   return `\n\n---\n*[View the styled HTML version of this page](${originalUrl})*\n\n*Tip: Append \`.md\` to any URL on ${siteContext.siteUrl} to get a clean Markdown version of that page.*`;
 }
 
-export function renderMarketingPageMarkdown(pageContent: PageContent): string {
+export function renderMarketingPageMarkdown(
+  pageContent: PageContent,
+  locale: AppLocale
+): string {
   const lines: string[] = [`# ${pageContent.title}`, ""];
 
-  renderPageSections(pageContent, lines);
+  renderPageSections(pageContent, locale, lines);
 
   return lines.join("\n").trim();
 }
 
 export function renderMarketingPageDocument(
   pageContent: PageContent,
+  locale: AppLocale,
   siteContext: MarkdownSiteContext
 ): string {
-  return `${renderMarketingPageMarkdown(pageContent)}${renderMarkdownFooter(
+  return `${renderMarketingPageMarkdown(pageContent, locale)}${renderMarkdownFooter(
     pageContent,
+    locale,
     siteContext
   )}`;
 }

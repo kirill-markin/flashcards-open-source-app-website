@@ -43,9 +43,9 @@ Marketing website for Flashcards Open Source App. Static Next.js site deployed o
 
 - `src/app/`: landing, features, pricing, docs, blog, privacy, terms
 - `src/components/`: shared components (`Header`, `Footer`, `AuthButton`)
-- `src/content/pages/`: typed marketing page content modules plus markdown-backed legal pages
-- `src/content/docs/`: documentation markdown files
-- `src/content/blog/`: blog markdown files
+- `src/content/<locale>/pages/`: locale-rooted marketing page content modules plus markdown-backed legal pages
+- `src/content/<locale>/docs/`: locale-rooted documentation markdown files
+- `src/content/<locale>/blog/`: locale-rooted blog markdown files
 - `src/lib/`: utilities (`auth` helpers)
 
 ## Auth Integration
@@ -65,19 +65,19 @@ The site has zero auth logic. It only checks whether the `logged_in` cookie is p
 
 - Hosted web app for humans starts at `https://app.flashcards-open-source-app.com`
 - Terminal / AI-agent onboarding starts at `GET https://api.flashcards-open-source-app.com/v1/agent`
-- Start here for instructions: `src/content/docs/getting-started.md`, `src/content/docs/api.md`, and `src/content/blog/claude-code-codex-openclaw-flashcards-login.md`
+- Start here for instructions: `src/content/en/docs/getting-started.md`, `src/content/en/docs/api.md`, and `src/content/en/blog/claude-code-codex-openclaw-flashcards-login.md`
 
 ## Content
 
 Typed content modules power composed/list pages:
-- `src/content/pages/home.ts`
-- `src/content/pages/features.ts`
-- `src/content/pages/pricing.ts`
+- `src/content/en/pages/home.ts`
+- `src/content/en/pages/features.ts`
+- `src/content/en/pages/pricing.ts`
 
 Mostly text pages stay Markdown-backed:
-- `src/content/pages/privacy/index.md`
-- `src/content/pages/terms/index.md`
-- `src/content/docs/*.md`
-- `src/content/blog/*.md`
+- `src/content/en/pages/privacy/index.md`
+- `src/content/en/pages/terms/index.md`
+- `src/content/en/docs/*.md`
+- `src/content/en/blog/*.md`
 
 Keep typed content models mirrored with the other marketing website repository. Build-time generation must produce both HTML and Markdown from the same source of truth.

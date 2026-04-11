@@ -1,7 +1,8 @@
 import Link from "next/link";
+import type { AppLocale } from "@/lib/i18n";
+import { getAbsoluteUrl, getLocalizedPathname } from "@/lib/i18n";
+import { getUiCopy } from "@/lib/uiCopy";
 import styles from "./Breadcrumbs.module.css";
-
-const SITE_URL = "https://flashcards-open-source-app.com";
 
 interface BreadcrumbItem {
   label: string;
@@ -10,11 +11,19 @@ interface BreadcrumbItem {
 
 interface BreadcrumbsProps {
   items: ReadonlyArray<BreadcrumbItem>;
+  locale: AppLocale;
 }
 
-export function Breadcrumbs({ items }: BreadcrumbsProps): React.JSX.Element {
+export function Breadcrumbs({
+  items,
+  locale,
+}: BreadcrumbsProps): React.JSX.Element {
+  const uiCopy = getUiCopy(locale);
   const allItems: ReadonlyArray<BreadcrumbItem> = [
-    { label: "Home", href: "/" },
+    {
+      label: uiCopy.breadcrumbs.homeLabel,
+      href: getLocalizedPathname(locale, "/"),
+    },
     ...items,
   ];
 
@@ -22,7 +31,7 @@ export function Breadcrumbs({ items }: BreadcrumbsProps): React.JSX.Element {
     "@type": "ListItem" as const,
     position: index + 1,
     name: item.label,
-    item: `${SITE_URL}${item.href}`,
+    item: getAbsoluteUrl(item.href),
   }));
 
   const schema = {
@@ -32,7 +41,7 @@ export function Breadcrumbs({ items }: BreadcrumbsProps): React.JSX.Element {
   };
 
   return (
-    <nav aria-label="Breadcrumb" className={styles.nav}>
+    <nav aria-label={uiCopy.breadcrumbs.ariaLabel} className={styles.nav}>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
