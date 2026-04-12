@@ -144,6 +144,7 @@ export const TRANSLATED_BLOG_POST_SLUGS_BY_LOCALE: Readonly<Record<AppLocale, Re
     "how-to-study-for-an-exam-with-fsrs",
     "how-to-turn-a-pdf-into-flashcards",
     "how-to-turn-a-podcast-into-flashcards",
+    "how-to-turn-a-study-guide-into-flashcards",
     "how-to-turn-an-article-into-flashcards",
     "how-to-turn-chatgpt-study-mode-into-flashcards",
     "how-to-turn-diagrams-into-flashcards",
@@ -167,19 +168,69 @@ export const TRANSLATED_BLOG_POST_SLUGS_BY_LOCALE: Readonly<Record<AppLocale, Re
     "youtube-to-flashcards"
   ],
   "ar": [
-    "claude-code-codex-openclaw-flashcards-login"
+    "anki-vs-quizlet-vs-open-source-flashcards-app",
+    "best-anki-alternatives",
+    "best-offline-flashcards-app",
+    "brainscape-alternative",
+    "claude-code-codex-openclaw-flashcards-login",
+    "fsrs-vs-sm-2",
+    "how-many-new-flashcards-per-day",
+    "how-to-catch-up-on-flashcards-after-falling-behind",
+    "how-to-make-better-flashcards",
+    "how-to-study-for-an-exam-with-fsrs",
+    "how-to-turn-a-pdf-into-flashcards",
+    "how-to-turn-a-podcast-into-flashcards",
+    "how-to-turn-a-study-guide-into-flashcards",
+    "how-to-turn-an-article-into-flashcards",
+    "how-to-turn-chatgpt-study-mode-into-flashcards",
+    "how-to-use-chatgpt-to-make-flashcards",
+    "how-to-use-chatgpt-voice-for-language-learning",
+    "how-to-use-flashcards-for-language-learning"
   ],
   "de": [
-    "claude-code-codex-openclaw-flashcards-login"
+    "claude-code-codex-openclaw-flashcards-login",
+    "how-to-study-for-an-exam-with-fsrs",
+    "how-to-turn-a-pdf-into-flashcards",
+    "how-to-turn-a-podcast-into-flashcards",
+    "how-to-turn-a-study-guide-into-flashcards"
   ],
   "hi": [
-    "claude-code-codex-openclaw-flashcards-login"
+    "anki-vs-quizlet-vs-open-source-flashcards-app",
+    "best-anki-alternatives",
+    "best-offline-flashcards-app",
+    "brainscape-alternative",
+    "claude-code-codex-openclaw-flashcards-login",
+    "fsrs-vs-sm-2",
+    "how-many-new-flashcards-per-day",
+    "how-to-catch-up-on-flashcards-after-falling-behind",
+    "how-to-make-better-flashcards"
   ],
   "ja": [
     "claude-code-codex-openclaw-flashcards-login"
   ],
   "ru": [
-    "claude-code-codex-openclaw-flashcards-login"
+    "anki-vs-quizlet-vs-open-source-flashcards-app",
+    "best-anki-alternatives",
+    "best-offline-flashcards-app",
+    "brainscape-alternative",
+    "claude-code-codex-openclaw-flashcards-login",
+    "fsrs-vs-sm-2",
+    "how-many-new-flashcards-per-day",
+    "how-to-catch-up-on-flashcards-after-falling-behind",
+    "how-to-make-better-flashcards",
+    "how-to-study-for-an-exam-with-fsrs",
+    "how-to-turn-a-pdf-into-flashcards",
+    "how-to-turn-a-podcast-into-flashcards",
+    "how-to-turn-a-study-guide-into-flashcards",
+    "how-to-turn-an-article-into-flashcards",
+    "how-to-turn-chatgpt-study-mode-into-flashcards",
+    "how-to-turn-diagrams-into-flashcards",
+    "how-to-turn-handwritten-notes-into-flashcards",
+    "how-to-turn-kindle-highlights-into-flashcards",
+    "how-to-turn-lecture-recordings-into-flashcards",
+    "how-to-turn-notion-notes-into-flashcards",
+    "how-to-turn-practice-questions-into-flashcards",
+    "how-to-turn-voice-notes-into-flashcards"
   ],
   "zh": [
     "claude-code-codex-openclaw-flashcards-login"
@@ -260,6 +311,7 @@ export const TRANSLATED_ROUTE_PATHNAMES_BY_LOCALE: Readonly<Record<AppLocale, Re
     "/blog/how-to-study-for-an-exam-with-fsrs/",
     "/blog/how-to-turn-a-pdf-into-flashcards/",
     "/blog/how-to-turn-a-podcast-into-flashcards/",
+    "/blog/how-to-turn-a-study-guide-into-flashcards/",
     "/blog/how-to-turn-an-article-into-flashcards/",
     "/blog/how-to-turn-chatgpt-study-mode-into-flashcards/",
     "/blog/how-to-turn-diagrams-into-flashcards/",
@@ -295,7 +347,24 @@ export const TRANSLATED_ROUTE_PATHNAMES_BY_LOCALE: Readonly<Record<AppLocale, Re
     "/docs/api/",
     "/docs/architecture/",
     "/blog/",
-    "/blog/claude-code-codex-openclaw-flashcards-login/"
+    "/blog/anki-vs-quizlet-vs-open-source-flashcards-app/",
+    "/blog/best-anki-alternatives/",
+    "/blog/best-offline-flashcards-app/",
+    "/blog/brainscape-alternative/",
+    "/blog/claude-code-codex-openclaw-flashcards-login/",
+    "/blog/fsrs-vs-sm-2/",
+    "/blog/how-many-new-flashcards-per-day/",
+    "/blog/how-to-catch-up-on-flashcards-after-falling-behind/",
+    "/blog/how-to-make-better-flashcards/",
+    "/blog/how-to-study-for-an-exam-with-fsrs/",
+    "/blog/how-to-turn-a-pdf-into-flashcards/",
+    "/blog/how-to-turn-a-podcast-into-flashcards/",
+    "/blog/how-to-turn-a-study-guide-into-flashcards/",
+    "/blog/how-to-turn-an-article-into-flashcards/",
+    "/blog/how-to-turn-chatgpt-study-mode-into-flashcards/",
+    "/blog/how-to-use-chatgpt-to-make-flashcards/",
+    "/blog/how-to-use-chatgpt-voice-for-language-learning/",
+    "/blog/how-to-use-flashcards-for-language-learning/"
   ],
   "de": [
     "/",
@@ -310,7 +379,11 @@ export const TRANSLATED_ROUTE_PATHNAMES_BY_LOCALE: Readonly<Record<AppLocale, Re
     "/docs/api/",
     "/docs/architecture/",
     "/blog/",
-    "/blog/claude-code-codex-openclaw-flashcards-login/"
+    "/blog/claude-code-codex-openclaw-flashcards-login/",
+    "/blog/how-to-study-for-an-exam-with-fsrs/",
+    "/blog/how-to-turn-a-pdf-into-flashcards/",
+    "/blog/how-to-turn-a-podcast-into-flashcards/",
+    "/blog/how-to-turn-a-study-guide-into-flashcards/"
   ],
   "hi": [
     "/",
@@ -325,7 +398,15 @@ export const TRANSLATED_ROUTE_PATHNAMES_BY_LOCALE: Readonly<Record<AppLocale, Re
     "/docs/api/",
     "/docs/architecture/",
     "/blog/",
-    "/blog/claude-code-codex-openclaw-flashcards-login/"
+    "/blog/anki-vs-quizlet-vs-open-source-flashcards-app/",
+    "/blog/best-anki-alternatives/",
+    "/blog/best-offline-flashcards-app/",
+    "/blog/brainscape-alternative/",
+    "/blog/claude-code-codex-openclaw-flashcards-login/",
+    "/blog/fsrs-vs-sm-2/",
+    "/blog/how-many-new-flashcards-per-day/",
+    "/blog/how-to-catch-up-on-flashcards-after-falling-behind/",
+    "/blog/how-to-make-better-flashcards/"
   ],
   "ja": [
     "/",
@@ -355,7 +436,28 @@ export const TRANSLATED_ROUTE_PATHNAMES_BY_LOCALE: Readonly<Record<AppLocale, Re
     "/docs/api/",
     "/docs/architecture/",
     "/blog/",
-    "/blog/claude-code-codex-openclaw-flashcards-login/"
+    "/blog/anki-vs-quizlet-vs-open-source-flashcards-app/",
+    "/blog/best-anki-alternatives/",
+    "/blog/best-offline-flashcards-app/",
+    "/blog/brainscape-alternative/",
+    "/blog/claude-code-codex-openclaw-flashcards-login/",
+    "/blog/fsrs-vs-sm-2/",
+    "/blog/how-many-new-flashcards-per-day/",
+    "/blog/how-to-catch-up-on-flashcards-after-falling-behind/",
+    "/blog/how-to-make-better-flashcards/",
+    "/blog/how-to-study-for-an-exam-with-fsrs/",
+    "/blog/how-to-turn-a-pdf-into-flashcards/",
+    "/blog/how-to-turn-a-podcast-into-flashcards/",
+    "/blog/how-to-turn-a-study-guide-into-flashcards/",
+    "/blog/how-to-turn-an-article-into-flashcards/",
+    "/blog/how-to-turn-chatgpt-study-mode-into-flashcards/",
+    "/blog/how-to-turn-diagrams-into-flashcards/",
+    "/blog/how-to-turn-handwritten-notes-into-flashcards/",
+    "/blog/how-to-turn-kindle-highlights-into-flashcards/",
+    "/blog/how-to-turn-lecture-recordings-into-flashcards/",
+    "/blog/how-to-turn-notion-notes-into-flashcards/",
+    "/blog/how-to-turn-practice-questions-into-flashcards/",
+    "/blog/how-to-turn-voice-notes-into-flashcards/"
   ],
   "zh": [
     "/",
