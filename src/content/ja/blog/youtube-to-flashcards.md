@@ -1,6 +1,6 @@
 ---
-title: "2026年、YouTube video を Flashcards に変える方法: lectures、tutorials、language videos を AI drafting で card 化する"
-description: "whole video を 2 回見直さずに YouTube video を flashcards にしたい人向けの 2026 年版 practical workflow です。transcript を使い、AI で clean な cards を draft し、vague なものを fast に edit し、final deck を FSRS で study します。"
+title: "2026年版 YouTube動画をFlashcardsに変える方法: 講義・チュートリアル・語学動画をAIで下書きする"
+description: "YouTube動画を全部見直さずにフラッシュカード化したい人向けの、2026年の実用的な手順です。文字起こしを使い、AIでカードの下書きを作り、曖昧なものだけを手早く直し、仕上げたデッキをFSRSで学習します。"
 date: "2026-03-24"
 keywords:
   - "youtube to flashcards"
@@ -13,180 +13,180 @@ keywords:
   - "youtube transcript to flashcards"
 ---
 
-昨日、small concept を 1 つ教えてくれるはずだった 26 分の YouTube tutorial を開いたら、 somehow 40 秒ごとに pause し、transcript から lines を copy し、「watching a video」がいつ part-time clerical work になったのか考えていました。
+昨日、ほんの小さな概念を1つ理解するために26分のYouTubeチュートリアルを開いたのですが、気づけば40秒おきに一時停止し、文字起こしから文を写し取り、「動画を見る」という行為がいったいいつ事務作業のようなものに変わったのかと考えていました。
 
-人が **youtube to flashcards** と検索し始めるのは、たいていそのときです。
+人が **youtube to flashcards** と検索し始めるのは、たいていそういうときです。
 
-video が learning に bad だからではありません。video の useful explanation は、filler、repetition、jokes、detours、sponsor breaks、そして minute 17:42 にある本当に必要だった 1 sentence の中に trapped しがちだからです。
+動画が学習に向いていないからではありません。動画の中にある役立つ説明は、前置き、繰り返し、冗談、脱線、スポンサー枠、そして17分42秒あたりでようやく出てくる本当に必要な一文のあいだに埋もれがちだからです。
 
-## transcript こそが real raw material
+## 文字起こしこそが本当の材料
 
-まず plain に言っておきたいのはこれです。
+まず、ここははっきり言っておきたいところです。
 
-**turn a YouTube video into flashcards** をしたいなら、video そのものはたいてい最も useful な working format ではありません。transcript のほうです。
+**turn a YouTube video into flashcards** したいなら、たいてい作業しやすいのは動画そのものではなく文字起こしです。
 
-concepts が searchable になるのも、1 section を isolate できるのも、AI が every visual pause や spoken tangent を memory space に値すると pretend せずに cards を draft できるのも、transcript 側です。
+概念を検索しやすいのも、必要な部分だけ切り出せるのも、AIが映像の間や話し手の脱線まで全部覚える価値があるかのように扱わずにカードを下書きできるのも、文字起こしがあるからです。
 
-だから practical workflow は、多くの people が思うより 1 step earlier から始まります。
+だから実用的な手順は、多くの人が思っているより一段早いところから始まります。
 
-1. transcript を取る
-2. useful segment を選ぶ
-3. その text から cards を draft する
-4. weak cards は fast に edit する
-5. survivors を spaced repetition で review する
+1. 文字起こしを取得する
+2. 使う価値のある区間を選ぶ
+3. そのテキストからカードを下書きする
+4. 弱いカードだけを手早く直す
+5. 残したカードを間隔反復で復習する
 
-これは "paste link, receive wisdom" より much less magical ですが、まさにそれゆえに better に動きます。
+「リンクを貼れば知識が手に入る」という話ほど魔法っぽくはありません。でも、だからこそ実際にはこちらのほうがうまく機能します。
 
-## one-click generation が popular なのには理由がある
+## ワンクリック生成が広がっているのには理由がある
 
-category が move している direction は clearly ここです。
+この分野が向かっている先は、かなり明確です。
 
-products は now openly YouTube-to-quiz や YouTube-to-cards flows を market しています。demand が real だからです。students は already AI を academic work に heavily 使っていますし、faster source-to-study workflows への search も slow down していません。
+今はYouTubeからクイズやカードを作る流れを前面に出しているプロダクトが増えています。需要が本当にあるからです。学生はすでに学業でAIを強く使っていますし、教材をもっと速く学習用に変換したいという需要も弱まっていません。
 
-だからといって、generated card が automatically good になるわけではありません。
+だからといって、生成されたカードが自動的に良いカードになるわけではありません。
 
-でも **youtube video to flashcards** の search intent が obvious になったのは確かです。40 分の explanation を後から 20 個の review prompts に manual 変換したくない、ということです。
+それでも **youtube video to flashcards** という検索意図がはっきりしてきたのは確かです。40分の解説を見終わったあとに、それを20個の復習用プロンプトへ手作業で変えたくない、ということです。
 
-## YouTube video は notes より難しい。speech は repeat するから
+## YouTube動画はノートより扱いづらい。話し言葉は繰り返すから
 
-notes はたいてい compressed されています。
+ノートはたいてい圧縮されています。
 
-videos はそうではありません。
+でも動画はそうではありません。
 
-people は same idea を 3 ways で explain します。point を言う前に preview する。circle back する。watching 中は useful でも copied すると terrible な flashcards になる examples を使う。
+同じ話を三通りに言い換えたり、本題の前に予告を入れたり、あとからもう一度戻ってきたりします。見ている最中には役立っても、そのまま写すとひどいフラッシュカードになる例え話もよく出てきます。
 
-だから **youtube transcript to flashcards** には、人が思うより stricter な editing standard が必要です。
+だから **youtube transcript to flashcards** には、多くの人が思う以上に厳しめの編集基準が必要です。
 
-first draft では、たいてい次を remove する必要があります。
+最初の下書きでは、たいてい次のものを削るべきです。
 
-- repeated phrasing
-- long scene-setting intros
-- screen に見えていたものに depend する examples
-- surrounding paragraph を remember していないと意味が通らない questions
-- mini-essays 化した answers
+- 言い換えただけの重複表現
+- 長すぎる導入
+- 画面に映っていた情報に頼りすぎる例
+- 前後の段落を覚えていないと意味が通らない質問
+- 小論文のように長くなった回答
 
-cleanup を skip すると、deck は 1 日だけ productive に feel して、そのあと forever annoying になります。
+この整理を飛ばすと、そのデッキは最初の1日だけ生産的に見えて、その後ずっと煩わしいものになります。
 
-## video の type ごとに、card style は変えるべき
+## 動画の種類ごとに、作るべきカードも変わる
 
 ここは重要です。
 
-lecture video と coding tutorial は同じではありません。language lesson と exam explainer も同じではありません。
+講義動画とコーディングのチュートリアルは同じではありません。語学レッスンと試験解説も同じではありません。
 
-だから every time 同じ generic style の cards を AI に頼むことはしません。
+だから私は、毎回まったく同じ汎用スタイルのカードをAIに頼むことはしません。
 
-たとえば:
+たとえば、こんな分け方になります。
 
-- lecture videos: key terms、definitions、cause-and-effect、short process steps
-- coding tutorials: concepts、commands、why one choice is used instead of another
-- language videos: vocabulary、sentence patterns、text にして survive する pronunciation notes
-- exam explainers: formulas、distinctions、common mistakes、compact examples
+- 講義動画: 重要語句、定義、因果関係、短い手順
+- コーディングのチュートリアル: 概念、コマンド、なぜその選択をするのか
+- 語学動画: 語彙、文型、テキストでも残せる発音メモ
+- 試験解説: 公式、区別しやすい論点、よくあるミス、短い例
 
-これで **ai flashcards from video** は presenter の再現ではなく recall targets に focus できます。
+こうしておくと、**ai flashcards from video** は話し手の再現ではなく、思い出すべき対象に集中できます。
 
-## matters するのが 20% だけなら、whole video を convert しない
+## 本当に必要なのが20%だけなら、動画全体を変換しない
 
-ここで多くの people は time を waste します。
+ここで時間を無駄にする人は多いです。
 
-flashcards の point は selective memory work であって、source material への loyalty ではありません。
+フラッシュカードの目的は、必要な記憶だけを選んで鍛えることです。元の教材に忠実であることではありません。
 
-40 分の video に 8 ideas worth remembering があるなら、欲しいのは 8〜15 枚の good cards です。guilt から生まれた 60 枚ではない。
+40分の動画に覚える価値のあるアイデアが8つしかないなら、欲しいのは良いカードを8〜15枚であって、義務感から作った60枚ではありません。
 
-だから better な **study YouTube videos with flashcards** workflow は chunked です。
+だから、より良い **study YouTube videos with flashcards** の流れは、区切って進める形になります。
 
-- 1 chapter または 1 time range を選ぶ
-- その slice だけから cards を draft する
-- aggressively に delete する
-- next section にも memorize する価値があるときだけ repeat する
+- 1つの章、または1つの時間範囲を選ぶ
+- その部分だけからカードを下書きする
+- 思い切って削る
+- 次の区間にも覚える価値があるときだけ繰り返す
 
-これで deck は clean になり、review queue も believable になります。
+そうすればデッキはすっきり保てますし、復習キューの量も現実的になります。
 
-## students にとって scarce resource は time なので、ここで AI が useful
+## 学生にとって希少資源は時間だから、ここでAIが効く
 
-この shift は無視しにくくなっています。
+この変化はもう無視しづらくなっています。
 
-February 2025 の HEPI と Kortext survey に関する reporting では、92% の students が AI tools を使っており、多くが time savings と better work quality を main reasons に挙げていました。だからといって every AI study workflow が valid になるわけではありません。でも **lecture video to flashcards** が stronger search category になっている理由は説明できます。
+2025年2月のHEPIとKortextの調査を報じた記事では、92%の学生がAIツールを使っていて、主な理由として時間短縮と成果物の質の向上を挙げていました。これでAI学習ワークフローがすべて正当化されるわけではありませんが、**lecture video to flashcards** が強い検索カテゴリになってきた理由の説明にはなります。
 
-extraction part を 10 分の drafting と editing に圧縮できるのに、1 時間かけて transcript から prompts を取り出したい人はいません。
+抽出作業を10分の下書きと編集に圧縮できるなら、文字起こしからプロンプトを抜き出すのに1時間かけたい人はいません。
 
-そこが AI の useful role です。
+ここでのAIの役割はそこです。
 
-learning を replace することではない。
+学習そのものを置き換えることではない。
 
-learning の around にある admin work を remove することです。
+学習のまわりにある事務作業を減らすことです。
 
-## good video-to-flashcards prompts は clever である必要はない
+## 動画からフラッシュカードを作るプロンプトは、気の利いたものより地味なもの
 
-私は次のように頼みます。
+私なら、次のように頼みます。
 
-- 1 card に 1 idea
-- plain question-answer format
-- invented facts はなし
-- giant answers はなし
-- manually later add する予定がないなら images への dependence はなし
+- 1枚につき1つの考えだけ
+- シンプルな質問回答形式
+- 事実を作り足さない
+- 回答を長くしすぎない
+- あとで自分で追加する予定がない限り、画像依存にしない
 
-これで enough です。
+これで十分です。
 
-dramatic な prompt になるほど、impressive に sound して review badly する cards が出やすくなります。
+凝ったプロンプトにするほど、見た目は立派でも復習しにくいカードが出やすくなります。
 
-## generation moment が fade したあとに matters するのが FSRS
+## 生成の瞬間が過ぎたあとに効いてくるのがFSRS
 
-people が conversion step に excited になるのは、magic に見えるからです。
+人が変換の工程に興奮しやすいのは、そこが魔法っぽく見えるからです。
 
-actual value は later に始まります。3 日後に deck を again 開いたとき、review timing が right かどうかです。
+でも本当の価値が出るのはそのあとです。3日後にもう一度デッキを開いたとき、復習のタイミングがちょうどよいか、それとも静かにストレスを増やし始めるかで決まります。
 
-だから **youtube to flashcards** は generation problem だけではありません。scheduling problem でもあります。
+だから **youtube to flashcards** は、生成の問題であるだけではありません。スケジューリングの問題でもあります。
 
-cards が decent でも review system が weak なら、whole workflow は still slightly fake です。cards が decent で scheduler も strong なら、habit は much better chance で survive します。
+カードがそこそこ良くても、復習システムが弱ければ、ワークフロー全体はどこか作り物っぽく感じます。カードがそこそこ良くて、スケジューラも強ければ、その習慣はずっと続きやすくなります。
 
-scheduling side の more detail は、こちらです。
+復習スケジュール側をもう少し詳しく見たいなら、こちらの記事のほうが深く掘り下げています。
 
 - [2026年の FSRS vs SM-2: どの spaced repetition algorithm がより多く覚えられるか](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
 
-## Flashcards がこの workflow に合う理由
+## この流れにFlashcardsが合う理由
 
-[Flashcards](https://flashcards-open-source-app.com/) は、**turn YouTube video into flashcards** と相性が良いです。practical workflow を grounded に保てるからです。
+[Flashcards](https://flashcards-open-source-app.com/) は、**turn YouTube video into flashcards** の用途と相性が良いです。実際の作業を地に足のついた形で進められるからです。
 
-- video から transcript を取る
-- その text を AI chat に drop する
-- 1 section at a time で front/back cards を draft する
-- vague な cards を quickly edit する
-- final deck を FSRS で study する
+- 動画から文字起こしを取る
+- そのテキストを AIチャットに入れる
+- 一度に1区間ずつ表裏カードを下書きする
+- 曖昧なカードをすばやく直す
+- 仕上げたデッキをFSRSで学習する
 
-hardest part が flashy first draft を得ることだと pretend しない点が重要です。
+派手な初稿を出すことがいちばん難しい部分だ、と見せかけない点のほうが重要です。
 
-product は already、actually matters する pieces を持っています。
+このプロダクトは、実際に効いてくる要素をすでに備えています。
 
-- AI chat
-- plain text uploads
-- direct front/back card creation
-- drafting 後の editing
-- FSRS review
+- AIチャット
+- プレーンテキストのアップロード
+- 表裏カードの直接作成
+- 下書き後の編集
+- FSRSによる復習
 
-だから workflow は studying に feel し、demo theater には feel しません。
+だからこの流れは、デモの見せ場というより、ちゃんとした学習の手順として感じられます。
 
-## これは notes-to-flashcards と PDF-to-flashcards の間にある
+## これはノートからのカード化とPDFからのカード化の中間にある
 
-両方に close ですが、identical ではありません。
+両方に近いですが、まったく同じではありません。
 
-source が自分の written material なら、こちらの companion piece のほうが fit します。
+元になる素材が自分で書いたノートなら、相性が良いのはこちらです。
 
-- [2026年、notes を Flashcards に変える方法: manual copy-paste の代わりに AI drafting と FSRS を使う](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
+- [2026年版 ノートをFlashcardsに変える方法: 手作業のコピペではなくAIの下書きとFSRSを使う](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
 
-source が document、slides、paper なら、こちらのほうが fit します。
+元になる素材が文書、スライド、論文なら、こちらのほうが合います。
 
-- [2026年、PDF を Flashcards に変える方法: lecture slides、textbooks、research papers を FSRS cards にする](https://flashcards-open-source-app.com/blog/how-to-turn-a-pdf-into-flashcards/)
+- [2026年版 PDFをFlashcardsに変える方法: 講義スライド・教科書・論文をFSRSカードにする](https://flashcards-open-source-app.com/blog/how-to-turn-a-pdf-into-flashcards/)
 
-video は explanation quality と transcript noise が混ざる独自の annoying category です。
+動画は、説明の質と文字起こしのノイズが混ざる、独特で面倒なカテゴリです。
 
-だからこそ clean workflow が matters します。
+だからこそ、きれいな手順が重要になります。
 
-## better な rule
+## より良いルール
 
-whole video を memorize しようとしないこと。
+動画全体を覚えようとしないことです。
 
-transcript を draft に変え、active recall に値する parts だけを keep し、そのあとの timing は real spaced repetition system に任せること。
+文字起こしを下書きに変え、能動的想起に値する部分だけを残し、その後のタイミングは本物の間隔反復システムに任せる。
 
-これが私が実際に trust する **youtube to flashcards** です。AI が得意なことを尊重し、editing burden を reasonable に保ち、来週も still review したいと思える deck を作れます。
+私が実際に信頼できる **youtube to flashcards** はこの形です。AIが得意なことをきちんと使い、編集の負担を妥当な範囲に保ち、来週になってもまだ復習したいと思えるデッキを作れます。
 
-それが欲しいなら、[Flashcards](https://flashcards-open-source-app.com/) は practical path をくれます。transcript を入れ、cards を draft して clean up し、そのあと never reopen する clever generator tab ではなく、FSRS で serious review を行えます。
+それが欲しいなら、[Flashcards](https://flashcards-open-source-app.com/) は現実的な道筋を提供します。文字起こしを入れ、カードを下書きして整え、そのあと二度と開かない気の利いた生成ツールのタブではなく、FSRSでしっかり復習できます。
