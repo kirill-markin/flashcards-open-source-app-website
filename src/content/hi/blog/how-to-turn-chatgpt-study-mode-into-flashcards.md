@@ -1,6 +1,6 @@
 ---
-title: "2026 में ChatGPT Study Mode को Flashcards में कैसे बदलें: Tutor बनाए रखें, Spaced Repetition जोड़ें"
-description: "क्या आप 2026 में ChatGPT Study Mode इस्तेमाल कर रहे हैं? यहाँ व्यावहारिक workflow है: understanding के लिए tutoring session रखें, फिर अपनी गलतियों, weak spots, और missed quiz items को ऐसे flashcards में बदलें जिन्हें आप वास्तव में FSRS के साथ review कर सकें।"
+title: "2026 में ChatGPT Study Mode को फ़्लैशकार्ड्स में कैसे बदलें: ट्यूटर बनाए रखें, स्पेस्ड रिपिटिशन जोड़ें"
+description: "क्या आप 2026 में ChatGPT Study Mode इस्तेमाल कर रहे हैं? यहाँ एक व्यावहारिक तरीका है: समझने के लिए tutoring session रखें, फिर अपनी गलतियों, कमज़ोर हिस्सों और quiz में छूटे सवालों को ऐसे फ़्लैशकार्ड्स में बदलें जिन्हें आप सच में FSRS के साथ दोहरा सकें।"
 date: "2026-04-05"
 keywords:
   - "ChatGPT Study Mode flashcards"
@@ -13,71 +13,71 @@ keywords:
   - "FSRS flashcards"
 ---
 
-कल मैंने एक AI tutor को step by step मुझे topic समझाते, मुझसे questions पूछते, मेरी weak spots ठीक करते, और कुल मिलाकर ऐसे व्यवहार करते देखा जैसे वह किसी ऐसे teacher का patient version हो जिसने अभी तक मुझसे उम्मीद नहीं छोड़ी है। फिर मेरे दिमाग़ में ज़्यादा महत्वपूर्ण सवाल आया: ठीक है, लेकिन अगले हफ्ते मुझे इनमें से क्या याद रहना चाहिए?
+कल मैंने एक AI tutor को किसी विषय पर मुझे कदम दर कदम समझाते, मुझसे सवाल पूछते, मेरी कमज़ोरियाँ पकड़ते और कुल मिलाकर ऐसे व्यवहार करते देखा जैसे वह किसी ऐसे शिक्षक का धैर्यवान रूप हो जिसने अभी तक मुझसे उम्मीद नहीं छोड़ी हो। फिर मेरे मन में ज़्यादा अहम सवाल आया: ठीक है, लेकिन अगले हफ़्ते तक मुझे इनमें से क्या याद रहना चाहिए?
 
-यही सवाल **ChatGPT Study Mode flashcards** के भीतर छिपा है।
+यही वह सवाल है जो **ChatGPT Study Mode flashcards** के भीतर छिपा हुआ है।
 
-सवाल यह नहीं है कि "क्या AI मुझे कुछ समझने में मदद कर सकता है?" यह तो वह साफ़ तौर पर कर सकता है। असली सवाल यह है कि session के बाद क्या होता है, जब explanation उपयोगी लगी, quiz ठीक-ठाक गई, और फिर भी दो दिन बाद आपका दिमाग़ details वैसे ही leak करने लगता है जैसे हमेशा करता है।
+सवाल यह नहीं है कि "क्या AI मुझे कोई चीज़ समझने में मदद कर सकता है?" वह यह काम साफ़ तौर पर कर सकता है। असली सवाल यह है कि session के बाद क्या होता है, जब समझाया गया हिस्सा काम का लगा, quiz भी ठीक रही, और फिर भी दो दिन बाद दिमाग़ हमेशा की तरह बारीकियाँ भूलने लगता है।
 
-## 2025 में यह workflow बहुत अधिक दिलचस्प हो गया
+## 2025 में यह तरीका कहीं ज़्यादा दिलचस्प हो गया
 
-यह timing संयोग नहीं है।
+इसका समय संयोग नहीं है।
 
-OpenAI ने **29 जुलाई 2025** को ChatGPT Study Mode launch किया। Google ने **6 अगस्त 2025** को Gemini में Guided Learning के साथ उसका जवाब दिया, और उसके बाद Google Gemini के भीतर AI-generated quizzes, study guides, और flashcards को ज़्यादा व्यापक रूप से push करता रहा है।
+OpenAI ने **29 जुलाई 2025** को ChatGPT Study Mode launch किया। Google ने **6 अगस्त 2025** को Gemini में Guided Learning के साथ जवाब दिया, और उसके बाद Google Gemini के भीतर AI-generated quizzes, study guides और flashcards को और व्यापक रूप से आगे बढ़ाता रहा।
 
-इसलिए category बदल चुकी है।
+इससे पूरी श्रेणी बदल चुकी है।
 
-students अब सिर्फ़ AI से notes जल्दी निकलवाने की कोशिश नहीं कर रहे। वे अब AI को tutor, quiz engine, और guided-learning partner की तरह इस्तेमाल कर रहे हैं।
+अब छात्र सिर्फ़ AI से जल्दी notes निकलवाने की कोशिश नहीं कर रहे। वे AI को tutor, quiz engine और guided-learning partner की तरह इस्तेमाल कर रहे हैं।
 
-ठीक इसी वजह से मुझे लगता है कि **study mode spaced repetition** लोगों की समझ से कहीं बेहतर search है। explanation layer मजबूत होती जा रही है। long-term memory layer को अब भी अपने अलग system की ज़रूरत है।
+ठीक इसी वजह से मुझे लगता है कि **study mode spaced repetition** लोगों की सोच से कहीं बेहतर खोज है। समझाने वाला हिस्सा मज़बूत होता जा रहा है। लंबे समय तक याद रखने वाला हिस्सा अब भी अपने अलग तंत्र की माँग करता है।
 
-## Study Mode समझने में मदद करता है। यह अपने आप याद रखने में मदद नहीं करता।
+## Study Mode समझने में मदद करता है। यह अपने आप याद नहीं करवाता।
 
-यही वह हिस्सा है जिसे साफ़ करना ज़रूरी है।
+यही वह बात है जिसे साफ़-साफ़ समझना ज़रूरी है।
 
-AI tutoring session कुछ genuinely useful काम कर सकती है:
+AI tutoring session कुछ सचमुच उपयोगी काम कर सकता है:
 
 - किसी concept को दूसरे angle से समझाना
 - follow-up questions पूछना
-- आपको सिर्फ़ reread करने के बजाय answer articulate करवाना
-- यह दिखाना कि आपकी understanding कहाँ fuzzy है
+- आपको सिर्फ़ दोबारा पढ़ने के बजाय जवाब अपने शब्दों में कहने पर मजबूर करना
+- यह दिखाना कि आपकी समझ कहाँ धुंधली है
 
-यह वास्तविक value है।
+यह सचमुच उपयोगी है।
 
-लेकिन इनमें से कोई भी चीज़ अपने आप review schedule नहीं बनाती।
+लेकिन इनमें से कोई भी चीज़ अपने आप दोहराई का schedule नहीं बनाती।
 
-अगर idea सिर्फ़ एक surprisingly good chat session के भीतर जीवित है, तो बाद में वही पुरानी memory problem बनी रहती है। understanding storage नहीं है। अच्छी explanation spaced repetition plan नहीं है।
+अगर कोई idea सिर्फ़ एक unexpectedly good chat session के भीतर ही रहता है, तो बाद में वही पुरानी memory problem बनी रहती है। समझ लेना, याद रह जाने के बराबर नहीं है। अच्छी व्याख्या, spaced repetition plan नहीं होती।
 
-## सबसे अच्छे flashcards पूरे transcript से नहीं, गलतियों से आते हैं
+## सबसे अच्छे फ़्लैशकार्ड्स पूरे transcript से नहीं, गलतियों से निकलते हैं
 
-यहीं लोग अक्सर ग़लत जाते हैं।
+यहीं लोग अक्सर चूक जाते हैं।
 
-वे Study Mode session पूरी करते हैं, पूरी chat copy करते हैं, और किसी दूसरे AI tool से कहते हैं कि इसे cards में बदल दो। नतीजा उत्पादक दिखता है और review में थोड़ा awful लगता है।
+वे Study Mode session पूरा करते हैं, पूरी chat copy कर लेते हैं, और फिर किसी दूसरे AI tool से कहते हैं कि इसे cards में बदल दो। नतीजा ऊपर से productive दिखता है, लेकिन review करते समय खराब लगता है।
 
 क्यों?
 
-क्योंकि transcript का ज़्यादातर हिस्सा वास्तव में flashcard material नहीं होता।
+क्योंकि transcript का ज़्यादातर हिस्सा वास्तव में फ़्लैशकार्ड बनाने लायक सामग्री होता ही नहीं है।
 
 उसमें यह सब होता है:
 
-- warm-up explanation जिसे याद करना ज़रूरी नहीं था
-- ऐसे examples जो उस moment में useful थे लेकिन हमेशा उठाकर रखने लायक नहीं
+- शुरुआती व्याख्या जिसे याद रखना ज़रूरी नहीं था
+- ऐसे examples जो उस समय काम के थे, लेकिन हमेशा साथ ढोने लायक नहीं
 - repeated hints
 - partial answers
 - conversational filler
 
-**ChatGPT study mode से flashcards** के लिए बेहतर source कहीं संकीर्ण है:
+**ChatGPT study mode से flashcards** बनाने के लिए बेहतर source कहीं ज़्यादा सीमित है:
 
-- वह question जो आपसे miss हुआ
-- वह distinction जिसे आप बार-बार confuse करते रहे
-- वह formula या definition जिसे आप साफ़-साफ़ recall नहीं कर पाए
-- वह एक concept जिसे tutor को दो बार समझाना पड़ा
+- वह सवाल जो आपसे छूट गया
+- वह distinction जिसमें आप बार-बार उलझे
+- वह formula या definition जिसे आप साफ़ तौर पर याद नहीं कर पाए
+- वह concept जिसे tutor को दो बार समझाना पड़ा
 
-यही अच्छा material है।
+असल काम की चीज़ यही है।
 
 ## मैं AI tutoring sessions को flashcard export नहीं, flashcard mining की तरह देखूँगा
 
-यह mindset सब बदल देता है।
+यह सोच सब कुछ बदल देती है।
 
 यह मत पूछिए:
 
@@ -85,62 +85,62 @@ AI tutoring session कुछ genuinely useful काम कर सकती ह
 
 यह पूछिए:
 
-"इस session के कौन-से हिस्सों ने यह उजागर किया कि मुझे क्या चीज़ बाद में बिना मदद recall कर पाने योग्य होनी चाहिए?"
+"इस session के कौन-से हिस्सों ने दिखाया कि मुझे कौन-सी चीज़ बाद में बिना मदद याद कर पाना चाहिए?"
 
-आमतौर पर इससे cards का सेट बहुत छोटा और बहुत बेहतर निकलता है।
+आमतौर पर इससे cards का सेट छोटा भी निकलता है और बेहतर भी।
 
-मैं खोजूँगा:
+मैं इन बातों पर ध्यान दूँगा:
 
 - बार-बार हुई गलतियाँ
-- धीमे answers
-- confidently दिए गए गलत answers
-- वे जगहें जहाँ explanation पहचान में आई, लेकिन आप खुद उसे produce नहीं कर पाए
+- देर से दिए गए जवाब
+- पूरे भरोसे के साथ दिए गए ग़लत जवाब
+- वे जगहें जहाँ explanation समझ में तो आ गई, लेकिन आप खुद उसे बता नहीं पाए
 
-ये moments polished AI summary की तुलना में कहीं ज़्यादा वास्तविक flashcard candidates होते हैं।
+ये पल किसी polished AI summary की तुलना में कहीं ज़्यादा अच्छे flashcard candidates होते हैं।
 
-## जिस workflow पर मुझे भरोसा है, वह इतना छोटा है कि दोहराया जा सके
+## जिस तरीके पर मुझे भरोसा है, वह इतना छोटा है कि बार-बार अपनाया जा सके
 
-मैं वास्तव में यह version इस्तेमाल करूँगा:
+मैं सच में यही तरीका अपनाऊँगा:
 
-1. Study Mode या Guided Learning session सामान्य रूप से करें
-2. जिन questions पर आप miss हुए या hesitate किए, उन्हें mark करें
-3. पूरी conversation नहीं, सिर्फ़ वे weak spots copy करें
-4. उन्हें plain front/back cards में बदलें
+1. Study Mode या Guided Learning session सामान्य तरीके से करें
+2. जिन सवालों पर आप चूके या रुके, उन्हें mark करें
+3. पूरी conversation नहीं, सिर्फ़ वही weak spots copy करें
+4. उन्हें साधारण front/back cards में बदलें
 5. बाद में FSRS के साथ review करें
 
 बस इतना ही।
 
 कोई giant export नहीं।
 
-कोई heroic deck creation session नहीं।
+कोई heroic deck-creation session नहीं।
 
-और यह दिखावा भी नहीं कि tutor की हर interesting sentence permanent card deserve करती है।
+और यह दिखावा भी नहीं कि tutor की हर interesting line permanent card बनने लायक है।
 
-यह इसलिए काम करता है क्योंकि AI tutor understanding संभाल चुका है। flashcards को सिर्फ़ वही चीज़ preserve करनी है जिसे आपकी memory पकड़कर नहीं रख सकी।
+यह इसलिए काम करता है क्योंकि AI tutor समझाने का काम कर चुका है। flashcards को सिर्फ़ वही चीज़ संभालनी है जिसे आपकी याददाश्त टिकाकर नहीं रख सकी।
 
 ## Smarter AI tutors के साथ भी एक weak spot per card वाला नियम मायने रखता है
 
 tools बेहतर हो गए हैं।
 
-card rules बहुत नहीं बदले।
+card rules ज़्यादा नहीं बदले।
 
-एक उपयोगी card अभी भी आम तौर पर एक boring काम ठीक से करता है:
+एक उपयोगी card अभी भी आम तौर पर एक सीधा-सा काम ठीक से करता है:
 
 - एक साफ़ सवाल पूछता है
 - एक distinction test करता है
-- एक direct answer चाहता है
+- एक सीधा जवाब चाहता है
 
-अगर card पूरी tutoring arc को capture करने की कोशिश करे, तो वह तुरंत bloated हो जाता है।
+अगर card पूरी tutoring arc को पकड़ने की कोशिश करे, तो वह तुरंत भारी और उलझा हुआ हो जाता है।
 
-इसीलिए मैं एक Study Mode session को बीस complex cards में नहीं बदलूँगा जो छोटे lesson plans जैसे लगें। मैं छह साफ़ cards रखना पसंद करूँगा जो session द्वारा उजागर किए गए exact gaps को target करें।
+इसीलिए मैं एक Study Mode session को बीस complex cards में नहीं बदलूँगा जो छोटे lesson plans जैसे लगें। मैं छह साफ़ cards रखना पसंद करूँगा जो session से सामने आए exact gaps को target करें।
 
-अगर आप इस तर्क का deeper card-quality version चाहते हैं, तो यह companion piece और आगे जाती है:
+अगर आप इस तर्क का card quality वाला गहरा रूप चाहते हैं, तो यह companion piece और आगे जाती है:
 
 - [2026 में बेहतर Flashcards कैसे बनाएं](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
 
 ## यह सिर्फ़ ChatGPT के लिए नहीं, Gemini Guided Learning के लिए भी काम करता है
 
-मैं इसे one-product trick की तरह नहीं देखूँगा।
+मैं इसे सिर्फ़ एक product तक सीमित तरकीब की तरह नहीं देखता।
 
 यही logic इन सब पर लागू होती है:
 
@@ -149,38 +149,38 @@ card rules बहुत नहीं बदले।
 - Gemini-generated quizzes और flashcards
 - अन्य AI tutoring flows जो back-and-forth explanation में अच्छे हैं
 
-common pattern एक ही है।
+मूल ढाँचा एक ही है।
 
 AI अभी idea समझने में मदद करता है।
 
-flashcards बाद में भी उसे जानने में मदद करते हैं।
+flashcards बाद में भी उसे याद रखने में मदद करते हैं।
 
-इसीलिए मुझे लगता है कि **AI study mode flashcards** किसी एक brand पर obsess करने से बेहतर framing है। learning problem मौजूदा product names से बड़ी है।
+इसीलिए मुझे लगता है कि **AI study mode flashcards** किसी एक brand पर अटक जाने से बेहतर framing है। सीखने की समस्या मौजूदा product names से बड़ी है।
 
-## इस workflow का सबसे खराब version है हर चीज़ के लिए cards बनाना
+## इस तरीके का सबसे खराब रूप है हर चीज़ के लिए cards बना देना
 
-यहीं AI चुपचाप जितना pain हटाता है, उससे ज़्यादा study pain बना देता है।
+यहीं AI चुपचाप जितनी पढ़ाई की परेशानी कम करता है, उससे ज़्यादा बढ़ा भी सकता है।
 
-अगर tutor अनंत explanations और अनंत quizzes बना सकता है, तो temptation स्पष्ट है:
+अगर tutor अनंत explanations और अनंत quizzes बना सकता है, तो temptation साफ़ है:
 
 - सब save करो
 - सब convert करो
 - और उस pile को "productive" कहो
 
-फिर अगले हफ्ते deck खोलते ही पता चलता है कि आपने backlog factory बना ली।
+फिर अगले हफ़्ते deck खोलते ही पता चलता है कि आपने backlog factory बना ली है।
 
 इसीलिए मैं यहाँ असामान्य रूप से strict रहूँगा।
 
-किसी concept को card तभी मिलना चाहिए अगर:
+किसी concept को card तभी मिलना चाहिए, अगर:
 
-- आप उसे इस session से आगे भी याद रखना चाहते हों
-- आप उसे साफ़-साफ़ recall करने में असफल रहे हों
+- आप उसे इस session के बाद भी याद रखना चाहते हों
+- आप उसे साफ़ तौर पर याद नहीं कर पाए हों
 - answer को सरल रूप में कहा जा सकता हो
 - बाद में उसे दोबारा review करना सच में मददगार हो
 
 अगर नहीं, तो tutoring session को tutoring session ही रहने दें।
 
-अगर review overload पहले से आपकी समस्या है, तो ये लेख इसी के पास बैठते हैं:
+अगर review overload पहले से आपकी समस्या है, तो ये लेख इसी विषय से जुड़े हैं:
 
 - [2026 में प्रति दिन कितने नए फ़्लैशकार्ड?](https://flashcards-open-source-app.com/blog/how-many-new-flashcards-per-day/)
 - [2026 में पीछे छूट जाने के बाद Flashcards में फिर से कैसे पकड़ बनाएं](https://flashcards-open-source-app.com/blog/how-to-catch-up-on-flashcards-after-falling-behind/)
@@ -195,9 +195,9 @@ flashcards बाद में भी उसे जानने में मद
 - front पर short prompt रखो
 - back पर direct answer दो
 - tutoring session का filler हटा दो
-- सिर्फ़ वही cards रखो जो वास्तविक memory gap test करते हों
+- सिर्फ़ वही cards रखो जो सच में किसी memory gap को test करते हों
 
-यह full transcript model में dump करके magic माँगने से कहीं बेहतर काम करता है।
+यह पूरे transcript को model में dump करके magic माँगने से कहीं बेहतर काम करता है।
 
 अगर आपका workflow इससे पहले शुरू होता है, यानी Study Mode और tutoring से भी पहले, तो यह companion article ज़्यादा direct generation route cover करती है:
 
@@ -209,27 +209,27 @@ flashcards बाद में भी उसे जानने में मद
 
 ## FSRS वही हिस्सा है जो अच्छे session को long-term retention में बदलता है
 
-यही अब भी quietly main event है।
+यही अब भी चुपचाप सबसे अहम हिस्सा है।
 
 लोग generation layer की बहुत बात करते हैं क्योंकि वह नई लगती है।
 
 review system ज़्यादा मायने रखता है।
 
-बहुत अच्छे cards भी annoying हो जाते हैं अगर वे खराब समय पर लौटें, बहुत तेज़ी से जमा हों, या आपके पहले से ज्ञात material का सम्मान किए बिना बार-बार दिखते रहें। इसी वजह से मुझे ऊपर की fancy tutoring surface की तुलना में scheduler की कहीं ज़्यादा परवाह है।
+बहुत अच्छे cards भी परेशान करने लगते हैं, अगर वे गलत समय पर लौटें, बहुत तेज़ी से जमा हों, या आपकी पहले से पक्की चीज़ों का ख़याल रखे बिना बार-बार सामने आते रहें। इसी वजह से मुझे ऊपर की fancy tutoring surface से कहीं ज़्यादा scheduler की परवाह है।
 
-**FSRS flashcards** ही इस workflow को durable बनाते हैं:
+**FSRS flashcards** ही इस workflow को टिकाऊ बनाते हैं:
 
 - कम pointless repeats
 - ज़्यादा शांत review load
 - difficulty और next review के बीच बेहतर alignment
 
-अगर आप algorithm comparison चाहें, तो यह article और गहराई में जाती है:
+अगर आप algorithm comparison चाहते हैं, तो यह article और गहराई में जाती है:
 
 - [2026 में FSRS बनाम SM-2](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
 
 ## इस workflow में Flashcards कहाँ बेहतर बैठता है
 
-[Flashcards](https://flashcards-open-source-app.com/) **ChatGPT Study Mode को flashcards में कैसे बदलें** के लिए मजबूत fit है क्योंकि product वह हिस्सा cover करता है जिसे AI tutoring अपने आप हल नहीं करती:
+[Flashcards](https://flashcards-open-source-app.com/) **ChatGPT Study Mode को flashcards में कैसे बदलें** वाले workflow के लिए मज़बूत fit है, क्योंकि यह product उस हिस्से को cover करता है जिसे AI tutoring अपने आप हल नहीं करती:
 
 - chat-only memory के बजाय front/back cards
 - cleanup और drafting के लिए AI chat
@@ -241,19 +241,19 @@ review system ज़्यादा मायने रखता है।
 
 1. topic समझने के लिए AI tutor इस्तेमाल करें
 2. missed points copy करें
-3. उन्हें Flashcards के भीतर cards में साफ़ करें
+3. उन्हें Flashcards के भीतर cards के रूप में साफ़ करें
 4. बाद में FSRS के साथ review करें
 
-यह उस उम्मीद से कहीं ज़्यादा believable है कि एक chat session गलती से durable memory बन जाएगी।
+यह उस उम्मीद से कहीं ज़्यादा भरोसेमंद लगता है कि एक chat session अपने आप टिकाऊ memory बन जाएगी।
 
-## AI-assisted studying का यही version है जिस पर मुझे भरोसा है
+## AI-assisted studying का यही रूप है जिस पर मुझे भरोसा है
 
-मुझे AI tutoring तब ज़्यादा पसंद आती है जब वह पूरा study system बनने का नाटक करना बंद कर देती है।
+मुझे AI tutoring तब ज़्यादा पसंद आती है, जब वह पूरे study system होने का नाटक करना बंद कर देती है।
 
-उसे explanation के लिए इस्तेमाल करें।
+इसे explanation के लिए इस्तेमाल करें।
 
-उसे questions के लिए इस्तेमाल करें।
+इसे questions के लिए इस्तेमाल करें।
 
-उसे यह उजागर करने दें कि आप अभी क्या नहीं जानते।
+इसे यह उजागर करने दें कि आप अभी क्या नहीं जानते।
 
 फिर weak spots को flashcards में डालें और spaced repetition को अपना काम करने दें।

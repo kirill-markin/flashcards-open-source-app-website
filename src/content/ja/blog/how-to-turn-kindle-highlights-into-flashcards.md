@@ -1,267 +1,267 @@
 ---
-title: "2026年、Kindle highlights を Flashcards に変える方法: reading habit は保ちつつ、real spaced repetition を足す"
-description: "2026年に Kindle highlights を flashcards にしたい人向けの practical workflow です。best highlights を export または copy し、memorable なものだけを front/back cards に変え、notebook に眠らせず FSRS で review します。"
+title: "2026年、Kindle のハイライトを Flashcards に変える方法: 読書習慣はそのままに、本物の間隔反復を加える"
+description: "2026年に Kindle のハイライトを Flashcards にしたい人向けの実践的な手順です。残す価値のあるハイライトだけを書き出すかコピーし、表裏カードに整えて、ノートブックに眠らせず FSRS で復習します。"
 date: "2026-04-07"
 keywords:
-  - "kindle highlights to flashcards"
-  - "how to turn kindle highlights into flashcards"
+  - "Kindle ハイライトを Flashcards にする"
+  - "Kindle のハイライトを Flashcards に変える方法"
   - "kindle to anki"
-  - "kindle highlights flashcards"
-  - "book highlights to flashcards"
-  - "kindle notes to flashcards"
-  - "remember what you read"
-  - "FSRS flashcards"
+  - "Kindle ハイライトのフラッシュカード"
+  - "本のハイライトを Flashcards にする"
+  - "Kindle メモを Flashcards にする"
+  - "読んだ内容を覚える方法"
+  - "FSRS フラッシュカード"
 ---
 
-昨夜、私の考え方を definitely 変えたと信じていた本の highlights でいっぱいの Kindle notebook を開きました。notebook は impressive でした。でも ideas に対する actual memory は、そこまで impressive ではありませんでした。
+昨夜、確実に自分の考え方を変えたはずだと思っていた本のハイライトで埋まった Kindle のノートブックを開きました。見た目は立派でした。でも、その内容を本当に覚えているかというと、まったく別の話でした。
 
-人が **kindle highlights to flashcards** と検索し始めるのは、たいていそのときです。
+たいていの人が「Kindle のハイライトを Flashcards にしたい」と検索し始めるのは、そういう瞬間です。
 
-highlighting が useless だからではありません。highlighting は、残す価値のある何かに気づく瞬間であることが多い。でも Kindle highlight は、まだ mostly storage decision にすぎません。まだ memory system ではありません。
+ハイライト自体が無意味だからではありません。ハイライトは、残す価値のあるものに気づくきっかけになることが多いからです。ただし Kindle のハイライトは、まだ「保存する」という判断にすぎません。記憶の仕組みにはなっていません。
 
-## Kindle highlights は collection は解決する。でも recall は解決しない。
+## Kindle のハイライトで集めることはできる。でも思い出せるようにはならない。
 
-issue 全体を 1 line にするとこれです。
+問題を 1 行で言うとこうです。
 
-人は次のものを highlight できます。
+次のような内容にハイライトできます。
 
-- strong な definition
-- clean な framework
-- textbook の 1 paragraph
-- foreign language の 1 sentence
-- concept を perfectly 説明している quote
+- 明快な定義
+- わかりやすいフレームワーク
+- 教科書の 1 段落
+- 外国語の 1 文
+- 概念を的確に説明している引用
 
-それでも来週には忘れます。
+それでも、来週には忘れてしまいます。
 
-failure ではありません。ただ reading とはそういうものです。recognition は recall より強く感じられ、highlight lists は recognition のためにできている。flashcards は recall のためにできている。
+これは失敗ではありません。読書とはそういうものです。見ればわかる感覚は、思い出せる感覚よりも強く感じられます。ハイライト一覧は「見ればわかる」を支えるもので、Flashcards は「思い出せる」を支えるものです。
 
-だから **kindle highlights flashcards** は workflow として出てきます。people は「これを mark した」と「あとでも produce できる」の gap を埋めようとしているのです。
+だからこそ、「Kindle のハイライトをフラッシュカードにする」という発想が必要になります。人は「ここに線を引いた」と「あとで自力で説明できる」のあいだにある差を埋めようとしているのです。
 
-## 最初の mistake は、every highlight を card にすること
+## 最初の失敗は、すべてのハイライトをカードにしてしまうこと
 
-私はそうしません。
+私はそれを勧めません。
 
-ほとんどの highlights は、その瞬間には useful でも flashcard には terrible です。
+たいていのハイライトは、その場では役に立っても、フラッシュカードにすると出来が悪くなります。
 
-たとえば:
+よくあるのは次のようなものです。
 
-- broad すぎる
-- surrounding context に依存しすぎる
-- interesting だが memorable ではない
-- emotionally nice だが review-worthy ではない
-- 一度見たら already obvious
+- 範囲が広すぎる
+- 前後の文脈に頼りすぎている
+- 面白いが、覚える価値まではない
+- 気分は良くなるが、復習する価値は薄い
+- 一度見ればそれで十分にわかる
 
-Kindle notebook 全体を deck にすると、productive に見えて 3 日目には annoying になります。
+Kindle のノートブック全体をそのままデッキにすると、一見生産的に見えても 3 日目にはうんざりします。
 
-だから better question はこうではありません。
+だから、より良い問いはこうではありません。
 
-"How do I export all my highlights?"
+"ハイライトを全部どう書き出せばいいか?"
 
-こうです。
+そうではなく、こうです。
 
-"この highlights のうち、book を reopening せずに実際に recall したいものはどれか?"
+"このハイライトのうち、本を開き直さなくても思い出せるようになりたいものはどれか?"
 
-## 最良の Kindle cards は、たいてい 4 種類の highlights から生まれる
+## 良い Kindle のカードは、たいてい 4 種類のハイライトから生まれる
 
-私が最も信頼するのは次です。
+私が特に有効だと感じるのは次の 4 つです。
 
-### 1. Definitions と distinctions
+### 1. 定義と区別
 
-book が後で使いたい idea を説明しているなら、強い card になりがちです。
+あとで使いたい考え方を本がはっきり説明しているなら、良いカードになりやすいです。
 
-### 2. 少数の parts を持つ frameworks
+### 2. 要素数の少ないフレームワーク
 
-3-step processes、criteria lists、named models、short comparisons は相性が良い。
+3 段階の手順、判断基準の一覧、名前の付いたモデル、短い比較などは特に向いています。
 
-### 3. context の中の vocabulary
+### 3. 文脈つきの語彙
 
-language learning や technical reading では特に useful です。
+語学学習や技術書を読むときには特に有効です。
 
-### 4. conversation、writing、work で使いたい claims
+### 4. 会話や文章、仕事で使いたい主張
 
-every quote が card に値するわけではありません。memory から explain できるようになりたい claim は、card にする価値があります。
+すべての引用がカードに値するわけではありません。記憶だけを頼りに説明できるようになりたい主張なら、カードにする価値があります。
 
-これが、私が信頼する **book highlights to flashcards** の practical version です。本全体を preserve するのではなく、retrieval practice に値する parts を harvest しているのです。
+これが、私が信頼している「本のハイライトを Flashcards にする」実践的な形です。本全体を保存するのではなく、思い出す練習に値する部分だけを拾い上げます。
 
-## highlight export は raw material であって final deck ではない
+## 書き出したハイライトは素材であって、完成したデッキではない
 
-この mindset で多くのことが直ります。
+この考え方に切り替えるだけで、かなり整理しやすくなります。
 
-text の取得元が次のどれでも:
+テキストの取得元が次のどれであっても、
 
-- Kindle highlights notebook
-- Kindle app から copied した highlights
-- exported notes
+- Kindle のハイライト用ノートブック
+- Kindle app からコピーしたハイライト
+- 書き出したメモ
 - clippings file
 
-得られるものは still input です。
+手に入るのは、まだ下ごしらえ前の材料にすぎません。
 
-deck は、たいてい original highlight list より smaller で cleaner で more direct であるべきです。
+デッキは、元のハイライト一覧よりも小さく、整理され、直接的であるべきです。
 
-私は次を当然だと思います。
+私は次の作業が前提だと考えています。
 
-- かなり delete する
-- some highlights を複数 cards に split する
-- long quotes を plain な front/back prompts に rewrite する
-- exact wording が重要なときだけ source text を残す
+- かなり削る
+- 一部のハイライトは複数のカードに分ける
+- 長い引用は、素直な表裏形式の問いに書き換える
+- 元の表現が重要なときだけ本文の文言を残す
 
-これが **kindle notes to flashcards** を slightly ceremonial ではなく actually useful にします。
+こうしてはじめて、「Kindle のメモを Flashcards にする」作業は、儀式っぽいものではなく本当に役立つものになります。
 
-## 実際に使う workflow
+## 実際に使う手順
 
-私はかなり plain に保ちます。
+私はかなりシンプルに進めます。
 
-1. 1 冊の本または 1 chapter から、small batch の Kindle highlights を export または copy する
-2. 来週 review したいと思えないものは delete する
-3. survivors を simple front/back cards に変える
-4. できるだけ 1 card に 1 idea を保つ
-5. note archive に眠らせず、FSRS で review する
+1. 1 冊の本、または 1 章から少量の Kindle のハイライトを書き出すかコピーする
+2. 来週復習したいと思えないものは削る
+3. 残ったものをシンプルな表裏カードに変える
+4. できるだけ 1 枚に 1 つの考えだけを載せる
+5. メモの保管場所に眠らせず、FSRS で復習する
 
 これだけです。
 
-giant な reading backlog migration はしない。
+巨大な読書 backlog をまとめて移し替える必要はありません。
 
-6 冊を一気に convert して、future self が即座に resent する study obligation を作るような weekend project もしない。
+6 冊ぶんを一気に変換して、未来の自分がすぐ嫌になるような学習義務を増やす週末プロジェクトにもしません。
 
-## Kindle highlights から作る good flashcards でも、boring な flashcard rules はそのまま
+## Kindle のハイライトから作る良いフラッシュカードでも、基本のルールは変わらない
 
-source は elegant に感じられます。
+元の文章は洗練されて見えるかもしれません。
 
-でも card は simple である必要があります。
+それでもカード自体はシンプルである必要があります。
 
-good cards はたいてい:
+良いカードには、たいてい次の特徴があります。
 
-- 1 つの clear なことを聞く
-- 直接 answer する
-- recall を助ける場合だけ context を残す
-- 1 prompt に 3 ideas を bury しない
-- review speed で readable に sound する
+- 1 つの明確なことだけを問う
+- 直接答えられる
+- 思い出す助けになるときだけ文脈を残す
+- 1 つの問いに 3 つの考えを埋め込まない
+- 復習のペースでも無理なく読める
 
-highlight がこう言っているとします。
+たとえば、ハイライトがこうだとします。
 
 > Clarity about what matters provides clarity about what does not.
 
-card は paragraph の mood 全体を preserve する必要はありません。
+カードは段落全体の雰囲気まで残す必要はありません。
 
-たとえば:
+たとえば次のようにできます。
 
 - Front: What does clarity about what matters help you see?
 - Back: It clarifies what does not matter.
 
-これは、quotes をそのまま deck に dump して learning と呼ぶより、ずっと usable な **kindle to anki** workflow に近いです。
+これは、引用をそのままデッキに流し込んで学習と呼ぶより、ずっと実用的な **kindle to anki** のやり方です。
 
-broader な card-writing rules は、こちらから。
+カードの作り方をもう少し広く整理したいなら、こちらからどうぞ。
 
-- [2026年、より良い Flashcards を作る方法: FSRS と実際に噛み合う front / back の rule](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [2026年、より良い Flashcards を作る方法: FSRS と実際に噛み合う表裏カードのルール](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
 
-## nonfiction、textbooks、language books で同じ card style を使うべきではない
+## 一般書、教科書、語学の本に同じカードの作り方を使うべきではない
 
-ここで多くの reading workflows は blurry になります。
+ここで多くの読書ベースの手順は曖昧になります。
 
-### nonfiction books
+### 一般書
 
-highlights から拾うのは:
+ハイライトから拾うのは次のようなものです。
 
-- frameworks
-- definitions
-- 再利用したい arguments
-- principle を clarify する examples
+- フレームワーク
+- 定義
+- 再利用したい主張
+- 原則をはっきりさせる例
 
-### textbooks
+### 教科書
 
-highlights から拾うのは:
+ハイライトから拾うのは次のようなものです。
 
-- exam-relevant facts
-- key mechanisms
-- formulas や criteria
-- confuse しやすい distinctions
+- 試験で問われる事実
+- 重要な仕組み
+- 公式や判断基準
+- 混同しやすい区別
 
-### language reading
+### 語学のための読書
 
-highlights から拾うのは:
+ハイライトから拾うのは次のようなものです。
 
-- context の中の unfamiliar words
-- useful phrases
-- 後で produce したい grammar patterns
+- 文脈つきの未知語
+- 使い勝手のいいフレーズ
+- あとで自分でも使いたい文法パターン
 
-だから **remember what you read** は 1 つの workflow ではありません。source material が best card shape を変えます。
+だから「読んだ内容を覚える方法」は 1 つの手順にはなりません。素材によって、最適なカードの形が変わるからです。
 
-goal が general reading ではなく language practice なら、こちらの companion piece のほうが closer です。
+目的が一般的な読書ではなく語学練習なら、こちらの記事のほうが合います。
 
-- [2026年、language learning に Flashcards を使う方法: 本当に定着する vocabulary、sentences、reviews](https://flashcards-open-source-app.com/blog/how-to-use-flashcards-for-language-learning/)
+- [2026年、語学学習に Flashcards を使う方法: 本当に定着する語彙、例文、復習](https://flashcards-open-source-app.com/blog/how-to-use-flashcards-for-language-learning/)
 
-## Kindle highlights は、organized に見えるぶん危険
+## Kindle のハイライトは、整理されて見えるぶん危険
 
-ここが sneaky な problem です。
+ここが見落としやすい問題です。
 
-notebook view は structured に見えます。highlights は neat に並ぶ。scroll できる。search できる。export もできる。
+ノートブック画面は整って見えます。ハイライトはきれいに並び、スクロールできて、検索できて、書き出しまでできます。
 
-そのせいで、ideas が somehow もう処理済みだという emotional feeling が生まれます。
+そのせいで、「もうちゃんと処理した気がする」という感覚が生まれます。
 
-でも、たいていはそうではありません。
+でも、たいてい実際はそうではありません。
 
-highlight archive は still passive storage です。study system というより warehouse に近い。
+ハイライトの保管場所は、まだ受け身の保存先です。学習の仕組みというより、倉庫に近いものです。
 
-だから people はそこに extra layers を足し続けます。
+だから人は、その上にさらに層を重ねようとします。
 
-- read-later review tools
-- Kindle-to-Anki converters
-- quote widgets
-- note pipelines
+- あとで見返すための復習ツール
+- Kindle to Anki 変換ツール
+- 引用表示ウィジェット
+- メモ処理パイプライン
 
-どれも基本的には同じ problem を解こうとしています。reading は起きた。でも memory は stick しなかった。
+どれも、根本的には同じ問題を解こうとしています。読書はした。でも記憶には定着しなかった、という問題です。
 
-## reading workflow を actual retention に変えるのは FSRS
+## 読書の手順を実際の定着につなげるのは FSRS
 
-ここは export step より重要です。
+ここは、ハイライトを書き出す手順そのものより重要です。
 
-strong cards があっても review timing が weak なら、deck は still irritating です。
+良いカードがあっても、復習のタイミングが悪ければ、デッキは結局わずらわしいものになります。
 
-decent cards があり review timing も strong なら、system は believable になります。
+そこそこのカードでも、復習のタイミングが良ければ、その仕組みは信頼できるものになります。
 
-だから **FSRS flashcards** はこの use case によく合います。reading highlights は同じ rhythm では decay しません。1 exposure で stick する ideas もあれば、2 回戻る必要があるものもある。rephrased しないと slip し続けるものもある。
+だから、FSRS を使うフラッシュカードはこの用途によく合います。読書中に拾った内容は、同じ速度では忘れていきません。1 回で残るものもあれば、2 回は見直したいものもあるし、言い換えない限り何度も抜け落ちるものもあります。
 
-FSRS は、その reality を fixed review rules より better に扱います。
+FSRS は、その現実を固定的な復習ルールよりうまく扱えます。
 
-scheduling part の詳細は、こちらです。
+スケジューリングの話をもう少し詳しく知りたいなら、こちらです。
 
-- [2026年の FSRS vs SM-2: どの spaced repetition algorithm がより多く覚えられるか](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [2026年の FSRS vs SM-2: どの間隔反復アルゴリズムがより多く覚えられるか](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
 
-## Flashcards Open Source App が合う理由
+## Flashcards Open Source App が向いている理由
 
-[Flashcards Open Source App](https://flashcards-open-source-app.com/) は、**kindle highlights to flashcards** と相性が良いです。workflow の practical parts を already 持っているからです。
+[Flashcards Open Source App](https://flashcards-open-source-app.com/) は、Kindle のハイライトを Flashcards にしたいときに相性が良いです。必要な作業の実務的な部分が、すでにそろっているからです。
 
-- exported highlights の text を paste または upload できる
-- cards を作る前に AI chat で material を clean up できる
-- simple front/back cards を作れる
-- その後 FSRS で review できる
-- web、iPhone、Android で offline-first に study を続けられる
+- 書き出したハイライトの本文を貼り付けるかアップロードできる
+- カードを作る前に AI チャットで内容を整えられる
+- シンプルな表裏カードを作れる
+- その後 FSRS で復習できる
+- Web、iPhone、Android でオフライン優先の学習を続けられる
 
-この combination が重要なのは、hard part が Kindle から text を出すことではないからです。1 週間の real review のあとでも respect できる deck に、その text を変えることこそが hard part です。
+この組み合わせが重要なのは、難しいのが Kindle からテキストを取り出すことではないからです。本当に難しいのは、そのテキストを 1 週間の実際の復習のあとでも納得できるデッキに変えることです。
 
-source が ebook highlights より broader な notes なら、こちらのほうが better companion です。
+電子書籍のハイライトより幅広いメモを元にしているなら、こちらの記事のほうが合います。
 
-- [2026年、notes を Flashcards に変える方法: manual copy-paste の代わりに AI drafting と FSRS を使う](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
+- [2026年、メモを Flashcards に変える方法: 手作業のコピペの代わりに AI で下書きし、FSRS を使う](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
 
-## useful な rule
+## 覚えておきたいルール
 
-reading 中に smart な気分にさせてくれた highlights のために cards を作らないこと。
+読んでいる最中に「自分は理解できている」と感じさせてくれたハイライトのためにカードを作らないこと。
 
-book を reopening せずに本当に recall したい highlights のために cards を作ること。
+本を開き直さなくても本当に思い出したいハイライトのためにカードを作ること。
 
-これが、私が実際に信頼する **how to turn Kindle highlights into flashcards** です。
+これが、私が実際に信頼している Kindle のハイライトを Flashcards に変えるやり方です。
 
-batch は small に。
+まとめて扱う量は小さく。
 
-cards は simple に。
+カードはシンプルに。
 
-highlight list は shrine ではなく raw material として扱う。
+ハイライト一覧は祭壇ではなく素材として扱う。
 
-そのあと静かな part は spaced repetition に任せる。
+あとは、目立たないけれど重要な部分を間隔反復に任せればいいのです。
 
 それが欲しいなら、ここから始めてください。
 
 - [Flashcards Open Source App を開く](https://flashcards-open-source-app.com/)
-- [getting started guide を読む](https://flashcards-open-source-app.com/docs/getting-started/)
-- [API docs を読む](https://flashcards-open-source-app.com/docs/api/)
-- [GitHub で source を見る](https://github.com/kirill-markin/flashcards-open-source-app)
+- [スタートガイドを読む](https://flashcards-open-source-app.com/docs/getting-started/)
+- [API ドキュメントを読む](https://flashcards-open-source-app.com/docs/api/)
+- [GitHub でソースを見る](https://github.com/kirill-markin/flashcards-open-source-app)

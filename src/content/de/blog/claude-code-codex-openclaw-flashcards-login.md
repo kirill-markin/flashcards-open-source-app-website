@@ -1,97 +1,97 @@
 ---
-title: "Wie du Claude Code, Codex oder OpenClaw die Flashcards-Anmeldung für dich erledigen lässt"
-description: "Flashcards bietet einen Open-Source-Agent-Login-Ablauf mit einer einzigen Discovery-URL, E-Mail-OTP und einem langlebigen API-Key. Gib deinem Agenten einen Link, schick den 8-stelligen Code zurück und lass ihn Konto- und Workspace-Setup selbst abschließen."
+title: "So lässt du Claude Code, Codex oder OpenClaw die Anmeldung bei Flashcards für dich übernehmen"
+description: "Flashcards bietet einen Open-Source-Anmeldeablauf für Agenten: eine Discovery-URL, E-Mail-OTP und ein langlebiger API-Key. Gib deinem Agenten den Link, schick den aktuellen 8-stelligen Code zurück und lass ihn Konto- und Workspace-Einrichtung selbst abschließen."
 date: "2026-03-10"
 keywords:
-  - "claude code login"
-  - "codex login"
-  - "email otp api"
-  - "agent onboarding"
-  - "open source flashcards app"
-  - "open source api authentication"
+  - "claude code anmeldung"
+  - "codex anmeldung"
+  - "e-mail-otp-api"
+  - "agenten-einrichtung"
+  - "flashcards open-source-app"
+  - "open-source-api-authentifizierung"
 ---
 
-Die meisten Login-Abläufe gehen noch immer davon aus, dass der Mensch die komplette Einrichtung von Hand erledigt.
+Bei den meisten Anmeldeabläufen wird immer noch vorausgesetzt, dass ein Mensch die komplette Einrichtung von Hand übernimmt.
 
-Login-Seite öffnen. Auf den Code warten. Das Token kopieren. Einen API-Key erzeugen. Ihn in ein Tool einfügen. Dem Agenten die Doku erklären. Die Sitzung reparieren, wenn etwas schiefläuft.
+Anmeldeseite öffnen. Auf den Code warten. Das Token kopieren. Einen API-Key erstellen. Ihn in ein Tool einfügen. Dem Agenten die Doku erklären. Die Sitzung reparieren, wenn etwas schiefläuft.
 
-Genau diese Arbeit sollte ein Tool dir eigentlich abnehmen.
+Genau solche Arbeit sollte dir ein Tool abnehmen.
 
-In [Flashcards](https://flashcards-open-source-app.com/) stellen wir jetzt einen Open-Source-Agent-Login-Ablauf bereit, der mit genau einer Discovery-URL beginnt:
+In [Flashcards](https://flashcards-open-source-app.com/) gibt es jetzt einen Open-Source-Anmeldeablauf für Agenten, der mit genau einer Discovery-URL beginnt:
 
 `https://api.flashcards-open-source-app.com/v1/`
 
-Das ist der kanonische Einstiegspunkt. Dieselbe Discovery-Antwort ist auch unter `https://api.flashcards-open-source-app.com/v1/agent` verfügbar, aber der aktuelle Vertrag startet bei `/v1/`.
+Das ist der maßgebliche Einstiegspunkt. Dieselbe Discovery-Antwort ist auch unter `https://api.flashcards-open-source-app.com/v1/agent` verfügbar, aber der aktuelle Vertrag beginnt bei `/v1/`.
 
-Gib diese URL an Claude Code, Codex oder OpenClaw weiter. Der Agent kann den Ablauf prüfen, den E-Mail-Code anfordern, ihn verifizieren, den API-Key speichern, das Konto laden und anschließend eigenständig mit dem Workspace-Setup weitermachen.
+Gib diese URL an Claude Code, Codex oder OpenClaw weiter. Der Agent kann den Ablauf selbst nachvollziehen, den E-Mail-Code anfordern, ihn verifizieren, den API-Key speichern, das Konto laden und danach eigenständig mit der Workspace-Einrichtung weitermachen.
 
 Der Mensch muss nur zwei Dinge tun:
 
 - die E-Mail-Adresse nennen
-- den neuesten 8-stelligen Code aus der E-Mail zurückschicken
+- den aktuellen 8-stelligen Code aus der E-Mail zurückschicken
 
-Genau das ist der Punkt.
+Genau darum geht es.
 
-## Ein Link reicht
+## Ein Link genügt
 
-Der Discovery-Endpunkt liefert in derselben Antwort die Service-Beschreibung, das Auth-Modell, die erste Aktion und die Anweisungen für die nächsten Schritte.
+Der Discovery-Endpunkt liefert in derselben Antwort die Service-Beschreibung, das Authentifizierungsmodell, die erste Aktion und die Anweisungen für die nächsten Schritte.
 
-Statt also für jedes Tool eigene Onboarding-Texte zu schreiben, kannst du den Agenten einfach auf diese URL verweisen und ihn den zurückgegebenen Anweisungen folgen lassen.
+Anstatt für jedes Tool eigene Einführungstexte zu schreiben, gibst du dem Agenten einfach diese URL und lässt ihn den Anweisungen aus der Antwort folgen.
 
 ```text
 GET https://api.flashcards-open-source-app.com/v1/
 ```
 
-Auf hoher Ebene lernt der Agent sofort vier Dinge:
+Auf einen Blick erfährt der Agent vier Dinge:
 
-- dies ist der Flashcards-Dienst
-- Login und Registrierung laufen beide über E-Mail-OTP
-- eine erfolgreiche Verifizierung liefert einen langlebigen API-Key
-- nach dem Login folgt die Einrichtung von Konto und Workspace
+- dass es sich um den Flashcards-Dienst handelt
+- dass Anmeldung und Registrierung beide per E-Mail-OTP laufen
+- dass eine erfolgreiche Verifizierung einen langlebigen API-Key liefert
+- dass danach die Einrichtung von Konto und Workspace folgt
 
-## Wie der Ablauf aussieht
+## Wie der Ablauf funktioniert
 
-Die Sequenz ist absichtlich klein.
+Der Ablauf ist bewusst schlank.
 
 1. Der Agent ruft den Discovery-Endpunkt auf.
 2. Der Agent sendet die E-Mail-Adresse des Nutzers an `send-code`.
 3. Flashcards verschickt den 8-stelligen Code und gibt ein `otpSessionToken` zurück.
-4. Der Agent bittet den Nutzer um diesen neuesten Code.
+4. Der Agent fragt den Nutzer nach dem aktuellen Code.
 5. Der Agent verifiziert den Code und erhält einen langlebigen API-Key.
 6. Der Agent ruft `/v1/agent/me` und `/v1/agent/workspaces` auf.
-7. Der Agent erstellt den richtigen Workspace oder wählt ihn aus und macht dann über `/v1/agent/sql` weiter.
+7. Der Agent erstellt den passenden Workspace oder wählt ihn aus und arbeitet dann über `/v1/agent/sql` weiter.
 
-Das ist wichtig, weil der Agent nicht bei "Login erfolgreich" stehen bleibt. Er kann den restlichen Einrichtungsablauf direkt fortsetzen und anschließend echte Lese- und Schreibvorgänge ausführen.
+Das ist wichtig, weil der Agent nicht bei "Login erfolgreich" stehen bleibt. Er kann den restlichen Einrichtungsablauf direkt fortsetzen und danach echte Lese- und Schreibzugriffe ausführen.
 
 ## Beispiel-Prompt für Claude Code oder Codex
 
-Das reicht:
+Das genügt:
 
 ```text
-Use this Flashcards discovery URL:
+Nutze diese Flashcards-Discovery-URL:
 https://api.flashcards-open-source-app.com/v1/
 
-Log in to my Flashcards account, load account context, and select or create the correct workspace.
-Ask me only for the latest 8-digit email code when the flow requires it.
+Melde dich bei meinem Flashcards-Konto an, lade den Kontokontext und wähle den richtigen Workspace aus oder lege ihn an.
+Frag mich nur dann nach dem aktuellen 8-stelligen Code aus der E-Mail, wenn der Ablauf ihn benötigt.
 ```
 
-Danach musst du die Auth-Sequenz nicht mehr selbst erklären. Der Endpunkt tut das bereits.
+Danach musst du die Authentifizierungsabfolge nicht mehr selbst erklären. Der Endpunkt tut das bereits.
 
 ## Beispiel-Prompt für OpenClaw
 
 Gleiche Idee, nur etwas expliziter:
 
 ```text
-Connect my Flashcards account using this URL:
+Verbinde mein Flashcards-Konto über diese URL:
 https://api.flashcards-open-source-app.com/v1/
 
-Follow the returned instructions, keep the API key secure, load my account, then continue to workspace setup.
-If verification is needed, ask me for the latest 8-digit code from the email.
+Folge den zurückgegebenen Anweisungen, behandle den API-Key sicher, lade mein Konto und fahre dann mit der Workspace-Einrichtung fort.
+Falls zur Verifizierung nötig, frage mich nach dem aktuellen 8-stelligen Code aus der E-Mail.
 ```
 
 ## Beispiel: Discovery-Antwort
 
-Das ist der erste Request:
+Das ist die erste Anfrage:
 
 ```bash
 curl https://api.flashcards-open-source-app.com/v1/
@@ -146,7 +146,7 @@ curl -X POST https://auth.flashcards-open-source-app.com/api/agent/send-code \
   }'
 ```
 
-Der Server verschickt die E-Mail und liefert eine kurzlebige Verifizierungs-Session zurück:
+Der Server verschickt die E-Mail und gibt eine kurzlebige Verifizierungssitzung zurück:
 
 ```json
 {
@@ -165,11 +165,11 @@ Der Server verschickt die E-Mail und liefert eine kurzlebige Verifizierungs-Sess
 }
 ```
 
-An dieser Stelle pausiert der Agent nur so lange, bis er nach dem neuesten Code aus dem Posteingang fragen kann.
+An dieser Stelle pausiert der Agent nur kurz, um nach dem aktuellen Code aus dem Posteingang zu fragen.
 
 ## Beispiel: Den Code verifizieren und den API-Key erhalten
 
-Sobald der Nutzer den E-Mail-Code zurückgeschickt hat, kann der Agent den Login abschließen:
+Sobald der Nutzer den E-Mail-Code zurückgeschickt hat, kann der Agent die Anmeldung abschließen:
 
 ```bash
 curl -X POST https://auth.flashcards-open-source-app.com/api/agent/verify-code \
@@ -205,24 +205,24 @@ Eine erfolgreiche Verifizierung liefert einen langlebigen API-Key plus die Anwei
 }
 ```
 
-An diesem Punkt hört der Agent auf, über Auth nachzudenken, und beginnt, das Konto tatsächlich zu benutzen.
+Ab hier ist die Authentifizierung erledigt, und der Agent nutzt das Konto ganz normal weiter.
 
-Speichere diesen Schlüssel sofort außerhalb des Chat-Speichers. Das sauberste Muster ist, ihn einmal als Umgebungsvariable zu exportieren und den Agenten ihn wiederverwenden zu lassen:
+Speichere diesen Schlüssel sofort außerhalb des Chatverlaufs. Am saubersten exportierst du ihn einmal als Umgebungsvariable, damit dein Agent ihn wiederverwenden kann:
 
 ```bash
 export FLASHCARDS_OPEN_SOURCE_API_KEY="fca_ABCDEFGH_0123456789ABCDEFGHJKMNPQRS"
 ```
 
-## Beispiel: Konto laden und mit Workspaces weitermachen
+## Beispiel: Konto laden und mit den Workspaces weitermachen
 
-Der nächste Request ist ein normaler authentifizierter API-Aufruf:
+Die nächste Anfrage ist ein normaler authentifizierter API-Aufruf:
 
 ```bash
 curl https://api.flashcards-open-source-app.com/v1/agent/me \
   -H "Authorization: ApiKey YOUR_API_KEY"
 ```
 
-Die Antwort sagt dem Agenten, dass er mit der Workspace-Einrichtung weitermachen soll:
+Die Antwort weist den Agenten an, mit der Workspace-Einrichtung fortzufahren:
 
 ```json
 {
@@ -247,50 +247,50 @@ Die Antwort sagt dem Agenten, dass er mit der Workspace-Einrichtung weitermachen
 Von dort aus kann der Agent:
 
 - alle Workspaces laden
-- den ersten Workspace anlegen, falls noch keiner existiert
-- den richtigen Workspace auswählen, falls es mehrere gibt
+- den ersten Workspace anlegen, wenn noch keiner existiert
+- den richtigen Workspace auswählen, wenn es mehrere gibt
 - den veröffentlichten Vertrag unter `/v1/agent/openapi.json` prüfen
-- `POST /v1/agent/sql` für Lesevorgänge, Schreibvorgänge und SQL-Introspektion verwenden
+- `POST /v1/agent/sql` für Lese- und Schreibzugriffe sowie SQL-Introspektion verwenden
 
-Genau dadurch ist der Login-Ablauf in der Praxis nützlich und nicht nur technisch korrekt.
+Genau so wird der Anmeldeablauf im Alltag nützlich und nicht nur technisch korrekt.
 
-Die Alias-Spezifikationen unter `/v1/openapi.json` und `/v1/swagger.json` gibt es ebenfalls, aber die agentenspezifischen Doku-Links zeigen bewusst auf `/v1/agent/openapi.json` und `/v1/agent/swagger.json`.
+Die Alias-Spezifikationen unter `/v1/openapi.json` und `/v1/swagger.json` gibt es ebenfalls, aber die agentenspezifischen Doku-Links verweisen bewusst auf `/v1/agent/openapi.json` und `/v1/agent/swagger.json`.
 
 ## Warum das besser ist als ein manuelles API-Key-Setup
 
-Das übliche API-Onboarding ist noch immer umständlich:
+Die übliche API-Einrichtung ist immer noch umständlich:
 
-- im Browser einloggen
+- im Browser anmelden
 - die Einstellungen öffnen
-- manuell ein Token erzeugen
+- manuell ein Token erstellen
 - es in ein anderes Tool kopieren
-- die Doku offenhalten, damit das Tool weiß, was als Nächstes zu tun ist
+- die Doku offen lassen, damit das Tool weiß, wie es weitergeht
 
-Dieser Ablauf schneidet den größten Teil davon weg.
+Dieser Ablauf nimmt dir den Großteil davon ab.
 
-Der Nutzer bestätigt seine Identität per E-Mail-OTP. Der Dienst stellt dem Agenten direkt einen langlebigen API-Key aus. Dasselbe Antwortformat sagt dem Agenten anschließend immer weiter, was als Nächstes zu tun ist.
+Der Nutzer bestätigt seine Identität per E-Mail-OTP. Der Dienst gibt dem Agenten direkt einen langlebigen API-Key. Im selben Antwortformat steht außerdem immer, welcher Schritt als Nächstes folgt.
 
-Das ist für den Nutzer einfacher und für die Automatisierung besser geeignet.
+Das ist für Nutzer einfacher und deutlich leichter zu automatisieren.
 
-## Das ist Open Source
+## Das Ganze ist Open Source
 
-Flashcards ist Open Source. Du kannst also den kompletten Ablauf prüfen, statt ihn wie eine Blackbox zu behandeln.
+Flashcards ist Open Source. Du kannst also den gesamten Ablauf prüfen, statt ihn als Blackbox hinzunehmen.
 
 - Repository: [github.com/kirill-markin/flashcards-open-source-app](https://github.com/kirill-markin/flashcards-open-source-app)
 - Agent-Discovery-Route: [apps/backend/src/agentDiscovery.ts](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/apps/backend/src/agentDiscovery.ts)
 - Agent-`send-code`-Route: [apps/auth/src/routes/agentSendCode.ts](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/apps/auth/src/routes/agentSendCode.ts)
 - Agent-`verify-code`-Route: [apps/auth/src/routes/agentVerifyCode.ts](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/apps/auth/src/routes/agentVerifyCode.ts)
-- Envelopes für Konto- und Workspace-Einrichtung: [apps/backend/src/agentSetup.ts](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/apps/backend/src/agentSetup.ts)
+- Antwortformate für Konto- und Workspace-Einrichtung: [apps/backend/src/agentSetup.ts](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/apps/backend/src/agentSetup.ts)
 
-Wenn dich Open-Source-API-Authentifizierung, Login per E-Mail-OTP oder das Design von Agent-Onboarding interessiert, sind das die wichtigsten Dateien.
+Wenn dich Open-Source-API-Authentifizierung, Anmeldung per E-Mail-OTP oder das Onboarding von Agenten interessiert, sind das die Dateien, die du dir ansehen solltest.
 
 ## Probier es aus
 
-Wenn du den Ablauf testen willst, gib deinem Agenten diese URL:
+Wenn du den Ablauf testen möchtest, gib deinem Agenten diese URL:
 
 `https://api.flashcards-open-source-app.com/v1/`
 
-Und dann lass ihn den Rest erledigen.
+Danach kann er den Rest selbst übernehmen.
 
 Nützliche Links:
 
@@ -299,4 +299,4 @@ Nützliche Links:
 - [Erste Schritte](https://flashcards-open-source-app.com/docs/getting-started/)
 - [GitHub-Repository](https://github.com/kirill-markin/flashcards-open-source-app)
 
-Wenn das Produkt Open Source ist und der Auth-Ablauf schmal genug bleibt, sollte "lass den Agenten das erledigen" tatsächlich funktionieren. Genau dafür ist dieser Ablauf gedacht.
+Wenn ein Produkt Open Source ist und der Authentifizierungsablauf bewusst schmal gehalten wird, sollte "lass den Agenten das erledigen" tatsächlich funktionieren. Genau dafür ist dieser Ablauf da.

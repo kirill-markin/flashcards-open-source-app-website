@@ -38,7 +38,7 @@ Normalmente es una mezcla de:
 - una configuración más sencilla entre dispositivos
 - un mejor flujo de trabajo de nota a tarjeta
 - más control sobre los datos
-- una salida de un producto que se siente más viejo que el hábito que sostiene
+- una forma de dejar atrás un producto que se siente más viejo que el hábito que sostiene
 
 Por eso no existe un ganador universal.
 
@@ -104,7 +104,7 @@ Pero la dirección es mejor en aspectos que a mí me importan:
 - camino claro hacia el autohospedaje
 - autenticación sin contraseña
 - producto web moderno en vez de vibra de herramienta de escritorio antigua
-- dirección de planificación basada en FSRS
+- enfoque de planificación basado en FSRS
 - flujos de IA conectados con la superficie real de la app
 
 Ese último punto es importante.
@@ -117,11 +117,11 @@ Esa es la dirección en la que se está moviendo Flashcards, y por eso creo que 
 
 ## Por qué el código abierto cambia esta comparación más de lo que la gente admite
 
-La mayoría de los artículos trata el código abierto como una característica extra.
+La mayoría de los artículos tratan el código abierto como una característica extra.
 
 Yo creo que cambia por completo la sensación de la decisión.
 
-Las flashcards no son contenido desechable. Al cabo de unos años se convierten en un registro de lo que estás aprendiendo, de lo que sigues olvidando y de cómo cambia tu forma de pensar. Eso son datos personales valiosos.
+Las flashcards no son contenido desechable. Al cabo de unos años se convierten en un registro de lo que estás aprendiendo, de lo que sigues olvidando y de cómo cambia tu forma de pensar. Son datos personales valiosos.
 
 Así que sí: creo que una **app de flashcards de código abierto** importa.
 
