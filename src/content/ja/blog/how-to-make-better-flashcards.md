@@ -171,8 +171,8 @@ AI は clerical work を減らすのが非常に得意です。
 
 AI を upstream で使うなら、こちらもよく合います。
 
-- [How to Use ChatGPT to Make Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-use-chatgpt-to-make-flashcards/)
-- [How to Turn Notes Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
+- [2026年、ChatGPT を使って Flashcards を作る方法: prompt を良くし、cards を良くし、FSRS で review を良くする](https://flashcards-open-source-app.com/blog/how-to-use-chatgpt-to-make-flashcards/)
+- [2026年、notes を Flashcards に変える方法: manual copy-paste の代わりに AI drafting と FSRS を使う](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
 
 ## card は recognition theater ではなく memory を test するべき
 
@@ -213,8 +213,8 @@ card が muddy だと、scheduler は noisy な question からの noisy feedbac
 
 scheduling side をより詳しく見たいなら、こちらから始めてください。
 
-- [FSRS vs SM-2 in 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
-- [How Many New Flashcards Per Day in 2026](https://flashcards-open-source-app.com/blog/how-many-new-flashcards-per-day/)
+- [2026年の FSRS vs SM-2: どの spaced repetition algorithm がより多く覚えられるか](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [2026年、1日に何枚の新しい Flashcards を追加すべきか: 本当に終えられる FSRS review load を作る](https://flashcards-open-source-app.com/blog/how-many-new-flashcards-per-day/)
 
 ## 最も速い edit は deletion
 

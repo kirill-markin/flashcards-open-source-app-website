@@ -173,11 +173,11 @@ Das Quellformat ist nicht besonders wichtig, solange du den nützlichen Teil sau
 
 Wenn das Material überwiegend textlastig ist, passt ein PDF-fokussierter Workflow eventuell besser:
 
-- [How to Turn a PDF Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-turn-a-pdf-into-flashcards/)
+- [Wie du 2026 eine PDF in Flashcards verwandelst: Vorlesungsfolien, Lehrbücher und Papers zu FSRS-Karten](https://flashcards-open-source-app.com/blog/how-to-turn-a-pdf-into-flashcards/)
 
 Wenn es eher wie eine Tutor-Sitzung oder ein Guided-Quiz-Review ist, ist dieser hier näher dran:
 
-- [How to Turn ChatGPT Study Mode Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-turn-chatgpt-study-mode-into-flashcards/)
+- [Wie du 2026 den ChatGPT Study Mode in Flashcards verwandelst: Den Tutor behalten, Spaced Repetition ergänzen](https://flashcards-open-source-app.com/blog/how-to-turn-chatgpt-study-mode-into-flashcards/)
 
 ## Behalte den Grund für den Fehler, aber stopf ihn nicht auf die Vorderseite
 
@@ -239,11 +239,11 @@ Du willst einen Ort, an dem du die Frage extrahieren, die Karte bereinigen, den 
 
 Wenn du die Scheduling-Seite genauer sehen willst, lies als Nächstes:
 
-- [How to Study for an Exam With FSRS in 2026](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/)
+- [Wie du 2026 mit FSRS für eine Prüfung lernst: Ein Flashcard-Plan, den du vor dem Prüfungstag wirklich schaffst](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/)
 
 Und wenn eher die Kartenqualität als das Quellmaterial dein Problem ist, hilft auch dieser Artikel:
 
-- [How to Make Better Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [Wie du 2026 bessere Flashcards machst: Front- und Back-Regeln, die mit FSRS wirklich funktionieren](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
 
 ## Die nützliche Regel
 

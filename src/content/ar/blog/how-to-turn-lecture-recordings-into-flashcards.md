@@ -253,7 +253,7 @@ keywords:
 
 إذا أردت جانب الخوارزمية بمزيد من التفصيل، فهذا المقال أعمق:
 
-- [FSRS vs SM-2 in 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [FSRS vs SM-2 في عام 2026: ما هي خوارزمية التكرار المتباعد التي تساعدك على تذكر المزيد؟](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
 
 ## قاعدة عملية لتقرير ما الذي يستحق بطاقة
 

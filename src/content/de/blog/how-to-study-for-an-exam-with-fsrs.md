@@ -96,7 +96,7 @@ Sondern: "Passt diese Review-Last vor der Prüfung überhaupt noch in mein echte
 
 Wenn du eine genauere Erklärung des Algorithmus willst, ist dieser Begleitartikel der richtige:
 
-- [FSRS vs SM-2 in 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [FSRS vs SM-2 in 2026: Welcher Spaced-Repetition-Algorithmus hilft dir, mehr zu behalten?](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
 
 ## Lege eine tägliche Last fest, die du auch an deinem schlechtesten normalen Tag schaffst
 
@@ -117,7 +117,7 @@ Plane für die Version, die es wirklich gibt.
 
 Wenn du diese Last sauberer abschätzen willst, passt dieser Artikel gut zu dem Prüfungs-Workflow:
 
-- [How Many New Flashcards Per Day in 2026?](https://flashcards-open-source-app.com/blog/how-many-new-flashcards-per-day/)
+- [Wie viele neue Flashcards pro Tag im Jahr 2026? Baue eine FSRS-Review-Last, die du wirklich fertig bekommst](https://flashcards-open-source-app.com/blog/how-many-new-flashcards-per-day/)
 
 ## Dein Quellen-Workflow und dein Gedächtnis-Workflow sollten getrennt bleiben
 

@@ -218,7 +218,7 @@ Ese no es un problema de algoritmo. Se trata de un problema de escritura de tarj
 
 Si desea conocer la programación con más detalle, comience aquí:
 
-- [FSRS vs SM-2 en 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [FSRS vs SM-2 en 2026: ¿Qué algoritmo de repetición espaciada le ayuda a recordar más?](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
 - [Cuántas tarjetas didácticas nuevas por día en 2026](https://flashcards-open-source-app.com/blog/how-many-new-flashcards-per-day/)
 
 ## La edición más rápida es la eliminación.

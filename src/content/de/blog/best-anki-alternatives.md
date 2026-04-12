@@ -131,7 +131,7 @@ Wenn dir das wichtig ist, trennt sich Flashcards hier von den stärker auf Consu
 
 Wenn du speziell den Self-Hosted-Weg willst, starte hier:
 
-- [Self-Hosting-Anleitung](https://flashcards-open-source-app.com/docs/self-hosting/)
+- [Self-Hosting-Leitfaden](https://flashcards-open-source-app.com/docs/self-hosting/)
 
 ## Eine praktische Tabelle der besten Anki Alternativen
 
@@ -158,11 +158,11 @@ Flashcards hat dafür bereits einen realistischen Weg. Exportiere die Karten aus
 
 Wenn das deine Situation ist, starte hier:
 
-- [Wie du 2026 von Anki migrierst](https://flashcards-open-source-app.com/blog/migrate-from-anki-txt-export-open-source-flashcards/)
+- [Wie du 2026 von Anki migrierst: Exportiere deine Karten als TXT und sende sie an eine Open-Source-Flashcards-App](https://flashcards-open-source-app.com/blog/migrate-from-anki-txt-export-open-source-flashcards/)
 
 Und wenn es dir im Vergleich vor allem um Scheduling-Qualität geht, ist dieser Begleitartikel relevanter:
 
-- [FSRS vs SM-2 in 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [FSRS vs SM-2 in 2026: Welcher Spaced-Repetition-Algorithmus hilft dir, mehr zu behalten?](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
 
 ## Was ist also 2026 die beste Anki Alternative?
 
@@ -186,8 +186,8 @@ Wenn du aktiv **Anki alternatives** vergleichst, starte hier:
 
 - [Flashcards öffnen](https://flashcards-open-source-app.com/)
 - [Die App öffnen](https://app.flashcards-open-source-app.com/)
-- [Die Getting-Started-Anleitung lesen](https://flashcards-open-source-app.com/docs/getting-started/)
-- [Die Self-Hosting-Anleitung lesen](https://flashcards-open-source-app.com/docs/self-hosting/)
+- [Erste Schritte](https://flashcards-open-source-app.com/docs/getting-started/)
+- [Self-Hosting-Leitfaden](https://flashcards-open-source-app.com/docs/self-hosting/)
 - [Den Sourcecode auf GitHub ansehen](https://github.com/kirill-markin/flashcards-open-source-app)
 
 Ich glaube nicht, dass diese Kategorie noch eine Flashcards-App mit schickerem Marketing braucht.

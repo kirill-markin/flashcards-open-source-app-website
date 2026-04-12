@@ -135,7 +135,7 @@ Si la redacción de cartas es decente y el programador es débil, todo el sistem
 
 Si desea conocer la programación con más detalle, este es el artículo complementario:
 
-- [FSRS vs SM-2 en 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [FSRS vs SM-2 en 2026: ¿Qué algoritmo de repetición espaciada le ayuda a recordar más?](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
 
 ## El texto sin formato es más útil de lo que muchas aplicaciones de notas quieren admitir
 
@@ -184,7 +184,7 @@ Si su problema tiene que ver más con mover colecciones existentes, comience aqu
 
 Y si está comparando la categoría más amplia, esta es la mejor descripción general:
 
-- [Las mejores alternativas de Anki en 2026](https://flashcards-open-source-app.com/blog/best-anki-alternatives/)
+- [Las mejores alternativas de Anki en 2026: ¿Qué aplicación de tarjetas didácticas debería utilizar realmente?](https://flashcards-open-source-app.com/blog/best-anki-alternatives/)
 
 ## Entonces, ¿cuál es la mejor manera de convertir notas en tarjetas didácticas en 2026?
 

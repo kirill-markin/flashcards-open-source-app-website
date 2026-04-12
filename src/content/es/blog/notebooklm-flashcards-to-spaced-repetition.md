@@ -157,7 +157,7 @@ Es por eso que las **tarjetas didácticas FSRS** son tan importantes en esta con
 
 Si desea conocer la parte de programación con más detalle, este artículo complementario es más profundo:
 
-- [FSRS vs SM-2 en 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [FSRS vs SM-2 en 2026: ¿Qué algoritmo de repetición espaciada le ayuda a recordar más?](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
 
 ## Esto funciona especialmente bien cuando la fuente comenzó confusa
 

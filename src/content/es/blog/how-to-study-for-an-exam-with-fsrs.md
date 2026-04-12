@@ -101,7 +101,7 @@ Es "¿Puede esta carga de revisión encajar en mi vida real antes del examen?"
 
 Si necesita una explicación más profunda del algoritmo en sí, este artículo complementario es el correcto:
 
-- [FSRS vs SM-2 en 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [FSRS vs SM-2 en 2026: ¿Qué algoritmo de repetición espaciada le ayuda a recordar más?](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
 
 ## Establece una carga diaria que puedas terminar en tu peor día normal
 

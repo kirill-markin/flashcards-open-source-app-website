@@ -27,7 +27,7 @@ Dieselbe Nutzlast ist auch unter `GET /v1/agent` verfuegbar, aber `/v1/` ist der
 
 ## Self-Hosting
 
-Wenn du lieber eine eigene Instanz betreibst, sieh dir den [Self-Hosting Guide](/docs/self-hosting/) an.
+Wenn du lieber eine eigene Instanz betreibst, sieh dir den [Self-Hosting-Leitfaden](/docs/self-hosting/) an.
 
 ## Was du heute bekommst
 

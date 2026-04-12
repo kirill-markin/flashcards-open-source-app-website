@@ -82,7 +82,7 @@ concept 自体は already head のどこかにあります。voice note は、un
 
 source が own recap ではなく full class recording なら、こちらから始めるほうが better です。
 
-- [How to Turn Lecture Recordings Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-turn-lecture-recordings-into-flashcards/)
+- [2026年、lecture recordings を Flashcards に変える方法: everything を rewatch せず、transcript から FSRS cards にする](https://flashcards-open-source-app.com/blog/how-to-turn-lecture-recordings-into-flashcards/)
 
 ## 私が trust する workflow は、short recording、transcription、ruthless cleanup
 
@@ -198,7 +198,7 @@ your own language です。
 
 raw source が spoken ではなく handwritten なら、こちらのほうが fit します。
 
-- [How to Turn Handwritten Notes Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-turn-handwritten-notes-into-flashcards/)
+- [2026年、handwritten notes を Flashcards に変える方法: everything を書き直さずに、photos、OCR、AI drafting を使う](https://flashcards-open-source-app.com/blog/how-to-turn-handwritten-notes-into-flashcards/)
 
 ## bad audio-to-flashcards workflows は、たいてい同じ 3 ways で fail する
 
@@ -255,7 +255,7 @@ scheduler が solid なら、whole audio workflow は believable になります
 
 scheduler side の詳細は、こちらです。
 
-- [FSRS vs SM-2 in 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [2026年の FSRS vs SM-2: どの spaced repetition algorithm がより多く覚えられるか](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
 
 ## Flashcards がこの workflow に合う理由
 

@@ -160,11 +160,11 @@ Darum würde ich **flashcards from notes photos** nicht als dieselbe Suchanfrage
 
 Wenn deine Quelle bereits sauberer Text ist, passt dieser Begleitartikel besser:
 
-- [How to Turn Notes Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
+- [Wie du 2026 Notizen in Flashcards verwandelst: KI-Entwürfe mit FSRS statt manuellem Copy-and-paste](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
 
 Und wenn die Quelle ein Dokument oder Vorlesungsfolien sind, ist dieser näher dran:
 
-- [How to Turn a PDF Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-turn-a-pdf-into-flashcards/)
+- [Wie du 2026 eine PDF in Flashcards verwandelst: Vorlesungsfolien, Lehrbücher und Papers zu FSRS-Karten](https://flashcards-open-source-app.com/blog/how-to-turn-a-pdf-into-flashcards/)
 
 ## Wo Flashcards in diesen Workflow passt
 
@@ -196,7 +196,7 @@ Aus den Fotos entwerfen. Die Karten bereinigen. Und dann ein echtes Spaced-Repet
 
 Wenn du die Scheduling-Seite genauer verstehen willst, geht dieser Begleitartikel weiter:
 
-- [FSRS vs SM-2 in 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [FSRS vs SM-2 in 2026: Welcher Spaced-Repetition-Algorithmus hilft dir, mehr zu behalten?](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
 
 ## Die bessere Regel
 
@@ -212,7 +212,7 @@ Wenn du genau das willst, starte hier:
 
 - [Flashcards öffnen](https://flashcards-open-source-app.com/)
 - [Die App öffnen](https://app.flashcards-open-source-app.com/)
-- [Die Getting-Started-Anleitung lesen](https://flashcards-open-source-app.com/docs/getting-started/)
+- [Erste Schritte](https://flashcards-open-source-app.com/docs/getting-started/)
 - [Den Sourcecode auf GitHub ansehen](https://github.com/kirill-markin/flashcards-open-source-app)
 
 Deine Notizen müssen nicht schön sein.

@@ -53,7 +53,7 @@ Wenn eine Karte gleichzeitig Wort, Genus, Pluralform, unregelmäßige Vergangenh
 
 Das ist dieselbe Regel, die auch generische Flashcards besser macht:
 
-- [How to Make Better Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [Wie du 2026 bessere Flashcards machst: Front- und Back-Regeln, die mit FSRS wirklich funktionieren](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
 
 Sprachdecks bestrafen überladene Karten nur noch schneller.
 
@@ -165,8 +165,8 @@ Darum ist für mich die sinnvolle Reihenfolge:
 
 Wenn du die Scheduling-Seite genauer willst, starte hier:
 
-- [FSRS vs SM-2 in 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
-- [How Many New Flashcards Per Day in 2026?](https://flashcards-open-source-app.com/blog/how-many-new-flashcards-per-day/)
+- [FSRS vs SM-2 in 2026: Welcher Spaced-Repetition-Algorithmus hilft dir, mehr zu behalten?](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [Wie viele neue Flashcards pro Tag im Jahr 2026? Baue eine FSRS-Review-Last, die du wirklich fertig bekommst](https://flashcards-open-source-app.com/blog/how-many-new-flashcards-per-day/)
 
 ## Die Review-Last ist wichtiger als die Deckgröße
 
@@ -209,9 +209,9 @@ Denn nur du weißt:
 
 Wenn dein Quellmaterial als Notiz, Transkript oder Chat-Output beginnt, helfen diese Guides vorher:
 
-- [How to Use ChatGPT to Make Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-use-chatgpt-to-make-flashcards/)
-- [How to Turn Voice Notes Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-turn-voice-notes-into-flashcards/)
-- [How to Turn YouTube Videos Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/youtube-to-flashcards/)
+- [Wie du 2026 ChatGPT nutzt, um Flashcards zu erstellen: bessere Prompts, bessere Karten, bessere Reviews mit FSRS](https://flashcards-open-source-app.com/blog/how-to-use-chatgpt-to-make-flashcards/)
+- [Wie du 2026 Voice Notes in Flashcards verwandelst: Von Audiodiktat zu FSRS-Karten, ohne alles neu zu schreiben](https://flashcards-open-source-app.com/blog/how-to-turn-voice-notes-into-flashcards/)
+- [Wie du 2026 ein YouTube-Video in Flashcards verwandelst: KI-Entwürfe für Vorlesungen, Tutorials und Sprachvideos](https://flashcards-open-source-app.com/blog/youtube-to-flashcards/)
 
 ## Baue um dein reales Ziel herum, nicht um generischen Sprach-Ehrgeiz
 
@@ -241,9 +241,9 @@ So wird es leichter, von "Ich habe nützliche Sprache in einer Quelle gefunden" 
 
 Wenn du auch breitere Produktoptionen vergleichst, sind diese Begleitartikel am nächsten dran:
 
-- [Memrise Alternative in 2026](https://flashcards-open-source-app.com/blog/memrise-alternative/)
-- [Quizlet Alternative in 2026](https://flashcards-open-source-app.com/blog/quizlet-alternative/)
-- [Best Offline Flashcards App in 2026](https://flashcards-open-source-app.com/blog/best-offline-flashcards-app/)
+- [Memrise Alternative 2026: Open-Source-Flashcards-App mit FSRS, Offline-Lernen und iPhone-first-Workflow](https://flashcards-open-source-app.com/blog/memrise-alternative/)
+- [Quizlet Alternative 2026: Open-Source-Flashcards-App mit FSRS, Offline-Lernen und vollständigem Dateneigentum](https://flashcards-open-source-app.com/blog/quizlet-alternative/)
+- [Die beste Offline-Flashcards-App 2026: Mit FSRS und Sync ohne Internet lernen](https://flashcards-open-source-app.com/blog/best-offline-flashcards-app/)
 
 ## Wie solltest du also 2026 Flashcards fürs Sprachenlernen nutzen?
 

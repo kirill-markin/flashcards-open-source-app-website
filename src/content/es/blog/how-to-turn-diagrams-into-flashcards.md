@@ -318,7 +318,7 @@ Ahí es donde una aplicación de tarjetas didácticas real supera a un analizado
 
 Si desea conocer la programación con más detalle, vale la pena leer este artículo complementario:
 
-- [FSRS vs SM-2 en 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [FSRS vs SM-2 en 2026: ¿Qué algoritmo de repetición espaciada le ayuda a recordar más?](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
 
 Y si su fuente se parece más a diapositivas de una conferencia o a un trabajo de investigación que a una imagen de diagrama, comience aquí:
 

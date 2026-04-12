@@ -88,8 +88,8 @@ Das Projekt hat diese Grundlage bereits:
 - Open-Source-Code auf GitHub
 - eine dokumentierte externe Agent-API
 - passwortlose Authentifizierung
-- eine [Self-Hosting-Anleitung](https://flashcards-open-source-app.com/docs/self-hosting/)
-- [Architektur-Dokumentation](https://flashcards-open-source-app.com/docs/architecture/)
+- eine [Self-Hosting-Leitfaden](https://flashcards-open-source-app.com/docs/self-hosting/)
+- [Architektur](https://flashcards-open-source-app.com/docs/architecture/)
 
 Das Produkt ist noch früh, und ich tue auch nicht so, als wäre es anders. Aber es ist bereits mehr als ein Browser-only-Prototyp: Das Repository liefert die gehostete Web-App, den iOS-Client, den Auth-Service, die Backend-API und den aktuellen Sync-Pfad. Ich würde lieber etwas Frühes und Ehrliches nutzen als etwas Poliertes und Eingesperrtes.
 
@@ -110,7 +110,7 @@ Nicht, weil "AI-first" auf einer Landingpage gut klingt. Sondern weil diese Kate
 Wenn du eine Open-Source-Flashcards-App mit Spaced Repetition, Self-Hosted-Pfad und Raum für echte KI-Workflows willst, starte hier:
 
 - [Die gehostete App öffnen](https://app.flashcards-open-source-app.com/)
-- [Die Getting-Started-Anleitung lesen](https://flashcards-open-source-app.com/docs/getting-started/)
+- [Erste Schritte](https://flashcards-open-source-app.com/docs/getting-started/)
 - [Den Sourcecode auf GitHub ansehen](https://github.com/kirill-markin/flashcards-open-source-app)
 
 Flashcards sollten sich wie moderne Software anfühlen. Nicht wie Legacy-Lernsoftware mit hübscherer Landingpage. Nicht wie ein geschlossenes Abo mit angehängtem Flashcards-Feature.

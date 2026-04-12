@@ -85,7 +85,7 @@ Das ist einer der stärksten Gründe, eine fokussierte **spaced repetition app**
 
 Wenn du den tieferen Scheduler-Vergleich willst, lies hier weiter:
 
-- [FSRS vs SM-2 in 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [FSRS vs SM-2 in 2026: Welcher Spaced-Repetition-Algorithmus hilft dir, mehr zu behalten?](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
 
 ## Notizen-zu-Karten ist wichtiger als Notizen-als-Weltanschauung
 
@@ -110,7 +110,7 @@ Flashcards passt besser zu dieser Richtung, weil es Kartenerstellung, KI-Chat, D
 
 Wenn genau dieser Teil dein aktuelles Setup schwerer macht, als es sein müsste, starte hier:
 
-- [How to Turn Notes Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
+- [Wie du 2026 Notizen in Flashcards verwandelst: KI-Entwürfe mit FSRS statt manuellem Copy-and-paste](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
 
 ## Offline-Lernen ist wichtig, weil Gedächtnisarbeit selten unter Idealbedingungen passiert
 
@@ -129,7 +129,7 @@ Das ist die Architektur, auf die Flashcards in der Web-App und der iOS-Richtung 
 
 Wenn Offline-Verhalten der Grund ist, warum du dich umsiehst, geht dieser Artikel weiter:
 
-- [Best Offline Flashcards App in 2026](https://flashcards-open-source-app.com/blog/best-offline-flashcards-app/)
+- [Die beste Offline-Flashcards-App 2026: Mit FSRS und Sync ohne Internet lernen](https://flashcards-open-source-app.com/blog/best-offline-flashcards-app/)
 
 ## Open Source wird wichtig, weil Decks sehr schnell aufhören, temporär zu sein
 
@@ -147,7 +147,7 @@ Darum ist eine echte **open source RemNote alternative** für Menschen attraktiv
 
 Wenn Eigentum für dich der wichtigste Teil ist, starte hier:
 
-- [Self-Hosted Open Source Flashcards App for Spaced Repetition](https://flashcards-open-source-app.com/blog/self-hosted-open-source-flashcards-app-for-spaced-repetition/)
+- [Self-Hosted Open Source Flashcards App für Spaced Repetition](https://flashcards-open-source-app.com/blog/self-hosted-open-source-flashcards-app-for-spaced-repetition/)
 
 ## Was ist also 2026 die beste RemNote Alternative?
 
@@ -163,5 +163,5 @@ Wenn du diese Richtung erkunden willst:
 
 - [Flashcards öffnen](https://flashcards-open-source-app.com/)
 - [Die App öffnen](https://app.flashcards-open-source-app.com/)
-- [Die Getting-Started-Anleitung lesen](https://flashcards-open-source-app.com/docs/getting-started/)
+- [Erste Schritte](https://flashcards-open-source-app.com/docs/getting-started/)
 - [Den Sourcecode auf GitHub ansehen](https://github.com/kirill-markin/flashcards-open-source-app)

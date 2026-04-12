@@ -172,7 +172,7 @@ Por eso creo que el orden útil es:
 
 Si desea conocer la programación con más detalle, comience aquí:
 
-- [FSRS vs SM-2 en 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [FSRS vs SM-2 en 2026: ¿Qué algoritmo de repetición espaciada le ayuda a recordar más?](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
 - [¿Cuántas tarjetas didácticas nuevas por día en 2026?](https://flashcards-open-source-app.com/blog/how-many-new-flashcards-per-day/)
 
 ## La carga de revisión importa más que el tamaño de la plataforma
@@ -248,8 +248,8 @@ Eso hace que sea más fácil pasar de "Encontré un lenguaje útil en una fuente
 
 Si también está comparando opciones de productos más amplias, estas son las lecturas adyacentes más cercanas:
 
-- [Alternativa de Memrise en 2026](https://flashcards-open-source-app.com/blog/memrise-alternative/)
-- [Alternativa a Quizlet en 2026](https://flashcards-open-source-app.com/blog/quizlet-alternative/)
+- [Alternativa a Memrise en 2026: aplicación de tarjetas didácticas de código abierto con FSRS, estudio sin conexión y flujo de trabajo exclusivo del iPhone](https://flashcards-open-source-app.com/blog/memrise-alternative/)
+- [Alternativa a Quizlet en 2026: aplicación de tarjetas didácticas de código abierto con FSRS, estudio sin conexión y propiedad total de los datos](https://flashcards-open-source-app.com/blog/quizlet-alternative/)
 - [Mejor aplicación de tarjetas didácticas sin conexión en 2026](https://flashcards-open-source-app.com/blog/best-offline-flashcards-app/)
 
 ## Entonces, ¿cómo deberías usar tarjetas didácticas para aprender idiomas en 2026?

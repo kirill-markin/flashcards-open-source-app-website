@@ -142,7 +142,7 @@ keywords:
 
 Если вам нужны более общие правила качества карточек, начните здесь:
 
-- [How to Make Better Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- ['Как сделать карточки лучше в 2026 году: прямые и обратные правила, которые действительно](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
 
 ## ChatGPT Voice особенно хорош там, где проваливается активное воспроизведение
 
@@ -173,7 +173,7 @@ keywords:
 
 Если ваш источник - это не интерактивный разговор, а сырое аудио, которое вы записали себе сами, лучше подойдет эта статья:
 
-- [How to Turn Voice Notes Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-turn-voice-notes-into-flashcards/)
+- ['Как превратить голосовые заметки в карточки в 2026 году: аудиодиктовка на карточки](https://flashcards-open-source-app.com/blog/how-to-turn-voice-notes-into-flashcards/)
 
 ## Карточки для языкового обучения должны оставаться близко к вашим реальным разговорам
 
@@ -224,8 +224,8 @@ keywords:
 
 Если проблема уже не в материале, а в нагрузке повторения, рядом хорошо работают эти статьи:
 
-- [How Many New Flashcards Per Day in 2026?](https://flashcards-open-source-app.com/blog/how-many-new-flashcards-per-day/)
-- [How to Catch Up on Flashcards After Falling Behind in 2026](https://flashcards-open-source-app.com/blog/how-to-catch-up-on-flashcards-after-falling-behind/)
+- [Сколько новых карточек в день в 2026 году? Создайте нагрузку по проверке FSRS, которую](https://flashcards-open-source-app.com/blog/how-many-new-flashcards-per-day/)
+- ['Как наверстать упущенное в работе с карточками после отставания в 2026 году: исправьте](https://flashcards-open-source-app.com/blog/how-to-catch-up-on-flashcards-after-falling-behind/)
 
 ## FSRS важен, потому что разговорные фразы забываются странно
 
@@ -248,7 +248,7 @@ keywords:
 
 Если хотите глубже в сторону планировщика, эта статья идет дальше:
 
-- [FSRS vs SM-2 in 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- ['FSRS против SM-2 в 2026 году: какой алгоритм интервального повторения поможет вам](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
 
 ## Где здесь подходит Flashcards Open Source App
 
@@ -285,6 +285,6 @@ keywords:
 Если вам нужен именно такой сценарий, начните здесь:
 
 - [Open Flashcards Open Source App](https://flashcards-open-source-app.com/)
-- [Read the getting started guide](https://flashcards-open-source-app.com/docs/getting-started/)
-- [Read the API docs](https://flashcards-open-source-app.com/docs/api/)
+- [Начало работы](https://flashcards-open-source-app.com/docs/getting-started/)
+- [API-справка](https://flashcards-open-source-app.com/docs/api/)
 - [View the source on GitHub](https://github.com/kirill-markin/flashcards-open-source-app)

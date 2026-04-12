@@ -192,7 +192,7 @@ OpenAI открыто продвигает учебные сценарии. Goog
 
 Если хотите глубже разобраться именно в планировании, вот отдельная статья:
 
-- [FSRS vs SM-2 in 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- ['FSRS против SM-2 в 2026 году: какой алгоритм интервального повторения поможет вам](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
 
 ## Где в этом процессе пригодится Flashcards
 
@@ -225,11 +225,11 @@ OpenAI открыто продвигает учебные сценарии. Goog
 
 Если ваш источник - PDF, лучше подойдет эта статья:
 
-- [How to Turn a PDF Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-turn-a-pdf-into-flashcards/)
+- ['Как превратить PDF-файл в карточки в 2026 году: слайды лекций, учебники и научные](https://flashcards-open-source-app.com/blog/how-to-turn-a-pdf-into-flashcards/)
 
 Если источник - просто заметки, больше подходит эта:
 
-- [How to Turn Notes Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
+- [Как превращать заметки в карточки в 2026 году: AI-черновики с FSRS вместо ручного copy-paste](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
 
 ## Лучшее правило
 
@@ -243,7 +243,7 @@ OpenAI открыто продвигает учебные сценарии. Goog
 
 - [Open Flashcards](https://flashcards-open-source-app.com/)
 - [Open the app](https://app.flashcards-open-source-app.com/)
-- [Read the self-hosting guide](https://flashcards-open-source-app.com/docs/self-hosting/)
+- [Руководство по self-hosting](https://flashcards-open-source-app.com/docs/self-hosting/)
 - [View the source on GitHub](https://github.com/kirill-markin/flashcards-open-source-app)
 
 ChatGPT вполне может помочь вам делать карточки.

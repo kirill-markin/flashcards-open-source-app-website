@@ -149,7 +149,7 @@ Wenn der Scheduler stark ist, wirkt der ganze Workflow glaubwürdiger. Aus der P
 
 Wenn du die Scheduling-Seite genauer verstehen willst, geht dieser Begleitartikel tiefer:
 
-- [FSRS vs SM-2 in 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [FSRS vs SM-2 in 2026: Welcher Spaced-Repetition-Algorithmus hilft dir, mehr zu behalten?](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
 
 ## Wo Flashcards in diesen Workflow passt
 
@@ -194,7 +194,7 @@ Das verändert den Bearbeitungsaufwand. Es verändert auch die Suchintention. We
 
 Wenn deine Quelle bereits Klartext statt Dokument ist, passt dieser Begleitartikel besser:
 
-- [How to Turn Notes Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
+- [Wie du 2026 Notizen in Flashcards verwandelst: KI-Entwürfe mit FSRS statt manuellem Copy-and-paste](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
 
 ## Die bessere Regel
 

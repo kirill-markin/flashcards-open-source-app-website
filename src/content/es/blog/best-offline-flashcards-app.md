@@ -174,7 +174,7 @@ Esa es una forma más saludable para una **aplicación de tarjetas didácticas f
 
 Si desea una comparación de programación más amplia, vale la pena leer este artículo complementario:
 
-- [FSRS vs SM-2 en 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [FSRS vs SM-2 en 2026: ¿Qué algoritmo de repetición espaciada le ayuda a recordar más?](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
 
 ## Desconectado no significa aislado para siempre
 
@@ -212,12 +212,12 @@ Si estás buscando activamente la **mejor aplicación de tarjetas didácticas si
 
 - [Abrir tarjetas didácticas](https://flashcards-open-source-app.com/)
 - [Abre la aplicación](https://app.flashcards-open-source-app.com/)
-- [Leer los documentos de arquitectura](https://flashcards-open-source-app.com/docs/architecture/)
+- [Arquitectura](https://flashcards-open-source-app.com/docs/architecture/)
 - [Ver la fuente en GitHub](https://github.com/kirill-markin/flashcards-open-source-app)
 
 Y si primero estás comparando la categoría más amplia, estas son las útiles lecturas complementarias:
 
-- [Mejores alternativas de Anki en 2026](https://flashcards-open-source-app.com/blog/best-anki-alternatives/)
+- [Las mejores alternativas de Anki en 2026: ¿Qué aplicación de tarjetas didácticas debería utilizar realmente?](https://flashcards-open-source-app.com/blog/best-anki-alternatives/)
 - [Anki vs Quizlet vs aplicación de tarjetas didácticas de código abierto](https://flashcards-open-source-app.com/blog/anki-vs-quizlet-vs-open-source-flashcards-app/)
 
 La mejor herramienta de estudio fuera de línea no suele ser la que tiene la insignia fuera de línea más ruidosa.

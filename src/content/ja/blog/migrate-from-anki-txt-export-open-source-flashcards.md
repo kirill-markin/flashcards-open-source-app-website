@@ -97,7 +97,7 @@ marketing language と比べれば slower に聞こえます。
 
 destination が十分に better でなければ、migration に意味はありません。ここで **FSRS flashcards** が story に入ります。
 
-Flashcards は older SM-2-style defaults ではなく FSRS を中心に作られています。modern study tool に期待したい direction そのものです。longer version は、すでに [FSRS vs SM-2 in 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/) にあります。
+Flashcards は older SM-2-style defaults ではなく FSRS を中心に作られています。modern study tool に期待したい direction そのものです。longer version は、すでに [2026年の FSRS vs SM-2: どの spaced repetition algorithm がより多く覚えられるか](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/) にあります。
 
 practical に言えば、upgrade は「Anki から出る」だけではありません。次のような system に landing することでもあります。
 

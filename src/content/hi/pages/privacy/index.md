@@ -36,7 +36,7 @@ Self-hosted instances के लिए आप database को सीधे न�
 
 ## Support
 
-Privacy से जुड़े सवालों के लिए [kirill+flashcards@kirill-markin.com](mailto:kirill+flashcards@kirill-markin.com) पर संपर्क करें या [support page](/support/) का उपयोग करें।
+Privacy से जुड़े सवालों के लिए [kirill+flashcards@kirill-markin.com](mailto:kirill+flashcards@kirill-markin.com) पर संपर्क करें या [सपोर्ट](/support/) का उपयोग करें।
 
 ## Open Source
 

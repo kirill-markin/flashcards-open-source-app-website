@@ -132,7 +132,7 @@ drafting が decent でも scheduler が weak なら、whole system は still wo
 
 scheduling side の more detail は、こちらです。
 
-- [FSRS vs SM-2 in 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [2026年の FSRS vs SM-2: どの spaced repetition algorithm がより多く覚えられるか](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
 
 ## plain text は、多くの note apps が認めるより useful
 
@@ -177,11 +177,11 @@ best study workflow は、多くの場合ただ「火曜の夜でも still toler
 
 existing collections を move する issue が bigger なら、こちらから。
 
-- [How to Migrate from Anki in 2026](https://flashcards-open-source-app.com/blog/migrate-from-anki-txt-export-open-source-flashcards/)
+- [2026年、Anki から移行する方法: cards を TXT として export し、open-source flashcards app に送る](https://flashcards-open-source-app.com/blog/migrate-from-anki-txt-export-open-source-flashcards/)
 
 wider category を compare したいなら、こちらが overview です。
 
-- [Best Anki Alternatives in 2026](https://flashcards-open-source-app.com/blog/best-anki-alternatives/)
+- [2026年のベスト Anki Alternatives: 実際に使うべき Flashcards アプリはどれか](https://flashcards-open-source-app.com/blog/best-anki-alternatives/)
 
 ## 2026 年、notes を flashcards に変える best way は何か
 

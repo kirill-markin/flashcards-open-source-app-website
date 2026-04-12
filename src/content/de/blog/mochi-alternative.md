@@ -77,7 +77,7 @@ Das ist kein Nischen-Backend-Detail. Es entscheidet, ob sich das Deck noch lohnt
 
 Wenn du den tieferen Vergleich willst, geht dieser Artikel weiter:
 
-- [FSRS vs SM-2 in 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [FSRS vs SM-2 in 2026: Welcher Spaced-Repetition-Algorithmus hilft dir, mehr zu behalten?](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
 
 ## Offline-Lernen ist wichtig, weil Gedächtnisarbeit an langweiligen Orten passiert
 
@@ -96,7 +96,7 @@ Genau auf diese Architektur zielt Flashcards in der gehosteten App und der iOS-R
 
 Wenn Offline-Verhalten der Hauptgrund ist, warum dein aktuelles Tool sich dünn anfühlt, geht dieser Artikel tiefer:
 
-- [Best Offline Flashcards App in 2026](https://flashcards-open-source-app.com/blog/best-offline-flashcards-app/)
+- [Die beste Offline-Flashcards-App 2026: Mit FSRS und Sync ohne Internet lernen](https://flashcards-open-source-app.com/blog/best-offline-flashcards-app/)
 
 ## Open Source wird wichtig, weil Decks erstaunlich schnell aufhören, wegwerfbar zu sein
 
@@ -116,7 +116,7 @@ Darum gehören **self hosted flashcards** und Open-Source-Eigentum in dieselbe U
 
 Wenn Eigentum der wichtigste Teil deiner Suche ist, starte hier:
 
-- [Self-Hosted Open Source Flashcards App for Spaced Repetition](https://flashcards-open-source-app.com/blog/self-hosted-open-source-flashcards-app-for-spaced-repetition/)
+- [Self-Hosted Open Source Flashcards App für Spaced Repetition](https://flashcards-open-source-app.com/blog/self-hosted-open-source-flashcards-app-for-spaced-repetition/)
 
 ## KI ist nützlich, wenn sie Entwurfsarbeit entfernt
 
@@ -138,7 +138,7 @@ Schon dadurch entsteht in Flashcards ein stärkerer Workflow, weil das Produkt F
 
 Wenn dich vor allem die manuelle Kartensteuer zum Suchen gebracht hat, geht dieser Artikel tiefer:
 
-- [How to Turn Notes Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
+- [Wie du 2026 Notizen in Flashcards verwandelst: KI-Entwürfe mit FSRS statt manuellem Copy-and-paste](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
 
 ## Was ist also 2026 die beste Mochi Alternative?
 
@@ -154,5 +154,5 @@ Wenn du diese Richtung erkunden willst:
 
 - [Flashcards öffnen](https://flashcards-open-source-app.com/)
 - [Die App öffnen](https://app.flashcards-open-source-app.com/)
-- [Die Getting-Started-Anleitung lesen](https://flashcards-open-source-app.com/docs/getting-started/)
+- [Erste Schritte](https://flashcards-open-source-app.com/docs/getting-started/)
 - [Den Sourcecode auf GitHub ansehen](https://github.com/kirill-markin/flashcards-open-source-app)

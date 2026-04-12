@@ -197,7 +197,7 @@ Pero luego deje que un programador real maneje la repetición correctamente.
 
 Si desea conocer la programación con más detalle, este artículo complementario es más profundo:
 
-- [FSRS vs SM-2 en 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [FSRS vs SM-2 en 2026: ¿Qué algoritmo de repetición espaciada le ayuda a recordar más?](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
 
 ## Dónde encaja Flashcards en este flujo de trabajo
 

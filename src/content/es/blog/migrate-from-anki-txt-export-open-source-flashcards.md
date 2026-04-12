@@ -97,7 +97,7 @@ Es más rápido que la recreación manual y más honesto que pretender que exist
 
 La migración sólo importa si el destino es lo suficientemente mejor como para justificar el traslado. Aquí es donde las **tarjetas didácticas FSRS** se vuelven parte de la historia.
 
-Flashcards se basa en FSRS en lugar de los valores predeterminados de estilo SM-2 más antiguos, que es exactamente la dirección que me gustaría de una herramienta de estudio moderna. Si desea la versión más larga, ya existe un artículo completo sobre [FSRS vs SM-2 en 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/).
+Flashcards se basa en FSRS en lugar de los valores predeterminados de estilo SM-2 más antiguos, que es exactamente la dirección que me gustaría de una herramienta de estudio moderna. Si desea la versión más larga, ya existe un artículo completo sobre [FSRS vs SM-2 en 2026: ¿Qué algoritmo de repetición espaciada le ayuda a recordar más?](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/).
 
 En términos prácticos, la actualización no se trata sólo de salir de Anki. Se trata de aterrizar en un sistema donde:
 

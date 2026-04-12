@@ -36,7 +36,7 @@ Hosted cloud data 存储在 AWS infrastructure 中，其中 primary application 
 
 ## Support
 
-关于 privacy 的问题，请联系 [kirill+flashcards@kirill-markin.com](mailto:kirill+flashcards@kirill-markin.com) 或使用 [support page](/support/)。
+关于 privacy 的问题，请联系 [kirill+flashcards@kirill-markin.com](mailto:kirill+flashcards@kirill-markin.com) 或使用 [支持](/support/)。
 
 ## Open Source
 

@@ -141,7 +141,7 @@ keywords:
 
 Если хотите подробнее именно про планирование, вот статья-компаньон:
 
-- [FSRS vs SM-2 in 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- ['FSRS против SM-2 в 2026 году: какой алгоритм интервального повторения поможет вам](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
 
 ## Где в этом сценарии подходит Flashcards
 
@@ -171,11 +171,11 @@ keywords:
 
 Если источник - ваш собственный текст, лучше подойдет эта статья:
 
-- [How to Turn Notes Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
+- [Как превращать заметки в карточки в 2026 году: AI-черновики с FSRS вместо ручного copy-paste](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
 
 Если источник - документ, слайды или paper, то лучше сюда:
 
-- [How to Turn a PDF Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-turn-a-pdf-into-flashcards/)
+- ['Как превратить PDF-файл в карточки в 2026 году: слайды лекций, учебники и научные](https://flashcards-open-source-app.com/blog/how-to-turn-a-pdf-into-flashcards/)
 
 Видео - это отдельная неприятная категория, потому что смешивает качество объяснения с шумом транскрипта.
 

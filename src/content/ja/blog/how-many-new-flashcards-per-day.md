@@ -102,8 +102,8 @@ deck は review habit より速く成長します。
 
 source material がまだ document の形なら、drafting 側には次の記事が役立ちます。
 
-- [How to Turn a PDF Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-turn-a-pdf-into-flashcards/)
-- [How to Turn Notes Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
+- [2026年、PDF を Flashcards に変える方法: lecture slides、textbooks、research papers を FSRS cards にする](https://flashcards-open-source-app.com/blog/how-to-turn-a-pdf-into-flashcards/)
+- [2026年、notes を Flashcards に変える方法: manual copy-paste の代わりに AI drafting と FSRS を使う](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
 
 ## 自分の number を見つける practical な方法
 
@@ -151,7 +151,7 @@ FSRS は、review timing を sensible に感じさせる点で、古い spaced r
 
 scheduling comparison を直接見たいなら、こちらです。
 
-- [FSRS vs SM-2 in 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [2026年の FSRS vs SM-2: どの spaced repetition algorithm がより多く覚えられるか](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
 
 ## review backlog は、writing problem でもあることが多い
 
@@ -209,7 +209,7 @@ AI が思いつけるすべての card を学ぶ必要はありません。
 
 AI prompts から直接 cards を作っているなら、こちらも合います。
 
-- [How to Use ChatGPT to Make Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-use-chatgpt-to-make-flashcards/)
+- [2026年、ChatGPT を使って Flashcards を作る方法: prompt を良くし、cards を良くし、FSRS で review を良くする](https://flashcards-open-source-app.com/blog/how-to-use-chatgpt-to-make-flashcards/)
 
 ## Flashcards がこの workflow により合う理由
 

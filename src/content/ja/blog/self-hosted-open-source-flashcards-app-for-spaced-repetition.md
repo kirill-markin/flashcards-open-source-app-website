@@ -88,8 +88,8 @@ project にはすでにその foundation があります。
 - GitHub 上の open-source code
 - 文書化された external agent API surface
 - passwordless auth
-- [self-hosting guide](https://flashcards-open-source-app.com/docs/self-hosting/)
-- [architecture docs](https://flashcards-open-source-app.com/docs/architecture/)
+- [セルフホスティングガイド](https://flashcards-open-source-app.com/docs/self-hosting/)
+- [アーキテクチャ](https://flashcards-open-source-app.com/docs/architecture/)
 
 まだ early ですし、そこをごまかすつもりはありません。それでも、product はすでに browser-only prototype 以上です。repository には hosted web app、iOS client、auth service、backend API、そして現在の sync path まで含まれています。私は polished だが boxed-in なものより、early でも honest なものを使いたいです。
 

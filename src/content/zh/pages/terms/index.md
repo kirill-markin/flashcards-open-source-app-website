@@ -32,7 +32,7 @@ Hosted service 按 best-effort basis 提供，并可能在 beta period 内无通
 
 ## Support
 
-如需 support，请联系 [kirill+flashcards@kirill-markin.com](mailto:kirill+flashcards@kirill-markin.com) 或使用 [support page](/support/)。
+如需 support，请联系 [kirill+flashcards@kirill-markin.com](mailto:kirill+flashcards@kirill-markin.com) 或使用 [支持](/support/)。
 
 ## Open Source
 

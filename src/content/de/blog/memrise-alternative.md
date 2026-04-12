@@ -88,7 +88,7 @@ Es verändert, ob sich das Deck nach der Honeymoon-Phase noch lohnt.
 
 Wenn du den tieferen Scheduling-Vergleich willst, schau hier:
 
-- [FSRS vs SM-2 in 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [FSRS vs SM-2 in 2026: Welcher Spaced-Repetition-Algorithmus hilft dir, mehr zu behalten?](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
 
 ## Offline-Vertrauen zählt, weil Lernen an langweiligen echten Orten passiert
 
@@ -112,7 +112,7 @@ Genau dieses Modell verfolgt Flashcards. Erst lernen. Später synchronisieren. D
 
 Wenn Offline-Verhalten der Hauptgrund ist, warum du dich umsiehst, lies hier weiter:
 
-- [Best Offline Flashcards App in 2026](https://flashcards-open-source-app.com/blog/best-offline-flashcards-app/)
+- [Die beste Offline-Flashcards-App 2026: Mit FSRS und Sync ohne Internet lernen](https://flashcards-open-source-app.com/blog/best-offline-flashcards-app/)
 
 ## Der iPhone-Workflow ist wichtiger, als viele zugeben
 
@@ -156,7 +156,7 @@ Flashcards passt dazu bereits besser durch:
 
 Wenn dich vor allem die manuelle Arbeit beim Kartenschreiben zum Suchen gebracht hat, lies hier weiter:
 
-- [How to Turn Notes Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
+- [Wie du 2026 Notizen in Flashcards verwandelst: KI-Entwürfe mit FSRS statt manuellem Copy-and-paste](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
 
 ## Eigentum wird wichtig, weil Decks zu persönlicher Infrastruktur werden
 
@@ -176,7 +176,7 @@ Das ist umso wichtiger, wenn das Deck nicht mehr generischer Content, sondern de
 
 Wenn Eigentum der Hauptgrund für deine Suche ist, starte hier:
 
-- [Self-Hosted Open Source Flashcards App for Spaced Repetition](https://flashcards-open-source-app.com/blog/self-hosted-open-source-flashcards-app-for-spaced-repetition/)
+- [Self-Hosted Open Source Flashcards App für Spaced Repetition](https://flashcards-open-source-app.com/blog/self-hosted-open-source-flashcards-app-for-spaced-repetition/)
 
 ## Was ist also 2026 die beste Memrise Alternative?
 
@@ -192,5 +192,5 @@ Wenn du diese Richtung erkunden willst:
 
 - [Flashcards öffnen](https://flashcards-open-source-app.com/)
 - [Die App öffnen](https://app.flashcards-open-source-app.com/)
-- [Die Getting-Started-Anleitung lesen](https://flashcards-open-source-app.com/docs/getting-started/)
+- [Erste Schritte](https://flashcards-open-source-app.com/docs/getting-started/)
 - [Den Sourcecode auf GitHub ansehen](https://github.com/kirill-markin/flashcards-open-source-app)

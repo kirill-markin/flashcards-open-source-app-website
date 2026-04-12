@@ -171,8 +171,8 @@ Das ist viel effektiver, als ein Modell nach "50 perfekten Flashcards" zu fragen
 
 Wenn du KI schon vorher einsetzt, passen diese Guides ebenfalls:
 
-- [How to Use ChatGPT to Make Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-use-chatgpt-to-make-flashcards/)
-- [How to Turn Notes Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
+- [Wie du 2026 ChatGPT nutzt, um Flashcards zu erstellen: bessere Prompts, bessere Karten, bessere Reviews mit FSRS](https://flashcards-open-source-app.com/blog/how-to-use-chatgpt-to-make-flashcards/)
+- [Wie du 2026 Notizen in Flashcards verwandelst: KI-Entwürfe mit FSRS statt manuellem Copy-and-paste](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
 
 ## Die Karte sollte Gedächtnis testen, nicht Recognition-Theater
 
@@ -213,8 +213,8 @@ Das ist kein Algorithmusproblem. Das ist ein Kartenschreibproblem, das sich als 
 
 Wenn du die Scheduling-Seite detaillierter willst, starte hier:
 
-- [FSRS vs SM-2 in 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
-- [How Many New Flashcards Per Day in 2026](https://flashcards-open-source-app.com/blog/how-many-new-flashcards-per-day/)
+- [FSRS vs SM-2 in 2026: Welcher Spaced-Repetition-Algorithmus hilft dir, mehr zu behalten?](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [Wie viele neue Flashcards pro Tag im Jahr 2026? Baue eine FSRS-Review-Last, die du wirklich fertig bekommst](https://flashcards-open-source-app.com/blog/how-many-new-flashcards-per-day/)
 
 ## Der schnellste Edit ist Löschen
 

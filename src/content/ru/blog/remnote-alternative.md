@@ -85,7 +85,7 @@ FSRS обычно дает более спокойный ритм повторе
 
 Если хотите более глубокое сравнение планировщиков, вот статья:
 
-- [FSRS vs SM-2 in 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- ['FSRS против SM-2 в 2026 году: какой алгоритм интервального повторения поможет вам](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
 
 ## Путь из заметок в карточки важнее, чем идея "заметки как мировоззрение"
 
@@ -110,7 +110,7 @@ Flashcards лучше подходит именно к такому направ
 
 Если именно это делает вашу текущую систему тяжелее, чем нужно, начните здесь:
 
-- [How to Turn Notes Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
+- [Как превращать заметки в карточки в 2026 году: AI-черновики с FSRS вместо ручного copy-paste](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
 
 ## Офлайн-обучение важно, потому что работа с памятью происходит далеко от идеальных условий
 
@@ -129,7 +129,7 @@ Flashcards лучше подходит именно к такому направ
 
 Если именно офлайн-поведение подтолкнуло вас искать замену, вот статья глубже:
 
-- [Best Offline Flashcards App in 2026](https://flashcards-open-source-app.com/blog/best-offline-flashcards-app/)
+- ['Лучшее офлайн-приложение для карточек в 2026 году: обучение без Интернета с FSRS](https://flashcards-open-source-app.com/blog/best-offline-flashcards-app/)
 
 ## Open source важен, потому что колоды очень быстро перестают быть временными
 
@@ -147,7 +147,7 @@ Flashcards лучше подходит именно к такому направ
 
 Если именно владение для вас важнее всего, начните здесь:
 
-- [Self-Hosted Open Source Flashcards App for Spaced Repetition](https://flashcards-open-source-app.com/blog/self-hosted-open-source-flashcards-app-for-spaced-repetition/)
+- [Self-hosted open-source приложение с карточками для интервального повторения](https://flashcards-open-source-app.com/blog/self-hosted-open-source-flashcards-app-for-spaced-repetition/)
 
 ## Так какая альтернатива RemNote лучшая в 2026 году?
 
@@ -163,5 +163,5 @@ Flashcards лучше подходит именно к такому направ
 
 - [Open Flashcards](https://flashcards-open-source-app.com/)
 - [Open the app](https://app.flashcards-open-source-app.com/)
-- [Read the getting started guide](https://flashcards-open-source-app.com/docs/getting-started/)
+- [Начало работы](https://flashcards-open-source-app.com/docs/getting-started/)
 - [View the source on GitHub](https://github.com/kirill-markin/flashcards-open-source-app)

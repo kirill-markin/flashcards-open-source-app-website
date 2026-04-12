@@ -231,7 +231,7 @@ FSRS maneja esa realidad mejor que las reglas de revisión fijas.
 
 Si desea conocer la parte de programación con más detalle, este artículo es más profundo:
 
-- [FSRS vs SM-2 en 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [FSRS vs SM-2 en 2026: ¿Qué algoritmo de repetición espaciada le ayuda a recordar más?](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
 
 ## Dónde encaja la aplicación de código abierto Flashcards
 
@@ -269,5 +269,5 @@ Si eso es lo que quieres, empieza aquí:
 
 - [Abrir aplicación de código abierto Flashcards](https://flashcards-open-source-app.com/)
 - [Lea la guía de introducción](https://flashcards-open-source-app.com/docs/getting-started/)
-- [Lea los documentos de la API](https://flashcards-open-source-app.com/docs/api/)
+- [Referencia de API](https://flashcards-open-source-app.com/docs/api/)
 - [Ver la fuente en GitHub](https://github.com/kirill-markin/flashcards-open-source-app)

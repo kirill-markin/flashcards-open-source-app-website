@@ -152,7 +152,7 @@ Das ist viel näher an einem nutzbaren **kindle to anki**-Workflow als Zitate ei
 
 Wenn du die breiteren Regeln fürs Kartenschreiben willst, starte hier:
 
-- [How to Make Better Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [Wie du 2026 bessere Flashcards machst: Front- und Back-Regeln, die mit FSRS wirklich funktionieren](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
 
 ## Sachbücher, Lehrbücher und Sprachbücher sollten nicht denselben Kartentyp nutzen
 
@@ -188,7 +188,7 @@ Darum ist **remember what you read** kein einziger Workflow. Das Quellmaterial v
 
 Wenn dein Ziel eher Sprachpraxis als allgemeines Lesen ist, passt dieser Begleitartikel besser:
 
-- [How to Use Flashcards for Language Learning in 2026](https://flashcards-open-source-app.com/blog/how-to-use-flashcards-for-language-learning/)
+- [Wie du 2026 Flashcards fürs Sprachenlernen nutzt: Vokabeln, Sätze und Reviews, die wirklich hängen bleiben](https://flashcards-open-source-app.com/blog/how-to-use-flashcards-for-language-learning/)
 
 ## Kindle-Highlights sind besonders tückisch, weil sie organisierter wirken, als sie sind
 
@@ -225,7 +225,7 @@ FSRS geht mit dieser Realität besser um als feste Review-Regeln.
 
 Wenn du die Scheduling-Seite genauer willst, geht dieser Artikel tiefer:
 
-- [FSRS vs SM-2 in 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [FSRS vs SM-2 in 2026: Welcher Spaced-Repetition-Algorithmus hilft dir, mehr zu behalten?](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
 
 ## Wo Flashcards Open Source App passt
 
@@ -241,7 +241,7 @@ Diese Kombination ist wichtig, weil die schwierige Aufgabe nicht darin besteht, 
 
 Wenn deine Quelle eher breitere Notizen als E-Book-Highlights sind, ist dieser Begleitartikel passender:
 
-- [How to Turn Notes Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
+- [Wie du 2026 Notizen in Flashcards verwandelst: KI-Entwürfe mit FSRS statt manuellem Copy-and-paste](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
 
 ## Die nützliche Regel
 

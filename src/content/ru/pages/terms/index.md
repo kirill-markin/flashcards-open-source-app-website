@@ -32,7 +32,7 @@ Hosted service предоставляется на best-effort basis и може
 
 ## Support
 
-Для support пишите на [kirill+flashcards@kirill-markin.com](mailto:kirill+flashcards@kirill-markin.com) или используйте [support page](/support/).
+Для support пишите на [kirill+flashcards@kirill-markin.com](mailto:kirill+flashcards@kirill-markin.com) или используйте [Поддержка](/support/).
 
 ## Open Source
 

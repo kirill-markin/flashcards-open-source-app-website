@@ -150,7 +150,7 @@ scheduler が weak なら、decent cards でも irritating になります。eas
 
 scheduling part の詳細は、こちらです。
 
-- [FSRS vs SM-2 in 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [2026年の FSRS vs SM-2: どの spaced repetition algorithm がより多く覚えられるか](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
 
 ## source が messy だったときほど、これはうまく機能する
 
@@ -168,9 +168,9 @@ workflow の underrated な point の 1 つは、NotebookLM がそもそも clea
 
 source が still one step earlier にあるなら、こちらも useful です。
 
-- [How to Turn Notes Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
-- [How to Turn a PDF Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-turn-a-pdf-into-flashcards/)
-- [How to Turn Notion Notes Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-turn-notion-notes-into-flashcards/)
+- [2026年、notes を Flashcards に変える方法: manual copy-paste の代わりに AI drafting と FSRS を使う](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
+- [2026年、PDF を Flashcards に変える方法: lecture slides、textbooks、research papers を FSRS cards にする](https://flashcards-open-source-app.com/blog/how-to-turn-a-pdf-into-flashcards/)
+- [2026年、Notion notes を Flashcards に変える方法: export して、AI で draft し、FSRS で review する](https://flashcards-open-source-app.com/blog/how-to-turn-notion-notes-into-flashcards/)
 
 ## 私なら今週こう使う
 

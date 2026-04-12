@@ -27,7 +27,7 @@ GET https://api.flashcards-open-source-app.com/v1/
 
 ## Self-Hosting
 
-自分の copy を動かしたい場合は [self-hosting guide](/docs/self-hosting/) を見てください。
+自分の copy を動かしたい場合は [セルフホスティングガイド](/docs/self-hosting/) を見てください。
 
 ## 今日できること
 
