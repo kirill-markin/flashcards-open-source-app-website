@@ -1,242 +1,237 @@
 ---
-title: >-
-  ¿Cuántas tarjetas didácticas nuevas por día en 2026? Cree una carga de
-  revisión de FSRS que realmente pueda finalizar
-description: >-
-  ¿Se pregunta cuántas tarjetas didácticas nuevas por día son sostenibles? Aquí
-  hay una regla práctica para 2026: comience con el tiempo de revisión
-  disponible, no con la ambición, luego establezca un límite diario de tarjetas
-  nuevas que pueda terminar sin ahogarse en las revisiones debidas.
-date: '2026-03-31'
+title: "¿Cuántas tarjetas nuevas al día en 2026? Crea una carga de repaso con FSRS que de verdad puedas completar"
+description: "¿Te preguntas cuántas tarjetas nuevas al día son sostenibles? Aquí va una regla práctica para 2026: empieza por el tiempo real que puedes dedicar a repasar, no por la ambición, y fija un límite diario que puedas cumplir sin ahogarte en repasos pendientes."
+date: "2026-03-31"
 keywords:
-  - ¿Cuántas tarjetas didácticas nuevas por día?
-  - cuantas tarjetas al dia
-  - cuantas tarjetas anki por dia
-  - límite diario de tarjetas
-  - agotamiento de tarjetas didácticas
-  - carga de revisión de fsrs
-  - carga de trabajo de repeticiones espaciadas
-  - nuevas tarjetas por día
+  - "cuántas tarjetas nuevas al día"
+  - "cuántas tarjetas al día"
+  - "cuántas tarjetas de Anki al día"
+  - "límite diario de tarjetas"
+  - "agotamiento con tarjetas"
+  - "carga de repaso con fsrs"
+  - "carga de trabajo de repetición espaciada"
+  - "tarjetas nuevas por día"
 ---
-El domingo por la noche dejé que la IA convirtiera un capítulo en 186 tarjetas didácticas en aproximadamente dos minutos. Lo cual fue impresionante hasta que me imaginé volver a encontrarme con esas 186 cartas durante las próximas semanas, como si hubiera adoptado accidentalmente una manada de lobos muy nerd.
 
-Por lo general, es entonces cuando la gente empieza a buscar **cuántas tarjetas didácticas nuevas por día**.
+El domingo por la noche dejé que la IA convirtiera un capítulo en 186 tarjetas en unos dos minutos. Fue impresionante hasta que me imaginé volviendo a encontrarme con esas 186 tarjetas durante las semanas siguientes, como si hubiera adoptado por accidente una manada de lobos muy nerd.
 
-No porque la generación ya sea difícil. Porque se ha vuelto peligrosamente fácil crear más tarjetas de las que puedes revisar de manera realista.
+Ese suele ser el momento en el que la gente empieza a buscar **cuántas tarjetas nuevas al día**.
+
+No porque ahora sea difícil generarlas. Sino porque se ha vuelto peligrosamente fácil crear más tarjetas de las que puedes repasar de forma realista.
 
 ## Esta pregunta importa más en 2026 que hace un par de años
 
-Las herramientas de estudio son cada vez mejores a la hora de convertir el material original en tarjetas.
+Las herramientas de estudio cada vez convierten mejor el material original en tarjetas.
 
-NotebookLM impulsó las tarjetas didácticas y los cuestionarios en los flujos de trabajo de estudio web y móviles. Los flujos de trabajo de estudio de ChatGPT siguen haciendo que la generación basada en fuentes parezca normal. Convertir archivos PDF, notas, grabaciones de conferencias y material de estudio aleatorio en tarjetas de candidato ahora es la parte fácil.
+NotebookLM ha impulsado más el uso de tarjetas de estudio y cuestionarios en los flujos de estudio web y móvil. Los flujos de estudio con ChatGPT siguen haciendo que generar tarjetas a partir de fuentes parezca algo normal. Convertir PDFs, apuntes, grabaciones de clase y material de estudio suelto en posibles tarjetas ya es la parte fácil.
 
 Eso cambia el cuello de botella.
 
-El cuello de botella ya no es "¿puedo hacer tarjetas lo suficientemente rápido?"
+El cuello de botella ya no es "¿puedo crear tarjetas lo bastante rápido?".
 
-Es "¿puedo seguir revisando el mazo después de que la emoción desaparezca?"
+Ahora es "¿voy a poder seguir repasando el mazo cuando se pase la emoción inicial?".
 
-## La respuesta incorrecta suele ser "tantas como puedo generar"
+## La respuesta equivocada suele ser "tantas como pueda generar"
 
-He visto que esto salió mal de una manera muy predecible.
+He visto que esto sale mal de una forma bastante predecible.
 
-Empiezas un nuevo tema. Te sientes organizado. El modelo redacta un lote enorme. La plataforma parece productiva. Luego comienzan a aparecer las reseñas diarias y todo se vuelve un poco hostil.
+Empiezas una materia nueva. Te sientes organizado. El modelo genera un lote enorme. El mazo parece productivo. Luego empiezan a aparecer los repasos diarios y todo se vuelve un poco hostil.
 
-Es por eso que **cuántas tarjetas al día** es una mejor pregunta que "¿qué tan rápido puedo construir un mazo?"
+Por eso **cuántas tarjetas al día** es una pregunta mejor que "¿a qué velocidad puedo montar un mazo?".
 
-La velocidad de generación y la capacidad de revisión no son lo mismo.
+La velocidad de generación y la capacidad real de repaso no son lo mismo.
 
-## Las tarjetas nuevas no son un trabajo único
+## Las tarjetas nuevas no son trabajo de una sola vez
 
-Esta es la parte que la gente subestima.
+Esta es la parte que mucha gente subestima.
 
-Una nueva tarjeta didáctica no es una reseña.
+Una tarjeta nueva no equivale a un solo repaso.
 
-Es:
+Implica:
 
-- una introducción hoy
-- otra aparición poco después
-- más revisiones más adelante dependiendo de la dificultad
-- fricción adicional si la tarjeta era vaga, amplia o mal escrita
+- una primera aparición hoy
+- otra poco después
+- más repasos más adelante según la dificultad
+- fricción extra si la tarjeta es vaga, demasiado amplia o está mal escrita
 
-Entonces, cuando alguien pregunta **cuántas tarjetas Anki por día** o cuántas tarjetas FSRS deberían agregar, la verdadera pregunta es sobre la carga de trabajo futura, no la motivación actual.
+Así que, cuando alguien pregunta **cuántas tarjetas de Anki al día** o cuántas tarjetas con FSRS debería añadir, en realidad está preguntando por la carga de trabajo futura, no por la motivación de hoy.
 
-## Comience desde el momento de la revisión, no desde la ambición
+## Empieza por el tiempo de repaso, no por la ambición
 
 Esta es la regla en la que más confío.
 
-No elija primero un número de tarjeta nueva.
+No elijas primero un número de tarjetas nuevas.
 
-Elija la cantidad de tiempo que puede dedicar de manera realista a revisar en un día normal cuando la vida es molesta, el trabajo está ocupado y su cerebro no está en un montaje de estudio cinematográfico.
+Elige cuánto tiempo puedes dedicar de verdad a repasar en un día normal, cuando la vida fastidia, el trabajo aprieta y tu cerebro no está viviendo un montaje cinematográfico de productividad.
 
-Luego, elija un límite de tarjeta nueva que se ajuste a ese tiempo.
+Luego fija un límite de tarjetas nuevas que quepa dentro de ese tiempo.
 
-Para mucha gente, eso significa empezar con algo más pequeño de lo que quieren:
+Para mucha gente, eso significa empezar más abajo de lo que le gustaría:
 
-- 5 a 10 tarjetas nuevas por día si el tema es difícil o la agenda está apretada
-- 10 a 20 tarjetas nuevas por día si estudiar ya es un hábito estable
-- Más de 20 tarjetas nuevas por día solo cuando hay tiempo de revisión realmente disponible y la calidad de la tarjeta es alta
+- 5 a 10 tarjetas nuevas al día si la materia es difícil o el horario va justo
+- 10 a 20 tarjetas nuevas al día si estudiar ya es un hábito estable
+- más de 20 tarjetas nuevas al día solo cuando de verdad sobra tiempo de repaso y la calidad de las tarjetas es alta
 
-Esa no es una ley universal. Es un punto de partida práctico.
+No es una ley universal. Es un punto de partida práctico.
 
-## Las materias difíciles y las materias fáciles no deben usar el mismo límite
+## Las materias difíciles y las fáciles no deberían usar el mismo límite
 
-Aquí es donde la gente hace que la baraja parezca injusta.
+Aquí es donde mucha gente hace que el mazo se vuelva injusto.
 
-No es lo mismo veinte fichas de vocabulario nuevo en un idioma familiar que veinte fichas densas de medicina, definiciones de leyes o conceptos técnicos abstractos.
+Veinte tarjetas nuevas de vocabulario en un idioma que ya conoces no son lo mismo que veinte tarjetas densas de medicina, definiciones jurídicas o conceptos técnicos abstractos.
 
-El límite diario debe reflejar:
+El límite diario debería reflejar:
 
-- qué tan duro es el material
+- lo difícil que es el material
 - cuántos detalles tipo cloze esconde cada tarjeta
-- cuánto estudio externo estás haciendo
-- si las tarjetas fueron escritas a mano o redactadas por IA
-- con qué frecuencia los extrañas en la primera revisión
+- cuánto estudio adicional haces fuera del mazo
+- si las tarjetas las has escrito tú o las ha generado la IA
+- cuántas fallas en el primer repaso
 
-Si el recuerdo parece confuso el primer día, el límite ya es demasiado alto o las cartas son demasiado amplias.
+Si el recuerdo ya se siente borroso el primer día, el límite es demasiado alto o las tarjetas son demasiado amplias.
 
-## Los mazos generados por IA facilitan mucho la sobreproducción
+## Los mazos generados con IA hacen mucho más fácil pasarse de producción
 
-Este es el nuevo modo de falla.
+Este es el nuevo modo de fallo.
 
-Si está convirtiendo notas, archivos PDF, vídeos o transcripciones en tarjetas con IA, la tentación es obvia: un lote más, un capítulo más, una carga más.
+Si estás convirtiendo apuntes, PDFs, vídeos o transcripciones en tarjetas con IA, la tentación es evidente: un lote más, un capítulo más, una subida más.
 
-La plataforma crece más rápido que su hábito de reseñar.
+El mazo crece más rápido que tu hábito de repaso.
 
-Por eso tendría cuidado con cualquier flujo de trabajo que haga que la creación de tarjetas se sienta fluida. La fricción es molesta, pero algo de fricción lo protegía silenciosamente de crear una cola de revisión que nunca tuvo la intención de mantener.
+Por eso yo iría con cuidado con cualquier flujo de trabajo que haga que crear tarjetas parezca no costar nada. La fricción molesta, sí, pero también te protegía sin hacer ruido de construir una cola de repasos que nunca pensabas mantener.
 
-Si su material de origen todavía está en formato de documento, estos flujos de trabajo le ayudarán con la parte de redacción:
+Si tu material de origen sigue estando en formato documento, estos flujos de trabajo ayudan con la parte de borrador:
 
 - [Cómo convertir un PDF en tarjetas didácticas en 2026](https://flashcards-open-source-app.com/blog/how-to-turn-a-pdf-into-flashcards/)
-- [Cómo convertir notas en tarjetas didácticas en 2026](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
+- [Cómo convertir apuntes en tarjetas didácticas en 2026](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
 
 ## Una forma práctica de encontrar tu número
 
-Mantendría la configuración simple:
+Yo mantendría la configuración simple:
 
-1. Elija un tiempo de revisión diario que pueda mantener durante dos semanas
-2. establezca un pequeño límite de tarjetas nuevas
-3. Observe cuántas revisiones pendientes aparecen después de unos días.
-4. aumentar sólo si la cola todavía parece fácil
-5. disminuir inmediatamente si comienzas a posponer revisiones
+1. elige un tiempo diario de repaso que puedas sostener durante dos semanas
+2. fija un límite pequeño de tarjetas nuevas
+3. observa cuántos repasos pendientes aparecen después de unos días
+4. súbelo solo si la cola sigue pareciendo fácil
+5. bájalo en cuanto empieces a posponer repasos
 
 Esa última parte importa.
 
-Si se salta las revisiones porque la cola le resulta molesta, su límite real es inferior al número actual, sin importar lo motivado que se sintiera cuando lo configuró.
+Si te saltas repasos porque la cola te resulta pesada, tu límite real está por debajo del número actual, por mucha motivación que tuvieras cuando lo fijaste.
 
-## El mazo debería parecer un poco aburrido, no heroico.
+## El mazo debería sentirse un poco aburrido, no heroico
 
-Creo que la gente subestima esto.
+Creo que esto también se subestima.
 
-La mejor rutina con tarjetas didácticas no suele ser dramática. Es estable.
+La mejor rutina con tarjetas de estudio normalmente no es dramática. Es estable.
 
-Si cada sesión de estudio parece una misión de rescate, el sistema ya está equivocado.
+Si cada sesión de estudio parece una misión de rescate, el sistema ya está mal planteado.
 
-La revisión diaria debería parecerse más a cepillarse los dientes que a prepararse para la batalla. Un poco aburrido es bueno. Un poco aburrido es cómo sobreviven los hábitos.
+El repaso diario debería parecerse más a lavarte los dientes que a prepararte para la batalla. Que sea un poco aburrido es bueno. Así es como sobreviven los hábitos.
 
-Esa es la versión del **límite diario de tarjetas** en la que confío. No es lo máximo que puedes sobrevivir en un martes inspirado, sino lo que puedes seguir haciendo cuando nada del día parece optimizado.
+Esa es la versión de **límite diario de tarjetas** en la que confío. No el máximo que puedes aguantar un martes inspirado, sino la cantidad que puedes seguir haciendo cuando nada en el día está especialmente optimizado.
 
-## FSRS ayuda, pero no puede salvar una mala tasa de admisión
+## FSRS ayuda, pero no puede salvar una mala tasa de entrada
 
-FSRS es mejor que los antiguos sistemas de repetición espaciada para hacer que el momento de la revisión parezca sensato.
+FSRS es mejor que los sistemas antiguos de repetición espaciada a la hora de hacer que los intervalos de repaso tengan sentido.
 
 Eso ayuda mucho.
 
-Pero un buen planificador no soluciona mágicamente:
+Pero un buen planificador no arregla por arte de magia:
 
-- demasiadas cartas nuevas
-- respuestas de gran tamaño
+- demasiadas tarjetas nuevas
+- respuestas demasiado largas
 - hechos duplicados
 - redacción vaga
-- cartas que nunca entendiste realmente en primer lugar
+- tarjetas que en realidad nunca entendiste bien
 
-Entonces sí, el programador importa.
+Así que sí, el planificador importa.
 
-No, el programador no hace que el ingreso ilimitado de tarjetas sea un plan serio.
+No, el planificador no convierte una entrada ilimitada de tarjetas en un plan serio.
 
-Si desea comparar la programación directamente, este artículo es más profundo:
+Si quieres una comparación directa sobre la planificación, este artículo entra más a fondo:
 
-- [FSRS vs SM-2 en 2026: ¿Qué algoritmo de repetición espaciada le ayuda a recordar más?](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [FSRS vs SM-2 en 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
 
-## El trabajo pendiente de revisión también suele ser un problema de redacción
+## El atasco de repasos también suele ser un problema de redacción
 
 Vale la pena decirlo en voz alta.
 
-A veces el problema no es el número. A veces el problema es que las tarjetas molestan.
+A veces el problema no es la cantidad. A veces el problema es que las tarjetas son incómodas de estudiar.
 
-Si una tarjeta pide tres datos, esconde un párrafo largo en el reverso o depende de un contexto que ya no recuerdas, te parecerá más difícil de lo que merece el tema.
+Si una tarjeta pide tres datos, esconde un párrafo largo en el reverso o depende de un contexto que ya no recuerdas, se sentirá más difícil de lo que el tema merece.
 
-Es por eso que un límite de **tarjetas nuevas por día** y la disciplina en la escritura de tarjetas van de la mano.
+Por eso el límite de **tarjetas nuevas por día** y la disciplina al redactarlas van juntos.
 
-Mantendría las cartas estrictas:
+Yo mantendría las tarjetas estrictas:
 
-- un hecho o concepto por tarjeta
+- un solo dato o concepto por tarjeta
 - respuestas cortas
-- sin frases decorativas
-- sin párrafos copiados gigantes
-- No pretendas que una tarjeta confusa se aclare de alguna manera durante la revisión.
+- nada de frases decorativas
+- nada de párrafos gigantes copiados
+- nada de confiar en que una tarjeta confusa ya se aclarará sola durante el repaso
 
-Si la plataforma está limpia, su límite sostenible aumenta.
+Si el mazo está limpio, tu límite sostenible sube.
 
-Si la plataforma está embarrada, incluso una pequeña ingesta diaria comienza a resultar desagradable.
+Si el mazo está embarrado, incluso una carga diaria pequeña empieza a resultar agresiva.
 
-## Lo que recomendaría para diferentes situaciones.
+## Lo que recomendaría en distintas situaciones
 
-Mantendría los valores predeterminados conservadores:
+Yo sería conservador con los valores iniciales:
 
 | Situación | Límite inicial |
 |---|---|
-| Agenda ocupada, tema difícil | 5 a 10 tarjetas nuevas por día |
-| Horario normal, calidad de tarjeta decente | 10 a 20 tarjetas nuevas por día |
-| Bloque de estudio dedicado, tarjetas simples, reseñas estables | 20 a 30 tarjetas nuevas por día |
+| Horario apretado, materia difícil | 5 a 10 tarjetas nuevas al día |
+| Horario normal, calidad decente de las tarjetas | 10 a 20 tarjetas nuevas al día |
+| Bloque de estudio dedicado, tarjetas simples, repasos estables | 20 a 30 tarjetas nuevas al día |
 
-Ese es un punto de partida, no un mandamiento.
+Es un punto de partida, no un mandamiento.
 
-Si constantemente terminas las revisiones con facilidad, aumenta el límite lentamente.
+Si completas los repasos con facilidad de forma constante, sube el límite poco a poco.
 
-Si estás acumulando cartas debidas, bájalas más rápido de lo que tu ego quiere.
+Si estás acumulando tarjetas pendientes, bájalo más rápido de lo que te pide el ego.
 
-## Esto es especialmente importante al pasar tarjetas de herramientas de inteligencia artificial a una revisión real
+## Esto importa todavía más al pasar tarjetas de herramientas de IA a un sistema de repaso real
 
-Muchos flujos de trabajo actuales ahora tienen este aspecto:
+Muchos flujos de trabajo actuales ya se parecen a esto:
 
-1. generar tarjetas de candidatos en NotebookLM o ChatGPT
-2. límpialos
-3. muévelos a una aplicación de repetición espaciada
+1. generar tarjetas candidatas en NotebookLM o ChatGPT
+2. limpiarlas
+3. pasarlas a una app de repetición espaciada
 
 Ese puente es útil.
 
-También crea la configuración perfecta para **quemar tarjetas flash** si no filtras agresivamente.
+También crea el escenario perfecto para acabar quemándote con las tarjetas si no filtras con criterio.
 
-No es necesario estudiar todas las cartas que la IA pueda imaginar.
+No necesitas estudiar todas las tarjetas que la IA sea capaz de imaginar.
 
-Necesitas la plataforma más pequeña que aún enseñe bien el material.
+Necesitas el mazo más pequeño que siga enseñando bien el material.
 
-Si estás creando cartas directamente a partir de indicaciones de la IA, esta pieza complementaria también encaja:
+Si estás creando tarjetas directamente a partir de prompts de IA, esta pieza complementaria también encaja:
 
-- [Cómo utilizar ChatGPT para crear tarjetas didácticas en 2026](https://flashcards-open-source-app.com/blog/how-to-use-chatgpt-to-make-flashcards/)
+- [Cómo usar ChatGPT para crear tarjetas didácticas en 2026](https://flashcards-open-source-app.com/blog/how-to-use-chatgpt-to-make-flashcards/)
 
-## Dónde se adapta mejor Flashcards a esto
+## Por qué Flashcards encaja mejor aquí
 
-[Flashcards](https://flashcards-open-source-app.com/) es una buena opción para este flujo de trabajo porque el producto cubre ambos lados del problema:
+[Flashcards](https://flashcards-open-source-app.com/) encaja bien en este flujo de trabajo porque el producto cubre ambos lados del problema:
 
-- Chat de IA para redactar a partir de notas, archivos PDF y otras fuentes
-- edición de tarjetas anverso/reverso antes de que las tarjetas se vuelvan permanentes
-- Revisión de FSRS después de que la plataforma esté limpia
-- Clientes sin conexión, por lo que las reseñas no dependen de que una pestaña del navegador se comporte correctamente
+- chat con IA para crear borradores a partir de apuntes, PDFs y otras fuentes
+- edición del anverso y reverso de las tarjetas antes de que se queden como definitivas
+- repaso con FSRS una vez que el mazo ya está limpio
+- clientes offline-first para que el repaso no dependa de que una pestaña del navegador se comporte bien
 
-Esa combinación es importante porque **cuántas tarjetas didácticas nuevas por día** no es solo una cuestión de programación. También es una cuestión de flujo de trabajo.
+Esa combinación importa porque **cuántas tarjetas nuevas al día** no es solo una cuestión de planificación. También es una cuestión de flujo de trabajo.
 
-Si crear tarjetas es fácil pero podarlas es molesto, seguirás construyendo demasiado.
+Si crear tarjetas es facilísimo pero podarlas da pereza, vas a seguir construyendo de más.
 
-Si editar es fácil y la revisión sigue siendo creíble, el límite diario será mucho más fácil de respetar.
+Si editar es fácil y el repaso sigue siendo asumible, el límite diario resulta mucho más fácil de respetar.
 
-## La mejor regla
+## La regla mejor
 
-No elijas un límite de cartas nuevas en función de lo ambicioso que te sientas mientras construyes el mazo.
+No elijas el límite de tarjetas nuevas según lo ambicioso que te sientas mientras construyes el mazo.
 
-Elíjalo según la carga de revisión que pueda soportar su vida normal.
+Elígelo según la carga de repaso que tu vida normal pueda sostener.
 
-Esa es la versión de **cuántas tarjetas al día** en la que confío en 2026: comience con menos de lo que desea su entusiasmo, mantenga las tarjetas limpias, observe honestamente la cola de entrega y aumente solo cuando el sistema todavía se sienta en calma.
+Esa es la versión de **cuántas tarjetas al día** en la que confío en 2026: empieza por debajo de lo que te pide la emoción del momento, mantén las tarjetas limpias, observa con honestidad la cola de pendientes y sube solo cuando el sistema siga sintiéndose tranquilo.
 
-Si ese es el flujo de trabajo que desea, [Flashcards](https://flashcards-open-source-app.com/) le brinda la configuración práctica: redactar a partir del material fuente, editar agresivamente y revisar con FSRS en lugar de dejar que una emocionante sesión de generación de tarjetas se convierta silenciosamente en un mes de trabajo pendiente.
+Si ese es el flujo de trabajo que buscas, [Flashcards](https://flashcards-open-source-app.com/) te da la configuración práctica: crear borradores desde el material fuente, editar con criterio y repasar con FSRS en lugar de dejar que una sesión entusiasmada de generación de tarjetas se convierta, sin darte cuenta, en un mes de retraso acumulado.

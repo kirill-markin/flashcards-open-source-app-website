@@ -1,29 +1,29 @@
 ---
-title: "Cómo dejar que Claude Code, Codex u OpenClaw inicien sesión en Flashcards por ti"
-description: "Flashcards expone un flujo de acceso para agentes, de código abierto, basado en una única URL de descubrimiento, un OTP por correo electrónico y una clave API de larga duración. Dale a tu agente un enlace, reenvíale el código de 8 dígitos y deja que termine por sí solo la configuración de la cuenta y del espacio de trabajo."
+title: "Cómo hacer que Claude Code, Codex u OpenClaw inicien sesión en Flashcards por ti"
+description: "Flashcards ofrece un flujo abierto de inicio de sesión para agentes basado en una sola URL de descubrimiento, un código OTP por correo electrónico y una clave API de larga duración. Dale ese enlace a tu agente, pásale el código de 8 dígitos y deja que complete por sí mismo la configuración de la cuenta y del espacio de trabajo."
 date: "2026-03-10"
 keywords:
-  - "login en claude code"
-  - "login en codex"
-  - "api otp por correo electrónico"
-  - "onboarding de agentes"
-  - "app flashcards open source"
-  - "autenticación api open source"
+  - "claude code flashcards"
+  - "codex flashcards"
+  - "otp por correo electrónico"
+  - "inicio de sesión para agentes"
+  - "flashcards open source"
+  - "autenticación api de código abierto"
 ---
 
-La mayoría de los flujos de inicio de sesión siguen dando por hecho que el humano hará a mano todo el trabajo de configuración.
+La mayoría de los flujos de inicio de sesión siguen partiendo de que la persona hará a mano todo el trabajo de configuración.
 
-Abre una página de inicio de sesión. Espera el código. Copia el token. Crea una clave API. Pégala en una herramienta. Explícale la documentación a tu agente. Repara la sesión cuando algo falle.
+Abre la página de inicio de sesión. Espera el código. Copia el token. Crea una clave API. Pégala en otra herramienta. Explícale la documentación a tu agente. Arregla la sesión si algo sale mal.
 
 Ese es exactamente el tipo de trabajo que una herramienta debería hacer por ti.
 
-En [Flashcards](https://flashcards-open-source-app.com/), ahora exponemos un flujo de acceso para agentes, de código abierto, que empieza desde una única URL de descubrimiento:
+En [Flashcards](https://flashcards-open-source-app.com/), ahora ofrecemos un flujo abierto de inicio de sesión para agentes que arranca desde una única URL de descubrimiento:
 
 `https://api.flashcards-open-source-app.com/v1/`
 
-Ese es el punto de entrada canónico. La misma carga de descubrimiento también está disponible en `https://api.flashcards-open-source-app.com/v1/agent`, pero el contrato actual empieza en `/v1/`.
+Ese es el punto de entrada canónico. La misma respuesta de descubrimiento también está disponible en `https://api.flashcards-open-source-app.com/v1/agent`, pero el contrato actual arranca en `/v1/`.
 
-Dale esa URL a Claude Code, Codex u OpenClaw. El agente puede inspeccionar el flujo, pedir el código del correo, verificarlo, guardar la clave API, cargar la cuenta y continuar por su cuenta con la configuración del espacio de trabajo.
+Dale esa URL a Claude Code, Codex u OpenClaw. El agente puede inspeccionar el flujo, pedir el código por correo, validarlo, guardar la clave API, cargar la cuenta y continuar por su cuenta con la preparación inicial del espacio de trabajo.
 
 La persona solo tiene que hacer dos cosas:
 
@@ -34,9 +34,9 @@ Ese es el objetivo.
 
 ## Un solo enlace basta
 
-El endpoint de descubrimiento devuelve en la misma respuesta la descripción del servicio, el modelo de autenticación, la primera acción y las instrucciones del siguiente paso.
+El endpoint de descubrimiento devuelve en una sola respuesta la descripción del servicio, el modelo de autenticación, la primera acción y las instrucciones del siguiente paso.
 
-Así que, en lugar de escribir un texto de incorporación distinto para cada herramienta, puedes limitarte a pasarle la URL al agente y dejar que siga las instrucciones que reciba.
+Así que, en vez de redactar unas instrucciones de puesta en marcha distintas para cada herramienta, puedes limitarte a darle la URL al agente y dejar que siga las instrucciones que reciba.
 
 ```text
 GET https://api.flashcards-open-source-app.com/v1/
@@ -45,27 +45,27 @@ GET https://api.flashcards-open-source-app.com/v1/
 A grandes rasgos, el agente aprende de inmediato cuatro cosas:
 
 - que este es el servicio de Flashcards
-- que tanto el inicio de sesión como el registro usan OTP por correo electrónico
+- que tanto el inicio de sesión como el registro usan un OTP enviado por correo electrónico
 - que una verificación correcta devuelve una clave API de larga duración
-- que, después de iniciar sesión, el siguiente paso es inicializar la cuenta y el espacio de trabajo
+- que, después de iniciar sesión, el siguiente paso es preparar la cuenta y el espacio de trabajo
 
-## Cómo es el flujo
+## Cómo funciona el flujo
 
 La secuencia es intencionadamente corta.
 
 1. El agente llama al endpoint de descubrimiento.
-2. El agente envía el correo del usuario a `send-code`.
-3. Flashcards manda por correo el código de 8 dígitos y devuelve un `otpSessionToken`.
+2. El agente envía el correo electrónico del usuario a `send-code`.
+3. Flashcards envía por correo el código de 8 dígitos y devuelve un `otpSessionToken`.
 4. El agente le pide al usuario ese código más reciente.
-5. El agente verifica el código y recibe una clave API de larga duración.
+5. El agente valida el código y recibe una clave API de larga duración.
 6. El agente llama a `/v1/agent/me` y `/v1/agent/workspaces`.
-7. El agente crea o selecciona el espacio de trabajo correcto y luego sigue con `/v1/agent/sql`.
+7. El agente crea o selecciona el espacio de trabajo correcto y luego continúa con `/v1/agent/sql`.
 
-Esto importa porque el agente no se queda en un simple "inicio de sesión correcto". Puede seguir con el resto del flujo de configuración y pasar a lecturas y escrituras reales.
+Esto importa porque el agente no se detiene en un simple "inicio de sesión completado". Puede seguir con el resto de la configuración y pasar a lecturas y escrituras reales.
 
 ## Ejemplo de prompt para Claude Code o Codex
 
-Esto basta.
+Esto es suficiente:
 
 Los siguientes prompts están en inglés a propósito, para que puedas copiarlos y pegarlos tal cual en la herramienta:
 
@@ -77,11 +77,11 @@ Log in to my Flashcards account, load account context, and select or create the 
 Ask me only for the latest 8-digit email code when the flow requires it.
 ```
 
-Después de eso, no necesitas explicar manualmente la secuencia de autenticación. El endpoint ya lo hace.
+Después de eso, no hace falta explicar manualmente la secuencia de autenticación. El endpoint ya lo hace.
 
 ## Ejemplo de prompt para OpenClaw
 
-La misma idea, un poco más explícita:
+La idea es la misma, con algo más de contexto:
 
 ```text
 Connect my Flashcards account using this URL:
@@ -99,7 +99,7 @@ Esta es la primera petición:
 curl https://api.flashcards-open-source-app.com/v1/
 ```
 
-Y la respuesta está diseñada para que los agentes de terminal puedan seguir el flujo sin tener que adivinar nada:
+Y la respuesta está estructurada para que los agentes que trabajan en terminal puedan seguir el flujo sin tener que adivinar nada:
 
 ```json
 {
@@ -136,9 +136,9 @@ Y la respuesta está diseñada para que los agentes de terminal puedan seguir el
 }
 ```
 
-## Ejemplo: enviar el código por correo
+## Ejemplo: solicitar el código por correo
 
-Una vez que el agente tiene el correo del usuario, empieza el paso del OTP:
+Una vez que el agente tiene el correo electrónico del usuario, arranca el paso de OTP:
 
 ```bash
 curl -X POST https://auth.flashcards-open-source-app.com/api/agent/send-code \
@@ -148,7 +148,7 @@ curl -X POST https://auth.flashcards-open-source-app.com/api/agent/send-code \
   }'
 ```
 
-El servidor envía el correo y devuelve una sesión de verificación de corta duración:
+El servidor envía el correo y devuelve una sesión de verificación temporal:
 
 ```json
 {
@@ -167,11 +167,11 @@ El servidor envía el correo y devuelve una sesión de verificación de corta du
 }
 ```
 
-En este punto, el agente solo se detiene el tiempo justo para pedirle al usuario el código más reciente de su bandeja de entrada.
+En este punto, el agente solo se detiene el tiempo imprescindible para pedirle al usuario el código más reciente de su bandeja de entrada.
 
-## Ejemplo: verificar el código y obtener la clave API
+## Ejemplo: validar el código y obtener la clave API
 
-Cuando el usuario reenvía el código del correo, el agente ya puede terminar el inicio de sesión:
+Cuando el usuario reenvía el código recibido por correo, el agente ya puede terminar el inicio de sesión:
 
 ```bash
 curl -X POST https://auth.flashcards-open-source-app.com/api/agent/verify-code \
@@ -207,7 +207,7 @@ Una verificación correcta devuelve una clave API de larga duración junto con l
 }
 ```
 
-Ese es el punto en el que el agente deja de pensar en la autenticación y pasa a usar la cuenta.
+Ese es el punto en el que el agente deja de centrarse en la autenticación y pasa a usar la cuenta.
 
 Guarda esa clave fuera de la memoria del chat en cuanto la recibas. La forma más limpia de hacerlo es exportarla una vez y dejar que tu agente la reutilice:
 
@@ -215,7 +215,7 @@ Guarda esa clave fuera de la memoria del chat en cuanto la recibas. La forma má
 export FLASHCARDS_OPEN_SOURCE_API_KEY="fca_ABCDEFGH_0123456789ABCDEFGHJKMNPQRS"
 ```
 
-## Ejemplo: cargar la cuenta y seguir con los espacios de trabajo
+## Ejemplo: cargar la cuenta y continuar con los espacios de trabajo
 
 La siguiente petición ya es una llamada autenticada normal a la API:
 
@@ -224,7 +224,7 @@ curl https://api.flashcards-open-source-app.com/v1/agent/me \
   -H "Authorization: ApiKey YOUR_API_KEY"
 ```
 
-La respuesta le indica al agente que siga con la inicialización del espacio de trabajo:
+La respuesta le indica al agente que continúe con la preparación inicial del espacio de trabajo:
 
 ```json
 {
@@ -254,13 +254,13 @@ A partir de ahí, el agente puede:
 - inspeccionar el contrato publicado en `/v1/agent/openapi.json`
 - usar `POST /v1/agent/sql` para lecturas, escrituras e introspección SQL
 
-Eso hace que el flujo de inicio de sesión sea útil en la práctica, no solo técnicamente correcto.
+Eso hace que el flujo de inicio de sesión resulte útil de verdad, y no solo técnicamente correcto.
 
-Los alias de la especificación raíz en `/v1/openapi.json` y `/v1/swagger.json` también existen, pero los enlaces de documentación específicos del agente apuntan intencionadamente a `/v1/agent/openapi.json` y `/v1/agent/swagger.json`.
+Los alias de la especificación raíz en `/v1/openapi.json` y `/v1/swagger.json` también existen, pero los enlaces de documentación específicos para agentes apuntan de forma intencionada a `/v1/agent/openapi.json` y `/v1/agent/swagger.json`.
 
-## Por qué esto es mejor que configurar una clave API a mano
+## Por qué esto es mejor que configurar manualmente una clave API
 
-El proceso habitual de incorporación a una API sigue siendo incómodo:
+El proceso habitual para empezar a usar una API sigue siendo incómodo:
 
 - iniciar sesión en el navegador
 - abrir ajustes
@@ -268,11 +268,11 @@ El proceso habitual de incorporación a una API sigue siendo incómodo:
 - copiarlo a otra herramienta
 - dejar la documentación abierta para que la herramienta sepa qué hacer después
 
-Este flujo elimina la mayor parte de todo eso.
+Este flujo elimina casi todo ese trabajo.
 
-El usuario demuestra su identidad mediante OTP por correo. El servicio emite una clave API de larga duración directamente al agente. Y el mismo formato de respuesta le sigue indicando al agente cuál es el siguiente paso.
+El usuario demuestra su identidad con un OTP por correo electrónico. El servicio entrega una clave API de larga duración directamente al agente. Y el mismo formato de respuesta le sigue indicando al agente cuál es el siguiente paso.
 
-Eso es más simple para el usuario y más fácil de automatizar.
+Eso es más sencillo para el usuario y más fácil de automatizar.
 
 ## Esto es código abierto
 
@@ -284,7 +284,7 @@ Flashcards es de código abierto, así que puedes inspeccionar el flujo entero e
 - Ruta `verify-code` del agente: [apps/auth/src/routes/agentVerifyCode.ts](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/apps/auth/src/routes/agentVerifyCode.ts)
 - Respuestas de arranque de cuenta y espacio de trabajo: [apps/backend/src/agentSetup.ts](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/apps/backend/src/agentSetup.ts)
 
-Si te interesa la autenticación de código abierto para APIs, el inicio de sesión con OTP por correo o el diseño de incorporación para agentes, esos son los archivos que merece la pena leer.
+Si te interesa la autenticación de APIs de código abierto, el inicio de sesión con OTP por correo o el diseño de flujos de acceso para agentes, esos son los archivos que merece la pena leer.
 
 ## Pruébalo
 
@@ -301,4 +301,4 @@ Enlaces útiles:
 - [Primeros pasos](https://flashcards-open-source-app.com/docs/getting-started/)
 - [Repositorio en GitHub](https://github.com/kirill-markin/flashcards-open-source-app)
 
-Si el producto es de código abierto y el flujo de autenticación es lo bastante acotado, "deja que lo gestione el agente" debería funcionar de verdad. Para eso existe este flujo.
+Si el producto es de código abierto y el flujo de autenticación está lo bastante acotado, "deja que lo gestione el agente" debería funcionar de verdad. Para eso existe este flujo.
