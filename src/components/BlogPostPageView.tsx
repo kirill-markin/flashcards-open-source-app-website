@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
+import { SiteFrame } from "@/components/SiteFrame";
 import {
   getRecommendedBlogPosts,
   readBlogPost,
@@ -41,14 +42,16 @@ export async function BlogPostPageView({
 
   if (post === null) {
     return (
-      <div className={styles.container}>
-        <section className={styles.intro}>
-          <h1 className={styles.title}>{uiCopy.blog.notFoundTitle}</h1>
-        </section>
-        <section className={styles.contentPanel}>
-          <p className={styles.empty}>{uiCopy.blog.notFoundDescription}</p>
-        </section>
-      </div>
+      <SiteFrame locale={locale} routePathname={`/blog/${slug}/`}>
+        <div className={styles.container}>
+          <section className={styles.intro}>
+            <h1 className={styles.title}>{uiCopy.blog.notFoundTitle}</h1>
+          </section>
+          <section className={styles.contentPanel}>
+            <p className={styles.empty}>{uiCopy.blog.notFoundDescription}</p>
+          </section>
+        </div>
+      </SiteFrame>
     );
   }
 
@@ -73,57 +76,59 @@ export async function BlogPostPageView({
   );
 
   return (
-    <article className={styles.container}>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
-      />
-      <section className={styles.intro}>
-        <Breadcrumbs
-          items={[
-            {
-              label: uiCopy.blog.breadcrumbLabel,
-              href: getLocalizedPathname(locale, "/blog/"),
-            },
-            {
-              label: post.title,
-              href: getLocalizedPathname(locale, `/blog/${slug}/`),
-            },
-          ]}
-          locale={locale}
+    <SiteFrame locale={locale} routePathname={`/blog/${slug}/`}>
+      <article className={styles.container}>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
         />
-        <time className={styles.date}>{post.date}</time>
-        <a href={AUTHOR_URL} className={styles.byline}>
-          {uiCopy.blog.byPrefix} {AUTHOR_NAME}
-        </a>
-        <h1 className={styles.title}>{post.title}</h1>
-      </section>
-      <section className={styles.contentPanel}>
-        <div
-          className={styles.content}
-          dangerouslySetInnerHTML={{ __html: localizedContentHtml }}
-        />
-      </section>
-      {recommendedPosts.length > 0 ? (
-        <section className={styles.relatedPanel}>
-          <h2 className={styles.relatedHeading}>{uiCopy.blog.readNextHeading}</h2>
-          <div className={styles.relatedList}>
-            {recommendedPosts.map((recommendedPost) => (
-              <Link
-                key={recommendedPost.slug}
-                href={getLocalizedPathname(locale, `/blog/${recommendedPost.slug}/`)}
-                className={styles.relatedCard}
-              >
-                <time className={styles.date}>{recommendedPost.date}</time>
-                <h3>{recommendedPost.title}</h3>
-                <p className={styles.relatedDescription}>
-                  {recommendedPost.description}
-                </p>
-              </Link>
-            ))}
-          </div>
+        <section className={styles.intro}>
+          <Breadcrumbs
+            items={[
+              {
+                label: uiCopy.blog.breadcrumbLabel,
+                href: getLocalizedPathname(locale, "/blog/"),
+              },
+              {
+                label: post.title,
+                href: getLocalizedPathname(locale, `/blog/${slug}/`),
+              },
+            ]}
+            locale={locale}
+          />
+          <time className={styles.date}>{post.date}</time>
+          <a href={AUTHOR_URL} className={styles.byline}>
+            {uiCopy.blog.byPrefix} {AUTHOR_NAME}
+          </a>
+          <h1 className={styles.title}>{post.title}</h1>
         </section>
-      ) : null}
-    </article>
+        <section className={styles.contentPanel}>
+          <div
+            className={styles.content}
+            dangerouslySetInnerHTML={{ __html: localizedContentHtml }}
+          />
+        </section>
+        {recommendedPosts.length > 0 ? (
+          <section className={styles.relatedPanel}>
+            <h2 className={styles.relatedHeading}>{uiCopy.blog.readNextHeading}</h2>
+            <div className={styles.relatedList}>
+              {recommendedPosts.map((recommendedPost) => (
+                <Link
+                  key={recommendedPost.slug}
+                  href={getLocalizedPathname(locale, `/blog/${recommendedPost.slug}/`)}
+                  className={styles.relatedCard}
+                >
+                  <time className={styles.date}>{recommendedPost.date}</time>
+                  <h3>{recommendedPost.title}</h3>
+                  <p className={styles.relatedDescription}>
+                    {recommendedPost.description}
+                  </p>
+                </Link>
+              ))}
+            </div>
+          </section>
+        ) : null}
+      </article>
+    </SiteFrame>
   );
 }

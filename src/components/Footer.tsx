@@ -9,9 +9,13 @@ import styles from "./Footer.module.css";
 
 interface FooterProps {
   readonly locale: AppLocale;
+  readonly routePathname: string;
 }
 
-export const Footer: React.FC<FooterProps> = ({ locale }) => {
+export const Footer: React.FC<FooterProps> = ({
+  locale,
+  routePathname,
+}) => {
   const year = new Date().getFullYear();
   const platforms = getHumanPlatforms(getAppUrl(), locale);
   const uiCopy = getUiCopy(locale);
@@ -124,7 +128,7 @@ export const Footer: React.FC<FooterProps> = ({ locale }) => {
             </div>
           </div>
           <div className={styles.localePicker}>
-            <LocaleSwitcher />
+            <LocaleSwitcher locale={locale} routePathname={routePathname} />
           </div>
         </div>
       </div>

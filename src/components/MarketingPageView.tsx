@@ -2,6 +2,7 @@ import Image from "next/image";
 import { AuthButton } from "@/components/AuthButton";
 import { CopyCodeField } from "@/components/CopyCodeField";
 import { HumanPlatformLinks } from "@/components/HumanPlatformLinks";
+import { SiteFrame } from "@/components/SiteFrame";
 import { renderMarkdownToHtml } from "@/lib/content/renderMarkdownToHtml";
 import { readPageContent } from "@/lib/content/readPageContent";
 import type {
@@ -22,6 +23,14 @@ import legalStyles from "@/app/privacy/page.module.css";
 interface MarketingPageViewProps {
   readonly locale: AppLocale;
   readonly slug: MarketingPageSlug;
+}
+
+function getMarketingRoutePathname(slug: MarketingPageSlug): string {
+  if (slug === "home") {
+    return "/";
+  }
+
+  return `/${slug}/`;
 }
 
 function getSectionByType<TSectionType extends PageSection["type"]>(
@@ -236,35 +245,48 @@ export async function MarketingPageView({
   slug,
 }: MarketingPageViewProps): Promise<React.JSX.Element> {
   const pageContent = readPageContent(slug, locale);
+  const routePathname = getMarketingRoutePathname(slug);
+
+  let page: React.JSX.Element;
 
   switch (slug) {
     case "home":
-      return renderHomePage(
+      page = renderHomePage(
         locale,
         getSectionByType(pageContent.sections, "hero"),
         getSectionByType(pageContent.sections, "feature_list")
       );
+      break;
     case "features":
-      return renderFeaturesPage(
+      page = renderFeaturesPage(
         pageContent.title,
         getSectionByType(pageContent.sections, "feature_list")
       );
+      break;
     case "pricing":
-      return renderPricingPage(
+      page = renderPricingPage(
         locale,
         pageContent.title,
         getSectionByType(pageContent.sections, "pricing_tiers")
       );
+      break;
     case "privacy":
     case "support":
     case "terms":
-      return renderLegalPage(
+      page = await renderLegalPage(
         locale,
         pageContent.title,
         pageContent.body,
         getSectionByType(pageContent.sections, "legal_page")
       );
+      break;
     default:
       throw new Error(`Unsupported marketing page slug: ${slug}`);
   }
+
+  return (
+    <SiteFrame locale={locale} routePathname={routePathname}>
+      {page}
+    </SiteFrame>
+  );
 }
