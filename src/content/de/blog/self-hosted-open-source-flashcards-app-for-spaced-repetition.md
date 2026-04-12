@@ -1,6 +1,6 @@
 ---
-title: "Self-Hosted Open Source Flashcards App für Spaced Repetition"
-description: "Du suchst eine Open-Source-Flashcards-App, die du selbst hosten kannst? Betreibe Spaced Repetition mit schneller Review-Warteschlange, passwortloser Authentifizierung und voller Kontrolle über deine Lerndaten."
+title: "Selbst gehostete Open-Source-Flashcards-App für Spaced Repetition"
+description: "Suchst du eine Open-Source-Flashcards-App, die du selbst betreiben kannst? Nutze Spaced Repetition mit einer schnellen Lernwarteschlange, passwortloser Anmeldung und voller Kontrolle über deine Lerndaten."
 date: "2026-03-08"
 keywords:
   - "open source flashcards app"
@@ -11,108 +11,108 @@ keywords:
   - "ai flashcards"
 ---
 
-Wenn du Anki neben Quizlet öffnest, ist der Trade-off in etwa dreißig Sekunden offensichtlich.
+Wenn du Anki neben Quizlet öffnest, wird der Unterschied in etwa dreißig Sekunden deutlich.
 
-Das eine fühlt sich wie alte Desktop-Software an, die 2012 nie wirklich verlassen hat. Das andere wie ein poliertes Subscription-Produkt, das zufällig auch Flashcards macht.
+Das eine fühlt sich wie alte Desktop-Software an, die nie wirklich über das Jahr 2012 hinausgekommen ist. Das andere wie ein sauber gestaltetes Abo-Produkt, das zufällig auch Karteikarten anbietet.
 
-Beim Arbeiten an [Flashcards](https://flashcards-open-source-app.com/) bin ich immer wieder auf genau diese Spaltung gestoßen. Die Idee von Spaced Repetition ist immer noch großartig. Die Produkte darum herum wirken festgefahren.
+Bei der Arbeit an [Flashcards](https://flashcards-open-source-app.com/) bin ich immer wieder genau auf diesen Gegensatz gestoßen. Die Idee hinter Spaced Repetition ist nach wie vor stark. Die Produkte drumherum wirken dagegen festgefahren.
 
-Das wäre leichter zu akzeptieren, wenn Software noch schwer auszuliefern wäre. Ist sie aber nicht.
+Das ließe sich eher hinnehmen, wenn Software heute noch schwer zu veröffentlichen wäre. Ist sie aber nicht.
 
-Kleine Teams können heute in einer Woche echte Produkte bauen. Wir können schnell shippen, KI an reale Workflows anschließen und von Tag eins saubere APIs bereitstellen. Flashcards-Software sollte nicht weiter zwischen klobiger Legacy-UX und geschlossenen Plattformen festhängen.
+Kleine Teams können inzwischen in einer Woche echte Produkte bauen. Wir können schnell veröffentlichen, KI in reale Abläufe einbinden und von Anfang an saubere APIs anbieten. Karteikarten-Software sollte nicht weiterhin zwischen schwerfälliger Altlasten-UX und geschlossenen Plattformen feststecken.
 
-Genau diese Lücke versucht [Flashcards](https://flashcards-open-source-app.com/) zu füllen: eine self-hosted Open-Source-Flashcards-App mit Spaced Repetition, modernem Web-Stack, Offline-first-Client-Support und KI als Teil der Produktrichtung statt als nachträglich angeklebtem Extra.
+Genau diese Lücke versucht [Flashcards](https://flashcards-open-source-app.com/) zu schließen: eine selbst gehostete Open-Source-Flashcards-App mit Spaced Repetition, modernem Web-Stack, Offline-First-Unterstützung für Clients und KI als Teil der Produktausrichtung statt als später angeklebtem Zusatz.
 
-## Anki funktioniert immer noch, fühlt sich aber alt an
+## Anki funktioniert noch, fühlt sich aber alt an
 
-Ich glaube nicht, dass das Problem bei Anki ein schlechter Algorithmus ist. Die Kernidee ist bewährt. Menschen nutzen es seit Jahren für Sprachen, Medizin, Prüfungen und allerlei Auswendiglern-Themen.
+Ich glaube nicht, dass Ankis Problem ein schlechter Algorithmus ist. Die Grundidee ist bewährt. Menschen nutzen das Programm seit Jahren für Sprachen, Medizin, Prüfungen und alle möglichen Lernbereiche, in denen man viel auswendig behalten muss.
 
 Das Problem ist, dass sich das Produkterlebnis immer noch alt anfühlt.
 
-Du kannst dich absolut dazu zwingen, damit zu leben. Viele tun es. Aber "es funktioniert, wenn man sich daran gewöhnt" ist 2026 kein besonders starkes Kompliment. Die Oberfläche wirkt eher wie ein Tool, das du erträgst, nicht wie eines, das du gern täglich öffnest.
+Natürlich kann man sich dazu bringen, damit zu leben. Viele tun das. Aber "es funktioniert, wenn man sich erst einmal daran gewöhnt hat" ist 2026 kein besonders starkes Kompliment. Die Oberfläche wirkt wie ein Werkzeug, das man eben hinnimmt, nicht wie eines, das man gern jeden Tag öffnet.
 
-Das ist wichtiger, als viele zugeben. Flashcards funktionieren nur, wenn du morgen wiederkommst, dann übermorgen und dann hundert Tage später. Reibung summiert sich.
+Das ist wichtiger, als viele zugeben. Karteikarten funktionieren nur, wenn du morgen wiederkommst, dann übermorgen und dann noch hundert Tage später. Reibung summiert sich.
 
-## Quizlet ist glatter, aber der Trade-off kippt in die andere Richtung
+## Quizlet ist glatter, aber dafür verschiebt sich der Nachteil
 
-Quizlet hat das Interface-Problem gelöst. Es sieht sauberer aus. Es fühlt sich eher wie ein modernes Consumer-Produkt an. Für viele macht das es allein schon attraktiver als Anki.
+Quizlet hat das Problem mit der Oberfläche gelöst. Es sieht aufgeräumter aus. Es fühlt sich eher wie ein modernes Produkt für Endnutzer an. Für viele reicht das schon, um es attraktiver zu finden als Anki.
 
-Dann stößt du auf die andere Wand.
+Dann stößt du aber auf die andere Grenze.
 
-Das Pricing ist schwer zu lieben für etwas so Grundlegendes wie Flashcards. Das Produkt ist geschlossen. Dein Lernsystem lebt in der Plattform eines anderen. Wenn sich Preis, Produktprioritäten oder Zugangsregeln ändern, passt du dich an. Nicht sie.
+Für etwas so Einfaches wie Karteikarten ist die Preisgestaltung wenig überzeugend. Das Produkt ist geschlossen. Dein Lernsystem lebt innerhalb der Plattform eines anderen Anbieters. Wenn sich Preise, Produktprioritäten oder Zugangsregeln ändern, musst du dich anpassen. Nicht der Anbieter.
 
-Für manche Kategorien ist das okay. Für persönliches Wissen überzeugt es mich nicht.
+Für manche Kategorien ist das in Ordnung. Bei persönlichem Wissen überzeugt mich das nicht.
 
-## Deine Karten sollten nicht in einem fremden Produkt gefangen sein
+## Deine Karten sollten nicht in einem fremden Produkt feststecken
 
-Flashcards sind kein Wegwerf-Content. Mit der Zeit werden sie zu einem Protokoll dessen, was du lernst, was du immer wieder vergisst und wie sich dein Denken verändert. Das sind wertvolle Daten.
+Karteikarten sind kein Wegwerfmaterial. Mit der Zeit werden sie zu einem Protokoll dessen, was du lernst, was du immer wieder vergisst und wie sich dein Denken verändert. Das sind wertvolle Daten.
 
-Ich mag die Vorstellung nicht, das in einer Black Box aufzubauen.
+Ich finde die Vorstellung nicht besonders reizvoll, so etwas in einer Blackbox aufzubauen.
 
-Mit einer self-hosted Flashcards-App verändert sich der Standard. Du kannst den Code prüfen. Du kannst den Stack selbst betreiben. Du kannst erst die gehostete Version nutzen und später umziehen. Du musst niemanden um Erlaubnis bitten, dein eigenes Lernsystem so zu verwenden, wie du willst.
+Mit einer selbst gehosteten Flashcards-App verschiebt sich der Ausgangspunkt. Du kannst den Code prüfen. Du kannst den gesamten Stack selbst betreiben. Du kannst zuerst die gehostete Version nutzen und später umziehen, wenn du willst. Du musst niemanden um Erlaubnis bitten, dein eigenes Lernsystem so zu verwenden, wie es für dich passt.
 
-Das ist heute noch wichtiger, weil KI Lock-in schmerzhafter macht. Sobald dein Datenmodell offen ist und das Produkt echte Operationen offenlegt, kann KI tatsächlich mit deinen Karten arbeiten. In geschlossenen Produkten bleibt die KI-Schicht oft oberflächlich, weil auch das Produkt nur oberflächlich offenliegt.
+Das ist heute noch wichtiger, weil KI Abhängigkeiten von Plattformen schmerzhafter macht. Sobald dein Datenmodell offen ist und das Produkt echte Operationen anbietet, kann KI tatsächlich mit deinen Karten arbeiten. In geschlossenen Produkten bleibt die KI-Ebene oft oberflächlich, weil auch das Produkt selbst nur sehr eingeschränkt zugänglich ist.
 
-## Die meisten KI-Flashcards-Features sind immer noch ziemlich schwach
+## Die meisten KI-Funktionen für Karteikarten sind noch ziemlich schwach
 
-Derzeit machen viele "AI flashcards"-Produkte genau einen Trick. Du fügst Text ein, sie generieren ein paar Karten, und damit ist die Magie vorbei.
+Im Moment beherrschen viele Produkte für "AI flashcards" genau einen Trick. Du fügst etwas Text ein, sie erzeugen ein paar Karten, und damit ist die Magie vorbei.
 
 Das ist nicht der interessante Teil.
 
-Der interessante Teil ist, KI im echten Produkt arbeiten zu lassen.
+Interessant wird es, wenn KI innerhalb des echten Produkts arbeiten kann.
 
-In [Flashcards](https://flashcards-open-source-app.com/) hat die aktuelle Web-App bereits KI-Chat, der mit dem echten Workspace verbunden ist. Die breitere Architektur stellt außerdem eine separate externe Agent-Oberfläche für Terminal-Tools bereit, während der iOS-Client seinen eigenen Offline-first-Sync-Flow behält.
+In [Flashcards](https://flashcards-open-source-app.com/) ist der aktuelle Web-Client schon heute mit einem KI-Chat ausgestattet, der an den tatsächlichen Workspace angebunden ist. Die übergreifende Architektur stellt zusätzlich eine separate externe Agentenoberfläche für Terminal-Tools bereit, während der iOS-Client seinen eigenen Offline-First-Synchronisierungsablauf behält.
 
-Das ist eine viel stärkere Richtung als "generiere 20 Karten aus diesem Absatz" und nenne es Strategie.
+Das ist eine deutlich stärkere Richtung als "Erzeuge 20 Karten aus diesem Absatz" und damit hat es sich.
 
-Es bedeutet, dass KI bei den langweiligen Teilen helfen kann, ohne zum Spielzeug zu werden:
+So kann KI bei den langweiligen Teilen helfen, ohne zum Spielzeug zu werden:
 
 - prüfen, ob ein Konzept schon existiert, bevor eine doppelte Karte angelegt wird
-- zeigen, was jetzt fällig ist, statt losgelösten Content zu erfinden
-- die Formulierung schwacher Karten bereinigen
-- ein Deck über die Zeit pflegen, nicht nur einmal generieren
+- zeigen, was gerade fällig ist, statt losgelöste Inhalte zu erfinden
+- die Formulierung schwacher Karten verbessern
+- ein Deck langfristig pflegen, statt es nur einmal zu erzeugen
 
-Genau das sollte "AI-first" hier bedeuten. Kein Chatbot, der an eine geschlossene App geschraubt wurde. Sondern ein Produkt, in dem die echten Objekte und Aktionen kontrolliert für KI zugänglich sind.
+Genau das sollte "AI-first" hier bedeuten. Kein Chatbot, der nachträglich an eine geschlossene App geschraubt wurde, sondern ein Produkt, in dem echte Objekte und Aktionen kontrolliert für KI zugänglich sind.
 
-## Das Produkt sollte modern sein, bevor KI überhaupt auftaucht
+## Das Produkt sollte schon vor dem KI-Teil modern sein
 
 Auch ohne KI wollte ich, dass sich das Grundprodukt vernünftig anfühlt.
 
-Das bedeutet eine klare Review-Warteschlange, Kartenerstellung aus dem Web-Client, Spaced Repetition im Backend, passwortlose Auth statt eines weiteren Passwort-Friedhofs und einen dokumentierten Self-Hosting-Pfad für Menschen, denen Eigentum am Stack wichtig ist.
+Dazu gehören eine klare Lernwarteschlange, das Erstellen von Karten im Web-Client, Spaced Repetition im Backend, passwortlose Anmeldung statt eines weiteren Passwortfriedhofs und ein dokumentierter Weg zum Self-Hosting für Menschen, die ihren Stack selbst besitzen wollen.
 
 Das Projekt hat diese Grundlage bereits:
 
-- eine gehostete Web-App, die du jetzt nutzen kannst
-- eine iOS-App im Repository mit lokalem SQLite und Sync
-- einen Review-Flow rund um fällige Karten und FSRS
+- eine gehostete Web-App, die du schon jetzt nutzen kannst
+- eine iOS-App im Repository mit lokalem SQLite und Synchronisierung
+- einen Lernablauf rund um fällige Karten und FSRS
 - Open-Source-Code auf GitHub
 - eine dokumentierte externe Agent-API
-- passwortlose Authentifizierung
-- eine [Self-Hosting-Leitfaden](https://flashcards-open-source-app.com/docs/self-hosting/)
-- [Architektur](https://flashcards-open-source-app.com/docs/architecture/)
+- passwortlose Anmeldung
+- einen [Self-Hosting-Leitfaden](https://flashcards-open-source-app.com/docs/self-hosting/)
+- [Architekturdokumentation](https://flashcards-open-source-app.com/docs/architecture/)
 
-Das Produkt ist noch früh, und ich tue auch nicht so, als wäre es anders. Aber es ist bereits mehr als ein Browser-only-Prototyp: Das Repository liefert die gehostete Web-App, den iOS-Client, den Auth-Service, die Backend-API und den aktuellen Sync-Pfad. Ich würde lieber etwas Frühes und Ehrliches nutzen als etwas Poliertes und Eingesperrtes.
+Das Produkt steckt noch in einer frühen Phase, und ich behaupte nichts anderes. Aber es ist bereits mehr als ein reiner Browser-Prototyp: Das Repository enthält die gehostete Web-App, den iOS-Client, den Auth-Dienst, die Backend-API und den aktuellen Synchronisierungsweg. Ich würde lieber etwas Frühes und Ehrliches nutzen als etwas Hochglanzpoliertes, das mich einsperrt.
 
-## Genau diese Art Produkt sollten wir heute bauen
+## Genau solche Produkte sollten wir heute bauen
 
-Das Seltsame ist nicht, dass eine neue Anki-Alternative existiert. Das Seltsame ist, dass es nicht längst mehr davon gibt.
+Das Merkwürdige ist nicht, dass es eine neue Anki-Alternative gibt. Das Merkwürdige ist, dass es davon nicht längst mehr gibt.
 
-Wir können Produkte schneller bauen als je zuvor. Wir können sie klein halten. Wir können Open Source shippen. Wir können KI mit echten Produktaktionen verbinden statt mit Demo-Magie. Wir können Nutzern eine gehostete Option geben, ohne sie dauerhaft davon abhängig zu machen.
+Wir können Produkte schneller bauen als je zuvor. Wir können sie klein halten. Wir können Open Source veröffentlichen. Wir können KI mit echten Produktaktionen verbinden statt mit reiner Demo-Magie. Wir können Nutzerinnen und Nutzern eine gehostete Option geben, ohne sie dauerhaft davon abhängig zu machen.
 
-Flashcards passen perfekt in diese Welt. Das Problemfeld ist simpel. Der Wert ist offensichtlich. Die Daten sind persönlich. Der Workflow wird besser, wenn KI mit echten Karten und echtem Review-Zustand arbeiten kann. Diese Kategorie sollte eine der einfachsten sein, um sie zu modernisieren.
+Karteikarten passen perfekt in diese Welt. Der Bereich ist überschaubar. Der Nutzen ist offensichtlich. Die Daten sind persönlich. Der Ablauf wird besser, wenn KI mit echten Karten und echtem Wiederholungsstatus arbeiten kann. Diese Kategorie sollte zu den einfachsten gehören, die man modernisieren kann.
 
-Darum ist genau das die Wette hinter [Flashcards](https://flashcards-open-source-app.com/): Open Source, self-hosted, wenn du willst, Spaced Repetition im Kern und KI als Teil des echten Produktmodells.
+Darauf setzt [Flashcards](https://flashcards-open-source-app.com/): Open Source, auf Wunsch selbst gehostet, Spaced Repetition im Kern und KI als Teil des echten Produktmodells.
 
-Nicht, weil "AI-first" auf einer Landingpage gut klingt. Sondern weil diese Kategorie endlich die Werkzeuge hat, um ein besseres Produkt zu verdienen.
+Nicht, weil "AI-first" auf einer Landingpage gut klingt. Sondern weil diese Kategorie inzwischen endlich die Werkzeuge hat, um ein besseres Produkt zu verdienen.
 
 ## Probier es aus oder hoste es selbst
 
-Wenn du eine Open-Source-Flashcards-App mit Spaced Repetition, Self-Hosted-Pfad und Raum für echte KI-Workflows willst, starte hier:
+Wenn du eine Open-Source-Flashcards-App mit Spaced Repetition, einem Weg zum Self-Hosting und Raum für echte KI-Abläufe suchst, fang hier an:
 
 - [Die gehostete App öffnen](https://app.flashcards-open-source-app.com/)
-- [Erste Schritte](https://flashcards-open-source-app.com/docs/getting-started/)
-- [Den Sourcecode auf GitHub ansehen](https://github.com/kirill-markin/flashcards-open-source-app)
+- [Den Einstieg lesen](https://flashcards-open-source-app.com/docs/getting-started/)
+- [Den Quellcode auf GitHub ansehen](https://github.com/kirill-markin/flashcards-open-source-app)
 
-Flashcards sollten sich wie moderne Software anfühlen. Nicht wie Legacy-Lernsoftware mit hübscherer Landingpage. Nicht wie ein geschlossenes Abo mit angehängtem Flashcards-Feature.
+Flashcards sollten sich wie moderne Software anfühlen. Nicht wie alte Lernsoftware mit hübscherer Landingpage. Und nicht wie ein geschlossenes Abo, an das noch eine Karteikarten-Funktion angehängt wurde.
 
-Open Source, Eigentum an den eigenen Daten und KI, die auf dem echten Produkt arbeiten kann, sind eine bessere Richtung. Ich glaube, diese Kategorie wartet seit Jahren darauf.
+Open Source, Kontrolle über die eigenen Daten und KI, die mit dem echten Produkt arbeiten kann, sind die bessere Richtung. Ich glaube, auf genau so etwas wartet diese Kategorie schon seit Jahren.

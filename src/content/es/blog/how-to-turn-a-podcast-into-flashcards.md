@@ -18,61 +18,61 @@ keywords:
   - estudiar podcasts con tarjetas didácticas
   - transcripción a tarjetas didácticas
 ---
-Ayer rebobiné tres veces el mismo tramo de ocho minutos de un podcast porque quien lo presentaba explicó una idea lo bastante bien como para que pareciera importante y con la suficiente vaguedad como para que fuera imposible recordarla con claridad. Para la tercera repetición había aprendido un concepto útil y ya tenía una pequeña enemistad personal con el botón de retroceso.
+Ayer rebobiné tres veces el mismo tramo de ocho minutos de un podcast porque la persona que lo llevaba explicó una idea lo bastante bien como para parecer importante, pero con la suficiente vaguedad como para que fuera imposible recordarla con claridad. A la tercera escucha había aprendido un concepto útil y ya le había cogido cierta manía al botón de retroceso.
 
-Normalmente, ese es el momento en que la gente empieza a buscar **cómo convertir un podcast en tarjetas didácticas**.
+Ese suele ser el momento en que mucha gente termina buscando **cómo convertir un podcast en tarjetas didácticas**.
 
-No porque los podcasts sean malos para aprender. Al contrario: son buenísimos para exponerte a ideas, ver ejemplos y mantener la motivación. El problema es que el audio es un formato resbaladizo para guardar información. Es fácil disfrutarlo, fácil volver a ponerlo y sorprendentemente difícil convertirlo en algo que puedas recordar de forma fiable la semana siguiente.
+No porque los podcasts sean malos para aprender. Al contrario: son muy buenos para exponerte a ideas, darte ejemplos y mantener la motivación. El problema es que el audio es un formato escurridizo para guardar información. Es fácil disfrutarlo, fácil volver a reproducirlo y sorprendentemente difícil convertirlo en algo que puedas recordar con fiabilidad la semana siguiente.
 
 ## Los podcasts son buenos para entender y malos para recuperar información
 
-Ese es todo el problema.
+Ese es, en el fondo, todo el problema.
 
 Un buen episodio te da:
 
 - una explicación memorable
 - ejemplos útiles
-- una forma de decirlo que se te queda
+- frases potentes
 - contexto para que el tema encaje
 
-Pero, si intentas estudiar a partir del episodio en sí, te comes todo lo incómodo del audio:
+Pero si intentas estudiar a partir del episodio tal cual, te quedas con todo lo incómodo del audio:
 
 - es lento de revisar
-- los mejores momentos quedan enterrados entre mucho contexto previo
-- una sola idea puede quedar repartida a lo largo de seis minutos
-- el punto exacto que necesitas nunca está donde crees que estaba
+- los mejores momentos quedan escondidos entre largos tramos de introducción
+- una sola idea puede desarrollarse a lo largo de seis minutos
+- el punto exacto que necesitas nunca está donde crees
 
 Por eso, **cómo convertir un podcast en tarjetas didácticas** es primero un problema de transcripción y después un problema de tarjetas.
 
 ## Primero la transcripción. Volver a escucharlo, solo si hace falta.
 
-Yo no crearía tarjetas directamente a partir del episodio en bruto.
+Yo no haría tarjetas directamente a partir del episodio en bruto.
 
 Haría esto:
 
 1. conseguir la transcripción
-2. quitar la paja conversacional
-3. dividir las partes útiles en bloques pequeños, cada uno centrado en una sola idea
-4. redactar tarjetas a partir de esos bloques
-5. repasar las que sobrevivan con FSRS
+2. recortar la paja conversacional
+3. dividir las partes útiles en fragmentos pequeños, cada uno centrado en una sola idea
+4. redactar tarjetas a partir de esos fragmentos
+5. repasar las que merezcan la pena con FSRS
 
 Ese es el flujo de trabajo en el que confío.
 
-Un proceso de **transcripción de podcast a tarjetas didácticas** funciona porque el texto te devuelve el control. Puedes hojearlo, cortarlo, comparar secciones y borrar las partes aburridas sin ir arrastrando una barra de progreso como si estuvieras intentando abrir una caja fuerte.
+Un proceso de **transcripción de podcast a tarjetas didácticas** funciona porque el texto te devuelve el control. Puedes hojearlo, recortarlo, comparar secciones y borrar las partes aburridas sin tener que arrastrar una barra de progreso como si estuvieras intentando abrir una caja fuerte.
 
 ## Las mejores tarjetas de un podcast suelen salir de cuatro tipos de momentos
 
-No toda frase potente merece una tarjeta.
+No toda frase brillante merece una tarjeta.
 
-Los momentos de podcast en los que más confío son estos:
+Los momentos de un podcast en los que más confío son estos:
 
 ### 1. Definiciones claras
 
-Si quien presenta el episodio por fin explica un término en lenguaje sencillo, eso puede convertirse en una muy buena tarjeta.
+Si quien presenta el episodio por fin explica un término en lenguaje sencillo, de ahí puede salir una muy buena tarjeta.
 
 ### 2. Esquemas con pocas partes
 
-Los modelos de tres pasos, las comparaciones cortas y los patrones con nombre suelen sobrevivir bien al salto.
+Los modelos de tres pasos, las comparaciones breves y los patrones con nombre suelen sobrevivir bien al cambio de formato.
 
 ### 3. Explicaciones de causa y efecto
 
@@ -80,50 +80,50 @@ Si el episodio explica por qué una cosa lleva a otra, eso suele dar una tarjeta
 
 ### 4. Ideas o afirmaciones que quieras reutilizar más adelante
 
-Esto sirve para podcasts profesionales, podcasts de idiomas, entrevistas y programas técnicos. Si quieres poder explicar esa idea en una conversación más tarde, muchas veces merece una tarjeta.
+Esto resulta útil en podcasts profesionales, podcasts de idiomas, entrevistas y programas técnicos. Si quieres ser capaz de explicar esa idea en una conversación más adelante, a menudo merece una tarjeta.
 
-Esa es la versión real de **estudiar podcasts con tarjetas didácticas** que me resulta creíble. No intentas conservar el episodio entero. Te quedas con las partes que sí merecen práctica de recuperación.
+Esa es la versión real de **estudiar podcasts con tarjetas didácticas** que me parece convincente. No intentas conservar el episodio entero. Te quedas con las partes que sí merecen práctica de recuerdo.
 
 ## La mayoría de los episodios necesitan limpieza antes de merecer tarjetas
 
-Aquí es donde el proceso mejora muy rápido.
+Aquí es donde el proceso mejora muy deprisa.
 
-Una transcripción sigue siendo una entrada ruidosa.
+Una transcripción sigue siendo material ruidoso.
 
-Normalmente contiene:
+Suele contener:
 
 - introducciones y mensajes de patrocinadores
-- bromas que funcionaban en audio pero no ponen a prueba nada
+- bromas que funcionaban en audio pero no te ayudan a recordar nada
 - frases repetidas
-- historias laterales que ayudaban a seguir el episodio pero no a recordarlo
-- desvíos conversacionales que no merecen tiempo de repaso
+- historias secundarias que ayudaban a seguir el episodio pero no a recordarlo
+- rodeos conversacionales que no merecen tiempo de repaso
 
-Si te saltas esta limpieza, el mazo generado suele dar la sensación de estar hecho a base de intuición vaga.
+Si te saltas esta limpieza, el mazo generado suele dar la impresión de estar construido más por intuición que por criterio.
 
 Yo me quedaría con:
 
 - definiciones
 - distinciones
 - esquemas breves
-- ejemplos que facilitan recordar un concepto
-- lenguaje que quieras ser capaz de producir más adelante
+- ejemplos que hacen un concepto más fácil de recordar
+- lenguaje que quieras poder reproducir más adelante
 
-Y tiraría bastante sin ningún remordimiento.
+Y descartaría bastante sin el menor remordimiento.
 
 ## Un episodio no debería convertirse en un mazo gigante
 
-Ese es el error que vuelve molestos muchos flujos de trabajo de **audio a tarjetas didácticas**.
+Ese es el error que hace pesados muchos flujos de trabajo de **audio a tarjetas didácticas**.
 
-La gente consigue la transcripción, mete el episodio entero en una IA y pide veinte o treinta tarjetas porque eso suena eficiente.
+La gente consigue la transcripción, mete el episodio entero en una IA y pide veinte o treinta tarjetas porque suena eficiente.
 
 Normalmente el resultado es:
 
 - demasiado amplio
 - demasiado repetitivo
 - demasiado generoso con ideas flojas
-- lleno de tarjetas que suenan pulidas pero se repasan mal
+- lleno de tarjetas que suenan bien, pero funcionan mal al repasarlas
 
-Prefiero convertir un buen episodio en seis tarjetas que respeto antes que en treinta tarjetas que empiezo a esquivar el jueves.
+Prefiero sacar seis tarjetas realmente buenas de un episodio que treinta tarjetas que empiezo a esquivar a los pocos días.
 
 Es más fácil confiar en lotes pequeños.
 
@@ -133,7 +133,7 @@ Y también es más fácil terminarlos.
 
 El lenguaje de los podcasts está hecho para escucharse. Las tarjetas didácticas están hechas para recordar.
 
-Eso significa que la tarjeta, por lo general, debe quedar más limpia que la frase original.
+Eso significa que la tarjeta, por lo general, debería ser más limpia que la frase original.
 
 Si quien presenta el episodio dice algo como:
 
@@ -178,7 +178,7 @@ Usa tarjetas para:
 - esquemas
 - argumentos
 - reglas de decisión
-- afirmaciones memorables que merezca la pena reutilizar
+- afirmaciones memorables que valga la pena reutilizar
 
 ### Podcasts de idiomas
 
@@ -187,11 +187,11 @@ Usa tarjetas para:
 - frases útiles
 - vocabulario en contexto
 - patrones gramaticales
-- notas de pronunciación solo cuando puedan representarse claramente por escrito
+- notas de pronunciación solo cuando puedan representarse con claridad por escrito
 
-Por eso **notas de podcast a tarjetas didácticas** no es una fórmula fija. La fuente cambia qué tipo de recuerdo merece la pena evaluar.
+Por eso **notas de podcast a tarjetas didácticas** no es una fórmula fija. La fuente cambia qué tipo de recuerdo merece la pena poner a prueba.
 
-Si la fuente se parece más a práctica de idiomas que a aprendizaje general, este artículo complementario encaja mejor:
+Si la fuente se parece más a la práctica de idiomas que al aprendizaje general, este artículo complementario encaja mejor:
 
 - [Cómo utilizar tarjetas didácticas para el aprendizaje de idiomas en 2026](https://flashcards-open-source-app.com/blog/how-to-use-flashcards-for-language-learning/)
 
@@ -206,21 +206,21 @@ Cuando la parte útil del episodio ya existe como texto y luego como tarjetas, d
 - tomar notas vagas como "gran idea sobre el minuto 34"
 - confiar en que la familiaridad pasiva se convierta sola en memoria
 
-La transcripción elimina la búsqueda.
+La transcripción elimina la búsqueda a ciegas.
 
-Las tarjetas eliminan la necesidad de seguir abriendo el episodio por la misma idea una y otra vez.
+Las tarjetas eliminan la necesidad de seguir abriendo el episodio para rescatar la misma idea una y otra vez.
 
 ## FSRS es lo que hace que este flujo de trabajo funcione de verdad
 
 Esta parte importa más que el paso de extracción.
 
-Si las tarjetas son decentes pero el calendario de repaso es malo, el mazo sigue volviéndose irritante.
+Si las tarjetas son decentes, pero el momento de repaso está mal resuelto, el mazo sigue volviéndose irritante.
 
-Si las tarjetas son decentes y el calendario de repaso es bueno, el podcast por fin se convierte en algo duradero.
+Si las tarjetas son decentes y el momento de repaso es bueno, el podcast por fin se convierte en algo duradero.
 
-Por eso **transcripción a tarjetas didácticas** funciona mucho mejor con FSRS. Algunas ideas de un episodio se quedan después de una sola pasada. Otras necesitan volver dos veces. Otras parecían obvias cuando las oíste y desaparecen al día siguiente.
+Por eso **transcripción a tarjetas didácticas** funciona mucho mejor con FSRS. Algunas ideas de un episodio se quedan después de una sola pasada. Otras necesitan volver dos veces. Otras parecían obvias mientras las escuchabas y desaparecen al día siguiente.
 
-FSRS gestiona esa pérdida desigual mucho mejor que un ritmo fijo de repaso.
+FSRS gestiona ese olvido desigual mucho mejor que un ritmo fijo de repaso.
 
 Si quieres profundizar más en la parte de la programación, este artículo entra en más detalle:
 
@@ -228,15 +228,15 @@ Si quieres profundizar más en la parte de la programación, este artículo entr
 
 ## Dónde encaja Flashcards Open Source App
 
-[Flashcards Open Source App](https://flashcards-open-source-app.com/) encaja muy bien en **podcast a tarjetas didácticas** porque el producto ya cubre los pasos prácticos que vuelven utilizable este flujo de trabajo:
+[Flashcards Open Source App](https://flashcards-open-source-app.com/) encaja muy bien en **podcast a tarjetas didácticas** porque el producto ya cubre los pasos prácticos que hacen utilizable este flujo de trabajo:
 
 - pegar o subir texto sin formato procedente de transcripciones de podcasts
 - limpiar el material dentro del chat de IA antes de crear tarjetas
-- crear tarjetas simples de anverso y reverso a partir de la transcripción en lugar de guardar citas en bruto
-- repasar con FSRS después del borrador
-- seguir estudiando sin conexión, primero en web, iPhone y Android
+- crear tarjetas sencillas de anverso y reverso a partir de la transcripción en lugar de guardar citas en bruto
+- repasar con FSRS después de redactarlas
+- seguir estudiando sin conexión en web, iPhone y Android
 
-Esa combinación importa porque lo difícil no es encontrar audio. Lo difícil es convertir un buen episodio en un mazo pequeño que sigas respetando después de una semana de repasos reales.
+Esa combinación importa porque lo difícil no es encontrar audio. Lo difícil es convertir un buen episodio en un mazo pequeño que siga pareciéndote valioso después de una semana de repasos reales.
 
 Si la fuente se parece más a clases grabadas o a YouTube que a podcasts, estos artículos complementarios también encajan:
 
@@ -249,11 +249,11 @@ Los podcasts son excelentes para entender.
 
 Las tarjetas didácticas son excelentes para recordar.
 
-El truco no consiste en obligar al podcast a hacer ambos trabajos.
+El truco no consiste en obligar al podcast a hacer los dos trabajos.
 
-Coge la transcripción.
+Quédate con la transcripción.
 
-Quédate con las partes que merece la pena recordar.
+Conserva las partes que merezca la pena recordar.
 
 Conviértelas en tarjetas pequeñas.
 
