@@ -1,6 +1,6 @@
 ---
-title: "如何把 Flashcards 登录交给 Claude Code、Codex 或 OpenClaw"
-description: "Flashcards 提供一个面向代理的开源登录流程，从一个 discovery URL、email OTP 和 long-lived API key 开始。把一个 URL 交给 agent，再把最新的 8-digit email code 发给它，它就能完成 account 和 workspace setup。"
+title: "如何让 Claude Code、Codex 或 OpenClaw 替你登录 Flashcards"
+description: "Flashcards 提供了一个开源的代理登录流程，核心只围绕一个 discovery URL、邮箱 OTP 和长期有效的 API key。把一个链接交给代理，再把邮件里的最新 8 位验证码发给它，它就能自己完成账户和工作区设置。"
 date: "2026-03-10"
 keywords:
   - "claude code login"
@@ -8,63 +8,64 @@ keywords:
   - "email otp api"
   - "agent onboarding"
   - "open source flashcards app"
+  - "open source api authentication"
 ---
 
-大多数 login flows 仍然假设所有 setup steps 都要由人手工完成。
+大多数登录流程到现在仍然默认：所有初始化工作都得由人手动完成。
 
-打开 login page，等待 code，复制 key，创建 API key，把它粘贴到另一款 tool 里，再向 agent 解释 docs，最后在 session 出问题时继续排查。
+打开登录页。等验证码。复制令牌。创建 API key。把它粘贴进另一个工具。再把文档解释给代理听。出了问题还要自己修会话。
 
-这些正是工具应该替你做掉的工作。
+这正是工具本来就应该替你做掉的事。
 
-在 [Flashcards](https://flashcards-open-source-app.com/) 中，我们现在提供一个面向 agents 的 open-source login flow，它从一个 discovery URL 开始：
+在 [Flashcards](https://flashcards-open-source-app.com/) 里，我们现在提供了一个开源的代理登录流程，它从一个 discovery URL 开始：
 
 `https://api.flashcards-open-source-app.com/v1/`
 
-这就是 primary entry point。相同 payload 也可以通过 `https://api.flashcards-open-source-app.com/v1/agent` 获取，但 current contract 是从 `/v1/` 开始的。
+这就是规范的标准入口。相同的 discovery payload 也能通过 `https://api.flashcards-open-source-app.com/v1/agent` 获取，但当前约定是从 `/v1/` 开始。
 
-把这个 URL 给 Claude Code、Codex 或 OpenClaw。Agent 可以自己检查 flow、请求 email code、完成 verification、保存 API key、加载 account，并自行完成 workspace setup。
+把这个 URL 交给 Claude Code、Codex 或 OpenClaw。代理就可以自己检查流程、请求邮件验证码、完成校验、保存 API key、加载账户信息，并继续完成工作区设置。
 
 人类只需要做两件事：
 
-- 提供 email address
-- 发送最新的 8-digit email code
+- 提供邮箱地址
+- 把邮件里最新的 8 位验证码发回给代理
 
-就这些。
+重点就在这里。
 
-## 一个 URL 就够了
+## 一个链接就够了
 
-Discovery endpoint 会在同一个 response 中返回 service description、auth model、first action 和 next-step instructions。
+discovery 接口会在同一个响应里返回服务说明、认证模型、第一步动作，以及后续步骤的指引。
 
-你不必为每个 tool 单独写 setup prompt，只要把这个 URL 给 agent，让它遵循 returned instructions 即可。
+所以你不需要再为每个工具单独写一套接入说明。只要把这个 URL 给代理，让它按返回的说明继续往下走就行。
 
 ```text
 GET https://api.flashcards-open-source-app.com/v1/
 ```
 
-从高层看，agent 会立即知道：
+从高层看，代理会立刻知道四件事：
 
-- 这是 Flashcards service
-- login 和 signup 使用 email OTP
-- successful verification 会返回 long-lived API key
-- login 之后的下一步是 account 与 workspace bootstrap
+- 这是 Flashcards 服务
+- 登录和注册都使用邮箱 OTP
+- 验证成功后会返回一个长期有效的 API key
+- 登录之后的下一步是账户与工作区初始化
 
-## Flow 是什么样的
+## 这个流程长什么样
 
-这个 sequence 被故意设计得很小：
+整个顺序被刻意做得很小。
 
-1. Agent 调用 discovery endpoint。
-2. Agent 把 user email 发送到 `send-code`。
-3. Flashcards 发送 8-digit code，并返回 `otpSessionToken`。
-4. Agent 向 user 请求最新 code。
-5. Agent 校验 code 并拿到 long-lived API key。
-6. 调用 `/v1/agent/me` 和 `/v1/agent/workspaces`。
-7. 创建或选择正确的 workspace，然后继续使用 `/v1/agent/sql`。
+1. 代理调用 discovery 接口。
+2. 代理把用户邮箱发送到 `send-code`。
+3. Flashcards 把 8 位验证码发到邮箱，并返回 `otpSessionToken`。
+4. 代理向用户请求这次最新的验证码。
+5. 代理校验验证码，并拿到长期有效的 API key。
+6. 代理调用 `/v1/agent/me` 和 `/v1/agent/workspaces`。
+7. 代理创建或选择正确的工作区，然后继续通过 `/v1/agent/sql` 工作。
 
-重要的是，agent 不会停在 “login successful” 这一句。它会继续完成 setup，然后开始真正的读写工作。
+这很重要，因为代理不会停在“登录成功”这一步。它可以继续完成后面的初始化流程，并真正开始读写数据。
 
-## 给 Claude Code 或 Codex 的 sample prompt
+## 给 Claude Code 或 Codex 的示例提示词
 
-下面这样就足够了：
+下面这样就够了：
 
 ```text
 Use this Flashcards discovery URL:
@@ -74,50 +75,228 @@ Log in to my Flashcards account, load account context, and select or create the 
 Ask me only for the latest 8-digit email code when the flow requires it.
 ```
 
-从这里开始，你不需要再手动解释 auth sequence。Discovery endpoint 已经完成了这件事。
+到这里为止，你不需要再手动解释认证流程。这个接口已经把流程说明清楚了。
 
-## 第一个 request
+## 给 OpenClaw 的示例提示词
 
-第一个 call：
+思路相同，只是写得更明确一点：
+
+```text
+Connect my Flashcards account using this URL:
+https://api.flashcards-open-source-app.com/v1/
+
+Follow the returned instructions, keep the API key secure, load my account, then continue to workspace setup.
+If verification is needed, ask me for the latest 8-digit code from the email.
+```
+
+## 示例：discovery 响应
+
+第一条请求是：
 
 ```bash
 curl https://api.flashcards-open-source-app.com/v1/
 ```
 
-然后 agent 启动 OTP stage：
+返回结果的结构专门做成了终端代理无需猜测也能继续执行的样子：
+
+```json
+{
+  "ok": true,
+  "data": {
+    "service": {
+      "name": "flashcards-open-source-app",
+      "version": "v1",
+      "description": "Offline-first flashcards service with user-owned workspaces and a compact SQL agent surface."
+    },
+    "authentication": {
+      "type": "email_otp_then_api_key",
+      "sendCodeUrl": "https://auth.flashcards-open-source-app.com/api/agent/send-code",
+      "verifyCodeUrl": "https://auth.flashcards-open-source-app.com/api/agent/verify-code"
+    },
+    "capabilitiesAfterLogin": [
+      "Load account context",
+      "Select a workspace",
+      "Inspect the published SQL surface through OpenAPI and SQL introspection",
+      "Read and write cards and decks through /agent/sql"
+    ],
+    "authBaseUrl": "https://auth.flashcards-open-source-app.com",
+    "apiBaseUrl": "https://api.flashcards-open-source-app.com/v1",
+    "surface": {
+      "accountUrl": "https://api.flashcards-open-source-app.com/v1/agent/me",
+      "workspacesUrl": "https://api.flashcards-open-source-app.com/v1/agent/workspaces",
+      "sqlUrl": "https://api.flashcards-open-source-app.com/v1/agent/sql"
+    }
+  },
+  "instructions": "Start with POST https://auth.flashcards-open-source-app.com/api/agent/send-code using the user's email, then POST https://auth.flashcards-open-source-app.com/api/agent/verify-code to obtain an API key. After login, call GET https://api.flashcards-open-source-app.com/v1/agent/me, then GET https://api.flashcards-open-source-app.com/v1/agent/workspaces?limit=100. If no workspace is selected for this API key, call POST https://api.flashcards-open-source-app.com/v1/agent/workspaces/{workspaceId}/select or create one with POST https://api.flashcards-open-source-app.com/v1/agent/workspaces using {\"name\":\"Personal\"}. After workspace bootstrap, use POST https://api.flashcards-open-source-app.com/v1/agent/sql for all shared card and deck reads and writes. Use https://api.flashcards-open-source-app.com/v1/agent/openapi.json for the full contract. The SQL surface is intentionally limited and is not full PostgreSQL.",
+  "docs": {
+    "openapiUrl": "https://api.flashcards-open-source-app.com/v1/agent/openapi.json"
+  }
+}
+```
+
+## 示例：发送邮件验证码
+
+代理拿到用户邮箱后，就会开始 OTP 这一步：
 
 ```bash
 curl -X POST https://auth.flashcards-open-source-app.com/api/agent/send-code \
   -H "Content-Type: application/json" \
-  -d '{"email":"you@example.com"}'
+  -d '{
+    "email": "you@example.com"
+  }'
 ```
 
-在 user 发来最新 code 之后，agent 就可以完成 verification：
+服务端会把邮件发出去，并返回一个短期有效的验证会话：
+
+```json
+{
+  "ok": true,
+  "data": {
+    "email": "you@example.com",
+    "otpSessionToken": "...",
+    "expiresInSeconds": 180,
+    "authBaseUrl": "https://auth.flashcards-open-source-app.com",
+    "apiBaseUrl": "https://api.flashcards-open-source-app.com/v1"
+  },
+  "instructions": "A verification code has been sent to the user's email. Ask for the 8-digit code from the email, then call verify_code with code, otpSessionToken, and a label for this agent connection. Read payload from data.* and do not expect resource fields at the top level. Select the next endpoint from instructions and confirm it with actions.",
+  "docs": {
+    "openapiUrl": "https://api.flashcards-open-source-app.com/v1/agent/openapi.json"
+  }
+}
+```
+
+这时候代理只需要短暂停下来，向用户索取收件箱里最新的那组验证码。
+
+## 示例：校验验证码并拿到 API key
+
+用户把邮件里的验证码发回来之后，代理就可以完成登录：
 
 ```bash
 curl -X POST https://auth.flashcards-open-source-app.com/api/agent/verify-code \
   -H "Content-Type: application/json" \
   -d '{
-    "code":"12345678",
-    "otpSessionToken":"...",
-    "label":"Claude Code on MacBook"
+    "code": "12345678",
+    "otpSessionToken": "...",
+    "label": "Claude Code on MacBook"
   }'
 ```
 
-Successful response 会返回 long-lived API key。请立即把它保存在 conversation memory 之外：
+验证成功后，会返回一个长期有效的 API key，以及下一步该做什么的指引：
+
+```json
+{
+  "ok": true,
+  "data": {
+    "apiKey": "fca_ABCDEFGH_0123456789ABCDEFGHJKMNPQRS",
+    "authorizationScheme": "ApiKey",
+    "apiBaseUrl": "https://api.flashcards-open-source-app.com/v1",
+    "connection": {
+      "connectionId": "connection-1",
+      "label": "codex-import-bot",
+      "createdAt": "2026-03-11T08:55:00.000Z",
+      "lastUsedAt": null,
+      "revokedAt": null
+    }
+  },
+  "instructions": "Store this API key outside chat memory now. Use it in the Authorization header as 'ApiKey <key>'. Next call GET /v1/agent/me to load account context. Then call GET /v1/agent/workspaces?limit=100. If exactly one workspace exists, select it if needed. If no workspace exists, create one with POST /v1/agent/workspaces using {\"name\":\"Personal\"}. After a workspace is selected, use POST /v1/agent/sql for all data access. Use docs.openapiUrl for the full contract.",
+  "docs": {
+    "openapiUrl": "https://api.flashcards-open-source-app.com/v1/agent/openapi.json"
+  }
+}
+```
+
+这就是代理从“思考认证问题”切换到“开始使用账户”的交接点。
+
+拿到这个 API key 之后，要立刻把它保存在聊天记忆之外。最干净的做法，是先导出一次环境变量，之后让代理重复复用：
 
 ```bash
 export FLASHCARDS_OPEN_SOURCE_API_KEY="fca_ABCDEFGH_0123456789ABCDEFGHJKMNPQRS"
 ```
 
-## 之后会发生什么
+## 示例：加载账户并继续进入工作区
 
-Verification 完成后，agent 会从 auth 阶段转向 account usage：
+接下来的请求，就是一条普通的带认证 API 调用：
 
-1. `GET /v1/agent/me`
-2. `GET /v1/agent/workspaces?limit=100`
-3. 如果没有合适的 workspace，则 `POST /v1/agent/workspaces`
-4. 如有需要，`POST /v1/agent/workspaces/{workspaceId}/select`
-5. 然后执行 `POST /v1/agent/sql`
+```bash
+curl https://api.flashcards-open-source-app.com/v1/agent/me \
+  -H "Authorization: ApiKey YOUR_API_KEY"
+```
 
-这样，这个 URL 就不只是一个 login gateway，而是整条路径的起点，使 agent 能够直接在你的 account 中工作。
+返回结果会明确告诉代理，继续进入工作区初始化：
+
+```json
+{
+  "ok": true,
+  "data": {
+    "userId": "user-123",
+    "selectedWorkspaceId": null,
+    "authTransport": "api_key",
+    "profile": {
+      "email": "you@example.com",
+      "locale": "en",
+      "createdAt": "2026-03-10T12:00:00.000Z"
+    }
+  },
+  "instructions": "Next call GET https://api.flashcards-open-source-app.com/v1/agent/workspaces?limit=100 to inspect available workspaces for this API key. If data.nextCursor is not null, continue with the same endpoint and cursor=data.nextCursor until it becomes null. If no workspace is selected, call POST https://api.flashcards-open-source-app.com/v1/agent/workspaces/{workspaceId}/select. If no workspace exists, create one with POST https://api.flashcards-open-source-app.com/v1/agent/workspaces using {\"name\":\"Personal\"}. After a workspace is selected, use POST https://api.flashcards-open-source-app.com/v1/agent/sql for reads, writes, and SQL introspection. Read payload from data.* and use docs.openapiUrl for the full contract.",
+  "docs": {
+    "openapiUrl": "https://api.flashcards-open-source-app.com/v1/agent/openapi.json"
+  }
+}
+```
+
+从这里开始，代理可以：
+
+- 读取全部工作区
+- 如果一个工作区都没有，就创建第一个工作区
+- 如果有多个工作区，就选择正确的那个
+- 查看发布在 `/v1/agent/openapi.json` 的公开契约
+- 通过 `POST /v1/agent/sql` 执行读取、写入和 SQL 自省
+
+这样一来，这个登录流程在实际使用里就真的有用，而不只是“技术上说得通”。
+
+`/v1/openapi.json` 和 `/v1/swagger.json` 这两个根级规范别名同样存在，但面向代理的文档链接会有意指向 `/v1/agent/openapi.json` 和 `/v1/agent/swagger.json`。
+
+## 为什么这比手动设置 API key 更好
+
+传统的 API 接入方式依然很别扭：
+
+- 先在浏览器里登录
+- 再打开设置页
+- 手动创建令牌
+- 把它复制到另一个工具里
+- 还得一直开着文档，好让工具知道下一步做什么
+
+而这个流程把其中大部分都省掉了。
+
+用户通过邮箱 OTP 证明身份。服务端把长期有效的 API key 直接发给代理。同样的响应格式还会持续告诉代理接下来该做什么。
+
+这对用户更简单，也更容易自动化。
+
+## 这是开源的
+
+Flashcards 是开源项目，所以你可以直接检查整个流程，而不是把它当成一个黑盒。
+
+- 仓库： [github.com/kirill-markin/flashcards-open-source-app](https://github.com/kirill-markin/flashcards-open-source-app)
+- Agent discovery 路由： [apps/backend/src/agentDiscovery.ts](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/apps/backend/src/agentDiscovery.ts)
+- Agent send-code 路由： [apps/auth/src/routes/agentSendCode.ts](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/apps/auth/src/routes/agentSendCode.ts)
+- Agent verify-code 路由： [apps/auth/src/routes/agentVerifyCode.ts](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/apps/auth/src/routes/agentVerifyCode.ts)
+- 账户与工作区初始化响应封装： [apps/backend/src/agentSetup.ts](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/apps/backend/src/agentSetup.ts)
+
+如果你关注开源 API 认证、邮箱 OTP 登录，或者代理接入流程的设计，这几份文件最值得读。
+
+## 试试看
+
+如果你想亲自测试这个流程，把这个 URL 交给你的代理：
+
+`https://api.flashcards-open-source-app.com/v1/`
+
+然后让它把剩下的事情做完。
+
+有用的链接：
+
+- [Flashcards 官网](https://flashcards-open-source-app.com/)
+- [托管应用](https://app.flashcards-open-source-app.com/)
+- [快速开始](https://flashcards-open-source-app.com/docs/getting-started/)
+- [GitHub 仓库](https://github.com/kirill-markin/flashcards-open-source-app)
+
+如果产品本身是开源的，而认证流程又足够收敛，那么“让代理自己处理”这件事就应该真的可行。这正是这个流程存在的意义。

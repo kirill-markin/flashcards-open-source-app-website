@@ -1,6 +1,6 @@
 ---
-title: "2026年、ChatGPT を使って Flashcards を作る方法: prompt を良くし、cards を良くし、FSRS で review を良くする"
-description: "2026年に ChatGPT を使って flashcards を作りたい人向けの practical workflow です。より良い prompts で cards を draft し、vague な出力をすばやく clean up し、chat の中に放置せず FSRS で final deck を review します。"
+title: "2026年にChatGPTでFlashcardsを作る方法: プロンプトを整え、カードを磨き、FSRSで復習を回す"
+description: "2026年にChatGPTでフラッシュカードを作りたい人向けの実践的な手順です。より良いプロンプトでたたき台を作り、曖昧な出力を素早く整理し、チャットの中に放置せずFSRSで復習できるデッキに仕上げます。"
 date: "2026-03-25"
 keywords:
   - "how to use chatgpt to make flashcards"
@@ -13,231 +13,231 @@ keywords:
   - "make flashcards with ai"
 ---
 
-昨日、ChatGPT が 3 ページ分の lecture notes を 28 枚の flashcards に変えるのを見ました。残す価値があったのは、そのうち 6 枚くらいです。残りは、疲れた student を impress しようとするときの AI 特有の、妙に suspicious な賢さをまとっていました。
+昨日、ChatGPT が講義ノート 3 ページ分を 28 枚のフラッシュカードに変えるのを見ました。残す価値があったのは、せいぜい 6 枚くらいです。残りは、疲れた学生に「賢そう」と思わせようとするときの AI 特有の、妙にあやしい出来でした。
 
-人が **how to use ChatGPT to make flashcards** と検索し始めるのは、たいていそのときです。
+人が **how to use ChatGPT to make flashcards** と検索し始めるのは、たいていその瞬間です。
 
-tool が cards を生成できないからではありません。明らかにできます。本当の問題は、多くの AI-generated decks が first glance では良く見えても、3 回目の review session では vague な wording や bloated answers のせいで時間を奪い始めることです。
+ツールがカードを作れないからではありません。作ること自体は、もちろんできます。本当の問題は、AI が作ったデッキの多くが最初は良く見えても、3 回目の復習あたりで化けの皮がはがれることです。曖昧な文面や無駄に長い答えが、そこで一気に時間を奪い始めます。
 
-## ChatGPT は drafting は得意だが、何を覚えるべきかを知るのは苦手
+## ChatGPT はたたき台作りには強いが、何を覚えるべきかまでは分からない
 
-これが最も useful な starting point だと思います。
+まず最初に押さえておくべきなのは、ここです。
 
-ChatGPT は typing をかなり減らせます。
+ChatGPT は入力の手間をかなり減らしてくれます。
 
-notes、readings、lecture summaries、copied textbook sections、messy outlines を、手でやるよりずっと速く first draft に変えられる。
+ノート、読書メモ、講義の要約、教科書から貼り付けた箇所、散らかったアウトラインでも、手で 1 枚ずつ作るよりずっと速く最初のたたき台にできます。
 
-でも自動では分からないものがあります。
+ただし、自動では分からないことがあります。
 
-- どの facts が本当に覚える価値があるか
-- どの cards が broad すぎるか
-- どの answers が長すぎるか
-- どの prompts が、元 paragraph がまだ頭に新しいから通じているだけなのか
+- 本当に覚える価値がある事実はどれか
+- どのカードが広すぎるか
+- どの答えが長すぎるか
+- どの問いが、元の段落をまだ覚えているから意味が通るだけなのか
 
-だから **ChatGPT flashcards** が一番うまく機能するのは、model が draft し、人間が edit するときです。
+だから **ChatGPT flashcards** がいちばん機能するのは、モデルが下書きを出し、人間がきちんと直すときです。
 
-magic を期待すると、たいてい shiny な future cleanup の山が返ってきます。
+魔法を期待すると、たいていは後片付けだけが輝いて見える山を受け取ることになります。
 
-## この検索は 2026 年により重要になった
+## この検索が 2026 年にいっそう重要になった理由
 
-AI を schoolwork に使うのは、もはや niche な習慣ではありません。
+学校の勉強に AI を使うことは、もう一部の人だけの癖ではありません。
 
-OpenAI は openly に study workflows を押し出しています。Google も NotebookLM の study features を広げ続けています。大きな study products も AI generation layers を増やしています。teens と AI use に関する recent survey data も同じ方向を示しています。teachers がどう感じるかに関係なく、多くの students はすでに schoolwork に chatbots を使っています。
+OpenAI は学習向けの使い方を前面に出しています。Google も NotebookLM の学習機能を広げ続けています。大手の学習サービスも、次々に AI 生成レイヤーを足しています。10 代の AI 利用に関する最近の調査を見ても、流れは同じです。先生がどう思うかは別として、多くの学生はすでに学校の課題にチャットボットを使っています。
 
-つまり **study with ChatGPT** は、もう weird hack ではありません。
+つまり **study with ChatGPT** は、もう変わり種の裏技ではありません。
 
-mainstream workflow です。
+今ではごく普通のやり方です。
 
-ということは、より良い question は「AI を使うべきかどうか」ではありません。bad cards をより速く量産せずに、どう使うかです。
+だから問うべきなのは、AI を使うかどうかではありません。質の低いカードを、ただ前より速く量産しないためにどう使うかです。
 
-## 最初の mistake は、deck 全体を一度に頼むこと
+## 最初の失敗は、デッキ全部を一度に作らせること
 
-ここで多くの **ai flashcard generator** workflows は失敗します。
+多くの **ai flashcard generator** 的な使い方は、ここで崩れます。
 
-人は chapter 全体を貼り付けて、こう言います。
+章を丸ごと貼り付けて、こんなふうに頼んでしまう。
 
-"Make me flashcards from this."
+「これをフラッシュカードにして。」
 
-model は従います。
+モデルはその指示に従います。
 
-そして何が重要かを推測し始め、残すべき nuance を平らにし、分けるべき ideas をまとめ、polished に聞こえるが clean recall を生まない cards を出してきます。
+そして、何が重要かを勝手に推測し始め、残すべきニュアンスをならし、分けるべき概念をくっつけ、見た目だけ整っていて思い出しやすさは弱いカードを返してきます。
 
-input はずっと narrower に保つべきです。
+入力はもっと狭くしたほうがいいです。
 
-1 section。
-1 concept cluster。
-1 lecture segment。
-1 つの short reading excerpt。
+1 つの節。
+1 つの概念のまとまり。
+1 つの講義パート。
+1 つの短い読書箇所。
 
-ほとんどの prompt tricks より、これだけで output はかなり改善します。
+たいていのプロンプト小細工より、これだけのほうが出力はよくなります。
 
-## 効く prompt は、拍子抜けするほど plain
+## 効くプロンプトは、拍子抜けするほど素朴
 
-私は次のように頼みます。
+私なら、こんなふうに頼みます。
 
-- 1 card につき 1 つの fact または concept
-- question または clear prompt で phrased された short front side
-- direct answer の short back side
-- invented information はなし
-- source が本当に必要とする場合を除いて multi-part answers はなし
-- 元の paragraph を見ないと成立しない cards は作らない
+- 1 枚につき 1 つの事実か概念
+- 表面は短い質問か、意味の明確な問い
+- 裏面は直接の答えを短く書く
+- 元の情報にないことは作らない
+- 元資料が本当に要求する場合を除き、複数要素の答えは作らない
+- 元の段落を見ないと成立しないカードは作らない
 
 これで十分です。
 
-fake な prompt-engineering theater を詰め込んだ 900-word prompt は要りません。
+見せかけだけのプロンプト工学を延々と演じる、900 語の長文プロンプトは要りません。
 
-model に必要なのは、主に boundaries です。
+モデルに必要なのは、たいてい境界線です。
 
-## card の front は smart に聞こえようとしないほうがいい
+## カードの表面は、賢そうに見せようとしないほうがいい
 
-これはかなり重要です。
+これはかなり大事です。
 
-良い flashcard の front side は、頭に 1 つの clean な retrieval を要求します。
+良いフラッシュカードの表面は、頭に 1 つのことだけをすっきり取り出させます。
 
-bad な front side は、自分自身との議論に勝とうとしている professor のような響きになります。
+悪い表面は、ひとりで議論してひとりで勝とうとしている教授みたいな文になります。
 
-実際に役立つ **chatgpt to flashcards** を作りたいなら、front はたいてい次のどれかであるべきです。
+実際に役立つ **chatgpt to flashcards** にしたいなら、表面はたいてい次のどれかで十分です。
 
-- direct question
-- short definition prompt
-- cause-and-effect prompt
-- distinction が重要な comparison prompt
+- 率直な質問
+- 短い定義を答えさせる問い
+- 因果関係を問う問い
+- 区別が大事なときの比較の問い
 
-そして back は、その prompt に直接答える。
+そして裏面は、その問いにまっすぐ答える。
 
-mini essay ではなく。
+短い小論文ではなく。
 
-5 つの bullets と 1 つの隠れた条件でもなく。
+箇条書きが 5 つ並んで、そのうえ隠れた条件が 1 つあるような答えでもなく。
 
-future self が recall を試す前に decode しなければならないほど abstract な wording でもなく。
+未来の自分が、思い出す前にまず解読しなければならないほど抽象的な文でもなく。
 
-## source が messy なら、ChatGPT には final truth ではなく candidate を draft させる
+## 元資料が荒れているなら、完成版ではなく候補を出させる
 
-これは notes、transcripts、copied readings に対する、より良い mindset です。
+これはノート、文字起こし、貼り付けた読書箇所に向いた考え方です。
 
-AI が仕事を finish する必要はありません。raw material を渡してくれれば十分です。
+AI に仕上げまでやらせる必要はありません。材料を出してくれれば、それで十分です。
 
-特に source が次のような場合に useful です。
+特に元資料が次のようなときに役立ちます。
 
-- 急いで書いた lecture notes
-- 説明が多すぎる textbook pages
-- lecture や video から切り出した transcript chunks
-- 1 つの useful paragraph と 4 つの前置き paragraph がある research summaries
+- 急いで書いた講義ノート
+- 説明が多すぎる教科書のページ
+- 講義や動画の文字起こしの一部
+- 使える段落が 1 つだけで、残り 4 段落が前置きの研究要約
 
-私が信頼する workflow はこうです。
+私が信頼している流れはこうです。
 
-1. 狭い chunk を貼る
-2. plain な front/back candidates を頼む
-3. vague なものはすぐ削除する
-4. 長すぎるものは rewrite する
-5. 来週になっても尊重できる cards だけ残す
+1. 狭い範囲の断片を貼る
+2. シンプルな表面と裏面の候補を出させる
+3. 曖昧なものはその場で消す
+4. 長すぎるものは書き直す
+5. 来週見返しても使う気になるカードだけ残す
 
-これで model は useful な部分の仕事に留まります。
+これなら、モデルを役に立つ範囲の仕事にとどめておけます。
 
-## 最速の quality check は、容赦ない deletion
+## 最速の品質チェックは、容赦なく捨てること
 
-人は mediocre な cards を救おうとして時間を使いすぎます。
+並のカードを何とか救おうとして、時間を使いすぎる人は多いです。
 
 私はそうしません。
 
-generated card が最初の読みで fuzzy なら delete する。
+生成されたカードを最初に見てぼやけているなら、消す。
 
-answer が長すぎるなら、すぐ shorten するか delete する。
+答えが長すぎるなら、すぐ縮めるか消す。
 
-2 枚の cards が少し wording が違うだけで同じ idea を test しているなら、1 枚残せばいい。
+少し言い回しが違うだけで同じことを問うカードが 2 枚あるなら、1 枚だけ残す。
 
-front side が、source passage をまだ覚えているから意味が通るだけなら、rewrite するか kill する。
+表面が、元の文章をまだ覚えているから意味が通るだけなら、書き直すか捨てる。
 
-厳しく聞こえますが、これが **make flashcards with AI** を実際に useful にする最速の方法です。
+厳しく聞こえるかもしれませんが、これが **make flashcards with AI** を本当に役立つものにする最短ルートです。
 
-この workflow の bad version は、50 枚生成して quantity を progress と呼ぶこと。
+このやり方の悪い版は、50 枚作って量を進捗だと思い込むことです。
 
-good version は、willingly に review できる 12 枚を残すことです。
+良い版は、自分が嫌がらずに復習できる 12 枚を残すことです。
 
-## ChatGPT だけでは study system にならない
+## ChatGPT だけでは学習システムにならない
 
-ここを人は飛ばします。
+ここを飛ばす人が多いです。
 
-cards を生成することと、そこから学ぶことは同じではありません。
+カードを作ることと、そこから学ぶことは同じではありません。
 
-たとえ decent な set でも、review timing が弱かったり、editing flow が clumsy だったり、cards が chat history の中に閉じ込められて organize できなかったりすると、すぐ annoying になります。
+そこそこ良いカードでも、復習のタイミングが弱い、編集しにくい、整理もできないままチャット履歴に閉じ込められている、となればすぐに面倒になります。
 
-だから私は、**how to use ChatGPT to make flashcards** は generation で終わらないと思っています。
+だから私は、**how to use ChatGPT to make flashcards** という問いは、生成で終わらないと思っています。
 
-proper editing、decks と tags、stable review flow、serious scheduler を持つ real flashcards app に cards が移って、初めて終わる。
+きちんと編集できて、デッキとタグがあり、安定した復習フローと本気のスケジューラを持つ、ちゃんとしたフラッシュカードアプリへ移して初めて終わりです。
 
-そして最後の点は、dramatic な AI 部分よりずっと重要です。
+そして最後の一点は、派手な AI の部分よりずっと大事です。
 
-## FSRS こそが draft を real study workflow に変える部分
+## FSRS が、下書きを本物の学習フローに変える
 
-人は generation step を magical に感じるので大好きです。
+人は生成の段階が魔法っぽく見えるので、そこに惹かれます。
 
-actual value があるのは review step です。
+でも、本当に価値が出るのは復習の段階です。
 
-scheduler が弱いと、solid な cards でも annoying なタイミングで戻ってきます。easy cards は queue を詰まらせ、hard cards は random に感じられ、deck 全体が memory training ではなく admin のように振る舞い始めます。
+スケジューラが弱いと、まともなカードでも嫌なタイミングで戻ってきます。簡単なカードがキューをふさぎ、難しいカードは出題の感触が不規則になり、デッキ全体が記憶の訓練ではなく事務作業のようになっていきます。
 
-だから、ここで **FSRS flashcards** が重要になります。
+だから、ここで **FSRS flashcards** が効いてきます。
 
-cards を AI で draft するのは構いません。
+カードの下書きを AI に作らせるのは構いません。
 
-でも repetition 自体は、proper な scheduler に任せるべきです。
+ただし反復の管理そのものは、まともなスケジューラに任せるべきです。
 
-scheduling side の詳細は、こちらです。
+スケジューリング側をもう少し詳しく見たいなら、こちらの記事のほうが踏み込んでいます。
 
-- [2026年の FSRS vs SM-2: どの spaced repetition algorithm がより多く覚えられるか](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [2026年の FSRS vs SM-2: どの間隔反復アルゴリズムのほうがより多く覚えられるか](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
 
-## Flashcards がこの workflow に合う理由
+## この流れで Flashcards が合う理由
 
-[Flashcards](https://flashcards-open-source-app.com/) は、**ChatGPT flashcards** と相性が良いです。chat 単体では解決しない部分をカバーしているからです。
+[Flashcards](https://flashcards-open-source-app.com/) が **ChatGPT flashcards** と相性がいいのは、チャットだけでは埋まらない部分をちゃんと埋めてくれるからです。
 
-- chat thread がそのふりをしているのではない、本物の flashcards app
-- front/back card structure
-- decks と tags
-- offline-first study
-- FSRS review scheduling
-- optional sync と optional AI features
+- チャット履歴で代用するのではない、本物のフラッシュカードアプリ
+- 表面と裏面のカード構造
+- デッキとタグ
+- オフラインファーストの学習
+- FSRS による復習スケジューリング
+- 任意の同期と任意の AI 機能
 
-この組み合わせが重要なのは、workflow が cleaner になるからです。
+この組み合わせが効くのは、作業の流れがすっきりするからです。
 
-AI で draft する。
+AI でたたき台を作る。
 
-serious person のように cards を edit する。
+カードはちゃんと自分で直す。
 
-それから conversation ではなく recall のために設計された system で review する。
+そのうえで、会話ではなく想起のために設計された仕組みで復習する。
 
-## 特に相性が良い 3 つの use case
+## 特に相性がいいのは 3 つのケース
 
-私は、AI-generated flashcards が最も強いのは、source material がほぼ揃っていて、それを cleaner な prompts に変える助けだけが必要な場合だと思います。
+AI 生成のフラッシュカードがいちばん強いのは、元の教材がすでにある程度そろっていて、それをより良い問いに変える手伝いだけが必要なときだと思います。
 
-特に好きなのはこの 3 つです。
+私が特に相性がいいと感じるのは、この 3 つです。
 
-- compression が必要な lecture notes
-- extraction が必要な copied reading sections
-- cleaner な question wording が必要な rough study outlines
+- 圧縮したい講義ノート
+- 要点を抜き出したい読書箇所
+- 問いの言い回しを整えたい粗い学習アウトライン
 
-source が PDF なら、こちらの companion article のほうが合います。
+元資料が PDF なら、こちらの関連記事のほうが合います。
 
-- [2026年、PDF を Flashcards に変える方法: lecture slides、textbooks、research papers を FSRS cards にする](https://flashcards-open-source-app.com/blog/how-to-turn-a-pdf-into-flashcards/)
+- [2026年、PDF を Flashcards に変える方法: 講義スライド、教科書、論文を FSRS カードにする](https://flashcards-open-source-app.com/blog/how-to-turn-a-pdf-into-flashcards/)
 
-source が plain notes なら、こちらのほうが合います。
+元資料がプレーンなノートなら、こちらのほうが向いています。
 
-- [2026年、notes を Flashcards に変える方法: manual copy-paste の代わりに AI drafting と FSRS を使う](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
+- [2026年、ノートを Flashcards に変える方法: 手作業のコピペの代わりに AI の下書きと FSRS を使う](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
 
-## より良い rule
+## より良いルール
 
-ChatGPT に勉強を finish してもらおうとしないこと。
+ChatGPT に勉強そのものを終わらせてもらおうとしないこと。
 
-clerical part を消してもらうこと。
+減らしてもらうのは、事務作業の部分だけにすること。
 
-これが私が実際に信頼する **how to use ChatGPT to make flashcards** です。narrow な input。plain な prompt。aggressive な editing。その後の real review。
+私が実際に信頼している **how to use ChatGPT to make flashcards** は、この形です。入力は狭く。プロンプトは素朴に。編集は容赦なく。その後はきちんと復習する。
 
 それが欲しいなら、ここから始めてください。
 
 - [Flashcards を開く](https://flashcards-open-source-app.com/)
-- [app を開く](https://app.flashcards-open-source-app.com/)
-- [self-hosting guide を読む](https://flashcards-open-source-app.com/docs/self-hosting/)
-- [GitHub で source を見る](https://github.com/kirill-markin/flashcards-open-source-app)
+- [アプリを開く](https://app.flashcards-open-source-app.com/)
+- [セルフホスティングガイドを読む](https://flashcards-open-source-app.com/docs/self-hosting/)
+- [GitHub でソースを見る](https://github.com/kirill-markin/flashcards-open-source-app)
 
-ChatGPT は、flashcards 作成を確かに助けてくれます。
+ChatGPT は、フラッシュカード作りをしっかり助けてくれます。
 
-ただ、それは cards が住む最後の場所であるべきではありません。
+ただし、カードを置いておく最後の場所まで ChatGPT にするべきではありません。
