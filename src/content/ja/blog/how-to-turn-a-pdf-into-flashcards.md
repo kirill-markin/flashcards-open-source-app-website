@@ -1,205 +1,205 @@
 ---
-title: "2026年、PDF を Flashcards に変える方法: lecture slides、textbooks、research papers を FSRS cards にする"
-description: "notes を手で書き直さずに PDF を flashcards にしたい人向けの 2026 年版 practical workflow です。lecture slides、textbook pages、research papers を upload し、AI で clean な cards を draft して、最後は FSRS で review します。"
+title: "2026年、PDF を Flashcards に変える方法: 講義スライド・教科書・論文から FSRS 用カードを作る"
+description: "ノートを書き直さずに PDF から Flashcards を作りたい人向けに、2026 年時点で実用的な手順をまとめました。講義スライド、教科書、論文をアップロードし、AI でカード案を作ってから、最後は FSRS で復習します。"
 date: "2026-03-23"
 keywords:
-  - "pdf to flashcards"
-  - "turn pdf into flashcards"
-  - "lecture slides to flashcards"
-  - "textbook to flashcards"
-  - "research paper to flashcards"
-  - "ai flashcard generator pdf"
-  - "fsrs flashcards"
-  - "pdf flashcard app"
+  - "PDFをFlashcardsに変える"
+  - "PDFからフラッシュカードを作る"
+  - "講義スライドをFlashcardsにする"
+  - "教科書をFlashcardsにする"
+  - "論文をFlashcardsにする"
+  - "AIでPDFからフラッシュカードを作る"
+  - "FSRS フラッシュカード"
+  - "PDF フラッシュカードアプリ"
 ---
 
-昨日、lecture slides を手で cards に直す気がまったくなかったので、47 ページの PDF をそのまま AI chat に放り込みました。PDF には screenshots、bold 見出し、2 つの diagrams、そして future readers が嫌いな人が作ったとしか思えない page が少なくとも 1 枚入っていました。
+昨日、講義スライドを手でカード化する気力がまったく出なかったので、47 ページの PDF をそのまま AI チャットに投げ込みました。中にはスクリーンショット、太字の見出し、2 つの図、そして「読み手のことをまったく考えていないのでは」と疑いたくなるページまで入っていました。
 
-人が **pdf to flashcards** と検索し始めるのは、たいていそのときです。
+人が `pdf to flashcards` のような検索をし始めるのは、だいたいこういう瞬間です。
 
-急に flashcards の仕組みを忘れたからではありません。source material が、最も annoying な format に閉じ込められているからです。無視するには structured すぎる。clean に copy するには messy すぎる。そして手作業でやると evening を壊すのに十分な長さがある。
+急にフラッシュカードの作り方を忘れたからではありません。元の資料が、いちばん扱いづらい形式に閉じ込められているからです。無視するには構造がありすぎる。きれいにコピーするには散らかりすぎている。しかも手作業で処理するには、夜の時間をつぶすのに十分な長さがあります。
 
-## PDF は notes と同じではない
+## PDF はノートと同じではない
 
-これは obvious に聞こえますが、多くの **turn pdf into flashcards** advice は、PDF がすでに usable な card deck に半分なっているかのように扱います。
+当たり前の話に聞こえるかもしれませんが、`turn pdf into flashcards` 系の説明の多くは、PDF がすでに半分カードデッキになっている前提で書かれています。
 
-実際には、たいていそうではありません。
+実際には、そんなことはほとんどありません。
 
-PDF は次のようなものかもしれません。
+PDF は例えば次のようなものです。
 
-- tiny bullet points だらけの lecture slides
-- context が多すぎる textbook pages
-- 本当に useful なのは 3 sections だけで、残り 9 pages は setup の research paper
-- clean だったはずが document に flatten された exported notes
+- 小さな箇条書きばかり並んだ講義スライド
+- 文脈が多すぎる教科書のページ
+- 本当に使いたいのは 3 セクションだけで、残りは導入が続く論文
+- もともとは整理されていたのに、書き出しで読みづらくなったノート
 
-だから **lecture slides to flashcards** や **textbook to flashcards** は、見た目より難しいのです。extraction step は messy で、そのあとも judgment が必要です。
+だから、講義スライドや教科書をそのままフラッシュカード化するのは、見た目よりずっと難しいのです。まず抽出の段階で崩れやすく、そのあとも人の判断が必要になります。
 
-## 多くの PDF-to-flashcards tools は同じ約束をする
+## PDF をカード化するツールは似た約束をしがち
 
-file を貼る。button を押す。50 cards が出る。
+ファイルを貼る。ボタンを押す。50 枚のカードが出てくる。
 
-魅力は分かります。
+魅力的に見えるのは分かります。
 
-でも面白いのは、難しい部分は 50 枚の cards を出現させることではない点です。難しいのは、来週になっても本当に review したいと思える cards を作ることです。
+ただ、本当に難しいのは 50 枚のカードを出すことではありません。来週になっても「これは復習する価値がある」と思えるカードを作ることです。
 
-そこで多くの **ai flashcard generator pdf** tools は wobble し始めます。
+多くの AI カード生成ツールが崩れ始めるのは、まさにそこです。
 
-cards はしばしば次の状態になります。
+ありがちなカードは、次のような状態になりがちです。
 
-- broad すぎる
+- 範囲が広すぎる
 - 長すぎる
-- repetitive すぎる
-- 元 page の context に依存しすぎる
-- PDF と technically 関係はあるが recall にはあまり useful でない
+- 重複が多い
+- 元のページの文脈に頼りすぎている
+- PDF とは関係があっても、記憶の定着にはあまり役立たない
 
-つまり product は確かに flashcards を作ります。
+つまり、フラッシュカード自体は確かに作られます。
 
-ただ quietly に editing work も作っています。
+その代わり、静かに編集作業も増えます。
 
-## 本当の仕事は magic ではなく drafting
+## 本当に必要なのは魔法ではなく下書き
 
-より良い workflow は、人が思うより小さいです。
+実用的な手順は、多くの人が思うよりずっと地味です。
 
-1. PDF を upload する
-2. 特定の section や chapter から AI に candidate cards を draft させる
-3. generic な cards はすぐ削除する
-4. vague なものは rewrite する
-5. survivors を real scheduler で study する
+1. PDF をアップロードする
+2. 特定のセクションや章を指定して、AI にカード案を作らせる
+3. ありきたりなカードはすぐ消す
+4. あいまいなカードは書き直す
+5. 残ったカードを、まともなスケジューラで学習する
 
-これだけです。
+やることはこれだけです。
 
-私は model に learner を置き換えてほしいわけではありません。clerical part を消してほしいだけです。
+私は AI に学習者の代わりをしてほしいわけではありません。消してほしいのは、ひたすら面倒な事務作業の部分です。
 
-それこそが **pdf to flashcards** を実際に useful にする点です。extraction にかかる時間を節約し、その energy を「何を real card にする価値があるか」の判断に使えます。
+PDF からフラッシュカードを作る作業が実用的になるのは、まさにそこです。抽出にかかる時間を減らし、そのぶん「何を本物のカードにする価値があるか」を判断するほうに集中できます。
 
-## lecture slides には、その source 専用の cleanup が必要
+## 講義スライドには、スライド特有の整形が必要
 
-slides は、たいてい sparse で weirdly confident です。
+講義スライドは、たいてい情報が少なく、そのわりに妙に断定的です。
 
-意味の半分は slide そのものではなく teacher の explanation の中にあります。"Key mechanisms" という heading があり、下に 4 つの bullets が並ぶ。class に出ていたなら perfectly sensible かもしれませんが、そうでなければほとんど意味が通りません。
+意味の半分はスライドではなく、先生の説明の中にあります。見出しに「Key mechanisms」とあり、その下に 4 つの箇条書きがある。授業を聞いていれば意味が通るかもしれませんが、あとから PDF だけを見ると、かなり分かりにくいことが多いです。
 
-だから **lecture slides to flashcards** は、prompt を narrow にしたときのほうがうまくいきます。
+だから、講義スライドをカード化するときは、プロンプトを狭くしたほうがうまくいきます。
 
-私は次を求めます。
+私は次の条件をはっきり指定します。
 
-- 1 card につき 1 つの fact または concept
-- plain な front/back wording
-- giant list answers はなし
-- slide が support していない invented information はなし
+- 1 枚につき 1 つの事実または概念だけ
+- 表現はシンプルな表裏形式
+- 長い列挙型の答えは作らない
+- スライドに書かれていない情報を勝手に補わない
 
-これで AI が material より賢そうに聞こえようとするのを防げます。
+これで、AI が元資料以上に賢そうなことを言い始めるのを防げます。
 
-## textbooks には別の trimming が必要
+## 教科書には別の削り方がいる
 
-textbooks は、たいてい逆の問題を持っています。
+教科書は、たいてい逆の問題を持っています。
 
-material が少なすぎるのではなく、多すぎる。
+情報が少なすぎるのではなく、多すぎるのです。
 
-だから **textbook to flashcards** は extraction より compression の問題です。goal は paragraph を保存することではありません。recall target を保存することです。
+だから教科書をカード化する作業は、抽出より要約の問題になります。目的は段落を保存することではありません。覚えるべき対象を残すことです。
 
-textbook の paragraph が 1 つの idea を 5 つの examples で説明しているなら、card に必要なのは idea と、せいぜい 1 つの example です。page 全体の loyal な miniature copy ではありません。
+1 つの段落が 1 つの考え方を 5 つの例で説明しているなら、カードに必要なのはその考え方と、多くても 1 つの例だけです。ページ全体を縮小コピーしたようなカードではありません。
 
-ここで manual card writing はすぐ tedious になり、AI drafting が genuinely useful になります。
+ここでは手書きでカードを作る作業がすぐに面倒になり、AI の下書きが本当に役立ちます。
 
-## research papers は独自の annoying さを持っている
+## 論文には論文特有の面倒さがある
 
-私は papers を読むこと自体は好きです。
+論文を読むこと自体は好きです。
 
-でも、every paragraph が flashcard に値するふりはしたくありません。
+でも、すべての段落がフラッシュカードに値するように扱いたくはありません。
 
-**research paper to flashcards** なら、私はたいてい次だけを狙います。
+論文をカード化するとき、私がたいてい残すのは次のような要素です。
 
-- main claim
-- key terms
-- 覚える価値のある method details
-- meaningful results
-- exam や project に関係するなら limitations
+- 主張の中心
+- 重要な用語
+- 覚えておく価値のある手法の詳細
+- 意味のある結果
+- 試験やプロジェクトに関係するなら限界や制約
 
-それ以外は paper に残せばいい。
+それ以外は、論文の中に残しておけば十分です。
 
-ここは bad cards を作りやすい場所のひとつです。writing 自体が serious に聞こえるので、deck も intelligent に見えますが、実際にはあまり教えてくれない。source material が PhD レベルでも、good cards は結局 1 つの clean recall target を必要とします。
+ここは質の悪いカードを作りやすい場所のひとつです。文章そのものがいかにも専門的に聞こえるので、デッキも賢く見えますが、実際にはあまり学習に効かないことがある。元資料が高度でも、良いカードに必要なのは結局、ひとつの明確な想起対象です。
 
-## PDF から作る good flashcards でも、普通の flashcard rules は必要
+## PDF から作るカードでも、普通のルールは変わらない
 
-file format は変わっても、rule は変わりません。
+ファイル形式が違っても、カードの基本ルールは変わりません。
 
-強い cards は、今でも次の boring なことをきちんとやります。
+強いカードは、今でも次のような地味な条件をきちんと満たしています。
 
-- 1 つの clear なことを聞く
-- 直接答える
-- 1 prompt の中に複数の facts を隠さない
-- recall が clean に感じられる短さを保つ
-- future self が 2 秒で parse できる phrasing にする
+- 1 つの明確なことだけを尋ねる
+- 答えが直接的である
+- 1 つのプロンプトに複数の事実を詰め込まない
+- すっと思い出せる長さに収める
+- あとで見返した自分が 2 秒で読める言い回しにする
 
-だから私は、one-click の **pdf flashcard app** 的な promises をあまり信じません。card quality problem は完全には消えません。typing から editing に場所を移すだけです。
+だから私は、ワンクリックで何でも解決してくれるような `pdf flashcard app` 的な約束をあまり信じていません。カードの質の問題は消えません。入力作業が編集作業に置き換わるだけです。
 
-## dramatic な generation step より FSRS のほうが重要
+## 派手な生成より、FSRS のほうが大事
 
-人は generation に興奮しがちで、そのあとに何が起こるかはあまり考えません。
+人はカード生成の瞬間には興奮しますが、そのあとどう運用するかは見落としがちです。
 
-でも flashcards の actual value は、cards が存在したあとに始まります。
+けれど、フラッシュカードの本当の価値は、カードができたあとに始まります。
 
-そこで **FSRS flashcards** が重要になります。
+そこで効いてくるのが `FSRS` です。
 
-scheduler が weak だと、decent な deck でも review が annoying になります。easy cards は何度も戻り、hard cards は妙な timing で戻り、queue は少し fake に感じ始めます。
+スケジューラが弱いと、そこそこ良いデッキでも復習が煩わしくなります。簡単なカードが何度も戻ってきて、難しいカードは変なタイミングで出てきて、キュー全体がどこか信用しにくくなっていきます。
 
-scheduler が strong なら、workflow 全体がより believable になります。PDF から draft し、cards を clean にし、そのあと review timing にちゃんと仕事をさせる。
+逆にスケジューラが強ければ、手順全体がぐっと現実的になります。PDF からカード案を作り、内容を整え、そのあと復習のタイミングは復習システムにきちんと任せる。
 
-scheduling side の詳細は、こちらです。
+スケジューリング側の詳しい話は、こちらにまとめています。
 
-- [2026年の FSRS vs SM-2: どの spaced repetition algorithm がより多く覚えられるか](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [2026年の FSRS vs SM-2: どの間隔反復アルゴリズムがより多く覚えられるか](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
 
-## Flashcards がこの workflow に合う理由
+## Flashcards がこの手順に向いている理由
 
-[Flashcards](https://flashcards-open-source-app.com/) は、**turn pdf into flashcards** と相性が良いです。重要な pieces がすでに 1 つの場所にあるからです。
+[Flashcards](https://flashcards-open-source-app.com/) が PDF からのカード作成と相性が良いのは、必要な要素が最初からひとつにまとまっているからです。
 
-- AI chat
-- file attachments
-- front/back card creation
-- drafting 後の practical editing
-- その後の FSRS review
+- AI チャット
+- ファイル添付
+- 表裏カードの作成
+- 下書き後の実用的な編集
+- そのまま続けられる FSRS 復習
 
 この組み合わせは、多くの人が思う以上に重要です。
 
-多くの products は、「ほら cards が出た」という瞬間までは decent です。そのあと workflow が fuzzy になる。drafts はどこに残るのか。どう edit するのか。本気で study したいときにどうするのか。
+多くの製品は、「カードが出た」という瞬間までは悪くありません。その先の流れが曖昧です。下書きはどこに残るのか。どう編集するのか。本気で学習に使いたくなったら、どこへ持っていくのか。
 
-そこでは Flashcards のほうが、standalone な generator より grounded に感じられます。
+その点で Flashcards は、単体のカード生成ツールより地に足がついています。
 
-## わざと boring な workflow にしておく
+## あえて地味な手順にしておく
 
-今日これをやるなら、私は process をとても plain に保ちます。
+今日これをやるなら、私は手順をかなりシンプルに保ちます。
 
-1. PDF を upload する
-2. document 全体ではなく 1 section から始める
-3. simple な front/back cards を頼む
-4. impressive だが vague な cards は delete する
-5. 長い answers はすぐ shorten する
-6. final set を FSRS で study する
+1. PDF をアップロードする
+2. 文書全体ではなく 1 セクションから始める
+3. シンプルな表裏カードを頼む
+4. うまそうに見えても曖昧なカードは消す
+5. 長い答えはすぐ短くする
+6. 最後に FSRS で学習する
 
-この workflow が機能するのは、model が得意なことと、今も間違えやすいことを尊重しているからです。
+このやり方が機能するのは、モデルが得意なことと、今でも間違えやすいことの両方を踏まえているからです。
 
-そして novelty で 1 回だけやって終わるのではなく、来週も繰り返せる程度に realistic です。
+しかも、一度だけ試して終わる目新しさではなく、来週も普通に繰り返せる現実的な手順です。
 
-## これは notes-to-flashcards と同じではない
+## これはノートからカードを作る話と同じではない
 
-重なる部分はありますが、**pdf to flashcards** を notes-to-flashcards と同じ query だとは扱いません。
+重なる部分はありますが、`pdf to flashcards` を「ノートからカードを作る」系の検索意図と同じものとして扱うべきではありません。
 
-notes はたいてい自分が書いたものです。
+ノートは、たいてい自分で書いたものです。
 
-PDF は lectures、textbooks、exported handouts、そして自分で structure していない documents から来ることが多い。
+一方で PDF は、講義、教科書、配布資料、自分で構造化していない文書から来ることが多い。
 
-それによって editing burden が変わります。search intent も変わります。**turn pdf into flashcards** を探している人は、たいてい note-taking philosophy を改善したいのではなく、既存 material を rescue したいのです。
+その違いで、編集の負担も変わりますし、検索意図も変わります。`turn pdf into flashcards` を探している人は、たいていノートの取り方を改善したいのではなく、すでにある資料を救い出したいのです。
 
-source がすでに plain text なら、こちらの companion piece のほうが合います。
+元の資料が最初からプレーンテキストなら、こちらの記事のほうが近いです。
 
-- [2026年、notes を Flashcards に変える方法: manual copy-paste の代わりに AI drafting と FSRS を使う](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
+- [2026年、notes を Flashcards に変える方法: 手作業のコピペの代わりに AI の下書きと FSRS を使う](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
 
-## より良い rule
+## もっと実用的な考え方
 
-PDF がそのまま automatically deck になることを期待しないこと。
+PDF がそのまま自動でデッキになることを期待しないこと。
 
-より良い draft のための raw material になることを期待すること。
+代わりに、より良いカード案を作るための素材になると考えること。
 
-これが私が実際に信頼する **how to turn a PDF into flashcards** です。少し魔法が減り、少し manual になる。でも 3 回 review したあとでも respect できる cards になる可能性はずっと高い。
+これが、私が実際に信頼している PDF からフラッシュカードを作る方法です。魔法っぽさは少し減り、手作業は少し残ります。でも、3 回復習したあとでも納得できるカードになる可能性はずっと高い。
 
-そういう workflow が欲しいなら、[Flashcards](https://flashcards-open-source-app.com/) は強い選択です。document を upload し、AI で cards を draft し、clean up し、そのあと generation demo の中に放置せず、本物の spaced repetition system の中で study できます。
+そういう手順を求めているなら、[Flashcards](https://flashcards-open-source-app.com/) はかなり有力です。文書をアップロードし、AI でカード案を作り、整えたうえで、生成デモのまま放置せず、本物の間隔反復システムの中で学習できます。
