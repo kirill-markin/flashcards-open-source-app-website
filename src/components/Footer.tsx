@@ -103,27 +103,29 @@ export const Footer: React.FC<FooterProps> = ({ locale }) => {
           </div>
         </div>
         <div className={styles.bottom}>
-          <span className={styles.copyright}>
-            {year} {uiCopy.footer.copyrightLabel}
-          </span>
-          <div className={styles.attribution}>
-            <span className={styles.attributionLine}>
-              {uiCopy.footer.builtByLabel} ·{" "}
-              <a
-                href="https://ozma.io/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                ozma.io
-              </a>
+          <div className={styles.bottomMeta}>
+            <span className={styles.copyright}>
+              {year} {uiCopy.footer.copyrightLabel}
             </span>
-            <span className={styles.attributionLine}>
-              {uiCopy.footer.operatedByLabel}
-            </span>
+            <div className={styles.attribution}>
+              <span className={styles.attributionLine}>
+                {uiCopy.footer.builtByLabel} ·{" "}
+                <a
+                  href="https://ozma.io/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  ozma.io
+                </a>
+              </span>
+              <span className={styles.attributionLine}>
+                {uiCopy.footer.operatedByLabel}
+              </span>
+            </div>
           </div>
-        </div>
-        <div className={styles.localePicker}>
-          <LocaleSwitcher />
+          <div className={styles.localePicker}>
+            <LocaleSwitcher />
+          </div>
         </div>
       </div>
     </footer>
