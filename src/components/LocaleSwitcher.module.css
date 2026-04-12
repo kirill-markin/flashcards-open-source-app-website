@@ -39,7 +39,7 @@
   padding: 8px;
   border: 1px solid var(--border);
   border-radius: 18px;
-  background: color-mix(in srgb, var(--surface) 92%, black);
+  background: var(--surface);
   box-shadow: var(--shadow-soft);
   list-style: none;
 }
