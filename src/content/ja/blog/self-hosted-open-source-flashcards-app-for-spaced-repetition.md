@@ -1,118 +1,118 @@
 ---
-title: "間隔反復のための self-hosted open source flashcards app"
-description: "self-host できる open-source flashcards app を探していますか。高速な review queue、passwordless auth、学習データの完全な control を備えた spaced repetition を使えます。"
+title: "間隔反復に対応したセルフホスト可能なオープンソース暗記カードアプリ"
+description: "セルフホストできるオープンソースの暗記カードアプリを探していますか。高速な復習キュー、パスワードレス認証、学習データを自分で管理できる設計で、間隔反復を快適に使えます。"
 date: "2026-03-08"
 keywords:
-  - "open source flashcards app"
-  - "self-hosted flashcards app"
-  - "spaced repetition app"
-  - "anki alternative"
-  - "quizlet alternative"
-  - "ai flashcards"
+  - "オープンソース 暗記カード アプリ"
+  - "セルフホスト 暗記カード アプリ"
+  - "間隔反復 アプリ"
+  - "Anki の代替"
+  - "Quizlet の代替"
+  - "AI 暗記カード"
 ---
 
-Anki と Quizlet を並べて開くと、tradeoff は 30 秒ほどで見えてきます。
+Anki と Quizlet を並べて開けば、どこで折り合いをつけることになるのかは 30 秒もあれば見えてきます。
 
-片方は 2012 年から本当に抜け出していない old desktop software のように感じられる。もう片方は、たまたま flashcards をやっている polished な subscription product に感じられる。
+片方は、2012 年から時間が止まったままの古いデスクトップソフトのように見える。もう片方は、たまたま暗記カード機能も持っている洗練されたサブスクリプション製品のように見える。
 
-[Flashcards](https://flashcards-open-source-app.com/) を作りながら、私は何度もその分裂に行き当たりました。spaced repetition という考え方自体は今でも優れています。そこを囲む products のほうが停滞している。
+[Flashcards](https://flashcards-open-source-app.com/) を作る中で、私は何度もこの分断に行き当たりました。間隔反復という考え方そのものは、今でも十分に優れています。停滞しているのは、その周囲にある製品のほうです。
 
-もし software を出荷するのが今でも難しいなら、まだ受け入れやすかったかもしれません。でも実際はそうではありません。
+もし今でもソフトウェアを世に出すのが難しい時代なら、まだ納得できたかもしれません。けれど、現実はもうそうではありません。
 
-小さな team でも、今は 1 週間で本物の product を作れます。高速に ship できるし、AI を actual workflow に組み込めるし、day one から clean な APIs を公開できます。Flashcards software が、ぎこちない legacy UX と closed platforms の間に今も閉じ込められている必要はありません。
+小さなチームでも、今なら 1 週間で実用的な製品を作れます。素早く公開できるし、AI を実際の作業フローに組み込めるし、初日から整理された API を用意することだってできます。暗記カードのソフトが、使いづらい旧来の体験と閉じたプラットフォームの間に、いまだに閉じ込められている理由はありません。
 
-[Flashcards](https://flashcards-open-source-app.com/) が埋めようとしているのは、まさにその gap です。spaced repetition、modern な web stack、offline-first client support、そして後付けではなく product direction に組み込まれた AI を備えた、self-hosted open-source flashcards app です。
+[Flashcards](https://flashcards-open-source-app.com/) が埋めようとしているのは、まさにその隙間です。間隔反復を核に据え、現代的な Web スタックで動き、オフラインファーストのクライアントも備え、あとから無理に付け足したのではなく製品の方向性そのものに AI を組み込んだ、セルフホスト可能なオープンソースの暗記カードアプリを目指しています。
 
 ## Anki は今でも動く。でも古く感じる
 
-Anki の問題は、algorithm が悪いことだとは思っていません。core idea は実証済みです。語学、医学、試験、そのほかあらゆる暗記量の多い学習で、何年も使われてきました。
+Anki の問題は、アルゴリズムが悪いことではないと私は思っています。中核にある考え方は、すでに十分に実証されています。語学学習でも、医学でも、試験対策でも、そのほか暗記の多いあらゆる分野でも、何年にもわたって使われてきました。
 
-問題は、product experience が今も古く感じられることです。
+問題は、製品としての体験が今もなお古く感じられることです。
 
-もちろん我慢して使い続けることはできます。実際そうしている人はたくさんいます。でも「慣れれば使える」は、2026 年の product に対する強い compliment ではありません。interface は、毎日開きたくなる tool というより、耐えながら使う tool に感じられます。
+もちろん、慣れて使い続けることはできます。実際、そうしている人は大勢います。ただ、「慣れれば使える」は 2026 年の製品に向ける褒め言葉としては弱い。画面を開くたびに前向きな気分になれる道具というより、我慢して使う道具に近く感じられます。
 
-これは多くの人が認める以上に重要です。Flashcards は、明日も、その次の日も、100 日後も戻ってこなければ意味がありません。friction は積み重なります。
+これは、多くの人が思っている以上に大事です。暗記カードは、明日も、その次の日も、100 日後も使い続けてこそ意味があります。小さな引っかかりは、毎日の積み重ねで確実に効いてきます。
 
-## Quizlet はより滑らか。でも tradeoff は逆方向へ振れる
+## Quizlet はより洗練されている。でも今度は別の代償がある
 
-Quizlet は interface の問題を解決しました。よりクリーンに見え、modern な consumer product に近い。多くの人にとって、それだけで Anki より魅力的です。
+Quizlet は、画面や使い勝手の問題をかなりうまく解消しました。見た目はすっきりしていて、現代的な一般向け製品に近い。多くの人にとって、それだけで Anki より魅力的に映ります。
 
-でも、そこで別の壁にぶつかります。
+ただ、その先には別の壁があります。
 
-flashcards のような基本的なものに対して pricing は好感を持ちにくい。product は closed です。あなたの study system は他人の platform の中に住んでいる。pricing が変われば、product priorities が変われば、access rules が変われば、適応するのは user 側です。
+暗記カードのような基本的な機能に対して、価格設定は素直に歓迎しづらいものがあります。しかも製品はクローズドです。あなたの学習の仕組みは、誰か別の会社のプラットフォームの内側に置かれることになる。価格が変わっても、製品の優先順位が変わっても、利用条件が変わっても、合わせるのはユーザー側です。
 
-カテゴリによっては、それでも構わないかもしれません。でも personal knowledge では、私はそうは思いません。
+それで問題ない分野もあるでしょう。でも、個人の知識の蓄積については、私はそうは思いません。
 
-## 自分の cards は他人の product に閉じ込められるべきではない
+## 自分のカードを他人の製品の中に閉じ込めるべきではない
 
-Flashcards は使い捨て content ではありません。時間がたつと、自分が何を学んでいるか、何を何度も忘れるか、考え方がどう変化するかの記録になります。これは価値ある data です。
+暗記カードは、使い捨ての内容ではありません。時間がたつほど、自分が何を学んでいるのか、何を繰り返し忘れるのか、考え方がどう変わっていくのかが蓄積されていきます。そこには確かな価値があります。
 
-私はそれを black box の中に築きたくありません。
+私はそれを、外から見えない箱の中に築きたくありません。
 
-self-hosted flashcards app では、default が変わります。code を inspect できる。stack を自分で動かせる。最初は hosted version を使い、必要なら後で移ることもできる。自分の study system を自分の望む形で使い続けるために permission を求める必要がありません。
+セルフホストできる暗記カードアプリなら、前提が変わります。コードを確認できる。自分で動かせる。最初はホスト版を使って、必要になったらあとで移行することもできる。自分の学習環境を、自分の望む形で使い続けるために、誰かの許可を待つ必要がありません。
 
-これは、AI によって lock-in がさらに痛くなった今は特に重要です。data model が open で、product が real operations を公開していれば、AI は本当に cards と一緒に働けます。closed product では、product 自体の公開度が浅いため、AI layer も浅いままになりがちです。
+これは、AI の時代になって囲い込みの痛みがさらに大きくなった今、いっそう重要です。データモデルが開かれていて、製品の操作がきちんと外に公開されていれば、AI は実際のカードと本当に連携できます。閉じた製品では、製品そのものが浅くしか外に開かれていないため、AI の活用も表面的なものにとどまりがちです。
 
-## 多くの AI flashcards feature は、今でもかなり弱い
+## いまある AI 暗記カード機能の多くは、まだかなり弱い
 
-今は多くの「AI flashcards」product が 1 つの trick しか持っていません。text を貼る。いくつか cards が生成される。magic はそこで終わり。
+今の「AI 暗記カード」系の製品の多くは、できることが一つだけです。文章を貼り付ける。数枚のカードが生成される。そこで魔法は終わってしまう。
 
-面白いのはそこではありません。
+本当に面白いのは、そこではありません。
 
-面白いのは、AI が real product の中で働けることです。
+面白いのは、AI が実際の製品の中で働けることです。
 
-[Flashcards](https://flashcards-open-source-app.com/) の current web app には、すでに actual workspace に結び付いた AI chat があります。さらに broader architecture では、terminal tools 向けの separate external agent surface も公開されており、iOS client は独自の offline-first sync flow を保っています。
+[Flashcards](https://flashcards-open-source-app.com/) の現在の Web アプリには、すでに実際のワークスペースと結び付いた AI チャットがあります。さらに全体の設計として、ターミナルツールから使うための別系統のインターフェースも公開しており、iOS クライアントは独自のオフラインファーストの同期方式を保っています。
 
-これは、「この paragraph から 20 枚生成して終わり」よりはるかに強い方向です。
+これは、「この段落から 20 枚作って終わり」という発想より、はるかに筋のいい方向です。
 
-AI が toy ではなく、退屈な部分を助ける存在になれるからです。
+AI が単なるおもちゃではなく、面倒な部分を肩代わりする存在になれるからです。
 
-- duplicate card を作る前に、同じ concept がすでにあるか確認する
-- disconnected content を作り出すのではなく、今 due なものを見せる
-- 弱い card の wording を整える
-- deck を一度生成して終わりではなく、時間をかけて保守するのを助ける
+- 重複したカードを作る前に、同じ概念がすでにあるか確認する
+- 文脈のない内容を勝手に作るのではなく、いま復習すべきものを見せる
+- 伝わりにくいカードの表現を整える
+- 一度デッキを作って終わりではなく、時間をかけて手入れしていくのを助ける
 
-ここでの「AI-first」とは、そういう意味であるべきです。closed app に chatbot を bolted on することではありません。real objects と actions が AI に対して controlled に公開されている product であることです。
+ここで言う「AI を前提にした設計」とは、そういう意味であるべきです。閉じたアプリにチャットボットを後付けすることではありません。実際のデータや操作が、管理された形で AI から使えるようになっている製品であることです。
 
-## AI が来る前の時点でも、product は modern であるべき
+## AI 以前に、製品そのものが現代的であるべき
 
-AI を抜きにしても、私は base product が sane であることを望みました。
+AI を抜きにしても、土台となる製品はきちんとしていてほしいと思っていました。
 
-つまり、clear な review queue、web client からの card creation、backend が担う spaced repetition、また 1 つ password を増やすのではなく passwordless auth、そして stack を own したい人のための文書化された self-hosted path です。
+必要なのは、わかりやすい復習キュー、Web クライアントからのカード作成、バックエンドが担う間隔反復、パスワードを増やし続ける代わりではないパスワードレス認証、そして自分で環境を持ちたい人のために文書化されたセルフホストの手順です。
 
-project にはすでにその foundation があります。
+このプロジェクトには、すでにその土台があります。
 
-- 今すぐ使える hosted web app
-- local SQLite と sync を備えた、repository 内の iOS app
-- due cards と FSRS を軸にした review flow
-- GitHub 上の open-source code
-- 文書化された external agent API surface
-- passwordless auth
+- すぐに使い始められるホスト版 Web アプリ
+- ローカル SQLite と同期機能を備えた、リポジトリ内の iOS アプリ
+- 期限が来たカードと FSRS を軸にした復習フロー
+- GitHub で公開しているオープンソースのコード
+- 文書化された外部ツール向け API
+- パスワードレス認証
 - [セルフホスティングガイド](https://flashcards-open-source-app.com/docs/self-hosting/)
 - [アーキテクチャ](https://flashcards-open-source-app.com/docs/architecture/)
 
-まだ early ですし、そこをごまかすつもりはありません。それでも、product はすでに browser-only prototype 以上です。repository には hosted web app、iOS client、auth service、backend API、そして現在の sync path まで含まれています。私は polished だが boxed-in なものより、early でも honest なものを使いたいです。
+まだ初期段階ですし、それを大げさに取り繕うつもりもありません。ただ、それでもすでにブラウザだけの試作品ではありません。リポジトリには、ホスト版 Web アプリ、iOS クライアント、認証サービス、バックエンド API、そして現行の同期の仕組みまで含まれています。私は、きれいに整っている代わりに身動きが取れないものより、早い段階でも正直なものを使いたいと思っています。
 
-## これは、まさに今作るべき種類の product
+## これは、まさに今つくるべき種類の製品だと思う
 
-不思議なのは、新しい Anki alternative があることではありません。今でももっと数がないことのほうです。
+不思議なのは、新しい Anki の代替が出てきたことではありません。むしろ、いまだにもっと増えていないことのほうです。
 
-私たちはかつてないほど速く products を作れます。小さく保てます。open source で ship できます。demo-only magic ではなく、actual product actions に AI を接続できます。hosted option を提供しつつ、permanent dependence を強制しなくて済みます。
+いまの私たちは、これまでになく速く製品を作れます。小さく保つこともできる。オープンソースで公開できる。デモ向けの見せかけではなく、実際の製品操作に AI をつなげられる。ホスト版を提供しながら、そこに永続的に縛りつける必要もありません。
 
-Flashcards は、その世界に完璧に合うカテゴリです。domain はシンプル。value は明確。data は personal。AI が real cards と real review state に働けるほど workflow は良くなる。本来なら、最も modernize しやすいカテゴリの 1 つであるべきです。
+暗記カードは、そうした時代にとても合った分野です。領域はシンプルで、価値はわかりやすく、データは個人的です。AI が実際のカードと実際の復習状況に触れられるほど、学習の流れはよくなっていく。本来なら、もっとも現代化しやすい分野の一つであるはずです。
 
-だからこそ [Flashcards](https://flashcards-open-source-app.com/) の賭けはここにあります。open source、必要なら self-hosted、core に spaced repetition、そして real product model の一部として統合された AI。
+だからこそ、[Flashcards](https://flashcards-open-source-app.com/) が賭けているのはそこです。オープンソースで、必要ならセルフホストできて、核にあるのは間隔反復、そして AI は製品の実体から切り離された飾りではなく、その一部として組み込まれている。
 
-landing page で「AI-first」と書くと聞こえがいいからではありません。このカテゴリが finally より良い product に値する tooling を手にしたからです。
+ランディングページに「AI を前提にした設計です」と書くと聞こえがいいからではありません。この分野が、ようやくもっと良い製品に値する道具立てを手にしたからです。
 
-## 試すか self-host する
+## まず試す。あるいは自分で動かす
 
-spaced repetition を備え、self-hosted path があり、本当に AI workflows が育つ余地のある open source flashcards app を探しているなら、ここから始めてください。
+間隔反復に対応し、セルフホストの道もあり、AI を本当に活かせる余地のあるオープンソースの暗記カードアプリを探しているなら、まずはここから見てください。
 
-- [hosted app を開く](https://app.flashcards-open-source-app.com/)
-- [getting started guide を読む](https://flashcards-open-source-app.com/docs/getting-started/)
-- [GitHub で source を見る](https://github.com/kirill-markin/flashcards-open-source-app)
+- [ホスト版アプリを開く](https://app.flashcards-open-source-app.com/)
+- [スタートガイドを読む](https://flashcards-open-source-app.com/docs/getting-started/)
+- [GitHub でソースを見る](https://github.com/kirill-markin/flashcards-open-source-app)
 
-Flashcards は、modern software のように感じられるべきです。よりきれいな landing page を付けた legacy study software でも、flashcards feature が付属した closed subscription でもありません。
+Flashcards は、現代のソフトウェアとして自然に使えるものであるべきです。見た目だけきれいにした昔ながらの学習ソフトでも、暗記カード機能が付いているだけの閉じたサブスクリプション製品でもありません。
 
-open source、自分の data を own できること、そして real product に対して働く AI。その方向のほうが、ずっと良いと思います。このカテゴリは何年もそれを待っていたはずです。
+オープンソースで、自分のデータを自分で持てて、AI も実際の製品に対してきちんと働く。その方向のほうが、はるかに健全です。この分野は、ずっと前からそういう進化を待っていたのだと思います。
