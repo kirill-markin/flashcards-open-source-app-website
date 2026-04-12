@@ -85,7 +85,7 @@ FSRS はたいてい、古い、あるいは粗い scheduling より calm な re
 
 より深い scheduler comparison は、こちらです。
 
-- [FSRS vs SM-2 in 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [2026年の FSRS vs SM-2: どの spaced repetition algorithm がより多く覚えられるか](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
 
 ## notes-to-cards が重要なのであって、notes-as-a-worldview が重要なわけではない
 
@@ -108,7 +108,7 @@ Flashcards がこの方向により合うのは、card creation、AI chat、file
 
 今の setup が重く感じる主因がこれなら、ここから始めてください。
 
-- [How to Turn Notes Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
+- [2026年、notes を Flashcards に変える方法: manual copy-paste の代わりに AI drafting と FSRS を使う](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
 
 ## offline studying が重要なのは、記憶の作業が理想条件の外で起きるから
 
@@ -127,7 +127,7 @@ Flashcards が web app と repository 内の iOS direction 全体で目指して
 
 offline behavior が探し始めた理由なら、こちらがより深い記事です。
 
-- [Best Offline Flashcards App in 2026](https://flashcards-open-source-app.com/blog/best-offline-flashcards-app/)
+- [2026年のベスト Offline Flashcards App: インターネットなしでも FSRS と Sync で学べる](https://flashcards-open-source-app.com/blog/best-offline-flashcards-app/)
 
 ## open source が重要なのは、deck がすぐ temporary でなくなるから
 
@@ -145,7 +145,7 @@ open-source flashcards app なら、関係はより健全です。code は見え
 
 ownership を最も重視するなら、ここから始めてください。
 
-- [Self-Hosted Open Source Flashcards App for Spaced Repetition](https://flashcards-open-source-app.com/blog/self-hosted-open-source-flashcards-app-for-spaced-repetition/)
+- [間隔反復のための self-hosted open source flashcards app](https://flashcards-open-source-app.com/blog/self-hosted-open-source-flashcards-app-for-spaced-repetition/)
 
 ## 2026 年のベスト RemNote alternative は何か
 

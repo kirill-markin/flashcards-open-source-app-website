@@ -183,7 +183,7 @@ Wenn der Scheduler stark ist, hält der Workflow zusammen. Aus Notion entwerfen,
 
 Wenn du diesen Vergleich genauer willst, geht dieser Begleitartikel weiter:
 
-- [FSRS vs SM-2 in 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [FSRS vs SM-2 in 2026: Welcher Spaced-Repetition-Algorithmus hilft dir, mehr zu behalten?](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
 
 ## Wo Flashcards in diesen Workflow passt
 
@@ -212,11 +212,11 @@ Darum ist der Export-und-Draft-Workflow hier besonders praktisch. Er respektiert
 
 Wenn dein Quellmaterial einfacher Text statt eines Notion-Workspaces ist, passt dieser Begleitartikel besser:
 
-- [How to Turn Notes Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
+- [Wie du 2026 Notizen in Flashcards verwandelst: KI-Entwürfe mit FSRS statt manuellem Copy-and-paste](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
 
 Und wenn dein Notion-Export am Ende eher wie ein Dokument funktioniert, ist auch dieser nützlich:
 
-- [How to Turn a PDF Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-turn-a-pdf-into-flashcards/)
+- [Wie du 2026 eine PDF in Flashcards verwandelst: Vorlesungsfolien, Lehrbücher und Papers zu FSRS-Karten](https://flashcards-open-source-app.com/blog/how-to-turn-a-pdf-into-flashcards/)
 
 ## Ein praktischer Workflow, den ich wirklich nutzen würde
 

@@ -179,8 +179,8 @@ Wenn du **Anki vs Quizlet** vergleichst und sich keine der beiden Antworten ganz
 Starte mit [Flashcards](https://flashcards-open-source-app.com/):
 
 - [Die gehostete App öffnen](https://app.flashcards-open-source-app.com/)
-- [Die Getting-Started-Anleitung lesen](https://flashcards-open-source-app.com/docs/getting-started/)
-- [Die Self-Hosting-Anleitung lesen](https://flashcards-open-source-app.com/docs/self-hosting/)
+- [Erste Schritte](https://flashcards-open-source-app.com/docs/getting-started/)
+- [Self-Hosting-Leitfaden](https://flashcards-open-source-app.com/docs/self-hosting/)
 - [Den Sourcecode auf GitHub ansehen](https://github.com/kirill-markin/flashcards-open-source-app)
 
 Wir hätten inzwischen bessere Flashcards-Software haben sollen.

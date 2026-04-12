@@ -264,7 +264,7 @@ Es por eso que **convertir la lectura en tarjetas didácticas** se vuelve mucho 
 
 Si desea conocer la programación con más detalle, vaya aquí:
 
-- [FSRS vs SM-2 en 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [FSRS vs SM-2 en 2026: ¿Qué algoritmo de repetición espaciada le ayuda a recordar más?](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
 
 ## Dónde encaja la aplicación de código abierto Flashcards
 

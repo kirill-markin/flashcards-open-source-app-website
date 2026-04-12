@@ -106,7 +106,7 @@ Das ist kein technisches Nischendetail. Es entscheidet, ob sich die App noch gut
 
 Wenn du die längere Version willst, gibt es dazu schon einen tieferen Vergleich:
 
-- [FSRS vs SM-2 in 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [FSRS vs SM-2 in 2026: Welcher Spaced-Repetition-Algorithmus hilft dir, mehr zu behalten?](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
 
 ## Offline-Lernen ist wichtiger, als Produktmarketing vermuten lässt
 
@@ -127,7 +127,7 @@ Das passt deutlich besser zu echtem Lernen, als Offline-Nutzung wie einen exotis
 
 Wenn genau das der Hauptgrund ist, warum Quizlet für dich zu dünn wirkt, geht dieser Artikel tiefer:
 
-- [Best Offline Flashcards App in 2026](https://flashcards-open-source-app.com/blog/best-offline-flashcards-app/)
+- [Die beste Offline-Flashcards-App 2026: Mit FSRS und Sync ohne Internet lernen](https://flashcards-open-source-app.com/blog/best-offline-flashcards-app/)
 
 ## Eigentum zählt, weil Decks kein Wegwerf-Content sind
 
@@ -145,7 +145,7 @@ Das ist für alle, die eine langfristige **Quizlet Alternative** suchen, eine vi
 
 Wenn Eigentum und Self-Hosting dein Hauptgrund fürs Umschauen sind, starte hier:
 
-- [Self-Hosted Open Source Flashcards App for Spaced Repetition](https://flashcards-open-source-app.com/blog/self-hosted-open-source-flashcards-app-for-spaced-repetition/)
+- [Self-Hosted Open Source Flashcards App für Spaced Repetition](https://flashcards-open-source-app.com/blog/self-hosted-open-source-flashcards-app-for-spaced-repetition/)
 
 ## KI ist nützlich, wenn sie Arbeit entfernt, statt Lernen zu ersetzen
 
@@ -167,7 +167,7 @@ Schon dadurch wird der Workflow in Flashcards stärker, weil das Produkt Folgend
 
 Wenn dir dieser Teil am wichtigsten ist, geht dieser Artikel tiefer:
 
-- [How to Turn Notes Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
+- [Wie du 2026 Notizen in Flashcards verwandelst: KI-Entwürfe mit FSRS statt manuellem Copy-and-paste](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
 
 ## Quizlet ist für leichte Nutzung immer noch okay. Die Suche bedeutet meist, dass sich deine Anforderungen geändert haben.
 
@@ -184,5 +184,5 @@ Darum ist [Flashcards](https://flashcards-open-source-app.com/) 2026 eine überz
 Wenn du diese Richtung erkunden willst:
 
 - [Die App öffnen](https://app.flashcards-open-source-app.com/)
-- [Die Getting-Started-Anleitung lesen](https://flashcards-open-source-app.com/docs/getting-started/)
+- [Erste Schritte](https://flashcards-open-source-app.com/docs/getting-started/)
 - [Den Sourcecode auf GitHub ansehen](https://github.com/kirill-markin/flashcards-open-source-app)

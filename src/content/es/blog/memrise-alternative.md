@@ -93,7 +93,7 @@ Cambia si todavía vale la pena mantener la plataforma después del período de 
 
 Si desea una comparación de programación más profunda, esto va más allá:
 
-- [FSRS vs SM-2 en 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [FSRS vs SM-2 en 2026: ¿Qué algoritmo de repetición espaciada le ayuda a recordar más?](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
 
 ## La confianza fuera de línea es importante porque estudiar ocurre en lugares reales y aburridos
 

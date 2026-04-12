@@ -94,7 +94,7 @@ El proyecto ya tiene esa base:
 - una superficie API de agente externo documentada
 - autenticación sin contraseña
 - una [guía de autohospedaje](https://flashcards-open-source-app.com/docs/self-hosting/)
-- [documentos de arquitectura](https://flashcards-open-source-app.com/docs/architecture/)
+- [Arquitectura](https://flashcards-open-source-app.com/docs/architecture/)
 
 Todavía es temprano y no pretendo lo contrario. Pero el producto ya es más que un prototipo exclusivo de navegador: el repositorio incluye la aplicación web alojada, el cliente iOS, el servicio de autenticación, la API backend y la ruta de sincronización actual. Prefiero usar algo temprano y honesto que algo pulido y encajonado.
 

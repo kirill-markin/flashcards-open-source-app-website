@@ -141,7 +141,7 @@ cards が decent でも review system が weak なら、whole workflow は still
 
 scheduling side の more detail は、こちらです。
 
-- [FSRS vs SM-2 in 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [2026年の FSRS vs SM-2: どの spaced repetition algorithm がより多く覚えられるか](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
 
 ## Flashcards がこの workflow に合う理由
 
@@ -171,11 +171,11 @@ product は already、actually matters する pieces を持っています。
 
 source が自分の written material なら、こちらの companion piece のほうが fit します。
 
-- [How to Turn Notes Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
+- [2026年、notes を Flashcards に変える方法: manual copy-paste の代わりに AI drafting と FSRS を使う](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
 
 source が document、slides、paper なら、こちらのほうが fit します。
 
-- [How to Turn a PDF Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-turn-a-pdf-into-flashcards/)
+- [2026年、PDF を Flashcards に変える方法: lecture slides、textbooks、research papers を FSRS cards にする](https://flashcards-open-source-app.com/blog/how-to-turn-a-pdf-into-flashcards/)
 
 video は explanation quality と transcript noise が混ざる独自の annoying category です。
 

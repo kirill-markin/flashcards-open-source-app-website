@@ -112,7 +112,7 @@ Ese no es un detalle técnico específico. Cambia si la aplicación todavía se 
 
 Si quieres la versión más larga, ya hay una comparación más profunda aquí:
 
-- [FSRS vs SM-2 en 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [FSRS vs SM-2 en 2026: ¿Qué algoritmo de repetición espaciada le ayuda a recordar más?](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
 
 ## Estudiar fuera de línea es más importante de lo que sugiere el marketing del producto
 

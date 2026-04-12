@@ -166,7 +166,7 @@ Si esa es tu situación, comienza con esto:
 
 Y si la comparación para usted es principalmente sobre la calidad del programador, este es el artículo paralelo más relevante:
 
-- [FSRS vs SM-2 en 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [FSRS vs SM-2 en 2026: ¿Qué algoritmo de repetición espaciada le ayuda a recordar más?](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
 
 ## Entonces, ¿cuál es la mejor alternativa a Anki en 2026?
 

@@ -152,7 +152,7 @@ keywords:
 
 Если хотите подробнее именно про планировщик, вот отдельная статья:
 
-- [FSRS vs SM-2 in 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- ['FSRS против SM-2 в 2026 году: какой алгоритм интервального повторения поможет вам](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
 
 ## Особенно хорошо это работает, когда источник изначально был грязным
 
@@ -170,9 +170,9 @@ keywords:
 
 Если ваш источник застрял еще на шаг раньше, вот полезные соседние статьи:
 
-- [How to Turn Notes Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
-- [How to Turn a PDF Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-turn-a-pdf-into-flashcards/)
-- [How to Turn Notion Notes Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-turn-notion-notes-into-flashcards/)
+- [Как превращать заметки в карточки в 2026 году: AI-черновики с FSRS вместо ручного copy-paste](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
+- ['Как превратить PDF-файл в карточки в 2026 году: слайды лекций, учебники и научные](https://flashcards-open-source-app.com/blog/how-to-turn-a-pdf-into-flashcards/)
+- ['Как превратить концептуальные заметки в карточки в 2026 году: экспорт, черновик с](https://flashcards-open-source-app.com/blog/how-to-turn-notion-notes-into-flashcards/)
 
 ## Workflow, которым я бы пользовался на этой неделе
 

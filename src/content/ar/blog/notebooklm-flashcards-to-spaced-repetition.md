@@ -152,7 +152,7 @@ keywords:
 
 إذا أردت جانب الجدولة بمزيد من التفصيل، فهذا المقال المرافق أعمق:
 
-- [FSRS vs SM-2 in 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [FSRS vs SM-2 في عام 2026: ما هي خوارزمية التكرار المتباعد التي تساعدك على تذكر المزيد؟](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
 
 ## هذا ينجح جيدًا خصوصًا حين تكون المادة المصدرية بدأت فوضوية
 

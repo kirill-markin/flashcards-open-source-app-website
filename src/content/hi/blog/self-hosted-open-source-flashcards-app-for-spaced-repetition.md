@@ -88,8 +88,8 @@ project में यह foundation पहले से है:
 - GitHub पर open-source code
 - documented external agent API surface
 - passwordless auth
-- [self-hosting guide](https://flashcards-open-source-app.com/docs/self-hosting/)
-- [architecture docs](https://flashcards-open-source-app.com/docs/architecture/)
+- [सेल्फ-होस्टिंग गाइड](https://flashcards-open-source-app.com/docs/self-hosting/)
+- [आर्किटेक्चर](https://flashcards-open-source-app.com/docs/architecture/)
 
 यह अभी भी early है, और मैं इसका दिखावा नहीं कर रहा। लेकिन product browser-only prototype से ज़्यादा है: repository hosted web app, iOS client, auth service, backend API, और current sync path ship करती है। मैं polished लेकिन boxed-in चीज़ की तुलना में early और honest चीज़ इस्तेमाल करना पसंद करूँगा।
 

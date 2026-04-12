@@ -82,7 +82,7 @@ Du hast das Konzept irgendwo schon im Kopf. Die Voice Note ist die chaotische Br
 
 Wenn deine Quelle eine vollst채ndige Unterrichtsaufnahme statt deiner eigenen Zusammenfassung ist, starte hier:
 
-- [How to Turn Lecture Recordings Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-turn-lecture-recordings-into-flashcards/)
+- [Wie du 2026 Vorlesungsaufzeichnungen in Flashcards verwandelst: Vom Transkript zu FSRS-Karten, ohne alles noch einmal anzusehen](https://flashcards-open-source-app.com/blog/how-to-turn-lecture-recordings-into-flashcards/)
 
 ## Dem Workflow, dem ich vertraue, ist kurz: aufnehmen, transkribieren, dann gnadenlos aufr채umen
 
@@ -198,7 +198,7 @@ Genau deshalb kann **study voice notes with flashcards** n체tzlicher sein, als e
 
 Wenn die Rohquelle handschriftlich statt gesprochen ist, passt dieser Artikel besser:
 
-- [How to Turn Handwritten Notes Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-turn-handwritten-notes-into-flashcards/)
+- [Wie du 2026 handschriftliche Notizen in Flashcards verwandelst: Fotos, OCR und KI-Entw체rfe, ohne alles neu abzuschreiben](https://flashcards-open-source-app.com/blog/how-to-turn-handwritten-notes-into-flashcards/)
 
 ## Schlechte Audio-zu-Flashcards-Workflows scheitern meist auf dieselben drei Arten
 
@@ -255,7 +255,7 @@ Wenn der Scheduler solide ist, wird der ganze Audio-Workflow glaubw체rdig. Du h�
 
 Wenn du die Scheduler-Seite genauer willst, geht dieser Artikel weiter:
 
-- [FSRS vs SM-2 in 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [FSRS vs SM-2 in 2026: Welcher Spaced-Repetition-Algorithmus hilft dir, mehr zu behalten?](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
 
 ## Wo Flashcards in diesen Workflow passt
 

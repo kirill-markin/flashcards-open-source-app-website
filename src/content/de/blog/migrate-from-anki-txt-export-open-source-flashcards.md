@@ -93,7 +93,7 @@ Es ist schneller als manuelles Neuanlegen und ehrlicher, als einen dedizierten I
 
 Migration lohnt sich nur, wenn das Ziel besser genug ist, um den Wechsel zu rechtfertigen. Hier werden **FSRS flashcards** Teil der Geschichte.
 
-Flashcards ist um FSRS herum gebaut und nicht um ältere SM-2-artige Standards, und genau diese Richtung würde ich von einem modernen Lerntool erwarten. Wenn du die längere Version willst, gibt es bereits einen ganzen Artikel zu [FSRS vs SM-2 in 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/).
+Flashcards ist um FSRS herum gebaut und nicht um ältere SM-2-artige Standards, und genau diese Richtung würde ich von einem modernen Lerntool erwarten. Wenn du die längere Version willst, gibt es bereits einen ganzen Artikel zu [FSRS vs SM-2 in 2026: Welcher Spaced-Repetition-Algorithmus hilft dir, mehr zu behalten?](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/).
 
 Praktisch ist das Upgrade nicht nur ein Weg weg von Anki. Es ist eine Landung in einem System, in dem:
 

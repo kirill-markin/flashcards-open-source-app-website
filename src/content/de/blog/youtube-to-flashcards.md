@@ -141,7 +141,7 @@ Wenn die Karten okay sind, der Review-Plan aber schwach ist, fühlt sich der gan
 
 Wenn du die Scheduling-Seite genauer willst, geht dieser Begleitartikel tiefer:
 
-- [FSRS vs SM-2 in 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [FSRS vs SM-2 in 2026: Welcher Spaced-Repetition-Algorithmus hilft dir, mehr zu behalten?](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
 
 ## Wo Flashcards in diesen Workflow passt
 
@@ -171,11 +171,11 @@ Es ist beidem nah, aber nicht identisch.
 
 Wenn die Quelle dein eigenes schriftliches Material ist, passt dieser Begleitartikel besser:
 
-- [How to Turn Notes Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
+- [Wie du 2026 Notizen in Flashcards verwandelst: KI-Entwürfe mit FSRS statt manuellem Copy-and-paste](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
 
 Wenn die Quelle ein Dokument, Foliensatz oder Paper ist, passt dieser hier besser:
 
-- [How to Turn a PDF Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-turn-a-pdf-into-flashcards/)
+- [Wie du 2026 eine PDF in Flashcards verwandelst: Vorlesungsfolien, Lehrbücher und Papers zu FSRS-Karten](https://flashcards-open-source-app.com/blog/how-to-turn-a-pdf-into-flashcards/)
 
 Video ist seine eigene nervige Kategorie, weil es Erklärungsqualität mit Transkript-Rauschen mischt.
 

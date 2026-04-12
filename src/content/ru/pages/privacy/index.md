@@ -36,7 +36,7 @@ Hosted cloud data хранятся в AWS infrastructure, включая Postgre
 
 ## Support
 
-По вопросам privacy пишите на [kirill+flashcards@kirill-markin.com](mailto:kirill+flashcards@kirill-markin.com) или используйте [support page](/support/).
+По вопросам privacy пишите на [kirill+flashcards@kirill-markin.com](mailto:kirill+flashcards@kirill-markin.com) или используйте [Поддержка](/support/).
 
 ## Open Source
 

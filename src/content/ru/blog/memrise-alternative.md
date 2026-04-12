@@ -88,7 +88,7 @@ FSRS обычно дает более спокойный и правдоподо
 
 Если хотите более глубокое сравнение планировщиков, вот статья:
 
-- [FSRS vs SM-2 in 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- ['FSRS против SM-2 в 2026 году: какой алгоритм интервального повторения поможет вам](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
 
 ## Офлайн-надежность важна, потому что учатся люди в скучных реальных местах
 
@@ -112,7 +112,7 @@ FSRS обычно дает более спокойный и правдоподо
 
 Если офлайн-поведение - главная причина, по которой вы начали искать альтернативы, начните здесь:
 
-- [Best Offline Flashcards App in 2026](https://flashcards-open-source-app.com/blog/best-offline-flashcards-app/)
+- ['Лучшее офлайн-приложение для карточек в 2026 году: обучение без Интернета с FSRS](https://flashcards-open-source-app.com/blog/best-offline-flashcards-app/)
 
 ## iPhone workflow важнее, чем обычно признают
 
@@ -156,7 +156,7 @@ Flashcards уже хорошо подходит под этот сценарий
 
 Если именно трудозатраты на черновик заставляют вас искать альтернативы, эта статья идет глубже:
 
-- [How to Turn Notes Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
+- [Как превращать заметки в карточки в 2026 году: AI-черновики с FSRS вместо ручного copy-paste](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
 
 ## Владение важно потому, что колоды превращаются в личную инфраструктуру
 
@@ -176,7 +176,7 @@ Flashcards уже хорошо подходит под этот сценарий
 
 Если именно владение подталкивает вас к поиску, начните здесь:
 
-- [Self-Hosted Open Source Flashcards App for Spaced Repetition](https://flashcards-open-source-app.com/blog/self-hosted-open-source-flashcards-app-for-spaced-repetition/)
+- [Self-hosted open-source приложение с карточками для интервального повторения](https://flashcards-open-source-app.com/blog/self-hosted-open-source-flashcards-app-for-spaced-repetition/)
 
 ## Так какая альтернатива Memrise лучшая в 2026 году?
 
@@ -192,5 +192,5 @@ Flashcards уже хорошо подходит под этот сценарий
 
 - [Open Flashcards](https://flashcards-open-source-app.com/)
 - [Open the app](https://app.flashcards-open-source-app.com/)
-- [Read the getting started guide](https://flashcards-open-source-app.com/docs/getting-started/)
+- [Начало работы](https://flashcards-open-source-app.com/docs/getting-started/)
 - [View the source on GitHub](https://github.com/kirill-markin/flashcards-open-source-app)

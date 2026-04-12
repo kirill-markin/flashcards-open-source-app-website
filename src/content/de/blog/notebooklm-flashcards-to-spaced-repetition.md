@@ -152,7 +152,7 @@ Darum sind **FSRS flashcards** in dieser Unterhaltung so wichtig. Sobald die Kar
 
 Wenn du die Scheduling-Seite genauer sehen willst, geht dieser Begleitartikel weiter:
 
-- [FSRS vs SM-2 in 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [FSRS vs SM-2 in 2026: Welcher Spaced-Repetition-Algorithmus hilft dir, mehr zu behalten?](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
 
 ## Das funktioniert besonders gut, wenn die Quelle ursprünglich chaotisch war
 
@@ -170,9 +170,9 @@ Das heißt: Die generierten Karten sind ohnehin schon eine Transformation von de
 
 Wenn deine Quelle noch einen Schritt früher festhängt, helfen diese Begleitartikel:
 
-- [How to Turn Notes Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
-- [How to Turn a PDF Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-turn-a-pdf-into-flashcards/)
-- [How to Turn Notion Notes Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-turn-notion-notes-into-flashcards/)
+- [Wie du 2026 Notizen in Flashcards verwandelst: KI-Entwürfe mit FSRS statt manuellem Copy-and-paste](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
+- [Wie du 2026 eine PDF in Flashcards verwandelst: Vorlesungsfolien, Lehrbücher und Papers zu FSRS-Karten](https://flashcards-open-source-app.com/blog/how-to-turn-a-pdf-into-flashcards/)
+- [Wie du 2026 Notion-Notizen in Flashcards verwandelst: Exportieren, mit KI entwerfen und mit FSRS reviewen](https://flashcards-open-source-app.com/blog/how-to-turn-notion-notes-into-flashcards/)
 
 ## Der Workflow, den ich diese Woche nutzen würde
 

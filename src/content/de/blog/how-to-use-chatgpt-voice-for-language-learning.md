@@ -142,7 +142,7 @@ Das passt viel besser, als einen ganzen Dialog im Kleinformat aufzubewahren.
 
 Wenn du die breiteren Regeln für Kartenqualität willst, starte hier:
 
-- [How to Make Better Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [Wie du 2026 bessere Flashcards machst: Front- und Back-Regeln, die mit FSRS wirklich funktionieren](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
 
 ## ChatGPT Voice ist besonders gut für aktive Recall-Fehler
 
@@ -173,7 +173,7 @@ Darum ist **ChatGPT voice language learning** etwas anderes als Vokabeln in dein
 
 Wenn deine Quelle rohe Audionotizen an dich selbst statt interaktiver Konversation sind, passt dieser Guide besser:
 
-- [How to Turn Voice Notes Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-turn-voice-notes-into-flashcards/)
+- [Wie du 2026 Voice Notes in Flashcards verwandelst: Von Audiodiktat zu FSRS-Karten, ohne alles neu zu schreiben](https://flashcards-open-source-app.com/blog/how-to-turn-voice-notes-into-flashcards/)
 
 ## Sprachkarten sollten nah an deinen echten Gesprächen bleiben
 
@@ -224,8 +224,8 @@ Wenn nicht, lass die Formulierung in der Session und dort sterben.
 
 Wenn Review-Last ohnehin dein größeres Problem ist, passen diese Begleitartikel direkt dazu:
 
-- [How Many New Flashcards Per Day in 2026?](https://flashcards-open-source-app.com/blog/how-many-new-flashcards-per-day/)
-- [How to Catch Up on Flashcards After Falling Behind in 2026](https://flashcards-open-source-app.com/blog/how-to-catch-up-on-flashcards-after-falling-behind/)
+- [Wie viele neue Flashcards pro Tag im Jahr 2026? Baue eine FSRS-Review-Last, die du wirklich fertig bekommst](https://flashcards-open-source-app.com/blog/how-many-new-flashcards-per-day/)
+- [Wie du 2026 bei Flashcards wieder aufholst, nachdem du zurückgefallen bist: Review-Backlog reparieren, ohne das Deck zurückzusetzen](https://flashcards-open-source-app.com/blog/how-to-catch-up-on-flashcards-after-falling-behind/)
 
 ## FSRS ist wichtig, weil gesprochene Formulierungen seltsam verfallen
 
@@ -248,7 +248,7 @@ Die Sequenz, der ich vertraue, bleibt:
 
 Wenn du die Scheduling-Seite genauer verstehen willst, geht dieser Artikel weiter:
 
-- [FSRS vs SM-2 in 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [FSRS vs SM-2 in 2026: Welcher Spaced-Repetition-Algorithmus hilft dir, mehr zu behalten?](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
 
 ## Wo Flashcards Open Source App passt
 
@@ -285,6 +285,6 @@ Und lass danach Spaced Repetition die leise Arbeit übernehmen.
 Wenn du genau das willst, starte hier:
 
 - [Flashcards Open Source App öffnen](https://flashcards-open-source-app.com/)
-- [Die Getting-Started-Anleitung lesen](https://flashcards-open-source-app.com/docs/getting-started/)
-- [Die API-Dokumentation lesen](https://flashcards-open-source-app.com/docs/api/)
+- [Erste Schritte](https://flashcards-open-source-app.com/docs/getting-started/)
+- [API-Referenz](https://flashcards-open-source-app.com/docs/api/)
 - [Den Sourcecode auf GitHub ansehen](https://github.com/kirill-markin/flashcards-open-source-app)

@@ -53,7 +53,7 @@ keywords:
 
 وهذه هي القاعدة نفسها التي تجعل البطاقات العامة أفضل أيضًا:
 
-- [How to Make Better Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [كيفية تحسين Flashcards في عام 2026: القواعد الأمامية والخلفية التي تعمل فعليًا مع FSRS](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
 
 مجموعات اللغات فقط تعاقب البطاقات المحمّلة فوق طاقتها بسرعة أكبر.
 
@@ -165,8 +165,8 @@ Back: "I want to avoid this mistake next time."
 
 إذا أردت التعمق في جانب الجدولة، فابدأ من هنا:
 
-- [FSRS vs SM-2 in 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
-- [How Many New Flashcards Per Day in 2026?](https://flashcards-open-source-app.com/blog/how-many-new-flashcards-per-day/)
+- [FSRS vs SM-2 في عام 2026: ما هي خوارزمية التكرار المتباعد التي تساعدك على تذكر المزيد؟](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [كم عدد Flashcards الجديدة يوميًا في عام 2026؟ أنشئ تحميل مراجعة FSRS يمكنك إنهاؤه فعليًا](https://flashcards-open-source-app.com/blog/how-many-new-flashcards-per-day/)
 
 ## حمولة المراجعة أهم من حجم المجموعة
 
@@ -209,9 +209,9 @@ Back: "I want to avoid this mistake next time."
 
 إذا كانت المادة المصدر تبدأ كملاحظات أو تفريغ أو مخرجات دردشة، فهذه الأدلة تساعدك قبل هذه المرحلة:
 
-- [How to Use ChatGPT to Make Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-use-chatgpt-to-make-flashcards/)
-- [How to Turn Voice Notes Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-turn-voice-notes-into-flashcards/)
-- [How to Turn YouTube Videos Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/youtube-to-flashcards/)
+- [كيفية استخدام ChatGPT لصنع بطاقات تعليمية في 2026: مطالبات أفضل، بطاقات أفضل، ومراجعة أفضل مع FSRS](https://flashcards-open-source-app.com/blog/how-to-use-chatgpt-to-make-flashcards/)
+- [كيفية تحويل الملاحظات الصوتية إلى Flashcards في 2026: من الإملاء الصوتي إلى بطاقات FSRS من دون إعادة كتابة كل شيء](https://flashcards-open-source-app.com/blog/how-to-turn-voice-notes-into-flashcards/)
+- [كيفية تحويل فيديو YouTube إلى Flashcards في 2026: صياغة بالذكاء الاصطناعي للمحاضرات والشروحات ومقاطع اللغات](https://flashcards-open-source-app.com/blog/youtube-to-flashcards/)
 
 ## ابنِ المجموعة حول هدفك الحقيقي، لا حول طموح لغوي عام
 
@@ -241,9 +241,9 @@ Back: "I want to avoid this mistake next time."
 
 إذا كنت تقارن أيضًا بين خيارات منتجات أوسع، فهذه أقرب المقالات المجاورة:
 
-- [Memrise Alternative in 2026](https://flashcards-open-source-app.com/blog/memrise-alternative/)
-- [Quizlet Alternative in 2026](https://flashcards-open-source-app.com/blog/quizlet-alternative/)
-- [Best Offline Flashcards App in 2026](https://flashcards-open-source-app.com/blog/best-offline-flashcards-app/)
+- [بديل Memrise في 2026: تطبيق Flashcards مفتوح المصدر مع FSRS، ودراسة دون اتصال، وسير عمل يضع iPhone أولًا](https://flashcards-open-source-app.com/blog/memrise-alternative/)
+- [بديل Quizlet في 2026: تطبيق Flashcards مفتوح المصدر مع FSRS، ودراسة دون اتصال، وملكية كاملة للبيانات](https://flashcards-open-source-app.com/blog/quizlet-alternative/)
+- [أفضل تطبيق Flashcards غير متصل بالإنترنت في عام 2026: الدراسة بدون الإنترنت باستخدام FSRS والمزامنة](https://flashcards-open-source-app.com/blog/best-offline-flashcards-app/)
 
 ## إذن كيف ينبغي أن تستخدم البطاقات التعليمية لتعلّم اللغات في 2026؟
 

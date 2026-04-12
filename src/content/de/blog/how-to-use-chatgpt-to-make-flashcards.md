@@ -176,7 +176,7 @@ Aber lass dann einen echten Scheduler die Wiederholung ordentlich übernehmen.
 
 Wenn du die Scheduling-Seite genauer willst, geht dieser Begleitartikel weiter:
 
-- [FSRS vs SM-2 in 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [FSRS vs SM-2 in 2026: Welcher Spaced-Repetition-Algorithmus hilft dir, mehr zu behalten?](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
 
 ## Wo Flashcards in diesen Workflow passt
 
@@ -209,11 +209,11 @@ Die drei Fälle, die ich am meisten mag, sind:
 
 Wenn deine Quelle eine PDF ist, passt dieser Begleitartikel besser:
 
-- [How to Turn a PDF Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-turn-a-pdf-into-flashcards/)
+- [Wie du 2026 eine PDF in Flashcards verwandelst: Vorlesungsfolien, Lehrbücher und Papers zu FSRS-Karten](https://flashcards-open-source-app.com/blog/how-to-turn-a-pdf-into-flashcards/)
 
 Wenn deine Quelle einfache Notizen sind, ist dieser hier passender:
 
-- [How to Turn Notes Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
+- [Wie du 2026 Notizen in Flashcards verwandelst: KI-Entwürfe mit FSRS statt manuellem Copy-and-paste](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
 
 ## Die bessere Regel
 
@@ -227,7 +227,7 @@ Wenn du genau das willst, starte hier:
 
 - [Flashcards öffnen](https://flashcards-open-source-app.com/)
 - [Die App öffnen](https://app.flashcards-open-source-app.com/)
-- [Die Self-Hosting-Anleitung lesen](https://flashcards-open-source-app.com/docs/self-hosting/)
+- [Self-Hosting-Leitfaden](https://flashcards-open-source-app.com/docs/self-hosting/)
 - [Den Sourcecode auf GitHub ansehen](https://github.com/kirill-markin/flashcards-open-source-app)
 
 ChatGPT kann dir absolut beim Erstellen von Flashcards helfen.

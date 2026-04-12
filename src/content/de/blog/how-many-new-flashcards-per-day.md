@@ -102,8 +102,8 @@ Darum wäre ich vorsichtig mit jedem Workflow, der Kartenerstellung völlig reib
 
 Wenn dein Quellmaterial noch in Dokumentform vorliegt, helfen diese Workflows beim Entwurfs-Teil:
 
-- [How to Turn a PDF Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-turn-a-pdf-into-flashcards/)
-- [How to Turn Notes Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
+- [Wie du 2026 eine PDF in Flashcards verwandelst: Vorlesungsfolien, Lehrbücher und Papers zu FSRS-Karten](https://flashcards-open-source-app.com/blog/how-to-turn-a-pdf-into-flashcards/)
+- [Wie du 2026 Notizen in Flashcards verwandelst: KI-Entwürfe mit FSRS statt manuellem Copy-and-paste](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
 
 ## Eine praktische Methode, deine Zahl zu finden
 
@@ -151,7 +151,7 @@ Nein, der Scheduler macht unbegrenzte Kartenaufnahme nicht zu einem ernsthaften 
 
 Wenn du den Scheduling-Vergleich direkt willst, geht dieser Artikel tiefer:
 
-- [FSRS vs SM-2 in 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [FSRS vs SM-2 in 2026: Welcher Spaced-Repetition-Algorithmus hilft dir, mehr zu behalten?](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
 
 ## Review-Backlog ist meist auch ein Schreibproblem
 
@@ -209,7 +209,7 @@ Du brauchst das kleinste Deck, das das Material trotzdem gut vermittelt.
 
 Wenn du Karten direkt aus KI-Prompts baust, passt dieser Begleitartikel ebenfalls:
 
-- [How to Use ChatGPT to Make Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-use-chatgpt-to-make-flashcards/)
+- [Wie du 2026 ChatGPT nutzt, um Flashcards zu erstellen: bessere Prompts, bessere Karten, bessere Reviews mit FSRS](https://flashcards-open-source-app.com/blog/how-to-use-chatgpt-to-make-flashcards/)
 
 ## Warum Flashcards hier besser hineinpasst
 

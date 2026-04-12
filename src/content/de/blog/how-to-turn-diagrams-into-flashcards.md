@@ -224,11 +224,11 @@ Dieselbe Regel gilt: Verwandle das Bild zuerst in eine saubere Beschreibung und 
 
 Wenn der Screenshot textlastig ist, passt dieser Begleitartikel vielleicht besser:
 
-- [How to Turn an Article Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-turn-an-article-into-flashcards/)
+- [Wie du 2026 einen Artikel in Flashcards verwandelst: Die nützlichen Ideen behalten, den Highlight-Friedhof überspringen](https://flashcards-open-source-app.com/blog/how-to-turn-an-article-into-flashcards/)
 
 Wenn es eher eine Notizbuchseite als ein strukturiertes Diagramm ist, ist dieser näher dran:
 
-- [How to Turn Handwritten Notes Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-turn-handwritten-notes-into-flashcards/)
+- [Wie du 2026 handschriftliche Notizen in Flashcards verwandelst: Fotos, OCR und KI-Entwürfe, ohne alles neu abzuschreiben](https://flashcards-open-source-app.com/blog/how-to-turn-handwritten-notes-into-flashcards/)
 
 ## Die Karte sollte jeweils eine visuelle Idee testen
 
@@ -314,11 +314,11 @@ Genau dort schlägt eine echte Flashcards-App einen einmaligen Diagramm-Parser.
 
 Wenn du die Scheduling-Seite genauer verstehen willst, lohnt sich dieser Begleitartikel:
 
-- [FSRS vs SM-2 in 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [FSRS vs SM-2 in 2026: Welcher Spaced-Repetition-Algorithmus hilft dir, mehr zu behalten?](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
 
 Und wenn deine Quelle eher Vorlesungsfolien oder ein Paper als ein Diagrammbild ist, starte hier:
 
-- [How to Turn a PDF Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-turn-a-pdf-into-flashcards/)
+- [Wie du 2026 eine PDF in Flashcards verwandelst: Vorlesungsfolien, Lehrbücher und Papers zu FSRS-Karten](https://flashcards-open-source-app.com/blog/how-to-turn-a-pdf-into-flashcards/)
 
 ## Die nützliche Regel
 
@@ -341,5 +341,5 @@ Wenn du genau das willst, starte hier:
 
 - [Flashcards öffnen](https://flashcards-open-source-app.com/)
 - [Die App öffnen](https://app.flashcards-open-source-app.com/)
-- [Die Getting-Started-Anleitung lesen](https://flashcards-open-source-app.com/docs/getting-started/)
+- [Erste Schritte](https://flashcards-open-source-app.com/docs/getting-started/)
 - [Den Sourcecode auf GitHub ansehen](https://github.com/kirill-markin/flashcards-open-source-app)

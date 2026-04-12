@@ -199,8 +199,8 @@ Der Engpass ist meist Auswahl, nicht Generierung.
 
 Wenn du die breitere KI-Entwurfsseite willst, helfen diese Begleitartikel:
 
-- [How to Use ChatGPT to Make Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-use-chatgpt-to-make-flashcards/)
-- [How to Turn ChatGPT Study Mode Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-turn-chatgpt-study-mode-into-flashcards/)
+- [Wie du 2026 ChatGPT nutzt, um Flashcards zu erstellen: bessere Prompts, bessere Karten, bessere Reviews mit FSRS](https://flashcards-open-source-app.com/blog/how-to-use-chatgpt-to-make-flashcards/)
+- [Wie du 2026 den ChatGPT Study Mode in Flashcards verwandelst: Den Tutor behalten, Spaced Repetition ergänzen](https://flashcards-open-source-app.com/blog/how-to-turn-chatgpt-study-mode-into-flashcards/)
 
 ## Technische Artikel verdienen konkrete Antwortformate
 
@@ -220,8 +220,8 @@ So bleibt das Recall-Ziel sauber, und du bekommst nach der Antwort trotzdem Kont
 
 Wenn die Quelle eher einem PDF-Kapitel oder Vorlesungsnotizen ähnelt als einer Webseite, passen diese Begleitartikel besser:
 
-- [How to Turn a PDF Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-turn-a-pdf-into-flashcards/)
-- [How to Turn Notes Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
+- [Wie du 2026 eine PDF in Flashcards verwandelst: Vorlesungsfolien, Lehrbücher und Papers zu FSRS-Karten](https://flashcards-open-source-app.com/blog/how-to-turn-a-pdf-into-flashcards/)
+- [Wie du 2026 Notizen in Flashcards verwandelst: KI-Entwürfe mit FSRS statt manuellem Copy-and-paste](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
 
 ## Ein guter Artikel kann fünf exzellente Karten ergeben
 
@@ -259,7 +259,7 @@ Darum wird **turn reading into flashcards** viel praktischer, sobald das Deck mi
 
 Wenn du die Scheduling-Seite genauer willst, schau hier:
 
-- [FSRS vs SM-2 in 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [FSRS vs SM-2 in 2026: Welcher Spaced-Repetition-Algorithmus hilft dir, mehr zu behalten?](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
 
 ## Wo Flashcards Open Source App passt
 
@@ -275,8 +275,8 @@ Diese Kombination ist wichtig, weil der nützliche Teil nicht "KI hat Karten aus
 
 Wenn deine Quelle eher gesprächs- oder audiobasiert ist als textbasiert, liegen diese Artikel nahe:
 
-- [How to Turn a Podcast Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-turn-a-podcast-into-flashcards/)
-- [How to Turn Lecture Recordings Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-turn-lecture-recordings-into-flashcards/)
+- [Wie du 2026 einen Podcast in Flashcards verwandelst: Vom Transkript zu FSRS-Karten ohne die ganze Folge erneut zu hören](https://flashcards-open-source-app.com/blog/how-to-turn-a-podcast-into-flashcards/)
+- [Wie du 2026 Vorlesungsaufzeichnungen in Flashcards verwandelst: Vom Transkript zu FSRS-Karten, ohne alles noch einmal anzusehen](https://flashcards-open-source-app.com/blog/how-to-turn-lecture-recordings-into-flashcards/)
 
 ## Die nützliche Regel
 

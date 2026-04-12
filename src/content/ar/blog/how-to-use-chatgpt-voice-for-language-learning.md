@@ -142,7 +142,7 @@ keywords:
 
 إذا أردت القواعد الأوسع لجودة البطاقات، فابدأ من هنا:
 
-- [How to Make Better Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [كيفية تحسين Flashcards في عام 2026: القواعد الأمامية والخلفية التي تعمل فعليًا مع FSRS](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
 
 ## ChatGPT Voice ممتاز خصوصًا في كشف إخفاقات الاسترجاع النشط
 
@@ -173,7 +173,7 @@ keywords:
 
 إذا كان مصدرك تسجيلًا صوتيًا خامًا سجلته لنفسك بدلًا من محادثة تفاعلية، فهذه المقالة أنسب:
 
-- [How to Turn Voice Notes Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-turn-voice-notes-into-flashcards/)
+- [كيفية تحويل الملاحظات الصوتية إلى Flashcards في 2026: من الإملاء الصوتي إلى بطاقات FSRS من دون إعادة كتابة كل شيء](https://flashcards-open-source-app.com/blog/how-to-turn-voice-notes-into-flashcards/)
 
 ## بطاقات تعلّم اللغة ينبغي أن تبقى قريبة من محادثاتك الحقيقية
 
@@ -224,8 +224,8 @@ keywords:
 
 إذا كانت حمولة المراجعة هي مشكلتك الأكبر أصلًا، فهاتان المقالتان المكملتان تناسبان هذا الموضوع مباشرة:
 
-- [How Many New Flashcards Per Day in 2026?](https://flashcards-open-source-app.com/blog/how-many-new-flashcards-per-day/)
-- [How to Catch Up on Flashcards After Falling Behind in 2026](https://flashcards-open-source-app.com/blog/how-to-catch-up-on-flashcards-after-falling-behind/)
+- [كم عدد Flashcards الجديدة يوميًا في عام 2026؟ أنشئ تحميل مراجعة FSRS يمكنك إنهاؤه فعليًا](https://flashcards-open-source-app.com/blog/how-many-new-flashcards-per-day/)
+- [كيفية اللحاق بـ Flashcards بعد التخلف عن الركب في عام 2026: إصلاح تراكم المراجعة الخاص بك دون إعادة ضبط المجموعة](https://flashcards-open-source-app.com/blog/how-to-catch-up-on-flashcards-after-falling-behind/)
 
 ## FSRS مهم لأن العبارات المنطوقة تتلاشى بطريقة غريبة
 
@@ -248,7 +248,7 @@ keywords:
 
 إذا أردت التعمق في جانب الجدولة، فهذه المقالة تشرح أكثر:
 
-- [FSRS vs SM-2 in 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [FSRS vs SM-2 في عام 2026: ما هي خوارزمية التكرار المتباعد التي تساعدك على تذكر المزيد؟](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
 
 ## أين يناسب Flashcards Open Source App
 
@@ -285,6 +285,6 @@ keywords:
 إذا كان هذا ما تريده، فابدأ من هنا:
 
 - [Open Flashcards Open Source App](https://flashcards-open-source-app.com/)
-- [Read the getting started guide](https://flashcards-open-source-app.com/docs/getting-started/)
-- [Read the API docs](https://flashcards-open-source-app.com/docs/api/)
+- [البدء](https://flashcards-open-source-app.com/docs/getting-started/)
+- [مرجع API](https://flashcards-open-source-app.com/docs/api/)
 - [View the source on GitHub](https://github.com/kirill-markin/flashcards-open-source-app)

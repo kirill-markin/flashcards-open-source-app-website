@@ -27,7 +27,7 @@ GET https://api.flashcards-open-source-app.com/v1/
 
 ## Self-Hosting
 
-Если вы предпочитаете запускать свою copy, смотрите [self-hosting guide](/docs/self-hosting/).
+Если вы предпочитаете запускать свою copy, смотрите [Руководство по self-hosting](/docs/self-hosting/).
 
 ## Что доступно уже сегодня
 

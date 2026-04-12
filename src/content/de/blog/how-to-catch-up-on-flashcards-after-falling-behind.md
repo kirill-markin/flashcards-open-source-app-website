@@ -82,7 +82,7 @@ Du bist jetzt im Recovery-Modus. Die Aufgabe ist, die Review-Warteschlange zu st
 
 Wenn du die tiefere Logik hinter täglicher Aufnahme willst, passt dieser Begleitartikel gut dazu:
 
-- [How Many New Flashcards Per Day in 2026?](https://flashcards-open-source-app.com/blog/how-many-new-flashcards-per-day/)
+- [Wie viele neue Flashcards pro Tag im Jahr 2026? Baue eine FSRS-Review-Last, die du wirklich fertig bekommst](https://flashcards-open-source-app.com/blog/how-many-new-flashcards-per-day/)
 
 ## Nächster Schritt: Eine tägliche Untergrenze wählen, die du wirklich wiederholen kannst
 
@@ -136,7 +136,7 @@ Eine Minute für die Bereinigung einer schlechten Karte kann später mehrere ner
 
 Wenn dein eigentliches Problem eher Kartenqualität als verpasste Tage ist, geht dieser Artikel tiefer:
 
-- [How to Make Better Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [Wie du 2026 bessere Flashcards machst: Front- und Back-Regeln, die mit FSRS wirklich funktionieren](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
 
 ## Priorisiere zuerst den ertragreichsten Teil des Decks
 
@@ -156,7 +156,7 @@ Das gilt noch stärker, wenn die fällige Warteschlange mit einer echten Deadlin
 
 Dann passt auch dieser Artikel:
 
-- [How to Study for an Exam With FSRS in 2026](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/)
+- [Wie du 2026 mit FSRS für eine Prüfung lernst: Ein Flashcard-Plan, den du vor dem Prüfungstag wirklich schaffst](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/)
 
 ## Das Ziel ist zuerst Gewohnheitserholung, dann Backlog-Reduktion
 

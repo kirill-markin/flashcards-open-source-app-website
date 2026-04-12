@@ -136,7 +136,7 @@ Darum würde ich eine Study-Mode-Sitzung nicht in zwanzig komplexe Karten verwan
 
 Wenn du die tiefere Kartenqualitäts-Version dieses Arguments willst, geht dieser Begleitartikel weiter:
 
-- [How to Make Better Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [Wie du 2026 bessere Flashcards machst: Front- und Back-Regeln, die mit FSRS wirklich funktionieren](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
 
 ## Das funktioniert auch für Gemini Guided Learning, nicht nur für ChatGPT
 
@@ -182,8 +182,8 @@ Wenn nicht, lass die Tutor-Sitzung einfach eine Tutor-Sitzung bleiben.
 
 Wenn Review-Überlastung ohnehin dein größeres Problem ist, passen diese Artikel direkt daneben:
 
-- [How Many New Flashcards Per Day in 2026?](https://flashcards-open-source-app.com/blog/how-many-new-flashcards-per-day/)
-- [How to Catch Up on Flashcards After Falling Behind in 2026](https://flashcards-open-source-app.com/blog/how-to-catch-up-on-flashcards-after-falling-behind/)
+- [Wie viele neue Flashcards pro Tag im Jahr 2026? Baue eine FSRS-Review-Last, die du wirklich fertig bekommst](https://flashcards-open-source-app.com/blog/how-many-new-flashcards-per-day/)
+- [Wie du 2026 bei Flashcards wieder aufholst, nachdem du zurückgefallen bist: Review-Backlog reparieren, ohne das Deck zurückzusetzen](https://flashcards-open-source-app.com/blog/how-to-catch-up-on-flashcards-after-falling-behind/)
 
 ## Der bessere Prompt ist nicht "mach Flashcards daraus"
 
@@ -201,11 +201,11 @@ Das funktioniert viel besser, als ein komplettes Transkript ins Modell zu kippen
 
 Wenn dein Workflow früher beginnt, also vor Study Mode und vor Tutoring, deckt dieser Begleitartikel die direktere Generierungsroute ab:
 
-- [How to Use ChatGPT to Make Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-use-chatgpt-to-make-flashcards/)
+- [Wie du 2026 ChatGPT nutzt, um Flashcards zu erstellen: bessere Prompts, bessere Karten, bessere Reviews mit FSRS](https://flashcards-open-source-app.com/blog/how-to-use-chatgpt-to-make-flashcards/)
 
 Und wenn die Quelle eher ein Study Guide oder ein Notebook als eine Tutor-Sitzung ist, passt dieser hier:
 
-- [How to Turn NotebookLM Flashcards Into Real Spaced Repetition in 2026](https://flashcards-open-source-app.com/blog/notebooklm-flashcards-to-spaced-repetition/)
+- [Wie du 2026 NotebookLM-Flashcards in echte Spaced Repetition verwandelst: exportieren, bereinigen und mit FSRS reviewen](https://flashcards-open-source-app.com/blog/notebooklm-flashcards-to-spaced-repetition/)
 
 ## FSRS ist der Teil, der eine gute Sitzung in Langzeit-Retention verwandelt
 
@@ -225,7 +225,7 @@ Selbst exzellente Karten werden nervig, wenn sie zu schlechten Zeitpunkten zurü
 
 Wenn du den Algorithmusvergleich selbst willst, geht dieser Artikel tiefer:
 
-- [FSRS vs SM-2 in 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [FSRS vs SM-2 in 2026: Welcher Spaced-Repetition-Algorithmus hilft dir, mehr zu behalten?](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
 
 ## Warum Flashcards besser in diesen Workflow passt
 

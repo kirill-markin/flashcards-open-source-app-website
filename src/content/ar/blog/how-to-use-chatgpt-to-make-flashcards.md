@@ -192,7 +192,7 @@ OpenAI تدفع علنًا باتجاه سير عمل دراسي قائم على
 
 إذا أردت التعمق أكثر في جانب الجدولة، فهذه المقالة المكملة تشرح ذلك:
 
-- [FSRS vs SM-2 in 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [FSRS vs SM-2 في عام 2026: ما هي خوارزمية التكرار المتباعد التي تساعدك على تذكر المزيد؟](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
 
 ## أين يناسب Flashcards هذا السير
 
@@ -225,11 +225,11 @@ OpenAI تدفع علنًا باتجاه سير عمل دراسي قائم على
 
 إذا كان مصدرك ملف PDF، فهذه المقالة المكملة أنسب:
 
-- [How to Turn a PDF Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-turn-a-pdf-into-flashcards/)
+- [كيفية تحويل PDF إلى Flashcards في عام 2026: شرائح المحاضرات والكتب المدرسية والأوراق البحثية إلى بطاقات FSRS](https://flashcards-open-source-app.com/blog/how-to-turn-a-pdf-into-flashcards/)
 
 وإذا كان مصدرك ملاحظات نصية عادية، فهذه أنسب:
 
-- [How to Turn Notes Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
+- [كيفية تحويل الملاحظات إلى Flashcards في 2026: صياغة بالذكاء الاصطناعي مع FSRS بدل النسخ واللصق اليدوي](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
 
 ## القاعدة الأفضل
 
@@ -243,7 +243,7 @@ OpenAI تدفع علنًا باتجاه سير عمل دراسي قائم على
 
 - [Open Flashcards](https://flashcards-open-source-app.com/)
 - [Open the app](https://app.flashcards-open-source-app.com/)
-- [Read the self-hosting guide](https://flashcards-open-source-app.com/docs/self-hosting/)
+- [دليل الاستضافة الذاتية](https://flashcards-open-source-app.com/docs/self-hosting/)
 - [View the source on GitHub](https://github.com/kirill-markin/flashcards-open-source-app)
 
 يمكن لـ ChatGPT فعلًا أن يساعدك في صنع بطاقات تعليمية.

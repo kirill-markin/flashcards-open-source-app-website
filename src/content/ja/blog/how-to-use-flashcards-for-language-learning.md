@@ -53,7 +53,7 @@ language learning では、たいてい 1 枚の card を 1 つの target thing 
 
 generic flashcards を良くするのと同じ rule です。
 
-- [How to Make Better Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [2026年、より良い Flashcards を作る方法: FSRS と実際に噛み合う front / back の rule](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
 
 language decks は overloaded cards をさらに速く punish します。
 
@@ -165,8 +165,8 @@ prompt が vague、answer が overloaded、あるいは card が fuzzy familiari
 
 scheduling side の詳細は、こちらから。
 
-- [FSRS vs SM-2 in 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
-- [How Many New Flashcards Per Day in 2026?](https://flashcards-open-source-app.com/blog/how-many-new-flashcards-per-day/)
+- [2026年の FSRS vs SM-2: どの spaced repetition algorithm がより多く覚えられるか](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [2026年、1日に何枚の新しい Flashcards を追加すべきか: 本当に終えられる FSRS review load を作る](https://flashcards-open-source-app.com/blog/how-many-new-flashcards-per-day/)
 
 ## deck size より review load のほうが重要
 
@@ -209,9 +209,9 @@ language learning では、私は AI を次の用途に使います。
 
 source material が notes、transcript text、chat output から始まるなら、upstream 側ではこちらも役立ちます。
 
-- [How to Use ChatGPT to Make Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-use-chatgpt-to-make-flashcards/)
-- [How to Turn Voice Notes Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-turn-voice-notes-into-flashcards/)
-- [How to Turn YouTube Videos Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/youtube-to-flashcards/)
+- [2026年、ChatGPT を使って Flashcards を作る方法: prompt を良くし、cards を良くし、FSRS で review を良くする](https://flashcards-open-source-app.com/blog/how-to-use-chatgpt-to-make-flashcards/)
+- [2026年、voice notes を Flashcards に変える方法: everything を書き直さずに audio dictation を FSRS cards にする](https://flashcards-open-source-app.com/blog/how-to-turn-voice-notes-into-flashcards/)
+- [2026年、YouTube video を Flashcards に変える方法: lectures、tutorials、language videos を AI drafting で card 化する](https://flashcards-open-source-app.com/blog/youtube-to-flashcards/)
 
 ## generic な language ambition ではなく、real goal を軸に作る
 
@@ -241,9 +241,9 @@ goal が exam なら、online で出会う興味深い word すべてへ wanderi
 
 より広い product options も比較したいなら、こちらが近い記事です。
 
-- [Memrise Alternative in 2026](https://flashcards-open-source-app.com/blog/memrise-alternative/)
-- [Quizlet Alternative in 2026](https://flashcards-open-source-app.com/blog/quizlet-alternative/)
-- [Best Offline Flashcards App in 2026](https://flashcards-open-source-app.com/blog/best-offline-flashcards-app/)
+- [2026年の Memrise Alternative: FSRS、offline study、iPhone-first workflow を備えた open-source flashcards app](https://flashcards-open-source-app.com/blog/memrise-alternative/)
+- [2026年の Quizlet Alternative: FSRS、offline study、full data ownership を備えた open-source flashcards app](https://flashcards-open-source-app.com/blog/quizlet-alternative/)
+- [2026年のベスト Offline Flashcards App: インターネットなしでも FSRS と Sync で学べる](https://flashcards-open-source-app.com/blog/best-offline-flashcards-app/)
 
 ## では 2026 年、language learning に flashcards をどう使うべきか
 

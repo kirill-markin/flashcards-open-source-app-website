@@ -178,9 +178,9 @@ slide deck、notes、PDF handout があるなら、transcript と一緒に使っ
 
 だからこの workflow は、次の source types とも自然に overlap します。
 
-- [How to Turn a PDF Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-turn-a-pdf-into-flashcards/)
-- [How to Turn Notes Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
-- [How to Turn a YouTube Video Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/youtube-to-flashcards/)
+- [2026年、PDF を Flashcards に変える方法: lecture slides、textbooks、research papers を FSRS cards にする](https://flashcards-open-source-app.com/blog/how-to-turn-a-pdf-into-flashcards/)
+- [2026年、notes を Flashcards に変える方法: manual copy-paste の代わりに AI drafting と FSRS を使う](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
+- [2026年、YouTube video を Flashcards に変える方法: lectures、tutorials、language videos を AI drafting で card 化する](https://flashcards-open-source-app.com/blog/youtube-to-flashcards/)
 
 source は違っても underlying rule は同じです。grounded な material から始め、AI に study system を invent させるのではなく narrow な cards を draft する。
 
@@ -251,7 +251,7 @@ messy な lecture を strong retrieval prompts に変える work をしたなら
 
 algorithm side の詳細は、こちらです。
 
-- [FSRS vs SM-2 in 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [2026年の FSRS vs SM-2: どの spaced repetition algorithm がより多く覚えられるか](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
 
 ## card に値するかを決める practical な rule
 

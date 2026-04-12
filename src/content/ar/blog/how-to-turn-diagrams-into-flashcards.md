@@ -314,7 +314,7 @@ keywords:
 
 إذا أردت جانب الجدولة بمزيد من التفصيل، فهذا المقال المرافق يستحق القراءة:
 
-- [FSRS vs SM-2 in 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [FSRS vs SM-2 في عام 2026: ما هي خوارزمية التكرار المتباعد التي تساعدك على تذكر المزيد؟](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
 
 وإذا كان مصدرك أقرب إلى شرائح محاضرة أو ورقة بحثية من كونه صورة رسم، فابدأ من هنا:
 

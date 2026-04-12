@@ -88,8 +88,8 @@ Quizlet решил проблему интерфейса. Он выглядит 
 - open-source код на GitHub
 - документированная external agent API surface
 - passwordless auth
-- [self-hosting guide](https://flashcards-open-source-app.com/docs/self-hosting/)
-- [architecture docs](https://flashcards-open-source-app.com/docs/architecture/)
+- [Руководство по self-hosting](https://flashcards-open-source-app.com/docs/self-hosting/)
+- [Архитектура](https://flashcards-open-source-app.com/docs/architecture/)
 
 Проект еще ранний, и я не собираюсь делать вид, что это не так. Но продукт уже больше, чем browser-only прототип: репозиторий включает hosted web app, iOS-клиент, auth service, backend API и текущий путь синхронизации. Я бы лучше использовал что-то раннее и честное, чем что-то отполированное и запертое.
 
@@ -110,7 +110,7 @@ Quizlet решил проблему интерфейса. Он выглядит 
 Если вам нужно open-source приложение с карточками, интервальным повторением, self-hosted путем и местом для настоящих AI-workflow, начните здесь:
 
 - [Open the hosted app](https://app.flashcards-open-source-app.com/)
-- [Read the getting started guide](https://flashcards-open-source-app.com/docs/getting-started/)
+- [Начало работы](https://flashcards-open-source-app.com/docs/getting-started/)
 - [View the source on GitHub](https://github.com/kirill-markin/flashcards-open-source-app)
 
 Софт для карточек должен ощущаться как современный софт. Не как легаси-инструмент для учебы с более красивым лендингом. И не как закрытая подписка, к которой случайно прикрутили карточки.

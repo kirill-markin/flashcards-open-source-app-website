@@ -130,7 +130,7 @@ keywords:
 
 Если хотите глубже именно в сторону планировщика, вот статья-компаньон:
 
-- [FSRS vs SM-2 in 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- ['FSRS против SM-2 в 2026 году: какой алгоритм интервального повторения поможет вам](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
 
 ## Обычный текст полезнее, чем любят признавать многие приложения для заметок
 
@@ -175,11 +175,11 @@ keywords:
 
 Если ваша проблема больше связана с переносом уже существующих коллекций, начните здесь:
 
-- [How to Migrate from Anki in 2026](https://flashcards-open-source-app.com/blog/migrate-from-anki-txt-export-open-source-flashcards/)
+- [Как перейти с Anki в 2026 году: экспортируйте карточки в TXT и перенесите их в open-source приложение с карточками](https://flashcards-open-source-app.com/blog/migrate-from-anki-txt-export-open-source-flashcards/)
 
 А если вы сравниваете категорию шире, то вот лучшая обзорная статья:
 
-- [Best Anki Alternatives in 2026](https://flashcards-open-source-app.com/blog/best-anki-alternatives/)
+- ['Лучшие альтернативы Anki в 2026 году: какое приложение для карточек вам действительно](https://flashcards-open-source-app.com/blog/best-anki-alternatives/)
 
 ## Так как же лучше всего превращать заметки в карточки в 2026 году?
 
@@ -201,7 +201,7 @@ keywords:
 
 - [Open Flashcards](https://flashcards-open-source-app.com/)
 - [Open the app](https://app.flashcards-open-source-app.com/)
-- [Read the getting started guide](https://flashcards-open-source-app.com/docs/getting-started/)
+- [Начало работы](https://flashcards-open-source-app.com/docs/getting-started/)
 - [View the source on GitHub](https://github.com/kirill-markin/flashcards-open-source-app)
 
 Нет ничего благородного в том, чтобы час вручную переформулировать заметки, если хороший workflow черновиков может быстрее привести вас к той же очереди повторения.

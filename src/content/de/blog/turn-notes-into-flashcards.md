@@ -130,7 +130,7 @@ Das ist der Unterschied zwischen "Ich habe ein paar Karten generiert" und "Ich h
 
 Wenn du die Scheduling-Seite genauer sehen willst, hier ist der Begleitartikel:
 
-- [FSRS vs SM-2 in 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [FSRS vs SM-2 in 2026: Welcher Spaced-Repetition-Algorithmus hilft dir, mehr zu behalten?](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
 
 ## Klartext ist nützlicher, als viele Notiz-Apps zugeben wollen
 
@@ -175,11 +175,11 @@ Genau dort zeigt Flashcards in die richtige Richtung. Es ist eine **open source 
 
 Wenn dein Problem eher darin liegt, vorhandene Sammlungen umzuziehen, starte hier:
 
-- [How to Migrate from Anki in 2026](https://flashcards-open-source-app.com/blog/migrate-from-anki-txt-export-open-source-flashcards/)
+- [Wie du 2026 von Anki migrierst: Exportiere deine Karten als TXT und sende sie an eine Open-Source-Flashcards-App](https://flashcards-open-source-app.com/blog/migrate-from-anki-txt-export-open-source-flashcards/)
 
 Und wenn du die breitere Kategorie vergleichst, ist dieser Überblick besser:
 
-- [Best Anki Alternatives in 2026](https://flashcards-open-source-app.com/blog/best-anki-alternatives/)
+- [Die besten Anki Alternativen 2026: Welche Flashcards-App solltest du wirklich nutzen?](https://flashcards-open-source-app.com/blog/best-anki-alternatives/)
 
 ## Was ist also 2026 der beste Weg, Notizen in Flashcards zu verwandeln?
 
@@ -201,7 +201,7 @@ Wenn du einen praktischen Weg suchst, **turn notes into flashcards**, starte hie
 
 - [Flashcards öffnen](https://flashcards-open-source-app.com/)
 - [Die App öffnen](https://app.flashcards-open-source-app.com/)
-- [Die Getting-Started-Anleitung lesen](https://flashcards-open-source-app.com/docs/getting-started/)
+- [Erste Schritte](https://flashcards-open-source-app.com/docs/getting-started/)
 - [Den Sourcecode auf GitHub ansehen](https://github.com/kirill-markin/flashcards-open-source-app)
 
 Es ist nichts Nobles daran, eine Stunde lang Notizen manuell umzuschreiben, wenn dich ein guter Entwurfs-Workflow schneller in dieselbe Review-Warteschlange bringt.

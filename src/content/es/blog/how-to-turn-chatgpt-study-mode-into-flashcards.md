@@ -230,7 +230,7 @@ Las **tarjetas didácticas FSRS** son las que hacen que el flujo de trabajo sea 
 
 Si desea la comparación del algoritmo en sí, esto es más profundo:
 
-- [FSRS vs SM-2 en 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [FSRS vs SM-2 en 2026: ¿Qué algoritmo de repetición espaciada le ayuda a recordar más?](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
 
 ## Dónde se adapta mejor Flashcards a este flujo de trabajo
 

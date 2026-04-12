@@ -91,7 +91,7 @@ Esa es una de las razones más importantes para elegir una **aplicación de repe
 
 Si desea una comparación más profunda del programador, esto va más allá:
 
-- [FSRS vs SM-2 en 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [FSRS vs SM-2 en 2026: ¿Qué algoritmo de repetición espaciada le ayuda a recordar más?](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
 
 ## Las notas para tarjetas importan más que las notas como visión del mundo
 

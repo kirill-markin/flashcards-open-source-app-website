@@ -151,7 +151,7 @@ Die aktuellen Docs sagen es ausdrücklich:
 Wenn du die technische Version willst, findest du die Architektur-Doku hier:
 
 - [Architektur](https://flashcards-open-source-app.com/docs/architecture/)
-- [Self-Hosting-Anleitung](https://flashcards-open-source-app.com/docs/self-hosting/)
+- [Self-Hosting-Leitfaden](https://flashcards-open-source-app.com/docs/self-hosting/)
 
 ## FSRS ist besser, wenn das ganze System ausgerichtet bleibt
 
@@ -167,7 +167,7 @@ Das ist eine gesündere Form für eine echte **offline flashcards app** als ein 
 
 Wenn du den breiteren Scheduling-Vergleich willst, ist dieser Begleitartikel lesenswert:
 
-- [FSRS vs SM-2 in 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [FSRS vs SM-2 in 2026: Welcher Spaced-Repetition-Algorithmus hilft dir, mehr zu behalten?](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
 
 ## Offline heißt nicht für immer isoliert
 
@@ -205,13 +205,13 @@ Wenn du aktiv nach der **best offline flashcards app** suchst, starte hier:
 
 - [Flashcards öffnen](https://flashcards-open-source-app.com/)
 - [Die App öffnen](https://app.flashcards-open-source-app.com/)
-- [Die Architektur-Doku lesen](https://flashcards-open-source-app.com/docs/architecture/)
+- [Architektur](https://flashcards-open-source-app.com/docs/architecture/)
 - [Den Sourcecode auf GitHub ansehen](https://github.com/kirill-markin/flashcards-open-source-app)
 
 Und wenn du zuerst die breitere Kategorie vergleichst, sind das die nützlichen Begleitartikel:
 
-- [Die besten Anki Alternativen 2026](https://flashcards-open-source-app.com/blog/best-anki-alternatives/)
-- [Anki vs Quizlet vs Open-Source-Flashcards-App](https://flashcards-open-source-app.com/blog/anki-vs-quizlet-vs-open-source-flashcards-app/)
+- [Die besten Anki Alternativen 2026: Welche Flashcards-App solltest du wirklich nutzen?](https://flashcards-open-source-app.com/blog/best-anki-alternatives/)
+- [Anki vs Quizlet vs Open-Source-Flashcards-App: Das beste Spaced-Repetition-Tool 2026](https://flashcards-open-source-app.com/blog/anki-vs-quizlet-vs-open-source-flashcards-app/)
 
 Das beste Offline-Lerntool ist meistens nicht das mit dem lautesten Offline-Badge.
 

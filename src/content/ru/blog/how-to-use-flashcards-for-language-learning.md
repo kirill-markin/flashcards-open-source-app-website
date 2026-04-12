@@ -53,7 +53,7 @@ keywords:
 
 Это то же самое правило, которое делает и обычные карточки лучше:
 
-- [How to Make Better Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- ['Как сделать карточки лучше в 2026 году: прямые и обратные правила, которые действительно](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
 
 Просто языковые колоды наказывают перегруженные карточки еще быстрее.
 
@@ -165,8 +165,8 @@ Back: "I want to avoid this mistake next time."
 
 Если хотите подробнее именно про планирование, начните здесь:
 
-- [FSRS vs SM-2 in 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
-- [How Many New Flashcards Per Day in 2026?](https://flashcards-open-source-app.com/blog/how-many-new-flashcards-per-day/)
+- ['FSRS против SM-2 в 2026 году: какой алгоритм интервального повторения поможет вам](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [Сколько новых карточек в день в 2026 году? Создайте нагрузку по проверке FSRS, которую](https://flashcards-open-source-app.com/blog/how-many-new-flashcards-per-day/)
 
 ## Нагрузка повторения важнее размера колоды
 
@@ -209,9 +209,9 @@ Back: "I want to avoid this mistake next time."
 
 Если ваш исходный материал начинается как заметки, транскрипт или вывод из чата, вот полезные статьи выше по цепочке:
 
-- [How to Use ChatGPT to Make Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-use-chatgpt-to-make-flashcards/)
-- [How to Turn Voice Notes Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-turn-voice-notes-into-flashcards/)
-- [How to Turn YouTube Videos Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/youtube-to-flashcards/)
+- [Как использовать ChatGPT для создания карточек в 2026 году: лучшие промпты, лучшие карточки и лучшее повторение с FSRS](https://flashcards-open-source-app.com/blog/how-to-use-chatgpt-to-make-flashcards/)
+- ['Как превратить голосовые заметки в карточки в 2026 году: аудиодиктовка на карточки](https://flashcards-open-source-app.com/blog/how-to-turn-voice-notes-into-flashcards/)
+- [Как превратить видео с YouTube в карточки в 2026 году: AI-черновики для лекций, туториалов и языковых видео](https://flashcards-open-source-app.com/blog/youtube-to-flashcards/)
 
 ## Стройте колоду вокруг своей реальной цели, а не вокруг абстрактного "хочу знать язык"
 
@@ -241,9 +241,9 @@ Back: "I want to avoid this mistake next time."
 
 Если вы еще и сравниваете продукты шире, ближе всего сюда подходят такие статьи:
 
-- [Memrise Alternative in 2026](https://flashcards-open-source-app.com/blog/memrise-alternative/)
-- [Quizlet Alternative in 2026](https://flashcards-open-source-app.com/blog/quizlet-alternative/)
-- [Best Offline Flashcards App in 2026](https://flashcards-open-source-app.com/blog/best-offline-flashcards-app/)
+- [Альтернатива Memrise в 2026 году: open-source приложение с карточками, FSRS, офлайн-обучением и iPhone-first workflow](https://flashcards-open-source-app.com/blog/memrise-alternative/)
+- [Альтернатива Quizlet в 2026 году: open-source приложение с карточками, FSRS, офлайн-обучением и полным владением данными](https://flashcards-open-source-app.com/blog/quizlet-alternative/)
+- ['Лучшее офлайн-приложение для карточек в 2026 году: обучение без Интернета с FSRS](https://flashcards-open-source-app.com/blog/best-offline-flashcards-app/)
 
 ## Так как же использовать карточки для изучения языка в 2026 году?
 

@@ -102,7 +102,7 @@ Cambia si todavía vale la pena mantener la plataforma una vez que crece.
 
 Si desea una comparación más profunda del programador, este artículo va más allá:
 
-- [FSRS vs SM-2 en 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [FSRS vs SM-2 en 2026: ¿Qué algoritmo de repetición espaciada le ayuda a recordar más?](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
 
 ## El estudio fuera de línea es importante porque el trabajo de la memoria ocurre en lugares aburridos
 

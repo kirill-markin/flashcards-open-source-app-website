@@ -260,7 +260,7 @@ Si el programador es sólido, todo el flujo de trabajo de audio se vuelve creíb
 
 Si desea ver el lado del programador con más detalle, esto es más profundo:
 
-- [FSRS vs SM-2 en 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [FSRS vs SM-2 en 2026: ¿Qué algoritmo de repetición espaciada le ayuda a recordar más?](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
 
 ## Dónde encaja Flashcards en este flujo de trabajo
 
