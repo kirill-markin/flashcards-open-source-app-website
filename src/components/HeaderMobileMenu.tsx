@@ -2,7 +2,6 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import { LocaleSwitcher } from "@/components/LocaleSwitcher";
 import type { AppLocale } from "@/lib/i18n";
 import { getUiCopy } from "@/lib/uiCopy";
 import { AuthButton } from "./AuthButton";
@@ -46,9 +45,6 @@ export const HeaderMobileMenu: React.FC<HeaderMobileMenuProps> = ({
               {link.label}
             </Link>
           ))}
-          <div className={styles.mobileLocale}>
-            <LocaleSwitcher />
-          </div>
           <div className={styles.mobileAuth}>
             <AuthButton locale={locale} />
           </div>

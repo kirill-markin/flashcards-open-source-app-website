@@ -58,6 +58,12 @@
   gap: 8px;
 }
 
+.localePicker {
+  display: flex;
+  justify-content: center;
+  padding-block-start: 18px;
+}
+
 .copyright {
   color: var(--text-tertiary);
   font-size: 13px;
@@ -97,5 +103,9 @@
 
   .inner {
     padding: 24px 18px 16px;
+  }
+
+  .localePicker {
+    justify-content: stretch;
   }
 }
