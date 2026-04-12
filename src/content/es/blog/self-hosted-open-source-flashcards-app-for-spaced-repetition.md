@@ -1,123 +1,122 @@
 ---
 title: >-
-  Aplicación de tarjetas didácticas de código abierto autohospedada para
-  repetición espaciada
+  Aplicación de flashcards de código abierto y autohospedada para repetición
+  espaciada
 description: >-
-  ¿Busca una aplicación de tarjetas didácticas de código abierto que pueda
-  alojar usted mismo? Ejecute repeticiones espaciadas con una cola de revisión
-  rápida, autenticación sin contraseña y control total de los datos de su
-  estudio.
+  ¿Buscas una aplicación de flashcards de código abierto que puedas alojar por
+  tu cuenta? Usa repetición espaciada con una cola de repaso rápida,
+  autenticación sin contraseña y control total sobre tus datos de estudio.
 date: '2026-03-08'
 keywords:
-  - aplicación de tarjetas didácticas de código abierto
-  - aplicación de tarjetas didácticas autohospedadas
+  - aplicación de flashcards de código abierto
+  - aplicación de flashcards autohospedada
   - aplicación de repetición espaciada
-  - alternativa anki
+  - alternativa a anki
   - alternativa a quizlet
-  - tarjetas didácticas de ai
+  - flashcards con ia
 ---
-Abra Anki junto a Quizlet y la compensación será obvia en unos 30 segundos.
+Basta con abrir Anki al lado de Quizlet para ver el equilibrio de compromisos en menos de 30 segundos.
 
-Uno se siente como un viejo software de escritorio que nunca salió de 2012. El otro se siente como un producto de suscripción pulido que además incluye tarjetas didácticas.
+Uno se siente como un programa de escritorio anclado en 2012. El otro, como un producto de suscripción pulido que, además, incluye flashcards.
 
-Seguí encontrándome con esa división mientras trabajaba en [Flashcards](https://flashcards-open-source-app.com/). La idea de las repeticiones espaciadas sigue siendo genial. Los productos a su alrededor se sienten estancados.
+Me encontré una y otra vez con esa diferencia mientras trabajaba en [Flashcards](https://flashcards-open-source-app.com/). La idea de la repetición espaciada sigue siendo excelente. Lo que se ha quedado atrás es el producto que la rodea.
 
-Esto sería más fácil de aceptar si el software todavía fuera difícil de distribuir. No lo es.
+Eso sería más fácil de aceptar si seguir lanzando software fuese difícil. Ya no lo es.
 
-Los equipos pequeños ahora pueden crear productos reales en una semana. Podemos enviar rápidamente, conectar IA a flujos de trabajo reales y exponer API limpias desde el primer día. El software de tarjetas didácticas no debería seguir atrapado entre la torpe experiencia de usuario heredada y las plataformas cerradas.
+Hoy, equipos pequeños pueden construir productos reales en una semana. Podemos iterar rápido, integrar IA en flujos de trabajo de verdad y exponer APIs limpias desde el primer día. El software de flashcards no debería seguir atrapado entre una UX heredada y torpe y unas plataformas cerradas.
 
-Ese es el vacío que [Flashcards](https://flashcards-open-source-app.com/) está tratando de llenar: una aplicación de tarjetas didácticas de código abierto autohospedada con repetición espaciada, una pila web moderna, soporte al cliente sin conexión e inteligencia artificial integrada en la dirección del producto en lugar de grabarla más tarde.
+Ese es el hueco que [Flashcards](https://flashcards-open-source-app.com/) intenta cubrir: una aplicación de flashcards de código abierto y autohospedada, con repetición espaciada, una pila web moderna, soporte offline-first en el cliente e IA integrada en la dirección del producto en lugar de añadida a posteriori.
 
-## Anki todavía funciona, pero se siente viejo.
+## Anki sigue funcionando, pero se nota antiguo
 
-No creo que el problema con Anki sea que el algoritmo sea malo. La idea central está probada. La gente lo ha utilizado durante años para idiomas, medicina, exámenes y todo tipo de trabajos que requieren mucha memorización.
+No creo que el problema de Anki sea que el algoritmo sea malo. La idea base está más que demostrada. La gente lo lleva usando años para idiomas, medicina, exámenes y todo tipo de trabajo intensivo en memorización.
 
-El problema es que la experiencia del producto todavía parece vieja.
+El problema es que la experiencia de producto sigue pareciendo antigua.
 
-Puedes obligarte absolutamente a vivir con ello. Mucha gente lo hace. Pero "funciona si te acostumbras" no es un gran cumplido en 2026. La interfaz se siente como una herramienta que toleras, no una herramienta que disfrutas abriendo todos los días.
+Claro que puedes acostumbrarte. Muchísima gente lo hace. Pero "funciona si te adaptas" no es un gran elogio en 2026. La interfaz se siente como una herramienta que soportas, no como una herramienta que te apetece abrir todos los días.
 
-Eso importa más de lo que la gente admite. Las tarjetas didácticas solo funcionan si regresas mañana, y luego pasado mañana, y luego cien días después. Compuestos de fricción.
+Y eso importa más de lo que se suele admitir. Las flashcards solo funcionan si vuelves mañana, y al día siguiente, y cien días después. La fricción se acumula.
 
-## Quizlet es más fluido, pero la compensación es al revés
+## Quizlet es más fluido, pero el compromiso va en la otra dirección
 
-Quizlet solucionó el problema de la interfaz. Parece más limpio. Se siente más como un producto de consumo moderno. Para mucha gente, eso por sí solo lo hace más atractivo que Anki.
+Quizlet resolvió el problema de la interfaz. Se ve más limpio. Se siente más como un producto de consumo moderno. Para mucha gente, eso por sí solo ya lo hace más atractivo que Anki.
 
-Pero luego chocas contra la otra pared.
+Pero entonces te topas con el otro muro.
 
-Es difícil amar el precio de algo tan básico como las tarjetas didácticas. El producto está cerrado. Su sistema de estudio vive dentro de la plataforma de otra persona. Si sus precios cambian, las prioridades de los productos cambian o las reglas de acceso cambian, usted se adapta. Ellos no.
+Cuesta justificar el precio para algo tan básico como unas flashcards. El producto es cerrado. Tu sistema de estudio vive dentro de la plataforma de otra empresa. Si cambian los precios, las prioridades del producto o las reglas de acceso, quien tiene que adaptarse eres tú. Ellos no.
 
-Eso está bien para algunas categorías. No estoy convencido de que esté bien para conocimiento personal.
+Eso puede ser aceptable en algunas categorías. No tengo tan claro que lo sea cuando hablamos de conocimiento personal.
 
-## Tus tarjetas no deben quedar atrapadas dentro del producto de otra persona.
+## Tus tarjetas no deberían quedar atrapadas dentro del producto de otra empresa
 
-Las tarjetas didácticas no son contenido desechable. Con el tiempo, se convierten en un registro de lo que estás aprendiendo, de lo que sigues olvidando y de cómo cambia tu forma de pensar. Esos son datos valiosos.
+Las flashcards no son contenido desechable. Con el tiempo se convierten en un registro de lo que estás aprendiendo, de lo que sigues olvidando y de cómo cambia tu forma de pensar. Esos datos tienen valor.
 
-No me encanta la idea de construir eso dentro de una caja negra.
+No me entusiasma la idea de construir todo eso dentro de una caja negra.
 
-Con una aplicación de tarjetas didácticas autohospedada, el valor predeterminado cambia. Puedes inspeccionar el código. Puedes ejecutar la pila tú mismo. Puedes usar la versión alojada primero y moverte más tarde si lo deseas. No estás pidiendo permiso para seguir usando tu propio sistema de estudio de la forma que quieras.
+Con una aplicación de flashcards autohospedada, el punto de partida cambia. Puedes inspeccionar el código. Puedes ejecutar la pila por tu cuenta. Puedes usar primero la versión alojada y migrar después, si quieres. No tienes que pedir permiso para seguir usando tu propio sistema de estudio como mejor te convenga.
 
-Eso importa aún más ahora porque la IA hace que el encierro sea más doloroso. Una vez que su modelo de datos esté abierto y el producto exponga operaciones reales, la IA realmente puede funcionar con sus tarjetas. En productos cerrados, la capa de IA suele permanecer superficial porque el producto en sí está poco expuesto.
+Eso importa aún más ahora porque la IA hace que el bloqueo de plataforma resulte todavía más costoso. Cuando tu modelo de datos es abierto y el producto expone operaciones reales, la IA puede trabajar de verdad con tus tarjetas. En los productos cerrados, la capa de IA suele quedarse en la superficie porque el propio producto también está expuesto de forma superficial.
 
-## La mayoría de las funciones de las tarjetas didácticas de IA todavía son bastante débiles
+## La mayoría de las funciones de IA para flashcards siguen siendo bastante flojas
 
-En este momento, muchos productos de "tarjetas didácticas de IA" funcionan con un solo truco. Pegas algo de texto, generan algunas tarjetas y luego se termina la magia.
+Ahora mismo, muchos productos de "flashcards con IA" hacen un único truco. Pegas un texto, generan unas cuantas tarjetas y ahí se acaba la magia.
 
-Esa no es la parte interesante.
+Eso no es lo interesante.
 
-Lo interesante es dejar que la IA funcione dentro del producto real.
+Lo interesante es dejar que la IA actúe dentro del producto real.
 
-En [Flashcards](https://flashcards-open-source-app.com/), la aplicación web actual ya tiene un chat de IA vinculado al espacio de trabajo real. La arquitectura más amplia también expone una superficie de agente externo separada para herramientas de terminal, mientras que el cliente iOS mantiene su propio flujo de sincronización fuera de línea.
+En [Flashcards](https://flashcards-open-source-app.com/), la aplicación web actual ya tiene un chat con IA conectado al espacio de trabajo real. Además, la arquitectura más amplia expone una superficie externa de agentes para herramientas de terminal, mientras que el cliente de iOS mantiene su propio flujo de sincronización offline-first.
 
-Esa es una dirección mucho más fuerte que "generar 20 tarjetas a partir de este párrafo" y dar por terminado el día.
+Esa es una dirección mucho más sólida que limitarse a "genera 20 tarjetas a partir de este párrafo" y dar el tema por resuelto.
 
-Significa que la IA puede ayudar con las partes aburridas sin convertirse en un juguete:
+Significa que la IA puede ayudar con las partes más pesadas sin convertirse en un juguete:
 
 - comprobar si un concepto ya existe antes de crear una tarjeta duplicada
-- mostrar lo que se debe entregar en este momento en lugar de inventar contenido desconectado
-- limpiar la redacción de las tarjetas débiles
-- ayudar a mantener un mazo a lo largo del tiempo, no solo generarlo una vez
+- mostrar qué toca repasar ahora mismo, en lugar de inventarse contenido desconectado
+- mejorar la redacción de tarjetas flojas
+- ayudar a mantener un mazo con el paso del tiempo, no solo generarlo una vez
 
-Eso es lo que debería significar aquí "IA-primero". No es un chatbot integrado en una aplicación cerrada. Un producto donde los objetos y acciones reales están disponibles para la IA de forma controlada.
+Eso es lo que aquí debería significar "AI-first". No un chatbot pegado a una aplicación cerrada. Sino un producto en el que los objetos y las acciones reales están disponibles para la IA de forma controlada.
 
-## El producto debe ser moderno incluso antes de que aparezca la IA
+## El producto debería sentirse moderno incluso antes de que aparezca la IA
 
-Incluso sin IA, quería que el producto base se sintiera cuerdo.
+Incluso sin IA, quería que el producto base tuviera sentido.
 
-Eso significa una cola de revisión clara, creación de tarjetas desde el cliente web, repetición espaciada manejada por el backend, autenticación sin contraseña en lugar de otro cementerio de contraseñas y una ruta documentada y autohospedada para las personas que se preocupan por ser dueñas de su pila.
+Eso implica una cola de repaso clara, creación de tarjetas desde el cliente web, repetición espaciada gestionada por el backend, autenticación sin contraseña en lugar de otro cementerio de contraseñas y una ruta de autohospedaje documentada para quien quiera controlar su propia pila.
 
 El proyecto ya tiene esa base:
 
-- una aplicación web alojada que puedes usar ahora
-- una aplicación de iOS en el repositorio con SQLite local y sincronización
-- un flujo de revisión basado en tarjetas de vencimiento y FSRS
-- código fuente abierto en GitHub
-- una superficie API de agente externo documentada
+- una aplicación web alojada que ya se puede usar
+- una app de iOS en el repositorio con SQLite local y sincronización
+- un flujo de repaso basado en tarjetas vencidas y FSRS
+- código abierto en GitHub
+- una API externa de agentes documentada
 - autenticación sin contraseña
 - una [guía de autohospedaje](https://flashcards-open-source-app.com/docs/self-hosting/)
-- [Arquitectura](https://flashcards-open-source-app.com/docs/architecture/)
+- [documentación de arquitectura](https://flashcards-open-source-app.com/docs/architecture/)
 
-Todavía es temprano y no pretendo lo contrario. Pero el producto ya es más que un prototipo exclusivo de navegador: el repositorio incluye la aplicación web alojada, el cliente iOS, el servicio de autenticación, la API backend y la ruta de sincronización actual. Prefiero usar algo temprano y honesto que algo pulido y encajonado.
+Todavía está en una fase temprana, y no voy a fingir lo contrario. Pero el producto ya es bastante más que un prototipo solo para navegador: el repositorio incluye la aplicación web alojada, el cliente de iOS, el servicio de autenticación, la API backend y la ruta de sincronización actual. Prefiero usar algo temprano y honesto antes que algo pulido pero limitado.
 
-## Este es exactamente el tipo de producto que deberíamos crear ahora
+## Este es exactamente el tipo de producto que deberíamos estar construyendo ahora
 
-Lo extraño no es que exista una nueva alternativa a Anki. Lo extraño es que todavía no hay más.
+Lo raro no es que exista una nueva alternativa a Anki. Lo raro es que todavía no haya muchas más.
 
-Podemos crear productos más rápido que nunca. Podemos mantenerlos pequeños. Podemos enviar código abierto. Podemos conectar la IA con acciones reales del producto en lugar de magia de demostración únicamente. Podemos ofrecer a los usuarios una opción alojada sin obligarlos a depender permanentemente de ella.
+Podemos crear productos más rápido que nunca. Podemos mantenerlos pequeños. Podemos lanzarlos como código abierto. Podemos conectar la IA con acciones reales del producto en lugar de quedarnos en trucos de demo. Podemos ofrecer una opción alojada sin obligar a nadie a depender de ella para siempre.
 
-Las tarjetas didácticas encajan perfectamente en ese mundo. El dominio es simple. El valor es obvio. Los datos son personales. El flujo de trabajo mejora cuando la IA puede trabajar en tarjetas reales y en estados de revisión reales. Esta debería ser una de las categorías más fáciles de modernizar.
+Las flashcards encajan perfectamente en ese mundo. El dominio es simple. El valor es evidente. Los datos son personales. El flujo de trabajo mejora cuando la IA puede operar sobre tarjetas reales y sobre el estado real del repaso. Esta debería ser una de las categorías más fáciles de modernizar.
 
-Así que esa es la apuesta detrás de [Flashcards](https://flashcards-open-source-app.com/): código abierto, autohospedado si así lo deseas, repetición espaciada en el núcleo e IA integrada como parte del modelo de producto real.
+Esa es la apuesta detrás de [Flashcards](https://flashcards-open-source-app.com/): código abierto, autohospedado si así lo quieres, repetición espaciada en el centro e IA integrada como parte del modelo real del producto.
 
-No porque "la IA primero" suene bien en una página de destino. Porque esta categoría finalmente tiene las herramientas para merecer un producto mejor.
+No porque "AI-first" suene bien en una landing page. Sino porque esta categoría por fin tiene las herramientas para merecer un producto mejor.
 
-## Pruébelo o hospédelo usted mismo
+## Pruébalo o autohospédalo
 
-Si desea una aplicación de tarjetas didácticas de código abierto con repetición espaciada, una ruta autohospedada y espacio para flujos de trabajo de IA reales, comience aquí:
+Si buscas una aplicación de flashcards de código abierto con repetición espaciada, una ruta de autohospedaje y margen para flujos de trabajo reales con IA, empieza aquí:
 
-- [Abra la aplicación alojada](https://app.flashcards-open-source-app.com/)
-- [Lea la guía de introducción](https://flashcards-open-source-app.com/docs/getting-started/)
-- [Ver la fuente en GitHub](https://github.com/kirill-markin/flashcards-open-source-app)
+- [Abrir la aplicación alojada](https://app.flashcards-open-source-app.com/)
+- [Leer la guía de primeros pasos](https://flashcards-open-source-app.com/docs/getting-started/)
+- [Ver el código fuente en GitHub](https://github.com/kirill-markin/flashcards-open-source-app)
 
-Las tarjetas didácticas deberían parecer un software moderno. No es un software de estudio heredado con una página de inicio más bonita. No es una suscripción cerrada con una función de tarjetas didácticas adjunta.
+Las flashcards deberían sentirse como software moderno. No como software de estudio heredado con una landing page más bonita. Tampoco como una suscripción cerrada a la que le han añadido una función de flashcards.
 
-El código abierto, la propiedad de sus datos y la IA que funciona en el producto real son una mejor dirección. Creo que esta categoría lleva años esperándola.
+El código abierto, el control sobre tus datos y una IA que actúa sobre el producto real apuntan en una dirección mejor. Creo que esta categoría llevaba años esperando algo así.
