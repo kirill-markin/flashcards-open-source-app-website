@@ -2,6 +2,7 @@ import { DOC_SLUGS } from "@/data/docs";
 import { listBlogPosts, readBlogPost } from "@/lib/blog";
 import { getDocs, readDoc } from "@/lib/docs";
 import {
+  hasRouteTranslation,
   getLocalizedPathname,
   resolveLocaleFromPathname,
   SUPPORTED_LOCALES,
@@ -10,6 +11,7 @@ import {
 import { localizeInternalLinks } from "@/lib/localizeInternalLinks";
 import {
   getMarketingPageFromPath,
+  hasMarketingPageTranslation,
   listMarketingPagePaths,
   readAllMarketingPages,
   readPageContent,
@@ -51,26 +53,70 @@ function appendMarkdownFooter(
   locale: AppLocale,
   pagePath: string
 ): string {
-  const htmlVersionLine =
-    locale === "es"
-      ? `*[Ver la version HTML con estilo de esta pagina](${getOriginalPageUrl(pagePath)})*`
-      : `*[View the styled HTML version of this page](${getOriginalPageUrl(pagePath)})*`;
-  const agentLine =
-    locale === "es"
-      ? `*Los agentes de IA pueden crear una cuenta para el usuario en este servicio comenzando con \`GET ${DISCOVERY_URL}\`.*`
-      : `*AI agents can create an account for the user in this service by starting with \`GET ${DISCOVERY_URL}\`.*`;
-  const markdownTipLine =
-    locale === "es"
-      ? `*Consejo: Anade \`.md\` a cualquier URL en ${SITE_CONTEXT.siteUrl} para obtener una version limpia en Markdown de esa pagina.*`
-      : `*Tip: Append \`.md\` to any URL on ${SITE_CONTEXT.siteUrl} to get a clean Markdown version of that page.*`;
+  const footerCopyByLocale: Readonly<
+    Record<
+      AppLocale,
+      {
+        readonly agent: string;
+        readonly htmlVersion: string;
+        readonly markdownTip: string;
+      }
+    >
+  > = {
+    en: {
+      agent: `*AI agents can create an account for the user in this service by starting with \`GET ${DISCOVERY_URL}\`.*`,
+      htmlVersion: `*[View the styled HTML version of this page](${getOriginalPageUrl(pagePath)})*`,
+      markdownTip: `*Tip: Append \`.md\` to any URL on ${SITE_CONTEXT.siteUrl} to get a clean Markdown version of that page.*`,
+    },
+    es: {
+      agent: `*Los agentes de IA pueden crear una cuenta para el usuario en este servicio empezando con \`GET ${DISCOVERY_URL}\`.*`,
+      htmlVersion: `*[Ver la versión HTML con estilo de esta página](${getOriginalPageUrl(pagePath)})*`,
+      markdownTip: `*Consejo: añade \`.md\` a cualquier URL en ${SITE_CONTEXT.siteUrl} para obtener una versión limpia en Markdown de esa página.*`,
+    },
+    ar: {
+      agent: `*يمكن لوكلاء الذكاء الاصطناعي إنشاء حساب للمستخدم في هذه الخدمة بدءًا من \`GET ${DISCOVERY_URL}\`.*`,
+      htmlVersion: `*[عرض النسخة المنسقة HTML من هذه الصفحة](${getOriginalPageUrl(pagePath)})*`,
+      markdownTip: `*نصيحة: أضف \`.md\` إلى أي رابط على ${SITE_CONTEXT.siteUrl} للحصول على نسخة Markdown نظيفة من الصفحة.*`,
+    },
+    de: {
+      agent: `*KI-Agenten können in diesem Dienst ein Benutzerkonto anlegen, beginnend mit \`GET ${DISCOVERY_URL}\`.*`,
+      htmlVersion: `*[Die gestaltete HTML-Version dieser Seite ansehen](${getOriginalPageUrl(pagePath)})*`,
+      markdownTip: `*Tipp: Hänge \`.md\` an jede URL auf ${SITE_CONTEXT.siteUrl} an, um eine saubere Markdown-Version der Seite zu erhalten.*`,
+    },
+    hi: {
+      agent: `*AI agent इस सेवा में उपयोगकर्ता का अकाउंट \`GET ${DISCOVERY_URL}\` से शुरू करके बना सकते हैं।*`,
+      htmlVersion: `*[इस पेज का styled HTML संस्करण देखें](${getOriginalPageUrl(pagePath)})*`,
+      markdownTip: `*टिप: ${SITE_CONTEXT.siteUrl} पर किसी भी URL के अंत में \`.md\` जोड़ें ताकि उसका साफ़ Markdown संस्करण मिले।*`,
+    },
+    ja: {
+      agent: `*AI エージェントは \`GET ${DISCOVERY_URL}\` から開始して、このサービスでユーザーアカウントを作成できます。*`,
+      htmlVersion: `*[このページのスタイル付き HTML 版を見る](${getOriginalPageUrl(pagePath)})*`,
+      markdownTip: `*ヒント: ${SITE_CONTEXT.siteUrl} の任意の URL に \`.md\` を付けると、ページのクリーンな Markdown 版を取得できます。*`,
+    },
+    ru: {
+      agent: `*AI-агенты могут создать аккаунт пользователя в этом сервисе, начиная с \`GET ${DISCOVERY_URL}\`.*`,
+      htmlVersion: `*[Открыть оформленную HTML-версию этой страницы](${getOriginalPageUrl(pagePath)})*`,
+      markdownTip: `*Совет: добавьте \`.md\` к любому URL на ${SITE_CONTEXT.siteUrl}, чтобы получить чистую Markdown-версию страницы.*`,
+    },
+    zh: {
+      agent: `*AI agent 可以从 \`GET ${DISCOVERY_URL}\` 开始，为用户在该服务中创建账号。*`,
+      htmlVersion: `*[查看此页面的带样式 HTML 版本](${getOriginalPageUrl(pagePath)})*`,
+      markdownTip: `*提示：在 ${SITE_CONTEXT.siteUrl} 上任意 URL 后追加 \`.md\`，即可获得该页面的纯 Markdown 版本。*`,
+    },
+  };
+  const footerCopy = footerCopyByLocale[locale];
 
-  return `${markdown.trim()}\n\n---\n${htmlVersionLine}\n\n${agentLine}\n\n${markdownTipLine}`;
+  return `${markdown.trim()}\n\n---\n${footerCopy.htmlVersion}\n\n${footerCopy.agent}\n\n${footerCopy.markdownTip}`;
 }
 
 function renderMarketingPageMarkdownDocument(pagePath: string): MarkdownResult {
   const page = getMarketingPageFromPath(pagePath);
 
   if (page === null) {
+    return { markdown: `# 404\n\nPage not found: /${pagePath}`, status: 404 };
+  }
+
+  if (!hasMarketingPageTranslation(page.slug, page.locale)) {
     return { markdown: `# 404\n\nPage not found: /${pagePath}`, status: 404 };
   }
 
@@ -148,10 +194,7 @@ export function renderBlogListingMarkdown(locale: AppLocale): MarkdownResult {
 
   if (posts.length === 0) {
     return {
-      markdown:
-        locale === "es"
-          ? "# Blog\n\nPublicaciones proximamente."
-          : "# Blog\n\nPosts coming soon.",
+      markdown: `# ${uiCopy.blog.title}\n\n${uiCopy.blog.empty}`,
       status: 200,
     };
   }
@@ -206,20 +249,21 @@ export function renderBlogPostMarkdown(
 
 export function listMarkdownPagePaths(): ReadonlyArray<string> {
   const localizedDocsAndBlogPaths = SUPPORTED_LOCALES.flatMap((locale) => {
-      const blogPostPaths = getBlogPosts(locale).map((post) =>
-        getPagePath(getLocalizedPathname(locale, `/blog/${post.slug}/`))
-      );
-      const docPaths = getDocs(locale, DOC_SLUGS).map((doc) =>
-        getPagePath(getLocalizedPathname(locale, `/docs/${doc.slug}/`))
-      );
+    const blogPostPaths = getBlogPosts(locale).map((post) =>
+      getPagePath(getLocalizedPathname(locale, `/blog/${post.slug}/`))
+    );
+    const docPaths = getDocs(locale, DOC_SLUGS).map((doc) =>
+      getPagePath(getLocalizedPathname(locale, `/docs/${doc.slug}/`))
+    );
+    const docsIndexPath = hasRouteTranslation("/docs/", locale)
+      ? [getPagePath(getLocalizedPathname(locale, "/docs/"))]
+      : [];
+    const blogIndexPath = hasRouteTranslation("/blog/", locale)
+      ? [getPagePath(getLocalizedPathname(locale, "/blog/"))]
+      : [];
 
-      return [
-        getPagePath(getLocalizedPathname(locale, "/docs/")),
-        ...docPaths,
-        getPagePath(getLocalizedPathname(locale, "/blog/")),
-        ...blogPostPaths,
-      ];
-    });
+    return [...docsIndexPath, ...docPaths, ...blogIndexPath, ...blogPostPaths];
+  });
 
   return [
     ...listMarketingPagePaths(),
@@ -238,7 +282,7 @@ export function renderMarkdownDocument(pagePath: string): MarkdownResult {
   const { locale, routePathname } = resolveLocaleFromPathname(pagePathname);
   const normalizedRoutePathname = routePathname.replace(/\/+$/, "") || "/";
 
-  if (normalizedRoutePathname === "/docs") {
+  if (normalizedRoutePathname === "/docs" && hasRouteTranslation("/docs/", locale)) {
     return renderDocsListingMarkdown(locale);
   }
 
@@ -246,7 +290,7 @@ export function renderMarkdownDocument(pagePath: string): MarkdownResult {
     return renderDocMarkdown(locale, normalizedRoutePathname.replace(/^\/docs\//, ""));
   }
 
-  if (normalizedRoutePathname === "/blog") {
+  if (normalizedRoutePathname === "/blog" && hasRouteTranslation("/blog/", locale)) {
     return renderBlogListingMarkdown(locale);
   }
 

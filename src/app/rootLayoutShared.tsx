@@ -3,10 +3,12 @@ import { Source_Serif_4 } from "next/font/google";
 import { readPageContent } from "@/lib/content/readPageContent";
 import {
   getAbsoluteUrl,
+  getLanguageAlternates,
   getLocalizedPathname,
   getOpenGraphLocale,
   type AppLocale,
 } from "@/lib/i18n";
+import { getLocaleDirection } from "@/lib/localeConfig";
 import { SITE_NAME, SITE_URL } from "@/lib/site";
 
 const sourceSerif = Source_Serif_4({
@@ -43,6 +45,7 @@ export function createLocaleLayoutMetadata(locale: AppLocale): Metadata {
     },
     alternates: {
       canonical: localizedHomeUrl,
+      languages: getLanguageAlternates("/"),
     },
   };
 }
@@ -57,7 +60,11 @@ export function RootDocument({
   lang,
 }: RootDocumentProps): React.JSX.Element {
   return (
-    <html lang={lang} className={sourceSerif.variable}>
+    <html
+      lang={lang}
+      dir={getLocaleDirection(lang)}
+      className={sourceSerif.variable}
+    >
       <body>{children}</body>
     </html>
   );

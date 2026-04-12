@@ -1,5 +1,6 @@
 import type { AppLocale } from "@/lib/i18n";
-import { getLocalizedPathname } from "@/lib/i18n";
+import { getAvailableLocalizedPathname } from "@/lib/i18n";
+import { getUiCopy } from "@/lib/uiCopy";
 
 export interface HeaderLink {
   readonly href: string;
@@ -7,19 +8,24 @@ export interface HeaderLink {
 }
 
 export function getHeaderLinks(locale: AppLocale): ReadonlyArray<HeaderLink> {
-  if (locale === "es") {
-    return [
-      { href: getLocalizedPathname(locale, "/features/"), label: "Funciones" },
-      { href: getLocalizedPathname(locale, "/pricing/"), label: "Precios" },
-      { href: getLocalizedPathname(locale, "/docs/"), label: "Documentacion" },
-      { href: getLocalizedPathname(locale, "/blog/"), label: "Blog" },
-    ];
-  }
+  const uiCopy = getUiCopy(locale);
 
   return [
-    { href: getLocalizedPathname(locale, "/features/"), label: "Features" },
-    { href: getLocalizedPathname(locale, "/pricing/"), label: "Pricing" },
-    { href: getLocalizedPathname(locale, "/docs/"), label: "Docs" },
-    { href: getLocalizedPathname(locale, "/blog/"), label: "Blog" },
+    {
+      href: getAvailableLocalizedPathname(locale, "/features/"),
+      label: uiCopy.navigation.features,
+    },
+    {
+      href: getAvailableLocalizedPathname(locale, "/pricing/"),
+      label: uiCopy.navigation.pricing,
+    },
+    {
+      href: getAvailableLocalizedPathname(locale, "/docs/"),
+      label: uiCopy.navigation.docs,
+    },
+    {
+      href: getAvailableLocalizedPathname(locale, "/blog/"),
+      label: uiCopy.navigation.blog,
+    },
   ];
 }

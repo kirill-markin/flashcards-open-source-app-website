@@ -1,27 +1,19 @@
-export const DOC_SLUGS: ReadonlyArray<string> = [
-  "getting-started",
-  "self-hosting",
-  "api",
-  "architecture",
-] as const;
+import type { AppLocale } from "@/lib/localeConfig";
+import {
+  DOC_SLUGS,
+  TRANSLATED_DOC_SLUGS_BY_LOCALE,
+} from "@/data/generatedContentRegistry";
 
-type ContentLocale = "en" | "es";
-
-const TRANSLATED_DOC_SLUGS_BY_LOCALE: Readonly<
-  Record<ContentLocale, ReadonlyArray<string>>
-> = {
-  en: DOC_SLUGS,
-  es: DOC_SLUGS,
-};
+export { DOC_SLUGS };
 
 export function getTranslatedDocSlugs(
-  locale: ContentLocale
+  locale: AppLocale
 ): ReadonlyArray<string> {
   return TRANSLATED_DOC_SLUGS_BY_LOCALE[locale];
 }
 
 export function hasTranslatedDocSlug(
-  locale: ContentLocale,
+  locale: AppLocale,
   slug: string
 ): boolean {
   return TRANSLATED_DOC_SLUGS_BY_LOCALE[locale].includes(slug);

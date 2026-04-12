@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { getAppUrl } from "@/lib/auth";
 import type { AppLocale } from "@/lib/i18n";
-import { getLocalizedPathname } from "@/lib/i18n";
+import { getAvailableLocalizedPathname } from "@/lib/i18n";
 import { getHumanPlatforms } from "@/lib/humanPlatforms";
 import { getUiCopy } from "@/lib/uiCopy";
 import styles from "./Footer.module.css";
@@ -14,44 +14,24 @@ export const Footer: React.FC<FooterProps> = ({ locale }) => {
   const year = new Date().getFullYear();
   const platforms = getHumanPlatforms(getAppUrl(), locale);
   const uiCopy = getUiCopy(locale);
-  const productLinks =
-    locale === "es"
-      ? [
-          {
-            href: getLocalizedPathname(locale, "/features/"),
-            label: uiCopy.footer.featuresLabel,
-          },
-          {
-            href: getLocalizedPathname(locale, "/pricing/"),
-            label: uiCopy.footer.pricingLabel,
-          },
-          {
-            href: getLocalizedPathname(locale, "/docs/"),
-            label: uiCopy.footer.documentationLabel,
-          },
-          {
-            href: getLocalizedPathname(locale, "/blog/"),
-            label: uiCopy.footer.blogLabel,
-          },
-        ]
-      : [
-          {
-            href: getLocalizedPathname(locale, "/features/"),
-            label: uiCopy.footer.featuresLabel,
-          },
-          {
-            href: getLocalizedPathname(locale, "/pricing/"),
-            label: uiCopy.footer.pricingLabel,
-          },
-          {
-            href: getLocalizedPathname(locale, "/docs/"),
-            label: uiCopy.footer.documentationLabel,
-          },
-          {
-            href: getLocalizedPathname(locale, "/blog/"),
-            label: uiCopy.footer.blogLabel,
-          },
-        ];
+  const productLinks = [
+    {
+      href: getAvailableLocalizedPathname(locale, "/features/"),
+      label: uiCopy.footer.featuresLabel,
+    },
+    {
+      href: getAvailableLocalizedPathname(locale, "/pricing/"),
+      label: uiCopy.footer.pricingLabel,
+    },
+    {
+      href: getAvailableLocalizedPathname(locale, "/docs/"),
+      label: uiCopy.footer.documentationLabel,
+    },
+    {
+      href: getAvailableLocalizedPathname(locale, "/blog/"),
+      label: uiCopy.footer.blogLabel,
+    },
+  ];
 
   return (
     <footer className={styles.footer}>
@@ -74,7 +54,9 @@ export const Footer: React.FC<FooterProps> = ({ locale }) => {
             >
               GitHub
             </a>
-            <Link href={getLocalizedPathname(locale, "/docs/self-hosting/")}>
+            <Link
+              href={getAvailableLocalizedPathname(locale, "/docs/self-hosting/")}
+            >
               {uiCopy.footer.selfHostingGuideLabel}
             </Link>
           </div>
@@ -108,13 +90,13 @@ export const Footer: React.FC<FooterProps> = ({ locale }) => {
           </div>
           <div className={styles.column}>
             <h3>{uiCopy.footer.legalHeading}</h3>
-            <Link href={getLocalizedPathname(locale, "/privacy/")}>
+            <Link href={getAvailableLocalizedPathname(locale, "/privacy/")}>
               {uiCopy.footer.privacyPolicyLabel}
             </Link>
-            <Link href={getLocalizedPathname(locale, "/support/")}>
+            <Link href={getAvailableLocalizedPathname(locale, "/support/")}>
               {uiCopy.footer.supportLabel}
             </Link>
-            <Link href={getLocalizedPathname(locale, "/terms/")}>
+            <Link href={getAvailableLocalizedPathname(locale, "/terms/")}>
               {uiCopy.footer.termsOfServiceLabel}
             </Link>
           </div>

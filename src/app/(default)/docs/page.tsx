@@ -8,8 +8,7 @@ const uiCopy = getUiCopy(locale);
 
 export const metadata: Metadata = createPageMetadata({
   title: uiCopy.docs.title,
-  description:
-    "Getting started, self-hosting guide, API reference, and architecture overview.",
+  description: uiCopy.docs.metaDescription,
   locale,
   routePathname: "/docs/",
   openGraphType: "website",
