@@ -14,27 +14,38 @@ export function LocaleSwitcher(): React.JSX.Element {
   const entries = getLocaleSwitcherEntries(pathname).filter(
     (entry) => entry.available
   );
+  const currentEntry = entries.find((entry) => entry.locale === locale);
+
+  if (currentEntry === undefined) {
+    throw new Error(`Missing locale switcher entry for locale: ${locale}`);
+  }
 
   return (
-    <div aria-label={uiCopy.locale.switcherAriaLabel} className={styles.switcher}>
-      {entries.map((entry, index) => {
-        return (
-          <span key={entry.locale}>
-            {entry.locale === locale ? (
-              <span className={styles.current} aria-current="true">
-                {entry.label}
-              </span>
-            ) : (
-              <Link href={entry.href}>{entry.label}</Link>
-            )}
-            {index < entries.length - 1 ? (
-              <span className={styles.separator} aria-hidden="true">
-                /
-              </span>
-            ) : null}
-          </span>
-        );
-      })}
-    </div>
+    <details className={styles.switcher}>
+      <summary
+        aria-label={uiCopy.locale.switcherAriaLabel}
+        className={styles.trigger}
+      >
+        <span className={styles.current}>{currentEntry.label}</span>
+        <span className={styles.chevron} aria-hidden="true">
+          ▾
+        </span>
+      </summary>
+      <div className={styles.menuWrapper}>
+        <ul className={styles.menu} aria-label={uiCopy.locale.switcherAriaLabel}>
+          {entries.map((entry) => (
+            <li key={entry.locale}>
+              {entry.locale === locale ? (
+                <span className={styles.currentOption} aria-current="true">
+                  {entry.label}
+                </span>
+              ) : (
+                <Link href={entry.href}>{entry.label}</Link>
+              )}
+            </li>
+          ))}
+        </ul>
+      </div>
+    </details>
   );
 }

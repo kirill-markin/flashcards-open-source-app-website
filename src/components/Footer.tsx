@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { LocaleSwitcher } from "@/components/LocaleSwitcher";
 import { getAppUrl } from "@/lib/auth";
 import type { AppLocale } from "@/lib/i18n";
 import { getAvailableLocalizedPathname } from "@/lib/i18n";
@@ -120,6 +121,9 @@ export const Footer: React.FC<FooterProps> = ({ locale }) => {
               {uiCopy.footer.operatedByLabel}
             </span>
           </div>
+        </div>
+        <div className={styles.localePicker}>
+          <LocaleSwitcher />
         </div>
       </div>
     </footer>

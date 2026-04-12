@@ -1,5 +1,4 @@
 import Link from "next/link";
-import { LocaleSwitcher } from "@/components/LocaleSwitcher";
 import type { AppLocale } from "@/lib/i18n";
 import { getLocalizedPathname } from "@/lib/i18n";
 import { AuthButton } from "./AuthButton";
@@ -28,11 +27,6 @@ export const Header: React.FC<HeaderProps> = ({ locale }) => {
             </Link>
           ))}
         </nav>
-
-        <div className={styles.desktopLocale}>
-          <LocaleSwitcher />
-        </div>
-
         <div className={styles.desktopAuth}>
           <AuthButton locale={locale} />
         </div>
