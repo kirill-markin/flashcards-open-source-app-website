@@ -1,4 +1,5 @@
 import { Breadcrumbs } from "@/components/Breadcrumbs";
+import { SiteFrame } from "@/components/SiteFrame";
 import { renderMarkdownToHtml } from "@/lib/content/renderMarkdownToHtml";
 import { readDoc } from "@/lib/docs";
 import type { AppLocale } from "@/lib/i18n";
@@ -21,14 +22,16 @@ export async function DocPageView({
 
   if (doc === null) {
     return (
-      <div className={styles.container}>
-        <section className={styles.intro}>
-          <h1 className={styles.title}>{uiCopy.docs.comingSoonTitle}</h1>
-        </section>
-        <section className={styles.contentPanel}>
-          <p className={styles.empty}>{uiCopy.docs.comingSoonDescription}</p>
-        </section>
-      </div>
+      <SiteFrame locale={locale} routePathname={`/docs/${slug}/`}>
+        <div className={styles.container}>
+          <section className={styles.intro}>
+            <h1 className={styles.title}>{uiCopy.docs.comingSoonTitle}</h1>
+          </section>
+          <section className={styles.contentPanel}>
+            <p className={styles.empty}>{uiCopy.docs.comingSoonDescription}</p>
+          </section>
+        </div>
+      </SiteFrame>
     );
   }
 
@@ -37,29 +40,31 @@ export async function DocPageView({
   );
 
   return (
-    <div className={styles.container}>
-      <section className={styles.intro}>
-        <Breadcrumbs
-          items={[
-            {
-              label: uiCopy.docs.breadcrumbLabel,
-              href: getLocalizedPathname(locale, "/docs/"),
-            },
-            {
-              label: doc.title,
-              href: getLocalizedPathname(locale, `/docs/${slug}/`),
-            },
-          ]}
-          locale={locale}
-        />
-        <h1 className={styles.title}>{doc.title}</h1>
-      </section>
-      <section className={styles.contentPanel}>
-        <div
-          className={styles.content}
-          dangerouslySetInnerHTML={{ __html: contentHtml }}
-        />
-      </section>
-    </div>
+    <SiteFrame locale={locale} routePathname={`/docs/${slug}/`}>
+      <div className={styles.container}>
+        <section className={styles.intro}>
+          <Breadcrumbs
+            items={[
+              {
+                label: uiCopy.docs.breadcrumbLabel,
+                href: getLocalizedPathname(locale, "/docs/"),
+              },
+              {
+                label: doc.title,
+                href: getLocalizedPathname(locale, `/docs/${slug}/`),
+              },
+            ]}
+            locale={locale}
+          />
+          <h1 className={styles.title}>{doc.title}</h1>
+        </section>
+        <section className={styles.contentPanel}>
+          <div
+            className={styles.content}
+            dangerouslySetInnerHTML={{ __html: contentHtml }}
+          />
+        </section>
+      </div>
+    </SiteFrame>
   );
 }

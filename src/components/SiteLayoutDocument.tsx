@@ -1,5 +1,3 @@
-import { Footer } from "@/components/Footer";
-import { Header } from "@/components/Header";
 import { JsonLdSchema } from "@/components/JsonLdSchema";
 import type { AppLocale } from "@/lib/i18n";
 
@@ -15,9 +13,7 @@ export function SiteLayoutDocument({
   return (
     <>
       <JsonLdSchema locale={locale} />
-      <Header locale={locale} />
-      <main>{children}</main>
-      <Footer locale={locale} />
+      {children}
     </>
   );
 }
