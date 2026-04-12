@@ -1,4 +1,4 @@
-import type { AppLocale } from "@/lib/i18n";
+import type { AppLocale } from "@/lib/localeConfig";
 
 interface AppUiCopy {
   readonly auth: {
@@ -6,15 +6,11 @@ interface AppUiCopy {
     readonly openApp: string;
     readonly signUpFree: string;
   };
-  readonly copyCodeField: {
-    readonly copied: string;
-    readonly copy: string;
-    readonly copyFailed: string;
-  };
   readonly blog: {
     readonly breadcrumbLabel: string;
     readonly byPrefix: string;
     readonly empty: string;
+    readonly metaDescription: string;
     readonly notFoundDescription: string;
     readonly notFoundTitle: string;
     readonly readNextHeading: string;
@@ -24,10 +20,16 @@ interface AppUiCopy {
     readonly ariaLabel: string;
     readonly homeLabel: string;
   };
+  readonly copyCodeField: {
+    readonly copied: string;
+    readonly copy: string;
+    readonly copyFailed: string;
+  };
   readonly docs: {
     readonly breadcrumbLabel: string;
     readonly comingSoonDescription: string;
     readonly comingSoonTitle: string;
+    readonly metaDescription: string;
     readonly title: string;
   };
   readonly footer: {
@@ -37,17 +39,17 @@ interface AppUiCopy {
     readonly copyrightLabel: string;
     readonly documentationLabel: string;
     readonly featuresLabel: string;
+    readonly inDevelopmentLabel: string;
     readonly legalHeading: string;
     readonly openSourceHeading: string;
     readonly operatedByLabel: string;
     readonly pricingLabel: string;
     readonly privacyPolicyLabel: string;
-      readonly productHeading: string;
-      readonly selfHostingGuideLabel: string;
-      readonly inDevelopmentLabel: string;
-      readonly supportLabel: string;
-      readonly termsOfServiceLabel: string;
-    };
+    readonly productHeading: string;
+    readonly selfHostingGuideLabel: string;
+    readonly supportLabel: string;
+    readonly termsOfServiceLabel: string;
+  };
   readonly home: {
     readonly agentHintDescription: string;
     readonly aiAgentSectionLabel: string;
@@ -60,11 +62,15 @@ interface AppUiCopy {
     readonly lastUpdatedLabel: string;
   };
   readonly locale: {
-    readonly englishLabel: string;
-    readonly spanishLabel: string;
     readonly switcherAriaLabel: string;
   };
   readonly menuToggleLabel: string;
+  readonly navigation: {
+    readonly blog: string;
+    readonly docs: string;
+    readonly features: string;
+    readonly pricing: string;
+  };
   readonly platforms: {
     readonly appStore: string;
     readonly googlePlay: string;
@@ -79,15 +85,11 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       openApp: "Open App",
       signUpFree: "Sign Up Free",
     },
-    copyCodeField: {
-      copied: "Copied",
-      copy: "Copy",
-      copyFailed: "Copy failed",
-    },
     blog: {
       breadcrumbLabel: "Blog",
       byPrefix: "By",
       empty: "Posts coming soon.",
+      metaDescription: "Updates, tutorials, and insights about Flashcards.",
       notFoundDescription: "This blog post does not exist.",
       notFoundTitle: "Not Found",
       readNextHeading: "Read next",
@@ -97,10 +99,17 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       ariaLabel: "Breadcrumb",
       homeLabel: "Home",
     },
+    copyCodeField: {
+      copied: "Copied",
+      copy: "Copy",
+      copyFailed: "Copy failed",
+    },
     docs: {
       breadcrumbLabel: "Docs",
       comingSoonDescription: "This documentation page is being written.",
       comingSoonTitle: "Coming Soon",
+      metaDescription:
+        "Getting started, self-hosting guide, API reference, and architecture overview.",
       title: "Documentation",
     },
     footer: {
@@ -110,6 +119,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       copyrightLabel: "Flashcards Open Source App",
       documentationLabel: "Documentation",
       featuresLabel: "Features",
+      inDevelopmentLabel: "In Development",
       legalHeading: "Legal",
       openSourceHeading: "Open Source",
       operatedByLabel: "Operated by Ozma Inc",
@@ -117,7 +127,6 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       privacyPolicyLabel: "Privacy Policy",
       productHeading: "Product",
       selfHostingGuideLabel: "Self-Hosting Guide",
-      inDevelopmentLabel: "In Development",
       supportLabel: "Support",
       termsOfServiceLabel: "Terms of Service",
     },
@@ -135,11 +144,15 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       lastUpdatedLabel: "Last updated",
     },
     locale: {
-      englishLabel: "EN",
-      spanishLabel: "ES",
       switcherAriaLabel: "Language switcher",
     },
     menuToggleLabel: "Toggle menu",
+    navigation: {
+      blog: "Blog",
+      docs: "Docs",
+      features: "Features",
+      pricing: "Pricing",
+    },
     platforms: {
       appStore: "App Store",
       googlePlay: "Google Play",
@@ -148,75 +161,561 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
   },
   es: {
     auth: {
-      logIn: "Iniciar sesion",
+      logIn: "Iniciar sesión",
       openApp: "Abrir app",
       signUpFree: "Registrarse gratis",
+    },
+    blog: {
+      breadcrumbLabel: "Blog",
+      byPrefix: "Por",
+      empty: "Próximamente habrá publicaciones.",
+      metaDescription: "Novedades, tutoriales e ideas sobre Flashcards.",
+      notFoundDescription: "Esta entrada del blog no existe.",
+      notFoundTitle: "No encontrado",
+      readNextHeading: "Seguir leyendo",
+      title: "Blog",
+    },
+    breadcrumbs: {
+      ariaLabel: "Ruta de navegación",
+      homeLabel: "Inicio",
     },
     copyCodeField: {
       copied: "Copiado",
       copy: "Copiar",
       copyFailed: "Error al copiar",
     },
-    blog: {
-      breadcrumbLabel: "Blog",
-      byPrefix: "Por",
-      empty: "Publicaciones proximamente.",
-      notFoundDescription: "Esta entrada del blog no existe.",
-      notFoundTitle: "No encontrado",
-      readNextHeading: "Sigue leyendo",
-      title: "Blog",
-    },
-    breadcrumbs: {
-      ariaLabel: "Migas de pan",
-      homeLabel: "Inicio",
-    },
     docs: {
-      breadcrumbLabel: "Documentacion",
-      comingSoonDescription: "Esta pagina de documentacion se esta escribiendo.",
-      comingSoonTitle: "Proximamente",
-      title: "Documentacion",
+      breadcrumbLabel: "Documentación",
+      comingSoonDescription: "Esta página de documentación se está escribiendo.",
+      comingSoonTitle: "Próximamente",
+      metaDescription:
+        "Primeros pasos, guía de autoalojamiento, referencia de la API y resumen de la arquitectura.",
+      title: "Documentación",
     },
     footer: {
       appsHeading: "Apps",
       blogLabel: "Blog",
       builtByLabel: "Creado por Kirill Markin",
       copyrightLabel: "Flashcards Open Source App",
-      documentationLabel: "Documentacion",
+      documentationLabel: "Documentación",
       featuresLabel: "Funciones",
+      inDevelopmentLabel: "En desarrollo",
       legalHeading: "Legal",
-      openSourceHeading: "Codigo abierto",
+      openSourceHeading: "Código abierto",
       operatedByLabel: "Operado por Ozma Inc",
       pricingLabel: "Precios",
-      privacyPolicyLabel: "Politica de privacidad",
+      privacyPolicyLabel: "Política de privacidad",
       productHeading: "Producto",
-      selfHostingGuideLabel: "Guia de autoalojamiento",
-      inDevelopmentLabel: "En desarrollo",
+      selfHostingGuideLabel: "Guía de autoalojamiento",
       supportLabel: "Soporte",
-      termsOfServiceLabel: "Terminos del servicio",
+      termsOfServiceLabel: "Términos del servicio",
     },
     home: {
       agentHintDescription:
         "Comparte esta URL de descubrimiento con tu agente de IA. Puede registrarte, crear tu cuenta y gestionar tu espacio de trabajo de Flashcards por ti.",
       aiAgentSectionLabel: "PARA AGENTE DE IA",
       appPreviewAlt:
-        "Pantallas de Flashcards con revision, tarjetas, IA, edicion, codigo abierto y flujos de configuracion del servidor.",
+        "Pantallas de Flashcards con repaso, tarjetas, IA, edición, código abierto y configuración del servidor.",
       appPreviewAriaLabel: "Vista previa de la app",
       appPreviewLabel: "VISTA PREVIA DE LA APP",
       humanSectionLabel: "PARA PERSONAS",
     },
     legal: {
-      lastUpdatedLabel: "Ultima actualizacion",
+      lastUpdatedLabel: "Última actualización",
     },
     locale: {
-      englishLabel: "EN",
-      spanishLabel: "ES",
       switcherAriaLabel: "Selector de idioma",
     },
-    menuToggleLabel: "Abrir menu",
+    menuToggleLabel: "Abrir menú",
+    navigation: {
+      blog: "Blog",
+      docs: "Docs",
+      features: "Funciones",
+      pricing: "Precios",
+    },
     platforms: {
       appStore: "App Store",
       googlePlay: "Google Play",
       webApp: "App web",
+    },
+  },
+  ar: {
+    auth: {
+      logIn: "تسجيل الدخول",
+      openApp: "فتح التطبيق",
+      signUpFree: "التسجيل مجانًا",
+    },
+    blog: {
+      breadcrumbLabel: "المدونة",
+      byPrefix: "بواسطة",
+      empty: "ستتوفر مقالات قريبًا.",
+      metaDescription: "تحديثات ودروس وأفكار حول Flashcards.",
+      notFoundDescription: "مقالة المدونة هذه غير موجودة.",
+      notFoundTitle: "غير موجود",
+      readNextHeading: "اقرأ التالي",
+      title: "المدونة",
+    },
+    breadcrumbs: {
+      ariaLabel: "مسار التنقل",
+      homeLabel: "الرئيسية",
+    },
+    copyCodeField: {
+      copied: "تم النسخ",
+      copy: "نسخ",
+      copyFailed: "فشل النسخ",
+    },
+    docs: {
+      breadcrumbLabel: "التوثيق",
+      comingSoonDescription: "يتم إعداد صفحة التوثيق هذه الآن.",
+      comingSoonTitle: "قريبًا",
+      metaDescription:
+        "البدء السريع، دليل الاستضافة الذاتية، مرجع API، ونظرة عامة على البنية.",
+      title: "التوثيق",
+    },
+    footer: {
+      appsHeading: "التطبيقات",
+      blogLabel: "المدونة",
+      builtByLabel: "بناء Kirill Markin",
+      copyrightLabel: "Flashcards Open Source App",
+      documentationLabel: "التوثيق",
+      featuresLabel: "الميزات",
+      inDevelopmentLabel: "قيد التطوير",
+      legalHeading: "قانوني",
+      openSourceHeading: "مفتوح المصدر",
+      operatedByLabel: "تديره Ozma Inc",
+      pricingLabel: "الأسعار",
+      privacyPolicyLabel: "سياسة الخصوصية",
+      productHeading: "المنتج",
+      selfHostingGuideLabel: "دليل الاستضافة الذاتية",
+      supportLabel: "الدعم",
+      termsOfServiceLabel: "شروط الخدمة",
+    },
+    home: {
+      agentHintDescription:
+        "شارك رابط الاكتشاف هذا مع وكيل الذكاء الاصطناعي لديك. يمكنه التسجيل، إنشاء حسابك، وإدارة مساحة عمل Flashcards نيابةً عنك.",
+      aiAgentSectionLabel: "لوكيل الذكاء الاصطناعي",
+      appPreviewAlt:
+        "شاشات Flashcards تعرض المراجعة والبطاقات والذكاء الاصطناعي والتحرير ومسارات الإعداد والاستضافة.",
+      appPreviewAriaLabel: "معاينة التطبيق",
+      appPreviewLabel: "معاينة التطبيق",
+      humanSectionLabel: "للمستخدم البشري",
+    },
+    legal: {
+      lastUpdatedLabel: "آخر تحديث",
+    },
+    locale: {
+      switcherAriaLabel: "مبدّل اللغة",
+    },
+    menuToggleLabel: "تبديل القائمة",
+    navigation: {
+      blog: "المدونة",
+      docs: "التوثيق",
+      features: "الميزات",
+      pricing: "الأسعار",
+    },
+    platforms: {
+      appStore: "App Store",
+      googlePlay: "Google Play",
+      webApp: "تطبيق الويب",
+    },
+  },
+  de: {
+    auth: {
+      logIn: "Anmelden",
+      openApp: "App öffnen",
+      signUpFree: "Kostenlos starten",
+    },
+    blog: {
+      breadcrumbLabel: "Blog",
+      byPrefix: "Von",
+      empty: "Beiträge folgen in Kürze.",
+      metaDescription: "Updates, Anleitungen und Einblicke zu Flashcards.",
+      notFoundDescription: "Dieser Blogbeitrag existiert nicht.",
+      notFoundTitle: "Nicht gefunden",
+      readNextHeading: "Weiterlesen",
+      title: "Blog",
+    },
+    breadcrumbs: {
+      ariaLabel: "Breadcrumb",
+      homeLabel: "Start",
+    },
+    copyCodeField: {
+      copied: "Kopiert",
+      copy: "Kopieren",
+      copyFailed: "Kopieren fehlgeschlagen",
+    },
+    docs: {
+      breadcrumbLabel: "Dokumentation",
+      comingSoonDescription: "Diese Dokumentationsseite wird gerade erstellt.",
+      comingSoonTitle: "Demnächst",
+      metaDescription:
+        "Erste Schritte, Self-Hosting-Leitfaden, API-Referenz und Architekturüberblick.",
+      title: "Dokumentation",
+    },
+    footer: {
+      appsHeading: "Apps",
+      blogLabel: "Blog",
+      builtByLabel: "Entwickelt von Kirill Markin",
+      copyrightLabel: "Flashcards Open Source App",
+      documentationLabel: "Dokumentation",
+      featuresLabel: "Funktionen",
+      inDevelopmentLabel: "In Entwicklung",
+      legalHeading: "Rechtliches",
+      openSourceHeading: "Open Source",
+      operatedByLabel: "Betrieben von Ozma Inc",
+      pricingLabel: "Preise",
+      privacyPolicyLabel: "Datenschutz",
+      productHeading: "Produkt",
+      selfHostingGuideLabel: "Self-Hosting-Leitfaden",
+      supportLabel: "Support",
+      termsOfServiceLabel: "Nutzungsbedingungen",
+    },
+    home: {
+      agentHintDescription:
+        "Teile diese Discovery-URL mit deinem KI-Agenten. Er kann sich registrieren, dein Konto anlegen und deinen Flashcards-Arbeitsbereich verwalten.",
+      aiAgentSectionLabel: "FÜR KI-AGENTEN",
+      appPreviewAlt:
+        "Flashcards-Bildschirme mit Review, Karten, KI, Bearbeitung, Open Source und Server-Setup.",
+      appPreviewAriaLabel: "App-Vorschau",
+      appPreviewLabel: "APP-VORSCHAU",
+      humanSectionLabel: "FÜR MENSCHEN",
+    },
+    legal: {
+      lastUpdatedLabel: "Zuletzt aktualisiert",
+    },
+    locale: {
+      switcherAriaLabel: "Sprachauswahl",
+    },
+    menuToggleLabel: "Menü umschalten",
+    navigation: {
+      blog: "Blog",
+      docs: "Doku",
+      features: "Funktionen",
+      pricing: "Preise",
+    },
+    platforms: {
+      appStore: "App Store",
+      googlePlay: "Google Play",
+      webApp: "Web-App",
+    },
+  },
+  hi: {
+    auth: {
+      logIn: "लॉग इन",
+      openApp: "ऐप खोलें",
+      signUpFree: "मुफ़्त शुरू करें",
+    },
+    blog: {
+      breadcrumbLabel: "ब्लॉग",
+      byPrefix: "द्वारा",
+      empty: "पोस्ट जल्द आएंगी।",
+      metaDescription: "Flashcards के बारे में अपडेट, गाइड और जानकारी।",
+      notFoundDescription: "यह ब्लॉग पोस्ट मौजूद नहीं है।",
+      notFoundTitle: "नहीं मिला",
+      readNextHeading: "आगे पढ़ें",
+      title: "ब्लॉग",
+    },
+    breadcrumbs: {
+      ariaLabel: "ब्रेडक्रंब",
+      homeLabel: "होम",
+    },
+    copyCodeField: {
+      copied: "कॉपी हो गया",
+      copy: "कॉपी करें",
+      copyFailed: "कॉपी नहीं हुआ",
+    },
+    docs: {
+      breadcrumbLabel: "डॉक्स",
+      comingSoonDescription: "यह डॉक्स पेज अभी लिखा जा रहा है।",
+      comingSoonTitle: "जल्द आ रहा है",
+      metaDescription:
+        "शुरुआत, self-hosting गाइड, API रेफ़रेंस और architecture overview.",
+      title: "डॉक्यूमेंटेशन",
+    },
+    footer: {
+      appsHeading: "ऐप्स",
+      blogLabel: "ब्लॉग",
+      builtByLabel: "Kirill Markin द्वारा बनाया गया",
+      copyrightLabel: "Flashcards Open Source App",
+      documentationLabel: "डॉक्यूमेंटेशन",
+      featuresLabel: "फ़ीचर्स",
+      inDevelopmentLabel: "विकास में",
+      legalHeading: "कानूनी",
+      openSourceHeading: "ओपन सोर्स",
+      operatedByLabel: "Ozma Inc द्वारा संचालित",
+      pricingLabel: "कीमत",
+      privacyPolicyLabel: "प्राइवेसी पॉलिसी",
+      productHeading: "प्रोडक्ट",
+      selfHostingGuideLabel: "Self-hosting गाइड",
+      supportLabel: "सपोर्ट",
+      termsOfServiceLabel: "सेवा की शर्तें",
+    },
+    home: {
+      agentHintDescription:
+        "यह discovery URL अपने AI agent के साथ साझा करें। वह साइन अप कर सकता है, आपका अकाउंट बना सकता है, और आपका Flashcards workspace मैनेज कर सकता है।",
+      aiAgentSectionLabel: "AI AGENT के लिए",
+      appPreviewAlt:
+        "Flashcards की स्क्रीनें जिनमें review, cards, AI, editing, open source और server setup दिखाई देता है।",
+      appPreviewAriaLabel: "ऐप प्रीव्यू",
+      appPreviewLabel: "ऐप प्रीव्यू",
+      humanSectionLabel: "इंसानों के लिए",
+    },
+    legal: {
+      lastUpdatedLabel: "आख़िरी अपडेट",
+    },
+    locale: {
+      switcherAriaLabel: "भाषा चयन",
+    },
+    menuToggleLabel: "मेनू खोलें",
+    navigation: {
+      blog: "ब्लॉग",
+      docs: "डॉक्स",
+      features: "फ़ीचर्स",
+      pricing: "कीमत",
+    },
+    platforms: {
+      appStore: "App Store",
+      googlePlay: "Google Play",
+      webApp: "वेब ऐप",
+    },
+  },
+  ja: {
+    auth: {
+      logIn: "ログイン",
+      openApp: "アプリを開く",
+      signUpFree: "無料で始める",
+    },
+    blog: {
+      breadcrumbLabel: "ブログ",
+      byPrefix: "著者",
+      empty: "記事は準備中です。",
+      metaDescription: "Flashcards に関する更新、ガイド、考察。",
+      notFoundDescription: "このブログ記事は存在しません。",
+      notFoundTitle: "見つかりません",
+      readNextHeading: "次に読む",
+      title: "ブログ",
+    },
+    breadcrumbs: {
+      ariaLabel: "パンくず",
+      homeLabel: "ホーム",
+    },
+    copyCodeField: {
+      copied: "コピーしました",
+      copy: "コピー",
+      copyFailed: "コピーに失敗しました",
+    },
+    docs: {
+      breadcrumbLabel: "ドキュメント",
+      comingSoonDescription: "このドキュメントページは準備中です。",
+      comingSoonTitle: "近日公開",
+      metaDescription:
+        "始め方、セルフホスティングガイド、API リファレンス、アーキテクチャ概要。",
+      title: "ドキュメント",
+    },
+    footer: {
+      appsHeading: "アプリ",
+      blogLabel: "ブログ",
+      builtByLabel: "Kirill Markin が開発",
+      copyrightLabel: "Flashcards Open Source App",
+      documentationLabel: "ドキュメント",
+      featuresLabel: "機能",
+      inDevelopmentLabel: "開発中",
+      legalHeading: "法務",
+      openSourceHeading: "オープンソース",
+      operatedByLabel: "Ozma Inc が運営",
+      pricingLabel: "料金",
+      privacyPolicyLabel: "プライバシーポリシー",
+      productHeading: "プロダクト",
+      selfHostingGuideLabel: "セルフホスティングガイド",
+      supportLabel: "サポート",
+      termsOfServiceLabel: "利用規約",
+    },
+    home: {
+      agentHintDescription:
+        "このディスカバリー URL を AI エージェントに共有してください。サインアップ、アカウント作成、Flashcards ワークスペースの管理まで任せられます。",
+      aiAgentSectionLabel: "AI エージェント向け",
+      appPreviewAlt:
+        "レビュー、カード、AI、編集、オープンソース、サーバー設定を示す Flashcards の画面。",
+      appPreviewAriaLabel: "アプリのプレビュー",
+      appPreviewLabel: "アプリプレビュー",
+      humanSectionLabel: "人向け",
+    },
+    legal: {
+      lastUpdatedLabel: "最終更新",
+    },
+    locale: {
+      switcherAriaLabel: "言語切替",
+    },
+    menuToggleLabel: "メニューを切り替える",
+    navigation: {
+      blog: "ブログ",
+      docs: "ドキュメント",
+      features: "機能",
+      pricing: "料金",
+    },
+    platforms: {
+      appStore: "App Store",
+      googlePlay: "Google Play",
+      webApp: "ウェブアプリ",
+    },
+  },
+  ru: {
+    auth: {
+      logIn: "Войти",
+      openApp: "Открыть приложение",
+      signUpFree: "Начать бесплатно",
+    },
+    blog: {
+      breadcrumbLabel: "Блог",
+      byPrefix: "Автор",
+      empty: "Публикации скоро появятся.",
+      metaDescription: "Обновления, руководства и заметки о Flashcards.",
+      notFoundDescription: "Эта запись блога не существует.",
+      notFoundTitle: "Не найдено",
+      readNextHeading: "Читать дальше",
+      title: "Блог",
+    },
+    breadcrumbs: {
+      ariaLabel: "Хлебные крошки",
+      homeLabel: "Главная",
+    },
+    copyCodeField: {
+      copied: "Скопировано",
+      copy: "Копировать",
+      copyFailed: "Не удалось скопировать",
+    },
+    docs: {
+      breadcrumbLabel: "Документация",
+      comingSoonDescription: "Эта страница документации сейчас готовится.",
+      comingSoonTitle: "Скоро",
+      metaDescription:
+        "Быстрый старт, руководство по self-hosting, API и обзор архитектуры.",
+      title: "Документация",
+    },
+    footer: {
+      appsHeading: "Приложения",
+      blogLabel: "Блог",
+      builtByLabel: "Создано Кириллом Маркиным",
+      copyrightLabel: "Flashcards Open Source App",
+      documentationLabel: "Документация",
+      featuresLabel: "Возможности",
+      inDevelopmentLabel: "В разработке",
+      legalHeading: "Правовая информация",
+      openSourceHeading: "Open Source",
+      operatedByLabel: "Сервисом управляет Ozma Inc",
+      pricingLabel: "Цены",
+      privacyPolicyLabel: "Политика конфиденциальности",
+      productHeading: "Продукт",
+      selfHostingGuideLabel: "Руководство по self-hosting",
+      supportLabel: "Поддержка",
+      termsOfServiceLabel: "Условия использования",
+    },
+    home: {
+      agentHintDescription:
+        "Поделитесь этим discovery URL со своим AI-агентом. Он сможет зарегистрироваться, создать аккаунт и управлять вашим рабочим пространством Flashcards.",
+      aiAgentSectionLabel: "ДЛЯ AI-АГЕНТА",
+      appPreviewAlt:
+        "Экраны Flashcards с повторением, карточками, AI, редактированием, open source и настройкой сервера.",
+      appPreviewAriaLabel: "Предпросмотр приложения",
+      appPreviewLabel: "ПРЕДПРОСМОТР ПРИЛОЖЕНИЯ",
+      humanSectionLabel: "ДЛЯ ЧЕЛОВЕКА",
+    },
+    legal: {
+      lastUpdatedLabel: "Последнее обновление",
+    },
+    locale: {
+      switcherAriaLabel: "Переключатель языка",
+    },
+    menuToggleLabel: "Открыть меню",
+    navigation: {
+      blog: "Блог",
+      docs: "Документация",
+      features: "Возможности",
+      pricing: "Цены",
+    },
+    platforms: {
+      appStore: "App Store",
+      googlePlay: "Google Play",
+      webApp: "Веб-приложение",
+    },
+  },
+  zh: {
+    auth: {
+      logIn: "登录",
+      openApp: "打开应用",
+      signUpFree: "免费开始",
+    },
+    blog: {
+      breadcrumbLabel: "博客",
+      byPrefix: "作者",
+      empty: "文章即将发布。",
+      metaDescription: "关于 Flashcards 的更新、教程和思考。",
+      notFoundDescription: "这篇博客文章不存在。",
+      notFoundTitle: "未找到",
+      readNextHeading: "继续阅读",
+      title: "博客",
+    },
+    breadcrumbs: {
+      ariaLabel: "面包屑导航",
+      homeLabel: "首页",
+    },
+    copyCodeField: {
+      copied: "已复制",
+      copy: "复制",
+      copyFailed: "复制失败",
+    },
+    docs: {
+      breadcrumbLabel: "文档",
+      comingSoonDescription: "该文档页面正在编写中。",
+      comingSoonTitle: "即将推出",
+      metaDescription: "快速开始、自托管指南、API 参考和架构概览。",
+      title: "文档",
+    },
+    footer: {
+      appsHeading: "应用",
+      blogLabel: "博客",
+      builtByLabel: "由 Kirill Markin 构建",
+      copyrightLabel: "Flashcards Open Source App",
+      documentationLabel: "文档",
+      featuresLabel: "功能",
+      inDevelopmentLabel: "开发中",
+      legalHeading: "法律",
+      openSourceHeading: "开源",
+      operatedByLabel: "由 Ozma Inc 运营",
+      pricingLabel: "价格",
+      privacyPolicyLabel: "隐私政策",
+      productHeading: "产品",
+      selfHostingGuideLabel: "自托管指南",
+      supportLabel: "支持",
+      termsOfServiceLabel: "服务条款",
+    },
+    home: {
+      agentHintDescription:
+        "把这个 discovery URL 分享给你的 AI agent。它可以帮你注册、创建账号，并管理你的 Flashcards 工作区。",
+      aiAgentSectionLabel: "面向 AI AGENT",
+      appPreviewAlt:
+        "Flashcards 应用界面，展示复习、卡片、AI、编辑、开源和服务器配置流程。",
+      appPreviewAriaLabel: "应用预览",
+      appPreviewLabel: "应用预览",
+      humanSectionLabel: "面向用户",
+    },
+    legal: {
+      lastUpdatedLabel: "最后更新",
+    },
+    locale: {
+      switcherAriaLabel: "语言切换",
+    },
+    menuToggleLabel: "切换菜单",
+    navigation: {
+      blog: "博客",
+      docs: "文档",
+      features: "功能",
+      pricing: "价格",
+    },
+    platforms: {
+      appStore: "App Store",
+      googlePlay: "Google Play",
+      webApp: "网页应用",
     },
   },
 };

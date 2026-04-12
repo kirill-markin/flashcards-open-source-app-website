@@ -14,6 +14,7 @@ import {
   getAbsoluteUrl,
   getLanguageAlternates,
   getLocalizedPathname,
+  hasRouteTranslation,
   SUPPORTED_LOCALES,
   type AppLocale,
 } from "@/lib/i18n";
@@ -99,7 +100,9 @@ function getLocalizedContentEntries(
   changeFrequency: MetadataRoute.Sitemap[number]["changeFrequency"],
   getLastModified: (locale: AppLocale) => Date
 ): MetadataRoute.Sitemap {
-  return SUPPORTED_LOCALES.map((locale) => ({
+  return SUPPORTED_LOCALES.filter((locale) =>
+    hasRouteTranslation(routePathname, locale)
+  ).map((locale) => ({
     url: getAbsoluteUrl(getLocalizedPathname(locale, routePathname)),
     lastModified: getLastModified(locale),
     changeFrequency,

@@ -104,24 +104,26 @@ export async function BlogPostPageView({
           dangerouslySetInnerHTML={{ __html: localizedContentHtml }}
         />
       </section>
-      <section className={styles.relatedPanel}>
-        <h2 className={styles.relatedHeading}>{uiCopy.blog.readNextHeading}</h2>
-        <div className={styles.relatedList}>
-          {recommendedPosts.map((recommendedPost) => (
-            <Link
-              key={recommendedPost.slug}
-              href={getLocalizedPathname(locale, `/blog/${recommendedPost.slug}/`)}
-              className={styles.relatedCard}
-            >
-              <time className={styles.date}>{recommendedPost.date}</time>
-              <h3>{recommendedPost.title}</h3>
-              <p className={styles.relatedDescription}>
-                {recommendedPost.description}
-              </p>
-            </Link>
-          ))}
-        </div>
-      </section>
+      {recommendedPosts.length > 0 ? (
+        <section className={styles.relatedPanel}>
+          <h2 className={styles.relatedHeading}>{uiCopy.blog.readNextHeading}</h2>
+          <div className={styles.relatedList}>
+            {recommendedPosts.map((recommendedPost) => (
+              <Link
+                key={recommendedPost.slug}
+                href={getLocalizedPathname(locale, `/blog/${recommendedPost.slug}/`)}
+                className={styles.relatedCard}
+              >
+                <time className={styles.date}>{recommendedPost.date}</time>
+                <h3>{recommendedPost.title}</h3>
+                <p className={styles.relatedDescription}>
+                  {recommendedPost.description}
+                </p>
+              </Link>
+            ))}
+          </div>
+        </section>
+      ) : null}
     </article>
   );
 }

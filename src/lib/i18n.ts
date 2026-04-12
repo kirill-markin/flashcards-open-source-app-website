@@ -1,12 +1,23 @@
 import { SITE_URL } from "@/lib/site";
-import { getTranslatedBlogPostSlugs } from "@/data/blog";
-import { getTranslatedDocSlugs } from "@/data/docs";
+import { TRANSLATED_ROUTE_PATHNAMES_BY_LOCALE } from "@/data/generatedContentRegistry";
+import {
+  DEFAULT_LOCALE,
+  NON_DEFAULT_LOCALES,
+  SUPPORTED_LOCALES,
+  getOpenGraphLocale,
+  getLocaleShortLabel,
+  isSupportedLocale,
+  type AppLocale,
+} from "@/lib/localeConfig";
 
-export const DEFAULT_LOCALE = "en";
-export const SUPPORTED_LOCALES = ["en", "es"] as const;
-export const NON_DEFAULT_LOCALES = ["es"] as const;
-
-export type AppLocale = (typeof SUPPORTED_LOCALES)[number];
+export {
+  DEFAULT_LOCALE,
+  NON_DEFAULT_LOCALES,
+  SUPPORTED_LOCALES,
+  getOpenGraphLocale,
+  isSupportedLocale,
+};
+export type { AppLocale };
 
 interface LocaleResolution {
   readonly locale: AppLocale;
@@ -16,38 +27,19 @@ interface LocaleResolution {
 interface LocaleSwitcherEntry {
   readonly available: boolean;
   readonly href: string;
+  readonly label: string;
   readonly locale: AppLocale;
 }
 
-const OPEN_GRAPH_LOCALE_BY_APP_LOCALE: Readonly<Record<AppLocale, string>> = {
-  en: "en_US",
-  es: "es_ES",
-};
-
-const SHARED_TRANSLATED_ROUTE_PATHNAMES = [
-  "/",
-  "/features/",
-  "/pricing/",
-  "/privacy/",
-  "/support/",
-  "/terms/",
-  "/docs/",
-  "/blog/",
-];
-
-const TRANSLATED_ROUTE_PATHNAMES_BY_LOCALE: Readonly<
-  Record<Exclude<AppLocale, typeof DEFAULT_LOCALE>, ReadonlySet<string>>
-> = {
-  es: new Set<string>([
-    ...SHARED_TRANSLATED_ROUTE_PATHNAMES,
-    ...getTranslatedDocSlugs("es").map((slug) => `/docs/${slug}/`),
-    ...getTranslatedBlogPostSlugs("es").map((slug) => `/blog/${slug}/`),
-  ]),
-};
-
-export function isSupportedLocale(value: string): value is AppLocale {
-  return SUPPORTED_LOCALES.includes(value as AppLocale);
-}
+const TRANSLATED_ROUTE_PATH_SET_BY_LOCALE: Readonly<
+  Record<AppLocale, ReadonlySet<string>>
+> = SUPPORTED_LOCALES.reduce<Record<AppLocale, ReadonlySet<string>>>(
+  (routePathSetByLocale, locale) => ({
+    ...routePathSetByLocale,
+    [locale]: new Set<string>(TRANSLATED_ROUTE_PATHNAMES_BY_LOCALE[locale]),
+  }),
+  {} as Record<AppLocale, ReadonlySet<string>>
+);
 
 export function normalizePathname(pathname: string): string {
   const withoutQueryOrHash = pathname.split(/[?#]/, 1)[0] ?? pathname;
@@ -91,10 +83,6 @@ export function getMarkdownPathname(pathname: string): string {
   return `${normalizedPathname.replace(/\/$/, "")}.md`;
 }
 
-export function getOpenGraphLocale(locale: AppLocale): string {
-  return OPEN_GRAPH_LOCALE_BY_APP_LOCALE[locale];
-}
-
 export function resolveLocaleFromPathname(pathname: string): LocaleResolution {
   const normalizedPathname = normalizePathname(pathname);
 
@@ -130,24 +118,28 @@ export function hasRouteTranslation(
 ): boolean {
   const normalizedRoutePathname = normalizePathname(routePathname);
 
-  if (locale === DEFAULT_LOCALE) {
-    return true;
-  }
-
-  return TRANSLATED_ROUTE_PATHNAMES_BY_LOCALE[locale].has(
-    normalizedRoutePathname
-  );
+  return TRANSLATED_ROUTE_PATH_SET_BY_LOCALE[locale].has(normalizedRoutePathname);
 }
 
 export function getRouteLocales(
   routePathname: string
 ): ReadonlyArray<AppLocale> {
   const normalizedRoutePathname = normalizePathname(routePathname);
-  const localizedLocales = NON_DEFAULT_LOCALES.filter((locale) =>
+
+  return SUPPORTED_LOCALES.filter((locale) =>
     hasRouteTranslation(normalizedRoutePathname, locale)
   );
+}
 
-  return [DEFAULT_LOCALE, ...localizedLocales];
+export function getAvailableLocalizedPathname(
+  locale: AppLocale,
+  routePathname: string
+): string {
+  if (hasRouteTranslation(routePathname, locale)) {
+    return getLocalizedPathname(locale, routePathname);
+  }
+
+  return getLocalizedPathname(DEFAULT_LOCALE, routePathname);
 }
 
 export function getLanguageAlternates(
@@ -181,6 +173,7 @@ export function getLocaleSwitcherEntries(
   return SUPPORTED_LOCALES.map((locale) => ({
     available: hasRouteTranslation(routePathname, locale),
     href: getLocalizedPathname(locale, routePathname),
+    label: getLocaleShortLabel(locale),
     locale,
   }));
 }

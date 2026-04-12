@@ -18,19 +18,14 @@ export function LocaleSwitcher(): React.JSX.Element {
   return (
     <div aria-label={uiCopy.locale.switcherAriaLabel} className={styles.switcher}>
       {entries.map((entry, index) => {
-        const label =
-          entry.locale === "en"
-            ? uiCopy.locale.englishLabel
-            : uiCopy.locale.spanishLabel;
-
         return (
           <span key={entry.locale}>
             {entry.locale === locale ? (
               <span className={styles.current} aria-current="true">
-                {label}
+                {entry.label}
               </span>
             ) : (
-              <Link href={entry.href}>{label}</Link>
+              <Link href={entry.href}>{entry.label}</Link>
             )}
             {index < entries.length - 1 ? (
               <span className={styles.separator} aria-hidden="true">

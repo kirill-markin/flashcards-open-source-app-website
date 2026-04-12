@@ -1,11 +1,6 @@
 import { existsSync, readFileSync } from "fs";
 import matter from "gray-matter";
-import { FEATURES_PAGE_CONTENT as EN_FEATURES_PAGE_CONTENT } from "@/content/en/pages/features";
-import { HOME_PAGE_CONTENT as EN_HOME_PAGE_CONTENT } from "@/content/en/pages/home";
-import { PRICING_PAGE_CONTENT as EN_PRICING_PAGE_CONTENT } from "@/content/en/pages/pricing";
-import { FEATURES_PAGE_CONTENT as ES_FEATURES_PAGE_CONTENT } from "@/content/es/pages/features";
-import { HOME_PAGE_CONTENT as ES_HOME_PAGE_CONTENT } from "@/content/es/pages/home";
-import { PRICING_PAGE_CONTENT as ES_PRICING_PAGE_CONTENT } from "@/content/es/pages/pricing";
+import { STRUCTURED_PAGE_CONTENT_BY_LOCALE } from "@/content/structuredPageModules";
 import {
   getMarkdownMarketingPageFilePath,
   getStructuredMarketingPageFilePath,
@@ -41,35 +36,20 @@ const STRUCTURED_PAGE_SLUGS: ReadonlyArray<StructuredMarketingPageSlug> = [
   "pricing",
 ] as const;
 
-const STRUCTURED_PAGE_CONTENT: Readonly<
-  Record<AppLocale, Readonly<Record<StructuredMarketingPageSlug, PageContent>>>
-> = {
-  en: {
-    home: EN_HOME_PAGE_CONTENT,
-    features: EN_FEATURES_PAGE_CONTENT,
-    pricing: EN_PRICING_PAGE_CONTENT,
-  },
-  es: {
-    home: ES_HOME_PAGE_CONTENT,
-    features: ES_FEATURES_PAGE_CONTENT,
-    pricing: ES_PRICING_PAGE_CONTENT,
-  },
-} as const;
-
 const STRUCTURED_PAGE_SOURCE_FILE_PATHS: Readonly<
   Record<AppLocale, Readonly<Record<StructuredMarketingPageSlug, string>>>
-> = {
-  en: {
-    home: getStructuredMarketingPageFilePath("en", "home"),
-    features: getStructuredMarketingPageFilePath("en", "features"),
-    pricing: getStructuredMarketingPageFilePath("en", "pricing"),
-  },
-  es: {
-    home: getStructuredMarketingPageFilePath("es", "home"),
-    features: getStructuredMarketingPageFilePath("es", "features"),
-    pricing: getStructuredMarketingPageFilePath("es", "pricing"),
-  },
-} as const;
+> = Object.fromEntries(
+  SUPPORTED_LOCALES.map((locale) => [
+    locale,
+    {
+      home: getStructuredMarketingPageFilePath(locale, "home"),
+      features: getStructuredMarketingPageFilePath(locale, "features"),
+      pricing: getStructuredMarketingPageFilePath(locale, "pricing"),
+    },
+  ])
+) as Readonly<
+  Record<AppLocale, Readonly<Record<StructuredMarketingPageSlug, string>>>
+>;
 
 export const MARKETING_PAGE_SLUGS: ReadonlyArray<MarketingPageSlug> = [
   "home",
@@ -351,7 +331,7 @@ export function hasMarketingPageTranslation(
   locale: AppLocale
 ): boolean {
   if (isStructuredMarketingPageSlug(slug)) {
-    return STRUCTURED_PAGE_CONTENT[locale][slug] !== undefined;
+    return STRUCTURED_PAGE_CONTENT_BY_LOCALE[locale][slug] !== undefined;
   }
 
   return existsSync(getMarkdownPageFilePath(slug as MarkdownBackedPageSlug, locale));
@@ -417,7 +397,7 @@ export function readPageContent(
   locale: AppLocale
 ): PageContent {
   if (isStructuredMarketingPageSlug(slug)) {
-    const structuredPageContent = STRUCTURED_PAGE_CONTENT[locale][slug];
+    const structuredPageContent = STRUCTURED_PAGE_CONTENT_BY_LOCALE[locale][slug];
 
     if (structuredPageContent === undefined) {
       throw new Error(`Missing structured page content for page: ${slug}, locale: ${locale}`);

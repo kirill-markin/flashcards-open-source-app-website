@@ -8,7 +8,7 @@ const uiCopy = getUiCopy(locale);
 
 export const metadata: Metadata = createPageMetadata({
   title: uiCopy.blog.title,
-  description: "Updates, tutorials, and insights about Flashcards.",
+  description: uiCopy.blog.metaDescription,
   locale,
   routePathname: "/blog/",
   openGraphType: "website",
