@@ -1,27 +1,27 @@
 ---
-title: "Wie du 2026 einen Artikel in Flashcards verwandelst: Die nützlichen Ideen behalten, den Highlight-Friedhof überspringen"
-description: "Du willst 2026 einen Artikel in Flashcards verwandeln? Hier ist ein praktischer Workflow für Blogposts, Newsletter, Dokumentation und Longreads mit KI-Entwürfen plus FSRS-Review."
+title: "Wie du 2026 einen Artikel in Flashcards verwandelst: Die wichtigen Ideen behalten statt Highlights zu horten"
+description: "Du willst 2026 einen Artikel in Flashcards verwandeln? Hier ist ein praktischer Workflow für Blogartikel, Newsletter, Dokumentation und lange Texte: erst die Quelle kürzen, dann mit KI Karten entwerfen und anschließend mit FSRS lernen."
 date: "2026-04-09"
 keywords:
-  - "artikel zu flashcards"
-  - "wie man einen artikel in flashcards verwandelt"
-  - "webseite zu flashcards"
-  - "blogpost zu flashcards"
-  - "newsletter zu flashcards"
-  - "artikel zu anki"
-  - "text zu flashcards"
-  - "lesen in flashcards verwandeln"
+  - "Artikel in Flashcards umwandeln"
+  - "einen Artikel in Flashcards verwandeln"
+  - "Webseite in Flashcards umwandeln"
+  - "Blogartikel in Flashcards"
+  - "Newsletter in Flashcards"
+  - "Artikel in Anki"
+  - "Text in Flashcards umwandeln"
+  - "Gelesenes in Flashcards verwandeln"
 ---
 
-Gestern habe ich in einem technischen Artikel sechs Absätze markiert und mich kurz produktiv gefühlt, bis mir klar wurde, dass ich gerade ein sehr geschmackvolles Museum für Ideen gebaut hatte, die ich nie wieder abrufen würde. Genau dann suchen Menschen nach **article to flashcards**.
+Gestern habe ich in einem technischen Artikel sechs Absätze markiert und mich für einen Moment produktiv gefühlt, bis mir klar wurde, dass ich gerade einen stilvollen Friedhof für Ideen gebaut hatte, die ich nie wieder abrufen würde. Genau dann fangen viele an, nach Wegen zu suchen, wie sie einen **Artikel in Flashcards umwandeln** können.
 
-Nicht, weil Artikel eine schlechte Art zu lernen wären. Sie sind großartig für Erklärungen, Beispiele und Nuancen. Das Problem ist, dass Lesen Vertrautheit schneller erzeugt als Recall.
+Nicht, weil Artikel eine schlechte Art zu lernen wären. Im Gegenteil: Sie sind hervorragend für Erklärungen, Beispiele und Nuancen. Das Problem ist nur, dass Lesen schneller Vertrautheit erzeugt als belastbaren Abruf.
 
-Wenn du also behalten willst, worauf es in diesem langen Post, Tutorial, Newsletter oder Doku-Artikel ankam, wird **how to turn an article into flashcards** zur eigentlichen Frage.
+Wenn du also behalten willst, was in diesem langen Blogartikel, Tutorial, Newsletter oder in der Dokumentation wirklich wichtig war, ist die eigentliche Frage nicht nur, ob du gelesen hast, sondern wie du den Inhalt so verdichtest, dass du ihn später noch abrufen kannst.
 
 ## Lesen hilft dir beim Verstehen. Flashcards helfen dir beim Behalten.
 
-Das klingt offensichtlich, ist aber wichtig.
+Das klingt banal, ist aber der Kern der Sache.
 
 Ein Artikel kann vieles gut:
 
@@ -29,19 +29,19 @@ Ein Artikel kann vieles gut:
 - Optionen vergleichen
 - Beispiele durchgehen
 - erklären, warum etwas funktioniert
-- Code, Diagramme oder Edge Cases zeigen
+- Code, Diagramme oder Sonderfälle zeigen
 
-Aber nachdem du den Tab schließt, bleibt deinem Gehirn meist nur ein vager Eindruck, dass der Artikel klug war und du auch klug, weil du ihn gelesen hast.
+Aber sobald du den Tab schließt, bleibt oft nur das vage Gefühl zurück, dass der Artikel klug war und du auch klug, weil du ihn gelesen hast.
 
-Das ist nicht dasselbe wie die Schlüsselaussage morgen abrufen zu können.
+Das ist nicht dasselbe, wie die entscheidende Idee morgen noch nennen zu können.
 
-Darum funktioniert **turn reading into flashcards**. Du verwandelst passives Wiedererkennen in Abruftraining.
+Genau deshalb funktioniert es, **Gelesenes in Flashcards zu verwandeln**. Du machst aus passivem Wiedererkennen gezieltes Abruftraining.
 
 ## Die meisten Artikel sollten ein kleines Deck werden, keine vollständige Kopie
 
-Das ist der erste Filter, dem ich vertraue.
+Das ist der erste Filter, dem ich wirklich vertraue.
 
-Wenn du versuchst, jeden interessanten Satz in eine Karte zu verwandeln, wird das Deck zur Strafe dafür, neugierig gewesen zu sein.
+Wenn du versuchst, jeden interessanten Satz in eine Karte zu pressen, wird das Deck schnell zur Strafe für deine Neugier.
 
 Ich würde nicht fragen:
 
@@ -49,37 +49,37 @@ Ich würde nicht fragen:
 
 Sondern:
 
-"Was in diesem Artikel verdient es, als Abruftraining zu überleben?"
+"Welche Teile dieses Artikels sind wichtig genug für echtes Abruftraining?"
 
-Das ist meist ein viel kleineres Set:
+Meist ist diese Auswahl viel kleiner:
 
-- saubere Definitionen
+- klare Definitionen
 - nützliche Unterscheidungen
-- benannte Frameworks
+- benannte Modelle oder Frameworks
 - Ursache-Wirkung-Erklärungen
-- Befehle, Formeln oder Syntax, die du später produzieren willst
-- Entscheidungsregeln, die du im Kontext behalten willst
+- Befehle, Formeln oder Syntax, die du später selbst reproduzieren willst
+- Entscheidungsregeln, die du im richtigen Kontext erinnern möchtest
 
-Genau das macht einen **article to flashcards**-Workflow nachhaltig. Du archivierst das Gelesene nicht. Du extrahierst die Teile, die es wert sind, erinnert zu werden.
+Genau das macht einen nachhaltigen Workflow daraus, einen **Artikel in Flashcards umzuwandeln**. Du archivierst den Text nicht. Du ziehst nur die Teile heraus, die es wert sind, im Gedächtnis zu bleiben.
 
-## Blogposts, Doku und Newsletter brauchen unterschiedliche Kartentypen
+## Blogartikel, Dokumentation und Newsletter brauchen unterschiedliche Kartentypen
 
-Dieser Teil wird leicht übersehen.
+Dieser Punkt wird leicht übersehen.
 
-### Blogposts
+### Blogartikel
 
 Nutze Karten für:
 
-- Kernthesen
+- zentrale Aussagen
 - Vergleiche
-- einprägsame Frameworks
+- einprägsame Modelle
 - kurze Checklisten
 
 ### Dokumentation und technische Artikel
 
 Nutze Karten für:
 
-- Befehls-Syntax
+- Befehlssyntax
 - API-Verhalten
 - Versionsunterschiede
 - Fehlerursachen
@@ -89,124 +89,124 @@ Nutze Karten für:
 
 Nutze Karten für:
 
-- Konzepte, die du wiederverwenden willst
-- Beispiele, die ein Prinzip fest verankern
-- Formulierungen, die du wiedererkennen willst, aber nicht unbedingt Wort für Wort auswendig lernen musst
+- Konzepte, die du später wiederverwenden willst
+- Beispiele, die ein Prinzip greifbar machen
+- Formulierungen, die du wiedererkennen möchtest, ohne sie Wort für Wort auswendig zu lernen
 
-Darum ist **webpage to flashcards** keine feste Formel. Das Quellformat verändert, welche Art von Recall sinnvoll ist.
+Darum gibt es keinen einzigen Standardweg, eine **Webseite in Flashcards umzuwandeln**. Je nach Ausgangsmaterial ist eine andere Art von Abruf sinnvoll.
 
-## Bereinige den Artikel, bevor du überhaupt Karten generierst
+## Bereinige den Artikel, bevor du überhaupt Karten erzeugst
 
-Dieser Schritt spart viel Schmerz.
+Dieser Schritt erspart dir viel unnötige Arbeit.
 
-Ein Artikel enthält oft viel Material, das beim Lesen hilft, aber miserable Karten ergibt:
+Ein Artikel enthält oft viel Material, das sich gut liest, aber schlechte Karten ergibt:
 
 - lange Einleitungen
-- atmosphärische Anekdoten
+- erzählerische Anekdoten
 - wiederholte Zusammenfassungen
-- persuasive Übergänge
-- Nebensätze, die gut klingen und schlecht testen
+- elegante Übergänge
+- Randbemerkungen, die nett klingen, aber schlecht abfragbar sind
 
-Ich würde den Quelltext zuerst kürzen.
+Ich würde die Quelle zuerst kürzen.
 
 Behalte:
 
 - Definitionen
 - Vergleiche
 - Regeln
-- Beispiele, die die Idee klären
-- Code oder Befehle, die du wieder brauchen könntest
+- Beispiele, die eine Idee wirklich klarer machen
+- Code oder Befehle, die du später noch brauchst
 
 Lösche oder ignoriere:
 
-- Aufwärmtext
-- clevere, aber nicht testbare Zeilen
+- Einleitungstext ohne echten Lernwert
+- clever formulierte, aber nicht prüfbare Sätze
 - doppelte Erklärungen
-- Dinge, die nur innerhalb der Erzählung des Artikels wichtig sind
+- Dinge, die nur innerhalb der Dramaturgie des Artikels wichtig sind
 
-Ein **text to flashcards**-Workflow wird dramatisch besser, sobald der Text kleiner und sauberer ist.
+Ein guter Workflow, um **Text in Flashcards umzuwandeln**, wird sofort besser, wenn der Text vorher kleiner und sauberer wird.
 
-## Die besten Artikelkarten entstehen meist aus vier Mustern
+## Die besten Karten aus Artikeln entstehen meist aus vier Mustern
 
-Das sind die Muster, denen ich am meisten vertraue.
+Diesen vier Mustern vertraue ich am meisten.
 
 ### 1. Definitionskarten
 
-Wenn der Artikel einen Begriff endlich in einfachem Englisch erklärt, wird daraus oft eine starke Karte.
+Wenn ein Artikel einen Begriff endlich einfach und klar erklärt, steckt darin oft schon eine starke Karte.
 
-### 2. Unterschiedskarten
+### 2. Unterscheidungskarten
 
-Wenn der Artikel zwei ähnliche Konzepte sauber voneinander trennt, verwandle genau diesen Kontrast in eine Karte.
+Wenn ein Artikel zwei ähnliche Konzepte sauber voneinander trennt, ist genau dieser Unterschied ein guter Kartenkandidat.
 
-### 3. Prozesskarten
+### 3. Ablaufkarten
 
-Wenn der Artikel einen Schritt, Befehl oder Ablauf erklärt, den du später reproduzieren willst, mach genau das zum Recall-Ziel.
+Wenn ein Artikel einen Schritt, einen Befehl oder eine Reihenfolge erklärt, die du später selbst reproduzieren willst, sollte genau das der Abrufgegenstand sein.
 
 ### 4. Entscheidungsregel-Karten
 
-Wenn der Artikel dir sagt, wann du A statt B wählen solltest, ist das oft eine bessere Karte als ein Zitat.
+Wenn ein Artikel erklärt, wann du A statt B wählen solltest, ist das meist die bessere Karte als ein hübsches Zitat.
 
-Genau darin liegt der Unterschied zwischen einem nützlichen **blog post to flashcards**-Workflow und einem Deck voller umformulierter Stimmung.
+Genau daran erkennt man den Unterschied zwischen einem sinnvollen Workflow für **Blogartikel in Flashcards** und einem Deck voller umformulierter Stimmung.
 
-## Die Kartenformulierung sollte einfacher sein als die Artikelformulierung
+## Die Formulierung der Karte sollte einfacher sein als die Formulierung im Artikel
 
 Artikel sind für flüssiges Verstehen geschrieben.
 
 Flashcards sind für schnellen Abruf geschrieben.
 
-Darum sollte die Karte meist sauberer sein als der Quellabsatz.
+Darum sollte die Karte meistens einfacher und direkter sein als der Absatz, aus dem sie stammt.
 
 Wenn im Artikel steht:
 
-> Caching improves performance when repeated reads dominate, but it can increase complexity when consistency requirements are strict.
+> Caching verbessert die Performance, wenn wiederholte Lesezugriffe dominieren, kann aber die Komplexität erhöhen, wenn strenge Konsistenzanforderungen gelten.
 
-dann muss die Karte nicht wie ein Artikel klingen.
+dann muss deine Karte nicht wie ein Artikel klingen.
 
-Sie könnte werden:
+Sie könnte so aussehen:
 
 - Vorderseite: Wann verbessert Caching oft die Performance?
 - Rückseite: Wenn wiederholte Lesezugriffe dominieren.
 
 Und:
 
-- Vorderseite: Wann kann Caching zu viel Komplexität hinzufügen?
-- Rückseite: Wenn Konsistenzanforderungen streng sind.
+- Vorderseite: Wann kann Caching unnötige Komplexität erzeugen?
+- Rückseite: Wenn die Konsistenzanforderungen streng sind.
 
-Das ist viel näher an einem echten **article to anki**-Workflow als elegante Prosa in ein Kartenfeld zu kopieren und zu hoffen, dass dein Zukunfts-Ich gerade Lust auf Literatur hat.
+Das ist deutlich näher an einem brauchbaren Workflow für **Artikel in Anki** als elegante Prosa in ein Kartenfeld zu kopieren und zu hoffen, dass dein zukünftiges Ich gerade Lust auf Literatur hat.
 
-## KI ist nützlich, um Karten zu entwerfen, nicht um alle Entscheidungen zu treffen
+## KI ist nützlich für Entwürfe, nicht für alle Entscheidungen
 
-Dieser Teil ist 2026 besonders wichtig.
+Dieser Punkt ist 2026 besonders wichtig.
 
-Tools wie ChatGPT Study Mode und NotebookLM bringen mehr Menschen dazu, automatische Lernoutputs aus Quellmaterial zu erwarten. Dieser Trend ist nachvollziehbar. Er macht es aber auch leichter, mittelmäßige Karten zu akzeptieren, weil der Generierungsschritt magisch wirkt.
+Tools wie der ChatGPT Study Mode und NotebookLM bringen immer mehr Menschen dazu, aus Quellmaterial automatisch Lernmaterial zu erwarten. Das ist nachvollziehbar. Es macht aber auch verlockend leicht, mittelmäßige Karten zu akzeptieren, nur weil die Generierung beeindruckend aussieht.
 
-Ich würde den ganzen Urteilsschritt trotzdem nicht auslagern.
+Trotzdem würde ich die eigentliche Auswahl nicht komplett an KI abgeben.
 
 Nutze KI, um:
 
 - die nützlichen Teile zusammenzufassen
-- Kandidatenkarten vorzuschlagen
+- Kartenentwürfe vorzuschlagen
 - Formulierungen zu vereinfachen
-- dichte Erklärungen in sauberere Front/Back-Paare zu verwandeln
+- dichte Erklärungen in klare Vorderseiten- und Rückseiten-Paare zu zerlegen
 
 Nutze KI nicht, um:
 
 - jeden Abschnitt gleich wichtig zu behandeln
-- zu entscheiden, was du persönlich behalten solltest
-- ein riesiges Deck zu erzeugen, nur weil der Artikel lang war
+- für dich zu entscheiden, was du wirklich behalten musst
+- ein riesiges Deck zu erzeugen, nur weil der Artikel lang ist
 
-Der Engpass ist meist Auswahl, nicht Generierung.
+Der Engpass ist meistens die Auswahl, nicht die Generierung.
 
-Wenn du die breitere KI-Entwurfsseite willst, helfen diese Begleitartikel:
+Wenn du tiefer in den KI-Teil einsteigen willst, passen diese Begleitartikel:
 
-- [Wie du 2026 ChatGPT nutzt, um Flashcards zu erstellen: bessere Prompts, bessere Karten, bessere Reviews mit FSRS](https://flashcards-open-source-app.com/blog/how-to-use-chatgpt-to-make-flashcards/)
+- [Wie du 2026 mit ChatGPT bessere Lernkarten erstellst: klarere Prompts, bessere Karten, bessere Wiederholung mit FSRS](https://flashcards-open-source-app.com/blog/how-to-use-chatgpt-to-make-flashcards/)
 - [Wie du 2026 den ChatGPT Study Mode in Flashcards verwandelst: Den Tutor behalten, Spaced Repetition ergänzen](https://flashcards-open-source-app.com/blog/how-to-turn-chatgpt-study-mode-into-flashcards/)
 
-## Technische Artikel verdienen konkrete Antwortformate
+## Technische Artikel profitieren von konkreten Antwortformaten
 
-Hier können Menschen schnell besser werden.
+Hier können viele schnell deutlich besser werden.
 
-Für technische Artikel würde ich Karten mit konkreten Outputs bevorzugen:
+Für technische Artikel würde ich Karten mit klaren Ausgaben bevorzugen:
 
 - ein Befehl
 - eine kurze Definition
@@ -214,66 +214,66 @@ Für technische Artikel würde ich Karten mit konkreten Outputs bevorzugen:
 - eine Fehlerursache
 - der Unterschied zwischen zwei Ansätzen
 
-Wenn die Antwort von einem Beispiel profitiert, packe das Beispiel auf die Rückseite.
+Wenn die Antwort von einem Beispiel profitiert, pack das Beispiel auf die Rückseite.
 
-So bleibt das Recall-Ziel sauber, und du bekommst nach der Antwort trotzdem Kontext.
+So bleibt der eigentliche Abruf sauber, und du bekommst nach der Antwort trotzdem genug Kontext.
 
-Wenn die Quelle eher einem PDF-Kapitel oder Vorlesungsnotizen ähnelt als einer Webseite, passen diese Begleitartikel besser:
+Wenn deine Quelle eher einem PDF-Kapitel oder Vorlesungsnotizen ähnelt als einer Webseite, passen diese Artikel besser:
 
 - [Wie du 2026 eine PDF in Flashcards verwandelst: Vorlesungsfolien, Lehrbücher und Papers zu FSRS-Karten](https://flashcards-open-source-app.com/blog/how-to-turn-a-pdf-into-flashcards/)
 - [Wie du 2026 Notizen in Flashcards verwandelst: KI-Entwürfe mit FSRS statt manuellem Copy-and-paste](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
 
-## Ein guter Artikel kann fünf exzellente Karten ergeben
+## Ein guter Artikel kann fünf ausgezeichnete Karten ergeben
 
-Das ist kein Scheitern. Das ist ein Gewinn.
+Das ist kein Scheitern. Das ist ein gutes Ergebnis.
 
-Menschen erwarten oft, dass ein langer Artikel ein langes Deck rechtfertigt.
+Viele erwarten, dass ein langer Artikel automatisch ein langes Deck rechtfertigt.
 
-Meist gilt das Gegenteil.
+Meistens gilt das Gegenteil.
 
 Ein wirklich starker Artikel liefert dir vielleicht:
 
 - ein Konzept, das du behalten solltest
-- eine Unterscheidung, die du nicht mehr verwechseln solltest
-- einen Schritt-für-Schritt-Prozess
-- einen Befehl, den du aus dem Gedächtnis reproduzieren willst
-- ein Beispiel, das die Idee wirklich einrasten lässt
+- eine Unterscheidung, die du nicht mehr verwechseln willst
+- einen Schritt-für-Schritt-Ablauf
+- einen Befehl, den du aus dem Gedächtnis reproduzieren möchtest
+- ein Beispiel, das die Idee wirklich verständlich macht
 
-Das reicht.
+Das reicht völlig.
 
-Fünf Karten, die du respektierst, sind besser als zweiundzwanzig, die du bis Donnerstag zu verschieben beginnst.
+Fünf Karten, die du ernst nimmst, sind besser als zweiundzwanzig Karten, die du ab Donnerstag nur noch verschiebst.
 
 ## FSRS macht aus Lesen belastbares Gedächtnis
 
 Das ist die zweite Hälfte des Workflows.
 
-Ohne Spaced Repetition wird die Pipeline von Artikel zu Karte zu einem weiteren cleveren Notiztrick.
+Ohne Spaced Repetition wird aus dem Weg vom Artikel zur Karte nur ein weiterer cleverer Notiztrick.
 
 Mit FSRS kommen die nützlichen Ideen in den richtigen Abständen zurück:
 
 - offensichtliche Karten treten in den Hintergrund
 - schwierigere Karten tauchen früher wieder auf
-- ungleichmäßiges Material aus einem dichten Artikel bekommt genau das Review-Timing, das es braucht
+- ungleichmäßiges Material aus einem dichten Artikel bekommt genau das Wiederholungstiming, das es braucht
 
-Darum wird **turn reading into flashcards** viel praktischer, sobald das Deck mit FSRS statt mit einem festen Rhythmus läuft.
+Darum wird es viel praktischer, **Gelesenes in Flashcards zu verwandeln**, sobald das Deck mit FSRS statt nach einem starren Rhythmus läuft.
 
-Wenn du die Scheduling-Seite genauer willst, schau hier:
+Wenn du die Planungsseite genauer verstehen willst, lies hier weiter:
 
 - [FSRS vs SM-2 in 2026: Welcher Spaced-Repetition-Algorithmus hilft dir, mehr zu behalten?](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
 
-## Wo Flashcards Open Source App passt
+## Wo Flashcards in diesen Workflow passt
 
-[Flashcards Open Source App](https://flashcards-open-source-app.com/) passt gut zu einem **article to flashcards**-Workflow, weil das Produkt die Teile abdeckt, auf die es ankommt:
+[Flashcards](https://flashcards-open-source-app.com/) passt gut zu diesem Workflow, weil das Produkt genau die Teile abdeckt, auf die es ankommt:
 
-- Klartext aus Artikel, Blogpost, Newsletter oder Doku-Seite einfügen oder hochladen
+- Klartext aus einem Artikel, Blogartikel, Newsletter oder einer Dokumentationsseite einfügen oder hochladen
 - die Quelle im KI-Chat bereinigen, bevor Karten entstehen
-- einfache Front/Back-Karten erstellen, statt aufgeblähte Artikelformulierungen zu bewahren
-- die finalen Karten mit FSRS reviewen
-- offline-first auf Web, iPhone und Android weiterlernen
+- einfache Vorderseiten- und Rückseiten-Karten erstellen statt aufgeblähte Artikelformulierungen zu konservieren
+- die fertigen Karten mit FSRS wiederholen
+- auf Web, iPhone und Android weiterlernen, auch offline
 
-Diese Kombination ist wichtig, weil der nützliche Teil nicht "KI hat Karten aus einer Webseite generiert" ist. Der nützliche Teil ist, eine Lesesitzung in ein kleines Deck zu verwandeln, dem du nach einer Woche echter Reviews immer noch vertraust.
+Genau diese Kombination ist wichtig. Der nützliche Teil ist nicht einfach "KI erzeugt Karten aus einer Webseite". Der nützliche Teil ist, eine Lesesitzung in ein kleines Deck zu verwandeln, dem du auch nach einer Woche echter Wiederholungen noch vertraust.
 
-Wenn deine Quelle eher gesprächs- oder audiobasiert ist als textbasiert, liegen diese Artikel nahe:
+Wenn deine Quelle eher gesprächsbasiert oder audioorientiert ist als textbasiert, passen diese Artikel dazu:
 
 - [Wie du 2026 einen Podcast in Flashcards verwandelst: Vom Transkript zu FSRS-Karten ohne die ganze Folge erneut zu hören](https://flashcards-open-source-app.com/blog/how-to-turn-a-podcast-into-flashcards/)
 - [Wie du 2026 Vorlesungsaufzeichnungen in Flashcards verwandelst: Vom Transkript zu FSRS-Karten, ohne alles noch einmal anzusehen](https://flashcards-open-source-app.com/blog/how-to-turn-lecture-recordings-into-flashcards/)
@@ -282,12 +282,12 @@ Wenn deine Quelle eher gesprächs- oder audiobasiert ist als textbasiert, liegen
 
 Versuche nicht, den ganzen Artikel zu retten.
 
-Rette die Teile, die du wirklich abrufen wollen würdest, ohne den Tab wieder zu öffnen.
+Rette die Teile, die du später wirklich abrufen willst, ohne den Tab noch einmal zu öffnen.
 
-Bereinige die Quelle zuerst.
+Bereinige zuerst die Quelle.
 
 Lass KI beim Entwurf helfen.
 
-Und lass dann FSRS entscheiden, wann die guten Karten zurückkommen.
+Und lass danach FSRS entscheiden, wann die guten Karten wiederkommen.
 
-Das macht **how to turn an article into flashcards** weniger zu Content-Horten und mehr zu echtem Lernen.
+So fühlt es sich, einen **Artikel in Flashcards zu verwandeln**, weniger nach bloßem Sammeln und viel mehr nach echtem Lernen an.
