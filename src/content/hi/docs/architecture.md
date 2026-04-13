@@ -1,33 +1,33 @@
 ---
-title: Architecture
-description: System overview, public domains, supported clients, और current offline-first data flow।
+title: आर्किटेक्चर
+description: सिस्टम का अवलोकन, सार्वजनिक डोमेन, समर्थित क्लाइंट, और मौजूदा offline-first डेटा प्रवाह।
 ---
 
-## System Overview
+## सिस्टम का अवलोकन
 
-```text
-iOS app / agent client        -> api.<domain>  -> API Gateway -> Lambda backend -> Postgres
-Web app                       -> app.<domain>  -> CloudFront -> SPA
-Browser and agent auth        -> auth.<domain> -> API Gateway -> Auth Lambda -> Cognito
-Apex redirect                 -> <domain>      -> CloudFront redirect -> app.<domain>
+```
+iOS app / agent client          -> api.<domain>  -> API Gateway -> Lambda backend -> Postgres
+Web app                         -> app.<domain>  -> CloudFront -> SPA
+Browser and agent auth          -> auth.<domain> -> API Gateway -> Auth Lambda -> Cognito
+Apex fallback                   -> <domain>      -> CloudFront redirect -> app.<domain>
 ```
 
-## Principles
+## सिद्धांत
 
-1. `app`, `api`, और `auth` के लिए अलग public domains
-2. Postgres source of truth है
-3. iOS client local SQLite और sync के साथ offline-first है
-4. Web app, iOS client, और external agent surface एक ही workspace model share करते हैं
-5. External agents `GET https://api.flashcards-open-source-app.com/v1/` से शुरू करते हैं
+1. `app`, `api`, और `auth` के लिए अलग-अलग सार्वजनिक डोमेन रखे गए हैं
+2. Postgres ही अंतिम डेटा स्रोत है
+3. iOS क्लाइंट local SQLite और sync के सहारे offline-first ढंग से काम करता है
+4. वेब ऐप, iOS ऐप, और बाहरी एजेंट इंटरफ़ेस एक ही workspace मॉडल साझा करते हैं
+5. बाहरी एजेंट `GET https://api.flashcards-open-source-app.com/v1/` से शुरू होते हैं
 
-## Supported Clients
+## समर्थित क्लाइंट
 
-- `app.flashcards-open-source-app.com` पर web app
-- Main repository में local SQLite storage वाला iOS app
-- Google Play पर Android app
-- Discovery, OTP bootstrap, और `Authorization: ApiKey` auth के जरिए external agent clients
+- `app.flashcards-open-source-app.com` पर चलने वाला वेब ऐप
+- मुख्य रिपॉज़िटरी में local SQLite storage वाला iOS ऐप
+- Google Play पर उपलब्ध Android ऐप
+- डिस्कवरी, OTP bootstrap, और `Authorization: ApiKey` के ज़रिए जुड़ने वाले बाहरी एजेंट क्लाइंट
 
-## Data Model
+## डेटा मॉडल
 
 - `workspaces`
 - `workspace_members`
@@ -39,56 +39,56 @@ Apex redirect                 -> <domain>      -> CloudFront redirect -> app.<do
 - `applied_operations`
 - `sync_state`
 
-## Data Flow
+## डेटा प्रवाह
 
-### Web
+### वेब
 
-1. Browser `auth.<domain>` के जरिए sign in करता है।
-2. Web app `api.<domain>` से workspace data load करता है।
-3. AI chat requests `/chat/local-turn` से गुजरती हैं।
-4. Review submissions scheduler state अपडेट करती हैं।
+1. ब्राउज़र `auth.<domain>` के माध्यम से साइन इन करता है।
+2. वेब ऐप `api.<domain>` से workspace से जुड़ा डेटा लोड करता है।
+3. AI chat अनुरोध `/chat/local-turn` के माध्यम से जाते हैं।
+4. review जमा होने पर लिखने के समय scheduler state अपडेट होती है।
 
 ### iOS
 
-1. iOS app पहले local SQLite में लिखता है।
-2. Local changes outbox में queue होती हैं।
-3. Sync `/v1/workspaces/{workspaceId}/sync/push` से changes upload करती है।
-4. Sync `/v1/workspaces/{workspaceId}/sync/pull` से remote updates download करती है।
-5. Local database changes apply करती है और sync cursor आगे बढ़ाती है।
+1. iOS ऐप पहले local SQLite में लिखता है।
+2. स्थानीय बदलावों को outbox में कतारबद्ध किया जाता है।
+3. Sync `/v1/workspaces/{workspaceId}/sync/push` के माध्यम से बदलाव upload करती है।
+4. Sync `/v1/workspaces/{workspaceId}/sync/pull` के माध्यम से दूरस्थ बदलाव डाउनलोड करती है।
+5. स्थानीय database इन बदलावों को apply करता है और sync cursor को आगे बढ़ाता है।
 
-### External Agents
+### बाहरी एजेंट
 
-1. Agents `GET /v1/` से शुरू करते हैं।
-2. पहला OTP stage `auth.<domain>` पर चलता है।
-3. Agent को long-lived API key मिलती है।
-4. Agent `/v1/agent/me` load करता है, workspaces list करता है, जरूरत पड़ने पर एक चुनता है, और `/v1/agent/sql` इस्तेमाल करता है।
+1. एजेंट `GET /v1/` से शुरू होते हैं।
+2. OTP bootstrap `auth.<domain>` पर चलता है।
+3. एजेंट को एक long-lived API key मिलती है।
+4. एजेंट `/v1/agent/me` लोड करता है, workspaces की सूची पढ़ता है, ज़रूरत पड़ने पर एक चुनता है, और फिर `/v1/agent/sql` का उपयोग करता है।
 
-## Scheduling
+## शेड्यूलिंग
 
-Flashcards review scheduler के रूप में FSRS इस्तेमाल करता है।
+Flashcards में review scheduler के लिए FSRS का उपयोग होता है।
 
-Implementation notes:
+कार्यान्वयन संबंधी टिप्पणियाँ:
 
-- Backend और iOS, FSRS implementations aligned रखते हैं
-- Web app scheduling data contract को mirror करता है, लेकिन scheduler की तीसरी implementation ship नहीं करता
-- Workspace-level scheduler settings में desired retention, learning steps, relearning steps, max interval, और fuzz शामिल हैं
-- Actual review timestamp `reviewedAtClient` से आता है
+- backend और iOS, FSRS के ऐसे इम्प्लीमेंटेशन बनाए रखते हैं जो एक-दूसरे से मेल खाते हैं
+- वेब ऐप scheduling data contract के अनुरूप रहता है, लेकिन scheduler की तीसरी अलग implementation शामिल नहीं करता
+- workspace-level scheduler settings में desired retention, learning steps, relearning steps, maximum interval, और fuzz शामिल होते हैं
+- वास्तविक review timestamp `reviewedAtClient` से लिया जाता है
 
-Detailed contract के लिए [main repository FSRS scheduling logic](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/docs/fsrs-scheduling-logic.md) देखें।
+विस्तृत डेटा अनुबंध के लिए [FSRS scheduling logic in the main repository](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/docs/fsrs-scheduling-logic.md) देखें।
 
-## Authentication
+## प्रमाणीकरण
 
-- Cognito के जरिए email OTP
-- Hosted web app के लिए shared-domain session cookies
-- `auth.<domain>` पर agent OTP bootstrap जो long-lived ApiKey देता है
-- Local development के लिए `AUTH_MODE=none`
-- Production-like auth के लिए `AUTH_MODE=cognito`
+- Cognito के ज़रिए email OTP
+- होस्ट किए गए वेब ऐप के लिए shared-domain browser session cookies
+- `auth.<domain>` पर agent OTP bootstrap, जिससे long-lived ApiKey मिलता है
+- स्थानीय development के लिए `AUTH_MODE=none`
+- production-जैसी auth व्यवस्था के लिए `AUTH_MODE=cognito`
 
-## Deployment Shape
+## परिनियोजन संरचना
 
 - `app.<domain>` -> CloudFront + S3
 - `api.<domain>` -> API Gateway + Lambda backend
 - `auth.<domain>` -> API Gateway + Lambda auth service
 - AWS RDS पर Postgres
 
-Root domain एक अलग marketing site पर रह सकता है। अगर bootstrap phase में वह unused है, तो infrastructure इसे अस्थायी रूप से `app.<domain>` पर redirect कर सकती है।
+apex डोमेन अलग मार्केटिंग साइट पर रह सकता है। अगर bootstrap के दौरान वह खाली हो, तो इन्फ्रास्ट्रक्चर उसे अस्थायी रूप से `app.<domain>` पर redirect कर सकता है।

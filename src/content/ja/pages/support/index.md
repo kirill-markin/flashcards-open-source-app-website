@@ -8,20 +8,20 @@ sections:
 ---
 ## 連絡先
 
-Product support、account help、または App Store review questions については [kirill+flashcards@kirill-markin.com](mailto:kirill+flashcards@kirill-markin.com) へメールしてください。
+製品サポート、アカウントに関するお問い合わせ、または App Store の審査に関するご質問は、[kirill+flashcards@kirill-markin.com](mailto:kirill+flashcards@kirill-markin.com) までメールでご連絡ください。
 
-## Account Deletion
+## アカウント削除
 
-iOS app では `Settings > Account Settings > Danger Zone > Delete my account` から hosted account を削除できます。この flow の支援が必要な場合は、メールで support に連絡してください。
+iOS アプリでは、`Settings > Account Settings > Danger Zone > Delete my account` からホスト型アカウントを削除できます。この手順でサポートが必要な場合は、メールでお問い合わせください。
 
-## Open Source And Technical Reports
+## オープンソース関連・技術的なご報告
 
-Flashcards は open source です。Bug reports、self-hosting issues、technical discussions については [GitHub repository](https://github.com/kirill-markin/flashcards-open-source-app) と issue tracker も利用できます。
+Flashcards はオープンソースです。バグ報告、セルフホスティング時の問題、技術的な議論については、[GitHub リポジトリ](https://github.com/kirill-markin/flashcards-open-source-app) とその Issue トラッカーもご利用いただけます。
 
-## Self-Hosting
+## セルフホスティング
 
-Hosted cloud beta を使いたくない場合は、同じ open-source stack を self-host して、自分の infrastructure 上で service を運用できます。
+ホスト型のクラウドベータを利用したくない場合は、同じオープンソースの構成をセルフホストし、ご自身のインフラ上でサービスを運用できます。
 
-## Response Expectations
+## 返信について
 
-Beta period 中の support は best-effort basis で提供されます。できるだけ早く回答するよう努めますが、response times は保証されません。
+ベータ期間中のサポートは、できる限りの範囲で提供しています。できるだけ早く返信するよう努めますが、返信までの時間は保証していません。

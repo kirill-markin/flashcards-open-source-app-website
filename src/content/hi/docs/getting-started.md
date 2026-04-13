@@ -1,44 +1,44 @@
 ---
-title: शुरुआत
-description: Hosted web app से शुरू करें, किसी agent को discovery URL से जोड़ें, या stack को खुद locally चलाएं।
+title: शुरुआत कैसे करें
+description: होस्टेड वेब ऐप से शुरुआत करें, discovery URL के माध्यम से किसी एजेंट को जोड़ें, या पूरे स्टैक को अपने कंप्यूटर पर स्वयं चलाएँ।
 ---
 
-## Hosted Web App
+## होस्टेड वेब ऐप
 
-शुरू करने का सबसे तेज़ तरीका hosted web app है:
+शुरुआत करने का सबसे तेज़ तरीका होस्टेड वेब ऐप है:
 
 1. [app.flashcards-open-source-app.com](https://app.flashcards-open-source-app.com) खोलें
-2. Passwordless email OTP के साथ sign in करें
-3. Cards बनाएं, due items review करें, और workspace data तथा file attachments के साथ AI chat इस्तेमाल करें
+2. अपने ईमेल पर मिलने वाले passwordless OTP से साइन इन करें
+3. कार्ड बनाएँ, देय कार्डों की समीक्षा करें, और अपने कार्यक्षेत्र के डेटा तथा संलग्न फ़ाइलों के साथ AI चैट का उपयोग करें
 
-Hosted path के लिए installation या server setup की जरूरत नहीं है।
+इस होस्टेड विकल्प के लिए आपको कुछ भी स्थापित करने या सर्वर तैयार करने की जरूरत नहीं पड़ती।
 
-## Agent Setup
+## एजेंट जोड़ना
 
-अगर आप Claude Code, Codex, या OpenClaw को सीधे connect करना चाहते हैं, तो यहां से शुरू करें:
+अगर आप Claude Code, Codex, या OpenClaw को सीधे जोड़ना चाहते हैं, तो यहाँ से शुरू करें:
 
 ```text
 GET https://api.flashcards-open-source-app.com/v1/
 ```
 
-यह discovery response agent को email OTP login, long-lived API key creation, account loading, workspace bootstrap, और published SQL surface तक पहुंचने का तरीका बताती है।
+इस पते से मिलने वाला जवाब एजेंट को email OTP login, लंबे समय तक चलने वाली API key बनाने, खाता लोड करने, workspace तैयार करने, और उपलब्ध SQL surface तक पहुँचने की प्रक्रिया समझाता है।
 
-वही payload `GET /v1/agent` से भी उपलब्ध है, लेकिन `/v1/` primary public entry point है।
+यही जानकारी `GET /v1/agent` पर भी उपलब्ध है, लेकिन सार्वजनिक उपयोग के लिए `/v1/` ही आधिकारिक प्रवेश बिंदु है।
 
-## Self-Hosting
+## स्वयं होस्टिंग
 
-अगर आप अपनी copy चलाना पसंद करते हैं, तो [सेल्फ-होस्टिंग गाइड](/docs/self-hosting/) देखें।
+अगर आप इसका अपना संस्करण स्वयं चलाना चाहते हैं, तो [सेल्फ-होस्टिंग गाइड](/docs/self-hosting/) देखें।
 
 ## आज आपको क्या मिलता है
 
-- Cards, review, और AI chat के लिए hosted web app
-- Main repository में local SQLite और offline-first sync वाला iOS client
-- अलग `api` और `auth` domains पर shared backend और auth services
-- Discovery, OTP, और ApiKey auth के जरिए external agent setup
-- Postgres को source of truth मानते हुए AWS पर open-source deployment path
+- कार्ड, पुनरावलोकन, और AI चैट के लिए होस्टेड वेब ऐप
+- मुख्य रिपॉजिटरी में local SQLite और offline-first sync के साथ iOS ऐप
+- अलग `api` और `auth` domains पर साझा बैकएंड और प्रमाणीकरण सेवाएँ
+- discovery, OTP, और ApiKey auth के जरिए बाहरी एजेंटों को जोड़ने की सार्वजनिक प्रक्रिया
+- AWS पर open-source deployment path, जिसमें Postgres मुख्य डेटा स्रोत है
 
-## Repository Direction
+## रिपॉजिटरी की दिशा
 
-Project offline-first दिशा में बनाया गया है।
+यह परियोजना offline-first सोच के साथ बनाई गई है।
 
-आज repository में web app, iOS app, auth service, backend API, external agent flow, और Google Play पर published Android app शामिल हैं।
+आज इस रिपॉजिटरी में वेब ऐप, iOS ऐप, प्रमाणीकरण सेवा, backend API, बाहरी एजेंटों के लिए कनेक्शन प्रवाह, और Google Play पर प्रकाशित Android ऐप शामिल हैं।

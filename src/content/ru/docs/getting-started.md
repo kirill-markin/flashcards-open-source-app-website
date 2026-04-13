@@ -1,19 +1,19 @@
 ---
 title: Начало работы
-description: Начните с hosted web app, подключите agent через discovery URL или запустите stack локально сами.
+description: Начните с веб-приложения, подключите агента через URL обнаружения или разверните стек самостоятельно.
 ---
 
-## Hosted Web App
+## Облачное веб-приложение
 
-Самый быстрый способ начать — hosted web app:
+Быстрее всего начать с облачного веб-приложения:
 
 1. Откройте [app.flashcards-open-source-app.com](https://app.flashcards-open-source-app.com)
-2. Войдите через passwordless email OTP
-3. Создавайте cards, повторяйте due items и используйте AI chat с workspace data и file attachments
+2. Войдите по email с одноразовым кодом OTP без пароля
+3. Создавайте карточки, повторяйте материалы к сроку и пользуйтесь AI-чатом с данными рабочего пространства и вложенными файлами
 
-Hosted path не требует installation или server setup.
+Для этого варианта не нужны ни установка, ни настройка сервера.
 
-## Agent Setup
+## Подключение агента
 
 Если вы хотите напрямую подключить Claude Code, Codex или OpenClaw, начните с:
 
@@ -21,24 +21,24 @@ Hosted path не требует installation или server setup.
 GET https://api.flashcards-open-source-app.com/v1/
 ```
 
-Этот discovery response объясняет agent, как пройти email OTP login, создать long-lived API key, загрузить account, выполнить workspace bootstrap и продолжить через published SQL surface.
+В ответе на этот запрос агент получает весь маршрут: вход по email с OTP, создание долгоживущего API-ключа, загрузка аккаунта, инициализация рабочего пространства и работа с опубликованным SQL-интерфейсом.
 
-Тот же payload доступен и через `GET /v1/agent`, но `/v1/` — primary public entry point.
+Тот же ответ доступен и по `GET /v1/agent`, но именно `/v1/` является канонической публичной точкой входа.
 
-## Self-Hosting
+## Самостоятельный хостинг
 
-Если вы предпочитаете запускать свою copy, смотрите [Руководство по self-hosting](/docs/self-hosting/).
+Если вы предпочитаете запускать собственный экземпляр, смотрите [руководство по самостоятельному хостингу](/docs/self-hosting/).
 
 ## Что доступно уже сегодня
 
-- Hosted web app для cards, review и AI chat
-- iOS client в основном repository с local SQLite и offline-first sync
-- Раздельные backend и auth services на доменах `api` и `auth`
-- External agent setup через discovery, OTP и ApiKey auth
-- Open-source deployment path в AWS с Postgres как source of truth
+- Облачное веб-приложение для карточек, повторения и AI-чата
+- iOS-клиент в основном репозитории с локальной базой SQLite и синхронизацией по модели offline-first
+- Общий API и сервис аутентификации, вынесенные на отдельные домены `api` и `auth`
+- Подключение внешних агентов через URL обнаружения, OTP и аутентификацию по ApiKey
+- Открытый путь развертывания в AWS, где Postgres выступает источником истины
 
-## Направление repository
+## Направление развития репозитория
 
-Project спроектирован в offline-first направлении.
+Проект строится по принципу offline-first.
 
-Сегодня repository включает web app, iOS app, auth service, backend API, external agent flow и Android app, опубликованное в Google Play.
+Сейчас репозиторий включает веб-приложение, iOS-приложение, сервис аутентификации, серверный API, сценарий подключения внешних агентов и Android-приложение, опубликованное в Google Play.

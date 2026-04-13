@@ -1,33 +1,33 @@
 ---
 title: Архитектура
-description: System overview, public domains, supported clients и current offline-first data flow.
+description: Обзор системы, публичные домены, поддерживаемые клиенты и текущий поток данных в offline-first модели.
 ---
 
-## System Overview
+## Обзор системы
 
-```text
-iOS app / agent client        -> api.<domain>  -> API Gateway -> Lambda backend -> Postgres
-Web app                       -> app.<domain>  -> CloudFront -> SPA
-Browser and agent auth        -> auth.<domain> -> API Gateway -> Auth Lambda -> Cognito
-Apex redirect                 -> <domain>      -> CloudFront redirect -> app.<domain>
+```
+iOS app / agent client          -> api.<domain>  -> API Gateway -> Lambda backend -> Postgres
+Web app                         -> app.<domain>  -> CloudFront -> SPA
+Browser and agent auth          -> auth.<domain> -> API Gateway -> Auth Lambda -> Cognito
+Apex fallback                   -> <domain>      -> CloudFront redirect -> app.<domain>
 ```
 
-## Principles
+## Принципы
 
-1. Отдельные public domains для `app`, `api` и `auth`
-2. Postgres — source of truth
-3. iOS client работает в offline-first режиме с local SQLite и sync
-4. Web app, iOS client и external agent surface используют одну workspace model
-5. External agents начинают с `GET https://api.flashcards-open-source-app.com/v1/`
+1. Для `app`, `api` и `auth` используются отдельные публичные домены
+2. Postgres остаётся источником истины
+3. iOS-приложение работает по модели offline-first: локальная SQLite плюс синхронизация
+4. Веб-приложение, iOS-приложение и внешний агентский интерфейс используют одну и ту же модель рабочих пространств
+5. Внешние агенты начинают работу с `GET https://api.flashcards-open-source-app.com/v1/`
 
-## Supported Clients
+## Поддерживаемые клиенты
 
-- Web app на `app.flashcards-open-source-app.com`
-- iOS app в основном repository с local SQLite storage
-- Android app в Google Play
-- External agent clients через discovery, OTP bootstrap и `Authorization: ApiKey` auth
+- Веб-приложение на `app.flashcards-open-source-app.com`
+- iOS-приложение в основном репозитории с локальным хранилищем SQLite
+- Android-приложение в Google Play
+- Внешние агенты через discovery, OTP bootstrap и `Authorization: ApiKey`
 
-## Data Model
+## Модель данных
 
 - `workspaces`
 - `workspace_members`
@@ -39,56 +39,56 @@ Apex redirect                 -> <domain>      -> CloudFront redirect -> app.<do
 - `applied_operations`
 - `sync_state`
 
-## Data Flow
+## Поток данных
 
-### Web
+### Веб
 
-1. Browser выполняет sign in через `auth.<domain>`
-2. Web app загружает workspace data из `api.<domain>`
-3. AI chat requests проходят через `/chat/local-turn`
-4. Review submissions обновляют состояние scheduler
+1. Браузер выполняет вход через `auth.<domain>`.
+2. Веб-приложение загружает данные рабочего пространства из `api.<domain>`.
+3. Запросы AI-чата проходят через `/chat/local-turn`.
+4. При записи результатов повторения обновляется состояние планировщика.
 
 ### iOS
 
-1. iOS app сначала пишет в local SQLite
-2. Local changes ставятся в outbox
-3. Sync отправляет changes через `/v1/workspaces/{workspaceId}/sync/push`
-4. Sync скачивает remote updates через `/v1/workspaces/{workspaceId}/sync/pull`
-5. Local database применяет changes и продвигает sync cursor
+1. iOS-приложение сначала записывает данные в локальную SQLite.
+2. Локальные изменения ставятся в очередь outbox.
+3. Синхронизация отправляет изменения через `/v1/workspaces/{workspaceId}/sync/push`.
+4. Синхронизация получает удалённые обновления через `/v1/workspaces/{workspaceId}/sync/pull`.
+5. Локальная база данных применяет изменения и продвигает курсор синхронизации.
 
-### External Agents
+### Внешние агенты
 
-1. Agents начинают с `GET /v1/`
-2. Первый OTP stage работает на `auth.<domain>`
-3. Agent получает long-lived API key
-4. Agent загружает `/v1/agent/me`, перечисляет workspaces, при необходимости выбирает один и затем использует `/v1/agent/sql`
+1. Агенты начинают с `GET /v1/`.
+2. OTP bootstrap выполняется на `auth.<domain>`.
+3. Агент получает долгоживущий ключ API.
+4. Агент загружает `/v1/agent/me`, получает список рабочих пространств, при необходимости выбирает одно и затем использует `/v1/agent/sql`.
 
-## Scheduling
+## Планирование повторений
 
-Flashcards использует FSRS как review scheduler.
+В Flashcards за планирование повторений отвечает FSRS.
 
-Implementation notes:
+Примечания по реализации:
 
-- Backend и iOS держат FSRS implementations согласованными
-- Web app повторяет scheduling data contract, но не поставляет третью реализацию scheduler
-- Workspace-level scheduler settings включают desired retention, learning steps, relearning steps, max interval и fuzz
-- Actual review timestamp приходит из `reviewedAtClient`
+- На backend и в iOS поддерживаются согласованные реализации FSRS
+- Веб-приложение повторяет контракт данных планировщика, но не содержит третью отдельную реализацию
+- Настройки планировщика на уровне рабочего пространства включают desired retention, learning steps, relearning steps, maximum interval и fuzz
+- Фактическое время повторения берётся из `reviewedAtClient`
 
-Для подробного contract см. [main repository FSRS scheduling logic](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/docs/fsrs-scheduling-logic.md).
+Подробный контракт описан в [FSRS scheduling logic in the main repository](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/docs/fsrs-scheduling-logic.md).
 
-## Authentication
+## Аутентификация
 
 - Email OTP через Cognito
-- Shared-domain session cookies для hosted web app
-- Agent OTP bootstrap на `auth.<domain>` с выдачей long-lived ApiKey
-- `AUTH_MODE=none` для local development
-- `AUTH_MODE=cognito` для production-like auth
+- Cookies браузерной сессии, общие для всего домена, для размещённого веб-приложения
+- OTP bootstrap для агентов на `auth.<domain>` с выдачей долгоживущего ApiKey
+- `AUTH_MODE=none` для локальной разработки
+- `AUTH_MODE=cognito` для аутентификации, приближенной к боевой среде
 
-## Deployment Shape
+## Схема развертывания
 
 - `app.<domain>` -> CloudFront + S3
 - `api.<domain>` -> API Gateway + Lambda backend
 - `auth.<domain>` -> API Gateway + Lambda auth service
-- Postgres on AWS RDS
+- Postgres в AWS RDS
 
-Root domain может оставаться отдельным marketing site. Если он не используется на этапе bootstrap, infrastructure может временно redirect его на `app.<domain>`.
+Корневой домен может оставаться на отдельном маркетинговом сайте. Если на этапе начального запуска он свободен, инфраструктура может временно перенаправить его на `app.<domain>`.

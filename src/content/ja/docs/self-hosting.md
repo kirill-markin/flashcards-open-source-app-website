@@ -1,16 +1,16 @@
 ---
-title: Self-Hosting Guide
-description: Postgres、auth、backend、web を使って Flashcards をローカル実行するか、documented AWS stack を自分で deploy します。
+title: セルフホスティングガイド
+description: Postgres、auth、backend、web を使って Flashcards をローカルで動かす方法と、ドキュメント化された AWS 構成を自分でデプロイする方法を案内します。
 ---
 
-## Requirements
+## 必要なもの
 
 - Docker
 - Node.js 20+
 - npm
-- Bundled Docker setup による PostgreSQL 16+
+- 付属の Docker セットアップで動かす PostgreSQL 16+
 
-## Quick Start
+## クイックスタート
 
 ```bash
 git clone https://github.com/kirill-markin/flashcards-open-source-app.git
@@ -23,7 +23,7 @@ npm install --prefix apps/backend
 npm install --prefix apps/web
 ```
 
-次に services を別々の terminal windows で起動します:
+続いて、各サービスを別々のターミナルで起動します。
 
 ```bash
 make auth-dev
@@ -31,45 +31,45 @@ make backend-dev
 make web-dev
 ```
 
-起動されるもの:
+これで次のサービスが起動します。
 
-1. `postgres` on port `5432`
-2. `auth` on port `8081`
-3. `backend` on port `8080`
-4. `web` on port `3000`
+1. `postgres` がポート `5432`
+2. `auth` がポート `8081`
+3. `backend` がポート `8080`
+4. `web` がポート `3000`
 
-Local addresses:
+ローカルでのアクセス先:
 
-- `http://localhost:3000` for the web app
-- `http://localhost:8080/v1` for the backend API
-- `http://localhost:8081` for the auth service
+- Web アプリ: `http://localhost:3000`
+- バックエンド API: `http://localhost:8080/v1`
+- Auth サービス: `http://localhost:8081`
 
-## Configuration
+## 設定
 
-`.env.example` を `.env` にコピーし、以下を設定します:
+`.env.example` を `.env` にコピーし、必要に応じて次の項目を調整します。
 
-- `DATABASE_URL` — Postgres connection string
-- `AUTH_MODE` — local では `none`、email OTP auth では `cognito`
-- `BACKEND_ALLOWED_ORIGINS` — session-backed API requests の allowed origins
-- `PUBLIC_API_BASE_URL` と `PUBLIC_AUTH_BASE_URL` — discovery responses で custom public hosts を返したい場合の optional overrides
+- `DATABASE_URL` — Postgres の接続文字列
+- `AUTH_MODE` — ローカル利用では `none`、メール OTP 認証を使う場合は `cognito`
+- `BACKEND_ALLOWED_ORIGINS` — セッション認証付き API リクエストを許可するブラウザのオリジン
+- `PUBLIC_API_BASE_URL` と `PUBLIC_AUTH_BASE_URL` — ディスカバリレスポンスで独自の公開ホストを案内したい場合に使う任意の上書き設定
 
-## Local iOS Setup
+## iOS のローカル設定
 
-Main repository の iOS app は以下から local API / auth hosts を読み込みます:
+メインリポジトリの iOS アプリは、ローカルの API / auth ホスト設定を次のファイルから読み込みます。
 
 ```text
 apps/ios/Flashcards/Config/Local.xcconfig
 ```
 
-必要なら example file をコピーします:
+必要であれば、サンプルファイルをコピーしてください。
 
 ```bash
 cp apps/ios/Flashcards/Config/Local.xcconfig.example apps/ios/Flashcards/Config/Local.xcconfig
 ```
 
-その後、local または self-hosted の `api` / `auth` domains を指すように設定してください。
+そのうえで、ローカル環境またはセルフホスト環境の `api` / `auth` ドメインを指すように設定します。
 
-## Updating
+## 更新
 
 ```bash
 git pull
@@ -79,18 +79,18 @@ npm install --prefix apps/backend
 npm install --prefix apps/web
 ```
 
-Dependencies を変更した後は local services を再起動してください。
+依存関係を更新したあとは、ローカルの各サービスを再起動してください。
 
-## AWS Deployment
+## AWS へのデプロイ
 
-Documented production shape:
+ドキュメントで案内している本番構成は次のとおりです。
 
-- CloudFront + S3 for `app.<domain>`
-- API Gateway + Lambda for `api.<domain>`
-- API Gateway + Lambda for `auth.<domain>`
-- Postgres on AWS RDS
-- Cognito for passwordless email auth
-- Optional apex redirect when the root domain is unused
+- `app.<domain>` に CloudFront + S3
+- `api.<domain>` に API Gateway + Lambda
+- `auth.<domain>` に API Gateway + Lambda
+- AWS RDS 上の Postgres
+- パスワードレスのメール OTP 認証に Cognito
+- ルートドメインをほかに使わない場合は、任意で apex redirect を設定
 
 詳しくは:
 

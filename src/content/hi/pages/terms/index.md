@@ -8,32 +8,32 @@ sections:
 ---
 ## सेवा
 
-Flashcards एक open-source spaced-repetition और flashcards tool है। Hosted cloud beta को beta period के दौरान as-is और as-available basis पर प्रदान किया जाता है।
+Flashcards एक open-source spaced-repetition और flashcards टूल है। इसकी होस्टेड cloud बीटा सेवा, बीटा अवधि के दौरान, "जैसी है" और "जैसी उपलब्ध है" के आधार पर उपलब्ध कराई जाती है।
 
-## Service Provider
+## सेवा प्रदाता
 
-Hosted Flashcards service को Ozma Inc. प्रदान करती है। Flashcards को Kirill Markin ने बनाया था, और [ozma.io](https://ozma.io/) hosted service से जुड़ी company website है।
+होस्टेड Flashcards सेवा Ozma Inc. द्वारा प्रदान की जाती है। Flashcards को Kirill Markin ने बनाया है, और [ozma.io](https://ozma.io/) इस होस्टेड सेवा से संबंधित कंपनी की वेबसाइट है।
 
-## आपका data
+## आपका डेटा
 
-आप अपने data के मालिक हैं। आपके द्वारा जोड़े गए cards, review history, या अन्य learning content पर हम कोई अधिकार claim नहीं करते।
+आप अपने डेटा के स्वामी हैं। आपके द्वारा जोड़े गए cards, review history, या अन्य learning content पर हम किसी भी प्रकार के अधिकार का दावा नहीं करते।
 
-## Acceptable Use
+## स्वीकार्य उपयोग
 
-Service का उपयोग illegal activities के लिए न करें, दूसरे users के data तक पहुंचने की कोशिश न करें, API rate limits का दुरुपयोग न करें, और AI/chat features के माध्यम से harmful, unlawful, या abusive content submit न करें।
+सेवा का उपयोग अवैध गतिविधियों के लिए न करें, अन्य उपयोगकर्ताओं के डेटा तक पहुंचने का प्रयास न करें, API rate limits का दुरुपयोग न करें, और AI/chat सुविधाओं के माध्यम से हानिकारक, अवैध, या अपमानजनक सामग्री जमा न करें।
 
-## AI Features
+## AI सुविधाएँ
 
-AI chat optional है। अगर आप इसका उपयोग करते हैं, तो आपकी requests hosted service के लिए configured third-party AI providers द्वारा process की जा सकती हैं, और responses inaccurate या incomplete हो सकते हैं। AI-generated output पर भरोसा करने या changes लागू करने से पहले उसकी review करना आपकी जिम्मेदारी है।
+AI chat वैकल्पिक है। यदि आप इसका उपयोग करते हैं, तो आपके अनुरोध होस्टेड सेवा के लिए निर्धारित third-party AI providers द्वारा संसाधित किए जा सकते हैं, और उनके उत्तर गलत या अधूरे हो सकते हैं। AI-generated output पर भरोसा करने या उसके आधार पर बदलाव लागू करने से पहले उसकी समीक्षा करना आपकी जिम्मेदारी है।
 
-## Availability
+## उपलब्धता
 
-Hosted service best-effort basis पर प्रदान की जाती है और beta period के दौरान बिना notice बदली, रोकी, या हटाई जा सकती है। Guaranteed availability या full operational control के लिए application को self-host करें।
+होस्टेड सेवा best-effort आधार पर उपलब्ध कराई जाती है और बीटा अवधि के दौरान बिना सूचना बदली, रोकी, या हटाई जा सकती है। सुनिश्चित उपलब्धता या संचालन पर पूर्ण नियंत्रण के लिए एप्लिकेशन को अपनी अवसंरचना पर self-host करें।
 
-## Support
+## सहायता
 
-Support के लिए [kirill+flashcards@kirill-markin.com](mailto:kirill+flashcards@kirill-markin.com) पर संपर्क करें या [सपोर्ट](/support/) का उपयोग करें।
+सहायता के लिए [kirill+flashcards@kirill-markin.com](mailto:kirill+flashcards@kirill-markin.com) पर संपर्क करें या [सपोर्ट पेज](/support/) का उपयोग करें।
 
-## Open Source
+## ओपन सोर्स
 
-Source code MIT license के तहत उपलब्ध है। Self-hosted deployments इन terms के अधीन नहीं हैं।
+सोर्स कोड MIT license के तहत उपलब्ध है। Self-hosted deployments इन शर्तों के अधीन नहीं हैं।

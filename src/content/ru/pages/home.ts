@@ -1,9 +1,9 @@
 import type { PageContent } from "@/lib/content/types";
 
 export const HOME_PAGE_CONTENT: PageContent = {
-  title: "Flashcards - открытое интервальное повторение",
+  title: "Flashcards - приложение с открытым исходным кодом для интервального повторения",
   description:
-    "Создавайте карточки, учитесь больше и забывайте меньше с open-source приложением для интервального повторения, AI-чата и onboarding для агентов.",
+    "Создавайте карточки, учитесь больше и забывайте меньше с приложением с открытым исходным кодом для интервального повторения, AI-чата и готового сценария входа для агентов.",
   slug: "home",
   sections: [
     {
@@ -14,7 +14,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
         "Забывайте меньше.",
       ],
       subtitle:
-        "Open-source приложение для карточек с интервальным повторением, passwordless auth, AI-чатом и onboarding-потоком для агентов. Используйте hosted web app уже сегодня, подключайте Claude Code, Codex или OpenClaw через один discovery URL и держите web, iOS и agent workflows на одной backend-модели.",
+        "Приложение с открытым исходным кодом для карточек: интервальное повторение, вход без пароля, AI-чат и готовый сценарий подключения агентов. Уже сегодня пользуйтесь веб-версией, подключайте Claude Code, Codex или OpenClaw через один discovery URL и объединяйте веб, iOS и сценарии для агентов на одном и том же бэкенде.",
       primaryLink: {
         label: "Начать",
         href: "https://app.flashcards-open-source-app.com",
@@ -23,7 +23,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
         label: "Открыть на GitHub",
         href: "https://github.com/kirill-markin/flashcards-open-source-app",
       },
-      hintText: "Начните с GET по этому discovery URL:",
+      hintText: "Начните с GET-запроса к этому discovery URL:",
       hintLink: {
         label: "https://api.flashcards-open-source-app.com/v1/",
         href: "https://api.flashcards-open-source-app.com/v1/",
@@ -31,39 +31,39 @@ export const HOME_PAGE_CONTENT: PageContent = {
     },
     {
       type: "feature_list",
-      title: "Функции",
+      title: "Возможности",
       intro:
-        "Сфокусированный стек для карточек: hosted web app, iOS client в репозитории, внешний agent API и инфраструктура, уже готовая для self-hosting.",
+        "Практичный стек для карточек: веб-приложение, iOS-клиент в репозитории, внешний API для агентов и уже готовая инфраструктура для самостоятельного хостинга.",
       items: [
         {
           title: "Интервальное повторение",
           description:
-            "Повторяйте карточки с FSRS scheduling и простой схемой оценок. Backend и iOS client поддерживают согласованное поведение scheduler.",
+            "Повторяйте карточки по алгоритму FSRS с простой системой оценок. Бэкенд и iOS-клиент работают согласованно, поэтому логика планировщика остаётся одинаковой.",
         },
         {
-          title: "Web app и AI-чат",
+          title: "Веб-приложение и AI-чат",
           description:
-            "Создавайте карточки, просматривайте коллекцию, повторяйте due items и используйте AI-чат с file attachments в hosted web app.",
+            "Создавайте карточки, просматривайте коллекцию, повторяйте то, что пора освежить, и работайте с AI-чатом и вложениями в веб-приложении.",
         },
         {
-          title: "Passwordless Auth",
+          title: "Вход без пароля",
           description:
-            "Email OTP через Cognito и shared-domain cookies между auth и app subdomains.",
+            "Вход по одноразовому коду из email через Cognito и cookie общего домена между поддоменами auth и app.",
         },
         {
-          title: "Onboarding для агентов",
+          title: "Подключение AI-агентов",
           description:
-            "Передайте AI agent discovery URL, подтвердите последний 8-digit email code и позвольте ему завершить login, настройку API key, загрузку account context, выбор workspace и SQL discovery.",
+            "Передайте AI-агенту discovery URL, подтвердите последний 8-значный код из email, и он сам завершит вход, настройку API key, загрузку данных аккаунта, выбор рабочего пространства и SQL discovery.",
         },
         {
-          title: "Self-Hosted",
+          title: "Самостоятельный хостинг",
           description:
-            "Запускайте Postgres локально, поднимайте auth, backend и web по отдельности и сохраняйте полный контроль над AWS deployment path.",
+            "Запускайте Postgres локально, поднимайте auth, backend и web по отдельности и полностью контролируйте путь развёртывания в AWS.",
         },
         {
-          title: "Offline-First Clients",
+          title: "Офлайн-ориентированные клиенты",
           description:
-            "В репозитории уже есть iOS app с локальным SQLite и sync, а Android app теперь доступно в Google Play.",
+            "В репозитории уже есть iOS-приложение с локальным SQLite и синхронизацией, а Android-приложение доступно в Google Play.",
         },
       ],
     },

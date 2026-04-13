@@ -8,32 +8,32 @@ sections:
 ---
 ## 服务
 
-Flashcards 是一款 open-source spaced-repetition 与 flashcards tool。Hosted cloud beta 在 beta period 中按 as-is 与 as-available basis 提供。
+Flashcards 是一款开源的间隔重复与抽认卡工具。托管云端测试版在测试期间按现状及可用情况提供。
 
-## Service Provider
+## 服务提供方
 
-Hosted Flashcards service 由 Ozma Inc. 提供。Flashcards 由 Kirill Markin 创建，[ozma.io](https://ozma.io/) 是与 hosted service 相关的 company website。
+托管版 Flashcards 服务由 Ozma Inc. 提供。Flashcards 由 Kirill Markin 创建，[ozma.io](https://ozma.io/) 是与该托管服务相关的公司网站。
 
-## 你的数据
+## 您的数据
 
-你的数据归你所有。对于你输入的 cards、review history 或其他 learning content，我们不主张任何权利。
+您的数据归您所有。对于您输入的卡片、复习历史或其他学习内容，我们不主张任何权利。
 
-## Acceptable Use
+## 可接受使用
 
-请不要将 service 用于非法活动，不要尝试访问其他 users 的数据，不要滥用 API rate limits，也不要通过 AI/chat features 提交 harmful、unlawful 或 abusive content。
+请勿将本服务用于非法活动、尝试访问其他用户的数据、滥用 API 速率限制，或通过 AI/聊天功能提交有害、违法或辱骂性内容。
 
-## AI Features
+## AI 功能
 
-AI chat 是 optional 的。如果你使用它，你的 requests 可能会由为 hosted service 配置的 third-party AI providers 处理，responses 也可能 inaccurate 或 incomplete。在依赖 AI-generated output 或应用 changes 之前，审查结果是你的责任。
+AI 聊天为可选功能。如果您使用该功能，您的请求可能会由为托管服务配置的第三方 AI 提供商处理，返回结果也可能不准确或不完整。在依赖 AI 生成的输出或据此应用更改之前，您有责任自行审核。
 
-## Availability
+## 可用性
 
-Hosted service 按 best-effort basis 提供，并可能在 beta period 内无通知地发生变化、暂停或下线。如果你需要 guaranteed availability 或 full operational control，请自己 self-host application。
+托管服务按尽力而为原则提供，并可能在测试期间于不另行通知的情况下发生变更、暂停或下线。如果您需要有保证的可用性或完整的运营控制，请在您自己的基础设施上自行托管该应用。
 
-## Support
+## 支持
 
-如需 support，请联系 [kirill+flashcards@kirill-markin.com](mailto:kirill+flashcards@kirill-markin.com) 或使用 [支持](/support/)。
+如需支持，请联系 [kirill+flashcards@kirill-markin.com](mailto:kirill+flashcards@kirill-markin.com) 或访问[支持页面](/support/)。
 
-## Open Source
+## 开源
 
-Source code 在 MIT license 下提供。Self-hosted deployments 不受这些 terms 约束。
+源代码依据 MIT 许可证提供。自托管部署不受这些条款约束。
