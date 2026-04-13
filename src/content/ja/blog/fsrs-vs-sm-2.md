@@ -1,136 +1,136 @@
 ---
-title: "2026年の FSRS vs SM-2: どの spaced repetition algorithm がより多く覚えられるか"
-description: "2026年の flashcards 向け FSRS と SM-2 の実用比較です。FSRS が古い SM-2 系 scheduling より、なぜより良い review timing、より低い workload、より強い spaced repetition 体験を生みやすいのかを解説します。"
+title: "2026年のFSRSとSM-2を比較: より覚えやすい間隔反復アルゴリズムはどちらか"
+description: "2026年時点のフラッシュカード向けFSRSとSM-2の実用比較です。FSRSが旧来のSM-2系スケジューリングよりも、なぜ復習タイミングを整えやすく、学習負荷を抑えやすいのかを解説します。"
 date: "2026-03-12"
 keywords:
-  - "fsrs vs sm2"
-  - "spaced repetition algorithm"
-  - "anki fsrs"
-  - "best flashcard algorithm"
-  - "how fsrs works"
-  - "open source flashcards app"
+  - "FSRSとSM-2の違い"
+  - "間隔反復アルゴリズム"
+  - "Anki FSRS"
+  - "フラッシュカード アルゴリズム"
+  - "FSRS 仕組み"
+  - "オープンソース フラッシュカードアプリ"
 ---
 
-Flashcards app は、最初の 1 週間くらいは賢く見えます。やがて easy cards が必要以上に戻ってきて、hard cards は変な間隔で消え、全体が学習というより管理作業のように感じ始めます。
+フラッシュカードアプリは、最初の 1 週間くらいは賢く見えます。ところがその後、簡単なカードが何度も戻ってきたり、難しいカードが変な間隔で消えたりして、学習より管理作業をしている気分になってきます。
 
-たいてい、それは design の問題ではありません。
+たいてい問題は、見た目ではありません。
 
-scheduler の問題です。
+スケジューラです。
 
-長年、このカテゴリの default answer は何らかの **SM-2** でした。単純で、よく知られていて、spaced repetition が機能することを証明するには十分だったからです。
+長いあいだ、この分野の定番は **SM-2** でした。仕組みが単純で、広く知られていて、「間隔反復は効く」と示すには十分だったからです。
 
 私は SM-2 が悪いとは思っていません。
 
-古いと思っています。
+古くなったと感じています。
 
-だから 2026 年にもっと有用な問いは、「spaced repetition は効くのか」ではありません。そんなことは明らかです。問うべきは、あなたの flashcards app が、今でも default に値する scheduler を使っているかどうかです。
+だから 2026 年に問うべきなのは、「間隔反復は本当に効くのか」ではありません。それはもう明らかです。大事なのは、今使っているフラッシュカードアプリのスケジューラが、いまでも標準として妥当かどうかです。
 
-## SM-2 がここまで長く使われてきた理由
+## なぜ SM-2 はここまで長く使われてきたのか
 
-SM-2 が地位を得たのには理由があります。
+SM-2 が長く残ったのには、きちんと理由があります。
 
-理解するのに十分シンプルで、実装するのに十分シンプルで、十分に有名だったので、多くの flashcards product は深く考え直さなくてもそれを継承できました。長い間、それで足りました。
+理解しやすく、実装しやすく、名前も十分に知られていたので、多くのフラッシュカード製品が深く考え直さずに採用できました。長いあいだは、それで困らなかったのです。
 
-公平に言えば、ランダムな復習タイミングや固定間隔よりは今でもずっと良いです。
+もちろん、ランダムな復習や固定間隔よりは今でもずっと優れています。
 
-問題は、「ランダムよりマシ」は serious な learning tool の基準として高くないことです。
+ただし「ランダムよりまし」というのは、本気で学習するための道具としては高い基準ではありません。
 
-card を戻す正確な timing が重要だという前提で作られた product なら、scheduler は backend detail ではありません。product そのものです。
+カードをいつ出し直すかが学習成果を左右するなら、スケジューラは単なる裏側の実装ではありません。製品の中核そのものです。
 
-## FSRS が変えること
+## FSRS が変えるもの
 
-FSRS は、同じ基本目標をより良い memory model で扱います。
+FSRS も目標は同じです。ただ、より良い記憶モデルでそれを扱います。
 
-粗い ease-style の approach に頼る代わりに、次のようなものを追跡します。
+ざっくりした ease ベースの考え方に頼るのではなく、次のような要素を追跡します。
 
-- stability
-- difficulty
-- review history
-- target retention
+- 安定度
+- 難しさ
+- 復習履歴
+- 目標の定着率
 
-これにより、scheduler は card に何が起きているかについて、より多くの context を持てます。
+そのぶん、各カードに何が起きているのかをスケジューラがより正確に把握できます。
 
-実際の感覚としては、たいてい次のようになります。
+実際の体感としては、たいてい次のような違いになります。
 
-- よく知っている cards が時間を無駄にしなくなる
-- あまり知らない cards がより妥当に調整される
-- review queue が恣意的に感じにくくなる
+- すでに覚えているカードに時間を取られにくい
+- 苦手なカードの間隔調整が自然になる
+- 復習キューが理不尽に感じにくくなる
 
-数式を 1 つも読みたくない学習者でも気づくのは、この部分です。
+数式を読みたくない学習者でも、ここははっきり分かります。
 
 ## 実際に感じる違い
 
-多くの人は、方程式を見比べて **FSRS vs SM-2** を比較するわけではありません。
+多くの人は、**FSRS と SM-2 の違い** を方程式で比較しません。
 
-2 週間ほど使ったあとに体感します。
+2 週間ほど使って体感します。
 
-弱い scheduler だと、easy cards が何度も出てきて邪魔に感じられます。hard cards は awkward なタイミングで戻る。queue 全体が常に少しずれているように感じ、その friction が daily review を不快にします。
+弱いスケジューラだと、簡単なカードが何度も出てきてうっとうしくなります。難しいカードは、戻ってくるタイミングがどこか不自然です。キュー全体が少しずつずれている感じが続き、それだけで毎日の復習が重くなります。
 
-この friction は、見た目以上に重要です。
+この違和感は、見た目以上に大きな問題です。
 
-Flashcards は habit product です。review flow が本来より重く感じられると、効率を失うだけではありません。明日 app を開きたい気持ち自体が弱くなります。
+フラッシュカードは習慣の道具です。復習の流れが本来より重く感じると、効率が落ちるだけではありません。翌日またアプリを開きたい気持ちそのものが弱くなります。
 
-だからこれは、study nerds 向けの niche な implementation detail ではありません。product に明日も戻ってきたくなるかを左右します。
+だからこれは、学習オタク向けの細かい実装の話ではありません。明日も使い続けられるかを左右する話です。
 
-## FSRS が強い部分
+## FSRS が強いポイント
 
-多くの serious learners にとって、FSRS は実際に重要な点でより優れています。
+本気で学ぶ人にとって、FSRS は本当に大事な部分で強さがあります。
 
-- review workload を抑えやすい
-- 具体的な retention target を狙える
-- recall difficulty に対してより現実的に調整できる
-- すでに知っている cards の余計な repetition を避けられる
+- 復習量を抑えやすい
+- 目標の定着率を明示して調整できる
+- 思い出しにくさに応じた現実的な間隔調整がしやすい
+- すでに覚えているカードの無駄な繰り返しを減らせる
 
-現代の **Anki FSRS** への関心が高い理由も、ここにあります。略称が新しいからではありません。queue が十分大きくなり、timing の悪さが目立つようになると、scheduling の feel が明らかに良くなるからです。
+最近 **Anki FSRS** への関心が高いのも、このためです。略称が新しいからではありません。キューが大きくなるにつれて、悪いタイミングの不自然さが目立ち、FSRS のほうがしっくりくるからです。
 
-## それでも SM-2 が残り続ける 1 つの理由
+## それでも SM-2 が残っている理由
 
 SM-2 は説明が簡単です。
 
-小さな prototype を作るなら、spaced repetition の概念を教えるなら、あるいは非常に軽量な flashcards toy を作るなら、単純なロジックには本物の魅力があります。
+小さな試作を作るとき、間隔反復の考え方を教えるとき、あるいは非常に軽量なフラッシュカードツールを作るときには、その単純さに大きな魅力があります。
 
-単純な system の中で残しておく理由としては妥当です。
+単純な仕組みの中で残っていること自体は不思議ではありません。
 
-でも、より良い scheduler が使える serious な flashcards app で、長期的な default として出荷し続ける理由としては、あまり強くありません。
+ただ、より良いスケジューラを使える本格的なフラッシュカードアプリで、長期の標準として採用し続ける理由としては弱いと思います。
 
-## acronym より退屈な implementation details のほうが重要
+## 略称より、地味な実装のほうが大事
 
-ここは比較記事がよく飛ばす部分です。
+比較記事がよく飛ばすのは、ここです。
 
-「FSRS を使っています」と言うだけで flashcards product が良くなるわけではありません。
+「FSRS を使っています」と書くだけで、フラッシュカード製品が良くなるわけではありません。
 
-重要なのは、implementation が本当に丁寧かどうかです。
+大事なのは、実装が本当に丁寧かどうかです。
 
-[Flashcards](https://flashcards-open-source-app.com/) では、FSRS は marketing label ではなく product contract として扱われています。scheduler behavior は backend と iOS app で mirror されています。web app は scheduler data contract を mirror しますが、3 本目の独立した FSRS implementation は持ちません。system は各 card に hidden memory state を保存し、明示的な learning / relearning steps を持ち、desired retention、learning steps、relearning steps、maximum interval、fuzz などの workspace-level settings をサポートし、scheduling 中には `reviewedAtClient` を通じて実際の client review timestamp を使います。
+[Flashcards](https://flashcards-open-source-app.com/) では、FSRS は単なるマーケティング用のラベルではなく、製品として守るべき契約として扱われています。スケジューラの挙動はバックエンドと iOS アプリでそろえられており、web アプリはスケジューリング用データ契約を共有しつつ、別の独立した FSRS 実装は持ちません。各カードには内部の記憶状態が保存され、learning steps と relearning steps は明示され、desired retention、learning steps、relearning steps、maximum interval、fuzz などのワークスペース設定も扱えます。さらに、スケジューリング時には `reviewedAtClient` を通じて実際のクライアント側レビュー時刻を使います。
 
-backend detail に聞こえるかもしれませんが、2 つの clients が同じ card を同じように schedule するか、それとも静かにずれていくかを決めるのは、まさにこういう detail です。
+一見すると裏側の細かい話ですが、複数のクライアントで同じカードが同じようにスケジュールされるか、少しずつずれていくかを決めるのは、まさにこうした部分です。
 
-そして scheduling がずれ始めると、user は理由を説明できなくてもすぐに違和感を覚えます。
+そしてスケジュールがずれ始めると、ユーザーは理由を説明できなくても違和感をすぐ感じます。
 
 ## 学習者が気にすべきこと
 
-Flashcards tool を選ぶなら、feature checklist よりも、私は次の退屈な問いを重視します。
+フラッシュカードツールを選ぶなら、機能一覧よりも、私は次の地味な問いを重視します。
 
-card はいつ戻ってくるのか。そして、その timing は何百、何千という reviews を積んだあとでも sensible に感じられるか。
+そのカードは、いつ戻ってくるのか。そして、何百回・何千回と復習したあとでも、そのタイミングに納得できるのか。
 
-そこでこそ、best flashcard algorithm が本当に重要になります。
+そこでこそ、良いフラッシュカード用アルゴリズムの差が出ます。
 
-理論ではなく。
+理論上ではなく、
 
-workload において。
+復習量で、
 
-retention において。
+定着率で、
 
-queue が help になるのか punishment になるのかにおいて。
+キューが助けになるのか、罰に感じるのかで差が出ます。
 
-## では 2026 年により良い spaced repetition algorithm はどちらか
+## では 2026 年、より良い間隔反復アルゴリズムはどちらか
 
-多くの現実的な study workflow では、**FSRS のほうがより良い spaced repetition algorithm** です。
+多くの現実的な学習ワークフローでは、**FSRS のほうがより良い間隔反復アルゴリズム** です。
 
-SM-2 は、このカテゴリを形作る助けをした功績があります。でも modern app を作るなら、あるいは選ぶなら、今の default としてより弁護しやすいのは FSRS です。
+SM-2 がこの分野を形作った功績は大きいと思います。ただ、いま新しいアプリを作るにしても、選ぶにしても、標準としてより筋が通っているのは FSRS です。
 
-scheduler に、より良い information、より良い control、そして実際の memory に review timing を合わせるより高い可能性を与えてくれるからです。
+スケジューラが扱える情報が増え、調整の自由度が上がり、ざっくりした近似ではなく実際の記憶状態に復習タイミングを合わせやすくなるからです。
 
-それこそが spaced repetition の本質です。
+それこそが、間隔反復の本質です。
 
-scheduling quality を checkbox ではなく core product decision として扱う **open source flashcards app** を求めるなら、[Flashcards](https://flashcards-open-source-app.com/) はその方向で作られています。
+スケジューリングの質を単なるチェック項目ではなく、製品の中心的な判断として扱う **オープンソースのフラッシュカードアプリ** を探しているなら、[Flashcards](https://flashcards-open-source-app.com/) はその方向で作られています。

@@ -1,13 +1,13 @@
 ---
-title: "Claude Code、Codex、OpenClaw に Flashcards へのログインを任せる方法"
-description: "Flashcards では、1つの discovery URL、メール OTP、長期利用できる API キーを軸にしたオープンソースのエージェント向けログインフローを公開しています。エージェントには URL を1つ渡し、あとはメールに届く8桁のコードを返すだけで、アカウント確認からワークスペース準備まで進められます。"
+title: "Claude Code、Codex、OpenClaw を Flashcards にログインさせる方法"
+description: "Flashcards では、1つのディスカバリー URL、メール OTP、長期利用できる API キーを軸にした、オープンソースのエージェント向けログインフローを公開しています。エージェントには URL を1つ渡し、あとはメールに届く8桁のコードを返すだけで、アカウント確認からワークスペース準備まで進められます。"
 date: "2026-03-10"
 keywords:
-  - "claude code login"
-  - "codex login"
-  - "email otp api"
-  - "agent onboarding"
-  - "open source flashcards app"
+  - "Claude Code ログイン"
+  - "Codex ログイン"
+  - "メール OTP API"
+  - "エージェント向けログイン"
+  - "オープンソース フラッシュカード アプリ"
 ---
 
 多くのログインフローは、今でも人間が最初から最後まで手作業で設定する前提のままです。
@@ -16,7 +16,7 @@ keywords:
 
 本来、そうした手間こそツール側が引き受けるべきです。
 
-[Flashcards](https://flashcards-open-source-app.com/) では、1つの discovery URL から始められる、オープンソースのエージェント向けログインフローを公開しました。
+[Flashcards](https://flashcards-open-source-app.com/) では、1つのディスカバリー URL から始められる、オープンソースのエージェント向けログインフローを公開しました。
 
 `https://api.flashcards-open-source-app.com/v1/`
 
@@ -33,7 +33,7 @@ keywords:
 
 ## 1つのリンクで足りる
 
-discovery endpoint は、サービスの説明、認証方式、最初の操作、次に何をすべきかという指示を、1つのレスポンスでまとめて返します。
+ディスカバリーエンドポイントは、サービスの説明、認証方式、最初の操作、次に何をすべきかという指示を、1つのレスポンスでまとめて返します。
 
 そのため、ツールごとに専用のオンボーディング文面を書く代わりに、エージェントへ URL を渡し、返ってきた指示どおりに進めさせれば済みます。
 
@@ -52,7 +52,7 @@ GET https://api.flashcards-open-source-app.com/v1/
 
 手順は意図的に小さくまとめています。
 
-1. エージェントが discovery endpoint を呼ぶ
+1. エージェントがディスカバリーエンドポイントを呼ぶ
 2. エージェントがユーザーのメールアドレスを `send-code` に送る
 3. Flashcards が8桁コードをメールで送り、`otpSessionToken` を返す
 4. エージェントがユーザーに最新のコードをたずねる
@@ -88,7 +88,7 @@ https://api.flashcards-open-source-app.com/v1/
 検証が必要になったら、メールに届いた最新の8桁コードを私に聞いてください。
 ```
 
-## 例: discovery レスポンス
+## 例: ディスカバリー応答
 
 最初のリクエストはこれです。
 
@@ -275,11 +275,11 @@ curl https://api.flashcards-open-source-app.com/v1/agent/me \
 
 Flashcards はオープンソースなので、ブラックボックスとして扱うのではなく、フロー全体を自分で確認できます。
 
-- Repository: [github.com/kirill-markin/flashcards-open-source-app](https://github.com/kirill-markin/flashcards-open-source-app)
-- Agent discovery route: [apps/backend/src/agentDiscovery.ts](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/apps/backend/src/agentDiscovery.ts)
-- Agent send-code route: [apps/auth/src/routes/agentSendCode.ts](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/apps/auth/src/routes/agentSendCode.ts)
-- Agent verify-code route: [apps/auth/src/routes/agentVerifyCode.ts](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/apps/auth/src/routes/agentVerifyCode.ts)
-- Account and workspace bootstrap envelopes: [apps/backend/src/agentSetup.ts](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/apps/backend/src/agentSetup.ts)
+- リポジトリ: [github.com/kirill-markin/flashcards-open-source-app](https://github.com/kirill-markin/flashcards-open-source-app)
+- エージェント向けディスカバリールート: [apps/backend/src/agentDiscovery.ts](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/apps/backend/src/agentDiscovery.ts)
+- エージェント向け send-code ルート: [apps/auth/src/routes/agentSendCode.ts](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/apps/auth/src/routes/agentSendCode.ts)
+- エージェント向け verify-code ルート: [apps/auth/src/routes/agentVerifyCode.ts](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/apps/auth/src/routes/agentVerifyCode.ts)
+- アカウント確認とワークスペース準備のレスポンス定義: [apps/backend/src/agentSetup.ts](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/apps/backend/src/agentSetup.ts)
 
 オープンソースの API 認証、メール OTP ログイン、エージェント向けオンボーディング設計に関心があるなら、まず読むべきなのはこれらのファイルです。
 
@@ -293,10 +293,10 @@ Flashcards はオープンソースなので、ブラックボックスとして
 
 参考リンク:
 
-- [Flashcards website](https://flashcards-open-source-app.com/)
-- [Hosted app](https://app.flashcards-open-source-app.com/)
-- [Getting started](https://flashcards-open-source-app.com/docs/getting-started/)
-- [GitHub repository](https://github.com/kirill-markin/flashcards-open-source-app)
+- [Flashcards サイト](https://flashcards-open-source-app.com/)
+- [ホスト版アプリ](https://app.flashcards-open-source-app.com/)
+- [スタートガイド](https://flashcards-open-source-app.com/docs/getting-started/)
+- [GitHub リポジトリ](https://github.com/kirill-markin/flashcards-open-source-app)
 
 プロダクトがオープンソースで、認証フローが十分に絞り込まれていれば、「エージェントに任せる」が本当に機能するはずです。
 このフローは、そのために作られています。

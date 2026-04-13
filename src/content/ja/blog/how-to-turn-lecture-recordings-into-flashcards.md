@@ -1,16 +1,16 @@
 ---
-title: "2026年版 講義録音をフラッシュカードに変える方法: 全部を聞き直さず、文字起こしから FSRS カードを作る"
-description: "2時間分の講義音声を最初から再生し直さなくても、講義録音はフラッシュカードにできます。2026年の実用的な手順は、録音を文字起こしにし、AIでカードの下書きを作り、曖昧なカードをすばやく削り、残ったデッキを FSRS で学習することです。"
+title: "2026年版 講義録音をフラッシュカード化する方法: 全部を聞き直さず、文字起こしからFSRSカードを作る"
+description: "2時間分の講義音声を最初から再生し直さなくても、講義録音はフラッシュカードにできます。2026年の実用的な手順は、録音を文字起こしにし、AIでカードの下書きを作り、曖昧なカードをすばやく削り、残ったデッキをFSRSで学習することです。"
 date: "2026-03-26"
 keywords:
-  - "how to turn lecture recordings into flashcards"
-  - "lecture recordings to flashcards"
-  - "lecture transcript to flashcards"
-  - "make flashcards from lecture audio"
-  - "transcript to flashcards"
-  - "ai flashcards from lectures"
-  - "study lecture recordings with flashcards"
-  - "fsrs flashcards"
+  - "講義録音をフラッシュカード化する方法"
+  - "講義録音からフラッシュカードを作る"
+  - "講義の文字起こしをフラッシュカード化する"
+  - "講義音声からフラッシュカードを作る"
+  - "文字起こしをフラッシュカード化する"
+  - "AIで講義からフラッシュカードを作る"
+  - "講義録音をフラッシュカードで勉強する"
+  - "FSRSでフラッシュカードを復習する"
 ---
 
 先週、ノートで取りこぼしていた定義が2つあったので、78分の講義録音を見返しました。41分まで来たところで分かったのは3つです。先生は脱線が長いこと。マイクの近くで誰かがずっとせきをしていたこと。そして、生の音声は記憶に残るフラッシュカードを探す場所としては最悪だということです。
@@ -180,9 +180,9 @@ keywords:
 
 だからこの流れは、次のような近い資料タイプとも自然につながります。
 
-- [2026年、PDF をフラッシュカードに変える方法: 講義スライド、教科書、論文を FSRS カードにする](https://flashcards-open-source-app.com/blog/how-to-turn-a-pdf-into-flashcards/)
-- [2026年、ノートをフラッシュカードに変える方法: 手作業のコピペの代わりに AI の下書きと FSRS を使う](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
-- [2026年、YouTube動画をフラッシュカードに変える方法: 講義、チュートリアル、語学動画を AI でカード化する](https://flashcards-open-source-app.com/blog/youtube-to-flashcards/)
+- [2026年版 PDFをフラッシュカード化する方法: 講義スライド・教科書・論文からFSRS向けカードを作る](https://flashcards-open-source-app.com/blog/how-to-turn-a-pdf-into-flashcards/)
+- [2026年、ノートをフラッシュカードに変える方法: 手作業のコピペの代わりにAIの下書きとFSRSを使う](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
+- [2026年、YouTube動画をフラッシュカードに変える方法: 講義、チュートリアル、語学動画をAIでカード化する](https://flashcards-open-source-app.com/blog/youtube-to-flashcards/)
 
 素材が違っても、根本のルールは同じです。根拠のある資料から始めて、AI に勉強法そのものを発明させるのではなく、焦点の絞られたカードを下書きする。
 
@@ -220,16 +220,16 @@ keywords:
 
 そのほうが、すべての文をカードにして生産性と呼ぶより、ずっとましです。
 
-## Flashcards が合う理由
+## Flashcards Open Source App が合う理由
 
-[Flashcards](https://flashcards-open-source-app.com/) は、**講義録音をフラッシュカードで勉強するやり方** と相性が良い選択肢です。文字起こしや AI による下書きだけでは解決しない部分を埋めてくれるからです。
+[Flashcards Open Source App](https://flashcards-open-source-app.com/) は、**講義録音をフラッシュカードで勉強するやり方** と相性が良い選択肢です。文字起こしや AI による下書きだけでは解決しない部分を埋めてくれるからです。
 
 - 表と裏を持つ本物のフラッシュカードアプリ
 - デッキとタグ
-- offline-first の学習
+- オフラインファーストの学習
 - FSRS の復習スケジューリング
-- プロダクトの方向性に含まれている web と iPhone のクライアント対応
-- open-source のコードと self-hosted の選択肢
+- Web と iPhone のクライアント対応
+- オープンソースのコードとセルフホストの選択肢
 
 重要なのは、この流れをチャット画面や一時的なドキュメントの中で終わらせないことです。
 
@@ -253,7 +253,7 @@ keywords:
 
 アルゴリズム側をもう少し詳しく知りたいなら、こちらの記事があります。
 
-- [2026年の FSRS vs SM-2: どの spaced repetition algorithm がより多く覚えられるか](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [2026年の FSRS vs SM-2: どの間隔反復アルゴリズムがより多く覚えられるか](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
 
 ## カードにする価値があるかを見分ける、実用的な基準
 
@@ -287,7 +287,7 @@ keywords:
 
 **講義の文字起こしからフラッシュカードを作る流れ** を組みたいなら、まずはここから始めてください。
 
-- [Flashcards を開く](https://flashcards-open-source-app.com/)
+- [Flashcards Open Source App を開く](https://flashcards-open-source-app.com/)
 - [アプリを開く](https://app.flashcards-open-source-app.com/)
 - [セルフホスティングガイドを読む](https://flashcards-open-source-app.com/docs/self-hosting/)
 - [GitHub でソースを見る](https://github.com/kirill-markin/flashcards-open-source-app)
