@@ -1,71 +1,93 @@
 ---
-title: API Reference
-description: 用于 discovery、OTP bootstrap、workspace setup 和 published SQL surface 的 external agent API。
+title: API 参考
+description: 面向外部 agent 的 API，涵盖发现入口、OTP 初始化、工作区设置以及公开的 SQL 接口。
 ---
 
-## Overview
+## 概览
 
-本页记录 Flashcards 当前面向 AI agents 的 external contract。
+本页说明 Flashcards 当前面向外部 AI agent 的接口约定。
 
-Primary discovery entry point:
+请从标准发现入口开始：
 
 ```text
 GET https://api.flashcards-open-source-app.com/v1/
 ```
 
-同样的 payload 也可通过 `GET /v1/agent` 获取，但 `/v1/` 是 primary public entry point。
+相同的发现响应也可通过 `GET /v1/agent` 获取，但 `/v1/` 才是主要的公开入口。
 
-Discovery response 会告诉 agent 如何：
+发现响应会告诉 agent 如何：
 
-- 启动 email OTP login
-- 将 OTP 交换为 long-lived API key
-- 加载 account context
-- 创建或选择 workspace
-- 继续进入 published SQL surface
+- 启动邮箱 OTP 登录
+- 将 OTP 换取为长期有效的 API key
+- 加载账户上下文
+- 创建或选择工作区
+- 继续使用公开的 SQL 接口
 
-## Published Specs
+## 已发布规范
 
-External agent surface 的主要 spec URLs：
+面向外部 agent 的主要规范 URL 如下：
 
 - `https://api.flashcards-open-source-app.com/v1/agent/openapi.json`
 - `https://api.flashcards-open-source-app.com/v1/agent/swagger.json`
 
-Root aliases:
+同时也提供等价的根路径别名：
 
 - `https://api.flashcards-open-source-app.com/v1/openapi.json`
 - `https://api.flashcards-open-source-app.com/v1/swagger.json`
 
-## Auth Bootstrap
+## 认证初始化
 
-第一阶段 OTP 运行在 auth service 上：
+OTP 初始化流程运行在认证服务上：
 
 - `POST https://auth.flashcards-open-source-app.com/api/agent/send-code`
 - `POST https://auth.flashcards-open-source-app.com/api/agent/verify-code`
 
-Flow:
+流程如下：
 
-1. 执行 `GET /v1/`
-2. 把 user email 发送到 `send-code`
-3. 从 response 读取 `otpSessionToken`
-4. 向 user 请求最新的 8-digit email code
-5. 使用 `code`、`otpSessionToken` 和 `label` 调用 `verify-code`
-6. 将 returned API key 保存在 conversation memory 之外
+1. 调用 `GET /v1/`。
+2. 将用户邮箱发送到 `send-code`。
+3. 从响应中读取 `otpSessionToken`。
+4. 向用户索取最新的 8 位邮箱验证码。
+5. 使用 `code`、`otpSessionToken` 和 `label` 调用 `verify-code`。
+6. 将返回的 API key 保存在聊天记忆之外的持久位置。
 
-Suggested environment variable:
+推荐使用以下环境变量：
 
 ```bash
 export FLASHCARDS_OPEN_SOURCE_API_KEY="fca_ABCDEFGH_0123456789ABCDEFGHJKMNPQRS"
 ```
 
-Authenticated requests use:
+已认证请求使用：
 
 ```text
 Authorization: ApiKey <key>
 ```
 
-## Post-Login Agent Surface
+初始化流程示例：
 
-Verification 之后的 current surface：
+```bash
+curl https://api.flashcards-open-source-app.com/v1/
+```
+
+```bash
+curl -X POST https://auth.flashcards-open-source-app.com/api/agent/send-code \
+  -H "Content-Type: application/json" \
+  -d '{"email":"you@example.com"}'
+```
+
+```bash
+curl -X POST https://auth.flashcards-open-source-app.com/api/agent/verify-code \
+  -H "Content-Type: application/json" \
+  -d '{
+    "code":"12345678",
+    "otpSessionToken":"...",
+    "label":"Codex on MacBook"
+  }'
+```
+
+## 登录后的 Agent 接口
+
+完成验证后，目前可用的 agent 接口如下：
 
 - `GET /v1/agent/me`
 - `GET /v1/agent/workspaces`
@@ -73,23 +95,23 @@ Verification 之后的 current surface：
 - `POST /v1/agent/workspaces/{workspaceId}/select`
 - `POST /v1/agent/sql`
 
-Typical bootstrap:
+典型的初始化流程如下：
 
 1. `GET /v1/agent/me`
 2. `GET /v1/agent/workspaces?limit=100`
-3. 如有需要，`POST /v1/agent/workspaces` with `{"name":"Personal"}`
-4. 如有需要，`POST /v1/agent/workspaces/{workspaceId}/select`
+3. 如有需要，调用 `POST /v1/agent/workspaces` 并传入 `{"name":"Personal"}`
+4. 如有需要，调用 `POST /v1/agent/workspaces/{workspaceId}/select`
 5. 使用 `POST /v1/agent/sql`
 
-Workspace selection 对每个 API key connection 都是显式的。Agents 应该遵循 returned `instructions` 和 `docs.openapiUrl`，而不是猜测。
+工作区选择需要针对每个 API key 连接显式完成。agent 应以每个响应封装中返回的 `instructions` 文本和 `docs.openapiUrl` 字段为准，而不是自行猜测下一步。
 
-## SQL Surface
+## SQL 接口
 
-`POST /v1/agent/sql` 是 external agents 共享的 read/write surface。
+`POST /v1/agent/sql` 是外部 agent 共用的读写接口。
 
-它被有意限制，并不是 full PostgreSQL。
+该接口是有意收敛后的能力范围，并不是完整的 PostgreSQL。
 
-Current command families:
+当前支持的语句类别包括：
 
 - `SHOW TABLES`
 - `DESCRIBE <resource>`
@@ -98,21 +120,21 @@ Current command families:
 - `UPDATE`
 - `DELETE`
 
-Current published logical resources:
+当前已公开的逻辑资源包括：
 
 - `workspace`
 - `cards`
 - `decks`
 - `review_events`
 
-Notes:
+说明：
 
-- 默认 `LIMIT` 为 `100`，最大值也是 `100`
-- 需要 stable pagination 时请使用 `ORDER BY`
-- 使用 `SHOW TABLES` 或 `DESCRIBE cards` 做 schema discovery
-- External contract 在完成 selection 后会变成 workspace-scoped
+- `LIMIT` 默认值为 `100`，最大值也为 `100`
+- 需要稳定分页时，请使用 `ORDER BY`
+- 可使用 `SHOW TABLES` 或 `DESCRIBE cards` 进行 schema 探查
+- 完成工作区选择后，外部 agent 接口约定将限定在所选 workspace 的范围内
 
-Example request:
+示例请求：
 
 ```bash
 curl -X POST https://api.flashcards-open-source-app.com/v1/agent/sql \
@@ -121,10 +143,32 @@ curl -X POST https://api.flashcards-open-source-app.com/v1/agent/sql \
   -d '{"sql":"SHOW TABLES"}'
 ```
 
-## Human And Sync APIs
+卡片查询示例：
 
-Flashcards 还包含面向 human clients 和 offline-first sync 的其他 APIs，但它们不是 external agents 的 primary contract：
+```bash
+curl -X POST https://api.flashcards-open-source-app.com/v1/agent/sql \
+  -H "Content-Type: application/json" \
+  -H "Authorization: ApiKey $FLASHCARDS_OPEN_SOURCE_API_KEY" \
+  -d '{
+    "sql":"SELECT card_id, front_text, back_text, tags FROM cards ORDER BY updated_at DESC LIMIT 20 OFFSET 0"
+  }'
+```
 
-- Browser flows 使用 shared-domain cookies 和 CSRF protection
-- Offline-first clients 使用 `/v1/workspaces/{workspaceId}/sync/push` 与 `/v1/workspaces/{workspaceId}/sync/pull` 下的 sync routes
-- Sync routes 被有意排除在 external agent OpenAPI surface 之外
+写操作示例：
+
+```bash
+curl -X POST https://api.flashcards-open-source-app.com/v1/agent/sql \
+  -H "Content-Type: application/json" \
+  -H "Authorization: ApiKey $FLASHCARDS_OPEN_SOURCE_API_KEY" \
+  -d '{
+    "sql":"UPDATE cards SET back_text = '\''Updated answer'\'' WHERE card_id = '\''50b5b928-7f04-4cc8-878d-6cd0e8b98474'\''"
+  }'
+```
+
+## 面向用户与同步的 API
+
+Flashcards 也提供面向人工用户客户端和离线优先（offline-first）同步的独立 API，但它们并不是外部 agent 的主要接口约定：
+
+- 浏览器流程使用共享域 cookie，并配合 CSRF 保护
+- 离线优先客户端使用 `/v1/workspaces/{workspaceId}/sync/push` 与 `/v1/workspaces/{workspaceId}/sync/pull` 下已实现的同步路由
+- 这些同步路由有意不纳入外部 agent 的 OpenAPI 接口范围

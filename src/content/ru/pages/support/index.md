@@ -8,20 +8,20 @@ sections:
 ---
 ## Контакт
 
-Для product support, account help или App Store review questions пишите на [kirill+flashcards@kirill-markin.com](mailto:kirill+flashcards@kirill-markin.com).
+По вопросам поддержки продукта, аккаунта или проверки приложения в App Store пишите на [kirill+flashcards@kirill-markin.com](mailto:kirill+flashcards@kirill-markin.com).
 
-## Account Deletion
+## Удаление аккаунта
 
-В iOS app вы можете удалить hosted account через `Settings > Account Settings > Danger Zone > Delete my account`. Если нужна помощь с этим flow, свяжитесь с support по email.
+В приложении для iOS вы можете удалить свою учетную запись в облачной версии через `Settings > Account Settings > Danger Zone > Delete my account`. Если вам нужна помощь с этим процессом, напишите в поддержку по электронной почте.
 
-## Open Source And Technical Reports
+## Open Source и технические обращения
 
-Flashcards — open source. Для bug reports, self-hosting issues или technical discussions вы также можете использовать [GitHub repository](https://github.com/kirill-markin/flashcards-open-source-app) и его issue tracker.
+Flashcards — проект с открытым исходным кодом. Для сообщений об ошибках, вопросов по самостоятельному размещению или технических обсуждений вы также можете использовать [репозиторий на GitHub](https://github.com/kirill-markin/flashcards-open-source-app) и его трекер задач.
 
-## Self-Hosting
+## Самостоятельное размещение
 
-Если вы не хотите использовать hosted cloud beta, вы можете self-host тот же open-source stack и запускать service на своей infrastructure.
+Если вы не хотите использовать облачную бета-версию, вы можете самостоятельно развернуть тот же стек с открытым исходным кодом и запускать сервис в своей инфраструктуре.
 
-## Response Expectations
+## Сроки ответа
 
-Support предоставляется на best-effort basis в течение beta period. Мы стараемся отвечать как можно быстрее, но response times не гарантируются.
+Во время бета-периода поддержка предоставляется по мере возможности. Мы стараемся отвечать как можно быстрее, но не можем гарантировать конкретные сроки ответа.

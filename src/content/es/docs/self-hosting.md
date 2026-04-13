@@ -1,15 +1,15 @@
 ---
-title: Guía de autohospedaje
+title: Guía de autoalojamiento
 description: >-
-  Ejecute Flashcards localmente con Postgres, autenticación, backend y web, o
-  implemente usted mismo la pila de AWS documentada.
+  Ejecuta Flashcards en local con Postgres, autenticación, backend y web, o
+  despliega por tu cuenta la arquitectura de AWS documentada.
 ---
 ## Requisitos
 
-- acoplador
-- Nodo.js 20+
-- mpn
-- PostgreSQL 16+ a través de la configuración de Docker proporcionada
+- Docker
+- Node.js 20+
+- npm
+- PostgreSQL 16+ mediante la configuración de Docker incluida
 
 ## Inicio rápido
 
@@ -24,7 +24,7 @@ npm install --prefix apps/backend
 npm install --prefix apps/web
 ```
 
-Luego ejecute los servicios en terminales separadas:
+Después, arranca los servicios en terminales independientes:
 
 ```bash
 make auth-dev
@@ -32,7 +32,7 @@ make backend-dev
 make web-dev
 ```
 
-Esto comienza:
+Esto pone en marcha:
 
 1. `postgres` en el puerto `5432`
 2. `auth` en el puerto `8081`
@@ -42,35 +42,35 @@ Esto comienza:
 URL locales:
 
 - `http://localhost:3000` para la aplicación web
-- `http://localhost:8080/v1` para la API de backend
+- `http://localhost:8080/v1` para la API del backend
 - `http://localhost:8081` para el servicio de autenticación
 
 ## Configuración
 
-Copia `.env.example` a `.env` y ajusta:
+Copia `.env.example` a `.env` y ajusta estos valores:
 
-- `DATABASE_URL` — Cadena de conexión de Postgres
-- `AUTH_MODE` — `none` para uso local, `cognito` para autenticación OTP de correo electrónico
-- `BACKEND_ALLOWED_ORIGINS` — orígenes de navegador permitidos para solicitudes de API autenticadas por sesión
-- `PUBLIC_API_BASE_URL` y `PUBLIC_AUTH_BASE_URL`: anulaciones opcionales cuando desea que las respuestas de descubrimiento anuncien hosts públicos personalizados
+- `DATABASE_URL` — cadena de conexión de Postgres
+- `AUTH_MODE` — `none` para uso local, `cognito` para autenticación OTP por correo electrónico
+- `BACKEND_ALLOWED_ORIGINS` — orígenes del navegador permitidos para solicitudes a la API autenticadas mediante sesión
+- `PUBLIC_API_BASE_URL` y `PUBLIC_AUTH_BASE_URL` — sobrescrituras opcionales si quieres que las respuestas de descubrimiento anuncien hosts públicos personalizados
 
 ## Configuración local de iOS
 
-La aplicación de iOS en el repositorio principal lee su API local y sus hosts de autenticación desde:
+La aplicación para iOS del repositorio principal toma los hosts locales de la API y del servicio de autenticación de:
 
 ```text
 apps/ios/Flashcards/Config/Local.xcconfig
 ```
 
-Copie el archivo de ejemplo si es necesario:
+Si hace falta, copia el archivo de ejemplo:
 
 ```bash
 cp apps/ios/Flashcards/Config/Local.xcconfig.example apps/ios/Flashcards/Config/Local.xcconfig
 ```
 
-Luego, apúntelo a sus dominios `api` y `auth` locales o autohospedados.
+Después, configura en ese archivo los dominios `api` y `auth`, ya sean locales o autoalojados.
 
-## Actualizando
+## Actualización
 
 ```bash
 git pull
@@ -80,21 +80,21 @@ npm install --prefix apps/backend
 npm install --prefix apps/web
 ```
 
-Reinicie los servicios locales después de los cambios de dependencia.
+Reinicia los servicios locales después de actualizar dependencias.
 
-## Implementación de AWS
+## Despliegue en AWS
 
-La forma de producción documentada es:
+La arquitectura de producción documentada es:
 
 - CloudFront + S3 para `app.<domain>`
 - API Gateway + Lambda para `api.<domain>`
 - API Gateway + Lambda para `auth.<domain>`
 - Postgres en AWS RDS
-- Cognito para OTP de correo electrónico sin contraseña
-- redirección de ápice opcional cuando el dominio raíz no se utiliza
+- Cognito para OTP por correo electrónico sin contraseña
+- Redirección opcional del dominio raíz cuando ese dominio no se use para otra cosa
 
-Para obtener detalles sobre la implementación, consulte:
+Para ver los detalles del despliegue, consulta:
 
-- [Repositorio README](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/README.md)
-- [Guía de implementación](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/docs/deployment.md)
+- [README del repositorio](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/README.md)
+- [Guía de despliegue](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/docs/deployment.md)
 - [Infraestructura de AWS CDK](https://github.com/kirill-markin/flashcards-open-source-app/tree/main/infra/aws)
