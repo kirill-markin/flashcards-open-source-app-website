@@ -1,71 +1,93 @@
 ---
-title: API Reference
-description: Внешний agent API для discovery, OTP bootstrap, настройки workspace и published SQL surface.
+title: Справочник API
+description: Внешний API для AI-агентов: discovery, вход по OTP, настройка workspace и опубликованный SQL-интерфейс.
 ---
 
-## Overview
+## Обзор
 
-Эта страница документирует current external contract для AI agents в Flashcards.
+На этой странице описан текущий внешний контракт для AI-агентов в Flashcards.
 
-Primary discovery entry point:
+Начните с основного discovery-эндпоинта:
 
 ```text
 GET https://api.flashcards-open-source-app.com/v1/
 ```
 
-Тот же payload также доступен через `GET /v1/agent`, но `/v1/` — primary public entry point.
+Тот же ответ доступен и по `GET /v1/agent`, но `/v1/` является основной публичной точкой входа.
 
-Discovery response сообщает agent, как:
+Из этого ответа агент узнаёт, как:
 
-- начать email OTP login
-- обменять OTP на long-lived API key
-- загрузить account context
-- создать или выбрать workspace
-- перейти к published SQL surface
+- начать вход по OTP-коду из email
+- обменять OTP на долгоживущий API-ключ
+- загрузить контекст аккаунта
+- создать workspace или выбрать существующий
+- продолжить работу через опубликованный SQL-интерфейс
 
-## Published Specs
+## Опубликованные спецификации
 
-Основные spec URLs внешнего agent surface:
+Основные URL спецификаций для внешнего интерфейса агентов:
 
 - `https://api.flashcards-open-source-app.com/v1/agent/openapi.json`
 - `https://api.flashcards-open-source-app.com/v1/agent/swagger.json`
 
-Есть и root aliases:
+Также доступны эквивалентные алиасы в корне:
 
 - `https://api.flashcards-open-source-app.com/v1/openapi.json`
 - `https://api.flashcards-open-source-app.com/v1/swagger.json`
 
-## Auth Bootstrap
+## Начальная аутентификация
 
-Первый OTP stage работает на auth service:
+Начальный OTP-поток работает через сервис аутентификации:
 
 - `POST https://auth.flashcards-open-source-app.com/api/agent/send-code`
 - `POST https://auth.flashcards-open-source-app.com/api/agent/verify-code`
 
-Flow:
+Последовательность действий:
 
-1. Выполните `GET /v1/`
-2. Отправьте user email в `send-code`
-3. Прочитайте `otpSessionToken` из response
-4. Попросите у user последний 8-digit email code
-5. Вызовите `verify-code` с `code`, `otpSessionToken` и `label`
-6. Сохраните returned API key вне conversation memory
+1. Вызовите `GET /v1/`.
+2. Отправьте email пользователя в `send-code`.
+3. Прочитайте `otpSessionToken` из ответа.
+4. Запросите у пользователя последний 8-значный код из письма.
+5. Вызовите `verify-code`, передав `code`, `otpSessionToken` и `label`.
+6. Сохраните возвращённый API-ключ вне памяти чата.
 
-Suggested environment variable:
+Рекомендуемая переменная окружения:
 
 ```bash
 export FLASHCARDS_OPEN_SOURCE_API_KEY="fca_ABCDEFGH_0123456789ABCDEFGHJKMNPQRS"
 ```
 
-Authenticated requests use:
+Для аутентифицированных запросов используется заголовок:
 
 ```text
 Authorization: ApiKey <key>
 ```
 
-## Post-Login Agent Surface
+Пример начальной последовательности:
 
-После verification current surface выглядит так:
+```bash
+curl https://api.flashcards-open-source-app.com/v1/
+```
+
+```bash
+curl -X POST https://auth.flashcards-open-source-app.com/api/agent/send-code \
+  -H "Content-Type: application/json" \
+  -d '{"email":"you@example.com"}'
+```
+
+```bash
+curl -X POST https://auth.flashcards-open-source-app.com/api/agent/verify-code \
+  -H "Content-Type: application/json" \
+  -d '{
+    "code":"12345678",
+    "otpSessionToken":"...",
+    "label":"Codex on MacBook"
+  }'
+```
+
+## Интерфейс агента после входа
+
+После подтверждения кода агенту доступны следующие эндпоинты:
 
 - `GET /v1/agent/me`
 - `GET /v1/agent/workspaces`
@@ -73,23 +95,23 @@ Authorization: ApiKey <key>
 - `POST /v1/agent/workspaces/{workspaceId}/select`
 - `POST /v1/agent/sql`
 
-Typical bootstrap:
+Обычно начальная настройка выглядит так:
 
 1. `GET /v1/agent/me`
 2. `GET /v1/agent/workspaces?limit=100`
 3. При необходимости `POST /v1/agent/workspaces` с `{"name":"Personal"}`
 4. При необходимости `POST /v1/agent/workspaces/{workspaceId}/select`
-5. Используйте `POST /v1/agent/sql`
+5. Затем используйте `POST /v1/agent/sql`
 
-Workspace selection явный для каждого API key connection. Agents должны следовать returned `instructions` и `docs.openapiUrl`, а не строить догадки.
+Выбор workspace выполняется явно для каждого подключения по API-ключу. Агентам следует опираться на текст в `instructions` и значение `docs.openapiUrl`, которое возвращается в каждой обёртке ответа, а не пытаться угадывать следующий шаг.
 
-## SQL Surface
+## SQL-интерфейс
 
-`POST /v1/agent/sql` — общий read/write surface для external agents.
+`POST /v1/agent/sql` — это общий интерфейс чтения и записи для внешних агентов.
 
-Он намеренно ограничен и не является full PostgreSQL.
+Он намеренно ограничен и не предоставляет полный PostgreSQL.
 
-Current command families:
+Сейчас доступны следующие семейства выражений:
 
 - `SHOW TABLES`
 - `DESCRIBE <resource>`
@@ -98,21 +120,21 @@ Current command families:
 - `UPDATE`
 - `DELETE`
 
-Current published logical resources:
+Сейчас опубликованы такие логические ресурсы:
 
 - `workspace`
 - `cards`
 - `decks`
 - `review_events`
 
-Notes:
+Примечания:
 
-- Default `LIMIT` равен `100`, maximum тоже `100`
-- Используйте `ORDER BY`, если нужна stable pagination
-- Для schema discovery используйте `SHOW TABLES` или `DESCRIBE cards`
-- External contract после selection ограничен текущим workspace
+- по умолчанию `LIMIT` равен `100`, и это же максимальное значение
+- если нужна стабильная пагинация, используйте `ORDER BY`
+- для изучения схемы используйте `SHOW TABLES` или `DESCRIBE cards`
+- после выбора workspace внешний контракт ограничен этим workspace
 
-Example request:
+Пример запроса:
 
 ```bash
 curl -X POST https://api.flashcards-open-source-app.com/v1/agent/sql \
@@ -121,10 +143,32 @@ curl -X POST https://api.flashcards-open-source-app.com/v1/agent/sql \
   -d '{"sql":"SHOW TABLES"}'
 ```
 
-## Human And Sync APIs
+Пример запроса карточек:
 
-Flashcards также включает отдельные APIs для human clients и offline-first sync, но это не primary contract для external agents:
+```bash
+curl -X POST https://api.flashcards-open-source-app.com/v1/agent/sql \
+  -H "Content-Type: application/json" \
+  -H "Authorization: ApiKey $FLASHCARDS_OPEN_SOURCE_API_KEY" \
+  -d '{
+    "sql":"SELECT card_id, front_text, back_text, tags FROM cards ORDER BY updated_at DESC LIMIT 20 OFFSET 0"
+  }'
+```
 
-- Browser flows используют shared-domain cookies с CSRF protection
-- Offline-first clients используют sync routes под `/v1/workspaces/{workspaceId}/sync/push` и `/v1/workspaces/{workspaceId}/sync/pull`
-- Sync routes намеренно оставлены вне external agent OpenAPI surface
+Пример изменения данных:
+
+```bash
+curl -X POST https://api.flashcards-open-source-app.com/v1/agent/sql \
+  -H "Content-Type: application/json" \
+  -H "Authorization: ApiKey $FLASHCARDS_OPEN_SOURCE_API_KEY" \
+  -d '{
+    "sql":"UPDATE cards SET back_text = '\''Updated answer'\'' WHERE card_id = '\''50b5b928-7f04-4cc8-878d-6cd0e8b98474'\''"
+  }'
+```
+
+## API для людей и синхронизации
+
+В Flashcards также есть отдельные API для пользовательских клиентов и offline-first синхронизации, но они не являются основным контрактом для внешних агентов:
+
+- браузерные сценарии используют cookies общего домена и защиту CSRF
+- offline-first клиенты используют реализованные sync-маршруты `/v1/workspaces/{workspaceId}/sync/push` и `/v1/workspaces/{workspaceId}/sync/pull`
+- sync-маршруты намеренно не включены во внешний OpenAPI-интерфейс агентов

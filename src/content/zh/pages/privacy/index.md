@@ -6,38 +6,38 @@ sections:
   - type: legal_page
     lastUpdated: 2026年3月
 ---
-## 我们收集什么
+## 我们收集的信息
 
-当你使用 hosted cloud beta 时，我们会存储用于 authentication 的 email address，以及运行服务所需的 learning data，包括 cards、review history 和 workspace metadata。Self-hosted instances 不会向我们发送数据，除非你部署了会这样做的 copy。
+当您使用托管云端测试版时，我们会存储您用于身份验证的邮箱地址，以及运行服务所需的学习数据，包括卡片、复习历史和工作区元数据。自托管实例不会向我们发送数据，除非您部署的版本本身会执行此类传输。
 
 ## 运营方
 
-Hosted Flashcards service 由 Ozma Inc. 运营。Flashcards 由 Kirill Markin 创建，[ozma.io](https://ozma.io/) 是与 hosted service 相关的 company website。
+托管版 Flashcards 服务由 Ozma Inc. 运营。Flashcards 由 Kirill Markin 创建，[ozma.io](https://ozma.io/) 是与该托管服务相关的公司网站。
 
-## AI Features
+## AI 功能
 
-如果你在 hosted app 中使用 AI chat，你输入的 prompts、请求所需的 card-derived context、uploaded files、uploaded images，以及 dictated audio 或 transcription requests 可能会发送给服务器上配置的 third-party AI providers。具体使用哪个 provider 取决于请求发生时的 hosted server configuration。
+如果您选择在托管应用中使用 AI 聊天，您输入的提示内容、为完成该请求所需的卡片相关上下文、上传的文件、上传的图片，以及口述音频或转录请求，可能会被发送至服务器上配置的第三方 AI 提供商。实际使用的提供商取决于请求发起时托管服务器的配置。
 
-## 我们如何使用你的数据
+## 我们如何使用您的数据
 
-你的数据用于提供 authentication、cloud sync 和 optional AI features。我们不会出售你的数据，也不会将其用于 advertising。Authentication 和 workspace access 由 public repository 中 documented 的 backend services 处理。
+您的数据将用于提供身份验证、云端同步和可选的 AI 功能。我们不会出售您的数据，也不会将其用于广告用途。身份验证和工作区访问由公开仓库中记录的后端服务处理。
 
-## Data Storage
+## 数据存储
 
-Hosted cloud data 存储在 AWS infrastructure 中，其中 primary application data 使用 Postgres。Data 在传输过程中会被加密，service operators 可能会保留用于运行和 debug hosted beta 所需的 operational logs。
+托管云端数据存储在 AWS 基础设施中，其中主要应用数据保存在 Postgres 中。数据在传输过程中会被加密，服务运营方可能会保留为运行和调试托管测试版所需的操作日志。
 
-## Cookies
+## Cookie
 
-我们在 login flow 中使用 `session`、`refresh` 和 `logged_in` 等 authentication cookies。Site 正常工作不需要 tracking cookies 或 third-party analytics。
+我们在登录流程中使用 `session`、`refresh` 和 `logged_in` 等身份验证 Cookie。网站正常运行不需要跟踪 Cookie 或第三方分析工具。
 
-## Data Deletion
+## 数据删除
 
-对于 self-hosted instances，你可以直接控制 database。对于 hosted app，你可以在 iOS app 中删除 account；如果需要额外帮助删除 hosted data，也可以联系 support。
+对于自托管实例，您可以直接控制数据库。对于托管应用，您可以在 iOS 应用中删除账户；如果您在删除托管数据时需要额外帮助，也可以联系支持团队。
 
-## Support
+## 支持
 
-关于 privacy 的问题，请联系 [kirill+flashcards@kirill-markin.com](mailto:kirill+flashcards@kirill-markin.com) 或使用 [支持](/support/)。
+如有隐私相关问题，请联系 [kirill+flashcards@kirill-markin.com](mailto:kirill+flashcards@kirill-markin.com)，或访问[支持页面](/support/)。
 
-## Open Source
+## 开源
 
-整个 codebase 都是 open source。你可以准确 audit application 对数据做了什么。
+整个代码库均为开源。您可以审查应用究竟如何处理您的数据。
