@@ -1,218 +1,219 @@
 ---
-title: "2026年のベスト Offline Flashcards App: インターネットなしでも FSRS と Sync で学べる"
-description: "あとで clean に sync できる offline flashcards app を探していますか。2026年の実用的な答えは、接続が切れると壊れる browser-only study tool ではなく、local storage、FSRS review scheduling、sync を備えた offline-first flashcards app を使うことです。"
+title: "2026年版 オフラインで使いやすいフラッシュカードアプリ: FSRS対応で、あとから同期できる学習環境"
+description: "あとで自然に同期できる、オフライン対応のフラッシュカードアプリを探しているなら、見るべきは派手さではありません。2026年に実用的なのは、接続が切れると困るブラウザ中心の学習ツールではなく、ローカル保存、FSRSの復習スケジュール、安定した同期を備えたオフラインファーストの設計です。"
 date: "2026-03-16"
 keywords:
   - "offline flashcards app"
   - "best offline flashcards app"
-  - "internet なし flashcards"
-  - "study flashcards offline"
+  - "オフライン フラッシュカード アプリ"
+  - "ネットなし フラッシュカード"
+  - "フラッシュカード オフライン 学習"
   - "offline spaced repetition app"
   - "FSRS flashcards offline"
   - "offline Anki alternative"
   - "flashcards sync app"
 ---
 
-私は flashcards app を、できるだけ見栄えのしない場所で試すのが好きです。機内 Wi‑Fi が弱い飛行機、残量の少ないバッテリー、そして loading spinner を待つ忍耐がまったくない状況です。そこで、多くの「modern」study tool が実は web サイトに仮装しただけのものだと静かに分かります。
+私はフラッシュカードアプリを、できるだけ条件の悪い場所で試すのが好きです。機内 Wi-Fi が不安定な飛行機の中、残量の少ないバッテリー、そして読み込み待ちに付き合う気力がまったくない場面です。そういうところで、多くの「モダンな」学習ツールが、実は Web サイトの延長にすぎないとよく分かります。
 
-たいてい、人が **best offline flashcards app** を探し始めるのはその瞬間です。
+たいてい、人が **本当にオフラインで使えるフラッシュカードアプリ** を探し始めるのは、まさにその瞬間です。
 
-offline 学習が珍しい要件だからではありません。記憶の作業は地味な場所で起こります。飛行機、電車、待合室、不安定な mobile network、そして再接続より先に次のカードを見たい半端な移動時間です。
+オフライン学習が特別な要件だからではありません。記憶の定着は、たいてい地味な場所で進みます。飛行機、電車、待合室、電波の不安定な移動中。再接続を待つより先に、次のカードをすぐ見たい場面です。
 
-接続がためらうたびに app もためらうなら、study habit は本来より弱くなります。
+接続が不安定になるたびにアプリまで足を止めるなら、学習習慣は本来より脆くなってしまいます。
 
-## 多くの flashcards app は、本当に必要な瞬間になると offline ではなくなる
+## 多くのフラッシュカードアプリは、本当に必要な場面になるとオフラインで使えない
 
-多くの product は、何らかの offline support を名乗ります。
+多くの製品は、何らかの形でオフライン対応をうたっています。
 
-でも多くの場合、それは次の 2 つのどちらかです。
+ただ、実態はたいてい次のどちらかです。
 
-- browser が少し cache を残していて、前回ページがたまに開く
-- mobile app は古い cards を表示できるが、何か編集すると挙動が怪しくなる
+- ブラウザに少しだけキャッシュが残っていて、前回のページがたまたま開く
+- モバイルアプリで古いカードは見られるが、編集すると挙動が怪しくなる
 
-それは、本当の **flashcards app without internet** とは違います。
+それは、本当の **ネットがなくても使えるフラッシュカードアプリ** とは言えません。
 
-役に立つ version はもっと厳密です。app を開き、due cards を review し、cards を作成または編集し、今この瞬間 network がなくても問題ないように進めるべきです。
+本当に役立つ条件はもっと明確です。アプリを開いて、期限が来たカードを復習し、新しいカードを作成・編集し、その時点でネットワークがなくても、そのまま学習を続けられることです。
 
-そして、sync は後で行う。
+同期は、そのあとでよいのです。
 
-当たり前に見える話ですが、多くの product が脆くなるのはこの最後の部分です。online の間は平気でも、offline mode になると「本来は想定していない一時的な例外」のような扱いになります。
+当たり前に聞こえるかもしれませんが、多くの製品が弱いのはまさにここです。オンラインの間は問題なく動いても、オフラインになると急に「本来は想定していない例外状態」のような扱いになってしまいます。
 
-## browser tab は offline-first な study system ではない
+## ブラウザのタブは、オフラインファーストの学習基盤にはなりにくい
 
-私は web app 自体が嫌いなわけではありません。普段からよく使います。
+私は Web アプリ自体が嫌いなわけではありません。普段から普通に使っています。
 
-でも **study flashcards offline** という文脈では、browser tab は重心として間違っていることが多いです。
+ただ、**オフラインでフラッシュカードを学習する** という前提では、ブラウザのタブを中心に据える設計は相性がよくないことが多いです。
 
-session は expire します。tab は reload されます。network は揺らぎます。残る local state もあれば、消えるものもあります。「うまくいきそう」と思える程度の信頼性はあるけれど、本当に落ち着いた review queue が欲しかった瞬間には裏切られる。
+セッションは切れます。タブは再読み込みされます。通信は揺らぎます。ローカル状態が残ることもあれば、消えることもあります。「たぶん大丈夫そう」と思える程度の信頼性はあるのに、本当に落ち着いて復習したい瞬間に限って頼れません。
 
-だから私は、より良い architecture は local-first で sync-later だと思っています。
+だから私は、よりよい設計は「まずローカル、同期はあとから」だと思っています。
 
-まず local に書き込む。
+まずローカルに書き込む。
 
-review queue を local に保つ。
+復習キューもローカルに置いておく。
 
-network を、次のカードへ進むのを妨げるものではなく、後から行う処理として扱う。
+ネットワークは、次のカードへ進むための関門ではなく、あとで処理すればよいものとして扱う。
 
-## 役に立つ architecture は local first, sync later
+## 実用的なのは「ローカル優先、同期はあとから」という設計
 
-私が信頼する形は、かなり地味です。
+私が信頼できる形は、とても地味です。
 
-1. client が cards を local に保存する
-2. review actions はまず local に書き込む
-3. pending changes は outbox で待つ
-4. network が戻ったら sync が push と pull を行う
+1. クライアントがカードをローカルに保存する
+2. 復習の操作はまずローカルに書き込まれる
+3. 未同期の変更は送信待ちキューにたまる
+4. ネットワークが戻ったら同期で送信と取得を行う
 
-これが **offline spaced repetition app** にとって正しい形です。学習が実際にどう感じられるかを尊重しているからです。reviews は速い。card creation も速い。queue は安定している。network は毎回の tap に入り込む存在ではなく、background plumbing になります。
+これが、**オフライン対応の間隔反復アプリ** として筋のよい形です。なぜなら、実際の学習体験にきちんと沿っているからです。復習は速い。カード作成も速い。キューは安定している。ネットワークは毎回のタップに割り込む存在ではなく、裏側で動く仕組みになります。
 
-不思議なのは、これは実践上の感覚より technical に聞こえることです。
+面白いのは、説明すると技術的に聞こえるのに、使っている側の感触はまったくそうではないことです。
 
-学習者にとっては、ただ calm に感じられます。
+学習者にとっては、ただ落ち着いて使えるだけです。
 
-app が開き、cards があり、勉強し、あとで追いつく。
+アプリを開く。カードがある。学習する。あとで同期が追いつく。
 
-最初から多くの人が欲しかったのは、だいたいそれだけです。
+最初から多くの人が欲しかったのは、たいていそれだけです。
 
-## offline support が弱いと、spaced repetition 自体の感触が悪くなる
+## オフライン対応が弱いと、間隔反復そのものの信頼感が落ちる
 
-offline support の弱さは infrastructure 問題だけではありません。
+オフライン対応の弱さは、単なるインフラの問題ではありません。
 
 学習体験そのものを変えてしまいます。
 
-reviews が保存に失敗したり、reconnect 後に due queue が不意に変わったり、最後の session が本当に反映されたか不安になったりすると、spaced repetition habit 全体が少し偽物のように感じ始めます。
+復習結果の保存に失敗したり、再接続後に復習キューが勝手に変わったり、直前の学習が本当に記録されたのか不安になったりすると、間隔反復の習慣そのものが少し頼りないものに感じられてきます。
 
 これは見た目以上に大きな問題です。
 
-spaced repetition は、学習者が rhythm を信頼できるときにこそよく機能します。今 review する。system は何が起きたかを覚える。明日の queue は現実を反映している。余計な drama はない。
+間隔反復は、学習のリズムを信頼できるときにこそ機能します。今復習する。システムが何をしたかを覚えている。明日のキューが現実を正しく反映している。余計な混乱はない。そういう状態が大事です。
 
-product がこの信頼を壊すと、たとえたまにでも、習慣を保つのは難しくなります。
+製品がその信頼を壊すと、たとえたまにでも、習慣は続けにくくなります。
 
-だから **FSRS flashcards offline** という phrase は、私には niche な technical term には見えません。scheduler と offline model が clean に協調する必要がある、という現実を指しています。
+だから私にとって「FSRS をオフラインでも破綻なく使えること」は、単なる技術用語ではありません。スケジューラとオフラインの設計が、きれいに噛み合っていなければならないという現実を表しています。
 
-## offline flashcards app に本当に必要なもの
+## オフラインで使えるフラッシュカードアプリに本当に必要なもの
 
-もし **best offline flashcards app** を定義するなら、私はまず次の地味な要素を見ます。
+もし **本当に使えるオフライン対応フラッシュカードアプリ** を定義するなら、私がまず見るのは次のような地味な要素です。
 
-- 単なる page cache ではなく local storage
-- review actions が即時に保存されること
-- internet がなくても card edits ができること
-- 作業を duplicate も喪失もしない sync model
-- clients 間で一貫した scheduler
-- reconnect 後も意味が通る product shape
+- 単なるページキャッシュではなく、きちんとしたローカル保存があること
+- 復習の操作がその場で保存されること
+- ネットがなくてもカードを編集できること
+- 作業を重複も消失もさせない同期モデルであること
+- 複数クライアント間でスケジューラの整合性が保たれること
+- 再接続後も全体の設計に無理がないこと
 
-華やかな product marketing ではありませんが、これが「offline mode」と「真面目な study tool」の差です。
+華やかなプロダクトコピーではありませんが、「オフラインモード付きの何か」と「本気で使える学習ツール」の差はここにあります。
 
-この差は、触るとすぐに分かります。
+この差は、少し触ればすぐに分かります。
 
-片方の app は、signal を失うたびに不安にさせる。
+片方のアプリは、電波が怪しくなるたびに不安になる。
 
-もう片方は、ほとんど気にも留めない。
+もう片方は、通信状態のことをほとんど意識させません。
 
-## sync は backend の脚注ではなく product の一部
+## 同期は裏方の補足ではなく、製品体験そのものの一部
 
-sync を backend の footnote のように扱う人もいます。
+同期を、バックエンドの補足事項のように扱う人もいます。
 
-私は、これは user experience の一部だと思います。
+でも私は、これはユーザー体験の中心にある要素だと思っています。
 
-もし phone 上の review queue と main account がずれていくなら、それは infrastructure の問題ではありません。product が core job の 1 つを果たせていないということです。
+もし手元のスマートフォン上の復習キューとメインのアカウントが食い違っていくなら、それはインフラの都合ではありません。製品が本来の役割を果たせていないということです。
 
-学習者側から見た良い形はシンプルです。
+学習者から見た理想形はシンプルです。
 
-- 手元の device で offline のまま study する
-- 後で reconnect する
-- 同じ cards、同じ review history、同じ全体 system を保つ
+- 手元の端末でオフラインのまま学習する
+- あとで再接続する
+- 同じカード、同じ復習履歴、同じ学習環境のまま続けられる
 
-それが、役に立つ **flashcards sync app** の感触です。
+役に立つ **同期対応フラッシュカードアプリ** は、そういう感触で動くべきです。
 
-「電車の中でやった作業がまだ存在するか、今から交渉します」では困ります。
+「電車の中でやった学習がまだ残っているか、今から確認します」では困ります。
 
-## Flashcards が当てはまる場所
+## Flashcards がこの文脈で評価できる理由
 
-[Flashcards](https://flashcards-open-source-app.com/) がここで面白いのは、私が本当に欲しい shape にすでに沿って product が組まれていることです。
+[Flashcards](https://flashcards-open-source-app.com/) がここで面白いのは、私が求める形に、すでに製品全体が沿っていることです。
 
-現在の stack には次が含まれています。
+現在の構成には、次の要素があります。
 
-- hosted web app
-- repository に含まれる iOS client
-- iOS 上の local SQLite
-- backend の sync push / pull routes
-- FSRS scheduling
-- open-source code と self-hosted path
+- ホストされている Web アプリ
+- リポジトリに含まれる iOS クライアント
+- iOS 上のローカル SQLite
+- バックエンドの同期用 push / pull ルート
+- FSRS によるスケジューリング
+- オープンソースのコードとセルフホストの選択肢
 
-重要なのは、offline story を後から marketing language で埋め合わせようとしていないことです。offline-first model が最初から architecture の一部です。
+重要なのは、オフライン対応をあとから宣伝文句で取り繕っているわけではないことです。オフラインファーストの考え方が、最初から設計の一部になっています。
 
-現行 docs もそこを明確にしています。
+現行のドキュメントにも、その点がはっきり書かれています。
 
-- iOS app はまず local に書き込む
-- changes は outbox に積まれる
-- sync は pending operations を push する
-- その後 remote changes を pull する
+- iOS アプリはまずローカルに書き込む
+- 変更は送信待ちキューに積まれる
+- 同期で保留中の操作をサーバーへ送る
+- そのあとリモートの変更を取り込む
 
-technical version を読みたいなら、architecture docs はここです。
+技術寄りの説明を読みたいなら、次のドキュメントが参考になります。
 
 - [アーキテクチャ](https://flashcards-open-source-app.com/docs/architecture/)
 - [セルフホスティングガイド](https://flashcards-open-source-app.com/docs/self-hosting/)
 
-## FSRS が良いのは、system 全体が揃っているとき
+## FSRS は、システム全体の整合性があってこそ活きる
 
-私は FSRS が好きです。busywork を減らしてくれるからです。review timing が、古い system より calm で sensible に感じられることが多い。
+私が FSRS を好む理由のひとつは、余計な手間を減らしてくれることです。古い方式よりも、復習のタイミングが落ち着いていて納得しやすいと感じる場面が多いからです。
 
-でも algorithm は一部にすぎません。
+ただし、アルゴリズムだけでは十分ではありません。
 
-implementation details は、多くの人が認めたがる以上に重要です。ある client がある card をこう schedule し、別の client が違う挙動をするなら、かっこいい acronym があっても助けにはなりません。
+実装の細部は、多くの人が思う以上に重要です。あるクライアントではこうスケジュールされ、別のクライアントでは違う動きをするのであれば、立派な略称が付いていても意味がありません。
 
-だから私は、backend model と client model が明確に aligned している product を好みます。Flashcards では backend と iOS client が mirrored FSRS behavior を保ち、web app は独立した 3 つ目の scheduler を持つのではなく、同じ data contract に従います。
+だから私は、バックエンドとクライアントのモデルが明確に揃っている製品を評価します。Flashcards では、バックエンドと iOS クライアントで FSRS の挙動が対応しており、Web アプリも別系統の第三のスケジューラを持つのではなく、同じデータ契約に従っています。
 
-これは、バラバラの promises をする loosely connected clients の寄せ集めより、本物の **offline flashcards app** としてずっと健全な形です。
+ばらばらの約束をするクライアントを寄せ集めるより、このほうがずっと健全です。**オフライン対応のフラッシュカードアプリ** として、筋の通った形になっています。
 
-より広い scheduling comparison が知りたいなら、こちらの記事も役に立ちます。
+より広くスケジューリング方式を比較したいなら、こちらの記事も参考になります。
 
 - [2026年の FSRS vs SM-2: どの spaced repetition algorithm がより多く覚えられるか](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
 
-## offline は「永遠に isolated」という意味ではない
+## オフライン対応は、ずっと孤立して使うことを意味しない
 
-ここで話がすれ違うことがあります。
+ここは、よく話がすれ違うところです。
 
-**best offline flashcards app** を求めることは、sync や cloud features や web access を拒否することではありません。
+「オフラインで使いやすいフラッシュカードアプリ」を求めることは、同期やクラウド機能、Web アクセスを否定することではありません。
 
-たいていは、「接続が悪くても、手元の device が役に立ち続けてほしい」ということです。
+多くの場合に求めているのは、「接続が悪くても、手元の端末がちゃんと役に立ち続けてほしい」ということです。
 
-これはかなり合理的な要求です。
+とてもまっとうな要求です。
 
-私は sync も欲しいです。
+私も同期は欲しいです。
 
-cards が 1 台の phone の中だけに閉じていてほしいわけでもありません。
+カードが 1 台のスマートフォンの中だけに閉じていてほしいわけでもありません。
 
-product の裏に real backend model も欲しいです。
+製品の裏には、ちゃんとしたバックエンドの仕組みがあってほしい。
 
-ただ、review session のたびに network が insecure manager のように各 click を承認する存在であってほしくないだけです。
+ただ、復習のたびにネットワークが不安げな管理者のように一つひとつの操作を許可する存在であってほしくないだけです。
 
-## 2026 年に最適な offline flashcards app はどれか
+## では、2026年に選ぶべきオフライン対応フラッシュカードアプリは何か
 
-軽い web tool で十分で、ほぼ常時 online なら、browser-first app でも足りるかもしれません。
+軽い Web ツールで十分で、ほとんど常にオンライン環境にいるなら、ブラウザ中心のアプリでも足りるかもしれません。
 
-internet がなくても信頼できる review sessions、まず local storage、あとで clean に sync、そして clients 間で一貫した believable な scheduler を重視するなら、より良い答えは offline-first system です。
+けれど、ネットがなくても安心して復習できること、まずローカルに保存されること、あとから自然に同期できること、そして複数クライアント間でスケジューラの整合性が保たれることを重視するなら、答えはオフラインファーストの仕組みです。
 
-その点で、[Flashcards](https://flashcards-open-source-app.com/) は際立っています。
+その点で、[Flashcards](https://flashcards-open-source-app.com/) はかなり良い位置にいます。
 
-私はこの tradeoff をこう表現します。多くの study tools は接続が良い間は快適です。offline-first flashcards app は、接続が協力しなくなっても快適です。
+この違いをひと言で言うなら、多くの学習ツールは「つながっている間だけ快適」です。オフラインファーストのフラッシュカードアプリは、「つながらなくなってからも快適」です。
 
-この違いは、このカテゴリで語られる以上に重要です。
+この差は、このカテゴリで語られる以上に大きいと私は思います。
 
-## offline-first flashcards workflow を試す
+## オフラインファーストの学習フローを試してみる
 
-本気で **best offline flashcards app** を探しているなら、ここから始めてください。
+本気でオフライン対応のフラッシュカードアプリを探しているなら、まずはここから見るのがよいと思います。
 
 - [Flashcards を開く](https://flashcards-open-source-app.com/)
-- [app を開く](https://app.flashcards-open-source-app.com/)
+- [アプリを開く](https://app.flashcards-open-source-app.com/)
 - [アーキテクチャ](https://flashcards-open-source-app.com/docs/architecture/)
-- [GitHub で source を見る](https://github.com/kirill-markin/flashcards-open-source-app)
+- [GitHub でソースコードを見る](https://github.com/kirill-markin/flashcards-open-source-app)
 
-カテゴリ全体を先に比較したいなら、こちらも役に立ちます。
+カテゴリ全体を先に比較したいなら、次の記事も役に立ちます。
 
-- [2026年のベスト Anki Alternatives: 実際に使うべき Flashcards アプリはどれか](https://flashcards-open-source-app.com/blog/best-anki-alternatives/)
-- [Anki vs Quizlet vs オープンソースの Flashcards アプリ: 2026年に最適な間隔反復ツールはどれか](https://flashcards-open-source-app.com/blog/anki-vs-quizlet-vs-open-source-flashcards-app/)
+- [2026年のベスト Anki Alternatives: 実際に使うべきフラッシュカードアプリはどれか](https://flashcards-open-source-app.com/blog/best-anki-alternatives/)
+- [Anki vs Quizlet vs オープンソースのフラッシュカードアプリ: 2026年に最適な間隔反復ツールはどれか](https://flashcards-open-source-app.com/blog/anki-vs-quizlet-vs-open-source-flashcards-app/)
 
-最適な offline study tool は、たいてい一番大きく offline badge を掲げているものではありません。
+本当に使いやすいオフライン学習ツールは、たいてい「オフライン対応」をいちばん大きく掲げている製品ではありません。
 
-接続が悪くても app を開いて普通に cards を review でき、network の存在をあとで思い出せばいいだけのものです。
+接続が悪くてもアプリを開いて、いつも通りカードを復習できる。ネットワークのことは、あとで思い出せばいい。それくらい自然に使えるものこそ、本当に価値があります。
