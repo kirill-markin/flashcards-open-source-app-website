@@ -8,32 +8,32 @@ sections:
 ---
 ## サービス
 
-Flashcards は open-source の spaced-repetition と flashcards tool です。Hosted cloud beta は beta period 中、as-is かつ as-available basis で提供されます。
+Flashcards は、オープンソースの間隔反復型フラッシュカードツールです。ホスト型クラウドベータ版は、ベータ期間中、現状有姿かつ提供可能な範囲で提供されます。
 
-## Service Provider
+## サービス提供者
 
-Hosted Flashcards service は Ozma Inc. により提供されています。Flashcards は Kirill Markin により作成され、[ozma.io](https://ozma.io/) は hosted service に関連する company website です。
+ホスト型の Flashcards サービスは、Ozma Inc. により提供されます。Flashcards は Kirill Markin によって作成されたものであり、[ozma.io](https://ozma.io/) は当該ホストサービスに関連する企業ウェブサイトです。
 
 ## あなたのデータ
 
-データの所有権はあなたにあります。あなたが入力した cards、review history、その他の learning content に対して、私たちは権利を主張しません。
+あなたのデータの権利は、あなたに帰属します。あなたが入力したカード、復習履歴、その他の学習コンテンツについて、当社は何らの権利も主張しません。
 
-## Acceptable Use
+## 適正な利用
 
-Service を違法行為に使わないでください。他の users の data にアクセスしようとしたり、API rate limits を悪用したり、AI/chat features を通じて harmful、unlawful、abusive な content を送信したりしないでください。
+本サービスを違法行為に利用してはなりません。また、他の利用者のデータへのアクセスを試みること、API のレート制限を濫用すること、または AI チャット機能を通じて有害、違法もしくは虐待的なコンテンツを送信することを禁止します。
 
-## AI Features
+## AI 機能
 
-AI chat は optional です。利用する場合、requests は hosted service 向けに configured された third-party AI providers により処理されることがあり、responses は inaccurate または incomplete である可能性があります。AI-generated output に依存したり changes を適用したりする前に、内容を確認する責任はあなたにあります。
+AI チャットの利用は任意です。これを利用する場合、あなたのリクエストは、ホストサービス向けに設定された第三者の AI プロバイダーによって処理されることがあります。また、応答には不正確または不完全な内容が含まれる可能性があります。AI により生成された出力に依拠したり、変更を適用したりする前に、その内容を確認する責任はあなたにあります。
 
-## Availability
+## 提供状況
 
-Hosted service は best-effort basis で提供され、beta period 中に予告なく変更、一時停止、終了される場合があります。Guaranteed availability や full operational control が必要な場合は application を self-host してください。
+ホストサービスは、ベストエフォートで提供されます。ベータ期間中は、予告なく変更、一時停止、または終了される場合があります。可用性の保証や完全な運用管理が必要な場合は、ご自身のインフラ上でアプリケーションをセルフホストしてください。
 
-## Support
+## サポート
 
-Support については [kirill+flashcards@kirill-markin.com](mailto:kirill+flashcards@kirill-markin.com) へ連絡するか、[サポート](/support/) を利用してください。
+サポートについては、[kirill+flashcards@kirill-markin.com](mailto:kirill+flashcards@kirill-markin.com) までご連絡いただくか、[サポート](/support/) ページをご利用ください。
 
-## Open Source
+## オープンソース
 
-Source code は MIT license の下で利用できます。Self-hosted deployments はこれらの terms の対象ではありません。
+ソースコードは、MIT ライセンスの下で提供されています。セルフホスト環境でのデプロイは、本規約の適用対象ではありません。

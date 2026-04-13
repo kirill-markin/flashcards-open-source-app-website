@@ -11,37 +11,37 @@ keywords:
   - "self hosted flashcards"
 ---
 
-Wenn du Anki und Quizlet nebeneinander öffnest, merkst du meist schon vor dem ersten Klick, worauf der Vergleich hinausläuft. Das eine wirkt mächtig und etwas sperrig. Das andere wirkt runder und zugänglicher.
+Wenn du Anki und Quizlet nebeneinander öffnest, erkennst du meist schon vor dem ersten Klick, worauf der Vergleich hinausläuft. Das eine wirkt leistungsstark und etwas störrisch. Das andere wirkt glatter und zugänglicher.
 
-Diese Trennung gibt es seit Jahren, und genau das ist eigentlich seltsam. Flashcards sind keine unlösbare Produktkategorie. Es geht um Karten, einen Stapel fälliger Wiederholungen, den Wiederholungsrhythmus und eine Lerngewohnheit. Dafür hätten wir längst mehr gute Optionen haben müssen.
+Diese Trennung gibt es seit Jahren, und genau das ist eigentlich seltsam. Flashcards sind keine unlösbare Produktkategorie. Es geht um Karten, eine Wiederholungswarteschlange, Planungslogik und eine feste Lernroutine. Dafür hätten wir längst mehr gute Optionen haben müssen.
 
 Stattdessen landen die meisten noch immer bei drei Wegen:
 
 - Anki, wenn sie ernsthafte Spaced Repetition wollen und mit einer altmodischen Bedienoberfläche leben können
-- Quizlet, wenn sie ein runderes Produkt für ein breites Publikum wollen und mit einer geschlossenen Plattform einverstanden sind
-- eine neuere Open-Source-Flashcards-App, wenn sie Kontrolle, Self-Hosting und ein Produkt wollen, das sich wirklich wie Software aus diesem Jahrzehnt anfühlt
+- Quizlet, wenn sie ein zugänglicheres Produkt für ein breites Publikum wollen und mit einer geschlossenen Plattform einverstanden sind
+- eine neuere Open-Source-Flashcards-App, wenn sie Kontrolle, Self-Hosting und ein Produkt wollen, das nicht wie ein Überbleibsel aus einer früheren Softwaregeneration wirkt
 
 Diese dritte Kategorie wird endlich interessant.
 
 ## Anki vs Quizlet ist im Kern eine Abwägung zwischen Leistungsfähigkeit und Nutzungserlebnis
 
-Wenn du nach **Anki vs Quizlet** suchst, versuchen die meisten Vergleichsseiten, den Unterschied auf eine Funktions-Checkliste zu reduzieren.
+Wenn du nach **Anki vs Quizlet** suchst, versuchen die meisten Vergleichsseiten, den Unterschied auf eine Funktionsliste herunterzubrechen.
 
 Das verfehlt den Punkt.
 
-Der eigentliche Unterschied ist zunächst emotional und erst danach technisch.
+Der eigentliche Unterschied ist zuerst emotional und erst danach technisch.
 
-Anki fühlt sich wie ein Werkzeug an, das von Menschen gebaut wurde, denen das Lernsystem wichtiger ist als der erste Eindruck. Quizlet wirkt wie ein Produkt, das leichter zu verstehen, leichter zu teilen und leichter an ein breiteres Publikum zu vermitteln ist.
+Anki fühlt sich wie ein Werkzeug an, das von Menschen gebaut wurde, denen das Lernsystem wichtiger ist als der erste Eindruck. Quizlet wirkt wie ein Produkt, das leichter zugänglich ist, sich einfacher teilen lässt und sich leichter an ein breiteres Publikum verkaufen lässt.
 
 Beide Entscheidungen sind nachvollziehbar. Beide haben ihren Preis.
 
 ## Warum sich Menschen immer noch für Anki entscheiden
 
-Anki ist immer noch die Standardantwort für Leute, die Auswendiglernen ernst nehmen.
+Anki ist immer noch die naheliegende Standardantwort für Menschen, die Auswendiglernen ernst nehmen.
 
 Sprachlernende nutzen es. Medizinstudierende nutzen es. Menschen, die für harte Prüfungen lernen, nutzen es. Nicht, weil es schön ist, sondern weil es funktioniert und über Jahre hinweg erprobt wurde.
 
-Wenn du die etablierteste **Spaced-Repetition-App** suchst, verdient Anki weiterhin Respekt.
+Wenn du die etablierteste **Spaced-Repetition-App** suchst, verdient Anki nach wie vor Respekt.
 
 Das macht Anki bis heute gut:
 
@@ -49,25 +49,25 @@ Das macht Anki bis heute gut:
 - starker Ruf im Bereich Spaced Repetition
 - große bestehende Community
 - viele Decks, Plugins und Tipps anderer Nutzer
-- ein klar lokaler Ansatz statt "alles gehört der Plattform"
+- ein lokaler Ansatz statt "alles gehört der Plattform"
 
 Die Schwäche liegt nicht im Algorithmus. Sie liegt im Nutzungserlebnis.
 
-Man kann sich an Anki gewöhnen. Viele tun das. Aber "man gewöhnt sich daran" ist 2026 keine besonders überzeugende Produktbewertung.
+Man kann sich an Anki gewöhnen. Viele tun das. Aber "man gewöhnt sich daran" ist im Jahr 2026 keine besonders überzeugende Produktbewertung.
 
 ## Warum sich Menschen immer noch für Quizlet entscheiden
 
-Quizlet punktet vor allem beim einfachen Einstieg.
+Quizlet punktet vor allem mit seinem niedrigen Einstiegshindernis.
 
 Es wirkt leichter. Einfacher. Näher an dem, was die meisten von einer modernen Lern-App erwarten. Wenn du schnell ein paar Kartensätze erstellen, teilen und ohne viel Konfiguration loslegen willst, hat Quizlet einen offensichtlichen Reiz.
 
-Darum zieht es weiterhin Nutzer an, die bei Anki fast sofort wieder abspringen.
+Deshalb zieht es weiterhin Nutzer an, die bei Anki fast sofort wieder abspringen.
 
 Die Abwägung ist genau die, die man von einem geschlossenen Produkt für den Massenmarkt erwarten würde:
 
 - weniger Kontrolle
 - weniger Flexibilität
-- wichtige Produktentscheidungen werden über deinen Kopf hinweg getroffen
+- wichtige Produktentscheidungen werden ohne dich getroffen
 - dein Lernsystem hängt am Geschäftsmodell eines anderen
 
 Für lockeres Lernen kann das völlig in Ordnung sein.
@@ -78,29 +78,29 @@ Für langfristig aufgebautes persönliches Wissen halte ich es für die schwäch
 
 Hier beginnt meist die Suche nach einer **Anki-Alternative** oder **Quizlet-Alternative**.
 
-Manche wollen die Ernsthaftigkeit von Anki ohne das veraltete Gefühl.
+Manche wollen die inhaltliche Strenge von Anki ohne das veraltete Gefühl.
 
 Manche wollen die Einfachheit von Quizlet ohne die Nachteile einer geschlossenen Plattform.
 
 Und manche wollen noch etwas, das beide Produkte nur unbeholfen abbilden: echte Hoheit über die eigenen Daten.
 
-Lernkarten sind kein Wegwerfmaterial. Über mehrere Jahre hinweg werden sie zu einer Landkarte dessen, was du lernst, was dir immer wieder entgleitet, welche Themen wichtig genug sind, um erneut darauf zurückzukommen, und wie sich dein Verständnis im Lauf der Zeit verändert.
+Lernkarten sind kein Wegwerfmaterial. Über mehrere Jahre hinweg werden sie zu einer Landkarte dessen, was du lernst, was dir immer wieder entgleitet, welche Themen wichtig genug sind, um darauf zurückzukommen, und wie sich dein Verständnis im Lauf der Zeit verändert.
 
-Das sind wertvolle Daten. Ich halte wenig davon, sie wie gemietete Inhalte einer Plattform zu behandeln.
+Das sind wertvolle Daten. Ich halte wenig davon, sie zu behandeln, als wären sie bloß geliehene Inhalte auf einer Plattform.
 
 ## Was eine moderne Open-Source-Flashcards-App verändert
 
-[Flashcards](https://flashcards-open-source-app.com/) ist die Richtung, die ich in dieser Kategorie gern häufiger sehen würde: eine moderne **Open-Source-Flashcards-App** mit Spaced Repetition, dokumentiertem Self-Hosting und einer Oberfläche, die schlicht genug ist, um weiterzuwachsen, ohne zum Museum zu werden.
+[Flashcards](https://flashcards-open-source-app.com/) ist die Richtung, die ich in dieser Kategorie gern öfter sehen würde: eine moderne **Open-Source-Flashcards-App** mit Spaced Repetition, dokumentiertem Self-Hosting und einer klaren Oberfläche, die schlicht genug ist, um weiterzuwachsen, ohne museal zu wirken.
 
-Die aktuelle öffentliche Version ist bewusst ehrlich in Bezug auf ihren Reifegrad. Sie ist noch früh, aber bereits mehr als ein reiner Browser-Prototyp.
+Die aktuelle öffentliche Version geht bewusst offen mit ihrem Reifegrad um. Sie ist noch früh, aber längst mehr als ein reiner Browser-Prototyp.
 
 Was du heute bekommst, ist klar:
 
-- Vorder- und Rückseitenkarten in der gehosteten Web-App erstellen
+- Karten mit Vorder- und Rückseite in der gehosteten Web-App erstellen
 - fällige Karten mit FSRS wiederholen
 - KI-Chat mit Workspace-Daten und Dateianhängen nutzen
 - dich per passwortlosem E-Mail-Einmalcode anmelden
-- Terminal-Agenten über den dokumentierten API-Einstieg anbinden
+- Terminal-Agenten über den dokumentierten API-Einstieg verbinden
 - den iOS-Client aus dem Haupt-Repository mit Offline-First-Synchronisierung nutzen
 - den Stack selbst hosten, wenn du mehr Kontrolle willst
 - eine fokussierte externe Agent-API für die Workspace-Einrichtung und SQL-Zugriff nutzen
@@ -111,13 +111,13 @@ Auch die grundsätzliche Richtung passt besser dazu, wohin Software heute gehen 
 
 ## Self-Hosted-Flashcards sind nicht nur etwas für Hobby-Sysadmins
 
-Wenn Menschen nach **self hosted flashcards** suchen, tun sie das meist nicht, weil sie sich zusätzliche Wochenendarbeit wünschen.
+Wenn Menschen nach **self hosted flashcards** suchen, tun sie das meist nicht, weil sie mehr Wochenendarbeit wollen.
 
 Sie wollen in der Regel eines von drei Dingen:
 
 - Kontrolle über ihre Lerndaten
 - die Möglichkeit, später zwischen gehostet und selbst gehostet zu wechseln
-- die Gewissheit, dass das Produkt keine Black Box ist
+- die Gewissheit, dass das Produkt keine Blackbox ist
 
 Das ist ein vernünftiges Bedürfnis.
 
@@ -131,11 +131,11 @@ Das hängt davon ab, welches Problem du tatsächlich lösen willst.
 
 Wenn du das reifste und bewährteste Werkzeug für ernsthaftes Auswendiglernen suchst, ist Anki immer noch schwer zu schlagen.
 
-Wenn du das einfachste Mainstream-Erlebnis willst und dir Lock-in nicht besonders wichtig ist, ist Quizlet die naheliegendere Antwort.
+Wenn du das einfachste Mainstream-Erlebnis willst und dir Plattformbindung nicht besonders wichtig ist, ist Quizlet die naheliegendere Antwort.
 
-Wenn du eine neuere **Open-Source-Flashcards-App** suchst, die heutigen Produkterwartungen näherkommt, einen echten Weg zum Self-Hosting bietet und das Thema Kontrolle nicht ausblendet, ist Flashcards die interessantere Option.
+Wenn du eine neuere **Open-Source-Flashcards-App** suchst, die heutigen Produkterwartungen näherkommt, einen echten Weg zum Self-Hosting bietet und das Thema Kontrolle nicht ausklammert, ist Flashcards die interessantere Option.
 
-Das soll nicht so klingen, als würde die neue Option die alten Platzhirsche bereits in jeder Hinsicht übertreffen. Das tut sie nicht.
+Das soll nicht so klingen, als würde die neue Option die alten Platzhirsche schon in jeder Hinsicht übertreffen. Das tut sie nicht.
 
 Ich sage nur: Die Kategorie steckt seit zu langer Zeit in derselben Abwägung fest, und das ist seit Langem die erste Richtung, die strukturell besser wirkt.
 
@@ -144,7 +144,7 @@ Ich sage nur: Die Kategorie steckt seit zu langer Zeit in derselben Abwägung fe
 | Tool | Am besten für | Größte Stärke | Größte Schwäche |
 |---|---|---|---|
 | Anki | Ernsthafte Lernende, denen die Qualität der Wiederholung am wichtigsten ist | Bewährte Spaced-Repetition-Kultur und Tiefe | Produkt wirkt alt |
-| Quizlet | Lockeres Lernen oder breitentaugliche Nutzung | Leichter Einstieg und runderes Nutzungserlebnis | Geschlossene Plattform und weniger Kontrolle |
+| Quizlet | Lockeres Lernen oder breitentaugliche Lernroutinen | Leichter Einstieg und runderes Nutzungserlebnis | Geschlossene Plattform und weniger Kontrolle |
 | Flashcards | Menschen, die moderne Open-Source-Software und Self-Hosting-Optionen wollen | Kontrolle, transparente Architektur, klare Produktrichtung | Produkt noch in früher Phase |
 
 Diese Tabelle ist die ehrliche Version.
@@ -174,7 +174,7 @@ Nutze **Flashcards**, wenn:
 
 ## Probiere die Open-Source-Flashcards-App aus
 
-Wenn du **Anki vs Quizlet** vergleichst und sich keine der beiden Antworten ganz richtig anfühlt, ist das wahrscheinlich das eigentliche Signal.
+Wenn du **Anki vs Quizlet** vergleichst und sich keine der beiden Antworten ganz richtig anfühlt, ist genau das wahrscheinlich das eigentliche Signal.
 
 Starte mit [Flashcards](https://flashcards-open-source-app.com/):
 
@@ -183,6 +183,6 @@ Starte mit [Flashcards](https://flashcards-open-source-app.com/):
 - [Self-Hosting-Leitfaden lesen](https://flashcards-open-source-app.com/docs/self-hosting/)
 - [Quellcode auf GitHub ansehen](https://github.com/kirill-markin/flashcards-open-source-app)
 
-Wir hätten längst bessere Lernkarten-Software haben müssen.
+Wir hätten längst bessere Software für Lernkarten haben müssen.
 
 Open Source, Self-Hosting und eine klarere moderne Produktrichtung wirken wie der beste Weg, um endlich dorthin zu kommen.

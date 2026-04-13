@@ -1,44 +1,44 @@
 ---
 title: はじめに
-description: Hosted web app から始めるか、agent を discovery URL で接続するか、自分で stack をローカル実行します。
+description: ホスト版 Web アプリから始めることも、公開された案内用エンドポイント経由でエージェントを接続することも、自分でローカル環境を立ち上げることもできます。
 ---
 
-## Hosted Web App
+## ホスト版 Web アプリ
 
-最も早く始める方法は hosted web app です:
+最短で始めるなら、ホスト版 Web アプリを使う方法がおすすめです。
 
-1. [app.flashcards-open-source-app.com](https://app.flashcards-open-source-app.com) を開く
-2. Passwordless email OTP でサインインする
-3. Cards を作成し、due items を review し、workspace data や file attachments と共に AI chat を使う
+1. [app.flashcards-open-source-app.com](https://app.flashcards-open-source-app.com) を開きます
+2. パスワードレスのメール OTP でサインインします
+3. カードを作成し、期限の来た項目を復習し、ワークスペースのデータやファイル添付を使って AI チャットを利用します
 
-Hosted path に installation や server setup は必要ありません。
+この方法では、インストールやサーバー設定は必要ありません。
 
-## Agent Setup
+## エージェントのセットアップ
 
-Claude Code、Codex、OpenClaw を直接接続したい場合は次から始めます:
+Claude Code、Codex、OpenClaw を直接接続する場合は、まず次のエンドポイントから始めます。
 
 ```text
 GET https://api.flashcards-open-source-app.com/v1/
 ```
 
-この discovery response は、agent に email OTP login、long-lived API key creation、account loading、workspace bootstrap、そして published SQL surface へ進む方法を伝えます。
+このレスポンスには、メール OTP によるログイン、長期間利用できる API key の作成、アカウント情報の読み込み、ワークスペースの初期設定、そして公開されている SQL インターフェースの利用開始までの手順が含まれています。
 
-同じ payload は `GET /v1/agent` でも利用できますが、`/v1/` が primary public entry point です。
+同じ内容は `GET /v1/agent` でも取得できますが、正式な公開エントリポイントは `/v1/` です。
 
-## Self-Hosting
+## セルフホスティング
 
-自分の copy を動かしたい場合は [セルフホスティングガイド](/docs/self-hosting/) を見てください。
+自分でインスタンスを運用したい場合は、[セルフホスティングガイド](/docs/self-hosting/) を参照してください。
 
-## 今日できること
+## 現在利用できるもの
 
-- Cards、review、AI chat のための hosted web app
-- Main repository 内の local SQLite と offline-first sync を備えた iOS client
-- 別々の `api` と `auth` domains 上の shared backend / auth services
-- Discovery、OTP、ApiKey auth による external agent setup
-- Postgres を source of truth とする AWS 向け open-source deployment path
+- カード作成、復習、AI チャットを利用できるホスト版 Web アプリ
+- メインリポジトリに含まれる、ローカル SQLite と offline-first sync を備えた iOS クライアント
+- 別ドメインの `api` と `auth` で提供される共有バックエンドおよび認証サービス
+- discovery、OTP、ApiKey 認証を使った外部エージェント向け接続フロー
+- Postgres を正本データストアとして使う AWS 向けのオープンソース構成
 
-## Repository Direction
+## リポジトリの方向性
 
-Project は offline-first の方向で設計されています。
+このプロジェクトは offline-first を前提に設計されています。
 
-現在の repository には web app、iOS app、auth service、backend API、external agent flow、そして Google Play 公開済みの Android app が含まれます。
+現在のリポジトリには、web app、iOS app、auth service、backend API、外部エージェント向けフロー、そして Google Play で公開中の Android app が含まれています。

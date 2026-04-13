@@ -8,36 +8,36 @@ sections:
 ---
 ## 収集する情報
 
-Hosted cloud beta を利用する場合、認証に使うメールアドレスと、サービス運用に必要な学習データを保存します。これには cards、review history、workspace metadata が含まれます。Self-hosted instances は、あなた自身がそのように動く copy を deploy しない限り、当社にデータを送りません。
+ホスト型クラウドベータ版を利用する場合、認証に使用するメールアドレスと、サービスの提供に必要な学習データを保存します。これには、カード、復習履歴、ワークスペースのメタデータが含まれます。セルフホスト環境では、そのような送信を行うように構成したご自身のコピーをデプロイしない限り、当社にデータが送信されることはありません。
 
 ## 運営者
 
-Hosted Flashcards service は Ozma Inc. により運営されています。Flashcards は Kirill Markin により作成され、[ozma.io](https://ozma.io/) は hosted service に関連する company website です。
+ホスト型 Flashcards サービスは Ozma Inc. が運営しています。Flashcards は Kirill Markin によって作成され、[ozma.io](https://ozma.io/) はホスト型サービスに関連する会社ウェブサイトです。
 
-## AI Features
+## AI機能
 
-Hosted app の AI chat を利用する場合、typed prompts、request に必要な card-derived context、uploaded files、uploaded images、dictated audio や transcription requests が、server に configured された third-party AI providers に送信されることがあります。実際に使われる provider は、その時点の hosted server configuration に依存します。
+ホスト型アプリで AI chat を利用する場合、入力したプロンプト、リクエストの処理に必要なカード関連のコンテキスト、アップロードしたファイルや画像、ならびに音声入力のデータまたは文字起こしのリクエストが、サーバーに設定された第三者の AI プロバイダに送信されることがあります。実際に使用されるプロバイダは、リクエスト時点のホストサーバーの設定によって異なります。
 
 ## データの利用目的
 
-あなたのデータは authentication、cloud sync、optional AI features を提供するために使われます。私たちはあなたのデータを販売せず、広告にも使いません。Authentication と workspace access は public repository に documented された backend services が処理します。
+あなたのデータは、認証、クラウド同期、および任意の AI 機能を提供するために使用されます。当社は、あなたのデータを販売したり、広告目的で利用したりしません。認証とワークスペースへのアクセスは、公開リポジトリに記載されたバックエンドサービスによって処理されます。
 
-## Data Storage
+## データの保存
 
-Hosted cloud data は AWS infrastructure 上に保存され、primary application data には Postgres が使われます。Data は transit 中に暗号化され、service operators は hosted beta の運用と debug に必要な operational logs を保持する場合があります。
+ホスト型クラウドのデータは AWS 上のインフラに保存され、主要なアプリケーションデータには Postgres を使用しています。データは転送中に暗号化され、サービス運営者はホスト型ベータ版の運用およびデバッグに必要な運用ログを保持する場合があります。
 
-## Cookies
+## クッキー
 
-Login flow のために `session`、`refresh`、`logged_in` などの authentication cookies を使います。Site の動作に tracking cookies や third-party analytics は必要ありません。
+ログイン処理のために、`session`、`refresh`、`logged_in` などの認証 Cookie を使用します。サイトの動作に、トラッキング Cookie や第三者の解析ツールは必要ありません。
 
-## Data Deletion
+## データの削除
 
-Self-hosted instances では database を直接管理できます。Hosted app では iOS app から account を削除でき、hosted data removal に追加の支援が必要な場合は support に連絡できます。
+セルフホスト環境では、データベースを直接管理できます。ホスト型アプリでは、iOS アプリからアカウントを削除できます。ホスト型データの削除について追加の支援が必要な場合は、サポートまでご連絡ください。
 
-## Support
+## サポート
 
-Privacy に関する質問は [kirill+flashcards@kirill-markin.com](mailto:kirill+flashcards@kirill-markin.com) へ連絡するか、[サポート](/support/) を利用してください。
+プライバシーに関するご質問は、[kirill+flashcards@kirill-markin.com](mailto:kirill+flashcards@kirill-markin.com) までご連絡いただくか、[サポート](/support/) をご利用ください。
 
-## Open Source
+## オープンソース
 
-Codebase 全体は open source です。Application がデータをどう扱うかを正確に audit できます。
+コードベース全体をオープンソースとして公開しています。アプリケーションがデータをどのように扱うかを、コードを確認して正確に監査できます。

@@ -8,36 +8,36 @@ sections:
 ---
 ## हम क्या एकत्र करते हैं
 
-जब आप hosted cloud beta का उपयोग करते हैं, हम authentication के लिए उपयोग किया गया email address और service चलाने के लिए जरूरी learning data store करते हैं, जिनमें cards, review history, और workspace metadata शामिल हैं। Self-hosted instances हमें data नहीं भेजते जब तक आप अपनी ऐसी copy deploy न करें जो ऐसा करती हो।
+जब आप क्लाउड पर उपलब्ध बीटा सेवा का उपयोग करते हैं, तो हम प्रमाणीकरण के लिए इस्तेमाल किया गया आपका ईमेल पता और सेवा चलाने के लिए आवश्यक अध्ययन-संबंधी डेटा संग्रहीत करते हैं। इसमें आपके कार्ड, पुनरावलोकन इतिहास, और कार्यक्षेत्र से जुड़ा मेटाडेटा शामिल है। स्वयं-होस्ट किए गए संस्करण हमें कोई डेटा नहीं भेजते, जब तक कि आप स्वयं ऐसा संस्करण तैनात न करें जो ऐसा करता हो।
 
 ## ऑपरेटर
 
-Hosted Flashcards service को Ozma Inc. संचालित करती है। Flashcards को Kirill Markin ने बनाया था, और [ozma.io](https://ozma.io/) hosted service से जुड़ी company website है।
+क्लाउड पर उपलब्ध Flashcards सेवा का संचालन Ozma Inc. करती है। Flashcards को Kirill Markin ने बनाया है, और [ozma.io](https://ozma.io/) इस सेवा से संबंधित कंपनी की वेबसाइट है।
 
-## AI Features
+## AI सुविधाएँ
 
-अगर आप hosted app में AI chat का उपयोग करते हैं, तो आपके typed prompts, request के लिए जरूरी card-derived context, uploaded files, uploaded images, और dictated audio या transcription requests server पर configured third-party AI providers को भेजे जा सकते हैं। इस्तेमाल किया गया exact provider request के समय hosted server configuration पर निर्भर करता है।
+यदि आप क्लाउड पर उपलब्ध ऐप में AI chat का उपयोग करना चुनते हैं, तो आपके द्वारा टाइप किए गए संदेश, उस अनुरोध को पूरा करने के लिए आवश्यक कार्ड-आधारित संदर्भ, अपलोड की गई फाइलें, अपलोड की गई छवियाँ, और आपके द्वारा बोलकर दिया गया ऑडियो या लिप्यंतरण से जुड़े अनुरोध सर्वर पर निर्धारित तृतीय-पक्ष AI सेवा प्रदाताओं को भेजे जा सकते हैं। किसी अनुरोध के लिए कौन-सा सेवा प्रदाता इस्तेमाल होगा, यह उस समय सर्वर के विन्यास पर निर्भर करता है।
 
-## हम आपका data कैसे उपयोग करते हैं
+## हम आपके डेटा का उपयोग कैसे करते हैं
 
-आपका data authentication, cloud sync, और optional AI features प्रदान करने के लिए उपयोग होता है। हम आपका data बेचते नहीं हैं और न ही advertising के लिए उपयोग करते हैं। Authentication और workspace access public repository में documented backend services द्वारा संभाले जाते हैं।
+आपके डेटा का उपयोग प्रमाणीकरण, क्लाउड सिंक, और वैकल्पिक AI सुविधाएँ उपलब्ध कराने के लिए किया जाता है। हम आपका डेटा न बेचते हैं और न ही उसका उपयोग विज्ञापन के लिए करते हैं। प्रमाणीकरण और कार्यक्षेत्र तक पहुँच का प्रबंधन सार्वजनिक स्रोत-भंडार में प्रलेखित बैकएंड सेवाओं द्वारा किया जाता है।
 
-## Data Storage
+## डेटा संग्रहण
 
-Hosted cloud data AWS infrastructure में store होता है, जिसमें primary application data के लिए Postgres शामिल है। Data transit के दौरान encrypted रहता है, और service operators hosted beta चलाने और debug करने के लिए जरूरी operational logs रख सकते हैं।
+क्लाउड पर उपलब्ध सेवा का डेटा AWS अवसंरचना में संग्रहीत किया जाता है, जिसमें मुख्य एप्लिकेशन डेटा के लिए Postgres शामिल है। डेटा भेजे जाने के दौरान एन्क्रिप्टेड रहता है, और इस बीटा सेवा को चलाने तथा डीबग करने के लिए आवश्यक परिचालन लॉग सेवा संचालक अपने पास रख सकते हैं।
 
-## Cookies
+## कुकीज़
 
-हम login flow के लिए `session`, `refresh`, और `logged_in` जैसी authentication cookies का उपयोग करते हैं। Site को काम करने के लिए tracking cookies या third-party analytics की जरूरत नहीं है।
+हम लॉगिन प्रक्रिया के लिए `session`, `refresh`, और `logged_in` जैसी प्रमाणीकरण कुकीज़ का उपयोग करते हैं। साइट के काम करने के लिए ट्रैकिंग कुकीज़ या तृतीय-पक्ष विश्लेषण सेवाओं की आवश्यकता नहीं है।
 
-## Data Deletion
+## डेटा हटाना
 
-Self-hosted instances के लिए आप database को सीधे नियंत्रित करते हैं। Hosted app में आप iOS app से अपना account delete कर सकते हैं, और hosted data removal के लिए अतिरिक्त मदद चाहिए तो support से संपर्क कर सकते हैं।
+स्वयं-होस्ट किए गए संस्करणों में डेटाबेस पर आपका सीधा नियंत्रण होता है। क्लाउड पर उपलब्ध ऐप में आप iOS ऐप से अपना खाता हटा सकते हैं, और वहाँ संग्रहीत डेटा हटाने में अतिरिक्त मदद चाहिए तो सहायता टीम से संपर्क कर सकते हैं।
 
-## Support
+## सहायता
 
-Privacy से जुड़े सवालों के लिए [kirill+flashcards@kirill-markin.com](mailto:kirill+flashcards@kirill-markin.com) पर संपर्क करें या [सपोर्ट](/support/) का उपयोग करें।
+गोपनीयता से जुड़े प्रश्नों के लिए [kirill+flashcards@kirill-markin.com](mailto:kirill+flashcards@kirill-markin.com) पर संपर्क करें या [सहायता पृष्ठ](/support/) का उपयोग करें।
 
-## Open Source
+## खुला स्रोत
 
-पूरा codebase open source है। आप ठीक-ठीक audit कर सकते हैं कि application आपके data के साथ क्या करती है।
+पूरा स्रोत-कोड खुला स्रोत है। आप ठीक-ठीक जाँच कर सकते हैं कि एप्लिकेशन आपके डेटा के साथ क्या करती है।

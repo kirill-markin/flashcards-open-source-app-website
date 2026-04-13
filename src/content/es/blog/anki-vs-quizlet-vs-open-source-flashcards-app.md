@@ -18,13 +18,13 @@ keywords:
 ---
 Si abres Anki y Quizlet uno junto al otro, casi puedes intuir la diferencia antes de tocar nada. Uno transmite potencia y cierta terquedad. El otro se siente más pulido y más pensado para el gran público.
 
-Esa diferencia lleva años ahí, y resulta extraño si lo piensas. Las flashcards no son una categoría de producto imposible. Son tarjetas, una cola de repaso, una lógica de planificación y un hábito que se repite. A estas alturas ya deberíamos tener más opciones buenas.
+Esa diferencia lleva años ahí, y es raro si te paras a pensarlo. Las flashcards no son una categoría de producto imposible. Son tarjetas, una cola de repaso, una lógica de planificación y una rutina que se repite. A estas alturas ya deberíamos tener más alternativas buenas.
 
 En cambio, la mayoría de la gente sigue terminando en uno de estos tres caminos:
 
-- Anki, si buscas una repetición espaciada seria y toleras una experiencia algo anticuada
-- Quizlet, si prefieres un producto más pulido y generalista y no te importa usar una plataforma cerrada
-- una app de flashcards de código abierto más nueva, si quieres control, autoalojamiento y un producto que se sienta más actual
+- Anki, si quieres repetición espaciada de verdad y toleras una experiencia algo anticuada
+- Quizlet, si prefieres un producto más pulido y generalista y no te importa una plataforma cerrada
+- una app de flashcards de código abierto más reciente, si quieres control, autoalojamiento y un producto que se sienta de esta década
 
 Esa tercera categoría por fin empieza a ponerse interesante.
 
@@ -42,7 +42,7 @@ Ambas decisiones tienen sentido. Ambas tienen un coste.
 
 ## Por qué la gente sigue eligiendo Anki
 
-Anki sigue siendo la respuesta por defecto para quien se toma en serio la memorización.
+Anki sigue siendo la respuesta por defecto para quien se toma en serio memorizar.
 
 Lo usan estudiantes de idiomas. Lo usan estudiantes de medicina. Lo usa gente que prepara exámenes duros. No porque sea bonito, sino porque funciona y lleva años demostrando que funciona.
 
@@ -62,13 +62,13 @@ Puedes acostumbrarte a Anki. Mucha gente lo hace. Pero "ya te acostumbrarás" no
 
 ## Por qué la gente sigue eligiendo Quizlet
 
-Quizlet gana por lo fácil que resulta empezar.
+Quizlet gana por lo fácil que resulta.
 
-Se siente más ligero. Más simple. Más cerca de lo que mucha gente espera de una app de estudio moderna. Si quieres crear algunos juegos de tarjetas rápido, compartirlos y ponerte en marcha sin configurar demasiado, el atractivo de Quizlet es evidente.
+Se siente más ligero. Más sencillo. Más cerca de lo que mucha gente espera de una app de estudio moderna. Si quieres crear unos cuantos conjuntos de estudio rápido, compartirlos y ponerte en marcha sin configurar demasiado, el atractivo de Quizlet es evidente.
 
 Por eso sigue atrayendo a quienes abandonan Anki casi al instante.
 
-La contrapartida es la esperable en un producto generalista y cerrado:
+La contrapartida es la que cabría esperar de un producto generalista y cerrado:
 
 - menos control
 - menos flexibilidad
@@ -89,7 +89,7 @@ Hay quien quiere la facilidad de Quizlet sin asumir el peaje de una plataforma c
 
 Y hay quien quiere algo más que ambos resuelven con incomodidad: la propiedad real.
 
-Las flashcards no son contenido desechable. Con los años, se convierten en un mapa de lo que aprendes, de lo que sigues olvidando, de los temas lo bastante importantes como para volver a ellos y de cómo cambia tu comprensión con el tiempo.
+Las flashcards no son contenido desechable. Con los años se convierten en un mapa de lo que estás aprendiendo, de lo que se te sigue escapando, de los temas lo bastante importantes como para volver a ellos y de cómo cambia tu comprensión con el tiempo.
 
 Son datos valiosos. No me entusiasma la idea de tratarlos como contenido alquilado dentro de una plataforma.
 
@@ -97,22 +97,22 @@ Son datos valiosos. No me entusiasma la idea de tratarlos como contenido alquila
 
 [Flashcards](https://flashcards-open-source-app.com/) representa el tipo de enfoque que me gustaría ver más a menudo en esta categoría: una **app de flashcards de código abierto** moderna, con repetición espaciada, una vía documentada de autoalojamiento y un producto lo bastante simple como para crecer sin convertirse en un museo.
 
-La versión pública actual es deliberadamente honesta con el momento en el que está. Sigue en una fase temprana, pero ya es bastante más que un prototipo solo para navegador.
+La versión pública actual es deliberadamente honesta con el punto en el que se encuentra. Sigue en una fase temprana, pero ya es bastante más que un simple prototipo de navegador.
 
 Lo que ofrece hoy está claro:
 
-- crear tarjetas anverso/reverso desde la app web alojada
+- crear tarjetas de anverso y reverso desde la app web alojada
 - repasar las tarjetas pendientes con planificación FSRS
-- usar chat con IA con datos del workspace y archivos adjuntos
+- usar chat con IA con datos del espacio de trabajo y archivos adjuntos
 - iniciar sesión con OTP por correo, sin contraseña
 - conectar agentes de terminal mediante el flujo de descubrimiento de la API
-- ejecutar el cliente de iOS desde el repositorio principal con sincronización offline-first
-- autoalojar la pila si quieres tener control
-- usar una API externa de agentes centrada en el arranque del workspace y el acceso a SQL
+- ejecutar el cliente de iOS desde el repositorio principal con sincronización pensada para funcionar primero sin conexión
+- autoalojar toda la pila si quieres tener control
+- usar una API externa de agentes centrada en el arranque del espacio de trabajo y el acceso a SQL
 
 Con eso ya se cubre el núcleo que importa: crear tarjetas, repasar lo pendiente y volver mañana.
 
-Además, el planteamiento general encaja mejor con lo que hoy debería ser el software: clientes offline-first, arquitectura abierta y un sistema que puedes inspeccionar de verdad en lugar de limitarte a alquilarlo.
+Además, la dirección general encaja mejor con lo que hoy debería ser el software: clientes pensados para funcionar primero sin conexión, arquitectura abierta y un sistema que puedes inspeccionar de verdad en lugar de limitarte a alquilarlo.
 
 ## Las flashcards autoalojadas no son solo para quien administra servidores por hobby
 
@@ -132,13 +132,13 @@ Eso importa más en las herramientas de aprendizaje de lo que mucha gente admite
 
 ## ¿Cuál es la mejor aplicación de repetición espaciada en 2026?
 
-Depende del problema que quieras resolver de verdad.
+Depende del problema que quieras resolver realmente.
 
 Si buscas la herramienta más madura y más probada para memorizar en serio ahora mismo, Anki sigue siendo difícil de superar.
 
 Si quieres la experiencia generalista más sencilla y no te preocupa demasiado la dependencia de plataforma, Quizlet es la respuesta más simple.
 
-Si buscas una **app de flashcards de código abierto** más reciente, más cercana a lo que hoy se espera de un buen producto, con una vía real de autoalojamiento y con el control todavía sobre la mesa, Flashcards es la opción más interesante.
+Si buscas una **app de flashcards de código abierto** más reciente, más cercana a lo que hoy se espera de un buen producto, con una vía real de autoalojamiento y sin renunciar al control, Flashcards es la opción más interesante.
 
 No estoy diciendo que la opción nueva ya supere a las veteranas en todos los frentes. No es así.
 
@@ -149,12 +149,12 @@ Lo que digo es que esta categoría lleva demasiado tiempo atrapada en la misma d
 | Herramienta | Mejor para | Principal fortaleza | Principal debilidad |
 |---|---|---|---|
 | Anki | Quienes se toman en serio el estudio y priorizan la calidad del repaso | Profundidad y cultura de repetición espaciada sobradamente probadas | La experiencia de producto se siente vieja |
-| Quizlet | Formas de estudio más ocasionales o generalistas | Inicio más fácil y una UX más fluida para el gran público | Plataforma cerrada y menos control |
-| Flashcards | Quienes quieren software moderno de código abierto y opciones de autoalojamiento | Propiedad, arquitectura transparente y una propuesta clara | Producto más temprano |
+| Quizlet | Formas de estudio más ocasionales o generalistas | Inicio más fácil y una experiencia más fluida para el gran público | Plataforma cerrada y menos control |
+| Flashcards | Quienes quieren software moderno de código abierto y opciones de autoalojamiento | Propiedad, arquitectura transparente y una propuesta clara | Todavía está en una fase temprana |
 
 Esa es la versión honesta de la comparación.
 
-Muchas comparativas intentan no decir algo incómodo de forma directa: a veces la mejor opción no es la que acumula más funciones, sino la que tiene la contrapartida con la que de verdad puedes convivir durante años.
+Muchas comparativas intentan esquivar una idea incómoda: a veces la mejor opción no es la que acumula más funciones, sino la que trae el tipo de contrapartida con el que de verdad puedes convivir durante años.
 
 ## Quién debería usar cada uno
 
@@ -168,7 +168,7 @@ Usa **Quizlet** si:
 
 - quieres algo más fácil de empezar a usar
 - te importa más la comodidad que el control
-- tu manera de estudiar es más ligera y menos estructurada
+- tu forma de estudiar es más ligera y menos estructurada
 
 Usa **Flashcards** si:
 
@@ -190,4 +190,4 @@ Empieza con [Flashcards](https://flashcards-open-source-app.com/):
 
 A estas alturas ya deberíamos tener mejores apps de flashcards.
 
-El código abierto, el autoalojamiento y un producto más limpio y más actual parecen la mejor forma de llegar por fin ahí.
+El código abierto, el autoalojamiento y una dirección de producto más limpia y más actual parecen la mejor forma de llegar por fin ahí.

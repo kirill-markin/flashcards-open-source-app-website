@@ -1,16 +1,16 @@
 ---
-title: Self-Hosting Guide
-description: 使用 Postgres、auth、backend 和 web 在本地运行 Flashcards，或自行部署 documented AWS stack。
+title: 自托管指南
+description: 使用 Postgres、auth、backend 和 web 在本地运行 Flashcards，或自行部署文档中说明的 AWS 架构。
 ---
 
-## Requirements
+## 环境要求
 
 - Docker
 - Node.js 20+
 - npm
-- 通过 bundled Docker setup 提供的 PostgreSQL 16+
+- 通过仓库提供的 Docker 配置运行 PostgreSQL 16+
 
-## Quick Start
+## 快速开始
 
 ```bash
 git clone https://github.com/kirill-markin/flashcards-open-source-app.git
@@ -23,7 +23,7 @@ npm install --prefix apps/backend
 npm install --prefix apps/web
 ```
 
-然后在不同 terminal windows 中启动 services：
+然后分别在不同终端中启动各个服务：
 
 ```bash
 make auth-dev
@@ -31,45 +31,45 @@ make backend-dev
 make web-dev
 ```
 
-会启动：
+这会启动：
 
-1. `postgres` on port `5432`
-2. `auth` on port `8081`
-3. `backend` on port `8080`
-4. `web` on port `3000`
+1. 运行在 `5432` 端口的 `postgres`
+2. 运行在 `8081` 端口的 `auth`
+3. 运行在 `8080` 端口的 `backend`
+4. 运行在 `3000` 端口的 `web`
 
-Local addresses:
+本地访问地址：
 
-- `http://localhost:3000` for the web app
-- `http://localhost:8080/v1` for the backend API
-- `http://localhost:8081` for the auth service
+- `http://localhost:3000`：Web 应用
+- `http://localhost:8080/v1`：后端 API
+- `http://localhost:8081`：认证服务
 
-## Configuration
+## 配置
 
-将 `.env.example` 复制为 `.env`，并设置以下值：
+将 `.env.example` 复制为 `.env`，然后按需调整以下配置：
 
-- `DATABASE_URL` — Postgres connection string
-- `AUTH_MODE` — 本地使用 `none`，email OTP auth 使用 `cognito`
-- `BACKEND_ALLOWED_ORIGINS` — session-backed API requests 的 allowed origins
-- `PUBLIC_API_BASE_URL` 和 `PUBLIC_AUTH_BASE_URL` — 如果你希望在 discovery responses 中返回自定义 public hosts，可使用 optional overrides
+- `DATABASE_URL` — Postgres 连接字符串
+- `AUTH_MODE` — 本地使用时设为 `none`；如需使用邮箱 OTP 认证，则设为 `cognito`
+- `BACKEND_ALLOWED_ORIGINS` — 允许通过会话认证访问 API 的浏览器来源
+- `PUBLIC_API_BASE_URL` 和 `PUBLIC_AUTH_BASE_URL` — 如果你希望 discovery 响应对外公布自定义公共主机名，可用这两个变量覆盖默认值
 
-## Local iOS Setup
+## iOS 本地配置
 
-主 repository 中的 iOS app 会从这里读取 local API 与 auth hosts：
+主仓库中的 iOS 应用会从以下文件读取本地 API 和 auth 主机地址：
 
 ```text
 apps/ios/Flashcards/Config/Local.xcconfig
 ```
 
-如有需要，复制 example file：
+如有需要，先复制示例文件：
 
 ```bash
 cp apps/ios/Flashcards/Config/Local.xcconfig.example apps/ios/Flashcards/Config/Local.xcconfig
 ```
 
-然后将其指向你本地或 self-hosted 的 `api` 与 `auth` domains。
+然后将其中的 `api` 和 `auth` 域名指向你的本地或自托管实例。
 
-## Updating
+## 更新
 
 ```bash
 git pull
@@ -79,18 +79,18 @@ npm install --prefix apps/backend
 npm install --prefix apps/web
 ```
 
-Dependency changes 后请重启 local services。
+依赖发生变化后，请重启本地服务。
 
-## AWS Deployment
+## AWS 部署
 
-Documented production shape:
+文档中说明的生产部署形态如下：
 
-- CloudFront + S3 for `app.<domain>`
-- API Gateway + Lambda for `api.<domain>`
-- API Gateway + Lambda for `auth.<domain>`
-- Postgres on AWS RDS
-- Cognito for passwordless email auth
-- Optional apex redirect when the root domain is unused
+- `app.<domain>` 使用 CloudFront + S3
+- `api.<domain>` 使用 API Gateway + Lambda
+- `auth.<domain>` 使用 API Gateway + Lambda
+- 使用部署在 AWS RDS 中的 Postgres
+- 使用 Cognito 提供无密码邮箱 OTP 认证
+- 如果根域名没有其他用途，可选配置 apex redirect
 
 详情请见：
 

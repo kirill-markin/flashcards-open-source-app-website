@@ -1,33 +1,33 @@
 ---
 title: 架构
-description: System overview、public domains、supported clients 和 current offline-first data flow。
+description: 系统概览、公开域名、支持的客户端，以及当前以离线优先为核心的数据流。
 ---
 
-## System Overview
+## 系统概览
 
-```text
-iOS app / agent client        -> api.<domain>  -> API Gateway -> Lambda backend -> Postgres
-Web app                       -> app.<domain>  -> CloudFront -> SPA
-Browser and agent auth        -> auth.<domain> -> API Gateway -> Auth Lambda -> Cognito
-Apex redirect                 -> <domain>      -> CloudFront redirect -> app.<domain>
+```
+iOS app / agent client          -> api.<domain>  -> API Gateway -> Lambda backend -> Postgres
+Web app                         -> app.<domain>  -> CloudFront -> SPA
+Browser and agent auth          -> auth.<domain> -> API Gateway -> Auth Lambda -> Cognito
+Apex fallback                   -> <domain>      -> CloudFront redirect -> app.<domain>
 ```
 
-## Principles
+## 原则
 
-1. `app`、`api`、`auth` 使用分离的 public domains
-2. Postgres 是 source of truth
-3. iOS client 采用 local SQLite 与 sync 的 offline-first 模式
-4. Web app、iOS client 与 external agent surface 共用同一个 workspace model
-5. External agents 从 `GET https://api.flashcards-open-source-app.com/v1/` 开始
+1. `app`、`api` 和 `auth` 分别使用独立的公开域名
+2. Postgres 是唯一的真实数据源
+3. iOS 客户端采用离线优先模式，本地使用 SQLite，并通过同步机制与服务端对齐
+4. 网页应用、iOS 应用和外部代理接口共享同一套工作区数据模型
+5. 外部代理从 `GET https://api.flashcards-open-source-app.com/v1/` 开始接入
 
-## Supported Clients
+## 支持的客户端
 
-- `app.flashcards-open-source-app.com` 上的 web app
-- 主 repository 中带 local SQLite storage 的 iOS app
-- Google Play 上的 Android app
-- 通过 discovery、OTP bootstrap 和 `Authorization: ApiKey` auth 接入的 external agent clients
+- 运行在 `app.flashcards-open-source-app.com` 的网页应用
+- 主仓库中的 iOS 应用，使用本地 SQLite 存储
+- Google Play 上的 Android 应用
+- 通过发现流程、OTP bootstrap 和 `Authorization: ApiKey` 接入的外部代理客户端
 
-## Data Model
+## 数据模型
 
 - `workspaces`
 - `workspace_members`
@@ -39,56 +39,56 @@ Apex redirect                 -> <domain>      -> CloudFront redirect -> app.<do
 - `applied_operations`
 - `sync_state`
 
-## Data Flow
+## 数据流
 
-### Web
+### 网页端
 
-1. Browser 通过 `auth.<domain>` sign in
-2. Web app 从 `api.<domain>` 加载 workspace data
-3. AI chat requests 经过 `/chat/local-turn`
-4. Review submissions 更新 scheduler state
+1. 浏览器通过 `auth.<domain>` 完成登录。
+2. 网页应用从 `api.<domain>` 加载工作区数据。
+3. AI 聊天请求通过 `/chat/local-turn`。
+4. 复习提交在写入时会更新调度器状态。
 
 ### iOS
 
-1. iOS app 先写入 local SQLite
-2. Local changes 放入 outbox
-3. Sync 通过 `/v1/workspaces/{workspaceId}/sync/push` 上传 changes
-4. Sync 通过 `/v1/workspaces/{workspaceId}/sync/pull` 下载 remote updates
-5. Local database 应用 changes 并推进 sync cursor
+1. iOS 应用先把数据写入本地 SQLite。
+2. 本地变更会进入待发送队列。
+3. 同步通过 `/v1/workspaces/{workspaceId}/sync/push` 上传变更。
+4. 同步通过 `/v1/workspaces/{workspaceId}/sync/pull` 拉取远端更新。
+5. 本地数据库应用这些变更，并推进同步游标。
 
-### External Agents
+### 外部代理
 
-1. Agents 从 `GET /v1/` 开始
-2. 第一阶段 OTP 在 `auth.<domain>` 上运行
-3. Agent 获得 long-lived API key
-4. Agent 加载 `/v1/agent/me`，列出 workspaces，必要时选择一个，然后使用 `/v1/agent/sql`
+1. 代理客户端从 `GET /v1/` 开始。
+2. OTP 引导流程在 `auth.<domain>` 上完成。
+3. 代理客户端会获得一个长期有效的 API 密钥。
+4. 代理客户端加载 `/v1/agent/me`，列出可用工作区，必要时选择其中一个，然后使用 `/v1/agent/sql`。
 
-## Scheduling
+## 调度
 
-Flashcards 使用 FSRS 作为 review scheduler。
+Flashcards 使用 FSRS 作为复习调度器。
 
-Implementation notes:
+实现说明：
 
-- Backend 与 iOS 保持对齐的 FSRS implementations
-- Web app 镜像 scheduling data contract，但不会再 ship 第三套 scheduler implementation
-- Workspace-level scheduler settings 包括 desired retention、learning steps、relearning steps、max interval 和 fuzz
-- Actual review timestamp 来自 `reviewedAtClient`
+- 后端和 iOS 保持两套相互镜像的 FSRS 实现
+- 网页应用会遵循同一份调度数据契约，但不会再额外内置第三套调度器实现
+- 工作区级别的调度设置包括 desired retention、learning steps、relearning steps、maximum interval 和 fuzz
+- 实际的复习时间戳来自 `reviewedAtClient`
 
-详细 contract 请参考 [main repository FSRS scheduling logic](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/docs/fsrs-scheduling-logic.md)。
+更详细的契约说明，请参阅 [FSRS scheduling logic in the main repository](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/docs/fsrs-scheduling-logic.md)。
 
-## Authentication
+## 认证
 
-- 通过 Cognito 提供 email OTP
-- Hosted web app 使用 shared-domain session cookies
-- `auth.<domain>` 上的 agent OTP bootstrap 会返回 long-lived ApiKey
-- `AUTH_MODE=none` 用于 local development
-- `AUTH_MODE=cognito` 用于 production-like auth
+- 通过 Cognito 提供邮箱 OTP 登录
+- 托管的网页应用使用跨子域共享的浏览器会话 cookie
+- `auth.<domain>` 上的代理客户端 OTP bootstrap 会返回长期有效的 ApiKey
+- `AUTH_MODE=none` 用于本地开发
+- `AUTH_MODE=cognito` 用于接近生产环境的认证方式
 
-## Deployment Shape
+## 部署形态
 
 - `app.<domain>` -> CloudFront + S3
 - `api.<domain>` -> API Gateway + Lambda backend
 - `auth.<domain>` -> API Gateway + Lambda auth service
-- Postgres on AWS RDS
+- Postgres 部署在 AWS RDS 上
 
-Root domain 可以保留为单独的 marketing site。如果在 bootstrap phase 中未使用，infrastructure 可以临时将其 redirect 到 `app.<domain>`。
+顶级域名可以继续保留给独立的营销网站使用。如果在初始部署阶段还未占用，基础设施也可以临时将其重定向到 `app.<domain>`。
