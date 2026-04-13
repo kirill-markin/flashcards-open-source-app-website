@@ -220,7 +220,7 @@ keywords:
 
 - デッキ: これはどの安定した領域に属するか
 - タグ: このカードについて他に何が言えるか
-- フィルタ: 今必要なのはどの部分集合か
+- 絞り込み: 今必要なのはどの部分集合か
 
 ## 構成が退屈なくらい安定しているほうが、FSRSはうまく働く
 
@@ -306,5 +306,5 @@ keywords:
 
 - [Flashcards を開く](https://flashcards-open-source-app.com/)
 - [アプリを開く](https://app.flashcards-open-source-app.com/)
-- [Getting Started ガイドを読む](https://flashcards-open-source-app.com/docs/getting-started/)
+- [スタートガイドを読む](https://flashcards-open-source-app.com/docs/getting-started/)
 - [GitHub でソースを見る](https://github.com/kirill-markin/flashcards-open-source-app)

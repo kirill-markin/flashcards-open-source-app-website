@@ -1,237 +1,237 @@
 ---
-title: "2026年、1日に何枚の新しい Flashcards を追加すべきか: 本当に終えられる FSRS review load を作る"
-description: "1日に何枚の新しい flashcards なら持続できるのか迷っていますか。2026年の実用ルールは、 ambition からではなく使える review time から考え、due reviews に溺れない daily new-card limit を設定することです。"
+title: "2026年、1日に何枚の新しいフラッシュカードを追加すべきか: 無理なく終えられるFSRSの復習量を作る"
+description: "1日に何枚の新しいフラッシュカードなら続けられるのか。2026年時点で実用的なのは、やる気ではなく使える復習時間から逆算して、復習待ちが破綻しない1日あたりの追加枚数を決めることです。"
 date: "2026-03-31"
 keywords:
-  - "how many new flashcards per day"
-  - "1日 何枚 flashcards"
-  - "how many anki cards per day"
-  - "daily flashcard limit"
-  - "flashcard burnout"
-  - "fsrs review load"
-  - "spaced repetition workload"
-  - "new cards per day"
+  - "1日に何枚 フラッシュカード"
+  - "フラッシュカード 1日 何枚"
+  - "Anki 1日 何枚"
+  - "フラッシュカード 追加枚数"
+  - "フラッシュカード 燃え尽き"
+  - "FSRS 復習量"
+  - "間隔反復 学習負荷"
+  - "新しいカード 1日 何枚"
 ---
 
-日曜の夜、AI に 1 章を 186 枚の flashcards に変えてもらいました。だいたい 2 分。かなり印象的でした。ただ、その 186 枚すべてと今後数週間にわたって再会し続ける自分を想像するまでは。妙に nerdy な wolves の群れを誤って飼い始めたような気分でした。
+日曜の夜、AI に 1 章分を 186 枚のフラッシュカードにしてもらいました。かかった時間は 2 分ほど。かなり印象的でした。ただ、その 186 枚すべてに今後数週間ずっと再会することを想像するまでは。うっかり、やたら勉強熱心なオオカミの群れを飼い始めたような気分になります。
 
-人が **how many new flashcards per day** と検索し始めるのは、たいていそのときです。
+人が「**1日に何枚の新しいフラッシュカードを追加すべきか**」と調べ始めるのは、たいていその瞬間です。
 
-もう generation が難しいからではありません。現実に review できる量を超えて cards を作ることが、危険なほど簡単になったからです。
+いまはカードを作ること自体が難しいからではありません。現実に復習できる量を超えて、カードを作りすぎることのほうが危険なくらい簡単だからです。
 
-## この質問は、数年前より 2026 年のほうが重要
+## この問いは、数年前より 2026 年のほうがずっと重い
 
-study tools は、source material を cards に変える能力がかなり上がっています。
+学習ツールは、元の資料をカードに変えるのがどんどん上手くなっています。
 
-NotebookLM は web と mobile の study workflows 全体で flashcards と quizzes を強く押し出しています。ChatGPT の study workflows も、source-based generation を普通のことにし続けています。PDF、notes、lecture recordings、雑多な study material を candidate cards に変えること自体は、もう簡単な側です。
+NotebookLM は web とモバイルの学習導線でフラッシュカードやクイズを強く押し出していますし、ChatGPT を使った学習フローでも、資料ベースのカード生成はかなり普通になりました。PDF、ノート、講義録音、雑多な学習資料をカード候補に変えること自体は、もう難しい側ではありません。
 
-それによって bottleneck が変わりました。
+そのせいで、ボトルネックが変わりました。
 
-bottleneck は、もう「十分に速く cards を作れるか」ではありません。
+もう問題は「十分な速さでカードを作れるか」ではありません。
 
-「この excitement が消えたあとも、deck を review し続けられるか」です。
+「最初の勢いが消えたあとも、そのデッキを復習し続けられるか」です。
 
-## 間違った答えは、たいてい「生成できるだけ全部」
+## 間違った答えは、たいてい「作れるだけ全部」
 
-私はこの失敗を、かなり予測可能な形で何度も見てきました。
+この失敗はかなり分かりやすい形で何度も起きます。
 
-新しい subject を始める。整理された気分になる。model が巨大な batch を draft する。deck は productive に見える。やがて daily reviews が現れ始め、全体が少し hostile になります。
+新しい科目を始める。ちゃんとしている気分になる。モデルが大量に下書きを出す。デッキが充実して見える。数日後から毎日の復習が増え始め、全体が少し敵対的に感じられる。
 
-だから **how many flashcards a day** は、「どれだけ速く deck を作れるか」より良い問いです。
+だから「**1日に何枚フラッシュカードを増やせるか**」という問いは、「どれだけ速くデッキを作れるか」よりずっと重要です。
 
-generation speed と review capacity は同じではありません。
+生成速度と復習できる量は、同じではありません。
 
-## new cards は一度きりの作業ではない
+## 新しいカードは、一度きりの作業ではない
 
-ここを人は過小評価します。
+ここを過小評価する人は多いです。
 
-1 枚の新しい flashcard は、1 回の review ではありません。
+新しいフラッシュカード 1 枚は、復習 1 回ではありません。
 
-それは次の集合です。
+そこには次のものが含まれます。
 
-- 今日の 1 回目の導入
+- 今日の最初の導入
 - そのすぐ後の再登場
-- difficulty に応じたその後の複数回 review
-- card が vague だったり broad だったり badly written だったりした場合の余分な friction
+- 難しさに応じた今後の複数回の復習
+- カードがあいまいだったり広すぎたり書き方が悪かったりした場合の余計な負担
 
-だから **how many Anki cards per day** を聞く人や、1 日に何枚の FSRS cards を足すべきかを聞く人の本当の問いは、今日の motivation ではなく future workload に関するものです。
+だから **Anki を 1 日に何枚増やすべきか**、あるいは FSRS で何枚追加すべきかという問いの本質は、今日のやる気ではなく、未来の復習量にあります。
 
-## ambition ではなく review time から始める
+## まずはやる気ではなく、復習に使える時間から決める
 
-私が最も信頼している rule はこれです。
+私がいちばん信頼しているルールは、これです。
 
-最初に new-card number を決めない。
+最初に追加枚数を決めない。
 
-まず、life が面倒で、work が忙しく、頭の中が cinematic study montage ではない通常の日に、現実的に review に使える時間を決める。
+先に、生活が面倒で、仕事が忙しく、頭が勉強モードに最適化されていない普通の日でも、現実的に復習へ使える時間を決める。
 
-その時間に収まる new-card limit を選ぶ。
+その時間に収まるように、1 日あたりの追加枚数を決める。
 
-多くの人にとって、それは望むより小さな数字から始めることを意味します。
+多くの人にとっては、やりたい枚数より小さく始めることになります。
 
-- topic が難しい、または schedule が詰まっているなら 1 日 5 〜 10 枚
-- すでに studying が stable habit なら 1 日 10 〜 20 枚
-- review time が本当に確保でき、card quality も高い場合だけ 1 日 20 枚超
+- 科目が難しい、あるいは予定が詰まっているなら 1 日 5 〜 10 枚
+- すでに復習が習慣になっているなら 1 日 10 〜 20 枚
+- 復習時間がきちんと確保でき、カードの質も高い場合だけ 1 日 20 枚超
 
-これは universal law ではありません。実用的な starting point です。
+これは絶対法則ではありません。実用的な出発点です。
 
-## 難しい subject と簡単な subject に同じ limit を使うべきではない
+## 難しい科目と簡単な科目で、同じ上限にしてはいけない
 
-ここで人は、deck を unfair に感じさせます。
+ここでデッキは不公平になります。
 
-なじみのある language の vocabulary cards 20 枚と、medicine の密度の高い cards 20 枚、law の definitions 20 枚、抽象的な technical concepts 20 枚は同じではありません。
+慣れた言語の単語カード 20 枚と、医学の密なカード 20 枚、法律の定義 20 枚、抽象的な技術概念 20 枚は同じではありません。
 
-daily limit は次を反映するべきです。
+1 日の上限は、次の条件を反映するべきです。
 
-- material の難しさ
-- 各 card にどれだけの cloze-like details が隠れているか
-- 外部でどれだけ別の study をしているか
-- cards が handwritten か AI-drafted か
-- first review でどれくらい miss するか
+- 教材そのものの難しさ
+- 1 枚のカードにどれだけ細かい要素が隠れているか
+- カード以外でどれだけ学習時間を使っているか
+- 手書きで作ったカードか、AI の下書きか
+- 初回復習でどれくらい取りこぼすか
 
-day one の時点で recall が muddy なら、その limit はすでに高すぎるか、cards が broad すぎます。
+初日の時点で思い出し方がぼんやりしているなら、その上限はすでに高すぎるか、カードが広すぎます。
 
-## AI-generated decks は overproduction をずっと簡単にする
+## AI で作ったデッキは、作りすぎを起こしやすい
 
-これが新しい failure mode です。
+これが新しい失敗パターンです。
 
-notes、PDF、videos、transcripts を AI で cards に変えていると、誘惑は明白です。もう 1 batch。もう 1 chapter。もう 1 upload。
+ノート、PDF、動画、文字起こしを AI でカードに変えていると、誘惑はとても分かりやすいです。もう 1 バッチ、もう 1 章、もう 1 回アップロードしたくなる。
 
-deck は review habit より速く成長します。
+デッキは、復習習慣より速く大きくなります。
 
-だから私は、card creation を frictionless に感じさせる workflow には慎重になるべきだと思います。friction は確かに annoying ですが、一部の friction は、自分で維持するつもりのなかった review queue を作ることから静かに守ってくれていました。
+だから私は、カード作成があまりに摩擦なく感じられるワークフローには慎重でいるべきだと思います。摩擦は面倒ですが、その面倒さが「本当は維持するつもりのなかった復習キュー」を静かに防いでいた面もあるからです。
 
-source material がまだ document の形なら、drafting 側には次の記事が役立ちます。
+元の資料がまだ文書のままなら、下書き側には次の記事も役立ちます。
 
-- [2026年、PDF を Flashcards に変える方法: lecture slides、textbooks、research papers を FSRS cards にする](https://flashcards-open-source-app.com/blog/how-to-turn-a-pdf-into-flashcards/)
-- [2026年、notes を Flashcards に変える方法: manual copy-paste の代わりに AI drafting と FSRS を使う](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
+- [2026年版 PDFをフラッシュカード化する方法: 講義スライド・教科書・論文からFSRS向けカードを作る](https://flashcards-open-source-app.com/blog/how-to-turn-a-pdf-into-flashcards/)
+- [2026年版 ノートをフラッシュカードに変える方法: 手作業のコピペではなく、AIの下書きとFSRSを使う](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
 
-## 自分の number を見つける practical な方法
+## 自分の上限を見つける実践的なやり方
 
-私は setup を plain に保ちます。
+やり方はシンプルで十分です。
 
-1. 2 週間続けられる daily review time を選ぶ
-2. 小さな new-card limit を設定する
-3. 数日後にどれだけ due reviews が出るかを見る
-4. queue がまだ easy なら増やす
-5. reviews を先延ばしし始めたら即座に減らす
+1. 2 週間は続けられる毎日の復習時間を決める
+2. 小さめの追加上限を設定する
+3. 数日後に復習待ちがどれだけ増えるかを見る
+4. キューがまだ楽なら少しだけ増やす
+5. 復習を先延ばしし始めたら、すぐに減らす
 
-最後の部分が重要です。
+最後の点はとても重要です。
 
-queue が annoying で reviews を飛ばしているなら、設定時にどれだけやる気があったとしても、本当の limit は今の number より低いです。
+キューがうっとうしくて復習を飛ばしているなら、設定時にどれだけやる気があったとしても、本当の上限は今の枚数より低いということです。
 
-## deck は heroic ではなく、少し boring に感じるべき
+## デッキは英雄的でなく、少し退屈なくらいがいい
 
-ここを人は過小評価しています。
+これは意外と大事です。
 
-最良の flashcard routine は、たいてい dramatic ではありません。stable です。
+最良のフラッシュカード習慣は、たいてい劇的ではありません。安定しています。
 
-毎回の study session が救助活動のように感じられるなら、system はすでに間違っています。
+毎回の学習セッションが救助活動のように感じるなら、その時点でシステムはどこか間違っています。
 
-daily review は、戦いの準備より歯磨きに近い感覚であるべきです。少し boring なのは良いことです。少し boring だから habit は生き残ります。
+毎日の復習は、戦いの準備より歯磨きに近い感覚であるべきです。少し退屈なくらいでちょうどいい。その退屈さがあるから、習慣は残ります。
 
-私が信頼する **daily flashcard limit** とはそういうものです。やる気に満ちた火曜日に一度だけ耐えられる maximum ではなく、何ひとつ最適化されていない日にでも続けられる量です。
+私が信頼する **1 日あたりの追加上限** とは、そういうものです。気合いの入った火曜日に一度だけ耐えられる最大値ではなく、何ひとつ理想的でない日でも続けられる量です。
 
-## FSRS は助けるが、bad intake rate は救えない
+## FSRS は助けになるが、入れすぎた量までは救えない
 
-FSRS は、review timing を sensible に感じさせる点で、古い spaced repetition systems より優れています。
+FSRS は、復習タイミングを自然に感じさせる点で、古い間隔反復システムより優れています。
 
-それは大きな助けになります。
+それは大きな助けです。
 
-でも、良い scheduler でも次のものは magically 直せません。
+ただし、優れたスケジューラでも次の問題は魔法のようには直せません。
 
-- new cards の入れすぎ
-- oversized answers
-- duplicate facts
-- vague wording
-- 最初からよく理解できていなかった cards
+- 新しいカードが多すぎる
+- 回答が長すぎる
+- 重複した事実が多い
+- 表現があいまい
+- そもそも十分に理解しないまま作ったカード
 
-ですから、scheduler は確かに重要です。
+だから、スケジューラは確かに重要です。
 
-でも、scheduler があるから unlimited card intake が serious な plan になるわけではありません。
+でも、スケジューラがあるからといって、無制限にカードを増やしていいわけではありません。
 
-scheduling comparison を直接見たいなら、こちらです。
+スケジューリングの比較を直接見たいなら、こちらの記事がより詳しいです。
 
-- [2026年の FSRS vs SM-2: どの spaced repetition algorithm がより多く覚えられるか](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [2026年のFSRSとSM-2を比較: より覚えやすい間隔反復アルゴリズムはどちらか](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
 
-## review backlog は、writing problem でもあることが多い
+## 復習がたまる原因は、カードの書き方にもある
 
-これは声に出して言う価値があります。
+ここは声に出して言っておく価値があります。
 
-問題が number ではないこともあります。cards 自体が annoying なのです。
+問題が枚数そのものではないこともあります。カード自体が扱いにくいのです。
 
-1 枚で 3 つの facts を聞いている。back に長い paragraph がある。もう覚えていない context に依存している。そういう card は、topic 以上に難しく感じられます。
+1 枚で 3 つの事実を聞いている。裏面に長い段落がある。もう覚えていない文脈に依存している。そういうカードは、内容以上にきつく感じられます。
 
-だから **new cards per day** の limit と card-writing discipline は一緒に考えるべきです。
+だから **1 日の追加上限** と **カードを書くときの厳しさ** はセットで考えるべきです。
 
-私は cards を厳格に保ちます。
+私はカードを次のように厳しく保ちます。
 
-- 1 枚につき 1 つの fact または concept
-- short answers
-- 飾りの phrasing はなし
-- 大きな copied paragraphs はなし
-- confusing な card が review 中に自然と明確になるはずだ、という期待はなし
+- 1 枚につき 1 つの事実または概念
+- 答えは短く
+- 飾った言い回しは使わない
+- 長いコピペ段落は入れない
+- 分かりにくいカードが復習の中で自然に分かりやすくなるはずだ、と期待しない
 
-deck が clean なら sustainable limit は上がります。
+デッキが整っていれば、無理なく回せる上限は上がります。
 
-deck が muddy なら、daily intake が少なくても rude に感じます。
+逆にデッキが濁っていると、少ない追加枚数でもすぐ失礼なくらい重く感じます。
 
-## 状況別に私がすすめる数字
+## 状況別に私がすすめる目安
 
-default は保守的にします。
+初期設定は保守的でいいと思います。
 
-| Situation | Starting limit |
+| 状況 | 開始時の目安 |
 |---|---|
-| 忙しい schedule、難しい subject | 1 日 5 〜 10 枚 |
-| 普通の schedule、妥当な card quality | 1 日 10 〜 20 枚 |
-| 専用の study block、simple cards、stable reviews | 1 日 20 〜 30 枚 |
+| 忙しい予定、難しい科目 | 1 日 5 〜 10 枚 |
+| 普通の予定、カードの質もまずまず | 1 日 10 〜 20 枚 |
+| 専用の学習時間があり、カードがシンプルで復習も安定 | 1 日 20 〜 30 枚 |
 
-これは starting point であって commandment ではありません。
+これは出発点であって、絶対の命令ではありません。
 
-reviews を一貫して楽に終えられているなら、ゆっくり上げる。
+楽に復習を終えられているなら、ゆっくり増やす。
 
-due cards が積み上がり始めているなら、ego が望むより速く下げる。
+復習待ちが積み上がり始めたら、自尊心が嫌がっても早めに減らす。
 
-## AI tools から real review へ cards を移すときは特に重要
+## AI ツールから本番の復習に移すときこそ重要
 
-今の workflow は、よくこうなります。
+最近のワークフローは、よくこうなります。
 
-1. NotebookLM や ChatGPT で candidate cards を生成する
+1. NotebookLM や ChatGPT でカード候補を作る
 2. それを手直しする
-3. spaced repetition app に移す
+3. 間隔反復アプリへ移す
 
-この bridge は役に立ちます。
+この橋渡し自体は有用です。
 
-でも aggressively に filter しなければ、**flashcard burnout** を起こすのに完璧な setup でもあります。
+ただ、厳しく選別しないと **フラッシュカード疲れ** を起こすのに最適な環境にもなります。
 
-AI が思いつけるすべての card を学ぶ必要はありません。
+AI が思いつけるカードを全部学ぶ必要はありません。
 
-必要なのは、material を十分に教えてくれる最小の deck です。
+必要なのは、教材を十分に理解するのに必要な最小限のデッキです。
 
-AI prompts から直接 cards を作っているなら、こちらも合います。
+AI プロンプトから直接カードを作っているなら、こちらも相性が良いです。
 
-- [2026年、ChatGPT を使って Flashcards を作る方法: prompt を良くし、cards を良くし、FSRS で review を良くする](https://flashcards-open-source-app.com/blog/how-to-use-chatgpt-to-make-flashcards/)
+- [2026年にChatGPTでフラッシュカードを作る方法: プロンプトを整え、カードを磨き、FSRSで復習を回す](https://flashcards-open-source-app.com/blog/how-to-use-chatgpt-to-make-flashcards/)
 
-## Flashcards がこの workflow により合う理由
+## Flashcards がこの流れに向いている理由
 
-[Flashcards](https://flashcards-open-source-app.com/) は、この workflow と相性が良いです。product が問題の両側をカバーしているからです。
+[Flashcards](https://flashcards-open-source-app.com/) は、このワークフローと相性が良いです。問題の両側を 1 つの製品で扱えるからです。
 
-- notes、PDF、その他 source から draft するための AI chat
-- cards を permanent にする前の front/back editing
-- deck が clean になったあとの FSRS review
-- reviews が 1 つの browser tab の機嫌に依存しない offline-first clients
+- ノート、PDF、その他の資料から下書きを作るための AI チャット
+- 本採用する前に表裏を整えるカード編集
+- デッキが整ったあとの FSRS 復習
+- 復習が 1 つのブラウザタブの機嫌に左右されにくいオフラインファーストのクライアント
 
-この組み合わせが重要なのは、**how many new flashcards per day** が scheduling question だけではなく workflow question でもあるからです。
+この組み合わせが効くのは、**1日に何枚の新しいフラッシュカードを追加すべきか** が、スケジューリングの問題であると同時に、ワークフローの問題でもあるからです。
 
-cards を作るのは簡単でも pruning が annoying なら、過剰に作り続けます。
+カードを作るのは簡単なのに、削るのが面倒なら、必ず作りすぎます。
 
-editing が簡単で review も believable なら、daily limit はずっと守りやすくなります。
+編集しやすく、復習の感触も信用できるなら、日々の上限はずっと守りやすくなります。
 
-## より良い rule
+## より良いルール
 
-deck を作っているときの ambition で new-card limit を決めないこと。
+デッキを作っている最中の勢いで、1 日の追加枚数を決めないこと。
 
-normal life が運べる review load で決めること。
+普通の生活が無理なく運べる復習量から決めること。
 
-これが 2026 年に私が信頼する **how many flashcards a day** の答えです。excitement が望むより少なく始め、cards を clean に保ち、due queue を正直に観察し、system がまだ calm だと確認できるときだけ増やす。
+これが、2026 年の「**1日に何枚のフラッシュカードを増やすべきか**」に対して私がいちばん信頼している答えです。気分が盛り上がっているときに思うより少なく始め、カードの質を保ち、復習待ちを正直に観察し、システムがまだ落ち着いていると確認できるときだけ増やす。
 
-そういう workflow が欲しいなら、[Flashcards](https://flashcards-open-source-app.com/) は practical な setup を与えてくれます。source material から draft し、aggressively に edit し、1 回の exciting な generation session を 1 か月分の backlog に変えないよう、FSRS で review できます。
+そういう流れを求めているなら、[Flashcards](https://flashcards-open-source-app.com/) は実用的です。資料から下書きを作り、しっかり編集し、1 回の盛り上がったカード生成セッションを 1 か月分の復習地獄に変えないよう、FSRS で学習を回せます。

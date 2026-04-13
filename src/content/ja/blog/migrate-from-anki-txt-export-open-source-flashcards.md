@@ -1,156 +1,156 @@
 ---
-title: "2026年、Anki から移行する方法: cards を TXT として export し、open-source flashcards app に送る"
-description: "deck を手で rebuild せずに Anki から migrate したい人向けの practical workflow です。cards を TXT で export し、その file を upload し、AI-assisted drafting と FSRS scheduling を備えた open-source flashcards app に移します。"
+title: "2026年版 Ankiから移行する方法: カードをTXTで書き出し、オープンソースのフラッシュカードアプリへ移す"
+description: "デッキを手作業で作り直さずにAnkiから移行したい人向けの実用的な手順です。カードをTXTで書き出し、そのファイルをアップロードし、AIで下書きしながらFSRS対応のオープンソースのフラッシュカードアプリへ移します。"
 date: "2026-03-13"
 keywords:
-  - "migrate from anki"
-  - "anki export txt"
-  - "anki alternative 2026"
-  - "open source flashcards"
-  - "fsrs flashcards"
-  - "anki txt export"
+  - "Ankiから移行する方法"
+  - "Anki TXT 書き出し"
+  - "Anki 代替 2026"
+  - "オープンソース フラッシュカード"
+  - "FSRS フラッシュカード"
+  - "Anki TXT エクスポート"
 ---
 
-多くの人は、2,000 枚の cards を hand で週末かけて rebuild せずに move できるなら、明日にでも Anki を離れると思います。
+多くの人は、2,000 枚のカードを週末じゅう手作業で作り直さずに済むなら、明日にでも Anki を離れたいはずです。
 
-trap はそこです。people をそこに留めているのは reviews ではありません。backlog です。
+問題はそこです。人をその場にとどめているのは復習そのものではありません。積み上がったデッキです。
 
-deck を months や years かけて作ると、mild な annoyance でも migration より cheaper に聞こえ始めます。だから **Anki alternative 2026** を扱う多くの記事は、real friction を外しています。
+デッキを何か月も、あるいは何年もかけて育てると、多少の不満があっても移行より安く見えてしまいます。だから **2026年のAnki代替アプリ** を扱う記事の多くは、本当の摩擦を外しています。
 
-本当の question は、weekend を manual data-entry project にせずに **migrate from Anki** できるかどうかです。
+本当に知りたいのは、週末を手入力の移行作業で潰さずに **Ankiから移行する方法** があるかどうかです。
 
-## そもそも people が Anki から移行したくなる理由
+## そもそも、なぜAnkiから移行したくなるのか
 
-Anki は still respect に値します。動くし、この category を定義した product のひとつです。huge な community があり、その周りに deep な study habits もあります。
+Anki は今でも十分に評価されるべき存在です。実際に動きますし、この分野を形作ってきた代表的なプロダクトのひとつです。大きなコミュニティがあり、その周りに強い学習習慣も育っています。
 
-people が離れるのは、spaced repetition が fail したからではありません。overall workflow が必要以上に old に feel し始めるからです。
+それでも人が離れたくなるのは、間隔反復そのものが役に立たなくなったからではありません。全体の使い勝手が、今の感覚では少し古く感じられるようになるからです。
 
-たいていは、次の mix です。
+理由はたいてい、次のような組み合わせです。
 
-- stubborn に feel する product experience
-- maintenance work に育った plugin habits
-- technical すぎる sync と setup
-- cleaner で modern な study flow への wish
+- 操作感がどこか重く感じる
+- プラグイン前提の運用が保守作業のようになっている
+- 同期や設定が必要以上に技術寄りに見える
+- もっとすっきりした今風の学習環境に移りたい
 
-これが、多くの **migrate from Anki** searches の honest starting point です。
+これが、多くの **Ankiから移行したい** という検索の正直な出発点です。
 
-## useful な migration path は、人が思うより simple
+## 役に立つ移行手順は、思っているよりずっとシンプル
 
-deck が mainly front-and-back text なら、grand migration tool は不要なことが多いです。plain な **Anki export TXT** workflow で十分 move し始められます。
+デッキが主に表裏のテキストでできているなら、大がかりな移行ツールがなくても進められることが多いです。素直な **Anki TXT 書き出し** の手順だけで、かなりのところまで移行できます。
 
-これが重要なのは、goal が old setup の every historical quirk を preserve することではないからです。still care している cards を keep し、明日 actually 開きたい study system に入れることが goal です。
+これが重要なのは、目的が昔の設定の細部を一字一句そのまま保存することではないからです。いまでも価値のあるカードを残し、明日から本当に開きたい学習システムへ移すことこそが目的です。
 
-私なら path はこうします。
+私なら、手順はこうします。
 
-1. 欲しい cards を Anki から text として export する
-2. obvious junk があれば clean にする
-3. `.txt` file を new app の AI chat に upload する
-4. assistant に、それを clean な flashcard drafts に変えさせる
-5. workspace に cards を create する前に result を review する
+1. 必要なカードを Anki からテキストとして書き出す
+2. 明らかな不要行があれば軽く整える
+3. `.txt` ファイルを新しいアプリの AI チャットにアップロードする
+4. アシスタントに、読みやすい表裏カードの下書きへ変換させる
+5. ワークスペースにカードを作成する前に内容を確認する
 
-one-click importer ではありません。
+ワンクリックのインポーターではありません。
 
-でも dedicated migration が magical であるふりをするより、ずっと realistic です。
+でも、専用移行ツールが魔法のように全部解決してくれるふりをするより、ずっと現実的です。
 
-## Anki TXT export が helpful な理由
+## AnkiのTXT書き出しが役に立つ理由
 
-**Anki export TXT** の nice なところは、portable なものをくれる点です。deck が text になれば、1 product の exact interface の中に trapped ではなくなります。
+**Anki TXT 書き出し** の良いところは、持ち運べる形になることです。デッキがテキストになれば、ひとつのプロダクト固有の画面の中に閉じ込められた状態ではなくなります。
 
-もちろん every field、add-on、custom workflow が perfectly survive するわけではありません。heavy templates、media rules、plugin-specific behavior に strongly depend しているなら、some cleanup は覚悟するべきです。
+もちろん、すべてのフィールド、アドオン、独自運用が完全にそのまま残るわけではありません。複雑なテンプレート、メディアの扱い、プラグイン固有の挙動に強く依存しているなら、ある程度の調整は必要です。
 
-でも normal な front/back decks の多くでは、text export が enough structure になります。honestly、そこが bigger win です。
+それでも、一般的な表裏カードのデッキなら、テキスト書き出しで十分な構造が残ることが多いです。そこが一番大きな利点です。
 
-migration は、「museum-grade preservation of every old detail」を求めるのをやめると easier になります。
+移行は、「昔の細部を博物館レベルで保存すること」にこだわりすぎないほうが、ずっと進めやすくなります。
 
-## TXT file を upload して repetitive part は assistant にやらせる
+## TXTファイルをアップロードして、反復作業はアシスタントに任せる
 
-ここで [Flashcards](https://flashcards-open-source-app.com/) は、static な **Anki alternative 2026** comparison より interesting になります。web app はすでに AI chat で text file attachments を support しています。`.txt` file を upload して、それを基に flashcards を draft するよう assistant に頼めます。
+ここで [Flashcards](https://flashcards-open-source-app.com/) は、静的な **2026年のAnki代替アプリ比較** より実用的に見えてきます。WebアプリにはすでにAIチャットがあり、テキストファイルの添付に対応しています。`.txt` ファイルをアップロードして、それをもとにフラッシュカードの下書きを頼めます。
 
-これで workflow が practical に変わります。cards を one by one で copy する代わりに、exported text を assistant に渡し、normal human language でこう言えます。
+このおかげで、移行の手順はかなり現実的になります。カードを1枚ずつコピーし直す代わりに、書き出したテキストをアシスタントに渡して、自然な日本語でこう頼めます。
 
-- turn this export into front/back cards
-- keep only Spanish verbs
-- split long answers into smaller cards
-- export に tags が clearly 入っていれば preserve する
-- 何か apply する前に draft を見せる
+- この書き出しデータを表裏カードに変えて
+- スペイン語の動詞だけ残して
+- 長い答えは小さなカードに分けて
+- 書き出しデータにタグがはっきり入っていれば残して
+- 適用する前に下書きを見せて
 
-importer language ではなく human language でです。
+インポーター専用の言い回しではなく、普段の言葉で頼めるわけです。
 
-この kind の workflow のほうが、ずっと trust しやすい。
+こういう手順のほうが、ずっと信頼しやすいです。
 
-2 つの apps を side by side に開いて manual rebuild するより、ずっと better migration experience です。
+2つのアプリを並べて開き、手で作り直すよりはるかにましな移行体験になります。
 
-## fake "smart import" より AI-assisted drafting を prefer する理由
+## 見せかけの「賢いインポート」より、AIの下書きを選ぶ理由
 
-promise が大きすぎる migration tools は私は trust しません。"smart import" という phrase は、たいてい 2 つの bad things のどちらかです。
+話を大きく見せすぎる移行ツールを、私はあまり信用していません。「スマートインポート」という言葉は、たいてい次のどちらかを意味します。
 
-- product が silently guess して details を間違える
-- 実際以上の compatibility を claim する
+- プロダクトが勝手に推測して細部を間違える
+- 実際以上の互換性をうたう
 
-私は explicit な workflow のほうがいい。file を upload する。assistant が読む。cards を draft する。何を理解したかを自分で review する。その上で、workspace に何を create するかを決める。
+私は、手順が明示的なほうが好きです。ファイルをアップロードする。アシスタントが読む。カードを下書きする。何をどう理解したかを自分で確認する。そのうえで、ワークスペースに何を作るかを決める。
 
-marketing language と比べれば slower に聞こえます。
+派手な宣伝文句に比べれば、少し地味に聞こえるかもしれません。
 
-でも manual recreation より faster で、dedicated importer がないのにあるふりをするより honest です。
+それでも、手作業で再作成するより速く、専用インポーターがないのにあるふりをするより正直です。
 
-## cards が Flashcards に入ったあと何が起こるか
+## カードをFlashcardsに移したあとに何が変わるか
 
-destination が十分に better でなければ、migration に意味はありません。ここで **FSRS flashcards** が story に入ります。
+移行先が十分によくなければ、移行する意味はありません。ここで **FSRSで学べるフラッシュカード** が重要になります。
 
-Flashcards は older SM-2-style defaults ではなく FSRS を中心に作られています。modern study tool に期待したい direction そのものです。longer version は、すでに [2026年の FSRS vs SM-2: どの spaced repetition algorithm がより多く覚えられるか](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/) にあります。
+Flashcards は、古いSM-2系の既定値ではなく、FSRSを中心に作られています。いまの学習ツールに期待したい方向性そのものです。詳しくは、すでに [2026年の FSRS vs SM-2: どの間隔反復アルゴリズムがより多く覚えられるか](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/) で説明されています。
 
-practical に言えば、upgrade は「Anki から出る」だけではありません。次のような system に landing することでもあります。
+実際の価値は、単に「Ankiから出る」ことだけではありません。次のような環境へ着地できることでもあります。
 
-- stronger modern default に沿った review scheduling
-- cleaner な product direction
-- open-source architecture
-- self-hosting という option が still on the table
+- より現代的な既定値に基づく復習スケジューリング
+- すっきりしたプロダクト設計
+- オープンソースの構成
+- セルフホストという選択肢も残っていること
 
-これは、same old workflow の cosmetic redesign より interesting です。
+これは、昔の運用を見た目だけ少し変えたものより、ずっと意味があります。
 
-## この migration path が向いているケース
+## この移行手順が向いているケース
 
-この approach が good fit なのは次のようなときです。
+このやり方が向いているのは、たとえば次のような場合です。
 
-- cards が mostly text
-- old implementation detail の every one ではなく useful content を keep したい
-- final cards を create する前に drafts を review するのに抵抗がない
-- more transparent direction を持つ **open source flashcards** app を求めている
+- カードの大半がテキスト中心
+- 昔の実装の細部すべてではなく、有用な中身を残したい
+- 最終的なカードを作る前に下書きを確認することに抵抗がない
+- 方向性が分かりやすい **オープンソースのフラッシュカードアプリ** を求めている
 
-逆に弱い fit なのは、specialized な Anki add-ons、complex templates、exact preservation を必要とする media-heavy cards に strongly depend している場合です。method の flaw ではありません。honest な boundary です。
+逆に向きにくいのは、特殊なAnkiアドオン、複雑なテンプレート、完全な再現が必要な画像・音声中心のカードに強く依存している場合です。これは方法の欠点というより、正直な適用範囲です。
 
-## everything を rebuild せずに Anki から practical に移る方法
+## 全部を作り直さずに、Ankiから実用的に移る方法
 
-今日やるなら、process は boring に保ちます。export、upload、review、create、そのあと continue studying。
+今日やるなら、流れはあえて地味に保ちます。書き出す、アップロードする、確認する、作成する、そのあと学習を続ける。
 
-それこそが good **migrate from Anki** workflow の real value です。perfect historical fidelity ではなく momentum。
+それこそが、良い **Ankiからの移行手順** の本当の価値です。完璧な過去の再現ではなく、学習を止めないことです。
 
-deck が cleaner な system に入れば、daily experience のほうが migration story より重要になります。
+デッキがよりすっきりした環境に入れば、移行そのものの物語より、毎日の使い心地のほうが重要になります。
 
-## 2026 年の real Anki alternative である理由
+## 2026年に、これが本当にAnki代替になる理由
 
-多くの **Anki alternative 2026** posts は、decision を feature matrix として扱います。
+多くの **2026年のAnki代替アプリ** 記事は、判断を機能比較表として扱います。
 
-私はもっと useful な question は simpler だと思います。existing cards を nonsense なしで move するのを助けてくれるか。そして move したあと、actually 使いたくなるか。
+でも、もっと実用的な問いはシンプルです。既存のカードを無理なく移せるか。そして移したあと、本当に使い続けたくなるか。
 
-text-based decks に対して、Flashcards には pretty defensible な answer があります。
+テキスト中心のデッキに対して、Flashcards はかなり筋の通った答えを持っています。
 
-- Anki から text として export する
-- file を AI chat に upload する
-- flashcard drafts を頼む
-- apply 前に review する
-- そのあと open-source product で FSRS scheduling を続ける
+- Ankiからテキストとして書き出す
+- ファイルをAIチャットにアップロードする
+- フラッシュカードの下書きを頼む
+- 適用前に確認する
+- そのあとオープンソースのプロダクトでFSRS復習を続ける
 
-flashy ではありません。
+派手さはありません。
 
-でも migration に必要なのは practical さです。
+でも、移行に必要なのは実用性です。
 
-## Anki を leaving したいが starting over はしたくないなら
+## Ankiを離れたいが、最初からやり直したくないなら
 
-**migrate from Anki** したいなら、safest で honest な path は deck を sacred UI state ではなく portable text として扱うことです。
+**Ankiから移行したい** なら、いちばん安全で正直なやり方は、デッキを特定UIの中に閉じた状態としてではなく、持ち運べるテキストとして扱うことです。
 
-cards を export する。`.txt` file を upload する。repetitive part は assistant に手伝わせる。drafts を review する。そのあと、more current に feel する product で study を続ける。
+カードを書き出す。`.txt` ファイルをアップロードする。反復作業はアシスタントに手伝ってもらう。下書きを確認する。そのあと、いまの感覚に合ったプロダクトで学習を続ける。
 
-これが、2026 年の **Anki export TXT** workflow に対して私が think する more useful な approach の 1 つです。
+これが、2026年の **Anki TXT 書き出し** を使う移行手順として、私がいちばん実用的だと思うやり方のひとつです。
 
-[Flashcards](https://flashcards-open-source-app.com/) は、magical one-click importer や dedicated Anki migration utility のふりはしません。でもこの job にとっては、それより better kind の tool です。realistic な migration path と、move 後の stronger landing place をくれる **open source flashcards** app です。
+[Flashcards](https://flashcards-open-source-app.com/) は、魔法のワンクリックインポーターや専用のAnki移行ユーティリティのふりはしません。でも、この用途にはそのほうが合っています。現実的な移行手順と、移行後にしっかり学習を続けられる着地点を用意してくれる **オープンソースのフラッシュカードアプリ** です。
