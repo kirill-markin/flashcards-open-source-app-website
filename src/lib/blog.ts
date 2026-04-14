@@ -3,7 +3,8 @@ import matter from "gray-matter";
 import { hasTranslatedBlogPostSlug } from "@/data/blog";
 import { renderMarkdownToHtml } from "@/lib/content/renderMarkdownToHtml";
 import { getBlogDirectory, getBlogFilePath } from "@/lib/content/paths";
-import type { AppLocale } from "@/lib/i18n";
+import { getAbsoluteUrl, type AppLocale } from "@/lib/i18n";
+import { OPEN_GRAPH_IMAGE_URL } from "@/lib/site";
 
 const DEFAULT_BLOG_LOCALE: AppLocale = "en";
 const TITLE_TOKEN_WEIGHT = 3;
@@ -173,6 +174,8 @@ interface BlogFrontmatterInput {
   readonly title?: unknown;
   readonly description?: unknown;
   readonly date?: unknown;
+  readonly image?: unknown;
+  readonly updated?: unknown;
 }
 
 export interface BlogPostRecord {
@@ -180,6 +183,8 @@ export interface BlogPostRecord {
   readonly title: string;
   readonly description: string;
   readonly date: string;
+  readonly image?: string;
+  readonly updated?: string;
   readonly publishedAt: number;
   readonly bodyMarkdown: string;
 }
@@ -221,6 +226,18 @@ function assertNonEmptyString(
   return value.trim();
 }
 
+function readOptionalString(
+  value: unknown,
+  fieldName: string,
+  filePath: string
+): string | undefined {
+  if (value === undefined) {
+    return undefined;
+  }
+
+  return assertNonEmptyString(value, fieldName, filePath);
+}
+
 function parsePublishedAt(date: string, filePath: string): number {
   const publishedAt = Date.parse(date);
 
@@ -229,6 +246,38 @@ function parsePublishedAt(date: string, filePath: string): number {
   }
 
   return publishedAt;
+}
+
+function parseUpdatedAt(date: string, filePath: string): string {
+  const updatedAt = Date.parse(date);
+
+  if (Number.isNaN(updatedAt)) {
+    throw new Error(`Invalid blog updated date in ${filePath}: ${date}`);
+  }
+
+  return date;
+}
+
+function parseBlogImage(image: string, filePath: string): string {
+  if (image.startsWith("/")) {
+    return image;
+  }
+
+  try {
+    const url = new URL(image);
+
+    if (url.protocol === "http:" || url.protocol === "https:") {
+      return url.toString();
+    }
+  } catch {
+    throw new Error(
+      `Invalid blog image in ${filePath}: expected an absolute URL or root-relative path`
+    );
+  }
+
+  throw new Error(
+    `Invalid blog image in ${filePath}: expected an absolute URL or root-relative path`
+  );
 }
 
 function getSlugFromFileName(fileName: string): string {
@@ -247,13 +296,30 @@ function parseBlogPost(locale: AppLocale, fileName: string): BlogPostRecord {
     filePath
   );
   const date = assertNonEmptyString(frontmatter.date, "date", filePath);
+  const updated = readOptionalString(frontmatter.updated, "updated", filePath);
+  const image = readOptionalString(frontmatter.image, "image", filePath);
+  const publishedAt = parsePublishedAt(date, filePath);
+  const parsedUpdated = updated === undefined
+    ? undefined
+    : parseUpdatedAt(updated, filePath);
+
+  if (
+    parsedUpdated !== undefined &&
+    Date.parse(parsedUpdated) < publishedAt
+  ) {
+    throw new Error(
+      `Invalid blog updated date in ${filePath}: updated must be on or after date`
+    );
+  }
 
   return {
     slug: getSlugFromFileName(fileName),
     title,
     description,
     date,
-    publishedAt: parsePublishedAt(date, filePath),
+    image: image === undefined ? undefined : parseBlogImage(image, filePath),
+    updated: parsedUpdated,
+    publishedAt,
     bodyMarkdown: content,
   };
 }
@@ -711,6 +777,18 @@ export function readBlogPost(
   slug: string
 ): BlogPostRecord | null {
   return loadBlogPosts(locale).find((post) => post.slug === slug) ?? null;
+}
+
+export function getBlogPostImageUrl(post: BlogPostRecord): string {
+  if (post.image === undefined) {
+    return OPEN_GRAPH_IMAGE_URL;
+  }
+
+  if (post.image.startsWith("/")) {
+    return getAbsoluteUrl(post.image);
+  }
+
+  return post.image;
 }
 
 export async function readBlogPostContent(

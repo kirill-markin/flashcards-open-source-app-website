@@ -2,6 +2,7 @@ import Link from "next/link";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { SiteFrame } from "@/components/SiteFrame";
 import {
+  getBlogPostImageUrl,
   getRecommendedBlogPosts,
   readBlogPost,
 } from "@/lib/blog";
@@ -33,6 +34,32 @@ const ARTICLE_AUTHOR: ArticleAuthor = {
   url: AUTHOR_URL,
 };
 
+interface ArticlePublisher {
+  readonly "@type": "Organization";
+  readonly name: string;
+  readonly url: string;
+}
+
+interface ArticleMainEntityOfPage {
+  readonly "@type": "WebPage";
+  readonly "@id": string;
+}
+
+interface BlogPostingSchema {
+  readonly "@context": "https://schema.org";
+  readonly "@type": "BlogPosting";
+  readonly author: ArticleAuthor;
+  readonly dateModified?: string;
+  readonly datePublished: string;
+  readonly description: string;
+  readonly headline: string;
+  readonly image: string;
+  readonly inLanguage: AppLocale;
+  readonly mainEntityOfPage: ArticleMainEntityOfPage;
+  readonly publisher: ArticlePublisher;
+  readonly url: string;
+}
+
 export async function BlogPostPageView({
   locale,
   slug,
@@ -55,14 +82,22 @@ export async function BlogPostPageView({
     );
   }
 
-  const articleSchema = {
+  const articleUrl = getAbsoluteUrl(getLocalizedPathname(locale, `/blog/${slug}/`));
+  const articleImageUrl = getBlogPostImageUrl(post);
+  const articleSchema: BlogPostingSchema = {
     "@context": "https://schema.org",
-    "@type": "Article",
+    "@type": "BlogPosting",
     headline: post.title,
     description: post.description,
     datePublished: post.date,
+    dateModified: post.updated,
+    image: articleImageUrl,
     inLanguage: locale,
-    url: getAbsoluteUrl(getLocalizedPathname(locale, `/blog/${slug}/`)),
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": articleUrl,
+    },
+    url: articleUrl,
     author: ARTICLE_AUTHOR,
     publisher: {
       "@type": "Organization",
@@ -82,7 +117,7 @@ export async function BlogPostPageView({
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
         />
-        <section className={styles.intro}>
+        <header className={styles.intro}>
           <Breadcrumbs
             items={[
               {
@@ -96,12 +131,19 @@ export async function BlogPostPageView({
             ]}
             locale={locale}
           />
-          <time className={styles.date}>{post.date}</time>
-          <a href={AUTHOR_URL} className={styles.byline}>
-            {uiCopy.blog.byPrefix} {AUTHOR_NAME}
-          </a>
+          <div className={styles.meta} aria-label="Article metadata">
+            <time className={styles.date} dateTime={post.date}>
+              {post.date}
+            </time>
+            <p className={styles.byline}>
+              <span>{uiCopy.blog.byPrefix} </span>
+              <a href={AUTHOR_URL} rel="author">
+                {AUTHOR_NAME}
+              </a>
+            </p>
+          </div>
           <h1 className={styles.title}>{post.title}</h1>
-        </section>
+        </header>
         <section className={styles.contentPanel}>
           <div
             className={styles.content}
@@ -118,7 +160,9 @@ export async function BlogPostPageView({
                   href={getLocalizedPathname(locale, `/blog/${recommendedPost.slug}/`)}
                   className={styles.relatedCard}
                 >
-                  <time className={styles.date}>{recommendedPost.date}</time>
+                  <time className={styles.date} dateTime={recommendedPost.date}>
+                    {recommendedPost.date}
+                  </time>
                   <h3>{recommendedPost.title}</h3>
                   <p className={styles.relatedDescription}>
                     {recommendedPost.description}

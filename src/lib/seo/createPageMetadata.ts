@@ -18,10 +18,13 @@ type OpenGraphType = "website" | "article";
 interface CreatePageMetadataParams {
   readonly description: string;
   readonly locale: AppLocale;
+  readonly modifiedTime?: string;
   readonly openGraphType: OpenGraphType;
+  readonly openGraphImageUrl?: string;
   readonly publishedTime?: string;
   readonly routePathname: string;
   readonly title: string;
+  readonly twitterImageUrl?: string;
 }
 
 export function createPageMetadata(
@@ -34,6 +37,9 @@ export function createPageMetadata(
   const pageUrl = getAbsoluteUrl(localizedPathname);
   const markdownUrl = getAbsoluteUrl(getMarkdownPathname(localizedPathname));
   const alternatesLanguages = getLanguageAlternates(params.routePathname);
+  const openGraphImageUrl = params.openGraphImageUrl ?? OPEN_GRAPH_IMAGE_URL;
+  const twitterImageUrl =
+    params.twitterImageUrl ?? params.openGraphImageUrl ?? TWITTER_IMAGE_URL;
 
   return {
     title: params.title,
@@ -52,16 +58,17 @@ export function createPageMetadata(
       description: params.description,
       images: [
         {
-          url: OPEN_GRAPH_IMAGE_URL,
+          url: openGraphImageUrl,
         },
       ],
+      modifiedTime: params.modifiedTime,
       publishedTime: params.publishedTime,
     },
     twitter: {
       card: "summary_large_image",
       title: params.title,
       description: params.description,
-      images: [TWITTER_IMAGE_URL],
+      images: [twitterImageUrl],
     },
   };
 }
