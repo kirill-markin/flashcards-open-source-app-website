@@ -14,6 +14,7 @@ import type {
   PricingTiersSection,
 } from "@/lib/content/types";
 import type { AppLocale } from "@/lib/i18n";
+import { getHomeShowcaseImagePath } from "@/lib/homeShowcaseImage";
 import { getUiCopy } from "@/lib/uiCopy";
 import homeStyles from "@/app/page.module.css";
 import featureStyles from "@/app/features/page.module.css";
@@ -105,7 +106,7 @@ function renderHomePage(
         </p>
         <div className={homeStyles.appShowcaseFrame}>
           <Image
-            src="/home/app-screens-showcase.png"
+            src={getHomeShowcaseImagePath(locale)}
             alt={uiCopy.home.appPreviewAlt}
             width={5736}
             height={3018}
