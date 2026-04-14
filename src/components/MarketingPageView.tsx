@@ -105,10 +105,10 @@ function renderHomePage(
         </p>
         <div className={homeStyles.appShowcaseFrame}>
           <Image
-            src="/home/app-screens-showcase.jpg"
+            src="/home/app-screens-showcase.png"
             alt={uiCopy.home.appPreviewAlt}
-            width={8452}
-            height={2889}
+            width={5736}
+            height={3018}
             priority
             sizes="(max-width: 768px) calc(100vw - 28px), (max-width: 1280px) calc(100vw - 40px), 1240px"
             className={homeStyles.appShowcaseImage}
