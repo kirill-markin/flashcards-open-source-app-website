@@ -1,111 +1,110 @@
 ---
-title: "Cómo convertir una guía de estudio en Flashcards en 2026: de guías de estudio de IA y paquetes de clases a tarjetas FSRS"
-description: "¿Quieres convertir una guía de estudio en tarjetas didácticas en 2026? Aquí hay un flujo de trabajo práctico para guías de estudio de IA, folletos para profesores, paquetes de exámenes y hojas de revisión utilizando redacción de IA más revisión FSRS."
+title: "Cómo convertir una guía de estudio en tarjetas de estudio en 2026: de las guías creadas con IA y los apuntes de clase a tarjetas con FSRS"
+description: "¿Quieres convertir una guía de estudio en tarjetas de estudio en 2026? Aquí tienes un flujo de trabajo práctico para guías creadas con IA, materiales del profesor, paquetes de examen y hojas de repaso usando borradores con IA y repaso con FSRS."
 date: "2026-04-12"
 keywords:
-  - "guía de estudio para tarjetas didácticas"
-  - "cómo convertir una guía de estudio en tarjetas didácticas"
-  - "Tarjetas didácticas de la guía de estudio de IA"
-  - "tarjetas didácticas de la guía de estudio del examen"
-  - "guía de estudio de clase para tarjetas didácticas"
-  - "paquete de estudio a tarjetas didácticas"
-  - "guía de revisión de tarjetas didácticas"
-  - "guía de estudio en tarjetas didácticas"
+  - "pasar una guía de estudio a tarjetas de estudio"
+  - "cómo convertir una guía de estudio en tarjetas de estudio"
+  - "crear tarjetas de estudio a partir de una guía con IA"
+  - "crear tarjetas de estudio a partir de una guía de examen"
+  - "convertir una guía de clase en tarjetas de estudio"
+  - "convertir un paquete de estudio en tarjetas de estudio"
+  - "convertir una guía de repaso en tarjetas de estudio"
+  - "convertir una guía de estudio en tarjetas de estudio"
 ---
 
-
-Ayer abrí una guía de estudio que se suponía simplificaría la semana de exámenes e inmediatamente me encontré con el problema habitual: doce páginas, cuatro títulos que por sí solos no significaban nada y una lista con viñetas claramente escrita por alguien que confiaba en mí para recordar más de lo que realmente recuerdo. Generalmente es entonces cuando la gente comienza a buscar **guía de estudio de tarjetas didácticas**.
+Ayer abrí una guía de estudio que, en teoría, iba a hacer más llevadera la semana de exámenes y me encontré con el problema de siempre: doce páginas, cuatro títulos que por sí solos no decían nada y una lista con viñetas escrita por alguien que claramente confiaba en que yo recordara más de lo que de verdad recordaba. Ese suele ser el momento en que la gente empieza a buscar **pasar una guía de estudio a tarjetas de estudio**.
 
 No porque la guía de estudio sea inútil.
 
-Generalmente es todo lo contrario.
+Normalmente pasa justo lo contrario.
 
-Una buena guía ya hizo parte del trabajo duro:
+Una buena guía ya hizo parte del trabajo difícil:
 
-- redujo el alcance
-- agrupó el tema
-- insinuó lo que realmente le importa al profesor o al examen
+- acotó el temario
+- agrupó el contenido
+- dejó entrever qué le importa de verdad al profesor o al examen
 
-El problema es que una guía de estudio todavía no es un sistema de revisión.
+El problema es que una guía de estudio todavía no es un sistema de repaso.
 
 Es un mapa.
 
-Aún necesitas convertir ese mapa en una recuperación.
+Todavía tienes que convertir ese mapa en recuerdo activo.
 
-Es por eso que **cómo convertir una guía de estudio en tarjetas didácticas** es una pregunta separada de simplemente cargar notas o copiar un PDF.
+Por eso **cómo convertir una guía de estudio en tarjetas de estudio** es una pregunta distinta a simplemente subir apuntes o copiar un PDF.
 
-## Las guías de estudio se volvieron más comunes porque la IA hizo que fuera más fácil generarlas
+## Las guías de estudio se hicieron más comunes porque la IA facilitó su creación
 
-Ésta es una de las razones por las que me gusta el tema ahora.
+Esa es una de las razones por las que ahora me interesa tanto el tema.
 
-Los estudiantes ya no se enfrentan únicamente a paquetes de revisión elaborados por los profesores.
+Los estudiantes ya no lidian solo con hojas de repaso hechas por el profesor.
 
 Ahora el montón también incluye:
 
-- Guías de estudio generadas por IA
+- guías de estudio generadas con IA
 - resúmenes de tutoría
 - hojas de repaso de clase
-- Documentos colaborativos convertidos en un paquete condensado.
-- Herramientas de prueba que generan esquemas antes de generar preguntas de práctica.
+- documentos colaborativos convertidos en un único paquete resumido
+- herramientas de cuestionarios que generan esquemas antes de generar preguntas de práctica
 
 Eso es útil.
 
-También crea un nuevo problema.
+También crea un problema nuevo.
 
-El material comprimido todavía necesita un flujo de trabajo de memoria a largo plazo.
+El material condensado sigue necesitando un flujo de trabajo para la memoria a largo plazo.
 
-Ahí es exactamente donde tienen sentido las **tarjetas didácticas de la guía de estudio de IA**.
+Ahí es donde **crear tarjetas de estudio a partir de una guía con IA** sí tiene sentido.
 
-La guía le ayuda a decidir lo que importa.
+La guía te ayuda a decidir qué importa.
 
-Las tarjetas didácticas aseguran que seguirá siendo importante la próxima semana.
+Las tarjetas hacen que siga importando la semana que viene.
 
-## Una guía de estudio ya está comprimida, por lo que las tarjetas malas se ponen feas rápidamente
+## Una guía de estudio ya está condensada, así que las malas tarjetas se notan enseguida
 
 Esto es lo primero que tendría en cuenta.
 
-Si pega un capítulo de un libro de texto en AI, el trabajo de limpieza consiste principalmente en compresión.
+Si pegas un capítulo de libro en una IA, el trabajo de limpieza consiste sobre todo en comprimir.
 
-Si pega una guía de estudio en AI, el trabajo de limpieza suele ser una cuestión de precisión.
+Si pegas una guía de estudio en una IA, el trabajo de limpieza suele consistir en ganar precisión.
 
-El material ya ha sido acortado una vez.
+El material ya se ha acortado una vez.
 
-Eso significa que las opciones de conversión débiles aparecen más rápido:
+Eso hace que las malas decisiones de conversión se noten antes:
 
 - frentes vagos
-- títulos que son demasiado amplios para responder claramente
-- respaldos gigantes que recrean todo el folleto
-- múltiples hechos escondidos dentro de una tarjeta
-- pistas obvias copiadas directamente de la redacción de la guía
+- títulos demasiado amplios para responderlos bien
+- reversos gigantes que reconstruyen todo el folleto
+- varias ideas escondidas dentro de una sola tarjeta
+- pistas demasiado obvias copiadas tal cual de la guía
 
-Es por eso que **la guía de estudio en tarjetas didácticas** generalmente funciona mejor cuando se divide la guía en objetivos de recuperación más pequeños en lugar de preservar la estructura de la guía de manera demasiado literal.
+Por eso **convertir una guía de estudio en tarjetas de estudio** suele funcionar mejor cuando divides la guía en objetivos de recuerdo más pequeños, en lugar de conservar su estructura de forma demasiado literal.
 
-## No todos los puntos merecen su propia tarjeta
+## No todas las viñetas merecen su propia tarjeta
 
-Aquí es donde la gente construye silenciosamente mazos horribles.
+Aquí es donde mucha gente acaba montando mazos horribles sin darse cuenta.
 
 Una guía de estudio suele contener:
 
 - encabezados
-- subtítulos
+- subencabezados
 - listas de vocabulario
-- indicaciones de comparación y contraste
+- preguntas de comparación y contraste
 - secuencias
-- probables temas de ensayo
+- posibles temas de ensayo
 - fórmulas
 - excepciones
 
-No todas deberían convertirse en el mismo tipo de tarjeta didáctica.
+No todo eso debería convertirse en el mismo tipo de tarjeta.
 
-Primero los ordenaría por forma de recuerdo.
+Yo lo ordenaría primero por tipo de recuerdo.
 
-## Cuatro tipos de tarjetas cubren la mayoría de las guías de estudio.
+## Cuatro tipos de tarjetas cubren la mayoría de las guías de estudio
 
 Este es el filtro en el que más confío.
 
-### 1. Tarjetas informativas
+### 1. Tarjetas de hechos
 
-Utilícelos cuando la guía esté probando un conocimiento directo.
+Úsalas cuando la guía esté comprobando una pieza concreta de conocimiento.
 
 Ejemplos:
 
@@ -115,7 +114,7 @@ Ejemplos:
 
 ### 2. Tarjetas de distinción
 
-Úsalos cuando la guía realmente te pida que no confundas dos cosas similares.
+Úsalas cuando la guía en realidad te está pidiendo que no confundas dos cosas parecidas.
 
 Ejemplos:
 
@@ -125,204 +124,204 @@ Ejemplos:
 
 ### 3. Tarjetas de secuencia
 
-Utilícelos cuando la guía enseñe orden, flujo o proceso.
+Úsalas cuando la guía enseña orden, flujo o proceso.
 
 Ejemplos:
 
-- ¿Qué viene inmediatamente después de la glucólisis?
-- En el ciclo cardíaco, ¿qué sucede después del llenado ventricular?
-- ¿Qué etapa sigue en el proceso de entrega de software?
+- ¿Qué viene justo después de la glucólisis?
+- En el ciclo cardíaco, ¿qué ocurre después del llenado ventricular?
+- ¿Qué etapa viene después en el proceso de entrega de software?
 
-### 4. Tarjetas de rápida expansión
+### 4. Tarjetas de desarrollo a partir de consignas
 
-Utilícelos cuando la guía le dé un mensaje breve que en realidad apunte a una respuesta más amplia.
+Úsalas cuando la guía te da una consigna breve que en realidad apunta a una respuesta más amplia.
 
 Ejemplos:
 
 - Frente: ¿Principales causas de la Revolución Francesa?
-- Atrás: Desigualdad social, crisis financiera, carga fiscal, monarquía débil e ideas de la Ilustración.
+- Reverso: desigualdad social, crisis financiera, carga fiscal, monarquía débil e ideas de la Ilustración.
 
-Este suele ser el paso correcto para las **tarjetas didácticas de guías de estudio para exámenes** porque muchas hojas de repaso se escriben como indicaciones en lugar de explicaciones terminadas.
+Suele ser la opción correcta para **tarjetas de estudio a partir de una guía de examen** porque muchas hojas de repaso están escritas como consignas y no como explicaciones completas.
 
-## El mejor flujo de trabajo comienza por reestructurar la guía, no por memorizarla tal como está.
+## El mejor flujo de trabajo empieza por reestructurar la guía, no por memorizarla tal cual
 
-No saltaría directamente del paquete al mazo final.
+Yo no pasaría directamente del paquete al mazo final.
 
 Lo dividiría en pasos:
 
-1. tome una sección de la guía, no toda
-2. Pídale a AI que reescriba esa sección en objetivos de recuperación limpios.
-3. redactar cartas frontales/posteriores de esos objetivos
-4. eliminar duplicados y textos vagos
-5. etiquetar las tarjetas por examen, unidad o fuente
+1. coge una sección de la guía, no la guía entera
+2. pide a la IA que reescriba esa sección como objetivos de recuerdo claros
+3. redacta tarjetas de frente y reverso a partir de esos objetivos
+4. elimina duplicados y formulaciones vagas
+5. etiqueta las tarjetas por examen, unidad o fuente
 
-Ese segundo paso importa más de lo que la gente piensa.
+Ese segundo paso importa más de lo que parece.
 
-Muchos intentos de **paquete de estudio para tarjetas didácticas** salen mal porque el paquete original está lleno de taquigrafías:
+Muchos intentos de **convertir un paquete de estudio en tarjetas de estudio** salen mal porque el paquete original está lleno de atajos:
 
-- abreviaturas de maestros
-- medias oraciones
+- abreviaturas del profesor
+- medias frases
 - títulos vagos
-- Indicaciones de estilo "saber esto"
-- listas que solo tienen sentido si estuviste físicamente presente en clase
+- indicaciones del tipo "saber esto"
+- listas que solo tienen sentido si estabas físicamente en clase
 
-La IA es útil aquí porque puede desentrañar la taquigrafía antes de que decidas cuál debería ser la carta final.
+La IA es útil aquí porque puede desplegar esos atajos antes de que decidas cuál debe ser la tarjeta final.
 
-## Las guías de estudio generadas por IA necesitan una capa adicional de escepticismo
+## Las guías de estudio generadas con IA necesitan una capa extra de escepticismo
 
-Vale la pena decirlo directamente.
+Conviene decirlo de forma directa.
 
-Una guía de estudio generada por IA puede parecer limpia y aun así ser un poco incorrecta, demasiado amplia o extrañamente demasiado confiada.
+Una guía de estudio generada con IA puede verse limpia y aun así estar un poco equivocada, ser demasiado amplia o sonar extrañamente demasiado segura de sí misma.
 
-Entonces, si la guía viniera de AI, no la trataría como una verdad definitiva.
+Así que, si la guía viene de una IA, yo no la trataría como verdad definitiva.
 
-Lo usaría como fuente borrador y aún así verificaría:
+La usaría como fuente de borrador y aun así comprobaría:
 
-- si la terminología coincide con el curso real
+- si la terminología coincide con la del curso real
 - si las distinciones son reales
-- si la guía inventó detalles que la fuente no apoyó
-- si un mensaje realmente oculta tres tareas de recuperación diferentes
+- si la guía inventó detalles que la fuente original no sostenía
+- si una sola consigna en realidad esconde tres tareas de recuerdo distintas
 
 Eso no empeora el flujo de trabajo.
 
-Simplemente significa que las **tarjetas didácticas de la guía de estudio de IA** funcionan mejor cuando mantienes el modelo en modo de dibujo, no en modo de autoridad.
+Solo significa que **crear tarjetas de estudio a partir de una guía con IA** funciona mejor cuando mantienes el modelo en modo borrador, no en modo autoridad.
 
-## Las hojas de revisión elaboradas por profesores y las guías de estudio de IA fallan de diferentes maneras
+## Las hojas de repaso del profesor y las guías de IA fallan de maneras distintas
 
-Por eso no usaría el mismo mensaje para ambos.
+Por eso no usaría la misma instrucción para ambas.
 
-Las guías elaboradas por profesores suelen ser:
+Las guías hechas por el profesor suelen ser:
 
-- conciso
-- alineado con el examen
-- ligeramente críptico
-- lleno de taquigrafía específica de la clase
+- concisas
+- alineadas con el examen
+- algo crípticas
+- llenas de atajos propios de esa clase
 
-Las guías creadas por IA suelen ser:
+Las guías hechas con IA suelen ser:
 
-- más claro en la superficie
-- mejor formateado
-- aspecto más completo
-- Es más probable que suavice la incertidumbre y suene correcto.
+- más claras en la superficie
+- mejor formateadas
+- aparentemente más completas
+- más propensas a suavizar la incertidumbre y sonar correctas
 
-Entonces el paso de limpieza cambia.
+Así que el paso de limpieza cambia.
 
-Con los paquetes para profesores, a menudo se amplía la taquigrafía a tarjetas utilizables.
+Con los paquetes del profesor, muchas veces estás expandiendo abreviaturas y atajos hasta convertirlos en tarjetas utilizables.
 
-Con las guías de IA, a menudo estás reduciendo el texto de aspecto pulido a lo que realmente quieres recordar.
+Con las guías de IA, muchas veces estás recortando texto pulido hasta dejar solo lo que de verdad quieres recordar.
 
-## Las secciones más pequeñas superan las gigantescas importaciones de las semanas de exámenes
+## Las secciones pequeñas funcionan mejor que las importaciones gigantes en semana de exámenes
 
-No creo que la mejor decisión sea subir un paquete de reseñas de 20 páginas y pedir una baraja enorme.
+No creo que la mejor idea sea subir un paquete de repaso de 20 páginas y pedir un mazo enorme.
 
-Eso normalmente crea:
+Eso suele crear:
 
-- Tarjetas que todas suenan igual
-- mensajes duplicados de secciones cercanas
-- una cola de revisión demasiado grande para confiar
-- fatiga de limpieza antes de que la plataforma sea útil
+- tarjetas que suenan todas igual
+- enunciados duplicados entre secciones cercanas
+- una cola de repaso demasiado grande como para fiarse de ella
+- fatiga de limpieza antes incluso de que el mazo resulte útil
 
-Prefiero trabajar en piezas más pequeñas:
+Prefiero trabajar en bloques más pequeños:
 
 - una unidad
-- un capitulo
-- una sección de examen
+- un capítulo
+- una sección del examen
 - un grupo de conceptos
 
-Esto es especialmente cierto para la **guía de estudio de clase para tarjetas didácticas** porque las hojas de revisión de clase a menudo combinan vocabulario, proceso y sugerencias de estilo ensayo en la misma página.
+Eso es especialmente cierto para **convertir una guía de clase en tarjetas de estudio** porque las hojas de repaso de clase suelen mezclar vocabulario, procesos y consignas de tipo ensayo en la misma página.
 
-Obtendrás mejores cartas si las separas antes de que crezca el mazo.
+Obtienes mejores tarjetas si separas esas cosas antes de que el mazo crezca.
 
-## Las tablas, fórmulas y diagramas deben ramificarse en sus propios flujos de trabajo.
+## Las tablas, las fórmulas y los diagramas deberían ir por flujos de trabajo propios
 
-Una guía de estudio puede contener formatos mixtos.
+Una guía de estudio puede mezclar formatos.
 
-Algunas partes pueden ser mensajes de texto normales.
+Algunas partes pueden ser enunciados de texto normales.
 
-Algunas partes realmente pueden ser:
+Otras partes pueden ser en realidad:
 
-- una hoja de fórmula
+- una hoja de fórmulas
 - una imagen etiquetada
-- una tabla de comparación
-- un cuadro o gráfico
-- un conjunto de preguntas de práctica perdidas
+- una tabla comparativa
+- un gráfico
+- un conjunto de preguntas de práctica falladas
 
-Es por eso que **la guía de revisión de tarjetas didácticas** no es un método fijo.
+Por eso **convertir una guía de repaso en tarjetas de estudio** no es un método fijo.
 
-La fuente dentro de la guía cambia el estilo de la tarjeta que tiene sentido.
+El tipo de material que hay dentro de la guía cambia el estilo de tarjeta que tiene sentido.
 
-Si una sección contiene principalmente preguntas omitidas, este flujo de trabajo se adapta mejor:
+Si una sección consiste sobre todo en preguntas falladas, este flujo de trabajo encaja mejor:
 
-- [Cómo convertir las preguntas de práctica en Flashcards en 2026](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/)
+- [Cómo convertir preguntas de práctica en tarjetas de estudio en 2026](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/)
 
-Si la guía es principalmente un documento o paquete exportado, utilice este también:
+Si la guía es sobre todo un documento o un paquete exportado, este también te sirve:
 
-- [Cómo convertir un PDF en Flashcards en 2026](https://flashcards-open-source-app.com/blog/how-to-turn-a-pdf-into-flashcards/)
+- [Cómo convertir un PDF en tarjetas de estudio en 2026](https://flashcards-open-source-app.com/blog/how-to-turn-a-pdf-into-flashcards/)
 
-Y si la guía comenzó como una tutoría de IA en lugar de un paquete, este artículo complementario está más cerca:
+Y si la guía empezó como una tutoría con IA en lugar de un paquete, este artículo complementario encaja más:
 
-- [Cómo convertir el modo de estudio ChatGPT en Flashcards en 2026](https://flashcards-open-source-app.com/blog/how-to-turn-chatgpt-study-mode-into-flashcards/)
+- [Cómo convertir el modo de estudio de ChatGPT en tarjetas de estudio en 2026](https://flashcards-open-source-app.com/blog/how-to-turn-chatgpt-study-mode-into-flashcards/)
 
-## La plataforma terminada debe sentirse más pequeña que la guía.
+## El mazo final debería sentirse más pequeño que la guía
 
 Este es el control de calidad que más me gusta.
 
-Si la plataforma final parece más pesada que la guía de estudio original, algo salió mal.
+Si el mazo final se siente más pesado que la guía de estudio original, algo salió mal.
 
-La plataforma debe sentirse:
+El mazo debería sentirse:
 
-- limpiador
-- más responsable
-- más repetitivo en la forma útil
-- más fácil de revisar que releer la guía
+- más limpio
+- más fácil de responder
+- más repetitivo en el buen sentido
+- más fácil de repasar que releer la guía
 
-Si cada tarjeta aún requiere reconstruir el paquete completo, no convertiste la guía en recuperación.
+Si cada tarjeta todavía te obliga a reconstruir el paquete entero, no convertiste la guía en recuerdo activo.
 
-Acabas de convertir un formato de tarea en otro.
+Solo convertiste un formato de deberes en otro.
 
-## Donde encaja Flashcards
+## Dónde encaja Flashcards
 
-[Flashcards](https://flashcards-open-source-app.com/) es una buena opción para **guía de estudio de tarjetas didácticas** porque el producto ya tiene las piezas que este flujo de trabajo necesita:
+[Flashcards](https://flashcards-open-source-app.com/) encaja bien para **pasar una guía de estudio a tarjetas de estudio** porque el producto ya tiene las piezas que necesita este flujo de trabajo:
 
-- Chat de IA para reestructurar textos preliminares de guías de estudio
-- archivos adjuntos e imágenes
-- compatibilidad con cámara y fotografías en dispositivos compatibles
-- creación y edición de tarjetas anverso/reverso
+- chat con IA para reestructurar texto en bruto de una guía de estudio
+- adjuntos de archivos e imágenes
+- compatibilidad con cámara y fotos en dispositivos compatibles
+- creación y edición de tarjetas de frente y reverso
 - mazos y etiquetas para organizar por clase, examen o unidad
-- Programación FSRS una vez limpias las tarjetas
-- Primeros clientes fuera de línea, por lo que la plataforma terminada aún funciona cuando la guía de estudio original ya no está abierta en una pestaña del navegador.
+- programación FSRS una vez que las tarjetas ya están limpias
+- aplicaciones que priorizan el uso sin conexión para que el mazo final siga funcionando cuando la guía de estudio original ya no esté abierta en una pestaña del navegador
 
-Esa combinación es importante porque **cómo convertir una guía de estudio en tarjetas didácticas** no es sólo un problema de redacción.
+Esa combinación importa porque **cómo convertir una guía de estudio en tarjetas de estudio** no es solo un problema de borrador.
 
-También es un problema de revisión.
+También es un problema de repaso.
 
-Quiere un lugar donde pueda limpiar la guía, crear las tarjetas, organizar el lote y seguir revisando después de que el paquete del examen deje de ser el centro de su vida.
+Quieres un único lugar donde limpiar la guía, crear las tarjetas, organizar el lote y seguir repasando después de que el paquete del examen deje de ser el centro de tu vida.
 
-Si el mayor problema es la calidad de la tarjeta en sí, lea esto a continuación:
+Si el problema más grande es la calidad de las tarjetas en sí, lee esto después:
 
-- [Cómo mejorar Flashcards en 2026](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [Cómo crear mejores tarjetas de estudio en 2026](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
 
-Y si el verdadero problema es planificar la carga de repasos antes de la fecha del examen, este también ayuda:
+Y si el problema real es planificar la carga de repaso antes de la fecha del examen, este también ayuda:
 
 - [Cómo estudiar para un examen con FSRS en 2026](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/)
 
 ## La regla útil
 
-Si desea convertir una **guía de estudio en tarjetas didácticas**, no conserve el paquete.
+Si quieres convertir una **guía de estudio en tarjetas de estudio**, no conserves el paquete.
 
-Conserve las tareas de recuperación que se esconden en su interior.
+Conserva las tareas de recuerdo que esconde.
 
-Esa es la parte que tu yo futuro realmente puede revisar.
+Esa es la parte que tu yo futuro sí puede repasar.
 
-Menos desorden de paquetes.
+Menos ruido del paquete.
 
-Mejores indicaciones.
+Mejores enunciados.
 
-Más retiro de menos material.
+Más recuerdo con menos material.
 
-Si eso es lo que quieres, empieza aquí:
+Si eso es lo que buscas, empieza aquí:
 
-- [Abrir Flashcards](https://flashcards-open-source-app.com/)
-- [Abre la aplicación](https://app.flashcards-open-source-app.com/)
-- [Lea la guía de introducción](https://flashcards-open-source-app.com/docs/getting-started/)
-- [Ver la fuente en GitHub](https://github.com/kirill-markin/flashcards-open-source-app)
+- [Ir a Flashcards](https://flashcards-open-source-app.com/)
+- [Abrir la aplicación](https://app.flashcards-open-source-app.com/)
+- [Leer la guía de introducción](https://flashcards-open-source-app.com/docs/getting-started/)
+- [Ver el código fuente en GitHub](https://github.com/kirill-markin/flashcards-open-source-app)
