@@ -38,15 +38,22 @@ export function BlogPageView({
           ) : (
             <div className={styles.list}>
               {posts.map((post) => (
-                <Link
-                  key={post.slug}
-                  href={getLocalizedPathname(locale, `/blog/${post.slug}/`)}
-                  className={styles.card}
-                >
-                  <time className={styles.date}>{post.date}</time>
-                  <h2>{post.title}</h2>
+                <article key={post.slug} className={styles.card}>
+                  <header className={styles.cardHeader}>
+                    <time className={styles.date} dateTime={post.date}>
+                      {post.date}
+                    </time>
+                    <h2 className={styles.cardTitle}>
+                      <Link
+                        href={getLocalizedPathname(locale, `/blog/${post.slug}/`)}
+                        className={styles.cardLink}
+                      >
+                        {post.title}
+                      </Link>
+                    </h2>
+                  </header>
                   <p>{post.description}</p>
-                </Link>
+                </article>
               ))}
             </div>
           )}

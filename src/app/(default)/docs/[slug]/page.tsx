@@ -30,7 +30,7 @@ export async function generateMetadata({
     description: doc.description,
     locale,
     routePathname: `/docs/${slug}/`,
-    openGraphType: "website",
+    openGraphType: "article",
   });
 }
 

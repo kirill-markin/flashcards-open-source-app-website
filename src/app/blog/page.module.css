@@ -41,7 +41,9 @@
 }
 
 .card {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
   padding: 16px;
   border: 1px solid var(--border);
   border-radius: var(--radius-lg);
@@ -49,9 +51,16 @@
   transition: border-color 140ms ease, background 140ms ease;
 }
 
-.card:hover {
+.card:hover,
+.card:focus-within {
   border-color: var(--border-strong);
   background: linear-gradient(180deg, rgba(34, 34, 40, 0.98), rgba(22, 22, 28, 0.98));
+}
+
+.cardHeader {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 .date {
@@ -68,11 +77,22 @@
   text-transform: uppercase;
 }
 
-.card h2 {
-  margin: 10px 0 8px;
+.cardTitle {
+  margin: 0;
   font-size: 20px;
   line-height: 1.3;
   letter-spacing: -0.02em;
+}
+
+.cardLink {
+  color: var(--text);
+  text-decoration: none;
+}
+
+.cardLink:hover,
+.cardLink:focus-visible {
+  text-decoration: underline;
+  text-underline-offset: 0.12em;
 }
 
 .card p {
