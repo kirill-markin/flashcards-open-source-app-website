@@ -1,6 +1,8 @@
 import Link from "next/link";
-import { getLocalizedPathname, getRouteLocales, type AppLocale } from "@/lib/i18n";
+import type { AppLocale } from "@/lib/i18n";
+import { getLocalizedPathname } from "@/lib/i18n";
 import { getLocaleShortLabel } from "@/lib/localeConfig";
+import { getRouteLocales } from "@/lib/routeTranslations";
 import { getUiCopy } from "@/lib/uiCopy";
 import styles from "./LocaleSwitcher.module.css";
 

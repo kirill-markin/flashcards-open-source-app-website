@@ -1,5 +1,5 @@
 import type { AppLocale } from "@/lib/i18n";
-import { getAvailableLocalizedPathname } from "@/lib/i18n";
+import { getAvailableLocalizedPathname } from "@/lib/routeTranslations";
 import { getUiCopy } from "@/lib/uiCopy";
 
 export interface HeaderLink {

@@ -2,7 +2,7 @@ import type { AppLocale } from "@/lib/localeConfig";
 import {
   DOC_SLUGS,
   TRANSLATED_DOC_SLUGS_BY_LOCALE,
-} from "@/data/generatedContentRegistry";
+} from "@/data/contentRegistry";
 
 export { DOC_SLUGS };
 

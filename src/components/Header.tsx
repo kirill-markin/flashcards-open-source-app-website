@@ -31,7 +31,7 @@ export const Header: React.FC<HeaderProps> = ({ locale }) => {
           <AuthButton locale={locale} />
         </div>
 
-        <HeaderMobileMenu locale={locale} />
+        <HeaderMobileMenu locale={locale} headerLinks={headerLinks} />
       </div>
     </header>
   );

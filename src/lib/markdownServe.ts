@@ -2,13 +2,16 @@ import { DOC_SLUGS } from "@/data/docs";
 import { listBlogPosts, readBlogPost } from "@/lib/blog";
 import { getDocs, readDoc } from "@/lib/docs";
 import {
-  hasRouteTranslation,
   getLocalizedPathname,
   resolveLocaleFromPathname,
   SUPPORTED_LOCALES,
   type AppLocale,
 } from "@/lib/i18n";
 import { localizeInternalLinks } from "@/lib/localizeInternalLinks";
+import {
+  getRouteLocales,
+  hasRouteTranslation,
+} from "@/lib/routeTranslations";
 import {
   getMarketingPageFromPath,
   hasMarketingPageTranslation,

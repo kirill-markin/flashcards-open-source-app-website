@@ -12,12 +12,14 @@ import {
 import { hasDocTranslation } from "@/lib/docs";
 import {
   getAbsoluteUrl,
-  getLanguageAlternates,
   getLocalizedPathname,
-  hasRouteTranslation,
   SUPPORTED_LOCALES,
   type AppLocale,
 } from "@/lib/i18n";
+import {
+  getLanguageAlternates,
+  hasRouteTranslation,
+} from "@/lib/routeTranslations";
 import {
   getMarketingPageSourceFilePath,
   hasMarketingPageTranslation,

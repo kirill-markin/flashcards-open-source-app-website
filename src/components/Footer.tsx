@@ -2,8 +2,8 @@ import Link from "next/link";
 import { LocaleSwitcher } from "@/components/LocaleSwitcher";
 import { getAppUrl } from "@/lib/auth";
 import type { AppLocale } from "@/lib/i18n";
-import { getAvailableLocalizedPathname } from "@/lib/i18n";
 import { getHumanPlatforms } from "@/lib/humanPlatforms";
+import { getAvailableLocalizedPathname } from "@/lib/routeTranslations";
 import { getUiCopy } from "@/lib/uiCopy";
 import styles from "./Footer.module.css";
 
