@@ -2,7 +2,7 @@ import type { AppLocale } from "@/lib/localeConfig";
 import {
   BLOG_POST_SLUGS,
   TRANSLATED_BLOG_POST_SLUGS_BY_LOCALE,
-} from "@/data/generatedContentRegistry";
+} from "@/data/contentRegistry";
 
 export { BLOG_POST_SLUGS };
 

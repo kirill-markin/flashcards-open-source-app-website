@@ -2,10 +2,10 @@ import type { AppLocale } from "@/lib/i18n";
 import {
   DEFAULT_LOCALE,
   getLocalizedPathname,
-  hasRouteTranslation,
   normalizePathname,
   resolveLocaleFromPathname,
 } from "@/lib/i18n";
+import { hasRouteTranslation } from "@/lib/routeTranslations";
 import { SITE_URL } from "@/lib/site";
 
 const SITE_URL_WITHOUT_TRAILING_SLASH = SITE_URL.replace(/\/$/, "");

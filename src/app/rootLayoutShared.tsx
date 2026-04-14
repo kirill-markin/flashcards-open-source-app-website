@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 import { Source_Serif_4 } from "next/font/google";
 import { readPageContent } from "@/lib/content/readPageContent";
+import { getLanguageAlternates } from "@/lib/routeTranslations";
 import {
   getAbsoluteUrl,
-  getLanguageAlternates,
   getLocalizedPathname,
   getOpenGraphLocale,
   type AppLocale,

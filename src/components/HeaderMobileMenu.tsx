@@ -5,18 +5,19 @@ import Link from "next/link";
 import type { AppLocale } from "@/lib/i18n";
 import { getUiCopy } from "@/lib/uiCopy";
 import { AuthButton } from "./AuthButton";
-import { getHeaderLinks } from "./headerLinks";
+import type { HeaderLink } from "./headerLinks";
 import styles from "./Header.module.css";
 
 interface HeaderMobileMenuProps {
+  readonly headerLinks: ReadonlyArray<HeaderLink>;
   readonly locale: AppLocale;
 }
 
 export const HeaderMobileMenu: React.FC<HeaderMobileMenuProps> = ({
+  headerLinks,
   locale,
 }) => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState<boolean>(false);
-  const headerLinks = getHeaderLinks(locale);
   const uiCopy = getUiCopy(locale);
 
   const toggleMobileMenu = (): void => {

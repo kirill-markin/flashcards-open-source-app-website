@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import type { AppLocale } from "@/lib/i18n";
+import { getLanguageAlternates } from "@/lib/routeTranslations";
 import {
   getAbsoluteUrl,
-  getLanguageAlternates,
   getLocalizedPathname,
   getMarkdownPathname,
   getOpenGraphLocale,
