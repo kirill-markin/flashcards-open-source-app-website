@@ -13,25 +13,25 @@ keywords:
   - "FSRS flashcards"
 ---
 
-Gestern habe ich erlebt, wie ein KI-Tutor mich Schritt für Schritt durch ein Thema geführt hat, mir Fragen gestellt hat, meine Schwachstellen aufgedeckt hat und sich insgesamt benommen hat wie die geduldige Version einer Lehrkraft, die mich noch nicht aufgegeben hat. Dann kam der wichtigere Gedanke: schön und gut, aber was davon weiß ich nächste Woche noch?
+Gestern habe ich dabei zugesehen, wie ein KI-Tutor mich Schritt für Schritt durch ein Thema geführt, mir Fragen gestellt, meine Schwachstellen aufgedeckt und sich insgesamt wie die geduldige Version einer Lehrkraft verhalten hat, die mich noch nicht aufgegeben hat. Dann kam der wichtigere Gedanke: schön und gut, aber was davon weiß ich nächste Woche noch?
 
-Genau darum geht es bei **ChatGPT Study Mode flashcards**.
+Genau darum geht es bei **Lernkarten aus dem ChatGPT Study Mode**.
 
-Nicht um die Frage "Kann KI mir helfen, etwas zu verstehen?" Natürlich kann sie das. Die eigentliche Frage lautet, was nach der Sitzung passiert, wenn die Erklärung hilfreich war, das Quiz ganz ordentlich lief und dein Gehirn trotzdem zwei Tage später wieder Details verliert, wie immer.
+Nicht um die Frage: "Kann KI mir helfen, etwas zu verstehen?" Natürlich kann sie das. Die eigentliche Frage lautet, was nach der Sitzung passiert, wenn die Erklärung hilfreich war, das Quiz ziemlich gut lief und dein Gehirn trotzdem zwei Tage später wieder Details verliert, wie immer.
 
 ## 2025 wurde dieser Workflow plötzlich deutlich interessanter
 
-Das Timing ist kein Zufall.
+Der Zeitpunkt ist kein Zufall.
 
 OpenAI hat den ChatGPT Study Mode am **29. Juli 2025** eingeführt. Google zog am **6. August 2025** mit Guided Learning in Gemini nach und hat seitdem KI-generierte Quizze, Lernhilfen und Flashcards in Gemini insgesamt deutlich stärker vorangetrieben.
 
 Die Kategorie hat sich also verschoben.
 
-Studierende nutzen KI nicht mehr nur, um schneller Notizen ausgeben zu lassen. Sie nutzen KI inzwischen als Tutor, als Quiz-Maschine und als Partner für geführtes Lernen.
+Studierende nutzen KI nicht mehr nur, um schneller Notizen erstellen zu lassen. Sie nutzen KI inzwischen als Tutor, als Quizsystem und als Partner für geführtes Lernen.
 
-Genau deshalb halte ich **study mode spaced repetition** für eine bessere Suchanfrage, als vielen bewusst ist. Die Erklärungsebene wird immer besser. Für das Langzeitgedächtnis braucht es trotzdem ein eigenes System.
+Genau deshalb halte ich **Spaced Repetition nach dem Study Mode** für eine sinnvollere Suchanfrage, als vielen bewusst ist. Die Erklärungsebene wird immer besser. Für das Langzeitgedächtnis braucht es trotzdem ein eigenes System.
 
-## Study Mode hilft dir beim Verstehen. Beim Behalten hilft er nicht automatisch.
+## Study Mode hilft dir beim Verstehen. Beim Erinnern hilft er nicht automatisch.
 
 Diesen Punkt sollte man sauber auseinanderhalten.
 
@@ -44,19 +44,19 @@ Eine KI-Tutor-Sitzung kann ein paar wirklich nützliche Dinge leisten:
 
 Das ist echter Mehrwert.
 
-Aber nichts davon erstellt automatisch einen sinnvollen Wiederholungsplan.
+Aber nichts davon ergibt automatisch einen sinnvollen Wiederholungsplan.
 
-Wenn die Idee nur in einer überraschend guten Chat-Sitzung existiert hat, hast du später immer noch dasselbe alte Gedächtnisproblem. Verstehen ist nicht dasselbe wie Speichern. Eine gute Erklärung ist noch kein Spaced-Repetition-System.
+Wenn die Idee nur in einer überraschend guten Chat-Sitzung lebt, hast du später immer noch dasselbe alte Gedächtnisproblem. Verstehen ist nicht dasselbe wie Speichern. Eine gute Erklärung ist noch kein Spaced-Repetition-System.
 
 ## Die besten Flashcards entstehen meist aus Fehlern, nicht aus dem ganzen Transkript
 
 Hier laufen viele in die falsche Richtung.
 
-Sie beenden eine Study-Mode-Sitzung, kopieren den ganzen Chat und lassen ein weiteres KI-Tool daraus Karten erzeugen. Das Ergebnis sieht produktiv aus und fühlt sich beim Wiederholen meist ziemlich unerquicklich an.
+Sie beenden eine Sitzung im Study Mode, kopieren den ganzen Chat und lassen ein weiteres KI-Tool daraus Karten erzeugen. Das Ergebnis sieht produktiv aus und fühlt sich beim Wiederholen meist ziemlich unerquicklich an.
 
 Warum?
 
-Weil der Großteil eines solchen Transkripts gar kein gutes Flashcard-Material ist.
+Weil der Großteil eines solchen Transkripts gar kein gutes Material für Lernkarten ist.
 
 Es enthält:
 
@@ -66,7 +66,7 @@ Es enthält:
 - halbe Antworten
 - Gesprächsfüllstoff
 
-Die bessere Quelle für **ChatGPT study mode to flashcards** ist viel enger gefasst:
+Die bessere Quelle für **Lernkarten aus dem ChatGPT Study Mode** ist viel enger gefasst:
 
 - die Frage, die du falsch beantwortet hast
 - die Unterscheidung, die du ständig verwechselt hast
@@ -75,7 +75,7 @@ Die bessere Quelle für **ChatGPT study mode to flashcards** ist viel enger gefa
 
 Genau darin steckt das wirklich brauchbare Material.
 
-## Ich würde KI-Tutor-Sitzungen als Flashcard-Mining behandeln, nicht als Flashcard-Export
+## Ich würde KI-Tutor-Sitzungen eher als Fundgrube für Karten sehen, nicht als Massenexport
 
 Diese Sichtweise verändert fast alles.
 
@@ -85,7 +85,7 @@ Frag nicht:
 
 Frag stattdessen:
 
-"Welche Teile dieser Sitzung haben offengelegt, was ich später ohne Hilfe erinnern können sollte?"
+"Welche Stellen dieser Sitzung haben gezeigt, was ich später ohne Hilfe abrufen können sollte?"
 
 Damit kommst du meistens zu einem deutlich kleineren und deutlich besseren Kartensatz.
 
@@ -96,27 +96,27 @@ Ich würde gezielt nach diesen Momenten suchen:
 - selbstbewusst falsche Antworten
 - Stellen, an denen dir die Erklärung bekannt vorkam, du sie aber nicht selbst hättest formulieren können
 
-Solche Momente sind viel eher echte Flashcard-Kandidaten als eine glattgebügelte KI-Zusammenfassung.
+Solche Momente sind viel eher echte Kandidaten für Lernkarten als eine glattgebügelte KI-Zusammenfassung.
 
-## Der Workflow, dem ich vertraue, ist kurz genug, dass man ihn wirklich durchzieht
+## Der Workflow, dem ich vertraue, ist kurz genug, dass man ihn auch wirklich durchzieht
 
 Das ist die Version, die ich tatsächlich verwenden würde:
 
 1. die Study-Mode- oder Guided-Learning-Sitzung ganz normal machen
 2. die Fragen markieren, bei denen du falsch lagst oder gezögert hast
 3. nur diese Schwachstellen kopieren, nicht die ganze Unterhaltung
-4. daraus schlichte Front/Back-Karten machen
+4. daraus schlichte Frage-Antwort-Karten machen
 5. sie später mit FSRS wiederholen
 
 Mehr braucht es nicht.
 
 Kein riesiger Export.
 
-Keine heldenhafte Deck-Bau-Sitzung.
+Kein heroischer Kartenmarathon.
 
 Und auch nicht die Vorstellung, jeder interessante Satz des Tutors verdiene eine dauerhafte Karte.
 
-Das funktioniert deshalb, weil der KI-Tutor den Teil fürs Verstehen schon erledigt hat. Die Flashcards müssen nur die Punkte konservieren, an denen dein Gedächtnis nicht hängen geblieben ist.
+Das funktioniert deshalb, weil der KI-Tutor den Teil fürs Verstehen schon erledigt hat. Die Flashcards müssen nur die Punkte festhalten, an denen dein Gedächtnis nicht hängen geblieben ist.
 
 ## Eine Schwachstelle pro Karte bleibt wichtig, auch mit besseren KI-Tutoren
 
@@ -124,30 +124,30 @@ Die Tools sind besser geworden.
 
 Die Regeln für gute Karten haben sich kaum verändert.
 
-Eine nützliche Karte macht meistens immer noch eine unspektakuläre Sache gut:
+Eine nützliche Karte macht meistens immer noch eine ziemlich unspektakuläre Sache gut:
 
 - sie stellt eine klare Frage
 - sie prüft genau eine Unterscheidung
 - sie erwartet eine direkte Antwort
 
-Sobald eine Karte versucht, den gesamten Lernbogen einer Tutor-Sitzung abzubilden, wird sie sofort zu groß.
+Sobald eine Karte versucht, den gesamten Lernverlauf einer Tutor-Sitzung abzubilden, wird sie sofort zu groß.
 
-Deshalb würde ich eine Study-Mode-Sitzung nicht in zwanzig komplizierte Karten verwandeln, die alle wie kleine Unterrichtspläne klingen. Ich hätte lieber sechs saubere Karten, die genau die Lücken treffen, die die Sitzung offengelegt hat.
+Deshalb würde ich eine Study-Mode-Sitzung nicht in zwanzig komplizierte Karten verwandeln, die alle wie winzige Unterrichtspläne klingen. Ich hätte lieber sechs saubere Karten, die genau die Lücken treffen, die die Sitzung offengelegt hat.
 
 Wenn du das Argument für bessere Kartenqualität noch ausführlicher lesen willst, geht dieser Begleitartikel tiefer:
 
-- [Wie du 2026 bessere Flashcards machst: Front- und Back-Regeln, die mit FSRS wirklich funktionieren](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [Wie du 2026 bessere Flashcards machst: Regeln für Vorder- und Rückseite, die mit FSRS wirklich funktionieren](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
 
 ## Das funktioniert auch für Gemini Guided Learning, nicht nur für ChatGPT
 
-Ich würde das nicht als Trick für nur ein einziges Produkt betrachten.
+Ich würde das nicht als Trick für nur ein einziges Produkt sehen.
 
 Dieselbe Logik gilt für:
 
 - ChatGPT Study Mode
 - Gemini Guided Learning
 - von Gemini erzeugte Quizze und Flashcards
-- andere KI-Tutoring-Flows, die im dialogischen Erklären stark sind
+- andere KI-Tutoring-Abläufe, die im dialogischen Erklären stark sind
 
 Das Muster dahinter ist immer gleich.
 
@@ -155,7 +155,7 @@ Die KI hilft dir, die Idee jetzt zu durchdenken.
 
 Die Flashcards helfen dir dabei, sie später noch zu wissen.
 
-Darum ist **AI study mode flashcards** für mich die bessere Einordnung, statt sich an einer einzelnen Marke festzubeißen. Das eigentliche Lernproblem ist größer als die aktuellen Produktnamen.
+Darum ist **Lernkarten aus KI-Lernmodi** für mich die treffendere Einordnung, statt sich an einer einzelnen Marke festzubeißen. Das eigentliche Lernproblem ist größer als die aktuellen Produktnamen.
 
 ## Die schlechteste Version dieses Workflows ist, für alles Karten zu bauen
 
@@ -167,7 +167,7 @@ Wenn der Tutor unendlich viele Erklärungen und unendlich viele Quizze liefern k
 - alles umwandeln
 - den entstehenden Stapel dann "produktiv" nennen
 
-Eine Woche später öffnest du das Deck und merkst, dass du dir im Grunde nur eine Backlog-Maschine gebaut hast.
+Eine Woche später öffnest du das Deck und merkst, dass du dir im Grunde nur einen stetig wachsenden Rückstand gebaut hast.
 
 Deshalb wäre ich an dieser Stelle besonders streng.
 
@@ -180,10 +180,10 @@ Ein Konzept verdient nur dann eine Karte, wenn:
 
 Wenn das nicht zutrifft, dann darf die Tutor-Sitzung einfach eine Tutor-Sitzung bleiben.
 
-Wenn dich ohnehin schon Review-Überlastung ausbremst, passen diese Artikel direkt dazu:
+Wenn dich ohnehin schon ein Wiederholungsstau ausbremst, passen diese Artikel direkt dazu:
 
-- [Wie viele neue Flashcards pro Tag im Jahr 2026? Baue eine FSRS-Review-Last, die du wirklich fertig bekommst](https://flashcards-open-source-app.com/blog/how-many-new-flashcards-per-day/)
-- [Wie du 2026 bei Flashcards wieder aufholst, nachdem du zurückgefallen bist: Review-Backlog reparieren, ohne das Deck zurückzusetzen](https://flashcards-open-source-app.com/blog/how-to-catch-up-on-flashcards-after-falling-behind/)
+- [Wie viele neue Flashcards pro Tag im Jahr 2026? So planst du mit FSRS eine Wiederholungsmenge, die du wirklich schaffst](https://flashcards-open-source-app.com/blog/how-many-new-flashcards-per-day/)
+- [Wie du 2026 bei Flashcards wieder aufholst, nachdem du zurückgefallen bist: Wiederholungsstau abbauen, ohne das Deck zurückzusetzen](https://flashcards-open-source-app.com/blog/how-to-catch-up-on-flashcards-after-falling-behind/)
 
 ## Der bessere Prompt ist nicht "mach daraus Flashcards"
 
@@ -192,22 +192,22 @@ Ich würde etwas viel Konkreteres verlangen.
 Zum Beispiel:
 
 - verwandle diese falsch beantworteten Fragen in Karten mit genau einem Konzept pro Karte
-- nutze auf der Vorderseite einen kurzen Prompt
+- nutze auf der Vorderseite einen kurzen Hinweis
 - gib auf der Rückseite eine direkte Antwort
 - entferne Füllmaterial aus der Tutor-Sitzung
 - behalte nur Karten, die eine echte Gedächtnislücke prüfen
 
 Das funktioniert deutlich besser, als ein komplettes Transkript ins Modell zu kippen und auf Magie zu hoffen.
 
-Wenn dein Workflow noch früher ansetzt, also vor Study Mode und vor Tutoring, dann behandelt dieser Begleitartikel die direktere Route:
+Wenn dein Workflow noch früher ansetzt, also vor dem Study Mode und vor dem eigentlichen Tutoring, dann behandelt dieser Begleitartikel die direktere Route:
 
-- [Wie du 2026 ChatGPT nutzt, um Flashcards zu erstellen: bessere Prompts, bessere Karten, bessere Reviews mit FSRS](https://flashcards-open-source-app.com/blog/how-to-use-chatgpt-to-make-flashcards/)
+- [Wie du 2026 ChatGPT nutzt, um Flashcards zu erstellen: bessere Prompts, bessere Karten, bessere Wiederholungen mit FSRS](https://flashcards-open-source-app.com/blog/how-to-use-chatgpt-to-make-flashcards/)
 
 Und wenn die Quelle eher eine Lernhilfe oder ein Notebook ist als eine Tutor-Sitzung, passt dieser Artikel ebenfalls:
 
-- [Wie du 2026 NotebookLM-Flashcards in echte Spaced Repetition verwandelst: exportieren, bereinigen und mit FSRS reviewen](https://flashcards-open-source-app.com/blog/notebooklm-flashcards-to-spaced-repetition/)
+- [Wie du 2026 NotebookLM-Flashcards in echte Spaced Repetition verwandelst: exportieren, bereinigen und mit FSRS wiederholen](https://flashcards-open-source-app.com/blog/notebooklm-flashcards-to-spaced-repetition/)
 
-## FSRS ist der Teil, der aus einer guten Sitzung langfristiges Behalten macht
+## FSRS ist der Teil, der aus einer guten Sitzung langfristiges Erinnern macht
 
 Das ist immer noch der leise Hauptpunkt.
 
@@ -215,33 +215,33 @@ Das ist immer noch der leise Hauptpunkt.
 
 Das Wiederholungssystem ist wichtiger.
 
-Selbst sehr gute Karten werden lästig, wenn sie zum falschen Zeitpunkt wieder auftauchen, sich zu schnell stapeln oder immer wiederkommen, ohne zu berücksichtigen, was du längst kannst. Genau deshalb ist mir der Scheduler deutlich wichtiger als die glänzende Tutoring-Oberfläche darüber.
+Selbst sehr gute Karten werden lästig, wenn sie zum falschen Zeitpunkt wieder auftauchen, sich zu schnell stapeln oder immer wiederkommen, ohne zu berücksichtigen, was du längst kannst. Genau deshalb ist mir der Wiederholungsplaner deutlich wichtiger als die glänzende Tutoring-Oberfläche darüber.
 
-**FSRS flashcards** machen diesen Workflow tragfähig:
+**Lernkarten mit FSRS** machen diesen Workflow tragfähig:
 
 - weniger unnötige Wiederholungen
-- eine ruhigere Review-Last
+- ein ruhigerer Wiederholungsrhythmus
 - eine bessere Abstimmung zwischen Schwierigkeit und nächster Wiederholung
 
 Wenn du den eigentlichen Algorithmusvergleich lesen willst, geht dieser Artikel tiefer:
 
 - [FSRS vs SM-2 in 2026: Welcher Spaced-Repetition-Algorithmus hilft dir, mehr zu behalten?](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
 
-## Warum Flashcards in diesen Workflow gut hineinpasst
+## Warum Flashcards gut in diesen Workflow passt
 
-[Flashcards](https://flashcards-open-source-app.com/) passt gut zu **how to turn ChatGPT Study Mode into flashcards**, weil das Produkt genau den Teil abdeckt, den KI-Tutoring allein noch nicht löst:
+[Flashcards](https://flashcards-open-source-app.com/) passt gut zu **Lernkarten aus dem ChatGPT Study Mode**, weil das Produkt genau den Teil abdeckt, den KI-Tutoring allein noch nicht löst:
 
-- Front/Back-Karten statt eines Gedächtnisses, das nur im Chat existiert
-- KI-Chat für Bereinigung und Ausformulierung
+- klassische Vorderseite-Rückseite-Karten statt eines Gedächtnisses, das nur im Chat existiert
+- KI-Chat zum Bereinigen und Ausformulieren
 - Datei- und Klartext-Eingabe
-- FSRS-Review-Scheduling
-- Offline-first-Clients und Sync
+- FSRS für die Wiederholungsplanung
+- Offline-first-Apps und Synchronisierung
 
 So bleibt der Workflow angenehm einfach:
 
 1. den KI-Tutor nutzen, um das Thema zu verstehen
-2. die verpassten Punkte kopieren
-3. sie in Flashcards zu Karten bereinigen
+2. die Stellen kopieren, die du nicht konntest
+3. sie in Flashcards zu Karten ausformulieren
 4. sie später mit FSRS wiederholen
 
 Das ist deutlich glaubwürdiger, als zu erwarten, dass eine einzige Chat-Sitzung zufällig in dauerhaftes Wissen umschlägt.
@@ -258,14 +258,14 @@ Nutze es, um sichtbar zu machen, was du noch nicht wirklich kannst.
 
 Und verschiebe dann die Schwachstellen in Flashcards, damit Spaced Repetition ihren Teil übernehmen kann.
 
-Genau so ergibt **ChatGPT Study Mode flashcards** für mich im Jahr 2026 Sinn. Nicht im Sinne von "ersetze Flashcards durch AI", sondern eher im Sinne von "nutze AI, um die richtigen Flashcards schneller zu finden".
+Genau so ergeben **Lernkarten aus dem ChatGPT Study Mode** für mich im Jahr 2026 Sinn. Nicht im Sinne von "ersetze Flashcards durch KI", sondern eher im Sinne von "nutze KI, um die richtigen Flashcards schneller zu finden".
 
 Wenn du genau das willst, starte hier:
 
-- [Open Flashcards](https://flashcards-open-source-app.com/)
-- [Open the app](https://app.flashcards-open-source-app.com/)
-- [See the features](https://flashcards-open-source-app.com/features/)
-- [View the source on GitHub](https://github.com/kirill-markin/flashcards-open-source-app)
+- [Flashcards öffnen](https://flashcards-open-source-app.com/)
+- [Die App öffnen](https://app.flashcards-open-source-app.com/)
+- [Die Funktionen ansehen](https://flashcards-open-source-app.com/features/)
+- [Den Quellcode auf GitHub ansehen](https://github.com/kirill-markin/flashcards-open-source-app)
 
 Der Tutor hilft dir, das Thema heute zu durchdenken.
 

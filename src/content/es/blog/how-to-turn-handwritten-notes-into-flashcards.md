@@ -18,208 +18,208 @@ keywords:
   - Tarjetas de notas escritas a mano.
   - Tarjetas didácticas de fotos de notas.
 ---
-Ayer tomé una foto de dos páginas de cuaderno que parecían haber sobrevivido a un pequeño terremoto académico. Flechas por todas partes. Media definición al margen. Un diagrama que pretende explicarlo todo. Pude leerlo porque lo escribí. No confiaría tanto en mi yo futuro.
+Ayer hice una foto a dos páginas de cuaderno que parecían haber sobrevivido a un pequeño terremoto académico. Flechas por todas partes. Media definición en el margen. Un diagrama que pretende explicarlo todo. Yo podía leerlo porque lo había escrito yo. No confiaría tanto en mi yo del futuro.
 
-Suele ser entonces cuando la gente empieza a buscar **notas escritas a mano en tarjetas didácticas**.
+Suele ser justo ahí cuando la gente empieza a buscar **cómo pasar apuntes manuscritos a flashcards**.
 
-No porque la escritura sea mala. Porque las notas escritas a mano son excelentes para capturar el pensamiento en el momento y terribles para convertirse en material de estudio limpio más adelante. Las notas tienen sentido mientras la conferencia aún está caliente en tu cabeza. Tres días después, empiezan a sentirse como pistas de una versión pasada un poco engreída de ti.
+No porque escribir a mano sea malo. Sino porque los apuntes manuscritos son buenísimos para capturar ideas en el momento y malísimos para convertirse después en material de estudio limpio. Los apuntes tienen sentido mientras la clase sigue fresca en tu cabeza. Tres días más tarde, empiezan a parecer pistas dejadas por una versión pasada de ti un poco demasiado satisfecha consigo misma.
 
-## Esta búsqueda se volvió más relevante en 2026
+## Esta búsqueda cobró más sentido en 2026
 
-Los flujos de trabajo de estudio de IA ya no son un camino secundario para nerds.
+Los flujos de estudio con IA ya no son una rareza para cuatro frikis.
 
-La investigación de Pew de principios de 2026 dice que el 64% de los adolescentes estadounidenses han utilizado un chatbot de IA al menos algunas veces y el 26% utiliza ChatGPT para las tareas escolares. La guía actual del modo de estudio de OpenAI también impulsa exactamente este tipo de flujo de trabajo con gran cantidad de entradas: traiga sus notas de clase, su tarea, sus lecturas e incluso fotografías del problema.
+Las investigaciones de Pew de principios de 2026 dicen que el 64 % de los adolescentes en EE. UU. ha usado un chatbot de IA al menos alguna vez y que el 26 % usa ChatGPT para tareas escolares. La guía actual de Study Mode de OpenAI también empuja justo este tipo de flujo de trabajo basado en muchas entradas: lleva tus apuntes de clase, tus deberes, tus lecturas e incluso fotos del ejercicio.
 
-Entonces, la pregunta no es si la gente usará la IA para estudiar.
+Así que la pregunta no es si la gente va a usar IA para estudiar.
 
-Ya lo son.
+Ya lo está haciendo.
 
-La mejor pregunta es cómo usarlo sin convertir fotos de notas desordenadas en una pila más grande de tarjetas didácticas mediocres.
+La mejor pregunta es cómo usarla sin convertir unas fotos caóticas de apuntes en una pila todavía mayor de flashcards mediocres.
 
-## OCR es sólo el primer paso
+## El OCR es solo el primer paso
 
-Esta es la parte que muchas herramientas de **fotos a tarjetas didácticas** omiten silenciosamente.
+Esta es la parte que muchas herramientas de **foto a flashcards** se saltan discretamente.
 
-Extraer el texto es útil.
+Extraer el texto sirve.
 
-No es todo el trabajo.
+Pero no es todo el trabajo.
 
-Un pase de OCR limpio aún puede dejarte con:
+Un OCR limpio todavía puede dejarte con:
 
-- fragmentos que sólo tuvieron sentido durante la conferencia
-- abreviaturas que inventaste en el acto
-- diagramas convertidos en sopa de oraciones extrañas
+- fragmentos que solo tenían sentido durante la clase
+- abreviaturas que te inventaste sobre la marcha
+- diagramas convertidos en una sopa rara de frases
 - comparaciones a medio terminar
-- una línea que claramente significa "pregúntale al profesor más tarde"
+- una línea que claramente quiere decir "preguntarle luego al profesor"
 
-Es por eso que **escanear notas en tarjetas didácticas** es más difícil que escribir notas en tarjetas didácticas. El problema no es sólo sacar las palabras de la imagen. El problema es convertir residuos de pensamientos confusos en tarjetas que realmente respetarías dentro de una semana.
+Por eso **escanear apuntes para convertirlos en flashcards** es más difícil que partir de apuntes ya escritos a máquina. El problema no es solo sacar las palabras de la imagen. El problema es convertir restos de pensamiento desordenado en tarjetas que dentro de una semana te sigan pareciendo útiles.
 
-## El mejor flujo de trabajo es extraer primero y luego redactar
+## El mejor flujo es extraer primero y redactar después
 
-Mantendría el proceso más pequeño de lo que suelen ser las páginas de marketing.
+Yo mantendría el proceso más pequeño de lo que suelen prometer las páginas de marketing.
 
-1. Sube una o dos fotos de notas, no toda la libreta.
-2. Pídale a AI que transcriba y limpie las notas primero.
-3. Sólo después de eso, solicite las tarjetas anverso/reverso del candidato.
-4. Elimina agresivamente las tarjetas débiles.
-5. Estudiar a los supervivientes con FSRS.
+1. Sube una o dos fotos de apuntes, no el cuaderno entero.
+2. Pídele a la IA que primero transcriba y limpie los apuntes.
+3. Solo después, pídele tarjetas candidatas de anverso y reverso.
+4. Borra sin piedad las tarjetas flojas.
+5. Estudia las que sobrevivan con FSRS.
 
-Esa separación ayuda mucho.
+Separar así los pasos ayuda mucho.
 
-Si solicita tarjetas inmediatamente, el modelo comienza a hacer demasiadas suposiciones a la vez. Intenta leer la escritura a mano, inferir el contexto faltante, organizar el material y parecer inteligente. Así es como terminas con tarjetas que lucen pulidas y se sienten ligeramente falsas.
+Si pides las tarjetas inmediatamente, el modelo empieza a hacer demasiadas suposiciones a la vez. Intenta leer la letra, inferir el contexto que falta, organizar el material y además sonar inteligente. Así es como acabas con tarjetas que parecen pulidas, pero resultan un poco falsas.
 
-Si divide los pasos, los errores serán más fáciles de detectar.
+Si separas las fases, los errores se vuelven mucho más fáciles de detectar.
 
-## Un grupo de fotos a la vez funciona mucho mejor
+## Trabajar con un grupo pequeño de fotos funciona mucho mejor
 
-Esta es la misma regla que uso para archivos PDF y notas escritas.
+Es la misma regla que sigo con PDFs y con apuntes escritos.
 
-Una entrada más estrecha suele dar mejores tarjetas.
+Cuanto más acotada sea la entrada, mejores suelen salir las tarjetas.
 
-Con **imagen a tarjetas didácticas**, normalmente mantendría cada solicitud limitada a un grupo de conceptos:
+Con **imagen a flashcards**, yo normalmente limitaría cada petición a un solo bloque de contenido:
 
-- un tema de conferencia
-- una página del cuaderno
-- un diagrama más su explicación circundante
-- un tipo de problema con los pasos trabajados cerca
+- un tema de clase
+- una doble página del cuaderno
+- un diagrama con la explicación que lo rodea
+- un tipo de problema con los pasos resueltos al lado
 
-Eso hace que sea menos probable que el modelo aplaste todo en una plataforma genérica llena de preguntas amplias y respuestas infladas.
+Eso hace menos probable que el modelo lo aplaste todo en un mazo genérico lleno de preguntas demasiado amplias y respuestas hinchadas.
 
-## Las notas escritas a mano necesitan más limpieza que las escritas a máquina, y eso es normal
+## Los apuntes manuscritos necesitan más limpieza que los apuntes mecanografiados, y eso es normal
 
-Las notas mecanografiadas suelen al menos pretender estar estructuradas.
+Los apuntes mecanografiados al menos suelen fingir que están estructurados.
 
-Las notas escritas a mano son más honestas.
+Los apuntes manuscritos son más sinceros.
 
-Contienen atajos, textos tachados, mini-recordatorios para ti mismo y una lógica espacial extraña como "esta flecha apunta a lo que olvidé mencionar antes".
+Tienen atajos, texto tachado, mini recordatorios para ti y una lógica espacial extraña del tipo "esta flecha apunta a lo que se me olvidó decir antes".
 
-Entonces, cuando la gente busca **convertir notas escritas a mano en tarjetas didácticas**, no creo que estén pidiendo un milagro.
+Así que, cuando la gente busca **convertir apuntes manuscritos en flashcards**, no creo que esté pidiendo un milagro.
 
-Piden un flujo de trabajo que elimine el dolor administrativo.
+Está pidiendo un flujo de trabajo que le quite el trabajo mecánico.
 
 Ese es un objetivo mucho mejor.
 
-Deje que la IA se encargue de:
+Deja que la IA se encargue de:
 
-- transcripción
+- la transcripción
 - reescribir abreviaturas en lenguaje normal
-- dividir ideas voluminosas en tarjetas de candidatos
-- convertir la entrada de fotos en algo editable
+- dividir ideas demasiado grandes en tarjetas candidatas
+- convertir fotos en algo que se pueda editar
 
-Entonces deja que el humano se encargue de:
+Y deja que la parte humana se encargue de:
 
-- decidir qué vale la pena memorizar
-- eliminar tarjetas que suenan seguras pero que no enseñan nada
-- corregir cualquier inferencia errónea
-- mantener la plataforma lo suficientemente apretada para seguir siendo revisable
+- decidir qué merece la pena memorizar
+- borrar tarjetas que suenan seguras pero no enseñan nada
+- corregir cualquier inferencia equivocada
+- mantener el mazo lo bastante compacto como para seguir siendo repasable
 
-## El mensaje debe ser vergonzosamente sencillo
+## El prompt debería ser ridículamente simple
 
-Yo pediría algo como esto:
+Yo pediría algo así:
 
-- Limpiar las notas escritas a mano sin agregar datos externos.
-- mantener el texto incierto marcado como incierto
-- redactar un hecho o concepto por tarjeta
-- utilice una redacción corta en el anverso/reverso
-- Evite las tarjetas que dependen de ver la página original.
+- limpia los apuntes manuscritos sin añadir datos externos
+- marca como incierto cualquier texto dudoso
+- redacta una tarjeta por hecho o concepto
+- usa un anverso y un reverso breves
+- evita tarjetas que dependan de ver la página original
 - no conviertas un diagrama en seis tarjetas repetitivas
 
-Eso es suficiente.
+Con eso basta.
 
-La mayoría de las indicaciones del **generador de tarjetas flash AI a partir de imágenes** fallan porque le piden al modelo que sea demasiado mágico. Prefiero tener diez cartas de candidato claras y dos incertidumbres marcadas que treinta cartas que se abren camino con mala letra.
+La mayoría de los prompts para un **generador de flashcards con IA a partir de imágenes** fallan porque le piden al modelo que haga demasiada magia. Prefiero diez tarjetas candidatas claras y dos dudas marcadas que treinta tarjetas que improvisan a partir de una letra difícil.
 
-## Las notas con muchos diagramas necesitan una regla ligeramente diferente
+## Los apuntes cargados de diagramas necesitan una regla un poco distinta
 
-Esto aparece todo el tiempo en las notas de ciencia, medicina, ingeniería y aprendizaje de idiomas.
+Esto aparece constantemente en apuntes de ciencias, medicina, ingeniería e idiomas.
 
-Un diagrama suele realizar más de una función:
+Un diagrama suele estar haciendo más de una cosa:
 
 - nombrar partes
-- mostrando relaciones
-- mostrando secuencia
-- mostrando causa y efecto
+- mostrar relaciones
+- mostrar una secuencia
+- mostrar causa y efecto
 
-Eso no significa que quieras una tarjeta gigante que diga "Explique todo el diagrama".
+Eso no significa que quieras una tarjeta gigante que diga "Explica todo el diagrama".
 
-Aún así lo dividiría en objetivos de retirada limpios.
+Yo seguiría dividiéndolo en objetivos de recuerdo claros.
 
-Quizás una tarjeta para la etiqueta.
+Quizá una tarjeta para la etiqueta.
 
-Quizás uno para la secuencia.
+Quizá otra para la secuencia.
 
-Quizás uno para la relación que realmente importa.
+Quizá otra para la relación que de verdad importa.
 
-Eso evita que las **tarjetas de notas escritas a mano** se conviertan en miniconferencias en la parte posterior.
+Así evitas que las **flashcards de apuntes manuscritos** se conviertan en mini clases en el reverso.
 
-## Photo-to-flashcards es diferente de PDF-to-flashcards
+## Pasar de una foto a flashcards no es lo mismo que pasar de un PDF a flashcards
 
-Hay superposiciones, pero la intención es diferente.
+Hay solapamiento, pero la intención no es la misma.
 
 Un PDF suele empezar más pulido.
 
-Una foto de cuaderno suele empezar más personal, más comprimida y más incompleta.
+Una foto de cuaderno suele empezar siendo más personal, más comprimida y más incompleta.
 
-Eso cambia el flujo de trabajo. Con los archivos PDF, principalmente estás recortando y seleccionando. Con fotografías escritas a mano, a menudo estás reconstruyendo lo que las notas intentaban decir en primer lugar.
+Eso cambia el flujo. Con un PDF, sobre todo recortas y seleccionas. Con fotos de apuntes manuscritos, muchas veces estás reconstruyendo primero qué querían decir realmente esos apuntes.
 
-Por lo tanto, no trataría las **tarjetas didácticas de fotos de notas** como la misma consulta que el flujo de trabajo de notas escritas o el flujo de trabajo de PDF.
+Por eso yo no trataría **flashcards a partir de fotos de apuntes** como la misma búsqueda que el flujo para apuntes escritos o el flujo para PDFs.
 
-Si su fuente ya es texto limpio, este artículo complementario es la mejor opción:
+Si tu fuente ya es texto limpio, este artículo complementario encaja mejor:
 
 - [Cómo convertir notas en tarjetas didácticas en 2026](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
 
-Y si su fuente es un documento o diapositivas de una conferencia, este está más cerca:
+Y si tu fuente es un documento o unas diapositivas, este se parece más a lo que necesitas:
 
 - [Cómo convertir un PDF en tarjetas didácticas en 2026](https://flashcards-open-source-app.com/blog/how-to-turn-a-pdf-into-flashcards/)
 
-## Dónde encaja Flashcards en este flujo de trabajo
+## Dónde encaja Flashcards en este flujo
 
-[Flashcards](https://flashcards-open-source-app.com/) es una buena opción para **notas escritas a mano en tarjetas didácticas** porque el producto ya tiene las partes importantes juntas:
+[Flashcards](https://flashcards-open-source-app.com/) encaja bien en **apuntes manuscritos a flashcards** porque el producto ya reúne las piezas que de verdad importan:
 
-- Chat de IA
-- archivos adjuntos de imágenes y archivos
-- creación de tarjetas anverso/reverso
-- edición práctica tras generación
-- Revisión posterior del FSRS
+- chat con IA
+- adjuntos de imagen y archivo
+- creación de tarjetas de anverso y reverso
+- edición práctica después de generar
+- repaso con FSRS después
 
-Esa combinación importa más de lo que admiten muchos generadores llamativos.
+Esa combinación importa más de lo que admiten muchos generadores vistosos.
 
-La parte útil del flujo de trabajo comienza después de cargar la imagen. ¿A dónde van las tarjetas de candidatos? ¿Cómo los arreglas? ¿Cómo los revisas en serio? ¿Cómo conviven junto al resto de tu material de estudio?
+La parte útil del flujo empieza después de subir la imagen. ¿Dónde van esas tarjetas candidatas? ¿Cómo las corriges? ¿Cómo las repasas en serio? ¿Cómo conviven con el resto de tu material de estudio?
 
-Ahí es donde una aplicación de tarjetas didácticas real supera a una demostración única e inteligente.
+Ahí es donde una aplicación de flashcards de verdad supera a una demo ingeniosa de una sola función.
 
-## FSRS es la parte que hace que valga la pena hacer todo
+## FSRS es la parte que hace que todo esto merezca la pena
 
-Es comprensible que la gente se entusiasme con el paso de la imagen a la tarjeta porque resulta dramático.
+Es normal que a la gente le entusiasme el paso de foto a tarjeta porque es la parte vistosa.
 
-Pero el valor real comienza después de que existen las tarjetas.
+Pero el valor real empieza después de que las tarjetas existen.
 
-Si el planificador es débil, incluso las buenas cartas se vuelven molestas. Las cartas fáciles siguen apareciendo con demasiada frecuencia. Las cartas duras regresan en momentos extraños. La plataforma comienza a sentirse como un trabajo administrativo con una marca educativa.
+Si el planificador es flojo, incluso las buenas tarjetas se vuelven molestas. Las fáciles reaparecen demasiado a menudo. Las difíciles vuelven en momentos raros. El mazo empieza a sentirse como trabajo administrativo con marca educativa.
 
-Por eso es importante aquí el FSRS.
+Por eso FSRS importa tanto aquí.
 
-Borrador de las fotos. Limpiar las tarjetas. Luego, deje que un sistema de repetición espaciada real se encargue del cronometraje.
+Haz el borrador a partir de las fotos. Limpia las tarjetas. Y luego deja que un sistema de repetición espaciada de verdad se encargue del momento en que deben volver.
 
-Si desea conocer la programación con más detalle, este artículo complementario es más profundo:
+Si quieres profundizar más en la parte de la programación, este artículo complementario entra más al detalle:
 
 - [FSRS vs SM-2 en 2026: ¿Qué algoritmo de repetición espaciada le ayuda a recordar más?](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
 
 ## La mejor regla
 
-No le pida a las fotos de cuaderno desordenadas que se conviertan en una plataforma perfecta en un solo paso.
+No le pidas a unas fotos caóticas del cuaderno que se conviertan en un mazo perfecto en un solo paso.
 
-Pídeles que se conviertan en materia prima más limpia para un mejor calado.
+Pídeles que se conviertan en materia prima más limpia para hacer un mejor borrador.
 
-Esa es la versión de **convertir notas escritas a mano en tarjetas didácticas** en la que realmente confío.
+Esa es la versión de **convertir apuntes manuscritos en flashcards** en la que de verdad confío.
 
-Menos magia. Mejores cartas.
+Menos magia. Mejores tarjetas.
 
-Si eso es lo que quieres, empieza aquí:
+Si eso es lo que buscas, empieza aquí:
 
-- [Abrir tarjetas didácticas](https://flashcards-open-source-app.com/)
-- [Abre la aplicación](https://app.flashcards-open-source-app.com/)
-- [Lea la guía de introducción](https://flashcards-open-source-app.com/docs/getting-started/)
-- [Ver la fuente en GitHub](https://github.com/kirill-markin/flashcards-open-source-app)
+- [Abrir Flashcards](https://flashcards-open-source-app.com/)
+- [Abrir la aplicación](https://app.flashcards-open-source-app.com/)
+- [Leer la guía de introducción](https://flashcards-open-source-app.com/docs/getting-started/)
+- [Ver el código fuente en GitHub](https://github.com/kirill-markin/flashcards-open-source-app)
 
-No es necesario que tus notas sean hermosas.
+Tus apuntes no tienen que ser bonitos.
 
-Solo necesitan un flujo de trabajo que pueda convertirlos en algo revisable sin tener que reescribir todo el cuaderno a mano.
+Solo necesitan un flujo de trabajo que pueda convertirlos en algo que puedas repasar sin obligarte a reescribir a mano todo el cuaderno.
