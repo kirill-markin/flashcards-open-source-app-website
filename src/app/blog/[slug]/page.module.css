@@ -194,6 +194,14 @@
   color: var(--text-secondary);
 }
 
+.content ul {
+  list-style: disc;
+}
+
+.content ol {
+  list-style: decimal;
+}
+
 .content li {
   margin-bottom: 6px;
   overflow-wrap: anywhere;
