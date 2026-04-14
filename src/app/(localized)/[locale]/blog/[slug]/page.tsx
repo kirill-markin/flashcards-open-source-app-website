@@ -4,8 +4,7 @@ import { BlogPostPageView } from "@/components/BlogPostPageView";
 import { BLOG_POST_SLUGS } from "@/data/blog";
 import { getLocalizedRouteStaticParams, resolveNonDefaultLocaleOrNotFound } from "@/app/localizedRouteHelpers";
 import { listTranslatedBlogPostSlugs, readBlogPost } from "@/lib/blog";
-import { createPageMetadata } from "@/lib/seo/createPageMetadata";
-import { getUiCopy } from "@/lib/uiCopy";
+import { createBlogPostMetadata } from "@/lib/seo/createBlogPostMetadata";
 
 export const dynamicParams = false;
 
@@ -26,21 +25,8 @@ export async function generateMetadata({
 }: PageProps): Promise<Metadata> {
   const { locale: rawLocale, slug } = await params;
   const locale = resolveNonDefaultLocaleOrNotFound(rawLocale);
-  const uiCopy = getUiCopy(locale);
-  const post = readBlogPost(locale, slug);
 
-  if (post === null) {
-    return { title: uiCopy.blog.notFoundTitle };
-  }
-
-  return createPageMetadata({
-    title: post.title,
-    description: post.description,
-    locale,
-    routePathname: `/blog/${slug}/`,
-    openGraphType: "article",
-    publishedTime: post.date,
-  });
+  return createBlogPostMetadata(locale, slug);
 }
 
 export default async function LocalizedBlogPostPage({

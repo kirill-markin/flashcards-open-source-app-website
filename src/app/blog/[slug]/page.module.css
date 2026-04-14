@@ -23,6 +23,14 @@
   padding: clamp(20px, 3vw, 28px);
 }
 
+.meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px 14px;
+  margin-top: 10px;
+}
+
 .date {
   display: inline-flex;
   align-items: center;
@@ -38,11 +46,14 @@
 }
 
 .byline {
-  display: block;
-  margin-top: 10px;
+  margin: 0;
   color: var(--text-secondary);
   font-size: 14px;
   font-weight: 600;
+}
+
+.byline a {
+  color: inherit;
   text-decoration: underline;
   text-underline-offset: 0.14em;
 }
