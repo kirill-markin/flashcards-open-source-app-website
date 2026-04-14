@@ -3,13 +3,13 @@ import type { PageContent } from "@/lib/content/types";
 export const PRICING_PAGE_CONTENT: PageContent = {
   title: "定价",
   description:
-    "免费 self-hosting 或托管 cloud beta。开源，无 feature gating。",
+    "可免费自托管，也可使用托管式 Cloud Beta。项目开源，所有方案均提供完整功能。",
   slug: "pricing",
   sections: [
     {
       type: "pricing_tiers",
       title: "定价",
-      intro: "每个方案都包含全部功能，没有 feature gating。",
+      intro: "每个方案都包含全部功能，不做功能限制。",
       tiers: [
         {
           type: "link_tier",
@@ -17,14 +17,14 @@ export const PRICING_PAGE_CONTENT: PageContent = {
           price: "免费",
           highlighted: false,
           bullets: [
-            "GitHub 上的完整 source code",
-            "本地 Postgres + auth + backend + web stack",
-            "包含所有当前功能",
-            "你的域名、你的数据、你的 deployment",
-            "按自己的 learning workflow 调整 stack",
+            "GitHub 上提供完整源代码",
+            "可在本地部署 Postgres、认证、后端和 Web 应用栈",
+            "包含当前全部功能",
+            "使用你自己的域名，数据和部署都由你掌控",
+            "可按自己的学习流程调整整套技术栈",
           ],
           cta: {
-            label: "在 GitHub 查看",
+            label: "前往 GitHub",
             href: "https://github.com/kirill-markin/flashcards-open-source-app",
           },
         },
@@ -34,14 +34,14 @@ export const PRICING_PAGE_CONTENT: PageContent = {
           price: "测试期间免费",
           highlighted: true,
           bullets: [
-            "项目域名下的托管 Web 应用",
-            "Email OTP authentication",
-            "Shared-domain browser login flow",
-            "托管的 AWS infrastructure",
-            "产品持续演进中的 early access",
+            "部署在项目域名下的托管式 Web 应用",
+            "电子邮件 OTP 验证登录",
+            "基于共享域名的浏览器登录流程",
+            "托管式 AWS 基础设施",
+            "在产品持续迭代阶段抢先体验",
           ],
           cta: {
-            label: "开始使用",
+            label: "立即开始",
             href: "https://app.flashcards-open-source-app.com",
           },
         },
