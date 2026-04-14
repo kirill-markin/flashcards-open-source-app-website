@@ -280,6 +280,92 @@ function parseBlogImage(image: string, filePath: string): string {
   );
 }
 
+function normalizeBlogImageCandidate(image: string): string | undefined {
+  const trimmedImage = image.trim();
+
+  if (trimmedImage.length === 0 || trimmedImage.startsWith("data:")) {
+    return undefined;
+  }
+
+  if (trimmedImage.startsWith("/")) {
+    return trimmedImage;
+  }
+
+  try {
+    const url = new URL(trimmedImage);
+
+    if (url.protocol === "http:" || url.protocol === "https:") {
+      return url.toString();
+    }
+  } catch {
+    return undefined;
+  }
+
+  return undefined;
+}
+
+function readMarkdownImageTarget(target: string): string | undefined {
+  const trimmedTarget = target.trim();
+
+  if (trimmedTarget.startsWith("<")) {
+    const closingBracketIndex = trimmedTarget.indexOf(">");
+
+    if (closingBracketIndex === -1) {
+      return undefined;
+    }
+
+    return trimmedTarget.slice(1, closingBracketIndex).trim();
+  }
+
+  const separatorIndex = trimmedTarget.search(/\s/);
+
+  if (separatorIndex === -1) {
+    return trimmedTarget;
+  }
+
+  return trimmedTarget.slice(0, separatorIndex).trim();
+}
+
+function findFirstBodyImage(markdown: string): string | undefined {
+  const candidateMatches: Array<{ index: number; image: string }> = [];
+  const markdownImagePattern = /!\[[^\]]*]\(([^)]+)\)/g;
+  const htmlImagePattern = /<img\b[^>]*\bsrc=["']([^"']+)["'][^>]*>/gi;
+
+  for (const match of markdown.matchAll(markdownImagePattern)) {
+    const rawTarget = match[1];
+    const image = normalizeBlogImageCandidate(readMarkdownImageTarget(rawTarget) ?? "");
+
+    if (image === undefined) {
+      continue;
+    }
+
+    candidateMatches.push({
+      index: match.index ?? Number.MAX_SAFE_INTEGER,
+      image,
+    });
+  }
+
+  for (const match of markdown.matchAll(htmlImagePattern)) {
+    const image = normalizeBlogImageCandidate(match[1]);
+
+    if (image === undefined) {
+      continue;
+    }
+
+    candidateMatches.push({
+      index: match.index ?? Number.MAX_SAFE_INTEGER,
+      image,
+    });
+  }
+
+  if (candidateMatches.length === 0) {
+    return undefined;
+  }
+
+  candidateMatches.sort((leftMatch, rightMatch) => leftMatch.index - rightMatch.index);
+  return candidateMatches[0]?.image;
+}
+
 function getSlugFromFileName(fileName: string): string {
   return fileName.replace(/\.md$/, "");
 }
@@ -302,6 +388,9 @@ function parseBlogPost(locale: AppLocale, fileName: string): BlogPostRecord {
   const parsedUpdated = updated === undefined
     ? undefined
     : parseUpdatedAt(updated, filePath);
+  const parsedImage = image === undefined
+    ? findFirstBodyImage(content)
+    : parseBlogImage(image, filePath);
 
   if (
     parsedUpdated !== undefined &&
@@ -317,7 +406,7 @@ function parseBlogPost(locale: AppLocale, fileName: string): BlogPostRecord {
     title,
     description,
     date,
-    image: image === undefined ? undefined : parseBlogImage(image, filePath),
+    image: parsedImage,
     updated: parsedUpdated,
     publishedAt,
     bodyMarkdown: content,
