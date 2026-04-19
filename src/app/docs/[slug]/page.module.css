@@ -143,6 +143,36 @@
   text-decoration: underline;
 }
 
+.content table {
+  width: 100%;
+  max-width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 16px;
+  display: block;
+  overflow-x: auto;
+}
+
+.content th,
+.content td {
+  padding: 12px 14px;
+  border: 1px solid var(--border);
+  text-align: start;
+  vertical-align: top;
+  font-family: var(--reading-serif-font-family);
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.content th {
+  color: var(--text);
+  background: rgba(255, 255, 255, 0.06);
+  font-weight: 700;
+}
+
+.content td {
+  color: var(--text-secondary);
+}
+
 @media (max-width: 768px) {
   .container {
     padding-inline: 14px;
