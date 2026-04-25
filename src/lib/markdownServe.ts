@@ -8,10 +8,7 @@ import {
   type AppLocale,
 } from "@/lib/i18n";
 import { localizeInternalLinks } from "@/lib/localizeInternalLinks";
-import {
-  getRouteLocales,
-  hasRouteTranslation,
-} from "@/lib/routeTranslations";
+import { hasRouteTranslation } from "@/lib/routeTranslations";
 import {
   getMarketingPageFromPath,
   hasMarketingPageTranslation,
@@ -21,8 +18,13 @@ import {
 } from "@/lib/content/readPageContent";
 import {
   renderMarketingPageMarkdown,
+  type MarketingPageMarkdownContext,
   type MarkdownSiteContext,
 } from "@/lib/content/renderMarkdown";
+import {
+  globalActivitySnapshotUrl,
+  type GlobalActivitySnapshot,
+} from "@/lib/globalActivitySnapshot";
 import { getUiCopy } from "@/lib/uiCopy";
 
 const SITE_CONTEXT: MarkdownSiteContext = {
@@ -112,7 +114,10 @@ function appendMarkdownFooter(
   return `${markdown.trim()}\n\n---\n${footerCopy.htmlVersion}\n\n${footerCopy.agent}\n\n${footerCopy.markdownTip}`;
 }
 
-function renderMarketingPageMarkdownDocument(pagePath: string): MarkdownResult {
+function renderMarketingPageMarkdownDocument(
+  pagePath: string,
+  context: MarketingPageMarkdownContext
+): MarkdownResult {
   const page = getMarketingPageFromPath(pagePath);
 
   if (page === null) {
@@ -127,7 +132,7 @@ function renderMarketingPageMarkdownDocument(pagePath: string): MarkdownResult {
 
   return {
     markdown: appendMarkdownFooter(
-      renderMarketingPageMarkdown(pageContent, page.locale),
+      renderMarketingPageMarkdown(pageContent, page.locale, context),
       page.locale,
       pagePath
     ),
@@ -274,8 +279,11 @@ export function listMarkdownPagePaths(): ReadonlyArray<string> {
   ];
 }
 
-export function renderMarkdownDocument(pagePath: string): MarkdownResult {
-  const marketingPageResult = renderMarketingPageMarkdownDocument(pagePath);
+export function renderMarkdownDocument(
+  pagePath: string,
+  context: MarketingPageMarkdownContext
+): MarkdownResult {
+  const marketingPageResult = renderMarketingPageMarkdownDocument(pagePath, context);
 
   if (marketingPageResult.status === 200) {
     return marketingPageResult;
@@ -307,7 +315,7 @@ export function renderMarkdownDocument(pagePath: string): MarkdownResult {
   return marketingPageResult;
 }
 
-export function renderLlmsText(): string {
+export function renderLlmsText(globalActivitySnapshot: GlobalActivitySnapshot): string {
   const pagesSection = readAllMarketingPages("en")
     .map((pageContent) => {
       const pageHref =
@@ -335,6 +343,14 @@ export function renderLlmsText(): string {
           )
           .join("\n")
       : "- Posts coming soon.";
+  const publicActivitySection = [
+    `- [Snapshot JSON](${globalActivitySnapshotUrl})`,
+    `- Generated at UTC: ${globalActivitySnapshot.generatedAtUtc}`,
+    `- Date window: ${globalActivitySnapshot.from} to ${globalActivitySnapshot.to}`,
+    `- Unique reviewers: ${globalActivitySnapshot.totals.uniqueReviewingUsers}`,
+    `- Review events: ${globalActivitySnapshot.totals.reviewEvents.total}`,
+    `- Platform review events: web=${globalActivitySnapshot.totals.reviewEvents.byPlatform.web}, android=${globalActivitySnapshot.totals.reviewEvents.byPlatform.android}, ios=${globalActivitySnapshot.totals.reviewEvents.byPlatform.ios}`,
+  ].join("\n");
 
   return `# Flashcards
 
@@ -351,6 +367,10 @@ ${docsSection}
 ## Blog
 
 ${blogSection}
+
+## Public Activity Snapshot
+
+${publicActivitySection}
 
 ## Links
 

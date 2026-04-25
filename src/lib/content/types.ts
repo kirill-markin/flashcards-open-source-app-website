@@ -33,6 +33,10 @@ export interface FeatureListSection {
   readonly items: ReadonlyArray<FeatureItem>;
 }
 
+export interface PublicActivityPageSection {
+  readonly type: "public_activity";
+}
+
 export interface LinkPricingTier {
   readonly type: "link_tier";
   readonly name: string;
@@ -72,6 +76,7 @@ export interface SimpleMarkdownPageSection {
 export type PageSection =
   | HeroSection
   | FeatureListSection
+  | PublicActivityPageSection
   | PricingTiersSection
   | LegalPageSection
   | SimpleMarkdownPageSection;
