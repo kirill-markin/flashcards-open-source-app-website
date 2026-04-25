@@ -114,7 +114,7 @@ function renderHomePage(
           <Image
             src={getHomeShowcaseImagePath(locale)}
             alt={uiCopy.home.appPreviewAlt}
-            width={5736}
+            width={7140}
             height={3018}
             priority
             sizes="(max-width: 768px) calc(100vw - 28px), (max-width: 1280px) calc(100vw - 40px), 1240px"
