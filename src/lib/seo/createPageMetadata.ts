@@ -10,6 +10,7 @@ import {
 import {
   OPEN_GRAPH_IMAGE_URL,
   SITE_NAME,
+  SITE_URL,
   TWITTER_IMAGE_URL,
 } from "@/lib/site";
 
@@ -42,6 +43,7 @@ export function createPageMetadata(
     params.twitterImageUrl ?? params.openGraphImageUrl ?? TWITTER_IMAGE_URL;
 
   return {
+    metadataBase: new URL(SITE_URL),
     title: params.title,
     description: params.description,
     alternates: {
