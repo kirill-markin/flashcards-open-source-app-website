@@ -12,20 +12,52 @@ import styles from "./PublicActivitySection.module.css";
 type MetricCardProps = Readonly<{
   label: string;
   value: string;
-  detail?: string;
 }>;
 
 type ChartShellProps = Readonly<{
   title: string;
-  detail?: React.ReactNode;
+  description: string;
+  aside: React.ReactNode | null;
   children: React.ReactNode;
 }>;
 
-type DailyActivityChartProps = Readonly<{
+type ChartAxesProps = Readonly<{
+  ticks: ReadonlyArray<number>;
+  maxValue: number;
+  locale: AppLocale;
+  xAxisLabel: string;
+  yAxisLabel: string;
+}>;
+
+type ChartDateLabelsProps = Readonly<{
+  points: ReadonlyArray<DatedChartPoint>;
+  dates: ReadonlyArray<string>;
+  locale: AppLocale;
+}>;
+
+type ChartTooltipProps = Readonly<{
+  lines: ReadonlyArray<string>;
+  layout: ChartTooltipLayout;
+}>;
+
+type ChartTooltipLayout = Readonly<{
+  height: number;
+  width: number;
+  x: number;
+  y: number;
+}>;
+
+type TooltipHitBox = Readonly<{
+  height: number;
+  y: number;
+}>;
+
+type DailyUniqueUsersChartProps = Readonly<{
+  ariaLabel: string;
   days: ReadonlyArray<GlobalActivitySnapshotDay>;
   locale: AppLocale;
-  reviewEventsLabel: string;
-  uniqueReviewersLabel: string;
+  xAxisLabel: string;
+  yAxisLabel: string;
 }>;
 
 type PlatformActivityChartProps = Readonly<{
@@ -33,48 +65,62 @@ type PlatformActivityChartProps = Readonly<{
   days: ReadonlyArray<GlobalActivitySnapshotDay>;
   locale: AppLocale;
   platformLabels: PlatformLabels;
+  reviewEventsLabel: string;
+  xAxisLabel: string;
+  yAxisLabel: string;
 }>;
 
-type PlatformSummaryProps = Readonly<{
+type PlatformLegendItemProps = Readonly<{
   label: string;
   platform: GlobalActivityPlatform;
-  value: number;
-  locale: AppLocale;
 }>;
 
-type ChartPoint = Readonly<{
+type DatedChartPoint = Readonly<{
   date: string;
   centerX: number;
-  reviewEventsY: number;
-  uniqueUsersY: number;
-  reviewEventsHeight: number;
-  uniqueUsers: number;
-  reviewEvents: number;
-  stackedHeights: Readonly<Record<GlobalActivityPlatform, number>>;
 }>;
 
-type ChartScaleDomain = Readonly<{
-  reviewEventsMax: number;
-  uniqueUsersMax: number;
+type BarChartPoint = DatedChartPoint & Readonly<{
+  height: number;
+  value: number;
+  y: number;
 }>;
+
+type StackedBarSegment = Readonly<{
+  height: number;
+  isTop: boolean;
+  platform: GlobalActivityPlatform;
+  value: number;
+  y: number;
+}>;
+
+type StackedBarChartPoint = DatedChartPoint & Readonly<{
+  segments: ReadonlyArray<StackedBarSegment>;
+  total: number;
+}>;
+
+type StackedBarSegmentBase = Omit<StackedBarSegment, "isTop">;
 
 type PlatformLabels = Readonly<Record<GlobalActivityPlatform, string>>;
 
-const dailyChartWidth = 920;
-const dailyChartHeight = 312;
+const chartWidth = 920;
+const chartHeight = 360;
 const chartMargin = {
-  top: 18,
+  top: 24,
   inlineEnd: 54,
-  bottom: 62,
-  inlineStart: 54,
+  bottom: 78,
+  inlineStart: 64,
 } as const;
-const chartFrameHeight = dailyChartHeight - chartMargin.top - chartMargin.bottom;
+const chartFrameHeight = chartHeight - chartMargin.top - chartMargin.bottom;
+const chartTooltipWidth = 218;
+const chartTooltipPaddingBlock = 8;
+const chartTooltipLineHeight = 16;
+const minTooltipHitHeight = 10;
 const platformColors: Readonly<Record<GlobalActivityPlatform, string>> = {
   web: "#4e79a7",
   android: "#59a14f",
   ios: "#f28e2b",
 };
-const dailyReviewBarColor = "#c44b2d";
 
 function getIntlLocale(locale: AppLocale): string {
   switch (locale) {
@@ -118,47 +164,44 @@ function formatLongDate(locale: AppLocale, value: string): string {
   }).format(new Date(`${value}T00:00:00.000Z`));
 }
 
-function formatTimestamp(locale: AppLocale, value: string): string {
-  return new Intl.DateTimeFormat(getIntlLocale(locale), {
-    timeZone: "UTC",
-    month: "short",
-    day: "numeric",
-    year: "numeric",
-    hour: "numeric",
-    minute: "2-digit",
-    timeZoneName: "short",
-  }).format(new Date(value));
-}
-
-function getPeakDay(days: ReadonlyArray<GlobalActivitySnapshotDay>): GlobalActivitySnapshotDay {
+function getMaxDailyValue(
+  days: ReadonlyArray<GlobalActivitySnapshotDay>,
+  getValue: (day: GlobalActivitySnapshotDay) => number,
+  label: string,
+): number {
   const [firstDay] = days;
 
   if (firstDay === undefined) {
-    throw new Error("Global activity snapshot days must not be empty when calculating the peak day.");
+    throw new Error(`Global activity snapshot days must not be empty when calculating ${label}.`);
   }
 
-  return days.reduce<GlobalActivitySnapshotDay>((currentPeakDay, day) => (
-    day.reviewEvents.total > currentPeakDay.reviewEvents.total ? day : currentPeakDay
-  ), firstDay);
+  return days.reduce<number>(
+    (maxValue, day) => Math.max(maxValue, getValue(day)),
+    getValue(firstDay),
+  );
 }
 
-function createYAxisTicks(maxValue: number): ReadonlyArray<number> {
+function createYAxisTicks(maxValue: number, targetTickCount: number): ReadonlyArray<number> {
+  if (targetTickCount <= 0) {
+    throw new Error(`Target tick count must be positive. targetTickCount=${targetTickCount}.`);
+  }
+
   if (maxValue <= 0) {
     return [0, 1];
   }
 
-  const rawStep = maxValue / 4;
+  const rawStep = maxValue / targetTickCount;
   const magnitude = 10 ** Math.floor(Math.log10(rawStep));
   const normalizedStep = rawStep / magnitude;
 
-  let step = magnitude;
+  let step = 10 * magnitude;
 
-  if (normalizedStep > 5) {
-    step = 10 * magnitude;
-  } else if (normalizedStep > 2) {
-    step = 5 * magnitude;
-  } else if (normalizedStep > 1) {
+  if (normalizedStep <= 1) {
+    step = magnitude;
+  } else if (normalizedStep <= 2) {
     step = 2 * magnitude;
+  } else if (normalizedStep <= 5) {
+    step = 5 * magnitude;
   }
 
   step = Math.max(1, step);
@@ -188,7 +231,7 @@ function getYAxisDomainMax(ticks: ReadonlyArray<number>, label: string): number 
 }
 
 function createTickDates(days: ReadonlyArray<GlobalActivitySnapshotDay>): ReadonlyArray<string> {
-  const maxTickCount = 6;
+  const maxTickCount = 14;
 
   if (days.length <= maxTickCount) {
     return days.map((day) => day.date);
@@ -214,88 +257,381 @@ function createTickDates(days: ReadonlyArray<GlobalActivitySnapshotDay>): Readon
   return tickDates;
 }
 
-function createChartPoints(
+function getChartInnerWidth(): number {
+  return chartWidth - chartMargin.inlineStart - chartMargin.inlineEnd;
+}
+
+function getChartBottomY(): number {
+  return chartMargin.top + chartFrameHeight;
+}
+
+function getChartBarWidth(days: ReadonlyArray<GlobalActivitySnapshotDay>): number {
+  const step = getChartInnerWidth() / days.length;
+
+  return Math.max(8, Math.min(28, step * 0.72));
+}
+
+function getChartPointCenterX(index: number, days: ReadonlyArray<GlobalActivitySnapshotDay>): number {
+  const step = getChartInnerWidth() / days.length;
+
+  return chartMargin.inlineStart + (step * index) + (step / 2);
+}
+
+function getBarHeight(value: number, maxValue: number): number {
+  return (value / maxValue) * chartFrameHeight;
+}
+
+function getBarY(height: number): number {
+  return chartMargin.top + chartFrameHeight - height;
+}
+
+function createTooltipLayout(centerX: number, anchorY: number, lineCount: number): ChartTooltipLayout {
+  if (lineCount <= 0) {
+    throw new Error(`Tooltip line count must be positive. lineCount=${lineCount}.`);
+  }
+
+  const height = (chartTooltipPaddingBlock * 2) + (lineCount * chartTooltipLineHeight);
+  const minX = chartMargin.inlineStart + 8;
+  const maxX = chartWidth - chartMargin.inlineEnd - chartTooltipWidth - 8;
+  const minY = chartMargin.top + 6;
+  const maxY = getChartBottomY() - height - 8;
+  const aboveY = anchorY - height - 10;
+  const preferredY = aboveY >= minY ? aboveY : anchorY + 12;
+
+  return {
+    height,
+    width: chartTooltipWidth,
+    x: Math.min(maxX, Math.max(minX, centerX - (chartTooltipWidth / 2))),
+    y: Math.min(maxY, Math.max(minY, preferredY)),
+  };
+}
+
+function createTooltipHitBox(y: number, height: number): TooltipHitBox {
+  const resolvedHeight = Math.max(height, minTooltipHitHeight);
+  const resolvedY = y - ((resolvedHeight - height) / 2);
+  const maxY = getChartBottomY() - resolvedHeight;
+
+  return {
+    height: resolvedHeight,
+    y: Math.min(maxY, Math.max(chartMargin.top, resolvedY)),
+  };
+}
+
+function createTopRoundedRectPath(
+  x: number,
+  y: number,
+  width: number,
+  height: number,
+  radius: number,
+): string {
+  const cornerRadius = Math.min(radius, width / 2, height);
+  const rightX = x + width;
+  const bottomY = y + height;
+
+  if (cornerRadius <= 0) {
+    return `M ${x} ${y} H ${rightX} V ${bottomY} H ${x} Z`;
+  }
+
+  return [
+    `M ${x} ${y + cornerRadius}`,
+    `Q ${x} ${y} ${x + cornerRadius} ${y}`,
+    `H ${rightX - cornerRadius}`,
+    `Q ${rightX} ${y} ${rightX} ${y + cornerRadius}`,
+    `V ${bottomY}`,
+    `H ${x}`,
+    "Z",
+  ].join(" ");
+}
+
+function createDailyUniqueUserPoints(
   days: ReadonlyArray<GlobalActivitySnapshotDay>,
-  scaleDomain: ChartScaleDomain,
-): ReadonlyArray<ChartPoint> {
-  const innerWidth = dailyChartWidth - chartMargin.inlineStart - chartMargin.inlineEnd;
-  const step = innerWidth / days.length;
-
+  maxUniqueUsers: number,
+): ReadonlyArray<BarChartPoint> {
   return days.map((day, index) => {
-    const centerX = chartMargin.inlineStart + (step * index) + (step / 2);
-    const reviewEventsHeight = (day.reviewEvents.total / scaleDomain.reviewEventsMax) * chartFrameHeight;
-    const uniqueUsersHeight = (day.uniqueReviewingUsers / scaleDomain.uniqueUsersMax) * chartFrameHeight;
-
-    let stackedOffset = 0;
-    const stackedHeights: Record<GlobalActivityPlatform, number> = {
-      web: 0,
-      android: 0,
-      ios: 0,
-    };
-
-    for (const platform of globalActivityPlatforms) {
-      const platformValue = day.reviewEvents.byPlatform[platform];
-      const platformHeight = (platformValue / scaleDomain.reviewEventsMax) * chartFrameHeight;
-      stackedHeights[platform] = platformHeight + stackedOffset;
-      stackedOffset += platformHeight;
-    }
+    const value = day.uniqueReviewingUsers;
+    const height = getBarHeight(value, maxUniqueUsers);
 
     return {
       date: day.date,
-      centerX,
-      reviewEventsY: chartMargin.top + chartFrameHeight - reviewEventsHeight,
-      uniqueUsersY: chartMargin.top + chartFrameHeight - uniqueUsersHeight,
-      reviewEventsHeight,
-      uniqueUsers: day.uniqueReviewingUsers,
-      reviewEvents: day.reviewEvents.total,
-      stackedHeights,
+      centerX: getChartPointCenterX(index, days),
+      height,
+      value,
+      y: getBarY(height),
     };
   });
 }
 
-function createLinePath(points: ReadonlyArray<ChartPoint>): string {
-  return points.map((point, index) => {
-    const command = index === 0 ? "M" : "L";
-    return `${command}${point.centerX} ${point.uniqueUsersY}`;
-  }).join(" ");
+function createStackedBarSegments(
+  day: GlobalActivitySnapshotDay,
+  maxReviewEvents: number,
+): ReadonlyArray<StackedBarSegment> {
+  let stackedHeight = 0;
+  const segmentBases: Array<StackedBarSegmentBase> = [];
+
+  for (const platform of globalActivityPlatforms) {
+    const value = day.reviewEvents.byPlatform[platform];
+    const height = getBarHeight(value, maxReviewEvents);
+    const y = getBarY(stackedHeight + height);
+
+    stackedHeight += height;
+    segmentBases.push({
+      height,
+      platform,
+      value,
+      y,
+    });
+  }
+
+  const visibleSegmentBases = segmentBases.filter((segment) => segment.height > 0);
+
+  return visibleSegmentBases.map((segment, index) => ({
+    ...segment,
+    isTop: index === visibleSegmentBases.length - 1,
+  }));
+}
+
+function createPlatformReviewEventPoints(
+  days: ReadonlyArray<GlobalActivitySnapshotDay>,
+  maxReviewEvents: number,
+): ReadonlyArray<StackedBarChartPoint> {
+  return days.map((day, index) => ({
+    date: day.date,
+    centerX: getChartPointCenterX(index, days),
+    segments: createStackedBarSegments(day, maxReviewEvents),
+    total: day.reviewEvents.total,
+  }));
 }
 
 function MetricCard({
   label,
   value,
-  detail,
 }: MetricCardProps): React.JSX.Element {
   return (
     <div className={styles.metricCard}>
       <p className={styles.metricLabel}>{label}</p>
       <p className={styles.metricValue}>{value}</p>
-      {detail === undefined ? null : <p className={styles.metricDetail}>{detail}</p>}
     </div>
   );
 }
 
 function ChartShell({
   title,
-  detail,
+  description,
+  aside,
   children,
 }: ChartShellProps): React.JSX.Element {
   return (
     <article className={styles.chartShell}>
       <div className={styles.chartMeta}>
-        <h3 className={styles.chartTitle}>{title}</h3>
-        {detail === undefined ? null : <div className={styles.chartDetail}>{detail}</div>}
+        <div className={styles.chartText}>
+          <h3 className={styles.chartTitle}>{title}</h3>
+          <p className={styles.chartDescription}>{description}</p>
+        </div>
+        {aside === null ? null : <div className={styles.chartDetail}>{aside}</div>}
       </div>
       <div className={styles.chartCanvas}>{children}</div>
     </article>
   );
 }
 
-function PlatformSummary({
+function ChartTooltip({
+  lines,
+  layout,
+}: ChartTooltipProps): React.JSX.Element {
+  return (
+    <g className={styles.chartTooltip} aria-hidden="true">
+      <rect
+        x={layout.x}
+        y={layout.y}
+        width={layout.width}
+        height={layout.height}
+        rx={8}
+        className={styles.chartTooltipBox}
+      />
+      {lines.map((line, index) => (
+        <text
+          key={`tooltip-line-${index}`}
+          x={layout.x + 12}
+          y={layout.y + chartTooltipPaddingBlock + 12 + (index * chartTooltipLineHeight)}
+          className={index === 0 ? styles.chartTooltipDate : styles.chartTooltipValue}
+        >
+          {line}
+        </text>
+      ))}
+    </g>
+  );
+}
+
+function ChartAxes({
+  ticks,
+  maxValue,
+  locale,
+  xAxisLabel,
+  yAxisLabel,
+}: ChartAxesProps): React.JSX.Element {
+  const leftX = chartMargin.inlineStart;
+  const rightX = chartWidth - chartMargin.inlineEnd;
+  const bottomY = getChartBottomY();
+  const yAxisTitleX = 18;
+  const yAxisTitleY = chartMargin.top + (chartFrameHeight / 2);
+
+  return (
+    <>
+      {ticks.map((tick) => {
+        const y = chartMargin.top + chartFrameHeight - ((tick / maxValue) * chartFrameHeight);
+
+        return (
+          <g key={`axis-tick-${tick}`}>
+            <line
+              x1={leftX}
+              y1={y}
+              x2={rightX}
+              y2={y}
+              className={styles.gridLine}
+            />
+            <text x={leftX - 10} y={y + 4} className={styles.axisLabelStart}>
+              {formatNumber(locale, tick)}
+            </text>
+            <text x={rightX + 10} y={y + 4} className={styles.axisLabelEnd}>
+              {formatNumber(locale, tick)}
+            </text>
+          </g>
+        );
+      })}
+
+      <line x1={leftX} y1={chartMargin.top} x2={leftX} y2={bottomY} className={styles.axisLine} />
+      <line x1={rightX} y1={chartMargin.top} x2={rightX} y2={bottomY} className={styles.axisLine} />
+      <line x1={leftX} y1={bottomY} x2={rightX} y2={bottomY} className={styles.axisLine} />
+      <text
+        x={yAxisTitleX}
+        y={yAxisTitleY}
+        className={styles.yAxisTitle}
+        transform={`rotate(-90 ${yAxisTitleX} ${yAxisTitleY})`}
+      >
+        {yAxisLabel}
+      </text>
+      <text x={chartWidth / 2} y={chartHeight - 12} className={styles.xAxisTitle}>
+        {xAxisLabel}
+      </text>
+    </>
+  );
+}
+
+function ChartDateLabels({
+  points,
+  dates,
+  locale,
+}: ChartDateLabelsProps): React.JSX.Element {
+  const labelY = chartHeight - 42;
+
+  return (
+    <>
+      {dates.map((date) => {
+        const point = points.find((currentPoint) => currentPoint.date === date);
+
+        if (point === undefined) {
+          return null;
+        }
+
+        return (
+          <text
+            key={`date-${date}`}
+            x={point.centerX}
+            y={labelY}
+            className={styles.dateLabel}
+            textAnchor="end"
+            transform={`rotate(-35 ${point.centerX} ${labelY})`}
+          >
+            {formatCompactDate(locale, date)}
+          </text>
+        );
+      })}
+    </>
+  );
+}
+
+function DailyUniqueUsersChart({
+  ariaLabel,
+  days,
+  locale,
+  xAxisLabel,
+  yAxisLabel,
+}: DailyUniqueUsersChartProps): React.JSX.Element {
+  const ticks = createYAxisTicks(
+    getMaxDailyValue(days, (day) => day.uniqueReviewingUsers, "peak daily unique users"),
+    7,
+  );
+  const maxUniqueUsers = getYAxisDomainMax(ticks, "unique users");
+  const points = createDailyUniqueUserPoints(days, maxUniqueUsers);
+  const tickDates = createTickDates(days);
+  const barWidth = getChartBarWidth(days);
+
+  return (
+    <svg
+      className={styles.chartSvg}
+      viewBox={`0 0 ${chartWidth} ${chartHeight}`}
+      role="img"
+      aria-label={ariaLabel}
+    >
+      <ChartAxes
+        ticks={ticks}
+        maxValue={maxUniqueUsers}
+        locale={locale}
+        xAxisLabel={xAxisLabel}
+        yAxisLabel={yAxisLabel}
+      />
+
+      {points.map((point) => (
+        <rect
+          key={point.date}
+          x={point.centerX - (barWidth / 2)}
+          y={point.y}
+          width={barWidth}
+          height={point.height}
+          rx={4}
+          className={styles.uniqueUsersBar}
+        >
+          <title>
+            {`${formatLongDate(locale, point.date)}: ${formatNumber(locale, point.value)} ${yAxisLabel}`}
+          </title>
+        </rect>
+      ))}
+
+      <ChartDateLabels points={points} dates={tickDates} locale={locale} />
+
+      {points.map((point) => {
+        const hitBox = createTooltipHitBox(point.y, point.height);
+        const tooltipLines = [
+          formatLongDate(locale, point.date),
+          `${formatNumber(locale, point.value)} ${yAxisLabel}`,
+        ] as const;
+
+        return (
+          <g key={`unique-users-tooltip-${point.date}`} className={styles.tooltipTarget}>
+            <rect
+              x={point.centerX - (barWidth / 2)}
+              y={hitBox.y}
+              width={barWidth}
+              height={hitBox.height}
+              className={styles.tooltipHitArea}
+            >
+              <title>{tooltipLines.join(": ")}</title>
+            </rect>
+            <ChartTooltip
+              lines={tooltipLines}
+              layout={createTooltipLayout(point.centerX, point.y, tooltipLines.length)}
+            />
+          </g>
+        );
+      })}
+    </svg>
+  );
+}
+
+function PlatformLegendItem({
   label,
   platform,
-  value,
-  locale,
-}: PlatformSummaryProps): React.JSX.Element {
+}: PlatformLegendItemProps): React.JSX.Element {
   return (
     <span className={styles.legendItem}>
       <span
@@ -304,121 +640,7 @@ function PlatformSummary({
         aria-hidden="true"
       />
       <span>{label}</span>
-      <strong>{formatNumber(locale, value)}</strong>
     </span>
-  );
-}
-
-function DailyActivityChart({
-  days,
-  locale,
-  reviewEventsLabel,
-  uniqueReviewersLabel,
-}: DailyActivityChartProps): React.JSX.Element {
-  const reviewEventTicks = createYAxisTicks(Math.max(...days.map((day) => day.reviewEvents.total), 1));
-  const uniqueUserTicks = createYAxisTicks(Math.max(...days.map((day) => day.uniqueReviewingUsers), 1));
-  const maxReviewEvents = getYAxisDomainMax(reviewEventTicks, "review events");
-  const maxUniqueUsers = getYAxisDomainMax(uniqueUserTicks, "unique users");
-  const points = createChartPoints(days, {
-    reviewEventsMax: maxReviewEvents,
-    uniqueUsersMax: maxUniqueUsers,
-  });
-  const tickDates = createTickDates(days);
-  const barWidth = Math.max(
-    8,
-    ((dailyChartWidth - chartMargin.inlineStart - chartMargin.inlineEnd) / days.length) * 0.72,
-  );
-
-  return (
-    <svg
-      className={styles.chartSvg}
-      viewBox={`0 0 ${dailyChartWidth} ${dailyChartHeight}`}
-      role="img"
-      aria-label={reviewEventsLabel}
-    >
-      {reviewEventTicks.map((tick) => {
-        const y = chartMargin.top + chartFrameHeight - ((tick / maxReviewEvents) * chartFrameHeight);
-
-        return (
-          <g key={`daily-grid-${tick}`}>
-            <line
-              x1={chartMargin.inlineStart}
-              y1={y}
-              x2={dailyChartWidth - chartMargin.inlineEnd}
-              y2={y}
-              className={styles.gridLine}
-            />
-            <text x={chartMargin.inlineStart - 10} y={y + 4} className={styles.axisLabelStart}>
-              {formatNumber(locale, tick)}
-            </text>
-          </g>
-        );
-      })}
-
-      {uniqueUserTicks.map((tick) => {
-        const y = chartMargin.top + chartFrameHeight - ((tick / maxUniqueUsers) * chartFrameHeight);
-
-        return (
-          <text
-            key={`users-tick-${tick}`}
-            x={dailyChartWidth - chartMargin.inlineEnd + 10}
-            y={y + 4}
-            className={styles.axisLabelEnd}
-          >
-            {formatNumber(locale, tick)}
-          </text>
-        );
-      })}
-
-      {points.map((point) => (
-        <g key={point.date}>
-          <rect
-            x={point.centerX - (barWidth / 2)}
-            y={point.reviewEventsY}
-            width={barWidth}
-            height={point.reviewEventsHeight}
-            rx={4}
-            className={styles.reviewBar}
-          >
-            <title>
-              {`${formatLongDate(locale, point.date)}: ${formatNumber(locale, point.reviewEvents)} ${reviewEventsLabel}, ${formatNumber(locale, point.uniqueUsers)} ${uniqueReviewersLabel}`}
-            </title>
-          </rect>
-          <circle
-            cx={point.centerX}
-            cy={point.uniqueUsersY}
-            r={3.5}
-            className={styles.uniqueUsersPoint}
-          >
-            <title>
-              {`${formatLongDate(locale, point.date)}: ${formatNumber(locale, point.uniqueUsers)} ${uniqueReviewersLabel}`}
-            </title>
-          </circle>
-        </g>
-      ))}
-
-      <path d={createLinePath(points)} className={styles.uniqueUsersLine} />
-
-      {tickDates.map((date) => {
-        const point = points.find((currentPoint) => currentPoint.date === date);
-
-        if (point === undefined) {
-          return null;
-        }
-
-        return (
-          <text
-            key={`daily-date-${date}`}
-            x={point.centerX}
-            y={dailyChartHeight - 18}
-            textAnchor="middle"
-            className={styles.dateLabel}
-          >
-            {formatCompactDate(locale, date)}
-          </text>
-        );
-      })}
-    </svg>
   );
 }
 
@@ -427,108 +649,104 @@ function PlatformActivityChart({
   days,
   locale,
   platformLabels,
+  reviewEventsLabel,
+  xAxisLabel,
+  yAxisLabel,
 }: PlatformActivityChartProps): React.JSX.Element {
-  const reviewEventTicks = createYAxisTicks(Math.max(...days.map((day) => day.reviewEvents.total), 1));
-  const uniqueUserTicks = createYAxisTicks(Math.max(...days.map((day) => day.uniqueReviewingUsers), 1));
-  const maxReviewEvents = getYAxisDomainMax(reviewEventTicks, "review events");
-  const maxUniqueUsers = getYAxisDomainMax(uniqueUserTicks, "unique users");
-  const points = createChartPoints(days, {
-    reviewEventsMax: maxReviewEvents,
-    uniqueUsersMax: maxUniqueUsers,
-  });
-  const tickDates = createTickDates(days);
-  const barWidth = Math.max(
-    8,
-    ((dailyChartWidth - chartMargin.inlineStart - chartMargin.inlineEnd) / days.length) * 0.72,
+  const ticks = createYAxisTicks(
+    getMaxDailyValue(days, (day) => day.reviewEvents.total, "peak daily review events"),
+    9,
   );
+  const maxReviewEvents = getYAxisDomainMax(ticks, "review events");
+  const points = createPlatformReviewEventPoints(days, maxReviewEvents);
+  const tickDates = createTickDates(days);
+  const barWidth = getChartBarWidth(days);
 
   return (
     <svg
       className={styles.chartSvg}
-      viewBox={`0 0 ${dailyChartWidth} ${dailyChartHeight}`}
+      viewBox={`0 0 ${chartWidth} ${chartHeight}`}
       role="img"
       aria-label={ariaLabel}
     >
-      {reviewEventTicks.map((tick) => {
-        const y = chartMargin.top + chartFrameHeight - ((tick / maxReviewEvents) * chartFrameHeight);
+      <ChartAxes
+        ticks={ticks}
+        maxValue={maxReviewEvents}
+        locale={locale}
+        xAxisLabel={xAxisLabel}
+        yAxisLabel={yAxisLabel}
+      />
 
-        return (
-          <g key={`platform-grid-${tick}`}>
-            <line
-              x1={chartMargin.inlineStart}
-              y1={y}
-              x2={dailyChartWidth - chartMargin.inlineEnd}
-              y2={y}
-              className={styles.gridLine}
-            />
-            <text x={chartMargin.inlineStart - 10} y={y + 4} className={styles.axisLabelStart}>
-              {formatNumber(locale, tick)}
-            </text>
-          </g>
-        );
-      })}
+      {points.map((point) => (
+        <g key={`platform-day-${point.date}`}>
+          {point.segments.map((segment) => {
+            const segmentX = point.centerX - (barWidth / 2);
+            const title = `${formatLongDate(locale, point.date)}: ${platformLabels[segment.platform]} ${formatNumber(locale, segment.value)} ${reviewEventsLabel}`;
 
-      {points.map((point, index) => {
-        const day = days[index];
-
-        if (day === undefined) {
-          throw new Error(`Missing global activity snapshot day for chart index ${index}.`);
-        }
-
-        let previousOffset = 0;
-
-        return (
-          <g key={`platform-day-${point.date}`}>
-            {globalActivityPlatforms.map((platform) => {
-              const platformValue = day.reviewEvents.byPlatform[platform];
-              const topOffset = point.stackedHeights[platform];
-              const height = topOffset - previousOffset;
-              const y = chartMargin.top + chartFrameHeight - topOffset;
-              previousOffset = topOffset;
-
-              if (height <= 0) {
-                return null;
-              }
-
+            if (segment.isTop) {
               return (
-                <rect
-                  key={`${point.date}-${platform}`}
-                  x={point.centerX - (barWidth / 2)}
-                  y={y}
-                  width={barWidth}
-                  height={height}
-                  rx={platform === "ios" ? 4 : 0}
-                  fill={platformColors[platform]}
+                <path
+                  key={`${point.date}-${segment.platform}`}
+                  d={createTopRoundedRectPath(segmentX, segment.y, barWidth, segment.height, 4)}
+                  fill={platformColors[segment.platform]}
                 >
-                  <title>
-                    {`${formatLongDate(locale, point.date)}: ${platformLabels[platform]} ${formatNumber(locale, platformValue)}`}
-                  </title>
-                </rect>
+                  <title>{title}</title>
+                </path>
               );
-            })}
-          </g>
-        );
-      })}
+            }
 
-      {tickDates.map((date) => {
-        const point = points.find((currentPoint) => currentPoint.date === date);
+            return (
+              <rect
+                key={`${point.date}-${segment.platform}`}
+                x={segmentX}
+                y={segment.y}
+                width={barWidth}
+                height={segment.height}
+                fill={platformColors[segment.platform]}
+              >
+                <title>{title}</title>
+              </rect>
+            );
+          })}
+        </g>
+      ))}
 
-        if (point === undefined) {
-          return null;
-        }
+      <ChartDateLabels points={points} dates={tickDates} locale={locale} />
 
-        return (
-          <text
-            key={`platform-date-${date}`}
-            x={point.centerX}
-            y={dailyChartHeight - 18}
-            textAnchor="middle"
-            className={styles.dateLabel}
-          >
-            {formatCompactDate(locale, date)}
-          </text>
-        );
-      })}
+      {points.map((point) => (
+        <g key={`platform-tooltip-day-${point.date}`}>
+          {point.segments.map((segment) => {
+            const segmentX = point.centerX - (barWidth / 2);
+            const hitBox = createTooltipHitBox(segment.y, segment.height);
+            const tooltipLines = [
+              formatLongDate(locale, point.date),
+              `${platformLabels[segment.platform]}: ${formatNumber(locale, segment.value)} ${reviewEventsLabel}`,
+              `${formatNumber(locale, point.total)} ${reviewEventsLabel}`,
+            ] as const;
+
+            return (
+              <g
+                key={`platform-tooltip-${point.date}-${segment.platform}`}
+                className={styles.tooltipTarget}
+              >
+                <rect
+                  x={segmentX}
+                  y={hitBox.y}
+                  width={barWidth}
+                  height={hitBox.height}
+                  className={styles.tooltipHitArea}
+                >
+                  <title>{tooltipLines.join(": ")}</title>
+                </rect>
+                <ChartTooltip
+                  lines={tooltipLines}
+                  layout={createTooltipLayout(point.centerX, segment.y, tooltipLines.length)}
+                />
+              </g>
+            );
+          })}
+        </g>
+      ))}
     </svg>
   );
 }
@@ -541,6 +759,7 @@ export function PublicActivitySection({
   snapshot: GlobalActivitySnapshot;
 }>): React.JSX.Element {
   const uiCopy = getUiCopy(locale);
+  const activityCopy = uiCopy.home.activity;
   const sourceLink = (
     <a
       href={globalActivitySnapshotUrl}
@@ -548,97 +767,95 @@ export function PublicActivitySection({
       rel="noopener noreferrer"
       className={styles.sourceLink}
     >
-      {uiCopy.home.activity.sourceLabel}
+      {activityCopy.sourceLabel}
     </a>
   );
-  const peakDay = getPeakDay(snapshot.days);
-  const platformLabels = uiCopy.home.activity.platformLabels;
+  const platformLabels = activityCopy.platformLabels;
+  const peakDailyReviewEvents = getMaxDailyValue(
+    snapshot.days,
+    (day) => day.reviewEvents.total,
+    "peak daily review events",
+  );
+  const peakDailyUniqueUsers = getMaxDailyValue(
+    snapshot.days,
+    (day) => day.uniqueReviewingUsers,
+    "peak daily unique users",
+  );
 
   return (
     <section className={styles.section} aria-labelledby="public-activity-title">
       <div className={styles.sectionHeader}>
         <div className={styles.sectionIntro}>
-          <p className={styles.eyebrow}>{uiCopy.home.activity.eyebrow}</p>
+          <p className={styles.eyebrow}>{activityCopy.eyebrow}</p>
           <h2 id="public-activity-title" className={styles.title}>
-            {uiCopy.home.activity.title}
+            {activityCopy.title}
           </h2>
-          <p className={styles.description}>{uiCopy.home.activity.description}</p>
+          <p className={styles.description}>{activityCopy.description}</p>
         </div>
         <div className={styles.headerActions}>{sourceLink}</div>
       </div>
 
       <div className={styles.metricGrid}>
         <MetricCard
-          label={uiCopy.home.activity.totalReviewEventsLabel}
+          label={activityCopy.totalReviewEventsLabel}
           value={formatNumber(locale, snapshot.totals.reviewEvents.total)}
-          detail={`${formatLongDate(locale, snapshot.from)} - ${formatLongDate(locale, snapshot.to)}`}
         />
         <MetricCard
-          label={uiCopy.home.activity.uniqueReviewersLabel}
+          label={activityCopy.usersWithReviewEventsLabel}
           value={formatNumber(locale, snapshot.totals.uniqueReviewingUsers)}
-          detail={uiCopy.home.activity.cumulativeLabel}
         />
         <MetricCard
-          label={uiCopy.home.activity.peakDayLabel}
-          value={formatNumber(locale, peakDay.reviewEvents.total)}
-          detail={formatLongDate(locale, peakDay.date)}
+          label={activityCopy.daysInRangeLabel}
+          value={formatNumber(locale, snapshot.days.length)}
         />
         <MetricCard
-          label={uiCopy.home.activity.updatedLabel}
-          value={formatTimestamp(locale, snapshot.generatedAtUtc)}
-          detail={uiCopy.home.activity.utcLabel}
+          label={activityCopy.peakDailyVolumeLabel}
+          value={formatNumber(locale, peakDailyReviewEvents)}
+        />
+        <MetricCard
+          label={activityCopy.peakDailyUniqueUsersLabel}
+          value={formatNumber(locale, peakDailyUniqueUsers)}
         />
       </div>
 
       <div className={styles.chartGrid}>
         <ChartShell
-          title={uiCopy.home.activity.dailyActivityChartTitle}
-          detail={
-            <div className={styles.legendRow}>
-              <span className={styles.legendItem}>
-                <span
-                  className={styles.legendSwatch}
-                  style={{ backgroundColor: dailyReviewBarColor }}
-                  aria-hidden="true"
-                />
-                <span>{uiCopy.home.activity.totalReviewEventsLabel}</span>
-              </span>
-              <span className={styles.legendItem}>
-                <span className={styles.lineSwatch} aria-hidden="true" />
-                <span>{uiCopy.home.activity.uniqueReviewersLabel}</span>
-              </span>
-            </div>
-          }
+          title={activityCopy.dailyUniqueUsersChartTitle}
+          description={activityCopy.dailyUniqueUsersChartDescription}
+          aside={null}
         >
-          <DailyActivityChart
+          <DailyUniqueUsersChart
+            ariaLabel={activityCopy.dailyUniqueUsersChartTitle}
             days={snapshot.days}
             locale={locale}
-            reviewEventsLabel={uiCopy.home.activity.totalReviewEventsLabel}
-            uniqueReviewersLabel={uiCopy.home.activity.uniqueReviewersLabel}
+            xAxisLabel={activityCopy.reviewDateAxisLabel}
+            yAxisLabel={activityCopy.uniqueUsersAxisLabel}
           />
         </ChartShell>
 
         <ChartShell
-          title={uiCopy.home.activity.platformActivityChartTitle}
-          detail={
+          title={activityCopy.platformActivityChartTitle}
+          description={activityCopy.platformActivityChartDescription}
+          aside={
             <div className={styles.legendRow}>
               {globalActivityPlatforms.map((platform) => (
-                <PlatformSummary
+                <PlatformLegendItem
                   key={platform}
                   label={platformLabels[platform]}
                   platform={platform}
-                  value={snapshot.totals.reviewEvents.byPlatform[platform]}
-                  locale={locale}
                 />
               ))}
             </div>
           }
         >
           <PlatformActivityChart
-            ariaLabel={uiCopy.home.activity.platformActivityChartTitle}
+            ariaLabel={activityCopy.platformActivityChartTitle}
             days={snapshot.days}
             locale={locale}
             platformLabels={platformLabels}
+            reviewEventsLabel={activityCopy.reviewEventsAxisLabel}
+            xAxisLabel={activityCopy.reviewDateAxisLabel}
+            yAxisLabel={activityCopy.reviewEventsAxisLabel}
           />
         </ChartShell>
       </div>

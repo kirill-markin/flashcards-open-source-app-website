@@ -1,9 +1,7 @@
 import type { AppLocale } from "@/lib/i18n";
 import {
-  globalActivityPlatforms,
   globalActivitySnapshotUrl,
   serializeGlobalActivitySnapshot,
-  type GlobalActivityPlatform,
   type GlobalActivitySnapshot,
   type GlobalActivitySnapshotDay,
 } from "@/lib/globalActivitySnapshot";
@@ -77,27 +75,21 @@ function formatDate(locale: AppLocale, value: string): string {
   }).format(new Date(`${value}T00:00:00.000Z`));
 }
 
-function getPlatformLabel(platform: GlobalActivityPlatform): string {
-  switch (platform) {
-    case "web":
-      return "Web";
-    case "android":
-      return "Android";
-    case "ios":
-      return "iOS";
-  }
-}
-
-function getPeakDay(days: ReadonlyArray<GlobalActivitySnapshotDay>): GlobalActivitySnapshotDay {
+function getMaxDailyValue(
+  days: ReadonlyArray<GlobalActivitySnapshotDay>,
+  getValue: (day: GlobalActivitySnapshotDay) => number,
+  label: string
+): number {
   const [firstDay] = days;
 
   if (firstDay === undefined) {
-    throw new Error("Global activity snapshot days must not be empty when rendering Markdown.");
+    throw new Error(`Global activity snapshot days must not be empty when rendering Markdown ${label}.`);
   }
 
-  return days.reduce<GlobalActivitySnapshotDay>((currentPeakDay, day) => (
-    day.reviewEvents.total > currentPeakDay.reviewEvents.total ? day : currentPeakDay
-  ), firstDay);
+  return days.reduce<number>(
+    (maxValue, day) => Math.max(maxValue, getValue(day)),
+    getValue(firstDay)
+  );
 }
 
 function renderHeroSection(section: HeroSection, lines: string[]): void {
@@ -123,7 +115,16 @@ function renderPublicActivitySection(
 ): void {
   const uiCopy = getUiCopy(locale);
   const snapshot = context.globalActivitySnapshot;
-  const peakDay = getPeakDay(snapshot.days);
+  const peakDailyReviewEvents = getMaxDailyValue(
+    snapshot.days,
+    (day) => day.reviewEvents.total,
+    "peak daily review events"
+  );
+  const peakDailyUniqueUsers = getMaxDailyValue(
+    snapshot.days,
+    (day) => day.uniqueReviewingUsers,
+    "peak daily unique users"
+  );
 
   if (pageContent.slug !== "home") {
     throw new Error(`public_activity section is only supported on the home page. page=${pageContent.slug}`);
@@ -135,20 +136,19 @@ function renderPublicActivitySection(
   lines.push("");
   lines.push(`- [${uiCopy.home.activity.sourceLabel}](${globalActivitySnapshotUrl})`);
   lines.push(`- ${uiCopy.home.activity.totalReviewEventsLabel}: ${formatNumber(locale, snapshot.totals.reviewEvents.total)}`);
-  lines.push(`- ${uiCopy.home.activity.uniqueReviewersLabel}: ${formatNumber(locale, snapshot.totals.uniqueReviewingUsers)}`);
-  lines.push(`- ${uiCopy.home.activity.peakDayLabel}: ${formatNumber(locale, peakDay.reviewEvents.total)} on ${formatDate(locale, peakDay.date)}`);
-  lines.push(`- ${uiCopy.home.activity.updatedLabel}: ${snapshot.generatedAtUtc}`);
-  lines.push(`- Date window: ${snapshot.from} to ${snapshot.to}`);
+  lines.push(`- ${uiCopy.home.activity.usersWithReviewEventsLabel}: ${formatNumber(locale, snapshot.totals.uniqueReviewingUsers)}`);
+  lines.push(`- ${uiCopy.home.activity.daysInRangeLabel}: ${formatNumber(locale, snapshot.days.length)}`);
+  lines.push(`- ${uiCopy.home.activity.peakDailyVolumeLabel}: ${formatNumber(locale, peakDailyReviewEvents)}`);
+  lines.push(`- ${uiCopy.home.activity.peakDailyUniqueUsersLabel}: ${formatNumber(locale, peakDailyUniqueUsers)}`);
+  lines.push(`- Date window: ${formatDate(locale, snapshot.from)} to ${formatDate(locale, snapshot.to)}`);
   lines.push("");
-  lines.push("Platform totals:");
+  lines.push(`### ${uiCopy.home.activity.dailyUniqueUsersChartTitle}`);
   lines.push("");
-
-  globalActivityPlatforms.forEach((platform) => {
-    lines.push(
-      `- ${getPlatformLabel(platform)}: ${formatNumber(locale, snapshot.totals.reviewEvents.byPlatform[platform])}`
-    );
-  });
-
+  lines.push(uiCopy.home.activity.dailyUniqueUsersChartDescription);
+  lines.push("");
+  lines.push(`### ${uiCopy.home.activity.platformActivityChartTitle}`);
+  lines.push("");
+  lines.push(uiCopy.home.activity.platformActivityChartDescription);
   lines.push("");
   lines.push("Build-time raw snapshot:");
   lines.push("");
