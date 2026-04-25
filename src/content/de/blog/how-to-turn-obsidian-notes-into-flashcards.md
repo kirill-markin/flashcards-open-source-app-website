@@ -17,6 +17,8 @@ Letzten Donnerstag habe ich einen Obsidian-Vault namens `biology-finals` geöffn
 
 Nicht, weil Obsidian schlecht wäre. Es ist großartig, um Ideen zu sammeln, Konzepte zu verknüpfen und Notizen aufzubauen, die drei Monate später noch Sinn ergeben. Die Reibung beginnt erst, wenn du aktives Abrufen willst. Ein Vault ist nicht dasselbe wie ein Deck, und beides von Hand ineinander zu verwandeln, nervt sehr schnell.
 
+![Dunkle Markdown-Notizen verwandeln sich durch einen schwarzen Kristall in Flashcards mit Hinweisen auf spaced repetition](/blog/how-to-turn-obsidian-notes-into-flashcards.png)
+
 ## Obsidian ist hervorragend für Notizen und etwas unhandlich fürs Wiederholen
 
 Das ist der eigentliche Widerspruch.

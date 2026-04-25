@@ -17,6 +17,8 @@ El jueves pasado abrí un vault de Obsidian llamado `biology-finals` y encontré
 
 No porque Obsidian sea malo. Es excelente para recopilar ideas, conectar conceptos y crear notas que siguen teniendo sentido tres meses después. La fricción empieza cuando quieres practicar recuerdo activo. Un vault no es lo mismo que un mazo, y pasar de una cosa a la otra a mano cansa muy rápido.
 
+![Notas Markdown oscuras que se transforman, a través de un cristal negro, en tarjetas didácticas con señales de repetición espaciada](/blog/how-to-turn-obsidian-notes-into-flashcards.png)
+
 ## Obsidian es excelente para tomar notas y algo incómodo para repasar
 
 Ese es el desajuste de fondo.

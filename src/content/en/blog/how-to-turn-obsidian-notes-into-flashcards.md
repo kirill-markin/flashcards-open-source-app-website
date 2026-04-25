@@ -17,6 +17,8 @@ Last Thursday I opened an Obsidian vault called `biology-finals` and found 143 M
 
 Not because Obsidian is bad. It is great for collecting ideas, linking concepts, and building notes that still make sense three months later. The friction starts when you want active recall. A vault is not the same thing as a deck, and turning one into the other by hand gets old very fast.
 
+![Dark markdown notes transforming through an obsidian crystal into flashcards with spaced repetition cues](/blog/how-to-turn-obsidian-notes-into-flashcards.png)
+
 ## Obsidian is excellent for notes and a bit awkward for review
 
 This is the core mismatch.
