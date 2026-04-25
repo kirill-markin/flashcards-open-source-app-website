@@ -51,6 +51,25 @@ interface AppUiCopy {
     readonly termsOfServiceLabel: string;
   };
   readonly home: {
+    readonly activity: {
+      readonly cumulativeLabel: string;
+      readonly dailyActivityChartTitle: string;
+      readonly description: string;
+      readonly eyebrow: string;
+      readonly peakDayLabel: string;
+      readonly platformActivityChartTitle: string;
+      readonly platformLabels: {
+        readonly android: string;
+        readonly ios: string;
+        readonly web: string;
+      };
+      readonly sourceLabel: string;
+      readonly title: string;
+      readonly totalReviewEventsLabel: string;
+      readonly uniqueReviewersLabel: string;
+      readonly updatedLabel: string;
+      readonly utcLabel: string;
+    };
     readonly agentHintDescription: string;
     readonly aiAgentSectionLabel: string;
     readonly appPreviewAlt: string;
@@ -131,6 +150,26 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       termsOfServiceLabel: "Terms of Service",
     },
     home: {
+      activity: {
+        cumulativeLabel: "Cumulative up to the snapshot date",
+        dailyActivityChartTitle: "Daily review volume and unique reviewers",
+        description:
+          "This section is rendered from the public global snapshot captured at build time and reuses the chart framing from the admin analytics views. Totals are cumulative; the charts show daily review activity across web, Android, and iOS.",
+        eyebrow: "Public Activity",
+        peakDayLabel: "Peak day",
+        platformActivityChartTitle: "Daily platform mix",
+        platformLabels: {
+          android: "Android",
+          ios: "iOS",
+          web: "Web",
+        },
+        sourceLabel: "Open Snapshot JSON",
+        title: "Real review activity from the public API",
+        totalReviewEventsLabel: "Review events",
+        uniqueReviewersLabel: "Unique reviewers",
+        updatedLabel: "Updated",
+        utcLabel: "Rendered from UTC snapshot data",
+      },
       agentHintDescription:
         "Share this discovery URL with your AI agent. It can sign up, create your account, and manage your Flashcards workspace for you.",
       aiAgentSectionLabel: "FOR AI AGENT",
@@ -211,6 +250,26 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       termsOfServiceLabel: "Términos del servicio",
     },
     home: {
+      activity: {
+        cumulativeLabel: "Acumulado hasta la fecha del snapshot",
+        dailyActivityChartTitle: "Volumen diario de repasos y revisores únicos",
+        description:
+          "Esta sección se renderiza con el snapshot global público capturado durante el build y reutiliza el estilo de gráficos de las vistas analíticas del panel admin. Los totales son acumulados; los gráficos muestran la actividad diaria en web, Android e iOS.",
+        eyebrow: "Actividad pública",
+        peakDayLabel: "Pico diario",
+        platformActivityChartTitle: "Mezcla diaria por plataforma",
+        platformLabels: {
+          android: "Android",
+          ios: "iOS",
+          web: "Web",
+        },
+        sourceLabel: "Abrir JSON del snapshot",
+        title: "Actividad real desde la API pública",
+        totalReviewEventsLabel: "Eventos de repaso",
+        uniqueReviewersLabel: "Revisores únicos",
+        updatedLabel: "Actualizado",
+        utcLabel: "Renderizado con datos UTC del snapshot",
+      },
       agentHintDescription:
         "Comparte esta URL de descubrimiento con tu agente de IA. Puede registrarte, crear tu cuenta y gestionar tu espacio de trabajo de Flashcards por ti.",
       aiAgentSectionLabel: "PARA AGENTE DE IA",
@@ -291,6 +350,26 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       termsOfServiceLabel: "شروط الخدمة",
     },
     home: {
+      activity: {
+        cumulativeLabel: "إجمالي تراكمي حتى تاريخ اللقطة",
+        dailyActivityChartTitle: "حجم المراجعات اليومي والمراجعين الفريدين",
+        description:
+          "يُعرض هذا القسم من اللقطة العالمية العامة التي يتم التقاطها وقت البناء، ويستخدم نفس أسلوب الرسوم في لوحات تحليلات المشرف. الإجماليات تراكمية، وتعرض الرسوم النشاط اليومي عبر الويب وAndroid وiOS.",
+        eyebrow: "نشاط عام",
+        peakDayLabel: "أعلى يوم",
+        platformActivityChartTitle: "التوزيع اليومي حسب المنصة",
+        platformLabels: {
+          android: "Android",
+          ios: "iOS",
+          web: "الويب",
+        },
+        sourceLabel: "فتح JSON الخاص باللقطة",
+        title: "نشاط حقيقي من الـ API العامة",
+        totalReviewEventsLabel: "أحداث المراجعة",
+        uniqueReviewersLabel: "المراجعون الفريدون",
+        updatedLabel: "آخر تحديث",
+        utcLabel: "معروض من بيانات لقطة UTC",
+      },
       agentHintDescription:
         "شارك رابط الاكتشاف هذا مع وكيل الذكاء الاصطناعي لديك. يمكنه التسجيل، إنشاء حسابك، وإدارة مساحة عمل Flashcards نيابةً عنك.",
       aiAgentSectionLabel: "لوكيل الذكاء الاصطناعي",
@@ -371,6 +450,26 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       termsOfServiceLabel: "Nutzungsbedingungen",
     },
     home: {
+      activity: {
+        cumulativeLabel: "Kumuliert bis zum Snapshot-Datum",
+        dailyActivityChartTitle: "Tägliches Review-Volumen und eindeutige Reviewer",
+        description:
+          "Dieser Bereich wird aus dem öffentlichen Global Snapshot gerendert, der zur Build-Zeit erfasst wurde, und übernimmt die Chart-Sprache aus den Admin-Analytics-Ansichten. Die Summen sind kumulativ; die Charts zeigen die tägliche Aktivität auf Web, Android und iOS.",
+        eyebrow: "Öffentliche Aktivität",
+        peakDayLabel: "Spitzentag",
+        platformActivityChartTitle: "Täglicher Plattform-Mix",
+        platformLabels: {
+          android: "Android",
+          ios: "iOS",
+          web: "Web",
+        },
+        sourceLabel: "Snapshot-JSON öffnen",
+        title: "Reale Aktivität aus der öffentlichen API",
+        totalReviewEventsLabel: "Review-Ereignisse",
+        uniqueReviewersLabel: "Eindeutige Reviewer",
+        updatedLabel: "Aktualisiert",
+        utcLabel: "Aus UTC-Snapshot-Daten gerendert",
+      },
       agentHintDescription:
         "Teile diese Discovery-URL mit deinem KI-Agenten. Er kann sich registrieren, dein Konto anlegen und deinen Flashcards-Arbeitsbereich verwalten.",
       aiAgentSectionLabel: "FÜR KI-AGENTEN",
@@ -451,6 +550,26 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       termsOfServiceLabel: "सेवा की शर्तें",
     },
     home: {
+      activity: {
+        cumulativeLabel: "स्नैपशॉट तारीख तक का संचयी डेटा",
+        dailyActivityChartTitle: "रोज़ाना review volume और unique reviewers",
+        description:
+          "यह सेक्शन build time पर कैप्चर किए गए public global snapshot से render होता है और admin analytics views वाली chart style का उपयोग करता है। totals cumulative हैं; charts web, Android और iOS पर रोज़ की activity दिखाते हैं।",
+        eyebrow: "पब्लिक एक्टिविटी",
+        peakDayLabel: "सबसे बड़ा दिन",
+        platformActivityChartTitle: "रोज़ाना platform mix",
+        platformLabels: {
+          android: "Android",
+          ios: "iOS",
+          web: "वेब",
+        },
+        sourceLabel: "Snapshot JSON खोलें",
+        title: "Public API से वास्तविक activity",
+        totalReviewEventsLabel: "Review events",
+        uniqueReviewersLabel: "Unique reviewers",
+        updatedLabel: "अपडेट किया गया",
+        utcLabel: "UTC snapshot data से रेंडर किया गया",
+      },
       agentHintDescription:
         "यह discovery URL अपने AI agent के साथ साझा करें। वह साइन अप कर सकता है, आपका अकाउंट बना सकता है, और आपका Flashcards workspace मैनेज कर सकता है।",
       aiAgentSectionLabel: "AI AGENT के लिए",
@@ -531,6 +650,26 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       termsOfServiceLabel: "利用規約",
     },
     home: {
+      activity: {
+        cumulativeLabel: "スナップショット日時点の累計",
+        dailyActivityChartTitle: "日別レビュー量とユニークレビュアー",
+        description:
+          "このセクションはビルド時に取得した公開グローバルスナップショットからレンダリングされ、管理画面の分析ビューに近いチャート表現を使います。合計値は累計で、グラフは web、Android、iOS の日次アクティビティを示します。",
+        eyebrow: "公開アクティビティ",
+        peakDayLabel: "最大日",
+        platformActivityChartTitle: "日別プラットフォーム構成",
+        platformLabels: {
+          android: "Android",
+          ios: "iOS",
+          web: "ウェブ",
+        },
+        sourceLabel: "Snapshot JSON を開く",
+        title: "公開 API から見える実際のアクティビティ",
+        totalReviewEventsLabel: "レビューイベント",
+        uniqueReviewersLabel: "ユニークレビュアー",
+        updatedLabel: "更新日時",
+        utcLabel: "UTC スナップショットデータを表示",
+      },
       agentHintDescription:
         "このディスカバリー URL を AI エージェントに共有してください。サインアップ、アカウント作成、Flashcards ワークスペースの管理まで任せられます。",
       aiAgentSectionLabel: "AI エージェント向け",
@@ -611,6 +750,26 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       termsOfServiceLabel: "Условия использования",
     },
     home: {
+      activity: {
+        cumulativeLabel: "Накоплено на дату снимка",
+        dailyActivityChartTitle: "Дневной объём повторений и уникальные пользователи",
+        description:
+          "Этот блок рендерится из публичного global snapshot, полученного во время build, и использует визуальный язык графиков из admin analytics. Суммы накопительные, а графики показывают дневную активность в web, Android и iOS.",
+        eyebrow: "Публичная активность",
+        peakDayLabel: "Пиковый день",
+        platformActivityChartTitle: "Дневная смесь платформ",
+        platformLabels: {
+          android: "Android",
+          ios: "iOS",
+          web: "Веб",
+        },
+        sourceLabel: "Открыть Snapshot JSON",
+        title: "Реальная активность из публичного API",
+        totalReviewEventsLabel: "События повторения",
+        uniqueReviewersLabel: "Уникальные пользователи",
+        updatedLabel: "Обновлено",
+        utcLabel: "Показано по данным UTC snapshot",
+      },
       agentHintDescription:
         "Поделитесь этим discovery URL со своим AI-агентом. Он сможет зарегистрироваться, создать аккаунт и управлять вашим рабочим пространством Flashcards.",
       aiAgentSectionLabel: "ДЛЯ AI-АГЕНТА",
@@ -690,6 +849,26 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       termsOfServiceLabel: "服务条款",
     },
     home: {
+      activity: {
+        cumulativeLabel: "累计到快照日期",
+        dailyActivityChartTitle: "每日复习量与独立复习用户",
+        description:
+          "这个模块使用 build 时捕获的公开全局快照渲染，并沿用 admin analytics 视图里的图表表达方式。总数是累计值，图表展示 web、Android 和 iOS 的每日活动。",
+        eyebrow: "公开活动",
+        peakDayLabel: "峰值日期",
+        platformActivityChartTitle: "每日平台构成",
+        platformLabels: {
+          android: "Android",
+          ios: "iOS",
+          web: "网页",
+        },
+        sourceLabel: "打开 Snapshot JSON",
+        title: "来自公开 API 的真实活动数据",
+        totalReviewEventsLabel: "复习事件",
+        uniqueReviewersLabel: "独立复习用户",
+        updatedLabel: "更新时间",
+        utcLabel: "基于 UTC 快照数据渲染",
+      },
       agentHintDescription:
         "把这个 discovery URL 分享给你的 AI agent。它可以帮你注册、创建账号，并管理你的 Flashcards 工作区。",
       aiAgentSectionLabel: "面向 AI AGENT",

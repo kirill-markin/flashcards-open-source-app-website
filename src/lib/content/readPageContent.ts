@@ -25,6 +25,7 @@ import type {
   PageSection,
   PricingTier,
   PricingTiersSection,
+  PublicActivityPageSection,
   SimpleMarkdownPageSection,
 } from "./types";
 
@@ -176,6 +177,12 @@ function validateFeatureListSection(
   };
 }
 
+function validatePublicActivityPageSection(): PublicActivityPageSection {
+  return {
+    type: "public_activity",
+  };
+}
+
 function validatePricingTier(
   tier: PricingTier,
   slug: MarketingPageSlug
@@ -262,6 +269,8 @@ function validateSection(
       return validateHeroSection(section, slug);
     case "feature_list":
       return validateFeatureListSection(section, slug);
+    case "public_activity":
+      return validatePublicActivityPageSection();
     case "pricing_tiers":
       return validatePricingTiersSection(section, slug);
     case "legal_page":
@@ -281,11 +290,12 @@ function validatePageStructure(pageContent: PageContent): PageContent {
   switch (pageContent.slug) {
     case "home":
       if (
-        pageContent.sections.length !== 2 ||
+        pageContent.sections.length !== 3 ||
         pageContent.sections[0].type !== "hero" ||
-        pageContent.sections[1].type !== "feature_list"
+        pageContent.sections[1].type !== "public_activity" ||
+        pageContent.sections[2].type !== "feature_list"
       ) {
-        throw new Error("Home page content must contain hero and feature_list sections");
+        throw new Error("Home page content must contain hero, public_activity, and feature_list sections");
       }
       return pageContent;
     case "features":

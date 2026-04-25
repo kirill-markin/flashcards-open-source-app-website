@@ -2,6 +2,7 @@ import Image from "next/image";
 import { AuthButton } from "@/components/AuthButton";
 import { CopyCodeField } from "@/components/CopyCodeField";
 import { HumanPlatformLinks } from "@/components/HumanPlatformLinks";
+import { PublicActivitySection } from "@/components/PublicActivitySection";
 import { SiteFrame } from "@/components/SiteFrame";
 import { renderMarkdownToHtml } from "@/lib/content/renderMarkdownToHtml";
 import { readPageContent } from "@/lib/content/readPageContent";
@@ -14,6 +15,10 @@ import type {
   PricingTiersSection,
 } from "@/lib/content/types";
 import type { AppLocale } from "@/lib/i18n";
+import {
+  readGeneratedGlobalActivitySnapshot,
+  type GlobalActivitySnapshot,
+} from "@/lib/globalActivitySnapshot";
 import { getHomeShowcaseImagePath } from "@/lib/homeShowcaseImage";
 import { getUiCopy } from "@/lib/uiCopy";
 import homeStyles from "@/app/page.module.css";
@@ -53,7 +58,8 @@ function getSectionByType<TSectionType extends PageSection["type"]>(
 function renderHomePage(
   locale: AppLocale,
   heroSection: HeroSection,
-  featureSection: FeatureListSection
+  featureSection: FeatureListSection,
+  activitySnapshot: GlobalActivitySnapshot
 ): React.JSX.Element {
   const uiCopy = getUiCopy(locale);
 
@@ -116,6 +122,8 @@ function renderHomePage(
           />
         </div>
       </section>
+
+      <PublicActivitySection locale={locale} snapshot={activitySnapshot} />
 
       <section className={homeStyles.features}>
         <div className={homeStyles.featuresInner}>
@@ -255,7 +263,8 @@ export async function MarketingPageView({
       page = renderHomePage(
         locale,
         getSectionByType(pageContent.sections, "hero"),
-        getSectionByType(pageContent.sections, "feature_list")
+        getSectionByType(pageContent.sections, "feature_list"),
+        readGeneratedGlobalActivitySnapshot(process.cwd())
       );
       break;
     case "features":

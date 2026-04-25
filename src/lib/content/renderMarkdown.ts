@@ -1,4 +1,12 @@
 import type { AppLocale } from "@/lib/i18n";
+import {
+  globalActivityPlatforms,
+  globalActivitySnapshotUrl,
+  serializeGlobalActivitySnapshot,
+  type GlobalActivityPlatform,
+  type GlobalActivitySnapshot,
+  type GlobalActivitySnapshotDay,
+} from "@/lib/globalActivitySnapshot";
 import { getUiCopy } from "@/lib/uiCopy";
 import type {
   FeatureListSection,
@@ -17,6 +25,10 @@ export interface MarkdownSiteContext {
   readonly githubUrl: string;
 }
 
+export interface MarketingPageMarkdownContext {
+  readonly globalActivitySnapshot: GlobalActivitySnapshot;
+}
+
 function getPageUrl(
   siteContext: MarkdownSiteContext,
   slug: MarketingPageSlug,
@@ -31,6 +43,63 @@ function getPageUrl(
   return `${siteContext.siteUrl}/${pagePath}/`;
 }
 
+function getIntlLocale(locale: AppLocale): string {
+  switch (locale) {
+    case "ar":
+      return "ar-SA";
+    case "de":
+      return "de-DE";
+    case "en":
+      return "en-US";
+    case "es":
+      return "es-ES";
+    case "hi":
+      return "hi-IN";
+    case "ja":
+      return "ja-JP";
+    case "ru":
+      return "ru-RU";
+    case "zh":
+      return "zh-CN";
+  }
+}
+
+function formatNumber(locale: AppLocale, value: number): string {
+  return new Intl.NumberFormat(getIntlLocale(locale)).format(value);
+}
+
+function formatDate(locale: AppLocale, value: string): string {
+  return new Intl.DateTimeFormat(getIntlLocale(locale), {
+    timeZone: "UTC",
+    month: "short",
+    day: "numeric",
+    year: "numeric",
+  }).format(new Date(`${value}T00:00:00.000Z`));
+}
+
+function getPlatformLabel(platform: GlobalActivityPlatform): string {
+  switch (platform) {
+    case "web":
+      return "Web";
+    case "android":
+      return "Android";
+    case "ios":
+      return "iOS";
+  }
+}
+
+function getPeakDay(days: ReadonlyArray<GlobalActivitySnapshotDay>): GlobalActivitySnapshotDay {
+  const [firstDay] = days;
+
+  if (firstDay === undefined) {
+    throw new Error("Global activity snapshot days must not be empty when rendering Markdown.");
+  }
+
+  return days.reduce<GlobalActivitySnapshotDay>((currentPeakDay, day) => (
+    day.reviewEvents.total > currentPeakDay.reviewEvents.total ? day : currentPeakDay
+  ), firstDay);
+}
+
 function renderHeroSection(section: HeroSection, lines: string[]): void {
   lines.push(section.titleLines.join(" "));
   lines.push("");
@@ -42,6 +111,49 @@ function renderHeroSection(section: HeroSection, lines: string[]): void {
   lines.push("```text");
   lines.push(section.hintText);
   lines.push(section.hintLink.href);
+  lines.push("```");
+  lines.push("");
+}
+
+function renderPublicActivitySection(
+  pageContent: PageContent,
+  locale: AppLocale,
+  context: MarketingPageMarkdownContext,
+  lines: string[]
+): void {
+  const uiCopy = getUiCopy(locale);
+  const snapshot = context.globalActivitySnapshot;
+  const peakDay = getPeakDay(snapshot.days);
+
+  if (pageContent.slug !== "home") {
+    throw new Error(`public_activity section is only supported on the home page. page=${pageContent.slug}`);
+  }
+
+  lines.push(`## ${uiCopy.home.activity.title}`);
+  lines.push("");
+  lines.push(uiCopy.home.activity.description);
+  lines.push("");
+  lines.push(`- [${uiCopy.home.activity.sourceLabel}](${globalActivitySnapshotUrl})`);
+  lines.push(`- ${uiCopy.home.activity.totalReviewEventsLabel}: ${formatNumber(locale, snapshot.totals.reviewEvents.total)}`);
+  lines.push(`- ${uiCopy.home.activity.uniqueReviewersLabel}: ${formatNumber(locale, snapshot.totals.uniqueReviewingUsers)}`);
+  lines.push(`- ${uiCopy.home.activity.peakDayLabel}: ${formatNumber(locale, peakDay.reviewEvents.total)} on ${formatDate(locale, peakDay.date)}`);
+  lines.push(`- ${uiCopy.home.activity.updatedLabel}: ${snapshot.generatedAtUtc}`);
+  lines.push(`- Date window: ${snapshot.from} to ${snapshot.to}`);
+  lines.push("");
+  lines.push("Platform totals:");
+  lines.push("");
+
+  globalActivityPlatforms.forEach((platform) => {
+    lines.push(
+      `- ${getPlatformLabel(platform)}: ${formatNumber(locale, snapshot.totals.reviewEvents.byPlatform[platform])}`
+    );
+  });
+
+  lines.push("");
+  lines.push("Build-time raw snapshot:");
+  lines.push("");
+  lines.push("```json");
+  lines.push(serializeGlobalActivitySnapshot(snapshot).trim());
   lines.push("```");
   lines.push("");
 }
@@ -111,6 +223,7 @@ function renderLegalPageSection(
 function renderPageSections(
   pageContent: PageContent,
   locale: AppLocale,
+  context: MarketingPageMarkdownContext,
   lines: string[]
 ): void {
   pageContent.sections.forEach((section) => {
@@ -120,6 +233,9 @@ function renderPageSections(
         return;
       case "feature_list":
         renderFeatureListSection(section, pageContent, lines);
+        return;
+      case "public_activity":
+        renderPublicActivitySection(pageContent, locale, context, lines);
         return;
       case "pricing_tiers":
         renderPricingTiersSection(section, pageContent, lines);
@@ -147,11 +263,12 @@ function renderMarkdownFooter(
 
 export function renderMarketingPageMarkdown(
   pageContent: PageContent,
-  locale: AppLocale
+  locale: AppLocale,
+  context: MarketingPageMarkdownContext
 ): string {
   const lines: string[] = [`# ${pageContent.title}`, ""];
 
-  renderPageSections(pageContent, locale, lines);
+  renderPageSections(pageContent, locale, context, lines);
 
   return lines.join("\n").trim();
 }
@@ -159,9 +276,10 @@ export function renderMarketingPageMarkdown(
 export function renderMarketingPageDocument(
   pageContent: PageContent,
   locale: AppLocale,
-  siteContext: MarkdownSiteContext
+  siteContext: MarkdownSiteContext,
+  context: MarketingPageMarkdownContext
 ): string {
-  return `${renderMarketingPageMarkdown(pageContent, locale)}${renderMarkdownFooter(
+  return `${renderMarketingPageMarkdown(pageContent, locale, context)}${renderMarkdownFooter(
     pageContent,
     locale,
     siteContext

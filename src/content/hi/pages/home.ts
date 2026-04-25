@@ -30,6 +30,9 @@ export const HOME_PAGE_CONTENT: PageContent = {
       },
     },
     {
+      type: "public_activity",
+    },
+    {
       type: "feature_list",
       title: "मुख्य खूबियाँ",
       intro:
