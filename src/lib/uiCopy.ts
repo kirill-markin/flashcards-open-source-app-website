@@ -174,7 +174,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
         "Share this discovery URL with your AI agent. It can sign up, create your account, and manage your Flashcards workspace for you.",
       aiAgentSectionLabel: "FOR AI AGENT",
       appPreviewAlt:
-        "Flashcards app screens showing review, cards, AI, editing, open source, and server setup flows.",
+        "Flashcards app screens showing review, answer results, progress, AI draft, and card list flows.",
       appPreviewAriaLabel: "App preview",
       appPreviewLabel: "APP PREVIEW",
       humanSectionLabel: "FOR HUMAN",
@@ -274,7 +274,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
         "Comparte esta URL de descubrimiento con tu agente de IA. Puede registrarte, crear tu cuenta y gestionar tu espacio de trabajo de Flashcards por ti.",
       aiAgentSectionLabel: "PARA AGENTE DE IA",
       appPreviewAlt:
-        "Pantallas de Flashcards con repaso, tarjetas, IA, edición, código abierto y configuración del servidor.",
+        "Pantallas de Flashcards con repaso, resultados, progreso, borrador con IA y lista de tarjetas.",
       appPreviewAriaLabel: "Vista previa de la app",
       appPreviewLabel: "VISTA PREVIA DE LA APP",
       humanSectionLabel: "PARA PERSONAS",
@@ -374,7 +374,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
         "شارك رابط الاكتشاف هذا مع وكيل الذكاء الاصطناعي لديك. يمكنه التسجيل، إنشاء حسابك، وإدارة مساحة عمل Flashcards نيابةً عنك.",
       aiAgentSectionLabel: "لوكيل الذكاء الاصطناعي",
       appPreviewAlt:
-        "شاشات Flashcards تعرض المراجعة والبطاقات والذكاء الاصطناعي والتحرير ومسارات الإعداد والاستضافة.",
+        "شاشات Flashcards تعرض المراجعة والنتائج والتقدم ومسودة الذكاء الاصطناعي وقائمة البطاقات.",
       appPreviewAriaLabel: "معاينة التطبيق",
       appPreviewLabel: "معاينة التطبيق",
       humanSectionLabel: "للمستخدم البشري",
@@ -474,7 +474,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
         "Teile diese Discovery-URL mit deinem KI-Agenten. Er kann sich registrieren, dein Konto anlegen und deinen Flashcards-Arbeitsbereich verwalten.",
       aiAgentSectionLabel: "FÜR KI-AGENTEN",
       appPreviewAlt:
-        "Flashcards-Bildschirme mit Review, Karten, KI, Bearbeitung, Open Source und Server-Setup.",
+        "Flashcards-Bildschirme mit Review, Ergebnissen, Fortschritt, KI-Entwurf und Kartenliste.",
       appPreviewAriaLabel: "App-Vorschau",
       appPreviewLabel: "APP-VORSCHAU",
       humanSectionLabel: "FÜR MENSCHEN",
@@ -574,7 +574,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
         "यह discovery URL अपने AI agent के साथ साझा करें। वह साइन अप कर सकता है, आपका अकाउंट बना सकता है, और आपका Flashcards workspace मैनेज कर सकता है।",
       aiAgentSectionLabel: "AI AGENT के लिए",
       appPreviewAlt:
-        "Flashcards की स्क्रीनें जिनमें review, cards, AI, editing, open source और server setup दिखाई देता है।",
+        "Flashcards की स्क्रीनें जिनमें review, results, progress, AI draft और cards list दिखाई देते हैं।",
       appPreviewAriaLabel: "ऐप प्रीव्यू",
       appPreviewLabel: "ऐप प्रीव्यू",
       humanSectionLabel: "इंसानों के लिए",
@@ -674,7 +674,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
         "このディスカバリー URL を AI エージェントに共有してください。サインアップ、アカウント作成、Flashcards ワークスペースの管理まで任せられます。",
       aiAgentSectionLabel: "AI エージェント向け",
       appPreviewAlt:
-        "レビュー、カード、AI、編集、オープンソース、サーバー設定を示す Flashcards の画面。",
+        "レビュー、結果、進捗、AI 下書き、カード一覧を示す Flashcards の画面。",
       appPreviewAriaLabel: "アプリのプレビュー",
       appPreviewLabel: "アプリプレビュー",
       humanSectionLabel: "人向け",
@@ -774,7 +774,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
         "Поделитесь этим discovery URL со своим AI-агентом. Он сможет зарегистрироваться, создать аккаунт и управлять вашим рабочим пространством Flashcards.",
       aiAgentSectionLabel: "ДЛЯ AI-АГЕНТА",
       appPreviewAlt:
-        "Экраны Flashcards с повторением, карточками, AI, редактированием, open source и настройкой сервера.",
+        "Экраны Flashcards с повторением, результатами, прогрессом, AI-черновиком и списком карточек.",
       appPreviewAriaLabel: "Предпросмотр приложения",
       appPreviewLabel: "ПРЕДПРОСМОТР ПРИЛОЖЕНИЯ",
       humanSectionLabel: "ДЛЯ ЧЕЛОВЕКА",
@@ -873,7 +873,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
         "把这个 discovery URL 分享给你的 AI agent。它可以帮你注册、创建账号，并管理你的 Flashcards 工作区。",
       aiAgentSectionLabel: "面向 AI AGENT",
       appPreviewAlt:
-        "Flashcards 应用界面，展示复习、卡片、AI、编辑、开源和服务器配置流程。",
+        "Flashcards 应用界面，展示复习、结果、进度、AI 草稿和卡片列表流程。",
       appPreviewAriaLabel: "应用预览",
       appPreviewLabel: "应用预览",
       humanSectionLabel: "面向用户",
