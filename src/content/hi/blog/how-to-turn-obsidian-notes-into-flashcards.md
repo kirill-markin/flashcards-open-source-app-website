@@ -17,6 +17,8 @@ keywords:
 
 इसलिए नहीं कि Obsidian खराब है। ideas इकट्ठा करने, concepts को link करने, और ऐसी notes बनाने के लिए यह बेहतरीन है जो तीन महीने बाद भी समझ आएँ। असली रुकावट तब शुरू होती है जब आपको active recall चाहिए। vault, deck जैसी चीज़ नहीं होती, और एक को दूसरे में हाथ से बदलते रहना बहुत जल्दी थका देता है।
 
+![गहरी Markdown notes एक काले crystal से होकर flashcards में बदल रही हैं, साथ में spaced repetition के संकेत दिखाई दे रहे हैं](/blog/how-to-turn-obsidian-notes-into-flashcards.png)
+
 ## Obsidian notes के लिए बेहतरीन है, review के लिए थोड़ा अटपटा
 
 यही असली mismatch है।

@@ -17,6 +17,8 @@ keywords:
 
 这不是因为 Obsidian 不好用。它很适合收集想法、串联概念、整理出三个月后再看依然说得通的笔记。真正开始有摩擦的是你想练主动回忆的时候。vault 不是卡组，把前者手动变成后者，很快就会让人厌烦。
 
+![深色 Markdown 笔记穿过一块黑色晶体，变成带有间隔重复节奏提示的闪卡](/blog/how-to-turn-obsidian-notes-into-flashcards.png)
+
 ## Obsidian 很适合记笔记，但拿来复习会有点别扭
 
 这就是核心的不匹配。
