@@ -76,21 +76,65 @@
   display: none;
   align-items: center;
   justify-content: center;
-  min-height: 40px;
-  min-width: 40px;
+  block-size: 40px;
+  inline-size: 40px;
+  flex: 0 0 40px;
   padding: 0;
   border: 1px solid var(--border);
   border-radius: var(--radius-pill);
   background: rgba(255, 255, 255, 0.05);
   color: var(--text);
-  font-size: 20px;
   cursor: pointer;
+  line-height: 0;
   margin-inline-start: auto;
 }
 
 .mobileToggle:hover {
   border-color: var(--border-strong);
   background: rgba(255, 255, 255, 0.1);
+}
+
+.mobileToggleIcon,
+.mobileToggleIconOpen {
+  display: block;
+  position: relative;
+  inline-size: 16px;
+  block-size: 12px;
+  color: currentColor;
+}
+
+.mobileToggleIcon::before,
+.mobileToggleIcon::after,
+.mobileToggleIconOpen::before,
+.mobileToggleIconOpen::after {
+  content: "";
+  position: absolute;
+  inset-inline: 0;
+  block-size: 2px;
+  border-radius: 999px;
+  background: currentColor;
+}
+
+.mobileToggleIcon::before {
+  inset-block-start: 2px;
+  box-shadow: 0 4px 0 currentColor, 0 8px 0 currentColor;
+}
+
+.mobileToggleIcon::after {
+  display: none;
+}
+
+.mobileToggleIconOpen::before,
+.mobileToggleIconOpen::after {
+  inset-block-start: 5px;
+}
+
+.mobileToggleIconOpen::before {
+  transform: rotate(45deg);
+}
+
+.mobileToggleIconOpen::after {
+  transform: rotate(-45deg);
 }
 
 .mobileNav {

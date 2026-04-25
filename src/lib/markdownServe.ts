@@ -24,6 +24,7 @@ import {
 import {
   globalActivitySnapshotUrl,
   type GlobalActivitySnapshot,
+  type GlobalActivitySnapshotDay,
 } from "@/lib/globalActivitySnapshot";
 import { getUiCopy } from "@/lib/uiCopy";
 
@@ -37,6 +38,23 @@ type MarkdownResult = {
   readonly markdown: string;
   readonly status: 200 | 404;
 };
+
+function getMaxGlobalActivityDailyValue(
+  days: ReadonlyArray<GlobalActivitySnapshotDay>,
+  getValue: (day: GlobalActivitySnapshotDay) => number,
+  label: string
+): number {
+  const [firstDay] = days;
+
+  if (firstDay === undefined) {
+    throw new Error(`Global activity snapshot days must not be empty when rendering llms.txt ${label}.`);
+  }
+
+  return days.reduce<number>(
+    (maxValue, day) => Math.max(maxValue, getValue(day)),
+    getValue(firstDay)
+  );
+}
 
 export interface BlogMeta {
   readonly slug: string;
@@ -316,6 +334,17 @@ export function renderMarkdownDocument(
 }
 
 export function renderLlmsText(globalActivitySnapshot: GlobalActivitySnapshot): string {
+  const activityCopy = getUiCopy("en").home.activity;
+  const peakDailyReviewEvents = getMaxGlobalActivityDailyValue(
+    globalActivitySnapshot.days,
+    (day) => day.reviewEvents.total,
+    "peak daily review events"
+  );
+  const peakDailyUniqueUsers = getMaxGlobalActivityDailyValue(
+    globalActivitySnapshot.days,
+    (day) => day.uniqueReviewingUsers,
+    "peak daily unique users"
+  );
   const pagesSection = readAllMarketingPages("en")
     .map((pageContent) => {
       const pageHref =
@@ -347,9 +376,13 @@ export function renderLlmsText(globalActivitySnapshot: GlobalActivitySnapshot): 
     `- [Snapshot JSON](${globalActivitySnapshotUrl})`,
     `- Generated at UTC: ${globalActivitySnapshot.generatedAtUtc}`,
     `- Date window: ${globalActivitySnapshot.from} to ${globalActivitySnapshot.to}`,
-    `- Unique reviewers: ${globalActivitySnapshot.totals.uniqueReviewingUsers}`,
-    `- Review events: ${globalActivitySnapshot.totals.reviewEvents.total}`,
-    `- Platform review events: web=${globalActivitySnapshot.totals.reviewEvents.byPlatform.web}, android=${globalActivitySnapshot.totals.reviewEvents.byPlatform.android}, ios=${globalActivitySnapshot.totals.reviewEvents.byPlatform.ios}`,
+    `- ${activityCopy.totalReviewEventsLabel}: ${globalActivitySnapshot.totals.reviewEvents.total}`,
+    `- ${activityCopy.usersWithReviewEventsLabel}: ${globalActivitySnapshot.totals.uniqueReviewingUsers}`,
+    `- ${activityCopy.daysInRangeLabel}: ${globalActivitySnapshot.days.length}`,
+    `- ${activityCopy.peakDailyVolumeLabel}: ${peakDailyReviewEvents}`,
+    `- ${activityCopy.peakDailyUniqueUsersLabel}: ${peakDailyUniqueUsers}`,
+    `- ${activityCopy.dailyUniqueUsersChartTitle}: ${activityCopy.dailyUniqueUsersChartDescription}`,
+    `- ${activityCopy.platformActivityChartTitle}: ${activityCopy.platformActivityChartDescription}`,
   ].join("\n");
 
   return `# Flashcards

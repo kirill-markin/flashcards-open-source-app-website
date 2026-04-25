@@ -52,23 +52,27 @@ interface AppUiCopy {
   };
   readonly home: {
     readonly activity: {
-      readonly cumulativeLabel: string;
-      readonly dailyActivityChartTitle: string;
+      readonly dailyUniqueUsersChartDescription: string;
+      readonly dailyUniqueUsersChartTitle: string;
+      readonly daysInRangeLabel: string;
       readonly description: string;
       readonly eyebrow: string;
-      readonly peakDayLabel: string;
+      readonly peakDailyUniqueUsersLabel: string;
+      readonly peakDailyVolumeLabel: string;
+      readonly platformActivityChartDescription: string;
       readonly platformActivityChartTitle: string;
       readonly platformLabels: {
         readonly android: string;
         readonly ios: string;
         readonly web: string;
       };
+      readonly reviewDateAxisLabel: string;
+      readonly reviewEventsAxisLabel: string;
       readonly sourceLabel: string;
       readonly title: string;
       readonly totalReviewEventsLabel: string;
-      readonly uniqueReviewersLabel: string;
-      readonly updatedLabel: string;
-      readonly utcLabel: string;
+      readonly uniqueUsersAxisLabel: string;
+      readonly usersWithReviewEventsLabel: string;
     };
     readonly agentHintDescription: string;
     readonly aiAgentSectionLabel: string;
@@ -151,24 +155,30 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     },
     home: {
       activity: {
-        cumulativeLabel: "Cumulative up to the snapshot date",
-        dailyActivityChartTitle: "Daily review volume and unique reviewers",
+        dailyUniqueUsersChartDescription:
+          "Unique users are users who completed at least 1 review. A review means choosing Again, Hard, Good, or Easy on a card.",
+        dailyUniqueUsersChartTitle: "Daily unique users with at least 1 review event",
+        daysInRangeLabel: "Days in range",
         description:
-          "This section is rendered from the public global snapshot captured at build time and reuses the chart framing from the admin analytics views. Totals are cumulative; the charts show daily review activity across web, Android, and iOS.",
+          "A simpler build-time snapshot of public review activity. Metrics cover the full date range; charts show daily unique users and review events by platform.",
         eyebrow: "Public Activity",
-        peakDayLabel: "Peak day",
-        platformActivityChartTitle: "Daily platform mix",
+        peakDailyUniqueUsersLabel: "Peak daily unique users",
+        peakDailyVolumeLabel: "Peak daily volume",
+        platformActivityChartDescription:
+          "A review means choosing Again, Hard, Good, or Easy on a card. This chart shows review events by platform.",
+        platformActivityChartTitle: "Daily review events by platform",
         platformLabels: {
           android: "Android",
           ios: "iOS",
           web: "Web",
         },
+        reviewDateAxisLabel: "Review date",
+        reviewEventsAxisLabel: "Review events",
         sourceLabel: "Open Snapshot JSON",
         title: "Real review activity from the public API",
-        totalReviewEventsLabel: "Review events",
-        uniqueReviewersLabel: "Unique reviewers",
-        updatedLabel: "Updated",
-        utcLabel: "Rendered from UTC snapshot data",
+        totalReviewEventsLabel: "Total review events",
+        uniqueUsersAxisLabel: "Unique users",
+        usersWithReviewEventsLabel: "Users with review events",
       },
       agentHintDescription:
         "Share this discovery URL with your AI agent. It can sign up, create your account, and manage your Flashcards workspace for you.",
@@ -251,24 +261,30 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     },
     home: {
       activity: {
-        cumulativeLabel: "Acumulado hasta la fecha del snapshot",
-        dailyActivityChartTitle: "Volumen diario de repasos y revisores únicos",
+        dailyUniqueUsersChartDescription:
+          "Los usuarios únicos son usuarios que completaron al menos 1 repaso. Un repaso significa elegir Again, Hard, Good o Easy en una tarjeta.",
+        dailyUniqueUsersChartTitle: "Usuarios únicos diarios con al menos 1 evento de repaso",
+        daysInRangeLabel: "Días en el rango",
         description:
-          "Esta sección se renderiza con el snapshot global público capturado durante el build y reutiliza el estilo de gráficos de las vistas analíticas del panel admin. Los totales son acumulados; los gráficos muestran la actividad diaria en web, Android e iOS.",
+          "Un snapshot público más simple de la actividad de repasos, capturado durante el build. Las métricas cubren todo el rango de fechas; los gráficos muestran usuarios únicos diarios y eventos de repaso por plataforma.",
         eyebrow: "Actividad pública",
-        peakDayLabel: "Pico diario",
-        platformActivityChartTitle: "Mezcla diaria por plataforma",
+        peakDailyUniqueUsersLabel: "Pico diario de usuarios únicos",
+        peakDailyVolumeLabel: "Pico diario de volumen",
+        platformActivityChartDescription:
+          "Un repaso significa elegir Again, Hard, Good o Easy en una tarjeta. Este gráfico muestra eventos de repaso por plataforma.",
+        platformActivityChartTitle: "Eventos diarios de repaso por plataforma",
         platformLabels: {
           android: "Android",
           ios: "iOS",
           web: "Web",
         },
+        reviewDateAxisLabel: "Fecha de repaso",
+        reviewEventsAxisLabel: "Eventos de repaso",
         sourceLabel: "Abrir JSON del snapshot",
         title: "Actividad real desde la API pública",
-        totalReviewEventsLabel: "Eventos de repaso",
-        uniqueReviewersLabel: "Revisores únicos",
-        updatedLabel: "Actualizado",
-        utcLabel: "Renderizado con datos UTC del snapshot",
+        totalReviewEventsLabel: "Eventos de repaso totales",
+        uniqueUsersAxisLabel: "Usuarios únicos",
+        usersWithReviewEventsLabel: "Usuarios con eventos de repaso",
       },
       agentHintDescription:
         "Comparte esta URL de descubrimiento con tu agente de IA. Puede registrarte, crear tu cuenta y gestionar tu espacio de trabajo de Flashcards por ti.",
@@ -351,24 +367,30 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     },
     home: {
       activity: {
-        cumulativeLabel: "إجمالي تراكمي حتى تاريخ اللقطة",
-        dailyActivityChartTitle: "حجم المراجعات اليومي والمراجعين الفريدين",
+        dailyUniqueUsersChartDescription:
+          "المستخدمون الفريدون هم المستخدمون الذين أكملوا مراجعة واحدة على الأقل. المراجعة تعني اختيار Again أو Hard أو Good أو Easy على بطاقة.",
+        dailyUniqueUsersChartTitle: "المستخدمون الفريدون يوميًا مع حدث مراجعة واحد على الأقل",
+        daysInRangeLabel: "الأيام في النطاق",
         description:
-          "يُعرض هذا القسم من اللقطة العالمية العامة التي يتم التقاطها وقت البناء، ويستخدم نفس أسلوب الرسوم في لوحات تحليلات المشرف. الإجماليات تراكمية، وتعرض الرسوم النشاط اليومي عبر الويب وAndroid وiOS.",
+          "لقطة أبسط لنشاط المراجعات العام يتم التقاطها وقت البناء. تغطي المقاييس كامل نطاق التاريخ، وتعرض الرسوم المستخدمين الفريدين يوميًا وأحداث المراجعة حسب المنصة.",
         eyebrow: "نشاط عام",
-        peakDayLabel: "أعلى يوم",
-        platformActivityChartTitle: "التوزيع اليومي حسب المنصة",
+        peakDailyUniqueUsersLabel: "أعلى عدد يومي للمستخدمين الفريدين",
+        peakDailyVolumeLabel: "أعلى حجم يومي",
+        platformActivityChartDescription:
+          "المراجعة تعني اختيار Again أو Hard أو Good أو Easy على بطاقة. يعرض هذا الرسم أحداث المراجعة حسب المنصة.",
+        platformActivityChartTitle: "أحداث المراجعة اليومية حسب المنصة",
         platformLabels: {
           android: "Android",
           ios: "iOS",
           web: "الويب",
         },
+        reviewDateAxisLabel: "تاريخ المراجعة",
+        reviewEventsAxisLabel: "أحداث المراجعة",
         sourceLabel: "فتح JSON الخاص باللقطة",
         title: "نشاط حقيقي من الـ API العامة",
-        totalReviewEventsLabel: "أحداث المراجعة",
-        uniqueReviewersLabel: "المراجعون الفريدون",
-        updatedLabel: "آخر تحديث",
-        utcLabel: "معروض من بيانات لقطة UTC",
+        totalReviewEventsLabel: "إجمالي أحداث المراجعة",
+        uniqueUsersAxisLabel: "المستخدمون الفريدون",
+        usersWithReviewEventsLabel: "مستخدمون لديهم أحداث مراجعة",
       },
       agentHintDescription:
         "شارك رابط الاكتشاف هذا مع وكيل الذكاء الاصطناعي لديك. يمكنه التسجيل، إنشاء حسابك، وإدارة مساحة عمل Flashcards نيابةً عنك.",
@@ -451,24 +473,30 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     },
     home: {
       activity: {
-        cumulativeLabel: "Kumuliert bis zum Snapshot-Datum",
-        dailyActivityChartTitle: "Tägliches Review-Volumen und eindeutige Reviewer",
+        dailyUniqueUsersChartDescription:
+          "Eindeutige Nutzer sind Nutzer, die mindestens 1 Review abgeschlossen haben. Ein Review bedeutet, auf einer Karte Again, Hard, Good oder Easy zu wählen.",
+        dailyUniqueUsersChartTitle: "Tägliche eindeutige Nutzer mit mindestens 1 Review-Ereignis",
+        daysInRangeLabel: "Tage im Zeitraum",
         description:
-          "Dieser Bereich wird aus dem öffentlichen Global Snapshot gerendert, der zur Build-Zeit erfasst wurde, und übernimmt die Chart-Sprache aus den Admin-Analytics-Ansichten. Die Summen sind kumulativ; die Charts zeigen die tägliche Aktivität auf Web, Android und iOS.",
+          "Ein einfacherer Build-Time-Snapshot der öffentlichen Review-Aktivität. Die Metriken decken den gesamten Zeitraum ab; die Charts zeigen tägliche eindeutige Nutzer und Review-Ereignisse nach Plattform.",
         eyebrow: "Öffentliche Aktivität",
-        peakDayLabel: "Spitzentag",
-        platformActivityChartTitle: "Täglicher Plattform-Mix",
+        peakDailyUniqueUsersLabel: "Höchste tägliche eindeutige Nutzer",
+        peakDailyVolumeLabel: "Höchstes tägliches Volumen",
+        platformActivityChartDescription:
+          "Ein Review bedeutet, auf einer Karte Again, Hard, Good oder Easy zu wählen. Dieser Chart zeigt Review-Ereignisse nach Plattform.",
+        platformActivityChartTitle: "Tägliche Review-Ereignisse nach Plattform",
         platformLabels: {
           android: "Android",
           ios: "iOS",
           web: "Web",
         },
+        reviewDateAxisLabel: "Review-Datum",
+        reviewEventsAxisLabel: "Review-Ereignisse",
         sourceLabel: "Snapshot-JSON öffnen",
         title: "Reale Aktivität aus der öffentlichen API",
-        totalReviewEventsLabel: "Review-Ereignisse",
-        uniqueReviewersLabel: "Eindeutige Reviewer",
-        updatedLabel: "Aktualisiert",
-        utcLabel: "Aus UTC-Snapshot-Daten gerendert",
+        totalReviewEventsLabel: "Review-Ereignisse gesamt",
+        uniqueUsersAxisLabel: "Eindeutige Nutzer",
+        usersWithReviewEventsLabel: "Nutzer mit Review-Ereignissen",
       },
       agentHintDescription:
         "Teile diese Discovery-URL mit deinem KI-Agenten. Er kann sich registrieren, dein Konto anlegen und deinen Flashcards-Arbeitsbereich verwalten.",
@@ -551,24 +579,30 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     },
     home: {
       activity: {
-        cumulativeLabel: "स्नैपशॉट तारीख तक का संचयी डेटा",
-        dailyActivityChartTitle: "रोज़ाना review volume और unique reviewers",
+        dailyUniqueUsersChartDescription:
+          "Unique users वे users हैं जिन्होंने कम से कम 1 review पूरा किया। review का मतलब कार्ड पर Again, Hard, Good या Easy चुनना है।",
+        dailyUniqueUsersChartTitle: "कम से कम 1 review event वाले रोज़ाना unique users",
+        daysInRangeLabel: "Range में दिन",
         description:
-          "यह सेक्शन build time पर कैप्चर किए गए public global snapshot से render होता है और admin analytics views वाली chart style का उपयोग करता है। totals cumulative हैं; charts web, Android और iOS पर रोज़ की activity दिखाते हैं।",
+          "Public review activity का एक सरल build-time snapshot. Metrics पूरे date range को cover करते हैं; charts रोज़ाना unique users और platform के हिसाब से review events दिखाते हैं।",
         eyebrow: "पब्लिक एक्टिविटी",
-        peakDayLabel: "सबसे बड़ा दिन",
-        platformActivityChartTitle: "रोज़ाना platform mix",
+        peakDailyUniqueUsersLabel: "Peak daily unique users",
+        peakDailyVolumeLabel: "Peak daily volume",
+        platformActivityChartDescription:
+          "review का मतलब कार्ड पर Again, Hard, Good या Easy चुनना है। यह chart platform के हिसाब से review events दिखाता है।",
+        platformActivityChartTitle: "Platform के हिसाब से daily review events",
         platformLabels: {
           android: "Android",
           ios: "iOS",
           web: "वेब",
         },
+        reviewDateAxisLabel: "Review date",
+        reviewEventsAxisLabel: "Review events",
         sourceLabel: "Snapshot JSON खोलें",
         title: "Public API से वास्तविक activity",
-        totalReviewEventsLabel: "Review events",
-        uniqueReviewersLabel: "Unique reviewers",
-        updatedLabel: "अपडेट किया गया",
-        utcLabel: "UTC snapshot data से रेंडर किया गया",
+        totalReviewEventsLabel: "Total review events",
+        uniqueUsersAxisLabel: "Unique users",
+        usersWithReviewEventsLabel: "Users with review events",
       },
       agentHintDescription:
         "यह discovery URL अपने AI agent के साथ साझा करें। वह साइन अप कर सकता है, आपका अकाउंट बना सकता है, और आपका Flashcards workspace मैनेज कर सकता है।",
@@ -651,24 +685,30 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     },
     home: {
       activity: {
-        cumulativeLabel: "スナップショット日時点の累計",
-        dailyActivityChartTitle: "日別レビュー量とユニークレビュアー",
+        dailyUniqueUsersChartDescription:
+          "ユニークユーザーは、少なくとも 1 回レビューしたユーザーです。レビューとは、カードで Again、Hard、Good、Easy のいずれかを選ぶことです。",
+        dailyUniqueUsersChartTitle: "1 回以上のレビューイベントがある日別ユニークユーザー",
+        daysInRangeLabel: "期間内の日数",
         description:
-          "このセクションはビルド時に取得した公開グローバルスナップショットからレンダリングされ、管理画面の分析ビューに近いチャート表現を使います。合計値は累計で、グラフは web、Android、iOS の日次アクティビティを示します。",
+          "公開レビュー活動をビルド時に取得した、よりシンプルなスナップショットです。指標は期間全体を対象にし、グラフは日別ユニークユーザーとプラットフォーム別レビューイベントを示します。",
         eyebrow: "公開アクティビティ",
-        peakDayLabel: "最大日",
-        platformActivityChartTitle: "日別プラットフォーム構成",
+        peakDailyUniqueUsersLabel: "日別ユニークユーザーの最大値",
+        peakDailyVolumeLabel: "日別ボリュームの最大値",
+        platformActivityChartDescription:
+          "レビューとは、カードで Again、Hard、Good、Easy のいずれかを選ぶことです。このグラフはプラットフォーム別のレビューイベントを示します。",
+        platformActivityChartTitle: "プラットフォーム別の日別レビューイベント",
         platformLabels: {
           android: "Android",
           ios: "iOS",
           web: "ウェブ",
         },
+        reviewDateAxisLabel: "レビュー日",
+        reviewEventsAxisLabel: "レビューイベント",
         sourceLabel: "Snapshot JSON を開く",
         title: "公開 API から見える実際のアクティビティ",
-        totalReviewEventsLabel: "レビューイベント",
-        uniqueReviewersLabel: "ユニークレビュアー",
-        updatedLabel: "更新日時",
-        utcLabel: "UTC スナップショットデータを表示",
+        totalReviewEventsLabel: "レビューイベント合計",
+        uniqueUsersAxisLabel: "ユニークユーザー",
+        usersWithReviewEventsLabel: "レビューイベントがあるユーザー",
       },
       agentHintDescription:
         "このディスカバリー URL を AI エージェントに共有してください。サインアップ、アカウント作成、Flashcards ワークスペースの管理まで任せられます。",
@@ -751,24 +791,30 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     },
     home: {
       activity: {
-        cumulativeLabel: "Накоплено на дату снимка",
-        dailyActivityChartTitle: "Дневной объём повторений и уникальные пользователи",
+        dailyUniqueUsersChartDescription:
+          "Уникальные пользователи — это пользователи, которые сделали минимум 1 повторение. Повторение означает выбор Again, Hard, Good или Easy на карточке.",
+        dailyUniqueUsersChartTitle: "Дневные уникальные пользователи с минимум 1 событием повторения",
+        daysInRangeLabel: "Дней в периоде",
         description:
-          "Этот блок рендерится из публичного global snapshot, полученного во время build, и использует визуальный язык графиков из admin analytics. Суммы накопительные, а графики показывают дневную активность в web, Android и iOS.",
+          "Более простой build-time snapshot публичной активности повторений. Метрики покрывают весь период; графики показывают дневных уникальных пользователей и события повторений по платформам.",
         eyebrow: "Публичная активность",
-        peakDayLabel: "Пиковый день",
-        platformActivityChartTitle: "Дневная смесь платформ",
+        peakDailyUniqueUsersLabel: "Пик дневных уникальных пользователей",
+        peakDailyVolumeLabel: "Пиковый дневной объём",
+        platformActivityChartDescription:
+          "Повторение означает выбор Again, Hard, Good или Easy на карточке. Этот график показывает события повторений по платформам.",
+        platformActivityChartTitle: "Дневные события повторений по платформам",
         platformLabels: {
           android: "Android",
           ios: "iOS",
           web: "Веб",
         },
+        reviewDateAxisLabel: "Дата повторения",
+        reviewEventsAxisLabel: "События повторений",
         sourceLabel: "Открыть Snapshot JSON",
         title: "Реальная активность из публичного API",
-        totalReviewEventsLabel: "События повторения",
-        uniqueReviewersLabel: "Уникальные пользователи",
-        updatedLabel: "Обновлено",
-        utcLabel: "Показано по данным UTC snapshot",
+        totalReviewEventsLabel: "Всего событий повторений",
+        uniqueUsersAxisLabel: "Уникальные пользователи",
+        usersWithReviewEventsLabel: "Пользователи с событиями повторений",
       },
       agentHintDescription:
         "Поделитесь этим discovery URL со своим AI-агентом. Он сможет зарегистрироваться, создать аккаунт и управлять вашим рабочим пространством Flashcards.",
@@ -850,24 +896,30 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     },
     home: {
       activity: {
-        cumulativeLabel: "累计到快照日期",
-        dailyActivityChartTitle: "每日复习量与独立复习用户",
+        dailyUniqueUsersChartDescription:
+          "独立用户是至少完成 1 次复习的用户。复习是指在卡片上选择 Again、Hard、Good 或 Easy。",
+        dailyUniqueUsersChartTitle: "每日独立用户，至少有 1 次复习事件",
+        daysInRangeLabel: "范围内天数",
         description:
-          "这个模块使用 build 时捕获的公开全局快照渲染，并沿用 admin analytics 视图里的图表表达方式。总数是累计值，图表展示 web、Android 和 iOS 的每日活动。",
+          "这是构建时捕获的公开复习活动简化快照。指标覆盖整个日期范围；图表展示每日独立用户，以及按平台划分的复习事件。",
         eyebrow: "公开活动",
-        peakDayLabel: "峰值日期",
-        platformActivityChartTitle: "每日平台构成",
+        peakDailyUniqueUsersLabel: "每日独立用户峰值",
+        peakDailyVolumeLabel: "每日复习量峰值",
+        platformActivityChartDescription:
+          "复习是指在卡片上选择 Again、Hard、Good 或 Easy。此图表按平台展示复习事件。",
+        platformActivityChartTitle: "按平台划分的每日复习事件",
         platformLabels: {
           android: "Android",
           ios: "iOS",
           web: "网页",
         },
+        reviewDateAxisLabel: "复习日期",
+        reviewEventsAxisLabel: "复习事件",
         sourceLabel: "打开 Snapshot JSON",
         title: "来自公开 API 的真实活动数据",
-        totalReviewEventsLabel: "复习事件",
-        uniqueReviewersLabel: "独立复习用户",
-        updatedLabel: "更新时间",
-        utcLabel: "基于 UTC 快照数据渲染",
+        totalReviewEventsLabel: "复习事件总数",
+        uniqueUsersAxisLabel: "独立用户",
+        usersWithReviewEventsLabel: "有复习事件的用户",
       },
       agentHintDescription:
         "把这个 discovery URL 分享给你的 AI agent。它可以帮你注册、创建账号，并管理你的 Flashcards 工作区。",

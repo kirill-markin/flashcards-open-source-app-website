@@ -36,7 +36,10 @@ export const HeaderMobileMenu: React.FC<HeaderMobileMenuProps> = ({
         aria-expanded={mobileMenuOpen}
         aria-label={uiCopy.menuToggleLabel}
       >
-        {mobileMenuOpen ? "\u2715" : "\u2630"}
+        <span
+          className={mobileMenuOpen ? styles.mobileToggleIconOpen : styles.mobileToggleIcon}
+          aria-hidden="true"
+        />
       </button>
 
       {mobileMenuOpen && (

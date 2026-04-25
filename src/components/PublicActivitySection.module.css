@@ -82,7 +82,7 @@
 
 .metricGrid {
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns: repeat(5, minmax(0, 1fr));
   gap: 12px;
 }
 
@@ -113,13 +113,6 @@
   font-weight: 760;
 }
 
-.metricDetail {
-  margin: 0;
-  color: var(--text-secondary);
-  font-size: 13px;
-  line-height: 1.5;
-}
-
 .chartGrid {
   display: grid;
   gap: 14px;
@@ -142,6 +135,12 @@
   padding: 16px 16px 0;
 }
 
+.chartText {
+  display: grid;
+  gap: 6px;
+  max-width: 720px;
+}
+
 .chartTitle {
   margin: 0;
   font-size: 16px;
@@ -150,9 +149,18 @@
   letter-spacing: -0.015em;
 }
 
+.chartDescription {
+  margin: 0;
+  color: var(--text-secondary);
+  font-size: 13px;
+  line-height: 1.5;
+  text-align: start;
+}
+
 .chartDetail {
   display: flex;
   justify-content: flex-end;
+  flex: 0 0 auto;
 }
 
 .chartCanvas {
@@ -174,9 +182,15 @@
   stroke-dasharray: 2 6;
 }
 
+.axisLine {
+  stroke: rgba(255, 255, 255, 0.14);
+}
+
 .axisLabelStart,
 .axisLabelEnd,
-.dateLabel {
+.dateLabel,
+.xAxisTitle,
+.yAxisTitle {
   fill: var(--text-tertiary);
   font-size: 12px;
 }
@@ -190,24 +204,59 @@
 }
 
 .dateLabel {
+  text-anchor: end;
+}
+
+.xAxisTitle,
+.yAxisTitle {
   text-anchor: middle;
 }
 
-.reviewBar {
-  fill: var(--accent);
+.uniqueUsersBar {
+  fill: #c44b2d;
   opacity: 0.9;
 }
 
-.uniqueUsersLine {
-  fill: none;
-  stroke: rgba(246, 246, 248, 0.92);
-  stroke-width: 2;
+.tooltipTarget {
+  cursor: default;
 }
 
-.uniqueUsersPoint {
-  fill: rgba(246, 246, 248, 0.96);
-  stroke: rgba(5, 5, 5, 0.9);
-  stroke-width: 1.5;
+.tooltipHitArea {
+  fill: transparent;
+  pointer-events: all;
+}
+
+.chartTooltip {
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 120ms ease;
+}
+
+.tooltipTarget:hover .chartTooltip {
+  opacity: 1;
+}
+
+.chartTooltipBox {
+  fill: rgba(18, 18, 24, 0.96);
+  stroke: rgba(255, 255, 255, 0.16);
+  filter: drop-shadow(0 12px 24px rgba(0, 0, 0, 0.4));
+}
+
+.chartTooltipDate,
+.chartTooltipValue {
+  text-anchor: start;
+}
+
+.chartTooltipDate {
+  fill: var(--text-secondary);
+  font-size: 11px;
+  font-weight: 650;
+}
+
+.chartTooltipValue {
+  fill: var(--text);
+  font-size: 12px;
+  font-weight: 740;
 }
 
 .legendRow {
@@ -231,24 +280,14 @@
   font-size: 12px;
   line-height: 1;
   font-weight: 650;
-}
-
-.legendItem strong {
-  color: var(--text-secondary);
-  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
 }
 
 .legendSwatch {
   inline-size: 10px;
   block-size: 10px;
   border-radius: 999px;
-  flex: 0 0 auto;
-}
-
-.lineSwatch {
-  inline-size: 14px;
-  block-size: 0;
-  border-block-start: 2px solid rgba(246, 246, 248, 0.92);
   flex: 0 0 auto;
 }
 
