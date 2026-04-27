@@ -63,11 +63,13 @@ export async function DocPageView({
     return (
       <SiteFrame locale={locale} routePathname={`/docs/${slug}/`}>
         <div className={styles.container}>
-          <section className={styles.intro}>
-            <h1 className={styles.title}>{uiCopy.docs.comingSoonTitle}</h1>
-          </section>
-          <section className={styles.contentPanel}>
-            <p className={styles.empty}>{uiCopy.docs.comingSoonDescription}</p>
+          <section className={styles.articlePanel}>
+            <header className={styles.intro}>
+              <h1 className={styles.title}>{uiCopy.docs.comingSoonTitle}</h1>
+            </header>
+            <div className={styles.contentPanel}>
+              <p className={styles.empty}>{uiCopy.docs.comingSoonDescription}</p>
+            </div>
           </section>
         </div>
       </SiteFrame>
@@ -104,30 +106,32 @@ export async function DocPageView({
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
         />
-        <header className={styles.intro}>
-          <Breadcrumbs
-            items={[
-              {
-                label: uiCopy.docs.breadcrumbLabel,
-                href: getLocalizedPathname(locale, "/docs/"),
-              },
-              {
-                label: doc.title,
-                href: getLocalizedPathname(locale, `/docs/${slug}/`),
-              },
-            ]}
-            locale={locale}
-          />
-          <h1 className={styles.title} id="doc-title">
-            {doc.title}
-          </h1>
-        </header>
-        <section className={styles.contentPanel}>
-          <div
-            className={styles.content}
-            dangerouslySetInnerHTML={{ __html: contentHtml }}
-          />
-        </section>
+        <div className={styles.articlePanel}>
+          <header className={styles.intro}>
+            <Breadcrumbs
+              items={[
+                {
+                  label: uiCopy.docs.breadcrumbLabel,
+                  href: getLocalizedPathname(locale, "/docs/"),
+                },
+                {
+                  label: doc.title,
+                  href: getLocalizedPathname(locale, `/docs/${slug}/`),
+                },
+              ]}
+              locale={locale}
+            />
+            <h1 className={styles.title} id="doc-title">
+              {doc.title}
+            </h1>
+          </header>
+          <section className={styles.contentPanel}>
+            <div
+              className={styles.content}
+              dangerouslySetInnerHTML={{ __html: contentHtml }}
+            />
+          </section>
+        </div>
       </article>
     </SiteFrame>
   );

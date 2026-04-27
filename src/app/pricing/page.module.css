@@ -2,12 +2,9 @@
   width: min(100%, var(--content-width));
   margin: 0 auto;
   padding: 36px 20px 0;
-  display: grid;
-  gap: 16px;
 }
 
-.intro,
-.tiersPanel {
+.pagePanel {
   border: 1px solid var(--border);
   border-radius: var(--radius-xl);
   background: var(--surface);
@@ -15,7 +12,7 @@
 }
 
 .intro {
-  padding: clamp(22px, 3vw, 32px);
+  padding: clamp(22px, 3vw, 32px) clamp(22px, 3vw, 32px) 14px;
 }
 
 .title {
@@ -34,7 +31,7 @@
 }
 
 .tiersPanel {
-  padding: 16px;
+  padding: 0 clamp(22px, 3vw, 32px) clamp(22px, 3vw, 32px);
 }
 
 .grid {
@@ -139,12 +136,18 @@
     padding-top: 26px;
   }
 
-  .intro,
-  .tiersPanel {
+  .pagePanel {
     border-radius: 20px;
   }
 
-  .intro,
+  .intro {
+    padding: 18px 18px 12px;
+  }
+
+  .tiersPanel {
+    padding: 0 16px 16px;
+  }
+
   .card {
     padding: 18px;
   }

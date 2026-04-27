@@ -2,12 +2,9 @@
   width: min(100%, 980px);
   margin: 0 auto;
   padding: 36px 20px 0;
-  display: grid;
-  gap: 16px;
 }
 
-.intro,
-.listPanel {
+.pagePanel {
   border: 1px solid var(--border);
   border-radius: var(--radius-xl);
   background: var(--surface);
@@ -15,7 +12,7 @@
 }
 
 .intro {
-  padding: clamp(20px, 3vw, 28px);
+  padding: clamp(20px, 3vw, 28px) clamp(20px, 3vw, 28px) 14px;
 }
 
 .title {
@@ -26,7 +23,7 @@
 }
 
 .listPanel {
-  padding: 16px;
+  padding: 0 clamp(20px, 3vw, 28px) clamp(20px, 3vw, 28px);
 }
 
 .empty {
@@ -48,19 +45,30 @@
   border: 1px solid var(--border);
   border-radius: var(--radius-lg);
   background: var(--surface-elevated);
+  color: inherit;
+  text-decoration: none;
   transition: border-color 140ms ease, background 140ms ease;
 }
 
 .card:hover,
-.card:focus-within {
+.card:focus-visible {
   border-color: var(--border-strong);
   background: linear-gradient(180deg, rgba(34, 34, 40, 0.98), rgba(22, 22, 28, 0.98));
+}
+
+.card:focus-visible {
+  outline: 2px solid rgba(255, 214, 201, 0.42);
+  outline-offset: 3px;
 }
 
 .cardHeader {
   display: flex;
   flex-direction: column;
   gap: 10px;
+}
+
+.cardHeader .date {
+  align-self: flex-start;
 }
 
 .date {
@@ -84,17 +92,6 @@
   letter-spacing: -0.02em;
 }
 
-.cardLink {
-  color: var(--text);
-  text-decoration: none;
-}
-
-.cardLink:hover,
-.cardLink:focus-visible {
-  text-decoration: underline;
-  text-underline-offset: 0.12em;
-}
-
 .card p {
   margin: 0;
   font-size: 14px;
@@ -108,10 +105,16 @@
     padding-top: 26px;
   }
 
-  .intro,
-  .listPanel {
+  .pagePanel {
     border-radius: 20px;
+  }
+
+  .intro {
     padding: 16px;
+  }
+
+  .listPanel {
+    padding: 0 16px 16px;
   }
 
   .card {
