@@ -71,11 +71,13 @@ export async function BlogPostPageView({
     return (
       <SiteFrame locale={locale} routePathname={`/blog/${slug}/`}>
         <div className={styles.container}>
-          <section className={styles.intro}>
-            <h1 className={styles.title}>{uiCopy.blog.notFoundTitle}</h1>
-          </section>
-          <section className={styles.contentPanel}>
-            <p className={styles.empty}>{uiCopy.blog.notFoundDescription}</p>
+          <section className={styles.articlePanel}>
+            <header className={styles.intro}>
+              <h1 className={styles.title}>{uiCopy.blog.notFoundTitle}</h1>
+            </header>
+            <div className={styles.contentPanel}>
+              <p className={styles.empty}>{uiCopy.blog.notFoundDescription}</p>
+            </div>
           </section>
         </div>
       </SiteFrame>
@@ -117,39 +119,41 @@ export async function BlogPostPageView({
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
         />
-        <header className={styles.intro}>
-          <Breadcrumbs
-            items={[
-              {
-                label: uiCopy.blog.breadcrumbLabel,
-                href: getLocalizedPathname(locale, "/blog/"),
-              },
-              {
-                label: post.title,
-                href: getLocalizedPathname(locale, `/blog/${slug}/`),
-              },
-            ]}
-            locale={locale}
-          />
-          <div className={styles.meta} aria-label="Article metadata">
-            <time className={styles.date} dateTime={post.date}>
-              {post.date}
-            </time>
-            <p className={styles.byline}>
-              <span>{uiCopy.blog.byPrefix} </span>
-              <a href={AUTHOR_URL} rel="author">
-                {AUTHOR_NAME}
-              </a>
-            </p>
-          </div>
-          <h1 className={styles.title}>{post.title}</h1>
-        </header>
-        <section className={styles.contentPanel}>
-          <div
-            className={styles.content}
-            dangerouslySetInnerHTML={{ __html: localizedContentHtml }}
-          />
-        </section>
+        <div className={styles.articlePanel}>
+          <header className={styles.intro}>
+            <Breadcrumbs
+              items={[
+                {
+                  label: uiCopy.blog.breadcrumbLabel,
+                  href: getLocalizedPathname(locale, "/blog/"),
+                },
+                {
+                  label: post.title,
+                  href: getLocalizedPathname(locale, `/blog/${slug}/`),
+                },
+              ]}
+              locale={locale}
+            />
+            <div className={styles.meta} aria-label="Article metadata">
+              <time className={styles.date} dateTime={post.date}>
+                {post.date}
+              </time>
+              <p className={styles.byline}>
+                <span>{uiCopy.blog.byPrefix} </span>
+                <a href={AUTHOR_URL} rel="author">
+                  {AUTHOR_NAME}
+                </a>
+              </p>
+            </div>
+            <h1 className={styles.title}>{post.title}</h1>
+          </header>
+          <section className={styles.contentPanel}>
+            <div
+              className={styles.content}
+              dangerouslySetInnerHTML={{ __html: localizedContentHtml }}
+            />
+          </section>
+        </div>
         {recommendedPosts.length > 0 ? (
           <section className={styles.relatedPanel}>
             <h2 className={styles.relatedHeading}>{uiCopy.blog.readNextHeading}</h2>

@@ -7,8 +7,7 @@
   gap: 16px;
 }
 
-.intro,
-.contentPanel,
+.articlePanel,
 .relatedPanel {
   width: 100%;
   max-width: 100%;
@@ -20,7 +19,17 @@
 }
 
 .intro {
-  padding: clamp(20px, 3vw, 28px);
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+  padding: clamp(20px, 3vw, 28px) clamp(20px, 3vw, 28px) clamp(8px, 1.6vw, 14px);
+}
+
+.contentPanel {
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+  padding: 0 clamp(20px, 3vw, 28px) clamp(20px, 3vw, 28px);
 }
 
 .meta {
@@ -72,7 +81,6 @@
   font-size: 15px;
 }
 
-.contentPanel,
 .relatedPanel {
   padding: clamp(18px, 3vw, 28px);
 }
@@ -107,6 +115,13 @@
 
 .relatedCard:hover {
   transform: translateY(-1px);
+  border-color: rgba(255, 214, 201, 0.45);
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.relatedCard:focus-visible {
+  outline: 2px solid rgba(255, 214, 201, 0.42);
+  outline-offset: 3px;
   border-color: rgba(255, 214, 201, 0.45);
   background: rgba(255, 255, 255, 0.05);
 }
@@ -256,14 +271,19 @@
     padding-top: 26px;
   }
 
-  .intro,
-  .contentPanel,
+  .articlePanel,
   .relatedPanel {
     border-radius: 20px;
   }
 
-  .intro,
-  .contentPanel,
+  .intro {
+    padding: 16px 16px 8px;
+  }
+
+  .contentPanel {
+    padding: 0 16px 16px;
+  }
+
   .relatedPanel {
     padding: 16px;
   }
