@@ -147,20 +147,22 @@ function renderFeaturesPage(
 ): React.JSX.Element {
   return (
     <div className={featureStyles.container}>
-      <section className={featureStyles.intro}>
-        <h1 className={featureStyles.title}>{title}</h1>
-        <p className={featureStyles.subtitle}>{featureSection.intro}</p>
-      </section>
-      <section className={featureStyles.gridPanel}>
-        <div className={featureStyles.grid}>
-          {featureSection.items.map((item) => (
-            <div key={item.title} className={featureStyles.card}>
-              <h2>{item.title}</h2>
-              <p>{item.description}</p>
-            </div>
-          ))}
-        </div>
-      </section>
+      <div className={featureStyles.pagePanel}>
+        <header className={featureStyles.intro}>
+          <h1 className={featureStyles.title}>{title}</h1>
+          <p className={featureStyles.subtitle}>{featureSection.intro}</p>
+        </header>
+        <section className={featureStyles.gridPanel}>
+          <div className={featureStyles.grid}>
+            {featureSection.items.map((item) => (
+              <div key={item.title} className={featureStyles.card}>
+                <h2>{item.title}</h2>
+                <p>{item.description}</p>
+              </div>
+            ))}
+          </div>
+        </section>
+      </div>
     </div>
   );
 }
@@ -179,45 +181,47 @@ function renderPricingPage(
 
   return (
     <div className={pricingStyles.container}>
-      <section className={pricingStyles.intro}>
-        <h1 className={pricingStyles.title}>{title}</h1>
-        <p className={pricingStyles.subtitle}>{pricingSection.intro}</p>
-      </section>
+      <div className={pricingStyles.pagePanel}>
+        <header className={pricingStyles.intro}>
+          <h1 className={pricingStyles.title}>{title}</h1>
+          <p className={pricingStyles.subtitle}>{pricingSection.intro}</p>
+        </header>
 
-      <section className={pricingStyles.tiersPanel}>
-        <div className={pricingStyles.grid}>
-          <div className={pricingStyles.card}>
-            <h2>{selfHostedTier.name}</h2>
-            <div className={pricingStyles.price}>{selfHostedTier.price}</div>
-            <ul className={pricingStyles.features}>
-              {selfHostedTier.bullets.map((bullet) => (
-                <li key={bullet}>{bullet}</li>
-              ))}
-            </ul>
-            <a
-              href={selfHostedTier.cta.href}
-              target="_blank"
-              rel="noopener noreferrer"
-              className={pricingStyles.secondaryButton}
-            >
-              {selfHostedTier.cta.label}
-            </a>
-          </div>
+        <section className={pricingStyles.tiersPanel}>
+          <div className={pricingStyles.grid}>
+            <div className={pricingStyles.card}>
+              <h2>{selfHostedTier.name}</h2>
+              <div className={pricingStyles.price}>{selfHostedTier.price}</div>
+              <ul className={pricingStyles.features}>
+                {selfHostedTier.bullets.map((bullet) => (
+                  <li key={bullet}>{bullet}</li>
+                ))}
+              </ul>
+              <a
+                href={selfHostedTier.cta.href}
+                target="_blank"
+                rel="noopener noreferrer"
+                className={pricingStyles.secondaryButton}
+              >
+                {selfHostedTier.cta.label}
+              </a>
+            </div>
 
-          <div className={`${pricingStyles.card} ${pricingStyles.highlighted}`}>
-            <h2>{cloudTier.name}</h2>
-            <div className={pricingStyles.price}>{cloudTier.price}</div>
-            <ul className={pricingStyles.features}>
-              {cloudTier.bullets.map((bullet) => (
-                <li key={bullet}>{bullet}</li>
-              ))}
-            </ul>
-            <div className={pricingStyles.ctaWrapper}>
-              <AuthButton locale={locale} />
+            <div className={`${pricingStyles.card} ${pricingStyles.highlighted}`}>
+              <h2>{cloudTier.name}</h2>
+              <div className={pricingStyles.price}>{cloudTier.price}</div>
+              <ul className={pricingStyles.features}>
+                {cloudTier.bullets.map((bullet) => (
+                  <li key={bullet}>{bullet}</li>
+                ))}
+              </ul>
+              <div className={pricingStyles.ctaWrapper}>
+                <AuthButton locale={locale} />
+              </div>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
+      </div>
     </div>
   );
 }
@@ -233,18 +237,20 @@ async function renderLegalPage(
 
   return (
     <div className={legalStyles.container}>
-      <section className={legalStyles.intro}>
-        <h1 className={legalStyles.title}>{title}</h1>
-      </section>
-      <section className={legalStyles.contentPanel}>
-        <div className={legalStyles.content}>
-          <p>
-            <strong>{uiCopy.legal.lastUpdatedLabel}:</strong>{" "}
-            {legalSection.lastUpdated}
-          </p>
-          <div dangerouslySetInnerHTML={{ __html: contentHtml }} />
-        </div>
-      </section>
+      <div className={legalStyles.pagePanel}>
+        <header className={legalStyles.intro}>
+          <h1 className={legalStyles.title}>{title}</h1>
+        </header>
+        <section className={legalStyles.contentPanel}>
+          <div className={legalStyles.content}>
+            <p>
+              <strong>{uiCopy.legal.lastUpdatedLabel}:</strong>{" "}
+              {legalSection.lastUpdated}
+            </p>
+            <div dangerouslySetInnerHTML={{ __html: contentHtml }} />
+          </div>
+        </section>
+      </div>
     </div>
   );
 }

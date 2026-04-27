@@ -2,12 +2,9 @@
   width: min(100%, var(--content-width));
   margin: 0 auto;
   padding: 36px 20px 0;
-  display: grid;
-  gap: 16px;
 }
 
-.intro,
-.gridPanel {
+.pagePanel {
   border: 1px solid var(--border);
   border-radius: var(--radius-xl);
   background: var(--surface);
@@ -15,7 +12,7 @@
 }
 
 .intro {
-  padding: clamp(20px, 3vw, 28px);
+  padding: clamp(20px, 3vw, 28px) clamp(20px, 3vw, 28px) 14px;
 }
 
 .title {
@@ -26,7 +23,7 @@
 }
 
 .gridPanel {
-  padding: 16px;
+  padding: 0 clamp(20px, 3vw, 28px) clamp(20px, 3vw, 28px);
 }
 
 .grid {
@@ -41,12 +38,20 @@
   border: 1px solid var(--border);
   border-radius: var(--radius-lg);
   background: var(--surface-elevated);
+  color: inherit;
+  text-decoration: none;
   transition: border-color 140ms ease, background 140ms ease;
 }
 
-.card:hover {
+.card:hover,
+.card:focus-visible {
   border-color: var(--border-strong);
   background: linear-gradient(180deg, rgba(34, 34, 40, 0.98), rgba(22, 22, 28, 0.98));
+}
+
+.card:focus-visible {
+  outline: 2px solid rgba(255, 214, 201, 0.42);
+  outline-offset: 3px;
 }
 
 .card h2 {
@@ -75,13 +80,15 @@
     padding-top: 26px;
   }
 
-  .intro,
-  .gridPanel {
+  .pagePanel {
     border-radius: 20px;
   }
 
-  .intro,
-  .gridPanel {
+  .intro {
     padding: 16px;
+  }
+
+  .gridPanel {
+    padding: 0 16px 16px;
   }
 }
