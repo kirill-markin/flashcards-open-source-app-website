@@ -6,8 +6,7 @@
   gap: 16px;
 }
 
-.intro,
-.contentPanel {
+.pagePanel {
   border: 1px solid var(--border);
   border-radius: var(--radius-xl);
   background: var(--surface);
@@ -15,7 +14,7 @@
 }
 
 .intro {
-  padding: clamp(20px, 3vw, 28px);
+  padding: clamp(20px, 3vw, 28px) clamp(20px, 3vw, 28px) clamp(8px, 1.6vw, 14px);
 }
 
 .title {
@@ -26,7 +25,7 @@
 }
 
 .contentPanel {
-  padding: clamp(18px, 3vw, 28px);
+  padding: 0 clamp(20px, 3vw, 28px) clamp(20px, 3vw, 28px);
 }
 
 .content {
@@ -121,13 +120,15 @@
     padding-top: 26px;
   }
 
-  .intro,
-  .contentPanel {
+  .pagePanel {
     border-radius: 20px;
   }
 
-  .intro,
+  .intro {
+    padding: 16px 16px 8px;
+  }
+
   .contentPanel {
-    padding: 16px;
+    padding: 0 16px 16px;
   }
 }
