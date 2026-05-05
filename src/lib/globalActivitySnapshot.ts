@@ -4,6 +4,7 @@ import { join } from "path";
 export const globalActivitySnapshotUrl =
   "https://api.flashcards-open-source-app.com/v1/global/snapshot";
 export const globalActivitySnapshotGeneratedFileName = "global-activity-snapshot.json";
+export const globalActivitySnapshotSchemaVersion = 2;
 
 export const globalActivityPlatforms = ["web", "android", "ios"] as const;
 
@@ -19,11 +20,13 @@ export type GlobalActivityReviewEvents = Readonly<{
 export type GlobalActivitySnapshotDay = Readonly<{
   date: string;
   uniqueReviewingUsers: number;
+  newReviewingUsers: number;
+  returningReviewingUsers: number;
   reviewEvents: GlobalActivityReviewEvents;
 }>;
 
 export type GlobalActivitySnapshot = Readonly<{
-  schemaVersion: 1;
+  schemaVersion: typeof globalActivitySnapshotSchemaVersion;
   generatedAtUtc: string;
   asOfUtc: string;
   from: string;
@@ -137,13 +140,30 @@ function parseReviewEvents(
 
 function parseSnapshotDay(value: unknown, index: number): GlobalActivitySnapshotDay {
   const record = assertRecord(value, `days[${index}]`);
+  const uniqueReviewingUsers = assertNonNegativeInteger(
+    record.uniqueReviewingUsers,
+    `days[${index}].uniqueReviewingUsers`,
+  );
+  const newReviewingUsers = assertNonNegativeInteger(
+    record.newReviewingUsers,
+    `days[${index}].newReviewingUsers`,
+  );
+  const returningReviewingUsers = assertNonNegativeInteger(
+    record.returningReviewingUsers,
+    `days[${index}].returningReviewingUsers`,
+  );
+
+  if (uniqueReviewingUsers !== newReviewingUsers + returningReviewingUsers) {
+    throw new Error(
+      `Global activity snapshot days[${index}].uniqueReviewingUsers must equal newReviewingUsers + returningReviewingUsers. uniqueReviewingUsers=${uniqueReviewingUsers}, newReviewingUsers=${newReviewingUsers}, returningReviewingUsers=${returningReviewingUsers}.`,
+    );
+  }
 
   return {
     date: assertDateString(assertString(record.date, `days[${index}].date`), `days[${index}].date`),
-    uniqueReviewingUsers: assertNonNegativeInteger(
-      record.uniqueReviewingUsers,
-      `days[${index}].uniqueReviewingUsers`,
-    ),
+    uniqueReviewingUsers,
+    newReviewingUsers,
+    returningReviewingUsers,
     reviewEvents: parseReviewEvents(record.reviewEvents, `days[${index}].reviewEvents`),
   };
 }
@@ -167,6 +187,20 @@ function assertSequentialDays(days: ReadonlyArray<GlobalActivitySnapshotDay>): v
         `Global activity snapshot days must be sequential. Found ${previousDay.date} before ${currentDay.date}.`,
       );
     }
+  }
+}
+
+function assertFirstDayHasNoReturningUsers(days: ReadonlyArray<GlobalActivitySnapshotDay>): void {
+  const firstDay = days[0];
+
+  if (firstDay === undefined) {
+    throw new Error("Global activity snapshot days must not be empty.");
+  }
+
+  if (firstDay.returningReviewingUsers !== 0) {
+    throw new Error(
+      `Global activity snapshot first day returningReviewingUsers must be 0. date=${firstDay.date}, returningReviewingUsers=${firstDay.returningReviewingUsers}.`,
+    );
   }
 }
 
@@ -333,6 +367,13 @@ export function readGeneratedGlobalActivitySnapshot(cwd: string): GlobalActivity
 
 export function parseGlobalActivitySnapshot(value: unknown): GlobalActivitySnapshot {
   const record = assertRecord(value, "root");
+
+  if (record.schemaVersion !== globalActivitySnapshotSchemaVersion) {
+    throw new Error(
+      `Global activity snapshot schemaVersion must be ${globalActivitySnapshotSchemaVersion}, received ${String(record.schemaVersion)}.`,
+    );
+  }
+
   const daysValue = record.days;
 
   if (Array.isArray(daysValue) === false) {
@@ -340,8 +381,9 @@ export function parseGlobalActivitySnapshot(value: unknown): GlobalActivitySnaps
   }
 
   const days = daysValue.map((day, index) => parseSnapshotDay(day, index));
+  const totalsRecord = assertRecord(record.totals, "totals");
   const snapshot: GlobalActivitySnapshot = {
-    schemaVersion: 1,
+    schemaVersion: globalActivitySnapshotSchemaVersion,
     generatedAtUtc: assertTimestampString(
       assertString(record.generatedAtUtc, "generatedAtUtc"),
       "generatedAtUtc",
@@ -351,19 +393,13 @@ export function parseGlobalActivitySnapshot(value: unknown): GlobalActivitySnaps
     to: assertDateString(assertString(record.to, "to"), "to"),
     totals: {
       uniqueReviewingUsers: assertNonNegativeInteger(
-        assertRecord(record.totals, "totals").uniqueReviewingUsers,
+        totalsRecord.uniqueReviewingUsers,
         "totals.uniqueReviewingUsers",
       ),
-      reviewEvents: parseReviewEvents(assertRecord(record.totals, "totals").reviewEvents, "totals.reviewEvents"),
+      reviewEvents: parseReviewEvents(totalsRecord.reviewEvents, "totals.reviewEvents"),
     },
     days,
   };
-
-  if (record.schemaVersion !== snapshot.schemaVersion) {
-    throw new Error(
-      `Global activity snapshot schemaVersion must be ${snapshot.schemaVersion}, received ${String(record.schemaVersion)}.`,
-    );
-  }
 
   if (snapshot.days.length === 0) {
     throw new Error("Global activity snapshot days must not be empty.");
@@ -382,6 +418,7 @@ export function parseGlobalActivitySnapshot(value: unknown): GlobalActivitySnaps
   }
 
   assertSequentialDays(snapshot.days);
+  assertFirstDayHasNoReturningUsers(snapshot.days);
   assertReviewEventTotalsMatchDays(snapshot);
 
   return snapshot;
