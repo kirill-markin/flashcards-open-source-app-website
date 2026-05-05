@@ -54,8 +54,11 @@ type TooltipHitBox = Readonly<{
 
 type DailyUniqueUsersChartProps = Readonly<{
   ariaLabel: string;
+  cohortLabels: ReviewUserCohortLabels;
   days: ReadonlyArray<GlobalActivitySnapshotDay>;
   locale: AppLocale;
+  totalReviewEventsLabel: string;
+  totalUniqueUsersLabel: string;
   xAxisLabel: string;
   yAxisLabel: string;
 }>;
@@ -70,9 +73,9 @@ type PlatformActivityChartProps = Readonly<{
   yAxisLabel: string;
 }>;
 
-type PlatformLegendItemProps = Readonly<{
+type LegendItemProps = Readonly<{
+  color: string;
   label: string;
-  platform: GlobalActivityPlatform;
 }>;
 
 type DatedChartPoint = Readonly<{
@@ -80,11 +83,25 @@ type DatedChartPoint = Readonly<{
   centerX: number;
 }>;
 
-type BarChartPoint = DatedChartPoint & Readonly<{
+type ReviewUserCohort = "returning" | "new";
+
+type ReviewUserCohortLabels = Readonly<Record<ReviewUserCohort, string>>;
+
+type DailyUniqueUserSegment = Readonly<{
+  cohort: ReviewUserCohort;
   height: number;
+  isTop: boolean;
   value: number;
   y: number;
 }>;
+
+type DailyUniqueUserChartPoint = DatedChartPoint & Readonly<{
+  segments: ReadonlyArray<DailyUniqueUserSegment>;
+  totalReviewEvents: number;
+  totalUniqueUsers: number;
+}>;
+
+type DailyUniqueUserSegmentBase = Omit<DailyUniqueUserSegment, "isTop">;
 
 type StackedBarSegment = Readonly<{
   height: number;
@@ -103,6 +120,7 @@ type StackedBarSegmentBase = Omit<StackedBarSegment, "isTop">;
 
 type PlatformLabels = Readonly<Record<GlobalActivityPlatform, string>>;
 
+const reviewUserCohorts = ["returning", "new"] as const;
 const chartWidth = 920;
 const chartHeight = 360;
 const chartMargin = {
@@ -112,10 +130,15 @@ const chartMargin = {
   inlineStart: 64,
 } as const;
 const chartFrameHeight = chartHeight - chartMargin.top - chartMargin.bottom;
-const chartTooltipWidth = 218;
+const uniqueUsersTooltipWidth = 300;
+const platformTooltipWidth = 218;
 const chartTooltipPaddingBlock = 8;
 const chartTooltipLineHeight = 16;
 const minTooltipHitHeight = 10;
+const reviewUserCohortColors: Readonly<Record<ReviewUserCohort, string>> = {
+  returning: "#c44b2d",
+  new: "#4e79a7",
+};
 const platformColors: Readonly<Record<GlobalActivityPlatform, string>> = {
   web: "#4e79a7",
   android: "#59a14f",
@@ -285,14 +308,19 @@ function getBarY(height: number): number {
   return chartMargin.top + chartFrameHeight - height;
 }
 
-function createTooltipLayout(centerX: number, anchorY: number, lineCount: number): ChartTooltipLayout {
+function createTooltipLayout(
+  centerX: number,
+  anchorY: number,
+  lineCount: number,
+  width: number,
+): ChartTooltipLayout {
   if (lineCount <= 0) {
     throw new Error(`Tooltip line count must be positive. lineCount=${lineCount}.`);
   }
 
   const height = (chartTooltipPaddingBlock * 2) + (lineCount * chartTooltipLineHeight);
   const minX = chartMargin.inlineStart + 8;
-  const maxX = chartWidth - chartMargin.inlineEnd - chartTooltipWidth - 8;
+  const maxX = chartWidth - chartMargin.inlineEnd - width - 8;
   const minY = chartMargin.top + 6;
   const maxY = getChartBottomY() - height - 8;
   const aboveY = anchorY - height - 10;
@@ -300,8 +328,8 @@ function createTooltipLayout(centerX: number, anchorY: number, lineCount: number
 
   return {
     height,
-    width: chartTooltipWidth,
-    x: Math.min(maxX, Math.max(minX, centerX - (chartTooltipWidth / 2))),
+    width,
+    x: Math.min(maxX, Math.max(minX, centerX - (width / 2))),
     y: Math.min(maxY, Math.max(minY, preferredY)),
   };
 }
@@ -343,22 +371,55 @@ function createTopRoundedRectPath(
   ].join(" ");
 }
 
+function getReviewUserCohortValue(day: GlobalActivitySnapshotDay, cohort: ReviewUserCohort): number {
+  switch (cohort) {
+    case "new":
+      return day.newReviewingUsers;
+    case "returning":
+      return day.returningReviewingUsers;
+  }
+}
+
+function createDailyUniqueUserSegments(
+  day: GlobalActivitySnapshotDay,
+  maxUniqueUsers: number,
+): ReadonlyArray<DailyUniqueUserSegment> {
+  let stackedHeight = 0;
+  const segmentBases: Array<DailyUniqueUserSegmentBase> = [];
+
+  for (const cohort of reviewUserCohorts) {
+    const value = getReviewUserCohortValue(day, cohort);
+    const height = getBarHeight(value, maxUniqueUsers);
+    const y = getBarY(stackedHeight + height);
+
+    stackedHeight += height;
+    segmentBases.push({
+      cohort,
+      height,
+      value,
+      y,
+    });
+  }
+
+  const visibleSegmentBases = segmentBases.filter((segment) => segment.height > 0);
+
+  return visibleSegmentBases.map((segment, index) => ({
+    ...segment,
+    isTop: index === visibleSegmentBases.length - 1,
+  }));
+}
+
 function createDailyUniqueUserPoints(
   days: ReadonlyArray<GlobalActivitySnapshotDay>,
   maxUniqueUsers: number,
-): ReadonlyArray<BarChartPoint> {
-  return days.map((day, index) => {
-    const value = day.uniqueReviewingUsers;
-    const height = getBarHeight(value, maxUniqueUsers);
-
-    return {
-      date: day.date,
-      centerX: getChartPointCenterX(index, days),
-      height,
-      value,
-      y: getBarY(height),
-    };
-  });
+): ReadonlyArray<DailyUniqueUserChartPoint> {
+  return days.map((day, index) => ({
+    date: day.date,
+    centerX: getChartPointCenterX(index, days),
+    segments: createDailyUniqueUserSegments(day, maxUniqueUsers),
+    totalReviewEvents: day.reviewEvents.total,
+    totalUniqueUsers: day.uniqueReviewingUsers,
+  }));
 }
 
 function createStackedBarSegments(
@@ -552,8 +613,11 @@ function ChartDateLabels({
 
 function DailyUniqueUsersChart({
   ariaLabel,
+  cohortLabels,
   days,
   locale,
+  totalReviewEventsLabel,
+  totalUniqueUsersLabel,
   xAxisLabel,
   yAxisLabel,
 }: DailyUniqueUsersChartProps): React.JSX.Element {
@@ -582,61 +646,94 @@ function DailyUniqueUsersChart({
       />
 
       {points.map((point) => (
-        <rect
-          key={point.date}
-          x={point.centerX - (barWidth / 2)}
-          y={point.y}
-          width={barWidth}
-          height={point.height}
-          rx={4}
-          className={styles.uniqueUsersBar}
-        >
-          <title>
-            {`${formatLongDate(locale, point.date)}: ${formatNumber(locale, point.value)} ${yAxisLabel}`}
-          </title>
-        </rect>
+        <g key={`unique-users-day-${point.date}`}>
+          {point.segments.map((segment) => {
+            const segmentX = point.centerX - (barWidth / 2);
+            const title = `${formatLongDate(locale, point.date)}: ${cohortLabels[segment.cohort]} ${formatNumber(locale, segment.value)} ${yAxisLabel}`;
+
+            if (segment.isTop) {
+              return (
+                <path
+                  key={`${point.date}-${segment.cohort}`}
+                  d={createTopRoundedRectPath(segmentX, segment.y, barWidth, segment.height, 4)}
+                  fill={reviewUserCohortColors[segment.cohort]}
+                >
+                  <title>{title}</title>
+                </path>
+              );
+            }
+
+            return (
+              <rect
+                key={`${point.date}-${segment.cohort}`}
+                x={segmentX}
+                y={segment.y}
+                width={barWidth}
+                height={segment.height}
+                fill={reviewUserCohortColors[segment.cohort]}
+              >
+                <title>{title}</title>
+              </rect>
+            );
+          })}
+        </g>
       ))}
 
       <ChartDateLabels points={points} dates={tickDates} locale={locale} />
 
-      {points.map((point) => {
-        const hitBox = createTooltipHitBox(point.y, point.height);
-        const tooltipLines = [
-          formatLongDate(locale, point.date),
-          `${formatNumber(locale, point.value)} ${yAxisLabel}`,
-        ] as const;
+      {points.map((point) => (
+        <g key={`unique-users-tooltip-day-${point.date}`}>
+          {point.segments.map((segment) => {
+            const segmentX = point.centerX - (barWidth / 2);
+            const hitBox = createTooltipHitBox(segment.y, segment.height);
+            const tooltipLines = [
+              formatLongDate(locale, point.date),
+              `${cohortLabels[segment.cohort]}: ${formatNumber(locale, segment.value)} ${yAxisLabel}`,
+              `${totalUniqueUsersLabel}: ${formatNumber(locale, point.totalUniqueUsers)}`,
+              `${totalReviewEventsLabel}: ${formatNumber(locale, point.totalReviewEvents)}`,
+            ] as const;
 
-        return (
-          <g key={`unique-users-tooltip-${point.date}`} className={styles.tooltipTarget}>
-            <rect
-              x={point.centerX - (barWidth / 2)}
-              y={hitBox.y}
-              width={barWidth}
-              height={hitBox.height}
-              className={styles.tooltipHitArea}
-            >
-              <title>{tooltipLines.join(": ")}</title>
-            </rect>
-            <ChartTooltip
-              lines={tooltipLines}
-              layout={createTooltipLayout(point.centerX, point.y, tooltipLines.length)}
-            />
-          </g>
-        );
-      })}
+            return (
+              <g
+                key={`unique-users-tooltip-${point.date}-${segment.cohort}`}
+                className={styles.tooltipTarget}
+              >
+                <rect
+                  x={segmentX}
+                  y={hitBox.y}
+                  width={barWidth}
+                  height={hitBox.height}
+                  className={styles.tooltipHitArea}
+                >
+                  <title>{tooltipLines.join(": ")}</title>
+                </rect>
+                <ChartTooltip
+                  lines={tooltipLines}
+                  layout={createTooltipLayout(
+                    point.centerX,
+                    segment.y,
+                    tooltipLines.length,
+                    uniqueUsersTooltipWidth,
+                  )}
+                />
+              </g>
+            );
+          })}
+        </g>
+      ))}
     </svg>
   );
 }
 
-function PlatformLegendItem({
+function LegendItem({
+  color,
   label,
-  platform,
-}: PlatformLegendItemProps): React.JSX.Element {
+}: LegendItemProps): React.JSX.Element {
   return (
     <span className={styles.legendItem}>
       <span
         className={styles.legendSwatch}
-        style={{ backgroundColor: platformColors[platform] }}
+        style={{ backgroundColor: color }}
         aria-hidden="true"
       />
       <span>{label}</span>
@@ -740,7 +837,12 @@ function PlatformActivityChart({
                 </rect>
                 <ChartTooltip
                   lines={tooltipLines}
-                  layout={createTooltipLayout(point.centerX, segment.y, tooltipLines.length)}
+                  layout={createTooltipLayout(
+                    point.centerX,
+                    segment.y,
+                    tooltipLines.length,
+                    platformTooltipWidth,
+                  )}
                 />
               </g>
             );
@@ -771,6 +873,7 @@ export function PublicActivitySection({
     </a>
   );
   const platformLabels = activityCopy.platformLabels;
+  const cohortLabels = activityCopy.reviewUserCohortLabels;
   const peakDailyReviewEvents = getMaxDailyValue(
     snapshot.days,
     (day) => day.reviewEvents.total,
@@ -822,12 +925,25 @@ export function PublicActivitySection({
         <ChartShell
           title={activityCopy.dailyUniqueUsersChartTitle}
           description={activityCopy.dailyUniqueUsersChartDescription}
-          aside={null}
+          aside={
+            <div className={styles.legendRow}>
+              {reviewUserCohorts.map((cohort) => (
+                <LegendItem
+                  key={cohort}
+                  color={reviewUserCohortColors[cohort]}
+                  label={cohortLabels[cohort]}
+                />
+              ))}
+            </div>
+          }
         >
           <DailyUniqueUsersChart
             ariaLabel={activityCopy.dailyUniqueUsersChartTitle}
+            cohortLabels={cohortLabels}
             days={snapshot.days}
             locale={locale}
+            totalReviewEventsLabel={activityCopy.totalReviewEventsLabel}
+            totalUniqueUsersLabel={activityCopy.usersWithReviewEventsLabel}
             xAxisLabel={activityCopy.reviewDateAxisLabel}
             yAxisLabel={activityCopy.uniqueUsersAxisLabel}
           />
@@ -839,10 +955,10 @@ export function PublicActivitySection({
           aside={
             <div className={styles.legendRow}>
               {globalActivityPlatforms.map((platform) => (
-                <PlatformLegendItem
+                <LegendItem
                   key={platform}
+                  color={platformColors[platform]}
                   label={platformLabels[platform]}
-                  platform={platform}
                 />
               ))}
             </div>

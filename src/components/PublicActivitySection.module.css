@@ -212,11 +212,6 @@
   text-anchor: middle;
 }
 
-.uniqueUsersBar {
-  fill: #c44b2d;
-  opacity: 0.9;
-}
-
 .tooltipTarget {
   cursor: default;
 }
