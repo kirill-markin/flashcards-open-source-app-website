@@ -16,6 +16,8 @@ import {
   SUPPORTED_LOCALES,
   type AppLocale,
 } from "@/lib/i18n";
+import { getGlobalActivitySnapshotGeneratedFilePath } from "@/lib/globalActivitySnapshot";
+import { DASHBOARDS_ROUTE_PATHNAME } from "@/lib/dashboardsPage";
 import {
   getLanguageAlternates,
   hasRouteTranslation,
@@ -94,6 +96,18 @@ function getMarketingEntries(): MetadataRoute.Sitemap {
       },
     }));
   });
+}
+
+function getDashboardsEntries(): MetadataRoute.Sitemap {
+  return getLocalizedContentEntries(
+    DASHBOARDS_ROUTE_PATHNAME,
+    0.7,
+    "daily",
+    () =>
+      getFileLastModified(
+        getGlobalActivitySnapshotGeneratedFilePath(process.cwd())
+      )
+  );
 }
 
 function getLocalizedContentEntries(
@@ -182,5 +196,10 @@ function getBlogEntries(): MetadataRoute.Sitemap {
 }
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  return [...getMarketingEntries(), ...getDocsEntries(), ...getBlogEntries()];
+  return [
+    ...getMarketingEntries(),
+    ...getDashboardsEntries(),
+    ...getDocsEntries(),
+    ...getBlogEntries(),
+  ];
 }
