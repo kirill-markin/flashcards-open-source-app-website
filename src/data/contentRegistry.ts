@@ -10,6 +10,7 @@ import {
   SUPPORTED_LOCALES,
   type AppLocale,
 } from "@/lib/localeConfig";
+import { DASHBOARDS_ROUTE_PATHNAME } from "@/lib/dashboardsPage";
 
 type StructuredMarketingPageSlug = "home" | "features" | "pricing";
 type MarkdownBackedMarketingPageSlug = "privacy" | "support" | "terms";
@@ -33,6 +34,9 @@ const MARKETING_PAGE_SLUGS: ReadonlyArray<MarketingPageSlug> = [
   ...STRUCTURED_MARKETING_PAGE_SLUGS,
   ...MARKDOWN_BACKED_MARKETING_PAGE_SLUGS,
 ];
+const STATIC_ROUTE_PATHNAMES: ReadonlyArray<string> = [
+  DASHBOARDS_ROUTE_PATHNAME,
+] as const;
 const PREFERRED_DOC_SLUG_ORDER: ReadonlyArray<string> = [
   "getting-started",
   "self-hosting",
@@ -163,6 +167,7 @@ function listTranslatedRoutePathnames(locale: AppLocale): ReadonlyArray<string> 
 
   return [
     ...listTranslatedMarketingRoutePathnames(locale),
+    ...STATIC_ROUTE_PATHNAMES,
     ...listTranslatedContentRoutePathnames("/docs/", translatedDocSlugs),
     ...listTranslatedContentRoutePathnames("/blog/", translatedBlogPostSlugs),
   ];
