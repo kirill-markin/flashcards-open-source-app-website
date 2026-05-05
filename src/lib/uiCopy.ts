@@ -94,6 +94,7 @@ interface AppUiCopy {
   readonly menuToggleLabel: string;
   readonly navigation: {
     readonly blog: string;
+    readonly dashboards: string;
     readonly docs: string;
     readonly features: string;
     readonly pricing: string;
@@ -206,6 +207,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     menuToggleLabel: "Toggle menu",
     navigation: {
       blog: "Blog",
+      dashboards: "Dashboards",
       docs: "Docs",
       features: "Features",
       pricing: "Pricing",
@@ -316,6 +318,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     menuToggleLabel: "Abrir menú",
     navigation: {
       blog: "Blog",
+      dashboards: "Paneles",
       docs: "Docs",
       features: "Funciones",
       pricing: "Precios",
@@ -426,6 +429,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     menuToggleLabel: "تبديل القائمة",
     navigation: {
       blog: "المدونة",
+      dashboards: "لوحات المعلومات",
       docs: "التوثيق",
       features: "الميزات",
       pricing: "الأسعار",
@@ -536,6 +540,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     menuToggleLabel: "Menü umschalten",
     navigation: {
       blog: "Blog",
+      dashboards: "Dashboards",
       docs: "Doku",
       features: "Funktionen",
       pricing: "Preise",
@@ -646,6 +651,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     menuToggleLabel: "मेनू खोलें",
     navigation: {
       blog: "ब्लॉग",
+      dashboards: "डैशबोर्ड",
       docs: "डॉक्स",
       features: "फ़ीचर्स",
       pricing: "कीमत",
@@ -756,6 +762,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     menuToggleLabel: "メニューを切り替える",
     navigation: {
       blog: "ブログ",
+      dashboards: "ダッシュボード",
       docs: "ドキュメント",
       features: "機能",
       pricing: "料金",
@@ -866,6 +873,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     menuToggleLabel: "Открыть меню",
     navigation: {
       blog: "Блог",
+      dashboards: "Дашборды",
       docs: "Документация",
       features: "Возможности",
       pricing: "Цены",
@@ -975,6 +983,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     menuToggleLabel: "切换菜单",
     navigation: {
       blog: "博客",
+      dashboards: "仪表盘",
       docs: "文档",
       features: "功能",
       pricing: "价格",
