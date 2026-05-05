@@ -16,6 +16,7 @@ type MetricCardProps = Readonly<{
 
 type ChartShellProps = Readonly<{
   title: string;
+  titleTag: ChartTitleTag;
   description: string;
   aside: React.ReactNode | null;
   children: React.ReactNode;
@@ -73,6 +74,12 @@ type PlatformActivityChartProps = Readonly<{
   yAxisLabel: string;
 }>;
 
+type PublicActivityChartsProps = Readonly<{
+  chartTitleTag: ChartTitleTag;
+  locale: AppLocale;
+  snapshot: GlobalActivitySnapshot;
+}>;
+
 type LegendItemProps = Readonly<{
   color: string;
   label: string;
@@ -82,6 +89,8 @@ type DatedChartPoint = Readonly<{
   date: string;
   centerX: number;
 }>;
+
+type ChartTitleTag = "h2" | "h3";
 
 type ReviewUserCohort = "returning" | "new";
 
@@ -477,15 +486,20 @@ function MetricCard({
 
 function ChartShell({
   title,
+  titleTag,
   description,
   aside,
   children,
 }: ChartShellProps): React.JSX.Element {
+  const chartTitle = titleTag === "h2"
+    ? <h2 className={styles.chartTitle}>{title}</h2>
+    : <h3 className={styles.chartTitle}>{title}</h3>;
+
   return (
     <article className={styles.chartShell}>
       <div className={styles.chartMeta}>
         <div className={styles.chartText}>
-          <h3 className={styles.chartTitle}>{title}</h3>
+          {chartTitle}
           <p className={styles.chartDescription}>{description}</p>
         </div>
         {aside === null ? null : <div className={styles.chartDetail}>{aside}</div>}
@@ -853,6 +867,75 @@ function PlatformActivityChart({
   );
 }
 
+export function PublicActivityCharts({
+  chartTitleTag,
+  locale,
+  snapshot,
+}: PublicActivityChartsProps): React.JSX.Element {
+  const activityCopy = getUiCopy(locale).home.activity;
+  const platformLabels = activityCopy.platformLabels;
+  const cohortLabels = activityCopy.reviewUserCohortLabels;
+
+  return (
+    <div className={styles.chartGrid}>
+      <ChartShell
+        title={activityCopy.dailyUniqueUsersChartTitle}
+        titleTag={chartTitleTag}
+        description={activityCopy.dailyUniqueUsersChartDescription}
+        aside={
+          <div className={styles.legendRow}>
+            {reviewUserCohorts.map((cohort) => (
+              <LegendItem
+                key={cohort}
+                color={reviewUserCohortColors[cohort]}
+                label={cohortLabels[cohort]}
+              />
+            ))}
+          </div>
+        }
+      >
+        <DailyUniqueUsersChart
+          ariaLabel={activityCopy.dailyUniqueUsersChartTitle}
+          cohortLabels={cohortLabels}
+          days={snapshot.days}
+          locale={locale}
+          totalReviewEventsLabel={activityCopy.totalReviewEventsLabel}
+          totalUniqueUsersLabel={activityCopy.usersWithReviewEventsLabel}
+          xAxisLabel={activityCopy.reviewDateAxisLabel}
+          yAxisLabel={activityCopy.uniqueUsersAxisLabel}
+        />
+      </ChartShell>
+
+      <ChartShell
+        title={activityCopy.platformActivityChartTitle}
+        titleTag={chartTitleTag}
+        description={activityCopy.platformActivityChartDescription}
+        aside={
+          <div className={styles.legendRow}>
+            {globalActivityPlatforms.map((platform) => (
+              <LegendItem
+                key={platform}
+                color={platformColors[platform]}
+                label={platformLabels[platform]}
+              />
+            ))}
+          </div>
+        }
+      >
+        <PlatformActivityChart
+          ariaLabel={activityCopy.platformActivityChartTitle}
+          days={snapshot.days}
+          locale={locale}
+          platformLabels={platformLabels}
+          reviewEventsLabel={activityCopy.reviewEventsAxisLabel}
+          xAxisLabel={activityCopy.reviewDateAxisLabel}
+          yAxisLabel={activityCopy.reviewEventsAxisLabel}
+        />
+      </ChartShell>
+    </div>
+  );
+}
+
 export function PublicActivitySection({
   locale,
   snapshot,
@@ -872,8 +955,6 @@ export function PublicActivitySection({
       {activityCopy.sourceLabel}
     </a>
   );
-  const platformLabels = activityCopy.platformLabels;
-  const cohortLabels = activityCopy.reviewUserCohortLabels;
   const peakDailyReviewEvents = getMaxDailyValue(
     snapshot.days,
     (day) => day.reviewEvents.total,
@@ -921,60 +1002,11 @@ export function PublicActivitySection({
         />
       </div>
 
-      <div className={styles.chartGrid}>
-        <ChartShell
-          title={activityCopy.dailyUniqueUsersChartTitle}
-          description={activityCopy.dailyUniqueUsersChartDescription}
-          aside={
-            <div className={styles.legendRow}>
-              {reviewUserCohorts.map((cohort) => (
-                <LegendItem
-                  key={cohort}
-                  color={reviewUserCohortColors[cohort]}
-                  label={cohortLabels[cohort]}
-                />
-              ))}
-            </div>
-          }
-        >
-          <DailyUniqueUsersChart
-            ariaLabel={activityCopy.dailyUniqueUsersChartTitle}
-            cohortLabels={cohortLabels}
-            days={snapshot.days}
-            locale={locale}
-            totalReviewEventsLabel={activityCopy.totalReviewEventsLabel}
-            totalUniqueUsersLabel={activityCopy.usersWithReviewEventsLabel}
-            xAxisLabel={activityCopy.reviewDateAxisLabel}
-            yAxisLabel={activityCopy.uniqueUsersAxisLabel}
-          />
-        </ChartShell>
-
-        <ChartShell
-          title={activityCopy.platformActivityChartTitle}
-          description={activityCopy.platformActivityChartDescription}
-          aside={
-            <div className={styles.legendRow}>
-              {globalActivityPlatforms.map((platform) => (
-                <LegendItem
-                  key={platform}
-                  color={platformColors[platform]}
-                  label={platformLabels[platform]}
-                />
-              ))}
-            </div>
-          }
-        >
-          <PlatformActivityChart
-            ariaLabel={activityCopy.platformActivityChartTitle}
-            days={snapshot.days}
-            locale={locale}
-            platformLabels={platformLabels}
-            reviewEventsLabel={activityCopy.reviewEventsAxisLabel}
-            xAxisLabel={activityCopy.reviewDateAxisLabel}
-            yAxisLabel={activityCopy.reviewEventsAxisLabel}
-          />
-        </ChartShell>
-      </div>
+      <PublicActivityCharts
+        chartTitleTag="h3"
+        locale={locale}
+        snapshot={snapshot}
+      />
     </section>
   );
 }

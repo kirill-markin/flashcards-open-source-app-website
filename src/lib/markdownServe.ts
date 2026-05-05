@@ -25,7 +25,13 @@ import {
   globalActivitySnapshotUrl,
   type GlobalActivitySnapshot,
   type GlobalActivitySnapshotDay,
+  serializeGlobalActivitySnapshot,
 } from "@/lib/globalActivitySnapshot";
+import {
+  DASHBOARDS_ROUTE_PATHNAME,
+  getDashboardsPageDescription,
+  getDashboardsPageTitle,
+} from "@/lib/dashboardsPage";
 import { getUiCopy } from "@/lib/uiCopy";
 
 const SITE_CONTEXT: MarkdownSiteContext = {
@@ -34,6 +40,8 @@ const SITE_CONTEXT: MarkdownSiteContext = {
   githubUrl: "https://github.com/kirill-markin/flashcards-open-source-app",
 };
 const DISCOVERY_URL = "https://api.flashcards-open-source-app.com/v1/";
+const DASHBOARDS_NORMALIZED_ROUTE_PATHNAME =
+  DASHBOARDS_ROUTE_PATHNAME.replace(/\/+$/, "");
 type MarkdownResult = {
   readonly markdown: string;
   readonly status: 200 | 404;
@@ -158,6 +166,42 @@ function renderMarketingPageMarkdownDocument(
   };
 }
 
+function renderDashboardsMarkdown(
+  locale: AppLocale,
+  context: MarketingPageMarkdownContext
+): MarkdownResult {
+  const activityCopy = getUiCopy(locale).home.activity;
+  const pagePath = getPagePath(
+    getLocalizedPathname(locale, DASHBOARDS_ROUTE_PATHNAME)
+  );
+  const lines = [
+    `# ${getDashboardsPageTitle(locale)}`,
+    "",
+    getDashboardsPageDescription(locale),
+    "",
+    `- [${activityCopy.sourceLabel}](${globalActivitySnapshotUrl})`,
+    "",
+    `## ${activityCopy.dailyUniqueUsersChartTitle}`,
+    "",
+    activityCopy.dailyUniqueUsersChartDescription,
+    "",
+    `## ${activityCopy.platformActivityChartTitle}`,
+    "",
+    activityCopy.platformActivityChartDescription,
+    "",
+    "Build-time raw snapshot:",
+    "",
+    "```json",
+    serializeGlobalActivitySnapshot(context.globalActivitySnapshot).trim(),
+    "```",
+  ];
+
+  return {
+    markdown: appendMarkdownFooter(lines.join("\n"), locale, pagePath),
+    status: 200,
+  };
+}
+
 export function renderDocsListingMarkdown(locale: AppLocale): MarkdownResult {
   const uiCopy = getUiCopy(locale);
   const lines: string[] = [
@@ -274,6 +318,11 @@ export function renderBlogPostMarkdown(
 }
 
 export function listMarkdownPagePaths(): ReadonlyArray<string> {
+  const localizedDashboardPaths = SUPPORTED_LOCALES.filter((locale) =>
+    hasRouteTranslation(DASHBOARDS_ROUTE_PATHNAME, locale)
+  ).map((locale) =>
+    getPagePath(getLocalizedPathname(locale, DASHBOARDS_ROUTE_PATHNAME))
+  );
   const localizedDocsAndBlogPaths = SUPPORTED_LOCALES.flatMap((locale) => {
     const blogPostPaths = getBlogPosts(locale).map((post) =>
       getPagePath(getLocalizedPathname(locale, `/blog/${post.slug}/`))
@@ -293,6 +342,7 @@ export function listMarkdownPagePaths(): ReadonlyArray<string> {
 
   return [
     ...listMarketingPagePaths(),
+    ...localizedDashboardPaths,
     ...localizedDocsAndBlogPaths,
   ];
 }
@@ -310,6 +360,13 @@ export function renderMarkdownDocument(
   const pagePathname = pagePath === "" ? "/" : `/${pagePath}/`;
   const { locale, routePathname } = resolveLocaleFromPathname(pagePathname);
   const normalizedRoutePathname = routePathname.replace(/\/+$/, "") || "/";
+
+  if (
+    normalizedRoutePathname === DASHBOARDS_NORMALIZED_ROUTE_PATHNAME &&
+    hasRouteTranslation(DASHBOARDS_ROUTE_PATHNAME, locale)
+  ) {
+    return renderDashboardsMarkdown(locale, context);
+  }
 
   if (normalizedRoutePathname === "/docs" && hasRouteTranslation("/docs/", locale)) {
     return renderDocsListingMarkdown(locale);
@@ -345,6 +402,11 @@ export function renderLlmsText(globalActivitySnapshot: GlobalActivitySnapshot): 
     (day) => day.uniqueReviewingUsers,
     "peak daily unique users"
   );
+  const dashboardsPageTitle = getDashboardsPageTitle("en");
+  const dashboardsPageDescription = getDashboardsPageDescription("en");
+  const dashboardsPageUrl = `${SITE_CONTEXT.siteUrl}${DASHBOARDS_ROUTE_PATHNAME}`;
+  const dashboardsPageLine =
+    `- [${dashboardsPageTitle}](${dashboardsPageUrl}): ${dashboardsPageDescription}`;
   const pagesSection = readAllMarketingPages("en")
     .map((pageContent) => {
       const pageHref =
@@ -354,6 +416,7 @@ export function renderLlmsText(globalActivitySnapshot: GlobalActivitySnapshot): 
 
       return `- [${pageContent.title}](${pageHref}): ${pageContent.description}`;
     })
+    .concat(dashboardsPageLine)
     .join("\n");
 
   const posts = getBlogPosts("en");
