@@ -66,6 +66,10 @@ interface AppUiCopy {
         readonly ios: string;
         readonly web: string;
       };
+      readonly reviewUserCohortLabels: {
+        readonly new: string;
+        readonly returning: string;
+      };
       readonly reviewDateAxisLabel: string;
       readonly reviewEventsAxisLabel: string;
       readonly sourceLabel: string;
@@ -156,8 +160,8 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     home: {
       activity: {
         dailyUniqueUsersChartDescription:
-          "Unique users are users who completed at least 1 review. A review means choosing Again, Hard, Good, or Easy on a card.",
-        dailyUniqueUsersChartTitle: "Daily unique users with at least 1 review event",
+          "Unique users are split into new reviewers on their first review day and returning reviewers who reviewed before. A review means choosing Again, Hard, Good, or Easy on a card.",
+        dailyUniqueUsersChartTitle: "Daily unique users with at least 1 review event - new vs returning",
         daysInRangeLabel: "Days in range",
         description:
           "A simpler build-time snapshot of public review activity. Metrics cover the full date range; charts show daily unique users and review events by platform.",
@@ -171,6 +175,10 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
           android: "Android",
           ios: "iOS",
           web: "Web",
+        },
+        reviewUserCohortLabels: {
+          new: "New",
+          returning: "Returning",
         },
         reviewDateAxisLabel: "Review date",
         reviewEventsAxisLabel: "Review events",
@@ -262,8 +270,8 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     home: {
       activity: {
         dailyUniqueUsersChartDescription:
-          "Los usuarios únicos son usuarios que completaron al menos 1 repaso. Un repaso significa elegir Again, Hard, Good o Easy en una tarjeta.",
-        dailyUniqueUsersChartTitle: "Usuarios únicos diarios con al menos 1 evento de repaso",
+          "Los usuarios únicos se dividen entre nuevos usuarios en su primer día de repaso y usuarios recurrentes que ya habían repasado antes. Un repaso significa elegir Again, Hard, Good o Easy en una tarjeta.",
+        dailyUniqueUsersChartTitle: "Usuarios únicos diarios con al menos 1 evento de repaso - nuevos vs recurrentes",
         daysInRangeLabel: "Días en el rango",
         description:
           "Un snapshot público más simple de la actividad de repasos, capturado durante el build. Las métricas cubren todo el rango de fechas; los gráficos muestran usuarios únicos diarios y eventos de repaso por plataforma.",
@@ -277,6 +285,10 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
           android: "Android",
           ios: "iOS",
           web: "Web",
+        },
+        reviewUserCohortLabels: {
+          new: "Nuevos",
+          returning: "Recurrentes",
         },
         reviewDateAxisLabel: "Fecha de repaso",
         reviewEventsAxisLabel: "Eventos de repaso",
@@ -368,8 +380,8 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     home: {
       activity: {
         dailyUniqueUsersChartDescription:
-          "المستخدمون الفريدون هم المستخدمون الذين أكملوا مراجعة واحدة على الأقل. المراجعة تعني اختيار Again أو Hard أو Good أو Easy على بطاقة.",
-        dailyUniqueUsersChartTitle: "المستخدمون الفريدون يوميًا مع حدث مراجعة واحد على الأقل",
+          "ينقسم المستخدمون الفريدون إلى مستخدمين جدد في أول يوم مراجعة لهم ومستخدمين عائدين راجعوا من قبل. المراجعة تعني اختيار Again أو Hard أو Good أو Easy على بطاقة.",
+        dailyUniqueUsersChartTitle: "المستخدمون الفريدون يوميًا مع حدث مراجعة واحد على الأقل - الجدد مقابل العائدين",
         daysInRangeLabel: "الأيام في النطاق",
         description:
           "لقطة أبسط لنشاط المراجعات العام يتم التقاطها وقت البناء. تغطي المقاييس كامل نطاق التاريخ، وتعرض الرسوم المستخدمين الفريدين يوميًا وأحداث المراجعة حسب المنصة.",
@@ -383,6 +395,10 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
           android: "Android",
           ios: "iOS",
           web: "الويب",
+        },
+        reviewUserCohortLabels: {
+          new: "مستخدمون جدد",
+          returning: "مستخدمون عائدون",
         },
         reviewDateAxisLabel: "تاريخ المراجعة",
         reviewEventsAxisLabel: "أحداث المراجعة",
@@ -474,8 +490,8 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     home: {
       activity: {
         dailyUniqueUsersChartDescription:
-          "Eindeutige Nutzer sind Nutzer, die mindestens 1 Review abgeschlossen haben. Ein Review bedeutet, auf einer Karte Again, Hard, Good oder Easy zu wählen.",
-        dailyUniqueUsersChartTitle: "Tägliche eindeutige Nutzer mit mindestens 1 Review-Ereignis",
+          "Eindeutige Nutzer werden in neue Reviewer an ihrem ersten Review-Tag und wiederkehrende Reviewer mit früheren Reviews aufgeteilt. Ein Review bedeutet, auf einer Karte Again, Hard, Good oder Easy zu wählen.",
+        dailyUniqueUsersChartTitle: "Tägliche eindeutige Nutzer mit mindestens 1 Review-Ereignis - neu vs wiederkehrend",
         daysInRangeLabel: "Tage im Zeitraum",
         description:
           "Ein einfacherer Build-Time-Snapshot der öffentlichen Review-Aktivität. Die Metriken decken den gesamten Zeitraum ab; die Charts zeigen tägliche eindeutige Nutzer und Review-Ereignisse nach Plattform.",
@@ -489,6 +505,10 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
           android: "Android",
           ios: "iOS",
           web: "Web",
+        },
+        reviewUserCohortLabels: {
+          new: "Neu",
+          returning: "Wiederkehrend",
         },
         reviewDateAxisLabel: "Review-Datum",
         reviewEventsAxisLabel: "Review-Ereignisse",
@@ -580,8 +600,8 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     home: {
       activity: {
         dailyUniqueUsersChartDescription:
-          "Unique users वे users हैं जिन्होंने कम से कम 1 review पूरा किया। review का मतलब कार्ड पर Again, Hard, Good या Easy चुनना है।",
-        dailyUniqueUsersChartTitle: "कम से कम 1 review event वाले रोज़ाना unique users",
+          "Unique users को उनके पहले review दिन वाले नए reviewers और पहले review कर चुके वापस आने वाले reviewers में बांटा गया है। review का मतलब कार्ड पर Again, Hard, Good या Easy चुनना है।",
+        dailyUniqueUsersChartTitle: "कम से कम 1 review event वाले रोज़ाना unique users - नए vs वापस आने वाले",
         daysInRangeLabel: "Range में दिन",
         description:
           "Public review activity का एक सरल build-time snapshot. Metrics पूरे date range को cover करते हैं; charts रोज़ाना unique users और platform के हिसाब से review events दिखाते हैं।",
@@ -595,6 +615,10 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
           android: "Android",
           ios: "iOS",
           web: "वेब",
+        },
+        reviewUserCohortLabels: {
+          new: "नए",
+          returning: "वापस आने वाले",
         },
         reviewDateAxisLabel: "Review date",
         reviewEventsAxisLabel: "Review events",
@@ -686,8 +710,8 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     home: {
       activity: {
         dailyUniqueUsersChartDescription:
-          "ユニークユーザーは、少なくとも 1 回レビューしたユーザーです。レビューとは、カードで Again、Hard、Good、Easy のいずれかを選ぶことです。",
-        dailyUniqueUsersChartTitle: "1 回以上のレビューイベントがある日別ユニークユーザー",
+          "ユニークユーザーを、初めてレビューした日の新規ユーザーと、以前にもレビューしたリピーターに分けて表示します。レビューとは、カードで Again、Hard、Good、Easy のいずれかを選ぶことです。",
+        dailyUniqueUsersChartTitle: "1 回以上のレビューイベントがある日別ユニークユーザー - 新規 vs リピーター",
         daysInRangeLabel: "期間内の日数",
         description:
           "公開レビュー活動をビルド時に取得した、よりシンプルなスナップショットです。指標は期間全体を対象にし、グラフは日別ユニークユーザーとプラットフォーム別レビューイベントを示します。",
@@ -701,6 +725,10 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
           android: "Android",
           ios: "iOS",
           web: "ウェブ",
+        },
+        reviewUserCohortLabels: {
+          new: "新規",
+          returning: "リピーター",
         },
         reviewDateAxisLabel: "レビュー日",
         reviewEventsAxisLabel: "レビューイベント",
@@ -792,8 +820,8 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     home: {
       activity: {
         dailyUniqueUsersChartDescription:
-          "Уникальные пользователи — это пользователи, которые сделали минимум 1 повторение. Повторение означает выбор Again, Hard, Good или Easy на карточке.",
-        dailyUniqueUsersChartTitle: "Дневные уникальные пользователи с минимум 1 событием повторения",
+          "Уникальные пользователи разделены на новых пользователей в их первый день повторений и вернувшихся пользователей, которые повторяли раньше. Повторение означает выбор Again, Hard, Good или Easy на карточке.",
+        dailyUniqueUsersChartTitle: "Дневные уникальные пользователи с минимум 1 событием повторения - новые vs вернувшиеся",
         daysInRangeLabel: "Дней в периоде",
         description:
           "Более простой build-time snapshot публичной активности повторений. Метрики покрывают весь период; графики показывают дневных уникальных пользователей и события повторений по платформам.",
@@ -807,6 +835,10 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
           android: "Android",
           ios: "iOS",
           web: "Веб",
+        },
+        reviewUserCohortLabels: {
+          new: "Новые",
+          returning: "Вернувшиеся",
         },
         reviewDateAxisLabel: "Дата повторения",
         reviewEventsAxisLabel: "События повторений",
@@ -897,8 +929,8 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     home: {
       activity: {
         dailyUniqueUsersChartDescription:
-          "独立用户是至少完成 1 次复习的用户。复习是指在卡片上选择 Again、Hard、Good 或 Easy。",
-        dailyUniqueUsersChartTitle: "每日独立用户，至少有 1 次复习事件",
+          "独立用户会拆分为首次复习当天的新用户，以及之前已经复习过的回访用户。复习是指在卡片上选择 Again、Hard、Good 或 Easy。",
+        dailyUniqueUsersChartTitle: "每日独立用户，至少有 1 次复习事件 - 新用户 vs 回访用户",
         daysInRangeLabel: "范围内天数",
         description:
           "这是构建时捕获的公开复习活动简化快照。指标覆盖整个日期范围；图表展示每日独立用户，以及按平台划分的复习事件。",
@@ -912,6 +944,10 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
           android: "Android",
           ios: "iOS",
           web: "网页",
+        },
+        reviewUserCohortLabels: {
+          new: "新用户",
+          returning: "回访用户",
         },
         reviewDateAxisLabel: "复习日期",
         reviewEventsAxisLabel: "复习事件",
