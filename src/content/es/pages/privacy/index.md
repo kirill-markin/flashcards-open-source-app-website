@@ -4,7 +4,7 @@ description: Politica de privacidad de Flashcards.
 slug: privacy
 sections:
   - type: legal_page
-    lastUpdated: Marzo de 2026
+    lastUpdated: Junio de 2026
 ---
 ## Que recopilamos
 
@@ -12,7 +12,7 @@ Cuando usas la beta cloud alojada, almacenamos la direccion de correo que utiliz
 
 ## Operador
 
-El servicio alojado de Flashcards esta operado por Ozma Inc. Flashcards fue creado por Kirill Markin y [ozma.io](https://ozma.io/) es la web de la empresa relacionada con el servicio alojado.
+El servicio alojado de Flashcards esta operado por SAMO DANNI EOOD, ID de empresa 207395566, VAT BG207395566, con direccion registrada en bulv. Maritza 154, entrance D, floor 6 #14, 4018, Plovdiv, Bulgaria. Flashcards fue creado por Kirill Markin.
 
 ## Funciones de IA
 

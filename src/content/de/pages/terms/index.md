@@ -4,7 +4,7 @@ description: Nutzungsbedingungen fuer Flashcards.
 slug: terms
 sections:
   - type: legal_page
-    lastUpdated: Maerz 2026
+    lastUpdated: Juni 2026
 ---
 ## Dienst
 
@@ -12,7 +12,7 @@ Flashcards ist ein Open-Source-Werkzeug fuer Spaced Repetition und Flashcards. D
 
 ## Dienstanbieter
 
-Der gehostete Flashcards-Dienst wird von Ozma Inc bereitgestellt. Flashcards wurde von Kirill Markin erstellt, und [ozma.io](https://ozma.io/) ist die zugehoerige Unternehmenswebsite fuer den gehosteten Dienst.
+Der gehostete Flashcards-Dienst wird von SAMO DANNI EOOD bereitgestellt, Unternehmens-ID 207395566, VAT BG207395566, eingetragene Adresse bulv. Maritza 154, entrance D, floor 6 #14, 4018, Plovdiv, Bulgaria. Flashcards wurde von Kirill Markin erstellt.
 
 ## Deine Daten
 

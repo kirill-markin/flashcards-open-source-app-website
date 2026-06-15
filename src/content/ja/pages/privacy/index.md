@@ -4,7 +4,7 @@ description: Flashcards のプライバシーポリシー。
 slug: privacy
 sections:
   - type: legal_page
-    lastUpdated: 2026年3月
+    lastUpdated: 2026年6月
 ---
 ## 収集する情報
 
@@ -12,7 +12,7 @@ sections:
 
 ## 運営者
 
-ホスト型の Flashcards サービスは、Ozma Inc. が運営しています。Flashcards は Kirill Markin によって作成されました。[ozma.io](https://ozma.io/) は、このホスト型サービスに関連する企業ウェブサイトです。
+ホスト型の Flashcards サービスは、SAMO DANNI EOOD（会社 ID 207395566、VAT BG207395566、登録住所 bulv. Maritza 154, entrance D, floor 6 #14, 4018, Plovdiv, Bulgaria）が運営しています。Flashcards は Kirill Markin によって作成されました。
 
 ## AI 機能
 

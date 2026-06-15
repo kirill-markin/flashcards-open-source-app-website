@@ -4,7 +4,7 @@ description: Политика конфиденциальности для Flashc
 slug: privacy
 sections:
   - type: legal_page
-    lastUpdated: март 2026
+    lastUpdated: июнь 2026
 ---
 ## Что мы собираем
 
@@ -12,7 +12,7 @@ sections:
 
 ## Оператор
 
-Оператором размещённого сервиса Flashcards является Ozma Inc. Flashcards создал Kirill Markin, а [ozma.io](https://ozma.io/) - сайт компании, связанной с размещённым сервисом.
+Оператором размещённого сервиса Flashcards является SAMO DANNI EOOD, идентификатор компании 207395566, VAT BG207395566, зарегистрированный адрес: bulv. Maritza 154, entrance D, floor 6 #14, 4018, Plovdiv, Bulgaria. Flashcards создал Kirill Markin.
 
 ## ИИ-функции
 

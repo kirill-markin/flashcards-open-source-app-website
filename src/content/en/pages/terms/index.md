@@ -4,7 +4,7 @@ description: Terms of service for Flashcards.
 slug: terms
 sections:
   - type: legal_page
-    lastUpdated: March 2026
+    lastUpdated: June 2026
 ---
 ## Service
 
@@ -12,7 +12,7 @@ Flashcards is an open-source spaced-repetition and flashcards tool. The hosted c
 
 ## Service Provider
 
-The hosted Flashcards service is provided by Ozma Inc. Flashcards was created by Kirill Markin, and [ozma.io](https://ozma.io/) is the related company website for the hosted service.
+The hosted Flashcards service is provided by SAMO DANNI EOOD, company ID 207395566, VAT BG207395566, registered address bulv. Maritza 154, entrance D, floor 6 #14, 4018, Plovdiv, Bulgaria. Flashcards was created by Kirill Markin.
 
 ## Your Data
 

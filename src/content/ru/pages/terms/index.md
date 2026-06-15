@@ -4,7 +4,7 @@ description: Условия использования Flashcards.
 slug: terms
 sections:
   - type: legal_page
-    lastUpdated: март 2026
+    lastUpdated: июнь 2026
 ---
 ## Сервис
 
@@ -12,7 +12,7 @@ Flashcards — это инструмент с открытым исходным 
 
 ## Поставщик сервиса
 
-Облачный сервис Flashcards предоставляется компанией Ozma Inc. Flashcards создан Кириллом Маркиным, а [ozma.io](https://ozma.io/) является сайтом компании, связанной с размещаемым сервисом.
+Облачный сервис Flashcards предоставляется компанией SAMO DANNI EOOD, идентификатор компании 207395566, VAT BG207395566, зарегистрированный адрес: bulv. Maritza 154, entrance D, floor 6 #14, 4018, Plovdiv, Bulgaria. Flashcards создан Кириллом Маркиным.
 
 ## Ваши данные
 

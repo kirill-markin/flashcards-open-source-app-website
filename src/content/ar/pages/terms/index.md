@@ -4,7 +4,7 @@ description: شروط خدمة Flashcards.
 slug: terms
 sections:
   - type: legal_page
-    lastUpdated: مارس 2026
+    lastUpdated: يونيو 2026
 ---
 ## الخدمة
 
@@ -12,7 +12,7 @@ Flashcards أداة بطاقات وتكرار متباعد مفتوحة المص
 
 ## مزود الخدمة
 
-تُقدَّم خدمة Flashcards المستضافة بواسطة Ozma Inc. أنشأ Kirill Markin المشروع، وموقع [ozma.io](https://ozma.io/) هو موقع الشركة المرتبط بالخدمة المستضافة.
+تُقدَّم خدمة Flashcards المستضافة بواسطة SAMO DANNI EOOD، رقم الشركة 207395566، VAT BG207395566، والعنوان المسجل bulv. Maritza 154, entrance D, floor 6 #14, 4018, Plovdiv, Bulgaria. أنشأ Kirill Markin المشروع.
 
 ## بياناتك
 

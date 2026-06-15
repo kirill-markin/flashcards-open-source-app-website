@@ -4,7 +4,7 @@ description: Privacy policy for Flashcards.
 slug: privacy
 sections:
   - type: legal_page
-    lastUpdated: March 2026
+    lastUpdated: June 2026
 ---
 ## What We Collect
 
@@ -12,7 +12,7 @@ When you use the hosted cloud beta, we store the email address you use for authe
 
 ## Operator
 
-The hosted Flashcards service is operated by Ozma Inc. Flashcards was created by Kirill Markin, and [ozma.io](https://ozma.io/) is the related company website for the hosted service.
+The hosted Flashcards service is operated by SAMO DANNI EOOD, company ID 207395566, VAT BG207395566, registered address bulv. Maritza 154, entrance D, floor 6 #14, 4018, Plovdiv, Bulgaria. Flashcards was created by Kirill Markin.
 
 ## AI Features
 
