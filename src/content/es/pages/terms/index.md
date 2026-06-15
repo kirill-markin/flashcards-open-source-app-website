@@ -4,7 +4,7 @@ description: Terminos del servicio de Flashcards.
 slug: terms
 sections:
   - type: legal_page
-    lastUpdated: Marzo de 2026
+    lastUpdated: Junio de 2026
 ---
 ## Servicio
 
@@ -12,7 +12,7 @@ Flashcards es una herramienta de repeticion espaciada y flashcards de codigo abi
 
 ## Proveedor del servicio
 
-El servicio alojado de Flashcards lo proporciona Ozma Inc. Flashcards fue creado por Kirill Markin y [ozma.io](https://ozma.io/) es la web de la empresa relacionada con el servicio alojado.
+El servicio alojado de Flashcards lo proporciona SAMO DANNI EOOD, ID de empresa 207395566, VAT BG207395566, con direccion registrada en bulv. Maritza 154, entrance D, floor 6 #14, 4018, Plovdiv, Bulgaria. Flashcards fue creado por Kirill Markin.
 
 ## Tus datos
 

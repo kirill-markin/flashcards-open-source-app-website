@@ -4,7 +4,7 @@ description: Flashcards 的服务条款。
 slug: terms
 sections:
   - type: legal_page
-    lastUpdated: 2026年3月
+    lastUpdated: 2026年6月
 ---
 ## 服务
 
@@ -12,7 +12,7 @@ Flashcards 是一款开源的间隔重复与抽认卡工具。托管云端测试
 
 ## 服务提供方
 
-托管版 Flashcards 服务由 Ozma Inc. 提供。Flashcards 由 Kirill Markin 创建，[ozma.io](https://ozma.io/) 是与该托管服务相关的公司网站。
+托管版 Flashcards 服务由 SAMO DANNI EOOD 提供，公司 ID 207395566，VAT BG207395566，注册地址 bulv. Maritza 154, entrance D, floor 6 #14, 4018, Plovdiv, Bulgaria。Flashcards 由 Kirill Markin 创建。
 
 ## 您的数据
 

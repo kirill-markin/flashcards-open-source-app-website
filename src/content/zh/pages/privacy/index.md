@@ -4,7 +4,7 @@ description: Flashcards 的隐私政策。
 slug: privacy
 sections:
   - type: legal_page
-    lastUpdated: 2026年3月
+    lastUpdated: 2026年6月
 ---
 ## 我们收集的信息
 
@@ -12,7 +12,7 @@ sections:
 
 ## 运营方
 
-Flashcards 托管服务由 Ozma Inc. 运营。Flashcards 由 Kirill Markin 创建，[ozma.io](https://ozma.io/) 是该托管服务对应的公司网站。
+Flashcards 托管服务由 SAMO DANNI EOOD 运营，公司 ID 207395566，VAT BG207395566，注册地址 bulv. Maritza 154, entrance D, floor 6 #14, 4018, Plovdiv, Bulgaria。Flashcards 由 Kirill Markin 创建。
 
 ## AI 功能
 
