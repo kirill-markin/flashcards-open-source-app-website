@@ -113,14 +113,7 @@ export const Footer: React.FC<FooterProps> = ({
             </span>
             <div className={styles.attribution}>
               <span className={styles.attributionLine}>
-                {uiCopy.footer.builtByLabel} ·{" "}
-                <a
-                  href="https://ozma.io/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  ozma.io
-                </a>
+                {uiCopy.footer.builtByLabel}
               </span>
               <span className={styles.attributionLine}>
                 {uiCopy.footer.operatedByLabel}

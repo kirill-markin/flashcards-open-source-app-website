@@ -4,7 +4,7 @@ description: Datenschutzrichtlinie fuer Flashcards.
 slug: privacy
 sections:
   - type: legal_page
-    lastUpdated: Maerz 2026
+    lastUpdated: Juni 2026
 ---
 ## Welche Daten wir erfassen
 
@@ -12,7 +12,7 @@ Wenn du die gehostete Cloud-Beta nutzt, speichern wir die E-Mail-Adresse fuer di
 
 ## Betreiber
 
-Der gehostete Flashcards-Dienst wird von Ozma Inc betrieben. Flashcards wurde von Kirill Markin erstellt, und [ozma.io](https://ozma.io/) ist die zugehoerige Unternehmenswebsite fuer den gehosteten Dienst.
+Der gehostete Flashcards-Dienst wird von SAMO DANNI EOOD betrieben, Unternehmens-ID 207395566, VAT BG207395566, eingetragene Adresse bulv. Maritza 154, entrance D, floor 6 #14, 4018, Plovdiv, Bulgaria. Flashcards wurde von Kirill Markin erstellt.
 
 ## KI-Funktionen
 
