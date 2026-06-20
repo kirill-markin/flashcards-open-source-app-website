@@ -1,6 +1,9 @@
+import { Fragment } from "react";
 import Link from "next/link";
+import { BlogCta } from "@/components/BlogCta";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { SiteFrame } from "@/components/SiteFrame";
+import { getArticleHtmlSegments } from "@/lib/content/getArticleHtmlSegments";
 import {
   getBlogPostImageUrl,
   getRecommendedBlogPosts,
@@ -111,6 +114,7 @@ export async function BlogPostPageView({
   const localizedContentHtml = await renderMarkdownToHtml(
     localizeInternalLinks(post.bodyMarkdown, locale)
   );
+  const { chunks, midInsertIndex } = getArticleHtmlSegments(localizedContentHtml);
 
   return (
     <SiteFrame locale={locale} routePathname={`/blog/${slug}/`}>
@@ -148,10 +152,16 @@ export async function BlogPostPageView({
             <h1 className={styles.title}>{post.title}</h1>
           </header>
           <section className={styles.contentPanel}>
-            <div
-              className={styles.content}
-              dangerouslySetInnerHTML={{ __html: localizedContentHtml }}
-            />
+            {chunks.map((chunkHtml, index) => (
+              <Fragment key={index}>
+                {index === midInsertIndex && <BlogCta locale={locale} />}
+                <div
+                  className={styles.content}
+                  dangerouslySetInnerHTML={{ __html: chunkHtml }}
+                />
+              </Fragment>
+            ))}
+            <BlogCta locale={locale} />
           </section>
         </div>
         {recommendedPosts.length > 0 ? (
