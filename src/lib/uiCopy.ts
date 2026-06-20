@@ -25,6 +25,10 @@ interface AppUiCopy {
     readonly copy: string;
     readonly copyFailed: string;
   };
+  readonly cta: {
+    readonly heading: string;
+    readonly buttonLabel: string;
+  };
   readonly docs: {
     readonly breadcrumbLabel: string;
     readonly comingSoonDescription: string;
@@ -131,6 +135,10 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       copied: "Copied",
       copy: "Copy",
       copyFailed: "Copy failed",
+    },
+    cta: {
+      heading: "Try our Flashcards app",
+      buttonLabel: "Try it",
     },
     docs: {
       breadcrumbLabel: "Docs",
@@ -243,6 +251,10 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       copy: "Copiar",
       copyFailed: "Error al copiar",
     },
+    cta: {
+      heading: "Prueba nuestra app de Flashcards",
+      buttonLabel: "Pruébala",
+    },
     docs: {
       breadcrumbLabel: "Documentación",
       comingSoonDescription: "Esta página de documentación se está escribiendo.",
@@ -353,6 +365,10 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       copied: "تم النسخ",
       copy: "نسخ",
       copyFailed: "فشل النسخ",
+    },
+    cta: {
+      heading: "جرّب تطبيق Flashcards الخاص بنا",
+      buttonLabel: "جرّبه",
     },
     docs: {
       breadcrumbLabel: "التوثيق",
@@ -465,6 +481,10 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       copy: "Kopieren",
       copyFailed: "Kopieren fehlgeschlagen",
     },
+    cta: {
+      heading: "Probiere unsere Flashcards-App",
+      buttonLabel: "Ausprobieren",
+    },
     docs: {
       breadcrumbLabel: "Dokumentation",
       comingSoonDescription: "Diese Dokumentationsseite wird gerade erstellt.",
@@ -575,6 +595,10 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       copied: "कॉपी हो गया",
       copy: "कॉपी करें",
       copyFailed: "कॉपी नहीं हुआ",
+    },
+    cta: {
+      heading: "हमारा Flashcards ऐप आज़माएं",
+      buttonLabel: "आज़माएं",
     },
     docs: {
       breadcrumbLabel: "डॉक्स",
@@ -687,6 +711,10 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       copy: "コピー",
       copyFailed: "コピーに失敗しました",
     },
+    cta: {
+      heading: "Flashcards アプリを試す",
+      buttonLabel: "試してみる",
+    },
     docs: {
       breadcrumbLabel: "ドキュメント",
       comingSoonDescription: "このドキュメントページは準備中です。",
@@ -798,6 +826,10 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       copy: "Копировать",
       copyFailed: "Не удалось скопировать",
     },
+    cta: {
+      heading: "Попробуйте наше приложение Flashcards",
+      buttonLabel: "Попробовать",
+    },
     docs: {
       breadcrumbLabel: "Документация",
       comingSoonDescription: "Эта страница документации сейчас готовится.",
@@ -908,6 +940,10 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       copied: "已复制",
       copy: "复制",
       copyFailed: "复制失败",
+    },
+    cta: {
+      heading: "试试我们的 Flashcards 应用",
+      buttonLabel: "立即体验",
     },
     docs: {
       breadcrumbLabel: "文档",
