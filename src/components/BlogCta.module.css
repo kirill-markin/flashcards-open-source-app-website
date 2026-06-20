@@ -43,6 +43,11 @@
     background 140ms ease;
 }
 
+.button:focus-visible {
+  outline: 2px solid rgba(255, 214, 201, 0.42);
+  outline-offset: 3px;
+}
+
 @media (hover: hover) and (pointer: fine) {
   .button:hover {
     background: var(--accent-strong);
