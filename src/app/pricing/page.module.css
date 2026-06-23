@@ -42,18 +42,23 @@
 
 .card {
   padding: 20px;
-  border: 1px solid var(--border);
+  border: 1px solid transparent;
   border-radius: var(--radius-lg);
-  background: var(--surface-elevated);
+  background: var(--surface);
   display: flex;
   flex-direction: column;
+  transition: background 140ms ease, border-color 140ms ease;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .card:hover {
+    background: var(--surface-hover);
+  }
 }
 
 .highlighted {
-  border-color: rgba(196, 75, 45, 0.38);
-  background:
-    radial-gradient(circle at top, rgba(196, 75, 45, 0.12), transparent 56%),
-    var(--surface-elevated);
+  border-color: var(--accent-muted);
+  background: var(--surface-elevated);
 }
 
 .card h2 {
