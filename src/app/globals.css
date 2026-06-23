@@ -2,10 +2,11 @@
 
 :root {
   color-scheme: dark;
-  --bg: #050505;
-  --bg-elevated: #0a0a0c;
-  --surface: linear-gradient(180deg, rgba(24, 24, 30, 0.94), rgba(17, 17, 22, 0.98));
-  --surface-elevated: linear-gradient(180deg, rgba(30, 30, 36, 0.96), rgba(18, 18, 22, 0.98));
+  --bg: #000000;
+  --bg-elevated: #000000;
+  --surface: #1c1c1e;
+  --surface-elevated: #1c1c1e;
+  --surface-hover: #242426;
   --surface-glass: rgba(26, 26, 30, 0.78);
   --surface-muted: rgba(255, 255, 255, 0.04);
   --text: #f6f6f8;
@@ -13,17 +14,19 @@
   --text-tertiary: rgba(235, 235, 245, 0.42);
   --accent: #c44b2d;
   --accent-strong: #d65a38;
-  --accent-soft: rgba(196, 75, 45, 0.14);
+  --accent-soft: rgba(196, 75, 45, 0.12);
+  --accent-muted: rgba(196, 75, 45, 0.18);
   --border: rgba(255, 255, 255, 0.1);
   --border-strong: rgba(255, 255, 255, 0.16);
   --danger: #ff4d57;
   --shadow: 0 28px 80px rgba(0, 0, 0, 0.44);
   --shadow-soft: 0 12px 30px rgba(0, 0, 0, 0.26);
   --blur: blur(28px);
+  --radius-xs: 8px;
   --radius-sm: 10px;
   --radius-md: 14px;
   --radius-lg: 18px;
-  --radius-xl: 24px;
+  --radius-xl: 32px;
   --radius-pill: 999px;
   --content-width: 1240px;
   --reading-serif-font-family: var(--font-source-serif), Georgia, Cambria, "Times New Roman", Times, serif;
@@ -38,10 +41,7 @@ body {
 }
 
 html {
-  background:
-    radial-gradient(circle at top, rgba(196, 75, 45, 0.12), transparent 34%),
-    radial-gradient(circle at bottom left, rgba(255, 255, 255, 0.05), transparent 26%),
-    var(--bg);
+  background: var(--bg);
 }
 
 body {
