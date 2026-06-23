@@ -3,8 +3,7 @@
   top: 0;
   z-index: 100;
   padding: 16px 20px 0;
-  background: linear-gradient(180deg, rgba(5, 5, 5, 0.96), rgba(5, 5, 5, 0.72) 80%, transparent);
-  backdrop-filter: var(--blur);
+  background: var(--bg);
 }
 
 .inner {
@@ -15,10 +14,7 @@
   gap: 12px;
   flex-wrap: wrap;
   padding: 10px 12px;
-  border: 1px solid var(--border);
-  border-radius: var(--radius-lg);
-  background: var(--surface-glass);
-  box-shadow: var(--shadow-soft);
+  background: transparent;
 }
 
 .logo {
@@ -64,7 +60,7 @@
 
 .desktopNav a:hover {
   color: var(--text);
-  background: rgba(255, 255, 255, 0.07);
+  background: rgba(255, 255, 255, 0.1);
 }
 
 .desktopAuth {
