@@ -14,7 +14,6 @@
   min-width: 0;
   list-style: none;
   padding: 6px;
-  border: 1px solid var(--border);
   border-radius: var(--radius-pill);
   background: rgba(255, 255, 255, 0.04);
 }

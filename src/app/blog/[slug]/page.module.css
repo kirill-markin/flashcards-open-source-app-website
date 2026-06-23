@@ -103,27 +103,23 @@
   gap: 10px;
   min-width: 0;
   padding: 16px;
-  border: 1px solid var(--border);
   border-radius: var(--radius-lg);
-  background: rgba(255, 255, 255, 0.03);
+  background: var(--surface);
   text-decoration: none;
   transition:
     transform 120ms ease,
-    border-color 120ms ease,
     background 120ms ease;
 }
 
 .relatedCard:hover {
   transform: translateY(-1px);
-  border-color: rgba(255, 214, 201, 0.45);
-  background: rgba(255, 255, 255, 0.05);
+  background: var(--surface-hover);
 }
 
 .relatedCard:focus-visible {
   outline: 2px solid rgba(255, 214, 201, 0.42);
   outline-offset: 3px;
-  border-color: rgba(255, 214, 201, 0.45);
-  background: rgba(255, 255, 255, 0.05);
+  background: var(--surface-hover);
 }
 
 .relatedCard h3 {
