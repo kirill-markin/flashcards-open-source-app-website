@@ -9,7 +9,6 @@
   position: relative;
   min-height: 92px;
   padding: 14px 16px;
-  border: 1px solid var(--border);
   border-radius: var(--radius-md);
   background: rgba(255, 255, 255, 0.03);
   display: flex;
@@ -36,7 +35,6 @@
 
 @media (hover: hover) and (pointer: fine) {
   .platformLink:hover {
-    border-color: var(--border-strong);
     background: rgba(255, 255, 255, 0.06);
     transform: translateY(-1px);
   }
