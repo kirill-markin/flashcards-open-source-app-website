@@ -2,7 +2,7 @@
 title: Referencia de API
 description: >-
   API de agente externo para descubrimiento, arranque OTP, configuración del
-  espacio de trabajo y superficie SQL publicada.
+  espacio de trabajo y las superficies SQL de lectura y escritura publicadas.
 ---
 ## Descripción general
 
@@ -94,7 +94,8 @@ Después de la verificación, la superficie actual del agente es:
 - `GET /v1/agent/workspaces`
 - `POST /v1/agent/workspaces`
 - `POST /v1/agent/workspaces/{workspaceId}/select`
-- `POST /v1/agent/sql`
+- `POST /v1/agent/sql/query` (solo lectura)
+- `POST /v1/agent/sql/execute` (escritura)
 
 El bootstrap típico se ve así:
 
@@ -102,13 +103,13 @@ El bootstrap típico se ve así:
 2. `GET /v1/agent/workspaces?limit=100`
 3. Si es necesario, `POST /v1/agent/workspaces` con `{"name":"Personal"}`
 4. Si es necesario, `POST /v1/agent/workspaces/{workspaceId}/select`
-5. Utilice `POST /v1/agent/sql`
+5. Utilice `POST /v1/agent/sql/query` para lecturas y `POST /v1/agent/sql/execute` para escrituras
 
 La selección del espacio de trabajo es explícita por conexión de clave API. Los agentes deben seguir el texto `instructions` devuelto y el campo `docs.openapiUrl` de cada sobre en lugar de adivinar el siguiente paso.
 
 ## Superficie SQL
 
-`POST /v1/agent/sql` es la superficie de lectura/escritura compartida para agentes externos.
+`POST /v1/agent/sql/query` es la superficie de solo lectura (`SHOW TABLES`, `DESCRIBE`, `SELECT`) y `POST /v1/agent/sql/execute` es la superficie de escritura (`INSERT`, `UPDATE`, `DELETE`); una sola llamada debe ser totalmente de lectura o totalmente de escritura.
 
 Está intencionalmente limitado y no es PostgreSQL completo.
 
@@ -138,7 +139,7 @@ Notas:
 Solicitud de ejemplo:
 
 ```bash
-curl -X POST https://api.flashcards-open-source-app.com/v1/agent/sql \
+curl -X POST https://api.flashcards-open-source-app.com/v1/agent/sql/query \
   -H "Content-Type: application/json" \
   -H "Authorization: ApiKey $FLASHCARDS_OPEN_SOURCE_API_KEY" \
   -d '{"sql":"SHOW TABLES"}'
@@ -147,7 +148,7 @@ curl -X POST https://api.flashcards-open-source-app.com/v1/agent/sql \
 Ejemplo de consulta de tarjeta:
 
 ```bash
-curl -X POST https://api.flashcards-open-source-app.com/v1/agent/sql \
+curl -X POST https://api.flashcards-open-source-app.com/v1/agent/sql/query \
   -H "Content-Type: application/json" \
   -H "Authorization: ApiKey $FLASHCARDS_OPEN_SOURCE_API_KEY" \
   -d '{
@@ -158,13 +159,15 @@ curl -X POST https://api.flashcards-open-source-app.com/v1/agent/sql \
 Mutación de ejemplo:
 
 ```bash
-curl -X POST https://api.flashcards-open-source-app.com/v1/agent/sql \
+curl -X POST https://api.flashcards-open-source-app.com/v1/agent/sql/execute \
   -H "Content-Type: application/json" \
   -H "Authorization: ApiKey $FLASHCARDS_OPEN_SOURCE_API_KEY" \
   -d '{
     "sql":"UPDATE cards SET back_text = '\''Updated answer'\'' WHERE card_id = '\''50b5b928-7f04-4cc8-878d-6cd0e8b98474'\''"
   }'
 ```
+
+También hay disponible un servidor MCP remoto en `https://mcp.flashcards-open-source-app.com/mcp` que usa OAuth 2.1 (Dynamic Client Registration + PKCE). Expone la misma división como dos herramientas, `sql_query` (solo lectura) y `sql_execute` (escritura), además de `list_workspaces`.
 
 ## API humanas y de sincronización
 

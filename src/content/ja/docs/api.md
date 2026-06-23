@@ -1,6 +1,6 @@
 ---
 title: APIリファレンス
-description: 外部エージェント向けAPIのディスカバリー、OTP認証の開始手順、ワークスペース設定、公開されているSQLインターフェースをまとめています。
+description: 外部エージェント向けAPIのディスカバリー、OTP認証の開始手順、ワークスペース設定、公開されている読み取り用および書き込み用のSQLインターフェースをまとめています。
 ---
 
 ## 概要
@@ -93,7 +93,8 @@ curl -X POST https://auth.flashcards-open-source-app.com/api/agent/verify-code \
 - `GET /v1/agent/workspaces`
 - `POST /v1/agent/workspaces`
 - `POST /v1/agent/workspaces/{workspaceId}/select`
-- `POST /v1/agent/sql`
+- `POST /v1/agent/sql/query`（読み取り専用）
+- `POST /v1/agent/sql/execute`（書き込み）
 
 一般的な初期設定の流れは次のとおりです。
 
@@ -101,13 +102,13 @@ curl -X POST https://auth.flashcards-open-source-app.com/api/agent/verify-code \
 2. `GET /v1/agent/workspaces?limit=100`
 3. 必要であれば `POST /v1/agent/workspaces` に `{"name":"Personal"}` を送る
 4. 必要であれば `POST /v1/agent/workspaces/{workspaceId}/select` を呼ぶ
-5. `POST /v1/agent/sql` を使う
+5. 読み取りには `POST /v1/agent/sql/query` を、書き込みには `POST /v1/agent/sql/execute` を使う
 
 ワークスペースの選択は、API キーごとの接続単位で明示的に行います。次の手順を推測するのではなく、各レスポンスに含まれる `instructions` と `docs.openapiUrl` に従ってください。
 
 ## SQL インターフェース
 
-`POST /v1/agent/sql` は、外部エージェント向けに共通で提供される読み書き用インターフェースです。
+`POST /v1/agent/sql/query` は読み取り専用インターフェース（`SHOW TABLES`、`DESCRIBE`、`SELECT`）で、`POST /v1/agent/sql/execute` は書き込み用インターフェース（`INSERT`、`UPDATE`、`DELETE`）です。1 回の呼び出しはすべて読み取り、またはすべて書き込みのいずれかでなければなりません。
 
 これは意図的に制限されたものであり、完全な PostgreSQL ではありません。
 
@@ -137,7 +138,7 @@ curl -X POST https://auth.flashcards-open-source-app.com/api/agent/verify-code \
 リクエスト例:
 
 ```bash
-curl -X POST https://api.flashcards-open-source-app.com/v1/agent/sql \
+curl -X POST https://api.flashcards-open-source-app.com/v1/agent/sql/query \
   -H "Content-Type: application/json" \
   -H "Authorization: ApiKey $FLASHCARDS_OPEN_SOURCE_API_KEY" \
   -d '{"sql":"SHOW TABLES"}'
@@ -146,7 +147,7 @@ curl -X POST https://api.flashcards-open-source-app.com/v1/agent/sql \
 カード取得の例:
 
 ```bash
-curl -X POST https://api.flashcards-open-source-app.com/v1/agent/sql \
+curl -X POST https://api.flashcards-open-source-app.com/v1/agent/sql/query \
   -H "Content-Type: application/json" \
   -H "Authorization: ApiKey $FLASHCARDS_OPEN_SOURCE_API_KEY" \
   -d '{
@@ -157,13 +158,15 @@ curl -X POST https://api.flashcards-open-source-app.com/v1/agent/sql \
 更新の例:
 
 ```bash
-curl -X POST https://api.flashcards-open-source-app.com/v1/agent/sql \
+curl -X POST https://api.flashcards-open-source-app.com/v1/agent/sql/execute \
   -H "Content-Type: application/json" \
   -H "Authorization: ApiKey $FLASHCARDS_OPEN_SOURCE_API_KEY" \
   -d '{
     "sql":"UPDATE cards SET back_text = '\''Updated answer'\'' WHERE card_id = '\''50b5b928-7f04-4cc8-878d-6cd0e8b98474'\''"
   }'
 ```
+
+リモート MCP サーバーも `https://mcp.flashcards-open-source-app.com/mcp` で利用でき、OAuth 2.1（Dynamic Client Registration + PKCE）を使用します。同じ分割を 2 つのツール `sql_query`（読み取り専用）と `sql_execute`（書き込み）として公開し、さらに `list_workspaces` も提供します。
 
 ## Web クライアント向け API と同期 API
 

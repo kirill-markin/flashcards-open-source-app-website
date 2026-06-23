@@ -1,6 +1,6 @@
 ---
 title: Справочник API
-description: "Внешний API для агентов ИИ: discovery, первичная аутентификация по OTP, настройка workspace и опубликованный SQL-интерфейс."
+description: "Внешний API для агентов ИИ: discovery, первичная аутентификация по OTP, настройка workspace и опубликованные SQL-интерфейсы чтения и записи."
 ---
 
 ## Обзор
@@ -93,7 +93,8 @@ curl -X POST https://auth.flashcards-open-source-app.com/api/agent/verify-code \
 - `GET /v1/agent/workspaces`
 - `POST /v1/agent/workspaces`
 - `POST /v1/agent/workspaces/{workspaceId}/select`
-- `POST /v1/agent/sql`
+- `POST /v1/agent/sql/query` (только чтение)
+- `POST /v1/agent/sql/execute` (запись)
 
 Обычно первичная настройка выглядит так:
 
@@ -101,13 +102,13 @@ curl -X POST https://auth.flashcards-open-source-app.com/api/agent/verify-code \
 2. `GET /v1/agent/workspaces?limit=100`
 3. При необходимости `POST /v1/agent/workspaces` с `{"name":"Personal"}`
 4. При необходимости `POST /v1/agent/workspaces/{workspaceId}/select`
-5. Затем используйте `POST /v1/agent/sql`
+5. Затем используйте `POST /v1/agent/sql/query` для чтения и `POST /v1/agent/sql/execute` для записи
 
 Выбор workspace выполняется явно для каждого подключения по API-ключу. Агентам следует ориентироваться на текст `instructions` и поле `docs.openapiUrl`, которые возвращаются в каждом таком ответе, а не пытаться угадывать следующий шаг.
 
 ## SQL-интерфейс
 
-`POST /v1/agent/sql` — общий интерфейс чтения и записи для внешних агентов.
+`POST /v1/agent/sql/query` — интерфейс только для чтения (`SHOW TABLES`, `DESCRIBE`, `SELECT`), а `POST /v1/agent/sql/execute` — интерфейс записи (`INSERT`, `UPDATE`, `DELETE`); один вызов должен содержать либо только чтение, либо только запись.
 
 Он намеренно ограничен и не является полноценным PostgreSQL.
 
@@ -137,7 +138,7 @@ curl -X POST https://auth.flashcards-open-source-app.com/api/agent/verify-code \
 Пример запроса:
 
 ```bash
-curl -X POST https://api.flashcards-open-source-app.com/v1/agent/sql \
+curl -X POST https://api.flashcards-open-source-app.com/v1/agent/sql/query \
   -H "Content-Type: application/json" \
   -H "Authorization: ApiKey $FLASHCARDS_OPEN_SOURCE_API_KEY" \
   -d '{"sql":"SHOW TABLES"}'
@@ -146,7 +147,7 @@ curl -X POST https://api.flashcards-open-source-app.com/v1/agent/sql \
 Пример запроса карточек:
 
 ```bash
-curl -X POST https://api.flashcards-open-source-app.com/v1/agent/sql \
+curl -X POST https://api.flashcards-open-source-app.com/v1/agent/sql/query \
   -H "Content-Type: application/json" \
   -H "Authorization: ApiKey $FLASHCARDS_OPEN_SOURCE_API_KEY" \
   -d '{
@@ -157,13 +158,15 @@ curl -X POST https://api.flashcards-open-source-app.com/v1/agent/sql \
 Пример изменения данных:
 
 ```bash
-curl -X POST https://api.flashcards-open-source-app.com/v1/agent/sql \
+curl -X POST https://api.flashcards-open-source-app.com/v1/agent/sql/execute \
   -H "Content-Type: application/json" \
   -H "Authorization: ApiKey $FLASHCARDS_OPEN_SOURCE_API_KEY" \
   -d '{
     "sql":"UPDATE cards SET back_text = '\''Updated answer'\'' WHERE card_id = '\''50b5b928-7f04-4cc8-878d-6cd0e8b98474'\''"
   }'
 ```
+
+Также доступен удалённый MCP-сервер по адресу `https://mcp.flashcards-open-source-app.com/mcp`, использующий OAuth 2.1 (Dynamic Client Registration + PKCE). Он предоставляет то же разделение в виде двух инструментов — `sql_query` (только чтение) и `sql_execute` (запись), а также `list_workspaces`.
 
 ## API для пользователей и синхронизации
 
