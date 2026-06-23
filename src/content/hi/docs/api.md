@@ -1,6 +1,6 @@
 ---
 title: API संदर्भ
-description: खोज, OTP की शुरुआती प्रक्रिया, workspace की तैयारी, और प्रकाशित SQL इंटरफ़ेस के लिए बाहरी एजेंट API का संदर्भ.
+description: खोज, OTP की शुरुआती प्रक्रिया, workspace की तैयारी, और प्रकाशित पढ़ने व लिखने के SQL इंटरफ़ेस के लिए बाहरी एजेंट API का संदर्भ.
 ---
 
 ## परिचय
@@ -93,7 +93,8 @@ curl -X POST https://auth.flashcards-open-source-app.com/api/agent/verify-code \
 - `GET /v1/agent/workspaces`
 - `POST /v1/agent/workspaces`
 - `POST /v1/agent/workspaces/{workspaceId}/select`
-- `POST /v1/agent/sql`
+- `POST /v1/agent/sql/query` (केवल पढ़ने के लिए)
+- `POST /v1/agent/sql/execute` (लिखने के लिए)
 
 सामान्य शुरुआती क्रम इस तरह होता है:
 
@@ -101,13 +102,13 @@ curl -X POST https://auth.flashcards-open-source-app.com/api/agent/verify-code \
 2. `GET /v1/agent/workspaces?limit=100`
 3. जरूरत हो तो `POST /v1/agent/workspaces` with `{"name":"Personal"}`
 4. जरूरत हो तो `POST /v1/agent/workspaces/{workspaceId}/select`
-5. `POST /v1/agent/sql` का उपयोग करें
+5. पढ़ने के लिए `POST /v1/agent/sql/query` और लिखने के लिए `POST /v1/agent/sql/execute` का उपयोग करें
 
 हर API key connection के लिए workspace selection अलग से स्पष्ट रूप से किया जाता है। अगला कदम अनुमान से तय करने के बजाय एजेंटों को हर API उत्तर में मिले `instructions` text और `docs.openapiUrl` field का पालन करना चाहिए।
 
 ## SQL इंटरफ़ेस
 
-`POST /v1/agent/sql` बाहरी एजेंटों के लिए पढ़ने-लिखने का साझा इंटरफ़ेस है।
+`POST /v1/agent/sql/query` केवल पढ़ने का इंटरफ़ेस है (`SHOW TABLES`, `DESCRIBE`, `SELECT`) और `POST /v1/agent/sql/execute` लिखने का इंटरफ़ेस है (`INSERT`, `UPDATE`, `DELETE`); एक ही कॉल या तो पूरी तरह पढ़ने की होनी चाहिए या पूरी तरह लिखने की।
 
 इसे जानबूझकर सीमित रखा गया है; यह पूरा PostgreSQL नहीं है।
 
@@ -137,7 +138,7 @@ curl -X POST https://auth.flashcards-open-source-app.com/api/agent/verify-code \
 उदाहरण अनुरोध:
 
 ```bash
-curl -X POST https://api.flashcards-open-source-app.com/v1/agent/sql \
+curl -X POST https://api.flashcards-open-source-app.com/v1/agent/sql/query \
   -H "Content-Type: application/json" \
   -H "Authorization: ApiKey $FLASHCARDS_OPEN_SOURCE_API_KEY" \
   -d '{"sql":"SHOW TABLES"}'
@@ -146,7 +147,7 @@ curl -X POST https://api.flashcards-open-source-app.com/v1/agent/sql \
 उदाहरण कार्ड क्वेरी:
 
 ```bash
-curl -X POST https://api.flashcards-open-source-app.com/v1/agent/sql \
+curl -X POST https://api.flashcards-open-source-app.com/v1/agent/sql/query \
   -H "Content-Type: application/json" \
   -H "Authorization: ApiKey $FLASHCARDS_OPEN_SOURCE_API_KEY" \
   -d '{
@@ -157,13 +158,15 @@ curl -X POST https://api.flashcards-open-source-app.com/v1/agent/sql \
 उदाहरण बदलाव अनुरोध:
 
 ```bash
-curl -X POST https://api.flashcards-open-source-app.com/v1/agent/sql \
+curl -X POST https://api.flashcards-open-source-app.com/v1/agent/sql/execute \
   -H "Content-Type: application/json" \
   -H "Authorization: ApiKey $FLASHCARDS_OPEN_SOURCE_API_KEY" \
   -d '{
     "sql":"UPDATE cards SET back_text = '\''Updated answer'\'' WHERE card_id = '\''50b5b928-7f04-4cc8-878d-6cd0e8b98474'\''"
   }'
 ```
+
+`https://mcp.flashcards-open-source-app.com/mcp` पर एक रिमोट MCP सर्वर भी उपलब्ध है, जो OAuth 2.1 (Dynamic Client Registration + PKCE) का उपयोग करता है। यह वही विभाजन दो टूल के रूप में देता है, `sql_query` (केवल पढ़ने के लिए) और `sql_execute` (लिखने के लिए), साथ ही `list_workspaces`।
 
 ## उपयोगकर्ता और समन्वयन API
 

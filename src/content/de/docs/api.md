@@ -1,6 +1,6 @@
 ---
 title: API-Referenz
-description: Externe Agent-API fuer Discovery, OTP-Bootstrap, Workspace-Setup und die veroeffentlichte SQL-Oberflaeche.
+description: Externe Agent-API fuer Discovery, OTP-Bootstrap, Workspace-Setup und die veroeffentlichten SQL-Lese- und Schreiboberflaechen.
 ---
 
 ## Ueberblick
@@ -71,7 +71,8 @@ Nach erfolgreicher Verifikation umfasst die aktuelle Oberflaeche:
 - `GET /v1/agent/workspaces`
 - `POST /v1/agent/workspaces`
 - `POST /v1/agent/workspaces/{workspaceId}/select`
-- `POST /v1/agent/sql`
+- `POST /v1/agent/sql/query` (nur lesend)
+- `POST /v1/agent/sql/execute` (schreibend)
 
 Ein typischer Bootstrap sieht so aus:
 
@@ -79,13 +80,13 @@ Ein typischer Bootstrap sieht so aus:
 2. `GET /v1/agent/workspaces?limit=100`
 3. Falls noetig `POST /v1/agent/workspaces` mit `{"name":"Personal"}`
 4. Falls noetig `POST /v1/agent/workspaces/{workspaceId}/select`
-5. Danach `POST /v1/agent/sql`
+5. Danach `POST /v1/agent/sql/query` fuer Lesevorgaenge und `POST /v1/agent/sql/execute` fuer Schreibvorgaenge
 
 Die Workspace-Auswahl ist pro API-Key-Verbindung explizit. Agenten sollten dem zurueckgegebenen Text in `instructions` und dem Feld `docs.openapiUrl` folgen, statt den naechsten Schritt zu raten.
 
 ## SQL-Oberflaeche
 
-`POST /v1/agent/sql` ist die gemeinsame Lese- und Schreiboberflaeche fuer externe Agenten.
+`POST /v1/agent/sql/query` ist die Lese-Oberflaeche (`SHOW TABLES`, `DESCRIBE`, `SELECT`) und `POST /v1/agent/sql/execute` ist die Schreib-Oberflaeche (`INSERT`, `UPDATE`, `DELETE`); ein einzelner Aufruf muss entweder ausschliesslich Lese- oder ausschliesslich Schreibvorgaenge enthalten.
 
 Sie ist absichtlich eingeschraenkt und kein vollstaendiges PostgreSQL.
 
@@ -115,11 +116,13 @@ Hinweise:
 Beispielanfrage:
 
 ```bash
-curl -X POST https://api.flashcards-open-source-app.com/v1/agent/sql \
+curl -X POST https://api.flashcards-open-source-app.com/v1/agent/sql/query \
   -H "Content-Type: application/json" \
   -H "Authorization: ApiKey $FLASHCARDS_OPEN_SOURCE_API_KEY" \
   -d '{"sql":"SHOW TABLES"}'
 ```
+
+Ein entfernter MCP-Server ist ebenfalls unter `https://mcp.flashcards-open-source-app.com/mcp` mit OAuth 2.1 (Dynamic Client Registration + PKCE) verfuegbar. Er stellt dieselbe Aufteilung als zwei Tools bereit, `sql_query` (nur lesend) und `sql_execute` (schreibend), plus `list_workspaces`.
 
 ## Menschliche und Sync-APIs
 

@@ -1,6 +1,6 @@
 ---
 title: مرجع API
-description: واجهة API خارجية للوكلاء للاكتشاف وبدء OTP وإعداد مساحة العمل وسطح SQL المنشور.
+description: واجهة API خارجية للوكلاء للاكتشاف وبدء OTP وإعداد مساحة العمل وسطحَي SQL المنشورَين للقراءة والكتابة.
 ---
 
 ## نظرة عامة
@@ -71,7 +71,8 @@ Authorization: ApiKey <key>
 - `GET /v1/agent/workspaces`
 - `POST /v1/agent/workspaces`
 - `POST /v1/agent/workspaces/{workspaceId}/select`
-- `POST /v1/agent/sql`
+- `POST /v1/agent/sql/query` (للقراءة فقط)
+- `POST /v1/agent/sql/execute` (للكتابة)
 
 التهيئة المعتادة تبدو هكذا:
 
@@ -79,13 +80,13 @@ Authorization: ApiKey <key>
 2. `GET /v1/agent/workspaces?limit=100`
 3. إذا لزم الأمر، `POST /v1/agent/workspaces` مع `{"name":"Personal"}`
 4. إذا لزم الأمر، `POST /v1/agent/workspaces/{workspaceId}/select`
-5. استخدم `POST /v1/agent/sql`
+5. استخدم `POST /v1/agent/sql/query` للقراءة و`POST /v1/agent/sql/execute` للكتابة
 
 اختيار مساحة العمل صريح لكل اتصال بمفتاح API. يجب على الوكلاء اتباع نص `instructions` و`docs.openapiUrl` المُعادين بدل التخمين.
 
 ## سطح SQL
 
-`POST /v1/agent/sql` هو سطح القراءة والكتابة المشترك للوكلاء الخارجيين.
+`POST /v1/agent/sql/query` هو سطح القراءة فقط (`SHOW TABLES` و`DESCRIBE` و`SELECT`) و`POST /v1/agent/sql/execute` هو سطح الكتابة (`INSERT` و`UPDATE` و`DELETE`)؛ يجب أن يكون الطلب الواحد إما قراءات بالكامل أو كتابات بالكامل.
 
 هو محدود عمدًا وليس PostgreSQL كاملًا.
 
@@ -115,11 +116,13 @@ Authorization: ApiKey <key>
 مثال طلب:
 
 ```bash
-curl -X POST https://api.flashcards-open-source-app.com/v1/agent/sql \
+curl -X POST https://api.flashcards-open-source-app.com/v1/agent/sql/query \
   -H "Content-Type: application/json" \
   -H "Authorization: ApiKey $FLASHCARDS_OPEN_SOURCE_API_KEY" \
   -d '{"sql":"SHOW TABLES"}'
 ```
+
+يتوفر أيضًا خادم MCP بعيد على `https://mcp.flashcards-open-source-app.com/mcp` باستخدام OAuth 2.1 (Dynamic Client Registration + PKCE). يكشف التقسيم نفسه عبر أداتين، `sql_query` (للقراءة فقط) و`sql_execute` (للكتابة)، بالإضافة إلى `list_workspaces`.
 
 ## واجهات API البشرية والمزامنة
 

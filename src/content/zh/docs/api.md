@@ -1,6 +1,6 @@
 ---
 title: API 参考
-description: 面向外部智能代理的 API，涵盖发现入口、OTP 登录准备流程、工作区配置以及已公开的 SQL 能力。
+description: 面向外部智能代理的 API，涵盖发现入口、OTP 登录准备流程、工作区配置以及已公开的读取和写入 SQL 能力。
 ---
 
 ## 概览
@@ -93,7 +93,8 @@ curl -X POST https://auth.flashcards-open-source-app.com/api/agent/verify-code \
 - `GET /v1/agent/workspaces`
 - `POST /v1/agent/workspaces`
 - `POST /v1/agent/workspaces/{workspaceId}/select`
-- `POST /v1/agent/sql`
+- `POST /v1/agent/sql/query`（只读）
+- `POST /v1/agent/sql/execute`（写入）
 
 典型接入流程如下：
 
@@ -101,13 +102,13 @@ curl -X POST https://auth.flashcards-open-source-app.com/api/agent/verify-code \
 2. `GET /v1/agent/workspaces?limit=100`
 3. 如有需要，调用 `POST /v1/agent/workspaces` 并传入 `{"name":"Personal"}`
 4. 如有需要，调用 `POST /v1/agent/workspaces/{workspaceId}/select`
-5. 使用 `POST /v1/agent/sql`
+5. 读取时使用 `POST /v1/agent/sql/query`，写入时使用 `POST /v1/agent/sql/execute`
 
 工作区选择需要针对每个 API 密钥连接显式执行。智能代理应以每个响应封装中返回的 `instructions` 文本和 `docs.openapiUrl` 字段为准，不要自行猜测下一步。
 
 ## SQL 接口
 
-`POST /v1/agent/sql` 是外部智能代理统一的读写入口。
+`POST /v1/agent/sql/query` 是只读入口（`SHOW TABLES`、`DESCRIBE`、`SELECT`），`POST /v1/agent/sql/execute` 是写入入口（`INSERT`、`UPDATE`、`DELETE`）；单次调用必须全部为读取或全部为写入。
 
 该接口经过有意限制，并不是完整的 PostgreSQL。
 
@@ -137,7 +138,7 @@ curl -X POST https://auth.flashcards-open-source-app.com/api/agent/verify-code \
 示例请求：
 
 ```bash
-curl -X POST https://api.flashcards-open-source-app.com/v1/agent/sql \
+curl -X POST https://api.flashcards-open-source-app.com/v1/agent/sql/query \
   -H "Content-Type: application/json" \
   -H "Authorization: ApiKey $FLASHCARDS_OPEN_SOURCE_API_KEY" \
   -d '{"sql":"SHOW TABLES"}'
@@ -146,7 +147,7 @@ curl -X POST https://api.flashcards-open-source-app.com/v1/agent/sql \
 卡片查询示例：
 
 ```bash
-curl -X POST https://api.flashcards-open-source-app.com/v1/agent/sql \
+curl -X POST https://api.flashcards-open-source-app.com/v1/agent/sql/query \
   -H "Content-Type: application/json" \
   -H "Authorization: ApiKey $FLASHCARDS_OPEN_SOURCE_API_KEY" \
   -d '{
@@ -157,13 +158,15 @@ curl -X POST https://api.flashcards-open-source-app.com/v1/agent/sql \
 更新示例：
 
 ```bash
-curl -X POST https://api.flashcards-open-source-app.com/v1/agent/sql \
+curl -X POST https://api.flashcards-open-source-app.com/v1/agent/sql/execute \
   -H "Content-Type: application/json" \
   -H "Authorization: ApiKey $FLASHCARDS_OPEN_SOURCE_API_KEY" \
   -d '{
     "sql":"UPDATE cards SET back_text = '\''Updated answer'\'' WHERE card_id = '\''50b5b928-7f04-4cc8-878d-6cd0e8b98474'\''"
   }'
 ```
+
+此外还提供远程 MCP 服务器，地址为 `https://mcp.flashcards-open-source-app.com/mcp`，使用 OAuth 2.1（Dynamic Client Registration + PKCE）。它以两个工具的形式提供相同的拆分：`sql_query`（只读）和 `sql_execute`（写入），另外还提供 `list_workspaces`。
 
 ## 面向人工用户与同步场景的 API
 
