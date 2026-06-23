@@ -109,11 +109,8 @@
 
 .appShowcaseFrame {
   padding: clamp(10px, 1.6vw, 16px);
-  border: 1px solid var(--border);
   border-radius: calc(var(--radius-xl) - 4px);
-  background:
-    radial-gradient(circle at top, rgba(196, 75, 45, 0.12), transparent 42%),
-    rgba(255, 255, 255, 0.02);
+  background: rgba(255, 255, 255, 0.02);
   overflow: hidden;
 }
 
@@ -140,9 +137,15 @@
 
 .featureCard {
   padding: 16px;
-  border: 1px solid var(--border);
   border-radius: var(--radius-lg);
-  background: var(--surface-elevated);
+  background: var(--surface);
+  transition: background 140ms ease;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .featureCard:hover {
+    background: var(--surface-hover);
+  }
 }
 
 .featureCard h3 {
