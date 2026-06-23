@@ -42,9 +42,15 @@
 
 .card {
   padding: 16px;
-  border: 1px solid var(--border);
   border-radius: var(--radius-lg);
-  background: var(--surface-elevated);
+  background: var(--surface);
+  transition: background 140ms ease;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .card:hover {
+    background: var(--surface-hover);
+  }
 }
 
 .card h2 {
