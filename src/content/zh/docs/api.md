@@ -168,6 +168,16 @@ curl -X POST https://api.flashcards-open-source-app.com/v1/agent/sql/execute \
 
 此外还提供远程 MCP 服务器，地址为 `https://mcp.flashcards-open-source-app.com/mcp`，使用 OAuth 2.1（Dynamic Client Registration + PKCE）。它以两个工具的形式提供相同的拆分：`sql_query`（只读）和 `sql_execute`（写入），另外还提供 `list_workspaces`。
 
+### 安全与作用域
+
+SQL 接口是一个受限的、由解析器强制约束的方言，而非原生 PostgreSQL。其防护措施包括：
+
+- **封闭的语句白名单**：读取仅支持 `SHOW TABLES`、`DESCRIBE`、`SHOW COLUMNS` 和 `SELECT`，写入仅支持 `INSERT`、`UPDATE` 和 `DELETE`。其他任何语句都会在解析阶段被拒绝。
+- **受限的资源**：语句只能访问 `workspace`、`cards`、`decks` 和 `review_events` 这几个资源。
+- **按工作区作用域**：每条语句都限定在你所选的工作区内，不存在跨租户访问。
+- **上限**：每条语句最多 `100` 行，每个批次最多 `50` 条语句，结果上限约为 `12k` 个 token。变更批次以原子方式应用。
+- **读写分离**：`sql_query` 为只读（`readOnlyHint`），`sql_execute` 执行写入（`destructiveHint`）；单次调用必须全部为读取或全部为写入。
+
 ## 面向人工用户与同步场景的 API
 
 Flashcards 也提供供人工用户客户端和离线优先同步场景使用的独立 API，但这些并不是外部智能代理的主要接口约定：

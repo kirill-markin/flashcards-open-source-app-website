@@ -168,6 +168,16 @@ curl -X POST https://api.flashcards-open-source-app.com/v1/agent/sql/execute \
 
 A remote MCP server is also available at `https://mcp.flashcards-open-source-app.com/mcp` using OAuth 2.1 (Dynamic Client Registration + PKCE). It exposes the same split as two tools, `sql_query` (read-only) and `sql_execute` (write), plus `list_workspaces`.
 
+### Safety And Scope
+
+The SQL surface is a contained, parser-enforced dialect rather than raw PostgreSQL. The guardrails are:
+
+- **Closed statement allowlist**: only `SHOW TABLES`, `DESCRIBE`, `SHOW COLUMNS`, and `SELECT` for reads, and `INSERT`, `UPDATE`, and `DELETE` for writes. Anything else is rejected at parse time.
+- **Limited resources**: statements can only touch the `workspace`, `cards`, `decks`, and `review_events` resources.
+- **Per-workspace scoping**: every statement is scoped to your selected workspace, with no cross-tenant access.
+- **Caps**: up to `100` rows per statement, up to `50` statements per batch, and a result cap of roughly `12k` tokens. Mutation batches apply atomically.
+- **Read/write split**: `sql_query` is read-only (`readOnlyHint`) and `sql_execute` performs writes (`destructiveHint`); a single call must be all reads or all writes.
+
 ## Human And Sync APIs
 
 Flashcards also includes separate APIs for human clients and offline-first sync, but they are not the main contract for external agents:

@@ -169,6 +169,16 @@ curl -X POST https://api.flashcards-open-source-app.com/v1/agent/sql/execute \
 
 También hay disponible un servidor MCP remoto en `https://mcp.flashcards-open-source-app.com/mcp` que usa OAuth 2.1 (Dynamic Client Registration + PKCE). Expone la misma división como dos herramientas, `sql_query` (solo lectura) y `sql_execute` (escritura), además de `list_workspaces`.
 
+### Seguridad y alcance
+
+La superficie SQL es un dialecto contenido y validado por el analizador, no PostgreSQL en bruto. Las protecciones son:
+
+- **Lista de instrucciones cerrada**: solo `SHOW TABLES`, `DESCRIBE`, `SHOW COLUMNS` y `SELECT` para lecturas, e `INSERT`, `UPDATE` y `DELETE` para escrituras. Cualquier otra cosa se rechaza en el análisis.
+- **Recursos limitados**: las instrucciones solo pueden tocar los recursos `workspace`, `cards`, `decks` y `review_events`.
+- **Alcance por espacio de trabajo**: cada instrucción tiene el alcance de su espacio de trabajo seleccionado, sin acceso entre inquilinos.
+- **Límites**: hasta `100` filas por instrucción, hasta `50` instrucciones por lote y un límite de resultados de aproximadamente `12k` tokens. Los lotes de mutación se aplican de forma atómica.
+- **División de lectura/escritura**: `sql_query` es de solo lectura (`readOnlyHint`) y `sql_execute` realiza escrituras (`destructiveHint`); una sola llamada debe ser totalmente de lectura o totalmente de escritura.
+
 ## API humanas y de sincronización
 
 Flashcards también incluye API independientes para clientes humanos y sincronización sin conexión, pero no son el contrato principal para agentes externos:

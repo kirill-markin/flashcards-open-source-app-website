@@ -168,6 +168,16 @@ curl -X POST https://api.flashcards-open-source-app.com/v1/agent/sql/execute \
 
 リモート MCP サーバーも `https://mcp.flashcards-open-source-app.com/mcp` で利用でき、OAuth 2.1（Dynamic Client Registration + PKCE）を使用します。同じ分割を 2 つのツール `sql_query`（読み取り専用）と `sql_execute`（書き込み）として公開し、さらに `list_workspaces` も提供します。
 
+### 安全性と範囲
+
+SQL サーフェスは生の PostgreSQL ではなく、パーサーで強制される制限付きの方言です。ガードレールは次のとおりです。
+
+- **クローズドな文の許可リスト**: 読み取りは `SHOW TABLES`、`DESCRIBE`、`SHOW COLUMNS`、`SELECT` のみ、書き込みは `INSERT`、`UPDATE`、`DELETE` のみです。それ以外はすべて解析時に拒否されます。
+- **限定されたリソース**: 文が触れられるのは `workspace`、`cards`、`decks`、`review_events` の各リソースだけです。
+- **ワークスペース単位の範囲**: すべての文は選択中のワークスペースに限定され、テナント間アクセスはできません。
+- **上限**: 1 文あたり最大 `100` 行、1 バッチあたり最大 `50` 文、結果の上限はおよそ `12k` トークンです。変更バッチはアトミックに適用されます。
+- **読み取り／書き込みの分離**: `sql_query` は読み取り専用（`readOnlyHint`）で、`sql_execute` は書き込みを行います（`destructiveHint`）。1 回の呼び出しはすべて読み取りかすべて書き込みのどちらかでなければなりません。
+
 ## Web クライアント向け API と同期 API
 
 Flashcards には、人が利用するクライアント向けの別 API とオフラインファースト同期用 API もありますが、これらは外部エージェント向けの主要な契約ではありません。
