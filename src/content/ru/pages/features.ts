@@ -10,7 +10,7 @@ export const FEATURES_PAGE_CONTENT: PageContent = {
       type: "feature_list",
       title: "Функции",
       intro:
-        "Сфокусированный стек для карточек: hosted web app, iOS client в репозитории, внешний agent API и инфраструктура, уже готовая для self-hosting.",
+        "Сфокусированный стек для карточек: hosted web app, iOS client в репозитории, MCP-сервер и agent API, а также инфраструктура, уже готовая для self-hosting.",
       items: [
         {
           title: "FSRS Review",
@@ -25,7 +25,7 @@ export const FEATURES_PAGE_CONTENT: PageContent = {
         {
           title: "Onboarding для агентов",
           description:
-            "Направьте Claude Code, Codex или OpenClaw на discovery URL, и agent сможет пройти весь auth flow, сохранить API key, загрузить account context, выбрать нужный workspace и продолжить через compact /v1/agent/sql surface. От человека нужен только один шаг: передать последний 8-digit email code.",
+            "Добавьте сервер Flashcards по MCP в Claude, Cursor или любой MCP-клиент, и он сможет читать, создавать и редактировать ваши карточки. CLI-агенты вроде Claude Code, Codex или OpenClaw могут вместо этого указать discovery URL, сохранить API key и работать через /v1/agent/sql surface. От человека нужен только один шаг: передать последний 8-digit email code.",
         },
         {
           title: "Passwordless Auth",

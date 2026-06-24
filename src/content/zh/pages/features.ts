@@ -10,7 +10,7 @@ export const FEATURES_PAGE_CONTENT: PageContent = {
       type: "feature_list",
       title: "功能",
       intro:
-        "一套聚焦而完整的闪卡产品组合：托管式 Web 应用、仓库内提供的 iOS 客户端、对外开放的 Agent API，以及已准备就绪的自托管基础设施。",
+        "一套聚焦而完整的闪卡产品组合：托管式 Web 应用、仓库内提供的 iOS 客户端、MCP 服务器与 Agent API，以及已准备就绪的自托管基础设施。",
       items: [
         {
           title: "FSRS 复习",
@@ -25,7 +25,7 @@ export const FEATURES_PAGE_CONTENT: PageContent = {
         {
           title: "面向 Agent 的接入流程",
           description:
-            "只需将 Claude Code、Codex 或 OpenClaw 指向 discovery 地址，Agent 就能走完整套认证流程、保存 API 密钥、加载账户上下文、选择正确的工作区，并继续通过精简的 /v1/agent/sql 接口工作。人工只需提供最新的 8 位邮箱验证码。",
+            "把 Flashcards MCP 服务器添加到 Claude、Cursor 或任意 MCP 客户端，Agent 就能为你读取、创建和编辑卡片。Claude Code、Codex 或 OpenClaw 等 CLI Agent 也可以改用 discovery 地址，保存 API 密钥，并通过 /v1/agent/sql 接口工作。人工只需提供最新的 8 位邮箱验证码。",
         },
         {
           title: "免密码认证",
