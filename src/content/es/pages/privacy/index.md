@@ -18,6 +18,10 @@ El servicio alojado de Flashcards esta operado por SAMO DANNI EOOD, ID de empres
 
 Si decides usar el chat con IA en la app alojada, tus prompts escritos, el contexto derivado de tarjetas necesario para la solicitud, archivos subidos, imagenes subidas y audio dictado o solicitudes de transcripcion pueden enviarse a proveedores externos de IA configurados en el servidor. El proveedor exacto depende de la configuracion del servidor alojado en el momento de la solicitud.
 
+## Conexion de clientes de IA externos
+
+Cuando conectas Flashcards a un cliente de IA externo mediante el servidor MCP remoto (`mcp.flashcards-open-source-app.com/mcp`) o la Agent API, los datos de tarjetas que solicitas se envian a ese cliente y al proveedor de IA o de modelo que lo opera. Ese tratamiento se rige por los terminos de ese proveedor y no por los nuestros.
+
 ## Como usamos tus datos
 
 Tus datos se usan para proporcionar autenticacion, sincronizacion en la nube y funciones opcionales de IA. No vendemos tus datos ni los usamos para publicidad. La autenticacion y el acceso al workspace los gestionan los servicios backend documentados en el repositorio publico.
