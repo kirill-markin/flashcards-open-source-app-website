@@ -98,7 +98,8 @@ function renderHomePage(
             {heroSection.agentConnectors.map((connector) => (
               <CopyCodeField
                 key={connector.link.href}
-                value={`${connector.caption}\n${connector.link.href}`}
+                caption={connector.caption}
+                value={connector.link.href}
                 labels={uiCopy.copyCodeField}
               />
             ))}

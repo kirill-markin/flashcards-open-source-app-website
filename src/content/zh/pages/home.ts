@@ -14,7 +14,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
         "忘得更少。",
       ],
       subtitle:
-        "这是一款支持间隔重复、免密码登录、AI 对话和代理接入的开源闪卡应用。现在就可以直接使用托管版 Web 应用，通过一个入口 URL 连接 Claude Code、Codex 或 OpenClaw，并让 Web、iOS 与代理工作流共用同一套后端。",
+        "这是一款支持间隔重复、免密码登录、AI 对话和代理接入的开源闪卡应用。现在就可以直接使用托管版 Web 应用，通过 MCP 连接 Claude、Cursor 等 AI 代理，并让 Web、iOS 与代理工作流共用同一套后端。",
       primaryLink: {
         label: "开始使用",
         href: "https://app.flashcards-open-source-app.com",
@@ -31,13 +31,6 @@ export const HOME_PAGE_CONTENT: PageContent = {
             href: "https://mcp.flashcards-open-source-app.com/mcp",
           },
         },
-        {
-          caption: "或先向这个 discovery URL 发起 GET 请求：",
-          link: {
-            label: "https://api.flashcards-open-source-app.com/v1/",
-            href: "https://api.flashcards-open-source-app.com/v1/",
-          },
-        },
       ],
     },
     {
@@ -47,7 +40,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
       type: "feature_list",
       title: "功能",
       intro:
-        "一套聚焦且完整的闪卡方案：托管版 Web 应用、仓库内的 iOS 客户端、面向外部代理的 API，以及已经就绪的自托管基础设施。",
+        "一套聚焦且完整的闪卡方案：托管版 Web 应用、仓库内的 iOS 客户端、面向 AI 代理的 MCP 服务器，以及已经就绪的自托管基础设施。",
       items: [
         {
           title: "间隔重复",
@@ -67,7 +60,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
         {
           title: "代理接入就绪",
           description:
-            "把入口 URL 交给 AI 代理，确认最新的 8 位邮箱验证码，然后让它完成登录、API 密钥配置、加载账户信息、选择工作区和 SQL 探查。",
+            "把 Flashcards MCP 服务器添加到你的 AI 客户端，授权一次，它就能加载你的工作区，并为你创建、编辑和复习卡片。",
         },
         {
           title: "自托管",

@@ -198,7 +198,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
         usersWithReviewEventsLabel: "Users with review events",
       },
       agentHintDescription:
-        "Connect your AI agent over MCP: add the Flashcards server to Claude, Cursor, or any MCP client and it can read, create, and edit your cards. CLI agents can use the discovery URL to sign up and onboard on their own.",
+        "Connect your AI agent over MCP: add the Flashcards server to Claude, Cursor, or any MCP client and it can read, create, and edit your cards.",
       aiAgentSectionLabel: "FOR AI AGENT",
       appPreviewAlt:
         "Flashcards app screens showing review, answer results, progress, AI draft, and card list flows.",
@@ -313,7 +313,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
         usersWithReviewEventsLabel: "Usuarios con eventos de repaso",
       },
       agentHintDescription:
-        "Conecta tu agente de IA por MCP: añade el servidor de Flashcards a Claude, Cursor o cualquier cliente MCP y podrá leer, crear y editar tus tarjetas. Los agentes de CLI pueden usar la URL de descubrimiento para registrarse y configurarse por su cuenta.",
+        "Conecta tu agente de IA por MCP: añade el servidor de Flashcards a Claude, Cursor o cualquier cliente MCP y podrá leer, crear y editar tus tarjetas.",
       aiAgentSectionLabel: "PARA AGENTE DE IA",
       appPreviewAlt:
         "Pantallas de Flashcards con repaso, resultados, progreso, borrador con IA y lista de tarjetas.",
@@ -428,7 +428,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
         usersWithReviewEventsLabel: "مستخدمون لديهم أحداث مراجعة",
       },
       agentHintDescription:
-        "اربط وكيل الذكاء الاصطناعي عبر MCP: أضف خادم Flashcards إلى Claude أو Cursor أو أي عميل MCP، وسيتمكن من قراءة بطاقاتك وإنشائها وتحريرها. ويمكن لوكلاء سطر الأوامر استخدام رابط الاكتشاف للتسجيل والإعداد بأنفسهم.",
+        "اربط وكيل الذكاء الاصطناعي عبر MCP: أضف خادم Flashcards إلى Claude أو Cursor أو أي عميل MCP، وسيتمكن من قراءة بطاقاتك وإنشائها وتحريرها.",
       aiAgentSectionLabel: "لوكيل الذكاء الاصطناعي",
       appPreviewAlt:
         "شاشات Flashcards تعرض المراجعة والنتائج والتقدم ومسودة الذكاء الاصطناعي وقائمة البطاقات.",
@@ -543,7 +543,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
         usersWithReviewEventsLabel: "Nutzer mit Review-Ereignissen",
       },
       agentHintDescription:
-        "Verbinde deinen KI-Agenten über MCP: Füge den Flashcards-Server zu Claude, Cursor oder einem beliebigen MCP-Client hinzu, und er kann deine Karten lesen, erstellen und bearbeiten. CLI-Agenten können stattdessen die Discovery-URL nutzen, um sich selbst zu registrieren und einzurichten.",
+        "Verbinde deinen KI-Agenten über MCP: Füge den Flashcards-Server zu Claude, Cursor oder einem beliebigen MCP-Client hinzu, und er kann deine Karten lesen, erstellen und bearbeiten.",
       aiAgentSectionLabel: "FÜR KI-AGENTEN",
       appPreviewAlt:
         "Flashcards-Bildschirme mit Review, Ergebnissen, Fortschritt, KI-Entwurf und Kartenliste.",
@@ -658,7 +658,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
         usersWithReviewEventsLabel: "Users with review events",
       },
       agentHintDescription:
-        "अपने AI agent को MCP से कनेक्ट करें: Flashcards server को Claude, Cursor या किसी भी MCP client में जोड़ें और वह आपके cards पढ़, बना और संपादित कर सकता है। CLI agents discovery URL का उपयोग करके खुद साइन अप और onboard कर सकते हैं।",
+        "अपने AI agent को MCP से कनेक्ट करें: Flashcards server को Claude, Cursor या किसी भी MCP client में जोड़ें और वह आपके cards पढ़, बना और संपादित कर सकता है।",
       aiAgentSectionLabel: "AI AGENT के लिए",
       appPreviewAlt:
         "Flashcards की स्क्रीनें जिनमें review, results, progress, AI draft और cards list दिखाई देते हैं।",
@@ -773,7 +773,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
         usersWithReviewEventsLabel: "レビューイベントがあるユーザー",
       },
       agentHintDescription:
-        "AI エージェントを MCP で接続しましょう。Flashcards サーバーを Claude や Cursor など任意の MCP クライアントに追加すれば、カードの閲覧・作成・編集を任せられます。CLI エージェントなら、ディスカバリー URL から自分でサインアップして設定できます。",
+        "AI エージェントを MCP で接続しましょう。Flashcards サーバーを Claude や Cursor など任意の MCP クライアントに追加すれば、カードの閲覧・作成・編集を任せられます。",
       aiAgentSectionLabel: "AI エージェント向け",
       appPreviewAlt:
         "レビュー、結果、進捗、AI 下書き、カード一覧を示す Flashcards の画面。",
@@ -888,7 +888,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
         usersWithReviewEventsLabel: "Пользователи с событиями повторений",
       },
       agentHintDescription:
-        "Подключите своего AI-агента по MCP: добавьте сервер Flashcards в Claude, Cursor или любой MCP-клиент, и он сможет читать, создавать и редактировать ваши карточки. CLI-агенты могут вместо этого использовать discovery URL, чтобы самостоятельно зарегистрироваться и пройти онбординг.",
+        "Подключите своего AI-агента по MCP: добавьте сервер Flashcards в Claude, Cursor или любой MCP-клиент, и он сможет читать, создавать и редактировать ваши карточки.",
       aiAgentSectionLabel: "ДЛЯ AI-АГЕНТА",
       appPreviewAlt:
         "Экраны Flashcards с повторением, результатами, прогрессом, AI-черновиком и списком карточек.",
@@ -1002,7 +1002,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
         usersWithReviewEventsLabel: "有复习事件的用户",
       },
       agentHintDescription:
-        "通过 MCP 连接你的 AI agent：把 Flashcards 服务器添加到 Claude、Cursor 或任意 MCP 客户端，它就能为你读取、创建和编辑卡片。CLI agent 也可以使用 discovery URL 自行注册并完成上手。",
+        "通过 MCP 连接你的 AI agent：把 Flashcards 服务器添加到 Claude、Cursor 或任意 MCP 客户端，它就能为你读取、创建和编辑卡片。",
       aiAgentSectionLabel: "面向 AI AGENT",
       appPreviewAlt:
         "Flashcards 应用界面，展示复习、结果、进度、AI 草稿和卡片列表流程。",

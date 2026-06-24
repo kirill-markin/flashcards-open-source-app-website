@@ -14,7 +14,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
         "कम भूलिए।",
       ],
       subtitle:
-        "स्पेस्ड रिपिटीशन, पासवर्ड-रहित लॉगिन, AI चैट और एजेंट-तैयार ऑनबोर्डिंग वाला ओपन सोर्स फ्लैशकार्ड ऐप। आज ही होस्टेड वेब ऐप इस्तेमाल करें, Claude Code, Codex या OpenClaw को एक discovery URL के जरिए जोड़ें, और वेब, iOS तथा एजेंट वर्कफ़्लो को उसी बैकएंड मॉडल पर चलाएँ।",
+        "स्पेस्ड रिपिटीशन, पासवर्ड-रहित लॉगिन, AI चैट और एजेंट-तैयार ऑनबोर्डिंग वाला ओपन सोर्स फ्लैशकार्ड ऐप। आज ही होस्टेड वेब ऐप इस्तेमाल करें, Claude, Cursor और अन्य AI agents को MCP के जरिए जोड़ें, और वेब, iOS तथा एजेंट वर्कफ़्लो को उसी बैकएंड मॉडल पर चलाएँ।",
       primaryLink: {
         label: "शुरू करें",
         href: "https://app.flashcards-open-source-app.com",
@@ -31,13 +31,6 @@ export const HOME_PAGE_CONTENT: PageContent = {
             href: "https://mcp.flashcards-open-source-app.com/mcp",
           },
         },
-        {
-          caption: "या शुरुआत इस discovery URL पर GET से करें:",
-          link: {
-            label: "https://api.flashcards-open-source-app.com/v1/",
-            href: "https://api.flashcards-open-source-app.com/v1/",
-          },
-        },
       ],
     },
     {
@@ -47,7 +40,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
       type: "feature_list",
       title: "मुख्य खूबियाँ",
       intro:
-        "फ्लैशकार्ड के लिए एक सधा हुआ सेटअप: होस्टेड वेब ऐप, रिपॉज़िटरी में शामिल iOS क्लाइंट, बाहरी एजेंट API, और self-hosting के लिए पहले से तैयार इन्फ्रास्ट्रक्चर।",
+        "फ्लैशकार्ड के लिए एक सधा हुआ सेटअप: होस्टेड वेब ऐप, रिपॉज़िटरी में शामिल iOS क्लाइंट, AI agents के लिए MCP server, और self-hosting के लिए पहले से तैयार इन्फ्रास्ट्रक्चर।",
       items: [
         {
           title: "स्पेस्ड रिपिटीशन",
@@ -67,7 +60,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
         {
           title: "एजेंट-तैयार ऑनबोर्डिंग",
           description:
-            "AI एजेंट को discovery URL दीजिए, नया 8-digit ईमेल कोड पुष्टि कीजिए, और उसे login, API key setup, account loading, workspace selection तथा SQL discovery पूरा करने दीजिए।",
+            "Flashcards MCP server को अपने AI client में जोड़ें, उसे एक बार authorize करें, और उसे आपका workspace लोड करने तथा आपके cards बनाने, संपादित करने और दोहराने दें।",
         },
         {
           title: "स्व-होस्टेड",
