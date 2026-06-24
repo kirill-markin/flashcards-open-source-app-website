@@ -10,7 +10,7 @@ export const FEATURES_PAGE_CONTENT: PageContent = {
       type: "feature_list",
       title: "機能",
       intro:
-        "必要な機能に絞ったフラッシュカード基盤です。ホスト版の Web アプリ、リポジトリに含まれる iOS クライアント、外部エージェント向け API、そしてセルフホストに必要な基盤まで一通りそろっています。",
+        "必要な機能に絞ったフラッシュカード基盤です。ホスト版の Web アプリ、リポジトリに含まれる iOS クライアント、MCP サーバーとエージェント向け API、そしてセルフホストに必要な基盤まで一通りそろっています。",
       items: [
         {
           title: "FSRS による復習",
@@ -25,7 +25,7 @@ export const FEATURES_PAGE_CONTENT: PageContent = {
         {
           title: "エージェント向けオンボーディング",
           description:
-            "Claude Code、Codex、OpenClaw に接続案内用の URL を渡すだけで、エージェントが認証フロー全体を進め、API キーの保存、アカウント情報の読み込み、適切なワークスペースの選択まで完了できます。以降はコンパクトな `/v1/agent/sql` だけで処理を進められ、人が行うのは最新の 8 桁メールコードを共有することだけです。",
+            "Flashcards の MCP サーバーを Claude や Cursor など任意の MCP クライアントに追加すれば、エージェントがカードの閲覧・作成・編集を行えます。Claude Code、Codex、OpenClaw などの CLI エージェントは、代わりにディスカバリー URL を指定し、API キーを保存して、/v1/agent/sql で作業できます。人が行うのは最新の 8 桁メールコードを共有することだけです。",
         },
         {
           title: "パスワードレス認証",

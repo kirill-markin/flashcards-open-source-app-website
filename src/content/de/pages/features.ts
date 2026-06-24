@@ -10,7 +10,7 @@ export const FEATURES_PAGE_CONTENT: PageContent = {
       type: "feature_list",
       title: "Funktionen",
       intro:
-        "Ein fokussierter Flashcards-Stack: gehostete Web-App, iOS-Client im Repository, externe Agent-API und eine Infrastruktur, die bereits fuer Self-Hosting vorbereitet ist.",
+        "Ein fokussierter Flashcards-Stack: gehostete Web-App, iOS-Client im Repository, ein MCP-Server samt Agent-API, und eine Infrastruktur, die bereits fuer Self-Hosting vorbereitet ist.",
       items: [
         {
           title: "FSRS-Wiederholung",
@@ -25,7 +25,7 @@ export const FEATURES_PAGE_CONTENT: PageContent = {
         {
           title: "Agentenfreundliches Onboarding",
           description:
-            "Richte Claude Code, Codex oder OpenClaw auf die Discovery-URL, und der Agent kann den gesamten Auth-Flow durchlaufen, den API-Key speichern, Account-Kontext laden, den richtigen Workspace waehlen und ueber die kompakte /v1/agent/sql-Oberflaeche weitermachen. Der Mensch muss nur den neuesten 8-stelligen E-Mail-Code teilen.",
+            "Fuege den Flashcards-MCP-Server zu Claude, Cursor oder einem beliebigen MCP-Client hinzu, und er kann deine Karten lesen, erstellen und bearbeiten. CLI-Agenten wie Claude Code, Codex oder OpenClaw koennen stattdessen die Discovery-URL ansteuern, einen API-Key speichern und ueber die /v1/agent/sql-Oberflaeche arbeiten. Der Mensch muss nur den neuesten 8-stelligen E-Mail-Code teilen.",
         },
         {
           title: "Passwortlose Anmeldung",

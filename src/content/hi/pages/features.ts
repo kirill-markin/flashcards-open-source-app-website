@@ -10,7 +10,7 @@ export const FEATURES_PAGE_CONTENT: PageContent = {
       type: "feature_list",
       title: "फ़ीचर्स",
       intro:
-        "एक फोकस्ड फ्लैशकार्ड स्टैक: होस्टेड वेब ऐप, repository में iOS client, external agent API, और self-hosting के लिए पहले से तैयार infrastructure।",
+        "एक फोकस्ड फ्लैशकार्ड स्टैक: होस्टेड वेब ऐप, repository में iOS client, MCP server और agent API, और self-hosting के लिए पहले से तैयार infrastructure।",
       items: [
         {
           title: "FSRS Review",
@@ -25,7 +25,7 @@ export const FEATURES_PAGE_CONTENT: PageContent = {
         {
           title: "Agent-Ready Onboarding",
           description:
-            "Claude Code, Codex, या OpenClaw को discovery URL पर भेजें और agent पूरे auth flow से गुजर सकता है, API key store कर सकता है, account context load कर सकता है, सही workspace चुन सकता है, और compact /v1/agent/sql surface के जरिए आगे बढ़ सकता है। इंसान से सिर्फ एक कदम चाहिए: नया 8-digit email code साझा करना।",
+            "Flashcards MCP server को Claude, Cursor या किसी भी MCP client में जोड़ें और वह आपके cards पढ़, बना और संपादित कर सकता है। Claude Code, Codex या OpenClaw जैसे CLI agents इसके बजाय discovery URL पर जा सकते हैं, API key store कर सकते हैं, और /v1/agent/sql surface के जरिए काम कर सकते हैं — इंसान से सिर्फ एक कदम: नया 8-digit email code साझा करना।",
         },
         {
           title: "Passwordless Auth",
