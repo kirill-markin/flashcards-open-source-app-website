@@ -8,6 +8,10 @@ description: Add the remote Flashcards MCP server as a custom connector, with OA
 Flashcards runs a remote MCP (Model Context Protocol) server so MCP clients and
 AI agents can read your due cards and create or edit cards and decks for you.
 
+Agents can connect two ways: over this MCP server (best for MCP clients like
+Claude or Cursor), or through the [Agents API discovery URL](/docs/api/) for CLI
+agents. Both reach the same per-user data surface; this page covers the MCP server.
+
 Connect to it at:
 
 ```text
