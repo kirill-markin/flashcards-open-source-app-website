@@ -13,6 +13,7 @@ import {
   resolveLocaleFromPathname,
 } from "@/lib/i18n";
 import type {
+  AgentConnectorHint,
   AuthPricingTier,
   ContentLink,
   FeatureItem,
@@ -142,6 +143,29 @@ function validateFeatureItems(
   }));
 }
 
+function validateAgentConnectors(
+  connectors: ReadonlyArray<AgentConnectorHint>,
+  fieldName: string,
+  slug: MarketingPageSlug
+): ReadonlyArray<AgentConnectorHint> {
+  if (!Array.isArray(connectors) || connectors.length === 0) {
+    throw new Error(`Invalid ${fieldName} for page: ${slug}`);
+  }
+
+  return connectors.map((connector, index) => ({
+    caption: assertNonEmptyString(
+      connector.caption,
+      `${fieldName}[${index}].caption`,
+      slug
+    ),
+    link: validateContentLink(
+      connector.link,
+      `${fieldName}[${index}].link`,
+      slug
+    ),
+  }));
+}
+
 function validateHeroSection(
   section: HeroSection,
   slug: MarketingPageSlug
@@ -160,8 +184,11 @@ function validateHeroSection(
       "hero.secondaryLink",
       slug
     ),
-    hintText: assertNonEmptyString(section.hintText, "hero.hintText", slug),
-    hintLink: validateContentLink(section.hintLink, "hero.hintLink", slug),
+    agentConnectors: validateAgentConnectors(
+      section.agentConnectors,
+      "hero.agentConnectors",
+      slug
+    ),
   };
 }
 
