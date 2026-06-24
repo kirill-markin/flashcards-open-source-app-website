@@ -28,7 +28,7 @@ Tus datos se usan para proporcionar autenticacion, sincronizacion en la nube y f
 
 ## Almacenamiento de datos
 
-Los datos de la nube alojada se guardan en infraestructura de AWS, incluido Postgres para los datos principales de la aplicacion. Los datos se cifran en transito y los operadores del servicio pueden conservar logs operativos necesarios para ejecutar y depurar la beta alojada.
+Los datos de la nube alojada se guardan en infraestructura de AWS, incluido Postgres para los datos principales de la aplicacion. Los datos se cifran en transito. Conservamos tus datos de aprendizaje alojados mientras tu cuenta este activa y los eliminamos cuando borras tu cuenta o solicitas su eliminacion. Los logs operativos se conservan solo el tiempo necesario para ejecutar y depurar la beta alojada, normalmente hasta 90 dias.
 
 ## Cookies
 
@@ -36,7 +36,7 @@ Usamos cookies de autenticacion como `session`, `refresh` y `logged_in` para el 
 
 ## Eliminacion de datos
 
-En las instancias autoalojadas, controlas la base de datos directamente. En la app alojada puedes borrar tu cuenta desde la app iOS y tambien puedes contactar con soporte si necesitas ayuda adicional para eliminar datos alojados.
+En las instancias autoalojadas, controlas la base de datos directamente. En la app alojada puedes borrar tu cuenta desde la app iOS o la app web. Tambien puedes solicitar la eliminacion de datos alojados mediante la Agent API o un cliente MCP conectado, y puedes contactar con soporte si necesitas ayuda adicional para eliminar datos alojados.
 
 ## Soporte
 
