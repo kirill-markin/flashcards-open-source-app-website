@@ -14,7 +14,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
         "Forget less.",
       ],
       subtitle:
-        "Open-source flashcards app with spaced repetition, passwordless auth, AI chat, and an agent-ready onboarding flow. Use the hosted web app today, connect Claude Code, Codex, or OpenClaw through one discovery URL, and keep web, iOS, and agent workflows on the same backend model.",
+        "Open-source flashcards app with spaced repetition, passwordless auth, AI chat, and an agent-ready onboarding flow. Use the hosted web app today, connect Claude, Cursor, and other AI agents over MCP, and keep web, iOS, and agent workflows on the same backend model.",
       primaryLink: {
         label: "Get Started",
         href: "https://app.flashcards-open-source-app.com",
@@ -31,13 +31,6 @@ export const HOME_PAGE_CONTENT: PageContent = {
             href: "https://mcp.flashcards-open-source-app.com/mcp",
           },
         },
-        {
-          caption: "Or start with GET on this discovery URL:",
-          link: {
-            label: "https://api.flashcards-open-source-app.com/v1/",
-            href: "https://api.flashcards-open-source-app.com/v1/",
-          },
-        },
       ],
     },
     {
@@ -47,7 +40,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
       type: "feature_list",
       title: "Features",
       intro:
-        "A focused flashcards stack: hosted web app, iOS client in the repo, external agent API, and the infrastructure already in place for self-hosting.",
+        "A focused flashcards stack: hosted web app, iOS client in the repo, an MCP server for AI agents, and the infrastructure already in place for self-hosting.",
       items: [
         {
           title: "Spaced Repetition",
@@ -67,7 +60,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
         {
           title: "Agent-Ready Onboarding",
           description:
-            "Give an AI agent the discovery URL, confirm the latest 8-digit email code, and let it finish login, API key setup, account loading, workspace selection, and SQL discovery.",
+            "Add the Flashcards MCP server to your AI client, authorize it once, and let it load your workspace and create, edit, and review cards for you.",
         },
         {
           title: "Self-Hosted",
