@@ -10,7 +10,7 @@ export const FEATURES_PAGE_CONTENT: PageContent = {
       type: "feature_list",
       title: "Features",
       intro:
-        "A focused flashcards stack: hosted web app, iOS client in the repository, external agent API, and the infrastructure already in place for self-hosting.",
+        "A focused flashcards stack: hosted web app, iOS client in the repository, an MCP server and agent API, and the infrastructure already in place for self-hosting.",
       items: [
         {
           title: "FSRS Review",
@@ -25,7 +25,7 @@ export const FEATURES_PAGE_CONTENT: PageContent = {
         {
           title: "Agent-Ready Onboarding",
           description:
-            "Point Claude Code, Codex, or OpenClaw at the discovery URL and the agent can walk the whole auth flow, store the API key, load account context, choose the right workspace, and continue through the compact /v1/agent/sql surface with only one human step: sharing the latest 8-digit email code.",
+            "Add the Flashcards MCP server to Claude, Cursor, or any MCP client and it can read, create, and edit your cards. CLI agents like Claude Code, Codex, or OpenClaw can instead point at the discovery URL, store an API key, and work through the /v1/agent/sql surface — one human step: sharing the latest 8-digit email code.",
         },
         {
           title: "Passwordless Auth",
