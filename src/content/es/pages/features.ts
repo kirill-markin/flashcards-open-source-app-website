@@ -10,7 +10,7 @@ export const FEATURES_PAGE_CONTENT: PageContent = {
       type: "feature_list",
       title: "Características",
       intro:
-        "Una plataforma de flashcards centrada en lo esencial: app web alojada, cliente iOS en el repositorio, API externa para agentes e infraestructura ya preparada para alojarla por tu cuenta.",
+        "Una plataforma de flashcards centrada en lo esencial: app web alojada, cliente iOS en el repositorio, un servidor MCP y una API para agentes, e infraestructura ya preparada para alojarla por tu cuenta.",
       items: [
         {
           title: "Repaso con FSRS",
@@ -25,7 +25,7 @@ export const FEATURES_PAGE_CONTENT: PageContent = {
         {
           title: "Puesta en marcha para agentes",
           description:
-            "Indica a Claude Code, Codex u OpenClaw la URL de descubrimiento y el agente podrá completar todo el proceso de autenticación, guardar la clave de API, cargar el contexto de la cuenta, elegir el espacio de trabajo adecuado y seguir por la interfaz compacta de /v1/agent/sql con una sola intervención humana: compartir el último código de correo de 8 dígitos.",
+            "Añade el servidor MCP de Flashcards a Claude, Cursor o cualquier cliente MCP y podrá leer, crear y editar tus tarjetas. Los agentes de CLI como Claude Code, Codex u OpenClaw pueden, en cambio, apuntar a la URL de descubrimiento, guardar una clave de API y trabajar por la interfaz /v1/agent/sql, con una sola intervención humana: compartir el último código de correo de 8 dígitos.",
         },
         {
           title: "Autenticación sin contraseña",
