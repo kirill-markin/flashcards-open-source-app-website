@@ -18,6 +18,10 @@ Der gehostete Flashcards-Dienst wird von SAMO DANNI EOOD betrieben, Unternehmens
 
 Wenn du KI-Chat in der gehosteten App nutzt, koennen deine Eingaben, der fuer die Anfrage notwendige Kartenkontext, hochgeladene Dateien, Bilder sowie diktierte Audiodaten oder Transkriptionsanfragen an externe KI-Anbieter gesendet werden, die auf dem Server konfiguriert sind. Welcher Anbieter verwendet wird, haengt von der Serverkonfiguration zum Zeitpunkt der Anfrage ab.
 
+## Verbindung externer KI-Clients
+
+Wenn du Flashcards ueber den Remote-MCP-Server (`mcp.flashcards-open-source-app.com/mcp`) oder die Agent-API mit einem externen KI-Client verbindest, werden die von dir angefragten Karteidaten an diesen Client und an den KI- oder Modellanbieter gesendet, der ihn betreibt. Diese Verarbeitung unterliegt den Bedingungen dieses Anbieters und nicht unseren.
+
 ## Wie wir deine Daten nutzen
 
 Deine Daten werden fuer Authentifizierung, Cloud-Sync und optionale KI-Funktionen verwendet. Wir verkaufen deine Daten nicht und nutzen sie nicht fuer Werbung. Authentifizierung und Workspace-Zugriff werden von den im oeffentlichen Repository dokumentierten Backend-Diensten verarbeitet.
