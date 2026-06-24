@@ -7,6 +7,10 @@ description: External agent API for discovery, OTP bootstrap, workspace setup, a
 
 This page documents the current external AI-agent contract for Flashcards.
 
+If your client speaks MCP, the [MCP connector](/docs/mcp-connector/) is the
+simplest way to connect and wraps this same data surface. This page documents the
+HTTP discovery and SQL contract used by CLI agents.
+
 Start from the canonical discovery entrypoint:
 
 ```text
