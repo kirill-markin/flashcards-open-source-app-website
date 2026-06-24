@@ -47,18 +47,20 @@ export function CopyCodeField({ caption, value, labels }: CopyCodeFieldProps) {
   };
 
   return (
-    <div className={styles.root}>
+    <div className={styles.wrapper}>
       {caption ? <span className={styles.caption}>{caption}</span> : null}
-      <pre className={styles.value}>
-        <code>{value}</code>
-      </pre>
-      <button type="button" className={styles.button} onClick={handleCopy}>
-        {copyState === "copied"
-          ? labels.copied
-          : copyState === "failed"
-            ? labels.copyFailed
-            : labels.copy}
-      </button>
+      <div className={styles.box}>
+        <pre className={styles.value}>
+          <code>{value}</code>
+        </pre>
+        <button type="button" className={styles.button} onClick={handleCopy}>
+          {copyState === "copied"
+            ? labels.copied
+            : copyState === "failed"
+              ? labels.copyFailed
+              : labels.copy}
+        </button>
+      </div>
     </div>
   );
 }
