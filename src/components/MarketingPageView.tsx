@@ -95,10 +95,13 @@ function renderHomePage(
             <p className={homeStyles.hintDescription}>
               {uiCopy.home.agentHintDescription}
             </p>
-            <CopyCodeField
-              value={`${heroSection.hintText}\n${heroSection.hintLink.href}`}
-              labels={uiCopy.copyCodeField}
-            />
+            {heroSection.agentConnectors.map((connector) => (
+              <CopyCodeField
+                key={connector.link.href}
+                value={`${connector.caption}\n${connector.link.href}`}
+                labels={uiCopy.copyCodeField}
+              />
+            ))}
           </div>
         </div>
       </section>

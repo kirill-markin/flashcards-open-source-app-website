@@ -101,8 +101,13 @@ function renderHeroSection(section: HeroSection, lines: string[]): void {
   lines.push(`[${section.secondaryLink.label}](${section.secondaryLink.href})`);
   lines.push("");
   lines.push("```text");
-  lines.push(section.hintText);
-  lines.push(section.hintLink.href);
+  section.agentConnectors.forEach((connector, index) => {
+    if (index > 0) {
+      lines.push("");
+    }
+    lines.push(connector.caption);
+    lines.push(connector.link.href);
+  });
   lines.push("```");
   lines.push("");
 }

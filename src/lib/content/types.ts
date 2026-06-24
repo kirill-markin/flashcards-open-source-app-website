@@ -16,14 +16,18 @@ export interface FeatureItem {
   readonly description: string;
 }
 
+export interface AgentConnectorHint {
+  readonly caption: string;
+  readonly link: ContentLink;
+}
+
 export interface HeroSection {
   readonly type: "hero";
   readonly titleLines: ReadonlyArray<string>;
   readonly subtitle: string;
   readonly primaryLink: ContentLink;
   readonly secondaryLink: ContentLink;
-  readonly hintText: string;
-  readonly hintLink: ContentLink;
+  readonly agentConnectors: ReadonlyArray<AgentConnectorHint>;
 }
 
 export interface FeatureListSection {
