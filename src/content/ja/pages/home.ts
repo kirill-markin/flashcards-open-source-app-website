@@ -14,7 +14,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
         "忘れにくくする。",
       ],
       subtitle:
-        "間隔反復、パスワードレス認証、AI チャット、エージェント向け導入フローを備えたオープンソースのフラッシュカードアプリです。今すぐ公開中の Web アプリを使い始められ、Claude Code、Codex、OpenClaw からも 1 つの URL で接続できます。Web、iOS、エージェントの各ワークフローを、同じバックエンド基盤で一貫して運用できます。",
+        "間隔反復、パスワードレス認証、AI チャット、エージェント向け導入フローを備えたオープンソースのフラッシュカードアプリです。今すぐ公開中の Web アプリを使い始められ、Claude や Cursor などの AI エージェントを MCP で接続できます。Web、iOS、エージェントの各ワークフローを、同じバックエンド基盤で一貫して運用できます。",
       primaryLink: {
         label: "始める",
         href: "https://app.flashcards-open-source-app.com",
@@ -31,13 +31,6 @@ export const HOME_PAGE_CONTENT: PageContent = {
             href: "https://mcp.flashcards-open-source-app.com/mcp",
           },
         },
-        {
-          caption: "または、このディスカバリー URL へ GET リクエストを送ってください:",
-          link: {
-            label: "https://api.flashcards-open-source-app.com/v1/",
-            href: "https://api.flashcards-open-source-app.com/v1/",
-          },
-        },
       ],
     },
     {
@@ -47,7 +40,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
       type: "feature_list",
       title: "特長",
       intro:
-        "必要な要素を無駄なくまとめたフラッシュカード基盤です。公開中の Web アプリ、リポジトリに含まれる iOS クライアント、外部エージェント向け API、そしてセルフホスティングに必要な基盤まで、一通りそろっています。",
+        "必要な要素を無駄なくまとめたフラッシュカード基盤です。公開中の Web アプリ、リポジトリに含まれる iOS クライアント、AI エージェント向けの MCP サーバー、そしてセルフホスティングに必要な基盤まで、一通りそろっています。",
       items: [
         {
           title: "間隔反復",
@@ -67,7 +60,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
         {
           title: "エージェント向けオンボーディング",
           description:
-            "AI エージェントに接続用 URL を渡し、最新の 8 桁のメールコードを確認するだけで、ログイン、API キーの設定、アカウント情報の取得、ワークスペースの選択、公開された SQL インターフェースの利用開始まで進められます。",
+            "Flashcards の MCP サーバーを AI クライアントに追加し、一度だけ認可すれば、ワークスペースの読み込みからカードの作成・編集・復習までエージェントに任せられます。",
         },
         {
           title: "セルフホスティング対応",

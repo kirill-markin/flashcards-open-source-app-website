@@ -14,7 +14,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
         "Olvida menos.",
       ],
       subtitle:
-        "App de flashcards de código abierto con repetición espaciada, autenticación sin contraseña, chat con IA y un proceso de incorporación preparado para agentes. Usa hoy la app web alojada, conecta Claude Code, Codex u OpenClaw mediante una sola URL de descubrimiento y haz que web, iOS y agentes trabajen sobre el mismo modelo de datos del backend.",
+        "App de flashcards de código abierto con repetición espaciada, autenticación sin contraseña, chat con IA y un proceso de incorporación preparado para agentes. Usa hoy la app web alojada, conecta Claude, Cursor y otros agentes de IA por MCP y haz que web, iOS y agentes trabajen sobre el mismo modelo de datos del backend.",
       primaryLink: {
         label: "Empezar",
         href: "https://app.flashcards-open-source-app.com",
@@ -31,13 +31,6 @@ export const HOME_PAGE_CONTENT: PageContent = {
             href: "https://mcp.flashcards-open-source-app.com/mcp",
           },
         },
-        {
-          caption: "O empieza con una solicitud GET a esta URL de descubrimiento:",
-          link: {
-            label: "https://api.flashcards-open-source-app.com/v1/",
-            href: "https://api.flashcards-open-source-app.com/v1/",
-          },
-        },
       ],
     },
     {
@@ -47,7 +40,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
       type: "feature_list",
       title: "Características",
       intro:
-        "Una plataforma de flashcards centrada en lo esencial: app web alojada, cliente iOS en el repositorio, API externa para agentes e infraestructura ya preparada para alojarla por tu cuenta.",
+        "Una plataforma de flashcards centrada en lo esencial: app web alojada, cliente iOS en el repositorio, un servidor MCP para agentes de IA e infraestructura ya preparada para alojarla por tu cuenta.",
       items: [
         {
           title: "Repetición espaciada",
@@ -67,7 +60,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
         {
           title: "Puesta en marcha para agentes",
           description:
-            "Dale a un agente de IA la URL de descubrimiento, confirma el último código de correo de 8 dígitos y deja que complete el inicio de sesión, la configuración de la clave de API, la carga de la cuenta, la selección del espacio de trabajo y la exploración SQL.",
+            "Añade el servidor MCP de Flashcards a tu cliente de IA, autorízalo una vez y deja que cargue tu espacio de trabajo y cree, edite y repase tus tarjetas por ti.",
         },
         {
           title: "Alojamiento propio",

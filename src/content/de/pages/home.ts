@@ -14,7 +14,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
         "Weniger vergessen.",
       ],
       subtitle:
-        "Open-Source-Flashcards-App mit Spaced Repetition, passwortloser Anmeldung, KI-Chat und Onboarding fuer KI-Agenten. Nutze noch heute die gehostete Web-App, verbinde Claude Code, Codex oder OpenClaw ueber eine einzige Discovery-URL und halte Web-, iOS- und Agent-Workflows auf derselben Backend-Grundlage.",
+        "Open-Source-Flashcards-App mit Spaced Repetition, passwortloser Anmeldung, KI-Chat und Onboarding fuer KI-Agenten. Nutze noch heute die gehostete Web-App, verbinde Claude, Cursor und weitere KI-Agenten ueber MCP und halte Web-, iOS- und Agent-Workflows auf derselben Backend-Grundlage.",
       primaryLink: {
         label: "Loslegen",
         href: "https://app.flashcards-open-source-app.com",
@@ -31,13 +31,6 @@ export const HOME_PAGE_CONTENT: PageContent = {
             href: "https://mcp.flashcards-open-source-app.com/mcp",
           },
         },
-        {
-          caption: "Oder starte mit einem GET-Request auf diese Discovery-URL:",
-          link: {
-            label: "https://api.flashcards-open-source-app.com/v1/",
-            href: "https://api.flashcards-open-source-app.com/v1/",
-          },
-        },
       ],
     },
     {
@@ -47,7 +40,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
       type: "feature_list",
       title: "Funktionen",
       intro:
-        "Ein fokussierter Flashcards-Stack: gehostete Web-App, iOS-Client im Repository, externe Agent-API und eine Infrastruktur, die fuer Self-Hosting bereits bereitsteht.",
+        "Ein fokussierter Flashcards-Stack: gehostete Web-App, iOS-Client im Repository, ein MCP-Server fuer KI-Agenten und eine Infrastruktur, die fuer Self-Hosting bereits bereitsteht.",
       items: [
         {
           title: "Spaced Repetition",
@@ -67,7 +60,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
         {
           title: "Onboarding fuer KI-Agenten",
           description:
-            "Gib einem KI-Agenten die Discovery-URL, bestaetige den neuesten 8-stelligen Code aus der E-Mail und lass ihn Login, Einrichtung des API-Schluessels, Laden des Account-Kontexts, Auswahl des Workspace und SQL-Discovery uebernehmen.",
+            "Fuege den Flashcards-MCP-Server zu deinem KI-Client hinzu, autorisiere ihn einmal und lass ihn deinen Workspace laden sowie deine Karten erstellen, bearbeiten und wiederholen.",
         },
         {
           title: "Self-Hosting",
