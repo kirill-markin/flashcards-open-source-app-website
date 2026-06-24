@@ -18,6 +18,10 @@ The hosted Flashcards service is operated by SAMO DANNI EOOD, company ID 2073955
 
 If you choose to use AI chat in the hosted app, your typed prompts, card-derived context needed for the request, uploaded files, uploaded images, and dictated audio or transcription requests may be sent to third-party AI providers configured on the server. The exact provider used depends on the hosted server configuration at the time of the request.
 
+## Connecting External AI Clients
+
+When you connect Flashcards to an external AI client through the remote MCP server (`mcp.flashcards-open-source-app.com/mcp`) or the Agent API, the flashcard data you request is sent to that client and to the AI or model provider operating it. That processing is governed by that provider's terms rather than ours.
+
 ## How We Use Your Data
 
 Your data is used to provide authentication, cloud sync, and optional AI features. We do not sell your data or use it for advertising. Authentication and workspace access are handled by the backend services documented in the public repository.
