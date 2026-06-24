@@ -28,7 +28,7 @@ Your data is used to provide authentication, cloud sync, and optional AI feature
 
 ## Data Storage
 
-Hosted cloud data is stored in AWS infrastructure, including Postgres for primary application data. Data is encrypted in transit, and service operators may retain operational logs needed to run and debug the hosted beta.
+Hosted cloud data is stored in AWS infrastructure, including Postgres for primary application data. Data is encrypted in transit. We retain your hosted learning data for as long as your account is active, and we delete it when you delete your account or request removal. Operational logs are kept only as long as needed to run and debug the hosted beta, typically up to 90 days.
 
 ## Cookies
 
@@ -36,7 +36,7 @@ We use authentication cookies such as `session`, `refresh`, and `logged_in` for 
 
 ## Data Deletion
 
-For self-hosted instances, you control the database directly. In the hosted app, you can delete your account from the iOS app, and you can contact support if you need additional help with hosted data removal.
+For self-hosted instances, you control the database directly. In the hosted app, you can delete your account from the iOS app or the web app. You can also request hosted data removal through the Agent API or a connected MCP client, and you can contact support if you need additional help with hosted data removal.
 
 ## Support
 

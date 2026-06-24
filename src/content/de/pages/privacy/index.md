@@ -28,7 +28,7 @@ Deine Daten werden fuer Authentifizierung, Cloud-Sync und optionale KI-Funktione
 
 ## Datenspeicherung
 
-Die Daten der gehosteten Cloud-Version liegen in AWS-Infrastruktur, einschliesslich Postgres fuer die primaeren Anwendungsdaten. Daten sind bei der Uebertragung verschluesselt, und Service-Betreiber koennen betriebliche Logs aufbewahren, die fuer Betrieb und Debugging der Beta erforderlich sind.
+Die Daten der gehosteten Cloud-Version liegen in AWS-Infrastruktur, einschliesslich Postgres fuer die primaeren Anwendungsdaten. Daten sind bei der Uebertragung verschluesselt. Wir bewahren deine gehosteten Lerndaten so lange auf, wie dein Konto aktiv ist, und loeschen sie, wenn du dein Konto loeschst oder die Entfernung anforderst. Betriebliche Logs werden nur so lange aufbewahrt, wie es fuer Betrieb und Debugging der gehosteten Beta erforderlich ist, in der Regel bis zu 90 Tage.
 
 ## Cookies
 
@@ -36,7 +36,7 @@ Wir verwenden Authentifizierungs-Cookies wie `session`, `refresh` und `logged_in
 
 ## Datenloeschung
 
-Bei Self-Hosted-Instanzen kontrollierst du die Datenbank selbst. In der gehosteten App kannst du dein Konto in der iOS-App loeschen. Fuer weitere Hilfe bei der Entfernung gehosteter Daten kannst du den Support kontaktieren.
+Bei Self-Hosted-Instanzen kontrollierst du die Datenbank selbst. In der gehosteten App kannst du dein Konto in der iOS-App oder der Web-App loeschen. Die Entfernung gehosteter Daten kannst du auch ueber die Agent-API oder einen verbundenen MCP-Client anfordern. Fuer weitere Hilfe bei der Entfernung gehosteter Daten kannst du den Support kontaktieren.
 
 ## Support
 
