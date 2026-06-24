@@ -6,6 +6,7 @@ import styles from "./CopyCodeField.module.css";
 type CopyState = "idle" | "copied" | "failed";
 
 interface CopyCodeFieldProps {
+  readonly caption?: string;
   readonly labels: {
     readonly copied: string;
     readonly copy: string;
@@ -14,7 +15,7 @@ interface CopyCodeFieldProps {
   readonly value: string;
 }
 
-export function CopyCodeField({ value, labels }: CopyCodeFieldProps) {
+export function CopyCodeField({ caption, value, labels }: CopyCodeFieldProps) {
   const [copyState, setCopyState] = useState<CopyState>("idle");
   const resetTimeoutRef = useRef<number | null>(null);
 
@@ -47,6 +48,7 @@ export function CopyCodeField({ value, labels }: CopyCodeFieldProps) {
 
   return (
     <div className={styles.root}>
+      {caption ? <span className={styles.caption}>{caption}</span> : null}
       <pre className={styles.value}>
         <code>{value}</code>
       </pre>
