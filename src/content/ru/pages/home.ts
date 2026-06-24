@@ -23,11 +23,22 @@ export const HOME_PAGE_CONTENT: PageContent = {
         label: "Открыть на GitHub",
         href: "https://github.com/kirill-markin/flashcards-open-source-app",
       },
-      hintText: "Начните с GET-запроса к этому discovery URL:",
-      hintLink: {
-        label: "https://api.flashcards-open-source-app.com/v1/",
-        href: "https://api.flashcards-open-source-app.com/v1/",
-      },
+      agentConnectors: [
+        {
+          caption: "Добавьте этот MCP-сервер в свой AI-клиент:",
+          link: {
+            label: "https://mcp.flashcards-open-source-app.com/mcp",
+            href: "https://mcp.flashcards-open-source-app.com/mcp",
+          },
+        },
+        {
+          caption: "Или начните с GET-запроса к этому discovery URL:",
+          link: {
+            label: "https://api.flashcards-open-source-app.com/v1/",
+            href: "https://api.flashcards-open-source-app.com/v1/",
+          },
+        },
+      ],
     },
     {
       type: "public_activity",
