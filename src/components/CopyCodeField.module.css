@@ -1,22 +1,27 @@
-.root {
+.wrapper {
+  display: grid;
+  gap: 8px;
+  width: 100%;
+  max-width: 100%;
+}
+
+.caption {
+  color: var(--text-secondary);
+  font-size: 13px;
+  line-height: 1.5;
+  text-align: start;
+}
+
+.box {
   display: grid;
   grid-template-columns: minmax(0, 1fr) auto;
   align-items: center;
   column-gap: 12px;
-  row-gap: 10px;
   width: 100%;
   max-width: 100%;
   padding: 10px;
   border-radius: var(--radius-md);
   background: var(--surface-elevated);
-}
-
-.caption {
-  grid-column: 1 / -1;
-  color: var(--text-secondary);
-  font-size: 13px;
-  line-height: 1.5;
-  text-align: start;
 }
 
 .value {
@@ -57,7 +62,7 @@
 }
 
 @media (max-width: 640px) {
-  .root {
+  .box {
     grid-template-columns: 1fr;
   }
 
