@@ -124,6 +124,16 @@ curl -X POST https://api.flashcards-open-source-app.com/v1/agent/sql/query \
 
 Ein entfernter MCP-Server ist ebenfalls unter `https://mcp.flashcards-open-source-app.com/mcp` mit OAuth 2.1 (Dynamic Client Registration + PKCE) verfuegbar. Er stellt dieselbe Aufteilung als zwei Tools bereit, `sql_query` (nur lesend) und `sql_execute` (schreibend), plus `list_workspaces`.
 
+### Sicherheit und Geltungsbereich
+
+Die SQL-Oberflaeche ist ein abgesicherter, vom Parser erzwungener Dialekt und kein vollstaendiges PostgreSQL. Die Schutzmechanismen sind:
+
+- **Geschlossene Anweisungsliste**: nur `SHOW TABLES`, `DESCRIBE`, `SHOW COLUMNS` und `SELECT` zum Lesen sowie `INSERT`, `UPDATE` und `DELETE` zum Schreiben. Alles andere wird beim Parsen abgelehnt.
+- **Begrenzte Ressourcen**: Anweisungen koennen nur die Ressourcen `workspace`, `cards`, `decks` und `review_events` betreffen.
+- **Workspace-Geltungsbereich**: jede Anweisung ist auf den ausgewaehlten Workspace beschraenkt, ohne mandantenuebergreifenden Zugriff.
+- **Grenzwerte**: bis zu `100` Zeilen pro Anweisung, bis zu `50` Anweisungen pro Batch und eine Ergebnisgrenze von etwa `12k` Tokens. Mutations-Batches werden atomar angewendet.
+- **Trennung von Lesen und Schreiben**: `sql_query` ist nur lesend (`readOnlyHint`) und `sql_execute` fuehrt Schreibvorgaenge aus (`destructiveHint`); ein einzelner Aufruf muss vollstaendig lesend oder vollstaendig schreibend sein.
+
 ## Menschliche und Sync-APIs
 
 Flashcards enthaelt auch separate APIs fuer menschliche Clients und Offline-First-Sync, aber sie sind nicht der Hauptvertrag fuer externe Agenten:
