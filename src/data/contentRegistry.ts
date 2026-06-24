@@ -41,6 +41,7 @@ const PREFERRED_DOC_SLUG_ORDER: ReadonlyArray<string> = [
   "getting-started",
   "self-hosting",
   "api",
+  "mcp-connector",
   "architecture",
 ];
 
