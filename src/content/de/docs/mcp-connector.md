@@ -50,21 +50,22 @@ Schreiben.
 Der Server stellt drei Tools bereit. Lesen und Schreiben sind bewusst getrennt,
 damit ein einzelnes Tool niemals sichere und destruktive Operationen vermischt.
 
-- `sql_query` — Nur-Lese-Zugriff auf deine Karten und Decks (`SHOW TABLES`,
-  `DESCRIBE`, `SHOW COLUMNS`, `SELECT`).
+- `sql_query` — strikt nur lesender Zugriff auf deine Karten und Decks
+  (`SHOW TABLES`, `DESCRIBE`, `SHOW COLUMNS`, `SELECT`).
 - `sql_execute` — Schreibzugriff auf deine Karten und Decks (`INSERT`, `UPDATE`,
   `DELETE`) als atomarer Batch.
-- `list_workspaces` — listet die Workspaces auf, auf die du zugreifen kannst,
-  jeweils mit ihrer `workspaceId`, dem Namen, der Anzahl aktiver Karten, der
-  letzten Aktivitaet und der Angabe, ob es dein aktuell ausgewaehlter Standard
-  ist. Verwende eine zurueckgegebene `workspaceId` fuer das `workspaceId`-Argument
-  von `sql_query` und `sql_execute`.
+- `list_workspaces` — strikt nur lesende Liste der Workspaces, auf die du
+  zugreifen kannst, jeweils mit ihrer `workspaceId`, dem Namen, der Anzahl
+  aktiver Karten, der letzten Aktivitaet und der Angabe, ob es dein aktuell
+  ausgewaehlter Standard ist. Verwende eine zurueckgegebene `workspaceId` fuer
+  das `workspaceId`-Argument von `sql_query` und `sql_execute`.
 
 Die SQL-Oberflaeche ist ein absichtlich eingeschraenkter Dialekt und kein
-vollstaendiges PostgreSQL. Anweisungen koennen nur die Ressourcen `workspace`,
-`cards`, `decks` und `review_events` adressieren, jede Anweisung ist auf deinen
-eigenen Workspace beschraenkt, und Lese- sowie Schreibvorgaenge sind auf `100`
-Zeilen pro Anweisung begrenzt.
+vollstaendiges PostgreSQL. Diese Dokumentation beschreibt nur den unterstuetzten
+Dialekt, keine PostgreSQL-Kompatibilitaetsreferenz. Anweisungen koennen nur die
+Ressourcen `workspace`, `cards`, `decks` und `review_events` adressieren, jede
+Anweisung ist auf deinen eigenen Workspace beschraenkt, und Lese- sowie
+Schreibvorgaenge sind auf `100` Zeilen pro Anweisung begrenzt.
 
 ## Karten-Vertrag
 
@@ -127,8 +128,9 @@ Datenbankzugriff:
   Batch und eine Ergebnisgrenze von etwa `12k` Tokens. Mutations-Batches werden
   atomar angewendet.
 - **Trennung von Lesen und Schreiben**: `sql_query` und `list_workspaces` sind
-  nur lesend (`readOnlyHint`) und `sql_execute` fuehrt Schreibvorgaenge aus
-  (`destructiveHint`).
+  strikt nur lesend (`readOnlyHint`) und reparieren keine Daten, berechnen keine
+  Planung neu und aendern keinen Kartenzustand. `sql_execute` ist das einzige
+  Schreib-Tool und fuehrt Schreibvorgaenge aus (`destructiveHint`).
 
 Der gesamte Stack — App, Backend und Infrastruktur — ist Open Source und kann
 [selbst gehostet](/docs/self-hosting/) werden, sodass du denselben Connector

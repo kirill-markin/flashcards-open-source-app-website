@@ -86,9 +86,13 @@ Authorization: ApiKey <key>
 
 ## سطح SQL
 
-`POST /v1/agent/sql/query` هو سطح القراءة فقط (`SHOW TABLES` و`DESCRIBE` و`SELECT`) و`POST /v1/agent/sql/execute` هو سطح الكتابة (`INSERT` و`UPDATE` و`DELETE`)؛ يجب أن يكون الطلب الواحد إما قراءات بالكامل أو كتابات بالكامل.
+`POST /v1/agent/sql/query` هو سطح القراءة فقط بشكل صارم (`SHOW TABLES` و`DESCRIBE` و`SELECT`) و`POST /v1/agent/sql/execute` هو سطح الكتابة (`INSERT` و`UPDATE` و`DELETE`)؛ يجب أن يكون الطلب الواحد إما قراءات بالكامل أو كتابات بالكامل.
 
-هو محدود عمدًا وليس PostgreSQL كاملًا.
+هو محدود عمدًا وليس PostgreSQL كاملًا. تغطي هذه الوثائق اللهجة المدعومة فقط،
+وليست مرجع توافق مع PostgreSQL.
+
+لا يصلح أي مسار قراءة البيانات، ولا يعيد حساب الجدولة، ولا يغيّر حالة البطاقة.
+استخدم `POST /v1/agent/sql/execute` لكل كتابة.
 
 العائلات الحالية للأوامر:
 
@@ -122,7 +126,7 @@ curl -X POST https://api.flashcards-open-source-app.com/v1/agent/sql/query \
   -d '{"sql":"SHOW TABLES"}'
 ```
 
-يتوفر أيضًا خادم MCP بعيد على `https://mcp.flashcards-open-source-app.com/mcp` باستخدام OAuth 2.1 (Dynamic Client Registration + PKCE). يكشف التقسيم نفسه عبر أداتين، `sql_query` (للقراءة فقط) و`sql_execute` (للكتابة)، بالإضافة إلى `list_workspaces`.
+يتوفر أيضًا خادم MCP بعيد على `https://mcp.flashcards-open-source-app.com/mcp` باستخدام OAuth 2.1 (Dynamic Client Registration + PKCE). يكشف التقسيم نفسه عبر أداتين، `sql_query` (للقراءة فقط بشكل صارم) و`sql_execute` (للكتابة)، بالإضافة إلى `list_workspaces` للقراءة فقط بشكل صارم.
 
 ### الأمان والنطاق
 
@@ -132,7 +136,7 @@ curl -X POST https://api.flashcards-open-source-app.com/v1/agent/sql/query \
 - **موارد محدودة**: لا يمكن للعبارات أن تمسّ سوى موارد `workspace` و`cards` و`decks` و`review_events`.
 - **النطاق لكل مساحة عمل**: كل عبارة مقيّدة بمساحة العمل المحددة لديك، بدون وصول عبر المستأجرين.
 - **الحدود**: حتى `100` صف لكل عبارة، وحتى `50` عبارة لكل دفعة، وحد للنتائج يبلغ نحو `12k` رمز. وتُطبَّق دفعات التعديل بشكل ذرّي.
-- **الفصل بين القراءة والكتابة**: `sql_query` للقراءة فقط (`readOnlyHint`) و`sql_execute` ينفّذ عمليات الكتابة (`destructiveHint`)؛ ويجب أن يكون الاستدعاء الواحد إما كله قراءة أو كله كتابة.
+- **الفصل بين القراءة والكتابة**: `sql_query` و`list_workspaces` للقراءة فقط بشكل صارم (`readOnlyHint`) ولا تصلح البيانات أو تعيد حساب الجدولة أو تغيّر حالة البطاقة. `sql_execute` هو أداة الكتابة الوحيدة وينفّذ عمليات الكتابة (`destructiveHint`)؛ ويجب أن يكون الاستدعاء الواحد إما كله قراءة أو كله كتابة.
 
 ## واجهات API البشرية والمزامنة
 
