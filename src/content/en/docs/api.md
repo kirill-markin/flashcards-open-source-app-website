@@ -112,9 +112,13 @@ The workspace selection is explicit per API key connection. Agents should follow
 
 ## SQL Surface
 
-`POST /v1/agent/sql/query` is the read-only surface (`SHOW TABLES`, `DESCRIBE`, `SELECT`) and `POST /v1/agent/sql/execute` is the write surface (`INSERT`, `UPDATE`, `DELETE`); a single call must be all reads or all writes.
+`POST /v1/agent/sql/query` is the strictly read-only surface (`SHOW TABLES`, `DESCRIBE`, `SELECT`) and `POST /v1/agent/sql/execute` is the write surface (`INSERT`, `UPDATE`, `DELETE`); a single call must be all reads or all writes.
 
-It is intentionally limited and is not full PostgreSQL.
+It is intentionally limited and is not full PostgreSQL. These docs cover only
+the supported dialect, not a PostgreSQL compatibility reference.
+
+No read path repairs data, recalculates scheduling, or changes card state. Use
+`POST /v1/agent/sql/execute` for every write.
 
 Current statement families:
 
@@ -170,7 +174,7 @@ curl -X POST https://api.flashcards-open-source-app.com/v1/agent/sql/execute \
   }'
 ```
 
-A remote MCP server is also available at `https://mcp.flashcards-open-source-app.com/mcp` using OAuth 2.1 (Dynamic Client Registration + PKCE). It exposes the same split as two tools, `sql_query` (read-only) and `sql_execute` (write), plus `list_workspaces`.
+A remote MCP server is also available at `https://mcp.flashcards-open-source-app.com/mcp` using OAuth 2.1 (Dynamic Client Registration + PKCE). It exposes the same split as two tools, `sql_query` (strictly read-only) and `sql_execute` (write), plus strictly read-only `list_workspaces`.
 
 ### Safety And Scope
 
@@ -180,7 +184,7 @@ The SQL surface is a contained, parser-enforced dialect rather than raw PostgreS
 - **Limited resources**: statements can only touch the `workspace`, `cards`, `decks`, and `review_events` resources.
 - **Per-workspace scoping**: every statement is scoped to your selected workspace, with no cross-tenant access.
 - **Caps**: up to `100` rows per statement, up to `50` statements per batch, and a result cap of roughly `12k` tokens. Mutation batches apply atomically.
-- **Read/write split**: `sql_query` is read-only (`readOnlyHint`) and `sql_execute` performs writes (`destructiveHint`); a single call must be all reads or all writes.
+- **Read/write split**: `sql_query` and `list_workspaces` are strictly read-only (`readOnlyHint`) and never repair data, recalculate scheduling, or change card state. `sql_execute` is the only write tool and performs writes (`destructiveHint`); a single call must be all reads or all writes.
 
 ## Human And Sync APIs
 

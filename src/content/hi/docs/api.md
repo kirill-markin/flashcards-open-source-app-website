@@ -108,9 +108,13 @@ curl -X POST https://auth.flashcards-open-source-app.com/api/agent/verify-code \
 
 ## SQL इंटरफ़ेस
 
-`POST /v1/agent/sql/query` केवल पढ़ने का इंटरफ़ेस है (`SHOW TABLES`, `DESCRIBE`, `SELECT`) और `POST /v1/agent/sql/execute` लिखने का इंटरफ़ेस है (`INSERT`, `UPDATE`, `DELETE`); एक ही कॉल या तो पूरी तरह पढ़ने की होनी चाहिए या पूरी तरह लिखने की।
+`POST /v1/agent/sql/query` सख्ती से केवल पढ़ने का इंटरफ़ेस है (`SHOW TABLES`, `DESCRIBE`, `SELECT`) और `POST /v1/agent/sql/execute` लिखने का इंटरफ़ेस है (`INSERT`, `UPDATE`, `DELETE`); एक ही कॉल या तो पूरी तरह पढ़ने की होनी चाहिए या पूरी तरह लिखने की।
 
-इसे जानबूझकर सीमित रखा गया है; यह पूरा PostgreSQL नहीं है।
+इसे जानबूझकर सीमित रखा गया है; यह पूरा PostgreSQL नहीं है। ये दस्तावेज़ केवल
+समर्थित बोली को कवर करते हैं, PostgreSQL compatibility reference नहीं हैं।
+
+कोई भी read path डेटा की मरम्मत, scheduling की पुनर्गणना, या कार्ड state में
+बदलाव नहीं करता। हर write के लिए `POST /v1/agent/sql/execute` का उपयोग करें।
 
 फ़िलहाल समर्थित स्टेटमेंट प्रकार:
 
@@ -166,7 +170,7 @@ curl -X POST https://api.flashcards-open-source-app.com/v1/agent/sql/execute \
   }'
 ```
 
-`https://mcp.flashcards-open-source-app.com/mcp` पर एक रिमोट MCP सर्वर भी उपलब्ध है, जो OAuth 2.1 (Dynamic Client Registration + PKCE) का उपयोग करता है। यह वही विभाजन दो टूल के रूप में देता है, `sql_query` (केवल पढ़ने के लिए) और `sql_execute` (लिखने के लिए), साथ ही `list_workspaces`।
+`https://mcp.flashcards-open-source-app.com/mcp` पर एक रिमोट MCP सर्वर भी उपलब्ध है, जो OAuth 2.1 (Dynamic Client Registration + PKCE) का उपयोग करता है। यह वही विभाजन दो टूल के रूप में देता है, `sql_query` (सख्ती से केवल पढ़ने के लिए) और `sql_execute` (लिखने के लिए), साथ ही सख्ती से केवल पढ़ने वाला `list_workspaces`।
 
 ### सुरक्षा और दायरा
 
@@ -176,7 +180,7 @@ SQL सतह कच्चे PostgreSQL के बजाय एक सीमि
 - **सीमित संसाधन**: स्टेटमेंट केवल `workspace`, `cards`, `decks` और `review_events` संसाधनों को ही छू सकते हैं।
 - **प्रति-वर्कस्पेस दायरा**: हर स्टेटमेंट आपके चुने हुए वर्कस्पेस तक सीमित है, किसी अन्य टेनेंट तक पहुँच नहीं।
 - **सीमाएँ**: प्रति स्टेटमेंट अधिकतम `100` पंक्तियाँ, प्रति बैच अधिकतम `50` स्टेटमेंट, और परिणाम की सीमा लगभग `12k` टोकन। म्यूटेशन बैच परमाणु रूप से लागू होते हैं।
-- **पढ़ने/लिखने का विभाजन**: `sql_query` केवल पढ़ने के लिए है (`readOnlyHint`) और `sql_execute` लिखने का कार्य करता है (`destructiveHint`); एक ही कॉल या तो पूरी तरह पढ़ने की होनी चाहिए या पूरी तरह लिखने की।
+- **पढ़ने/लिखने का विभाजन**: `sql_query` और `list_workspaces` सख्ती से केवल पढ़ने के लिए हैं (`readOnlyHint`) और डेटा की मरम्मत, scheduling की पुनर्गणना, या कार्ड state में बदलाव कभी नहीं करते। `sql_execute` एकमात्र write tool है और लिखने का कार्य करता है (`destructiveHint`); एक ही कॉल या तो पूरी तरह पढ़ने की होनी चाहिए या पूरी तरह लिखने की।
 
 ## उपयोगकर्ता और समन्वयन API
 
