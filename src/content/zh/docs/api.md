@@ -108,9 +108,13 @@ curl -X POST https://auth.flashcards-open-source-app.com/api/agent/verify-code \
 
 ## SQL 接口
 
-`POST /v1/agent/sql/query` 是只读入口（`SHOW TABLES`、`DESCRIBE`、`SELECT`），`POST /v1/agent/sql/execute` 是写入入口（`INSERT`、`UPDATE`、`DELETE`）；单次调用必须全部为读取或全部为写入。
+`POST /v1/agent/sql/query` 是严格只读入口（`SHOW TABLES`、`DESCRIBE`、`SELECT`），`POST /v1/agent/sql/execute` 是写入入口（`INSERT`、`UPDATE`、`DELETE`）；单次调用必须全部为读取或全部为写入。
 
-该接口经过有意限制，并不是完整的 PostgreSQL。
+该接口经过有意限制，并不是完整的 PostgreSQL。这些文档只描述受支持的方言，而不是
+PostgreSQL 兼容性参考。
+
+任何读取路径都不会修复数据、重新计算排期或更改卡片状态。所有写入都应使用
+`POST /v1/agent/sql/execute`。
 
 当前支持的语句类型如下：
 
@@ -166,7 +170,7 @@ curl -X POST https://api.flashcards-open-source-app.com/v1/agent/sql/execute \
   }'
 ```
 
-此外还提供远程 MCP 服务器，地址为 `https://mcp.flashcards-open-source-app.com/mcp`，使用 OAuth 2.1（Dynamic Client Registration + PKCE）。它以两个工具的形式提供相同的拆分：`sql_query`（只读）和 `sql_execute`（写入），另外还提供 `list_workspaces`。
+此外还提供远程 MCP 服务器，地址为 `https://mcp.flashcards-open-source-app.com/mcp`，使用 OAuth 2.1（Dynamic Client Registration + PKCE）。它以两个工具的形式提供相同的拆分：`sql_query`（严格只读）和 `sql_execute`（写入），另外还提供严格只读的 `list_workspaces`。
 
 ### 安全与作用域
 
@@ -176,7 +180,7 @@ SQL 接口是一个受限的、由解析器强制约束的方言，而非原生 
 - **受限的资源**：语句只能访问 `workspace`、`cards`、`decks` 和 `review_events` 这几个资源。
 - **按工作区作用域**：每条语句都限定在你所选的工作区内，不存在跨租户访问。
 - **上限**：每条语句最多 `100` 行，每个批次最多 `50` 条语句，结果上限约为 `12k` 个 token。变更批次以原子方式应用。
-- **读写分离**：`sql_query` 为只读（`readOnlyHint`），`sql_execute` 执行写入（`destructiveHint`）；单次调用必须全部为读取或全部为写入。
+- **读写分离**：`sql_query` 和 `list_workspaces` 为严格只读（`readOnlyHint`），不会修复数据、重新计算排期或更改卡片状态。`sql_execute` 是唯一的写入工具，执行写入（`destructiveHint`）；单次调用必须全部为读取或全部为写入。
 
 ## 面向人工用户与同步场景的 API
 

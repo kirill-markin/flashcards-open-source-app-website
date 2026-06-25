@@ -109,9 +109,14 @@ La selección del espacio de trabajo es explícita por conexión de clave API. L
 
 ## Superficie SQL
 
-`POST /v1/agent/sql/query` es la superficie de solo lectura (`SHOW TABLES`, `DESCRIBE`, `SELECT`) y `POST /v1/agent/sql/execute` es la superficie de escritura (`INSERT`, `UPDATE`, `DELETE`); una sola llamada debe ser totalmente de lectura o totalmente de escritura.
+`POST /v1/agent/sql/query` es la superficie estrictamente de solo lectura (`SHOW TABLES`, `DESCRIBE`, `SELECT`) y `POST /v1/agent/sql/execute` es la superficie de escritura (`INSERT`, `UPDATE`, `DELETE`); una sola llamada debe ser totalmente de lectura o totalmente de escritura.
 
-Está intencionalmente limitado y no es PostgreSQL completo.
+Está intencionalmente limitado y no es PostgreSQL completo. Esta documentación
+cubre solo el dialecto compatible, no una referencia de compatibilidad con
+PostgreSQL.
+
+Ninguna ruta de lectura repara datos, recalcula la programación ni cambia el
+estado de las tarjetas. Use `POST /v1/agent/sql/execute` para toda escritura.
 
 Familias de declaraciones actuales:
 
@@ -167,7 +172,7 @@ curl -X POST https://api.flashcards-open-source-app.com/v1/agent/sql/execute \
   }'
 ```
 
-También hay disponible un servidor MCP remoto en `https://mcp.flashcards-open-source-app.com/mcp` que usa OAuth 2.1 (Dynamic Client Registration + PKCE). Expone la misma división como dos herramientas, `sql_query` (solo lectura) y `sql_execute` (escritura), además de `list_workspaces`.
+También hay disponible un servidor MCP remoto en `https://mcp.flashcards-open-source-app.com/mcp` que usa OAuth 2.1 (Dynamic Client Registration + PKCE). Expone la misma división como dos herramientas, `sql_query` (estrictamente de solo lectura) y `sql_execute` (escritura), además de `list_workspaces`, estrictamente de solo lectura.
 
 ### Seguridad y alcance
 
@@ -177,7 +182,7 @@ La superficie SQL es un dialecto contenido y validado por el analizador, no Post
 - **Recursos limitados**: las instrucciones solo pueden tocar los recursos `workspace`, `cards`, `decks` y `review_events`.
 - **Alcance por espacio de trabajo**: cada instrucción tiene el alcance de su espacio de trabajo seleccionado, sin acceso entre inquilinos.
 - **Límites**: hasta `100` filas por instrucción, hasta `50` instrucciones por lote y un límite de resultados de aproximadamente `12k` tokens. Los lotes de mutación se aplican de forma atómica.
-- **División de lectura/escritura**: `sql_query` es de solo lectura (`readOnlyHint`) y `sql_execute` realiza escrituras (`destructiveHint`); una sola llamada debe ser totalmente de lectura o totalmente de escritura.
+- **División de lectura/escritura**: `sql_query` y `list_workspaces` son estrictamente de solo lectura (`readOnlyHint`) y nunca reparan datos, recalculan la programación ni cambian el estado de las tarjetas. `sql_execute` es la única herramienta de escritura y realiza escrituras (`destructiveHint`); una sola llamada debe ser totalmente de lectura o totalmente de escritura.
 
 ## API humanas y de sincronización
 
