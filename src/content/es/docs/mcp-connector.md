@@ -48,20 +48,22 @@ El servidor expone tres herramientas. Las lecturas y las escrituras están
 separadas a propósito para que una sola herramienta nunca mezcle operaciones
 seguras y destructivas.
 
-- `sql_query` — acceso de solo lectura a sus tarjetas y mazos (`SHOW TABLES`,
-  `DESCRIBE`, `SHOW COLUMNS`, `SELECT`).
+- `sql_query` — acceso estrictamente de solo lectura a sus tarjetas y mazos
+  (`SHOW TABLES`, `DESCRIBE`, `SHOW COLUMNS`, `SELECT`).
 - `sql_execute` — acceso de escritura a sus tarjetas y mazos (`INSERT`, `UPDATE`,
   `DELETE`) como un lote atómico.
-- `list_workspaces` — lista los espacios de trabajo a los que puede acceder, cada
-  uno con su `workspaceId`, nombre, recuento de tarjetas activas, última actividad
-  y si es su predeterminado actualmente seleccionado. Use un `workspaceId`
-  devuelto para el argumento `workspaceId` de `sql_query` y `sql_execute`.
+- `list_workspaces` — lista estrictamente de solo lectura de los espacios de
+  trabajo a los que puede acceder, cada uno con su `workspaceId`, nombre,
+  recuento de tarjetas activas, última actividad y si es su predeterminado
+  actualmente seleccionado. Use un `workspaceId` devuelto para el argumento
+  `workspaceId` de `sql_query` y `sql_execute`.
 
 La superficie SQL es un dialecto intencionalmente limitado y no es PostgreSQL
-completo. Las instrucciones solo pueden dirigirse a los recursos `workspace`,
-`cards`, `decks` y `review_events`, cada instrucción tiene el alcance de su propio
-espacio de trabajo, y las lecturas y escrituras tienen un límite de `100` filas
-por instrucción.
+completo. Esta documentación cubre solo el dialecto compatible, no una referencia
+de compatibilidad con PostgreSQL. Las instrucciones solo pueden dirigirse a los
+recursos `workspace`, `cards`, `decks` y `review_events`, cada instrucción tiene
+el alcance de su propio espacio de trabajo, y las lecturas y escrituras tienen un
+límite de `100` filas por instrucción.
 
 ## Contrato de la tarjeta
 
@@ -124,8 +126,10 @@ de datos:
 - **Límites**: hasta `100` filas por instrucción, hasta `50` instrucciones por lote
   y un límite de resultados de aproximadamente `12k` tokens. Los lotes de mutación
   se aplican de forma atómica.
-- **División de lectura/escritura**: `sql_query` y `list_workspaces` son de solo
-  lectura (`readOnlyHint`) y `sql_execute` realiza escrituras (`destructiveHint`).
+- **División de lectura/escritura**: `sql_query` y `list_workspaces` son
+  estrictamente de solo lectura (`readOnlyHint`) y nunca reparan datos,
+  recalculan la programación ni cambian el estado de las tarjetas. `sql_execute`
+  es la única herramienta de escritura y realiza escrituras (`destructiveHint`).
 
 Toda la pila —aplicación, backend e infraestructura— es de código abierto y se
 puede [autoalojar](/docs/self-hosting/), por lo que puede ejecutar el mismo

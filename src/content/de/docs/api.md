@@ -86,9 +86,14 @@ Die Workspace-Auswahl ist pro API-Key-Verbindung explizit. Agenten sollten dem z
 
 ## SQL-Oberflaeche
 
-`POST /v1/agent/sql/query` ist die Lese-Oberflaeche (`SHOW TABLES`, `DESCRIBE`, `SELECT`) und `POST /v1/agent/sql/execute` ist die Schreib-Oberflaeche (`INSERT`, `UPDATE`, `DELETE`); ein einzelner Aufruf muss entweder ausschliesslich Lese- oder ausschliesslich Schreibvorgaenge enthalten.
+`POST /v1/agent/sql/query` ist die strikt nur lesende Oberflaeche (`SHOW TABLES`, `DESCRIBE`, `SELECT`) und `POST /v1/agent/sql/execute` ist die Schreib-Oberflaeche (`INSERT`, `UPDATE`, `DELETE`); ein einzelner Aufruf muss entweder ausschliesslich Lese- oder ausschliesslich Schreibvorgaenge enthalten.
 
-Sie ist absichtlich eingeschraenkt und kein vollstaendiges PostgreSQL.
+Sie ist absichtlich eingeschraenkt und kein vollstaendiges PostgreSQL. Diese
+Dokumentation beschreibt nur den unterstuetzten Dialekt, keine
+PostgreSQL-Kompatibilitaetsreferenz.
+
+Kein Lesepfad repariert Daten, berechnet Planung neu oder aendert
+Kartenzustand. Verwende `POST /v1/agent/sql/execute` fuer jeden Schreibvorgang.
 
 Aktuelle Statement-Familien:
 
@@ -122,7 +127,7 @@ curl -X POST https://api.flashcards-open-source-app.com/v1/agent/sql/query \
   -d '{"sql":"SHOW TABLES"}'
 ```
 
-Ein entfernter MCP-Server ist ebenfalls unter `https://mcp.flashcards-open-source-app.com/mcp` mit OAuth 2.1 (Dynamic Client Registration + PKCE) verfuegbar. Er stellt dieselbe Aufteilung als zwei Tools bereit, `sql_query` (nur lesend) und `sql_execute` (schreibend), plus `list_workspaces`.
+Ein entfernter MCP-Server ist ebenfalls unter `https://mcp.flashcards-open-source-app.com/mcp` mit OAuth 2.1 (Dynamic Client Registration + PKCE) verfuegbar. Er stellt dieselbe Aufteilung als zwei Tools bereit, `sql_query` (strikt nur lesend) und `sql_execute` (schreibend), plus strikt nur lesendes `list_workspaces`.
 
 ### Sicherheit und Geltungsbereich
 
@@ -132,7 +137,7 @@ Die SQL-Oberflaeche ist ein abgesicherter, vom Parser erzwungener Dialekt und ke
 - **Begrenzte Ressourcen**: Anweisungen koennen nur die Ressourcen `workspace`, `cards`, `decks` und `review_events` betreffen.
 - **Workspace-Geltungsbereich**: jede Anweisung ist auf den ausgewaehlten Workspace beschraenkt, ohne mandantenuebergreifenden Zugriff.
 - **Grenzwerte**: bis zu `100` Zeilen pro Anweisung, bis zu `50` Anweisungen pro Batch und eine Ergebnisgrenze von etwa `12k` Tokens. Mutations-Batches werden atomar angewendet.
-- **Trennung von Lesen und Schreiben**: `sql_query` ist nur lesend (`readOnlyHint`) und `sql_execute` fuehrt Schreibvorgaenge aus (`destructiveHint`); ein einzelner Aufruf muss vollstaendig lesend oder vollstaendig schreibend sein.
+- **Trennung von Lesen und Schreiben**: `sql_query` und `list_workspaces` sind strikt nur lesend (`readOnlyHint`) und reparieren keine Daten, berechnen keine Planung neu und aendern keinen Kartenzustand. `sql_execute` ist das einzige Schreib-Tool und fuehrt Schreibvorgaenge aus (`destructiveHint`); ein einzelner Aufruf muss vollstaendig lesend oder vollstaendig schreibend sein.
 
 ## Menschliche und Sync-APIs
 

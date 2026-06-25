@@ -43,19 +43,21 @@ After authorizing, call `list_workspaces` once to pick a workspace, then use
 The server exposes three tools. Reads and writes are split on purpose so a single
 tool never mixes safe and destructive operations.
 
-- `sql_query` — read-only access to your cards and decks (`SHOW TABLES`,
+- `sql_query` — strictly read-only access to your cards and decks (`SHOW TABLES`,
   `DESCRIBE`, `SHOW COLUMNS`, `SELECT`).
 - `sql_execute` — write access to your cards and decks (`INSERT`, `UPDATE`,
   `DELETE`) as an atomic batch.
-- `list_workspaces` — list the workspaces you can access, each with its
+- `list_workspaces` — strictly read-only list of the workspaces you can access,
+  each with its
   `workspaceId`, name, active card count, last activity, and whether it is your
   currently selected default. Use a returned `workspaceId` for the `sql_query`
   and `sql_execute` `workspaceId` argument.
 
 The SQL surface is an intentionally limited dialect and is not full PostgreSQL.
-Statements can only address the `workspace`, `cards`, `decks`, and `review_events`
-resources, every statement is scoped to your own workspace, and reads and writes
-are capped at `100` rows per statement.
+These docs cover only the supported dialect, not a PostgreSQL compatibility
+reference. Statements can only address the `workspace`, `cards`, `decks`, and
+`review_events` resources, every statement is scoped to your own workspace, and
+reads and writes are capped at `100` rows per statement.
 
 ## Card Contract
 
@@ -111,8 +113,10 @@ parser-enforced dialect rather than arbitrary database access:
   workspace, with no cross-tenant access.
 - **Caps**: up to `100` rows per statement, up to `50` statements per batch, and
   a result cap of roughly `12k` tokens. Mutation batches apply atomically.
-- **Read/write split**: `sql_query` and `list_workspaces` are read-only
-  (`readOnlyHint`) and `sql_execute` performs writes (`destructiveHint`).
+- **Read/write split**: `sql_query` and `list_workspaces` are strictly read-only
+  (`readOnlyHint`) and never repair data, recalculate scheduling, or change card
+  state. `sql_execute` is the only write tool and performs writes
+  (`destructiveHint`).
 
 The whole stack — app, backend, and infrastructure — is open source and can be
 [self-hosted](/docs/self-hosting/), so you can run the same connector against your

@@ -41,17 +41,18 @@ https://mcp.flashcards-open-source-app.com/mcp
 服务器公开三个工具。读取与写入被有意拆分，因此单个工具绝不会把安全操作和破坏性操作
 混在一起。
 
-- `sql_query` —— 以只读方式访问你的卡片和卡组（`SHOW TABLES`、
+- `sql_query` —— 以严格只读方式访问你的卡片和卡组（`SHOW TABLES`、
   `DESCRIBE`、`SHOW COLUMNS`、`SELECT`）。
 - `sql_execute` —— 以原子批次的形式对你的卡片和卡组进行写入访问（`INSERT`、`UPDATE`、
   `DELETE`）。
-- `list_workspaces` —— 列出你可以访问的工作区，每个工作区都带有其
+- `list_workspaces` —— 以严格只读方式列出你可以访问的工作区，每个工作区都带有其
   `workspaceId`、名称、活跃卡片数量、最近活动时间，以及它是否为你当前所选的默认工作区。
   将返回的某个 `workspaceId` 用作 `sql_query` 和 `sql_execute` 的 `workspaceId` 参数。
 
-该 SQL 接口是一个有意受限的方言，并不是完整的 PostgreSQL。语句只能针对 `workspace`、
-`cards`、`decks` 和 `review_events` 这几个资源，每条语句都限定在你自己的工作区内，
-且读取和写入每条语句最多 `100` 行。
+该 SQL 接口是一个有意受限的方言，并不是完整的 PostgreSQL。这些文档只描述受支持的
+方言，而不是 PostgreSQL 兼容性参考。语句只能针对 `workspace`、`cards`、`decks` 和
+`review_events` 这几个资源，每条语句都限定在你自己的工作区内，且读取和写入每条语句
+最多 `100` 行。
 
 ## 卡片约定
 
@@ -104,8 +105,9 @@ Authorization: Bearer fca_ABCDEFGH_0123456789ABCDEFGHJKMNPQRS
 - **按工作区作用域**：每条语句都限定在你所选的工作区内，不存在跨租户访问。
 - **上限**：每条语句最多 `100` 行，每个批次最多 `50` 条语句，
   结果上限约为 `12k` 个 token。变更批次以原子方式应用。
-- **读写分离**：`sql_query` 和 `list_workspaces` 为只读
-  （`readOnlyHint`），`sql_execute` 执行写入（`destructiveHint`）。
+- **读写分离**：`sql_query` 和 `list_workspaces` 为严格只读
+  （`readOnlyHint`），不会修复数据、重新计算排期或更改卡片状态。
+  `sql_execute` 是唯一的写入工具，执行写入（`destructiveHint`）。
 
 整个技术栈 —— 应用、后端和基础设施 —— 都是开源的，并且可以
 [自托管](/docs/self-hosting/)，因此你可以针对自己的部署运行同样的连接器。
