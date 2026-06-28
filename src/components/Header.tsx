@@ -28,7 +28,7 @@ export const Header: React.FC<HeaderProps> = ({ locale }) => {
           ))}
         </nav>
         <div className={styles.desktopAuth}>
-          <AuthButton locale={locale} />
+          <AuthButton locale={locale} placement="header_desktop" />
         </div>
 
         <HeaderMobileMenu locale={locale} headerLinks={headerLinks} />
