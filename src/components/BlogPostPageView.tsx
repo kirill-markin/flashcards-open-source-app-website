@@ -13,34 +13,20 @@ import { renderMarkdownToHtml } from "@/lib/content/renderMarkdownToHtml";
 import type { AppLocale } from "@/lib/i18n";
 import { getAbsoluteUrl, getLocalizedPathname } from "@/lib/i18n";
 import { localizeInternalLinks } from "@/lib/localizeInternalLinks";
-import { SITE_NAME } from "@/lib/site";
+import {
+  CREATOR_ENTITY,
+  CREATOR_REFERENCE,
+  STRUCTURED_DATA_AUTHOR_NAME,
+  STRUCTURED_DATA_AUTHOR_URL,
+  type PersonStructuredData,
+  type StructuredDataEntityReference,
+} from "@/lib/seo/structuredData";
 import { getUiCopy } from "@/lib/uiCopy";
 import styles from "@/app/blog/[slug]/page.module.css";
-
-const AUTHOR_NAME = "Kirill Markin";
-const AUTHOR_URL = "https://kirill-markin.com/";
-
-interface ArticleAuthor {
-  readonly "@type": "Person";
-  readonly name: string;
-  readonly url: string;
-}
 
 interface BlogPostPageViewProps {
   readonly locale: AppLocale;
   readonly slug: string;
-}
-
-const ARTICLE_AUTHOR: ArticleAuthor = {
-  "@type": "Person",
-  name: AUTHOR_NAME,
-  url: AUTHOR_URL,
-};
-
-interface ArticlePublisher {
-  readonly "@type": "Organization";
-  readonly name: string;
-  readonly url: string;
 }
 
 interface ArticleMainEntityOfPage {
@@ -51,7 +37,7 @@ interface ArticleMainEntityOfPage {
 interface BlogPostingSchema {
   readonly "@context": "https://schema.org";
   readonly "@type": "BlogPosting";
-  readonly author: ArticleAuthor;
+  readonly author: PersonStructuredData;
   readonly dateModified?: string;
   readonly datePublished: string;
   readonly description: string;
@@ -59,7 +45,7 @@ interface BlogPostingSchema {
   readonly image: string;
   readonly inLanguage: AppLocale;
   readonly mainEntityOfPage: ArticleMainEntityOfPage;
-  readonly publisher: ArticlePublisher;
+  readonly publisher: StructuredDataEntityReference;
   readonly url: string;
 }
 
@@ -103,12 +89,8 @@ export async function BlogPostPageView({
       "@id": articleUrl,
     },
     url: articleUrl,
-    author: ARTICLE_AUTHOR,
-    publisher: {
-      "@type": "Organization",
-      name: SITE_NAME,
-      url: getAbsoluteUrl("/"),
-    },
+    author: CREATOR_ENTITY,
+    publisher: CREATOR_REFERENCE,
   };
   const recommendedPosts = getRecommendedBlogPosts(locale, slug, 4);
   const localizedContentHtml = await renderMarkdownToHtml(
@@ -144,8 +126,8 @@ export async function BlogPostPageView({
               </time>
               <p className={styles.byline}>
                 <span>{uiCopy.blog.byPrefix} </span>
-                <a href={AUTHOR_URL} rel="author">
-                  {AUTHOR_NAME}
+                <a href={STRUCTURED_DATA_AUTHOR_URL} rel="author">
+                  {STRUCTURED_DATA_AUTHOR_NAME}
                 </a>
               </p>
             </div>
