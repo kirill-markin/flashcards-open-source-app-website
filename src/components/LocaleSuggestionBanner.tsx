@@ -1,5 +1,6 @@
 "use client";
 
+import { track } from "@vercel/analytics";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { getBrowserPreferredLocale } from "@/lib/browserLocaleMatching";
@@ -11,6 +12,10 @@ import styles from "./LocaleSuggestionBanner.module.css";
 
 const DISMISSAL_STORAGE_KEY = "flashcards.localeSuggestion.dismissedUntil";
 const DISMISSAL_DURATION_MS = 7 * 24 * 60 * 60 * 1000;
+const LOCALE_SUGGESTION_INTERACTION_EVENT =
+  "locale_suggestion_banner_interaction";
+
+type LocaleSuggestionInteractionAction = "open" | "dismiss";
 
 interface LocaleSuggestionBannerProps {
   readonly currentLocale: AppLocale;
@@ -86,6 +91,17 @@ function storeDismissal(now: number): void {
 
     throw error;
   }
+}
+
+function trackLocaleSuggestionInteraction(
+  action: LocaleSuggestionInteractionAction,
+  currentLocale: AppLocale,
+  targetLocale: AppLocale
+): void {
+  track(LOCALE_SUGGESTION_INTERACTION_EVENT, {
+    action,
+    locale_pair: `${currentLocale}_${targetLocale}`,
+  });
 }
 
 function findSuggestedTarget(
@@ -182,7 +198,20 @@ export function LocaleSuggestionBanner({
   const handleDismiss = (): void => {
     setDismissedForSession(true);
     setSuggestedTarget(null);
+    trackLocaleSuggestionInteraction(
+      "dismiss",
+      currentLocale,
+      suggestedTarget.locale
+    );
     storeDismissal(Date.now());
+  };
+
+  const handleOpen = (): void => {
+    trackLocaleSuggestionInteraction(
+      "open",
+      currentLocale,
+      suggestedTarget.locale
+    );
   };
 
   return (
@@ -198,6 +227,7 @@ export function LocaleSuggestionBanner({
           className={styles.action}
           data-testid="locale-suggestion-action"
           href={suggestedTarget.href}
+          onClick={handleOpen}
         >
           {localeSuggestionCopy.actionLabel}
         </Link>
