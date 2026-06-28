@@ -1,6 +1,6 @@
 .container {
-  --blog-start-cta-gap: 24px;
-  --blog-start-cta-width: 240px;
+  --blog-start-cta-gap: 12px;
+  --blog-start-cta-width: 180px;
 
   position: relative;
   width: min(100%, 980px);
@@ -269,7 +269,15 @@
   border: 1px solid var(--border);
 }
 
-@media (min-width: 1520px) {
+@media (min-width: 1320px) {
+  .container {
+    --blog-start-cta-width: clamp(
+      156px,
+      calc((100vw - 980px) / 2 - var(--blog-start-cta-gap)),
+      220px
+    );
+  }
+
   .startCtaRail {
     position: absolute;
     inset-block-start: 36px;
