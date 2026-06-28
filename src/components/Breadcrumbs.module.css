@@ -65,9 +65,3 @@
   color: var(--text-tertiary);
   margin-inline: -1px;
 }
-
-@media (max-width: 480px) {
-  .item:last-child {
-    display: none;
-  }
-}
