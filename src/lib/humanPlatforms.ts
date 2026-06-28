@@ -8,11 +8,14 @@ export type PlatformImage = {
   readonly width: number;
 };
 
+export type StoreAnalyticsPlatform = "ios" | "android";
+
 export type ActiveHumanPlatform = {
   readonly href: string;
   readonly image?: PlatformImage;
   readonly kind: "active";
   readonly label: string;
+  readonly storeAnalyticsPlatform?: StoreAnalyticsPlatform;
 };
 
 export type DisabledHumanPlatform = {
@@ -25,10 +28,10 @@ export type DisabledHumanPlatform = {
 export type HumanPlatform = ActiveHumanPlatform | DisabledHumanPlatform;
 
 export const APP_STORE_URL =
-  "https://apps.apple.com/app/flashcards-open-source-app/id6760538964";
+  "https://apps.apple.com/app/apple-store/id6760538964?pt=128797295&ct=marketing_site&mt=8";
 
 export const GOOGLE_PLAY_URL =
-  "https://play.google.com/store/apps/details?id=com.flashcardsopensourceapp.app&pcampaignid=web_share";
+  "https://play.google.com/store/apps/details?id=com.flashcardsopensourceapp.app&utm_source=flashcards_website&utm_medium=referral&utm_campaign=marketing_site";
 
 const APP_STORE_IMAGE: PlatformImage = {
   alt: "Official App Store badge",
@@ -56,12 +59,14 @@ export function getHumanPlatforms(
       image: APP_STORE_IMAGE,
       kind: "active",
       label: uiCopy.platforms.appStore,
+      storeAnalyticsPlatform: "ios",
     },
     {
       href: GOOGLE_PLAY_URL,
       image: GOOGLE_PLAY_IMAGE,
       kind: "active",
       label: uiCopy.platforms.googlePlay,
+      storeAnalyticsPlatform: "android",
     },
     {
       href: webEntryHref,

@@ -159,8 +159,8 @@ Esta es la parte que más me gusta de esta configuración. La tarjeta no se qued
 Puedes abrir la app web alojada, comprobar la tarjeta en el móvil o seguir con tu flujo normal de estudio:
 
 - [App web de Flashcards](https://app.flashcards-open-source-app.com/)
-- [Flashcards para iPhone y iPad en la App Store](https://apps.apple.com/app/flashcards-open-source-app/id6760538964)
-- [Flashcards para Android en Google Play](https://play.google.com/store/apps/details?id=com.flashcardsopensourceapp.app&pcampaignid=web_share)
+- [Flashcards para iPhone y iPad en la App Store](https://apps.apple.com/app/apple-store/id6760538964?pt=128797295&ct=marketing_site&mt=8)
+- [Flashcards para Android en Google Play](https://play.google.com/store/apps/details?id=com.flashcardsopensourceapp.app&utm_source=flashcards_website&utm_medium=referral&utm_campaign=marketing_site)
 
 ![Experiencia de repaso de Flashcards Open Source App en la app web alojada y en las apps móviles](/home/app-screens-showcase-en.png)
 
