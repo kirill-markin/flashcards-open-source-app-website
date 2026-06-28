@@ -10,6 +10,28 @@
   border-radius: var(--radius-lg);
 }
 
+.sideCta {
+  gap: 12px;
+  margin: 0;
+  padding: 16px;
+  border: 1px solid var(--border);
+}
+
+.sideCta .image {
+  max-width: 100%;
+  border-radius: var(--radius-sm);
+}
+
+.sideCta .heading {
+  font-size: 15px;
+  line-height: 1.3;
+}
+
+.sideCta .button {
+  min-height: 38px;
+  padding-inline: 18px;
+}
+
 .image {
   width: 100%;
   max-width: 420px;

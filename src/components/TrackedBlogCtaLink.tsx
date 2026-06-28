@@ -4,7 +4,10 @@ import { track } from "@vercel/analytics";
 import Link from "next/link";
 import type { AppLocale } from "@/lib/i18n";
 
-export type BlogCtaPlacement = "mid_article" | "article_end";
+export type BlogCtaPlacement =
+  | "article_start_side"
+  | "mid_article"
+  | "article_end";
 
 interface TrackedBlogCtaLinkProps {
   readonly className: string;
