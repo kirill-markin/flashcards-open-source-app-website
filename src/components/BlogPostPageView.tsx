@@ -154,14 +154,16 @@ export async function BlogPostPageView({
           <section className={styles.contentPanel}>
             {chunks.map((chunkHtml, index) => (
               <Fragment key={index}>
-                {index === midInsertIndex && <BlogCta locale={locale} />}
+                {index === midInsertIndex && (
+                  <BlogCta locale={locale} placement="mid_article" />
+                )}
                 <div
                   className={styles.content}
                   dangerouslySetInnerHTML={{ __html: chunkHtml }}
                 />
               </Fragment>
             ))}
-            <BlogCta locale={locale} />
+            <BlogCta locale={locale} placement="article_end" />
           </section>
         </div>
         {recommendedPosts.length > 0 ? (
