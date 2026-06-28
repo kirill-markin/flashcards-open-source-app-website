@@ -95,6 +95,11 @@ interface AppUiCopy {
   readonly locale: {
     readonly switcherAriaLabel: string;
   };
+  readonly localeSuggestion: {
+    readonly actionLabel: string;
+    readonly dismissLabel: string;
+    readonly message: string;
+  };
   readonly menuToggleLabel: string;
   readonly navigation: {
     readonly blog: string;
@@ -212,6 +217,11 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     locale: {
       switcherAriaLabel: "Language switcher",
     },
+    localeSuggestion: {
+      actionLabel: "Open the English version",
+      dismissLabel: "Close language suggestion",
+      message: "This page is available in English.",
+    },
     menuToggleLabel: "Toggle menu",
     navigation: {
       blog: "Blog",
@@ -326,6 +336,11 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     },
     locale: {
       switcherAriaLabel: "Selector de idioma",
+    },
+    localeSuggestion: {
+      actionLabel: "Abrir la versión en español",
+      dismissLabel: "Cerrar sugerencia de idioma",
+      message: "Esta página está disponible en español.",
     },
     menuToggleLabel: "Abrir menú",
     navigation: {
@@ -442,6 +457,11 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     locale: {
       switcherAriaLabel: "مبدّل اللغة",
     },
+    localeSuggestion: {
+      actionLabel: "افتح النسخة العربية",
+      dismissLabel: "إغلاق اقتراح اللغة",
+      message: "هذه الصفحة متوفرة بالعربية.",
+    },
     menuToggleLabel: "تبديل القائمة",
     navigation: {
       blog: "المدونة",
@@ -556,6 +576,11 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     },
     locale: {
       switcherAriaLabel: "Sprachauswahl",
+    },
+    localeSuggestion: {
+      actionLabel: "Deutsche Version öffnen",
+      dismissLabel: "Sprachvorschlag schließen",
+      message: "Diese Seite ist auf Deutsch verfügbar.",
     },
     menuToggleLabel: "Menü umschalten",
     navigation: {
@@ -672,6 +697,11 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     locale: {
       switcherAriaLabel: "भाषा चयन",
     },
+    localeSuggestion: {
+      actionLabel: "हिन्दी संस्करण खोलें",
+      dismissLabel: "भाषा सुझाव बंद करें",
+      message: "यह पेज हिन्दी में उपलब्ध है।",
+    },
     menuToggleLabel: "मेनू खोलें",
     navigation: {
       blog: "ब्लॉग",
@@ -786,6 +816,11 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     },
     locale: {
       switcherAriaLabel: "言語切替",
+    },
+    localeSuggestion: {
+      actionLabel: "日本語版を開く",
+      dismissLabel: "言語の提案を閉じる",
+      message: "このページは日本語で利用できます。",
     },
     menuToggleLabel: "メニューを切り替える",
     navigation: {
@@ -902,6 +937,11 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     locale: {
       switcherAriaLabel: "Переключатель языка",
     },
+    localeSuggestion: {
+      actionLabel: "Открыть русскую версию",
+      dismissLabel: "Закрыть предложение языка",
+      message: "Эта страница доступна на русском.",
+    },
     menuToggleLabel: "Открыть меню",
     navigation: {
       blog: "Блог",
@@ -1015,6 +1055,11 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     },
     locale: {
       switcherAriaLabel: "语言切换",
+    },
+    localeSuggestion: {
+      actionLabel: "打开简体中文版",
+      dismissLabel: "关闭语言建议",
+      message: "此页面有简体中文版本。",
     },
     menuToggleLabel: "切换菜单",
     navigation: {
