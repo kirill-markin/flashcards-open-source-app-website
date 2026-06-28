@@ -14,20 +14,30 @@ interface BlogCtaProps {
   readonly placement: BlogCtaPlacement;
 }
 
-export function BlogCta({
+interface BlogCtaContentProps {
+  readonly imageSizes: string;
+  readonly locale: AppLocale;
+  readonly placement: BlogCtaPlacement;
+  readonly rootClassName: string;
+}
+
+function BlogCtaContent({
+  imageSizes,
   locale,
   placement,
-}: BlogCtaProps): React.JSX.Element {
+  rootClassName,
+}: BlogCtaContentProps): React.JSX.Element {
   const uiCopy = getUiCopy(locale);
   const homeHref = getLocalizedPathname(locale, "/");
+
   return (
-    <aside className={styles.cta}>
+    <aside className={rootClassName}>
       <Image
         src={getHomeShowcaseImagePath(locale)}
         alt={uiCopy.home.appPreviewAlt}
         width={7140}
         height={3018}
-        sizes="(max-width: 768px) 90vw, 420px"
+        sizes={imageSizes}
         className={styles.image}
       />
       <p className={styles.heading}>{uiCopy.cta.heading}</p>
@@ -39,5 +49,32 @@ export function BlogCta({
         placement={placement}
       />
     </aside>
+  );
+}
+
+export function BlogCta({
+  locale,
+  placement,
+}: BlogCtaProps): React.JSX.Element {
+  return (
+    <BlogCtaContent
+      imageSizes="(max-width: 768px) 90vw, 420px"
+      locale={locale}
+      placement={placement}
+      rootClassName={styles.cta}
+    />
+  );
+}
+
+export function BlogStartSideCta({
+  locale,
+}: Pick<BlogCtaProps, "locale">): React.JSX.Element {
+  return (
+    <BlogCtaContent
+      imageSizes="240px"
+      locale={locale}
+      placement="article_start_side"
+      rootClassName={`${styles.cta} ${styles.sideCta}`}
+    />
   );
 }
