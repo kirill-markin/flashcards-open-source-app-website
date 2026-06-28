@@ -33,6 +33,12 @@ export const APP_STORE_URL =
 export const GOOGLE_PLAY_URL =
   "https://play.google.com/store/apps/details?id=com.flashcardsopensourceapp.app&utm_source=flashcards_website&utm_medium=referral&utm_campaign=marketing_site";
 
+export const CANONICAL_APP_STORE_URL =
+  "https://apps.apple.com/us/app/flashcards-open-source-app/id6760538964";
+
+export const CANONICAL_GOOGLE_PLAY_URL =
+  "https://play.google.com/store/apps/details?id=com.flashcardsopensourceapp.app";
+
 const APP_STORE_IMAGE: PlatformImage = {
   alt: "Official App Store badge",
   height: 40,
