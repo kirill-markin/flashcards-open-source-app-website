@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { AuthButton } from "@/components/AuthButton";
+import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { CopyCodeField } from "@/components/CopyCodeField";
 import { HumanPlatformLinks } from "@/components/HumanPlatformLinks";
 import { PublicActivitySection } from "@/components/PublicActivitySection";
@@ -14,12 +15,12 @@ import type {
   PageSection,
   PricingTiersSection,
 } from "@/lib/content/types";
-import type { AppLocale } from "@/lib/i18n";
 import {
   readGeneratedGlobalActivitySnapshot,
   type GlobalActivitySnapshot,
 } from "@/lib/globalActivitySnapshot";
 import { getHomeShowcaseImagePath } from "@/lib/homeShowcaseImage";
+import { getLocalizedPathname, type AppLocale } from "@/lib/i18n";
 import { getUiCopy } from "@/lib/uiCopy";
 import homeStyles from "@/app/page.module.css";
 import featureStyles from "@/app/features/page.module.css";
@@ -37,6 +38,28 @@ function getMarketingRoutePathname(slug: MarketingPageSlug): string {
   }
 
   return `/${slug}/`;
+}
+
+function renderMarketingBreadcrumbs(
+  locale: AppLocale,
+  slug: MarketingPageSlug,
+  title: string
+): React.ReactNode {
+  if (slug === "home") {
+    return null;
+  }
+
+  return (
+    <Breadcrumbs
+      locale={locale}
+      items={[
+        {
+          label: title,
+          href: getLocalizedPathname(locale, getMarketingRoutePathname(slug)),
+        },
+      ]}
+    />
+  );
 }
 
 function getSectionByType<TSectionType extends PageSection["type"]>(
@@ -147,12 +170,14 @@ function renderHomePage(
 
 function renderFeaturesPage(
   title: string,
+  breadcrumb: React.ReactNode,
   featureSection: FeatureListSection
 ): React.JSX.Element {
   return (
     <div className={featureStyles.container}>
       <div className={featureStyles.pagePanel}>
         <header className={featureStyles.intro}>
+          {breadcrumb}
           <h1 className={featureStyles.title}>{title}</h1>
           <p className={featureStyles.subtitle}>{featureSection.intro}</p>
         </header>
@@ -174,6 +199,7 @@ function renderFeaturesPage(
 function renderPricingPage(
   locale: AppLocale,
   title: string,
+  breadcrumb: React.ReactNode,
   pricingSection: PricingTiersSection
 ): React.JSX.Element {
   const selfHostedTier = pricingSection.tiers[0];
@@ -187,6 +213,7 @@ function renderPricingPage(
     <div className={pricingStyles.container}>
       <div className={pricingStyles.pagePanel}>
         <header className={pricingStyles.intro}>
+          {breadcrumb}
           <h1 className={pricingStyles.title}>{title}</h1>
           <p className={pricingStyles.subtitle}>{pricingSection.intro}</p>
         </header>
@@ -233,6 +260,7 @@ function renderPricingPage(
 async function renderLegalPage(
   locale: AppLocale,
   title: string,
+  breadcrumb: React.ReactNode,
   body: string,
   legalSection: LegalPageSection
 ): Promise<React.JSX.Element> {
@@ -243,6 +271,7 @@ async function renderLegalPage(
     <div className={legalStyles.container}>
       <div className={legalStyles.pagePanel}>
         <header className={legalStyles.intro}>
+          {breadcrumb}
           <h1 className={legalStyles.title}>{title}</h1>
         </header>
         <section className={legalStyles.contentPanel}>
@@ -265,6 +294,7 @@ export async function MarketingPageView({
 }: MarketingPageViewProps): Promise<React.JSX.Element> {
   const pageContent = readPageContent(slug, locale);
   const routePathname = getMarketingRoutePathname(slug);
+  const breadcrumb = renderMarketingBreadcrumbs(locale, slug, pageContent.title);
 
   let page: React.JSX.Element;
 
@@ -280,6 +310,7 @@ export async function MarketingPageView({
     case "features":
       page = renderFeaturesPage(
         pageContent.title,
+        breadcrumb,
         getSectionByType(pageContent.sections, "feature_list")
       );
       break;
@@ -287,6 +318,7 @@ export async function MarketingPageView({
       page = renderPricingPage(
         locale,
         pageContent.title,
+        breadcrumb,
         getSectionByType(pageContent.sections, "pricing_tiers")
       );
       break;
@@ -296,6 +328,7 @@ export async function MarketingPageView({
       page = await renderLegalPage(
         locale,
         pageContent.title,
+        breadcrumb,
         pageContent.body,
         getSectionByType(pageContent.sections, "legal_page")
       );
