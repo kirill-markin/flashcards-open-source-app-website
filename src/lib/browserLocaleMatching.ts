@@ -63,10 +63,10 @@ function getMatchedLocale(canonicalLanguage: string): AppLocale | null {
   return null;
 }
 
-export function getBrowserMatchedLocale(
+function getBrowserLocaleMatch(
   browserLanguages: ReadonlyArray<string>,
   availableLocales: ReadonlyArray<AppLocale>,
-  currentLocale: AppLocale
+  excludedLocale: AppLocale | null
 ): AppLocale | null {
   const availableLocaleSet: ReadonlySet<AppLocale> = new Set<AppLocale>(
     availableLocales
@@ -83,7 +83,7 @@ export function getBrowserMatchedLocale(
 
     if (
       matchedLocale !== null &&
-      matchedLocale !== currentLocale &&
+      matchedLocale !== excludedLocale &&
       availableLocaleSet.has(matchedLocale)
     ) {
       return matchedLocale;
@@ -91,4 +91,19 @@ export function getBrowserMatchedLocale(
   }
 
   return null;
+}
+
+export function getBrowserPreferredLocale(
+  browserLanguages: ReadonlyArray<string>,
+  availableLocales: ReadonlyArray<AppLocale>
+): AppLocale | null {
+  return getBrowserLocaleMatch(browserLanguages, availableLocales, null);
+}
+
+export function getBrowserMatchedLocale(
+  browserLanguages: ReadonlyArray<string>,
+  availableLocales: ReadonlyArray<AppLocale>,
+  currentLocale: AppLocale
+): AppLocale | null {
+  return getBrowserLocaleMatch(browserLanguages, availableLocales, currentLocale);
 }
