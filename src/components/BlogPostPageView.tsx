@@ -1,6 +1,6 @@
 import { Fragment } from "react";
 import Link from "next/link";
-import { BlogCta } from "@/components/BlogCta";
+import { BlogCta, BlogStartSideCta } from "@/components/BlogCta";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { SiteFrame } from "@/components/SiteFrame";
 import { getArticleHtmlSegments } from "@/lib/content/getArticleHtmlSegments";
@@ -105,6 +105,9 @@ export async function BlogPostPageView({
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
         />
+        <div className={styles.startCtaRail}>
+          <BlogStartSideCta locale={locale} />
+        </div>
         <div className={styles.articlePanel}>
           <header className={styles.intro}>
             <Breadcrumbs
