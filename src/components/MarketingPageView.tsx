@@ -77,7 +77,7 @@ function renderHomePage(
           </h1>
           <p className={homeStyles.subtitle}>{heroSection.subtitle}</p>
           <div className={homeStyles.cta}>
-            <AuthButton locale={locale} />
+            <AuthButton locale={locale} placement="home_hero" />
           </div>
         </div>
         <div className={homeStyles.heroHint}>
@@ -220,7 +220,7 @@ function renderPricingPage(
                 ))}
               </ul>
               <div className={pricingStyles.ctaWrapper}>
-                <AuthButton locale={locale} />
+                <AuthButton locale={locale} placement="pricing" />
               </div>
             </div>
           </div>
