@@ -12,6 +12,7 @@ import {
 import { renderMarkdownToHtml } from "@/lib/content/renderMarkdownToHtml";
 import type { AppLocale } from "@/lib/i18n";
 import { getAbsoluteUrl, getLocalizedPathname } from "@/lib/i18n";
+import { getExternalLinkAttributes } from "@/lib/linkTargets";
 import { localizeInternalLinks } from "@/lib/localizeInternalLinks";
 import {
   CREATOR_ENTITY,
@@ -97,6 +98,11 @@ export async function BlogPostPageView({
     localizeInternalLinks(post.bodyMarkdown, locale)
   );
   const { chunks, midInsertIndex } = getArticleHtmlSegments(localizedContentHtml);
+  const authorLinkAttributes = getExternalLinkAttributes(STRUCTURED_DATA_AUTHOR_URL);
+  const authorLinkRel =
+    authorLinkAttributes.rel === undefined
+      ? "author"
+      : `author ${authorLinkAttributes.rel}`;
 
   return (
     <SiteFrame locale={locale} routePathname={`/blog/${slug}/`}>
@@ -129,7 +135,11 @@ export async function BlogPostPageView({
               </time>
               <p className={styles.byline}>
                 <span>{uiCopy.blog.byPrefix} </span>
-                <a href={STRUCTURED_DATA_AUTHOR_URL} rel="author">
+                <a
+                  href={STRUCTURED_DATA_AUTHOR_URL}
+                  {...authorLinkAttributes}
+                  rel={authorLinkRel}
+                >
                   {STRUCTURED_DATA_AUTHOR_NAME}
                 </a>
               </p>
