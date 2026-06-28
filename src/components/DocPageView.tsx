@@ -5,24 +5,14 @@ import { readDoc } from "@/lib/docs";
 import type { AppLocale } from "@/lib/i18n";
 import { getAbsoluteUrl, getLocalizedPathname } from "@/lib/i18n";
 import { localizeInternalLinks } from "@/lib/localizeInternalLinks";
-import { SITE_NAME } from "@/lib/site";
+import {
+  CREATOR_ENTITY,
+  CREATOR_REFERENCE,
+  type PersonStructuredData,
+  type StructuredDataEntityReference,
+} from "@/lib/seo/structuredData";
 import { getUiCopy } from "@/lib/uiCopy";
 import styles from "@/app/docs/[slug]/page.module.css";
-
-const AUTHOR_NAME = "Kirill Markin";
-const AUTHOR_URL = "https://kirill-markin.com/";
-
-interface ArticleAuthor {
-  readonly "@type": "Person";
-  readonly name: string;
-  readonly url: string;
-}
-
-interface ArticlePublisher {
-  readonly "@type": "Organization";
-  readonly name: string;
-  readonly url: string;
-}
 
 interface ArticleMainEntityOfPage {
   readonly "@type": "WebPage";
@@ -32,20 +22,14 @@ interface ArticleMainEntityOfPage {
 interface TechArticleSchema {
   readonly "@context": "https://schema.org";
   readonly "@type": "TechArticle";
-  readonly author: ArticleAuthor;
+  readonly author: PersonStructuredData;
   readonly description: string;
   readonly headline: string;
   readonly inLanguage: AppLocale;
   readonly mainEntityOfPage: ArticleMainEntityOfPage;
-  readonly publisher: ArticlePublisher;
+  readonly publisher: StructuredDataEntityReference;
   readonly url: string;
 }
-
-const ARTICLE_AUTHOR: ArticleAuthor = {
-  "@type": "Person",
-  name: AUTHOR_NAME,
-  url: AUTHOR_URL,
-};
 
 interface DocPageViewProps {
   readonly locale: AppLocale;
@@ -91,12 +75,8 @@ export async function DocPageView({
       "@id": articleUrl,
     },
     url: articleUrl,
-    author: ARTICLE_AUTHOR,
-    publisher: {
-      "@type": "Organization",
-      name: SITE_NAME,
-      url: getAbsoluteUrl("/"),
-    },
+    author: CREATOR_ENTITY,
+    publisher: CREATOR_REFERENCE,
   };
 
   return (
