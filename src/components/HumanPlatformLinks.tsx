@@ -9,6 +9,7 @@ import {
 import { getAppUrl, getLoginUrl } from "@/lib/auth";
 import type { AppLocale } from "@/lib/i18n";
 import { getLocalizedPathname } from "@/lib/i18n";
+import { getExternalLinkAttributes } from "@/lib/linkTargets";
 import { useLoggedInCookie } from "@/lib/useLoggedInCookie";
 import styles from "./HumanPlatformLinks.module.css";
 
@@ -58,11 +59,13 @@ export const HumanPlatformLinks: React.FC<HumanPlatformLinksProps> = ({
       {platforms.map((platform) => {
         if (platform.kind === "active") {
           const storeAnalyticsPlatform = platform.storeAnalyticsPlatform;
+          const externalLinkAttributes = getExternalLinkAttributes(platform.href);
 
           return (
             <a
               key={platform.label}
               href={platform.href}
+              {...externalLinkAttributes}
               className={styles.platformLink}
               aria-label={platform.label}
               onClick={

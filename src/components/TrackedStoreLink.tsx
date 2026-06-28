@@ -2,6 +2,7 @@
 
 import { track } from "@vercel/analytics";
 import type { StoreAnalyticsPlatform } from "@/lib/humanPlatforms";
+import { getExternalLinkAttributes } from "@/lib/linkTargets";
 
 const STORE_LINK_PLACEMENT = "footer";
 
@@ -26,8 +27,7 @@ export const TrackedStoreLink: React.FC<TrackedStoreLinkProps> = ({
   return (
     <a
       href={href}
-      target="_blank"
-      rel="noopener noreferrer"
+      {...getExternalLinkAttributes(href)}
       onClick={trackStoreLinkClick}
     >
       {label}
