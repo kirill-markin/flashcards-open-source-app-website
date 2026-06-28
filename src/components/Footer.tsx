@@ -3,6 +3,7 @@ import { LocaleSwitcher } from "@/components/LocaleSwitcher";
 import { getAppUrl } from "@/lib/auth";
 import type { AppLocale } from "@/lib/i18n";
 import { getHumanPlatforms } from "@/lib/humanPlatforms";
+import { getExternalLinkAttributes } from "@/lib/linkTargets";
 import { getAvailableLocalizedPathname } from "@/lib/routeTranslations";
 import { getUiCopy } from "@/lib/uiCopy";
 import { TrackedStoreLink } from "./TrackedStoreLink";
@@ -20,6 +21,8 @@ export const Footer: React.FC<FooterProps> = ({
   const year = new Date().getFullYear();
   const platforms = getHumanPlatforms(getAppUrl(), locale);
   const uiCopy = getUiCopy(locale);
+  const sourceCodeHref = "https://github.com/kirill-markin/flashcards-open-source-app";
+  const sourceCodeLinkAttributes = getExternalLinkAttributes(sourceCodeHref);
   const productLinks = [
     {
       href: getAvailableLocalizedPathname(locale, "/features/"),
@@ -54,9 +57,8 @@ export const Footer: React.FC<FooterProps> = ({
           <div className={styles.column}>
             <h3>{uiCopy.footer.openSourceHeading}</h3>
             <a
-              href="https://github.com/kirill-markin/flashcards-open-source-app"
-              target="_blank"
-              rel="noopener noreferrer"
+              href={sourceCodeHref}
+              {...sourceCodeLinkAttributes}
             >
               GitHub
             </a>
@@ -85,8 +87,7 @@ export const Footer: React.FC<FooterProps> = ({
                   <a
                     key={platform.label}
                     href={platform.href}
-                    target="_blank"
-                    rel="noopener noreferrer"
+                    {...getExternalLinkAttributes(platform.href)}
                   >
                     {platform.label}
                   </a>

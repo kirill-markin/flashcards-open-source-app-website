@@ -21,6 +21,7 @@ import {
 } from "@/lib/globalActivitySnapshot";
 import { getHomeShowcaseImagePath } from "@/lib/homeShowcaseImage";
 import { getLocalizedPathname, type AppLocale } from "@/lib/i18n";
+import { getExternalLinkAttributes } from "@/lib/linkTargets";
 import { getUiCopy } from "@/lib/uiCopy";
 import homeStyles from "@/app/page.module.css";
 import featureStyles from "@/app/features/page.module.css";
@@ -230,8 +231,7 @@ function renderPricingPage(
               </ul>
               <a
                 href={selfHostedTier.cta.href}
-                target="_blank"
-                rel="noopener noreferrer"
+                {...getExternalLinkAttributes(selfHostedTier.cta.href)}
                 className={pricingStyles.secondaryButton}
               >
                 {selfHostedTier.cta.label}

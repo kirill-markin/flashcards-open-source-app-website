@@ -6,6 +6,7 @@ import {
   type GlobalActivitySnapshot,
   type GlobalActivitySnapshotDay,
 } from "@/lib/globalActivitySnapshot";
+import { getExternalLinkAttributes } from "@/lib/linkTargets";
 import { getUiCopy } from "@/lib/uiCopy";
 import styles from "./PublicActivitySection.module.css";
 
@@ -948,8 +949,7 @@ export function PublicActivitySection({
   const sourceLink = (
     <a
       href={globalActivitySnapshotUrl}
-      target="_blank"
-      rel="noopener noreferrer"
+      {...getExternalLinkAttributes(globalActivitySnapshotUrl)}
       className={styles.sourceLink}
     >
       {activityCopy.sourceLabel}

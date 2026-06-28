@@ -6,6 +6,7 @@ import {
 } from "@/lib/globalActivitySnapshot";
 import type { AppLocale } from "@/lib/i18n";
 import { DASHBOARDS_ROUTE_PATHNAME } from "@/lib/dashboardsPage";
+import { getExternalLinkAttributes } from "@/lib/linkTargets";
 import { getUiCopy } from "@/lib/uiCopy";
 import styles from "@/app/dashboards/page.module.css";
 
@@ -30,8 +31,7 @@ export function DashboardsPageView({
           </div>
           <a
             href={globalActivitySnapshotUrl}
-            target="_blank"
-            rel="noopener noreferrer"
+            {...getExternalLinkAttributes(globalActivitySnapshotUrl)}
             className={styles.sourceLink}
           >
             {activityCopy.sourceLabel}
