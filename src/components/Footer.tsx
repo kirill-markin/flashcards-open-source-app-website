@@ -5,6 +5,7 @@ import type { AppLocale } from "@/lib/i18n";
 import { getHumanPlatforms } from "@/lib/humanPlatforms";
 import { getAvailableLocalizedPathname } from "@/lib/routeTranslations";
 import { getUiCopy } from "@/lib/uiCopy";
+import { TrackedStoreLink } from "./TrackedStoreLink";
 import styles from "./Footer.module.css";
 
 interface FooterProps {
@@ -69,6 +70,17 @@ export const Footer: React.FC<FooterProps> = ({
             <h3>{uiCopy.footer.appsHeading}</h3>
             {platforms.map((platform) => {
               if (platform.kind === "active") {
+                if (platform.storeAnalyticsPlatform) {
+                  return (
+                    <TrackedStoreLink
+                      key={platform.label}
+                      href={platform.href}
+                      label={platform.label}
+                      platform={platform.storeAnalyticsPlatform}
+                    />
+                  );
+                }
+
                 return (
                   <a
                     key={platform.label}
