@@ -1,5 +1,8 @@
 import Image from "next/image";
-import Link from "next/link";
+import {
+  TrackedBlogCtaLink,
+  type BlogCtaPlacement,
+} from "@/components/TrackedBlogCtaLink";
 import { getLocalizedPathname } from "@/lib/i18n";
 import type { AppLocale } from "@/lib/i18n";
 import { getHomeShowcaseImagePath } from "@/lib/homeShowcaseImage";
@@ -8,9 +11,13 @@ import styles from "./BlogCta.module.css";
 
 interface BlogCtaProps {
   readonly locale: AppLocale;
+  readonly placement: BlogCtaPlacement;
 }
 
-export function BlogCta({ locale }: BlogCtaProps) {
+export function BlogCta({
+  locale,
+  placement,
+}: BlogCtaProps): React.JSX.Element {
   const uiCopy = getUiCopy(locale);
   const homeHref = getLocalizedPathname(locale, "/");
   return (
@@ -24,9 +31,13 @@ export function BlogCta({ locale }: BlogCtaProps) {
         className={styles.image}
       />
       <p className={styles.heading}>{uiCopy.cta.heading}</p>
-      <Link href={homeHref} className={styles.button}>
-        {uiCopy.cta.buttonLabel}
-      </Link>
+      <TrackedBlogCtaLink
+        href={homeHref}
+        label={uiCopy.cta.buttonLabel}
+        className={styles.button}
+        locale={locale}
+        placement={placement}
+      />
     </aside>
   );
 }
