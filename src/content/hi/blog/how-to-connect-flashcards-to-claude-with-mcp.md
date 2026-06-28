@@ -161,8 +161,8 @@ Claude, Flashcards के अंदर cards बनाने में मदद
 आप hosted web app खोल सकते हैं, mobile पर card check कर सकते हैं, या अपने सामान्य study flow में आगे बढ़ सकते हैं:
 
 - [Flashcards web app](https://app.flashcards-open-source-app.com/)
-- [App Store पर iPhone और iPad के लिए Flashcards](https://apps.apple.com/app/flashcards-open-source-app/id6760538964)
-- [Google Play पर Android के लिए Flashcards](https://play.google.com/store/apps/details?id=com.flashcardsopensourceapp.app&pcampaignid=web_share)
+- [App Store पर iPhone और iPad के लिए Flashcards](https://apps.apple.com/app/apple-store/id6760538964?pt=128797295&ct=marketing_site&mt=8)
+- [Google Play पर Android के लिए Flashcards](https://play.google.com/store/apps/details?id=com.flashcardsopensourceapp.app&utm_source=flashcards_website&utm_medium=referral&utm_campaign=marketing_site)
 
 ![Flashcards Open Source App का review अनुभव, hosted web app और mobile apps के across](/home/app-screens-showcase-en.png)
 

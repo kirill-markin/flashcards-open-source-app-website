@@ -38,6 +38,7 @@ Marketing website for Flashcards Open Source App. Static Next.js site deployed o
 - Narrow runtime negotiation layer: keep the proxy only for `.md` URLs, `Accept: text/markdown`, `Vary: Accept`, `Link rel="alternate"`, and existing host-level redirects; never use it for HTML rendering or personalization.
 - Static Markdown and LLM assets: `.md` URLs and `Accept: text/markdown` are required public interfaces; generate Markdown and `llms.txt` at build time whenever possible and use the runtime proxy only to route to those prebuilt assets.
 - Shrink client islands over time instead of adding SSR; prefer server-rendered shells with small client islands for auth buttons and mobile navigation.
+- Marketing attribution links and campaign naming rules live in [docs/marketing-links.md](docs/marketing-links.md).
 
 ## Project Structure
 
