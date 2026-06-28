@@ -52,11 +52,6 @@ export function getHumanPlatforms(
 
   return [
     {
-      href: webEntryHref,
-      kind: "active",
-      label: uiCopy.platforms.webApp,
-    },
-    {
       href: APP_STORE_URL,
       image: APP_STORE_IMAGE,
       kind: "active",
@@ -67,6 +62,11 @@ export function getHumanPlatforms(
       image: GOOGLE_PLAY_IMAGE,
       kind: "active",
       label: uiCopy.platforms.googlePlay,
+    },
+    {
+      href: webEntryHref,
+      kind: "active",
+      label: uiCopy.platforms.webApp,
     },
   ];
 }
