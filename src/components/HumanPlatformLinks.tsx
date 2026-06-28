@@ -1,12 +1,25 @@
 "use client";
 
+import { track } from "@vercel/analytics";
 import Image from "next/image";
-import { getHumanPlatforms } from "@/lib/humanPlatforms";
+import {
+  getHumanPlatforms,
+  type StoreAnalyticsPlatform,
+} from "@/lib/humanPlatforms";
 import { getAppUrl, getLoginUrl } from "@/lib/auth";
 import type { AppLocale } from "@/lib/i18n";
 import { getLocalizedPathname } from "@/lib/i18n";
 import { useLoggedInCookie } from "@/lib/useLoggedInCookie";
 import styles from "./HumanPlatformLinks.module.css";
+
+const STORE_LINK_PLACEMENT = "home_human_access";
+
+function trackStoreLinkClick(platform: StoreAnalyticsPlatform): void {
+  track("store_link_click", {
+    platform,
+    placement: STORE_LINK_PLACEMENT,
+  });
+}
 
 function WebIcon() {
   return (
@@ -44,12 +57,21 @@ export const HumanPlatformLinks: React.FC<HumanPlatformLinksProps> = ({
     <div className={styles.platformList}>
       {platforms.map((platform) => {
         if (platform.kind === "active") {
+          const storeAnalyticsPlatform = platform.storeAnalyticsPlatform;
+
           return (
             <a
               key={platform.label}
               href={platform.href}
               className={styles.platformLink}
               aria-label={platform.label}
+              onClick={
+                storeAnalyticsPlatform
+                  ? () => {
+                      trackStoreLinkClick(storeAnalyticsPlatform);
+                    }
+                  : undefined
+              }
             >
               {platform.image ? (
                 <Image

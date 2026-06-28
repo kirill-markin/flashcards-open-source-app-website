@@ -160,8 +160,8 @@ keywords:
 يمكنك فتح تطبيق الويب المستضاف، أو فحص البطاقة على الهاتف، أو ببساطة أن تتابع ضمن سير دراستك المعتاد:
 
 - [تطبيق Flashcards على الويب](https://app.flashcards-open-source-app.com/)
-- [Flashcards لأجهزة iPhone وiPad على App Store](https://apps.apple.com/app/flashcards-open-source-app/id6760538964)
-- [Flashcards لأجهزة Android على Google Play](https://play.google.com/store/apps/details?id=com.flashcardsopensourceapp.app&pcampaignid=web_share)
+- [Flashcards لأجهزة iPhone وiPad على App Store](https://apps.apple.com/app/apple-store/id6760538964?pt=128797295&ct=marketing_site&mt=8)
+- [Flashcards لأجهزة Android على Google Play](https://play.google.com/store/apps/details?id=com.flashcardsopensourceapp.app&utm_source=flashcards_website&utm_medium=referral&utm_campaign=marketing_site)
 
 ![تجربة المراجعة في Flashcards Open Source App عبر تطبيق الويب المستضاف وتطبيقات الهاتف](/home/app-screens-showcase-en.png)
 

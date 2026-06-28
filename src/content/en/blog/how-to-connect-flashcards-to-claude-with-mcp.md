@@ -159,8 +159,8 @@ This is the part I like most about the setup. The card does not stay in a nice-l
 You can open the hosted web app, check the card on mobile, or keep going in your normal study flow:
 
 - [Flashcards web app](https://app.flashcards-open-source-app.com/)
-- [Flashcards for iPhone and iPad on the App Store](https://apps.apple.com/app/flashcards-open-source-app/id6760538964)
-- [Flashcards for Android on Google Play](https://play.google.com/store/apps/details?id=com.flashcardsopensourceapp.app&pcampaignid=web_share)
+- [Flashcards for iPhone and iPad on the App Store](https://apps.apple.com/app/apple-store/id6760538964?pt=128797295&ct=marketing_site&mt=8)
+- [Flashcards for Android on Google Play](https://play.google.com/store/apps/details?id=com.flashcardsopensourceapp.app&utm_source=flashcards_website&utm_medium=referral&utm_campaign=marketing_site)
 
 ![Flashcards Open Source App review experience across the hosted web app and mobile apps](/home/app-screens-showcase-en.png)
 
