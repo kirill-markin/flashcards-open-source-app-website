@@ -71,7 +71,7 @@ export function BlogStartSideCta({
 }: Pick<BlogCtaProps, "locale">): React.JSX.Element {
   return (
     <BlogCtaContent
-      imageSizes="240px"
+      imageSizes="220px"
       locale={locale}
       placement="article_start_side"
       rootClassName={`${styles.cta} ${styles.sideCta}`}
