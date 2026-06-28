@@ -2,6 +2,7 @@ import { TRANSLATED_ROUTE_PATHNAMES_BY_LOCALE } from "@/data/contentRegistry";
 import {
   DEFAULT_LOCALE,
   SUPPORTED_LOCALES,
+  getLocaleNativeName,
   getLocaleShortLabel,
   type AppLocale,
 } from "@/lib/localeConfig";
@@ -16,6 +17,12 @@ interface LocaleSwitcherEntry {
   readonly available: boolean;
   readonly href: string;
   readonly label: string;
+  readonly locale: AppLocale;
+}
+
+export interface LocaleSuggestionTarget {
+  readonly href: string;
+  readonly languageName: string;
   readonly locale: AppLocale;
 }
 
@@ -57,6 +64,19 @@ export function getAvailableLocalizedPathname(
   }
 
   return getLocalizedPathname(DEFAULT_LOCALE, routePathname);
+}
+
+export function getLocaleSuggestionTargets(
+  routePathname: string,
+  currentLocale: AppLocale
+): ReadonlyArray<LocaleSuggestionTarget> {
+  return getRouteLocales(routePathname)
+    .filter((locale) => locale !== currentLocale)
+    .map((locale) => ({
+      href: getLocalizedPathname(locale, routePathname),
+      languageName: getLocaleNativeName(locale),
+      locale,
+    }));
 }
 
 export function getLanguageAlternates(
