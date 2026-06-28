@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Source_Serif_4 } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next";
 import { readPageContent } from "@/lib/content/readPageContent";
 import { getLanguageAlternates } from "@/lib/routeTranslations";
 import {
@@ -65,7 +66,10 @@ export function RootDocument({
       dir={getLocaleDirection(lang)}
       className={sourceSerif.variable}
     >
-      <body>{children}</body>
+      <body>
+        {children}
+        <Analytics />
+      </body>
     </html>
   );
 }
