@@ -3,7 +3,7 @@ import {
   TrackedBlogCtaLink,
   type BlogCtaPlacement,
 } from "@/components/TrackedBlogCtaLink";
-import { getLocalizedPathname } from "@/lib/i18n";
+import { getSignupUrl } from "@/lib/auth";
 import type { AppLocale } from "@/lib/i18n";
 import { getHomeShowcaseImagePath } from "@/lib/homeShowcaseImage";
 import { getUiCopy } from "@/lib/uiCopy";
@@ -28,7 +28,6 @@ function BlogCtaContent({
   rootClassName,
 }: BlogCtaContentProps): React.JSX.Element {
   const uiCopy = getUiCopy(locale);
-  const homeHref = getLocalizedPathname(locale, "/");
 
   return (
     <aside className={rootClassName}>
@@ -42,7 +41,7 @@ function BlogCtaContent({
       />
       <p className={styles.heading}>{uiCopy.cta.heading}</p>
       <TrackedBlogCtaLink
-        href={homeHref}
+        href={getSignupUrl()}
         label={uiCopy.cta.buttonLabel}
         className={styles.button}
         locale={locale}

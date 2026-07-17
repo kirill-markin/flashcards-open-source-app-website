@@ -1,8 +1,8 @@
 "use client";
 
 import { track } from "@vercel/analytics";
-import Link from "next/link";
 import type { AppLocale } from "@/lib/i18n";
+import { getExternalLinkAttributes } from "@/lib/linkTargets";
 
 export type BlogCtaPlacement =
   | "article_start_side"
@@ -32,8 +32,13 @@ export function TrackedBlogCtaLink({
   };
 
   return (
-    <Link href={href} className={className} onClick={trackBlogCtaClick}>
+    <a
+      href={href}
+      {...getExternalLinkAttributes(href)}
+      className={className}
+      onClick={trackBlogCtaClick}
+    >
       {label}
-    </Link>
+    </a>
   );
 }
