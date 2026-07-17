@@ -19,8 +19,20 @@ interface AuthButtonProps {
   readonly placement: AuthButtonPlacement;
 }
 
-function trackAppEntryClick(placement: AuthButtonPlacement): void {
+type AppEntryAction = "login" | "open_app" | "signup";
+
+function isHeaderPlacement(placement: AuthButtonPlacement): boolean {
+  return placement === "header_desktop" || placement === "header_mobile";
+}
+
+function trackAppEntryClick(
+  action: AppEntryAction,
+  locale: AppLocale,
+  placement: AuthButtonPlacement
+): void {
   track("app_entry_click", {
+    action,
+    locale,
     platform: "web",
     placement,
   });
@@ -30,8 +42,17 @@ export const AuthButton: React.FC<AuthButtonProps> = ({ locale, placement }) => 
   const loggedIn = useLoggedInCookie();
   const uiCopy = getUiCopy(locale);
   const loginRedirectPath = getLocalizedPathname(locale, "/");
-  const handleAppEntryClick = (): void => {
-    trackAppEntryClick(placement);
+  const signupLabel = isHeaderPlacement(placement)
+    ? uiCopy.auth.signUpFree
+    : uiCopy.auth.startStudyingFree;
+  const handleLoginClick = (): void => {
+    trackAppEntryClick("login", locale, placement);
+  };
+  const handleOpenAppClick = (): void => {
+    trackAppEntryClick("open_app", locale, placement);
+  };
+  const handleSignupClick = (): void => {
+    trackAppEntryClick("signup", locale, placement);
   };
 
   if (loggedIn) {
@@ -39,7 +60,7 @@ export const AuthButton: React.FC<AuthButtonProps> = ({ locale, placement }) => 
       <a
         href={getAppUrl()}
         className={styles.signupButton}
-        onClick={handleAppEntryClick}
+        onClick={handleOpenAppClick}
       >
         {uiCopy.auth.openApp}
       </a>
@@ -48,11 +69,19 @@ export const AuthButton: React.FC<AuthButtonProps> = ({ locale, placement }) => 
 
   return (
     <div className={styles.buttonGroup}>
-      <a href={getLoginUrl(loginRedirectPath)} className={styles.loginButton}>
+      <a
+        href={getLoginUrl(loginRedirectPath)}
+        className={styles.loginButton}
+        onClick={handleLoginClick}
+      >
         {uiCopy.auth.logIn}
       </a>
-      <a href={getSignupUrl()} className={styles.signupButton}>
-        {uiCopy.auth.signUpFree}
+      <a
+        href={getSignupUrl()}
+        className={styles.signupButton}
+        onClick={handleSignupClick}
+      >
+        {signupLabel}
       </a>
     </div>
   );
