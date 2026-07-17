@@ -93,12 +93,16 @@ function getMaxDailyValue(
 }
 
 function renderHeroSection(section: HeroSection, lines: string[]): void {
+  lines.push(`**${section.eyebrow}**`);
+  lines.push("");
   lines.push(section.titleLines.join(" "));
   lines.push("");
   lines.push(section.subtitle);
   lines.push("");
   lines.push(`[${section.primaryLink.label}](${section.primaryLink.href})`);
   lines.push(`[${section.secondaryLink.label}](${section.secondaryLink.href})`);
+  lines.push("");
+  lines.push(section.trustLine);
   lines.push("");
   lines.push("```text");
   section.agentConnectors.forEach((connector, index) => {

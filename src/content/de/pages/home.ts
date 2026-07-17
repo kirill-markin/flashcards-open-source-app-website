@@ -1,20 +1,22 @@
 import type { PageContent } from "@/lib/content/types";
 
 export const HOME_PAGE_CONTENT: PageContent = {
-  title: "Flashcards - Open Source fuer Spaced Repetition",
+  title: "Flashcards - Kostenlose Open-Source-App für Spaced Repetition",
   description:
-    "Erstelle Karten, lerne mehr und vergesse weniger mit einer Open-Source-Flashcards-App fuer Spaced Repetition, KI-Chat und Onboarding fuer KI-Agenten.",
+    "Erstelle Karten, lerne mehr und vergiss weniger mit einer kostenlosen Open-Source-Flashcards-App für Spaced Repetition mit FSRS, Offline-Lernen, KI-Unterstützung und MCP.",
   slug: "home",
   sections: [
     {
       type: "hero",
+      eyebrow: "Kostenlos & Open Source",
       titleLines: [
         "Karten erstellen.",
         "Mehr lernen.",
         "Weniger vergessen.",
       ],
       subtitle:
-        "Open-Source-Flashcards-App mit Spaced Repetition, passwortloser Anmeldung, KI-Chat und Onboarding fuer KI-Agenten. Nutze noch heute die gehostete Web-App, verbinde Claude, Cursor und weitere KI-Agenten ueber MCP und halte Web-, iOS- und Agent-Workflows auf derselben Backend-Grundlage.",
+        "Eine kostenlose Open-Source-Flashcards-App mit Spaced Repetition durch FSRS, Offline-Lernen und KI-Unterstützung. Lerne im Web, auf iOS oder Android und verbinde KI-Agenten über MCP.",
+      trustLine: "Keine Kreditkarte. Keine Werbung. Kein Testzeitraum.",
       primaryLink: {
         label: "Loslegen",
         href: "https://app.flashcards-open-source-app.com",

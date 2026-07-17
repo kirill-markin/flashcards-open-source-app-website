@@ -1,20 +1,23 @@
 import type { PageContent } from "@/lib/content/types";
 
 export const HOME_PAGE_CONTENT: PageContent = {
-  title: "Flashcards - オープンソースの間隔反復アプリ",
+  title: "Flashcards - 無料・オープンソースの間隔反復アプリ",
   description:
-    "間隔反復、AI チャット、エージェント向け導入フローに対応したオープンソースのフラッシュカードアプリです。カードを作り、理解を深め、忘れにくい学習を続けられます。",
+    "FSRS による間隔反復、オフライン学習、AI 支援、MCP に対応した無料・オープンソースのフラッシュカードアプリです。カードを作り、理解を深め、忘れにくい学習を続けられます。",
   slug: "home",
   sections: [
     {
       type: "hero",
+      eyebrow: "無料・オープンソース",
       titleLines: [
         "カードを作る。",
         "より深く学ぶ。",
         "忘れにくくする。",
       ],
       subtitle:
-        "間隔反復、パスワードレス認証、AI チャット、エージェント向け導入フローを備えたオープンソースのフラッシュカードアプリです。今すぐ公開中の Web アプリを使い始められ、Claude や Cursor などの AI エージェントを MCP で接続できます。Web、iOS、エージェントの各ワークフローを、同じバックエンド基盤で一貫して運用できます。",
+        "FSRS による間隔反復、オフライン学習、AI 支援に対応した無料・オープンソースのフラッシュカードアプリです。Web、iOS、Android で学習でき、MCP 経由で AI エージェントも接続できます。",
+      trustLine:
+        "クレジットカード不要。広告なし。トライアルのカウントダウンなし。",
       primaryLink: {
         label: "始める",
         href: "https://app.flashcards-open-source-app.com",

@@ -172,8 +172,14 @@ function validateHeroSection(
 ): HeroSection {
   return {
     type: "hero",
+    eyebrow: assertNonEmptyString(section.eyebrow, "hero.eyebrow", slug),
     titleLines: assertStringArray(section.titleLines, "hero.titleLines", slug),
     subtitle: assertNonEmptyString(section.subtitle, "hero.subtitle", slug),
+    trustLine: assertNonEmptyString(
+      section.trustLine,
+      "hero.trustLine",
+      slug
+    ),
     primaryLink: validateContentLink(
       section.primaryLink,
       "hero.primaryLink",
