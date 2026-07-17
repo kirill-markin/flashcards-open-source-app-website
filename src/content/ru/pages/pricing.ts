@@ -3,25 +3,26 @@ import type { PageContent } from "@/lib/content/types";
 export const PRICING_PAGE_CONTENT: PageContent = {
   title: "Цены",
   description:
-    "Бесплатный self-hosting или hosted cloud beta. Open source, без feature gating.",
+    "Размещённое приложение и основные возможности для работы с карточками бесплатны. Приложение также можно самостоятельно развернуть из открытого исходного кода.",
   slug: "pricing",
   sections: [
     {
       type: "pricing_tiers",
       title: "Цены",
-      intro: "Все функции доступны в каждом плане. Без feature gating.",
+      intro:
+        "Размещённое приложение, создание карточек и их повторение бесплатны.",
       tiers: [
         {
           type: "link_tier",
-          name: "Self-Hosted",
+          name: "Самостоятельное размещение",
           price: "Бесплатно",
           highlighted: false,
           bullets: [
-            "Полный source code на GitHub",
-            "Локальный Postgres + auth + backend + web stack",
-            "Все текущие функции включены",
-            "Ваш домен, ваши данные, ваш deployment",
-            "Настройте stack под свой learning workflow",
+            "Бесплатное ПО с открытым исходным кодом",
+            "Полный исходный код на GitHub",
+            "Все текущие основные функции включены",
+            "Ваш домен, ваши данные и ваше развёртывание",
+            "Расходы на инфраструктуру оплачиваете вы",
           ],
           cta: {
             label: "Открыть на GitHub",
@@ -30,18 +31,19 @@ export const PRICING_PAGE_CONTENT: PageContent = {
         },
         {
           type: "auth_tier",
-          name: "Cloud Beta",
-          price: "Бесплатно во время беты",
+          name: "Облачная версия",
+          price: "Бесплатно",
           highlighted: true,
           bullets: [
-            "Hosted web app на домене проекта",
-            "Email OTP authentication",
-            "Shared-domain browser login flow",
-            "Управляемая AWS infrastructure",
-            "Ранний доступ, пока продукт еще развивается",
+            "Веб-приложение с управляемой инфраструктурой",
+            "Создание и повторение карточек включены",
+            "Банковская карта не нужна, отсчёта до конца пробного периода нет",
+            "Вход по одноразовому коду из письма",
+            "Сервис пока находится в бета-версии и поддерживается по мере возможности",
+            "В будущем могут появиться необязательные платные функции, но создание и повторение карточек останутся бесплатными",
           ],
           cta: {
-            label: "Начать",
+            label: "Начать учиться бесплатно",
             href: "https://app.flashcards-open-source-app.com",
           },
         },

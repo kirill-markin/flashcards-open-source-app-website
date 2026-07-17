@@ -3,25 +3,26 @@ import type { PageContent } from "@/lib/content/types";
 export const PRICING_PAGE_CONTENT: PageContent = {
   title: "Preise",
   description:
-    "Kostenloses Self-Hosting oder gehostete Cloud-Beta. Open Source, ohne Feature-Gating.",
+    "Die gehostete App und das grundlegende Karteikarten-Erlebnis sind kostenlos. Die kostenlose Open-Source-Software kann auch selbst gehostet werden.",
   slug: "pricing",
   sections: [
     {
       type: "pricing_tiers",
       title: "Preise",
-      intro: "Alle Funktionen sind in jedem Plan verfuegbar. Kein Feature-Gating.",
+      intro:
+        "Die gehostete App sowie die grundlegenden Funktionen zum Erstellen und Wiederholen von Karteikarten sind kostenlos.",
       tiers: [
         {
           type: "link_tier",
-          name: "Self-Hosted",
+          name: "Selbst gehostet",
           price: "Kostenlos",
           highlighted: false,
           bullets: [
-            "Vollstaendiger Quellcode auf GitHub",
-            "Lokaler Stack aus Postgres, Auth, Backend und Web",
-            "Alle aktuellen Funktionen enthalten",
+            "Kostenlose Open-Source-Software",
+            "Vollständiger Quellcode auf GitHub",
+            "Alle aktuellen Kernfunktionen enthalten",
             "Deine Domain, deine Daten, dein Deployment",
-            "Passe den Stack an deinen Lern-Workflow an",
+            "Du trägst die Kosten für deine Infrastruktur",
           ],
           cta: {
             label: "Auf GitHub ansehen",
@@ -30,18 +31,19 @@ export const PRICING_PAGE_CONTENT: PageContent = {
         },
         {
           type: "auth_tier",
-          name: "Cloud-Beta",
-          price: "Waehren der Beta kostenlos",
+          name: "Gehostet",
+          price: "Kostenlos",
           highlighted: true,
           bullets: [
-            "Gehostete Web-App auf der Projektdomain",
-            "E-Mail-OTP-Authentifizierung",
-            "Browser-Login mit Shared-Domain-Cookies",
-            "Verwaltete AWS-Infrastruktur",
-            "Frueher Zugang waehrend sich das Produkt weiterentwickelt",
+            "Gehostete Web-App mit verwalteter Infrastruktur",
+            "Erstellen und Wiederholen von Karteikarten inklusive",
+            "Keine Kreditkarte erforderlich und kein ablaufender Testzeitraum",
+            "Authentifizierung mit einem Einmalcode per E-Mail",
+            "Der Dienst befindet sich derzeit in der Beta-Phase und wird auf Best-Effort-Basis angeboten",
+            "Später können optionale Premium-Funktionen hinzukommen, aber das Erstellen und Wiederholen von Karteikarten bleibt kostenlos",
           ],
           cta: {
-            label: "Loslegen",
+            label: "Kostenlos lernen",
             href: "https://app.flashcards-open-source-app.com",
           },
         },

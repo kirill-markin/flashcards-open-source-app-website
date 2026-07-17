@@ -3,14 +3,14 @@ import type { PageContent } from "@/lib/content/types";
 export const PRICING_PAGE_CONTENT: PageContent = {
   title: "Precios",
   description:
-    "Autoalojamiento gratis o beta cloud alojada. Codigo abierto, sin bloqueo de funciones.",
+    "La aplicación alojada y la experiencia principal con tarjetas son gratis. También puedes autoalojar el software gratuito y de código abierto.",
   slug: "pricing",
   sections: [
     {
       type: "pricing_tiers",
       title: "Precios",
       intro:
-        "Todas las funciones estan disponibles en todos los planes. Sin bloqueo de funciones.",
+        "La aplicación alojada y las funciones principales para crear y repasar tarjetas son gratis.",
       tiers: [
         {
           type: "link_tier",
@@ -18,11 +18,11 @@ export const PRICING_PAGE_CONTENT: PageContent = {
           price: "Gratis",
           highlighted: false,
           bullets: [
-            "Codigo fuente completo en GitHub",
-            "Stack local con Postgres + auth + backend + web",
-            "Todas las funciones actuales incluidas",
-            "Tu dominio, tus datos, tu despliegue",
-            "Adapta el stack a tu propio flujo de aprendizaje",
+            "Software gratuito y de código abierto",
+            "Código fuente completo en GitHub",
+            "Todas las funciones principales actuales incluidas",
+            "Tu dominio, tus datos y tu despliegue",
+            "Los costes de infraestructura corren por tu cuenta",
           ],
           cta: {
             label: "Ver en GitHub",
@@ -31,18 +31,19 @@ export const PRICING_PAGE_CONTENT: PageContent = {
         },
         {
           type: "auth_tier",
-          name: "Beta cloud",
-          price: "Gratis durante la beta",
+          name: "Alojado",
+          price: "Gratis",
           highlighted: true,
           bullets: [
-            "App web alojada en el dominio del proyecto",
-            "Autenticacion OTP por correo",
-            "Flujo de login en navegador con dominio compartido",
-            "Infraestructura AWS gestionada",
-            "Acceso temprano mientras el producto sigue evolucionando",
+            "Aplicación web alojada con infraestructura gestionada",
+            "Creación y repaso de tarjetas incluidos",
+            "No necesitas tarjeta de crédito ni hay una cuenta atrás de prueba",
+            "Autenticación mediante un código de un solo uso por correo electrónico",
+            "El servicio está actualmente en beta y se ofrece bajo un modelo de mejor esfuerzo",
+            "Es posible que añadamos funciones prémium opcionales en el futuro, pero crear y repasar tarjetas seguirá siendo gratis",
           ],
           cta: {
-            label: "Empezar",
+            label: "Empezar a estudiar gratis",
             href: "https://app.flashcards-open-source-app.com",
           },
         },
