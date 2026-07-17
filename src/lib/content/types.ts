@@ -23,8 +23,10 @@ export interface AgentConnectorHint {
 
 export interface HeroSection {
   readonly type: "hero";
+  readonly eyebrow: string;
   readonly titleLines: ReadonlyArray<string>;
   readonly subtitle: string;
+  readonly trustLine: string;
   readonly primaryLink: ContentLink;
   readonly secondaryLink: ContentLink;
   readonly agentConnectors: ReadonlyArray<AgentConnectorHint>;

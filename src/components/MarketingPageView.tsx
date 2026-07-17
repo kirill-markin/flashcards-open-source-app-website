@@ -91,17 +91,21 @@ function renderHomePage(
     <div className={homeStyles.page}>
       <section className={homeStyles.hero}>
         <div className={homeStyles.heroMain}>
-          <h1 className={homeStyles.title}>
-            {heroSection.titleLines.map((line, index) => (
-              <span key={line}>
-                {line}
-                {index < heroSection.titleLines.length - 1 ? <br /> : null}
-              </span>
-            ))}
-          </h1>
+          <div className={homeStyles.heroHeading}>
+            <p className={homeStyles.eyebrow}>{heroSection.eyebrow}</p>
+            <h1 className={homeStyles.title}>
+              {heroSection.titleLines.map((line, index) => (
+                <span key={line}>
+                  {line}
+                  {index < heroSection.titleLines.length - 1 ? <br /> : null}
+                </span>
+              ))}
+            </h1>
+          </div>
           <p className={homeStyles.subtitle}>{heroSection.subtitle}</p>
           <div className={homeStyles.cta}>
             <AuthButton locale={locale} placement="home_hero" />
+            <p className={homeStyles.trustLine}>{heroSection.trustLine}</p>
           </div>
         </div>
         <div className={homeStyles.heroHint}>
