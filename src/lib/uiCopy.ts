@@ -5,6 +5,7 @@ interface AppUiCopy {
     readonly logIn: string;
     readonly openApp: string;
     readonly signUpFree: string;
+    readonly startStudyingFree: string;
   };
   readonly blog: {
     readonly breadcrumbLabel: string;
@@ -121,6 +122,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       logIn: "Log In",
       openApp: "Open App",
       signUpFree: "Sign Up Free",
+      startStudyingFree: "Start studying free",
     },
     blog: {
       breadcrumbLabel: "Blog",
@@ -142,8 +144,9 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       copyFailed: "Copy failed",
     },
     cta: {
-      heading: "Try our Flashcards app",
-      buttonLabel: "Try it",
+      heading:
+        "Learn more and forget less with free spaced-repetition flashcards",
+      buttonLabel: "Start studying free",
     },
     docs: {
       breadcrumbLabel: "Docs",
@@ -241,6 +244,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       logIn: "Iniciar sesión",
       openApp: "Abrir app",
       signUpFree: "Registrarse gratis",
+      startStudyingFree: "Empieza a estudiar gratis",
     },
     blog: {
       breadcrumbLabel: "Blog",
@@ -262,8 +266,9 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       copyFailed: "Error al copiar",
     },
     cta: {
-      heading: "Prueba nuestra app de Flashcards",
-      buttonLabel: "Pruébala",
+      heading:
+        "Aprende más y olvida menos con flashcards gratis de repetición espaciada",
+      buttonLabel: "Empieza a estudiar gratis",
     },
     docs: {
       breadcrumbLabel: "Documentación",
@@ -361,6 +366,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       logIn: "تسجيل الدخول",
       openApp: "فتح التطبيق",
       signUpFree: "التسجيل مجانًا",
+      startStudyingFree: "ابدأ الدراسة مجانًا",
     },
     blog: {
       breadcrumbLabel: "المدونة",
@@ -382,8 +388,9 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       copyFailed: "فشل النسخ",
     },
     cta: {
-      heading: "جرّب تطبيق Flashcards الخاص بنا",
-      buttonLabel: "جرّبه",
+      heading:
+        "تعلّم أكثر وانسَ أقل مع بطاقات مجانية بالتكرار المتباعد",
+      buttonLabel: "ابدأ الدراسة مجانًا",
     },
     docs: {
       breadcrumbLabel: "التوثيق",
@@ -481,6 +488,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       logIn: "Anmelden",
       openApp: "App öffnen",
       signUpFree: "Kostenlos starten",
+      startStudyingFree: "Kostenlos lernen",
     },
     blog: {
       breadcrumbLabel: "Blog",
@@ -502,8 +510,9 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       copyFailed: "Kopieren fehlgeschlagen",
     },
     cta: {
-      heading: "Probiere unsere Flashcards-App",
-      buttonLabel: "Ausprobieren",
+      heading:
+        "Lerne mehr und vergiss weniger mit kostenlosen Spaced-Repetition-Flashcards",
+      buttonLabel: "Kostenlos lernen",
     },
     docs: {
       breadcrumbLabel: "Dokumentation",
@@ -601,6 +610,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       logIn: "लॉग इन",
       openApp: "ऐप खोलें",
       signUpFree: "मुफ़्त शुरू करें",
+      startStudyingFree: "मुफ़्त पढ़ाई शुरू करें",
     },
     blog: {
       breadcrumbLabel: "ब्लॉग",
@@ -622,8 +632,9 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       copyFailed: "कॉपी नहीं हुआ",
     },
     cta: {
-      heading: "हमारा Flashcards ऐप आज़माएं",
-      buttonLabel: "आज़माएं",
+      heading:
+        "मुफ़्त स्पेस्ड रिपिटीशन फ़्लैशकार्ड से बेहतर सीखें और कम भूलें",
+      buttonLabel: "मुफ़्त पढ़ाई शुरू करें",
     },
     docs: {
       breadcrumbLabel: "डॉक्स",
@@ -721,6 +732,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       logIn: "ログイン",
       openApp: "アプリを開く",
       signUpFree: "無料で始める",
+      startStudyingFree: "無料で学習を始める",
     },
     blog: {
       breadcrumbLabel: "ブログ",
@@ -742,8 +754,9 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       copyFailed: "コピーに失敗しました",
     },
     cta: {
-      heading: "Flashcards アプリを試す",
-      buttonLabel: "試してみる",
+      heading:
+        "無料の間隔反復フラッシュカードで、より深く学び、忘れにくくする",
+      buttonLabel: "無料で学習を始める",
     },
     docs: {
       breadcrumbLabel: "ドキュメント",
@@ -841,6 +854,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       logIn: "Войти",
       openApp: "Открыть приложение",
       signUpFree: "Начать бесплатно",
+      startStudyingFree: "Начать учиться бесплатно",
     },
     blog: {
       breadcrumbLabel: "Блог",
@@ -862,8 +876,9 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       copyFailed: "Не удалось скопировать",
     },
     cta: {
-      heading: "Попробуйте наше приложение Flashcards",
-      buttonLabel: "Попробовать",
+      heading:
+        "Учитесь больше и забывайте меньше с бесплатными карточками для интервального повторения",
+      buttonLabel: "Начать учиться бесплатно",
     },
     docs: {
       breadcrumbLabel: "Документация",
@@ -961,6 +976,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       logIn: "登录",
       openApp: "打开应用",
       signUpFree: "免费开始",
+      startStudyingFree: "免费开始学习",
     },
     blog: {
       breadcrumbLabel: "博客",
@@ -982,8 +998,8 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       copyFailed: "复制失败",
     },
     cta: {
-      heading: "试试我们的 Flashcards 应用",
-      buttonLabel: "立即体验",
+      heading: "用免费的间隔重复闪卡学得更多，忘得更少",
+      buttonLabel: "免费开始学习",
     },
     docs: {
       breadcrumbLabel: "文档",
