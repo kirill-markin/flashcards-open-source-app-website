@@ -3,25 +3,26 @@ import type { PageContent } from "@/lib/content/types";
 export const PRICING_PAGE_CONTENT: PageContent = {
   title: "प्राइसिंग",
   description:
-    "मुफ्त self-hosting या hosted cloud beta। ओपन सोर्स, बिना feature gating।",
+    "होस्ट किया गया ऐप और मुख्य फ़्लैशकार्ड अनुभव मुफ़्त हैं। आप मुफ़्त और ओपन-सोर्स सॉफ़्टवेयर को स्वयं भी होस्ट कर सकते हैं।",
   slug: "pricing",
   sections: [
     {
       type: "pricing_tiers",
       title: "प्राइसिंग",
-      intro: "हर plan में सभी features उपलब्ध हैं। कोई feature gating नहीं।",
+      intro:
+        "होस्ट किया गया ऐप और फ़्लैशकार्ड बनाने व दोहराने की मुख्य सुविधाएँ मुफ़्त हैं।",
       tiers: [
         {
           type: "link_tier",
-          name: "Self-Hosted",
-          price: "मुफ्त",
+          name: "स्वयं होस्ट किया गया",
+          price: "मुफ़्त",
           highlighted: false,
           bullets: [
-            "GitHub पर पूरा source code",
-            "Local Postgres + auth + backend + web stack",
-            "सभी मौजूदा features शामिल",
-            "आपका domain, आपका data, आपकी deployment",
-            "अपने learning workflow के लिए stack को बदलें",
+            "मुफ़्त और ओपन-सोर्स सॉफ़्टवेयर",
+            "GitHub पर पूरा सोर्स कोड",
+            "सभी मौजूदा मुख्य सुविधाएँ शामिल",
+            "आपका डोमेन, आपका डेटा और आपकी डिप्लॉयमेंट",
+            "इन्फ़्रास्ट्रक्चर की लागत आपकी ज़िम्मेदारी है",
           ],
           cta: {
             label: "GitHub पर देखें",
@@ -30,18 +31,19 @@ export const PRICING_PAGE_CONTENT: PageContent = {
         },
         {
           type: "auth_tier",
-          name: "Cloud Beta",
-          price: "बीटा के दौरान मुफ्त",
+          name: "होस्टेड",
+          price: "मुफ़्त",
           highlighted: true,
           bullets: [
-            "Project domain पर hosted web app",
-            "Email OTP authentication",
-            "Shared-domain browser login flow",
-            "Managed AWS infrastructure",
-            "Product के विकसित होते समय early access",
+            "मैनेज्ड इन्फ़्रास्ट्रक्चर वाला होस्टेड वेब ऐप",
+            "फ़्लैशकार्ड बनाना और दोहराना शामिल",
+            "क्रेडिट कार्ड की ज़रूरत नहीं और कोई ट्रायल काउंटडाउन नहीं",
+            "ईमेल से मिलने वाले वन-टाइम कोड से लॉगिन",
+            "सेवा अभी बीटा में है और यथासंभव उपलब्ध कराई जाती है",
+            "भविष्य में वैकल्पिक प्रीमियम सुविधाएँ जोड़ी जा सकती हैं, लेकिन फ़्लैशकार्ड बनाना और दोहराना हमेशा मुफ़्त रहेगा",
           ],
           cta: {
-            label: "शुरू करें",
+            label: "मुफ़्त में पढ़ाई शुरू करें",
             href: "https://app.flashcards-open-source-app.com",
           },
         },
