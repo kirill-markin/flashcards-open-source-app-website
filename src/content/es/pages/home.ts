@@ -1,20 +1,22 @@
 import type { PageContent } from "@/lib/content/types";
 
 export const HOME_PAGE_CONTENT: PageContent = {
-  title: "Flashcards - Repetición espaciada de código abierto",
+  title: "Flashcards - App gratuita y de código abierto para repetición espaciada",
   description:
-    "Crea tarjetas, aprende más y olvida menos con una app de flashcards de código abierto que combina repetición espaciada, chat con IA y un proceso de incorporación preparado para agentes.",
+    "Crea tarjetas, aprende más y olvida menos con una app de flashcards gratuita y de código abierto para repetición espaciada FSRS, estudio sin conexión, ayuda de IA y MCP.",
   slug: "home",
   sections: [
     {
       type: "hero",
+      eyebrow: "Gratis y de código abierto",
       titleLines: [
         "Crea tarjetas.",
         "Aprende más.",
         "Olvida menos.",
       ],
       subtitle:
-        "App de flashcards de código abierto con repetición espaciada, autenticación sin contraseña, chat con IA y un proceso de incorporación preparado para agentes. Usa hoy la app web alojada, conecta Claude, Cursor y otros agentes de IA por MCP y haz que web, iOS y agentes trabajen sobre el mismo modelo de datos del backend.",
+        "Una app de flashcards gratuita y de código abierto con repetición espaciada FSRS, estudio sin conexión y ayuda de IA. Estudia en la web, iOS o Android y conecta agentes de IA mediante MCP.",
+      trustLine: "Sin tarjeta de crédito. Sin anuncios. Sin periodo de prueba.",
       primaryLink: {
         label: "Empezar",
         href: "https://app.flashcards-open-source-app.com",
