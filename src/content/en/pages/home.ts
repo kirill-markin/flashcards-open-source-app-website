@@ -1,20 +1,22 @@
 import type { PageContent } from "@/lib/content/types";
 
 export const HOME_PAGE_CONTENT: PageContent = {
-  title: "Flashcards - Open Source Spaced Repetition",
+  title: "Flashcards - Free Open-Source Spaced Repetition App",
   description:
-    "Create cards, learn more, and forget less with an open-source flashcards app for spaced repetition, AI chat, and agent-ready onboarding.",
+    "Create cards, learn more, and forget less with a free, open-source flashcards app for FSRS spaced repetition, offline study, AI help, and MCP.",
   slug: "home",
   sections: [
     {
       type: "hero",
+      eyebrow: "Free & open source",
       titleLines: [
         "Create cards.",
         "Learn more.",
         "Forget less.",
       ],
       subtitle:
-        "Open-source flashcards app with spaced repetition, passwordless auth, AI chat, and an agent-ready onboarding flow. Use the hosted web app today, connect Claude, Cursor, and other AI agents over MCP, and keep web, iOS, and agent workflows on the same backend model.",
+        "A free, open-source flashcards app with FSRS spaced repetition, offline study, and AI help. Study on the web, iOS, or Android, and connect AI agents through MCP.",
+      trustLine: "No credit card. No ads. No trial countdown.",
       primaryLink: {
         label: "Get Started",
         href: "https://app.flashcards-open-source-app.com",

@@ -1,20 +1,22 @@
 import type { PageContent } from "@/lib/content/types";
 
 export const HOME_PAGE_CONTENT: PageContent = {
-  title: "Flashcards - 开源间隔重复闪卡应用",
+  title: "Flashcards - 免费开源的间隔重复闪卡应用",
   description:
-    "用这款支持间隔重复、AI 对话和代理接入的开源闪卡应用创建卡片，学得更多，忘得更少。",
+    "使用这款免费的开源闪卡应用创建卡片，学得更多，忘得更少；它支持 FSRS 间隔重复、离线学习、AI 辅助和 MCP。",
   slug: "home",
   sections: [
     {
       type: "hero",
+      eyebrow: "免费且开源",
       titleLines: [
         "创建卡片。",
         "学得更多。",
         "忘得更少。",
       ],
       subtitle:
-        "这是一款支持间隔重复、免密码登录、AI 对话和代理接入的开源闪卡应用。现在就可以直接使用托管版 Web 应用，通过 MCP 连接 Claude、Cursor 等 AI 代理，并让 Web、iOS 与代理工作流共用同一套后端。",
+        "一款免费的开源闪卡应用，支持 FSRS 间隔重复、离线学习和 AI 辅助。你可以在 Web、iOS 或 Android 上学习，也可以通过 MCP 连接 AI 代理。",
+      trustLine: "无需信用卡。没有广告。没有试用倒计时。",
       primaryLink: {
         label: "开始使用",
         href: "https://app.flashcards-open-source-app.com",
