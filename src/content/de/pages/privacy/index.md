@@ -1,47 +1,101 @@
 ---
 title: Datenschutz
-description: Datenschutzrichtlinie fuer Flashcards.
+description: Datenschutzerklärung für Flashcards.
 slug: privacy
 sections:
   - type: legal_page
-    lastUpdated: Juni 2026
+    lastUpdated: Juli 2026
 ---
-## Welche Daten wir erfassen
+## Verantwortlicher und Geltungsbereich
 
-Wenn du die gehostete Cloud-Beta nutzt, speichern wir die E-Mail-Adresse fuer die Anmeldung sowie die Lerndaten, die fuer den Betrieb des Dienstes notwendig sind, einschliesslich Karten, Review-Verlauf und Workspace-Metadaten. Self-Hosted-Instanzen senden uns keine Daten, es sei denn, du betreibst selbst eine Version, die das tut.
+Der gehostete Flashcards-Dienst wird von SAMO DANNI EOOD betrieben, Unternehmens-ID 207395566, VAT BG207395566, eingetragene Anschrift bulv. Maritza 154, entrance D, floor 6 #14, 4018, Plovdiv, Bulgaria. Flashcards wurde von Kirill Markin erstellt.
 
-## Betreiber
+Diese Erklärung gilt für die von uns betriebenen gehosteten Websites, Apps, APIs und den MCP-Dienst. Eine selbst gehostete Instanz wird von ihrem jeweiligen Betreiber kontrolliert; dieser ist für die dortige Datenverarbeitung verantwortlich.
 
-Der gehostete Flashcards-Dienst wird von SAMO DANNI EOOD betrieben, Unternehmens-ID 207395566, VAT BG207395566, eingetragene Adresse bulv. Maritza 154, entrance D, floor 6 #14, 4018, Plovdiv, Bulgaria. Flashcards wurde von Kirill Markin erstellt.
+## Alter
 
-## KI-Funktionen
+Der gehostete Dienst ist für Personen ab 13 Jahren bestimmt. Schreibt das Recht an Ihrem Wohnort ein höheres Mindestalter für die Nutzung eines Onlinedienstes oder die Einwilligung in eine Datenverarbeitung vor, gilt dieses höhere Alter. Personen unter 18 Jahren benötigen die Erlaubnis eines Elternteils oder gesetzlichen Vertreters.
 
-Wenn du KI-Chat in der gehosteten App nutzt, koennen deine Eingaben, der fuer die Anfrage notwendige Kartenkontext, hochgeladene Dateien, Bilder sowie diktierte Audiodaten oder Transkriptionsanfragen an externe KI-Anbieter gesendet werden, die auf dem Server konfiguriert sind. Welcher Anbieter verwendet wird, haengt von der Serverkonfiguration zum Zeitpunkt der Anfrage ab.
+## Verarbeitete Daten
 
-## Verbindung externer KI-Clients
+Je nach Nutzung des gehosteten Dienstes verarbeiten wir:
 
-Wenn du Flashcards ueber den Remote-MCP-Server (`mcp.flashcards-open-source-app.com/mcp`) oder die Agent-API mit einem externen KI-Client verbindest, werden die von dir angefragten Karteidaten an diesen Client und an den KI- oder Modellanbieter gesendet, der ihn betreibt. Diese Verarbeitung unterliegt den Bedingungen dieses Anbieters und nicht unseren.
+- Konto- und Authentifizierungsdaten wie E-Mail-Adresse, interne Kennungen, Anmeldeprotokolle und Authentifizierungs-Token;
+- Lern- und Workspace-Daten wie Karten, Decks, Einstellungen, Mitgliedschaften, Wiederholungsverlauf und Synchronisierungsmetadaten;
+- hochgeladene oder erstellte Dateien und Medien einschließlich Bilder und temporärer Upload-Daten;
+- optionale KI-Daten wie Prompts, Chatverlauf, Karten- oder Workspace-Kontext, in eine Anfrage einbezogene Dateien und Bilder, diktierte Audiodaten, Transkripte, Modellantworten und Tool-Aktivitäten;
+- Support- und Feedbackdaten wie Nachrichten, eine freiwillig angegebene Kontaktadresse, App-Version, Plattform, Sprache und Bearbeitungsstatus;
+- Betriebs- und Sicherheitsdaten wie Anfragekennungen, Zeitstempel, IP-Adresse, User-Agent, Route, Antwortstatus, App-Version, Geräte- oder Plattformdetails und bereinigte Fehlerdiagnosen; sowie
+- die im Abschnitt Analyse beschriebenen Nutzungsdaten der Website.
 
-## Wie wir deine Daten nutzen
+Eine E-Mail-Adresse ist erforderlich, um ein gehostetes Konto anzulegen und sich anzumelden. Ohne sie können wir weder die E-Mail-Authentifizierung noch die kontobasierte Synchronisierung anbieten. Begrenzte Gast- oder lokale Funktionen können ohne angemeldetes Konto verfügbar sein.
 
-Deine Daten werden fuer Authentifizierung, Cloud-Sync und optionale KI-Funktionen verwendet. Wir verkaufen deine Daten nicht und nutzen sie nicht fuer Werbung. Authentifizierung und Workspace-Zugriff werden von den im oeffentlichen Repository dokumentierten Backend-Diensten verarbeitet.
+## Zwecke und Rechtsgrundlagen
 
-## Datenspeicherung
+Wir verarbeiten Konto-, Workspace-, Wiederholungs-, Datei- und angeforderte KI-Daten, soweit dies zur Bereitstellung des gehosteten Dienstes und zur Erfüllung unseres Vertrags erforderlich ist. Supportanfragen verarbeiten wir, um zu antworten und die angeforderte Hilfe zu leisten.
 
-Die Daten der gehosteten Cloud-Version liegen in AWS-Infrastruktur, einschliesslich Postgres fuer die primaeren Anwendungsdaten. Daten sind bei der Uebertragung verschluesselt. Wir bewahren deine gehosteten Lerndaten so lange auf, wie dein Konto aktiv ist, und loeschen sie, wenn du dein Konto loeschst oder die Entfernung anforderst. Betriebliche Logs werden nur so lange aufbewahrt, wie es fuer Betrieb und Debugging der gehosteten Beta erforderlich ist, in der Regel bis zu 90 Tage.
+Begrenzte Analyse-, Sicherheits-, Diagnose- und Verbesserungsdaten verarbeiten wir auf Grundlage unserer berechtigten Interessen, die Nutzung zu verstehen, Missbrauch zu verhindern, den Dienst zu schützen und Fehler zu beheben. Dabei wägen wir diese Interessen gegen Ihre Rechte ab und minimieren oder bereinigen Diagnosedaten, soweit dies praktikabel ist. Daten können außerdem zur Erfüllung gesetzlicher Pflichten oder zur Begründung, Ausübung oder Verteidigung von Rechtsansprüchen verarbeitet werden. Soweit das anwendbare Recht für eine bestimmte Tätigkeit eine Einwilligung verlangt, stützen wir uns darauf; sie kann jederzeit widerrufen werden.
 
-## Cookies
+Wir verkaufen keine personenbezogenen Daten und nutzen sie nicht für zielgerichtete Werbung.
 
-Wir verwenden Authentifizierungs-Cookies wie `session`, `refresh` und `logged_in` fuer den Login-Flow. Tracking-Cookies oder Drittanbieter-Analytics sind fuer die Funktion der Website nicht erforderlich.
+## Analyse und Cookies
 
-## Datenloeschung
+Die Marketing-Website nutzt Vercel Web Analytics, um Seitenaufrufe und ausgewählte Klicks zu messen. Der Dienst arbeitet ohne Analyse-Cookies. Bei Seitenaufrufen kann Vercel Zeitpunkt, URL und gefilterte Abfrageparameter, Referrer, ungefähren Standort, Browser, Betriebssystem und Gerätetyp erhalten. Unsere benutzerdefinierten Klickereignisse enthalten nur begrenzte Angaben wie Sprache, Plattform, Linkposition oder Interaktionsart. Namen, E-Mail-Adressen, Karteninhalte oder Kontokennungen werden nicht absichtlich übermittelt. Vercel aggregiert die Daten und ordnet einzelne Datenpunkte weder einer Person noch einer IP-Adresse zu; der tägliche Besucher-Hash wird nach 24 Stunden verworfen.
 
-Bei Self-Hosted-Instanzen kontrollierst du die Datenbank selbst. In der gehosteten App kannst du dein Konto in der iOS-App oder der Web-App loeschen. Die Entfernung gehosteter Daten kannst du auch ueber die Agent-API oder einen verbundenen MCP-Client anfordern. Fuer weitere Hilfe bei der Entfernung gehosteter Daten kannst du den Support kontaktieren.
+Die gehostete Web-App verwendet technisch notwendige Cookies wie `otp_session`, `session`, `refresh` und `logged_in`, um die Authentifizierung abzuschließen, die Sitzung aufrechtzuerhalten und zu erneuern und den Anmeldestatus anzuzeigen. Ohne diese Cookies funktioniert die Anmeldung im Browser nicht.
 
-## Support
+## Gehostete KI und externe KI-Clients
 
-Bei Datenschutzfragen kontaktiere [kirill+flashcards@kirill-markin.com](mailto:kirill+flashcards@kirill-markin.com) oder nutze die [Support-Seite](/support/).
+OpenAI ist der konfigurierte Anbieter für gehosteten Chat, Transkription und Bilderzeugung. Wenn Sie diese Funktionen nutzen, senden wir die dafür notwendigen Daten an OpenAI. Dazu können Prompt, relevanter Chat- und Workspace-Kontext, Anhänge oder Bilder, diktierte Audiodaten und eine pseudonyme Sicherheitskennung gehören. Gehostete Textanfragen verwenden `store: false`; damit werden Antwortobjekte nicht zur späteren Abfrage gespeichert. Da diese Anfragen außerdem Prompt-Caching verwenden, kann OpenAI verschlüsselten Anwendungszustand des Caches bis zu 24 Stunden aufbewahren. Nach den aktuellen API-Einstellungen können einschlägige Protokolle zur Missbrauchsüberwachung bis zu 30 Tage aufbewahrt werden; für den Transkriptions-Endpunkt gibt OpenAI an, weder Inhalte zur Missbrauchsüberwachung noch Anwendungszustand zu speichern. API-Daten werden nicht zum Training von OpenAI-Modellen genutzt, sofern der Kontoinhaber dem nicht ausdrücklich zustimmt.
 
-## Open Source
+Gehostete KI-Anfragen werden außerdem über Langfuse Cloud zur Fehlersuche und Qualitätsanalyse beobachtet. Langfuse-Traces können Prompts, Modellantworten, Tool-Aktivitäten, Nutzer-, Workspace- und Sitzungskennungen sowie Betriebsmetadaten enthalten. Die Implementierung maskiert E-Mail-Adressen und geheimnisähnliche Felder; benutzerdefinierte Transkriptions-Traces schließen rohe Audiodaten und Anhangsdaten aus.
 
-Die gesamte Codebasis ist Open Source. Du kannst genau pruefen, was die Anwendung mit deinen Daten macht.
+Wenn Sie Flashcards über den Remote-MCP-Dienst oder die Agent API mit einem externen KI-Client verbinden, verarbeiten auch dieser Client und sein KI- oder Modellanbieter die von Ihnen abgerufenen Daten. Diese separate Verarbeitung wird vom Betreiber des Clients kontrolliert und unterliegt dessen Bedingungen und Datenschutzerklärung.
+
+## Auftragsverarbeiter und Empfänger
+
+Für den gehosteten Dienst nutzen wir folgende Anbieterkategorien:
+
+- Amazon Web Services (AWS) für Hosting, Cognito-Authentifizierung, Postgres, Dateispeicherung, Backups und Betriebsprotokolle;
+- Resend für transaktionale Authentifizierungs-E-Mails;
+- OpenAI für optionale gehostete KI-Anfragen;
+- Langfuse Cloud für KI-Observability;
+- Sentry für bereinigte Fehler- und Diagnoseberichte, soweit dies im jeweiligen gehosteten Dienst oder App-Build aktiviert ist;
+- Vercel für die Marketing-Website und deren cookie-freie Web Analytics; sowie
+- Cloudflare für DNS und Domainverwaltung. Die aktuellen Flashcards-DNS-Einträge sind „DNS-only“, sodass Cloudflare den HTTP-Verkehr von Website und Apps nicht als Proxy verarbeitet.
+
+Daten können außerdem entsprechend den Zusammenarbeitsfunktionen anderen Mitgliedern eines geteilten Workspace, einem von Ihnen autorisierten externen Client, zur Vertraulichkeit verpflichteten Beratern oder bei gesetzlicher Verpflichtung Behörden offengelegt werden.
+
+## Internationale Übermittlungen
+
+Die primäre gehostete Anwendung läuft in EU-Infrastruktur von AWS. Auch die konfigurierte Resend-Region, die Sentry-Datenregion und der Langfuse-Endpunkt befinden sich in Europa. Einige Anbieter, darunter OpenAI und Vercel, können Daten außerhalb Ihres Landes oder des Europäischen Wirtschaftsraums verarbeiten. Soweit erforderlich, verwenden wir Angemessenheitsbeschlüsse, Auftragsverarbeitungsverträge und Standardvertragsklauseln oder gleichwertige Garantien.
+
+## Aufbewahrung und Löschung
+
+- Konto- und gehostete Workspace-Daten werden aufbewahrt, solange das Konto oder der betreffende geteilte Workspace aktiv ist. Bei der Kontolöschung werden aktuelle Kontodaten, Zugangsdaten, Mitgliedschaften und Workspaces mit nur einem Mitglied aus der Live-Datenbank gelöscht. Inhalte eines Workspace mit weiteren Mitgliedern bleiben für diese verfügbar.
+- Medien bleiben gespeichert, solange aktive Workspace-Inhalte sie benötigen, und werden nach Wegfall aller Verweise durch den Speicherbereinigungsprozess gelöscht. Unvollständige temporäre Uploads verfallen nach 7 Tagen.
+- Für die Datenbank bestehen automatisierte RDS-Backups für 7 Tage sowie ein gesonderter täglicher AWS-Backup-Plan mit 35 Tagen Aufbewahrung. Aus dem Live-Dienst gelöschte Datensätze können bis zum Ablauf in verschlüsselten Wiederherstellungs-Backups verbleiben. Backups dienen der Notfallwiederherstellung, nicht dem normalen Zugriff.
+- API-Gateway-Zugriffsprotokolle verfallen nach 7 Tagen. Andere CloudWatch-Anwendungsprotokolle haben derzeit keine automatische Ablauffrist und bleiben bis zur manuellen Löschung erhalten. Wir beschränken ihre Nutzung auf Betrieb, Sicherheit und Fehlersuche und löschen relevante Einträge, wenn dies zur Erfüllung eines anwendbaren Datenschutzrechts erforderlich ist.
+- Der aktuelle Sentry-Developer-Tarif bietet einen 30-tägigen Ereignisrückblick. Resend bewahrt Daten zu gesendeten E-Mails nach seinen aktuellen Standardeinstellungen 30 Tage auf.
+- Die OpenAI-Aufbewahrung ist im KI-Abschnitt beschrieben. Für das aktuelle Langfuse-Projekt ist keine automatische Aufbewahrungsfrist konfiguriert; Traces bleiben daher bis zur manuellen Löschung, Projektlöschung oder Anwendung einer anbieterseitigen Zugriffsgrenze erhalten. Identifizierbare Traces löschen wir, soweit dies zur Erfüllung eines berechtigten Löschantrags erforderlich ist.
+- Supportkorrespondenz sowie für rechtliche oder Sicherheitszwecke erforderliche Unterlagen werden nur so lange aufbewahrt, wie es der jeweilige Zweck erfordert. Der Vercel-Besucher-Hash verfällt nach 24 Stunden; aggregierte Website-Statistiken werden gemäß den Vercel-Projekteinstellungen aufbewahrt.
+
+Durch die Kontolöschung werden Kopien in bereits erstellten planmäßigen Backups oder Anbieterprotokollen nicht sofort entfernt. Sie verfallen oder werden nach den oben genannten Fristen gelöscht, sofern keine längere gesetzliche Aufbewahrungspflicht besteht.
+
+## Ihre Rechte
+
+Je nach anwendbarem Recht können Sie Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung oder eine übertragbare Kopie Ihrer personenbezogenen Daten verlangen. Sie können einer auf berechtigten Interessen beruhenden Verarbeitung widersprechen und eine Einwilligung widerrufen. Diese Rechte können im gesetzlich zulässigen Umfang eingeschränkt sein, etwa wegen einer Aufbewahrungspflicht oder der Rechte anderer Personen.
+
+Sie können Ihr gehostetes Konto in der Web-, iOS- oder Android-App löschen. Für andere Anliegen kontaktieren Sie uns unter der unten genannten Adresse. Vor der Bearbeitung müssen wir gegebenenfalls Ihre Identität prüfen.
+
+Sie können sich bei der Datenschutzbehörde Ihres Wohn- oder Arbeitsorts oder des Orts des mutmaßlichen Verstoßes beschweren. In Bulgarien ist die [Commission for Personal Data Protection](https://cpdp.bg/en/) zuständig.
+
+## Sicherheit und Open Source
+
+Wir verwenden Zugriffskontrollen, Transportverschlüsselung, verschlüsselte AWS-Speicherung und Datenminimierung oder -bereinigung in Diagnosesystemen. Absolute Sicherheit kann kein Dienst gewährleisten.
+
+Anhand des öffentlichen Quellcodes können dokumentierte Datenpfade und die in den Repositories hinterlegte Konfiguration geprüft werden. Der öffentliche Quellcode allein beweist jedoch nicht die aktuelle Konfiguration oder das Verhalten des gehosteten Dienstes.
+
+## Kontakt
+
+Bei Datenschutzfragen oder zur Ausübung Ihrer Rechte kontaktieren Sie [kirill+flashcards@kirill-markin.com](mailto:kirill+flashcards@kirill-markin.com) oder nutzen Sie die [Support-Seite](/support/).
