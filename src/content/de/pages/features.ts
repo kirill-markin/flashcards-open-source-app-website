@@ -1,51 +1,46 @@
 import type { PageContent } from "@/lib/content/types";
 
 export const FEATURES_PAGE_CONTENT: PageContent = {
-  title: "Funktionen",
+  title: "Flashcards-Funktionen",
   description:
-    "FSRS-Wiederholung, Kartenerstellung, KI-Chat, agentenfreundliches Onboarding, passwortlose Anmeldung, Self-Hosting und Offline-First-Clients.",
+    "Entdecke kostenlose Open-Source-Lernkarten mit FSRS Spaced Repetition, KI-gestützter Kartenerstellung, Offline-Lernen, Export und Self-Hosting.",
   slug: "features",
   sections: [
     {
       type: "feature_list",
       title: "Funktionen",
       intro:
-        "Ein fokussierter Flashcards-Stack: gehostete Web-App, iOS-Client im Repository, ein MCP-Server samt Agent-API, und eine Infrastruktur, die bereits fuer Self-Hosting vorbereitet ist.",
+        "Alles, was du brauchst, um nützliche Karten zu erstellen, rechtzeitig zu wiederholen, offline weiterzulernen und deine Lerndaten selbst zu verwalten.",
       items: [
         {
-          title: "FSRS-Wiederholung",
+          title: "Intelligenter wiederholen mit FSRS",
           description:
-            "Faellige Karten werden mit FSRS geplant. Sende eine von vier Bewertungen, und das Backend aktualisiert den naechsten Wiederholungszeitpunkt anhand des Review-Zeitstempels vom Client.",
+            "Wiederhole die Karten, die heute fällig sind. FSRS zeigt schwierige Karten früher wieder und wartet bei vertrauten Karten länger.",
         },
         {
-          title: "Kartenerstellung und Chat",
+          title: "Karten mit KI-Unterstützung erstellen",
           description:
-            "Erstelle Vorder- und Rueckseitenkarten im Web-Client und nutze KI-Chat mit Workspace-Daten und Dateianhaengen, einschliesslich einfacher Text-Uploads.",
+            "Lass dir von KI helfen, Karten zu erstellen, besser zu formulieren oder eine Antwort zu erklären. Du entscheidest, was gespeichert wird.",
         },
         {
-          title: "Agentenfreundliches Onboarding",
+          title: "Offline lernen mit automatischer Synchronisierung",
           description:
-            "Fuege den Flashcards-MCP-Server zu Claude, Cursor oder einem beliebigen MCP-Client hinzu, und er kann deine Karten lesen, erstellen und bearbeiten. CLI-Agenten wie Claude Code, Codex oder OpenClaw koennen stattdessen die Discovery-URL ansteuern, einen API-Key speichern und ueber die /v1/agent/sql-Oberflaeche arbeiten. Der Mensch muss nur den neuesten 8-stelligen E-Mail-Code teilen.",
+            "Lerne auf deinem Mobilgerät auch ohne Internet weiter. Änderungen werden automatisch synchronisiert, damit du im Web, auf iOS oder Android weitermachen kannst.",
         },
         {
-          title: "Passwortlose Anmeldung",
+          title: "Daten importieren, exportieren und selbst verwalten",
           description:
-            "Die E-Mail-OTP-Authentifizierung laeuft auf einem separaten Auth-Service. Browser-Sitzungen nutzen Shared-Domain-Cookies, damit Login ueber Subdomains sauber funktioniert.",
+            "Verschiebe deine Lernmaterialien jederzeit in die App oder aus ihr heraus. Portable Exporte enthalten deine Karten, Tags und zugehörigen Medien.",
         },
         {
-          title: "Self-Hosted-Stack",
+          title: "Funktioniert mit KI-Agenten",
           description:
-            "Fuehre Postgres, Auth, Backend und den Web-Client lokal aus. Das Produktions-Deployment ist bereits fuer AWS mit CDK, CloudFront, API Gateway, Lambda und RDS verdrahtet.",
+            "Verbinde KI-Agenten über MCP oder die Agent API, damit sie dir beim Erstellen, Verbessern und Organisieren deiner Karten helfen.",
         },
         {
-          title: "Veroeffentlichte Agent-API",
+          title: "Kostenlos und selbst hostbar",
           description:
-            "Der aktuelle externe Vertrag deckt Discovery, OTP-Bootstrap, Workspace-Auswahl und einen veroeffentlichten SQL-Dialekt ueber Workspace, Karten, Decks und Review-Events ab.",
-        },
-        {
-          title: "Offline-First-Clients",
-          description:
-            "Das Repository liefert bereits den iOS-Client mit lokalem SQLite und Sync-Routen im Backend, und die Android-App ist jetzt bei Google Play verfuegbar.",
+            "Nutze die gehostete App kostenlos, sieh dir den Open-Source-Code an oder betreibe sie auf deiner eigenen Infrastruktur.",
         },
       ],
     },

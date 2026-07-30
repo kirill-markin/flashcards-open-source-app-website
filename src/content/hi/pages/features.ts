@@ -1,51 +1,46 @@
 import type { PageContent } from "@/lib/content/types";
 
 export const FEATURES_PAGE_CONTENT: PageContent = {
-  title: "फ़ीचर्स",
+  title: "Flashcards की खूबियाँ",
   description:
-    "FSRS review, card creation, AI chat, agent-ready onboarding, passwordless auth, self-hosting, और offline-first clients।",
+    "FSRS स्पेस्ड रिपिटीशन, AI की मदद से फ्लैशकार्ड बनाने, ऑफ़लाइन पढ़ाई, एक्सपोर्ट और सेल्फ़-होस्टिंग वाले मुफ़्त ओपन-सोर्स फ्लैशकार्ड।",
   slug: "features",
   sections: [
     {
       type: "feature_list",
       title: "फ़ीचर्स",
       intro:
-        "एक फोकस्ड फ्लैशकार्ड स्टैक: होस्टेड वेब ऐप, repository में iOS client, MCP server और agent API, और self-hosting के लिए पहले से तैयार infrastructure।",
+        "काम के फ्लैशकार्ड बनाने, सही समय पर दोहराने, ऑफ़लाइन पढ़ते रहने और अपने डेटा पर नियंत्रण रखने के लिए ज़रूरी सभी सुविधाएँ।",
       items: [
         {
-          title: "FSRS Review",
+          title: "FSRS के साथ बेहतर दोहराव",
           description:
-            "Due cards को FSRS के साथ schedule किया जाता है। चार ratings में से एक submit करें और backend client review timestamp के आधार पर अगला review समय अपडेट करता है।",
+            "आज के लिए तय फ्लैशकार्ड दोहराएँ। FSRS मुश्किल फ्लैशकार्ड जल्दी वापस लाता है और जाने-पहचाने फ्लैशकार्ड दिखाने से पहले ज़्यादा इंतज़ार करता है।",
         },
         {
-          title: "Card Creation And Chat",
+          title: "AI की मदद से फ्लैशकार्ड बनाएँ",
           description:
-            "Web client से front/back cards बनाएं और workspace data तथा file attachments, including plain text uploads, के साथ AI chat इस्तेमाल करें।",
+            "AI से फ्लैशकार्ड बनाने, उनकी भाषा बेहतर करने या किसी जवाब को साफ़ करने में मदद लें। क्या सेव करना है, यह आप तय करते हैं।",
         },
         {
-          title: "Agent-Ready Onboarding",
+          title: "ऑफ़लाइन पढ़ाई और अपने-आप सिंक",
           description:
-            "Flashcards MCP server को Claude, Cursor या किसी भी MCP client में जोड़ें और वह आपके cards पढ़, बना और संपादित कर सकता है। Claude Code, Codex या OpenClaw जैसे CLI agents इसके बजाय discovery URL पर जा सकते हैं, API key store कर सकते हैं, और /v1/agent/sql surface के जरिए काम कर सकते हैं — इंसान से सिर्फ एक कदम: नया 8-digit email code साझा करना।",
+            "इंटरनेट के बिना भी अपने मोबाइल पर दोहराते रहें। बदलाव अपने-आप सिंक होते हैं, ताकि आप वेब, iOS या Android पर पढ़ाई जारी रख सकें।",
         },
         {
-          title: "Passwordless Auth",
+          title: "डेटा इंपोर्ट, एक्सपोर्ट और अपने नियंत्रण में",
           description:
-            "Email OTP authentication एक dedicated auth service पर चलती है। Browser sessions shared-domain cookies reuse करते हैं ताकि subdomains के बीच login साफ़ तरीके से काम करे।",
+            "अपनी पढ़ाई की सामग्री जब चाहें अंदर या बाहर ले जाएँ। पोर्टेबल एक्सपोर्ट में आपके फ्लैशकार्ड, टैग और उनसे जुड़ी मीडिया फ़ाइलें शामिल होती हैं।",
         },
         {
-          title: "Self-Hosted Stack",
+          title: "AI एजेंट के साथ काम करता है",
           description:
-            "Postgres, auth, backend, और web client को locally चलाएं। Production deployment पहले से AWS के लिए CDK, CloudFront, API Gateway, Lambda, और RDS के साथ wired है।",
+            "MCP या Agent API से AI एजेंट जोड़ें, ताकि वे आपके फ्लैशकार्ड बनाने, बेहतर करने और व्यवस्थित करने में मदद कर सकें।",
         },
         {
-          title: "Published Agent API",
+          title: "मुफ़्त और सेल्फ़-होस्ट करने योग्य",
           description:
-            "मौजूदा external contract discovery, OTP bootstrap, workspace selection, और workspace, cards, decks, तथा review events पर published SQL dialect को कवर करता है।",
-        },
-        {
-          title: "Offline-First Clients",
-          description:
-            "Repository में local SQLite और backend sync routes वाला iOS client पहले से है, और Android app अब Google Play पर उपलब्ध है।",
+            "होस्टेड ऐप मुफ़्त इस्तेमाल करें, ओपन-सोर्स कोड देखें या इसे अपने इन्फ्रास्ट्रक्चर पर चलाएँ।",
         },
       ],
     },

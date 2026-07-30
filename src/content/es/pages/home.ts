@@ -1,9 +1,9 @@
 import type { PageContent } from "@/lib/content/types";
 
 export const HOME_PAGE_CONTENT: PageContent = {
-  title: "Flashcards - App gratuita y de código abierto para repetición espaciada",
+  title: "Flashcards - App gratuita y de código abierto con repetición espaciada",
   description:
-    "Crea tarjetas, aprende más y olvida menos con una app de flashcards gratuita y de código abierto para repetición espaciada FSRS, estudio sin conexión, ayuda de IA y MCP.",
+    "Flashcards gratuitas y de código abierto con repetición espaciada FSRS, creación con IA, estudio y sincronización sin conexión, exportación y alojamiento propio.",
   slug: "home",
   sections: [
     {
@@ -11,11 +11,11 @@ export const HOME_PAGE_CONTENT: PageContent = {
       eyebrow: "Gratis y de código abierto",
       titleLines: [
         "Crea tarjetas.",
-        "Aprende más.",
-        "Olvida menos.",
+        "Repasa mejor.",
+        "Recuerda más.",
       ],
       subtitle:
-        "Una app de flashcards gratuita y de código abierto con repetición espaciada FSRS, estudio sin conexión y ayuda de IA. Estudia en la web, iOS o Android y conecta agentes de IA mediante MCP.",
+        "Una app de tarjetas gratuita y de código abierto que programa cada repaso en el momento adecuado, funciona sin conexión y se sincroniza en la web, iOS y Android. Usa la IA cuando quieras crear o mejorar tarjetas.",
       trustLine: "Sin tarjeta de crédito. Sin anuncios. Sin periodo de prueba.",
       primaryLink: {
         label: "Empezar",
@@ -42,37 +42,37 @@ export const HOME_PAGE_CONTENT: PageContent = {
       type: "feature_list",
       title: "Características",
       intro:
-        "Una plataforma de flashcards centrada en lo esencial: app web alojada, cliente iOS en el repositorio, un servidor MCP para agentes de IA e infraestructura ya preparada para alojarla por tu cuenta.",
+        "Todo lo necesario para crear tarjetas útiles, repasar en el momento adecuado, seguir estudiando sin conexión y mantener el control de tus datos.",
       items: [
         {
-          title: "Repetición espaciada",
+          title: "Repasos más inteligentes con FSRS",
           description:
-            "Repasa tarjetas con programación FSRS y una valoración sencilla en cada sesión. El backend y el cliente iOS mantienen alineado el comportamiento del planificador.",
+            "Repasa las tarjetas que tocan hoy. FSRS muestra antes las que te cuestan y espera más para volver a enseñarte las que ya dominas.",
         },
         {
-          title: "App web y chat con IA",
+          title: "Creación de tarjetas con ayuda de IA",
           description:
-            "Crea tarjetas, explora tu colección, repasa lo pendiente y usa el chat con IA con archivos adjuntos en la app web alojada.",
+            "Pide a la IA que te ayude a crear tarjetas, mejorar su redacción o aclarar una respuesta. Tú decides qué se guarda.",
         },
         {
-          title: "Autenticación sin contraseña",
+          title: "Estudio sin conexión con sincronización automática",
           description:
-            "Códigos OTP por correo con Cognito y cookies compartidas entre los subdominios de autenticación y de la app.",
+            "Sigue repasando sin conexión en tu móvil. Los cambios se sincronizan automáticamente para que continúes en la web, iOS o Android.",
         },
         {
-          title: "Puesta en marcha para agentes",
+          title: "Importa, exporta y controla tus datos",
           description:
-            "Añade el servidor MCP de Flashcards a tu cliente de IA, autorízalo una vez y deja que cargue tu espacio de trabajo y cree, edite y repase tus tarjetas por ti.",
+            "Mueve tus materiales de estudio cuando quieras. Las exportaciones portátiles incluyen tus tarjetas, etiquetas y archivos multimedia relacionados.",
         },
         {
-          title: "Alojamiento propio",
+          title: "Compatible con agentes de IA",
           description:
-            "Ejecuta Postgres en local, inicia por separado los servicios de autenticación, backend y web, y mantén bajo tu control el despliegue en AWS.",
+            "Conecta agentes mediante MCP o la Agent API para que te ayuden a crear, mejorar y organizar tus tarjetas.",
         },
         {
-          title: "Clientes pensados para funcionar sin conexión",
+          title: "Gratis y con alojamiento propio",
           description:
-            "El repositorio ya incluye la app de iOS con SQLite local y sincronización, y la app de Android ya está disponible en Google Play.",
+            "Usa gratis la app alojada, consulta el código abierto o ejecútala en tu propia infraestructura.",
         },
       ],
     },

@@ -1,51 +1,46 @@
 import type { PageContent } from "@/lib/content/types";
 
 export const FEATURES_PAGE_CONTENT: PageContent = {
-  title: "Features",
+  title: "Flashcards Features",
   description:
-    "FSRS review, card creation, AI chat, agent-ready onboarding, passwordless auth, self-hosting, and offline-first clients.",
+    "Explore free, open-source flashcards with FSRS spaced repetition, AI-assisted card creation, offline study and sync, portable exports, and self-hosting.",
   slug: "features",
   sections: [
     {
       type: "feature_list",
       title: "Features",
       intro:
-        "A focused flashcards stack: hosted web app, iOS client in the repository, an MCP server and agent API, and the infrastructure already in place for self-hosting.",
+        "Everything you need to create useful cards, review at the right time, keep studying offline, and stay in control of your learning data.",
       items: [
         {
-          title: "FSRS Review",
+          title: "Smarter Reviews with FSRS",
           description:
-            "Due cards are scheduled with FSRS. Submit one of four ratings and the backend updates the next review time using the client review timestamp.",
+            "Review the cards that are due today. FSRS brings difficult cards back sooner and waits longer before showing familiar ones again.",
         },
         {
-          title: "Card Creation And Chat",
+          title: "AI-Assisted Card Creation",
           description:
-            "Create front/back cards from the web client and use AI chat with workspace data and file attachments, including plain text uploads.",
+            "Ask AI to help create cards, improve their wording, or clarify an answer. You stay in control of what gets saved.",
         },
         {
-          title: "Agent-Ready Onboarding",
+          title: "Offline Study with Automatic Sync",
           description:
-            "Add the Flashcards MCP server to Claude, Cursor, or any MCP client and it can read, create, and edit your cards. CLI agents like Claude Code, Codex, or OpenClaw can instead point at the discovery URL, store an API key, and work through the /v1/agent/sql surface — one human step: sharing the latest 8-digit email code.",
+            "Keep reviewing on your mobile device without an internet connection. Changes sync automatically so you can continue on the web, iOS, or Android.",
         },
         {
-          title: "Passwordless Auth",
+          title: "Import, Export, and Own Your Data",
           description:
-            "Email OTP authentication runs on a dedicated auth service. Browser sessions reuse shared-domain cookies so login works cleanly across subdomains.",
+            "Move your learning materials in or out whenever you like. Portable exports include your cards, tags, and related media.",
         },
         {
-          title: "Self-Hosted Stack",
+          title: "Works with AI Agents",
           description:
-            "Run Postgres, auth, backend, and the web client locally. Production deployment is already wired for AWS with CDK, CloudFront, API Gateway, Lambda, and RDS.",
+            "Connect through MCP or the Agent API so AI agents can help create, improve, and organize your cards.",
         },
         {
-          title: "Published Agent API",
+          title: "Free and Self-Hostable",
           description:
-            "The current external contract covers discovery, OTP bootstrap, workspace selection, and a published SQL dialect over workspace, cards, decks, and review events.",
-        },
-        {
-          title: "Offline-First Clients",
-          description:
-            "The repository already ships the iOS client with local SQLite and sync routes on the backend, and the Android app is now available on Google Play.",
+            "Use the hosted app for free, inspect the open-source code, or run it on your own infrastructure.",
         },
       ],
     },
