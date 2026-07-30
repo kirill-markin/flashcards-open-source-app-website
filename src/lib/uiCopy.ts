@@ -59,9 +59,11 @@ interface AppUiCopy {
     readonly activity: {
       readonly dailyUniqueUsersChartDescription: string;
       readonly dailyUniqueUsersChartTitle: string;
+      readonly dateRangeLabel: string;
       readonly daysInRangeLabel: string;
       readonly description: string;
       readonly eyebrow: string;
+      readonly lastUpdatedLabel: string;
       readonly peakDailyUniqueUsersLabel: string;
       readonly peakDailyVolumeLabel: string;
       readonly platformActivityChartDescription: string;
@@ -77,6 +79,7 @@ interface AppUiCopy {
       };
       readonly reviewDateAxisLabel: string;
       readonly reviewEventsAxisLabel: string;
+      readonly rawSnapshotLabel: string;
       readonly sourceLabel: string;
       readonly title: string;
       readonly totalReviewEventsLabel: string;
@@ -177,17 +180,19 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     home: {
       activity: {
         dailyUniqueUsersChartDescription:
-          "Unique users are split into new reviewers on their first review day and returning reviewers who reviewed before. A review means choosing Again, Hard, Good, or Easy on a card.",
-        dailyUniqueUsersChartTitle: "Daily unique users with at least 1 review event - new vs returning",
+          "Reviewers are grouped as new on their first review day or returning if they reviewed before. A review is counted when someone chooses Again, Hard, Good, or Easy on a card.",
+        dailyUniqueUsersChartTitle: "Daily reviewers: new vs returning",
+        dateRangeLabel: "Date range",
         daysInRangeLabel: "Days in range",
         description:
-          "A simpler build-time snapshot of public review activity. Metrics cover the full date range; charts show daily unique users and review events by platform.",
-        eyebrow: "Public Activity",
+          "See aggregate daily review activity across web, iOS, and Android. Published figures are aggregate counts and do not expose card content, email addresses, or individual study histories.",
+        eyebrow: "Activity",
+        lastUpdatedLabel: "Last updated",
         peakDailyUniqueUsersLabel: "Peak daily unique users",
         peakDailyVolumeLabel: "Peak daily volume",
         platformActivityChartDescription:
-          "A review means choosing Again, Hard, Good, or Easy on a card. This chart shows review events by platform.",
-        platformActivityChartTitle: "Daily review events by platform",
+          "A review is counted when someone chooses Again, Hard, Good, or Easy on a card. Counts are grouped by platform.",
+        platformActivityChartTitle: "Daily reviews by platform",
         platformLabels: {
           android: "Android",
           ios: "iOS",
@@ -198,21 +203,22 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
           returning: "Returning",
         },
         reviewDateAxisLabel: "Review date",
-        reviewEventsAxisLabel: "Review events",
-        sourceLabel: "Open Snapshot JSON",
-        title: "Real review activity from the public API",
-        totalReviewEventsLabel: "Total review events",
-        uniqueUsersAxisLabel: "Unique users",
-        usersWithReviewEventsLabel: "Users with review events",
+        reviewEventsAxisLabel: "Reviews",
+        rawSnapshotLabel: "Raw data (JSON)",
+        sourceLabel: "View raw data (JSON)",
+        title: "Flashcards activity",
+        totalReviewEventsLabel: "Total reviews",
+        uniqueUsersAxisLabel: "Reviewers",
+        usersWithReviewEventsLabel: "Reviewers",
       },
       agentHintDescription:
         "Connect your AI agent over MCP: add the Flashcards server to Claude, Cursor, or any MCP client and it can read, create, and edit your cards.",
-      aiAgentSectionLabel: "FOR AI AGENT",
+      aiAgentSectionLabel: "FOR AI AGENTS",
       appPreviewAlt:
         "Flashcards app screens showing review, answer results, progress, AI draft, and card list flows.",
       appPreviewAriaLabel: "App preview",
       appPreviewLabel: "APP PREVIEW",
-      humanSectionLabel: "FOR HUMAN",
+      humanSectionLabel: "FOR PEOPLE",
     },
     legal: {
       lastUpdatedLabel: "Last updated",
@@ -228,7 +234,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     menuToggleLabel: "Toggle menu",
     navigation: {
       blog: "Blog",
-      dashboards: "Dashboards",
+      dashboards: "Activity",
       docs: "Docs",
       features: "Features",
       pricing: "Pricing",
@@ -299,17 +305,19 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     home: {
       activity: {
         dailyUniqueUsersChartDescription:
-          "Los usuarios únicos se dividen entre nuevos usuarios en su primer día de repaso y usuarios recurrentes que ya habían repasado antes. Un repaso significa elegir Again, Hard, Good o Easy en una tarjeta.",
-        dailyUniqueUsersChartTitle: "Usuarios únicos diarios con al menos 1 evento de repaso - nuevos vs recurrentes",
+          "Las personas se agrupan como nuevas en su primer día de repaso o recurrentes si ya habían repasado antes. Un repaso se cuenta cuando alguien elige Again, Hard, Good o Easy en una tarjeta.",
+        dailyUniqueUsersChartTitle: "Personas que repasan cada día: nuevas y recurrentes",
+        dateRangeLabel: "Rango de fechas",
         daysInRangeLabel: "Días en el rango",
         description:
-          "Un snapshot público más simple de la actividad de repasos, capturado durante el build. Las métricas cubren todo el rango de fechas; los gráficos muestran usuarios únicos diarios y eventos de repaso por plataforma.",
-        eyebrow: "Actividad pública",
+          "Consulta la actividad diaria agregada de repasos en la web, iOS y Android. Las cifras publicadas son recuentos agregados y no exponen el contenido de las tarjetas, las direcciones de correo electrónico ni los historiales de estudio individuales.",
+        eyebrow: "Actividad",
+        lastUpdatedLabel: "Última actualización",
         peakDailyUniqueUsersLabel: "Pico diario de usuarios únicos",
         peakDailyVolumeLabel: "Pico diario de volumen",
         platformActivityChartDescription:
-          "Un repaso significa elegir Again, Hard, Good o Easy en una tarjeta. Este gráfico muestra eventos de repaso por plataforma.",
-        platformActivityChartTitle: "Eventos diarios de repaso por plataforma",
+          "Un repaso se cuenta cuando alguien elige Again, Hard, Good o Easy en una tarjeta. Los recuentos se agrupan por plataforma.",
+        platformActivityChartTitle: "Repasos diarios por plataforma",
         platformLabels: {
           android: "Android",
           ios: "iOS",
@@ -320,16 +328,17 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
           returning: "Recurrentes",
         },
         reviewDateAxisLabel: "Fecha de repaso",
-        reviewEventsAxisLabel: "Eventos de repaso",
-        sourceLabel: "Abrir JSON del snapshot",
-        title: "Actividad real desde la API pública",
-        totalReviewEventsLabel: "Eventos de repaso totales",
-        uniqueUsersAxisLabel: "Usuarios únicos",
-        usersWithReviewEventsLabel: "Usuarios con eventos de repaso",
+        reviewEventsAxisLabel: "Repasos",
+        rawSnapshotLabel: "Datos sin procesar (JSON)",
+        sourceLabel: "Ver datos sin procesar (JSON)",
+        title: "Actividad de Flashcards",
+        totalReviewEventsLabel: "Repasos totales",
+        uniqueUsersAxisLabel: "Personas",
+        usersWithReviewEventsLabel: "Personas que han repasado",
       },
       agentHintDescription:
         "Conecta tu agente de IA por MCP: añade el servidor de Flashcards a Claude, Cursor o cualquier cliente MCP y podrá leer, crear y editar tus tarjetas.",
-      aiAgentSectionLabel: "PARA AGENTE DE IA",
+      aiAgentSectionLabel: "PARA AGENTES DE IA",
       appPreviewAlt:
         "Pantallas de Flashcards con repaso, resultados, progreso, borrador con IA y lista de tarjetas.",
       appPreviewAriaLabel: "Vista previa de la app",
@@ -350,7 +359,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     menuToggleLabel: "Abrir menú",
     navigation: {
       blog: "Blog",
-      dashboards: "Paneles",
+      dashboards: "Actividad",
       docs: "Docs",
       features: "Funciones",
       pricing: "Precios",
@@ -421,17 +430,19 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     home: {
       activity: {
         dailyUniqueUsersChartDescription:
-          "ينقسم المستخدمون الفريدون إلى مستخدمين جدد في أول يوم مراجعة لهم ومستخدمين عائدين راجعوا من قبل. المراجعة تعني اختيار Again أو Hard أو Good أو Easy على بطاقة.",
-        dailyUniqueUsersChartTitle: "المستخدمون الفريدون يوميًا مع حدث مراجعة واحد على الأقل - الجدد مقابل العائدين",
+          "يُصنّف المراجعون إلى جدد في أول يوم مراجعة لهم أو عائدين إذا سبق لهم أن راجعوا. تُحتسب المراجعة عند اختيار Again أو Hard أو Good أو Easy على بطاقة.",
+        dailyUniqueUsersChartTitle: "المراجعون يوميًا: الجدد والعائدون",
+        dateRangeLabel: "النطاق الزمني",
         daysInRangeLabel: "الأيام في النطاق",
         description:
-          "لقطة أبسط لنشاط المراجعات العام يتم التقاطها وقت البناء. تغطي المقاييس كامل نطاق التاريخ، وتعرض الرسوم المستخدمين الفريدين يوميًا وأحداث المراجعة حسب المنصة.",
-        eyebrow: "نشاط عام",
+          "اطّلع على نشاط المراجعة اليومي الإجمالي عبر الويب وiOS وAndroid. الأرقام المنشورة هي أعداد إجمالية ولا تكشف محتوى البطاقات أو عناوين البريد الإلكتروني أو سجلات الدراسة الفردية.",
+        eyebrow: "النشاط",
+        lastUpdatedLabel: "آخر تحديث",
         peakDailyUniqueUsersLabel: "أعلى عدد يومي للمستخدمين الفريدين",
         peakDailyVolumeLabel: "أعلى حجم يومي",
         platformActivityChartDescription:
-          "المراجعة تعني اختيار Again أو Hard أو Good أو Easy على بطاقة. يعرض هذا الرسم أحداث المراجعة حسب المنصة.",
-        platformActivityChartTitle: "أحداث المراجعة اليومية حسب المنصة",
+          "تُحتسب المراجعة عند اختيار Again أو Hard أو Good أو Easy على بطاقة. تُجمع الأعداد حسب المنصة.",
+        platformActivityChartTitle: "المراجعات اليومية حسب المنصة",
         platformLabels: {
           android: "Android",
           ios: "iOS",
@@ -442,21 +453,22 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
           returning: "مستخدمون عائدون",
         },
         reviewDateAxisLabel: "تاريخ المراجعة",
-        reviewEventsAxisLabel: "أحداث المراجعة",
-        sourceLabel: "فتح JSON الخاص باللقطة",
-        title: "نشاط حقيقي من الـ API العامة",
-        totalReviewEventsLabel: "إجمالي أحداث المراجعة",
-        uniqueUsersAxisLabel: "المستخدمون الفريدون",
-        usersWithReviewEventsLabel: "مستخدمون لديهم أحداث مراجعة",
+        reviewEventsAxisLabel: "المراجعات",
+        rawSnapshotLabel: "البيانات الأولية (JSON)",
+        sourceLabel: "عرض البيانات الأولية (JSON)",
+        title: "نشاط Flashcards",
+        totalReviewEventsLabel: "إجمالي المراجعات",
+        uniqueUsersAxisLabel: "المراجعون",
+        usersWithReviewEventsLabel: "المراجعون",
       },
       agentHintDescription:
         "اربط وكيل الذكاء الاصطناعي عبر MCP: أضف خادم Flashcards إلى Claude أو Cursor أو أي عميل MCP، وسيتمكن من قراءة بطاقاتك وإنشائها وتحريرها.",
-      aiAgentSectionLabel: "لوكيل الذكاء الاصطناعي",
+      aiAgentSectionLabel: "لوكلاء الذكاء الاصطناعي",
       appPreviewAlt:
         "شاشات Flashcards تعرض المراجعة والنتائج والتقدم ومسودة الذكاء الاصطناعي وقائمة البطاقات.",
       appPreviewAriaLabel: "معاينة التطبيق",
       appPreviewLabel: "معاينة التطبيق",
-      humanSectionLabel: "للمستخدم البشري",
+      humanSectionLabel: "للبشر",
     },
     legal: {
       lastUpdatedLabel: "آخر تحديث",
@@ -472,7 +484,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     menuToggleLabel: "تبديل القائمة",
     navigation: {
       blog: "المدونة",
-      dashboards: "لوحات المعلومات",
+      dashboards: "النشاط",
       docs: "التوثيق",
       features: "الميزات",
       pricing: "الأسعار",
@@ -543,17 +555,19 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     home: {
       activity: {
         dailyUniqueUsersChartDescription:
-          "Eindeutige Nutzer werden in neue Reviewer an ihrem ersten Review-Tag und wiederkehrende Reviewer mit früheren Reviews aufgeteilt. Ein Review bedeutet, auf einer Karte Again, Hard, Good oder Easy zu wählen.",
-        dailyUniqueUsersChartTitle: "Tägliche eindeutige Nutzer mit mindestens 1 Review-Ereignis - neu vs wiederkehrend",
+          "Lernende gelten am ersten Wiederholungstag als neu und danach als wiederkehrend. Eine Wiederholung wird gezählt, wenn auf einer Karte Again, Hard, Good oder Easy gewählt wird.",
+        dailyUniqueUsersChartTitle: "Tägliche Lernende: neu vs. wiederkehrend",
+        dateRangeLabel: "Zeitraum",
         daysInRangeLabel: "Tage im Zeitraum",
         description:
-          "Ein einfacherer Build-Time-Snapshot der öffentlichen Review-Aktivität. Die Metriken decken den gesamten Zeitraum ab; die Charts zeigen tägliche eindeutige Nutzer und Review-Ereignisse nach Plattform.",
-        eyebrow: "Öffentliche Aktivität",
+          "Sieh dir die aggregierte tägliche Wiederholungsaktivität im Web, auf iOS und Android an. Die veröffentlichten Zahlen sind aggregierte Zählwerte und legen weder Karteninhalte noch E-Mail-Adressen oder individuelle Lernverläufe offen.",
+        eyebrow: "Aktivität",
+        lastUpdatedLabel: "Zuletzt aktualisiert",
         peakDailyUniqueUsersLabel: "Höchste tägliche eindeutige Nutzer",
         peakDailyVolumeLabel: "Höchstes tägliches Volumen",
         platformActivityChartDescription:
-          "Ein Review bedeutet, auf einer Karte Again, Hard, Good oder Easy zu wählen. Dieser Chart zeigt Review-Ereignisse nach Plattform.",
-        platformActivityChartTitle: "Tägliche Review-Ereignisse nach Plattform",
+          "Eine Wiederholung wird gezählt, wenn auf einer Karte Again, Hard, Good oder Easy gewählt wird. Die Zählwerte sind nach Plattform gruppiert.",
+        platformActivityChartTitle: "Tägliche Wiederholungen nach Plattform",
         platformLabels: {
           android: "Android",
           ios: "iOS",
@@ -563,13 +577,14 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
           new: "Neu",
           returning: "Wiederkehrend",
         },
-        reviewDateAxisLabel: "Review-Datum",
-        reviewEventsAxisLabel: "Review-Ereignisse",
-        sourceLabel: "Snapshot-JSON öffnen",
-        title: "Reale Aktivität aus der öffentlichen API",
-        totalReviewEventsLabel: "Review-Ereignisse gesamt",
-        uniqueUsersAxisLabel: "Eindeutige Nutzer",
-        usersWithReviewEventsLabel: "Nutzer mit Review-Ereignissen",
+        reviewDateAxisLabel: "Wiederholungsdatum",
+        reviewEventsAxisLabel: "Wiederholungen",
+        rawSnapshotLabel: "Rohdaten (JSON)",
+        sourceLabel: "Rohdaten ansehen (JSON)",
+        title: "Flashcards-Aktivität",
+        totalReviewEventsLabel: "Wiederholungen gesamt",
+        uniqueUsersAxisLabel: "Lernende",
+        usersWithReviewEventsLabel: "Lernende",
       },
       agentHintDescription:
         "Verbinde deinen KI-Agenten über MCP: Füge den Flashcards-Server zu Claude, Cursor oder einem beliebigen MCP-Client hinzu, und er kann deine Karten lesen, erstellen und bearbeiten.",
@@ -594,7 +609,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     menuToggleLabel: "Menü umschalten",
     navigation: {
       blog: "Blog",
-      dashboards: "Dashboards",
+      dashboards: "Aktivität",
       docs: "Doku",
       features: "Funktionen",
       pricing: "Preise",
@@ -665,17 +680,19 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     home: {
       activity: {
         dailyUniqueUsersChartDescription:
-          "Unique users को उनके पहले review दिन वाले नए reviewers और पहले review कर चुके वापस आने वाले reviewers में बांटा गया है। review का मतलब कार्ड पर Again, Hard, Good या Easy चुनना है।",
-        dailyUniqueUsersChartTitle: "कम से कम 1 review event वाले रोज़ाना unique users - नए vs वापस आने वाले",
-        daysInRangeLabel: "Range में दिन",
+          "पहले रिव्यू के दिन लोगों को नया और उसके बाद वापस आने वाला माना जाता है। कार्ड पर Again, Hard, Good या Easy चुनने पर एक रिव्यू गिना जाता है।",
+        dailyUniqueUsersChartTitle: "रोज़ाना रिव्यू करने वाले: नए और वापस आने वाले",
+        dateRangeLabel: "तारीख़ की सीमा",
+        daysInRangeLabel: "सीमा में दिन",
         description:
-          "Public review activity का एक सरल build-time snapshot. Metrics पूरे date range को cover करते हैं; charts रोज़ाना unique users और platform के हिसाब से review events दिखाते हैं।",
-        eyebrow: "पब्लिक एक्टिविटी",
-        peakDailyUniqueUsersLabel: "Peak daily unique users",
-        peakDailyVolumeLabel: "Peak daily volume",
+          "वेब, iOS और Android पर रोज़ की कुल रिव्यू गतिविधि देखें। प्रकाशित आंकड़े केवल कुल गिनती हैं; इनमें कार्ड का कॉन्टेंट, ईमेल पते या किसी व्यक्ति का पढ़ाई का इतिहास शामिल नहीं है।",
+        eyebrow: "गतिविधि",
+        lastUpdatedLabel: "आख़िरी अपडेट",
+        peakDailyUniqueUsersLabel: "रोज़ाना रिव्यू करने वालों का शिखर",
+        peakDailyVolumeLabel: "रोज़ाना रिव्यू का शिखर",
         platformActivityChartDescription:
-          "review का मतलब कार्ड पर Again, Hard, Good या Easy चुनना है। यह chart platform के हिसाब से review events दिखाता है।",
-        platformActivityChartTitle: "Platform के हिसाब से daily review events",
+          "कार्ड पर Again, Hard, Good या Easy चुनने पर एक रिव्यू गिना जाता है। गिनती को प्लैटफ़ॉर्म के हिसाब से समूहित किया गया है।",
+        platformActivityChartTitle: "प्लैटफ़ॉर्म के हिसाब से रोज़ाना रिव्यू",
         platformLabels: {
           android: "Android",
           ios: "iOS",
@@ -685,22 +702,23 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
           new: "नए",
           returning: "वापस आने वाले",
         },
-        reviewDateAxisLabel: "Review date",
-        reviewEventsAxisLabel: "Review events",
-        sourceLabel: "Snapshot JSON खोलें",
-        title: "Public API से वास्तविक activity",
-        totalReviewEventsLabel: "Total review events",
-        uniqueUsersAxisLabel: "Unique users",
-        usersWithReviewEventsLabel: "Users with review events",
+        reviewDateAxisLabel: "रिव्यू की तारीख़",
+        reviewEventsAxisLabel: "रिव्यू",
+        rawSnapshotLabel: "मूल डेटा (JSON)",
+        sourceLabel: "मूल डेटा देखें (JSON)",
+        title: "Flashcards गतिविधि",
+        totalReviewEventsLabel: "कुल रिव्यू",
+        uniqueUsersAxisLabel: "रिव्यू करने वाले",
+        usersWithReviewEventsLabel: "रिव्यू करने वाले",
       },
       agentHintDescription:
         "अपने AI agent को MCP से कनेक्ट करें: Flashcards server को Claude, Cursor या किसी भी MCP client में जोड़ें और वह आपके cards पढ़, बना और संपादित कर सकता है।",
-      aiAgentSectionLabel: "AI AGENT के लिए",
+      aiAgentSectionLabel: "AI एजेंट्स के लिए",
       appPreviewAlt:
         "Flashcards की स्क्रीनें जिनमें review, results, progress, AI draft और cards list दिखाई देते हैं।",
       appPreviewAriaLabel: "ऐप प्रीव्यू",
       appPreviewLabel: "ऐप प्रीव्यू",
-      humanSectionLabel: "इंसानों के लिए",
+      humanSectionLabel: "लोगों के लिए",
     },
     legal: {
       lastUpdatedLabel: "आख़िरी अपडेट",
@@ -716,7 +734,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     menuToggleLabel: "मेनू खोलें",
     navigation: {
       blog: "ब्लॉग",
-      dashboards: "डैशबोर्ड",
+      dashboards: "गतिविधि",
       docs: "डॉक्स",
       features: "फ़ीचर्स",
       pricing: "कीमत",
@@ -787,17 +805,19 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     home: {
       activity: {
         dailyUniqueUsersChartDescription:
-          "ユニークユーザーを、初めてレビューした日の新規ユーザーと、以前にもレビューしたリピーターに分けて表示します。レビューとは、カードで Again、Hard、Good、Easy のいずれかを選ぶことです。",
-        dailyUniqueUsersChartTitle: "1 回以上のレビューイベントがある日別ユニークユーザー - 新規 vs リピーター",
+          "初めてレビューした日は新規、それ以降はリピーターとして集計します。カードで Again、Hard、Good、Easy のいずれかを選ぶと、レビュー 1 回として数えられます。",
+        dailyUniqueUsersChartTitle: "日別レビューユーザー：新規とリピーター",
+        dateRangeLabel: "対象期間",
         daysInRangeLabel: "期間内の日数",
         description:
-          "公開レビュー活動をビルド時に取得した、よりシンプルなスナップショットです。指標は期間全体を対象にし、グラフは日別ユニークユーザーとプラットフォーム別レビューイベントを示します。",
-        eyebrow: "公開アクティビティ",
+          "ウェブ、iOS、Android 全体の日別レビュー活動を集計値で確認できます。公開される数値は集計データであり、カードの内容、メールアドレス、個人の学習履歴は公開されません。",
+        eyebrow: "アクティビティ",
+        lastUpdatedLabel: "最終更新",
         peakDailyUniqueUsersLabel: "日別ユニークユーザーの最大値",
         peakDailyVolumeLabel: "日別ボリュームの最大値",
         platformActivityChartDescription:
-          "レビューとは、カードで Again、Hard、Good、Easy のいずれかを選ぶことです。このグラフはプラットフォーム別のレビューイベントを示します。",
-        platformActivityChartTitle: "プラットフォーム別の日別レビューイベント",
+          "カードで Again、Hard、Good、Easy のいずれかを選ぶと、レビュー 1 回として数えられます。集計値はプラットフォーム別に表示します。",
+        platformActivityChartTitle: "プラットフォーム別の日別レビュー",
         platformLabels: {
           android: "Android",
           ios: "iOS",
@@ -808,12 +828,13 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
           returning: "リピーター",
         },
         reviewDateAxisLabel: "レビュー日",
-        reviewEventsAxisLabel: "レビューイベント",
-        sourceLabel: "Snapshot JSON を開く",
-        title: "公開 API から見える実際のアクティビティ",
-        totalReviewEventsLabel: "レビューイベント合計",
-        uniqueUsersAxisLabel: "ユニークユーザー",
-        usersWithReviewEventsLabel: "レビューイベントがあるユーザー",
+        reviewEventsAxisLabel: "レビュー",
+        rawSnapshotLabel: "生データ（JSON）",
+        sourceLabel: "生データを見る（JSON）",
+        title: "Flashcards のアクティビティ",
+        totalReviewEventsLabel: "レビュー合計",
+        uniqueUsersAxisLabel: "レビューユーザー",
+        usersWithReviewEventsLabel: "レビューユーザー",
       },
       agentHintDescription:
         "AI エージェントを MCP で接続しましょう。Flashcards サーバーを Claude や Cursor など任意の MCP クライアントに追加すれば、カードの閲覧・作成・編集を任せられます。",
@@ -822,7 +843,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
         "レビュー、結果、進捗、AI 下書き、カード一覧を示す Flashcards の画面。",
       appPreviewAriaLabel: "アプリのプレビュー",
       appPreviewLabel: "アプリプレビュー",
-      humanSectionLabel: "人向け",
+      humanSectionLabel: "利用者向け",
     },
     legal: {
       lastUpdatedLabel: "最終更新",
@@ -838,7 +859,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     menuToggleLabel: "メニューを切り替える",
     navigation: {
       blog: "ブログ",
-      dashboards: "ダッシュボード",
+      dashboards: "アクティビティ",
       docs: "ドキュメント",
       features: "機能",
       pricing: "料金",
@@ -909,17 +930,19 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     home: {
       activity: {
         dailyUniqueUsersChartDescription:
-          "Уникальные пользователи разделены на новых пользователей в их первый день повторений и вернувшихся пользователей, которые повторяли раньше. Повторение означает выбор Again, Hard, Good или Easy на карточке.",
-        dailyUniqueUsersChartTitle: "Дневные уникальные пользователи с минимум 1 событием повторения - новые vs вернувшиеся",
+          "В первый день повторений пользователи считаются новыми, а затем — вернувшимися. Повторение засчитывается при выборе Again, Hard, Good или Easy на карточке.",
+        dailyUniqueUsersChartTitle: "Пользователи с повторениями по дням: новые и вернувшиеся",
+        dateRangeLabel: "Период",
         daysInRangeLabel: "Дней в периоде",
         description:
-          "Более простой build-time snapshot публичной активности повторений. Метрики покрывают весь период; графики показывают дневных уникальных пользователей и события повторений по платформам.",
-        eyebrow: "Публичная активность",
+          "Посмотрите агрегированную дневную активность повторений в веб-версии, iOS и Android. Публикуются только суммарные показатели: они не раскрывают содержимое карточек, адреса электронной почты и индивидуальную историю обучения.",
+        eyebrow: "Активность",
+        lastUpdatedLabel: "Последнее обновление",
         peakDailyUniqueUsersLabel: "Пик дневных уникальных пользователей",
         peakDailyVolumeLabel: "Пиковый дневной объём",
         platformActivityChartDescription:
-          "Повторение означает выбор Again, Hard, Good или Easy на карточке. Этот график показывает события повторений по платформам.",
-        platformActivityChartTitle: "Дневные события повторений по платформам",
+          "Повторение засчитывается при выборе Again, Hard, Good или Easy на карточке. Показатели сгруппированы по платформам.",
+        platformActivityChartTitle: "Ежедневные повторения по платформам",
         platformLabels: {
           android: "Android",
           ios: "iOS",
@@ -930,21 +953,22 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
           returning: "Вернувшиеся",
         },
         reviewDateAxisLabel: "Дата повторения",
-        reviewEventsAxisLabel: "События повторений",
-        sourceLabel: "Открыть Snapshot JSON",
-        title: "Реальная активность из публичного API",
-        totalReviewEventsLabel: "Всего событий повторений",
-        uniqueUsersAxisLabel: "Уникальные пользователи",
-        usersWithReviewEventsLabel: "Пользователи с событиями повторений",
+        reviewEventsAxisLabel: "Повторения",
+        rawSnapshotLabel: "Исходные данные (JSON)",
+        sourceLabel: "Посмотреть исходные данные (JSON)",
+        title: "Активность Flashcards",
+        totalReviewEventsLabel: "Всего повторений",
+        uniqueUsersAxisLabel: "Пользователи",
+        usersWithReviewEventsLabel: "Пользователи с повторениями",
       },
       agentHintDescription:
         "Подключите своего AI-агента по MCP: добавьте сервер Flashcards в Claude, Cursor или любой MCP-клиент, и он сможет читать, создавать и редактировать ваши карточки.",
-      aiAgentSectionLabel: "ДЛЯ AI-АГЕНТА",
+      aiAgentSectionLabel: "ДЛЯ AI-АГЕНТОВ",
       appPreviewAlt:
         "Экраны Flashcards с повторением, результатами, прогрессом, AI-черновиком и списком карточек.",
       appPreviewAriaLabel: "Предпросмотр приложения",
       appPreviewLabel: "ПРЕДПРОСМОТР ПРИЛОЖЕНИЯ",
-      humanSectionLabel: "ДЛЯ ЧЕЛОВЕКА",
+      humanSectionLabel: "ДЛЯ ЛЮДЕЙ",
     },
     legal: {
       lastUpdatedLabel: "Последнее обновление",
@@ -960,7 +984,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     menuToggleLabel: "Открыть меню",
     navigation: {
       blog: "Блог",
-      dashboards: "Дашборды",
+      dashboards: "Активность",
       docs: "Документация",
       features: "Возможности",
       pricing: "Цены",
@@ -1029,17 +1053,19 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     home: {
       activity: {
         dailyUniqueUsersChartDescription:
-          "独立用户会拆分为首次复习当天的新用户，以及之前已经复习过的回访用户。复习是指在卡片上选择 Again、Hard、Good 或 Easy。",
-        dailyUniqueUsersChartTitle: "每日独立用户，至少有 1 次复习事件 - 新用户 vs 回访用户",
+          "用户首次复习当天计为新用户，之后计为回访用户。在卡片上选择 Again、Hard、Good 或 Easy 时，会计为一次复习。",
+        dailyUniqueUsersChartTitle: "每日复习用户：新用户与回访用户",
+        dateRangeLabel: "日期范围",
         daysInRangeLabel: "范围内天数",
         description:
-          "这是构建时捕获的公开复习活动简化快照。指标覆盖整个日期范围；图表展示每日独立用户，以及按平台划分的复习事件。",
-        eyebrow: "公开活动",
+          "查看网页、iOS 和 Android 上汇总的每日复习活动。发布的数字均为汇总计数，不会公开卡片内容、电子邮件地址或个人学习记录。",
+        eyebrow: "活动",
+        lastUpdatedLabel: "最后更新",
         peakDailyUniqueUsersLabel: "每日独立用户峰值",
         peakDailyVolumeLabel: "每日复习量峰值",
         platformActivityChartDescription:
-          "复习是指在卡片上选择 Again、Hard、Good 或 Easy。此图表按平台展示复习事件。",
-        platformActivityChartTitle: "按平台划分的每日复习事件",
+          "在卡片上选择 Again、Hard、Good 或 Easy 时，会计为一次复习。计数按平台分组。",
+        platformActivityChartTitle: "各平台每日复习次数",
         platformLabels: {
           android: "Android",
           ios: "iOS",
@@ -1050,16 +1076,17 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
           returning: "回访用户",
         },
         reviewDateAxisLabel: "复习日期",
-        reviewEventsAxisLabel: "复习事件",
-        sourceLabel: "打开 Snapshot JSON",
-        title: "来自公开 API 的真实活动数据",
-        totalReviewEventsLabel: "复习事件总数",
-        uniqueUsersAxisLabel: "独立用户",
-        usersWithReviewEventsLabel: "有复习事件的用户",
+        reviewEventsAxisLabel: "复习次数",
+        rawSnapshotLabel: "原始数据（JSON）",
+        sourceLabel: "查看原始数据（JSON）",
+        title: "Flashcards 活动",
+        totalReviewEventsLabel: "复习总数",
+        uniqueUsersAxisLabel: "复习用户",
+        usersWithReviewEventsLabel: "复习用户",
       },
       agentHintDescription:
         "通过 MCP 连接你的 AI agent：把 Flashcards 服务器添加到 Claude、Cursor 或任意 MCP 客户端，它就能为你读取、创建和编辑卡片。",
-      aiAgentSectionLabel: "面向 AI AGENT",
+      aiAgentSectionLabel: "面向 AI 智能体",
       appPreviewAlt:
         "Flashcards 应用界面，展示复习、结果、进度、AI 草稿和卡片列表流程。",
       appPreviewAriaLabel: "应用预览",
@@ -1080,7 +1107,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     menuToggleLabel: "切换菜单",
     navigation: {
       blog: "博客",
-      dashboards: "仪表盘",
+      dashboards: "活动",
       docs: "文档",
       features: "功能",
       pricing: "价格",
