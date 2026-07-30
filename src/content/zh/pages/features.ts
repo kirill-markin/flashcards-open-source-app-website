@@ -1,51 +1,46 @@
 import type { PageContent } from "@/lib/content/types";
 
 export const FEATURES_PAGE_CONTENT: PageContent = {
-  title: "功能",
+  title: "Flashcards 功能",
   description:
-    "FSRS 复习、卡片创建、AI 对话、面向 Agent 的接入流程、免密码认证、自托管，以及离线优先客户端。",
+    "探索免费开源闪卡应用的 FSRS 间隔重复、AI 辅助创建、离线学习、数据导出和自行托管功能。",
   slug: "features",
   sections: [
     {
       type: "feature_list",
       title: "功能",
       intro:
-        "一套聚焦而完整的闪卡产品组合：托管式 Web 应用、仓库内提供的 iOS 客户端、MCP 服务器与 Agent API，以及已准备就绪的自托管基础设施。",
+        "创建实用闪卡、按时复习、离线学习并掌控学习数据所需的功能，都集中在这里。",
       items: [
         {
-          title: "FSRS 复习",
+          title: "用 FSRS 更聪明地复习",
           description:
-            "到期卡片会由 FSRS 安排复习节奏。提交四档评分中的任意一种后，后端会根据客户端记录的复习时间戳更新下一次复习时间。",
+            "复习今天到期的闪卡。FSRS 会让较难的闪卡更早出现，并延长熟悉闪卡的再次出现间隔。",
         },
         {
-          title: "卡片创建与 AI 对话",
+          title: "AI 辅助创建闪卡",
           description:
-            "你可以在 Web 客户端中创建正反面卡片，并结合工作区数据和文件附件使用 AI 对话，其中也包括纯文本上传内容。",
+            "让 AI 帮你创建闪卡、优化措辞或解释答案。最终保存哪些内容，由你决定。",
         },
         {
-          title: "面向 Agent 的接入流程",
+          title: "离线学习与自动同步",
           description:
-            "把 Flashcards MCP 服务器添加到 Claude、Cursor 或任意 MCP 客户端，Agent 就能为你读取、创建和编辑卡片。Claude Code、Codex 或 OpenClaw 等 CLI Agent 也可以改用 discovery 地址，保存 API 密钥，并通过 /v1/agent/sql 接口工作。人工只需提供最新的 8 位邮箱验证码。",
+            "没有网络时也能在移动设备上继续复习。更改会自动同步，让你可以在 Web、iOS 或 Android 上接着学习。",
         },
         {
-          title: "免密码认证",
+          title: "导入、导出并掌控数据",
           description:
-            "邮箱 OTP 认证运行在独立的认证服务上。浏览器会话会复用共享域 Cookie，因此登录状态可以在各个子域之间自然延续。",
+            "随时将学习资料导入或导出。便携式导出包包含你的闪卡、标签和相关媒体。",
         },
         {
-          title: "自托管部署方案",
+          title: "支持 AI 代理",
           description:
-            "你可以在本地运行 Postgres、认证服务、后端和 Web 客户端。生产环境部署也已通过 CDK、CloudFront、API Gateway、Lambda 和 RDS 接入 AWS。",
+            "通过 MCP 或 Agent API 连接 AI 代理，让它们帮助创建、改进和整理闪卡。",
         },
         {
-          title: "已发布的 Agent API",
+          title: "免费且可自行托管",
           description:
-            "当前对外公开的接口契约已覆盖 discovery 接口、OTP 引导流程、工作区选择，以及围绕工作区、卡片、卡组和复习事件定义的 SQL 方言。",
-        },
-        {
-          title: "离线优先客户端",
-          description:
-            "仓库中已经提供支持本地 SQLite 和后端同步路由的 iOS 客户端，Android 应用也已上架 Google Play。",
+            "免费使用托管版应用、查看开源代码，或在自己的基础设施上运行。",
         },
       ],
     },

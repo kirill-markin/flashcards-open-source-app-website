@@ -3,19 +3,19 @@ import type { PageContent } from "@/lib/content/types";
 export const HOME_PAGE_CONTENT: PageContent = {
   title: "Flashcards - 免费开源的间隔重复闪卡应用",
   description:
-    "使用这款免费的开源闪卡应用创建卡片，学得更多，忘得更少；它支持 FSRS 间隔重复、离线学习、AI 辅助和 MCP。",
+    "免费开源闪卡应用，支持 FSRS 间隔重复、AI 辅助创建、离线学习与同步、数据导出和自行托管。",
   slug: "home",
   sections: [
     {
       type: "hero",
       eyebrow: "免费且开源",
       titleLines: [
-        "创建卡片。",
-        "学得更多。",
-        "忘得更少。",
+        "创建闪卡。",
+        "更聪明地复习。",
+        "记住更多。",
       ],
       subtitle:
-        "一款免费的开源闪卡应用，支持 FSRS 间隔重复、离线学习和 AI 辅助。你可以在 Web、iOS 或 Android 上学习，也可以通过 MCP 连接 AI 代理。",
+        "一款免费开源的闪卡应用，会在恰当的时间安排复习，支持离线使用，并在 Web、iOS 和 Android 之间同步。需要创建或改进闪卡时，可以选择让 AI 帮忙。",
       trustLine: "无需信用卡。没有广告。没有试用倒计时。",
       primaryLink: {
         label: "开始使用",
@@ -42,37 +42,37 @@ export const HOME_PAGE_CONTENT: PageContent = {
       type: "feature_list",
       title: "功能",
       intro:
-        "一套聚焦且完整的闪卡方案：托管版 Web 应用、仓库内的 iOS 客户端、面向 AI 代理的 MCP 服务器，以及已经就绪的自托管基础设施。",
+        "创建实用闪卡、按时复习、离线学习并掌控学习数据所需的功能，都集中在这里。",
       items: [
         {
-          title: "间隔重复",
+          title: "用 FSRS 更聪明地复习",
           description:
-            "借助 FSRS 调度和简洁的评分流程复习卡片。后端与 iOS 客户端的调度行为保持一致。",
+            "复习今天到期的闪卡。FSRS 会让较难的闪卡更早出现，并延长熟悉闪卡的再次出现间隔。",
         },
         {
-          title: "Web 应用与 AI 对话",
+          title: "AI 辅助创建闪卡",
           description:
-            "在托管版 Web 应用中创建卡片、浏览卡片库、复习到期内容，并使用支持文件附件的 AI 对话。",
+            "让 AI 帮你创建闪卡、优化措辞或解释答案。最终保存哪些内容，由你决定。",
         },
         {
-          title: "免密码登录",
+          title: "离线学习与自动同步",
           description:
-            "通过 Cognito 发送邮箱一次性验证码，并在 auth 与 app 两个子域之间共享同一域下的 Cookie。",
+            "没有网络时也能在移动设备上继续复习。更改会自动同步，让你可以在 Web、iOS 或 Android 上接着学习。",
         },
         {
-          title: "代理接入就绪",
+          title: "导入、导出并掌控数据",
           description:
-            "把 Flashcards MCP 服务器添加到你的 AI 客户端，授权一次，它就能加载你的工作区，并为你创建、编辑和复习卡片。",
+            "随时将学习资料导入或导出。便携式导出包包含你的闪卡、标签和相关媒体。",
         },
         {
-          title: "自托管",
+          title: "支持 AI 代理",
           description:
-            "在本地运行 Postgres，分别启动 auth、backend 和 web 三个服务，并继续掌控自己的 AWS 部署路径。",
+            "通过 MCP 或 Agent API 连接 AI 代理，让它们帮助创建、改进和整理闪卡。",
         },
         {
-          title: "离线优先客户端",
+          title: "免费且可自行托管",
           description:
-            "仓库中已经包含支持本地 SQLite 与同步功能的 iOS 应用，Android 应用也已上线 Google Play。",
+            "免费使用托管版应用、查看开源代码，或在自己的基础设施上运行。",
         },
       ],
     },

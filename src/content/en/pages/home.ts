@@ -1,9 +1,9 @@
 import type { PageContent } from "@/lib/content/types";
 
 export const HOME_PAGE_CONTENT: PageContent = {
-  title: "Flashcards - Free Open-Source Spaced Repetition App",
+  title: "Flashcards App - Free, Open-Source Spaced Repetition",
   description:
-    "Create cards, learn more, and forget less with a free, open-source flashcards app for FSRS spaced repetition, offline study, AI help, and MCP.",
+    "Free, open-source flashcards with FSRS spaced repetition, AI-assisted card creation, offline study and sync, portable exports, and self-hosting.",
   slug: "home",
   sections: [
     {
@@ -11,11 +11,11 @@ export const HOME_PAGE_CONTENT: PageContent = {
       eyebrow: "Free & open source",
       titleLines: [
         "Create cards.",
-        "Learn more.",
-        "Forget less.",
+        "Review smarter.",
+        "Remember more.",
       ],
       subtitle:
-        "A free, open-source flashcards app with FSRS spaced repetition, offline study, and AI help. Study on the web, iOS, or Android, and connect AI agents through MCP.",
+        "Free, open-source flashcards that schedule each review for the right time, work offline, and sync across the web, iOS, and Android. Use AI when you want help creating or improving cards.",
       trustLine: "No credit card. No ads. No trial countdown.",
       primaryLink: {
         label: "Get Started",
@@ -42,37 +42,37 @@ export const HOME_PAGE_CONTENT: PageContent = {
       type: "feature_list",
       title: "Features",
       intro:
-        "A focused flashcards stack: hosted web app, iOS client in the repo, an MCP server for AI agents, and the infrastructure already in place for self-hosting.",
+        "Everything you need to create useful cards, review at the right time, keep studying offline, and stay in control of your learning data.",
       items: [
         {
-          title: "Spaced Repetition",
+          title: "Smarter Reviews with FSRS",
           description:
-            "Review cards with FSRS scheduling and a simple rating flow. The backend and iOS client keep the scheduler behavior aligned.",
+            "Review the cards that are due today. FSRS brings difficult cards back sooner and waits longer before showing familiar ones again.",
         },
         {
-          title: "Web App And AI Chat",
+          title: "AI-Assisted Card Creation",
           description:
-            "Create cards, browse your collection, review due items, and work with AI chat plus file attachments in the hosted web app.",
+            "Ask AI to help create cards, improve their wording, or clarify an answer. You stay in control of what gets saved.",
         },
         {
-          title: "Passwordless Auth",
+          title: "Offline Study with Automatic Sync",
           description:
-            "Email OTP via Cognito with shared-domain cookies across the auth and app subdomains.",
+            "Keep reviewing on your mobile device without an internet connection. Changes sync automatically so you can continue on the web, iOS, or Android.",
         },
         {
-          title: "Agent-Ready Onboarding",
+          title: "Import, Export, and Own Your Data",
           description:
-            "Add the Flashcards MCP server to your AI client, authorize it once, and let it load your workspace and create, edit, and review cards for you.",
+            "Move your learning materials in or out whenever you like. Portable exports include your cards, tags, and related media.",
         },
         {
-          title: "Self-Hosted",
+          title: "Works with AI Agents",
           description:
-            "Run Postgres locally, start auth, backend, and web separately, and keep the AWS deployment path under your control.",
+            "Connect through MCP or the Agent API so AI agents can help create, improve, and organize your cards.",
         },
         {
-          title: "Offline-First Clients",
+          title: "Free and Self-Hostable",
           description:
-            "The repository already includes the iOS app with local SQLite and sync, and the Android app is now available on Google Play.",
+            "Use the hosted app for free, inspect the open-source code, or run it on your own infrastructure.",
         },
       ],
     },
