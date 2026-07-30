@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { AppLocale } from "@/lib/i18n";
 import { getLocalizedPathname } from "@/lib/i18n";
+import { getUiCopy } from "@/lib/uiCopy";
 import { AuthButton } from "./AuthButton";
 import { HeaderMobileMenu } from "./HeaderMobileMenu";
 import { getHeaderLinks } from "./headerLinks";
@@ -12,6 +13,7 @@ interface HeaderProps {
 
 export const Header: React.FC<HeaderProps> = ({ locale }) => {
   const headerLinks = getHeaderLinks(locale);
+  const uiCopy = getUiCopy(locale);
 
   return (
     <header className={styles.header}>
@@ -28,7 +30,11 @@ export const Header: React.FC<HeaderProps> = ({ locale }) => {
           ))}
         </nav>
         <div className={styles.desktopAuth}>
-          <AuthButton locale={locale} placement="header_desktop" />
+          <AuthButton
+            locale={locale}
+            placement="header_desktop"
+            signupLabel={uiCopy.auth.signUpFree}
+          />
         </div>
 
         <HeaderMobileMenu locale={locale} headerLinks={headerLinks} />
