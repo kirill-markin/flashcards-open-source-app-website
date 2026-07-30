@@ -1,0 +1,80 @@
+.panel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+  padding: 24px;
+  text-align: center;
+  background: var(--accent-soft);
+  border-radius: var(--radius-lg);
+}
+
+.full {
+  width: auto;
+}
+
+.compactSide {
+  gap: 10px;
+  padding: 12px;
+  border: 1px solid var(--border);
+}
+
+.image {
+  width: 100%;
+  max-width: 420px;
+  height: auto;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border);
+}
+
+.compactSide .image {
+  max-width: 100%;
+  border-radius: var(--radius-sm);
+}
+
+.heading {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--text);
+}
+
+.compactSide .heading {
+  font-size: 14px;
+  line-height: 1.3;
+}
+
+.actionSlot > a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 42px;
+  padding-inline: 20px;
+  border: 1px solid transparent;
+  border-radius: var(--radius-pill);
+  font-size: 14px;
+  font-weight: 600;
+  background: var(--accent);
+  color: #fff5f2;
+  box-shadow: var(--shadow-soft);
+  transition:
+    transform 140ms ease,
+    background 140ms ease;
+}
+
+.compactSide .actionSlot > a {
+  min-height: 36px;
+  padding-inline: 16px;
+}
+
+.actionSlot > a:focus-visible {
+  outline: 2px solid rgba(255, 214, 201, 0.42);
+  outline-offset: 3px;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .actionSlot > a:hover {
+    background: var(--accent-strong);
+    color: #fff5f2;
+    transform: translateY(-1px);
+  }
+}

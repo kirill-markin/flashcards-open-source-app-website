@@ -1,38 +1,20 @@
 "use client";
 
-import { track } from "@vercel/analytics";
-import { getAppUrl, getSignupUrl, getLoginUrl } from "@/lib/auth";
+import { getAppUrl, getLoginUrl, getSignupUrl } from "@/lib/auth";
+import {
+  trackAppEntryClick,
+  type AppEntryPlacement,
+} from "@/lib/appEntryTracking";
 import type { AppLocale } from "@/lib/i18n";
 import { getLocalizedPathname } from "@/lib/i18n";
 import { getUiCopy } from "@/lib/uiCopy";
 import { useLoggedInCookie } from "@/lib/useLoggedInCookie";
 import styles from "./AuthButton.module.css";
 
-export type AuthButtonPlacement =
-  | "header_desktop"
-  | "header_mobile"
-  | "home_hero"
-  | "pricing";
-
 interface AuthButtonProps {
   readonly locale: AppLocale;
-  readonly placement: AuthButtonPlacement;
+  readonly placement: AppEntryPlacement;
   readonly signupLabel: string;
-}
-
-type AppEntryAction = "login" | "open_app" | "signup";
-
-function trackAppEntryClick(
-  action: AppEntryAction,
-  locale: AppLocale,
-  placement: AuthButtonPlacement
-): void {
-  track("app_entry_click", {
-    action,
-    locale,
-    platform: "web",
-    placement,
-  });
 }
 
 export const AuthButton: React.FC<AuthButtonProps> = ({
