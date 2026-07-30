@@ -1,51 +1,46 @@
 import type { PageContent } from "@/lib/content/types";
 
 export const FEATURES_PAGE_CONTENT: PageContent = {
-  title: "Características",
+  title: "Características de Flashcards",
   description:
-    "Repaso con FSRS, creación de tarjetas, chat con IA, puesta en marcha preparada para agentes, autenticación sin contraseña, alojamiento propio y clientes pensados para funcionar sin conexión.",
+    "Descubre flashcards gratuitas y de código abierto con repetición espaciada FSRS, creación con IA, estudio sin conexión, exportación y alojamiento propio.",
   slug: "features",
   sections: [
     {
       type: "feature_list",
       title: "Características",
       intro:
-        "Una plataforma de flashcards centrada en lo esencial: app web alojada, cliente iOS en el repositorio, un servidor MCP y una API para agentes, e infraestructura ya preparada para alojarla por tu cuenta.",
+        "Todo lo necesario para crear tarjetas útiles, repasar en el momento adecuado, seguir estudiando sin conexión y mantener el control de tus datos.",
       items: [
         {
-          title: "Repaso con FSRS",
+          title: "Repasos más inteligentes con FSRS",
           description:
-            "Las tarjetas pendientes se programan con FSRS. Envía una de cuatro valoraciones y el backend actualiza la fecha del próximo repaso usando la marca temporal enviada por el cliente.",
+            "Repasa las tarjetas que tocan hoy. FSRS muestra antes las que te cuestan y espera más para volver a enseñarte las que ya dominas.",
         },
         {
-          title: "Creación de tarjetas y chat",
+          title: "Creación de tarjetas con ayuda de IA",
           description:
-            "Crea tarjetas de anverso y reverso desde la app web y usa el chat con IA con datos del espacio de trabajo y archivos adjuntos, incluida la subida de texto plano.",
+            "Pide a la IA que te ayude a crear tarjetas, mejorar su redacción o aclarar una respuesta. Tú decides qué se guarda.",
         },
         {
-          title: "Puesta en marcha para agentes",
+          title: "Estudio sin conexión con sincronización automática",
           description:
-            "Añade el servidor MCP de Flashcards a Claude, Cursor o cualquier cliente MCP y podrá leer, crear y editar tus tarjetas. Los agentes de CLI como Claude Code, Codex u OpenClaw pueden, en cambio, apuntar a la URL de descubrimiento, guardar una clave de API y trabajar por la interfaz /v1/agent/sql, con una sola intervención humana: compartir el último código de correo de 8 dígitos.",
+            "Sigue repasando sin conexión en tu móvil. Los cambios se sincronizan automáticamente para que continúes en la web, iOS o Android.",
         },
         {
-          title: "Autenticación sin contraseña",
+          title: "Importa, exporta y controla tus datos",
           description:
-            "La autenticación por correo con OTP se ejecuta en un servicio dedicado. Las sesiones del navegador reutilizan cookies de dominio compartido para que el inicio de sesión funcione correctamente entre subdominios.",
+            "Mueve tus materiales de estudio cuando quieras. Las exportaciones portátiles incluyen tus tarjetas, etiquetas y archivos multimedia relacionados.",
         },
         {
-          title: "Alojamiento propio",
+          title: "Compatible con agentes de IA",
           description:
-            "Ejecuta Postgres, el servicio de autenticación, el backend y la app web en local. El despliegue de producción ya está preparado para AWS con CDK, CloudFront, API Gateway, Lambda y RDS.",
+            "Conecta agentes mediante MCP o la Agent API para que te ayuden a crear, mejorar y organizar tus tarjetas.",
         },
         {
-          title: "API pública para agentes",
+          title: "Gratis y con alojamiento propio",
           description:
-            "El contrato externo actual cubre el descubrimiento, el inicio mediante OTP, la selección del espacio de trabajo y un dialecto SQL publicado para trabajar con espacios de trabajo, tarjetas, mazos y eventos de repaso.",
-        },
-        {
-          title: "Clientes pensados para funcionar sin conexión",
-          description:
-            "El repositorio ya incluye la app de iOS con SQLite local y rutas de sincronización en el backend, y la app de Android ya está disponible en Google Play.",
+            "Usa gratis la app alojada, consulta el código abierto o ejecútala en tu propia infraestructura.",
         },
       ],
     },

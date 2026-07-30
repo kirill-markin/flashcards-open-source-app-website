@@ -1,51 +1,46 @@
 import type { PageContent } from "@/lib/content/types";
 
 export const FEATURES_PAGE_CONTENT: PageContent = {
-  title: "Функции",
+  title: "Возможности Flashcards",
   description:
-    "FSRS review, создание карточек, AI-чат, onboarding для агентов, passwordless auth, self-hosting и offline-first clients.",
+    "Бесплатные карточки с открытым исходным кодом: интервальное повторение FSRS, создание с помощью ИИ, учёба офлайн, экспорт и самостоятельный хостинг.",
   slug: "features",
   sections: [
     {
       type: "feature_list",
-      title: "Функции",
+      title: "Возможности",
       intro:
-        "Сфокусированный стек для карточек: hosted web app, iOS client в репозитории, MCP-сервер и agent API, а также инфраструктура, уже готовая для self-hosting.",
+        "Всё необходимое, чтобы создавать полезные карточки, повторять их вовремя, учиться офлайн и контролировать свои учебные данные.",
       items: [
         {
-          title: "FSRS Review",
+          title: "Умные повторения с FSRS",
           description:
-            "Due cards планируются через FSRS. Вы отправляете одну из четырех оценок, а backend обновляет время следующего review с учетом client review timestamp.",
+            "Повторяйте карточки, которые назначены на сегодня. FSRS раньше возвращает сложные карточки и дольше не показывает уже знакомые.",
         },
         {
-          title: "Card Creation And Chat",
+          title: "Создание карточек с помощью ИИ",
           description:
-            "Создавайте front/back cards из web client и используйте AI chat с workspace data и file attachments, включая plain text uploads.",
+            "Попросите ИИ создать карточки, улучшить формулировки или пояснить ответ. Вы сами решаете, что сохранить.",
         },
         {
-          title: "Onboarding для агентов",
+          title: "Учёба офлайн с автоматической синхронизацией",
           description:
-            "Добавьте сервер Flashcards по MCP в Claude, Cursor или любой MCP-клиент, и он сможет читать, создавать и редактировать ваши карточки. CLI-агенты вроде Claude Code, Codex или OpenClaw могут вместо этого указать discovery URL, сохранить API key и работать через /v1/agent/sql surface. От человека нужен только один шаг: передать последний 8-digit email code.",
+            "Продолжайте повторять на мобильном устройстве без интернета. Изменения синхронизируются автоматически, чтобы вы могли продолжить в веб-версии, на iOS или Android.",
         },
         {
-          title: "Passwordless Auth",
+          title: "Импорт, экспорт и контроль над данными",
           description:
-            "Email OTP authentication работает на выделенном auth service. Browser sessions повторно используют shared-domain cookies, поэтому login корректно работает между subdomains.",
+            "Переносите учебные материалы в приложение и из него когда угодно. Экспортируемый пакет содержит карточки, теги и связанные медиафайлы.",
         },
         {
-          title: "Self-Hosted Stack",
+          title: "Работает с ИИ-агентами",
           description:
-            "Запускайте Postgres, auth, backend и web client локально. Production deployment уже связан с AWS через CDK, CloudFront, API Gateway, Lambda и RDS.",
+            "Подключите MCP или Agent API, чтобы ИИ-агенты помогали создавать, улучшать и упорядочивать карточки.",
         },
         {
-          title: "Published Agent API",
+          title: "Бесплатно и можно развернуть у себя",
           description:
-            "Текущий внешний contract включает discovery, OTP bootstrap, workspace selection и опубликованный SQL dialect для workspace, cards, decks и review events.",
-        },
-        {
-          title: "Offline-First Clients",
-          description:
-            "В репозитории уже есть iOS client с локальным SQLite и backend sync routes, а Android app теперь доступно в Google Play.",
+            "Пользуйтесь размещённым приложением бесплатно, изучайте открытый исходный код или запускайте приложение на своей инфраструктуре.",
         },
       ],
     },
