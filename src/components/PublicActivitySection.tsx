@@ -300,18 +300,24 @@ function getChartInnerWidth(): number {
   return chartWidth - chartMargin.inlineStart - chartMargin.inlineEnd;
 }
 
+function getChartDayStep(days: ReadonlyArray<GlobalActivitySnapshotDay>): number {
+  return getChartInnerWidth() / days.length;
+}
+
 function getChartBottomY(): number {
   return chartMargin.top + chartFrameHeight;
 }
 
 function getChartBarWidth(days: ReadonlyArray<GlobalActivitySnapshotDay>): number {
-  const step = getChartInnerWidth() / days.length;
+  return Math.min(28, getChartDayStep(days) * 0.72);
+}
 
-  return Math.max(8, Math.min(28, step * 0.72));
+function getTooltipHitWidth(days: ReadonlyArray<GlobalActivitySnapshotDay>): number {
+  return Math.min(28, getChartDayStep(days));
 }
 
 function getChartPointCenterX(index: number, days: ReadonlyArray<GlobalActivitySnapshotDay>): number {
-  const step = getChartInnerWidth() / days.length;
+  const step = getChartDayStep(days);
 
   return chartMargin.inlineStart + (step * index) + (step / 2);
 }
@@ -703,6 +709,7 @@ function DailyUniqueUsersChart({
   const points = createDailyUniqueUserPoints(days, maxUniqueUsers);
   const tickDates = createTickDates(days);
   const barWidth = getChartBarWidth(days);
+  const tooltipHitWidth = getTooltipHitWidth(days);
 
   return (
     <svg
@@ -758,7 +765,7 @@ function DailyUniqueUsersChart({
       {points.map((point) => (
         <g key={`unique-users-tooltip-day-${point.date}`}>
           {point.segments.map((segment) => {
-            const segmentX = point.centerX - (barWidth / 2);
+            const tooltipHitX = point.centerX - (tooltipHitWidth / 2);
             const hitBox = createTooltipHitBox(segment.y, segment.height);
             const tooltipLines = [
               formatLongDate(locale, point.date),
@@ -773,9 +780,9 @@ function DailyUniqueUsersChart({
                 className={styles.tooltipTarget}
               >
                 <rect
-                  x={segmentX}
+                  x={tooltipHitX}
                   y={hitBox.y}
-                  width={barWidth}
+                  width={tooltipHitWidth}
                   height={hitBox.height}
                   className={styles.tooltipHitArea}
                 >
@@ -832,6 +839,7 @@ function PlatformActivityChart({
   const points = createPlatformReviewEventPoints(days, maxReviewEvents);
   const tickDates = createTickDates(days);
   const barWidth = getChartBarWidth(days);
+  const tooltipHitWidth = getTooltipHitWidth(days);
 
   return (
     <svg
@@ -887,7 +895,7 @@ function PlatformActivityChart({
       {points.map((point) => (
         <g key={`platform-tooltip-day-${point.date}`}>
           {point.segments.map((segment) => {
-            const segmentX = point.centerX - (barWidth / 2);
+            const tooltipHitX = point.centerX - (tooltipHitWidth / 2);
             const hitBox = createTooltipHitBox(segment.y, segment.height);
             const tooltipLines = [
               formatLongDate(locale, point.date),
@@ -901,9 +909,9 @@ function PlatformActivityChart({
                 className={styles.tooltipTarget}
               >
                 <rect
-                  x={segmentX}
+                  x={tooltipHitX}
                   y={hitBox.y}
-                  width={barWidth}
+                  width={tooltipHitWidth}
                   height={hitBox.height}
                   className={styles.tooltipHitArea}
                 >
