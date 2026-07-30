@@ -1,15 +1,16 @@
 import type { PageContent } from "@/lib/content/types";
 
 export const PRICING_PAGE_CONTENT: PageContent = {
-  title: "定价",
+  title: "使用免费，自行托管也免费。",
   description:
-    "托管应用和核心闪卡体验免费，也可免费使用开源软件自行托管。",
+    "测试期间可免费使用包含 AI 和同步功能的托管应用，也可在自己的 AWS 基础设施上自行托管开源技术栈。",
   slug: "pricing",
   sections: [
     {
       type: "pricing_tiers",
-      title: "定价",
-      intro: "托管应用以及核心的闪卡创建和复习功能免费。",
+      title: "使用免费，自行托管也免费。",
+      intro:
+        "无需信用卡即可免费使用托管应用，也可在自己的 AWS 基础设施上运行开源技术栈。",
       tiers: [
         {
           type: "link_tier",
@@ -17,14 +18,14 @@ export const PRICING_PAGE_CONTENT: PageContent = {
           price: "免费",
           highlighted: false,
           bullets: [
-            "免费开源软件",
-            "GitHub 上提供完整源代码",
-            "包含当前所有核心功能",
-            "使用你自己的域名，数据和部署都由你掌控",
-            "基础设施费用由你自行承担",
+            "应用和 AWS CDK 基础设施均为开源",
+            "提供完整的 AWS 部署路径，以及基于 Docker/Postgres 的本地开发路径",
+            "基础设施以及电子邮件、监控和 AI 凭证均由运营者提供和维护",
+            "基础设施和第三方服务商费用由运营者承担",
+            "可在托管版与自行托管版之间导入和导出卡片、标签及媒体",
           ],
           cta: {
-            label: "前往 GitHub",
+            label: "从 GitHub 自行托管",
             href: "https://github.com/kirill-markin/flashcards-open-source-app",
           },
         },
@@ -34,15 +35,15 @@ export const PRICING_PAGE_CONTENT: PageContent = {
           price: "免费",
           highlighted: true,
           bullets: [
-            "由我们管理基础设施的托管 Web 应用",
-            "包含当前核心的闪卡创建和复习功能",
-            "无需信用卡，也没有试用倒计时",
-            "通过电子邮件一次性验证码登录",
-            "服务目前处于测试阶段，按尽力而为原则提供",
-            "未来可能会增加可选付费功能，但核心的闪卡创建和复习功能将始终免费",
+            "测试期间包含 AI 功能",
+            "包含 Web、iOS 和 Android 之间的同步",
+            "测试期间，卡片、文件或总存储空间不设按套餐划分的配额；仍适用正常的单文件和单次操作技术限制",
+            "可在托管版与自行托管版之间导入和导出卡片、标签及媒体",
+            "使用电子邮件一次性验证码免密码登录",
+            "核心卡片创建和复习功能将保持免费；较高的 AI 用量日后可能需要使用你自己的服务商 API 密钥或付费方案",
           ],
           cta: {
-            label: "免费开始学习",
+            label: "免费使用托管应用",
             href: "https://app.flashcards-open-source-app.com",
           },
         },

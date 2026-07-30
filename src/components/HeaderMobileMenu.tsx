@@ -50,7 +50,11 @@ export const HeaderMobileMenu: React.FC<HeaderMobileMenuProps> = ({
             </Link>
           ))}
           <div className={styles.mobileAuth}>
-            <AuthButton locale={locale} placement="header_mobile" />
+            <AuthButton
+              locale={locale}
+              placement="header_mobile"
+              signupLabel={uiCopy.auth.signUpFree}
+            />
           </div>
         </nav>
       )}

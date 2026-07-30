@@ -17,13 +17,10 @@ export type AuthButtonPlacement =
 interface AuthButtonProps {
   readonly locale: AppLocale;
   readonly placement: AuthButtonPlacement;
+  readonly signupLabel: string;
 }
 
 type AppEntryAction = "login" | "open_app" | "signup";
-
-function isHeaderPlacement(placement: AuthButtonPlacement): boolean {
-  return placement === "header_desktop" || placement === "header_mobile";
-}
 
 function trackAppEntryClick(
   action: AppEntryAction,
@@ -38,13 +35,14 @@ function trackAppEntryClick(
   });
 }
 
-export const AuthButton: React.FC<AuthButtonProps> = ({ locale, placement }) => {
+export const AuthButton: React.FC<AuthButtonProps> = ({
+  locale,
+  placement,
+  signupLabel,
+}) => {
   const loggedIn = useLoggedInCookie();
   const uiCopy = getUiCopy(locale);
   const loginRedirectPath = getLocalizedPathname(locale, "/");
-  const signupLabel = isHeaderPlacement(placement)
-    ? uiCopy.auth.signUpFree
-    : uiCopy.auth.startStudyingFree;
   const handleLoginClick = (): void => {
     trackAppEntryClick("login", locale, placement);
   };

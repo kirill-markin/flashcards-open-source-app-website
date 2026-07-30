@@ -1,16 +1,16 @@
 import type { PageContent } from "@/lib/content/types";
 
 export const PRICING_PAGE_CONTENT: PageContent = {
-  title: "Precios",
+  title: "Uso gratuito. Autoalojamiento gratuito.",
   description:
-    "La aplicación alojada y la experiencia principal con tarjetas son gratis. También puedes autoalojar el software gratuito y de código abierto.",
+    "Usa gratis la aplicación alojada, con IA y sincronización incluidas durante la beta, o autoaloja la pila de código abierto en tu infraestructura de AWS.",
   slug: "pricing",
   sections: [
     {
       type: "pricing_tiers",
-      title: "Precios",
+      title: "Uso gratuito. Autoalojamiento gratuito.",
       intro:
-        "La aplicación alojada y las funciones principales para crear y repasar tarjetas son gratis.",
+        "Usa la aplicación alojada gratis y sin tarjeta de crédito, o ejecuta la pila de código abierto en tu propia infraestructura de AWS.",
       tiers: [
         {
           type: "link_tier",
@@ -18,14 +18,14 @@ export const PRICING_PAGE_CONTENT: PageContent = {
           price: "Gratis",
           highlighted: false,
           bullets: [
-            "Software gratuito y de código abierto",
-            "Código fuente completo en GitHub",
-            "Todas las funciones principales actuales incluidas",
-            "Tu dominio, tus datos y tu despliegue",
-            "Los costes de infraestructura corren por tu cuenta",
+            "La aplicación y la infraestructura de AWS CDK son de código abierto",
+            "Ruta completa de despliegue en AWS y entorno de desarrollo local con Docker/Postgres",
+            "Tú proporcionas y mantienes la infraestructura y las credenciales de correo, monitorización e IA",
+            "Los costes de infraestructura y proveedores externos corren por tu cuenta",
+            "Importa y exporta tarjetas, etiquetas y archivos multimedia entre instalaciones alojadas y autoalojadas",
           ],
           cta: {
-            label: "Ver en GitHub",
+            label: "Autoalojar desde GitHub",
             href: "https://github.com/kirill-markin/flashcards-open-source-app",
           },
         },
@@ -35,15 +35,15 @@ export const PRICING_PAGE_CONTENT: PageContent = {
           price: "Gratis",
           highlighted: true,
           bullets: [
-            "Aplicación web alojada con infraestructura gestionada",
-            "Creación y repaso de tarjetas incluidos",
-            "No necesitas tarjeta de crédito ni hay una cuenta atrás de prueba",
-            "Autenticación mediante un código de un solo uso por correo electrónico",
-            "El servicio está actualmente en beta y se ofrece bajo un modelo de mejor esfuerzo",
-            "Es posible que añadamos funciones prémium opcionales en el futuro, pero crear y repasar tarjetas seguirá siendo gratis",
+            "Funciones de IA incluidas durante la beta",
+            "Sincronización incluida entre web, iOS y Android",
+            "Sin cuotas por plan para tarjetas, archivos o almacenamiento total durante la beta; se aplican los límites técnicos normales por archivo y operación",
+            "Importa y exporta tarjetas, etiquetas y archivos multimedia entre instalaciones alojadas y autoalojadas",
+            "Inicio de sesión sin contraseña mediante un código de un solo uso por correo electrónico",
+            "La creación y el repaso de tarjetas seguirán siendo gratis; un uso mayor de IA puede requerir más adelante tu propia clave API de proveedor o una opción de pago",
           ],
           cta: {
-            label: "Empezar a estudiar gratis",
+            label: "Usar la aplicación gratis",
             href: "https://app.flashcards-open-source-app.com",
           },
         },

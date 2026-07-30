@@ -1,16 +1,16 @@
 import type { PageContent } from "@/lib/content/types";
 
 export const PRICING_PAGE_CONTENT: PageContent = {
-  title: "Pricing",
+  title: "Free to use. Free to self-host.",
   description:
-    "The hosted app and core flashcard experience are free. You can also self-host the free, open-source software.",
+    "Use the hosted app at no cost, with AI and sync included during beta, or self-host the open-source stack on your own AWS infrastructure.",
   slug: "pricing",
   sections: [
     {
       type: "pricing_tiers",
-      title: "Pricing",
+      title: "Free to use. Free to self-host.",
       intro:
-        "The hosted app and core flashcard creation and review features are free.",
+        "Use the hosted app at no cost with no credit card required, or run the open-source stack on your own AWS infrastructure.",
       tiers: [
         {
           type: "link_tier",
@@ -18,14 +18,14 @@ export const PRICING_PAGE_CONTENT: PageContent = {
           price: "Free",
           highlighted: false,
           bullets: [
-            "Free and open-source software",
-            "Full source code on GitHub",
-            "All current core features included",
-            "Your domain, your data, your deployment",
-            "You are responsible for any infrastructure costs",
+            "Open-source application and AWS CDK infrastructure",
+            "Full AWS deployment path plus a local Docker/Postgres development setup",
+            "You supply and maintain infrastructure, email, monitoring, and AI credentials",
+            "You pay infrastructure and third-party provider costs",
+            "Import and export cards, tags, and media between hosted and self-hosted installations",
           ],
           cta: {
-            label: "View on GitHub",
+            label: "Self-host from GitHub",
             href: "https://github.com/kirill-markin/flashcards-open-source-app",
           },
         },
@@ -35,15 +35,15 @@ export const PRICING_PAGE_CONTENT: PageContent = {
           price: "Free",
           highlighted: true,
           bullets: [
-            "Hosted web app with managed infrastructure",
-            "Core flashcard creation and review features included",
-            "No credit card and no trial countdown",
-            "Email one-time-code authentication",
-            "The service is currently in beta and provided on a best-effort basis",
-            "Optional paid features may be added later, but core flashcard creation and review will remain free",
+            "AI features included during beta",
+            "Sync across web, iOS, and Android included",
+            "No plan-based quotas on cards, files, or total storage during beta; normal per-file and per-operation technical limits apply",
+            "Import and export cards, tags, and media between hosted and self-hosted installations",
+            "Passwordless sign-in with a one-time email code",
+            "Core card creation and review will remain free; higher AI usage may later require your own provider API key or a paid option",
           ],
           cta: {
-            label: "Start studying free",
+            label: "Use the hosted app free",
             href: "https://app.flashcards-open-source-app.com",
           },
         },
