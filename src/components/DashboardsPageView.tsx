@@ -1,3 +1,5 @@
+import { FullAppCtaPanel } from "@/components/AppCtaPanel";
+import { AuthAwareAppCtaLink } from "@/components/AuthAwareAppCtaLink";
 import {
   PublicActivityCharts,
   PublicActivitySummary,
@@ -20,7 +22,8 @@ interface DashboardsPageViewProps {
 export function DashboardsPageView({
   locale,
 }: DashboardsPageViewProps): React.JSX.Element {
-  const activityCopy = getUiCopy(locale).home.activity;
+  const uiCopy = getUiCopy(locale);
+  const activityCopy = uiCopy.home.activity;
   const snapshot = readGeneratedGlobalActivitySnapshot(process.cwd());
 
   return (
@@ -47,6 +50,18 @@ export function DashboardsPageView({
           chartTitleTag="h2"
           locale={locale}
           snapshot={snapshot}
+        />
+
+        <FullAppCtaPanel
+          action={
+            <AuthAwareAppCtaLink
+              locale={locale}
+              placement="activity_end"
+            />
+          }
+          className={styles.cta}
+          heading={uiCopy.cta.activityHeading}
+          locale={locale}
         />
       </div>
     </SiteFrame>

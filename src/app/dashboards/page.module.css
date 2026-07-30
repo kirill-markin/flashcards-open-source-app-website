@@ -67,6 +67,10 @@
     background 140ms ease;
 }
 
+.cta {
+  margin-block-start: 10px;
+}
+
 @media (hover: hover) and (pointer: fine) {
   .sourceLink:hover {
     transform: translateY(-1px);
