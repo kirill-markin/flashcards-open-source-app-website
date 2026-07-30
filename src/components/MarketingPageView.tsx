@@ -104,7 +104,11 @@ function renderHomePage(
           </div>
           <p className={homeStyles.subtitle}>{heroSection.subtitle}</p>
           <div className={homeStyles.cta}>
-            <AuthButton locale={locale} placement="home_hero" />
+            <AuthButton
+              locale={locale}
+              placement="home_hero"
+              signupLabel={uiCopy.auth.startStudyingFree}
+            />
             <p className={homeStyles.trustLine}>{heroSection.trustLine}</p>
           </div>
         </div>
@@ -251,7 +255,11 @@ function renderPricingPage(
                 ))}
               </ul>
               <div className={pricingStyles.ctaWrapper}>
-                <AuthButton locale={locale} placement="pricing" />
+                <AuthButton
+                  locale={locale}
+                  placement="pricing"
+                  signupLabel={cloudTier.cta.label}
+                />
               </div>
             </div>
           </div>

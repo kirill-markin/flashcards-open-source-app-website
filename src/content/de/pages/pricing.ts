@@ -1,16 +1,16 @@
 import type { PageContent } from "@/lib/content/types";
 
 export const PRICING_PAGE_CONTENT: PageContent = {
-  title: "Preise",
+  title: "Kostenlos nutzen. Kostenlos selbst hosten.",
   description:
-    "Die gehostete App und das grundlegende Karteikarten-Erlebnis sind kostenlos. Die kostenlose Open-Source-Software kann auch selbst gehostet werden.",
+    "Nutze die gehostete App in der Beta kostenlos mit KI und Synchronisierung oder hoste den Open-Source-Stack in deiner eigenen AWS-Infrastruktur.",
   slug: "pricing",
   sections: [
     {
       type: "pricing_tiers",
-      title: "Preise",
+      title: "Kostenlos nutzen. Kostenlos selbst hosten.",
       intro:
-        "Die gehostete App sowie die grundlegenden Funktionen zum Erstellen und Wiederholen von Karteikarten sind kostenlos.",
+        "Nutze die gehostete App kostenlos und ohne Kreditkarte oder betreibe den Open-Source-Stack in deiner eigenen AWS-Infrastruktur.",
       tiers: [
         {
           type: "link_tier",
@@ -18,14 +18,14 @@ export const PRICING_PAGE_CONTENT: PageContent = {
           price: "Kostenlos",
           highlighted: false,
           bullets: [
-            "Kostenlose Open-Source-Software",
-            "Vollständiger Quellcode auf GitHub",
-            "Alle aktuellen Kernfunktionen enthalten",
-            "Deine Domain, deine Daten, dein Deployment",
-            "Du trägst die Kosten für deine Infrastruktur",
+            "Anwendung und AWS-CDK-Infrastruktur sind Open Source",
+            "Vollständiger AWS-Deployment-Pfad und lokale Entwicklungsumgebung mit Docker/Postgres",
+            "Du stellst Infrastruktur sowie Zugangsdaten für E-Mail, Monitoring und KI bereit und wartest sie",
+            "Du trägst die Kosten für Infrastruktur und Drittanbieter",
+            "Import und Export von Karten, Tags und Medien zwischen gehosteten und selbst gehosteten Installationen",
           ],
           cta: {
-            label: "Auf GitHub ansehen",
+            label: "Über GitHub selbst hosten",
             href: "https://github.com/kirill-markin/flashcards-open-source-app",
           },
         },
@@ -35,15 +35,15 @@ export const PRICING_PAGE_CONTENT: PageContent = {
           price: "Kostenlos",
           highlighted: true,
           bullets: [
-            "Gehostete Web-App mit verwalteter Infrastruktur",
-            "Erstellen und Wiederholen von Karteikarten inklusive",
-            "Keine Kreditkarte erforderlich und kein ablaufender Testzeitraum",
-            "Authentifizierung mit einem Einmalcode per E-Mail",
-            "Der Dienst befindet sich derzeit in der Beta-Phase und wird auf Best-Effort-Basis angeboten",
-            "Später können optionale Premium-Funktionen hinzukommen, aber das Erstellen und Wiederholen von Karteikarten bleibt kostenlos",
+            "KI-Funktionen während der Beta inklusive",
+            "Synchronisierung zwischen Web, iOS und Android inklusive",
+            "Keine tarifabhängigen Kontingente für Karten, Dateien oder Gesamtspeicher während der Beta; normale technische Limits pro Datei und Vorgang gelten",
+            "Import und Export von Karten, Tags und Medien zwischen gehosteten und selbst gehosteten Installationen",
+            "Passwortlose Anmeldung mit einem Einmalcode per E-Mail",
+            "Das Erstellen und Wiederholen von Karten bleibt kostenlos; höhere KI-Nutzung kann später einen eigenen Anbieter-API-Schlüssel oder eine kostenpflichtige Option erfordern",
           ],
           cta: {
-            label: "Kostenlos lernen",
+            label: "Gehostete App kostenlos nutzen",
             href: "https://app.flashcards-open-source-app.com",
           },
         },
