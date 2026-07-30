@@ -1,3 +1,4 @@
+import { getSignupUrl } from "@/lib/auth";
 import type { AppLocale } from "@/lib/i18n";
 import {
   globalActivitySnapshotUrl,
@@ -159,6 +160,17 @@ function renderFeatureListSection(
   lines.push("");
 }
 
+function renderFeaturesCta(locale: AppLocale, lines: string[]): void {
+  const uiCopy = getUiCopy(locale);
+
+  lines.push(`## ${uiCopy.cta.featuresHeading}`);
+  lines.push("");
+  lines.push(
+    `[${uiCopy.auth.startStudyingFree}](${getSignupUrl()})`
+  );
+  lines.push("");
+}
+
 function renderPricingTier(tier: PricingTier, lines: string[]): void {
   lines.push(`## ${tier.name} - ${tier.price}`);
   lines.push("");
@@ -214,6 +226,9 @@ function renderPageSections(
         return;
       case "feature_list":
         renderFeatureListSection(section, pageContent, lines);
+        if (pageContent.slug === "features") {
+          renderFeaturesCta(locale, lines);
+        }
         return;
       case "public_activity":
         renderPublicActivitySection(pageContent, locale, context, lines);

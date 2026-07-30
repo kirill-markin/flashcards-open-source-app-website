@@ -1,5 +1,7 @@
 import Image from "next/image";
+import { FullAppCtaPanel } from "@/components/AppCtaPanel";
 import { AuthButton } from "@/components/AuthButton";
+import { AuthAwareAppCtaLink } from "@/components/AuthAwareAppCtaLink";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { CopyCodeField } from "@/components/CopyCodeField";
 import { HumanPlatformLinks } from "@/components/HumanPlatformLinks";
@@ -179,10 +181,13 @@ function renderHomePage(
 }
 
 function renderFeaturesPage(
+  locale: AppLocale,
   title: string,
   breadcrumb: React.ReactNode,
   featureSection: FeatureListSection
 ): React.JSX.Element {
+  const uiCopy = getUiCopy(locale);
+
   return (
     <div className={featureStyles.container}>
       <div className={featureStyles.pagePanel}>
@@ -200,6 +205,17 @@ function renderFeaturesPage(
               </div>
             ))}
           </div>
+          <FullAppCtaPanel
+            action={
+              <AuthAwareAppCtaLink
+                locale={locale}
+                placement="features_end"
+              />
+            }
+            className={featureStyles.cta}
+            heading={uiCopy.cta.featuresHeading}
+            locale={locale}
+          />
         </section>
       </div>
     </div>
@@ -321,6 +337,7 @@ export async function MarketingPageView({
       break;
     case "features":
       page = renderFeaturesPage(
+        locale,
         pageContent.title,
         breadcrumb,
         getSectionByType(pageContent.sections, "feature_list")
