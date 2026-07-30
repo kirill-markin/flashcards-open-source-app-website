@@ -32,6 +32,7 @@ import {
   formatActivityNumber,
   formatActivityTimestamp,
 } from "@/lib/activityFormatting";
+import { getSignupUrl } from "@/lib/auth";
 import {
   DASHBOARDS_ROUTE_PATHNAME,
   getDashboardsPageDescription,
@@ -176,7 +177,8 @@ function renderDashboardsMarkdown(
   locale: AppLocale,
   context: MarketingPageMarkdownContext
 ): MarkdownResult {
-  const activityCopy = getUiCopy(locale).home.activity;
+  const uiCopy = getUiCopy(locale);
+  const activityCopy = uiCopy.home.activity;
   const snapshot = context.globalActivitySnapshot;
   const pagePath = getPagePath(
     getLocalizedPathname(locale, DASHBOARDS_ROUTE_PATHNAME)
@@ -205,6 +207,10 @@ function renderDashboardsMarkdown(
     "```json",
     serializeGlobalActivitySnapshot(snapshot).trim(),
     "```",
+    "",
+    `## ${uiCopy.cta.activityHeading}`,
+    "",
+    `[${uiCopy.auth.startStudyingFree}](${getSignupUrl()})`,
   ];
 
   return {

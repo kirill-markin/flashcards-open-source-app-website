@@ -10,7 +10,8 @@ export type AppEntryPlacement =
   | "header_mobile"
   | "home_hero"
   | "pricing"
-  | "features_end";
+  | "features_end"
+  | "activity_end";
 
 export function trackAppEntryClick(
   action: AppEntryAction,
