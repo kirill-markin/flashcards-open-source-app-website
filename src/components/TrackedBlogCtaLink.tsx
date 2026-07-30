@@ -10,7 +10,6 @@ export type BlogCtaPlacement =
   | "article_end";
 
 interface TrackedBlogCtaLinkProps {
-  readonly className: string;
   readonly href: string;
   readonly label: string;
   readonly locale: AppLocale;
@@ -18,7 +17,6 @@ interface TrackedBlogCtaLinkProps {
 }
 
 export function TrackedBlogCtaLink({
-  className,
   href,
   label,
   locale,
@@ -35,7 +33,6 @@ export function TrackedBlogCtaLink({
     <a
       href={href}
       {...getExternalLinkAttributes(href)}
-      className={className}
       onClick={trackBlogCtaClick}
     >
       {label}

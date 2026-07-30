@@ -40,6 +40,10 @@
   gap: 12px;
 }
 
+.cta {
+  margin-top: 28px;
+}
+
 .card {
   padding: 16px;
   border-radius: var(--radius-lg);

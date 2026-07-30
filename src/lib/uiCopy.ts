@@ -29,6 +29,7 @@ interface AppUiCopy {
   readonly cta: {
     readonly heading: string;
     readonly buttonLabel: string;
+    readonly featuresHeading: string;
   };
   readonly docs: {
     readonly breadcrumbLabel: string;
@@ -150,6 +151,8 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       heading:
         "Learn more and forget less with free spaced-repetition flashcards",
       buttonLabel: "Start studying free",
+      featuresHeading:
+        "Create better cards and review them at the right time.",
     },
     docs: {
       breadcrumbLabel: "Docs",
@@ -275,6 +278,8 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       heading:
         "Aprende más y olvida menos con flashcards gratis de repetición espaciada",
       buttonLabel: "Empieza a estudiar gratis",
+      featuresHeading:
+        "Crea mejores tarjetas y repásalas en el momento adecuado.",
     },
     docs: {
       breadcrumbLabel: "Documentación",
@@ -400,6 +405,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       heading:
         "تعلّم أكثر وانسَ أقل مع بطاقات مجانية بالتكرار المتباعد",
       buttonLabel: "ابدأ الدراسة مجانًا",
+      featuresHeading: "أنشئ بطاقات أفضل وراجعها في الوقت المناسب.",
     },
     docs: {
       breadcrumbLabel: "التوثيق",
@@ -525,6 +531,8 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       heading:
         "Lerne mehr und vergiss weniger mit kostenlosen Spaced-Repetition-Flashcards",
       buttonLabel: "Kostenlos lernen",
+      featuresHeading:
+        "Erstelle bessere Karten und wiederhole sie zum richtigen Zeitpunkt.",
     },
     docs: {
       breadcrumbLabel: "Dokumentation",
@@ -650,6 +658,8 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       heading:
         "मुफ़्त स्पेस्ड रिपिटीशन फ़्लैशकार्ड से बेहतर सीखें और कम भूलें",
       buttonLabel: "मुफ़्त पढ़ाई शुरू करें",
+      featuresHeading:
+        "बेहतर कार्ड बनाएँ और उन्हें सही समय पर दोहराएँ।",
     },
     docs: {
       breadcrumbLabel: "डॉक्स",
@@ -775,6 +785,8 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       heading:
         "無料の間隔反復フラッシュカードで、より深く学び、忘れにくくする",
       buttonLabel: "無料で学習を始める",
+      featuresHeading:
+        "より良いカードを作り、最適なタイミングで復習しましょう。",
     },
     docs: {
       breadcrumbLabel: "ドキュメント",
@@ -900,6 +912,8 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       heading:
         "Учитесь больше и забывайте меньше с бесплатными карточками для интервального повторения",
       buttonLabel: "Начать учиться бесплатно",
+      featuresHeading:
+        "Создавайте качественные карточки и повторяйте их в нужное время.",
     },
     docs: {
       breadcrumbLabel: "Документация",
@@ -1024,6 +1038,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     cta: {
       heading: "用免费的间隔重复闪卡学得更多，忘得更少",
       buttonLabel: "免费开始学习",
+      featuresHeading: "创建更好的卡片，并在合适的时间复习。",
     },
     docs: {
       breadcrumbLabel: "文档",
