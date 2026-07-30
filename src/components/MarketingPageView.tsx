@@ -13,6 +13,7 @@ import type {
   LegalPageSection,
   MarketingPageSlug,
   PageSection,
+  PricingTier,
   PricingTiersSection,
 } from "@/lib/content/types";
 import {
@@ -211,13 +212,6 @@ function renderPricingPage(
   breadcrumb: React.ReactNode,
   pricingSection: PricingTiersSection
 ): React.JSX.Element {
-  const selfHostedTier = pricingSection.tiers[0];
-  const cloudTier = pricingSection.tiers[1];
-
-  if (selfHostedTier?.type !== "link_tier" || cloudTier?.type !== "auth_tier") {
-    throw new Error("Invalid pricing tier structure");
-  }
-
   return (
     <div className={pricingStyles.container}>
       <div className={pricingStyles.pagePanel}>
@@ -229,42 +223,48 @@ function renderPricingPage(
 
         <section className={pricingStyles.tiersPanel}>
           <div className={pricingStyles.grid}>
-            <div className={pricingStyles.card}>
-              <h2>{selfHostedTier.name}</h2>
-              <div className={pricingStyles.price}>{selfHostedTier.price}</div>
-              <ul className={pricingStyles.features}>
-                {selfHostedTier.bullets.map((bullet) => (
-                  <li key={bullet}>{bullet}</li>
-                ))}
-              </ul>
-              <a
-                href={selfHostedTier.cta.href}
-                {...getExternalLinkAttributes(selfHostedTier.cta.href)}
-                className={pricingStyles.secondaryButton}
-              >
-                {selfHostedTier.cta.label}
-              </a>
-            </div>
-
-            <div className={`${pricingStyles.card} ${pricingStyles.highlighted}`}>
-              <h2>{cloudTier.name}</h2>
-              <div className={pricingStyles.price}>{cloudTier.price}</div>
-              <ul className={pricingStyles.features}>
-                {cloudTier.bullets.map((bullet) => (
-                  <li key={bullet}>{bullet}</li>
-                ))}
-              </ul>
-              <div className={pricingStyles.ctaWrapper}>
-                <AuthButton
-                  locale={locale}
-                  placement="pricing"
-                  signupLabel={cloudTier.cta.label}
-                />
-              </div>
-            </div>
+            {pricingSection.tiers.map((tier) => renderPricingTier(locale, tier))}
           </div>
         </section>
       </div>
+    </div>
+  );
+}
+
+function renderPricingTier(
+  locale: AppLocale,
+  tier: PricingTier
+): React.JSX.Element {
+  const cardClassName = tier.highlighted
+    ? `${pricingStyles.card} ${pricingStyles.highlighted}`
+    : pricingStyles.card;
+
+  return (
+    <div key={tier.name} className={cardClassName}>
+      <h2>{tier.name}</h2>
+      <div className={pricingStyles.price}>{tier.price}</div>
+      <ul className={pricingStyles.features}>
+        {tier.bullets.map((bullet) => (
+          <li key={bullet}>{bullet}</li>
+        ))}
+      </ul>
+      {tier.type === "auth_tier" ? (
+        <div className={pricingStyles.ctaWrapper}>
+          <AuthButton
+            locale={locale}
+            placement="pricing"
+            signupLabel={tier.cta.label}
+          />
+        </div>
+      ) : (
+        <a
+          href={tier.cta.href}
+          {...getExternalLinkAttributes(tier.cta.href)}
+          className={pricingStyles.secondaryButton}
+        >
+          {tier.cta.label}
+        </a>
+      )}
     </div>
   );
 }

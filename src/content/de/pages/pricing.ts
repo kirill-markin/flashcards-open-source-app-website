@@ -13,23 +13,6 @@ export const PRICING_PAGE_CONTENT: PageContent = {
         "Nutze die gehostete App kostenlos und ohne Kreditkarte oder betreibe den Open-Source-Stack in deiner eigenen AWS-Infrastruktur.",
       tiers: [
         {
-          type: "link_tier",
-          name: "Selbst gehostet",
-          price: "Kostenlos",
-          highlighted: false,
-          bullets: [
-            "Anwendung und AWS-CDK-Infrastruktur sind Open Source",
-            "Vollständiger AWS-Deployment-Pfad und lokale Entwicklungsumgebung mit Docker/Postgres",
-            "Du stellst Infrastruktur sowie Zugangsdaten für E-Mail, Monitoring und KI bereit und wartest sie",
-            "Du trägst die Kosten für Infrastruktur und Drittanbieter",
-            "Import und Export von Karten, Tags und Medien zwischen gehosteten und selbst gehosteten Installationen",
-          ],
-          cta: {
-            label: "Über GitHub selbst hosten",
-            href: "https://github.com/kirill-markin/flashcards-open-source-app",
-          },
-        },
-        {
           type: "auth_tier",
           name: "Gehostet",
           price: "Kostenlos",
@@ -45,6 +28,23 @@ export const PRICING_PAGE_CONTENT: PageContent = {
           cta: {
             label: "Gehostete App kostenlos nutzen",
             href: "https://app.flashcards-open-source-app.com",
+          },
+        },
+        {
+          type: "link_tier",
+          name: "Selbst gehostet",
+          price: "Kostenlos",
+          highlighted: false,
+          bullets: [
+            "Anwendung und AWS-CDK-Infrastruktur sind Open Source",
+            "Vollständiger AWS-Deployment-Pfad und lokale Entwicklungsumgebung mit Docker/Postgres",
+            "Du stellst Infrastruktur sowie Zugangsdaten für E-Mail, Monitoring und KI bereit und wartest sie",
+            "Du trägst die Kosten für Infrastruktur und Drittanbieter",
+            "Import und Export von Karten, Tags und Medien zwischen gehosteten und selbst gehosteten Installationen",
+          ],
+          cta: {
+            label: "Über GitHub selbst hosten",
+            href: "https://github.com/kirill-markin/flashcards-open-source-app",
           },
         },
       ],
