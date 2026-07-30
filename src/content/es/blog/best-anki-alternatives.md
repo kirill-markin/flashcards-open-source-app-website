@@ -1,197 +1,139 @@
 ---
-title: "Las mejores alternativas a Anki en 2026: ¿qué app de flashcards deberías usar de verdad?"
-description: "¿Buscas las mejores alternativas a Anki en 2026? Aquí tienes un análisis práctico: RemNote, Mochi, Quizlet y una app moderna de flashcards de código abierto resuelven problemas distintos."
+title: "Las 7 mejores alternativas a Anki en 2026: una comparación práctica"
+description: "Compara siete alternativas actuales a Anki por precio, plataformas, uso sin conexión, planificación, importación y autohospedaje para elegir la app de tarjetas adecuada."
 date: "2026-03-14"
+updated: "2026-07-30"
 keywords:
   - "mejores alternativas a anki"
   - "alternativas a anki"
   - "alternativa a anki 2026"
-  - "app de flashcards de código abierto"
+  - "app de tarjetas de código abierto"
   - "app de repetición espaciada"
-  - "flashcards autohospedadas"
+  - "tarjetas autohospedadas"
 ---
 
-Creo que mucha gente seguiría con Anki para siempre si los repasos fueran la única parte con la que tuviera que convivir.
+Anki sigue siendo una app de tarjetas muy capaz: es flexible, funciona sin conexión, admite FSRS y cuenta con un gran ecosistema de complementos y mazos compartidos. Una alternativa solo merece la pena si mejora la parte de tu flujo de trabajo que te importa más que esas ventajas.
 
-El problema es que Anki no son solo los repasos. Es la sensación general del producto. La configuración. La interfaz. Esos pequeños momentos en los que piensas: "¿Seguimos con esto? ¿En 2026?"
+Esta comparación analiza siete opciones serias con prioridades distintas: notas conectadas, una interfaz más sencilla, uso compartido en clase, estudio guiado, investigación propietaria sobre la memoria o control mediante código abierto.
 
-Esa es la búsqueda real detrás de las **mejores alternativas a Anki**.
+> **Declaración de intereses:** Soy Kirill Markin y desarrollo [Flashcards](https://flashcards-open-source-app.com/), uno de los productos de esta comparación. Lo he incluido porque encaja en el caso de uso de código abierto y autohospedaje, pero no lo considero el ganador por defecto. Los datos de los productos proceden de páginas y documentación oficiales, fichas de tiendas de aplicaciones y repositorios de código fuente.
 
-La mayoría de la gente no está buscando un juguete. Sigue queriendo una **app de repetición espaciada** seria. Solo quiere una que no se sienta como un compromiso viejo que sigue tolerando porque sus tarjetas ya están ahí.
+**Datos comprobados:** 30 de julio de 2026. Los precios son los precios públicos de Estados Unidos o los precios locales indicados disponibles en esa fecha; los impuestos, los precios regionales, los descuentos educativos y la facturación de las tiendas de aplicaciones pueden variar.
 
-La parte molesta es que no todas las alternativas intentan resolver lo mismo.
+## Las mejores alternativas a Anki de un vistazo
 
-Algunas quieren unir notas y flashcards. Algunas quieren una experiencia local-first más calmada. Algunas quieren una herramienta de estudio generalista. Y algunas, por fin, intentan construir una **app de flashcards de código abierto** moderna que no trate la propiedad de tus datos y el autohospedaje como peticiones raras de gente rara en internet.
+| Herramienta | Ideal para | Precio | Plataformas | Sin conexión | Planificación | Importación y exportación | Código abierto o autohospedaje |
+|---|---|---|---|---|---|---|---|
+| [Flashcards](https://flashcards-open-source-app.com/) | Control mediante código abierto y autohospedaje opcional | [Núcleo alojado gratis y software autohospedado gratis](/pricing/) | [Web, iOS y Android](https://github.com/kirill-markin/flashcards-open-source-app#available-on) | [Escribe primero en local y sincroniza al recuperar la conexión en web y móvil](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/docs/architecture.md#offline-first-sync) | [FSRS](/docs/architecture/#scheduling) | Texto/CSV mediante borradores asistidos por IA y revisados; [paquete portátil propio](https://github.com/kirill-markin/flashcards-open-source-app/tree/main/apps/web/src/screens/settings/workspace/packages); no importa `.apkg` de Anki | [Código con licencia MIT](https://github.com/kirill-markin/flashcards-open-source-app) y [guía de autohospedaje](/docs/self-hosting/) |
+| [RemNote](https://www.remnote.com/) | Notas y tarjetas en un único sistema de estudio | [Gratis; Pro por 8 $/mes con facturación anual](https://www.remnote.com/pricing) | Web, Windows, macOS, Linux, iOS y Android | [Las apps de escritorio y móvil funcionan sin conexión; la web tiene limitaciones](https://help.remnote.com/en/articles/6752029-offline-mode) | [FSRS o Anki SM-2](https://help.remnote.com/en/articles/9337171-understanding-spaced-repetition) | [Importación directa de `.apkg` de Anki](https://help.remnote.com/en/articles/8664083-switching-from-anki-to-remnote); [varios formatos de notas y exportación](https://help.remnote.com/en/articles/7898019-exporting-notes) | No hay una opción oficial documentada para acceder al código del núcleo ni para autohospedarlo |
+| [Mochi](https://mochi.cards/) | Notas y tarjetas Markdown con enfoque local-first | [Gratis sin conexión; sincronización Pro por 5 $/mes](https://mochi.cards/#pricing-section) | Web, Windows, macOS, Linux, iOS y Android | [Uso completo sin conexión](https://mochi.cards/docs/getting-started/download-and-install/) | [Intervalos adaptativos con dos respuestas](https://mochi.cards/docs/reviewing) | [Importación de `.apkg` de Anki, Markdown y CSV](https://mochi.cards/docs/import-and-export/importing/); [exportaciones portátiles](https://mochi.cards/docs/import-and-export/exporting/) | El núcleo de la app no se publica para autohospedarlo; [las integraciones son de código abierto](https://github.com/mochi-cards/open-source) |
+| [Quizlet](https://quizlet.com/) | Conjuntos compartidos, clases y varios modos de estudio | Estudio básico gratis; [Plus por 35,99 $/año con 20 rondas de Learn al mes; Plus Unlimited por 44,99 $/año con Learn ilimitado](https://quizlet.com/upgrade?source=footer) | Web, iOS y Android | [Los conjuntos guardados funcionan sin conexión en el móvil](https://help.quizlet.com/hc/en-us/articles/360030565412-Studying-offline-with-Quizlet-mobile-apps) | Ruta Learn personalizada mediante aprendizaje automático; [quienes no tienen suscripción disponen de una sesión de muestra](https://help.quizlet.com/hc/en-us/articles/360030986971-Studying-with-Learn); no publica la fórmula de los intervalos | [Importación de texto](https://help.quizlet.com/hc/en-us/articles/360029977151-Creating-sets-by-importing-content); [exportación de texto de los conjuntos propios](https://help.quizlet.com/hc/en-us/articles/360034345672-Exporting-your-sets) | No hay una opción oficial de autohospedaje documentada |
+| [Brainscape](https://www.brainscape.com/) | Repaso sencillo según el nivel de confianza y clases compartidas | [Gratis; Pro se mostraba por 7,99 $/mes con facturación anual](https://www.brainscape.com/pricing) | Web, iOS y Android | [Las tarjetas descargadas pueden estudiarse sin conexión en el móvil](https://brainscape.zendesk.com/hc/en-us/articles/360001017252-Do-I-need-WiFi-or-a-4G-LTE-connection) | [Confidence-Based Repetition con valoraciones de confianza del 1 al 5](https://www.brainscape.com/academy/confidence-based-repetition-definition/) | [Importación de CSV, TXT, XLSX y ODS](https://brainscape.zendesk.com/hc/en-us/articles/115002369931-How-do-I-import-various-files-to-create-flashcards); [exportación con Pro](https://brainscape.zendesk.com/hc/en-us/articles/115002383872-How-can-I-export-a-backup-of-my-flashcards) | No hay una opción oficial de autohospedaje documentada |
+| [SuperMemo](https://www.supermemo.com/) | Cursos de idiomas e investigación propietaria de SuperMemo sobre planificación | [Cuenta gratuita limitada](https://www.supermemo.com/en/faq/how-many-courses-can-i-create); [Premium por 35,99 PLN/mes o 359 PLN/año](https://www.supermemo.com/en/premium-subscription) | [Web, iOS y Android](https://www.supermemo.com/en/faq/on-what-devices-can-i-use-supermemo) | [Los cursos descargados funcionan sin conexión en el móvil con limitaciones](https://www.supermemo.com/en/faq/can-i-use-supermemo-offline) | [Método propietario de SuperMemo](https://www.supermemo.com/en/supermemo-method) | [Importación pegando texto delimitado](https://www.supermemo.com/en/blog/how-to-create-flashcards-for-learning); no hay documentada ninguna función actual de exportación para usuarios | Servicio alojado propietario; no hay una opción oficial de autohospedaje |
+| [Mnemosyne](https://mnemosyne-proj.org/) | Un flujo de escritorio tradicional, gratuito y de código abierto | [Gratis](https://mnemosyne-proj.org/) | [Windows, macOS, Linux y Android; repaso en el navegador mediante un servidor de escritorio](https://mnemosyne-proj.org/download-mnemosyne.php) | Repaso totalmente local en escritorio y Android | Planificación adaptativa a partir de valoraciones de recuerdo del 0 al 5 | [Importación completa de Anki y de texto sin formato](https://mnemosyne-proj.org/features); [exportación nativa `.cards`](https://mnemosyne-proj.org/help/sharing-cards); [exportación de texto separado por tabulaciones](https://mnemosyne-proj.org/whats-new) | Software GPL; [puedes ejecutar tu propio servidor de sincronización](https://mnemosyne-proj.org/help/syncing) |
 
-Esa es la comparación que de verdad importa.
+La tabla sirve para tomar una decisión, no para puntuar cuántas funciones tiene cada producto. Si tu colección de Anki es compleja, un importador directo de `.apkg` puede ser más importante que el diseño de la interfaz; si estudias en solitario, el almacenamiento local puede ser más importante que la colaboración.
 
-## Lo que la gente suele querer decir cuando busca alternativas a Anki
+## 1. Flashcards: la mejor para el control mediante código abierto y el autohospedaje
 
-La mayoría de las búsquedas de **alternativas a Anki** no tienen realmente que ver con abandonar la repetición espaciada.
+[Flashcards](https://flashcards-open-source-app.com/) es una app de tarjetas gratuita para web, iOS y Android. El código actual confirma el uso de [IndexedDB en web, SQLite en iOS y sincronización offline-first en web y móvil](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/docs/architecture.md#offline-first-sync); el [cliente de Android usa Room sobre SQLite](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/apps/android/README.md#platform-baseline). La planificación utiliza [FSRS](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/docs/fsrs-scheduling-logic.md). La [experiencia alojada principal es gratuita](/pricing/) y todo el sistema tiene licencia MIT, con una [ruta de autohospedaje documentada](/docs/self-hosting/).
 
-Tienen que ver con querer menos concesiones en todo lo demás.
+Su principal diferencia es el control de todo el sistema, no la pretensión de igualar la madurez de Anki. La app incluye creación y repaso de tarjetas, mazos y etiquetas, edición asistida por IA, una API pública y un conector MCP para flujos de agentes.
 
-Normalmente es una mezcla de:
+La migración es la limitación importante. Flashcards **no** tiene un importador directo de `.apkg` de Anki ni promete conservar sus plantillas, complementos, reglas de archivos multimedia o historial de repasos. Para tarjetas basadas principalmente en texto, el método admitido consiste en [exportar texto desde Anki, adjuntar el archivo TXT o CSV, pedir al asistente que prepare borradores de tarjetas y revisarlos antes de aplicar los cambios](/blog/migrate-from-anki-txt-export-open-source-flashcards/). Flashcards también puede [importar y exportar su propio paquete portátil `flashcards.zip`](https://github.com/kirill-markin/flashcards-open-source-app/tree/main/apps/web/src/screens/settings/workspace/packages), pero sirve para mover contenido entre espacios de trabajo de Flashcards, no para leer paquetes de Anki.
 
-- una sensación de producto más limpia
-- menos mantenimiento de plugins
-- una configuración más sencilla entre dispositivos
-- un mejor flujo de trabajo de nota a tarjeta
-- más control sobre los datos
-- una forma de dejar atrás un producto que se siente más viejo que el hábito que sostiene
+Elígela si el código abierto, el autohospedaje, el uso móvil offline-first o el acceso de agentes son fundamentales. Mantén Anki o elige una opción con importador directo si te importan más la fidelidad exacta de la migración y un ecosistema de complementos maduro.
 
-Por eso no existe un ganador universal.
+## 2. RemNote: la mejor cuando las notas y las tarjetas deben estar juntas
 
-La mejor alternativa depende de qué parte exacta de Anki terminó agotándote.
+RemNote combina un editor de esquemas, anotación de documentos y una app de tarjetas en una sola base de conocimiento. Su [plan gratuito incluye notas y tarjetas ilimitadas](https://www.remnote.com/pricing); el precio anual de Pro indicado es de 96 $, mostrado como 8 $ al mes, y los niveles de pago ofrecen mayores límites de IA y funciones de estudio adicionales.
 
-## RemNote tiene sentido si tus notas y tus flashcards deben vivir juntas
+La cobertura de plataformas es amplia. RemNote ofrece apps para web, Windows, macOS, Linux, iOS y Android. Su [documentación sobre el modo sin conexión](https://help.remnote.com/en/articles/6752029-offline-mode) indica que las apps de escritorio y móvil permiten editar notas y repasar tarjetas sin conexión, mientras que la versión para navegador debe estar ya abierta y puede que falten algunos archivos multimedia que no estén en caché. Ofrece tanto [FSRS como el planificador Anki SM-2](https://help.remnote.com/en/articles/9337171-understanding-spaced-repetition).
 
-RemNote es la opción que yo miraría si tu queja real con Anki es que tu sistema de aprendizaje se siente partido en dos.
+RemNote también es una de las opciones más prácticas para una colección de Anki existente. Según su [guía oficial de migración](https://help.remnote.com/en/articles/8664083-switching-from-anki-to-remnote), RemNote admite la importación de `.apkg` y puede conservar la información de planificación; la guía advierte que algunos elementos de formato podrían no verse exactamente igual.
 
-Tienes las notas en un sitio, las flashcards en otro, y la conexión entre ambas vive sobre todo en tu cabeza.
+Elige RemNote si quieres crear las tarjetas dentro de notas estructuradas, clases o PDF. La contrapartida es su alcance: es un entorno de estudio más amplio que una herramienta centrada en el repaso. RemNote publica complementos y plantillas en GitHub, pero no he encontrado una distribución oficial de la app principal ni una ruta de autohospedaje admitida.
 
-La propuesta de RemNote se parece mucho más a un "sistema de estudio" que a "solo flashcards". Por eso atrae a quienes estudian en serio con notas, esquemas, referencias y repasos mezclados dentro del mismo flujo de trabajo.
+## 3. Mochi: la mejor para Markdown con enfoque local-first
 
-Eso es una fortaleza real.
+Mochi es una app local-first de notas Markdown y tarjetas. Funciona en web, Windows, macOS, Linux, iOS y Android, y su [página oficial de precios](https://mochi.cards/) ofrece uso ilimitado sin conexión por 0 $ y sincronización entre dispositivos en el plan Pro de 5 $ al mes. Puedes usarla sin crear una cuenta.
 
-Si quieres que las notas, las flashcards, la preparación de exámenes y la creación asistida por IA se sientan como un único entorno, RemNote es una de las **alternativas a Anki** más sólidas.
+El planificador utiliza un modelo de respuesta deliberadamente sencillo: Remembered alarga el intervalo y Forgot lo acorta; un segundo fallo en el nuevo repaso reinicia la tarjeta para volver a aprenderla. La [documentación de Mochi sobre las fechas de repaso](https://mochi.cards/docs/reviewing/due-today/) también describe un objetivo de recuerdo predeterminado del 90 %.
 
-La contrapartida es que no intenta ser pequeña ni discreta. Es un sistema más grande. Si lo que tú quieres es, sobre todo, una herramienta rápida para repasar sin todo el resto del sistema de estudio, esa superficie extra puede sentirse como más producto del que pediste.
+La migración y la portabilidad están especialmente claras. Mochi puede [importar archivos `.apkg` de Anki, incluido el historial de repasos](https://mochi.cards/docs/import-and-export/importing/), aunque elimina CSS y JavaScript y convierte HTML a Markdown. También importa Markdown y CSV. Permite exportar un archivo `.mochi` completo, Markdown legible o CSV, y la [documentación explica qué metadatos pierde cada formato](https://mochi.cards/docs/import-and-export/exporting/).
 
-## Mochi es más limpio si tu reacción ante Anki fue "por favor, relájate"
+Elige Mochi si buscas una herramienta tranquila, orientada al texto, con buena portabilidad y uso sin conexión. Su enlace oficial de GitHub publica [integraciones de código abierto](https://github.com/mochi-cards/open-source), no la app principal ni un servicio de sincronización autohospedable; por tanto, no debe considerarse un producto completamente de código abierto.
 
-Mochi me interesa casi por la razón opuesta.
+## 4. Quizlet: la mejor para conjuntos de estudio compartidos y uso en clase
 
-Se siente como un producto creado por alguien que entendió que mucha gente no quiere más software de estudio. Quiere menos. Menos ceremonia. Menos fricción. Menos ruido visual.
+Quizlet es la opción más orientada al gran público de esta lista. Ofrece una gran biblioteca pública, uso compartido sencillo, clases para docentes, Flashcards, Match, Test y un modo Learn personalizado en web, iOS y Android.
 
-Por eso Mochi aparece tan a menudo en las conversaciones sobre las **mejores alternativas a Anki**.
+El nivel gratuito cubre la creación y el estudio básicos de conjuntos; [quienes no tienen una suscripción pueden probar una sesión gratuita de Learn](https://help.quizlet.com/hc/en-us/articles/360030986971-Studying-with-Learn). La [página oficial de precios de Estados Unidos](https://quizlet.com/upgrade?source=footer) muestra Quizlet Plus por 35,99 $ al año, con 20 rondas de Learn al mes, y Quizlet Plus Unlimited por 44,99 $ al año, con Learn ilimitado. Learn crea una ruta personalizada mediante aprendizaje automático a partir del objetivo y la familiaridad de cada persona, pero Quizlet no documenta una fórmula de intervalos al estilo de Anki o FSRS que los usuarios puedan examinar.
 
-Si te gusta Markdown, el enfoque local-first y una sensación de producto más minimalista, es una respuesta sensata.
+El uso sin conexión se limita a las apps móviles. Quizlet conserva automáticamente ocho conjuntos recientes y permite descargar más; [Flashcards y Match siguen disponibles sin conexión](https://help.quizlet.com/hc/en-us/articles/360030565412-Studying-offline-with-Quizlet-mobile-apps), y el progreso se sincroniza al volver a conectarse.
 
-Yo lo describiría así: Mochi es una de las opciones más limpias si tu problema real con Anki no es la idea de las flashcards. Es el peso acumulado de usar Anki en sí.
+Para migrar, el sitio web acepta filas pegadas y separadas por comas, tabulaciones, guiones, punto y coma o saltos de línea. Los creadores pueden exportar los términos y definiciones de sus propios conjuntos como texto copiado, pero [los conjuntos copiados de otros usuarios no se pueden exportar](https://help.quizlet.com/hc/en-us/articles/360034345672-Exporting-your-sets).
 
-La contrapartida es que la dirección del producto también es más simple. Si quieres una arquitectura más profunda, una apuesta más fuerte por el autohospedaje o un producto construido alrededor de la propiedad abierta como principio, Mochi no está apuntando realmente hacia ahí.
+Elige Quizlet si compartir, disponer de conjuntos ya creados y usar varios modos de estudio a corto plazo pesa más que la transparencia del planificador o el autohospedaje. No es la opción más parecida a un flujo de Anki muy personalizado.
 
-## Quizlet sigue siendo la respuesta generalista más sencilla
+## 5. Brainscape: la mejor para un repaso sencillo según el nivel de confianza
 
-Quizlet sigue ganando por una razón.
+Brainscape basa el repaso en una valoración de confianza del 1 al 5. Su sistema de [Confidence-Based Repetition](https://www.brainscape.com/academy/confidence-based-repetition-definition/) muestra antes las tarjetas con valoraciones bajas y retrasa las que reciben valoraciones altas. Es más fácil de explicar que un planificador muy configurable, aunque Brainscape no publica la fórmula de planificación completa.
 
-Es fácil de explicar. Fácil de empezar a usar. Fácil de compartir con otras personas a las que no les importan las flashcards como filosofía y solo quieren estudiar algo esta semana sin convertirse en alguien obsesionado con los sistemas.
+Crear, compartir y estudiar contenido propio es gratis. Cuando se comprobó, su [página de precios](https://www.brainscape.com/pricing) mostraba Pro por 7,99 $ al mes con facturación anual. El servicio funciona en web, iOS y Android; las tarjetas descargadas en el móvil pueden repasarse sin conexión, pero para crearlas y editarlas hace falta conectarse.
 
-Eso importa más de lo que muchos usuarios avanzados quieren admitir.
+Brainscape importa archivos CSV, TXT, XLSX y ODS tanto en web como en móvil. La exportación es más restrictiva: [descargar una copia de seguridad de un mazo es una función Pro](https://brainscape.zendesk.com/hc/en-us/articles/115002383872-How-can-I-export-a-backup-of-my-flashcards).
 
-Si tu objetivo es un producto de consumo fluido, con modos de estudio variados y muy poca fricción de configuración, Quizlet sigue siendo una de las **alternativas a Anki** más accesibles.
+Elige Brainscape si buscas un ciclo de valoración guiado, clases colaborativas y poco trabajo de configuración. Busca otra opción si necesitas un planificador publicado, exportación gratuita, acceso al código fuente o autohospedaje.
 
-La contrapartida es la de siempre:
+## 6. SuperMemo: la mejor por su método de memorización propietario y su catálogo de idiomas
 
-- menos propiedad
-- menos transparencia
-- menos control sobre hacia dónde va el producto
+Esta sección se refiere al servicio actual SuperMemo.com, no al producto antiguo y separado para Windows. El servicio con soporte vigente funciona en navegadores modernos y en iOS y Android. Su [página Premium](https://www.supermemo.com/en/premium-subscription) indica un precio de 35,99 PLN al mes o 359 PLN al año, mientras que [las cuentas gratuitas pueden crear un número limitado de cursos privados y tarjetas](https://www.supermemo.com/en/faq/how-many-courses-can-i-create).
 
-Para un aprendizaje casual, eso puede estar perfectamente bien.
+SuperMemo utiliza su propio [método de planificación propietario](https://www.supermemo.com/en/supermemo-method), desarrollado a partir de la línea de productos que introdujo la repetición espaciada por ordenador. La empresa publica la idea inicial de SM-2, pero [mantiene como propietarios sus algoritmos comerciales posteriores](https://www.supermemo.com/en/blog/licensing-and-copyrighting-of-supermemo-algorithms). Esto lo hace relevante para quienes valoran el método de SuperMemo, pero menos adecuado para quien quiera examinar o sustituir el planificador.
 
-Para conocimiento personal a largo plazo, me parece un acuerdo más flojo.
+Los usuarios de móvil pueden [descargar cursos para estudiarlos sin conexión](https://www.supermemo.com/en/faq/can-i-use-supermemo-offline), aunque la creación de tarjetas, la IA, la búsqueda, las estadísticas y el editor de cursos no están disponibles sin conexión. Para la creación masiva se [pega texto con preguntas y respuestas y se eligen los separadores](https://www.supermemo.com/en/blog/how-to-create-flashcards-for-learning); no he encontrado un importador oficial actual de Anki ni una función de exportación para usuarios del servicio alojado.
 
-## Flashcards es la alternativa de código abierto a Anki que me parece más interesante
+Elige SuperMemo por su catálogo de cursos de idiomas y su enfoque de planificación propietario. Es un servicio comercial alojado, no un sustituto de Anki de código abierto o autohospedado.
 
-[Flashcards](https://flashcards-open-source-app.com/) va en una dirección que me gustaría ver más a menudo: una **app de flashcards de código abierto** moderna que se toma en serio la experiencia de producto sin renunciar a la propiedad.
+## 7. Mnemosyne: la mejor para un flujo de escritorio gratuito y de código abierto
 
-El producto actual está menos maduro que Anki. Es mejor decirlo de frente.
+Mnemosyne es la opción de esta lista que más se aproxima a una app de tarjetas de escritorio tradicional y local. La versión 2.11 está disponible para Windows, macOS y Linux, con un cliente de Android para repasos sin conexión. En iOS u otras plataformas móviles, el repaso mediante el navegador depende de ejecutar el servidor web de escritorio.
 
-Pero la dirección es mejor en aspectos que a mí me importan:
+El software es gratuito y tiene [licencia GPL](https://mnemosyne-proj.org/help/sharing-cards). Los repasos usan una [autovaloración del 0 al 5 que adapta los intervalos futuros](https://mnemosyne-proj.org/help/getting-started.php), y el sistema de complementos permite sustituir partes del planificador o de la base de datos. Según su [documentación de funciones](https://mnemosyne-proj.org/features), Mnemosyne admite importaciones completas de Anki con tipos de tarjeta personalizados y datos de aprendizaje, además de los formatos de texto sin formato, SuperMemo y CueCard.
 
-- base de código abierta
-- camino claro hacia el autohospedaje
-- autenticación sin contraseña
-- producto web moderno en vez de vibra de herramienta de escritorio antigua
-- enfoque de planificación basado en FSRS
-- flujos de IA conectados con la superficie real de la app
+Mnemosyne no necesita una nube administrada. Su protocolo de sincronización integrado permite [ejecutar una instancia de escritorio o sin interfaz como servidor de sincronización propio](https://mnemosyne-proj.org/help/syncing). Esto ofrece control, pero también te hace responsable de mantener el servidor accesible y de realizar copias de seguridad de los datos locales.
 
-Ese último punto es importante.
+Elige Mnemosyne si el software libre, el control de los datos en el escritorio, la importación de Anki y una ruta de sincronización propia importan más que un servicio alojado más pulido o la edición nativa en iOS.
 
-Muchos productos de "flashcards con IA" siguen haciendo un truco fácil de enseñar y lo llaman estrategia. Generar unas cuantas tarjetas a partir de un párrafo. Bien. ¿Y luego qué?
+## ¿Qué alternativa a Anki encaja con tu motivo real para cambiar?
 
-Lo interesante de verdad es cuando la IA puede trabajar con los objetos reales del producto: tarjetas, cola de repaso, contenido existente y cambios que el usuario puede aplicar de verdad.
+- **Quieres notas, PDF y tarjetas en un mismo lugar:** RemNote es la opción más adecuada.
+- **Quieres Markdown local-first y una portabilidad sencilla:** Mochi es la opción más clara.
+- **Quieres conjuntos públicos, uso compartido en clase y varios modos de estudio:** Quizlet es la opción más fácil.
+- **Quieres un ciclo de repaso adaptativo sencillo con valoraciones del 1 al 5:** Brainscape hace que la interacción con el planificador sea accesible.
+- **Quieres el método propietario de SuperMemo y sus cursos de idiomas:** utiliza el servicio SuperMemo actual.
+- **Quieres software de escritorio libre y maduro con importación directa de Anki:** Mnemosyne es la opción práctica de código abierto.
+- **Quieres un sistema moderno de código abierto, autohospedaje, clientes móviles y acceso de agentes:** Flashcards está diseñada para esa combinación, siempre que sus limitaciones actuales de migración sean aceptables.
 
-Esa es la dirección en la que se está moviendo Flashcards, y por eso creo que merece estar en una comparativa seria de las **mejores alternativas a Anki** en lugar de quedarse en el cajón ambiguo de "otras herramientas".
+Si ninguna de estas opciones resuelve un problema importante para ti, quedarse con Anki es una decisión razonable. Cambiar de herramienta tiene un coste y Anki sigue siendo superior en complementos, flexibilidad de las plantillas de tarjetas, mazos compartidos y fidelidad de migración a largo plazo.
 
-## Por qué el código abierto cambia esta comparación más de lo que la gente admite
+## Cómo migrar sin perder lo que importa
 
-La mayoría de los artículos tratan el código abierto como una característica extra.
+No elimines ni sobrescribas tu perfil de Anki durante una prueba. Haz una copia de seguridad completa y prueba después un mazo representativo que incluya el tipo de tarjeta más complejo, archivos multimedia importantes, etiquetas y suficiente historial de repaso para que salgan a la luz los problemas de planificación.
 
-Yo creo que cambia por completo la sensación de la decisión.
+Utiliza la ruta de migración que el destino admita realmente:
 
-Las flashcards no son contenido desechable. Al cabo de unos años se convierten en un registro de lo que estás aprendiendo, de lo que sigues olvidando y de cómo cambia tu forma de pensar. Son datos personales valiosos.
+1. **RemNote, Mochi o Mnemosyne:** prueba la importación documentada de Anki con una copia del archivo `.apkg`.
+2. **Quizlet, Brainscape o SuperMemo:** exporta contenido sencillo de anverso y reverso como texto o en un formato compatible con hojas de cálculo y cuenta con que tendrás que reconstruir la planificación.
+3. **Flashcards:** exporta desde Anki las tarjetas basadas principalmente en texto como TXT o CSV, utiliza la creación de borradores asistida por IA y revisa cada cambio propuesto antes de aplicarlo. Este proceso no transfiere el historial de planificación de Anki ni garantiza la fidelidad de las plantillas y los archivos multimedia.
 
-Así que sí: creo que una **app de flashcards de código abierto** importa.
+Después de importar, compara el número de tarjetas, los campos, las etiquetas, los archivos multimedia, el comportamiento de los cloze y las fechas de repaso. Estudia en ambas apps durante unos días antes de decidirte. Una importación correcta no garantiza que la cola de repaso sea fiable.
 
-Te da un camino hacia el autohospedaje, código que puedes inspeccionar y una historia más creíble de propiedad a largo plazo. Aunque nunca autohospedes nada, cambia tu relación con el producto. Estás usando software que todavía puede seguir siendo tuyo más adelante.
+## La mejor alternativa es aquella cuyas contrapartidas estás dispuesto a aceptar
 
-Si eso te importa, aquí es donde Flashcards se separa de las **alternativas a Anki** más orientadas al consumo general.
+No existe una única alternativa a Anki que sea la mejor para todo el mundo.
 
-Si lo que quieres específicamente es la ruta autohospedada, empieza aquí:
+RemNote y Mochi integran las notas en el flujo de las tarjetas. Quizlet y Brainscape reducen la configuración y dan prioridad al uso compartido o al estudio guiado. SuperMemo ofrece un método propietario diferente. Mnemosyne prioriza un software libre local y maduro. Flashcards ofrece un sistema más joven, de código abierto y autohospedable, con flujos modernos para móviles y agentes.
 
-- [Guía de autohospedaje](https://flashcards-open-source-app.com/docs/self-hosting/)
-
-## Una tabla práctica con las mejores alternativas a Anki
-
-| Herramienta | Ideal para | Principal fortaleza | Principal contrapartida |
-|---|---|---|---|
-| RemNote | Personas que quieren notas y flashcards en el mismo sitio | Notas + tarjetas en un solo flujo de trabajo, fuerte sensación de sistema de estudio | Más superficie de producto de la que algunas personas quieren |
-| Mochi | Personas que quieren una herramienta de flashcards más calmada y local-first | Sensación minimalista, Markdown y flujo de trabajo más ligero | Menor énfasis en una arquitectura abierta profunda |
-| Quizlet | Flujos de estudio generalistas e incorporación rápida | UX de consumo sencilla y un abanico amplio de herramientas de estudio | Plataforma cerrada y menos propiedad |
-| Flashcards | Personas que quieren una alternativa moderna y de código abierto a Anki | Código abierto, autohospedaje, dirección transparente e IA conectada con acciones reales dentro de la app | Producto menos maduro que Anki |
-
-Esa es la versión honesta.
-
-La mejor opción depende menos de quién tenga la lista de funciones más larga y más de qué tipo de compromiso quieres aceptar durante los próximos años.
-
-## La migración importa más de lo que admiten muchas comparativas
-
-Esta es también la razón por la que mucha gente se queda con Anki más tiempo del que querría.
-
-No porque le encante cada parte del producto. Sino porque mover miles de tarjetas suena pesado.
-
-Por eso la migración debería formar parte de cualquier conversación seria sobre una **alternativa a Anki en 2026**.
-
-Flashcards ya ofrece un camino realista. Exportas las tarjetas desde Anki como texto, subes el archivo y usas el flujo de IA para redactar tarjetas en lugar de reconstruirlo todo a mano. No es un importador mágico de un clic. Es un camino práctico que suena diseñado por una persona real.
-
-Si esa es tu situación, empieza por aquí:
-
-- [Cómo migrar desde Anki en 2026](https://flashcards-open-source-app.com/blog/migrate-from-anki-txt-export-open-source-flashcards/)
-
-Y si para ti la comparación depende sobre todo de la calidad del planificador, este es el artículo complementario más relevante:
-
-- [FSRS vs SM-2 en 2026: ¿Qué algoritmo de repetición espaciada le ayuda a recordar más?](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
-
-## Entonces, ¿cuál es la mejor alternativa a Anki en 2026?
-
-Si quieres un sistema de estudio más amplio en el que las notas y las flashcards vivan juntas, RemNote es una respuesta sólida.
-
-Si quieres una experiencia local-first más simple, Mochi es una buena respuesta.
-
-Si quieres el producto generalista más fácil de usar, Quizlet sigue siendo la respuesta obvia.
-
-Si quieres propiedad, autohospedaje, arquitectura abierta y un producto que parece apuntar en la dirección correcta para la próxima década, [Flashcards](https://flashcards-open-source-app.com/) es la respuesta que me parece más interesante.
-
-Eso no significa que ya supere a todos los productos consolidados en todas las dimensiones.
-
-Significa que la contrapartida es mejor.
-
-Y para las personas que están buscando activamente las **mejores alternativas a Anki**, eso suele importar más que una casilla de funciones adicional.
-
-## Prueba la alternativa de código abierto a Anki
-
-Si estás comparando activamente **alternativas a Anki**, empieza aquí:
-
-- [Abrir Flashcards](https://flashcards-open-source-app.com/)
-- [Abrir la app](https://app.flashcards-open-source-app.com/)
-- [Leer la guía de introducción](https://flashcards-open-source-app.com/docs/getting-started/)
-- [Leer la guía de autohospedaje](https://flashcards-open-source-app.com/docs/self-hosting/)
-- [Ver el código fuente en GitHub](https://github.com/kirill-markin/flashcards-open-source-app)
-
-No creo que esta categoría necesite otra app de flashcards con un marketing más brillante.
-
-Necesita mejores contrapartidas.
-
-Eso es lo que hace que la nueva generación de **mejores alternativas a Anki** merezca atención.
+Elige según la limitación que necesitas cambiar y prueba después la migración con material real. Así tomarás una decisión mejor que si eliges la lista de funciones más larga o das por hecho que una interfaz más nueva implica automáticamente un sistema de aprendizaje mejor.
