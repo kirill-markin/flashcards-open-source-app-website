@@ -204,15 +204,52 @@
 }
 
 .chartCanvas {
-  overflow-x: auto;
   padding: 8px 8px 12px;
+  min-inline-size: 0;
 }
 
-.chartSvg {
+.chartFrame {
+  display: grid;
+  grid-template-columns: 64px minmax(0, 1fr) 54px;
+  grid-template-rows: minmax(0, 1fr) auto;
+  min-inline-size: 0;
+  direction: ltr;
+  unicode-bidi: isolate;
+}
+
+.chartAxisSvg {
   display: block;
-  width: 100%;
-  min-width: 760px;
-  height: auto;
+  grid-row: 1;
+  inline-size: 100%;
+}
+
+.chartAxisStart {
+  grid-column: 1;
+}
+
+.chartAxisEnd {
+  grid-column: 3;
+}
+
+.chartPlotScroller {
+  grid-column: 2;
+  grid-row: 1;
+  min-inline-size: 0;
+  max-inline-size: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  direction: ltr;
+  unicode-bidi: isolate;
+}
+
+.chartPlotScroller:focus-visible {
+  outline: 2px solid var(--border-strong);
+  outline-offset: 2px;
+}
+
+.chartPlotSvg {
+  display: block;
+  inline-size: 100%;
   direction: ltr;
   unicode-bidi: isolate;
 }
@@ -229,7 +266,6 @@
 .axisLabelStart,
 .axisLabelEnd,
 .dateLabel,
-.xAxisTitle,
 .yAxisTitle {
   fill: var(--text-tertiary);
   font-size: 12px;
@@ -243,13 +279,19 @@
   text-anchor: start;
 }
 
-.dateLabel {
-  text-anchor: end;
-}
-
-.xAxisTitle,
 .yAxisTitle {
   text-anchor: middle;
+}
+
+.xAxisTitle {
+  grid-column: 2;
+  grid-row: 2;
+  min-block-size: 28px;
+  padding-block-start: 8px;
+  color: var(--text-tertiary);
+  font-size: 12px;
+  line-height: 1;
+  text-align: center;
 }
 
 .tooltipTarget {
@@ -364,9 +406,5 @@
   .chartCanvas {
     padding: 6px 0 10px;
     margin-inline: -2px;
-  }
-
-  .chartSvg {
-    min-width: 680px;
   }
 }
