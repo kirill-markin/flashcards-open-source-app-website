@@ -3,7 +3,7 @@ import type { PageContent } from "@/lib/content/types";
 export const HOME_PAGE_CONTENT: PageContent = {
   title: "Flashcards - Kostenlose Open-Source-App für Spaced Repetition",
   description:
-    "Erstelle Karten, lerne mehr und vergiss weniger mit einer kostenlosen Open-Source-Flashcards-App für Spaced Repetition mit FSRS, Offline-Lernen, KI-Unterstützung und MCP.",
+    "Kostenlose Open-Source-Lernkarten mit FSRS Spaced Repetition, KI-gestützter Kartenerstellung, Offline-Lernen, Synchronisierung, Export und Self-Hosting.",
   slug: "home",
   sections: [
     {
@@ -11,11 +11,11 @@ export const HOME_PAGE_CONTENT: PageContent = {
       eyebrow: "Kostenlos & Open Source",
       titleLines: [
         "Karten erstellen.",
-        "Mehr lernen.",
-        "Weniger vergessen.",
+        "Besser wiederholen.",
+        "Mehr behalten.",
       ],
       subtitle:
-        "Eine kostenlose Open-Source-Flashcards-App mit Spaced Repetition durch FSRS, Offline-Lernen und KI-Unterstützung. Lerne im Web, auf iOS oder Android und verbinde KI-Agenten über MCP.",
+        "Eine kostenlose Open-Source-Lernkarten-App, die jede Wiederholung zum richtigen Zeitpunkt plant, offline funktioniert und über Web, iOS und Android synchronisiert. Nutze KI, wenn du Hilfe beim Erstellen oder Verbessern von Karten möchtest.",
       trustLine: "Keine Kreditkarte. Keine Werbung. Kein Testzeitraum.",
       primaryLink: {
         label: "Loslegen",
@@ -42,37 +42,37 @@ export const HOME_PAGE_CONTENT: PageContent = {
       type: "feature_list",
       title: "Funktionen",
       intro:
-        "Ein fokussierter Flashcards-Stack: gehostete Web-App, iOS-Client im Repository, ein MCP-Server fuer KI-Agenten und eine Infrastruktur, die fuer Self-Hosting bereits bereitsteht.",
+        "Alles, was du brauchst, um nützliche Karten zu erstellen, rechtzeitig zu wiederholen, offline weiterzulernen und deine Lerndaten selbst zu verwalten.",
       items: [
         {
-          title: "Spaced Repetition",
+          title: "Intelligenter wiederholen mit FSRS",
           description:
-            "Wiederhole Karten mit FSRS-Planung und einem klaren Bewertungsablauf. Backend und iOS-Client sorgen dabei fuer ein konsistentes Verhalten des Schedulers.",
+            "Wiederhole die Karten, die heute fällig sind. FSRS zeigt schwierige Karten früher wieder und wartet bei vertrauten Karten länger.",
         },
         {
-          title: "Web-App und KI-Chat",
+          title: "Karten mit KI-Unterstützung erstellen",
           description:
-            "Erstelle Karten, durchsuche deine Sammlung, wiederhole faellige Karten und nutze KI-Chat mit Dateianhaengen in der gehosteten Web-App.",
+            "Lass dir von KI helfen, Karten zu erstellen, besser zu formulieren oder eine Antwort zu erklären. Du entscheidest, was gespeichert wird.",
         },
         {
-          title: "Passwortlose Anmeldung",
+          title: "Offline lernen mit automatischer Synchronisierung",
           description:
-            "E-Mail-OTP ueber Cognito mit gemeinsamen Domain-Cookies fuer die Subdomains von Auth und App.",
+            "Lerne auf deinem Mobilgerät auch ohne Internet weiter. Änderungen werden automatisch synchronisiert, damit du im Web, auf iOS oder Android weitermachen kannst.",
         },
         {
-          title: "Onboarding fuer KI-Agenten",
+          title: "Daten importieren, exportieren und selbst verwalten",
           description:
-            "Fuege den Flashcards-MCP-Server zu deinem KI-Client hinzu, autorisiere ihn einmal und lass ihn deinen Workspace laden sowie deine Karten erstellen, bearbeiten und wiederholen.",
+            "Verschiebe deine Lernmaterialien jederzeit in die App oder aus ihr heraus. Portable Exporte enthalten deine Karten, Tags und zugehörigen Medien.",
         },
         {
-          title: "Self-Hosting",
+          title: "Funktioniert mit KI-Agenten",
           description:
-            "Betreibe Postgres lokal, starte Auth, Backend und Web getrennt und behalte den AWS-Deployment-Pfad unter eigener Kontrolle.",
+            "Verbinde KI-Agenten über MCP oder die Agent API, damit sie dir beim Erstellen, Verbessern und Organisieren deiner Karten helfen.",
         },
         {
-          title: "Offline-First-Clients",
+          title: "Kostenlos und selbst hostbar",
           description:
-            "Das Repository enthaelt bereits die iOS-App mit lokalem SQLite und Sync, und die Android-App ist jetzt im Google Play Store verfuegbar.",
+            "Nutze die gehostete App kostenlos, sieh dir den Open-Source-Code an oder betreibe sie auf deiner eigenen Infrastruktur.",
         },
       ],
     },
