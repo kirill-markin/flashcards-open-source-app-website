@@ -13,23 +13,6 @@ export const PRICING_PAGE_CONTENT: PageContent = {
         "Usa la aplicación alojada gratis y sin tarjeta de crédito, o ejecuta la pila de código abierto en tu propia infraestructura de AWS.",
       tiers: [
         {
-          type: "link_tier",
-          name: "Autoalojado",
-          price: "Gratis",
-          highlighted: false,
-          bullets: [
-            "La aplicación y la infraestructura de AWS CDK son de código abierto",
-            "Ruta completa de despliegue en AWS y entorno de desarrollo local con Docker/Postgres",
-            "Tú proporcionas y mantienes la infraestructura y las credenciales de correo, monitorización e IA",
-            "Los costes de infraestructura y proveedores externos corren por tu cuenta",
-            "Importa y exporta tarjetas, etiquetas y archivos multimedia entre instalaciones alojadas y autoalojadas",
-          ],
-          cta: {
-            label: "Autoalojar desde GitHub",
-            href: "https://github.com/kirill-markin/flashcards-open-source-app",
-          },
-        },
-        {
           type: "auth_tier",
           name: "Alojado",
           price: "Gratis",
@@ -45,6 +28,23 @@ export const PRICING_PAGE_CONTENT: PageContent = {
           cta: {
             label: "Usar la aplicación gratis",
             href: "https://app.flashcards-open-source-app.com",
+          },
+        },
+        {
+          type: "link_tier",
+          name: "Autoalojado",
+          price: "Gratis",
+          highlighted: false,
+          bullets: [
+            "La aplicación y la infraestructura de AWS CDK son de código abierto",
+            "Ruta completa de despliegue en AWS y entorno de desarrollo local con Docker/Postgres",
+            "Tú proporcionas y mantienes la infraestructura y las credenciales de correo, monitorización e IA",
+            "Los costes de infraestructura y proveedores externos corren por tu cuenta",
+            "Importa y exporta tarjetas, etiquetas y archivos multimedia entre instalaciones alojadas y autoalojadas",
+          ],
+          cta: {
+            label: "Autoalojar desde GitHub",
+            href: "https://github.com/kirill-markin/flashcards-open-source-app",
           },
         },
       ],

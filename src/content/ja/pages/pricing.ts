@@ -13,23 +13,6 @@ export const PRICING_PAGE_CONTENT: PageContent = {
         "クレジットカード不要でホスト型アプリを無料利用するか、オープンソースのスタックを自分の AWS インフラで運用できます。",
       tiers: [
         {
-          type: "link_tier",
-          name: "セルフホスト",
-          price: "無料",
-          highlighted: false,
-          bullets: [
-            "アプリケーションと AWS CDK インフラはオープンソース",
-            "AWS への完全なデプロイ手順と、Docker/Postgres を使うローカル開発環境",
-            "インフラと、メール・監視・AI の認証情報は運用者が用意して管理",
-            "インフラと外部プロバイダーの費用は運用者が負担",
-            "ホスト型とセルフホスト環境の間でカード、タグ、メディアをインポート・エクスポート",
-          ],
-          cta: {
-            label: "GitHub からセルフホスト",
-            href: "https://github.com/kirill-markin/flashcards-open-source-app",
-          },
-        },
-        {
           type: "auth_tier",
           name: "ホスト型",
           price: "無料",
@@ -45,6 +28,23 @@ export const PRICING_PAGE_CONTENT: PageContent = {
           cta: {
             label: "ホスト型アプリを無料で使う",
             href: "https://app.flashcards-open-source-app.com",
+          },
+        },
+        {
+          type: "link_tier",
+          name: "セルフホスト",
+          price: "無料",
+          highlighted: false,
+          bullets: [
+            "アプリケーションと AWS CDK インフラはオープンソース",
+            "AWS への完全なデプロイ手順と、Docker/Postgres を使うローカル開発環境",
+            "インフラと、メール・監視・AI の認証情報は運用者が用意して管理",
+            "インフラと外部プロバイダーの費用は運用者が負担",
+            "ホスト型とセルフホスト環境の間でカード、タグ、メディアをインポート・エクスポート",
+          ],
+          cta: {
+            label: "GitHub からセルフホスト",
+            href: "https://github.com/kirill-markin/flashcards-open-source-app",
           },
         },
       ],

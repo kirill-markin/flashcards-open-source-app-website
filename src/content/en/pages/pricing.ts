@@ -13,23 +13,6 @@ export const PRICING_PAGE_CONTENT: PageContent = {
         "Use the hosted app at no cost with no credit card required, or run the open-source stack on your own AWS infrastructure.",
       tiers: [
         {
-          type: "link_tier",
-          name: "Self-Hosted",
-          price: "Free",
-          highlighted: false,
-          bullets: [
-            "Open-source application and AWS CDK infrastructure",
-            "Full AWS deployment path plus a local Docker/Postgres development setup",
-            "You supply and maintain infrastructure, email, monitoring, and AI credentials",
-            "You pay infrastructure and third-party provider costs",
-            "Import and export cards, tags, and media between hosted and self-hosted installations",
-          ],
-          cta: {
-            label: "Self-host from GitHub",
-            href: "https://github.com/kirill-markin/flashcards-open-source-app",
-          },
-        },
-        {
           type: "auth_tier",
           name: "Hosted",
           price: "Free",
@@ -45,6 +28,23 @@ export const PRICING_PAGE_CONTENT: PageContent = {
           cta: {
             label: "Use the hosted app free",
             href: "https://app.flashcards-open-source-app.com",
+          },
+        },
+        {
+          type: "link_tier",
+          name: "Self-Hosted",
+          price: "Free",
+          highlighted: false,
+          bullets: [
+            "Open-source application and AWS CDK infrastructure",
+            "Full AWS deployment path plus a local Docker/Postgres development setup",
+            "You supply and maintain infrastructure, email, monitoring, and AI credentials",
+            "You pay infrastructure and third-party provider costs",
+            "Import and export cards, tags, and media between hosted and self-hosted installations",
+          ],
+          cta: {
+            label: "Self-host from GitHub",
+            href: "https://github.com/kirill-markin/flashcards-open-source-app",
           },
         },
       ],
