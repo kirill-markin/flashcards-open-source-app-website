@@ -27,6 +27,7 @@ interface AppUiCopy {
     readonly copyFailed: string;
   };
   readonly cta: {
+    readonly activityHeading: string;
     readonly heading: string;
     readonly buttonLabel: string;
     readonly featuresHeading: string;
@@ -148,6 +149,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       copyFailed: "Copy failed",
     },
     cta: {
+      activityHeading: "Ready to start reviewing your own cards?",
       heading:
         "Learn more and forget less with free spaced-repetition flashcards",
       buttonLabel: "Start studying free",
@@ -275,6 +277,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       copyFailed: "Error al copiar",
     },
     cta: {
+      activityHeading: "¿Listo para empezar a repasar tus propias tarjetas?",
       heading:
         "Aprende más y olvida menos con flashcards gratis de repetición espaciada",
       buttonLabel: "Empieza a estudiar gratis",
@@ -402,6 +405,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       copyFailed: "فشل النسخ",
     },
     cta: {
+      activityHeading: "هل أنت مستعد لبدء مراجعة بطاقاتك؟",
       heading:
         "تعلّم أكثر وانسَ أقل مع بطاقات مجانية بالتكرار المتباعد",
       buttonLabel: "ابدأ الدراسة مجانًا",
@@ -528,6 +532,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       copyFailed: "Kopieren fehlgeschlagen",
     },
     cta: {
+      activityHeading: "Bereit, deine eigenen Karten zu wiederholen?",
       heading:
         "Lerne mehr und vergiss weniger mit kostenlosen Spaced-Repetition-Flashcards",
       buttonLabel: "Kostenlos lernen",
@@ -655,6 +660,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       copyFailed: "कॉपी नहीं हुआ",
     },
     cta: {
+      activityHeading: "अपने कार्ड दोहराना शुरू करने के लिए तैयार हैं?",
       heading:
         "मुफ़्त स्पेस्ड रिपिटीशन फ़्लैशकार्ड से बेहतर सीखें और कम भूलें",
       buttonLabel: "मुफ़्त पढ़ाई शुरू करें",
@@ -782,6 +788,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       copyFailed: "コピーに失敗しました",
     },
     cta: {
+      activityHeading: "自分のカードの復習を始めませんか？",
       heading:
         "無料の間隔反復フラッシュカードで、より深く学び、忘れにくくする",
       buttonLabel: "無料で学習を始める",
@@ -909,6 +916,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       copyFailed: "Не удалось скопировать",
     },
     cta: {
+      activityHeading: "Готовы начать повторять свои карточки?",
       heading:
         "Учитесь больше и забывайте меньше с бесплатными карточками для интервального повторения",
       buttonLabel: "Начать учиться бесплатно",
@@ -1036,6 +1044,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       copyFailed: "复制失败",
     },
     cta: {
+      activityHeading: "准备好开始复习自己的卡片了吗？",
       heading: "用免费的间隔重复闪卡学得更多，忘得更少",
       buttonLabel: "免费开始学习",
       featuresHeading: "创建更好的卡片，并在合适的时间复习。",
