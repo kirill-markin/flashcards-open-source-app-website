@@ -1,7 +1,8 @@
 ---
-title: "Die besten Anki-Alternativen 2026: Welche Karteikarten-App lohnt sich wirklich?"
-description: "Du suchst 2026 nach den besten Anki-Alternativen? Hier ist die praktische Einordnung: RemNote, Mochi, Quizlet und eine moderne quelloffene Karteikarten-App lösen jeweils ein anderes Problem."
+title: "Die 7 besten Anki-Alternativen 2026: ein praktischer Vergleich"
+description: "Vergleiche sieben aktuelle Anki-Alternativen nach Preis, Plattformen, Offline-Nutzung, Planung, Import und Selbsthosting, um die passende Karteikarten-App zu finden."
 date: "2026-03-14"
+updated: "2026-07-30"
 keywords:
   - "beste anki-alternativen"
   - "anki-alternativen"
@@ -11,187 +12,128 @@ keywords:
   - "selbst gehostete karteikarten"
 ---
 
-Ich glaube, viele würden Anki auf ewig treu bleiben, wenn es nur um die Wiederholungen ginge.
+Anki bleibt eine leistungsfähige Karteikarten-App: Sie ist flexibel, funktioniert offline, unterstützt FSRS und bietet ein großes Ökosystem aus Erweiterungen und geteilten Stapeln. Eine Alternative ist nur dann sinnvoll, wenn sie den Teil deines Arbeitsablaufs verbessert, der dir wichtiger ist als diese Stärken.
 
-Aber Anki besteht eben nicht nur aus Wiederholungen. Es ist das Gesamtgefühl rund um das Produkt. Die Einrichtung. Die Oberfläche. Diese kleinen Momente, in denen man denkt: "Ernsthaft? Immer noch so? Im Jahr 2026?"
+Dieser Vergleich betrachtet sieben ernst zu nehmende Optionen mit unterschiedlichen Schwerpunkten: verknüpfte Notizen, eine einfachere Oberfläche, Austausch im Unterricht, geführtes Lernen, proprietäre Gedächtnisforschung oder Kontrolle durch quelloffene Software.
 
-Genau darum geht es bei der Suche nach den **besten Anki-Alternativen**.
+> **Offenlegung:** Ich bin Kirill Markin und entwickle [Flashcards](https://flashcards-open-source-app.com/), eines der Produkte in diesem Vergleich. Ich habe es aufgenommen, weil es zum Anwendungsfall für quelloffene Software und Selbsthosting passt, behandle es aber nicht automatisch als Sieger. Die nachstehenden Produktangaben stammen aus offiziellen Seiten und Dokumentationen, App-Store-Einträgen und Quellcode-Repositorys.
 
-Die wenigsten suchen nach einem Spielzeug. Sie wollen weiterhin eine ernst zu nehmende **Spaced-Repetition-App**. Sie wollen nur keine Lösung mehr, die sich wie ein alter Kompromiss anfühlt, den man bloß hinnimmt, weil die Karten nun einmal schon da sind.
+**Fakten geprüft:** 30. Juli 2026. Bei den Preisen handelt es sich um die an diesem Tag verfügbaren öffentlichen US-Preise oder angegebenen lokalen Preise; Steuern, regionale Preise, Bildungsrabatte und die Abrechnung über App-Stores können abweichen.
 
-Das Schwierige ist: Die Alternativen wollen nicht alle dasselbe Problem lösen.
+## Die besten Anki-Alternativen im Überblick
 
-Manche führen Notizen und Karteikarten zusammen. Manche setzen auf ein ruhigeres, lokales Nutzungserlebnis. Manche richten sich an den Massenmarkt. Und manche versuchen endlich, eine moderne **quelloffene Karteikarten-App** zu bauen, die Datenhoheit und den Betrieb auf eigener Infrastruktur nicht wie spleenige Sonderwünsche aus dem Internet behandelt.
+| App | Besonders geeignet für | Preis | Plattformen | Offline | Planung | Import und Export | Quelloffen oder selbst gehostet |
+|---|---|---|---|---|---|---|---|
+| [Flashcards](https://flashcards-open-source-app.com/) | Kontrolle durch quelloffene Software und optionales Selbsthosting | [Kostenloser gehosteter Kern und kostenlose Software zum Selbsthosten](/pricing/) | [Web, iOS und Android](https://github.com/kirill-markin/flashcards-open-source-app#available-on) | [Schreibt zuerst lokal und synchronisiert nach dem erneuten Verbinden über Web und Mobilgeräte hinweg](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/docs/architecture.md#offline-first-sync) | [FSRS](/docs/architecture/#scheduling) | Text/CSV über geprüfte, KI-gestützte Entwürfe; [eigenes portables Paket](https://github.com/kirill-markin/flashcards-open-source-app/tree/main/apps/web/src/screens/settings/workspace/packages); kein Import von Anki-`.apkg` | [Quellcode mit MIT-Lizenz](https://github.com/kirill-markin/flashcards-open-source-app) und [Anleitung zum Selbsthosting](/docs/self-hosting/) |
+| [RemNote](https://www.remnote.com/) | Notizen und Karteikarten in einem Lernsystem | [Kostenlos; Pro für 8 $/Monat bei jährlicher Abrechnung](https://www.remnote.com/pricing) | Web, Windows, macOS, Linux, iOS und Android | [Desktop- und Mobil-Apps funktionieren offline; im Web gibt es Einschränkungen](https://help.remnote.com/en/articles/6752029-offline-mode) | [FSRS oder Anki SM-2](https://help.remnote.com/en/articles/9337171-understanding-spaced-repetition) | [Direkter Import von Anki-`.apkg`](https://help.remnote.com/en/articles/8664083-switching-from-anki-to-remnote); [mehrere Notiz- und Exportformate](https://help.remnote.com/en/articles/7898019-exporting-notes) | Keine offizielle Veröffentlichung des App-Kerns oder dokumentierte Option zum Selbsthosting |
+| [Mochi](https://mochi.cards/) | Markdown-Notizen und Karteikarten mit dem Grundprinzip „local-first“ | [Offline kostenlos; Pro-Synchronisierung für 5 $/Monat](https://mochi.cards/#pricing-section) | Web, Windows, macOS, Linux, iOS und Android | [Vollständig offline nutzbar](https://mochi.cards/docs/getting-started/download-and-install/) | [Adaptive Intervalle mit zwei Antworten](https://mochi.cards/docs/reviewing) | [Import von Anki-`.apkg`, Markdown und CSV](https://mochi.cards/docs/import-and-export/importing/); [portable Exporte](https://mochi.cards/docs/import-and-export/exporting/) | Die Kern-App wird nicht zum Selbsthosting veröffentlicht; [Integrationen sind quelloffen](https://github.com/mochi-cards/open-source) |
+| [Quizlet](https://quizlet.com/) | Geteilte Lernsets, Klassen und verschiedene Lernmodi | Grundlegendes Lernen kostenlos; [Plus für 35,99 $/Jahr mit 20 Learn-Runden pro Monat; Plus Unlimited für 44,99 $/Jahr mit unbegrenztem Learn](https://quizlet.com/upgrade?source=footer) | Web, iOS und Android | [Gespeicherte Sets funktionieren auf Mobilgeräten offline](https://help.quizlet.com/hc/en-us/articles/360030565412-Studying-offline-with-Quizlet-mobile-apps) | Durch maschinelles Lernen personalisierter Learn-Pfad; [ohne Abo gibt es eine Probesitzung](https://help.quizlet.com/hc/en-us/articles/360030986971-Studying-with-Learn); keine öffentliche Intervallformel | [Textimport](https://help.quizlet.com/hc/en-us/articles/360029977151-Creating-sets-by-importing-content); [Textexport selbst erstellter Sets](https://help.quizlet.com/hc/en-us/articles/360034345672-Exporting-your-sets) | Keine offizielle Option zum Selbsthosting dokumentiert |
+| [Brainscape](https://www.brainscape.com/) | Einfache Wiederholung nach Selbsteinschätzung und gemeinsam genutzte Klassen | [Kostenlos; Pro wurde bei jährlicher Abrechnung mit 7,99 $/Monat angezeigt](https://www.brainscape.com/pricing) | Web, iOS und Android | [Heruntergeladene Karten können auf Mobilgeräten offline gelernt werden](https://brainscape.zendesk.com/hc/en-us/articles/360001017252-Do-I-need-WiFi-or-a-4G-LTE-connection) | [Confidence-Based Repetition mit einer Bewertung von 1 bis 5](https://www.brainscape.com/academy/confidence-based-repetition-definition/) | [Import von CSV, TXT, XLSX und ODS](https://brainscape.zendesk.com/hc/en-us/articles/115002369931-How-do-I-import-various-files-to-create-flashcards); [Export mit Pro](https://brainscape.zendesk.com/hc/en-us/articles/115002383872-How-can-I-export-a-backup-of-my-flashcards) | Keine offizielle Option zum Selbsthosting dokumentiert |
+| [SuperMemo](https://www.supermemo.com/) | Sprachkurse und SuperMemos proprietäre Planungsforschung | [Eingeschränktes kostenloses Konto](https://www.supermemo.com/en/faq/how-many-courses-can-i-create); [Premium für 35,99 PLN/Monat oder 359 PLN/Jahr](https://www.supermemo.com/en/premium-subscription) | [Web, iOS und Android](https://www.supermemo.com/en/faq/on-what-devices-can-i-use-supermemo) | [Heruntergeladene Kurse funktionieren auf Mobilgeräten mit Einschränkungen offline](https://www.supermemo.com/en/faq/can-i-use-supermemo-offline) | [Proprietäre SuperMemo-Methode](https://www.supermemo.com/en/supermemo-method) | [Import durch Einfügen von Text mit Trennzeichen](https://www.supermemo.com/en/blog/how-to-create-flashcards-for-learning); keine aktuelle Exportfunktion für Nutzer dokumentiert | Proprietärer gehosteter Dienst; keine offizielle Option zum Selbsthosting |
+| [Mnemosyne](https://mnemosyne-proj.org/) | Einen kostenlosen, klassischen und quelloffenen Desktop-Ablauf | [Kostenlos](https://mnemosyne-proj.org/) | [Windows, macOS, Linux und Android; Wiederholung im Browser über den Desktop-Server](https://mnemosyne-proj.org/download-mnemosyne.php) | Vollständig lokale Wiederholung auf Desktop und Android | Adaptive Planung anhand von Erinnerungsbewertungen von 0 bis 5 | [Vollständiger Anki- und Klartextimport](https://mnemosyne-proj.org/features); [nativer `.cards`-Export](https://mnemosyne-proj.org/help/sharing-cards); [Export als tabulatorgetrennter Text](https://mnemosyne-proj.org/whats-new) | GPL-Software; [eigener Synchronisierungsserver möglich](https://mnemosyne-proj.org/help/syncing) |
 
-Genau dieser Vergleich ist entscheidend.
+Die Tabelle ist eine Entscheidungshilfe und keine Wertung nach Funktionsumfang. Bei einer komplexen Anki-Sammlung kann ein direkter `.apkg`-Importer wichtiger sein als das Oberflächendesign; beim Lernen allein kann lokale Speicherung wichtiger sein als Zusammenarbeit.
 
-## Was die meisten meinen, wenn sie nach Anki-Alternativen suchen
+## 1. Flashcards: am besten für quelloffene Kontrolle und Selbsthosting
 
-Die meisten Suchanfragen nach **Anki-Alternativen** bedeuten nicht, dass jemand Spaced Repetition aufgeben will.
+[Flashcards](https://flashcards-open-source-app.com/) ist eine kostenlose Karteikarten-App für Web, iOS und Android. Der aktuelle Quellcode bestätigt [IndexedDB im Web, SQLite unter iOS und Offline-first-Synchronisierung für Web und Mobilgeräte](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/docs/architecture.md#offline-first-sync); der [Android-Client verwendet Room über SQLite](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/apps/android/README.md#platform-baseline). Die Planung nutzt [FSRS](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/docs/fsrs-scheduling-logic.md). Das [gehostete Kernangebot ist kostenlos](/pricing/), und der gesamte Stack steht unter der MIT-Lizenz und bietet einen [dokumentierten Weg zum Selbsthosting](/docs/self-hosting/).
 
-Es geht eher darum, bei allem drumherum weniger Abstriche machen zu müssen.
+Der wichtigste Unterschied ist die Kontrolle über den gesamten Stack, nicht der Anspruch, Ankis Reifegrad zu erreichen. Die App umfasst das Erstellen und Wiederholen von Karten, Stapel und Tags, KI-gestützte Bearbeitung, eine öffentliche API und einen MCP-Konnektor für Agentenabläufe.
 
-Meistens ist es eine Mischung aus:
+Die Migration ist die entscheidende Einschränkung. Flashcards hat **keinen** direkten Importer für Anki-`.apkg` und verspricht nicht, Anki-Vorlagen, Erweiterungen, Medienregeln oder den Wiederholungsverlauf zu erhalten. Für überwiegend textbasierte Karten besteht der unterstützte Weg darin, [Text aus Anki zu exportieren, die TXT- oder CSV-Datei anzuhängen, den Assistenten Karten entwerfen zu lassen und den Entwurf vor dem Anwenden zu prüfen](/blog/migrate-from-anki-txt-export-open-source-flashcards/). Flashcards kann außerdem [sein eigenes portables `flashcards.zip`-Paket importieren und exportieren](https://github.com/kirill-markin/flashcards-open-source-app/tree/main/apps/web/src/screens/settings/workspace/packages). Dieses dient jedoch zum Verschieben von Inhalten zwischen Flashcards-Workspaces und nicht zum Lesen von Anki-Paketen.
 
-- einem stimmigeren Nutzungserlebnis
-- weniger Pflegeaufwand für Erweiterungen
-- einfacherem Einrichten auf mehreren Geräten
-- einem besseren Weg von Notizen zu Karteikarten
-- mehr Kontrolle über die eigenen Daten
-- einem Ausstieg aus einem Produkt, das älter wirkt als die Lerngewohnheit, die es unterstützt
+Wähle diese App, wenn quelloffene Software, Selbsthosting, Offline-first-Nutzung auf Mobilgeräten oder Agentenzugriff im Mittelpunkt stehen. Bleib bei Anki oder wähle eine Option mit direktem Importer, wenn dir eine exakte Migration und ein ausgereiftes Erweiterungsökosystem wichtiger sind.
 
-Darum gibt es keinen universellen Sieger.
+## 2. RemNote: am besten, wenn Notizen und Karteikarten zusammengehören
 
-Welche Alternative am besten passt, hängt davon ab, welcher Teil von Anki dir inzwischen am meisten auf die Nerven geht.
+RemNote vereint einen Gliederungseditor, Dokumentanmerkungen und eine Karteikarten-App in einer Wissensdatenbank. Der [kostenlose Tarif umfasst unbegrenzt viele Notizen und Karteikarten](https://www.remnote.com/pricing); der ausgewiesene jährliche Pro-Preis beträgt 96 $, dargestellt als 8 $ pro Monat. Bezahlte Tarife bieten höhere KI-Kontingente und zusätzliche Lernfunktionen.
 
-## RemNote passt, wenn Notizen und Karteikarten zusammengehören
+Die Plattformabdeckung ist breit. RemNote bietet Apps für Web, Windows, macOS, Linux, iOS und Android. Laut seiner [Offline-Dokumentation](https://help.remnote.com/en/articles/6752029-offline-mode) können die Desktop- und Mobil-Apps Notizen offline bearbeiten und Karten wiederholen. Die Browser-Version muss dagegen bereits geöffnet sein, und nicht zwischengespeicherte Medien können fehlen. Zur Auswahl stehen [FSRS und Anki SM-2](https://help.remnote.com/en/articles/9337171-understanding-spaced-repetition).
 
-RemNote wäre meine erste Anlaufstelle, wenn dein eigentliches Problem mit Anki darin liegt, dass sich dein Lernsystem wie in zwei Hälften geteilt anfühlt.
+RemNote ist außerdem eine der praktischeren Optionen für eine bestehende Anki-Sammlung. Laut der [offiziellen Migrationsanleitung](https://help.remnote.com/en/articles/8664083-switching-from-anki-to-remnote) unterstützt RemNote `.apkg`-Importe; Planungsinformationen können dabei erhalten bleiben. Die Anleitung weist zugleich darauf hin, dass manche Formatierungen nicht identisch aussehen.
 
-Die Notizen liegen an einem Ort, die Karteikarten an einem anderen, und die Verbindung dazwischen existiert vor allem im eigenen Kopf.
+Wähle RemNote, wenn deine Karten innerhalb strukturierter Notizen, Vorlesungen oder PDFs entstehen sollen. Der Kompromiss liegt im Umfang: Es ist eine größere Lernumgebung als ein fokussiertes Wiederholungswerkzeug. RemNote veröffentlicht Erweiterungen und Vorlagen auf GitHub, doch ich habe weder eine offizielle Veröffentlichung der Kern-App noch einen unterstützten Weg zum Selbsthosting gefunden.
 
-RemNote versteht sich viel stärker als Lernsystem denn als reine Karteikarten-App. Genau deshalb spricht es Menschen an, die intensiv mit Notizen, Gliederungen, Quellen und Wiederholungen arbeiten und all das in einem einzigen Ablauf zusammenführen wollen.
+## 3. Mochi: am besten für Markdown mit dem Grundprinzip „local-first“
 
-Das ist eine echte Stärke.
+Mochi ist eine App für Markdown-Notizen und Karteikarten mit dem Grundprinzip „local-first“. Sie läuft im Web, unter Windows, macOS, Linux, iOS und Android. Die [offizielle Preisseite](https://mochi.cards/) nennt unbegrenzte Offline-Nutzung für 0 $ und geräteübergreifende Synchronisierung im Pro-Tarif für 5 $ pro Monat. Du kannst sie ohne Konto nutzen.
 
-Wenn Notizen, Karteikarten, Prüfungsvorbereitung und KI-gestützte Kartenerstellung wie eine zusammenhängende Umgebung wirken sollen, gehört RemNote zu den stärkeren **Anki-Alternativen**.
+Der Scheduler verwendet bewusst ein kleines Rückmeldemodell: Remembered verlängert ein Intervall und Forgot verkürzt es; ein zweiter erfolgloser Wiederholungsversuch setzt die Karte zum erneuten Lernen zurück. Mochis [Dokumentation zu Fälligkeitsterminen](https://mochi.cards/docs/reviewing/due-today/) beschreibt außerdem eine voreingestellte Ziel-Erinnerungsrate von 90 %.
 
-Der Nachteil: RemNote will gar nicht klein oder unauffällig sein. Es ist ein größeres System. Wenn du eigentlich nur ein schnelles Wiederholungstool ohne das komplette Lern-Betriebssystem suchst, kann sich dieser zusätzliche Umfang schnell nach mehr System anfühlen, als du überhaupt haben wolltest.
+Migration und Portabilität sind ungewöhnlich klar. Mochi kann [Anki-`.apkg`-Dateien einschließlich Wiederholungsverlauf importieren](https://mochi.cards/docs/import-and-export/importing/), entfernt dabei aber CSS und JavaScript und wandelt HTML in Markdown um. Auch Markdown und CSV lassen sich importieren. Exportiert werden kann als vollständiges `.mochi`-Archiv, lesbares Markdown oder CSV; die [Dokumentation erklärt, welche Metadaten jedes Format verliert](https://mochi.cards/docs/import-and-export/exporting/).
 
-## Mochi ist die ruhigere Wahl, wenn dir Anki einfach zu viel ist
+Wähle Mochi, wenn du ein ruhiges, textorientiertes Werkzeug mit guter Portabilität und Offline-Nutzung suchst. Der offizielle GitHub-Link veröffentlicht [quelloffene Integrationen](https://github.com/mochi-cards/open-source), nicht die Kern-App oder einen selbst hostbaren Synchronisierungsdienst. Behandle Mochi deshalb nicht als vollständig quelloffenes Produkt.
 
-Mochi finde ich fast aus dem entgegengesetzten Grund interessant.
+## 4. Quizlet: am besten für geteilte Lernsets und den Unterricht
 
-Es wirkt, als hätten es Menschen gebaut, die verstanden haben: Viele wollen nicht noch mehr Lernsoftware. Sie wollen weniger davon. Weniger Zeremoniell. Weniger Reibung. Weniger visuelles Rauschen.
+Quizlet ist die massenmarkttauglichste Option dieser Liste. Es bietet eine große öffentliche Bibliothek, einfaches Teilen, von Lehrkräften verwaltete Klassen, Flashcards, Match, Test und einen personalisierten Learn-Modus im Web, unter iOS und Android.
 
-Darum taucht Mochi in Gesprächen über die **besten Anki-Alternativen** so häufig auf.
+Der kostenlose Tarif deckt das grundlegende Erstellen und Lernen von Sets ab; [ohne Abo kann eine kostenlose Learn-Sitzung ausprobiert werden](https://help.quizlet.com/hc/en-us/articles/360030986971-Studying-with-Learn). Die [offizielle US-Preisseite](https://quizlet.com/upgrade?source=footer) nennt Quizlet Plus für 35,99 $ pro Jahr mit 20 Learn-Runden pro Monat und Quizlet Plus Unlimited für 44,99 $ pro Jahr mit unbegrenztem Learn. Learn erstellt anhand des Ziels und der Vertrautheit einen durch maschinelles Lernen personalisierten Pfad. Quizlet dokumentiert jedoch keine für Nutzer einsehbare Intervallformel nach Art von Anki oder FSRS.
 
-Wenn du Markdown magst, ein lokales Nutzungskonzept schätzt und eine minimalistischere Anmutung suchst, ist Mochi eine vernünftige Antwort.
+Die Offline-Nutzung ist auf die mobilen Apps beschränkt. Quizlet hält automatisch acht kürzlich verwendete Sets verfügbar und erlaubt weitere Downloads; [Flashcards und Match bleiben offline nutzbar](https://help.quizlet.com/hc/en-us/articles/360030565412-Studying-offline-with-Quizlet-mobile-apps). Nach dem erneuten Verbinden wird der Fortschritt synchronisiert.
 
-Ich würde es so formulieren: Mochi ist eine der klareren Optionen, wenn dich an Anki nicht das Prinzip der Karteikarten stört, sondern das über Jahre angesammelte Gewicht der Nutzung.
+Für die Migration akzeptiert die Website eingefügte Zeilen, die durch Kommas, Tabulatoren, Bindestriche, Semikolons oder Zeilenumbrüche getrennt sind. Ersteller können Begriffe und Definitionen ihrer eigenen Sets als kopierten Text exportieren, aber [von anderen Nutzern kopierte Sets lassen sich nicht exportieren](https://help.quizlet.com/hc/en-us/articles/360034345672-Exporting-your-sets).
 
-Der Haken ist, dass auch die Produktausrichtung einfacher bleibt. Wenn du dir eine tiefere technische Architektur, mehr Möglichkeiten für den Betrieb auf eigener Infrastruktur oder ein Produkt wünschst, das offene Eigentümerschaft als Grundprinzip versteht, zielt Mochi nicht wirklich in diese Richtung.
+Wähle Quizlet, wenn Teilen, fertige Sets und verschiedene kurzfristige Lernmodi wichtiger sind als ein transparenter Scheduler oder Selbsthosting. Es kommt einem stark angepassten Anki-Workflow nicht besonders nahe.
 
-## Quizlet ist weiterhin die naheliegendste Lösung für den Massenmarkt
+## 5. Brainscape: am besten für einfache Wiederholung nach Selbsteinschätzung
 
-Quizlet bleibt nicht ohne Grund so erfolgreich.
+Brainscape richtet den Wiederholungsablauf an einer Selbsteinschätzung von 1 bis 5 aus. Sein System der [Confidence-Based Repetition](https://www.brainscape.com/academy/confidence-based-repetition-definition/) zeigt niedrig bewertete Karten früher und verschiebt hoch bewertete Karten weiter nach hinten. Das lässt sich einfacher erklären als ein stark konfigurierbarer Scheduler, allerdings veröffentlicht Brainscape die vollständige Planungsformel nicht.
 
-Es ist leicht zu erklären. Leicht anzufangen. Leicht mit anderen zu teilen, die Karteikarten nicht als Weltanschauung begreifen, sondern diese Woche einfach etwas lernen wollen, ohne sich gleich zum Systemmenschen weiterzuentwickeln.
+Eigene Inhalte zu erstellen, zu teilen und zu lernen ist kostenlos. Die [Preisseite](https://www.brainscape.com/pricing) zeigte Pro zum Prüfzeitpunkt für 7,99 $ pro Monat bei jährlicher Abrechnung. Der Dienst läuft im Web, unter iOS und Android; heruntergeladene Karten können auf Mobilgeräten offline wiederholt werden, für das Erstellen und Bearbeiten ist jedoch eine Verbindung erforderlich.
 
-Das zählt mehr, als viele erfahrene Nutzer gern zugeben.
+Brainscape importiert CSV-, TXT-, XLSX- und ODS-Dateien im Web und auf Mobilgeräten. Der Export ist stärker eingeschränkt: [Das Herunterladen einer Stapelsicherung ist eine Pro-Funktion](https://brainscape.zendesk.com/hc/en-us/articles/115002383872-How-can-I-export-a-backup-of-my-flashcards).
 
-Wenn du vor allem eine reibungslose Lösung für den Massenmarkt mit vielen Lernmodi und möglichst wenig Einrichtungsaufwand suchst, gehört Quizlet weiterhin zu den zugänglichsten **Anki-Alternativen**.
+Wähle Brainscape, wenn du eine geführte Bewertungsschleife, gemeinsam genutzte Klassen und wenig Einrichtungsaufwand möchtest. Suche woanders, wenn du einen veröffentlichten Scheduler, kostenlosen Export, Quellcodezugriff oder Selbsthosting brauchst.
 
-Der bekannte Nachteil ist:
+## 6. SuperMemo: am besten für die proprietäre Gedächtnismethode und den Sprachkatalog
 
-- weniger Kontrolle
-- weniger Transparenz
-- weniger Einfluss darauf, wohin sich das Produkt entwickelt
+Dieser Abschnitt bezieht sich auf den aktuellen Dienst SuperMemo.com und nicht auf das separate ältere Windows-Produkt. Der unterstützte Dienst läuft in modernen Browsern sowie unter iOS und Android. Die [Premium-Seite](https://www.supermemo.com/en/premium-subscription) nennt 35,99 PLN pro Monat oder 359 PLN pro Jahr, während [kostenlose Konten eine begrenzte Anzahl privater Kurse und Karten erstellen können](https://www.supermemo.com/en/faq/how-many-courses-can-i-create).
 
-Für lockeres Lernen kann das völlig ausreichen.
+SuperMemo nutzt eine eigene [proprietäre Planungsmethode](https://www.supermemo.com/en/supermemo-method), die aus der Produktlinie hervorgegangen ist, die computergestützte Spaced Repetition eingeführt hat. Das Unternehmen veröffentlicht die frühe SM-2-Idee, [hält spätere kommerzielle Algorithmen jedoch proprietär](https://www.supermemo.com/en/blog/licensing-and-copyrighting-of-supermemo-algorithms). Das macht den Dienst für Lernende interessant, die SuperMemos Methode schätzen, aber weniger geeignet für Menschen, die den Scheduler prüfen oder ersetzen möchten.
 
-Für langfristig aufgebautes persönliches Wissen ist das aus meiner Sicht das schwächere Angebot.
+Auf Mobilgeräten lassen sich [Kurse für das Offline-Lernen herunterladen](https://www.supermemo.com/en/faq/can-i-use-supermemo-offline). Kartenerstellung, KI, Suche, Statistiken und der Kurseditor sind offline allerdings nicht verfügbar. Für die Massenerstellung wird [Frage-und-Antwort-Text mit ausgewählten Trennzeichen eingefügt](https://www.supermemo.com/en/blog/how-to-create-flashcards-for-learning); ich konnte für den gehosteten Dienst weder einen aktuellen offiziellen Anki-Importer noch eine Exportmöglichkeit für Nutzer finden.
 
-## Flashcards ist die quelloffene Alternative zu Anki, die ich am spannendsten finde
+Wähle SuperMemo wegen seines Sprachkurskatalogs und seines proprietären Planungsansatzes. Es ist ein kommerzieller gehosteter Dienst und kein quelloffener oder selbst gehosteter Anki-Ersatz.
 
-[Flashcards](https://flashcards-open-source-app.com/) ist genau die Richtung, die ich gern öfter sehen würde: eine moderne **quelloffene Karteikarten-App**, die ein gutes Nutzungserlebnis ernst nimmt, ohne die Datenhoheit preiszugeben.
+## 7. Mnemosyne: am besten für einen kostenlosen quelloffenen Desktop-Ablauf
 
-Das Produkt ist heute noch früher in seiner Entwicklung als Anki. Das sollte man offen sagen.
+Mnemosyne kommt einer klassischen, lokalen Desktop-Karteikarten-App in dieser Liste am nächsten. Version 2.11 ist für Windows, macOS und Linux verfügbar; dazu kommt ein Android-Client für Offline-Wiederholungen. Unter iOS und auf anderen mobilen Plattformen hängt die Wiederholung im Browser davon ab, dass der Desktop-Webserver läuft.
 
-Trotzdem ist die Richtung in den Punkten stärker, die mir wichtig sind:
+Die Software ist kostenlos und [GPL-lizenziert](https://mnemosyne-proj.org/help/sharing-cards). Bei Wiederholungen passt eine [Selbsteinschätzung von 0 bis 5 die künftigen Intervalle an](https://mnemosyne-proj.org/help/getting-started.php), und das Erweiterungssystem kann Teile des Schedulers oder der Datenbank ersetzen. Laut [Funktionsdokumentation](https://mnemosyne-proj.org/features) unterstützt Mnemosyne vollständige Anki-Importe mit benutzerdefinierten Kartentypen und Lerndaten sowie Klartext-, SuperMemo- und CueCard-Formate.
 
-- quelloffene Codebasis
-- klarer Weg zum Betrieb auf eigener Infrastruktur
-- passwortlose Anmeldung
-- moderne Webanwendung statt angestaubter Desktop-Programm-Anmutung
-- Ausrichtung auf FSRS-basierte Planung
-- KI-Abläufe, die direkt an echte Funktionen der App gekoppelt sind
+Mnemosyne benötigt keine verwaltete Cloud. Mit dem integrierten Synchronisierungsprotokoll kannst du [eine Desktop- oder Headless-Instanz als eigenen Synchronisierungsserver betreiben](https://mnemosyne-proj.org/help/syncing). Das bietet Kontrolle, macht dich aber auch dafür verantwortlich, den Server erreichbar zu halten und die lokalen Daten zu sichern.
 
-Der letzte Punkt ist besonders wichtig.
+Wähle Mnemosyne, wenn freie Software, Kontrolle über Desktop-Daten, Anki-Import und ein eigener Synchronisierungsweg wichtiger sind als ein ausgereifter gehosteter Dienst oder native Bearbeitung unter iOS.
 
-Viele "KI-Karteikarten"-Produkte beherrschen immer noch einen vorführbaren Trick und verkaufen das als Strategie. Ein paar Karten aus einem Absatz erzeugen. Schön. Und dann?
+## Welche Anki-Alternative passt zu deinem tatsächlichen Wechselgrund?
 
-Spannender wird es, wenn KI mit den tatsächlichen Objekten im Produkt arbeiten kann: mit Karten, dem Wiederholungsstapel, vorhandenen Inhalten und Änderungen, die der Nutzer direkt übernehmen kann.
+- **Du willst Notizen, PDFs und Karten an einem Ort:** RemNote passt am besten.
+- **Du willst Markdown mit dem Grundprinzip „local-first“ und unkomplizierte Portabilität:** Mochi ist die klarste Wahl.
+- **Du willst öffentliche Sets, Austausch im Unterricht und mehrere Lernmodi:** Quizlet ist die einfachste Wahl.
+- **Du willst einen einfachen adaptiven Wiederholungsablauf mit Bewertungen von 1 bis 5:** Brainscape hält die Interaktion mit dem Scheduler leicht verständlich.
+- **Du willst SuperMemos proprietäre Methode und Sprachkurse:** Nutze den aktuellen SuperMemo-Dienst.
+- **Du willst ausgereifte freie Desktop-Software mit direktem Anki-Import:** Mnemosyne ist die praktische quelloffene Wahl.
+- **Du willst einen modernen quelloffenen Stack, Selbsthosting, mobile Clients und Agentenzugriff:** Flashcards ist für diese Kombination ausgelegt, sofern die aktuellen Migrationsgrenzen für dich akzeptabel sind.
 
-Genau in diese Richtung bewegt sich Flashcards. Deshalb gehört es für mich in jede ernsthafte Übersicht der **besten Anki-Alternativen** und nicht in die vage Restkategorie "sonstige Werkzeuge".
+Wenn keine dieser Optionen ein bedeutsames Problem für dich löst, ist es vernünftig, bei Anki zu bleiben. Ein Werkzeugwechsel verursacht Aufwand, und Anki bleibt bei Erweiterungen, der Flexibilität von Kartenvorlagen, geteilten Stapeln und langfristiger Migrationstreue stärker.
 
-## Warum quelloffene Software diesen Vergleich stärker verändert, als viele zugeben
+## So migrierst du, ohne Wichtiges zu verlieren
 
-In vielen Artikeln wirkt quelloffene Software wie ein netter Bonus.
+Lösche oder überschreibe dein Anki-Profil während eines Tests nicht. Erstelle eine vollständige Sicherung und teste anschließend einen repräsentativen Stapel, der den schwierigsten Kartentyp, wichtige Medien, Tags und genug Wiederholungsverlauf enthält, um Planungsprobleme sichtbar zu machen.
 
-Ich halte das für eine Fehleinschätzung.
+Nutze den Migrationsweg, den das Ziel tatsächlich unterstützt:
 
-Karteikarten sind kein Wegwerfmaterial. Über Jahre werden sie zu einer Aufzeichnung dessen, was du lernst, was du immer wieder vergisst und wie sich dein Denken verändert. Das sind wertvolle persönliche Daten.
+1. **RemNote, Mochi oder Mnemosyne:** Probiere den dokumentierten Anki-Import mit einer Kopie der `.apkg`-Datei aus.
+2. **Quizlet, Brainscape oder SuperMemo:** Exportiere einfache Vorder-/Rückseiteninhalte als Text oder in einem tabellenkompatiblen Format und rechne damit, die Planung neu aufzubauen.
+3. **Flashcards:** Exportiere überwiegend textbasierte Karten aus Anki als TXT oder CSV, nutze KI-gestützte Entwürfe und prüfe jede vorgeschlagene Änderung vor dem Anwenden. Dabei wird der Anki-Planungsverlauf nicht übernommen, und die Wiedergabetreue von Vorlagen und Medien ist nicht garantiert.
 
-Deshalb ist eine **quelloffene Karteikarten-App** für mich mehr als nur ein Zusatz.
+Vergleiche nach dem Import die Kartenanzahl, Felder, Tags, Medien, das Verhalten von Lückentexten und die Fälligkeitstermine. Lerne einige Tage lang in beiden Apps, bevor du dich festlegst. Ein erfolgreicher Import ist nicht dasselbe wie eine verlässliche Wiederholungswarteschlange.
 
-Sie eröffnet dir einen Weg zum Betrieb auf eigener Infrastruktur, liefert einsehbaren Code und schafft eine glaubwürdigere Grundlage für langfristige Kontrolle. Selbst wenn du das nie nutzt, verändert das die Beziehung zum Produkt. Du verwendest Software, die dir später immer noch gehören kann.
+## Die beste Alternative ist die, deren Kompromisse du dauerhaft tragen kannst
 
-Wenn dir das wichtig ist, setzt sich Flashcards genau hier von den stärker konsumorientierten **Anki-Alternativen** ab.
+Es gibt keine universell beste Anki-Alternative.
 
-Wenn du ausdrücklich selbst hosten willst, beginne hier:
+RemNote und Mochi machen Notizen zum Teil des Kartenablaufs. Quizlet und Brainscape verringern den Einrichtungsaufwand und betonen das Teilen oder geführte Lernen. SuperMemo bietet eine eigenständige proprietäre Methode. Mnemosyne setzt auf ausgereifte lokale freie Software. Flashcards bietet einen jüngeren, quelloffenen und selbst hostbaren Stack mit modernen Abläufen für Mobilgeräte und Agenten.
 
-- [Leitfaden fürs Selbsthosting](https://flashcards-open-source-app.com/docs/self-hosting/)
-
-## Eine praktische Tabelle der besten Anki-Alternativen
-
-| App | Besonders geeignet für | Größte Stärke | Größter Nachteil |
-|---|---|---|---|
-| RemNote | Lernende, die Notizen und Karteikarten in einem System wollen | Notizen und Karten in einem gemeinsamen Ablauf, starkes Lernsystem-Gefühl | Größerer Funktionsumfang, als manche überhaupt brauchen |
-| Mochi | Menschen, die ein ruhigeres lokales Karteikarten-Werkzeug suchen | Minimalistisch, unterstützt Markdown, leichterer Ablauf | Weniger Fokus auf eine offene, tiefere technische Basis |
-| Quizlet | Klassische Lernabläufe und einen schnellen Einstieg | Einfache Bedienung und breite Auswahl an Lernmodi | Geschlossene Plattform und weniger Kontrolle |
-| Flashcards | Menschen, die eine moderne quelloffene Alternative zu Anki suchen | Quelloffen, auf eigener Infrastruktur betreibbar, transparent ausgerichtet, KI mit konkreten Aktionen in der App | Früherer Entwicklungsstand als Anki |
-
-Das ist die ehrliche Einordnung.
-
-Die beste Option hängt weniger davon ab, wer die längste Funktionsliste hat, sondern davon, mit welcher Art von Kompromiss du in den nächsten Jahren leben willst.
-
-## Migration ist wichtiger, als viele Vergleichsartikel zugeben
-
-Genau deshalb bleiben viele länger bei Anki, als sie eigentlich möchten.
-
-Nicht, weil sie jeden Teil daran lieben. Sondern weil der Umzug von Tausenden Karten mühsam klingt.
-
-Darum gehört Migration in jede ernsthafte Diskussion über die **beste Anki-Alternative 2026**.
-
-Flashcards bietet hier schon heute einen realistischen Weg. Exportiere deine Karten aus Anki als Text, lade die Datei hoch und nutze den KI-gestützten Ablauf, um neue Kartenentwürfe zu erstellen, statt alles mühsam von Hand neu aufzubauen. Das ist kein magischer Import mit einem Klick. Es ist ein praktikabler Weg, der danach klingt, als hätte ihn ein echter Mensch durchdacht.
-
-Wenn genau das auf dich zutrifft, beginne hier:
-
-- [Wie du 2026 von Anki migrierst: Exportiere deine Karten als TXT und sende sie an eine quelloffene Karteikarten-App](https://flashcards-open-source-app.com/blog/migrate-from-anki-txt-export-open-source-flashcards/)
-
-Und wenn es dir vor allem um die Qualität des Wiederholungsalgorithmus geht, ist dieser Begleitartikel relevanter:
-
-- [FSRS vs SM-2 in 2026: Welcher Spaced-Repetition-Algorithmus hilft dir, mehr zu behalten?](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
-
-## Was ist also 2026 die beste Anki-Alternative?
-
-Wenn du ein umfassenderes Lernsystem willst, in dem Notizen und Karteikarten zusammengehören, ist RemNote eine starke Wahl.
-
-Wenn du ein einfacheres lokales Nutzungserlebnis suchst, ist Mochi eine gute Wahl.
-
-Wenn du die unkomplizierteste Lösung für den Massenmarkt willst, bleibt Quizlet die offensichtliche Wahl.
-
-Wenn dir Datenhoheit, der Betrieb auf eigener Infrastruktur, offene Architektur und eine langfristig überzeugende Ausrichtung wichtig sind, ist [Flashcards](https://flashcards-open-source-app.com/) für mich die spannendste Antwort.
-
-Das heißt nicht, dass es heute schon jeden etablierten Anbieter in jeder Kategorie schlägt.
-
-Es heißt nur, dass der Kompromiss insgesamt überzeugender wirkt.
-
-Und für Menschen, die aktiv nach den **besten Anki-Alternativen** suchen, ist genau das meist wichtiger als noch ein weiteres Häkchen auf einer Funktionsliste.
-
-## Probiere die quelloffene Alternative zu Anki aus
-
-Wenn du gerade aktiv **Anki-Alternativen** vergleichst, beginne hier:
-
-- [Flashcards öffnen](https://flashcards-open-source-app.com/)
-- [Die App öffnen](https://app.flashcards-open-source-app.com/)
-- [Den Einstieg lesen](https://flashcards-open-source-app.com/docs/getting-started/)
-- [Den Leitfaden fürs Selbsthosting lesen](https://flashcards-open-source-app.com/docs/self-hosting/)
-- [Den Quellcode auf GitHub ansehen](https://github.com/kirill-markin/flashcards-open-source-app)
-
-Ich glaube nicht, dass diese Kategorie noch eine weitere Karteikarten-App mit glänzenderem Marketing braucht.
-
-Sie braucht bessere Kompromisse.
-
-Genau deshalb lohnt es sich, die neue Generation der **besten Anki-Alternativen** im Blick zu behalten.
+Entscheide dich anhand der Einschränkung, die du ändern musst, und teste die Migration anschließend mit echtem Material. So triffst du eine bessere Entscheidung, als einfach die längste Funktionsliste zu wählen oder anzunehmen, eine neuere Oberfläche ergebe automatisch ein besseres Lernsystem.
