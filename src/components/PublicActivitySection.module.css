@@ -86,6 +86,50 @@
   gap: 12px;
 }
 
+.summary {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(280px, 0.8fr);
+  gap: 12px;
+}
+
+.summaryTotals {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.summaryMetadata {
+  margin: 0;
+  padding-block: 16px;
+  padding-inline: 16px;
+  border-radius: var(--radius-lg);
+  background: var(--surface);
+  display: grid;
+  gap: 14px;
+}
+
+.summaryMetadataItem {
+  display: grid;
+  gap: 4px;
+}
+
+.summaryMetadataLabel {
+  color: var(--text-secondary);
+  font-size: 12px;
+  line-height: 1.2;
+  letter-spacing: 0.1em;
+  font-weight: 760;
+  text-transform: uppercase;
+}
+
+.summaryMetadataValue {
+  margin: 0;
+  color: var(--text);
+  font-size: 14px;
+  line-height: 1.4;
+  font-weight: 650;
+}
+
 .metricCard {
   border-radius: var(--radius-lg);
   background: var(--surface);
@@ -296,6 +340,10 @@
   .metricGrid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
+
+  .summary {
+    grid-template-columns: 1fr;
+  }
 }
 
 @media (max-width: 768px) {
@@ -306,6 +354,10 @@
   }
 
   .metricGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .summaryTotals {
     grid-template-columns: 1fr;
   }
 

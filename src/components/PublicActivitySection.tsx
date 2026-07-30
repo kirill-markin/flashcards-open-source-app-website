@@ -6,6 +6,11 @@ import {
   type GlobalActivitySnapshot,
   type GlobalActivitySnapshotDay,
 } from "@/lib/globalActivitySnapshot";
+import {
+  formatActivityDateRange,
+  formatActivityNumber as formatNumber,
+  formatActivityTimestamp,
+} from "@/lib/activityFormatting";
 import { getExternalLinkAttributes } from "@/lib/linkTargets";
 import { getUiCopy } from "@/lib/uiCopy";
 import styles from "./PublicActivitySection.module.css";
@@ -77,6 +82,11 @@ type PlatformActivityChartProps = Readonly<{
 
 type PublicActivityChartsProps = Readonly<{
   chartTitleTag: ChartTitleTag;
+  locale: AppLocale;
+  snapshot: GlobalActivitySnapshot;
+}>;
+
+type PublicActivitySummaryProps = Readonly<{
   locale: AppLocale;
   snapshot: GlobalActivitySnapshot;
 }>;
@@ -174,10 +184,6 @@ function getIntlLocale(locale: AppLocale): string {
     case "zh":
       return "zh-CN";
   }
-}
-
-function formatNumber(locale: AppLocale, value: number): string {
-  return new Intl.NumberFormat(getIntlLocale(locale)).format(value);
 }
 
 function formatCompactDate(locale: AppLocale, value: string): string {
@@ -481,6 +487,59 @@ function MetricCard({
     <div className={styles.metricCard}>
       <p className={styles.metricLabel}>{label}</p>
       <p className={styles.metricValue}>{value}</p>
+    </div>
+  );
+}
+
+function ActivityTotalMetricCards({
+  locale,
+  snapshot,
+}: PublicActivitySummaryProps): React.JSX.Element {
+  const activityCopy = getUiCopy(locale).home.activity;
+
+  return (
+    <>
+      <MetricCard
+        label={activityCopy.totalReviewEventsLabel}
+        value={formatNumber(locale, snapshot.totals.reviewEvents.total)}
+      />
+      <MetricCard
+        label={activityCopy.usersWithReviewEventsLabel}
+        value={formatNumber(locale, snapshot.totals.uniqueReviewingUsers)}
+      />
+    </>
+  );
+}
+
+export function PublicActivitySummary({
+  locale,
+  snapshot,
+}: PublicActivitySummaryProps): React.JSX.Element {
+  const activityCopy = getUiCopy(locale).home.activity;
+
+  return (
+    <div className={styles.summary}>
+      <div className={styles.summaryTotals}>
+        <ActivityTotalMetricCards locale={locale} snapshot={snapshot} />
+      </div>
+      <dl className={styles.summaryMetadata}>
+        <div className={styles.summaryMetadataItem}>
+          <dt className={styles.summaryMetadataLabel}>
+            {activityCopy.dateRangeLabel}
+          </dt>
+          <dd className={styles.summaryMetadataValue}>
+            {formatActivityDateRange(locale, snapshot.from, snapshot.to)}
+          </dd>
+        </div>
+        <div className={styles.summaryMetadataItem}>
+          <dt className={styles.summaryMetadataLabel}>
+            {activityCopy.lastUpdatedLabel}
+          </dt>
+          <dd className={styles.summaryMetadataValue}>
+            {formatActivityTimestamp(locale, snapshot.generatedAtUtc)}
+          </dd>
+        </div>
+      </dl>
     </div>
   );
 }
@@ -980,14 +1039,7 @@ export function PublicActivitySection({
       </div>
 
       <div className={styles.metricGrid}>
-        <MetricCard
-          label={activityCopy.totalReviewEventsLabel}
-          value={formatNumber(locale, snapshot.totals.reviewEvents.total)}
-        />
-        <MetricCard
-          label={activityCopy.usersWithReviewEventsLabel}
-          value={formatNumber(locale, snapshot.totals.uniqueReviewingUsers)}
-        />
+        <ActivityTotalMetricCards locale={locale} snapshot={snapshot} />
         <MetricCard
           label={activityCopy.daysInRangeLabel}
           value={formatNumber(locale, snapshot.days.length)}
