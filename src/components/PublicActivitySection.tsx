@@ -13,6 +13,7 @@ import {
 } from "@/lib/activityFormatting";
 import { getExternalLinkAttributes } from "@/lib/linkTargets";
 import { getUiCopy } from "@/lib/uiCopy";
+import { ActivityChartScroller } from "./ActivityChartScroller";
 import styles from "./PublicActivitySection.module.css";
 
 type MetricCardProps = Readonly<{
@@ -28,11 +29,28 @@ type ChartShellProps = Readonly<{
   children: React.ReactNode;
 }>;
 
-type ChartAxesProps = Readonly<{
+type ChartFrameProps = Readonly<{
+  ariaLabel: string;
+  children: React.ReactNode;
+  latestDate: string;
+  locale: AppLocale;
+  maxValue: number;
+  minimumPlotWidth: number;
+  ticks: ReadonlyArray<number>;
+  xAxisLabel: string;
+  yAxisLabel: string;
+}>;
+
+type ChartGridProps = Readonly<{
   ticks: ReadonlyArray<number>;
   maxValue: number;
+}>;
+
+type ChartYAxisProps = Readonly<{
   locale: AppLocale;
-  xAxisLabel: string;
+  maxValue: number;
+  side: ChartYAxisSide;
+  ticks: ReadonlyArray<number>;
   yAxisLabel: string;
 }>;
 
@@ -103,6 +121,8 @@ type DatedChartPoint = Readonly<{
 
 type ChartTitleTag = "h2" | "h3";
 
+type ChartYAxisSide = "end" | "start";
+
 type ReviewUserCohort = "returning" | "new";
 
 type ReviewUserCohortLabels = Readonly<Record<ReviewUserCohort, string>>;
@@ -149,7 +169,14 @@ const chartMargin = {
   bottom: 78,
   inlineStart: 64,
 } as const;
+const chartXAxisTitleHeight = 28;
+const chartPlotWidth = chartWidth - chartMargin.inlineStart - chartMargin.inlineEnd;
+const chartPlotHeight = chartHeight - chartXAxisTitleHeight;
 const chartFrameHeight = chartHeight - chartMargin.top - chartMargin.bottom;
+const chartDateLabelBottomClearance = 32;
+const minimumChartDaySlotSize = 5;
+const minimumChartPlotWidth = 660;
+const startDateLabelInset = 10;
 const uniqueUsersTooltipWidth = 300;
 const platformTooltipWidth = 218;
 const chartTooltipPaddingBlock = 8;
@@ -296,12 +323,25 @@ function createTickDates(days: ReadonlyArray<GlobalActivitySnapshotDay>): Readon
   return tickDates;
 }
 
-function getChartInnerWidth(): number {
-  return chartWidth - chartMargin.inlineStart - chartMargin.inlineEnd;
+function getChartDayStep(days: ReadonlyArray<GlobalActivitySnapshotDay>): number {
+  return chartPlotWidth / days.length;
 }
 
-function getChartDayStep(days: ReadonlyArray<GlobalActivitySnapshotDay>): number {
-  return getChartInnerWidth() / days.length;
+function getChartMinimumPlotWidth(days: ReadonlyArray<GlobalActivitySnapshotDay>): number {
+  return Math.max(minimumChartPlotWidth, days.length * minimumChartDaySlotSize);
+}
+
+function getLatestChartDate(
+  days: ReadonlyArray<GlobalActivitySnapshotDay>,
+  label: string,
+): string {
+  const latestDay = days[days.length - 1];
+
+  if (latestDay === undefined) {
+    throw new Error(`Global activity snapshot days must not be empty when rendering ${label}.`);
+  }
+
+  return latestDay.date;
 }
 
 function getChartBottomY(): number {
@@ -319,7 +359,7 @@ function getTooltipHitWidth(days: ReadonlyArray<GlobalActivitySnapshotDay>): num
 function getChartPointCenterX(index: number, days: ReadonlyArray<GlobalActivitySnapshotDay>): number {
   const step = getChartDayStep(days);
 
-  return chartMargin.inlineStart + (step * index) + (step / 2);
+  return (step * index) + (step / 2);
 }
 
 function getBarHeight(value: number, maxValue: number): number {
@@ -341,8 +381,8 @@ function createTooltipLayout(
   }
 
   const height = (chartTooltipPaddingBlock * 2) + (lineCount * chartTooltipLineHeight);
-  const minX = chartMargin.inlineStart + 8;
-  const maxX = chartWidth - chartMargin.inlineEnd - width - 8;
+  const minX = 8;
+  const maxX = chartPlotWidth - width - 8;
   const minY = chartMargin.top + 6;
   const maxY = getChartBottomY() - height - 8;
   const aboveY = anchorY - height - 10;
@@ -603,18 +643,11 @@ function ChartTooltip({
   );
 }
 
-function ChartAxes({
+function ChartGrid({
   ticks,
   maxValue,
-  locale,
-  xAxisLabel,
-  yAxisLabel,
-}: ChartAxesProps): React.JSX.Element {
-  const leftX = chartMargin.inlineStart;
-  const rightX = chartWidth - chartMargin.inlineEnd;
+}: ChartGridProps): React.JSX.Element {
   const bottomY = getChartBottomY();
-  const yAxisTitleX = 18;
-  const yAxisTitleY = chartMargin.top + (chartFrameHeight / 2);
 
   return (
     <>
@@ -622,39 +655,140 @@ function ChartAxes({
         const y = chartMargin.top + chartFrameHeight - ((tick / maxValue) * chartFrameHeight);
 
         return (
-          <g key={`axis-tick-${tick}`}>
-            <line
-              x1={leftX}
-              y1={y}
-              x2={rightX}
-              y2={y}
-              className={styles.gridLine}
-            />
-            <text x={leftX - 10} y={y + 4} className={styles.axisLabelStart}>
-              {formatNumber(locale, tick)}
-            </text>
-            <text x={rightX + 10} y={y + 4} className={styles.axisLabelEnd}>
-              {formatNumber(locale, tick)}
-            </text>
-          </g>
+          <line
+            key={`grid-line-${tick}`}
+            x1={0}
+            y1={y}
+            x2={chartPlotWidth}
+            y2={y}
+            className={styles.gridLine}
+          />
         );
       })}
 
-      <line x1={leftX} y1={chartMargin.top} x2={leftX} y2={bottomY} className={styles.axisLine} />
-      <line x1={rightX} y1={chartMargin.top} x2={rightX} y2={bottomY} className={styles.axisLine} />
-      <line x1={leftX} y1={bottomY} x2={rightX} y2={bottomY} className={styles.axisLine} />
-      <text
-        x={yAxisTitleX}
-        y={yAxisTitleY}
-        className={styles.yAxisTitle}
-        transform={`rotate(-90 ${yAxisTitleX} ${yAxisTitleY})`}
-      >
-        {yAxisLabel}
-      </text>
-      <text x={chartWidth / 2} y={chartHeight - 12} className={styles.xAxisTitle}>
-        {xAxisLabel}
-      </text>
+      <line
+        x1={0}
+        y1={bottomY}
+        x2={chartPlotWidth}
+        y2={bottomY}
+        className={styles.axisLine}
+      />
     </>
+  );
+}
+
+function ChartYAxis({
+  locale,
+  maxValue,
+  side,
+  ticks,
+  yAxisLabel,
+}: ChartYAxisProps): React.JSX.Element {
+  const isStartAxis = side === "start";
+  const gutterWidth = isStartAxis
+    ? chartMargin.inlineStart
+    : chartMargin.inlineEnd;
+  const axisX = isStartAxis ? gutterWidth : 0;
+  const tickX = isStartAxis ? axisX - 10 : 10;
+  const yAxisTitleX = 18;
+  const yAxisTitleY = chartMargin.top + (chartFrameHeight / 2);
+
+  return (
+    <svg
+      className={`${styles.chartAxisSvg} ${
+        isStartAxis ? styles.chartAxisStart : styles.chartAxisEnd
+      }`}
+      style={{ blockSize: chartPlotHeight }}
+      viewBox={`0 0 ${gutterWidth} ${chartPlotHeight}`}
+      preserveAspectRatio="none"
+      aria-hidden="true"
+      focusable="false"
+    >
+      {ticks.map((tick) => {
+        const y = chartMargin.top + chartFrameHeight - ((tick / maxValue) * chartFrameHeight);
+
+        return (
+          <text
+            key={`${side}-axis-tick-${tick}`}
+            x={tickX}
+            y={y + 4}
+            className={isStartAxis ? styles.axisLabelStart : styles.axisLabelEnd}
+          >
+            {formatNumber(locale, tick)}
+          </text>
+        );
+      })}
+      <line
+        x1={axisX}
+        y1={chartMargin.top}
+        x2={axisX}
+        y2={getChartBottomY()}
+        className={styles.axisLine}
+      />
+      {isStartAxis ? (
+        <text
+          x={yAxisTitleX}
+          y={yAxisTitleY}
+          className={styles.yAxisTitle}
+          transform={`rotate(-90 ${yAxisTitleX} ${yAxisTitleY})`}
+        >
+          {yAxisLabel}
+        </text>
+      ) : null}
+    </svg>
+  );
+}
+
+function ChartFrame({
+  ariaLabel,
+  children,
+  latestDate,
+  locale,
+  maxValue,
+  minimumPlotWidth,
+  ticks,
+  xAxisLabel,
+  yAxisLabel,
+}: ChartFrameProps): React.JSX.Element {
+  return (
+    <div className={styles.chartFrame}>
+      <ChartYAxis
+        locale={locale}
+        maxValue={maxValue}
+        side="start"
+        ticks={ticks}
+        yAxisLabel={yAxisLabel}
+      />
+      <ActivityChartScroller
+        className={styles.chartPlotScroller}
+        latestDate={latestDate}
+      >
+        <svg
+          className={styles.chartPlotSvg}
+          style={{
+            blockSize: chartPlotHeight,
+            minInlineSize: minimumPlotWidth,
+          }}
+          viewBox={`0 0 ${chartPlotWidth} ${chartPlotHeight}`}
+          preserveAspectRatio="none"
+          role="img"
+          aria-label={ariaLabel}
+        >
+          <ChartGrid ticks={ticks} maxValue={maxValue} />
+          {children}
+        </svg>
+      </ActivityChartScroller>
+      <ChartYAxis
+        locale={locale}
+        maxValue={maxValue}
+        side="end"
+        ticks={ticks}
+        yAxisLabel={yAxisLabel}
+      />
+      <div className={styles.xAxisTitle} dir="auto">
+        {xAxisLabel}
+      </div>
+    </div>
   );
 }
 
@@ -663,25 +797,30 @@ function ChartDateLabels({
   dates,
   locale,
 }: ChartDateLabelsProps): React.JSX.Element {
-  const labelY = chartHeight - 42;
+  const labelY = chartPlotHeight - chartDateLabelBottomClearance;
 
   return (
     <>
-      {dates.map((date) => {
+      {dates.map((date, index) => {
         const point = points.find((currentPoint) => currentPoint.date === date);
 
         if (point === undefined) {
           return null;
         }
 
+        const isStartEdgeLabel = index === 0;
+        const labelX = isStartEdgeLabel
+          ? Math.max(startDateLabelInset, point.centerX)
+          : point.centerX;
+
         return (
           <text
             key={`date-${date}`}
-            x={point.centerX}
+            x={labelX}
             y={labelY}
             className={styles.dateLabel}
-            textAnchor="end"
-            transform={`rotate(-35 ${point.centerX} ${labelY})`}
+            style={{ textAnchor: isStartEdgeLabel ? "start" : "end" }}
+            transform={`rotate(-35 ${labelX} ${labelY})`}
           >
             {formatCompactDate(locale, date)}
           </text>
@@ -710,22 +849,20 @@ function DailyUniqueUsersChart({
   const tickDates = createTickDates(days);
   const barWidth = getChartBarWidth(days);
   const tooltipHitWidth = getTooltipHitWidth(days);
+  const latestDate = getLatestChartDate(days, "daily unique users chart");
+  const minimumPlotWidth = getChartMinimumPlotWidth(days);
 
   return (
-    <svg
-      className={styles.chartSvg}
-      viewBox={`0 0 ${chartWidth} ${chartHeight}`}
-      role="img"
-      aria-label={ariaLabel}
+    <ChartFrame
+      ariaLabel={ariaLabel}
+      latestDate={latestDate}
+      locale={locale}
+      maxValue={maxUniqueUsers}
+      minimumPlotWidth={minimumPlotWidth}
+      ticks={ticks}
+      xAxisLabel={xAxisLabel}
+      yAxisLabel={yAxisLabel}
     >
-      <ChartAxes
-        ticks={ticks}
-        maxValue={maxUniqueUsers}
-        locale={locale}
-        xAxisLabel={xAxisLabel}
-        yAxisLabel={yAxisLabel}
-      />
-
       {points.map((point) => (
         <g key={`unique-users-day-${point.date}`}>
           {point.segments.map((segment) => {
@@ -802,7 +939,7 @@ function DailyUniqueUsersChart({
           })}
         </g>
       ))}
-    </svg>
+    </ChartFrame>
   );
 }
 
@@ -840,22 +977,20 @@ function PlatformActivityChart({
   const tickDates = createTickDates(days);
   const barWidth = getChartBarWidth(days);
   const tooltipHitWidth = getTooltipHitWidth(days);
+  const latestDate = getLatestChartDate(days, "platform activity chart");
+  const minimumPlotWidth = getChartMinimumPlotWidth(days);
 
   return (
-    <svg
-      className={styles.chartSvg}
-      viewBox={`0 0 ${chartWidth} ${chartHeight}`}
-      role="img"
-      aria-label={ariaLabel}
+    <ChartFrame
+      ariaLabel={ariaLabel}
+      latestDate={latestDate}
+      locale={locale}
+      maxValue={maxReviewEvents}
+      minimumPlotWidth={minimumPlotWidth}
+      ticks={ticks}
+      xAxisLabel={xAxisLabel}
+      yAxisLabel={yAxisLabel}
     >
-      <ChartAxes
-        ticks={ticks}
-        maxValue={maxReviewEvents}
-        locale={locale}
-        xAxisLabel={xAxisLabel}
-        yAxisLabel={yAxisLabel}
-      />
-
       {points.map((point) => (
         <g key={`platform-day-${point.date}`}>
           {point.segments.map((segment) => {
@@ -931,7 +1066,7 @@ function PlatformActivityChart({
           })}
         </g>
       ))}
-    </svg>
+    </ChartFrame>
   );
 }
 
