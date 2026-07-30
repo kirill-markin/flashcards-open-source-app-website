@@ -1,7 +1,9 @@
 ---
-title: "Self-Hosted Open Source Flashcards App for Spaced Repetition"
-description: "Looking for an open-source flashcards app you can self-host? Run spaced repetition with a fast review queue, passwordless auth, and full control of your study data."
+title: "Self-Hosted Open-Source Flashcard App for Spaced Repetition"
+description: "Self-host the open-source Flashcards stack locally for development or deploy its documented AWS CDK infrastructure for a production spaced-repetition app."
 date: "2026-03-08"
+updated: "2026-07-30"
+image: "/home/app-screens-showcase-en.png"
 keywords:
   - "open source flashcards app"
   - "self-hosted flashcards app"
@@ -11,108 +13,154 @@ keywords:
   - "ai flashcards"
 ---
 
-Open Anki next to Quizlet and the tradeoff is obvious in about 30 seconds.
+Yes, Flashcards can be self-hosted. The full application and infrastructure code is open source under the MIT license. You can run the services locally for development or deploy the repository's documented production stack on AWS. If you do not want to operate infrastructure, the [hosted app](https://app.flashcards-open-source-app.com/) remains available.
 
-One feels like old desktop software that never really left 2012. The other feels like a polished subscription product that happens to do flashcards.
+![Flashcards Open Source App mobile screens for review, progress, AI chat, and cards](/home/app-screens-showcase-en.png)
 
-I kept running into that split while working on [Flashcards](https://flashcards-open-source-app.com/). The spaced repetition idea is still great. The products around it feel stuck.
+## What can be self-hosted
 
-That would be easier to accept if software were still hard to ship. It isn't.
+The repository contains the services and infrastructure used for the core Flashcards system:
 
-Small teams can build real products in a week now. We can ship fast, wire AI into actual workflows, and expose clean APIs from day one. Flashcards software should not still be trapped between clunky legacy UX and closed platforms.
+- the web app and admin app
+- the backend API and passwordless authentication service
+- PostgreSQL schema, migrations, sync, and FSRS-based review scheduling
+- the MCP server and machine-facing Agent API
+- the AWS CDK stack for networking, database, authentication, APIs, static web hosting, secrets, backups, monitoring, and CI/CD
 
-That's the gap [Flashcards](https://flashcards-open-source-app.com/) is trying to fill: a self-hosted open-source flashcards app with spaced repetition, a modern web stack, offline-first client support, and AI built into the product direction instead of taped on later.
+It also includes native iOS and Android clients. Those apps are separate builds; deploying the AWS stack does not publish your own App Store or Google Play releases for you.
 
-## Anki still works, but it feels old
+There are two supported ways to run the server-side stack:
 
-I don't think the problem with Anki is that the algorithm is bad. The core idea is proven. People have used it for years for languages, medicine, exams, and all sorts of memorization-heavy work.
+1. **Local development:** Docker Compose runs PostgreSQL and the migration job. The repository's scripts run auth, backend, web, and admin development servers on the host.
+2. **Production on AWS:** the included CDK stack deploys the documented AWS architecture and connects its public domains through Cloudflare.
 
-The problem is that the product experience still feels old.
+Docker Compose is not a one-command production deployment. The production path is AWS-specific, and the project does not claim vendor-neutral infrastructure.
 
-You can absolutely force yourself to live with it. Lots of people do. But "it works if you get used to it" is not a strong compliment in 2026. The interface feels like a tool you tolerate, not a tool you enjoy opening every day.
+## What the repository includes now
 
-That matters more than people admit. Flashcards only work if you come back tomorrow, and then the day after that, and then a hundred days after that. Friction compounds.
+This is more than a standalone flashcard editor. The current repository includes:
 
-## Quizlet is smoother, but the tradeoff goes the other way
+- a React web client and admin client
+- native SwiftUI iOS and Jetpack Compose Android clients
+- offline-first local storage and sync for the human clients
+- front/back cards, tags, related media, and FSRS review
+- passwordless email OTP through Amazon Cognito and the auth service
+- AI chat backed by a deployed asynchronous worker and operator-provided model credentials
+- an MCP endpoint for compatible AI clients
+- an Agent API for terminal tools and other automated workflows
 
-Quizlet fixed the interface problem. It looks cleaner. It feels more like a modern consumer product. For a lot of people, that alone makes it more appealing than Anki.
+The [architecture documentation](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/docs/architecture.md) is the best source for the current service boundaries. The public [API guide](/docs/api/) explains the hosted Agent API entry point.
 
-But then you hit the other wall.
+## Hosted vs self-hosted
 
-The pricing is hard to love for something as basic as flashcards. The product is closed. Your study system lives inside somebody else's platform. If their pricing changes, product priorities change, or access rules change, you adapt. Not them.
+| Area | Hosted app | Self-hosted deployment |
+| --- | --- | --- |
+| Initial setup | Open the app and sign in | Configure accounts, secrets, domains, and deploy the AWS stack |
+| Infrastructure | Operated by the Flashcards project | Operated in your AWS and Cloudflare accounts |
+| Database and backups | Managed for you | RDS, backup policy, migrations, and recovery are your responsibility |
+| Auth and email | Managed for you | Cognito plus your email delivery credentials and DNS |
+| AI | Uses the hosted service configuration | Uses the deployed worker and your model credentials; guest access has a separate quota |
+| Monitoring | Managed for you | CloudWatch/SNS and your Sentry configuration |
+| Updates | Shipped by the hosted service | You pull, validate, deploy, and monitor updates |
+| Cost | Hosted plan terms apply | You pay AWS and other provider costs directly |
 
-That's fine for some categories. I'm not convinced it's fine for personal knowledge.
+Self-hosting gives you control of the deployment and database. It also makes you responsible for security updates, secrets, availability, backups, email delivery, monitoring, and cloud costs.
 
-## Your cards should not be trapped inside somebody else's product
+## Requirements and local quick start
 
-Flashcards are not throwaway content. Over time they become a record of what you're learning, what you keep forgetting, and how your thinking changes. That's valuable data.
+Local development currently requires Git, Bash, GNU Make, Docker with Docker Compose, Node.js 24, and npm. The provided Compose file runs PostgreSQL 18.4 and applies the database migrations.
 
-I don't love the idea of building that inside a black box.
+From the repository root:
 
-With a self-hosted flashcards app, the default changes. You can inspect the code. You can run the stack yourself. You can use the hosted version first and move later if you want. You are not asking for permission to keep using your own study system the way you want.
+```bash
+git clone https://github.com/kirill-markin/flashcards-open-source-app.git
+cd flashcards-open-source-app
+cp .env.example .env
+make db-up
+npm install --prefix api
+npm install --prefix apps/auth
+npm install --prefix apps/backend
+npm install --prefix apps/web
+npm install --prefix apps/admin
+```
 
-That matters even more now because AI makes lock-in more painful. Once your data model is open and the product exposes real operations, AI can actually work with your cards. In closed products, the AI layer often stays shallow because the product itself is shallowly exposed.
+For the shortest local-only start, run the backend with the role created by the migration and explicitly enable insecure local authentication:
 
-## Most AI flashcards features are still pretty weak
+```bash
+AUTH_MODE=none \
+ALLOW_INSECURE_LOCAL_AUTH=true \
+DATABASE_URL=postgresql://backend_app:backend_app@localhost:5432/flashcards \
+REPORTING_DATABASE_URL=postgresql://reporting_readonly:reporting_readonly@localhost:5432/flashcards \
+make backend-dev
+```
 
-Right now a lot of "AI flashcards" products do one trick. You paste some text, they generate a few cards, and then the magic is over.
+Then run the clients in separate terminals:
 
-That is not the interesting part.
+```bash
+make web-dev
+make admin-dev
+```
 
-The interesting part is letting AI work inside the real product.
+This intentionally does not start the Cognito auth service. The [Self-Hosting Guide](/docs/self-hosting/) gives the separate database URLs and environment-loading steps for a full Cognito flow with `make auth-dev`. The web app runs at `http://localhost:3000`, the admin app at `http://localhost:3001`, the backend at `http://localhost:8080/v1`, and Cognito auth, when configured, at `http://localhost:8081`.
 
-In [Flashcards](https://flashcards-open-source-app.com/), the current web app already has AI chat tied to the actual workspace. The broader architecture also exposes a separate external agent surface for terminal tools, while the iOS client keeps its own offline-first sync flow.
+This quick start covers core backend, web, and admin development. It does not make Chat V2 available: the `AUTH_MODE=none` transport is not accepted by those routes, and the local commands do not start the asynchronous chat worker.
 
-That's a much stronger direction than "generate 20 cards from this paragraph" and call it a day.
+For production, use the repository's first-deploy flow rather than Docker Compose:
 
-It means AI can help with the boring parts without becoming a toy:
+```bash
+npm ci --prefix apps/auth
+bash scripts/deploy/first-deploy.sh \
+  --region eu-central-1 \
+  --domain example.com \
+  --alert-email alerts@example.com
+```
 
-- checking whether a concept already exists before creating a duplicate card
-- showing what is due right now instead of making up disconnected content
-- cleaning up wording on weak cards
-- helping maintain a deck over time, not just generate it once
+The explicit auth install is currently required from a clean checkout because the deployment helper bundles that package but does not install it. The helper then creates and updates real cloud resources. Read the [backend and web deployment guide](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/docs/backend-web-deployment.md) and [AWS CDK deployment guide](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/infra/aws/README.md) before running it.
 
-That is what "AI-first" should mean here. Not a chatbot bolted onto a closed app. A product where the real objects and actions are available to AI in a controlled way.
+## Data portability is useful but deliberately limited
 
-## The product should be modern even before AI shows up
+Flashcards package import and export covers cards, their tags, and related media. It does **not** transfer review history, FSRS scheduler state, workspace settings, full deck structures, or account data.
 
-Even without AI, I wanted the base product to feel sane.
+That distinction matters if you are moving between the hosted service and your own deployment. The portable package is a content transfer path, not a complete database or account migration. For a full operational backup, a self-hosted operator must also manage the PostgreSQL database and media storage created by the AWS stack.
 
-That means a clear review queue, card creation from the web client, spaced repetition handled by the backend, passwordless auth instead of another password graveyard, and a documented self-hosted path for people who care about owning their stack.
+## AI and external service credentials
 
-The project already has that foundation:
+The source code does not include cloud accounts, model credits, or production credentials. A self-hosted operator supplies the relevant configuration:
 
-- a hosted web app you can use now
-- an iOS app in the repository with local SQLite and sync
-- a review flow built around due cards and FSRS
-- open-source code on GitHub
-- a documented external agent API surface
-- passwordless auth
-- a [self-hosting guide](https://flashcards-open-source-app.com/docs/self-hosting/)
-- [architecture docs](https://flashcards-open-source-app.com/docs/architecture/)
+- AWS credentials and an AWS account for the CDK stack
+- a domain and Cloudflare credentials for the documented DNS setup
+- Resend credentials for email delivery
+- Sentry configuration for required backend monitoring
+- optional OpenAI and Langfuse credentials for AI and tracing
+- GitHub configuration for the included deployment workflow
 
-It is still early, and I'm not pretending otherwise. But the product is already more than a browser-only prototype: the repository ships the hosted web app, the iOS client, the auth service, the backend API, and the current sync path. I'd rather use something early and honest than something polished and boxed-in.
+AI is optional in the AWS deployment. The CDK stack deploys the asynchronous chat worker, and model credentials enable supported authenticated AI requests. `GUEST_AI_WEIGHTED_MONTHLY_TOKEN_CAP` separately controls guest AI usage; it is not a global switch for signed-in or bearer-authenticated AI. If you connect MCP or another external AI client, card data included in a request can be processed by that external provider under its own terms; self-hosting the database does not keep those requests inside your infrastructure.
 
-## This is exactly the kind of product we should be building now
+## Honest beta and operational limits
 
-The weird part is not that a new Anki alternative exists. The weird part is that there still aren't more of them.
+Flashcards is still an early product. The repository is active, migrations and deployment configuration can change, and self-hosting assumes that you are comfortable operating an AWS application.
 
-We can build products faster than ever. We can keep them small. We can ship open source. We can connect AI to actual product actions instead of demo-only magic. We can give users a hosted option without forcing them into permanent dependence on it.
+The CDK stack includes backups, alarms, secrets, and deployment automation, but those components still need an operator. You should expect to:
 
-Flashcards are a perfect fit for that world. The domain is simple. The value is obvious. The data is personal. The workflow gets better when AI can work on real cards and real review state. This should be one of the easiest categories to modernize.
+- review infrastructure changes before deploying
+- monitor releases and public endpoint checks
+- confirm alert subscriptions and email-domain DNS
+- protect and rotate credentials
+- test restores and plan for AWS costs
+- build and distribute native mobile apps separately if you want your own releases
 
-So that's the bet behind [Flashcards](https://flashcards-open-source-app.com/): open source, self-hosted if you want it, spaced repetition at the core, and AI integrated as part of the real product model.
+If that operational work is not useful to you, the hosted app is the simpler path.
 
-Not because "AI-first" sounds good on a landing page. Because this category finally has the tooling to deserve a better product.
+## A brief comparison with Anki and Quizlet
 
-## Try it or self-host it
+Anki is a mature open-source choice with a large ecosystem and strong desktop workflows. Quizlet is a managed consumer service with a low-setup study experience. Both can be the right choice depending on whether you value an established local tool or a fully managed platform.
 
-If you want an open source flashcards app with spaced repetition, a self-hosted path, and room for real AI workflows, start here:
+Flashcards takes a different path: an open web, mobile, API, and infrastructure repository built around FSRS, sync, AI workflows, MCP, and an AWS self-hosting option. It is younger than Anki and requires substantially more operational work than Quizlet when self-hosted. The reason to choose it is that this combination matches your needs, not that every learner should operate a cloud stack.
+
+## Try the hosted app or run your own stack
 
 - [Open the hosted app](https://app.flashcards-open-source-app.com/)
-- [Read the getting started guide](https://flashcards-open-source-app.com/docs/getting-started/)
+- [Read the Self-Hosting Guide](/docs/self-hosting/)
 - [View the source on GitHub](https://github.com/kirill-markin/flashcards-open-source-app)
 
-Flashcards should feel like modern software. Not legacy study software with a prettier landing page. Not a closed subscription with a flashcards feature attached.
-
-Open source, own-your-data, and AI that works on the real product is a better direction. I think this category has been waiting for it for years.
+Use the hosted version when you want to study without maintaining infrastructure. Use the self-hosted path when control of the deployment is worth the AWS, DNS, email, monitoring, and update work.
