@@ -1,122 +1,166 @@
 ---
-title: >-
-  Aplicación de flashcards de código abierto y autohospedada para repetición
-  espaciada
-description: >-
-  ¿Buscas una aplicación de flashcards de código abierto que puedas alojar por
-  tu cuenta? Usa repetición espaciada con una cola de repaso rápida,
-  autenticación sin contraseña y control total sobre tus datos de estudio.
-date: '2026-03-08'
+title: "Aplicación de tarjetas de código abierto y autoalojada para repetición espaciada"
+description: "Aloja por tu cuenta la pila de código abierto de Flashcards en local para desarrollo o despliega en AWS su infraestructura de producción documentada con CDK."
+date: "2026-03-08"
+updated: "2026-07-30"
+image: "/home/app-screens-showcase-es.png"
 keywords:
-  - aplicación de flashcards de código abierto
-  - aplicación de flashcards autohospedada
-  - aplicación de repetición espaciada
-  - alternativa a anki
-  - alternativa a quizlet
-  - flashcards con ia
+  - "aplicación de tarjetas de código abierto"
+  - "aplicación de tarjetas autoalojada"
+  - "aplicación de repetición espaciada"
+  - "alternativa a Anki"
+  - "alternativa a Quizlet"
+  - "tarjetas con IA"
 ---
-Basta con abrir Anki al lado de Quizlet para ver el equilibrio de compromisos en menos de 30 segundos.
 
-Uno se siente como un programa de escritorio anclado en 2012. El otro, como un producto de suscripción pulido que, además, incluye flashcards.
+Sí, Flashcards se puede autoalojar. Todo el código de la aplicación y de la infraestructura es de código abierto y se distribuye bajo la licencia MIT. Puedes ejecutar los servicios en local para desarrollo o desplegar en AWS la pila de producción documentada del repositorio. Si no quieres gestionar infraestructura, la [aplicación alojada](https://app.flashcards-open-source-app.com/) sigue estando disponible.
 
-Me encontré una y otra vez con esa diferencia mientras trabajaba en [Flashcards](https://flashcards-open-source-app.com/). La idea de la repetición espaciada sigue siendo excelente. Lo que se ha quedado atrás es el producto que la rodea.
+![Pantallas móviles de Flashcards Open Source App para repaso, progreso, chat con IA y tarjetas](/home/app-screens-showcase-es.png)
 
-Eso sería más fácil de aceptar si seguir lanzando software fuese difícil. Ya no lo es.
+## Qué se puede autoalojar
 
-Hoy, equipos pequeños pueden construir productos reales en una semana. Podemos iterar rápido, integrar IA en flujos de trabajo de verdad y exponer APIs limpias desde el primer día. El software de flashcards no debería seguir atrapado entre una UX heredada y torpe y unas plataformas cerradas.
+El repositorio contiene los servicios y la infraestructura del sistema principal de Flashcards:
 
-Ese es el hueco que [Flashcards](https://flashcards-open-source-app.com/) intenta cubrir: una aplicación de flashcards de código abierto y autohospedada, con repetición espaciada, una pila web moderna, soporte offline-first en el cliente e IA integrada en la dirección del producto en lugar de añadida a posteriori.
+- la aplicación web y la aplicación de administración
+- la API del backend y el servicio de autenticación sin contraseña
+- el esquema de PostgreSQL, las migraciones, la sincronización y la programación de repasos basada en FSRS
+- el servidor MCP y la API para agentes
+- la pila de AWS CDK para redes, base de datos, autenticación, API, alojamiento web estático, secretos, copias de seguridad, monitorización y CI/CD
 
-## Anki sigue funcionando, pero se nota antiguo
+También incluye clientes nativos para iOS y Android. Estas aplicaciones se compilan por separado; desplegar la pila de AWS no publica por ti tus propias versiones en la App Store ni en Google Play.
 
-No creo que el problema de Anki sea que el algoritmo sea malo. La idea base está más que demostrada. La gente lo lleva usando años para idiomas, medicina, exámenes y todo tipo de trabajo intensivo en memorización.
+Hay dos formas compatibles de ejecutar la pila del servidor:
 
-El problema es que la experiencia de producto sigue pareciendo antigua.
+1. **Desarrollo local:** Docker Compose ejecuta PostgreSQL y la tarea de migración. Los scripts del repositorio ejecutan en el host los servidores de desarrollo de autenticación, backend, web y administración.
+2. **Producción en AWS:** la pila de CDK incluida despliega la arquitectura de AWS documentada y conecta sus dominios públicos mediante Cloudflare.
 
-Claro que puedes acostumbrarte. Muchísima gente lo hace. Pero "funciona si te adaptas" no es un gran elogio en 2026. La interfaz se siente como una herramienta que soportas, no como una herramienta que te apetece abrir todos los días.
+Docker Compose no es un despliegue de producción con un solo comando. La ruta de producción es específica para AWS y el proyecto no afirma que su infraestructura sea independiente del proveedor.
 
-Y eso importa más de lo que se suele admitir. Las flashcards solo funcionan si vuelves mañana, y al día siguiente, y cien días después. La fricción se acumula.
+## Qué incluye ahora el repositorio
 
-## Quizlet es más fluido, pero el compromiso va en la otra dirección
+Esto es más que un editor de tarjetas independiente. El repositorio actual incluye:
 
-Quizlet resolvió el problema de la interfaz. Se ve más limpio. Se siente más como un producto de consumo moderno. Para mucha gente, eso por sí solo ya lo hace más atractivo que Anki.
+- un cliente web en React y un cliente de administración
+- clientes nativos para iOS con SwiftUI y para Android con Jetpack Compose
+- almacenamiento local con prioridad para el uso sin conexión y sincronización para los clientes de usuario
+- tarjetas con anverso y reverso, etiquetas, contenido multimedia relacionado y repaso con FSRS
+- códigos de un solo uso por correo electrónico sin contraseña mediante Amazon Cognito y el servicio de autenticación
+- chat con IA respaldado por un proceso asíncrono desplegado y credenciales de modelos proporcionadas por el operador
+- un punto de conexión MCP para clientes de IA compatibles
+- una API para agentes destinada a herramientas de terminal y otros flujos de trabajo automatizados
 
-Pero entonces te topas con el otro muro.
+La [documentación de arquitectura](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/docs/architecture.md) es la mejor fuente para conocer los límites actuales de los servicios. La [guía de la API](/docs/api/) pública explica el punto de entrada de la API para agentes alojada.
 
-Cuesta justificar el precio para algo tan básico como unas flashcards. El producto es cerrado. Tu sistema de estudio vive dentro de la plataforma de otra empresa. Si cambian los precios, las prioridades del producto o las reglas de acceso, quien tiene que adaptarse eres tú. Ellos no.
+## Aplicación alojada frente a despliegue autoalojado
 
-Eso puede ser aceptable en algunas categorías. No tengo tan claro que lo sea cuando hablamos de conocimiento personal.
+| Área | Aplicación alojada | Despliegue autoalojado |
+| --- | --- | --- |
+| Configuración inicial | Abre la aplicación e inicia sesión | Configura cuentas, secretos y dominios, y despliega la pila de AWS |
+| Infraestructura | Gestionada por el proyecto Flashcards | Gestionada en tus cuentas de AWS y Cloudflare |
+| Base de datos y copias de seguridad | Gestionadas por el servicio | RDS, la política de copias de seguridad, las migraciones y la recuperación son responsabilidad tuya |
+| Autenticación y correo electrónico | Gestionados por el servicio | Cognito, junto con tus credenciales de envío de correo y el DNS |
+| IA | Usa la configuración del servicio alojado | Usa el proceso asíncrono desplegado y tus credenciales de modelos; el acceso de invitados tiene una cuota independiente |
+| Monitorización | Gestionada por el servicio | CloudWatch/SNS y tu configuración de Sentry |
+| Actualizaciones | Distribuidas por el servicio alojado | Tú descargas, validas, despliegas y monitorizas las actualizaciones |
+| Coste | Se aplican las condiciones del plan alojado | Pagas directamente los costes de AWS y de otros proveedores |
 
-## Tus tarjetas no deberían quedar atrapadas dentro del producto de otra empresa
+El autoalojamiento te da el control del despliegue y de la base de datos. También te hace responsable de las actualizaciones de seguridad, los secretos, la disponibilidad, las copias de seguridad, la entrega de correo, la monitorización y los costes de la nube.
 
-Las flashcards no son contenido desechable. Con el tiempo se convierten en un registro de lo que estás aprendiendo, de lo que sigues olvidando y de cómo cambia tu forma de pensar. Esos datos tienen valor.
+## Requisitos e inicio rápido en local
 
-No me entusiasma la idea de construir todo eso dentro de una caja negra.
+El desarrollo local requiere actualmente Git, Bash, GNU Make, Docker con Docker Compose, Node.js 24 y npm. El archivo de Compose incluido ejecuta PostgreSQL 18.4 y aplica las migraciones de la base de datos.
 
-Con una aplicación de flashcards autohospedada, el punto de partida cambia. Puedes inspeccionar el código. Puedes ejecutar la pila por tu cuenta. Puedes usar primero la versión alojada y migrar después, si quieres. No tienes que pedir permiso para seguir usando tu propio sistema de estudio como mejor te convenga.
+Desde la raíz del repositorio:
 
-Eso importa aún más ahora porque la IA hace que el bloqueo de plataforma resulte todavía más costoso. Cuando tu modelo de datos es abierto y el producto expone operaciones reales, la IA puede trabajar de verdad con tus tarjetas. En los productos cerrados, la capa de IA suele quedarse en la superficie porque el propio producto también está expuesto de forma superficial.
+```bash
+git clone https://github.com/kirill-markin/flashcards-open-source-app.git
+cd flashcards-open-source-app
+cp .env.example .env
+make db-up
+npm install --prefix api
+npm install --prefix apps/auth
+npm install --prefix apps/backend
+npm install --prefix apps/web
+npm install --prefix apps/admin
+```
 
-## La mayoría de las funciones de IA para flashcards siguen siendo bastante flojas
+Para el inicio exclusivamente local más corto, ejecuta el backend con el rol creado por la migración y habilita de forma explícita la autenticación local no segura:
 
-Ahora mismo, muchos productos de "flashcards con IA" hacen un único truco. Pegas un texto, generan unas cuantas tarjetas y ahí se acaba la magia.
+```bash
+AUTH_MODE=none \
+ALLOW_INSECURE_LOCAL_AUTH=true \
+DATABASE_URL=postgresql://backend_app:backend_app@localhost:5432/flashcards \
+REPORTING_DATABASE_URL=postgresql://reporting_readonly:reporting_readonly@localhost:5432/flashcards \
+make backend-dev
+```
 
-Eso no es lo interesante.
+Después, ejecuta los clientes en terminales independientes:
 
-Lo interesante es dejar que la IA actúe dentro del producto real.
+```bash
+make web-dev
+make admin-dev
+```
 
-En [Flashcards](https://flashcards-open-source-app.com/), la aplicación web actual ya tiene un chat con IA conectado al espacio de trabajo real. Además, la arquitectura más amplia expone una superficie externa de agentes para herramientas de terminal, mientras que el cliente de iOS mantiene su propio flujo de sincronización offline-first.
+Esto no inicia deliberadamente el servicio de autenticación de Cognito. La [Guía de autoalojamiento](/docs/self-hosting/) explica las URL de base de datos separadas y los pasos para cargar las variables de entorno necesarios para un flujo completo con Cognito y `make auth-dev`. La aplicación web se ejecuta en `http://localhost:3000`, la aplicación de administración en `http://localhost:3001`, el backend en `http://localhost:8080/v1` y la autenticación con Cognito, cuando está configurada, en `http://localhost:8081`.
 
-Esa es una dirección mucho más sólida que limitarse a "genera 20 tarjetas a partir de este párrafo" y dar el tema por resuelto.
+Este inicio rápido cubre el desarrollo del backend principal, la web y la aplicación de administración. No habilita Chat V2: esas rutas no aceptan el transporte `AUTH_MODE=none` y los comandos locales no inician el proceso asíncrono del chat.
 
-Significa que la IA puede ayudar con las partes más pesadas sin convertirse en un juguete:
+Para producción, usa el flujo de primer despliegue del repositorio en lugar de Docker Compose:
 
-- comprobar si un concepto ya existe antes de crear una tarjeta duplicada
-- mostrar qué toca repasar ahora mismo, en lugar de inventarse contenido desconectado
-- mejorar la redacción de tarjetas flojas
-- ayudar a mantener un mazo con el paso del tiempo, no solo generarlo una vez
+```bash
+npm ci --prefix apps/auth
+bash scripts/deploy/first-deploy.sh \
+  --region eu-central-1 \
+  --domain example.com \
+  --alert-email alerts@example.com
+```
 
-Eso es lo que aquí debería significar "AI-first". No un chatbot pegado a una aplicación cerrada. Sino un producto en el que los objetos y las acciones reales están disponibles para la IA de forma controlada.
+La instalación explícita de autenticación es necesaria actualmente en una copia limpia porque el asistente de despliegue empaqueta ese módulo, pero no instala sus dependencias. A continuación, el asistente crea y actualiza recursos reales en la nube. Lee la [guía de despliegue del backend y la web](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/docs/backend-web-deployment.md) y la [guía de despliegue de AWS CDK](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/infra/aws/README.md) antes de ejecutarlo.
 
-## El producto debería sentirse moderno incluso antes de que aparezca la IA
+## La portabilidad de datos es útil, pero deliberadamente limitada
 
-Incluso sin IA, quería que el producto base tuviera sentido.
+La importación y exportación de paquetes de Flashcards abarca las tarjetas, sus etiquetas y el contenido multimedia relacionado. **No** transfiere el historial de repasos, el estado del planificador FSRS, la configuración del espacio de trabajo, las estructuras completas de los mazos ni los datos de la cuenta.
 
-Eso implica una cola de repaso clara, creación de tarjetas desde el cliente web, repetición espaciada gestionada por el backend, autenticación sin contraseña en lugar de otro cementerio de contraseñas y una ruta de autohospedaje documentada para quien quiera controlar su propia pila.
+Esta diferencia importa si vas a pasar del servicio alojado a tu propio despliegue o viceversa. El paquete portable permite transferir contenido, pero no constituye una migración completa de la base de datos ni de la cuenta. Para disponer de una copia de seguridad operativa completa, quien gestione una instalación autoalojada también debe ocuparse de la base de datos PostgreSQL y del almacenamiento multimedia creados por la pila de AWS.
 
-El proyecto ya tiene esa base:
+## IA y credenciales de servicios externos
 
-- una aplicación web alojada que ya se puede usar
-- una app de iOS en el repositorio con SQLite local y sincronización
-- un flujo de repaso basado en tarjetas vencidas y FSRS
-- código abierto en GitHub
-- una API externa de agentes documentada
-- autenticación sin contraseña
-- una [guía de autohospedaje](https://flashcards-open-source-app.com/docs/self-hosting/)
-- [documentación de arquitectura](https://flashcards-open-source-app.com/docs/architecture/)
+El código fuente no incluye cuentas en la nube, créditos para modelos ni credenciales de producción. Quien gestione una instalación autoalojada debe proporcionar la configuración correspondiente:
 
-Todavía está en una fase temprana, y no voy a fingir lo contrario. Pero el producto ya es bastante más que un prototipo solo para navegador: el repositorio incluye la aplicación web alojada, el cliente de iOS, el servicio de autenticación, la API backend y la ruta de sincronización actual. Prefiero usar algo temprano y honesto antes que algo pulido pero limitado.
+- credenciales y una cuenta de AWS para la pila de CDK
+- un dominio y credenciales de Cloudflare para la configuración de DNS documentada
+- credenciales de Resend para el envío de correo electrónico
+- configuración de Sentry para la monitorización obligatoria del backend
+- credenciales opcionales de OpenAI y Langfuse para la IA y el seguimiento
+- configuración de GitHub para el flujo de despliegue incluido
 
-## Este es exactamente el tipo de producto que deberíamos estar construyendo ahora
+La IA es opcional en el despliegue de AWS. La pila de CDK despliega el proceso asíncrono del chat y las credenciales de modelos habilitan las solicitudes de IA autenticadas compatibles. `GUEST_AI_WEIGHTED_MONTHLY_TOKEN_CAP` controla por separado el uso de IA de los invitados; no es un interruptor global para la IA de usuarios que han iniciado sesión o se autentican mediante un token de tipo bearer. Si conectas MCP u otro cliente de IA externo, los datos de las tarjetas incluidos en una solicitud pueden ser procesados por ese proveedor externo según sus propias condiciones; autoalojar la base de datos no mantiene esas solicitudes dentro de tu infraestructura.
 
-Lo raro no es que exista una nueva alternativa a Anki. Lo raro es que todavía no haya muchas más.
+## Limitaciones operativas y de una beta real
 
-Podemos crear productos más rápido que nunca. Podemos mantenerlos pequeños. Podemos lanzarlos como código abierto. Podemos conectar la IA con acciones reales del producto en lugar de quedarnos en trucos de demo. Podemos ofrecer una opción alojada sin obligar a nadie a depender de ella para siempre.
+Flashcards sigue siendo un producto en una fase temprana. El repositorio está activo, las migraciones y la configuración de despliegue pueden cambiar, y el autoalojamiento presupone que sabes gestionar una aplicación en AWS.
 
-Las flashcards encajan perfectamente en ese mundo. El dominio es simple. El valor es evidente. Los datos son personales. El flujo de trabajo mejora cuando la IA puede operar sobre tarjetas reales y sobre el estado real del repaso. Esta debería ser una de las categorías más fáciles de modernizar.
+La pila de CDK incluye copias de seguridad, alarmas, secretos y automatización del despliegue, pero esos componentes siguen necesitando una persona responsable. Deberías contar con estas tareas:
 
-Esa es la apuesta detrás de [Flashcards](https://flashcards-open-source-app.com/): código abierto, autohospedado si así lo quieres, repetición espaciada en el centro e IA integrada como parte del modelo real del producto.
+- revisar los cambios de infraestructura antes de desplegarlos
+- monitorizar las versiones y las comprobaciones de puntos de conexión públicos
+- confirmar las suscripciones a alertas y el DNS del dominio de correo
+- proteger y rotar las credenciales
+- probar las restauraciones y planificar los costes de AWS
+- compilar y distribuir las aplicaciones móviles nativas por separado si quieres publicar tus propias versiones
 
-No porque "AI-first" suene bien en una landing page. Sino porque esta categoría por fin tiene las herramientas para merecer un producto mejor.
+Si este trabajo operativo no te resulta útil, la aplicación alojada es la opción más sencilla.
 
-## Pruébalo o autohospédalo
+## Breve comparación con Anki y Quizlet
 
-Si buscas una aplicación de flashcards de código abierto con repetición espaciada, una ruta de autohospedaje y margen para flujos de trabajo reales con IA, empieza aquí:
+Anki es una opción madura de código abierto con un gran ecosistema y flujos de trabajo sólidos en el escritorio. Quizlet es un servicio de consumo gestionado que ofrece una experiencia de estudio con poca configuración. Ambos pueden ser la elección adecuada según prefieras una herramienta local consolidada o una plataforma completamente gestionada.
+
+Flashcards sigue otro camino: un repositorio abierto para web, aplicaciones móviles, API e infraestructura, construido alrededor de FSRS, la sincronización, los flujos de trabajo con IA, MCP y una opción de autoalojamiento en AWS. Es más joven que Anki y, cuando se autoaloja, requiere bastante más trabajo operativo que Quizlet. La razón para elegirlo es que esta combinación se ajuste a tus necesidades, no que toda persona que estudie deba gestionar una pila en la nube.
+
+## Prueba la aplicación alojada o ejecuta tu propia pila
 
 - [Abrir la aplicación alojada](https://app.flashcards-open-source-app.com/)
-- [Leer la guía de primeros pasos](https://flashcards-open-source-app.com/docs/getting-started/)
+- [Leer la Guía de autoalojamiento](/docs/self-hosting/)
 - [Ver el código fuente en GitHub](https://github.com/kirill-markin/flashcards-open-source-app)
 
-Las flashcards deberían sentirse como software moderno. No como software de estudio heredado con una landing page más bonita. Tampoco como una suscripción cerrada a la que le han añadido una función de flashcards.
-
-El código abierto, el control sobre tus datos y una IA que actúa sobre el producto real apuntan en una dirección mejor. Creo que esta categoría llevaba años esperando algo así.
+Usa la versión alojada si quieres estudiar sin mantener infraestructura. Usa la opción autoalojada si el control del despliegue compensa el trabajo que suponen AWS, DNS, correo electrónico, monitorización y actualizaciones.
