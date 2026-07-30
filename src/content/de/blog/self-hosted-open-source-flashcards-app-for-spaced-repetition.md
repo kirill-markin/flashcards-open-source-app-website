@@ -1,118 +1,166 @@
 ---
-title: "Selbst gehostete Open-Source-Flashcards-App für Spaced Repetition"
-description: "Suchst du eine Open-Source-Flashcards-App, die du selbst betreiben kannst? Nutze Spaced Repetition mit einer schnellen Lernwarteschlange, passwortloser Anmeldung und voller Kontrolle über deine Lerndaten."
+title: "Selbst gehostete Open-Source-Lernkarten-App für Spaced Repetition"
+description: "Betreibe den Open-Source-Stack von Flashcards zur Entwicklung lokal oder stelle die dokumentierte Produktionsinfrastruktur mit AWS CDK bereit."
 date: "2026-03-08"
+updated: "2026-07-30"
+image: "/home/app-screens-showcase-de.png"
 keywords:
-  - "open source flashcards app"
-  - "self-hosted flashcards app"
-  - "spaced repetition app"
-  - "anki alternative"
-  - "quizlet alternative"
-  - "ai flashcards"
+  - "Open-Source-Lernkarten-App"
+  - "selbst gehostete Lernkarten-App"
+  - "Spaced-Repetition-App"
+  - "Anki-Alternative"
+  - "Quizlet-Alternative"
+  - "KI-Lernkarten"
 ---
 
-Wenn du Anki neben Quizlet öffnest, wird der Unterschied in etwa dreißig Sekunden deutlich.
+Ja, Flashcards kann selbst gehostet werden. Der vollständige Anwendungs- und Infrastrukturcode steht unter der MIT-Lizenz als Open Source zur Verfügung. Du kannst die Dienste zur Entwicklung lokal ausführen oder den dokumentierten Produktions-Stack des Repositorys auf AWS bereitstellen. Wenn du keine Infrastruktur betreiben möchtest, steht weiterhin die [gehostete App](https://app.flashcards-open-source-app.com/) zur Verfügung.
 
-Das eine fühlt sich wie alte Desktop-Software an, die nie wirklich über das Jahr 2012 hinausgekommen ist. Das andere wie ein sauber gestaltetes Abo-Produkt, das zufällig auch Karteikarten anbietet.
+![Mobile Ansichten der Flashcards Open Source App für Wiederholungen, Fortschritt, KI-Chat und Karten](/home/app-screens-showcase-de.png)
 
-Bei der Arbeit an [Flashcards](https://flashcards-open-source-app.com/) bin ich immer wieder genau auf diesen Gegensatz gestoßen. Die Idee hinter Spaced Repetition ist nach wie vor stark. Die Produkte drumherum wirken dagegen festgefahren.
+## Was selbst gehostet werden kann
 
-Das ließe sich eher hinnehmen, wenn Software heute noch schwer zu veröffentlichen wäre. Ist sie aber nicht.
+Das Repository enthält die Dienste und die Infrastruktur des zentralen Flashcards-Systems:
 
-Kleine Teams können inzwischen in einer Woche echte Produkte bauen. Wir können schnell veröffentlichen, KI in reale Abläufe einbinden und von Anfang an saubere APIs anbieten. Karteikarten-Software sollte nicht weiterhin zwischen schwerfälliger Altlasten-UX und geschlossenen Plattformen feststecken.
+- die Web-App und die Admin-App
+- die Backend-API und den Dienst für passwortlose Authentifizierung
+- PostgreSQL-Schema, Migrationen, Synchronisierung und FSRS-basierte Wiederholungsplanung
+- den MCP-Server und die maschinenlesbare Agent API
+- den AWS-CDK-Stack für Netzwerk, Datenbank, Authentifizierung, APIs, statisches Webhosting, Geheimnisse, Backups, Monitoring und CI/CD
 
-Genau diese Lücke versucht [Flashcards](https://flashcards-open-source-app.com/) zu schließen: eine selbst gehostete Open-Source-Flashcards-App mit Spaced Repetition, modernem Web-Stack, Offline-First-Unterstützung für Clients und KI als Teil der Produktausrichtung statt als später angeklebtem Zusatz.
+Es enthält außerdem native Clients für iOS und Android. Diese Apps werden separat erstellt; durch die Bereitstellung des AWS-Stacks werden nicht automatisch eigene Versionen im App Store oder bei Google Play veröffentlicht.
 
-## Anki funktioniert noch, fühlt sich aber alt an
+Es gibt zwei unterstützte Möglichkeiten, den serverseitigen Stack auszuführen:
 
-Ich glaube nicht, dass Ankis Problem ein schlechter Algorithmus ist. Die Grundidee ist bewährt. Menschen nutzen das Programm seit Jahren für Sprachen, Medizin, Prüfungen und alle möglichen Lernbereiche, in denen man viel auswendig behalten muss.
+1. **Lokale Entwicklung:** Docker Compose führt PostgreSQL und den Migrationsauftrag aus. Die Skripte des Repositorys starten die Entwicklungsserver für Authentifizierung, Backend, Web und Administration auf dem Host.
+2. **Produktion auf AWS:** Der enthaltene CDK-Stack stellt die dokumentierte AWS-Architektur bereit und bindet deren öffentliche Domains über Cloudflare an.
 
-Das Problem ist, dass sich das Produkterlebnis immer noch alt anfühlt.
+Docker Compose ist keine Produktionsbereitstellung mit nur einem Befehl. Der Produktionsweg ist AWS-spezifisch, und das Projekt erhebt keinen Anspruch auf anbieterneutrale Infrastruktur.
 
-Natürlich kann man sich dazu bringen, damit zu leben. Viele tun das. Aber "es funktioniert, wenn man sich erst einmal daran gewöhnt hat" ist 2026 kein besonders starkes Kompliment. Die Oberfläche wirkt wie ein Werkzeug, das man eben hinnimmt, nicht wie eines, das man gern jeden Tag öffnet.
+## Was das Repository derzeit enthält
 
-Das ist wichtiger, als viele zugeben. Karteikarten funktionieren nur, wenn du morgen wiederkommst, dann übermorgen und dann noch hundert Tage später. Reibung summiert sich.
+Das Projekt ist mehr als ein eigenständiger Lernkarten-Editor. Das aktuelle Repository enthält:
 
-## Quizlet ist glatter, aber dafür verschiebt sich der Nachteil
+- einen React-Webclient und einen Admin-Client
+- native iOS-Clients mit SwiftUI und Android-Clients mit Jetpack Compose
+- Offline-First-Speicherung und Synchronisierung für die Clients der Nutzer
+- Karten mit Vorder- und Rückseite, Tags, zugehörige Medien und Wiederholungen mit FSRS
+- passwortlose Einmalcodes per E-Mail über Amazon Cognito und den Authentifizierungsdienst
+- einen KI-Chat mit einem bereitgestellten asynchronen Worker und vom Betreiber bereitgestellten Modellzugangsdaten
+- einen MCP-Endpunkt für kompatible KI-Clients
+- eine Agent API für Terminalwerkzeuge und andere automatisierte Abläufe
 
-Quizlet hat das Problem mit der Oberfläche gelöst. Es sieht aufgeräumter aus. Es fühlt sich eher wie ein modernes Produkt für Endnutzer an. Für viele reicht das schon, um es attraktiver zu finden als Anki.
+Die [Architekturdokumentation](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/docs/architecture.md) ist die beste Quelle für die aktuellen Dienstgrenzen. Der öffentliche [API-Leitfaden](/docs/api/) erklärt den Einstiegspunkt der gehosteten Agent API.
 
-Dann stößt du aber auf die andere Grenze.
+## Gehostet oder selbst betrieben
 
-Für etwas so Einfaches wie Karteikarten ist die Preisgestaltung wenig überzeugend. Das Produkt ist geschlossen. Dein Lernsystem lebt innerhalb der Plattform eines anderen Anbieters. Wenn sich Preise, Produktprioritäten oder Zugangsregeln ändern, musst du dich anpassen. Nicht der Anbieter.
+| Bereich | Gehostete App | Selbst betriebene Bereitstellung |
+| --- | --- | --- |
+| Ersteinrichtung | App öffnen und anmelden | Konten, Geheimnisse und Domains konfigurieren und den AWS-Stack bereitstellen |
+| Infrastruktur | Vom Flashcards-Projekt betrieben | In deinen AWS- und Cloudflare-Konten von dir betrieben |
+| Datenbank und Backups | Werden für dich verwaltet | RDS, Backup-Richtlinie, Migrationen und Wiederherstellung liegen in deiner Verantwortung |
+| Authentifizierung und E-Mail | Werden für dich verwaltet | Cognito sowie deine Zugangsdaten für den E-Mail-Versand und DNS |
+| KI | Verwendet die Konfiguration des gehosteten Dienstes | Verwendet den bereitgestellten Worker und deine Modellzugangsdaten; Gastzugriffe haben ein eigenes Kontingent |
+| Monitoring | Wird für dich verwaltet | CloudWatch/SNS und deine Sentry-Konfiguration |
+| Aktualisierungen | Werden vom gehosteten Dienst ausgeliefert | Du lädst Aktualisierungen, prüfst sie, stellst sie bereit und überwachst sie |
+| Kosten | Es gelten die Bedingungen des gehosteten Tarifs | Du bezahlst AWS und andere Anbieter direkt |
 
-Für manche Kategorien ist das in Ordnung. Bei persönlichem Wissen überzeugt mich das nicht.
+Beim Self-Hosting kontrollierst du die Bereitstellung und die Datenbank. Gleichzeitig bist du für Sicherheitsupdates, Geheimnisse, Verfügbarkeit, Backups, E-Mail-Versand, Monitoring und Cloud-Kosten verantwortlich.
 
-## Deine Karten sollten nicht in einem fremden Produkt feststecken
+## Voraussetzungen und lokaler Schnellstart
 
-Karteikarten sind kein Wegwerfmaterial. Mit der Zeit werden sie zu einem Protokoll dessen, was du lernst, was du immer wieder vergisst und wie sich dein Denken verändert. Das sind wertvolle Daten.
+Für die lokale Entwicklung sind derzeit Git, Bash, GNU Make, Docker mit Docker Compose, Node.js 24 und npm erforderlich. Die bereitgestellte Compose-Datei führt PostgreSQL 18.4 aus und wendet die Datenbankmigrationen an.
 
-Ich finde die Vorstellung nicht besonders reizvoll, so etwas in einer Blackbox aufzubauen.
+Vom Stammverzeichnis des Repositorys aus:
 
-Mit einer selbst gehosteten Flashcards-App verschiebt sich der Ausgangspunkt. Du kannst den Code prüfen. Du kannst den gesamten Stack selbst betreiben. Du kannst zuerst die gehostete Version nutzen und später umziehen, wenn du willst. Du musst niemanden um Erlaubnis bitten, dein eigenes Lernsystem so zu verwenden, wie es für dich passt.
+```bash
+git clone https://github.com/kirill-markin/flashcards-open-source-app.git
+cd flashcards-open-source-app
+cp .env.example .env
+make db-up
+npm install --prefix api
+npm install --prefix apps/auth
+npm install --prefix apps/backend
+npm install --prefix apps/web
+npm install --prefix apps/admin
+```
 
-Das ist heute noch wichtiger, weil KI Abhängigkeiten von Plattformen schmerzhafter macht. Sobald dein Datenmodell offen ist und das Produkt echte Operationen anbietet, kann KI tatsächlich mit deinen Karten arbeiten. In geschlossenen Produkten bleibt die KI-Ebene oft oberflächlich, weil auch das Produkt selbst nur sehr eingeschränkt zugänglich ist.
+Für den kürzesten rein lokalen Start führst du das Backend mit der von der Migration erstellten Rolle aus und aktivierst ausdrücklich die unsichere lokale Authentifizierung:
 
-## Die meisten KI-Funktionen für Karteikarten sind noch ziemlich schwach
+```bash
+AUTH_MODE=none \
+ALLOW_INSECURE_LOCAL_AUTH=true \
+DATABASE_URL=postgresql://backend_app:backend_app@localhost:5432/flashcards \
+REPORTING_DATABASE_URL=postgresql://reporting_readonly:reporting_readonly@localhost:5432/flashcards \
+make backend-dev
+```
 
-Im Moment beherrschen viele Produkte für "AI flashcards" genau einen Trick. Du fügst etwas Text ein, sie erzeugen ein paar Karten, und damit ist die Magie vorbei.
+Starte anschließend die Clients in separaten Terminals:
 
-Das ist nicht der interessante Teil.
+```bash
+make web-dev
+make admin-dev
+```
 
-Interessant wird es, wenn KI innerhalb des echten Produkts arbeiten kann.
+Dabei wird der Cognito-Authentifizierungsdienst bewusst nicht gestartet. Der [Self-Hosting-Leitfaden](/docs/self-hosting/) enthält die getrennten Datenbank-URLs und die Schritte zum Laden der Umgebungsvariablen für einen vollständigen Cognito-Ablauf mit `make auth-dev`. Die Web-App läuft unter `http://localhost:3000`, die Admin-App unter `http://localhost:3001`, das Backend unter `http://localhost:8080/v1` und die Cognito-Authentifizierung, sofern konfiguriert, unter `http://localhost:8081`.
 
-In [Flashcards](https://flashcards-open-source-app.com/) ist der aktuelle Web-Client schon heute mit einem KI-Chat ausgestattet, der an den tatsächlichen Workspace angebunden ist. Die übergreifende Architektur stellt zusätzlich eine separate externe Agentenoberfläche für Terminal-Tools bereit, während der iOS-Client seinen eigenen Offline-First-Synchronisierungsablauf behält.
+Dieser Schnellstart deckt die Entwicklung des zentralen Backends sowie der Web- und Admin-App ab. Chat V2 ist damit nicht verfügbar: Der Transport `AUTH_MODE=none` wird von diesen Routen nicht akzeptiert, und die lokalen Befehle starten den asynchronen Chat-Worker nicht.
 
-Das ist eine deutlich stärkere Richtung als "Erzeuge 20 Karten aus diesem Absatz" und damit hat es sich.
+Verwende für die Produktion statt Docker Compose den Ablauf für die erste Bereitstellung aus dem Repository:
 
-So kann KI bei den langweiligen Teilen helfen, ohne zum Spielzeug zu werden:
+```bash
+npm ci --prefix apps/auth
+bash scripts/deploy/first-deploy.sh \
+  --region eu-central-1 \
+  --domain example.com \
+  --alert-email alerts@example.com
+```
 
-- prüfen, ob ein Konzept schon existiert, bevor eine doppelte Karte angelegt wird
-- zeigen, was gerade fällig ist, statt losgelöste Inhalte zu erfinden
-- die Formulierung schwacher Karten verbessern
-- ein Deck langfristig pflegen, statt es nur einmal zu erzeugen
+Die ausdrückliche Installation des Authentifizierungspakets ist derzeit bei einem sauberen Checkout erforderlich, weil das Bereitstellungsskript dieses Paket bündelt, aber nicht installiert. Anschließend erstellt und aktualisiert das Skript echte Cloud-Ressourcen. Lies vor der Ausführung den [Leitfaden zur Bereitstellung von Backend und Web](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/docs/backend-web-deployment.md) und den [Leitfaden zur AWS-CDK-Bereitstellung](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/infra/aws/README.md).
 
-Genau das sollte "AI-first" hier bedeuten. Kein Chatbot, der nachträglich an eine geschlossene App geschraubt wurde, sondern ein Produkt, in dem echte Objekte und Aktionen kontrolliert für KI zugänglich sind.
+## Datenportabilität ist nützlich, aber bewusst begrenzt
 
-## Das Produkt sollte schon vor dem KI-Teil modern sein
+Der Paketimport und -export von Flashcards umfasst Karten, deren Tags und zugehörige Medien. **Nicht** übertragen werden der Wiederholungsverlauf, der Zustand des FSRS-Planers, Workspace-Einstellungen, vollständige Deckstrukturen oder Kontodaten.
 
-Auch ohne KI wollte ich, dass sich das Grundprodukt vernünftig anfühlt.
+Dieser Unterschied ist wichtig, wenn du zwischen dem gehosteten Dienst und deiner eigenen Bereitstellung wechselst. Das portable Paket dient der Übertragung von Inhalten, nicht als vollständige Datenbank- oder Kontomigration. Für ein vollständiges betriebliches Backup muss der Betreiber einer selbst gehosteten Instanz auch die vom AWS-Stack erstellte PostgreSQL-Datenbank und den Medienspeicher verwalten.
 
-Dazu gehören eine klare Lernwarteschlange, das Erstellen von Karten im Web-Client, Spaced Repetition im Backend, passwortlose Anmeldung statt eines weiteren Passwortfriedhofs und ein dokumentierter Weg zum Self-Hosting für Menschen, die ihren Stack selbst besitzen wollen.
+## KI und Zugangsdaten externer Dienste
 
-Das Projekt hat diese Grundlage bereits:
+Der Quellcode enthält keine Cloud-Konten, Modellguthaben oder Produktionszugangsdaten. Der Betreiber einer selbst gehosteten Instanz stellt die erforderliche Konfiguration bereit:
 
-- eine gehostete Web-App, die du schon jetzt nutzen kannst
-- eine iOS-App im Repository mit lokalem SQLite und Synchronisierung
-- einen Lernablauf rund um fällige Karten und FSRS
-- Open-Source-Code auf GitHub
-- eine dokumentierte externe Agent-API
-- passwortlose Anmeldung
-- einen [Self-Hosting-Leitfaden](https://flashcards-open-source-app.com/docs/self-hosting/)
-- [Architekturdokumentation](https://flashcards-open-source-app.com/docs/architecture/)
+- AWS-Zugangsdaten und ein AWS-Konto für den CDK-Stack
+- eine Domain und Cloudflare-Zugangsdaten für die dokumentierte DNS-Einrichtung
+- Resend-Zugangsdaten für den E-Mail-Versand
+- eine Sentry-Konfiguration für das erforderliche Backend-Monitoring
+- optionale OpenAI- und Langfuse-Zugangsdaten für KI und Tracing
+- eine GitHub-Konfiguration für den enthaltenen Bereitstellungsablauf
 
-Das Produkt steckt noch in einer frühen Phase, und ich behaupte nichts anderes. Aber es ist bereits mehr als ein reiner Browser-Prototyp: Das Repository enthält die gehostete Web-App, den iOS-Client, den Auth-Dienst, die Backend-API und den aktuellen Synchronisierungsweg. Ich würde lieber etwas Frühes und Ehrliches nutzen als etwas Hochglanzpoliertes, das mich einsperrt.
+KI ist bei der AWS-Bereitstellung optional. Der CDK-Stack stellt den asynchronen Chat-Worker bereit, und Modellzugangsdaten ermöglichen unterstützte authentifizierte KI-Anfragen. `GUEST_AI_WEIGHTED_MONTHLY_TOKEN_CAP` steuert separat die KI-Nutzung durch Gäste; die Variable ist kein globaler Schalter für die KI-Nutzung angemeldeter oder per Bearer-Token authentifizierter Nutzer. Wenn du MCP oder einen anderen externen KI-Client verbindest, können die in einer Anfrage enthaltenen Kartendaten von diesem externen Anbieter nach dessen Bedingungen verarbeitet werden. Das Self-Hosting der Datenbank hält solche Anfragen nicht innerhalb deiner Infrastruktur.
 
-## Genau solche Produkte sollten wir heute bauen
+## Ehrliche Beta- und Betriebsgrenzen
 
-Das Merkwürdige ist nicht, dass es eine neue Anki-Alternative gibt. Das Merkwürdige ist, dass es davon nicht längst mehr gibt.
+Flashcards ist noch ein junges Produkt. Das Repository wird aktiv weiterentwickelt, Migrationen und Bereitstellungskonfiguration können sich ändern, und Self-Hosting setzt voraus, dass du eine AWS-Anwendung betreiben kannst.
 
-Wir können Produkte schneller bauen als je zuvor. Wir können sie klein halten. Wir können Open Source veröffentlichen. Wir können KI mit echten Produktaktionen verbinden statt mit reiner Demo-Magie. Wir können Nutzerinnen und Nutzern eine gehostete Option geben, ohne sie dauerhaft davon abhängig zu machen.
+Der CDK-Stack enthält Backups, Alarme, Geheimnisse und Automatisierung für die Bereitstellung, aber diese Komponenten benötigen weiterhin einen Betreiber. Du solltest damit rechnen:
 
-Karteikarten passen perfekt in diese Welt. Der Bereich ist überschaubar. Der Nutzen ist offensichtlich. Die Daten sind persönlich. Der Ablauf wird besser, wenn KI mit echten Karten und echtem Wiederholungsstatus arbeiten kann. Diese Kategorie sollte zu den einfachsten gehören, die man modernisieren kann.
+- Infrastrukturänderungen vor der Bereitstellung zu prüfen
+- Releases und Prüfungen öffentlicher Endpunkte zu überwachen
+- Alarmabonnements und die DNS-Einträge der E-Mail-Domain zu bestätigen
+- Zugangsdaten zu schützen und zu rotieren
+- Wiederherstellungen zu testen und AWS-Kosten einzuplanen
+- native mobile Apps separat zu erstellen und zu verteilen, wenn du eigene Versionen veröffentlichen möchtest
 
-Darauf setzt [Flashcards](https://flashcards-open-source-app.com/): Open Source, auf Wunsch selbst gehostet, Spaced Repetition im Kern und KI als Teil des echten Produktmodells.
+Wenn dir diese Betriebsarbeit keinen Nutzen bringt, ist die gehostete App der einfachere Weg.
 
-Nicht, weil "AI-first" auf einer Landingpage gut klingt. Sondern weil diese Kategorie inzwischen endlich die Werkzeuge hat, um ein besseres Produkt zu verdienen.
+## Ein kurzer Vergleich mit Anki und Quizlet
 
-## Probier es aus oder hoste es selbst
+Anki ist eine ausgereifte Open-Source-Lösung mit einem großen Ökosystem und leistungsfähigen Desktop-Abläufen. Quizlet ist ein verwalteter Dienst für Endverbraucher und ermöglicht Lernen mit wenig Einrichtungsaufwand. Beide können die richtige Wahl sein, je nachdem, ob du ein etabliertes lokales Werkzeug oder eine vollständig verwaltete Plattform bevorzugst.
 
-Wenn du eine Open-Source-Flashcards-App mit Spaced Repetition, einem Weg zum Self-Hosting und Raum für echte KI-Abläufe suchst, fang hier an:
+Flashcards verfolgt einen anderen Weg: ein offenes Repository für Web, mobile Apps, API und Infrastruktur rund um FSRS, Synchronisierung, KI-Abläufe, MCP und eine Self-Hosting-Option auf AWS. Das Projekt ist jünger als Anki und erfordert beim Self-Hosting erheblich mehr Betriebsaufwand als Quizlet. Du solltest es wählen, wenn diese Kombination zu deinen Anforderungen passt, und nicht, weil alle Lernenden einen Cloud-Stack betreiben sollten.
+
+## Probiere die gehostete App aus oder betreibe deinen eigenen Stack
 
 - [Die gehostete App öffnen](https://app.flashcards-open-source-app.com/)
-- [Den Einstieg lesen](https://flashcards-open-source-app.com/docs/getting-started/)
+- [Den Self-Hosting-Leitfaden lesen](/docs/self-hosting/)
 - [Den Quellcode auf GitHub ansehen](https://github.com/kirill-markin/flashcards-open-source-app)
 
-Flashcards sollten sich wie moderne Software anfühlen. Nicht wie alte Lernsoftware mit hübscherer Landingpage. Und nicht wie ein geschlossenes Abo, an das noch eine Karteikarten-Funktion angehängt wurde.
-
-Open Source, Kontrolle über die eigenen Daten und KI, die mit dem echten Produkt arbeiten kann, sind die bessere Richtung. Ich glaube, auf genau so etwas wartet diese Kategorie schon seit Jahren.
+Verwende die gehostete Version, wenn du lernen möchtest, ohne Infrastruktur zu warten. Wähle den selbst betriebenen Weg, wenn dir die Kontrolle über die Bereitstellung den Aufwand für AWS, DNS, E-Mail, Monitoring und Aktualisierungen wert ist.
