@@ -5,6 +5,11 @@ import {
   type GlobalActivitySnapshot,
   type GlobalActivitySnapshotDay,
 } from "@/lib/globalActivitySnapshot";
+import {
+  formatActivityDateRange,
+  formatActivityNumber as formatNumber,
+  formatActivityTimestamp,
+} from "@/lib/activityFormatting";
 import { getUiCopy } from "@/lib/uiCopy";
 import type {
   FeatureListSection,
@@ -39,40 +44,6 @@ function getPageUrl(
   }
 
   return `${siteContext.siteUrl}/${pagePath}/`;
-}
-
-function getIntlLocale(locale: AppLocale): string {
-  switch (locale) {
-    case "ar":
-      return "ar-SA";
-    case "de":
-      return "de-DE";
-    case "en":
-      return "en-US";
-    case "es":
-      return "es-ES";
-    case "hi":
-      return "hi-IN";
-    case "ja":
-      return "ja-JP";
-    case "ru":
-      return "ru-RU";
-    case "zh":
-      return "zh-CN";
-  }
-}
-
-function formatNumber(locale: AppLocale, value: number): string {
-  return new Intl.NumberFormat(getIntlLocale(locale)).format(value);
-}
-
-function formatDate(locale: AppLocale, value: string): string {
-  return new Intl.DateTimeFormat(getIntlLocale(locale), {
-    timeZone: "UTC",
-    month: "short",
-    day: "numeric",
-    year: "numeric",
-  }).format(new Date(`${value}T00:00:00.000Z`));
 }
 
 function getMaxDailyValue(
@@ -149,7 +120,8 @@ function renderPublicActivitySection(
   lines.push(`- ${uiCopy.home.activity.daysInRangeLabel}: ${formatNumber(locale, snapshot.days.length)}`);
   lines.push(`- ${uiCopy.home.activity.peakDailyVolumeLabel}: ${formatNumber(locale, peakDailyReviewEvents)}`);
   lines.push(`- ${uiCopy.home.activity.peakDailyUniqueUsersLabel}: ${formatNumber(locale, peakDailyUniqueUsers)}`);
-  lines.push(`- Date window: ${formatDate(locale, snapshot.from)} to ${formatDate(locale, snapshot.to)}`);
+  lines.push(`- ${uiCopy.home.activity.dateRangeLabel}: ${formatActivityDateRange(locale, snapshot.from, snapshot.to)}`);
+  lines.push(`- ${uiCopy.home.activity.lastUpdatedLabel}: ${formatActivityTimestamp(locale, snapshot.generatedAtUtc)}`);
   lines.push("");
   lines.push(`### ${uiCopy.home.activity.dailyUniqueUsersChartTitle}`);
   lines.push("");
@@ -159,7 +131,7 @@ function renderPublicActivitySection(
   lines.push("");
   lines.push(uiCopy.home.activity.platformActivityChartDescription);
   lines.push("");
-  lines.push("Build-time raw snapshot:");
+  lines.push(`${uiCopy.home.activity.rawSnapshotLabel}:`);
   lines.push("");
   lines.push("```json");
   lines.push(serializeGlobalActivitySnapshot(snapshot).trim());

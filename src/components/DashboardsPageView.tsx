@@ -1,4 +1,7 @@
-import { PublicActivityCharts } from "@/components/PublicActivitySection";
+import {
+  PublicActivityCharts,
+  PublicActivitySummary,
+} from "@/components/PublicActivitySection";
 import { SiteFrame } from "@/components/SiteFrame";
 import {
   globalActivitySnapshotUrl,
@@ -37,6 +40,8 @@ export function DashboardsPageView({
             {activityCopy.sourceLabel}
           </a>
         </header>
+
+        <PublicActivitySummary locale={locale} snapshot={snapshot} />
 
         <PublicActivityCharts
           chartTitleTag="h2"

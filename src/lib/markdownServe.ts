@@ -28,6 +28,11 @@ import {
   serializeGlobalActivitySnapshot,
 } from "@/lib/globalActivitySnapshot";
 import {
+  formatActivityDateRange,
+  formatActivityNumber,
+  formatActivityTimestamp,
+} from "@/lib/activityFormatting";
+import {
   DASHBOARDS_ROUTE_PATHNAME,
   getDashboardsPageDescription,
   getDashboardsPageTitle,
@@ -172,6 +177,7 @@ function renderDashboardsMarkdown(
   context: MarketingPageMarkdownContext
 ): MarkdownResult {
   const activityCopy = getUiCopy(locale).home.activity;
+  const snapshot = context.globalActivitySnapshot;
   const pagePath = getPagePath(
     getLocalizedPathname(locale, DASHBOARDS_ROUTE_PATHNAME)
   );
@@ -181,6 +187,10 @@ function renderDashboardsMarkdown(
     getDashboardsPageDescription(locale),
     "",
     `- [${activityCopy.sourceLabel}](${globalActivitySnapshotUrl})`,
+    `- ${activityCopy.totalReviewEventsLabel}: ${formatActivityNumber(locale, snapshot.totals.reviewEvents.total)}`,
+    `- ${activityCopy.usersWithReviewEventsLabel}: ${formatActivityNumber(locale, snapshot.totals.uniqueReviewingUsers)}`,
+    `- ${activityCopy.dateRangeLabel}: ${formatActivityDateRange(locale, snapshot.from, snapshot.to)}`,
+    `- ${activityCopy.lastUpdatedLabel}: ${formatActivityTimestamp(locale, snapshot.generatedAtUtc)}`,
     "",
     `## ${activityCopy.dailyUniqueUsersChartTitle}`,
     "",
@@ -190,10 +200,10 @@ function renderDashboardsMarkdown(
     "",
     activityCopy.platformActivityChartDescription,
     "",
-    "Build-time raw snapshot:",
+    `${activityCopy.rawSnapshotLabel}:`,
     "",
     "```json",
-    serializeGlobalActivitySnapshot(context.globalActivitySnapshot).trim(),
+    serializeGlobalActivitySnapshot(snapshot).trim(),
     "```",
   ];
 
@@ -437,14 +447,14 @@ export function renderLlmsText(globalActivitySnapshot: GlobalActivitySnapshot): 
           .join("\n")
       : "- Posts coming soon.";
   const publicActivitySection = [
-    `- [Snapshot JSON](${globalActivitySnapshotUrl})`,
-    `- Generated at UTC: ${globalActivitySnapshot.generatedAtUtc}`,
-    `- Date window: ${globalActivitySnapshot.from} to ${globalActivitySnapshot.to}`,
-    `- ${activityCopy.totalReviewEventsLabel}: ${globalActivitySnapshot.totals.reviewEvents.total}`,
-    `- ${activityCopy.usersWithReviewEventsLabel}: ${globalActivitySnapshot.totals.uniqueReviewingUsers}`,
-    `- ${activityCopy.daysInRangeLabel}: ${globalActivitySnapshot.days.length}`,
-    `- ${activityCopy.peakDailyVolumeLabel}: ${peakDailyReviewEvents}`,
-    `- ${activityCopy.peakDailyUniqueUsersLabel}: ${peakDailyUniqueUsers}`,
+    `- [${activityCopy.sourceLabel}](${globalActivitySnapshotUrl})`,
+    `- ${activityCopy.lastUpdatedLabel}: ${formatActivityTimestamp("en", globalActivitySnapshot.generatedAtUtc)}`,
+    `- ${activityCopy.dateRangeLabel}: ${formatActivityDateRange("en", globalActivitySnapshot.from, globalActivitySnapshot.to)}`,
+    `- ${activityCopy.totalReviewEventsLabel}: ${formatActivityNumber("en", globalActivitySnapshot.totals.reviewEvents.total)}`,
+    `- ${activityCopy.usersWithReviewEventsLabel}: ${formatActivityNumber("en", globalActivitySnapshot.totals.uniqueReviewingUsers)}`,
+    `- ${activityCopy.daysInRangeLabel}: ${formatActivityNumber("en", globalActivitySnapshot.days.length)}`,
+    `- ${activityCopy.peakDailyVolumeLabel}: ${formatActivityNumber("en", peakDailyReviewEvents)}`,
+    `- ${activityCopy.peakDailyUniqueUsersLabel}: ${formatActivityNumber("en", peakDailyUniqueUsers)}`,
     `- ${activityCopy.dailyUniqueUsersChartTitle}: ${activityCopy.dailyUniqueUsersChartDescription}`,
     `- ${activityCopy.platformActivityChartTitle}: ${activityCopy.platformActivityChartDescription}`,
   ].join("\n");
