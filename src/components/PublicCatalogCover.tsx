@@ -1,21 +1,14 @@
 import type { PublicCatalogMediaAsset } from "@/lib/publicCatalogTypes";
-import { getPublicCatalogCoverAccessibleLabel } from "@/lib/publicCatalogCover";
+import {
+  getPublicCatalogCoverAccessibleLabel,
+  getPublicCatalogCoverInitial,
+} from "@/lib/publicCatalogCover";
 import styles from "./PublicCatalogCover.module.css";
 
 interface PublicCatalogCoverProps {
-  readonly coverMediaAsset: PublicCatalogMediaAsset | null;
+  readonly coverMediaAsset: Pick<PublicCatalogMediaAsset, "altText"> | null;
   readonly placeholderLabel: string;
   readonly title: string;
-}
-
-function getTitleInitial(title: string): string {
-  const [initial] = Array.from(title.trim());
-
-  if (initial === undefined) {
-    throw new Error("Public catalog package title must not be empty.");
-  }
-
-  return initial.toLocaleUpperCase();
 }
 
 export function PublicCatalogCover({
@@ -37,7 +30,7 @@ export function PublicCatalogCover({
       title={placeholderLabel}
     >
       <span className={styles.initial} aria-hidden="true">
-        {getTitleInitial(title)}
+        {getPublicCatalogCoverInitial(title)}
       </span>
     </div>
   );

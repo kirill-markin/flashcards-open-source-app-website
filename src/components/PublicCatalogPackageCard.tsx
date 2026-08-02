@@ -4,7 +4,7 @@ import type { AppLocale } from "@/lib/i18n";
 import { getLocalizedPathname } from "@/lib/i18n";
 import type { PublicCatalogUiCopy } from "@/lib/publicCatalogCopy";
 import { formatPublicCatalogCardCount } from "@/lib/publicCatalogFormatting";
-import type { PublicCatalogPackageView } from "@/lib/publicCatalogReadModel";
+import type { PublicCatalogPackageCardView } from "@/lib/publicCatalogReadModel";
 import {
   getPublicCatalogAuthorRoutePathname,
   getPublicCatalogLanguageRoutePathname,
@@ -16,7 +16,7 @@ import styles from "./PublicCatalogPackageCard.module.css";
 interface PublicCatalogPackageCardProps {
   readonly copy: PublicCatalogUiCopy;
   readonly locale: AppLocale;
-  readonly packageView: PublicCatalogPackageView;
+  readonly packageView: PublicCatalogPackageCardView;
 }
 
 export function PublicCatalogPackageCard({

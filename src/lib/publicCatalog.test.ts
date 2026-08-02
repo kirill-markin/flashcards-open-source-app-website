@@ -1,10 +1,14 @@
 import assert from "node:assert/strict";
 import test from "node:test";
 import { parsePublicCatalogBuildConfiguration } from "./publicCatalogBuild";
+import { createPublicCatalogBrowseData } from "./publicCatalogBrowse";
 import { getPublicCatalogAuthorBioExcerpt } from "./publicCatalogAuthor";
 import { getPublicCatalogUiCopy } from "./publicCatalogCopy";
 import { getPublicCatalogDestinationCopy } from "./publicCatalogDestinationCopy";
-import { getPublicCatalogCoverAccessibleLabel } from "./publicCatalogCover";
+import {
+  getPublicCatalogCoverAccessibleLabel,
+  getPublicCatalogCoverInitial,
+} from "./publicCatalogCover";
 import {
   formatPublicCatalogCardCount,
   formatPublicCatalogDate,
@@ -346,6 +350,48 @@ test("includes collection-only tags in static facets without inventing package m
   assert.deepEqual(model.topicTags, ["collection-only", "grammar"]);
   assert.deepEqual(getPublicCatalogPackagesByLanguageTag(model, "zz"), []);
   assert.deepEqual(getPublicCatalogPackagesByTopicTag(model, "collection-only"), []);
+
+  const browseData = createPublicCatalogBrowseData(model);
+
+  assert.deepEqual(browseData.languages, ["en", "es"]);
+  assert.deepEqual(browseData.topics, ["grammar"]);
+  assert.equal("description" in browseData.packages[0].packageView.packageMetadata, false);
+  assert.equal("cards" in browseData.packages[0].packageView, false);
+  assert.equal("mediaAssets" in browseData.packages[0].packageView, false);
+});
+
+test("excludes orphan authors and collections from browse controls", () => {
+  const input = createValidDump();
+  input.authors.push({
+    authorId: "author-orphan",
+    slug: "author-orphan",
+    displayName: "Orphan Author",
+    bio: null,
+    websiteUrl: null,
+  });
+
+  const model = createPublicCatalogReadModel(parsePublicCatalogDump(input));
+  const orphanCollection = {
+    ...input.collections[0],
+    collectionId: "collection-orphan",
+    slug: "orphan-collection",
+    title: "Orphan Collection",
+  };
+  const modelWithOrphanCollection = {
+    ...model,
+    collectionBySlug: new Map([
+      ...model.collectionBySlug,
+      [orphanCollection.slug, orphanCollection] as const,
+    ]),
+  };
+  const browseData = createPublicCatalogBrowseData(modelWithOrphanCollection);
+
+  assert.deepEqual(browseData.authors, [
+    { value: "author-one", label: "Author One" },
+  ]);
+  assert.deepEqual(browseData.collections, [
+    { value: "starter-collection", label: "Starter collection" },
+  ]);
 });
 
 test("reuses one read model while enabled and returns null while disabled", () => {
@@ -639,5 +685,14 @@ test("announces a missing catalog cover placeholder once", () => {
       "Cover preview unavailable",
     ),
     "Package title: Cover alt text. Cover preview unavailable",
+  );
+});
+
+test("formats catalog cover initials without environment-specific locale casing", () => {
+  assert.equal(getPublicCatalogCoverInitial("istanbul"), "I");
+  assert.equal(getPublicCatalogCoverInitial("  ßeta"), "SS");
+  assert.throws(
+    () => getPublicCatalogCoverInitial("   "),
+    /Public catalog package title must not be empty/,
   );
 });
