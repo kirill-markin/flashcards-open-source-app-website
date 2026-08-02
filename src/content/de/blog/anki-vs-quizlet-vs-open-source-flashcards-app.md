@@ -1,188 +1,124 @@
 ---
-title: "Anki vs Quizlet vs Open-Source-Flashcards-App: Das beste Spaced-Repetition-Tool im Jahr 2026"
-description: "Ein Vergleich von Anki, Quizlet und einer modernen Open-Source-Flashcards-App im Jahr 2026. Es geht um die praktische Abwägung zwischen der Stärke von Spaced Repetition, einem überzeugenden Produkterlebnis, Self-Hosting und langfristiger Kontrolle über deine Lerndaten."
+title: "Anki vs Quizlet vs Flashcards 2026: Welche Karteikarten-App ist die beste?"
+description: "Anki vs Quizlet vs Flashcards im Praxisvergleich 2026: Spaced Repetition, Offline-Lernen, KI, Import, Export, Preise, Open Source und Datenhoheit."
+image: "/blog/anki-vs-quizlet-vs-open-source-flashcards-app.png"
 date: "2026-03-09"
+updated: "2026-08-02"
 keywords:
   - "anki vs quizlet"
+  - "beste karteikarten app"
   - "beste spaced repetition app"
-  - "open source flashcards app"
+  - "spaced repetition app"
+  - "open source karteikarten app"
   - "quizlet alternative"
   - "anki alternative"
-  - "self hosted flashcards"
+  - "selbst gehostete karteikarten"
 ---
 
-Wenn du Anki und Quizlet nebeneinander öffnest, erkennst du meist schon vor dem ersten Klick, worauf der Vergleich hinausläuft. Das eine wirkt leistungsstark und etwas störrisch. Das andere wirkt glatter und zugänglicher.
+Die Antwort auf **Anki vs Quizlet** lautet längst nicht mehr einfach: „Anki für ernsthafte Lernende, Quizlet für alle anderen.“ 2026 bietet Anki FSRS und eine außergewöhnlich ausgereifte lokale Sammlungsverwaltung. Quizlet überzeugt mit durchdachten Funktionen für den Unterricht und KI-Lernwerkzeugen. Flashcards Open Source App verbindet integriertes FSRS und KI mit der Möglichkeit, den gesamten Stack selbst zu hosten – ist aber noch ein deutlich jüngeres Produkt. Welche die **beste Karteikarten-App** ist, hängt davon ab, welcher dieser Kompromisse für dich am wichtigsten ist.
 
-Diese Trennung gibt es seit Jahren, und genau das ist eigentlich seltsam. Flashcards sind keine unlösbare Produktkategorie. Es geht um Karten, eine Wiederholungswarteschlange, Planungslogik und eine feste Lernroutine. Dafür hätten wir längst mehr gute Optionen haben müssen.
+> **Offenlegung:** Ich bin Kirill Markin und entwickle [Flashcards Open Source App](/features/), eines der Produkte in diesem Vergleich. Die App ist hier vertreten, weil sie KI, FSRS und Self-Hosting des gesamten Stacks kombiniert. Ich behandle sie jedoch nicht als automatischen Sieger: Für mehrere der unten beschriebenen typischen Anwendungsfälle sind Anki und Quizlet die bessere Wahl.
 
-Stattdessen landen die meisten noch immer bei drei Wegen:
+Einen universellen Sieger gibt es also nicht. Müsste ich die Entscheidung auf drei Zeilen reduzieren, wären es diese:
 
-- Anki, wenn sie ernsthafte Spaced Repetition wollen und mit einer altmodischen Bedienoberfläche leben können
-- Quizlet, wenn sie ein zugänglicheres Produkt für ein breites Publikum wollen und mit einer geschlossenen Plattform einverstanden sind
-- eine neuere Open-Source-Flashcards-App, wenn sie Kontrolle, Self-Hosting und ein Produkt wollen, das nicht wie ein Überbleibsel aus einer früheren Softwaregeneration wirkt
+- Wähle **Anki** für den ausgereiftesten und am längsten bewährten Spaced-Repetition-Workflow.
+- Wähle **Quizlet** für das Teilen im Unterricht, fertige öffentliche Lernsets und abwechslungsreiches kurzfristiges Üben.
+- Wähle **Flashcards Open Source App** für integrierte KI, FSRS und Kontrolle über den gesamten Stack – sofern du mit einem jungen Ökosystem und eingeschränkten Möglichkeiten für eine originalgetreue Migration leben kannst.
 
-Diese dritte Kategorie wird endlich interessant.
+Die Details sind wichtig, vor allem wenn du bereits Hunderte oder Tausende Karten hast.
 
-## Anki vs Quizlet ist im Kern eine Abwägung zwischen Leistungsfähigkeit und Nutzungserlebnis
+![Warmer Lerntisch mit einer ausgereiften lokalen Karteikartensammlung, einem gemeinsamen Unterrichts-Setup und einem offenen KI-Lernsystem](/blog/anki-vs-quizlet-vs-open-source-flashcards-app.png)
 
-Wenn du nach **Anki vs Quizlet** suchst, versuchen die meisten Vergleichsseiten, den Unterschied auf eine Funktionsliste herunterzubrechen.
+## Anki vs Quizlet vs Flashcards: der Praxisvergleich
 
-Das verfehlt den Punkt.
+Diese Tabelle basiert auf Produktinformationen, die am 2. August 2026 geprüft wurden. Preise und Funktionsumfang können je nach Region abweichen.
 
-Der eigentliche Unterschied ist zuerst emotional und erst danach technisch.
+| Kategorie | Anki | Quizlet | Flashcards Open Source App |
+| --- | --- | --- | --- |
+| Wiederholungsplanung | Ausgereifter Scheduler mit [FSRS-Unterstützung](https://docs.ankiweb.net/deck-options), detaillierten Einstellungen, Wiederholungsverlauf und großem Add-on-Ökosystem | [Learn](https://help.quizlet.com/hc/en-us/articles/360030986971-Studying-with-Learn) erstellt mithilfe von maschinellem Lernen einen persönlichen Lernpfad anhand deiner Ziele und deiner Vertrautheit mit dem Stoff; es ist kein langfristiger Scheduler nach Art von FSRS | FSRS ist integriert und standardmäßig aktiv, mit den Bewertungen Again/Hard/Good/Easy und Einstellungen auf Workspace-Ebene |
+| Offline | Desktop-Anwendung und native mobile Apps ermöglichen lokales Lernen; die Synchronisierung ist optional | Auf [iOS und Android](https://help.quizlet.com/hc/en-us/articles/360030565412-Studying-offline-with-Quizlet-mobile-apps) lassen sich gespeicherte Sets in Flashcards und Match offline nutzen und Sets offline erstellen; die Website funktioniert nicht offline | Native Apps für iOS (SQLite) und Android (Room/SQLite) sind der zuverlässigste Offline-Weg; nach dem Laden speichert die Web-App Karten und noch nicht synchronisierte Änderungen in IndexedDB, KI und Synchronisierung benötigen aber eine Verbindung |
+| Web und Mobilgeräte | Windows, macOS, Linux, AnkiWeb, offizielle kostenpflichtige iOS-App und separate kostenlose Community-App für Android | Ausgereifte Apps für Web, iOS und Android; keine Desktop-App | Gehostete Web-App sowie Apps für iOS und Android |
+| KI | Kein direkt von Anki bereitgestellter Workflow für generative KI im Kernprodukt; Add-ons und externe KI-Workflows sind verfügbar | Leistungsfähige [integrierte KI-Werkzeuge](https://quizlet.com/features/ai-study-tools), darunter Karteikartenerstellung, Lernleitfäden, Übungstests und Werkzeuge für PDFs; die Limits hängen vom Tarif ab | KI-Chat mit Workspace-Kontext kann Karten erstellen und bearbeiten und Dateianhänge verwenden; MCP und eine Agent-API binden externe KI-Werkzeuge an |
+| Import | Umfangreiche Unterstützung für [Text, paketierte Anki-Decks und Mnemosyne-Dateien](https://docs.ankiweb.net/importing/intro.html) | Auf der Website lässt sich [Text mit Trennzeichen einfügen](https://help.quizlet.com/hc/en-us/articles/360029977151-Creating-sets-by-importing-content); KI-Werkzeuge können Notizen und Dokumente verarbeiten | Importiert native `flashcards.zip`-Workspace-Pakete; Inhalte aus Anki und Quizlet müssen derzeit als Text exportiert und gegebenenfalls mithilfe von KI bereinigt werden; kein direkter Import von `.apkg`-Dateien |
+| Export | Umfangreiche [Paket- und Textexporte](https://docs.ankiweb.net/exporting.html), wahlweise mit Planungsdaten, Deck-Voreinstellungen und Medien | Der Website-Export umfasst Begriffe und Definitionen aus selbst erstellten Sets; [kopierte Sets und Bilder sind ausgeschlossen](https://help.quizlet.com/hc/en-us/articles/360034345672-Exporting-your-sets) | Native `flashcards.zip`-Pakete übertragen nur aktive Karten, Tags und referenzierte Medien – nicht Wiederholungsverlauf, FSRS-Planungsstatus, Workspace-Einstellungen, vollständige Deck-Strukturen oder Kontodaten |
+| Preis | Desktop-App, AnkiWeb und AnkiDroid sind kostenlos; die offizielle AnkiMobile-App für iOS kostet [einmalig 24,99 US-Dollar im US App Store](https://apps.apple.com/us/app/ankimobile-flashcards/id373493387) | Eingeschränkte kostenlose Version; die US-Seite nennt [35,99 US-Dollar pro Jahr für Plus und 44,99 US-Dollar pro Jahr für Plus Unlimited](https://quizlet.com/upgrade), jeweils jährlich abgerechnet; regionale Preise können abweichen | Die [gehostete Cloud Beta ist kostenlos](/pricing/); das Erstellen und Wiederholen von Karten im Kernangebot wird kostenlos bleiben, während eine intensivere KI-Nutzung später möglicherweise einen eigenen API-Schlüssel des KI-Anbieters oder eine kostenpflichtige Option erfordert. Self-Hosting ist unter der MIT-Lizenz kostenlos, Infrastruktur musst du jedoch selbst bezahlen und verwalten |
+| Open Source | Das [Anki-Projekt und die Desktop-App](https://apps.ankiweb.net/) sind Open Source; AnkiMobile ist die separate kostenpflichtige offizielle iOS-App, AnkiDroid eine separate, von Mitwirkenden entwickelte App | Nein; proprietäre gehostete Plattform | Ja; der [gesamte Stack ist öffentlich](https://github.com/kirill-markin/flashcards-open-source-app), MIT-lizenziert und selbst hostbar |
+| Datenhoheit | Ausgereifte Funktionen für lokale Sammlungen, Backups und Exporte; AnkiWeb ist gehostet, der gesamte gehostete Stack wird jedoch nicht als einfach selbst betreibbare Lösung angeboten | Auf der Plattform gespeichert und eingeschränkt portabel: exportierbar ist nur Text aus eigenen Sets, nicht aus kopierten Sets und ohne Bilder | Volle Kontrolle über die Infrastruktur durch [Self-Hosting des gesamten Stacks](/docs/self-hosting/); das Workspace-Paket überträgt Inhalte, ist aber kein vollständiges Backup. Wer selbst hostet, muss Datenbank und Medien eigenständig sichern |
 
-Anki fühlt sich wie ein Werkzeug an, das von Menschen gebaut wurde, denen das Lernsystem wichtiger ist als der erste Eindruck. Quizlet wirkt wie ein Produkt, das leichter zugänglich ist, sich einfacher teilen lässt und sich leichter an ein breiteres Publikum verkaufen lässt.
+Die größte Falle bei einer Vergleichstabelle besteht darin, jede Zeile gleich wichtig erscheinen zu lassen. Das sind sie nicht. Für einen Medizinstudenten mit einer seit fünf Jahren gepflegten Wiederholungssammlung sollten ein ausgereifter Scheduler und verlässliche Backups mehr zählen als KI-generierte Karten. Einer Lehrkraft, die morgen ein Vokabelset teilen will, sind dagegen vielleicht Klassen, Aufgaben und eine allen Lernenden vertraute Oberfläche wesentlich wichtiger.
 
-Beide Entscheidungen sind nachvollziehbar. Beide haben ihren Preis.
+## Wähle Anki, wenn das Wiederholungssystem das eigentliche Produkt ist
 
-## Warum sich Menschen immer noch für Anki entscheiden
+Anki bleibt die bessere Wahl für anspruchsvolle, langfristig angelegte Lernprojekte. Der Scheduler ist ausgereift, FSRS ist verfügbar, der Wiederholungsverlauf detailliert, und zum Ökosystem gehören über Jahre gewachsene Add-ons, umfangreiches Community-Wissen und etablierte Workflows. Die [offiziellen Desktop-Apps sind kostenlos](https://apps.ankiweb.net/), und auf dem Desktop oder in den nativen mobilen Apps kannst du ohne Internetverbindung lernen.
 
-Anki ist immer noch die naheliegende Standardantwort für Menschen, die Auswendiglernen ernst nehmen.
+Nutze Anki, wenn du:
 
-Sprachlernende nutzen es. Medizinstudierende nutzen es. Menschen, die für harte Prüfungen lernen, nutzen es. Nicht, weil es schön ist, sondern weil es funktioniert und über Jahre hinweg erprobt wurde.
+- für Medizin, Sprachen, den Beruf oder andere Themen lernst, die dich über Jahre begleiten werden
+- eine große Sammlung pflegst, deren Wiederholungsverlauf und Planungsstatus wichtig sind
+- auf eigene Notiztypen, Vorlagen, Add-ons oder etablierte Community-Workflows angewiesen bist
+- zuverlässige lokale Backups und gute Migrationsmöglichkeiten suchst
+- hauptsächlich am Laptop oder unter Android lernst und dafür eine leistungsfähige kostenlose Lösung möchtest
 
-Wenn du die etablierteste **Spaced-Repetition-App** suchst, verdient Anki nach wie vor Respekt.
+Wenn die Frage „Kann ich mein vollständiges Lernsystem wiederherstellen, falls etwas schiefgeht?“ deine Entscheidung bestimmt, hat Anki ebenfalls die überzeugendste Antwort. Die Paketexporte können wesentlich mehr als nur Kartentext bewahren, und die [Synchronisierung über AnkiWeb](https://docs.ankiweb.net/syncing.html) ist optional, statt die Grundlage für das Offline-Lernen zu bilden.
 
-Das macht Anki bis heute gut:
+Der Preis dafür sind Einrichtungsaufwand und Komplexität. Anki gibt dir mehr Kontrolle, als viele Lernende benötigen, und KI-Funktionen setzen Add-ons oder Werkzeuge außerhalb des Anki-Kerns voraus. Wenn du ein PDF hochladen, Fragen dazu stellen, Karten erstellen und in einem einzigen integrierten Workflow weiterlernen möchtest, musst du mit einer anderen App weniger Einzelteile zusammenfügen.
 
-- konsequente Wiederholungsdisziplin
-- starker Ruf im Bereich Spaced Repetition
-- große bestehende Community
-- viele Decks, Plugins und Tipps anderer Nutzer
-- ein lokaler Ansatz statt "alles gehört der Plattform"
+## Wähle Quizlet, wenn Zusammenarbeit und Übungsformate am wichtigsten sind
 
-Die Schwäche liegt nicht im Algorithmus. Sie liegt im Nutzungserlebnis.
+Quizlet bleibt die bessere Wahl, wenn eine Klasse, Lehrkraft oder Lerngruppe die Plattform bereits nutzt. Das Angebot an öffentlichen Sets ist groß, das Teilen unkompliziert, und die Oberfläche erleichtert neuen Lernenden den Einstieg. Flashcards, Match, Learn, Übungstests und KI-Lernwerkzeuge bieten dir außerdem mehr Möglichkeiten, dich auf einen bevorstehenden Test vorzubereiten, als eine strikte tägliche Wiederholungswarteschlange.
 
-Man kann sich an Anki gewöhnen. Viele tun das. Aber "man gewöhnt sich daran" ist im Jahr 2026 keine besonders überzeugende Produktbewertung.
+Nutze Quizlet, wenn du:
 
-## Warum sich Menschen immer noch für Quizlet entscheiden
+- einer Klasse deiner Lehrkraft beitrittst oder zugewiesene Sets verwendest
+- Material mit Mitschülern oder Kommilitonen teilst, die einen vertrauten Link und einen schnellen Einstieg brauchen
+- zuerst nach einem vorhandenen öffentlichen Set suchen möchtest, bevor du ein eigenes erstellst
+- bald einen Test schreibst und Spiele, Übungstests sowie abwechslungsreiche Übungen möchtest
+- integrierte KI-Lernleitfäden oder Werkzeuge für PDFs häufiger nutzt als detaillierte Einstellungen für die langfristige Wiederholungsplanung
 
-Quizlet punktet vor allem mit seinem niedrigen Einstiegshindernis.
+Quizlet Learn personalisiert mithilfe von maschinellem Lernen einen Lernpfad anhand deiner Ziele und deiner Vertrautheit mit dem Stoff. Das ist eine echte Form der Personalisierung, aber nicht dasselbe Modell wie das FSRS-Wiederholungssystem von Anki und Flashcards. Wenn du Wissen über mehrere Jahre behalten möchtest, bietet Anki die ausgereiftere Technik.
 
-Es wirkt leichter. Einfacher. Näher an dem, was die meisten von einer modernen Lern-App erwarten. Wenn du schnell ein paar Kartensätze erstellen, teilen und ohne viel Konfiguration loslegen willst, hat Quizlet einen offensichtlichen Reiz.
+Auch die Portabilität ist begrenzter. Quizlet lässt dich Begriffe und Definitionen aus Sets exportieren, die du selbst auf der Website erstellt hast – kopierte Sets und Bilder jedoch nicht. Für ein Semester kann das ein vernünftiger Kompromiss sein. Für eine persönliche Wissenssammlung, die du ein Jahrzehnt lang behalten möchtest, ist er weniger überzeugend.
 
-Deshalb zieht es weiterhin Nutzer an, die bei Anki fast sofort wieder abspringen.
+## Wähle Flashcards, wenn du KI, FSRS und Self-Hosting zusammen möchtest
 
-Die Abwägung ist genau die, die man von einem geschlossenen Produkt für den Massenmarkt erwarten würde:
+[Flashcards Open Source App](/features/) kombiniert FSRS-Wiederholungsplanung, KI-Chat mit Workspace-Kontext, das Erstellen und Bearbeiten von Karten, Dateianhänge, offlinefähige native Apps und einen API-Zugang für KI-Agenten in einem Produkt.
 
-- weniger Kontrolle
-- weniger Flexibilität
-- wichtige Produktentscheidungen werden ohne dich getroffen
-- dein Lernsystem hängt am Geschäftsmodell eines anderen
+Nutze Flashcards, wenn du:
 
-Für lockeres Lernen kann das völlig in Ordnung sein.
+- eine **Open-Source-Karteikarten-App** suchst, deren Anwendungs- und Infrastrukturcode öffentlich ist
+- zum Self-Hosting bereit bist, weil dir die Kontrolle über den gesamten Stack wichtig ist
+- Notizen und Dateien mithilfe von KI in Karten umwandelst und diese anschließend mit FSRS wiederholst
+- Werkzeuge wie Coding-Agenten über MCP oder die Agent-API verbinden möchtest
+- eine neue Sammlung beginnst, die nicht von Anki-Add-ons oder aufwendigen vorhandenen Deck-Strukturen abhängt
 
-Für langfristig aufgebautes persönliches Wissen halte ich es für die schwächere Wahl.
+Die gehostete App bietet den einfachsten Einstieg; der [Leitfaden für den Einstieg](/docs/getting-started/) beschreibt den üblichen Workflow. Self-Hosting ist eine echte Option und nicht nur ein dekorativer GitHub-Link. Dabei bist du jedoch selbst für AWS-Infrastruktur, Zugangsdaten, Monitoring, Updates, Backups und Kosten verantwortlich. Der [Self-Hosting-Leitfaden](/docs/self-hosting/) erläutert diese Aufgaben für Betreiber.
 
-## Wo sich sowohl Anki als auch Quizlet eingeschränkt anfühlen
+### Der Hinweis zum Reifegrad ist wichtig
 
-Hier beginnt meist die Suche nach einer **Anki-Alternative** oder **Quizlet-Alternative**.
+Flashcards befindet sich noch in einer frühen Entwicklungsphase. Ökosystem, Importmöglichkeiten, fortgeschrittene Wiederholungsfunktionen und Möglichkeiten zur Wiederherstellung sind nicht so ausgereift wie bei Anki. Einen direkten `.apkg`-Importer gibt es nicht. Native `flashcards.zip`-Pakete übertragen aktive Karten, Tags und referenzierte Medien, nicht jedoch Wiederholungsverlauf, FSRS-Planungsstatus, Workspace-Einstellungen, vollständige Deck-Strukturen oder Kontodaten.
 
-Manche wollen die inhaltliche Strenge von Anki ohne das veraltete Gefühl.
+In der Praxis bedeutet das zweierlei. Beim Umzug einer stark angepassten Anki-Sammlung gehen wichtige Strukturen verloren, sofern du Anki nicht als maßgebliches System beibehältst. Außerdem ist ein Flashcards-Paket kein vollständiges Backup für die Wiederherstellung nach einem Ausfall. Der ausführliche [Leitfaden für Karteikarten-Backups](/blog/how-to-back-up-flashcards/) erklärt, was du separat sichern solltest.
 
-Manche wollen die Einfachheit von Quizlet ohne die Nachteile einer geschlossenen Plattform.
+Die gehostete Cloud Beta ist derzeit kostenlos – einschließlich KI und Synchronisierung. Das ist ein Beta-Angebot und kein Versprechen, dass unbegrenzte gehostete KI für immer kostenlos bleibt. Schon jetzt weist die Preisseite darauf hin, dass eine intensivere KI-Nutzung später möglicherweise einen API-Schlüssel des Anbieters oder eine kostenpflichtige Option erfordert.
 
-Und manche wollen noch etwas, das beide Produkte nur unbeholfen abbilden: echte Hoheit über die eigenen Daten.
+## Wenn du bereits Karten hast, kann die Migration die Entscheidung vorgeben
 
-Lernkarten sind kein Wegwerfmaterial. Über mehrere Jahre hinweg werden sie zu einer Landkarte dessen, was du lernst, was dir immer wieder entgleitet, welche Themen wichtig genug sind, um darauf zurückzukommen, und wie sich dein Verständnis im Lauf der Zeit verändert.
+Wenn du bei null anfängst, ist dieser Vergleich einfach. Mit vorhandenen Sammlungen wird er konkret.
 
-Das sind wertvolle Daten. Ich halte wenig davon, sie zu behandeln, als wären sie bloß geliehene Inhalte auf einer Plattform.
+Wenn du über Jahre Anki-Wiederholungsverläufe aufgebaut hast, bleibe bei Anki – es sei denn, die Vorteile eines Umstiegs sind es dir wert, diese Verläufe zurückzusetzen. Für ein einfacheres Deck mit Vorder- und Rückseite kannst du Text exportieren und dem [Workflow für die Migration aus einer Anki-TXT-Datei](/blog/migrate-from-anki-txt-export-open-source-flashcards/) folgen. Dabei dient der Text als Ausgangsmaterial für bereinigte Kartenentwürfe; der Ablauf bildet eine Anki-Sammlung nicht originalgetreu nach.
 
-## Was eine moderne Open-Source-Flashcards-App verändert
+Wenn dein Material in Quizlet liegt, prüfe zuerst, ob du das Set selbst erstellt hast und ob die relevanten Inhalte als Text vorliegen. Der [Leitfaden zum Quizlet-Export für FSRS](/blog/how-to-export-quizlet-sets-and-turn-them-into-fsrs-flashcards/) führt dich durch den praktischen Ablauf und erklärt die Exportbeschränkungen.
 
-[Flashcards](https://flashcards-open-source-app.com/) ist die Richtung, die ich in dieser Kategorie gern öfter sehen würde: eine moderne **Open-Source-Flashcards-App** mit Spaced Repetition, dokumentiertem Self-Hosting und einer klaren Oberfläche, die schlicht genug ist, um weiterzuwachsen, ohne museal zu wirken.
+Falls ein weiterer Wechsel für dich infrage kommt, teste einen Export, bevor du monatelange Arbeit investierst. Eine sichtbare Export-Schaltfläche ist nicht dasselbe wie ein wiederherstellbares Backup.
 
-Die aktuelle öffentliche Version geht bewusst offen mit ihrem Reifegrad um. Sie ist noch früh, aber längst mehr als ein reiner Browser-Prototyp.
+## Welche ist 2026 die beste Karteikarten-App?
 
-Was du heute bekommst, ist klar:
+Für anspruchsvolle, langfristige Spaced Repetition ist **Anki nach wie vor die sicherste Empfehlung**. Der leistungsfähige Scheduler, die zuverlässige Offline-Nutzung, das Ökosystem und die ausgereiften Datenwerkzeuge unterstützen auch große Sammlungen.
 
-- Karten mit Vorder- und Rückseite in der gehosteten Web-App erstellen
-- fällige Karten mit FSRS wiederholen
-- KI-Chat mit Workspace-Daten und Dateianhängen nutzen
-- dich per passwortlosem E-Mail-Einmalcode anmelden
-- Terminal-Agenten über den dokumentierten API-Einstieg verbinden
-- den iOS-Client aus dem Haupt-Repository mit Offline-First-Synchronisierung nutzen
-- den Stack selbst hosten, wenn du mehr Kontrolle willst
-- eine fokussierte externe Agent-API für die Workspace-Einrichtung und SQL-Zugriff nutzen
+Für den Unterricht, öffentliche Sets und schnelles, abwechslungsreiches Üben ist **Quizlet weiterhin die naheliegendste Empfehlung**. Die sozialen Funktionen und Workflows für Lehrkräfte sind ein echter Vorteil – keine Kleinigkeit, die ohnehin jeder Wettbewerber bietet.
 
-Das reicht bereits für den Kernablauf, der zählt: Karten erstellen, fällige Karten wiederholen, morgen weitermachen.
+Für Lernende, die ausdrücklich KI-gestützte Kartenarbeit, FSRS und die Möglichkeit suchen, das gesamte System selbst zu betreiben, passt **Flashcards Open Source App am besten**. Gleichzeitig ist sie von den drei Optionen die riskanteste, wenn du heute ausgereifte Importkompatibilität oder ein vollständiges, portables Backup benötigst.
 
-Auch die grundsätzliche Richtung passt besser dazu, wohin Software heute gehen sollte: Offline-First-Clients, offene Architektur und ein System, das du tatsächlich prüfen kannst, statt es nur zu mieten.
+Das ist die ehrliche Entscheidung im Jahr 2026: Wähle das stärkste Werkzeug für das Lernsystem, das du tatsächlich nutzt, und prüfe, wie du deine Daten wieder herausbekommst, bevor deine Sammlung für einen Umzug zu wertvoll wird.
 
-## Self-Hosted-Flashcards sind nicht nur etwas für Hobby-Sysadmins
-
-Wenn Menschen nach **self hosted flashcards** suchen, tun sie das meist nicht, weil sie mehr Wochenendarbeit wollen.
-
-Sie wollen in der Regel eines von drei Dingen:
-
-- Kontrolle über ihre Lerndaten
-- die Möglichkeit, später zwischen gehostet und selbst gehostet zu wechseln
-- die Gewissheit, dass das Produkt keine Blackbox ist
-
-Das ist ein vernünftiges Bedürfnis.
-
-Das Gute an einer Open-Source-Flashcards-App ist: Selbst wenn du mit der gehosteten Version anfängst, bist du nicht darin gefangen. Du kannst den Code prüfen, die Dokumentation lesen, die API verstehen und dir alle Optionen offenhalten.
-
-Gerade bei Lerntools ist das wichtiger, als viele zugeben. Solche Systeme bleiben oft über Jahre bestehen.
-
-## Welche ist 2026 die beste Spaced-Repetition-App?
-
-Das hängt davon ab, welches Problem du tatsächlich lösen willst.
-
-Wenn du das reifste und bewährteste Werkzeug für ernsthaftes Auswendiglernen suchst, ist Anki immer noch schwer zu schlagen.
-
-Wenn du das einfachste Mainstream-Erlebnis willst und dir Plattformbindung nicht besonders wichtig ist, ist Quizlet die naheliegendere Antwort.
-
-Wenn du eine neuere **Open-Source-Flashcards-App** suchst, die heutigen Produkterwartungen näherkommt, einen echten Weg zum Self-Hosting bietet und das Thema Kontrolle nicht ausklammert, ist Flashcards die interessantere Option.
-
-Das soll nicht so klingen, als würde die neue Option die alten Platzhirsche schon in jeder Hinsicht übertreffen. Das tut sie nicht.
-
-Ich sage nur: Die Kategorie steckt seit zu langer Zeit in derselben Abwägung fest, und das ist seit Langem die erste Richtung, die strukturell besser wirkt.
-
-## Ein praktischer Vergleich: Anki, Quizlet und Flashcards
-
-| Tool | Am besten für | Größte Stärke | Größte Schwäche |
-|---|---|---|---|
-| Anki | Ernsthafte Lernende, denen die Qualität der Wiederholung am wichtigsten ist | Bewährte Spaced-Repetition-Kultur und Tiefe | Produkt wirkt alt |
-| Quizlet | Lockeres Lernen oder breitentaugliche Lernroutinen | Leichter Einstieg und runderes Nutzungserlebnis | Geschlossene Plattform und weniger Kontrolle |
-| Flashcards | Menschen, die moderne Open-Source-Software und Self-Hosting-Optionen wollen | Kontrolle, transparente Architektur, klare Produktrichtung | Produkt noch in früher Phase |
-
-Diese Tabelle ist die ehrliche Version.
-
-Die meisten Vergleichsseiten vermeiden es, eine unangenehme Wahrheit klar auszusprechen: Manchmal ist die beste Wahl nicht die mit der längsten Funktionsliste. Sondern die mit der Abwägung, mit der du tatsächlich über Jahre leben kannst.
-
-## Wer sollte was nutzen
-
-Nutze **Anki**, wenn:
-
-- du den bewährtesten Spaced-Repetition-Workflow willst
-- dich eine ältere Bedienoberfläche nicht stört
-- dir Tiefe und Ökosystem wichtiger sind als ein besonders poliertes Produkt
-
-Nutze **Quizlet**, wenn:
-
-- du etwas willst, in das du schnell hineinkommst
-- dir Bequemlichkeit wichtiger ist als Kontrolle
-- dein Lern-Workflow leichter und weniger systemgetrieben ist
-
-Nutze **Flashcards**, wenn:
-
-- du eine **Anki-Alternative** willst, die Open Source ist
-- du eine **Quizlet-Alternative** ohne vollständige Plattformbindung willst
-- dir Self-Hosting jetzt oder später wichtig ist
-- du ein Produkt willst, das noch früh ist, aber in die richtige Richtung zeigt
-
-## Probiere die Open-Source-Flashcards-App aus
-
-Wenn du **Anki vs Quizlet** vergleichst und sich keine der beiden Antworten ganz richtig anfühlt, ist genau das wahrscheinlich das eigentliche Signal.
-
-Starte mit [Flashcards](https://flashcards-open-source-app.com/):
-
-- [Die gehostete App öffnen](https://app.flashcards-open-source-app.com/)
-- [Anleitung für den Einstieg lesen](https://flashcards-open-source-app.com/docs/getting-started/)
-- [Self-Hosting-Leitfaden lesen](https://flashcards-open-source-app.com/docs/self-hosting/)
-- [Quellcode auf GitHub ansehen](https://github.com/kirill-markin/flashcards-open-source-app)
-
-Wir hätten längst bessere Software für Lernkarten haben müssen.
-
-Open Source, Self-Hosting und eine klarere moderne Produktrichtung wirken wie der beste Weg, um endlich dorthin zu kommen.
+Du kannst die [gehostete Flashcards-App ausprobieren](https://app.flashcards-open-source-app.com/), dich über [Preise und Beta-Limits informieren](/pricing/) oder vor deiner Entscheidung die [Anforderungen für das Self-Hosting](/docs/self-hosting/) lesen.
