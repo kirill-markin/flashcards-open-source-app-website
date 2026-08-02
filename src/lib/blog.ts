@@ -893,7 +893,8 @@ export async function readBlogPostContent(
   const renderedHtmlBySlug =
     renderedHtmlByLocaleAndSlug.get(locale) ?? new Map<string, Promise<string>>();
   const cachedHtml = renderedHtmlBySlug.get(slug);
-  const contentHtmlPromise = cachedHtml ?? renderMarkdownToHtml(post.bodyMarkdown);
+  const contentHtmlPromise =
+    cachedHtml ?? renderMarkdownToHtml(post.bodyMarkdown, locale);
 
   if (cachedHtml === undefined) {
     renderedHtmlBySlug.set(slug, contentHtmlPromise);

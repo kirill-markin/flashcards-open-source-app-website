@@ -293,7 +293,7 @@ async function renderLegalPage(
   legalSection: LegalPageSection
 ): Promise<React.JSX.Element> {
   const uiCopy = getUiCopy(locale);
-  const contentHtml = await renderMarkdownToHtml(body);
+  const contentHtml = await renderMarkdownToHtml(body, locale);
 
   return (
     <div className={legalStyles.container}>
