@@ -9,8 +9,7 @@ import {
   getPublicCatalogCollectionsByPackageSlug,
   getPublicCatalogPackageBySlug,
 } from "@/lib/publicCatalogReadModel";
-import { getPublicCatalogPackageRoutePathname } from "@/lib/publicCatalogUrls";
-import { createPublicCatalogMetadata } from "@/lib/seo/createPublicCatalogMetadata";
+import { createPublicCatalogPackageMetadata } from "@/lib/seo/createPublicCatalogMetadata";
 
 const locale = "en" as const;
 
@@ -37,14 +36,7 @@ export async function generateMetadata({
     notFound();
   }
 
-  return createPublicCatalogMetadata({
-    description: packageView.packageMetadata.summary,
-    locale,
-    publishedTime: packageView.packageMetadata.publishedAt,
-    routePathname: getPublicCatalogPackageRoutePathname(packageSlug),
-    title: packageView.packageMetadata.title,
-    type: "article",
-  });
+  return createPublicCatalogPackageMetadata(locale, packageView);
 }
 
 export default async function PublicCatalogPackagePage({

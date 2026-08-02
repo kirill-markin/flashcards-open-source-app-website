@@ -5,10 +5,8 @@ import {
   resolveNonDefaultLocaleOrNotFound,
 } from "@/app/localizedRouteHelpers";
 import { PublicCatalogBrowsePageView } from "@/components/PublicCatalogBrowsePageView";
-import { getPublicCatalogUiCopy } from "@/lib/publicCatalogCopy";
 import { readPublicCatalog } from "@/lib/publicCatalogData";
-import { PUBLIC_CATALOG_ROUTE_PATHNAME } from "@/lib/publicCatalogUrls";
-import { createPublicCatalogMetadata } from "@/lib/seo/createPublicCatalogMetadata";
+import { createPublicCatalogRootMetadata } from "@/lib/seo/createPublicCatalogMetadata";
 
 export const dynamicParams = false;
 
@@ -35,16 +33,7 @@ export async function generateMetadata({
     notFound();
   }
 
-  const copy = getPublicCatalogUiCopy(locale);
-
-  return createPublicCatalogMetadata({
-    description: copy.intro,
-    locale,
-    publishedTime: null,
-    routePathname: PUBLIC_CATALOG_ROUTE_PATHNAME,
-    title: copy.title,
-    type: "website",
-  });
+  return createPublicCatalogRootMetadata(locale);
 }
 
 export default async function LocalizedPublicCatalogPage({
