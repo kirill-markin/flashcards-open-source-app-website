@@ -26,3 +26,19 @@ export function listPublicCatalogPackageSlugs(): ReadonlyArray<string> {
     (packageView) => packageView.packageMetadata.slug,
   );
 }
+
+export function listPublicCatalogAuthorSlugs(): ReadonlyArray<string> {
+  return [...(readPublicCatalog()?.authorBySlug.keys() ?? [])];
+}
+
+export function listPublicCatalogCollectionSlugs(): ReadonlyArray<string> {
+  return [...(readPublicCatalog()?.collectionBySlug.keys() ?? [])];
+}
+
+export function listPublicCatalogLanguageTags(): ReadonlyArray<string> {
+  return readPublicCatalog()?.languageTags ?? [];
+}
+
+export function listPublicCatalogTopicTags(): ReadonlyArray<string> {
+  return readPublicCatalog()?.topicTags ?? [];
+}

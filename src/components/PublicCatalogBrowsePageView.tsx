@@ -1,5 +1,6 @@
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { PublicCatalogPackageCard } from "@/components/PublicCatalogPackageCard";
+import { PublicCatalogNavigation } from "@/components/PublicCatalogNavigation";
 import { SiteFrame } from "@/components/SiteFrame";
 import type { AppLocale } from "@/lib/i18n";
 import { getLocalizedPathname } from "@/lib/i18n";
@@ -34,6 +35,7 @@ export function PublicCatalogBrowsePageView({
           />
           <h1 className={styles.title}>{copy.title}</h1>
           <p className={styles.intro}>{copy.intro}</p>
+          <PublicCatalogNavigation currentSection="packages" locale={locale} />
         </header>
         {catalog.packages.length === 0 ? (
           <p className={styles.empty} role="status">

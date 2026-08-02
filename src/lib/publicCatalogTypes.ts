@@ -15,8 +15,8 @@ export type PublicCatalogAuthor = Readonly<{
   authorId: string;
   slug: string;
   displayName: string;
-  bio: string;
-  websiteUrl: string;
+  bio: string | null;
+  websiteUrl: string | null;
 }>;
 
 export type PublicCatalogPackage = Readonly<{
