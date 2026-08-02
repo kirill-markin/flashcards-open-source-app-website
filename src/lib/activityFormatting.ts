@@ -1,25 +1,5 @@
 import type { AppLocale } from "@/lib/i18n";
-
-function getIntlLocale(locale: AppLocale): string {
-  switch (locale) {
-    case "ar":
-      return "ar-SA";
-    case "de":
-      return "de-DE";
-    case "en":
-      return "en-US";
-    case "es":
-      return "es-ES";
-    case "hi":
-      return "hi-IN";
-    case "ja":
-      return "ja-JP";
-    case "ru":
-      return "ru-RU";
-    case "zh":
-      return "zh-CN";
-  }
-}
+import { getIntlLocale } from "@/lib/localeConfig";
 
 function parseActivityDate(value: string): Date {
   return new Date(`${value}T00:00:00.000Z`);

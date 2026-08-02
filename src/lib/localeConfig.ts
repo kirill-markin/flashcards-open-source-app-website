@@ -101,6 +101,10 @@ export function getOpenGraphLocale(locale: AppLocale): string {
   return LOCALE_DEFINITIONS[locale].openGraphLocale;
 }
 
+export function getIntlLocale(locale: AppLocale): string {
+  return LOCALE_DEFINITIONS[locale].openGraphLocale.replace("_", "-");
+}
+
 export function getLocaleShortLabel(locale: AppLocale): string {
   return LOCALE_DEFINITIONS[locale].shortLabel;
 }

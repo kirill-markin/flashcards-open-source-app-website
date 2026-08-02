@@ -12,6 +12,7 @@ import {
   formatActivityTimestamp,
 } from "@/lib/activityFormatting";
 import { getExternalLinkAttributes } from "@/lib/linkTargets";
+import { getIntlLocale } from "@/lib/localeConfig";
 import { getUiCopy } from "@/lib/uiCopy";
 import { ActivityChartScroller } from "./ActivityChartScroller";
 import styles from "./PublicActivitySection.module.css";
@@ -191,27 +192,6 @@ const platformColors: Readonly<Record<GlobalActivityPlatform, string>> = {
   android: "#59a14f",
   ios: "#f28e2b",
 };
-
-function getIntlLocale(locale: AppLocale): string {
-  switch (locale) {
-    case "ar":
-      return "ar-SA";
-    case "de":
-      return "de-DE";
-    case "en":
-      return "en-US";
-    case "es":
-      return "es-ES";
-    case "hi":
-      return "hi-IN";
-    case "ja":
-      return "ja-JP";
-    case "ru":
-      return "ru-RU";
-    case "zh":
-      return "zh-CN";
-  }
-}
 
 function formatCompactDate(locale: AppLocale, value: string): string {
   return new Intl.DateTimeFormat(getIntlLocale(locale), {

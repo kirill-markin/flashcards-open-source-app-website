@@ -1,8 +1,16 @@
 import assert from "node:assert/strict";
 import test from "node:test";
 import { parsePublicCatalogBuildConfiguration } from "./publicCatalogBuild";
+import { getPublicCatalogUiCopy } from "./publicCatalogCopy";
+import { getPublicCatalogCoverAccessibleLabel } from "./publicCatalogCover";
+import {
+  formatPublicCatalogCardCount,
+  formatPublicCatalogDate,
+  formatPublicCatalogNumber,
+} from "./publicCatalogFormatting";
 import { parsePublicCatalogDump } from "./publicCatalogParser";
 import {
+  createCachedPublicCatalogReader,
   createPublicCatalogReadModel,
   getPublicCatalogAuthorBySlug,
   getPublicCatalogCollectionBySlug,
@@ -14,6 +22,13 @@ import {
   getPublicCatalogPackagesByTopicTag,
 } from "./publicCatalogReadModel";
 import type { PublicCatalogDump } from "./publicCatalogTypes";
+import {
+  getPublicCatalogAuthorRoutePathname,
+  getPublicCatalogLanguageRoutePathname,
+  getPublicCatalogPackageRoutePathname,
+  getPublicCatalogTopicRoutePathname,
+  isPublicCatalogPageRoutePathname,
+} from "./publicCatalogUrls";
 
 type Mutable<T> = T extends ReadonlyArray<infer Item>
   ? Array<Mutable<Item>>
@@ -217,6 +232,33 @@ test("does not expose historical records through the public read model", () => {
   );
 });
 
+test("reuses one read model while enabled and returns null while disabled", () => {
+  let enabled = false;
+  let dumpReadCount = 0;
+  const readCatalog = createCachedPublicCatalogReader(
+    () => enabled,
+    () => {
+      dumpReadCount += 1;
+      return createValidDump();
+    },
+  );
+
+  assert.equal(readCatalog(), null);
+  assert.equal(dumpReadCount, 0);
+
+  enabled = true;
+  const firstCatalog = readCatalog();
+  const secondCatalog = readCatalog();
+
+  assert.ok(firstCatalog);
+  assert.strictEqual(secondCatalog, firstCatalog);
+  assert.equal(dumpReadCount, 1);
+
+  enabled = false;
+  assert.equal(readCatalog(), null);
+  assert.equal(dumpReadCount, 1);
+});
+
 test("ignores unrelated extra fields while requiring the contract fields", () => {
   const input = createValidDump() as ReturnType<typeof createValidDump> & {
     unrelated?: string;
@@ -321,5 +363,107 @@ test("keeps the catalog disabled by default and requires an explicit URL when en
   assert.throws(
     () => parsePublicCatalogBuildConfiguration("true", "http:\/\/api.example.com/catalog.json"),
     /must be an absolute HTTPS URL/,
+  );
+});
+
+test("builds canonical catalog destinations and identifies current catalog pages", () => {
+  assert.equal(
+    getPublicCatalogPackageRoutePathname("canonical-package"),
+    "/catalog/packages/canonical-package/",
+  );
+  assert.equal(
+    getPublicCatalogAuthorRoutePathname("author-one"),
+    "/catalog/authors/author-one/",
+  );
+  assert.equal(
+    getPublicCatalogLanguageRoutePathname("pt-BR"),
+    "/catalog/languages/pt-BR/",
+  );
+  assert.equal(
+    getPublicCatalogTopicRoutePathname("world history"),
+    "/catalog/topics/world%20history/",
+  );
+  assert.equal(isPublicCatalogPageRoutePathname("/catalog/"), true);
+  assert.equal(
+    isPublicCatalogPageRoutePathname("/catalog/packages/canonical-package/"),
+    true,
+  );
+  assert.equal(
+    isPublicCatalogPageRoutePathname("/catalog/authors/author-one/"),
+    false,
+  );
+});
+
+test("formats localized card counts with the required plural categories", () => {
+  assert.equal(
+    formatPublicCatalogCardCount("en", 1, getPublicCatalogUiCopy("en")),
+    "1 card",
+  );
+  assert.equal(
+    formatPublicCatalogCardCount("en", 2, getPublicCatalogUiCopy("en")),
+    "2 cards",
+  );
+  assert.equal(
+    formatPublicCatalogCardCount("es", 1, getPublicCatalogUiCopy("es")),
+    "1 tarjeta",
+  );
+  assert.equal(
+    formatPublicCatalogCardCount("de", 1, getPublicCatalogUiCopy("de")),
+    "1 Karte",
+  );
+  assert.equal(
+    formatPublicCatalogCardCount("hi", 2, getPublicCatalogUiCopy("hi")),
+    "2 कार्ड",
+  );
+  assert.equal(
+    formatPublicCatalogCardCount("ja", 2, getPublicCatalogUiCopy("ja")),
+    "2枚のカード",
+  );
+  assert.equal(
+    formatPublicCatalogCardCount("zh", 2, getPublicCatalogUiCopy("zh")),
+    "2张卡片",
+  );
+
+  const arabicCopy = getPublicCatalogUiCopy("ar");
+
+  assert.equal(formatPublicCatalogCardCount("ar", 0, arabicCopy), "٠ بطاقات");
+  assert.equal(formatPublicCatalogCardCount("ar", 1, arabicCopy), "بطاقة واحدة");
+  assert.equal(formatPublicCatalogCardCount("ar", 2, arabicCopy), "بطاقتان");
+  assert.equal(formatPublicCatalogCardCount("ar", 3, arabicCopy), "٣ بطاقات");
+  assert.equal(formatPublicCatalogCardCount("ar", 11, arabicCopy), "١١ بطاقة");
+  assert.equal(formatPublicCatalogCardCount("ar", 100, arabicCopy), "١٠٠ بطاقة");
+
+  const russianCopy = getPublicCatalogUiCopy("ru");
+
+  assert.equal(formatPublicCatalogCardCount("ru", 1, russianCopy), "1 карточка");
+  assert.equal(formatPublicCatalogCardCount("ru", 2, russianCopy), "2 карточки");
+  assert.equal(formatPublicCatalogCardCount("ru", 5, russianCopy), "5 карточек");
+  assert.equal(formatPublicCatalogCardCount("ru", 21, russianCopy), "21 карточка");
+});
+
+test("uses the shared locale mapping for Arabic catalog numbers and dates", () => {
+  assert.equal(formatPublicCatalogNumber("ar", 12), "١٢");
+  assert.equal(
+    formatPublicCatalogDate("ar", "2026-08-02T11:00:00.000Z"),
+    "٢ أغسطس ٢٠٢٦",
+  );
+});
+
+test("announces a missing catalog cover placeholder once", () => {
+  assert.equal(
+    getPublicCatalogCoverAccessibleLabel(
+      "Package title",
+      null,
+      "Cover preview unavailable",
+    ),
+    "Package title: Cover preview unavailable",
+  );
+  assert.equal(
+    getPublicCatalogCoverAccessibleLabel(
+      "Package title",
+      "Cover alt text",
+      "Cover preview unavailable",
+    ),
+    "Package title: Cover alt text. Cover preview unavailable",
   );
 });
