@@ -33,6 +33,27 @@ export type PublicCatalogReadModel = Readonly<{
   topicTags: ReadonlyArray<string>;
 }>;
 
+export type PublicCatalogReader = () => PublicCatalogReadModel | null;
+
+export function createCachedPublicCatalogReader(
+  isEnabled: () => boolean,
+  readDump: () => PublicCatalogDump,
+): PublicCatalogReader {
+  let cachedCatalog: PublicCatalogReadModel | undefined;
+
+  return (): PublicCatalogReadModel | null => {
+    if (isEnabled() === false) {
+      return null;
+    }
+
+    if (cachedCatalog === undefined) {
+      cachedCatalog = createPublicCatalogReadModel(readDump());
+    }
+
+    return cachedCatalog;
+  };
+}
+
 function groupBy<T>(
   values: ReadonlyArray<T>,
   getKeys: (item: T) => ReadonlyArray<string>,

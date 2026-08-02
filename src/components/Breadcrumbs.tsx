@@ -14,6 +14,10 @@ interface BreadcrumbsProps {
   locale: AppLocale;
 }
 
+function serializeStructuredData(value: object): string {
+  return JSON.stringify(value).replace(/</g, "\\u003c");
+}
+
 export function Breadcrumbs({
   items,
   locale,
@@ -44,7 +48,7 @@ export function Breadcrumbs({
     <nav aria-label={uiCopy.breadcrumbs.ariaLabel} className={styles.nav}>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+        dangerouslySetInnerHTML={{ __html: serializeStructuredData(schema) }}
       />
       <ol className={styles.list}>
         {allItems.map((item, index) => {

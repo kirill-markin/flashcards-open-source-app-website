@@ -134,6 +134,13 @@ export function parsePublicCatalogBuildConfiguration(
   };
 }
 
+export function isPublicCatalogEnabled(): boolean {
+  return parsePublicCatalogBuildConfiguration(
+    process.env[publicCatalogEnabledEnvironmentVariable],
+    process.env[publicCatalogDumpUrlEnvironmentVariable],
+  ).enabled;
+}
+
 export async function fetchPublicCatalogDump(dumpUrl: string): Promise<PublicCatalogDump> {
   let lastError: unknown = null;
 

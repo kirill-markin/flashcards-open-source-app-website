@@ -3,6 +3,7 @@ import {
   DEFAULT_LOCALE,
   NON_DEFAULT_LOCALES,
   SUPPORTED_LOCALES,
+  getIntlLocale,
   getOpenGraphLocale,
   isSupportedLocale,
   type AppLocale,
@@ -12,6 +13,7 @@ export {
   DEFAULT_LOCALE,
   NON_DEFAULT_LOCALES,
   SUPPORTED_LOCALES,
+  getIntlLocale,
   getOpenGraphLocale,
   isSupportedLocale,
 };

@@ -12,6 +12,8 @@ import {
   normalizePathname,
   resolveLocaleFromPathname,
 } from "@/lib/i18n";
+import { isPublicCatalogEnabled } from "@/lib/publicCatalogBuild";
+import { isPublicCatalogPageRoutePathname } from "@/lib/publicCatalogUrls";
 
 interface LocaleSwitcherEntry {
   readonly available: boolean;
@@ -41,6 +43,13 @@ export function hasRouteTranslation(
   locale: AppLocale
 ): boolean {
   const normalizedRoutePathname = normalizePathname(routePathname);
+
+  if (
+    isPublicCatalogEnabled()
+    && isPublicCatalogPageRoutePathname(normalizedRoutePathname)
+  ) {
+    return true;
+  }
 
   return TRANSLATED_ROUTE_PATH_SET_BY_LOCALE[locale].has(normalizedRoutePathname);
 }
