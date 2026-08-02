@@ -5,7 +5,9 @@ import type { Handlers } from "mdast-util-to-hast";
 import { remark } from "remark";
 import gfm from "remark-gfm";
 import html from "remark-html";
+import type { AppLocale } from "@/lib/i18n";
 import { getExternalLinkAttributes } from "@/lib/linkTargets";
+import { localizeInternalLinks } from "@/lib/localizeInternalLinks";
 
 type MarkdownLinkState = Parameters<typeof defaultHandlers.link>[0];
 type MarkdownLinkNode = Parameters<typeof defaultHandlers.link>[1];
@@ -51,13 +53,16 @@ const markdownHandlers = {
   link: renderMarkdownLink,
 } satisfies Readonly<Handlers>;
 
-export async function renderMarkdownToHtml(markdown: string): Promise<string> {
+export async function renderMarkdownToHtml(
+  markdown: string,
+  locale: AppLocale
+): Promise<string> {
   const result = await remark()
     .use(gfm)
     .use(html, {
       handlers: markdownHandlers,
       sanitize: markdownSanitizeSchema,
     })
-    .process(markdown);
+    .process(localizeInternalLinks(markdown, locale));
   return result.toString();
 }

@@ -4,7 +4,6 @@ import { renderMarkdownToHtml } from "@/lib/content/renderMarkdownToHtml";
 import { readDoc } from "@/lib/docs";
 import type { AppLocale } from "@/lib/i18n";
 import { getAbsoluteUrl, getLocalizedPathname } from "@/lib/i18n";
-import { localizeInternalLinks } from "@/lib/localizeInternalLinks";
 import {
   CREATOR_ENTITY,
   CREATOR_REFERENCE,
@@ -60,9 +59,7 @@ export async function DocPageView({
     );
   }
 
-  const contentHtml = await renderMarkdownToHtml(
-    localizeInternalLinks(doc.bodyMarkdown, locale)
-  );
+  const contentHtml = await renderMarkdownToHtml(doc.bodyMarkdown, locale);
   const articleUrl = getAbsoluteUrl(getLocalizedPathname(locale, `/docs/${slug}/`));
   const articleSchema: TechArticleSchema = {
     "@context": "https://schema.org",
