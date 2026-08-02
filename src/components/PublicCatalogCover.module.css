@@ -1,0 +1,20 @@
+.cover {
+  display: grid;
+  place-items: center;
+  min-block-size: 148px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  background:
+    radial-gradient(circle at 30% 20%, var(--accent-muted), transparent 48%),
+    rgba(255, 255, 255, 0.035);
+  color: var(--text-tertiary);
+  overflow: hidden;
+}
+
+.initial {
+  font-size: clamp(2.5rem, 7vw, 4.25rem);
+  font-weight: 700;
+  line-height: 1;
+  color: var(--accent-strong);
+  opacity: 0.72;
+}
