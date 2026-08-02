@@ -1,6 +1,7 @@
 import type { AppLocale } from "./localeConfig";
 import { getIntlLocale } from "./localeConfig";
 import type { PublicCatalogUiCopy } from "./publicCatalogCopy";
+import type { PublicCatalogDestinationCopy } from "./publicCatalogDestinationCopy";
 
 export function formatPublicCatalogNumber(
   locale: AppLocale,
@@ -33,4 +34,23 @@ export function formatPublicCatalogCardCount(
     "{count}",
     formattedCardCount,
   );
+}
+
+export function formatPublicCatalogPackageCount(
+  locale: AppLocale,
+  packageCount: number,
+  copy: PublicCatalogDestinationCopy,
+): string {
+  const pluralCategory = new Intl.PluralRules(getIntlLocale(locale)).select(
+    packageCount,
+  );
+
+  return copy.packageCountTemplates[pluralCategory].replace(
+    "{count}",
+    formatPublicCatalogNumber(locale, packageCount),
+  );
+}
+
+export function formatPublicCatalogFacetTag(tag: string): string {
+  return tag.normalize("NFC").trim();
 }

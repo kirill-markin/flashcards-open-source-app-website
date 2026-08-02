@@ -1,20 +1,24 @@
 import Link from "next/link";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { PublicCatalogCover } from "@/components/PublicCatalogCover";
+import { PublicCatalogNavigation } from "@/components/PublicCatalogNavigation";
 import { SiteFrame } from "@/components/SiteFrame";
 import { renderMarkdownToHtml } from "@/lib/content/renderMarkdownToHtml";
 import type { AppLocale } from "@/lib/i18n";
 import { getLocalizedPathname } from "@/lib/i18n";
 import { getExternalLinkAttributes } from "@/lib/linkTargets";
 import { getPublicCatalogUiCopy } from "@/lib/publicCatalogCopy";
+import { getPublicCatalogDestinationCopy } from "@/lib/publicCatalogDestinationCopy";
 import {
   formatPublicCatalogCardCount,
   formatPublicCatalogDate,
   formatPublicCatalogNumber,
 } from "@/lib/publicCatalogFormatting";
 import type { PublicCatalogPackageView } from "@/lib/publicCatalogReadModel";
+import type { PublicCatalogCollection } from "@/lib/publicCatalogTypes";
 import {
   getPublicCatalogAuthorRoutePathname,
+  getPublicCatalogCollectionRoutePathname,
   getPublicCatalogLanguageRoutePathname,
   getPublicCatalogPackageRoutePathname,
   getPublicCatalogTopicRoutePathname,
@@ -23,6 +27,7 @@ import {
 import styles from "@/app/catalog/packages/[packageSlug]/page.module.css";
 
 interface PublicCatalogPackagePageViewProps {
+  readonly collections: ReadonlyArray<PublicCatalogCollection>;
   readonly locale: AppLocale;
   readonly packageView: PublicCatalogPackageView;
 }
@@ -56,10 +61,12 @@ async function renderCards(
 }
 
 export async function PublicCatalogPackagePageView({
+  collections,
   locale,
   packageView,
 }: PublicCatalogPackagePageViewProps): Promise<React.JSX.Element> {
   const copy = getPublicCatalogUiCopy(locale);
+  const destinationCopy = getPublicCatalogDestinationCopy(locale);
   const { author, coverMediaAsset, latestVersion, packageMetadata } = packageView;
   const packageRoutePathname = getPublicCatalogPackageRoutePathname(
     packageMetadata.slug,
@@ -93,6 +100,7 @@ export async function PublicCatalogPackagePageView({
               ]}
               locale={locale}
             />
+            <PublicCatalogNavigation currentSection="packages" locale={locale} />
             <div className={styles.hero}>
               <div className={styles.coverColumn}>
                 <PublicCatalogCover
@@ -195,6 +203,24 @@ export async function PublicCatalogPackagePageView({
                         )}
                       >
                         {topicTag}
+                      </Link>
+                    ))}
+                  </dd>
+                </div>
+              )}
+              {collections.length === 0 ? null : (
+                <div className={styles.fact}>
+                  <dt>{destinationCopy.collectionsContainingLabel}</dt>
+                  <dd className={styles.facetList}>
+                    {collections.map((collection) => (
+                      <Link
+                        key={collection.collectionId}
+                        href={getLocalizedPathname(
+                          locale,
+                          getPublicCatalogCollectionRoutePathname(collection.slug),
+                        )}
+                      >
+                        {collection.title}
                       </Link>
                     ))}
                   </dd>

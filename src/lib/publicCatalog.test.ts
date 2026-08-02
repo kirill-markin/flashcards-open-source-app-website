@@ -1,12 +1,15 @@
 import assert from "node:assert/strict";
 import test from "node:test";
 import { parsePublicCatalogBuildConfiguration } from "./publicCatalogBuild";
+import { getPublicCatalogAuthorBioExcerpt } from "./publicCatalogAuthor";
 import { getPublicCatalogUiCopy } from "./publicCatalogCopy";
+import { getPublicCatalogDestinationCopy } from "./publicCatalogDestinationCopy";
 import { getPublicCatalogCoverAccessibleLabel } from "./publicCatalogCover";
 import {
   formatPublicCatalogCardCount,
   formatPublicCatalogDate,
   formatPublicCatalogNumber,
+  formatPublicCatalogPackageCount,
 } from "./publicCatalogFormatting";
 import { parsePublicCatalogDump } from "./publicCatalogParser";
 import {
@@ -24,10 +27,14 @@ import {
 import type { PublicCatalogDump } from "./publicCatalogTypes";
 import {
   getPublicCatalogAuthorRoutePathname,
+  getPublicCatalogCollectionRoutePathname,
   getPublicCatalogLanguageRoutePathname,
   getPublicCatalogPackageRoutePathname,
   getPublicCatalogTopicRoutePathname,
+  PUBLIC_CATALOG_AUTHORS_ROUTE_PATHNAME,
+  PUBLIC_CATALOG_COLLECTIONS_ROUTE_PATHNAME,
   isPublicCatalogPageRoutePathname,
+  resolvePublicCatalogRouteSegment,
 } from "./publicCatalogUrls";
 
 type Mutable<T> = T extends ReadonlyArray<infer Item>
@@ -216,6 +223,58 @@ test("parses the schema and builds latest-version-only lookup data", () => {
   assert.deepEqual(model.topicTags, ["grammar"]);
 });
 
+test("accepts nullable and empty author details while rejecting missing keys", () => {
+  const nullableInput = createValidDump();
+  nullableInput.authors[0].bio = null;
+  nullableInput.authors[0].websiteUrl = null;
+
+  const nullableAuthor = parsePublicCatalogDump(nullableInput).authors[0];
+
+  assert.equal(nullableAuthor.bio, null);
+  assert.equal(nullableAuthor.websiteUrl, null);
+
+  const missingBioInput = createValidDump();
+  const authorWithoutBio: Partial<PublicCatalogDumpFixture["authors"][number]> = {
+    ...missingBioInput.authors[0],
+  };
+  delete authorWithoutBio.bio;
+
+  assert.throws(
+    () => parsePublicCatalogDump({
+      ...missingBioInput,
+      authors: [authorWithoutBio],
+    }),
+    /authors\[0\]\.bio must be a string/,
+  );
+
+  const missingWebsiteInput = createValidDump();
+  const authorWithoutWebsite: Partial<PublicCatalogDumpFixture["authors"][number]> = {
+    ...missingWebsiteInput.authors[0],
+  };
+  delete authorWithoutWebsite.websiteUrl;
+
+  assert.throws(
+    () => parsePublicCatalogDump({
+      ...missingWebsiteInput,
+      authors: [authorWithoutWebsite],
+    }),
+    /authors\[0\]\.websiteUrl must be a string/,
+  );
+
+  const emptyBioInput = createValidDump();
+  emptyBioInput.authors[0].bio = "";
+
+  assert.equal(parsePublicCatalogDump(emptyBioInput).authors[0].bio, "");
+
+  const invalidWebsiteInput = createValidDump();
+  invalidWebsiteInput.authors[0].websiteUrl = "http://example.com/author-one";
+
+  assert.throws(
+    () => parsePublicCatalogDump(invalidWebsiteInput),
+    /authors\[0\]\.websiteUrl must be an absolute HTTPS URL/,
+  );
+});
+
 test("does not expose historical records through the public read model", () => {
   const dump = parsePublicCatalogDump(createValidDump());
   const model = createPublicCatalogReadModel(dump);
@@ -230,6 +289,63 @@ test("does not expose historical records through the public read model", () => {
     model.packages.map((packageView) => packageView.latestVersion.packageVersionId),
     ["version-2"],
   );
+});
+
+test("keeps collection packages in membership ordinal order", () => {
+  const input = createValidDump();
+  input.packages.push({
+    packageId: "package-2",
+    authorId: "author-1",
+    slug: "second-package",
+    title: "Second package",
+    summary: "Second summary",
+    description: "Second description",
+    languageTags: ["fr"],
+    topicTags: ["history"],
+    license: "CC0-1.0",
+    contentWarning: null,
+    coverPackageMediaKey: null,
+    latestPublishedVersionId: "version-3",
+    publishedAt: "2026-08-02T11:30:00.000Z",
+  });
+  input.packageVersions.push({
+    packageVersionId: "version-3",
+    packageId: "package-2",
+    versionNumber: 1,
+    title: "Second package",
+    summary: "Second summary",
+    description: "Second description",
+    cardCount: 0,
+    publishedAt: "2026-08-02T11:30:00.000Z",
+    installUrl: "https://app.flashcards-open-source-app.com/catalog/import/version-3",
+  });
+  input.collectionPackages.push({
+    collectionId: "collection-1",
+    packageId: "package-2",
+    ordinal: 0,
+  });
+
+  const model = createPublicCatalogReadModel(parsePublicCatalogDump(input));
+
+  assert.deepEqual(
+    getPublicCatalogPackagesByCollectionSlug(model, "starter-collection")?.map(
+      (packageView) => packageView.packageMetadata.slug,
+    ),
+    ["second-package", "canonical-package"],
+  );
+});
+
+test("includes collection-only tags in static facets without inventing package membership", () => {
+  const input = createValidDump();
+  input.collections[0].languageTags = ["zz"];
+  input.collections[0].topicTags = ["collection-only"];
+
+  const model = createPublicCatalogReadModel(parsePublicCatalogDump(input));
+
+  assert.deepEqual(model.languageTags, ["en", "es", "zz"]);
+  assert.deepEqual(model.topicTags, ["collection-only", "grammar"]);
+  assert.deepEqual(getPublicCatalogPackagesByLanguageTag(model, "zz"), []);
+  assert.deepEqual(getPublicCatalogPackagesByTopicTag(model, "collection-only"), []);
 });
 
 test("reuses one read model while enabled and returns null while disabled", () => {
@@ -367,6 +483,25 @@ test("keeps the catalog disabled by default and requires an explicit URL when en
 });
 
 test("builds canonical catalog destinations and identifies current catalog pages", () => {
+  const ambiguousTags = ["history world", "history%20world", "100%"];
+
+  assert.equal(
+    resolvePublicCatalogRouteSegment("history%20world", ambiguousTags),
+    "history world",
+  );
+  assert.equal(
+    resolvePublicCatalogRouteSegment("history%2520world", ambiguousTags),
+    "history%20world",
+  );
+  assert.equal(
+    resolvePublicCatalogRouteSegment("100%25", ambiguousTags),
+    "100%",
+  );
+  assert.equal(
+    resolvePublicCatalogRouteSegment("history world", ambiguousTags),
+    "history world",
+  );
+  assert.equal(resolvePublicCatalogRouteSegment("missing", ambiguousTags), undefined);
   assert.equal(
     getPublicCatalogPackageRoutePathname("canonical-package"),
     "/catalog/packages/canonical-package/",
@@ -374,6 +509,10 @@ test("builds canonical catalog destinations and identifies current catalog pages
   assert.equal(
     getPublicCatalogAuthorRoutePathname("author-one"),
     "/catalog/authors/author-one/",
+  );
+  assert.equal(
+    getPublicCatalogCollectionRoutePathname("starter-collection"),
+    "/catalog/collections/starter-collection/",
   );
   assert.equal(
     getPublicCatalogLanguageRoutePathname("pt-BR"),
@@ -390,8 +529,12 @@ test("builds canonical catalog destinations and identifies current catalog pages
   );
   assert.equal(
     isPublicCatalogPageRoutePathname("/catalog/authors/author-one/"),
-    false,
+    true,
   );
+  assert.equal(isPublicCatalogPageRoutePathname(PUBLIC_CATALOG_AUTHORS_ROUTE_PATHNAME), true);
+  assert.equal(isPublicCatalogPageRoutePathname(PUBLIC_CATALOG_COLLECTIONS_ROUTE_PATHNAME), true);
+  assert.equal(isPublicCatalogPageRoutePathname("/catalog/languages/pt-BR/"), true);
+  assert.equal(isPublicCatalogPageRoutePathname("/catalog/topics/world%20history/"), true);
 });
 
 test("formats localized card counts with the required plural categories", () => {
@@ -439,6 +582,37 @@ test("formats localized card counts with the required plural categories", () => 
   assert.equal(formatPublicCatalogCardCount("ru", 2, russianCopy), "2 карточки");
   assert.equal(formatPublicCatalogCardCount("ru", 5, russianCopy), "5 карточек");
   assert.equal(formatPublicCatalogCardCount("ru", 21, russianCopy), "21 карточка");
+});
+
+test("formats localized package counts", () => {
+  assert.equal(
+    formatPublicCatalogPackageCount("en", 1, getPublicCatalogDestinationCopy("en")),
+    "1 package",
+  );
+  assert.equal(
+    formatPublicCatalogPackageCount("es", 2, getPublicCatalogDestinationCopy("es")),
+    "2 paquetes",
+  );
+  assert.equal(
+    formatPublicCatalogPackageCount("ar", 2, getPublicCatalogDestinationCopy("ar")),
+    "حزمتان",
+  );
+  assert.equal(
+    formatPublicCatalogPackageCount("ru", 5, getPublicCatalogDestinationCopy("ru")),
+    "5 пакетов",
+  );
+});
+
+test("truncates author bio excerpts without splitting grapheme clusters", () => {
+  const familyEmoji = "👨‍👩‍👧‍👦";
+  const bio = `${"a".repeat(178)}${familyEmoji}bc`;
+
+  assert.equal(
+    getPublicCatalogAuthorBioExcerpt(bio, "en"),
+    `${"a".repeat(178)}${familyEmoji}…`,
+  );
+  assert.equal(getPublicCatalogAuthorBioExcerpt(null, "en"), null);
+  assert.equal(getPublicCatalogAuthorBioExcerpt("", "en"), null);
 });
 
 test("uses the shared locale mapping for Arabic catalog numbers and dates", () => {
