@@ -1,167 +1,152 @@
 ---
-title: "RemNote Alternative in 2026: Open-Source Flashcards App With FSRS, Offline Study, and Self-Hosting"
-description: "Looking for a RemNote alternative in 2026? Here is the practical tradeoff: RemNote is strong when notes and study live in one large system, while an open-source flashcards app gives you a cleaner flashcards-first workflow, FSRS scheduling, offline-first study, and full control over your decks."
+title: "RemNote Alternative in 2026: RemNote vs Anki vs Flashcards"
+description: "Looking for a RemNote alternative? Compare RemNote vs Anki vs Flashcards for notes, PDFs, FSRS, offline study, migration, pricing, and self-hosting."
 date: "2026-03-19"
+updated: "2026-08-02"
+image: "/blog/remnote-alternative.png"
 keywords:
   - "remnote alternative"
   - "remnote alternative 2026"
+  - "remnote vs anki"
+  - "remnote vs flashcards"
   - "open source remnote alternative"
+  - "self hosted remnote alternative"
   - "fsrs flashcards app"
   - "offline flashcards app"
-  - "self hosted flashcards"
-  - "spaced repetition app"
-  - "flashcards from notes"
 ---
 
-Last week I watched a study system become a project. Notes nested inside notes, references branching everywhere, tasks mixed with prompts, and flashcards sitting in the middle trying to stay useful. Nothing was technically broken. It just stopped feeling like studying and started feeling like software maintenance.
+The old version of this article got one important thing wrong: it treated FSRS as a reason to leave RemNote. RemNote now documents FSRS-6 in beta, with manual opt-in and automatic weight training. Anki and Flashcards also use FSRS. So the useful **RemNote alternative** question in 2026 is about workflow: do you want connected notes and PDF reading, a mature card system, or a simpler open-source card stack?
 
-That is usually when people start searching for a **RemNote alternative**.
+> **Disclosure:** I am Kirill Markin, and I build [Flashcards](/), one of the products compared here. It does not automatically win. RemNote has the strongest native notes-and-PDF workflow in this comparison. Anki has the most mature card system, desktop ecosystem, migration support, and scheduler controls.
 
-Not because RemNote is bad. Funny thing is, RemNote is attractive for a real reason: it is trying to be a full study environment, not just a card reviewer. The search for an alternative usually starts later, when the bigger system begins to feel heavier than the actual learning task and you want something calmer, narrower, and easier to trust every day.
+**Facts checked:** August 2, 2026. Prices below are the public US or listed prices available on that date. Taxes, regional pricing, app-store billing, and beta terms can differ.
 
-That is the real **RemNote alternative 2026** search.
+![RemNote alternative comparison: RemNote vs Anki vs Flashcards for notes, PDFs, FSRS, offline study, and self-hosting](/blog/remnote-alternative.png)
 
-## RemNote makes sense when you want one large study system
+## The short answer
 
-I think it is worth being fair about that.
+- Choose **RemNote** when your notes are the center of the system. Bullets and documents produce cards, while its Reader keeps PDF highlights, notes, references, and cards connected.
+- Choose **Anki** when the cards are the center. It has mature templates, FSRS controls, native desktop apps, established migration formats, and a large add-on ecosystem.
+- Choose **Flashcards** for simple front/back Markdown cards in an MIT-licensed web and mobile stack. It is offline-first and whole-stack self-hostable, but it has no note knowledge base, PDF reader, native desktop app, or direct RemNote/Anki importer.
+- Keep your current setup when none of those differences solves a real problem. A new interface rarely justifies losing years of review history.
 
-A lot of people do not want a small flashcards tool. They want notes, outlines, references, and review all living in one place.
+## RemNote vs Anki vs Flashcards
 
-That is exactly why RemNote gets attention.
+| Question | RemNote | Anki | Flashcards |
+|---|---|---|---|
+| Best fit | Studying inside connected notes and source documents | A mature, configurable flashcard system | Simple cards in an open web/mobile stack |
+| Core workflow | Notes-first: bullets, documents, and references can produce cards | Cards-first in practice; notes with fields generate cards through templates | Cards-first: front/back Markdown with decks, tags, and media |
+| Notes and PDFs | Knowledge base, backlinks/references, and a PDF Reader with linked highlights | No built-in note knowledge base or PDF reader | No note knowledge base, backlinks, or PDF reader; online AI chat can draft cards from attached PDFs and notes |
+| FSRS | FSRS-6 beta, enabled manually; can train weights from review history | Mature FSRS controls, parameter optimizer, desired retention, and simulator | FSRS-6 with four review buttons and configurable retention, steps, maximum interval, and fuzz; pinned weights, no personal optimizer |
+| Apps | Web, Windows, macOS, Linux, iOS, Android | Windows, macOS, Linux, AnkiWeb, official paid AnkiMobile, independent free AnkiDroid | Web, iOS, Android; no native desktop app |
+| Offline | Strong desktop/mobile support; uncached PDFs or media may be absent on mobile/web, and web cannot cold-start offline | Local desktop and mobile collections work offline; sync is optional | Cards, edits, and reviews work offline-first; AI and cloud package transfer require network access and a cloud account |
+| Import | RemNote backups, Anki content and review history, Markdown, Obsidian, Dynalist, Workflowy | Text, `.apkg`, `.colpkg`, Mnemosyne | Its own `flashcards.zip` content package only; no direct Anki or RemNote importer |
+| Export | Native, OPML, cards-only Anki `.apkg`, HTML, Markdown, text; native export currently omits images and PDFs | Text, `.apkg`, `.colpkg` | Its own `flashcards.zip`: active cards, tags, referenced media; no review history, FSRS state, settings, full deck structure, or account data |
+| Price checked Aug. 2, 2026 | Free; Pro US$8/month billed yearly; Pro+AI US$18/month billed yearly | Desktop, AnkiWeb, and AnkiDroid free; AnkiMobile US$24.99 once in the US | Hosted app free during beta; self-hosted software free plus infrastructure and provider costs |
+| Open source / self-hosting | Proprietary; local-only desktop knowledge bases, no official whole-service self-hosting | Open-source clients and an official self-hosted sync server, not full AnkiWeb | MIT licensed; supported whole-stack production deployment through AWS CDK |
 
-It is closer to a study environment than a simple flashcards app.
+The table exposes the switching cost better than it declares a winner. A PDF-heavy student may lose more by leaving RemNote than they gain from another scheduler. An Anki user with custom note types and years of history may gain little from a cleaner interface. Someone who needs linked notes should not wait for a focused card app to turn into a notebook.
 
-The tradeoff appears when "more system" stops feeling like an advantage.
+## Notes-first or cards-first is the main decision
 
-That is when people start wanting something more like this:
+RemNote starts with a knowledge base. Its documentation says [everything you write in RemNote is a bullet](https://help.remnote.com/en/articles/8017859-bullets), and [any bullet can become a flashcard](https://help.remnote.com/en/articles/8663109-flashcard-basics). A lecture outline, linked concept, source excerpt, and review prompt can all live in the same structure.
 
-- a cleaner flashcards-first workflow
-- stronger spaced repetition
-- more trustworthy offline behavior
-- a simpler path from notes into cards
-- more ownership over the long-term study system
+That works well when writing is how you understand the material before deciding what deserves review. The hierarchy and references become part of the study system. If that structure is already useful, replacing RemNote with a plain card app removes a real feature rather than simplifying it.
 
-That is where a **RemNote alternative** becomes a very practical search instead of just browsing.
+Anki is built on notes too, but “note” means a record with fields. [HTML/CSS card templates](https://docs.ankiweb.net/templates/intro.html) turn those fields into one or more review cards. This is powerful for forward/reverse vocabulary, cloze patterns, audio cards, and specialized layouts. It is not a linked knowledge base for lecture notes or research material.
 
-## The useful alternative is often narrower, not bigger
+[Flashcards features](/features/) use the narrowest model here: front, back, Markdown, decks, tags, and referenced media. There are no backlinks, long-form notes, or template-generated card variants. That simplicity suits a fresh front/back collection. It is a poor substitute when RemNote's knowledge base is the feature you depend on.
 
-This is where I think the category gets confused sometimes.
+For **RemNote vs Anki**, choose RemNote when cards should stay inside a larger body of notes. Choose Anki when structured fields and rendered card templates matter more than the notebook around them. For **RemNote vs Flashcards**, the split is even clearer: a connected study workspace versus a focused front/back card workspace.
 
-When a product starts feeling heavy, the instinct is to look for another all-in-one system with different branding.
+## RemNote is the clear choice for studying PDFs
 
-That is not always the right move.
+RemNote's Reader can [open a PDF, keep highlights linked to their source, and turn the reading into notes or cards](https://help.remnote.com/en/articles/6690975-learning-from-pdfs-and-files-with-the-remnote-reader). Neither Anki nor Flashcards has an equivalent native reading workflow.
 
-Often the better answer is a tool that does less, but does the core loop better:
+Free RemNote accounts can [annotate three PDFs in total](https://help.remnote.com/en/articles/6690972-uploading-pdfs-to-remnote). Pro removes that free-plan limit. Three PDFs are enough to test the workflow, but not much more if papers or textbooks are central to your course.
 
-1. create cards
-2. review them on time
-3. keep everything available offline
-4. sync later
-5. own the data and the stack
+Anki has no built-in PDF reader or annotation layer. Add-ons and external tools can bridge the gap, but they sit outside the core product. Anki makes more sense as the destination for finished prompts than as the place where you read and mark up a paper.
 
-[Flashcards](https://flashcards-open-source-app.com/) is much closer to that direction.
+Flashcards AI chat accepts PDFs and notes, then proposes front/back cards for you to review. The [web client's non-image attachment limit](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/apps/web/src/chat/attachments/FileAttachment.tsx) is currently 3 MiB, and the AI flow is online. It does not preserve a reading position, highlight a PDF, or link a saved card back to an annotation. If your loop is “read, highlight, connect, review,” stay with RemNote.
 
-It is built around a focused learning loop:
+## FSRS is no longer a reason to leave RemNote
 
-- FSRS scheduling
-- offline-first clients
-- open-source code
-- self-hosting path
-- AI-assisted drafting tied to the real workspace
+RemNote's [FSRS documentation](https://help.remnote.com/en/articles/9124137-the-fsrs-spaced-repetition-algorithm) describes FSRS-6 as a beta custom scheduler that you enable manually. It can train weights from your review history once there is enough data. RemNote still documents SM-2 as the default, so FSRS support does not mean every account already uses it.
 
-That is a more useful answer for people whose real complaint is not "I need a bigger study graph." It is "I want the review habit itself to stay clean."
+Anki has the mature FSRS toolset in this comparison. Its built-in [FSRS settings](https://docs.ankiweb.net/deck-options.html#fsrs) include desired retention, a parameter optimizer for fitting weights to review history, and a simulator for estimating workload. Presets can use different trained parameters.
 
-## FSRS is one of the clearest reasons to move to a flashcards-first tool
+Flashcards uses FSRS-6 with Again, Hard, Good, and Easy. Its workspace settings cover desired retention, learning and relearning steps, maximum interval, and fuzz. The product uses pinned weights and has no optimizer that fits them to an individual user's history. The [FSRS scheduling guide](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/docs/fsrs-scheduling-logic.md) documents those controls and that limit.
 
-You usually feel this after a few weeks, not on the pricing page.
+The practical verdict is simple: RemNote now has a credible FSRS path, Anki gives you the deepest tuning, and Flashcards offers a fixed FSRS-6 implementation with fewer personalization controls. Read [FSRS vs SM-2](/blog/fsrs-vs-sm-2/) if the scheduler is your main concern. Just do not switch from RemNote because an older comparison says it lacks FSRS.
 
-If the scheduler is weak, the whole study routine gets heavier than it should. Easy cards come back too often. Hard cards drift in strange ways. The queue starts feeling like admin.
+## Offline study and app coverage
 
-That is why a serious **FSRS flashcards app** matters.
+RemNote covers web, Windows, macOS, Linux, iOS, and Android. Its [offline documentation](https://help.remnote.com/en/articles/6752029-offline-mode) says the desktop and mobile apps work offline after login. Desktop keeps all media and PDFs locally. Mobile and web may not have files that were never cached, and the web app cannot cold-start without a connection.
 
-FSRS usually gives a calmer review rhythm than older or rougher scheduling approaches. It reduces pointless repetition, adapts better over time, and makes the product feel more like memory support than homework management.
+That makes the desktop app the dependable RemNote choice for a complete offline knowledge base. Mobile review still works well offline, but “works offline” does not promise that an old, uncached PDF is already on the phone.
 
-That is one of the stronger reasons to choose a focused **spaced repetition app** instead of a larger study workspace whose flashcards happen to be part of the package.
+Anki stores collections locally in its Windows, macOS, and Linux apps. The official AnkiMobile iOS app and independent AnkiDroid Android app also support offline review, with AnkiWeb sync available when wanted. The [official Anki apps page](https://apps.ankiweb.net/) explains the platform split and helps avoid unrelated apps with similar names.
 
-If you want the deeper scheduler comparison, this goes further:
+Flashcards has published web, [iOS](https://apps.apple.com/us/app/flashcards-open-source-app/id6760538964), and [Android](https://play.google.com/store/apps/details?id=com.flashcardsopensourceapp.app) clients. Cards, edits, and reviews write locally first and sync after reconnection. A computer uses the web client because there is no native desktop app. AI chat and cloud package import/export need both a network connection and a cloud account. If you require a native desktop client or complete local source files, choose Anki or RemNote.
 
-- [FSRS vs SM-2 in 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+## Import and export decide whether switching is practical
 
-## Notes-to-cards matters more than notes-as-a-worldview
+RemNote offers a useful route into a notes-first system. Its [importers](https://help.remnote.com/en/articles/6330674-notes-on-remnote-importers) accept RemNote backups, Anki content and review history, Markdown, Obsidian, Dynalist, and Workflowy. Custom Anki CSS is not imported, so check a styled deck after migration.
 
-This is where I think some learners get stuck.
+RemNote's [export options](https://help.remnote.com/en/articles/7898019-exporting-notes) include its native format, OPML, Anki `.apkg` for cards only, HTML, Markdown, and text. A cards-only Anki export does not carry the entire note system. More importantly, RemNote's native export currently omits images and PDFs. Keep original source documents outside the app when they matter as an archive.
 
-They do not necessarily want their notes and flashcards fused forever.
+Anki imports text, `.apkg` decks, `.colpkg` collections, and Mnemosyne data. It exports text, `.apkg`, and `.colpkg`. Its [import](https://docs.ankiweb.net/importing/intro.html) and [export](https://docs.ankiweb.net/exporting.html) manuals spell out what each format preserves. For a conventional card collection, these established formats give you more migration options than the other two products.
 
-They want a better path from rough notes into clean cards.
+Flashcards only imports and exports its own `flashcards.zip` content package. The [data-portability documentation](/docs/self-hosting/#data-portability) explains that it contains active cards, tags, and referenced media. It does not contain review history, FSRS state, workspace settings, full deck structure, account data, or a complete workspace backup. There is no direct Anki or RemNote importer.
 
-That is a different problem.
+You can attach a TXT, CSV, Markdown, or PDF export to Flashcards AI chat and ask it to draft cards. That is card creation with a review step, not lossless migration. Keep the source export and do not expect scheduling history to survive. The [Anki text migration guide](/blog/migrate-from-anki-txt-export-open-source-flashcards/) shows the distinction in practice.
 
-The useful version looks like this:
+## Pricing checked August 2, 2026
 
-- bring in text notes
-- let AI draft question-answer cards
-- clean up the weak ones
-- start reviewing immediately
+RemNote's [pricing page](https://www.remnote.com/pricing) listed these annual-billing prices:
 
-That is already a stronger workflow for a lot of people than living inside a bigger note graph all the time.
+- **Free:** US$0, including unlimited notes, cards, and devices, plus three annotated PDFs.
+- **Pro:** US$8 per month billed annually.
+- **Pro+AI:** US$18 per month billed annually.
 
-Flashcards fits that direction better because it already combines card creation, AI chat, file attachments, and a direct review workflow in the same workspace. The goal is not to make note-taking theatrical. It is to reduce the copy-paste tax between source material and actual review.
+Those are monthly equivalents for annual billing, not month-to-month prices. Regional pricing and taxes can change the final amount.
 
-If that is the main thing making your current setup feel heavier than it should, start here:
+Anki's desktop apps, AnkiWeb, and the independent AnkiDroid app are free. The official US App Store listed [AnkiMobile at US$24.99](https://apps.apple.com/us/app/ankimobile-flashcards/id373493387) as a one-time purchase.
 
-- [How to Turn Notes Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
+The hosted Flashcards app is [free during beta](/pricing/). Self-hosted software is free under the MIT license, while infrastructure, domains, email, monitoring, AI providers, backups, and operator time still cost money.
 
-## Offline studying matters because memory work happens away from ideal conditions
+## Open source, local-only, and self-hosted are different
 
-I like testing study tools in low-glamour situations: bad Wi-Fi, a short train ride, ten spare minutes before something else, a phone connection that pretends to exist but clearly does not.
+RemNote is proprietary. Its desktop app can create [local-only knowledge bases](https://help.remnote.com/en/articles/7867942-multiple-knowledge-bases), keeping that knowledge base out of RemNote's cloud. This is local storage, not an official self-hosted sync service or a whole RemNote deployment.
 
-That is where a lot of ambitious study software starts feeling slightly fake.
+Anki's clients are open source, and Anki documents an official [self-hosted sync server](https://docs.ankiweb.net/sync-server.html). It lets advanced users sync Anki clients without AnkiWeb. It is a sync server, not a complete self-hosted copy of the AnkiWeb service.
 
-The useful **offline flashcards app** is stricter than that:
+Flashcards publishes the application and infrastructure under the MIT license. Its [self-hosting guide](/docs/self-hosting/) supports a full production deployment through AWS CDK. That stack includes multiple AWS and external services. Docker and Postgres are for development, not the supported production architecture.
 
-- cards are local
-- reviews save locally first
-- edits work without ceremony
-- sync happens later
+Flashcards is the only option here with a supported whole-stack deployment, and it brings real operator work. You supply cloud accounts, pay provider costs, handle upgrades and backups, and build custom mobile clients yourself if you want them connected to your deployment. Choose self-hosting for control, not because it is automatically cheaper or easier.
 
-That is the architecture Flashcards is aiming for across the web app and the iOS direction in the repository. Study first. Network second.
+## Which RemNote alternative should you choose?
 
-If offline behavior is the reason you started looking around, this goes deeper:
+### Stay with RemNote for connected notes and source reading
 
-- [Best Offline Flashcards App in 2026](https://flashcards-open-source-app.com/blog/best-offline-flashcards-app/)
+Stay when you write substantial notes, annotate PDFs, link concepts, and create cards without separating them from the source. RemNote's FSRS beta removes the old scheduler-only reason to leave. A move now needs a better reason: the card model, price, portability, or ownership.
 
-## Open source matters because decks stop being temporary very quickly
+### Choose Anki for mature cards and deeper control
 
-At first, a deck feels disposable.
+Anki is the practical RemNote alternative when you do not need a built-in knowledge base and want flexible templates, add-ons, native desktop clients, mature FSRS controls, or established import/export formats. It is also the more natural destination for a large conventional flashcard collection.
 
-Then it quietly becomes part of how you think.
+Anki itself will not replace RemNote Reader. Plan a separate note or PDF tool when source annotation remains part of your study routine.
 
-The cards start reflecting what you keep forgetting, how you phrase explanations, which examples actually work for you, and which subjects matter enough to review for months.
+### Choose Flashcards for simple cards and an open stack
 
-That is exactly when ownership matters more.
+Flashcards fits a new or mostly simple front/back collection when MIT licensing, offline-first web and mobile apps, AI-assisted drafting, or whole-stack deployment matter more than linked notes and migration fidelity.
 
-With an open-source flashcards app, the relationship is healthier. The code is visible. The architecture is visible. The self-hosting path exists. Even if you never use those options directly, the system stops feeling like a sealed product you are borrowing for as long as the company and roadmap happen to cooperate.
+It is not the right choice for a native desktop app, a RemNote-style PDF workflow, advanced Anki templates, direct `.apkg` import, or preservation of old review history. Those are current product limits, not setup details.
 
-That is why I think a real **open source RemNote alternative** is appealing to people who care about long-term study infrastructure, not just first-week convenience.
+## Conclusion: choose around the workflow you already use
 
-If ownership is the part that matters most, start here:
+The useful **RemNote alternative** fixes a specific constraint. RemNote keeps notes, PDFs, and prompts together. Anki gives cards mature templates, scheduling controls, and portability. Flashcards keeps the model simple and opens the whole application stack.
 
-- [Self-Hosted Open Source Flashcards App for Spaced Repetition](https://flashcards-open-source-app.com/blog/self-hosted-open-source-flashcards-app-for-spaced-repetition/)
+I build Flashcards, and I would still choose RemNote for a PDF-heavy connected notebook or Anki for a complex established collection. I would choose Flashcards for a fresh front/back workspace when open infrastructure and offline-first mobile sync are the priorities.
 
-## So what is the best RemNote alternative in 2026?
-
-If your top priority is one large environment where notes, outlines, and studying all live together, RemNote can still make sense.
-
-If you now want a cleaner flashcards-first workflow, stronger spaced repetition, offline-first study, a simpler notes-to-cards path, and more control over the system behind your decks, then the better answer is usually not "RemNote, but with a different interface."
-
-It is a narrower tool with a stronger core loop.
-
-That is why [Flashcards](https://flashcards-open-source-app.com/) is a stronger **RemNote alternative** in 2026. Not because it tries to imitate RemNote perfectly. Because it is built around the parts that matter more once the study habit needs to stay calm, durable, and easy to trust every day.
-
-If you want to explore that direction:
-
-- [Open Flashcards](https://flashcards-open-source-app.com/)
-- [Open the app](https://app.flashcards-open-source-app.com/)
-- [Read the getting started guide](https://flashcards-open-source-app.com/docs/getting-started/)
-- [View the source on GitHub](https://github.com/kirill-markin/flashcards-open-source-app)
+If that third case matches your **RemNote vs Flashcards** decision, [open the hosted app](https://app.flashcards-open-source-app.com/) or read the [getting started guide](/docs/getting-started/). Otherwise, keep the system that makes tomorrow's review easiest.
