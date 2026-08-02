@@ -3,6 +3,7 @@ import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { PublicCatalogNavigation } from "@/components/PublicCatalogNavigation";
 import { PublicCatalogPackageCard } from "@/components/PublicCatalogPackageCard";
 import { SiteFrame } from "@/components/SiteFrame";
+import { StructuredDataScript } from "@/components/StructuredDataScript";
 import { renderMarkdownToHtml } from "@/lib/content/renderMarkdownToHtml";
 import type { AppLocale } from "@/lib/i18n";
 import { getLocalizedPathname } from "@/lib/i18n";
@@ -21,6 +22,7 @@ import {
   PUBLIC_CATALOG_COLLECTIONS_ROUTE_PATHNAME,
   PUBLIC_CATALOG_ROUTE_PATHNAME,
 } from "@/lib/publicCatalogUrls";
+import { createPublicCatalogCollectionJsonLd } from "@/lib/seo/publicCatalogStructuredData";
 import styles from "@/app/catalog/destinations.module.css";
 
 interface PublicCatalogCollectionPageViewProps {
@@ -41,6 +43,9 @@ export async function PublicCatalogCollectionPageView({
 
   return (
     <SiteFrame locale={locale} routePathname={routePathname}>
+      <StructuredDataScript
+        value={createPublicCatalogCollectionJsonLd(collection, locale, packages)}
+      />
       <div className={styles.narrowContainer}>
         <header className={styles.panel}>
           <Breadcrumbs

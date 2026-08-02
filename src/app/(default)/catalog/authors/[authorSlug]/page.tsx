@@ -6,15 +6,10 @@ import {
   readPublicCatalog,
 } from "@/lib/publicCatalogData";
 import {
-  getPublicCatalogDestinationCopy,
-  interpolatePublicCatalogCopy,
-} from "@/lib/publicCatalogDestinationCopy";
-import {
   getPublicCatalogAuthorBySlug,
   getPublicCatalogPackagesByAuthorSlug,
 } from "@/lib/publicCatalogReadModel";
-import { getPublicCatalogAuthorRoutePathname } from "@/lib/publicCatalogUrls";
-import { createPublicCatalogMetadata } from "@/lib/seo/createPublicCatalogMetadata";
+import { createPublicCatalogAuthorMetadata } from "@/lib/seo/createPublicCatalogMetadata";
 
 const locale = "en" as const;
 
@@ -39,23 +34,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     notFound();
   }
 
-  const copy = getPublicCatalogDestinationCopy(locale);
-  const description = author.bio === null || author.bio.trim() === ""
-    ? copy.authorsIntro
-    : author.bio;
-
-  return createPublicCatalogMetadata({
-    description,
-    locale,
-    publishedTime: null,
-    routePathname: getPublicCatalogAuthorRoutePathname(authorSlug),
-    title: interpolatePublicCatalogCopy(
-      copy.authorPackagesHeadingTemplate,
-      "name",
-      author.displayName,
-    ),
-    type: "website",
-  });
+  return createPublicCatalogAuthorMetadata(locale, author);
 }
 
 export default async function PublicCatalogAuthorPage({

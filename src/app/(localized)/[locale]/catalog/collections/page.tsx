@@ -6,9 +6,7 @@ import {
 } from "@/app/localizedRouteHelpers";
 import { PublicCatalogCollectionsPageView } from "@/components/PublicCatalogCollectionsPageView";
 import { readPublicCatalog } from "@/lib/publicCatalogData";
-import { getPublicCatalogDestinationCopy } from "@/lib/publicCatalogDestinationCopy";
-import { PUBLIC_CATALOG_COLLECTIONS_ROUTE_PATHNAME } from "@/lib/publicCatalogUrls";
-import { createPublicCatalogMetadata } from "@/lib/seo/createPublicCatalogMetadata";
+import { createPublicCatalogCollectionsMetadata } from "@/lib/seo/createPublicCatalogMetadata";
 
 export const dynamicParams = false;
 
@@ -28,16 +26,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     notFound();
   }
 
-  const copy = getPublicCatalogDestinationCopy(locale);
-
-  return createPublicCatalogMetadata({
-    description: copy.collectionsIntro,
-    locale,
-    publishedTime: null,
-    routePathname: PUBLIC_CATALOG_COLLECTIONS_ROUTE_PATHNAME,
-    title: copy.collectionsTitle,
-    type: "website",
-  });
+  return createPublicCatalogCollectionsMetadata(locale);
 }
 
 export default async function LocalizedPublicCatalogCollectionsPage({

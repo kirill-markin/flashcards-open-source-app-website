@@ -2,12 +2,14 @@ import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { PublicCatalogBrowser } from "@/components/PublicCatalogBrowser";
 import { PublicCatalogNavigation } from "@/components/PublicCatalogNavigation";
 import { SiteFrame } from "@/components/SiteFrame";
+import { StructuredDataScript } from "@/components/StructuredDataScript";
 import type { AppLocale } from "@/lib/i18n";
 import { getLocalizedPathname } from "@/lib/i18n";
 import { getPublicCatalogUiCopy } from "@/lib/publicCatalogCopy";
 import type { PublicCatalogReadModel } from "@/lib/publicCatalogReadModel";
 import { createPublicCatalogBrowseData } from "@/lib/publicCatalogBrowse";
 import { PUBLIC_CATALOG_ROUTE_PATHNAME } from "@/lib/publicCatalogUrls";
+import { createPublicCatalogRootJsonLd } from "@/lib/seo/publicCatalogStructuredData";
 import styles from "@/app/catalog/page.module.css";
 
 interface PublicCatalogBrowsePageViewProps {
@@ -23,6 +25,7 @@ export function PublicCatalogBrowsePageView({
 
   return (
     <SiteFrame locale={locale} routePathname={PUBLIC_CATALOG_ROUTE_PATHNAME}>
+      <StructuredDataScript value={createPublicCatalogRootJsonLd(catalog, locale)} />
       <div className={styles.container}>
         <header className={styles.introPanel}>
           <Breadcrumbs

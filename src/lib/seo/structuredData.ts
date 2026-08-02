@@ -20,6 +20,10 @@ export const FLASHCARDS_LOGO_URL = `${SITE_URL}/logo-512.png`;
 export const FLASHCARDS_WEB_APP_URL =
   "https://app.flashcards-open-source-app.com";
 
+export function serializeStructuredData(value: object): string {
+  return JSON.stringify(value).replace(/</g, "\\u003c");
+}
+
 export type StructuredDataEntityId =
   (typeof STRUCTURED_DATA_ENTITY_IDS)[keyof typeof STRUCTURED_DATA_ENTITY_IDS];
 
