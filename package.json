@@ -14,7 +14,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint .",
-    "test:catalog": "tsx --test src/lib/publicCatalog.test.ts"
+    "test:catalog": "tsx --test src/lib/publicCatalog.test.ts src/lib/publicCatalogBrowse.test.ts"
   },
   "dependencies": {
     "@vercel/analytics": "^2.0.1",
