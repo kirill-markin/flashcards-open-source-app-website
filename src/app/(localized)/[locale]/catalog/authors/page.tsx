@@ -6,9 +6,7 @@ import {
 } from "@/app/localizedRouteHelpers";
 import { PublicCatalogAuthorsPageView } from "@/components/PublicCatalogAuthorsPageView";
 import { readPublicCatalog } from "@/lib/publicCatalogData";
-import { getPublicCatalogDestinationCopy } from "@/lib/publicCatalogDestinationCopy";
-import { PUBLIC_CATALOG_AUTHORS_ROUTE_PATHNAME } from "@/lib/publicCatalogUrls";
-import { createPublicCatalogMetadata } from "@/lib/seo/createPublicCatalogMetadata";
+import { createPublicCatalogAuthorsMetadata } from "@/lib/seo/createPublicCatalogMetadata";
 
 export const dynamicParams = false;
 
@@ -28,16 +26,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     notFound();
   }
 
-  const copy = getPublicCatalogDestinationCopy(locale);
-
-  return createPublicCatalogMetadata({
-    description: copy.authorsIntro,
-    locale,
-    publishedTime: null,
-    routePathname: PUBLIC_CATALOG_AUTHORS_ROUTE_PATHNAME,
-    title: copy.authorsTitle,
-    type: "website",
-  });
+  return createPublicCatalogAuthorsMetadata(locale);
 }
 
 export default async function LocalizedPublicCatalogAuthorsPage({

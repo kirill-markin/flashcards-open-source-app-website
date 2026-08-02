@@ -2,6 +2,7 @@ import Link from "next/link";
 import type { AppLocale } from "@/lib/i18n";
 import { getAbsoluteUrl, getLocalizedPathname } from "@/lib/i18n";
 import { getUiCopy } from "@/lib/uiCopy";
+import { serializeStructuredData } from "@/lib/seo/structuredData";
 import styles from "./Breadcrumbs.module.css";
 
 interface BreadcrumbItem {
@@ -12,10 +13,6 @@ interface BreadcrumbItem {
 interface BreadcrumbsProps {
   items: ReadonlyArray<BreadcrumbItem>;
   locale: AppLocale;
-}
-
-function serializeStructuredData(value: object): string {
-  return JSON.stringify(value).replace(/</g, "\\u003c");
 }
 
 export function Breadcrumbs({

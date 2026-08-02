@@ -40,6 +40,15 @@ import {
   isPublicCatalogPageRoutePathname,
   resolvePublicCatalogRouteSegment,
 } from "./publicCatalogUrls";
+import { createPublicCatalogSitemapEntries } from "./publicCatalogSitemap";
+import {
+  createPublicCatalogAuthorJsonLd,
+  createPublicCatalogCollectionJsonLd,
+  createPublicCatalogFacetJsonLd,
+  createPublicCatalogPackageJsonLd,
+  createPublicCatalogRootJsonLd,
+} from "./seo/publicCatalogStructuredData";
+import { serializeStructuredData } from "./seo/structuredData";
 
 type Mutable<T> = T extends ReadonlyArray<infer Item>
   ? Array<Mutable<Item>>
@@ -339,6 +348,151 @@ test("keeps collection packages in membership ordinal order", () => {
   );
 });
 
+test("creates escaped catalog JSON-LD from canonical read-model entities", () => {
+  const input = createValidDump();
+  input.authors[0].displayName = "Author < One";
+  input.packages[0].topicTags = ["world history"];
+  input.collections[0].topicTags = ["world history"];
+  const model = createPublicCatalogReadModel(parsePublicCatalogDump(input));
+  const packageView = getPublicCatalogPackageBySlug(model, "canonical-package");
+  const collection = getPublicCatalogCollectionBySlug(model, "starter-collection");
+  const author = getPublicCatalogAuthorBySlug(model, "author-one");
+
+  assert.ok(packageView);
+  assert.ok(collection);
+  assert.ok(author);
+
+  const packageSchema = createPublicCatalogPackageJsonLd(
+    [collection],
+    "es",
+    packageView,
+  );
+
+  assert.deepEqual(packageSchema["@type"], ["LearningResource", "Collection"]);
+  assert.equal(
+    packageSchema.url,
+    "https://flashcards-open-source-app.com/es/catalog/packages/canonical-package/",
+  );
+  assert.equal(packageSchema.collectionSize, 2);
+  assert.deepEqual(packageSchema.inLanguage, ["en", "es"]);
+  assert.deepEqual(packageSchema.keywords, ["world history"]);
+  assert.deepEqual(packageSchema.license, {
+    "@type": "CreativeWork",
+    name: "CC0-1.0",
+  });
+  assert.equal("@type" in packageSchema.author, false);
+  assert.equal("image" in packageSchema, false);
+  assert.equal("aggregateRating" in packageSchema, false);
+  assert.equal("offers" in packageSchema, false);
+
+  const rootSchema = createPublicCatalogRootJsonLd(model, "en");
+  const rootItemList = rootSchema["@graph"][1];
+
+  assert.equal(rootSchema["@graph"][0]["@type"], "CollectionPage");
+  assert.equal(rootItemList["@type"], "ItemList");
+  assert.equal(rootItemList.numberOfItems, 1);
+  assert.equal(
+    rootItemList.itemListElement[0]?.item.url,
+    "https://flashcards-open-source-app.com/catalog/packages/canonical-package/",
+  );
+
+  const collectionSchema = createPublicCatalogCollectionJsonLd(
+    collection,
+    "en",
+    model.packagesByCollectionId.get(collection.collectionId) ?? [],
+  );
+  const collectionItemList = collectionSchema["@graph"][1];
+
+  assert.equal(
+    collectionItemList.itemListOrder,
+    "https://schema.org/ItemListOrderAscending",
+  );
+  assert.deepEqual(
+    collectionItemList.itemListElement.map((item) => item.position),
+    [1],
+  );
+
+  const authorSchema = createPublicCatalogAuthorJsonLd(author, "en");
+  const authorEntity = authorSchema["@graph"][1];
+
+  assert.equal(authorEntity["@type"], "Thing");
+  assert.equal(authorSchema["@graph"][0]["@type"], "WebPage");
+  assert.equal(JSON.stringify(authorSchema).includes("Person"), false);
+  assert.equal(JSON.stringify(authorSchema).includes("Organization"), false);
+
+  const facetSchema = createPublicCatalogFacetJsonLd(
+    "topic",
+    "de",
+    model.packages,
+    "world history",
+  );
+
+  assert.equal(
+    facetSchema["@graph"][0].url,
+    "https://flashcards-open-source-app.com/de/catalog/topics/world%20history/",
+  );
+
+  const serializedSchema = serializeStructuredData(packageSchema);
+
+  assert.equal(serializedSchema.includes("<"), false);
+  assert.equal(serializedSchema.includes("\\u003c"), true);
+  assert.doesNotThrow(() => JSON.parse(serializedSchema));
+});
+
+test("creates deterministic localized catalog sitemap entries from real publish dates", () => {
+  const input = createValidDump();
+  input.packages[0].topicTags = ["world history"];
+  input.collections[0].topicTags = ["world history"];
+  input.packageVersions[1].publishedAt = "2026-08-03T09:00:00.000Z";
+  const model = createPublicCatalogReadModel(parsePublicCatalogDump(input));
+  const entries = createPublicCatalogSitemapEntries(model);
+  const entryByUrl = new Map(entries.map((entry) => [entry.url, entry]));
+  const rootUrl = "https://flashcards-open-source-app.com/catalog/";
+  const authorIndexUrl = "https://flashcards-open-source-app.com/catalog/authors/";
+  const authorUrl =
+    "https://flashcards-open-source-app.com/catalog/authors/author-one/";
+  const collectionIndexUrl =
+    "https://flashcards-open-source-app.com/catalog/collections/";
+  const collectionUrl =
+    "https://flashcards-open-source-app.com/catalog/collections/starter-collection/";
+  const packageUrl =
+    "https://flashcards-open-source-app.com/catalog/packages/canonical-package/";
+  const languageFacetUrl =
+    "https://flashcards-open-source-app.com/catalog/languages/en/";
+  const percentFacetUrl =
+    "https://flashcards-open-source-app.com/ja/catalog/topics/world%20history/";
+  const latestVersionPublishedAt = "2026-08-03T09:00:00.000Z";
+
+  assert.equal(entries.length, 72);
+  assert.equal(entryByUrl.get(rootUrl)?.lastModified, latestVersionPublishedAt);
+  assert.equal(entryByUrl.get(packageUrl)?.lastModified, latestVersionPublishedAt);
+  assert.equal(entryByUrl.get(authorUrl)?.lastModified, latestVersionPublishedAt);
+  assert.equal(entryByUrl.get(collectionUrl)?.lastModified, latestVersionPublishedAt);
+  assert.equal(entryByUrl.get(languageFacetUrl)?.lastModified, latestVersionPublishedAt);
+  assert.equal(entryByUrl.get(percentFacetUrl)?.lastModified, latestVersionPublishedAt);
+  assert.equal(
+    entryByUrl.get(authorIndexUrl)?.lastModified,
+    "2026-08-02T10:00:00.000Z",
+  );
+  assert.equal(
+    entryByUrl.get(collectionIndexUrl)?.lastModified,
+    "2026-08-02T11:00:00.000Z",
+  );
+  assert.ok(entryByUrl.has(percentFacetUrl));
+  assert.equal(
+    entryByUrl.get(percentFacetUrl)?.alternates?.languages?.es,
+    "https://flashcards-open-source-app.com/es/catalog/topics/world%20history/",
+  );
+  assert.equal(
+    entryByUrl.get(percentFacetUrl)?.alternates?.languages?.["x-default"],
+    "https://flashcards-open-source-app.com/catalog/topics/world%20history/",
+  );
+  assert.equal(entries.some((entry) => entry.url.includes("?")), false);
+  assert.equal(entries.some((entry) => entry.url.includes("/import/")), false);
+  assert.equal(entries.some((entry) => entry.url.includes("media-assets")), false);
+  assert.equal(entries.some((entry) => entry.url.includes("download-url")), false);
+});
+
 test("includes collection-only tags in static facets without inventing package membership", () => {
   const input = createValidDump();
   input.collections[0].languageTags = ["zz"];
@@ -358,6 +512,17 @@ test("includes collection-only tags in static facets without inventing package m
   assert.equal("description" in browseData.packages[0].packageView.packageMetadata, false);
   assert.equal("cards" in browseData.packages[0].packageView, false);
   assert.equal("mediaAssets" in browseData.packages[0].packageView, false);
+
+  const sitemapEntries = createPublicCatalogSitemapEntries(model);
+  const collectionOnlyFacet = sitemapEntries.find(
+    (entry) => entry.url
+      === "https://flashcards-open-source-app.com/catalog/topics/collection-only/",
+  );
+
+  assert.equal(
+    collectionOnlyFacet?.lastModified,
+    "2026-08-02T11:00:00.000Z",
+  );
 });
 
 test("excludes orphan authors and collections from browse controls", () => {

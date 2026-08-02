@@ -9,17 +9,11 @@ import {
   listPublicCatalogLanguageTags,
   readPublicCatalog,
 } from "@/lib/publicCatalogData";
-import {
-  getPublicCatalogDestinationCopy,
-  interpolatePublicCatalogCopy,
-} from "@/lib/publicCatalogDestinationCopy";
-import { formatPublicCatalogFacetTag } from "@/lib/publicCatalogFormatting";
 import { getPublicCatalogPackagesByLanguageTag } from "@/lib/publicCatalogReadModel";
 import {
-  getPublicCatalogLanguageRoutePathname,
   resolvePublicCatalogRouteSegment,
 } from "@/lib/publicCatalogUrls";
-import { createPublicCatalogMetadata } from "@/lib/seo/createPublicCatalogMetadata";
+import { createPublicCatalogFacetMetadata } from "@/lib/seo/createPublicCatalogMetadata";
 
 export const dynamicParams = false;
 
@@ -56,17 +50,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     notFound();
   }
 
-  const copy = getPublicCatalogDestinationCopy(locale);
-  const displayTag = formatPublicCatalogFacetTag(languageTag);
-
-  return createPublicCatalogMetadata({
-    description: interpolatePublicCatalogCopy(copy.languageIntroTemplate, "tag", displayTag),
-    locale,
-    publishedTime: null,
-    routePathname: getPublicCatalogLanguageRoutePathname(languageTag),
-    title: interpolatePublicCatalogCopy(copy.languageTitleTemplate, "tag", displayTag),
-    type: "website",
-  });
+  return createPublicCatalogFacetMetadata(locale, "language", languageTag);
 }
 
 export default async function LocalizedPublicCatalogLanguagePage({

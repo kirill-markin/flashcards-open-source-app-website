@@ -3,6 +3,7 @@ import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { PublicCatalogCover } from "@/components/PublicCatalogCover";
 import { PublicCatalogNavigation } from "@/components/PublicCatalogNavigation";
 import { SiteFrame } from "@/components/SiteFrame";
+import { StructuredDataScript } from "@/components/StructuredDataScript";
 import { renderMarkdownToHtml } from "@/lib/content/renderMarkdownToHtml";
 import type { AppLocale } from "@/lib/i18n";
 import { getLocalizedPathname } from "@/lib/i18n";
@@ -24,6 +25,7 @@ import {
   getPublicCatalogTopicRoutePathname,
   PUBLIC_CATALOG_ROUTE_PATHNAME,
 } from "@/lib/publicCatalogUrls";
+import { createPublicCatalogPackageJsonLd } from "@/lib/seo/publicCatalogStructuredData";
 import styles from "@/app/catalog/packages/[packageSlug]/page.module.css";
 
 interface PublicCatalogPackagePageViewProps {
@@ -82,6 +84,9 @@ export async function PublicCatalogPackagePageView({
   return (
     <SiteFrame locale={locale} routePathname={packageRoutePathname}>
       <article className={styles.container}>
+        <StructuredDataScript
+          value={createPublicCatalogPackageJsonLd(collections, locale, packageView)}
+        />
         <section className={styles.packagePanel}>
           <header className={styles.intro}>
             <Breadcrumbs

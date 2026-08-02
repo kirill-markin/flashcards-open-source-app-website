@@ -9,17 +9,11 @@ import {
   listPublicCatalogTopicTags,
   readPublicCatalog,
 } from "@/lib/publicCatalogData";
-import {
-  getPublicCatalogDestinationCopy,
-  interpolatePublicCatalogCopy,
-} from "@/lib/publicCatalogDestinationCopy";
-import { formatPublicCatalogFacetTag } from "@/lib/publicCatalogFormatting";
 import { getPublicCatalogPackagesByTopicTag } from "@/lib/publicCatalogReadModel";
 import {
-  getPublicCatalogTopicRoutePathname,
   resolvePublicCatalogRouteSegment,
 } from "@/lib/publicCatalogUrls";
-import { createPublicCatalogMetadata } from "@/lib/seo/createPublicCatalogMetadata";
+import { createPublicCatalogFacetMetadata } from "@/lib/seo/createPublicCatalogMetadata";
 
 export const dynamicParams = false;
 
@@ -56,17 +50,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     notFound();
   }
 
-  const copy = getPublicCatalogDestinationCopy(locale);
-  const displayTag = formatPublicCatalogFacetTag(topicTag);
-
-  return createPublicCatalogMetadata({
-    description: interpolatePublicCatalogCopy(copy.topicIntroTemplate, "tag", displayTag),
-    locale,
-    publishedTime: null,
-    routePathname: getPublicCatalogTopicRoutePathname(topicTag),
-    title: interpolatePublicCatalogCopy(copy.topicTitleTemplate, "tag", displayTag),
-    type: "website",
-  });
+  return createPublicCatalogFacetMetadata(locale, "topic", topicTag);
 }
 
 export default async function LocalizedPublicCatalogTopicPage({

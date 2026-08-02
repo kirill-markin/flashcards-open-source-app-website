@@ -2,6 +2,7 @@ import Link from "next/link";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { PublicCatalogNavigation } from "@/components/PublicCatalogNavigation";
 import { SiteFrame } from "@/components/SiteFrame";
+import { StructuredDataScript } from "@/components/StructuredDataScript";
 import type { AppLocale } from "@/lib/i18n";
 import { getLocalizedPathname } from "@/lib/i18n";
 import { getPublicCatalogAuthorBioExcerpt } from "@/lib/publicCatalogAuthor";
@@ -14,6 +15,7 @@ import {
   PUBLIC_CATALOG_AUTHORS_ROUTE_PATHNAME,
   PUBLIC_CATALOG_ROUTE_PATHNAME,
 } from "@/lib/publicCatalogUrls";
+import { createPublicCatalogAuthorsJsonLd } from "@/lib/seo/publicCatalogStructuredData";
 import styles from "@/app/catalog/destinations.module.css";
 
 interface PublicCatalogAuthorsPageViewProps {
@@ -31,6 +33,7 @@ export function PublicCatalogAuthorsPageView({
 
   return (
     <SiteFrame locale={locale} routePathname={PUBLIC_CATALOG_AUTHORS_ROUTE_PATHNAME}>
+      <StructuredDataScript value={createPublicCatalogAuthorsJsonLd(catalog, locale)} />
       <div className={styles.container}>
         <header className={styles.panel}>
           <Breadcrumbs
