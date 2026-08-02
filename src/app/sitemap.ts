@@ -31,6 +31,8 @@ import {
   getFileLastModified,
   getNewestDirectoryFileLastModified,
 } from "@/lib/sitemap/getLastModified";
+import { readPublicCatalog } from "@/lib/publicCatalogData";
+import { createPublicCatalogSitemapEntries } from "@/lib/publicCatalogSitemap";
 
 const DEFAULT_ROUTES_DIR = join(process.cwd(), "src/app", "(default)");
 
@@ -196,10 +198,15 @@ function getBlogEntries(): MetadataRoute.Sitemap {
 }
 
 export default function sitemap(): MetadataRoute.Sitemap {
+  const publicCatalog = readPublicCatalog();
+
   return [
     ...getMarketingEntries(),
     ...getDashboardsEntries(),
     ...getDocsEntries(),
     ...getBlogEntries(),
+    ...(publicCatalog === null
+      ? []
+      : createPublicCatalogSitemapEntries(publicCatalog)),
   ];
 }

@@ -5,13 +5,11 @@ import {
   listPublicCatalogCollectionSlugs,
   readPublicCatalog,
 } from "@/lib/publicCatalogData";
-import { getPublicCatalogDestinationCopy } from "@/lib/publicCatalogDestinationCopy";
 import {
   getPublicCatalogCollectionBySlug,
   getPublicCatalogPackagesByCollectionSlug,
 } from "@/lib/publicCatalogReadModel";
-import { getPublicCatalogCollectionRoutePathname } from "@/lib/publicCatalogUrls";
-import { createPublicCatalogMetadata } from "@/lib/seo/createPublicCatalogMetadata";
+import { createPublicCatalogCollectionMetadata } from "@/lib/seo/createPublicCatalogMetadata";
 
 const locale = "en" as const;
 
@@ -36,16 +34,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     notFound();
   }
 
-  const copy = getPublicCatalogDestinationCopy(locale);
-
-  return createPublicCatalogMetadata({
-    description: collection.summary === "" ? copy.collectionsIntro : collection.summary,
-    locale,
-    publishedTime: collection.publishedAt,
-    routePathname: getPublicCatalogCollectionRoutePathname(collectionSlug),
-    title: collection.title,
-    type: "article",
-  });
+  return createPublicCatalogCollectionMetadata(locale, collection);
 }
 
 export default async function PublicCatalogCollectionPage({
