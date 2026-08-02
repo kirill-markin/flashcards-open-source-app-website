@@ -1,238 +1,199 @@
 ---
-title: "2026 में Claude से पढ़ाई कैसे करें: Learning Mode, Projects, और ऐसे फ़्लैशकार्ड्स जो सच में याद रहें"
-description: "2026 के लिए Claude के साथ पढ़ाई का एक व्यावहारिक तरीका: Learning Mode या Project के अंदर tutor-style prompting का उपयोग करें, फिर सिर्फ़ असली weak spots को FSRS फ़्लैशकार्ड्स में बदलें जिन्हें आप अगले हफ़्ते भी याद रख सकें।"
+title: "2026 में Claude से पढ़ाई कैसे करें: ट्यूटर से फ़्लैशकार्ड्स तक का तरीका"
+description: "Claude को ट्यूटर की तरह इस्तेमाल करें, अपनी असली कमज़ोरियाँ पहचानें, चुने हुए फ़्लैशकार्ड MCP के ज़रिए Flashcards में सेव करें और बाद में FSRS के साथ दोहराएँ।"
 date: "2026-05-28"
 image: "/blog/how-to-use-claude-for-studying.png"
 keywords:
   - "Claude से पढ़ाई कैसे करें"
+  - "पढ़ाई के लिए Claude"
   - "Claude के साथ पढ़ाई"
-  - "Claude पढ़ाई workflow"
+  - "Claude study workflow"
+  - "Claude ट्यूटर"
+  - "Claude MCP फ़्लैशकार्ड्स"
+  - "Claude custom connector फ़्लैशकार्ड्स"
+  - "Claude Code फ़्लैशकार्ड्स"
   - "Claude Learning Mode"
-  - "Claude Learning Mode फ़्लैशकार्ड्स"
-  - "Claude Projects से पढ़ाई"
-  - "Claude notes को फ़्लैशकार्ड्स में बदलना"
-  - "FSRS फ़्लैशकार्ड्स"
 ---
 
-पिछले हफ़्ते Claude ने करीब छह मिनट में मेरी statistics की एक problem का जाल सुलझा दिया। अगली सुबह मैंने वही setup कागज़ पर फिर गलत कर दिया। वही हिस्सा काम का reminder था।
+आपने meiosis को दो बार समझाया, फिर भी Claude ने पकड़ लिया कि आप उसे mitosis से मिला रहे हैं। अच्छी बात है। यह गलती एक और चमकदार सारांश से कहीं ज़्यादा काम की है।
 
-लोग **Claude से पढ़ाई कैसे करें** इसलिए खोजते रहते हैं क्योंकि explanation वाला हिस्सा अब bottleneck नहीं रहा। Claude उसमें अच्छा है। मुश्किल हिस्सा यह है कि chat window बंद होने के बाद उस session की कौन-सी चीज़ आपके साथ बनी रहती है।
+**Claude से पढ़ाई** करने का सबसे अच्छा तरीका ऐसे पलों को एक छोटे-से अभ्यास में बदलना है: Claude से सवाल पूछवाएँ, याद रखने लायक कमज़ोरियाँ खुद चुनें, उन पर कुछ साफ़ फ़्लैशकार्ड सेव करें और बाद में उन्हें Flashcards में दोहराएँ। Claude बातचीत संभालता है। Flashcards कार्ड सहेजता है और FSRS की मदद से तय करता है कि वे दोबारा कब सामने आएँगे।
 
-2026 में जिस workflow पर मुझे भरोसा है, वह इतना सीधा है कि दोहराया जा सके: Claude से explanation लो, उससे सवाल पूछवाओ, weak spots पकड़ो, फिर सिर्फ़ काम की चीज़ों को decks, tags, और FSRS review वाले असली flashcard system में ले जाओ। यहीं बहुत-से AI study setups चुपचाप टूट जाते हैं।
+Flashcards MCP connector से कार्ड को कॉपी-पेस्ट किए बिना बातचीत से सीधे अपने डेक में भेजा जा सकता है। MCP बस एक कड़ी है, जिसके ज़रिए Claude किसी दूसरे ऐप में वही काम कर सकता है जिनकी आपने अनुमति दी है। बदलाव करने वाले हर काम के लिए मंज़ूरी ज़रूरी रखें, ताकि Claude आपके कार्ड बदलने से पहले पूछे।
 
-![Claude अध्ययन सत्र की कमजोरियों को फ्लैशकार्ड में बदलती गर्मजोशी भरा डेस्क दृश्य](/blog/how-to-use-claude-for-studying.png)
+![Claude के साथ पढ़ाई के नोट्स से कमज़ोरियों पर फ़्लैशकार्ड बनाते हुए छात्र की मेज़](/blog/how-to-use-claude-for-studying.png)
 
-## 2 अप्रैल 2025 के बाद Claude पढ़ाई के लिए ज़्यादा काम का हो गया
+## Claude से पढ़ाई का वह तरीका जिसे मैं सच में अपनाऊँगा
 
-Anthropic ने **2 अप्रैल 2025** को **Claude for Education** पेश किया और **Learning Mode** को ऐसे tutor-style अनुभव की तरह बताया जो सीधे answer पर कूदने के बजाय reasoning को guide करता है। Anthropic ने यह भी कहा कि Learning Mode, Projects के अंदर काम करता है। यह इसलिए मायने रखता है क्योंकि Projects study session को कोई असली home देते हैं, random chats में बिखेरते नहीं।
+बातचीत बढ़िया चल रही हो तो आसानी से लगता है कि सब समझ आ गया। जवाब सामने से हटे और दस मिनट बीते नहीं कि बारीकियाँ गायब।
 
-Projects वाला layer अब और practical दिखता है। Anthropic के Projects help page, जिसे **16 मार्च 2026** को update किया गया था, के मुताबिक Projects सभी Claude users के लिए available हैं, free accounts समेत, हालांकि free users को पाँच projects तक limit किया गया है।
+मैं इसके बजाय यह तरीका अपनाता हूँ:
 
-इससे **Claude के साथ पढ़ाई** का shape एक साल पहले की तुलना में काफ़ी साफ़ हो जाता है:
+1. Claude को एक छोटा विषय और उसके लिए ज़रूरी पढ़ाई की सामग्री दें।
+2. उससे एक बार में एक ही सवाल पूछने को कहें।
+3. कोई समझाया हुआ जवाब पढ़ने से पहले याद से उत्तर दें।
+4. अपनी गलतियाँ, देर से दिए जवाब और बार-बार गड्डमड्ड होने वाले विचार लिख लें।
+5. उनमें से कुछ कमज़ोरियाँ चुनें और बनने वाले कार्ड पहले देख लें।
+6. जिन कार्ड को रखना है उन्हें मंज़ूरी दें, फिर बाद में Flashcards में दोहराएँ।
 
-- एक Project एक class, एक exam, या एक topic का context संभाल सकता है
-- Claude आपकी जल्दबाज़ी में लिखी summary पर नहीं, uploaded material पर भी काम कर सकता है
-- जहाँ Learning Mode available हो, वहाँ Claude आपको answer passively पढ़ाने के बजाय reasoning करने पर push कर सकता है
+मान लीजिए Claude पूछता है कि meiosis के anaphase I में क्या अलग होता है। आप कहते हैं, "sister chromatids।" Claude बताता है कि पहले homologous chromosomes (समजात गुणसूत्र) अलग होते हैं और आपसे दोनों का फर्क फिर समझाने को कहता है। इसी उलझन पर कार्ड बनना चाहिए। सही जवाब तक पहुँचाने के लिए Claude ने जो तीन पैराग्राफ लिखे, शायद उन पर नहीं।
 
-एक ज़रूरी सीमा भी है: Learning Mode, Claude के हर सामान्य behavior जैसा नहीं है। अगर आपके plan या institution में यह mode नहीं है, तब भी आप Project के अंदर prompt के ज़रिए यही tutoring pattern काफ़ी हद तक copy कर सकते हैं। बस prompt और product feature को एक ही चीज़ मानने का दिखावा नहीं करना चाहिए।
+इस तरह आपका डेक इस बात पर बनता है कि याद से जवाब देते समय आप सच में कहाँ अटके। आप पूरी बातचीत नहीं सहेज रहे; सिर्फ़ वही बचा रहे हैं जो अभ्यास के दौरान टूट गया था।
 
-फिर भी यहाँ इतना है कि आप एक मज़बूत **Claude study workflow** बना सकते हैं, बिना यह माने कि study chat ही memory system है।
+## पहले Claude को अपना ट्यूटर बनाइए
 
-## हर class, exam, या topic के लिए एक Project से शुरू करें
+[Anthropic का Learning mode](https://www.anthropic.com/news/introducing-claude-for-education) छात्रों को तुरंत जवाब बताने के बजाय सवालों के सहारे आगे बढ़ाता है। अगर यह आपके Claude अकाउंट में उपलब्ध है, तो इस तरीके के साथ अच्छी तरह काम करता है।
 
-मैं सबसे पहले यही habit रखूँगा, क्योंकि इसके बाद लगभग हर चीज़ बेहतर होती है।
+सामान्य Claude चैट भी ठीक है। शुरुआत ऐसे प्रॉम्प्ट से करें:
 
-हर subject को एक ही giant Claude workspace में मत फेंकिए। एक Project, एक course के लिए। या एक exam के लिए। या एक tightly scoped topic के लिए। इससे context साफ़ रहता है, follow-up questions sharper होते हैं, और बाद की review बहुत कम chaotic लगती है।
+```text
+मुझे यह विषय एक ट्यूटर की तरह पढ़ाओ। एक बार में एक सवाल पूछो और मेरे
+जवाब का इंतज़ार करो। पूरा जवाब बहुत जल्दी मत बताना। जब मैं गलती करूँ, तो
+ठीक-ठीक बताओ कि मुझसे क्या छूटा और समझाने से पहले मुझे एक बार फिर कोशिश
+करने को कहो। असली कमज़ोरियों की छोटी सूची रखो, लेकिन अभी flashcards मत बनाओ।
+```
 
-**Claude Projects से पढ़ाई** के लिए मैं सिर्फ़ वही material upload करूँगा जो Claude को बेहतर सवाल पूछने या सही स्तर पर समझाने में मदद करे:
+जिस सामग्री से आप पढ़ रहे हैं, वह भी जोड़ें: लेक्चर नोट्स, कोई छोटा पाठ, सुधारे हुए अभ्यास प्रश्न या कुछ स्लाइड। मैं हर सेशन को एक chapter या आपस में जुड़े विचारों के छोटे समूह तक रखूँगा। इससे Claude की बात जाँचना आसान रहता है और बने हुए कार्ड बाद में अकेले भी समझ आते हैं।
 
-- आपकी अपनी lecture notes
-- syllabus या exam outline
-- छोटा study guide
-- corrected practice questions
-- एक बार में एक chapter, slide deck, या reading section
+किसी लंबे course के लिए Claude Project उसकी चैट, पढ़ाई की सामग्री और instructions को एक जगह रख सकता है। Anthropic की [Projects guide](https://support.claude.com/en/articles/9517075-what-are-projects) बताती है कि यह कैसे काम करता है। अगर आप किसी लंबे दस्तावेज़ से शुरू कर रहे हैं, तो [PDF से फ़्लैशकार्ड्स बनाने का तरीका](/hi/blog/how-to-turn-a-pdf-into-flashcards/) उस काम को ज़्यादा विस्तार से समझाता है।
 
-मैं सिर्फ़ इसलिए पूरे semester का material day one पर Project में नहीं डालूँगा कि upload box मौजूद है।
+## पूरी चैट नहीं, अपनी कमज़ोरियाँ सेव करें
 
-कारण boring है, लेकिन ज़रूरी। Study Project का काम यह है कि Claude समझे कि आप अभी किस चीज़ पर काम कर रहे हैं। उसे जनवरी से छुई हर PDF का landfill नहीं बनना चाहिए।
+दस या पंद्रह मिनट सवालों के जवाब देने के बाद Claude से उसके नोट्स दिखाने को कहें:
 
-अगर आपका source material chat notes नहीं, documents से शुरू होता है, तो ये companion workflows यहाँ अच्छी तरह fit बैठते हैं:
+```text
+इस session में सामने आई मेरी कमज़ोरियाँ दिखाओ। सिर्फ़ वे ideas शामिल करो
+जिनका जवाब मैंने गलत दिया, धीरे दिया या जिन्हें एक से ज़्यादा बार आपस में मिलाया।
+हर idea के लिए एक sentence में बताओ कि उस पर flashcard क्यों बनना चाहिए।
+अभी कुछ भी save मत करना।
+```
 
-- [2026 में PDF को फ़्लैशकार्ड्स में कैसे बदलें](/hi/blog/how-to-turn-a-pdf-into-flashcards/)
-- [2026 में स्टडी गाइड को फ़्लैशकार्ड्स में कैसे बदलें](/hi/blog/how-to-turn-a-study-guide-into-flashcards/)
-- [2026 में practice questions को फ़्लैशकार्ड्स में कैसे बदलें](/hi/blog/how-to-turn-practice-questions-into-flashcards/)
+सबसे अच्छे उम्मीदवार आम तौर पर छोटे होते हैं:
 
-## Claude को summary machine से ज़्यादा tutor की तरह इस्तेमाल करें
+- कोई परिभाषा जो आप याद से नहीं बता पाए
+- दो मिलते-जुलते विचार जिन्हें आपने उलट दिया
+- कोई चरण जिसे आप बार-बार छोड़ गए
+- कोई सूत्र जो याद था, लेकिन आपने गलत तरह से लगाया
+- कोई अपवाद जिसने जवाब बदल दिया
 
-यहीं **Claude के साथ पढ़ाई** जल्दी बेहतर होती है।
+शुरुआत के आसान सवाल, तुरंत याद आ गए तथ्य और "cellular respiration समझाइए" जैसे बहुत बड़े प्रॉम्प्ट छोड़ दें। FSRS किसी कार्ड को सही समय पर दिखा सकता है, लेकिन बेकार कार्ड को आपके समय के लायक नहीं बना सकता।
 
-अगर आपके पास **Claude Learning Mode** का access है, तो उसका उपयोग करें। Anthropic उसे tutor-style workflow की तरह पेश करता है, और वजह भी है। Claude तब ज़्यादा काम का होता है जब वह polished answer देने से पहले आपसे explain, compare, predict, या अगला step solve करवाता रहे।
+## चुनी हुई कमज़ोरियों को फ़्लैशकार्ड्स में बदलें
 
-अगर आपके पास Learning Mode का access नहीं है, तब भी आप Project के अंदर एक plain prompt से उसी behavior का बड़ा हिस्सा पा सकते हैं:
+Flashcards connector चालू होने के बाद विकल्प खुद चुनें और Claude से उनका मसौदा बनवाएँ:
 
-> इसे tutor की तरह पढ़ाओ। एक बार में एक सवाल पूछो। पूरा answer बहुत जल्दी मत दो। अगर मैं कुछ miss करूँ, तो ठीक-ठीक बताओ कि क्या miss हुआ और पूरी explanation देने से पहले मुझे फिर कोशिश करने दो।
+```text
+सूची के 2, 4 और 5 नंबर वाले कमज़ोर हिस्सों से Flashcards के लिए cards बनाओ।
 
-यह छोटा-सा बदलाव पूरे session का tone बदल देता है। Claude तेज़ explainer से practice partner के थोड़ा क़रीब आ जाता है।
+हर card में सिर्फ़ एक चीज़ याद करने के लिए रखो। हर front साफ़ और सटीक हो,
+और हर back छोटा हो। सिर्फ़ वही जानकारी इस्तेमाल करो जिसका आधार इसी बातचीत
+की सामग्री में हो। कुछ भी लिखने से पहले प्रस्तावित fronts, backs और वह deck
+दिखाओ जिसमें cards जाएँगे। मेरी मंज़ूरी के बाद Flashcards connector के ज़रिए
+cards बनाओ और save हुए cards मुझे दोबारा पढ़कर दिखाओ।
+```
 
-मुझे Claude से शुरुआत में neat summary नहीं चाहिए। मुझे चाहिए कि वह यह expose करे:
+कार्ड पहले देख लेने से अस्पष्ट सवाल, बेवजह लंबे जवाब और भरोसे से लिखी गई गलतियाँ डेक में पहुँचने से पहले पकड़ में आ जाती हैं। अच्छा कार्ड कल भी अपने आप समझ आना चाहिए, जब उसके पास Claude वाली बातचीत खुली न हो।
 
-- क्या मैं साफ़ तौर पर recall नहीं कर पा रहा
-- किन ideas को मैं आसपास की चीज़ों से मिला रहा हूँ
-- क्या मैं recognize तो कर लेता हूँ, लेकिन खुद produce नहीं कर पाता
-- क्या सिर्फ़ Claude के कहने के बाद obvious लगता है
+और उदाहरणों के लिए [बेहतर फ़्लैशकार्ड्स कैसे बनाएं](/hi/blog/how-to-make-better-flashcards/) पढ़ें। अगर हर सेशन से किसी तरह पचास "ज़रूरी" कार्ड निकल रहे हैं, तो लंबे प्रॉम्प्ट के मुकाबले [AI फ़्लैशकार्ड्स की भरमार से कैसे बचें](/hi/blog/how-to-avoid-ai-flashcard-overload/) ज़्यादा मदद करेगा।
 
-**Claude Learning Mode** का काम का हिस्सा यही है। Value pleasant conversation में नहीं है। Value उस evidence में है कि आपकी understanding कहाँ टूट रही है।
+## वेब पर Claude को Flashcards से जोड़ें
 
-## Transcript खुद goal नहीं है
+ज़्यादातर छात्रों के लिए ब्राउज़र में Claude से शुरुआत करना सबसे आसान है। इस URL के साथ Flashcards को custom connector की तरह जोड़ें:
 
-यहीं बहुत-से **Claude notes to flashcards** workflows पटरी से उतरते हैं।
+```text
+https://mcp.flashcards-open-source-app.com/mcp
+```
 
-लोग एक helpful session खत्म करते हैं, पूरी conversation copy करते हैं, और किसी दूसरे tool से कहते हैं कि सबको cards में बदल दो। फिर उनके पास filler से भरा deck आ जाता है:
+Claude की connector settings खोलें, **Add custom connector** चुनें, URL पेस्ट करें और connect करें। ब्राउज़र में खुली window आपसे Flashcards में sign in करने और OAuth के ज़रिए access की मंज़ूरी देने को कहेगी। Claude में API key पेस्ट करने की ज़रूरत नहीं है। इसके बाद जिस चैट में पढ़ाई करनी है, उसमें connector चालू करें।
 
-- warm-up explanations
-- repeated hints
-- partial answers
-- ऐसे examples जो उस पल में मददगार थे, लेकिन store करने लायक नहीं
-- polished recap paragraphs जिनकी review बहुत खराब होती है
+Anthropic की [custom connector instructions](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp) menu का मौजूदा रास्ता दिखाती हैं। स्कूल के Team या Enterprise workspace में connector को पहले owner से जुड़वाना पड़ सकता है।
 
-मैं Claude sessions को transcript export की तरह नहीं, weak-spot mining की तरह देखता हूँ।
+[Flashcards MCP की step-by-step guide](/hi/blog/how-to-connect-flashcards-to-claude-with-mcp/) में connector की screens और पहला test card शामिल है। अगर आप अभी setup कर रहे हैं, तो वह guide इस्तेमाल करें; इस लेख का बाकी हिस्सा पढ़ाई पर ही है।
 
-Session के अंत में मुझे ऐसी छोटी list चाहिए:
+## Claude Code के लिए MCP setup अलग है
 
-- miss की हुई definition
-- गड़बड़ comparison
-- formula setup जिसे मैं दोबारा बना नहीं पाया
-- वह step जिसे मैं छोड़ गया
-- वह trap जिसमें मैं दो बार फँसा
+जब आपकी पढ़ाई की सामग्री पहले से Markdown नोट्स, code या तकनीकी दस्तावेज़ों वाले किसी folder में हो, तब Claude Code काम आता है। Terminal से वही remote Flashcards server जोड़ें:
 
-बाद में भी review करने लायक **Claude Learning Mode फ़्लैशकार्ड्स** की असली raw material यही है।
+```bash
+claude mcp add --transport http flashcards https://mcp.flashcards-open-source-app.com/mcp
+```
 
-## एक card, एक weak spot वाला नियम अब भी जीतता है
+फिर Claude Code में `/mcp` चलाएँ, Flashcards server चुनें और ब्राउज़र में OAuth login पूरा करें। Anthropic ने यह तरीका [Connect Claude Code to tools via MCP](https://code.claude.com/docs/en/mcp) में दर्ज किया है।
 
-Tools बदल गए हैं। Card rules मुश्किल से बदले हैं।
+Claude web पर connector जोड़ने से आपके computer पर Claude Code अपने आप configure नहीं होता। दोनों एक ही Flashcards endpoint तक पहुँचते हैं, लेकिन दोनों का setup और credentials रखने की जगह अलग होती है।
 
-Claude से निकला अच्छा flashcard आम तौर पर एक सीधी चीज़ ठीक से करता है:
+अगर आप ऐसी headless machine या automated terminal session पर हैं जहाँ ब्राउज़र से login करना आसान नहीं है, तो Flashcards लंबे समय तक चलने वाली `fca_` agent key को Bearer token की तरह भी स्वीकार करता है:
 
-- front पर एक साफ़ prompt
-- back पर एक direct answer
-- इतना context कि बाद में अपने आप समझ आ जाए
-- पूरे chat को फिर से पढ़ने की dependence नहीं
+```bash
+claude mcp add --transport http \
+  flashcards https://mcp.flashcards-open-source-app.com/mcp \
+  --header "Authorization: Bearer ${FLASHCARDS_MCP_TOKEN}"
+```
 
-इसीलिए मैं एक Claude tutoring session को बीस ambitious mini-lessons में नहीं बदलूँगा। मैं छह ऐसे cards रखना पसंद करूँगा जो छह असली misses को target करें।
+Key को अपने environment या secret manager के ज़रिए `FLASHCARDS_MCP_TOKEN` में रखें। इसे password की तरह संभालें: prompts, screenshots, shell history और version control से दूर रखें। [API reference](/hi/docs/api/) बताता है कि agent key कैसे मिलती है। सामान्य interactive session में OAuth इस्तेमाल करें।
 
-खराब versions आम तौर पर ऐसे सुनाई देते हैं:
+## जाँचें कि Claude क्या पढ़ और बदल सकता है
 
-- इस topic को explain करो
-- इस chapter को summarize करो
-- यहाँ key ideas क्या हैं
-- पूरी method समझाकर चलो
+Connector तीन tools देता है। इन्हें इस्तेमाल करने के लिए SQL समझना ज़रूरी नहीं है, लेकिन कौन-सा tool सिर्फ़ पढ़ता है और कौन-सा बदलाव करता है, यह जानना काम का है:
 
-ये review prompts नहीं, notes prompts हैं।
+| Tool | यह क्या करता है | क्या data बदलता है? |
+| --- | --- | --- |
+| `list_workspaces` | वे Flashcards workspaces दिखाता है जिन तक आपके account की पहुँच है | नहीं |
+| `sql_query` | आपकी पहुँच वाले workspace, card, deck और review data को पढ़ता है | नहीं |
+| `sql_execute` | cards और decks बनाता, edit करता, move करता या delete करता है | हाँ |
 
-अगर आप card-writing rules का ज़्यादा strict version चाहते हैं, तो [2026 में बेहतर फ़्लैशकार्ड्स कैसे बनाएं](/hi/blog/how-to-make-better-flashcards/) उसका सीधा companion है। और अगर AI-generated decks पहले से bloated लग रहे हैं, तो [2026 में AI फ़्लैशकार्ड overload से कैसे बचें](/hi/blog/how-to-avoid-ai-flashcard-overload/) अगला सही लेख है।
+पहले दो tools केवल data पढ़ते हैं। `sql_execute` ही data बदल सकता है। Claude web में मैं इसे **Needs approval** पर रखता हूँ और हर बदलाव की मंज़ूरी देने से पहले workspace, cards, decks और प्रस्तावित बदलाव जाँचता हूँ। एक साथ बहुत कुछ मिटाने की माँग को खास ध्यान से देखें।
 
-## वह workflow जिसे मैं सच में दोहराऊँगा
+Server इन tools को आपकी पहुँच वाले workspace और Flashcards के तय data तक सीमित रखता है। Claude इनके ज़रिए पूरे database को मनमाने ढंग से इस्तेमाल नहीं कर सकता। [Flashcards MCP documentation](/hi/docs/mcp-connector/) में मौजूदा authentication details और tools का contract दिया गया है।
 
-**Claude से पढ़ाई कैसे करें** का सबसे अच्छा routine इतना छोटा होना चाहिए कि novelty उतरने के बाद भी आप उसे करते रहें।
+एक बात आसानी से छूट सकती है: Flashcards अभी पूरे connector को एक साथ अनुमति देता है; अलग read-only और read-write OAuth grants नहीं देता। Write tool के लिए मंज़ूरी माँगना या उसे block करना Claude की setting है। Flashcards server अलग से यह पक्का करता है कि उसके दोनों read tools data नहीं बदल सकते।
 
-मैं यही version रखूँगा:
+Connector जोड़ने का यह मतलब भी है कि tools के ज़रिए माँगा गया card text Claude को काम करने के लिए भेजा जा सकता है। ऐसी पढ़ाई की सामग्री न जोड़ें जिसे उस service के साथ साझा करने की अनुमति आपके पास नहीं है। [क्या MCP फ़्लैशकार्ड्स के लिए सुरक्षित है?](/hi/blog/is-mcp-safe-for-flashcards/) बताता है कि data कहाँ जाता है, लिखने और मिटाने में क्या जोखिम हैं और backups कैसे काम करते हैं।
 
-1. एक class, exam, या topic के लिए एक Claude Project बनाइए।
-2. उसी topic से जुड़ी notes, slides, readings, या corrected questions ही upload कीजिए।
-3. Claude से tutor mode में पढ़ाने को कहिए, और अगर account में हो तो Learning Mode का उपयोग कीजिए।
-4. जवाब देते समय एक tiny weak-spot list बनाए रखिए।
-5. अंत में Claude से सिर्फ़ उन्हीं weak spots को plain front/back card candidates में बदलने को कहिए।
-6. जो भी vague हो, उसे तुरंत delete या rewrite कीजिए।
-7. बचे हुए cards को अपनी flashcards app में ले जाकर FSRS के साथ review कीजिए।
+## Claude कार्ड और डेक भी सँभाल सकता है
 
-चौथा step लोगों की उम्मीद से ज़्यादा मायने रखता है। अगर misses होते समय आप उन्हें लिखते नहीं, तो chat productive लगेगी और फिर भी आप भूल जाएँगे कि सच में किस चीज़ ने आपको रोका था।
+पहला कार्ड सेव होने के बाद भी connector काम आता है। Claude आपकी अनुमति वाला card और deck data देख सकता है, फिर आपकी मंज़ूरी के बाद cards और decks बना सकता है, उनमें बदलाव कर सकता है, उन्हें दूसरी जगह ले जा सकता है, दोबारा व्यवस्थित कर सकता है या मिटा सकता है।
 
-मैं candidate cards के लिए कुछ ऐसा format माँगूँगा:
+आप यह कह सकते हैं:
 
-> सिर्फ़ इन weak spots को flashcards में बदलो। एक card पर एक concept। Front छोटा। Back direct। कोई filler नहीं। कोई invented facts नहीं। जिस चीज़ का answer अब भी paragraph माँगता हो, उसे छोड़ दो।
+```text
+मेरे "कोशिका जीवविज्ञान" deck में mitosis वाले cards दिखाओ। उन्हें edit मत करना।
+एक जैसे cards और एक से ज़्यादा idea जाँचने वाले cards को चिह्नित करो।
+```
 
-यह पूरे session को dump करके "इससे flashcards बना दो" कहने से कहीं बेहतर काम करता है।
+फिर अपने मनचाहे बदलाव चुनें:
 
-## Flashcards retention layer है, कोई fake Claude integration नहीं
+```text
+मेरे मंज़ूर किए हुए तीन cards को "कोशिका विभाजन" deck में move करो। Move के
+बाद उन्हें दोबारा पढ़कर दिखाओ, ताकि मैं नतीजा जाँच सकूँ।
+```
 
-यह हिस्सा ईमानदार रहना चाहिए, क्योंकि यहीं बहुत-सा AI-study copy slippery हो जाता है।
+किसी कार्ड को दोबारा लिखवाना हो तो उसे बदलने से पहले Claude से नया front और back दिखाने को कहें। बड़े पैमाने पर सफ़ाई की शुरुआत सिर्फ़ पढ़कर की जाने वाली जाँच से करें और हर मंज़ूरी को कार्ड के छोटे, तय समूह तक रखें। इससे गलती पूरे डेक में फैलने से पहले पकड़ना आसान होता है।
 
-यहाँ कोई special Claude-to-Flashcards button नहीं है, और मैं ऐसा दिखावा नहीं करूँगा। Handoff कहीं simpler है: काम के weak spots copy कीजिए, उन्हें साफ़ कीजिए, और final cards को conversation के बजाय review के लिए बने system में रखिए।
+## असली FSRS review Flashcards में करें
 
-यहीं [Flashcards](/hi/) अच्छी तरह fit बैठता है:
+Claude उन card और review data को पढ़ सकता है जिन्हें देखने की आपने अनुमति दी है, लेकिन यह connector उसे कोई आधिकारिक review दर्ज करने, आपकी Again, Hard, Good या Easy rating चुनने या FSRS schedule बदलने नहीं देता। Connector के ज़रिए review history और scheduling data सिर्फ़ पढ़े जा सकते हैं।
 
-- front/back card creation और editing
-- course, exam, या weak-spot type के हिसाब से organize करने के लिए decks और tags
-- long-term review के लिए FSRS scheduling
-- rough notes या card drafts को साफ़ करने में मदद के लिए file attachments के साथ AI chat
-- अगर आप जल्दी शुरू करना चाहते हैं, तो hosted web app
+Claude के कार्ड बनाने के बाद उन्हें दोहराने के लिए [Flashcards web app](https://app.flashcards-open-source-app.com/) या mobile app खोलें। आपकी ratings वहीं दर्ज होती हैं और FSRS उन्हीं से तय करता है कि हर कार्ड दोबारा कब दिखना चाहिए।
 
-अगर आप पहले product overview देखना चाहते हैं, तो [फ़ीचर्स पेज](/hi/features/) उसका तेज़ version है। अगर आप hosted app से तुरंत शुरू करना चाहते हैं, तो [Getting Started](/hi/docs/getting-started/) सबसे सीधा path दिखाता है।
+आप चाहें तो Claude से कार्ड के किसी छोटे समूह पर बातचीत के अंदाज़ में quiz भी ले सकते हैं। [AI flashcard tutor guide](/hi/blog/ai-flashcard-tutor-due-cards/) में वह तरीका दिया गया है। उसके बाद तय review Flashcards में पूरा करें और वहीं rating दें, ताकि आपकी प्रगति सही दर्ज हो।
 
-काम की बात division of labor है:
+## चाहें तो कार्ड हाथ से copy करें
 
-- Claude explain करता है, सवाल पूछता है, और misses पकड़ता है
-- Flashcards उस material को store, organize, edit, और schedule करता है जिसे रखना वाकई लायक है
+शायद आप Claude को अपने सेव किए हुए डेक तक पहुँच न देना चाहें, खासकर जब सामग्री निजी हो। पढ़ाई का यह तरीका connector के बिना भी काम करता है।
 
-यह setup उससे कहीं ज़्यादा टिकाऊ है जहाँ आप उम्मीद करते हैं कि एक chat thread tutor, notebook, flashcard deck, और review scheduler सब कुछ एक साथ बन जाए।
+Claude से कार्ड के सीधे-सादे विकल्प माँगें:
 
-## Claude में क्या upload करें, और Flashcards के लिए क्या बचाकर रखें
+```text
+सिर्फ़ चुनी हुई कमज़ोरियों को front/back flashcards में बदलो। हर card में
+याद रखने के लिए सिर्फ़ एक बात रखो। Front साफ़ और back छोटा रखो। कोई fact मत गढ़ो।
+हर card को अलग block में रखो, ताकि मैं उसे जाँचकर हाथ से copy कर सकूँ।
+```
 
-मैं source-heavy काम के लिए Claude और memory-heavy काम के लिए Flashcards का उपयोग करता हूँ।
+Claude में कमज़ोर विकल्प हटा दें, फिर बचे हुए कार्ड खुद Flashcards में copy करें। इसमें हाथ से एक छोटा कदम और करना पड़ता है, लेकिन बातचीत से क्या बाहर जाता है और डेक में क्या पहुँचता है, उस पर पूरा नियंत्रण आपका रहता है।
 
-Claude मज़बूत है जब आप यह करना चाहते हैं:
+## Claude के साथ पढ़ाई का अच्छा session छोटा भी हो सकता है
 
-- किसी confusing explanation को simplify करना
-- दो similar concepts की तुलना करना
-- messy notes को साफ़ structure में बदलना
-- uploaded material से कुछ follow-up questions बनवाना
-- देखना कि कौन-सी mistakes बार-बार दोहर रही हैं
+आपको ऐसा एक प्रॉम्प्ट नहीं चाहिए जो पूरे semester को एक बार में 800 कार्ड में बदल दे। **Claude से पढ़ाई का बेहतर तरीका** lecture या अभ्यास के बाद आसानी से पूरा हो जाता है: कुछ सवालों के जवाब दें, जहाँ याद से जवाब नहीं आया उसे पकड़ें, तीन या चार काम के कार्ड सेव करें और आगे बढ़ें।
 
-Flashcards ज़्यादा मज़बूत है जब आप यह चाहते हैं:
-
-- final card wording stable रहे
-- cards को decks और tags में group किया जाए
-- उसी chat को फिर से खोलने के बजाय due material review हो
-- FSRS तय करे कि card कब वापस आना चाहिए
-
-यह split workflow को theatrical होने से बचाता है। आप अच्छी AI conversation को memory system समझने की गलती कम करते हैं।
-
-अगर आपका study source ज़्यादातर आपकी अपनी notes हैं, तो [2026 में notes को फ़्लैशकार्ड्स में कैसे बदलें](/hi/blog/turn-notes-into-flashcards/) इस handoff को और गहराई से समझाता है। अगर आपको Claude से आगे वाला broader AI study picture चाहिए, तो [2026 में AI से पढ़ाई कैसे करें](/hi/blog/how-to-use-ai-to-study/) बड़ा workflow कवर करता है।
-
-## सबसे आम गलती है बहुत ज़्यादा save कर लेना
-
-Claude आपको productive महसूस कराना बहुत आसान बना देता है।
-
-आप notes upload करते हैं। Claude chapter समझाता है। कुछ decent questions पूछता है। आपकी outline rewrite करता है। एक neat recap भी दे देता है। फिर temptation आती है: सब कुछ रख लो।
-
-यहीं backlog शुरू होता है।
-
-मैं जो rule रखता हूँ, वह सीधा है:
-
-- misses save करो
-- slow answers save करो
-- repeated confusions save करो
-- हर useful sentence save मत करो
-
-यह इसलिए मायने रखता है क्योंकि FSRS काम के cards को बहुत अच्छी तरह schedule करता है। वह mediocre cards को सस्ता नहीं बनाता।
-
-अगर आपको पहले से लग रहा है कि deck बहुत बड़ा हो रहा है, तो [2026 में रोज़ कितने नए फ़्लैशकार्ड जोड़ें](/hi/blog/how-many-new-flashcards-per-day/) और [2026 में पीछे छूट जाने के बाद Flashcards में फिर से कैसे पकड़ बनाएं](/hi/blog/how-to-catch-up-on-flashcards-after-falling-behind/) इसके बाद पढ़ने लायक सबसे natural articles हैं।
-
-## Claude सोचने में मदद करता है। Flashcards याद रखने में बेहतर है।
-
-पूरे विषय को frame करने का मेरे लिए सबसे साफ़ तरीका यही है।
-
-2026 में Claude पढ़ाई में सच में मदद कर सकता है। वह किसी concept को दूसरे angle से समझा सकता है, uploaded material पर काम कर सकता है, static note page की तुलना में बेहतर सवाल पूछ सकता है, और साफ़ दिखा सकता है कि आपकी understanding कहाँ अब भी soft है।
-
-जो वह अपने आप नहीं करता, वह है एक शांत long-term review loop बनाना।
-
-इसीलिए **Claude के साथ पढ़ाई** का मेरा version "flashcards को chat से replace कर दो" नहीं है। मेरा version है: "chat का उपयोग यह जानने के लिए करो कि किस चीज़ को flashcard बनने का हक़ है।"
-
-अगर आप यह boundary साफ़ रखते हैं, तो workflow टिकता है:
-
-1. समझने के लिए Claude का उपयोग करो
-2. सिर्फ़ असली weak spots रखो
-3. उन्हें छोटे cards में बदलो
-4. उसके बाद timing को FSRS पर छोड़ दो
-
-अगले हफ़्ते भी जिस **Claude से पढ़ाई कैसे करें** वाले version पर मैं भरोसा करूँगा, वह यही है। सिर्फ़ आज रात के लिए impressive लगने वाला version नहीं।
+मैं पढ़ाई के लिए Claude को इसी तरह इस्तेमाल करता हूँ: उलझन ताज़ा रहते हुए उस पर काम करता हूँ, फिर चैट बंद होने के बाद सही सवाल दोबारा सामने लाने का काम Flashcards पर छोड़ देता हूँ। यह छोटा-सा जोड़ एक मददगार बातचीत को ऐसी चीज़ में बदल देता है जो शायद अगले महीने भी याद रहे।

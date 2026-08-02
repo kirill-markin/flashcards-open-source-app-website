@@ -1,238 +1,198 @@
 ---
-title: "How to Use Claude for Studying in 2026: Learning Mode, Projects, and Flashcards That Still Stick"
-description: "A practical 2026 Claude study workflow: use Learning Mode or tutor-style prompting inside Projects, then turn only real weak spots into FSRS flashcards you will still remember next week."
+title: "How to Use Claude for Studying in 2026: A Tutor-to-Flashcards Workflow"
+description: "Use Claude as a tutor, catch your real weak spots, save selected cards to Flashcards through MCP, and review them later with FSRS."
 date: "2026-05-28"
 image: "/blog/how-to-use-claude-for-studying.png"
 keywords:
   - "how to use Claude for studying"
   - "Claude for studying"
   - "study with Claude"
-  - "Claude Learning Mode"
-  - "Claude Learning Mode flashcards"
-  - "Claude Projects for studying"
   - "Claude study workflow"
-  - "Claude notes to flashcards"
+  - "Claude tutor"
+  - "Claude MCP flashcards"
+  - "Claude custom connector flashcards"
+  - "Claude Code flashcards"
+  - "Claude Learning Mode"
 ---
 
-Last week Claude helped me untangle a statistics problem in about six minutes. The next morning I still missed the same setup on paper. That was the useful reminder.
+You have explained meiosis twice, yet Claude catches you mixing it up with mitosis again. Good. That mistake is more useful than another polished summary.
 
-People keep searching **how to use Claude for studying** because the explanation part is no longer the bottleneck. Claude is good at that. The harder part is getting anything from that session to stay with you once the chat window is closed.
+The best way to use **Claude for studying** is to turn moments like that into a short loop: let Claude question you, choose the weak spots worth remembering, save a few focused cards, and review them later in Flashcards. Claude handles the conversation. Flashcards keeps the cards and schedules their return with FSRS.
 
-The workflow I trust in 2026 is simple enough to repeat: use Claude to explain, question, and expose weak spots, then move only the keepers into a real flashcard system with decks, tags, and FSRS review. That second half is where a lot of otherwise good AI study setups quietly fall apart.
+With the Flashcards MCP connector, the card can move from the conversation into your deck without copy and paste. MCP is simply a connection that lets Claude use approved features of another app. Keep write actions on approval, and Claude will ask before it changes your cards.
 
 ![Warm desk scene with Claude tutoring notes sorted into weak-spot flashcards](/blog/how-to-use-claude-for-studying.png)
 
-## Claude got more useful for studying after April 2, 2025
+## The Claude study workflow I would actually use
 
-Anthropic introduced **Claude for Education** on **April 2, 2025** and described **Learning Mode** as a tutor-style experience that guides reasoning instead of jumping straight to answers. Anthropic also said Learning Mode works inside Projects, which matters because Projects give a study session a real home instead of scattering it across random chats.
+A smooth chat can create a dangerous feeling: everything makes sense while the explanation is on screen. Ten minutes later, the details have vanished.
 
-The Projects layer looks even more practical now. Anthropic's Projects help page, updated **March 16, 2026**, says Projects are available to all Claude users, including free accounts, with free users capped at five projects.
+I use this loop instead:
 
-That gives **Claude for studying** a cleaner shape than it had a year ago:
+1. Give Claude one narrow topic and the source material it needs.
+2. Ask for one question at a time.
+3. Answer from memory before reading any explanation.
+4. Mark the mistakes, slow answers, and ideas you keep mixing up.
+5. Choose a few of those weak spots and preview the cards.
+6. Approve the cards you want, then review them later in Flashcards.
 
-- one Project can hold the context for one class, exam, or topic
-- Claude can work from uploaded material instead of only your rushed summary
-- Learning Mode, where available, can push you to reason through the answer instead of passively reading it
+For example, Claude might ask what separates during anaphase I of meiosis. You answer "sister chromatids." Claude points out that homologous chromosomes separate first and asks you to explain the distinction again. That exact confusion deserves a card. The three paragraphs Claude used to help you reach the answer probably do not.
 
-One important limit: Learning Mode is not the same thing as universal Claude behavior. If your plan or institution does not give you that mode, you can still copy the tutoring pattern with a prompt inside a Project. You just should not pretend the prompt and the product feature are identical.
+This keeps the deck tied to evidence from your own recall. You are saving what broke during practice, not everything that appeared in the chat.
 
-Still, there is enough here to build a solid **Claude study workflow** without pretending the study chat itself is the memory system.
+## Start by making Claude tutor you
 
-## Start with one Project per class, exam, or topic
+[Anthropic's Learning mode](https://www.anthropic.com/news/introducing-claude-for-education) guides students with questions instead of immediately giving away the answer. If your Claude account includes it, it suits this workflow well.
 
-This is the first habit I would keep because it improves almost everything downstream.
+An ordinary Claude chat works too. Start with a prompt like this:
 
-Do not throw every subject into one giant Claude workspace. Make one Project for one course, one exam, or one tightly scoped topic. That keeps the context cleaner, the follow-up questions sharper, and the later review much less chaotic.
+```text
+Teach me this topic like a tutor. Ask one question at a time and wait for my
+answer. Do not reveal the full answer too early. When I make a mistake, tell me
+exactly what I missed and ask me to try once more before you explain it.
+Keep a short list of genuine weak spots, but do not create flashcards yet.
+```
 
-For **Claude Projects for studying**, I would upload only the material that helps Claude ask better questions or explain at the right level:
+Add the material you are studying: lecture notes, a short reading, corrected practice questions, or a few slides. I would keep each session to one chapter or one closely related set of ideas. It is easier to check Claude's explanations, and the resulting cards make more sense on their own.
 
-- your own lecture notes
-- a syllabus or exam outline
-- a short study guide
-- corrected practice questions
-- one chapter, slide deck, or reading section at a time
+For an ongoing course, a Claude Project can keep its chats, source material, and instructions together. Anthropic's [guide to Projects](https://support.claude.com/en/articles/9517075-what-are-projects) explains how they work. If your starting point is a long document, the [PDF-to-flashcards workflow](/blog/how-to-turn-a-pdf-into-flashcards/) covers that job in more detail.
 
-I would not dump an entire semester into the Project on day one just because the upload box is there.
+## Save the weak spots, not the whole chat
 
-The reason is boring but important. A study Project should help Claude understand what you are working on right now. It should not become a landfill for every PDF you touched since January.
+After ten or fifteen minutes of questions, ask Claude to show its notes:
 
-If your source material starts as documents rather than chat notes, these companion workflows fit well here:
+```text
+Show me the weak spots from this session. Include only ideas I missed, answered
+slowly, or confused more than once. For each one, explain in one sentence why it
+deserves a flashcard. Do not save anything yet.
+```
 
-- [How to Turn a PDF Into Flashcards in 2026](/blog/how-to-turn-a-pdf-into-flashcards/)
-- [How to Turn a Study Guide Into Flashcards in 2026](/blog/how-to-turn-a-study-guide-into-flashcards/)
-- [How to Turn Practice Questions Into Flashcards in 2026](/blog/how-to-turn-practice-questions-into-flashcards/)
+The best candidates are usually small:
 
-## Use Claude more like a tutor than a summary machine
+- a definition you could not produce
+- two similar ideas you reversed
+- a step you kept skipping
+- a formula you knew but set up incorrectly
+- an exception that changed the answer
 
-This is where **study with Claude** gets better fast.
+Skip the warm-up questions, facts you answered easily, and broad prompts such as "Explain cellular respiration." FSRS can schedule a card efficiently, but it cannot make an unnecessary card worth your time.
 
-If you have access to **Claude Learning Mode**, use it. Anthropic positions it as a tutor-style workflow for a reason. It is more useful when Claude keeps asking you to explain, compare, predict, or solve the next step before it gives you the polished answer.
+## Turn your chosen weak spots into flashcards
 
-If you do not have Learning Mode access, you can still get most of the behavior with a plain prompt inside a Project:
+Once the Flashcards connector is enabled, choose the candidates yourself and ask Claude to draft them:
 
-> Teach this like a tutor. Ask one question at a time. Do not give the full answer too early. If I miss something, tell me exactly what I missed and make me try again before you explain it fully.
+```text
+Turn weak spots 2, 4, and 5 into Flashcards cards.
 
-That small shift changes the whole session. It turns Claude from a fast explainer into something closer to a practice partner.
+Use one memory target per card. Keep each front specific and each back short.
+Use only facts supported by the material in this conversation. Show me the
+proposed fronts, backs, and destination deck before writing anything. After I
+approve them, create the cards through the Flashcards connector and read the
+saved cards back to me.
+```
 
-I do not want Claude to start with a neat summary. I want it to expose:
+The preview catches vague questions, bloated answers, and confident-looking mistakes before they reach your deck. A good card should still make sense tomorrow, when the Claude conversation is no longer beside it.
 
-- what I cannot recall cleanly
-- what I confuse with nearby ideas
-- what I can recognize but not produce
-- what only feels obvious after Claude says it
+For more examples, read [How to Make Better Flashcards](/blog/how-to-make-better-flashcards/). If every session somehow produces fifty "essential" cards, [How to Avoid AI Flashcard Overload](/blog/how-to-avoid-ai-flashcard-overload/) will help more than a longer prompt.
 
-That is the useful part of **Claude Learning Mode**. The value is not the pleasant conversation. The value is the evidence about where my understanding breaks down.
+## Connect Claude web to Flashcards
 
-## The transcript is not the goal
+For most students, Claude in the browser is the easiest place to start. Add Flashcards as a custom connector with this URL:
 
-This is where a lot of **Claude notes to flashcards** workflows go sideways.
+```text
+https://mcp.flashcards-open-source-app.com/mcp
+```
 
-People finish a helpful session, copy the whole conversation, and ask some other tool to turn everything into cards. Then they end up with a deck full of filler:
+Open Claude's connector settings, choose **Add custom connector**, paste the URL, and connect. A browser window will ask you to sign in to Flashcards and approve access through OAuth. You do not need to paste an API key into Claude. After that, enable the connector in the chat where you want to study.
 
-- warm-up explanations
-- repeated hints
-- partial answers
-- examples that helped in the moment but are not worth storing
-- polished recap paragraphs that review terribly
+Anthropic's [custom connector instructions](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp) show the current menu path. A school-managed Team or Enterprise workspace may require an owner to add the connector first.
 
-I treat Claude sessions like weak-spot mining, not transcript export.
+The [step-by-step Flashcards MCP guide](/blog/how-to-connect-flashcards-to-claude-with-mcp/) includes the connector screens and a first test card. Use that guide if you are setting this up now; the rest of this article stays focused on studying.
 
-At the end of the session, I want a short list of things like this:
+## Claude Code uses a separate MCP setup
 
-- missed definition
-- confused comparison
-- formula setup I could not rebuild
-- step I skipped
-- trap I fell for twice
+Claude Code is useful when your study material already lives in a folder of Markdown notes, code, or technical documentation. Add the same remote Flashcards server from the terminal:
 
-That is the raw material behind **Claude Learning Mode flashcards** that still feel worth reviewing later.
+```bash
+claude mcp add --transport http flashcards https://mcp.flashcards-open-source-app.com/mcp
+```
 
-## One weak spot per card still wins
+Then run `/mcp` in Claude Code, choose the Flashcards server, and complete the OAuth login in your browser. Anthropic documents the flow in [Connect Claude Code to tools via MCP](https://code.claude.com/docs/en/mcp).
 
-The tools changed. The card rules barely did.
+Adding the connector to Claude on the web does not configure Claude Code on your computer. They reach the same Flashcards endpoint, but each has its own setup and credential storage.
 
-A good flashcard from Claude usually does one plain thing well:
+For a headless machine or automated terminal session with no practical browser login, Flashcards also accepts a long-lived `fca_` agent key as a Bearer token:
 
-- one clear prompt on the front
-- one direct answer on the back
-- enough context to stand alone later
-- no dependency on rereading the whole chat
+```bash
+claude mcp add --transport http \
+  flashcards https://mcp.flashcards-open-source-app.com/mcp \
+  --header "Authorization: Bearer ${FLASHCARDS_MCP_TOKEN}"
+```
 
-So I would not turn one Claude tutoring session into twenty ambitious mini-lessons. I would rather keep six cards that each target one real miss.
+Store the key in `FLASHCARDS_MCP_TOKEN` through your environment or secret manager. Treat it like a password: keep it out of prompts, screenshots, shell history, and version control. The [API reference](/docs/api/) explains how to obtain an agent key. For a normal interactive session, use OAuth.
 
-The bad versions usually sound like this:
+## Check what Claude can read and change
 
-- Explain this topic.
-- Summarize this chapter.
-- What are the key ideas here.
-- Walk through the whole method.
+The connector exposes three tools. You do not need to understand SQL to use them, but the read/write split is worth knowing:
 
-Those are note prompts, not review prompts.
+| Tool | What it does | Changes data? |
+| --- | --- | --- |
+| `list_workspaces` | Shows the Flashcards workspaces your account can access | No |
+| `sql_query` | Reads allowed workspace, card, deck, and review data | No |
+| `sql_execute` | Creates, edits, moves, or deletes cards and decks | Yes |
 
-If you want the stricter version of the card-writing rules, [How to Make Better Flashcards in 2026](/blog/how-to-make-better-flashcards/) is the direct companion. If your AI-generated decks already feel bloated, [How to Avoid AI Flashcard Overload in 2026](/blog/how-to-avoid-ai-flashcard-overload/) is the one I would read next.
+The first two tools are read-only. `sql_execute` is the only tool that can change data. In Claude web, I keep it on **Needs approval** and check the workspace, cards, decks, and proposed changes before allowing each write. Broad deletion requests deserve an especially careful look.
 
-## The workflow I would actually repeat
+The server limits these tools to your authorized workspace and the supported Flashcards data. Claude cannot use them as unrestricted access to the underlying database. The [Flashcards MCP documentation](/docs/mcp-connector/) has the current authentication details and tool contract.
 
-The best **how to use Claude for studying** routine is short enough that you will still use it after the novelty wears off.
+One detail is easy to miss: Flashcards currently authorizes the connector as a single surface, rather than offering separate read-only and read-write OAuth grants. Requiring approval or blocking the write tool is a setting on Claude's side. The Flashcards server separately enforces that its two read tools cannot change data.
 
-This is the version I would use:
+Connecting also means card text requested through the tools can be sent to Claude for processing. Do not connect study material that you are not allowed to share with that service. [Is MCP Safe for Flashcards?](/blog/is-mcp-safe-for-flashcards/) explains the privacy path, write risks, backups, and deletion limits.
 
-1. Create one Claude Project for one class, exam, or topic.
-2. Upload only the notes, slides, readings, or corrected questions relevant to that topic.
-3. Ask Claude to teach in tutor mode, ideally with Learning Mode if your account has it.
-4. Keep a tiny weak-spot list while you answer.
-5. At the end, ask Claude to turn only those weak spots into plain front/back card candidates.
-6. Delete or rewrite anything vague immediately.
-7. Move the survivors into your flashcards app and review them with FSRS.
+## Claude can clean up cards and decks too
 
-Step four matters more than people expect. If you do not write down the misses while they are happening, the chat will feel productive and you will still forget what actually tripped you up.
+The connector is useful after the first card is saved. Claude can inspect the card and deck data you authorize, then create, edit, move, reorganize, or delete cards and decks after you approve the write.
 
-I would ask for candidate cards in a format like this:
+You might ask:
 
-> Turn only these weak spots into flashcards. One concept per card. Short front. Direct back. No filler. No invented facts. Skip anything that still needs a paragraph to answer.
+```text
+Show me the cards in my Cell Biology deck that cover mitosis. Do not edit them.
+Flag duplicates and cards that test more than one idea.
+```
 
-That works much better than dumping the full session and saying "make flashcards from this."
+Then choose the changes you want:
 
-## Flashcards is the retention layer, not a fake Claude integration
+```text
+Move the three cards I approved into the Cell Division deck. Read them back to
+me after the move so I can check the result.
+```
 
-This part needs to stay honest because a lot of AI-study copy gets slippery right here.
+For a rewrite, ask Claude to show the new front and back before updating the card. For a larger cleanup, begin with a read-only inspection and keep approvals to a small, exact set of records. This makes mistakes easier to catch before they spread through a deck.
 
-There is no special Claude-to-Flashcards button here, and I would not pretend otherwise. The handoff is simpler: copy the useful weak spots, clean them up, and store the final cards in a system built for review instead of conversation.
+## Do the real FSRS review in Flashcards
 
-That is where [Flashcards](/) fits well:
+Claude can read eligible card and review data, but this connector does not let it record an official review event, choose your Again, Hard, Good, or Easy rating, or update the FSRS schedule. Review history and scheduling data are read-only through the connector.
 
-- front/back card creation and editing
-- decks and tags for organizing by course, exam, or weak-spot type
-- FSRS scheduling for long-term review
-- AI chat with file attachments when you want help cleaning up rough notes or card drafts
-- a hosted web app if you want to start fast
+After Claude creates the cards, open the [Flashcards web app](https://app.flashcards-open-source-app.com/) or a mobile app to review them. Your ratings are recorded there, and FSRS uses them to decide when each card should return.
 
-If you want the product overview first, the [features page](/features/) is the fast version. If you want to start using the hosted app right away, [Getting Started](/docs/getting-started/) covers the current path.
+You can still ask Claude to quiz you conversationally on a small set of cards. The [AI flashcard tutor guide](/blog/ai-flashcard-tutor-due-cards/) shows that workflow. Complete and rate the scheduled review in Flashcards afterward so your progress stays accurate.
 
-The division of labor is the useful part:
+## Copy the cards manually if you prefer
 
-- Claude explains, questions, and exposes the misses
-- Flashcards stores, organizes, edits, and schedules the material worth keeping
+You may not want to give Claude access to a stored deck, especially when the material is private. The learning method still works without a connector.
 
-That is a much more durable setup than expecting one chat thread to be your tutor, notebook, flashcard deck, and review scheduler at the same time.
+Ask Claude for plain card candidates:
 
-## What to upload to Claude, and what to keep for Flashcards
+```text
+Turn only the selected weak spots into front/back flashcards. Use one memory
+target per card. Keep the front specific and the back short. Do not invent
+facts. Put each card in a separate block so I can review and copy it manually.
+```
 
-I use Claude for source-heavy work and Flashcards for memory-heavy work.
+Delete the weak candidates in Claude, then copy the survivors into Flashcards yourself. It adds a small manual step, but you keep complete control over what leaves the conversation and what enters your deck.
 
-Claude is strong when you want to:
+## A useful Claude study session can stay small
 
-- simplify a confusing explanation
-- compare two similar concepts
-- turn messy notes into a clearer structure
-- generate a few follow-up questions from your uploaded material
-- figure out which mistakes keep repeating
+You do not need a one-shot prompt that turns a semester into 800 cards. A better **Claude study workflow** fits after a lecture or practice set: answer a few questions, catch the places where recall breaks, save three or four useful cards, and move on.
 
-Flashcards is stronger when you want to:
-
-- keep the final card wording stable
-- group cards into decks and tags
-- review due material instead of reopening the same chat
-- let FSRS decide when a card should come back
-
-That split keeps the workflow from turning theatrical. You stop mistaking a nice AI conversation for a memory system.
-
-If your study source is mostly your own notes, [How to Turn Notes Into Flashcards in 2026](/blog/turn-notes-into-flashcards/) goes deeper on the handoff. If you want the broader AI study picture beyond Claude, [How to Use AI to Study in 2026](/blog/how-to-use-ai-to-study/) covers the bigger workflow.
-
-## The most common mistake is saving too much
-
-Claude makes it very easy to feel productive.
-
-You upload notes. Claude explains the chapter. It asks a few decent questions. It rewrites your outline. It gives you a nice recap. Then the temptation shows up: keep all of it.
-
-That is where the backlog starts.
-
-The rule I keep is simple:
-
-- save the misses
-- save the slow answers
-- save the repeated confusions
-- do not save every useful sentence
-
-This matters because FSRS is good at scheduling worthwhile cards. It does not make mediocre cards cheap.
-
-If you already know the deck is getting too big, [How Many New Flashcards Per Day in 2026](/blog/how-many-new-flashcards-per-day/) and [How to Catch Up on Flashcards After Falling Behind in 2026](/blog/how-to-catch-up-on-flashcards-after-falling-behind/) fit naturally after this.
-
-## Claude is good at helping you think. Flashcards is better at helping you remember.
-
-That is the cleanest way I know to frame the whole thing.
-
-Claude can absolutely help you study in 2026. It can explain a concept from a different angle, work from uploaded material, ask better questions than a static note page, and show you exactly where your understanding is still soft.
-
-What it does not do by itself is build a calm long-term review loop.
-
-That is why my version of **Claude for studying** is not "replace flashcards with chat." It is "use chat to discover what deserves a flashcard."
-
-If you keep that boundary clear, the workflow holds up:
-
-1. use Claude to understand
-2. keep only the real weak spots
-3. turn those into small cards
-4. let FSRS handle the timing afterward
-
-That is the version of **how to use Claude for studying** I would actually trust next week, not just tonight.
+That is how I use Claude for studying: work through the confusion while it is fresh, then let Flashcards bring the right question back after the chat closes. The small handoff turns a helpful conversation into something you may still remember next month.
