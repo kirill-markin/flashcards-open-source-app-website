@@ -5,7 +5,10 @@ import {
   listPublicCatalogPackageSlugs,
   readPublicCatalog,
 } from "@/lib/publicCatalogData";
-import { getPublicCatalogPackageBySlug } from "@/lib/publicCatalogReadModel";
+import {
+  getPublicCatalogCollectionsByPackageSlug,
+  getPublicCatalogPackageBySlug,
+} from "@/lib/publicCatalogReadModel";
 import { getPublicCatalogPackageRoutePathname } from "@/lib/publicCatalogUrls";
 import { createPublicCatalogMetadata } from "@/lib/seo/createPublicCatalogMetadata";
 
@@ -57,8 +60,17 @@ export default async function PublicCatalogPackagePage({
     notFound();
   }
 
+  const collections = catalog === null
+    ? undefined
+    : getPublicCatalogCollectionsByPackageSlug(catalog, packageSlug);
+
+  if (collections === undefined) {
+    notFound();
+  }
+
   return (
     <PublicCatalogPackagePageView
+      collections={collections}
       locale={locale}
       packageView={packageView}
     />

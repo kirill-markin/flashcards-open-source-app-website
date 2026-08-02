@@ -132,6 +132,10 @@ function assertHttpsUrl(value: unknown, context: string): string {
   return stringValue;
 }
 
+function assertNullableHttpsUrl(value: unknown, context: string): string | null {
+  return value === null ? null : assertHttpsUrl(value, context);
+}
+
 function assertRootRelativePath(value: unknown, context: string): string {
   const stringValue = assertNonEmptyString(value, context);
 
@@ -230,8 +234,8 @@ function parseAuthor(value: unknown, index: number): PublicCatalogAuthor {
     authorId: assertNonEmptyString(record.authorId, `${context}.authorId`),
     slug: assertSlug(record.slug, `${context}.slug`),
     displayName: assertNonEmptyString(record.displayName, `${context}.displayName`),
-    bio: assertString(record.bio, `${context}.bio`),
-    websiteUrl: assertHttpsUrl(record.websiteUrl, `${context}.websiteUrl`),
+    bio: assertNullableString(record.bio, `${context}.bio`),
+    websiteUrl: assertNullableHttpsUrl(record.websiteUrl, `${context}.websiteUrl`),
   };
 }
 

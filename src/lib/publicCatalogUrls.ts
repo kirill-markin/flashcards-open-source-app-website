@@ -1,4 +1,21 @@
 export const PUBLIC_CATALOG_ROUTE_PATHNAME = "/catalog/";
+export const PUBLIC_CATALOG_AUTHORS_ROUTE_PATHNAME = "/catalog/authors/";
+export const PUBLIC_CATALOG_COLLECTIONS_ROUTE_PATHNAME = "/catalog/collections/";
+
+export function resolvePublicCatalogRouteSegment(
+  routeSegment: string,
+  knownTags: ReadonlyArray<string>,
+): string | undefined {
+  const canonicalMatch = knownTags.find(
+    (tag) => encodeURIComponent(tag) === routeSegment,
+  );
+
+  if (canonicalMatch !== undefined) {
+    return canonicalMatch;
+  }
+
+  return knownTags.includes(routeSegment) ? routeSegment : undefined;
+}
 
 export function getPublicCatalogPackageRoutePathname(
   packageSlug: string,
@@ -8,6 +25,12 @@ export function getPublicCatalogPackageRoutePathname(
 
 export function getPublicCatalogAuthorRoutePathname(authorSlug: string): string {
   return `/catalog/authors/${encodeURIComponent(authorSlug)}/`;
+}
+
+export function getPublicCatalogCollectionRoutePathname(
+  collectionSlug: string,
+): string {
+  return `/catalog/collections/${encodeURIComponent(collectionSlug)}/`;
 }
 
 export function getPublicCatalogLanguageRoutePathname(
@@ -24,7 +47,9 @@ export function isPublicCatalogPageRoutePathname(
   routePathname: string,
 ): boolean {
   return routePathname === PUBLIC_CATALOG_ROUTE_PATHNAME
-    || /^\/catalog\/packages\/[a-z0-9](?:[a-z0-9-]{0,118}[a-z0-9])?\/$/.test(
+    || routePathname === PUBLIC_CATALOG_AUTHORS_ROUTE_PATHNAME
+    || routePathname === PUBLIC_CATALOG_COLLECTIONS_ROUTE_PATHNAME
+    || /^\/catalog\/(?:packages|authors|collections|languages|topics)\/[^/]+\/$/.test(
       routePathname,
     );
 }

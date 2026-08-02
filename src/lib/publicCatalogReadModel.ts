@@ -195,8 +195,14 @@ export function createPublicCatalogReadModel(dump: PublicCatalogDump): PublicCat
     packagesByTopicTag: groupBy(packages, (packageView) =>
       packageView.packageMetadata.topicTags,
     ),
-    languageTags: [...new Set(packages.flatMap((packageView) => packageView.packageMetadata.languageTags))].sort(),
-    topicTags: [...new Set(packages.flatMap((packageView) => packageView.packageMetadata.topicTags))].sort(),
+    languageTags: [...new Set([
+      ...packages.flatMap((packageView) => packageView.packageMetadata.languageTags),
+      ...dump.collections.flatMap((collection) => collection.languageTags),
+    ])].sort(),
+    topicTags: [...new Set([
+      ...packages.flatMap((packageView) => packageView.packageMetadata.topicTags),
+      ...dump.collections.flatMap((collection) => collection.topicTags),
+    ])].sort(),
   };
 }
 
