@@ -1,5 +1,6 @@
 import { getSignupUrl } from "@/lib/auth";
 import type { AppLocale } from "@/lib/i18n";
+import { localizeInternalLinks } from "@/lib/localizeInternalLinks";
 import {
   globalActivitySnapshotUrl,
   serializeGlobalActivitySnapshot,
@@ -266,7 +267,7 @@ export function renderMarketingPageMarkdown(
 
   renderPageSections(pageContent, locale, context, lines);
 
-  return lines.join("\n").trim();
+  return localizeInternalLinks(lines.join("\n").trim(), locale);
 }
 
 export function renderMarketingPageDocument(

@@ -13,7 +13,6 @@ import { renderMarkdownToHtml } from "@/lib/content/renderMarkdownToHtml";
 import type { AppLocale } from "@/lib/i18n";
 import { getAbsoluteUrl, getLocalizedPathname } from "@/lib/i18n";
 import { getExternalLinkAttributes } from "@/lib/linkTargets";
-import { localizeInternalLinks } from "@/lib/localizeInternalLinks";
 import {
   CREATOR_ENTITY,
   CREATOR_REFERENCE,
@@ -95,7 +94,8 @@ export async function BlogPostPageView({
   };
   const recommendedPosts = getRecommendedBlogPosts(locale, slug, 4);
   const localizedContentHtml = await renderMarkdownToHtml(
-    localizeInternalLinks(post.bodyMarkdown, locale)
+    post.bodyMarkdown,
+    locale
   );
   const { chunks, midInsertIndex } = getArticleHtmlSegments(localizedContentHtml);
   const authorLinkAttributes = getExternalLinkAttributes(STRUCTURED_DATA_AUTHOR_URL);
