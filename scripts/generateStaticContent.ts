@@ -7,6 +7,16 @@ import {
   type GlobalActivitySnapshot,
 } from "../src/lib/globalActivitySnapshot";
 import {
+  fetchPublicCatalogDump,
+  getPublicCatalogGeneratedFilePath,
+  parsePublicCatalogBuildConfiguration,
+  publicCatalogDumpUrlEnvironmentVariable,
+  publicCatalogEnabledEnvironmentVariable,
+  removeGeneratedPublicCatalogDump,
+  serializePublicCatalogDump,
+} from "../src/lib/publicCatalogBuild";
+import type { PublicCatalogDump } from "../src/lib/publicCatalogTypes";
+import {
   LLMS_ASSET_PATHNAME,
   getMarkdownAssetPathname,
 } from "../src/lib/markdownAssetPaths";
@@ -43,6 +53,13 @@ function writeGeneratedGlobalActivitySnapshot(snapshot: GlobalActivitySnapshot):
   writeFileSync(outputFilePath, serializeGlobalActivitySnapshot(snapshot), "utf-8");
 }
 
+function writeGeneratedPublicCatalogDump(dump: PublicCatalogDump): void {
+  const outputFilePath = getPublicCatalogGeneratedFilePath(process.cwd());
+
+  mkdirSync(dirname(outputFilePath), { recursive: true });
+  writeFileSync(outputFilePath, serializePublicCatalogDump(dump), "utf-8");
+}
+
 function generateMarkdownAssets(snapshot: GlobalActivitySnapshot): ReadonlyArray<GeneratedAsset> {
   return listMarkdownPagePaths().map((pagePath): GeneratedAsset => {
     const result = renderMarkdownDocument(pagePath, {
@@ -69,11 +86,25 @@ function generateLlmsAsset(snapshot: GlobalActivitySnapshot): GeneratedAsset {
 
 async function main(): Promise<void> {
   const outputDirectory = getOutputDirectory();
-  const snapshot = await fetchGlobalActivitySnapshot();
+  const catalogConfiguration = parsePublicCatalogBuildConfiguration(
+    process.env[publicCatalogEnabledEnvironmentVariable],
+    process.env[publicCatalogDumpUrlEnvironmentVariable],
+  );
+  const [snapshot, catalogDump] = await Promise.all([
+    fetchGlobalActivitySnapshot(),
+    catalogConfiguration.enabled
+      ? fetchPublicCatalogDump(catalogConfiguration.dumpUrl)
+      : Promise.resolve(null),
+  ]);
   const assets = [...generateMarkdownAssets(snapshot), generateLlmsAsset(snapshot)];
 
   rmSync(outputDirectory, { recursive: true, force: true });
   writeGeneratedGlobalActivitySnapshot(snapshot);
+  if (catalogDump === null) {
+    removeGeneratedPublicCatalogDump(process.cwd());
+  } else {
+    writeGeneratedPublicCatalogDump(catalogDump);
+  }
   assets.forEach(writeGeneratedAsset);
 }
 
