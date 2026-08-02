@@ -1,188 +1,152 @@
 ---
-title: "Quizlet-Alternative 2026: Open-Source-Karteikarten-App mit FSRS, Offline-Lernen und voller Datenkontrolle"
-description: "Du suchst 2026 eine Quizlet-Alternative? Die einfache Abwägung: Mit Quizlet legst du schnell los, während dir eine Open-Source-Karteikarten-App FSRS-Spaced-Repetition, Offline-Lernen, KI-gestützte Kartenerstellung und langfristige Kontrolle über deine Decks bietet."
+title: "Open-Source-Alternative zu Quizlet 2026: Quizlet vs. Flashcards"
+description: "Du suchst eine Open-Source-Alternative zu Quizlet? Der Vergleich mit Flashcards zeigt die Unterschiede bei Lernmodi, FSRS, Offline-Nutzung, KI, Teilen, Import, Export und Datenkontrolle."
 date: "2026-03-17"
+updated: "2026-08-02"
+image: "/blog/quizlet-alternative.png"
 keywords:
-  - "quizlet alternative"
-  - "quizlet alternative 2026"
-  - "open source quizlet alternative"
-  - "flashcards app mit spaced repetition"
-  - "offline flashcards app"
-  - "fsrs flashcards app"
-  - "ai flashcards app"
+  - "Open-Source-Quizlet-Alternative"
+  - "Open-Source-Alternative zu Quizlet"
+  - "Quizlet-Alternative"
+  - "Quizlet vs. Flashcards"
+  - "Quizlet-Alternative 2026"
+  - "FSRS-Karteikarten-App"
+  - "Offline-Karteikarten-App"
+  - "selbst gehostete Karteikarten-App"
 ---
 
-Letzten Monat habe ich im Flugzeug eine Karteikarten-App geöffnet, irgendwo über Spanien das WLAN verloren und wieder gemerkt, dass viele "moderne" Lerntools im Grunde nur Websites im studentischen Kostüm sind. Solange das Signal stark ist, funktioniert alles wunderbar. Sobald es weg ist, fällt die Fassade schnell in sich zusammen.
+Eine **Open-Source-Alternative zu Quizlet** kann deine tägliche Wiederholungsroutine ersetzen. Sie ersetzt jedoch weder die Quizlet-Modi Lernen und Test noch die Bibliothek öffentlicher Lernsets. Genau das ist der Haken bei [Flashcards](/features/): Die App bietet einen dokumentierten FSRS-6-Algorithmus, speichert Änderungen im Web und auf Mobilgeräten nach dem Offline-First-Prinzip und lässt sich dank MIT-Lizenz selbst hosten. Ein Open-Source-Klon von Quizlet ist sie nicht.
 
-Genau dann beginnen viele, nach einer **Quizlet-Alternative** zu suchen.
+Quizlet bleibt die stärkere Wahl für geführte Lernmodi, Übungstests, fertige KI-Lerntools und geteilte Inhalte. Flashcards konzentriert sich auf eine einfachere Wiederholungsroutine mit Vorder- und Rückseite, den Zugriff durch KI-Agenten und ein produktionsreifes AWS-CDK-Deployment, das du in deinem eigenen Konto betreiben kannst.
 
-Nicht, weil Quizlet furchtbar wäre. Es ist aus gutem Grund beliebt. Die eigentlichen Probleme tauchen später auf: wenn du stärkere Spaced Repetition willst, zuverlässiger offline lernen möchtest, mehr Kontrolle über deine Decks brauchst oder schlicht ein Lernsystem suchst, das sich nicht wie ein gemieteter Platz auf einer fremden Plattform anfühlt.
+> **Offenlegung:** Ich bin Kirill Markin und entwickle Flashcards, eines der beiden hier verglichenen Produkte. Flashcards gewinnt nicht in jeder Kategorie. Bei geführten Lernmodi, Übungstests und geteilten Inhalten ist Quizlet die stärkere Wahl.
 
-Darum geht es bei der Suche nach **Quizlet alternative 2026** wirklich.
+**Fakten geprüft:** 2. August 2026.
 
-## Quizlet gewinnt die erste Woche sehr leicht
+![Lernabläufe von Quizlet und Open-Source-Flashcards nebeneinander auf einem warm beleuchteten Schreibtisch](/blog/quizlet-alternative.png)
 
-Man sollte offen sagen, worin Quizlet stark ist.
+## Die kurze Antwort
 
-Es ist zugänglich. Es ist selbsterklärend. Man kann es fast jedem in einem Satz erklären. Das zählt.
+Wähle **Quizlet**, wenn du einen vertrauten Ablauf für Unterricht und Lerngruppen, verschiedene Fragetypen, automatisch erstellte Übungstests oder bereits vorhandene öffentliche Lernsets suchst. Der Lernen- und der Test-Modus gehen deutlich über eine klassische Karteikarten-Wiederholung hinaus.
 
-Die meisten Menschen wollen keine Karteikarten-Enthusiasten werden. Sie möchten schnell einen Kartensatz erstellen, ihn teilen und dann wieder weiterlernen oder weitermachen. Genau darin ist Quizlet gut: beim unkomplizierten, massentauglichen Einstieg.
+Wähle **Flashcards**, wenn du vor allem einen transparenten FSRS-6-Algorithmus, Offline-First-Lernen im Web und auf Mobilgeräten, den Zugriff von KI und Agenten auf deinen Arbeitsbereich oder die Möglichkeit suchst, die Infrastruktur selbst zu betreiben.
 
-Das ist eine echte Stärke und nichts, was man kleinreden sollte.
+Ein Wechsel kostet Zeit. Flashcards hat keinen direkten Quizlet-Importer, und der Quizlet-Export enthält nicht genug Informationen für einen verlustfreien Umzug. Wenn dein bisheriger Ablauf in Quizlet funktioniert, ist es unter Umständen vernünftiger, dabei zu bleiben.
 
-Die Kehrseite zeigt sich meist erst später.
+## Open-Source-Quizlet-Alternative: der Vergleich
 
-Wenn deine Decks wichtiger werden, wenn ein besseres Wiederholungssystem zählt, wenn Offline-Lernen unverzichtbar wird oder wenn du dich dafür interessierst, wer die Produktentwicklung eigentlich steuert, wirkt der anfangs so bequeme Weg plötzlich weniger günstig, als er zuerst schien.
+| Kategorie | Quizlet | Flashcards | In der Praxis besser |
+|---|---|---|---|
+| Lernen- und Test-Workflows | Eigener adaptiver Lernen-Modus und konfigurierbarer Test-Modus mit Bewertung und Auswertung | Klassische Wiederholung mit Vorder- und Rückseite; keine eigenen Lernen- oder Test-Modi und keine Erstellung von Multiple-Choice-Tests | Quizlet |
+| Planung und FSRS | Personalisierte Wiederholungsplanung und Memory Score; in der öffentlichen Dokumentation wird der Algorithmus nicht als FSRS bezeichnet | Dokumentiertes FSRS-6 mit Nochmal, Schwer, Gut und Einfach | Kommt darauf an: Quizlet für sein System geplanter Wiederholungen, Flashcards für einen dokumentierten FSRS-6-Algorithmus |
+| Offline | iOS und Android; zuletzt verwendete Sets werden gespeichert, weitere lassen sich herunterladen | Änderungen werden im Web sowie auf iOS und Android zuerst lokal gespeichert und nach der erneuten Verbindung synchronisiert | Flashcards |
+| KI | Übungstests, Lernleitfäden, Zusammenfassungen, Karteikartenerstellung, Hausaufgabenhilfe und Ask Quizlet | KI-Chat mit Dateianhängen sowie MCP und eine Agent API | Quizlet für fertige Lerntools; Flashcards für Arbeitsbereichs- und Agentenzugriff |
+| Geteilte Inhalte | Öffentliche Sets und Ordner sowie eine große Bibliothek mit Inhalten von Lehrkräften | Keine vergleichbare Bibliothek geteilter Inhalte für Endnutzer | Quizlet |
+| Import | Text mit Trennzeichen auf der Website einfügen; jede Zeile wird zu einer Karte | Importiert nur das eigene `flashcards.zip`-Paket | Quizlet |
+| Export | Eigene Begriffe und Definitionen des Erstellers auf der Website; keine Bilder und kein Export kopierter Sets | `flashcards.zip` überträgt Karten, Tags und zugehörige Medien zwischen Flashcards-Arbeitsbereichen | Hängt davon ab, was du übertragen willst |
+| Dateneigentum und Kontrolle | Geschlossener, gehosteter Dienst, dessen Möglichkeiten von Quizlets Produktentscheidungen und Nutzungsbedingungen abhängen | MIT-lizenziert; gehostete App verfügbar; Self-Hosting mit AWS CDK gibt Betreibern Kontrolle über Infrastruktur und Datenbank | Flashcards für den Zugriff auf den Code; Self-Hosting für die Kontrolle über Infrastruktur und Datenbank |
 
-## Die Suche nach einer Quizlet-Alternative beginnt meist mit einer kleinen Irritation
+Die letzte Spalte ist bewusst nicht überall eindeutig. Das eine Produkt bereitet dich vielleicht besser auf den Test am Freitag vor, das andere gibt Betreibern mehr Kontrolle über Software und Infrastruktur. Welcher Vorteil mehr zählt, hängt von deinem Lernalltag ab.
 
-Die wenigsten wachen morgens auf und wechseln aus einem großen ideologischen Grund den Anbieter.
+## Der Lernen- und der Test-Modus sind echte Vorteile von Quizlet
 
-Meist beginnt es mit etwas Kleinerem:
+Quizlets [Lernen-Modus](https://help.quizlet.com/hc/en-us/articles/360030986971-Studying-with-Learn) erstellt einen persönlichen Lernpfad mit verschiedenen Fragetypen und einem Lernziel. Quizlet [bezeichnet den Modus außerdem als adaptiv](https://quizlet.com/features/learn), da er dein bisheriges Lernverhalten berücksichtigt. Für den vollständigen Zugriff brauchst du Quizlet Plus; ohne Abo erhältst du eine kostenlose Lerneinheit.
 
-- die Zeitpunkte für Wiederholungen wirken zu grob
-- offline zu lernen klappt schlechter als erwartet
-- das Produkt ist einfach, aber kaum nachvollziehbar
-- du willst langfristig mehr Kontrolle über deine Decks
-- der Workflow wirkt eher auf Plattformnutzung als auf nachhaltiges Behalten optimiert
+Im [Test-Modus](https://help.quizlet.com/hc/en-us/articles/360030642972-Studying-with-Test-mode/) legst du Anzahl und Art der Fragen fest, bekommst eine Bewertung und kannst anschließend deine Antworten durchgehen. Auch diese Funktion gehört zu Plus; ohne Abo ist pro Set ein kostenloser Übungstest verfügbar.
 
-Dann summieren sich diese kleinen Irritationen.
+Flashcards bietet keine entsprechenden Funktionen. Beim Wiederholen siehst du eine klassische Karte mit Vorder- und Rückseite, deckst die Antwort auf und bewertest sie mit Nochmal, Schwer, Gut oder Einfach. Es gibt weder einen eigenen Ablauf für Übungstests noch einen speziellen Lernen-Modus oder automatisch erstellte Multiple-Choice-Tests.
 
-Dann bekommt **open source Quizlet alternative** plötzlich eine sehr praktische Bedeutung. Nicht im Sinn von: "Ich brauche ein obskures Hacker-Tool." Sondern eher: "Ich will ein Lernsystem, das sich auch in sechs Monaten noch richtig anfühlt."
+Diese Einfachheit kann nützlich sein, wenn du jeden Tag mit derselben verlässlichen Wiederholungsroutine lernen möchtest. Wenn dich abwechslungsreiche Aufgaben und Prüfungssimulationen motivieren, ist sie eine klare Einschränkung. Wer Quizlets Test-Modus regelmäßig nutzt, sollte nicht mit der Erwartung wechseln, Flashcards würde ihn nachbilden.
 
-## Der eigentliche Unterschied ist nicht nur offen vs. geschlossen
+## Quizlet plant Wiederholungen; Flashcards dokumentiert FSRS-6
 
-Die meisten Vergleichsseiten pressen das in eine Funktionstabelle. Genau damit verfehlen sie den entscheidenden Punkt.
+„Quizlet hat keine Spaced Repetition“ ließe sich schnell behaupten, wäre aber falsch. Quizlet beschreibt öffentlich eine personalisierte Wiederholungsplanung einschließlich Memory Score. Auch der Lernen-Modus passt sich an dein bisheriges Lernverhalten an.
 
-Die wichtigere Frage lautet, welche Art von Lernsystem du überhaupt willst.
+Der entscheidende Unterschied liegt in der Transparenz. Quizlet dokumentiert seinen Algorithmus nicht als FSRS. Flashcards dokumentiert und implementiert FSRS-6. Die Bewertungen Nochmal, Schwer, Gut und Einfach fließen dort in den nächsten Wiederholungsabstand ein.
 
-Quizlet ist stark, wenn du möglichst wenig Einrichtungsaufwand, ein vertrautes Produkt und einen sofort zugänglichen Einstieg willst.
+FSRS schätzt, wie schwierig eine Karte ist und wie fest die Erinnerung daran sitzt. Das praktische Ergebnis klingt recht unspektakulär: Eine Karte sollte dann wieder auftauchen, wenn das Risiko steigt, sie zu vergessen, statt nach einem starren Karteikasten-Schema. Einen ausführlichen Vergleich der beiden Planungsverfahren findest du unter [FSRS vs. SM-2](/blog/fsrs-vs-sm-2/).
 
-Eine stärkere **flashcards app with spaced repetition** wird interessanter, wenn:
+Wähle hier Flashcards, wenn dir eine klar benannte und nachvollziehbare FSRS-6-Implementierung wichtig ist. Wähle Quizlet, wenn dir das vielseitigere adaptive Lernerlebnis wichtiger ist als der Algorithmus im Hintergrund.
 
-- du erwartest, sie über Jahre zu nutzen
-- die Qualität der Wiederholungen wichtiger wird als schnelles Setup
-- deine Karten Teil langfristigen persönlichen Wissens sind
-- du dich dafür interessierst, wo die Daten leben
-- du die Option willst, das System später selbst zu hosten oder technisch zu prüfen
+## Offline bedeutet bei beiden Produkten etwas anderes
 
-Das ist eine andere Beziehung zu einem Produkt.
+Quizlets [Offline-Dokumentation](https://help.quizlet.com/hc/en-us/articles/360030565412-Studying-offline-with-Quizlet-mobile-apps) bezieht sich auf die iOS- und Android-Apps. Die Quizlet-Funktionen Flashcards und Match laufen offline; außerdem kannst du Sets erstellen und bearbeiten. Die acht zuletzt verwendeten Sets werden automatisch gespeichert, weitere musst du herunterladen. Sobald die Verbindung wieder da ist, synchronisiert Quizlet den Lernfortschritt.
 
-## Die bessere moderne Alternative ist nicht "Anki, aber hübscher"
+Flashcards speichert Änderungen im Web sowie auf iOS und Android nach dem Offline-First-Prinzip zunächst lokal. Wiederholungen und Bearbeitungen werden später synchronisiert. Der entscheidende Unterschied ist die Web-App: Offline-Lernen ist nicht auf die nativen mobilen Apps beschränkt.
 
-Genau an diesem Punkt bleibt die Kategorie meiner Meinung nach noch zu oft hängen.
+Bei keinem der beiden Produkte bedeutet offline, dass jede servergestützte Funktion ohne Internetverbindung läuft. KI-Anfragen und die Synchronisierung brauchen weiterhin eine Verbindung. Für das normale Erstellen, Bearbeiten und Wiederholen von Karten bietet Flashcards die umfassendere Offline-Architektur. Im [Vergleich von Offline-Karteikarten-Apps](/blog/best-offline-flashcards-app/) findest du mehr zu diesem Thema.
 
-Die eine Seite bietet dir Hochglanz für den Massenmarkt, aber weniger Kontrolle.
+## Quizlets KI ist breiter; Flashcards ist stärker auf Agenten ausgerichtet
 
-Die andere Seite bietet oft mehr Möglichkeiten, fühlt sich dafür aber nach älterer Software an.
+Quizlet bietet derzeit eine breite Auswahl an [KI-Lerntools](https://quizlet.com/features/ai-study-tools), darunter KI-Übungstests, Lernleitfäden, PDF-Zusammenfassungen, einen Karteikarten-Generator und Hausaufgabenhilfe. [Ask Quizlet](https://help.quizlet.com/hc/en-us/articles/42790350723725-Studying-with-Ask-Quizlet) kann Lernstoff erklären und bearbeitbare Karteikarten erstellen. Laut der aktuellen Hilfeseite ist die Funktion in den USA nur für Nutzer ab 14 Jahren verfügbar. Außerdem wird der Chatverlauf zurückgesetzt, sobald du die Seite wechselst.
 
-Spannender ist eine moderne **Open-Source-Karteikarten-App**, die das Nutzungserlebnis ernst nimmt, ohne beim Eigentum an den Daten Abstriche zu machen.
+Flashcards deckt weniger fertige KI-Lernformate ab. Dafür bietet die App einen KI-Chat mit Dateianhängen direkt im Karteikarten-Arbeitsbereich. Über [MCP](/docs/mcp-connector/) und eine [Agent API](/docs/api/) können KI-Clients und Terminal-Agenten die Daten im Arbeitsbereich über dokumentierte Schnittstellen lesen und ändern.
 
-[Flashcards](https://flashcards-open-source-app.com/) versucht, genau diese Richtung einzuschlagen.
+Quizlet gewinnt, wenn du ohne viel Einrichtung fertige KI-Lernformate nutzen möchtest. Flashcards ist interessanter, wenn eine KI oder ein Coding-Agent an deinem eigenen Karteikarten-Ablauf mitarbeiten soll. Bei beiden Produkten solltest du automatisch erstellte Karten weiterhin selbst prüfen. Selbstbewusst formulierter Unsinn gehört wirklich nicht in die nächste Wiederholung.
 
-Es tut nicht so, als wäre es das älteste oder größte Produkt in dieser Kategorie. Und es versucht auch nicht, mit "Quizlet, aber mit Dunkelmodus und Preisseite" zu punkten.
+## Bei geteilten Lernsets ist der Vergleich eindeutig
 
-Was ich daran mag, ist die Kombination:
+Bei Quizlet kannst du [öffentliche Sets und Ordner teilen](https://help.quizlet.com/hc/en-us/articles/360030254831-Sharing-sets-and-folders); die Ersteller legen dabei die Sichtbarkeit fest. Der [offizielle Leitfaden für Lehrkräfte](https://quizlet.com/static/pdf/The-Teachers-Guide-to-Quizlet.pdf) spricht von Millionen Sets, die Lehrkräfte erstellt haben. Diese Bibliothek ist praktisch, wenn es für deinen Kurs, dein Lehrbuch oder deine Prüfung bereits passendes Material gibt.
 
-- FSRS statt veralteter Wiederholungslogik
-- Offline-First-Architektur statt blindem Vertrauen in den Browser-Tab
-- offene Codebasis statt Abhängigkeit von einer geschlossenen Plattform
-- KI-Workflows, die direkt an den tatsächlichen Arbeitsbereich gekoppelt sind
-- die Möglichkeit zum Self-Hosting, wenn du sie brauchst
+Flashcards bietet in der Web-, iOS- oder Android-App derzeit keine vergleichbare Funktion, mit der Endnutzer Sets entdecken und teilen können. Wenn du vor allem Community-Sets finden und wiederverwenden möchtest, gewinnt Quizlet diese Kategorie klar.
 
-Genau diese Kombination kommt dem am nächsten, was ich 2026 von einer ernsthaften **Quizlet-Alternative** erwarten würde.
+Open Source ersetzt kein fehlendes Netzwerk an Lerninhalten. Die beiden Apps lösen unterschiedliche Probleme.
 
-## FSRS ist einer der größten Gründe, einfachere Lerntools hinter sich zu lassen
+## Der Import ist die größte Hürde beim Wechsel
 
-Das merkst du nach ein paar Wochen, nicht in einer Funktionsübersicht.
+Quizlet kann [aus importiertem Text ein Set erstellen](https://help.quizlet.com/hc/en-us/articles/360029977151-Creating-sets-by-importing-content): Du fügst auf der Website Begriffe und Definitionen mit unterstützten Trennzeichen ein, jede Zeile wird zu einer Karte. Damit lassen sich Inhalte aus Notizen oder einer Tabelle unkompliziert übernehmen.
 
-Wenn das Timing deiner Wiederholungen schwach ist, fühlt sich die ganze Gewohnheit anstrengender an, als sie sein müsste. Leichte Karten tauchen zu oft wieder auf. Schwierige kommen zu merkwürdigen Zeitpunkten zurück. Die Warteschlange wirkt künstlich.
+Flashcards importiert nur das eigene `flashcards.zip`-Paket. Dieses Paket überträgt Karten, Tags und zugehörige Medien zwischen Flashcards-Arbeitsbereichen. Es ist weder ein allgemeiner CSV- noch ein Quizlet-Importer.
 
-Darum ist eine echte **FSRS flashcards app** einer der besten Gründe, über Quizlet-artiges Lernen hinauszugehen.
+Es gibt keinen direkten Quizlet-Importer und keine verlustfreie Migration von Quizlet zu Flashcards. Der Textexport von Quizlet kann als Rohmaterial dienen, um Karten manuell neu aufzubauen oder mit KI-Unterstützung neu zu entwerfen. Das ursprüngliche Lernsystem bleibt dabei nicht erhalten. Von einer Migration zu sprechen, würde eine Genauigkeit versprechen, die der Vorgang nicht bietet.
 
-FSRS sorgt langfristig für einen sinnvolleren Rhythmus. Der Algorithmus passt sich realistischer an die Schwierigkeit des Abrufs an und reduziert meist unnötige Wiederholungen im Vergleich zu älteren, gröberen Ansätzen.
+Wenn du ausgewählte Karten neu aufbauen möchtest, hilft dir der bewusst enger gefasste [Workflow für den Quizlet-Export](/blog/how-to-export-quizlet-sets-and-turn-them-into-fsrs-flashcards/). Dort geht es darum, den exportierten Text zu bereinigen, statt eine automatische Konvertierung zu versprechen, die es nicht gibt.
 
-Das ist kein technisches Detail für Nerds. Davon hängt ab, ob sich eine App mit hunderten oder tausenden Karten immer noch gut anfühlt.
+## Export und Portabilität haben beide klare Grenzen
 
-Wenn du die ausführlichere Version willst, findest du hier bereits einen tieferen Vergleich:
+Quizlet ermöglicht Erstellern, ihre [eigenen Begriffe und Definitionen](https://help.quizlet.com/hc/en-us/articles/360034345672-Exporting-your-sets) auf der Website zu exportieren. Bilder werden nicht exportiert, kopierte Sets lassen sich gar nicht exportieren. Das reicht aus, um einfachen Text aus zulässigen Sets zu sichern, ist aber kein vollständiger Kontoexport.
 
-- [FSRS vs SM-2 in 2026: Welcher Spaced-Repetition-Algorithmus hilft dir, mehr zu behalten?](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+Flashcards exportiert sein eigenes `flashcards.zip`-Paket. Es überträgt Karten, Tags und zugehörige Medien in einen anderen Flashcards-Arbeitsbereich. **Nicht** enthalten sind Wiederholungsverlauf, FSRS-Status, Einstellungen des Arbeitsbereichs, die vollständige Struktur der Decks oder Kontodaten.
 
-## Offline-Lernen ist wichtiger, als Produktmarketing vermuten lässt
+Das Flashcards-Paket dient damit zur Übertragung von Inhalten. Es ist weder eine vollständige Sicherung noch eine verlustfreie Migration von der gehosteten zur selbst gehosteten Version. Wer Flashcards selbst betreibt, braucht Datenbank- und Mediensicherungen für eine echte Notfallwiederherstellung. Der [Self-Hosting-Leitfaden](/docs/self-hosting/) erklärt diese betriebliche Grenze.
 
-Ich teste Lerntools gern an leicht nervigen Orten: in Zügen, an Flughäfen, mit schwachem WLAN, halb leerem Handy-Akku und wenig Geduld.
+Quizlet bietet für exportierbare, selbst erstellte Sets den leichter zugänglichen Klartext-Export. Flashcards nimmt die zugehörigen Medien in sein Paket für die Übertragung zwischen Arbeitsbereichen auf, doch das Format ist enger und erhält den Lernverlauf nicht. Keiner der beiden Exporte bildet das gesamte Konto vollständig ab.
 
-Dort zeigt sich schnell, dass viele "moderne" Karteikarten-Produkte in Wahrheit nur verkleidete Websites sind.
+## Was „Dateneigentum“ ehrlich bedeuten kann
 
-Die wirklich brauchbare Version einer **offline flashcards app** ist strenger:
+Quizlet ist eine geschlossene, gehostete Software. Die [Nutzungsbedingungen](https://quizlet.com/tos) enthalten eine Lizenz für Nutzerinhalte. Diese Lizenz ist jedoch nicht mit dem Urheberrecht an jeder von dir geschriebenen Karte gleichzusetzen. Die praktische Einschränkung betrifft die Kontrolle: Nutzer können den Anwendungsstack weder einsehen noch ändern oder selbst betreiben.
 
-- die Karten sind lokal
-- Wiederholungen werden sofort gespeichert
-- Bearbeitungen fühlen sich nicht wie eine temporäre Ausnahme an
-- die Synchronisierung passiert später, statt zwischen dir und der nächsten Karte zu stehen
+Flashcards steht unter der MIT-Lizenz und ist als gehostete Web-, iOS- und Android-App verfügbar. Auch diese Version bleibt gehostete Software. Nur weil du sie nutzt, liegt die Datenbank nicht plötzlich bei dir.
 
-Genau auf diese Architektur zielt Flashcards in Web- und iOS-Apps ab. Erst lernen. Später synchronisieren. So bleibt die Warteschlange ruhig.
+Deutlich mehr Kontrolle bietet Self-Hosting. Flashcards enthält ein produktionsreifes Deployment auf Basis von AWS CDK. Betreibst du es in deinem eigenen AWS-Konto, kontrollierst du Infrastruktur und Datenbank. Dafür bist du auch für Kosten, Secrets, Upgrades, Backups, Monitoring und Wiederherstellungen verantwortlich. Diese Option gibt es tatsächlich, sie ist aber nicht mit der einfachen Anmeldung bei einer App für Endnutzer vergleichbar.
 
-Das passt deutlich besser zu echtem Lernen, als Offline-Nutzung wie einen exotischen Sonderfall zu behandeln, der nur in Marketingtexten vorkommt.
+Für viele Menschen bedeutet „Open Source“, dass sie den Code einsehen und ändern können. Betreiber können das System zusätzlich selbst ausführen. Wer ausschließlich die gehostete Version nutzt und weder exportiert noch selbst hostet, für den fällt der Unterschied bei der alltäglichen Datenkontrolle allerdings kleiner aus.
 
-Wenn genau das der Hauptgrund ist, warum dir Quizlet zu oberflächlich vorkommt, findest du hier mehr dazu:
+## Wer sollte welche App wählen?
 
-- [Die beste Offline-Flashcards-App 2026: Mit FSRS und Sync ohne Internet lernen](https://flashcards-open-source-app.com/blog/best-offline-flashcards-app/)
+Quizlet passt wahrscheinlich besser, wenn du:
 
-## Eigentum zählt, weil Decks kein Wegwerf-Content sind
+- mit öffentlichen oder von Lehrkräften erstellten Sets lernst
+- den Lernen- und den Test-Modus regelmäßig nutzt
+- generierte Übungstests und mehrere KI-Lernformate möchtest
+- einen einfachen Import von durch Trennzeichen getrenntem Text brauchst
+- für einen Kurs oder eine Lerngruppe die vertrauteste Option suchst
 
-Dieser Punkt wird oft unterschätzt.
+Flashcards passt wahrscheinlich besser, wenn du:
 
-Karteikarten sind nicht nur temporäres Schulmaterial. Mit der Zeit werden sie zu einer Landkarte dessen, was du lernst, was du immer wieder vergisst, welche Themen wichtig genug sind, um zu ihnen zurückzukehren, und wie sich dein Verständnis verändert.
+- ausdrücklich eine Open-Source-Alternative zu Quizlet suchst
+- eine unkomplizierte FSRS-6-Routine mit Karten aus Vorder- und Rückseite bevorzugst
+- Änderungen im Browser sowie auf iOS und Android auch offline speichern möchtest
+- KI-Chat, Dateianhänge, MCP oder eine Agent API im selben Arbeitsbereich möchtest
+- den Code prüfen oder den AWS-Stack selbst betreiben willst
+- akzeptierst, dass geteilte Inhalte und Migrationsunterstützung derzeit begrenzt sind
 
-Das sind wertvolle persönliche Daten.
+Vielleicht passt auch keine der beiden Apps. Anki ist zum Beispiel die bessere Wahl, wenn dir ein ausgereiftes Add-on-Ökosystem, fortgeschrittene Kartenvorlagen, geteilte Decks und etablierte Paketformate wichtiger sind als eine moderne, gehostete Oberfläche.
 
-Ich finde die Vorstellung nicht besonders attraktiv, so etwas in einem System aufzubauen, das ich weder prüfen noch wirklich mitgestalten kann.
+## Die ehrliche Entscheidung für eine Open-Source-Quizlet-Alternative
 
-Mit einer Open-Source-Karteikarten-App verändert sich die Ausgangslage. Du kannst heute das gehostete Produkt nutzen, später selbst hosten, die Architektur nachlesen und sicher sein, dass deine Decks nicht für immer in einer geschlossenen Plattform feststecken.
+Flashcards ist 2026 eine **Open-Source-Alternative zu Quizlet** für einen bestimmten Nutzertyp: für Menschen, die Quizlets geführte Modi und sein großes Netzwerk an Lerninhalten gegen einen dokumentierten FSRS-6-Algorithmus, Offline-First-Speicherung im Web und auf Mobilgeräten, Agentenzugriff und Self-Hosting unter MIT-Lizenz eintauschen möchten.
 
-Für alle, die eine langfristige **Quizlet-Alternative** suchen, ist das eine deutlich gesündere Antwort als das nächste glatt polierte Produkt, das am Ende mehr Kontrolle über dein Lernsystem hat als du selbst.
+Flashcards ist nicht „Quizlet ohne die Nachteile“. Die App hat eigene Lücken: keine speziellen Lernen- oder Test-Modi, keine vergleichbare Bibliothek geteilter Sets, keinen direkten Quizlet-Importer und keine vollständige portable Sicherung über `flashcards.zip`.
 
-Wenn Datenhoheit und Self-Hosting dein Hauptgrund fürs Umschauen sind, dann beginne hier:
-
-- [Self-Hosted Open Source Flashcards App für Spaced Repetition](https://flashcards-open-source-app.com/blog/self-hosted-open-source-flashcards-app-for-spaced-repetition/)
-
-## KI ist nützlich, wenn sie Arbeit entfernt, statt Lernen zu ersetzen
-
-Auch an dieser Stelle wird gern zu viel Theater gemacht.
-
-Viele **AI flashcards app**-Produkte enden im Grunde bei der Demo. Text einfügen, Karten ausgeben lassen, kurz staunen, fertig.
-
-Die nützlichere Variante ist kleiner gedacht und ehrlicher.
-
-Nutze KI, um aus Notizen, hochgeladenen Dateien oder bestehendem Material erste Entwürfe zu machen. Diese Entwürfe bleiben dann im selben Arbeitsbereich, in dem du sie später tatsächlich wiederholst, bearbeitest und lernst.
-
-Genau dadurch wird der Workflow in Flashcards stärker, weil das Produkt Folgendes zusammenbringt:
-
-- Erstellung von Vorder- und Rückseite
-- KI-Chat
-- Datei-Anhänge
-- textbasierte Entwurfs-Workflows
-- FSRS-basierte Wiederholung
-
-Wenn dir dieser Teil am wichtigsten ist, findest du hier die ausführlichere Version:
-
-- [Wie du 2026 Notizen in Flashcards verwandelst: KI-Entwürfe mit FSRS statt manuellem Kopieren und Einfügen](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
-
-## Quizlet ist für gelegentliche Nutzung weiterhin okay. Die Suche zeigt meist, dass sich deine Anforderungen geändert haben.
-
-Das ist für mich die ehrliche Schlussfolgerung.
-
-Wenn du vor allem schnell loslegen willst, ein vertrautes Produkt suchst und ein leichtgewichtiges Mainstream-Lerntool brauchst, kann Quizlet weiterhin sinnvoll sein.
-
-Wenn du inzwischen stärkere Spaced Repetition, besseres Offline-Verhalten, eine offene Architektur, KI im tatsächlichen Produkt und langfristige Kontrolle über deine Decks willst, dann lautet die sinnvollere Antwort meist nicht "Quizlet, nur etwas günstiger".
-
-Es ist eine andere Werkzeugkategorie.
-
-Darum ist [Flashcards](https://flashcards-open-source-app.com/) 2026 die überzeugendere **Quizlet-Alternative**. Nicht, weil die App Quizlet perfekt kopieren will. Sondern weil sie auf die Aspekte ausgerichtet ist, die wichtiger werden, sobald Lernen zu einer dauerhaften Gewohnheit statt zu einer kurzfristigen Aufgabe wird.
-
-Wenn du diese Richtung erkunden willst:
-
-- [App öffnen](https://app.flashcards-open-source-app.com/)
-- [Anleitung für den Einstieg lesen](https://flashcards-open-source-app.com/docs/getting-started/)
-- [Quellcode auf GitHub ansehen](https://github.com/kirill-markin/flashcards-open-source-app)
+Wenn dir dadurch genau die Teile von Quizlet fehlen würden, die du am häufigsten nutzt, bleib bei Quizlet. Falls du vor allem wegen eines transparenten Planungsalgorithmus, Offline-First-Lernens und der Kontrolle über die Infrastruktur nach einer Quizlet-Alternative suchst, [öffne Flashcards](https://app.flashcards-open-source-app.com/) oder [sieh dir den Quellcode an](https://github.com/kirill-markin/flashcards-open-source-app), bevor du dich entscheidest. Ein gutes Lernsystem ist eines, dessen Kompromisse auch dann noch vernünftig wirken, wenn der Reiz des Neuen verflogen ist.
