@@ -17,6 +17,23 @@ export type PublicCatalogPackageView = Readonly<{
   coverMediaAsset: PublicCatalogMediaAsset | null;
 }>;
 
+export type PublicCatalogPackageCardView = Readonly<{
+  packageMetadata: Pick<
+    PublicCatalogPackage,
+    | "packageId"
+    | "slug"
+    | "title"
+    | "summary"
+    | "languageTags"
+    | "topicTags"
+    | "license"
+    | "publishedAt"
+  >;
+  author: Pick<PublicCatalogAuthor, "slug" | "displayName">;
+  latestVersion: Pick<PublicCatalogPackageVersion, "cardCount">;
+  coverMediaAsset: Pick<PublicCatalogMediaAsset, "altText"> | null;
+}>;
+
 export type PublicCatalogReadModel = Readonly<{
   schemaVersion: PublicCatalogDump["schemaVersion"];
   generatedAt: string;
