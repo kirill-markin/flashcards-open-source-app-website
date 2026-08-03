@@ -1,196 +1,143 @@
 ---
-title: "Memrise Alternative 2026: Open-Source-Flashcards-App mit FSRS, Offline-Lernen und iPhone-first-Workflow"
-description: "Du suchst 2026 nach einer Memrise Alternative? Hier ist der praktische Trade-off: Memrise ist zugänglich und sprachfreundlich, während eine Open-Source-Flashcards-App FSRS-Scheduling, Offline-first-Lernen, iPhone-Support und langfristiges Eigentum an deinen Decks bietet."
+title: "Memrise-Alternative 2026: Memrise vs. Flashcards"
+description: "Memrise und Flashcards im Vergleich: offizielle Sprachkurse, eigener Wortschatz, FSRS-6, Offline-Lernen, Migration, Open Source und Self-Hosting."
 date: "2026-03-22"
+updated: "2026-08-03"
+image: "/blog/memrise-alternative.png"
 keywords:
-  - "memrise alternative"
-  - "memrise alternative 2026"
-  - "open source memrise alternative"
-  - "fsrs flashcards app"
-  - "offline flashcards app"
-  - "iphone flashcards app"
-  - "language learning flashcards app"
-  - "spaced repetition app"
+  - "Memrise-Alternative"
+  - "Memrise-Alternative 2026"
+  - "Memrise vs. Flashcards"
+  - "Open-Source-Alternative zu Memrise"
+  - "Lernkarten-App zum Sprachenlernen"
+  - "FSRS-Lernkarten-App"
+  - "Offline-Lernkarten-App"
+  - "selbst gehostete Lernkarten-App"
 ---
 
-Letzten Donnerstag habe ich ein paar grobe Vokabelnotizen auf dem Handy in Karten verwandelt, kurz die Verbindung in der Metro verloren und mich daran erinnert, warum Menschen nach einer **Memrise Alternative** suchen. Das Problem ist selten, dass sich Memrise schlecht anfühlt. Meist fühlt es sich sehr schnell gut an. Die Suche beginnt später, wenn sich das Lernsystem mehr nach deinem eigenen und weniger nach einem polierten Ort anfühlen soll, den du nur für eine Weile ausleihst.
+Du kannst Memrise ohne Vokabelliste öffnen, und die App zeigt dir trotzdem, was als Nächstes ansteht. Ein leerer Flashcards-Workspace bleibt dagegen leer, bis du selbst etwas hinzufügst. Das ist der entscheidende Unterschied für alle, die nach einer **Memrise-Alternative** suchen.
 
-Das ist die eigentliche Suche nach **Memrise alternative 2026**.
+Memrise bietet fertige offizielle Sprachinhalte, nützliche Redewendungen, Videos und Audioaufnahmen von Muttersprachlern sowie geführte Übungen. Mit [Flashcards](/features/) baust du deine eigene Kartensammlung auf und planst die Wiederholungen mit FSRS-6. Du bekommst mehr Kontrolle über die Karten und die Software, brauchst aber eine andere Quelle, aus der du die Sprache lernst.
 
-## Memrise ist attraktiv, weil es Sprachenlernen leichter wirken lässt
+> **Offenlegung:** Ich bin Kirill Markin und entwickle Flashcards, eines der hier verglichenen Produkte. Für Lernende, die strukturierte Sprachinhalte und integrierte Übungen zum Hörverstehen, zur Aussprache und zum Sprechen suchen, ist Memrise die stärkere Wahl.
 
-Ich finde, man sollte fair darüber sprechen.
+**Stand der Angaben:** 3. August 2026.
 
-Viele Lerntools machen ernsthaftes Lernen immer noch umständlicher, als es sein müsste. Zu viel Setup. Zu viel Reibung. Zu viel Produktenergie, die stillschweigend davon ausgeht, dass der Nutzer Schmerz akzeptiert, weil das Ziel ja edel ist.
+![Eine Sprachlernende notiert nach einem Gespräch mit einem Markthändler eine nützliche Wendung auf einer Karte](/blog/memrise-alternative.png)
 
-Memrise ist aus dem gegenteiligen Grund attraktiv.
+## Kurz gesagt
 
-Es wirkt zugänglich. Verbraucherfreundlicher. Weniger wie Lernsoftware von Menschen, die davon ausgehen, dass du Konfigurationsbildschirme genießen wirst.
+- Wähle **Memrise**, wenn du mit fertigen offiziellen Inhalten beginnen, Muttersprachler hören und Wortschatz, Hörverstehen, Aussprache, Satzbildung und Gespräche in einem Produkt üben möchtest.
+- Wähle **Flashcards**, wenn dein Lernstoff bereits von einer Lehrkraft, aus einem Lehrbuch oder Kurs, aus Lektüre, Hörmaterial oder Gesprächen stammt und du genau entscheiden möchtest, welche Inhalte in die dokumentierte FSRS-6-Wiederholungsplanung einfließen.
+- Nutze **beide**, wenn Memrise den Lernpfad vorgibt und Flashcards die kleinere Auswahl eigener Wörter, Korrekturen und Wendungen festhält, die du dir langfristig merken möchtest.
 
-Das ist wichtig.
+Flashcards ist keine kostenlose Open-Source-Kopie von Memrise. Die App kann persönliche Karten und deren Wiederholung übernehmen, nicht aber das Sprachlernprogramm drumherum.
 
-Für viele Menschen, besonders beim Sprachenlernen, ist Leichtigkeit kein oberflächliches Detail. Leichtigkeit ist der Unterschied zwischen einer Lerngewohnheit, die überlebt, und einer, die wieder zur bloßen Absicht wird.
+## Memrise vs. Flashcards auf einen Blick
 
-Die Probleme beginnen, wenn "leicht anzufangen" nicht mehr reicht.
+| Frage | Memrise | Flashcards |
+|---|---|---|
+| Am besten geeignet für | Lernen mit fertigen offiziellen Sprachinhalten und Übungen für mehrere Sprachfertigkeiten | Langfristiges Wiederholen von Lernstoff, den du selbst aus anderen Quellen ausgewählt hast |
+| Einstieg ohne Vorkenntnisse | Einfacher: Memrise stellt nützliche Wörter, Redewendungen, Szenarien und Übungen bereit | Schwieriger: Du musst Karten erstellen oder generieren und entscheiden, was sich zu lernen lohnt |
+| Sprachinhalte | Offizielle Kurse mit Videos und Audioaufnahmen von Muttersprachlern; eigene Wortlisten kehren schrittweise in die Haupt-App zurück; ältere Community-Kurse bleiben auf einer separaten Website verfügbar | Kein integrierter Sprachlehrplan und keine öffentliche Kursbibliothek |
+| Übungen | Wortschatz, Satzbildung, Hörverstehen, Aussprache, Verbkonjugation, Videos von Muttersprachlern und KI-gestützte Sprechübungen | Abfrage mit Karten aus Vorder- und Rückseite; kein integrierter Kurs für verschiedene Sprachfertigkeiten |
+| Wiederholungsplanung | Intelligente Wiederholung und Spaced Repetition innerhalb des Memrise-Lernangebots | Dokumentiertes FSRS-6 mit Again, Hard, Good und Easy |
+| Offline | Laut Memrise hat die neue offizielle Lernerfahrung keinen Offline-Modus | Normale Karten, Bearbeitungen und Wiederholungen werden im Web, unter iOS und Android zuerst lokal gespeichert und nach der erneuten Verbindung synchronisiert |
+| Quellcode und Hosting | Proprietäres gehostetes Produkt | MIT-lizenzierter Code, ein gehostetes Produkt und ein Self-Hosting-Weg für den gesamten Stack mit AWS CDK |
+| Übertragung | Der Download persönlicher Daten ist eine HTML-Datei, kein wiederverwendbares Kartenpaket | `flashcards.zip` überträgt aktive Karten, Tags und referenzierte Medien, lässt wichtige Daten jedoch aus |
 
-Das passiert meist dann, wenn:
+Die beiden Produkte setzen an unterschiedlichen Punkten an. Memrise wählt Sprachmaterial aus, vermittelt es und übt es mit dir. Flashcards geht davon aus, dass du den Lernstoff anderswo gefunden hast und dafür ein dauerhaftes Wiederholungssystem suchst.
 
-- deine eigenen Decks wichtiger werden
-- Review-Timing spürbar zählt
-- Offline-Vertrauen nicht verhandelbar wird
-- das Handy deine Haupt-Lernoberfläche ist
-- du willst, dass das System dein Material widerspiegelt und nicht nur die bevorzugte Form des Produkts
+## Memrise liefert vom ersten Tag an Lernstoff
 
-Genau dann wirkt eine bessere **language learning flashcards app** nützlicher als ein freundlicheres geschlossenes Lernprodukt.
+Der größte Vorteil von Memrise ist die Vorarbeit, die Lernenden bereits abgenommen wurde. Die [offizielle Sprachlernerfahrung](https://www.memrise.com/en-us/) stellt nützliche Wörter und Redewendungen zusammen, zeigt Videos von Muttersprachlern und verbindet Wiederholungen mit Aussprache, Verbkonjugation, Satzbildung, Hörverstehen und KI-gestützten Sprechübungen. Wer bei null anfängt, kann die App öffnen, ohne zuerst einen eigenen Lehrplan erstellen zu müssen.
 
-## Die nützliche Alternative ist nicht einfach eine weitere polierte App mit denselben Grenzen
+Der [offizielle Englischkurs](https://www.memrise.com/languages/english-course) zeigt den Unterschied ganz konkret. Er arbeitet mit kurzen Lektionen, Beispielen aus dem Alltag sowie Video- und Audioaufnahmen von Muttersprachlern. Du musst nicht für jede Aussprache eine eigene Aufnahme erstellen, jeden Beispielsatz suchen oder entscheiden, welche grundlegende Redewendung als Nächstes kommt.
 
-Hier werden viele Vergleichsseiten etwas unehrlich.
+Auch Memrise bietet intelligente Wiederholungen und Spaced Repetition. Flashcards ergänzt also nicht einfach eine fehlende Wiederholungsfunktion. Bei Memrise ist die Wiederholung Teil eines umfassenderen Sprachlernangebots. Flashcards nennt und dokumentiert dagegen den Scheduler für die Karten, die du selbst auswählst.
 
-Wenn du nach einer **Memrise Alternative** suchst, ist die Antwort nicht automatisch: finde einfach eine andere App, die freundlich und modern wirkt.
+Eine gute persönliche Vokabelsammlung zusammenzustellen, verlangt mehr Urteilsvermögen, als es zunächst scheint. Du musst nützlichen Lernstoff erkennen, eine eindeutige Frage und Antwort formulieren, Fehler korrigieren, bei Bedarf Medien ergänzen und schwache Karten entfernen. Manche Lernende möchten diese Kontrolle. Andere wollen einfach die nächste Lektion öffnen und loslegen.
 
-Oft ist die bessere Antwort ein Tool mit einem stärkeren Gedächtnissystem darunter.
+## Flashcards ist kein vollständiges Sprachlernprogramm
 
-Die App sollte dir helfen:
+Diese Grenze verdient einen eigenen Abschnitt, denn „Open-Source-Alternative zu Memrise“ kann wie das Versprechen eines vollständigen Ersatzes klingen.
 
-- eigene Karten sauber zu erstellen
-- dem Review-Timing zu vertrauen
-- offline ohne seltsame Nervosität zu lernen
-- deine Decks unter deiner Kontrolle zu halten
-- das Handy als echten Client zu nutzen und nicht als zweitklassigen
+Flashcards hat keinen fertigen Lehrplan. Die App bietet weder eine Videobibliothek mit Muttersprachlern noch eine aufeinander aufbauende Grammatikvermittlung, einen integrierten Kurs für Hörverstehen und Aussprache oder einen mit Memrise vergleichbaren KI-gestützten Sprechkurs. Sie entscheidet auch nicht, welchen Wortschatz Anfänger zuerst lernen sollten.
 
-Darum ist [Flashcards](https://flashcards-open-source-app.com/) die stärkere Richtung, sobald das Deck persönlich und dauerhaft wird. Es versucht nicht, eine vage Lernplattform für alle zu sein. Es baut eine ernsthaftere Flashcards-Grundlage mit:
+Die sinnvolle Rolle von Flashcards ist enger: Die App dient als zusätzliches Werkzeug fürs langfristige Erinnern neben einer Quelle, die dir die Sprache vermittelt oder dich mit ihr in Kontakt bringt, zum Beispiel:
 
-- FSRS-Scheduling
-- Offline-first-Architektur
-- iPhone- und Web-Clients
-- KI-Drafting und Chat-Workflows
-- Open-Source-Code
-- einem Self-Hosting-Pfad
+- eine Lehrkraft, die deine Formulierungen korrigiert;
+- ein Lehrbuch oder ein strukturierter Onlinekurs;
+- Lese- und Hörmaterial;
+- Lektionen in einer anderen Sprachlern-App; oder
+- echte Gespräche, die Lücken in deinem Wortschatz sichtbar machen.
 
-Das ist eine viel nützlichere Antwort, als eine geschlossene App gegen die nächste zu tauschen und zu hoffen, dass die neue länger gut bleibt.
+Der [Leitfaden zu Lernkarten beim Sprachenlernen](/blog/how-to-use-flashcards-for-language-learning/) erklärt, wie du aus diesen Quellen nützliche Karten machst. Mit Flashcards kannst du ausgewählte Inhalte regelmäßig aktiv abrufen. Erklärungen, Grammatikunterricht, Hörübungen oder Gespräche mit anderen Menschen ersetzt die App nicht.
 
-## FSRS wird wichtig, sobald das Deck nicht mehr nur beiläufig ist
+## Bei persönlichem Wortschatz spielt Flashcards seine Stärke aus
 
-Das spürst du nicht am ersten Tag.
+Ein allgemeiner Kurs vermittelt, was für viele Lernende nützlich ist. Deine eigene Sammlung hält dagegen genau das fest, was du brauchst: eine Redewendung aus der heutigen Lektion, eine Korrektur deiner Lehrkraft, einen Satz in einem Buch, den du falsch verstanden hast, oder ein Wort, das bei der Arbeit ständig auftaucht.
 
-Du spürst es drei Wochen später.
+Flashcards macht daraus schlichte Karten mit Vorder- und Rückseite. Du bestimmst die Formulierung, die Antwort, die Tags und die referenzierten Medien. Du musst keinem offiziellen Thema folgen oder darauf warten, dass ein Wort in einem Kurs vorkommt.
 
-Dann zeigt der Review-Rhythmus seine Qualität. Leichte Karten kommen entweder zu oft zurück oder verschwinden für merkwürdige Strecken. Schwierige Karten fühlen sich schlecht getimt an. Die Warteschlange wird schwerer als das Lernen selbst.
+Der Haken: Die redaktionelle Arbeit bleibt an dir hängen. Wenn du jedes unbekannte Wort kopierst, wird die Wiederholungswarteschlange erstaunlich schnell unübersichtlich. Du musst weiterhin entscheiden, ob eine Redewendung nützlich, die Antwort korrekt und die Abfrage eindeutig ist. KI kann beim Entwerfen oder Überarbeiten helfen. Prüfe generierte Sprache aber, bevor du sie dir über Monate einprägst.
 
-Darum ist eine echte **FSRS flashcards app** wichtig.
+Hier kann es sinnvoll sein, beide Produkte zu nutzen. Memrise deckt allgemeinen Sprachstoff und abwechslungsreiche Übungen ab. Flashcards bewahrt die kleinere Auswahl persönlicher Inhalte auf, von der ein offizieller Kurs gar nicht wissen kann, dass du sie brauchst.
 
-FSRS liefert meist einen ruhigeren und glaubwürdigeren Review-Rhythmus als ältere oder leichtere Scheduling-Ansätze. Weniger sinnlose Wiederholungen. Besseres Timing. Mehr das Gefühl, dass die App dem Gedächtnis hilft statt Verwaltung zu erzeugen.
+## Memrise kann 2026 eigene Inhalte speichern
 
-Das ist kein Backend-Detail.
+In älteren Vergleichen steht oft, Memrise habe eigene Inhalte entfernt. Das ist so nicht mehr richtig.
 
-Es verändert, ob sich das Deck nach der Honeymoon-Phase noch lohnt.
+Das [Memrise-Update zu Community-Kursen von 2026](https://explore.memrise.com/community-courses) unterscheidet drei Arten von Inhalten:
 
-Wenn du den tieferen Scheduling-Vergleich willst, schau hier:
+- offizielle Memrise-Kurse im Hauptprodukt;
+- eigene Wortlisten, die schrittweise in die Haupt-App zurückkehren und dort das Memrise-Lernsystem nutzen; und
+- ältere Community-Kurse, die weiterhin auf der separaten Website für Community-Kurse verfügbar sind.
 
-- [FSRS vs SM-2 in 2026: Welcher Spaced-Repetition-Algorithmus hilft dir, mehr zu behalten?](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+Persönlicher Wortschatz ist daher kein Alleinstellungsmerkmal von Flashcards. Du kannst in Memrise Wortlisten anlegen, sie mit Spaced Repetition lernen und dabei Sprachmaterialien nutzen, die Memrise ergänzen kann. Ältere von Nutzern erstellte Kurse sind ebenfalls noch verfügbar, liegen aber weiterhin außerhalb der offiziellen Haupt-App.
 
-## Offline-Vertrauen zählt, weil Lernen an langweiligen echten Orten passiert
+Der entscheidende Unterschied liegt im Produktumfang und in der Kontrolle. Memrise integriert eigene Listen in sein Sprachlernsystem. Bei Flashcards steht die persönliche Kartensammlung im Mittelpunkt des ganzen Produkts; der Anwendungs- und Infrastrukturcode ist unter der MIT-Lizenz veröffentlicht.
 
-Ich teste Flashcards-Apps gern in wenig glamourösen Situationen:
+## Beide planen Wiederholungen, aber nur Flashcards dokumentiert FSRS-6
 
-- in der Metro
-- in Flughafenschlangen
-- im schwachen Hotel-WLAN
-- in zehn freien Minuten zwischen anderen Dingen
+Memrise beschreibt für offizielle Inhalte und die neuen Wortlisten intelligente Wiederholungen und Spaced Repetition. Die für diesen Artikel geprüften öffentlichen Informationen bezeichnen den Scheduler nicht als FSRS. Das belegt weder, dass Memrise intern FSRS verwendet, noch, dass es FSRS nicht verwendet. Der Algorithmus wird dort schlicht nicht dokumentiert.
 
-Genau dort entpuppen sich viele Tools still als Websites im Kostüm.
+Flashcards dokumentiert seine FSRS-6-Implementierung öffentlich. Bei einer Wiederholung deckst du die Rückseite auf und wählst Again, Hard, Good oder Easy. Diese Bewertung aktualisiert den Gedächtniszustand der Karte und den nächsten Fälligkeitszeitpunkt. [FSRS vs. SM-2](/blog/fsrs-vs-sm-2/) erklärt das Modell und vor allem, warum auch ein guter Scheduler eine unklare oder falsche Karte nicht retten kann.
 
-Eine nützliche **offline flashcards app** ist strenger:
+Ein transparenter Scheduler ist hilfreich, wenn du nachvollziehen möchtest, wie deine Wiederholungswarteschlange zustande kommt. Das breitere Übungsangebot von Memrise ist nützlicher, wenn du Sätze hören, bilden und sprechen musst. FSRS kann eine gespeicherte Antwort einplanen; fehlende Sprachübungen kann es nicht liefern.
 
-- Karten werden lokal gespeichert
-- Review-Aktionen werden sofort gesichert
-- Bearbeitungen fühlen sich nicht provisorisch an
-- Sync kann später ohne Drama passieren
+## Beim Offline-Lernen liegt Flashcards vorn – mit Einschränkungen
 
-Genau dieses Modell verfolgt Flashcards. Erst lernen. Später synchronisieren. Die Gewohnheit am Leben halten, auch wenn das Netz gerade nicht hilft.
+Auf der Memrise-Hilfeseite zur [neuen offiziellen Lernerfahrung](https://memrisebeta.zendesk.com/hc/en-us/articles/4437047561745-The-New-Memrise-Experience) steht, dass die Übungswerkzeuge Cloud-Dienste benötigen und die neue Lernerfahrung keinen Offline-Modus hat. Der Geltungsbereich ist dabei wichtig: Die Seite sagt nicht, wie sich jedes frühere Memrise-Produkt oder die separate Website für Community-Kurse verhält.
 
-Wenn Offline-Verhalten der Hauptgrund ist, warum du dich umsiehst, lies hier weiter:
+Flashcards speichert normale Karten, Bearbeitungen und Wiederholungen im Web, unter iOS und Android zuerst lokal. Die Web-App verwendet IndexedDB, die mobilen Apps nutzen SQLite-basierten Speicher. Nach der erneuten Verbindung lassen sich die Änderungen synchronisieren. Du musst daher nicht auf eine Serverantwort warten, um eine Karte manuell zu erstellen, einen Tippfehler zu korrigieren oder fällige Karten zu wiederholen. Der [Leitfaden zu Offline-Lernkarten](/blog/best-offline-flashcards-app/) beschreibt die Architektur ausführlicher.
 
-- [Die beste Offline-Flashcards-App 2026: Mit FSRS und Sync ohne Internet lernen](https://flashcards-open-source-app.com/blog/best-offline-flashcards-app/)
+Offline-first heißt nicht, dass alles offline funktioniert. Die Flashcards-KI, die Übertragung von Paketen über die Cloud und die Synchronisierung brauchen eine Internetverbindung. Die Offline-first-Zusage gilt für das normale Erstellen, Bearbeiten und Wiederholen von Karten.
 
-## Der iPhone-Workflow ist wichtiger, als viele zugeben
+## Es gibt keine direkte Migration von Memrise zu Flashcards
 
-Das klingt offensichtlich.
+Flashcards hat keinen Memrise-Importer. Es gibt keinen automatischen oder verlustfreien Weg, um einen offiziellen Memrise-Kurs, eine eigene Wortliste, einen älteren Community-Kurs, Medien und Lernfortschritte in einen Flashcards-Workspace zu übertragen.
 
-Und wird doch immer noch unterspielt.
+Bei Memrise können Nutzer [ihre persönlichen Daten herunterladen](https://memrisebeta.zendesk.com/hc/en-us/articles/4950580759313-How-can-I-download-a-copy-of-my-personal-data). Der Download ist eine lesbare HTML-Datei mit persönlichen Daten, aber weder ein wiederverwendbarer Deck-Export noch ein von Flashcards unterstütztes Migrationsformat.
 
-Die meisten Menschen brauchen nicht nur eine Flashcards-App, die technisch auf Mobile funktioniert. Sie brauchen eine, die zum Rhythmus kurzer täglicher Lernmomente passt:
+Auch das Flashcards-eigene Paket `flashcards.zip` ist weniger umfassend als ein vollständiges Backup. Es überträgt aktive Karten, Tags und referenzierte Medien zwischen Flashcards-Workspaces. Wiederholungsverlauf, FSRS-Zustand, Workspace-Einstellungen, vollständige Deckstruktur und Kontodaten sind nicht enthalten.
 
-- schnell öffnen
-- ohne Reibung reviewen
-- eine schwache Karte sofort korrigieren
-- darauf vertrauen, dass die Änderung wirklich gespeichert ist
-- später auf einem anderen Gerät weitermachen, ohne dass alles seltsam wird
+Wenn du Material manuell neu aufbaust, beginne mit einer kleinen Auswahl von Wörtern, die du wirklich brauchst. Prüfe Vorder- und Rückseite, Schreibweise, Abfragerichtung und Medien, bevor du mehr hinzufügst. Fortschritt und bisherige Wiederholungsplanung aus Memrise bleiben in Memrise. Ausgewählte Inhalte neu aufzubauen kann sich trotzdem lohnen. Es als echte Migration zu bezeichnen, würde jedoch zu viel versprechen.
 
-Darum ist der Blickwinkel **iphone flashcards app** hier so wichtig. Wenn der Handy-Workflow schwach ist, verschiebt sich die Gewohnheit immer wieder auf eine zukünftige "richtige Lernsitzung", die selten stattfindet.
+## Open Source und Self-Hosting lösen ein anderes Problem
 
-Flashcards bewegt sich bereits in diese bessere Richtung über die iPhone-App im Repository, Local-first-Speicher und dasselbe Backend-Modell, das iPhone-, Web- und Agent-Workflows verbindet.
+Flashcards veröffentlicht seinen Anwendungs- und Infrastrukturcode unter der [MIT-Lizenz](https://github.com/kirill-markin/flashcards-open-source-app). Du kannst das gehostete Produkt verwenden oder mit AWS CDK den gesamten Stack in deinem eigenen AWS-Konto bereitstellen. Der [Self-Hosting-Leitfaden](/docs/self-hosting/) beschreibt den Weg für den Produktivbetrieb.
 
-## KI ist nützlich, wenn sie die langweilige Entwurfsarbeit entfernt
+Der Unterschied ist wichtig. MIT-lizenzierter Code gibt dir Zugriff auf die Software. Self-Hosting verschafft dir mehr Kontrolle über Infrastruktur und Datenbank. Das gehostete Flashcards-Produkt bleibt dagegen ein Cloud-Dienst; durch die Registrierung landet seine Datenbank nicht in deinem AWS-Konto.
 
-Diese Kategorie wird sehr schnell theatralisch.
+Wer selbst hostet, übernimmt außerdem Kosten und Betriebsaufwand. Dazu gehören AWS-Kosten, Domains, Zugangsdaten, Upgrades, Monitoring, Backups, Sicherheit und Wiederherstellungen. KI-Anbieter können weitere Nutzungskosten verursachen. Die [Preisseite](/pricing/) trennt das gehostete Angebot von den Software- und Infrastrukturkosten.
 
-Viele "AI study"-Demos bleiben beim auffälligen Teil: Text einfügen, Karten bekommen, Magie bestaunen.
+All das behebt keine der Lücken bei der Sprachvermittlung. Einsehbarer Code kann dir sehr wichtig sein, erstellt aber weder die offiziellen Inhalte von Memrise noch Aufnahmen von Muttersprachlern oder integrierte Sprechübungen.
 
-Die nützlichere Version ist kleiner und ehrlicher.
+## Welche Memrise-Alternative passt zu deinem Sprachlernen?
 
-Nutze KI, um aus Notizen, Phrasen, Beispielen oder Quellmaterial einen ersten Entwurf zu erstellen. Bearbeite die Karten dann an demselben Ort, an dem du sie später wirklich reviewen wirst.
+Bleib bei Memrise, wenn die App den Lernpfad vorgeben soll. Für Anfänger, fertige offizielle Inhalte, Aufnahmen von Muttersprachlern, Hör- und Ausspracheübungen, Satztraining und KI-Gespräche bietet Memrise das vollständigere Gesamtpaket. Durch die Rückkehr eigener Wortlisten ist Memrise beim persönlichen Wortschatz außerdem flexibler, als ältere Vergleiche vermuten lassen.
 
-Das ist ein besserer Workflow, weil die KI beim Entwurf hilft und nicht vorgibt, Urteilskraft zu ersetzen.
+Wähle Flashcards, wenn du bereits eine Lehrkraft, einen Kurs, ein Lehrbuch oder eine andere Quelle hast und dein eigenes Material mit dokumentiertem FSRS-6, Offline-first-Speicherung im Web und auf Mobilgeräten, MIT-lizenziertem Code oder Self-Hosting des gesamten Stacks pflegen möchtest. Dafür erstellst und pflegst du die Karten selbst; außerdem fehlen der Sprachlehrplan und ein direkter Memrise-Import.
 
-Gerade für Sprachlernende ist das stark. Vokabellisten, Beispielsätze, grobe Notizen aus einer Lektion, kleine Lesestellen, die du behalten willst. KI kann daraus viel schneller einen Startpunkt machen als manuelles Copy-and-paste.
-
-Flashcards passt dazu bereits besser durch:
-
-- KI-Chat
-- Datei-Anhänge
-- textbasiertes Drafting
-- normale Bearbeitung nach dem Entwurf
-- FSRS-Review im selben Produkt
-
-Wenn dich vor allem die manuelle Arbeit beim Kartenschreiben zum Suchen gebracht hat, lies hier weiter:
-
-- [Wie du 2026 Notizen in Flashcards verwandelst: KI-Entwürfe mit FSRS statt manuellem Copy-and-paste](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
-
-## Eigentum wird wichtig, weil Decks zu persönlicher Infrastruktur werden
-
-Am Anfang wirkt ein Deck temporär.
-
-Dann vergehen Monate.
-
-Die Karten beginnen, deine Fehler, deine Formulierungen, die Beispiele, die für dich funktionieren, die Wörter, die dir immer wieder entgleiten, und die Themen, die dir wichtig genug sind, um sie lebendig zu halten, widerzuspiegeln.
-
-Dann ist das Deck kein lockeres Lernmaterial mehr, sondern Teil deines persönlichen Wissenssystems.
-
-Genau hier beginnt Open Source stärker zu zählen.
-
-Mit einer **open source Memrise alternative** ist der Code sichtbar. Die Architektur ist sichtbar. Der Self-Hosting-Pfad existiert. Selbst wenn du nie selbst hostest, ist das ein gesünderer Langzeit-Deal, als deinen Gedächtnis-Workflow in einem geschlossenen System aufzubauen, das du nicht wirklich prüfen kannst.
-
-Das ist umso wichtiger, wenn das Deck nicht mehr generischer Content, sondern dein eigener Lernwert ist.
-
-Wenn Eigentum der Hauptgrund für deine Suche ist, starte hier:
-
-- [Self-Hosted Open Source Flashcards App für Spaced Repetition](https://flashcards-open-source-app.com/blog/self-hosted-open-source-flashcards-app-for-spaced-repetition/)
-
-## Was ist also 2026 die beste Memrise Alternative?
-
-Wenn deine höchste Priorität eine freundliche, sprachorientierte App ist, die sich vom ersten Tag leicht anfühlt, kann Memrise weiterhin sinnvoll sein.
-
-Wenn du jetzt besseres Scheduling, stärkeres Offline-Vertrauen, einen ernsthafteren iPhone-Workflow, KI-Drafting im echten Lernfluss und langfristiges Eigentum an deinen Decks willst, lautet die bessere Antwort meist nicht "Memrise, aber mit ein paar Extra-Features".
-
-Es ist eine andere Werkzeugkategorie.
-
-Darum ist [Flashcards](https://flashcards-open-source-app.com/) 2026 eine stärkere **Memrise Alternative**. Nicht, weil es Memrise perfekt imitieren will. Sondern weil es um die Teile herum gebaut ist, die wichtiger werden, sobald das Deck real wird, Review-Timing zählt und sich das Produkt auch dann noch vertrauenswürdig anfühlen muss, wenn der erste gute Eindruck verblasst.
-
-Wenn du diese Richtung erkunden willst:
-
-- [Flashcards öffnen](https://flashcards-open-source-app.com/)
-- [Die App öffnen](https://app.flashcards-open-source-app.com/)
-- [Erste Schritte](https://flashcards-open-source-app.com/docs/getting-started/)
-- [Den Sourcecode auf GitHub ansehen](https://github.com/kirill-markin/flashcards-open-source-app)
+Beide Apps zu kombinieren ist oft die klarste Antwort auf **Memrise vs. Flashcards**. Lerne mit Memrise, einer Lehrkraft, Lektüre, Hörmaterial und echten Gesprächen. Übernimm nur das persönliche Material in Flashcards, das du langfristig wiederholen möchtest. Wenn du genau diese ergänzende Rolle von einer **Open-Source-Alternative zu Memrise** erwartest, sieh dir die [Funktionen von Flashcards](/features/) an und teste den Workflow mit einer kleinen Auswahl, bevor du wichtige Inhalte überträgst.
