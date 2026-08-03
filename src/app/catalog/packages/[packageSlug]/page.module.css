@@ -1,0 +1,381 @@
+.container {
+  width: min(100%, 980px);
+  margin: 0 auto;
+  padding: 36px 20px 0;
+  display: grid;
+  gap: 18px;
+}
+
+.packagePanel,
+.cardsPanel {
+  border: 1px solid var(--border);
+  border-radius: var(--radius-xl);
+  background: var(--surface);
+  box-shadow: var(--shadow-soft);
+  overflow: hidden;
+}
+
+.intro {
+  padding: clamp(20px, 3vw, 28px);
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: minmax(180px, 240px) minmax(0, 1fr);
+  gap: clamp(20px, 4vw, 34px);
+  align-items: center;
+}
+
+.coverColumn {
+  min-width: 0;
+}
+
+.coverColumn > div {
+  min-block-size: 220px;
+}
+
+.heroContent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  min-width: 0;
+}
+
+.title {
+  margin: 0;
+  font-size: clamp(2rem, 4vw, 3rem);
+  line-height: 1.02;
+  letter-spacing: -0.04em;
+  overflow-wrap: anywhere;
+}
+
+.summary {
+  margin: 14px 0 0;
+  color: var(--text-secondary);
+  font-size: 16px;
+  line-height: 1.6;
+  overflow-wrap: anywhere;
+}
+
+.byline {
+  margin: 12px 0 0;
+  color: var(--text-secondary);
+  font-size: 14px;
+}
+
+.byline a,
+.facetList a {
+  text-decoration: underline;
+  text-underline-offset: 0.16em;
+}
+
+.byline a:hover,
+.facetList a:hover,
+.markdown a:hover {
+  color: #ffd6c9;
+}
+
+.byline a:focus-visible,
+.facetList a:focus-visible,
+.installButton:focus-visible,
+.markdown a:focus-visible {
+  outline: 2px solid rgba(255, 214, 201, 0.42);
+  outline-offset: 3px;
+}
+
+.installButton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  margin-top: 20px;
+  padding-inline: 18px;
+  border-radius: var(--radius-pill);
+  background: var(--accent);
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  transition: background 140ms ease;
+}
+
+.installButton:hover {
+  background: var(--accent-strong);
+}
+
+.details {
+  padding: 0 clamp(20px, 3vw, 28px) clamp(20px, 3vw, 28px);
+}
+
+.factGrid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.fact {
+  min-width: 0;
+  padding: 14px;
+  border-radius: var(--radius-md);
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.fact dt {
+  margin-bottom: 5px;
+  color: var(--text-tertiary);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.fact dd {
+  margin: 0;
+  color: var(--text-secondary);
+  font-size: 14px;
+  overflow-wrap: anywhere;
+}
+
+.facetList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 10px;
+}
+
+.warning {
+  margin-top: 18px;
+  padding: 14px 16px;
+  border: 1px solid rgba(255, 77, 87, 0.35);
+  border-radius: var(--radius-md);
+  background: rgba(255, 77, 87, 0.08);
+}
+
+.warning strong {
+  color: var(--danger);
+  font-size: 13px;
+}
+
+.warning p {
+  margin: 4px 0 0;
+  color: var(--text-secondary);
+  font-size: 14px;
+}
+
+.descriptionSection {
+  margin-top: 26px;
+}
+
+.descriptionSection > h2,
+.cardsPanel > h2 {
+  margin: 0 0 16px;
+  font-size: 1.35rem;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+}
+
+.markdown {
+  min-width: 0;
+  color: var(--text-secondary);
+  font-family: var(--reading-serif-font-family);
+  font-size: 16px;
+  line-height: 1.68;
+  overflow-wrap: anywhere;
+}
+
+.markdown > :first-child {
+  margin-top: 0;
+}
+
+.markdown > :last-child {
+  margin-bottom: 0;
+}
+
+.markdown p,
+.markdown ul,
+.markdown ol,
+.markdown pre,
+.markdown blockquote,
+.markdown table {
+  margin: 0 0 12px;
+}
+
+.markdown h1,
+.markdown h2,
+.markdown h3,
+.markdown h4,
+.markdown h5,
+.markdown h6 {
+  margin: 24px 0 10px;
+  color: var(--text);
+  line-height: 1.25;
+}
+
+.markdown ul,
+.markdown ol {
+  padding-inline-start: 22px;
+}
+
+.markdown a {
+  color: #ffd6c9;
+  text-decoration: underline;
+  text-underline-offset: 0.14em;
+}
+
+.markdown code {
+  padding: 2px 6px;
+  border: 1px solid var(--border);
+  border-radius: 7px;
+  background: rgba(255, 255, 255, 0.06);
+  color: var(--text);
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 0.86em;
+  white-space: normal;
+}
+
+.markdown pre {
+  max-width: 100%;
+  padding: 14px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  background: rgba(7, 7, 10, 0.58);
+  overflow-x: auto;
+}
+
+.markdown pre code {
+  padding: 0;
+  border: 0;
+  background: transparent;
+  white-space: pre;
+}
+
+.markdown table {
+  display: block;
+  max-width: 100%;
+  border-collapse: collapse;
+  overflow-x: auto;
+}
+
+.markdown th,
+.markdown td {
+  padding: 9px 11px;
+  border: 1px solid var(--border);
+  text-align: start;
+  vertical-align: top;
+}
+
+.markdown img {
+  max-width: 100%;
+  height: auto;
+  border-radius: var(--radius-md);
+}
+
+.cardsPanel {
+  padding: clamp(20px, 3vw, 28px);
+}
+
+.cardList {
+  display: grid;
+  gap: 14px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.card {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+  padding: 18px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  background: rgba(255, 255, 255, 0.035);
+}
+
+.cardNumber {
+  position: absolute;
+  inset-block-start: 10px;
+  inset-inline-end: 12px;
+  color: var(--text-tertiary);
+  font-size: 12px;
+}
+
+.cardSide {
+  min-width: 0;
+  padding: 12px;
+  border-radius: var(--radius-md);
+  background: rgba(0, 0, 0, 0.18);
+}
+
+.cardSide > h3 {
+  margin: 0 0 9px;
+  color: var(--text-tertiary);
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.tags {
+  grid-column: 1 / -1;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  color: var(--text-tertiary);
+  font-size: 12px;
+}
+
+.tags ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.tags li {
+  padding: 3px 8px;
+  border-radius: var(--radius-pill);
+  background: var(--accent-soft);
+  color: var(--accent-strong);
+}
+
+.empty {
+  margin: 0;
+  color: var(--text-secondary);
+}
+
+@media (max-width: 700px) {
+  .container {
+    padding-inline: 14px;
+    padding-top: 26px;
+  }
+
+  .packagePanel,
+  .cardsPanel {
+    border-radius: 20px;
+  }
+
+  .intro,
+  .cardsPanel {
+    padding: 16px;
+  }
+
+  .hero,
+  .factGrid,
+  .card {
+    grid-template-columns: 1fr;
+  }
+
+  .coverColumn > div {
+    min-block-size: 170px;
+  }
+
+  .details {
+    padding: 0 16px 16px;
+  }
+
+  .tags {
+    grid-column: auto;
+  }
+}

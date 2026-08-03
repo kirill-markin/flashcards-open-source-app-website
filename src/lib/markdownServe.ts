@@ -21,6 +21,7 @@ import {
   type MarketingPageMarkdownContext,
   type MarkdownSiteContext,
 } from "@/lib/content/renderMarkdown";
+import { renderMarkdownLink } from "@/lib/markdownLinks";
 import {
   globalActivitySnapshotUrl,
   type GlobalActivitySnapshot,
@@ -39,6 +40,12 @@ import {
   getDashboardsPageTitle,
 } from "@/lib/dashboardsPage";
 import { getUiCopy } from "@/lib/uiCopy";
+import {
+  listPublicCatalogMarkdownPagePaths,
+  renderPublicCatalogLlmsSection,
+  renderPublicCatalogMarkdownDocument,
+} from "@/lib/publicCatalogMarkdown";
+import type { PublicCatalogReadModel } from "@/lib/publicCatalogReadModel";
 
 const SITE_CONTEXT: MarkdownSiteContext = {
   siteUrl: "https://flashcards-open-source-app.com",
@@ -53,6 +60,10 @@ type MarkdownResult = {
   readonly markdown: string;
   readonly status: 200 | 404;
 };
+
+export interface MarkdownRenderContext extends MarketingPageMarkdownContext {
+  readonly publicCatalog: PublicCatalogReadModel | null;
+}
 
 function getMaxGlobalActivityDailyValue(
   days: ReadonlyArray<GlobalActivitySnapshotDay>,
@@ -96,55 +107,61 @@ function appendMarkdownFooter(
       AppLocale,
       {
         readonly agent: string;
-        readonly htmlVersion: string;
+        readonly htmlVersionLabel: string;
         readonly markdownTip: string;
       }
     >
   > = {
     en: {
       agent: `*AI agents can create an account for the user in this service by starting with \`GET ${DISCOVERY_URL}\`. Once set up, they can also connect over MCP at \`${MCP_URL}\`.*`,
-      htmlVersion: `*[View the styled HTML version of this page](${getOriginalPageUrl(pagePath)})*`,
+      htmlVersionLabel: "View the styled HTML version of this page",
       markdownTip: `*Tip: Append \`.md\` to any URL on ${SITE_CONTEXT.siteUrl} to get a clean Markdown version of that page.*`,
     },
     es: {
       agent: `*Los agentes de IA pueden crear una cuenta para el usuario en este servicio empezando con \`GET ${DISCOVERY_URL}\`. Una vez configurados, también pueden conectarse por MCP en \`${MCP_URL}\`.*`,
-      htmlVersion: `*[Ver la versión HTML con estilo de esta página](${getOriginalPageUrl(pagePath)})*`,
+      htmlVersionLabel: "Ver la versión HTML con estilo de esta página",
       markdownTip: `*Consejo: añade \`.md\` a cualquier URL en ${SITE_CONTEXT.siteUrl} para obtener una versión limpia en Markdown de esa página.*`,
     },
     ar: {
       agent: `*يمكن لوكلاء الذكاء الاصطناعي إنشاء حساب للمستخدم في هذه الخدمة بدءًا من \`GET ${DISCOVERY_URL}\`. وبعد الإعداد، يمكنهم أيضًا الاتصال عبر MCP على \`${MCP_URL}\`.*`,
-      htmlVersion: `*[عرض النسخة المنسقة HTML من هذه الصفحة](${getOriginalPageUrl(pagePath)})*`,
+      htmlVersionLabel: "عرض النسخة المنسقة HTML من هذه الصفحة",
       markdownTip: `*نصيحة: أضف \`.md\` إلى أي رابط على ${SITE_CONTEXT.siteUrl} للحصول على نسخة Markdown نظيفة من الصفحة.*`,
     },
     de: {
       agent: `*KI-Agenten können in diesem Dienst ein Benutzerkonto anlegen, beginnend mit \`GET ${DISCOVERY_URL}\`. Nach der Einrichtung können sie sich auch über MCP unter \`${MCP_URL}\` verbinden.*`,
-      htmlVersion: `*[Die gestaltete HTML-Version dieser Seite ansehen](${getOriginalPageUrl(pagePath)})*`,
+      htmlVersionLabel: "Die gestaltete HTML-Version dieser Seite ansehen",
       markdownTip: `*Tipp: Hänge \`.md\` an jede URL auf ${SITE_CONTEXT.siteUrl} an, um eine saubere Markdown-Version der Seite zu erhalten.*`,
     },
     hi: {
       agent: `*AI agent इस सेवा में उपयोगकर्ता का अकाउंट \`GET ${DISCOVERY_URL}\` से शुरू करके बना सकते हैं। सेटअप के बाद, वे MCP के जरिए \`${MCP_URL}\` पर भी कनेक्ट कर सकते हैं।*`,
-      htmlVersion: `*[इस पेज का styled HTML संस्करण देखें](${getOriginalPageUrl(pagePath)})*`,
+      htmlVersionLabel: "इस पेज का styled HTML संस्करण देखें",
       markdownTip: `*टिप: ${SITE_CONTEXT.siteUrl} पर किसी भी URL के अंत में \`.md\` जोड़ें ताकि उसका साफ़ Markdown संस्करण मिले।*`,
     },
     ja: {
       agent: `*AI エージェントは \`GET ${DISCOVERY_URL}\` から開始して、このサービスでユーザーアカウントを作成できます。設定後は、\`${MCP_URL}\` の MCP 経由で接続することもできます。*`,
-      htmlVersion: `*[このページのスタイル付き HTML 版を見る](${getOriginalPageUrl(pagePath)})*`,
+      htmlVersionLabel: "このページのスタイル付き HTML 版を見る",
       markdownTip: `*ヒント: ${SITE_CONTEXT.siteUrl} の任意の URL に \`.md\` を付けると、ページのクリーンな Markdown 版を取得できます。*`,
     },
     ru: {
       agent: `*AI-агенты могут создать аккаунт пользователя в этом сервисе, начиная с \`GET ${DISCOVERY_URL}\`. После настройки они также могут подключиться по MCP по адресу \`${MCP_URL}\`.*`,
-      htmlVersion: `*[Открыть оформленную HTML-версию этой страницы](${getOriginalPageUrl(pagePath)})*`,
+      htmlVersionLabel: "Открыть оформленную HTML-версию этой страницы",
       markdownTip: `*Совет: добавьте \`.md\` к любому URL на ${SITE_CONTEXT.siteUrl}, чтобы получить чистую Markdown-версию страницы.*`,
     },
     zh: {
       agent: `*AI agent 可以从 \`GET ${DISCOVERY_URL}\` 开始，为用户在该服务中创建账号。完成设置后，也可以通过 MCP 连接 \`${MCP_URL}\`。*`,
-      htmlVersion: `*[查看此页面的带样式 HTML 版本](${getOriginalPageUrl(pagePath)})*`,
+      htmlVersionLabel: "查看此页面的带样式 HTML 版本",
       markdownTip: `*提示：在 ${SITE_CONTEXT.siteUrl} 上任意 URL 后追加 \`.md\`，即可获得该页面的纯 Markdown 版本。*`,
     },
   };
   const footerCopy = footerCopyByLocale[locale];
 
-  return `${markdown.trim()}\n\n---\n${footerCopy.htmlVersion}\n\n${footerCopy.agent}\n\n${footerCopy.markdownTip}`;
+  const htmlVersionLink = renderMarkdownLink(
+    footerCopy.htmlVersionLabel,
+    getOriginalPageUrl(pagePath),
+    "Markdown footer HTML version URL",
+  );
+
+  return `${markdown.trim()}\n\n---\n*${htmlVersionLink}*\n\n${footerCopy.agent}\n\n${footerCopy.markdownTip}`;
 }
 
 function renderMarketingPageMarkdownDocument(
@@ -334,7 +351,9 @@ export function renderBlogPostMarkdown(
   };
 }
 
-export function listMarkdownPagePaths(): ReadonlyArray<string> {
+export function listMarkdownPagePaths(
+  publicCatalog: PublicCatalogReadModel | null,
+): ReadonlyArray<string> {
   const localizedDashboardPaths = SUPPORTED_LOCALES.filter((locale) =>
     hasRouteTranslation(DASHBOARDS_ROUTE_PATHNAME, locale)
   ).map((locale) =>
@@ -361,12 +380,15 @@ export function listMarkdownPagePaths(): ReadonlyArray<string> {
     ...listMarketingPagePaths(),
     ...localizedDashboardPaths,
     ...localizedDocsAndBlogPaths,
+    ...(publicCatalog === null
+      ? []
+      : listPublicCatalogMarkdownPagePaths(publicCatalog)),
   ];
 }
 
 export function renderMarkdownDocument(
   pagePath: string,
-  context: MarketingPageMarkdownContext
+  context: MarkdownRenderContext
 ): MarkdownResult {
   const marketingPageResult = renderMarketingPageMarkdownDocument(pagePath, context);
 
@@ -404,10 +426,31 @@ export function renderMarkdownDocument(
     );
   }
 
+  if (context.publicCatalog !== null) {
+    const publicCatalogDocument = renderPublicCatalogMarkdownDocument(
+      pagePath,
+      context.publicCatalog,
+    );
+
+    if (publicCatalogDocument !== null) {
+      return {
+        markdown: appendMarkdownFooter(
+          publicCatalogDocument.markdown,
+          publicCatalogDocument.locale,
+          pagePath,
+        ),
+        status: 200,
+      };
+    }
+  }
+
   return marketingPageResult;
 }
 
-export function renderLlmsText(globalActivitySnapshot: GlobalActivitySnapshot): string {
+export function renderLlmsText(
+  globalActivitySnapshot: GlobalActivitySnapshot,
+  publicCatalog: PublicCatalogReadModel | null,
+): string {
   const activityCopy = getUiCopy("en").home.activity;
   const peakDailyReviewEvents = getMaxGlobalActivityDailyValue(
     globalActivitySnapshot.days,
@@ -464,6 +507,9 @@ export function renderLlmsText(globalActivitySnapshot: GlobalActivitySnapshot): 
     `- ${activityCopy.dailyUniqueUsersChartTitle}: ${activityCopy.dailyUniqueUsersChartDescription}`,
     `- ${activityCopy.platformActivityChartTitle}: ${activityCopy.platformActivityChartDescription}`,
   ].join("\n");
+  const publicCatalogSection = publicCatalog === null
+    ? ""
+    : `\n\n## Public Catalog\n\n${renderPublicCatalogLlmsSection(publicCatalog)}`;
 
   return `# Flashcards
 
@@ -480,6 +526,7 @@ ${docsSection}
 ## Blog
 
 ${blogSection}
+${publicCatalogSection}
 
 ## Public Activity Snapshot
 
