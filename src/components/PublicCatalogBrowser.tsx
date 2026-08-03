@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef, useSyncExternalStore } from "react";
+import { useCallback, useEffect, useRef, useSyncExternalStore } from "react";
 import { PublicCatalogPackageCard } from "@/components/PublicCatalogPackageCard";
 import { getIntlLocale, type AppLocale } from "@/lib/i18n";
 import type { PublicCatalogUiCopy } from "@/lib/publicCatalogCopy";
@@ -14,6 +14,20 @@ import {
   type PublicCatalogQueryState,
   type PublicCatalogSort,
 } from "@/lib/publicCatalogBrowse";
+import {
+  createPublicCatalogFilterAnalytics,
+  createPublicCatalogPaginationAnalytics,
+  createPublicCatalogSearchAnalytics,
+  createPublicCatalogSearchAnalyticsScheduler,
+  createPublicCatalogSortAnalytics,
+  PUBLIC_CATALOG_SEARCH_SETTLE_DELAY_MS,
+  subscribeToPublicCatalogUrlChanges,
+  updatePendingPublicCatalogSearchAnalytics,
+  type PublicCatalogFilterAction,
+  type PublicCatalogFilterCategory,
+  type PublicCatalogSearchAnalyticsScheduler,
+} from "@/lib/publicCatalogAnalytics";
+import { trackPublicCatalogEvent } from "@/lib/publicCatalogTracking";
 import pageStyles from "@/app/catalog/page.module.css";
 import styles from "./PublicCatalogBrowser.module.css";
 
@@ -23,16 +37,6 @@ interface PublicCatalogBrowserProps {
   readonly copy: PublicCatalogUiCopy;
   readonly data: PublicCatalogBrowseData;
   readonly locale: AppLocale;
-}
-
-function subscribeToCatalogUrl(onStoreChange: () => void): () => void {
-  window.addEventListener("popstate", onStoreChange);
-  window.addEventListener(publicCatalogUrlChangeEvent, onStoreChange);
-
-  return (): void => {
-    window.removeEventListener("popstate", onStoreChange);
-    window.removeEventListener(publicCatalogUrlChangeEvent, onStoreChange);
-  };
 }
 
 function getBrowserSearch(): string {
@@ -122,6 +126,34 @@ export function PublicCatalogBrowser({
   data,
   locale,
 }: PublicCatalogBrowserProps): React.JSX.Element {
+  const searchAnalyticsSchedulerRef = useRef<PublicCatalogSearchAnalyticsScheduler | null>(null);
+
+  if (searchAnalyticsSchedulerRef.current === null) {
+    searchAnalyticsSchedulerRef.current = createPublicCatalogSearchAnalyticsScheduler(
+      PUBLIC_CATALOG_SEARCH_SETTLE_DELAY_MS,
+      (callback, delayMilliseconds) => window.setTimeout(callback, delayMilliseconds),
+      (timeoutId) => window.clearTimeout(timeoutId),
+      (analytics) => trackPublicCatalogEvent("public_catalog_search", analytics),
+    );
+  }
+
+  const subscribeToCatalogUrl = useCallback((onStoreChange: () => void): (() => void) =>
+    subscribeToPublicCatalogUrlChanges(
+      window,
+      publicCatalogUrlChangeEvent,
+      onStoreChange,
+      () => {
+        const searchAnalyticsScheduler = searchAnalyticsSchedulerRef.current;
+
+        if (searchAnalyticsScheduler === null) {
+          throw new Error(
+            "Cannot cancel public catalog search analytics for external URL change: scheduler is missing.",
+          );
+        }
+
+        searchAnalyticsScheduler.cancel();
+      },
+    ), []);
   const isHydrated = useSyncExternalStore(
     subscribeToHydration,
     getClientHydrationSnapshot,
@@ -140,6 +172,16 @@ export function PublicCatalogBrowser({
   const paginationFocusPageRef = useRef<number | null>(null);
 
   useEffect(() => {
+    const searchAnalyticsScheduler = searchAnalyticsSchedulerRef.current;
+
+    if (searchAnalyticsScheduler === null) {
+      throw new Error("Cannot clean up public catalog search analytics: scheduler is missing.");
+    }
+
+    return searchAnalyticsScheduler.cancel;
+  }, []);
+
+  useEffect(() => {
     if (paginationFocusPageRef.current !== result.page) {
       return;
     }
@@ -155,25 +197,79 @@ export function PublicCatalogBrowser({
     resultStart.scrollIntoView({ block: "start" });
   }, [result.page]);
 
+  const updatePendingSearchAnalytics = (
+    nextState: PublicCatalogQueryState,
+    resultCount: number,
+  ): void => {
+    const searchAnalyticsScheduler = searchAnalyticsSchedulerRef.current;
+
+    if (searchAnalyticsScheduler === null) {
+      throw new Error("Cannot update public catalog search analytics: scheduler is missing.");
+    }
+
+    updatePendingPublicCatalogSearchAnalytics(
+      searchAnalyticsScheduler,
+      locale,
+      nextState.q,
+      resultCount,
+    );
+  };
   const updateSearch = (q: string): void => {
-    replaceCatalogState({ ...state, q, page: 1 });
+    const nextState = { ...state, q, page: 1 };
+    const nextResult = queryPublicCatalogPackages(data.packages, nextState);
+    const searchAnalyticsScheduler = searchAnalyticsSchedulerRef.current;
+
+    replaceCatalogState(nextState);
+
+    if (searchAnalyticsScheduler === null) {
+      throw new Error("Cannot track public catalog search: scheduler is missing.");
+    }
+
+    searchAnalyticsScheduler.schedule(
+      createPublicCatalogSearchAnalytics(locale, q, nextResult.totalCount),
+    );
+  };
+  const updateFilter = (
+    nextState: PublicCatalogQueryState,
+    category: PublicCatalogFilterCategory,
+    action: PublicCatalogFilterAction,
+    selectedCount: number,
+  ): void => {
+    const nextResult = queryPublicCatalogPackages(data.packages, nextState);
+
+    pushCatalogState(nextState);
+    updatePendingSearchAnalytics(nextState, nextResult.totalCount);
+    trackPublicCatalogEvent(
+      "public_catalog_filter",
+      createPublicCatalogFilterAnalytics(
+        locale,
+        category,
+        action,
+        nextResult.totalCount,
+        selectedCount,
+      ),
+    );
   };
   const updateLanguage = (language: string, isSelected: boolean): void => {
-    pushCatalogState({
+    const languages = updateRepeatedValue(state.languages, language, isSelected);
+
+    updateFilter({
       ...state,
-      languages: updateRepeatedValue(state.languages, language, isSelected),
+      languages,
       page: 1,
-    });
+    }, "language", isSelected ? "add" : "remove", languages.length);
   };
   const updateTopic = (topic: string, isSelected: boolean): void => {
-    pushCatalogState({
+    const topics = updateRepeatedValue(state.topics, topic, isSelected);
+
+    updateFilter({
       ...state,
-      topics: updateRepeatedValue(state.topics, topic, isSelected),
+      topics,
       page: 1,
-    });
+    }, "topic", isSelected ? "add" : "remove", topics.length);
   };
   const clearFilters = (): void => {
-    pushCatalogState({
+    updateFilter({
       q: "",
       languages: [],
       topics: [],
@@ -182,11 +278,47 @@ export function PublicCatalogBrowser({
       license: null,
       sort: null,
       page: 1,
-    });
+    }, "all", "clear", 0);
   };
   const updatePage = (page: number): void => {
+    const nextState = { ...state, page };
+
     paginationFocusPageRef.current = page;
-    pushCatalogState({ ...state, page });
+    pushCatalogState(nextState);
+    updatePendingSearchAnalytics(nextState, result.totalCount);
+    trackPublicCatalogEvent(
+      "public_catalog_pagination",
+      createPublicCatalogPaginationAnalytics(
+        locale,
+        page,
+        result.totalCount,
+        result.totalPages,
+      ),
+    );
+  };
+  const updateSort = (sort: PublicCatalogSort): void => {
+    const nextState = { ...state, sort, page: 1 };
+    const nextResult = queryPublicCatalogPackages(data.packages, nextState);
+
+    pushCatalogState(nextState);
+    updatePendingSearchAnalytics(nextState, nextResult.totalCount);
+    trackPublicCatalogEvent(
+      "public_catalog_sort",
+      createPublicCatalogSortAnalytics(locale, sort, nextResult.totalCount),
+    );
+  };
+  const updateSingleChoiceFilter = (
+    category: "author" | "collection" | "license",
+    value: string,
+  ): void => {
+    const selectedValue = getSingleChoiceValue(value);
+
+    updateFilter(
+      { ...state, [category]: selectedValue, page: 1 },
+      category,
+      "select",
+      selectedValue === null ? 0 : 1,
+    );
   };
   const hasActiveControls = serializePublicCatalogQuery({ ...state, page: 1 }) !== "";
 
@@ -254,11 +386,10 @@ export function PublicCatalogBrowser({
           <select
             className={styles.select}
             id="catalog-author"
-            onChange={(event) => pushCatalogState({
-              ...state,
-              author: getSingleChoiceValue(event.currentTarget.value),
-              page: 1,
-            })}
+            onChange={(event) => updateSingleChoiceFilter(
+              "author",
+              event.currentTarget.value,
+            )}
             value={state.author ?? ""}
           >
             <option value="">{copy.browse.allAuthorsLabel}</option>
@@ -272,11 +403,10 @@ export function PublicCatalogBrowser({
           <select
             className={styles.select}
             id="catalog-collection"
-            onChange={(event) => pushCatalogState({
-              ...state,
-              collection: getSingleChoiceValue(event.currentTarget.value),
-              page: 1,
-            })}
+            onChange={(event) => updateSingleChoiceFilter(
+              "collection",
+              event.currentTarget.value,
+            )}
             value={state.collection ?? ""}
           >
             <option value="">{copy.browse.allCollectionsLabel}</option>
@@ -290,11 +420,10 @@ export function PublicCatalogBrowser({
           <select
             className={styles.select}
             id="catalog-license"
-            onChange={(event) => pushCatalogState({
-              ...state,
-              license: getSingleChoiceValue(event.currentTarget.value),
-              page: 1,
-            })}
+            onChange={(event) => updateSingleChoiceFilter(
+              "license",
+              event.currentTarget.value,
+            )}
             value={state.license ?? ""}
           >
             <option value="">{copy.browse.allLicensesLabel}</option>
@@ -322,11 +451,9 @@ export function PublicCatalogBrowser({
               className={styles.select}
               data-testid="catalog-sort"
               id="catalog-sort"
-              onChange={(event) => pushCatalogState({
-                ...state,
-                sort: getSortValue(event.currentTarget.value),
-                page: 1,
-              })}
+              onChange={(event) => updateSort(
+                getSortValue(event.currentTarget.value),
+              )}
               value={result.sort}
             >
               <option value="relevance">{copy.browse.sortRelevanceLabel}</option>

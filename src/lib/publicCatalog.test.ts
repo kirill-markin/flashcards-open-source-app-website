@@ -1,10 +1,27 @@
 import assert from "node:assert/strict";
 import test from "node:test";
+import { remark } from "remark";
+import gfm from "remark-gfm";
+import { GET as getPageMarkdown } from "../app/api/page-markdown/[...segments]/route";
+import type { GlobalActivitySnapshot } from "./globalActivitySnapshot";
 import { parsePublicCatalogBuildConfiguration } from "./publicCatalogBuild";
 import { createPublicCatalogBrowseData } from "./publicCatalogBrowse";
+import {
+  getMarkdownApiAssetPathname,
+  getMarkdownAssetPathname,
+  getPagePathFromMarkdownApiAssetSegments,
+  getPagePathFromMarkdownPathname,
+} from "./markdownAssetPaths";
+import { renderMarkdownDocument } from "./markdownServe";
+import { renderMarkdownToHtml } from "./content/renderMarkdownToHtml";
 import { getPublicCatalogAuthorBioExcerpt } from "./publicCatalogAuthor";
 import { getPublicCatalogUiCopy } from "./publicCatalogCopy";
 import { getPublicCatalogDestinationCopy } from "./publicCatalogDestinationCopy";
+import {
+  listPublicCatalogMarkdownPagePaths,
+  renderPublicCatalogLlmsSection,
+  renderPublicCatalogMarkdownDocument,
+} from "./publicCatalogMarkdown";
 import {
   getPublicCatalogCoverAccessibleLabel,
   getPublicCatalogCoverInitial,
@@ -32,12 +49,15 @@ import type { PublicCatalogDump } from "./publicCatalogTypes";
 import {
   getPublicCatalogAuthorRoutePathname,
   getPublicCatalogCollectionRoutePathname,
+  getPublicCatalogFacetStaticParam,
+  getPublicCatalogFacetStaticPathname,
   getPublicCatalogLanguageRoutePathname,
   getPublicCatalogPackageRoutePathname,
   getPublicCatalogTopicRoutePathname,
   PUBLIC_CATALOG_AUTHORS_ROUTE_PATHNAME,
   PUBLIC_CATALOG_COLLECTIONS_ROUTE_PATHNAME,
   isPublicCatalogPageRoutePathname,
+  resolvePublicCatalogFacetStaticParam,
   resolvePublicCatalogRouteSegment,
 } from "./publicCatalogUrls";
 import { createPublicCatalogSitemapEntries } from "./publicCatalogSitemap";
@@ -57,6 +77,58 @@ type Mutable<T> = T extends ReadonlyArray<infer Item>
     : T;
 
 type PublicCatalogDumpFixture = Mutable<PublicCatalogDump>;
+
+interface MarkdownAstNode {
+  readonly checked?: boolean | null;
+  readonly children?: ReadonlyArray<MarkdownAstNode>;
+  readonly depth?: number;
+  readonly ordered?: boolean;
+  readonly type: string;
+  readonly url?: string;
+  readonly value?: string;
+}
+
+const emptyActivitySnapshot: GlobalActivitySnapshot = {
+  schemaVersion: 2,
+  generatedAtUtc: "2026-08-02T12:00:00.000Z",
+  asOfUtc: "2026-08-02T12:00:00.000Z",
+  from: "2026-08-02",
+  to: "2026-08-02",
+  totals: {
+    uniqueReviewingUsers: 0,
+    reviewEvents: {
+      total: 0,
+      byPlatform: { web: 0, android: 0, ios: 0 },
+    },
+  },
+  days: [],
+};
+
+const asciiControlCodePoints: ReadonlyArray<number> = [
+  ...Array.from({ length: 32 }, (_unused, index): number => index),
+  0x7F,
+];
+const percentEncodedAsciiControls: ReadonlyArray<string> = asciiControlCodePoints.flatMap(
+  (codePoint) => {
+    const hexadecimal = codePoint.toString(16).padStart(2, "0");
+    const lowercase = `%${hexadecimal}`;
+    const uppercase = `%${hexadecimal.toUpperCase()}`;
+
+    return lowercase === uppercase ? [lowercase] : [lowercase, uppercase];
+  },
+);
+
+function parseMarkdownAst(markdown: string): MarkdownAstNode {
+  return remark().parse(markdown) as MarkdownAstNode;
+}
+
+function listMarkdownAstNodes(node: MarkdownAstNode): ReadonlyArray<MarkdownAstNode> {
+  return [node, ...(node.children ?? []).flatMap(listMarkdownAstNodes)];
+}
+
+function getMarkdownRouteSegments(pagePath: string): ReadonlyArray<string> {
+  return getMarkdownApiAssetPathname(pagePath).split("/").slice(-2);
+}
 
 function createValidDump(): PublicCatalogDumpFixture {
   return {
@@ -616,6 +688,147 @@ test("allows Markdown and autolinks but rejects raw HTML", () => {
   );
 });
 
+test("rejects URL dot segments in every package and collection facet field", () => {
+  const cases = [
+    { entity: "packages", field: "languageTags", value: "." },
+    { entity: "packages", field: "languageTags", value: ".." },
+    { entity: "packages", field: "topicTags", value: "." },
+    { entity: "packages", field: "topicTags", value: ".." },
+    { entity: "collections", field: "languageTags", value: "." },
+    { entity: "collections", field: "languageTags", value: ".." },
+    { entity: "collections", field: "topicTags", value: "." },
+    { entity: "collections", field: "topicTags", value: ".." },
+  ] as const;
+
+  cases.forEach(({ entity, field, value }) => {
+    const input = createValidDump();
+
+    input[entity][0][field] = [value];
+
+    assert.throws(
+      () => parsePublicCatalogDump(input),
+      new RegExp(
+        `${entity}\\[0\\]\\.${field}\\[0\\] must not be a URL dot segment\\. received=${value.replaceAll(".", "\\.")}$`,
+      ),
+    );
+  });
+});
+
+test("accepts non-segment facet values that contain dots or collision characters", () => {
+  const validTags = [
+    "a.b",
+    "...",
+    ".leading",
+    "trailing.",
+    "日本語",
+    "history%20world",
+    "safe%2520value",
+    "100%",
+    "%ZZ",
+    "history world",
+    "history (100%)",
+    "__facet_6869",
+  ];
+  const input = createValidDump();
+
+  input.packages[0].languageTags = validTags;
+  input.packages[0].topicTags = validTags;
+  input.collections[0].languageTags = validTags;
+  input.collections[0].topicTags = validTags;
+
+  const dump = parsePublicCatalogDump(input);
+
+  assert.deepEqual(dump.packages[0]?.languageTags, validTags);
+  assert.deepEqual(dump.packages[0]?.topicTags, validTags);
+  assert.deepEqual(dump.collections[0]?.languageTags, validTags);
+  assert.deepEqual(dump.collections[0]?.topicTags, validTags);
+});
+
+test("rejects raw and recursively encoded controls or backslashes in every facet field", () => {
+  const unsafeValues = [
+    ...asciiControlCodePoints.map((codePoint) => String.fromCharCode(codePoint)),
+    ...percentEncodedAsciiControls,
+    "%250A",
+    "%25250a",
+    "%2509",
+    "%25%30%41",
+    "raw\\backslash",
+    "%5c",
+    "%255C",
+  ];
+  const fields = [
+    { entity: "packages", field: "languageTags" },
+    { entity: "packages", field: "topicTags" },
+    { entity: "collections", field: "languageTags" },
+    { entity: "collections", field: "topicTags" },
+  ] as const;
+
+  fields.forEach(({ entity, field }) => {
+    unsafeValues.forEach((unsafeValue) => {
+      const input = createValidDump();
+
+      input[entity][0][field] = [unsafeValue];
+
+      assert.throws(
+        () => parsePublicCatalogDump(input),
+        (error: unknown) => {
+          assert.ok(error instanceof Error);
+          assert.match(error.message, new RegExp(`${entity}\\[0\\]\\.${field}\\[0\\]`));
+          assert.match(
+            error.message,
+            /Control characters, backslashes, and their encoded variants are forbidden/,
+          );
+          assert.equal(error.message.endsWith(`received=${unsafeValue}`), true);
+          return true;
+        },
+      );
+    });
+  });
+});
+
+test("validates package and version identifiers as bounded opaque values", () => {
+  const invalidPackageId = createValidDump();
+
+  invalidPackageId.packages[0].packageId = "authored package slug";
+  assert.throws(
+    () => parsePublicCatalogDump(invalidPackageId),
+    /packages\[0\]\.packageId must be a bounded opaque identifier.*received=authored package slug/,
+  );
+
+  const invalidVersionId = createValidDump();
+
+  invalidVersionId.packageVersions[0].packageVersionId = "v".repeat(129);
+  assert.throws(
+    () => parsePublicCatalogDump(invalidVersionId),
+    /packageVersions\[0\]\.packageVersionId must be a bounded opaque identifier/,
+  );
+
+  const uuidInput = createValidDump();
+  const packageId = "123e4567-e89b-12d3-a456-426614174000";
+  const oldVersionId = "123e4567-e89b-12d3-a456-426614174001";
+  const latestVersionId = "123e4567-e89b-12d3-a456-426614174002";
+
+  uuidInput.packages[0].packageId = packageId;
+  uuidInput.packages[0].latestPublishedVersionId = latestVersionId;
+  uuidInput.packageVersions[0].packageId = packageId;
+  uuidInput.packageVersions[0].packageVersionId = oldVersionId;
+  uuidInput.packageVersions[1].packageId = packageId;
+  uuidInput.packageVersions[1].packageVersionId = latestVersionId;
+  uuidInput.cards[0].packageVersionId = oldVersionId;
+  uuidInput.cards[1].packageVersionId = latestVersionId;
+  uuidInput.cards[2].packageVersionId = latestVersionId;
+  uuidInput.mediaAssets.forEach((mediaAsset) => {
+    mediaAsset.packageId = packageId;
+    mediaAsset.packageVersionId = mediaAsset.packageMediaAssetId === "media-old"
+      ? oldVersionId
+      : latestVersionId;
+  });
+  uuidInput.collections[0].coverPackageId = packageId;
+  uuidInput.collectionPackages[0].packageId = packageId;
+
+  assert.doesNotThrow(() => parsePublicCatalogDump(uuidInput));
+});
+
 test("rejects duplicate ordinals within their parent", () => {
   const input = createValidDump();
   input.cards[2].ordinal = input.cards[1].ordinal;
@@ -694,7 +907,15 @@ test("keeps the catalog disabled by default and requires an explicit URL when en
 });
 
 test("builds canonical catalog destinations and identifies current catalog pages", () => {
-  const ambiguousTags = ["history world", "history%20world", "100%"];
+  const ambiguousTags = [
+    "history world",
+    "history%20world",
+    "100%",
+    "__facet_invalid",
+    "__facet_6869",
+    "hi",
+    "日本語 (100%)",
+  ];
 
   assert.equal(
     resolvePublicCatalogRouteSegment("history%20world", ambiguousTags),
@@ -713,6 +934,24 @@ test("builds canonical catalog destinations and identifies current catalog pages
     "history world",
   );
   assert.equal(resolvePublicCatalogRouteSegment("missing", ambiguousTags), undefined);
+  assert.equal(
+    resolvePublicCatalogRouteSegment("__facet_invalid", ambiguousTags),
+    "__facet_invalid",
+  );
+  assert.equal(
+    resolvePublicCatalogRouteSegment("__facet_6869", ambiguousTags),
+    "__facet_6869",
+  );
+  ambiguousTags.forEach((tag) => {
+    assert.equal(
+      resolvePublicCatalogFacetStaticParam(
+        getPublicCatalogFacetStaticParam(tag),
+        ambiguousTags,
+      ),
+      tag,
+    );
+  });
+  assert.equal(resolvePublicCatalogFacetStaticParam("__facet_invalid", ambiguousTags), undefined);
   assert.equal(
     getPublicCatalogPackageRoutePathname("canonical-package"),
     "/catalog/packages/canonical-package/",
@@ -733,6 +972,32 @@ test("builds canonical catalog destinations and identifies current catalog pages
     getPublicCatalogTopicRoutePathname("world history"),
     "/catalog/topics/world%20history/",
   );
+  assert.equal(
+    getPublicCatalogTopicRoutePathname("a.b"),
+    "/catalog/topics/a%2Eb/",
+  );
+  assert.equal(
+    getPublicCatalogLanguageRoutePathname("a.b"),
+    "/catalog/languages/a%2Eb/",
+  );
+  assert.equal(resolvePublicCatalogRouteSegment("a%2Eb", ["a.b"]), "a.b");
+  assert.equal(getPublicCatalogFacetStaticParam("100%"), "__facet_313030253235");
+  assert.equal(
+    getPublicCatalogFacetStaticPathname("/catalog/topics/history%20world/"),
+    "/catalog/topics/__facet_686973746f7279253230776f726c64/",
+  );
+  assert.equal(
+    getPublicCatalogFacetStaticPathname("/es/catalog/topics/history%2520world/"),
+    "/es/catalog/topics/__facet_686973746f72792532353230776f726c64/",
+  );
+  assert.equal(
+    getPublicCatalogFacetStaticPathname("/catalog/topics/history%20(100%25)/"),
+    "/catalog/topics/__facet_686973746f72792532302831303025323529/",
+  );
+  assert.equal(
+    getPublicCatalogFacetStaticPathname("/catalog/topics/grammar/"),
+    "/catalog/topics/__facet_6772616d6d6172/",
+  );
   assert.equal(isPublicCatalogPageRoutePathname("/catalog/"), true);
   assert.equal(
     isPublicCatalogPageRoutePathname("/catalog/packages/canonical-package/"),
@@ -746,6 +1011,907 @@ test("builds canonical catalog destinations and identifies current catalog pages
   assert.equal(isPublicCatalogPageRoutePathname(PUBLIC_CATALOG_COLLECTIONS_ROUTE_PATHNAME), true);
   assert.equal(isPublicCatalogPageRoutePathname("/catalog/languages/pt-BR/"), true);
   assert.equal(isPublicCatalogPageRoutePathname("/catalog/topics/world%20history/"), true);
+});
+
+test("keeps public alias-looking facet values distinct from internal static params", () => {
+  const input = createValidDump();
+  const collisionTags = ["__facet_invalid", "__facet_6869", "hi", "日本語 (100%)"];
+
+  input.packages[0].topicTags = collisionTags;
+  input.collections[0].topicTags = collisionTags;
+
+  const model = createPublicCatalogReadModel(parsePublicCatalogDump(input));
+  const pagePaths = listPublicCatalogMarkdownPagePaths(model);
+
+  collisionTags.forEach((tag) => {
+    const publicPagePath = `catalog/topics/${encodeURIComponent(tag)}`;
+    const internalStaticParam = getPublicCatalogFacetStaticParam(tag);
+    const markdown = renderPublicCatalogMarkdownDocument(publicPagePath, model)?.markdown;
+
+    assert.ok(pagePaths.includes(publicPagePath));
+    if (collisionTags.includes(internalStaticParam) === false) {
+      assert.equal(
+        pagePaths.includes(`catalog/topics/${internalStaticParam}`),
+        false,
+      );
+    }
+    assert.ok(markdown);
+    const renderedText = listMarkdownAstNodes(parseMarkdownAst(markdown))
+      .filter((node) => node.type === "text")
+      .map((node) => node.value ?? "")
+      .join(" ");
+
+    assert.ok(renderedText.includes(tag));
+  });
+});
+
+test("renders useful localized catalog Markdown from the public read model", () => {
+  const input = createValidDump();
+  input.packages[0].title = "Canonical <package> *title*";
+  const model = createPublicCatalogReadModel(parsePublicCatalogDump(input));
+  const pagePaths = listPublicCatalogMarkdownPagePaths(model);
+  const packageDocument = renderPublicCatalogMarkdownDocument(
+    "es/catalog/packages/canonical-package",
+    model,
+  );
+  const rootDocument = renderPublicCatalogMarkdownDocument("catalog", model);
+  const collectionDocument = renderPublicCatalogMarkdownDocument(
+    "catalog/collections/starter-collection",
+    model,
+  );
+
+  assert.equal(pagePaths.length, 72);
+  assert.ok(pagePaths.includes("catalog/packages/canonical-package"));
+  assert.ok(pagePaths.includes("zh/catalog/topics/grammar"));
+  assert.ok(packageDocument);
+  assert.equal(packageDocument.locale, "es");
+  assert.equal(
+    packageDocument.markdown.startsWith("# Canonical &lt;package&gt; \\*title\\*"),
+    true,
+  );
+  assert.match(packageDocument.markdown, /Versión: 2/);
+  assert.match(packageDocument.markdown, /Tarjetas: 2 tarjetas/);
+  assert.match(
+    packageDocument.markdown,
+    /https:\/\/app\.flashcards-open-source-app\.com\/catalog\/import\/version-2/,
+  );
+  assert.match(packageDocument.markdown, /Canonical \*\*package\*\* description/);
+  assert.match(packageDocument.markdown, /First \*\*front\*\*/);
+  assert.match(
+    packageDocument.markdown,
+    /https:\/\/flashcards-open-source-app\.com\/es\/catalog\/authors\/author-one\//,
+  );
+  assert.ok(rootDocument);
+  assert.equal(rootDocument.markdown.includes("/catalog/import/"), false);
+  assert.ok(collectionDocument);
+  assert.match(collectionDocument.markdown, /Collection \*\*description\*\*/);
+  assert.match(collectionDocument.markdown, /1\. \[Canonical/);
+  assert.equal(
+    collectionDocument.markdown.includes("Canonical &lt;package&gt; \\*title\\*"),
+    true,
+  );
+});
+
+test("renders safe canonical links for authored URLs and delimiter-looking facet paths", () => {
+  const input = createValidDump();
+  const topicTag = "history (100%))> <img";
+
+  input.authors[0].websiteUrl = "https://example.com/author path)>?value=&gt;";
+  input.packageVersions[1].installUrl =
+    "https://app.flashcards-open-source-app.com/catalog/import/version 2)>%25";
+  input.packages[0].topicTags = [topicTag];
+  input.collections[0].topicTags = [topicTag];
+
+  const dump = parsePublicCatalogDump(input);
+  const model = createPublicCatalogReadModel(dump);
+  const topicPagePath = `catalog/topics/${encodeURIComponent(topicTag)}`;
+  const documents = [
+    renderPublicCatalogMarkdownDocument("catalog/authors/author-one", model)?.markdown,
+    renderPublicCatalogMarkdownDocument("catalog/packages/canonical-package", model)?.markdown,
+    renderMarkdownDocument(topicPagePath, {
+      globalActivitySnapshot: emptyActivitySnapshot,
+      publicCatalog: model,
+    }).markdown,
+  ];
+
+  documents.forEach((markdown) => {
+    assert.ok(markdown);
+    const nodes = listMarkdownAstNodes(parseMarkdownAst(markdown));
+
+    assert.equal(nodes.some((node) => node.type === "html"), false);
+  });
+
+  const renderedLinks = documents.flatMap((markdown) =>
+    listMarkdownAstNodes(parseMarkdownAst(markdown ?? ""))
+      .filter((node) => node.type === "link")
+      .map((node) => node.url));
+  const websiteUrl = dump.authors[0]?.websiteUrl;
+  const installUrl = dump.packageVersions[1]?.installUrl;
+
+  assert.ok(websiteUrl);
+  assert.ok(installUrl);
+  assert.ok(renderedLinks.includes(websiteUrl));
+  assert.ok(renderedLinks.includes(installUrl));
+  assert.ok(renderedLinks.includes(
+    `https://flashcards-open-source-app.com/${topicPagePath}/`,
+  ));
+  assert.equal(documents.some((markdown) => markdown?.includes("<img")), false);
+});
+
+test("validates and localizes every authored Markdown destination form", async () => {
+  const input = createValidDump();
+
+  input.packages[0].description = [
+    "[Docs](/docs/getting-started/?view=full#section)",
+    "",
+    "[Already localized](/es/docs/api/#authentication)",
+    "",
+    "[Local fragment](#local-section)",
+    "",
+    "[Encoded fragment](#literal%2520percent)",
+    "",
+    "[External](HTTPS://Example.COM:443/a/../safe?value=1#part)",
+    "",
+    "[External percent](https://example.com/100%25/history%2520world)",
+    "",
+    "![Inline image](/icon.svg?theme=light#asset)",
+  ].join("\n");
+  input.collections[0].description = [
+    "[Catalog reference][catalog-reference]",
+    "",
+    "![Reference image][reference-image]",
+    "",
+    "[catalog-reference]: /catalog/topics/history%2520world/?q=100%25#cards",
+    "[reference-image]: https://cdn.example.com/path/../image.png",
+  ].join("\n");
+  input.cards[2].frontText = "[Card docs](/docs/api/)";
+  input.cards[2].backText = [
+    "[Card reference][card-reference]",
+    "",
+    "[card-reference]: http://example.com/card",
+  ].join("\n");
+
+  const model = createPublicCatalogReadModel(parsePublicCatalogDump(input));
+  const packageMarkdown = renderPublicCatalogMarkdownDocument(
+    "es/catalog/packages/canonical-package",
+    model,
+  )?.markdown;
+  const collectionMarkdown = renderPublicCatalogMarkdownDocument(
+    "es/catalog/collections/starter-collection",
+    model,
+  )?.markdown;
+  const defaultPackageMarkdown = renderPublicCatalogMarkdownDocument(
+    "catalog/packages/canonical-package",
+    model,
+  )?.markdown;
+
+  assert.ok(packageMarkdown);
+  assert.ok(collectionMarkdown);
+  assert.ok(defaultPackageMarkdown);
+  const packageNodes = listMarkdownAstNodes(remark().use(gfm).parse(packageMarkdown) as MarkdownAstNode);
+  const collectionNodes = listMarkdownAstNodes(
+    remark().use(gfm).parse(collectionMarkdown) as MarkdownAstNode,
+  );
+  const packageDestinations = packageNodes
+    .filter((node) => node.type === "link" || node.type === "image")
+    .map((node) => node.url);
+  const collectionDestinations = collectionNodes
+    .filter((node) => node.type === "link" || node.type === "image")
+    .map((node) => node.url);
+
+  assert.ok(packageDestinations.includes("/es/docs/getting-started/?view=full#section"));
+  assert.ok(packageDestinations.includes("/es/docs/api/#authentication"));
+  assert.ok(packageDestinations.includes("#local-section"));
+  assert.ok(packageDestinations.includes("#literal%2520percent"));
+  assert.ok(packageDestinations.includes("https://example.com/safe?value=1#part"));
+  assert.ok(packageDestinations.includes("https://example.com/100%25/history%2520world"));
+  assert.ok(packageDestinations.includes("/icon.svg?theme=light#asset"));
+  assert.ok(packageDestinations.includes("/es/docs/api/"));
+  assert.ok(packageDestinations.includes("http://example.com/card"));
+  assert.ok(collectionDestinations.includes(
+    "/es/catalog/topics/history%2520world/?q=100%25#cards",
+  ));
+  assert.ok(collectionDestinations.includes("https://cdn.example.com/image.png"));
+  assert.equal(
+    [...packageNodes, ...collectionNodes].some((node) => node.type === "definition"),
+    false,
+  );
+  assert.match(defaultPackageMarkdown, /\/docs\/getting-started\/\?view=full#section/);
+  const html = await renderMarkdownToHtml(packageMarkdown, "es");
+
+  assert.match(html, /href="\/es\/docs\/getting-started\/\?view=full#section"/);
+  assert.doesNotMatch(`${packageMarkdown}\n${collectionMarkdown}\n${html}`, /javascript:|data:|file:/iu);
+});
+
+test("fails generated Markdown for unsafe authored destinations", () => {
+  const cases: ReadonlyArray<Readonly<{
+    apply: (input: PublicCatalogDumpFixture) => void;
+    expectedContext: RegExp;
+    pagePath: string;
+  }>> = [
+    {
+      apply: (input) => {
+        input.packages[0].description = "[Unsafe](JaVaScRiPt:alert(1))";
+      },
+      expectedContext: /package package-1 description/,
+      pagePath: "catalog/packages/canonical-package",
+    },
+    {
+      apply: (input) => {
+        input.collections[0].description = [
+          "[Unsafe][reference]",
+          "",
+          "[reference]: %6Aavascript:alert(1)",
+        ].join("\n");
+      },
+      expectedContext: /collection collection-1 description/,
+      pagePath: "catalog/collections/starter-collection",
+    },
+    {
+      apply: (input) => {
+        input.cards[2].frontText = "![Unsafe](data:text/html;base64,PHNjcmlwdD4=)";
+      },
+      expectedContext: /card card-1 frontText/,
+      pagePath: "catalog/packages/canonical-package",
+    },
+    {
+      apply: (input) => {
+        input.cards[2].backText = [
+          "![Unsafe][image]",
+          "",
+          "[image]: //evil.example/image.png",
+        ].join("\n");
+      },
+      expectedContext: /card card-1 backText/,
+      pagePath: "catalog/packages/canonical-package",
+    },
+    {
+      apply: (input) => {
+        input.packages[0].description = "[Unsafe](file:///etc/passwd)";
+      },
+      expectedContext: /package package-1 description/,
+      pagePath: "catalog/packages/canonical-package",
+    },
+    {
+      apply: (input) => {
+        input.collections[0].description = "[Unsafe](https://example.com/%0Ahidden)";
+      },
+      expectedContext: /collection collection-1 description/,
+      pagePath: "catalog/collections/starter-collection",
+    },
+    {
+      apply: (input) => {
+        input.packages[0].description = "[Unsafe](https://example.com/%250Ahidden)";
+      },
+      expectedContext: /package package-1 description/,
+      pagePath: "catalog/packages/canonical-package",
+    },
+    {
+      apply: (input) => {
+        input.collections[0].description = [
+          "[Unsafe][reference]",
+          "",
+          "[reference]: https://example.com/%25250a",
+        ].join("\n");
+      },
+      expectedContext: /collection collection-1 description/,
+      pagePath: "catalog/collections/starter-collection",
+    },
+    {
+      apply: (input) => {
+        input.cards[2].frontText = "![Unsafe](https://example.com/%2509image.png)";
+      },
+      expectedContext: /card card-1 frontText/,
+      pagePath: "catalog/packages/canonical-package",
+    },
+    {
+      apply: (input) => {
+        input.cards[2].backText = [
+          "![Unsafe][image]",
+          "",
+          "[image]: https://example.com/%257Fimage.png",
+        ].join("\n");
+      },
+      expectedContext: /card card-1 backText/,
+      pagePath: "catalog/packages/canonical-package",
+    },
+    {
+      apply: (input) => {
+        input.cards[2].frontText = "<https://example.com/%25%30%41>";
+      },
+      expectedContext: /card card-1 frontText/,
+      pagePath: "catalog/packages/canonical-package",
+    },
+    {
+      apply: (input) => {
+        input.packages[0].description = "[Unsafe](/docs/%250A/private/)";
+      },
+      expectedContext: /package package-1 description/,
+      pagePath: "catalog/packages/canonical-package",
+    },
+    {
+      apply: (input) => {
+        input.collections[0].description = "[Unsafe](#section%2509)";
+      },
+      expectedContext: /collection collection-1 description/,
+      pagePath: "catalog/collections/starter-collection",
+    },
+    {
+      apply: (input) => {
+        input.cards[2].frontText = "[Unsafe](jav\u0000ascript:alert(1))";
+      },
+      expectedContext: /card card-1 frontText/,
+      pagePath: "catalog/packages/canonical-package",
+    },
+    {
+      apply: (input) => {
+        input.packages[0].description = "[Unsafe](/docs/%ZZ)";
+      },
+      expectedContext: /package package-1 description/,
+      pagePath: "catalog/packages/canonical-package",
+    },
+    {
+      apply: (input) => {
+        input.collections[0].description = "[Unsafe](/docs/%2e%2e/private/)";
+      },
+      expectedContext: /collection collection-1 description/,
+      pagePath: "catalog/collections/starter-collection",
+    },
+  ];
+
+  cases.forEach(({ apply, expectedContext, pagePath }) => {
+    const input = createValidDump();
+
+    apply(input);
+    const model = createPublicCatalogReadModel(parsePublicCatalogDump(input));
+
+    assert.throws(
+      () => renderPublicCatalogMarkdownDocument(pagePath, model),
+      (error: unknown) => {
+        assert.ok(error instanceof Error);
+        assert.match(error.message, expectedContext);
+        assert.match(error.message, /unsafe or unsupported Markdown destination/);
+        return true;
+      },
+    );
+  });
+});
+
+test("rejects every supported authored footnote construct before serialization", () => {
+  const cases: ReadonlyArray<Readonly<{
+    apply: (input: PublicCatalogDumpFixture) => void;
+    expectedContext: RegExp;
+    expectedNodeType: "footnoteDefinition" | "footnoteReference";
+    pagePath: string;
+  }>> = [
+    {
+      apply: (input) => {
+        input.packages[0].description = [
+          "Before the footnote.",
+          "",
+          "[^unsafe]: [Unsafe](javascript:alert(1))",
+          "",
+          "After the footnote.[^unsafe]",
+        ].join("\n");
+      },
+      expectedContext: /package package-1 description/,
+      expectedNodeType: "footnoteDefinition",
+      pagePath: "catalog/packages/canonical-package",
+    },
+    {
+      apply: (input) => {
+        input.cards[2].frontText = "Normal neighboring content.[^missing]";
+      },
+      expectedContext: /card card-1 frontText/,
+      expectedNodeType: "footnoteReference",
+      pagePath: "catalog/packages/canonical-package",
+    },
+    {
+      apply: (input) => {
+        input.collections[0].description = [
+          "[^duplicate]: First definition.",
+          "",
+          "[^duplicate]: Second definition.",
+        ].join("\n");
+      },
+      expectedContext: /collection collection-1 description/,
+      expectedNodeType: "footnoteDefinition",
+      pagePath: "catalog/collections/starter-collection",
+    },
+    {
+      apply: (input) => {
+        input.cards[2].frontText = "A reference from one card.[^shared]";
+        input.cards[2].backText = "[^shared]: A definition in its sibling fragment.";
+      },
+      expectedContext: /card card-1 frontText/,
+      expectedNodeType: "footnoteReference",
+      pagePath: "catalog/packages/canonical-package",
+    },
+  ];
+
+  cases.forEach(({ apply, expectedContext, expectedNodeType, pagePath }) => {
+    const input = createValidDump();
+
+    apply(input);
+    const model = createPublicCatalogReadModel(parsePublicCatalogDump(input));
+
+    assert.throws(
+      () => renderPublicCatalogMarkdownDocument(pagePath, model),
+      (error: unknown) => {
+        assert.ok(error instanceof Error);
+        assert.match(error.message, expectedContext);
+        assert.match(error.message, new RegExp(`unsupported Markdown footnote ${expectedNodeType}`));
+        return true;
+      },
+    );
+  });
+
+  const safeInput = createValidDump();
+
+  safeInput.packages[0].description = [
+    "Normal neighboring content.",
+    "",
+    "Escaped footnote-like text: \\[^literal].",
+    "",
+    "Inline code: `code[^literal]`.",
+  ].join("\n");
+  const safeModel = createPublicCatalogReadModel(parsePublicCatalogDump(safeInput));
+
+  listPublicCatalogMarkdownPagePaths(safeModel).forEach((pagePath) => {
+    const markdown = renderPublicCatalogMarkdownDocument(pagePath, safeModel)?.markdown;
+
+    assert.ok(markdown);
+    const nodes = listMarkdownAstNodes(
+      remark().use(gfm).parse(markdown) as MarkdownAstNode,
+    );
+
+    assert.equal(nodes.some((node) =>
+      node.type === "footnoteDefinition" || node.type === "footnoteReference"), false);
+  });
+});
+
+test("rejects raw and repeatedly encoded backslashes in every Markdown destination form", () => {
+  const authoredCases: ReadonlyArray<Readonly<{
+    apply: (input: PublicCatalogDumpFixture) => void;
+    expectedContext: RegExp;
+    pagePath: string;
+  }>> = [
+    {
+      apply: (input) => {
+        input.packages[0].description = "[Inline](https:\\\\evil.example\\path)";
+      },
+      expectedContext: /package package-1 description/,
+      pagePath: "catalog/packages/canonical-package",
+    },
+    {
+      apply: (input) => {
+        input.packages[0].description = [
+          "[Reference][unsafe]",
+          "",
+          "[unsafe]: https://example.com/%5Cpath",
+        ].join("\n");
+      },
+      expectedContext: /package package-1 description/,
+      pagePath: "catalog/packages/canonical-package",
+    },
+    {
+      apply: (input) => {
+        input.cards[2].frontText = "![Inline image](https://example.com/%5cpath)";
+      },
+      expectedContext: /card card-1 frontText/,
+      pagePath: "catalog/packages/canonical-package",
+    },
+    {
+      apply: (input) => {
+        input.cards[2].backText = [
+          "![Reference image][unsafe]",
+          "",
+          "[unsafe]: https://example.com/%255Cpath",
+        ].join("\n");
+      },
+      expectedContext: /card card-1 backText/,
+      pagePath: "catalog/packages/canonical-package",
+    },
+    {
+      apply: (input) => {
+        input.collections[0].description = "<https://example.com/%25255cpath>";
+      },
+      expectedContext: /collection collection-1 description/,
+      pagePath: "catalog/collections/starter-collection",
+    },
+    {
+      apply: (input) => {
+        input.collections[0].description = "[Root path](/docs/%255C../private)";
+      },
+      expectedContext: /collection collection-1 description/,
+      pagePath: "catalog/collections/starter-collection",
+    },
+    {
+      apply: (input) => {
+        input.packages[0].description = "[Authority confusion](https:%5C%5Cevil.example/path)";
+      },
+      expectedContext: /package package-1 description/,
+      pagePath: "catalog/packages/canonical-package",
+    },
+    {
+      apply: (input) => {
+        input.cards[2].frontText = "[Mixed encodings](https://example.com/%25255C%255cpath)";
+      },
+      expectedContext: /card card-1 frontText/,
+      pagePath: "catalog/packages/canonical-package",
+    },
+  ];
+
+  authoredCases.forEach(({ apply, expectedContext, pagePath }) => {
+    const input = createValidDump();
+
+    apply(input);
+    const model = createPublicCatalogReadModel(parsePublicCatalogDump(input));
+
+    assert.throws(
+      () => renderPublicCatalogMarkdownDocument(pagePath, model),
+      (error: unknown) => {
+        assert.ok(error instanceof Error);
+        assert.match(error.message, expectedContext);
+        assert.match(
+          error.message,
+          /Control characters, backslashes, and their encoded variants are forbidden/,
+        );
+        return true;
+      },
+    );
+  });
+
+  const generatedCases: ReadonlyArray<Readonly<{
+    apply: (input: PublicCatalogDumpFixture) => void;
+    expectedContext: RegExp;
+  }>> = [
+    {
+      apply: (input) => {
+        input.authors[0].websiteUrl = "https:\\\\evil.example\\author";
+      },
+      expectedContext: /authors\[0\]\.websiteUrl/,
+    },
+    {
+      apply: (input) => {
+        input.packageVersions[1].installUrl = "https://example.com/%255cinstall";
+      },
+      expectedContext: /packageVersions\[1\]\.installUrl/,
+    },
+  ];
+
+  generatedCases.forEach(({ apply, expectedContext }) => {
+    const input = createValidDump();
+
+    apply(input);
+    assert.throws(
+      () => parsePublicCatalogDump(input),
+      (error: unknown) => {
+        assert.ok(error instanceof Error);
+        assert.match(error.message, expectedContext);
+        assert.match(
+          error.message,
+          /Control characters, backslashes, and their encoded variants are forbidden/,
+        );
+        return true;
+      },
+    );
+  });
+});
+
+test("uses the canonical package publication date in Markdown and JSON-LD", () => {
+  const input = createValidDump();
+  const packagePublishedAt = "2026-07-30T09:00:00.000Z";
+  const versionPublishedAt = "2026-08-02T10:00:00.000Z";
+
+  input.packages[0].publishedAt = packagePublishedAt;
+  input.packageVersions[1].publishedAt = versionPublishedAt;
+
+  const model = createPublicCatalogReadModel(parsePublicCatalogDump(input));
+  const packageView = getPublicCatalogPackageBySlug(model, "canonical-package");
+
+  assert.ok(packageView);
+  const markdown = renderPublicCatalogMarkdownDocument(
+    "es/catalog/packages/canonical-package",
+    model,
+  )?.markdown;
+  const jsonLd = createPublicCatalogPackageJsonLd([], "es", packageView);
+
+  assert.ok(markdown);
+  assert.match(markdown, new RegExp(formatPublicCatalogDate("es", packagePublishedAt)));
+  assert.doesNotMatch(markdown, new RegExp(formatPublicCatalogDate("es", versionPublishedAt)));
+  assert.equal(jsonLd.datePublished, packagePublishedAt);
+  assert.match(markdown, /Versión: 2/);
+  assert.match(markdown, /Tarjetas: 2 tarjetas/);
+});
+
+test("rejects raw encoded repeated and malformed catalog HTTPS destinations", () => {
+  const unsafeSuffixes = [
+    ...asciiControlCodePoints.map((codePoint) =>
+      `${String.fromCharCode(codePoint)}raw`),
+    ...percentEncodedAsciiControls,
+    "%250A",
+    "%25250a",
+    "%2509",
+    "%25%30%41",
+    "%ZZ",
+  ];
+
+  unsafeSuffixes.forEach((unsafeSuffix) => {
+    const websiteInput = createValidDump();
+    const websiteUrl = `https://example.com/${unsafeSuffix}`;
+
+    websiteInput.authors[0].websiteUrl = websiteUrl;
+    assert.throws(
+      () => parsePublicCatalogDump(websiteInput),
+      (error: unknown) => {
+        assert.ok(error instanceof Error);
+        assert.match(error.message, /authors\[0\]\.websiteUrl/);
+        assert.equal(error.message.endsWith(`received=${websiteUrl}`), true);
+        return true;
+      },
+    );
+
+    const installInput = createValidDump();
+    const installUrl = `https://example.com/${unsafeSuffix}`;
+
+    installInput.packageVersions[1].installUrl = installUrl;
+    assert.throws(
+      () => parsePublicCatalogDump(installInput),
+      (error: unknown) => {
+        assert.ok(error instanceof Error);
+        assert.match(error.message, /packageVersions\[1\]\.installUrl/);
+        assert.equal(error.message.endsWith(`received=${installUrl}`), true);
+        return true;
+      },
+    );
+  });
+
+  const safeInput = createValidDump();
+
+  safeInput.authors[0].websiteUrl = "https://example.com/100%25/history%2520world";
+  safeInput.packageVersions[1].installUrl = "https://example.com/literal%25/safe%2520value";
+  const safeDump = parsePublicCatalogDump(safeInput);
+
+  assert.equal(
+    safeDump.authors[0]?.websiteUrl,
+    "https://example.com/100%25/history%2520world",
+  );
+  assert.equal(
+    safeDump.packageVersions[1]?.installUrl,
+    "https://example.com/literal%25/safe%2520value",
+  );
+});
+
+test("renders localized collection membership as one semantic ordered list", () => {
+  const input = createValidDump();
+
+  input.packages.push({
+    packageId: "package-2",
+    authorId: "author-1",
+    slug: "second-package",
+    title: "Second package",
+    summary: "Second summary",
+    description: "Second description",
+    languageTags: ["fr"],
+    topicTags: ["history"],
+    license: "CC0-1.0",
+    contentWarning: null,
+    coverPackageMediaKey: null,
+    latestPublishedVersionId: "version-3",
+    publishedAt: "2026-08-02T11:30:00.000Z",
+  });
+  input.packageVersions.push({
+    packageVersionId: "version-3",
+    packageId: "package-2",
+    versionNumber: 1,
+    title: "Second package",
+    summary: "Second summary",
+    description: "Second description",
+    cardCount: 0,
+    publishedAt: "2026-08-02T11:30:00.000Z",
+    installUrl: "https://app.flashcards-open-source-app.com/catalog/import/version-3",
+  });
+  input.collectionPackages.push({
+    collectionId: "collection-1",
+    packageId: "package-2",
+    ordinal: 2,
+  });
+
+  const model = createPublicCatalogReadModel(parsePublicCatalogDump(input));
+  const markdown = renderPublicCatalogMarkdownDocument(
+    "ar/catalog/collections/starter-collection",
+    model,
+  )?.markdown;
+
+  assert.ok(markdown);
+  const orderedLists = listMarkdownAstNodes(parseMarkdownAst(markdown))
+    .filter((node) => node.type === "list" && node.ordered === true);
+
+  assert.equal(orderedLists.length, 1);
+  assert.equal(orderedLists[0]?.children?.length, 2);
+  orderedLists[0]?.children?.forEach((listItem) => {
+    const nestedDetails = listItem.children?.filter(
+      (node) => node.type === "list" && node.ordered === false,
+    ) ?? [];
+
+    assert.equal(nestedDetails.length, 1);
+    assert.ok((nestedDetails[0]?.children?.length ?? 0) >= 6);
+  });
+  assert.match(markdown, /^1\. /m);
+  assert.match(markdown, /^2\. /m);
+  assert.doesNotMatch(markdown, /^١\. /m);
+});
+
+test("isolates authored Markdown fragments from generated and sibling content", () => {
+  const input = createValidDump();
+
+  input.packages[0].description = "Description code\n\n```text\nunclosed";
+  input.cards[2].frontText = [
+    "[Local reference][shared]",
+    "",
+    "[shared]: https://example.com/local-reference",
+  ].join("\n");
+  input.cards[2].backText = [
+    "# Authored heading",
+    "",
+    "- authored list item",
+    "",
+    "[Must stay literal][other]",
+  ].join("\n");
+  input.cards[1].frontText = "[other]: https://example.com/leaked-reference";
+
+  const model = createPublicCatalogReadModel(parsePublicCatalogDump(input));
+  const markdown = renderPublicCatalogMarkdownDocument(
+    "catalog/packages/canonical-package",
+    model,
+  )?.markdown;
+
+  assert.ok(markdown);
+  const nodes = listMarkdownAstNodes(parseMarkdownAst(markdown));
+  const links = nodes.filter((node) => node.type === "link").map((node) => node.url);
+  const codeBlocks = nodes.filter((node) => node.type === "code");
+  const cardHeadings = nodes.filter((node) => node.type === "heading" && node.depth === 3);
+
+  assert.equal(nodes.some((node) => node.type === "html"), false);
+  assert.equal(nodes.some((node) => node.type === "definition"), false);
+  assert.equal(codeBlocks.length, 1);
+  assert.equal(codeBlocks[0]?.value, "unclosed");
+  assert.equal(cardHeadings.length, 2);
+  assert.ok(nodes.some((node) =>
+    node.type === "heading"
+    && node.depth === 4
+    && node.children?.some((child) => child.value === "Authored heading")));
+  assert.ok(links.includes("https://example.com/local-reference"));
+  assert.equal(links.includes("https://example.com/leaked-reference"), false);
+  assert.ok(nodes.some((node) =>
+    node.type === "text" && node.value?.includes("[Must stay literal][other]")));
+});
+
+test("preserves supported GFM semantics while isolating authored fragments", async () => {
+  const input = createValidDump();
+
+  input.packages[0].description = [
+    "~~Removed text~~",
+    "",
+    "- [x] Completed task",
+    "- [ ] Open task",
+    "",
+    "| Term | Destination |",
+    "| --- | --- |",
+    "| GFM | [Local table reference][table-reference] |",
+    "",
+    "[table-reference]: https://example.com/table-reference",
+  ].join("\n");
+  input.cards[2].frontText = "Visit www.example.com for details.";
+
+  const model = createPublicCatalogReadModel(parsePublicCatalogDump(input));
+  const markdown = renderPublicCatalogMarkdownDocument(
+    "catalog/packages/canonical-package",
+    model,
+  )?.markdown;
+
+  assert.ok(markdown);
+  const gfmTree = remark().use(gfm).parse(markdown) as MarkdownAstNode;
+  const nodes = listMarkdownAstNodes(gfmTree);
+  const html = await renderMarkdownToHtml(markdown, "en");
+
+  assert.ok(nodes.some((node) => node.type === "delete"));
+  assert.ok(nodes.some((node) => node.type === "table"));
+  assert.ok(nodes.some((node) => node.type === "listItem" && node.checked === true));
+  assert.ok(nodes.some((node) =>
+    node.type === "link" && node.url === "https://example.com/table-reference"));
+  assert.ok(nodes.some((node) =>
+    node.type === "link" && node.url === "http://www.example.com/"));
+  assert.equal(nodes.some((node) => node.type === "definition"), false);
+  assert.equal(nodes.some((node) => node.type === "html"), false);
+  assert.match(html, /<del>Removed text<\/del>/);
+  assert.match(html, /type="checkbox"/);
+  assert.match(html, /checked/);
+  assert.match(html, /<table>/);
+  assert.match(html, /href="https:\/\/example\.com\/table-reference"/);
+});
+
+test("keeps percent-encoded and literal-percent catalog Markdown assets distinct", () => {
+  const input = createValidDump();
+  input.packages[0].topicTags = ["history world", "history%20world", "100%"];
+  input.collections[0].topicTags = ["history world", "history%20world", "100%"];
+  const model = createPublicCatalogReadModel(parsePublicCatalogDump(input));
+  const pagePaths = listPublicCatalogMarkdownPagePaths(model);
+  const encodedSpacePath = "catalog/topics/history%20world";
+  const literalPercentPath = "catalog/topics/history%2520world";
+
+  assert.ok(pagePaths.includes(encodedSpacePath));
+  assert.ok(pagePaths.includes(literalPercentPath));
+  assert.notEqual(
+    getMarkdownAssetPathname(encodedSpacePath),
+    getMarkdownAssetPathname(literalPercentPath),
+  );
+  const encodedSpaceApiPath = getMarkdownApiAssetPathname(encodedSpacePath);
+  const literalPercentApiPath = getMarkdownApiAssetPathname(literalPercentPath);
+
+  assert.notEqual(encodedSpaceApiPath, literalPercentApiPath);
+  assert.equal(
+    getPagePathFromMarkdownApiAssetSegments(
+      encodedSpaceApiPath.split("/").slice(-2),
+    ),
+    encodedSpacePath,
+  );
+  assert.equal(
+    getPagePathFromMarkdownApiAssetSegments(
+      literalPercentApiPath.split("/").slice(-2),
+    ),
+    literalPercentPath,
+  );
+  assert.equal(
+    getPagePathFromMarkdownPathname("/catalog/topics/history%2520world.md"),
+    literalPercentPath,
+  );
+  assert.match(
+    renderPublicCatalogMarkdownDocument(literalPercentPath, model)?.markdown ?? "",
+    /history%20world/,
+  );
+});
+
+test("Markdown asset route rejects traversal and malformed encoded paths", async () => {
+  const traversalPagePaths = [
+    "../../README",
+    "/../../README",
+    "..\\..\\README",
+    "%2e%2e/%2e%2e/README",
+    "../__markdown-backup/README",
+  ];
+
+  for (const pagePath of traversalPagePaths) {
+    const segments = getMarkdownRouteSegments(pagePath);
+    const response = await getPageMarkdown(
+      new Request(`https://example.test/${segments.join("/")}`),
+      { params: Promise.resolve({ segments: [...segments] }) },
+    );
+
+    assert.equal(response.status, 404, pagePath);
+    assert.doesNotMatch(await response.text(), /Flashcards Open Source App Website/i);
+  }
+
+  const malformedResponse = await getPageMarkdown(
+    new Request("https://example.test/__asset/not-hex.md"),
+    { params: Promise.resolve({ segments: ["__asset", "not-hex.md"] }) },
+  );
+
+  assert.equal(malformedResponse.status, 404);
+});
+
+test("derives clean llms catalog discovery links without install or query URLs", () => {
+  const model = createPublicCatalogReadModel(parsePublicCatalogDump(createValidDump()));
+  const section = renderPublicCatalogLlmsSection(model);
+
+  assert.match(section, /\/catalog\/packages\/canonical-package\//);
+  assert.match(section, /\/catalog\/authors\//);
+  assert.match(section, /\/catalog\/authors\/author-one\//);
+  assert.match(section, /\/catalog\/collections\//);
+  assert.match(section, /\/catalog\/collections\/starter-collection\//);
+  assert.equal(section.includes("?"), false);
+  assert.equal(section.includes("/catalog/import/"), false);
 });
 
 test("formats localized card counts with the required plural categories", () => {
