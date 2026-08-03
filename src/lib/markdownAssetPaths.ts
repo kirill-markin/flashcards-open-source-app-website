@@ -1,47 +1,46 @@
-const MARKDOWN_ASSET_PREFIX = "/__markdown";
-
+export const MARKDOWN_ASSET_PREFIX = "/__markdown";
 export const LLMS_ASSET_PATHNAME = `${MARKDOWN_ASSET_PREFIX}/llms.txt`;
+export const MARKDOWN_MANIFEST_FILE_PATH = ".generated/markdown-asset-manifest.json";
+export const MARKDOWN_MANIFEST_ENVIRONMENT_VARIABLE = "MARKDOWN_ASSET_MANIFEST_JSON";
 
-function normalizePagePath(pagePath: string): string {
-  if (pagePath === "") {
-    return "";
+const markdownAssetPattern = /^\/__markdown\/[0-9a-f]{64}\.md$/;
+
+export function getCanonicalPagePathname(pagePath: string): string {
+  return pagePath === "" ? "/" : `/${pagePath}/`;
+}
+
+export function getMarkdownAssetPathname(digest: string): string {
+  const pathname = `${MARKDOWN_ASSET_PREFIX}/${digest}.md`;
+
+  if (markdownAssetPattern.test(pathname) === false) {
+    throw new Error(`Invalid Markdown asset digest: ${digest}`);
   }
 
-  return pagePath.replace(/^\/+/, "").replace(/\/+$/, "");
+  return pathname;
 }
 
-export function getMarkdownAssetPathname(pagePath: string): string {
-  const normalizedPagePath = normalizePagePath(pagePath);
-
-  if (normalizedPagePath === "") {
-    return `${MARKDOWN_ASSET_PREFIX}/home.md`;
+export function getPagePathnameFromMarkdownPathname(
+  pathname: string,
+): string | null {
+  if (pathname === "/.md") {
+    return "/";
   }
 
-  return `${MARKDOWN_ASSET_PREFIX}/${normalizedPagePath}.md`;
-}
-
-export function getPagePathFromHtmlPathname(pathname: string): string {
-  return pathname.replace(/^\/+/, "").replace(/\/+$/, "");
-}
-
-export function getPagePathFromMarkdownPathname(pathname: string): string | null {
-  if (pathname === "/llms.txt" || !pathname.endsWith(".md")) {
+  if (
+    pathname.startsWith("/") === false
+    || pathname.endsWith(".md") === false
+    || pathname.endsWith("/.md")
+  ) {
     return null;
   }
 
-  return pathname.slice(1, -3);
+  return `${pathname.slice(0, -3)}/`;
 }
 
-export function getPagePathFromSegments(
-  segments: ReadonlyArray<string>
-): string {
-  if (segments.length === 0) {
-    return "";
-  }
+export function getMarkdownPathnameFromPagePathname(pathname: string): string {
+  return pathname === "/" ? "/.md" : `${pathname.slice(0, -1)}.md`;
+}
 
-  if (segments.length === 1 && segments[0] === "home") {
-    return "";
-  }
-
-  return segments.join("/");
+export function isMarkdownAssetPathname(value: string): boolean {
+  return markdownAssetPattern.test(value);
 }
