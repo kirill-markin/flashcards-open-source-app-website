@@ -1,218 +1,124 @@
 ---
-title: "Best Offline Flashcards App in 2026: Study Without Internet With FSRS and Sync"
-description: "Looking for an offline flashcards app that still syncs cleanly later? Here is the practical tradeoff in 2026: use an offline-first flashcards app with local storage, FSRS review scheduling, and sync instead of a browser-only study tool that breaks when you lose connection."
+title: "Best Offline Flashcards App in 2026: Anki, Flashcards, Quizlet, RemNote, or Mochi?"
+description: "Compare five offline flashcards apps by card access, editing, review progress, media, and later sync—and see which limits matter without internet."
 date: "2026-03-16"
+updated: "2026-08-03"
+image: "/blog/best-offline-flashcards-app.png"
 keywords:
-  - "offline flashcards app"
   - "best offline flashcards app"
+  - "offline flashcards app"
+  - "flashcards without internet"
   - "flashcards app without internet"
   - "study flashcards offline"
   - "offline spaced repetition app"
-  - "FSRS flashcards offline"
-  - "offline Anki alternative"
-  - "flashcards sync app"
 ---
 
-I like testing flashcards apps in the least impressive place possible: a plane with bad Wi-Fi, low battery, and absolutely no patience for loading spinners. That is where a lot of "modern" study tools quietly become websites in costume.
+Airplane mode can expose an “offline” promise in about thirty seconds. The cards may open, but editing fails. Reviews appear to save, but disappear after a reconnect. Images turn into empty boxes. Or the browser reloads and the entire app vanishes.
 
-That is usually the moment people start looking for the **best offline flashcards app**.
+To find the best offline flashcards app, this comparison uses a stricter question than “Does it work offline?” I checked whether Anki, Flashcards, Quizlet, RemNote, and Mochi let you access cards, create or edit them, save study progress, use media, and sync the work later. Those are five separate promises, and an app can keep some without keeping all five.
 
-Not because offline studying is some exotic requirement. Because memory work happens in boring places: flights, trains, waiting rooms, patchy mobile networks, and half-finished commutes where you want the next card now, not after a reconnect.
+> **Disclosure:** I am Kirill Markin, and I build [Flashcards](https://flashcards-open-source-app.com/), one of the products compared here. I do not treat it as the automatic winner. It is younger than Anki, requires an online first login and workspace hydration, and its media availability depends on what the device has cached.
 
-If the app hesitates every time the connection does, the study habit gets weaker than it should.
+**Facts checked:** August 3, 2026.
 
-## Most flashcards apps are only offline until you actually need them
+![Best offline flashcards app comparison across card access, editing, review progress, media, and later sync](/blog/best-offline-flashcards-app.png)
 
-A lot of products claim some form of offline support.
+## What “offline flashcards app” means in this comparison
 
-Usually that means one of two things:
+There are three common versions of offline use, and they should not share one label without explanation.
 
-- the browser keeps a little cache and sometimes the last page still opens
-- the mobile app shows old cards but gets weird once you edit something
+- **A complete local collection:** an installed app keeps its working data on the device. Your connection can disappear without taking the collection with it.
+- **Predownloaded or cached content:** only selected, recent, or previously opened material is available. This can work well for a trip, but it is not a whole-library guarantee.
+- **A surviving browser session:** an open tab keeps working until it is refreshed or closed. Useful in a brief outage; risky as a travel plan.
 
-That is not the same as a real **flashcards app without internet**.
+Device-level offline access also says nothing about media completeness. A card's text can be local while its image, audio, or PDF is still on a server. And “saved offline” is incomplete unless the app explains what happens to review history and edits after reconnection.
 
-The useful version is stricter. You should be able to open the app, review due cards, create or edit cards, and keep moving as if the network does not matter right now.
+The best offline flashcards app for you depends on which of those boundaries you can accept.
 
-Then sync later.
+## Offline flashcards apps compared across five practical tests
 
-That last part sounds obvious, but this is where a lot of products become fragile. They work fine while online, and then the offline mode starts behaving like a temporary exception the product never fully respected.
+| Product and surface | 1. Access to cards | 2. Create and edit | 3. Save study progress | 4. Media availability and creation | 5. Later sync |
+| --- | --- | --- | --- | --- | --- |
+| **Anki native clients** (desktop, AnkiMobile, AnkiDroid); **AnkiWeb is separate** | Native clients keep a local collection and can open and review it offline. AnkiWeb is a hosted browser surface, not the offline client. | Create and edit notes and cards offline in native clients. | Reviews are written to the local collection. | Media already imported, added, or synced to the device is local. Anki copies newly added media into its local media folder. | AnkiWeb sync is optional. Normal note edits and reviews merge on later sync; media sync runs separately. |
+| **Flashcards** web, iOS, and Android | After an online login and initial workspace hydration, cards and decks are local: IndexedDB on web and SQLite-backed storage on native clients. | Card and deck writes go to the local store first and enter an outbox. AI/chat features still need a network. | Review events are stored locally as append-only history and queued for sync. | New media is stored in a local cache and queued for upload. Existing remote media works offline only if it has already been downloaded or cached. | The outbox pushes changes and the client pulls remote updates after reconnection. The first login and initial hydration cannot happen offline. |
+| **Quizlet iOS and Android**; **web is separate** | Mobile apps automatically save eight recent sets; you can download more. This is a predownloaded-set mode, not a whole-library guarantee. The web product is not included in Quizlet's offline promise. | Mobile users can create and edit sets offline; the changes publish after reconnection. | Offline progress is stored on the device, then syncs after reconnecting and refreshing the app. | Quizlet's offline help page does not specify which image/audio types remain available or can be added offline. Test media-heavy sets before relying on them. | Downloaded-set progress and offline-created or edited sets sync after reconnection. Offline study is limited to Flashcards and Match modes. |
+| **RemNote desktop, mobile, and web** | Installed desktop and mobile apps support offline notes and card reviews after download and login. Web works only while an already-open tab remains open; refreshing or closing it blocks access until reconnect. | Notes and cards can be edited offline in installed apps and the surviving web session. AI and plugins are unavailable. | Review progress and edits are saved and sync automatically later. | Desktop stores a complete local copy of existing images and PDFs. Mobile and web keep only some recent images; missing-image cards are postponed. The official guide does not document offline media creation on any surface. | Edits and review progress merge after reconnection, including changes made on multiple offline devices. |
+| **Mochi installed apps** (macOS, Windows, Linux, iOS, Android); **web is separate** | Installed apps can run completely offline without an account. The web version uses browser offline storage, which the browser may clear. | Cards can be added and edited locally; mobile apps support adding cards and reviewing. | Review history remains local and works without an account. | Attachments are copied into local storage, including image, audio, and video files, so locally added media does not depend on a connection. | Cross-device sync and cloud backup require Pro. Without it, each local app still works but does not gain cross-device sync. |
 
-## Browser tabs are not an offline-first study system
+The table is intentionally strict. A green light for offline text does not imply offline audio. A mobile download button does not imply the complete library lives on the device. And browser offline storage is not the same safety boundary as an installed client with its own local database.
 
-I do not dislike web apps. I use them all the time.
+## Anki: the safest mature full-offline default
 
-But for **study flashcards offline**, a browser tab is often the wrong center of gravity.
+Anki's installed clients are the least surprising choice for a long-lived offline collection. The collection lives on the device, so you can open cards, add or edit notes, and complete reviews without contacting AnkiWeb. [AnkiDroid documents the same local collection model on Android](https://docs.ankidroid.org/manual.html).
 
-The session expires. The tab reloads. The network flickers. Some local state survives, some does not. You get just enough reliability to believe it might work until the exact moment you wanted a calm review queue.
+AnkiWeb needs a separate sentence because people often use “Anki” to mean both things. AnkiWeb is the hosted browser and sync service. It is not what makes the installed desktop or mobile clients work offline, and sync is optional.
 
-That is why I think the better architecture is local-first, sync-later.
+When you reconnect, [Anki synchronizes ordinary collection changes and can merge normal edits and reviews](https://docs.ankiweb.net/syncing.html). Media has its own sync process. The [Anki media documentation](https://docs.ankiweb.net/media.html) explains that images and sounds are copied into a local media folder when you attach them, so media that has reached the device remains available without internet.
 
-Write locally first.
+That mature local model makes Anki the safest general recommendation here. The tradeoff is a product family split across desktop, the official iOS app, AnkiDroid, and AnkiWeb rather than one identical surface everywhere.
 
-Keep the review queue local.
+## Flashcards: local-first work, with cache-based media
 
-Treat the network as a later step, not as the thing standing between you and the next card.
+[Flashcards' offline-first architecture](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/docs/architecture.md#offline-first-sync) uses IndexedDB in the web client and SQLite-backed storage in the native clients. Cards, decks, review events, and pending operations live locally. An edit or review is written locally first, then placed in an outbox for later sync.
 
-## The useful architecture is local first, sync later
+This means the web, iOS, and Android clients can keep accepting card changes and reviews after hydration, instead of making every action wait for the server. Review history is append-only, which gives later sync a record of what happened offline.
 
-The version I trust is pretty boring:
+The limits matter. A new user still needs a connection for login and initial workspace hydration. AI and chat features are online services. Media is separate from card data: newly added media sits in a local cache and upload queue, while media that already exists remotely is available offline only after that device has cached or downloaded it.
 
-1. the client stores cards locally
-2. review actions write locally first
-3. pending changes wait in an outbox
-4. sync pushes and pulls when the network comes back
+Flashcards is a reasonable choice if you want the same local-write-and-outbox contract across its current clients and are willing to prepare remote media before a trip. It is also younger than Anki. That is why I would not rank it above Anki by default, even though I build it.
 
-That is the right shape for an **offline spaced repetition app** because it respects how studying actually feels. Reviews are fast. Card creation is fast. The queue feels stable. The network becomes background plumbing instead of part of every tap.
+## Quizlet: practical mobile downloads, not a whole-library promise
 
-Funny thing is, this sounds more technical than it feels in practice.
+Quizlet's offline mode is specific and useful. It is also narrower than the product name alone suggests.
 
-To the learner, it just feels calm.
+According to [Quizlet's official offline guide](https://help.quizlet.com/hc/en-us/articles/360030565412-Studying-offline-with-Quizlet-mobile-apps), offline creation and study are available in the iOS and Android apps, not the web product. The apps automatically save eight recently used sets, and you can download additional sets yourself. Once offline, the documented study modes are Flashcards and Match.
 
-The app opens. The cards are there. You study. Later it catches up.
+You can create or edit sets without internet. Quizlet publishes those changes when you reconnect. Study progress stays on the device and syncs after you reconnect and refresh the app.
 
-That is all most people wanted in the first place.
+This is better described as a deliberate downloaded-set mobile mode than as a browser cache. It still does not promise that your whole library is present. Quizlet's help page also does not say enough about complete offline support for every image or audio type, or about creating each media type offline. If your cards depend on pronunciation audio or diagrams, test the exact set before leaving a connection.
 
-## Spaced repetition feels worse when offline support is weak
+## RemNote: excellent on desktop, partial media on mobile and web
 
-Weak offline support is not only an infrastructure problem.
+RemNote's installed desktop and mobile apps let you edit notes and review flashcards offline after the apps are installed and you have logged in. Edits and review progress sync when the connection returns. This makes RemNote a strong option when your flashcards grow directly from a larger set of notes.
 
-It changes the learning experience itself.
+The desktop app has the clearest media-access story in this comparison after Anki and Mochi: it stores a complete copy of the images and PDFs in your knowledge base on the computer. The [official RemNote offline guide](https://help.remnote.com/en/articles/6752029-offline-mode) says mobile and web do not keep a complete media copy. Mobile caches some recent images, and cards with missing images are postponed until later. The guide documents access to existing media, not whether adding new media offline is supported, so test that workflow if you need it.
 
-If your reviews fail to save, if the due queue shifts unexpectedly after reconnect, or if the app makes you wonder whether your last session counted, the whole spaced repetition habit starts feeling slightly fake.
+The browser behavior is even narrower. An already-open RemNote tab can continue working offline, and its changes remain safe. Reload or close that tab, though, and you cannot reopen the app until the network returns. AI features and plugins are also unavailable offline.
 
-That is a bigger issue than it sounds.
+RemNote desktop is therefore a strong offline notes-and-flashcards choice, especially for image and PDF collections. I would not extend that conclusion to complete mobile media access.
 
-Spaced repetition only works well when the learner trusts the rhythm. You do the review now. The system remembers what happened. Tomorrow's queue reflects reality. No drama.
+## Mochi: strongest when you want local use without an account
 
-If the product breaks that trust, even occasionally, the habit becomes harder to keep.
+Mochi's installed macOS, Windows, Linux, iOS, and Android apps can be used [completely offline without an account](https://mochi.cards/docs/getting-started/download-and-install/). You can keep cards and review history local; the mobile apps support both reviewing and adding cards.
 
-That is why **FSRS flashcards offline** is not a niche technical phrase to me. It points at something real: the scheduler and the offline model need to cooperate cleanly.
+Its media model is direct. Mochi [stores attached images, audio, and video files locally](https://mochi.cards/docs/markdown/advanced-formatting/), including files pasted or dragged into the editor. This makes it attractive for someone who wants a self-contained local collection without setting up an account first.
 
-## What an offline flashcards app actually needs
+There are two separate caveats. First, [cross-device sync and cloud backup are Pro features](https://mochi.cards/). Without Pro, the installed local app continues working, but its collection does not automatically appear on another device. [Mochi's export tools](https://mochi.cards/docs/import-and-export/exporting/) still provide a manual portability path. Second, the web version relies on browser offline storage, and Mochi warns that a browser may clear it without notice.
 
-If I had to define the **best offline flashcards app**, I would look for a few boring things first:
+Choose the installed apps for the strong local promise. Treat the web version as a different storage risk.
 
-- local storage, not just page cache
-- review actions saved immediately
-- card edits that work without internet
-- a sync model that does not duplicate or lose work
-- a scheduler that stays consistent across clients
-- a product shape that still makes sense once you reconnect
+## Which is the best offline flashcards app?
 
-This is not glamorous product marketing, but it is the difference between "offline mode" and a serious study tool.
+For most people who need a mature, complete local collection, **Anki is the safest default**. It has the longest-established native offline workflow, handles local media, and does not require sync to keep studying.
 
-You can usually feel the gap quickly.
+The other choices fit more specific constraints:
 
-One app makes you nervous every time you lose signal.
+- Choose **Mochi's installed app** when you want complete local use without an account and do not need free cross-device sync.
+- Choose **RemNote desktop** when flashcards belong inside a notes system and complete local images and PDFs matter. Mobile and web media remain partial.
+- Choose **Quizlet mobile** when you can download the required sets in advance and Flashcards or Match is enough for offline study.
+- Choose **Flashcards** when you want local-first writes and later sync across its web, iOS, and Android clients, while accepting the online first hydration, younger product, and cache-based media limits.
 
-The other one barely seems to care.
+If your decision also depends on source access or migration, compare the [best open-source flashcard apps in 2026](/blog/best-open-source-flashcard-apps-2026/) and the deeper [Anki vs Quizlet vs Flashcards comparison](/blog/anki-vs-quizlet-vs-open-source-flashcards-app/).
 
-## Sync is part of the product, not a background detail
+## Run this airplane-mode test before a trip
 
-People sometimes talk about sync as if it were a backend footnote.
+Do not trust an offline badge the night before a flight. Prepare the exact device and collection you plan to use, then test all five dimensions.
 
-I think it is part of the user experience.
-
-If your phone review queue and your main account drift apart, that is not an infrastructure issue. That is the product failing at one of its core jobs.
-
-The good version is simple from the learner side:
-
-- study offline on the device in your hand
-- reconnect later
-- keep the same cards, the same review history, and the same overall system
-
-That is what a useful **flashcards sync app** should feel like.
-
-Not "please wait while we negotiate whether your work from the train ride still exists."
-
-## Where Flashcards fits
-
-[Flashcards](https://flashcards-open-source-app.com/) is interesting here because the product is already built around the shape I actually want.
-
-The current stack includes:
-
-- the hosted web app
-- an iOS client in the repository
-- local SQLite on iOS
-- sync push and pull routes on the backend
-- FSRS scheduling
-- open-source code and a self-hosted path
-
-That matters because the product is not pretending the offline story will be solved later by marketing language. The offline-first model is already part of the architecture.
-
-The current docs are explicit about it:
-
-- the iOS app writes locally first
-- changes queue in an outbox
-- sync pushes pending operations
-- sync pulls remote changes afterward
-
-If you want the technical version, the architecture docs are here:
-
-- [Architecture](https://flashcards-open-source-app.com/docs/architecture/)
-- [Self-hosting guide](https://flashcards-open-source-app.com/docs/self-hosting/)
-
-## FSRS is better when the whole system stays aligned
-
-I like FSRS partly because it reduces busywork. The review timing usually feels calmer and more sensible than older systems.
-
-But the algorithm is only part of it.
-
-The implementation details matter more than people like to admit. If one client schedules cards one way and another client behaves differently, the fancy acronym does not save you.
-
-That is why I like products where the backend model and the client model are clearly aligned. In Flashcards, the backend and iOS client keep mirrored FSRS behavior, while the web app follows the same data contract rather than shipping a separate third scheduler.
-
-That is a healthier shape for a real **offline flashcards app** than a pile of loosely connected clients all making slightly different promises.
-
-If you want the broader scheduling comparison, this companion piece is worth reading:
-
-- [FSRS vs SM-2 in 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
-
-## Offline does not mean isolated forever
-
-This is where I think some people talk past each other.
-
-Wanting the **best offline flashcards app** does not mean rejecting sync, cloud features, or web access.
-
-It usually means wanting the device in your hand to remain useful when the connection is bad.
-
-That is a much more reasonable requirement.
-
-I still want sync.
-
-I still want my cards to exist beyond one phone.
-
-I still want a real backend model behind the product.
-
-I just do not want the network to sit in the middle of every review session like an insecure manager approving each click.
-
-## So what is the best offline flashcards app in 2026?
-
-If all you need is a light web tool and you are almost always online, a browser-first app may still be enough.
-
-If you care about reliable review sessions without internet, local storage first, clean sync later, and a scheduler that stays believable across clients, the better answer is an offline-first system.
-
-That is where [Flashcards](https://flashcards-open-source-app.com/) stands out for me.
-
-I would describe the tradeoff like this: a lot of study tools are pleasant while the connection behaves. An offline-first flashcards app is pleasant even when the connection stops cooperating.
-
-That difference matters much more than the category usually admits.
-
-## Try the offline-first flashcards workflow
-
-If you are actively looking for the **best offline flashcards app**, start here:
-
-- [Open Flashcards](https://flashcards-open-source-app.com/)
-- [Open the app](https://app.flashcards-open-source-app.com/)
-- [Read the architecture docs](https://flashcards-open-source-app.com/docs/architecture/)
-- [View the source on GitHub](https://github.com/kirill-markin/flashcards-open-source-app)
-
-And if you are comparing the wider category first, these are the useful companion reads:
-
-- [Best Anki Alternatives in 2026](https://flashcards-open-source-app.com/blog/best-anki-alternatives/)
-- [Anki vs Quizlet vs Open-Source Flashcards App](https://flashcards-open-source-app.com/blog/anki-vs-quizlet-vs-open-source-flashcards-app/)
-
-The best offline study tool is usually not the one with the loudest offline badge.
-
-It is the one that lets you open the app on a bad connection, review your cards normally, and forget the network exists until later.
+1. While online, install or open the intended client, log in, complete the first sync, and explicitly download any sets or media the app requires.
+2. Turn on airplane mode. Do not merely disable Wi-Fi; that can leave mobile data active.
+3. Cold-open the installed app. If you plan to use a web surface, close and reopen the tab too. Confirm that the cards you need—not only the most recent card—are present.
+4. Create one card and edit another. Add the kind of media you actually use, such as an image or audio clip.
+5. Complete several reviews, quit the app, reopen it, and confirm the cards and study progress are still there.
+6. Reconnect. Let sync finish, then check another device or the web surface for the new card, the edit, the reviews, and the media.
+
+That ten-minute test gives a more useful answer than any generic “works offline” label. The best offline flashcards app is the one whose limits match your real collection—and whose missing connection becomes boring rather than memorable.
