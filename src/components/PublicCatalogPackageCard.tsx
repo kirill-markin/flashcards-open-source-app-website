@@ -16,12 +16,14 @@ import styles from "./PublicCatalogPackageCard.module.css";
 
 interface PublicCatalogPackageCardProps {
   readonly copy: PublicCatalogUiCopy;
+  readonly coverSizes: string;
   readonly locale: AppLocale;
   readonly packageView: PublicCatalogPackageCardView;
 }
 
 export function PublicCatalogPackageCard({
   copy,
+  coverSizes,
   locale,
   packageView,
 }: PublicCatalogPackageCardProps): React.JSX.Element {
@@ -48,6 +50,7 @@ export function PublicCatalogPackageCard({
         <PublicCatalogCover
           coverMediaAsset={coverMediaAsset}
           placeholderLabel={copy.coverPlaceholderLabel}
+          sizes={coverSizes}
           title={latestVersion.title}
         />
       </TrackedPublicCatalogPackageLink>

@@ -123,7 +123,10 @@ export function createPublicCatalogBrowseData(
         },
         coverMediaAsset: packageView.coverMediaAsset === null
           ? null
-          : { altText: packageView.coverMediaAsset.altText },
+          : {
+              altText: packageView.coverMediaAsset.altText,
+              downloadUrl: packageView.coverMediaAsset.downloadUrl,
+            },
       },
       collections: [...collections].sort(compareChoices),
     };
