@@ -1,4 +1,30 @@
 import type { NextConfig } from "next";
+import { readFileSync } from "node:fs";
+import { join } from "node:path";
+import {
+  MARKDOWN_MANIFEST_ENVIRONMENT_VARIABLE,
+  MARKDOWN_MANIFEST_FILE_PATH,
+} from "./src/lib/markdownAssetPaths";
+import {
+  parseMarkdownAssetManifest,
+  serializeMarkdownAssetManifest,
+} from "./src/lib/markdownAssetManifest";
+
+function readMarkdownAssetManifest(): string {
+  const filePath = join(process.cwd(), MARKDOWN_MANIFEST_FILE_PATH);
+  let serialized: string;
+
+  try {
+    serialized = readFileSync(filePath, "utf-8");
+  } catch (error: unknown) {
+    throw new Error(
+      `Cannot read generated Markdown asset manifest: ${filePath}. Run npm run generate:static-content first.`,
+      { cause: error },
+    );
+  }
+
+  return serializeMarkdownAssetManifest(parseMarkdownAssetManifest(serialized)).trim();
+}
 
 const nextConfig: NextConfig = {
   trailingSlash: true,
@@ -13,6 +39,7 @@ const nextConfig: NextConfig = {
     SITE_NAME: "Flashcards",
     APP_URL: "https://app.flashcards-open-source-app.com",
     AUTH_URL: "https://auth.flashcards-open-source-app.com",
+    [MARKDOWN_MANIFEST_ENVIRONMENT_VARIABLE]: readMarkdownAssetManifest(),
   },
   compiler: {
     removeConsole:
