@@ -1778,6 +1778,72 @@ test("isolates authored Markdown fragments from generated and sibling content", 
     node.type === "text" && node.value?.includes("[Must stay literal][other]")));
 });
 
+test("renders authored images as inert content in generated catalog Markdown", () => {
+  const input = createValidDump();
+
+  input.packages[0].description = [
+    "![Package tracker](https://tracker.example/package.gif)",
+    "",
+    "[**![Linked package tracker](https://tracker.example/linked-package.gif)**](https://example.com/package-link)",
+  ].join("\n");
+  input.collections[0].description = [
+    "![Collection tracker][collection-image]",
+    "",
+    "[![Linked collection tracker][linked-collection-image]][collection-link]",
+    "",
+    "[collection-image]: https://tracker.example/collection.gif",
+    "[linked-collection-image]: https://tracker.example/linked-collection.gif",
+    "[collection-link]: https://example.com/collection-link",
+  ].join("\n");
+  input.cards[2].frontText = "![](https://tracker.example/card-front.gif)";
+  input.cards[2].backText = [
+    "[![Linked card tracker][card-image]][card-link]",
+    "",
+    "[card-image]: https://tracker.example/linked-card.gif",
+    "[card-link]: https://example.com/card-link",
+  ].join("\n");
+
+  const model = createPublicCatalogReadModel(parsePublicCatalogDump(input));
+  const packageMarkdown = renderPublicCatalogMarkdownDocument(
+    "catalog/packages/canonical-package",
+    model,
+  )?.markdown;
+  const collectionMarkdown = renderPublicCatalogMarkdownDocument(
+    "catalog/collections/starter-collection",
+    model,
+  )?.markdown;
+
+  assert.ok(packageMarkdown);
+  assert.ok(collectionMarkdown);
+  const nodes = [packageMarkdown, collectionMarkdown].flatMap((markdown) =>
+    listMarkdownAstNodes(parseMarkdownAst(markdown)));
+  const linkDestinations = nodes
+    .filter((node) => node.type === "link")
+    .map((node) => node.url);
+
+  assert.equal(
+    nodes.some((node) => node.type === "image" || node.type === "imageReference"),
+    false,
+  );
+  assert.ok(linkDestinations.includes("https://tracker.example/package.gif"));
+  assert.ok(linkDestinations.includes("https://example.com/package-link"));
+  assert.equal(linkDestinations.includes("https://tracker.example/linked-package.gif"), false);
+  assert.ok(linkDestinations.includes("https://tracker.example/collection.gif"));
+  assert.ok(linkDestinations.includes("https://example.com/collection-link"));
+  assert.equal(linkDestinations.includes("https://tracker.example/linked-collection.gif"), false);
+  assert.ok(linkDestinations.includes("https://tracker.example/card-front.gif"));
+  assert.ok(linkDestinations.includes("https://example.com/card-link"));
+  assert.equal(linkDestinations.includes("https://tracker.example/linked-card.gif"), false);
+  assert.ok(nodes.some((node) =>
+    node.type === "text" && node.value === "Linked package tracker"));
+  assert.ok(nodes.some((node) =>
+    node.type === "text" && node.value === "Linked collection tracker"));
+  assert.ok(nodes.some((node) =>
+    node.type === "text" && node.value === "Linked card tracker"));
+  assert.ok(nodes.some((node) =>
+    node.type === "text" && node.value === "https://tracker.example/card-front.gif"));
+});
+
 test("renders catalog Markdown with safe images and nested heading depths", async () => {
   const packageDescriptionHtml = await renderPublicCatalogDescriptionMarkdownToHtml(
     [

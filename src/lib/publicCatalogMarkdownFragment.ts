@@ -3,6 +3,7 @@ import type {
   BlockContent,
   Definition,
   DefinitionContent,
+  Image,
   ImageReference,
   Heading,
   LinkReference,
@@ -267,7 +268,7 @@ function normalizeLinkReference(
   context: MarkdownFragmentContext,
 ): PhrasingContent {
   const definition = context.definitions.get(node.identifier);
-  const children = normalizePhrasingContent(node.children, context);
+  const children = normalizeLinkedPhrasingContent(node.children, context);
 
   if (definition === undefined) {
     return { ...node, children };
@@ -281,22 +282,107 @@ function normalizeLinkReference(
   };
 }
 
-function normalizeImageReference(
-  node: ImageReference,
+function getAuthoredImageLabel(
+  alt: string | null | undefined,
+  fallback: string,
+): string {
+  return alt === null || alt === undefined || alt.trim() === "" ? fallback : alt;
+}
+
+function normalizeAuthoredImageAsText(
+  node: Image | ImageReference,
   context: MarkdownFragmentContext,
 ): PhrasingContent {
+  if (node.type === "image") {
+    const url = normalizeAuthoredMarkdownDestination(node.url, context);
+
+    return {
+      type: "text",
+      value: getAuthoredImageLabel(node.alt, url),
+    };
+  }
+
+  const definition = context.definitions.get(node.identifier);
+
+  return {
+    type: "text",
+    value: getAuthoredImageLabel(node.alt, definition?.url ?? node.identifier),
+  };
+}
+
+function normalizeAuthoredImageAsLink(
+  node: Image | ImageReference,
+  context: MarkdownFragmentContext,
+): PhrasingContent {
+  if (node.type === "image") {
+    const url = normalizeAuthoredMarkdownDestination(node.url, context);
+
+    return {
+      type: "link",
+      url,
+      title: node.title,
+      children: [{
+        type: "text",
+        value: getAuthoredImageLabel(node.alt, url),
+      }],
+    };
+  }
+
   const definition = context.definitions.get(node.identifier);
 
   if (definition === undefined) {
-    return node;
+    return normalizeAuthoredImageAsText(node, context);
   }
 
   return {
-    type: "image",
+    type: "link",
     url: definition.url,
     title: definition.title,
-    alt: node.alt,
+    children: [{
+      type: "text",
+      value: getAuthoredImageLabel(node.alt, definition.url),
+    }],
   };
+}
+
+function normalizeLinkedPhrasingContent(
+  nodes: ReadonlyArray<PhrasingContent>,
+  context: MarkdownFragmentContext,
+): PhrasingContent[] {
+  return nodes.map((node): PhrasingContent => {
+    if (node.type === "html") {
+      throw new Error("Public catalog authored Markdown must not contain raw HTML.");
+    }
+
+    if (node.type === "image" || node.type === "imageReference") {
+      return normalizeAuthoredImageAsText(node, context);
+    }
+
+    if (node.type === "linkReference") {
+      return normalizeLinkReference(node, context);
+    }
+
+    if (node.type === "link") {
+      return {
+        ...node,
+        url: normalizeAuthoredMarkdownDestination(node.url, context),
+        children: normalizeLinkedPhrasingContent(node.children, context),
+      };
+    }
+
+    if (
+      node.type === "delete"
+      || node.type === "emphasis"
+      || node.type === "strong"
+    ) {
+      return {
+        ...node,
+        children: normalizeLinkedPhrasingContent(node.children, context),
+      };
+    }
+
+    return node;
+  });
 }
 
 function normalizePhrasingContent(
@@ -312,28 +398,21 @@ function normalizePhrasingContent(
       return normalizeLinkReference(node, context);
     }
 
-    if (node.type === "imageReference") {
-      return normalizeImageReference(node, context);
+    if (node.type === "image" || node.type === "imageReference") {
+      return normalizeAuthoredImageAsLink(node, context);
     }
 
-    if (node.type === "image") {
+    if (node.type === "link") {
       return {
         ...node,
         url: normalizeAuthoredMarkdownDestination(node.url, context),
+        children: normalizeLinkedPhrasingContent(node.children, context),
       };
     }
 
-    if (
-      node.type === "delete"
-      || node.type === "emphasis"
-      || node.type === "link"
-      || node.type === "strong"
-    ) {
+    if (node.type === "delete" || node.type === "emphasis" || node.type === "strong") {
       return {
         ...node,
-        ...(node.type === "link"
-          ? { url: normalizeAuthoredMarkdownDestination(node.url, context) }
-          : {}),
         children: normalizePhrasingContent(node.children, context),
       };
     }
