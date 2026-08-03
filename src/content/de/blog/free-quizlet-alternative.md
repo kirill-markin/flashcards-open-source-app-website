@@ -1,87 +1,146 @@
 ---
-title: "Kostenlose Quizlet-Alternative 2026: Open-Source-Karteikarten mit FSRS, Offline-Lernen und ohne Paywall"
-description: "Du suchst 2026 eine kostenlose Quizlet-Alternative, nachdem Learn und Test hinter Quizlet Plus gewandert sind? Diese Open-Source-Karteikarten-App bleibt kostenlos und ohne Feature-Sperren: FSRS-Spaced-Repetition, Offline-Lernen, KI-gestützte Kartenentwürfe und volle Kontrolle über deine Decks."
+title: "Kostenlose Quizlet-Alternative 2026: Was ist wirklich kostenlos?"
+description: "Ist Flashcards eine kostenlose Quizlet-Alternative? Hier erfährst du, was die gehostete Beta umfasst, welche Limits sowie Import- und Exportregeln gelten, was Self-Hosting kostet und welche Quizlet-Funktionen fehlen."
 image: "/blog/free-quizlet-alternative.png"
 date: "2026-06-20"
+updated: "2026-08-03"
 keywords:
-  - "kostenlose quizlet alternative"
-  - "quizlet alternative kostenlos"
-  - "quizlet plus alternative"
-  - "kostenlose flashcards app ohne paywall"
-  - "open source quizlet alternative"
-  - "quizlet alternative ohne abo"
-  - "kostenlose fsrs flashcards app"
-  - "kostenlose spaced repetition app"
+  - "kostenlose Quizlet-Alternative"
+  - "Quizlet-Alternative kostenlos"
+  - "kostenlose Karteikarten-App"
+  - "Quizlet-Plus-Alternative"
+  - "Open-Source-Quizlet-Alternative"
+  - "kostenlose FSRS-Karteikarten-App"
+  - "Flashcards Preise"
+  - "Self-Hosting-Kosten für Karteikarten"
 ---
 
-Letzte Woche habe ich mit Quizlet gelernt, war in der dritten Runde im Learn-Modus und endlich in diesem schönen Rhythmus, in dem die Karten einfach sitzen. Dann schob sich ein Fenster ins Bild: Ich hatte mein Rundenlimit erreicht, und um weiterzumachen, brauchte ich Quizlet Plus. Seit Jahren hatte ich nicht mehr dafür bezahlt, einen Test zu machen. Jetzt sollte ich zahlen, um weiter mit meinem eigenen Kartensatz zu lernen.
+Die gehostete Version von [Flashcards](/) kostet in der Beta 0 US-Dollar, eine Kreditkarte ist nicht nötig. KI und Synchronisierung sind inbegriffen. Für Karten, Dateien und den gesamten Speicherplatz gibt es keine tarifbedingten Obergrenzen. Damit eignet sich Flashcards als **kostenlose Quizlet-Alternative** für klassische Vorder-/Rückseitenkarten. Das Wort „kostenlos“ braucht allerdings zwei Fußnoten: Technische Limits gelten weiterhin, und nicht für jede gehostete Funktion ist versprochen, dass sie dauerhaft kostenlos bleibt.
 
-Wenn genau dieser Moment der Grund ist, warum du hier bist, gibt es eine wirklich **kostenlose Quizlet-Alternative**, die keine abgespeckte Testversion ist. [Flashcards](/) ist Open Source, in der Beta-Phase im gehosteten Tarif kostenlos und für immer kostenlos, wenn du selbst hostest. Jede Funktion steckt in jedem Tarif, ohne Paywall vor den Teilen, mit denen du tatsächlich lernst. Lass mich erklären, was sich bei Quizlet geändert hat und warum ich diesen Vergleich für fair halte und nicht für ein Bashing.
+Die Software steht außerdem unter der MIT-Lizenz. Beim Self-Hosting fällt deshalb keine Lizenzgebühr an, der Produktivbetrieb kostet aber trotzdem Geld. Wer auf Quizlets Learn- oder Test-Modus, öffentliche Sets, KI-Lernwerkzeuge oder Unterrichtsfunktionen angewiesen ist, findet bei Flashcards dafür keinen gleichwertigen Ersatz.
 
-![Kostenlose Open-Source-Quizlet-Alternative mit FSRS-Wiederholung, der Kartenliste und dem KI-Chat](/blog/free-quizlet-alternative.png)
+> **Offenlegung:** Ich bin Kirill Markin und entwickle Flashcards. In diesem Artikel geht es um den Preis und die Grenzen des kostenlosen Angebots – auch dort, wo Quizlet Funktionen bietet, die Flashcards fehlen.
 
-## Was "kostenlos" bei Quizlet früher bedeutete und was sich geändert hat
+**Fakten geprüft:** 3. August 2026.
 
-Lange Zeit war das kostenlose Quizlet wirklich gut. Du konntest einen Kartensatz erstellen, den Learn-Modus so oft durchlaufen, wie du wolltest, Übungstests machen und lernen, ohne an ein Abo zu denken. Diese Großzügigkeit ist ein Grund, warum so viele Lernende Quizlet kennen.
+![Kostenlose Quizlet-Alternative als Box mit Karten und Medien, die durch eine Größenlehre passt, während der Lernstand neben der Self-Hosting-Infrastruktur zurückbleibt](/blog/free-quizlet-alternative.png)
 
-2026 ist der kostenlose Tarif dünner geworden. Der Learn-Modus ist auf etwa ein paar Runden pro Sitzung begrenzt, bevor er zum Upgrade auffordert, und der Test-Modus ist auf rund einen pro Kartensatz beschränkt. Unbegrenztes Learn und Test stecken jetzt in Quizlet Plus, das etwa 8 US-Dollar im Monat kostet, mit Aktion manchmal nahe 3 US-Dollar. Ein paar Dinge, die früher kostenlos waren, sind hinter dieselbe Paywall gewandert: Offline-Zugriff erfordert Plus, und Bilder zu deinen Karten hinzuzufügen ebenfalls. Im kostenlosen Tarif kommt obendrauf Werbung.
+## Kostenlose Quizlet-Alternative: die Kosten auf einen Blick
 
-Man versteht, warum Leute frustriert sind. Bewertungen nennen es "raffgierig" und sagen Dinge wie "wir müssen jetzt buchstäblich zahlen, um zu lernen". Eine Bewertung, die ich gesehen habe, beschrieb es als "nur noch ein Schatten seiner selbst". Diese Worte sind hart, aber sie kommen von einer echten Veränderung: Das, was früher kostenlos war, das Lernen, ist jetzt teilweise kostenpflichtig.
+| Frage | Antwort |
+|---|---|
+| Ist die gehostete App kostenlos? | Ja, in der Beta. Eine Kreditkarte ist nicht erforderlich. |
+| Sind KI und Synchronisierung kostenlos? | Ja, beides ist in der Beta enthalten. |
+| Sind Karten oder Speicherplatz durch einen kostenlosen Tarif begrenzt? | Nein. In der Beta gibt es keine Tariflimits für Karten, Dateien oder den gesamten Speicherplatz. Technische Limits pro Datei und Vorgang gelten weiterhin. |
+| Ist Self-Hosting kostenlos? | Die Softwarelizenz kostet nichts. AWS-Dienste, Drittanbieter und der Betriebsaufwand dagegen schon. |
+| Kann Flashcards Quizlet-Sets importieren? | Nein. Es importiert nur sein eigenes `flashcards.zip`-Paket. |
+| Ersetzt es jede wichtige Quizlet-Funktion? | Nein. Für Learn, Test, die Bibliothek öffentlicher Lernsets, Quizlets KI-Lernwerkzeuge und Unterrichtsfunktionen fehlen wichtige Entsprechungen. |
 
-Fairerweise ist Quizlet immer noch ein guter Startpunkt. Es ist schnell, weit verbreitet, und fast jeder weiß bereits, wie es funktioniert. Wenn du einfach nur einen schnellen Kartensatz für ein Quiz am Freitag brauchst, erledigt es den Job. Das Problem ist enger gefasst als "Quizlet ist schlecht". Es besteht darin, dass dich die kostenlose Version nicht mehr so viel lernen lässt, wie du möchtest.
+Das Versprechen für die Zeit nach der Beta ist enger als „alles bleibt für immer kostenlos“. Die Kernfunktionen zum Erstellen und Wiederholen von Karten bleiben kostenlos. Wer KI intensiver nutzt, braucht später möglicherweise einen eigenen API-Schlüssel eines Anbieters oder eine kostenpflichtige Option. Das Beta-Angebot garantiert nicht, dass jede gehostete Funktion dauerhaft kostenlos bleibt.
 
-## Was eine echte kostenlose Quizlet-Alternative bedeuten sollte
+Wenn du die Produkte lieber Funktion für Funktion vergleichst, lies den ausführlicheren [Vergleich der Quizlet-Alternativen](/blog/quizlet-alternative/). Hier geht es bewusst nur um Preis, Limits, Datenportabilität und fehlende Funktionen, die den Wert von „kostenlos“ verändern können.
 
-Das Wort "kostenlos" verbirgt jede Menge Fallen. Viele Apps nennen sich kostenlos und sperren dann genau die Teile, die du wirklich brauchst. Du bekommst kostenlose Kartenerstellung, aber Spaced Repetition kostet Geld. Oder kostenloses Lernen, aber nur zehn Karten pro Tag. Ein "Gratis"-Etikett auf einer Testversion bleibt eine Testversion.
+## Was ist in der gehosteten Beta kostenlos?
 
-Eine echte **kostenlose Quizlet-Alternative** sollte etwas Strengeres bedeuten: keine Rundenlimits beim Lernen, keine Upgrade-Aufforderung mitten in der Sitzung, der gute Algorithmus inklusive statt als Zusatz verkauft, Offline-Lernen ohne Abo und deine Karten mit Bildern und ohne Sternchen. Das ist die Messlatte, die mir wichtig ist, und genau danach ist diese App gebaut.
+Du kannst dich derzeit registrieren und den wichtigsten Lernablauf kostenlos nutzen:
 
-## Der wirklich kostenlose Teil von Flashcards
+- Vorder-/Rückseitenkarten erstellen und bearbeiten
+- Karten mit dem FSRS-6-Scheduler wiederholen
+- Änderungen an Karten und Wiederholungen lokal erfassen und später zwischen Web, iOS und Android synchronisieren
+- passende Medien an Karten anhängen
+- den KI-Chat mit Dateianhängen nutzen
+- KI-Clients über MCP anbinden
+- die Agent API nutzen
+- Flashcards-Workspace-Pakete importieren und exportieren
 
-[Flashcards](/) bietet dir zwei Möglichkeiten der Nutzung, und beide sind gerade kostenlos.
+In der Beta gibt es keinen kostenpflichtigen Tarif, der KI oder die geräteübergreifende Synchronisierung erst freischaltet. Auf der [Preisseite](/pricing/) findest du den aktuellen Stand des gehosteten Angebots und seine künftigen Grenzen.
 
-Der Cloud-Beta-Tarif ist während der Beta kostenlos. Es ist die gehostete Web-App auf der Projektdomain, mit passwortlosem E-Mail-Login. Du gibst einen Einmalcode ein, der in deinem Postfach landet, und schon lernst du. Keine Kreditkartendaten, kein Testversions-Countdown.
+Dass eine Funktion im Angebot enthalten ist, heißt nicht, dass sie offline funktioniert. Änderungen an Karten und Wiederholungen lassen sich lokal erfassen und nach dem nächsten Verbindungsaufbau synchronisieren. KI-Anfragen und die Synchronisierung selbst brauchen weiterhin eine Netzwerkverbindung.
 
-Der Self-Hosted-Tarif ist kostenlos, Punkt. Der gesamte Stack ist Open Source auf GitHub: die Web-App, das Backend, die Authentifizierung und eine lokale Postgres-Datenbank. Du betreibst es auf deiner eigenen Domain, mit deinen eigenen Daten, auf deinem eigenen Deployment. Dasselbe Produkt, von dir gehostet.
+## Die kostenlose gehostete App hat technische Limits
 
-Der Teil, der für das Versprechen "kostenlos" am wichtigsten ist, steht auf der [Preisseite](/pricing/): Alle Funktionen sind in jedem Tarif verfügbar, ohne Feature-Sperren. Es gibt keinen Learn-Modus, der nach ein paar Runden dichtmacht, und keinen Posten, der extra für Bilder kassiert. Weil der Code unter einer öffentlichen Lizenz Open Source ist, existiert für immer ein kostenloser Weg als Open-Source-Quizlet-Alternative. Selbst wenn sich ein gehosteter Tarif irgendwann ändert, kannst du es immer selbst betreiben, was ein verlässlicheres Versprechen ist als "vorerst kostenlos, vertrau uns".
+Keine Tariflimits bedeuten nicht, dass es überhaupt keine technischen Grenzen gibt. Flashcards begrenzt Beta-Konten nicht nach der Gesamtzahl ihrer Karten oder Dateien und auch nicht nach dem insgesamt belegten Speicherplatz. Für einzelne Anfragen und Übertragungen gelten trotzdem Größenbeschränkungen.
 
-## FSRS ist das Upgrade gegenüber dem Learn-Modus, den Quizlet hinter eine Paywall gesetzt hat, und hier ist es kostenlos
+Für `flashcards.zip`-Pakete gelten derzeit folgende Limits:
 
-Hier wird die Sperre des Learn-Modus ein wenig absurd. Der Learn-Modus ist ein ziemlich einfacher Scheduler, der deine Karten mischt und dich verstärkt zu den schwächeren lenkt, was so weit in Ordnung ist. Die moderne Version derselben Idee ist deutlich besser, und Flashcards nutzt sie kostenlos.
+| Paketvorgang | Limit |
+|---|---:|
+| Karten in einem Paket | 5.000 |
+| Mediendateien in einem Paket | 10.000 |
+| Einzelne Mediendatei | 16 MiB |
+| Alle Medien in einem Paket zusammen | 64 MiB |
+| Importierte ZIP-Datei | 80 MiB |
 
-Dieser Algorithmus ist FSRS. Er entscheidet, wann jede Karte gezeigt wird, je nachdem, wie wahrscheinlich du sie vergessen wirst, sodass leichte Karten weiter auseinanderdriften, während schwere früher wiederkommen. Über hunderte Karten hinweg ist das der Unterschied zwischen einer Wiederholungs-Warteschlange, die sich sinnvoll anfühlt, und einer, die sich nach Beschäftigungstherapie anfühlt.
+Diese Werte gelten jeweils für einen einzelnen Import- oder Exportvorgang. Es sind weder kontoweite Obergrenzen für Karten, Dateien oder Speicherplatz noch die Schwelle zu einem versteckten Bezahl-Tarif. Einen größeren Workspace musst du möglicherweise in mehreren Paketen übertragen. Für KI-Anfragen und Anhänge gelten außerdem eigene Vorgaben pro Anfrage und für unterstützte Dateitypen.
 
-Das, wofür Quizlet jetzt Geld verlangt, macht Flashcards besser und kostet dich nichts. Wenn du die technische Seite verstehen willst, warum FSRS ältere Scheduler schlägt, habe ich das in [FSRS vs SM-2 in 2026](/blog/fsrs-vs-sm-2/) aufgeschrieben.
+## Import und Export können weniger, als die Begriffe vermuten lassen
 
-## Offline lernen, ohne zu zahlen
+Flashcards hat genau ein natives Austauschformat: das `flashcards.zip`-Workspace-Paket.
 
-Offline war bei Quizlet früher kostenlos und braucht jetzt Plus. Das ärgert, denn im Zug oder im Flugzeug zu lernen ist genau der Moment, in dem du Zeit und kein Signal hast.
+Die App kann ein gültiges Paket importieren, das zuvor aus Flashcards exportiert wurde. Quizlet-Sets, CSV-, TSV- oder andere Textdateien mit Trennzeichen kann sie nicht einlesen. Bei Quizlet lassen sich dagegen [Sets aus Text mit Trennzeichen erstellen](https://help.quizlet.com/hc/en-us/articles/360029977151-Creating-sets-by-importing-content). Eine vergleichbare Oberfläche für Textimporte gibt es in Flashcards nicht.
 
-Flashcards ist offline-first im Web und auf iOS. Die Karten liegen auf deinem Gerät. Du wiederholst sofort, deine Antworten werden direkt gespeichert, und die Synchronisierung erfolgt später, wenn du wieder online bist. Du zahlst kein Abo für das Privileg, ohne WLAN zu lernen.
+Das Paket enthält die Lerninhalte, die Flashcards wiederherstellen kann:
 
-Ich teste Lern-Apps absichtlich an nervigen Orten: schwaches Signal, niedriger Akku, keine Geduld. Wenn Offline-Lernen der Hauptgrund war, der dich von Quizlet weggetrieben hat, geht [Die beste Offline-Flashcards-App 2026](/blog/best-offline-flashcards-app/) tiefer darauf ein, was Offline-First wirklich bedeutet.
+- Karten
+- die Tags der Karten
+- Medien, auf die die Karten verweisen
 
-## Bring deine Quizlet-Kartensätze mit, damit deine Arbeit nicht verloren geht
+Nicht enthalten ist der Zustand rund um diese Inhalte:
 
-Eine echte Sorge beim Wechsel ist die Arbeit, die du schon hineingesteckt hast. Du hast diese Kartensätze über viele lange Abende erstellt, und alles neu abzutippen klingt elend. Das musst du nicht. Du kannst deine Quizlet-Kartensätze exportieren und herüberholen und sie dann von der App in FSRS-geplante Karten verwandeln lassen. Die Schritt-für-Schritt-Anleitung steht in [Wie du Quizlet-Kartensätze exportierst und in FSRS-Karteikarten verwandelst](/blog/how-to-export-quizlet-sets-and-turn-them-into-fsrs-flashcards/). Wenn du stattdessen von Vorlesungsnotizen oder einem PDF startest, können die KI-gestützten Kartenentwürfe einen ersten Entwurf aus deinen Notizen und Dateien ziehen, den du dann bearbeitest, wie ich es in [Notizen in Karteikarten verwandeln](/blog/turn-notes-into-flashcards/) durchgehe. Wechseln heißt nicht, bei null anzufangen.
+- Wiederholungsverlauf
+- Zustand des FSRS-Schedulers
+- Workspace-Einstellungen
+- vollständige Deck-Strukturen
+- Kontodaten
 
-## Du besitzt deine Decks, statt eine Plattform zu mieten
+Mit `flashcards.zip` kannst du also ausgewählte Lerninhalte zwischen gehosteten und selbst gehosteten Flashcards-Workspaces übertragen. Ein Konto lässt sich damit nicht vollständig nachbilden, und der exakte Wiederholungsplan wird nicht fortgesetzt. Das Paket ist auch kein Backup für die Notfallwiederherstellung: Wer Flashcards selbst hostet, muss Datenbank und Medien weiterhin separat sichern.
 
-Es gibt einen leiseren Grund, warum die Paywall die Leute stört. Wenn sich die Regeln unter dir ändern können, gehörte dein Lernsystem nie wirklich dir. Der Kartensatz, den du letztes Jahr erstellt hast, ist gut bis zu dem Tag, an dem sich die kostenlosen Limits wieder verschieben.
+### Bestehende Quizlet-Sets müssen neu aufgebaut werden
 
-Mit einer Open-Source-App kehrt sich dieses Verhältnis um. Du kannst den Code lesen. Du kannst selbst hosten. Deine Decks sind nicht in einer Plattform gefangen, die genau die Teile neu bepreisen kann, von denen du abhängst. Mit der Zeit werden Karteikarten zu einer Landkarte dessen, was du lernst und was du immer wieder vergisst, also wirklich persönlichen Daten. Die behalte ich lieber an einem Ort, den ich kontrolliere. Wenn Datenhoheit dein Hauptgrund fürs Umschauen ist, behandelt [Self-Hosted Open Source Flashcards App für Spaced Repetition](/blog/self-hosted-open-source-flashcards-app-for-spaced-repetition/) den Weg zum Self-Hosting.
+Auf der Quizlet-Website können Ersteller [Begriffe und Definitionen aus ihren eigenen Sets exportieren](https://help.quizlet.com/hc/en-us/articles/360034345672-Exporting-your-sets). Kopierte Sets und Bilder nimmt der Export nicht mit.
 
-Um fair zu bleiben: Anki ist ebenfalls kostenlos und nimmt Spaced Repetition genauso ernst, und viele schwören darauf. Der ehrliche Kompromiss ist, dass sich die Oberfläche älter anfühlt und mehr Geduld beim Einrichten braucht. Flashcards verfolgt dieselbe kostenlose, abofreie Idee, fühlt sich dabei aber moderner an, weshalb ich es als Quizlet-Plus-Alternative für alle empfehle, die FSRS ohne die Lernkurve wollen. Wenn du einen direkten Vergleich willst, stellt [Anki vs Quizlet vs eine Open-Source-Karteikarten-App](/blog/anki-vs-quizlet-vs-open-source-flashcards-app/) alle drei nebeneinander, und der frühere Beitrag [Quizlet-Alternative](/blog/quizlet-alternative/) behandelt Datenhoheit, FSRS und Offline ausführlicher.
+Das Ergebnis ist Text, kein Paket, das Flashcards akzeptiert. Du kannst ausgewählte Karten von Hand neu erstellen oder den Text im Flashcards-KI-Chat als Ausgangsmaterial für Entwürfe von Vorder-/Rückseitenkarten verwenden. In beiden Fällen musst du die neu erstellten Karten prüfen und speichern. Ein direkter Import ist keiner der beiden Wege.
 
-## Das ehrliche Fazit
+Der [Leitfaden zum Quizlet-Export](/blog/how-to-export-quizlet-sets-and-turn-them-into-fsrs-flashcards/) erklärt, wie du den exportierten Text bereinigst. Der Umzug ist nicht verlustfrei: Bilder und Lernstand fehlen im Export, und Flashcards kann den Text nicht als natives Austauschformat einlesen.
 
-Wenn du nur ab und zu einen schnellen Kartensatz brauchst, funktioniert das kostenlose Quizlet weiterhin, Werbung inklusive, und ich werde nicht so tun, als wäre es anders.
+## Self-Hosting kostet keine Lizenzgebühr, aber trotzdem Geld
 
-Aber wenn du nach einer **kostenlosen Quizlet-Alternative** suchst, weil das Lernen selbst jetzt Geld kostet, hast du eine echte Option, die die Teile, die du brauchst, nicht sperrt. FSRS, Offline-Lernen, Bilder, KI-Entwürfe, all das bleibt in der gehosteten Beta kostenlos und für immer kostenlos, wenn du selbst hostest. Kein Schluss in Runde vier, kein Abo, das am Ende der Testphase wartet.
+Der Flashcards-Code steht unter der MIT-Lizenz. Du kannst ihn prüfen, verändern und bereitstellen, ohne eine Softwarelizenz zu kaufen. Kosten entstehen trotzdem durch die Produktionsserver und die Arbeit rund um ihren Betrieb.
 
-Wenn du es ausprobieren willst:
+Der unterstützte Weg für den Produktivbetrieb ist der AWS-CDK-Stack des Repositorys. Die Docker- und PostgreSQL-Konfiguration dient der lokalen Entwicklung; sie ist keine dokumentierte Abkürzung für eine produktive Bereitstellung.
 
-- [App öffnen](https://app.flashcards-open-source-app.com/)
-- [Anleitung für den Einstieg lesen](/docs/getting-started/)
-- [Quellcode auf GitHub ansehen](https://github.com/kirill-markin/flashcards-open-source-app)
+Wer eine produktive Installation betreibt, ist verantwortlich für:
+
+- AWS-Dienste für Datenbank, Speicher, Rechenleistung und Netzwerk
+- eine Domain und die DNS-Konfiguration
+- die E-Mail-Zustellung
+- Monitoring und Alarmierung
+- die optionale Nutzung eines KI-Anbieters samt Zugangsdaten
+- die Verwaltung von Secrets
+- Datenbank- und Medien-Backups einschließlich Wiederherstellungstests
+- Upgrades, Migrationen, Sicherheitsarbeit und die dafür nötige Arbeitszeit
+
+Der Stack automatisiert Teile der Bereitstellung, nimmt dir diese Aufgaben aber nicht ab. Eine allgemeingültige monatliche Kostenschätzung gibt es nicht: Region, Datenverkehr, Speicherplatz, Backup-Richtlinie, E-Mail-Volumen, KI-Nutzung und die Entscheidungen des Betreibers verändern die Rechnung. Der [Self-Hosting-Leitfaden](/docs/self-hosting/) dokumentiert die AWS-Architektur und erklärt, wo die Grenze zur lokalen Entwicklung verläuft.
+
+Self-Hosting verändert also, wer für den Stack bezahlt und ihn betreibt. Cloud-Infrastruktur wird dadurch nicht kostenlos. Wenn du keine Kontrolle über die Infrastruktur brauchst, erspart dir die gehostete Beta den Betriebsaufwand, solange das Angebot kostenlos bleibt.
+
+## Wichtige Quizlet-Funktionen ohne gleichwertigen Ersatz
+
+In vier Bereichen von Quizlet, die wichtiger sein können als der Preis, bietet Flashcards derzeit keinen direkten Ersatz:
+
+- eigene Learn- und Test-Modi einschließlich eines automatisch erzeugten Multiple-Choice-Ablaufs
+- eine vergleichbare öffentliche Bibliothek mit Lernsets
+- Quizlets KI-Suite aus Study Guides, Practice Tests und Ask Quizlet
+- das Ökosystem für Unterricht und Lehrkräfte rund um Quizlet Live, Kurse und Fortschrittsberichte
+
+Quizlets Übersicht beschreibt [Learn, Test, Practice Tests, Study Guides und Quizlet Live](https://help.quizlet.com/hc/en-us/articles/360030841732-Studying-on-Quizlet). Auch der kostenlose Quizlet-Zugang hat Grenzen: Nutzer ohne Abo erhalten nur eine begrenzte Anzahl an Learn-Runden und einen Übungstest pro Set. Lernende in einem berechtigten, von einer Lehrkraft verwalteten Kurs können [unbegrenzten und werbefreien Zugang zu Learn und Test für die Sets des Kurses erhalten](https://help.quizlet.com/hc/en-us/articles/34270983035149-Free-student-access-to-Learn-and-Test-modes).
+
+Wenn geführte Modi, fertige öffentliche Inhalte oder Unterrichtswerkzeuge fest zu deiner Lernroutine gehören, ersetzt auch ein kostenloses Flashcards-Konto diese Funktionen nicht. Die Beta deckt einen anderen Ablauf ab: Vorder-/Rückseitenkarten, Wiederholungen mit FSRS-6, lokal gespeicherte Änderungen mit späterer Synchronisierung, Medien, KI-Chat und Agentenzugriff.
+
+## Die ehrliche Antwort zur kostenlosen Quizlet-Alternative
+
+Flashcards ist in der Beta eine **kostenlose Quizlet-Alternative** für Vorder-/Rückseitenkarten, Wiederholungen mit FSRS-6, Offline-First-Nutzung im Web und auf Mobilgeräten, Synchronisierung, Medien und KI-Unterstützung. Eine Kreditkarte ist nicht erforderlich. Auch Tariflimits für Karten, Dateien oder den gesamten Speicherplatz gibt es nicht. Die technischen Grenzen für Pakete und Anfragen gelten weiterhin.
+
+Die App ist kein gleichwertiger Ersatz für Quizlets Learn- oder Test-Modus, die Bibliothek öffentlicher Lernsets, KI-Lernformate oder das Unterrichtssystem. Bestehende Quizlet-Inhalte müssen außerdem aus zulässigen Textexporten neu aufgebaut werden; direkt importieren lassen sie sich nicht.
+
+Am klarsten sind die Kosten, wenn du sie getrennt betrachtest. Die gehostete Beta kostet heute 0 US-Dollar. Das Erstellen und Wiederholen von Karten bleibt kostenlos; für eine intensivere KI-Nutzung könnte später ein eigener API-Schlüssel eines Anbieters oder eine kostenpflichtige Option nötig sein. Beim Self-Hosting entfällt die Softwarelizenzgebühr, dafür kommen Infrastruktur, Drittanbieterdienste, Wartung und Arbeitszeit hinzu. Wenn diese Grenzen zu deinen Anforderungen passen, [öffne Flashcards](https://app.flashcards-open-source-app.com/) und probiere den gehosteten Lernablauf aus.
