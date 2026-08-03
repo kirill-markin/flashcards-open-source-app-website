@@ -2,12 +2,16 @@ export const PUBLIC_CATALOG_ROUTE_PATHNAME = "/catalog/";
 export const PUBLIC_CATALOG_AUTHORS_ROUTE_PATHNAME = "/catalog/authors/";
 export const PUBLIC_CATALOG_COLLECTIONS_ROUTE_PATHNAME = "/catalog/collections/";
 
+export function encodePublicCatalogFacetRouteSegment(tag: string): string {
+  return encodeURIComponent(tag).replaceAll(".", "%2E");
+}
+
 export function resolvePublicCatalogRouteSegment(
   routeSegment: string,
   knownTags: ReadonlyArray<string>,
 ): string | undefined {
   const canonicalMatch = knownTags.find(
-    (tag) => encodeURIComponent(tag) === routeSegment,
+    (tag) => encodePublicCatalogFacetRouteSegment(tag) === routeSegment,
   );
 
   if (canonicalMatch !== undefined) {
@@ -36,11 +40,11 @@ export function getPublicCatalogCollectionRoutePathname(
 export function getPublicCatalogLanguageRoutePathname(
   languageTag: string,
 ): string {
-  return `/catalog/languages/${encodeURIComponent(languageTag)}/`;
+  return `/catalog/languages/${encodePublicCatalogFacetRouteSegment(languageTag)}/`;
 }
 
 export function getPublicCatalogTopicRoutePathname(topicTag: string): string {
-  return `/catalog/topics/${encodeURIComponent(topicTag)}/`;
+  return `/catalog/topics/${encodePublicCatalogFacetRouteSegment(topicTag)}/`;
 }
 
 export function isPublicCatalogPageRoutePathname(

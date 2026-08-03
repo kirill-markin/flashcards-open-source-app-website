@@ -4,10 +4,10 @@ import { PublicCatalogCover } from "@/components/PublicCatalogCover";
 import { PublicCatalogNavigation } from "@/components/PublicCatalogNavigation";
 import { SiteFrame } from "@/components/SiteFrame";
 import { StructuredDataScript } from "@/components/StructuredDataScript";
+import { TrackedPublicCatalogInstallLink } from "@/components/TrackedPublicCatalogInstallLink";
 import { renderMarkdownToHtml } from "@/lib/content/renderMarkdownToHtml";
 import type { AppLocale } from "@/lib/i18n";
 import { getLocalizedPathname } from "@/lib/i18n";
-import { getExternalLinkAttributes } from "@/lib/linkTargets";
 import { getPublicCatalogUiCopy } from "@/lib/publicCatalogCopy";
 import { getPublicCatalogDestinationCopy } from "@/lib/publicCatalogDestinationCopy";
 import {
@@ -77,10 +77,6 @@ export async function PublicCatalogPackagePageView({
     renderMarkdownToHtml(packageMetadata.description, locale),
     renderCards(locale, packageView),
   ]);
-  const installLinkAttributes = getExternalLinkAttributes(
-    latestVersion.installUrl,
-  );
-
   return (
     <SiteFrame locale={locale} routePathname={packageRoutePathname}>
       <article className={styles.container}>
@@ -130,13 +126,14 @@ export async function PublicCatalogPackagePageView({
                     {author.displayName}
                   </Link>
                 </p>
-                <a
+                <TrackedPublicCatalogInstallLink
                   className={styles.installButton}
                   href={latestVersion.installUrl}
-                  {...installLinkAttributes}
-                >
-                  {copy.installLabel}
-                </a>
+                  label={copy.installLabel}
+                  locale={locale}
+                  packageId={packageMetadata.packageId}
+                  versionNumber={latestVersion.versionNumber}
+                />
               </div>
             </div>
           </header>
