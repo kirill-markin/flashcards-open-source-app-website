@@ -9,7 +9,10 @@ import { getLocalizedPathname } from "@/lib/i18n";
 import { getPublicCatalogUiCopy } from "@/lib/publicCatalogCopy";
 import { getPublicCatalogDestinationCopy } from "@/lib/publicCatalogDestinationCopy";
 import { formatPublicCatalogPackageCount } from "@/lib/publicCatalogFormatting";
-import type { PublicCatalogReadModel } from "@/lib/publicCatalogReadModel";
+import {
+  getPublicCatalogCollectionCoverMediaAsset,
+  type PublicCatalogReadModel,
+} from "@/lib/publicCatalogReadModel";
 import {
   getPublicCatalogCollectionRoutePathname,
   getPublicCatalogLanguageRoutePathname,
@@ -67,8 +70,12 @@ export function PublicCatalogCollectionsPageView({
               <li className={styles.collectionCard} key={collection.collectionId}>
                 <Link className={styles.collectionCoverLink} href={collectionHref} tabIndex={-1}>
                   <PublicCatalogCover
-                    coverMediaAsset={null}
+                    coverMediaAsset={getPublicCatalogCollectionCoverMediaAsset(
+                      catalog,
+                      collection,
+                    )}
                     placeholderLabel={catalogCopy.coverPlaceholderLabel}
+                    sizes="(max-width: 700px) calc(100vw - 56px), (max-width: 980px) calc(50vw - 38px), 390px"
                     title={collection.title}
                   />
                 </Link>

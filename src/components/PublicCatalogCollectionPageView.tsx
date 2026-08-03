@@ -133,6 +133,7 @@ export async function PublicCatalogCollectionPageView({
                 <li key={packageView.packageMetadata.packageId}>
                   <PublicCatalogPackageCard
                     copy={catalogCopy}
+                    coverSizes="(max-width: 700px) calc(100vw - 60px), 850px"
                     locale={locale}
                     packageView={packageView}
                   />
