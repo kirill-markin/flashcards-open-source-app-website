@@ -25,8 +25,9 @@ import {
   renderPublicCatalogMarkdownDocument,
 } from "./publicCatalogMarkdown";
 import {
-  getPublicCatalogCoverAccessibleLabel,
   getPublicCatalogCoverInitial,
+  getPublicCatalogCoverPlaceholderAccessibleLabel,
+  getPublicCatalogCoverRenderData,
 } from "./publicCatalogCover";
 import {
   formatPublicCatalogCardCount,
@@ -44,6 +45,7 @@ import {
   createPublicCatalogReadModel,
   getPublicCatalogAuthorBySlug,
   getPublicCatalogCollectionBySlug,
+  getPublicCatalogCollectionCoverMediaAsset,
   getPublicCatalogCollectionsByPackageSlug,
   getPublicCatalogPackageBySlug,
   getPublicCatalogPackagesByAuthorSlug,
@@ -328,6 +330,22 @@ test("parses the schema and builds latest-version-only lookup data", () => {
     [fixtureCoverMediaId, fixtureInlineMediaId],
   );
   assert.equal(packageView.coverMediaAsset?.packageMediaAssetId, fixtureCoverMediaId);
+  assert.deepEqual(
+    createPublicCatalogBrowseData(model).packages[0].packageView.coverMediaAsset,
+    {
+      altText: "Cover image",
+      downloadUrl:
+        `https://api.flashcards-open-source-app.com/v1/catalog/package-versions/${fixtureLatestVersionId}/media-assets/cover.webp/download`,
+    },
+  );
+  assert.deepEqual(
+    getPublicCatalogCollectionCoverMediaAsset(model, dump.collections[0]),
+    {
+      altText: "Cover image",
+      downloadUrl:
+        `https://api.flashcards-open-source-app.com/v1/catalog/package-versions/${fixtureLatestVersionId}/media-assets/cover.webp/download`,
+    },
+  );
   assert.equal(packageView.latestVersion.description, "Canonical **package** description");
   assert.equal(getPublicCatalogAuthorBySlug(model, "author-one")?.authorId, fixtureAuthorId);
   assert.equal(
@@ -2305,22 +2323,85 @@ test("uses the shared locale mapping for Arabic catalog numbers and dates", () =
   );
 });
 
-test("announces a missing catalog cover placeholder once", () => {
+test("announces a missing catalog cover placeholder", () => {
   assert.equal(
-    getPublicCatalogCoverAccessibleLabel(
+    getPublicCatalogCoverPlaceholderAccessibleLabel(
       "Package title",
-      null,
       "Cover preview unavailable",
     ),
     "Package title: Cover preview unavailable",
   );
+});
+
+test("resolves collection cover placeholders when its package or media reference is absent", () => {
+  const withoutPackageReference = createValidDump();
+  withoutPackageReference.collections[0].coverPackageId = null;
+  const packageReferenceModel = createPublicCatalogReadModel(
+    parsePublicCatalogDump(withoutPackageReference),
+  );
+
   assert.equal(
-    getPublicCatalogCoverAccessibleLabel(
+    getPublicCatalogCollectionCoverMediaAsset(
+      packageReferenceModel,
+      withoutPackageReference.collections[0],
+    ),
+    null,
+  );
+
+  const withoutMediaReference = createValidDump();
+  withoutMediaReference.packageVersions[1].coverMediaAssetId = null;
+  const mediaReferenceModel = createPublicCatalogReadModel(
+    parsePublicCatalogDump(withoutMediaReference),
+  );
+
+  assert.equal(
+    getPublicCatalogCollectionCoverMediaAsset(
+      mediaReferenceModel,
+      withoutMediaReference.collections[0],
+    ),
+    null,
+  );
+});
+
+test("builds catalog cover render data for images and placeholders", () => {
+  const downloadUrl =
+    `https://api.flashcards-open-source-app.com/v1/catalog/package-versions/${fixtureLatestVersionId}/media-assets/cover.webp/download`;
+
+  assert.deepEqual(
+    getPublicCatalogCoverRenderData(
       "Package title",
-      "Cover alt text",
+      { altText: " Authored cover text ", downloadUrl },
       "Cover preview unavailable",
     ),
-    "Package title: Cover alt text. Cover preview unavailable",
+    {
+      altText: "Authored cover text",
+      downloadUrl,
+      kind: "image",
+    },
+  );
+  assert.deepEqual(
+    getPublicCatalogCoverRenderData(
+      "Package title",
+      { altText: null, downloadUrl },
+      "Cover preview unavailable",
+    ),
+    {
+      altText: "Package title",
+      downloadUrl,
+      kind: "image",
+    },
+  );
+  assert.deepEqual(
+    getPublicCatalogCoverRenderData(
+      "Package title",
+      null,
+      "Cover preview unavailable",
+    ),
+    {
+      accessibleLabel: "Package title: Cover preview unavailable",
+      initial: "P",
+      kind: "placeholder",
+    },
   );
 });
 
