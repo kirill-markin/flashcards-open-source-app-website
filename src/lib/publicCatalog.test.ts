@@ -34,6 +34,10 @@ import {
   formatPublicCatalogNumber,
   formatPublicCatalogPackageCount,
 } from "./publicCatalogFormatting";
+import {
+  renderPublicCatalogCardMarkdownToHtml,
+  renderPublicCatalogDescriptionMarkdownToHtml,
+} from "./publicCatalogMarkdownHtml";
 import { parsePublicCatalogDump } from "./publicCatalogParser";
 import {
   createCachedPublicCatalogReader,
@@ -1772,6 +1776,87 @@ test("isolates authored Markdown fragments from generated and sibling content", 
   assert.equal(links.includes("https://example.com/leaked-reference"), false);
   assert.ok(nodes.some((node) =>
     node.type === "text" && node.value?.includes("[Must stay literal][other]")));
+});
+
+test("renders catalog Markdown with safe images and nested heading depths", async () => {
+  const packageDescriptionHtml = await renderPublicCatalogDescriptionMarkdownToHtml(
+    [
+      "# Package heading",
+      "",
+      "![Package tracker](https://tracker.example/package.gif)",
+      "",
+      "[Ordinary link](https://example.com/package)",
+    ].join("\n"),
+    "en",
+    "Public catalog package package-1 description",
+  );
+  const collectionDescriptionHtml = await renderPublicCatalogDescriptionMarkdownToHtml(
+    [
+      "## Collection heading",
+      "",
+      "![Collection tracker](https://tracker.example/collection.gif)",
+    ].join("\n"),
+    "en",
+    "Public catalog collection collection-1 description",
+  );
+  const cardHtml = await renderPublicCatalogCardMarkdownToHtml(
+    [
+      "# Card heading",
+      "",
+      "![Card tracker](https://tracker.example/card.gif)",
+    ].join("\n"),
+    "en",
+    "Public catalog card card-1 frontText",
+  );
+  const combinedHtml = `${packageDescriptionHtml}\n${collectionDescriptionHtml}\n${cardHtml}`;
+
+  assert.doesNotMatch(combinedHtml, /<img\b/iu);
+  assert.match(packageDescriptionHtml, /<h3>Package heading<\/h3>/u);
+  assert.match(collectionDescriptionHtml, /<h3>Collection heading<\/h3>/u);
+  assert.match(cardHtml, /<h4>Card heading<\/h4>/u);
+  assert.doesNotMatch(combinedHtml, /<h[12]>/u);
+  assert.match(
+    packageDescriptionHtml,
+    /href="https:\/\/tracker\.example\/package\.gif"[^>]*>Package tracker<\/a>/u,
+  );
+  assert.match(
+    collectionDescriptionHtml,
+    /href="https:\/\/tracker\.example\/collection\.gif"[^>]*>Collection tracker<\/a>/u,
+  );
+  assert.match(
+    cardHtml,
+    /href="https:\/\/tracker\.example\/card\.gif"[^>]*>Card tracker<\/a>/u,
+  );
+  assert.match(
+    packageDescriptionHtml,
+    /href="https:\/\/example\.com\/package"[^>]*>Ordinary link<\/a>/u,
+  );
+});
+
+test("preserves enclosing links around authored images", async () => {
+  const html = await renderPublicCatalogDescriptionMarkdownToHtml(
+    [
+      "[![Inline tracker](https://tracker.example/inline.gif)](https://example.com/inline)",
+      "",
+      "[![Reference tracker][reference-image]][reference-link]",
+      "",
+      "[reference-image]: https://tracker.example/reference.gif",
+      "[reference-link]: https://example.com/reference",
+    ].join("\n"),
+    "en",
+    "Public catalog package package-1 description",
+  );
+
+  assert.doesNotMatch(html, /<img\b/iu);
+  assert.match(
+    html,
+    /href="https:\/\/example\.com\/inline"[^>]*>Inline tracker<\/a>/u,
+  );
+  assert.match(
+    html,
+    /href="https:\/\/example\.com\/reference"[^>]*>Reference tracker<\/a>/u,
+  );
+  assert.doesNotMatch(html, /href="https:\/\/tracker\.example\//u);
 });
 
 test("preserves supported GFM semantics while isolating authored fragments", async () => {
