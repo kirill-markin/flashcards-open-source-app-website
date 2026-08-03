@@ -1,204 +1,163 @@
 ---
-title: "2026 में Brainscape का बेहतर विकल्प: FSRS, ऑफ़लाइन पढ़ाई और iPhone-केंद्रित वर्कफ़्लो वाला ओपन-सोर्स फ़्लैशकार्ड ऐप"
-description: "2026 में Brainscape का विकल्प खोज रहे हैं? सीधी बात यह है: Brainscape इस्तेमाल में सहज और मोबाइल-अनुकूल है, जबकि एक ओपन-सोर्स फ़्लैशकार्ड ऐप आपको FSRS शेड्यूलिंग, भरोसेमंद ऑफ़लाइन पढ़ाई, AI-सहायता प्राप्त ड्राफ्टिंग, iPhone सपोर्ट और अपने डेक पर दीर्घकालिक नियंत्रण देता है।"
+title: "Brainscape विकल्प (2026): Brainscape बनाम Flashcards"
+description: "Confidence-Based Repetition बनाम FSRS, ऑफ़लाइन इस्तेमाल, मोबाइल ऐप, सहयोग, AI, कीमत, इम्पोर्ट, एक्सपोर्ट और मालिकाना हक के आधार पर Brainscape और Flashcards की तुलना।"
 date: "2026-03-21"
+updated: "2026-08-03"
+image: "/blog/brainscape-alternative.png"
 keywords:
-  - "Brainscape का विकल्प"
-  - "Brainscape alternative 2026"
-  - "ओपन-सोर्स फ़्लैशकार्ड ऐप"
-  - "FSRS फ़्लैशकार्ड ऐप"
-  - "ऑफ़लाइन फ़्लैशकार्ड ऐप"
-  - "iPhone फ़्लैशकार्ड ऐप"
-  - "spaced repetition ऐप"
-  - "AI फ़्लैशकार्ड ऐप"
+  - "Brainscape विकल्प"
+  - "Brainscape बनाम Flashcards"
+  - "Confidence-Based Repetition बनाम FSRS"
+  - "ऑफ़लाइन flashcards app"
+  - "ओपन सोर्स flashcards app"
+  - "Brainscape की कीमत"
+  - "Brainscape से export"
+  - "FSRS flashcards app"
 ---
 
-मंगलवार को मैंने अपने फ़ोन पर तीस कार्ड रिव्यू किए, दो कमज़ोर जवाब सुधारे, कुछ पल के लिए कनेक्शन चला गया, और फिर याद आया कि लोग **Brainscape का विकल्प** क्यों ढूंढने लगते हैं।
+Brainscape और Flashcards के बीच सबसे अहम फर्क एक ऐसी जानकारी का है जिसे Brainscape में आपको कभी संभालना ही नहीं पड़ता: किसी कार्ड के अगले रिव्यू का ठीक-ठीक समय। Brainscape आपसे 1 से 5 तक confidence rating माँगता है और डेक को दोबारा पढ़ने के लिए खुला रखता है। Flashcards में आप Again, Hard, Good या Easy चुनते हैं, जिसके बाद FSRS-6 उस कार्ड के अगले रिव्यू का निश्चित समय तय करता है।
 
-मुद्दा आमतौर पर यह नहीं होता कि Brainscape खराब लगता है।
+Scheduler का यही अंतर **Brainscape बनाम Flashcards** के फैसले को काफी हद तक तय करता है। साझा classes, editing permissions, teacher analytics, आम spreadsheet files इम्पोर्ट करने की सुविधा और कभी भी cramming के लिए इस्तेमाल किए जा सकने वाले guided loop के मामले में Brainscape बेहतर विकल्प है। अगर आपको स्पष्ट due queue, हर supported client पर offline-first editing, AI-agent access, MIT-licensed code या self-hosted deployment चाहिए, तो [Flashcards](/features/) अधिक मजबूत **Brainscape विकल्प** है।
 
-अक्सर तो शुरुआत में वह बहुत अच्छा लगता है।
+> **खुलासा:** मैं Kirill Markin हूँ और इस लेख में शामिल उत्पादों में से एक, Flashcards, बनाता हूँ। इस तुलना की कई अहम श्रेणियों में Brainscape आगे है। मैंने तुलना केवल आधिकारिक product pages, help articles और source repositories में दर्ज व्यवहार तक सीमित रखी है।
 
-असल बात भी यही है।
+**तथ्यों की जाँच:** 3 अगस्त, 2026। कीमतें उस तारीख को उपलब्ध सार्वजनिक अमेरिकी कीमतें हैं। टैक्स, क्षेत्रीय कीमतें, app-store billing, संस्थानों के लिए दिए गए quotes और beta की भावी शर्तें अलग हो सकती हैं।
 
-खोज बाद में शुरू होती है, जब आप चाहते हैं कि आपकी पढ़ाई की व्यवस्था सिर्फ साफ-सुथरी नहीं, बल्कि लंबे समय तक भरोसेमंद भी लगे। बेहतर शेड्यूलिंग। ऑफ़लाइन काम करने पर ज़्यादा भरोसा। ज़्यादा नियंत्रण। ऐसा वर्कफ़्लो जो डेक महत्वपूर्ण हो जाने के बाद भी मजबूत महसूस हो।
+![Confidence ratings, FSRS due queue, ऑफ़लाइन मोबाइल पढ़ाई और ओपन-सोर्स मालिकाना हक की तुलना दिखाता Brainscape विकल्प](/blog/brainscape-alternative.png)
 
-यही असली **Brainscape विकल्प 2026** वाली खोज है।
+## संक्षिप्त जवाब
 
-## Brainscape आकर्षक इसलिए लगता है क्योंकि उसका मोबाइल अनुभव भरोसेमंद और आसान है
+अगर आप classes साझा करना चाहते हैं, यह तय करना चाहते हैं कि कार्ड कौन संपादित कर सकता है, छात्रों की प्रगति देखना चाहते हैं, आम spreadsheet files इम्पोर्ट करना चाहते हैं या कार्ड के due होने का इंतजार किए बिना किसी डेक को पढ़ना चाहते हैं, तो **Brainscape** चुनें। इसका 1–5 Confidence-Based Repetition flow आखिरी समय की cram session के लिए भी हमेशा उपलब्ध रहता है।
 
-इसे साफ़-साफ़ कहना ज़रूरी है।
+अगर आप चाहते हैं कि FSRS-6 target retention setting के आधार पर स्पष्ट due queue बनाए, web, iOS और Android पर बदलाव और रिव्यू पहले device पर save हों, या आपको AI chat, MCP, Agent API और documented self-hosting वाला open-source flashcards app चाहिए, तो **Flashcards** चुनें।
 
-अब भी कई फ़्लैशकार्ड टूल गंभीर पढ़ाई को जरूरत से ज्यादा उलझा देते हैं।
+अगर Brainscape की classes या analytics सचमुच आपके workflow का हिस्सा हैं, तो Brainscape पर ही बने रहें। Flashcards फिलहाल उनकी जगह नहीं लेता, और कार्ड ले जाने पर Brainscape की scheduling history भी पीछे छूट जाएगी।
 
-Brainscape अलग इसलिए दिखता है क्योंकि वह पुराने सॉफ़्टवेयर से ज़्यादा साफ़ महसूस होता है और उन शौकिया टूल्स से ज़्यादा ऐप-जैसा लगता है जो अब भी मानकर चलते हैं कि उपयोगकर्ता हमेशा रुकावटें झेलेगा।
+## Brainscape बनाम Flashcards: एक नजर में
 
-यह फर्क मायने रखता है।
+| फैसला | Brainscape | Flashcards | व्यावहारिक विजेता |
+|---|---|---|---|
+| रिव्यू का तरीका | Confidence-Based Repetition; 1–5 rating, जिसमें कम confidence वाले कार्ड अधिक बार और अधिक confidence वाले कार्ड कम बार चुने जाते हैं | FSRS-6; Again/Hard/Good/Easy rating के बाद स्पष्ट `due_at` समय store करता है | अपनी मर्जी से दोहराने या cram study के लिए Brainscape; due queue और retention control के लिए Flashcards |
+| Scheduler का ब्योरा | जब भी आप अगला कार्ड माँगते हैं, confidence buckets से तुलनात्मक चयन; सभी कार्ड की rating 5 होने पर भी डेक पढ़ा जा सकता है | D/S/R memory state; 0.90 desired retention; 1 और 10 मिनट के learning steps; 10 मिनट का relearning step; अधिकतम 36,500 दिन; fuzz; स्थिर गैर-वैयक्तिकृत weights | इस पर निर्भर है कि आपको कैसी queue चाहिए |
+| Platforms | Web, iOS, Android | Web, iOS, Android; कोई desktop client नहीं | उपलब्ध platforms के मामले में बराबरी |
+| ऑफ़लाइन व्यवहार | मोबाइल पर पहले से download किए गए कार्ड offline पढ़े जा सकते हैं; नए कार्ड बनाने और संपादित करने के लिए connection चाहिए | रिव्यू और बदलाव पहले device पर save होते हैं—web पर IndexedDB में, iOS पर SQLite में और Android पर Room/SQLite में—फिर sync होते हैं | ऑफ़लाइन कार्ड बनाने और संपादित करने के लिए Flashcards |
+| साथ मिलकर काम करने की सुविधाएँ | Classes, share links, editor permissions और school/group plans पर विस्तृत analytics | Link से साझा होने वाली वैसी classes, card-editor permissions या teacher progress analytics नहीं | Brainscape |
+| AI | Basic में AI से “100s” flashcards बनाए जा सकते हैं; Pro में unlimited AI दर्ज है; source-to-card और import-cleanup workflows | AI chat, supported file attachments, workspace में सीमित read/write actions, MCP और Agent API | Guided bulk authoring के लिए Brainscape; agent access के लिए Flashcards |
+| इम्पोर्ट | सूची paste करें या CSV, TXT, XLSX अथवा ODS upload करें; मोबाइल पर फ़ाइल, तस्वीर या camera capture से भी यही प्रक्रिया शुरू की जा सकती है | सीधे केवल अपना `flashcards.zip` इम्पोर्ट करता है; दूसरी supported files, जाँच के बाद AI drafting के लिए source material बन सकती हैं | आम files इम्पोर्ट करने के लिए Brainscape |
+| एक्सपोर्ट | Pro deck export ऐसी spreadsheet files बनाता है जो Excel में खुलती हैं | `flashcards.zip` active cards, tags और उनसे जुड़ा media Flashcards workspaces या instances के बीच ले जाता है | जरूरत पर निर्भर: spreadsheets के लिए Brainscape; अपने workspace को स्थानांतरित करने के लिए Flashcards |
+| 3 अगस्त, 2026 को जाँची गई कीमत | Basic मुफ्त; annual billing पर Pro US$7.99 प्रति माह दिखाया गया; Enterprise के लिए quote | Hosted app beta के दौरान मुफ्त; self-hosted software मुफ्त, लेकिन infrastructure और provider costs अलग | इस्तेमाल और hosting के तरीके पर निर्भर |
+| मालिकाना हक | Proprietary hosted service; Pro में export उपलब्ध | पूरा application और infrastructure MIT licensed; documented AWS self-hosting | Flashcards |
 
-कई लोगों के लिए मोबाइल अनुभव ही पूरा उत्पाद होता है।
+यह फैसले में मदद करने वाली तालिका है, features का score नहीं। छह classes चलाने वाला शिक्षक open-source ownership आकर्षक लगने के बावजूद उचित रूप से Brainscape चुन सकता है। कमजोर connection पर कार्ड संपादित करने वाला व्यक्ति इसका उलटा फैसला कर सकता है।
 
-अगर ऐप तेज़, आसान और शांत लगे, तो आदत टिके रहने की संभावना बढ़ जाती है।
+## Confidence-Based Repetition बनाम FSRS-6
 
-समझौता बाद में सामने आता है, जब "साफ़ और आसान" ही आपकी एकमात्र ज़रूरत नहीं रह जाती।
+दोनों systems रिव्यू के बाद आपके feedback पर प्रतिक्रिया देते हैं। फर्क इस बात में है कि वे उस feedback का इस्तेमाल कैसे करते हैं।
 
-तब लोग आमतौर पर इनमें से कुछ चीज़ें चाहने लगते हैं:
+### Brainscape में रिव्यू तुलनात्मक है और हमेशा उपलब्ध रहता है
 
-- ज़्यादा मजबूत अंतराल-आधारित पुनरावृत्ति
-- ऑफ़लाइन इस्तेमाल में ज़्यादा भरोसा
-- स्वामित्व का ज़्यादा साफ़ मॉडल
-- iPhone-केंद्रित पढ़ाई के लिए बेहतर रास्ता
-- ऐसी AI मदद जो ड्राफ्टिंग का काम कम करे, शोर न बढ़ाए
+Brainscape की [Confidence-Based Repetition की परिभाषा](https://www.brainscape.com/academy/confidence-based-repetition-definition/) आपसे 1 से 5 तक confidence rating माँगती है। 1 या 2 rating वाले कार्ड के जल्द वापस आने की संभावना बढ़ जाती है; 4 या 5 वाले कार्ड कम बार दिखाई देते हैं।
 
-यहीं से **Brainscape का विकल्प** महज़ जिज्ञासा नहीं, बल्कि एक व्यावहारिक खोज बन जाता है।
+उसकी [आधिकारिक algorithm तुलना](https://www.brainscape.com/academy/comparing-spaced-repetition-algorithms/) CBR को relative scheduler बताती है। जब आप अगला कार्ड माँगते हैं, तो Brainscape उसके लिए पहले से तय तारीख और समय जाँचने के बजाय पहले confidence bucket चुनता है। जिस डेक के सभी कार्ड को 5 rating मिली हो, वह भी बंद नहीं होता। आप उसे पढ़ना जारी रख सकते हैं।
 
-## सही विकल्प कोई और बंद फ़्लैशकार्ड ऐप नहीं है
+जब आप intervals configure किए बिना guided loop चाहते हैं, तो यह तरीका उपयोगी है। Cramming में भी यह काम आता है: डेक खोलिए, रिव्यू करते रहिए और कम confidence वाली सामग्री को session में ज्यादा समय मिलने दीजिए। इसकी सीमा यह है कि Brainscape ऐसी calendar-जैसी queue नहीं दिखाता जिसमें हर कार्ड का due time तय हो।
 
-यहीं आकर यह श्रेणी अब भी अटक जाती है।
+### Flashcards retention के आधार पर due queue बनाता है
 
-एक टूल आपको बेहतर उत्पाद अनुभव देता है।
+Flashcards [FSRS-6](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/docs/fsrs-scheduling-logic.md) इस्तेमाल करता है। [ओपन FSRS मॉडल](https://github.com/open-spaced-repetition/free-spaced-repetition-scheduler) किसी कार्ड की memory state को difficulty (D), stability (S) और retrievability (R) से दर्शाता है। Again, Hard, Good या Easy चुनने के बाद Flashcards उस state को update करता है और स्पष्ट `due_at` timestamp store करता है।
 
-दूसरा आपको ज़्यादा नियंत्रण देता है।
+Product defaults ठोस हैं: desired retention 0.90 है, learning steps 1 और 10 मिनट के हैं, relearning step 10 मिनट का है, अधिकतम interval 36,500 दिन है और fuzz चालू है। Flashcards हर user की history से personalized weights तैयार करने के बजाय code में official default FSRS-6 weights स्थिर रखता है। Settings में बदलाव आगे होने वाले रिव्यू पर लागू होते हैं; वे scheduling के पुराने फैसलों को दोबारा नहीं लिखते।
 
-फिर उपयोगकर्ता से कहा जाता है कि वह एक सुखद ऐप और एक गंभीर अध्ययन प्रणाली में से किसी एक को चुन ले।
+यह व्यवस्था उस विद्यार्थी के लिए ठीक है जो चाहता है कि “अभी क्या due है?” की स्पष्ट सीमा हो। Desired retention से workload का संतुलन भी साफ हो जाता है: scheduler से ज्यादा retention माँगने का मतलब आम तौर पर ज्यादा रिव्यू स्वीकार करना है।
 
-यह बहुत अच्छा सौदा नहीं है।
+यह दावा करने का कोई पुष्ट आधार नहीं है कि FSRS हमेशा Brainscape से ज्यादा प्रभावी है। व्यावहारिक चुनाव इससे कहीं सीधा है:
 
-ज़्यादा दिलचस्प दिशा एक आधुनिक **ओपन-सोर्स फ़्लैशकार्ड ऐप** है, जो लोगों को पसंद आने वाला अच्छा मोबाइल अनुभव भी बनाए रखे और साथ ही बेहतर शेड्यूलिंग, ऑफ़लाइन-प्रथम व्यवहार और दीर्घकालिक स्वामित्व का साफ़ मॉडल भी दे।
+- Brainscape कार्ड को एक-दूसरे के मुकाबले प्राथमिकता देता है और आपको जब चाहें डेक रिव्यू करने देता है।
+- Flashcards due times तय करता है और target retention level के आधार पर queue बनाता है।
 
-[Flashcards](https://flashcards-open-source-app.com/) इस दिशा के काफ़ी करीब है।
+जब अपनी मर्जी से दोहराना और कभी भी cramming करना अहम हो, तो पहला तरीका चुनें। अगर आप चाहते हैं कि due queue तय करे कि आज किस चीज पर ध्यान देना है, तो दूसरा तरीका चुनें। दूसरे विकल्प को विस्तार से समझने के लिए [FSRS बनाम SM-2](/blog/fsrs-vs-sm-2/) पढ़ें।
 
-यह एक साथ देता है:
+## मोबाइल पर काम और ऑफ़लाइन व्यवहार
 
-- FSRS शेड्यूलिंग
-- ऑफ़लाइन-प्रथम आर्किटेक्चर
-- iPhone और वेब क्लाइंट
-- AI ड्राफ्टिंग और चैट वर्कफ़्लो
-- ओपन-सोर्स कोड
-- खुद होस्ट करने का विकल्प
+दोनों उत्पाद web, iOS और Android पर चलते हैं। कोई भी आपको सिर्फ फोन वाला workflow अपनाने के लिए मजबूर नहीं करता, लेकिन उनकी offline सीमाएँ अलग हैं।
 
-यह "मुझे इसकी जगह क्या इस्तेमाल करना चाहिए?" का कहीं ज़्यादा उपयोगी जवाब है, बजाय किसी ऐसे दूसरे उत्पाद के जो शुरुआत में तो पॉलिश्ड लगे, लेकिन बाद में यह साफ़ न करे कि आप अपनी पढ़ाई की व्यवस्था पर वास्तव में कितना नियंत्रण रखते हैं।
+Brainscape के मुताबिक उसके मोबाइल ऐप में [पहले से download किए गए कार्ड offline पढ़े जा सकते हैं](https://brainscape.zendesk.com/hc/en-us/articles/360001017252-Do-I-need-WiFi-or-a-4G-LTE-connection)। Flashcards बनाने या संपादित करने के लिए Wi-Fi या mobile data चाहिए। जो व्यक्ति connected रहते हुए सामग्री तैयार करता है और आने-जाने या flight के दौरान मुख्य रूप से offline रिव्यू चाहता है, उसके लिए यह तरीका ठीक बैठता है।
 
-## हल्की शेड्यूलिंग से आगे बढ़ने की सबसे मजबूत वजहों में से एक FSRS है
+Flashcards [offline-first sync architecture](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/docs/architecture.md#offline-first-sync) अपनाता है। Web app IndexedDB में, iOS SQLite में और Android SQLite के ऊपर Room में लिखता है। रिव्यू और बदलाव पहले device पर save होते हैं, sync flow में जाते हैं और connection लौटने के बाद upload होते हैं।
 
-पहले दिन इसका फर्क महसूस नहीं होता।
+व्यावहारिक विजेता इस बात पर निर्भर है कि आप क्या करना चाहते हैं। Device पर पहले से मौजूद कार्ड को offline मोबाइल पर रिव्यू करना दोनों में संभव है। Flashcards इससे आगे जाता है: उसके documented local-first तरीके में कार्ड बनाना, संपादित करना और रिव्यू करना शामिल है—browser में भी, बशर्ते web app और data पहले से उपलब्ध हों। दोबारा connection मिलने पर synchronization जारी हो जाता है। Flashcards का native Windows, macOS या Linux desktop client नहीं है; computer पर इसे browser में इस्तेमाल किया जाता है।
 
-यह असर कुछ हफ्तों बाद समझ में आता है।
+अगर local writes की वजह से आप **offline flashcards app** खोज रहे हैं, तो [ऑफ़लाइन flashcards तुलना](/blog/best-offline-flashcards-app/) देखें।
 
-अगर रिव्यू की लय कमजोर हो, तो पूरी आदत जरूरत से ज़्यादा भारी लगने लगती है। आसान कार्ड बार-बार लौट आते हैं। कठिन कार्ड अजीब समय पर सामने आते हैं। रिव्यू क्यू याददाश्त की ट्रेनिंग से ज़्यादा रखरखाव का काम लगने लगती है।
+## सहयोग और classroom management में Brainscape आगे है
 
-इसीलिए एक असली **FSRS फ़्लैशकार्ड ऐप** मायने रखता है।
+Brainscape के [Basic plan](https://www.brainscape.com/pricing) में flashcards साझा करना और editing permissions संभालना शामिल है। उपयोगकर्ता सामग्री को classes में व्यवस्थित करके share links के जरिए बाँट सकते हैं। किसी study group के लिए यह डेक की static copies इधर-उधर भेजने से कहीं ज्यादा उपयोगी है।
 
-FSRS आम तौर पर पुराने या सरल शेड्यूलिंग तरीकों की तुलना में ज़्यादा संतुलित रिव्यू लय देता है। यह समय के साथ बेहतर ढंग से ढलता है, बेकार की पुनरावृत्ति घटाता है, और रिव्यू कतार को ज़्यादा विश्वसनीय बनाता है।
+उसके [teachers और schools के लिए offerings](https://www.brainscape.com/teachers) में विस्तृत student analytics, private content और group licensing जुड़ते हैं। Enterprise में branded private landing page भी मिलता है। शिक्षक साझा सामग्री संभाल सकता है और विद्यार्थियों की प्रगति देख सकता है, इसलिए उसे केवल उनके बताए हुए study record पर निर्भर नहीं रहना पड़ता।
 
-यह कोई मामूली बैकएंड विवरण नहीं है।
+Flashcards फिलहाल link से साझा होने वाली classes, editor permissions संभालने या teacher progress analytics की बराबरी नहीं करता। उसके workspaces और agent interfaces को जारी हो चुकी classroom collaboration सुविधाओं की तरह पेश नहीं करना चाहिए। अगर कई लोगों को मिलकर class deck संभालना है—या progress reporting काम का हिस्सा है—तो Brainscape साफ तौर पर जीतता है।
 
-इससे तय होता है कि डेक बड़ा होने के बाद भी उसे बनाए रखना सार्थक लगता है या नहीं।
+## AI: बड़ी संख्या में कार्ड बनाना या agent access
 
-अगर आप शेड्यूलर की तुलना को और गहराई से समझना चाहते हैं, तो यह लेख आगे जाता है:
+Brainscape AI को guided card-authoring flow के भीतर रखता है। उसके [Basic plan](https://www.brainscape.com/pricing) के मुताबिक उपयोगकर्ता AI से “100s” flashcards बना सकते हैं, जबकि Pro में unlimited AI दर्ज है। Brainscape instructions या source material को कार्ड में बदल सकता है और paste या upload किए गए इम्पोर्ट के बाद AI cleanup दे सकता है। जब काम की शुरुआत “इस material को deck में बदलो” से होती है, तो यह सुविधाजनक है।
 
-- [2026 में FSRS बनाम SM-2](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+Flashcards का तरीका workspace पर ज्यादा केंद्रित है। [AI chat और supported file attachments](/docs/getting-started/) कार्ड का draft बनाने और उन्हें सुधारने में मदद कर सकते हैं। Assistant workspace पर सीमित read/write actions इस्तेमाल कर सकता है, जबकि [MCP](/docs/mcp-connector/) और [Agent API](/docs/api/) compatible AI clients और terminal agents को documented interfaces के जरिए काम करने देते हैं।
 
-## ऑफ़लाइन पढ़ाई इसलिए मायने रखती है क्योंकि याद रखने का काम अक्सर साधारण जगहों पर होता है
+इन interfaces से Flashcards को Brainscape की Certified content library या classroom workflow नहीं मिल जाता। AI-assisted drafting भी lossless import नहीं है: assistant source material को समझकर कार्ड सुझाता है। दोनों उत्पादों में AI से बने कार्ड के तथ्यों को बार-बार दोहराने वाली queue में डालने से पहले जाँच लें।
 
-मुझे फ़्लैशकार्ड ऐप्स को कम आकर्षक परिस्थितियों में परखना पसंद है:
+उपभोक्ताओं के लिए बने study product में guided bulk creation के लिए Brainscape आसान विकल्प है। अगर आप चाहते हैं कि external agents workspace को संभालने में हिस्सा लें, तो Flashcards अधिक सक्षम विकल्प है।
 
-- कमजोर Wi-Fi
-- ट्रेनें
-- हवाई अड्डे
-- दूसरे कामों के बीच मिले दस खाली मिनट
+## कीमत: subscription बनाम beta और self-hosting का खर्च
 
-यहीं बहुत से अध्ययन टूल चुपचाप वेबसाइट भर साबित होने लगते हैं।
+Brainscape Basic मुफ्त है। 3 अगस्त, 2026 को [Brainscape की pricing](https://www.brainscape.com/pricing) में Pro की कीमत **annual billing पर US$7.99 प्रति माह** दिखाई गई थी। Pro में unlimited AI, unlimited Certified और user-made content, media, bookmarks, reverse cards और private content शामिल हैं। Enterprise के लिए quote लेना पड़ता है और consumer Pro के मुकाबले 70% तक बचत का दावा किया गया है।
 
-एक सही **ऑफ़लाइन फ़्लैशकार्ड ऐप** इससे ज़्यादा सख्त होना चाहिए:
+Hosted Flashcards app मौजूदा beta terms के तहत AI और synchronization सहित [beta के दौरान मुफ्त](/pricing/) है। Beta में technical limits के अलावा कार्ड, files या कुल storage पर plan quotas नहीं हैं। Core card creation और review को मुफ्त रखने का वादा है, लेकिन मौजूदा US$0 hosted price इस बात की guarantee नहीं है कि हर hosted feature हमेशा मुफ्त रहेगा। ज्यादा AI इस्तेमाल के लिए बाद में उपयोगकर्ता को अपनी provider key या किसी paid option की जरूरत पड़ सकती है।
 
-- कार्ड स्थानीय रूप से सहेजे जाएँ
-- रिव्यू की हर कार्रवाई तुरंत सेव हो
-- एडिट अस्थायी न लगें
-- सिंक बाद में हो
+Self-hosted Flashcards software भी MIT license के तहत मुफ्त है, लेकिन उसे चलाने का खर्च होता है। Operator को infrastructure और external providers के लिए भुगतान करना पड़ता है और maintenance की जिम्मेदारी भी उसी की होती है। US$0 software license और US$0 monthly system एक ही बात नहीं हैं।
 
-वेब और iPhone वर्कफ़्लो में Flashcards इसी मॉडल की ओर बढ़ रहा है। पहले पढ़ाई। बाद में सिंक। आदत को चलते रहने दो।
+आज Brainscape का consumer offer ज्यादा predictable है। Flashcards की hosted beta price कम है और self-hosting के जरिए ownership का रास्ता मिलता है, लेकिन भविष्य की hosted AI terms और operator costs अब भी फैसले का हिस्सा हैं।
 
-अगर आप मुख्य रूप से ऑफ़लाइन भरोसे की वजह से विकल्प ढूंढ रहे हैं, तो यह लेख और विस्तार से बताता है:
+## इम्पोर्ट और एक्सपोर्ट का मतलब migration नहीं है
 
-- [2026 में सबसे अच्छा ऑफ़लाइन फ़्लैशकार्ड ऐप](https://flashcards-open-source-app.com/blog/best-offline-flashcards-app/)
+Brainscape में आम files इम्पोर्ट करने के ज्यादा विकल्प हैं। उसकी [आधिकारिक import guide](https://brainscape.zendesk.com/hc/en-us/articles/115002369931-How-do-I-import-various-files-to-create-flashcards) paste की गई सूचियों और CSV, TXT, XLSX तथा ODS uploads को शामिल करती है। मोबाइल पर यही flow किसी file, photo library की image या camera capture से भी शुरू हो सकता है। पहले से मौजूद spreadsheet या photographed-notes workflow के लिए यह बड़ा फायदा है।
 
-## iPhone वर्कफ़्लो इसलिए अहम है क्योंकि ज़्यादातर पढ़ाई फ़ोन पर होती है
+Export उपलब्ध है, लेकिन [Brainscape deck export के लिए Pro चाहिए](https://brainscape.zendesk.com/hc/en-us/articles/115002383872-How-can-I-export-a-backup-of-my-flashcards)। तैयार files Excel में खुलती हैं और बाद में दोबारा upload की जा सकती हैं। Brainscape यह नहीं बताता कि उस export में confidence ratings, study history, analytics, classes या permission state शामिल होते हैं, इसलिए इसे पूरे learning environment की portable copy के बजाय card-content backup समझें।
 
-यह बात सुनने में बहुत सीधी लगती है।
+Flashcards अपने [`flashcards.zip` package](https://github.com/kirill-markin/flashcards-open-source-app/tree/main/apps/web/src/screens/settings/workspace/packages) को इम्पोर्ट और एक्सपोर्ट करता है। यह active cards, tags और उनसे जुड़े media को Flashcards workspaces या hosted और self-hosted instances के बीच ले जाता है। इसमें review history, FSRS state, workspace settings, डेक का पूरा structure या account data शामिल नहीं होता। Brainscape spreadsheet या Anki package के लिए कोई direct importer नहीं है।
 
-फिर भी कई तुलना-पोस्ट इसे कम महत्व देती हैं।
+आप supported files को Flashcards AI chat में attach करके उससे कार्ड का draft बनाने को कह सकते हैं। इससे चुनिंदा सामग्री दोबारा बनाने में मदद मिल सकती है, लेकिन यह AI-assisted authoring process ही रहता है। हर सुझाए गए कार्ड को जाँचें, source से मिलाकर ठीक करें और शुरुआत में पूरी तरह नई FSRS scheduling state मिलने की उम्मीद रखें।
 
-लोग सिर्फ ऐसा फ़्लैशकार्ड ऐप नहीं चाहते जो तकनीकी रूप से मोबाइल पर चल जाए। वे ऐसा उत्पाद चाहते हैं जो रोज़ की छोटी-छोटी पढ़ाई के तरीके के हिसाब से स्वाभाविक लगे।
+आम files से डेक बनाने में Brainscape आगे है। दोनों में से कोई भी lossless Brainscape-to-Flashcards migration नहीं देता।
 
-उसका मतलब है:
+## मालिकाना हक: export access बनाम पूरे stack पर control
 
-- तेज़ रिव्यू क्रम
-- जल्दी एडिट
-- ऑफ़लाइन भरोसेमंदी
-- सिंक को लेकर बेवजह की चिंता नहीं
-- यह एहसास नहीं कि मोबाइल सिर्फ दूसरा क्लाइंट है
+Brainscape proprietary hosted service है। उपयोगकर्ता वहाँ content बना और साझा कर सकते हैं, और Pro में documented deck export मिलता है। वे Brainscape application stack की जाँच नहीं कर सकते, उसमें बदलाव नहीं कर सकते और उसे खुद operate नहीं कर सकते।
 
-इसीलिए **iPhone फ़्लैशकार्ड ऐप** वाला पहलू यहाँ इतना महत्वपूर्ण है। अगर फ़ोन पर वर्कफ़्लो कमजोर हो, तो पढ़ाई की आदत "बाद में" खिसक जाती है, और अंतराल-आधारित पुनरावृत्ति ठीक वहीं टूटने लगती है।
+पूरा Flashcards application और infrastructure [GitHub पर MIT licensed](https://github.com/kirill-markin/flashcards-open-source-app) है। [Self-hosting guide](/docs/self-hosting/) operator के अपने AWS account में production deployment का तरीका बताती है। इससे operator को code, infrastructure और database पर control मिलता है।
 
-Flashcards पहले से इस बेहतर दिशा में झुका हुआ है: रिपॉज़िटरी में iPhone ऐप मौजूद है, स्टोरेज स्थानीय-प्रथम है, और वेब, iPhone और एजेंट वर्कफ़्लो के पीछे वही साझा बैकएंड मॉडल काम करता है।
+Self-hosting के साथ काम भी बढ़ता है: AWS setup और costs, domains, email, AI providers, monitoring, backups, upgrades और restores की जिम्मेदारी operator की हो जाती है। Free software का मतलब free infrastructure नहीं है। Hosted Flashcards app इस्तेमाल करना अब भी hosted service इस्तेमाल करना है; केवल source उपलब्ध होने से उसका hosted database आपके control में नहीं आ जाता।
 
-## AI तब उपयोगी है जब वह ड्राफ्टिंग की मेहनत कम करे
+अगर आपके लिए **open source flashcards app** का मतलब पूरे stack की जाँच करना, उसमें बदलाव करना और उसे चलाना है, तो Flashcards जीतता है। अगर आप चाहते हैं कि vendor सब कुछ operate करे और Pro spreadsheet export आपके लिए पर्याप्त portability है, तो Brainscape आसान विकल्प है।
 
-यह भी एक ऐसी जगह है जहाँ यह श्रेणी थोड़ा दिखावटी हो जाती है।
+## ऐप बदलने की व्यावहारिक checklist
 
-कई **AI फ़्लैशकार्ड ऐप** डेमो बस यहीं रुक जाते हैं: "नोट्स चिपकाइए, कार्ड पाइए, काम पूरा।"
+नए workflow को परखने से पहले Brainscape cancel न करें और कोई class delete न करें।
 
-ज़्यादा उपयोगी संस्करण इससे छोटा और ईमानदार है।
+1. पिछले सप्ताह आपने Brainscape की जिन सुविधाओं का सचमुच इस्तेमाल किया, उनकी सूची बनाएँ: classes, share links, editor permissions, analytics, Certified content, media, reverse cards, AI generation और open-ended cram study।
+2. हर उस चीज पर निशान लगाएँ जिसकी जगह Flashcards नहीं लेता। Collaboration और teacher analytics सबसे संभावित रुकावटें हैं।
+3. अगर आपके पास Pro है, तो किसी representative Brainscape deck को export करें और original spreadsheet को बिना बदले सुरक्षित रखें। अगर आपके पास केवल Basic है, तो आगे बढ़ने की योजना बनाने से पहले export paywall को ध्यान में रखें।
+4. Plain cards, एक tagged card, media और अपनी जरूरी formatting के साथ छोटा डेक परखें। Export को केवल ऐसी AI-assisted drafting के source material की तरह इस्तेमाल करें जिसमें आप हर कार्ड जाँचेंगे; direct importer उपलब्ध नहीं है।
+5. कार्ड की संख्या, front, back, media और tags की तुलना करें। मानकर चलें कि confidence ratings, review history, classes, permissions और analytics पीछे छूट जाएँगे।
+6. नई FSRS queue को नए scheduling data की तरह शुरू करें। Default 0.90 retention setting और learning steps बदलने से पहले उन्हें जाँच लें; नई settings आगे के reviews पर असर डालती हैं।
+7. उसी device पर offline काम करके देखें जिसे आप सचमुच साथ रखते हैं। कार्ड बनाएँ, संपादित करें और रिव्यू करें, फिर reconnect करके अधिक material ले जाने से पहले synchronization पक्का करें।
+8. Brainscape को तब तक उपलब्ध रखें, जब तक कई दिनों की असली पढ़ाई यह न दिखा दे कि नई queue और mobile workflow आपके लिए ठीक हैं।
 
-AI से नोट्स या स्रोत सामग्री के आधार पर पहला ड्राफ्ट बनाइए। फिर उन्हीं कार्डों को उसी जगह संपादित कीजिए, जहाँ आप बाद में सचमुच पढ़ाई करेंगे।
+## कौन-सा Brainscape विकल्प आपके workflow के लिए सही है?
 
-यह बेहतर वर्कफ़्लो है, क्योंकि यहाँ AI निर्णय की जगह नहीं ले रही, बल्कि ड्राफ्ट बनाने में मदद कर रही है।
+साझा classes, editor permissions, teacher और student analytics, आम spreadsheet imports, Certified content और cramming के लिए हमेशा खुला रहने वाला flexible confidence-rated loop—इन सबके लिए Brainscape अधिक मजबूत उत्पाद है। ये बड़े फायदे हैं, छोटी-मोटी बातें नहीं।
 
-Flashcards इस मॉडल के अधिक करीब है, क्योंकि इसमें पहले से ये चीज़ें मौजूद हैं:
+Flashcards अलग प्राथमिकताओं वाले उपयोगकर्ताओं के लिए केंद्रित **Brainscape विकल्प** है: स्पष्ट FSRS-6 due dates, offline-first local writes, AI और agent access, MIT-licensed code और optional self-hosting। इसके बदले आपको कमजोर collaboration, Brainscape के लिए direct importer न होना, scheduling history को migrate न कर पाना और self-host करने पर असली operational काम स्वीकार करना पड़ता है।
 
-- AI चैट
-- फ़ाइल अटैचमेंट
-- टेक्स्ट-आधारित ड्राफ्टिंग
-- बाद में सामान्य कार्ड एडिटिंग
-- उसी उत्पाद में FSRS रिव्यू
+अगर relative prioritization, classroom workflows और कम झंझट वाला bulk authoring आपकी जरूरत पूरी करते हैं, तो Brainscape पर बने रहें। Target-retention due queue, web और mobile पर offline editing, agent access या application stack पर control ज्यादा अहम हो, तो Flashcards आजमाएँ।
 
-अगर कार्ड हाथ से लिखने का बोझ ही आपको दूसरे विकल्प देखने पर मजबूर कर रहा है, तो यहाँ और गहराई से पढ़ें:
-
-- [2026 में नोट्स को फ़्लैशकार्ड्स में कैसे बदलें](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
-
-## ओपन सोर्स इसलिए मायने रखता है क्योंकि डेक निजी ज्ञान-संरचना बन जाते हैं
-
-शुरुआत में डेक अस्थायी लगता है।
-
-फिर महीने बीत जाते हैं।
-
-कार्ड यह दिखाने लगते हैं कि आप क्या बार-बार भूलते हैं, जवाब किस तरह लिखते हैं, कौन से उदाहरण आपको याद रखने में मदद करते हैं, और कौन से विषय इतने महत्वपूर्ण हैं कि उन्हें लंबे समय तक जीवित रखना चाहिए।
-
-तभी डेक साधारण पढ़ाई की सामग्री भर नहीं रहता, बल्कि आपकी निजी ज्ञान-प्रणाली का हिस्सा बनने लगता है।
-
-यहीं से ओपन सोर्स का महत्व और बढ़ जाता है।
-
-एक ओपन-सोर्स फ़्लैशकार्ड ऐप में कोड दिखता है। आर्किटेक्चर दिखता है। खुद होस्ट करने का रास्ता मौजूद होता है। भले ही आप कभी ऐसा न करें, फिर भी यह उस बंद उत्पाद की तुलना में लंबे समय के लिए ज़्यादा स्वस्थ विकल्प है जिसके भीतर आप अपनी पूरी याददाश्त प्रणाली बना रहे हों और जिसे ठीक से परख भी न सकें।
-
-इसीलिए **खुद होस्ट किए जा सकने वाले फ़्लैशकार्ड्स** और स्वामित्व की बात उसी चर्चा का हिस्सा है, जिसमें **Brainscape का विकल्प** भी आता है।
-
-अगर खोज की सबसे बड़ी वजह स्वामित्व है, तो शुरुआत यहाँ से करें:
-
-- [अंतराल-आधारित पुनरावृत्ति के लिए खुद होस्ट किया जा सकने वाला ओपन-सोर्स फ़्लैशकार्ड ऐप](https://flashcards-open-source-app.com/blog/self-hosted-open-source-flashcards-app-for-spaced-repetition/)
-
-## तो 2026 में Brainscape का सबसे अच्छा विकल्प क्या है?
-
-अगर आपकी पहली प्राथमिकता एक पॉलिश्ड, मोबाइल-अनुकूल फ़्लैशकार्ड ऐप है और आपका मौजूदा सेटअप पहले से सही लग रहा है, तो Brainscape अब भी समझदारी भरा विकल्प हो सकता है।
-
-लेकिन अगर अब आप FSRS, ऑफ़लाइन इस्तेमाल में ज़्यादा भरोसा, iPhone-केंद्रित पढ़ाई, वास्तविक वर्कफ़्लो से जुड़ी AI ड्राफ्टिंग, और ओपन-सोर्स स्वामित्व चाहते हैं, तो बेहतर जवाब आमतौर पर "Brainscape जैसा ही, बस एक-दो अतिरिक्त फीचर्स के साथ" नहीं होता।
-
-यह टूल्स की एक अलग श्रेणी है।
-
-इसीलिए [Flashcards](https://flashcards-open-source-app.com/) 2026 में **Brainscape का बेहतर विकल्प** बनता है। इसलिए नहीं कि वह Brainscape की हूबहू नकल करना चाहता है। बल्कि इसलिए कि वह उन चीज़ों के इर्द-गिर्द बनाया गया है जो डेक के लंबे समय तक टिकने पर ज़्यादा महत्वपूर्ण हो जाती हैं, जब रिव्यू की लय सचमुच मायने रखती है, और जब शुरुआती अच्छी छाप उतर जाने के बाद भी उत्पाद का अनुभव शांत और भरोसेमंद रहना चाहिए।
-
-अगर आप इस दिशा को और देखना चाहते हैं:
-
-- [Flashcards खोलें](https://flashcards-open-source-app.com/)
-- [ऐप खोलें](https://app.flashcards-open-source-app.com/)
-- [शुरुआत करने की गाइड पढ़ें](https://flashcards-open-source-app.com/docs/getting-started/)
-- [GitHub पर स्रोत कोड देखें](https://github.com/kirill-markin/flashcards-open-source-app)
+अगर Flashcards की ये सीमाएँ आपके लिए ठीक हैं, तो [app खोलें](https://app.flashcards-open-source-app.com/) या [getting-started guide](/docs/getting-started/) पढ़ें। Collaboration या कभी भी cram करने की सुविधा सबसे अहम हो, तो Brainscape पर बने रहना बेहतर फैसला है।
