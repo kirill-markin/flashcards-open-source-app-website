@@ -2,10 +2,11 @@ import { NextResponse } from "next/server";
 import type { NextRequest } from "next/server";
 import {
   LLMS_ASSET_PATHNAME,
-  getMarkdownAssetPathname,
+  getMarkdownApiAssetPathname,
   getPagePathFromHtmlPathname,
   getPagePathFromMarkdownPathname,
 } from "./lib/markdownAssetPaths";
+import { getPublicCatalogFacetStaticPathname } from "./lib/publicCatalogUrls";
 
 export function proxy(request: NextRequest): NextResponse {
   const { pathname } = request.nextUrl;
@@ -21,6 +22,10 @@ export function proxy(request: NextRequest): NextResponse {
     return NextResponse.next();
   }
 
+  if (pathname.startsWith("/api/page-markdown/")) {
+    return NextResponse.next();
+  }
+
   if (pathname === "/llms.txt") {
     const rewriteUrl = request.nextUrl.clone();
     rewriteUrl.pathname = LLMS_ASSET_PATHNAME;
@@ -30,8 +35,8 @@ export function proxy(request: NextRequest): NextResponse {
   // --- Markdown serving: .md extension ---
   const markdownPagePath = getPagePathFromMarkdownPathname(pathname);
   if (markdownPagePath !== null) {
-    const rewriteUrl = request.nextUrl.clone();
-    rewriteUrl.pathname = getMarkdownAssetPathname(markdownPagePath);
+    const rewriteUrl = new URL(request.url);
+    rewriteUrl.pathname = getMarkdownApiAssetPathname(markdownPagePath);
     return NextResponse.rewrite(rewriteUrl);
   }
 
@@ -42,15 +47,18 @@ export function proxy(request: NextRequest): NextResponse {
     !pathname.startsWith("/api/") &&
     !pathname.startsWith("/_next/")
   ) {
-    const rewriteUrl = request.nextUrl.clone();
-    rewriteUrl.pathname = getMarkdownAssetPathname(
+    const rewriteUrl = new URL(request.url);
+    rewriteUrl.pathname = getMarkdownApiAssetPathname(
       getPagePathFromHtmlPathname(pathname)
     );
     return NextResponse.rewrite(rewriteUrl);
   }
 
   // --- Default: add Vary and Link headers ---
-  const response = NextResponse.next();
+  const publicCatalogFacetStaticPathname = getPublicCatalogFacetStaticPathname(pathname);
+  const response = publicCatalogFacetStaticPathname === null
+    ? NextResponse.next()
+    : NextResponse.rewrite(new URL(publicCatalogFacetStaticPathname, request.url));
   response.headers.append("Vary", "Accept");
 
   const cleanPath = pathname.replace(/\/+$/, "");

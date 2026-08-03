@@ -11,7 +11,8 @@ import {
 } from "@/lib/publicCatalogData";
 import { getPublicCatalogPackagesByTopicTag } from "@/lib/publicCatalogReadModel";
 import {
-  resolvePublicCatalogRouteSegment,
+  getPublicCatalogFacetStaticParam,
+  resolvePublicCatalogFacetStaticParam,
 } from "@/lib/publicCatalogUrls";
 import { createPublicCatalogFacetMetadata } from "@/lib/seo/createPublicCatalogMetadata";
 
@@ -24,7 +25,10 @@ export function generateStaticParams(): Array<{
   const topicTags = listPublicCatalogTopicTags();
 
   return getLocalizedRouteStaticParams().flatMap(({ locale }) =>
-    topicTags.map((topicTag) => ({ locale, topicTag })),
+    topicTags.map((topicTag) => ({
+      locale,
+      topicTag: getPublicCatalogFacetStaticParam(topicTag),
+    })),
   );
 }
 
@@ -41,8 +45,8 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     notFound();
   }
 
-  const topicTag = resolvePublicCatalogRouteSegment(
-    encodeURIComponent(routeTopicTag),
+  const topicTag = resolvePublicCatalogFacetStaticParam(
+    routeTopicTag,
     catalog.topicTags,
   );
 
@@ -64,7 +68,7 @@ export default async function LocalizedPublicCatalogTopicPage({
     notFound();
   }
 
-  const topicTag = resolvePublicCatalogRouteSegment(
+  const topicTag = resolvePublicCatalogFacetStaticParam(
     routeTopicTag,
     catalog.topicTags,
   );

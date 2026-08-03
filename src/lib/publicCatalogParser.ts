@@ -1,5 +1,9 @@
 import { remark } from "remark";
 import {
+  assertNoForbiddenUrlInputCharacters,
+  canonicalizeHttpsUrl,
+} from "./markdownLinks";
+import {
   publicCatalogSchemaVersion,
   type PublicCatalogAuthor,
   type PublicCatalogCard,
@@ -50,6 +54,36 @@ function assertNonEmptyString(value: unknown, context: string): string {
   }
 
   return stringValue;
+}
+
+function assertFacetTag(value: unknown, context: string): string {
+  const tag = assertString(value, context);
+
+  assertNoForbiddenUrlInputCharacters(tag, `Public catalog ${context}`);
+
+  if (tag.trim() === "") {
+    throw new Error(`Public catalog ${context} must not be empty.`);
+  }
+
+  if (tag === "." || tag === "..") {
+    throw new Error(
+      `Public catalog ${context} must not be a URL dot segment. received=${tag}`,
+    );
+  }
+
+  return tag;
+}
+
+function assertOpaqueIdentifier(value: unknown, context: string): string {
+  const identifier = assertNonEmptyString(value, context);
+
+  if (/^[A-Za-z0-9][A-Za-z0-9_-]{0,127}$/.test(identifier) === false) {
+    throw new Error(
+      `Public catalog ${context} must be a bounded opaque identifier using 1-128 ASCII letters, numbers, underscores, or hyphens. received=${identifier}`,
+    );
+  }
+
+  return identifier;
 }
 
 function assertNullableString(value: unknown, context: string): string | null {
@@ -117,19 +151,8 @@ function assertNullablePackageMediaKey(value: unknown, context: string): string 
 
 function assertHttpsUrl(value: unknown, context: string): string {
   const stringValue = assertNonEmptyString(value, context);
-  let url: URL;
 
-  try {
-    url = new URL(stringValue);
-  } catch {
-    throw new Error(`Public catalog ${context} must be an absolute HTTPS URL. received=${stringValue}`);
-  }
-
-  if (url.protocol !== "https:" || url.username !== "" || url.password !== "") {
-    throw new Error(`Public catalog ${context} must be an absolute HTTPS URL. received=${stringValue}`);
-  }
-
-  return stringValue;
+  return canonicalizeHttpsUrl(stringValue, `Public catalog ${context}`);
 }
 
 function assertNullableHttpsUrl(value: unknown, context: string): string | null {
@@ -244,7 +267,7 @@ function parsePackage(value: unknown, index: number): PublicCatalogPackage {
   const record = assertRecord(value, context);
 
   return {
-    packageId: assertNonEmptyString(record.packageId, `${context}.packageId`),
+    packageId: assertOpaqueIdentifier(record.packageId, `${context}.packageId`),
     authorId: assertNonEmptyString(record.authorId, `${context}.authorId`),
     slug: assertSlug(record.slug, `${context}.slug`),
     title: assertNonEmptyString(record.title, `${context}.title`),
@@ -253,12 +276,12 @@ function parsePackage(value: unknown, index: number): PublicCatalogPackage {
     languageTags: parseUniqueStringArray(
       record.languageTags,
       `${context}.languageTags`,
-      assertNonEmptyString,
+      assertFacetTag,
     ),
     topicTags: parseUniqueStringArray(
       record.topicTags,
       `${context}.topicTags`,
-      assertNonEmptyString,
+      assertFacetTag,
     ),
     license: assertNonEmptyString(record.license, `${context}.license`),
     contentWarning: assertNullableString(record.contentWarning, `${context}.contentWarning`),
@@ -266,7 +289,7 @@ function parsePackage(value: unknown, index: number): PublicCatalogPackage {
       record.coverPackageMediaKey,
       `${context}.coverPackageMediaKey`,
     ),
-    latestPublishedVersionId: assertNonEmptyString(
+    latestPublishedVersionId: assertOpaqueIdentifier(
       record.latestPublishedVersionId,
       `${context}.latestPublishedVersionId`,
     ),
@@ -279,11 +302,11 @@ function parsePackageVersion(value: unknown, index: number): PublicCatalogPackag
   const record = assertRecord(value, context);
 
   return {
-    packageVersionId: assertNonEmptyString(
+    packageVersionId: assertOpaqueIdentifier(
       record.packageVersionId,
       `${context}.packageVersionId`,
     ),
-    packageId: assertNonEmptyString(record.packageId, `${context}.packageId`),
+    packageId: assertOpaqueIdentifier(record.packageId, `${context}.packageId`),
     versionNumber: assertPositiveInteger(record.versionNumber, `${context}.versionNumber`),
     title: assertNonEmptyString(record.title, `${context}.title`),
     summary: assertString(record.summary, `${context}.summary`),
@@ -300,7 +323,7 @@ function parseCard(value: unknown, index: number): PublicCatalogCard {
 
   return {
     packageCardId: assertNonEmptyString(record.packageCardId, `${context}.packageCardId`),
-    packageVersionId: assertNonEmptyString(
+    packageVersionId: assertOpaqueIdentifier(
       record.packageVersionId,
       `${context}.packageVersionId`,
     ),
@@ -327,8 +350,8 @@ function parseMediaAsset(value: unknown, index: number): PublicCatalogMediaAsset
       record.packageMediaAssetId,
       `${context}.packageMediaAssetId`,
     ),
-    packageId: assertNonEmptyString(record.packageId, `${context}.packageId`),
-    packageVersionId: assertNonEmptyString(
+    packageId: assertOpaqueIdentifier(record.packageId, `${context}.packageId`),
+    packageVersionId: assertOpaqueIdentifier(
       record.packageVersionId,
       `${context}.packageVersionId`,
     ),
@@ -359,14 +382,14 @@ function parseCollection(value: unknown, index: number): PublicCatalogCollection
     languageTags: parseUniqueStringArray(
       record.languageTags,
       `${context}.languageTags`,
-      assertNonEmptyString,
+      assertFacetTag,
     ),
     topicTags: parseUniqueStringArray(
       record.topicTags,
       `${context}.topicTags`,
-      assertNonEmptyString,
+      assertFacetTag,
     ),
-    coverPackageId: assertNonEmptyString(record.coverPackageId, `${context}.coverPackageId`),
+    coverPackageId: assertOpaqueIdentifier(record.coverPackageId, `${context}.coverPackageId`),
     publishedAt: assertCanonicalUtcTimestamp(record.publishedAt, `${context}.publishedAt`),
   };
 }
@@ -377,7 +400,7 @@ function parseCollectionPackage(value: unknown, index: number): PublicCatalogCol
 
   return {
     collectionId: assertNonEmptyString(record.collectionId, `${context}.collectionId`),
-    packageId: assertNonEmptyString(record.packageId, `${context}.packageId`),
+    packageId: assertOpaqueIdentifier(record.packageId, `${context}.packageId`),
     ordinal: assertNonNegativeInteger(record.ordinal, `${context}.ordinal`),
   };
 }

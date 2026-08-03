@@ -11,7 +11,8 @@ import {
 } from "@/lib/publicCatalogData";
 import { getPublicCatalogPackagesByLanguageTag } from "@/lib/publicCatalogReadModel";
 import {
-  resolvePublicCatalogRouteSegment,
+  getPublicCatalogFacetStaticParam,
+  resolvePublicCatalogFacetStaticParam,
 } from "@/lib/publicCatalogUrls";
 import { createPublicCatalogFacetMetadata } from "@/lib/seo/createPublicCatalogMetadata";
 
@@ -24,7 +25,10 @@ export function generateStaticParams(): Array<{
   const languageTags = listPublicCatalogLanguageTags();
 
   return getLocalizedRouteStaticParams().flatMap(({ locale }) =>
-    languageTags.map((languageTag) => ({ languageTag, locale })),
+    languageTags.map((languageTag) => ({
+      languageTag: getPublicCatalogFacetStaticParam(languageTag),
+      locale,
+    })),
   );
 }
 
@@ -41,8 +45,8 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     notFound();
   }
 
-  const languageTag = resolvePublicCatalogRouteSegment(
-    encodeURIComponent(routeLanguageTag),
+  const languageTag = resolvePublicCatalogFacetStaticParam(
+    routeLanguageTag,
     catalog.languageTags,
   );
 
@@ -64,7 +68,7 @@ export default async function LocalizedPublicCatalogLanguagePage({
     notFound();
   }
 
-  const languageTag = resolvePublicCatalogRouteSegment(
+  const languageTag = resolvePublicCatalogFacetStaticParam(
     routeLanguageTag,
     catalog.languageTags,
   );

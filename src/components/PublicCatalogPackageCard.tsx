@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { PublicCatalogCover } from "@/components/PublicCatalogCover";
+import { TrackedPublicCatalogPackageLink } from "@/components/TrackedPublicCatalogPackageLink";
 import type { AppLocale } from "@/lib/i18n";
 import { getLocalizedPathname } from "@/lib/i18n";
 import type { PublicCatalogUiCopy } from "@/lib/publicCatalogCopy";
@@ -36,19 +37,33 @@ export function PublicCatalogPackageCard({
 
   return (
     <article className={styles.card}>
-      <Link className={styles.coverLink} href={packageHref} tabIndex={-1}>
+      <TrackedPublicCatalogPackageLink
+        className={styles.coverLink}
+        href={packageHref}
+        locale={locale}
+        packageId={packageMetadata.packageId}
+        placement="card_cover"
+        tabIndex={-1}
+      >
         <PublicCatalogCover
           coverMediaAsset={coverMediaAsset}
           placeholderLabel={copy.coverPlaceholderLabel}
           title={packageMetadata.title}
         />
-      </Link>
+      </TrackedPublicCatalogPackageLink>
       <div className={styles.body}>
         <header className={styles.heading}>
           <h2 className={styles.title}>
-            <Link className={styles.titleLink} href={packageHref}>
+            <TrackedPublicCatalogPackageLink
+              className={styles.titleLink}
+              href={packageHref}
+              locale={locale}
+              packageId={packageMetadata.packageId}
+              placement="card_title"
+              tabIndex={undefined}
+            >
               {packageMetadata.title}
-            </Link>
+            </TrackedPublicCatalogPackageLink>
           </h2>
           <p className={styles.byline}>
             {copy.byLabel}{" "}

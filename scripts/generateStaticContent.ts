@@ -17,6 +17,10 @@ import {
 } from "../src/lib/publicCatalogBuild";
 import type { PublicCatalogDump } from "../src/lib/publicCatalogTypes";
 import {
+  createPublicCatalogReadModel,
+  type PublicCatalogReadModel,
+} from "../src/lib/publicCatalogReadModel";
+import {
   LLMS_ASSET_PATHNAME,
   getMarkdownAssetPathname,
 } from "../src/lib/markdownAssetPaths";
@@ -60,10 +64,14 @@ function writeGeneratedPublicCatalogDump(dump: PublicCatalogDump): void {
   writeFileSync(outputFilePath, serializePublicCatalogDump(dump), "utf-8");
 }
 
-function generateMarkdownAssets(snapshot: GlobalActivitySnapshot): ReadonlyArray<GeneratedAsset> {
-  return listMarkdownPagePaths().map((pagePath): GeneratedAsset => {
+function generateMarkdownAssets(
+  snapshot: GlobalActivitySnapshot,
+  publicCatalog: PublicCatalogReadModel | null,
+): ReadonlyArray<GeneratedAsset> {
+  return listMarkdownPagePaths(publicCatalog).map((pagePath): GeneratedAsset => {
     const result = renderMarkdownDocument(pagePath, {
       globalActivitySnapshot: snapshot,
+      publicCatalog,
     });
 
     if (result.status !== 200) {
@@ -77,10 +85,13 @@ function generateMarkdownAssets(snapshot: GlobalActivitySnapshot): ReadonlyArray
   });
 }
 
-function generateLlmsAsset(snapshot: GlobalActivitySnapshot): GeneratedAsset {
+function generateLlmsAsset(
+  snapshot: GlobalActivitySnapshot,
+  publicCatalog: PublicCatalogReadModel | null,
+): GeneratedAsset {
   return {
     assetPathname: LLMS_ASSET_PATHNAME,
-    content: renderLlmsText(snapshot),
+    content: renderLlmsText(snapshot, publicCatalog),
   };
 }
 
@@ -96,7 +107,13 @@ async function main(): Promise<void> {
       ? fetchPublicCatalogDump(catalogConfiguration.dumpUrl)
       : Promise.resolve(null),
   ]);
-  const assets = [...generateMarkdownAssets(snapshot), generateLlmsAsset(snapshot)];
+  const publicCatalog = catalogDump === null
+    ? null
+    : createPublicCatalogReadModel(catalogDump);
+  const assets = [
+    ...generateMarkdownAssets(snapshot, publicCatalog),
+    generateLlmsAsset(snapshot, publicCatalog),
+  ];
 
   rmSync(outputDirectory, { recursive: true, force: true });
   writeGeneratedGlobalActivitySnapshot(snapshot);
