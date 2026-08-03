@@ -48,7 +48,7 @@ export function PublicCatalogPackageCard({
         <PublicCatalogCover
           coverMediaAsset={coverMediaAsset}
           placeholderLabel={copy.coverPlaceholderLabel}
-          title={packageMetadata.title}
+          title={latestVersion.title}
         />
       </TrackedPublicCatalogPackageLink>
       <div className={styles.body}>
@@ -62,7 +62,7 @@ export function PublicCatalogPackageCard({
               placement="card_title"
               tabIndex={undefined}
             >
-              {packageMetadata.title}
+              {latestVersion.title}
             </TrackedPublicCatalogPackageLink>
           </h2>
           <p className={styles.byline}>
@@ -72,8 +72,8 @@ export function PublicCatalogPackageCard({
             </Link>
           </p>
         </header>
-        {packageMetadata.summary === "" ? null : (
-          <p className={styles.summary}>{packageMetadata.summary}</p>
+        {latestVersion.summary === "" ? null : (
+          <p className={styles.summary}>{latestVersion.summary}</p>
         )}
         <ul className={styles.facts}>
           <li className={styles.fact}>
@@ -83,7 +83,7 @@ export function PublicCatalogPackageCard({
               copy,
             )}
           </li>
-          {packageMetadata.languageTags.map((languageTag) => (
+          {latestVersion.languageTags.map((languageTag) => (
             <li key={languageTag}>
               <Link
                 className={styles.facetLink}
@@ -96,7 +96,7 @@ export function PublicCatalogPackageCard({
               </Link>
             </li>
           ))}
-          {packageMetadata.topicTags.map((topicTag) => (
+          {latestVersion.topicTags.map((topicTag) => (
             <li key={topicTag}>
               <Link
                 className={styles.facetLink}
@@ -109,7 +109,7 @@ export function PublicCatalogPackageCard({
               </Link>
             </li>
           ))}
-          <li className={styles.fact}>{packageMetadata.license}</li>
+          <li className={styles.fact}>{latestVersion.license}</li>
         </ul>
       </div>
     </article>

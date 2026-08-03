@@ -10,8 +10,6 @@ import {
   type PublicCatalogCollection,
   type PublicCatalogCollectionPackage,
   type PublicCatalogDump,
-  type PublicCatalogJsonObject,
-  type PublicCatalogJsonValue,
   type PublicCatalogMediaAsset,
   type PublicCatalogPackage,
   type PublicCatalogPackageVersion,
@@ -59,6 +57,10 @@ function assertNonEmptyString(value: unknown, context: string): string {
 function assertFacetTag(value: unknown, context: string): string {
   const tag = assertString(value, context);
 
+  if (tag.isWellFormed() === false) {
+    throw new Error(`Public catalog ${context} must be well-formed Unicode.`);
+  }
+
   assertNoForbiddenUrlInputCharacters(tag, `Public catalog ${context}`);
 
   if (tag.trim() === "") {
@@ -74,12 +76,15 @@ function assertFacetTag(value: unknown, context: string): string {
   return tag;
 }
 
-function assertOpaqueIdentifier(value: unknown, context: string): string {
+function assertUuid(value: unknown, context: string): string {
   const identifier = assertNonEmptyString(value, context);
 
-  if (/^[A-Za-z0-9][A-Za-z0-9_-]{0,127}$/.test(identifier) === false) {
+  if (
+    /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/iu
+      .test(identifier) === false
+  ) {
     throw new Error(
-      `Public catalog ${context} must be a bounded opaque identifier using 1-128 ASCII letters, numbers, underscores, or hyphens. received=${identifier}`,
+      `Public catalog ${context} must be a UUID. received=${identifier}`,
     );
   }
 
@@ -145,10 +150,6 @@ function assertPackageMediaKey(value: unknown, context: string): string {
   return packageMediaKey;
 }
 
-function assertNullablePackageMediaKey(value: unknown, context: string): string | null {
-  return value === null ? null : assertPackageMediaKey(value, context);
-}
-
 function assertHttpsUrl(value: unknown, context: string): string {
   const stringValue = assertNonEmptyString(value, context);
 
@@ -159,22 +160,12 @@ function assertNullableHttpsUrl(value: unknown, context: string): string | null 
   return value === null ? null : assertHttpsUrl(value, context);
 }
 
-function assertRootRelativePath(value: unknown, context: string): string {
-  const stringValue = assertNonEmptyString(value, context);
-
-  if (stringValue.startsWith("/") === false || stringValue.startsWith("//")) {
-    throw new Error(`Public catalog ${context} must be a root-relative URL path. received=${stringValue}`);
+function assertPublishedStatus(value: unknown, context: string): "published" {
+  if (value !== "published") {
+    throw new Error(`Public catalog ${context} must be published. received=${String(value)}`);
   }
 
-  const parsedUrl = new URL(stringValue, "https://catalog.invalid");
-
-  if (parsedUrl.pathname !== stringValue || parsedUrl.search !== "" || parsedUrl.hash !== "") {
-    throw new Error(
-      `Public catalog ${context} must be a canonical root-relative URL path without a query or fragment. received=${stringValue}`,
-    );
-  }
-
-  return stringValue;
+  return value;
 }
 
 function assertNoRawHtmlNode(node: MarkdownAstNode, context: string): void {
@@ -217,44 +208,12 @@ function parseUniqueStringArray(
   return values;
 }
 
-function parseJsonValue(value: unknown, context: string): PublicCatalogJsonValue {
-  if (value === null || typeof value === "string" || typeof value === "boolean") {
-    return value;
-  }
-
-  if (typeof value === "number") {
-    if (Number.isFinite(value) === false) {
-      throw new Error(`Public catalog ${context} must contain only finite JSON numbers.`);
-    }
-
-    return value;
-  }
-
-  if (Array.isArray(value)) {
-    return value.map((item, index) => parseJsonValue(item, `${context}[${index}]`));
-  }
-
-  const record = assertRecord(value, context);
-
-  return Object.fromEntries(
-    Object.entries(record).map(([key, item]) => [key, parseJsonValue(item, `${context}.${key}`)]),
-  );
-}
-
-function parseJsonObject(value: unknown, context: string): PublicCatalogJsonObject {
-  const record = assertRecord(value, context);
-
-  return Object.fromEntries(
-    Object.entries(record).map(([key, item]) => [key, parseJsonValue(item, `${context}.${key}`)]),
-  );
-}
-
 function parseAuthor(value: unknown, index: number): PublicCatalogAuthor {
   const context = `authors[${index}]`;
   const record = assertRecord(value, context);
 
   return {
-    authorId: assertNonEmptyString(record.authorId, `${context}.authorId`),
+    authorId: assertUuid(record.authorId, `${context}.authorId`),
     slug: assertSlug(record.slug, `${context}.slug`),
     displayName: assertNonEmptyString(record.displayName, `${context}.displayName`),
     bio: assertNullableString(record.bio, `${context}.bio`),
@@ -267,8 +226,31 @@ function parsePackage(value: unknown, index: number): PublicCatalogPackage {
   const record = assertRecord(value, context);
 
   return {
-    packageId: assertOpaqueIdentifier(record.packageId, `${context}.packageId`),
-    authorId: assertNonEmptyString(record.authorId, `${context}.authorId`),
+    packageId: assertUuid(record.packageId, `${context}.packageId`),
+    authorId: assertUuid(record.authorId, `${context}.authorId`),
+    slug: assertSlug(record.slug, `${context}.slug`),
+    status: assertPublishedStatus(record.status, `${context}.status`),
+    latestPackageVersionId: assertUuid(
+      record.latestPackageVersionId,
+      `${context}.latestPackageVersionId`,
+    ),
+    versionCount: assertPositiveInteger(record.versionCount, `${context}.versionCount`),
+    publishedAt: assertCanonicalUtcTimestamp(record.publishedAt, `${context}.publishedAt`),
+  };
+}
+
+function parsePackageVersion(value: unknown, index: number): PublicCatalogPackageVersion {
+  const context = `packageVersions[${index}]`;
+  const record = assertRecord(value, context);
+
+  return {
+    packageVersionId: assertUuid(
+      record.packageVersionId,
+      `${context}.packageVersionId`,
+    ),
+    packageId: assertUuid(record.packageId, `${context}.packageId`),
+    versionNumber: assertPositiveInteger(record.versionNumber, `${context}.versionNumber`),
+    status: assertPublishedStatus(record.status, `${context}.status`),
     slug: assertSlug(record.slug, `${context}.slug`),
     title: assertNonEmptyString(record.title, `${context}.title`),
     summary: assertString(record.summary, `${context}.summary`),
@@ -285,33 +267,11 @@ function parsePackage(value: unknown, index: number): PublicCatalogPackage {
     ),
     license: assertNonEmptyString(record.license, `${context}.license`),
     contentWarning: assertNullableString(record.contentWarning, `${context}.contentWarning`),
-    coverPackageMediaKey: assertNullablePackageMediaKey(
-      record.coverPackageMediaKey,
-      `${context}.coverPackageMediaKey`,
-    ),
-    latestPublishedVersionId: assertOpaqueIdentifier(
-      record.latestPublishedVersionId,
-      `${context}.latestPublishedVersionId`,
-    ),
-    publishedAt: assertCanonicalUtcTimestamp(record.publishedAt, `${context}.publishedAt`),
-  };
-}
-
-function parsePackageVersion(value: unknown, index: number): PublicCatalogPackageVersion {
-  const context = `packageVersions[${index}]`;
-  const record = assertRecord(value, context);
-
-  return {
-    packageVersionId: assertOpaqueIdentifier(
-      record.packageVersionId,
-      `${context}.packageVersionId`,
-    ),
-    packageId: assertOpaqueIdentifier(record.packageId, `${context}.packageId`),
-    versionNumber: assertPositiveInteger(record.versionNumber, `${context}.versionNumber`),
-    title: assertNonEmptyString(record.title, `${context}.title`),
-    summary: assertString(record.summary, `${context}.summary`),
-    description: assertMarkdown(record.description, `${context}.description`),
+    coverMediaAssetId: record.coverMediaAssetId === null
+      ? null
+      : assertUuid(record.coverMediaAssetId, `${context}.coverMediaAssetId`),
     cardCount: assertNonNegativeInteger(record.cardCount, `${context}.cardCount`),
+    updatedAt: assertCanonicalUtcTimestamp(record.updatedAt, `${context}.updatedAt`),
     publishedAt: assertCanonicalUtcTimestamp(record.publishedAt, `${context}.publishedAt`),
     installUrl: assertHttpsUrl(record.installUrl, `${context}.installUrl`),
   };
@@ -322,21 +282,20 @@ function parseCard(value: unknown, index: number): PublicCatalogCard {
   const record = assertRecord(value, context);
 
   return {
-    packageCardId: assertNonEmptyString(record.packageCardId, `${context}.packageCardId`),
-    packageVersionId: assertOpaqueIdentifier(
+    packageCardId: assertUuid(record.packageCardId, `${context}.packageCardId`),
+    packageVersionId: assertUuid(
       record.packageVersionId,
       `${context}.packageVersionId`,
     ),
-    ordinal: assertNonNegativeInteger(record.ordinal, `${context}.ordinal`),
+    ordinal: assertPositiveInteger(record.ordinal, `${context}.ordinal`),
     frontText: assertMarkdown(record.frontText, `${context}.frontText`),
     backText: assertMarkdown(record.backText, `${context}.backText`),
     cardType: assertNonEmptyString(record.cardType, `${context}.cardType`),
-    metadata: parseJsonObject(record.metadata, `${context}.metadata`),
     tags: parseUniqueStringArray(record.tags, `${context}.tags`, assertNonEmptyString),
-    mediaAssetKeys: parseUniqueStringArray(
-      record.mediaAssetKeys,
-      `${context}.mediaAssetKeys`,
-      assertPackageMediaKey,
+    mediaAssetIds: parseUniqueStringArray(
+      record.mediaAssetIds,
+      `${context}.mediaAssetIds`,
+      assertUuid,
     ),
   };
 }
@@ -346,12 +305,11 @@ function parseMediaAsset(value: unknown, index: number): PublicCatalogMediaAsset
   const record = assertRecord(value, context);
 
   return {
-    packageMediaAssetId: assertNonEmptyString(
+    packageMediaAssetId: assertUuid(
       record.packageMediaAssetId,
       `${context}.packageMediaAssetId`,
     ),
-    packageId: assertOpaqueIdentifier(record.packageId, `${context}.packageId`),
-    packageVersionId: assertOpaqueIdentifier(
+    packageVersionId: assertUuid(
       record.packageVersionId,
       `${context}.packageVersionId`,
     ),
@@ -359,13 +317,12 @@ function parseMediaAsset(value: unknown, index: number): PublicCatalogMediaAsset
       record.packageMediaKey,
       `${context}.packageMediaKey`,
     ),
-    altText: assertString(record.altText, `${context}.altText`),
+    altText: assertNullableString(record.altText, `${context}.altText`),
     credit: assertNullableString(record.credit, `${context}.credit`),
-    license: assertNonEmptyString(record.license, `${context}.license`),
-    downloadUrlPath: assertRootRelativePath(
-      record.downloadUrlPath,
-      `${context}.downloadUrlPath`,
-    ),
+    license: assertNullableString(record.license, `${context}.license`),
+    mimeType: assertNonEmptyString(record.mimeType, `${context}.mimeType`),
+    sizeBytes: assertNonNegativeInteger(record.sizeBytes, `${context}.sizeBytes`),
+    downloadUrl: assertHttpsUrl(record.downloadUrl, `${context}.downloadUrl`),
   };
 }
 
@@ -374,7 +331,7 @@ function parseCollection(value: unknown, index: number): PublicCatalogCollection
   const record = assertRecord(value, context);
 
   return {
-    collectionId: assertNonEmptyString(record.collectionId, `${context}.collectionId`),
+    collectionId: assertUuid(record.collectionId, `${context}.collectionId`),
     slug: assertSlug(record.slug, `${context}.slug`),
     title: assertNonEmptyString(record.title, `${context}.title`),
     summary: assertString(record.summary, `${context}.summary`),
@@ -389,7 +346,11 @@ function parseCollection(value: unknown, index: number): PublicCatalogCollection
       `${context}.topicTags`,
       assertFacetTag,
     ),
-    coverPackageId: assertOpaqueIdentifier(record.coverPackageId, `${context}.coverPackageId`),
+    coverPackageId: record.coverPackageId === null
+      ? null
+      : assertUuid(record.coverPackageId, `${context}.coverPackageId`),
+    status: assertPublishedStatus(record.status, `${context}.status`),
+    updatedAt: assertCanonicalUtcTimestamp(record.updatedAt, `${context}.updatedAt`),
     publishedAt: assertCanonicalUtcTimestamp(record.publishedAt, `${context}.publishedAt`),
   };
 }
@@ -399,9 +360,9 @@ function parseCollectionPackage(value: unknown, index: number): PublicCatalogCol
   const record = assertRecord(value, context);
 
   return {
-    collectionId: assertNonEmptyString(record.collectionId, `${context}.collectionId`),
-    packageId: assertOpaqueIdentifier(record.packageId, `${context}.packageId`),
-    ordinal: assertNonNegativeInteger(record.ordinal, `${context}.ordinal`),
+    collectionId: assertUuid(record.collectionId, `${context}.collectionId`),
+    packageId: assertUuid(record.packageId, `${context}.packageId`),
+    ordinal: assertPositiveInteger(record.ordinal, `${context}.ordinal`),
   };
 }
 
@@ -468,19 +429,24 @@ function assertUniqueOrdinals<T>(
 
 function assertReferentialIntegrity(dump: PublicCatalogDump): void {
   const authorIds = new Set(dump.authors.map((author) => author.authorId));
-  const packagesById = new Map(dump.packages.map((catalogPackage) => [catalogPackage.packageId, catalogPackage]));
+  const packagesById = new Map(
+    dump.packages.map((catalogPackage) => [catalogPackage.packageId, catalogPackage]),
+  );
   const versionsById = new Map(
     dump.packageVersions.map((version) => [version.packageVersionId, version]),
+  );
+  const versionsByPackageId = groupBy(
+    dump.packageVersions,
+    (version) => version.packageId,
+  );
+  const mediaAssetsById = new Map(
+    dump.mediaAssets.map((mediaAsset) => [mediaAsset.packageMediaAssetId, mediaAsset]),
   );
   const collectionsById = new Map(
     dump.collections.map((collection) => [collection.collectionId, collection]),
   );
   const cardsByVersionId = groupBy(dump.cards, (card) => card.packageVersionId);
   const mediaByVersionAndKey = new Map<string, PublicCatalogMediaAsset>();
-  const collectionPackagesByCollectionId = groupBy(
-    dump.collectionPackages,
-    (membership) => membership.collectionId,
-  );
 
   dump.packages.forEach((catalogPackage) => {
     if (authorIds.has(catalogPackage.authorId) === false) {
@@ -489,11 +455,19 @@ function assertReferentialIntegrity(dump: PublicCatalogDump): void {
       );
     }
 
-    const latestVersion = versionsById.get(catalogPackage.latestPublishedVersionId);
+    const packageVersions = versionsByPackageId.get(catalogPackage.packageId) ?? [];
+
+    if (catalogPackage.versionCount !== packageVersions.length) {
+      throw new Error(
+        `Public catalog package ${catalogPackage.packageId} versionCount does not match its packageVersions. versionCount=${catalogPackage.versionCount}, packageVersions=${packageVersions.length}.`,
+      );
+    }
+
+    const latestVersion = versionsById.get(catalogPackage.latestPackageVersionId);
 
     if (latestVersion === undefined) {
       throw new Error(
-        `Public catalog package ${catalogPackage.packageId} references missing latest published version ${catalogPackage.latestPublishedVersionId}.`,
+        `Public catalog package ${catalogPackage.packageId} references missing latest package version ${catalogPackage.latestPackageVersionId}.`,
       );
     }
 
@@ -503,6 +477,15 @@ function assertReferentialIntegrity(dump: PublicCatalogDump): void {
       );
     }
 
+    const highestVersionNumber = Math.max(
+      ...packageVersions.map((version) => version.versionNumber),
+    );
+
+    if (latestVersion.versionNumber !== highestVersionNumber) {
+      throw new Error(
+        `Public catalog package ${catalogPackage.packageId} latest version ${latestVersion.packageVersionId} is not the highest emitted version. latestVersionNumber=${latestVersion.versionNumber}, highestVersionNumber=${highestVersionNumber}.`,
+      );
+    }
   });
 
   dump.packageVersions.forEach((version) => {
@@ -530,24 +513,11 @@ function assertReferentialIntegrity(dump: PublicCatalogDump): void {
   });
 
   dump.mediaAssets.forEach((mediaAsset) => {
-    const catalogPackage = packagesById.get(mediaAsset.packageId);
     const version = versionsById.get(mediaAsset.packageVersionId);
-
-    if (catalogPackage === undefined) {
-      throw new Error(
-        `Public catalog media asset ${mediaAsset.packageMediaAssetId} references missing package ${mediaAsset.packageId}.`,
-      );
-    }
 
     if (version === undefined) {
       throw new Error(
         `Public catalog media asset ${mediaAsset.packageMediaAssetId} references missing package version ${mediaAsset.packageVersionId}.`,
-      );
-    }
-
-    if (version.packageId !== catalogPackage.packageId) {
-      throw new Error(
-        `Public catalog media asset ${mediaAsset.packageMediaAssetId} references package ${catalogPackage.packageId} and version ${version.packageVersionId} owned by package ${version.packageId}.`,
       );
     }
 
@@ -563,27 +533,39 @@ function assertReferentialIntegrity(dump: PublicCatalogDump): void {
   });
 
   dump.cards.forEach((card) => {
-    card.mediaAssetKeys.forEach((mediaAssetKey) => {
-      const mediaKey = `${card.packageVersionId}\u0000${mediaAssetKey}`;
+    card.mediaAssetIds.forEach((mediaAssetId) => {
+      const mediaAsset = mediaAssetsById.get(mediaAssetId);
 
-      if (mediaByVersionAndKey.has(mediaKey) === false) {
+      if (mediaAsset === undefined) {
         throw new Error(
-          `Public catalog card ${card.packageCardId} references missing media asset key ${mediaAssetKey} for version ${card.packageVersionId}.`,
+          `Public catalog card ${card.packageCardId} references missing media asset ${mediaAssetId}.`,
+        );
+      }
+
+      if (mediaAsset.packageVersionId !== card.packageVersionId) {
+        throw new Error(
+          `Public catalog card ${card.packageCardId} references media asset ${mediaAssetId} owned by version ${mediaAsset.packageVersionId}, not card version ${card.packageVersionId}.`,
         );
       }
     });
   });
 
-  dump.packages.forEach((catalogPackage) => {
-    if (catalogPackage.coverPackageMediaKey === null) {
+  dump.packageVersions.forEach((version) => {
+    if (version.coverMediaAssetId === null) {
       return;
     }
 
-    const mediaKey = `${catalogPackage.latestPublishedVersionId}\u0000${catalogPackage.coverPackageMediaKey}`;
+    const mediaAsset = mediaAssetsById.get(version.coverMediaAssetId);
 
-    if (mediaByVersionAndKey.has(mediaKey) === false) {
+    if (mediaAsset === undefined) {
       throw new Error(
-        `Public catalog package ${catalogPackage.packageId} references missing cover media key ${catalogPackage.coverPackageMediaKey} for latest version ${catalogPackage.latestPublishedVersionId}.`,
+        `Public catalog package version ${version.packageVersionId} references missing cover media asset ${version.coverMediaAssetId}.`,
+      );
+    }
+
+    if (mediaAsset.packageVersionId !== version.packageVersionId) {
+      throw new Error(
+        `Public catalog package version ${version.packageVersionId} references cover media asset ${version.coverMediaAssetId} owned by version ${mediaAsset.packageVersionId}.`,
       );
     }
   });
@@ -603,19 +585,16 @@ function assertReferentialIntegrity(dump: PublicCatalogDump): void {
   });
 
   dump.collections.forEach((collection) => {
+    if (collection.coverPackageId === null) {
+      return;
+    }
+
     if (packagesById.has(collection.coverPackageId) === false) {
       throw new Error(
         `Public catalog collection ${collection.collectionId} references missing cover package ${collection.coverPackageId}.`,
       );
     }
 
-    const memberships = collectionPackagesByCollectionId.get(collection.collectionId) ?? [];
-
-    if (memberships.some((membership) => membership.packageId === collection.coverPackageId) === false) {
-      throw new Error(
-        `Public catalog collection ${collection.collectionId} cover package ${collection.coverPackageId} must be a collection member.`,
-      );
-    }
   });
 }
 

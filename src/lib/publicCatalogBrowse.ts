@@ -107,11 +107,6 @@ export function createPublicCatalogBrowseData(
         packageMetadata: {
           packageId: packageView.packageMetadata.packageId,
           slug: packageView.packageMetadata.slug,
-          title: packageView.packageMetadata.title,
-          summary: packageView.packageMetadata.summary,
-          languageTags: packageView.packageMetadata.languageTags,
-          topicTags: packageView.packageMetadata.topicTags,
-          license: packageView.packageMetadata.license,
           publishedAt: packageView.packageMetadata.publishedAt,
         },
         author: {
@@ -119,6 +114,11 @@ export function createPublicCatalogBrowseData(
           displayName: packageView.author.displayName,
         },
         latestVersion: {
+          title: packageView.latestVersion.title,
+          summary: packageView.latestVersion.summary,
+          languageTags: packageView.latestVersion.languageTags,
+          topicTags: packageView.latestVersion.topicTags,
+          license: packageView.latestVersion.license,
           cardCount: packageView.latestVersion.cardCount,
         },
         coverMediaAsset: packageView.coverMediaAsset === null
@@ -141,15 +141,15 @@ export function createPublicCatalogBrowseData(
   return {
     packages,
     languages: getUniqueSortedValues(
-      packages.flatMap(({ packageView }) => packageView.packageMetadata.languageTags),
+      packages.flatMap(({ packageView }) => packageView.latestVersion.languageTags),
     ),
     topics: getUniqueSortedValues(
-      packages.flatMap(({ packageView }) => packageView.packageMetadata.topicTags),
+      packages.flatMap(({ packageView }) => packageView.latestVersion.topicTags),
     ),
     authors,
     collections,
     licenses: getUniqueSortedValues(
-      packages.map(({ packageView }) => packageView.packageMetadata.license),
+      packages.map(({ packageView }) => packageView.latestVersion.license),
     ),
   };
 }
@@ -288,16 +288,16 @@ function matchesFilters(
   item: PublicCatalogBrowsePackage,
   state: PublicCatalogQueryState,
 ): boolean {
-  const { packageMetadata } = item.packageView;
+  const { latestVersion } = item.packageView;
 
   return (state.languages.length === 0
-      || state.languages.some((language) => packageMetadata.languageTags.includes(language)))
+      || state.languages.some((language) => latestVersion.languageTags.includes(language)))
     && (state.topics.length === 0
-      || state.topics.some((topic) => packageMetadata.topicTags.includes(topic)))
+      || state.topics.some((topic) => latestVersion.topicTags.includes(topic)))
     && (state.author === null || item.packageView.author.slug === state.author)
     && (state.collection === null
       || item.collections.some((collection) => collection.value === state.collection))
-    && (state.license === null || packageMetadata.license === state.license);
+    && (state.license === null || latestVersion.license === state.license);
 }
 
 function scoreSearchField(value: string, term: string, weight: number): number {
@@ -323,21 +323,21 @@ function getSearchScore(item: PublicCatalogBrowsePackage, query: string): number
     return 0;
   }
 
-  const { packageMetadata } = item.packageView;
-  const title = normalizePublicCatalogSearchText(packageMetadata.title);
+  const { latestVersion } = item.packageView;
+  const title = normalizePublicCatalogSearchText(latestVersion.title);
   const fields = [
     { value: title, weight: 100 },
-    { value: normalizePublicCatalogSearchText(packageMetadata.summary), weight: 35 },
+    { value: normalizePublicCatalogSearchText(latestVersion.summary), weight: 35 },
     { value: normalizePublicCatalogSearchText(item.packageView.author.displayName), weight: 45 },
-    ...packageMetadata.languageTags.map((value) => ({
+    ...latestVersion.languageTags.map((value) => ({
       value: normalizePublicCatalogSearchText(value),
       weight: 25,
     })),
-    ...packageMetadata.topicTags.map((value) => ({
+    ...latestVersion.topicTags.map((value) => ({
       value: normalizePublicCatalogSearchText(value),
       weight: 30,
     })),
-    { value: normalizePublicCatalogSearchText(packageMetadata.license), weight: 20 },
+    { value: normalizePublicCatalogSearchText(latestVersion.license), weight: 20 },
     ...item.collections.flatMap((collection) => [
       { value: normalizePublicCatalogSearchText(collection.label), weight: 30 },
       { value: normalizePublicCatalogSearchText(collection.value), weight: 20 },
@@ -360,8 +360,8 @@ function compareByTitle(
   secondItem: PublicCatalogBrowsePackage,
 ): number {
   return compareStrings(
-    normalizePublicCatalogSearchText(firstItem.packageView.packageMetadata.title),
-    normalizePublicCatalogSearchText(secondItem.packageView.packageMetadata.title),
+    normalizePublicCatalogSearchText(firstItem.packageView.latestVersion.title),
+    normalizePublicCatalogSearchText(secondItem.packageView.latestVersion.title),
   ) || compareStrings(
     firstItem.packageView.packageMetadata.slug,
     secondItem.packageView.packageMetadata.slug,
