@@ -77,9 +77,9 @@ function getNewestPublishedAt(
 function getPackageLastModified(
   packageView: PublicCatalogPackageView,
 ): string {
-  return packageView.latestVersion.publishedAt
+  return packageView.latestVersion.updatedAt
     > packageView.packageMetadata.publishedAt
-    ? packageView.latestVersion.publishedAt
+    ? packageView.latestVersion.updatedAt
     : packageView.packageMetadata.publishedAt;
 }
 
@@ -102,9 +102,9 @@ function createCatalogRoutes(
 ): ReadonlyArray<CatalogSitemapRoute> {
   const packagesLastModified = getNewestPackageLastModified(catalog.packages);
   const packagesPublishedAt = getNewestPackagePublishedAt(catalog.packages);
-  const collectionsPublishedAt = getNewestPublishedAt(
+  const collectionsUpdatedAt = getNewestPublishedAt(
     [...catalog.collectionBySlug.values()].map(
-      (collection) => collection.publishedAt,
+      (collection) => collection.updatedAt,
     ),
   );
   const rootAndIndexRoutes: ReadonlyArray<CatalogSitemapRoute> = [
@@ -119,7 +119,7 @@ function createCatalogRoutes(
       routePathname: PUBLIC_CATALOG_AUTHORS_ROUTE_PATHNAME,
     },
     {
-      lastModified: collectionsPublishedAt,
+      lastModified: collectionsUpdatedAt,
       priority: 0.6,
       routePathname: PUBLIC_CATALOG_COLLECTIONS_ROUTE_PATHNAME,
     },
@@ -141,7 +141,7 @@ function createCatalogRoutes(
   const collectionRoutes = [...catalog.collectionBySlug.values()].map(
     (collection) => ({
       lastModified: getNewestPublishedAt([
-        collection.publishedAt,
+        collection.updatedAt,
         ...(catalog.packagesByCollectionId.get(collection.collectionId) ?? [])
           .map(getPackageLastModified),
       ]),
@@ -157,7 +157,7 @@ function createCatalogRoutes(
         ),
         ...[...catalog.collectionBySlug.values()]
           .filter((collection) => collection.languageTags.includes(languageTag))
-          .map((collection) => collection.publishedAt),
+          .map((collection) => collection.updatedAt),
       ],
     ),
     priority: 0.4,
@@ -171,7 +171,7 @@ function createCatalogRoutes(
         ),
         ...[...catalog.collectionBySlug.values()]
           .filter((collection) => collection.topicTags.includes(topicTag))
-          .map((collection) => collection.publishedAt),
+          .map((collection) => collection.updatedAt),
       ],
     ),
     priority: 0.4,

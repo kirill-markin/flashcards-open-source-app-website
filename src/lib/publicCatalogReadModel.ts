@@ -22,15 +22,18 @@ export type PublicCatalogPackageCardView = Readonly<{
     PublicCatalogPackage,
     | "packageId"
     | "slug"
+    | "publishedAt"
+  >;
+  author: Pick<PublicCatalogAuthor, "slug" | "displayName">;
+  latestVersion: Pick<
+    PublicCatalogPackageVersion,
     | "title"
     | "summary"
     | "languageTags"
     | "topicTags"
     | "license"
-    | "publishedAt"
+    | "cardCount"
   >;
-  author: Pick<PublicCatalogAuthor, "slug" | "displayName">;
-  latestVersion: Pick<PublicCatalogPackageVersion, "cardCount">;
   coverMediaAsset: Pick<PublicCatalogMediaAsset, "altText"> | null;
 }>;
 
@@ -116,6 +119,9 @@ export function createPublicCatalogReadModel(dump: PublicCatalogDump): PublicCat
   const mediaByVersionId = groupBy(dump.mediaAssets, (mediaAsset) => [
     mediaAsset.packageVersionId,
   ]);
+  const mediaById = new Map(
+    dump.mediaAssets.map((mediaAsset) => [mediaAsset.packageMediaAssetId, mediaAsset]),
+  );
   const packageViewsById = new Map<string, PublicCatalogPackageView>();
   const packages = dump.packages.map((packageMetadata): PublicCatalogPackageView => {
     const author = getRequiredValue(
@@ -125,22 +131,20 @@ export function createPublicCatalogReadModel(dump: PublicCatalogDump): PublicCat
     );
     const latestVersion = getRequiredValue(
       versionsById,
-      packageMetadata.latestPublishedVersionId,
-      `latest version ${packageMetadata.latestPublishedVersionId} for package ${packageMetadata.packageId}`,
+      packageMetadata.latestPackageVersionId,
+      `latest version ${packageMetadata.latestPackageVersionId} for package ${packageMetadata.packageId}`,
     );
     const cards = [...(cardsByVersionId.get(latestVersion.packageVersionId) ?? [])].sort(
       (firstCard, secondCard) => firstCard.ordinal - secondCard.ordinal,
     );
     const mediaAssets = mediaByVersionId.get(latestVersion.packageVersionId) ?? [];
-    const coverMediaAsset = packageMetadata.coverPackageMediaKey === null
+    const coverMediaAsset = latestVersion.coverMediaAssetId === null
       ? null
-      : mediaAssets.find(
-        (mediaAsset) => mediaAsset.packageMediaKey === packageMetadata.coverPackageMediaKey,
-      );
+      : mediaById.get(latestVersion.coverMediaAssetId);
 
     if (coverMediaAsset === undefined) {
       throw new Error(
-        `Cannot create public catalog read model: missing cover media ${packageMetadata.coverPackageMediaKey} for package ${packageMetadata.packageId}.`,
+        `Cannot create public catalog read model: missing cover media ${latestVersion.coverMediaAssetId} for package ${packageMetadata.packageId}.`,
       );
     }
 
@@ -207,17 +211,17 @@ export function createPublicCatalogReadModel(dump: PublicCatalogDump): PublicCat
     packagesByCollectionId,
     collectionsByPackageId,
     packagesByLanguageTag: groupBy(packages, (packageView) =>
-      packageView.packageMetadata.languageTags,
+      packageView.latestVersion.languageTags,
     ),
     packagesByTopicTag: groupBy(packages, (packageView) =>
-      packageView.packageMetadata.topicTags,
+      packageView.latestVersion.topicTags,
     ),
     languageTags: [...new Set([
-      ...packages.flatMap((packageView) => packageView.packageMetadata.languageTags),
+      ...packages.flatMap((packageView) => packageView.latestVersion.languageTags),
       ...dump.collections.flatMap((collection) => collection.languageTags),
     ])].sort(),
     topicTags: [...new Set([
-      ...packages.flatMap((packageView) => packageView.packageMetadata.topicTags),
+      ...packages.flatMap((packageView) => packageView.latestVersion.topicTags),
       ...dump.collections.flatMap((collection) => collection.topicTags),
     ])].sort(),
   };
