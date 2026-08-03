@@ -1,218 +1,124 @@
 ---
-title: "La mejor app de flashcards sin conexión en 2026: estudia sin Internet con FSRS y sincronización"
-description: "¿Buscas una app de flashcards que funcione de verdad sin conexión y luego sincronice sin problemas? En 2026, la opción más práctica es una app offline-first con almacenamiento local, planificación de repasos con FSRS y sincronización, no una herramienta basada en el navegador que se rompe en cuanto pierdes conexión."
+title: "La mejor app de flashcards sin conexión en 2026: ¿Anki, Flashcards, Quizlet, RemNote o Mochi?"
+description: "Compara cinco apps de flashcards sin conexión: acceso a tarjetas, edición, progreso, contenido multimedia y sincronización al recuperar internet."
 date: "2026-03-16"
+updated: "2026-08-03"
+image: "/blog/best-offline-flashcards-app.png"
 keywords:
-  - "app de flashcards sin conexión"
   - "mejor app de flashcards sin conexión"
+  - "app de flashcards sin conexión"
+  - "flashcards sin internet"
   - "app de flashcards sin internet"
-  - "estudiar flashcards offline"
+  - "estudiar flashcards sin conexión"
   - "app de repetición espaciada sin conexión"
-  - "flashcards FSRS sin conexión"
-  - "alternativa offline a Anki"
-  - "app de sincronización de flashcards"
 ---
 
-Me gusta poner a prueba las apps de flashcards en el sitio menos vistoso posible: un avión con mal Wi-Fi, poca batería y ninguna paciencia para esperar pantallas de carga. Ahí es donde muchas herramientas de estudio "modernas" dejan ver que, en el fondo, no son más que páginas web disfrazadas.
+El modo avión tarda unos treinta segundos en dejar en evidencia una promesa de «uso sin conexión». Quizá puedas abrir las tarjetas, pero no editarlas. Los repasos parecen guardarse y luego desaparecen al recuperar la conexión. Las imágenes se convierten en recuadros vacíos. O recargas el navegador y la aplicación entera deja de funcionar.
 
-Ese suele ser el momento en que la gente empieza a buscar la **mejor app de flashcards sin conexión**.
+Para encontrar la mejor app de flashcards sin conexión, planteé una pregunta más exigente que «¿funciona sin internet?». Comprobé si Anki, Flashcards, Quizlet, RemNote y Mochi permiten acceder a las tarjetas, crearlas o editarlas, guardar el progreso de estudio, usar contenido multimedia y sincronizar después los cambios. Son cinco promesas distintas: una aplicación puede cumplir algunas, pero no necesariamente las cinco.
 
-No porque estudiar offline sea una rareza. El trabajo de memoria sucede en lugares de lo más corrientes: vuelos, trenes, salas de espera, zonas con mala cobertura y trayectos a medias en los que quieres ver la siguiente tarjeta ya, no cuando por fin vuelva la conexión.
+> **Aviso de transparencia:** Soy Kirill Markin y desarrollo [Flashcards](https://flashcards-open-source-app.com/), uno de los productos de esta comparación. Eso no lo convierte automáticamente en el ganador. Es más reciente que Anki, necesita conexión para el primer inicio de sesión y la carga inicial del espacio de trabajo, y el contenido multimedia disponible depende de lo que cada dispositivo haya guardado en caché.
 
-Si la app vacila cada vez que vacila la red, el hábito de estudio se desgasta más de lo necesario.
+**Datos verificados:** 3 de agosto de 2026.
 
-## La mayoría de las apps de flashcards solo son offline hasta que de verdad las necesitas
+![Comparación de las mejores apps de flashcards sin conexión por acceso a tarjetas, edición, progreso de estudio, contenido multimedia y sincronización posterior](/blog/best-offline-flashcards-app.png)
 
-Muchos productos aseguran ofrecer algún tipo de soporte sin conexión.
+## Qué significa «app de flashcards sin conexión» en esta comparación
 
-Normalmente eso significa una de estas dos cosas:
+Hay tres formas habituales de usar una aplicación sin conexión. Conviene distinguirlas antes de agruparlas bajo una misma etiqueta.
 
-- el navegador guarda algo de caché y, a veces, todavía te deja abrir la última página
-- la app móvil te enseña tarjetas antiguas, pero empieza a comportarse de forma rara en cuanto editas algo
+- **Una colección local completa:** la aplicación instalada conserva en el dispositivo los datos que necesita para funcionar. Si pierdes la conexión, la colección sigue ahí.
+- **Contenido descargado o guardado en caché:** solo puedes consultar el material seleccionado, reciente o abierto con anterioridad. Puede bastar para un viaje, pero no garantiza el acceso a toda la biblioteca.
+- **Una sesión del navegador que continúa abierta:** la pestaña funciona hasta que la recargas o la cierras. Resulta útil durante un corte breve, pero es un plan arriesgado para un viaje.
 
-Eso no es lo mismo que una **app de flashcards sin Internet** de verdad.
+Tener acceso sin conexión en un dispositivo tampoco garantiza que todo el contenido multimedia esté disponible. El texto de una tarjeta puede estar guardado en el dispositivo mientras su imagen, audio o PDF sigue en un servidor. Y decir que algo se «guarda sin conexión» no basta si la aplicación no explica qué pasa con el historial de repasos y las ediciones al recuperar internet.
 
-La versión útil es bastante más exigente. Deberías poder abrir la app, repasar las tarjetas pendientes, crear o editar tarjetas y seguir adelante como si la red no importara en ese momento.
+La mejor app de flashcards sin conexión para ti dependerá de cuáles de esos límites puedas aceptar.
 
-Y sincronizar más tarde.
+## Cinco pruebas para comparar apps de flashcards sin conexión
 
-Esa última parte parece obvia, pero aquí es donde muchos productos se vuelven frágiles. Funcionan bien mientras estás online, y luego el modo sin conexión se comporta como una excepción temporal que el producto nunca terminó de tomarse en serio.
+| Producto y versión | 1. Acceso a las tarjetas | 2. Creación y edición | 3. Progreso de estudio | 4. Contenido multimedia | 5. Sincronización posterior |
+| --- | --- | --- | --- | --- | --- |
+| **Clientes nativos de Anki** (escritorio, AnkiMobile y AnkiDroid); **AnkiWeb va por separado** | Los clientes nativos conservan una colección local que puedes abrir y repasar sin conexión. AnkiWeb es un servicio web, no el cliente sin conexión. | Permiten crear y editar notas y tarjetas sin conexión. | Los repasos se guardan en la colección local. | Los archivos ya importados, añadidos o sincronizados con el dispositivo son locales. Anki copia los nuevos en su carpeta multimedia local. | Sincronizar con AnkiWeb es opcional. Las ediciones habituales y los repasos se combinan al sincronizar más tarde; los archivos multimedia se sincronizan por separado. |
+| **Flashcards** para web, iOS y Android | Tras iniciar sesión con conexión y completar la carga inicial, las tarjetas y los mazos quedan almacenados en el dispositivo: en IndexedDB para web y en almacenamiento basado en SQLite para los clientes nativos. | Los cambios en tarjetas y mazos se guardan primero en el dispositivo y pasan a una bandeja de salida. La IA y el chat necesitan conexión. | Los repasos se guardan en un historial local al que solo se añaden entradas y quedan en cola para sincronizarse. | Los archivos nuevos se guardan en caché y quedan pendientes de subida. Los archivos remotos solo funcionan sin conexión si ya se han descargado o guardado en caché. | Al recuperar la conexión, la bandeja de salida envía los cambios y el cliente descarga las actualizaciones remotas. El primer inicio de sesión y la carga inicial no se pueden hacer sin conexión. |
+| **Quizlet para iOS y Android**; **la versión web va por separado** | Las apps móviles guardan automáticamente los ocho conjuntos usados más recientemente y permiten descargar otros. No garantizan el acceso a toda la biblioteca. La promesa de uso sin conexión de Quizlet no incluye la web. | La app móvil permite crear y editar conjuntos sin conexión; publica los cambios cuando vuelves a conectarte. | El progreso se guarda en el dispositivo y se sincroniza al recuperar la conexión y actualizar la app. | La ayuda de Quizlet no especifica qué tipos de imagen o audio siguen disponibles ni cuáles se pueden añadir sin conexión. Prueba los conjuntos con mucho contenido multimedia antes de depender de ellos. | Al reconectarte, se sincronizan el progreso de los conjuntos descargados y los conjuntos creados o editados sin conexión. Solo puedes estudiar con los modos Flashcards y Match. |
+| **RemNote para escritorio, móvil y web** | Las apps instaladas de escritorio y móvil permiten consultar notas y repasar tarjetas sin conexión una vez descargadas y tras iniciar sesión. En la web solo funciona una pestaña que ya estuviera abierta; si la recargas o la cierras, perderás el acceso hasta recuperar la conexión. | Puedes editar notas y tarjetas en las apps instaladas y en esa sesión web abierta. La IA y los plugins no funcionan sin conexión. | Los cambios y el progreso de los repasos se guardan y se sincronizan automáticamente más tarde. | La versión de escritorio guarda una copia local completa de las imágenes y los PDF existentes. Las versiones móvil y web solo conservan algunas imágenes recientes; las tarjetas que necesitan imágenes ausentes se aplazan. La guía oficial no documenta la creación de contenido multimedia sin conexión en ninguna versión. | Los cambios y el progreso se combinan al recuperar la conexión, incluso si se hicieron en varios dispositivos mientras estaban desconectados. |
+| **Apps instaladas de Mochi** (macOS, Windows, Linux, iOS y Android); **la web va por separado** | Las apps instaladas funcionan por completo sin conexión y sin una cuenta. La versión web usa el almacenamiento sin conexión del navegador, que este puede borrar. | Puedes añadir y editar tarjetas localmente; las apps móviles permiten añadirlas y repasarlas. | El historial de repasos permanece en el dispositivo y funciona sin una cuenta. | Los archivos adjuntos —imágenes, audios y vídeos— se copian al almacenamiento local. El contenido añadido en el dispositivo no depende de una conexión. | La sincronización entre dispositivos y la copia de seguridad en la nube requieren Pro. Sin Pro, cada app local funciona, pero no se sincroniza con los demás dispositivos. |
 
-## Una pestaña del navegador no es un sistema de estudio offline-first
+La tabla es estricta a propósito. Que el texto esté disponible sin conexión no implica que el audio también lo esté. Un botón de descarga en el móvil no significa que toda la biblioteca viva en el dispositivo. Y el almacenamiento del navegador no ofrece las mismas garantías que un cliente instalado con su propia base de datos local.
 
-No tengo nada contra las aplicaciones web. Las uso constantemente.
+## Anki: la opción madura más segura para trabajar sin conexión
 
-Pero para **estudiar flashcards sin conexión**, una pestaña del navegador suele ser el punto de partida equivocado.
+Los clientes instalados de Anki son la opción más predecible para conservar una colección sin conexión a largo plazo. Como la colección vive en el dispositivo, puedes abrir tarjetas, añadir o editar notas y completar repasos sin contactar con AnkiWeb. [AnkiDroid documenta este mismo modelo de colección local en Android](https://docs.ankidroid.org/manual.html).
 
-La sesión caduca. La pestaña se recarga. La red va y viene. Parte del estado local sobrevive y parte no. Tienes la fiabilidad justa para pensar que puede funcionar... hasta el momento exacto en que querías una sesión de repaso tranquila.
+AnkiWeb merece una aclaración porque muchas personas dicen «Anki» para referirse a ambos productos. AnkiWeb es la versión web alojada y el servicio de sincronización. No es lo que permite trabajar sin conexión en los clientes instalados de escritorio o móvil, y usar la sincronización es opcional.
 
-Por eso creo que la mejor arquitectura es local primero y sincronización después.
+Cuando recuperas internet, [Anki sincroniza los cambios habituales de la colección y puede combinar las ediciones y los repasos normales](https://docs.ankiweb.net/syncing.html). Los archivos multimedia siguen un proceso de sincronización propio. La [documentación de Anki sobre contenido multimedia](https://docs.ankiweb.net/media.html) explica que las imágenes y los sonidos se copian en una carpeta local al adjuntarlos. Por eso, los archivos que ya han llegado al dispositivo siguen disponibles sin conexión.
 
-Primero, escribe en local.
+Ese modelo local, maduro y bien asentado convierte a Anki en la recomendación general más segura de la lista. A cambio, su familia de productos está repartida entre la versión de escritorio, la app oficial para iOS, AnkiDroid y AnkiWeb. No ofrece una única interfaz idéntica en todas partes.
 
-Mantén la cola de repaso en local.
+## Flashcards: guardar primero en el dispositivo, con archivos en caché
 
-Trata la red como un paso posterior, no como lo que se interpone entre tú y la siguiente tarjeta.
+La [arquitectura offline-first de Flashcards](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/docs/architecture.md#offline-first-sync) usa IndexedDB en el cliente web y almacenamiento basado en SQLite en los clientes nativos. Las tarjetas, los mazos, los repasos y las operaciones pendientes viven en el dispositivo. Cada edición o repaso se guarda allí primero y luego pasa a una bandeja de salida para sincronizarse más tarde.
 
-## La arquitectura útil es local primero y sincronización después
+Así, los clientes web, iOS y Android pueden seguir registrando ediciones y repasos después de la carga inicial, sin esperar una respuesta del servidor para cada acción. Al historial de repasos solo se le añaden entradas, de modo que la sincronización posterior conserva un registro de lo ocurrido sin conexión.
 
-La versión en la que confío es bastante simple:
+También hay límites. Un usuario nuevo necesita internet para iniciar sesión y completar la carga inicial del espacio de trabajo. La IA y el chat son servicios en línea. Los archivos multimedia se gestionan por separado de los datos de las tarjetas: los nuevos esperan en una caché local y una cola de subida, mientras que los que ya existen en remoto solo están disponibles sin conexión si ese dispositivo los ha descargado o guardado en caché.
 
-1. el cliente guarda las tarjetas en local
-2. las acciones de repaso se registran primero en local
-3. los cambios pendientes esperan en una bandeja de salida
-4. la sincronización envía y recupera cambios cuando vuelve la red
+Flashcards es una opción razonable si buscas el mismo sistema —guardar primero en el dispositivo y sincronizar desde una bandeja de salida— en sus clientes actuales, y puedes preparar los archivos remotos antes de viajar. También es un producto más reciente que Anki. Aunque yo lo desarrolle, no lo situaría por encima de Anki como recomendación general.
 
-Esa es la forma adecuada de una **app de repetición espaciada sin conexión**, porque respeta cómo se siente estudiar de verdad. Los repasos son rápidos. Crear tarjetas es rápido. La cola se siente estable. La red pasa a ser infraestructura de fondo, no parte de cada toque en pantalla.
+## Quizlet: descargas prácticas en el móvil, sin acceso garantizado a toda la biblioteca
 
-Lo curioso es que esto suena más técnico de lo que luego se siente en la práctica.
+El modo sin conexión de Quizlet es concreto y útil, aunque más limitado de lo que sugiere la etiqueta.
 
-Para quien estudia, simplemente da tranquilidad.
+Según la [guía oficial de Quizlet para estudiar sin conexión](https://help.quizlet.com/hc/en-us/articles/360030565412-Studying-offline-with-Quizlet-mobile-apps), puedes crear contenido y estudiar sin internet en las apps para iOS y Android, pero no en la versión web. Las apps guardan automáticamente los ocho conjuntos usados más recientemente y permiten descargar otros de forma manual. Sin conexión, los únicos modos de estudio documentados son Flashcards y Match.
 
-Abres la app. Las tarjetas están ahí. Estudias. Más tarde, todo se sincroniza.
+También puedes crear o editar conjuntos sin internet. Quizlet publica esos cambios al recuperar la conexión. El progreso de estudio permanece en el dispositivo y se sincroniza después de volver a conectarte y actualizar la aplicación.
 
-Eso es lo que la mayoría quería desde el principio.
+Es más preciso hablar de un modo móvil basado en conjuntos descargados expresamente que de una caché del navegador. Aun así, no hay garantía de que toda tu biblioteca esté disponible. La ayuda de Quizlet tampoco aclara si todos los tipos de imagen o audio funcionan sin conexión, ni si se puede crear cada tipo de contenido multimedia en ese estado. Si tus tarjetas dependen de audios de pronunciación o diagramas, prueba el conjunto exacto antes de quedarte sin internet.
 
-## La repetición espaciada se siente peor cuando el soporte offline es débil
+## RemNote: muy completo en escritorio, con límites multimedia en móvil y web
 
-Un soporte offline flojo no es solo un problema de infraestructura.
+Las apps instaladas de RemNote para escritorio y móvil permiten editar notas y repasar flashcards sin conexión después de instalarlas e iniciar sesión. Los cambios y el progreso se sincronizan cuando vuelve internet. Es una buena opción si tus tarjetas nacen directamente de un sistema de notas más amplio.
 
-Cambia la propia experiencia de aprendizaje.
+En cuanto al acceso al contenido multimedia, la app de escritorio ofrece una explicación especialmente clara; solo Anki y Mochi son más explícitos. Guarda en el ordenador una copia completa de las imágenes y los PDF de tu base de conocimiento. La [guía oficial de RemNote sobre el modo sin conexión](https://help.remnote.com/en/articles/6752029-offline-mode) indica que las versiones móvil y web no conservan una copia completa. La app móvil guarda en caché algunas imágenes recientes y aplaza las tarjetas cuyas imágenes no están disponibles. La guía explica cómo acceder al contenido existente, pero no aclara si se pueden añadir nuevos archivos multimedia sin conexión. Si necesitas ese flujo, pruébalo antes.
 
-Si tus repasos no se guardan, si la cola de pendientes cambia de forma inesperada al reconectar o si la app te hace dudar de si la última sesión contó, todo el hábito de repetición espaciada empieza a sentirse un poco falso.
+En el navegador, el funcionamiento es aún más limitado. Una pestaña de RemNote que ya esté abierta puede seguir funcionando sin conexión y conservar los cambios. Si la recargas o la cierras, no podrás volver a abrir la aplicación hasta que regrese internet. La IA y los plugins tampoco están disponibles sin conexión.
 
-Es un problema mayor de lo que parece.
+RemNote para escritorio es, por tanto, una buena opción para trabajar sin conexión con notas y flashcards, sobre todo en colecciones con imágenes y PDF. Esa conclusión no se extiende al acceso completo a los archivos multimedia desde el móvil.
 
-La repetición espaciada solo funciona bien cuando quien estudia confía en el ritmo. Haces el repaso ahora. El sistema recuerda lo que ha pasado. La cola de mañana refleja la realidad. Sin dramas.
+## Mochi: la opción más sólida para trabajar sin conexión y sin una cuenta
 
-Si el producto rompe esa confianza, aunque sea de vez en cuando, mantener el hábito se vuelve más difícil.
+Las apps instaladas de Mochi para macOS, Windows, Linux, iOS y Android se pueden usar [por completo sin conexión y sin una cuenta](https://mochi.cards/docs/getting-started/download-and-install/). Las tarjetas y el historial de repasos permanecen en el dispositivo; las apps móviles permiten tanto añadir tarjetas como repasarlas.
 
-Por eso, para mí, **flashcards FSRS sin conexión** no es una expresión técnica de nicho. Señala algo real: el planificador y el modelo offline tienen que encajar bien.
+La gestión de los archivos multimedia es sencilla. Mochi [guarda localmente las imágenes, los audios y los vídeos adjuntos](https://mochi.cards/docs/markdown/advanced-formatting/), incluidos los archivos que pegas o arrastras al editor. Es una opción atractiva si quieres una colección local autónoma sin configurar antes una cuenta.
 
-## Lo que de verdad necesita una app de flashcards sin conexión
+Hay dos advertencias. La primera es que la [sincronización entre dispositivos y la copia de seguridad en la nube son funciones Pro](https://mochi.cards/). Sin Pro, la app instalada continúa funcionando en el dispositivo, pero la colección no aparece automáticamente en otro. Las [herramientas de exportación de Mochi](https://mochi.cards/docs/import-and-export/exporting/) permiten trasladar los datos manualmente. La segunda es que la versión web depende del almacenamiento sin conexión del navegador, y Mochi advierte que el navegador puede borrarlo sin previo aviso.
 
-Si tuviera que definir la **mejor app de flashcards sin conexión**, primero buscaría unas cuantas cosas bastante poco glamurosas:
+Elige las apps instaladas si buscas un funcionamiento local fiable. La versión web plantea un riesgo de almacenamiento diferente.
 
-- almacenamiento local, no solo caché de página
-- acciones de repaso guardadas al instante
-- edición de tarjetas que funcione sin Internet
-- un modelo de sincronización que no duplique ni pierda trabajo
-- un planificador que se mantenga coherente entre clientes
-- un producto que siga teniendo sentido cuando vuelves a conectarte
+## ¿Cuál es la mejor app de flashcards sin conexión?
 
-No es el tipo de mensaje brillante que suele aparecer en marketing, pero marca la diferencia entre un simple "modo sin conexión" y una herramienta de estudio seria.
+Para la mayoría de quienes necesitan un sistema maduro y una colección local completa, **Anki es la recomendación general más segura**. Su flujo nativo sin conexión lleva más tiempo asentado, gestiona los archivos multimedia de forma local y no obliga a sincronizar para seguir estudiando.
 
-La diferencia se nota enseguida.
+Las demás opciones encajan mejor con necesidades concretas:
 
-Una app te pone nervioso cada vez que pierdes señal.
+- Elige **la app instalada de Mochi** si quieres trabajar por completo sin conexión, sin una cuenta, y no necesitas sincronización gratuita entre dispositivos.
+- Elige **RemNote para escritorio** si tus flashcards forman parte de un sistema de notas y necesitas disponer localmente de todas las imágenes y los PDF. En móvil y web, el acceso a los archivos multimedia sigue siendo parcial.
+- Elige **Quizlet para móvil** si puedes descargar con antelación los conjuntos necesarios y te basta con los modos Flashcards o Match para estudiar sin conexión.
+- Elige **Flashcards** si quieres guardar primero en el dispositivo y sincronizar después desde sus clientes web, iOS y Android. Tendrás que aceptar que la primera carga necesita conexión, que el producto es más reciente y que la disponibilidad de los archivos multimedia depende de la caché.
 
-La otra casi ni se inmuta.
+Si también te importan el acceso al código fuente o la facilidad de migración, consulta la comparación de las [mejores apps de flashcards de código abierto en 2026](/blog/best-open-source-flashcard-apps-2026/) y el análisis detallado de [Anki vs. Quizlet vs. Flashcards](/blog/anki-vs-quizlet-vs-open-source-flashcards-app/).
 
-## La sincronización es parte del producto, no un detalle de fondo
+## Haz esta prueba en modo avión antes de viajar
 
-A veces se habla de la sincronización como si fuera una nota al pie del backend.
+No te fíes de una insignia de «modo sin conexión» la noche antes de un vuelo. Prepara el dispositivo y la colección que realmente vayas a usar, y comprueba las cinco dimensiones.
 
-Yo creo que forma parte de la experiencia de uso.
-
-Si la cola de repaso del móvil y la de tu cuenta principal dejan de coincidir, eso no es un problema de infraestructura. Es el producto fallando en una de sus tareas básicas.
-
-La buena versión es simple desde el lado de quien estudia:
-
-- estudias offline en el dispositivo que tienes en la mano
-- vuelves a conectarte más tarde
-- mantienes las mismas tarjetas, el mismo historial de repaso y el mismo sistema en conjunto
-
-Así debería sentirse una **app de sincronización de flashcards** útil.
-
-No: "espera mientras comprobamos si lo que hiciste en el trayecto en tren sigue existiendo".
-
-## Dónde encaja Flashcards
-
-[Flashcards](https://flashcards-open-source-app.com/) resulta interesante aquí porque el producto ya está construido en torno a la forma que yo realmente quiero.
-
-La base actual incluye:
-
-- la aplicación web alojada
-- un cliente de iOS dentro del repositorio
-- SQLite local en iOS
-- rutas de sincronización push y pull en el backend
-- planificación con FSRS
-- código abierto y una opción de autohospedaje
-
-Eso importa porque el producto no está fingiendo que la parte offline se resolverá más adelante con lenguaje de marketing. El modelo offline-first ya forma parte de la arquitectura.
-
-La documentación actual lo deja claro:
-
-- la app de iOS escribe primero en local
-- los cambios se ponen en cola en una bandeja de salida
-- la sincronización envía las operaciones pendientes
-- después, la sincronización trae los cambios remotos
-
-Si quieres la versión técnica, la documentación de arquitectura está aquí:
-
-- [Arquitectura](https://flashcards-open-source-app.com/docs/architecture/)
-- [Guía de autohospedaje](https://flashcards-open-source-app.com/docs/self-hosting/)
-
-## FSRS funciona mejor cuando todo el sistema está alineado
-
-Me gusta FSRS, en parte, porque reduce trabajo innecesario. El ritmo de repaso suele sentirse más tranquilo y más sensato que con sistemas anteriores.
-
-Pero el algoritmo es solo una parte.
-
-Los detalles de implementación importan más de lo que suele admitirse. Si un cliente programa las tarjetas de una manera y otro cliente se comporta de otra, el acrónimo elegante no te salva.
-
-Por eso me gustan los productos en los que el modelo del backend y el del cliente están claramente alineados. En Flashcards, el backend y el cliente de iOS mantienen un comportamiento FSRS equivalente, mientras que la aplicación web sigue el mismo contrato de datos en lugar de introducir un tercer planificador distinto.
-
-Esa es una forma más sana de construir una **app de flashcards sin conexión** de verdad que acumular clientes poco conectados entre sí, cada uno haciendo promesas ligeramente distintas.
-
-Si quieres una comparación más amplia de sistemas de planificación, merece la pena leer este artículo complementario:
-
-- [FSRS vs SM-2 en 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
-
-## Offline no significa aislado para siempre
-
-Aquí es donde creo que a veces la conversación se atasca en malentendidos.
-
-Querer la **mejor app de flashcards sin conexión** no significa rechazar la sincronización, las funciones en la nube o el acceso web.
-
-Normalmente significa querer que el dispositivo que tienes en la mano siga siendo útil cuando la conexión falla.
-
-Es una exigencia de lo más razonable.
-
-Yo sigo queriendo sincronización.
-
-Sigo queriendo que mis tarjetas existan más allá de un único teléfono.
-
-Sigo queriendo que el producto tenga un backend de verdad detrás.
-
-Lo que no quiero es que la red se quede plantada en medio de cada sesión de repaso como un jefe inseguro aprobando cada clic.
-
-## Entonces, ¿cuál es la mejor app de flashcards sin conexión en 2026?
-
-Si lo único que necesitas es una herramienta web ligera y casi siempre estás online, una app centrada en el navegador todavía puede bastarte.
-
-Si te importan las sesiones de repaso fiables sin Internet, el almacenamiento local como base, una sincronización limpia después y un planificador que siga siendo creíble en todos los clientes, la mejor respuesta es un sistema offline-first.
-
-Ahí es donde [Flashcards](https://flashcards-open-source-app.com/) destaca para mí.
-
-Yo resumiría la diferencia así: muchas herramientas de estudio resultan agradables mientras la conexión se porta bien. Una app de flashcards offline-first sigue siendo agradable incluso cuando la conexión deja de colaborar.
-
-Esa diferencia importa mucho más de lo que esta categoría suele reconocer.
-
-## Prueba el flujo de trabajo offline-first para flashcards
-
-Si estás buscando activamente la **mejor app de flashcards sin conexión**, empieza aquí:
-
-- [Abrir Flashcards](https://flashcards-open-source-app.com/)
-- [Abrir la app](https://app.flashcards-open-source-app.com/)
-- [Leer la documentación de arquitectura](https://flashcards-open-source-app.com/docs/architecture/)
-- [Ver el código en GitHub](https://github.com/kirill-markin/flashcards-open-source-app)
-
-Y si primero quieres comparar la categoría en general, estos artículos complementarios merecen la pena:
-
-- [Las mejores alternativas a Anki en 2026](https://flashcards-open-source-app.com/blog/best-anki-alternatives/)
-- [Anki vs Quizlet vs app de flashcards open source](https://flashcards-open-source-app.com/blog/anki-vs-quizlet-vs-open-source-flashcards-app/)
-
-La mejor herramienta de estudio offline no suele ser la que más presume de su insignia de "sin conexión".
-
-Suele ser la que te deja abrir la app con mala cobertura, repasar tus tarjetas con normalidad y olvidarte de que la red existe hasta más tarde.
+1. Con internet, instala o abre el cliente que vayas a utilizar, inicia sesión, completa la primera sincronización y descarga expresamente todos los conjuntos o archivos multimedia que requiera la aplicación.
+2. Activa el modo avión. No te limites a desactivar el Wi-Fi: los datos móviles podrían seguir activos.
+3. Cierra por completo la aplicación instalada y vuelve a abrirla. Si piensas usar la versión web, cierra y vuelve a abrir también la pestaña. Comprueba que estén las tarjetas que necesitas, no solo la última que utilizaste.
+4. Crea una tarjeta y edita otra. Añade el tipo de archivo multimedia que usas de verdad, por ejemplo, una imagen o un clip de audio.
+5. Completa varios repasos, cierra la aplicación, vuelve a abrirla y confirma que las tarjetas y el progreso de estudio siguen ahí.
+6. Recupera la conexión. Espera a que termine la sincronización y comprueba en otro dispositivo o en la versión web que aparezcan la tarjeta nueva, la edición, los repasos y el archivo multimedia.
+
+Esta prueba de diez minutos ofrece una respuesta más útil que cualquier etiqueta genérica de «funciona sin conexión». La mejor app de flashcards sin conexión es la que encaja con los límites de tu colección real y hace que perder internet sea un detalle aburrido, no un problema memorable.
