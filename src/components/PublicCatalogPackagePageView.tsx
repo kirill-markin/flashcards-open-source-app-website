@@ -5,7 +5,6 @@ import { PublicCatalogNavigation } from "@/components/PublicCatalogNavigation";
 import { SiteFrame } from "@/components/SiteFrame";
 import { StructuredDataScript } from "@/components/StructuredDataScript";
 import { TrackedPublicCatalogInstallLink } from "@/components/TrackedPublicCatalogInstallLink";
-import { renderMarkdownToHtml } from "@/lib/content/renderMarkdownToHtml";
 import type { AppLocale } from "@/lib/i18n";
 import { getLocalizedPathname } from "@/lib/i18n";
 import { getPublicCatalogUiCopy } from "@/lib/publicCatalogCopy";
@@ -15,6 +14,10 @@ import {
   formatPublicCatalogDate,
   formatPublicCatalogNumber,
 } from "@/lib/publicCatalogFormatting";
+import {
+  renderPublicCatalogCardMarkdownToHtml,
+  renderPublicCatalogDescriptionMarkdownToHtml,
+} from "@/lib/publicCatalogMarkdownHtml";
 import type { PublicCatalogPackageView } from "@/lib/publicCatalogReadModel";
 import type { PublicCatalogCollection } from "@/lib/publicCatalogTypes";
 import {
@@ -48,8 +51,16 @@ async function renderCards(
   return Promise.all(
     packageView.cards.map(async (card): Promise<RenderedCard> => {
       const [frontHtml, backHtml] = await Promise.all([
-        renderMarkdownToHtml(card.frontText, locale),
-        renderMarkdownToHtml(card.backText, locale),
+        renderPublicCatalogCardMarkdownToHtml(
+          card.frontText,
+          locale,
+          `Public catalog card ${card.packageCardId} frontText`,
+        ),
+        renderPublicCatalogCardMarkdownToHtml(
+          card.backText,
+          locale,
+          `Public catalog card ${card.packageCardId} backText`,
+        ),
       ]);
 
       return {
@@ -74,7 +85,11 @@ export async function PublicCatalogPackagePageView({
     packageMetadata.slug,
   );
   const [descriptionHtml, renderedCards] = await Promise.all([
-    renderMarkdownToHtml(packageMetadata.description, locale),
+    renderPublicCatalogDescriptionMarkdownToHtml(
+      packageMetadata.description,
+      locale,
+      `Public catalog package ${packageMetadata.packageId} description`,
+    ),
     renderCards(locale, packageView),
   ]);
   return (
