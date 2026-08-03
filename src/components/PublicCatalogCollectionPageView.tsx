@@ -4,7 +4,6 @@ import { PublicCatalogNavigation } from "@/components/PublicCatalogNavigation";
 import { PublicCatalogPackageCard } from "@/components/PublicCatalogPackageCard";
 import { SiteFrame } from "@/components/SiteFrame";
 import { StructuredDataScript } from "@/components/StructuredDataScript";
-import { renderMarkdownToHtml } from "@/lib/content/renderMarkdownToHtml";
 import type { AppLocale } from "@/lib/i18n";
 import { getLocalizedPathname } from "@/lib/i18n";
 import { getPublicCatalogUiCopy } from "@/lib/publicCatalogCopy";
@@ -13,6 +12,7 @@ import {
   formatPublicCatalogDate,
   formatPublicCatalogPackageCount,
 } from "@/lib/publicCatalogFormatting";
+import { renderPublicCatalogDescriptionMarkdownToHtml } from "@/lib/publicCatalogMarkdownHtml";
 import type { PublicCatalogPackageView } from "@/lib/publicCatalogReadModel";
 import type { PublicCatalogCollection } from "@/lib/publicCatalogTypes";
 import {
@@ -39,7 +39,11 @@ export async function PublicCatalogCollectionPageView({
   const catalogCopy = getPublicCatalogUiCopy(locale);
   const copy = getPublicCatalogDestinationCopy(locale);
   const routePathname = getPublicCatalogCollectionRoutePathname(collection.slug);
-  const descriptionHtml = await renderMarkdownToHtml(collection.description, locale);
+  const descriptionHtml = await renderPublicCatalogDescriptionMarkdownToHtml(
+    collection.description,
+    locale,
+    `Public catalog collection ${collection.collectionId} description`,
+  );
 
   return (
     <SiteFrame locale={locale} routePathname={routePathname}>
