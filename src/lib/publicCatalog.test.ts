@@ -2,16 +2,18 @@ import assert from "node:assert/strict";
 import test from "node:test";
 import { remark } from "remark";
 import gfm from "remark-gfm";
-import { GET as getPageMarkdown } from "../app/api/page-markdown/[...segments]/route";
 import type { GlobalActivitySnapshot } from "./globalActivitySnapshot";
 import { parsePublicCatalogBuildConfiguration } from "./publicCatalogBuild";
 import { createPublicCatalogBrowseData } from "./publicCatalogBrowse";
 import {
-  getMarkdownApiAssetPathname,
+  getCanonicalPagePathname,
   getMarkdownAssetPathname,
-  getPagePathFromMarkdownApiAssetSegments,
-  getPagePathFromMarkdownPathname,
+  getPagePathnameFromMarkdownPathname,
 } from "./markdownAssetPaths";
+import {
+  parseMarkdownAssetManifest,
+  serializeMarkdownAssetManifest,
+} from "./markdownAssetManifest";
 import { renderMarkdownDocument } from "./markdownServe";
 import { renderMarkdownToHtml } from "./content/renderMarkdownToHtml";
 import { getPublicCatalogAuthorBioExcerpt } from "./publicCatalogAuthor";
@@ -49,17 +51,21 @@ import type { PublicCatalogDump } from "./publicCatalogTypes";
 import {
   getPublicCatalogAuthorRoutePathname,
   getPublicCatalogCollectionRoutePathname,
-  getPublicCatalogFacetStaticParam,
-  getPublicCatalogFacetStaticPathname,
   getPublicCatalogLanguageRoutePathname,
   getPublicCatalogPackageRoutePathname,
   getPublicCatalogTopicRoutePathname,
   PUBLIC_CATALOG_AUTHORS_ROUTE_PATHNAME,
   PUBLIC_CATALOG_COLLECTIONS_ROUTE_PATHNAME,
   isPublicCatalogPageRoutePathname,
-  resolvePublicCatalogFacetStaticParam,
   resolvePublicCatalogRouteSegment,
 } from "./publicCatalogUrls";
+import {
+  assertUniquePublicCatalogFacetAliases,
+  getMarkdownAssetDigest,
+  getPublicCatalogFacetAlias,
+  getPublicCatalogFacetInternalPathname,
+  resolvePublicCatalogFacetAlias,
+} from "./publicCatalogStaticAssets";
 import { createPublicCatalogSitemapEntries } from "./publicCatalogSitemap";
 import {
   createPublicCatalogAuthorJsonLd,
@@ -124,10 +130,6 @@ function parseMarkdownAst(markdown: string): MarkdownAstNode {
 
 function listMarkdownAstNodes(node: MarkdownAstNode): ReadonlyArray<MarkdownAstNode> {
   return [node, ...(node.children ?? []).flatMap(listMarkdownAstNodes)];
-}
-
-function getMarkdownRouteSegments(pagePath: string): ReadonlyArray<string> {
-  return getMarkdownApiAssetPathname(pagePath).split("/").slice(-2);
 }
 
 function createValidDump(): PublicCatalogDumpFixture {
@@ -944,14 +946,14 @@ test("builds canonical catalog destinations and identifies current catalog pages
   );
   ambiguousTags.forEach((tag) => {
     assert.equal(
-      resolvePublicCatalogFacetStaticParam(
-        getPublicCatalogFacetStaticParam(tag),
+      resolvePublicCatalogFacetAlias(
+        getPublicCatalogFacetAlias("topic", tag),
+        "topic",
         ambiguousTags,
       ),
       tag,
     );
   });
-  assert.equal(resolvePublicCatalogFacetStaticParam("__facet_invalid", ambiguousTags), undefined);
   assert.equal(
     getPublicCatalogPackageRoutePathname("canonical-package"),
     "/catalog/packages/canonical-package/",
@@ -981,22 +983,13 @@ test("builds canonical catalog destinations and identifies current catalog pages
     "/catalog/languages/a%2Eb/",
   );
   assert.equal(resolvePublicCatalogRouteSegment("a%2Eb", ["a.b"]), "a.b");
-  assert.equal(getPublicCatalogFacetStaticParam("100%"), "__facet_313030253235");
-  assert.equal(
-    getPublicCatalogFacetStaticPathname("/catalog/topics/history%20world/"),
-    "/catalog/topics/__facet_686973746f7279253230776f726c64/",
+  assert.match(
+    getPublicCatalogFacetInternalPathname("es", "topic", "history world"),
+    /^\/catalog-facet-static\/es\/topic\/[0-9a-f]{64}\/$/,
   );
-  assert.equal(
-    getPublicCatalogFacetStaticPathname("/es/catalog/topics/history%2520world/"),
-    "/es/catalog/topics/__facet_686973746f72792532353230776f726c64/",
-  );
-  assert.equal(
-    getPublicCatalogFacetStaticPathname("/catalog/topics/history%20(100%25)/"),
-    "/catalog/topics/__facet_686973746f72792532302831303025323529/",
-  );
-  assert.equal(
-    getPublicCatalogFacetStaticPathname("/catalog/topics/grammar/"),
-    "/catalog/topics/__facet_6772616d6d6172/",
+  assert.notEqual(
+    getPublicCatalogFacetAlias("language", "history world"),
+    getPublicCatalogFacetAlias("topic", "history world"),
   );
   assert.equal(isPublicCatalogPageRoutePathname("/catalog/"), true);
   assert.equal(
@@ -1025,16 +1018,9 @@ test("keeps public alias-looking facet values distinct from internal static para
 
   collisionTags.forEach((tag) => {
     const publicPagePath = `catalog/topics/${encodeURIComponent(tag)}`;
-    const internalStaticParam = getPublicCatalogFacetStaticParam(tag);
     const markdown = renderPublicCatalogMarkdownDocument(publicPagePath, model)?.markdown;
 
     assert.ok(pagePaths.includes(publicPagePath));
-    if (collisionTags.includes(internalStaticParam) === false) {
-      assert.equal(
-        pagePaths.includes(`catalog/topics/${internalStaticParam}`),
-        false,
-      );
-    }
     assert.ok(markdown);
     const renderedText = listMarkdownAstNodes(parseMarkdownAst(markdown))
       .filter((node) => node.type === "text")
@@ -1843,29 +1829,26 @@ test("keeps percent-encoded and literal-percent catalog Markdown assets distinct
 
   assert.ok(pagePaths.includes(encodedSpacePath));
   assert.ok(pagePaths.includes(literalPercentPath));
-  assert.notEqual(
-    getMarkdownAssetPathname(encodedSpacePath),
-    getMarkdownAssetPathname(literalPercentPath),
+  const encodedSpacePagePathname = getCanonicalPagePathname(encodedSpacePath);
+  const literalPercentPagePathname = getCanonicalPagePathname(literalPercentPath);
+  const encodedSpaceAssetPathname = getMarkdownAssetPathname(
+    getMarkdownAssetDigest(encodedSpacePagePathname),
   );
-  const encodedSpaceApiPath = getMarkdownApiAssetPathname(encodedSpacePath);
-  const literalPercentApiPath = getMarkdownApiAssetPathname(literalPercentPath);
+  const literalPercentAssetPathname = getMarkdownAssetPathname(
+    getMarkdownAssetDigest(literalPercentPagePathname),
+  );
 
-  assert.notEqual(encodedSpaceApiPath, literalPercentApiPath);
-  assert.equal(
-    getPagePathFromMarkdownApiAssetSegments(
-      encodedSpaceApiPath.split("/").slice(-2),
-    ),
-    encodedSpacePath,
+  assert.notEqual(
+    encodedSpaceAssetPathname,
+    literalPercentAssetPathname,
   );
   assert.equal(
-    getPagePathFromMarkdownApiAssetSegments(
-      literalPercentApiPath.split("/").slice(-2),
-    ),
-    literalPercentPath,
+    getPagePathnameFromMarkdownPathname("/catalog/topics/history%20world.md"),
+    encodedSpacePagePathname,
   );
   assert.equal(
-    getPagePathFromMarkdownPathname("/catalog/topics/history%2520world.md"),
-    literalPercentPath,
+    getPagePathnameFromMarkdownPathname("/catalog/topics/history%2520world.md"),
+    literalPercentPagePathname,
   );
   assert.match(
     renderPublicCatalogMarkdownDocument(literalPercentPath, model)?.markdown ?? "",
@@ -1873,32 +1856,37 @@ test("keeps percent-encoded and literal-percent catalog Markdown assets distinct
   );
 });
 
-test("Markdown asset route rejects traversal and malformed encoded paths", async () => {
-  const traversalPagePaths = [
-    "../../README",
-    "/../../README",
-    "..\\..\\README",
-    "%2e%2e/%2e%2e/README",
-    "../__markdown-backup/README",
-  ];
-
-  for (const pagePath of traversalPagePaths) {
-    const segments = getMarkdownRouteSegments(pagePath);
-    const response = await getPageMarkdown(
-      new Request(`https://example.test/${segments.join("/")}`),
-      { params: Promise.resolve({ segments: [...segments] }) },
-    );
-
-    assert.equal(response.status, 404, pagePath);
-    assert.doesNotMatch(await response.text(), /Flashcards Open Source App Website/i);
-  }
-
-  const malformedResponse = await getPageMarkdown(
-    new Request("https://example.test/__asset/not-hex.md"),
-    { params: Promise.resolve({ segments: ["__asset", "not-hex.md"] }) },
+test("validates and canonically serializes the compact static delivery manifest", () => {
+  const pagePathname = "/catalog/topics/history%2520world/";
+  const assetPathname = getMarkdownAssetPathname(
+    getMarkdownAssetDigest(pagePathname),
   );
+  const facetPathname = getPublicCatalogFacetInternalPathname(
+    "es",
+    "topic",
+    "history%20world",
+  );
+  const serialized = serializeMarkdownAssetManifest({
+    facets: { "/es/catalog/topics/history%2520world/": facetPathname },
+    markdown: { [pagePathname]: assetPathname },
+  });
 
-  assert.equal(malformedResponse.status, 404);
+  assert.deepEqual(parseMarkdownAssetManifest(serialized), {
+    facets: { "/es/catalog/topics/history%2520world/": facetPathname },
+    markdown: { [pagePathname]: assetPathname },
+  });
+  assert.throws(
+    () => parseMarkdownAssetManifest('{"facets":{},"markdown":{"relative/":"/__markdown/invalid.md"}}'),
+    /invalid Markdown entry/,
+  );
+  assert.doesNotThrow(() => assertUniquePublicCatalogFacetAliases(
+    "topic",
+    ["history", "history%20", "😀".repeat(120)],
+  ));
+  assert.equal(
+    getPublicCatalogFacetAlias("topic", "history"),
+    getPublicCatalogFacetAlias("topic", "history"),
+  );
 });
 
 test("derives clean llms catalog discovery links without install or query URLs", () => {

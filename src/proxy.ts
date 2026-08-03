@@ -2,11 +2,65 @@ import { NextResponse } from "next/server";
 import type { NextRequest } from "next/server";
 import {
   LLMS_ASSET_PATHNAME,
-  getMarkdownApiAssetPathname,
-  getPagePathFromHtmlPathname,
-  getPagePathFromMarkdownPathname,
+  getMarkdownPathnameFromPagePathname,
+  getPagePathnameFromMarkdownPathname,
 } from "./lib/markdownAssetPaths";
-import { getPublicCatalogFacetStaticPathname } from "./lib/publicCatalogUrls";
+import { parseMarkdownAssetManifest } from "./lib/markdownAssetManifest";
+
+const markdownManifest = parseMarkdownAssetManifest(
+  process.env.MARKDOWN_ASSET_MANIFEST_JSON
+    ?? (() => {
+      throw new Error("MARKDOWN_ASSET_MANIFEST_JSON is required by the Markdown proxy.");
+    })(),
+);
+
+const markdownCacheControl =
+  "public, max-age=3600, s-maxage=3600, stale-while-revalidate=86400";
+
+function createEmptyNotFoundResponse(): NextResponse {
+  return new NextResponse(null, { status: 404 });
+}
+
+function setMarkdownHeaders(
+  response: NextResponse,
+  pagePathname: string,
+): NextResponse {
+  response.headers.set("Content-Type", "text/markdown; charset=utf-8");
+  response.headers.set("Cache-Control", markdownCacheControl);
+  response.headers.set("Vary", "Accept");
+  response.headers.set(
+    "Link",
+    `<${pagePathname}>; rel="alternate"; type="text/html"`,
+  );
+  return response;
+}
+
+function createMarkdownResponse(
+  request: NextRequest,
+  pagePathname: string,
+): NextResponse {
+  const assetPathname = markdownManifest.markdown[pagePathname];
+
+  if (assetPathname === undefined) {
+    return setMarkdownHeaders(
+      new NextResponse(`# 404\n\nPage not found: ${pagePathname}\n`, { status: 404 }),
+      pagePathname,
+    );
+  }
+
+  const rewriteUrl = request.nextUrl.clone();
+  rewriteUrl.pathname = assetPathname;
+  return setMarkdownHeaders(NextResponse.rewrite(rewriteUrl), pagePathname);
+}
+
+function isPrivatePathname(pathname: string): boolean {
+  return pathname === "/__markdown"
+    || pathname.startsWith("/__markdown/")
+    || pathname === "/catalog-facet-static"
+    || pathname.startsWith("/catalog-facet-static/")
+    || pathname === "/api/page-markdown"
+    || pathname.startsWith("/api/page-markdown/");
+}
 
 export function proxy(request: NextRequest): NextResponse {
   const { pathname } = request.nextUrl;
@@ -18,54 +72,51 @@ export function proxy(request: NextRequest): NextResponse {
     return NextResponse.redirect(redirectUrl, 308);
   }
 
-  if (pathname.startsWith("/__markdown/")) {
-    return NextResponse.next();
-  }
-
-  if (pathname.startsWith("/api/page-markdown/")) {
-    return NextResponse.next();
+  if (isPrivatePathname(pathname)) {
+    return createEmptyNotFoundResponse();
   }
 
   if (pathname === "/llms.txt") {
     const rewriteUrl = request.nextUrl.clone();
     rewriteUrl.pathname = LLMS_ASSET_PATHNAME;
-    return NextResponse.rewrite(rewriteUrl);
+    const response = NextResponse.rewrite(rewriteUrl);
+    response.headers.set("Content-Type", "text/plain; charset=utf-8");
+    response.headers.set("Cache-Control", "public, max-age=3600, s-maxage=3600");
+    response.headers.set("Vary", "Accept");
+    return response;
   }
 
-  // --- Markdown serving: .md extension ---
-  const markdownPagePath = getPagePathFromMarkdownPathname(pathname);
-  if (markdownPagePath !== null) {
-    const rewriteUrl = new URL(request.url);
-    rewriteUrl.pathname = getMarkdownApiAssetPathname(markdownPagePath);
-    return NextResponse.rewrite(rewriteUrl);
+  const directMarkdownPagePathname = getPagePathnameFromMarkdownPathname(pathname);
+
+  if (directMarkdownPagePathname !== null) {
+    return createMarkdownResponse(request, directMarkdownPagePathname);
   }
 
-  // --- Markdown serving: Accept header ---
-  const accept = request.headers.get("accept") || "";
+  const accept = request.headers.get("accept") ?? "";
+
   if (
-    accept.includes("text/markdown") &&
-    !pathname.startsWith("/api/") &&
-    !pathname.startsWith("/_next/")
+    accept.includes("text/markdown")
+    && pathname.startsWith("/api/") === false
+    && pathname.startsWith("/_next/") === false
   ) {
-    const rewriteUrl = new URL(request.url);
-    rewriteUrl.pathname = getMarkdownApiAssetPathname(
-      getPagePathFromHtmlPathname(pathname)
-    );
-    return NextResponse.rewrite(rewriteUrl);
+    if (pathname !== "/" && pathname.endsWith("/") === false) {
+      return createEmptyNotFoundResponse();
+    }
+
+    return createMarkdownResponse(request, pathname);
   }
 
-  // --- Default: add Vary and Link headers ---
-  const publicCatalogFacetStaticPathname = getPublicCatalogFacetStaticPathname(pathname);
-  const response = publicCatalogFacetStaticPathname === null
+  const internalFacetPathname = markdownManifest.facets[pathname];
+  const response = internalFacetPathname === undefined
     ? NextResponse.next()
-    : NextResponse.rewrite(new URL(publicCatalogFacetStaticPathname, request.url));
-  response.headers.append("Vary", "Accept");
-
-  const cleanPath = pathname.replace(/\/+$/, "");
-  const mdPath = cleanPath === "" ? "/.md" : `${cleanPath}.md`;
+    : NextResponse.rewrite(new URL(internalFacetPathname, request.url));
+  response.headers.set("Vary", "Accept");
+  const pagePathname = pathname === "/" || pathname.endsWith("/")
+    ? pathname
+    : `${pathname}/`;
   response.headers.set(
     "Link",
-    `<${mdPath}>; rel="alternate"; type="text/markdown"`
+    `<${getMarkdownPathnameFromPagePathname(pagePathname)}>; rel="alternate"; type="text/markdown"`,
   );
 
   return response;
