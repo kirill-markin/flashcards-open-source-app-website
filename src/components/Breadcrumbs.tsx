@@ -2,6 +2,7 @@ import Link from "next/link";
 import type { AppLocale } from "@/lib/i18n";
 import { getAbsoluteUrl, getLocalizedPathname } from "@/lib/i18n";
 import { getUiCopy } from "@/lib/uiCopy";
+import { serializeStructuredData } from "@/lib/seo/structuredData";
 import styles from "./Breadcrumbs.module.css";
 
 interface BreadcrumbItem {
@@ -44,7 +45,7 @@ export function Breadcrumbs({
     <nav aria-label={uiCopy.breadcrumbs.ariaLabel} className={styles.nav}>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+        dangerouslySetInnerHTML={{ __html: serializeStructuredData(schema) }}
       />
       <ol className={styles.list}>
         {allItems.map((item, index) => {

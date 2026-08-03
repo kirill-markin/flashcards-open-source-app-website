@@ -1,4 +1,20 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "framework": "nextjs"
+  "framework": "nextjs",
+  "routes": [
+    {
+      "src": "/.*",
+      "transforms": [
+        {
+          "type": "response.headers",
+          "op": "append",
+          "target": {
+            "key": "vary"
+          },
+          "args": "Accept"
+        }
+      ],
+      "continue": true
+    }
+  ]
 }
