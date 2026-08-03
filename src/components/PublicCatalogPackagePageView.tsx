@@ -129,6 +129,7 @@ export async function PublicCatalogPackagePageView({
                 <PublicCatalogCover
                   coverMediaAsset={coverMediaAsset}
                   placeholderLabel={copy.coverPlaceholderLabel}
+                  sizes="(max-width: 700px) calc(100vw - 60px), 240px"
                   title={latestVersion.title}
                 />
               </div>

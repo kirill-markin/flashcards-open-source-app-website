@@ -88,6 +88,7 @@ export function PublicCatalogFacetPageView({
                 <PublicCatalogPackageCard
                   key={packageView.packageMetadata.packageId}
                   copy={catalogCopy}
+                  coverSizes="(max-width: 700px) calc(100vw - 60px), 440px"
                   locale={locale}
                   packageView={packageView}
                 />
