@@ -30,12 +30,14 @@ export async function renderPublicCatalogDescriptionMarkdownToHtml(
 export async function renderPublicCatalogCardMarkdownToHtml(
   markdown: string,
   locale: AppLocale,
+  mediaDownloadUrlByKey: ReadonlyMap<string, string>,
   sourceContext: string,
 ): Promise<string> {
   return renderNormalizedPublicCatalogMarkdownToHtml(
     normalizePublicCatalogCardMarkdownFragment(
       markdown,
       locale,
+      mediaDownloadUrlByKey,
       sourceContext,
     ),
     locale,
