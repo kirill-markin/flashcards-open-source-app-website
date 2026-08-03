@@ -8,6 +8,7 @@ import { TrackedPublicCatalogInstallLink } from "@/components/TrackedPublicCatal
 import type { AppLocale } from "@/lib/i18n";
 import { getLocalizedPathname } from "@/lib/i18n";
 import { getPublicCatalogUiCopy } from "@/lib/publicCatalogCopy";
+import { getPublicCatalogCardMediaDownloadUrls } from "@/lib/publicCatalogCardMedia";
 import { getPublicCatalogDestinationCopy } from "@/lib/publicCatalogDestinationCopy";
 import {
   formatPublicCatalogCardCount,
@@ -50,15 +51,21 @@ async function renderCards(
 ): Promise<ReadonlyArray<RenderedCard>> {
   return Promise.all(
     packageView.cards.map(async (card): Promise<RenderedCard> => {
+      const mediaDownloadUrls = getPublicCatalogCardMediaDownloadUrls(
+        card,
+        packageView.mediaAssets,
+      );
       const [frontHtml, backHtml] = await Promise.all([
         renderPublicCatalogCardMarkdownToHtml(
           card.frontText,
           locale,
+          mediaDownloadUrls,
           `Public catalog card ${card.packageCardId} frontText`,
         ),
         renderPublicCatalogCardMarkdownToHtml(
           card.backText,
           locale,
+          mediaDownloadUrls,
           `Public catalog card ${card.packageCardId} backText`,
         ),
       ]);
@@ -86,7 +93,7 @@ export async function PublicCatalogPackagePageView({
   );
   const [descriptionHtml, renderedCards] = await Promise.all([
     renderPublicCatalogDescriptionMarkdownToHtml(
-      packageMetadata.description,
+      latestVersion.description,
       locale,
       `Public catalog package ${packageMetadata.packageId} description`,
     ),
@@ -110,7 +117,7 @@ export async function PublicCatalogPackagePageView({
                   ),
                 },
                 {
-                  label: packageMetadata.title,
+                  label: latestVersion.title,
                   href: getLocalizedPathname(locale, packageRoutePathname),
                 },
               ]}
@@ -122,13 +129,13 @@ export async function PublicCatalogPackagePageView({
                 <PublicCatalogCover
                   coverMediaAsset={coverMediaAsset}
                   placeholderLabel={copy.coverPlaceholderLabel}
-                  title={packageMetadata.title}
+                  title={latestVersion.title}
                 />
               </div>
               <div className={styles.heroContent}>
-                <h1 className={styles.title}>{packageMetadata.title}</h1>
-                {packageMetadata.summary === "" ? null : (
-                  <p className={styles.summary}>{packageMetadata.summary}</p>
+                <h1 className={styles.title}>{latestVersion.title}</h1>
+                {latestVersion.summary === "" ? null : (
+                  <p className={styles.summary}>{latestVersion.summary}</p>
                 )}
                 <p className={styles.byline}>
                   {copy.byLabel}{" "}
@@ -187,13 +194,13 @@ export async function PublicCatalogPackagePageView({
               </div>
               <div className={styles.fact}>
                 <dt>{copy.licenseLabel}</dt>
-                <dd>{packageMetadata.license}</dd>
+                <dd>{latestVersion.license}</dd>
               </div>
-              {packageMetadata.languageTags.length === 0 ? null : (
+              {latestVersion.languageTags.length === 0 ? null : (
                 <div className={styles.fact}>
                   <dt>{copy.languagesLabel}</dt>
                   <dd className={styles.facetList}>
-                    {packageMetadata.languageTags.map((languageTag) => (
+                    {latestVersion.languageTags.map((languageTag) => (
                       <Link
                         key={languageTag}
                         href={getLocalizedPathname(
@@ -207,11 +214,11 @@ export async function PublicCatalogPackagePageView({
                   </dd>
                 </div>
               )}
-              {packageMetadata.topicTags.length === 0 ? null : (
+              {latestVersion.topicTags.length === 0 ? null : (
                 <div className={styles.fact}>
                   <dt>{copy.topicsLabel}</dt>
                   <dd className={styles.facetList}>
-                    {packageMetadata.topicTags.map((topicTag) => (
+                    {latestVersion.topicTags.map((topicTag) => (
                       <Link
                         key={topicTag}
                         href={getLocalizedPathname(
@@ -245,10 +252,10 @@ export async function PublicCatalogPackagePageView({
               )}
             </dl>
 
-            {packageMetadata.contentWarning === null ? null : (
+            {latestVersion.contentWarning === null ? null : (
               <aside className={styles.warning}>
                 <strong>{copy.contentWarningLabel}</strong>
-                <p>{packageMetadata.contentWarning}</p>
+                <p>{latestVersion.contentWarning}</p>
               </aside>
             )}
 

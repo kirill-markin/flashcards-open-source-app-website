@@ -128,6 +128,25 @@ const percentEncodedAsciiControls: ReadonlyArray<string> = asciiControlCodePoint
   },
 );
 
+const fixtureAuthorId = "00000000-0000-4000-a001-000000000001";
+const fixturePackageId = "00000000-0000-4000-a002-000000000001";
+const fixtureSecondPackageId = "00000000-0000-4000-a002-000000000002";
+const fixtureOldVersionId = "00000000-0000-4000-a003-000000000001";
+const fixtureLatestVersionId = "00000000-0000-4000-a003-000000000002";
+const fixtureSecondVersionId = "00000000-0000-4000-a003-000000000003";
+const fixtureOldCardId = "00000000-0000-4000-a004-000000000001";
+const fixtureFirstCardId = "00000000-0000-4000-a004-000000000002";
+const fixtureSecondCardId = "00000000-0000-4000-a004-000000000003";
+const fixtureOldMediaId = "00000000-0000-4000-a005-000000000001";
+const fixtureCoverMediaId = "00000000-0000-4000-a005-000000000002";
+const fixtureInlineMediaId = "00000000-0000-4000-a005-000000000003";
+const fixtureCollectionId = "00000000-0000-4000-a006-000000000001";
+const missingVersionId = "00000000-0000-4000-a003-000000000099";
+const missingMediaId = "00000000-0000-4000-a005-000000000099";
+const missingPackageId = "00000000-0000-4000-a002-000000000099";
+const orphanAuthorId = "00000000-0000-4000-a001-000000000099";
+const orphanCollectionId = "00000000-0000-4000-a006-000000000099";
+
 function parseMarkdownAst(markdown: string): MarkdownAstNode {
   return remark().parse(markdown) as MarkdownAstNode;
 }
@@ -142,7 +161,7 @@ function createValidDump(): PublicCatalogDumpFixture {
     generatedAt: "2026-08-02T12:00:00.000Z",
     authors: [
       {
-        authorId: "author-1",
+        authorId: fixtureAuthorId,
         slug: "author-one",
         displayName: "Author One",
         bio: "Author bio",
@@ -151,8 +170,40 @@ function createValidDump(): PublicCatalogDumpFixture {
     ],
     packages: [
       {
-        packageId: "package-1",
-        authorId: "author-1",
+        packageId: fixturePackageId,
+        authorId: fixtureAuthorId,
+        slug: "canonical-package",
+        status: "published",
+        latestPackageVersionId: fixtureLatestVersionId,
+        versionCount: 2,
+        publishedAt: "2026-08-02T10:00:00.000Z",
+      },
+    ],
+    packageVersions: [
+      {
+        packageVersionId: fixtureOldVersionId,
+        packageId: fixturePackageId,
+        versionNumber: 1,
+        status: "published",
+        slug: "canonical-package",
+        title: "Old version title",
+        summary: "Old version summary",
+        description: "Old version description",
+        languageTags: ["old-language"],
+        topicTags: ["old-topic"],
+        license: "Old license",
+        contentWarning: "Old warning",
+        coverMediaAssetId: fixtureOldMediaId,
+        cardCount: 1,
+        updatedAt: "2026-08-01T11:00:00.000Z",
+        publishedAt: "2026-08-01T10:00:00.000Z",
+        installUrl: `https://app.flashcards-open-source-app.com/catalog/import/${fixtureOldVersionId}`,
+      },
+      {
+        packageVersionId: fixtureLatestVersionId,
+        packageId: fixturePackageId,
+        versionNumber: 2,
+        status: "published",
         slug: "canonical-package",
         title: "Canonical package title",
         summary: "Canonical package summary",
@@ -161,119 +212,99 @@ function createValidDump(): PublicCatalogDumpFixture {
         topicTags: ["grammar"],
         license: "CC0-1.0",
         contentWarning: null,
-        coverPackageMediaKey: "cover.webp",
-        latestPublishedVersionId: "version-2",
-        publishedAt: "2026-08-02T10:00:00.000Z",
-      },
-    ],
-    packageVersions: [
-      {
-        packageVersionId: "version-1",
-        packageId: "package-1",
-        versionNumber: 1,
-        title: "Old version title",
-        summary: "Old version summary",
-        description: "Old version description",
-        cardCount: 1,
-        publishedAt: "2026-08-01T10:00:00.000Z",
-        installUrl: "https://app.flashcards-open-source-app.com/catalog/import/version-1",
-      },
-      {
-        packageVersionId: "version-2",
-        packageId: "package-1",
-        versionNumber: 2,
-        title: "Non-canonical version title",
-        summary: "Non-canonical version summary",
-        description: "Non-canonical version description",
+        coverMediaAssetId: fixtureCoverMediaId,
         cardCount: 2,
+        updatedAt: "2026-08-02T11:00:00.000Z",
         publishedAt: "2026-08-02T10:00:00.000Z",
-        installUrl: "https://app.flashcards-open-source-app.com/catalog/import/version-2",
+        installUrl: `https://app.flashcards-open-source-app.com/catalog/import/${fixtureLatestVersionId}`,
       },
     ],
     cards: [
       {
-        packageCardId: "card-old",
-        packageVersionId: "version-1",
-        ordinal: 0,
-        frontText: "Old front",
+        packageCardId: fixtureOldCardId,
+        packageVersionId: fixtureOldVersionId,
+        ordinal: 1,
+        frontText: "Old front ![old](fcasset:old.webp)",
         backText: "Old back",
         cardType: "basic",
-        metadata: {},
         tags: [],
-        mediaAssetKeys: [],
+        mediaAssetIds: [],
       },
       {
-        packageCardId: "card-2",
-        packageVersionId: "version-2",
+        packageCardId: fixtureSecondCardId,
+        packageVersionId: fixtureLatestVersionId,
         ordinal: 2,
         frontText: "Second front",
         backText: "Second back",
         cardType: "basic",
-        metadata: { difficulty: 2, nested: { enabled: true } },
         tags: ["second"],
-        mediaAssetKeys: [],
+        mediaAssetIds: [],
       },
       {
-        packageCardId: "card-1",
-        packageVersionId: "version-2",
+        packageCardId: fixtureFirstCardId,
+        packageVersionId: fixtureLatestVersionId,
         ordinal: 1,
-        frontText: "First **front**",
+        frontText: "First **front** ![inline](fcasset:inline.webp)",
         backText: "First [back](https://example.com)",
         cardType: "basic",
-        metadata: {},
         tags: ["first"],
-        mediaAssetKeys: ["inline.webp"],
+        mediaAssetIds: [fixtureInlineMediaId],
       },
     ],
     mediaAssets: [
       {
-        packageMediaAssetId: "media-old",
-        packageId: "package-1",
-        packageVersionId: "version-1",
+        packageMediaAssetId: fixtureOldMediaId,
+        packageVersionId: fixtureOldVersionId,
         packageMediaKey: "old.webp",
         altText: "Old image",
         credit: null,
         license: "CC0-1.0",
-        downloadUrlPath: "/catalog/package-versions/version-1/media-assets/old.webp/download-url",
+        mimeType: "image/webp",
+        sizeBytes: 100,
+        downloadUrl: `https://api.flashcards-open-source-app.com/v1/catalog/package-versions/${fixtureOldVersionId}/media-assets/old.webp/download`,
       },
       {
-        packageMediaAssetId: "media-cover",
-        packageId: "package-1",
-        packageVersionId: "version-2",
+        packageMediaAssetId: fixtureCoverMediaId,
+        packageVersionId: fixtureLatestVersionId,
         packageMediaKey: "cover.webp",
         altText: "Cover image",
         credit: null,
         license: "CC0-1.0",
-        downloadUrlPath: "/catalog/package-versions/version-2/media-assets/cover.webp/download-url",
+        mimeType: "image/webp",
+        sizeBytes: 200,
+        downloadUrl: `https://api.flashcards-open-source-app.com/v1/catalog/package-versions/${fixtureLatestVersionId}/media-assets/cover.webp/download`,
       },
       {
-        packageMediaAssetId: "media-inline",
-        packageId: "package-1",
-        packageVersionId: "version-2",
+        packageMediaAssetId: fixtureInlineMediaId,
+        packageVersionId: fixtureLatestVersionId,
         packageMediaKey: "inline.webp",
         altText: "Inline image",
         credit: "Example credit",
         license: "CC-BY-4.0",
-        downloadUrlPath: "/catalog/package-versions/version-2/media-assets/inline.webp/download-url",
+        mimeType: "image/webp",
+        sizeBytes: 300,
+        downloadUrl: `https://api.flashcards-open-source-app.com/v1/catalog/package-versions/${fixtureLatestVersionId}/media-assets/inline.webp/download`,
       },
     ],
     collections: [
       {
-        collectionId: "collection-1",
+        collectionId: fixtureCollectionId,
         slug: "starter-collection",
         title: "Starter collection",
         summary: "Collection summary",
         description: "Collection **description**",
         languageTags: ["en"],
         topicTags: ["grammar"],
-        coverPackageId: "package-1",
+        coverPackageId: fixturePackageId,
+        status: "published",
+        updatedAt: "2026-08-02T11:30:00.000Z",
         publishedAt: "2026-08-02T11:00:00.000Z",
       },
     ],
     collectionPackages: [
       {
-        collectionId: "collection-1",
-        packageId: "package-1",
+        collectionId: fixtureCollectionId,
+        packageId: fixturePackageId,
         ordinal: 1,
       },
     ],
@@ -286,19 +317,22 @@ test("parses the schema and builds latest-version-only lookup data", () => {
   const packageView = getPublicCatalogPackageBySlug(model, "canonical-package");
 
   assert.ok(packageView);
-  assert.equal(packageView.packageMetadata.title, "Canonical package title");
-  assert.equal(packageView.latestVersion.packageVersionId, "version-2");
-  assert.deepEqual(packageView.cards.map((card) => card.packageCardId), ["card-1", "card-2"]);
+  assert.equal(packageView.latestVersion.title, "Canonical package title");
+  assert.equal(packageView.latestVersion.packageVersionId, fixtureLatestVersionId);
+  assert.deepEqual(
+    packageView.cards.map((card) => card.packageCardId),
+    [fixtureFirstCardId, fixtureSecondCardId],
+  );
   assert.deepEqual(
     packageView.mediaAssets.map((mediaAsset) => mediaAsset.packageMediaAssetId),
-    ["media-cover", "media-inline"],
+    [fixtureCoverMediaId, fixtureInlineMediaId],
   );
-  assert.equal(packageView.coverMediaAsset?.packageMediaAssetId, "media-cover");
-  assert.equal(packageView.packageMetadata.description, "Canonical **package** description");
-  assert.equal(getPublicCatalogAuthorBySlug(model, "author-one")?.authorId, "author-1");
+  assert.equal(packageView.coverMediaAsset?.packageMediaAssetId, fixtureCoverMediaId);
+  assert.equal(packageView.latestVersion.description, "Canonical **package** description");
+  assert.equal(getPublicCatalogAuthorBySlug(model, "author-one")?.authorId, fixtureAuthorId);
   assert.equal(
     getPublicCatalogCollectionBySlug(model, "starter-collection")?.collectionId,
-    "collection-1",
+    fixtureCollectionId,
   );
   assert.deepEqual(getPublicCatalogPackagesByAuthorSlug(model, "author-one"), [packageView]);
   assert.deepEqual(
@@ -378,15 +412,75 @@ test("does not expose historical records through the public read model", () => {
   assert.equal("mediaAssets" in model, false);
   assert.deepEqual(
     model.packages.map((packageView) => packageView.latestVersion.packageVersionId),
-    ["version-2"],
+    [fixtureLatestVersionId],
   );
+});
+
+test("never renders or indexes an older emitted package version", () => {
+  const model = createPublicCatalogReadModel(parsePublicCatalogDump(createValidDump()));
+  const packageView = getPublicCatalogPackageBySlug(model, "canonical-package");
+
+  assert.ok(packageView);
+  assert.deepEqual(model.languageTags, ["en", "es"]);
+  assert.deepEqual(model.topicTags, ["grammar"]);
+  assert.deepEqual(
+    packageView.cards.map((card) => card.packageCardId),
+    [fixtureFirstCardId, fixtureSecondCardId],
+  );
+  assert.deepEqual(
+    packageView.mediaAssets.map((mediaAsset) => mediaAsset.packageMediaAssetId),
+    [fixtureCoverMediaId, fixtureInlineMediaId],
+  );
+
+  const browseRecord = JSON.stringify(createPublicCatalogBrowseData(model));
+  const markdown = renderPublicCatalogMarkdownDocument(
+    "catalog/packages/canonical-package",
+    model,
+  )?.markdown;
+  const structuredData = JSON.stringify(
+    createPublicCatalogPackageJsonLd([], "en", packageView),
+  );
+
+  assert.ok(markdown);
+  assert.match(
+    markdown,
+    new RegExp(`https://app\\.flashcards-open-source-app\\.com/catalog/import/${fixtureLatestVersionId}`),
+  );
+  assert.match(
+    markdown,
+    new RegExp(
+      `https://api\\.flashcards-open-source-app\\.com/v1/catalog/package-versions/${fixtureLatestVersionId}/media-assets/inline\\.webp/download`,
+    ),
+  );
+  [browseRecord, markdown, structuredData].forEach((renderedOutput) => {
+    assert.equal(renderedOutput.includes("Old version title"), false);
+    assert.equal(renderedOutput.includes("Old version summary"), false);
+    assert.equal(renderedOutput.includes("old-language"), false);
+    assert.equal(renderedOutput.includes("old-topic"), false);
+    assert.equal(renderedOutput.includes(`/catalog/import/${fixtureOldVersionId}`), false);
+    assert.equal(
+      renderedOutput.includes(`/package-versions/${fixtureOldVersionId}/media-assets/old.webp`),
+      false,
+    );
+  });
 });
 
 test("keeps collection packages in membership ordinal order", () => {
   const input = createValidDump();
   input.packages.push({
-    packageId: "package-2",
-    authorId: "author-1",
+    packageId: fixtureSecondPackageId,
+    authorId: fixtureAuthorId,
+    slug: "second-package",
+    status: "published",
+    latestPackageVersionId: fixtureSecondVersionId,
+    versionCount: 1,
+    publishedAt: "2026-08-02T11:30:00.000Z",
+  });
+  input.packageVersions.push({
+    packageVersionId: fixtureSecondVersionId,
+    packageId: fixtureSecondPackageId,
+    versionNumber: 1,
+    status: "published",
     slug: "second-package",
     title: "Second package",
     summary: "Second summary",
@@ -395,25 +489,17 @@ test("keeps collection packages in membership ordinal order", () => {
     topicTags: ["history"],
     license: "CC0-1.0",
     contentWarning: null,
-    coverPackageMediaKey: null,
-    latestPublishedVersionId: "version-3",
-    publishedAt: "2026-08-02T11:30:00.000Z",
-  });
-  input.packageVersions.push({
-    packageVersionId: "version-3",
-    packageId: "package-2",
-    versionNumber: 1,
-    title: "Second package",
-    summary: "Second summary",
-    description: "Second description",
+    coverMediaAssetId: null,
     cardCount: 0,
+    updatedAt: "2026-08-02T11:30:00.000Z",
     publishedAt: "2026-08-02T11:30:00.000Z",
-    installUrl: "https://app.flashcards-open-source-app.com/catalog/import/version-3",
+    installUrl: `https://app.flashcards-open-source-app.com/catalog/import/${fixtureSecondVersionId}`,
   });
+  input.collectionPackages[0].ordinal = 2;
   input.collectionPackages.push({
-    collectionId: "collection-1",
-    packageId: "package-2",
-    ordinal: 0,
+    collectionId: fixtureCollectionId,
+    packageId: fixtureSecondPackageId,
+    ordinal: 1,
   });
 
   const model = createPublicCatalogReadModel(parsePublicCatalogDump(input));
@@ -426,10 +512,45 @@ test("keeps collection packages in membership ordinal order", () => {
   );
 });
 
+test("accepts a public collection cover that is not a collection member", () => {
+  const input = createValidDump();
+  input.packages.push({
+    packageId: fixtureSecondPackageId,
+    authorId: fixtureAuthorId,
+    slug: "second-package",
+    status: "published",
+    latestPackageVersionId: fixtureSecondVersionId,
+    versionCount: 1,
+    publishedAt: "2026-08-02T11:30:00.000Z",
+  });
+  input.packageVersions.push({
+    packageVersionId: fixtureSecondVersionId,
+    packageId: fixtureSecondPackageId,
+    versionNumber: 1,
+    status: "published",
+    slug: "second-package",
+    title: "Second package",
+    summary: "Second summary",
+    description: "Second description",
+    languageTags: ["fr"],
+    topicTags: ["history"],
+    license: "CC0-1.0",
+    contentWarning: null,
+    coverMediaAssetId: null,
+    cardCount: 0,
+    updatedAt: "2026-08-02T11:30:00.000Z",
+    publishedAt: "2026-08-02T11:30:00.000Z",
+    installUrl: `https://app.flashcards-open-source-app.com/catalog/import/${fixtureSecondVersionId}`,
+  });
+  input.collections[0].coverPackageId = fixtureSecondPackageId;
+
+  assert.doesNotThrow(() => parsePublicCatalogDump(input));
+});
+
 test("creates escaped catalog JSON-LD from canonical read-model entities", () => {
   const input = createValidDump();
   input.authors[0].displayName = "Author < One";
-  input.packages[0].topicTags = ["world history"];
+  input.packageVersions[1].topicTags = ["world history"];
   input.collections[0].topicTags = ["world history"];
   const model = createPublicCatalogReadModel(parsePublicCatalogDump(input));
   const packageView = getPublicCatalogPackageBySlug(model, "canonical-package");
@@ -517,11 +638,12 @@ test("creates escaped catalog JSON-LD from canonical read-model entities", () =>
   assert.doesNotThrow(() => JSON.parse(serializedSchema));
 });
 
-test("creates deterministic localized catalog sitemap entries from real publish dates", () => {
+test("creates deterministic localized catalog sitemap entries from real timestamps", () => {
   const input = createValidDump();
-  input.packages[0].topicTags = ["world history"];
+  input.packageVersions[1].topicTags = ["world history"];
   input.collections[0].topicTags = ["world history"];
   input.packageVersions[1].publishedAt = "2026-08-03T09:00:00.000Z";
+  input.packageVersions[1].updatedAt = "2026-08-03T09:00:00.000Z";
   const model = createPublicCatalogReadModel(parsePublicCatalogDump(input));
   const entries = createPublicCatalogSitemapEntries(model);
   const entryByUrl = new Map(entries.map((entry) => [entry.url, entry]));
@@ -539,22 +661,22 @@ test("creates deterministic localized catalog sitemap entries from real publish 
     "https://flashcards-open-source-app.com/catalog/languages/en/";
   const percentFacetUrl =
     "https://flashcards-open-source-app.com/ja/catalog/topics/world%20history/";
-  const latestVersionPublishedAt = "2026-08-03T09:00:00.000Z";
+  const latestVersionUpdatedAt = "2026-08-03T09:00:00.000Z";
 
   assert.equal(entries.length, 72);
-  assert.equal(entryByUrl.get(rootUrl)?.lastModified, latestVersionPublishedAt);
-  assert.equal(entryByUrl.get(packageUrl)?.lastModified, latestVersionPublishedAt);
-  assert.equal(entryByUrl.get(authorUrl)?.lastModified, latestVersionPublishedAt);
-  assert.equal(entryByUrl.get(collectionUrl)?.lastModified, latestVersionPublishedAt);
-  assert.equal(entryByUrl.get(languageFacetUrl)?.lastModified, latestVersionPublishedAt);
-  assert.equal(entryByUrl.get(percentFacetUrl)?.lastModified, latestVersionPublishedAt);
+  assert.equal(entryByUrl.get(rootUrl)?.lastModified, latestVersionUpdatedAt);
+  assert.equal(entryByUrl.get(packageUrl)?.lastModified, latestVersionUpdatedAt);
+  assert.equal(entryByUrl.get(authorUrl)?.lastModified, latestVersionUpdatedAt);
+  assert.equal(entryByUrl.get(collectionUrl)?.lastModified, latestVersionUpdatedAt);
+  assert.equal(entryByUrl.get(languageFacetUrl)?.lastModified, latestVersionUpdatedAt);
+  assert.equal(entryByUrl.get(percentFacetUrl)?.lastModified, latestVersionUpdatedAt);
   assert.equal(
     entryByUrl.get(authorIndexUrl)?.lastModified,
     "2026-08-02T10:00:00.000Z",
   );
   assert.equal(
     entryByUrl.get(collectionIndexUrl)?.lastModified,
-    "2026-08-02T11:00:00.000Z",
+    "2026-08-02T11:30:00.000Z",
   );
   assert.ok(entryByUrl.has(percentFacetUrl));
   assert.equal(
@@ -599,14 +721,14 @@ test("includes collection-only tags in static facets without inventing package m
 
   assert.equal(
     collectionOnlyFacet?.lastModified,
-    "2026-08-02T11:00:00.000Z",
+    "2026-08-02T11:30:00.000Z",
   );
 });
 
 test("excludes orphan authors and collections from browse controls", () => {
   const input = createValidDump();
   input.authors.push({
-    authorId: "author-orphan",
+    authorId: orphanAuthorId,
     slug: "author-orphan",
     displayName: "Orphan Author",
     bio: null,
@@ -616,7 +738,7 @@ test("excludes orphan authors and collections from browse controls", () => {
   const model = createPublicCatalogReadModel(parsePublicCatalogDump(input));
   const orphanCollection = {
     ...input.collections[0],
-    collectionId: "collection-orphan",
+    collectionId: orphanCollectionId,
     slug: "orphan-collection",
     title: "Orphan Collection",
   };
@@ -696,10 +818,10 @@ test("allows Markdown and autolinks but rejects raw HTML", () => {
 
 test("rejects URL dot segments in every package and collection facet field", () => {
   const cases = [
-    { entity: "packages", field: "languageTags", value: "." },
-    { entity: "packages", field: "languageTags", value: ".." },
-    { entity: "packages", field: "topicTags", value: "." },
-    { entity: "packages", field: "topicTags", value: ".." },
+    { entity: "packageVersions", field: "languageTags", value: "." },
+    { entity: "packageVersions", field: "languageTags", value: ".." },
+    { entity: "packageVersions", field: "topicTags", value: "." },
+    { entity: "packageVersions", field: "topicTags", value: ".." },
     { entity: "collections", field: "languageTags", value: "." },
     { entity: "collections", field: "languageTags", value: ".." },
     { entity: "collections", field: "topicTags", value: "." },
@@ -737,15 +859,15 @@ test("accepts non-segment facet values that contain dots or collision characters
   ];
   const input = createValidDump();
 
-  input.packages[0].languageTags = validTags;
-  input.packages[0].topicTags = validTags;
+  input.packageVersions[1].languageTags = validTags;
+  input.packageVersions[1].topicTags = validTags;
   input.collections[0].languageTags = validTags;
   input.collections[0].topicTags = validTags;
 
   const dump = parsePublicCatalogDump(input);
 
-  assert.deepEqual(dump.packages[0]?.languageTags, validTags);
-  assert.deepEqual(dump.packages[0]?.topicTags, validTags);
+  assert.deepEqual(dump.packageVersions[1]?.languageTags, validTags);
+  assert.deepEqual(dump.packageVersions[1]?.topicTags, validTags);
   assert.deepEqual(dump.collections[0]?.languageTags, validTags);
   assert.deepEqual(dump.collections[0]?.topicTags, validTags);
 });
@@ -763,8 +885,8 @@ test("rejects raw and recursively encoded controls or backslashes in every facet
     "%255C",
   ];
   const fields = [
-    { entity: "packages", field: "languageTags" },
-    { entity: "packages", field: "topicTags" },
+    { entity: "packageVersions", field: "languageTags" },
+    { entity: "packageVersions", field: "topicTags" },
     { entity: "collections", field: "languageTags" },
     { entity: "collections", field: "topicTags" },
   ] as const;
@@ -792,13 +914,31 @@ test("rejects raw and recursively encoded controls or backslashes in every facet
   });
 });
 
-test("validates package and version identifiers as bounded opaque values", () => {
+test("rejects ill-formed Unicode before creating static facet aliases", () => {
+  const packageInput = createValidDump();
+  packageInput.packageVersions[1].topicTags = ["broken-\uD800"];
+
+  assert.throws(
+    () => parsePublicCatalogDump(packageInput),
+    /packageVersions\[1\]\.topicTags\[0\] must be well-formed Unicode/,
+  );
+
+  const collectionInput = createValidDump();
+  collectionInput.collections[0].languageTags = ["broken-\uDFFF"];
+
+  assert.throws(
+    () => parsePublicCatalogDump(collectionInput),
+    /collections\[0\]\.languageTags\[0\] must be well-formed Unicode/,
+  );
+});
+
+test("validates every snapshot identifier as a UUID", () => {
   const invalidPackageId = createValidDump();
 
   invalidPackageId.packages[0].packageId = "authored package slug";
   assert.throws(
     () => parsePublicCatalogDump(invalidPackageId),
-    /packages\[0\]\.packageId must be a bounded opaque identifier.*received=authored package slug/,
+    /packages\[0\]\.packageId must be a UUID.*received=authored package slug/,
   );
 
   const invalidVersionId = createValidDump();
@@ -806,7 +946,7 @@ test("validates package and version identifiers as bounded opaque values", () =>
   invalidVersionId.packageVersions[0].packageVersionId = "v".repeat(129);
   assert.throws(
     () => parsePublicCatalogDump(invalidVersionId),
-    /packageVersions\[0\]\.packageVersionId must be a bounded opaque identifier/,
+    /packageVersions\[0\]\.packageVersionId must be a UUID/,
   );
 
   const uuidInput = createValidDump();
@@ -815,7 +955,7 @@ test("validates package and version identifiers as bounded opaque values", () =>
   const latestVersionId = "123e4567-e89b-12d3-a456-426614174002";
 
   uuidInput.packages[0].packageId = packageId;
-  uuidInput.packages[0].latestPublishedVersionId = latestVersionId;
+  uuidInput.packages[0].latestPackageVersionId = latestVersionId;
   uuidInput.packageVersions[0].packageId = packageId;
   uuidInput.packageVersions[0].packageVersionId = oldVersionId;
   uuidInput.packageVersions[1].packageId = packageId;
@@ -824,8 +964,7 @@ test("validates package and version identifiers as bounded opaque values", () =>
   uuidInput.cards[1].packageVersionId = latestVersionId;
   uuidInput.cards[2].packageVersionId = latestVersionId;
   uuidInput.mediaAssets.forEach((mediaAsset) => {
-    mediaAsset.packageId = packageId;
-    mediaAsset.packageVersionId = mediaAsset.packageMediaAssetId === "media-old"
+    mediaAsset.packageVersionId = mediaAsset.packageMediaAssetId === fixtureOldMediaId
       ? oldVersionId
       : latestVersionId;
   });
@@ -841,30 +980,30 @@ test("rejects duplicate ordinals within their parent", () => {
 
   assert.throws(
     () => parsePublicCatalogDump(input),
-    /cards\.ordinal contains duplicate ordinal 2 for version-2/,
+    new RegExp(`cards\\.ordinal contains duplicate ordinal 2 for ${fixtureLatestVersionId}`),
   );
 });
 
 test("rejects broken latest-version, media, and collection references", () => {
   const missingLatestVersion = createValidDump();
-  missingLatestVersion.packages[0].latestPublishedVersionId = "missing-version";
+  missingLatestVersion.packages[0].latestPackageVersionId = missingVersionId;
   assert.throws(
     () => parsePublicCatalogDump(missingLatestVersion),
-    /references missing latest published version missing-version/,
+    new RegExp(`references missing latest package version ${missingVersionId}`),
   );
 
   const missingCardMedia = createValidDump();
-  missingCardMedia.cards[2].mediaAssetKeys = ["missing.webp"];
+  missingCardMedia.cards[2].mediaAssetIds = [missingMediaId];
   assert.throws(
     () => parsePublicCatalogDump(missingCardMedia),
-    /references missing media asset key missing.webp/,
+    new RegExp(`references missing media asset ${missingMediaId}`),
   );
 
   const missingCollectionPackage = createValidDump();
-  missingCollectionPackage.collectionPackages[0].packageId = "missing-package";
+  missingCollectionPackage.collectionPackages[0].packageId = missingPackageId;
   assert.throws(
     () => parsePublicCatalogDump(missingCollectionPackage),
-    /references missing package missing-package/,
+    new RegExp(`references missing package ${missingPackageId}`),
   );
 });
 
@@ -884,7 +1023,9 @@ test("rejects historical-version card count mismatches", () => {
 
   assert.throws(
     () => parsePublicCatalogDump(input),
-    /package version version-1 cardCount does not match its cards\. cardCount=2, cards=1/,
+    new RegExp(
+      `package version ${fixtureOldVersionId} cardCount does not match its cards\\. cardCount=2, cards=1`,
+    ),
   );
 });
 
@@ -1014,7 +1155,7 @@ test("keeps public alias-looking facet values distinct from internal static para
   const input = createValidDump();
   const collisionTags = ["__facet_invalid", "__facet_6869", "hi", "日本語 (100%)"];
 
-  input.packages[0].topicTags = collisionTags;
+  input.packageVersions[1].topicTags = collisionTags;
   input.collections[0].topicTags = collisionTags;
 
   const model = createPublicCatalogReadModel(parsePublicCatalogDump(input));
@@ -1037,7 +1178,7 @@ test("keeps public alias-looking facet values distinct from internal static para
 
 test("renders useful localized catalog Markdown from the public read model", () => {
   const input = createValidDump();
-  input.packages[0].title = "Canonical <package> *title*";
+  input.packageVersions[1].title = "Canonical <package> *title*";
   const model = createPublicCatalogReadModel(parsePublicCatalogDump(input));
   const pagePaths = listPublicCatalogMarkdownPagePaths(model);
   const packageDocument = renderPublicCatalogMarkdownDocument(
@@ -1063,7 +1204,7 @@ test("renders useful localized catalog Markdown from the public read model", () 
   assert.match(packageDocument.markdown, /Tarjetas: 2 tarjetas/);
   assert.match(
     packageDocument.markdown,
-    /https:\/\/app\.flashcards-open-source-app\.com\/catalog\/import\/version-2/,
+    new RegExp(`https://app\\.flashcards-open-source-app\\.com/catalog/import/${fixtureLatestVersionId}`),
   );
   assert.match(packageDocument.markdown, /Canonical \*\*package\*\* description/);
   assert.match(packageDocument.markdown, /First \*\*front\*\*/);
@@ -1089,7 +1230,7 @@ test("renders safe canonical links for authored URLs and delimiter-looking facet
   input.authors[0].websiteUrl = "https://example.com/author path)>?value=&gt;";
   input.packageVersions[1].installUrl =
     "https://app.flashcards-open-source-app.com/catalog/import/version 2)>%25";
-  input.packages[0].topicTags = [topicTag];
+  input.packageVersions[1].topicTags = [topicTag];
   input.collections[0].topicTags = [topicTag];
 
   const dump = parsePublicCatalogDump(input);
@@ -1131,7 +1272,7 @@ test("renders safe canonical links for authored URLs and delimiter-looking facet
 test("validates and localizes every authored Markdown destination form", async () => {
   const input = createValidDump();
 
-  input.packages[0].description = [
+  input.packageVersions[1].description = [
     "[Docs](/docs/getting-started/?view=full#section)",
     "",
     "[Already localized](/es/docs/api/#authentication)",
@@ -1221,9 +1362,9 @@ test("fails generated Markdown for unsafe authored destinations", () => {
   }>> = [
     {
       apply: (input) => {
-        input.packages[0].description = "[Unsafe](JaVaScRiPt:alert(1))";
+        input.packageVersions[1].description = "[Unsafe](JaVaScRiPt:alert(1))";
       },
-      expectedContext: /package package-1 description/,
+      expectedContext: /package [0-9a-f-]+ description/,
       pagePath: "catalog/packages/canonical-package",
     },
     {
@@ -1234,14 +1375,14 @@ test("fails generated Markdown for unsafe authored destinations", () => {
           "[reference]: %6Aavascript:alert(1)",
         ].join("\n");
       },
-      expectedContext: /collection collection-1 description/,
+      expectedContext: /collection [0-9a-f-]+ description/,
       pagePath: "catalog/collections/starter-collection",
     },
     {
       apply: (input) => {
         input.cards[2].frontText = "![Unsafe](data:text/html;base64,PHNjcmlwdD4=)";
       },
-      expectedContext: /card card-1 frontText/,
+      expectedContext: /card [0-9a-f-]+ frontText/,
       pagePath: "catalog/packages/canonical-package",
     },
     {
@@ -1252,28 +1393,28 @@ test("fails generated Markdown for unsafe authored destinations", () => {
           "[image]: //evil.example/image.png",
         ].join("\n");
       },
-      expectedContext: /card card-1 backText/,
+      expectedContext: /card [0-9a-f-]+ backText/,
       pagePath: "catalog/packages/canonical-package",
     },
     {
       apply: (input) => {
-        input.packages[0].description = "[Unsafe](file:///etc/passwd)";
+        input.packageVersions[1].description = "[Unsafe](file:///etc/passwd)";
       },
-      expectedContext: /package package-1 description/,
+      expectedContext: /package [0-9a-f-]+ description/,
       pagePath: "catalog/packages/canonical-package",
     },
     {
       apply: (input) => {
         input.collections[0].description = "[Unsafe](https://example.com/%0Ahidden)";
       },
-      expectedContext: /collection collection-1 description/,
+      expectedContext: /collection [0-9a-f-]+ description/,
       pagePath: "catalog/collections/starter-collection",
     },
     {
       apply: (input) => {
-        input.packages[0].description = "[Unsafe](https://example.com/%250Ahidden)";
+        input.packageVersions[1].description = "[Unsafe](https://example.com/%250Ahidden)";
       },
-      expectedContext: /package package-1 description/,
+      expectedContext: /package [0-9a-f-]+ description/,
       pagePath: "catalog/packages/canonical-package",
     },
     {
@@ -1284,14 +1425,14 @@ test("fails generated Markdown for unsafe authored destinations", () => {
           "[reference]: https://example.com/%25250a",
         ].join("\n");
       },
-      expectedContext: /collection collection-1 description/,
+      expectedContext: /collection [0-9a-f-]+ description/,
       pagePath: "catalog/collections/starter-collection",
     },
     {
       apply: (input) => {
         input.cards[2].frontText = "![Unsafe](https://example.com/%2509image.png)";
       },
-      expectedContext: /card card-1 frontText/,
+      expectedContext: /card [0-9a-f-]+ frontText/,
       pagePath: "catalog/packages/canonical-package",
     },
     {
@@ -1302,49 +1443,49 @@ test("fails generated Markdown for unsafe authored destinations", () => {
           "[image]: https://example.com/%257Fimage.png",
         ].join("\n");
       },
-      expectedContext: /card card-1 backText/,
+      expectedContext: /card [0-9a-f-]+ backText/,
       pagePath: "catalog/packages/canonical-package",
     },
     {
       apply: (input) => {
         input.cards[2].frontText = "<https://example.com/%25%30%41>";
       },
-      expectedContext: /card card-1 frontText/,
+      expectedContext: /card [0-9a-f-]+ frontText/,
       pagePath: "catalog/packages/canonical-package",
     },
     {
       apply: (input) => {
-        input.packages[0].description = "[Unsafe](/docs/%250A/private/)";
+        input.packageVersions[1].description = "[Unsafe](/docs/%250A/private/)";
       },
-      expectedContext: /package package-1 description/,
+      expectedContext: /package [0-9a-f-]+ description/,
       pagePath: "catalog/packages/canonical-package",
     },
     {
       apply: (input) => {
         input.collections[0].description = "[Unsafe](#section%2509)";
       },
-      expectedContext: /collection collection-1 description/,
+      expectedContext: /collection [0-9a-f-]+ description/,
       pagePath: "catalog/collections/starter-collection",
     },
     {
       apply: (input) => {
         input.cards[2].frontText = "[Unsafe](jav\u0000ascript:alert(1))";
       },
-      expectedContext: /card card-1 frontText/,
+      expectedContext: /card [0-9a-f-]+ frontText/,
       pagePath: "catalog/packages/canonical-package",
     },
     {
       apply: (input) => {
-        input.packages[0].description = "[Unsafe](/docs/%ZZ)";
+        input.packageVersions[1].description = "[Unsafe](/docs/%ZZ)";
       },
-      expectedContext: /package package-1 description/,
+      expectedContext: /package [0-9a-f-]+ description/,
       pagePath: "catalog/packages/canonical-package",
     },
     {
       apply: (input) => {
         input.collections[0].description = "[Unsafe](/docs/%2e%2e/private/)";
       },
-      expectedContext: /collection collection-1 description/,
+      expectedContext: /collection [0-9a-f-]+ description/,
       pagePath: "catalog/collections/starter-collection",
     },
   ];
@@ -1376,7 +1517,7 @@ test("rejects every supported authored footnote construct before serialization",
   }>> = [
     {
       apply: (input) => {
-        input.packages[0].description = [
+        input.packageVersions[1].description = [
           "Before the footnote.",
           "",
           "[^unsafe]: [Unsafe](javascript:alert(1))",
@@ -1384,7 +1525,7 @@ test("rejects every supported authored footnote construct before serialization",
           "After the footnote.[^unsafe]",
         ].join("\n");
       },
-      expectedContext: /package package-1 description/,
+      expectedContext: /package [0-9a-f-]+ description/,
       expectedNodeType: "footnoteDefinition",
       pagePath: "catalog/packages/canonical-package",
     },
@@ -1392,7 +1533,7 @@ test("rejects every supported authored footnote construct before serialization",
       apply: (input) => {
         input.cards[2].frontText = "Normal neighboring content.[^missing]";
       },
-      expectedContext: /card card-1 frontText/,
+      expectedContext: /card [0-9a-f-]+ frontText/,
       expectedNodeType: "footnoteReference",
       pagePath: "catalog/packages/canonical-package",
     },
@@ -1404,7 +1545,7 @@ test("rejects every supported authored footnote construct before serialization",
           "[^duplicate]: Second definition.",
         ].join("\n");
       },
-      expectedContext: /collection collection-1 description/,
+      expectedContext: /collection [0-9a-f-]+ description/,
       expectedNodeType: "footnoteDefinition",
       pagePath: "catalog/collections/starter-collection",
     },
@@ -1413,7 +1554,7 @@ test("rejects every supported authored footnote construct before serialization",
         input.cards[2].frontText = "A reference from one card.[^shared]";
         input.cards[2].backText = "[^shared]: A definition in its sibling fragment.";
       },
-      expectedContext: /card card-1 frontText/,
+      expectedContext: /card [0-9a-f-]+ frontText/,
       expectedNodeType: "footnoteReference",
       pagePath: "catalog/packages/canonical-package",
     },
@@ -1438,7 +1579,7 @@ test("rejects every supported authored footnote construct before serialization",
 
   const safeInput = createValidDump();
 
-  safeInput.packages[0].description = [
+  safeInput.packageVersions[1].description = [
     "Normal neighboring content.",
     "",
     "Escaped footnote-like text: \\[^literal].",
@@ -1468,27 +1609,27 @@ test("rejects raw and repeatedly encoded backslashes in every Markdown destinati
   }>> = [
     {
       apply: (input) => {
-        input.packages[0].description = "[Inline](https:\\\\evil.example\\path)";
+        input.packageVersions[1].description = "[Inline](https:\\\\evil.example\\path)";
       },
-      expectedContext: /package package-1 description/,
+      expectedContext: /package [0-9a-f-]+ description/,
       pagePath: "catalog/packages/canonical-package",
     },
     {
       apply: (input) => {
-        input.packages[0].description = [
+        input.packageVersions[1].description = [
           "[Reference][unsafe]",
           "",
           "[unsafe]: https://example.com/%5Cpath",
         ].join("\n");
       },
-      expectedContext: /package package-1 description/,
+      expectedContext: /package [0-9a-f-]+ description/,
       pagePath: "catalog/packages/canonical-package",
     },
     {
       apply: (input) => {
         input.cards[2].frontText = "![Inline image](https://example.com/%5cpath)";
       },
-      expectedContext: /card card-1 frontText/,
+      expectedContext: /card [0-9a-f-]+ frontText/,
       pagePath: "catalog/packages/canonical-package",
     },
     {
@@ -1499,35 +1640,35 @@ test("rejects raw and repeatedly encoded backslashes in every Markdown destinati
           "[unsafe]: https://example.com/%255Cpath",
         ].join("\n");
       },
-      expectedContext: /card card-1 backText/,
+      expectedContext: /card [0-9a-f-]+ backText/,
       pagePath: "catalog/packages/canonical-package",
     },
     {
       apply: (input) => {
         input.collections[0].description = "<https://example.com/%25255cpath>";
       },
-      expectedContext: /collection collection-1 description/,
+      expectedContext: /collection [0-9a-f-]+ description/,
       pagePath: "catalog/collections/starter-collection",
     },
     {
       apply: (input) => {
         input.collections[0].description = "[Root path](/docs/%255C../private)";
       },
-      expectedContext: /collection collection-1 description/,
+      expectedContext: /collection [0-9a-f-]+ description/,
       pagePath: "catalog/collections/starter-collection",
     },
     {
       apply: (input) => {
-        input.packages[0].description = "[Authority confusion](https:%5C%5Cevil.example/path)";
+        input.packageVersions[1].description = "[Authority confusion](https:%5C%5Cevil.example/path)";
       },
-      expectedContext: /package package-1 description/,
+      expectedContext: /package [0-9a-f-]+ description/,
       pagePath: "catalog/packages/canonical-package",
     },
     {
       apply: (input) => {
         input.cards[2].frontText = "[Mixed encodings](https://example.com/%25255C%255cpath)";
       },
-      expectedContext: /card card-1 frontText/,
+      expectedContext: /card [0-9a-f-]+ frontText/,
       pagePath: "catalog/packages/canonical-package",
     },
   ];
@@ -1677,8 +1818,19 @@ test("renders localized collection membership as one semantic ordered list", () 
   const input = createValidDump();
 
   input.packages.push({
-    packageId: "package-2",
-    authorId: "author-1",
+    packageId: fixtureSecondPackageId,
+    authorId: fixtureAuthorId,
+    slug: "second-package",
+    status: "published",
+    latestPackageVersionId: fixtureSecondVersionId,
+    versionCount: 1,
+    publishedAt: "2026-08-02T11:30:00.000Z",
+  });
+  input.packageVersions.push({
+    packageVersionId: fixtureSecondVersionId,
+    packageId: fixtureSecondPackageId,
+    versionNumber: 1,
+    status: "published",
     slug: "second-package",
     title: "Second package",
     summary: "Second summary",
@@ -1687,24 +1839,15 @@ test("renders localized collection membership as one semantic ordered list", () 
     topicTags: ["history"],
     license: "CC0-1.0",
     contentWarning: null,
-    coverPackageMediaKey: null,
-    latestPublishedVersionId: "version-3",
-    publishedAt: "2026-08-02T11:30:00.000Z",
-  });
-  input.packageVersions.push({
-    packageVersionId: "version-3",
-    packageId: "package-2",
-    versionNumber: 1,
-    title: "Second package",
-    summary: "Second summary",
-    description: "Second description",
+    coverMediaAssetId: null,
     cardCount: 0,
+    updatedAt: "2026-08-02T11:30:00.000Z",
     publishedAt: "2026-08-02T11:30:00.000Z",
-    installUrl: "https://app.flashcards-open-source-app.com/catalog/import/version-3",
+    installUrl: `https://app.flashcards-open-source-app.com/catalog/import/${fixtureSecondVersionId}`,
   });
   input.collectionPackages.push({
-    collectionId: "collection-1",
-    packageId: "package-2",
+    collectionId: fixtureCollectionId,
+    packageId: fixtureSecondPackageId,
     ordinal: 2,
   });
 
@@ -1736,7 +1879,7 @@ test("renders localized collection membership as one semantic ordered list", () 
 test("isolates authored Markdown fragments from generated and sibling content", () => {
   const input = createValidDump();
 
-  input.packages[0].description = "Description code\n\n```text\nunclosed";
+  input.packageVersions[1].description = "Description code\n\n```text\nunclosed";
   input.cards[2].frontText = [
     "[Local reference][shared]",
     "",
@@ -1781,7 +1924,7 @@ test("isolates authored Markdown fragments from generated and sibling content", 
 test("renders authored images as inert content in generated catalog Markdown", () => {
   const input = createValidDump();
 
-  input.packages[0].description = [
+  input.packageVersions[1].description = [
     "![Package tracker](https://tracker.example/package.gif)",
     "",
     "[**![Linked package tracker](https://tracker.example/linked-package.gif)**](https://example.com/package-link)",
@@ -1872,6 +2015,7 @@ test("renders catalog Markdown with safe images and nested heading depths", asyn
       "![Card tracker](https://tracker.example/card.gif)",
     ].join("\n"),
     "en",
+    new Map(),
     "Public catalog card card-1 frontText",
   );
   const combinedHtml = `${packageDescriptionHtml}\n${collectionDescriptionHtml}\n${cardHtml}`;
@@ -1896,6 +2040,28 @@ test("renders catalog Markdown with safe images and nested heading depths", asyn
   assert.match(
     packageDescriptionHtml,
     /href="https:\/\/example\.com\/package"[^>]*>Ordinary link<\/a>/u,
+  );
+});
+
+test("resolves only card-authorized managed media to public download URLs", async () => {
+  const downloadUrl =
+    `https://api.flashcards-open-source-app.com/v1/catalog/package-versions/${fixtureLatestVersionId}/media-assets/inline.webp/download`;
+  const html = await renderPublicCatalogCardMarkdownToHtml(
+    "![Managed media](fcasset:inline.webp)",
+    "en",
+    new Map([["inline.webp", downloadUrl]]),
+    `Public catalog card ${fixtureFirstCardId} frontText`,
+  );
+
+  assert.match(html, new RegExp(`href="${downloadUrl}"[^>]*>Managed media</a>`));
+  await assert.rejects(
+    renderPublicCatalogCardMarkdownToHtml(
+      "![Missing media](fcasset:missing.webp)",
+      "en",
+      new Map(),
+      `Public catalog card ${fixtureFirstCardId} frontText`,
+    ),
+    /references unauthorized or missing media asset missing\.webp/,
   );
 });
 
@@ -1928,7 +2094,7 @@ test("preserves enclosing links around authored images", async () => {
 test("preserves supported GFM semantics while isolating authored fragments", async () => {
   const input = createValidDump();
 
-  input.packages[0].description = [
+  input.packageVersions[1].description = [
     "~~Removed text~~",
     "",
     "- [x] Completed task",
@@ -1971,7 +2137,7 @@ test("preserves supported GFM semantics while isolating authored fragments", asy
 
 test("keeps percent-encoded and literal-percent catalog Markdown assets distinct", () => {
   const input = createValidDump();
-  input.packages[0].topicTags = ["history world", "history%20world", "100%"];
+  input.packageVersions[1].topicTags = ["history world", "history%20world", "100%"];
   input.collections[0].topicTags = ["history world", "history%20world", "100%"];
   const model = createPublicCatalogReadModel(parsePublicCatalogDump(input));
   const pagePaths = listPublicCatalogMarkdownPagePaths(model);

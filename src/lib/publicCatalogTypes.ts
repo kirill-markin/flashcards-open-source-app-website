@@ -1,16 +1,5 @@
 export const publicCatalogSchemaVersion = 1;
 
-export type PublicCatalogJsonPrimitive = string | number | boolean | null;
-
-export type PublicCatalogJsonValue =
-  | PublicCatalogJsonPrimitive
-  | PublicCatalogJsonObject
-  | ReadonlyArray<PublicCatalogJsonValue>;
-
-export type PublicCatalogJsonObject = Readonly<{
-  [key: string]: PublicCatalogJsonValue;
-}>;
-
 export type PublicCatalogAuthor = Readonly<{
   authorId: string;
   slug: string;
@@ -23,15 +12,9 @@ export type PublicCatalogPackage = Readonly<{
   packageId: string;
   authorId: string;
   slug: string;
-  title: string;
-  summary: string;
-  description: string;
-  languageTags: ReadonlyArray<string>;
-  topicTags: ReadonlyArray<string>;
-  license: string;
-  contentWarning: string | null;
-  coverPackageMediaKey: string | null;
-  latestPublishedVersionId: string;
+  status: "published";
+  latestPackageVersionId: string;
+  versionCount: number;
   publishedAt: string;
 }>;
 
@@ -39,10 +22,18 @@ export type PublicCatalogPackageVersion = Readonly<{
   packageVersionId: string;
   packageId: string;
   versionNumber: number;
+  status: "published";
+  slug: string;
   title: string;
   summary: string;
   description: string;
+  languageTags: ReadonlyArray<string>;
+  topicTags: ReadonlyArray<string>;
+  license: string;
+  contentWarning: string | null;
+  coverMediaAssetId: string | null;
   cardCount: number;
+  updatedAt: string;
   publishedAt: string;
   installUrl: string;
 }>;
@@ -54,20 +45,20 @@ export type PublicCatalogCard = Readonly<{
   frontText: string;
   backText: string;
   cardType: string;
-  metadata: PublicCatalogJsonObject;
   tags: ReadonlyArray<string>;
-  mediaAssetKeys: ReadonlyArray<string>;
+  mediaAssetIds: ReadonlyArray<string>;
 }>;
 
 export type PublicCatalogMediaAsset = Readonly<{
   packageMediaAssetId: string;
-  packageId: string;
   packageVersionId: string;
   packageMediaKey: string;
-  altText: string;
+  altText: string | null;
   credit: string | null;
-  license: string;
-  downloadUrlPath: string;
+  license: string | null;
+  mimeType: string;
+  sizeBytes: number;
+  downloadUrl: string;
 }>;
 
 export type PublicCatalogCollection = Readonly<{
@@ -78,7 +69,9 @@ export type PublicCatalogCollection = Readonly<{
   description: string;
   languageTags: ReadonlyArray<string>;
   topicTags: ReadonlyArray<string>;
-  coverPackageId: string;
+  coverPackageId: string | null;
+  status: "published";
+  updatedAt: string;
   publishedAt: string;
 }>;
 
