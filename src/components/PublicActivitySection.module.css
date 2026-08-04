@@ -247,11 +247,45 @@
   outline-offset: 2px;
 }
 
-.chartPlotSvg {
-  display: block;
+.chartPlotSurface {
+  position: relative;
   inline-size: 100%;
   direction: ltr;
   unicode-bidi: isolate;
+}
+
+.chartPlotSvg {
+  display: block;
+  inline-size: 100%;
+  block-size: 100%;
+  direction: ltr;
+  unicode-bidi: isolate;
+}
+
+.dateLabelLayer {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  direction: ltr;
+  unicode-bidi: isolate;
+}
+
+.dateLabel {
+  position: absolute;
+  inset-block-end: 32px;
+  color: var(--text-tertiary);
+  font-size: 12px;
+  line-height: 1;
+  white-space: nowrap;
+  transform: rotate(-35deg);
+}
+
+.dateLabelStart {
+  transform-origin: 0 100%;
+}
+
+.dateLabelEnd {
+  transform-origin: 100% 100%;
 }
 
 .gridLine {
@@ -265,7 +299,6 @@
 
 .axisLabelStart,
 .axisLabelEnd,
-.dateLabel,
 .yAxisTitle {
   fill: var(--text-tertiary);
   font-size: 12px;
