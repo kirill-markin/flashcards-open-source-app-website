@@ -471,6 +471,7 @@ export function PublicCatalogBrowser({
             {renderedPackages.map((item) => (
               <PublicCatalogPackageCard
                 copy={copy}
+                coverSizes="(max-width: 640px) calc(100vw - 56px), (max-width: 980px) calc(50vw - 38px), 390px"
                 key={item.packageView.packageMetadata.packageId}
                 locale={locale}
                 packageView={item.packageView}

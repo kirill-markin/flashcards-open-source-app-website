@@ -30,6 +30,15 @@ const nextConfig: NextConfig = {
   trailingSlash: true,
   images: {
     formats: ["image/webp", "image/avif"],
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "api.flashcards-open-source-app.com",
+        port: "",
+        pathname: "/v1/catalog/package-versions/*/media-assets/*/download",
+        search: "",
+      },
+    ],
     unoptimized: false,
   },
   reactStrictMode: true,

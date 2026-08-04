@@ -33,6 +33,7 @@ import { hasRouteTranslation } from "./routeTranslations";
 interface MarkdownFragmentContext {
   readonly definitions: ReadonlyMap<string, Definition>;
   readonly locale: AppLocale;
+  readonly resolveDestination: (destination: string) => string;
   readonly sourceContext: string;
 }
 
@@ -78,32 +79,36 @@ function normalizeAuthoredMarkdownDestination(
   destination: string,
   context: MarkdownFragmentContext,
 ): string {
-  assertSafeMarkdownDestinationInput(destination, context.sourceContext);
+  const resolvedDestination = context.resolveDestination(destination);
 
-  if (destination.startsWith("#")) {
-    return destination;
+  assertSafeMarkdownDestinationInput(resolvedDestination, context.sourceContext);
+
+  if (resolvedDestination.startsWith("#")) {
+    return resolvedDestination;
   }
 
-  if (destination.startsWith("/")) {
-    if (destination.startsWith("//")) {
-      throw createInvalidDestinationError(context, destination);
+  if (resolvedDestination.startsWith("/")) {
+    if (resolvedDestination.startsWith("//")) {
+      throw createInvalidDestinationError(context, resolvedDestination);
     }
 
-    const suffixIndex = destination.search(/[?#]/u);
-    const pathname = suffixIndex === -1 ? destination : destination.slice(0, suffixIndex);
+    const suffixIndex = resolvedDestination.search(/[?#]/u);
+    const pathname = suffixIndex === -1
+      ? resolvedDestination
+      : resolvedDestination.slice(0, suffixIndex);
     const decodedPathname = decodeURI(pathname);
     const containsDotSegment = decodedPathname
       .split("/")
       .some((segment) => segment === "." || segment === "..");
 
-    const parsedDestination = new URL(destination, "https://catalog.invalid");
+    const parsedDestination = new URL(resolvedDestination, "https://catalog.invalid");
 
     if (
       decodedPathname === ""
       || containsDotSegment
       || parsedDestination.origin !== "https://catalog.invalid"
     ) {
-      throw createInvalidDestinationError(context, destination);
+      throw createInvalidDestinationError(context, resolvedDestination);
     }
 
     return localizeRootRelativeDestination(
@@ -115,9 +120,9 @@ function normalizeAuthoredMarkdownDestination(
   let parsedDestination: URL;
 
   try {
-    parsedDestination = new URL(destination);
+    parsedDestination = new URL(resolvedDestination);
   } catch {
-    throw createInvalidDestinationError(context, destination);
+    throw createInvalidDestinationError(context, resolvedDestination);
   }
 
   if (
@@ -125,7 +130,7 @@ function normalizeAuthoredMarkdownDestination(
     || parsedDestination.username !== ""
     || parsedDestination.password !== ""
   ) {
-    throw createInvalidDestinationError(context, destination);
+    throw createInvalidDestinationError(context, resolvedDestination);
   }
 
   return parsedDestination.toString();
@@ -555,6 +560,7 @@ function normalizePublicCatalogMarkdownFragment(
   markdown: string,
   minimumHeadingDepth: Heading["depth"],
   locale: AppLocale,
+  resolveDestination: (destination: string) => string,
   sourceContext: string,
 ): string {
   const processor = remark().use(gfm);
@@ -575,6 +581,7 @@ function normalizePublicCatalogMarkdownFragment(
         url: normalizeAuthoredMarkdownDestination(definition.url, {
           definitions,
           locale,
+          resolveDestination,
           sourceContext,
         }),
       },
@@ -583,6 +590,7 @@ function normalizePublicCatalogMarkdownFragment(
   const context: MarkdownFragmentContext = {
     definitions: normalizedDefinitions,
     locale,
+    resolveDestination,
     sourceContext,
   };
 
@@ -608,13 +616,41 @@ export function normalizePublicCatalogDescriptionMarkdownFragment(
   locale: AppLocale,
   sourceContext: string,
 ): string {
-  return normalizePublicCatalogMarkdownFragment(markdown, 3, locale, sourceContext);
+  return normalizePublicCatalogMarkdownFragment(
+    markdown,
+    3,
+    locale,
+    (destination) => destination,
+    sourceContext,
+  );
 }
 
 export function normalizePublicCatalogCardMarkdownFragment(
   markdown: string,
   locale: AppLocale,
+  mediaDownloadUrlByKey: ReadonlyMap<string, string>,
   sourceContext: string,
 ): string {
-  return normalizePublicCatalogMarkdownFragment(markdown, 4, locale, sourceContext);
+  return normalizePublicCatalogMarkdownFragment(
+    markdown,
+    4,
+    locale,
+    (destination) => {
+      if (destination.startsWith("fcasset:") === false) {
+        return destination;
+      }
+
+      const packageMediaKey = destination.slice("fcasset:".length);
+      const downloadUrl = mediaDownloadUrlByKey.get(packageMediaKey);
+
+      if (downloadUrl === undefined) {
+        throw new Error(
+          `${sourceContext} references unauthorized or missing media asset ${packageMediaKey}.`,
+        );
+      }
+
+      return downloadUrl;
+    },
+    sourceContext,
+  );
 }
