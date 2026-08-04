@@ -126,6 +126,7 @@ export function createPublicCatalogBrowseData(
           : {
               altText: packageView.coverMediaAsset.altText,
               downloadUrl: packageView.coverMediaAsset.downloadUrl,
+              mimeType: packageView.coverMediaAsset.mimeType,
             },
       },
       collections: [...collections].sort(compareChoices),
