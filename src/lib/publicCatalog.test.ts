@@ -14,6 +14,7 @@ import {
   parseMarkdownAssetManifest,
   serializeMarkdownAssetManifest,
 } from "./markdownAssetManifest";
+import { escapeMarkdownText } from "./markdownLinks";
 import { renderMarkdownDocument } from "./markdownServe";
 import { renderMarkdownToHtml } from "./content/renderMarkdownToHtml";
 import { getPublicCatalogAuthorBioExcerpt } from "./publicCatalogAuthor";
@@ -1206,6 +1207,10 @@ test("renders useful localized catalog Markdown from the public read model", () 
     model,
   );
   const rootDocument = renderPublicCatalogMarkdownDocument("catalog", model);
+  const localizedRootDocument = renderPublicCatalogMarkdownDocument(
+    "ar/catalog",
+    model,
+  );
   const collectionDocument = renderPublicCatalogMarkdownDocument(
     "catalog/collections/starter-collection",
     model,
@@ -1234,6 +1239,25 @@ test("renders useful localized catalog Markdown from the public read model", () 
   );
   assert.ok(rootDocument);
   assert.equal(rootDocument.markdown.includes("/catalog/import/"), false);
+  const rootCopy = getPublicCatalogUiCopy("en");
+  [
+    rootCopy.constructionNoticeLabel,
+    rootCopy.constructionNoticeTitle,
+    rootCopy.constructionNoticeBody,
+  ].forEach((noticeCopy) => {
+    assert.ok(rootDocument.markdown.includes(escapeMarkdownText(noticeCopy)));
+  });
+  assert.ok(localizedRootDocument);
+  const localizedRootCopy = getPublicCatalogUiCopy("ar");
+  [
+    localizedRootCopy.constructionNoticeLabel,
+    localizedRootCopy.constructionNoticeTitle,
+    localizedRootCopy.constructionNoticeBody,
+  ].forEach((noticeCopy) => {
+    assert.ok(
+      localizedRootDocument.markdown.includes(escapeMarkdownText(noticeCopy)),
+    );
+  });
   assert.ok(collectionDocument);
   assert.match(collectionDocument.markdown, /Collection \*\*description\*\*/);
   assert.match(collectionDocument.markdown, /1\. \[Canonical/);
