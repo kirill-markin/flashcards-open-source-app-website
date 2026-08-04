@@ -29,12 +29,21 @@ export function getPublicCatalogCoverPlaceholderAccessibleLabel(
   return `${title}: ${placeholderLabel}`;
 }
 
+function isPublicCatalogCoverImageMimeType(mimeType: string): boolean {
+  return mimeType === "image/jpeg"
+    || mimeType === "image/png"
+    || mimeType === "image/webp";
+}
+
 export function getPublicCatalogCoverRenderData(
   title: string,
   coverMediaAsset: PublicCatalogCoverMediaAsset | null,
   placeholderLabel: string,
 ): PublicCatalogCoverRenderData {
-  if (coverMediaAsset === null) {
+  if (
+    coverMediaAsset === null
+    || isPublicCatalogCoverImageMimeType(coverMediaAsset.mimeType) === false
+  ) {
     return {
       accessibleLabel: getPublicCatalogCoverPlaceholderAccessibleLabel(
         title,

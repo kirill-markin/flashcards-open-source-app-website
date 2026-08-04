@@ -336,6 +336,7 @@ test("parses the schema and builds latest-version-only lookup data", () => {
       altText: "Cover image",
       downloadUrl:
         `https://api.flashcards-open-source-app.com/v1/catalog/package-versions/${fixtureLatestVersionId}/media-assets/cover.webp/download`,
+      mimeType: "image/webp",
     },
   );
   assert.deepEqual(
@@ -344,6 +345,7 @@ test("parses the schema and builds latest-version-only lookup data", () => {
       altText: "Cover image",
       downloadUrl:
         `https://api.flashcards-open-source-app.com/v1/catalog/package-versions/${fixtureLatestVersionId}/media-assets/cover.webp/download`,
+      mimeType: "image/webp",
     },
   );
   assert.equal(packageView.latestVersion.description, "Canonical **package** description");
@@ -2370,7 +2372,7 @@ test("builds catalog cover render data for images and placeholders", () => {
   assert.deepEqual(
     getPublicCatalogCoverRenderData(
       "Package title",
-      { altText: " Authored cover text ", downloadUrl },
+      { altText: " Authored cover text ", downloadUrl, mimeType: "image/webp" },
       "Cover preview unavailable",
     ),
     {
@@ -2382,13 +2384,25 @@ test("builds catalog cover render data for images and placeholders", () => {
   assert.deepEqual(
     getPublicCatalogCoverRenderData(
       "Package title",
-      { altText: null, downloadUrl },
+      { altText: null, downloadUrl, mimeType: "image/webp" },
       "Cover preview unavailable",
     ),
     {
       altText: "Package title",
       downloadUrl,
       kind: "image",
+    },
+  );
+  assert.deepEqual(
+    getPublicCatalogCoverRenderData(
+      "Package title",
+      { altText: "Document", downloadUrl, mimeType: "application/pdf" },
+      "Cover preview unavailable",
+    ),
+    {
+      accessibleLabel: "Package title: Cover preview unavailable",
+      initial: "P",
+      kind: "placeholder",
     },
   );
   assert.deepEqual(
@@ -2403,6 +2417,38 @@ test("builds catalog cover render data for images and placeholders", () => {
       kind: "placeholder",
     },
   );
+});
+
+test("uses placeholders when package and collection covers reference non-image media", () => {
+  const input = createValidDump();
+  const coverMediaAsset = input.mediaAssets.find(
+    (mediaAsset) => mediaAsset.packageMediaAssetId === fixtureCoverMediaId,
+  );
+
+  assert.ok(coverMediaAsset);
+  coverMediaAsset.mimeType = "application/pdf";
+
+  const model = createPublicCatalogReadModel(parsePublicCatalogDump(input));
+  const packageView = getPublicCatalogPackageBySlug(model, "canonical-package");
+  const collection = getPublicCatalogCollectionBySlug(model, "starter-collection");
+
+  assert.ok(packageView);
+  assert.ok(collection);
+
+  [
+    getPublicCatalogCoverRenderData(
+      packageView.latestVersion.title,
+      packageView.coverMediaAsset,
+      "Cover preview unavailable",
+    ),
+    getPublicCatalogCoverRenderData(
+      collection.title,
+      getPublicCatalogCollectionCoverMediaAsset(model, collection),
+      "Cover preview unavailable",
+    ),
+  ].forEach((renderData) => {
+    assert.equal(renderData.kind, "placeholder");
+  });
 });
 
 test("formats catalog cover initials without environment-specific locale casing", () => {
