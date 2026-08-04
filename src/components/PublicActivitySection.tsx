@@ -33,6 +33,7 @@ type ChartShellProps = Readonly<{
 type ChartFrameProps = Readonly<{
   ariaLabel: string;
   children: React.ReactNode;
+  dateLabels: React.ReactNode;
   latestDate: string;
   locale: AppLocale;
   maxValue: number;
@@ -174,7 +175,6 @@ const chartXAxisTitleHeight = 28;
 const chartPlotWidth = chartWidth - chartMargin.inlineStart - chartMargin.inlineEnd;
 const chartPlotHeight = chartHeight - chartXAxisTitleHeight;
 const chartFrameHeight = chartHeight - chartMargin.top - chartMargin.bottom;
-const chartDateLabelBottomClearance = 32;
 const minimumChartDaySlotSize = 5;
 const minimumChartPlotWidth = 660;
 const startDateLabelInset = 10;
@@ -722,6 +722,7 @@ function ChartYAxis({
 function ChartFrame({
   ariaLabel,
   children,
+  dateLabels,
   latestDate,
   locale,
   maxValue,
@@ -743,20 +744,27 @@ function ChartFrame({
         className={styles.chartPlotScroller}
         latestDate={latestDate}
       >
-        <svg
-          className={styles.chartPlotSvg}
+        <div
+          className={styles.chartPlotSurface}
           style={{
             blockSize: chartPlotHeight,
             minInlineSize: minimumPlotWidth,
           }}
-          viewBox={`0 0 ${chartPlotWidth} ${chartPlotHeight}`}
-          preserveAspectRatio="none"
-          role="img"
-          aria-label={ariaLabel}
         >
-          <ChartGrid ticks={ticks} maxValue={maxValue} />
-          {children}
-        </svg>
+          <svg
+            className={styles.chartPlotSvg}
+            viewBox={`0 0 ${chartPlotWidth} ${chartPlotHeight}`}
+            preserveAspectRatio="none"
+            role="img"
+            aria-label={ariaLabel}
+          >
+            <ChartGrid ticks={ticks} maxValue={maxValue} />
+            {children}
+          </svg>
+          <div className={styles.dateLabelLayer} aria-hidden="true">
+            {dateLabels}
+          </div>
+        </div>
       </ActivityChartScroller>
       <ChartYAxis
         locale={locale}
@@ -777,8 +785,6 @@ function ChartDateLabels({
   dates,
   locale,
 }: ChartDateLabelsProps): React.JSX.Element {
-  const labelY = chartPlotHeight - chartDateLabelBottomClearance;
-
   return (
     <>
       {dates.map((date, index) => {
@@ -792,18 +798,21 @@ function ChartDateLabels({
         const labelX = isStartEdgeLabel
           ? Math.max(startDateLabelInset, point.centerX)
           : point.centerX;
+        const normalizedX = labelX / chartPlotWidth;
 
         return (
-          <text
+          <span
             key={`date-${date}`}
-            x={labelX}
-            y={labelY}
-            className={styles.dateLabel}
-            style={{ textAnchor: isStartEdgeLabel ? "start" : "end" }}
-            transform={`rotate(-35 ${labelX} ${labelY})`}
+            className={`${styles.dateLabel} ${
+              isStartEdgeLabel ? styles.dateLabelStart : styles.dateLabelEnd
+            }`}
+            dir="ltr"
+            style={isStartEdgeLabel
+              ? { insetInlineStart: `${normalizedX * 100}%` }
+              : { insetInlineEnd: `${(1 - normalizedX) * 100}%` }}
           >
             {formatCompactDate(locale, date)}
-          </text>
+          </span>
         );
       })}
     </>
@@ -835,6 +844,7 @@ function DailyUniqueUsersChart({
   return (
     <ChartFrame
       ariaLabel={ariaLabel}
+      dateLabels={<ChartDateLabels points={points} dates={tickDates} locale={locale} />}
       latestDate={latestDate}
       locale={locale}
       maxValue={maxUniqueUsers}
@@ -876,9 +886,6 @@ function DailyUniqueUsersChart({
           })}
         </g>
       ))}
-
-      <ChartDateLabels points={points} dates={tickDates} locale={locale} />
-
       {points.map((point) => (
         <g key={`unique-users-tooltip-day-${point.date}`}>
           {point.segments.map((segment) => {
@@ -963,6 +970,7 @@ function PlatformActivityChart({
   return (
     <ChartFrame
       ariaLabel={ariaLabel}
+      dateLabels={<ChartDateLabels points={points} dates={tickDates} locale={locale} />}
       latestDate={latestDate}
       locale={locale}
       maxValue={maxReviewEvents}
@@ -1004,9 +1012,6 @@ function PlatformActivityChart({
           })}
         </g>
       ))}
-
-      <ChartDateLabels points={points} dates={tickDates} locale={locale} />
-
       {points.map((point) => (
         <g key={`platform-tooltip-day-${point.date}`}>
           {point.segments.map((segment) => {
