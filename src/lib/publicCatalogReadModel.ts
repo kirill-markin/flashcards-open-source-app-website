@@ -19,7 +19,7 @@ export type PublicCatalogPackageView = Readonly<{
 
 export type PublicCatalogCoverMediaAsset = Pick<
   PublicCatalogMediaAsset,
-  "altText" | "downloadUrl"
+  "altText" | "downloadUrl" | "mimeType"
 >;
 
 export type PublicCatalogPackageCardView = Readonly<{
@@ -193,6 +193,7 @@ export function createPublicCatalogReadModel(dump: PublicCatalogDump): PublicCat
           : {
               altText: coverMediaAsset.altText,
               downloadUrl: coverMediaAsset.downloadUrl,
+              mimeType: coverMediaAsset.mimeType,
             },
       ];
     }),
