@@ -33,6 +33,7 @@ import {
   normalizePublicCatalogCardMarkdownFragment,
   normalizePublicCatalogDescriptionMarkdownFragment,
 } from "./publicCatalogMarkdownFragment";
+import { getPublicCatalogCardMediaDownloadUrls } from "./publicCatalogCardMedia";
 import {
   getPublicCatalogAuthorRoutePathname,
   getPublicCatalogCollectionRoutePathname,
@@ -91,15 +92,15 @@ function renderPackageFacts(
     )}`,
     `- ${copy.versionLabel}: ${formatPublicCatalogNumber(locale, latestVersion.versionNumber)}`,
     `- ${copy.cardsLabel}: ${formatPublicCatalogCardCount(locale, latestVersion.cardCount, copy)}`,
-    `- ${copy.licenseLabel}: ${escapeMarkdownText(packageMetadata.license)}`,
+    `- ${copy.licenseLabel}: ${escapeMarkdownText(latestVersion.license)}`,
     `- ${copy.publishedLabel}: ${formatPublicCatalogDate(locale, packageMetadata.publishedAt)}`,
-    `- ${copy.languagesLabel}: ${joinLinks(packageMetadata.languageTags.map((languageTag) =>
+    `- ${copy.languagesLabel}: ${joinLinks(latestVersion.languageTags.map((languageTag) =>
       createLocalizedCatalogLink(
         languageTag,
         locale,
         getPublicCatalogLanguageRoutePathname(languageTag),
       )))}`,
-    `- ${copy.topicsLabel}: ${joinLinks(packageMetadata.topicTags.map((topicTag) =>
+    `- ${copy.topicsLabel}: ${joinLinks(latestVersion.topicTags.map((topicTag) =>
       createLocalizedCatalogLink(
         topicTag,
         locale,
@@ -122,14 +123,14 @@ function renderPackageListItem(
   const { author, latestVersion, packageMetadata } = packageView;
   const lines = [
     `- ${createLocalizedCatalogLink(
-      packageMetadata.title,
+      latestVersion.title,
       locale,
       getPublicCatalogPackageRoutePathname(packageMetadata.slug),
     )}`,
   ];
 
-  if (packageMetadata.summary !== "") {
-    lines.push(`  - ${escapeMarkdownText(packageMetadata.summary)}`);
+  if (latestVersion.summary !== "") {
+    lines.push(`  - ${escapeMarkdownText(latestVersion.summary)}`);
   }
 
   lines.push(
@@ -140,14 +141,14 @@ function renderPackageListItem(
     )}`,
     `  - ${copy.versionLabel}: ${formatPublicCatalogNumber(locale, latestVersion.versionNumber)}`,
     `  - ${copy.cardsLabel}: ${formatPublicCatalogCardCount(locale, latestVersion.cardCount, copy)}`,
-    `  - ${copy.licenseLabel}: ${escapeMarkdownText(packageMetadata.license)}`,
-    `  - ${copy.languagesLabel}: ${joinLinks(packageMetadata.languageTags.map((languageTag) =>
+    `  - ${copy.licenseLabel}: ${escapeMarkdownText(latestVersion.license)}`,
+    `  - ${copy.languagesLabel}: ${joinLinks(latestVersion.languageTags.map((languageTag) =>
       createLocalizedCatalogLink(
         languageTag,
         locale,
         getPublicCatalogLanguageRoutePathname(languageTag),
       )))}`,
-    `  - ${copy.topicsLabel}: ${joinLinks(packageMetadata.topicTags.map((topicTag) =>
+    `  - ${copy.topicsLabel}: ${joinLinks(latestVersion.topicTags.map((topicTag) =>
       createLocalizedCatalogLink(
         topicTag,
         locale,
@@ -238,12 +239,12 @@ function renderPackageDetail(
   const { latestVersion, packageMetadata } = packageView;
   const collections = catalog.collectionsByPackageId.get(packageMetadata.packageId) ?? [];
   const lines = [
-    `# ${escapeMarkdownText(packageMetadata.title)}`,
+    `# ${escapeMarkdownText(latestVersion.title)}`,
     "",
   ];
 
-  if (packageMetadata.summary !== "") {
-    lines.push(escapeMarkdownText(packageMetadata.summary), "");
+  if (latestVersion.summary !== "") {
+    lines.push(escapeMarkdownText(latestVersion.summary), "");
   }
 
   lines.push(
@@ -252,20 +253,20 @@ function renderPackageDetail(
     createMarkdownLink(copy.installLabel, latestVersion.installUrl),
   );
 
-  if (packageMetadata.contentWarning !== null) {
+  if (latestVersion.contentWarning !== null) {
     lines.push(
       "",
-      `> **${escapeMarkdownText(copy.contentWarningLabel)}:** ${escapeMarkdownText(packageMetadata.contentWarning)}`,
+      `> **${escapeMarkdownText(copy.contentWarningLabel)}:** ${escapeMarkdownText(latestVersion.contentWarning)}`,
     );
   }
 
-  if (packageMetadata.description.trim() !== "") {
+  if (latestVersion.description.trim() !== "") {
     lines.push(
       "",
       `## ${escapeMarkdownText(copy.descriptionHeading)}`,
       "",
       normalizePublicCatalogDescriptionMarkdownFragment(
-        packageMetadata.description,
+        latestVersion.description,
         locale,
         `Public catalog package ${packageMetadata.packageId} description`,
       ),
@@ -278,6 +279,11 @@ function renderPackageDetail(
     lines.push(escapeMarkdownText(copy.noCardPreviewsLabel));
   } else {
     packageView.cards.forEach((card, index) => {
+      const mediaDownloadUrls = getPublicCatalogCardMediaDownloadUrls(
+        card,
+        packageView.mediaAssets,
+      );
+
       lines.push(
         `### ${formatPublicCatalogNumber(locale, index + 1)}`,
         "",
@@ -286,6 +292,7 @@ function renderPackageDetail(
         normalizePublicCatalogCardMarkdownFragment(
           card.frontText,
           locale,
+          mediaDownloadUrls,
           `Public catalog card ${card.packageCardId} frontText`,
         ),
         "",
@@ -294,6 +301,7 @@ function renderPackageDetail(
         normalizePublicCatalogCardMarkdownFragment(
           card.backText,
           locale,
+          mediaDownloadUrls,
           `Public catalog card ${card.packageCardId} backText`,
         ),
       );
@@ -628,10 +636,10 @@ export function renderPublicCatalogLlmsSection(
 
   catalog.packages.forEach((packageView) => {
     lines.push(`- ${createLocalizedCatalogLink(
-      packageView.packageMetadata.title,
+      packageView.latestVersion.title,
       "en",
       getPublicCatalogPackageRoutePathname(packageView.packageMetadata.slug),
-    )}: ${escapeMarkdownText(packageView.packageMetadata.summary)}`);
+    )}: ${escapeMarkdownText(packageView.latestVersion.summary)}`);
   });
   for (const author of catalog.authorBySlug.values()) {
     lines.push(`- ${createLocalizedCatalogLink(

@@ -183,7 +183,7 @@ function createPackageListEntities(
   packages: ReadonlyArray<PublicCatalogPackageView>,
 ): ReadonlyArray<CatalogListEntity> {
   return packages.map((packageView) => ({
-    name: packageView.packageMetadata.title,
+    name: packageView.latestVersion.title,
     routePathname: getPublicCatalogPackageRoutePathname(
       packageView.packageMetadata.slug,
     ),
@@ -302,6 +302,7 @@ export function createPublicCatalogPackageJsonLd(
   packageView: PublicCatalogPackageView,
 ): PublicCatalogPackageJsonLd {
   const packageMetadata = packageView.packageMetadata;
+  const latestVersion = packageView.latestVersion;
   const packageUrl = getCatalogAbsoluteUrl(
     locale,
     getPublicCatalogPackageRoutePathname(packageMetadata.slug),
@@ -322,19 +323,19 @@ export function createPublicCatalogPackageJsonLd(
     },
     collectionSize: packageView.latestVersion.cardCount,
     datePublished: packageMetadata.publishedAt,
-    description: packageMetadata.summary,
+    description: latestVersion.summary,
     license: {
       "@type": "CreativeWork",
-      name: packageMetadata.license,
+      name: latestVersion.license,
     },
-    name: packageMetadata.title,
+    name: latestVersion.title,
     url: packageUrl,
-    ...(packageMetadata.languageTags.length === 0
+    ...(latestVersion.languageTags.length === 0
       ? {}
-      : { inLanguage: packageMetadata.languageTags }),
-    ...(packageMetadata.topicTags.length === 0
+      : { inLanguage: latestVersion.languageTags }),
+    ...(latestVersion.topicTags.length === 0
       ? {}
-      : { keywords: packageMetadata.topicTags }),
+      : { keywords: latestVersion.topicTags }),
     ...(collections.length === 0
       ? {}
       : {

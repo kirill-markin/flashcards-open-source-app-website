@@ -1,4 +1,5 @@
 .cover {
+  position: relative;
   display: grid;
   place-items: center;
   min-block-size: 148px;
@@ -9,6 +10,10 @@
     rgba(255, 255, 255, 0.035);
   color: var(--text-tertiary);
   overflow: hidden;
+}
+
+.image {
+  object-fit: cover;
 }
 
 .initial {

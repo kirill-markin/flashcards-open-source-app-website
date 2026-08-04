@@ -123,13 +123,14 @@ export function createPublicCatalogPackageMetadata(
   packageView: PublicCatalogPackageView,
 ): Metadata {
   const packageMetadata = packageView.packageMetadata;
+  const latestVersion = packageView.latestVersion;
 
   return createPublicCatalogMetadata({
-    description: packageMetadata.summary,
+    description: latestVersion.summary,
     locale,
     publishedTime: packageMetadata.publishedAt,
     routePathname: getPublicCatalogPackageRoutePathname(packageMetadata.slug),
-    title: packageMetadata.title,
+    title: latestVersion.title,
     type: "article",
   });
 }

@@ -17,21 +17,29 @@ export type PublicCatalogPackageView = Readonly<{
   coverMediaAsset: PublicCatalogMediaAsset | null;
 }>;
 
+export type PublicCatalogCoverMediaAsset = Pick<
+  PublicCatalogMediaAsset,
+  "altText" | "downloadUrl" | "mimeType"
+>;
+
 export type PublicCatalogPackageCardView = Readonly<{
   packageMetadata: Pick<
     PublicCatalogPackage,
     | "packageId"
     | "slug"
+    | "publishedAt"
+  >;
+  author: Pick<PublicCatalogAuthor, "slug" | "displayName">;
+  latestVersion: Pick<
+    PublicCatalogPackageVersion,
     | "title"
     | "summary"
     | "languageTags"
     | "topicTags"
     | "license"
-    | "publishedAt"
+    | "cardCount"
   >;
-  author: Pick<PublicCatalogAuthor, "slug" | "displayName">;
-  latestVersion: Pick<PublicCatalogPackageVersion, "cardCount">;
-  coverMediaAsset: Pick<PublicCatalogMediaAsset, "altText"> | null;
+  coverMediaAsset: PublicCatalogCoverMediaAsset | null;
 }>;
 
 export type PublicCatalogReadModel = Readonly<{
@@ -41,6 +49,10 @@ export type PublicCatalogReadModel = Readonly<{
   packageBySlug: ReadonlyMap<string, PublicCatalogPackageView>;
   authorBySlug: ReadonlyMap<string, PublicCatalogAuthor>;
   collectionBySlug: ReadonlyMap<string, PublicCatalogCollection>;
+  collectionCoverMediaAssetById: ReadonlyMap<
+    string,
+    PublicCatalogCoverMediaAsset | null
+  >;
   packagesByAuthorId: ReadonlyMap<string, ReadonlyArray<PublicCatalogPackageView>>;
   packagesByCollectionId: ReadonlyMap<string, ReadonlyArray<PublicCatalogPackageView>>;
   collectionsByPackageId: ReadonlyMap<string, ReadonlyArray<PublicCatalogCollection>>;
@@ -116,6 +128,9 @@ export function createPublicCatalogReadModel(dump: PublicCatalogDump): PublicCat
   const mediaByVersionId = groupBy(dump.mediaAssets, (mediaAsset) => [
     mediaAsset.packageVersionId,
   ]);
+  const mediaById = new Map(
+    dump.mediaAssets.map((mediaAsset) => [mediaAsset.packageMediaAssetId, mediaAsset]),
+  );
   const packageViewsById = new Map<string, PublicCatalogPackageView>();
   const packages = dump.packages.map((packageMetadata): PublicCatalogPackageView => {
     const author = getRequiredValue(
@@ -125,22 +140,20 @@ export function createPublicCatalogReadModel(dump: PublicCatalogDump): PublicCat
     );
     const latestVersion = getRequiredValue(
       versionsById,
-      packageMetadata.latestPublishedVersionId,
-      `latest version ${packageMetadata.latestPublishedVersionId} for package ${packageMetadata.packageId}`,
+      packageMetadata.latestPackageVersionId,
+      `latest version ${packageMetadata.latestPackageVersionId} for package ${packageMetadata.packageId}`,
     );
     const cards = [...(cardsByVersionId.get(latestVersion.packageVersionId) ?? [])].sort(
       (firstCard, secondCard) => firstCard.ordinal - secondCard.ordinal,
     );
     const mediaAssets = mediaByVersionId.get(latestVersion.packageVersionId) ?? [];
-    const coverMediaAsset = packageMetadata.coverPackageMediaKey === null
+    const coverMediaAsset = latestVersion.coverMediaAssetId === null
       ? null
-      : mediaAssets.find(
-        (mediaAsset) => mediaAsset.packageMediaKey === packageMetadata.coverPackageMediaKey,
-      );
+      : mediaById.get(latestVersion.coverMediaAssetId);
 
     if (coverMediaAsset === undefined) {
       throw new Error(
-        `Cannot create public catalog read model: missing cover media ${packageMetadata.coverPackageMediaKey} for package ${packageMetadata.packageId}.`,
+        `Cannot create public catalog read model: missing cover media ${latestVersion.coverMediaAssetId} for package ${packageMetadata.packageId}.`,
       );
     }
 
@@ -160,6 +173,31 @@ export function createPublicCatalogReadModel(dump: PublicCatalogDump): PublicCat
   const packagesByAuthorId = groupBy(packages, (packageView) => [
     packageView.packageMetadata.authorId,
   ]);
+  const collectionCoverMediaAssetById = new Map(
+    dump.collections.map((collection): [string, PublicCatalogCoverMediaAsset | null] => {
+      if (collection.coverPackageId === null) {
+        return [collection.collectionId, null];
+      }
+
+      const coverPackage = getRequiredValue(
+        packageViewsById,
+        collection.coverPackageId,
+        `cover package ${collection.coverPackageId} for collection ${collection.collectionId}`,
+      );
+      const coverMediaAsset = coverPackage.coverMediaAsset;
+
+      return [
+        collection.collectionId,
+        coverMediaAsset === null
+          ? null
+          : {
+              altText: coverMediaAsset.altText,
+              downloadUrl: coverMediaAsset.downloadUrl,
+              mimeType: coverMediaAsset.mimeType,
+            },
+      ];
+    }),
+  );
   const packagesByCollectionId = new Map<string, ReadonlyArray<PublicCatalogPackageView>>();
   const collectionsByPackageId = new Map<string, Array<PublicCatalogCollection>>();
   const membershipsByCollectionId = groupBy(dump.collectionPackages, (membership) => [
@@ -203,21 +241,22 @@ export function createPublicCatalogReadModel(dump: PublicCatalogDump): PublicCat
     collectionBySlug: new Map(
       dump.collections.map((collection) => [collection.slug, collection]),
     ),
+    collectionCoverMediaAssetById,
     packagesByAuthorId,
     packagesByCollectionId,
     collectionsByPackageId,
     packagesByLanguageTag: groupBy(packages, (packageView) =>
-      packageView.packageMetadata.languageTags,
+      packageView.latestVersion.languageTags,
     ),
     packagesByTopicTag: groupBy(packages, (packageView) =>
-      packageView.packageMetadata.topicTags,
+      packageView.latestVersion.topicTags,
     ),
     languageTags: [...new Set([
-      ...packages.flatMap((packageView) => packageView.packageMetadata.languageTags),
+      ...packages.flatMap((packageView) => packageView.latestVersion.languageTags),
       ...dump.collections.flatMap((collection) => collection.languageTags),
     ])].sort(),
     topicTags: [...new Set([
-      ...packages.flatMap((packageView) => packageView.packageMetadata.topicTags),
+      ...packages.flatMap((packageView) => packageView.latestVersion.topicTags),
       ...dump.collections.flatMap((collection) => collection.topicTags),
     ])].sort(),
   };
@@ -242,6 +281,17 @@ export function getPublicCatalogCollectionBySlug(
   slug: string,
 ): PublicCatalogCollection | undefined {
   return model.collectionBySlug.get(slug);
+}
+
+export function getPublicCatalogCollectionCoverMediaAsset(
+  model: PublicCatalogReadModel,
+  collection: Pick<PublicCatalogCollection, "collectionId">,
+): PublicCatalogCoverMediaAsset | null {
+  return getRequiredValue(
+    model.collectionCoverMediaAssetById,
+    collection.collectionId,
+    `cover media for collection ${collection.collectionId}`,
+  );
 }
 
 export function getPublicCatalogPackagesByAuthorSlug(

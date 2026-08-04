@@ -1,3 +1,17 @@
+import type { PublicCatalogCoverMediaAsset } from "./publicCatalogReadModel";
+
+export type PublicCatalogCoverRenderData =
+  | Readonly<{
+      altText: string;
+      downloadUrl: string;
+      kind: "image";
+    }>
+  | Readonly<{
+      accessibleLabel: string;
+      initial: string;
+      kind: "placeholder";
+    }>;
+
 export function getPublicCatalogCoverInitial(title: string): string {
   const [initial] = Array.from(title.trim());
 
@@ -8,14 +22,43 @@ export function getPublicCatalogCoverInitial(title: string): string {
   return initial.toUpperCase();
 }
 
-export function getPublicCatalogCoverAccessibleLabel(
+export function getPublicCatalogCoverPlaceholderAccessibleLabel(
   title: string,
-  coverAltText: string | null,
   placeholderLabel: string,
 ): string {
-  if (coverAltText === null || coverAltText.trim() === "") {
-    return `${title}: ${placeholderLabel}`;
+  return `${title}: ${placeholderLabel}`;
+}
+
+function isPublicCatalogCoverImageMimeType(mimeType: string): boolean {
+  return mimeType === "image/jpeg"
+    || mimeType === "image/png"
+    || mimeType === "image/webp";
+}
+
+export function getPublicCatalogCoverRenderData(
+  title: string,
+  coverMediaAsset: PublicCatalogCoverMediaAsset | null,
+  placeholderLabel: string,
+): PublicCatalogCoverRenderData {
+  if (
+    coverMediaAsset === null
+    || isPublicCatalogCoverImageMimeType(coverMediaAsset.mimeType) === false
+  ) {
+    return {
+      accessibleLabel: getPublicCatalogCoverPlaceholderAccessibleLabel(
+        title,
+        placeholderLabel,
+      ),
+      initial: getPublicCatalogCoverInitial(title),
+      kind: "placeholder",
+    };
   }
 
-  return `${title}: ${coverAltText.trim()}. ${placeholderLabel}`;
+  const authoredAltText = coverMediaAsset.altText?.trim() ?? "";
+
+  return {
+    altText: authoredAltText === "" ? title : authoredAltText,
+    downloadUrl: coverMediaAsset.downloadUrl,
+    kind: "image",
+  };
 }
