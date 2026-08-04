@@ -213,6 +213,12 @@ function renderCatalogRoot(
     "",
     escapeMarkdownText(copy.intro),
     "",
+    `> **${escapeMarkdownText(copy.constructionNoticeLabel)}**`,
+    ">",
+    `> **${escapeMarkdownText(copy.constructionNoticeTitle)}**`,
+    ">",
+    `> ${escapeMarkdownText(copy.constructionNoticeBody)}`,
+    "",
     `- ${createLocalizedCatalogLink(
       destinationCopy.authorsTitle,
       locale,
