@@ -36,6 +36,9 @@ export interface PublicCatalogUiCopy {
   readonly cardCountTemplates: Readonly<Record<Intl.LDMLPluralRule, string>>;
   readonly cardsLabel: string;
   readonly contentWarningLabel: string;
+  readonly constructionNoticeBody: string;
+  readonly constructionNoticeLabel: string;
+  readonly constructionNoticeTitle: string;
   readonly coverPlaceholderLabel: string;
   readonly descriptionHeading: string;
   readonly emptyLabel: string;
@@ -103,6 +106,10 @@ const PUBLIC_CATALOG_COPY_BY_LOCALE: Readonly<
     },
     cardsLabel: "Cards",
     contentWarningLabel: "Content warning",
+    constructionNoticeBody:
+      "Ready-to-use flashcard decks will be available here soon.",
+    constructionNoticeLabel: "Catalog update",
+    constructionNoticeTitle: "This page is under construction",
     coverPlaceholderLabel: "Cover preview unavailable",
     descriptionHeading: "About this package",
     emptyLabel: "No packages have been published yet.",
@@ -166,6 +173,10 @@ const PUBLIC_CATALOG_COPY_BY_LOCALE: Readonly<
     },
     cardsLabel: "Tarjetas",
     contentWarningLabel: "Advertencia de contenido",
+    constructionNoticeBody:
+      "Pronto encontrarás aquí mazos de tarjetas listos para usar.",
+    constructionNoticeLabel: "Novedades del catálogo",
+    constructionNoticeTitle: "Esta página está en construcción",
     coverPlaceholderLabel: "Vista previa de portada no disponible",
     descriptionHeading: "Sobre este paquete",
     emptyLabel: "Todavía no se ha publicado ningún paquete.",
@@ -229,6 +240,10 @@ const PUBLIC_CATALOG_COPY_BY_LOCALE: Readonly<
     },
     cardsLabel: "البطاقات",
     contentWarningLabel: "تحذير بشأن المحتوى",
+    constructionNoticeBody:
+      "ستجد هنا قريبًا مجموعات بطاقات تعليمية جاهزة للاستخدام.",
+    constructionNoticeLabel: "تحديث الكتالوج",
+    constructionNoticeTitle: "هذه الصفحة قيد الإنشاء",
     coverPlaceholderLabel: "معاينة الغلاف غير متاحة",
     descriptionHeading: "حول هذه الحزمة",
     emptyLabel: "لم تُنشر أي حزم بعد.",
@@ -292,6 +307,10 @@ const PUBLIC_CATALOG_COPY_BY_LOCALE: Readonly<
     },
     cardsLabel: "Karten",
     contentWarningLabel: "Inhaltswarnung",
+    constructionNoticeBody:
+      "Bald findest du hier sofort einsatzbereite Lernkartensätze.",
+    constructionNoticeLabel: "Katalog-Update",
+    constructionNoticeTitle: "Diese Seite wird gerade erstellt",
     coverPlaceholderLabel: "Covervorschau nicht verfügbar",
     descriptionHeading: "Über dieses Paket",
     emptyLabel: "Es wurden noch keine Pakete veröffentlicht.",
@@ -355,6 +374,10 @@ const PUBLIC_CATALOG_COPY_BY_LOCALE: Readonly<
     },
     cardsLabel: "कार्ड",
     contentWarningLabel: "सामग्री चेतावनी",
+    constructionNoticeBody:
+      "जल्द ही यहाँ इस्तेमाल के लिए तैयार फ़्लैशकार्ड डेक मिलेंगे।",
+    constructionNoticeLabel: "कैटलॉग अपडेट",
+    constructionNoticeTitle: "यह पेज अभी तैयार किया जा रहा है",
     coverPlaceholderLabel: "कवर पूर्वावलोकन उपलब्ध नहीं है",
     descriptionHeading: "इस पैकेज के बारे में",
     emptyLabel: "अभी तक कोई पैकेज प्रकाशित नहीं हुआ है।",
@@ -418,6 +441,10 @@ const PUBLIC_CATALOG_COPY_BY_LOCALE: Readonly<
     },
     cardsLabel: "カード",
     contentWarningLabel: "コンテンツに関する注意",
+    constructionNoticeBody:
+      "まもなく、すぐに使えるフラッシュカードデッキをここで公開します。",
+    constructionNoticeLabel: "カタログ更新情報",
+    constructionNoticeTitle: "このページは現在準備中です",
     coverPlaceholderLabel: "カバーのプレビューは利用できません",
     descriptionHeading: "このパッケージについて",
     emptyLabel: "公開済みのパッケージはまだありません。",
@@ -481,6 +508,10 @@ const PUBLIC_CATALOG_COPY_BY_LOCALE: Readonly<
     },
     cardsLabel: "Карточки",
     contentWarningLabel: "Предупреждение о содержании",
+    constructionNoticeBody:
+      "Скоро здесь появятся готовые к использованию колоды карточек.",
+    constructionNoticeLabel: "Обновление каталога",
+    constructionNoticeTitle: "Эта страница находится в разработке",
     coverPlaceholderLabel: "Предпросмотр обложки недоступен",
     descriptionHeading: "Об этом пакете",
     emptyLabel: "Опубликованных пакетов пока нет.",
@@ -544,6 +575,9 @@ const PUBLIC_CATALOG_COPY_BY_LOCALE: Readonly<
     },
     cardsLabel: "卡片",
     contentWarningLabel: "内容警告",
+    constructionNoticeBody: "这里很快会上线可直接使用的闪卡牌组。",
+    constructionNoticeLabel: "目录更新",
+    constructionNoticeTitle: "此页面正在建设中",
     coverPlaceholderLabel: "封面预览不可用",
     descriptionHeading: "关于此卡包",
     emptyLabel: "尚未发布任何卡包。",

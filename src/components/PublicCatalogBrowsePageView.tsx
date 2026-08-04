@@ -41,6 +41,26 @@ export function PublicCatalogBrowsePageView({
           <p className={styles.intro}>{copy.intro}</p>
           <PublicCatalogNavigation currentSection="packages" locale={locale} />
         </header>
+        <aside
+          aria-labelledby="catalog-construction-notice-title"
+          className={styles.constructionNotice}
+        >
+          <span aria-hidden="true" className={styles.constructionNoticeMark} />
+          <div>
+            <p className={styles.constructionNoticeLabel}>
+              {copy.constructionNoticeLabel}
+            </p>
+            <h2
+              className={styles.constructionNoticeTitle}
+              id="catalog-construction-notice-title"
+            >
+              {copy.constructionNoticeTitle}
+            </h2>
+            <p className={styles.constructionNoticeBody}>
+              {copy.constructionNoticeBody}
+            </p>
+          </div>
+        </aside>
         {catalog.packages.length === 0 ? (
           <p className={styles.empty} role="status">
             {copy.emptyLabel}
