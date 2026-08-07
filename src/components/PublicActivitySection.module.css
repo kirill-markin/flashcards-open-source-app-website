@@ -262,6 +262,19 @@
   unicode-bidi: isolate;
 }
 
+.barLayer {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  direction: ltr;
+  unicode-bidi: isolate;
+}
+
+.barSegment {
+  position: absolute;
+  transform: translateX(-50%);
+}
+
 .dateLabelLayer {
   position: absolute;
   inset: 0;

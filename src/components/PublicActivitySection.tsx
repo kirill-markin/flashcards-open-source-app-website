@@ -50,6 +50,11 @@ type ChartGridProps = Readonly<{
   maxValue: number;
 }>;
 
+type ChartBarLayerProps = Readonly<{
+  barWidthRatio: number;
+  segments: ReadonlyArray<ChartBarSegmentView>;
+}>;
+
 type ChartYAxisProps = Readonly<{
   locale: AppLocale;
   maxValue: number;
@@ -109,6 +114,20 @@ type LegendItemProps = Readonly<{
 type DatedChartPoint = Readonly<{
   date: string;
   centerX: number;
+}>;
+
+// Bars are HTML instead of SVG so the width cap and the corner radius stay real
+// pixels: the plot SVG is stretched horizontally by `preserveAspectRatio="none"`.
+// X is a ratio of the plot width, Y is in pixels because the plot surface has a
+// fixed block size and therefore a vertical scale of exactly 1. The bars are
+// purely visual; the per-day text lives on the tooltip hit targets above them.
+type ChartBarSegmentView = Readonly<{
+  key: string;
+  centerRatio: number;
+  topPx: number;
+  heightPx: number;
+  color: string;
+  isTop: boolean;
 }>;
 
 type ChartTitleTag = "h2" | "h3";
@@ -187,6 +206,10 @@ const minimumChartDaySlotSize = 5;
 const minimumChartPlotWidth = 660;
 const startDateLabelInset = 10;
 const minTooltipHitHeight = 10;
+const chartBarMaxWidth = "28px";
+const chartBarSlotFill = 0.72;
+const chartBarTopRadius = "4px";
+const chartBarSquareRadius = "0";
 const reviewUserCohortColors: Readonly<Record<ReviewUserCohort, string>> = {
   returning: "#c44b2d",
   new: "#4e79a7",
@@ -332,8 +355,8 @@ function getChartBottomY(): number {
   return chartMargin.top + chartFrameHeight;
 }
 
-function getChartBarWidth(days: ReadonlyArray<GlobalActivitySnapshotDay>): number {
-  return Math.min(28, getChartDayStep(days) * 0.72);
+function getChartBarWidthRatio(days: ReadonlyArray<GlobalActivitySnapshotDay>): number {
+  return (getChartDayStep(days) * chartBarSlotFill) / chartPlotWidth;
 }
 
 function getTooltipHitWidth(days: ReadonlyArray<GlobalActivitySnapshotDay>): number {
@@ -363,32 +386,6 @@ function createTooltipHitBox(y: number, height: number): TooltipHitBox {
     height: resolvedHeight,
     y: Math.min(maxY, Math.max(chartMargin.top, resolvedY)),
   };
-}
-
-function createTopRoundedRectPath(
-  x: number,
-  y: number,
-  width: number,
-  height: number,
-  radius: number,
-): string {
-  const cornerRadius = Math.min(radius, width / 2, height);
-  const rightX = x + width;
-  const bottomY = y + height;
-
-  if (cornerRadius <= 0) {
-    return `M ${x} ${y} H ${rightX} V ${bottomY} H ${x} Z`;
-  }
-
-  return [
-    `M ${x} ${y + cornerRadius}`,
-    `Q ${x} ${y} ${x + cornerRadius} ${y}`,
-    `H ${rightX - cornerRadius}`,
-    `Q ${rightX} ${y} ${rightX} ${y + cornerRadius}`,
-    `V ${bottomY}`,
-    `H ${x}`,
-    "Z",
-  ].join(" ");
 }
 
 function getReviewUserCohortValue(day: GlobalActivitySnapshotDay, cohort: ReviewUserCohort): number {
@@ -440,6 +437,19 @@ function createDailyUniqueUserPoints(
     totalReviewEvents: day.reviewEvents.total,
     totalUniqueUsers: day.uniqueReviewingUsers,
   }));
+}
+
+function createDailyUniqueUserBarSegments(
+  points: ReadonlyArray<DailyUniqueUserChartPoint>,
+): ReadonlyArray<ChartBarSegmentView> {
+  return points.flatMap((point) => point.segments.map((segment) => ({
+    key: `unique-users-bar-${point.date}-${segment.cohort}`,
+    centerRatio: point.centerX / chartPlotWidth,
+    topPx: segment.y,
+    heightPx: segment.height,
+    color: reviewUserCohortColors[segment.cohort],
+    isTop: segment.isTop,
+  })));
 }
 
 function createDailyUniqueUserTooltipTargets({
@@ -509,6 +519,19 @@ function createPlatformReviewEventPoints(
     segments: createStackedBarSegments(day, maxReviewEvents),
     total: day.reviewEvents.total,
   }));
+}
+
+function createPlatformBarSegments(
+  points: ReadonlyArray<StackedBarChartPoint>,
+): ReadonlyArray<ChartBarSegmentView> {
+  return points.flatMap((point) => point.segments.map((segment) => ({
+    key: `platform-bar-${point.date}-${segment.platform}`,
+    centerRatio: point.centerX / chartPlotWidth,
+    topPx: segment.y,
+    heightPx: segment.height,
+    color: platformColors[segment.platform],
+    isTop: segment.isTop,
+  })));
 }
 
 function createPlatformTooltipTargets({
@@ -660,6 +683,33 @@ function ChartGrid({
   );
 }
 
+function ChartBarLayer({
+  barWidthRatio,
+  segments,
+}: ChartBarLayerProps): React.JSX.Element {
+  const barInlineSize = `min(${chartBarMaxWidth}, ${barWidthRatio * 100}%)`;
+
+  return (
+    <div className={styles.barLayer}>
+      {segments.map((segment) => (
+        <div
+          key={segment.key}
+          className={styles.barSegment}
+          style={{
+            backgroundColor: segment.color,
+            blockSize: `${segment.heightPx}px`,
+            borderStartEndRadius: segment.isTop ? chartBarTopRadius : chartBarSquareRadius,
+            borderStartStartRadius: segment.isTop ? chartBarTopRadius : chartBarSquareRadius,
+            inlineSize: barInlineSize,
+            insetBlockStart: `${segment.topPx}px`,
+            insetInlineStart: `${segment.centerRatio * 100}%`,
+          }}
+        />
+      ))}
+    </div>
+  );
+}
+
 function ChartYAxis({
   locale,
   maxValue,
@@ -748,23 +798,31 @@ function ChartFrame({
         className={styles.chartPlotScroller}
         latestDate={latestDate}
       >
+        {/*
+          The surface carries the accessible name because the SVG now holds only
+          the decorative grid. The role must not be `img`: `img` is presentational
+          for its children, which would prune the tooltip hit targets that expose
+          the per-day values.
+        */}
         <div
           className={styles.chartPlotSurface}
           style={{
             blockSize: chartPlotHeight,
             minInlineSize: minimumPlotWidth,
           }}
+          role="group"
+          aria-label={ariaLabel}
         >
           <svg
             className={styles.chartPlotSvg}
             viewBox={`0 0 ${chartPlotWidth} ${chartPlotHeight}`}
             preserveAspectRatio="none"
-            role="img"
-            aria-label={ariaLabel}
+            aria-hidden="true"
+            focusable="false"
           >
             <ChartGrid ticks={ticks} maxValue={maxValue} />
-            {children}
           </svg>
+          {children}
           <div className={styles.dateLabelLayer} aria-hidden="true">
             {dateLabels}
           </div>
@@ -841,7 +899,7 @@ function DailyUniqueUsersChart({
   const maxUniqueUsers = getYAxisDomainMax(ticks, "unique users");
   const points = createDailyUniqueUserPoints(days, maxUniqueUsers);
   const tickDates = createTickDates(days);
-  const barWidth = getChartBarWidth(days);
+  const barWidthRatio = getChartBarWidthRatio(days);
   const tooltipHitWidth = getTooltipHitWidth(days);
   const latestDate = getLatestChartDate(days, "daily unique users chart");
   const minimumPlotWidth = getChartMinimumPlotWidth(days);
@@ -867,39 +925,10 @@ function DailyUniqueUsersChart({
       xAxisLabel={xAxisLabel}
       yAxisLabel={yAxisLabel}
     >
-      {points.map((point) => (
-        <g key={`unique-users-day-${point.date}`}>
-          {point.segments.map((segment) => {
-            const segmentX = point.centerX - (barWidth / 2);
-            const title = `${formatLongDate(locale, point.date)}: ${cohortLabels[segment.cohort]} ${formatNumber(locale, segment.value)} ${yAxisLabel}`;
-
-            if (segment.isTop) {
-              return (
-                <path
-                  key={`${point.date}-${segment.cohort}`}
-                  d={createTopRoundedRectPath(segmentX, segment.y, barWidth, segment.height, 4)}
-                  fill={reviewUserCohortColors[segment.cohort]}
-                >
-                  <title>{title}</title>
-                </path>
-              );
-            }
-
-            return (
-              <rect
-                key={`${point.date}-${segment.cohort}`}
-                x={segmentX}
-                y={segment.y}
-                width={barWidth}
-                height={segment.height}
-                fill={reviewUserCohortColors[segment.cohort]}
-              >
-                <title>{title}</title>
-              </rect>
-            );
-          })}
-        </g>
-      ))}
+      <ChartBarLayer
+        barWidthRatio={barWidthRatio}
+        segments={createDailyUniqueUserBarSegments(points)}
+      />
     </ChartFrame>
   );
 }
@@ -936,7 +965,7 @@ function PlatformActivityChart({
   const maxReviewEvents = getYAxisDomainMax(ticks, "review events");
   const points = createPlatformReviewEventPoints(days, maxReviewEvents);
   const tickDates = createTickDates(days);
-  const barWidth = getChartBarWidth(days);
+  const barWidthRatio = getChartBarWidthRatio(days);
   const tooltipHitWidth = getTooltipHitWidth(days);
   const latestDate = getLatestChartDate(days, "platform activity chart");
   const minimumPlotWidth = getChartMinimumPlotWidth(days);
@@ -960,39 +989,10 @@ function PlatformActivityChart({
       xAxisLabel={xAxisLabel}
       yAxisLabel={yAxisLabel}
     >
-      {points.map((point) => (
-        <g key={`platform-day-${point.date}`}>
-          {point.segments.map((segment) => {
-            const segmentX = point.centerX - (barWidth / 2);
-            const title = `${formatLongDate(locale, point.date)}: ${platformLabels[segment.platform]} ${formatNumber(locale, segment.value)} ${reviewEventsLabel}`;
-
-            if (segment.isTop) {
-              return (
-                <path
-                  key={`${point.date}-${segment.platform}`}
-                  d={createTopRoundedRectPath(segmentX, segment.y, barWidth, segment.height, 4)}
-                  fill={platformColors[segment.platform]}
-                >
-                  <title>{title}</title>
-                </path>
-              );
-            }
-
-            return (
-              <rect
-                key={`${point.date}-${segment.platform}`}
-                x={segmentX}
-                y={segment.y}
-                width={barWidth}
-                height={segment.height}
-                fill={platformColors[segment.platform]}
-              >
-                <title>{title}</title>
-              </rect>
-            );
-          })}
-        </g>
-      ))}
+      <ChartBarLayer
+        barWidthRatio={barWidthRatio}
+        segments={createPlatformBarSegments(points)}
+      />
     </ChartFrame>
   );
 }
