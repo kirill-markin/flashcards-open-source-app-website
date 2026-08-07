@@ -15,6 +15,7 @@ import { getExternalLinkAttributes } from "@/lib/linkTargets";
 import { getIntlLocale } from "@/lib/localeConfig";
 import { getUiCopy } from "@/lib/uiCopy";
 import { ActivityChartScroller } from "./ActivityChartScroller";
+import { ChartTooltipLayer, type ChartTooltipTarget } from "./ChartTooltipLayer";
 import styles from "./PublicActivitySection.module.css";
 
 type MetricCardProps = Readonly<{
@@ -39,6 +40,7 @@ type ChartFrameProps = Readonly<{
   maxValue: number;
   minimumPlotWidth: number;
   ticks: ReadonlyArray<number>;
+  tooltipTargets: ReadonlyArray<ChartTooltipTarget>;
   xAxisLabel: string;
   yAxisLabel: string;
 }>;
@@ -60,18 +62,6 @@ type ChartDateLabelsProps = Readonly<{
   points: ReadonlyArray<DatedChartPoint>;
   dates: ReadonlyArray<string>;
   locale: AppLocale;
-}>;
-
-type ChartTooltipProps = Readonly<{
-  lines: ReadonlyArray<string>;
-  layout: ChartTooltipLayout;
-}>;
-
-type ChartTooltipLayout = Readonly<{
-  height: number;
-  width: number;
-  x: number;
-  y: number;
 }>;
 
 type TooltipHitBox = Readonly<{
@@ -162,6 +152,24 @@ type StackedBarSegmentBase = Omit<StackedBarSegment, "isTop">;
 
 type PlatformLabels = Readonly<Record<GlobalActivityPlatform, string>>;
 
+type DailyUniqueUserTooltipTargetsInput = Readonly<{
+  cohortLabels: ReviewUserCohortLabels;
+  locale: AppLocale;
+  points: ReadonlyArray<DailyUniqueUserChartPoint>;
+  tooltipHitWidth: number;
+  totalReviewEventsLabel: string;
+  totalUniqueUsersLabel: string;
+  yAxisLabel: string;
+}>;
+
+type PlatformTooltipTargetsInput = Readonly<{
+  locale: AppLocale;
+  platformLabels: PlatformLabels;
+  points: ReadonlyArray<StackedBarChartPoint>;
+  reviewEventsLabel: string;
+  tooltipHitWidth: number;
+}>;
+
 const reviewUserCohorts = ["returning", "new"] as const;
 const chartWidth = 920;
 const chartHeight = 360;
@@ -178,10 +186,6 @@ const chartFrameHeight = chartHeight - chartMargin.top - chartMargin.bottom;
 const minimumChartDaySlotSize = 5;
 const minimumChartPlotWidth = 660;
 const startDateLabelInset = 10;
-const uniqueUsersTooltipWidth = 300;
-const platformTooltipWidth = 218;
-const chartTooltipPaddingBlock = 8;
-const chartTooltipLineHeight = 16;
 const minTooltipHitHeight = 10;
 const reviewUserCohortColors: Readonly<Record<ReviewUserCohort, string>> = {
   returning: "#c44b2d",
@@ -350,32 +354,6 @@ function getBarY(height: number): number {
   return chartMargin.top + chartFrameHeight - height;
 }
 
-function createTooltipLayout(
-  centerX: number,
-  anchorY: number,
-  lineCount: number,
-  width: number,
-): ChartTooltipLayout {
-  if (lineCount <= 0) {
-    throw new Error(`Tooltip line count must be positive. lineCount=${lineCount}.`);
-  }
-
-  const height = (chartTooltipPaddingBlock * 2) + (lineCount * chartTooltipLineHeight);
-  const minX = 8;
-  const maxX = chartPlotWidth - width - 8;
-  const minY = chartMargin.top + 6;
-  const maxY = getChartBottomY() - height - 8;
-  const aboveY = anchorY - height - 10;
-  const preferredY = aboveY >= minY ? aboveY : anchorY + 12;
-
-  return {
-    height,
-    width,
-    x: Math.min(maxX, Math.max(minX, centerX - (width / 2))),
-    y: Math.min(maxY, Math.max(minY, preferredY)),
-  };
-}
-
 function createTooltipHitBox(y: number, height: number): TooltipHitBox {
   const resolvedHeight = Math.max(height, minTooltipHitHeight);
   const resolvedY = y - ((resolvedHeight - height) / 2);
@@ -464,6 +442,34 @@ function createDailyUniqueUserPoints(
   }));
 }
 
+function createDailyUniqueUserTooltipTargets({
+  cohortLabels,
+  locale,
+  points,
+  tooltipHitWidth,
+  totalReviewEventsLabel,
+  totalUniqueUsersLabel,
+  yAxisLabel,
+}: DailyUniqueUserTooltipTargetsInput): ReadonlyArray<ChartTooltipTarget> {
+  return points.flatMap((point) => point.segments.map((segment) => {
+    const hitBox = createTooltipHitBox(segment.y, segment.height);
+
+    return {
+      key: `unique-users-tooltip-${point.date}-${segment.cohort}`,
+      lines: [
+        formatLongDate(locale, point.date),
+        `${cohortLabels[segment.cohort]}: ${formatNumber(locale, segment.value)} ${yAxisLabel}`,
+        `${totalUniqueUsersLabel}: ${formatNumber(locale, point.totalUniqueUsers)}`,
+        `${totalReviewEventsLabel}: ${formatNumber(locale, point.totalReviewEvents)}`,
+      ],
+      leftRatio: (point.centerX - (tooltipHitWidth / 2)) / chartPlotWidth,
+      widthRatio: tooltipHitWidth / chartPlotWidth,
+      topPx: hitBox.y,
+      heightPx: hitBox.height,
+    };
+  }));
+}
+
 function createStackedBarSegments(
   day: GlobalActivitySnapshotDay,
   maxReviewEvents: number,
@@ -502,6 +508,31 @@ function createPlatformReviewEventPoints(
     centerX: getChartPointCenterX(index, days),
     segments: createStackedBarSegments(day, maxReviewEvents),
     total: day.reviewEvents.total,
+  }));
+}
+
+function createPlatformTooltipTargets({
+  locale,
+  platformLabels,
+  points,
+  reviewEventsLabel,
+  tooltipHitWidth,
+}: PlatformTooltipTargetsInput): ReadonlyArray<ChartTooltipTarget> {
+  return points.flatMap((point) => point.segments.map((segment) => {
+    const hitBox = createTooltipHitBox(segment.y, segment.height);
+
+    return {
+      key: `platform-tooltip-${point.date}-${segment.platform}`,
+      lines: [
+        formatLongDate(locale, point.date),
+        `${platformLabels[segment.platform]}: ${formatNumber(locale, segment.value)} ${reviewEventsLabel}`,
+        `${formatNumber(locale, point.total)} ${reviewEventsLabel}`,
+      ],
+      leftRatio: (point.centerX - (tooltipHitWidth / 2)) / chartPlotWidth,
+      widthRatio: tooltipHitWidth / chartPlotWidth,
+      topPx: hitBox.y,
+      heightPx: hitBox.height,
+    };
   }));
 }
 
@@ -592,34 +623,6 @@ function ChartShell({
       </div>
       <div className={styles.chartCanvas}>{children}</div>
     </article>
-  );
-}
-
-function ChartTooltip({
-  lines,
-  layout,
-}: ChartTooltipProps): React.JSX.Element {
-  return (
-    <g className={styles.chartTooltip} aria-hidden="true">
-      <rect
-        x={layout.x}
-        y={layout.y}
-        width={layout.width}
-        height={layout.height}
-        rx={8}
-        className={styles.chartTooltipBox}
-      />
-      {lines.map((line, index) => (
-        <text
-          key={`tooltip-line-${index}`}
-          x={layout.x + 12}
-          y={layout.y + chartTooltipPaddingBlock + 12 + (index * chartTooltipLineHeight)}
-          className={index === 0 ? styles.chartTooltipDate : styles.chartTooltipValue}
-        >
-          {line}
-        </text>
-      ))}
-    </g>
   );
 }
 
@@ -728,6 +731,7 @@ function ChartFrame({
   maxValue,
   minimumPlotWidth,
   ticks,
+  tooltipTargets,
   xAxisLabel,
   yAxisLabel,
 }: ChartFrameProps): React.JSX.Element {
@@ -764,6 +768,7 @@ function ChartFrame({
           <div className={styles.dateLabelLayer} aria-hidden="true">
             {dateLabels}
           </div>
+          <ChartTooltipLayer targets={tooltipTargets} />
         </div>
       </ActivityChartScroller>
       <ChartYAxis
@@ -850,6 +855,15 @@ function DailyUniqueUsersChart({
       maxValue={maxUniqueUsers}
       minimumPlotWidth={minimumPlotWidth}
       ticks={ticks}
+      tooltipTargets={createDailyUniqueUserTooltipTargets({
+        cohortLabels,
+        locale,
+        points,
+        tooltipHitWidth,
+        totalReviewEventsLabel,
+        totalUniqueUsersLabel,
+        yAxisLabel,
+      })}
       xAxisLabel={xAxisLabel}
       yAxisLabel={yAxisLabel}
     >
@@ -882,46 +896,6 @@ function DailyUniqueUsersChart({
               >
                 <title>{title}</title>
               </rect>
-            );
-          })}
-        </g>
-      ))}
-      {points.map((point) => (
-        <g key={`unique-users-tooltip-day-${point.date}`}>
-          {point.segments.map((segment) => {
-            const tooltipHitX = point.centerX - (tooltipHitWidth / 2);
-            const hitBox = createTooltipHitBox(segment.y, segment.height);
-            const tooltipLines = [
-              formatLongDate(locale, point.date),
-              `${cohortLabels[segment.cohort]}: ${formatNumber(locale, segment.value)} ${yAxisLabel}`,
-              `${totalUniqueUsersLabel}: ${formatNumber(locale, point.totalUniqueUsers)}`,
-              `${totalReviewEventsLabel}: ${formatNumber(locale, point.totalReviewEvents)}`,
-            ] as const;
-
-            return (
-              <g
-                key={`unique-users-tooltip-${point.date}-${segment.cohort}`}
-                className={styles.tooltipTarget}
-              >
-                <rect
-                  x={tooltipHitX}
-                  y={hitBox.y}
-                  width={tooltipHitWidth}
-                  height={hitBox.height}
-                  className={styles.tooltipHitArea}
-                >
-                  <title>{tooltipLines.join(": ")}</title>
-                </rect>
-                <ChartTooltip
-                  lines={tooltipLines}
-                  layout={createTooltipLayout(
-                    point.centerX,
-                    segment.y,
-                    tooltipLines.length,
-                    uniqueUsersTooltipWidth,
-                  )}
-                />
-              </g>
             );
           })}
         </g>
@@ -976,6 +950,13 @@ function PlatformActivityChart({
       maxValue={maxReviewEvents}
       minimumPlotWidth={minimumPlotWidth}
       ticks={ticks}
+      tooltipTargets={createPlatformTooltipTargets({
+        locale,
+        platformLabels,
+        points,
+        reviewEventsLabel,
+        tooltipHitWidth,
+      })}
       xAxisLabel={xAxisLabel}
       yAxisLabel={yAxisLabel}
     >
@@ -1008,45 +989,6 @@ function PlatformActivityChart({
               >
                 <title>{title}</title>
               </rect>
-            );
-          })}
-        </g>
-      ))}
-      {points.map((point) => (
-        <g key={`platform-tooltip-day-${point.date}`}>
-          {point.segments.map((segment) => {
-            const tooltipHitX = point.centerX - (tooltipHitWidth / 2);
-            const hitBox = createTooltipHitBox(segment.y, segment.height);
-            const tooltipLines = [
-              formatLongDate(locale, point.date),
-              `${platformLabels[segment.platform]}: ${formatNumber(locale, segment.value)} ${reviewEventsLabel}`,
-              `${formatNumber(locale, point.total)} ${reviewEventsLabel}`,
-            ] as const;
-
-            return (
-              <g
-                key={`platform-tooltip-${point.date}-${segment.platform}`}
-                className={styles.tooltipTarget}
-              >
-                <rect
-                  x={tooltipHitX}
-                  y={hitBox.y}
-                  width={tooltipHitWidth}
-                  height={hitBox.height}
-                  className={styles.tooltipHitArea}
-                >
-                  <title>{tooltipLines.join(": ")}</title>
-                </rect>
-                <ChartTooltip
-                  lines={tooltipLines}
-                  layout={createTooltipLayout(
-                    point.centerX,
-                    segment.y,
-                    tooltipLines.length,
-                    platformTooltipWidth,
-                  )}
-                />
-              </g>
             );
           })}
         </g>
