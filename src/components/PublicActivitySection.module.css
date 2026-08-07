@@ -327,45 +327,50 @@
   text-align: center;
 }
 
-.tooltipTarget {
+.tooltipLayer {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+
+.tooltipHit {
+  position: absolute;
+  background: transparent;
+  pointer-events: auto;
   cursor: default;
 }
 
-.tooltipHitArea {
-  fill: transparent;
-  pointer-events: all;
-}
-
-.chartTooltip {
-  opacity: 0;
+.tooltipCard {
+  position: fixed;
+  z-index: 120;
+  max-inline-size: min(280px, calc(100vw - 16px));
+  padding-block: 8px;
+  padding-inline: 12px;
+  border-radius: 8px;
+  background: rgba(18, 18, 24, 0.96);
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.4);
   pointer-events: none;
   transition: opacity 120ms ease;
 }
 
-.tooltipTarget:hover .chartTooltip {
-  opacity: 1;
+.tooltipCardContent {
+  display: grid;
+  gap: 2px;
+  text-align: start;
 }
 
-.chartTooltipBox {
-  fill: rgba(18, 18, 24, 0.96);
-  stroke: rgba(255, 255, 255, 0.16);
-  filter: drop-shadow(0 12px 24px rgba(0, 0, 0, 0.4));
-}
-
-.chartTooltipDate,
-.chartTooltipValue {
-  text-anchor: start;
-}
-
-.chartTooltipDate {
-  fill: var(--text-secondary);
+.tooltipCardDate {
+  color: var(--text-secondary);
   font-size: 11px;
+  line-height: 1.45;
   font-weight: 650;
 }
 
-.chartTooltipValue {
-  fill: var(--text);
+.tooltipCardLine {
+  color: var(--text);
   font-size: 12px;
+  line-height: 1.45;
   font-weight: 740;
 }
 
