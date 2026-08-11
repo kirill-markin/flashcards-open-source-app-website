@@ -23,17 +23,16 @@ GET https://api.flashcards-open-source-app.com/v1/
 - ينشئ أو يختار مساحة عمل
 - يتابع عبر سطح SQL المنشور
 
-## المواصفات المنشورة
+## الاكتشاف في وقت التشغيل والمصدر
 
-عناوين المواصفات الأساسية لسطح الوكيل الخارجي:
+OpenAPI غير متاح. تعيد عناوين المواصفات الأربعة السابقة أدناه إشعار اكتشاف JSON نفسه مع `"openapiAvailable": false` بدلًا من مخطط:
 
 - `https://api.flashcards-open-source-app.com/v1/agent/openapi.json`
 - `https://api.flashcards-open-source-app.com/v1/agent/swagger.json`
-
-وتوجد أيضًا أسماء بديلة من الجذر:
-
 - `https://api.flashcards-open-source-app.com/v1/openapi.json`
 - `https://api.flashcards-open-source-app.com/v1/swagger.json`
+
+استخدم `GET https://api.flashcards-open-source-app.com/v1/` للاكتشاف الحالي في وقت التشغيل. اتبع `docs.discoveryUrl` المُعاد لمسارات التشغيل و`docs.source.agentRoutesUrl` لتفاصيل التنفيذ.
 
 ## تهيئة المصادقة
 
@@ -82,7 +81,7 @@ Authorization: ApiKey <key>
 4. إذا لزم الأمر، `POST /v1/agent/workspaces/{workspaceId}/select`
 5. استخدم `POST /v1/agent/sql/query` للقراءة و`POST /v1/agent/sql/execute` للكتابة
 
-اختيار مساحة العمل صريح لكل اتصال بمفتاح API. يجب على الوكلاء اتباع نص `instructions` و`docs.openapiUrl` المُعادين بدل التخمين.
+اختيار مساحة العمل صريح لكل اتصال بمفتاح API. يجب على الوكلاء اتباع نص `instructions` المُعاد و`docs.discoveryUrl` لمسارات التشغيل، إضافة إلى `docs.source.agentRoutesUrl` لتفاصيل التنفيذ، بدل التخمين.
 
 ## سطح SQL
 
@@ -144,4 +143,4 @@ curl -X POST https://api.flashcards-open-source-app.com/v1/agent/sql/query \
 
 - تستخدم تدفقات المتصفح ملفات تعريف ارتباط مشتركة النطاق مع حماية CSRF
 - يستخدم العملاء الذين يعملون دون اتصال أولًا مسارات المزامنة المنفذة تحت `/v1/workspaces/{workspaceId}/sync/push` و`/v1/workspaces/{workspaceId}/sync/pull`
-- تبقى مسارات المزامنة عمدًا خارج سطح OpenAPI الخارجي للوكلاء
+- تبقى مسارات المزامنة منفصلة عن السطح الخارجي للوكلاء

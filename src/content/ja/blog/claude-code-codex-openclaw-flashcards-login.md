@@ -116,7 +116,7 @@ curl https://api.flashcards-open-source-app.com/v1/
     "capabilitiesAfterLogin": [
       "Load account context",
       "Select a workspace",
-      "Inspect the published SQL surface through OpenAPI and SQL introspection",
+      "Inspect runtime discovery and the published SQL surface through SQL introspection",
       "Read and write cards and decks through /agent/sql"
     ],
     "authBaseUrl": "https://auth.flashcards-open-source-app.com",
@@ -127,9 +127,13 @@ curl https://api.flashcards-open-source-app.com/v1/
       "sqlUrl": "https://api.flashcards-open-source-app.com/v1/agent/sql"
     }
   },
-  "instructions": "Start with POST https://auth.flashcards-open-source-app.com/api/agent/send-code using the user's email, then POST https://auth.flashcards-open-source-app.com/api/agent/verify-code to obtain an API key. After login, call GET https://api.flashcards-open-source-app.com/v1/agent/me, then GET https://api.flashcards-open-source-app.com/v1/agent/workspaces?limit=100. If no workspace is selected for this API key, call POST https://api.flashcards-open-source-app.com/v1/agent/workspaces/{workspaceId}/select or create one with POST https://api.flashcards-open-source-app.com/v1/agent/workspaces using {\"name\":\"Personal\"}. After workspace bootstrap, use POST https://api.flashcards-open-source-app.com/v1/agent/sql for all shared card and deck reads and writes. Use https://api.flashcards-open-source-app.com/v1/agent/openapi.json for the full contract. The SQL surface is intentionally limited and is not full PostgreSQL.",
+  "instructions": "Start with POST https://auth.flashcards-open-source-app.com/api/agent/send-code using the user's email, then POST https://auth.flashcards-open-source-app.com/api/agent/verify-code to obtain an API key. After login, call GET https://api.flashcards-open-source-app.com/v1/agent/me, then GET https://api.flashcards-open-source-app.com/v1/agent/workspaces?limit=100. If no workspace is selected for this API key, call POST https://api.flashcards-open-source-app.com/v1/agent/workspaces/{workspaceId}/select or create one with POST https://api.flashcards-open-source-app.com/v1/agent/workspaces using {\"name\":\"Personal\"}. After workspace bootstrap, use POST https://api.flashcards-open-source-app.com/v1/agent/sql for all shared card and deck reads and writes. Use docs.discoveryUrl for runtime discovery and docs.source.agentRoutesUrl for implementation details. The SQL surface is intentionally limited and is not full PostgreSQL.",
   "docs": {
-    "openapiUrl": "https://api.flashcards-open-source-app.com/v1/agent/openapi.json"
+    "discoveryUrl": "https://api.flashcards-open-source-app.com/v1/",
+    "docsUrl": "https://flashcards-open-source-app.com/docs/",
+    "source": {
+      "agentRoutesUrl": "https://github.com/kirill-markin/flashcards-open-source-app/tree/main/apps/backend/src/routes"
+    }
   }
 }
 ```
@@ -158,9 +162,12 @@ curl -X POST https://auth.flashcards-open-source-app.com/api/agent/send-code \
     "authBaseUrl": "https://auth.flashcards-open-source-app.com",
     "apiBaseUrl": "https://api.flashcards-open-source-app.com/v1"
   },
-  "instructions": "A verification code has been sent to the user's email. Ask for the 8-digit code from the email, then call verify_code with code, otpSessionToken, and a label for this agent connection. Read payload from data.* and do not expect resource fields at the top level. Select the next endpoint from instructions and confirm it with actions.",
+  "instructions": "A verification code has been sent to the user's email. Ask for the 8-digit code from the email, then call verify_code with code, otpSessionToken, and a label for this agent connection. Read payload from data.* and do not expect resource fields at the top level. Select the next endpoint from instructions and confirm it with actions. Use docs.discoveryUrl for runtime routes and docs.source.authRoutesUrl for implementation details.",
   "docs": {
-    "openapiUrl": "https://api.flashcards-open-source-app.com/v1/agent/openapi.json"
+    "discoveryUrl": "https://api.flashcards-open-source-app.com/v1/",
+    "source": {
+      "authRoutesUrl": "https://github.com/kirill-markin/flashcards-open-source-app/tree/main/apps/auth/src/routes/agent"
+    }
   }
 }
 ```
@@ -198,9 +205,12 @@ curl -X POST https://auth.flashcards-open-source-app.com/api/agent/verify-code \
       "revokedAt": null
     }
   },
-  "instructions": "Store this API key outside chat memory now. Use it in the Authorization header as 'ApiKey <key>'. Next call GET /v1/agent/me to load account context. Then call GET /v1/agent/workspaces?limit=100. If exactly one workspace exists, select it if needed. If no workspace exists, create one with POST /v1/agent/workspaces using {\"name\":\"Personal\"}. After a workspace is selected, use POST /v1/agent/sql for all data access. Use docs.openapiUrl for the full contract.",
+  "instructions": "Store this API key outside chat memory now. Use it in the Authorization header as 'ApiKey <key>'. Next call GET /v1/agent/me to load account context. Then call GET /v1/agent/workspaces?limit=100. If exactly one workspace exists, select it if needed. If no workspace exists, create one with POST /v1/agent/workspaces using {\"name\":\"Personal\"}. After a workspace is selected, use POST /v1/agent/sql for all data access. Use docs.discoveryUrl for runtime routes and docs.source.authRoutesUrl for implementation details.",
   "docs": {
-    "openapiUrl": "https://api.flashcards-open-source-app.com/v1/agent/openapi.json"
+    "discoveryUrl": "https://api.flashcards-open-source-app.com/v1/",
+    "source": {
+      "authRoutesUrl": "https://github.com/kirill-markin/flashcards-open-source-app/tree/main/apps/auth/src/routes/agent"
+    }
   }
 }
 ```
@@ -237,9 +247,12 @@ curl https://api.flashcards-open-source-app.com/v1/agent/me \
       "createdAt": "2026-03-10T12:00:00.000Z"
     }
   },
-  "instructions": "Next call GET https://api.flashcards-open-source-app.com/v1/agent/workspaces?limit=100 to inspect available workspaces for this API key. If data.nextCursor is not null, continue with the same endpoint and cursor=data.nextCursor until it becomes null. If no workspace is selected, call POST https://api.flashcards-open-source-app.com/v1/agent/workspaces/{workspaceId}/select. If no workspace exists, create one with POST https://api.flashcards-open-source-app.com/v1/agent/workspaces using {\"name\":\"Personal\"}. After a workspace is selected, use POST https://api.flashcards-open-source-app.com/v1/agent/sql for reads, writes, and SQL introspection. Read payload from data.* and use docs.openapiUrl for the full contract.",
+  "instructions": "Next call GET https://api.flashcards-open-source-app.com/v1/agent/workspaces?limit=100 to inspect available workspaces for this API key. If data.nextCursor is not null, continue with the same endpoint and cursor=data.nextCursor until it becomes null. If no workspace is selected, call POST https://api.flashcards-open-source-app.com/v1/agent/workspaces/{workspaceId}/select. If no workspace exists, create one with POST https://api.flashcards-open-source-app.com/v1/agent/workspaces using {\"name\":\"Personal\"}. After a workspace is selected, use POST https://api.flashcards-open-source-app.com/v1/agent/sql for reads, writes, and SQL introspection. Read payload from data.* and use docs.discoveryUrl for runtime routes and docs.source.agentRoutesUrl for implementation details.",
   "docs": {
-    "openapiUrl": "https://api.flashcards-open-source-app.com/v1/agent/openapi.json"
+    "discoveryUrl": "https://api.flashcards-open-source-app.com/v1/",
+    "source": {
+      "agentRoutesUrl": "https://github.com/kirill-markin/flashcards-open-source-app/tree/main/apps/backend/src/routes"
+    }
   }
 }
 ```
@@ -249,12 +262,12 @@ curl https://api.flashcards-open-source-app.com/v1/agent/me \
 - 利用可能なワークスペースをすべて読み込む
 - まだ存在しなければ最初のワークスペースを作る
 - 複数ある場合は正しいワークスペースを選ぶ
-- `/v1/agent/openapi.json` で公開されている仕様を確認する
+- `/v1/` のディスカバリでランタイムルートを確認する
 - `POST /v1/agent/sql` で読み取り、書き込み、SQL の内省を行う
 
 つまり、このログインフローは理屈のうえで正しいだけでなく、実際に使えるところまでつながっています。
 
-`/v1/openapi.json` と `/v1/swagger.json` にあるルート仕様エイリアスも使えますが、エージェント向けのドキュメントリンクは意図的に `/v1/agent/openapi.json` と `/v1/agent/swagger.json` を指しています。
+OpenAPI は利用できず、`/v1/` がランタイムディスカバリのエントリポイントです。4 つの旧仕様パス `/v1/openapi.json`、`/v1/swagger.json`、`/v1/agent/openapi.json`、`/v1/agent/swagger.json` は、スキーマではなく `openapiAvailable: false` を含む同じ JSON ディスカバリ通知を返します。
 
 ## 手動で API キーを用意するより、この方法がよい理由
 

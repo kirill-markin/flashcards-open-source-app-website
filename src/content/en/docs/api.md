@@ -27,17 +27,16 @@ The discovery response tells an agent how to:
 - create or select a workspace
 - continue through the published SQL surface
 
-## Published Specs
+## Runtime Discovery And Source
 
-Primary spec URLs for the external agent surface:
+OpenAPI is unavailable. The four former specification URLs below now return the same JSON discovery notice with `"openapiAvailable": false` instead of a schema:
 
 - `https://api.flashcards-open-source-app.com/v1/agent/openapi.json`
 - `https://api.flashcards-open-source-app.com/v1/agent/swagger.json`
-
-Equivalent root aliases also exist:
-
 - `https://api.flashcards-open-source-app.com/v1/openapi.json`
 - `https://api.flashcards-open-source-app.com/v1/swagger.json`
+
+Use `GET https://api.flashcards-open-source-app.com/v1/` for current runtime discovery. Follow the returned `docs.discoveryUrl` for runtime routes and `docs.source.agentRoutesUrl` for implementation details.
 
 ## Authentication Bootstrap
 
@@ -108,7 +107,7 @@ Typical bootstrap looks like this:
 4. If needed, `POST /v1/agent/workspaces/{workspaceId}/select`
 5. Use `POST /v1/agent/sql/query` for reads and `POST /v1/agent/sql/execute` for writes
 
-The workspace selection is explicit per API key connection. Agents should follow the returned `instructions` text and `docs.openapiUrl` field from each envelope instead of guessing the next step.
+The workspace selection is explicit per API key connection. Agents should follow the returned `instructions` text and `docs.discoveryUrl` for runtime routes, plus `docs.source.agentRoutesUrl` for implementation details, instead of guessing the next step.
 
 ## SQL Surface
 
@@ -192,4 +191,4 @@ Flashcards also includes separate APIs for human clients and offline-first sync,
 
 - browser flows use shared-domain cookies plus CSRF protection
 - offline-first clients use implemented sync routes under `/v1/workspaces/{workspaceId}/sync/push` and `/v1/workspaces/{workspaceId}/sync/pull`
-- sync routes are intentionally outside the external agent OpenAPI surface
+- sync routes are separate from the external agent surface
