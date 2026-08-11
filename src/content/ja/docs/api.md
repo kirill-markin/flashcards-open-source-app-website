@@ -23,17 +23,16 @@ GET https://api.flashcards-open-source-app.com/v1/
 - ワークスペースを作成または選択する
 - 公開されている SQL インターフェースの利用に進む
 
-## 公開仕様
+## ランタイムディスカバリとソース
 
-外部エージェント向け公開インターフェースの主な仕様 URL は次のとおりです。
+OpenAPI は利用できません。次の 4 つの旧仕様 URL は、スキーマではなく `"openapiAvailable": false` を含む同じ JSON ディスカバリ通知を返すようになりました。
 
 - `https://api.flashcards-open-source-app.com/v1/agent/openapi.json`
 - `https://api.flashcards-open-source-app.com/v1/agent/swagger.json`
-
-同等のルートエイリアスも用意されています。
-
 - `https://api.flashcards-open-source-app.com/v1/openapi.json`
 - `https://api.flashcards-open-source-app.com/v1/swagger.json`
+
+現在のランタイムディスカバリには `GET https://api.flashcards-open-source-app.com/v1/` を使用してください。返された `docs.discoveryUrl` でランタイムルートを確認し、`docs.source.agentRoutesUrl` で実装の詳細を確認してください。
 
 ## 認証の開始手順
 
@@ -104,7 +103,7 @@ curl -X POST https://auth.flashcards-open-source-app.com/api/agent/verify-code \
 4. 必要であれば `POST /v1/agent/workspaces/{workspaceId}/select` を呼ぶ
 5. 読み取りには `POST /v1/agent/sql/query` を、書き込みには `POST /v1/agent/sql/execute` を使う
 
-ワークスペースの選択は、API キーごとの接続単位で明示的に行います。次の手順を推測するのではなく、各レスポンスに含まれる `instructions` と `docs.openapiUrl` に従ってください。
+ワークスペースの選択は、API キーごとの接続単位で明示的に行います。次の手順を推測するのではなく、各レスポンスに含まれる `instructions` とランタイムルート用の `docs.discoveryUrl`、実装の詳細用の `docs.source.agentRoutesUrl` に従ってください。
 
 ## SQL インターフェース
 
@@ -186,4 +185,4 @@ Flashcards には、人が利用するクライアント向けの別 API とオ�
 
 - ブラウザ向けフローでは、共有ドメインの Cookie と CSRF 保護を使用します
 - オフラインファーストのクライアントは `/v1/workspaces/{workspaceId}/sync/push` と `/v1/workspaces/{workspaceId}/sync/pull` を使用します
-- これらの同期ルートは、意図的に外部エージェント向け OpenAPI には含めていません
+- これらの同期ルートは、外部エージェント向けインターフェースとは別です
