@@ -23,17 +23,16 @@ GET https://api.flashcards-open-source-app.com/v1/
 - создать workspace или выбрать существующий
 - продолжить работу через опубликованный SQL-интерфейс
 
-## Опубликованные спецификации
+## Runtime discovery и исходный код
 
-Основные URL спецификаций для внешнего интерфейса агентов:
+OpenAPI недоступен. Четыре прежних URL спецификаций ниже теперь возвращают одно и то же JSON-уведомление discovery с `"openapiAvailable": false` вместо схемы:
 
 - `https://api.flashcards-open-source-app.com/v1/agent/openapi.json`
 - `https://api.flashcards-open-source-app.com/v1/agent/swagger.json`
-
-В корне также доступны эквивалентные алиасы:
-
 - `https://api.flashcards-open-source-app.com/v1/openapi.json`
 - `https://api.flashcards-open-source-app.com/v1/swagger.json`
+
+Для актуального runtime discovery используйте `GET https://api.flashcards-open-source-app.com/v1/`. В ответе `docs.discoveryUrl` указывает на runtime-маршруты, а `docs.source.agentRoutesUrl` — на детали реализации.
 
 ## Первичная аутентификация
 
@@ -104,7 +103,7 @@ curl -X POST https://auth.flashcards-open-source-app.com/api/agent/verify-code \
 4. При необходимости `POST /v1/agent/workspaces/{workspaceId}/select`
 5. Затем используйте `POST /v1/agent/sql/query` для чтения и `POST /v1/agent/sql/execute` для записи
 
-Выбор workspace выполняется явно для каждого подключения по API-ключу. Агентам следует ориентироваться на текст `instructions` и поле `docs.openapiUrl`, которые возвращаются в каждом таком ответе, а не пытаться угадывать следующий шаг.
+Выбор workspace выполняется явно для каждого подключения по API-ключу. Агентам следует ориентироваться на возвращаемый текст `instructions`, `docs.discoveryUrl` для runtime-маршрутов и `docs.source.agentRoutesUrl` для деталей реализации, а не пытаться угадывать следующий шаг.
 
 ## SQL-интерфейс
 
@@ -190,4 +189,4 @@ SQL-интерфейс — это изолированный диалект с �
 
 - браузерные сценарии используют cookie общего домена и защиту CSRF
 - offline-first клиенты используют реализованные маршруты синхронизации `/v1/workspaces/{workspaceId}/sync/push` и `/v1/workspaces/{workspaceId}/sync/pull`
-- маршруты синхронизации намеренно не входят во внешний OpenAPI-контракт для агентов
+- маршруты синхронизации отделены от внешнего интерфейса для агентов

@@ -23,17 +23,16 @@ Die Discovery-Antwort sagt einem Agenten, wie er:
 - einen Workspace erstellt oder auswaehlt
 - ueber die veroeffentlichte SQL-Oberflaeche weiterarbeitet
 
-## Veroeffentlichte Spezifikationen
+## Laufzeit-Discovery und Quellcode
 
-Primaere Spezifikations-URLs fuer die externe Agent-Oberflaeche:
+OpenAPI ist nicht verfuegbar. Die vier frueheren Spezifikations-URLs unten geben jetzt denselben JSON-Discovery-Hinweis mit `"openapiAvailable": false` statt eines Schemas zurueck:
 
 - `https://api.flashcards-open-source-app.com/v1/agent/openapi.json`
 - `https://api.flashcards-open-source-app.com/v1/agent/swagger.json`
-
-Gleichwertige Root-Aliase existieren ebenfalls:
-
 - `https://api.flashcards-open-source-app.com/v1/openapi.json`
 - `https://api.flashcards-open-source-app.com/v1/swagger.json`
+
+Verwenden Sie `GET https://api.flashcards-open-source-app.com/v1/` fuer die aktuelle Laufzeit-Discovery. Folgen Sie dem zurueckgegebenen `docs.discoveryUrl` fuer Laufzeit-Routen und `docs.source.agentRoutesUrl` fuer Implementierungsdetails.
 
 ## Auth-Bootstrap
 
@@ -82,7 +81,7 @@ Ein typischer Bootstrap sieht so aus:
 4. Falls noetig `POST /v1/agent/workspaces/{workspaceId}/select`
 5. Danach `POST /v1/agent/sql/query` fuer Lesevorgaenge und `POST /v1/agent/sql/execute` fuer Schreibvorgaenge
 
-Die Workspace-Auswahl ist pro API-Key-Verbindung explizit. Agenten sollten dem zurueckgegebenen Text in `instructions` und dem Feld `docs.openapiUrl` folgen, statt den naechsten Schritt zu raten.
+Die Workspace-Auswahl ist pro API-Key-Verbindung explizit. Agenten sollten dem zurueckgegebenen Text in `instructions` und `docs.discoveryUrl` fuer Laufzeit-Routen sowie `docs.source.agentRoutesUrl` fuer Implementierungsdetails folgen, statt den naechsten Schritt zu raten.
 
 ## SQL-Oberflaeche
 
@@ -145,4 +144,4 @@ Flashcards enthaelt auch separate APIs fuer menschliche Clients und Offline-Firs
 
 - Browser-Flows nutzen Shared-Domain-Cookies plus CSRF-Schutz
 - Offline-First-Clients verwenden die implementierten Sync-Routen unter `/v1/workspaces/{workspaceId}/sync/push` und `/v1/workspaces/{workspaceId}/sync/pull`
-- Sync-Routen liegen absichtlich ausserhalb der externen Agent-OpenAPI-Oberflaeche
+- Sync-Routen sind von der externen Agent-Oberflaeche getrennt

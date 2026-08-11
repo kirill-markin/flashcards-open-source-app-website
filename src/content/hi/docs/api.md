@@ -23,17 +23,16 @@ GET https://api.flashcards-open-source-app.com/v1/
 - workspace बनाए या चुने
 - प्रकाशित SQL इंटरफ़ेस के जरिए आगे बढ़े
 
-## प्रकाशित विनिर्देश
+## रनटाइम डिस्कवरी और स्रोत
 
-बाहरी एजेंट इंटरफ़ेस के लिए मुख्य विनिर्देश URLs:
+OpenAPI उपलब्ध नहीं है। नीचे दिए गए चार पुराने specification URLs अब schema के बजाय `"openapiAvailable": false` वाला एक ही JSON discovery notice लौटाते हैं:
 
 - `https://api.flashcards-open-source-app.com/v1/agent/openapi.json`
 - `https://api.flashcards-open-source-app.com/v1/agent/swagger.json`
-
-इनके समकक्ष root aliases भी उपलब्ध हैं:
-
 - `https://api.flashcards-open-source-app.com/v1/openapi.json`
 - `https://api.flashcards-open-source-app.com/v1/swagger.json`
+
+वर्तमान runtime discovery के लिए `GET https://api.flashcards-open-source-app.com/v1/` का उपयोग करें। runtime routes के लिए लौटाए गए `docs.discoveryUrl` और implementation details के लिए `docs.source.agentRoutesUrl` का पालन करें।
 
 ## प्रमाणीकरण की शुरुआती प्रक्रिया
 
@@ -104,7 +103,7 @@ curl -X POST https://auth.flashcards-open-source-app.com/api/agent/verify-code \
 4. जरूरत हो तो `POST /v1/agent/workspaces/{workspaceId}/select`
 5. पढ़ने के लिए `POST /v1/agent/sql/query` और लिखने के लिए `POST /v1/agent/sql/execute` का उपयोग करें
 
-हर API key connection के लिए workspace selection अलग से स्पष्ट रूप से किया जाता है। अगला कदम अनुमान से तय करने के बजाय एजेंटों को हर API उत्तर में मिले `instructions` text और `docs.openapiUrl` field का पालन करना चाहिए।
+हर API key connection के लिए workspace selection अलग से स्पष्ट रूप से किया जाता है। अगला कदम अनुमान से तय करने के बजाय एजेंटों को लौटाए गए `instructions` text और runtime routes के लिए `docs.discoveryUrl`, साथ ही implementation details के लिए `docs.source.agentRoutesUrl` का पालन करना चाहिए।
 
 ## SQL इंटरफ़ेस
 
@@ -188,4 +187,4 @@ Flashcards में उपयोगकर्ता क्लाइंट और
 
 - browser आधारित flows shared-domain cookies और CSRF protection का उपयोग करते हैं
 - offline-first क्लाइंट `/v1/workspaces/{workspaceId}/sync/push` और `/v1/workspaces/{workspaceId}/sync/pull` के तहत लागू किए गए sync routes का उपयोग करते हैं
-- sync routes को जानबूझकर बाहरी एजेंट OpenAPI इंटरफ़ेस से बाहर रखा गया है
+- sync routes बाहरी एजेंट इंटरफ़ेस से अलग हैं
