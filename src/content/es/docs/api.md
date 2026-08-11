@@ -24,17 +24,16 @@ La respuesta de descubrimiento le dice al agente cómo:
 - crear o seleccionar un espacio de trabajo
 - continuar a través de la superficie SQL publicada
 
-## Especificaciones publicadas
+## Descubrimiento en tiempo de ejecución y código fuente
 
-URL de especificaciones principales para la superficie del agente externo:
+OpenAPI no está disponible. Las cuatro URL de especificación anteriores que aparecen a continuación ahora devuelven el mismo aviso de descubrimiento JSON con `"openapiAvailable": false` en lugar de un esquema:
 
 - `https://api.flashcards-open-source-app.com/v1/agent/openapi.json`
 - `https://api.flashcards-open-source-app.com/v1/agent/swagger.json`
-
-También existen alias de raíz equivalentes:
-
 - `https://api.flashcards-open-source-app.com/v1/openapi.json`
 - `https://api.flashcards-open-source-app.com/v1/swagger.json`
+
+Utilice `GET https://api.flashcards-open-source-app.com/v1/` para el descubrimiento actual en tiempo de ejecución. Siga el `docs.discoveryUrl` devuelto para las rutas en tiempo de ejecución y `docs.source.agentRoutesUrl` para los detalles de implementación.
 
 ## Arranque de autenticación
 
@@ -105,7 +104,7 @@ El bootstrap típico se ve así:
 4. Si es necesario, `POST /v1/agent/workspaces/{workspaceId}/select`
 5. Utilice `POST /v1/agent/sql/query` para lecturas y `POST /v1/agent/sql/execute` para escrituras
 
-La selección del espacio de trabajo es explícita por conexión de clave API. Los agentes deben seguir el texto `instructions` devuelto y el campo `docs.openapiUrl` de cada sobre en lugar de adivinar el siguiente paso.
+La selección del espacio de trabajo es explícita por conexión de clave API. Los agentes deben seguir el texto `instructions` devuelto y `docs.discoveryUrl` para las rutas en tiempo de ejecución, además de `docs.source.agentRoutesUrl` para los detalles de implementación, en lugar de adivinar el siguiente paso.
 
 ## Superficie SQL
 
@@ -190,4 +189,4 @@ Flashcards también incluye API independientes para clientes humanos y sincroniz
 
 - los flujos del navegador utilizan cookies de dominio compartido más protección CSRF
 - Los primeros clientes sin conexión utilizan rutas de sincronización implementadas en `/v1/workspaces/{workspaceId}/sync/push` y `/v1/workspaces/{workspaceId}/sync/pull`
-- las rutas de sincronización están intencionalmente fuera de la superficie OpenAPI del agente externo
+- las rutas de sincronización están separadas de la superficie del agente externo

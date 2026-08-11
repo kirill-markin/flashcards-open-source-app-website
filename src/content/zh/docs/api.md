@@ -23,17 +23,16 @@ GET https://api.flashcards-open-source-app.com/v1/
 - 创建或选择工作区
 - 继续调用已公开的 SQL 能力
 
-## 已公开的规范
+## 运行时发现与源代码
 
-外部智能代理接口的主要规范 URL 如下：
+OpenAPI 已不可用。以下四个旧规范 URL 现在不会返回架构，而是返回同一份包含 `"openapiAvailable": false` 的 JSON 发现通知：
 
 - `https://api.flashcards-open-source-app.com/v1/agent/openapi.json`
 - `https://api.flashcards-open-source-app.com/v1/agent/swagger.json`
-
-另外也提供等价的根路径别名：
-
 - `https://api.flashcards-open-source-app.com/v1/openapi.json`
 - `https://api.flashcards-open-source-app.com/v1/swagger.json`
+
+请使用 `GET https://api.flashcards-open-source-app.com/v1/` 获取当前运行时发现信息。请根据返回的 `docs.discoveryUrl` 查找运行时路由，并通过 `docs.source.agentRoutesUrl` 查看实现细节。
 
 ## 认证准备流程
 
@@ -104,7 +103,7 @@ curl -X POST https://auth.flashcards-open-source-app.com/api/agent/verify-code \
 4. 如有需要，调用 `POST /v1/agent/workspaces/{workspaceId}/select`
 5. 读取时使用 `POST /v1/agent/sql/query`，写入时使用 `POST /v1/agent/sql/execute`
 
-工作区选择需要针对每个 API 密钥连接显式执行。智能代理应以每个响应封装中返回的 `instructions` 文本和 `docs.openapiUrl` 字段为准，不要自行猜测下一步。
+工作区选择需要针对每个 API 密钥连接显式执行。智能代理应以响应中返回的 `instructions` 文本、用于运行时路由的 `docs.discoveryUrl` 以及用于实现细节的 `docs.source.agentRoutesUrl` 为准，不要自行猜测下一步。
 
 ## SQL 接口
 
@@ -188,4 +187,4 @@ Flashcards 也提供供人工用户客户端和离线优先同步场景使用的
 
 - 浏览器流程使用共享域 Cookie，并配合 CSRF 保护
 - 离线优先客户端使用 `/v1/workspaces/{workspaceId}/sync/push` 与 `/v1/workspaces/{workspaceId}/sync/pull` 下已实现的同步路由
-- 这些同步路由有意不纳入外部智能代理的 OpenAPI 接口范围
+- 这些同步路由与外部智能代理接口相互独立
