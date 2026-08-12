@@ -6,6 +6,10 @@ import {
   getOpenGraphLocale,
 } from "@/lib/i18n";
 import { getLanguageAlternates } from "@/lib/routeTranslations";
+import {
+  getPublicCatalogCoverImage,
+  type PublicCatalogCoverImage,
+} from "@/lib/publicCatalogCover";
 import type { PublicCatalogPackageView } from "@/lib/publicCatalogReadModel";
 import type {
   PublicCatalogAuthor,
@@ -36,6 +40,7 @@ import {
 
 interface CreatePublicCatalogMetadataParams {
   readonly description: string;
+  readonly image: PublicCatalogCoverImage | null;
   readonly locale: AppLocale;
   readonly publishedTime: string | null;
   readonly routePathname: string;
@@ -67,14 +72,25 @@ export function createPublicCatalogMetadata(
       url: pageUrl,
       title: params.title,
       description: params.description,
-      images: [{ url: OPEN_GRAPH_IMAGE_URL }],
+      images: [params.image === null
+        ? { url: OPEN_GRAPH_IMAGE_URL }
+        : {
+            alt: params.image.altText,
+            type: params.image.mimeType,
+            url: params.image.downloadUrl,
+          }],
       publishedTime: params.publishedTime ?? undefined,
     },
     twitter: {
       card: "summary_large_image",
       title: params.title,
       description: params.description,
-      images: [TWITTER_IMAGE_URL],
+      images: [params.image === null
+        ? TWITTER_IMAGE_URL
+        : {
+            alt: params.image.altText,
+            url: params.image.downloadUrl,
+          }],
     },
   };
 }
@@ -84,6 +100,7 @@ export function createPublicCatalogRootMetadata(locale: AppLocale): Metadata {
 
   return createPublicCatalogMetadata({
     description: copy.intro,
+    image: null,
     locale,
     publishedTime: null,
     routePathname: PUBLIC_CATALOG_ROUTE_PATHNAME,
@@ -97,6 +114,7 @@ export function createPublicCatalogAuthorsMetadata(locale: AppLocale): Metadata 
 
   return createPublicCatalogMetadata({
     description: copy.authorsIntro,
+    image: null,
     locale,
     publishedTime: null,
     routePathname: PUBLIC_CATALOG_AUTHORS_ROUTE_PATHNAME,
@@ -110,6 +128,7 @@ export function createPublicCatalogCollectionsMetadata(locale: AppLocale): Metad
 
   return createPublicCatalogMetadata({
     description: copy.collectionsIntro,
+    image: null,
     locale,
     publishedTime: null,
     routePathname: PUBLIC_CATALOG_COLLECTIONS_ROUTE_PATHNAME,
@@ -127,6 +146,10 @@ export function createPublicCatalogPackageMetadata(
 
   return createPublicCatalogMetadata({
     description: latestVersion.summary,
+    image: getPublicCatalogCoverImage(
+      latestVersion.title,
+      packageView.coverMediaAsset,
+    ),
     locale,
     publishedTime: packageMetadata.publishedAt,
     routePathname: getPublicCatalogPackageRoutePathname(packageMetadata.slug),
@@ -145,6 +168,7 @@ export function createPublicCatalogAuthorMetadata(
     description: author.bio === null || author.bio.trim() === ""
       ? copy.authorsIntro
       : author.bio,
+    image: null,
     locale,
     publishedTime: null,
     routePathname: getPublicCatalogAuthorRoutePathname(author.slug),
@@ -165,6 +189,7 @@ export function createPublicCatalogCollectionMetadata(
 
   return createPublicCatalogMetadata({
     description: collection.summary === "" ? copy.collectionsIntro : collection.summary,
+    image: null,
     locale,
     publishedTime: collection.publishedAt,
     routePathname: getPublicCatalogCollectionRoutePathname(collection.slug),
@@ -188,6 +213,7 @@ export function createPublicCatalogFacetMetadata(
       "tag",
       displayTag,
     ),
+    image: null,
     locale,
     publishedTime: null,
     routePathname: isLanguage
