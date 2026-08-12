@@ -1,5 +1,11 @@
 import type { PublicCatalogCoverMediaAsset } from "./publicCatalogReadModel";
 
+export type PublicCatalogCoverImage = Readonly<{
+  altText: string;
+  downloadUrl: string;
+  mimeType: string;
+}>;
+
 export type PublicCatalogCoverRenderData =
   | Readonly<{
       altText: string;
@@ -35,15 +41,34 @@ function isPublicCatalogCoverImageMimeType(mimeType: string): boolean {
     || mimeType === "image/webp";
 }
 
+export function getPublicCatalogCoverImage(
+  title: string,
+  coverMediaAsset: PublicCatalogCoverMediaAsset | null,
+): PublicCatalogCoverImage | null {
+  if (
+    coverMediaAsset === null
+    || isPublicCatalogCoverImageMimeType(coverMediaAsset.mimeType) === false
+  ) {
+    return null;
+  }
+
+  const authoredAltText = coverMediaAsset.altText?.trim() ?? "";
+
+  return {
+    altText: authoredAltText === "" ? title : authoredAltText,
+    downloadUrl: coverMediaAsset.downloadUrl,
+    mimeType: coverMediaAsset.mimeType,
+  };
+}
+
 export function getPublicCatalogCoverRenderData(
   title: string,
   coverMediaAsset: PublicCatalogCoverMediaAsset | null,
   placeholderLabel: string,
 ): PublicCatalogCoverRenderData {
-  if (
-    coverMediaAsset === null
-    || isPublicCatalogCoverImageMimeType(coverMediaAsset.mimeType) === false
-  ) {
+  const coverImage = getPublicCatalogCoverImage(title, coverMediaAsset);
+
+  if (coverImage === null) {
     return {
       accessibleLabel: getPublicCatalogCoverPlaceholderAccessibleLabel(
         title,
@@ -54,11 +79,9 @@ export function getPublicCatalogCoverRenderData(
     };
   }
 
-  const authoredAltText = coverMediaAsset.altText?.trim() ?? "";
-
   return {
-    altText: authoredAltText === "" ? title : authoredAltText,
-    downloadUrl: coverMediaAsset.downloadUrl,
+    altText: coverImage.altText,
+    downloadUrl: coverImage.downloadUrl,
     kind: "image",
   };
 }

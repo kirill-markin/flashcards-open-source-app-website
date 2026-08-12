@@ -26,6 +26,7 @@ import {
   renderPublicCatalogMarkdownDocument,
 } from "./publicCatalogMarkdown";
 import {
+  getPublicCatalogCoverImage,
   getPublicCatalogCoverInitial,
   getPublicCatalogCoverPlaceholderAccessibleLabel,
   getPublicCatalogCoverRenderData,
@@ -75,6 +76,10 @@ import {
 } from "./publicCatalogStaticAssets";
 import { createPublicCatalogSitemapEntries } from "./publicCatalogSitemap";
 import {
+  createPublicCatalogPackageMetadata,
+  createPublicCatalogRootMetadata,
+} from "./seo/createPublicCatalogMetadata";
+import {
   createPublicCatalogAuthorJsonLd,
   createPublicCatalogCollectionJsonLd,
   createPublicCatalogFacetJsonLd,
@@ -82,6 +87,7 @@ import {
   createPublicCatalogRootJsonLd,
 } from "./seo/publicCatalogStructuredData";
 import { serializeStructuredData } from "./seo/structuredData";
+import { OPEN_GRAPH_IMAGE_URL, TWITTER_IMAGE_URL } from "./site";
 
 type Mutable<T> = T extends ReadonlyArray<infer Item>
   ? Array<Mutable<Item>>
@@ -2389,10 +2395,112 @@ test("resolves collection cover placeholders when its package or media reference
   );
 });
 
+test("uses package covers for catalog package social metadata", () => {
+  const model = createPublicCatalogReadModel(parsePublicCatalogDump(createValidDump()));
+  const packageView = getPublicCatalogPackageBySlug(model, "canonical-package");
+  const downloadUrl =
+    `https://api.flashcards-open-source-app.com/v1/catalog/package-versions/${fixtureLatestVersionId}/media-assets/cover.webp/download`;
+
+  assert.ok(packageView);
+
+  const metadata = createPublicCatalogPackageMetadata("en", packageView);
+
+  assert.deepEqual(metadata.openGraph?.images, [
+    {
+      alt: "Cover image",
+      type: "image/webp",
+      url: downloadUrl,
+    },
+  ]);
+  assert.deepEqual(metadata.twitter?.images, [
+    {
+      alt: "Cover image",
+      url: downloadUrl,
+    },
+  ]);
+});
+
+test("uses the package title when social cover alt text is null or blank", () => {
+  const model = createPublicCatalogReadModel(parsePublicCatalogDump(createValidDump()));
+  const packageView = getPublicCatalogPackageBySlug(model, "canonical-package");
+
+  assert.ok(packageView);
+
+  const coverMediaAsset = packageView.coverMediaAsset;
+
+  assert.ok(coverMediaAsset);
+
+  for (const altText of [null, "   "]) {
+    const metadata = createPublicCatalogPackageMetadata("en", {
+      ...packageView,
+      coverMediaAsset: {
+        ...coverMediaAsset,
+        altText,
+      },
+    });
+
+    assert.deepEqual(metadata.openGraph?.images, [
+      {
+        alt: packageView.latestVersion.title,
+        type: coverMediaAsset.mimeType,
+        url: coverMediaAsset.downloadUrl,
+      },
+    ]);
+    assert.deepEqual(metadata.twitter?.images, [
+      {
+        alt: packageView.latestVersion.title,
+        url: coverMediaAsset.downloadUrl,
+      },
+    ]);
+  }
+});
+
+test("keeps shared social images for catalog pages without a valid package cover", () => {
+  const model = createPublicCatalogReadModel(parsePublicCatalogDump(createValidDump()));
+  const packageView = getPublicCatalogPackageBySlug(model, "canonical-package");
+
+  assert.ok(packageView);
+
+  const coverMediaAsset = packageView.coverMediaAsset;
+
+  assert.ok(coverMediaAsset);
+
+  const metadataValues = [
+    createPublicCatalogRootMetadata("en"),
+    createPublicCatalogPackageMetadata("en", {
+      ...packageView,
+      coverMediaAsset: null,
+    }),
+    createPublicCatalogPackageMetadata("en", {
+      ...packageView,
+      coverMediaAsset: {
+        ...coverMediaAsset,
+        mimeType: "application/pdf",
+      },
+    }),
+  ];
+
+  for (const metadata of metadataValues) {
+    assert.deepEqual(metadata.openGraph?.images, [{ url: OPEN_GRAPH_IMAGE_URL }]);
+    assert.deepEqual(metadata.twitter?.images, [TWITTER_IMAGE_URL]);
+  }
+});
+
 test("builds catalog cover render data for images and placeholders", () => {
   const downloadUrl =
     `https://api.flashcards-open-source-app.com/v1/catalog/package-versions/${fixtureLatestVersionId}/media-assets/cover.webp/download`;
 
+  assert.deepEqual(
+    getPublicCatalogCoverImage(
+      "Package title",
+      { altText: " Authored cover text ", downloadUrl, mimeType: "image/webp" },
+    ),
+    {
+      altText: "Authored cover text",
+      downloadUrl,
+      mimeType: "image/webp",
+    },
+  );
   assert.deepEqual(
     getPublicCatalogCoverRenderData(
       "Package title",
