@@ -1,253 +1,198 @@
 ---
-title: "Cómo exportar tus sets de Quizlet en 2026 y convertirlos en flashcards con FSRS"
-description: "¿Necesitas exportar tus sets de Quizlet en 2026 y llevarlos a un flujo de repetición espaciada de verdad? Esta es la ruta práctica: comprobar si el set se puede exportar, limpiar el texto y convertirlo en flashcards listas para FSRS."
+title: "Cómo exportar sets de Quizlet en 2026: guarda tus tarjetas y migra con seguridad"
+description: "Exporta los sets de Quizlet que hayas creado con los pasos exactos de 2026. Guarda una copia UTF-8 y prepara tarjetas en Flashcards o impórtalas en Anki."
 image: "/blog/how-to-export-quizlet-sets-and-turn-them-into-fsrs-flashcards.png"
 date: "2026-06-10"
+updated: "2026-08-13"
 keywords:
-  - "exportar sets de Quizlet"
+  - "cómo exportar sets de Quizlet"
   - "exportar Quizlet"
-  - "migrar desde Quizlet"
+  - "descargar tarjetas de Quizlet"
+  - "migrar de Quizlet"
+  - "pasar de Quizlet a Anki"
   - "Quizlet a flashcards"
-  - "Quizlet a FSRS"
-  - "exportación alternativa de Quizlet"
-  - "mover flashcards de Quizlet"
-  - "flashcards open source"
 ---
 
-La parte frustrante de buscar **exportar sets de Quizlet** en 2026 es que la opción de exportación sí existe, pero solo sirve para una parte bastante más pequeña de los mazos de lo que la mayoría espera.
+El botón de exportación de Quizlet no descarga un archivo con todo el set. Según la información disponible el 13 de agosto de 2026, el proceso para exportar desde el sitio web un set que hayas creado termina en **Copy text**. Recibes los términos y las definiciones en el portapapeles, pero no las imágenes, el formato, el historial de estudio ni la programación de repasos.
 
-Si el set es tuyo, contiene sobre todo texto y estás en la web de Quizlet, tienes una salida razonable. Si el set fue copiado de otra persona o depende de imágenes, probablemente no.
+Aun así, ese texto puede convertirse en una copia de seguridad fiable del contenido de las tarjetas. Conserva sin cambios la primera copia que pegues, revisa los separadores y prueba unas pocas tarjetas en el destino antes de trasladar el set completo.
 
-Por eso esta guía se mantiene deliberadamente acotada. No es otro artículo de comparación sobre Quizlet. Es el flujo práctico para sacar tu propio material, limpiarlo y convertirlo en flashcards que funcionen bien con FSRS.
+![Conservadora textil que preserva una muestra emparejada intacta y prueba tres segmentos de una copia de trabajo](/blog/how-to-export-quizlet-sets-and-turn-them-into-fsrs-flashcards.png)
 
-![Escritorio cálido con una exportación de texto limpiándose para convertirla en flashcards listas para repasar](/blog/how-to-export-quizlet-sets-and-turn-them-into-fsrs-flashcards.png)
+## Respuesta rápida: cómo exportar un set de Quizlet
 
-## Reglas de exportación de Quizlet que importan antes de empezar
+Para exportar un set que hayas creado, inicia sesión en el sitio web de Quizlet y entra en **Your library → Flashcard sets**. Abre el set, selecciona **More → Export**, elige cómo organizar los términos y las definiciones, pulsa **Copy text** y pega el resultado en un editor de texto sin formato.
 
-Con fecha de **10 de junio de 2026**, la [propia ayuda de Quizlet sobre exportar sets](https://help.quizlet.com/hc/en-us/articles/360034345672-Exporting-your-sets) dice que la ruta de exportación es más limitada de lo que mucha gente espera:
+Si el cuadro de exportación ofrece los separadores adecuados, recomiendo usar una tabulación entre el término y la definición y un salto de línea entre las tarjetas. Guarda la primera copia como un archivo `.txt` con codificación UTF-8 y no la edites. Este proceso no genera un archivo CSV ni una copia de seguridad completa del set. Tampoco exporta imágenes ni sets copiados.
 
-- puedes exportar sets creados por ti
-- los sets copiados no se pueden exportar
-- el contenido basado en imágenes no se exporta
-- la exportación está disponible en la web de Quizlet, no en la app móvil
+Estas limitaciones aparecen en las [instrucciones oficiales de Quizlet para exportar sets](https://help.quizlet.com/hc/en-us/articles/360034345672-Exporting-your-sets).
 
-La mayor parte de la frustración con la exportación empieza aquí, no en el formato del archivo. Mucha gente pierde tiempo buscando el botón de exportar cuando el problema real es que ese set ni siquiera se puede exportar.
+## Cómo exportar sets de Quizlet: pasos exactos en 2026
 
-Antes de planear nada más, revisa primero la parte aburrida:
+Actualmente, la exportación está disponible en el sitio web, no en las aplicaciones móviles de Quizlet. Abre Quizlet en un navegador y sigue estos pasos:
 
-- ¿creaste tú este set?
-- ¿el contenido útil es principalmente texto?
-- ¿lo estás haciendo desde la web, no desde la app?
+1. [Inicia sesión en Quizlet](https://quizlet.com/login).
+2. Selecciona **Your library**.
+3. Selecciona **Flashcard sets**.
+4. Abre el set que quieras exportar.
+5. Selecciona el menú **More**.
+6. Selecciona **Export**.
+7. Elige cómo quieres organizar los términos y las definiciones.
+8. Selecciona **Copy text**.
+9. Pega el texto en un editor de texto sin formato y guárdalo con codificación UTF-8.
 
-Si la respuesta es sí en los tres casos, sigue. Si no, no pierdas tiempo imaginando que un clic más va a desbloquear una ruta de exportación oculta.
+Si no ves **Export**, comprueba que estés usando el sitio web y que hayas creado el set original. Según Quizlet, los sets copiados no se pueden exportar, aunque aparezcan en tu biblioteca.
 
-## Trata la exportación de Quizlet como materia prima, no como un clon completo
+## Elige un formato que puedas revisar después
 
-Ese cambio mental hace que la migración sea bastante más fácil.
+El cuadro de exportación permite organizar los términos y las definiciones, pero la página de ayuda de Quizlet no indica los nombres actuales de las opciones de separación. Para las tarjetas habituales con anverso y reverso, usa esta estructura si el cuadro te lo permite:
 
-Si tu objetivo es seguir estudiando, no necesitas una copia de museo de tu configuración anterior. Necesitas términos y definiciones en un formato que puedas revisar, acortar, dividir y repasar bien.
+- una tabulación entre el término y la definición;
+- un salto de línea entre las tarjetas.
 
-Por eso **exportar Quizlet** funciona mejor cuando lo tratas como materia prima:
+Las tabulaciones suelen funcionar bien porque las definiciones a menudo contienen comas y puntos y coma. Una exportación sencilla tendría este aspecto:
 
-- exporta el texto del set
-- limpia la basura evidente
-- divide las tarjetas malas
-- pasa a un flujo de repaso real solo las que merezcan sobrevivir
+```text
+photosynthesis	Process plants use to convert light energy into chemical energy
+mitosis	Cell division that produces two genetically identical daughter cells
+café	coffee
+```
 
-Tiene menos magia, sí. También es mucho más útil.
+El espacio amplio de cada fila representa una tabulación. Cada tarjeta ocupa una línea.
 
-## Cómo exportar tu set de Quizlet desde la web
+El resultado es texto separado por tabulaciones, pero Quizlet solo lo ha copiado en el portapapeles: no ha creado ni descargado un archivo `.tsv` o `.csv`. Cambiar el nombre de `cards.txt` a `cards.csv` no convierte el contenido ni corrige los separadores.
 
-Si el set es tuyo y contiene sobre todo texto, empieza en la propia web de Quizlet.
+## Guarda dos copias antes de corregir nada
 
-La documentación de ayuda de Quizlet dice que la exportación solo está disponible en la web. En la práctica, esto es una tarea de escritorio o de navegador móvil, no algo de "toquetear la app y ver si suena la flauta".
+Pega la exportación de Quizlet en un editor de texto sin formato y crea dos archivos:
 
-El flujo más simple es este:
+1. **Copia original:** guarda exactamente el texto que has pegado con un nombre como `biology-quizlet-raw.txt` y codificación UTF-8.
+2. **Copia de trabajo:** duplica el archivo como `biology-quizlet-clean.txt` y haz las correcciones solo en esta copia.
 
-1. Abre tu set en la web de Quizlet.
-2. Usa la opción de exportar que aparezca para ese set.
-3. Copia el texto exportado en un archivo de texto plano o en una nota.
-4. Mantén un set por archivo mientras lo limpias.
+Conserva los dos archivos como `.txt`; Anki puede importar directamente archivos de texto sin formato. Si luego trabajas con una hoja de cálculo, exporta un CSV o TSV desde ese programa en lugar de limitarte a cambiar la extensión. Los separadores y la codificación UTF-8 importan más que el nombre del archivo.
 
-Mantener un set por archivo ayuda más de lo que parece. Detectarás duplicados, saltos de línea rotos y tarjetas sobrecargadas mucho más rápido si cada exportación se mantiene separada.
+Guarda la copia original en una ubicación que cuente con copia de seguridad. Si una importación combina campos, pierde una fila o altera un carácter, podrás volver al original sin repetir la exportación desde Quizlet.
 
-## Dedica cinco minutos a limpiar antes de importar nada
+## Qué conserva la exportación y qué se queda en Quizlet
 
-Las exportaciones en bruto a menudo son utilizables. También suelen venir un poco desordenadas. Es normal. Muchos sets de Quizlet se escribieron para avanzar rápido, no para tener buena calidad de repaso a largo plazo. Exportarlos solo hace visible ese problema.
+Quizlet describe esta función como una exportación de los **términos y las definiciones** de un set que hayas creado. Considera que cualquier otro elemento queda fuera de la transferencia, salvo que puedas comprobar que aparece en el texto pegado.
 
-Yo haría una pasada rápida de limpieza antes de que nada toque un mazo nuevo:
+El texto copiado puede conservar:
 
-- elimina tarjetas duplicadas
-- corrige las tarjetas donde el anverso y el reverso estén invertidos
-- divide definiciones que respondan a tres preguntas a la vez
-- recorta respuestas que suenen a apuntes copiados
-- borra tarjetas que solo tenían sentido dentro del flujo de estudio original de Quizlet
+- el texto de los términos y las definiciones incluido en el resultado;
+- el orden de las filas del resultado;
+- los caracteres Unicode, siempre que guardes y vuelvas a abrir el archivo como UTF-8;
+- los límites entre campos, siempre que los separadores elegidos no aparezcan también dentro de un término o una definición.
 
-Aquí es donde muchos intentos de **migrar desde Quizlet** salen bien o mal sin hacer ruido.
+No esperes que conserve:
 
-Si pasas todo tal cual, te llevas las debilidades antiguas y lo llamas migración. Si limpias un poco las tarjetas, le das al sistema nuevo una oportunidad real de sentirse mejor.
+- las imágenes: Quizlet indica expresamente que no se pueden exportar debido a restricciones de derechos de autor;
+- el aspecto del texto enriquecido, las fuentes, el énfasis o la disposición;
+- las carpetas del set, la organización de la cuenta, los modos de estudio u otros estados de la interfaz de Quizlet;
+- el historial de repasos, el nivel de dominio o la programación;
+- un paquete de Quizlet que puedas restaurar.
 
-## Ten claro qué sets de Quizlet son malos candidatos para exportar
+Por eso, buscar cómo **descargar tarjetas de Quizlet** puede resultar confuso. La exportación conserva el texto de las tarjetas, no una copia restaurable del set de Quizlet ni de su estado de estudio.
 
-Hay sets que, sencillamente, son malos candidatos para exportar. Mejor admitirlo pronto.
+## Revisa el texto antes de importarlo
 
-Si el set fue copiado de otro usuario de Quizlet, la propia ayuda de Quizlet dice que no se puede exportar. Es una regla del producto, no una incomodidad de formato.
+Haz estas comprobaciones mientras el set original siga abierto. Resolver una fila extraña es mucho más fácil cuando puedes compararla con la fuente.
 
-Si el set depende mucho de imágenes, la misma ayuda dice que esas imágenes no se incluyen en la exportación. Así que, aunque el texto salga, el objeto de estudio completo puede no salir contigo.
+### Haz visibles las tabulaciones y los saltos de línea
 
-Eso significa que la ruta de exportación funciona mejor para:
+Si has elegido tabulaciones, activa **render whitespace**, **show invisible characters** o la opción equivalente del editor. Una fila normal con dos campos debe tener una sola tabulación: el término va antes y la definición, después.
 
-- vocabulario
-- definiciones
-- tarjetas simples de pregunta y respuesta
-- fórmulas escritas como texto
-- pares cortos de conceptos
+Compara el número de filas no vacías con el número de tarjetas que muestra Quizlet. Esta comprobación solo funciona si cada tarjeta ocupa una fila. Si las cifras no coinciden, busca líneas en blanco, campos vacíos o definiciones que incluyan saltos de línea.
 
-Y funciona peor para:
+### Revisa las definiciones de varias líneas
 
-- sets públicos copiados
-- etiquetas sobre imágenes
-- tarjetas que dependen de diagramas
-- cualquier cosa que dependa más del contexto visual que del texto
+Un salto de línea dentro de una definición puede parecer idéntico al que separa dos tarjetas. Por eso, una definición con una lista o varios párrafos puede romper la estructura de una tarjeta por línea.
 
-Ese límite es útil porque te dice dónde realmente compensa reconstruir algo a mano.
+No modifiques la copia original. Después de comparar la tarjeta con Quizlet, une la definición en una sola línea dentro del archivo de trabajo o llévala a una hoja de cálculo que pueda entrecomillar correctamente los campos de varias líneas. Anki también admite campos multilínea entre comillas y saltos HTML `<br>`, como se explica más adelante.
 
-## No optimices para mover cada tarjeta
+### Busca separadores dentro del contenido
 
-Aquí es donde mucha gente complica la migración más de lo necesario.
+Una tabulación dentro de un término o una definición crea un tercer campo inesperado. Busca filas que contengan más de una tabulación. Si has elegido comas o puntos y coma, revisa esos separadores con especial cuidado, ya que aparecen con más frecuencia en el texto normal.
 
-Si has creado 600 tarjetas en Quizlet durante dos años, no todas las 600 merecen tener futuro.
+### Vuelve a abrir el archivo UTF-8
 
-Algunas eran temporales.
+Cierra el editor y vuelve a abrir el archivo guardado. Comprueba las palabras acentuadas, los alfabetos no latinos, los símbolos matemáticos y los signos de puntuación, como los apóstrofos tipográficos. La palabra de ejemplo `café` debe seguir apareciendo como `café`, no como caracteres de sustitución ni texto dañado.
 
-Algunas estaban mal formuladas.
+### Revisa el principio, el centro y el final
 
-Algunas solo sirvieron para un examen concreto y resultarían molestas dentro de una cola seria de repetición espaciada.
+Comprueba algunas filas del principio, del centro y del final, además de las definiciones especialmente largas. Antes de importar, busca duplicados exactos, términos repetidos, anversos o reversos vacíos y filas con campos adicionales.
 
-Yo no optimizaría por el total transferido. Optimizaría por una capa de repaso más limpia.
+El formato también requiere una revisión manual. No des por hecho que una exportación en texto sin formato conservará la negrita, la cursiva, los colores, la disposición o el contexto de las imágenes. Si el formato cambiaba el significado de una tarjeta, expresa ese significado de forma explícita en el texto.
 
-Eso significa hacerse tres preguntas durante la limpieza:
+## Ruta 1: llevar el texto de Quizlet a Flashcards
 
-1. ¿Esta tarjeta sigue importando?
-2. ¿Puedo responderla sin contexto extra?
-3. ¿Es una tarjeta o son tres tarjetas fingiendo ser una?
+[Flashcards Open Source App](/features/) no ofrece un importador de Quizlet o CSV con un solo clic. La importación directa solo admite el paquete propio del espacio de trabajo de Flashcards. Sin embargo, puedes usar una exportación de texto de Quizlet como fuente para preparar borradores de tarjetas con ayuda de la IA.
 
-Ese tiempo está mejor invertido que perseguir una fidelidad histórica perfecta.
+La ruta práctica utiliza el chat con IA para preparar esos borradores:
 
-## Convierte la exportación limpia en tarjetas simples de anverso y reverso
+1. Conserva intacta la copia de seguridad original de Quizlet en formato `.txt`.
+2. Adjunta al chat con IA de Flashcards el archivo de trabajo `.txt` ya corregido. También puedes adjuntar un archivo `.csv` real creado por una herramienta de hojas de cálculo si has convertido los datos de manera intencionada.
+3. Indica qué separador has usado y pide al asistente que marque las filas mal formadas en vez de adivinar su contenido.
+4. Compara con el archivo de trabajo el número de tarjetas propuesto y el contenido de sus anversos y reversos.
+5. Guarda únicamente las tarjetas que hayas revisado y que coincidan con la fuente.
 
-Una vez que la exportación está limpia, el siguiente paso es directo: convertirla en flashcards sencillas de anverso y reverso con las que realmente puedas convivir.
+Puedes usar este prompt:
 
-Aquí encaja bien [Flashcards Open Source App](/features/).
+> Lee este archivo como pares de término y definición separados por tabulaciones. Prepara el borrador de una tarjeta con anverso y reverso por cada fila válida. Conserva la redacción original y los caracteres no latinos. Enumera por separado las filas mal formadas, vacías o ambiguas y no inventes el texto que falte.
 
-El producto actual ya te da:
+La [guía de introducción](/docs/getting-started/) confirma que la aplicación alojada incluye un chat con IA que permite adjuntar archivos. El chat actual acepta archivos TXT y CSV, pero esta es una forma de preparar borradores: no es una importación directa ni un proceso sin pérdidas. Revisa con especial cuidado las definiciones que ocupen varias líneas o contengan tabulaciones. [Cómo corregir tarjetas generadas por IA](/blog/how-to-fix-ai-flashcards/) incluye una lista de revisión específica.
 
-- creación de tarjetas de anverso y reverso en la app web
-- chat con IA con archivos adjuntos y cargas de texto plano
-- repaso con FSRS una vez que las tarjetas merecen quedarse
-- un stack open source con opción alojada y opción autoalojada
+Transparencia: desarrollo Flashcards Open Source App. Esta ruta explica las funciones y las limitaciones actuales del producto; no es una recomendación neutral ni una afirmación de compatibilidad completa con Quizlet.
 
-Así que el flujo práctico de **Quizlet a flashcards** queda así:
+## Ruta 2: migrar de Quizlet a Anki
 
-1. exporta de Quizlet el texto de un set creado por ti
-2. guarda o pega ese texto en un bloque limpio
-3. sube el archivo de texto o pega el texto en el chat con IA de Flashcards
-4. pide tarjetas más cortas de anverso y reverso, con un solo hecho o distinción por tarjeta
-5. revisa el borrador con cuidado antes de crear las tarjetas definitivas
-6. estudia las que sobrevivan con FSRS
+Anki sí permite importar archivos de texto directamente. Su [manual oficial para importar archivos de texto](https://docs.ankiweb.net/importing/text-files.html) admite archivos de texto sin formato en UTF-8 con campos separados por tabulaciones, comas o puntos y coma.
 
-No es un importador secreto. Es un flujo más limpio. Puedes inspeccionar lo que hizo el modelo, cortar las tarjetas flojas pronto y dejar de fingir que el texto exportado en bruto ya es un mazo terminado para el largo plazo.
+Para importar una copia de trabajo separada por tabulaciones:
 
-## Usa un prompt sencillo para el paso de conversión
+1. Abre el proceso de importación de Anki y selecciona el archivo `.txt` en UTF-8.
+2. Comprueba en las opciones de importación que Anki haya detectado la tabulación como separador de campos. Si la vista previa no es correcta, cambia el separador.
+3. Elige el tipo de nota y el mazo de destino.
+4. Asigna el primer campo de texto al anverso y el segundo al reverso.
+5. Revisa la vista previa para detectar campos desplazados, vacíos o adicionales.
+6. Elige cómo quieres que Anki gestione las coincidencias y los duplicados.
+7. Importa una muestra pequeña antes de importar el set completo.
 
-No necesitas lenguaje rebuscado de importador. Necesitas una instrucción corta que le diga al asistente cómo es una buena tarjeta.
+Anki determina el número de campos esperado a partir de la primera línea que no sea un comentario. Los registros posteriores con menos campos reciben valores vacíos y los campos adicionales no se importan. Detecta estos desplazamientos en la vista previa antes de importar.
 
-Algo así basta:
+Para las definiciones de varias líneas, Anki admite campos entre comillas que ocupan más de una línea. También puede interpretar `<br>` como salto de línea cuando está activada la opción **Allow HTML in fields**. Elige deliberadamente uno de los dos métodos y comprueba el resultado en la vista previa. No añadas HTML solo para recuperar un formato que ya se perdió al copiar el texto desde Quizlet.
 
-> Convierte esta exportación de Quizlet en flashcards simples de anverso y reverso. Una tarjeta por hecho, término, distinción o paso de proceso. Mantén las respuestas cortas. Divide las definiciones amplias en varias tarjetas. Omite duplicados, prompts vagos y cualquier cosa que dependa de imágenes que faltan.
+De forma predeterminada, Anki utiliza el primer campo para identificar notas coincidentes del mismo tipo. Según la opción de importación, una coincidencia puede actualizar una nota existente, ignorarse o importarse como una nota nueva. Revisa los términos repetidos antes de importar todo el set: una actualización accidental puede cambiar los demás campos de una nota existente.
 
-Ese prompt funciona porque fuerza las decisiones útiles:
+## El historial de repaso y la programación empiezan de cero
 
-- mantener las tarjetas estrechas
-- mantener las respuestas cortas
-- eliminar material flojo
-- respetar los límites de la exportación
+La exportación de Quizlet contiene términos y definiciones, pero no los datos necesarios para reproducir qué estudiaste, cuándo lo hiciste o cómo valoró el planificador cada tarjeta.
 
-Si ya sabes que tu set antiguo estaba inflado, añade una frase más: "Sé agresivo eliminando tarjetas que no merezcan repaso a largo plazo".
+Las tarjetas nuevas que crees en Flashcards comienzan con un estado inicial en FSRS. Las notas nuevas que importes en Anki también se consideran material nuevo. Si una importación de Anki actualiza una nota coincidente que ya existía, esa nota puede conservar su programación, aunque esos datos tampoco proceden de Quizlet. Ninguna de las dos rutas reconstruye el historial de estudio de Quizlet a partir del texto copiado al portapapeles.
 
-## FSRS es lo que hace que la migración merezca la pena
+Si ya conoces bien un set grande, los primeros repasos pueden parecerte más fáciles o aparecer con más frecuencia que en tus antiguas sesiones de Quizlet. Traslada primero una muestra representativa y observa cómo funciona la nueva cola antes de migrarlo todo.
 
-Esta es la parte que a la gente de verdad le importa después de que la exportación funcione.
+## Sets copiados, sets públicos y límites de uso
 
-La mayoría de quienes buscan **Quizlet a FSRS** no quieren un archivo de exportación más bonito. Quieren un flujo de memoria mejor después del cambio.
+Quizlet no permite exportar un set que hayas copiado de otro usuario. La visibilidad y el permiso son cuestiones distintas: que un set sea público no significa que tengas derecho a reproducirlo en otro lugar.
 
-Incluso las buenas tarjetas exportadas se olvidan de forma desigual. Algunos términos se quedarán tras una sola pasada. Algunas distinciones seguirán resbalando. Algunas tarjetas parecerán difíciles solo porque la redacción es mala, y por eso la limpieza va primero.
+La página de Quizlet sobre los [conceptos básicos de los derechos de autor](https://help.quizlet.com/hc/en-us/articles/360029925172-Copyright-basics) recomienda publicar contenido original que hayas creado. También indica que la reutilización puede estar permitida si tienes autorización o una licencia, si el material es de dominio público o si se aplica una excepción legal. Las normas de derechos de autor varían según el país, así que este artículo no constituye asesoramiento jurídico.
 
-Cuando las tarjetas ya son pequeñas y honestas, FSRS te da la parte que casi siempre falta en una migración desde Quizlet:
+Si el set no es tuyo, utiliza tus propios apuntes, pide permiso o un archivo fuente a la persona que lo creó, o redacta con tus palabras un mazo personal más pequeño. No uses la extracción automatizada (scraping) ni la copia manual para sortear la ausencia del botón de exportación.
 
-- las tarjetas fáciles se espacian más
-- las tarjetas que cuestan se mantienen más cerca
-- la cola se siente menos repetitiva y menos aleatoria
-- repasar empieza a parecer trabajo de memoria y no mantenimiento del mazo
+## No elimines todavía el set de Quizlet
 
-Si quieres profundizar en la parte del algoritmo, [FSRS vs SM-2 en 2026](/blog/fsrs-vs-sm-2/) es la continuación directa.
+Conserva el set de Quizlet —y no elimines la cuenta a la que pertenece— hasta que se cumplan todas estas condiciones:
 
-## Un ejemplo rápido del antes y el después
+- la copia original `.txt` en UTF-8 está guardada en una ubicación con copia de seguridad;
+- el archivo de trabajo se abre correctamente después de cerrarlo;
+- el número esperado de tarjetas coincide con las filas validadas, teniendo en cuenta las tarjetas multilínea;
+- has revisado las tabulaciones, los saltos de línea, los duplicados y los campos vacíos;
+- los acentos, los alfabetos no latinos, los símbolos y los signos de puntuación siguen mostrándose correctamente;
+- has reconstruido las imágenes necesarias o el significado que aportaba el formato a partir de fuentes que tienes derecho a utilizar;
+- una prueba con una muestra pequeña confirma que los anversos y reversos aparecen correctamente en Flashcards o Anki;
+- has revisado una muestra en el destino y aceptas que la programación de repasos empieza de cero.
 
-Imagina que tu exportación de Quizlet contiene esto:
+Aunque se cumplan todas las condiciones, conserva el archivo de texto original como una copia de seguridad independiente. Es la versión más fácil de revisar si una importación o una edición posterior sale mal.
 
-- Anverso: causas de la Revolución francesa
-  Reverso: desigualdad social, crisis financiera, ideas de la Ilustración, liderazgo débil, escasez de alimentos
-
-Eso no está mal como apunte de clase.
-
-Como flashcard, es floja.
-
-La versión limpia normalmente se convertiría en varias tarjetas:
-
-- Anverso: ¿Qué problema de estructura social ayudó a impulsar la Revolución francesa?
-  Reverso: la desigualdad entre estamentos
-- Anverso: ¿Qué problema financiero ayudó a impulsar la Revolución francesa?
-  Reverso: la deuda del Estado y la crisis fiscal
-- Anverso: ¿Qué movimiento intelectual ayudó a impulsar la Revolución francesa?
-  Reverso: las ideas de la Ilustración
-
-Ese es el tipo de cambio que hace que **mover flashcards de Quizlet** merezca el esfuerzo.
-
-No solo estás cambiando de app. Estás mejorando la unidad de repaso.
-
-Si tus tarjetas antiguas todavía suenan a apuntes comprimidos, [Cómo hacer mejores flashcards en 2026](/blog/how-to-make-better-flashcards/) es la lectura complementaria correcta.
-
-## Qué hacer si la exportación de Quizlet no está disponible
-
-A veces la respuesta honesta es molesta.
-
-Si el set fue copiado y no lo creaste tú, Quizlet dice que no se puede exportar. Si el contenido importante era sobre todo visual, la exportación tampoco se llevará esas imágenes.
-
-En ese punto, no pierdas tiempo inventando una ruta de migración falsa. Yo haría una de estas tres cosas:
-
-- volver a tus apuntes de origen y reconstruir solo las tarjetas de alto valor
-- usar el set copiado como referencia de estudio mientras escribes un mazo personal mucho más pequeño
-- reconstruir las tarjetas que dependían de imágenes a partir de tus diagramas, apuntes o materiales de clase originales
-
-Es más lento que exportar. Aun así, sigue siendo mejor que gastar tiempo en una transferencia que deja fuera justo el material que necesitabas.
-
-## Dónde encaja Flashcards después de Quizlet
-
-Si lo que quieres después es un sistema de repaso más serio sin convertir la migración en un proyecto paralelo, Flashcards encaja bien en este traspaso.
-
-La forma actual del producto ya va en esa dirección:
-
-- empezar en la app web alojada
-- crear y editar tarjetas de anverso y reverso
-- usar el chat con IA para limpiar texto exportado en bruto
-- repasar el mazo final con FSRS
-- mantener abierta la vía open source si te importa la propiedad
-
-Si quieres el siguiente paso más corto, empieza por la [guía de introducción](/docs/getting-started/). Si primero quieres inspeccionar la superficie del producto, ve a [Funciones](/features/). Si para ti importa la diferencia entre alojado y autoalojado, [Precios](/pricing/) y la [guía de autoalojamiento](/docs/self-hosting/) cubren esa división.
-
-## La regla práctica para exportar Quizlet en 2026
-
-Exporta lo que de verdad sea tuyo, quédate con el texto, corta las tarjetas flojas, divide las sobrecargadas y mueve las supervivientes a un sistema con un motor de repaso de verdad detrás.
-
-Esa es la versión de **exportar Quizlet** en la que confío en 2026: una ruta limpia desde tus propios sets basados en texto hasta un flujo open source de flashcards con mejor repetición espaciada después de la migración.
+Si todavía estás eligiendo un destino, la [comparación de alternativas a Quizlet](/blog/quizlet-alternative/) explica las diferencias generales entre los productos. Si las tarjetas exportadas necesitan mejoras, empieza por [Cómo crear mejores tarjetas de estudio](/blog/how-to-make-better-flashcards/) antes de importar el set completo.
