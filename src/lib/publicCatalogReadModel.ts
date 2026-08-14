@@ -269,6 +269,12 @@ export function getPublicCatalogPackageBySlug(
   return model.packageBySlug.get(slug);
 }
 
+export function getPublicCatalogPackageCardTags(
+  packageView: PublicCatalogPackageView,
+): ReadonlyArray<string> {
+  return [...new Set(packageView.cards.flatMap((card) => card.tags))];
+}
+
 export function getPublicCatalogAuthorBySlug(
   model: PublicCatalogReadModel,
   slug: string,

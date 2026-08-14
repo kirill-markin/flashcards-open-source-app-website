@@ -20,9 +20,10 @@ import {
   formatPublicCatalogNumber,
   formatPublicCatalogPackageCount,
 } from "./publicCatalogFormatting";
-import type {
-  PublicCatalogPackageView,
-  PublicCatalogReadModel,
+import {
+  getPublicCatalogPackageCardTags,
+  type PublicCatalogPackageView,
+  type PublicCatalogReadModel,
 } from "./publicCatalogReadModel";
 import type {
   PublicCatalogAuthor,
@@ -86,6 +87,7 @@ function renderPackageFacts(
   const copy = getPublicCatalogUiCopy(locale);
   const destinationCopy = getPublicCatalogDestinationCopy(locale);
   const { latestVersion, packageMetadata } = packageView;
+  const cardTags = getPublicCatalogPackageCardTags(packageView);
   const lines = [
     `- ${copy.cardsLabel}: ${formatPublicCatalogCardCount(locale, latestVersion.cardCount, copy)}`,
     `- ${copy.versionLabel}: ${formatPublicCatalogNumber(locale, latestVersion.versionNumber)}`,
@@ -109,6 +111,10 @@ function renderPackageFacts(
         locale,
         getPublicCatalogTopicRoutePathname(topicTag),
       )))}`);
+  }
+
+  if (cardTags.length > 0) {
+    lines.push(`- ${copy.tagsLabel}: ${cardTags.map(escapeMarkdownText).join(", ")}`);
   }
 
   if (collections.length > 0) {
@@ -335,13 +341,6 @@ function renderPackageDetail(
           `${cardContext} backText`,
         ),
       );
-
-      if (card.tags.length > 0) {
-        lines.push(
-          "",
-          `**${escapeMarkdownText(copy.tagsLabel)}:** ${card.tags.map(escapeMarkdownText).join(", ")}`,
-        );
-      }
 
       lines.push("");
     });
