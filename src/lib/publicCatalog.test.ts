@@ -56,6 +56,7 @@ import {
   getPublicCatalogCollectionCoverMediaAsset,
   getPublicCatalogCollectionsByPackageSlug,
   getPublicCatalogPackageBySlug,
+  getPublicCatalogPackageCardTags,
   getPublicCatalogPackagesByAuthorSlug,
   getPublicCatalogPackagesByCollectionSlug,
   getPublicCatalogPackagesByLanguageTag,
@@ -379,6 +380,33 @@ test("parses the schema and builds latest-version-only lookup data", () => {
   assert.deepEqual(getPublicCatalogPackagesByTopicTag(model, "grammar"), [packageView]);
   assert.deepEqual(model.languageTags, ["en", "es"]);
   assert.deepEqual(model.topicTags, ["grammar"]);
+});
+
+test("collects distinct card tags in ordered first-appearance order", () => {
+  const input = createValidDump();
+  input.cards[1].tags = ["shared", "second"];
+  input.cards[2].tags = ["first", "shared"];
+  const packageView = getPublicCatalogPackageBySlug(
+    createPublicCatalogReadModel(parsePublicCatalogDump(input)),
+    "canonical-package",
+  );
+
+  assert.ok(packageView);
+  assert.deepEqual(
+    getPublicCatalogPackageCardTags(packageView),
+    ["first", "shared", "second"],
+  );
+
+  const emptyInput = createValidDump();
+  emptyInput.cards[1].tags = [];
+  emptyInput.cards[2].tags = [];
+  const emptyPackageView = getPublicCatalogPackageBySlug(
+    createPublicCatalogReadModel(parsePublicCatalogDump(emptyInput)),
+    "canonical-package",
+  );
+
+  assert.ok(emptyPackageView);
+  assert.deepEqual(getPublicCatalogPackageCardTags(emptyPackageView), []);
 });
 
 test("accepts nullable and empty author details while rejecting missing keys", () => {
@@ -1326,6 +1354,33 @@ test("renders useful localized catalog Markdown from the public read model", () 
     collectionDocument.markdown.includes("Canonical &lt;package&gt; \\*title\\*"),
     true,
   );
+});
+
+test("renders one aggregate package Tags fact and omits empty card tags", () => {
+  const input = createValidDump();
+  input.cards[1].tags = ["shared", "second"];
+  input.cards[2].tags = ["first", "shared"];
+  const markdown = renderPublicCatalogMarkdownDocument(
+    "catalog/packages/canonical-package",
+    createPublicCatalogReadModel(parsePublicCatalogDump(input)),
+  )?.markdown;
+
+  assert.ok(markdown);
+  assert.deepEqual(
+    markdown.split("\n").filter((line) => line.includes("Tags:")),
+    ["- Tags: first, shared, second"],
+  );
+
+  const emptyInput = createValidDump();
+  emptyInput.cards[1].tags = [];
+  emptyInput.cards[2].tags = [];
+  const emptyMarkdown = renderPublicCatalogMarkdownDocument(
+    "catalog/packages/canonical-package",
+    createPublicCatalogReadModel(parsePublicCatalogDump(emptyInput)),
+  )?.markdown;
+
+  assert.ok(emptyMarkdown);
+  assert.equal(emptyMarkdown.includes("Tags:"), false);
 });
 
 test("projects normalized card Markdown to complete ordered plain text", () => {
