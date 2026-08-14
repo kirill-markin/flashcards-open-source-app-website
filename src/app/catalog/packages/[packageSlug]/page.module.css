@@ -86,8 +86,8 @@
   align-self: start;
 }
 
-.coverFrame {
-  order: 1;
+.coverFrame,
+.cardListCtaCover {
   aspect-ratio: 16 / 9;
   min-width: 0;
   border: 1px solid var(--border);
@@ -96,7 +96,12 @@
   overflow: hidden;
 }
 
-.coverFrame > div {
+.coverFrame {
+  order: 1;
+}
+
+.coverFrame > div,
+.cardListCtaCover > div {
   width: 100%;
   height: 100%;
   min-block-size: 0;
@@ -349,15 +354,58 @@
   min-width: 0;
 }
 
-.cardListCta .ctaBlock,
-.cardListEndCta .ctaBlock {
-  width: min(100%, 420px);
-  margin-block-start: 0;
+.cardListCtaCard {
+  display: grid;
+  grid-template-columns: minmax(180px, 260px) minmax(0, 1fr);
+  align-items: center;
+  gap: clamp(18px, 3vw, 32px);
+  width: min(100%, 820px);
   margin-inline: auto;
-  padding: 14px;
+  padding: clamp(18px, 2.5vw, 26px);
   border: 1px solid var(--border);
   border-radius: var(--radius-lg);
-  background: rgba(255, 255, 255, 0.025);
+  background:
+    linear-gradient(var(--accent-soft), var(--accent-soft)),
+    rgba(255, 255, 255, 0.025);
+  box-shadow: var(--shadow-soft);
+}
+
+.cardListCtaContent {
+  min-width: 0;
+}
+
+.cardListCtaMeta {
+  margin: 0;
+  margin-block-end: 6px;
+  color: var(--text-secondary);
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1.4;
+  overflow-wrap: anywhere;
+}
+
+.cardListCtaTitle {
+  margin: 0;
+  font-size: clamp(1.2rem, 2.2vw, 1.55rem);
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  overflow-wrap: anywhere;
+}
+
+.cardListCtaCard .ctaBlock {
+  margin-block-start: 16px;
+}
+
+.cardListCtaCard .installButton {
+  min-height: 50px;
+}
+
+.cardListCtaCard .installButton:hover {
+  color: var(--bg);
+}
+
+.cardListCtaCard .installHelper {
+  color: var(--text-secondary);
 }
 
 .cardListCta {
@@ -457,6 +505,21 @@
 
   .installButton {
     min-height: 48px;
+  }
+
+  .cardListCtaCard {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 16px;
+    width: 100%;
+    padding: 14px;
+  }
+
+  .cardListCtaCard .ctaBlock {
+    margin-block-start: 14px;
+  }
+
+  .cardListCtaCard .installButton {
+    min-height: 50px;
   }
 
   .card {
