@@ -64,6 +64,23 @@ export type PublicCatalogReadModel = Readonly<{
 
 export type PublicCatalogReader = () => PublicCatalogReadModel | null;
 
+const PUBLIC_CATALOG_WEBSITE_TITLES_BY_PACKAGE_SLUG: Readonly<Record<string, string>> =
+  Object.freeze({
+    "us-citizenship-test":
+      "U.S. Citizenship Test Flashcards (2025-2026): All 128 Official Questions",
+  });
+
+function getPublicCatalogPackageVersionWithWebsiteTitle(
+  packageSlug: string,
+  packageVersion: PublicCatalogPackageVersion,
+): PublicCatalogPackageVersion {
+  const websiteTitle = PUBLIC_CATALOG_WEBSITE_TITLES_BY_PACKAGE_SLUG[packageSlug];
+
+  return websiteTitle === undefined
+    ? packageVersion
+    : { ...packageVersion, title: websiteTitle };
+}
+
 export function createCachedPublicCatalogReader(
   isEnabled: () => boolean,
   readDump: () => PublicCatalogDump,
@@ -160,7 +177,10 @@ export function createPublicCatalogReadModel(dump: PublicCatalogDump): PublicCat
     const packageView: PublicCatalogPackageView = {
       packageMetadata,
       author,
-      latestVersion,
+      latestVersion: getPublicCatalogPackageVersionWithWebsiteTitle(
+        packageMetadata.slug,
+        latestVersion,
+      ),
       cards,
       mediaAssets,
       coverMediaAsset,
