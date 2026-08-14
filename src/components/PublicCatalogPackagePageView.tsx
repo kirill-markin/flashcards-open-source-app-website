@@ -1,13 +1,15 @@
 import Link from "next/link";
-import { Breadcrumbs } from "@/components/Breadcrumbs";
+import { AncestorBreadcrumbs } from "@/components/Breadcrumbs";
 import { PublicCatalogCover } from "@/components/PublicCatalogCover";
-import { PublicCatalogNavigation } from "@/components/PublicCatalogNavigation";
 import { SiteFrame } from "@/components/SiteFrame";
 import { StructuredDataScript } from "@/components/StructuredDataScript";
 import { TrackedPublicCatalogInstallLink } from "@/components/TrackedPublicCatalogInstallLink";
 import type { AppLocale } from "@/lib/i18n";
 import { getLocalizedPathname } from "@/lib/i18n";
-import { getPublicCatalogUiCopy } from "@/lib/publicCatalogCopy";
+import {
+  getPublicCatalogUiCopy,
+  interpolatePublicCatalogCardHeading,
+} from "@/lib/publicCatalogCopy";
 import { getPublicCatalogCardMediaDownloadUrls } from "@/lib/publicCatalogCardMedia";
 import { getPublicCatalogDestinationCopy } from "@/lib/publicCatalogDestinationCopy";
 import {
@@ -55,18 +57,20 @@ async function renderCards(
         card,
         packageView.mediaAssets,
       );
+      const cardContext =
+        `Public catalog package version ${packageView.latestVersion.packageVersionId} card ${card.packageCardId}`;
       const [frontHtml, backHtml] = await Promise.all([
         renderPublicCatalogCardMarkdownToHtml(
           card.frontText,
           locale,
           mediaDownloadUrls,
-          `Public catalog card ${card.packageCardId} frontText`,
+          `${cardContext} frontText`,
         ),
         renderPublicCatalogCardMarkdownToHtml(
           card.backText,
           locale,
           mediaDownloadUrls,
-          `Public catalog card ${card.packageCardId} backText`,
+          `${cardContext} backText`,
         ),
       ]);
 
@@ -106,49 +110,51 @@ export async function PublicCatalogPackagePageView({
           value={createPublicCatalogPackageJsonLd(collections, locale, packageView)}
         />
         <section className={styles.packagePanel}>
-          <header className={styles.intro}>
-            <Breadcrumbs
-              items={[
-                {
-                  label: copy.breadcrumbLabel,
-                  href: getLocalizedPathname(
+          <AncestorBreadcrumbs
+            ancestors={[
+              {
+                label: copy.breadcrumbLabel,
+                href: getLocalizedPathname(
+                  locale,
+                  PUBLIC_CATALOG_ROUTE_PATHNAME,
+                ),
+              },
+            ]}
+            currentPage={{
+              label: latestVersion.title,
+              href: getLocalizedPathname(locale, packageRoutePathname),
+            }}
+            locale={locale}
+          />
+          <div className={styles.pageGrid}>
+            <header className={styles.titleBlock}>
+              <h1 className={styles.title}>{latestVersion.title}</h1>
+              {latestVersion.summary === "" ? null : (
+                <p className={styles.summary}>{latestVersion.summary}</p>
+              )}
+              <p className={styles.byline}>
+                {copy.byLabel}{" "}
+                <Link
+                  href={getLocalizedPathname(
                     locale,
-                    PUBLIC_CATALOG_ROUTE_PATHNAME,
-                  ),
-                },
-                {
-                  label: latestVersion.title,
-                  href: getLocalizedPathname(locale, packageRoutePathname),
-                },
-              ]}
-              locale={locale}
-            />
-            <PublicCatalogNavigation currentSection="packages" locale={locale} />
-            <div className={styles.hero}>
-              <div className={styles.coverColumn}>
+                    getPublicCatalogAuthorRoutePathname(author.slug),
+                  )}
+                >
+                  {author.displayName}
+                </Link>
+              </p>
+            </header>
+
+            <aside className={styles.sideBlock}>
+              <div className={styles.coverFrame}>
                 <PublicCatalogCover
                   coverMediaAsset={coverMediaAsset}
                   placeholderLabel={copy.coverPlaceholderLabel}
-                  sizes="(max-width: 700px) calc(100vw - 60px), 240px"
+                  sizes="(max-width: 700px) calc(100vw - 60px), 280px"
                   title={latestVersion.title}
                 />
               </div>
-              <div className={styles.heroContent}>
-                <h1 className={styles.title}>{latestVersion.title}</h1>
-                {latestVersion.summary === "" ? null : (
-                  <p className={styles.summary}>{latestVersion.summary}</p>
-                )}
-                <p className={styles.byline}>
-                  {copy.byLabel}{" "}
-                  <Link
-                    href={getLocalizedPathname(
-                      locale,
-                      getPublicCatalogAuthorRoutePathname(author.slug),
-                    )}
-                  >
-                    {author.displayName}
-                  </Link>
-                </p>
+              <div className={styles.ctaBlock}>
                 <TrackedPublicCatalogInstallLink
                   className={styles.installButton}
                   href={latestVersion.installUrl}
@@ -157,116 +163,119 @@ export async function PublicCatalogPackagePageView({
                   packageId={packageMetadata.packageId}
                   versionNumber={latestVersion.versionNumber}
                 />
+                <p className={styles.installHelper}>{copy.installHelper}</p>
               </div>
+              <section className={styles.deckDetails}>
+                <h2>{copy.deckDetailsHeading}</h2>
+                <dl className={styles.detailsList}>
+                  <div className={styles.fact}>
+                    <dt>{copy.cardsLabel}</dt>
+                    <dd>
+                      {formatPublicCatalogCardCount(
+                        locale,
+                        latestVersion.cardCount,
+                        copy,
+                      )}
+                    </dd>
+                  </div>
+                  <div className={styles.fact}>
+                    <dt>{copy.versionLabel}</dt>
+                    <dd>
+                      {formatPublicCatalogNumber(
+                        locale,
+                        latestVersion.versionNumber,
+                      )}
+                    </dd>
+                  </div>
+                  <div className={styles.fact}>
+                    <dt>{copy.publishedLabel}</dt>
+                    <dd>
+                      <time dateTime={packageMetadata.publishedAt}>
+                        {formatPublicCatalogDate(
+                          locale,
+                          packageMetadata.publishedAt,
+                        )}
+                      </time>
+                    </dd>
+                  </div>
+                  <div className={styles.fact}>
+                    <dt>{copy.licenseLabel}</dt>
+                    <dd>{latestVersion.license}</dd>
+                  </div>
+                  {latestVersion.languageTags.length === 0 ? null : (
+                    <div className={styles.fact}>
+                      <dt>{copy.languagesLabel}</dt>
+                      <dd className={styles.facetList}>
+                        {latestVersion.languageTags.map((languageTag) => (
+                          <Link
+                            key={languageTag}
+                            href={getLocalizedPathname(
+                              locale,
+                              getPublicCatalogLanguageRoutePathname(languageTag),
+                            )}
+                          >
+                            {languageTag}
+                          </Link>
+                        ))}
+                      </dd>
+                    </div>
+                  )}
+                  {latestVersion.topicTags.length === 0 ? null : (
+                    <div className={styles.fact}>
+                      <dt>{copy.topicsLabel}</dt>
+                      <dd className={styles.facetList}>
+                        {latestVersion.topicTags.map((topicTag) => (
+                          <Link
+                            key={topicTag}
+                            href={getLocalizedPathname(
+                              locale,
+                              getPublicCatalogTopicRoutePathname(topicTag),
+                            )}
+                          >
+                            {topicTag}
+                          </Link>
+                        ))}
+                      </dd>
+                    </div>
+                  )}
+                  {collections.length === 0 ? null : (
+                    <div className={styles.fact}>
+                      <dt>{destinationCopy.collectionsContainingLabel}</dt>
+                      <dd className={styles.facetList}>
+                        {collections.map((collection) => (
+                          <Link
+                            key={collection.collectionId}
+                            href={getLocalizedPathname(
+                              locale,
+                              getPublicCatalogCollectionRoutePathname(collection.slug),
+                            )}
+                          >
+                            {collection.title}
+                          </Link>
+                        ))}
+                      </dd>
+                    </div>
+                  )}
+                </dl>
+              </section>
+            </aside>
+
+            <div className={styles.descriptionBlock}>
+              {latestVersion.contentWarning === null ? null : (
+                <aside className={styles.warning}>
+                  <strong>{copy.contentWarningLabel}</strong>
+                  <p>{latestVersion.contentWarning}</p>
+                </aside>
+              )}
+
+              <section className={styles.descriptionSection}>
+                <h2>{copy.descriptionHeading}</h2>
+                <div
+                  className={styles.markdown}
+                  dangerouslySetInnerHTML={{ __html: descriptionHtml }}
+                />
+              </section>
             </div>
-          </header>
-
-          <div className={styles.details}>
-            <dl className={styles.factGrid}>
-              <div className={styles.fact}>
-                <dt>{copy.cardsLabel}</dt>
-                <dd>
-                  {formatPublicCatalogCardCount(
-                    locale,
-                    latestVersion.cardCount,
-                    copy,
-                  )}
-                </dd>
-              </div>
-              <div className={styles.fact}>
-                <dt>{copy.versionLabel}</dt>
-                <dd>
-                  {formatPublicCatalogNumber(
-                    locale,
-                    latestVersion.versionNumber,
-                  )}
-                </dd>
-              </div>
-              <div className={styles.fact}>
-                <dt>{copy.publishedLabel}</dt>
-                <dd>
-                  <time dateTime={packageMetadata.publishedAt}>
-                    {formatPublicCatalogDate(
-                      locale,
-                      packageMetadata.publishedAt,
-                    )}
-                  </time>
-                </dd>
-              </div>
-              <div className={styles.fact}>
-                <dt>{copy.licenseLabel}</dt>
-                <dd>{latestVersion.license}</dd>
-              </div>
-              {latestVersion.languageTags.length === 0 ? null : (
-                <div className={styles.fact}>
-                  <dt>{copy.languagesLabel}</dt>
-                  <dd className={styles.facetList}>
-                    {latestVersion.languageTags.map((languageTag) => (
-                      <Link
-                        key={languageTag}
-                        href={getLocalizedPathname(
-                          locale,
-                          getPublicCatalogLanguageRoutePathname(languageTag),
-                        )}
-                      >
-                        {languageTag}
-                      </Link>
-                    ))}
-                  </dd>
-                </div>
-              )}
-              {latestVersion.topicTags.length === 0 ? null : (
-                <div className={styles.fact}>
-                  <dt>{copy.topicsLabel}</dt>
-                  <dd className={styles.facetList}>
-                    {latestVersion.topicTags.map((topicTag) => (
-                      <Link
-                        key={topicTag}
-                        href={getLocalizedPathname(
-                          locale,
-                          getPublicCatalogTopicRoutePathname(topicTag),
-                        )}
-                      >
-                        {topicTag}
-                      </Link>
-                    ))}
-                  </dd>
-                </div>
-              )}
-              {collections.length === 0 ? null : (
-                <div className={styles.fact}>
-                  <dt>{destinationCopy.collectionsContainingLabel}</dt>
-                  <dd className={styles.facetList}>
-                    {collections.map((collection) => (
-                      <Link
-                        key={collection.collectionId}
-                        href={getLocalizedPathname(
-                          locale,
-                          getPublicCatalogCollectionRoutePathname(collection.slug),
-                        )}
-                      >
-                        {collection.title}
-                      </Link>
-                    ))}
-                  </dd>
-                </div>
-              )}
-            </dl>
-
-            {latestVersion.contentWarning === null ? null : (
-              <aside className={styles.warning}>
-                <strong>{copy.contentWarningLabel}</strong>
-                <p>{latestVersion.contentWarning}</p>
-              </aside>
-            )}
-
-            <section className={styles.descriptionSection}>
-              <h2>{copy.descriptionHeading}</h2>
-              <div
-                className={styles.markdown}
-                dangerouslySetInnerHTML={{ __html: descriptionHtml }}
-              />
-            </section>
           </div>
         </section>
 
@@ -275,38 +284,47 @@ export async function PublicCatalogPackagePageView({
           {renderedCards.length === 0 ? (
             <p className={styles.empty}>{copy.noCardPreviewsLabel}</p>
           ) : (
-            <ol className={styles.cardList}>
-              {renderedCards.map((card, index) => (
-                <li key={card.packageCardId} className={styles.card}>
-                  <span className={styles.cardNumber} aria-hidden="true">
-                    {formatPublicCatalogNumber(locale, index + 1)}
-                  </span>
-                  <div className={styles.cardSide}>
-                    <h3>{copy.cardFrontLabel}</h3>
-                    <div
-                      className={styles.markdown}
-                      dangerouslySetInnerHTML={{ __html: card.frontHtml }}
-                    />
-                  </div>
-                  <div className={styles.cardSide}>
-                    <h3>{copy.cardBackLabel}</h3>
-                    <div
-                      className={styles.markdown}
-                      dangerouslySetInnerHTML={{ __html: card.backHtml }}
-                    />
-                  </div>
-                  {card.tags.length === 0 ? null : (
-                    <div className={styles.tags}>
-                      <span>{copy.tagsLabel}</span>
-                      <ul>
-                        {card.tags.map((tag) => (
-                          <li key={tag}>{tag}</li>
-                        ))}
-                      </ul>
-                    </div>
-                  )}
-                </li>
-              ))}
+            <ol className={styles.cardList} role="list">
+              {renderedCards.map((card, index) => {
+                const cardHeading = interpolatePublicCatalogCardHeading(
+                  copy,
+                  formatPublicCatalogNumber(locale, index + 1),
+                );
+
+                return (
+                  <li key={card.packageCardId}>
+                    <article className={styles.card}>
+                      <h3 className={styles.cardHeading}>{cardHeading}</h3>
+                      <div className={styles.cardSides}>
+                        <div className={styles.cardSide}>
+                          <p className={styles.cardSideLabel}>{copy.cardFrontLabel}</p>
+                          <div
+                            className={styles.markdown}
+                            dangerouslySetInnerHTML={{ __html: card.frontHtml }}
+                          />
+                        </div>
+                        <div className={styles.cardSide}>
+                          <p className={styles.cardSideLabel}>{copy.cardBackLabel}</p>
+                          <div
+                            className={styles.markdown}
+                            dangerouslySetInnerHTML={{ __html: card.backHtml }}
+                          />
+                        </div>
+                      </div>
+                      {card.tags.length === 0 ? null : (
+                        <div className={styles.tags}>
+                          <span>{copy.tagsLabel}</span>
+                          <ul>
+                            {card.tags.map((tag) => (
+                              <li key={tag}>{tag}</li>
+                            ))}
+                          </ul>
+                        </div>
+                      )}
+                    </article>
+                  </li>
+                );
+              })}
             </ol>
           )}
         </section>
