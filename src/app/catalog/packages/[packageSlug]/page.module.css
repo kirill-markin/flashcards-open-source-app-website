@@ -279,6 +279,11 @@
   padding-inline-start: 22px;
 }
 
+.cardSide > .markdown > ul,
+.cardSide > .markdown > ol {
+  padding-inline-start: 0;
+}
+
 .markdown a {
   color: #ffd6c9;
   text-decoration: underline;
