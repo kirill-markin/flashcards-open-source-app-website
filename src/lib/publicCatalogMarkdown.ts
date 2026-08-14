@@ -5,7 +5,10 @@ import {
   resolveLocaleFromPathname,
   SUPPORTED_LOCALES,
 } from "./i18n";
-import { getPublicCatalogUiCopy } from "./publicCatalogCopy";
+import {
+  getPublicCatalogUiCopy,
+  interpolatePublicCatalogCardHeading,
+} from "./publicCatalogCopy";
 import {
   getPublicCatalogDestinationCopy,
   interpolatePublicCatalogCopy,
@@ -82,37 +85,42 @@ function renderPackageFacts(
 ): ReadonlyArray<string> {
   const copy = getPublicCatalogUiCopy(locale);
   const destinationCopy = getPublicCatalogDestinationCopy(locale);
-  const { author, latestVersion, packageMetadata } = packageView;
-
-  return [
-    `- ${copy.byLabel}: ${createLocalizedCatalogLink(
-      author.displayName,
-      locale,
-      getPublicCatalogAuthorRoutePathname(author.slug),
-    )}`,
-    `- ${copy.versionLabel}: ${formatPublicCatalogNumber(locale, latestVersion.versionNumber)}`,
+  const { latestVersion, packageMetadata } = packageView;
+  const lines = [
     `- ${copy.cardsLabel}: ${formatPublicCatalogCardCount(locale, latestVersion.cardCount, copy)}`,
-    `- ${copy.licenseLabel}: ${escapeMarkdownText(latestVersion.license)}`,
+    `- ${copy.versionLabel}: ${formatPublicCatalogNumber(locale, latestVersion.versionNumber)}`,
     `- ${copy.publishedLabel}: ${formatPublicCatalogDate(locale, packageMetadata.publishedAt)}`,
-    `- ${copy.languagesLabel}: ${joinLinks(latestVersion.languageTags.map((languageTag) =>
+    `- ${copy.licenseLabel}: ${escapeMarkdownText(latestVersion.license)}`,
+  ];
+
+  if (latestVersion.languageTags.length > 0) {
+    lines.push(`- ${copy.languagesLabel}: ${joinLinks(latestVersion.languageTags.map((languageTag) =>
       createLocalizedCatalogLink(
         languageTag,
         locale,
         getPublicCatalogLanguageRoutePathname(languageTag),
-      )))}`,
-    `- ${copy.topicsLabel}: ${joinLinks(latestVersion.topicTags.map((topicTag) =>
+      )))}`);
+  }
+
+  if (latestVersion.topicTags.length > 0) {
+    lines.push(`- ${copy.topicsLabel}: ${joinLinks(latestVersion.topicTags.map((topicTag) =>
       createLocalizedCatalogLink(
         topicTag,
         locale,
         getPublicCatalogTopicRoutePathname(topicTag),
-      )))}`,
-    `- ${destinationCopy.collectionsContainingLabel}: ${joinLinks(collections.map((collection) =>
+      )))}`);
+  }
+
+  if (collections.length > 0) {
+    lines.push(`- ${destinationCopy.collectionsContainingLabel}: ${joinLinks(collections.map((collection) =>
       createLocalizedCatalogLink(
         collection.title,
         locale,
         getPublicCatalogCollectionRoutePathname(collection.slug),
-      )))}`,
-  ];
+      )))}`);
+  }
+
+  return lines;
 }
 
 function renderPackageListItem(
@@ -242,7 +250,7 @@ function renderPackageDetail(
   packageView: PublicCatalogPackageView,
 ): string {
   const copy = getPublicCatalogUiCopy(locale);
-  const { latestVersion, packageMetadata } = packageView;
+  const { author, latestVersion, packageMetadata } = packageView;
   const collections = catalog.collectionsByPackageId.get(packageMetadata.packageId) ?? [];
   const lines = [
     `# ${escapeMarkdownText(latestVersion.title)}`,
@@ -254,9 +262,19 @@ function renderPackageDetail(
   }
 
   lines.push(
-    ...renderPackageFacts(collections, locale, packageView),
+    `${escapeMarkdownText(copy.byLabel)} ${createLocalizedCatalogLink(
+      author.displayName,
+      locale,
+      getPublicCatalogAuthorRoutePathname(author.slug),
+    )}`,
     "",
     createMarkdownLink(copy.installLabel, latestVersion.installUrl),
+    "",
+    escapeMarkdownText(copy.installHelper),
+    "",
+    `## ${escapeMarkdownText(copy.deckDetailsHeading)}`,
+    "",
+    ...renderPackageFacts(collections, locale, packageView),
   );
 
   if (latestVersion.contentWarning !== null) {
@@ -289,9 +307,15 @@ function renderPackageDetail(
         card,
         packageView.mediaAssets,
       );
+      const cardContext =
+        `Public catalog package version ${latestVersion.packageVersionId} card ${card.packageCardId}`;
+      const cardHeading = interpolatePublicCatalogCardHeading(
+        copy,
+        formatPublicCatalogNumber(locale, index + 1),
+      );
 
       lines.push(
-        `### ${formatPublicCatalogNumber(locale, index + 1)}`,
+        `### ${escapeMarkdownText(cardHeading)}`,
         "",
         `**${escapeMarkdownText(copy.cardFrontLabel)}**`,
         "",
@@ -299,7 +323,7 @@ function renderPackageDetail(
           card.frontText,
           locale,
           mediaDownloadUrls,
-          `Public catalog card ${card.packageCardId} frontText`,
+          `${cardContext} frontText`,
         ),
         "",
         `**${escapeMarkdownText(copy.cardBackLabel)}**`,
@@ -308,7 +332,7 @@ function renderPackageDetail(
           card.backText,
           locale,
           mediaDownloadUrls,
-          `Public catalog card ${card.packageCardId} backText`,
+          `${cardContext} backText`,
         ),
       );
 

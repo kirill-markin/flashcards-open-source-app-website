@@ -556,13 +556,13 @@ function normalizeRootContent(
   });
 }
 
-function normalizePublicCatalogMarkdownFragment(
+function createNormalizedPublicCatalogMarkdownRoot(
   markdown: string,
   minimumHeadingDepth: Heading["depth"],
   locale: AppLocale,
   resolveDestination: (destination: string) => string,
   sourceContext: string,
-): string {
+): Root {
   const processor = remark().use(gfm);
   const parsedRoot = processor.parse(markdown) as Root;
   const definitions = new Map<string, Definition>();
@@ -599,7 +599,7 @@ function normalizePublicCatalogMarkdownFragment(
     : Math.min(...headingDepths);
   const headingDepthOffset = Math.max(0, minimumHeadingDepth - shallowestHeadingDepth);
 
-  const normalizedRoot: Root = {
+  return {
     ...parsedRoot,
     children: normalizeRootContent(
       parsedRoot.children,
@@ -607,8 +607,144 @@ function normalizePublicCatalogMarkdownFragment(
       headingDepthOffset,
     ),
   };
+}
+
+function normalizePublicCatalogMarkdownFragment(
+  markdown: string,
+  minimumHeadingDepth: Heading["depth"],
+  locale: AppLocale,
+  resolveDestination: (destination: string) => string,
+  sourceContext: string,
+): string {
+  const processor = remark().use(gfm);
+  const normalizedRoot = createNormalizedPublicCatalogMarkdownRoot(
+    markdown,
+    minimumHeadingDepth,
+    locale,
+    resolveDestination,
+    sourceContext,
+  );
 
   return processor.stringify(normalizedRoot).trim();
+}
+
+function getPlainTextChildSeparator(node: Nodes): string {
+  if (node.type === "root" || node.type === "blockquote") {
+    return "\n\n";
+  }
+
+  if (node.type === "list" || node.type === "listItem" || node.type === "table") {
+    return "\n";
+  }
+
+  if (node.type === "tableRow") {
+    return " | ";
+  }
+
+  return "";
+}
+
+interface ProjectedPlainTextSegment {
+  readonly preserveWhitespace: boolean;
+  readonly value: string;
+}
+
+function projectMarkdownNodeToPlainTextSegments(
+  node: Nodes,
+): ReadonlyArray<ProjectedPlainTextSegment> {
+  if (node.type === "inlineCode" || node.type === "code") {
+    return [{ preserveWhitespace: true, value: node.value }];
+  }
+
+  if (node.type === "text") {
+    return [{ preserveWhitespace: false, value: node.value }];
+  }
+
+  if (node.type === "break") {
+    return [{ preserveWhitespace: false, value: "\n" }];
+  }
+
+  if ("children" in node) {
+    const childSegments = node.children
+      .map(projectMarkdownNodeToPlainTextSegments)
+      .filter((segments) => segments.some((segment) => segment.value !== ""));
+    const separator = getPlainTextChildSeparator(node);
+
+    return childSegments.flatMap((segments, index) => [
+      ...(index === 0 || separator === ""
+        ? []
+        : [{ preserveWhitespace: false, value: separator }]),
+      ...segments,
+    ]);
+  }
+
+  return [];
+}
+
+function normalizeProjectedProseWhitespace(value: string): string {
+  return value
+    .replace(/[^\S\r\n]+/gu, " ")
+    .replace(/ *\r?\n */gu, "\n")
+    .replace(/\n{3,}/gu, "\n\n");
+}
+
+function normalizeProjectedPlainTextSegments(
+  segments: ReadonlyArray<ProjectedPlainTextSegment>,
+): string {
+  const normalizedSegments: ProjectedPlainTextSegment[] = [];
+
+  segments.forEach((segment) => {
+    const value = segment.preserveWhitespace
+      ? segment.value
+      : normalizeProjectedProseWhitespace(segment.value);
+
+    if (value === "") {
+      return;
+    }
+
+    const previousSegment = normalizedSegments[normalizedSegments.length - 1];
+
+    if (
+      segment.preserveWhitespace === false
+      && previousSegment?.preserveWhitespace === false
+    ) {
+      normalizedSegments[normalizedSegments.length - 1] = {
+        preserveWhitespace: false,
+        value: normalizeProjectedProseWhitespace(previousSegment.value + value),
+      };
+      return;
+    }
+
+    normalizedSegments.push({
+      preserveWhitespace: segment.preserveWhitespace,
+      value,
+    });
+  });
+
+  if (normalizedSegments.length === 0) {
+    return "";
+  }
+
+  const firstSegment = normalizedSegments[0];
+
+  if (firstSegment?.preserveWhitespace === false) {
+    normalizedSegments[0] = {
+      preserveWhitespace: false,
+      value: firstSegment.value.trimStart(),
+    };
+  }
+
+  const lastSegmentIndex = normalizedSegments.length - 1;
+  const lastSegment = normalizedSegments[lastSegmentIndex];
+
+  if (lastSegment?.preserveWhitespace === false) {
+    normalizedSegments[lastSegmentIndex] = {
+      preserveWhitespace: false,
+      value: lastSegment.value.trimEnd(),
+    };
+  }
+
+  return normalizedSegments.map((segment) => segment.value).join("");
 }
 
 export function normalizePublicCatalogDescriptionMarkdownFragment(
@@ -625,6 +761,28 @@ export function normalizePublicCatalogDescriptionMarkdownFragment(
   );
 }
 
+function createCardMediaDestinationResolver(
+  mediaDownloadUrlByKey: ReadonlyMap<string, string>,
+  sourceContext: string,
+): (destination: string) => string {
+  return (destination): string => {
+    if (destination.startsWith("fcasset:") === false) {
+      return destination;
+    }
+
+    const packageMediaKey = destination.slice("fcasset:".length);
+    const downloadUrl = mediaDownloadUrlByKey.get(packageMediaKey);
+
+    if (downloadUrl === undefined) {
+      throw new Error(
+        `${sourceContext} references unauthorized or missing media asset ${packageMediaKey}.`,
+      );
+    }
+
+    return downloadUrl;
+  };
+}
+
 export function normalizePublicCatalogCardMarkdownFragment(
   markdown: string,
   locale: AppLocale,
@@ -635,22 +793,31 @@ export function normalizePublicCatalogCardMarkdownFragment(
     markdown,
     4,
     locale,
-    (destination) => {
-      if (destination.startsWith("fcasset:") === false) {
-        return destination;
-      }
-
-      const packageMediaKey = destination.slice("fcasset:".length);
-      const downloadUrl = mediaDownloadUrlByKey.get(packageMediaKey);
-
-      if (downloadUrl === undefined) {
-        throw new Error(
-          `${sourceContext} references unauthorized or missing media asset ${packageMediaKey}.`,
-        );
-      }
-
-      return downloadUrl;
-    },
+    createCardMediaDestinationResolver(mediaDownloadUrlByKey, sourceContext),
     sourceContext,
   );
+}
+
+export function projectPublicCatalogCardMarkdownToPlainText(
+  markdown: string,
+  locale: AppLocale,
+  mediaDownloadUrlByKey: ReadonlyMap<string, string>,
+  sourceContext: string,
+): string {
+  const normalizedRoot = createNormalizedPublicCatalogMarkdownRoot(
+    markdown,
+    4,
+    locale,
+    createCardMediaDestinationResolver(mediaDownloadUrlByKey, sourceContext),
+    sourceContext,
+  );
+  const plainText = normalizeProjectedPlainTextSegments(
+    projectMarkdownNodeToPlainTextSegments(normalizedRoot),
+  );
+
+  if (plainText.trim() === "") {
+    throw new Error(`${sourceContext} must contain non-empty Markdown text.`);
+  }
+
+  return plainText;
 }
