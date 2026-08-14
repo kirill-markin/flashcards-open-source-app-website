@@ -382,6 +382,34 @@ test("parses the schema and builds latest-version-only lookup data", () => {
   assert.deepEqual(model.topicTags, ["grammar"]);
 });
 
+test("overrides only the U.S. citizenship package title in the website read model", () => {
+  const citizenshipInput = createValidDump();
+  citizenshipInput.packages[0].slug = "us-citizenship-test";
+  citizenshipInput.packageVersions[1].title = "Catalog citizenship title";
+  const citizenshipDump = parsePublicCatalogDump(citizenshipInput);
+  const citizenshipPackage = getPublicCatalogPackageBySlug(
+    createPublicCatalogReadModel(citizenshipDump),
+    "us-citizenship-test",
+  );
+
+  assert.ok(citizenshipPackage);
+  assert.deepEqual(citizenshipPackage.latestVersion, {
+    ...citizenshipDump.packageVersions[1],
+    title: "U.S. Citizenship Test Flashcards (2025-2026): All 128 Official Questions",
+  });
+  assert.equal(citizenshipDump.packageVersions[1].title, "Catalog citizenship title");
+
+  const otherDump = parsePublicCatalogDump(createValidDump());
+  const otherPackage = getPublicCatalogPackageBySlug(
+    createPublicCatalogReadModel(otherDump),
+    "canonical-package",
+  );
+
+  assert.ok(otherPackage);
+  assert.strictEqual(otherPackage.latestVersion, otherDump.packageVersions[1]);
+  assert.equal(otherPackage.latestVersion.title, "Canonical package title");
+});
+
 test("collects distinct card tags in ordered first-appearance order", () => {
   const input = createValidDump();
   input.cards[1].tags = ["shared", "second"];
