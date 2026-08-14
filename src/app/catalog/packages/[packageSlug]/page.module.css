@@ -397,7 +397,7 @@
 .cardSide {
   min-width: 0;
   padding-block: 12px 34px;
-  padding-inline: 12px;
+  padding-inline: 24px;
   border-radius: var(--radius-md);
   background: rgba(0, 0, 0, 0.18);
 }
