@@ -49,6 +49,38 @@ interface RenderedCard {
   readonly packageCardId: string;
 }
 
+interface PublicCatalogStudyCtaProps {
+  readonly helper: string;
+  readonly href: string;
+  readonly label: string;
+  readonly locale: AppLocale;
+  readonly packageId: string;
+  readonly versionNumber: number;
+}
+
+function PublicCatalogStudyCta({
+  helper,
+  href,
+  label,
+  locale,
+  packageId,
+  versionNumber,
+}: PublicCatalogStudyCtaProps): React.JSX.Element {
+  return (
+    <div className={styles.ctaBlock}>
+      <TrackedPublicCatalogInstallLink
+        className={styles.installButton}
+        href={href}
+        label={label}
+        locale={locale}
+        packageId={packageId}
+        versionNumber={versionNumber}
+      />
+      <p className={styles.installHelper}>{helper}</p>
+    </div>
+  );
+}
+
 async function renderCards(
   locale: AppLocale,
   packageView: PublicCatalogPackageView,
@@ -105,6 +137,17 @@ export async function PublicCatalogPackagePageView({
     ),
     renderCards(locale, packageView),
   ]);
+  const midpointCardCount =
+    renderedCards.length >= 100 ? Math.ceil(renderedCards.length / 2) : null;
+  const studyCtaProps: PublicCatalogStudyCtaProps = {
+    helper: copy.installHelper,
+    href: latestVersion.installUrl,
+    label: copy.installLabel,
+    locale,
+    packageId: packageMetadata.packageId,
+    versionNumber: latestVersion.versionNumber,
+  };
+
   return (
     <SiteFrame locale={locale} routePathname={packageRoutePathname}>
       <article className={styles.container}>
@@ -156,17 +199,7 @@ export async function PublicCatalogPackagePageView({
                   title={latestVersion.title}
                 />
               </div>
-              <div className={styles.ctaBlock}>
-                <TrackedPublicCatalogInstallLink
-                  className={styles.installButton}
-                  href={latestVersion.installUrl}
-                  label={copy.installLabel}
-                  locale={locale}
-                  packageId={packageMetadata.packageId}
-                  versionNumber={latestVersion.versionNumber}
-                />
-                <p className={styles.installHelper}>{copy.installHelper}</p>
-              </div>
+              <PublicCatalogStudyCta {...studyCtaProps} />
               <section className={styles.deckDetails}>
                 <h2>{copy.deckDetailsHeading}</h2>
                 <dl className={styles.detailsList}>
@@ -292,38 +325,52 @@ export async function PublicCatalogPackagePageView({
           {renderedCards.length === 0 ? (
             <p className={styles.empty}>{copy.noCardPreviewsLabel}</p>
           ) : (
-            <ol className={styles.cardList} role="list">
-              {renderedCards.map((card, index) => {
-                const cardHeading = interpolatePublicCatalogCardHeading(
-                  copy,
-                  formatPublicCatalogNumber(locale, index + 1),
-                );
+            <>
+              <ol className={styles.cardList} role="list">
+                {renderedCards.map((card, index) => {
+                  const cardHeading = interpolatePublicCatalogCardHeading(
+                    copy,
+                    formatPublicCatalogNumber(locale, index + 1),
+                  );
 
-                return (
-                  <li key={card.packageCardId}>
-                    <article className={styles.card}>
-                      <h3 className={styles.cardHeading}>{cardHeading}</h3>
-                      <div className={styles.cardSides}>
-                        <div className={styles.cardSide}>
-                          <p className={styles.cardSideLabel}>{copy.cardFrontLabel}</p>
-                          <div
-                            className={styles.markdown}
-                            dangerouslySetInnerHTML={{ __html: card.frontHtml }}
-                          />
+                  return (
+                    <li key={card.packageCardId}>
+                      <article className={styles.card}>
+                        <h3 className={styles.cardHeading}>{cardHeading}</h3>
+                        <div className={styles.cardSides}>
+                          <div className={styles.cardSide}>
+                            <p className={styles.cardSideLabel}>
+                              {copy.cardFrontLabel}
+                            </p>
+                            <div
+                              className={styles.markdown}
+                              dangerouslySetInnerHTML={{ __html: card.frontHtml }}
+                            />
+                          </div>
+                          <div className={styles.cardSide}>
+                            <p className={styles.cardSideLabel}>
+                              {copy.cardBackLabel}
+                            </p>
+                            <div
+                              className={styles.markdown}
+                              dangerouslySetInnerHTML={{ __html: card.backHtml }}
+                            />
+                          </div>
                         </div>
-                        <div className={styles.cardSide}>
-                          <p className={styles.cardSideLabel}>{copy.cardBackLabel}</p>
-                          <div
-                            className={styles.markdown}
-                            dangerouslySetInnerHTML={{ __html: card.backHtml }}
-                          />
+                      </article>
+                      {index + 1 === midpointCardCount ? (
+                        <div className={styles.cardListCta}>
+                          <PublicCatalogStudyCta {...studyCtaProps} />
                         </div>
-                      </div>
-                    </article>
-                  </li>
-                );
-              })}
-            </ol>
+                      ) : null}
+                    </li>
+                  );
+                })}
+              </ol>
+              <div className={styles.cardListEndCta}>
+                <PublicCatalogStudyCta {...studyCtaProps} />
+              </div>
+            </>
           )}
         </section>
       </article>
