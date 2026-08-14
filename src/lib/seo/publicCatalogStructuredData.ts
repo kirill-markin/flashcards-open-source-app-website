@@ -1,11 +1,13 @@
 import type { AppLocale } from "@/lib/i18n";
 import { getAbsoluteUrl, getLocalizedPathname } from "@/lib/i18n";
+import { getPublicCatalogCardMediaDownloadUrls } from "@/lib/publicCatalogCardMedia";
 import { getPublicCatalogUiCopy } from "@/lib/publicCatalogCopy";
 import {
   getPublicCatalogDestinationCopy,
   interpolatePublicCatalogCopy,
 } from "@/lib/publicCatalogDestinationCopy";
 import { formatPublicCatalogFacetTag } from "@/lib/publicCatalogFormatting";
+import { projectPublicCatalogCardMarkdownToPlainText } from "@/lib/publicCatalogMarkdownFragment";
 import type {
   PublicCatalogPackageView,
   PublicCatalogReadModel,
@@ -75,20 +77,56 @@ interface CatalogCollectionReference {
   readonly url: string;
 }
 
-export interface PublicCatalogPackageJsonLd {
-  readonly "@context": "https://schema.org";
+interface CatalogEntityReference {
+  readonly "@id": string;
+}
+
+interface PublicCatalogPackageResource {
   readonly "@id": string;
   readonly "@type": readonly ["LearningResource", "Collection"];
   readonly author: CatalogThingReference;
   readonly collectionSize: number;
   readonly datePublished: string;
   readonly description: string;
+  readonly hasPart?: CatalogEntityReference;
   readonly inLanguage?: ReadonlyArray<string>;
   readonly isPartOf?: ReadonlyArray<CatalogCollectionReference>;
   readonly keywords?: ReadonlyArray<string>;
   readonly license: CatalogLicenseCreativeWork;
   readonly name: string;
   readonly url: string;
+}
+
+interface CatalogQuizAbout {
+  readonly "@type": "Thing";
+  readonly name: string;
+}
+
+interface CatalogQuizAnswer {
+  readonly "@type": "Answer";
+  readonly text: string;
+}
+
+interface CatalogQuizQuestion {
+  readonly "@type": "Question";
+  readonly acceptedAnswer: CatalogQuizAnswer;
+  readonly eduQuestionType: "Flashcard";
+  readonly text: string;
+}
+
+interface CatalogQuiz {
+  readonly "@id": string;
+  readonly "@type": "Quiz";
+  readonly about: ReadonlyArray<CatalogQuizAbout>;
+  readonly hasPart: ReadonlyArray<CatalogQuizQuestion>;
+  readonly isPartOf: CatalogEntityReference;
+  readonly name: string;
+  readonly url: string;
+}
+
+export interface PublicCatalogPackageJsonLd {
+  readonly "@context": "https://schema.org";
+  readonly "@graph": readonly [PublicCatalogPackageResource, CatalogQuiz?];
 }
 
 interface ConservativeCatalogAuthorThing {
@@ -311,10 +349,38 @@ export function createPublicCatalogPackageJsonLd(
     locale,
     getPublicCatalogAuthorRoutePathname(packageView.author.slug),
   );
+  const resourceId = `${packageUrl}#resource`;
+  const quizId = `${packageUrl}#quiz`;
+  const questions = packageView.cards.map((card): CatalogQuizQuestion => {
+    const mediaDownloadUrls = getPublicCatalogCardMediaDownloadUrls(
+      card,
+      packageView.mediaAssets,
+    );
+    const cardContext =
+      `Public catalog package version ${latestVersion.packageVersionId} card ${card.packageCardId}`;
 
-  return {
-    "@context": "https://schema.org",
-    "@id": `${packageUrl}#resource`,
+    return {
+      "@type": "Question",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: projectPublicCatalogCardMarkdownToPlainText(
+          card.backText,
+          locale,
+          mediaDownloadUrls,
+          `${cardContext} backText`,
+        ),
+      },
+      eduQuestionType: "Flashcard",
+      text: projectPublicCatalogCardMarkdownToPlainText(
+        card.frontText,
+        locale,
+        mediaDownloadUrls,
+        `${cardContext} frontText`,
+      ),
+    };
+  });
+  const resource: PublicCatalogPackageResource = {
+    "@id": resourceId,
     "@type": ["LearningResource", "Collection"],
     author: {
       "@id": `${authorUrl}#author`,
@@ -330,6 +396,7 @@ export function createPublicCatalogPackageJsonLd(
     },
     name: latestVersion.title,
     url: packageUrl,
+    ...(questions.length === 0 ? {} : { hasPart: { "@id": quizId } }),
     ...(latestVersion.languageTags.length === 0
       ? {}
       : { inLanguage: latestVersion.languageTags }),
@@ -348,6 +415,33 @@ export function createPublicCatalogPackageJsonLd(
             ),
           })),
         }),
+  };
+
+  if (questions.length === 0) {
+    return {
+      "@context": "https://schema.org",
+      "@graph": [resource],
+    };
+  }
+
+  const aboutNames = [latestVersion.title, ...latestVersion.topicTags]
+    .filter((name, index, names) => names.indexOf(name) === index);
+  const quiz: CatalogQuiz = {
+    "@id": quizId,
+    "@type": "Quiz",
+    about: aboutNames.map((name) => ({
+      "@type": "Thing",
+      name,
+    })),
+    hasPart: questions,
+    isPartOf: { "@id": resourceId },
+    name: latestVersion.title,
+    url: packageUrl,
+  };
+
+  return {
+    "@context": "https://schema.org",
+    "@graph": [resource, quiz],
   };
 }
 
