@@ -18,7 +18,10 @@ import { escapeMarkdownText } from "./markdownLinks";
 import { renderMarkdownDocument } from "./markdownServe";
 import { renderMarkdownToHtml } from "./content/renderMarkdownToHtml";
 import { getPublicCatalogAuthorBioExcerpt } from "./publicCatalogAuthor";
-import { getPublicCatalogUiCopy } from "./publicCatalogCopy";
+import {
+  getPublicCatalogUiCopy,
+  interpolatePublicCatalogCardHeading,
+} from "./publicCatalogCopy";
 import { getPublicCatalogDestinationCopy } from "./publicCatalogDestinationCopy";
 import {
   listPublicCatalogMarkdownPagePaths,
@@ -41,6 +44,9 @@ import {
   renderPublicCatalogCardMarkdownToHtml,
   renderPublicCatalogDescriptionMarkdownToHtml,
 } from "./publicCatalogMarkdownHtml";
+import {
+  projectPublicCatalogCardMarkdownToPlainText,
+} from "./publicCatalogMarkdownFragment";
 import { parsePublicCatalogDump } from "./publicCatalogParser";
 import {
   createCachedPublicCatalogReader,
@@ -593,23 +599,72 @@ test("creates escaped catalog JSON-LD from canonical read-model entities", () =>
     "es",
     packageView,
   );
+  const packageResource = packageSchema["@graph"][0];
+  const quiz = packageSchema["@graph"][1];
 
-  assert.deepEqual(packageSchema["@type"], ["LearningResource", "Collection"]);
+  assert.ok(quiz);
+  assert.deepEqual(packageResource["@type"], ["LearningResource", "Collection"]);
   assert.equal(
-    packageSchema.url,
+    packageResource.url,
     "https://flashcards-open-source-app.com/es/catalog/packages/canonical-package/",
   );
-  assert.equal(packageSchema.collectionSize, 2);
-  assert.deepEqual(packageSchema.inLanguage, ["en", "es"]);
-  assert.deepEqual(packageSchema.keywords, ["world history"]);
-  assert.deepEqual(packageSchema.license, {
+  assert.equal(packageResource.collectionSize, 2);
+  assert.deepEqual(packageResource.inLanguage, ["en", "es"]);
+  assert.deepEqual(packageResource.keywords, ["world history"]);
+  assert.deepEqual(packageResource.license, {
     "@type": "CreativeWork",
     name: "CC0-1.0",
   });
-  assert.equal("@type" in packageSchema.author, false);
-  assert.equal("image" in packageSchema, false);
-  assert.equal("aggregateRating" in packageSchema, false);
-  assert.equal("offers" in packageSchema, false);
+  assert.deepEqual(packageResource.author, {
+    "@id":
+      "https://flashcards-open-source-app.com/es/catalog/authors/author-one/#author",
+    name: "Author < One",
+    url: "https://flashcards-open-source-app.com/es/catalog/authors/author-one/",
+  });
+  assert.deepEqual(packageResource.isPartOf, [{
+    "@type": "CollectionPage",
+    name: "Starter collection",
+    url:
+      "https://flashcards-open-source-app.com/es/catalog/collections/starter-collection/",
+  }]);
+  assert.deepEqual(packageResource.hasPart, { "@id": quiz["@id"] });
+  assert.equal("@type" in packageResource.author, false);
+  assert.equal("image" in packageResource, false);
+  assert.equal("aggregateRating" in packageResource, false);
+  assert.equal("offers" in packageResource, false);
+  assert.equal(quiz["@type"], "Quiz");
+  assert.deepEqual(
+    quiz.about.map((about) => about.name),
+    ["Canonical package title", "world history"],
+  );
+  assert.deepEqual(
+    quiz.hasPart.map((question) => ({
+      acceptedAnswer: question.acceptedAnswer,
+      eduQuestionType: question.eduQuestionType,
+      text: question.text,
+    })),
+    [
+      {
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "First back",
+        },
+        eduQuestionType: "Flashcard",
+        text: "First front inline",
+      },
+      {
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "Second back",
+        },
+        eduQuestionType: "Flashcard",
+        text: "Second front",
+      },
+    ],
+  );
+  quiz.hasPart.forEach((question) => {
+    assert.equal(Array.isArray(question.acceptedAnswer), false);
+  });
 
   const rootSchema = createPublicCatalogRootJsonLd(model, "en");
   const rootItemList = rootSchema["@graph"][1];
@@ -1273,6 +1328,63 @@ test("renders useful localized catalog Markdown from the public read model", () 
   );
 });
 
+test("projects normalized card Markdown to complete ordered plain text", () => {
+  const sourceContext = "Public catalog package version deck-version-1 card card-1 frontText";
+  const plainText = projectPublicCatalogCardMarkdownToPlainText(
+    [
+      "# Heading **one**",
+      "",
+      "Paragraph with [link](https://example.com) and ![diagram](fcasset:inline.webp).",
+      "",
+      "- First item",
+      "- Second `item`",
+      "",
+      "| Term | Meaning |",
+      "| --- | --- |",
+      "| GFM | Table **value** |",
+      "",
+      "Use `a  b` exactly.",
+      "",
+      "```python",
+      "if ready:",
+      "    print(\"a  b\")",
+      "```",
+    ].join("\n"),
+    "en",
+    new Map([["inline.webp", "https://example.com/inline.webp"]]),
+    sourceContext,
+  );
+
+  assert.equal(
+    plainText,
+    [
+      "Heading one",
+      "",
+      "Paragraph with link and diagram.",
+      "",
+      "First item",
+      "Second item",
+      "",
+      "Term | Meaning",
+      "GFM | Table value",
+      "",
+      "Use a  b exactly.",
+      "",
+      "if ready:",
+      "    print(\"a  b\")",
+    ].join("\n"),
+  );
+  assert.throws(
+    () => projectPublicCatalogCardMarkdownToPlainText(
+      "",
+      "en",
+      new Map(),
+      sourceContext,
+    ),
+    /deck-version-1 card card-1 frontText must contain non-empty Markdown text/,
+  );
+});
+
 test("renders safe canonical links for authored URLs and delimiter-looking facet paths", () => {
   const input = createValidDump();
   const topicTag = "history (100%))> <img";
@@ -1801,7 +1913,7 @@ test("uses the canonical package publication date in Markdown and JSON-LD", () =
   assert.ok(markdown);
   assert.match(markdown, new RegExp(formatPublicCatalogDate("es", packagePublishedAt)));
   assert.doesNotMatch(markdown, new RegExp(formatPublicCatalogDate("es", versionPublishedAt)));
-  assert.equal(jsonLd.datePublished, packagePublishedAt);
+  assert.equal(jsonLd["@graph"][0].datePublished, packagePublishedAt);
   assert.match(markdown, /Versión: 2/);
   assert.match(markdown, /Tarjetas: 2 tarjetas/);
 });
@@ -1961,6 +2073,15 @@ test("isolates authored Markdown fragments from generated and sibling content", 
   assert.equal(codeBlocks.length, 1);
   assert.equal(codeBlocks[0]?.value, "unclosed");
   assert.equal(cardHeadings.length, 2);
+  assert.deepEqual(
+    cardHeadings.map((heading) =>
+      heading.children?.map((child) => child.value ?? "").join("")),
+    [1, 2].map((cardNumber) =>
+      interpolatePublicCatalogCardHeading(
+        getPublicCatalogUiCopy("en"),
+        formatPublicCatalogNumber("en", cardNumber),
+      )),
+  );
   assert.ok(nodes.some((node) =>
     node.type === "heading"
     && node.depth === 4
@@ -2316,22 +2437,22 @@ test("formats localized card counts with the required plural categories", () => 
   assert.equal(formatPublicCatalogCardCount("ru", 21, russianCopy), "21 карточка");
 });
 
-test("formats localized package counts", () => {
+test("formats localized deck counts", () => {
   assert.equal(
     formatPublicCatalogPackageCount("en", 1, getPublicCatalogDestinationCopy("en")),
-    "1 package",
+    "1 deck",
   );
   assert.equal(
     formatPublicCatalogPackageCount("es", 2, getPublicCatalogDestinationCopy("es")),
-    "2 paquetes",
+    "2 mazos",
   );
   assert.equal(
     formatPublicCatalogPackageCount("ar", 2, getPublicCatalogDestinationCopy("ar")),
-    "حزمتان",
+    "رزمتان",
   );
   assert.equal(
     formatPublicCatalogPackageCount("ru", 5, getPublicCatalogDestinationCopy("ru")),
-    "5 пакетов",
+    "5 колод",
   );
 });
 
