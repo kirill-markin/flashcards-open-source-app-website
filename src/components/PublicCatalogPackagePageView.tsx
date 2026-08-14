@@ -23,6 +23,7 @@ import {
 } from "@/lib/publicCatalogMarkdownHtml";
 import {
   getPublicCatalogPackageCardTags,
+  type PublicCatalogCoverMediaAsset,
   type PublicCatalogPackageView,
 } from "@/lib/publicCatalogReadModel";
 import type { PublicCatalogCollection } from "@/lib/publicCatalogTypes";
@@ -58,6 +59,13 @@ interface PublicCatalogStudyCtaProps {
   readonly versionNumber: number;
 }
 
+interface PublicCatalogCardListStudyCtaProps extends PublicCatalogStudyCtaProps {
+  readonly cardCount: string;
+  readonly coverMediaAsset: PublicCatalogCoverMediaAsset | null;
+  readonly placeholderLabel: string;
+  readonly title: string;
+}
+
 function PublicCatalogStudyCta({
   helper,
   href,
@@ -77,6 +85,44 @@ function PublicCatalogStudyCta({
         versionNumber={versionNumber}
       />
       <p className={styles.installHelper}>{helper}</p>
+    </div>
+  );
+}
+
+function PublicCatalogCardListStudyCta({
+  cardCount,
+  coverMediaAsset,
+  helper,
+  href,
+  label,
+  locale,
+  packageId,
+  placeholderLabel,
+  title,
+  versionNumber,
+}: PublicCatalogCardListStudyCtaProps): React.JSX.Element {
+  return (
+    <div className={styles.cardListCtaCard}>
+      <div className={styles.cardListCtaCover}>
+        <PublicCatalogCover
+          coverMediaAsset={coverMediaAsset}
+          placeholderLabel={placeholderLabel}
+          sizes="(max-width: 700px) calc(100vw - 88px), 240px"
+          title={title}
+        />
+      </div>
+      <div className={styles.cardListCtaContent}>
+        <p className={styles.cardListCtaMeta}>{cardCount}</p>
+        <h3 className={styles.cardListCtaTitle}>{title}</h3>
+        <PublicCatalogStudyCta
+          helper={helper}
+          href={href}
+          label={label}
+          locale={locale}
+          packageId={packageId}
+          versionNumber={versionNumber}
+        />
+      </div>
     </div>
   );
 }
@@ -139,6 +185,11 @@ export async function PublicCatalogPackagePageView({
   ]);
   const midpointCardCount =
     renderedCards.length >= 100 ? Math.ceil(renderedCards.length / 2) : null;
+  const formattedCardCount = formatPublicCatalogCardCount(
+    locale,
+    latestVersion.cardCount,
+    copy,
+  );
   const studyCtaProps: PublicCatalogStudyCtaProps = {
     helper: copy.installHelper,
     href: latestVersion.installUrl,
@@ -146,6 +197,13 @@ export async function PublicCatalogPackagePageView({
     locale,
     packageId: packageMetadata.packageId,
     versionNumber: latestVersion.versionNumber,
+  };
+  const cardListStudyCtaProps: PublicCatalogCardListStudyCtaProps = {
+    ...studyCtaProps,
+    cardCount: formattedCardCount,
+    coverMediaAsset,
+    placeholderLabel: copy.coverPlaceholderLabel,
+    title: latestVersion.title,
   };
 
   return (
@@ -205,13 +263,7 @@ export async function PublicCatalogPackagePageView({
                 <dl className={styles.detailsList}>
                   <div className={styles.fact}>
                     <dt>{copy.cardsLabel}</dt>
-                    <dd>
-                      {formatPublicCatalogCardCount(
-                        locale,
-                        latestVersion.cardCount,
-                        copy,
-                      )}
-                    </dd>
+                    <dd>{formattedCardCount}</dd>
                   </div>
                   <div className={styles.fact}>
                     <dt>{copy.versionLabel}</dt>
@@ -360,7 +412,9 @@ export async function PublicCatalogPackagePageView({
                       </article>
                       {index + 1 === midpointCardCount ? (
                         <div className={styles.cardListCta}>
-                          <PublicCatalogStudyCta {...studyCtaProps} />
+                          <PublicCatalogCardListStudyCta
+                            {...cardListStudyCtaProps}
+                          />
                         </div>
                       ) : null}
                     </li>
@@ -368,7 +422,7 @@ export async function PublicCatalogPackagePageView({
                 })}
               </ol>
               <div className={styles.cardListEndCta}>
-                <PublicCatalogStudyCta {...studyCtaProps} />
+                <PublicCatalogCardListStudyCta {...cardListStudyCtaProps} />
               </div>
             </>
           )}
