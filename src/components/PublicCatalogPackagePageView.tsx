@@ -21,7 +21,10 @@ import {
   renderPublicCatalogCardMarkdownToHtml,
   renderPublicCatalogDescriptionMarkdownToHtml,
 } from "@/lib/publicCatalogMarkdownHtml";
-import type { PublicCatalogPackageView } from "@/lib/publicCatalogReadModel";
+import {
+  getPublicCatalogPackageCardTags,
+  type PublicCatalogPackageView,
+} from "@/lib/publicCatalogReadModel";
 import type { PublicCatalogCollection } from "@/lib/publicCatalogTypes";
 import {
   getPublicCatalogAuthorRoutePathname,
@@ -44,7 +47,6 @@ interface RenderedCard {
   readonly backHtml: string;
   readonly frontHtml: string;
   readonly packageCardId: string;
-  readonly tags: ReadonlyArray<string>;
 }
 
 async function renderCards(
@@ -78,7 +80,6 @@ async function renderCards(
         backHtml,
         frontHtml,
         packageCardId: card.packageCardId,
-        tags: card.tags,
       };
     }),
   );
@@ -92,6 +93,7 @@ export async function PublicCatalogPackagePageView({
   const copy = getPublicCatalogUiCopy(locale);
   const destinationCopy = getPublicCatalogDestinationCopy(locale);
   const { author, coverMediaAsset, latestVersion, packageMetadata } = packageView;
+  const cardTags = getPublicCatalogPackageCardTags(packageView);
   const packageRoutePathname = getPublicCatalogPackageRoutePathname(
     packageMetadata.slug,
   );
@@ -238,6 +240,12 @@ export async function PublicCatalogPackagePageView({
                       </dd>
                     </div>
                   )}
+                  {cardTags.length === 0 ? null : (
+                    <div className={styles.fact}>
+                      <dt>{copy.tagsLabel}</dt>
+                      <dd>{cardTags.join(", ")}</dd>
+                    </div>
+                  )}
                   {collections.length === 0 ? null : (
                     <div className={styles.fact}>
                       <dt>{destinationCopy.collectionsContainingLabel}</dt>
@@ -311,16 +319,6 @@ export async function PublicCatalogPackagePageView({
                           />
                         </div>
                       </div>
-                      {card.tags.length === 0 ? null : (
-                        <div className={styles.tags}>
-                          <span>{copy.tagsLabel}</span>
-                          <ul>
-                            {card.tags.map((tag) => (
-                              <li key={tag}>{tag}</li>
-                            ))}
-                          </ul>
-                        </div>
-                      )}
                     </article>
                   </li>
                 );

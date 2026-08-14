@@ -375,7 +375,8 @@
 
 .cardSide {
   min-width: 0;
-  padding: 12px;
+  padding-block: 12px 34px;
+  padding-inline: 12px;
   border-radius: var(--radius-md);
   background: rgba(0, 0, 0, 0.18);
 }
@@ -387,33 +388,6 @@
   font-weight: 700;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-}
-
-.tags {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 8px;
-  margin-top: 12px;
-  color: var(--text-tertiary);
-  font-size: 12px;
-}
-
-.tags ul {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 6px;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-.tags li {
-  padding: 3px 8px;
-  border-radius: var(--radius-pill);
-  background: var(--accent-soft);
-  color: var(--accent-strong);
-  overflow-wrap: anywhere;
 }
 
 .empty {
