@@ -1,256 +1,257 @@
 ---
-title: >-
-  Cómo utilizar ChatGPT para crear tarjetas didácticas en 2026: mejores
-  indicaciones, mejores tarjetas, mejor revisión con FSRS
-description: >-
-  ¿Quieres utilizar ChatGPT para crear tarjetas didácticas en 2026? Aquí hay un
-  flujo de trabajo práctico: redactar tarjetas con mejores indicaciones, limpiar
-  resultados vagos rápidamente y revisar el mazo final con FSRS en lugar de
-  dejarlo dentro del chat.
-date: '2026-03-25'
+title: "Cómo usar ChatGPT para crear flashcards en 2026: de los apuntes a un mazo listo para repasar"
+description: "Aprende a crear flashcards con ChatGPT a partir de apuntes o archivos, verificar cada propuesta, descartar las tarjetas débiles y llevar las aprobadas a la repetición espaciada."
+date: "2026-03-25"
+updated: "2026-08-15"
+image: "/blog/how-to-use-chatgpt-to-make-flashcards.png"
 keywords:
-  - cómo usar chatgpt para hacer tarjetas didácticas
-  - tarjetas de chatgpt
-  - chatgpt a tarjetas didácticas
-  - generador de tarjetas ia
-  - estudiar con chatgpt
-  - tarjetas fsrs
-  - tarjetas didácticas de estudio chatgpt
-  - hacer tarjetas con ai
+  - "cómo usar ChatGPT para crear flashcards"
+  - "flashcards con ChatGPT"
+  - "crear flashcards con ChatGPT"
+  - "convertir contenido de ChatGPT en flashcards"
+  - "prompt de ChatGPT para flashcards"
+  - "generador de flashcards con IA"
+  - "flashcards con Study Mode de ChatGPT"
 ---
-Ayer vi a ChatGPT convertir tres páginas de apuntes de conferencias en 28 tarjetas didácticas, y tal vez valiera la pena conservar seis de ellas. El resto parecía inteligente en la forma profundamente sospechosa que suele tener la IA cuando intenta impresionar a un estudiante cansado.
 
-Generalmente es entonces cuando la gente comienza a buscar **cómo usar ChatGPT para crear tarjetas didácticas**.
+ChatGPT puede convertir un archivo de clase en una lista bien redactada de preguntas y respuestas. Lo difícil viene después: comprobar si cada respuesta procede del archivo, si cada pregunta evalúa una sola idea y si merece la pena repasar esa tarjeta durante meses.
 
-No porque la herramienta no pueda generar tarjetas. Obviamente puede. El verdadero problema es que la mayoría de los mazos generados por IA se sienten mejor a primera vista que en la tercera sesión de revisión, cuando las palabras vagas y las respuestas exageradas comienzan a hacerte perder el tiempo.
+Esta es la forma práctica de **usar ChatGPT para crear flashcards** en 2026. Trabaja con una fuente acotada, pídele que señale lagunas y ambigüedades antes de redactar, trata cada resultado como una propuesta y guarda solo las tarjetas que hayas comprobado. ChatGPT ayuda a extraer el contenido y formularlo. No crea un mazo verificado ni programa por ti los repasos con repetición espaciada.
 
-## ChatGPT es bueno redactando. Es malo saber lo que debes memorizar.
+> **Aviso de transparencia:** Soy Kirill Markin y desarrollo [Flashcards Open Source App](/es/features/). Esta guía funciona con cualquier app de flashcards con anverso y reverso. Menciono Flashcards cuando su flujo de trabajo resulta relevante, no para afirmar que todos los estudiantes deberían usarla.
 
-Creo que este es el punto de partida más útil.
+**Información verificada:** 15 de agosto de 2026.
 
-ChatGPT puede ahorrarte mucho tiempo de escribir.
+![Una horticultora inspecciona semillas de una vaina abierta antes de colocar solo las sanas en una bandeja de germinación espaciada](/blog/how-to-use-chatgpt-to-make-flashcards.png)
 
-Puede convertir notas, lecturas, resúmenes de conferencias, secciones copiadas de libros de texto y esquemas desordenados en un primer borrador mucho más rápido que a mano.
+## El flujo de trabajo resumido
 
-Lo que no sabe automáticamente es:
+Si quieres ver el proceso completo antes de entrar en detalles, sigue esta secuencia:
 
-- qué hechos realmente vale la pena recordar
-- qué tarjetas son demasiado amplias
-- qué respuestas son demasiado largas
-- lo cual solo tiene sentido porque el párrafo original aún está fresco en tu cabeza
+1. Elige un fragmento breve de la fuente e identifica su página, diapositiva o encabezado.
+2. Pide a ChatGPT que enumere posibles datos, pasajes poco claros y contexto ausente sin crear todavía ninguna tarjeta.
+3. Pídele que proponga tarjetas de anverso y reverso, cada una con su ubicación en la fuente y una nota de incertidumbre.
+4. Comprueba cada respuesta con la fuente. Reescribe, divide o elimina las tarjetas débiles.
+5. Ponte a prueba con las tarjetas que superen el filtro sin mirar los reversos.
+6. Pide solo las tarjetas aprobadas en una estructura sencilla y portátil.
+7. Copia o guarda esas tarjetas en una app de flashcards que programe los repasos y sigue su calendario.
 
-Es por eso que las **tarjetas didácticas de ChatGPT** funcionan mejor cuando el modelo realiza borradores y las ediciones humanas.
+Descartar tarjetas forma parte del proceso; no es un arreglo que haces después de que ChatGPT «falle». Un generador de flashcards con IA puede producir más tarjetas verosímiles de las que conviene conservar. Terminar con un mazo mucho más pequeño puede ser un resultado perfectamente válido.
 
-Si esperas magia, normalmente obtendrás un montón de limpieza futura.
+## Empieza con un fragmento de la fuente, no con todo el tema
 
-## Esta búsqueda se volvió más importante en 2026
+«Crea flashcards sobre biología celular» da a ChatGPT margen para usar sus conocimientos generales, adivinar el nivel de tu curso y decidir qué es importante. Puede servir para una lluvia de ideas, pero es una mala base para un mazo que debe ajustarse a tu clase o examen.
 
-La IA para las tareas escolares ya no es un hábito exclusivo.
+Usa una sección de la clase, unas pocas páginas de un libro que tengas permiso para subir o un bloque breve de tus propios apuntes. Indica a ChatGPT el límite exacto: «páginas 12–16», «diapositivas 8–14» o «la sección titulada Transporte de membrana». Trabajar con un fragmento más breve facilita detectar omisiones y aportaciones sin respaldo.
 
-OpenAI está impulsando abiertamente los flujos de trabajo de estudio. Google sigue ampliando las funciones de estudio de NotebookLM. Los grandes productos de estudio siguen añadiendo más capas de generación de IA. Los datos de encuestas recientes sobre el uso de la IA por parte de los adolescentes también apuntan en la misma dirección: muchos estudiantes ya están usando chatbots para las tareas escolares, les guste o no a los profesores.
+ChatGPT admite formatos habituales de texto, documentos, presentaciones, hojas de cálculo y PDF, como TXT, DOCX, PPTX, XLSX, CSV y PDF. La [página de OpenAI sobre los archivos compatibles](https://help.openai.com/en/articles/8983675-what-types-of-files-are-supported) indica que los archivos `.gdoc` no se admiten directamente, así que primero debes exportar un documento de Google a PDF o DOCX.
 
-Así que **estudiar con ChatGPT** ya no es un truco extraño.
+Adjuntar archivos no sustituye unas instrucciones precisas. La [guía de OpenAI sobre Study Mode](https://help.openai.com/en/articles/11780217-study-mode) recomienda indicar a ChatGPT qué página, sección, pregunta o imagen debe usar si pasa por alto una parte del archivo. Con páginas escaneadas, diagramas o diapositivas densas, pregúntale primero qué partes puede leer bien. Si falta una fórmula, una etiqueta o una nota al pie, pega el texto correspondiente o sube una imagen más clara antes de generar las tarjetas.
 
-Es un flujo de trabajo convencional ahora.
+Este primer prompt establece un límite estricto para la fuente:
 
-Lo que significa que la mejor pregunta no es si se debe utilizar la IA en absoluto. La mejor pregunta es cómo usarlo sin producir tarjetas malas más rápidamente.
+```text
+Usa solo el archivo adjunto, las páginas 12–16, bajo el encabezado «Transporte
+de membrana». No uses conocimientos externos ni inventes datos que falten.
 
-## El primer error es pedir todo el mazo de una vez
+Antes de crear flashcards, devuelve:
+1. los datos, las distinciones y las relaciones concretas que podrían evaluarse;
+2. todo lo que resulte ambiguo, incompleto o ilegible en la fuente;
+3. cualquier elemento al que le falte contexto para convertirse en una pregunta
+   que pueda evaluarse de forma justa.
 
-Aquí es donde la mayoría de los flujos de trabajo del **generador de tarjetas flash AI** salen mal.
+Para cada elemento, indica la página y el encabezado que sirven de respaldo. Si
+no puedes determinar la ubicación, marca el elemento como SIN RESPALDO en vez de
+adivinar.
+Todavía no redactes ninguna tarjeta.
+```
 
-La gente pega un capítulo completo y dice algo como:
+Revisa ese inventario antes de continuar. Si ChatGPT incluye algo que no encuentras, elimínalo o pídele que señale la frase exacta. Una explicación convincente no sirve como respaldo de la fuente.
 
-"Hazme tarjetas didácticas con esto".
+## Crea propuestas que puedas comprobar en la fuente
 
-El modelo obedece.
+Cuando el inventario de la fuente sea correcto, pide propuestas. La palabra «propuesta» es importante porque deja claro el siguiente paso: aún tienes que aprobarlas.
 
-También comienza a adivinar lo que importa, aplanando matices, combinando ideas que deberían permanecer separadas y produciendo tarjetas que suenan pulidas pero que no crean un recuerdo claro.
+Un buen anverso plantea una pregunta clara. Un buen reverso la responde directamente. La tarjeta debe seguir teniendo sentido más adelante, cuando ya no tengas abierta la fuente ni fresco el contexto de la clase. Para ver más ejemplos de lo que encaja en este formato, consulta [¿Qué debería incluir una flashcard?](/es/blog/what-should-go-on-a-flashcard/).
 
-Mantendría la entrada mucho más limitada.
+Aquí tienes un **prompt de ChatGPT para flashcards** que puedes copiar:
 
-Una sección.
+```text
+Convierte el inventario aprobado en propuestas de tarjetas.
 
-Un grupo de conceptos.
+Reglas:
+- Usa únicamente datos que consten en la fuente proporcionada. No añadas
+  conocimientos externos.
+- Evalúa una sola idea por tarjeta.
+- Escribe en el Anverso solo una pregunta o una consigna para recordar.
+- Escribe en el Reverso la respuesta completa más breve posible.
+- Redacta cada Anverso para que se entienda sin ver el párrafo original.
+- No crees tarjetas a partir de elementos ambiguos o sin respaldo.
+- No incluyas en el Reverso datos que el Anverso no pida.
+- Respeta matices como «por lo general», «en estas condiciones» o «según este
+  modelo» cuando la fuente los requiera.
 
-Un segmento de conferencia.
+Devuelve cada propuesta con esta estructura:
+ID:
+Anverso:
+Reverso:
+Ubicación en la fuente:
+Incertidumbre: ninguna o un motivo concreto para revisarla
 
-Un breve extracto de lectura.
+Después de las tarjetas, enumera los elementos de la fuente que hayas omitido
+deliberadamente y explica por qué.
+```
 
-Eso ya mejora el resultado más que la mayoría de los trucos rápidos.
+La ubicación en la fuente es una referencia de trabajo provisional. No tiene por qué aparecer en la tarjeta definitiva, pero acelera mucho la comprobación. La lista de elementos omitidos también resulta útil: muestra si ChatGPT omitió sin avisar un fragmento difícil o descartó correctamente material que no encaja en unas flashcards.
 
-## El mensaje que funciona mejor es vergonzosamente sencillo
+## Del fragmento original a una tarjeta: un ejemplo
 
-Yo pediría algo como esto:
+Este es un fragmento hipotético de unos apuntes:
 
-- un hecho o concepto por tarjeta
-- anverso corto redactado como una pregunta o mensaje claro
-- reverso corto con la respuesta directa
-- no hay información inventada
-- no hay respuestas de varias partes a menos que la fuente realmente lo requiera
-- no hay tarjetas que dependan de ver el párrafo original
+```text
+Apuntes de ejemplo, párrafo 3: Durante la sístole ventricular, aumenta la presión
+ventricular. Las válvulas auriculoventriculares se cierran cuando la presión
+ventricular supera la presión auricular. Las válvulas semilunares se abren cuando
+la presión ventricular supera la presión en las arterias.
+```
 
-Eso es suficiente.
+Un primer borrador típico podría ser este:
 
-No necesita un mensaje de 900 palabras lleno de falso teatro de ingeniería.
+```text
+Anverso: ¿Qué sucede durante la sístole ventricular?
+Reverso: Aumenta la presión ventricular, las válvulas auriculoventriculares se
+cierran cuando la presión ventricular supera la presión auricular y las válvulas
+semilunares se abren cuando la presión ventricular supera la presión en las
+arterias.
+```
 
-El modelo necesita principalmente límites.
+La respuesta se ciñe al fragmento, pero la tarjeta pregunta tres cosas. Una respuesta parcial resulta difícil de evaluar. Al dividirla se obtienen propuestas más claras:
 
-## El frente de la tarjeta no debe intentar sonar inteligente
+```text
+Anverso: Según estos apuntes, ¿qué condición de presión hace que se cierren las
+válvulas auriculoventriculares durante la sístole ventricular?
+Reverso: La presión ventricular supera la presión auricular.
+Fuente: Apuntes de ejemplo, párrafo 3.
 
-Esto importa mucho.
+Anverso: Según estos apuntes, ¿qué condición de presión hace que se abran las
+válvulas semilunares durante la sístole ventricular?
+Reverso: La presión ventricular supera la presión en las arterias.
+Fuente: Apuntes de ejemplo, párrafo 3.
+```
 
-El anverso de una buena tarjeta didáctica le da a tu cerebro algo limpio que recuperar.
+Siguen siendo propuestas. Quien estudie el tema debe comparar la redacción con el material real del curso y decidir si merece la pena memorizar ambas distinciones. ChatGPT facilitó la revisión del texto; no certificó el contenido.
 
-Una mala fachada suena como un profesor que intenta ganar una discusión consigo mismo.
+## Haz seis comprobaciones antes de conservar una tarjeta
 
-Si desea **chatear con tarjetas didácticas** que realmente se mantengan vigentes, el frente generalmente debería ser uno de estos:
+Revisa las propuestas una por una. Un filtro de calidad sencillo detecta la mayoría de los problemas que después hacen que las tarjetas creadas con IA resulten frustrantes.
 
-- una pregunta directa
-- un breve mensaje de definición
-- un mensaje de causa y efecto
-- un mensaje de comparación cuando la distinción importa
+1. **Respaldo en la fuente:** ¿Puedes señalar la frase, tabla, diapositiva o diagrama que respalda la respuesta completa? Si no, elimina la tarjeta o verifica el dato en una fuente autorizada antes de conservarla.
+2. **Una sola idea:** ¿Puedes dar la respuesta completa como una sola idea? Divide las listas, las preguntas dobles y las indicaciones generales que piden «explicarlo todo».
+3. **Contexto suficiente:** ¿Seguiría entendiéndose el anverso el mes que viene? Sustituye palabras imprecisas como «esto», «este proceso» y «la teoría» por el tema concreto.
+4. **Respuesta concisa:** ¿Es el reverso lo bastante corto para evaluarlo sin discutir qué parte olvidaste? Conserva las condiciones necesarias, pero quita las explicaciones y los ejemplos si no forman parte de la respuesta evaluada.
+5. **Utilidad futura:** ¿Importará este dato más allá de la lectura de hoy? Elimina encabezados, relleno evidente, ideas duplicadas y detalles que puedas deducir rápidamente cuando los necesites.
+6. **Evaluación justa:** ¿Podrías reconocer una paráfrasis correcta o la tarjeta exige repetir las palabras exactas de ChatGPT? Reescribe los anversos que terminen evaluando la redacción en lugar del conocimiento.
 
-Y la parte de atrás debería responder a esa pregunta directamente.
+La guía relacionada sobre [cómo corregir flashcards creadas con IA](/es/blog/how-to-fix-ai-flashcards/) explica con más detalle cómo reparar tarjetas imprecisas, sobrecargadas y duplicadas. Si generar tarjetas sigue ampliando tu cola, aplica las reglas de descarte más estrictas de [Cómo evitar la sobrecarga de flashcards con IA](/es/blog/how-to-avoid-ai-flashcard-overload/).
 
-No con un mini ensayo.
+Puedes pedir ayuda a ChatGPT con esta revisión, pero mantén abierta la fuente y toma tú la decisión final:
 
-No con cinco balas y una condición extra oculta.
+```text
+Compara estas propuestas de tarjetas con la fuente proporcionada.
 
-No con una redacción tan abstracta que tu yo futuro tenga que decodificarla antes incluso de intentar recordarla.
+Para cada ID, responde CONSERVAR, REESCRIBIR, DIVIDIR o ELIMINAR. Explica el problema
+concreto: respuesta sin respaldo, contexto poco claro, más de una idea, respuesta
+demasiado larga, duplicado o poco valor para repasarla más adelante. Cita únicamente
+el fragmento mínimo de la fuente necesario para identificar la ubicación.
 
-## Si la fuente es confusa, pídale a ChatGPT que elabore candidatos, no la verdad final
+No añadas datos nuevos. Si el respaldo está incompleto, indica exactamente qué falta.
+Después, muestra una redacción revisada solo para los elementos marcados como
+REESCRIBIR o DIVIDIR.
+```
 
-Esta es una mejor mentalidad para notas, transcripciones y lecturas copiadas.
+No trates una segunda revisión de la IA como una verificación independiente. Puede repetir el mismo error con una redacción más clara. Verificar significa comparar la respuesta con tu fuente o con otra referencia autorizada adecuada para el caso.
 
-No es necesario que la IA termine el trabajo. Sólo necesita darle materia prima.
+## Prueba las tarjetas antes de guardarlas
 
-Esto es especialmente útil cuando la fuente es:
+Una tarjeta puede parecer clara mientras tienes el reverso a la vista y, aun así, no servir cuando intentas recordar la respuesta. Oculta las respuestas y prueba un grupo pequeño. ChatGPT puede hacer esa comprobación mediante una conversación:
 
-- notas de clase escritas demasiado rápido
-- páginas de libros de texto con demasiada explicación
-- transcripción de fragmentos de una conferencia o video
-- resúmenes de investigaciones con un párrafo útil y cuatro párrafos para aclarar la garganta
+```text
+Ponme a prueba con las propuestas de ID 2, 4, 7, 8 y 11, una pregunta cada vez.
+No muestres el Reverso hasta que responda. Después de cada respuesta, compárala
+únicamente con el Reverso aprobado. Acepta una paráfrasis equivalente; no exijas
+las mismas palabras. Señala qué parte falta o es incorrecta sin añadir datos tomados
+de tus conocimientos generales. Al final, enumera qué tarjetas fueron difíciles de entender
+o evaluar. No crees tarjetas nuevas.
+```
 
-El flujo de trabajo en el que confío es:
+Esta prueba evalúa el anverso de la tarjeta; no es una sesión de repetición espaciada. Estás comprobando si activa de forma fiable la respuesta que buscas. Reescribe las tarjetas confusas; no las conserves solo porque ChatGPT pueda explicar lo que supuestamente querían decir.
 
-1. pegar un trozo estrecho
-2. Solicite candidatos sencillos de adelante/atrás
-3. elimine cualquier cosa vaga inmediatamente
-4. reescribe cualquier cosa demasiado larga
-5. Conserve sólo las cartas que aún respetaría la próxima semana.
+Algunas tareas de aprendizaje deben quedar fuera de las flashcards. Resuelve problemas completos de matemáticas, escribe ensayos, etiqueta diagramas enteros, habla el idioma y practica los procedimientos de varios pasos en su formato real. Una tarjeta puede conservar una fórmula, una diferencia, una pista o un error habitual. No debe sustituir la práctica completa que necesitas aprender.
 
-Eso mantiene al modelo en la parte útil del trabajo.
+## Qué papel desempeña Study Mode
 
-## El control de calidad más rápido es la eliminación brutal
+ChatGPT sin Study Mode funciona bien para el flujo anterior, que va de la fuente a las propuestas. Study Mode resulta más útil cuando quieres recibir tutoría antes de decidir qué guardar.
 
-La gente pasa demasiado tiempo intentando rescatar cartas mediocres.
+La [guía actual de OpenAI sobre Study Mode](https://help.openai.com/en/articles/11780217-study-mode) indica que puede usar como referencia apuntes, diapositivas, lecturas, imágenes y PDF que hayas subido; plantear preguntas de una en una; comprobar si has entendido; y crear repasos con formato de flashcards. OpenAI también advierte que Study Mode puede cometer errores y recomienda comprobar dos veces la información importante.
 
-Yo no lo haría.
+Pídele que primero te guíe y que solo al final proponga tarjetas para las lagunas:
 
-Si una tarjeta generada se siente borrosa en la primera lectura, elimínela.
+```text
+Usa solo las páginas subidas que he indicado. Hazme una pregunta cada vez y espera
+mi respuesta. Dame una pista antes de ofrecer la explicación completa. Anota las
+ideas que yo no recuerde, confunda o no pueda explicar con claridad. No crees
+flashcards durante la lección.
 
-Si la respuesta es demasiado larga, acórtela rápidamente o elimínela.
+Al final, propón tarjetas únicamente para las lagunas importantes. Incluye la página o
+sección de la fuente y marca cualquier incertidumbre. No inventes datos ni guardes
+nada.
+```
 
-Si dos tarjetas prueban la misma idea con una redacción ligeramente diferente, quédese con una.
+Study Mode está disponible en los chats normales y en Temporary Chat, pero no en conversaciones con GPT ni en Projects. [Projects de ChatGPT](https://help.openai.com/en/articles/10169521-using-projects-in-chatgpt) permite mantener juntos archivos, instrucciones y chats para disponer de contexto recurrente, por lo que puede seguir siendo útil para un curso largo. Abre un chat normal cuando quieras usar Study Mode específicamente.
 
-Si el anverso sólo tiene sentido porque todavía recuerdas el pasaje original, reescríbelo o elimínalo.
+La guía complementaria [Cómo convertir Study Mode de ChatGPT en flashcards](/es/blog/how-to-turn-chatgpt-study-mode-into-flashcards/) se centra en la tutoría, los errores y los puntos débiles. Este artículo explica el flujo más amplio que va desde el material original hasta un mazo aprobado.
 
-Suena duro, pero es la forma más rápida de hacer que **crear tarjetas didácticas con IA** sea realmente útil.
+## Devuelve únicamente las tarjetas que hayas aprobado
 
-La mala versión de este flujo de trabajo es generar cincuenta tarjetas y pretender que la cantidad es igual al progreso.
+No pidas a ChatGPT que «lo arregle todo» después de aprobar las tarjetas. Podría añadir otras sin avisar, fusionar elementos o cambiar la redacción de los datos. Dale los ID aceptados y fija el contenido:
 
-La buena versión es conservar doce tarjetas que revisarías de buena gana.
+```text
+Devuelve solo las propuestas aprobadas con los ID 2, 4, 7, 8 y 11.
+Para esos ID, copia exactamente el Anverso y el Reverso aprobados de cada propuesta.
+No añadas, combines, amplíes ni reescribas ningún dato.
 
-## ChatGPT por sí solo no es el sistema de estudio
+Usa esta estructura sencilla para cada tarjeta:
+Anverso: [anverso aprobado]
+Reverso: [reverso aprobado]
 
-Esta es la parte que la gente se salta.
+Separa las tarjetas con una línea en blanco. No incluyas introducción ni conclusión.
+```
 
-No es lo mismo generar tarjetas que aprender de ellas.
+Los bloques sencillos de anverso y reverso son fáciles de revisar y copiar en la mayoría de los editores de tarjetas, aunque cada app tiene sus propias reglas de importación. Si necesitas tabulaciones, CSV u otro formato, pídelo solo después de consultar los requisitos actuales del destino. Conserva una copia del texto sin modificar hasta que hayas verificado las tarjetas guardadas.
 
-Incluso un juego de tarjetas decente se vuelve molesto si el tiempo de revisión es débil, el flujo de edición es torpe o las tarjetas quedan atrapadas dentro del historial de chat, donde no se pueden organizar adecuadamente.
+La app web de Flashcards ofrece un chat con IA que admite archivos adjuntos, y las tarjetas guardadas tienen campos explícitos de anverso y reverso. Tú revisas el contenido propuesto y decides qué se guarda. Puedes completar allí todo el proceso de comprobación de fuentes o copiar en el editor de tarjetas el resultado de ChatGPT que ya hayas aprobado. La [página de funcionalidades](/es/features/) muestra las opciones actuales del producto.
 
-Por eso no creo que **cómo usar ChatGPT para hacer tarjetas didácticas** termine con la generación.
+Si quieres que Codex u otro cliente MCP escriba directamente las tarjetas aprobadas, usa el [flujo específico de estudio con ChatGPT y Codex](/es/blog/how-to-use-chatgpt-codex-for-studying/) y la [documentación del conector MCP](/es/docs/mcp-connector/). Esa integración requiere sus propias comprobaciones de seguridad y aprobación; no hace falta repetirlas aquí. No des por hecho que una conversación normal de ChatGPT tiene acceso directo a tu colección de flashcards.
 
-Termina cuando las tarjetas pasan a una aplicación de tarjetas didácticas real con:
+## El mazo empieza cuando ChatGPT termina
 
-- edición adecuada
-- mazos y etiquetas
-- un flujo de revisión estable
-- un planificador serio
+ChatGPT puede hacerte preguntas en una conversación o crear un repaso con formato de flashcards. Ninguna de estas acciones programa los repasos a lo largo del tiempo. Cuando las tarjetas aprobadas estén en una app de flashcards, haz allí los repasos de verdad: intenta recordar la respuesta, muestra el reverso, evalúa el resultado y deja que el planificador decida cuándo vuelve a aparecer la tarjeta.
 
-Ese último punto importa más que la dramática parte de la IA.
+Flashcards usa FSRS para programar esos repasos. [FSRS frente a SM-2](/es/blog/fsrs-vs-sm-2/) explica la diferencia si quieres conocer los detalles del algoritmo. La división de tareas es sencilla: ChatGPT redacta las propuestas y te ayuda a probarlas; la app de flashcards guarda el historial de repasos y gestiona el calendario.
 
-## FSRS es la parte que convierte los borradores en un flujo de trabajo de estudio real
+Esta división también facilita las correcciones. Si más adelante encuentras un error en la fuente o no te gusta la redacción, corrige o elimina la tarjeta guardada. No dejes una respuesta dudosa en el mazo solo por el tiempo que tardaste en generar la tarjeta.
 
-A la gente le encanta el paso generacional porque se siente mágico.
+## Lista de comprobación final
 
-El paso de revisión es donde reside el valor real.
+Antes de pasar las tarjetas creadas con ChatGPT a una app de flashcards, confirma que:
 
-Si el planificador es débil, incluso las tarjetas sólidas regresan en momentos molestos. Las cartas fáciles abarrotan la cola. Las cartas duras parecen aleatorias. Todo el mazo comienza a comportarse como administrador en lugar de entrenamiento de memoria.
+- cada respuesta tenga una fuente que hayas comprobado;
+- cada anverso evalúe una sola idea identificable;
+- el contexto y los matices necesarios hayan sobrevivido a la reescritura;
+- ninguna tarjeta dependa de que el párrafo original esté visible;
+- hayas eliminado los duplicados y los detalles de poco valor;
+- la práctica con problemas completos siga formando parte de tu plan de estudio;
+- el resultado final contenga solo las tarjetas aprobadas;
+- los repasos programados se hagan en una app de flashcards, no en el historial del chat.
 
-Es por eso que las **tarjetas didácticas FSRS** son importantes aquí.
-
-Redacta las cartas con IA si quieres. Bien.
-
-Pero luego deje que un programador real maneje la repetición correctamente.
-
-Si desea conocer la programación con más detalle, este artículo complementario es más profundo:
-
-- [FSRS vs SM-2 en 2026: ¿Qué algoritmo de repetición espaciada le ayuda a recordar más?](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
-
-## Dónde encaja Flashcards en este flujo de trabajo
-
-[Flashcards](https://flashcards-open-source-app.com/) es una buena opción para **ChatGPT flashcards** porque cubre la parte que el chat por sí solo no resuelve:
-
-- una aplicación de tarjetas didácticas real en lugar de un hilo de chat que pretende serlo
-- estructura de tarjeta frontal/posterior
-- mazos y etiquetas
-- primer estudio fuera de línea
-- Programación de revisión de FSRS
-- sincronización opcional y funciones de IA opcionales
-
-Esa combinación es importante porque el flujo de trabajo se vuelve más limpio.
-
-Utilice IA para redactar.
-
-Edita las tarjetas como una persona seria.
-
-Luego revíselos en un sistema diseñado para recordarlos en lugar de conversar.
-
-## Esto funciona especialmente bien para tres casos de uso
-
-Creo que las tarjetas didácticas generadas por IA son más potentes cuando la mayor parte del material de origen ya está ahí y principalmente necesitas ayuda para convertirlo en indicaciones más limpias.
-
-Los tres casos que más me gustan son:
-
-- notas de clase que necesitan compresión
-- secciones de lectura copiadas que necesitan extracción
-- esquemas de estudio aproximados que necesitan una redacción de preguntas más clara
-
-Si su fuente es un PDF, este artículo complementario es la mejor opción:
-
-- [Cómo convertir un PDF en tarjetas didácticas en 2026](https://flashcards-open-source-app.com/blog/how-to-turn-a-pdf-into-flashcards/)
-
-Si su fuente son notas simples, esta encaja mejor:
-
-- [Cómo convertir notas en tarjetas didácticas en 2026](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
-
-## La mejor regla
-
-No le pidas a ChatGPT que termine tus estudios por ti.
-
-Pídale que retire la parte administrativa.
-
-Esa es la versión de **cómo usar ChatGPT para crear tarjetas didácticas** en la que realmente confío. Entrada estrecha. Aviso sencillo. Edición agresiva. Revisión real después.
-
-Si eso es lo que quieres, empieza aquí:
-
-- [Abrir tarjetas didácticas](https://flashcards-open-source-app.com/)
-- [Abre la aplicación](https://app.flashcards-open-source-app.com/)
-- [Lea la guía de autohospedaje](https://flashcards-open-source-app.com/docs/self-hosting/)
-- [Ver la fuente en GitHub](https://github.com/kirill-markin/flashcards-open-source-app)
-
-ChatGPT puede ayudarte absolutamente a crear tarjetas didácticas.
-
-Simplemente no debería ser el lugar final donde vivan las cartas.
+La forma más fiable de **crear flashcards con ChatGPT** es un poco menos automática de lo que sugiere la expresión «generador de flashcards con IA». Eso juega a tu favor. Deja que ChatGPT proponga contenido y te ahorre trabajo repetitivo. Mantén en manos humanas la comprobación de la fuente, la selección de tarjetas y las decisiones de repaso. Cuando el mazo más pequeño que supere este filtro vuelva a tu cola de repaso, te resultará mucho más fácil confiar en él.
