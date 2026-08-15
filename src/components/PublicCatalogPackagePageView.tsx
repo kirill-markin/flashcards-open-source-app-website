@@ -282,6 +282,14 @@ export async function PublicCatalogPackagePageView({
                     </dd>
                   </div>
                   <div className={styles.fact}>
+                    <dt>{copy.lastUpdatedLabel}</dt>
+                    <dd>
+                      <time dateTime={latestVersion.updatedAt}>
+                        {formatPublicCatalogDate(locale, latestVersion.updatedAt)}
+                      </time>
+                    </dd>
+                  </div>
+                  <div className={styles.fact}>
                     <dt>{copy.licenseLabel}</dt>
                     <dd>{latestVersion.license}</dd>
                   </div>

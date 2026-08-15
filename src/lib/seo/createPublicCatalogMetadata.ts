@@ -41,6 +41,7 @@ interface CreatePublicCatalogMetadataParams {
   readonly description: string;
   readonly image: PublicCatalogCoverImage | null;
   readonly locale: AppLocale;
+  readonly modifiedTime: string | null;
   readonly publishedTime: string | null;
   readonly routePathname: string;
   readonly title: string;
@@ -78,6 +79,7 @@ export function createPublicCatalogMetadata(
             type: params.image.mimeType,
             url: params.image.downloadUrl,
           }],
+      modifiedTime: params.modifiedTime ?? undefined,
       publishedTime: params.publishedTime ?? undefined,
     },
     twitter: {
@@ -101,6 +103,7 @@ export function createPublicCatalogRootMetadata(locale: AppLocale): Metadata {
     description: copy.intro,
     image: null,
     locale,
+    modifiedTime: null,
     publishedTime: null,
     routePathname: PUBLIC_CATALOG_ROUTE_PATHNAME,
     title: copy.title,
@@ -115,6 +118,7 @@ export function createPublicCatalogAuthorsMetadata(locale: AppLocale): Metadata 
     description: copy.authorsIntro,
     image: null,
     locale,
+    modifiedTime: null,
     publishedTime: null,
     routePathname: PUBLIC_CATALOG_AUTHORS_ROUTE_PATHNAME,
     title: copy.authorsTitle,
@@ -129,6 +133,7 @@ export function createPublicCatalogCollectionsMetadata(locale: AppLocale): Metad
     description: copy.collectionsIntro,
     image: null,
     locale,
+    modifiedTime: null,
     publishedTime: null,
     routePathname: PUBLIC_CATALOG_COLLECTIONS_ROUTE_PATHNAME,
     title: copy.collectionsTitle,
@@ -150,6 +155,7 @@ export function createPublicCatalogPackageMetadata(
       packageView.coverMediaAsset,
     ),
     locale,
+    modifiedTime: latestVersion.updatedAt,
     publishedTime: packageMetadata.publishedAt,
     routePathname: getPublicCatalogPackageRoutePathname(packageMetadata.slug),
     title: latestVersion.title,
@@ -169,6 +175,7 @@ export function createPublicCatalogAuthorMetadata(
       : author.bio,
     image: null,
     locale,
+    modifiedTime: null,
     publishedTime: null,
     routePathname: getPublicCatalogAuthorRoutePathname(author.slug),
     title: interpolatePublicCatalogCopy(
@@ -190,6 +197,7 @@ export function createPublicCatalogCollectionMetadata(
     description: collection.summary === "" ? copy.collectionsIntro : collection.summary,
     image: null,
     locale,
+    modifiedTime: collection.updatedAt,
     publishedTime: collection.publishedAt,
     routePathname: getPublicCatalogCollectionRoutePathname(collection.slug),
     title: collection.title,
@@ -212,6 +220,7 @@ export function createPublicCatalogFacetMetadata(
     ),
     image: null,
     locale,
+    modifiedTime: null,
     publishedTime: null,
     routePathname: getPublicCatalogLanguageRoutePathname(tag),
     title: interpolatePublicCatalogCopy(
