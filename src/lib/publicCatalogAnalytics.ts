@@ -8,8 +8,7 @@ export type PublicCatalogFilterCategory =
   | "author"
   | "collection"
   | "language"
-  | "license"
-  | "topic";
+  | "license";
 
 export type PublicCatalogFilterAction =
   | "add"

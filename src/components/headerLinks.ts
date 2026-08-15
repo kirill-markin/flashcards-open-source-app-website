@@ -3,7 +3,7 @@ import { DASHBOARDS_ROUTE_PATHNAME } from "@/lib/dashboardsPage";
 import { getAvailableLocalizedPathname } from "@/lib/routeTranslations";
 import { isPublicCatalogEnabled } from "@/lib/publicCatalogBuild";
 import { getPublicCatalogUiCopy } from "@/lib/publicCatalogCopy";
-import { PUBLIC_CATALOG_ROUTE_PATHNAME } from "@/lib/publicCatalogUrls";
+import { getPublicCatalogRootUrl } from "@/lib/publicCatalogUrls";
 import { getUiCopy } from "@/lib/uiCopy";
 
 export interface HeaderLink {
@@ -16,10 +16,7 @@ export function getHeaderLinks(locale: AppLocale): ReadonlyArray<HeaderLink> {
   const catalogLinks: ReadonlyArray<HeaderLink> = isPublicCatalogEnabled()
     ? [
       {
-        href: getAvailableLocalizedPathname(
-          locale,
-          PUBLIC_CATALOG_ROUTE_PATHNAME,
-        ),
+        href: getPublicCatalogRootUrl(locale),
         label: getPublicCatalogUiCopy(locale).navigationLabel,
       },
     ]

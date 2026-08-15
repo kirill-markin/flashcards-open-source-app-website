@@ -4,7 +4,7 @@ import {
   canonicalizeHttpsUrl,
 } from "./markdownLinks";
 import {
-  publicCatalogSchemaVersion,
+  publicCatalogSchemaVersions,
   type PublicCatalogAuthor,
   type PublicCatalogCard,
   type PublicCatalogCollection,
@@ -13,6 +13,7 @@ import {
   type PublicCatalogMediaAsset,
   type PublicCatalogPackage,
   type PublicCatalogPackageVersion,
+  type PublicCatalogSchemaVersion,
 } from "./publicCatalogTypes";
 
 type MarkdownAstNode = Readonly<{
@@ -168,6 +169,20 @@ function assertPublishedStatus(value: unknown, context: string): "published" {
   return value;
 }
 
+function assertSchemaVersion(value: unknown): PublicCatalogSchemaVersion {
+  const schemaVersion = publicCatalogSchemaVersions.find(
+    (supportedVersion) => supportedVersion === value,
+  );
+
+  if (schemaVersion === undefined) {
+    throw new Error(
+      `Public catalog schemaVersion must be one of ${publicCatalogSchemaVersions.join(", ")}, received ${String(value)}.`,
+    );
+  }
+
+  return schemaVersion;
+}
+
 function assertNoRawHtmlNode(node: MarkdownAstNode, context: string): void {
   if (node.type === "html") {
     throw new Error(`Public catalog ${context} must not contain raw HTML.`);
@@ -260,11 +275,6 @@ function parsePackageVersion(value: unknown, index: number): PublicCatalogPackag
       `${context}.languageTags`,
       assertFacetTag,
     ),
-    topicTags: parseUniqueStringArray(
-      record.topicTags,
-      `${context}.topicTags`,
-      assertFacetTag,
-    ),
     license: assertNonEmptyString(record.license, `${context}.license`),
     contentWarning: assertNullableString(record.contentWarning, `${context}.contentWarning`),
     coverMediaAssetId: record.coverMediaAssetId === null
@@ -339,11 +349,6 @@ function parseCollection(value: unknown, index: number): PublicCatalogCollection
     languageTags: parseUniqueStringArray(
       record.languageTags,
       `${context}.languageTags`,
-      assertFacetTag,
-    ),
-    topicTags: parseUniqueStringArray(
-      record.topicTags,
-      `${context}.topicTags`,
       assertFacetTag,
     ),
     coverPackageId: record.coverPackageId === null
@@ -651,15 +656,10 @@ function assertUniqueness(dump: PublicCatalogDump): void {
 
 export function parsePublicCatalogDump(value: unknown): PublicCatalogDump {
   const record = assertRecord(value, "root");
-
-  if (record.schemaVersion !== publicCatalogSchemaVersion) {
-    throw new Error(
-      `Public catalog schemaVersion must be ${publicCatalogSchemaVersion}, received ${String(record.schemaVersion)}.`,
-    );
-  }
+  const schemaVersion = assertSchemaVersion(record.schemaVersion);
 
   const dump: PublicCatalogDump = {
-    schemaVersion: publicCatalogSchemaVersion,
+    schemaVersion,
     generatedAt: assertCanonicalUtcTimestamp(record.generatedAt, "generatedAt"),
     authors: assertArray(record.authors, "authors").map(parseAuthor),
     packages: assertArray(record.packages, "packages").map(parsePackage),

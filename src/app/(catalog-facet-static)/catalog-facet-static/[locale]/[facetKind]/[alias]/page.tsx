@@ -3,13 +3,9 @@ import { notFound } from "next/navigation";
 import { PublicCatalogFacetPageView } from "@/components/PublicCatalogFacetPageView";
 import {
   listPublicCatalogLanguageTags,
-  listPublicCatalogTopicTags,
   readPublicCatalog,
 } from "@/lib/publicCatalogData";
-import {
-  getPublicCatalogPackagesByLanguageTag,
-  getPublicCatalogPackagesByTopicTag,
-} from "@/lib/publicCatalogReadModel";
+import { getPublicCatalogPackagesByLanguageTag } from "@/lib/publicCatalogReadModel";
 import {
   assertUniquePublicCatalogFacetAliases,
   getPublicCatalogFacetAlias,
@@ -29,7 +25,6 @@ interface FacetDefinition {
 function listFacetDefinitions(): ReadonlyArray<FacetDefinition> {
   return [
     { facetKind: "language", tags: listPublicCatalogLanguageTags() },
-    { facetKind: "topic", tags: listPublicCatalogTopicTags() },
   ];
 }
 
@@ -60,7 +55,6 @@ interface PageProps {
 }
 
 async function resolveFacet(params: PageProps["params"]): Promise<{
-  readonly facetKind: PublicCatalogFacetKind;
   readonly locale: (typeof SUPPORTED_LOCALES)[number];
   readonly tag: string;
 }> {
@@ -68,46 +62,41 @@ async function resolveFacet(params: PageProps["params"]): Promise<{
 
   if (
     isSupportedLocale(locale) === false
-    || (facetKind !== "language" && facetKind !== "topic")
+    || facetKind !== "language"
   ) {
     notFound();
   }
 
-  const tags = facetKind === "language"
-    ? listPublicCatalogLanguageTags()
-    : listPublicCatalogTopicTags();
+  const tags = listPublicCatalogLanguageTags();
   const tag = resolvePublicCatalogFacetAlias(alias, facetKind, tags);
 
   if (tag === undefined) {
     notFound();
   }
 
-  return { facetKind, locale, tag };
+  return { locale, tag };
 }
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
-  const { facetKind, locale, tag } = await resolveFacet(params);
+  const { locale, tag } = await resolveFacet(params);
 
-  return createPublicCatalogFacetMetadata(locale, facetKind, tag);
+  return createPublicCatalogFacetMetadata(locale, tag);
 }
 
 export default async function PublicCatalogFacetStaticPage({
   params,
 }: PageProps): Promise<React.JSX.Element> {
-  const { facetKind, locale, tag } = await resolveFacet(params);
+  const { locale, tag } = await resolveFacet(params);
   const catalog = readPublicCatalog();
 
   if (catalog === null) {
     notFound();
   }
 
-  const packages = facetKind === "language"
-    ? getPublicCatalogPackagesByLanguageTag(catalog, tag)
-    : getPublicCatalogPackagesByTopicTag(catalog, tag);
+  const packages = getPublicCatalogPackagesByLanguageTag(catalog, tag);
 
   return (
     <PublicCatalogFacetPageView
-      facetKind={facetKind}
       locale={locale}
       packages={packages}
       tag={tag}

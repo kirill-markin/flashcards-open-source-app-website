@@ -60,7 +60,6 @@ import {
   getPublicCatalogPackagesByAuthorSlug,
   getPublicCatalogPackagesByCollectionSlug,
   getPublicCatalogPackagesByLanguageTag,
-  getPublicCatalogPackagesByTopicTag,
 } from "./publicCatalogReadModel";
 import type { PublicCatalogDump } from "./publicCatalogTypes";
 import {
@@ -68,7 +67,7 @@ import {
   getPublicCatalogCollectionRoutePathname,
   getPublicCatalogLanguageRoutePathname,
   getPublicCatalogPackageRoutePathname,
-  getPublicCatalogTopicRoutePathname,
+  getPublicCatalogRootUrl,
   PUBLIC_CATALOG_AUTHORS_ROUTE_PATHNAME,
   PUBLIC_CATALOG_COLLECTIONS_ROUTE_PATHNAME,
   isPublicCatalogPageRoutePathname,
@@ -82,6 +81,7 @@ import {
   resolvePublicCatalogFacetAlias,
 } from "./publicCatalogStaticAssets";
 import { createPublicCatalogSitemapEntries } from "./publicCatalogSitemap";
+import { getLocaleSwitcherEntries } from "./routeTranslations";
 import {
   createPublicCatalogPackageMetadata,
   createPublicCatalogRootMetadata,
@@ -206,7 +206,6 @@ function createValidDump(): PublicCatalogDumpFixture {
         summary: "Old version summary",
         description: "Old version description",
         languageTags: ["old-language"],
-        topicTags: ["old-topic"],
         license: "Old license",
         contentWarning: "Old warning",
         coverMediaAssetId: fixtureOldMediaId,
@@ -225,7 +224,6 @@ function createValidDump(): PublicCatalogDumpFixture {
         summary: "Canonical package summary",
         description: "Canonical **package** description",
         languageTags: ["en", "es"],
-        topicTags: ["grammar"],
         license: "CC0-1.0",
         contentWarning: null,
         coverMediaAssetId: fixtureCoverMediaId,
@@ -310,7 +308,6 @@ function createValidDump(): PublicCatalogDumpFixture {
         summary: "Collection summary",
         description: "Collection **description**",
         languageTags: ["en"],
-        topicTags: ["grammar"],
         coverPackageId: fixturePackageId,
         status: "published",
         updatedAt: "2026-08-02T11:30:00.000Z",
@@ -326,6 +323,42 @@ function createValidDump(): PublicCatalogDumpFixture {
     ],
   };
 }
+
+test("accepts schema v1 and v2 while ignoring obsolete v1 topic fields", () => {
+  const v1Input = createValidDump();
+  const v1Dump = parsePublicCatalogDump({
+    ...v1Input,
+    packageVersions: v1Input.packageVersions.map((version) => ({
+      ...version,
+      topicTags: "obsolete-topic",
+    })),
+    collections: v1Input.collections.map((collection) => ({
+      ...collection,
+      topicTags: "obsolete-topic",
+    })),
+  });
+  const v2Dump = parsePublicCatalogDump({
+    ...createValidDump(),
+    schemaVersion: 2,
+  });
+  const v1Version = v1Dump.packageVersions[0];
+  const v1Collection = v1Dump.collections[0];
+
+  assert.ok(v1Version);
+  assert.ok(v1Collection);
+  assert.equal(v1Dump.schemaVersion, 1);
+  assert.equal(v2Dump.schemaVersion, 2);
+  assert.equal("topicTags" in v1Version, false);
+  assert.equal("topicTags" in v1Collection, false);
+  assert.equal(
+    JSON.stringify(createPublicCatalogReadModel(v1Dump)).includes("obsolete-topic"),
+    false,
+  );
+  assert.throws(
+    () => parsePublicCatalogDump({ ...createValidDump(), schemaVersion: 3 }),
+    /schemaVersion must be one of 1, 2, received 3/,
+  );
+});
 
 test("parses the schema and builds latest-version-only lookup data", () => {
   const dump = parsePublicCatalogDump(createValidDump());
@@ -345,7 +378,7 @@ test("parses the schema and builds latest-version-only lookup data", () => {
   );
   assert.equal(packageView.coverMediaAsset?.packageMediaAssetId, fixtureCoverMediaId);
   assert.deepEqual(
-    createPublicCatalogBrowseData(model).packages[0].packageView.coverMediaAsset,
+    createPublicCatalogBrowseData(model, "en").packages[0].packageView.coverMediaAsset,
     {
       altText: "Cover image",
       downloadUrl:
@@ -377,9 +410,11 @@ test("parses the schema and builds latest-version-only lookup data", () => {
     dump.collections[0],
   ]);
   assert.deepEqual(getPublicCatalogPackagesByLanguageTag(model, "es"), [packageView]);
-  assert.deepEqual(getPublicCatalogPackagesByTopicTag(model, "grammar"), [packageView]);
   assert.deepEqual(model.languageTags, ["en", "es"]);
-  assert.deepEqual(model.topicTags, ["grammar"]);
+  assert.deepEqual(
+    createPublicCatalogBrowseData(model, "de").languages,
+    ["de", "en", "es"],
+  );
 });
 
 test("overrides only the U.S. citizenship package title in the website read model", () => {
@@ -511,7 +546,6 @@ test("never renders or indexes an older emitted package version", () => {
 
   assert.ok(packageView);
   assert.deepEqual(model.languageTags, ["en", "es"]);
-  assert.deepEqual(model.topicTags, ["grammar"]);
   assert.deepEqual(
     packageView.cards.map((card) => card.packageCardId),
     [fixtureFirstCardId, fixtureSecondCardId],
@@ -521,7 +555,7 @@ test("never renders or indexes an older emitted package version", () => {
     [fixtureCoverMediaId, fixtureInlineMediaId],
   );
 
-  const browseRecord = JSON.stringify(createPublicCatalogBrowseData(model));
+  const browseRecord = JSON.stringify(createPublicCatalogBrowseData(model, "en"));
   const markdown = renderPublicCatalogMarkdownDocument(
     "catalog/packages/canonical-package",
     model,
@@ -545,7 +579,6 @@ test("never renders or indexes an older emitted package version", () => {
     assert.equal(renderedOutput.includes("Old version title"), false);
     assert.equal(renderedOutput.includes("Old version summary"), false);
     assert.equal(renderedOutput.includes("old-language"), false);
-    assert.equal(renderedOutput.includes("old-topic"), false);
     assert.equal(renderedOutput.includes(`/catalog/import/${fixtureOldVersionId}`), false);
     assert.equal(
       renderedOutput.includes(`/package-versions/${fixtureOldVersionId}/media-assets/old.webp`),
@@ -575,7 +608,6 @@ test("keeps collection packages in membership ordinal order", () => {
     summary: "Second summary",
     description: "Second description",
     languageTags: ["fr"],
-    topicTags: ["history"],
     license: "CC0-1.0",
     contentWarning: null,
     coverMediaAssetId: null,
@@ -622,7 +654,6 @@ test("accepts a public collection cover that is not a collection member", () => 
     summary: "Second summary",
     description: "Second description",
     languageTags: ["fr"],
-    topicTags: ["history"],
     license: "CC0-1.0",
     contentWarning: null,
     coverMediaAssetId: null,
@@ -639,8 +670,7 @@ test("accepts a public collection cover that is not a collection member", () => 
 test("creates escaped catalog JSON-LD from canonical read-model entities", () => {
   const input = createValidDump();
   input.authors[0].displayName = "Author < One";
-  input.packageVersions[1].topicTags = ["world history"];
-  input.collections[0].topicTags = ["world history"];
+  input.packageVersions[1].languageTags = ["en", "world history"];
   const model = createPublicCatalogReadModel(parsePublicCatalogDump(input));
   const packageView = getPublicCatalogPackageBySlug(model, "canonical-package");
   const collection = getPublicCatalogCollectionBySlug(model, "starter-collection");
@@ -665,8 +695,8 @@ test("creates escaped catalog JSON-LD from canonical read-model entities", () =>
     "https://flashcards-open-source-app.com/es/catalog/packages/canonical-package/",
   );
   assert.equal(packageResource.collectionSize, 2);
-  assert.deepEqual(packageResource.inLanguage, ["en", "es"]);
-  assert.deepEqual(packageResource.keywords, ["world history"]);
+  assert.deepEqual(packageResource.inLanguage, ["en", "world history"]);
+  assert.equal("keywords" in packageResource, false);
   assert.deepEqual(packageResource.license, {
     "@type": "CreativeWork",
     name: "CC0-1.0",
@@ -691,7 +721,7 @@ test("creates escaped catalog JSON-LD from canonical read-model entities", () =>
   assert.equal(quiz["@type"], "Quiz");
   assert.deepEqual(
     quiz.about.map((about) => about.name),
-    ["Canonical package title", "world history"],
+    ["Canonical package title"],
   );
   assert.deepEqual(
     quiz.hasPart.map((question) => ({
@@ -732,6 +762,13 @@ test("creates escaped catalog JSON-LD from canonical read-model entities", () =>
     rootItemList.itemListElement[0]?.item.url,
     "https://flashcards-open-source-app.com/catalog/packages/canonical-package/",
   );
+  const emptyLocalizedRootItemList = createPublicCatalogRootJsonLd(
+    model,
+    "de",
+  )["@graph"][1];
+
+  assert.equal(emptyLocalizedRootItemList.numberOfItems, 0);
+  assert.deepEqual(emptyLocalizedRootItemList.itemListElement, []);
 
   const collectionSchema = createPublicCatalogCollectionJsonLd(
     collection,
@@ -758,15 +795,14 @@ test("creates escaped catalog JSON-LD from canonical read-model entities", () =>
   assert.equal(JSON.stringify(authorSchema).includes("Organization"), false);
 
   const facetSchema = createPublicCatalogFacetJsonLd(
-    "topic",
     "de",
     model.packages,
-    "world history",
+    "en",
   );
 
   assert.equal(
     facetSchema["@graph"][0].url,
-    "https://flashcards-open-source-app.com/de/catalog/topics/world%20history/",
+    "https://flashcards-open-source-app.com/de/catalog/languages/en/",
   );
 
   const serializedSchema = serializeStructuredData(packageSchema);
@@ -778,8 +814,8 @@ test("creates escaped catalog JSON-LD from canonical read-model entities", () =>
 
 test("creates deterministic localized catalog sitemap entries from real timestamps", () => {
   const input = createValidDump();
-  input.packageVersions[1].topicTags = ["world history"];
-  input.collections[0].topicTags = ["world history"];
+  input.packageVersions[1].languageTags = ["en", "world history"];
+  input.collections[0].languageTags = ["world history"];
   input.packageVersions[1].publishedAt = "2026-08-03T09:00:00.000Z";
   input.packageVersions[1].updatedAt = "2026-08-03T09:00:00.000Z";
   const model = createPublicCatalogReadModel(parsePublicCatalogDump(input));
@@ -798,10 +834,10 @@ test("creates deterministic localized catalog sitemap entries from real timestam
   const languageFacetUrl =
     "https://flashcards-open-source-app.com/catalog/languages/en/";
   const percentFacetUrl =
-    "https://flashcards-open-source-app.com/ja/catalog/topics/world%20history/";
+    "https://flashcards-open-source-app.com/ja/catalog/languages/world%20history/";
   const latestVersionUpdatedAt = "2026-08-03T09:00:00.000Z";
 
-  assert.equal(entries.length, 72);
+  assert.equal(entries.length, 64);
   assert.equal(entryByUrl.get(rootUrl)?.lastModified, latestVersionUpdatedAt);
   assert.equal(entryByUrl.get(packageUrl)?.lastModified, latestVersionUpdatedAt);
   assert.equal(entryByUrl.get(authorUrl)?.lastModified, latestVersionUpdatedAt);
@@ -819,11 +855,11 @@ test("creates deterministic localized catalog sitemap entries from real timestam
   assert.ok(entryByUrl.has(percentFacetUrl));
   assert.equal(
     entryByUrl.get(percentFacetUrl)?.alternates?.languages?.es,
-    "https://flashcards-open-source-app.com/es/catalog/topics/world%20history/",
+    "https://flashcards-open-source-app.com/es/catalog/languages/world%20history/",
   );
   assert.equal(
     entryByUrl.get(percentFacetUrl)?.alternates?.languages?.["x-default"],
-    "https://flashcards-open-source-app.com/catalog/topics/world%20history/",
+    "https://flashcards-open-source-app.com/catalog/languages/world%20history/",
   );
   assert.equal(entries.some((entry) => entry.url.includes("?")), false);
   assert.equal(entries.some((entry) => entry.url.includes("/import/")), false);
@@ -831,22 +867,18 @@ test("creates deterministic localized catalog sitemap entries from real timestam
   assert.equal(entries.some((entry) => entry.url.includes("download-url")), false);
 });
 
-test("includes collection-only tags in static facets without inventing package membership", () => {
+test("includes collection-only languages in static facets without inventing package membership", () => {
   const input = createValidDump();
   input.collections[0].languageTags = ["zz"];
-  input.collections[0].topicTags = ["collection-only"];
 
   const model = createPublicCatalogReadModel(parsePublicCatalogDump(input));
 
   assert.deepEqual(model.languageTags, ["en", "es", "zz"]);
-  assert.deepEqual(model.topicTags, ["collection-only", "grammar"]);
   assert.deepEqual(getPublicCatalogPackagesByLanguageTag(model, "zz"), []);
-  assert.deepEqual(getPublicCatalogPackagesByTopicTag(model, "collection-only"), []);
 
-  const browseData = createPublicCatalogBrowseData(model);
+  const browseData = createPublicCatalogBrowseData(model, "en");
 
   assert.deepEqual(browseData.languages, ["en", "es"]);
-  assert.deepEqual(browseData.topics, ["grammar"]);
   assert.equal("description" in browseData.packages[0].packageView.packageMetadata, false);
   assert.equal("cards" in browseData.packages[0].packageView, false);
   assert.equal("mediaAssets" in browseData.packages[0].packageView, false);
@@ -854,7 +886,7 @@ test("includes collection-only tags in static facets without inventing package m
   const sitemapEntries = createPublicCatalogSitemapEntries(model);
   const collectionOnlyFacet = sitemapEntries.find(
     (entry) => entry.url
-      === "https://flashcards-open-source-app.com/catalog/topics/collection-only/",
+      === "https://flashcards-open-source-app.com/catalog/languages/zz/",
   );
 
   assert.equal(
@@ -887,7 +919,7 @@ test("excludes orphan authors and collections from browse controls", () => {
       [orphanCollection.slug, orphanCollection] as const,
     ]),
   };
-  const browseData = createPublicCatalogBrowseData(modelWithOrphanCollection);
+  const browseData = createPublicCatalogBrowseData(modelWithOrphanCollection, "en");
 
   assert.deepEqual(browseData.authors, [
     { value: "author-one", label: "Author One" },
@@ -954,16 +986,12 @@ test("allows Markdown and autolinks but rejects raw HTML", () => {
   );
 });
 
-test("rejects URL dot segments in every package and collection facet field", () => {
+test("rejects URL dot segments in package and collection language fields", () => {
   const cases = [
     { entity: "packageVersions", field: "languageTags", value: "." },
     { entity: "packageVersions", field: "languageTags", value: ".." },
-    { entity: "packageVersions", field: "topicTags", value: "." },
-    { entity: "packageVersions", field: "topicTags", value: ".." },
     { entity: "collections", field: "languageTags", value: "." },
     { entity: "collections", field: "languageTags", value: ".." },
-    { entity: "collections", field: "topicTags", value: "." },
-    { entity: "collections", field: "topicTags", value: ".." },
   ] as const;
 
   cases.forEach(({ entity, field, value }) => {
@@ -998,16 +1026,12 @@ test("accepts non-segment facet values that contain dots or collision characters
   const input = createValidDump();
 
   input.packageVersions[1].languageTags = validTags;
-  input.packageVersions[1].topicTags = validTags;
   input.collections[0].languageTags = validTags;
-  input.collections[0].topicTags = validTags;
 
   const dump = parsePublicCatalogDump(input);
 
   assert.deepEqual(dump.packageVersions[1]?.languageTags, validTags);
-  assert.deepEqual(dump.packageVersions[1]?.topicTags, validTags);
   assert.deepEqual(dump.collections[0]?.languageTags, validTags);
-  assert.deepEqual(dump.collections[0]?.topicTags, validTags);
 });
 
 test("rejects raw and recursively encoded controls or backslashes in every facet field", () => {
@@ -1024,9 +1048,7 @@ test("rejects raw and recursively encoded controls or backslashes in every facet
   ];
   const fields = [
     { entity: "packageVersions", field: "languageTags" },
-    { entity: "packageVersions", field: "topicTags" },
     { entity: "collections", field: "languageTags" },
-    { entity: "collections", field: "topicTags" },
   ] as const;
 
   fields.forEach(({ entity, field }) => {
@@ -1054,11 +1076,11 @@ test("rejects raw and recursively encoded controls or backslashes in every facet
 
 test("rejects ill-formed Unicode before creating static facet aliases", () => {
   const packageInput = createValidDump();
-  packageInput.packageVersions[1].topicTags = ["broken-\uD800"];
+  packageInput.packageVersions[1].languageTags = ["broken-\uD800"];
 
   assert.throws(
     () => parsePublicCatalogDump(packageInput),
-    /packageVersions\[1\]\.topicTags\[0\] must be well-formed Unicode/,
+    /packageVersions\[1\]\.languageTags\[0\] must be well-formed Unicode/,
   );
 
   const collectionInput = createValidDump();
@@ -1230,8 +1252,8 @@ test("builds canonical catalog destinations and identifies current catalog pages
   ambiguousTags.forEach((tag) => {
     assert.equal(
       resolvePublicCatalogFacetAlias(
-        getPublicCatalogFacetAlias("topic", tag),
-        "topic",
+        getPublicCatalogFacetAlias("language", tag),
+        "language",
         ambiguousTags,
       ),
       tag,
@@ -1254,25 +1276,23 @@ test("builds canonical catalog destinations and identifies current catalog pages
     "/catalog/languages/pt-BR/",
   );
   assert.equal(
-    getPublicCatalogTopicRoutePathname("world history"),
-    "/catalog/topics/world%20history/",
-  );
-  assert.equal(
-    getPublicCatalogTopicRoutePathname("a.b"),
-    "/catalog/topics/a%2Eb/",
-  );
-  assert.equal(
     getPublicCatalogLanguageRoutePathname("a.b"),
     "/catalog/languages/a%2Eb/",
   );
   assert.equal(resolvePublicCatalogRouteSegment("a%2Eb", ["a.b"]), "a.b");
   assert.match(
-    getPublicCatalogFacetInternalPathname("es", "topic", "history world"),
-    /^\/catalog-facet-static\/es\/topic\/[0-9a-f]{64}\/$/,
+    getPublicCatalogFacetInternalPathname("es", "language", "history world"),
+    /^\/catalog-facet-static\/es\/language\/[0-9a-f]{64}\/$/,
   );
-  assert.notEqual(
-    getPublicCatalogFacetAlias("language", "history world"),
-    getPublicCatalogFacetAlias("topic", "history world"),
+  assert.equal(getPublicCatalogRootUrl("en"), "/catalog/?language=en");
+  assert.equal(getPublicCatalogRootUrl("es"), "/es/catalog/?language=es");
+  assert.equal(
+    getLocaleSwitcherEntries("/catalog/").find((entry) => entry.locale === "es")?.href,
+    "/es/catalog/?language=es",
+  );
+  assert.equal(
+    getLocaleSwitcherEntries("/features/").find((entry) => entry.locale === "es")?.href,
+    "/es/features/",
   );
   assert.equal(isPublicCatalogPageRoutePathname("/catalog/"), true);
   assert.equal(
@@ -1286,21 +1306,21 @@ test("builds canonical catalog destinations and identifies current catalog pages
   assert.equal(isPublicCatalogPageRoutePathname(PUBLIC_CATALOG_AUTHORS_ROUTE_PATHNAME), true);
   assert.equal(isPublicCatalogPageRoutePathname(PUBLIC_CATALOG_COLLECTIONS_ROUTE_PATHNAME), true);
   assert.equal(isPublicCatalogPageRoutePathname("/catalog/languages/pt-BR/"), true);
-  assert.equal(isPublicCatalogPageRoutePathname("/catalog/topics/world%20history/"), true);
+  assert.equal(isPublicCatalogPageRoutePathname("/catalog/topics/world%20history/"), false);
 });
 
 test("keeps public alias-looking facet values distinct from internal static params", () => {
   const input = createValidDump();
   const collisionTags = ["__facet_invalid", "__facet_6869", "hi", "日本語 (100%)"];
 
-  input.packageVersions[1].topicTags = collisionTags;
-  input.collections[0].topicTags = collisionTags;
+  input.packageVersions[1].languageTags = collisionTags;
+  input.collections[0].languageTags = collisionTags;
 
   const model = createPublicCatalogReadModel(parsePublicCatalogDump(input));
   const pagePaths = listPublicCatalogMarkdownPagePaths(model);
 
   collisionTags.forEach((tag) => {
-    const publicPagePath = `catalog/topics/${encodeURIComponent(tag)}`;
+    const publicPagePath = `catalog/languages/${encodeURIComponent(tag)}`;
     const markdown = renderPublicCatalogMarkdownDocument(publicPagePath, model)?.markdown;
 
     assert.ok(pagePaths.includes(publicPagePath));
@@ -1333,9 +1353,10 @@ test("renders useful localized catalog Markdown from the public read model", () 
     model,
   );
 
-  assert.equal(pagePaths.length, 72);
+  assert.equal(pagePaths.length, 64);
   assert.ok(pagePaths.includes("catalog/packages/canonical-package"));
-  assert.ok(pagePaths.includes("zh/catalog/topics/grammar"));
+  assert.ok(pagePaths.includes("zh/catalog/languages/en"));
+  assert.equal(pagePaths.some((pagePath) => pagePath.includes("/topics/")), false);
   assert.ok(packageDocument);
   assert.equal(packageDocument.locale, "es");
   assert.equal(
@@ -1470,21 +1491,21 @@ test("projects normalized card Markdown to complete ordered plain text", () => {
 
 test("renders safe canonical links for authored URLs and delimiter-looking facet paths", () => {
   const input = createValidDump();
-  const topicTag = "history (100%))> <img";
+  const languageTag = "history (100%))> <img";
 
   input.authors[0].websiteUrl = "https://example.com/author path)>?value=&gt;";
   input.packageVersions[1].installUrl =
     "https://app.flashcards-open-source-app.com/catalog/import/version 2)>%25";
-  input.packageVersions[1].topicTags = [topicTag];
-  input.collections[0].topicTags = [topicTag];
+  input.packageVersions[1].languageTags = [languageTag];
+  input.collections[0].languageTags = [languageTag];
 
   const dump = parsePublicCatalogDump(input);
   const model = createPublicCatalogReadModel(dump);
-  const topicPagePath = `catalog/topics/${encodeURIComponent(topicTag)}`;
+  const languagePagePath = `catalog/languages/${encodeURIComponent(languageTag)}`;
   const documents = [
     renderPublicCatalogMarkdownDocument("catalog/authors/author-one", model)?.markdown,
     renderPublicCatalogMarkdownDocument("catalog/packages/canonical-package", model)?.markdown,
-    renderMarkdownDocument(topicPagePath, {
+    renderMarkdownDocument(languagePagePath, {
       globalActivitySnapshot: emptyActivitySnapshot,
       publicCatalog: model,
     }).markdown,
@@ -1509,7 +1530,7 @@ test("renders safe canonical links for authored URLs and delimiter-looking facet
   assert.ok(renderedLinks.includes(websiteUrl));
   assert.ok(renderedLinks.includes(installUrl));
   assert.ok(renderedLinks.includes(
-    `https://flashcards-open-source-app.com/${topicPagePath}/`,
+    `https://flashcards-open-source-app.com/${languagePagePath}/`,
   ));
   assert.equal(documents.some((markdown) => markdown?.includes("<img")), false);
 });
@@ -1537,7 +1558,7 @@ test("validates and localizes every authored Markdown destination form", async (
     "",
     "![Reference image][reference-image]",
     "",
-    "[catalog-reference]: /catalog/topics/history%2520world/?q=100%25#cards",
+    "[catalog-reference]: /catalog/languages/history%2520world/?q=100%25#cards",
     "[reference-image]: https://cdn.example.com/path/../image.png",
   ].join("\n");
   input.cards[2].frontText = "[Card docs](/docs/api/)";
@@ -1585,7 +1606,7 @@ test("validates and localizes every authored Markdown destination form", async (
   assert.ok(packageDestinations.includes("/es/docs/api/"));
   assert.ok(packageDestinations.includes("http://example.com/card"));
   assert.ok(collectionDestinations.includes(
-    "/es/catalog/topics/history%2520world/?q=100%25#cards",
+    "/es/catalog/languages/history%2520world/?q=100%25#cards",
   ));
   assert.ok(collectionDestinations.includes("https://cdn.example.com/image.png"));
   assert.equal(
@@ -2081,7 +2102,6 @@ test("renders localized collection membership as one semantic ordered list", () 
     summary: "Second summary",
     description: "Second description",
     languageTags: ["fr"],
-    topicTags: ["history"],
     license: "CC0-1.0",
     contentWarning: null,
     coverMediaAssetId: null,
@@ -2391,12 +2411,12 @@ test("preserves supported GFM semantics while isolating authored fragments", asy
 
 test("keeps percent-encoded and literal-percent catalog Markdown assets distinct", () => {
   const input = createValidDump();
-  input.packageVersions[1].topicTags = ["history world", "history%20world", "100%"];
-  input.collections[0].topicTags = ["history world", "history%20world", "100%"];
+  input.packageVersions[1].languageTags = ["history world", "history%20world", "100%"];
+  input.collections[0].languageTags = ["history world", "history%20world", "100%"];
   const model = createPublicCatalogReadModel(parsePublicCatalogDump(input));
   const pagePaths = listPublicCatalogMarkdownPagePaths(model);
-  const encodedSpacePath = "catalog/topics/history%20world";
-  const literalPercentPath = "catalog/topics/history%2520world";
+  const encodedSpacePath = "catalog/languages/history%20world";
+  const literalPercentPath = "catalog/languages/history%2520world";
 
   assert.ok(pagePaths.includes(encodedSpacePath));
   assert.ok(pagePaths.includes(literalPercentPath));
@@ -2414,11 +2434,11 @@ test("keeps percent-encoded and literal-percent catalog Markdown assets distinct
     literalPercentAssetPathname,
   );
   assert.equal(
-    getPagePathnameFromMarkdownPathname("/catalog/topics/history%20world.md"),
+    getPagePathnameFromMarkdownPathname("/catalog/languages/history%20world.md"),
     encodedSpacePagePathname,
   );
   assert.equal(
-    getPagePathnameFromMarkdownPathname("/catalog/topics/history%2520world.md"),
+    getPagePathnameFromMarkdownPathname("/catalog/languages/history%2520world.md"),
     literalPercentPagePathname,
   );
   assert.match(
@@ -2428,39 +2448,49 @@ test("keeps percent-encoded and literal-percent catalog Markdown assets distinct
 });
 
 test("validates and canonically serializes the compact static delivery manifest", () => {
-  const pagePathname = "/catalog/topics/history%2520world/";
+  const pagePathname = "/catalog/languages/history%2520world/";
   const assetPathname = getMarkdownAssetPathname(
     getMarkdownAssetDigest(pagePathname),
   );
   const facetPathname = getPublicCatalogFacetInternalPathname(
     "es",
-    "topic",
+    "language",
     "history%20world",
   );
   const serialized = serializeMarkdownAssetManifest({
-    facets: { "/es/catalog/topics/history%2520world/": facetPathname },
+    facets: { "/es/catalog/languages/history%2520world/": facetPathname },
     markdown: { [pagePathname]: assetPathname },
   });
 
   assert.deepEqual(parseMarkdownAssetManifest(serialized), {
-    facets: { "/es/catalog/topics/history%2520world/": facetPathname },
+    facets: { "/es/catalog/languages/history%2520world/": facetPathname },
     markdown: { [pagePathname]: assetPathname },
   });
   assert.throws(
     () => parseMarkdownAssetManifest('{"facets":{},"markdown":{"relative/":"/__markdown/invalid.md"}}'),
     /invalid Markdown entry/,
   );
+  assert.throws(
+    () => parseMarkdownAssetManifest(JSON.stringify({
+      facets: {
+        "/catalog/topics/history/":
+          `/catalog-facet-static/en/topic/${"a".repeat(64)}/`,
+      },
+      markdown: {},
+    })),
+    /invalid facet entry/,
+  );
   assert.doesNotThrow(() => assertUniquePublicCatalogFacetAliases(
-    "topic",
+    "language",
     ["history", "history%20", "😀".repeat(120)],
   ));
   assert.equal(
-    getPublicCatalogFacetAlias("topic", "history"),
-    getPublicCatalogFacetAlias("topic", "history"),
+    getPublicCatalogFacetAlias("language", "history"),
+    getPublicCatalogFacetAlias("language", "history"),
   );
 });
 
-test("derives clean llms catalog discovery links without install or query URLs", () => {
+test("derives catalog discovery links with an explicit root language", () => {
   const model = createPublicCatalogReadModel(parsePublicCatalogDump(createValidDump()));
   const section = renderPublicCatalogLlmsSection(model);
 
@@ -2469,7 +2499,7 @@ test("derives clean llms catalog discovery links without install or query URLs",
   assert.match(section, /\/catalog\/authors\/author-one\//);
   assert.match(section, /\/catalog\/collections\//);
   assert.match(section, /\/catalog\/collections\/starter-collection\//);
-  assert.equal(section.includes("?"), false);
+  assert.match(section, /\/catalog\/\?language=en/);
   assert.equal(section.includes("/catalog/import/"), false);
 });
 
@@ -2622,6 +2652,27 @@ test("uses package covers for catalog package social metadata", () => {
       url: downloadUrl,
     },
   ]);
+});
+
+test("keeps package canonicals and hreflang localized independently of content language", () => {
+  const model = createPublicCatalogReadModel(parsePublicCatalogDump(createValidDump()));
+  const packageView = getPublicCatalogPackageBySlug(model, "canonical-package");
+
+  assert.ok(packageView);
+  const metadata = createPublicCatalogPackageMetadata("ja", packageView);
+
+  assert.equal(
+    metadata.alternates?.canonical,
+    "https://flashcards-open-source-app.com/ja/catalog/packages/canonical-package/",
+  );
+  assert.equal(
+    metadata.alternates?.languages?.es,
+    "https://flashcards-open-source-app.com/es/catalog/packages/canonical-package/",
+  );
+  assert.equal(
+    metadata.alternates?.languages?.["x-default"],
+    "https://flashcards-open-source-app.com/catalog/packages/canonical-package/",
+  );
 });
 
 test("uses the package title when social cover alt text is null or blank", () => {

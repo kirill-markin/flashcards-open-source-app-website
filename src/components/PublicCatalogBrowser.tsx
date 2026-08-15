@@ -9,7 +9,6 @@ import {
   getPublicCatalogUrl,
   parsePublicCatalogQuery,
   queryPublicCatalogPackages,
-  serializePublicCatalogQuery,
   type PublicCatalogBrowseData,
   type PublicCatalogQueryState,
   type PublicCatalogSort,
@@ -36,27 +35,12 @@ const publicCatalogUrlChangeEvent = "public-catalog-url-change";
 interface PublicCatalogBrowserProps {
   readonly copy: PublicCatalogUiCopy;
   readonly data: PublicCatalogBrowseData;
+  readonly initialSearch: string;
   readonly locale: AppLocale;
 }
 
 function getBrowserSearch(): string {
   return window.location.search;
-}
-
-function getServerSearch(): string {
-  return "";
-}
-
-function subscribeToHydration(): () => void {
-  return (): void => undefined;
-}
-
-function getClientHydrationSnapshot(): boolean {
-  return true;
-}
-
-function getServerHydrationSnapshot(): boolean {
-  return false;
 }
 
 function notifyCatalogUrlChange(): void {
@@ -124,6 +108,7 @@ function formatPageStatus(
 export function PublicCatalogBrowser({
   copy,
   data,
+  initialSearch,
   locale,
 }: PublicCatalogBrowserProps): React.JSX.Element {
   const searchAnalyticsSchedulerRef = useRef<PublicCatalogSearchAnalyticsScheduler | null>(null);
@@ -154,20 +139,14 @@ export function PublicCatalogBrowser({
         searchAnalyticsScheduler.cancel();
       },
     ), []);
-  const isHydrated = useSyncExternalStore(
-    subscribeToHydration,
-    getClientHydrationSnapshot,
-    getServerHydrationSnapshot,
-  );
+  const getServerSearch = useCallback((): string => initialSearch, [initialSearch]);
   const search = useSyncExternalStore(
     subscribeToCatalogUrl,
     getBrowserSearch,
     getServerSearch,
   );
-  const state = parsePublicCatalogQuery(search, data);
+  const state = parsePublicCatalogQuery(search, data, locale);
   const result = queryPublicCatalogPackages(data.packages, state);
-  const renderedPackages = isHydrated ? result.packages : data.packages;
-  const renderedResultCount = isHydrated ? result.totalCount : data.packages.length;
   const resultStartRef = useRef<HTMLParagraphElement>(null);
   const paginationFocusPageRef = useRef<number | null>(null);
 
@@ -180,6 +159,16 @@ export function PublicCatalogBrowser({
 
     return searchAnalyticsScheduler.cancel;
   }, []);
+
+  useEffect(() => {
+    const searchParams = new URLSearchParams(
+      search.startsWith("?") ? search.slice(1) : search,
+    );
+
+    if (searchParams.has("language") === false) {
+      replaceCatalogState(state);
+    }
+  }, [search, state]);
 
   useEffect(() => {
     if (paginationFocusPageRef.current !== result.page) {
@@ -259,20 +248,10 @@ export function PublicCatalogBrowser({
       page: 1,
     }, "language", isSelected ? "add" : "remove", languages.length);
   };
-  const updateTopic = (topic: string, isSelected: boolean): void => {
-    const topics = updateRepeatedValue(state.topics, topic, isSelected);
-
-    updateFilter({
-      ...state,
-      topics,
-      page: 1,
-    }, "topic", isSelected ? "add" : "remove", topics.length);
-  };
   const clearFilters = (): void => {
     updateFilter({
       q: "",
       languages: [],
-      topics: [],
       author: null,
       collection: null,
       license: null,
@@ -320,7 +299,13 @@ export function PublicCatalogBrowser({
       selectedValue === null ? 0 : 1,
     );
   };
-  const hasActiveControls = serializePublicCatalogQuery({ ...state, page: 1 }) !== "";
+  const hasActiveControls = state.q.trim() !== ""
+    || state.languages.length > 0
+    || state.author !== null
+    || state.collection !== null
+    || state.license !== null
+    || state.sort !== null
+    || state.page > 1;
 
   return (
     <div className={styles.browser} data-testid="catalog-browser">
@@ -361,21 +346,6 @@ export function PublicCatalogBrowser({
                     type="checkbox"
                   />
                   <span>{language}</span>
-                </label>
-              ))}
-            </div>
-          </fieldset>
-          <fieldset className={styles.fieldset}>
-            <legend>{copy.browse.topicLabel}</legend>
-            <div className={styles.checkboxList}>
-              {data.topics.map((topic) => (
-                <label className={styles.checkboxLabel} key={topic}>
-                  <input
-                    checked={state.topics.includes(topic)}
-                    onChange={(event) => updateTopic(topic, event.currentTarget.checked)}
-                    type="checkbox"
-                  />
-                  <span>{topic}</span>
                 </label>
               ))}
             </div>
@@ -443,7 +413,7 @@ export function PublicCatalogBrowser({
             ref={resultStartRef}
             tabIndex={-1}
           >
-            {formatResultCount(renderedResultCount, locale, copy)}
+            {formatResultCount(result.totalCount, locale, copy)}
           </p>
           <label className={styles.sortControl} htmlFor="catalog-sort">
             <span>{copy.browse.sortLabel}</span>
@@ -462,13 +432,13 @@ export function PublicCatalogBrowser({
             </select>
           </label>
         </div>
-        {isHydrated && result.totalCount === 0 ? (
+        {result.totalCount === 0 ? (
           <p className={pageStyles.empty} role="status">
             {copy.browse.noResultsLabel}
           </p>
         ) : (
           <div className={pageStyles.grid} data-testid="catalog-results">
-            {renderedPackages.map((item) => (
+            {result.packages.map((item) => (
               <PublicCatalogPackageCard
                 copy={copy}
                 coverSizes="(max-width: 640px) calc(100vw - 56px), (max-width: 980px) calc(50vw - 38px), 390px"
@@ -479,7 +449,7 @@ export function PublicCatalogBrowser({
             ))}
           </div>
         )}
-        {isHydrated && result.totalPages > 1 ? (
+        {result.totalPages > 1 ? (
           <nav className={styles.pagination} aria-label={copy.browse.paginationLabel}>
             <button
               data-testid="catalog-previous-page"

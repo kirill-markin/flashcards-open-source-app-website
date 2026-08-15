@@ -10,7 +10,6 @@ import {
   getPublicCatalogAuthorRoutePathname,
   getPublicCatalogLanguageRoutePathname,
   getPublicCatalogPackageRoutePathname,
-  getPublicCatalogTopicRoutePathname,
 } from "@/lib/publicCatalogUrls";
 import styles from "./PublicCatalogPackageCard.module.css";
 
@@ -96,19 +95,6 @@ export function PublicCatalogPackageCard({
                 )}
               >
                 {languageTag}
-              </Link>
-            </li>
-          ))}
-          {latestVersion.topicTags.map((topicTag) => (
-            <li key={topicTag}>
-              <Link
-                className={styles.facetLink}
-                href={getLocalizedPathname(
-                  locale,
-                  getPublicCatalogTopicRoutePathname(topicTag),
-                )}
-              >
-                {topicTag}
               </Link>
             </li>
           ))}

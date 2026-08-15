@@ -35,7 +35,6 @@ export type PublicCatalogPackageCardView = Readonly<{
     | "title"
     | "summary"
     | "languageTags"
-    | "topicTags"
     | "license"
     | "cardCount"
   >;
@@ -57,9 +56,7 @@ export type PublicCatalogReadModel = Readonly<{
   packagesByCollectionId: ReadonlyMap<string, ReadonlyArray<PublicCatalogPackageView>>;
   collectionsByPackageId: ReadonlyMap<string, ReadonlyArray<PublicCatalogCollection>>;
   packagesByLanguageTag: ReadonlyMap<string, ReadonlyArray<PublicCatalogPackageView>>;
-  packagesByTopicTag: ReadonlyMap<string, ReadonlyArray<PublicCatalogPackageView>>;
   languageTags: ReadonlyArray<string>;
-  topicTags: ReadonlyArray<string>;
 }>;
 
 export type PublicCatalogReader = () => PublicCatalogReadModel | null;
@@ -268,16 +265,9 @@ export function createPublicCatalogReadModel(dump: PublicCatalogDump): PublicCat
     packagesByLanguageTag: groupBy(packages, (packageView) =>
       packageView.latestVersion.languageTags,
     ),
-    packagesByTopicTag: groupBy(packages, (packageView) =>
-      packageView.latestVersion.topicTags,
-    ),
     languageTags: [...new Set([
       ...packages.flatMap((packageView) => packageView.latestVersion.languageTags),
       ...dump.collections.flatMap((collection) => collection.languageTags),
-    ])].sort(),
-    topicTags: [...new Set([
-      ...packages.flatMap((packageView) => packageView.latestVersion.topicTags),
-      ...dump.collections.flatMap((collection) => collection.topicTags),
     ])].sort(),
   };
 }
@@ -356,11 +346,4 @@ export function getPublicCatalogPackagesByLanguageTag(
   languageTag: string,
 ): ReadonlyArray<PublicCatalogPackageView> {
   return model.packagesByLanguageTag.get(languageTag) ?? [];
-}
-
-export function getPublicCatalogPackagesByTopicTag(
-  model: PublicCatalogReadModel,
-  topicTag: string,
-): ReadonlyArray<PublicCatalogPackageView> {
-  return model.packagesByTopicTag.get(topicTag) ?? [];
 }

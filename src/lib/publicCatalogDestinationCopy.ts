@@ -19,8 +19,6 @@ export interface PublicCatalogDestinationCopy {
   readonly languageIntroTemplate: string;
   readonly languageTitleTemplate: string;
   readonly packageCountTemplates: Readonly<Record<Intl.LDMLPluralRule, string>>;
-  readonly topicIntroTemplate: string;
-  readonly topicTitleTemplate: string;
 }
 
 const PUBLIC_CATALOG_DESTINATION_COPY_BY_LOCALE: Readonly<
@@ -52,8 +50,6 @@ const PUBLIC_CATALOG_DESTINATION_COPY_BY_LOCALE: Readonly<
       many: "{count} decks",
       other: "{count} decks",
     },
-    topicIntroTemplate: "Browse public flashcard decks about {tag}.",
-    topicTitleTemplate: "{tag} flashcard decks",
   },
   es: {
     allPackagesNavigationLabel: "Todos los mazos",
@@ -81,8 +77,6 @@ const PUBLIC_CATALOG_DESTINATION_COPY_BY_LOCALE: Readonly<
       many: "{count} mazos",
       other: "{count} mazos",
     },
-    topicIntroTemplate: "Explora mazos públicos de tarjetas sobre {tag}.",
-    topicTitleTemplate: "Mazos de tarjetas sobre {tag}",
   },
   ar: {
     allPackagesNavigationLabel: "كل الرزم",
@@ -110,8 +104,6 @@ const PUBLIC_CATALOG_DESTINATION_COPY_BY_LOCALE: Readonly<
       many: "{count} رزمة",
       other: "{count} رزمة",
     },
-    topicIntroTemplate: "تصفح رزم البطاقات التعليمية العامة حول {tag}.",
-    topicTitleTemplate: "رزم بطاقات تعليمية حول {tag}",
   },
   de: {
     allPackagesNavigationLabel: "Alle Lernkartensets",
@@ -139,8 +131,6 @@ const PUBLIC_CATALOG_DESTINATION_COPY_BY_LOCALE: Readonly<
       many: "{count} Lernkartensets",
       other: "{count} Lernkartensets",
     },
-    topicIntroTemplate: "Entdecke öffentliche Lernkartensets zum Thema {tag}.",
-    topicTitleTemplate: "Lernkartensets zu {tag}",
   },
   hi: {
     allPackagesNavigationLabel: "सभी डेक",
@@ -168,8 +158,6 @@ const PUBLIC_CATALOG_DESTINATION_COPY_BY_LOCALE: Readonly<
       many: "{count} डेक",
       other: "{count} डेक",
     },
-    topicIntroTemplate: "{tag} विषय के सार्वजनिक फ़्लैशकार्ड डेक देखें।",
-    topicTitleTemplate: "{tag} फ़्लैशकार्ड डेक",
   },
   ja: {
     allPackagesNavigationLabel: "すべてのデッキ",
@@ -197,8 +185,6 @@ const PUBLIC_CATALOG_DESTINATION_COPY_BY_LOCALE: Readonly<
       many: "{count}件のデッキ",
       other: "{count}件のデッキ",
     },
-    topicIntroTemplate: "{tag} に関する公開フラッシュカードデッキを探せます。",
-    topicTitleTemplate: "{tag} のフラッシュカードデッキ",
   },
   ru: {
     allPackagesNavigationLabel: "Все колоды",
@@ -226,8 +212,6 @@ const PUBLIC_CATALOG_DESTINATION_COPY_BY_LOCALE: Readonly<
       many: "{count} колод",
       other: "{count} колоды",
     },
-    topicIntroTemplate: "Просматривайте общедоступные колоды карточек по теме {tag}.",
-    topicTitleTemplate: "Колоды карточек по теме {tag}",
   },
   zh: {
     allPackagesNavigationLabel: "所有卡组",
@@ -255,8 +239,6 @@ const PUBLIC_CATALOG_DESTINATION_COPY_BY_LOCALE: Readonly<
       many: "{count}个卡组",
       other: "{count}个卡组",
     },
-    topicIntroTemplate: "浏览关于 {tag} 的公开闪卡组。",
-    topicTitleTemplate: "{tag} 闪卡组",
   },
 };
 
