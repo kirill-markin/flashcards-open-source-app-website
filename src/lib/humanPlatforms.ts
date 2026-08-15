@@ -10,12 +10,21 @@ export type PlatformImage = {
 
 export type StoreAnalyticsPlatform = "ios" | "android";
 
+export type HumanPlatformAnalytics =
+  | Readonly<{
+    kind: "store";
+    platform: StoreAnalyticsPlatform;
+  }>
+  | Readonly<{
+    kind: "web_app";
+  }>;
+
 export type ActiveHumanPlatform = {
+  readonly analytics: HumanPlatformAnalytics;
   readonly href: string;
   readonly image?: PlatformImage;
   readonly kind: "active";
   readonly label: string;
-  readonly storeAnalyticsPlatform?: StoreAnalyticsPlatform;
 };
 
 export type DisabledHumanPlatform = {
@@ -61,20 +70,29 @@ export function getHumanPlatforms(
 
   return [
     {
+      analytics: {
+        kind: "store",
+        platform: "ios",
+      },
       href: APP_STORE_URL,
       image: APP_STORE_IMAGE,
       kind: "active",
       label: uiCopy.platforms.appStore,
-      storeAnalyticsPlatform: "ios",
     },
     {
+      analytics: {
+        kind: "store",
+        platform: "android",
+      },
       href: GOOGLE_PLAY_URL,
       image: GOOGLE_PLAY_IMAGE,
       kind: "active",
       label: uiCopy.platforms.googlePlay,
-      storeAnalyticsPlatform: "android",
     },
     {
+      analytics: {
+        kind: "web_app",
+      },
       href: webEntryHref,
       kind: "active",
       label: uiCopy.platforms.webApp,

@@ -2,6 +2,7 @@
 
 import { track } from "@vercel/analytics";
 import Image from "next/image";
+import { trackAppEntryClick } from "@/lib/appEntryTracking";
 import {
   getHumanPlatforms,
   type StoreAnalyticsPlatform,
@@ -52,14 +53,26 @@ export const HumanPlatformLinks: React.FC<HumanPlatformLinksProps> = ({
   const webEntryHref = loggedIn
     ? getAppUrl()
     : getLoginUrl(getLocalizedPathname(locale, "/"));
+  const webEntryAction = loggedIn ? "open_app" : "login";
   const platforms = getHumanPlatforms(webEntryHref, locale);
 
   return (
     <div className={styles.platformList}>
       {platforms.map((platform) => {
         if (platform.kind === "active") {
-          const storeAnalyticsPlatform = platform.storeAnalyticsPlatform;
           const externalLinkAttributes = getExternalLinkAttributes(platform.href);
+          const trackPlatformClick = (): void => {
+            if (platform.analytics.kind === "store") {
+              trackStoreLinkClick(platform.analytics.platform);
+              return;
+            }
+
+            trackAppEntryClick(
+              webEntryAction,
+              locale,
+              "home_human_access",
+            );
+          };
 
           return (
             <a
@@ -68,13 +81,7 @@ export const HumanPlatformLinks: React.FC<HumanPlatformLinksProps> = ({
               {...externalLinkAttributes}
               className={styles.platformLink}
               aria-label={platform.label}
-              onClick={
-                storeAnalyticsPlatform
-                  ? () => {
-                      trackStoreLinkClick(storeAnalyticsPlatform);
-                    }
-                  : undefined
-              }
+              onClick={trackPlatformClick}
             >
               {platform.image ? (
                 <Image

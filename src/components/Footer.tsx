@@ -9,6 +9,7 @@ import { getUiCopy } from "@/lib/uiCopy";
 import { isPublicCatalogEnabled } from "@/lib/publicCatalogBuild";
 import { getPublicCatalogUiCopy } from "@/lib/publicCatalogCopy";
 import { getPublicCatalogRootUrl } from "@/lib/publicCatalogUrls";
+import { TrackedAppEntryLink } from "./TrackedAppEntryLink";
 import { TrackedStoreLink } from "./TrackedStoreLink";
 import styles from "./Footer.module.css";
 
@@ -83,25 +84,26 @@ export const Footer: React.FC<FooterProps> = ({
             <h3>{uiCopy.footer.appsHeading}</h3>
             {platforms.map((platform) => {
               if (platform.kind === "active") {
-                if (platform.storeAnalyticsPlatform) {
+                if (platform.analytics.kind === "store") {
                   return (
                     <TrackedStoreLink
                       key={platform.label}
                       href={platform.href}
                       label={platform.label}
-                      platform={platform.storeAnalyticsPlatform}
+                      platform={platform.analytics.platform}
                     />
                   );
                 }
 
                 return (
-                  <a
+                  <TrackedAppEntryLink
+                    action="open_app"
                     key={platform.label}
                     href={platform.href}
-                    {...getExternalLinkAttributes(platform.href)}
-                  >
-                    {platform.label}
-                  </a>
+                    label={platform.label}
+                    locale={locale}
+                    placement="footer"
+                  />
                 );
               }
 
