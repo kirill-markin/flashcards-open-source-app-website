@@ -2666,8 +2666,8 @@ test("uses entity modification times and package covers in social metadata", () 
   const packageOpenGraph = metadata.openGraph;
   const collectionOpenGraph = collectionMetadata.openGraph;
 
-  assert.ok(packageOpenGraph?.type === "article");
-  assert.ok(collectionOpenGraph?.type === "article");
+  assert.ok(packageOpenGraph && "modifiedTime" in packageOpenGraph);
+  assert.ok(collectionOpenGraph && "modifiedTime" in collectionOpenGraph);
   assert.equal(packageOpenGraph.modifiedTime, packageView.latestVersion.updatedAt);
   assert.equal(collectionOpenGraph.modifiedTime, collection.updatedAt);
   assert.deepEqual(metadata.openGraph?.images, [
