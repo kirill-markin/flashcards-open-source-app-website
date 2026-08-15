@@ -6,6 +6,7 @@ import {
   getPagePathnameFromMarkdownPathname,
 } from "./lib/markdownAssetPaths";
 import { parseMarkdownAssetManifest } from "./lib/markdownAssetManifest";
+import { SITE_URL } from "./lib/site";
 
 const markdownManifest = parseMarkdownAssetManifest(
   process.env.MARKDOWN_ASSET_MANIFEST_JSON
@@ -30,7 +31,7 @@ function setMarkdownHeaders(
   response.headers.set("Vary", "Accept");
   response.headers.set(
     "Link",
-    `<${pagePathname}>; rel="alternate"; type="text/html"`,
+    `<${new URL(pagePathname, SITE_URL).toString()}>; rel="canonical", <${pagePathname}>; rel="alternate"; type="text/html"`,
   );
   return response;
 }
