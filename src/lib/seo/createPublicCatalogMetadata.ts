@@ -26,7 +26,6 @@ import {
   getPublicCatalogCollectionRoutePathname,
   getPublicCatalogLanguageRoutePathname,
   getPublicCatalogPackageRoutePathname,
-  getPublicCatalogTopicRoutePathname,
   PUBLIC_CATALOG_AUTHORS_ROUTE_PATHNAME,
   PUBLIC_CATALOG_COLLECTIONS_ROUTE_PATHNAME,
   PUBLIC_CATALOG_ROUTE_PATHNAME,
@@ -200,27 +199,23 @@ export function createPublicCatalogCollectionMetadata(
 
 export function createPublicCatalogFacetMetadata(
   locale: AppLocale,
-  facetKind: "language" | "topic",
   tag: string,
 ): Metadata {
   const copy = getPublicCatalogDestinationCopy(locale);
   const displayTag = formatPublicCatalogFacetTag(tag);
-  const isLanguage = facetKind === "language";
 
   return createPublicCatalogMetadata({
     description: interpolatePublicCatalogCopy(
-      isLanguage ? copy.languageIntroTemplate : copy.topicIntroTemplate,
+      copy.languageIntroTemplate,
       "tag",
       displayTag,
     ),
     image: null,
     locale,
     publishedTime: null,
-    routePathname: isLanguage
-      ? getPublicCatalogLanguageRoutePathname(tag)
-      : getPublicCatalogTopicRoutePathname(tag),
+    routePathname: getPublicCatalogLanguageRoutePathname(tag),
     title: interpolatePublicCatalogCopy(
-      isLanguage ? copy.languageTitleTemplate : copy.topicTitleTemplate,
+      copy.languageTitleTemplate,
       "tag",
       displayTag,
     ),

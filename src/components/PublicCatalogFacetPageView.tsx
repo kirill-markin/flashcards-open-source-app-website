@@ -17,21 +17,18 @@ import {
 import type { PublicCatalogPackageView } from "@/lib/publicCatalogReadModel";
 import {
   getPublicCatalogLanguageRoutePathname,
-  getPublicCatalogTopicRoutePathname,
-  PUBLIC_CATALOG_ROUTE_PATHNAME,
+  getPublicCatalogRootUrl,
 } from "@/lib/publicCatalogUrls";
 import { createPublicCatalogFacetJsonLd } from "@/lib/seo/publicCatalogStructuredData";
 import styles from "@/app/catalog/destinations.module.css";
 
 interface PublicCatalogFacetPageViewProps {
-  readonly facetKind: "language" | "topic";
   readonly locale: AppLocale;
   readonly packages: ReadonlyArray<PublicCatalogPackageView>;
   readonly tag: string;
 }
 
 export function PublicCatalogFacetPageView({
-  facetKind,
   locale,
   packages,
   tag,
@@ -39,22 +36,22 @@ export function PublicCatalogFacetPageView({
   const catalogCopy = getPublicCatalogUiCopy(locale);
   const copy = getPublicCatalogDestinationCopy(locale);
   const displayTag = formatPublicCatalogFacetTag(tag);
-  const routePathname = facetKind === "language"
-    ? getPublicCatalogLanguageRoutePathname(tag)
-    : getPublicCatalogTopicRoutePathname(tag);
-  const titleTemplate = facetKind === "language"
-    ? copy.languageTitleTemplate
-    : copy.topicTitleTemplate;
-  const introTemplate = facetKind === "language"
-    ? copy.languageIntroTemplate
-    : copy.topicIntroTemplate;
-  const title = interpolatePublicCatalogCopy(titleTemplate, "tag", displayTag);
-  const intro = interpolatePublicCatalogCopy(introTemplate, "tag", displayTag);
+  const routePathname = getPublicCatalogLanguageRoutePathname(tag);
+  const title = interpolatePublicCatalogCopy(
+    copy.languageTitleTemplate,
+    "tag",
+    displayTag,
+  );
+  const intro = interpolatePublicCatalogCopy(
+    copy.languageIntroTemplate,
+    "tag",
+    displayTag,
+  );
 
   return (
     <SiteFrame locale={locale} routePathname={routePathname}>
       <StructuredDataScript
-        value={createPublicCatalogFacetJsonLd(facetKind, locale, packages, tag)}
+        value={createPublicCatalogFacetJsonLd(locale, packages, tag)}
       />
       <div className={styles.container}>
         <header className={styles.panel}>
@@ -62,7 +59,7 @@ export function PublicCatalogFacetPageView({
             items={[
               {
                 label: catalogCopy.breadcrumbLabel,
-                href: getLocalizedPathname(locale, PUBLIC_CATALOG_ROUTE_PATHNAME),
+                href: getPublicCatalogRootUrl(locale),
               },
               {
                 label: title,

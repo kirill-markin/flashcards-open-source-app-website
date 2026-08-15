@@ -1,3 +1,4 @@
+import type { AppLocale } from "./localeConfig";
 import type {
   PublicCatalogPackageCardView,
   PublicCatalogReadModel,
@@ -26,7 +27,6 @@ export type PublicCatalogBrowsePackage = Readonly<{
 export type PublicCatalogBrowseData = Readonly<{
   packages: ReadonlyArray<PublicCatalogBrowsePackage>;
   languages: ReadonlyArray<string>;
-  topics: ReadonlyArray<string>;
   authors: ReadonlyArray<PublicCatalogBrowseChoice>;
   collections: ReadonlyArray<PublicCatalogBrowseChoice>;
   licenses: ReadonlyArray<string>;
@@ -35,7 +35,6 @@ export type PublicCatalogBrowseData = Readonly<{
 export type PublicCatalogQueryState = Readonly<{
   q: string;
   languages: ReadonlyArray<string>;
-  topics: ReadonlyArray<string>;
   author: string | null;
   collection: string | null;
   license: string | null;
@@ -93,6 +92,7 @@ function getUniqueSortedChoices(
 
 export function createPublicCatalogBrowseData(
   catalog: PublicCatalogReadModel,
+  defaultLanguage: AppLocale,
 ): PublicCatalogBrowseData {
   const packages = catalog.packages.map((packageView): PublicCatalogBrowsePackage => {
     const collections = (catalog.collectionsByPackageId.get(
@@ -117,7 +117,6 @@ export function createPublicCatalogBrowseData(
           title: packageView.latestVersion.title,
           summary: packageView.latestVersion.summary,
           languageTags: packageView.latestVersion.languageTags,
-          topicTags: packageView.latestVersion.topicTags,
           license: packageView.latestVersion.license,
           cardCount: packageView.latestVersion.cardCount,
         },
@@ -145,10 +144,10 @@ export function createPublicCatalogBrowseData(
   return {
     packages,
     languages: getUniqueSortedValues(
-      packages.flatMap(({ packageView }) => packageView.latestVersion.languageTags),
-    ),
-    topics: getUniqueSortedValues(
-      packages.flatMap(({ packageView }) => packageView.latestVersion.topicTags),
+      [
+        defaultLanguage,
+        ...packages.flatMap(({ packageView }) => packageView.latestVersion.languageTags),
+      ],
     ),
     authors,
     collections,
@@ -179,7 +178,7 @@ export function resolvePublicCatalogSort(
 
 function parseRepeatedChoice(
   searchParams: URLSearchParams,
-  key: "language" | "topic",
+  key: "language",
   choices: ReadonlyArray<string>,
 ): ReadonlyArray<string> {
   const requestedValues = new Set(searchParams.getAll(key));
@@ -214,7 +213,14 @@ function parsePage(searchParams: URLSearchParams): number {
 export function parsePublicCatalogQuery(
   search: string,
   data: PublicCatalogBrowseData,
+  defaultLanguage: AppLocale,
 ): PublicCatalogQueryState {
+  if (data.languages.includes(defaultLanguage) === false) {
+    throw new Error(
+      `Public catalog default language must be an available choice. received=${defaultLanguage}`,
+    );
+  }
+
   const searchParams = new URLSearchParams(search.startsWith("?") ? search.slice(1) : search);
   const q = searchParams.get("q") ?? "";
   const requestedSort = searchParams.get("sort");
@@ -224,8 +230,9 @@ export function parsePublicCatalogQuery(
 
   return {
     q,
-    languages: parseRepeatedChoice(searchParams, "language", data.languages),
-    topics: parseRepeatedChoice(searchParams, "topic", data.topics),
+    languages: searchParams.has("language")
+      ? parseRepeatedChoice(searchParams, "language", data.languages)
+      : [defaultLanguage],
     author: parseSingleChoice(
       searchParams,
       "author",
@@ -249,13 +256,6 @@ export function serializePublicCatalogQuery(state: PublicCatalogQueryState): str
     searchParams.set("q", state.q);
   }
 
-  [...state.languages].sort(compareStrings).forEach((language) => {
-    searchParams.append("language", language);
-  });
-  [...state.topics].sort(compareStrings).forEach((topic) => {
-    searchParams.append("topic", topic);
-  });
-
   if (state.author !== null) {
     searchParams.set("author", state.author);
   }
@@ -276,9 +276,15 @@ export function serializePublicCatalogQuery(state: PublicCatalogQueryState): str
     searchParams.set("page", String(state.page));
   }
 
-  const query = searchParams.toString();
+  if (state.languages.length === 0) {
+    searchParams.append("language", "");
+  } else {
+    [...state.languages].sort(compareStrings).forEach((language) => {
+      searchParams.append("language", language);
+    });
+  }
 
-  return query === "" ? "" : `?${query}`;
+  return `?${searchParams}`;
 }
 
 export function getPublicCatalogUrl(
@@ -296,8 +302,6 @@ function matchesFilters(
 
   return (state.languages.length === 0
       || state.languages.some((language) => latestVersion.languageTags.includes(language)))
-    && (state.topics.length === 0
-      || state.topics.some((topic) => latestVersion.topicTags.includes(topic)))
     && (state.author === null || item.packageView.author.slug === state.author)
     && (state.collection === null
       || item.collections.some((collection) => collection.value === state.collection))
@@ -336,10 +340,6 @@ function getSearchScore(item: PublicCatalogBrowsePackage, query: string): number
     ...latestVersion.languageTags.map((value) => ({
       value: normalizePublicCatalogSearchText(value),
       weight: 25,
-    })),
-    ...latestVersion.topicTags.map((value) => ({
-      value: normalizePublicCatalogSearchText(value),
-      weight: 30,
     })),
     { value: normalizePublicCatalogSearchText(latestVersion.license), weight: 20 },
     ...item.collections.flatMap((collection) => [

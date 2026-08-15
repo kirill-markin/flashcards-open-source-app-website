@@ -1,7 +1,7 @@
 import { createHash } from "node:crypto";
 import type { AppLocale } from "./localeConfig";
 
-export type PublicCatalogFacetKind = "language" | "topic";
+export type PublicCatalogFacetKind = "language";
 
 function createNamespacedDigest(namespace: string, value: string): string {
   const namespaceBytes = Buffer.from(namespace, "utf-8");

@@ -29,7 +29,6 @@ function createPackage(
   authorSlug: string,
   authorName: string,
   languages: ReadonlyArray<string>,
-  topics: ReadonlyArray<string>,
   license: string,
   publishedAt: string,
   collections: ReadonlyArray<Readonly<{ value: string; label: string }>>,
@@ -49,7 +48,6 @@ function createPackage(
         title,
         summary,
         languageTags: languages,
-        topicTags: topics,
         license,
         cardCount: 10,
       },
@@ -68,7 +66,6 @@ function createBrowseData(
   return {
     packages,
     languages: ["en", "es", "fr"],
-    topics: ["grammar", "history"],
     authors: [
       { value: "author-one", label: "Author One" },
       { value: "author-two", label: "Author Two" },
@@ -89,7 +86,6 @@ const packages = [
     "author-one",
     "Author One",
     ["en"],
-    ["grammar"],
     "CC0-1.0",
     "2026-08-01T10:00:00.000Z",
     starterCollection,
@@ -101,7 +97,6 @@ const packages = [
     "author-one",
     "Author One",
     ["es"],
-    ["history"],
     "MIT",
     "2026-08-03T10:00:00.000Z",
     starterCollection,
@@ -113,7 +108,6 @@ const packages = [
     "author-two",
     "Author Two",
     ["fr"],
-    ["grammar"],
     "CC0-1.0",
     "2026-08-02T10:00:00.000Z",
     advancedCollection,
@@ -140,7 +134,7 @@ test("creates aggregate-only search analytics", () => {
 
 test("creates privacy-limited payloads for every catalog analytics event", () => {
   const payloads = {
-    filter: createPublicCatalogFilterAnalytics("en", "topic", "add", 4, 2),
+    filter: createPublicCatalogFilterAnalytics("en", "language", "add", 4, 2),
     install: createPublicCatalogInstallAnalytics("en", "opaque-package-id", 3),
     navigation: createPublicCatalogNavigationAnalytics(
       "en",
@@ -155,7 +149,7 @@ test("creates privacy-limited payloads for every catalog analytics event", () =>
   assert.deepEqual(payloads, {
     filter: {
       action: "add",
-      category: "topic",
+      category: "language",
       locale: "en",
       result_count: 4,
       selected_count: 2,
@@ -193,7 +187,7 @@ test("creates privacy-limited payloads for every catalog analytics event", () =>
 
   assert.equal(serializedPayloads.includes("private query"), false);
   assert.equal(serializedPayloads.includes("package_slug"), false);
-  assert.equal(serializedPayloads.includes("topic-value"), false);
+  assert.equal(serializedPayloads.includes("language-value"), false);
   assert.equal(serializedPayloads.includes("https://"), false);
 });
 
@@ -403,7 +397,6 @@ function createEmptyState(): PublicCatalogQueryState {
   return {
     q: "",
     languages: [],
-    topics: [],
     author: null,
     collection: null,
     license: null,
@@ -415,15 +408,15 @@ function createEmptyState(): PublicCatalogQueryState {
 test("parses known query values and predictably ignores unknown values", () => {
   const state = parsePublicCatalogQuery(
     "?q=Alpha+Grammar&language=zz&language=es&language=en&language=es"
-      + "&topic=history&topic=missing&author=missing&collection=starter"
+      + "&author=missing&collection=starter"
       + "&license=CC0-1.0&sort=unsupported&page=-2&unrelated=value",
     data,
+    "en",
   );
 
   assert.deepEqual(state, {
     q: "Alpha Grammar",
     languages: ["en", "es"],
-    topics: ["history"],
     author: null,
     collection: "starter",
     license: "CC0-1.0",
@@ -432,35 +425,34 @@ test("parses known query values and predictably ignores unknown values", () => {
   });
 });
 
-test("serializes query state deterministically and omits empty or default values", () => {
-  assert.equal(serializePublicCatalogQuery(createEmptyState()), "");
+test("serializes query state deterministically with languages last", () => {
+  assert.equal(serializePublicCatalogQuery(createEmptyState()), "?language=");
   assert.equal(
     serializePublicCatalogQuery({
       q: "Alpha Grammar",
       languages: ["es", "en"],
-      topics: ["history"],
       author: "author-one",
       collection: "starter",
       license: "CC0-1.0",
       sort: "newest",
       page: 2,
     }),
-    "?q=Alpha+Grammar&language=en&language=es&topic=history&author=author-one"
-      + "&collection=starter&license=CC0-1.0&sort=newest&page=2",
+    "?q=Alpha+Grammar&author=author-one&collection=starter&license=CC0-1.0"
+      + "&sort=newest&page=2&language=en&language=es",
   );
   assert.equal(
     serializePublicCatalogQuery({ ...createEmptyState(), q: "grammar", sort: "relevance" }),
-    "?q=grammar",
+    "?q=grammar&language=",
   );
 });
 
-test("applies OR within repeated facets and AND between different facets", () => {
+test("applies OR within languages and AND between different filters", () => {
   const result = queryPublicCatalogPackages(packages, {
     ...createEmptyState(),
     languages: ["en", "es"],
-    topics: ["grammar"],
     author: "author-one",
     collection: "starter",
+    license: "CC0-1.0",
   });
 
   assert.deepEqual(
@@ -482,14 +474,14 @@ test("ranks exact, prefix, and contains title matches deterministically", () => 
   );
 });
 
-test("searches author, tag, license, and collection membership text", () => {
+test("searches author, language, license, and collection membership text", () => {
   assert.deepEqual(
     queryPublicCatalogPackages(packages, { ...createEmptyState(), q: "author two" })
       .packages.map((item) => item.packageView.packageMetadata.slug),
     ["advanced-grammar"],
   );
   assert.deepEqual(
-    queryPublicCatalogPackages(packages, { ...createEmptyState(), q: "MIT history" })
+    queryPublicCatalogPackages(packages, { ...createEmptyState(), q: "MIT es" })
       .packages.map((item) => item.packageView.packageMetadata.slug),
     ["grammar-basics"],
   );
@@ -533,7 +525,6 @@ test("uses a fixed page size and clamps oversized pages to the final page", () =
       "author-one",
       "Author One",
       ["en"],
-      ["grammar"],
       "CC0-1.0",
       `2026-07-${String(index + 1).padStart(2, "0")}T10:00:00.000Z`,
       starterCollection,
@@ -551,8 +542,9 @@ test("uses a fixed page size and clamps oversized pages to the final page", () =
 });
 
 test("re-parses URL snapshots for back-forward state and preserves localized paths", () => {
-  const firstState = parsePublicCatalogQuery("?language=en&page=2", data);
-  const secondState = parsePublicCatalogQuery("?q=grammar&sort=title", data);
+  const arData = { ...data, languages: ["ar", ...data.languages] };
+  const firstState = parsePublicCatalogQuery("?language=en&page=2", arData, "ar");
+  const secondState = parsePublicCatalogQuery("?q=grammar&sort=title", arData, "ar");
 
   assert.deepEqual(firstState.languages, ["en"]);
   assert.equal(firstState.page, 2);
@@ -560,6 +552,29 @@ test("re-parses URL snapshots for back-forward state and preserves localized pat
   assert.equal(secondState.sort, "title");
   assert.equal(
     getPublicCatalogUrl("/ar/catalog/", secondState),
-    "/ar/catalog/?q=grammar&sort=title",
+    "/ar/catalog/?q=grammar&sort=title&language=ar",
   );
+});
+
+test("round-trips locale defaults, explicit selections, and cleared languages", () => {
+  const localizedData = { ...data, languages: ["de", ...data.languages] };
+  const defaultState = parsePublicCatalogQuery("", localizedData, "de");
+  const explicitState = parsePublicCatalogQuery(
+    "?q=grammar&language=fr&language=en",
+    localizedData,
+    "de",
+  );
+  const clearedState = parsePublicCatalogQuery("?language=", localizedData, "de");
+
+  assert.deepEqual(defaultState.languages, ["de"]);
+  assert.equal(queryPublicCatalogPackages(packages, defaultState).totalCount, 0);
+  assert.equal(serializePublicCatalogQuery(defaultState), "?language=de");
+  assert.deepEqual(explicitState.languages, ["en", "fr"]);
+  assert.equal(
+    serializePublicCatalogQuery(explicitState),
+    "?q=grammar&language=en&language=fr",
+  );
+  assert.deepEqual(clearedState.languages, []);
+  assert.equal(serializePublicCatalogQuery(clearedState), "?language=");
+  assert.equal(queryPublicCatalogPackages(packages, clearedState).totalCount, 3);
 });

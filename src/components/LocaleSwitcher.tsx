@@ -1,8 +1,7 @@
 import Link from "next/link";
 import type { AppLocale } from "@/lib/i18n";
-import { getLocalizedPathname } from "@/lib/i18n";
 import { getLocaleShortLabel } from "@/lib/localeConfig";
-import { getRouteLocales } from "@/lib/routeTranslations";
+import { getLocaleSwitcherEntries } from "@/lib/routeTranslations";
 import { getUiCopy } from "@/lib/uiCopy";
 import styles from "./LocaleSwitcher.module.css";
 
@@ -16,9 +15,11 @@ export function LocaleSwitcher({
   routePathname,
 }: LocaleSwitcherProps): React.JSX.Element {
   const uiCopy = getUiCopy(locale);
-  const availableLocales = getRouteLocales(routePathname);
+  const availableEntries = getLocaleSwitcherEntries(routePathname).filter(
+    (entry) => entry.available,
+  );
 
-  if (!availableLocales.includes(locale)) {
+  if (!availableEntries.some((entry) => entry.locale === locale)) {
     throw new Error(`Missing locale switcher entry for locale: ${locale}`);
   }
 
@@ -35,16 +36,14 @@ export function LocaleSwitcher({
       </summary>
       <div className={styles.menuWrapper}>
         <ul className={styles.menu} aria-label={uiCopy.locale.switcherAriaLabel}>
-          {availableLocales.map((availableLocale) => (
-            <li key={availableLocale}>
-              {availableLocale === locale ? (
+          {availableEntries.map((entry) => (
+            <li key={entry.locale}>
+              {entry.locale === locale ? (
                 <span className={styles.currentOption} aria-current="true">
-                  {getLocaleShortLabel(availableLocale)}
+                  {entry.label}
                 </span>
               ) : (
-                <Link href={getLocalizedPathname(availableLocale, routePathname)}>
-                  {getLocaleShortLabel(availableLocale)}
-                </Link>
+                <Link href={entry.href}>{entry.label}</Link>
               )}
             </li>
           ))}

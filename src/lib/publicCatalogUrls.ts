@@ -1,3 +1,5 @@
+import { getLocalizedPathname, type AppLocale } from "./i18n";
+
 export const PUBLIC_CATALOG_ROUTE_PATHNAME = "/catalog/";
 export const PUBLIC_CATALOG_AUTHORS_ROUTE_PATHNAME = "/catalog/authors/";
 export const PUBLIC_CATALOG_COLLECTIONS_ROUTE_PATHNAME = "/catalog/collections/";
@@ -43,8 +45,14 @@ export function getPublicCatalogLanguageRoutePathname(
   return `/catalog/languages/${encodePublicCatalogFacetRouteSegment(languageTag)}/`;
 }
 
-export function getPublicCatalogTopicRoutePathname(topicTag: string): string {
-  return `/catalog/topics/${encodePublicCatalogFacetRouteSegment(topicTag)}/`;
+export function getPublicCatalogRootSearch(locale: AppLocale): string {
+  const searchParams = new URLSearchParams({ language: locale });
+
+  return `?${searchParams}`;
+}
+
+export function getPublicCatalogRootUrl(locale: AppLocale): string {
+  return `${getLocalizedPathname(locale, PUBLIC_CATALOG_ROUTE_PATHNAME)}${getPublicCatalogRootSearch(locale)}`;
 }
 
 export function isPublicCatalogPageRoutePathname(
@@ -53,7 +61,7 @@ export function isPublicCatalogPageRoutePathname(
   return routePathname === PUBLIC_CATALOG_ROUTE_PATHNAME
     || routePathname === PUBLIC_CATALOG_AUTHORS_ROUTE_PATHNAME
     || routePathname === PUBLIC_CATALOG_COLLECTIONS_ROUTE_PATHNAME
-    || /^\/catalog\/(?:packages|authors|collections|languages|topics)\/[^/]+\/$/.test(
+    || /^\/catalog\/(?:packages|authors|collections|languages)\/[^/]+\/$/.test(
       routePathname,
     );
 }

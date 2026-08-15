@@ -43,7 +43,7 @@ import {
   getPublicCatalogCollectionRoutePathname,
   getPublicCatalogLanguageRoutePathname,
   getPublicCatalogPackageRoutePathname,
-  getPublicCatalogTopicRoutePathname,
+  getPublicCatalogRootUrl,
   PUBLIC_CATALOG_AUTHORS_ROUTE_PATHNAME,
   PUBLIC_CATALOG_COLLECTIONS_ROUTE_PATHNAME,
   PUBLIC_CATALOG_ROUTE_PATHNAME,
@@ -104,15 +104,6 @@ function renderPackageFacts(
       )))}`);
   }
 
-  if (latestVersion.topicTags.length > 0) {
-    lines.push(`- ${copy.topicsLabel}: ${joinLinks(latestVersion.topicTags.map((topicTag) =>
-      createLocalizedCatalogLink(
-        topicTag,
-        locale,
-        getPublicCatalogTopicRoutePathname(topicTag),
-      )))}`);
-  }
-
   if (cardTags.length > 0) {
     lines.push(`- ${copy.tagsLabel}: ${cardTags.map(escapeMarkdownText).join(", ")}`);
   }
@@ -161,12 +152,6 @@ function renderPackageListItem(
         languageTag,
         locale,
         getPublicCatalogLanguageRoutePathname(languageTag),
-      )))}`,
-    `  - ${copy.topicsLabel}: ${joinLinks(latestVersion.topicTags.map((topicTag) =>
-      createLocalizedCatalogLink(
-        topicTag,
-        locale,
-        getPublicCatalogTopicRoutePathname(topicTag),
       )))}`,
   );
 
@@ -465,12 +450,6 @@ function renderCollectionDetail(
         locale,
         getPublicCatalogLanguageRoutePathname(languageTag),
       )))}`,
-    `- ${catalogCopy.topicsLabel}: ${joinLinks(collection.topicTags.map((topicTag) =>
-      createLocalizedCatalogLink(
-        topicTag,
-        locale,
-        getPublicCatalogTopicRoutePathname(topicTag),
-      )))}`,
   );
 
   if (collection.description.trim() !== "") {
@@ -497,7 +476,6 @@ function renderCollectionDetail(
 }
 
 function renderFacet(
-  facetKind: "language" | "topic",
   locale: AppLocale,
   packages: ReadonlyArray<PublicCatalogPackageView>,
   tag: string,
@@ -505,12 +483,12 @@ function renderFacet(
   const copy = getPublicCatalogDestinationCopy(locale);
   const displayTag = formatPublicCatalogFacetTag(tag);
   const title = interpolatePublicCatalogCopy(
-    facetKind === "language" ? copy.languageTitleTemplate : copy.topicTitleTemplate,
+    copy.languageTitleTemplate,
     "tag",
     displayTag,
   );
   const intro = interpolatePublicCatalogCopy(
-    facetKind === "language" ? copy.languageIntroTemplate : copy.topicIntroTemplate,
+    copy.languageIntroTemplate,
     "tag",
     displayTag,
   );
@@ -540,7 +518,6 @@ function listCatalogRoutePathnames(
     ...[...catalog.collectionBySlug.values()].map((collection) =>
       getPublicCatalogCollectionRoutePathname(collection.slug)),
     ...catalog.languageTags.map(getPublicCatalogLanguageRoutePathname),
-    ...catalog.topicTags.map(getPublicCatalogTopicRoutePathname),
   ];
 }
 
@@ -574,7 +551,7 @@ export function renderPublicCatalogMarkdownDocument(
   }
 
   const routeMatch = routePathname.match(
-    /^\/catalog\/(packages|authors|collections|languages|topics)\/([^/]+)\/$/,
+    /^\/catalog\/(packages|authors|collections|languages)\/([^/]+)\/$/,
   );
 
   if (routeMatch === null) {
@@ -631,7 +608,6 @@ export function renderPublicCatalogMarkdownDocument(
       : {
           locale,
           markdown: renderFacet(
-            "language",
             locale,
             catalog.packagesByLanguageTag.get(tag) ?? [],
             tag,
@@ -639,26 +615,14 @@ export function renderPublicCatalogMarkdownDocument(
         };
   }
 
-  const tag = resolvePublicCatalogRouteSegment(routeSegment, catalog.topicTags);
-
-  return tag === undefined
-    ? null
-    : {
-        locale,
-        markdown: renderFacet(
-          "topic",
-          locale,
-          catalog.packagesByTopicTag.get(tag) ?? [],
-          tag,
-        ),
-      };
+  return null;
 }
 
 export function renderPublicCatalogLlmsSection(
   catalog: PublicCatalogReadModel,
 ): string {
   const lines = [
-    `- ${createLocalizedCatalogLink("Public catalog", "en", PUBLIC_CATALOG_ROUTE_PATHNAME)}`,
+    `- ${createMarkdownLink("Public catalog", getPublicCatalogRootUrl("en"))}`,
     `- ${createLocalizedCatalogLink("Catalog authors", "en", PUBLIC_CATALOG_AUTHORS_ROUTE_PATHNAME)}`,
     `- ${createLocalizedCatalogLink("Catalog collections", "en", PUBLIC_CATALOG_COLLECTIONS_ROUTE_PATHNAME)}`,
   ];
@@ -691,13 +655,5 @@ export function renderPublicCatalogLlmsSection(
       getPublicCatalogLanguageRoutePathname(languageTag),
     )}`);
   });
-  catalog.topicTags.forEach((topicTag) => {
-    lines.push(`- ${createLocalizedCatalogLink(
-      `Topic: ${topicTag}`,
-      "en",
-      getPublicCatalogTopicRoutePathname(topicTag),
-    )}`);
-  });
-
   return lines.join("\n");
 }

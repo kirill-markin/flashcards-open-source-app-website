@@ -9,7 +9,7 @@ export interface MarkdownAssetManifest {
 }
 
 const internalFacetPathnamePattern =
-  /^\/catalog-facet-static\/([^/]+)\/(language|topic)\/([0-9a-f]{64})\/$/;
+  /^\/catalog-facet-static\/([^/]+)\/language\/([0-9a-f]{64})\/$/;
 
 function isCanonicalPagePathname(value: string): boolean {
   if (value === "/") {
