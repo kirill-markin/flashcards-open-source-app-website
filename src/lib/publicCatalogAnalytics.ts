@@ -17,6 +17,7 @@ export type PublicCatalogFilterAction =
   | "select";
 
 export type PublicCatalogNavigationPlacement = "card_cover" | "card_title";
+export type PublicCatalogInstallPlacement = "top" | "middle" | "bottom";
 
 export interface PublicCatalogFilterAnalytics {
   readonly action: PublicCatalogFilterAction;
@@ -27,9 +28,8 @@ export interface PublicCatalogFilterAnalytics {
 }
 
 export interface PublicCatalogInstallAnalytics {
-  readonly locale: AppLocale;
   readonly package_id: string;
-  readonly version_number: number;
+  readonly placement: PublicCatalogInstallPlacement;
 }
 
 export interface PublicCatalogNavigationAnalytics {
@@ -106,14 +106,12 @@ export function createPublicCatalogFilterAnalytics(
 }
 
 export function createPublicCatalogInstallAnalytics(
-  locale: AppLocale,
   packageId: string,
-  versionNumber: number,
+  placement: PublicCatalogInstallPlacement,
 ): PublicCatalogInstallAnalytics {
   return {
-    locale,
     package_id: packageId,
-    version_number: versionNumber,
+    placement,
   };
 }
 

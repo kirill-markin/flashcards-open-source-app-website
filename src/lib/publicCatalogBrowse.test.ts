@@ -135,7 +135,7 @@ test("creates aggregate-only search analytics", () => {
 test("creates privacy-limited payloads for every catalog analytics event", () => {
   const payloads = {
     filter: createPublicCatalogFilterAnalytics("en", "language", "add", 4, 2),
-    install: createPublicCatalogInstallAnalytics("en", "opaque-package-id", 3),
+    install: createPublicCatalogInstallAnalytics("opaque-package-id", "top"),
     navigation: createPublicCatalogNavigationAnalytics(
       "en",
       "opaque-package-id",
@@ -155,9 +155,8 @@ test("creates privacy-limited payloads for every catalog analytics event", () =>
       selected_count: 2,
     },
     install: {
-      locale: "en",
       package_id: "opaque-package-id",
-      version_number: 3,
+      placement: "top",
     },
     navigation: {
       locale: "en",

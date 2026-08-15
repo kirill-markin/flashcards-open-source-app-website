@@ -10,6 +10,7 @@ import {
   getPublicCatalogUiCopy,
   interpolatePublicCatalogCardHeading,
 } from "@/lib/publicCatalogCopy";
+import type { PublicCatalogInstallPlacement } from "@/lib/publicCatalogAnalytics";
 import { getPublicCatalogCardMediaDownloadUrls } from "@/lib/publicCatalogCardMedia";
 import { getPublicCatalogDestinationCopy } from "@/lib/publicCatalogDestinationCopy";
 import {
@@ -53,9 +54,8 @@ interface PublicCatalogStudyCtaProps {
   readonly helper: string;
   readonly href: string;
   readonly label: string;
-  readonly locale: AppLocale;
   readonly packageId: string;
-  readonly versionNumber: number;
+  readonly placement: PublicCatalogInstallPlacement;
 }
 
 interface PublicCatalogCardListStudyCtaProps extends PublicCatalogStudyCtaProps {
@@ -69,9 +69,8 @@ function PublicCatalogStudyCta({
   helper,
   href,
   label,
-  locale,
   packageId,
-  versionNumber,
+  placement,
 }: PublicCatalogStudyCtaProps): React.JSX.Element {
   return (
     <div className={styles.ctaBlock}>
@@ -79,9 +78,8 @@ function PublicCatalogStudyCta({
         className={styles.installButton}
         href={href}
         label={label}
-        locale={locale}
         packageId={packageId}
-        versionNumber={versionNumber}
+        placement={placement}
       />
       <p className={styles.installHelper}>{helper}</p>
     </div>
@@ -94,11 +92,10 @@ function PublicCatalogCardListStudyCta({
   helper,
   href,
   label,
-  locale,
   packageId,
+  placement,
   placeholderLabel,
   title,
-  versionNumber,
 }: PublicCatalogCardListStudyCtaProps): React.JSX.Element {
   return (
     <div className={styles.cardListCtaCard}>
@@ -117,9 +114,8 @@ function PublicCatalogCardListStudyCta({
           helper={helper}
           href={href}
           label={label}
-          locale={locale}
           packageId={packageId}
-          versionNumber={versionNumber}
+          placement={placement}
         />
       </div>
     </div>
@@ -193,9 +189,8 @@ export async function PublicCatalogPackagePageView({
     helper: copy.installHelper,
     href: latestVersion.installUrl,
     label: copy.installLabel,
-    locale,
     packageId: packageMetadata.packageId,
-    versionNumber: latestVersion.versionNumber,
+    placement: "top",
   };
   const cardListStudyCtaProps: PublicCatalogCardListStudyCtaProps = {
     ...studyCtaProps,
@@ -400,6 +395,7 @@ export async function PublicCatalogPackagePageView({
                         <div className={styles.cardListCta}>
                           <PublicCatalogCardListStudyCta
                             {...cardListStudyCtaProps}
+                            placement="middle"
                           />
                         </div>
                       ) : null}
@@ -408,7 +404,10 @@ export async function PublicCatalogPackagePageView({
                 })}
               </ol>
               <div className={styles.cardListEndCta}>
-                <PublicCatalogCardListStudyCta {...cardListStudyCtaProps} />
+                <PublicCatalogCardListStudyCta
+                  {...cardListStudyCtaProps}
+                  placement="bottom"
+                />
               </div>
             </>
           )}
