@@ -14,7 +14,6 @@ import {
   parseMarkdownAssetManifest,
   serializeMarkdownAssetManifest,
 } from "./markdownAssetManifest";
-import { escapeMarkdownText } from "./markdownLinks";
 import { renderMarkdownDocument } from "./markdownServe";
 import { renderMarkdownToHtml } from "./content/renderMarkdownToHtml";
 import { getPublicCatalogAuthorBioExcerpt } from "./publicCatalogAuthor";
@@ -83,6 +82,7 @@ import {
 import { createPublicCatalogSitemapEntries } from "./publicCatalogSitemap";
 import { getLocaleSwitcherEntries } from "./routeTranslations";
 import {
+  createPublicCatalogCollectionMetadata,
   createPublicCatalogPackageMetadata,
   createPublicCatalogRootMetadata,
 } from "./seo/createPublicCatalogMetadata";
@@ -695,6 +695,7 @@ test("creates escaped catalog JSON-LD from canonical read-model entities", () =>
     "https://flashcards-open-source-app.com/es/catalog/packages/canonical-package/",
   );
   assert.equal(packageResource.collectionSize, 2);
+  assert.equal(packageResource.dateModified, packageView.latestVersion.updatedAt);
   assert.deepEqual(packageResource.inLanguage, ["en", "world history"]);
   assert.equal("keywords" in packageResource, false);
   assert.deepEqual(packageResource.license, {
@@ -756,6 +757,7 @@ test("creates escaped catalog JSON-LD from canonical read-model entities", () =>
   const rootItemList = rootSchema["@graph"][1];
 
   assert.equal(rootSchema["@graph"][0]["@type"], "CollectionPage");
+  assert.equal("dateModified" in rootSchema["@graph"][0], false);
   assert.equal(rootItemList["@type"], "ItemList");
   assert.equal(rootItemList.numberOfItems, 1);
   assert.equal(
@@ -777,6 +779,7 @@ test("creates escaped catalog JSON-LD from canonical read-model entities", () =>
   );
   const collectionItemList = collectionSchema["@graph"][1];
 
+  assert.equal(collectionSchema["@graph"][0].dateModified, collection.updatedAt);
   assert.equal(
     collectionItemList.itemListOrder,
     "https://schema.org/ItemListOrderAscending",
@@ -804,6 +807,7 @@ test("creates escaped catalog JSON-LD from canonical read-model entities", () =>
     facetSchema["@graph"][0].url,
     "https://flashcards-open-source-app.com/de/catalog/languages/en/",
   );
+  assert.equal("dateModified" in facetSchema["@graph"][0], false);
 
   const serializedSchema = serializeStructuredData(packageSchema);
 
@@ -1336,7 +1340,12 @@ test("keeps public alias-looking facet values distinct from internal static para
 
 test("renders useful localized catalog Markdown from the public read model", () => {
   const input = createValidDump();
+  const packageUpdatedAt = "2026-08-03T11:00:00.000Z";
+  const collectionUpdatedAt = "2026-08-04T11:30:00.000Z";
+
   input.packageVersions[1].title = "Canonical <package> *title*";
+  input.packageVersions[1].updatedAt = packageUpdatedAt;
+  input.collections[0].updatedAt = collectionUpdatedAt;
   const model = createPublicCatalogReadModel(parsePublicCatalogDump(input));
   const pagePaths = listPublicCatalogMarkdownPagePaths(model);
   const packageDocument = renderPublicCatalogMarkdownDocument(
@@ -1367,6 +1376,12 @@ test("renders useful localized catalog Markdown from the public read model", () 
   assert.match(packageDocument.markdown, /Tarjetas: 2 tarjetas/);
   assert.match(
     packageDocument.markdown,
+    new RegExp(
+      `Última actualización: ${formatPublicCatalogDate("es", packageUpdatedAt)}`,
+    ),
+  );
+  assert.match(
+    packageDocument.markdown,
     new RegExp(`https://app\\.flashcards-open-source-app\\.com/catalog/import/${fixtureLatestVersionId}`),
   );
   assert.match(packageDocument.markdown, /Canonical \*\*package\*\* description/);
@@ -1377,26 +1392,26 @@ test("renders useful localized catalog Markdown from the public read model", () 
   );
   assert.ok(rootDocument);
   assert.equal(rootDocument.markdown.includes("/catalog/import/"), false);
-  const rootCopy = getPublicCatalogUiCopy("en");
-  [
-    rootCopy.constructionNoticeLabel,
-    rootCopy.constructionNoticeTitle,
-    rootCopy.constructionNoticeBody,
-  ].forEach((noticeCopy) => {
-    assert.ok(rootDocument.markdown.includes(escapeMarkdownText(noticeCopy)));
-  });
+  assert.equal(
+    listMarkdownAstNodes(parseMarkdownAst(rootDocument.markdown)).some(
+      (node) => node.type === "blockquote",
+    ),
+    false,
+  );
   assert.ok(localizedRootDocument);
-  const localizedRootCopy = getPublicCatalogUiCopy("ar");
-  [
-    localizedRootCopy.constructionNoticeLabel,
-    localizedRootCopy.constructionNoticeTitle,
-    localizedRootCopy.constructionNoticeBody,
-  ].forEach((noticeCopy) => {
-    assert.ok(
-      localizedRootDocument.markdown.includes(escapeMarkdownText(noticeCopy)),
-    );
-  });
+  assert.equal(
+    listMarkdownAstNodes(parseMarkdownAst(localizedRootDocument.markdown)).some(
+      (node) => node.type === "blockquote",
+    ),
+    false,
+  );
   assert.ok(collectionDocument);
+  assert.match(
+    collectionDocument.markdown,
+    new RegExp(
+      `Last updated: ${formatPublicCatalogDate("en", collectionUpdatedAt)}`,
+    ),
+  );
   assert.match(collectionDocument.markdown, /Collection \*\*description\*\*/);
   assert.match(collectionDocument.markdown, /1\. \[Canonical/);
   assert.equal(
@@ -1996,13 +2011,15 @@ test("rejects raw and repeatedly encoded backslashes in every Markdown destinati
   });
 });
 
-test("uses the canonical package publication date in Markdown and JSON-LD", () => {
+test("uses canonical package publication and version modification dates", () => {
   const input = createValidDump();
   const packagePublishedAt = "2026-07-30T09:00:00.000Z";
   const versionPublishedAt = "2026-08-02T10:00:00.000Z";
+  const versionUpdatedAt = "2026-08-04T09:00:00.000Z";
 
   input.packages[0].publishedAt = packagePublishedAt;
   input.packageVersions[1].publishedAt = versionPublishedAt;
+  input.packageVersions[1].updatedAt = versionUpdatedAt;
 
   const model = createPublicCatalogReadModel(parsePublicCatalogDump(input));
   const packageView = getPublicCatalogPackageBySlug(model, "canonical-package");
@@ -2017,7 +2034,9 @@ test("uses the canonical package publication date in Markdown and JSON-LD", () =
   assert.ok(markdown);
   assert.match(markdown, new RegExp(formatPublicCatalogDate("es", packagePublishedAt)));
   assert.doesNotMatch(markdown, new RegExp(formatPublicCatalogDate("es", versionPublishedAt)));
+  assert.match(markdown, new RegExp(formatPublicCatalogDate("es", versionUpdatedAt)));
   assert.equal(jsonLd["@graph"][0].datePublished, packagePublishedAt);
+  assert.equal(jsonLd["@graph"][0].dateModified, versionUpdatedAt);
   assert.match(markdown, /Versión: 2/);
   assert.match(markdown, /Tarjetas: 2 tarjetas/);
 });
@@ -2629,16 +2648,28 @@ test("resolves collection cover placeholders when its package or media reference
   );
 });
 
-test("uses package covers for catalog package social metadata", () => {
+test("uses entity modification times and package covers in social metadata", () => {
   const model = createPublicCatalogReadModel(parsePublicCatalogDump(createValidDump()));
   const packageView = getPublicCatalogPackageBySlug(model, "canonical-package");
+  const collection = getPublicCatalogCollectionBySlug(model, "starter-collection");
   const downloadUrl =
     `https://api.flashcards-open-source-app.com/v1/catalog/package-versions/${fixtureLatestVersionId}/media-assets/cover.webp/download`;
 
   assert.ok(packageView);
+  assert.ok(collection);
 
   const metadata = createPublicCatalogPackageMetadata("en", packageView);
+  const collectionMetadata = createPublicCatalogCollectionMetadata(
+    "en",
+    collection,
+  );
+  const packageOpenGraph = metadata.openGraph;
+  const collectionOpenGraph = collectionMetadata.openGraph;
 
+  assert.ok(packageOpenGraph?.type === "article");
+  assert.ok(collectionOpenGraph?.type === "article");
+  assert.equal(packageOpenGraph.modifiedTime, packageView.latestVersion.updatedAt);
+  assert.equal(collectionOpenGraph.modifiedTime, collection.updatedAt);
   assert.deepEqual(metadata.openGraph?.images, [
     {
       alt: "Cover image",

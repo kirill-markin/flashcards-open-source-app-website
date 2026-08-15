@@ -92,6 +92,7 @@ function renderPackageFacts(
     `- ${copy.cardsLabel}: ${formatPublicCatalogCardCount(locale, latestVersion.cardCount, copy)}`,
     `- ${copy.versionLabel}: ${formatPublicCatalogNumber(locale, latestVersion.versionNumber)}`,
     `- ${copy.publishedLabel}: ${formatPublicCatalogDate(locale, packageMetadata.publishedAt)}`,
+    `- ${copy.lastUpdatedLabel}: ${formatPublicCatalogDate(locale, latestVersion.updatedAt)}`,
     `- ${copy.licenseLabel}: ${escapeMarkdownText(latestVersion.license)}`,
   ];
 
@@ -211,12 +212,6 @@ function renderCatalogRoot(
     `# ${escapeMarkdownText(copy.title)}`,
     "",
     escapeMarkdownText(copy.intro),
-    "",
-    `> **${escapeMarkdownText(copy.constructionNoticeLabel)}**`,
-    ">",
-    `> **${escapeMarkdownText(copy.constructionNoticeTitle)}**`,
-    ">",
-    `> ${escapeMarkdownText(copy.constructionNoticeBody)}`,
     "",
     `- ${createLocalizedCatalogLink(
       destinationCopy.authorsTitle,
@@ -444,6 +439,7 @@ function renderCollectionDetail(
 
   lines.push(
     `- ${catalogCopy.publishedLabel}: ${formatPublicCatalogDate(locale, collection.publishedAt)}`,
+    `- ${catalogCopy.lastUpdatedLabel}: ${formatPublicCatalogDate(locale, collection.updatedAt)}`,
     `- ${catalogCopy.languagesLabel}: ${joinLinks(collection.languageTags.map((languageTag) =>
       createLocalizedCatalogLink(
         languageTag,
