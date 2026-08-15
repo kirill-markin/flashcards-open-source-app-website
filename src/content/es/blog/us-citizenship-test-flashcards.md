@@ -2,6 +2,7 @@
 title: "Flashcards para el examen de ciudadanía de EE. UU.: estudia el examen de educación cívica de 2025 en 2026"
 description: "Crea flashcards precisas para el examen de educación cívica de 2025, con práctica oral y respuestas que debes verificar antes de la entrevista de naturalización."
 date: "2026-07-24"
+updated: "2026-08-15"
 image: "/blog/us-citizenship-test-flashcards.png"
 keywords:
   - "flashcards para el examen de ciudadanía de EE. UU."
@@ -181,7 +182,7 @@ Si se aplica la regla 65/20, crea un mazo o un filtro separado con las 20 pregun
 
 [Flashcards Open Source App](/features/) cubre la parte práctica de este flujo: tarjetas de anverso y reverso, mazos, etiquetas, repasos programados y planificación con FSRS en la aplicación web, iOS y Android. El proyecto es de código abierto y utiliza la licencia MIT.
 
-La aplicación no está afiliada a USCIS. No incluye un mazo oficial para el examen de ciudadanía, no sincroniza automáticamente los cambios de cargos públicos, no importa el PDF de USCIS con un solo clic, no evalúa las respuestas orales ni simula la entrevista de naturalización. Tú aportas el material de las fuentes oficiales, mantienes actualizadas las respuestas que pueden cambiar y decides cómo evaluar lo que recuerdas.
+El [mazo para el examen de ciudadanía de EE. UU.](/catalog/packages/us-citizenship-test/) se ha creado de forma independiente a partir de materiales oficiales de USCIS. No es un producto oficial de USCIS, ni está afiliado a USCIS ni cuenta con su respaldo. No sincroniza automáticamente los cambios de cargos públicos, no importa el PDF de USCIS con un solo clic, no evalúa las respuestas orales ni simula la entrevista de naturalización. Debes verificar y mantener actualizadas las respuestas que pueden cambiar mediante fuentes oficiales vigentes, y tú decides cómo evaluar lo que recuerdas.
 
 Si esta función limitada encaja en tu plan de estudio, la [guía de primeros pasos](/docs/getting-started/) explica las opciones actuales de la web y las aplicaciones.
 
