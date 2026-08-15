@@ -3,10 +3,11 @@ import { FullAppCtaPanel } from "@/components/AppCtaPanel";
 import { AuthButton } from "@/components/AuthButton";
 import { AuthAwareAppCtaLink } from "@/components/AuthAwareAppCtaLink";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
-import { CopyCodeField } from "@/components/CopyCodeField";
 import { HumanPlatformLinks } from "@/components/HumanPlatformLinks";
 import { PublicActivitySection } from "@/components/PublicActivitySection";
 import { SiteFrame } from "@/components/SiteFrame";
+import { TrackedMcpEndpointCopyField } from "@/components/TrackedMcpEndpointCopyField";
+import { TrackedSelfHostCtaLink } from "@/components/TrackedSelfHostCtaLink";
 import { renderMarkdownToHtml } from "@/lib/content/renderMarkdownToHtml";
 import { readPageContent } from "@/lib/content/readPageContent";
 import type {
@@ -24,7 +25,6 @@ import {
 } from "@/lib/globalActivitySnapshot";
 import { getHomeShowcaseImagePath } from "@/lib/homeShowcaseImage";
 import { getLocalizedPathname, type AppLocale } from "@/lib/i18n";
-import { getExternalLinkAttributes } from "@/lib/linkTargets";
 import { getUiCopy } from "@/lib/uiCopy";
 import homeStyles from "@/app/page.module.css";
 import featureStyles from "@/app/features/page.module.css";
@@ -131,11 +131,12 @@ function renderHomePage(
               {uiCopy.home.agentHintDescription}
             </p>
             {heroSection.agentConnectors.map((connector) => (
-              <CopyCodeField
+              <TrackedMcpEndpointCopyField
                 key={connector.link.href}
                 caption={connector.caption}
-                value={connector.link.href}
                 labels={uiCopy.copyCodeField}
+                locale={locale}
+                value={connector.link.href}
               />
             ))}
           </div>
@@ -273,13 +274,12 @@ function renderPricingTier(
           />
         </div>
       ) : (
-        <a
-          href={tier.cta.href}
-          {...getExternalLinkAttributes(tier.cta.href)}
+        <TrackedSelfHostCtaLink
           className={pricingStyles.secondaryButton}
-        >
-          {tier.cta.label}
-        </a>
+          href={tier.cta.href}
+          label={tier.cta.label}
+          locale={locale}
+        />
       )}
     </div>
   );
