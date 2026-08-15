@@ -8,7 +8,9 @@ export type AppEntryAction = "login" | "open_app" | "signup";
 export type AppEntryPlacement =
   | "header_desktop"
   | "header_mobile"
+  | "home_human_access"
   | "home_hero"
+  | "footer"
   | "pricing"
   | "features_end"
   | "activity_end";
