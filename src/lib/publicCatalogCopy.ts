@@ -36,9 +36,6 @@ export interface PublicCatalogUiCopy {
   readonly cardCountTemplates: Readonly<Record<Intl.LDMLPluralRule, string>>;
   readonly cardsLabel: string;
   readonly contentWarningLabel: string;
-  readonly constructionNoticeBody: string;
-  readonly constructionNoticeLabel: string;
-  readonly constructionNoticeTitle: string;
   readonly coverPlaceholderLabel: string;
   readonly deckDetailsHeading: string;
   readonly descriptionHeading: string;
@@ -46,6 +43,7 @@ export interface PublicCatalogUiCopy {
   readonly installHelper: string;
   readonly installLabel: string;
   readonly intro: string;
+  readonly lastUpdatedLabel: string;
   readonly languagesLabel: string;
   readonly licenseLabel: string;
   readonly navigationLabel: string;
@@ -107,10 +105,6 @@ const PUBLIC_CATALOG_COPY_BY_LOCALE: Readonly<
     },
     cardsLabel: "Cards",
     contentWarningLabel: "Content warning",
-    constructionNoticeBody:
-      "Ready-to-use flashcard decks will be available here soon.",
-    constructionNoticeLabel: "Catalog update",
-    constructionNoticeTitle: "This page is under construction",
     coverPlaceholderLabel: "Cover preview unavailable",
     deckDetailsHeading: "Deck details",
     descriptionHeading: "About this deck",
@@ -118,6 +112,7 @@ const PUBLIC_CATALOG_COPY_BY_LOCALE: Readonly<
     installHelper: "Flashcards opens so you can start studying.",
     installLabel: "Study this deck for free",
     intro: "Browse public flashcard decks shared by the community.",
+    lastUpdatedLabel: "Last updated",
     languagesLabel: "Languages",
     licenseLabel: "License",
     navigationLabel: "Catalog",
@@ -175,10 +170,6 @@ const PUBLIC_CATALOG_COPY_BY_LOCALE: Readonly<
     },
     cardsLabel: "Tarjetas",
     contentWarningLabel: "Advertencia de contenido",
-    constructionNoticeBody:
-      "Pronto encontrarás aquí mazos de tarjetas listos para usar.",
-    constructionNoticeLabel: "Novedades del catálogo",
-    constructionNoticeTitle: "Esta página está en construcción",
     coverPlaceholderLabel: "Vista previa de portada no disponible",
     deckDetailsHeading: "Detalles del mazo",
     descriptionHeading: "Sobre este mazo",
@@ -186,6 +177,7 @@ const PUBLIC_CATALOG_COPY_BY_LOCALE: Readonly<
     installHelper: "Flashcards se abrirá para que puedas empezar a estudiar.",
     installLabel: "Estudia este mazo gratis",
     intro: "Explora mazos públicos de tarjetas compartidos por la comunidad.",
+    lastUpdatedLabel: "Última actualización",
     languagesLabel: "Idiomas",
     licenseLabel: "Licencia",
     navigationLabel: "Catálogo",
@@ -243,10 +235,6 @@ const PUBLIC_CATALOG_COPY_BY_LOCALE: Readonly<
     },
     cardsLabel: "البطاقات",
     contentWarningLabel: "تحذير بشأن المحتوى",
-    constructionNoticeBody:
-      "ستجد هنا قريبًا مجموعات بطاقات تعليمية جاهزة للاستخدام.",
-    constructionNoticeLabel: "تحديث الكتالوج",
-    constructionNoticeTitle: "هذه الصفحة قيد الإنشاء",
     coverPlaceholderLabel: "معاينة الغلاف غير متاحة",
     deckDetailsHeading: "تفاصيل الرزمة",
     descriptionHeading: "حول هذه الرزمة",
@@ -254,6 +242,7 @@ const PUBLIC_CATALOG_COPY_BY_LOCALE: Readonly<
     installHelper: "سيفتح تطبيق Flashcards لتبدأ الدراسة.",
     installLabel: "ادرس هذه الرزمة مجانًا",
     intro: "تصفح رزم البطاقات التعليمية العامة التي يشاركها المجتمع.",
+    lastUpdatedLabel: "آخر تحديث",
     languagesLabel: "اللغات",
     licenseLabel: "الترخيص",
     navigationLabel: "الكتالوج",
@@ -311,10 +300,6 @@ const PUBLIC_CATALOG_COPY_BY_LOCALE: Readonly<
     },
     cardsLabel: "Karten",
     contentWarningLabel: "Inhaltswarnung",
-    constructionNoticeBody:
-      "Bald findest du hier sofort einsatzbereite Lernkartensätze.",
-    constructionNoticeLabel: "Katalog-Update",
-    constructionNoticeTitle: "Diese Seite wird gerade erstellt",
     coverPlaceholderLabel: "Covervorschau nicht verfügbar",
     deckDetailsHeading: "Details zum Lernkartenset",
     descriptionHeading: "Über dieses Lernkartenset",
@@ -322,6 +307,7 @@ const PUBLIC_CATALOG_COPY_BY_LOCALE: Readonly<
     installHelper: "Flashcards wird geöffnet, damit du mit dem Lernen beginnen kannst.",
     installLabel: "Mit diesem Lernkartenset kostenlos lernen",
     intro: "Entdecke öffentliche Lernkartensets aus der Community.",
+    lastUpdatedLabel: "Zuletzt aktualisiert",
     languagesLabel: "Sprachen",
     licenseLabel: "Lizenz",
     navigationLabel: "Katalog",
@@ -379,10 +365,6 @@ const PUBLIC_CATALOG_COPY_BY_LOCALE: Readonly<
     },
     cardsLabel: "कार्ड",
     contentWarningLabel: "सामग्री चेतावनी",
-    constructionNoticeBody:
-      "जल्द ही यहाँ इस्तेमाल के लिए तैयार फ़्लैशकार्ड डेक मिलेंगे।",
-    constructionNoticeLabel: "कैटलॉग अपडेट",
-    constructionNoticeTitle: "यह पेज अभी तैयार किया जा रहा है",
     coverPlaceholderLabel: "कवर पूर्वावलोकन उपलब्ध नहीं है",
     deckDetailsHeading: "डेक का विवरण",
     descriptionHeading: "इस डेक के बारे में",
@@ -390,6 +372,7 @@ const PUBLIC_CATALOG_COPY_BY_LOCALE: Readonly<
     installHelper: "पढ़ाई शुरू करने के लिए Flashcards खुलेगा।",
     installLabel: "इस डेक से मुफ़्त में पढ़ें",
     intro: "समुदाय द्वारा साझा किए गए सार्वजनिक फ़्लैशकार्ड डेक देखें।",
+    lastUpdatedLabel: "पिछली बार अपडेट किया गया",
     languagesLabel: "भाषाएँ",
     licenseLabel: "लाइसेंस",
     navigationLabel: "कैटलॉग",
@@ -447,10 +430,6 @@ const PUBLIC_CATALOG_COPY_BY_LOCALE: Readonly<
     },
     cardsLabel: "カード",
     contentWarningLabel: "コンテンツに関する注意",
-    constructionNoticeBody:
-      "まもなく、すぐに使えるフラッシュカードデッキをここで公開します。",
-    constructionNoticeLabel: "カタログ更新情報",
-    constructionNoticeTitle: "このページは現在準備中です",
     coverPlaceholderLabel: "カバーのプレビューは利用できません",
     deckDetailsHeading: "デッキの詳細",
     descriptionHeading: "このデッキについて",
@@ -458,6 +437,7 @@ const PUBLIC_CATALOG_COPY_BY_LOCALE: Readonly<
     installHelper: "Flashcards が開き、すぐに学習を始められます。",
     installLabel: "このデッキを無料で学習",
     intro: "コミュニティが共有した公開フラッシュカードデッキを探せます。",
+    lastUpdatedLabel: "最終更新",
     languagesLabel: "言語",
     licenseLabel: "ライセンス",
     navigationLabel: "カタログ",
@@ -515,10 +495,6 @@ const PUBLIC_CATALOG_COPY_BY_LOCALE: Readonly<
     },
     cardsLabel: "Карточки",
     contentWarningLabel: "Предупреждение о содержании",
-    constructionNoticeBody:
-      "Скоро здесь появятся готовые к использованию колоды карточек.",
-    constructionNoticeLabel: "Обновление каталога",
-    constructionNoticeTitle: "Эта страница находится в разработке",
     coverPlaceholderLabel: "Предпросмотр обложки недоступен",
     deckDetailsHeading: "Сведения о колоде",
     descriptionHeading: "Об этой колоде",
@@ -526,6 +502,7 @@ const PUBLIC_CATALOG_COPY_BY_LOCALE: Readonly<
     installHelper: "Откроется Flashcards, и вы сможете начать изучение.",
     installLabel: "Изучать эту колоду бесплатно",
     intro: "Просматривайте общедоступные колоды карточек от сообщества.",
+    lastUpdatedLabel: "Последнее обновление",
     languagesLabel: "Языки",
     licenseLabel: "Лицензия",
     navigationLabel: "Каталог",
@@ -583,9 +560,6 @@ const PUBLIC_CATALOG_COPY_BY_LOCALE: Readonly<
     },
     cardsLabel: "卡片",
     contentWarningLabel: "内容警告",
-    constructionNoticeBody: "这里很快会上线可直接使用的闪卡牌组。",
-    constructionNoticeLabel: "目录更新",
-    constructionNoticeTitle: "此页面正在建设中",
     coverPlaceholderLabel: "封面预览不可用",
     deckDetailsHeading: "卡组详情",
     descriptionHeading: "关于这套卡组",
@@ -593,6 +567,7 @@ const PUBLIC_CATALOG_COPY_BY_LOCALE: Readonly<
     installHelper: "Flashcards 将打开，你可以立即开始学习。",
     installLabel: "免费学习这套卡组",
     intro: "浏览社区分享的公开闪卡组。",
+    lastUpdatedLabel: "最后更新",
     languagesLabel: "语言",
     licenseLabel: "许可证",
     navigationLabel: "目录",
