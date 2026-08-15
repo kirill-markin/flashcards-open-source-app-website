@@ -2,22 +2,23 @@
 
 :root {
   color-scheme: dark;
-  --bg: #000000;
-  --bg-elevated: #000000;
-  --surface: #1c1c1e;
-  --surface-elevated: #1c1c1e;
-  --surface-hover: #242426;
-  --surface-glass: rgba(26, 26, 30, 0.78);
-  --surface-muted: rgba(255, 255, 255, 0.04);
-  --text: #f6f6f8;
-  --text-secondary: rgba(235, 235, 245, 0.66);
-  --text-tertiary: rgba(235, 235, 245, 0.42);
-  --accent: #c44b2d;
-  --accent-strong: #d65a38;
-  --accent-soft: rgba(196, 75, 45, 0.12);
-  --accent-muted: rgba(196, 75, 45, 0.18);
-  --border: rgba(255, 255, 255, 0.1);
-  --border-strong: rgba(255, 255, 255, 0.16);
+  --bg: #161718;
+  --bg-elevated: #1b1d1d;
+  --surface: #232525;
+  --surface-elevated: #292b2b;
+  --surface-hover: #2f3131;
+  --surface-glass: rgba(35, 37, 37, 0.78);
+  --surface-muted: rgba(238, 238, 238, 0.04);
+  --text: #eeeeee;
+  --text-secondary: #b7b7b7;
+  --text-tertiary: #777777;
+  --accent: #ff6719;
+  --accent-strong: #ff7a3d;
+  --accent-foreground: var(--bg);
+  --accent-soft: rgba(255, 103, 25, 0.12);
+  --accent-muted: rgba(255, 103, 25, 0.18);
+  --border: rgba(238, 238, 238, 0.1);
+  --border-strong: rgba(238, 238, 238, 0.16);
   --danger: #ff4d57;
   --shadow: 0 28px 80px rgba(0, 0, 0, 0.44);
   --shadow-soft: 0 12px 30px rgba(0, 0, 0, 0.26);
@@ -29,7 +30,12 @@
   --radius-xl: 32px;
   --radius-pill: 999px;
   --content-width: 1240px;
+  --ui-font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", system-ui, sans-serif;
   --reading-serif-font-family: var(--font-source-serif), Georgia, Cambria, "Times New Roman", Times, serif;
+  --reading-width: 728px;
+  --reading-font-size: 20px;
+  --reading-line-height: 1.6;
+  --reading-letter-spacing: -0.006em;
 }
 
 html,
@@ -47,13 +53,7 @@ html {
 body {
   background: transparent;
   color: var(--text);
-  font-family:
-    -apple-system,
-    BlinkMacSystemFont,
-    "SF Pro Display",
-    "SF Pro Text",
-    system-ui,
-    sans-serif;
+  font-family: var(--ui-font-family);
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
@@ -66,7 +66,7 @@ body {
 }
 
 ::selection {
-  background: rgba(196, 75, 45, 0.34);
+  background: rgba(255, 103, 25, 0.34);
   color: var(--text);
 }
 
@@ -88,4 +88,10 @@ select {
 
 main {
   min-height: calc(100vh - 240px);
+}
+
+@media (max-width: 768px) {
+  :root {
+    --reading-font-size: 18px;
+  }
 }
