@@ -1,4 +1,7 @@
-export const publicCatalogSchemaVersion = 1;
+export const publicCatalogSchemaVersions = [1, 2] as const;
+
+export type PublicCatalogSchemaVersion =
+  (typeof publicCatalogSchemaVersions)[number];
 
 export type PublicCatalogAuthor = Readonly<{
   authorId: string;
@@ -28,7 +31,6 @@ export type PublicCatalogPackageVersion = Readonly<{
   summary: string;
   description: string;
   languageTags: ReadonlyArray<string>;
-  topicTags: ReadonlyArray<string>;
   license: string;
   contentWarning: string | null;
   coverMediaAssetId: string | null;
@@ -68,7 +70,6 @@ export type PublicCatalogCollection = Readonly<{
   summary: string;
   description: string;
   languageTags: ReadonlyArray<string>;
-  topicTags: ReadonlyArray<string>;
   coverPackageId: string | null;
   status: "published";
   updatedAt: string;
@@ -82,7 +83,7 @@ export type PublicCatalogCollectionPackage = Readonly<{
 }>;
 
 export type PublicCatalogDump = Readonly<{
-  schemaVersion: typeof publicCatalogSchemaVersion;
+  schemaVersion: PublicCatalogSchemaVersion;
   generatedAt: string;
   authors: ReadonlyArray<PublicCatalogAuthor>;
   packages: ReadonlyArray<PublicCatalogPackage>;

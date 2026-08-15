@@ -16,9 +16,8 @@ import {
 import {
   getPublicCatalogCollectionRoutePathname,
   getPublicCatalogLanguageRoutePathname,
-  getPublicCatalogTopicRoutePathname,
+  getPublicCatalogRootUrl,
   PUBLIC_CATALOG_COLLECTIONS_ROUTE_PATHNAME,
-  PUBLIC_CATALOG_ROUTE_PATHNAME,
 } from "@/lib/publicCatalogUrls";
 import { createPublicCatalogCollectionsJsonLd } from "@/lib/seo/publicCatalogStructuredData";
 import styles from "@/app/catalog/destinations.module.css";
@@ -45,7 +44,7 @@ export function PublicCatalogCollectionsPageView({
             items={[
               {
                 label: catalogCopy.breadcrumbLabel,
-                href: getLocalizedPathname(locale, PUBLIC_CATALOG_ROUTE_PATHNAME),
+                href: getPublicCatalogRootUrl(locale),
               },
               {
                 label: copy.collectionsTitle,
@@ -102,19 +101,6 @@ export function PublicCatalogCollectionsPageView({
                           )}
                         >
                           {languageTag}
-                        </Link>
-                      </li>
-                    ))}
-                    {collection.topicTags.map((topicTag) => (
-                      <li key={`topic:${topicTag}`}>
-                        <Link
-                          className={styles.facetLink}
-                          href={getLocalizedPathname(
-                            locale,
-                            getPublicCatalogTopicRoutePathname(topicTag),
-                          )}
-                        >
-                          {topicTag}
                         </Link>
                       </li>
                     ))}

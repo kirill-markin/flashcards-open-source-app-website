@@ -4,9 +4,9 @@ import { getLocalizedPathname } from "@/lib/i18n";
 import { getPublicCatalogDestinationCopy } from "@/lib/publicCatalogDestinationCopy";
 import { getPublicCatalogUiCopy } from "@/lib/publicCatalogCopy";
 import {
+  getPublicCatalogRootUrl,
   PUBLIC_CATALOG_AUTHORS_ROUTE_PATHNAME,
   PUBLIC_CATALOG_COLLECTIONS_ROUTE_PATHNAME,
-  PUBLIC_CATALOG_ROUTE_PATHNAME,
 } from "@/lib/publicCatalogUrls";
 import styles from "./PublicCatalogNavigation.module.css";
 
@@ -23,17 +23,17 @@ export function PublicCatalogNavigation({
   const catalogCopy = getPublicCatalogUiCopy(locale);
   const links = [
     {
-      href: PUBLIC_CATALOG_ROUTE_PATHNAME,
+      href: getPublicCatalogRootUrl(locale),
       label: copy.allPackagesNavigationLabel,
       section: "packages" as const,
     },
     {
-      href: PUBLIC_CATALOG_COLLECTIONS_ROUTE_PATHNAME,
+      href: getLocalizedPathname(locale, PUBLIC_CATALOG_COLLECTIONS_ROUTE_PATHNAME),
       label: copy.collectionsNavigationLabel,
       section: "collections" as const,
     },
     {
-      href: PUBLIC_CATALOG_AUTHORS_ROUTE_PATHNAME,
+      href: getLocalizedPathname(locale, PUBLIC_CATALOG_AUTHORS_ROUTE_PATHNAME),
       label: copy.authorsNavigationLabel,
       section: "authors" as const,
     },
@@ -50,7 +50,7 @@ export function PublicCatalogNavigation({
               <Link
                 aria-current={isCurrent ? "page" : undefined}
                 className={`${styles.link} ${isCurrent ? styles.current : ""}`}
-                href={getLocalizedPathname(locale, link.href)}
+                href={link.href}
               >
                 {link.label}
               </Link>

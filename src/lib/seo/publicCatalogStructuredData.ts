@@ -21,7 +21,6 @@ import {
   getPublicCatalogCollectionRoutePathname,
   getPublicCatalogLanguageRoutePathname,
   getPublicCatalogPackageRoutePathname,
-  getPublicCatalogTopicRoutePathname,
   PUBLIC_CATALOG_AUTHORS_ROUTE_PATHNAME,
   PUBLIC_CATALOG_COLLECTIONS_ROUTE_PATHNAME,
   PUBLIC_CATALOG_ROUTE_PATHNAME,
@@ -91,7 +90,6 @@ interface PublicCatalogPackageResource {
   readonly hasPart?: CatalogEntityReference;
   readonly inLanguage?: ReadonlyArray<string>;
   readonly isPartOf?: ReadonlyArray<CatalogCollectionReference>;
-  readonly keywords?: ReadonlyArray<string>;
   readonly license: CatalogLicenseCreativeWork;
   readonly name: string;
   readonly url: string;
@@ -237,7 +235,9 @@ export function createPublicCatalogRootJsonLd(
   return createCatalogCollectionPageJsonLd({
     datePublished: null,
     description: copy.intro,
-    entities: createPackageListEntities(catalog.packages),
+    entities: createPackageListEntities(
+      catalog.packagesByLanguageTag.get(locale) ?? [],
+    ),
     locale,
     name: copy.title,
     ordered: false,
@@ -286,33 +286,29 @@ export function createPublicCatalogCollectionsJsonLd(
 }
 
 export function createPublicCatalogFacetJsonLd(
-  facetKind: "language" | "topic",
   locale: AppLocale,
   packages: ReadonlyArray<PublicCatalogPackageView>,
   tag: string,
 ): CatalogCollectionPageJsonLd {
   const copy = getPublicCatalogDestinationCopy(locale);
   const displayTag = formatPublicCatalogFacetTag(tag);
-  const isLanguage = facetKind === "language";
 
   return createCatalogCollectionPageJsonLd({
     datePublished: null,
     description: interpolatePublicCatalogCopy(
-      isLanguage ? copy.languageIntroTemplate : copy.topicIntroTemplate,
+      copy.languageIntroTemplate,
       "tag",
       displayTag,
     ),
     entities: createPackageListEntities(packages),
     locale,
     name: interpolatePublicCatalogCopy(
-      isLanguage ? copy.languageTitleTemplate : copy.topicTitleTemplate,
+      copy.languageTitleTemplate,
       "tag",
       displayTag,
     ),
     ordered: false,
-    routePathname: isLanguage
-      ? getPublicCatalogLanguageRoutePathname(tag)
-      : getPublicCatalogTopicRoutePathname(tag),
+    routePathname: getPublicCatalogLanguageRoutePathname(tag),
   });
 }
 
@@ -400,9 +396,6 @@ export function createPublicCatalogPackageJsonLd(
     ...(latestVersion.languageTags.length === 0
       ? {}
       : { inLanguage: latestVersion.languageTags }),
-    ...(latestVersion.topicTags.length === 0
-      ? {}
-      : { keywords: latestVersion.topicTags }),
     ...(collections.length === 0
       ? {}
       : {
@@ -424,15 +417,13 @@ export function createPublicCatalogPackageJsonLd(
     };
   }
 
-  const aboutNames = [latestVersion.title, ...latestVersion.topicTags]
-    .filter((name, index, names) => names.indexOf(name) === index);
   const quiz: CatalogQuiz = {
     "@id": quizId,
     "@type": "Quiz",
-    about: aboutNames.map((name) => ({
+    about: [{
       "@type": "Thing",
-      name,
-    })),
+      name: latestVersion.title,
+    }],
     hasPart: questions,
     isPartOf: { "@id": resourceId },
     name: latestVersion.title,

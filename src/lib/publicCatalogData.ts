@@ -38,7 +38,3 @@ export function listPublicCatalogCollectionSlugs(): ReadonlyArray<string> {
 export function listPublicCatalogLanguageTags(): ReadonlyArray<string> {
   return readPublicCatalog()?.languageTags ?? [];
 }
-
-export function listPublicCatalogTopicTags(): ReadonlyArray<string> {
-  return readPublicCatalog()?.topicTags ?? [];
-}
