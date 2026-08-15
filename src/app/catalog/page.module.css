@@ -5,11 +5,7 @@
 }
 
 .introPanel {
-  padding: clamp(20px, 3vw, 32px);
-  border: 1px solid var(--border);
-  border-radius: var(--radius-xl);
-  background: var(--surface);
-  box-shadow: var(--shadow-soft);
+  min-width: 0;
 }
 
 .title {
@@ -51,13 +47,8 @@
 
 @media (max-width: 640px) {
   .container {
-    padding-inline: 14px;
+    padding-inline: 20px;
     padding-top: 26px;
-  }
-
-  .introPanel {
-    padding: 16px;
-    border-radius: 20px;
   }
 
   .grid {

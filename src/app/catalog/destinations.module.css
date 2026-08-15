@@ -11,11 +11,7 @@
 }
 
 .panel {
-  padding: clamp(20px, 3vw, 32px);
-  border: 1px solid var(--border);
-  border-radius: var(--radius-xl);
-  background: var(--surface);
-  box-shadow: var(--shadow-soft);
+  min-width: 0;
 }
 
 .title {
@@ -26,11 +22,16 @@
   overflow-wrap: anywhere;
 }
 
-.intro,
-.summary,
-.bio,
 .metadata {
   color: var(--text-secondary);
+  line-height: 1.6;
+  overflow-wrap: anywhere;
+}
+
+.intro,
+.summary,
+.bio {
+  color: var(--text);
   line-height: 1.6;
   overflow-wrap: anywhere;
 }
@@ -163,12 +164,10 @@
 }
 
 .section {
-  margin-top: 20px;
-  padding: clamp(20px, 3vw, 28px);
-  border: 1px solid var(--border);
-  border-radius: var(--radius-xl);
-  background: var(--surface);
-  box-shadow: var(--shadow-soft);
+  min-width: 0;
+  margin-top: clamp(28px, 4vw, 40px);
+  padding-block-start: clamp(24px, 3vw, 32px);
+  border-block-start: 1px solid var(--border);
 }
 
 .sectionHeader {
@@ -208,11 +207,17 @@
 }
 
 .markdown {
-  color: var(--text-secondary);
+  max-width: var(--reading-width);
+  color: var(--text);
   font-family: var(--reading-serif-font-family);
-  font-size: 16px;
-  line-height: 1.68;
+  font-size: var(--reading-font-size);
+  line-height: var(--reading-line-height);
+  letter-spacing: var(--reading-letter-spacing);
   overflow-wrap: anywhere;
+}
+
+.section > .markdown {
+  margin-top: 16px;
 }
 
 .markdown > :first-child {
@@ -237,10 +242,23 @@
   padding-inline-start: 22px;
 }
 
+.markdown h1,
+.markdown h2,
+.markdown h3,
+.markdown h4,
+.markdown h5,
+.markdown h6 {
+  color: var(--text);
+  font-family: var(--ui-font-family);
+}
+
 .markdown a {
-  color: #ffd6c9;
-  text-decoration: underline;
-  text-underline-offset: 0.14em;
+  color: inherit;
+  font-weight: inherit;
+  text-decoration-line: underline;
+  text-decoration-color: rgba(255, 103, 25, 0.65);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.18em;
 }
 
 @media (max-width: 980px) {
@@ -252,14 +270,8 @@
 @media (max-width: 700px) {
   .container,
   .narrowContainer {
-    padding-inline: 14px;
+    padding-inline: 20px;
     padding-top: 26px;
-  }
-
-  .panel,
-  .section {
-    padding: 16px;
-    border-radius: 20px;
   }
 
   .list,
