@@ -41,7 +41,7 @@
   padding-inline: 16px;
   border-radius: var(--radius-pill);
   background: var(--accent);
-  color: #fff5f2;
+  color: var(--accent-foreground);
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.14);
   font-size: 14px;
   font-weight: 600;
@@ -100,7 +100,7 @@
 @media (hover: hover) and (pointer: fine) {
   .action:hover {
     background: var(--accent-strong);
-    color: #fff5f2;
+    color: var(--accent-foreground);
     transform: translateY(-1px);
   }
 
