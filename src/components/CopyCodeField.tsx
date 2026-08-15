@@ -5,17 +5,25 @@ import styles from "./CopyCodeField.module.css";
 
 type CopyState = "idle" | "copied" | "failed";
 
+export interface CopyCodeFieldLabels {
+  readonly copied: string;
+  readonly copy: string;
+  readonly copyFailed: string;
+}
+
 interface CopyCodeFieldProps {
   readonly caption?: string;
-  readonly labels: {
-    readonly copied: string;
-    readonly copy: string;
-    readonly copyFailed: string;
-  };
+  readonly labels: CopyCodeFieldLabels;
+  readonly onCopySuccess: () => void;
   readonly value: string;
 }
 
-export function CopyCodeField({ caption, value, labels }: CopyCodeFieldProps) {
+export function CopyCodeField({
+  caption,
+  labels,
+  onCopySuccess,
+  value,
+}: CopyCodeFieldProps): React.JSX.Element {
   const [copyState, setCopyState] = useState<CopyState>("idle");
   const resetTimeoutRef = useRef<number | null>(null);
 
@@ -31,6 +39,8 @@ export function CopyCodeField({ caption, value, labels }: CopyCodeFieldProps) {
     navigator.clipboard
       .writeText(value)
       .then(() => {
+        onCopySuccess();
+
         if (resetTimeoutRef.current !== null) {
           window.clearTimeout(resetTimeoutRef.current);
         }
