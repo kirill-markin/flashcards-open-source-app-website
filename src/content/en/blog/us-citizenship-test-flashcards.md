@@ -2,6 +2,7 @@
 title: "U.S. Citizenship Test Flashcards: Study the 2025 Civics Test in 2026"
 description: "Build accurate U.S. citizenship test flashcards for the 2025 civics test, including oral practice and answers to verify before your interview."
 date: "2026-07-24"
+updated: "2026-08-15"
 image: "/blog/us-citizenship-test-flashcards.png"
 keywords:
   - "U.S. citizenship test flashcards"
@@ -181,7 +182,7 @@ If 65/20 applies, create a separate deck or filter from the 20 starred official 
 
 [Flashcards Open Source App](/features/) covers the practical middle of this workflow: front/back cards, decks, tags, due review, and FSRS scheduling across the hosted web app, iOS, and Android. The project is open source under the MIT license.
 
-It is not affiliated with USCIS. It does not include an official citizenship deck, automatically sync changed officeholders, import the USCIS PDF with one click, score spoken answers, or simulate the naturalization interview. You bring the official source material, maintain the mutable answers, and decide how to grade your recall.
+The [U.S. Citizenship Test deck](/catalog/packages/us-citizenship-test/) is independently based on official USCIS material. It is not an official USCIS product and is not affiliated with or endorsed by USCIS. It does not automatically sync changed officeholders, import the USCIS PDF with one click, score spoken answers, or simulate the naturalization interview. You must verify and maintain mutable answers against current official sources and decide how to grade your recall.
 
 If that narrow role suits your study plan, the [Getting Started guide](/docs/getting-started/) shows the current web and app paths.
 

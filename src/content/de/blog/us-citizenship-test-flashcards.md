@@ -2,6 +2,7 @@
 title: "Lernkarten für den US-Einbürgerungstest: Den Civics Test 2025 im Jahr 2026 lernen"
 description: "Erstelle zuverlässige Lernkarten für den US-Einbürgerungstest 2025, übe mündlich und prüfe veränderliche Antworten vor deinem Interview."
 date: "2026-07-24"
+updated: "2026-08-15"
 image: "/blog/us-citizenship-test-flashcards.png"
 keywords:
   - "Lernkarten US-Einbürgerungstest"
@@ -181,7 +182,7 @@ Wenn die 65/20-Regel für dich gilt, erstelle ein eigenes Deck oder einen Filter
 
 [Flashcards Open Source App](/features/) unterstützt den praktischen Teil dieses Ablaufs: Karten mit Vorder- und Rückseite, Decks, Tags, fällige Wiederholungen und eine Wiederholungsplanung mit FSRS in der gehosteten Web-App sowie unter iOS und Android. Das Projekt ist Open Source und steht unter der MIT-Lizenz.
 
-Die App ist nicht mit USCIS verbunden. Sie enthält kein offizielles Deck für den Einbürgerungstest, synchronisiert geänderte Amtsträger nicht automatisch, importiert das USCIS-PDF nicht mit einem Klick, bewertet keine gesprochenen Antworten und simuliert kein Einbürgerungsinterview. Du bringst das offizielle Quellenmaterial mit, pflegst die veränderlichen Antworten und entscheidest selbst, wie du deinen Abruf bewertest.
+Das [Lernkartendeck für den US-Einbürgerungstest](/catalog/packages/us-citizenship-test/) wurde unabhängig auf Grundlage der offiziellen USCIS-Materialien erstellt. Es ist kein offizielles USCIS-Produkt und weder mit USCIS verbunden noch von USCIS gebilligt. Es synchronisiert geänderte Amtsträger nicht automatisch, importiert das USCIS-PDF nicht mit einem Klick, bewertet keine gesprochenen Antworten und simuliert kein Einbürgerungsinterview. Du musst veränderliche Antworten anhand aktueller offizieller Quellen selbst prüfen und pflegen und entscheidest selbst, wie du deinen Abruf bewertest.
 
 Wenn diese klar begrenzte Rolle zu deinem Lernplan passt, zeigt der Leitfaden [Erste Schritte](/docs/getting-started/), wie du die Web-App und die mobilen Apps nutzt.
 
