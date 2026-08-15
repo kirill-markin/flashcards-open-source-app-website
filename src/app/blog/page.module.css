@@ -1,18 +1,11 @@
 .container {
-  width: min(100%, 980px);
+  width: min(100%, var(--reading-width));
   margin: 0 auto;
-  padding: 36px 20px 0;
-}
-
-.pagePanel {
-  border: 1px solid var(--border);
-  border-radius: var(--radius-xl);
-  background: var(--surface);
-  box-shadow: var(--shadow-soft);
+  padding: 36px 0 0;
 }
 
 .intro {
-  padding: clamp(20px, 3vw, 28px) clamp(20px, 3vw, 28px) 14px;
+  padding-block-end: 14px;
 }
 
 .title {
@@ -23,7 +16,7 @@
 }
 
 .listPanel {
-  padding: 0 clamp(20px, 3vw, 28px) clamp(20px, 3vw, 28px);
+  padding-block-end: clamp(20px, 3vw, 28px);
 }
 
 .empty {
@@ -99,20 +92,17 @@
 
 @media (max-width: 768px) {
   .container {
-    padding-inline: 14px;
+    width: 100%;
+    padding-inline: 20px;
     padding-top: 26px;
   }
 
-  .pagePanel {
-    border-radius: 20px;
-  }
-
   .intro {
-    padding: 16px;
+    padding-block-end: 16px;
   }
 
   .listPanel {
-    padding: 0 16px 16px;
+    padding-block-end: 20px;
   }
 
   .card {
