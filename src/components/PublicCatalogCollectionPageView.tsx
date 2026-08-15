@@ -92,6 +92,11 @@ export async function PublicCatalogCollectionPageView({
             <time dateTime={collection.publishedAt}>
               {formatPublicCatalogDate(locale, collection.publishedAt)}
             </time>
+            {" · "}
+            {catalogCopy.lastUpdatedLabel}: {" "}
+            <time dateTime={collection.updatedAt}>
+              {formatPublicCatalogDate(locale, collection.updatedAt)}
+            </time>
           </p>
           <PublicCatalogNavigation currentSection="collections" locale={locale} />
         </header>

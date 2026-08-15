@@ -52,6 +52,7 @@ interface CatalogItemList {
 interface CatalogCollectionPage {
   readonly "@id": string;
   readonly "@type": "CollectionPage";
+  readonly dateModified?: string;
   readonly datePublished?: string;
   readonly description: string;
   readonly inLanguage: AppLocale;
@@ -85,6 +86,7 @@ interface PublicCatalogPackageResource {
   readonly "@type": readonly ["LearningResource", "Collection"];
   readonly author: CatalogThingReference;
   readonly collectionSize: number;
+  readonly dateModified: string;
   readonly datePublished: string;
   readonly description: string;
   readonly hasPart?: CatalogEntityReference;
@@ -160,6 +162,7 @@ interface CatalogListEntity {
 }
 
 interface CreateCatalogCollectionPageJsonLdParams {
+  readonly dateModified: string | null;
   readonly datePublished: string | null;
   readonly description: string;
   readonly entities: ReadonlyArray<CatalogListEntity>;
@@ -186,6 +189,9 @@ function createCatalogCollectionPageJsonLd(
     mainEntity: { "@id": itemListId },
     name: params.name,
     url: pageUrl,
+    ...(params.dateModified === null
+      ? {}
+      : { dateModified: params.dateModified }),
     ...(params.datePublished === null
       ? {}
       : { datePublished: params.datePublished }),
@@ -233,6 +239,7 @@ export function createPublicCatalogRootJsonLd(
   const copy = getPublicCatalogUiCopy(locale);
 
   return createCatalogCollectionPageJsonLd({
+    dateModified: null,
     datePublished: null,
     description: copy.intro,
     entities: createPackageListEntities(
@@ -252,6 +259,7 @@ export function createPublicCatalogAuthorsJsonLd(
   const copy = getPublicCatalogDestinationCopy(locale);
 
   return createCatalogCollectionPageJsonLd({
+    dateModified: null,
     datePublished: null,
     description: copy.authorsIntro,
     entities: [...catalog.authorBySlug.values()].map((author) => ({
@@ -272,6 +280,7 @@ export function createPublicCatalogCollectionsJsonLd(
   const copy = getPublicCatalogDestinationCopy(locale);
 
   return createCatalogCollectionPageJsonLd({
+    dateModified: null,
     datePublished: null,
     description: copy.collectionsIntro,
     entities: [...catalog.collectionBySlug.values()].map((collection) => ({
@@ -294,6 +303,7 @@ export function createPublicCatalogFacetJsonLd(
   const displayTag = formatPublicCatalogFacetTag(tag);
 
   return createCatalogCollectionPageJsonLd({
+    dateModified: null,
     datePublished: null,
     description: interpolatePublicCatalogCopy(
       copy.languageIntroTemplate,
@@ -320,6 +330,7 @@ export function createPublicCatalogCollectionJsonLd(
   const copy = getPublicCatalogDestinationCopy(locale);
 
   return createCatalogCollectionPageJsonLd({
+    dateModified: collection.updatedAt,
     datePublished: collection.publishedAt,
     description: collection.summary === "" ? copy.collectionsIntro : collection.summary,
     entities: createPackageListEntities(packages),
@@ -384,6 +395,7 @@ export function createPublicCatalogPackageJsonLd(
       url: authorUrl,
     },
     collectionSize: packageView.latestVersion.cardCount,
+    dateModified: latestVersion.updatedAt,
     datePublished: packageMetadata.publishedAt,
     description: latestVersion.summary,
     license: {
