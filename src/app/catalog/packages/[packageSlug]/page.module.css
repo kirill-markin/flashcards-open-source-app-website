@@ -1,5 +1,5 @@
 .container {
-  width: min(100%, 1120px);
+  width: min(100%, 1040px);
   margin-inline: auto;
   padding: 36px 20px 0;
   display: grid;
@@ -9,15 +9,6 @@
 .packagePanel,
 .cardsPanel {
   min-width: 0;
-  border: 1px solid var(--border);
-  border-radius: var(--radius-xl);
-  background: var(--surface);
-  box-shadow: var(--shadow-soft);
-  overflow: hidden;
-}
-
-.packagePanel {
-  padding: clamp(20px, 3vw, 28px);
 }
 
 .pageGrid {
@@ -44,10 +35,13 @@
 }
 
 .summary {
+  max-width: var(--reading-width);
   margin: 14px 0 0;
-  color: var(--text-secondary);
-  font-size: 16px;
-  line-height: 1.6;
+  color: var(--text);
+  font-family: var(--reading-serif-font-family);
+  font-size: var(--reading-font-size);
+  line-height: var(--reading-line-height);
+  letter-spacing: var(--reading-letter-spacing);
   overflow-wrap: anywhere;
 }
 
@@ -59,15 +53,14 @@
 }
 
 .byline a,
-.facetList a {
-  text-decoration: underline;
-  text-underline-offset: 0.16em;
-}
-
-.byline a:hover,
-.facetList a:hover,
-.markdown a:hover {
-  color: #ffd6c9;
+.facetList a,
+.markdown a {
+  color: inherit;
+  font-weight: inherit;
+  text-decoration-line: underline;
+  text-decoration-color: rgba(255, 103, 25, 0.65);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.18em;
 }
 
 .byline a:focus-visible,
@@ -238,11 +231,13 @@
 }
 
 .markdown {
+  max-width: var(--reading-width);
   min-width: 0;
-  color: var(--text-secondary);
+  color: var(--text);
   font-family: var(--reading-serif-font-family);
-  font-size: 16px;
-  line-height: 1.68;
+  font-size: var(--reading-font-size);
+  line-height: var(--reading-line-height);
+  letter-spacing: var(--reading-letter-spacing);
   overflow-wrap: anywhere;
 }
 
@@ -271,6 +266,7 @@
 .markdown h6 {
   margin: 24px 0 10px;
   color: var(--text);
+  font-family: var(--ui-font-family);
   line-height: 1.25;
 }
 
@@ -282,12 +278,6 @@
 .cardSide > .markdown > ul,
 .cardSide > .markdown > ol {
   padding-inline-start: 0;
-}
-
-.markdown a {
-  color: #ffd6c9;
-  text-decoration: underline;
-  text-underline-offset: 0.14em;
 }
 
 .markdown code {
@@ -339,7 +329,8 @@
 }
 
 .cardsPanel {
-  padding: clamp(20px, 3vw, 28px);
+  padding-block-start: clamp(20px, 3vw, 28px);
+  border-block-start: 1px solid var(--border);
 }
 
 .cardList {
@@ -449,6 +440,11 @@
   background: rgba(0, 0, 0, 0.18);
 }
 
+.cardSide > .markdown {
+  font-size: 18px;
+  line-height: 1.55;
+}
+
 .cardSideLabel {
   margin: 0 0 9px;
   color: var(--text-tertiary);
@@ -460,19 +456,18 @@
 
 .empty {
   margin: 0;
+  padding: 22px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  background: rgba(255, 255, 255, 0.035);
   color: var(--text-secondary);
+  text-align: center;
 }
 
 @media (max-width: 700px) {
   .container {
-    padding-inline: 14px;
+    padding-inline: 20px;
     padding-top: 26px;
-  }
-
-  .packagePanel,
-  .cardsPanel {
-    padding: 16px;
-    border-radius: 20px;
   }
 
   .pageGrid {

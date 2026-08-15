@@ -59,7 +59,7 @@
 .titleLink:hover,
 .authorLink:hover,
 .facetLink:hover {
-  color: #ffd6c9;
+  color: var(--text);
 }
 
 .byline,
