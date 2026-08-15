@@ -23,7 +23,6 @@ export interface PublicCatalogBrowseUiCopy {
   readonly sortNewestLabel: string;
   readonly sortRelevanceLabel: string;
   readonly sortTitleLabel: string;
-  readonly topicLabel: string;
 }
 
 export interface PublicCatalogUiCopy {
@@ -54,7 +53,6 @@ export interface PublicCatalogUiCopy {
   readonly publishedLabel: string;
   readonly tagsLabel: string;
   readonly title: string;
-  readonly topicsLabel: string;
   readonly versionLabel: string;
 }
 
@@ -87,13 +85,12 @@ const PUBLIC_CATALOG_COPY_BY_LOCALE: Readonly<
         other: "{count} decks",
       },
       searchLabel: "Search decks",
-      searchPlaceholder: "Title, topic, author, or language",
+      searchPlaceholder: "Title, author, collection, or language",
       showFiltersLabel: "Search and filters",
       sortLabel: "Sort by",
       sortNewestLabel: "Newest",
       sortRelevanceLabel: "Relevance",
       sortTitleLabel: "Title",
-      topicLabel: "Topics",
     },
     byLabel: "By author",
     cardBackLabel: "Answer",
@@ -128,7 +125,6 @@ const PUBLIC_CATALOG_COPY_BY_LOCALE: Readonly<
     publishedLabel: "Published",
     tagsLabel: "Tags",
     title: "Public flashcard catalog",
-    topicsLabel: "Topics",
     versionLabel: "Version",
   },
   es: {
@@ -157,13 +153,12 @@ const PUBLIC_CATALOG_COPY_BY_LOCALE: Readonly<
         other: "{count} mazos",
       },
       searchLabel: "Buscar mazos",
-      searchPlaceholder: "Título, tema, autor o idioma",
+      searchPlaceholder: "Título, autor, colección o idioma",
       showFiltersLabel: "Búsqueda y filtros",
       sortLabel: "Ordenar por",
       sortNewestLabel: "Más recientes",
       sortRelevanceLabel: "Relevancia",
       sortTitleLabel: "Título",
-      topicLabel: "Temas",
     },
     byLabel: "Por el autor",
     cardBackLabel: "Respuesta",
@@ -198,7 +193,6 @@ const PUBLIC_CATALOG_COPY_BY_LOCALE: Readonly<
     publishedLabel: "Publicado",
     tagsLabel: "Etiquetas",
     title: "Catálogo público de tarjetas",
-    topicsLabel: "Temas",
     versionLabel: "Versión",
   },
   ar: {
@@ -227,13 +221,12 @@ const PUBLIC_CATALOG_COPY_BY_LOCALE: Readonly<
         other: "{count} رزمة",
       },
       searchLabel: "البحث عن رزم",
-      searchPlaceholder: "العنوان أو الموضوع أو المؤلف أو اللغة",
+      searchPlaceholder: "العنوان أو المؤلف أو المجموعة أو اللغة",
       showFiltersLabel: "البحث وعوامل التصفية",
       sortLabel: "الترتيب حسب",
       sortNewestLabel: "الأحدث",
       sortRelevanceLabel: "الصلة",
       sortTitleLabel: "العنوان",
-      topicLabel: "الموضوعات",
     },
     byLabel: "من إعداد",
     cardBackLabel: "الإجابة",
@@ -268,7 +261,6 @@ const PUBLIC_CATALOG_COPY_BY_LOCALE: Readonly<
     publishedLabel: "تاريخ النشر",
     tagsLabel: "الوسوم",
     title: "كتالوج البطاقات التعليمية العام",
-    topicsLabel: "الموضوعات",
     versionLabel: "الإصدار",
   },
   de: {
@@ -297,13 +289,12 @@ const PUBLIC_CATALOG_COPY_BY_LOCALE: Readonly<
         other: "{count} Lernkartensets",
       },
       searchLabel: "Lernkartensets suchen",
-      searchPlaceholder: "Titel, Thema, Autor oder Sprache",
+      searchPlaceholder: "Titel, Autor, Sammlung oder Sprache",
       showFiltersLabel: "Suche und Filter",
       sortLabel: "Sortieren nach",
       sortNewestLabel: "Neueste",
       sortRelevanceLabel: "Relevanz",
       sortTitleLabel: "Titel",
-      topicLabel: "Themen",
     },
     byLabel: "Von",
     cardBackLabel: "Antwort",
@@ -338,7 +329,6 @@ const PUBLIC_CATALOG_COPY_BY_LOCALE: Readonly<
     publishedLabel: "Veröffentlicht",
     tagsLabel: "Tags",
     title: "Öffentlicher Lernkartenkatalog",
-    topicsLabel: "Themen",
     versionLabel: "Version",
   },
   hi: {
@@ -367,13 +357,12 @@ const PUBLIC_CATALOG_COPY_BY_LOCALE: Readonly<
         other: "{count} डेक",
       },
       searchLabel: "डेक खोजें",
-      searchPlaceholder: "शीर्षक, विषय, लेखक या भाषा",
+      searchPlaceholder: "शीर्षक, लेखक, संग्रह या भाषा",
       showFiltersLabel: "खोज और फ़िल्टर",
       sortLabel: "क्रम",
       sortNewestLabel: "सबसे नए",
       sortRelevanceLabel: "प्रासंगिकता",
       sortTitleLabel: "शीर्षक",
-      topicLabel: "विषय",
     },
     byLabel: "लेखक",
     cardBackLabel: "उत्तर",
@@ -408,7 +397,6 @@ const PUBLIC_CATALOG_COPY_BY_LOCALE: Readonly<
     publishedLabel: "प्रकाशित",
     tagsLabel: "टैग",
     title: "सार्वजनिक फ़्लैशकार्ड कैटलॉग",
-    topicsLabel: "विषय",
     versionLabel: "संस्करण",
   },
   ja: {
@@ -437,13 +425,12 @@ const PUBLIC_CATALOG_COPY_BY_LOCALE: Readonly<
         other: "{count}件のデッキ",
       },
       searchLabel: "デッキを検索",
-      searchPlaceholder: "タイトル、トピック、作成者、言語",
+      searchPlaceholder: "タイトル、作成者、コレクション、言語",
       showFiltersLabel: "検索とフィルター",
       sortLabel: "並び順",
       sortNewestLabel: "新着順",
       sortRelevanceLabel: "関連度順",
       sortTitleLabel: "タイトル順",
-      topicLabel: "トピック",
     },
     byLabel: "作成者",
     cardBackLabel: "回答",
@@ -478,7 +465,6 @@ const PUBLIC_CATALOG_COPY_BY_LOCALE: Readonly<
     publishedLabel: "公開日",
     tagsLabel: "タグ",
     title: "公開フラッシュカードカタログ",
-    topicsLabel: "トピック",
     versionLabel: "バージョン",
   },
   ru: {
@@ -507,13 +493,12 @@ const PUBLIC_CATALOG_COPY_BY_LOCALE: Readonly<
         other: "{count} колоды",
       },
       searchLabel: "Поиск колод",
-      searchPlaceholder: "Название, тема, автор или язык",
+      searchPlaceholder: "Название, автор, коллекция или язык",
       showFiltersLabel: "Поиск и фильтры",
       sortLabel: "Сортировка",
       sortNewestLabel: "Сначала новые",
       sortRelevanceLabel: "По релевантности",
       sortTitleLabel: "По названию",
-      topicLabel: "Темы",
     },
     byLabel: "Автор",
     cardBackLabel: "Ответ",
@@ -548,7 +533,6 @@ const PUBLIC_CATALOG_COPY_BY_LOCALE: Readonly<
     publishedLabel: "Опубликовано",
     tagsLabel: "Теги",
     title: "Открытый каталог карточек",
-    topicsLabel: "Темы",
     versionLabel: "Версия",
   },
   zh: {
@@ -577,13 +561,12 @@ const PUBLIC_CATALOG_COPY_BY_LOCALE: Readonly<
         other: "{count} 个卡组",
       },
       searchLabel: "搜索卡组",
-      searchPlaceholder: "标题、主题、作者或语言",
+      searchPlaceholder: "标题、作者、合集或语言",
       showFiltersLabel: "搜索和筛选",
       sortLabel: "排序方式",
       sortNewestLabel: "最新",
       sortRelevanceLabel: "相关度",
       sortTitleLabel: "标题",
-      topicLabel: "主题",
     },
     byLabel: "作者",
     cardBackLabel: "答案",
@@ -617,7 +600,6 @@ const PUBLIC_CATALOG_COPY_BY_LOCALE: Readonly<
     publishedLabel: "发布日期",
     tagsLabel: "标签",
     title: "公开闪卡目录",
-    topicsLabel: "主题",
     versionLabel: "版本",
   },
 };

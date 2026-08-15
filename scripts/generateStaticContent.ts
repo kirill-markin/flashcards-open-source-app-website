@@ -38,10 +38,7 @@ import {
   getPublicCatalogFacetInternalPathname,
   type PublicCatalogFacetKind,
 } from "../src/lib/publicCatalogStaticAssets";
-import {
-  getPublicCatalogLanguageRoutePathname,
-  getPublicCatalogTopicRoutePathname,
-} from "../src/lib/publicCatalogUrls";
+import { getPublicCatalogLanguageRoutePathname } from "../src/lib/publicCatalogUrls";
 import {
   listMarkdownPagePaths,
   renderLlmsText,
@@ -135,7 +132,6 @@ function createFacetManifestEntries(
     (tag: string) => string,
   ]> = [
     ["language", publicCatalog.languageTags, getPublicCatalogLanguageRoutePathname],
-    ["topic", publicCatalog.topicTags, getPublicCatalogTopicRoutePathname],
   ];
   const entries: Array<readonly [string, string]> = [];
 

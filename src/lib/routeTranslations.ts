@@ -13,7 +13,11 @@ import {
   resolveLocaleFromPathname,
 } from "@/lib/i18n";
 import { isPublicCatalogEnabled } from "@/lib/publicCatalogBuild";
-import { isPublicCatalogPageRoutePathname } from "@/lib/publicCatalogUrls";
+import {
+  getPublicCatalogRootUrl,
+  isPublicCatalogPageRoutePathname,
+  PUBLIC_CATALOG_ROUTE_PATHNAME,
+} from "@/lib/publicCatalogUrls";
 
 interface LocaleSwitcherEntry {
   readonly available: boolean;
@@ -82,7 +86,9 @@ export function getLocaleSuggestionTargets(
   return getRouteLocales(routePathname)
     .filter((locale) => locale !== currentLocale)
     .map((locale) => ({
-      href: getLocalizedPathname(locale, routePathname),
+      href: routePathname === PUBLIC_CATALOG_ROUTE_PATHNAME
+        ? getPublicCatalogRootUrl(locale)
+        : getLocalizedPathname(locale, routePathname),
       languageName: getLocaleNativeName(locale),
       locale,
     }));
@@ -118,7 +124,9 @@ export function getLocaleSwitcherEntries(
 
   return SUPPORTED_LOCALES.map((locale) => ({
     available: hasRouteTranslation(routePathname, locale),
-    href: getLocalizedPathname(locale, routePathname),
+    href: routePathname === PUBLIC_CATALOG_ROUTE_PATHNAME
+      ? getPublicCatalogRootUrl(locale)
+      : getLocalizedPathname(locale, routePathname),
     label: getLocaleShortLabel(locale),
     locale,
   }));

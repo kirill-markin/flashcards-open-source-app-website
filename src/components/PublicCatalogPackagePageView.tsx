@@ -32,8 +32,7 @@ import {
   getPublicCatalogCollectionRoutePathname,
   getPublicCatalogLanguageRoutePathname,
   getPublicCatalogPackageRoutePathname,
-  getPublicCatalogTopicRoutePathname,
-  PUBLIC_CATALOG_ROUTE_PATHNAME,
+  getPublicCatalogRootUrl,
 } from "@/lib/publicCatalogUrls";
 import { createPublicCatalogPackageJsonLd } from "@/lib/seo/publicCatalogStructuredData";
 import styles from "@/app/catalog/packages/[packageSlug]/page.module.css";
@@ -217,10 +216,7 @@ export async function PublicCatalogPackagePageView({
             ancestors={[
               {
                 label: copy.breadcrumbLabel,
-                href: getLocalizedPathname(
-                  locale,
-                  PUBLIC_CATALOG_ROUTE_PATHNAME,
-                ),
+                href: getPublicCatalogRootUrl(locale),
               },
             ]}
             currentPage={{
@@ -302,24 +298,6 @@ export async function PublicCatalogPackagePageView({
                             )}
                           >
                             {languageTag}
-                          </Link>
-                        ))}
-                      </dd>
-                    </div>
-                  )}
-                  {latestVersion.topicTags.length === 0 ? null : (
-                    <div className={styles.fact}>
-                      <dt>{copy.topicsLabel}</dt>
-                      <dd className={styles.facetList}>
-                        {latestVersion.topicTags.map((topicTag) => (
-                          <Link
-                            key={topicTag}
-                            href={getLocalizedPathname(
-                              locale,
-                              getPublicCatalogTopicRoutePathname(topicTag),
-                            )}
-                          >
-                            {topicTag}
                           </Link>
                         ))}
                       </dd>

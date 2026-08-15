@@ -15,7 +15,6 @@ import {
   getPublicCatalogCollectionRoutePathname,
   getPublicCatalogLanguageRoutePathname,
   getPublicCatalogPackageRoutePathname,
-  getPublicCatalogTopicRoutePathname,
   PUBLIC_CATALOG_AUTHORS_ROUTE_PATHNAME,
   PUBLIC_CATALOG_COLLECTIONS_ROUTE_PATHNAME,
   PUBLIC_CATALOG_ROUTE_PATHNAME,
@@ -163,28 +162,12 @@ function createCatalogRoutes(
     priority: 0.4,
     routePathname: getPublicCatalogLanguageRoutePathname(languageTag),
   }));
-  const topicRoutes = catalog.topicTags.map((topicTag) => ({
-    lastModified: getNewestPublishedAt(
-      [
-        ...(catalog.packagesByTopicTag.get(topicTag) ?? []).map(
-          getPackageLastModified,
-        ),
-        ...[...catalog.collectionBySlug.values()]
-          .filter((collection) => collection.topicTags.includes(topicTag))
-          .map((collection) => collection.updatedAt),
-      ],
-    ),
-    priority: 0.4,
-    routePathname: getPublicCatalogTopicRoutePathname(topicTag),
-  }));
-
   return [
     ...rootAndIndexRoutes,
     ...packageRoutes,
     ...authorRoutes,
     ...collectionRoutes,
     ...languageRoutes,
-    ...topicRoutes,
   ];
 }
 

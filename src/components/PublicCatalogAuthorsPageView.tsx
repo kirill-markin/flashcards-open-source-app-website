@@ -12,8 +12,8 @@ import type { PublicCatalogReadModel } from "@/lib/publicCatalogReadModel";
 import { getPublicCatalogUiCopy } from "@/lib/publicCatalogCopy";
 import {
   getPublicCatalogAuthorRoutePathname,
+  getPublicCatalogRootUrl,
   PUBLIC_CATALOG_AUTHORS_ROUTE_PATHNAME,
-  PUBLIC_CATALOG_ROUTE_PATHNAME,
 } from "@/lib/publicCatalogUrls";
 import { createPublicCatalogAuthorsJsonLd } from "@/lib/seo/publicCatalogStructuredData";
 import styles from "@/app/catalog/destinations.module.css";
@@ -40,7 +40,7 @@ export function PublicCatalogAuthorsPageView({
             items={[
               {
                 label: catalogCopy.breadcrumbLabel,
-                href: getLocalizedPathname(locale, PUBLIC_CATALOG_ROUTE_PATHNAME),
+                href: getPublicCatalogRootUrl(locale),
               },
               {
                 label: copy.authorsTitle,

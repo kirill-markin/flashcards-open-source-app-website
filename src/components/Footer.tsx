@@ -8,7 +8,7 @@ import { getAvailableLocalizedPathname } from "@/lib/routeTranslations";
 import { getUiCopy } from "@/lib/uiCopy";
 import { isPublicCatalogEnabled } from "@/lib/publicCatalogBuild";
 import { getPublicCatalogUiCopy } from "@/lib/publicCatalogCopy";
-import { PUBLIC_CATALOG_ROUTE_PATHNAME } from "@/lib/publicCatalogUrls";
+import { getPublicCatalogRootUrl } from "@/lib/publicCatalogUrls";
 import { TrackedStoreLink } from "./TrackedStoreLink";
 import styles from "./Footer.module.css";
 
@@ -46,10 +46,7 @@ export const Footer: React.FC<FooterProps> = ({
     ...(isPublicCatalogEnabled()
       ? [
         {
-          href: getAvailableLocalizedPathname(
-            locale,
-            PUBLIC_CATALOG_ROUTE_PATHNAME,
-          ),
+          href: getPublicCatalogRootUrl(locale),
           label: getPublicCatalogUiCopy(locale).navigationLabel,
         },
       ]

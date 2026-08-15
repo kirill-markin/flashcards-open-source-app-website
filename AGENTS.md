@@ -89,3 +89,6 @@ Mostly text pages stay Markdown-backed:
 - `src/content/en/blog/*.md`
 
 Keep typed content models mirrored with the other marketing website repository. Build-time generation must produce both HTML and Markdown from the same source of truth.
+
+- Keep every catalog route localized, including package pages. Locale selects UI language; package content language comes only from `languageTags`, and locale catalog roots expose `?language=<locale>`.
+- Collections are the only curated package grouping; do not add catalog topics.
