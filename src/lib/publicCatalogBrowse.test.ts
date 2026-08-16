@@ -74,7 +74,6 @@ function createBrowseData(
       { value: "advanced", label: "Advanced Grammar" },
       { value: "starter", label: "Starter Collection" },
     ],
-    licenses: ["CC0-1.0", "MIT"],
   };
 }
 
@@ -398,7 +397,6 @@ function createEmptyState(): PublicCatalogQueryState {
     languages: [],
     author: null,
     collection: null,
-    license: null,
     sort: null,
     page: 1,
   };
@@ -418,7 +416,6 @@ test("parses known query values and predictably ignores unknown values", () => {
     languages: ["en", "es"],
     author: null,
     collection: "starter",
-    license: "CC0-1.0",
     sort: null,
     page: 1,
   });
@@ -432,11 +429,10 @@ test("serializes query state deterministically with languages last", () => {
       languages: ["es", "en"],
       author: "author-one",
       collection: "starter",
-      license: "CC0-1.0",
       sort: "newest",
       page: 2,
     }),
-    "?q=Alpha+Grammar&author=author-one&collection=starter&license=CC0-1.0"
+    "?q=Alpha+Grammar&author=author-one&collection=starter"
       + "&sort=newest&page=2&language=en&language=es",
   );
   assert.equal(
@@ -451,12 +447,11 @@ test("applies OR within languages and AND between different filters", () => {
     languages: ["en", "es"],
     author: "author-one",
     collection: "starter",
-    license: "CC0-1.0",
   });
 
   assert.deepEqual(
     result.packages.map((item) => item.packageView.packageMetadata.slug),
-    ["grammar"],
+    ["grammar-basics", "grammar"],
   );
 });
 
