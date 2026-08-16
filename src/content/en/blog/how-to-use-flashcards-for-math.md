@@ -71,6 +71,8 @@ Better **math formula flashcards** aim at one memory target at a time:
 - What is the derivative of `sin(x)`?
 - For independent events, what is the multiplication rule?
 
+For a concrete, deliberately narrow example, [Unit Circle Flashcards: 16 Angles, Radians & Exact Coordinates](/catalog/packages/unit-circle-degrees-radians-coordinates/) lets you practice the 16 standard unit-circle positions in degrees, radians, and exact coordinates without turning the whole topic into one oversized card.
+
 Then add the detail that actually prevents mistakes. Maybe you keep flipping a sign. Maybe you mix up what a variable represents. Maybe you forget the condition that has to be true before a rule applies. Those are excellent flashcard targets because they are small, reusable, and painful to miss in the middle of real work.
 
 That is a much better use of **flashcards for math** than copying a summary page into one card and hoping repetition sorts it out later.

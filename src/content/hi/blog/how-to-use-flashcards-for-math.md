@@ -71,6 +71,8 @@ keywords:
 - `sin(x)` का derivative क्या है?
 - independent events के लिए multiplication rule क्या है?
 
+एक ठोस और जानबूझकर सीमित example के लिए, [unit circle का 16 angles, radians और exact coordinates वाला flashcard deck](/catalog/packages/unit-circle-degrees-radians-coordinates/) आपको unit circle की सभी 16 standard positions का degrees, radians और exact coordinates में अभ्यास कराता है, बिना पूरे topic को एक ही भारी card में भरने के।
+
 फिर वह detail जोड़िए जो सच में गलती रोकती है। शायद आप बार-बार sign उलट देते हैं। शायद variable किस चीज़ को दिखा रहा है, यही गड़बड़ा जाता है। शायद किसी rule के लागू होने से पहले वाली शर्त भूल जाती है। ये सभी बेहतरीन flashcard targets हैं, क्योंकि ये छोटे हैं, बार-बार काम आते हैं, और असली सवाल के बीच में छूट जाएँ तो महँगे पड़ते हैं।
 
 यह **गणित के लिए फ़्लैशकार्ड** का उससे कहीं बेहतर उपयोग है, बनिस्बत इसके कि आप पूरे सारांश पन्ने को एक ही card में कॉपी कर दें और उम्मीद करें कि दोहराव बाद में सब संभाल लेगा।
