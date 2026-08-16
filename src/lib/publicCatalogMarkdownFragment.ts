@@ -37,6 +37,8 @@ interface MarkdownFragmentContext {
   readonly sourceContext: string;
 }
 
+const packageRelativeMediaFileNamePattern = /^[A-Za-z0-9][A-Za-z0-9._-]*$/u;
+
 function createInvalidDestinationError(
   context: MarkdownFragmentContext,
   destination: string,
@@ -766,16 +768,57 @@ function createCardMediaDestinationResolver(
   sourceContext: string,
 ): (destination: string) => string {
   return (destination): string => {
-    if (destination.startsWith("fcasset:") === false) {
+    if (destination.startsWith("fcasset:")) {
+      const packageMediaKey = destination.slice("fcasset:".length);
+      const downloadUrl = mediaDownloadUrlByKey.get(packageMediaKey);
+
+      if (downloadUrl === undefined) {
+        throw new Error(
+          `${sourceContext} references unauthorized or missing media asset ${packageMediaKey}.`,
+        );
+      }
+
+      return downloadUrl;
+    }
+
+    if (destination.startsWith("media/") === false) {
       return destination;
     }
 
-    const packageMediaKey = destination.slice("fcasset:".length);
-    const downloadUrl = mediaDownloadUrlByKey.get(packageMediaKey);
+    const pathSegments = destination.split("/");
+    const fileName = pathSegments[1];
+
+    if (
+      pathSegments.length !== 2
+      || fileName === undefined
+      || packageRelativeMediaFileNamePattern.test(fileName) === false
+    ) {
+      throw new Error(
+        `${sourceContext} contains an unsafe or malformed package-relative media path. `
+          + "The legacy form must be media/<filename>, where the filename starts with a letter or number "
+          + `and contains only letters, numbers, dots, underscores, or hyphens. received=${destination}`,
+      );
+    }
+
+    if (mediaDownloadUrlByKey.size === 0) {
+      throw new Error(
+        `${sourceContext} references unauthorized or missing package-relative media asset ${destination}.`,
+      );
+    }
+
+    if (mediaDownloadUrlByKey.size !== 1) {
+      throw new Error(
+        `${sourceContext} cannot safely resolve package-relative media asset ${destination} `
+          + `because the card authorizes ${mediaDownloadUrlByKey.size} media assets. `
+          + "Use an fcasset:<package-media-key> destination to disambiguate the asset.",
+      );
+    }
+
+    const downloadUrl = mediaDownloadUrlByKey.values().next().value;
 
     if (downloadUrl === undefined) {
       throw new Error(
-        `${sourceContext} references unauthorized or missing media asset ${packageMediaKey}.`,
+        `${sourceContext} references package-relative media asset ${destination} without a download URL.`,
       );
     }
 

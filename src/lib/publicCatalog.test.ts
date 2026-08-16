@@ -2336,17 +2336,31 @@ test("renders catalog Markdown with safe images and nested heading depths", asyn
   );
 });
 
-test("resolves only card-authorized managed media to public download URLs", async () => {
+test("resolves only unambiguous card-authorized media to public download URLs", async () => {
   const downloadUrl =
     `https://api.flashcards-open-source-app.com/v1/catalog/package-versions/${fixtureLatestVersionId}/media-assets/inline.webp/download`;
-  const html = await renderPublicCatalogCardMarkdownToHtml(
+  const mediaDownloadUrls = new Map([["inline.webp", downloadUrl]]);
+  const managedMediaHtml = await renderPublicCatalogCardMarkdownToHtml(
     "![Managed media](fcasset:inline.webp)",
     "en",
-    new Map([["inline.webp", downloadUrl]]),
+    mediaDownloadUrls,
+    `Public catalog card ${fixtureFirstCardId} frontText`,
+  );
+  const packageRelativeMediaHtml = await renderPublicCatalogCardMarkdownToHtml(
+    "![Package-relative media](media/00-natural-treble.png)",
+    "en",
+    mediaDownloadUrls,
     `Public catalog card ${fixtureFirstCardId} frontText`,
   );
 
-  assert.match(html, new RegExp(`href="${downloadUrl}"[^>]*>Managed media</a>`));
+  assert.match(
+    managedMediaHtml,
+    new RegExp(`href="${downloadUrl}"[^>]*>Managed media</a>`),
+  );
+  assert.match(
+    packageRelativeMediaHtml,
+    new RegExp(`href="${downloadUrl}"[^>]*>Package-relative media</a>`),
+  );
   await assert.rejects(
     renderPublicCatalogCardMarkdownToHtml(
       "![Missing media](fcasset:missing.webp)",
@@ -2355,6 +2369,57 @@ test("resolves only card-authorized managed media to public download URLs", asyn
       `Public catalog card ${fixtureFirstCardId} frontText`,
     ),
     /references unauthorized or missing media asset missing\.webp/,
+  );
+  await assert.rejects(
+    renderPublicCatalogCardMarkdownToHtml(
+      "![Ambiguous media](media/ambiguous.png)",
+      "en",
+      new Map([
+        ["first", "https://api.example.com/first"],
+        ["second", "https://api.example.com/second"],
+      ]),
+      `Public catalog card ${fixtureFirstCardId} frontText`,
+    ),
+    /cannot safely resolve package-relative media asset media\/ambiguous\.png/,
+  );
+  await assert.rejects(
+    renderPublicCatalogCardMarkdownToHtml(
+      "![Missing package media](media/missing.png)",
+      "en",
+      new Map(),
+      `Public catalog card ${fixtureFirstCardId} frontText`,
+    ),
+    /references unauthorized or missing package-relative media asset media\/missing\.png/,
+  );
+  const malformedPackageRelativeDestinations: ReadonlyArray<string> = [
+    "media/",
+    "media/nested/image.png",
+    "media/../private.png",
+    "media/%2e%2e.png",
+    "media/image%2fprivate.png",
+    "media/image.png?size=large",
+    "media/image.png#preview",
+  ];
+
+  for (const destination of malformedPackageRelativeDestinations) {
+    await assert.rejects(
+      renderPublicCatalogCardMarkdownToHtml(
+        `![Malformed package media](<${destination}>)`,
+        "en",
+        mediaDownloadUrls,
+        `Public catalog card ${fixtureFirstCardId} frontText`,
+      ),
+      /unsafe or malformed package-relative media path/,
+    );
+  }
+  await assert.rejects(
+    renderPublicCatalogCardMarkdownToHtml(
+      "![Arbitrary relative media](assets/inline.webp)",
+      "en",
+      mediaDownloadUrls,
+      `Public catalog card ${fixtureFirstCardId} frontText`,
+    ),
+    /unsafe or unsupported Markdown destination/,
   );
 });
 
