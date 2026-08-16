@@ -100,6 +100,8 @@ Normalmente eso es un conjunto mucho más pequeño:
 
 Ésa es la diferencia entre unas **flashcards para entrevistas técnicas** útiles y una biblioteca enorme de arrepentimientos reformulados.
 
+Si quieres un punto de partida listo antes de crear tu propio registro de errores, el [mazo Blind 75 con soluciones en Python](/catalog/packages/blind-75-python-solutions/) convierte los 75 problemas clásicos en tarjetas que cubren la estructura de datos principal, el algoritmo, la complejidad, los casos límite y una solución en Python.
+
 ## Las mejores flashcards para entrevistas de programación suelen salir de los errores, no de los aciertos
 
 Aquí es donde la gente puede mejorar rápido.

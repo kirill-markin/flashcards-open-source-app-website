@@ -100,6 +100,8 @@ Meist ist diese Auswahl viel kleiner:
 
 Genau das trennt nützliche **Flashcards für technische Interviews** von einer gigantischen Bibliothek aus umformulierter Reue.
 
+Wenn du vor dem Aufbau deines eigenen Fehlerprotokolls einen fertigen Ausgangspunkt möchtest, behandelt das [Blind-75-Deck mit Python-Lösungen](/catalog/packages/blind-75-python-solutions/) jede der 75 klassischen Aufgaben auf einer Karte mit zentraler Datenstruktur, Algorithmus, Komplexität, Randfällen und einer Python-Lösung.
+
 ## Die besten Karten für Coding-Interviews entstehen meist aus Fehlern, nicht aus Erfolgen
 
 Hier können viele schnell deutlich besser werden.
