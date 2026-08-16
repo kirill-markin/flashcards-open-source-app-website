@@ -1,5 +1,5 @@
 .container {
-  --blog-start-cta-gap: 12px;
+  --blog-start-cta-gap: clamp(40px, 4vw, 64px);
   --blog-start-cta-width: 180px;
 
   position: relative;
