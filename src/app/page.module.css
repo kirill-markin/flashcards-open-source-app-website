@@ -214,6 +214,25 @@
     gap: 16px;
   }
 
+  .cta {
+    display: grid;
+    gap: 8px;
+  }
+
+  .cta > :first-child {
+    inline-size: 100%;
+  }
+
+  .cta > :first-child > * {
+    flex: 1;
+    min-inline-size: 0;
+  }
+
+  .trustLine {
+    max-inline-size: none;
+    text-align: center;
+  }
+
   .appShowcase {
     padding: 14px;
     gap: 14px;
