@@ -52,6 +52,8 @@ Die Aufgabentypen geben dir eine verlässliche Übersicht:
 
 Die Tabelle zeigt, warum beim Wechsel der Stufe auch ein Teil deines Decks wechseln sollte. In N5 gibt es den Aufgabentyp Wortgebrauch nicht. Wortbildung kommt nur in N2 vor. N1 und N2 verlangen, dass du mehrere Texte oder Informationsquellen im Hörverstehen vergleichst und miteinander verknüpfst. Ein allgemeines Japanisch-Deck kann deine Sprachkenntnisse verbessern, deckt aber nicht automatisch die Entscheidungen ab, die auf deiner JLPT-Stufe verlangt werden.
 
+Wenn du die Schrift noch lernst, bietet dir das [Hiragana-Lernkartendeck mit allen 46 Grundzeichen und Rōmaji](/catalog/packages/basic-hiragana-romaji/) genau 92 Karten zu den 46 modernen Hiragana-Grundzeichen in beiden Richtungen: Kana → lernfreundliches Rōmaji nach Hepburn-Art und Rōmaji → Kana. Es ist eine grundlegende Schriftübung, keine offizielle JLPT-Liste und kein Ersatz für stufenspezifisches Wortschatz-, Grammatik-, Lese- und Hörtraining.
+
 ## Verwandle Kanji und Wortschatz in kleine Entscheidungen
 
 Eine Karte mit `提出 = Einreichung` kann am Anfang helfen. Die offizielle Übersicht der Aufgabentypen verlangt jedoch mehr als eine Übersetzung. Je nach Stufe umfasst die Wortschatzarbeit das Lesen von Kanji, die Auswahl der richtigen Schreibweise, das Erschließen der Bedeutung aus dem Kontext, das Finden einer passenden Umschreibung, die Beurteilung des Gebrauchs oder das Erkennen von Wortbildung.
