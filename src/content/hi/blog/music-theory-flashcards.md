@@ -93,6 +93,8 @@ Number और quality साथ में पूछें। जब task major, 
 
 Major और minor prompts को साफ़ लिखें। एक key signature relative major और minor—दोनों key का होता है, इसलिए बिना context के “यह कौन-सी key है?” का केवल एक जवाब नहीं होता।
 
+इस अंतर का दोनों दिशाओं में अभ्यास करने के लिए, [key signature फ़्लैशकार्ड deck](/catalog/packages/major-minor-key-signatures/) treble और bass clef notation को major keys और उनकी relative minor keys से जोड़ता है।
+
 ```text
 सामने: किस major key में तीन sharps होते हैं?
 पीछे: A major। Sharps हैं F-sharp, C-sharp और G-sharp।

@@ -93,6 +93,8 @@ La primera tarjeta pide identificar lo que está escrito. La segunda obliga a el
 
 Aclara si la pregunta se refiere a una tonalidad mayor o menor. La misma armadura corresponde a una tonalidad mayor y a su relativa menor, así que «¿Qué tonalidad es esta?» no admite una única respuesta sin más contexto.
 
+Para practicar esta distinción en ambos sentidos, el [mazo de flashcards de armaduras](/catalog/packages/major-minor-key-signatures/) relaciona la notación en clave de sol y de fa con tonalidades mayores y sus relativas menores.
+
 ```text
 Anverso: ¿Qué tonalidad mayor tiene tres sostenidos?
 Reverso: A mayor. Los sostenidos son F sostenido, C sostenido y G sostenido.
