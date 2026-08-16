@@ -100,6 +100,8 @@ Usually that is a much smaller set:
 
 That is the difference between useful **technical interview flashcards** and a giant library of paraphrased regret.
 
+If you want a ready-made starting point before building your own mistake log, the [Blind 75 Python solutions deck](/catalog/packages/blind-75-python-solutions/) turns all 75 classic problems into cards covering the core data structure, algorithm, complexity, edge cases, and a Python solution.
+
 ## The best coding interview cards usually come from mistakes, not wins
 
 This is where people can improve fast.
