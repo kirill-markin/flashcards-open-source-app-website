@@ -31,10 +31,16 @@ import { isPublicCatalogPageRoutePathname } from "./publicCatalogUrls";
 import { hasRouteTranslation } from "./routeTranslations";
 
 interface MarkdownFragmentContext {
+  readonly authorizedImageDefinitionIdentifiers: ReadonlySet<string>;
   readonly definitions: ReadonlyMap<string, Definition>;
   readonly locale: AppLocale;
-  readonly resolveDestination: (destination: string) => string;
+  readonly resolveDestination: (destination: string) => MarkdownDestinationResolution;
   readonly sourceContext: string;
+}
+
+interface MarkdownDestinationResolution {
+  readonly destination: string;
+  readonly isAuthorizedImage: boolean;
 }
 
 const packageRelativeMediaFileNamePattern = /^[A-Za-z0-9][A-Za-z0-9._-]*$/u;
@@ -80,13 +86,14 @@ function localizeRootRelativeDestination(
 function normalizeAuthoredMarkdownDestination(
   destination: string,
   context: MarkdownFragmentContext,
-): string {
-  const resolvedDestination = context.resolveDestination(destination);
+): MarkdownDestinationResolution {
+  const resolution = context.resolveDestination(destination);
+  const resolvedDestination = resolution.destination;
 
   assertSafeMarkdownDestinationInput(resolvedDestination, context.sourceContext);
 
   if (resolvedDestination.startsWith("#")) {
-    return resolvedDestination;
+    return resolution;
   }
 
   if (resolvedDestination.startsWith("/")) {
@@ -113,10 +120,13 @@ function normalizeAuthoredMarkdownDestination(
       throw createInvalidDestinationError(context, resolvedDestination);
     }
 
-    return localizeRootRelativeDestination(
-      `${parsedDestination.pathname}${parsedDestination.search}${parsedDestination.hash}`,
-      context.locale,
-    );
+    return {
+      ...resolution,
+      destination: localizeRootRelativeDestination(
+        `${parsedDestination.pathname}${parsedDestination.search}${parsedDestination.hash}`,
+        context.locale,
+      ),
+    };
   }
 
   let parsedDestination: URL;
@@ -135,7 +145,10 @@ function normalizeAuthoredMarkdownDestination(
     throw createInvalidDestinationError(context, resolvedDestination);
   }
 
-  return parsedDestination.toString();
+  return {
+    ...resolution,
+    destination: parsedDestination.toString(),
+  };
 }
 
 function createUnsupportedFootnoteError(
@@ -301,15 +314,34 @@ function normalizeAuthoredImageAsText(
   context: MarkdownFragmentContext,
 ): PhrasingContent {
   if (node.type === "image") {
-    const url = normalizeAuthoredMarkdownDestination(node.url, context);
+    const resolution = normalizeAuthoredMarkdownDestination(node.url, context);
+
+    if (resolution.isAuthorizedImage) {
+      return {
+        ...node,
+        url: resolution.destination,
+      };
+    }
 
     return {
       type: "text",
-      value: getAuthoredImageLabel(node.alt, url),
+      value: getAuthoredImageLabel(node.alt, resolution.destination),
     };
   }
 
   const definition = context.definitions.get(node.identifier);
+
+  if (
+    definition !== undefined
+    && context.authorizedImageDefinitionIdentifiers.has(node.identifier)
+  ) {
+    return {
+      type: "image",
+      url: definition.url,
+      title: definition.title,
+      alt: node.alt,
+    };
+  }
 
   return {
     type: "text",
@@ -322,15 +354,22 @@ function normalizeAuthoredImageAsLink(
   context: MarkdownFragmentContext,
 ): PhrasingContent {
   if (node.type === "image") {
-    const url = normalizeAuthoredMarkdownDestination(node.url, context);
+    const resolution = normalizeAuthoredMarkdownDestination(node.url, context);
+
+    if (resolution.isAuthorizedImage) {
+      return {
+        ...node,
+        url: resolution.destination,
+      };
+    }
 
     return {
       type: "link",
-      url,
+      url: resolution.destination,
       title: node.title,
       children: [{
         type: "text",
-        value: getAuthoredImageLabel(node.alt, url),
+        value: getAuthoredImageLabel(node.alt, resolution.destination),
       }],
     };
   }
@@ -339,6 +378,15 @@ function normalizeAuthoredImageAsLink(
 
   if (definition === undefined) {
     return normalizeAuthoredImageAsText(node, context);
+  }
+
+  if (context.authorizedImageDefinitionIdentifiers.has(node.identifier)) {
+    return {
+      type: "image",
+      url: definition.url,
+      title: definition.title,
+      alt: node.alt,
+    };
   }
 
   return {
@@ -372,7 +420,7 @@ function normalizeLinkedPhrasingContent(
     if (node.type === "link") {
       return {
         ...node,
-        url: normalizeAuthoredMarkdownDestination(node.url, context),
+        url: normalizeAuthoredMarkdownDestination(node.url, context).destination,
         children: normalizeLinkedPhrasingContent(node.children, context),
       };
     }
@@ -412,7 +460,7 @@ function normalizePhrasingContent(
     if (node.type === "link") {
       return {
         ...node,
-        url: normalizeAuthoredMarkdownDestination(node.url, context),
+        url: normalizeAuthoredMarkdownDestination(node.url, context).destination,
         children: normalizeLinkedPhrasingContent(node.children, context),
       };
     }
@@ -562,7 +610,7 @@ function createNormalizedPublicCatalogMarkdownRoot(
   markdown: string,
   minimumHeadingDepth: Heading["depth"],
   locale: AppLocale,
-  resolveDestination: (destination: string) => string,
+  resolveDestination: (destination: string) => MarkdownDestinationResolution,
   sourceContext: string,
 ): Root {
   const processor = remark().use(gfm);
@@ -575,21 +623,32 @@ function createNormalizedPublicCatalogMarkdownRoot(
   collectDefinitions(parsedRoot.children, definitions);
   collectHeadingDepths(parsedRoot.children, headingDepths);
 
+  const authorizedImageDefinitionIdentifiers = new Set<string>();
   const normalizedDefinitions = new Map(
-    [...definitions].map(([identifier, definition]): [string, Definition] => [
-      identifier,
-      {
-        ...definition,
-        url: normalizeAuthoredMarkdownDestination(definition.url, {
-          definitions,
-          locale,
-          resolveDestination,
-          sourceContext,
-        }),
-      },
-    ]),
+    [...definitions].map(([identifier, definition]): [string, Definition] => {
+      const resolution = normalizeAuthoredMarkdownDestination(definition.url, {
+        authorizedImageDefinitionIdentifiers,
+        definitions,
+        locale,
+        resolveDestination,
+        sourceContext,
+      });
+
+      if (resolution.isAuthorizedImage) {
+        authorizedImageDefinitionIdentifiers.add(identifier);
+      }
+
+      return [
+        identifier,
+        {
+          ...definition,
+          url: resolution.destination,
+        },
+      ];
+    }),
   );
   const context: MarkdownFragmentContext = {
+    authorizedImageDefinitionIdentifiers,
     definitions: normalizedDefinitions,
     locale,
     resolveDestination,
@@ -615,7 +674,7 @@ function normalizePublicCatalogMarkdownFragment(
   markdown: string,
   minimumHeadingDepth: Heading["depth"],
   locale: AppLocale,
-  resolveDestination: (destination: string) => string,
+  resolveDestination: (destination: string) => MarkdownDestinationResolution,
   sourceContext: string,
 ): string {
   const processor = remark().use(gfm);
@@ -660,6 +719,13 @@ function projectMarkdownNodeToPlainTextSegments(
 
   if (node.type === "text") {
     return [{ preserveWhitespace: false, value: node.value }];
+  }
+
+  if (node.type === "image") {
+    return [{
+      preserveWhitespace: false,
+      value: getAuthoredImageLabel(node.alt, node.url),
+    }];
   }
 
   if (node.type === "break") {
@@ -758,7 +824,7 @@ export function normalizePublicCatalogDescriptionMarkdownFragment(
     markdown,
     3,
     locale,
-    (destination) => destination,
+    (destination) => ({ destination, isAuthorizedImage: false }),
     sourceContext,
   );
 }
@@ -766,8 +832,8 @@ export function normalizePublicCatalogDescriptionMarkdownFragment(
 function createCardMediaDestinationResolver(
   mediaDownloadUrlByKey: ReadonlyMap<string, string>,
   sourceContext: string,
-): (destination: string) => string {
-  return (destination): string => {
+): (destination: string) => MarkdownDestinationResolution {
+  return (destination): MarkdownDestinationResolution => {
     if (destination.startsWith("fcasset:")) {
       const packageMediaKey = destination.slice("fcasset:".length);
       const downloadUrl = mediaDownloadUrlByKey.get(packageMediaKey);
@@ -778,11 +844,11 @@ function createCardMediaDestinationResolver(
         );
       }
 
-      return downloadUrl;
+      return { destination: downloadUrl, isAuthorizedImage: true };
     }
 
     if (destination.startsWith("media/") === false) {
-      return destination;
+      return { destination, isAuthorizedImage: false };
     }
 
     const pathSegments = destination.split("/");
@@ -822,7 +888,7 @@ function createCardMediaDestinationResolver(
       );
     }
 
-    return downloadUrl;
+    return { destination: downloadUrl, isAuthorizedImage: true };
   };
 }
 
