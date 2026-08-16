@@ -139,6 +139,8 @@ Cuando quieras volver a poner a prueba la discriminación, usa otra tanda breve 
 
 Supón que estás aprendiendo tres reglas de cálculo. Tras una breve introducción con práctica bloqueada, resuelves unos pocos ejemplos sencillos de cada una. Después retiras las etiquetas de categoría y mezclas las tarjetas.
 
+Como otro conjunto compacto que puedes mezclar de forma deliberada, [el mazo de flashcards del círculo unitario con 16 ángulos, radianes y coordenadas exactas](/catalog/packages/unit-circle-degrees-radians-coordinates/) practica las 16 posiciones estándar del círculo unitario en grados, radianes y coordenadas exactas. Intercala esas representaciones solo después de poder identificar cada una en una breve introducción con práctica bloqueada.
+
 Tarjeta 1:
 
 - Anverso: Deriva `(x² + 1)⁴`. ¿Qué regla aplicas primero?

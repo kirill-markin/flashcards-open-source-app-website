@@ -88,6 +88,8 @@ BC 学生还有一个值得知道的评分细节：College Board 说明 [Calculu
 
 法则当然得会。product、quotient、chain、implicit differentiation、inverse-function relationships，还有常见函数的导数，都应该快到不会拖慢后面的题。
 
+要让导数回忆足够快，精确三角函数值也得变成自动反应。[单元圆闪卡：16 个角度、弧度与精确坐标](/catalog/packages/unit-circle-degrees-radians-coordinates/)可以让你练习单元圆上的 16 个标准位置，并在角度、弧度和精确坐标之间建立对应，避免这些表示之间的转换成为微积分题里的瓶颈。
+
 但 **AP Calculus 抽认卡** 真正开始变有用，通常是在导数卡开始承担三种不同任务之后：
 
 **法则卡**

@@ -71,6 +71,8 @@ Unas buenas **flashcards de fórmulas matemáticas** apuntan a un único objetiv
 - ¿Cuál es la derivada de `sin(x)`?
 - Para eventos independientes, ¿cuál es la regla de multiplicación?
 
+Como ejemplo concreto y deliberadamente acotado, [el mazo de flashcards del círculo unitario con 16 ángulos, radianes y coordenadas exactas](/catalog/packages/unit-circle-degrees-radians-coordinates/) te permite practicar las 16 posiciones estándar del círculo unitario en grados, radianes y coordenadas exactas sin meter todo el tema en una sola tarjeta sobrecargada.
+
 Luego añade el detalle que de verdad evita errores. Quizá sigues cambiando un signo. Quizá confundes qué representa una variable. Quizá olvidas la condición que debe cumplirse antes de aplicar una regla. Ésos son objetivos excelentes para tarjetas porque son pequeños, reutilizables y duele fallarlos en medio del trabajo real.
 
 Ése es un uso mucho mejor de las **flashcards para matemáticas** que copiar una página de resumen dentro de una sola tarjeta y esperar que la repetición lo arregle después.

@@ -139,6 +139,8 @@ Drill के बाद किसी card को तब save करें, जब
 
 मान लीजिए आप calculus के तीन rules सीख रहे हैं। पहले blocked practice में हर rule के कुछ सीधे examples लें। फिर category labels हटा दें और cards मिला दें।
 
+जानबूझकर mix करने लायक एक और छोटा set है [unit circle का 16 angles, radians और exact coordinates वाला flashcard deck](/catalog/packages/unit-circle-degrees-radians-coordinates/), जो unit circle की सभी 16 standard positions का degrees, radians और exact coordinates में अभ्यास कराता है। इन representations को interleave तभी करें जब छोटी blocked introduction में आप हर एक को पहचानने लगें।
+
 Card 1:
 
 - Front: `(x² + 1)⁴` को differentiate करें। सबसे पहले कौन-सा rule लगाएँगे?

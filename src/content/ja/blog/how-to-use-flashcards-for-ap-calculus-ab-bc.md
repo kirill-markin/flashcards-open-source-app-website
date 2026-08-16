@@ -88,6 +88,8 @@ BC には、もう1つ知っておく価値のある採点上の特徴があり�
 
 もちろんルールは必要です。`product rule`、`quotient rule`、`chain rule`、`implicit differentiation`、`inverse function` の関係、標準的な derivatives は、他の部分の処理を遅らせない程度には速く出てきてほしいところです。
 
+微分を素早く思い出せるようにするには、正確な三角関数の値も自動的に出てくる必要があります。[単位円フラッシュカード：16の角度・ラジアン・正確な座標](/catalog/packages/unit-circle-degrees-radians-coordinates/)では、単位円上の16個の標準位置を度数法、ラジアン、正確な座標で練習できるため、表現の変換が微積分の問題でボトルネックになるのを防げます。
+
 ただ、**AP Calculus フラッシュカード** は、微分カードに3つの役割を持たせるとかなり使いやすくなります。
 
 **ルールカード**

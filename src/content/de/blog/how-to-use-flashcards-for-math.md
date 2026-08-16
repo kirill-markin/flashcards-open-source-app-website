@@ -71,6 +71,8 @@ Bessere **Mathe-Formel-Flashcards** zielen jeweils auf genau ein Erinnerungsziel
 - Was ist die Ableitung von `sin(x)`?
 - Wie lautet bei unabhängigen Ereignissen die Multiplikationsregel?
 
+Als konkretes, bewusst enges Beispiel lässt dich das [Unit-Circle-Flashcard-Deck mit 16 Winkeln, Bogenmaß und exakten Koordinaten](/catalog/packages/unit-circle-degrees-radians-coordinates/) die 16 Standardpositionen auf dem Einheitskreis in Grad, Bogenmaß und exakten Koordinaten üben, ohne das ganze Thema in eine überladene Karte zu pressen.
+
 Dann ergänzt du genau die Details, die Fehler tatsächlich verhindern. Vielleicht verwechselst du ständig ein Vorzeichen. Vielleicht bringst du durcheinander, wofür eine Variable steht. Vielleicht vergisst du die Bedingung, die erfüllt sein muss, bevor eine Regel überhaupt gilt. Das sind hervorragende Ziele für Flashcards, weil sie klein, wiederverwendbar und mitten in echter Arbeit schmerzhaft zu übersehen sind.
 
 Das ist eine deutlich bessere Nutzung von **Flashcards für Mathe**, als eine Zusammenfassungsseite in eine einzige Karte zu kopieren und zu hoffen, dass Wiederholung den Rest später sortiert.
