@@ -254,7 +254,6 @@ export function PublicCatalogBrowser({
       languages: [],
       author: null,
       collection: null,
-      license: null,
       sort: null,
       page: 1,
     }, "all", "clear", 0);
@@ -287,7 +286,7 @@ export function PublicCatalogBrowser({
     );
   };
   const updateSingleChoiceFilter = (
-    category: "author" | "collection" | "license",
+    category: "author" | "collection",
     value: string,
   ): void => {
     const selectedValue = getSingleChoiceValue(value);
@@ -303,7 +302,6 @@ export function PublicCatalogBrowser({
     || state.languages.length > 0
     || state.author !== null
     || state.collection !== null
-    || state.license !== null
     || state.sort !== null
     || state.page > 1;
 
@@ -382,23 +380,6 @@ export function PublicCatalogBrowser({
             <option value="">{copy.browse.allCollectionsLabel}</option>
             {data.collections.map((collection) => (
               <option key={collection.value} value={collection.value}>{collection.label}</option>
-            ))}
-          </select>
-          <label className={styles.controlLabel} htmlFor="catalog-license">
-            {copy.browse.licenseLabel}
-          </label>
-          <select
-            className={styles.select}
-            id="catalog-license"
-            onChange={(event) => updateSingleChoiceFilter(
-              "license",
-              event.currentTarget.value,
-            )}
-            value={state.license ?? ""}
-          >
-            <option value="">{copy.browse.allLicensesLabel}</option>
-            {data.licenses.map((license) => (
-              <option key={license} value={license}>{license}</option>
             ))}
           </select>
         </aside>

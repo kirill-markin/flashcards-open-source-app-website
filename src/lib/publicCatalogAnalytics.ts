@@ -7,8 +7,7 @@ export type PublicCatalogFilterCategory =
   | "all"
   | "author"
   | "collection"
-  | "language"
-  | "license";
+  | "language";
 
 export type PublicCatalogFilterAction =
   | "add"

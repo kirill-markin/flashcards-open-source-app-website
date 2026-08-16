@@ -29,7 +29,6 @@ export type PublicCatalogBrowseData = Readonly<{
   languages: ReadonlyArray<string>;
   authors: ReadonlyArray<PublicCatalogBrowseChoice>;
   collections: ReadonlyArray<PublicCatalogBrowseChoice>;
-  licenses: ReadonlyArray<string>;
 }>;
 
 export type PublicCatalogQueryState = Readonly<{
@@ -37,7 +36,6 @@ export type PublicCatalogQueryState = Readonly<{
   languages: ReadonlyArray<string>;
   author: string | null;
   collection: string | null;
-  license: string | null;
   sort: PublicCatalogSort | null;
   page: number;
 }>;
@@ -151,9 +149,6 @@ export function createPublicCatalogBrowseData(
     ),
     authors,
     collections,
-    licenses: getUniqueSortedValues(
-      packages.map(({ packageView }) => packageView.latestVersion.license),
-    ),
   };
 }
 
@@ -188,7 +183,7 @@ function parseRepeatedChoice(
 
 function parseSingleChoice(
   searchParams: URLSearchParams,
-  key: "author" | "collection" | "license",
+  key: "author" | "collection",
   choices: ReadonlyArray<string>,
 ): string | null {
   const requestedValue = searchParams.get(key);
@@ -243,7 +238,6 @@ export function parsePublicCatalogQuery(
       "collection",
       data.collections.map((choice) => choice.value),
     ),
-    license: parseSingleChoice(searchParams, "license", data.licenses),
     sort: supportedSort === getDefaultPublicCatalogSort(q) ? null : supportedSort,
     page: parsePage(searchParams),
   };
@@ -262,10 +256,6 @@ export function serializePublicCatalogQuery(state: PublicCatalogQueryState): str
 
   if (state.collection !== null) {
     searchParams.set("collection", state.collection);
-  }
-
-  if (state.license !== null) {
-    searchParams.set("license", state.license);
   }
 
   if (state.sort !== null && state.sort !== getDefaultPublicCatalogSort(state.q)) {
@@ -304,8 +294,7 @@ function matchesFilters(
       || state.languages.some((language) => latestVersion.languageTags.includes(language)))
     && (state.author === null || item.packageView.author.slug === state.author)
     && (state.collection === null
-      || item.collections.some((collection) => collection.value === state.collection))
-    && (state.license === null || latestVersion.license === state.license);
+      || item.collections.some((collection) => collection.value === state.collection));
 }
 
 function scoreSearchField(value: string, term: string, weight: number): number {
