@@ -98,7 +98,6 @@ export function PublicCatalogPackageCard({
               </Link>
             </li>
           ))}
-          <li className={styles.fact}>{latestVersion.license}</li>
         </ul>
       </div>
     </article>
