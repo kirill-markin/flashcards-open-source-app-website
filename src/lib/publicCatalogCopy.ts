@@ -3,13 +3,11 @@ import type { AppLocale } from "./localeConfig";
 export interface PublicCatalogBrowseUiCopy {
   readonly allAuthorsLabel: string;
   readonly allCollectionsLabel: string;
-  readonly allLicensesLabel: string;
   readonly authorLabel: string;
   readonly clearFiltersLabel: string;
   readonly collectionLabel: string;
   readonly filtersLabel: string;
   readonly languageLabel: string;
-  readonly licenseLabel: string;
   readonly nextPageLabel: string;
   readonly noResultsLabel: string;
   readonly paginationLabel: string;
@@ -62,13 +60,11 @@ const PUBLIC_CATALOG_COPY_BY_LOCALE: Readonly<
     browse: {
       allAuthorsLabel: "All authors",
       allCollectionsLabel: "All collections",
-      allLicensesLabel: "All licenses",
       authorLabel: "Author",
       clearFiltersLabel: "Clear filters",
       collectionLabel: "Collection",
       filtersLabel: "Filters",
       languageLabel: "Content languages",
-      licenseLabel: "License",
       nextPageLabel: "Next page",
       noResultsLabel: "No decks match these filters.",
       paginationLabel: "Catalog pages",
@@ -127,13 +123,11 @@ const PUBLIC_CATALOG_COPY_BY_LOCALE: Readonly<
     browse: {
       allAuthorsLabel: "Todos los autores",
       allCollectionsLabel: "Todas las colecciones",
-      allLicensesLabel: "Todas las licencias",
       authorLabel: "Autor",
       clearFiltersLabel: "Borrar filtros",
       collectionLabel: "Colección",
       filtersLabel: "Filtros",
       languageLabel: "Idiomas del contenido",
-      licenseLabel: "Licencia",
       nextPageLabel: "Página siguiente",
       noResultsLabel: "Ningún mazo coincide con estos filtros.",
       paginationLabel: "Páginas del catálogo",
@@ -192,13 +186,11 @@ const PUBLIC_CATALOG_COPY_BY_LOCALE: Readonly<
     browse: {
       allAuthorsLabel: "كل المؤلفين",
       allCollectionsLabel: "كل المجموعات",
-      allLicensesLabel: "كل التراخيص",
       authorLabel: "المؤلف",
       clearFiltersLabel: "مسح عوامل التصفية",
       collectionLabel: "المجموعة",
       filtersLabel: "عوامل التصفية",
       languageLabel: "لغات المحتوى",
-      licenseLabel: "الترخيص",
       nextPageLabel: "الصفحة التالية",
       noResultsLabel: "لا توجد رزم تطابق عوامل التصفية هذه.",
       paginationLabel: "صفحات الكتالوج",
@@ -257,13 +249,11 @@ const PUBLIC_CATALOG_COPY_BY_LOCALE: Readonly<
     browse: {
       allAuthorsLabel: "Alle Autoren",
       allCollectionsLabel: "Alle Sammlungen",
-      allLicensesLabel: "Alle Lizenzen",
       authorLabel: "Autor",
       clearFiltersLabel: "Filter zurücksetzen",
       collectionLabel: "Sammlung",
       filtersLabel: "Filter",
       languageLabel: "Inhaltssprachen",
-      licenseLabel: "Lizenz",
       nextPageLabel: "Nächste Seite",
       noResultsLabel: "Keine Lernkartensets entsprechen diesen Filtern.",
       paginationLabel: "Katalogseiten",
@@ -322,13 +312,11 @@ const PUBLIC_CATALOG_COPY_BY_LOCALE: Readonly<
     browse: {
       allAuthorsLabel: "सभी लेखक",
       allCollectionsLabel: "सभी संग्रह",
-      allLicensesLabel: "सभी लाइसेंस",
       authorLabel: "लेखक",
       clearFiltersLabel: "फ़िल्टर हटाएँ",
       collectionLabel: "संग्रह",
       filtersLabel: "फ़िल्टर",
       languageLabel: "सामग्री की भाषाएँ",
-      licenseLabel: "लाइसेंस",
       nextPageLabel: "अगला पृष्ठ",
       noResultsLabel: "इन फ़िल्टर से कोई डेक नहीं मिला।",
       paginationLabel: "कैटलॉग पृष्ठ",
@@ -387,13 +375,11 @@ const PUBLIC_CATALOG_COPY_BY_LOCALE: Readonly<
     browse: {
       allAuthorsLabel: "すべての作成者",
       allCollectionsLabel: "すべてのコレクション",
-      allLicensesLabel: "すべてのライセンス",
       authorLabel: "作成者",
       clearFiltersLabel: "フィルターをクリア",
       collectionLabel: "コレクション",
       filtersLabel: "フィルター",
       languageLabel: "コンテンツの言語",
-      licenseLabel: "ライセンス",
       nextPageLabel: "次のページ",
       noResultsLabel: "この条件に一致するデッキはありません。",
       paginationLabel: "カタログのページ",
@@ -452,13 +438,11 @@ const PUBLIC_CATALOG_COPY_BY_LOCALE: Readonly<
     browse: {
       allAuthorsLabel: "Все авторы",
       allCollectionsLabel: "Все коллекции",
-      allLicensesLabel: "Все лицензии",
       authorLabel: "Автор",
       clearFiltersLabel: "Сбросить фильтры",
       collectionLabel: "Коллекция",
       filtersLabel: "Фильтры",
       languageLabel: "Языки содержимого",
-      licenseLabel: "Лицензия",
       nextPageLabel: "Следующая страница",
       noResultsLabel: "Нет колод, соответствующих этим фильтрам.",
       paginationLabel: "Страницы каталога",
@@ -517,13 +501,11 @@ const PUBLIC_CATALOG_COPY_BY_LOCALE: Readonly<
     browse: {
       allAuthorsLabel: "所有作者",
       allCollectionsLabel: "所有合集",
-      allLicensesLabel: "所有许可证",
       authorLabel: "作者",
       clearFiltersLabel: "清除筛选条件",
       collectionLabel: "合集",
       filtersLabel: "筛选条件",
       languageLabel: "内容语言",
-      licenseLabel: "许可证",
       nextPageLabel: "下一页",
       noResultsLabel: "没有符合这些筛选条件的卡组。",
       paginationLabel: "目录页面",
