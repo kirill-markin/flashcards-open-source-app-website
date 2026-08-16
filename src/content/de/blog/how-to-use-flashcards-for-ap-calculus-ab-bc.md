@@ -88,6 +88,8 @@ Decks zu Ableitungen kippen schnell, weil viele bei Formeln stehen bleiben.
 
 Du brauchst die Regeln natürlich. Produktregel, Quotientenregel, Kettenregel, implizites Differenzieren, inverse Funktionsbeziehungen und Standardableitungen sollten schnell genug sitzen, damit sie den Rest der Aufgabe nicht bremsen.
 
+Damit der Abruf von Ableitungen wirklich schnell bleibt, müssen auch exakte trigonometrische Werte automatisch sitzen. Mit dem [Unit-Circle-Flashcard-Deck zu 16 Winkeln, Bogenmaß und exakten Koordinaten](/catalog/packages/unit-circle-degrees-radians-coordinates/) übst du die 16 Standardpositionen auf dem Einheitskreis in Grad, Bogenmaß und exakten Koordinaten, sodass die Übersetzung zwischen diesen Darstellungen nicht zum Engpass in einer Analysisaufgabe wird.
+
 Aber **AP Calculus Flashcards** werden deutlich nützlicher, wenn Karten zu Ableitungen drei verschiedene Aufgaben übernehmen:
 
 **Regelkarten**

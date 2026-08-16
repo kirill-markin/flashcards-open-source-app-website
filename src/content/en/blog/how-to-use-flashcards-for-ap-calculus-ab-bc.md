@@ -88,6 +88,8 @@ Derivative decks go bad fast because students stop at formulas.
 
 You do need the rules. Product, quotient, chain, implicit differentiation, inverse-function relationships, and standard derivatives should be quick enough that they do not slow down the rest of the question.
 
+Before derivative recall can stay fast, exact trig values also have to become automatic. [Unit Circle Flashcards: 16 Angles, Radians & Exact Coordinates](/catalog/packages/unit-circle-degrees-radians-coordinates/) lets you practice the 16 standard unit-circle positions in degrees, radians, and exact coordinates, so translating between those representations does not become the bottleneck in a calculus problem.
+
 But **AP Calculus flashcards** become much more useful when derivative cards do three different jobs:
 
 **Rule cards**
