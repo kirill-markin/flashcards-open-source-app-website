@@ -100,6 +100,8 @@ keywords:
 
 यही उपयोगी **टेक्निकल इंटरव्यू फ्लैशकार्ड** और पैराफ्रेज़ किए गए पछतावों की विशाल लाइब्रेरी के बीच का फर्क है।
 
+अगर अपना mistake log बनाने से पहले आपको ready-made starting point चाहिए, तो [Python solutions वाला Blind 75 deck](/catalog/packages/blind-75-python-solutions/) सभी 75 classic problems को ऐसे cards में बदलता है जो core data structure, algorithm, complexity, edge cases और Python solution को cover करते हैं।
+
 ## सबसे अच्छे कोडिंग इंटरव्यू कार्ड अक्सर जीत से नहीं, गलतियों से निकलते हैं
 
 यहीं लोग तेज़ी से बेहतर हो सकते हैं।
