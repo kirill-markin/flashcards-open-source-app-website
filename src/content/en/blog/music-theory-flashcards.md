@@ -93,6 +93,8 @@ The first card asks you to identify what is written. The second makes you choose
 
 Keep major and minor prompts explicit. One key signature belongs to both a relative major and minor key, so “What key is this?” does not have one answer without more context.
 
+To practice this distinction in both directions, the [key-signature flashcard deck](/catalog/packages/major-minor-key-signatures/) pairs treble- and bass-clef notation with major keys and their relative minors.
+
 ```text
 Front: Which major key has three sharps?
 Back: A major. The sharps are F-sharp, C-sharp, and G-sharp.
