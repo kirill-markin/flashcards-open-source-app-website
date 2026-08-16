@@ -88,6 +88,8 @@ Esa mezcla le da más recorrido al mazo.
 
 No solo recuerdas que una palabra existe. Aprendes dónde encaja.
 
+Las tarjetas para un sistema de escritura pueden seguir el mismo patrón bidireccional sin dejar de estar bien acotadas. [El mazo de hiragana básico con los 46 caracteres y rōmaji](/catalog/packages/basic-hiragana-romaji/) contiene exactamente 92 tarjetas para los 46 hiragana básicos modernos, repartidas entre la recuperación kana → rōmaji para estudiantes al estilo Hepburn y rōmaji → kana. No incluye audio, vocabulario, orden de trazos, dakuten ni sonidos contraídos, así que úsalo como una base específica, no como un curso completo de japonés.
+
 ## Las frases suelen ganarle al vocabulario aislado una vez superas la primera capa
 
 Esta es probablemente la mejora más importante que puede hacer la mayoría de la gente.

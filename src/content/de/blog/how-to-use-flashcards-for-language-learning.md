@@ -83,6 +83,8 @@ Diese Mischung gibt dem Deck mehr Reichweite.
 
 Du erinnerst dich nicht nur daran, dass ein Wort existiert. Du lernst, wo es hingehört.
 
+Karten für ein Schriftsystem können dasselbe bidirektionale Muster nutzen und trotzdem bewusst eng gefasst bleiben. [Das Hiragana-Lernkartendeck mit allen 46 Grundzeichen und Rōmaji](/catalog/packages/basic-hiragana-romaji/) enthält genau 92 Karten zu allen 46 modernen Hiragana-Grundzeichen, aufgeteilt in den Abruf Kana → lernfreundliches Rōmaji nach Hepburn-Art und Rōmaji → Kana. Audio, Wortschatz, Strichfolge, Dakuten und kontrahierte Laute sind nicht enthalten; nutze es daher als gezielte Grundlage und nicht als vollständigen Japanischkurs.
+
 ## Beispielsätze sind meist stärker als rohe Vokabelkarten, sobald du über die erste Stufe hinaus bist
 
 Das ist wahrscheinlich die größte Verbesserung, die die meisten vornehmen können.

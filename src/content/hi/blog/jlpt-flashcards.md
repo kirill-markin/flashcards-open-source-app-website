@@ -52,6 +52,8 @@ Item types आपको एक भरोसेमंद नक्शा दे�
 
 यह table दिखाता है कि level बदलने पर आपके deck का कुछ हिस्सा भी बदलना चाहिए। N5 में vocabulary-usage item type नहीं है। Word formation केवल N2 में है। N1 और N2 में कई texts या listening information sources की तुलना और integration शामिल है। एक सामान्य Japanese deck आपकी भाषा सुधार सकता है, लेकिन वह अपने-आप आपके JLPT level पर पूछे जाने वाले फैसलों की तैयारी नहीं कराता।
 
+अगर आप अभी लिपि सीख रहे हैं, तो [सभी 46 मूल अक्षरों और रोमाजी वाला हिरागाना फ्लैशकार्ड डेक](/catalog/packages/basic-hiragana-romaji/) ठीक 92 कार्ड में सभी 46 आधुनिक मूल हिरागाना को दोनों दिशाओं में सिखाता है: काना → सीखने वालों के लिए हेपबर्न-शैली का रोमाजी और रोमाजी → काना। यह लिपि की बुनियादी drill है, कोई आधिकारिक JLPT list या आपके level की vocabulary, grammar, reading और listening practice का विकल्प नहीं।
+
 ## Kanji और vocabulary को छोटे फैसलों में बदलें
 
 `提出 = जमा करना` वाला card शुरुआत में मदद कर सकता है। Official item map केवल translation से कहीं आगे जाता है। Level के आधार पर vocabulary के सवालों में kanji पढ़ना, written form चुनना, context से meaning समझना, करीबी paraphrase ढूँढना, usage परखना या word formation पहचानना शामिल है।
