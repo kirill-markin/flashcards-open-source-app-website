@@ -139,6 +139,8 @@ Nutze einen weiteren kurzen Übungsstapel mit neuen Beispielen, wenn du das Unte
 
 Angenommen, du lernst drei Ableitungsregeln. In einer kurzen geblockten Einführung arbeitest du zunächst einige eindeutige Beispiele für jede Regel durch. Danach verschwinden die Kategoriebezeichnungen, und die Karten werden gemischt.
 
+Als weiteres kompaktes Set, das du bewusst mischen kannst, übt das [Unit-Circle-Flashcard-Deck zu 16 Winkeln, Bogenmaß und exakten Koordinaten](/catalog/packages/unit-circle-degrees-radians-coordinates/) die 16 Standardpositionen auf dem Einheitskreis in Grad, Bogenmaß und exakten Koordinaten. Mische diese Darstellungen erst, nachdem du jede davon in einer kurzen geblockten Einführung sicher erkannt hast.
+
 Karte 1:
 
 - Vorderseite: Leite `(x² + 1)⁴` ab. Welche Regel wendest du zuerst an?

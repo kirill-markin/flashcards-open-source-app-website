@@ -88,6 +88,8 @@ Derivative decks जल्दी खराब हो जाते हैं, क
 
 Rules की ज़रूरत होती है। Product, quotient, chain, implicit differentiation, inverse-function relationships, और standard derivatives इतने तेज़ होने चाहिए कि वे बाकी question को slow न करें।
 
+Derivative recall को तेज़ रखने से पहले exact trigonometric values भी अपने आप याद आनी चाहिए। [Unit circle का 16 angles, radians और exact coordinates वाला flashcard deck](/catalog/packages/unit-circle-degrees-radians-coordinates/) आपको unit circle की सभी 16 standard positions का degrees, radians और exact coordinates में अभ्यास कराता है, ताकि इन representations के बीच बदलना calculus problem में bottleneck न बने।
+
 लेकिन **AP Calculus flashcards** तब कहीं ज़्यादा useful बनते हैं जब derivative cards तीन अलग काम करें:
 
 **Rule cards**

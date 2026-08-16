@@ -88,6 +88,8 @@ Los mazos de derivadas se estropean rápido porque muchos estudiantes se quedan 
 
 Sí necesitas las reglas. Regla del producto, del cociente, de la cadena, diferenciación implícita, relaciones de funciones inversas y derivadas estándar deberían salirte lo bastante rápido como para no frenar el resto de la pregunta.
 
+Para que el recuerdo de las derivadas sea ágil, los valores trigonométricos exactos también deben salir de forma automática. [El mazo de flashcards del círculo unitario con 16 ángulos, radianes y coordenadas exactas](/catalog/packages/unit-circle-degrees-radians-coordinates/) te permite practicar las 16 posiciones estándar del círculo unitario en grados, radianes y coordenadas exactas, para que traducir entre esas representaciones no se convierta en el cuello de botella de un problema de cálculo.
+
 Pero las **flashcards para AP Calculus** se vuelven mucho más útiles cuando las tarjetas de derivadas hacen tres trabajos distintos:
 
 **Tarjetas de reglas**

@@ -139,6 +139,8 @@ Use another short scratch batch with fresh examples when you want to test discri
 
 Suppose you are learning three calculus rules. A short blocked introduction gives you a few straightforward examples of each rule. Then the category labels disappear and the cards are mixed.
 
+For another compact set you can mix deliberately, [Unit Circle Flashcards: 16 Angles, Radians & Exact Coordinates](/catalog/packages/unit-circle-degrees-radians-coordinates/) practices the 16 standard unit-circle positions in degrees, radians, and exact coordinates. Interleave those representations only after you can identify each one in a short blocked introduction.
+
 Card 1:
 
 - Front: Differentiate `(x² + 1)⁴`. Which rule do you apply first?
