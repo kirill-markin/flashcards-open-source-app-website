@@ -105,6 +105,7 @@ type Mutable<T> = T extends ReadonlyArray<infer Item>
 type PublicCatalogDumpFixture = Mutable<PublicCatalogDump>;
 
 interface MarkdownAstNode {
+  readonly alt?: string | null;
   readonly checked?: boolean | null;
   readonly children?: ReadonlyArray<MarkdownAstNode>;
   readonly depth?: number;
@@ -2214,7 +2215,7 @@ test("isolates authored Markdown fragments from generated and sibling content", 
     node.type === "text" && node.value?.includes("[Must stay literal][other]")));
 });
 
-test("renders authored images as inert content in generated catalog Markdown", () => {
+test("renders only card-authorized images in generated catalog Markdown", () => {
   const input = createValidDump();
 
   input.packageVersions[1].description = [
@@ -2256,11 +2257,17 @@ test("renders authored images as inert content in generated catalog Markdown", (
   const linkDestinations = nodes
     .filter((node) => node.type === "link")
     .map((node) => node.url);
+  const images = nodes
+    .filter((node) => node.type === "image")
+    .map((node) => ({ alt: node.alt, url: node.url }));
 
-  assert.equal(
-    nodes.some((node) => node.type === "image" || node.type === "imageReference"),
-    false,
-  );
+  assert.deepEqual(images, [
+    {
+      alt: "inline",
+      url: `https://api.flashcards-open-source-app.com/v1/catalog/package-versions/${fixtureLatestVersionId}/media-assets/inline.webp/download`,
+    },
+  ]);
+  assert.equal(nodes.some((node) => node.type === "imageReference"), false);
   assert.ok(linkDestinations.includes("https://tracker.example/package.gif"));
   assert.ok(linkDestinations.includes("https://example.com/package-link"));
   assert.equal(linkDestinations.includes("https://tracker.example/linked-package.gif"), false);
@@ -2352,14 +2359,30 @@ test("resolves only unambiguous card-authorized media to public download URLs", 
     mediaDownloadUrls,
     `Public catalog card ${fixtureFirstCardId} frontText`,
   );
+  const linkedReferenceMediaHtml = await renderPublicCatalogCardMarkdownToHtml(
+    [
+      "[![Reference media][asset]](https://example.com/card)",
+      "",
+      "[asset]: fcasset:inline.webp",
+    ].join("\n"),
+    "en",
+    mediaDownloadUrls,
+    `Public catalog card ${fixtureFirstCardId} frontText`,
+  );
 
   assert.match(
     managedMediaHtml,
-    new RegExp(`href="${downloadUrl}"[^>]*>Managed media</a>`),
+    new RegExp(`<img src="${downloadUrl}" alt="Managed media">`),
   );
   assert.match(
     packageRelativeMediaHtml,
-    new RegExp(`href="${downloadUrl}"[^>]*>Package-relative media</a>`),
+    new RegExp(`<img src="${downloadUrl}" alt="Package-relative media">`),
+  );
+  assert.match(
+    linkedReferenceMediaHtml,
+    new RegExp(
+      `<a href="https://example\\.com/card"[^>]*><img src="${downloadUrl}" alt="Reference media"></a>`,
+    ),
   );
   await assert.rejects(
     renderPublicCatalogCardMarkdownToHtml(
