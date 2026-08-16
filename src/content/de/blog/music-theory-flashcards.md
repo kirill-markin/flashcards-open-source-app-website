@@ -93,6 +93,8 @@ Auf der ersten Karte bestimmst du, was notiert ist. Auf der zweiten musst du zue
 
 Formuliere Aufgaben zu Dur und Moll eindeutig. Eine Tonartvorzeichnung gehört sowohl zu einer Durtonart als auch zu ihrer parallelen Molltonart. Deshalb hat die Frage „Welche Tonart ist das?“ ohne weiteren Kontext keine eindeutige Antwort.
 
+Um diese Unterscheidung in beiden Richtungen zu üben, verknüpft das [Flashcard-Deck zu Tonartvorzeichnungen](/catalog/packages/major-minor-key-signatures/) die Notation im Violin- und Bassschlüssel mit Durtonarten und ihren parallelen Molltonarten.
+
 ```text
 Vorderseite: Welche Durtonart hat drei Kreuze?
 Rückseite: A-Dur. Die Kreuze sind F-sharp, C-sharp und G-sharp.
