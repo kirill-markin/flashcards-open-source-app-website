@@ -64,6 +64,7 @@
 @media (max-width: 640px) {
   .box {
     grid-template-columns: 1fr;
+    row-gap: 8px;
   }
 
   .button {
