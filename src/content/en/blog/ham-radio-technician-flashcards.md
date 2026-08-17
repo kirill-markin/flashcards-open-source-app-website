@@ -161,6 +161,8 @@ Also check the exam provider's identification, registration, fee, calculator, an
 
 [Flashcards Open Source App](/features/) can hold front-and-back cards, organize them with decks and tags, and schedule reviews with FSRS. That covers the recall part of this workflow.
 
+For a separate Morse code drill, the [Morse code alphabet and numbers deck](/catalog/packages/morse-code-alphabet-numbers/) has 72 visual-recall cards covering letters A–Z and digits 0–9 in both character-to-pattern and pattern-to-character directions; it won't replace listening and timing practice.
+
 The app is not affiliated with the FCC, NCVEC, or ARRL. It does not include an official Technician deck, import the question pool, verify your explanations, provide the official diagrams, or generate a 35-question licensing exam. You supply and check the card content. Use an established current-pool practice service for exam simulation.
 
 If you want a place for the cards you make from your own study, the [Getting Started guide](/docs/getting-started/) explains the current app options.
