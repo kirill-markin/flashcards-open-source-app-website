@@ -27,7 +27,7 @@ import {
   type AppLocale,
 } from "./i18n";
 import { assertSafeMarkdownDestinationInput } from "./markdownLinks";
-import { isPublicCatalogPageRoutePathname } from "./publicCatalogUrls";
+import { isPublicCatalogSharedPageRoutePathname } from "./publicCatalogUrls";
 import { hasRouteTranslation } from "./routeTranslations";
 
 interface MarkdownFragmentContext {
@@ -68,7 +68,7 @@ function localizeRootRelativeDestination(
     locale === DEFAULT_LOCALE
     || destinationLocale !== DEFAULT_LOCALE
     || (
-      isPublicCatalogPageRoutePathname(routePathname) === false
+      isPublicCatalogSharedPageRoutePathname(routePathname) === false
       && hasRouteTranslation(routePathname, locale) === false
     )
   ) {
