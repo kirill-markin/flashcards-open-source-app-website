@@ -4,7 +4,6 @@
   display: grid;
   grid-template-columns: minmax(220px, 280px) minmax(0, 1fr);
   gap: 20px;
-  margin-top: 20px;
   align-items: start;
 }
 
@@ -26,7 +25,7 @@
 }
 
 .filtersHeading,
-.resultsToolbar,
+.toolbar,
 .sortControl,
 .pagination {
   display: flex;
@@ -34,9 +33,22 @@
 }
 
 .filtersHeading,
-.resultsToolbar {
+.toolbar {
   justify-content: space-between;
   gap: 12px;
+}
+
+.toolbar {
+  flex-wrap: wrap;
+  margin-block: 18px;
+}
+
+.toolbar > nav {
+  margin-block: 0;
+}
+
+.toolbar > .sortControl {
+  margin-inline-start: auto;
 }
 
 .filtersHeading h2 {
@@ -57,6 +69,11 @@
   color: var(--text-tertiary);
   cursor: default;
   text-decoration: none;
+}
+
+.resultsCount {
+  color: var(--text-secondary);
+  font-size: 13px;
 }
 
 .controlLabel {
@@ -103,19 +120,6 @@
 
 .results {
   min-width: 0;
-}
-
-.resultsToolbar {
-  min-height: 44px;
-  padding-inline: 4px;
-}
-
-.resultsToolbar p {
-  color: var(--text-secondary);
-  font-size: 14px;
-}
-
-.resultsStart {
   scroll-margin-block-start: var(--catalog-sticky-header-clearance);
 }
 
@@ -157,7 +161,7 @@
 .textInput:focus-visible,
 .clearButton:focus-visible,
 .filtersSummary:focus-visible,
-.resultsStart:focus-visible,
+.results:focus-visible,
 .pagination button:focus-visible {
   outline: 2px solid rgba(255, 214, 201, 0.62);
   outline-offset: 3px;
@@ -220,14 +224,15 @@
 }
 
 @media (max-width: 520px) {
-  .resultsToolbar {
+  .toolbar {
     align-items: stretch;
     flex-direction: column;
     gap: 8px;
   }
 
-  .sortControl {
+  .toolbar > .sortControl {
     justify-content: space-between;
+    margin-inline-start: 0;
   }
 
   .sortPicker {

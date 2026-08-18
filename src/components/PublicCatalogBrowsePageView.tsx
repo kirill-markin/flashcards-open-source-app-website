@@ -43,13 +43,13 @@ export function PublicCatalogBrowsePageView({
           />
           <h1 className={styles.title}>{copy.title}</h1>
           <p className={styles.intro}>{copy.intro}</p>
-          <PublicCatalogNavigation currentSection="packages" locale={locale} />
         </header>
         <PublicCatalogBrowser
           copy={copy}
           data={browseData}
           initialSearch={getPublicCatalogRootSearch(locale)}
           locale={locale}
+          navigation={<PublicCatalogNavigation currentSection="packages" locale={locale} />}
         />
       </div>
     </SiteFrame>
