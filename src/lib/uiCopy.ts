@@ -117,6 +117,7 @@ interface AppUiCopy {
   readonly platforms: {
     readonly appStore: string;
     readonly googlePlay: string;
+    readonly scanQrHint: string;
     readonly webApp: string;
   };
 }
@@ -247,6 +248,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     platforms: {
       appStore: "App Store",
       googlePlay: "Google Play",
+      scanQrHint: "Scan it from your phone",
       webApp: "Web App",
     },
   },
@@ -375,6 +377,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     platforms: {
       appStore: "App Store",
       googlePlay: "Google Play",
+      scanQrHint: "Escanéalo desde tu teléfono",
       webApp: "App web",
     },
   },
@@ -502,6 +505,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     platforms: {
       appStore: "App Store",
       googlePlay: "Google Play",
+      scanQrHint: "امسحه ضوئيًا من هاتفك",
       webApp: "تطبيق الويب",
     },
   },
@@ -630,6 +634,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     platforms: {
       appStore: "App Store",
       googlePlay: "Google Play",
+      scanQrHint: "Mit dem Handy scannen",
       webApp: "Web-App",
     },
   },
@@ -758,6 +763,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     platforms: {
       appStore: "App Store",
       googlePlay: "Google Play",
+      scanQrHint: "इसे अपने फ़ोन से स्कैन करें",
       webApp: "वेब ऐप",
     },
   },
@@ -886,6 +892,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     platforms: {
       appStore: "App Store",
       googlePlay: "Google Play",
+      scanQrHint: "スマホで読み取ってください",
       webApp: "ウェブアプリ",
     },
   },
@@ -1014,6 +1021,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     platforms: {
       appStore: "App Store",
       googlePlay: "Google Play",
+      scanQrHint: "Отсканируйте с телефона",
       webApp: "Веб-приложение",
     },
   },
@@ -1139,6 +1147,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     platforms: {
       appStore: "App Store",
       googlePlay: "Google Play",
+      scanQrHint: "用手机扫描",
       webApp: "网页应用",
     },
   },

@@ -36,6 +36,10 @@ export type DisabledHumanPlatform = {
 
 export type HumanPlatform = ActiveHumanPlatform | DisabledHumanPlatform;
 
+// Both URLs are encoded into the hover QR codes at build time, and the Google Play one
+// already sits exactly on the 4px-per-module scan floor. Lengthening either URL can push
+// it to a denser symbol and hard-fail the prebuild; see assertStoreQrCodeIsScannable in
+// scripts/generateStaticContent.ts for the check and the remedy.
 export const APP_STORE_URL =
   "https://apps.apple.com/app/apple-store/id6760538964?pt=128797295&ct=marketing_site&mt=8";
 

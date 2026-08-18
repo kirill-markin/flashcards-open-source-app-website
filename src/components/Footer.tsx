@@ -5,6 +5,7 @@ import type { AppLocale } from "@/lib/i18n";
 import { getHumanPlatforms } from "@/lib/humanPlatforms";
 import { getExternalLinkAttributes } from "@/lib/linkTargets";
 import { getAvailableLocalizedPathname } from "@/lib/routeTranslations";
+import { readGeneratedStoreQrCodes } from "@/lib/storeQrCodes";
 import { getUiCopy } from "@/lib/uiCopy";
 import { isPublicCatalogEnabled } from "@/lib/publicCatalogBuild";
 import { getPublicCatalogUiCopy } from "@/lib/publicCatalogCopy";
@@ -26,6 +27,7 @@ export const Footer: React.FC<FooterProps> = ({
 }) => {
   const year = new Date().getFullYear();
   const platforms = getHumanPlatforms(getAppUrl(), locale);
+  const storeQrCodes = readGeneratedStoreQrCodes(process.cwd());
   const uiCopy = getUiCopy(locale);
   const sourceCodeHref = "https://github.com/kirill-markin/flashcards-open-source-app";
   const sourceCodeLinkAttributes = getExternalLinkAttributes(sourceCodeHref);
@@ -90,9 +92,11 @@ export const Footer: React.FC<FooterProps> = ({
                   return (
                     <TrackedStoreLink
                       key={platform.label}
+                      hint={uiCopy.platforms.scanQrHint}
                       href={platform.href}
                       label={platform.label}
                       platform={platform.analytics.platform}
+                      qrSvgMarkup={storeQrCodes[platform.analytics.platform]}
                     />
                   );
                 }
