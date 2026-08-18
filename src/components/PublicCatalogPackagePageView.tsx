@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { AncestorBreadcrumbs } from "@/components/Breadcrumbs";
 import { PublicCatalogCover } from "@/components/PublicCatalogCover";
-import { SiteFrame } from "@/components/SiteFrame";
+import { SiteFrameForRouteLocales } from "@/components/SiteFrame";
 import { StructuredDataScript } from "@/components/StructuredDataScript";
 import { TrackedPublicCatalogInstallLink } from "@/components/TrackedPublicCatalogInstallLink";
 import type { AppLocale } from "@/lib/i18n";
@@ -32,6 +32,7 @@ import {
   getPublicCatalogAuthorRoutePathname,
   getPublicCatalogCollectionRoutePathname,
   getPublicCatalogLanguageRoutePathname,
+  getPublicCatalogPackagePageLocales,
   getPublicCatalogPackageRoutePathname,
   getPublicCatalogRootUrl,
 } from "@/lib/publicCatalogUrls";
@@ -201,7 +202,13 @@ export async function PublicCatalogPackagePageView({
   };
 
   return (
-    <SiteFrame locale={locale} routePathname={packageRoutePathname}>
+    <SiteFrameForRouteLocales
+      locale={locale}
+      routeLocales={getPublicCatalogPackagePageLocales(
+        latestVersion.languageTags,
+      )}
+      routePathname={packageRoutePathname}
+    >
       <article className={styles.container}>
         <StructuredDataScript
           value={createPublicCatalogPackageJsonLd(collections, locale, packageView)}
@@ -413,6 +420,6 @@ export async function PublicCatalogPackagePageView({
           )}
         </section>
       </article>
-    </SiteFrame>
+    </SiteFrameForRouteLocales>
   );
 }

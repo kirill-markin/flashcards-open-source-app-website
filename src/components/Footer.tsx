@@ -15,11 +15,13 @@ import styles from "./Footer.module.css";
 
 interface FooterProps {
   readonly locale: AppLocale;
+  readonly routeLocales: ReadonlyArray<AppLocale>;
   readonly routePathname: string;
 }
 
 export const Footer: React.FC<FooterProps> = ({
   locale,
+  routeLocales,
   routePathname,
 }) => {
   const year = new Date().getFullYear();
@@ -147,7 +149,11 @@ export const Footer: React.FC<FooterProps> = ({
             </div>
           </div>
           <div className={styles.localePicker}>
-            <LocaleSwitcher locale={locale} routePathname={routePathname} />
+            <LocaleSwitcher
+              locale={locale}
+              routeLocales={routeLocales}
+              routePathname={routePathname}
+            />
           </div>
         </div>
       </div>
