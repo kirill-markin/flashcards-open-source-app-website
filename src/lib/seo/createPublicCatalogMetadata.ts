@@ -4,8 +4,8 @@ import {
   getAbsoluteUrl,
   getLocalizedPathname,
   getOpenGraphLocale,
+  SUPPORTED_LOCALES,
 } from "@/lib/i18n";
-import { getLanguageAlternates } from "@/lib/routeTranslations";
 import {
   getPublicCatalogCoverImage,
   type PublicCatalogCoverImage,
@@ -25,6 +25,8 @@ import {
   getPublicCatalogAuthorRoutePathname,
   getPublicCatalogCollectionRoutePathname,
   getPublicCatalogLanguageRoutePathname,
+  getPublicCatalogLanguageAlternates,
+  getPublicCatalogPackageAudienceLocales,
   getPublicCatalogPackageRoutePathname,
   PUBLIC_CATALOG_AUTHORS_ROUTE_PATHNAME,
   PUBLIC_CATALOG_COLLECTIONS_ROUTE_PATHNAME,
@@ -38,6 +40,7 @@ import {
 } from "@/lib/site";
 
 interface CreatePublicCatalogMetadataParams {
+  readonly alternateLocales: ReadonlyArray<AppLocale>;
   readonly description: string;
   readonly image: PublicCatalogCoverImage | null;
   readonly locale: AppLocale;
@@ -63,7 +66,10 @@ export function createPublicCatalogMetadata(
     description: params.description,
     alternates: {
       canonical: pageUrl,
-      languages: getLanguageAlternates(params.routePathname),
+      languages: getPublicCatalogLanguageAlternates(
+        params.routePathname,
+        params.alternateLocales,
+      ),
     },
     openGraph: {
       type: params.type,
@@ -100,6 +106,7 @@ export function createPublicCatalogRootMetadata(locale: AppLocale): Metadata {
   const copy = getPublicCatalogUiCopy(locale);
 
   return createPublicCatalogMetadata({
+    alternateLocales: SUPPORTED_LOCALES,
     description: copy.intro,
     image: null,
     locale,
@@ -115,6 +122,7 @@ export function createPublicCatalogAuthorsMetadata(locale: AppLocale): Metadata 
   const copy = getPublicCatalogDestinationCopy(locale);
 
   return createPublicCatalogMetadata({
+    alternateLocales: SUPPORTED_LOCALES,
     description: copy.authorsIntro,
     image: null,
     locale,
@@ -130,6 +138,7 @@ export function createPublicCatalogCollectionsMetadata(locale: AppLocale): Metad
   const copy = getPublicCatalogDestinationCopy(locale);
 
   return createPublicCatalogMetadata({
+    alternateLocales: SUPPORTED_LOCALES,
     description: copy.collectionsIntro,
     image: null,
     locale,
@@ -149,6 +158,9 @@ export function createPublicCatalogPackageMetadata(
   const latestVersion = packageView.latestVersion;
 
   return createPublicCatalogMetadata({
+    alternateLocales: getPublicCatalogPackageAudienceLocales(
+      latestVersion.languageTags,
+    ),
     description: latestVersion.summary,
     image: getPublicCatalogCoverImage(
       latestVersion.title,
@@ -170,6 +182,7 @@ export function createPublicCatalogAuthorMetadata(
   const copy = getPublicCatalogDestinationCopy(locale);
 
   return createPublicCatalogMetadata({
+    alternateLocales: SUPPORTED_LOCALES,
     description: author.bio === null || author.bio.trim() === ""
       ? copy.authorsIntro
       : author.bio,
@@ -194,6 +207,7 @@ export function createPublicCatalogCollectionMetadata(
   const copy = getPublicCatalogDestinationCopy(locale);
 
   return createPublicCatalogMetadata({
+    alternateLocales: SUPPORTED_LOCALES,
     description: collection.summary === "" ? copy.collectionsIntro : collection.summary,
     image: null,
     locale,
@@ -213,6 +227,7 @@ export function createPublicCatalogFacetMetadata(
   const displayTag = formatPublicCatalogFacetTag(tag);
 
   return createPublicCatalogMetadata({
+    alternateLocales: SUPPORTED_LOCALES,
     description: interpolatePublicCatalogCopy(
       copy.languageIntroTemplate,
       "tag",

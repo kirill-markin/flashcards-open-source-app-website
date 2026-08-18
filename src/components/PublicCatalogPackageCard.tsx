@@ -9,7 +9,7 @@ import type { PublicCatalogPackageCardView } from "@/lib/publicCatalogReadModel"
 import {
   getPublicCatalogAuthorRoutePathname,
   getPublicCatalogLanguageRoutePathname,
-  getPublicCatalogPackageRoutePathname,
+  getPublicCatalogPackageLocalizedPathname,
 } from "@/lib/publicCatalogUrls";
 import styles from "./PublicCatalogPackageCard.module.css";
 
@@ -27,9 +27,10 @@ export function PublicCatalogPackageCard({
   packageView,
 }: PublicCatalogPackageCardProps): React.JSX.Element {
   const { author, coverMediaAsset, latestVersion, packageMetadata } = packageView;
-  const packageHref = getLocalizedPathname(
+  const packageHref = getPublicCatalogPackageLocalizedPathname(
     locale,
-    getPublicCatalogPackageRoutePathname(packageMetadata.slug),
+    packageMetadata.slug,
+    latestVersion.languageTags,
   );
   const authorHref = getLocalizedPathname(
     locale,

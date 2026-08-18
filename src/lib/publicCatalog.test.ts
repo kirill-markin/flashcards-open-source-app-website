@@ -65,11 +65,15 @@ import {
   getPublicCatalogAuthorRoutePathname,
   getPublicCatalogCollectionRoutePathname,
   getPublicCatalogLanguageRoutePathname,
+  getPublicCatalogPackageAudienceLocales,
+  getPublicCatalogPackageLocalizedPathname,
+  getPublicCatalogPackagePageLocales,
   getPublicCatalogPackageRoutePathname,
   getPublicCatalogRootUrl,
   PUBLIC_CATALOG_AUTHORS_ROUTE_PATHNAME,
   PUBLIC_CATALOG_COLLECTIONS_ROUTE_PATHNAME,
   isPublicCatalogPageRoutePathname,
+  isPublicCatalogSharedPageRoutePathname,
   resolvePublicCatalogRouteSegment,
 } from "./publicCatalogUrls";
 import {
@@ -80,7 +84,10 @@ import {
   resolvePublicCatalogFacetAlias,
 } from "./publicCatalogStaticAssets";
 import { createPublicCatalogSitemapEntries } from "./publicCatalogSitemap";
-import { getLocaleSwitcherEntries } from "./routeTranslations";
+import {
+  getLocaleSwitcherEntries,
+  getLocaleSwitcherEntriesForLocales,
+} from "./routeTranslations";
 import {
   createPublicCatalogCollectionMetadata,
   createPublicCatalogPackageMetadata,
@@ -671,7 +678,7 @@ test("accepts a public collection cover that is not a collection member", () => 
 test("creates escaped catalog JSON-LD from canonical read-model entities", () => {
   const input = createValidDump();
   input.authors[0].displayName = "Author < One";
-  input.packageVersions[1].languageTags = ["en", "world history"];
+  input.packageVersions[1].languageTags = ["en", "es", "world history"];
   const model = createPublicCatalogReadModel(parsePublicCatalogDump(input));
   const packageView = getPublicCatalogPackageBySlug(model, "canonical-package");
   const collection = getPublicCatalogCollectionBySlug(model, "starter-collection");
@@ -697,7 +704,7 @@ test("creates escaped catalog JSON-LD from canonical read-model entities", () =>
   );
   assert.equal(packageResource.collectionSize, 2);
   assert.equal(packageResource.dateModified, packageView.latestVersion.updatedAt);
-  assert.deepEqual(packageResource.inLanguage, ["en", "world history"]);
+  assert.equal("inLanguage" in packageResource, false);
   assert.equal("keywords" in packageResource, false);
   assert.deepEqual(packageResource.license, {
     "@type": "CreativeWork",
@@ -808,6 +815,10 @@ test("creates escaped catalog JSON-LD from canonical read-model entities", () =>
     facetSchema["@graph"][0].url,
     "https://flashcards-open-source-app.com/de/catalog/languages/en/",
   );
+  assert.equal(
+    facetSchema["@graph"][1].itemListElement[0]?.item.url,
+    "https://flashcards-open-source-app.com/catalog/packages/canonical-package/",
+  );
   assert.equal("dateModified" in facetSchema["@graph"][0], false);
 
   const serializedSchema = serializeStructuredData(packageSchema);
@@ -819,7 +830,7 @@ test("creates escaped catalog JSON-LD from canonical read-model entities", () =>
 
 test("creates deterministic localized catalog sitemap entries from real timestamps", () => {
   const input = createValidDump();
-  input.packageVersions[1].languageTags = ["en", "world history"];
+  input.packageVersions[1].languageTags = ["en", "es", "world history"];
   input.collections[0].languageTags = ["world history"];
   input.packageVersions[1].publishedAt = "2026-08-03T09:00:00.000Z";
   input.packageVersions[1].updatedAt = "2026-08-03T09:00:00.000Z";
@@ -836,15 +847,21 @@ test("creates deterministic localized catalog sitemap entries from real timestam
     "https://flashcards-open-source-app.com/catalog/collections/starter-collection/";
   const packageUrl =
     "https://flashcards-open-source-app.com/catalog/packages/canonical-package/";
+  const localizedPackageUrl =
+    "https://flashcards-open-source-app.com/es/catalog/packages/canonical-package/";
   const languageFacetUrl =
     "https://flashcards-open-source-app.com/catalog/languages/en/";
   const percentFacetUrl =
     "https://flashcards-open-source-app.com/ja/catalog/languages/world%20history/";
   const latestVersionUpdatedAt = "2026-08-03T09:00:00.000Z";
 
-  assert.equal(entries.length, 64);
+  assert.equal(entries.length, 66);
   assert.equal(entryByUrl.get(rootUrl)?.lastModified, latestVersionUpdatedAt);
   assert.equal(entryByUrl.get(packageUrl)?.lastModified, latestVersionUpdatedAt);
+  assert.equal(
+    entryByUrl.get(localizedPackageUrl)?.lastModified,
+    latestVersionUpdatedAt,
+  );
   assert.equal(entryByUrl.get(authorUrl)?.lastModified, latestVersionUpdatedAt);
   assert.equal(entryByUrl.get(collectionUrl)?.lastModified, latestVersionUpdatedAt);
   assert.equal(entryByUrl.get(languageFacetUrl)?.lastModified, latestVersionUpdatedAt);
@@ -858,6 +875,20 @@ test("creates deterministic localized catalog sitemap entries from real timestam
     "2026-08-02T11:30:00.000Z",
   );
   assert.ok(entryByUrl.has(percentFacetUrl));
+  assert.equal(
+    entryByUrl.has(
+      "https://flashcards-open-source-app.com/ja/catalog/packages/canonical-package/",
+    ),
+    false,
+  );
+  assert.equal(
+    entryByUrl.get(packageUrl)?.alternates?.languages?.es,
+    localizedPackageUrl,
+  );
+  assert.equal(
+    entryByUrl.get(packageUrl)?.alternates?.languages?.ja,
+    undefined,
+  );
   assert.equal(
     entryByUrl.get(percentFacetUrl)?.alternates?.languages?.es,
     "https://flashcards-open-source-app.com/es/catalog/languages/world%20history/",
@@ -1268,6 +1299,30 @@ test("builds canonical catalog destinations and identifies current catalog pages
     getPublicCatalogPackageRoutePathname("canonical-package"),
     "/catalog/packages/canonical-package/",
   );
+  assert.deepEqual(
+    getPublicCatalogPackageAudienceLocales(["es", "en", "world history"]),
+    ["en", "es"],
+  );
+  assert.deepEqual(
+    getPublicCatalogPackagePageLocales(["es", "world history"]),
+    ["en", "es"],
+  );
+  assert.equal(
+    getPublicCatalogPackageLocalizedPathname(
+      "es",
+      "canonical-package",
+      ["en", "es"],
+    ),
+    "/es/catalog/packages/canonical-package/",
+  );
+  assert.equal(
+    getPublicCatalogPackageLocalizedPathname(
+      "ja",
+      "canonical-package",
+      ["en", "es"],
+    ),
+    "/catalog/packages/canonical-package/",
+  );
   assert.equal(
     getPublicCatalogAuthorRoutePathname("author-one"),
     "/catalog/authors/author-one/",
@@ -1295,6 +1350,15 @@ test("builds canonical catalog destinations and identifies current catalog pages
     getLocaleSwitcherEntries("/catalog/").find((entry) => entry.locale === "es")?.href,
     "/es/catalog/?language=es",
   );
+  assert.deepEqual(
+    getLocaleSwitcherEntriesForLocales(
+      "/catalog/packages/canonical-package/",
+      ["en", "es"],
+    )
+      .filter((entry) => entry.available)
+      .map((entry) => entry.locale),
+    ["en", "es"],
+  );
   assert.equal(
     getLocaleSwitcherEntries("/features/").find((entry) => entry.locale === "es")?.href,
     "/es/features/",
@@ -1305,12 +1369,20 @@ test("builds canonical catalog destinations and identifies current catalog pages
     true,
   );
   assert.equal(
+    isPublicCatalogSharedPageRoutePathname("/catalog/packages/canonical-package/"),
+    false,
+  );
+  assert.equal(
     isPublicCatalogPageRoutePathname("/catalog/authors/author-one/"),
     true,
   );
   assert.equal(isPublicCatalogPageRoutePathname(PUBLIC_CATALOG_AUTHORS_ROUTE_PATHNAME), true);
   assert.equal(isPublicCatalogPageRoutePathname(PUBLIC_CATALOG_COLLECTIONS_ROUTE_PATHNAME), true);
   assert.equal(isPublicCatalogPageRoutePathname("/catalog/languages/pt-BR/"), true);
+  assert.equal(
+    isPublicCatalogSharedPageRoutePathname("/catalog/languages/pt-BR/"),
+    true,
+  );
   assert.equal(isPublicCatalogPageRoutePathname("/catalog/topics/world%20history/"), false);
 });
 
@@ -1358,13 +1430,22 @@ test("renders useful localized catalog Markdown from the public read model", () 
     "ar/catalog",
     model,
   );
+  const ineligiblePackageDocument = renderPublicCatalogMarkdownDocument(
+    "ja/catalog/packages/canonical-package",
+    model,
+  );
   const collectionDocument = renderPublicCatalogMarkdownDocument(
     "catalog/collections/starter-collection",
     model,
   );
 
-  assert.equal(pagePaths.length, 64);
+  assert.equal(pagePaths.length, 58);
   assert.ok(pagePaths.includes("catalog/packages/canonical-package"));
+  assert.ok(pagePaths.includes("es/catalog/packages/canonical-package"));
+  assert.equal(
+    pagePaths.includes("ja/catalog/packages/canonical-package"),
+    false,
+  );
   assert.ok(pagePaths.includes("zh/catalog/languages/en"));
   assert.equal(pagePaths.some((pagePath) => pagePath.includes("/topics/")), false);
   assert.ok(packageDocument);
@@ -1400,6 +1481,15 @@ test("renders useful localized catalog Markdown from the public read model", () 
     false,
   );
   assert.ok(localizedRootDocument);
+  assert.equal(ineligiblePackageDocument, null);
+  assert.match(
+    localizedRootDocument.markdown,
+    /https:\/\/flashcards-open-source-app\.com\/catalog\/packages\/canonical-package\//,
+  );
+  assert.doesNotMatch(
+    localizedRootDocument.markdown,
+    /\/ar\/catalog\/packages\/canonical-package\//,
+  );
   assert.equal(
     listMarkdownAstNodes(parseMarkdownAst(localizedRootDocument.markdown)).some(
       (node) => node.type === "blockquote",
@@ -2773,16 +2863,16 @@ test("uses entity modification times and package covers in social metadata", () 
   ]);
 });
 
-test("keeps package canonicals and hreflang localized independently of content language", () => {
+test("keeps package canonicals while limiting hreflang to audience locales", () => {
   const model = createPublicCatalogReadModel(parsePublicCatalogDump(createValidDump()));
   const packageView = getPublicCatalogPackageBySlug(model, "canonical-package");
 
   assert.ok(packageView);
-  const metadata = createPublicCatalogPackageMetadata("ja", packageView);
+  const metadata = createPublicCatalogPackageMetadata("es", packageView);
 
   assert.equal(
     metadata.alternates?.canonical,
-    "https://flashcards-open-source-app.com/ja/catalog/packages/canonical-package/",
+    "https://flashcards-open-source-app.com/es/catalog/packages/canonical-package/",
   );
   assert.equal(
     metadata.alternates?.languages?.es,
@@ -2790,6 +2880,29 @@ test("keeps package canonicals and hreflang localized independently of content l
   );
   assert.equal(
     metadata.alternates?.languages?.["x-default"],
+    "https://flashcards-open-source-app.com/catalog/packages/canonical-package/",
+  );
+  assert.equal(metadata.alternates?.languages?.ja, undefined);
+
+  const canonicalOnlyMetadata = createPublicCatalogPackageMetadata("en", {
+    ...packageView,
+    latestVersion: {
+      ...packageView.latestVersion,
+      languageTags: ["es"],
+    },
+  });
+
+  assert.equal(
+    canonicalOnlyMetadata.alternates?.canonical,
+    "https://flashcards-open-source-app.com/catalog/packages/canonical-package/",
+  );
+  assert.equal(canonicalOnlyMetadata.alternates?.languages?.en, undefined);
+  assert.equal(
+    canonicalOnlyMetadata.alternates?.languages?.es,
+    "https://flashcards-open-source-app.com/es/catalog/packages/canonical-package/",
+  );
+  assert.equal(
+    canonicalOnlyMetadata.alternates?.languages?.["x-default"],
     "https://flashcards-open-source-app.com/catalog/packages/canonical-package/",
   );
 });
