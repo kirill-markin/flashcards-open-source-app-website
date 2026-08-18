@@ -49,6 +49,7 @@ interface PublicCatalogBrowserProps {
   readonly data: PublicCatalogBrowseData;
   readonly initialSearch: string;
   readonly locale: AppLocale;
+  readonly navigation: React.ReactNode;
 }
 
 function getBrowserSearch(): string {
@@ -150,6 +151,7 @@ export function PublicCatalogBrowser({
   data,
   initialSearch,
   locale,
+  navigation,
 }: PublicCatalogBrowserProps): React.JSX.Element {
   const searchAnalyticsSchedulerRef = useRef<PublicCatalogSearchAnalyticsScheduler | null>(null);
 
@@ -217,7 +219,7 @@ export function PublicCatalogBrowser({
       copy.browse.sortTitleLabel,
     ],
   );
-  const resultStartRef = useRef<HTMLParagraphElement>(null);
+  const resultsRef = useRef<HTMLElement>(null);
   const paginationFocusPageRef = useRef<number | null>(null);
 
   useEffect(() => {
@@ -246,14 +248,14 @@ export function PublicCatalogBrowser({
     }
 
     paginationFocusPageRef.current = null;
-    const resultStart = resultStartRef.current;
+    const results = resultsRef.current;
 
-    if (resultStart === null) {
-      throw new Error("Cannot focus public catalog results: result start target is missing.");
+    if (results === null) {
+      throw new Error("Cannot focus public catalog results: results section is missing.");
     }
 
-    resultStart.focus({ preventScroll: true });
-    resultStart.scrollIntoView({ block: "start" });
+    results.focus({ preventScroll: true });
+    results.scrollIntoView({ block: "start" });
   }, [result.page]);
 
   const updatePendingSearchAnalytics = (
@@ -376,164 +378,170 @@ export function PublicCatalogBrowser({
     || state.page > 1;
 
   return (
-    <div className={styles.browser} data-testid="catalog-browser">
-      <details className={styles.filtersDetails} open>
-        <summary className={styles.filtersSummary}>{copy.browse.showFiltersLabel}</summary>
-        <aside className={styles.filtersPanel} aria-label={copy.browse.filtersLabel}>
-          <div className={styles.filtersHeading}>
-            <h2>{copy.browse.filtersLabel}</h2>
-            <button
-              className={styles.clearButton}
-              disabled={hasActiveControls === false}
-              onClick={clearFilters}
-              type="button"
-            >
-              {copy.browse.clearFiltersLabel}
-            </button>
-          </div>
-          <label className={styles.controlLabel} htmlFor="catalog-search">
-            {copy.browse.searchLabel}
-          </label>
-          <input
-            className={styles.textInput}
-            data-testid="catalog-search"
-            id="catalog-search"
-            onChange={(event) => updateSearch(event.currentTarget.value)}
-            placeholder={copy.browse.searchPlaceholder}
-            type="search"
-            value={state.q}
-          />
-          <div className={styles.filterControl}>
-            <span className={styles.controlLabel}>{copy.browse.languageLabel}</span>
-            <div className={styles.filterPicker}>
-              <PublicCatalogSearchableMultiPicker
-                ariaLabel={copy.browse.languageLabel}
-                doneLabel={copy.browse.pickerDoneLabel}
-                emptySearchResultsLabel={copy.browse.noLanguagesFoundLabel}
-                emptySelectionLabel={copy.browse.allLanguagesLabel}
-                formatSelection={formatPickerSelection}
-                onValuesChange={(languages) => {
-                  const change = getLanguageSelectionChange(state.languages, languages);
-
-                  updateLanguage(change.language, change.isSelected);
-                }}
-                options={languageOptions}
-                searchLabel={copy.browse.languageSearchLabel}
-                searchPlaceholder={copy.browse.languageSearchPlaceholder}
-                values={state.languages}
-              />
-            </div>
-          </div>
-          <div className={styles.filterControl}>
-            <span className={styles.controlLabel}>{copy.browse.authorLabel}</span>
-            <div className={styles.filterPicker}>
-              <PublicCatalogSearchableSinglePicker
-                ariaLabel={copy.browse.authorLabel}
-                closeLabel={copy.browse.pickerCloseLabel}
-                emptySearchResultsLabel={copy.browse.noAuthorsFoundLabel}
-                onValueChange={(author) => {
-                  if (author !== (state.author ?? "")) {
-                    updateSingleChoiceFilter("author", author);
-                  }
-                }}
-                options={authorOptions}
-                searchLabel={copy.browse.authorSearchLabel}
-                searchPlaceholder={copy.browse.authorSearchPlaceholder}
-                value={state.author ?? ""}
-              />
-            </div>
-          </div>
-          <div className={styles.filterControl}>
-            <span className={styles.controlLabel}>{copy.browse.collectionLabel}</span>
-            <div className={styles.filterPicker}>
-              <PublicCatalogSearchableSinglePicker
-                ariaLabel={copy.browse.collectionLabel}
-                closeLabel={copy.browse.pickerCloseLabel}
-                emptySearchResultsLabel={copy.browse.noCollectionsFoundLabel}
-                onValueChange={(collection) => {
-                  if (collection !== (state.collection ?? "")) {
-                    updateSingleChoiceFilter("collection", collection);
-                  }
-                }}
-                options={collectionOptions}
-                searchLabel={copy.browse.collectionSearchLabel}
-                searchPlaceholder={copy.browse.collectionSearchPlaceholder}
-                value={state.collection ?? ""}
-              />
-            </div>
-          </div>
-        </aside>
-      </details>
-      <section className={styles.results} aria-label={copy.title}>
-        <div className={styles.resultsToolbar}>
-          <p
-            aria-atomic="true"
-            aria-live="polite"
-            className={styles.resultsStart}
-            data-testid="catalog-result-count"
-            ref={resultStartRef}
-            tabIndex={-1}
-          >
-            {formatResultCount(result.totalCount, locale, copy)}
-          </p>
-          <div className={styles.sortControl}>
-            <span>{copy.browse.sortLabel}</span>
-            <div className={styles.sortPicker} data-testid="catalog-sort">
-              <PublicCatalogCompactSinglePicker
-                ariaLabel={copy.browse.sortLabel}
-                closeLabel={copy.browse.pickerCloseLabel}
-                onValueChange={(sort) => {
-                  if (sort !== result.sort) {
-                    updateSort(sort);
-                  }
-                }}
-                options={sortOptions}
-                value={result.sort}
-              />
-            </div>
+    <>
+      <div className={styles.toolbar}>
+        {navigation}
+        <div className={styles.sortControl}>
+          <span>{copy.browse.sortLabel}</span>
+          <div className={styles.sortPicker} data-testid="catalog-sort">
+            <PublicCatalogCompactSinglePicker
+              ariaLabel={copy.browse.sortLabel}
+              closeLabel={copy.browse.pickerCloseLabel}
+              onValueChange={(sort) => {
+                if (sort !== result.sort) {
+                  updateSort(sort);
+                }
+              }}
+              options={sortOptions}
+              value={result.sort}
+            />
           </div>
         </div>
-        {result.totalCount === 0 ? (
-          <p className={pageStyles.empty} role="status">
-            {copy.browse.noResultsLabel}
-          </p>
-        ) : (
-          <div className={pageStyles.grid} data-testid="catalog-results">
-            {result.packages.map((item) => (
-              <PublicCatalogPackageCard
-                copy={copy}
-                coverSizes="(max-width: 640px) calc(100vw - 56px), (max-width: 980px) calc(50vw - 38px), 390px"
-                key={item.packageView.packageMetadata.packageId}
-                locale={locale}
-                packageView={item.packageView}
-              />
-            ))}
-          </div>
-        )}
-        {result.totalPages > 1 ? (
-          <nav className={styles.pagination} aria-label={copy.browse.paginationLabel}>
-            <button
-              data-testid="catalog-previous-page"
-              disabled={result.page === 1}
-              onClick={() => updatePage(result.page - 1)}
-              type="button"
+      </div>
+      <div className={styles.browser} data-testid="catalog-browser">
+        <details className={styles.filtersDetails} open>
+          <summary className={styles.filtersSummary}>{copy.browse.showFiltersLabel}</summary>
+          <aside className={styles.filtersPanel} aria-label={copy.browse.filtersLabel}>
+            <div className={styles.filtersHeading}>
+              <h2>{copy.browse.filtersLabel}</h2>
+              <button
+                className={styles.clearButton}
+                disabled={hasActiveControls === false}
+                onClick={clearFilters}
+                type="button"
+              >
+                {copy.browse.clearFiltersLabel}
+              </button>
+            </div>
+            <p
+              aria-atomic="true"
+              aria-live="polite"
+              className={styles.resultsCount}
+              data-testid="catalog-result-count"
             >
-              {copy.browse.previousPageLabel}
-            </button>
-            <p aria-live="polite">
-              {formatPageStatus(result.page, result.totalPages, locale, copy)}
+              {formatResultCount(result.totalCount, locale, copy)}
             </p>
-            <button
-              data-testid="catalog-next-page"
-              disabled={result.page === result.totalPages}
-              onClick={() => updatePage(result.page + 1)}
-              type="button"
-            >
-              {copy.browse.nextPageLabel}
-            </button>
-          </nav>
-        ) : null}
-      </section>
-    </div>
+            <label className={styles.controlLabel} htmlFor="catalog-search">
+              {copy.browse.searchLabel}
+            </label>
+            <input
+              className={styles.textInput}
+              data-testid="catalog-search"
+              id="catalog-search"
+              onChange={(event) => updateSearch(event.currentTarget.value)}
+              placeholder={copy.browse.searchPlaceholder}
+              type="search"
+              value={state.q}
+            />
+            <div className={styles.filterControl}>
+              <span className={styles.controlLabel}>{copy.browse.languageLabel}</span>
+              <div className={styles.filterPicker}>
+                <PublicCatalogSearchableMultiPicker
+                  ariaLabel={copy.browse.languageLabel}
+                  doneLabel={copy.browse.pickerDoneLabel}
+                  emptySearchResultsLabel={copy.browse.noLanguagesFoundLabel}
+                  emptySelectionLabel={copy.browse.allLanguagesLabel}
+                  formatSelection={formatPickerSelection}
+                  onValuesChange={(languages) => {
+                    const change = getLanguageSelectionChange(state.languages, languages);
+
+                    updateLanguage(change.language, change.isSelected);
+                  }}
+                  options={languageOptions}
+                  searchLabel={copy.browse.languageSearchLabel}
+                  searchPlaceholder={copy.browse.languageSearchPlaceholder}
+                  values={state.languages}
+                />
+              </div>
+            </div>
+            <div className={styles.filterControl}>
+              <span className={styles.controlLabel}>{copy.browse.authorLabel}</span>
+              <div className={styles.filterPicker}>
+                <PublicCatalogSearchableSinglePicker
+                  ariaLabel={copy.browse.authorLabel}
+                  closeLabel={copy.browse.pickerCloseLabel}
+                  emptySearchResultsLabel={copy.browse.noAuthorsFoundLabel}
+                  onValueChange={(author) => {
+                    if (author !== (state.author ?? "")) {
+                      updateSingleChoiceFilter("author", author);
+                    }
+                  }}
+                  options={authorOptions}
+                  searchLabel={copy.browse.authorSearchLabel}
+                  searchPlaceholder={copy.browse.authorSearchPlaceholder}
+                  value={state.author ?? ""}
+                />
+              </div>
+            </div>
+            <div className={styles.filterControl}>
+              <span className={styles.controlLabel}>{copy.browse.collectionLabel}</span>
+              <div className={styles.filterPicker}>
+                <PublicCatalogSearchableSinglePicker
+                  ariaLabel={copy.browse.collectionLabel}
+                  closeLabel={copy.browse.pickerCloseLabel}
+                  emptySearchResultsLabel={copy.browse.noCollectionsFoundLabel}
+                  onValueChange={(collection) => {
+                    if (collection !== (state.collection ?? "")) {
+                      updateSingleChoiceFilter("collection", collection);
+                    }
+                  }}
+                  options={collectionOptions}
+                  searchLabel={copy.browse.collectionSearchLabel}
+                  searchPlaceholder={copy.browse.collectionSearchPlaceholder}
+                  value={state.collection ?? ""}
+                />
+              </div>
+            </div>
+          </aside>
+        </details>
+        <section
+          aria-label={copy.title}
+          className={styles.results}
+          ref={resultsRef}
+          tabIndex={-1}
+        >
+          {result.totalCount === 0 ? (
+            <p className={pageStyles.empty} role="status">
+              {copy.browse.noResultsLabel}
+            </p>
+          ) : (
+            <div className={pageStyles.grid} data-testid="catalog-results">
+              {result.packages.map((item) => (
+                <PublicCatalogPackageCard
+                  copy={copy}
+                  coverSizes="(max-width: 640px) calc(100vw - 56px), (max-width: 980px) calc(50vw - 38px), 390px"
+                  key={item.packageView.packageMetadata.packageId}
+                  locale={locale}
+                  packageView={item.packageView}
+                />
+              ))}
+            </div>
+          )}
+          {result.totalPages > 1 ? (
+            <nav className={styles.pagination} aria-label={copy.browse.paginationLabel}>
+              <button
+                data-testid="catalog-previous-page"
+                disabled={result.page === 1}
+                onClick={() => updatePage(result.page - 1)}
+                type="button"
+              >
+                {copy.browse.previousPageLabel}
+              </button>
+              <p aria-live="polite">
+                {formatPageStatus(result.page, result.totalPages, locale, copy)}
+              </p>
+              <button
+                data-testid="catalog-next-page"
+                disabled={result.page === result.totalPages}
+                onClick={() => updatePage(result.page + 1)}
+                type="button"
+              >
+                {copy.browse.nextPageLabel}
+              </button>
+            </nav>
+          ) : null}
+        </section>
+      </div>
+    </>
   );
 }
