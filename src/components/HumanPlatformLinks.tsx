@@ -11,7 +11,10 @@ import { getAppUrl, getLoginUrl } from "@/lib/auth";
 import type { AppLocale } from "@/lib/i18n";
 import { getLocalizedPathname } from "@/lib/i18n";
 import { getExternalLinkAttributes } from "@/lib/linkTargets";
+import type { StoreQrCodes } from "@/lib/storeQrCodes";
+import { getUiCopy } from "@/lib/uiCopy";
 import { useLoggedInCookie } from "@/lib/useLoggedInCookie";
+import { StoreQrHoverLink } from "./StoreQrHoverLink";
 import styles from "./HumanPlatformLinks.module.css";
 
 const STORE_LINK_PLACEMENT = "home_human_access";
@@ -44,11 +47,14 @@ function WebIcon() {
 
 interface HumanPlatformLinksProps {
   readonly locale: AppLocale;
+  readonly storeQrCodes: StoreQrCodes;
 }
 
 export const HumanPlatformLinks: React.FC<HumanPlatformLinksProps> = ({
   locale,
+  storeQrCodes,
 }) => {
+  const uiCopy = getUiCopy(locale);
   const loggedIn = useLoggedInCookie();
   const webEntryHref = loggedIn
     ? getAppUrl()
@@ -73,6 +79,36 @@ export const HumanPlatformLinks: React.FC<HumanPlatformLinksProps> = ({
               "home_human_access",
             );
           };
+          const platformContent = platform.image ? (
+            <Image
+              src={platform.image.src}
+              alt={platform.image.alt}
+              width={platform.image.width}
+              height={platform.image.height}
+              className={styles.platformBadge}
+            />
+          ) : (
+            <>
+              <WebIcon />
+              <span className={styles.platformLabel}>{platform.label}</span>
+            </>
+          );
+
+          if (platform.analytics.kind === "store") {
+            return (
+              <StoreQrHoverLink
+                key={platform.label}
+                ariaLabel={platform.label}
+                className={styles.platformLink}
+                hint={uiCopy.platforms.scanQrHint}
+                href={platform.href}
+                onClick={trackPlatformClick}
+                qrSvgMarkup={storeQrCodes[platform.analytics.platform]}
+              >
+                {platformContent}
+              </StoreQrHoverLink>
+            );
+          }
 
           return (
             <a
@@ -83,20 +119,7 @@ export const HumanPlatformLinks: React.FC<HumanPlatformLinksProps> = ({
               aria-label={platform.label}
               onClick={trackPlatformClick}
             >
-              {platform.image ? (
-                <Image
-                  src={platform.image.src}
-                  alt={platform.image.alt}
-                  width={platform.image.width}
-                  height={platform.image.height}
-                  className={styles.platformBadge}
-                />
-              ) : (
-                <>
-                  <WebIcon />
-                  <span className={styles.platformLabel}>{platform.label}</span>
-                </>
-              )}
+              {platformContent}
             </a>
           );
         }

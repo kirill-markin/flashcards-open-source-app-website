@@ -1,0 +1,45 @@
+.card {
+  /* Cosmetic hint width only. The QR itself is sized by the width/height attributes the
+     generator emits, so this value cannot shrink a rendered code below the scan floor.
+     Track storeQrCodeSvgOptions.width in scripts/generateStaticContent.ts to keep the
+     hint as wide as the code. */
+  --store-qr-size: 228px;
+
+  display: none;
+  z-index: 120;
+  inline-size: max-content;
+  padding: 12px;
+  border: 1px solid var(--border-strong);
+  border-radius: var(--radius-md);
+  background: var(--surface);
+  box-shadow: var(--shadow-soft);
+  color: var(--text);
+  pointer-events: none;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .card {
+    display: grid;
+    justify-items: center;
+    gap: 8px;
+  }
+}
+
+.qrFrame {
+  display: block;
+  padding: 8px;
+  border-radius: var(--radius-sm);
+  background: #ffffff;
+}
+
+.qrFrame svg {
+  display: block;
+}
+
+.hint {
+  max-inline-size: var(--store-qr-size);
+  color: var(--text-secondary);
+  font-size: 12px;
+  line-height: 1.35;
+  text-align: center;
+}
