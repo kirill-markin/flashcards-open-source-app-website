@@ -166,6 +166,8 @@ Useful phrase categories include:
 
 If written Spanish matters, the prompt should say when exact spelling is being tested. That makes an accent a gradeable part of the answer rather than a detail you forgive after every review.
 
+The [Spanish Numbers 1–100 deck](/catalog/packages/spanish-numbers-1-100/) practices every number in both directions, from Spanish word to numeral and from numeral to Spanish word, so exact spelling stays part of the answer.
+
 The Instituto Cervantes [A1-A2 orthography inventory](https://cvc.cervantes.es/ensenanza/biblioteca_ele/plan_curricular/niveles/04_ortografia_inventario_a1-a2.htm) includes general accent rules, accents on interrogatives and exclamatives, opening and closing punctuation, and contrasts such as `él/el`, `té/te`, `sé/se`, and `tú/tu`.
 
 Turn one contrast into one decision:
