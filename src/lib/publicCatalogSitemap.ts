@@ -1,6 +1,5 @@
 import type { MetadataRoute } from "next";
 import {
-  DEFAULT_LOCALE,
   getAbsoluteUrl,
   getLocalizedPathname,
   SUPPORTED_LOCALES,
@@ -13,7 +12,10 @@ import type {
 import {
   getPublicCatalogAuthorRoutePathname,
   getPublicCatalogCollectionRoutePathname,
+  getPublicCatalogLanguageAlternates,
   getPublicCatalogLanguageRoutePathname,
+  getPublicCatalogPackageAudienceLocales,
+  getPublicCatalogPackagePageLocales,
   getPublicCatalogPackageRoutePathname,
   PUBLIC_CATALOG_AUTHORS_ROUTE_PATHNAME,
   PUBLIC_CATALOG_COLLECTIONS_ROUTE_PATHNAME,
@@ -23,34 +25,22 @@ import {
 type SitemapEntry = MetadataRoute.Sitemap[number];
 
 interface CatalogSitemapRoute {
+  readonly alternateLocales: ReadonlyArray<AppLocale>;
   readonly lastModified: string | null;
+  readonly pageLocales: ReadonlyArray<AppLocale>;
   readonly priority: number;
   readonly routePathname: string;
-}
-
-function getCatalogLanguageAlternates(
-  routePathname: string,
-): Readonly<Record<string, string>> {
-  const alternates: Record<string, string> = {};
-
-  SUPPORTED_LOCALES.forEach((locale) => {
-    alternates[locale] = getAbsoluteUrl(
-      getLocalizedPathname(locale, routePathname),
-    );
-  });
-  alternates["x-default"] = getAbsoluteUrl(
-    getLocalizedPathname(DEFAULT_LOCALE, routePathname),
-  );
-
-  return alternates;
 }
 
 function createLocalizedCatalogSitemapEntries(
   route: CatalogSitemapRoute,
 ): ReadonlyArray<SitemapEntry> {
-  const alternates = getCatalogLanguageAlternates(route.routePathname);
+  const alternates = getPublicCatalogLanguageAlternates(
+    route.routePathname,
+    route.alternateLocales,
+  );
 
-  return SUPPORTED_LOCALES.map((locale: AppLocale) => ({
+  return route.pageLocales.map((locale) => ({
     url: getAbsoluteUrl(getLocalizedPathname(locale, route.routePathname)),
     changeFrequency: "monthly" as const,
     priority: route.priority,
@@ -108,47 +98,64 @@ function createCatalogRoutes(
   );
   const rootAndIndexRoutes: ReadonlyArray<CatalogSitemapRoute> = [
     {
+      alternateLocales: SUPPORTED_LOCALES,
       lastModified: packagesLastModified,
+      pageLocales: SUPPORTED_LOCALES,
       priority: 0.7,
       routePathname: PUBLIC_CATALOG_ROUTE_PATHNAME,
     },
     {
+      alternateLocales: SUPPORTED_LOCALES,
       lastModified: packagesPublishedAt,
+      pageLocales: SUPPORTED_LOCALES,
       priority: 0.6,
       routePathname: PUBLIC_CATALOG_AUTHORS_ROUTE_PATHNAME,
     },
     {
+      alternateLocales: SUPPORTED_LOCALES,
       lastModified: collectionsUpdatedAt,
+      pageLocales: SUPPORTED_LOCALES,
       priority: 0.6,
       routePathname: PUBLIC_CATALOG_COLLECTIONS_ROUTE_PATHNAME,
     },
   ];
   const packageRoutes = catalog.packages.map((packageView) => ({
+    alternateLocales: getPublicCatalogPackageAudienceLocales(
+      packageView.latestVersion.languageTags,
+    ),
     lastModified: getPackageLastModified(packageView),
+    pageLocales: getPublicCatalogPackagePageLocales(
+      packageView.latestVersion.languageTags,
+    ),
     priority: 0.6,
     routePathname: getPublicCatalogPackageRoutePathname(
       packageView.packageMetadata.slug,
     ),
   }));
   const authorRoutes = [...catalog.authorBySlug.values()].map((author) => ({
+    alternateLocales: SUPPORTED_LOCALES,
     lastModified: getNewestPackageLastModified(
       catalog.packagesByAuthorId.get(author.authorId) ?? [],
     ),
+    pageLocales: SUPPORTED_LOCALES,
     priority: 0.5,
     routePathname: getPublicCatalogAuthorRoutePathname(author.slug),
   }));
   const collectionRoutes = [...catalog.collectionBySlug.values()].map(
     (collection) => ({
+      alternateLocales: SUPPORTED_LOCALES,
       lastModified: getNewestPublishedAt([
         collection.updatedAt,
         ...(catalog.packagesByCollectionId.get(collection.collectionId) ?? [])
           .map(getPackageLastModified),
       ]),
+      pageLocales: SUPPORTED_LOCALES,
       priority: 0.5,
       routePathname: getPublicCatalogCollectionRoutePathname(collection.slug),
     }),
   );
   const languageRoutes = catalog.languageTags.map((languageTag) => ({
+    alternateLocales: SUPPORTED_LOCALES,
     lastModified: getNewestPublishedAt(
       [
         ...(catalog.packagesByLanguageTag.get(languageTag) ?? []).map(
@@ -159,6 +166,7 @@ function createCatalogRoutes(
           .map((collection) => collection.updatedAt),
       ],
     ),
+    pageLocales: SUPPORTED_LOCALES,
     priority: 0.4,
     routePathname: getPublicCatalogLanguageRoutePathname(languageTag),
   }));

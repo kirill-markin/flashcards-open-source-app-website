@@ -90,7 +90,7 @@ function getUniqueSortedChoices(
 
 export function createPublicCatalogBrowseData(
   catalog: PublicCatalogReadModel,
-  defaultLanguage: AppLocale,
+  defaultAudienceLanguage: AppLocale,
 ): PublicCatalogBrowseData {
   const packages = catalog.packages.map((packageView): PublicCatalogBrowsePackage => {
     const collections = (catalog.collectionsByPackageId.get(
@@ -143,7 +143,7 @@ export function createPublicCatalogBrowseData(
     packages,
     languages: getUniqueSortedValues(
       [
-        defaultLanguage,
+        defaultAudienceLanguage,
         ...packages.flatMap(({ packageView }) => packageView.latestVersion.languageTags),
       ],
     ),
@@ -208,11 +208,11 @@ function parsePage(searchParams: URLSearchParams): number {
 export function parsePublicCatalogQuery(
   search: string,
   data: PublicCatalogBrowseData,
-  defaultLanguage: AppLocale,
+  defaultAudienceLanguage: AppLocale,
 ): PublicCatalogQueryState {
-  if (data.languages.includes(defaultLanguage) === false) {
+  if (data.languages.includes(defaultAudienceLanguage) === false) {
     throw new Error(
-      `Public catalog default language must be an available choice. received=${defaultLanguage}`,
+      `Public catalog default audience language must be an available choice. received=${defaultAudienceLanguage}`,
     );
   }
 
@@ -227,7 +227,7 @@ export function parsePublicCatalogQuery(
     q,
     languages: searchParams.has("language")
       ? parseRepeatedChoice(searchParams, "language", data.languages)
-      : [defaultLanguage],
+      : [defaultAudienceLanguage],
     author: parseSingleChoice(
       searchParams,
       "author",
