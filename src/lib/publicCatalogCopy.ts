@@ -3,15 +3,27 @@ import type { AppLocale } from "./localeConfig";
 export interface PublicCatalogBrowseUiCopy {
   readonly allAuthorsLabel: string;
   readonly allCollectionsLabel: string;
+  readonly allLanguagesLabel: string;
   readonly authorLabel: string;
+  readonly authorSearchLabel: string;
+  readonly authorSearchPlaceholder: string;
   readonly clearFiltersLabel: string;
   readonly collectionLabel: string;
+  readonly collectionSearchLabel: string;
+  readonly collectionSearchPlaceholder: string;
   readonly filtersLabel: string;
   readonly languageLabel: string;
+  readonly languageSearchLabel: string;
+  readonly languageSearchPlaceholder: string;
   readonly nextPageLabel: string;
+  readonly noAuthorsFoundLabel: string;
+  readonly noCollectionsFoundLabel: string;
+  readonly noLanguagesFoundLabel: string;
   readonly noResultsLabel: string;
   readonly paginationLabel: string;
   readonly pageStatusTemplate: string;
+  readonly pickerCloseLabel: string;
+  readonly pickerDoneLabel: string;
   readonly previousPageLabel: string;
   readonly resultCountTemplates: Readonly<Record<Intl.LDMLPluralRule, string>>;
   readonly searchLabel: string;
@@ -60,15 +72,27 @@ const PUBLIC_CATALOG_COPY_BY_LOCALE: Readonly<
     browse: {
       allAuthorsLabel: "All authors",
       allCollectionsLabel: "All collections",
+      allLanguagesLabel: "All languages",
       authorLabel: "Author",
+      authorSearchLabel: "Search authors",
+      authorSearchPlaceholder: "Author name or identifier",
       clearFiltersLabel: "Clear filters",
       collectionLabel: "Collection",
+      collectionSearchLabel: "Search collections",
+      collectionSearchPlaceholder: "Collection name or identifier",
       filtersLabel: "Filters",
       languageLabel: "Audience languages",
+      languageSearchLabel: "Search languages",
+      languageSearchPlaceholder: "Language code",
       nextPageLabel: "Next page",
+      noAuthorsFoundLabel: "No authors found.",
+      noCollectionsFoundLabel: "No collections found.",
+      noLanguagesFoundLabel: "No languages found.",
       noResultsLabel: "No decks match these filters.",
       paginationLabel: "Catalog pages",
       pageStatusTemplate: "Page {page} of {total}",
+      pickerCloseLabel: "Close",
+      pickerDoneLabel: "Done",
       previousPageLabel: "Previous page",
       resultCountTemplates: {
         zero: "{count} decks",
@@ -123,15 +147,27 @@ const PUBLIC_CATALOG_COPY_BY_LOCALE: Readonly<
     browse: {
       allAuthorsLabel: "Todos los autores",
       allCollectionsLabel: "Todas las colecciones",
+      allLanguagesLabel: "Todos los idiomas",
       authorLabel: "Autor",
+      authorSearchLabel: "Buscar autores",
+      authorSearchPlaceholder: "Nombre o identificador del autor",
       clearFiltersLabel: "Borrar filtros",
       collectionLabel: "Colección",
+      collectionSearchLabel: "Buscar colecciones",
+      collectionSearchPlaceholder: "Nombre o identificador de la colección",
       filtersLabel: "Filtros",
       languageLabel: "Idiomas del público",
+      languageSearchLabel: "Buscar idiomas",
+      languageSearchPlaceholder: "Código de idioma",
       nextPageLabel: "Página siguiente",
+      noAuthorsFoundLabel: "No se encontraron autores.",
+      noCollectionsFoundLabel: "No se encontraron colecciones.",
+      noLanguagesFoundLabel: "No se encontraron idiomas.",
       noResultsLabel: "Ningún mazo coincide con estos filtros.",
       paginationLabel: "Páginas del catálogo",
       pageStatusTemplate: "Página {page} de {total}",
+      pickerCloseLabel: "Cerrar",
+      pickerDoneLabel: "Listo",
       previousPageLabel: "Página anterior",
       resultCountTemplates: {
         zero: "{count} mazos",
@@ -186,15 +222,27 @@ const PUBLIC_CATALOG_COPY_BY_LOCALE: Readonly<
     browse: {
       allAuthorsLabel: "كل المؤلفين",
       allCollectionsLabel: "كل المجموعات",
+      allLanguagesLabel: "كل اللغات",
       authorLabel: "المؤلف",
+      authorSearchLabel: "البحث عن مؤلفين",
+      authorSearchPlaceholder: "اسم المؤلف أو المعرّف",
       clearFiltersLabel: "مسح عوامل التصفية",
       collectionLabel: "المجموعة",
+      collectionSearchLabel: "البحث عن مجموعات",
+      collectionSearchPlaceholder: "اسم المجموعة أو المعرّف",
       filtersLabel: "عوامل التصفية",
       languageLabel: "لغات الجمهور",
+      languageSearchLabel: "البحث عن لغات",
+      languageSearchPlaceholder: "رمز اللغة",
       nextPageLabel: "الصفحة التالية",
+      noAuthorsFoundLabel: "لم يتم العثور على مؤلفين.",
+      noCollectionsFoundLabel: "لم يتم العثور على مجموعات.",
+      noLanguagesFoundLabel: "لم يتم العثور على لغات.",
       noResultsLabel: "لا توجد رزم تطابق عوامل التصفية هذه.",
       paginationLabel: "صفحات الكتالوج",
       pageStatusTemplate: "الصفحة {page} من {total}",
+      pickerCloseLabel: "إغلاق",
+      pickerDoneLabel: "تم",
       previousPageLabel: "الصفحة السابقة",
       resultCountTemplates: {
         zero: "{count} رزم",
@@ -249,15 +297,27 @@ const PUBLIC_CATALOG_COPY_BY_LOCALE: Readonly<
     browse: {
       allAuthorsLabel: "Alle Autoren",
       allCollectionsLabel: "Alle Sammlungen",
+      allLanguagesLabel: "Alle Sprachen",
       authorLabel: "Autor",
+      authorSearchLabel: "Autoren suchen",
+      authorSearchPlaceholder: "Name oder Kennung des Autors",
       clearFiltersLabel: "Filter zurücksetzen",
       collectionLabel: "Sammlung",
+      collectionSearchLabel: "Sammlungen suchen",
+      collectionSearchPlaceholder: "Name oder Kennung der Sammlung",
       filtersLabel: "Filter",
       languageLabel: "Zielgruppensprachen",
+      languageSearchLabel: "Sprachen suchen",
+      languageSearchPlaceholder: "Sprachcode",
       nextPageLabel: "Nächste Seite",
+      noAuthorsFoundLabel: "Keine Autoren gefunden.",
+      noCollectionsFoundLabel: "Keine Sammlungen gefunden.",
+      noLanguagesFoundLabel: "Keine Sprachen gefunden.",
       noResultsLabel: "Keine Lernkartensets entsprechen diesen Filtern.",
       paginationLabel: "Katalogseiten",
       pageStatusTemplate: "Seite {page} von {total}",
+      pickerCloseLabel: "Schließen",
+      pickerDoneLabel: "Fertig",
       previousPageLabel: "Vorherige Seite",
       resultCountTemplates: {
         zero: "{count} Lernkartensets",
@@ -312,15 +372,27 @@ const PUBLIC_CATALOG_COPY_BY_LOCALE: Readonly<
     browse: {
       allAuthorsLabel: "सभी लेखक",
       allCollectionsLabel: "सभी संग्रह",
+      allLanguagesLabel: "सभी भाषाएँ",
       authorLabel: "लेखक",
+      authorSearchLabel: "लेखक खोजें",
+      authorSearchPlaceholder: "लेखक का नाम या पहचानकर्ता",
       clearFiltersLabel: "फ़िल्टर हटाएँ",
       collectionLabel: "संग्रह",
+      collectionSearchLabel: "संग्रह खोजें",
+      collectionSearchPlaceholder: "संग्रह का नाम या पहचानकर्ता",
       filtersLabel: "फ़िल्टर",
       languageLabel: "लक्षित शिक्षार्थियों की भाषाएँ",
+      languageSearchLabel: "भाषाएँ खोजें",
+      languageSearchPlaceholder: "भाषा कोड",
       nextPageLabel: "अगला पृष्ठ",
+      noAuthorsFoundLabel: "कोई लेखक नहीं मिला।",
+      noCollectionsFoundLabel: "कोई संग्रह नहीं मिला।",
+      noLanguagesFoundLabel: "कोई भाषा नहीं मिली।",
       noResultsLabel: "इन फ़िल्टर से कोई डेक नहीं मिला।",
       paginationLabel: "कैटलॉग पृष्ठ",
       pageStatusTemplate: "पृष्ठ {page}, कुल {total}",
+      pickerCloseLabel: "बंद करें",
+      pickerDoneLabel: "हो गया",
       previousPageLabel: "पिछला पृष्ठ",
       resultCountTemplates: {
         zero: "{count} डेक",
@@ -375,15 +447,27 @@ const PUBLIC_CATALOG_COPY_BY_LOCALE: Readonly<
     browse: {
       allAuthorsLabel: "すべての作成者",
       allCollectionsLabel: "すべてのコレクション",
+      allLanguagesLabel: "すべての言語",
       authorLabel: "作成者",
+      authorSearchLabel: "作成者を検索",
+      authorSearchPlaceholder: "作成者名または識別子",
       clearFiltersLabel: "フィルターをクリア",
       collectionLabel: "コレクション",
+      collectionSearchLabel: "コレクションを検索",
+      collectionSearchPlaceholder: "コレクション名または識別子",
       filtersLabel: "フィルター",
       languageLabel: "対象ユーザーの言語",
+      languageSearchLabel: "言語を検索",
+      languageSearchPlaceholder: "言語コード",
       nextPageLabel: "次のページ",
+      noAuthorsFoundLabel: "作成者が見つかりません。",
+      noCollectionsFoundLabel: "コレクションが見つかりません。",
+      noLanguagesFoundLabel: "言語が見つかりません。",
       noResultsLabel: "この条件に一致するデッキはありません。",
       paginationLabel: "カタログのページ",
       pageStatusTemplate: "{total}ページ中{page}ページ",
+      pickerCloseLabel: "閉じる",
+      pickerDoneLabel: "完了",
       previousPageLabel: "前のページ",
       resultCountTemplates: {
         zero: "{count}件のデッキ",
@@ -438,15 +522,27 @@ const PUBLIC_CATALOG_COPY_BY_LOCALE: Readonly<
     browse: {
       allAuthorsLabel: "Все авторы",
       allCollectionsLabel: "Все коллекции",
+      allLanguagesLabel: "Все языки",
       authorLabel: "Автор",
+      authorSearchLabel: "Поиск авторов",
+      authorSearchPlaceholder: "Имя или идентификатор автора",
       clearFiltersLabel: "Сбросить фильтры",
       collectionLabel: "Коллекция",
+      collectionSearchLabel: "Поиск коллекций",
+      collectionSearchPlaceholder: "Название или идентификатор коллекции",
       filtersLabel: "Фильтры",
       languageLabel: "Языки аудитории",
+      languageSearchLabel: "Поиск языков",
+      languageSearchPlaceholder: "Код языка",
       nextPageLabel: "Следующая страница",
+      noAuthorsFoundLabel: "Авторы не найдены.",
+      noCollectionsFoundLabel: "Коллекции не найдены.",
+      noLanguagesFoundLabel: "Языки не найдены.",
       noResultsLabel: "Нет колод, соответствующих этим фильтрам.",
       paginationLabel: "Страницы каталога",
       pageStatusTemplate: "Страница {page} из {total}",
+      pickerCloseLabel: "Закрыть",
+      pickerDoneLabel: "Готово",
       previousPageLabel: "Предыдущая страница",
       resultCountTemplates: {
         zero: "{count} колод",
@@ -501,15 +597,27 @@ const PUBLIC_CATALOG_COPY_BY_LOCALE: Readonly<
     browse: {
       allAuthorsLabel: "所有作者",
       allCollectionsLabel: "所有合集",
+      allLanguagesLabel: "所有语言",
       authorLabel: "作者",
+      authorSearchLabel: "搜索作者",
+      authorSearchPlaceholder: "作者名称或标识符",
       clearFiltersLabel: "清除筛选条件",
       collectionLabel: "合集",
+      collectionSearchLabel: "搜索合集",
+      collectionSearchPlaceholder: "合集名称或标识符",
       filtersLabel: "筛选条件",
       languageLabel: "受众语言",
+      languageSearchLabel: "搜索语言",
+      languageSearchPlaceholder: "语言代码",
       nextPageLabel: "下一页",
+      noAuthorsFoundLabel: "未找到作者。",
+      noCollectionsFoundLabel: "未找到合集。",
+      noLanguagesFoundLabel: "未找到语言。",
       noResultsLabel: "没有符合这些筛选条件的卡组。",
       paginationLabel: "目录页面",
       pageStatusTemplate: "第 {page} 页，共 {total} 页",
+      pickerCloseLabel: "关闭",
+      pickerDoneLabel: "完成",
       previousPageLabel: "上一页",
       resultCountTemplates: {
         zero: "{count} 个卡组",

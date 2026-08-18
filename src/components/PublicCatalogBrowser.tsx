@@ -1,7 +1,19 @@
 "use client";
 
-import { useCallback, useEffect, useRef, useSyncExternalStore } from "react";
+import {
+  useCallback,
+  useEffect,
+  useMemo,
+  useRef,
+  useSyncExternalStore,
+} from "react";
 import { PublicCatalogPackageCard } from "@/components/PublicCatalogPackageCard";
+import {
+  PublicCatalogCompactSinglePicker,
+  PublicCatalogSearchableMultiPicker,
+  PublicCatalogSearchableSinglePicker,
+  type PublicCatalogPickerOption,
+} from "@/components/PublicCatalogPicker";
 import { getIntlLocale, type AppLocale } from "@/lib/i18n";
 import type { PublicCatalogUiCopy } from "@/lib/publicCatalogCopy";
 import { formatPublicCatalogNumber } from "@/lib/publicCatalogFormatting";
@@ -73,12 +85,40 @@ function getSingleChoiceValue(value: string): string | null {
   return value === "" ? null : value;
 }
 
-function getSortValue(value: string): PublicCatalogSort {
-  if (value === "relevance" || value === "title" || value === "newest") {
-    return value;
+interface PublicCatalogLanguageSelectionChange {
+  readonly isSelected: boolean;
+  readonly language: string;
+}
+
+function getLanguageSelectionChange(
+  currentLanguages: ReadonlyArray<string>,
+  nextLanguages: ReadonlyArray<string>,
+): PublicCatalogLanguageSelectionChange {
+  const addedLanguages = nextLanguages.filter(
+    (language) => currentLanguages.includes(language) === false,
+  );
+  const removedLanguages = currentLanguages.filter(
+    (language) => nextLanguages.includes(language) === false,
+  );
+
+  if (addedLanguages.length === 1 && removedLanguages.length === 0) {
+    return { isSelected: true, language: addedLanguages[0] };
   }
 
-  throw new Error(`Unsupported public catalog sort value: ${value}`);
+  if (addedLanguages.length === 0 && removedLanguages.length === 1) {
+    return { isSelected: false, language: removedLanguages[0] };
+  }
+
+  throw new Error(
+    "Public catalog language picker must toggle exactly one language. "
+      + `current=${JSON.stringify(currentLanguages)} next=${JSON.stringify(nextLanguages)}`,
+  );
+}
+
+function formatPickerSelection(
+  selectedOptions: ReadonlyArray<PublicCatalogPickerOption<string>>,
+): string {
+  return selectedOptions.map((option) => option.label).join(", ");
 }
 
 function formatResultCount(
@@ -147,6 +187,36 @@ export function PublicCatalogBrowser({
   );
   const state = parsePublicCatalogQuery(search, data, locale);
   const result = queryPublicCatalogPackages(data.packages, state);
+  const languageOptions = useMemo<ReadonlyArray<PublicCatalogPickerOption<string>>>(
+    () => data.languages.map((language) => ({ label: language, value: language })),
+    [data.languages],
+  );
+  const authorOptions = useMemo<ReadonlyArray<PublicCatalogPickerOption<string>>>(
+    () => [
+      { label: copy.browse.allAuthorsLabel, value: "" },
+      ...data.authors,
+    ],
+    [copy.browse.allAuthorsLabel, data.authors],
+  );
+  const collectionOptions = useMemo<ReadonlyArray<PublicCatalogPickerOption<string>>>(
+    () => [
+      { label: copy.browse.allCollectionsLabel, value: "" },
+      ...data.collections,
+    ],
+    [copy.browse.allCollectionsLabel, data.collections],
+  );
+  const sortOptions = useMemo<ReadonlyArray<PublicCatalogPickerOption<PublicCatalogSort>>>(
+    () => [
+      { label: copy.browse.sortRelevanceLabel, value: "relevance" },
+      { label: copy.browse.sortTitleLabel, value: "title" },
+      { label: copy.browse.sortNewestLabel, value: "newest" },
+    ],
+    [
+      copy.browse.sortNewestLabel,
+      copy.browse.sortRelevanceLabel,
+      copy.browse.sortTitleLabel,
+    ],
+  );
   const resultStartRef = useRef<HTMLParagraphElement>(null);
   const paginationFocusPageRef = useRef<number | null>(null);
 
@@ -333,55 +403,65 @@ export function PublicCatalogBrowser({
             type="search"
             value={state.q}
           />
-          <fieldset className={styles.fieldset}>
-            <legend>{copy.browse.languageLabel}</legend>
-            <div className={styles.checkboxList}>
-              {data.languages.map((language) => (
-                <label className={styles.checkboxLabel} key={language}>
-                  <input
-                    checked={state.languages.includes(language)}
-                    onChange={(event) => updateLanguage(language, event.currentTarget.checked)}
-                    type="checkbox"
-                  />
-                  <span>{language}</span>
-                </label>
-              ))}
+          <div className={styles.filterControl}>
+            <span className={styles.controlLabel}>{copy.browse.languageLabel}</span>
+            <div className={styles.filterPicker}>
+              <PublicCatalogSearchableMultiPicker
+                ariaLabel={copy.browse.languageLabel}
+                doneLabel={copy.browse.pickerDoneLabel}
+                emptySearchResultsLabel={copy.browse.noLanguagesFoundLabel}
+                emptySelectionLabel={copy.browse.allLanguagesLabel}
+                formatSelection={formatPickerSelection}
+                onValuesChange={(languages) => {
+                  const change = getLanguageSelectionChange(state.languages, languages);
+
+                  updateLanguage(change.language, change.isSelected);
+                }}
+                options={languageOptions}
+                searchLabel={copy.browse.languageSearchLabel}
+                searchPlaceholder={copy.browse.languageSearchPlaceholder}
+                values={state.languages}
+              />
             </div>
-          </fieldset>
-          <label className={styles.controlLabel} htmlFor="catalog-author">
-            {copy.browse.authorLabel}
-          </label>
-          <select
-            className={styles.select}
-            id="catalog-author"
-            onChange={(event) => updateSingleChoiceFilter(
-              "author",
-              event.currentTarget.value,
-            )}
-            value={state.author ?? ""}
-          >
-            <option value="">{copy.browse.allAuthorsLabel}</option>
-            {data.authors.map((author) => (
-              <option key={author.value} value={author.value}>{author.label}</option>
-            ))}
-          </select>
-          <label className={styles.controlLabel} htmlFor="catalog-collection">
-            {copy.browse.collectionLabel}
-          </label>
-          <select
-            className={styles.select}
-            id="catalog-collection"
-            onChange={(event) => updateSingleChoiceFilter(
-              "collection",
-              event.currentTarget.value,
-            )}
-            value={state.collection ?? ""}
-          >
-            <option value="">{copy.browse.allCollectionsLabel}</option>
-            {data.collections.map((collection) => (
-              <option key={collection.value} value={collection.value}>{collection.label}</option>
-            ))}
-          </select>
+          </div>
+          <div className={styles.filterControl}>
+            <span className={styles.controlLabel}>{copy.browse.authorLabel}</span>
+            <div className={styles.filterPicker}>
+              <PublicCatalogSearchableSinglePicker
+                ariaLabel={copy.browse.authorLabel}
+                closeLabel={copy.browse.pickerCloseLabel}
+                emptySearchResultsLabel={copy.browse.noAuthorsFoundLabel}
+                onValueChange={(author) => {
+                  if (author !== (state.author ?? "")) {
+                    updateSingleChoiceFilter("author", author);
+                  }
+                }}
+                options={authorOptions}
+                searchLabel={copy.browse.authorSearchLabel}
+                searchPlaceholder={copy.browse.authorSearchPlaceholder}
+                value={state.author ?? ""}
+              />
+            </div>
+          </div>
+          <div className={styles.filterControl}>
+            <span className={styles.controlLabel}>{copy.browse.collectionLabel}</span>
+            <div className={styles.filterPicker}>
+              <PublicCatalogSearchableSinglePicker
+                ariaLabel={copy.browse.collectionLabel}
+                closeLabel={copy.browse.pickerCloseLabel}
+                emptySearchResultsLabel={copy.browse.noCollectionsFoundLabel}
+                onValueChange={(collection) => {
+                  if (collection !== (state.collection ?? "")) {
+                    updateSingleChoiceFilter("collection", collection);
+                  }
+                }}
+                options={collectionOptions}
+                searchLabel={copy.browse.collectionSearchLabel}
+                searchPlaceholder={copy.browse.collectionSearchPlaceholder}
+                value={state.collection ?? ""}
+              />
+            </div>
+          </div>
         </aside>
       </details>
       <section className={styles.results} aria-label={copy.title}>
@@ -396,22 +476,22 @@ export function PublicCatalogBrowser({
           >
             {formatResultCount(result.totalCount, locale, copy)}
           </p>
-          <label className={styles.sortControl} htmlFor="catalog-sort">
+          <div className={styles.sortControl}>
             <span>{copy.browse.sortLabel}</span>
-            <select
-              className={styles.select}
-              data-testid="catalog-sort"
-              id="catalog-sort"
-              onChange={(event) => updateSort(
-                getSortValue(event.currentTarget.value),
-              )}
-              value={result.sort}
-            >
-              <option value="relevance">{copy.browse.sortRelevanceLabel}</option>
-              <option value="title">{copy.browse.sortTitleLabel}</option>
-              <option value="newest">{copy.browse.sortNewestLabel}</option>
-            </select>
-          </label>
+            <div className={styles.sortPicker} data-testid="catalog-sort">
+              <PublicCatalogCompactSinglePicker
+                ariaLabel={copy.browse.sortLabel}
+                closeLabel={copy.browse.pickerCloseLabel}
+                onValueChange={(sort) => {
+                  if (sort !== result.sort) {
+                    updateSort(sort);
+                  }
+                }}
+                options={sortOptions}
+                value={result.sort}
+              />
+            </div>
+          </div>
         </div>
         {result.totalCount === 0 ? (
           <p className={pageStyles.empty} role="status">
