@@ -42,7 +42,8 @@ import {
   getPublicCatalogAuthorRoutePathname,
   getPublicCatalogCollectionRoutePathname,
   getPublicCatalogLanguageRoutePathname,
-  getPublicCatalogPackageRoutePathname,
+  getPublicCatalogPackageLocalizedPathname,
+  getPublicCatalogPackagePageLocales,
   getPublicCatalogRootUrl,
   PUBLIC_CATALOG_AUTHORS_ROUTE_PATHNAME,
   PUBLIC_CATALOG_COLLECTIONS_ROUTE_PATHNAME,
@@ -73,6 +74,21 @@ function createLocalizedCatalogLink(
   routePathname: string,
 ): string {
   return createMarkdownLink(label, getLocalizedPathname(locale, routePathname));
+}
+
+function createLocalizedPackageLink(
+  label: string,
+  locale: AppLocale,
+  packageView: PublicCatalogPackageView,
+): string {
+  return createMarkdownLink(
+    label,
+    getPublicCatalogPackageLocalizedPathname(
+      locale,
+      packageView.packageMetadata.slug,
+      packageView.latestVersion.languageTags,
+    ),
+  );
 }
 
 function joinLinks(links: ReadonlyArray<string>): string {
@@ -126,12 +142,12 @@ function renderPackageListItem(
   packageView: PublicCatalogPackageView,
 ): ReadonlyArray<string> {
   const copy = getPublicCatalogUiCopy(locale);
-  const { author, latestVersion, packageMetadata } = packageView;
+  const { author, latestVersion } = packageView;
   const lines = [
-    `- ${createLocalizedCatalogLink(
+    `- ${createLocalizedPackageLink(
       latestVersion.title,
       locale,
-      getPublicCatalogPackageRoutePathname(packageMetadata.slug),
+      packageView,
     )}`,
   ];
 
@@ -505,8 +521,6 @@ function listCatalogRoutePathnames(
 ): ReadonlyArray<string> {
   return [
     PUBLIC_CATALOG_ROUTE_PATHNAME,
-    ...catalog.packages.map((packageView) =>
-      getPublicCatalogPackageRoutePathname(packageView.packageMetadata.slug)),
     PUBLIC_CATALOG_AUTHORS_ROUTE_PATHNAME,
     ...[...catalog.authorBySlug.values()].map((author) =>
       getPublicCatalogAuthorRoutePathname(author.slug)),
@@ -521,10 +535,23 @@ export function listPublicCatalogMarkdownPagePaths(
   catalog: PublicCatalogReadModel,
 ): ReadonlyArray<string> {
   const routePathnames = listCatalogRoutePathnames(catalog);
+  const packagePagePaths = catalog.packages.flatMap((packageView) =>
+    getPublicCatalogPackagePageLocales(
+      packageView.latestVersion.languageTags,
+    ).map((locale) =>
+      getPagePath(getPublicCatalogPackageLocalizedPathname(
+        locale,
+        packageView.packageMetadata.slug,
+        packageView.latestVersion.languageTags,
+      ))),
+  );
 
-  return SUPPORTED_LOCALES.flatMap((locale) =>
-    routePathnames.map((routePathname) =>
-      getPagePath(getLocalizedPathname(locale, routePathname))));
+  return [
+    ...SUPPORTED_LOCALES.flatMap((locale) =>
+      routePathnames.map((routePathname) =>
+        getPagePath(getLocalizedPathname(locale, routePathname)))),
+    ...packagePagePaths,
+  ];
 }
 
 export function renderPublicCatalogMarkdownDocument(
@@ -567,9 +594,22 @@ export function renderPublicCatalogMarkdownDocument(
     );
     const packageView = slug === undefined ? undefined : catalog.packageBySlug.get(slug);
 
-    return packageView === undefined
-      ? null
-      : { locale, markdown: renderPackageDetail(catalog, locale, packageView) };
+    if (packageView === undefined) {
+      return null;
+    }
+
+    if (
+      getPublicCatalogPackagePageLocales(
+        packageView.latestVersion.languageTags,
+      ).includes(locale) === false
+    ) {
+      return null;
+    }
+
+    return {
+      locale,
+      markdown: renderPackageDetail(catalog, locale, packageView),
+    };
   }
 
   if (routeKind === "authors") {
@@ -624,10 +664,10 @@ export function renderPublicCatalogLlmsSection(
   ];
 
   catalog.packages.forEach((packageView) => {
-    lines.push(`- ${createLocalizedCatalogLink(
+    lines.push(`- ${createLocalizedPackageLink(
       packageView.latestVersion.title,
       "en",
-      getPublicCatalogPackageRoutePathname(packageView.packageMetadata.slug),
+      packageView,
     )}: ${escapeMarkdownText(packageView.latestVersion.summary)}`);
   });
   for (const author of catalog.authorBySlug.values()) {
@@ -646,7 +686,7 @@ export function renderPublicCatalogLlmsSection(
   }
   catalog.languageTags.forEach((languageTag) => {
     lines.push(`- ${createLocalizedCatalogLink(
-      `Language: ${languageTag}`,
+      `Audience language: ${languageTag}`,
       "en",
       getPublicCatalogLanguageRoutePathname(languageTag),
     )}`);

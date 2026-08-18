@@ -1,4 +1,10 @@
-import { getLocalizedPathname, type AppLocale } from "./i18n";
+import {
+  DEFAULT_LOCALE,
+  getAbsoluteUrl,
+  getLocalizedPathname,
+  SUPPORTED_LOCALES,
+  type AppLocale,
+} from "./i18n";
 
 export const PUBLIC_CATALOG_ROUTE_PATHNAME = "/catalog/";
 export const PUBLIC_CATALOG_AUTHORS_ROUTE_PATHNAME = "/catalog/authors/";
@@ -27,6 +33,60 @@ export function getPublicCatalogPackageRoutePathname(
   packageSlug: string,
 ): string {
   return `/catalog/packages/${encodeURIComponent(packageSlug)}/`;
+}
+
+export function getPublicCatalogPackageAudienceLocales(
+  languageTags: ReadonlyArray<string>,
+): ReadonlyArray<AppLocale> {
+  return SUPPORTED_LOCALES.filter((locale) => languageTags.includes(locale));
+}
+
+export function getPublicCatalogPackagePageLocales(
+  languageTags: ReadonlyArray<string>,
+): ReadonlyArray<AppLocale> {
+  const audienceLocales = getPublicCatalogPackageAudienceLocales(languageTags);
+
+  return audienceLocales.includes(DEFAULT_LOCALE)
+    ? audienceLocales
+    : [DEFAULT_LOCALE, ...audienceLocales];
+}
+
+export function getPublicCatalogPackagePageLocale(
+  locale: AppLocale,
+  languageTags: ReadonlyArray<string>,
+): AppLocale {
+  return getPublicCatalogPackagePageLocales(languageTags).includes(locale)
+    ? locale
+    : DEFAULT_LOCALE;
+}
+
+export function getPublicCatalogPackageLocalizedPathname(
+  locale: AppLocale,
+  packageSlug: string,
+  languageTags: ReadonlyArray<string>,
+): string {
+  return getLocalizedPathname(
+    getPublicCatalogPackagePageLocale(locale, languageTags),
+    getPublicCatalogPackageRoutePathname(packageSlug),
+  );
+}
+
+export function getPublicCatalogLanguageAlternates(
+  routePathname: string,
+  locales: ReadonlyArray<AppLocale>,
+): Readonly<Record<string, string>> {
+  const alternates: Record<string, string> = {};
+
+  locales.forEach((locale) => {
+    alternates[locale] = getAbsoluteUrl(
+      getLocalizedPathname(locale, routePathname),
+    );
+  });
+  alternates["x-default"] = getAbsoluteUrl(
+    getLocalizedPathname(DEFAULT_LOCALE, routePathname),
+  );
+
+  return alternates;
 }
 
 export function getPublicCatalogAuthorRoutePathname(authorSlug: string): string {
@@ -64,4 +124,11 @@ export function isPublicCatalogPageRoutePathname(
     || /^\/catalog\/(?:packages|authors|collections|languages)\/[^/]+\/$/.test(
       routePathname,
     );
+}
+
+export function isPublicCatalogSharedPageRoutePathname(
+  routePathname: string,
+): boolean {
+  return isPublicCatalogPageRoutePathname(routePathname)
+    && /^\/catalog\/packages\/[^/]+\/$/.test(routePathname) === false;
 }

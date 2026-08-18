@@ -1,10 +1,12 @@
 import "server-only";
-import { createCachedPublicCatalogReader } from "./publicCatalogReadModel";
-import type { PublicCatalogReadModel } from "./publicCatalogReadModel";
+import { isNonDefaultLocale, type NonDefaultLocale } from "./localeConfig";
 import {
   isPublicCatalogEnabled,
   readGeneratedPublicCatalogDump,
 } from "./publicCatalogBuild";
+import { getPublicCatalogPackageAudienceLocales } from "./publicCatalogUrls";
+import { createCachedPublicCatalogReader } from "./publicCatalogReadModel";
+import type { PublicCatalogReadModel } from "./publicCatalogReadModel";
 
 const readCachedPublicCatalog = createCachedPublicCatalogReader(
   isPublicCatalogEnabled,
@@ -24,6 +26,28 @@ export function listPublicCatalogPackageSlugs(): ReadonlyArray<string> {
 
   return catalog.packages.map(
     (packageView) => packageView.packageMetadata.slug,
+  );
+}
+
+export function listPublicCatalogPackageAudienceLocaleParams(): Array<{
+  locale: NonDefaultLocale;
+  packageSlug: string;
+}> {
+  const catalog = readPublicCatalog();
+
+  if (catalog === null) {
+    return [];
+  }
+
+  return catalog.packages.flatMap((packageView) =>
+    getPublicCatalogPackageAudienceLocales(
+      packageView.latestVersion.languageTags,
+    )
+      .filter(isNonDefaultLocale)
+      .map((locale) => ({
+        locale,
+        packageSlug: packageView.packageMetadata.slug,
+      })),
   );
 }
 
