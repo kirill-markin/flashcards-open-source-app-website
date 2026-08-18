@@ -24,6 +24,10 @@ import {
   type GlobalActivitySnapshot,
 } from "@/lib/globalActivitySnapshot";
 import { getHomeShowcaseImagePath } from "@/lib/homeShowcaseImage";
+import {
+  readGeneratedStoreQrCodes,
+  type StoreQrCodes,
+} from "@/lib/storeQrCodes";
 import { getLocalizedPathname, type AppLocale } from "@/lib/i18n";
 import { getUiCopy } from "@/lib/uiCopy";
 import homeStyles from "@/app/page.module.css";
@@ -86,7 +90,8 @@ function renderHomePage(
   locale: AppLocale,
   heroSection: HeroSection,
   featureSection: FeatureListSection,
-  activitySnapshot: GlobalActivitySnapshot
+  activitySnapshot: GlobalActivitySnapshot,
+  storeQrCodes: StoreQrCodes
 ): React.JSX.Element {
   const uiCopy = getUiCopy(locale);
 
@@ -120,7 +125,7 @@ function renderHomePage(
             <h2 className={homeStyles.hintTitle}>
               {uiCopy.home.humanSectionLabel}
             </h2>
-            <HumanPlatformLinks locale={locale} />
+            <HumanPlatformLinks locale={locale} storeQrCodes={storeQrCodes} />
           </div>
           <div className={homeStyles.hintDivider} />
           <div className={homeStyles.agentAccess}>
@@ -332,7 +337,8 @@ export async function MarketingPageView({
         locale,
         getSectionByType(pageContent.sections, "hero"),
         getSectionByType(pageContent.sections, "feature_list"),
-        readGeneratedGlobalActivitySnapshot(process.cwd())
+        readGeneratedGlobalActivitySnapshot(process.cwd()),
+        readGeneratedStoreQrCodes(process.cwd())
       );
       break;
     case "features":
