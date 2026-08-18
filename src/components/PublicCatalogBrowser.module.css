@@ -59,71 +59,46 @@
   text-decoration: none;
 }
 
-.controlLabel,
-.fieldset legend {
+.controlLabel {
   color: var(--text-secondary);
   font-size: 13px;
   font-weight: 650;
 }
 
-.controlLabel:not(:first-of-type),
-.fieldset {
-  margin-top: 6px;
+.filterControl {
+  display: grid;
+  gap: 7px;
+  min-inline-size: 0;
+  margin-block-start: 6px;
 }
 
-.textInput,
-.select {
-  width: 100%;
-  min-height: 42px;
+.textInput {
+  inline-size: 100%;
+  min-block-size: 44px;
+  padding-inline: 11px;
   border: 1px solid var(--border-strong);
   border-radius: var(--radius-sm);
   background: var(--bg-elevated);
   color: var(--text);
 }
 
-.textInput {
-  padding-inline: 11px;
+.filterPicker,
+.sortPicker {
+  min-inline-size: 0;
 }
 
-.select {
-  padding-inline: 10px 30px;
+.filterPicker > button,
+.sortPicker > button {
+  block-size: 44px;
 }
 
-.fieldset {
-  min-width: 0;
-  padding: 0;
-  border: 0;
+.sortPicker {
+  inline-size: clamp(126px, 16vw, 180px);
 }
 
-.fieldset legend {
-  margin-bottom: 7px;
-}
-
-.checkboxList {
-  display: grid;
-  gap: 7px;
-  max-height: 168px;
-  overflow-y: auto;
-  padding-inline-end: 4px;
-}
-
-.checkboxLabel {
-  display: flex;
-  gap: 8px;
-  align-items: center;
-  min-width: 0;
-  color: var(--text-secondary);
-  cursor: pointer;
-  font-size: 14px;
-}
-
-.checkboxLabel span {
-  overflow-wrap: anywhere;
-}
-
-.checkboxLabel input {
-  flex: 0 0 auto;
-  accent-color: var(--accent-strong);
+.sortPicker > button {
+  inline-size: 100%;
+  min-inline-size: 0;
 }
 
 .results {
@@ -146,13 +121,10 @@
 
 .sortControl {
   gap: 8px;
+  min-inline-size: 0;
   color: var(--text-secondary);
   font-size: 13px;
   white-space: nowrap;
-}
-
-.sortControl .select {
-  min-width: 126px;
 }
 
 .pagination {
@@ -183,8 +155,6 @@
 }
 
 .textInput:focus-visible,
-.select:focus-visible,
-.checkboxLabel input:focus-visible,
 .clearButton:focus-visible,
 .filtersSummary:focus-visible,
 .resultsStart:focus-visible,
@@ -260,9 +230,8 @@
     justify-content: space-between;
   }
 
-  .sortControl .select {
-    width: auto;
-    min-width: 142px;
+  .sortPicker {
+    inline-size: min(178px, 62%);
   }
 
   .pagination {

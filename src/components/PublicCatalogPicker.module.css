@@ -1,0 +1,302 @@
+.trigger {
+  position: relative;
+  display: flex;
+  align-items: center;
+  inline-size: 100%;
+  min-block-size: 44px;
+  min-inline-size: 0;
+  padding-block: 9px;
+  padding-inline: 14px 46px;
+  border: 1px solid var(--border-strong);
+  border-radius: var(--radius-sm);
+  background: var(--bg-elevated);
+  color: var(--text);
+  cursor: pointer;
+  text-align: start;
+}
+
+.trigger:hover,
+.trigger[aria-expanded="true"] {
+  border-color: rgba(238, 238, 238, 0.28);
+  background: var(--surface);
+}
+
+.compactTrigger {
+  inline-size: auto;
+  min-inline-size: 126px;
+}
+
+.triggerSummary {
+  min-inline-size: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.chevron {
+  position: absolute;
+  inset-block-start: 50%;
+  inset-inline-end: 14px;
+  display: grid;
+  inline-size: 18px;
+  block-size: 18px;
+  color: var(--text-secondary);
+  pointer-events: none;
+  transform: translateY(-50%);
+  transition: transform 140ms ease;
+}
+
+.chevron[data-open="true"] {
+  transform: translateY(-50%) rotate(180deg);
+}
+
+.chevron svg,
+.checkmark svg {
+  inline-size: 100%;
+  block-size: 100%;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 1.8;
+}
+
+.popover {
+  z-index: 100;
+  inline-size: min(
+    var(--picker-available-width, calc(100vw - 32px)),
+    max(var(--picker-reference-width, 0px), 280px)
+  );
+  max-inline-size: var(--picker-available-width, calc(100vw - 32px));
+  max-block-size: min(480px, var(--picker-available-height, 480px));
+  overflow: hidden;
+  border: 1px solid var(--border-strong);
+  border-radius: var(--radius-md);
+  background: var(--surface);
+  box-shadow: var(--shadow-soft);
+  color: var(--text);
+}
+
+.panel {
+  display: flex;
+  flex-direction: column;
+  max-block-size: inherit;
+  min-block-size: 0;
+}
+
+.panelHeader {
+  display: flex;
+  flex: 0 0 auto;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  min-block-size: 48px;
+  padding-block: 7px;
+  padding-inline: 14px 8px;
+  border-block-end: 1px solid var(--border);
+}
+
+.panelHeader strong {
+  overflow: hidden;
+  font-size: 14px;
+  font-weight: 700;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.panelHeader button {
+  min-block-size: 34px;
+  padding-inline: 10px;
+  border: 0;
+  border-radius: var(--radius-xs);
+  background: transparent;
+  color: #ffd6c9;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.singlePanelHeader {
+  display: none;
+}
+
+.searchField {
+  flex: 0 0 auto;
+  padding: 10px;
+  border-block-end: 1px solid var(--border);
+}
+
+.searchField input {
+  inline-size: 100%;
+  min-block-size: 42px;
+  padding-inline: 11px;
+  border: 1px solid var(--border-strong);
+  border-radius: var(--radius-sm);
+  background: var(--bg-elevated);
+  color: var(--text);
+  font-size: 16px;
+}
+
+.searchField input::placeholder {
+  color: var(--text-tertiary);
+}
+
+.listbox {
+  flex: 1 1 auto;
+  min-block-size: 0;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  padding: 7px;
+  outline: none;
+  scrollbar-gutter: stable;
+}
+
+.option {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  min-block-size: 42px;
+  padding-block: 8px;
+  padding-inline: 11px 9px;
+  border-radius: var(--radius-xs);
+  color: var(--text-secondary);
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 1.35;
+  outline: none;
+}
+
+.option > span:first-child {
+  min-inline-size: 0;
+  overflow-wrap: anywhere;
+}
+
+.option[data-selected="true"] {
+  color: var(--text);
+  background: var(--accent-soft);
+}
+
+.option[data-active="true"] {
+  color: var(--text);
+  background: var(--surface-hover);
+}
+
+.option[data-active="true"][data-selected="true"] {
+  background: var(--accent-muted);
+}
+
+.checkmark {
+  display: grid;
+  flex: 0 0 auto;
+  inline-size: 18px;
+  block-size: 18px;
+  color: var(--accent-strong);
+  opacity: 0;
+}
+
+.checkmark[data-visible="true"] {
+  opacity: 1;
+}
+
+.emptyState {
+  padding-block: 20px;
+  padding-inline: 12px;
+  color: var(--text-tertiary);
+  font-size: 14px;
+  text-align: center;
+}
+
+.dialog {
+  position: fixed;
+  inset-block: auto 0;
+  inset-inline: 0;
+  inline-size: 100%;
+  max-inline-size: none;
+  max-block-size: 100dvh;
+  margin-block: auto 0;
+  margin-inline: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid var(--border-strong);
+  border-block-end: 0;
+  border-start-start-radius: var(--radius-lg);
+  border-start-end-radius: var(--radius-lg);
+  background: var(--surface);
+  box-shadow: var(--shadow);
+  color: var(--text);
+}
+
+.dialog::backdrop {
+  background: rgba(0, 0, 0, 0.58);
+  backdrop-filter: blur(4px);
+}
+
+.dialog .panel {
+  max-block-size: min(100dvh, 720px);
+  padding-block-end: env(safe-area-inset-bottom, 0px);
+}
+
+.trigger:focus-visible,
+.panelHeader button:focus-visible,
+.searchField input:focus-visible,
+.listbox:focus-visible {
+  outline: 2px solid rgba(255, 214, 201, 0.62);
+  outline-offset: 3px;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .panelHeader button:hover {
+    background: var(--surface-hover);
+    color: var(--text);
+  }
+
+  .option:hover {
+    color: var(--text);
+    background: var(--surface-hover);
+  }
+
+  .option:hover[data-selected="true"] {
+    background: var(--accent-muted);
+  }
+}
+
+.trigger:active {
+  border-color: var(--accent-strong);
+  background: var(--surface-hover);
+  box-shadow: inset 0 0 0 1px var(--accent-muted);
+}
+
+.option:active,
+.option[data-active="true"]:active,
+.option[data-selected="true"]:active,
+.option[data-active="true"][data-selected="true"]:active {
+  background: var(--accent-muted);
+  box-shadow: inset 0 0 0 1px var(--accent-strong);
+}
+
+@media (max-width: 768px) {
+  .singlePanelHeader {
+    display: flex;
+  }
+
+  .panelHeader {
+    min-block-size: 58px;
+    padding-inline: 16px 8px;
+  }
+
+  .panelHeader button {
+    min-block-size: 44px;
+    padding-inline: 12px;
+  }
+
+  .searchField {
+    padding-inline: 12px;
+  }
+
+  .option {
+    min-block-size: 44px;
+    padding-inline: 12px 10px;
+    font-size: 16px;
+  }
+}
