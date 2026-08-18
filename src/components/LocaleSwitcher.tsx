@@ -1,21 +1,26 @@
 import Link from "next/link";
 import type { AppLocale } from "@/lib/i18n";
 import { getLocaleShortLabel } from "@/lib/localeConfig";
-import { getLocaleSwitcherEntries } from "@/lib/routeTranslations";
+import { getLocaleSwitcherEntriesForLocales } from "@/lib/routeTranslations";
 import { getUiCopy } from "@/lib/uiCopy";
 import styles from "./LocaleSwitcher.module.css";
 
 interface LocaleSwitcherProps {
   readonly locale: AppLocale;
+  readonly routeLocales: ReadonlyArray<AppLocale>;
   readonly routePathname: string;
 }
 
 export function LocaleSwitcher({
   locale,
+  routeLocales,
   routePathname,
 }: LocaleSwitcherProps): React.JSX.Element {
   const uiCopy = getUiCopy(locale);
-  const availableEntries = getLocaleSwitcherEntries(routePathname).filter(
+  const availableEntries = getLocaleSwitcherEntriesForLocales(
+    routePathname,
+    routeLocales,
+  ).filter(
     (entry) => entry.available,
   );
 

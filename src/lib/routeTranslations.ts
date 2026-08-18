@@ -15,7 +15,7 @@ import {
 import { isPublicCatalogEnabled } from "@/lib/publicCatalogBuild";
 import {
   getPublicCatalogRootUrl,
-  isPublicCatalogPageRoutePathname,
+  isPublicCatalogSharedPageRoutePathname,
   PUBLIC_CATALOG_ROUTE_PATHNAME,
 } from "@/lib/publicCatalogUrls";
 
@@ -50,7 +50,7 @@ export function hasRouteTranslation(
 
   if (
     isPublicCatalogEnabled()
-    && isPublicCatalogPageRoutePathname(normalizedRoutePathname)
+    && isPublicCatalogSharedPageRoutePathname(normalizedRoutePathname)
   ) {
     return true;
   }
@@ -83,7 +83,19 @@ export function getLocaleSuggestionTargets(
   routePathname: string,
   currentLocale: AppLocale
 ): ReadonlyArray<LocaleSuggestionTarget> {
-  return getRouteLocales(routePathname)
+  return getLocaleSuggestionTargetsForLocales(
+    routePathname,
+    currentLocale,
+    getRouteLocales(routePathname),
+  );
+}
+
+export function getLocaleSuggestionTargetsForLocales(
+  routePathname: string,
+  currentLocale: AppLocale,
+  routeLocales: ReadonlyArray<AppLocale>,
+): ReadonlyArray<LocaleSuggestionTarget> {
+  return routeLocales
     .filter((locale) => locale !== currentLocale)
     .map((locale) => ({
       href: routePathname === PUBLIC_CATALOG_ROUTE_PATHNAME
@@ -122,8 +134,20 @@ export function getLocaleSwitcherEntries(
 ): ReadonlyArray<LocaleSwitcherEntry> {
   const { routePathname } = resolveLocaleFromPathname(pathname);
 
+  return getLocaleSwitcherEntriesForLocales(
+    pathname,
+    getRouteLocales(routePathname),
+  );
+}
+
+export function getLocaleSwitcherEntriesForLocales(
+  pathname: string,
+  routeLocales: ReadonlyArray<AppLocale>,
+): ReadonlyArray<LocaleSwitcherEntry> {
+  const { routePathname } = resolveLocaleFromPathname(pathname);
+
   return SUPPORTED_LOCALES.map((locale) => ({
-    available: hasRouteTranslation(routePathname, locale),
+    available: routeLocales.includes(locale),
     href: routePathname === PUBLIC_CATALOG_ROUTE_PATHNAME
       ? getPublicCatalogRootUrl(locale)
       : getLocalizedPathname(locale, routePathname),

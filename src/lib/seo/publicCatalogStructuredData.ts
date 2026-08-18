@@ -20,6 +20,7 @@ import {
   getPublicCatalogAuthorRoutePathname,
   getPublicCatalogCollectionRoutePathname,
   getPublicCatalogLanguageRoutePathname,
+  getPublicCatalogPackagePageLocale,
   getPublicCatalogPackageRoutePathname,
   PUBLIC_CATALOG_AUTHORS_ROUTE_PATHNAME,
   PUBLIC_CATALOG_COLLECTIONS_ROUTE_PATHNAME,
@@ -90,7 +91,6 @@ interface PublicCatalogPackageResource {
   readonly datePublished: string;
   readonly description: string;
   readonly hasPart?: CatalogEntityReference;
-  readonly inLanguage?: ReadonlyArray<string>;
   readonly isPartOf?: ReadonlyArray<CatalogCollectionReference>;
   readonly license: CatalogLicenseCreativeWork;
   readonly name: string;
@@ -157,6 +157,7 @@ export interface PublicCatalogAuthorJsonLd {
 }
 
 interface CatalogListEntity {
+  readonly locale: AppLocale;
   readonly name: string;
   readonly routePathname: string;
 }
@@ -202,9 +203,9 @@ function createCatalogCollectionPageJsonLd(
     itemListElement: params.entities.map((entity, index) => ({
       "@type": "ListItem",
       item: {
-        "@id": getCatalogAbsoluteUrl(params.locale, entity.routePathname),
+        "@id": getCatalogAbsoluteUrl(entity.locale, entity.routePathname),
         name: entity.name,
-        url: getCatalogAbsoluteUrl(params.locale, entity.routePathname),
+        url: getCatalogAbsoluteUrl(entity.locale, entity.routePathname),
       },
       position: index + 1,
     })),
@@ -223,8 +224,13 @@ function createCatalogCollectionPageJsonLd(
 
 function createPackageListEntities(
   packages: ReadonlyArray<PublicCatalogPackageView>,
+  locale: AppLocale,
 ): ReadonlyArray<CatalogListEntity> {
   return packages.map((packageView) => ({
+    locale: getPublicCatalogPackagePageLocale(
+      locale,
+      packageView.latestVersion.languageTags,
+    ),
     name: packageView.latestVersion.title,
     routePathname: getPublicCatalogPackageRoutePathname(
       packageView.packageMetadata.slug,
@@ -244,6 +250,7 @@ export function createPublicCatalogRootJsonLd(
     description: copy.intro,
     entities: createPackageListEntities(
       catalog.packagesByLanguageTag.get(locale) ?? [],
+      locale,
     ),
     locale,
     name: copy.title,
@@ -263,6 +270,7 @@ export function createPublicCatalogAuthorsJsonLd(
     datePublished: null,
     description: copy.authorsIntro,
     entities: [...catalog.authorBySlug.values()].map((author) => ({
+      locale,
       name: author.displayName,
       routePathname: getPublicCatalogAuthorRoutePathname(author.slug),
     })),
@@ -284,6 +292,7 @@ export function createPublicCatalogCollectionsJsonLd(
     datePublished: null,
     description: copy.collectionsIntro,
     entities: [...catalog.collectionBySlug.values()].map((collection) => ({
+      locale,
       name: collection.title,
       routePathname: getPublicCatalogCollectionRoutePathname(collection.slug),
     })),
@@ -310,7 +319,7 @@ export function createPublicCatalogFacetJsonLd(
       "tag",
       displayTag,
     ),
-    entities: createPackageListEntities(packages),
+    entities: createPackageListEntities(packages, locale),
     locale,
     name: interpolatePublicCatalogCopy(
       copy.languageTitleTemplate,
@@ -333,7 +342,7 @@ export function createPublicCatalogCollectionJsonLd(
     dateModified: collection.updatedAt,
     datePublished: collection.publishedAt,
     description: collection.summary === "" ? copy.collectionsIntro : collection.summary,
-    entities: createPackageListEntities(packages),
+    entities: createPackageListEntities(packages, locale),
     locale,
     name: collection.title,
     ordered: true,
@@ -405,9 +414,6 @@ export function createPublicCatalogPackageJsonLd(
     name: latestVersion.title,
     url: packageUrl,
     ...(questions.length === 0 ? {} : { hasPart: { "@id": quizId } }),
-    ...(latestVersion.languageTags.length === 0
-      ? {}
-      : { inLanguage: latestVersion.languageTags }),
     ...(collections.length === 0
       ? {}
       : {
