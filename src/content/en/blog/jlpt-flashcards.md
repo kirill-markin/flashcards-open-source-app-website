@@ -54,6 +54,8 @@ This table shows why changing levels should change part of your deck. N5 does no
 
 If you are still learning the script, [Hiragana Flashcards: All 46 Basic Characters with Romaji](/catalog/packages/basic-hiragana-romaji/) provides exactly 92 cards covering all 46 modern basic hiragana in both kana → Hepburn-style learner romaji and romaji → kana directions. It is a foundational script drill, not an official JLPT list or a substitute for level-specific vocabulary, grammar, reading, and listening practice.
 
+The [matching basic katakana deck](/catalog/packages/basic-katakana-romaji/) covers all 46 modern basic katakana with 46 katakana-to-romaji cards and 46 romaji-to-katakana cards—92 independently reviewed cards in total.
+
 ## Turn kanji and vocabulary into small decisions
 
 A card with `提出 = submission` may help at first. The official item map asks for more than a translation. Depending on the level, vocabulary work includes reading kanji, selecting the written form, understanding meaning from context, finding a close paraphrase, judging usage, or recognizing word formation.
