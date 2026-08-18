@@ -52,8 +52,6 @@ Los tipos de preguntas proporcionan un mapa fiable:
 
 Esta tabla muestra por qué una parte del mazo debe cambiar si cambias de nivel. N5 no incluye el tipo de pregunta sobre uso del vocabulario. La formación de palabras solo aparece en N2. N1 y N2 exigen comparar e integrar varios textos o fuentes de información auditiva. Un mazo general de japonés puede mejorar tu dominio del idioma, pero no cubre automáticamente las decisiones que tendrás que tomar en tu nivel del JLPT.
 
-Si todavía estás aprendiendo la escritura, [el mazo de hiragana básico con los 46 caracteres y rōmaji](/catalog/packages/basic-hiragana-romaji/) ofrece exactamente 92 tarjetas que cubren los 46 hiragana básicos modernos en ambas direcciones: kana → rōmaji para estudiantes al estilo Hepburn y rōmaji → kana. Es un ejercicio básico de escritura, no una lista oficial del JLPT ni un sustituto de la práctica de vocabulario, gramática, lectura y comprensión auditiva específica de tu nivel.
-
 ## Convierte el kanji y el vocabulario en decisiones pequeñas
 
 Una tarjeta con `提出 = entrega` puede servir al principio. El mapa oficial de preguntas exige más que una traducción. Según el nivel, el trabajo de vocabulario incluye leer kanji, seleccionar la forma escrita, entender el significado a partir del contexto, encontrar una paráfrasis cercana, juzgar el uso o reconocer la formación de palabras.
