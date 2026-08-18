@@ -85,6 +85,8 @@ You are not only remembering that a word exists. You are learning where it belon
 
 Writing-system cards can use the same two-way pattern while staying intentionally narrow. [Hiragana Flashcards: All 46 Basic Characters with Romaji](/catalog/packages/basic-hiragana-romaji/) contains exactly 92 cards for all 46 modern basic hiragana, split between kana → Hepburn-style learner romaji and romaji → kana recall. It has no audio, vocabulary, stroke order, dakuten, or contracted sounds, so treat it as a focused foundation rather than a complete Japanese course.
 
+If katakana is your next script, [this two-way katakana deck](/catalog/packages/basic-katakana-romaji/) covers all 46 modern basic katakana with 92 independently reviewed cards in total: 46 katakana → romaji and 46 romaji → katakana.
+
 ## Sentences usually beat raw vocabulary once you are past the first layer
 
 This is the biggest upgrade most people can make.
