@@ -1,179 +1,227 @@
 ---
-title: "Mochi vs Anki vs Flashcards (2026): Welche App passt zu dir?"
-description: "Vergleich von Mochi, Anki und Flashcards bei Markdown, FSRS, Offline-Lernen, mobilen Apps, Self-Hosting, Import, Export und Preisen 2026."
+title: "Mochi vs. Anki (2026): Markdown-Notizen oder maximale Kontrolle?"
+description: "Mochi oder Anki? Vergleiche Markdown, FSRS, Offline-Nutzung, Sync, Preise, Import und Export – und finde die passende App für deinen Workflow und deine Karten."
 date: "2026-03-18"
-updated: "2026-08-02"
-image: "/blog/mochi-alternative.png"
+updated: "2026-08-19"
+image: "/blog/mochi-alternative-v2.png"
 keywords:
   - "mochi vs anki"
-  - "mochi alternative"
   - "anki vs mochi"
-  - "mochi flashcards alternative"
-  - "beste lernkarten app 2026"
-  - "markdown lernkarten app"
-  - "fsrs lernkarten app"
-  - "offline lernkarten app"
-  - "self hosted lernkarten"
-  - "open source lernkarten app"
+  - "mochi lernkarten"
+  - "mochi preise"
+  - "mochi offline"
+  - "mochi anki import"
+  - "markdown lernkarten"
+  - "anki fsrs"
+  - "mochi alternative"
 ---
 
-Die alte Version dieses Artikels nannte einen schlechten Grund, Mochi zu verlassen: FSRS. Dieser Vergleich ist überholt. Mochi hat FSRS 2025 eingeführt, und im aktuellen Changelog finden sich weiterhin Fehlerkorrekturen und Parameter-Updates für FSRS. **Mochi vs Anki vs Flashcards** ist 2026 eine Entscheidung zwischen drei verschiedenen Workflows, nicht zwischen einem ernst zu nehmenden Scheduler und zwei schwächeren Alternativen.
+Mochi kann den Wiederholungsverlauf aus einer Anki-Datei im Format `.apkg` importieren – vorausgesetzt, du hast beim Export die Planungsinformationen eingeschlossen. Dabei entfernt Mochi CSS und JavaScript und wandelt HTML in Markdown um. Ein einfaches Vokabeldeck wird womöglich fast unverändert übernommen, ein Deck mit benutzerdefinierten Vorlagen dagegen nicht.
 
-> **Offenlegung:** Ich bin Kirill Markin und entwickle [Flashcards](https://flashcards-open-source-app.com/), eines der hier verglichenen Produkte. Flashcards gewinnt nicht automatisch. Mochi ist besser für native Markdown-Notizen, und Anki bleibt bei ausgereiften Templates, Add-ons, geteilten Decks und der Kontrolle über das Scheduling vorn.
+Aus dieser Perspektive lässt sich **Mochi vs. Anki** sinnvoll vergleichen. Mochi bietet eine aufgeräumte Local-first-Umgebung für Markdown-Notizen und Lernkarten. Anki bietet ein ausgereiftes Kartensystem mit leistungsfähigen Vorlagen, weitreichenden Einstellungen für den Lernalgorithmus, Add-ons und Migrationsformaten. Die richtige Wahl hängt weniger von der Zahl der Funktionen ab als davon, welche Teile deines bisherigen Workflows erhalten bleiben müssen.
 
-**Stand der Angaben:** 2. August 2026. Genannt werden die an diesem Datum öffentlich verfügbaren US-Preise oder anderweitig ausgewiesenen Preise. Steuern, regionale Preise, die Abrechnung über App-Stores und künftige Beta-Bedingungen können abweichen.
+> **Offenlegung:** Ich bin Kirill Markin und entwickle die [Flashcards Open Source App](/). Sie gehört nicht zum folgenden Hauptvergleich. Mochi eignet sich besser für verknüpfte Markdown-Notizen, Anki dagegen für komplexe bestehende Sammlungen.
 
-![Mochi, Anki und Flashcards im Vergleich](/blog/mochi-alternative.png)
+**Stand der Angaben:** 19. August 2026. Preise und Produktdetails können sich ändern, besonders in App-Stores.
+
+![Vergleich von Mochi und Anki bei Markdown-Notizen, FSRS-Wiederholungen, Offline-Lernen, Preisen und Migration](/blog/mochi-alternative-v2.png)
 
 ## Die kurze Antwort
 
-- Wähle **Mochi**, wenn du Local-first-Markdown-Notizen möchtest, aus denen mehrseitige Karten werden können. Mochi bietet hier das klarste Schreibmodell, funktioniert vollständig offline und ohne Konto und kann eine Anki-Datei im Format `.apkg` direkt importieren.
-- Wähle **Anki**, wenn du das ausgereifteste Lernkartensystem möchtest. Notiztypen, HTML/CSS-Templates, Add-ons, geteilte Decks, FSRS-Einstellungen, Desktop-Apps und Migrationsformate sind schwer zu übertreffen.
-- Wähle **Flashcards**, wenn du ein einfacheres Markdown-Modell mit Vorder- und Rückseite in einem MIT-lizenzierten Stack suchst, der Web- und Mobile-Apps, KI-Chat, Dateien, MCP, eine Agent-API und ein dokumentiertes Produktions-Deployment umfasst.
+- Wähle **Mochi**, wenn du Markdown-Lernkarten und -Notizen am selben Ort schreiben, lokal ohne Konto arbeiten und Wiederholungen mit nur zwei Buttons bewerten möchtest. Der kostenlose Tarif funktioniert offline; Pro kostet **US$5 pro Monat** und bietet zusätzlich eine geräteübergreifende Synchronisierung.
+- Wähle **Anki**, wenn du maximale Kontrolle über Notiztypen, HTML/CSS-Vorlagen, Add-ons, geteilte Decks und FSRS-Einstellungen möchtest. Anki ist außerdem die sicherere Wahl für eine bestehende Sammlung, die von Anki-spezifischem Verhalten abhängt.
+- Wenn du bereits jahrelange Anki-Daten hast, teste Mochi mit einer kleinen `.apkg`-Datei, bevor du etwas Wichtiges verschiebst. Der Wiederholungsverlauf kann übertragen werden, wenn das Paket Planungsinformationen enthält; das Erscheinungsbild und das interaktive Verhalten der Vorlagen möglicherweise nicht.
+- Bleib bei deiner aktuellen App, wenn ein Wechsel kein konkretes Problem löst. Eine stabile Lernroutine ist wertvoller als ein aufgeräumterer Editor.
 
-Es gibt noch eine vierte vernünftige Wahl: Bleib bei deiner aktuellen App. Eine funktionierende Wiederholungsroutine ist meist mehr wert als eine schönere Vergleichstabelle.
+## Mochi vs. Anki auf einen Blick
 
-## Mochi vs Anki vs Flashcards: der vollständige Vergleich
+| Frage | Mochi | Anki |
+|---|---|---|
+| Am besten geeignet für | Markdown-Nutzer, die Notizen und Karten an einem Ort verwalten möchten | Lernende, die ein ausgereiftes, konfigurierbares Lernkartensystem möchten |
+| Kartenerstellung | Markdown-Dokumente, aus denen mehrseitige Karten werden können; Felder, Vorlagen, Links, Backlinks und Tags | Aus Notizen mit Feldern entstehen mithilfe von HTML/CSS-Vorlagen eine oder mehrere Karten |
+| Natives Markdown | Ja | Nein; die zentralen Felder und Vorlagen verwenden HTML |
+| Lernalgorithmus | Standardmäßig Mochis multiplikatorbasierter Algorithmus; optional FSRS mit Zielbehaltensrate und benutzerdefinierten Parametern | FSRS oder das ältere SM-2; FSRS bietet eine gewünschte Behaltensrate, optimierte Parameter, Voreinstellungen und einen Simulator |
+| Feedback bei Wiederholungen | Remembered / Forgot | Again / Hard / Good / Easy |
+| Offline-Nutzung | Die Apps für macOS, Windows, Linux, iOS und Android können ohne Konto vollständig offline arbeiten | Desktop- und Mobil-Clients speichern lokale Sammlungen und funktionieren ohne ständige Synchronisierung |
+| Geräteübergreifende Synchronisierung | Pro, US$5/Monat | Kostenlos über AnkiWeb |
+| Plattformen | Web, macOS, Windows, Linux, iOS, Android | Windows, macOS, Linux, AnkiWeb, offizielles AnkiMobile für iOS, unabhängiges AnkiDroid für Android |
+| Migration von Anki | Importiert `.apkg`; ein enthaltener Wiederholungsverlauf wird übertragen, HTML wird in Markdown umgewandelt und CSS/JavaScript werden entfernt | Native `.apkg`- und `.colpkg`-Pakete bewahren Anki-spezifische Daten |
+| Portabler Text | Markdown- und CSV-Export | Export als tabulatorgetrennter Text mit HTML-Formatierung in den Feldern |
+| Open Source / Self-Hosting | Local-first; Mochi stellt die Kernanwendung nicht als Open Source dar und dokumentiert kein unterstütztes Self-Hosting der Synchronisierung | Das Haupt-Repository steht unter der AGPL; Anki dokumentiert einen selbst gehosteten Sync-Server für fortgeschrittene Nutzer |
 
-| Frage | Mochi | Anki | Flashcards |
-|---|---|---|---|
-| Am besten für | Local-first-Markdown-Notizen und -Karten | Maximale Reife und Anpassbarkeit mit einem breiten Ökosystem | Open-Source-Web- und Mobile-Stack mit integriertem Agentenzugriff |
-| Kartenmodell | Markdown-Dokumente, verknüpfte Referenzen, Felder, Templates, Tags, Ansichten und mehrere Kartenseiten | Notizen mit Feldern erzeugen über HTML/CSS-Templates eine oder mehrere Karten | Bewusst einfache Karten mit Vorder- und Rückseite, Markdown-Inhalten, Decks, Tags und Medien |
-| Markdown | Natives Format für die Kartenerstellung | Keine native Erstellung in Markdown; Felder und Templates verwenden HTML, Add-ons sind verfügbar | Markdown auf Vorder- und Rückseite klassischer zweiseitiger Karten |
-| Scheduling | FSRS mit Remember/Forgot als Feedback | Integriertes FSRS mit Again/Hard/Good/Easy, Ziel-Retention, Parameteroptimierung, Presets und Simulator | FSRS-6 mit Again/Hard/Good/Easy und vom Produkt festgelegten Gewichten; keine persönliche Parameteroptimierung wie bei Anki |
-| Offline | Vollständig offline und ohne Konto; Pro ist für geräteübergreifende Synchronisierung nötig | Lokale Wiederholungen auf Desktop und Mobilgeräten; AnkiWeb übernimmt die Synchronisierung | Änderungen werden im Web, auf iOS und Android zuerst lokal gespeichert und synchronisiert, sobald die Verbindung wieder da ist |
-| Plattformen | Web, macOS, Windows, Linux, iOS und Android | Windows, macOS, Linux, AnkiWeb, offizielles AnkiMobile für iOS und unabhängiges AnkiDroid für Android | Web, iOS und Android; kein Desktop-Client |
-| Open Source | Die Kern-App wird nicht als Open-Source-Produkt zum Self-Hosting angeboten | Open-Source-Desktop-App und -Clients | MIT-lizenzierter Anwendungs- und Infrastruktur-Stack |
-| Self-Hosting | Kein offizieller Self-Hosting-Pfad für die Kern-App | Offizieller selbst gehosteter Sync-Server für Anki-Clients; kein vollständiger selbst gehosteter AnkiWeb-Dienst | Das unterstützte Produktions-Deployment nutzt AWS CDK; lokales Docker/Postgres ist für die Entwicklung gedacht |
-| Import | `.mochi`, Anki `.apkg` inklusive Verlauf, Markdown und CSV | Klartext, `.apkg`, `.colpkg` und Mnemosyne-Formate | Nur das eigene Workspace-Paket `flashcards.zip` |
-| Export | `.mochi`, Markdown und CSV | Klartext, `.apkg` und `.colpkg` | Nur das eigene Workspace-Paket `flashcards.zip` |
-| KI und Agenten | Dynamisches KI-Feld, API und Browser-Integrationen mit Pro | KI-Workflows kommen hauptsächlich über Community-Add-ons | KI-Chat, Datei-Anhänge, MCP und Agent-API sind Teil des Produkts |
-| Preis 2026 | Offline kostenlos; Pro wird für Synchronisierung und weitere Funktionen für 5 US-Dollar pro Monat angeboten | Desktop, AnkiWeb und Android sind kostenlos; AnkiMobile kostet in den USA einmalig 24,99 US-Dollar | Gehostete App während der Beta kostenlos; das Erstellen und Wiederholen von Karten soll im Kern kostenlos bleiben; Self-Hosting-Software kostenlos plus Infrastruktur- und Anbieterkosten |
+Entscheide zuerst, was dir wichtiger ist: **bequeme Kartenerstellung oder umfassende Konfiguration**. Wenn eine der Apps bereits deinen Lernverlauf enthält, sind die Migrationsdetails ebenso wichtig.
 
-Die Tabelle zeigt, warum „beste Lernkarten-App“ zu allgemein ist. Mochi, Anki und Flashcards überschneiden sich beim Wiederholen, doch alles drum herum unterscheidet sich deutlich.
+## Bei Mochi fühlt sich jede Karte wie eine Notiz an
 
-## Markdown und das Kartenmodell
+Mochis [Kartenmodell](https://mochi.cards/docs/cards/) beginnt mit einem Markdown-Dokument. Füge eine Zeile mit drei Bindestrichen hinzu, und das Dokument wird zur Lernkarte. Mit weiteren Trennlinien kann sie mehr als zwei Seiten haben.
 
-### Mochi behandelt jede Karte als Markdown-Dokument
+Dieselbe Karte kann Überschriften, Listen, Code, Bilder, strukturierte Felder und Links zu anderen Karten enthalten. `[[Double brackets]]` erzeugen Verweise und Backlinks. Eine längere Referenznotiz kann neben den Lernkarten liegen. Beim Archivieren bleibt ihr Inhalt verfügbar, wird aber nicht mehr zur Wiederholung vorgelegt.
 
-Mochi bietet den stärksten nativen Markdown-Workflow der drei Produkte. Die [Dokumentation zu Karten](https://mochi.cards/docs/cards/) beschreibt Karten als Markdown-Dokumente, die auch strukturierte Felder, Links, Tags, Templates, Anhänge und den Wiederholungsverlauf enthalten können. Eine Zeile aus drei Bindestrichen trennt eine Seite von der nächsten, und eine Karte kann mehr als zwei Seiten haben.
+Damit eignen sich Mochi-Lernkarten besonders für Entwickler, Forschende und Sprachlernende, die bereits mit Textdateien und verknüpften Notizen arbeiten. Du kannst zuerst gut lesbares Ausgangsmaterial verfassen und anschließend entscheiden, was du aktiv abrufen möchtest.
 
-Dieses Design funktioniert gut, wenn Notizen und Lernkarten zusammengehören sollen. Du kannst eine lange Referenznotiz behalten, sie archivieren, damit sie nicht wiederholt wird, mit `[[references]]` zu anderen Karten verlinken oder einen Teil davon in eine mehrseitige Lernkarte verwandeln. Tags, Backlinks, Filter und gespeicherte Ansichten machen Mochi eher zu einer kleinen Wissensdatenbank als zu einem einfachen Deck-Editor.
+Mochi unterstützt außerdem Felder und Vorlagen und ist daher nicht auf frei formulierte Notizen beschränkt. Wird eine Vorlage angewendet, rendert Mochi deren Markdown mit Platzhaltern für die Felder. Das eigene Markdown der Karte bleibt zwar gespeichert, wird bei der Darstellung aber ignoriert. Markdown bleibt die native Arbeitsoberfläche und ist keine optionale Ebene über einem herkömmlichen Karteneditor.
 
-Wähle Mochi für Markdown, wenn Markdown selbst die natürliche Schreiboberfläche sein soll und nicht nur eine Formatierungsoption in einem klassischen Formular für Vorder- und Rückseite.
+## Anki trennt Lerndaten von der Darstellung der Karten
 
-### Anki trennt Notizen von erzeugten Karten
+Anki arbeitet mit einem stärker strukturierten Modell. Eine Notiz speichert Felder; eine oder mehrere Kartenvorlagen bestimmen, welche Felder auf den einzelnen Karten erscheinen. Die [Vorlagen verwenden HTML und CSS](https://docs.ankiweb.net/templates/intro.html), sodass aus einer einzigen Vokabelnotiz Karten zum Erkennen, Produzieren und Hörverstehen entstehen können, ohne die zugrunde liegenden Daten zu kopieren.
 
-Anki hat das leistungsfähigste Kartenmodell, ist aber kein nativer Markdown-Editor. Du erstellst eine Notiz mit Feldern, und ein Notiztyp erzeugt daraus eine oder mehrere Karten. [Kartentemplates](https://docs.ankiweb.net/templates/intro.html) verwenden HTML und CSS. So kann eine einzige Vokabelnotiz eine Vorwärts-, Rückwärts- oder Hörkarte und weitere Ansichten erzeugen, ohne die zugrunde liegenden Daten zu duplizieren.
+Die Einarbeitung dauert länger, dafür sind die Möglichkeiten deutlich umfangreicher. Anki eignet sich besser für komplexe Lückentextmuster, bedingte Layouts, individuelle Gestaltung, spezialisierte Notiztypen und Arbeitsabläufe rund um Add-ons. Die [offizielle Website](https://apps.ankiweb.net/) verweist außerdem auf ein großes Angebot an geteilten Decks und Add-ons.
 
-Das braucht mehr Einarbeitung, gibt Anki aber deutlich mehr Spielraum. Komplexe Cloze-Karten, eigene Layouts, bedingte Felder, Audio-Regeln und Add-on-basierte Workflows gehören hierher. Markdown lässt sich über Community-Add-ons ergänzen, ist aber eine Erweiterung und nicht das grundlegende Schreibmodell.
+Anki ist keine native App für Markdown-Lernkarten. Ein Markdown-Workflow erfordert zusätzliche Werkzeuge und damit eine weitere Abhängigkeit, die gepflegt werden muss. Wenn du hauptsächlich lesbare Notizen mit etwas Spaced Repetition möchtest, kann Anki unnötig komplex wirken. Wenn deine Karten dagegen strukturierte Lerndatensätze sind, die auf verschiedene Arten dargestellt werden, ist genau diese Komplexität der entscheidende Vorteil.
 
-Anki gewinnt, wenn eine „Karte“ eine gerenderte Ansicht strukturierter Lerndaten sein soll. Mochi gewinnt, wenn sich die „Karte“ auch wie eine lesbare Markdown-Notiz verhalten soll.
+## FSRS entscheidet den Vergleich nicht mehr
 
-### Flashcards hält das Modell bewusst schlank
+In älteren Mochi-Vergleichen heißt es oft, Anki gewinne, weil Mochi kein FSRS habe. Das ist nicht mehr aktuell. Mochi führte 2025 eine Vorschauversion von FSRS ein, und im [Changelog von 2026](https://mochi.cards/changelog/) sind weitere Korrekturen an den FSRS-Intervallen und den Einstellungen zur Behaltensrate dokumentiert.
 
-Die [Flashcards-Funktionen](/features/) drehen sich um Karten mit Vorder- und Rückseite, Markdown, Decks, Tags und zugehörige Medien. Das schlankere Modell ist leichter zu verstehen und lässt sich von einem KI-Agenten einfacher per Chat, MCP oder Agent-API erstellen und bearbeiten. Du kannst Quelldateien anhängen, Kartenentwürfe anfordern, das Ergebnis prüfen und die Karte, die du später wiederholst, einfach halten.
+Ein Detail ist dabei wichtig: [Mochi verwendet weiterhin standardmäßig seinen eigenen Lernalgorithmus](https://mochi.cards/docs/reviewing/fsrs/). In den Review Settings kannst du zu FSRS wechseln, eine Zielbehaltensrate festlegen und später wieder zurückwechseln. Bereits gelernte Karten behalten bei diesem Wechsel ihren Wiederholungsverlauf.
 
-Der Preis dafür ist klar. Flashcards reicht weder an Mochis System verknüpfter Notizen und mehrseitiger Markdown-Karten noch an Ankis Notiztypen und Template-Engine heran. Es passt zu Menschen, die eine vorhersehbare zweiseitige Karte einem stark konfigurierbaren Inhaltsmodell vorziehen.
+Bei beiden Lernalgorithmen verwendet Mochi dieselben zwei Bewertungen:
 
-## FSRS ist kein Grund mehr, Mochi zu verlassen
+- **Forgot** bedeutet, dass der Abruf fehlgeschlagen ist.
+- **Remembered** bedeutet, dass der Abruf erfolgreich war.
 
-Alle drei Produkte verwenden inzwischen FSRS, einen modernen Spaced-Repetition-Scheduler. Wenn du **Mochi vs Anki** vergleichst, weil du gehört hast, Mochi unterstütze kein FSRS, ist diese Information veraltet.
+Unter FSRS ordnet Mochi diese Ergebnisse Again und Good zu. Die binäre Auswahl geht schnell und erspart dir die Entscheidung, ob eine erfolgreiche Antwort Hard, Good oder Easy war. Dafür erhält der Lernalgorithmus weniger Informationen darüber, wie sicher die Antwort abgerufen wurde.
 
-Mochis [Changelog](https://mochi.cards/changelog) nennt die FSRS-Vorschau im Juni 2025 und dokumentiert spätere Fehlerkorrekturen sowie Updates der Standardparameter. Der Wiederholungsbildschirm beschränkt das Feedback auf Remember oder Forgot. Mochi nennt die aktuell verwendete FSRS-Hauptversion nicht öffentlich. Aus der Versionsnummer der App würde ich daher keine FSRS-Version ableiten.
+[Ankis FSRS-Einstellungen](https://docs.ankiweb.net/deck-options#fsrs) gehen weiter. Anki bietet eine gewünschte Behaltensrate, eigene Parameter je Voreinstellung, eine integrierte Optimierung anhand deines Wiederholungsverlaufs und einen Simulator zur Abschätzung des Arbeitsaufwands. Mochi akzeptiert benutzerdefinierte Parameter, enthält aber keinen Optimierer. Persönliche Parameter musst du daher mit einem externen FSRS-Optimierer erzeugen. Auch Ankis vier Bewertungen liefern mehr Informationen:
 
-Anki gibt Lernenden deutlich mehr Kontrolle. Die [FSRS-Einstellungen](https://docs.ankiweb.net/deck-options.html#fsrs) umfassen vier Bewertungen, die Ziel-Retention, getrennte Presets, Parameteroptimierung anhand deines Wiederholungsverlaufs und einen Simulator zur Einschätzung des Arbeitsaufwands. Wenn du den Scheduler nachvollziehen und feinjustieren möchtest, gewinnt Anki diesen Abschnitt.
+- **Again:** Du konntest die Antwort nicht abrufen.
+- **Hard:** Du konntest sie abrufen, aber nur mit erheblicher Mühe.
+- **Good:** Normaler erfolgreicher Abruf.
+- **Easy:** Ungewöhnlich leichter erfolgreicher Abruf.
 
-Flashcards verwendet FSRS-6 und dieselben vier Bewertungen: Again, Hard, Good und Easy. Die Gewichte werden vom Produkt festgelegt und nicht anhand des persönlichen Wiederholungsverlaufs für jeden Nutzer optimiert. Das vereinfacht die Konfiguration, verzichtet aber auch auf eine der nützlichsten Steuerungsmöglichkeiten, die Anki bietet. Eine ausführlichere Erklärung findest du unter [FSRS vs SM-2](/blog/fsrs-vs-sm-2/).
+Eine Bewertungsregel ist besonders wichtig: Laut Anki-Handbuch gilt Hard weiterhin als erfolgreicher Abruf. Wenn du Hard auswählst, obwohl du die Antwort tatsächlich vergessen hast, werden die Intervalle daher zu lang.
 
-Das Tastenmodell macht sich im Alltag bemerkbar. Mochi fragt nach einer binären Einschätzung deiner Erinnerung. Bei Anki und Flashcards unterscheidest du danach, ob der Abruf fehlgeschlagen, schwierig, normal oder leicht war. Kein Ansatz ist immer besser. Nimm den, den du konsequent bewerten kannst.
+Keines der beiden Bewertungsmodelle ist grundsätzlich überlegen. Wähle Mochi, wenn eine konsequente Entscheidung zwischen „erinnert“ und „vergessen“ für zügige Wiederholungen sorgt. Wähle Anki, wenn du die zusätzlichen Bewertungen korrekt einsetzen und Behaltensrate, Parameter und Arbeitsaufwand gezielt anpassen möchtest.
 
-## Offline-Lernen, Plattformen und mobile Apps
+Mehr zum Lernalgorithmus selbst erfährst du im Vergleich [FSRS vs. SM-2](/blog/fsrs-vs-sm-2/).
 
-Mochi verbindet native Desktop-Apps für viele Plattformen mit ungewöhnlich unkomplizierter Offline-Nutzung ohne Konto. Die [offizielle Produktseite](https://mochi.cards/) nennt macOS, Windows, Linux, iOS, Android und Web. Die Daten bleiben auf dem Gerät, die Apps lassen sich vollständig offline und ohne Konto nutzen, und der kostenlose Tarif umfasst unbegrenzte Offline-Nutzung. Für die Synchronisierung zwischen Geräten ist Pro erforderlich.
+## Offline-Nutzung, Plattformen und Synchronisierung
 
-Auch Anki ist offline eine starke Wahl. Die Apps für Windows, macOS und Linux speichern deine Sammlung lokal, genau wie die mobilen Clients. AnkiWeb kümmert sich um die Synchronisierung, ist aber nicht für jede Wiederholung erforderlich. Unter iOS ist [AnkiMobile](https://apps.apple.com/us/app/ankimobile-flashcards/id373493387) die offizielle kostenpflichtige App. [AnkiDroid](https://apps.ankiweb.net/) ist ein kostenloser, unabhängig entwickelter Android-Client.
+„Funktioniert offline“ kann mehrere Dinge bedeuten. Deshalb hilft es, lokales Lernen von geräteübergreifender Synchronisierung zu trennen.
 
-Flashcards speichert Änderungen in seinen Web-, iOS- und Android-Clients nach dem Offline-first-Prinzip zuerst lokal. Wiederholungen und Änderungen werden auf dem Gerät gespeichert und synchronisiert, sobald die Verbindung wieder da ist. Das hilft im Zug oder bei schwachem Mobilfunk, entspricht aber nicht dem Plattformangebot von Mochi oder Anki: Flashcards hat keinen Desktop-Client für macOS, Windows oder Linux. Am Computer ist die Browser-App die Benutzeroberfläche.
+### Mochi ist Local-first – Synchronisierung gibt es mit Pro
 
-Einen gezielteren Vergleich findest du unter [Beste Offline-Lernkarten-App 2026](/blog/best-offline-flashcards-app/). Wenn eine native Desktop-App Pflicht ist, wähle Mochi oder Anki.
+Mochi läuft auf macOS, Windows, Linux, iOS, Android und im Web. Laut [Installationsanleitung](https://mochi.cards/docs/getting-started/download-and-install/) können die Apps ohne Konto vollständig offline genutzt werden. Der [kostenlose Tarif](https://mochi.cards/) umfasst unbegrenzte Offline-Nutzung.
 
-## Open Source und Self-Hosting bedeuten hier verschiedene Dinge
+Deine Arbeitskopie liegt auf dem Gerät. Wenn du dieselbe Mochi-Sammlung auf mehreren Geräten nutzen möchtest, bietet der Pro-Tarif für US$5 pro Monat die nötige Synchronisierung. Außerdem kannst du damit Inhalte veröffentlichen und dynamische Felder, KI-Integration sowie E-Mail-Support nutzen.
 
-Diese Kategorie wird schnell unübersichtlich, weil „Open Source“, „lokal“ und „selbst gehostet“ oft als Synonyme behandelt werden. Es sind verschiedene Eigenschaften.
+Bei der Webversion ist zusätzliche Vorsicht geboten. Ohne Pro speichert sie die Daten im lokalen Browser-Speicher, den der Browser laut Mochi unter Umständen löschen kann. Wenn du den kostenlosen Tarif nutzt, verwende für wichtige Daten die Desktop- oder Mobil-App und bewahre eine `.mochi`-Sicherung auf.
 
-Mochi ist local-first, bietet aber keinen offiziellen Self-Hosting-Pfad für seine Kern-App. Mochi veröffentlicht einige Integrationen, während die Hauptanwendung und der Synchronisierungsdienst gehostete Produkte bleiben. Die kostenlosen Apps funktionieren lokal und ohne Konto und geben dir damit nützliche Unabhängigkeit. Kontrolle über den ganzen Stack erhältst du nicht.
+### Anki speichert lokale Sammlungen und synchronisiert über AnkiWeb
 
-Anki ist Open Source und kann ohne Server funktionieren. Es dokumentiert außerdem einen offiziellen [selbst gehosteten Sync-Server](https://docs.ankiweb.net/sync-server.html) für Nutzer, die AnkiWeb nicht verwenden möchten. Dieser Server synchronisiert kompatible Anki-Clients. Er ist kein vollständiger selbst gehosteter Ersatz für die AnkiWeb-Website, Konten und alle zugehörigen gehosteten Dienste.
+Ankis kostenlose Desktop-App läuft auf Windows, macOS und Linux. Die offizielle AnkiMobile-App für iPhone und iPad ist kostenpflichtig; die unabhängig entwickelte AnkiDroid-App für Android ist kostenlos. Diese Clients speichern lokale Sammlungen, sodass nicht für jede Wiederholung eine Netzwerkverbindung erforderlich ist.
 
-Flashcards veröffentlicht Anwendung und Infrastruktur unter der MIT-Lizenz. Der [Self-Hosting-Guide](/docs/self-hosting/) dokumentiert einen Produktions-Stack mit AWS CDK, Postgres auf RDS, Cognito, API Gateway, Lambda, S3, CloudFront, Monitoring, E-Mail und weiteren Diensten unter der Kontrolle des Betreibers. Flashcards ist hier das einzige Produkt mit einem dokumentierten Deployment für den ganzen Stack. Dahinter steht echte Infrastruktur, die du selbst pflegen musst.
+Die [Synchronisierung mit AnkiWeb ist kostenlos](https://docs.ankiweb.net/syncing.html) und hält eine Sammlung auf mehreren Geräten auf demselben Stand. Auch das Lernen im Browser wird unterstützt, doch AnkiWeb ist ein gehosteter Dienst und nicht die lokale Offline-Kopie. Nach der anfänglichen Einrichtung per einseitigem Upload oder Download lassen sich normale Änderungen an Notizen und Wiederholungsdaten von mehreren Geräten zusammenführen. Änderungen an der Notizstruktur, etwa das Hinzufügen eines Felds oder das Entfernen einer Kartenvorlage, können dagegen erneut einen einseitigen Upload oder Download erfordern.
 
-Das lokale Docker/Postgres-Setup im Repository ist eine Entwicklungsumgebung und nicht das unterstützte Produktions-Deployment. Bei einer selbst gehosteten Flashcards-Installation bist du außerdem für AWS-Kosten, E-Mail, Monitoring, KI-Zugangsdaten, Backups, Upgrades und die mobile Verteilung verantwortlich, falls du eigene native Builds möchtest. Der [Guide zu selbst gehosteten Open-Source-Lernkarten](/blog/self-hosted-open-source-flashcards-app-for-spaced-repetition/) erklärt diesen Kompromiss ausführlicher.
+Der Kostenunterschied ist überschaubar: Mochi verlangt Geld für die gehostete Synchronisierung, Anki nicht. Dafür ist Ankis offizieller iOS-Client kostenpflichtig. Verwechsle AnkiMobile nicht mit ähnlich benannten Apps von Drittanbietern in den App-Stores.
+
+## Mochi- und Anki-Preise im Vergleich
+
+Für Mochi galten am 19. August 2026 folgende öffentlich genannte Preise:
+
+- **Free:** US$0, keine Registrierung erforderlich, unbegrenzte Offline-Nutzung.
+- **Pro:** US$5 pro Monat, einschließlich geräteübergreifender Synchronisierung und der anderen oben genannten Pro-Funktionen.
+
+Anki verwendet ein anderes Finanzierungsmodell:
+
+- **Anki Desktop:** kostenlos für Windows, macOS und Linux.
+- **AnkiWeb:** kostenloses Konto und kostenlose Synchronisierung.
+- **AnkiDroid:** kostenloser, unabhängiger Android-Client.
+- **AnkiMobile:** kostenpflichtiger, offizieller iOS-Client; den aktuellen Preis findest du in deinem regionalen App Store.
+
+Beim Lernen am Desktop auf nur einem Gerät können beide Produkte kostenlos sein. Bei mehreren Geräten kann Ankis kostenlose Synchronisierung auf Dauer günstiger sein, während Mochi Pro die Synchronisierung mit weiteren gehosteten Funktionen bündelt. Bei einem iPhone oder iPad fällt die Rechnung für Anki anders aus, weil der offizielle Client kostenpflichtig ist.
 
 ## Import, Export und Verluste bei der Migration
 
-Bei der Migration helfen grobe Funktionsangaben nicht weiter. Prüfe sowohl die Dateiendung als auch die enthaltenen Daten.
+Die Dateiendung verrät nur die halbe Wahrheit. Eine Sicherung im nativen Format kann Planungs- und Anwendungsmetadaten enthalten. Markdown oder CSV bewahren womöglich den Text, aber nicht das System dahinter.
 
-### Wechsel zu oder von Mochi
+### Beim Import von Anki in Mochi
 
-Mochi bietet in diesem Vergleich den direktesten Weg von Anki. Laut [Import-Guide](https://mochi.cards/docs/import-and-export/importing/) unterstützt Mochi `.mochi`, Anki `.apkg`, Markdown und CSV. Der `.apkg`-Import übernimmt den Wiederholungsverlauf, doch Mochi entfernt CSS und JavaScript und wandelt HTML in Markdown um. Eine komplexe Anki-Karte kann ihre Inhalte und ihren Verlauf behalten, während das ursprüngliche Aussehen oder Verhalten verloren geht.
+Mochis [Anki-Importer](https://mochi.cards/docs/import-and-export/importing/) akzeptiert `.apkg`-Dateien und kann den darin gespeicherten Wiederholungsverlauf importieren. Aktiviere in Anki beim Export des Testdecks **Include Scheduling Information**; andernfalls enthält das Paket keinen Wiederholungsverlauf, den Mochi übernehmen könnte. Beim Import führt Mochi folgende Schritte aus:
 
-Beim Export bietet Mochi sein vollständiges `.mochi`-Format sowie Markdown und CSV an. Der [Export-Guide](https://mochi.cards/docs/import-and-export/exporting/) weist darauf hin, dass die portablen Markdown- und CSV-Formate Wiederholungsverlauf, Kartenreihenfolge, Templates und einige Metadaten nicht erhalten. Nutze `.mochi` für ein Mochi-Backup. Markdown oder CSV sind sinnvoller, wenn Lesbarkeit und Kompatibilität wichtiger sind als eine vollständige Wiederherstellung.
+- HTML wird in Markdown umgewandelt;
+- CSS und JavaScript werden entfernt;
+- Anki-Inhalte werden an Mochis anderes Kartenmodell angepasst.
 
-### Wechsel zu oder von Anki
+Einfache Karten mit Vorder- und Rückseite dürften das geringste Risiko bergen. Benutzerdefinierte Layouts, JavaScript-gesteuertes Verhalten und Karten, deren Bedeutung von CSS abhängt, musst du genau prüfen. Teste Lückentextkarten, eingetippte Antworten, Audio, Bilder, Formeln, Tags und verschachtelte Decks, statt einen erfolgreichen Import mit einer originalgetreuen Migration gleichzusetzen.
 
-Anki importiert Textdateien, `.apkg`, `.colpkg` und Mnemosyne-Daten. Exportiert werden Klartext, verpackte Decks (`.apkg`) und Sammlungen (`.colpkg`). Der [Anki-Export-Guide](https://docs.ankiweb.net/exporting.html) erklärt, dass Paketformate Karten, Notizen, Notiztypen und Medien enthalten können, während Klartext-Exporte Notizfelder und eingebettete HTML-Formatierung enthalten.
+Ein übernommener Wiederholungsverlauf garantiert keine identischen künftigen Fälligkeitstermine. Mochi und Anki können auf diesen Verlauf unterschiedliche Lernalgorithmen, Einstellungen, Bewertungen und FSRS-Parameter anwenden.
 
-Nutze ein Paket, wenn du Ankis Daten möglichst originalgetreu erhalten möchtest. Nutze Text, wenn das Ziel einfache Felder versteht und du akzeptierst, Anki-spezifische Templates, den Planungszustand, Add-ons und einen Teil des Medienverhaltens zu verlieren.
+### Native Sicherungen sind nicht dasselbe wie portabler Text
 
-### Wechsel zu oder von Flashcards
+Das vollständigste portable Exportformat von Mochi ist `.mochi`. Laut der [Dokumentation zu Sicherung und Export](https://mochi.cards/docs/getting-started/backing-up/) kann es Decks, Karten, Vorlagen, Wiederholungsverlauf, Tags, Links, Metadaten und Anhänge bewahren. Verwende es als wiederherstellbare Sicherung deiner Inhalte. Für ein vollständiges Abbild, das auch App-Einstellungen und Anmeldestatus erhält, empfiehlt Mochi, das Benutzerverzeichnis zu kopieren.
 
-Flashcards importiert und exportiert derzeit nur das eigene Workspace-Paket `flashcards.zip`. Es überträgt Karten, Tags und zugehörige Medien zwischen Flashcards-Workspaces. Wiederholungsverlauf, FSRS-Zustand, Workspace-Einstellungen, die vollständige Deck-Struktur und Kontodaten werden nicht übertragen. Es dient dem Inhaltstransfer und ist kein vollständiges Backup einer gehosteten oder selbst gehosteten Installation.
+Mochis [Markdown- und CSV-Exporte](https://mochi.cards/docs/import-and-export/exporting/) dienen der Portabilität:
 
-Einen direkten Importer für Anki-Dateien im Format `.apkg` oder für Mochi gibt es nicht. Bei überwiegend textbasierten Karten kannst du TXT oder CSV aus dem Quellsystem exportieren, die Datei an den Flashcards-KI-Chat anhängen und vorgeschlagene Karten mit Vorder- und Rückseite vor dem Speichern prüfen. Das ist ein Entwurfs-Workflow, kein verlustfreier Import. Bewahre den ursprünglichen Export auf und teste zuerst ein kleines, repräsentatives Deck. Die praktischen Schritte stehen unter [Migration aus einem Anki-Textexport](/blog/migrate-from-anki-txt-export-open-source-flashcards/).
+- **Markdown** erstellt eine lesbare Datei pro Karte und wandelt Unterdecks in Ordner um. Wiederholungsverlauf, Kartenreihenfolge, Vorlagen und Tags bleiben nicht erhalten, sofern die Tags nicht ausdrücklich im Markdown-Inhalt stehen.
+- **CSV** kann die Feldwerte einer Vorlage oder vorgerenderte Vorder- und Rückseiten exportieren. Bei einer Karte mit mehr als zwei Seiten fasst die gerenderte Variante alle Seiten nach der ersten auf der Rückseite zusammen. CSV bewahrt weder Wiederholungsverlauf noch Vorlagen oder Tags, sofern sie nicht in den Inhalt eingebettet sind.
 
-## Preise 2026
+Auch Anki trennt vollständige Pakete von Text:
 
-Mochi ist für unbegrenzte Offline-Nutzung kostenlos und verlangt keine Registrierung. Pro wird für **5 US-Dollar pro Monat** angeboten und ergänzt geräteübergreifende Synchronisierung, Veröffentlichung, dynamische Felder, KI-Integration und Support.
+- Eine **`.colpkg`-Datei** enthält die gesamte Sammlung samt Planungsdaten und kann Medien einschließen. Beim Import ersetzt sie die Karten in der aktuellen Anki-Sammlung. Stelle sie daher in einem leeren, temporären Profil wieder her, wenn du die Sicherung nur prüfen oder eine Stichprobe daraus entnehmen möchtest.
+- Eine **`.apkg`-Datei** enthält ein Deck und dessen untergeordnete Decks. Sie umfasst Karten, Notizen und Notiztypen sowie Optionen für Planungsdaten, Voreinstellungen und Medien.
+- Ein **Klartext-Export** enthält tabulatorgetrennte Notizfelder mit eingebetteter HTML-Formatierung. Er eignet sich zum Übertragen von Inhalten, nicht zum Bewahren der vollständigen Wiederholungsplanung und des Deck-Verhaltens.
 
-Ankis Desktop-Apps, AnkiWeb und AnkiDroid sind kostenlos. Im offiziellen US-App-Store kostet AnkiMobile für iPhone und iPad **einmalig 24,99 US-Dollar**. Vorsicht bei ähnlich benannten Apps in mobilen Stores: Einige haben nichts mit dem Anki-Projekt zu tun.
+Anki dokumentiert diese Unterschiede in seiner [Exportanleitung](https://docs.ankiweb.net/exporting.html). Verwende `.colpkg` für eine vollständige Anki-Sicherung vor jeder Migration. Verwende `.apkg` für das repräsentative Deck, das Mochi importieren soll.
 
-Die gehostete Flashcards-App ist **während der Beta kostenlos**, einschließlich Synchronisierung und KI im Rahmen der aktuellen Beta-Bedingungen. Das grundlegende Erstellen und Wiederholen von Karten soll kostenlos bleiben. Höhere KI-Nutzung könnte später einen eigenen Anbieterschlüssel oder eine kostenpflichtige Option erfordern. Die Software zum Self-Hosting ist kostenlos, AWS, Domains, E-Mail, Monitoring, KI-Anbieter und der Zeitaufwand für den Betrieb sind es nicht. Die aktuellen Bedingungen stehen auf der [Preisseite](/pricing/).
+### Von Mochi zu Anki wechseln
 
-Die Kostenmodelle sagen mehr aus als die hervorgehobenen Preise. Mochi verlangt Geld für die Synchronisierung, Anki für seine offizielle iOS-App, und Flashcards ist während der Beta kostenlos. Beim Self-Hosting von Flashcards trägst du allerdings die AWS- und Betriebskosten.
+Der CSV-Export von Mochi ist der praktikabelste Weg. Exportiere Feldwerte, wenn du einen passenden Anki-Notiztyp nachbilden möchtest. Bei einfachen Karten kannst du stattdessen gerenderte Vorder- und Rückseiten exportieren, wenn das Erscheinungsbild weniger wichtig ist als gut lesbarer Inhalt. Anki kann [Textdateien importieren](https://docs.ankiweb.net/importing/intro.html) und die Spalten den Notizfeldern zuordnen.
 
-## Welche App passt zu dir?
+Das ist keine verlustfreie Hin- und Rückmigration. Mochis Wiederholungsverlauf, Links, Markdown-Notizstruktur, Vorlagen und das Verhalten mehrseitiger Karten werden durch CSV nicht zu gleichwertigen Anki-Objekten. Bewahre die ursprüngliche `.mochi`-Sicherung auf, selbst wenn die Anki-Kopie korrekt aussieht.
 
-### Wähle Mochi für Markdown und verknüpfte Notizen
+## So testest du die Migration, ohne das Original zu verändern
 
-Mochi passt am besten, wenn Schreiben zum Lernen gehört. Du bekommst natives Markdown, verknüpfte Referenzen, notizartige Karten, Templates, mehrere Seiten, Tags, eigene Ansichten, breite Plattformunterstützung und eine vollständig offline nutzbare App ohne Kontopflicht. Von diesen drei Apps ist Mochi außerdem am einfachsten für eine direkte Migration aus einer Anki-Datei im Format `.apkg`.
+Verschiebe nicht gleich eine ganze Sammlung, nur weil ein Importdialog erfolgreich war. Ein kleiner Test kostet weniger Zeit als die Reparatur eines beschädigten Decks.
 
-Entscheide dich dagegen, wenn Self-Hosting des gesamten Stacks Pflicht ist oder du Ankis FSRS-Steuerung mit vier Tasten und das tiefe Add-on-Ökosystem möchtest.
+1. **Erstelle eine vollständige Anki-Sicherung.** Exportiere eine `.colpkg`-Datei mit Medien, bevor du etwas änderst.
+2. **Arbeite mit einer Kopie.** Erstelle ein temporäres Anki-Profil und importiere die `.colpkg`-Datei dort. Beim Import eines Sammlungspakets werden die Karten im Zielprofil ersetzt. Deshalb ist das leere Profil wichtig.
+3. **Stelle eine repräsentative Stichprobe zusammen.** Sammle in diesem kopierten Profil 25–50 Karten in einem Testdeck: einfache Karten, Karten mit vertauschter Vorder- und Rückseite, Lückentexte, benutzerdefinierte Vorlagen, CSS, JavaScript, Bilder, Audio, Formeln, Tags, verschachtelte Decks und Karten mit echtem Wiederholungsverlauf.
+4. **Exportiere die Stichprobe als `.apkg`.** Schließe Planungsinformationen, Deck-Voreinstellungen und Medien ein, wenn sie für deine Sammlung wichtig sind.
+5. **Importiere sie in ein neues Mochi-Deck.** Dein reguläres Anki-Profil bleibt unberührt.
+6. **Prüfe den Inhalt vor dem Wiederholen.** Kontrolliere jeden speziellen Kartentyp und nicht nur einige einfache Karten. Vergleiche Felder, Formatierung, Medien, Tags, Deck-Struktur und Wiederholungsverlauf.
+7. **Wähle Mochis Lernalgorithmus bewusst.** Der eigene Algorithmus ist die Standardeinstellung. Stelle im Test nur dann auf FSRS um, wenn du diesen Workflow beibehalten möchtest.
+8. **Wiederhole die kopierten Karten eine Woche lang.** Entscheide, ob Remembered/Forgot ausreicht, ob die Bearbeitung in Markdown Zeit spart und ob Offline-Nutzung und Synchronisierung auf den Geräten funktionieren, die du im Alltag nutzt.
+9. **Notiere die akzeptierten Verluste.** Das Verhalten der Vorlagen, die Gestaltung, Add-ons, genaue Fälligkeitstermine oder bestimmte Kartentypen können nach einer Woche wichtiger sein als beim Lesen der Vergleichstabelle.
 
-### Wähle Anki für Reife und Kontrolle
+Wenn der Test scheitert, lösche das Mochi-Testdeck und arbeite in deinem gewohnten Anki-Profil weiter. Dieses Profil und die `.colpkg`-Sicherung bleiben unverändert. Wenn der Test funktioniert, migriere deine Sammlung Deck für Deck und bewahre beide Sicherungen im nativen Format auf, bis du mehrere normale Wiederholungszyklen abgeschlossen hast.
 
-Anki ist die sichere Wahl für das Medizinstudium, Sprachenlernen, Zertifizierungen und jeden etablierten Workflow, der bereits von komplexen Notiztypen, Templates, Add-ons, geteilten Decks oder einem jahrelangen Wiederholungsverlauf abhängt. Es bietet die umfassendsten Einstellungen für die Wiederholungsplanung und das größte erprobte Ökosystem.
+## Local-first, Open Source und Self-Hosting sind drei verschiedene Dinge
 
-Die Nachteile sind bekannt: Natives Markdown fehlt, die Einrichtung kann technisch werden, und du musst dich in mehr Konzepte einarbeiten. Wenn Originaltreue und Kontrolle am wichtigsten sind, kann sich das lohnen. Unter [Anki vs Flashcards](/blog/anki-vs-flashcards-open-source-app/) findest du den engeren Vergleich der beiden Produkte.
+Diese Begriffe beantworten unterschiedliche Fragen:
 
-### Wähle Flashcards für einen offenen modernen Stack und Agenten
+- **Local-first:** Kann die App die Arbeitskopie auf deinem Gerät speichern und auch ohne ihren Cloud-Dienst weiter funktionieren?
+- **Open Source:** Kannst du den Quellcode unter einer veröffentlichten Lizenz einsehen und verändern?
+- **Self-Hosting:** Bietet das Produkt einen unterstützten Weg, den betreffenden Server selbst zu betreiben?
 
-Flashcards passt zu einer neuen oder überwiegend einfachen Sammlung, wenn du Web- und Mobile-Clients, Markdown auf Vorder- und Rückseite, FSRS-Wiederholungen, KI-Chat mit Dateien, MCP, eine Agent-API und die Kontrolle über Anwendung und Produktionsinfrastruktur möchtest. Als einziges Produkt hier bietet es sowohl MCP als auch eine Agent-API für den direkten Zugriff auf einen Lern-Workspace.
+Mochi ist Local-first. Die kostenlosen Apps können offline arbeiten, und der `.mochi`-Export bietet dir eine umfangreiche lokale Sicherung deiner Inhalte. Der öffentliche „Open Source“-Link auf Mochis Website führt zu einer [Sammlung von Integrationen](https://github.com/mochi-cards/open-source), nicht zum Quellcode der Kernanwendung. Mochis eigene Website stellt die Kernanwendung nicht als Open Source dar und dokumentiert keinen unterstützten Weg, den Synchronisierungsdienst selbst zu hosten.
 
-Wähle es nicht für Anki-kompatible Importe, native Desktop-Apps, fortgeschrittene Templates oder ein großes Ökosystem geteilter Decks. Das schlankere Kartenmodell und der noch junge Funktionsumfang sind echte Grenzen, die sich nicht mit einer Roadmap wegreden lassen.
+Ankis [Haupt-Repository steht unter der AGPL in Version 3 oder neuer](https://github.com/ankitects/anki/blob/main/LICENSE); einige enthaltene Komponenten verwenden andere Lizenzen. Fortgeschrittene Nutzer können außerdem den offiziellen [selbst gehosteten Sync-Server](https://docs.ankiweb.net/sync-server.html) anstelle von AnkiWeb betreiben. Dabei handelt es sich um einen Sync-Server für kompatible Clients, nicht um eine selbst gehostete Variante der AnkiWeb-Website. Anki weist darauf hin, dass Einrichtung und Wartung Kommandozeilen- und Netzwerkkenntnisse erfordern.
 
-### Bleib, wo du bist, wenn der Wechsel kein konkretes Problem löst
+Wenn dir lokales Arbeiten ohne Konto genügt, kommt Mochi mit weniger Infrastruktur aus. Wenn dir der Zugriff auf den Quellcode und die Kontrolle über die Synchronisierung wichtig sind, bietet Anki mehr. Keine der beiden Optionen macht Sicherungen in den nativen Formaten überflüssig.
 
-Bleib bei Mochi, wenn der Markdown-Workflow, die Offline-Apps, die Synchronisierung und das Wiederholen mit zwei Tasten bereits passen. FSRS allein ist kein Wechselgrund mehr.
+## Welche App ist die richtige für dich?
 
-Bleib bei Anki, wenn deine Decks von Templates, Add-ons, Medien oder dem Wiederholungsverlauf abhängen. Eine Migration kann mehr Lernzeit kosten, als eine neue Oberfläche einspart.
+### Wähle Mochi für ein Markdown-Notizbuch mit Lernkarten
 
-Bleib bei Flashcards, wenn du den offenen Stack und den Agenten-Workflow bereits schätzt. Mochi oder Anki würden mehr Tiefe beim Kartenmodell bringen, aber du würdest dafür die Kontrolle über den gesamten Stack oder den integrierten Agentenzugriff aufgeben.
+Mochi passt besser, wenn Notizen, Referenzen und Karten eine gemeinsame, gut lesbare Markdown-Oberfläche haben sollen. Der Offline-Modus ohne Konto ist für ein einzelnes Gerät attraktiv, und Pro ergänzt die Synchronisierung, ohne die Art der Kartenerstellung zu verändern. Remembered/Forgot vereinfacht zudem die tägliche Entscheidung bei der Wiederholung.
 
-## Fazit: Entscheide dich für den Workflow rund um den Scheduler
+Das ist besonders für eine neue Sammlung oder eine Anki-Sammlung sinnvoll, die größtenteils aus unkomplizierten Inhalten besteht. Führe zuerst den Beispielimport durch, wenn benutzerdefiniertes Verhalten oder ein jahrelanger Verlauf wichtig sind.
 
-Die praktische Antwort auf **Mochi vs Anki vs Flashcards** ist einfach. Mochi stellt Markdown und Local-first-Notizen in den Mittelpunkt. Anki konzentriert sich auf ein ausgereiftes, konfigurierbares Lernsystem. Flashcards dreht sich um einen modernen offenen Stack, den Menschen und KI-Agenten gemeinsam nutzen können.
+### Wähle Anki für maximale Kontrolle und Sammlungstreue
 
-Ich entwickle Flashcards und würde trotzdem Mochi für ein verknüpftes Markdown-Notizbuch und Anki für eine komplexe, ausgereifte Sammlung wählen. Flashcards würde ich für einen neuen Workspace mit zweiseitigen Karten nehmen, wenn offene Infrastruktur, mobile Synchronisierung und Agentenzugriff die wichtigsten Anforderungen sind.
+Anki passt besser, wenn deine Sammlung von Notiztypen, erzeugten Kartenvarianten, HTML/CSS-Vorlagen, Add-ons, geteilten Decks oder detaillierten FSRS-Einstellungen abhängt. Mit seinen Paketformaten und der kostenlosen Synchronisierung lässt sich eine auf Anki zugeschnittene Sammlung leichter intakt halten.
 
-Wenn dieser dritte Fall zu deinem Workflow passt, [öffne Flashcards](https://app.flashcards-open-source-app.com/) oder lies den [Leitfaden für die ersten Schritte](/docs/getting-started/). Wenn nicht, bleib bei dem Werkzeug, das die morgige Wiederholung am einfachsten macht.
+Wenn du Anki bereits nutzt, solltest du einen konkreten Grund für den Wechsel haben. Natives Markdown oder Mochis ruhigere Schreibumgebung können ein solcher Grund sein. Eine lediglich etwas aufgeräumtere Oberfläche ist es vermutlich nicht.
+
+### Eine kleinere Open-Source-Alternative – nur für eine einfachere Sammlung
+
+Wenn keiner der beiden Workflows passt, kommt die [Flashcards Open Source App](/features/) als kleinere Alternative infrage. Sie bietet Lernkarten mit Vorder- und Rückseite in Markdown, FSRS-Wiederholungen, Offline-first-Web- und Mobil-Clients, MCP- und Agent-API-Zugriff sowie einen Open-Source-Weg zum Self-Hosting. Ich entwickle die App, und ihre Grenzen sind hier wichtig: Sie ersetzt weder Mochis verknüpftes Markdown-Notizbuch noch Ankis Vorlagen und den direkten `.apkg`-Import. Sie eignet sich am ehesten für eine neue, einfachere Sammlung; die [Einführungsanleitung](/docs/getting-started/) zeigt den aktuellen Funktionsumfang.
+
+## Fazit
+
+Bei der praktischen Entscheidung **Anki vs. Mochi** kommt es darauf an, was du für die nächsten Jahre bewahren möchtest.
+
+Wähle Mochi, wenn Markdown-Notizen, Local-first-Nutzung und binäre Bewertungen deinen Lernablauf erleichtern. Wähle Anki, wenn du für deine langfristige Sammlung ausgereifte Vorlagen, eine FSRS-Steuerung mit vier Buttons, kostenlose Synchronisierung und originalgetreue Anki-Pakete brauchst.
+
+Wenn du bereits eine umfangreiche Anki-Sammlung besitzt, entscheide nicht anhand von Screenshots oder Funktionslisten. Exportiere eine vollständige Sicherung, importiere eine repräsentative `.apkg`-Datei und arbeite eine Woche lang mit den kopierten Karten. Der Migrationstest zeigt dir, ob Mochis aufgeräumterer Workflow den Verlust genau der Anki-spezifischen Eigenschaften wert ist, die bei der Migration zurückbleiben.

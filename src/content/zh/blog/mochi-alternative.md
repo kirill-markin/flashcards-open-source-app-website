@@ -1,179 +1,227 @@
 ---
-title: "Mochi vs Anki vs Flashcards（2026）：该选哪一款？"
-description: "全面对比Mochi、Anki与Flashcards的Markdown、FSRS、离线学习、移动应用、自托管、导入导出和2026年价格。"
+title: "Mochi vs Anki（2026）：Markdown 笔记还是全面掌控？"
+description: "全面比较 Mochi 与 Anki 在 Markdown、FSRS、离线使用、同步、价格、导入和导出方面的差异，帮你根据现有工作流和卡片做出选择。"
 date: "2026-03-18"
-updated: "2026-08-02"
-image: "/blog/mochi-alternative.png"
+updated: "2026-08-19"
+image: "/blog/mochi-alternative-v2.png"
 keywords:
   - "mochi vs anki"
-  - "mochi 替代品"
   - "anki vs mochi"
-  - "mochi 闪卡替代品"
-  - "2026 最佳闪卡应用"
-  - "markdown 闪卡应用"
-  - "fsrs 闪卡应用"
-  - "离线闪卡应用"
-  - "自托管闪卡"
-  - "开源闪卡应用"
+  - "mochi 闪卡"
+  - "mochi 价格"
+  - "mochi 离线使用"
+  - "mochi 导入 anki"
+  - "markdown 闪卡"
+  - "anki fsrs"
+  - "mochi 替代品"
 ---
 
-旧版文章给出了一个离开Mochi的错误理由：FSRS。这个对比已经过时了。Mochi在2025年加入了FSRS，当前更新日志里仍有FSRS修复和参数更新。到了2026年，**Mochi vs Anki vs Flashcards** 比较的是三套不同的工作流，而不是一款成熟的调度器和两款较弱产品之间的较量。
+Mochi 可以导入 Anki `.apkg` 文件中的复习历史，前提是导出时包含了调度信息。导入时还会移除 CSS 和 JavaScript，并将 HTML 转换为 Markdown。简单的词汇牌组导入后可能几乎没有变化，依赖自定义模板的牌组则未必如此。
 
-> **利益披露：** 我是Kirill Markin，也是本文对比产品之一[Flashcards](https://flashcards-open-source-app.com/)的开发者。Flashcards并不会因此自动胜出。Mochi更适合原生Markdown笔记；在成熟的模板、插件、共享牌组和调度控制方面，Anki仍然更强。
+这才是比较 **Mochi vs Anki** 时真正有用的思路。Mochi 为 Markdown 笔记和闪卡提供简洁的本地优先空间；Anki 则拥有成熟的卡片系统，以及更强大的模板、调度器控制、插件和迁移数据格式。选择哪一个，与其看功能数量，不如看你当前工作流中的哪些部分必须保留下来。
 
-**信息核对日期：** 2026年8月2日。价格为当天公开的美国价格或官网标价。税费、地区定价、应用商店计费以及未来的测试期条款可能不同。
+> **利益披露：** 我是 Kirill Markin，也是 [Flashcards Open Source App](/) 的开发者。它不属于下文的主要对比对象。Mochi 更适合相互链接的 Markdown 笔记，Anki 则更适合复杂而成熟的卡片库。
 
-![Mochi、Anki与Flashcards对比](/blog/mochi-alternative.png)
+**事实核查日期：** 2026 年 8 月 19 日。价格和产品细节可能发生变化，尤其是应用商店中的价格和信息。
 
-## 先说结论
+![Mochi 与 Anki 在 Markdown 笔记、FSRS 复习、离线学习、价格和迁移方面的对比](/blog/mochi-alternative-v2.png)
 
-- 如果你想用本地优先的Markdown笔记，并把笔记变成多面卡片，选**Mochi**。它在三款产品里提供最自然的写作模型，无需账号也能完全离线使用，还能直接导入Anki的`.apkg`文件。
-- 如果你想要最成熟的闪卡系统，选**Anki**。它的笔记类型、HTML/CSS模板、插件、共享牌组、FSRS控制、桌面应用和迁移格式都很难匹敌。
-- 如果你想在一套MIT许可的技术栈中使用更简单的正反面Markdown卡片，同时拥有Web和移动应用、AI对话、文件、MCP、Agent API以及有文档说明的生产环境部署，选**Flashcards**。
+## 简短结论
 
-还有第四个合理选择：继续使用现在的应用。一个已经稳定运转的复习习惯，通常比一张更整洁的对比表更有价值。
+- 如果你想在同一个地方编写 Markdown 闪卡和笔记、无需账户即可在本地使用，并采用更简单的双按钮复习流程，请选择 **Mochi**。免费方案可离线使用；Pro 每月 **US$5**，并提供跨设备同步。
+- 如果你希望最大限度地掌控笔记类型、HTML/CSS 模板、插件、共享牌组和 FSRS 设置，请选择 **Anki**。对于依赖 Anki 特有行为的现有卡片库，它也是更稳妥的选择。
+- 如果你已经积累了多年的 Anki 数据，在迁移任何重要内容之前，请先用一个小型 `.apkg` 测试 Mochi。如果数据包包含调度信息，复习历史可以转移，但外观和交互式模板行为可能无法保留。
+- 如果切换应用解决不了任何具体问题，就继续使用当前应用。稳定的复习习惯比更整洁的编辑器更有价值。
 
-## Mochi vs Anki vs Flashcards：完整对比
+## Mochi 与 Anki 一览
 
-| 对比项 | Mochi | Anki | Flashcards |
-|---|---|---|---|
-| 最适合 | 本地优先的Markdown笔记与卡片 | 追求最高成熟度、最大定制空间和最深生态 | 内置Agent访问能力的开源Web/移动技术栈 |
-| 卡片模型 | Markdown文档、双向链接、字段、模板、标签、视图和多面卡片 | 由带字段的笔记通过HTML/CSS模板生成一张或多张卡片 | 专注于支持Markdown内容的正反面卡片、牌组、标签和媒体 |
-| Markdown | 原生卡片编写格式 | 不支持原生Markdown编写；字段和模板使用HTML，可安装插件扩展 | 标准双面卡片的正反面均支持Markdown |
-| 调度 | FSRS，使用Remember/Forgot反馈 | 内置FSRS，支持Again/Hard/Good/Easy、目标记忆率、参数优化、预设和模拟器 | FSRS-6，使用Again/Hard/Good/Easy；产品固定权重，不提供Anki式个人参数优化 |
-| 离线 | 无需账号即可完全离线使用；跨设备同步需要Pro | 桌面端和移动端均可本地复习，由AnkiWeb提供同步 | Web、iOS和Android先在本地写入，恢复连接后再同步 |
-| 平台 | Web、macOS、Windows、Linux、iOS、Android | Windows、macOS、Linux、AnkiWeb、官方iOS版AnkiMobile、独立开发的Android版AnkiDroid | Web、iOS、Android；没有桌面客户端 |
-| 开源 | 核心应用不作为开源自托管产品提供 | 桌面应用和客户端开源 | 应用和基础设施技术栈采用MIT许可 |
-| 自托管 | 核心应用没有官方自托管路径 | 为Anki客户端提供官方自托管同步服务器；并非完整的自托管AnkiWeb服务 | 受支持的生产部署使用AWS CDK；本地Docker/Postgres仅用于开发 |
-| 导入 | `.mochi`、包含历史记录的Anki `.apkg`、Markdown、CSV | 纯文本、`.apkg`、`.colpkg`和Mnemosyne格式 | 仅支持自有的`flashcards.zip`工作区包 |
-| 导出 | `.mochi`、Markdown、CSV | 纯文本、`.apkg`、`.colpkg` | 仅支持自有的`flashcards.zip`工作区包 |
-| AI与Agent | Pro提供AI动态字段、API和浏览器集成 | AI工作流主要依靠社区插件 | 产品内置AI对话、文件附件、MCP和Agent API |
-| 2026年价格 | 离线使用免费；Pro标价每月5美元，包含同步等功能 | 桌面端、AnkiWeb和Android免费；美国地区AnkiMobile一次性售价24.99美元 | 托管应用在测试期内免费；核心创建与复习承诺保持免费；自托管软件免费，基础设施和服务商费用另计 |
+| 对比项 | Mochi | Anki |
+|---|---|---|
+| 最适合 | 希望将笔记和卡片放在一起的 Markdown 用户 | 希望使用成熟、可配置闪卡系统的学习者 |
+| 内容编写方式 | Markdown 文档可变成多面卡片；支持字段、模板、链接、反向链接和标签 | 带有字段的笔记通过 HTML/CSS 模板生成一张或多张卡片 |
+| 原生 Markdown | 是 | 否；核心字段和模板使用 HTML |
+| 调度方式 | 默认使用 Mochi 基于乘数的调度器；可选 FSRS，支持目标保留率和自定义参数 | FSRS 或传统 SM-2；FSRS 提供期望保留率、优化参数、预设和模拟器 |
+| 复习反馈 | Remembered / Forgot | Again / Hard / Good / Easy |
+| 离线使用 | macOS、Windows、Linux、iOS 和 Android 应用无需账户即可完全离线运行 | 桌面和移动客户端保留本地卡片库，无需持续同步即可使用 |
+| 跨设备同步 | Pro，每月 US$5 | 通过 AnkiWeb 免费提供 |
+| 平台 | Web、macOS、Windows、Linux、iOS、Android | Windows、macOS、Linux、AnkiWeb、官方 iOS 客户端 AnkiMobile、独立 Android 客户端 AnkiDroid |
+| 从 Anki 迁移 | 导入 `.apkg`；如果导出时包含调度信息，复习历史也会转移，同时 HTML 会转为 Markdown，CSS/JavaScript 会被移除 | 原生 `.apkg` 和 `.colpkg` 数据包可保留 Anki 特有数据 |
+| 可移植文本 | Markdown 和 CSV 导出 | 制表符分隔的文本导出，字段内含 HTML 格式 |
+| 开源 / 自托管 | 本地优先；Mochi 未将核心应用标为开源，也没有官方支持的自托管同步文档 | 主代码库采用 AGPL；Anki 为高级用户提供自托管同步服务器文档 |
 
-这张表也说明了为什么“最佳闪卡应用”这个问题太宽泛。Mochi、Anki和Flashcards都能用于复习，但围绕复习建立的整套工具差别很大。
+首先要权衡的是**内容编写是否顺手，以及系统能力是否足够深入**。如果任一应用已经保存了你的学习历史，迁移细节也同样重要。
 
-## Markdown与卡片模型
+## Mochi 让卡片更像笔记
 
-### Mochi把每张卡片当作Markdown文档
+Mochi 的[卡片模型](https://mochi.cards/docs/cards/)从一个 Markdown 文档开始。插入仅含三个连字符的一行，文档就会变成一张闪卡；添加更多分隔符后，它还可以拥有两个以上的面。
 
-三款产品中，Mochi的原生Markdown工作流最强。它的[卡片文档](https://mochi.cards/docs/cards/)把卡片描述为Markdown文档，同时也可以保存结构化字段、链接、标签、模板、附件和复习历史。只含三个连字符的一行会分隔卡片的不同面，而且一张卡可以不止两面。
+同一张卡片可以包含标题、列表、代码、图片、结构化字段，以及指向其他卡片的链接。`[[Double brackets]]` 可创建引用和反向链接。篇幅较长的参考笔记可以与复习卡片放在一起；归档后，内容仍然可用，但不会再出现在复习队列中。
 
-如果你希望笔记和闪卡待在同一个地方，这套设计很好用。你可以保留一篇很长的参考笔记，把它归档以免进入复习，通过`[[references]]`链接其他卡片，也可以把其中一部分改成多面卡片。标签、反向链接、筛选器和保存的视图，让Mochi更像一个小型知识库，而不是普通的牌组编辑器。
+对于已经习惯用文本文件和关联笔记思考的开发者、研究人员和语言学习者来说，Mochi 闪卡会显得很自然。你可以先写出易读的原始材料，再决定哪些内容值得进行主动回忆。
 
-如果你希望Markdown本身就是自然的写作界面，而不是传统正反面表单中的一种格式选项，选Mochi。
+Mochi 也支持字段和模板，因此并不局限于自由形式的笔记。应用模板时，Mochi 会用字段占位符渲染模板中的 Markdown；卡片自身的 Markdown 仍会保存，但渲染时会被忽略。Markdown 是原生的内容载体，而不是传统卡片编辑器后来增加的一层可选功能。
 
-### Anki把笔记与生成的卡片分开
+## Anki 将学习数据与最终卡片分开
 
-Anki虽然不是原生Markdown编辑器，却有能力最强的卡片模型。你先创建一条带字段的笔记，再由笔记类型从这些字段生成一张或多张卡片。[卡片模板](https://docs.ankiweb.net/templates/intro.html)使用HTML和CSS，因此一条词汇笔记可以生成正向、反向、听力或其他视图，不必复制底层数据。
+Anki 采用更结构化的模式。一条笔记保存多个字段；一个或多个卡片模板决定每张卡片显示哪些字段。这些[模板使用 HTML 和 CSS](https://docs.ankiweb.net/templates/intro.html)，因此一条词汇笔记无需复制底层数据，就能生成识别、输出和听力卡片。
 
-它需要更多学习成本，也因此拥有更高的上限。复杂的挖空卡、自定义布局、条件字段、音频规则和依赖插件的工作流都属于Anki的强项。你可以通过社区插件加入Markdown，但它是扩展功能，不是核心编写模型。
+这种模式需要更长时间学习，但能力上限也高得多。Anki 更适合复杂的填空模式、条件布局、自定义样式、专用笔记类型，以及围绕插件构建的工作流。它的[官方网站](https://apps.ankiweb.net/)还链接到庞大的共享牌组和插件生态系统。
 
-如果“卡片”是结构化学习数据渲染出的一个视图，Anki更好。如果“卡片”还应该是一篇易读的Markdown笔记，Mochi更好。
+Anki 并不是原生 Markdown 闪卡应用。要加入 Markdown 工作流，需要额外的工具，也会增加一项需要维护的依赖。如果你主要想要易读的笔记，再加上一点间隔重复功能，Anki 可能显得过于复杂。如果你的卡片本就是需要以多种方式呈现的结构化学习记录，那么这种复杂性正是它的价值所在。
 
-### Flashcards刻意保持简单
+## FSRS 已不再决定胜负
 
-[Flashcards功能](/features/)围绕支持Markdown的正反面卡片、牌组、标签和相关媒体展开。模型更窄，因此更容易理解，也方便AI Agent通过对话、MCP或Agent API创建和编辑。你可以附上原始文件，让AI起草卡片，检查结果，同时让最终用于复习的对象保持简单。
+过去的 Mochi 对比文章常说 Anki 胜出是因为 Mochi 没有 FSRS。这一说法已经过时。Mochi 在 2025 年加入了 FSRS 预览版，其[2026 年更新日志](https://mochi.cards/changelog/)记录了对 FSRS 间隔和保留率设置的进一步修复。
 
-代价也很明确。Flashcards比不上Mochi的链接笔记系统和多面Markdown卡片，也比不上Anki的笔记类型与模板引擎。它适合更喜欢可预测的双面卡，而不是高度可配置内容模型的人。
+有一个细节需要分清：[Mochi 默认仍使用自己的调度器](https://mochi.cards/docs/reviewing/fsrs/)。你可以在 Review Settings 中切换到 FSRS，选择目标保留率，也可以之后再切换回来。切换时，已经学习过的卡片会保留复习历史。
 
-## FSRS不再是离开Mochi的理由
+无论使用哪种调度器，Mochi 都保留相同的两个评分：
 
-三款产品现在都使用现代间隔重复调度器FSRS。如果你比较 **Mochi vs Anki**，只是因为听说Mochi没有FSRS，那条信息已经过时了。
+- **Forgot** 表示回忆失败。
+- **Remembered** 表示回忆成功。
 
-Mochi的[更新日志](https://mochi.cards/changelog)记录了2025年6月的FSRS预览版，以及后续修复和默认参数更新。复习界面只保留Remember和Forgot两个反馈选项。Mochi没有公开当前FSRS的主版本号，因此不应该根据应用版本号自行推断。
+使用 FSRS 时，Mochi 会将这两种结果映射为 Again 和 Good。二元选择速度快，也消除了成功作答后该选 Hard、Good 还是 Easy 的犹豫。同时，调度器能获得的回忆成功程度信息也会更少。
 
-Anki给学习者的控制更多。它的[FSRS设置](https://docs.ankiweb.net/deck-options.html#fsrs)包含四种评分、目标记忆率、独立预设、根据个人复习历史优化参数，以及用于估算复习量的模拟器。如果你想检查并微调调度器，这一项Anki胜出。
+[Anki 的 FSRS 控制](https://docs.ankiweb.net/deck-options#fsrs)更为深入。Anki 提供期望保留率、针对各预设的参数、根据复习历史进行的内置参数优化，以及估算工作量的模拟器。Mochi 接受自定义参数，但不包含优化器；生成个性化参数需要使用外部 FSRS 优化器。Anki 的四个评分也能传递更多信息：
 
-Flashcards使用FSRS-6，以及同样的Again、Hard、Good、Easy四种评分。权重由产品固定，不会根据每位用户的个人复习历史优化。这样配置更简单，但也少了Anki最实用的一项控制。更详细的解释见[FSRS vs SM-2](/blog/fsrs-vs-sm-2/)。
+- **Again：** 你没能回忆起答案。
+- **Hard：** 你回忆出了答案，但过程相当困难。
+- **Good：** 正常的成功回忆。
+- **Easy：** 格外轻松的成功回忆。
 
-反馈按钮会影响每天的使用。Mochi让你做二元记忆判断；Anki和Flashcards要求你区分完全没想起来、艰难想起、正常想起或轻松想起。两种方式没有绝对优劣，选你能长期稳定判断的那一种。
+这里有一条重要的评分规则。Anki 手册指出，Hard 仍代表成功回忆，因此，如果实际上忘记了答案却选择 Hard，系统会给出过长的间隔。
 
-## 离线学习、平台与移动应用
+两种按钮模式都不是绝对更优。如果统一用“记得/忘记”做二元判断能让复习顺畅推进，请选择 Mochi。如果你能正确使用额外评分，并希望调整保留率、参数和工作量，请选择 Anki。
 
-Mochi同时提供原生桌面端和非常直接的无账号离线体验。[官网](https://mochi.cards/)列出了macOS、Windows、Linux、iOS、Android和Web。数据保存在设备上，无需账号也能完全离线使用，免费版允许无限离线使用。跨设备同步需要Pro。
+要进一步了解调度模型本身，请阅读 [FSRS vs SM-2](/blog/fsrs-vs-sm-2/)。
 
-Anki也是很强的离线选择。Windows、macOS和Linux应用会保存本地集合，移动客户端同样如此。AnkiWeb负责同步，并非每次复习都必须连接。iOS上的[AnkiMobile](https://apps.apple.com/us/app/ankimobile-flashcards/id373493387)是官方付费应用。[AnkiDroid](https://apps.ankiweb.net/)则是免费、独立开发的Android客户端。
+## 离线使用、平台与同步
 
-Flashcards的Web、iOS和Android客户端采用离线优先设计，先在本地写入。复习和编辑保存在本地，恢复网络后再同步。在火车上或移动网络不稳定时，这很有用，但它的平台布局与Mochi或Anki不同：Flashcards没有macOS、Windows或Linux桌面客户端，电脑端使用浏览器应用。
+“可离线使用”可能有多种含义，因此最好将本地学习与跨设备同步分开考虑。
 
-想看更集中的比较，可以阅读[2026年最佳离线闪卡应用](/blog/best-offline-flashcards-app/)。如果原生桌面应用不可或缺，就选Mochi或Anki。
+### Mochi 采用本地优先模式，Pro 提供同步
 
-## 开源与自托管在这里不是一回事
+Mochi 可在 macOS、Windows、Linux、iOS、Android 和 Web 上运行。它的[安装指南](https://mochi.cards/docs/getting-started/download-and-install/)说明，这些应用无需账户即可完全离线使用。[免费方案](https://mochi.cards/)可不限量离线使用。
 
-这一项容易混乱，因为“开源”“本地”和“自托管”经常被当成同义词。它们其实是三种不同属性。
+日常使用的数据保存在设备上。如果希望在多台设备上使用同一套 Mochi 卡片库，每月 US$5 的 Pro 方案会提供同步，还包括发布、动态字段、AI 集成和电子邮件支持。
 
-Mochi是本地优先产品，但核心应用没有官方自托管路径。Mochi公开了一些集成组件，主应用和同步服务仍是托管产品。免费、无需账号的应用给了你实用的本地独立性，但没有让你掌控整套技术栈。
+Web 版需要格外谨慎。如果没有 Pro，数据会存储在浏览器的离线存储空间中，而 Mochi 提醒浏览器可能会清除这部分存储。如果免费方案中有重要数据，请使用桌面或移动应用，并保留一份 `.mochi` 备份。
 
-Anki是开源软件，无需服务器也能使用。它还为不想使用AnkiWeb的人提供官方[自托管同步服务器](https://docs.ankiweb.net/sync-server.html)文档。这台服务器用来同步兼容的Anki客户端，不是对AnkiWeb网站、账号和所有周边托管服务的完整自托管替代。
+### Anki 保存本地卡片库，并通过 AnkiWeb 同步
 
-Flashcards以MIT许可发布应用和基础设施。[自托管指南](/docs/self-hosting/)说明了一套AWS CDK生产架构，其中包括RDS上的Postgres、Cognito、API Gateway、Lambda、S3、CloudFront、监控、邮件和其他由运营者掌控的服务。三款产品中，只有Flashcards给出了整套技术栈的部署方案，而这也是一套需要你亲自维护的真实基础设施。
+Anki 的免费桌面应用可在 Windows、macOS 和 Linux 上运行。官方付费应用 AnkiMobile 支持 iPhone 和 iPad；独立开发的 AnkiDroid 应用可在 Android 上免费使用。这些客户端会保留本地卡片库，因此每次复习都不需要网络连接。
 
-代码库中的本地Docker/Postgres配置是开发环境，不是受支持的生产部署。自托管Flashcards还意味着你要负责AWS费用、邮件、监控、AI凭证、备份、升级；如果你需要自己的原生构建，还要负责移动应用分发。[自托管开源闪卡指南](/blog/self-hosted-open-source-flashcards-app-for-spaced-repetition/)更详细地说明了这些取舍。
+[AnkiWeb 同步免费](https://docs.ankiweb.net/syncing.html)，可让卡片库在不同设备间保持一致。它也支持在浏览器中学习，但 AnkiWeb 是托管服务，而不是离线副本。完成初次单向设置后，来自多台设备的日常笔记编辑和复习记录可以合并。更改笔记结构（例如添加字段或移除卡片模板）时，则可能需要进行单向上传或下载。
 
-## 导入、导出，以及迁移会丢失什么
+成本差异集中在一点：Mochi 对托管同步收费，Anki 则不收费；Anki 收费的是官方 iOS 客户端。不要把 AnkiMobile 与应用商店中名称相似的第三方应用混淆。
 
-到了迁移环节，宽泛的功能标签就不够用了。既要检查文件扩展名，也要检查文件里真正包含的数据。
+## Mochi 与 Anki 的价格对比
 
-### 迁入或迁出Mochi
+截至 2026 年 8 月 19 日核查时，Mochi 的公开价格很简单：
 
-在这三款产品中，Mochi提供了最直接的Anki迁移路径。它的[导入指南](https://mochi.cards/docs/import-and-export/importing/)支持`.mochi`、Anki `.apkg`、Markdown和CSV。`.apkg`导入会包含复习历史，但Mochi会移除CSS和JavaScript，并把HTML转换成Markdown。复杂的Anki卡可能保留知识内容与历史，却失去原来的外观或行为。
+- **Free：** US$0，无需注册，可不限量离线使用。
+- **Pro：** 每月 US$5，包括跨设备同步和上文列出的其他 Pro 功能。
 
-导出方面，Mochi提供完整的`.mochi`格式，以及Markdown和CSV。[导出指南](https://mochi.cards/docs/import-and-export/exporting/)提醒，通用的Markdown与CSV不会保留复习历史、卡片顺序、模板和部分元数据。备份Mochi时使用`.mochi`；如果可读性和兼容性比完整恢复更重要，再用Markdown或CSV。
+Anki 采用不同的收费模式：
 
-### 迁入或迁出Anki
+- **Anki 桌面版：** Windows、macOS 和 Linux 上免费。
+- **AnkiWeb：** 免费账户和同步服务。
+- **AnkiDroid：** 免费的独立 Android 客户端。
+- **AnkiMobile：** 付费的官方 iOS 客户端；当前价格请查看你所在地区的 App Store。
 
-Anki可以导入文本文件、`.apkg`、`.colpkg`和Mnemosyne数据，也可以导出纯文本、打包牌组（`.apkg`）和集合（`.colpkg`）。[Anki导出指南](https://docs.ankiweb.net/exporting.html)说明，打包格式可以包含卡片、笔记、笔记类型和媒体；纯文本导出则包含笔记字段和嵌入的HTML格式。
+如果只在一台桌面设备上学习，两款产品都可以零成本使用。如果使用多台设备，长期来看 Anki 的免费同步可能更便宜，而 Mochi Pro 将同步与其他托管功能打包在一起。使用 iPhone 或 iPad 时，Anki 的成本会有所不同，因为官方客户端需要付费。
 
-需要尽可能保留Anki原貌时使用打包格式。如果目标应用能理解简单字段，而且你接受丢失Anki特有的模板、调度状态、插件和部分媒体行为，再用文本格式。
+## 导入、导出以及迁移会损失什么
 
-### 迁入或迁出Flashcards
+只看文件扩展名，只能了解一半情况。原生备份可能包含调度信息和应用元数据。Markdown 或 CSV 或许能保留文字，却会丢失与之配套的系统数据。
 
-Flashcards目前只能导入和导出自有的`flashcards.zip`工作区包。它可以在Flashcards工作区之间迁移卡片、标签和相关媒体，但不会迁移复习历史、FSRS状态、工作区设置、完整牌组结构或账号数据。这是内容迁移，不是托管版或自托管实例的完整备份。
+### 将 Anki 导入 Mochi 时
 
-它不能直接导入Anki `.apkg`或Mochi文件。如果卡片主要是文本，你可以从原应用导出TXT或CSV，附到Flashcards的AI对话中，在保存前检查系统提出的正反面卡片。这是起草工作流，不是无损导入。保留原始导出文件，并先用一副小而有代表性的牌组测试。具体步骤见[如何从Anki文本导出迁移](/blog/migrate-from-anki-txt-export-open-source-flashcards/)。
+Mochi 的[Anki 导入器](https://mochi.cards/docs/import-and-export/importing/)接受 `.apkg` 文件，并可导入其中保存的复习历史。在 Anki 中导出用于测试的牌组时，请开启 **Include Scheduling Information**；否则数据包中没有可供 Mochi 保留的复习历史。在导入过程中，Mochi 会：
 
-## 2026年价格
+- 将 HTML 转换为 Markdown；
+- 移除 CSS 和 JavaScript；
+- 将 Anki 内容转换为适合 Mochi 卡片模型的形式。
 
-Mochi允许无限量离线免费使用，无需注册。Pro方案标价为**每月5美元**，增加了跨设备同步、发布、动态字段、AI集成和支持服务。
+简单的正面/背面卡片迁移风险最低。自定义布局、JavaScript 行为，以及含义依赖 CSS 的卡片都需要仔细检查。请测试填空卡、输入型答案、音频、图片、公式、标签和嵌套牌组，不要因为文件成功导入，就认为迁移结果一定完整。
 
-Anki桌面应用、AnkiWeb和AnkiDroid免费。美国App Store中，面向iPhone和iPad的官方AnkiMobile标价为**一次性24.99美元**。移动应用商店里有几个名称相似、却与Anki项目无关的应用，选择时要留意。
+复习历史得以保留，并不意味着未来的到期日也会完全相同。Mochi 和 Anki 可能会对这些历史应用不同的调度器、设置、评分和 FSRS 参数。
 
-Flashcards托管应用在当前测试期条款内**免费使用**，包括同步和AI功能。核心卡片创建与复习承诺保持免费；未来较高的AI用量可能需要服务商密钥或付费方案。自托管软件本身免费，但AWS、域名、邮件、监控、AI服务商和你的运维时间都不是免费的。当前条款见[价格页面](/pricing/)。
+### 原生备份不等同于可移植文本
 
-价格背后的模式比标题数字更有用：Mochi对同步收费，Anki对官方iOS应用收费；Flashcards在测试期内免费，而选择自托管后，AWS与运维成本由你承担。
+Mochi 最完整的可移植导出格式是 `.mochi`。根据其[备份与导出文档](https://mochi.cards/docs/getting-started/backing-up/)，该格式可以保留牌组、卡片、模板、复习历史、标签、链接、元数据和附件。请用它创建可还原的内容备份。若要制作同时保留应用设置和登录状态的完整快照，Mochi 建议复制其用户目录。
 
-## 该选哪一款？
+Mochi 的[Markdown 和 CSV 导出](https://mochi.cards/docs/import-and-export/exporting/)用于内容移植：
 
-### Markdown与关联笔记：选Mochi
+- **Markdown** 会为每张卡片创建一个可读文件，并将子牌组转换为文件夹。它不会保留复习历史、卡片顺序、模板或标签，除非标签已经写入 Markdown。
+- **CSV** 可以导出模板字段值，或预先渲染的正面/背面。对于多于两面的卡片，选择渲染后导出时，会将第一面之后的所有面合并到背面。CSV 不会保留复习历史、模板或标签，除非它们嵌入在内容中。
 
-如果写作本身就是学习的一部分，Mochi最合适。它提供原生Markdown、关联引用、笔记式卡片、模板、多面卡片、标签、自定义视图、广泛的平台支持，以及无需账号的完全离线使用。在这三款产品中，它也最适合从Anki `.apkg`直接迁移。
+Anki 同样区分完整数据包与文本：
 
-如果整套技术栈的自托管是硬性要求，或者你需要Anki的四按钮FSRS控制和庞大的插件生态，就别选它。
+- **`.colpkg`** 包含整个卡片库及其调度信息，并且可以包含媒体文件。导入时，它会替换当前 Anki 卡片库中的卡片，因此，如果只是想检查或抽样查看备份，请将其还原到一个空的临时配置文件中。
+- **`.apkg`** 包含一个牌组及其子牌组，也包含卡片、笔记和笔记类型；导出时可选择是否包含调度信息、预设和媒体。
+- **纯文本导出**包含以制表符分隔的笔记字段，字段内嵌有 HTML 格式。它适合迁移内容，不适合保留完整的调度器和牌组行为。
 
-### 成熟度与控制：选Anki
+Anki 在其[导出指南](https://docs.ankiweb.net/exporting.html)中说明了这些差异。在任何迁移前，请用 `.colpkg` 创建完整备份；准备让 Mochi 导入的代表性牌组，则用 `.apkg` 导出。
 
-医学院、语言学习、证书备考，或任何已经依赖复杂笔记类型、模板、插件、共享牌组和多年复习历史的成熟工作流，Anki都是稳妥选择。它拥有最深入的调度控制和最广泛、最经得起时间检验的生态。
+### 从 Mochi 迁移到 Anki
 
-它的缺点也很熟悉：没有原生Markdown，配置可能很技术化，需要理解的产品概念也更多。当保真度和控制最重要时，这些成本可以接受。更集中的双产品对比见[Anki vs Flashcards](/blog/anki-vs-flashcards-open-source-app/)。
+Mochi 的 CSV 导出是最实际的方式。如果你准备重新创建匹配的 Anki 笔记类型，请导出字段值；如果卡片结构简单，且可读内容比外观更重要，请导出渲染后的正面/背面。Anki 可以[导入文本文件](https://docs.ankiweb.net/importing/intro.html)，并将各列映射到笔记字段。
 
-### 开放的现代技术栈与Agent：选Flashcards
+这不是一次无损的往返转换。通过 CSV，Mochi 的复习历史、链接、Markdown 笔记结构、模板和多面卡片行为无法转换成 Anki 中完全对应的对象。即使 Anki 中的副本看起来正确，也请保留原始 `.mochi` 备份。
 
-如果你有一个新建或大多由简单卡片组成的集合，同时想要Web与移动客户端、正反面Markdown、FSRS复习、支持文件的AI对话、MCP、Agent API，以及对应用和生产基础设施的所有权，Flashcards更合适。三款产品中，只有它同时提供MCP和Agent API，可以直接访问学习工作区。
+## 可逆的迁移测试
 
-如果你需要兼容Anki的导入、原生桌面应用、高级模板或大型共享牌组生态，就不要选它。卡片模型较窄、产品本身仍较年轻，这些都是真实限制，不该藏在路线图后面。
+不要只因为导入对话框显示一次成功，就迁移整个卡片库。小规模测试所需的时间，比修复受损牌组更少。
 
-### 切换解决不了明确问题，就留在原处
+1. **创建完整的 Anki 备份。** 更改任何内容之前，导出包含媒体文件的 `.colpkg`。
+2. **在副本中操作。** 创建临时 Anki 配置文件，并将 `.colpkg` 导入其中。导入卡片库数据包会替换目标配置文件中的卡片，因此必须使用空配置文件。
+3. **制作有代表性的样本。** 在复制出的配置文件中，将 25–50 张卡片集中到一个测试牌组中：基础卡、反向卡、填空卡、自定义模板、CSS、JavaScript、图片、音频、公式、标签、嵌套牌组，以及具有真实复习历史的卡片。
+4. **将样本导出为 `.apkg`。** 如果调度信息、牌组预设和媒体对你的卡片库很重要，导出时应一并包含。
+5. **将样本导入新的 Mochi 牌组。** 你日常使用的 Anki 配置文件不会受到影响。
+6. **先检查内容，再开始复习。** 检查每一种特殊类型的卡片，而不只是几张普通卡片。核对字段、格式、媒体、标签、牌组结构和复习历史。
+7. **慎重选择 Mochi 的调度器。** 默认使用其自有算法。只有在你打算长期采用 FSRS 时，才将测试牌组切换到 FSRS。
+8. **用复制的卡片复习一周。** 判断 Remembered/Forgot 是否足够、Markdown 编辑流程能否节省时间，以及离线使用和同步能否在你日常携带的设备上正常工作。
+9. **写下你能接受的损失。** 经过一周实际使用，你可能会发现模板行为、样式、插件、精确到期日或卡片类型，比查看对比表时显得更重要。
 
-如果Mochi的Markdown工作流、离线应用、同步和双按钮复习已经适合你，继续用Mochi。FSRS不再是迁移理由。
+如果测试失败，请删除 Mochi 测试牌组，继续使用日常 Anki 配置文件。该配置文件和 `.colpkg` 备份均不会发生变化。如果测试成功，请每次迁移一个真实牌组，并保留两种原生备份，直到完成多个正常复习周期。
 
-如果牌组依赖Anki模板、插件、媒体或调度历史，继续用Anki。迁移花掉的学习时间，可能比新界面节省的时间还多。
+## 本地优先、开源和自托管并不是一回事
 
-如果你已经认可Flashcards的开放技术栈和Agent工作流，继续用Flashcards。迁移到Mochi或Anki会得到更深的卡片模型，却也会放弃整套技术栈的所有权或内置Agent访问。
+这些标签回答的是不同问题：
 
-## 结论：按围绕调度器的工作流来选
+- **本地优先：** 应用能否将工作副本保存在你的设备上，并在没有云服务时继续运行？
+- **开源：** 你能否根据已发布的许可证查看和修改源代码？
+- **自托管：** 产品是否提供官方支持的方式，让你自行运行相关服务器？
 
-从实用角度看，**Mochi vs Anki vs Flashcards** 的答案很直接：Mochi以Markdown和本地优先笔记为中心；Anki以成熟、可配置的记忆系统为中心；Flashcards以人和AI Agent可以共同使用的现代开放技术栈为中心。
+Mochi 采用本地优先模式。它的免费应用可以离线运行，`.mochi` 导出则能提供较完整的本地内容备份。Mochi 网站上公开的“open source”链接指向一个[集成项目集合](https://github.com/mochi-cards/open-source)，而不是核心应用的源代码。Mochi 官方网站并未声称核心应用开源，也未说明如何以官方支持的方式自托管其同步服务。
 
-我开发Flashcards，但如果要做一套互相关联的Markdown笔记，我仍会选Mochi；面对复杂、成熟的卡片集合，我会选Anki。如果要从头建立正反面卡片工作区，而且最重视开放基础设施、移动同步和Agent访问，我会选Flashcards。
+Anki 的[主代码库采用 AGPL 第 3 版或更高版本授权](https://github.com/ankitects/anki/blob/main/LICENSE)，其中包含的一些组件使用其他许可证。高级用户也可以自行运行官方的[自托管同步服务器](https://docs.ankiweb.net/sync-server.html)，而不是使用 AnkiWeb。它是供兼容客户端使用的同步服务器，而不是 AnkiWeb 网站的自托管版本。Anki 警告说，安装和维护需要命令行及网络知识。
 
-如果第三种情况符合你的工作流，可以[打开Flashcards](https://app.flashcards-open-source-app.com/)，或阅读[入门指南](/docs/getting-started/)。如果不符合，就继续使用那个能让明天复习最轻松的工具。
+如果你的需求只是在没有账户的情况下本地使用，Mochi 无需太多基础设施就能满足。如果你重视源代码可用性和对同步的掌控，Anki 提供的能力更强。无论选择哪一个，都仍然需要原生备份。
+
+## 应该选择哪一个？
+
+### 选择 Mochi：让 Markdown 笔记与卡片共用一套工作流
+
+如果你希望笔记、参考资料和卡片都使用同一种易读的 Markdown 格式，Mochi 更为合适。无需账户的离线模式很适合单设备使用，而 Pro 提供同步，也不会改变内容编写方式。Remembered/Forgot 还能让每天的复习判断保持简单。
+
+对于新卡片库，或主要由简单内容构成的 Anki 卡片库，这一选择尤其合理。如果自定义行为或多年的历史数据很重要，请先完成样本导入测试。
+
+### 选择 Anki：获得最大掌控力和卡片库保真度
+
+如果你的卡片库依赖笔记类型、自动生成的卡片变体、HTML/CSS 模板、插件、共享牌组或详细的 FSRS 控制，Anki 更为合适。它的数据包格式和免费同步更容易让 Anki 卡片库保持原有的完整形态。
+
+如果已经在用 Anki，只有明确的理由才值得迁移。原生 Markdown 或 Mochi 更清爽的内容编写流程，可能就是这样的理由；仅仅是界面稍微整洁一点，可能还不够。
+
+### 只有卡片库较简单时，才考虑更轻量的开源替代方案
+
+如果两种工作流都不合适，[Flashcards Open Source App 的功能](/features/)包括正面/背面 Markdown 卡片、FSRS 复习、离线优先的 Web 和移动客户端、MCP 与 Agent API 接入，以及开源且可自托管的实现路径。我是它的开发者，它在这里也有明确的局限：无法取代 Mochi 的相互链接式 Markdown 笔记本，也无法取代 Anki 的模板和直接 `.apkg` 迁移。它最适合新建且较简单的卡片库；[入门指南](/docs/getting-started/)展示了当前的产品形态。
+
+## 最终结论
+
+从实用角度看，**Anki vs Mochi** 的选择取决于未来几年你希望保留什么。
+
+如果 Markdown 笔记、本地优先使用和二元复习能让学习循环更轻松，请选择 Mochi。如果你希望长期使用的工具拥有成熟模板、四按钮 FSRS 控制、免费同步和高保真的 Anki 数据包，请选择 Anki。
+
+如果你已经拥有一套重要的 Anki 卡片库，不要根据截图或功能列表作决定。导出完整备份，导入一个具有代表性的 `.apkg`，然后用复制出的卡片学习一周。迁移测试会告诉你，Mochi 更简洁的工作流是否值得你放弃卡片库原有的某些特定行为。
