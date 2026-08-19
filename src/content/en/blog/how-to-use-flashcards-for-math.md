@@ -73,6 +73,8 @@ Better **math formula flashcards** aim at one memory target at a time:
 
 For a concrete, deliberately narrow example, [Unit Circle Flashcards: 16 Angles, Radians & Exact Coordinates](/catalog/packages/unit-circle-degrees-radians-coordinates/) lets you practice the 16 standard unit-circle positions in degrees, radians, and exact coordinates without turning the whole topic into one oversized card.
 
+Greek letters are another small memory layer you can separate from the formulas that use them. [Greek Alphabet Flashcards: All 24 Uppercase & Lowercase Letters](/catalog/packages/greek-alphabet-flashcards/) has 72 cards for uppercase-to-name, lowercase-to-name, and name-to-symbol recall across all 24 letters. It stops at letter-form and name recognition; it does not teach pronunciation, transliteration, vocabulary, handwriting, or mathematical meanings.
+
 Then add the detail that actually prevents mistakes. Maybe you keep flipping a sign. Maybe you mix up what a variable represents. Maybe you forget the condition that has to be true before a rule applies. Those are excellent flashcard targets because they are small, reusable, and painful to miss in the middle of real work.
 
 That is a much better use of **flashcards for math** than copying a summary page into one card and hoping repetition sorts it out later.

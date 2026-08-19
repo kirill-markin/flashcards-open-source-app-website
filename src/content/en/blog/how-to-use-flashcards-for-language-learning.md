@@ -87,6 +87,8 @@ Writing-system cards can use the same two-way pattern while staying intentionall
 
 If katakana is your next script, [this two-way katakana deck](/catalog/packages/basic-katakana-romaji/) covers all 46 modern basic katakana with 92 independently reviewed cards in total: 46 katakana → romaji and 46 romaji → katakana.
 
+For Greek letter-form and name recognition, [Greek Alphabet Flashcards: All 24 Uppercase & Lowercase Letters](/catalog/packages/greek-alphabet-flashcards/) has 72 cards covering all 24 letters through uppercase-to-name, lowercase-to-name, and name-to-symbol recall. It does not teach pronunciation, transliteration, vocabulary, handwriting, or mathematical meanings.
+
 ## Sentences usually beat raw vocabulary once you are past the first layer
 
 This is the biggest upgrade most people can make.
