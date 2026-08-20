@@ -45,6 +45,8 @@ This is why **GRE word list flashcards** often feel good during review and disap
 
 I would keep the main idea simple: use word lists as source material, not as the finished deck.
 
+If you want a ready-made starting point, [GRE Vocabulary Flashcards: 300 Words with Definitions & Examples](/catalog/packages/gre-vocabulary-flashcards/) is an independent, unofficial recognition foundation with concise definitions, parts of speech, and original example sentences. It has no reverse mapping and is not a complete GRE Verbal course or an official ETS list, so pair it with active recall and sentence-context practice from your own GRE work.
+
 ## GRE verbal flashcards should train several different jobs
 
 One card format will not survive the whole GRE verbal workflow.
