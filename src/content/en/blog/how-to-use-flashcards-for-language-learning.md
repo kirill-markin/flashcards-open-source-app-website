@@ -151,6 +151,8 @@ I would use production cards selectively:
 
 That keeps the deck useful without turning it into homework theater.
 
+For a concrete example, [this Spanish present-tense deck](/catalog/packages/spanish-present-tense-verbs/) has 150 production cards, each pairing one of 25 infinitives with one of six subject groups and asking for a single present-indicative form. It is a focused conjugation drill, not a complete Spanish course.
+
 ## FSRS is a strong fit for language learning because vocab gets weird over time
 
 Some words stick immediately.
