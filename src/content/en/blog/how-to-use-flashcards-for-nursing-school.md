@@ -88,6 +88,8 @@ I would not do either.
 - dimensional-analysis steps that slip under time pressure
 - wording traps that keep causing the same mistake
 
+For the metric-recall layer, [Metric Prefix Flashcards: All 24 SI Names, Symbols & Powers of Ten](/catalog/packages/metric-prefix-flashcards/) drills the current SI prefix names, case-sensitive symbols, and powers of ten. It does not teach unit conversions or dosage calculations, so keep using instructor-approved calculation practice and safety procedures.
+
 That is more useful than storing twenty nearly identical calculation problems with different numbers.
 
 This part needs one clear boundary: this is a study workflow, not a replacement for instructor guidance, clinical policy, or medication-safety procedures. The point of the flashcard deck is to strengthen recall of the calculation framework you are being taught, not to act like an independent clinical tool.

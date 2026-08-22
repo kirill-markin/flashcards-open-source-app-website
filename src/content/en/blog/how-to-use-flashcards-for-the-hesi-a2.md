@@ -121,6 +121,8 @@ Examples:
 - How many milliliters are in `1.5` liters?
 - What changes when you multiply an inequality by a negative number?
 
+For the SI-prefix recall behind metric questions, [Metric Prefix Flashcards: All 24 SI Names, Symbols & Powers of Ten](/catalog/packages/metric-prefix-flashcards/) drills the current SI prefix names, case-sensitive symbols, and powers of ten. It does not teach conversions or HESI math problems, so keep those in separate practice.
+
 If a card needs a full notebook page every time, it probably belongs in problem practice instead. Save flashcards for the conversion, the formula, the setup rule, or the mistake pattern that keeps repeating.
 
 That is the same logic behind [How to Make Better Flashcards in 2026](/blog/how-to-make-better-flashcards/) and [How to Turn Practice Questions Into Flashcards in 2026](/blog/how-to-turn-practice-questions-into-flashcards/).

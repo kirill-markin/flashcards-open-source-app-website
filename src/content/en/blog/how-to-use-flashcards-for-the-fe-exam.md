@@ -138,6 +138,8 @@ Good unit cards can test:
 - a symbol or prefix that keeps tripping you up
 - the practical check you should run before trusting a final answer
 
+[Metric Prefix Flashcards: All 24 SI Names, Symbols & Powers of Ten](/catalog/packages/metric-prefix-flashcards/) drills the current SI prefix names, case-sensitive symbols, and powers of ten. It stays at prefix recall, so conversion setup and engineering problem practice still belong outside the deck.
+
 Examples:
 
 - Front: What is the fastest explanation for a clean FE setup with a nonsense answer?
