@@ -161,6 +161,8 @@ Usually it is one of these:
 - I used a true statement that did not answer the prompt
 - I mixed a conceptual explanation with a calculation and did neither cleanly
 
+If the repeated miss is SI-prefix recall, [Metric Prefix Flashcards: All 24 SI Names, Symbols & Powers of Ten](/catalog/packages/metric-prefix-flashcards/) drills the current SI prefix names, case-sensitive symbols, and powers of ten. It does not teach unit conversions or chemistry problems, so keep those in separate practice.
+
 Those are strong card targets.
 
 Examples:
