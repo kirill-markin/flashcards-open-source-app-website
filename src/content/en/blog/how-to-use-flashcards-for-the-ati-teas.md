@@ -116,6 +116,8 @@ I would rather build cards like:
 - How many centimeters are in 2.5 meters?
 - What is the formula for the area of a triangle?
 
+For the recall behind metric questions, [Metric Prefix Flashcards: All 24 SI Names, Symbols & Powers of Ten](/catalog/packages/metric-prefix-flashcards/) drills the current SI prefix names, case-sensitive symbols, and powers of ten. It does not teach the conversions themselves, so keep those in problem practice.
+
 Then use practice problems for the longer work.
 
 Math flashcards work best when they store formulas, conversions, and setup patterns you want to retrieve in a few seconds. If a card needs a full notebook page, it probably belongs in problem practice instead.
