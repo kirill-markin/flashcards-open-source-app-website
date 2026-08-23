@@ -1,209 +1,155 @@
 ---
-title: "Anki vs Flashcards Open Source App in 2026: Mature Power Tool or Modern Open-Source Study Stack?"
-description: "Comparing Anki with Flashcards Open Source App in 2026: FSRS scheduling, AI card workflows, offline clients, self-hosting, migration, and where Anki still wins."
+title: "Anki vs Flashcards (2026): Which App Should You Use?"
+description: "Compare Anki and Flashcards Open Source App on FSRS, offline use, mobile apps, AI, migration, self-hosting, and data control before you switch."
 date: "2026-04-25"
-image: "/blog/anki-vs-flashcards-open-source-app.png"
+updated: "2026-08-23"
+image: "/blog/anki-vs-flashcards-open-source-app-v2.png"
 keywords:
-  - "anki vs flashcards"
-  - "anki alternative"
-  - "open source anki alternative"
-  - "anki open source alternative"
-  - "modern anki alternative"
-  - "fsrs flashcards app"
-  - "self hosted anki alternative"
-  - "flashcards open source app"
+  - "Anki vs Flashcards"
+  - "Anki vs Flashcards Open Source App"
+  - "Anki alternative"
+  - "open source Anki alternative"
+  - "FSRS flashcard app"
+  - "self-hosted flashcards app"
 ---
 
-A serious Anki user usually has two tabs open in their head at the same time. One says, "This works. Do not touch it." The other says, "Why does using my study app still feel like maintaining old equipment?"
+If Anki already holds your cards and review history, switching apps is a data-migration decision before it is a design preference. Anki can export a deck or an entire collection with scheduling data and media. Flashcards Open Source App cannot import Anki's `.apkg` or `.colpkg` packages, so it can help rebuild simple card content but cannot continue the review queue you have today.
 
-That is the useful starting point for **Anki vs Flashcards Open Source App**. Not "which one has more features if we count every checkbox." Anki wins that game today. The better question is whether you want the most mature flashcard tool, or a newer open-source study stack built around modern product expectations.
+That boundary decides most **Anki vs Flashcards** comparisons. Stay with Anki when collection fidelity, templates, add-ons, shared decks, or an established review habit matter most. Try Flashcards when you can start with a new or mostly text-based deck and care more about whole-stack source access, offline-first sync, built-in AI, or agent workflows.
 
-![Warm desk comparing a mature desktop flashcard setup with a modern open-source flashcards study stack](/blog/anki-vs-flashcards-open-source-app.png)
+> **Disclosure:** I am Kirill Markin, and I build [Flashcards](https://flashcards-open-source-app.com/). I have a clear interest in the product, so this comparison treats Anki as the default for workflows that Flashcards cannot yet reproduce.
 
-## The honest comparison starts with maturity
+**Facts checked:** August 23, 2026.
 
-Anki is the older, deeper product. It has years of community decks, plugins, workflows, documentation, and study culture around it.
+![A traveler carries one archive box across a narrow test bridge while a well-used railway remains open behind them](/blog/anki-vs-flashcards-open-source-app-v2.png)
 
-That matters.
+## Quick verdict
 
-If you are already using Anki for medical school, language learning, law school, or another high-stakes exam, the safest answer might be boring: keep using the tool that already holds your cards and habits.
+| Your constraint | Anki | Flashcards Open Source App | Better fit today |
+| --- | --- | --- | --- |
+| You need to preserve a complex collection and its review history | A `.colpkg` keeps the full collection and schedule; an `.apkg` can include review history, deck presets, and media | No direct Anki package import; an Anki text export becomes reviewed card drafts, not a faithful collection transfer | **Anki** |
+| You want FSRS | Supports FSRS, parameter optimization from review history, desired retention, and deck presets | Uses pinned FSRS-6 weights across web, iOS, Android, and the backend; workspace settings do not optimize weights from your reviews | **Either**; Anki is stronger for personal optimization and schedule continuity |
+| You study without internet | Installed desktop, iOS, and Android clients keep local collections; AnkiWeb remains online-only | Web, iOS, and Android write card and review changes locally first; sign-in, initial hydration, sync, AI, and uncached media need a connection | **Either**, after testing your exact devices and media |
+| You rely on templates, add-ons, or shared decks | Deep official workflows and a large community ecosystem | Focused front/back workflow; no equivalent add-on or shared-deck ecosystem | **Anki** |
+| You want built-in AI and agent access | Possible through third-party add-ons and integrations | AI chat with workspace context and files, plus MCP and a public Agent API | **Flashcards** |
+| You want to control the server | Official self-hosted server replaces collection and media sync | Documented AWS deployment covers web, auth, backend, sync, AI worker, and infrastructure | Depends whether you need **sync only** or the **whole stack** |
+| You want source for the complete client-and-service stack | Desktop Anki and the sync server are public; AnkiDroid is a separate public project; the complete AnkiMobile and AnkiWeb source is not public | Web, iOS, Android, auth, backend, sync, agent surfaces, and infrastructure are MIT-licensed in one repository | **Flashcards** |
 
-[Flashcards](https://flashcards-open-source-app.com/) is earlier. It is not trying to pretend otherwise. The product is an open-source flashcards app with hosted web access, iOS and Android clients, FSRS review, AI chat, file attachments, an agent API, and a self-hosting path. That is a strong direction, but it is still a younger direction.
+The safest answer for a serious existing Anki user is usually to stay. Flashcards becomes a sensible trial when one of its different boundaries solves a real problem—not merely because its interface is newer.
 
-So the comparison is not old product bad, new product good.
+## Anki's maturity is part of the product
 
-It is maturity versus direction.
+The [current Anki desktop release is 26.08.1](https://apps.ankiweb.net/), available for Windows, macOS, and Linux. The same official page links the paid official AnkiMobile client for iPhone and iPad and the free, contributor-built AnkiDroid client for Android. AnkiWeb provides browser study and synchronization between those local clients.
 
-## Where Anki is still better
+More important than the release number is everything accumulated around the collection format. Anki has:
 
-Anki still deserves respect because it solved the hardest part first: people trust it with serious memory work.
+- note types that can generate several cards from one note;
+- editable HTML/CSS [card templates](https://docs.ankiweb.net/templates/intro.html);
+- an official [add-on system](https://docs.ankiweb.net/addons.html), with the usual maintenance risk that an Anki update can break an add-on;
+- public [shared decks](https://docs.ankiweb.net/getting-started.html#shared-decks);
+- established import, export, backup, statistics, and troubleshooting workflows.
 
-It is especially strong if you care about:
+Its [packaged exports](https://docs.ankiweb.net/exporting.html) also carry more structure than a plain card list. A `.colpkg` can contain the entire collection, including all decks and scheduling information, with media as an export option. An `.apkg` can contain a deck's cards, notes, and note types, plus optional scheduling information, deck presets, and media. That is useful for backup, device transfer, and migration to software that understands Anki packages.
 
-- huge existing deck ecosystems
-- mature desktop workflows
-- advanced templates and card types
-- years of community advice
-- plugin-heavy customization
-- a proven habit loop for serious learners
+Flashcards does not match this depth. It has [released web, iOS, and Android clients](https://github.com/kirill-markin/flashcards-open-source-app#available-on), but no native Windows, macOS, or Linux client, comparable add-on catalog, shared-deck ecosystem, template engine, or direct Anki package importer. If any of those holds your study workflow together, changing apps would remove working capability.
 
-That last point is easy to underrate. A study app can be ugly and still be useful if it gets you through 400 reviews before breakfast.
+## Both use FSRS, but your scheduler state will not move
 
-If your Anki setup already works, switching just because a newer app feels cleaner may be a bad trade. The point of spaced repetition is to review consistently, not to keep migrating because software has nicer buttons somewhere else.
+FSRS is not a reason by itself to leave Anki. Anki's [FSRS settings](https://docs.ankiweb.net/deck-options.html#fsrs) can optimize parameters from your review history, set desired retention, and apply different presets to different decks. It is a mature, configurable FSRS implementation.
 
-## Where Flashcards is trying to be better
+Flashcards also uses FSRS rather than a fixed interval or ease-factor scheduler. The current implementation keeps the familiar Again, Hard, Good, and Easy ratings and mirrors FSRS-6 behavior across its backend, iOS, and Android clients; the web review flow reuses the backend scheduler module. Workspace settings cover desired retention, learning and relearning steps, maximum interval, and fuzz, but the FSRS weights are pinned rather than optimized from your review history. Those settings are forward-only: a change affects future reviews without recomputing existing card state. The [scheduling documentation](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/docs/fsrs-scheduling-logic.md) describes the exact state and cross-platform parity rules.
 
-Flashcards starts from a different assumption: a serious spaced repetition app should not have to feel old to be powerful.
+These are two capable FSRS implementations, not one shared schedule. Flashcards cannot ingest Anki review events, stability, difficulty, due dates, or optimized parameters. Imported card content starts a new scheduling history. If your current Anki queue has years of useful signal, that loss matters more than the fact that both apps say “FSRS.”
 
-The current product is built around a simpler modern loop:
+## Offline behavior has two different shapes
 
-- create front/back cards in the hosted web app
-- review due cards with FSRS scheduling
-- use AI chat with workspace data and file attachments
-- sign in with passwordless email OTP
-- study through web, iOS, and Android
-- keep an open-source path for inspection and self-hosting
-- connect terminal agents through the public discovery API
+Anki's installed clients keep a collection on the device. You can review and make ordinary edits offline, then use [AnkiWeb sync](https://docs.ankiweb.net/syncing.html) after reconnecting. Reviews and note edits normally merge across devices; note-type and template changes can require a one-way sync. AnkiWeb itself is an online browser service, not an offline web app. The detailed [Anki offline guide](/blog/does-anki-work-offline/) covers media preparation and conflict handling.
 
-That is the part I find interesting. Flashcards is not only a prettier review screen. It is a different product shape: web-first, mobile-aware, AI-ready, agent-accessible, and open source from the start.
+Flashcards is offline-first across its clients. The [architecture](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/docs/architecture.md#offline-first-sync) uses IndexedDB on the web and SQLite on iOS; the [Android app uses Room over SQLite](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/apps/android/README.md#platform-baseline). A card edit or review is written locally, queued in an outbox, and pushed when the network returns. Review events are append-only, while current card, deck, and workspace-settings state uses last-writer-wins metadata. Media metadata syncs separately from the file bytes, which move through client upload and download queues.
 
-For people searching for a **modern Anki alternative**, that direction matters.
+Offline-first does not mean that every feature is offline. AI calls, sign-in, initial hydration, and synchronization need network services. Each client needs the relevant workspace data before it disconnects, and media works offline only after that client has cached the file bytes. Whichever app you choose, rehearse the exact phone or laptop in airplane mode before relying on it for travel.
 
-## FSRS changes the algorithm conversation
+## Creation is where the workflows really diverge
 
-For years, comparing flashcard apps often turned into a simple question: does it have real spaced repetition or not?
+Anki gives you control close to the card format. Fields, note types, templates, imports, and add-ons can support highly specific workflows. That flexibility is difficult to replace if you use cloze variants, custom styling, language tooling, media-heavy notes, or automation built around the Anki collection.
 
-In 2026, that is not enough. The better question is whether the product treats scheduling as a first-class system.
+Flashcards keeps a narrower card model and puts more automation inside the product. The [hosted app](/docs/getting-started/) includes AI chat with workspace context and file attachments. You can ask it to draft or rewrite cards, inspect the proposal, and decide what gets saved. That is useful for turning text or CSV source material into editable front/back cards, but AI review is not format-preserving import.
 
-Flashcards uses FSRS-based scheduling. The product stores review state, tracks due cards, and keeps the review loop focused around the four familiar ratings: Again, Hard, Good, and Easy.
+The other released difference is machine access. Flashcards exposes an [Agent API](/docs/api/) and an MCP connector for tools such as Claude Code and Codex. Agents can authenticate, select a workspace, query the published data surface, and create or edit cards. If your workflow starts in a terminal or an AI agent, this is a first-class path rather than an add-on layered onto the desktop app.
 
-That does not make Flashcards automatically better than Anki. Anki also has FSRS support and a larger scheduling history behind it.
+That convenience has a network boundary too. Hosted AI depends on the hosted services, and a self-hosted operator must configure the model provider and run the production chat worker. The quick local Docker setup does not provide the complete AI path.
 
-The difference is product feel. In Flashcards, FSRS is part of the default story of the app instead of a technical footnote you discover after configuring the tool for a while.
+## “Open source” and “self-hosted” need a boundary
 
-If the scheduler is the only thing you care about, Anki is still hard to beat.
+Anki is open source, but not every Anki surface has the same source model. The [desktop repository](https://github.com/ankitects/anki) is licensed primarily under [AGPL-3.0-or-later](https://github.com/ankitects/anki/blob/main/LICENSE) with listed exceptions. [AnkiDroid](https://github.com/ankidroid/Anki-Android) is a separate open-source Android project. Anki's maintainer has confirmed that the complete [AnkiMobile](https://forums.ankiweb.net/t/hide-unhide-decks-poll/44281/20) iOS app and [AnkiWeb](https://forums.ankiweb.net/t/questions-about-https-ankiweb-net-decks-and-https-ankiuser-net-study/33292/2) service are not public source.
 
-If you want FSRS inside a cleaner open-source product surface, Flashcards starts to make sense.
+Anki's official [self-hosted sync server](https://docs.ankiweb.net/sync-server.html) stores and synchronizes collection and media data for compatible clients. It does not deploy the AnkiWeb browser interface, account site, or shared-deck and add-on directories. That narrow scope can be an advantage: if all you need is private sync between mature clients, there is less infrastructure to operate. The server still needs compatible versions, backups, credentials, and encryption in front of its default HTTP listener.
 
-## Card creation is where the workflow starts to feel different
+The shorter [Anki open-source boundary guide](/blog/is-anki-open-source/) covers each client without repeating the full license map here.
 
-A lot of Anki workflows begin with manual discipline. Write the card. Tune the template. Import the deck. Install the add-on. Clean the fields. Keep going.
+Flashcards publishes a broader boundary. Its [MIT-licensed repository](https://github.com/kirill-markin/flashcards-open-source-app) contains the web app, iOS and Android clients, auth, backend, sync, MCP and agent surfaces, and AWS infrastructure. You can inspect and change the system as a whole.
 
-That can be powerful. It can also become its own hobby.
+Whole-stack self-hosting also means whole-stack operations. The supported [production self-hosting path](/docs/self-hosting/) uses AWS CDK with RDS, Cognito, API Gateway, Lambda, S3, CloudFront, Cloudflare configuration, email delivery, monitoring, and backups. It is not a vendor-neutral one-command deployment. You maintain cloud costs, secrets, upgrades, migrations, restore tests, and any native apps you build and distribute. Docker Compose is for local development, not production.
 
-Flashcards leans harder into AI-assisted card work. The hosted app supports AI chat with workspace context and file attachments, so the workflow can be more direct:
+So the self-hosting decision is not simply “Flashcards can, Anki cannot.” Anki offers a smaller self-hosted sync component around mature local clients. Flashcards offers a larger deployable product stack with a much larger operator surface.
 
-- paste source material
-- attach a text file or other study material
-- ask for candidate front/back cards
-- edit the draft before keeping it
-- review with FSRS afterward
+## Data control is not the same as migration fidelity
 
-That is not a magic card generator. Good cards still need judgment. The useful part is that the repetitive drafting work moves closer to the app where the cards will live.
+Flashcards can export and import its own [portable `flashcards.zip` workspace package](https://github.com/kirill-markin/flashcards-open-source-app/tree/main/apps/backend/src/workspacePackages). Its `cards.json` contains the selected cards' front and back text, card type, tags, and package or card-source metadata; the ZIP also contains media referenced by those cards. It does **not** preserve the original card IDs, review history, FSRS state, workspace settings, deck structures, or account data. A self-hosted operator needs database and media backups for disaster recovery.
 
-If you like tuning every field yourself, Anki will feel more controllable.
+Anki's full collection export is more complete at the user level. This is an important counterweight to Flashcards' broader source repository: readable source and deployable infrastructure do not automatically produce a more faithful personal-data export.
 
-If you want the app to help turn messy material into editable study cards, Flashcards is a better fit.
+Moving from Anki to Flashcards is currently a content-redrafting workflow:
 
-## Ownership is the real reason this comparison matters
+1. Export mostly text-based notes with Anki's **Notes in Plain Text** option, which produces a tab-separated text file.
+2. Attach that TXT file in Flashcards AI chat. CSV is also accepted if you deliberately convert the export.
+3. Ask for front/back card drafts and any tag cleanup you need.
+4. Inspect every draft before saving it.
+5. Recreate or verify media separately.
 
-Anki is open source, so this is not the usual open product versus closed product story.
+This path does not preserve review history, due dates, FSRS memory, note types, generated card relationships, template HTML/CSS, add-on behavior, or guaranteed cloze and media semantics. The [step-by-step migration guide](/blog/migrate-from-anki-txt-export-open-source-flashcards/) is useful for simple decks. For a collection that needs direct `.apkg` import, see the [broader Anki alternatives comparison](/blog/best-anki-alternatives/) instead.
 
-The more interesting difference is architectural direction.
+## Run a low-risk representative-deck trial
 
-Flashcards is trying to make the whole product stack legible: hosted app, public repository, self-hosting guide, API surface, local clients, and an agent-oriented entrypoint. Even if you never self-host, that changes the relationship with the tool.
+Do not migrate your whole profile to find out whether the new review screen feels comfortable. Test the hardest normal slice of your real workflow while Anki remains the source of truth.
 
-Study data is not disposable. After a few years, your cards become a record of what you cared enough to learn, what you forgot, and what you had to repeat until it finally stuck.
+1. **Back up Anki first.** Export a full `.colpkg` with scheduling information and media, then keep it somewhere outside the active profile.
+2. **Choose one representative deck.** Include the card types, tags, cloze behavior, images, audio, formulas, and review history that would expose a bad migration.
+3. **Keep an Anki-native copy.** Export that deck as `.apkg` before creating the TXT or CSV copy for Flashcards.
+4. **Draft, do not blindly import.** Ask Flashcards to produce a preview, then compare card counts, fronts, backs, tags, formatting, and media references with Anki.
+5. **Assume the queue restarts.** Check that a fresh FSRS history is acceptable for this material. Do not expect answers in one app to update the other.
+6. **Test the released surfaces you will use.** Review and edit on web, iOS, or Android, take a device offline, reconnect, and confirm the changes and media arrive where expected.
+7. **Keep both systems until the constraint is proven.** A successful content draft is not proof that the daily review, sync, export, and recovery workflow fits you.
 
-I do not love study tools that make that data feel rented.
+The trial may end with two tools: established decks stay in Anki, while a new subject starts in Flashcards. That is a cleaner result than forcing a complete switch.
 
-That is why an **open source Anki alternative** with a real self-hosting path is worth paying attention to. Not because everyone should run their own server next weekend. Because serious learning systems should leave users with options.
+## Who should use Anki?
 
-## Migration should be practical, not magical
+Choose Anki if you:
 
-The hardest part of leaving Anki is not deciding that another product looks nicer.
+- already trust its review queue and do not want to reset scheduling history;
+- depend on custom note types, templates, add-ons, shared decks, or exact media behavior;
+- want mature desktop tools, complete collection exports, and years of community documentation;
+- want FSRS parameter optimization from your own review history;
+- need a self-hosted sync server, but not a self-hosted browser app and backend stack.
 
-It is moving the cards.
+For an exam or another high-stakes workflow already running well, staying with Anki is not resistance to change. It protects working study infrastructure.
 
-Flashcards does not need to pretend migration is one click for every deck shape. That would be dishonest. Anki decks can contain templates, media, cloze behavior, plugins, and years of local decisions.
+## Who should try Flashcards?
 
-The realistic path is narrower:
+Try Flashcards if you:
 
-- export useful Anki content as text when the deck is mostly front/back material
-- upload or paste that content into Flashcards
-- use AI chat to draft cleaner cards
-- review the draft before creating final cards
-- keep using Anki for decks that depend on advanced Anki-specific behavior
+- are starting a new deck or have mostly simple front/back material;
+- want one MIT-licensed repository covering web, iOS, Android, backend, auth, sync, and infrastructure;
+- prefer offline-first local writes with automatic synchronization;
+- want built-in AI help with source files and reviewed card drafts;
+- want MCP or Agent API access from terminal and AI tools;
+- accept AWS-based self-hosting work and the current gaps in migration and export fidelity.
 
-That is not glamorous. It is workable.
+You can start with the [hosted app](https://app.flashcards-open-source-app.com/), read [getting started](/docs/getting-started/), or inspect the [source](https://github.com/kirill-markin/flashcards-open-source-app). None of those requires moving an existing Anki collection.
 
-If you want the longer version, start with [how to migrate from Anki](https://flashcards-open-source-app.com/blog/migrate-from-anki-txt-export-open-source-flashcards/).
+## The practical answer
 
-## A practical comparison table
+For most established users comparing **Anki vs Flashcards Open Source App**, Anki should remain the main app. It has the stronger collection model, migration fidelity, customization surface, and ecosystem, while already offering FSRS and reliable offline clients.
 
-| Question | Anki | Flashcards Open Source App |
-|---|---|---|
-| Best current strength | Mature spaced repetition ecosystem | Modern open-source product direction |
-| Scheduler | Deep history, FSRS support | FSRS-based review as a core product default |
-| Card creation | Manual control, imports, add-ons | AI chat, workspace context, file attachments |
-| Ecosystem | Huge decks, plugins, community advice | Younger ecosystem, cleaner starting point |
-| Product feel | Powerful but old-school | Cleaner web and mobile direction |
-| Ownership | Open-source desktop roots | Open-source stack plus self-hosting and agent API |
-| Best fit | Learners who need maximum maturity today | Learners who want a modern open-source study stack |
-
-That table is the honest version.
-
-Anki is stronger if you measure by accumulated depth. Flashcards is more interesting if you measure by where the category should go next.
-
-## Who should stay with Anki
-
-Stay with Anki if:
-
-- your current deck is working
-- you depend on advanced templates or add-ons
-- you use large community decks
-- you need the most mature study ecosystem today
-- you do not want to spend attention on migration
-
-There is no prize for replacing a system that already gets you to review every day.
-
-Sometimes the right answer is to keep the old tool and spend your energy learning the subject.
-
-## Who should try Flashcards
-
-Try Flashcards if:
-
-- you want an **Anki alternative** that is open source
-- you care about web and mobile product feel
-- you want FSRS without building a custom setup around it
-- you want AI help drafting cards from real source material
-- you care about self-hosting now or later
-- you want an agent-accessible API for terminal or AI workflows
-
-This is especially true if you are early in a new study project. Starting fresh is easier than migrating a giant legacy deck. If you are about to build a new language deck, certification deck, or exam deck, this is a good moment to test a different tool before old habits harden.
-
-## The bottom line
-
-Anki is still the safer choice if your priority is maximum maturity.
-
-Flashcards is the more interesting choice if your frustration with Anki is not the algorithm, but the whole product experience around it.
-
-That distinction matters. A lot of people searching **Anki vs Flashcards** are not rejecting spaced repetition. They are rejecting the feeling that serious study software has to stay stuck in an older era.
-
-I do not think Flashcards beats Anki on every dimension today.
-
-I do think it is a better answer to a different question: what should an open-source flashcards app feel like if it were designed now?
-
-## Try Flashcards as a modern open-source Anki alternative
-
-If that is the comparison you are making, start here:
-
-- [Open Flashcards](https://flashcards-open-source-app.com/)
-- [Open the hosted app](https://app.flashcards-open-source-app.com/)
-- [Read the getting started guide](https://flashcards-open-source-app.com/docs/getting-started/)
-- [Read the self-hosting guide](https://flashcards-open-source-app.com/docs/self-hosting/)
-- [View the source on GitHub](https://github.com/kirill-markin/flashcards-open-source-app)
-
-And if you are still comparing the wider field, read [Anki vs Quizlet vs Open-Source Flashcards App](https://flashcards-open-source-app.com/blog/anki-vs-quizlet-vs-open-source-flashcards-app/) next.
-
-The best tool is not always the newest one. It is the one whose tradeoff you can live with for years.
+Flashcards is a credible open source Anki alternative for a narrower group: people willing to start a fresh schedule in exchange for whole-stack source access, released web and native apps, offline-first sync, built-in AI, and agent workflows. Test that trade with one representative deck. If the limitation you wanted to escape actually disappears, expand from there.
