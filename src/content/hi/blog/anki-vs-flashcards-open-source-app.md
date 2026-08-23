@@ -1,209 +1,155 @@
 ---
-title: "Anki vs Flashcards Open Source App in 2026: mature power tool या modern open-source study stack?"
-description: "2026 में Anki और Flashcards Open Source App की practical comparison: FSRS scheduling, AI card workflows, offline clients, self-hosting, migration, और Anki कहाँ अब भी आगे है."
+title: "Anki बनाम Flashcards (2026): आपको कौन-सा ऐप इस्तेमाल करना चाहिए?"
+description: "ऐप बदलने से पहले FSRS, ऑफ़लाइन इस्तेमाल, मोबाइल ऐप, AI, माइग्रेशन, स्वयं होस्टिंग और डेटा नियंत्रण के आधार पर Anki और Flashcards Open Source App की तुलना करें।"
 date: "2026-04-25"
-image: "/blog/anki-vs-flashcards-open-source-app.png"
+updated: "2026-08-23"
+image: "/blog/anki-vs-flashcards-open-source-app-v2.png"
 keywords:
-  - "anki vs flashcards"
-  - "anki alternative"
-  - "open source anki alternative"
-  - "anki open source alternative"
-  - "modern anki alternative"
-  - "fsrs flashcards app"
-  - "self hosted anki alternative"
-  - "flashcards open source app"
+  - "Anki बनाम Flashcards"
+  - "Anki बनाम Flashcards Open Source App"
+  - "Anki विकल्प"
+  - "ओपन-सोर्स Anki विकल्प"
+  - "FSRS फ़्लैशकार्ड ऐप"
+  - "स्वयं होस्ट किया गया फ़्लैशकार्ड ऐप"
 ---
 
-Serious Anki user के दिमाग में अक्सर दो tabs एक साथ खुले रहते हैं। एक कहता है, "यह काम करता है। इसे मत छेड़ो।" दूसरा कहता है, "मेरी study app अभी भी पुराने equipment को maintain करने जैसी क्यों लगती है?"
+अगर Anki में पहले से आपके कार्ड और रिव्यू हिस्ट्री हैं, तो ऐप बदलने का सवाल डिज़ाइन की पसंद से पहले डेटा माइग्रेशन का सवाल है। Anki किसी डेक या पूरे कलेक्शन को शेड्यूलिंग डेटा और मीडिया के साथ एक्सपोर्ट कर सकता है। Flashcards Open Source App Anki के `.apkg` या `.colpkg` पैकेज इम्पोर्ट नहीं कर सकता, इसलिए यह साधारण कार्ड सामग्री को दोबारा बनाने में मदद तो कर सकता है, लेकिन आपकी मौजूदा रिव्यू क्यू को जारी नहीं रख सकता।
 
-**Anki vs Flashcards Open Source App** की सही शुरुआत यहीं से होती है। यह हर checkbox गिनने वाली comparison नहीं है। उस खेल में Anki आज जीतेगा। बेहतर सवाल यह है कि आपको सबसे mature flashcard tool चाहिए, या एक नया open-source study stack जो modern product expectations के साथ बना है।
+यही सीमा **Anki बनाम Flashcards** की ज़्यादातर तुलनाओं का फ़ैसला कर देती है। जब कलेक्शन की सटीकता, टेम्पलेट, ऐड-ऑन, साझा डेक या पहले से बनी रिव्यू की आदत सबसे ज़्यादा मायने रखती हो, तो Anki के साथ रहें। जब आप किसी नए या मुख्यतः टेक्स्ट-आधारित डेक से शुरुआत कर सकते हों और पूरे स्टैक के सोर्स तक पहुँच, ऑफ़लाइन-फ़र्स्ट सिंक, बिल्ट-इन AI या एजेंट वर्कफ़्लो को ज़्यादा महत्व देते हों, तो Flashcards आज़माएँ।
 
-![एक गर्म desk scene जिसमें mature desktop flashcard setup और modern open-source Flashcards study stack की तुलना दिखती है](/blog/anki-vs-flashcards-open-source-app.png)
+> **खुलासा:** मैं Kirill Markin हूँ और [Flashcards](https://flashcards-open-source-app.com/) बनाता हूँ। उत्पाद में मेरा स्पष्ट हित है, इसलिए यह तुलना उन वर्कफ़्लो के लिए Anki को डिफ़ॉल्ट मानती है जिन्हें Flashcards अभी दोहरा नहीं सकता।
 
-## ईमानदार तुलना maturity से शुरू होती है
+**तथ्यों की जाँच:** 23 अगस्त 2026।
 
-Anki पुराना और गहरा product है। उसके आसपास years of community decks, plugins, workflows, documentation, और study culture मौजूद है।
+![एक यात्री सँकरे परीक्षण पुल से एक आर्काइव बॉक्स ले जा रहा है, जबकि उसके पीछे अच्छी तरह इस्तेमाल की गई रेल लाइन खुली है](/blog/anki-vs-flashcards-open-source-app-v2.png)
 
-यह मायने रखता है।
+## संक्षिप्त फ़ैसला
 
-अगर आप already medical school, language learning, law school, या किसी serious exam के लिए Anki use कर रहे हैं, तो सबसे safe answer boring हो सकता है: उसी tool के साथ रहें जिसमें आपकी cards और habits already हैं।
+| आपकी बाधा | Anki | Flashcards Open Source App | आज बेहतर विकल्प |
+| --- | --- | --- | --- |
+| आपको किसी जटिल कलेक्शन और उसकी रिव्यू हिस्ट्री को सुरक्षित रखना है | `.colpkg` पूरे कलेक्शन और शेड्यूल को सुरक्षित रखता है; `.apkg` में रिव्यू हिस्ट्री, डेक प्रीसेट और मीडिया शामिल हो सकते हैं | Anki पैकेज का सीधा इम्पोर्ट नहीं; Anki का टेक्स्ट एक्सपोर्ट रिव्यू किए जाने वाले कार्ड ड्राफ़्ट बनता है, कलेक्शन का सटीक ट्रांसफ़र नहीं | **Anki** |
+| आपको FSRS चाहिए | FSRS, रिव्यू हिस्ट्री से पैरामीटर ऑप्टिमाइज़ेशन, वांछित रिटेंशन और डेक प्रीसेट का समर्थन करता है | वेब, iOS, Android और बैकएंड पर तय FSRS-6 वेट इस्तेमाल करता है; वर्कस्पेस सेटिंग आपके रिव्यू से वेट ऑप्टिमाइज़ नहीं करतीं | **दोनों**; व्यक्तिगत ऑप्टिमाइज़ेशन और शेड्यूल की निरंतरता के लिए Anki बेहतर है |
+| आप बिना इंटरनेट के पढ़ते हैं | इंस्टॉल किए गए डेस्कटॉप, iOS और Android क्लाइंट लोकल कलेक्शन रखते हैं; AnkiWeb केवल ऑनलाइन रहता है | वेब, iOS और Android कार्ड व रिव्यू के बदलाव पहले लोकल रूप से लिखते हैं; साइन-इन, शुरुआती हाइड्रेशन, सिंक, AI और कैश न किया गया मीडिया कनेक्शन माँगते हैं | **दोनों**, अपने खास डिवाइस और मीडिया को जाँचने के बाद |
+| आप टेम्पलेट, ऐड-ऑन या साझा डेक पर निर्भर हैं | गहरे आधिकारिक वर्कफ़्लो और बड़ा कम्युनिटी इकोसिस्टम | केंद्रित फ़्रंट/बैक वर्कफ़्लो; इसके बराबर कोई ऐड-ऑन या साझा-डेक इकोसिस्टम नहीं | **Anki** |
+| आपको बिल्ट-इन AI और एजेंट एक्सेस चाहिए | थर्ड-पार्टी ऐड-ऑन और इंटीग्रेशन के ज़रिए संभव | वर्कस्पेस संदर्भ और फ़ाइलों के साथ AI चैट, साथ में MCP और सार्वजनिक Agent API | **Flashcards** |
+| आप सर्वर को नियंत्रित करना चाहते हैं | आधिकारिक स्वयं होस्ट किया गया सर्वर कलेक्शन और मीडिया सिंक की जगह लेता है | दस्तावेज़ों में दिया AWS डिप्लॉयमेंट वेब, ऑथेंटिकेशन, बैकएंड, सिंक, AI वर्कर और इन्फ़्रास्ट्रक्चर को शामिल करता है | इस पर निर्भर है कि आपको **केवल सिंक** चाहिए या **पूरा स्टैक** |
+| आपको पूरे क्लाइंट और सर्विस स्टैक का सोर्स चाहिए | डेस्कटॉप Anki और सिंक सर्वर सार्वजनिक हैं; AnkiDroid अलग सार्वजनिक प्रोजेक्ट है; AnkiMobile और AnkiWeb का पूरा सोर्स सार्वजनिक नहीं है | वेब, iOS, Android, ऑथेंटिकेशन, बैकएंड, सिंक, एजेंट सतहें और इन्फ़्रास्ट्रक्चर एक रिपॉज़िटरी में MIT लाइसेंस के तहत हैं | **Flashcards** |
 
-[Flashcards](https://flashcards-open-source-app.com/) earlier stage पर है। इसे छिपाने की जरूरत नहीं। Product में hosted web app, iOS और Android clients, FSRS review, AI chat, file attachments, agent API, और self-hosting path है। Direction strong है, लेकिन product अभी younger है।
+किसी गंभीर मौजूदा Anki उपयोगकर्ता के लिए सबसे सुरक्षित जवाब आम तौर पर उसी के साथ रहना है। Flashcards को आज़माना तब समझदारी बनता है जब उसका अलग दायरा आपकी कोई वास्तविक समस्या हल करता हो—सिर्फ़ इसलिए नहीं कि उसका इंटरफ़ेस नया है।
 
-इसलिए comparison old product bad, new product good नहीं है।
+## Anki की परिपक्वता भी उत्पाद का हिस्सा है
 
-यह maturity बनाम direction है।
+[Anki डेस्कटॉप का मौजूदा रिलीज़ 26.08.1 है](https://apps.ankiweb.net/), जो Windows, macOS और Linux के लिए उपलब्ध है। उसी आधिकारिक पेज पर iPhone और iPad के लिए सशुल्क आधिकारिक AnkiMobile क्लाइंट और Android के लिए मुफ़्त, योगदानकर्ताओं द्वारा बनाया गया AnkiDroid क्लाइंट भी लिंक किया गया है। AnkiWeb ब्राउज़र में पढ़ाई और उन लोकल क्लाइंट के बीच सिंक्रोनाइज़ेशन उपलब्ध कराता है।
 
-## Anki कहाँ अभी भी बेहतर है
+रिलीज़ नंबर से ज़्यादा महत्वपूर्ण वह सब है जो कलेक्शन फ़ॉर्मेट के आसपास जमा हुआ है। Anki में ये चीज़ें हैं:
 
-Anki respect deserve करता है क्योंकि उसने सबसे कठिन हिस्सा पहले solve किया: लोग serious memory work के लिए उस पर भरोसा करते हैं।
+- ऐसे नोट टाइप जो एक नोट से कई कार्ड बना सकते हैं;
+- संपादन योग्य HTML/CSS [कार्ड टेम्पलेट](https://docs.ankiweb.net/templates/intro.html);
+- आधिकारिक [ऐड-ऑन सिस्टम](https://docs.ankiweb.net/addons.html), जिसमें यह सामान्य रखरखाव जोखिम है कि Anki अपडेट किसी ऐड-ऑन को तोड़ सकता है;
+- सार्वजनिक [साझा डेक](https://docs.ankiweb.net/getting-started.html#shared-decks);
+- इम्पोर्ट, एक्सपोर्ट, बैकअप, आँकड़ों और समस्या निवारण के स्थापित वर्कफ़्लो।
 
-यह खासकर strong है अगर आपको चाहिए:
+इसके [पैकेज्ड एक्सपोर्ट](https://docs.ankiweb.net/exporting.html) में कार्ड की साधारण सूची से ज़्यादा संरचना भी रहती है। `.colpkg` में सभी डेक और शेड्यूलिंग जानकारी सहित पूरा कलेक्शन हो सकता है, और मीडिया को शामिल करना एक एक्सपोर्ट विकल्प है। `.apkg` में किसी डेक के कार्ड, नोट और नोट टाइप के साथ वैकल्पिक शेड्यूलिंग जानकारी, डेक प्रीसेट और मीडिया हो सकते हैं। यह बैकअप, डिवाइस ट्रांसफ़र और Anki पैकेज समझने वाले सॉफ़्टवेयर में माइग्रेशन के लिए उपयोगी है।
 
-- huge existing deck ecosystem
-- mature desktop workflows
-- advanced templates और card types
-- years of community advice
-- plugin-heavy customization
-- serious learners के लिए proven habit loop
+Flashcards इस गहराई की बराबरी नहीं करता। इसके [वेब, iOS और Android क्लाइंट रिलीज़ हो चुके हैं](https://github.com/kirill-markin/flashcards-open-source-app#available-on), लेकिन कोई नेटिव Windows, macOS या Linux क्लाइंट, तुलनीय ऐड-ऑन कैटलॉग, साझा-डेक इकोसिस्टम, टेम्पलेट इंजन या सीधा Anki पैकेज इम्पोर्टर नहीं है। अगर इनमें से किसी पर आपका पढ़ाई का वर्कफ़्लो टिका है, तो ऐप बदलने से काम कर रही क्षमता चली जाएगी।
 
-Last point को underestimate करना आसान है। कोई study app पुरानी दिख सकती है और फिर भी useful हो सकती है अगर वह breakfast से पहले 400 reviews पूरा करा दे।
+## दोनों FSRS इस्तेमाल करते हैं, लेकिन आपके शेड्यूलर की स्थिति साथ नहीं जाएगी
 
-अगर आपका Anki setup already काम कर रहा है, तो सिर्फ इसलिए switch करना कि नया app cleaner लगता है, खराब tradeoff हो सकता है। Spaced repetition का मतलब consistent review है, हर बार nicer buttons देखकर migration नहीं।
+अकेले FSRS के कारण Anki छोड़ने की ज़रूरत नहीं है। Anki की [FSRS सेटिंग](https://docs.ankiweb.net/deck-options.html#fsrs) आपकी रिव्यू हिस्ट्री से पैरामीटर ऑप्टिमाइज़ कर सकती हैं, वांछित रिटेंशन तय कर सकती हैं और अलग-अलग डेक पर अलग प्रीसेट लागू कर सकती हैं। यह FSRS का परिपक्व और कॉन्फ़िगर किया जा सकने वाला इम्प्लीमेंटेशन है।
 
-## Flashcards कहाँ बेहतर बनने की कोशिश करता है
+Flashcards भी तय अंतराल या ईज़-फ़ैक्टर शेड्यूलर के बजाय FSRS इस्तेमाल करता है। मौजूदा इम्प्लीमेंटेशन परिचित Again, Hard, Good और Easy रेटिंग रखता है और अपने बैकएंड, iOS तथा Android क्लाइंट पर FSRS-6 के व्यवहार की बराबरी करता है; वेब रिव्यू फ़्लो बैकएंड शेड्यूलर मॉड्यूल का दोबारा इस्तेमाल करता है। वर्कस्पेस सेटिंग में वांछित रिटेंशन, सीखने और दोबारा सीखने के चरण, अधिकतम अंतराल और फ़ज़ शामिल हैं, लेकिन FSRS वेट आपकी रिव्यू हिस्ट्री से ऑप्टिमाइज़ होने के बजाय तय हैं। ये सेटिंग केवल आगे लागू होती हैं: कोई बदलाव मौजूदा कार्ड की स्थिति को फिर से कैलकुलेट किए बिना भविष्य के रिव्यू पर असर डालता है। [शेड्यूलिंग दस्तावेज़](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/docs/fsrs-scheduling-logic.md) सटीक स्थिति और क्रॉस-प्लेटफ़ॉर्म समानता के नियम बताते हैं।
 
-Flashcards एक अलग assumption से शुरू होता है: serious spaced repetition app powerful होने के लिए old feel करने की मजबूरी नहीं रखती।
+ये FSRS के दो सक्षम इम्प्लीमेंटेशन हैं, कोई एक साझा शेड्यूल नहीं। Flashcards Anki के रिव्यू इवेंट, स्थिरता, कठिनाई, देय तारीखें या ऑप्टिमाइज़ किए गए पैरामीटर ग्रहण नहीं कर सकता। इम्पोर्ट की गई कार्ड सामग्री नई शेड्यूलिंग हिस्ट्री से शुरू होती है। अगर आपकी मौजूदा Anki क्यू में सालों का उपयोगी संकेत है, तो उसका खोना इस तथ्य से ज़्यादा मायने रखता है कि दोनों ऐप “FSRS” कहते हैं।
 
-Current product एक simple modern loop पर बना है:
+## ऑफ़लाइन व्यवहार के दो अलग रूप हैं
 
-- hosted web app में front/back cards बनाना
-- due cards को FSRS scheduling से review करना
-- workspace data और file attachments के साथ AI chat use करना
-- passwordless email OTP से sign in करना
-- web, iOS, और Android पर study करना
-- inspection और self-hosting के लिए open-source path रखना
-- public discovery API के through terminal agents connect करना
+Anki के इंस्टॉल किए गए क्लाइंट डिवाइस पर कलेक्शन रखते हैं। आप ऑफ़लाइन रिव्यू और सामान्य बदलाव कर सकते हैं, फिर दोबारा कनेक्ट होने पर [AnkiWeb सिंक](https://docs.ankiweb.net/syncing.html) इस्तेमाल कर सकते हैं। रिव्यू और नोट में बदलाव आम तौर पर डिवाइसों के बीच मर्ज हो जाते हैं; नोट टाइप और टेम्पलेट में बदलाव के लिए एकतरफ़ा सिंक ज़रूरी हो सकता है। AnkiWeb स्वयं एक ऑनलाइन ब्राउज़र सेवा है, ऑफ़लाइन वेब ऐप नहीं। विस्तृत [Anki ऑफ़लाइन गाइड](/blog/does-anki-work-offline/) मीडिया की तैयारी और टकराव सँभालने के बारे में बताती है।
 
-यही interesting part है। Flashcards सिर्फ prettier review screen नहीं है। यह अलग product shape है: web-first, mobile-aware, AI-ready, agent-accessible, और शुरुआत से open source।
+Flashcards अपने सभी क्लाइंट पर ऑफ़लाइन-फ़र्स्ट है। [आर्किटेक्चर](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/docs/architecture.md#offline-first-sync) वेब पर IndexedDB और iOS पर SQLite इस्तेमाल करता है; [Android ऐप SQLite के ऊपर Room इस्तेमाल करता है](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/apps/android/README.md#platform-baseline)। कार्ड में बदलाव या रिव्यू पहले लोकल रूप से लिखा जाता है, आउटबॉक्स में कतारबद्ध होता है और नेटवर्क लौटने पर भेजा जाता है। रिव्यू इवेंट केवल जोड़े जा सकते हैं, जबकि कार्ड, डेक और वर्कस्पेस सेटिंग की मौजूदा स्थिति आखिरी लिखने वाले को प्राथमिकता देने वाला मेटाडेटा इस्तेमाल करती है। मीडिया मेटाडेटा फ़ाइल के बाइट से अलग सिंक होता है; वे बाइट क्लाइंट की अपलोड और डाउनलोड क्यू के ज़रिए जाते हैं।
 
-जो लोग **modern Anki alternative** search कर रहे हैं, उनके लिए यह direction matter करती है।
+ऑफ़लाइन-फ़र्स्ट का मतलब यह नहीं कि हर फ़ीचर ऑफ़लाइन है। AI कॉल, साइन-इन, शुरुआती हाइड्रेशन और सिंक्रोनाइज़ेशन को नेटवर्क सेवाएँ चाहिए। डिस्कनेक्ट होने से पहले हर क्लाइंट पर संबंधित वर्कस्पेस डेटा होना चाहिए, और मीडिया उस क्लाइंट के फ़ाइल बाइट कैश कर लेने के बाद ही ऑफ़लाइन काम करता है। आप कोई भी ऐप चुनें, सफ़र में उस पर निर्भर होने से पहले ठीक उसी फ़ोन या लैपटॉप को एयरप्लेन मोड में चलाकर देखें।
 
-## FSRS algorithm वाली बातचीत बदलता है
+## कार्ड बनाते समय वर्कफ़्लो सचमुच अलग हो जाते हैं
 
-कई सालों तक flashcard apps की comparison एक simple question बन जाती थी: क्या इसमें real spaced repetition है या नहीं?
+Anki आपको कार्ड फ़ॉर्मेट के करीब रहकर नियंत्रण देता है। फ़ील्ड, नोट टाइप, टेम्पलेट, इम्पोर्ट और ऐड-ऑन बहुत विशिष्ट वर्कफ़्लो चला सकते हैं। अगर आप क्लोज़ वेरिएंट, कस्टम स्टाइलिंग, भाषा टूलिंग, बहुत ज़्यादा मीडिया वाले नोट या Anki कलेक्शन पर आधारित ऑटोमेशन इस्तेमाल करते हैं, तो इस लचीलेपन की जगह लेना कठिन है।
 
-2026 में इतना काफी नहीं। बेहतर सवाल है कि product scheduling को first-class system मानता है या नहीं।
+Flashcards कार्ड मॉडल को सीमित रखता है और उत्पाद के भीतर ज़्यादा ऑटोमेशन देता है। [होस्ट किया गया ऐप](/docs/getting-started/) वर्कस्पेस संदर्भ और फ़ाइल अटैचमेंट के साथ AI चैट शामिल करता है। आप उससे कार्ड का ड्राफ़्ट बनाने या उन्हें दोबारा लिखने को कह सकते हैं, प्रस्ताव की जाँच कर सकते हैं और तय कर सकते हैं कि क्या सहेजा जाए। यह टेक्स्ट या CSV स्रोत सामग्री को संपादन योग्य फ़्रंट/बैक कार्ड में बदलने के लिए उपयोगी है, लेकिन AI की मदद वाला यह तरीका फ़ॉर्मेट को जस का तस रखने वाला इम्पोर्ट नहीं है।
 
-Flashcards FSRS-based scheduling use करता है। Product review state store करता है, due cards track करता है, और familiar four ratings पर loop रखता है: Again, Hard, Good, और Easy।
+एक और व्यावहारिक अंतर मशीन एक्सेस है। Flashcards, Claude Code और Codex जैसे टूल के लिए [Agent API](/docs/api/) और MCP कनेक्टर उपलब्ध कराता है। एजेंट ऑथेंटिकेट कर सकते हैं, वर्कस्पेस चुन सकते हैं, उपलब्ध कराए गए डेटा पर क्वेरी कर सकते हैं और कार्ड बना या संपादित कर सकते हैं। अगर आपका वर्कफ़्लो टर्मिनल या AI एजेंट से शुरू होता है, तो यह डेस्कटॉप ऐप पर चढ़ाया गया ऐड-ऑन नहीं, बल्कि पूरी तरह समर्थित रास्ता है।
 
-इससे Flashcards automatically Anki से बेहतर नहीं हो जाता। Anki में भी FSRS support है और scheduling history बहुत बड़ी है।
+इस सुविधा की नेटवर्क से जुड़ी सीमा भी है। होस्ट किया गया AI होस्ट की गई सेवाओं पर निर्भर है, और स्वयं होस्ट करने वाले ऑपरेटर को मॉडल प्रदाता कॉन्फ़िगर करके प्रोडक्शन चैट वर्कर चलाना पड़ता है। त्वरित लोकल Docker सेटअप पूरा AI रास्ता उपलब्ध नहीं कराता।
 
-Difference product feel में है। Flashcards में FSRS app की default story का हिस्सा है, कोई ऐसी technical footnote नहीं जो tool configure करने के बाद मिले।
+## “ओपन सोर्स” और “स्वयं होस्ट किया गया” की सीमा तय करनी पड़ती है
 
-अगर आपको सिर्फ scheduler चाहिए, तो Anki अब भी beat करना मुश्किल है।
+Anki ओपन सोर्स है, लेकिन Anki की हर सतह का सोर्स मॉडल एक जैसा नहीं है। [डेस्कटॉप रिपॉज़िटरी](https://github.com/ankitects/anki) मुख्यतः [AGPL-3.0-or-later](https://github.com/ankitects/anki/blob/main/LICENSE) के तहत सूचीबद्ध अपवादों के साथ लाइसेंस की गई है। [AnkiDroid](https://github.com/ankidroid/Anki-Android) एक अलग ओपन-सोर्स Android प्रोजेक्ट है। Anki के मेंटेनर ने पुष्टि की है कि पूरे [AnkiMobile](https://forums.ankiweb.net/t/hide-unhide-decks-poll/44281/20) iOS ऐप और [AnkiWeb](https://forums.ankiweb.net/t/questions-about-https-ankiweb-net-decks-and-https-ankiuser-net-study/33292/2) सेवा का सोर्स सार्वजनिक नहीं है।
 
-अगर आपको cleaner open-source product surface में FSRS चाहिए, Flashcards समझ में आने लगता है।
+Anki का आधिकारिक [स्वयं होस्ट किया गया सिंक सर्वर](https://docs.ankiweb.net/sync-server.html) संगत क्लाइंट के लिए कलेक्शन और मीडिया डेटा को सहेजता और सिंक्रोनाइज़ करता है। यह AnkiWeb ब्राउज़र इंटरफ़ेस, अकाउंट साइट या साझा-डेक और ऐड-ऑन डायरेक्टरी डिप्लॉय नहीं करता। यह सीमित दायरा फ़ायदा हो सकता है: अगर आपको परिपक्व क्लाइंट के बीच केवल निजी सिंक चाहिए, तो चलाने के लिए कम इन्फ़्रास्ट्रक्चर है। सर्वर को फिर भी संगत वर्ज़न, बैकअप, क्रेडेंशियल और उसके डिफ़ॉल्ट HTTP लिसनर के आगे एन्क्रिप्शन चाहिए।
 
-## Card creation में workflow अलग महसूस होता है
+छोटी [Anki ओपन-सोर्स सीमा गाइड](/blog/is-anki-open-source/) यहाँ पूरा लाइसेंस मानचित्र दोहराए बिना हर क्लाइंट के बारे में बताती है।
 
-बहुत सारे Anki workflows manual discipline से शुरू होते हैं। Card लिखो। Template tune करो। Deck import करो। Add-on install करो। Fields साफ करो। आगे बढ़ो।
+Flashcards का दायरा व्यापक है। इसकी [MIT-लाइसेंस वाली रिपॉज़िटरी](https://github.com/kirill-markin/flashcards-open-source-app) में वेब ऐप, iOS और Android क्लाइंट, ऑथेंटिकेशन, बैकएंड, सिंक, MCP और एजेंट इंटरफ़ेस तथा AWS इन्फ़्रास्ट्रक्चर शामिल हैं। आप पूरे सिस्टम की जाँच और उसमें बदलाव कर सकते हैं।
 
-यह powerful हो सकता है। यह अपना अलग hobby भी बन सकता है।
+पूरे स्टैक की स्वयं होस्टिंग का मतलब पूरे स्टैक का संचालन भी है। समर्थित [प्रोडक्शन स्वयं होस्टिंग का रास्ता](/docs/self-hosting/) RDS, Cognito, API Gateway, Lambda, S3, CloudFront, Cloudflare कॉन्फ़िगरेशन, ईमेल डिलीवरी, मॉनिटरिंग और बैकअप के साथ AWS CDK इस्तेमाल करता है। यह विक्रेता-स्वतंत्र, एक कमांड वाला डिप्लॉयमेंट नहीं है। आपको क्लाउड लागत, सीक्रेट, अपग्रेड, माइग्रेशन, रिस्टोर परीक्षण और अपने बनाए व बाँटे गए किसी भी नेटिव ऐप को संभालना होता है। Docker Compose लोकल डेवलपमेंट के लिए है, प्रोडक्शन के लिए नहीं।
 
-Flashcards AI-assisted card work की तरफ ज्यादा झुकता है। Hosted app workspace context और file attachments के साथ AI chat support करता है, इसलिए workflow ज्यादा direct हो सकता है:
+इसलिए स्वयं होस्टिंग का फ़ैसला केवल “Flashcards कर सकता है, Anki नहीं” नहीं है। Anki परिपक्व लोकल क्लाइंट के आसपास स्वयं होस्ट किया जा सकने वाला एक छोटा सिंक घटक देता है। Flashcards संचालन के कहीं बड़े दायरे वाला, डिप्लॉय किया जा सकने वाला बड़ा उत्पाद स्टैक देता है।
 
-- source material paste करना
-- text file या दूसरा study material attach करना
-- candidate front/back cards मांगना
-- draft को keep करने से पहले edit करना
-- बाद में FSRS के साथ review करना
+## डेटा नियंत्रण और माइग्रेशन की सटीकता एक ही चीज़ नहीं हैं
 
-यह magic card generator नहीं है। Good cards अभी भी judgment मांगती हैं। Useful part यह है कि repetitive drafting work उसी app के करीब आता है जहाँ cards रहेंगी।
+Flashcards अपने [पोर्टेबल `flashcards.zip` वर्कस्पेस पैकेज](https://github.com/kirill-markin/flashcards-open-source-app/tree/main/apps/backend/src/workspacePackages) को एक्सपोर्ट और इम्पोर्ट कर सकता है। इसके `cards.json` में चुने गए कार्ड का फ़्रंट और बैक टेक्स्ट, कार्ड टाइप, टैग और पैकेज या कार्ड-सोर्स मेटाडेटा होता है; ZIP में उन कार्ड में संदर्भित मीडिया भी होता है। यह मूल कार्ड ID, रिव्यू हिस्ट्री, FSRS स्थिति, वर्कस्पेस सेटिंग, डेक संरचनाएँ या अकाउंट डेटा सुरक्षित **नहीं** रखता। स्वयं होस्ट करने वाले ऑपरेटर को आपदा से उबरने के लिए डेटाबेस और मीडिया बैकअप चाहिए।
 
-अगर आपको हर field खुद tune करना पसंद है, Anki ज्यादा controllable लगेगा।
+उपयोगकर्ता के स्तर पर Anki का पूरा कलेक्शन एक्सपोर्ट ज़्यादा संपूर्ण है। यह Flashcards की व्यापक सोर्स रिपॉज़िटरी के सामने एक महत्वपूर्ण संतुलन है: पढ़ने योग्य सोर्स और डिप्लॉय किया जा सकने वाला इन्फ़्रास्ट्रक्चर अपने-आप निजी डेटा का ज़्यादा सटीक एक्सपोर्ट नहीं देते।
 
-अगर आप चाहते हैं कि app messy material को editable study cards में बदलने में मदद करे, Flashcards बेहतर fit है।
+Anki से Flashcards में जाना अभी सामग्री का नया ड्राफ़्ट बनाने वाला वर्कफ़्लो है:
 
-## Ownership इस comparison की असली वजह है
+1. Anki के **Notes in Plain Text** विकल्प से मुख्यतः टेक्स्ट-आधारित नोट एक्सपोर्ट करें, जिससे टैब से अलग की गई टेक्स्ट फ़ाइल बनती है।
+2. वह TXT फ़ाइल Flashcards AI चैट में अटैच करें। अगर आप जानबूझकर एक्सपोर्ट को बदलते हैं, तो CSV भी स्वीकार की जाती है।
+3. फ़्रंट/बैक कार्ड ड्राफ़्ट और ज़रूरत के मुताबिक टैग साफ़ करने को कहें।
+4. सहेजने से पहले हर ड्राफ़्ट की जाँच करें।
+5. मीडिया को अलग से दोबारा बनाएँ या सत्यापित करें।
 
-Anki open source है, इसलिए यह usual open product vs closed product वाली कहानी नहीं है।
+यह रास्ता रिव्यू हिस्ट्री, देय तारीखें, FSRS मेमोरी, नोट टाइप, जनरेट किए गए कार्ड के आपसी संबंध, टेम्पलेट HTML/CSS, ऐड-ऑन व्यवहार या क्लोज़ और मीडिया की गारंटीशुदा सिमैंटिक्स को सुरक्षित नहीं रखता। [चरण-दर-चरण माइग्रेशन गाइड](/blog/migrate-from-anki-txt-export-open-source-flashcards/) साधारण डेक के लिए उपयोगी है। जिस कलेक्शन को सीधे `.apkg` इम्पोर्ट की ज़रूरत है, उसके लिए इसके बजाय [Anki विकल्पों की व्यापक तुलना](/blog/best-anki-alternatives/) देखें।
 
-ज्यादा interesting फर्क architectural direction में है।
+## कम जोखिम के साथ किसी प्रतिनिधि डेक पर परीक्षण करें
 
-Flashcards पूरे product stack को legible बनाने की कोशिश करता है: hosted app, public repository, self-hosting guide, API surface, local clients, और agent-oriented entrypoint। भले आप कभी self-host न करें, इससे tool के साथ रिश्ता बदलता है।
+यह जानने के लिए अपनी पूरी प्रोफ़ाइल माइग्रेट न करें कि नई रिव्यू स्क्रीन सहज लगती है या नहीं। अपने सामान्य वर्कफ़्लो के सबसे कठिन हिस्से को उस समय जाँचें जब Anki अभी भी सत्य का स्रोत बना हुआ हो।
 
-Study data disposable नहीं है। कुछ सालों के बाद आपकी cards उन चीजों का record बन जाती हैं जिन्हें आपने सीखने लायक माना, जिन्हें आप भूलते रहे, और जिन्हें दोहराते-दोहराते आखिर याद किया।
+1. **पहले Anki का बैकअप लें।** शेड्यूलिंग जानकारी और मीडिया के साथ पूरा `.colpkg` एक्सपोर्ट करें, फिर उसे सक्रिय प्रोफ़ाइल से बाहर कहीं रखें।
+2. **एक प्रतिनिधि डेक चुनें।** ऐसे कार्ड टाइप, टैग, क्लोज़ व्यवहार, तस्वीरें, ऑडियो, फ़ॉर्मूले और रिव्यू हिस्ट्री शामिल करें जो खराब माइग्रेशन को उजागर कर दें।
+3. **Anki के मूल फ़ॉर्मेट में एक कॉपी रखें।** Flashcards के लिए TXT या CSV कॉपी बनाने से पहले उस डेक को `.apkg` के रूप में एक्सपोर्ट करें।
+4. **ड्राफ़्ट बनाएँ, आँख बंद करके इम्पोर्ट न करें।** Flashcards से प्रीव्यू बनाने को कहें, फिर कार्ड की संख्या, फ़्रंट, बैक, टैग, फ़ॉर्मेटिंग और मीडिया संदर्भों की Anki से तुलना करें।
+5. **मानकर चलें कि क्यू फिर से शुरू होगी।** जाँचें कि इस सामग्री के लिए नई FSRS हिस्ट्री स्वीकार्य है। यह उम्मीद न करें कि एक ऐप में दिए गए जवाब दूसरे ऐप को अपडेट करेंगे।
+6. **इस्तेमाल की जाने वाली रिलीज़ सतहों को जाँचें।** वेब, iOS या Android पर रिव्यू और संपादन करें, किसी डिवाइस को ऑफ़लाइन करें, फिर कनेक्ट करें और पुष्टि करें कि बदलाव व मीडिया उम्मीद के मुताबिक हर जगह पहुँचते हैं।
+7. **बाधा के हल होने का प्रमाण मिलने तक दोनों सिस्टम रखें।** सामग्री का सफल ड्राफ़्ट यह साबित नहीं करता कि रोज़ाना रिव्यू, सिंक, एक्सपोर्ट और रिकवरी का वर्कफ़्लो आपके अनुकूल है।
 
-मुझे study tools का वह feel पसंद नहीं जिसमें यह data rented लगे।
+परीक्षण का नतीजा दो टूल भी हो सकता है: स्थापित डेक Anki में रहें, जबकि कोई नया विषय Flashcards में शुरू हो। जबरन पूरी तरह ऐप बदलने से यह साफ़ नतीजा बेहतर है।
 
-इसलिए real self-hosting path वाला **open source Anki alternative** ध्यान देने लायक है। इसलिए नहीं कि हर व्यक्ति को weekend पर server चलाना चाहिए। इसलिए कि serious learning systems users को options छोड़ने चाहिए।
+## Anki किसे इस्तेमाल करना चाहिए?
 
-## Migration practical होनी चाहिए, magical नहीं
+Anki चुनें अगर आप:
 
-Anki छोड़ने का सबसे कठिन हिस्सा यह decide करना नहीं है कि दूसरा product अच्छा दिखता है।
+- उसकी रिव्यू क्यू पर पहले से भरोसा करते हैं और शेड्यूलिंग हिस्ट्री रीसेट नहीं करना चाहते;
+- कस्टम नोट टाइप, टेम्पलेट, ऐड-ऑन, साझा डेक या मीडिया के सटीक व्यवहार पर निर्भर हैं;
+- परिपक्व डेस्कटॉप टूल, पूरे कलेक्शन के एक्सपोर्ट और वर्षों के कम्युनिटी दस्तावेज़ चाहते हैं;
+- अपनी रिव्यू हिस्ट्री से FSRS पैरामीटर ऑप्टिमाइज़ेशन चाहते हैं;
+- स्वयं होस्ट किया गया सिंक सर्वर चाहते हैं, लेकिन स्वयं होस्ट किया गया ब्राउज़र ऐप और बैकएंड स्टैक नहीं।
 
-सबसे कठिन हिस्सा cards move करना है।
+किसी परीक्षा या पहले से अच्छी तरह चल रहे दूसरे महत्वपूर्ण वर्कफ़्लो के लिए Anki के साथ रहना बदलाव का विरोध नहीं है। यह काम कर रहे पढ़ाई के इन्फ़्रास्ट्रक्चर की रक्षा करता है।
 
-Flashcards को यह pretend करने की जरूरत नहीं कि हर deck shape के लिए migration one click है। यह honest नहीं होगा। Anki decks में templates, media, cloze behavior, plugins, और सालों के local decisions हो सकते हैं।
+## Flashcards किसे आज़माना चाहिए?
 
-Realistic path narrower है:
+Flashcards आज़माएँ अगर आप:
 
-- जब deck mostly front/back material हो, useful Anki content को text के रूप में export करें
-- उस content को Flashcards में upload या paste करें
-- cleaner cards draft करने के लिए AI chat use करें
-- final cards बनाने से पहले draft review करें
-- advanced Anki-specific behavior वाले decks के लिए Anki रखें
+- नया डेक शुरू कर रहे हैं या आपके पास मुख्यतः साधारण फ़्रंट/बैक सामग्री है;
+- वेब, iOS, Android, बैकएंड, ऑथेंटिकेशन, सिंक और इन्फ़्रास्ट्रक्चर को समेटने वाली एक MIT-लाइसेंस वाली रिपॉज़िटरी चाहते हैं;
+- बदलावों को पहले लोकल रूप से सहेजने और फिर अपने-आप सिंक्रोनाइज़ करने वाला ऑफ़लाइन-फ़र्स्ट तरीका पसंद करते हैं;
+- स्रोत फ़ाइलों और समीक्षा किए गए कार्ड ड्राफ़्ट के साथ बिल्ट-इन AI मदद चाहते हैं;
+- टर्मिनल और AI टूल से MCP या Agent API एक्सेस चाहते हैं;
+- AWS-आधारित स्वयं होस्टिंग का काम और माइग्रेशन व एक्सपोर्ट की सटीकता में मौजूदा कमियाँ स्वीकार करते हैं।
 
-यह glamorous नहीं है। यह workable है।
+आप [होस्ट किए गए ऐप](https://app.flashcards-open-source-app.com/) से शुरू कर सकते हैं, [शुरुआती गाइड](/docs/getting-started/) पढ़ सकते हैं या [सोर्स](https://github.com/kirill-markin/flashcards-open-source-app) देख सकते हैं। इनमें से किसी के लिए भी मौजूदा Anki कलेक्शन को स्थानांतरित करना ज़रूरी नहीं है।
 
-Longer version के लिए [how to migrate from Anki](https://flashcards-open-source-app.com/blog/migrate-from-anki-txt-export-open-source-flashcards/) से शुरू करें।
+## व्यावहारिक जवाब
 
-## Practical comparison table
+**Anki बनाम Flashcards Open Source App** की तुलना करने वाले ज़्यादातर स्थापित उपयोगकर्ताओं के लिए Anki को मुख्य ऐप बने रहना चाहिए। इसमें बेहतर कलेक्शन मॉडल, माइग्रेशन की सटीकता, कस्टमाइज़ेशन की सतह और इकोसिस्टम है, साथ ही यह पहले से FSRS और भरोसेमंद ऑफ़लाइन क्लाइंट देता है।
 
-| सवाल | Anki | Flashcards Open Source App |
-|---|---|---|
-| सबसे बड़ी current strength | Mature spaced repetition ecosystem | Modern open-source product direction |
-| Scheduler | Deep history और FSRS support | Core product default के रूप में FSRS-based review |
-| Card creation | Manual control, imports, add-ons | AI chat, workspace context, file attachments |
-| Ecosystem | Huge decks, plugins, community advice | Younger ecosystem, cleaner starting point |
-| Product feel | Powerful but old-school | Cleaner web और mobile direction |
-| Ownership | Open-source desktop roots | Open-source stack plus self-hosting और agent API |
-| Best fit | जिन्हें आज maximum maturity चाहिए | जिन्हें modern open-source study stack चाहिए |
-
-यह honest version है।
-
-Anki stronger है अगर आप accumulated depth मापते हैं। Flashcards ज्यादा interesting है अगर आप देखते हैं कि category आगे कहाँ जानी चाहिए।
-
-## किसे Anki पर रहना चाहिए
-
-Anki पर रहें अगर:
-
-- आपका current deck काम कर रहा है
-- आप advanced templates या add-ons पर depend करते हैं
-- आप large community decks use करते हैं
-- आपको आज सबसे mature study ecosystem चाहिए
-- आप migration पर attention spend नहीं करना चाहते
-
-जो system already आपको हर दिन review करवाता है, उसे replace करने का कोई prize नहीं है।
-
-कभी-कभी सही answer old tool रखना और energy subject सीखने पर लगाना होता है।
-
-## किसे Flashcards try करना चाहिए
-
-Flashcards try करें अगर:
-
-- आपको open source **Anki alternative** चाहिए
-- आपको web और mobile product feel matter करता है
-- आपको custom setup बनाए बिना FSRS चाहिए
-- आपको real source material से cards draft करने में AI help चाहिए
-- आपको self-hosting अभी या बाद में important लगता है
-- आपको terminal या AI workflows के लिए agent-accessible API चाहिए
-
-यह especially true है अगर आप नया study project शुरू कर रहे हैं। Fresh start करना giant legacy deck migrate करने से आसान है। अगर आप नया language deck, certification deck, या exam deck बनाने वाले हैं, तो old habits harden होने से पहले अलग tool test करने का अच्छा moment है।
-
-## Bottom line
-
-अगर priority maximum maturity है, Anki अभी भी safer choice है।
-
-अगर Anki से frustration algorithm नहीं बल्कि उसके आसपास की पूरी product experience है, Flashcards ज्यादा interesting choice है।
-
-यह distinction important है। **Anki vs Flashcards** search करने वाले बहुत लोग spaced repetition reject नहीं कर रहे। वे उस feeling को reject कर रहे हैं कि serious study software को पुराने era में stuck रहना ही होगा।
-
-मुझे नहीं लगता कि Flashcards आज हर dimension में Anki को beat करता है।
-
-लेकिन मुझे लगता है कि यह एक अलग सवाल का बेहतर जवाब है: अगर आज open-source flashcards app design होती, तो वह कैसी feel करनी चाहिए?
-
-## Flashcards को modern open-source Anki alternative की तरह try करें
-
-अगर आप यही comparison कर रहे हैं, यहाँ से शुरू करें:
-
-- [Flashcards खोलें](https://flashcards-open-source-app.com/)
-- [Hosted app खोलें](https://app.flashcards-open-source-app.com/)
-- [Getting started guide पढ़ें](https://flashcards-open-source-app.com/docs/getting-started/)
-- [Self-hosting guide पढ़ें](https://flashcards-open-source-app.com/docs/self-hosting/)
-- [GitHub पर source देखें](https://github.com/kirill-markin/flashcards-open-source-app)
-
-और अगर आप wider field compare कर रहे हैं, तो अगला लेख पढ़ें: [Anki vs Quizlet vs Open-Source Flashcards App](https://flashcards-open-source-app.com/blog/anki-vs-quizlet-vs-open-source-flashcards-app/)।
-
-Best tool हमेशा newest नहीं होता। Best tool वह है जिसके tradeoff के साथ आप सालों तक रह सकते हैं।
+Flashcards एक सीमित समूह के लिए विश्वसनीय ओपन-सोर्स Anki विकल्प है: ऐसे लोग जो पूरे स्टैक के सोर्स तक पहुँच, उपलब्ध वेब और नेटिव ऐप, ऑफ़लाइन-फ़र्स्ट सिंक, बिल्ट-इन AI और एजेंट वर्कफ़्लो के बदले नए शेड्यूल से शुरुआत करने को तैयार हैं। इस समझौते को किसी एक प्रतिनिधि डेक के साथ जाँचें। जिस सीमा से आप बचना चाहते थे, वह सचमुच दूर हो जाए तो उसके बाद इस्तेमाल बढ़ाएँ।
