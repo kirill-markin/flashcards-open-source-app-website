@@ -20,6 +20,7 @@ import type {
 } from "mdast";
 import { remark } from "remark";
 import gfm from "remark-gfm";
+import math from "remark-math";
 import {
   DEFAULT_LOCALE,
   getLocalizedPathname,
@@ -27,8 +28,10 @@ import {
   type AppLocale,
 } from "./i18n";
 import { assertSafeMarkdownDestinationInput } from "./markdownLinks";
+import { transformPublicCatalogCardMathBlocks } from "./publicCatalogCardMath";
 import { isPublicCatalogSharedPageRoutePathname } from "./publicCatalogUrls";
 import { hasRouteTranslation } from "./routeTranslations";
+import { SITE_URL } from "./site";
 
 interface MarkdownFragmentContext {
   readonly authorizedImageDefinitionIdentifiers: ReadonlySet<string>;
@@ -44,6 +47,7 @@ interface MarkdownDestinationResolution {
 }
 
 const packageRelativeMediaFileNamePattern = /^[A-Za-z0-9][A-Za-z0-9._-]*$/u;
+const siteOrigin = new URL(SITE_URL).origin;
 
 function createInvalidDestinationError(
   context: MarkdownFragmentContext,
@@ -608,13 +612,12 @@ function normalizeRootContent(
 
 function createNormalizedPublicCatalogMarkdownRoot(
   markdown: string,
+  parsedRoot: Root,
   minimumHeadingDepth: Heading["depth"],
   locale: AppLocale,
   resolveDestination: (destination: string) => MarkdownDestinationResolution,
   sourceContext: string,
 ): Root {
-  const processor = remark().use(gfm);
-  const parsedRoot = processor.parse(markdown) as Root;
   const definitions = new Map<string, Definition>();
   const headingDepths: Heading["depth"][] = [];
 
@@ -670,25 +673,6 @@ function createNormalizedPublicCatalogMarkdownRoot(
   };
 }
 
-function normalizePublicCatalogMarkdownFragment(
-  markdown: string,
-  minimumHeadingDepth: Heading["depth"],
-  locale: AppLocale,
-  resolveDestination: (destination: string) => MarkdownDestinationResolution,
-  sourceContext: string,
-): string {
-  const processor = remark().use(gfm);
-  const normalizedRoot = createNormalizedPublicCatalogMarkdownRoot(
-    markdown,
-    minimumHeadingDepth,
-    locale,
-    resolveDestination,
-    sourceContext,
-  );
-
-  return processor.stringify(normalizedRoot).trim();
-}
-
 function getPlainTextChildSeparator(node: Nodes): string {
   if (node.type === "root" || node.type === "blockquote") {
     return "\n\n";
@@ -714,6 +698,10 @@ function projectMarkdownNodeToPlainTextSegments(
   node: Nodes,
 ): ReadonlyArray<ProjectedPlainTextSegment> {
   if (node.type === "inlineCode" || node.type === "code") {
+    return [{ preserveWhitespace: true, value: node.value }];
+  }
+
+  if (node.type === "inlineMath" || node.type === "math") {
     return [{ preserveWhitespace: true, value: node.value }];
   }
 
@@ -820,17 +808,22 @@ export function normalizePublicCatalogDescriptionMarkdownFragment(
   locale: AppLocale,
   sourceContext: string,
 ): string {
-  return normalizePublicCatalogMarkdownFragment(
+  const processor = remark().use(gfm);
+  const normalizedRoot = createNormalizedPublicCatalogMarkdownRoot(
     markdown,
+    processor.parse(markdown) as Root,
     3,
     locale,
     (destination) => ({ destination, isAuthorizedImage: false }),
     sourceContext,
   );
+
+  return processor.stringify(normalizedRoot).trim();
 }
 
 function createCardMediaDestinationResolver(
   mediaDownloadUrlByKey: ReadonlyMap<string, string>,
+  locale: AppLocale,
   sourceContext: string,
 ): (destination: string) => MarkdownDestinationResolution {
   return (destination): MarkdownDestinationResolution => {
@@ -848,6 +841,22 @@ function createCardMediaDestinationResolver(
     }
 
     if (destination.startsWith("media/") === false) {
+      if (destination.startsWith(siteOrigin) && URL.canParse(destination)) {
+        const parsedDestination = new URL(destination);
+
+        if (parsedDestination.origin === siteOrigin) {
+          const localizedDestination = localizeRootRelativeDestination(
+            `${parsedDestination.pathname}${parsedDestination.search}${parsedDestination.hash}`,
+            locale,
+          );
+
+          return {
+            destination: `${parsedDestination.origin}${localizedDestination}`,
+            isAuthorizedImage: false,
+          };
+        }
+      }
+
       return { destination, isAuthorizedImage: false };
     }
 
@@ -898,13 +907,26 @@ export function normalizePublicCatalogCardMarkdownFragment(
   mediaDownloadUrlByKey: ReadonlyMap<string, string>,
   sourceContext: string,
 ): string {
-  return normalizePublicCatalogMarkdownFragment(
+  const processor = remark().use(gfm).use(math);
+  const parsedRoot = transformPublicCatalogCardMathBlocks(
+    processor.parse(markdown) as Root,
     markdown,
-    4,
-    locale,
-    createCardMediaDestinationResolver(mediaDownloadUrlByKey, sourceContext),
     sourceContext,
   );
+  const normalizedRoot = createNormalizedPublicCatalogMarkdownRoot(
+    markdown,
+    parsedRoot,
+    4,
+    locale,
+    createCardMediaDestinationResolver(
+      mediaDownloadUrlByKey,
+      locale,
+      sourceContext,
+    ),
+    sourceContext,
+  );
+
+  return processor.stringify(normalizedRoot).trim();
 }
 
 export function projectPublicCatalogCardMarkdownToPlainText(
@@ -913,11 +935,22 @@ export function projectPublicCatalogCardMarkdownToPlainText(
   mediaDownloadUrlByKey: ReadonlyMap<string, string>,
   sourceContext: string,
 ): string {
+  const processor = remark().use(gfm).use(math);
+  const parsedRoot = transformPublicCatalogCardMathBlocks(
+    processor.parse(markdown) as Root,
+    markdown,
+    sourceContext,
+  );
   const normalizedRoot = createNormalizedPublicCatalogMarkdownRoot(
     markdown,
+    parsedRoot,
     4,
     locale,
-    createCardMediaDestinationResolver(mediaDownloadUrlByKey, sourceContext),
+    createCardMediaDestinationResolver(
+      mediaDownloadUrlByKey,
+      locale,
+      sourceContext,
+    ),
     sourceContext,
   );
   const plainText = normalizeProjectedPlainTextSegments(

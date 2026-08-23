@@ -13,7 +13,7 @@ type MarkdownLinkState = Parameters<typeof defaultHandlers.link>[0];
 type MarkdownLinkNode = Parameters<typeof defaultHandlers.link>[1];
 type MarkdownLinkElement = ReturnType<typeof defaultHandlers.link>;
 
-const markdownSanitizeSchema: Schema = {
+export const markdownSanitizeSchema: Schema = {
   ...defaultSchema,
   attributes: {
     ...defaultSchema.attributes,
@@ -22,6 +22,7 @@ const markdownSanitizeSchema: Schema = {
       ["target", "_blank"],
       ["rel", "noopener", "noreferrer"],
     ],
+    code: [["className", /^language-./u, "math-inline", "math-display"]],
   },
 };
 
@@ -49,9 +50,16 @@ function renderMarkdownLink(
   };
 }
 
-const markdownHandlers = {
+export const markdownHandlers = {
   link: renderMarkdownLink,
 } satisfies Readonly<Handlers>;
+
+export function prepareMarkdownForHtml(
+  markdown: string,
+  locale: AppLocale,
+): string {
+  return localizeInternalLinks(markdown, locale);
+}
 
 export async function renderMarkdownToHtml(
   markdown: string,
@@ -63,6 +71,6 @@ export async function renderMarkdownToHtml(
       handlers: markdownHandlers,
       sanitize: markdownSanitizeSchema,
     })
-    .process(localizeInternalLinks(markdown, locale));
+    .process(prepareMarkdownForHtml(markdown, locale));
   return result.toString();
 }

@@ -44,6 +44,7 @@ import {
   renderPublicCatalogDescriptionMarkdownToHtml,
 } from "./publicCatalogMarkdownHtml";
 import {
+  normalizePublicCatalogCardMarkdownFragment,
   projectPublicCatalogCardMarkdownToPlainText,
 } from "./publicCatalogMarkdownFragment";
 import { parsePublicCatalogDump } from "./publicCatalogParser";
@@ -2430,6 +2431,182 @@ test("renders catalog Markdown with safe images and nested heading depths", asyn
   assert.match(
     packageDescriptionHtml,
     /href="https:\/\/example\.com\/package"[^>]*>Ordinary link<\/a>/u,
+  );
+});
+
+test("renders only eligible catalog card math as standalone static display blocks", async () => {
+  const sourceContext = "Public catalog package version version-1 card card-1 frontText";
+  const supportedMarkdown = [
+    "Before $x$ after",
+    "",
+    "$$",
+    String.raw`\int_0^1 x^2\,dx = \frac{1}{3}`,
+    "$$",
+  ].join("\n");
+  const supportedHtml = await renderPublicCatalogCardMarkdownToHtml(
+    supportedMarkdown,
+    "en",
+    new Map(),
+    sourceContext,
+  );
+  const normalizedMarkdown = normalizePublicCatalogCardMarkdownFragment(
+    supportedMarkdown,
+    "en",
+    new Map(),
+    sourceContext,
+  );
+
+  assert.equal(supportedHtml.match(/class="katex-display"/gu)?.length, 2);
+  assert.doesNotMatch(supportedHtml, /math-inline/u);
+  assert.match(supportedHtml, /<p>Before<\/p>/u);
+  assert.match(supportedHtml, /<p>after<\/p>/u);
+  assert.match(supportedHtml, /<math xmlns="http:\/\/www\.w3\.org\/1998\/Math\/MathML"/u);
+  assert.match(
+    normalizedMarkdown,
+    /Before\n\n\$\$\nx\n\$\$\n\nafter\n\n\$\$\n\\int_0\^1 x\^2\\,dx = \\frac\{1\}\{3\}\n\$\$/u,
+  );
+
+  const nestedLiteralMarkdown = [
+    "**$strong$**",
+    "",
+    "- $list_item$",
+    "",
+    "[$link_label$](https://flashcards-open-source-app.com)",
+    "",
+    "`$inline_code$`",
+    "",
+    "```math",
+    "$fenced_code$",
+    "```",
+    "",
+    "    $indented_code$",
+    "",
+    "$$ inline $$",
+    "",
+    "Price: \\$5",
+    "",
+    "Unbalanced $x",
+  ].join("\n");
+  const nestedLiteralHtml = await renderPublicCatalogCardMarkdownToHtml(
+    nestedLiteralMarkdown,
+    "en",
+    new Map(),
+    sourceContext,
+  );
+
+  assert.doesNotMatch(nestedLiteralHtml, /class="katex/u);
+  assert.match(nestedLiteralHtml, /<strong>\$strong\$<\/strong>/u);
+  assert.match(nestedLiteralHtml, /<li>\$list_item\$<\/li>/u);
+  assert.match(nestedLiteralHtml, />\$link_label\$<\/a>/u);
+  assert.match(nestedLiteralHtml, /<code>\$inline_code\$<\/code>/u);
+  assert.match(nestedLiteralHtml, /<pre><code>\$fenced_code\$/u);
+  assert.match(nestedLiteralHtml, /<pre><code>\$indented_code\$/u);
+  assert.match(nestedLiteralHtml, /\$\$ inline \$\$/u);
+  assert.match(nestedLiteralHtml, /Price: \$5/u);
+  assert.match(nestedLiteralHtml, /Unbalanced \$x/u);
+
+  const referenceLiteralHtml = await renderPublicCatalogCardMarkdownToHtml(
+    [
+      "Reference side with $reference$ and [documentation][docs].",
+      "",
+      "[docs]: https://flashcards-open-source-app.com/docs/",
+    ].join("\n"),
+    "en",
+    new Map(),
+    sourceContext,
+  );
+
+  assert.doesNotMatch(referenceLiteralHtml, /class="katex/u);
+  assert.match(referenceLiteralHtml, /\$reference\$/u);
+  assert.match(
+    referenceLiteralHtml,
+    /href="https:\/\/flashcards-open-source-app\.com\/docs\/"/u,
+  );
+
+  await assert.rejects(
+    renderPublicCatalogCardMarkdownToHtml(
+      "Invalid $\\frac{1}{$",
+      "en",
+      new Map(),
+      sourceContext,
+    ),
+    /version-1 card card-1 frontText contains invalid supported LaTeX formula.*KaTeX error/u,
+  );
+  const rejectedTrustCommandCases: ReadonlyArray<readonly [string, RegExp]> = [
+    [
+      String.raw`Unsafe $\href{https://example.com}{x}$`,
+      /version-1 card card-1 frontText contains invalid supported LaTeX formula.*KaTeX command \\href requires trusted output/u,
+    ],
+    [
+      String.raw`Unsafe $\href{1https://example.com}{x}$`,
+      /version-1 card card-1 frontText contains invalid supported LaTeX formula.*KaTeX command \\href requires trusted output/u,
+    ],
+    [
+      String.raw`Unsafe $\url{1https://example.com}$`,
+      /version-1 card card-1 frontText contains invalid supported LaTeX formula.*KaTeX command \\url requires trusted output/u,
+    ],
+    [
+      String.raw`Unsafe $\includegraphics{1https://example.com/image.png}$`,
+      /version-1 card card-1 frontText contains invalid supported LaTeX formula.*KaTeX command \\includegraphics requires trusted output/u,
+    ],
+    [
+      String.raw`Unsafe $\def\unsafe{\href{1https://example.com}{x}}\unsafe$`,
+      /version-1 card card-1 frontText contains invalid supported LaTeX formula.*KaTeX command \\href requires trusted output/u,
+    ],
+  ];
+
+  for (const [markdown, expectedError] of rejectedTrustCommandCases) {
+    await assert.rejects(
+      renderPublicCatalogCardMarkdownToHtml(
+        markdown,
+        "en",
+        new Map(),
+        sourceContext,
+      ),
+      expectedError,
+    );
+  }
+
+  await assert.rejects(
+    renderPublicCatalogCardMarkdownToHtml(
+      "Safe formula $x$ <script>alert('unsafe')</script>",
+      "en",
+      new Map(),
+      sourceContext,
+    ),
+    /Public catalog authored Markdown must not contain raw HTML/u,
+  );
+});
+
+test("projects accepted catalog card formulas as useful delimiter-free plain text", () => {
+  const plainText = projectPublicCatalogCardMarkdownToPlainText(
+    [
+      "Before $x$ after",
+      "",
+      "$$",
+      String.raw`\int_0^1 x^2\,dx = \frac{1}{3}`,
+      "$$",
+      "",
+      "**$nested$**",
+    ].join("\n"),
+    "en",
+    new Map(),
+    "Public catalog package version version-1 card card-1 backText",
+  );
+
+  assert.equal(
+    plainText,
+    [
+      "Before",
+      "",
+      "x",
+      "",
+      "after",
+      "",
+      String.raw`\int_0^1 x^2\,dx = \frac{1}{3}`,
+      "",
+      "$nested$",
+    ].join("\n"),
   );
 });
 
