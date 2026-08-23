@@ -78,6 +78,8 @@ For example, if aromatic amino acids keep blurring together, card that distincti
 
 This matters because **MCAT amino acids flashcards** are not difficult because of volume. They are difficult because the same set of molecules gets tested through several different prompts.
 
+If you want a ready-made starting point, [this 120-card set for the 20 standard amino acids](/catalog/packages/amino-acid-flashcards/) separates side-chain recognition and drawing from code recall. It does not cover charge states, pKa values, or MCAT-specific classifications, so treat it as a focused recall set rather than a complete amino-acid review.
+
 I would be careful with image-heavy cards that ask you to decode an entire structure plus every property plus one weird exception. Those usually feel high yield and review badly.
 
 ## Equations should be stored as decision tools, not poster art
