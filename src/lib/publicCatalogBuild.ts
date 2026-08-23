@@ -9,7 +9,7 @@ export const publicCatalogGeneratedFileName = "public-catalog.json";
 
 const publicCatalogFetchAttempts = 3;
 const publicCatalogFetchRetryDelayMs = 350;
-const publicCatalogFetchTimeoutMs = 15_000;
+const publicCatalogFetchTimeoutMs = 30_000;
 
 export type PublicCatalogBuildConfiguration =
   | Readonly<{ enabled: false }>
