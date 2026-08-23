@@ -1,3 +1,4 @@
+import "katex/dist/katex.min.css";
 import Link from "next/link";
 import { AncestorBreadcrumbs } from "@/components/Breadcrumbs";
 import { PublicCatalogCover } from "@/components/PublicCatalogCover";

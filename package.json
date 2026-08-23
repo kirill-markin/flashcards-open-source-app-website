@@ -22,13 +22,19 @@
     "@vercel/analytics": "^2.0.1",
     "gray-matter": "^4.0.3",
     "hast-util-sanitize": "^5.0.2",
+    "katex": "^0.16.47",
     "mdast-util-to-hast": "^13.2.1",
     "next": "16.3.1",
     "react": "^19.2.8",
     "react-dom": "^19.2.8",
+    "rehype-katex": "^7.0.1",
+    "rehype-stringify": "^10.0.1",
     "remark": "^15.0.1",
     "remark-gfm": "^4.0.1",
-    "remark-html": "^16.0.1"
+    "remark-html": "^16.0.1",
+    "remark-math": "^6.0.0",
+    "remark-rehype": "^11.1.2",
+    "unist-util-visit": "^5.1.0"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3.3.6",
