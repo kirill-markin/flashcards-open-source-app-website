@@ -27,7 +27,15 @@ async function renderNormalizedPublicCatalogMarkdownToHtml(
 }
 
 function sanitizeMarkdownHtml(): (tree: Root) => Root {
-  return (tree: Root): Root => sanitize(tree, markdownSanitizeSchema);
+  return (tree: Root): Root => {
+    const sanitizedTree = sanitize(tree, markdownSanitizeSchema);
+
+    if (sanitizedTree.type !== "root") {
+      throw new Error("Catalog Markdown sanitizer returned a non-root tree.");
+    }
+
+    return sanitizedTree;
+  };
 }
 
 function restrictKatexToAcceptedDisplayMath(): (tree: Root) => Root {
