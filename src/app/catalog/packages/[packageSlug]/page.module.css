@@ -445,6 +445,20 @@
   line-height: 1.55;
 }
 
+.cardSide > .markdown :global(.katex-display) {
+  max-inline-size: 100%;
+  margin-block: 12px;
+  padding-block-end: 4px;
+  direction: ltr;
+  overflow-x: auto;
+  unicode-bidi: isolate;
+}
+
+.cardSide > .markdown :global(.katex-display) > :global(.katex) {
+  min-inline-size: max-content;
+  font-size: 1em;
+}
+
 .cardSideLabel {
   margin: 0 0 9px;
   color: var(--text-tertiary);
