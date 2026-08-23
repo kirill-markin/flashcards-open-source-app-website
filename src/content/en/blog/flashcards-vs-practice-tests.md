@@ -83,6 +83,8 @@ A biology flashcard might ask:
 
 A practice question might ask you to read a short passage, notice which experimental change affects ATP output, and choose the best explanation.
 
+The [Cell Organelle Flashcards package](https://flashcards-open-source-app.com/catalog/packages/cell-organelles-functions/) is a bounded example of the first job: 48 text-only cards pair 24 common structures with their primary functions in both directions. It does not cover diagrams, pathways, or the applied reasoning in the practice question.
+
 Those are related.
 
 They are not interchangeable.
