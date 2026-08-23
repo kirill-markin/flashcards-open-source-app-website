@@ -88,6 +88,8 @@ Good A&P or biology cards usually test one fact, one distinction, or one step:
 - What is the role of the ribosome?
 - What happens during osmosis?
 
+If cell structures are one of your weak areas, [this 48-card organelle package](https://flashcards-open-source-app.com/catalog/packages/cell-organelles-functions/) drills the names and primary functions of 24 common structures in both directions. It is text-only and not HESI-specific; it does not cover diagrams, pathways, or the rest of biology.
+
 What usually goes wrong:
 
 - one card tries to explain an entire body system

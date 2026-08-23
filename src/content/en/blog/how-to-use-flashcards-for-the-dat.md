@@ -111,6 +111,8 @@ The practical workflow is simple:
 
 Examples: You missed a biology item because you mixed up lysosome and peroxisome roles. Make that distinction the card. You missed an organic chemistry item because you ignored the acid-base step before predicting the product. Card that decision point. You missed a QR problem because you set up the ratio backward. Card the setup rule, not the whole story problem.
 
+For a smaller foundation, [this 24-structure organelle package](https://flashcards-open-source-app.com/catalog/packages/cell-organelles-functions/) drills names and primary functions in both directions. It is text-only and not DAT-specific; it does not cover diagrams, pathways, or the rest of cell and molecular biology.
+
 [How to Turn Practice Questions Into Flashcards in 2026](/blog/how-to-turn-practice-questions-into-flashcards/) goes deeper on this workflow, and it fits the DAT especially well because the exam punishes repeated small misses more than dramatic knowledge gaps.
 
 ## Let AI draft the rough cards, then edit like a skeptic
