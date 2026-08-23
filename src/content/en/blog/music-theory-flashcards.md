@@ -66,6 +66,8 @@ Back: F (or F4 when the course requires scientific pitch notation)
 Source: Course lesson 2, staff notation
 ```
 
+For a ready-made identification set, the [music note flashcards deck](/catalog/packages/music-note-flashcards-treble-bass/) has 18 visual cards covering every natural note on the five lines and four spaces of the treble and bass clefs. It practices staff notation to letter name only, without ledger lines, accidentals, or reverse placement.
+
 Now reverse the task:
 
 ```text
@@ -200,7 +202,7 @@ Tags let you assemble a short contrast set without splitting each tiny category 
 
 [Flashcards Open Source App](/features/) provides front/back cards, decks and tags, and FSRS due reviews with `Again`, `Hard`, `Good`, and `Easy`. It is offline-first on the web, iOS, and Android. Its source is available under the MIT license, with self-hosting supported.
 
-AI chat can work with uploaded files or images to draft candidate cards from a lesson page or notation crop. Check every pitch, accidental, symbol, and answer against the controlling source before saving. The app does not provide a notation editor, ear-training engine, official music-theory course or deck, automatic fact verification, or automatic interleaving. Those jobs remain in your course materials and music practice.
+AI chat can work with uploaded files or images to draft candidate cards from a lesson page or notation crop. Check every pitch, accidental, symbol, and answer against the controlling source before saving. The app does not provide a notation editor, ear-training engine, full music-theory course, automatic fact verification, or automatic interleaving. Those jobs remain in your course materials and music practice.
 
 The [Getting Started guide](/docs/getting-started/) covers creating decks and beginning due reviews.
 
