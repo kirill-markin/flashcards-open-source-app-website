@@ -57,6 +57,8 @@ Good period cards usually test one relationship, not one label:
 
 That is much more useful than front: `Period 7` and back: half a chapter summary.
 
+If presidential order is one missing chronology layer, [U.S. Presidents Flashcards: All 47 Presidencies in Order](/catalog/packages/us-presidents-in-order-flashcards/) provides 92 two-way cards linking the 47 presidency numbers to the 45 people who served. It stops at names, numbers, and term years for reference, so policies, events, and APUSH evidence still belong in course-specific cards and source practice.
+
 If the bigger problem is card quality, [How to Make Better Flashcards in 2026](/blog/how-to-make-better-flashcards/) is the best cleanup pass before you add more.
 
 ## Themes make APUSH cards more reusable than date-only cards
