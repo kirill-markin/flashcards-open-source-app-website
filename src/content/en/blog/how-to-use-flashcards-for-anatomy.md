@@ -106,6 +106,8 @@ Students remember the names, then miss the question because they cannot rebuild 
 
 Those are not label problems. They are map problems.
 
+The [31-card Anatomical Directional Terms deck](https://flashcards-open-source-app.com/catalog/packages/anatomical-directional-terms/) is a compact baseline for this work. It drills anterior/posterior, superior/inferior, lateral/medial, proximal/distal, and superficial/deep through direct definitions, reverse recall, and applied body-location examples, then leaves regional anatomy and course-specific relationships for your own cards.
+
 So make direct map cards:
 
 - What is lateral to the femoral artery?
