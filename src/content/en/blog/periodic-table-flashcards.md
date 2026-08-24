@@ -68,6 +68,8 @@ Back: C for carbon and O for oxygen.
 
 The second card tests formula reading, not another symbol for cobalt. You still need to read symbols inside real formulas; the card just repairs the capitalization mistake.
 
+Once element symbols feel stable, the separate [Polyatomic Ion Flashcards deck](https://flashcards-open-source-app.com/catalog/packages/polyatomic-ion-flashcards/) moves to a different, bounded target: 30 commonly taught polyatomic-ion names and exact formulas with charges in both directions. Periodic-table cards do not cover polyatomic ions, and that recall drill does not replace compound-formula writing, nomenclature practice, or equation work.
+
 ### Atomic numbers, element identity, and protons
 
 Atomic number is the clean, stable identity field. It equals the number of protons in the nucleus. Isotopes of one element can have different neutron counts, but their proton count and atomic number remain the same.
