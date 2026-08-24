@@ -60,6 +60,8 @@ This is a maintenance boundary, not a promise that a `stable` card can never cha
 
 Without that split, a changed officeholder's name can look just as permanent as the number of amendments to the Constitution. The `current-answer` tag makes the difference visible.
 
+For a separate stable-history drill, [the 92-card U.S. presidents in order deck](/catalog/packages/us-presidents-in-order-flashcards/) practices presidency number and name recall in both directions. It does not cover the USCIS question bank or keep current officeholder answers up to date, so keep it outside the interview-specific deck.
+
 ## Build from the two official USCIS documents
 
 Start with two official documents:

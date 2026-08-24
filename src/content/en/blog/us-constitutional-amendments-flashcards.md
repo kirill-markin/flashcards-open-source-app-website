@@ -134,6 +134,8 @@ A useful contrast prompt names the fork: `Which amendment covers jury trial in f
 
 “President rules” is too broad for a useful answer. Ask whether the card concerns the electoral process, the start of a term, limits on election wins, or succession and inability.
 
+If presidential names and ordinal positions are the separate weak spot, [this two-way U.S. presidents chronology deck](/catalog/packages/us-presidents-in-order-flashcards/) drills all 47 presidency numbers and the 45 people who served. It does not teach the election rules, term limits, succession, or historical context covered here.
+
 ### The short pairs
 
 - IX says enumerating certain rights does not deny other rights retained by the people; X reserves undelegated and unprohibited powers to the states or the people.
