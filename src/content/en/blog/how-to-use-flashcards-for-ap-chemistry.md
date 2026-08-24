@@ -20,6 +20,8 @@ That is exactly where **AP Chemistry flashcards** help, if you give them the rig
 
 So the useful version of **how to use flashcards for AP Chemistry** is narrower than most student decks. You are not trying to squeeze the whole course into cards. You are building a memory layer for the parts that should feel fast before you start working the chemistry.
 
+If polyatomic-ion names and charges are one of those slow recall points, the general-purpose [Polyatomic Ion Flashcards deck](https://flashcards-open-source-app.com/catalog/packages/polyatomic-ion-flashcards/) drills both directions: name to exact formula with charge, then charged formula back to name. Use it for that focused recall only: it is not a complete or AP-aligned chemistry deck, and it does not replace nomenclature practice, equation work, or problem solving.
+
 ![AP Chemistry flashcards study desk with equations, lab notes, and review cards](/blog/how-to-use-flashcards-for-ap-chemistry.png)
 
 ## AP Chemistry is not one memory problem
