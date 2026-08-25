@@ -59,6 +59,8 @@ These cloze deletion flashcards keep useful context:
 
 Each sentence narrows the task without removing it. The remaining words also match a likely use: completing a sentence, recalling an anatomical relation, or connecting a status code with its meaning.
 
+If HTTP codes are your target, the [HTTP Status Code Flashcards package](/catalog/packages/http-status-code-flashcards/) drills 61 current IANA assignments from code to reason phrase and practical use case, with selective reverse, class, comparison, and non-current reference cards kept separate.
+
 SuperMemo's [Twenty Rules of Formulating Knowledge](https://www.supermemo.com/en/blog/twenty-rules-of-formulating-knowledge) presents cloze deletion as a quick way to turn understood source material into review items. The same guide recommends the minimum information principle and compact, unambiguous wording. Hiding one word inside a textbook paragraph misses both goals.
 
 Context can also prevent ambiguity. `GRE` means different things across fields, so a cue such as `biochemistry: GRE` identifies the intended expansion. Useful context identifies the memory; excessive context completes it for you.
