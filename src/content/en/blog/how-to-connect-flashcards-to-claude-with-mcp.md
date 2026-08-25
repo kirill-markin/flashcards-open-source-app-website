@@ -116,6 +116,8 @@ Use my Personal workspace.
 
 I would start with one or two cards, not fifty. The point is to confirm the connector flow, the workspace choice, and the approval pattern before you batch anything larger.
 
+If `404` is the subject rather than just a connection test, the [HTTP Status Code Flashcards package](/catalog/packages/http-status-code-flashcards/) is already built for that study job. Its 102 cards cover 61 current code-to-meaning prompts, 27 selective reverse prompts, five class cards, six comparisons, and three non-current references.
+
 ## What the create-card flow looks like in practice
 
 This part is refreshingly normal.
