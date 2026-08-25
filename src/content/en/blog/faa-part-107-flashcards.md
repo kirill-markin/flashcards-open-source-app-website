@@ -203,9 +203,9 @@ A simple setup in [Flashcards Open Source App](/features/) is enough for this wo
 
 FSRS schedules when individual cards return. It does not check regulatory accuracy, interpret a full chart, or predict your test result. Start early enough for cards to return after real delays, and keep chart sessions and practice questions on the calendar.
 
-The [flashcard review schedule guide](/blog/how-often-should-you-review-flashcards/) explains how due reviews work. The [Getting Started guide](/docs/getting-started/) covers card creation, review, AI chat, and file attachments. The app does not include a premade FAA Part 107 deck, provide official test questions, simulate the UAG exam, or replace FAA study materials.
+The [flashcard review schedule guide](/blog/how-often-should-you-review-flashcards/) explains how due reviews work. The [Getting Started guide](/docs/getting-started/) covers card creation, review, AI chat, and file attachments. The app includes an [independently authored, unofficial FAA Part 107 review deck](/catalog/packages/faa-part-107-flashcards/) with 286 English cards covering the current ACS knowledge areas. It does not include copied exam material, simulate the UAG exam, or replace FAA study materials.
 
-Flashcards Open Source App is not affiliated with or endorsed by the FAA. You supply the card content and remain responsible for checking it against current official material.
+Flashcards Open Source App is not affiliated with or endorsed by the FAA. You remain responsible for checking the material against current official FAA sources.
 
 ## FAA Part 107 flashcards FAQ
 
