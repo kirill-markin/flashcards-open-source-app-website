@@ -74,6 +74,8 @@ Production:
 
 You rarely need every version. Add another direction when the word keeps failing in practice, you recognize it but cannot use it, or its word family causes repeated errors. Keep the sentence short enough to require retrieval instead of recognition of a memorized paragraph.
 
+The [Academic Vocabulary Flashcards: 300 Words in Context](/catalog/packages/academic-vocabulary-flashcards-300-words-in-context/) deck is a useful starting point for TOEFL preparation, with 300 cross-disciplinary academic words studied through concise meanings, collocations, and original context examples.
+
 If you need a broader system for collocations, sentence cards, and productive vocabulary, [How to Use Flashcards for Language Learning in 2026](/blog/how-to-use-flashcards-for-language-learning/) covers that layer without tying every example to an exam.
 
 ## Turn sentence patterns into small production cards
