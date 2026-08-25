@@ -140,6 +140,8 @@ These are the kind of cards that survive review because they match common termin
 - Front: You want to find files named `notes.md` under the current directory. What is the basic command shape?
   Back: `find . -name "notes.md"`
 
+If you want a ready-made Git set in the same task-first style, [Git Commands Flashcards: Everyday Workflow, Branching & Recovery](/catalog/packages/git-commands-flashcards/) has 98 cards covering everyday commands, branches, remotes, history, debugging, undo, and recovery.
+
 None of these are heroic. That is the point. Useful command decks are built from ordinary interruptions.
 
 ## Build cards from real sources, not from memory theater
