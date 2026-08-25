@@ -255,6 +255,8 @@ The useful part is that the product already fits the middle of this workflow:
 - FSRS review
 - a hosted web app plus offline-first study on web, iPhone, and Android
 
+For a ready-made starting point, you can [install the independently authored five-unit psychology course review deck](/catalog/packages/five-unit-psychology-course-review/) with 705 English cards, then keep reviewing it offline alongside the cards you make from your own notes and practice misses.
+
 That means you can take a pile of vocabulary, a screenshot of a research-method explanation, or a rough AAQ or EBQ correction note, turn it into candidate cards, cut the weak ones, and keep reviewing the survivors in one place.
 
 If the drafting step creates polished but bad cards, [How to Fix AI Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-fix-ai-flashcards/) is the right follow-up.
