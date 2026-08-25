@@ -23,9 +23,9 @@ That is the awkward part of making **HSK 3.0 flashcards** in 2026. For a Levels 
 
 ## First, confirm which version your 2026 Levels 1–6 test uses
 
-Chinese Testing International's [HSK 3.0 pilot notice](https://www.chinesetest.cn/notice) says the January 31, 2026 trial covered HSK Levels 1–6 at selected centers. It also says the regular 2026 Levels 1–6 test dates use HSK 2.0 and that the formal HSK 3.0 start date will be announced separately. For the pilot, Levels 3–6 required registration for the corresponding written and speaking tests together.
+Chinese Testing International's [current HSK 3.0 notice](https://www.chinesetest.cn/notice) says a second global trial for HSK Levels 1–6 is scheduled for September 20, 2026. It offers paper-based and test-center internet formats. For Levels 3–6, candidates must register for the corresponding written and speaking tests together.
 
-As of July 28, 2026, that is still the latest Levels 1–6 rollout statement published on the official HSK 3.0 notice page. The existence of a new syllabus, sample questions, and one pilot does not turn every later Levels 1–6 appointment into HSK 3.0. The official calendar lists [HSK Levels 7–9](https://www.chinesetest.cn/HSK/7-9) separately; the notice does not label those advanced test dates HSK 2.0.
+As of August 25, 2026, CTI still labels the September 20 session a trial. The new syllabus is dated November 2025 and marked for July 2026 implementation, but that date does not announce a broad switch for every regular Levels 1–6 appointment. CTI's [separate regular HSK Level 1 page](https://www.chinesetest.cn/HSK/1?type=2) still describes 150 words. The official calendar lists [HSK Levels 7–9](https://www.chinesetest.cn/HSK/7-9) separately; the trial notice does not label those advanced test dates HSK 2.0.
 
 For your own exam, check all three of these:
 
@@ -255,7 +255,7 @@ See the current [feature list](/features/) and [getting-started guide](/docs/get
 
 ### Is every HSK Levels 1–6 exam in 2026 HSK 3.0?
 
-No. As of July 28, the official pilot notice says the January 31 selected-center Levels 1–6 exam was an HSK 3.0 trial, regular 2026 Levels 1–6 dates use HSK 2.0, and the formal start will be announced separately. The official calendar lists Levels 7–9 separately. Verify your date, level, center, and registration notice.
+No. As of August 25, the current notice calls September 20 the second global HSK 3.0 trial. The syllabus is marked for July 2026 implementation, but CTI has not used the trial notice to announce a broad switch for every regular Levels 1–6 appointment. Its separate regular HSK Level 1 page still describes 150 words. Verify your date, level, center, and registration notice.
 
 ### Can I reuse my HSK 2.0 vocabulary cards?
 
