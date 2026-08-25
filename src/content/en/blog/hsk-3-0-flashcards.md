@@ -93,6 +93,8 @@ Then add production only when you need it:
 - Front: `to move house; bānjiā`
 - Back: `搬家`
 
+For an exact Level 1 starting point, [New HSK 1 Vocabulary Flashcards: 300 Words with Pinyin](/catalog/packages/new-hsk-1-vocabulary-flashcards/) covers every entry in the November 2025 syllabus. The independent, unofficial deck keeps 300 Hanzi-recognition cards separate from 300 English-to-Hanzi recall cards.
+
 `搬家` appears as Level 3 vocabulary in the official HSK 3.0 syllabus. The example sentence here is original, not copied from a test question. Follow the same pattern with words from your confirmed level: one meaning, one short context, one answer you can grade.
 
 Avoid a front that shows the Hanzi, pinyin, translation, and example together. That card asks for almost nothing. Also avoid five English meanings on one back unless the syllabus context genuinely requires them.
