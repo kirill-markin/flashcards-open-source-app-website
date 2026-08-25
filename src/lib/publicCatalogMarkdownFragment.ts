@@ -720,6 +720,30 @@ function projectMarkdownNodeToPlainTextSegments(
     return [{ preserveWhitespace: false, value: "\n" }];
   }
 
+  if (node.type === "list" && node.ordered) {
+    const start = node.start ?? 1;
+    const separator = getPlainTextChildSeparator(node);
+    const projectedItems = node.children.flatMap((listItem, index) => {
+      const segments = projectMarkdownNodeToPlainTextSegments(listItem);
+
+      return segments.some((segment) => segment.value !== "")
+        ? [{ index, segments }]
+        : [];
+    });
+
+    return projectedItems.flatMap(
+      ({ index, segments }, emittedIndex): ReadonlyArray<ProjectedPlainTextSegment> => {
+        return [
+          ...(emittedIndex === 0
+            ? []
+            : [{ preserveWhitespace: false, value: separator }]),
+          { preserveWhitespace: false, value: `${start + index}. ` },
+          ...segments,
+        ];
+      },
+    );
+  }
+
   if ("children" in node) {
     const childSegments = node.children
       .map(projectMarkdownNodeToPlainTextSegments)
