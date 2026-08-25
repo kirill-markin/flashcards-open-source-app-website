@@ -56,6 +56,8 @@ If you are still learning the script, [Hiragana Flashcards: All 46 Basic Charact
 
 The [matching basic katakana deck](/catalog/packages/basic-katakana-romaji/) covers all 46 modern basic katakana with 46 katakana-to-romaji cards and 46 romaji-to-katakana cards—92 independently reviewed cards in total.
 
+For kanji, [JLPT N5 Kanji Flashcards: 80 Beginner Characters & Readings](/catalog/packages/jlpt-n5-kanji-flashcards/) is an installable, offline-ready study set built around 80 independently selected N5-aligned characters. Its 120 cards combine recognition with selective production and anchor priority readings in common words; the deck is unofficial and does not claim to be an exhaustive JLPT list.
+
 ## Turn kanji and vocabulary into small decisions
 
 A card with `提出 = submission` may help at first. The official item map asks for more than a translation. Depending on the level, vocabulary work includes reading kanji, selecting the written form, understanding meaning from context, finding a close paraphrase, judging usage, or recognizing word formation.
@@ -338,7 +340,7 @@ FSRS can schedule later reviews from your history, bringing difficult cards back
 
 In [Flashcards Open Source App](/features/), plain front/back cards are enough for the examples in this guide. Tags can preserve level and item type, such as `N3`, `kanji-reading`, `paraphrase`, `text-grammar`, or `listening-miss`. You can add images or related media where they carry useful context, review due cards with FSRS, study offline on mobile, and sync changes when a connection returns. Import and export keep cards, tags, and related media portable.
 
-The app does not provide a premade JLPT deck or a JLPT test simulator, and it cannot import Anki `.apkg` files directly. AI can help draft or shorten card candidates, but it does not verify Japanese, source accuracy, level placement, or test relevance. Check every generated card before saving it. The [getting-started guide](/docs/getting-started/) describes the hosted, mobile, agent, and self-hosted options.
+The app currently offers one premade JLPT study set: the focused, unofficial N5 kanji package built from independently selected characters. It is not an official, complete, or exhaustive JLPT deck or syllabus. The app does not provide a JLPT test simulator, and it cannot import Anki `.apkg` files directly. AI can help draft or shorten card candidates, but it does not verify Japanese, source accuracy, level placement, or test relevance. Check every generated card before saving it. The [getting-started guide](/docs/getting-started/) describes the hosted, mobile, agent, and self-hosted options.
 
 ## Make the next ten cards from evidence
 
