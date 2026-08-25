@@ -161,6 +161,8 @@ Also check the exam provider's identification, registration, fee, calculator, an
 
 [Flashcards Open Source App](/features/) can hold front-and-back cards, organize them with decks and tags, and schedule reviews with FSRS. That covers the recall part of this workflow.
 
+For radio spelling practice alongside Technician study, the [NATO phonetic alphabet deck](/catalog/packages/nato-phonetic-alphabet-flashcards/) drills all 26 official ICAO/NATO letter-to-code-word pairs in both directions, with standard spellings and pronunciation cues. It does not include digits or procedural words.
+
 For a separate Morse code drill, the [Morse code alphabet and numbers deck](/catalog/packages/morse-code-alphabet-numbers/) has 72 visual-recall cards covering letters A–Z and digits 0–9 in both character-to-pattern and pattern-to-character directions; it won't replace listening and timing practice.
 
 The app is not affiliated with the FCC, NCVEC, or ARRL. It does not include an official Technician deck, import the question pool, verify your explanations, provide the official diagrams, or generate a 35-question licensing exam. You supply and check the card content. Use an established current-pool practice service for exam simulation.
