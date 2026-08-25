@@ -113,6 +113,8 @@ A hint can help you learn, but it changes what you retrieved unaided.
 
 If the front asks for the capital of Burkina Faso and you need “It starts with O” before recalling Ouagadougou, the original attempt failed. Choose Again when you record that review.
 
+For more practice with the same retrieval pattern, the [World Capitals Flashcards deck](https://flashcards-open-source-app.com/catalog/packages/world-capitals-flashcards/) covers country-to-capital and capital-to-country recall for all 193 UN member states, including carefully labeled atypical cases; it isn’t a complete geography course.
+
 An intentional cue on the front is part of the card. If the front always includes a first letter, diagram, sentence context, or formula sheet, judge the answer with that cue present. You are grading the prompt you designed.
 
 AI tutoring needs the same boundary. An AI can reveal a hint, compare text, or keep a session note. Its note is not an FSRS rating, and a fluent comparison does not prove that either answer is factually correct. [The AI flashcard tutor workflow](/blog/ai-flashcard-tutor-due-cards/) keeps first attempts separate from official reviews for this reason.
