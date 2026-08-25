@@ -75,6 +75,8 @@ For **TEAS science flashcards**, I would split the work into the same buckets AT
 - chemistry
 - scientific reasoning
 
+For a ready-made science starting point, [the ATI TEAS 7 Science Flashcards deck](/catalog/packages/ati-teas-7-science-flashcards/) contains 446 independently written English cards: 185 for anatomy and physiology, 92 for biology, 84 for chemistry, and 85 for scientific reasoning. It is independent and unofficial, so keep reading, math, and English in your wider TEAS plan.
+
 Anatomy and physiology usually deserves the most card volume inside science, but "more cards" does not mean "bigger cards."
 
 Good science cards stay small:
