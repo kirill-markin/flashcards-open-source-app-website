@@ -61,6 +61,8 @@ That does not mean you ignore limits or basic derivative rules. It means your **
 
 BC students also get one extra scoring detail that is worth knowing: College Board says the [Calculus BC exam includes a Calculus AB subscore](https://apstudents.collegeboard.org/about-ap-scores/special-score-structure-calculus-bc), and the AB portion is approximately 60% of the exam. In practice, that is another reason not to build a BC deck that only cares about series and forgets the AB core.
 
+For a ready-made AB-only baseline, [AP Calculus AB Flashcards: 8-Unit Formulas, Theorems & Concepts](/catalog/packages/ap-calculus-ab-flashcards/) is an independent, unofficial set of 288 English cards across all eight AB units. It covers formula conditions, theorem hypotheses, notation, and connections among graphs, tables, words, and symbols; it does not cover BC-only topics or replace full problem and FRQ practice.
+
 ## Limits cards work best when they test the cue, not the chapter title
 
 The worst limits cards look like this:
