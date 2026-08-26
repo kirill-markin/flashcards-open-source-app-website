@@ -3,6 +3,7 @@ title: "Cómo usar flashcards para química avanzada en 2026: ecuaciones, razona
 description: "Un flujo práctico de flashcards para química avanzada: ecuaciones, equilibrio, ácidos y bases, interpretación de laboratorio y errores en respuestas desarrolladas, sin convertir el mazo en un segundo libro de texto."
 image: "/blog/how-to-use-flashcards-for-advanced-chemistry.png"
 date: "2026-05-15"
+updated: "2026-08-26"
 keywords:
   - "flashcards para química avanzada de secundaria"
   - "cómo usar flashcards para química avanzada de secundaria"
@@ -49,7 +50,7 @@ Las mejores **flashcards de ecuaciones de química avanzada** te obligan a tomar
 - ¿Qué sugiere un `K` grande antes incluso de empezar a calcular?
 - ¿Qué cantidades cambian el cociente de reacción y cuáles no?
 - En la ley de Beer-Lambert, ¿qué variable debería seguir la concentración?
-- ¿Qué te dice el punto de semiequivalencia en un problema de ácido-base?
+- En la valoración de un ácido débil con una base fuerte, ¿qué relación hay entre `pH` y `pKa` en el punto de semiequivalencia?
 - ¿Qué variable de la ley de los gases se mantiene realmente constante en esta pregunta?
 
 Sigue siendo recuerdo. Solo que ahora tiene un trabajo real.
@@ -141,7 +142,7 @@ Ejemplos:
 - ¿Cuál es la diferencia entre error sistemático y error aleatorio en un laboratorio de química?
 - Antes de explicar un gráfico, ¿qué deberías identificar primero?
 - ¿Qué observación apoya mejor que ocurrió una reacción que produce gas?
-- ¿Qué haría que la molaridad medida saliera demasiado alta en este montaje?
+- Si un matraz aforado contiene los moles previstos de soluto, pero el nivel de la disolución queda por debajo de la marca de aforo, ¿cómo se compara su molaridad con el valor previsto?
 
 Éstas son las tarjetas que evitan que la **práctica de respuestas desarrolladas de química** se convierta en pura memorización de contenido. Muchos errores nacen en la evidencia, el montaje o la interpretación.
 

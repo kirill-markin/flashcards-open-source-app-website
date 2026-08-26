@@ -3,6 +3,7 @@ title: "How to Use Flashcards for Advanced Chemistry in 2026: Equations, Lab Rea
 description: "A practical advanced chemistry flashcard workflow for equations, equilibrium, acids and bases, lab reasoning, and constructed-response mistakes without turning your deck into a second textbook."
 image: "/blog/how-to-use-flashcards-for-advanced-chemistry.png"
 date: "2026-05-15"
+updated: "2026-08-26"
 keywords:
   - "advanced high school chemistry flashcards"
   - "how to use flashcards for advanced chemistry"
@@ -51,7 +52,7 @@ Better **advanced chemistry equations flashcards** ask for one small decision:
 - What does a large `K` suggest before I even start calculating?
 - Which quantities change the reaction quotient, and which do not?
 - In Beer-Lambert law, which variable is supposed to track concentration?
-- What does half-equivalence tell me in an acid-base setup?
+- In a weak acid–strong base titration, what relationship holds between `pH` and `pKa` at the half-equivalence point?
 - Which gas-law variable is actually being held constant in this question?
 
 That is still recall. It just has a real job now.
@@ -143,7 +144,7 @@ Examples:
 - What is the difference between systematic error and random error in a chemistry lab context?
 - Before explaining a graph, what should you identify first?
 - What observation best supports that a gas-producing reaction occurred?
-- What would make measured molarity come out too high in this setup?
+- If a volumetric flask contains the intended moles of solute but is filled below its calibration mark, how does the solution's molarity compare with the intended value?
 
 These are the cards that keep **constructed-response chemistry practice** from drifting into pure content memorization. A lot of chemistry mistakes start in the evidence, setup, or interpretation.
 

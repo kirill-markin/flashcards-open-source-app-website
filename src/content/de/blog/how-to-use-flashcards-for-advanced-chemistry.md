@@ -3,6 +3,7 @@ title: "Wie du 2026 mit Flashcards für fortgeschrittene Chemie lernst: Gleichun
 description: "Ein praktischer Flashcard-Workflow für fortgeschrittene Chemie: Gleichungen, Gleichgewichte, Säuren und Basen, Laborauswertung und Fehler in ausführlichen Antworten – ohne ein zweites Lehrbuch zu bauen."
 image: "/blog/how-to-use-flashcards-for-advanced-chemistry.png"
 date: "2026-05-15"
+updated: "2026-08-26"
 keywords:
   - "Flashcards für fortgeschrittene Chemie"
   - "mit Flashcards Chemie lernen"
@@ -49,7 +50,7 @@ Bessere **Chemie-Flashcards zu Gleichungen** fragen nach einer kleinen Entscheid
 - Was deutet ein großes `K` an, noch bevor ich überhaupt anfange zu rechnen?
 - Welche Größen verändern den Reaktionsquotienten, und welche nicht?
 - Welche Variable soll im Beer-Lambert-Gesetz die Konzentration abbilden?
-- Was verrät mir der Halbäquivalenzpunkt in einer Säure-Base-Aufgabe?
+- Welche Beziehung gilt bei der Titration einer schwachen Säure mit einer starken Base am Halbäquivalenzpunkt zwischen `pH` und `pKa`?
 - Welche Gasgesetz-Variable wird in dieser Frage tatsächlich konstant gehalten?
 
 Das ist immer noch Abruf. Er hat jetzt nur eine echte Aufgabe.
@@ -141,7 +142,7 @@ Beispiele:
 - Was ist der Unterschied zwischen systematischem Fehler und Zufallsfehler im Chemielabor?
 - Was solltest du bei einem Diagramm zuerst identifizieren, bevor du es erklärst?
 - Welche Beobachtung stützt am besten, dass eine gasbildende Reaktion stattgefunden hat?
-- Was würde dazu führen, dass die gemessene Molarität in diesem Aufbau zu hoch ausfällt?
+- Ein Messkolben enthält die vorgesehene Stoffmenge des gelösten Stoffes, wird aber nicht bis zur Eichmarke aufgefüllt. Wie verhält sich die Molarität der Lösung zum Sollwert?
 
 Genau solche Karten verhindern, dass das **Üben ausführlicher Chemieantworten** in reines Auswendiglernen von Inhalten abdriftet. Viele Fehler stecken in Evidenz, Aufbau und Interpretation.
 
