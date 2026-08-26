@@ -51,7 +51,7 @@ An eight-unit map gives the deck enough structure without turning it into a copi
 
 Tagging cards by unit helps, but unit tags should not be the only structure. Add a second tag for the kind of retrieval involved, such as `graph`, `system-choice`, `experiment`, `sign-error`, or `reasoning-miss`. A kinematics graph mistake and a fluids graph mistake may belong to different units while needing the same repair habit.
 
-For a ready-made review set, [Algebra-Based Physics 1 Flashcards: Complete 8-Unit Course Review](/catalog/packages/algebra-based-physics-1-flashcards/) contains 400 English cards covering concepts, formulas and conditions, graphs, experiments, and reasoning across eight units. It contains no media, so keep diagrams, demonstrations, and full problem work in your course materials.
+For a ready-made review set, [Algebra-Based Physics 1 Flashcards: Complete 8-Unit Course Review](/catalog/packages/algebra-based-physics-1-flashcards/) contains 400 English cards covering concepts, formulas and conditions, graphs, experiments, and reasoning across eight units. It has an original illustrated cover but no card images, so keep diagrams, demonstrations, and full problem work in your course materials.
 
 ## Kinematics cards should test graphs and signs
 
