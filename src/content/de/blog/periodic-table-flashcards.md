@@ -184,7 +184,7 @@ Periodensystem-Flashcards eignen sich gut, um ausgewählte Fakten schnell abzuru
 - unbekannte mehrschrittige Aufgaben lösen
 - Beobachtungen, Messungen und sicheres Arbeiten im Labor
 
-Die Karten machen ausgewählte Fakten für diese Arbeiten verfügbar. Die eigentlichen Aufgaben musst du trotzdem lösen. Der Leitfaden zu [AP-Chemie-Flashcards](/de/blog/how-to-use-flashcards-for-ap-chemistry/) überträgt dieselbe Trennung auf einen ganzen Kurs: Wiederverwendbare Unterscheidungen und wiederkehrende Fehler gehören in die Wiederholung; Berechnungen, die Auswertung von Laborergebnissen und Free-Response-Aufgaben bearbeitest du außerhalb des Decks.
+Die Karten machen ausgewählte Fakten für diese Arbeiten verfügbar. Die eigentlichen Aufgaben musst du trotzdem lösen. Der Leitfaden zu [Flashcards für fortgeschrittene Chemie](/de/blog/how-to-use-flashcards-for-advanced-chemistry/) überträgt dieselbe Trennung auf einen ganzen Kurs: Wiederverwendbare Unterscheidungen und wiederkehrende Fehler gehören in die Wiederholung; Berechnungen, die Auswertung von Laborergebnissen und Aufgaben mit ausführlicher Antwort bearbeitest du außerhalb des Decks.
 
 ## Wobei Flashcards Open Source App hilft
 
