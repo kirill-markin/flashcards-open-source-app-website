@@ -238,7 +238,7 @@ The useful part is that the product already covers the middle of this workflow:
 - FSRS review after the cards are cleaned up
 - the hosted web app plus mobile clients
 
-That means you can take a messy explanation from a PMP practice set, draft candidate cards with AI, cut the weak ones, organize the survivors, and keep reviewing them in the same system.
+For a ready-made starting point, [Flashcards for the 2026 PMP® Exam: People, Process & Business Environment](/catalog/packages/pmp-2026-exam-flashcards/) is an unofficial English study deck with original cards built for the July 2026 exam. You can also take a messy explanation from a PMP practice set, draft candidate cards with AI, cut the weak ones, organize the survivors, and keep reviewing them in the same system.
 
 If the AI drafting step creates polished-but-bad cards, clean them aggressively. [How to Fix AI Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-fix-ai-flashcards/) is the right next step when the problem is not quantity but card quality.
 
