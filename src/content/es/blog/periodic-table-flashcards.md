@@ -184,7 +184,7 @@ Las flashcards de la tabla periódica sirven para recordar datos con rapidez. No
 - la resolución de problemas nuevos de varios pasos
 - la observación, las mediciones y la seguridad en el laboratorio
 
-Las tarjetas ponen a tu alcance algunos datos que necesitas para esas tareas, pero no hacen el trabajo por ti. La [guía de flashcards para AP Chemistry](/es/blog/how-to-use-flashcards-for-ap-chemistry/) aplica la misma separación a todo el curso: lleva a los repasos las distinciones reutilizables y los errores repetidos, y deja fuera los cálculos, la interpretación del trabajo de laboratorio y las preguntas de respuesta libre.
+Las tarjetas ponen a tu alcance algunos datos que necesitas para esas tareas, pero no hacen el trabajo por ti. La [guía de flashcards para química avanzada](/es/blog/how-to-use-flashcards-for-advanced-chemistry/) aplica la misma separación a todo el curso: lleva a los repasos las distinciones reutilizables y los errores repetidos, y deja fuera los cálculos, la interpretación del trabajo de laboratorio y las preguntas de respuesta desarrollada.
 
 ## Cómo encaja Flashcards Open Source App
 
