@@ -1,10 +1,9 @@
 import "server-only";
-import { isNonDefaultLocale, type NonDefaultLocale } from "./localeConfig";
+import { NON_DEFAULT_LOCALES, type NonDefaultLocale } from "./localeConfig";
 import {
   isPublicCatalogEnabled,
   readGeneratedPublicCatalogDump,
 } from "./publicCatalogBuild";
-import { getPublicCatalogPackageAudienceLocales } from "./publicCatalogUrls";
 import { createCachedPublicCatalogReader } from "./publicCatalogReadModel";
 import type { PublicCatalogReadModel } from "./publicCatalogReadModel";
 
@@ -29,7 +28,7 @@ export function listPublicCatalogPackageSlugs(): ReadonlyArray<string> {
   );
 }
 
-export function listPublicCatalogPackageAudienceLocaleParams(): Array<{
+export function listPublicCatalogPackagePageLocaleParams(): Array<{
   locale: NonDefaultLocale;
   packageSlug: string;
 }> {
@@ -40,14 +39,10 @@ export function listPublicCatalogPackageAudienceLocaleParams(): Array<{
   }
 
   return catalog.packages.flatMap((packageView) =>
-    getPublicCatalogPackageAudienceLocales(
-      packageView.latestVersion.languageTags,
-    )
-      .filter(isNonDefaultLocale)
-      .map((locale) => ({
-        locale,
-        packageSlug: packageView.packageMetadata.slug,
-      })),
+    NON_DEFAULT_LOCALES.map((locale) => ({
+      locale,
+      packageSlug: packageView.packageMetadata.slug,
+    })),
   );
 }
 

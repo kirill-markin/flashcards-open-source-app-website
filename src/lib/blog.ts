@@ -21,6 +21,11 @@ const RECOMMENDATION_ANALYSIS_SLUG_BY_LOCALIZED_SLUG: Readonly<
   "how-to-use-flashcards-for-ap-physics-1":
     "how-to-use-flashcards-for-algebra-based-physics-1",
 };
+const NEUTRAL_RECOMMENDATION_SLUGS_WITH_PUBLIC_BRAND_EXCLUSIONS = new Set<string>([
+  "how-to-use-flashcards-for-advanced-chemistry",
+]);
+const PUBLIC_EXAM_BRAND_RECOMMENDATION_PATTERN =
+  /(?:^|[^a-z0-9])(?:ap(?:[\s-]+chem(?:istry)?)?|advanced[\s-]+placement|college[\s-]+board|frqs?|free[\s-]+responses?)(?=$|[^a-z0-9])/i;
 
 const STEP_TWO_SUFFIXES: ReadonlyArray<{
   readonly suffix: string;
@@ -807,6 +812,27 @@ function getRecommendationAnalysisSlug(slug: string): string {
   return RECOMMENDATION_ANALYSIS_SLUG_BY_LOCALIZED_SLUG[slug] ?? slug;
 }
 
+function isRecommendationCandidateEligible(
+  currentSlug: string,
+  candidatePost: BlogPostRecord,
+): boolean {
+  if (
+    NEUTRAL_RECOMMENDATION_SLUGS_WITH_PUBLIC_BRAND_EXCLUSIONS.has(currentSlug)
+    === false
+  ) {
+    return true;
+  }
+
+  const candidatePublicSurface = [
+    candidatePost.slug,
+    candidatePost.title,
+    candidatePost.description,
+  ].join(" ");
+
+  return PUBLIC_EXAM_BRAND_RECOMMENDATION_PATTERN.test(candidatePublicSurface)
+    === false;
+}
+
 function getCosineSimilarity(
   leftVector: ArticleTokenVector,
   rightVector: ArticleTokenVector
@@ -943,7 +969,10 @@ export function getRecommendedBlogPosts(
   const rankedRecommendations: RankedRecommendation[] = [];
 
   for (const post of loadBlogPosts(locale)) {
-    if (post.slug === slug) {
+    if (
+      post.slug === slug
+      || isRecommendationCandidateEligible(slug, post) === false
+    ) {
       continue;
     }
 

@@ -124,9 +124,7 @@ function createCatalogRoutes(
       packageView.latestVersion.languageTags,
     ),
     lastModified: getPackageLastModified(packageView),
-    pageLocales: getPublicCatalogPackagePageLocales(
-      packageView.latestVersion.languageTags,
-    ),
+    pageLocales: getPublicCatalogPackagePageLocales(),
     priority: 0.6,
     routePathname: getPublicCatalogPackageRoutePathname(
       packageView.packageMetadata.slug,

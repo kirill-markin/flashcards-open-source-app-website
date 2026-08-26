@@ -818,7 +818,7 @@ test("creates escaped catalog JSON-LD from canonical read-model entities", () =>
   );
   assert.equal(
     facetSchema["@graph"][1].itemListElement[0]?.item.url,
-    "https://flashcards-open-source-app.com/catalog/packages/canonical-package/",
+    "https://flashcards-open-source-app.com/de/catalog/packages/canonical-package/",
   );
   assert.equal("dateModified" in facetSchema["@graph"][0], false);
 
@@ -856,7 +856,7 @@ test("creates deterministic localized catalog sitemap entries from real timestam
     "https://flashcards-open-source-app.com/ja/catalog/languages/world%20history/";
   const latestVersionUpdatedAt = "2026-08-03T09:00:00.000Z";
 
-  assert.equal(entries.length, 66);
+  assert.equal(entries.length, 72);
   assert.equal(entryByUrl.get(rootUrl)?.lastModified, latestVersionUpdatedAt);
   assert.equal(entryByUrl.get(packageUrl)?.lastModified, latestVersionUpdatedAt);
   assert.equal(
@@ -880,7 +880,7 @@ test("creates deterministic localized catalog sitemap entries from real timestam
     entryByUrl.has(
       "https://flashcards-open-source-app.com/ja/catalog/packages/canonical-package/",
     ),
-    false,
+    true,
   );
   assert.equal(
     entryByUrl.get(packageUrl)?.alternates?.languages?.es,
@@ -1305,14 +1305,13 @@ test("builds canonical catalog destinations and identifies current catalog pages
     ["en", "es"],
   );
   assert.deepEqual(
-    getPublicCatalogPackagePageLocales(["es", "world history"]),
-    ["en", "es"],
+    getPublicCatalogPackagePageLocales(),
+    ["en", "es", "ar", "de", "hi", "ja", "ru", "zh"],
   );
   assert.equal(
     getPublicCatalogPackageLocalizedPathname(
       "es",
       "canonical-package",
-      ["en", "es"],
     ),
     "/es/catalog/packages/canonical-package/",
   );
@@ -1320,9 +1319,8 @@ test("builds canonical catalog destinations and identifies current catalog pages
     getPublicCatalogPackageLocalizedPathname(
       "ja",
       "canonical-package",
-      ["en", "es"],
     ),
-    "/catalog/packages/canonical-package/",
+    "/ja/catalog/packages/canonical-package/",
   );
   assert.equal(
     getPublicCatalogAuthorRoutePathname("author-one"),
@@ -1431,7 +1429,7 @@ test("renders useful localized catalog Markdown from the public read model", () 
     "ar/catalog",
     model,
   );
-  const ineligiblePackageDocument = renderPublicCatalogMarkdownDocument(
+  const additionalLocalizedPackageDocument = renderPublicCatalogMarkdownDocument(
     "ja/catalog/packages/canonical-package",
     model,
   );
@@ -1440,13 +1438,10 @@ test("renders useful localized catalog Markdown from the public read model", () 
     model,
   );
 
-  assert.equal(pagePaths.length, 58);
+  assert.equal(pagePaths.length, 64);
   assert.ok(pagePaths.includes("catalog/packages/canonical-package"));
   assert.ok(pagePaths.includes("es/catalog/packages/canonical-package"));
-  assert.equal(
-    pagePaths.includes("ja/catalog/packages/canonical-package"),
-    false,
-  );
+  assert.ok(pagePaths.includes("ja/catalog/packages/canonical-package"));
   assert.ok(pagePaths.includes("zh/catalog/languages/en"));
   assert.equal(pagePaths.some((pagePath) => pagePath.includes("/topics/")), false);
   assert.ok(packageDocument);
@@ -1482,14 +1477,14 @@ test("renders useful localized catalog Markdown from the public read model", () 
     false,
   );
   assert.ok(localizedRootDocument);
-  assert.equal(ineligiblePackageDocument, null);
+  assert.equal(additionalLocalizedPackageDocument?.locale, "ja");
   assert.match(
     localizedRootDocument.markdown,
-    /https:\/\/flashcards-open-source-app\.com\/catalog\/packages\/canonical-package\//,
+    /https:\/\/flashcards-open-source-app\.com\/ar\/catalog\/packages\/canonical-package\//,
   );
   assert.doesNotMatch(
     localizedRootDocument.markdown,
-    /\/ar\/catalog\/packages\/canonical-package\//,
+    /https:\/\/flashcards-open-source-app\.com\/catalog\/packages\/canonical-package\//,
   );
   assert.equal(
     listMarkdownAstNodes(parseMarkdownAst(localizedRootDocument.markdown)).some(
