@@ -22,13 +22,18 @@ function createEmptyNotFoundResponse(): NextResponse {
   return new NextResponse(null, { status: 404 });
 }
 
-function setMarkdownHeaders(
-  response: NextResponse,
-  pagePathname: string,
-): NextResponse {
+function setMarkdownHeaders(response: NextResponse): NextResponse {
   response.headers.set("Content-Type", "text/markdown; charset=utf-8");
   response.headers.set("Cache-Control", markdownCacheControl);
   response.headers.set("Vary", "Accept");
+  return response;
+}
+
+function setMarkdownSuccessHeaders(
+  response: NextResponse,
+  pagePathname: string,
+): NextResponse {
+  setMarkdownHeaders(response);
   response.headers.set(
     "Link",
     `<${new URL(pagePathname, SITE_URL).toString()}>; rel="canonical", <${pagePathname}>; rel="alternate"; type="text/html"`,
@@ -44,14 +49,18 @@ function createMarkdownResponse(
 
   if (assetPathname === undefined) {
     return setMarkdownHeaders(
-      new NextResponse(`# 404\n\nPage not found: ${pagePathname}\n`, { status: 404 }),
-      pagePathname,
+      new NextResponse(`# 404\n\nPage not found: ${pagePathname}\n`, {
+        status: 404,
+      }),
     );
   }
 
   const rewriteUrl = request.nextUrl.clone();
   rewriteUrl.pathname = assetPathname;
-  return setMarkdownHeaders(NextResponse.rewrite(rewriteUrl), pagePathname);
+  return setMarkdownSuccessHeaders(
+    NextResponse.rewrite(rewriteUrl),
+    pagePathname,
+  );
 }
 
 function isPrivatePathname(pathname: string): boolean {
@@ -115,10 +124,13 @@ export function proxy(request: NextRequest): NextResponse {
   const pagePathname = pathname === "/" || pathname.endsWith("/")
     ? pathname
     : `${pathname}/`;
-  response.headers.set(
-    "Link",
-    `<${getMarkdownPathnameFromPagePathname(pagePathname)}>; rel="alternate"; type="text/markdown"`,
-  );
+
+  if (markdownManifest.markdown[pagePathname] !== undefined) {
+    response.headers.set(
+      "Link",
+      `<${getMarkdownPathnameFromPagePathname(pagePathname)}>; rel="alternate"; type="text/markdown"`,
+    );
+  }
 
   return response;
 }

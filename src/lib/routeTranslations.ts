@@ -122,9 +122,12 @@ export function getLanguageAlternates(
       getLocalizedPathname(locale, routePathname)
     );
   });
-  alternates["x-default"] = getAbsoluteUrl(
-    getLocalizedPathname(DEFAULT_LOCALE, routePathname)
-  );
+
+  if (locales.includes(DEFAULT_LOCALE)) {
+    alternates["x-default"] = getAbsoluteUrl(
+      getLocalizedPathname(DEFAULT_LOCALE, routePathname)
+    );
+  }
 
   return alternates;
 }

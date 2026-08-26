@@ -142,10 +142,7 @@ function listTranslatedDocSlugs(locale: AppLocale): ReadonlyArray<string> {
 }
 
 function listTranslatedBlogPostSlugs(locale: AppLocale): ReadonlyArray<string> {
-  return filterCanonicalSlugs(
-    BLOG_POST_SLUGS,
-    listMarkdownSlugs(getBlogDirectory(locale))
-  );
+  return listMarkdownSlugs(getBlogDirectory(locale));
 }
 
 function listTranslatedContentRoutePathnames(

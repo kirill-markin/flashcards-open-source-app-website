@@ -1,8 +1,7 @@
 import type { MetadataRoute } from "next";
 import { join } from "path";
-import { BLOG_POST_SLUGS } from "@/data/blog";
+import { getTranslatedBlogPostSlugs } from "@/data/blog";
 import { DOC_SLUGS } from "@/data/docs";
-import { hasBlogTranslation } from "@/lib/blog";
 import {
   getBlogDirectory,
   getBlogFilePath,
@@ -180,18 +179,16 @@ function getBlogEntries(): MetadataRoute.Sitemap {
     }
   );
 
-  const blogEntries = BLOG_POST_SLUGS.flatMap((slug) =>
-    SUPPORTED_LOCALES.filter((locale) => hasBlogTranslation(slug, locale)).map(
-      (locale) => ({
-        url: getAbsoluteUrl(getLocalizedPathname(locale, `/blog/${slug}/`)),
-        lastModified: getFileLastModified(getBlogFilePath(locale, slug)),
-        changeFrequency: "monthly" as const,
-        priority: 0.6,
-        alternates: {
-          languages: getLanguageAlternates(`/blog/${slug}/`),
-        },
-      })
-    )
+  const blogEntries = SUPPORTED_LOCALES.flatMap((locale) =>
+    getTranslatedBlogPostSlugs(locale).map((slug) => ({
+      url: getAbsoluteUrl(getLocalizedPathname(locale, `/blog/${slug}/`)),
+      lastModified: getFileLastModified(getBlogFilePath(locale, slug)),
+      changeFrequency: "monthly" as const,
+      priority: 0.6,
+      alternates: {
+        languages: getLanguageAlternates(`/blog/${slug}/`),
+      },
+    }))
   );
 
   return [...blogIndexEntries, ...blogEntries];

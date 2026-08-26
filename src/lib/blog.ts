@@ -1,6 +1,9 @@
 import { existsSync, readFileSync, readdirSync } from "fs";
 import matter from "gray-matter";
-import { hasTranslatedBlogPostSlug } from "@/data/blog";
+import {
+  getTranslatedBlogPostSlugs,
+  hasTranslatedBlogPostSlug,
+} from "@/data/blog";
 import { renderMarkdownToHtml } from "@/lib/content/renderMarkdownToHtml";
 import { getBlogDirectory, getBlogFilePath } from "@/lib/content/paths";
 import { getAbsoluteUrl, type AppLocale } from "@/lib/i18n";
@@ -12,6 +15,12 @@ const DESCRIPTION_TOKEN_WEIGHT = 2;
 const BODY_TOKEN_WEIGHT = 1;
 const MINIMUM_TOKEN_LENGTH = 3;
 const MAX_DOCUMENT_FREQUENCY_RATIO = 0.6;
+const RECOMMENDATION_ANALYSIS_SLUG_BY_LOCALIZED_SLUG: Readonly<
+  Record<string, string>
+> = {
+  "how-to-use-flashcards-for-ap-physics-1":
+    "how-to-use-flashcards-for-algebra-based-physics-1",
+};
 
 const STEP_TWO_SUFFIXES: ReadonlyArray<{
   readonly suffix: string;
@@ -794,6 +803,10 @@ function buildArticleVectors(): ReadonlyMap<string, ArticleTokenVector> {
   return cachedArticleVectors;
 }
 
+function getRecommendationAnalysisSlug(slug: string): string {
+  return RECOMMENDATION_ANALYSIS_SLUG_BY_LOCALIZED_SLUG[slug] ?? slug;
+}
+
 function getCosineSimilarity(
   leftVector: ArticleTokenVector,
   rightVector: ArticleTokenVector
@@ -851,10 +864,9 @@ export function hasBlogTranslation(slug: string, locale: AppLocale): boolean {
 }
 
 export function listTranslatedBlogPostSlugs(
-  locale: AppLocale,
-  slugs: ReadonlyArray<string>
+  locale: AppLocale
 ): ReadonlyArray<string> {
-  return slugs.filter((slug) => hasBlogTranslation(slug, locale));
+  return getTranslatedBlogPostSlugs(locale);
 }
 
 export function listBlogPosts(locale: AppLocale): ReadonlyArray<BlogPostRecord> {
@@ -919,38 +931,33 @@ export function getRecommendedBlogPosts(
   }
 
   const articleVectors = buildArticleVectors();
-  const currentVector = articleVectors.get(slug);
+  const currentAnalysisSlug = getRecommendationAnalysisSlug(slug);
+  const currentVector = articleVectors.get(currentAnalysisSlug);
 
   if (currentVector === undefined) {
-    throw new Error(`Missing recommendation vector for blog post: ${slug}`);
+    throw new Error(
+      `Missing recommendation vector for blog post: ${slug} (analysis slug: ${currentAnalysisSlug})`
+    );
   }
 
-  const localizedPostsBySlug = new Map(
-    loadBlogPosts(locale).map((post) => [post.slug, post] as const)
-  );
   const rankedRecommendations: RankedRecommendation[] = [];
 
-  for (const post of loadBlogPosts(DEFAULT_BLOG_LOCALE)) {
+  for (const post of loadBlogPosts(locale)) {
     if (post.slug === slug) {
       continue;
     }
 
-    const localizedPost = localizedPostsBySlug.get(post.slug);
-
-    if (localizedPost === undefined) {
-      continue;
-    }
-
-    const candidateVector = articleVectors.get(post.slug);
+    const candidateAnalysisSlug = getRecommendationAnalysisSlug(post.slug);
+    const candidateVector = articleVectors.get(candidateAnalysisSlug);
 
     if (candidateVector === undefined) {
       throw new Error(
-        `Missing recommendation vector for candidate blog post: ${post.slug}`
+        `Missing recommendation vector for candidate blog post: ${post.slug} (analysis slug: ${candidateAnalysisSlug})`
       );
     }
 
     rankedRecommendations.push({
-      post: localizedPost,
+      post,
       score: getCosineSimilarity(currentVector, candidateVector),
     });
   }
