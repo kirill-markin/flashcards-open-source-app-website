@@ -186,7 +186,7 @@ Periodic table flashcards are good at quick retrieval. They cannot replace:
 - solving unfamiliar multi-step problems
 - laboratory observation, measurement, and safety
 
-Cards make selected facts available for those jobs. The jobs still need to be done. The [AP Chemistry flashcards guide](/blog/how-to-use-flashcards-for-ap-chemistry/) uses the same division at course scale: keep reusable distinctions and repeated misses in review, then do calculations, lab interpretation, and free-response work elsewhere.
+Cards make selected facts available for those jobs. The jobs still need to be done. The [advanced chemistry flashcards guide](/blog/how-to-use-flashcards-for-advanced-chemistry/) uses the same division at course scale: keep reusable distinctions and repeated misses in review, then do calculations, lab interpretation, and extended-response work elsewhere.
 
 ## Where Flashcards Open Source App fits
 
