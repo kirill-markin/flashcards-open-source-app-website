@@ -2,6 +2,7 @@
 title: "EU AI Act 2026 Timeline: How to Study It with Flashcards"
 description: "Learn the EU AI Act 2026 timeline with accurate flashcards, spaced repetition, and official EU sources—without mistaking study for legal advice."
 date: "2026-07-29"
+updated: "2026-08-26"
 image: "/blog/eu-ai-act-2026-flashcards.png"
 keywords:
   - "EU AI Act 2026"
@@ -188,7 +189,7 @@ Keep each item as a plain front/back card. Put the short answer first on the bac
 - **Good** for correct recall with ordinary effort
 - **Easy** for effortless correct recall
 
-[Active Recall vs Spaced Repetition](/blog/active-recall-vs-spaced-repetition/) explains the division: retrieval exposes what you can produce now; spacing decides when the verified card returns. The [getting-started guide](/docs/getting-started/) covers the hosted and self-hosted routes if you want to put the workflow into practice. Flashcards does not supply an official EU AI Act deck, verify legal content, or update your cards when the law changes.
+[Active Recall vs Spaced Repetition](/blog/active-recall-vs-spaced-repetition/) explains the division: retrieval exposes what you can produce now; spacing decides when the verified card returns. The [getting-started guide](/docs/getting-started/) covers the hosted and self-hosted routes if you want to put the workflow into practice. For a ready-made starting point, [EU AI Act 2026 Flashcards: Timeline, Roles & Risk Rules](/catalog/packages/eu-ai-act-2026-essentials-flashcards/) is an independent, unofficial, source-linked, versioned English study aid with 140 cards. It is not EU-institution material or legal advice, and it neither verifies compliance nor covers every rule. Its official sources were checked on 26 August 2026; check them again before relying on a card, because the deck will not update itself when the law changes.
 
 ## Keep legal judgment outside the review queue
 
