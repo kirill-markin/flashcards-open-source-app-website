@@ -101,6 +101,8 @@ You do not need every answer option forever.
 
 You need the clean recall target that would prevent the same mistake next time.
 
+For a concrete boundary, [CompTIA Security+ SY0-701 Flashcards: Complete Objective Review](/catalog/packages/comptia-security-plus-sy0-701-flashcards/) is a separate study set with 744 original open-response cards. It does not contain copied exam material, exam dumps, multiple-choice practice, or raw objective wording.
+
 ## Four card types cover most practice-question mistakes
 
 This is the pattern I would use most often.

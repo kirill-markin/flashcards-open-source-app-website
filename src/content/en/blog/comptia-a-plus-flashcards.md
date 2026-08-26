@@ -125,6 +125,8 @@ the port number alone does not prove which service is running.
 
 This keeps a ports deck from becoming a number recital. If you want a deeper treatment of protocol cards, see the [Security+ flashcards guide](/blog/how-to-use-flashcards-for-security-plus/). Keep the A+ deck bounded by the A+ objectives.
 
+If you're studying Security+ as well, [CompTIA Security+ SY0-701 Flashcards: Complete Objective Review](/catalog/packages/comptia-security-plus-sy0-701-flashcards/) is a separate, unofficial set of 744 original open-response cards covering all five current SY0-701 domains.
+
 ### Choose the tool that produces the evidence
 
 Core 2 objectives 1.4 and 1.5 cover Windows management and command-line tools and ask you to use the appropriate one in a scenario. Write prompts from the task toward the tool.
