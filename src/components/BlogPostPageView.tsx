@@ -1,5 +1,6 @@
 import { Fragment } from "react";
 import Link from "next/link";
+import { notFound } from "next/navigation";
 import { BlogCta, BlogStartSideCta } from "@/components/BlogCta";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { SiteFrame } from "@/components/SiteFrame";
@@ -53,26 +54,13 @@ export async function BlogPostPageView({
   locale,
   slug,
 }: BlogPostPageViewProps): Promise<React.JSX.Element> {
-  const uiCopy = getUiCopy(locale);
   const post = readBlogPost(locale, slug);
 
   if (post === null) {
-    return (
-      <SiteFrame locale={locale} routePathname={`/blog/${slug}/`}>
-        <div className={styles.container}>
-          <section className={styles.articlePanel}>
-            <header className={styles.intro}>
-              <h1 className={styles.title}>{uiCopy.blog.notFoundTitle}</h1>
-            </header>
-            <div className={styles.contentPanel}>
-              <p className={styles.empty}>{uiCopy.blog.notFoundDescription}</p>
-            </div>
-          </section>
-        </div>
-      </SiteFrame>
-    );
+    notFound();
   }
 
+  const uiCopy = getUiCopy(locale);
   const articleUrl = getAbsoluteUrl(getLocalizedPathname(locale, `/blog/${slug}/`));
   const articleImageUrl = getBlogPostImageUrl(post);
   const articleSchema: BlogPostingSchema = {
