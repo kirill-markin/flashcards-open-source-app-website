@@ -5,6 +5,8 @@ import { createBlogPostMetadata } from "@/lib/seo/createBlogPostMetadata";
 
 const locale = "en" as const;
 
+export const dynamicParams = false;
+
 export const generateStaticParams = (): Array<{ slug: string }> =>
   BLOG_POST_SLUGS.map((slug) => ({ slug }));
 
