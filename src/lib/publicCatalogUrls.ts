@@ -41,32 +41,16 @@ export function getPublicCatalogPackageAudienceLocales(
   return SUPPORTED_LOCALES.filter((locale) => languageTags.includes(locale));
 }
 
-export function getPublicCatalogPackagePageLocales(
-  languageTags: ReadonlyArray<string>,
-): ReadonlyArray<AppLocale> {
-  const audienceLocales = getPublicCatalogPackageAudienceLocales(languageTags);
-
-  return audienceLocales.includes(DEFAULT_LOCALE)
-    ? audienceLocales
-    : [DEFAULT_LOCALE, ...audienceLocales];
-}
-
-export function getPublicCatalogPackagePageLocale(
-  locale: AppLocale,
-  languageTags: ReadonlyArray<string>,
-): AppLocale {
-  return getPublicCatalogPackagePageLocales(languageTags).includes(locale)
-    ? locale
-    : DEFAULT_LOCALE;
+export function getPublicCatalogPackagePageLocales(): ReadonlyArray<AppLocale> {
+  return SUPPORTED_LOCALES;
 }
 
 export function getPublicCatalogPackageLocalizedPathname(
   locale: AppLocale,
   packageSlug: string,
-  languageTags: ReadonlyArray<string>,
 ): string {
   return getLocalizedPathname(
-    getPublicCatalogPackagePageLocale(locale, languageTags),
+    locale,
     getPublicCatalogPackageRoutePathname(packageSlug),
   );
 }
