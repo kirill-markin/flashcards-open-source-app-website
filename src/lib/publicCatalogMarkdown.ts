@@ -86,7 +86,6 @@ function createLocalizedPackageLink(
     getPublicCatalogPackageLocalizedPathname(
       locale,
       packageView.packageMetadata.slug,
-      packageView.latestVersion.languageTags,
     ),
   );
 }
@@ -536,13 +535,10 @@ export function listPublicCatalogMarkdownPagePaths(
 ): ReadonlyArray<string> {
   const routePathnames = listCatalogRoutePathnames(catalog);
   const packagePagePaths = catalog.packages.flatMap((packageView) =>
-    getPublicCatalogPackagePageLocales(
-      packageView.latestVersion.languageTags,
-    ).map((locale) =>
+    getPublicCatalogPackagePageLocales().map((locale) =>
       getPagePath(getPublicCatalogPackageLocalizedPathname(
         locale,
         packageView.packageMetadata.slug,
-        packageView.latestVersion.languageTags,
       ))),
   );
 
@@ -595,14 +591,6 @@ export function renderPublicCatalogMarkdownDocument(
     const packageView = slug === undefined ? undefined : catalog.packageBySlug.get(slug);
 
     if (packageView === undefined) {
-      return null;
-    }
-
-    if (
-      getPublicCatalogPackagePageLocales(
-        packageView.latestVersion.languageTags,
-      ).includes(locale) === false
-    ) {
       return null;
     }
 

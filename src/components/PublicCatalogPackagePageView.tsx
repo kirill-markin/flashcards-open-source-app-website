@@ -205,9 +205,7 @@ export async function PublicCatalogPackagePageView({
   return (
     <SiteFrameForRouteLocales
       locale={locale}
-      routeLocales={getPublicCatalogPackagePageLocales(
-        latestVersion.languageTags,
-      )}
+      routeLocales={getPublicCatalogPackagePageLocales()}
       routePathname={packageRoutePathname}
     >
       <article className={styles.container}>
