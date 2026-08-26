@@ -170,7 +170,7 @@ DMV describes the behind-the-wheel test separately: it evaluates safe vehicle op
 
 AI assistance is optional, and you control which draft cards get saved. AI does not verify driving rules or legal accuracy. Compare every AI-produced card with the current DMV handbook, and do not paste private identifiers, application documents, or license records into hosted AI tools. The privacy guide explains that boundary in more detail: [Private Flashcards With AI](/blog/private-flashcards-with-ai/).
 
-The app supports offline mobile study with sync across web, iOS, and Android. The project is MIT-licensed and has a documented [self-hosting path](/docs/self-hosting/). It is not affiliated with or endorsed by the California DMV, does not include an official California Class C deck, and does not predict whether you will pass. The [Getting Started guide](/docs/getting-started/) covers the current ways to create and review your own cards.
+The app supports offline mobile study with sync across web, iOS, and Android. The project is MIT-licensed and has a documented [self-hosting path](/docs/self-hosting/). The [California Permit Test Flashcards: Driver Handbook Rules & Road Signs](/catalog/packages/california-permit-test-flashcards/) deck contains 236 independently authored English cards with no media. It is unofficial, and neither the deck nor the app is affiliated with or endorsed by the California DMV. The [Getting Started guide](/docs/getting-started/) covers the current ways to create and review your own cards.
 
 ## California permit test flashcards FAQ
 
