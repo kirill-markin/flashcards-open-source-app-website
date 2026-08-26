@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { BlogPostPageView } from "@/components/BlogPostPageView";
-import { BLOG_POST_SLUGS } from "@/data/blog";
 import { getLocalizedRouteStaticParams, resolveNonDefaultLocaleOrNotFound } from "@/app/localizedRouteHelpers";
 import { listTranslatedBlogPostSlugs, readBlogPost } from "@/lib/blog";
 import { createBlogPostMetadata } from "@/lib/seo/createBlogPostMetadata";
@@ -10,7 +9,7 @@ export const dynamicParams = false;
 
 export const generateStaticParams = (): Array<{ locale: string; slug: string }> =>
   getLocalizedRouteStaticParams().flatMap(({ locale }) =>
-    listTranslatedBlogPostSlugs(locale, BLOG_POST_SLUGS).map((slug) => ({
+    listTranslatedBlogPostSlugs(locale).map((slug) => ({
       locale,
       slug,
     }))
