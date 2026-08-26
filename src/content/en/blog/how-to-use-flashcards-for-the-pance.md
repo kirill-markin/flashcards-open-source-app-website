@@ -95,6 +95,8 @@ This matters because your weak spots usually are not just "cardiology" or "pulmo
 
 That is where **PANCE study workflow** gets cleaner. You can filter by `pulm + management` or `endo + pharm` instead of treating every miss inside a system as the same problem.
 
+If you want a starting scaffold before your own misses shape the deck, [PANCE Blueprint Clinical Review Flashcards](/catalog/packages/pance-blueprint-clinical-review-flashcards/) has 600 source-linked cards aligned with the January 2025 blueprint and tagged by both content category and exam task. Filter it for diagnosis, diagnostic studies, or next-step review, then add the misses from your own question-bank blocks.
+
 If your broader med-school deck is still messy, [How to Use Flashcards for Medical School in 2026](/blog/how-to-use-flashcards-for-medical-school/) is the better upstream fix.
 
 ## Question-bank misses should drive most of the deck
