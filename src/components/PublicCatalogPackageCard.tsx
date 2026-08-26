@@ -30,7 +30,6 @@ export function PublicCatalogPackageCard({
   const packageHref = getPublicCatalogPackageLocalizedPathname(
     locale,
     packageMetadata.slug,
-    latestVersion.languageTags,
   );
   const authorHref = getLocalizedPathname(
     locale,

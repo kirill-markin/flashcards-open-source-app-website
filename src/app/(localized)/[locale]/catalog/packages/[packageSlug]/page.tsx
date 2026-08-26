@@ -3,7 +3,7 @@ import { notFound } from "next/navigation";
 import { resolveNonDefaultLocaleOrNotFound } from "@/app/localizedRouteHelpers";
 import { PublicCatalogPackagePageView } from "@/components/PublicCatalogPackagePageView";
 import {
-  listPublicCatalogPackageAudienceLocaleParams,
+  listPublicCatalogPackagePageLocaleParams,
   readPublicCatalog,
 } from "@/lib/publicCatalogData";
 import {
@@ -11,7 +11,6 @@ import {
   getPublicCatalogPackageBySlug,
 } from "@/lib/publicCatalogReadModel";
 import { createPublicCatalogPackageMetadata } from "@/lib/seo/createPublicCatalogMetadata";
-import { getPublicCatalogPackageAudienceLocales } from "@/lib/publicCatalogUrls";
 
 export const dynamicParams = false;
 
@@ -19,7 +18,7 @@ export function generateStaticParams(): Array<{
   locale: string;
   packageSlug: string;
 }> {
-  return listPublicCatalogPackageAudienceLocaleParams();
+  return listPublicCatalogPackagePageLocaleParams();
 }
 
 interface PageProps {
@@ -36,12 +35,7 @@ export async function generateMetadata({
     ? undefined
     : getPublicCatalogPackageBySlug(catalog, packageSlug);
 
-  if (
-    packageView === undefined
-    || getPublicCatalogPackageAudienceLocales(
-      packageView.latestVersion.languageTags,
-    ).includes(locale) === false
-  ) {
+  if (packageView === undefined) {
     notFound();
   }
 
@@ -58,12 +52,7 @@ export default async function LocalizedPublicCatalogPackagePage({
     ? undefined
     : getPublicCatalogPackageBySlug(catalog, packageSlug);
 
-  if (
-    packageView === undefined
-    || getPublicCatalogPackageAudienceLocales(
-      packageView.latestVersion.languageTags,
-    ).includes(locale) === false
-  ) {
+  if (packageView === undefined) {
     notFound();
   }
 

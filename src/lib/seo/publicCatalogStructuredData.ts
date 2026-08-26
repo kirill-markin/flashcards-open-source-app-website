@@ -20,7 +20,6 @@ import {
   getPublicCatalogAuthorRoutePathname,
   getPublicCatalogCollectionRoutePathname,
   getPublicCatalogLanguageRoutePathname,
-  getPublicCatalogPackagePageLocale,
   getPublicCatalogPackageRoutePathname,
   PUBLIC_CATALOG_AUTHORS_ROUTE_PATHNAME,
   PUBLIC_CATALOG_COLLECTIONS_ROUTE_PATHNAME,
@@ -227,10 +226,7 @@ function createPackageListEntities(
   locale: AppLocale,
 ): ReadonlyArray<CatalogListEntity> {
   return packages.map((packageView) => ({
-    locale: getPublicCatalogPackagePageLocale(
-      locale,
-      packageView.latestVersion.languageTags,
-    ),
+    locale,
     name: packageView.latestVersion.title,
     routePathname: getPublicCatalogPackageRoutePathname(
       packageView.packageMetadata.slug,
