@@ -38,7 +38,19 @@ function sanitizeMarkdownHtml(): (tree: Root) => Root {
   };
 }
 
-function restrictKatexToAcceptedDisplayMath(): (tree: Root) => Root {
+/**
+ * `transformPublicCatalogCardMathBlocks` rewrites every formula it does not
+ * accept to plain text, so the only remaining `math-display` and `math-inline`
+ * elements are accepted formulas and keep their classes. A fenced ` ```math `
+ * block still reaches this stage as a bare `language-math` element, which
+ * `rehype-katex` would otherwise render, so that class is stripped.
+ *
+ * That rests on `mdast-util-to-markdown` escaping every dollar a phrasing
+ * `text` node holds: a node type serialized verbatim would hand unaccepted
+ * dollars back to `remark-math` here, and this class filter would stop
+ * guarding them.
+ */
+function restrictKatexToAcceptedMath(): (tree: Root) => Root {
   return (tree: Root): Root => {
     const restrictedTree = structuredClone(tree);
 
@@ -48,12 +60,13 @@ function restrictKatexToAcceptedDisplayMath(): (tree: Root) => Root {
       if (
         Array.isArray(classNames) === false
         || classNames.includes("math-display")
+        || classNames.includes("math-inline")
       ) {
         return;
       }
 
       const restrictedClassNames = classNames.filter((className) => (
-        className !== "language-math" && className !== "math-inline"
+        className !== "language-math"
       ));
 
       if (restrictedClassNames.length === 0) {
@@ -76,7 +89,7 @@ async function renderNormalizedPublicCatalogCardMarkdownToHtml(
     .use(math)
     .use(remarkRehype, { handlers: markdownHandlers })
     .use(sanitizeMarkdownHtml)
-    .use(restrictKatexToAcceptedDisplayMath)
+    .use(restrictKatexToAcceptedMath)
     .use(rehypeKatex, publicCatalogKatexOptions)
     .use(rehypeStringify)
     .process(markdown);

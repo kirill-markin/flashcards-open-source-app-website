@@ -28,7 +28,10 @@ import {
   type AppLocale,
 } from "./i18n";
 import { assertSafeMarkdownDestinationInput } from "./markdownLinks";
-import { transformPublicCatalogCardMathBlocks } from "./publicCatalogCardMath";
+import {
+  escapeRejectedPublicCatalogCardMath,
+  transformPublicCatalogCardMathBlocks,
+} from "./publicCatalogCardMath";
 import { isPublicCatalogSharedPageRoutePathname } from "./publicCatalogUrls";
 import { hasRouteTranslation } from "./routeTranslations";
 import { SITE_URL } from "./site";
@@ -925,6 +928,32 @@ function createCardMediaDestinationResolver(
   };
 }
 
+/**
+ * Escapes the dollar signs the card math contract leaves literal, then parses
+ * the escaped source so `remark-math` segments the card the way the contract
+ * does before the math transform confirms each node.
+ */
+function parsePublicCatalogCardMathRoot(
+  markdown: string,
+  sourceContext: string,
+): { readonly markdown: string; readonly root: Root } {
+  const processor = remark().use(gfm).use(math);
+  const mathNormalizedMarkdown = escapeRejectedPublicCatalogCardMath(
+    processor.parse(markdown) as Root,
+    markdown,
+    sourceContext,
+  );
+
+  return {
+    markdown: mathNormalizedMarkdown,
+    root: transformPublicCatalogCardMathBlocks(
+      processor.parse(mathNormalizedMarkdown) as Root,
+      mathNormalizedMarkdown,
+      sourceContext,
+    ),
+  };
+}
+
 export function normalizePublicCatalogCardMarkdownFragment(
   markdown: string,
   locale: AppLocale,
@@ -932,14 +961,10 @@ export function normalizePublicCatalogCardMarkdownFragment(
   sourceContext: string,
 ): string {
   const processor = remark().use(gfm).use(math);
-  const parsedRoot = transformPublicCatalogCardMathBlocks(
-    processor.parse(markdown) as Root,
-    markdown,
-    sourceContext,
-  );
+  const parsedCard = parsePublicCatalogCardMathRoot(markdown, sourceContext);
   const normalizedRoot = createNormalizedPublicCatalogMarkdownRoot(
-    markdown,
-    parsedRoot,
+    parsedCard.markdown,
+    parsedCard.root,
     4,
     locale,
     createCardMediaDestinationResolver(
@@ -959,15 +984,10 @@ export function projectPublicCatalogCardMarkdownToPlainText(
   mediaDownloadUrlByKey: ReadonlyMap<string, string>,
   sourceContext: string,
 ): string {
-  const processor = remark().use(gfm).use(math);
-  const parsedRoot = transformPublicCatalogCardMathBlocks(
-    processor.parse(markdown) as Root,
-    markdown,
-    sourceContext,
-  );
+  const parsedCard = parsePublicCatalogCardMathRoot(markdown, sourceContext);
   const normalizedRoot = createNormalizedPublicCatalogMarkdownRoot(
-    markdown,
-    parsedRoot,
+    parsedCard.markdown,
+    parsedCard.root,
     4,
     locale,
     createCardMediaDestinationResolver(

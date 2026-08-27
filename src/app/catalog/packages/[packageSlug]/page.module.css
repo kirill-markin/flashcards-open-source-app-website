@@ -445,6 +445,28 @@
   line-height: 1.55;
 }
 
+/*
+ * An inline formula stays on the surrounding text baseline inside its
+ * paragraph. KaTeX renders at 1.21em by default, which makes even a simple
+ * formula grow the prose line box, so card formulas match the prose size.
+ */
+.cardSide > .markdown :global(.katex) {
+  font-size: 1em;
+}
+
+/*
+ * KaTeX keeps a formula on one line, so a wide inline formula is a single
+ * unbreakable inline block. Its paragraph scrolls instead of widening the card
+ * column, which has no width of its own to give at mobile sizes. Only a
+ * paragraph that actually holds a formula becomes a scroll container: an
+ * `overflow-x` other than `visible` also computes `overflow-y` to `auto`, which
+ * would clip the focus outline of every link in ordinary prose.
+ */
+.cardSide > .markdown p:has(:global(.katex)) {
+  max-inline-size: 100%;
+  overflow-x: auto;
+}
+
 .cardSide > .markdown :global(.katex-display) {
   max-inline-size: 100%;
   margin-block: 12px;
@@ -456,7 +478,6 @@
 
 .cardSide > .markdown :global(.katex-display) > :global(.katex) {
   min-inline-size: max-content;
-  font-size: 1em;
 }
 
 .cardSideLabel {
