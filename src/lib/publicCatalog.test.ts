@@ -2542,7 +2542,7 @@ test("isolates authored Markdown fragments from generated and sibling content", 
     node.type === "text" && node.value?.includes("[Must stay literal][other]")));
 });
 
-test("renders only card-authorized images in generated catalog Markdown", () => {
+test("renders only catalog covers and card-authorized images in generated Markdown", () => {
   const input = createValidDump();
 
   input.packageVersions[1].description = [
@@ -2589,6 +2589,10 @@ test("renders only card-authorized images in generated catalog Markdown", () => 
     .map((node) => ({ alt: node.alt, url: node.url }));
 
   assert.deepEqual(images, [
+    {
+      alt: "Cover image",
+      url: `https://api.flashcards-open-source-app.com/v1/catalog/package-versions/${fixtureLatestVersionId}/media-assets/cover.webp/download`,
+    },
     {
       alt: "inline",
       url: `https://api.flashcards-open-source-app.com/v1/catalog/package-versions/${fixtureLatestVersionId}/media-assets/inline.webp/download`,

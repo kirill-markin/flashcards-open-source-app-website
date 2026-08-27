@@ -9,6 +9,7 @@ import {
   getPublicCatalogUiCopy,
   interpolatePublicCatalogCardHeading,
 } from "./publicCatalogCopy";
+import { getPublicCatalogCoverImage } from "./publicCatalogCover";
 import {
   getPublicCatalogDestinationCopy,
   interpolatePublicCatalogCopy,
@@ -260,10 +261,25 @@ function renderPackageDetail(
     catalog,
     packageMetadata.packageId,
   );
+  const coverImage = getPublicCatalogCoverImage(
+    latestVersion.title,
+    packageView.coverMediaAsset,
+  );
   const lines = [
     `# ${escapeMarkdownText(latestVersion.title)}`,
     "",
   ];
+
+  if (coverImage !== null) {
+    lines.push(
+      `!${renderMarkdownLink(
+        coverImage.altText,
+        coverImage.downloadUrl,
+        `Public catalog package ${packageMetadata.packageId} cover image`,
+      )}`,
+      "",
+    );
+  }
 
   if (latestVersion.summary !== "") {
     lines.push(escapeMarkdownText(latestVersion.summary), "");
