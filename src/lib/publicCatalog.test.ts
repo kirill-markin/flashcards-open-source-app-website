@@ -60,6 +60,7 @@ import {
   getPublicCatalogPackagesByAuthorSlug,
   getPublicCatalogPackagesByCollectionSlug,
   getPublicCatalogPackagesByLanguageTag,
+  getPublicCatalogRelatedPackages,
 } from "./publicCatalogReadModel";
 import type { PublicCatalogDump } from "./publicCatalogTypes";
 import {
@@ -333,6 +334,88 @@ function createValidDump(): PublicCatalogDumpFixture {
   };
 }
 
+interface RecommendationPackageFixture {
+  readonly index: number;
+  readonly slug: string;
+  readonly title: string;
+  readonly summary: string;
+  readonly description: string;
+  readonly languageTags: ReadonlyArray<string>;
+  readonly publishedAt: string;
+  readonly cardTags: ReadonlyArray<string>;
+  readonly cardContent: string;
+}
+
+function appendRecommendationPackage(
+  input: PublicCatalogDumpFixture,
+  fixture: RecommendationPackageFixture,
+): void {
+  const idSuffix = fixture.index.toString().padStart(12, "0");
+  const packageId = `10000000-0000-4000-a002-${idSuffix}`;
+  const packageVersionId = `10000000-0000-4000-a003-${idSuffix}`;
+  const packageCardId = `10000000-0000-4000-a004-${idSuffix}`;
+
+  input.packages.push({
+    packageId,
+    authorId: fixtureAuthorId,
+    slug: fixture.slug,
+    status: "published",
+    latestPackageVersionId: packageVersionId,
+    versionCount: 1,
+    publishedAt: fixture.publishedAt,
+  });
+  input.packageVersions.push({
+    packageVersionId,
+    packageId,
+    versionNumber: 1,
+    status: "published",
+    slug: fixture.slug,
+    title: fixture.title,
+    summary: fixture.summary,
+    description: fixture.description,
+    languageTags: [...fixture.languageTags],
+    license: "CC0-1.0",
+    contentWarning: null,
+    coverMediaAssetId: null,
+    cardCount: 1,
+    updatedAt: fixture.publishedAt,
+    publishedAt: fixture.publishedAt,
+    installUrl:
+      `https://app.flashcards-open-source-app.com/catalog/import/${packageVersionId}`,
+  });
+  input.cards.push({
+    packageCardId,
+    packageVersionId,
+    ordinal: 1,
+    frontText: fixture.cardContent,
+    backText: "",
+    cardType: "basic",
+    tags: [...fixture.cardTags],
+    mediaAssetIds: [],
+  });
+}
+
+function prepareRecommendationTarget(
+  input: PublicCatalogDumpFixture,
+  title: string,
+  languageTags: ReadonlyArray<string>,
+): void {
+  const targetVersion = input.packageVersions[1];
+
+  assert.ok(targetVersion);
+  targetVersion.title = title;
+  targetVersion.summary = "";
+  targetVersion.description = "";
+  targetVersion.languageTags = [...languageTags];
+  input.cards
+    .filter((card) => card.packageVersionId === fixtureLatestVersionId)
+    .forEach((card) => {
+      card.frontText = "";
+      card.backText = "";
+      card.tags = [];
+    });
+}
+
 test("accepts schema v1 and v2 while ignoring obsolete v1 topic fields", () => {
   const v1Input = createValidDump();
   const v1Dump = parsePublicCatalogDump({
@@ -423,6 +506,118 @@ test("parses the schema and builds latest-version-only lookup data", () => {
   assert.deepEqual(
     createPublicCatalogBrowseData(model, "de").languages,
     ["de", "en", "es"],
+  );
+});
+
+test("prioritizes shared audience languages before multilingual semantic similarity", () => {
+  const input = createValidDump();
+  prepareRecommendationTarget(input, "日本語 動詞 活用", ["ja"]);
+  appendRecommendationPackage(input, {
+    index: 1,
+    slug: "matching-content-other-language",
+    title: "日本語 動詞 活用",
+    summary: "",
+    description: "",
+    languageTags: ["fr"],
+    publishedAt: "2026-08-05T10:00:00.000Z",
+    cardTags: [],
+    cardContent: "",
+  });
+  appendRecommendationPackage(input, {
+    index: 2,
+    slug: "matching-content-and-language",
+    title: "日本語 動詞 活用 練習",
+    summary: "",
+    description: "",
+    languageTags: ["ja"],
+    publishedAt: "2026-08-03T10:00:00.000Z",
+    cardTags: [],
+    cardContent: "",
+  });
+  appendRecommendationPackage(input, {
+    index: 3,
+    slug: "same-language-unrelated-content",
+    title: "古代 陶器",
+    summary: "",
+    description: "",
+    languageTags: ["ja"],
+    publishedAt: "2026-08-04T10:00:00.000Z",
+    cardTags: [],
+    cardContent: "",
+  });
+
+  const model = createPublicCatalogReadModel(parsePublicCatalogDump(input));
+  const relatedPackages = getPublicCatalogRelatedPackages(model, fixturePackageId);
+
+  assert.deepEqual(
+    relatedPackages.map((packageView) => packageView.packageMetadata.slug),
+    [
+      "matching-content-and-language",
+      "same-language-unrelated-content",
+      "matching-content-other-language",
+    ],
+  );
+  assert.equal(relatedPackages.length, 3);
+  assert.equal(
+    relatedPackages.some(({ packageMetadata }) =>
+      packageMetadata.packageId === fixturePackageId),
+    false,
+  );
+  assert.equal(
+    new Set(relatedPackages.map(({ packageMetadata }) => packageMetadata.packageId)).size,
+    relatedPackages.length,
+  );
+  assert.strictEqual(
+    relatedPackages,
+    getPublicCatalogRelatedPackages(model, fixturePackageId),
+  );
+});
+
+test("fills six deterministic related packages and rejects a missing package lookup", () => {
+  const input = createValidDump();
+  const candidateSlugs = [
+    "tie-h",
+    "tie-a",
+    "tie-g",
+    "tie-b",
+    "tie-f",
+    "tie-c",
+    "tie-e",
+    "tie-d",
+  ];
+
+  prepareRecommendationTarget(input, "Shared title", ["en"]);
+  candidateSlugs.forEach((slug, index) => {
+    appendRecommendationPackage(input, {
+      index: index + 1,
+      slug,
+      title: "Shared title",
+      summary: "",
+      description: "",
+      languageTags: ["en"],
+      publishedAt: "2026-08-05T10:00:00.000Z",
+      cardTags: [],
+      cardContent: "",
+    });
+  });
+
+  const model = createPublicCatalogReadModel(parsePublicCatalogDump(input));
+  const relatedPackages = getPublicCatalogRelatedPackages(model, fixturePackageId);
+
+  assert.deepEqual(
+    relatedPackages.map((packageView) => packageView.packageMetadata.slug),
+    ["tie-a", "tie-b", "tie-c", "tie-d", "tie-e", "tie-f"],
+  );
+  assert.equal(relatedPackages.length, 6);
+  assert.equal(
+    new Set(relatedPackages.map(({ packageMetadata }) => packageMetadata.packageId)).size,
+    6,
+  );
+  assert.throws(
+    () => getPublicCatalogRelatedPackages(model, missingPackageId),
+    new RegExp(
+      `Cannot get public catalog recommendations: package ${missingPackageId} is missing from the read model`,
+    ),
   );
 });
 
@@ -1504,6 +1699,52 @@ test("renders useful localized catalog Markdown from the public read model", () 
   assert.equal(
     collectionDocument.markdown.includes("Canonical &lt;package&gt; \\*title\\*"),
     true,
+  );
+});
+
+test("renders the cached related package links in the page locale before card previews", () => {
+  const input = createValidDump();
+  prepareRecommendationTarget(input, "Shared title", ["en"]);
+
+  Array.from({ length: 6 }, (_unused, index) => index + 1).forEach((index) => {
+    appendRecommendationPackage(input, {
+      index,
+      slug: `related-package-${index}`,
+      title: `Related package ${index}`,
+      summary: "",
+      description: "",
+      languageTags: ["en"],
+      publishedAt: `2026-08-0${index + 2}T10:00:00.000Z`,
+      cardTags: [],
+      cardContent: "",
+    });
+  });
+
+  const model = createPublicCatalogReadModel(parsePublicCatalogDump(input));
+  const relatedPackages = getPublicCatalogRelatedPackages(model, fixturePackageId);
+  const markdown = renderPublicCatalogMarkdownDocument(
+    "es/catalog/packages/canonical-package",
+    model,
+  )?.markdown;
+
+  assert.ok(markdown);
+  assert.equal(relatedPackages.length, 6);
+  assert.ok(markdown.indexOf("## Mazos similares") >= 0);
+  assert.ok(
+    markdown.indexOf("## Mazos similares")
+      < markdown.indexOf("## Tarjetas de este mazo"),
+  );
+  const packageLinkDestinations = listMarkdownAstNodes(parseMarkdownAst(markdown))
+    .filter((node) => node.type === "link")
+    .map((node) => node.url)
+    .filter((url) => url?.includes("/catalog/packages/") === true);
+
+  assert.deepEqual(
+    packageLinkDestinations,
+    relatedPackages.map(
+      (relatedPackage) =>
+        `https://flashcards-open-source-app.com/es/catalog/packages/${relatedPackage.packageMetadata.slug}/`,
+    ),
   );
 });
 

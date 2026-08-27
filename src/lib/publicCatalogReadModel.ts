@@ -7,6 +7,9 @@ import type {
   PublicCatalogPackage,
   PublicCatalogPackageVersion,
 } from "./publicCatalogTypes";
+import {
+  createPublicCatalogRelatedPackagesByPackageId,
+} from "./publicCatalogRecommendations";
 
 export type PublicCatalogPackageView = Readonly<{
   packageMetadata: PublicCatalogPackage;
@@ -55,6 +58,10 @@ export type PublicCatalogReadModel = Readonly<{
   packagesByAuthorId: ReadonlyMap<string, ReadonlyArray<PublicCatalogPackageView>>;
   packagesByCollectionId: ReadonlyMap<string, ReadonlyArray<PublicCatalogPackageView>>;
   collectionsByPackageId: ReadonlyMap<string, ReadonlyArray<PublicCatalogCollection>>;
+  relatedPackagesByPackageId: ReadonlyMap<
+    string,
+    ReadonlyArray<PublicCatalogPackageCardView>
+  >;
   packagesByLanguageTag: ReadonlyMap<string, ReadonlyArray<PublicCatalogPackageView>>;
   languageTags: ReadonlyArray<string>;
 }>;
@@ -246,6 +253,10 @@ export function createPublicCatalogReadModel(dump: PublicCatalogDump): PublicCat
       packageCollections.push(collection);
     });
   });
+  const relatedPackagesByPackageId = createPublicCatalogRelatedPackagesByPackageId(
+    packages,
+    collectionsByPackageId,
+  );
 
   return {
     schemaVersion: dump.schemaVersion,
@@ -262,6 +273,7 @@ export function createPublicCatalogReadModel(dump: PublicCatalogDump): PublicCat
     packagesByAuthorId,
     packagesByCollectionId,
     collectionsByPackageId,
+    relatedPackagesByPackageId,
     packagesByLanguageTag: groupBy(packages, (packageView) =>
       packageView.latestVersion.languageTags,
     ),
@@ -283,6 +295,21 @@ export function getPublicCatalogPackageCardTags(
   packageView: PublicCatalogPackageView,
 ): ReadonlyArray<string> {
   return [...new Set(packageView.cards.flatMap((card) => card.tags))];
+}
+
+export function getPublicCatalogRelatedPackages(
+  model: PublicCatalogReadModel,
+  packageId: string,
+): ReadonlyArray<PublicCatalogPackageCardView> {
+  const relatedPackages = model.relatedPackagesByPackageId.get(packageId);
+
+  if (relatedPackages === undefined) {
+    throw new Error(
+      `Cannot get public catalog recommendations: package ${packageId} is missing from the read model. Rebuild the public catalog read model from a complete dump.`,
+    );
+  }
+
+  return relatedPackages;
 }
 
 export function getPublicCatalogAuthorBySlug(
