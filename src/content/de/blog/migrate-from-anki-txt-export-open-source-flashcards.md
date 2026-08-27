@@ -1,150 +1,230 @@
 ---
-title: "Wie du 2026 von Anki migrierst: Exportiere deine Karten als TXT und sende sie an eine Open-Source-Flashcards-App"
-description: "Du willst von Anki migrieren, ohne dein Deck von Hand neu aufzubauen? Exportiere deine Karten als TXT, lade die Datei hoch und nutze eine Open-Source-Flashcards-App mit KI-gestütztem Drafting und FSRS-Scheduling."
+title: "So migrierst du 2026 sicher von Anki: ein Workflow mit TXT-Export"
+description: "Übertrage textbasierte Anki-Karten, ohne die ursprüngliche Sammlung zu gefährden. Erstelle ein .colpkg-Backup, exportiere Notizen als TXT, teste Felder und Medien und baue anschließend sicher ein kleines Deck neu auf."
 date: "2026-03-13"
+updated: "2026-08-27"
+image: "/blog/migrate-from-anki-txt-export-open-source-flashcards.png"
 keywords:
-  - "von anki migrieren"
-  - "anki export txt"
-  - "anki alternative 2026"
-  - "open source flashcards"
-  - "fsrs flashcards"
-  - "anki txt export"
+  - "von Anki migrieren"
+  - "Anki TXT exportieren"
+  - "Anki-Deck exportieren"
+  - "Anki zu Flashcards"
+  - "Anki-Migration"
+  - "Notes in Plain Text"
+  - ".colpkg-Backup"
 ---
 
-Ich glaube, viele Menschen würden Anki morgen verlassen, wenn sie 2.000 Karten verschieben könnten, ohne das Wochenende damit zu verbringen, alles von Hand neu aufzubauen.
+Für eine sichere Migration aus Anki brauchst du zwei Exporte, nicht nur einen. Erstelle zuerst eine `.colpkg`-Datei mit Medien, über die du die ursprüngliche Sammlung wiederherstellen kannst. Anschließend exportierst du die zu übertragenden Inhalte im Format **Notes in Plain Text**.
 
-Das ist die Falle. Nicht die Reviews halten Menschen dort. Der Backlog tut es.
+Die beiden Dateien erfüllen unterschiedliche Aufgaben. Das Sammlungspaket sichert den Rückweg. Die TXT-Datei ist deine portable Arbeitskopie. Wenn du diese Rollen auseinanderhältst, behandelst du eine Liste von Kartentexten nicht versehentlich wie ein vollständiges Anki-Backup.
 
-Sobald du Monate oder Jahre in ein Deck investiert hast, klingt selbst leichte Genervtheit billiger als Migration. Genau deshalb verfehlen die meisten Artikel über eine **Anki alternative 2026** die eigentliche Reibung.
+Dieser Ablauf eignet sich für textbasierte Decks und Zielsysteme, die mit TXT- oder CSV-Dateien arbeiten können. Der Textexport enthält weder den Status des Anki-Schedulers noch Vorlagen, Add-ons oder Mediendateien. Teste deshalb zuerst ein repräsentatives Deck, prüfe jedes Feld und lass die ursprüngliche Sammlung unverändert, bis das Ergebnis im Alltag überzeugt.
 
-Die eigentliche Frage ist, ob du **migrate from Anki** kannst, ohne dein Wochenende in ein Projekt manueller Dateneingabe zu verwandeln.
+> **Offenlegung:** Ich bin Kirill Markin und entwickle [Flashcards](https://flashcards-open-source-app.com/). Dieser Leitfaden sagt klar, wann du besser bei Anki bleibst oder ein Zielsystem wählst, das `.apkg` importieren kann.
 
-## Warum Menschen überhaupt von Anki wegwollen
+**Fakten geprüft:** 27. August 2026.
 
-Anki verdient weiterhin Respekt. Es funktioniert. Es hat die Kategorie geprägt. Es hat eine riesige Community und ein tiefes Archiv an Lerngewohnheiten um sich herum aufgebaut.
+![Ein Botaniker lässt die ursprüngliche Pflanze unversehrt neben einem geschützten Sicherungssteckling und drei Teststecklingen](/blog/migrate-from-anki-txt-export-open-source-flashcards.png)
 
-Menschen gehen nicht, weil Spaced Repetition versagt hätte. Sie gehen, weil sich der Gesamtworkflow älter anfühlt, als er müsste.
+## Entscheide zuerst, ob TXT der richtige Weg ist
 
-Meist ist es eine Mischung aus:
+Anki speichert weit mehr als die Wörter, die du beim Wiederholen siehst. Eine Notiz kann mehrere Felder haben. Der Notiztyp und seine Kartenvorlagen bestimmen, wie daraus eine oder mehrere Karten entstehen. Zur Sammlung gehören außerdem Informationen zur Lernplanung. Medien liegen dagegen als separate Dateien vor, auf die der Inhalt einer Notiz verweist.
 
-- Produkterlebnis, das stur wirkt
-- Plugin-Gewohnheiten, die zu Wartungsarbeit geworden sind
-- Sync und Setup, die technischer wirken, als sie sollten
-- dem Wunsch nach einem saubereren, moderneren Lernfluss
+Ein Textexport bildet nur einen Teil dieses Systems ab. Prüfe deshalb diese Tabelle, bevor du Zeit in die Bereinigung der Datei steckst:
 
-Das ist der ehrliche Ausgangspunkt für die meisten Suchen rund um **migrate from Anki**.
+| Dein Anki-Setup | Ist TXT ein sinnvoller Migrationsweg? | Sicherere Entscheidung |
+| --- | --- | --- |
+| Einfache Notizen mit Vorder- und Rückseite sowie wenigen oder keinen Medien | **Ja** | Exportiere ein repräsentatives Deck, ordne die Felder zu und teste das Zielsystem |
+| Mehrere vorhersehbare Textfelder wie Begriff, Definition und Beispiel | **Meistens** | Entscheide vor dem Import, welche Felder auf die Vorder- und Rückseite gehören |
+| Cloze-Notizen, die du als gewöhnliche Fragen und Antworten neu formulieren würdest | **Manchmal** | Teste einige Lückentexte und prüfe das Ergebnis Karte für Karte |
+| Eigenes HTML, das nur der einfachen Formatierung dient | **Manchmal** | Prüfe, ob das Zielsystem das HTML rendert, entfernt oder als Quelltext anzeigt |
+| Bilder oder Audiodateien, die nützlich, aber nicht unverzichtbar sind | **Manchmal** | Übertrage zuerst den Text; füge die Medien danach separat hinzu und prüfe sie |
+| Vorlagen, CSS, JavaScript, Add-ons oder automatisch erzeugte Rückwärtskarten sind unverzichtbar | **Meistens nein** | Bleibe bei Anki oder wähle ein Zielsystem mit kompatiblem Import von Anki-Paketen |
+| Bestehende Fälligkeitstermine, der Wiederholungsverlauf oder dein persönlicher Planungsstand sind unverzichtbar | **Nein** | Lerne weiter mit Anki oder nutze einen Migrationsweg, der die Lernplanung ausdrücklich bewahrt |
+| Image Occlusion oder medienlastige Notizen tragen die eigentliche Bedeutung | **Nicht mit TXT allein** | Nutze ein Zielsystem, das Anki-Pakete versteht, und prüfe vor dem Wechsel, ob die Medien korrekt übernommen werden |
 
-## Der nützliche Migrationspfad ist einfacher, als viele denken
+Die entscheidende Frage lautet: Bliebe das benötigte Lernmaterial erhalten, wenn du jede Notiz auf ihre Textfelder reduzieren würdest? Falls nicht, ist TXT das falsche Migrationsformat.
 
-Wenn dein Deck hauptsächlich aus Front- und Back-Text besteht, brauchst du nicht immer ein großes Migrationstool. Ein einfacher **Anki export TXT**-Workflow reicht oft, um loszulegen.
+## Das Sicherheitsmodell mit zwei Exporten
 
-Das ist wichtig, weil das Ziel nicht darin besteht, jede historische Eigenheit des alten Setups zu bewahren. Das Ziel ist, die Karten zu behalten, die dir noch wichtig sind, und sie in ein Lernsystem zu bekommen, das du morgen tatsächlich öffnen willst.
+Lege beide Exporte an, bevor du in Anki etwas änderst oder anderswo ein großes Deck erstellst.
 
-Diesen Pfad würde ich nutzen:
+| Datei | Wofür sie gedacht ist | Was sie schützt |
+| --- | --- | --- |
+| `.colpkg` mit aktivierter Option **Include media** | Wiederherstellung | Notizen, Karten, Decks, Notiztypen, Informationen zur Lernplanung und eingebundene lokale Medien der Sammlung |
+| **Notes in Plain Text** `.txt` | Portabilität | Die Inhalte der exportierten Notizfelder, durch Tabulatoren getrennt |
 
-1. die Karten, die du behalten willst, als Text aus Anki exportieren
-2. offensichtlichen Müll bei Bedarf bereinigen
-3. die `.txt`-Datei in den KI-Chat der neuen App hochladen
-4. den Assistenten bitten, daraus saubere Flashcard-Entwürfe zu machen
-5. das Ergebnis prüfen, bevor Karten im Workspace angelegt werden
+Laut der [Anki-Dokumentation zum Export](https://docs.ankiweb.net/exporting.html) enthält ein Sammlungspaket die gesamte Sammlung einschließlich der Lernplanung. Über die Medienoption legst du fest, ob lokale Bilder, Audio- und andere Dateien mitgesichert werden. Der [Backup-Leitfaden von Anki](https://docs.ankiweb.net/backups.html) empfiehlt, ein manuell erstelltes Sammlungspaket an einem sicheren Ort aufzubewahren, etwa auf einem anderen Gerät oder in einem Cloud-Speicher.
 
-Das ist kein One-Click-Importer. Es ist aber viel realistischer, als so zu tun, als müsste Migration magisch sein.
+Die TXT-Datei ist bewusst eingeschränkter. Anki schreibt die Notizfelder in eine Textdatei und trennt sie durch Tabulatoren. Beziehst du HTML und Medienreferenzen ein, wird auch das in diesen Feldern gespeicherte Markup sichtbar. So kannst du die Inhalte prüfen und wiederverwenden. Zu einer portablen Kopie des gesamten Anki-Systems wird die Datei dadurch nicht.
 
-## Wie der Anki-TXT-Export hilft
+Eine `.colpkg` schützt die Sammlungsdaten. Sie enthält jedoch weder die Anki-Anwendung noch den Code deiner Add-ons. Halte daher separat fest, von welchen Add-ons dein Workflow abhängt.
 
-Das Gute an **Anki export TXT** ist, dass er dir etwas Portables gibt. Sobald das Deck Text ist, sitzt es nicht mehr in einem einzelnen Produkt mit seiner ganz speziellen Oberfläche fest.
+Für eine umfassendere Backup-Routine über diese Migration hinaus hilft dir der Leitfaden zum [Sichern von Flashcards](/de/blog/how-to-back-up-flashcards/).
 
-Das heißt nicht, dass jedes Feld, Add-on oder jeder Spezialworkflow perfekt überlebt. Wenn dein Setup von schweren Templates, Medienregeln oder Jahren plugin-spezifischen Verhaltens abhängt, musst du mit Nacharbeit rechnen.
+## Export 1: Erstelle die `.colpkg` für die Wiederherstellung
 
-Aber für viele normale Front/Back-Decks ist Text-Export genug Struktur, um das zu retten, was wirklich zählt. Und ehrlich gesagt ist das meist der größere Gewinn.
+Arbeite in der Anki-Desktop-App und folge dem Wiederherstellungsweg aus dem offiziellen Handbuch. Wenn deine Karten auf Medien angewiesen sind, führe zuerst **Tools > Check Media** aus. Laut [Ankis Medienleitfaden](https://docs.ankiweb.net/media.html) meldet diese Funktion Dateien, auf die Notizen verweisen, die aber im Medienordner fehlen.
 
-Migration wird leichter, wenn du aufhörst, museale Bewahrung jedes alten Details zu verlangen.
+1. Öffne **File > Export**.
+2. Wähle **Anki collection package (`.colpkg`)** als Exportformat.
+3. Aktiviere **Include media**.
+4. Speichere die Datei außerhalb des Anki-Profilordners.
+5. Kopiere sie an einen zweiten Ort, der sich nicht auf dem Computer mit deiner Sammlung befindet.
 
-## Lade die TXT-Datei hoch und lass den Assistenten den repetitiven Teil übernehmen
+Schreib das Datum in den Dateinamen, zum Beispiel `anki-collection-2026-08-27.colpkg`. Prüfe anschließend, ob die Datei an beiden Orten vorhanden und nicht leer ist.
 
-Hier wird [Flashcards](https://flashcards-open-source-app.com/) interessanter als ein weiterer statischer Vergleich **Anki alternative 2026**. Die Web-App unterstützt bereits Textdatei-Anhänge im KI-Chat. Du kannst eine `.txt`-Datei hochladen und den Assistenten bitten, daraus Flashcards zu entwerfen.
+Spiele dieses Backup nicht testweise in deine aktive Sammlung ein. Anki warnt davor, dass der Import einer `.colpkg` die aktuellen Karten löscht und ersetzt; vorhandene Mediendateien werden dabei nicht gelöscht. Falls du die Datei wiederherstellen musst, folge den offiziellen Anweisungen und rechne damit, dass alle Änderungen an der Sammlung seit dem Backup verloren gehen.
 
-Das verändert den Workflow praktisch. Statt Karten einzeln zu kopieren, gibst du dem Assistenten den exportierten Text und sagst in normaler Sprache, was du willst:
+Behalte diese Datei auch dann, wenn die TXT-Migration funktioniert. Sie sichert genau den Zustand der Sammlung, den der Textexport nicht abbilden kann.
 
-- verwandle diesen Export in Front/Back-Karten
-- behalte nur spanische Verben
-- teile lange Antworten in kleinere Karten
-- erhalte Tags, wenn sie in der Datei klar enthalten sind
-- zeig mir Entwürfe, bevor irgendetwas angelegt wird
+## Export 2: Erstelle eine kleine Stichprobe als Notes in Plain Text
 
-Also normale menschliche Sprache, keine Importer-Sprache. "Behalte die Tags, wenn sie in der Datei stehen. Teile die langen Antworten. Zeig mir erst den Entwurf." Genau so ein Workflow ist viel leichter zu vertrauen.
+Beginne mit einem repräsentativen Deck statt mit der gesamten Sammlung. Wähle eines, das die schwierigen Fälle enthält, die du wirklich nutzt: ein zusätzliches Feld, ein wichtiges Tag, eine formatierte Antwort, einen Lückentext und eine Medienreferenz, sofern diese Elemente auch in der restlichen Sammlung vorkommen.
 
-Das ist eine deutlich bessere Migrations-Erfahrung, als zwei Apps nebeneinander offen zu haben und dein Deck manuell neu zu bauen.
+Dann:
 
-## Warum ich KI-gestütztes Drafting einer falschen "Smart Import"-Magie vorziehe
+1. Öffne erneut **File > Export**.
+2. Wähle **Notes in Plain Text**.
+3. Beschränke den Export auf das repräsentative Deck.
+4. Aktiviere **Include HTML and media references**, damit Formatierungen und Dateiabhängigkeiten in der Stichprobe sichtbar werden. Die Referenzen bleiben dadurch erhalten; die Mediendateien selbst landen nicht in der TXT-Datei.
+5. Aktiviere **Include tags**, wenn du Tags behalten möchtest. Du musst sie im Zielsystem trotzdem zuordnen und prüfen.
+6. Speichere das Ergebnis als `.txt`-Datei und lass die Quellsammlung unverändert.
 
-Ich misstraue Migrationstools, die zu viel versprechen. "Smart Import" bedeutet meist eines von zwei schlechten Dingen:
+Anki spricht aus gutem Grund von einem Notizexport. Exportiert werden die gespeicherten Felder, nicht die Darstellung jeder gerenderten Karte. Wenn eine Notiz über Vorlagen Karten in beide Richtungen erzeugt, beschreibt die Textdatei weiterhin nur die Notizfelder. Eine vom Zielsystem unabhängig nutzbare Logik, die daraus zwei Lernkarten erzeugt, enthält sie nicht.
 
-- das Produkt rät still und liegt bei Details falsch
-- das Produkt behauptet mehr Kompatibilität, als wirklich da ist
+Sobald die kleine Stichprobe funktioniert, wiederholst du denselben Ablauf für die übrigen geeigneten Decks. Eine fehlgeschlagene Stichprobe kostet nur etwas Prüfzeit. Eine fehlgeschlagene Komplettmigration beschert dir dagegen ein eigenes Aufräumprojekt.
 
-Ich hätte lieber einen expliziten Workflow. Du lädst die Datei hoch. Der Assistent liest sie. Er entwirft Karten. Du prüfst, was verstanden wurde. Erst dann entscheidest du, was im Workspace entstehen soll.
+## Öffne die TXT-Datei, bevor du sie einem Importer oder einer KI übergibst
 
-Das ist langsamer als Marketingsprache.
+Behandle den Export nicht wie einen undurchsichtigen Anhang. Öffne ihn in einem Texteditor, der Tabulatoren anzeigen kann, oder importiere eine Kopie in eine Tabellenkalkulation. Das Original bleibt dabei unangetastet.
 
-Es ist schneller als manuelles Neuanlegen und ehrlicher, als einen dedizierten Importer vorzutäuschen, den es gar nicht gibt.
+Neuere Anki-Exporte können mit Zeilen wie `#separator:tab`, `#html:true` oder `#tags column:...` beginnen. Dabei handelt es sich um Dateiheader, nicht um Notizen. Lass sie im unveränderten Original stehen. Kopierst du einige Notizzeilen in eine separate Testdatei für ein Zielsystem, das Anki-Header nicht versteht, schließt du diese Zeilen jedoch aus.
 
-## Was passiert, nachdem die Karten in Flashcards gelandet sind
+Prüfe fünf Dinge:
 
-Migration lohnt sich nur, wenn das Ziel besser genug ist, um den Wechsel zu rechtfertigen. Hier werden **FSRS flashcards** Teil der Geschichte.
+1. **Anzahl der Felder:** Jede Zeile sollte die erwartete Anzahl an tabulatorgetrennten Feldern enthalten. Ankis [Leitfaden zum Textimport](https://docs.ankiweb.net/importing/text-files.html) erklärt, warum Feldtrenner wichtig sind und wie du Felder unabhängig voneinander zuordnest.
+2. **Reihenfolge der Felder:** Notiere die Bedeutung jeder Spalte: Vorderseite, Rückseite, Beispiel, Quelle oder etwas anderes. In den Rohdaten sind weder die Feldnamen noch ihre Rolle auf den Kartenseiten unbedingt erkennbar.
+3. **HTML:** Suche nach Fragmenten wie `<b>`, `<br>` oder `<div>`. Anki bettet Formatierungen als HTML ein, wenn sie in den Export aufgenommen werden. Eine andere App kann dieses HTML rendern, entfernen oder als Text anzeigen.
+4. **Cloze-Markup:** Suche nach Zeichenfolgen wie `{{c1::Paris}}`. Ein allgemeines Zielsystem für Karten mit Vorder- und Rückseite übernimmt Ankis Logik zur Erzeugung von Lückentexten nicht allein deshalb, weil diese Zeichenfolge in einem Feld steht.
+5. **Medienreferenzen:** Suche nach `<img src="...">` und `[sound:...]`. Die Referenz ist weder die Bild- noch die Audiodatei. Anki speichert diese Dateien separat in seinem Medienordner.
 
-Flashcards ist um FSRS herum gebaut und nicht um ältere SM-2-artige Standards, und genau diese Richtung würde ich von einem modernen Lerntool erwarten. Wenn du die längere Version willst, gibt es bereits einen ganzen Artikel zu [FSRS vs SM-2 in 2026: Welcher Spaced-Repetition-Algorithmus hilft dir, mehr zu behalten?](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/).
+Prüfe auch die Tags, falls du sie brauchst. Ankis [Leitfaden zum Textimport](https://docs.ankiweb.net/importing/text-files.html) unterstützt ein eigenes Tag-Feld und einen `#tags column`-Header, dein Zielsystem verwendet aber möglicherweise ein anderes Format. Tags bleiben nur erhalten, wenn du sie exportiert, bewusst zugeordnet und an den erstellten Karten überprüft hast. Verlass dich nicht darauf, dass eine vertraute `parent::child`-Hierarchie übernommen wurde, nur weil einige Tag-Namen in der Stichprobe auftauchen.
 
-Praktisch ist das Upgrade nicht nur ein Weg weg von Anki. Es ist eine Landung in einem System, in dem:
+Ersetze zur schnellen Bereinigung nicht einfach jeden Tabulator durch ein Komma. Ein Tabulator markiert die Grenze zwischen Feldern. Änderst du die Trennzeichen ohne korrekte CSV-Zitierung, können Kommas, Anführungszeichen oder Zeilenumbrüche im Inhalt die Zeilenstruktur zerstören.
 
-- das Review-Scheduling einem stärkeren modernen Standard folgt
-- die Produktrichtung sauberer ist
-- die Architektur Open Source ist
-- Self-Hosting weiter eine Option bleibt
+Lege am besten direkt neben dem Export eine kurze Zuordnungsnotiz an:
 
-Diese Kombination ist interessanter als ein kosmetisches Redesign desselben alten Workflows.
+```text
+Spalte 1 -> Vorderseite
+Spalte 2 -> Rückseite
+Spalte 3 -> als Beispiel an die Rückseite anhängen
+Spalte 4 -> erst nach Prüfung als Tags übernehmen
+HTML -> bis auf Zeilenumbrüche entfernen
+Cloze-Markup -> manuell neu formulieren
+```
 
-## Wofür dieser Migrationspfad gut ist
+Mit dieser kurzen Notiz lässt sich die Migration wiederholen. Zugleich hast du einen konkreten Sollzustand, mit dem du das Ergebnis im Zielsystem vergleichen kannst.
 
-Dieser Ansatz passt gut, wenn:
+## Was erhalten bleibt – und wo TXT an seine Grenzen stößt
 
-- deine Karten überwiegend Text sind
-- du den nützlichen Inhalt behalten willst, nicht jedes Implementierungsdetail
-- du damit leben kannst, Entwürfe zu prüfen, bevor finale Karten angelegt werden
-- du eine **open source flashcards**-App mit transparenterer Richtung willst
+| Anki-Daten oder -Verhalten | In Notes in Plain Text enthalten? | Was du tun solltest |
+| --- | --- | --- |
+| Text der Notizfelder | **Ja** | Ordne jede durch Tabulatoren getrennte Spalte bewusst zu |
+| Einfache Formatierungen | **Als eingebettetes HTML, wenn einbezogen** | Teste, wie das Zielsystem damit umgeht; entferne oder überarbeite es bei Bedarf |
+| Tags | **Nur wenn sie in den Export aufgenommen wurden** | Ordne die Tag-Spalte bewusst zu und prüfe Namen und Hierarchie |
+| Bilder und Audio | **Referenzen können enthalten sein; die Dateien werden nicht in der TXT übertragen** | Behalte die `.colpkg` für die Wiederherstellung und übertrage benötigte Medien separat |
+| Kartenvorlagen und CSS | **Nein** | Baue die Kartenstruktur neu auf oder wähle einen Importer, der Anki-Pakete versteht |
+| JavaScript oder Verhalten von Add-ons | **Nein** | Nutze Anki weiter, wenn dieses Verhalten zu deinem Lernworkflow gehört |
+| Cloze-Verhalten | **Nein** | Wandle die Cloze-Syntax in unterstützte Kartentypen oder normale Frage-Antwort-Karten um |
+| Mehrere Karten, die aus einer Notiz erzeugt werden | **Nicht als Template-Verhalten** | Entscheide, welche Richtungen zu separaten Karten im Zielsystem werden sollen |
+| Decknamen und -hierarchie | **Nur wenn sie als Exportmetadaten enthalten sind** | Ordne die Namen bewusst zu; erwarte nicht, dass das Zielsystem die Struktur neu aufbaut |
+| Deck-Voreinstellungen | **Nein** | Richte nur die Einstellungen neu ein, die du weiterhin brauchst |
+| Fälligkeitstermine, Intervalle, Wiederholungsverlauf und Scheduler-Status | **Nein** | Behandle die Karten im Zielsystem so, als begänne ihr Wiederholungsverlauf neu |
 
-Er passt weniger gut, wenn dein Setup stark von spezialisierten Anki-Add-ons, komplexen Templates oder medienschweren Karten abhängt, die exakt erhalten bleiben müssen. Das ist kein Fehler der Methode. Es ist nur die ehrliche Grenze.
+Die letzte Zeile hat die größten Folgen. Karteninhalte und Lernplanung sind zwei getrennte Dinge. Ein erfolgreicher **Anki-TXT-Export** kann die Kartentexte bewahren und trotzdem den Lernstand jeder Karte zurücksetzen.
 
-## Ein praktischer Weg, von Anki zu migrieren, ohne alles neu aufzubauen
+Nur weil zwei Apps Scheduler aus derselben Familie verwenden, sind ihre Kartenverläufe noch lange nicht austauschbar. Aus bloßem Frage-und-Antwort-Text kann ein Zielsystem weder deine bisherigen Fälligkeitstermine noch Stabilität, Schwierigkeit oder Wiederholungsereignisse ableiten. Wenn dir dieser Verlauf wichtig ist, lies nach, [was FSRS speichert und berechnet](/de/blog/what-is-fsrs/), bevor du dich für einen Neustart entscheidest.
 
-Wenn ich das heute tun würde, hielte ich den Prozess langweilig: exportieren, hochladen, prüfen, anlegen, weiterlernen.
+## Führe im Zielsystem einen reversiblen Test durch
 
-Genau das ist der eigentliche Wert eines guten **migrate from Anki**-Workflows. Nicht perfekte historische Treue. Sondern Momentum.
+Während des Tests bleibt Anki die maßgebliche Quelle. Erstelle im Zielsystem ein temporäres Deck, importiere oder entwirf nur die repräsentative Stichprobe und prüfe jedes Ergebnis. Dafür musst du keine der ursprünglichen Notizen löschen, bearbeiten oder aussetzen.
 
-Sobald dein Deck in einem saubereren System ist, zählt die tägliche Nutzung ohnehin mehr als die Migrationsgeschichte.
+Deine Prüfung sollte diese Fragen beantworten:
 
-## Warum das 2026 eine echte Anki-Alternative ist
+- Hat jede erwartete Notiz die richtige Anzahl an Karten erzeugt?
+- Sind die richtigen Felder auf der Vorder- und Rückseite gelandet?
+- Sind Tabulatoren, Anführungszeichen, Zeilenumbrüche, nichtlateinische Schriftzeichen und Codeausschnitte erhalten geblieben?
+- Wird HTML korrekt gerendert, als Roh-Markup angezeigt oder entfernt?
+- Wurden Lückentexte bewusst umgewandelt, statt als fehlerhafte Syntax kopiert zu werden?
+- Haben Tags noch dieselbe Bedeutung wie in Anki?
+- Sind medienabhängige Karten verständlich und alle benötigten Dateien vorhanden?
+- Hat das Zielsystem Duplikate erzeugt?
+- Ist klar, dass die Lernplanung von vorn beginnt?
 
-Die meisten Posts zu **Anki alternative 2026** behandeln die Entscheidung wie eine Feature-Matrix.
+Vergleiche die Stichprobe direkt mit Anki. Gib dich nicht damit zufrieden, dass „das meiste ganz gut aussieht“, wenn ein einziges fehlendes Feld jede Notiz eines großen Exports beeinträchtigen könnte.
 
-Ich finde, die nützlichere Frage ist einfacher: Kann mir dieses Produkt helfen, meine vorhandenen Karten ohne Unsinn zu übertragen, und benutze ich es danach lieber?
+Falls der Test scheitert, entfernst du die temporären Karten über die dafür vorgesehene Funktion des Zielsystems. Passe danach die Zuordnung oder die Bereinigung an. Deine Anki-Sammlung und beide Exportdateien bleiben unverändert – genau das macht den Test reversibel.
 
-Für textbasierte Decks hat Flashcards darauf eine ziemlich gute Antwort:
+## Die TXT-Datei mit Flashcards Open Source App verwenden
 
-- aus Anki als Text exportieren
-- die Datei in den KI-Chat hochladen
-- um Flashcard-Entwürfe bitten
-- vor dem Anlegen prüfen
-- mit FSRS-Scheduling in einem Open-Source-Produkt weiterlernen
+Flashcards bietet keinen direkten Anki-Importer. Die App kann `.apkg` oder `.colpkg` nicht lesen und daraus Anki-Vorlagen, Medien oder den Wiederholungsverlauf rekonstruieren.
 
-Das ist nicht flashy. Es ist praktisch. Und praktisch ist genau das, was Migration braucht.
+Der derzeit verfügbare gehostete Weg führt über KI-gestützte Entwürfe aus Dateianhängen. Öffne die [gehostete App mithilfe des Leitfadens für die ersten Schritte](/de/docs/getting-started/), hänge die TXT-Datei oder eine sorgfältig vorbereitete CSV-Datei im KI-Chat an und fordere ausdrücklich einen kleinen Entwurf an, ohne etwas speichern zu lassen. Prüfe die vorgeschlagenen Karten im Chat. Erst danach bittest du den Assistenten, den freigegebenen Stapel zu speichern.
 
-## Wenn du Anki verlassen willst, ohne wieder von vorne anzufangen
+Eine gute erste Anfrage beschreibt die Zuordnung genau und vermeidet ungewollte Änderungen:
 
-Wenn du **migrate from Anki** willst, ist der sicherste ehrliche Weg, dein Deck als portablen Text zu behandeln und nicht als heiligen UI-Zustand.
+```text
+Lies den angehängten Anki-Export im Format Notes in Plain Text. Speichere noch
+keine Karten. Behandle Tabulatoren als Feldtrenner. Verwende Spalte 1 als
+Vorderseite und Spalte 2 als Rückseite. Füge Spalte 3 unter der Überschrift
+„Beispiel“ an die Rückseite an.
+Zeige zuerst eine kleine Stichprobe, übernimm die Formulierungen aus der Quelle
+und markiere Zeilen mit HTML, Cloze-Markup, fehlenden Feldern oder
+Medienreferenzen, anstatt zu raten.
+```
 
-Exportiere die Karten. Lade die `.txt`-Datei hoch. Lass den Assistenten den repetitiven Teil übernehmen. Prüfe die Entwürfe. Und lerne dann in einem Produkt weiter, das sich aktueller anfühlt.
+Passe die Anfrage an die Zuordnung an, die du nach der Prüfung der Datei notiert hast. Falls die Entwürfe überladen oder unklar sind, hilft dir die Checkliste zum [Überarbeiten von KI-Flashcards vor dem Lernen](/de/blog/how-to-fix-ai-flashcards/). KI kann dir hier die wiederholte Umstrukturierung abnehmen. Sie beweist aber nicht, dass die Migration die Quelle korrekt bewahrt hat.
 
-Genau deshalb halte ich das für einen der nützlichsten Wege, einen **Anki export TXT**-Workflow 2026 anzugehen.
+Nachdem du einen kleinen Stapel freigegeben hast, speicherst du ihn in einem temporären Test-Deck, versiehst ihn mit einem Migrations-Tag und gehst dieselbe Prüfliste durch. Nur das geprüfte Ergebnis zeigt zuverlässig, ob der Ablauf für genau diese Anki-Sammlung funktioniert.
 
-[Flashcards](https://flashcards-open-source-app.com/) wird nicht so tun, als sei es ein magischer One-Click-Importer oder ein dediziertes Anki-Migrationstool. Es ist eine bessere Art Tool für diese Aufgabe: eine **open source flashcards**-App mit realistischem Migrationspfad und einem stärkeren Zielort nach dem Umzug.
+## Weite die Migration aus, ohne den Wechsel unumkehrbar zu machen
+
+Sobald das repräsentative Deck den Test bestanden hat:
+
+1. Gruppiere die übrigen Decks nach ihrer Notizstruktur, statt alles in eine einzige, schwer verständliche Datei zu exportieren.
+2. Exportiere und prüfe eine Gruppe nach der anderen.
+3. Verwende eine schriftliche Feldzuordnung nur erneut, wenn die Notiztypen tatsächlich übereinstimmen.
+4. Prüfe jeden erstellten Stapel, bevor du den nächsten angehst.
+5. Behalte die `.colpkg`, die unveränderten TXT-Dateien und Anki selbst.
+
+Lege einen klaren Zeitpunkt für den Umstieg fest, sobald du mit den neuen Karten lernen möchtest. Wiederholst du dasselbe Material in beiden Apps, entstehen zwei unabhängige Zeitpläne, die sofort auseinanderlaufen. Der alte Anki-Zeitplan bleibt in der Wiederherstellungskopie erhalten, wird aber nicht durch Wiederholungen aktualisiert, die du anderswo absolvierst.
+
+Du gewinnst nichts, wenn du Anki besonders schnell löschst. Behalte die ursprüngliche Sammlung, bis sich das neue Deck im normalen Einsatz bewährt hat und du mit allem einverstanden bist, was über den TXT-Weg nicht übernommen wurde.
+
+## Wann du nicht auf diese Weise von Anki migrieren solltest
+
+Bleibe bei Anki oder wähle ein Zielsystem, das `.apkg` ausdrücklich importiert, wenn du auf Folgendes angewiesen bist:
+
+- komplexe Notiztypen oder mehrere erzeugte Kartenrichtungen;
+- benutzerdefinierte Vorlagen, CSS, JavaScript oder Add-ons;
+- Cloze-Funktionen, die du nicht neu aufbauen möchtest;
+- Image Occlusion, Audiodateien oder Bilder, die unverzichtbare Informationen enthalten;
+- Deck-Voreinstellungen und eine Organisation, die exakt übertragen werden müssen;
+- einen Wiederholungsverlauf oder eine aktuelle Lernplanung, die du nicht zurücksetzen kannst.
+
+Für solche Workflows ist Anki eine gute Wahl. Die TXT-Migration ist kein Urteil über die App, sondern ein eng begrenztes Werkzeug für Menschen, deren Lernmaterial im Wesentlichen in den Notizinhalten steckt. Der ausführlichere [Vergleich zwischen Anki und Flashcards](/de/blog/anki-vs-flashcards-open-source-app/) behandelt die Unterschiede zwischen den Produkten, ohne davon auszugehen, dass alle wechseln sollten.
+
+## Die sichere Variante ist bewusst unspektakulär
+
+Wenn du von Anki migrieren willst, ohne die ursprüngliche Sammlung zu gefährden, halte den Ablauf schlicht:
+
+1. Exportiere eine `.colpkg` mit Medien und bewahre sie an einem anderen Ort auf.
+2. Exportiere ein repräsentatives Deck als **Notes in Plain Text**.
+3. Prüfe Tabulatoren, Felder, HTML, Lückentexte, Tags und Medienreferenzen.
+4. Schreib die Zuordnung von der Quelle zum Zielsystem eindeutig auf.
+5. Erstelle ein temporäres Test-Deck und prüfe jede Karte.
+6. Weite die Migration erst aus, wenn die Stichprobe den Test bestanden hat.
+7. Behalte Anki und das Wiederherstellungspaket, während sich der neue Workflow bewährt.
+
+Die TXT-Datei überträgt Inhalte. Die `.colpkg` schützt die Sammlung. Sobald du nicht mehr erwartest, dass eine einzige Datei beide Aufgaben übernimmt, lässt sich eine Anki-Migration viel leichter nachvollziehen – und viel leichter rückgängig machen.
