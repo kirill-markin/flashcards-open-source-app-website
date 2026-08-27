@@ -928,6 +928,33 @@ function createCardMediaDestinationResolver(
   };
 }
 
+function escapeStandaloneNumericCardText(markdown: string, parsedRoot: Root): string {
+  const onlyRootChild = parsedRoot.children[0];
+  const onlyListItem = onlyRootChild?.type === "list"
+    ? onlyRootChild.children[0]
+    : undefined;
+  const markerStartOffset = onlyRootChild?.position?.start.offset;
+  const marker = markerStartOffset === undefined
+    ? undefined
+    : /^\d{1,9}\./u.exec(markdown.slice(markerStartOffset))?.[0];
+
+  if (
+    parsedRoot.children.length !== 1
+    || onlyRootChild?.type !== "list"
+    || onlyRootChild.ordered !== true
+    || onlyRootChild.children.length !== 1
+    || onlyListItem?.children.length !== 0
+    || markerStartOffset === undefined
+    || marker === undefined
+  ) {
+    return markdown;
+  }
+
+  const periodOffset = markerStartOffset + marker.length - 1;
+
+  return `${markdown.slice(0, periodOffset)}\\${markdown.slice(periodOffset)}`;
+}
+
 /**
  * Escapes the dollar signs the card math contract leaves literal, then parses
  * the escaped source so `remark-math` segments the card the way the contract
@@ -938,9 +965,13 @@ function parsePublicCatalogCardMathRoot(
   sourceContext: string,
 ): { readonly markdown: string; readonly root: Root } {
   const processor = remark().use(gfm).use(math);
+  const parsedRoot = processor.parse(markdown) as Root;
+  const parseableMarkdown = escapeStandaloneNumericCardText(markdown, parsedRoot);
   const mathNormalizedMarkdown = escapeRejectedPublicCatalogCardMath(
-    processor.parse(markdown) as Root,
-    markdown,
+    parseableMarkdown === markdown
+      ? parsedRoot
+      : processor.parse(parseableMarkdown) as Root,
+    parseableMarkdown,
     sourceContext,
   );
 
