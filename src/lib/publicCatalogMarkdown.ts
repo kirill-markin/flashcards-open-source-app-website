@@ -22,6 +22,7 @@ import {
 } from "./publicCatalogFormatting";
 import {
   getPublicCatalogPackageCardTags,
+  getPublicCatalogRelatedPackages,
   type PublicCatalogPackageView,
   type PublicCatalogReadModel,
 } from "./publicCatalogReadModel";
@@ -79,7 +80,9 @@ function createLocalizedCatalogLink(
 function createLocalizedPackageLink(
   label: string,
   locale: AppLocale,
-  packageView: PublicCatalogPackageView,
+  packageView: Readonly<{
+    packageMetadata: Readonly<{ slug: string }>;
+  }>,
 ): string {
   return createMarkdownLink(
     label,
@@ -253,6 +256,10 @@ function renderPackageDetail(
   const copy = getPublicCatalogUiCopy(locale);
   const { author, latestVersion, packageMetadata } = packageView;
   const collections = catalog.collectionsByPackageId.get(packageMetadata.packageId) ?? [];
+  const relatedPackages = getPublicCatalogRelatedPackages(
+    catalog,
+    packageMetadata.packageId,
+  );
   const lines = [
     `# ${escapeMarkdownText(latestVersion.title)}`,
     "",
@@ -295,6 +302,19 @@ function renderPackageDetail(
         locale,
         `Public catalog package ${packageMetadata.packageId} description`,
       ),
+    );
+  }
+
+  if (relatedPackages.length > 0) {
+    lines.push(
+      "",
+      `## ${escapeMarkdownText(copy.similarDecksHeading)}`,
+      "",
+      ...relatedPackages.map((relatedPackage) => `- ${createLocalizedPackageLink(
+        relatedPackage.latestVersion.title,
+        locale,
+        relatedPackage,
+      )}`),
     );
   }
 
