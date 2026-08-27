@@ -19,7 +19,7 @@
   --accent-muted: rgba(255, 103, 25, 0.18);
   --border: rgba(238, 238, 238, 0.1);
   --border-strong: rgba(238, 238, 238, 0.16);
-  --danger: #ff4d57;
+  --warning: #f5b942;
   --shadow: 0 28px 80px rgba(0, 0, 0, 0.44);
   --shadow-soft: 0 12px 30px rgba(0, 0, 0, 0.26);
   --blur: blur(28px);
