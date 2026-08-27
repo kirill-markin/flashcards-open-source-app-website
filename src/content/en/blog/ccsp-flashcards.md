@@ -2,6 +2,7 @@
 title: "CCSP Flashcards in 2026: Study the August 1 Exam Outline"
 description: "Build CCSP flashcards for the August 1, 2026 outline: average domain weights, revised AI/ML coverage, decision cards, practice misses, and FSRS review."
 date: "2026-07-18"
+updated: "2026-08-27"
 image: "/blog/ccsp-flashcards.png"
 keywords:
   - "CCSP flashcards 2026"
@@ -15,13 +16,13 @@ keywords:
   - "FSRS CCSP study"
 ---
 
-A CCSP appointment on July 31 and one on August 1 require different study outlines. As of July 18, 2026, the revision is not live yet: use the October 2025 outline through July 31 and the revised outline for exams on or after August 1. Useful **CCSP flashcards in 2026** cover roles, close distinctions, control choices, sequences, and recurring practice misses. Keep stable concepts in one main deck, add a compact August update, and leave full scenario judgment to authorized practice questions.
+A CCSP appointment on July 31 and one on August 1 require different study outlines. The revision took effect on August 1, 2026: the October 2025 outline applied through July 31, and the revised outline applies to exams from August 1 onward. Useful **CCSP flashcards in 2026** cover roles, close distinctions, control choices, sequences, and recurring practice misses. Keep stable concepts in one main deck, add a compact August update, and leave full scenario judgment to authorized practice questions.
 
 ![A hand adds an August update card to six CCSP cloud security domain cards on a warm wooden desk](/blog/ccsp-flashcards.png)
 
 ## Choose the CCSP outline by your exam date
 
-ISC2's [CCSP exam-outline page](https://www.isc2.org/certifications/ccsp/ccsp-certification-exam-outline) currently links both versions and says the new outline takes effect on August 1, 2026.
+ISC2's [CCSP exam-outline page](https://www.isc2.org/certifications/ccsp/ccsp-certification-exam-outline) now presents the current outline, which took effect on August 1, 2026.
 
 | Your scheduled test date | Outline to use |
 | --- | --- |
@@ -209,6 +210,8 @@ Do not press a harder rating merely to force a shorter interval. If the queue gr
 ## Where Flashcards Open Source App fits
 
 [Flashcards Open Source App features](/features/) include front/back card creation, AI chat with workspace data and supported file attachments, and FSRS review with Again, Hard, Good, and Easy ratings.
+
+You can preview and install [CCSP 2026 Flashcards: August Exam Outline Review](/catalog/packages/ccsp-2026-exam-flashcards/), a reviewed deck of 340 original cards covering the current August 1, 2026 six-domain outline. It is an independent study aid, not affiliated with or endorsed by ISC2.
 
 For CCSP preparation, keep its role modest. Write a source-checked outline note or an authorized-practice miss log, use AI chat to draft a few single-target cards, then compare every draft with the official source and edit it yourself. Review the cards you keep with FSRS. Continue using authorized providers for complete scenario practice.
 
