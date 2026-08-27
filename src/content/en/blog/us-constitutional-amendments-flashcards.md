@@ -79,7 +79,7 @@ Learning all 27 as one block leaves you with too many arbitrary number-to-meanin
 
 Learn the buckets in order first. Inside one bucket, say the number and cue aloud: `13—slavery`, `14—citizenship, due process, equal protection`, `15—voting and race`. Once those links are accurate, mix the buckets so the heading no longer gives away the topic.
 
-This grouping works well for AP Government and APUSH amendments flashcards because the number stays attached to a historical period. The [AP U.S. History flashcards guide](/blog/how-to-use-flashcards-for-ap-us-history/) shows how to add course-specific evidence and argument practice without loading it all onto one card. If you only need Bill of Rights flashcards at first, use the I–X bucket in smaller runs of three or four amendments before mixing all 10.
+This grouping works well for AP Government and APUSH amendments flashcards because the number stays attached to a historical period. The [AP U.S. History flashcards guide](/blog/how-to-use-flashcards-for-ap-us-history/) shows how to add course-specific evidence and argument practice without loading it all onto one card. For broader course context, the [520-card AP U.S. History deck](/catalog/packages/ap-us-history-apush-flashcards/) reviews all nine periods. If you only need Bill of Rights flashcards at first, use the I–X bucket in smaller runs of three or four amendments before mixing all 10.
 
 ## Practice both directions
 
