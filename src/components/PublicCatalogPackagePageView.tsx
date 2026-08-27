@@ -5,6 +5,7 @@ import { PublicCatalogCover } from "@/components/PublicCatalogCover";
 import { SiteFrameForRouteLocales } from "@/components/SiteFrame";
 import { StructuredDataScript } from "@/components/StructuredDataScript";
 import { TrackedPublicCatalogInstallLink } from "@/components/TrackedPublicCatalogInstallLink";
+import { TrackedPublicCatalogPackageLink } from "@/components/TrackedPublicCatalogPackageLink";
 import type { AppLocale } from "@/lib/i18n";
 import { getLocalizedPathname } from "@/lib/i18n";
 import {
@@ -26,6 +27,7 @@ import {
 import {
   getPublicCatalogPackageCardTags,
   type PublicCatalogCoverMediaAsset,
+  type PublicCatalogPackageCardView,
   type PublicCatalogPackageView,
 } from "@/lib/publicCatalogReadModel";
 import type { PublicCatalogCollection } from "@/lib/publicCatalogTypes";
@@ -34,6 +36,7 @@ import {
   getPublicCatalogCollectionRoutePathname,
   getPublicCatalogLanguageRoutePathname,
   getPublicCatalogPackagePageLocales,
+  getPublicCatalogPackageLocalizedPathname,
   getPublicCatalogPackageRoutePathname,
   getPublicCatalogRootUrl,
 } from "@/lib/publicCatalogUrls";
@@ -44,6 +47,7 @@ interface PublicCatalogPackagePageViewProps {
   readonly collections: ReadonlyArray<PublicCatalogCollection>;
   readonly locale: AppLocale;
   readonly packageView: PublicCatalogPackageView;
+  readonly relatedPackages: ReadonlyArray<PublicCatalogPackageCardView>;
 }
 
 interface RenderedCard {
@@ -65,6 +69,13 @@ interface PublicCatalogCardListStudyCtaProps extends PublicCatalogStudyCtaProps 
   readonly coverMediaAsset: PublicCatalogCoverMediaAsset | null;
   readonly placeholderLabel: string;
   readonly title: string;
+}
+
+interface PublicCatalogRelatedDecksProps {
+  readonly heading: string;
+  readonly locale: AppLocale;
+  readonly packages: ReadonlyArray<PublicCatalogPackageCardView>;
+  readonly placeholderLabel: string;
 }
 
 function PublicCatalogStudyCta({
@@ -124,6 +135,52 @@ function PublicCatalogCardListStudyCta({
   );
 }
 
+function PublicCatalogRelatedDecks({
+  heading,
+  locale,
+  packages,
+  placeholderLabel,
+}: PublicCatalogRelatedDecksProps): React.JSX.Element | null {
+  if (packages.length === 0) {
+    return null;
+  }
+
+  return (
+    <section className={styles.relatedDecks}>
+      <h2>{heading}</h2>
+      <ul className={styles.relatedDeckList} role="list">
+        {packages.map(({ coverMediaAsset, latestVersion, packageMetadata }) => (
+          <li key={packageMetadata.packageId}>
+            <TrackedPublicCatalogPackageLink
+              className={styles.relatedDeckLink}
+              href={getPublicCatalogPackageLocalizedPathname(
+                locale,
+                packageMetadata.slug,
+              )}
+              locale={locale}
+              packageId={packageMetadata.packageId}
+              placement="related_deck"
+              tabIndex={undefined}
+            >
+              <span className={styles.relatedDeckCover} aria-hidden="true">
+                <PublicCatalogCover
+                  coverMediaAsset={coverMediaAsset}
+                  placeholderLabel={placeholderLabel}
+                  sizes="(max-width: 700px) 40vw, 72px"
+                  title={latestVersion.title}
+                />
+              </span>
+              <span className={styles.relatedDeckTitle}>
+                {latestVersion.title}
+              </span>
+            </TrackedPublicCatalogPackageLink>
+          </li>
+        ))}
+      </ul>
+    </section>
+  );
+}
+
 async function renderCards(
   locale: AppLocale,
   packageView: PublicCatalogPackageView,
@@ -164,6 +221,7 @@ export async function PublicCatalogPackagePageView({
   collections,
   locale,
   packageView,
+  relatedPackages,
 }: PublicCatalogPackagePageViewProps): Promise<React.JSX.Element> {
   const copy = getPublicCatalogUiCopy(locale);
   const destinationCopy = getPublicCatalogDestinationCopy(locale);
@@ -246,15 +304,17 @@ export async function PublicCatalogPackagePageView({
             </header>
 
             <aside className={styles.sideBlock}>
-              <div className={styles.coverFrame}>
-                <PublicCatalogCover
-                  coverMediaAsset={coverMediaAsset}
-                  placeholderLabel={copy.coverPlaceholderLabel}
-                  sizes="(max-width: 700px) calc(100vw - 60px), 280px"
-                  title={latestVersion.title}
-                />
+              <div className={styles.sideTop}>
+                <PublicCatalogStudyCta {...studyCtaProps} />
+                <div className={styles.coverFrame}>
+                  <PublicCatalogCover
+                    coverMediaAsset={coverMediaAsset}
+                    placeholderLabel={copy.coverPlaceholderLabel}
+                    sizes="(max-width: 700px) calc(100vw - 60px), 280px"
+                    title={latestVersion.title}
+                  />
+                </div>
               </div>
-              <PublicCatalogStudyCta {...studyCtaProps} />
               <section className={styles.deckDetails}>
                 <h2>{copy.deckDetailsHeading}</h2>
                 <dl className={styles.detailsList}>
@@ -356,6 +416,13 @@ export async function PublicCatalogPackagePageView({
                 />
               </section>
             </div>
+
+            <PublicCatalogRelatedDecks
+              heading={copy.similarDecksHeading}
+              locale={locale}
+              packages={relatedPackages}
+              placeholderLabel={copy.coverPlaceholderLabel}
+            />
           </div>
         </section>
 

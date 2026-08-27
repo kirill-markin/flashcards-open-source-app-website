@@ -15,7 +15,10 @@ export type PublicCatalogFilterAction =
   | "remove"
   | "select";
 
-export type PublicCatalogNavigationPlacement = "card_cover" | "card_title";
+export type PublicCatalogNavigationPlacement =
+  | "card_cover"
+  | "card_title"
+  | "related_deck";
 export type PublicCatalogInstallPlacement = "top" | "middle" | "bottom";
 
 export interface PublicCatalogFilterAnalytics {
