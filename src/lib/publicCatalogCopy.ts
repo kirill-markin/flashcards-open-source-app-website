@@ -59,6 +59,7 @@ export interface PublicCatalogUiCopy {
   readonly navigationLabel: string;
   readonly noCardPreviewsLabel: string;
   readonly publishedLabel: string;
+  readonly similarDecksHeading: string;
   readonly tagsLabel: string;
   readonly title: string;
   readonly versionLabel: string;
@@ -138,6 +139,7 @@ const PUBLIC_CATALOG_COPY_BY_LOCALE: Readonly<
     navigationLabel: "Catalog",
     noCardPreviewsLabel: "This deck has no cards.",
     publishedLabel: "Published",
+    similarDecksHeading: "Similar decks",
     tagsLabel: "Tags",
     title: "Public flashcard catalog",
     versionLabel: "Version",
@@ -213,6 +215,7 @@ const PUBLIC_CATALOG_COPY_BY_LOCALE: Readonly<
     navigationLabel: "Catálogo",
     noCardPreviewsLabel: "Este mazo no tiene tarjetas.",
     publishedLabel: "Publicado",
+    similarDecksHeading: "Mazos similares",
     tagsLabel: "Etiquetas",
     title: "Catálogo público de tarjetas",
     versionLabel: "Versión",
@@ -288,6 +291,7 @@ const PUBLIC_CATALOG_COPY_BY_LOCALE: Readonly<
     navigationLabel: "الكتالوج",
     noCardPreviewsLabel: "لا تحتوي هذه الرزمة على بطاقات.",
     publishedLabel: "تاريخ النشر",
+    similarDecksHeading: "رزم مشابهة",
     tagsLabel: "الوسوم",
     title: "كتالوج البطاقات التعليمية العام",
     versionLabel: "الإصدار",
@@ -363,6 +367,7 @@ const PUBLIC_CATALOG_COPY_BY_LOCALE: Readonly<
     navigationLabel: "Katalog",
     noCardPreviewsLabel: "Dieses Lernkartenset enthält keine Karten.",
     publishedLabel: "Veröffentlicht",
+    similarDecksHeading: "Ähnliche Lernkartensets",
     tagsLabel: "Tags",
     title: "Öffentlicher Lernkartenkatalog",
     versionLabel: "Version",
@@ -438,6 +443,7 @@ const PUBLIC_CATALOG_COPY_BY_LOCALE: Readonly<
     navigationLabel: "कैटलॉग",
     noCardPreviewsLabel: "इस डेक में कोई कार्ड नहीं है।",
     publishedLabel: "प्रकाशित",
+    similarDecksHeading: "मिलते-जुलते डेक",
     tagsLabel: "टैग",
     title: "सार्वजनिक फ़्लैशकार्ड कैटलॉग",
     versionLabel: "संस्करण",
@@ -513,6 +519,7 @@ const PUBLIC_CATALOG_COPY_BY_LOCALE: Readonly<
     navigationLabel: "カタログ",
     noCardPreviewsLabel: "このデッキにはカードがありません。",
     publishedLabel: "公開日",
+    similarDecksHeading: "類似のデッキ",
     tagsLabel: "タグ",
     title: "公開フラッシュカードカタログ",
     versionLabel: "バージョン",
@@ -588,6 +595,7 @@ const PUBLIC_CATALOG_COPY_BY_LOCALE: Readonly<
     navigationLabel: "Каталог",
     noCardPreviewsLabel: "В этой колоде нет карточек.",
     publishedLabel: "Опубликовано",
+    similarDecksHeading: "Похожие колоды",
     tagsLabel: "Теги",
     title: "Открытый каталог карточек",
     versionLabel: "Версия",
@@ -663,6 +671,7 @@ const PUBLIC_CATALOG_COPY_BY_LOCALE: Readonly<
     navigationLabel: "目录",
     noCardPreviewsLabel: "这套卡组中没有卡片。",
     publishedLabel: "发布日期",
+    similarDecksHeading: "相似卡组",
     tagsLabel: "标签",
     title: "公开闪卡目录",
     versionLabel: "版本",
