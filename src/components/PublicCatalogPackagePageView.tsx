@@ -398,14 +398,13 @@ export async function PublicCatalogPackagePageView({
                   )}
                 </dl>
               </section>
+              <PublicCatalogRelatedDecks
+                heading={copy.similarDecksHeading}
+                locale={locale}
+                packages={relatedPackages}
+                placeholderLabel={copy.coverPlaceholderLabel}
+              />
             </aside>
-
-            <PublicCatalogRelatedDecks
-              heading={copy.similarDecksHeading}
-              locale={locale}
-              packages={relatedPackages}
-              placeholderLabel={copy.coverPlaceholderLabel}
-            />
 
             <div className={styles.descriptionBlock}>
               {latestVersion.contentWarning === null ? null : (
