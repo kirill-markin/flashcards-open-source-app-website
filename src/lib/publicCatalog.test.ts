@@ -2429,7 +2429,7 @@ test("renders catalog Markdown with safe images and nested heading depths", asyn
   );
 });
 
-test("renders only eligible catalog card math as standalone static display blocks", async () => {
+test("renders eligible catalog card math inline and as static display blocks", async () => {
   const sourceContext = "Public catalog package version version-1 card card-1 frontText";
   const supportedMarkdown = [
     "Before $x$ after",
@@ -2451,14 +2451,21 @@ test("renders only eligible catalog card math as standalone static display block
     sourceContext,
   );
 
-  assert.equal(supportedHtml.match(/class="katex-display"/gu)?.length, 2);
-  assert.doesNotMatch(supportedHtml, /math-inline/u);
-  assert.match(supportedHtml, /<p>Before<\/p>/u);
-  assert.match(supportedHtml, /<p>after<\/p>/u);
+  assert.equal(supportedHtml.match(/class="katex-display"/gu)?.length, 1);
+  assert.equal(supportedHtml.match(/class="katex"/gu)?.length, 2);
+  assert.match(supportedHtml, /<p>Before <span class="katex">/u);
+  assert.match(supportedHtml, /<\/span> after<\/p>/u);
+  assert.doesNotMatch(supportedHtml, /<p>Before<\/p>/u);
   assert.match(supportedHtml, /<math xmlns="http:\/\/www\.w3\.org\/1998\/Math\/MathML"/u);
-  assert.match(
+  assert.equal(
     normalizedMarkdown,
-    /Before\n\n\$\$\nx\n\$\$\n\nafter\n\n\$\$\n\\int_0\^1 x\^2\\,dx = \\frac\{1\}\{3\}\n\$\$/u,
+    [
+      "Before $x$ after",
+      "",
+      "$$",
+      String.raw`\int_0^1 x^2\,dx = \frac{1}{3}`,
+      "$$",
+    ].join("\n"),
   );
 
   const nestedLiteralMarkdown = [
@@ -2476,7 +2483,8 @@ test("renders only eligible catalog card math as standalone static display block
     "",
     "    $indented_code$",
     "",
-    "$$ inline $$",
+    "$$A$$",
+    "$$B$$",
     "",
     "Price: \\$5",
     "",
@@ -2496,7 +2504,7 @@ test("renders only eligible catalog card math as standalone static display block
   assert.match(nestedLiteralHtml, /<code>\$inline_code\$<\/code>/u);
   assert.match(nestedLiteralHtml, /<pre><code>\$fenced_code\$/u);
   assert.match(nestedLiteralHtml, /<pre><code>\$indented_code\$/u);
-  assert.match(nestedLiteralHtml, /\$\$ inline \$\$/u);
+  assert.match(nestedLiteralHtml, /\$\$A\$\$\n\$\$B\$\$/u);
   assert.match(nestedLiteralHtml, /Price: \$5/u);
   assert.match(nestedLiteralHtml, /Unbalanced \$x/u);
 
@@ -2573,6 +2581,254 @@ test("renders only eligible catalog card math as standalone static display block
   );
 });
 
+test("segments catalog card math by the source rules, not by parser nodes", async () => {
+  const sourceContext = "Public catalog package version version-1 card card-1 backText";
+  const renderCardHtml = (markdown: string): Promise<string> =>
+    renderPublicCatalogCardMarkdownToHtml(markdown, "en", new Map(), sourceContext);
+  const literalMarkdownCases: ReadonlyArray<readonly [string, string]> = [
+    ["currency pair", "Earned value is $80,000 and actual cost is $100,000."],
+    ["display fence sequence inside a sentence", "The formula $$E=mc^2$$ is famous."],
+    ["opening delimiter guard", "Cost: $ x$"],
+    ["closing delimiter digit guard", "Prices are $20$30"],
+    ["unbalanced inline delimiter", "Unbalanced $x"],
+    [
+      "inline math across two lines",
+      ["Mass is $m", "and energy is$E today."].join("\n"),
+    ],
+    [
+      "single-line construct that does not start its block",
+      ["Answer:", "$$E = mc^2$$"].join("\n"),
+    ],
+    [
+      "single-line construct that does not end its block",
+      ["$$E = mc^2$$", "Answer text."].join("\n"),
+    ],
+    [
+      "single-line constructs on consecutive lines",
+      ["$$A$$", "$$B$$"].join("\n"),
+    ],
+    ["single-line constructs on one line", "$$E=mc^2$$ $$F=ma$$"],
+    ["single-line construct with a short closing run", "$$$x$$"],
+    ["single-line construct with a long closing run", "$$x$$$"],
+    [
+      "text between the opening run and the end of its line",
+      ["$$E = mc^2", "$$"].join("\n"),
+    ],
+    [
+      "multiple-line construct that does not start its block",
+      ["Answer:", "$$", "E = mc^2", "$$"].join("\n"),
+    ],
+    [
+      "multiple-line construct with a long closing run",
+      ["$$", "X", "$$$"].join("\n"),
+    ],
+    [
+      "display math inside a list item",
+      ["- Item:", "", "  $$", "  E = mc^2", "  $$"].join("\n"),
+    ],
+  ];
+
+  for (const [caseName, literalMarkdown] of literalMarkdownCases) {
+    const literalHtml = await renderCardHtml(literalMarkdown);
+
+    assert.doesNotMatch(literalHtml, /class="katex/u, caseName);
+    assert.match(literalHtml, /\$/u, caseName);
+  }
+
+  const singleLineDisplayHtml = await renderCardHtml("$$E = mc^2$$");
+
+  assert.equal(singleLineDisplayHtml.match(/class="katex-display"/gu)?.length, 1);
+  assert.doesNotMatch(singleLineDisplayHtml, /\$/u);
+
+  const equalRunDisplayHtml = await renderCardHtml("$$$x$$$");
+
+  assert.equal(equalRunDisplayHtml.match(/class="katex-display"/gu)?.length, 1);
+  assert.doesNotMatch(equalRunDisplayHtml, /\$/u);
+
+  const currencyAndFormulaHtml = await renderCardHtml(
+    "A $100 bond with yield $r$ pays",
+  );
+
+  assert.equal(currencyAndFormulaHtml.match(/class="katex"/gu)?.length, 1);
+  assert.match(
+    currencyAndFormulaHtml,
+    /<p>A \$100 bond with yield <span class="katex">/u,
+  );
+  assert.match(currencyAndFormulaHtml, /<\/span> pays<\/p>/u);
+
+  const runBoundaryHtml = await renderCardHtml(
+    "Cost is $x and$$E$$ here$m$ ok.",
+  );
+
+  assert.equal(runBoundaryHtml.match(/class="katex"/gu)?.length, 1);
+  assert.match(
+    runBoundaryHtml,
+    /<p>Cost is \$x and\$\$E\$\$ here<span class="katex">/u,
+  );
+  assert.match(runBoundaryHtml, /<\/span> ok\.<\/p>/u);
+
+  const repeatedInlineHtml = await renderCardHtml(
+    "where $m$ is mass and $c$ is the speed of light",
+  );
+
+  assert.equal(repeatedInlineHtml.match(/class="katex"/gu)?.length, 2);
+  assert.doesNotMatch(repeatedInlineHtml, /\$/u);
+
+  const literalFenceAndFormulaHtml = await renderCardHtml(
+    "$$E=mc^2$$ where $m$ is mass.",
+  );
+
+  assert.equal(literalFenceAndFormulaHtml.match(/class="katex"/gu)?.length, 1);
+  assert.doesNotMatch(literalFenceAndFormulaHtml, /class="katex-display"/u);
+  assert.match(
+    literalFenceAndFormulaHtml,
+    /<p>\$\$E=mc\^2\$\$ where <span class="katex">/u,
+  );
+
+  const adjacentConstructsHtml = await renderCardHtml(
+    ["$$", "A", "$$", "$$", "B", "$$"].join("\n"),
+  );
+
+  assert.equal(adjacentConstructsHtml.match(/class="katex-display"/gu)?.length, 1);
+  assert.match(adjacentConstructsHtml, /<p>\$\$\nB\n\$\$<\/p>/u);
+
+  const separatedConstructsHtml = await renderCardHtml(
+    ["$$", "A", "$$", "", "$$", "B", "$$"].join("\n"),
+  );
+
+  assert.equal(separatedConstructsHtml.match(/class="katex-display"/gu)?.length, 2);
+  assert.doesNotMatch(separatedConstructsHtml, /\$/u);
+
+  const literalMultilineHtml = await renderCardHtml(
+    ["Answer:", "$$", "E = mc^2", "$$"].join("\n"),
+  );
+
+  assert.equal(literalMultilineHtml.match(/<p>/gu)?.length, 1);
+  assert.match(literalMultilineHtml, /<p>Answer:\n\$\$\nE = mc\^2\n\$\$<\/p>/u);
+});
+
+test("keeps catalog card code spans out of math segmentation", async () => {
+  const sourceContext = "Public catalog package version version-1 card card-1 backText";
+  const renderCardHtml = (markdown: string): Promise<string> =>
+    renderPublicCatalogCardMarkdownToHtml(markdown, "en", new Map(), sourceContext);
+
+  // `remark-math` swallows the opening backtick, so the pre-escape parse
+  // reports a plain paragraph of text and one formula. Only a code-span-aware
+  // source scan keeps the escape pass out of the code span, which would
+  // otherwise render a stray backslash that no escape can undo inside code.
+  const shellMarkdown = "Costs $5. Run `echo $HOME` to check.";
+  const shellHtml = await renderCardHtml(shellMarkdown);
+
+  assert.match(
+    shellHtml,
+    /<p>Costs \$5\. Run <code>echo \$HOME<\/code> to check\.<\/p>/u,
+  );
+  assert.doesNotMatch(shellHtml, /\\/u);
+  assert.doesNotMatch(shellHtml, /class="katex/u);
+
+  const shellPlainText = projectPublicCatalogCardMarkdownToPlainText(
+    shellMarkdown,
+    "en",
+    new Map(),
+    sourceContext,
+  );
+
+  assert.match(shellPlainText, /echo \$HOME/u);
+  assert.doesNotMatch(shellPlainText, /\\/u);
+
+  const multilineShellHtml = await renderCardHtml(
+    ["Costs $5. Run `echo", "$HOME` to check."].join("\n"),
+  );
+
+  assert.match(multilineShellHtml, /<code>echo\s\$HOME<\/code>/u);
+  assert.doesNotMatch(multilineShellHtml, /\\/u);
+  assert.doesNotMatch(multilineShellHtml, /class="katex/u);
+
+  // A dollar a code span covers can neither open nor close a formula, so the
+  // span opened before the code span never closes and stays literal.
+  const unclosedSpanHtml = await renderCardHtml("$x `a$ b` y");
+
+  assert.match(unclosedSpanHtml, /<p>\$x <code>a\$ b<\/code> y<\/p>/u);
+  assert.doesNotMatch(unclosedSpanHtml, /\\/u);
+  assert.doesNotMatch(unclosedSpanHtml, /class="katex/u);
+
+  // A code span outside every accepted formula is not an ordinary text or
+  // formula child, so the paragraph is not math-eligible at all.
+  const codeBesideFormulaHtml = await renderCardHtml("Before $x$ after `echo $HOME`");
+
+  assert.match(
+    codeBesideFormulaHtml,
+    /<p>Before \$x\$ after <code>echo \$HOME<\/code><\/p>/u,
+  );
+  assert.doesNotMatch(codeBesideFormulaHtml, /\\/u);
+  assert.doesNotMatch(codeBesideFormulaHtml, /class="katex/u);
+
+  // The pre-escape parse reports a `strong` child here, but the source rules
+  // place `**b**` inside the accepted formula, so the paragraph stays eligible.
+  const emphasisInsideFormulaHtml = await renderCardHtml("Cost $ 5$x **b** y$ done");
+
+  assert.equal(emphasisInsideFormulaHtml.match(/class="katex"/gu)?.length, 1);
+  assert.doesNotMatch(emphasisInsideFormulaHtml, /<strong>/u);
+  assert.match(emphasisInsideFormulaHtml, /<p>Cost \$ 5<span class="katex">/u);
+  assert.match(emphasisInsideFormulaHtml, /<\/span> done<\/p>/u);
+
+  // Backslash escapes do not work in code spans, so the backslash the first
+  // span holds is literal content that never hides the backtick closing it. A
+  // scan that escaped there pairs the wrong backticks, reports the dollar of
+  // `$HOME` as ordinary text, and accepts two code spans plus the prose
+  // between them as one formula, which the KaTeX build gate then rejects.
+  const trailingBackslashSpanHtml = await renderCardHtml(
+    "$5 costs less. Use `\\` for `$HOME` paths.",
+  );
+
+  assert.match(
+    trailingBackslashSpanHtml,
+    /<p>\$5 costs less\. Use <code>\\<\/code> for <code>\$HOME<\/code> paths\.<\/p>/u,
+  );
+  assert.doesNotMatch(trailingBackslashSpanHtml, /class="katex/u);
+
+  // The same mispairing writes an escape the author never typed into a
+  // verbatim span, where no escape can undo it.
+  const trailingBackslashInSpanHtml = await renderCardHtml(
+    "Costs $5 for `echo $HOME \\` now.",
+  );
+
+  assert.match(
+    trailingBackslashInSpanHtml,
+    /<p>Costs \$5 for <code>echo \$HOME \\<\/code> now\.<\/p>/u,
+  );
+  assert.doesNotMatch(trailingBackslashInSpanHtml, /\\\$HOME/u);
+  assert.doesNotMatch(trailingBackslashInSpanHtml, /class="katex/u);
+
+  // Outside a span the backslash still escapes, so an escaped backtick opens
+  // no code span and the formula after it stays eligible.
+  const escapedBacktickHtml = await renderCardHtml("Use \\` and $x$");
+
+  assert.equal(escapedBacktickHtml.match(/class="katex"/gu)?.length, 1);
+  assert.doesNotMatch(escapedBacktickHtml, /<code>/u);
+  assert.doesNotMatch(escapedBacktickHtml, /\$/u);
+  assert.match(escapedBacktickHtml, / and <span class="katex">/u);
+});
+
+test("literalizes a rejected catalog card formula as decoded Markdown text", async () => {
+  // `\$` cannot open or close math, so the source rules accept `$a \$ b$` as
+  // one formula, while micromark applies no escape handling inside text math
+  // and closes its node on the escaped dollar instead. The boundaries
+  // disagree, so no source is accepted and the node falls back to literal
+  // text; the author's escape has to read as the dollar sign it stands for
+  // rather than as a raw backslash the source never showed.
+  const html = await renderPublicCatalogCardMarkdownToHtml(
+    "Cost $a \\$ b$ x",
+    "en",
+    new Map(),
+    "Public catalog package version version-1 card card-1 backText",
+  );
+
+  assert.match(html, /<p>Cost \$a \$ b\$ x<\/p>/u);
+  assert.doesNotMatch(html, /\\/u);
+  assert.doesNotMatch(html, /class="katex/u);
+});
+
 test("projects accepted catalog card formulas as useful delimiter-free plain text", () => {
   const plainText = projectPublicCatalogCardMarkdownToPlainText(
     [
@@ -2592,11 +2848,7 @@ test("projects accepted catalog card formulas as useful delimiter-free plain tex
   assert.equal(
     plainText,
     [
-      "Before",
-      "",
-      "x",
-      "",
-      "after",
+      "Before x after",
       "",
       String.raw`\int_0^1 x^2\,dx = \frac{1}{3}`,
       "",
