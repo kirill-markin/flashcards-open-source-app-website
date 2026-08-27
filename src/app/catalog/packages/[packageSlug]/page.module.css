@@ -16,9 +16,7 @@
   grid-template-columns: minmax(0, 1fr) minmax(250px, 300px);
   grid-template-areas:
     "title side"
-    "description side"
-    "description details"
-    "description related";
+    "description side";
   gap: 28px clamp(24px, 4vw, 44px);
   align-items: start;
 }
@@ -74,15 +72,17 @@
 }
 
 .sideBlock {
-  display: contents;
+  grid-area: side;
+  display: grid;
+  align-self: start;
+  gap: 28px;
+  min-width: 0;
 }
 
 .sideTop {
-  grid-area: side;
   display: flex;
   flex-direction: column;
   min-width: 0;
-  align-self: start;
 }
 
 .coverFrame,
@@ -148,7 +148,6 @@
 }
 
 .deckDetails {
-  grid-area: details;
   min-width: 0;
 }
 
@@ -169,7 +168,6 @@
 }
 
 .relatedDecks {
-  grid-area: related;
   min-width: 0;
 }
 
@@ -582,14 +580,15 @@
     grid-template-areas:
       "title"
       "side"
-      "details"
-      "related"
       "description";
     gap: 20px;
   }
 
+  .sideBlock {
+    gap: 20px;
+  }
+
   .sideTop {
-    grid-area: side;
     gap: 14px;
   }
 
@@ -603,12 +602,7 @@
   }
 
   .deckDetails {
-    grid-area: details;
-    margin-top: 4px;
-  }
-
-  .relatedDecks {
-    grid-area: related;
+    margin-block-start: 4px;
   }
 
   .relatedDeckList {
