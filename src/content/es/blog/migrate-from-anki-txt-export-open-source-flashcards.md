@@ -1,154 +1,229 @@
 ---
-title: >-
-  Cómo migrar desde Anki en 2026: exporte sus tarjetas como TXT y envíelas a una
-  aplicación Flashcards de código abierto
-description: >-
-  ¿Quieres migrar desde Anki sin reconstruir tu mazo a mano? Exporte sus
-  tarjetas como TXT, cargue el archivo y use una aplicación de tarjetas
-  didácticas de código abierto con dibujo asistido por IA y programación FSRS.
-date: '2026-03-13'
+title: "Cómo migrar desde Anki en 2026: un proceso seguro de exportación a TXT"
+description: "Migra tarjetas de Anki basadas en texto sin poner en riesgo la colección original. Crea una copia .colpkg, exporta las notas a TXT, comprueba los campos y los archivos multimedia y reconstruye un mazo pequeño con seguridad."
+date: "2026-03-13"
+updated: "2026-08-27"
+image: "/blog/migrate-from-anki-txt-export-open-source-flashcards.png"
 keywords:
-  - migrar de anki
-  - anki exportar texto
-  - alternativa anki 2026
-  - tarjetas didácticas de código abierto
-  - tarjetas fsrs
-  - exportación de texto anki
+  - "migrar desde Anki"
+  - "exportar Anki a TXT"
+  - "exportar mazo de Anki"
+  - "de Anki a tarjetas de estudio"
+  - "migración de Anki"
+  - "Notas en texto sin formato"
+  - "copia de seguridad .colpkg"
 ---
-Creo que mucha gente dejaría Anki mañana si pudieran mover 2000 cartas sin pasar el fin de semana reconstruyéndolas a mano.
 
-Esa es la trampa. Las reseñas no son lo que mantiene a la gente allí. El retraso es.
+La forma más segura de migrar desde Anki comienza con dos exportaciones, no con una. Primero, crea un archivo `.colpkg` con los archivos multimedia para poder recuperar la colección original. Después, exporta como **Notas en texto sin formato** el contenido que quieras trasladar.
 
-Una vez que haya pasado meses o años construyendo una plataforma, incluso una molestia leve comienza a parecer más barata que la migración. Es por eso que la mayoría de los artículos sobre una **alternativa de Anki para 2026** pasan por alto la fricción real.
+Cada archivo resuelve un problema distinto. El paquete de la colección es tu vía de regreso; el TXT, tu copia de trabajo portátil. Si tienes clara esta diferencia, no confundirás una lista con el texto de las tarjetas con una copia de seguridad completa de Anki.
 
-La verdadera pregunta es si puedes **migrar desde Anki** sin convertir el fin de semana en un proyecto de entrada de datos manual.
+Este proceso está pensado para mazos basados en texto y aplicaciones capaces de trabajar con TXT o CSV. La exportación de texto no conserva el estado de programación de Anki, las plantillas, los complementos ni los archivos multimedia. Primero probarás un mazo representativo, revisarás todos los campos y mantendrás intacta la colección original hasta obtener un resultado que puedas usar con confianza.
 
-## Por qué la gente quiere migrar de Anki en primer lugar
+> **Aviso:** Soy Kirill Markin y desarrollo [Flashcards](https://flashcards-open-source-app.com/). Esta guía deja claro cuándo conviene seguir usando Anki o elegir una aplicación que importe archivos `.apkg`.
 
-Anki todavía merece respeto. Funciona. Ayudó a definir la categoría. Tiene una comunidad enorme y un profundo archivo de hábitos de estudio construidos a su alrededor.
+**Información comprobada:** 27 de agosto de 2026.
 
-La gente no se va porque fracasó la repetición espaciada. Se van porque el flujo de trabajo general empieza a parecer más antiguo de lo necesario.
+![Un botánico mantiene intacta la planta original junto a un esqueje de respaldo protegido y tres esquejes de prueba](/blog/migrate-from-anki-txt-export-open-source-flashcards.png)
 
-Generalmente es una mezcla de:
+## Primero, decide si TXT es la vía adecuada
 
-- experiencia del producto que se siente obstinada
-- hábitos de complementos que se convirtieron en trabajos de mantenimiento
-- sincronización y configuración que parecen más técnicas de lo que deberían
-- el deseo de un flujo de estudio más limpio y moderno
+Anki almacena mucho más que las palabras que ves durante un repaso. Una nota puede tener varios campos, y el tipo de nota junto con sus plantillas determina cómo se convierten esos campos en una o más tarjetas. La colección también contiene información de programación, mientras que los archivos multimedia se guardan por separado y se enlazan desde el contenido de las notas.
 
-Ese es el punto de partida honesto para la mayoría de las búsquedas sobre **migrar desde Anki**.
+Una exportación de texto solo extrae una parte de ese sistema. Consulta esta tabla antes de dedicar tiempo a limpiar el archivo:
 
-## La útil ruta de migración es más sencilla de lo que la gente piensa
+| Tu configuración de Anki | ¿Tiene sentido migrar mediante TXT? | Decisión más segura |
+| --- | --- | --- |
+| Notas básicas con anverso y reverso, con pocos archivos multimedia o ninguno | **Sí** | Exporta un mazo representativo, asigna los campos y prueba la aplicación de destino |
+| Varios campos de texto predecibles, como término, definición y ejemplo | **Normalmente sí** | Decide qué campos formarán el anverso y el reverso antes de importar |
+| Notas de tipo cloze que estás dispuesto a reescribir como preguntas y respuestas normales | **A veces** | Prueba unas cuantas notas cloze y revisa el resultado tarjeta por tarjeta |
+| HTML personalizado que solo modifica un formato sencillo | **A veces** | Comprueba si la aplicación de destino interpreta, elimina o muestra el HTML |
+| Imágenes o audio útiles, pero no imprescindibles | **A veces** | Traslada primero el texto; después, adjunta y comprueba los archivos multimedia por separado |
+| Las plantillas, CSS, JavaScript, los complementos o las tarjetas inversas generadas son imprescindibles | **Normalmente no** | Sigue usando Anki o elige una aplicación con importación compatible de paquetes de Anki |
+| Las fechas de vencimiento, el historial de repasos o el estado de programación personalizado son imprescindibles | **No** | Sigue estudiando en Anki o utiliza una vía de migración que conserve expresamente la programación |
+| La oclusión de imágenes o las notas con muchos archivos multimedia contienen la información esencial | **No, si solo usas TXT** | Utiliza una aplicación compatible con paquetes y comprueba la fidelidad de los archivos multimedia antes de cambiar |
 
-Si su presentación se compone principalmente de texto de anverso y reverso, no siempre necesitará una gran herramienta de migración. Un simple flujo de trabajo **Anki export TXT** suele ser suficiente para empezar a moverse.
+La pregunta clave es sencilla: si redujeras cada nota a sus campos de texto, ¿seguirías teniendo el material que necesitas? Si la respuesta es no, TXT no es el formato de migración adecuado.
 
-Eso es importante porque el objetivo no es preservar todas las peculiaridades históricas de una antigua configuración. El objetivo es conservar las tarjetas que aún te interesan e incorporarlas a un sistema de estudio que realmente deseas abrir mañana.
+## El modelo de seguridad con dos exportaciones
 
-Este es el camino que usaría:
+Haz ambas exportaciones antes de cambiar nada en Anki o de crear un mazo grande en otra aplicación.
 
-1. Exporta las tarjetas que quieras de Anki como texto
-2. Limpia la basura obvia si es necesario
-3. Sube el archivo `.txt` al chat AI de la nueva aplicación.
-4. Pídale al asistente que convierta la exportación en borradores limpios de tarjetas didácticas.
-5. Revisa el resultado antes de crear tarjetas en el espacio de trabajo.
+| Archivo | Para qué sirve | Qué protege |
+| --- | --- | --- |
+| `.colpkg` con **Incluir archivos multimedia** activado | Recuperación | Las notas, tarjetas, mazos y tipos de nota de la colección, su información de programación y los archivos multimedia locales incluidos |
+| `.txt` de **Notas en texto sin formato** | Portabilidad | El contenido de los campos de las notas exportadas, separado por tabulaciones |
 
-Ese no es un importador de un solo clic. También es mucho más realista que pretender que la migración tiene que ser mágica.
+La [documentación de exportación de Anki](https://docs.ankiweb.net/exporting.html) indica que un paquete de colección contiene la colección completa, incluida la programación. La opción de archivos multimedia determina si el paquete incluye las imágenes, los audios y otros archivos locales. La [guía de copias de seguridad de Anki](https://docs.ankiweb.net/backups.html) recomienda guardar manualmente un paquete de la colección en un lugar seguro, como otro dispositivo o un servicio de almacenamiento en la nube.
 
-## Cómo ayuda la exportación de Anki TXT
+El archivo TXT tiene un alcance mucho más limitado, y es así a propósito. Anki escribe los campos de las notas en un archivo de texto y los separa mediante tabulaciones. Si incluyes el HTML y las referencias a archivos multimedia, también podrás ver el marcado almacenado en esos campos. Así puedes revisar y reutilizar el contenido, pero el archivo no se convierte por ello en una copia portátil de todo el sistema de Anki.
 
-Lo bueno de **Anki export TXT** es que te ofrece algo portátil. Una vez que la plataforma es texto, deja de estar atrapada dentro de la interfaz exacta de un producto.
+Un archivo `.colpkg` protege los datos de la colección. No contiene la aplicación Anki ni el código de tus complementos, así que guarda por separado una lista de los complementos de los que dependa tu forma de estudiar.
 
-Eso no significa que todos los campos, complementos o flujos de trabajo personalizados sobrevivirán perfectamente. Si su configuración depende de plantillas pesadas, reglas de medios o años de comportamiento específico de complementos, debe esperar cierta limpieza.
+Si buscas una estrategia de copia de seguridad más amplia que esta migración, consulta [cómo hacer una copia de seguridad de tus tarjetas de estudio](/es/blog/how-to-back-up-flashcards/).
 
-Pero para muchas presentaciones frontales y posteriores normales, la exportación de texto es una estructura suficiente para reutilizar lo que importa. Y, sinceramente, esa suele ser la mayor victoria.
+## Exportación 1: crea el archivo `.colpkg` de recuperación
 
-La migración se vuelve más fácil cuando se deja de exigir la conservación a nivel de museo de cada detalle antiguo.
+Usa la aplicación de escritorio de Anki y sigue el proceso de recuperación del manual oficial. Si los archivos multimedia son importantes para tus tarjetas, ejecuta antes **Herramientas > Comprobar archivos multimedia**. La [guía de archivos multimedia de Anki](https://docs.ankiweb.net/media.html) explica que esta opción muestra los archivos que las notas mencionan pero que faltan en la carpeta multimedia.
 
-## Sube el archivo TXT y deja que el asistente haga la parte repetitiva
+1. Abre **Archivo > Exportar**.
+2. Selecciona **Paquete de colección de Anki (`.colpkg`)** como formato de exportación.
+3. Activa **Incluir archivos multimedia**.
+4. Guarda el archivo fuera de la carpeta del perfil de Anki.
+5. Cópialo en una segunda ubicación que no esté en el ordenador donde guardas la colección.
 
-Aquí es donde [Flashcards](https://flashcards-open-source-app.com/) se vuelve más interesante que otra comparación estática **Anki alternativa 2026**. La aplicación web ya admite archivos adjuntos de texto en el chat AI. Puedes cargar un archivo `.txt` y pedirle al asistente que redacte tarjetas didácticas a partir de él.
+Incluye la fecha en el nombre del archivo; por ejemplo, `anki-collection-2026-08-27.colpkg`. A continuación, comprueba que exista en ambas ubicaciones y que su tamaño no sea cero.
 
-Eso cambia el flujo de trabajo de una manera práctica. En lugar de copiar las tarjetas una por una, le entrega al asistente el texto exportado y le dice lo que quiere:
+No «pruebes» esta copia de seguridad importándola encima de tu colección activa. Anki advierte que al importar un archivo `.colpkg` se eliminan y sustituyen las tarjetas actuales; los archivos multimedia existentes no se borran. Si algún día necesitas restaurarla, sigue las instrucciones oficiales y ten presente que perderás los cambios realizados en la colección después de crear la copia.
 
-- convertir esta exportación en tarjetas anverso/reverso
-- mantener solo verbos en español
-- dividir las respuestas largas en tarjetas más pequeñas
-- conservar las etiquetas siempre que sea posible si la exportación las incluye claramente
-- muéstrame borradores antes de aplicar cualquier cosa.
+Conserva este archivo incluso si la migración mediante TXT sale bien. Es el que guarda el estado de la colección que la exportación de texto no puede representar.
 
-En lenguaje humano normal, no en lenguaje importador. "Conserve las etiquetas si están en el archivo. Divida las respuestas largas. Muéstreme el borrador primero". Es mucho más fácil confiar en ese tipo de flujo de trabajo.
+## Exportación 2: crea una pequeña muestra de Notas en texto sin formato
 
-Esa es una experiencia de migración mucho mejor que mirar dos aplicaciones una al lado de la otra y reconstruir manualmente su plataforma.
+Empieza con un mazo representativo, no con toda la colección. Elige uno que contenga los casos difíciles que utilizas de verdad: un campo adicional, una etiqueta que te importe, una respuesta con formato, una nota cloze y una referencia a un archivo multimedia, si esos elementos aparecen en el resto de la colección.
 
-## Por qué prefiero la redacción asistida por IA a una falsa "importación inteligente"
+Después:
 
-No confío en herramientas de migración que prometen demasiado. La frase "importación inteligente" generalmente significa una de dos cosas malas:
+1. Abre de nuevo **Archivo > Exportar**.
+2. Elige **Notas en texto sin formato**.
+3. Limita la exportación al mazo representativo.
+4. Activa **Incluir HTML y referencias a archivos multimedia** para que la muestra deje visibles el formato y las dependencias de archivos. Esta opción conserva las referencias, pero no introduce los archivos multimedia en el TXT.
+5. Activa **Incluir etiquetas** si quieres conservarlas. Aun así, tendrás que asignarlas y comprobarlas en la aplicación de destino.
+6. Guarda el resultado como archivo `.txt` y no muevas la colección de origen.
 
-- el producto adivina silenciosamente y se equivoca en los detalles
-- el producto afirma tener más compatibilidad de la que realmente tiene
+Anki lo llama exportación de notas por una razón: exporta los campos almacenados, no una captura de cada tarjeta tal como se muestra. Si una nota genera una tarjeta directa y otra inversa mediante plantillas, el archivo de texto sigue describiendo los campos de la nota; no contiene una lógica portátil que permita a otra aplicación generar esas dos tarjetas de repaso.
 
-Preferiría tener un flujo de trabajo explícito. Subes el archivo. El asistente lo lee. Elabora cartas. Revisa lo que entendió. Luego usted decide qué se debe crear en el espacio de trabajo.
+Cuando la pequeña muestra funcione, repite el mismo proceso con los demás mazos que se presten a esta migración. Si falla una muestra, solo pierdes un poco de tiempo revisándola. Si falla una migración completa, acabas con todo un proyecto de limpieza.
 
-Eso es más lento que el lenguaje de marketing.
+## Abre el archivo TXT antes de entregárselo a un importador o a una IA
 
-Es más rápido que la recreación manual y más honesto que pretender que existe un importador dedicado cuando no es así.
+No trates la exportación como un archivo adjunto opaco. Ábrela en un editor de texto que permita ver las tabulaciones o importa una copia en una hoja de cálculo sin sobrescribir el original.
 
-## ¿Qué sucede después de que las cartas aparecen en Flashcards?
+Las exportaciones recientes de Anki pueden empezar con líneas como `#separator:tab`, `#html:true` o `#tags column:...`. Son cabeceras del archivo, no notas. Déjalas en el original intacto, pero exclúyelas si copias unas pocas filas de notas a un archivo de prueba independiente para una aplicación que no entienda las cabeceras de Anki.
 
-La migración sólo importa si el destino es lo suficientemente mejor como para justificar el traslado. Aquí es donde las **tarjetas didácticas FSRS** se vuelven parte de la historia.
+Comprueba cinco aspectos:
 
-Flashcards se basa en FSRS en lugar de los valores predeterminados de estilo SM-2 más antiguos, que es exactamente la dirección que me gustaría de una herramienta de estudio moderna. Si desea la versión más larga, ya existe un artículo completo sobre [FSRS vs SM-2 en 2026: ¿Qué algoritmo de repetición espaciada le ayuda a recordar más?](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/).
+1. **Número de campos:** Cada fila debe tener la cantidad de campos separados por tabulaciones que esperas. La [guía de importación de archivos de texto de Anki](https://docs.ankiweb.net/importing/text-files.html) explica por qué importan los separadores y cómo asignar cada campo por separado.
+2. **Orden de los campos:** Anota qué significa cada columna: Anverso, Reverso, Ejemplo, Fuente u otra cosa. Al mirar las filas sin procesar, quizá no resulte evidente el nombre de cada campo ni en qué lado de la tarjeta aparece.
+3. **HTML:** Busca fragmentos como `<b>`, `<br>` o `<div>`. Cuando se incluye en la exportación, Anki guarda el formato como HTML. Otra aplicación puede interpretarlo, eliminarlo o mostrarlo como texto.
+4. **Marcado cloze:** Busca cadenas como `{{c1::Paris}}`. Una aplicación genérica de anverso y reverso no heredará el comportamiento de generación de tarjetas cloze por el mero hecho de encontrar ese texto en un campo.
+5. **Referencias a archivos multimedia:** Busca `<img src="...">` y `[sound:...]`. La referencia no es el archivo de imagen o audio. Anki guarda esos archivos por separado en su carpeta multimedia.
 
-En términos prácticos, la actualización no se trata sólo de salir de Anki. Se trata de aterrizar en un sistema donde:
+Revisa también las etiquetas si dependes de ellas. La [guía de importación de archivos de texto de Anki](https://docs.ankiweb.net/importing/text-files.html) admite un campo específico para etiquetas y una cabecera `#tags column`, pero la aplicación de destino podría usar otro formato. La migración solo conservará las etiquetas si las incluyes, las asignas de forma deliberada y compruebas las tarjetas creadas. Nunca des por hecho que una jerarquía como `parent::child` se ha conservado solo porque veas algunos nombres de etiquetas en la muestra.
 
-- La programación de revisiones sigue un estándar moderno más sólido.
-- la dirección del producto es más limpia
-- la arquitectura es de código abierto
-- el autohospedaje permanece sobre la mesa
+No sustituyas todas las tabulaciones por comas para limpiar el archivo deprisa. La tabulación marca el límite entre campos. Si cambias los separadores sin aplicar correctamente las comillas de CSV, las comas, las comillas o los saltos de línea del contenido pueden romper las filas.
 
-Esa combinación es más interesante que un rediseño cosmético del mismo viejo flujo de trabajo.
+Yo dejaría junto a la exportación una nota breve con la asignación:
 
-## Para qué sirve esta ruta migratoria
+```text
+Columna 1 -> anverso
+Columna 2 -> reverso
+Columna 3 -> añadir al reverso como ejemplo
+Columna 4 -> conservar como etiquetas solo después de revisarla
+HTML -> eliminar salvo los saltos de línea
+Marcado cloze -> reescribir manualmente
+```
 
-Este enfoque es una buena opción cuando:
+Esa pequeña nota permite repetir la migración y te da una referencia concreta con la que comparar el resultado en la nueva aplicación.
 
-- tus tarjetas son en su mayoría de texto
-- desea conservar el contenido útil, no todos los detalles de implementación antiguos
-- Te sientes cómodo revisando borradores antes de crear tarjetas finales.
-- Quieres una aplicación de **tarjetas didácticas de código abierto** con una dirección más transparente
+## Qué se conserva y qué se queda en el límite del TXT
 
-Es una opción más débil si su configuración depende en gran medida de complementos especializados de Anki, plantillas complejas o tarjetas con muchos medios que necesitan una preservación exacta. Eso no es un defecto del método. Es sólo el límite honesto.
+| Datos o comportamiento de Anki | ¿Aparece en Notas en texto sin formato? | Qué hacer |
+| --- | --- | --- |
+| Texto de los campos de las notas | **Sí** | Asigna de forma deliberada cada columna separada por tabulaciones |
+| Formato sencillo | **Como HTML insertado, si lo incluyes** | Comprueba cómo lo gestiona la aplicación de destino; elimínalo o reescríbelo cuando sea necesario |
+| Etiquetas | **Solo si se incluyen en la exportación** | Asigna expresamente la columna de etiquetas y comprueba sus nombres y su jerarquía |
+| Imágenes y audio | **Pueden aparecer referencias; los archivos no viajan dentro del TXT** | Conserva la copia de recuperación `.colpkg` y traslada por separado los archivos multimedia necesarios |
+| Plantillas de tarjeta y CSS | **No** | Reconstruye la estructura de la tarjeta o elige un importador compatible con paquetes |
+| JavaScript o comportamiento de complementos | **No** | Sigue usando Anki si ese comportamiento forma parte de tu forma de estudiar |
+| Comportamiento cloze | **No** | Convierte la sintaxis cloze en tipos de tarjeta compatibles o en tarjetas normales de pregunta y respuesta |
+| Varias tarjetas generadas a partir de una nota | **No como comportamiento de plantilla** | Decide qué direcciones deben convertirse en tarjetas independientes en la aplicación de destino |
+| Nombres y jerarquía de los mazos | **Solo si se incluyen como metadatos de exportación** | Asigna los nombres expresamente; no esperes que la nueva aplicación reconstruya la estructura |
+| Ajustes predefinidos de los mazos | **No** | Vuelve a crear solo los ajustes que sigas necesitando |
+| Fechas de vencimiento, intervalos, historial de repasos y estado del planificador | **No** | Considera que las tarjetas de destino empiezan un historial de repaso nuevo |
 
-## Una forma práctica de migrar desde Anki sin reconstruir todo
+La última fila es la que más cuesta. El contenido de las tarjetas y la programación son recursos distintos. Una **exportación de Anki a TXT** correcta puede conservar las palabras y, aun así, reiniciar el estado de aprendizaje de todas las tarjetas.
 
-Si estuviera haciendo esto hoy, mantendría el proceso aburrido: exportar, cargar, revisar, crear y luego continuar estudiando.
+Que dos aplicaciones utilicen planificadores de la misma familia no hace que los historiales de sus tarjetas sean intercambiables. La nueva aplicación no puede deducir las fechas de vencimiento anteriores, la estabilidad, la dificultad ni los eventos de repaso a partir del texto de las preguntas y respuestas. Si ese historial es importante, lee [qué almacena y calcula FSRS](/es/blog/what-is-fsrs/) antes de decidir si quieres reiniciarlo.
 
-Ese es el valor real de una buena **migración desde el flujo de trabajo de Anki**. No es una fidelidad histórica perfecta. Impulso.
+## Haz una prueba reversible en la aplicación de destino
 
-Una vez que haya instalado su plataforma en un sistema más limpio, la experiencia diaria importa más que la historia de la migración.
+Durante la prueba, mantén Anki como fuente de referencia. Crea un mazo temporal en la aplicación de destino, importa o prepara solo la muestra representativa y revisa todos los resultados. En esta fase no necesitas eliminar, editar ni suspender las notas originales.
 
-## Por qué esta es una alternativa real a Anki en 2026
+La revisión debe responder a estas preguntas:
 
-La mayoría de las publicaciones de **Anki Alternative 2026** tratan la decisión como una matriz de características.
+- ¿Cada nota esperada ha creado el número correcto de tarjetas?
+- ¿Los campos correctos han llegado al anverso y al reverso?
+- ¿Se han conservado las tabulaciones, las comillas, los saltos de línea, el texto no latino y los fragmentos de código?
+- ¿El HTML se interpreta correctamente, se muestra como marcado sin procesar o se elimina?
+- ¿Las notas cloze se han convertido de forma deliberada en lugar de copiarse como sintaxis rota?
+- ¿Las etiquetas siguen significando lo mismo que en Anki?
+- ¿Se entienden las tarjetas que dependen de archivos multimedia y están presentes los archivos necesarios?
+- ¿La aplicación de destino ha creado duplicados?
+- ¿Está claro que la programación empieza desde cero?
 
-Creo que la pregunta más útil es más simple: ¿puede este producto ayudarme a mover mis tarjetas existentes sin tonterías? ¿Preferiré usarlo una vez que llegue allí?
+Compara la muestra con Anki, una junto a la otra. No aceptes un «casi todo parece correcto» cuando la ausencia de un solo campo podría afectar a todas las notas de una exportación grande.
 
-Para los mazos basados en texto, Flashcards tiene una respuesta bastante defendible:
+Si la prueba falla, elimina las tarjetas temporales mediante el proceso de limpieza de la propia aplicación y modifica la asignación o el proceso de limpieza. Tu colección de Anki y los dos archivos exportados permanecerán intactos. Eso es lo que hace que la prueba sea reversible.
 
-- exportar desde Anki como texto
-- sube el archivo al chat AI
-- solicitar borradores de tarjetas didácticas
-- revisar antes de aplicar
-- continuar con la programación de FSRS en un producto de código abierto
+## Cómo usar el archivo TXT con Flashcards Open Source App
 
-Eso no es llamativo. Es práctico. Y lo práctico es lo que necesita la migración.
+Flashcards no tiene un importador directo de Anki. No puede leer archivos `.apkg` o `.colpkg` y reconstruir las plantillas, los archivos multimedia ni el historial de repasos de Anki.
 
-## Si quieres dejar a Anki sin empezar de nuevo
+La opción disponible actualmente en la aplicación alojada es crear borradores con ayuda de la IA a partir de archivos adjuntos. Abre la [aplicación alojada siguiendo la guía de primeros pasos](/es/docs/getting-started/), adjunta el TXT o un CSV preparado con cuidado en el chat de IA y pide expresamente un borrador pequeño sin guardar nada. Revisa las tarjetas propuestas en el chat y, solo entonces, pide al asistente que guarde el lote aprobado.
 
-Si quieres **migrar desde Anki**, el camino más seguro y honesto es tratar tu mazo como texto portátil, no como un estado de interfaz de usuario sagrado.
+Una primera petición útil debe indicar con precisión la asignación y limitar los efectos secundarios:
 
-Exporta las tarjetas. Sube el archivo `.txt`. Deja que el asistente te ayude con la parte repetitiva. Revisar los borradores. Luego sigue estudiando en un producto que te parezca más actual.
+```text
+Lee la exportación adjunta de Anki en formato Notas en texto sin formato. No
+guardes todavía ninguna tarjeta. Trata las tabulaciones como separadores de
+campos. Usa la columna 1 como anverso y la columna 2 como reverso. Añade la
+columna 3 bajo «Ejemplo». Muestra primero una pequeña muestra, conserva la
+redacción original y señala las filas con HTML, marcado cloze, campos ausentes
+o referencias a archivos multimedia en lugar de hacer suposiciones.
+```
 
-Por eso creo que esta es una de las formas más útiles de abordar un flujo de trabajo de **Anki export TXT** en 2026.
+Adapta esa petición a la asignación que hayas anotado después de revisar el archivo. Si los borradores tienen demasiada información o son poco concretos, utiliza la lista para [corregir tarjetas creadas con IA antes de repasarlas](/es/blog/how-to-fix-ai-flashcards/). La IA ayuda a resolver la reestructuración repetitiva, pero no demuestra que la migración haya conservado bien el contenido original.
 
-[Flashcards](https://flashcards-open-source-app.com/) no pretenderá ser un importador mágico con un solo clic ni una utilidad de migración de Anki dedicada. Es un mejor tipo de herramienta para este trabajo: una aplicación de **tarjetas didácticas de código abierto** que le brinda una ruta de migración realista y un lugar más sólido para aterrizar después de la mudanza.
+Cuando apruebes un lote pequeño, guárdalo en un mazo de prueba temporal, añade una etiqueta de migración y repite la misma lista de comprobaciones. El resultado que hayas verificado es la única prueba útil para esa colección concreta de Anki.
+
+## Amplía la migración sin volver irreversible el cambio
+
+Cuando el mazo representativo supere la prueba:
+
+1. Agrupa los mazos restantes según la estructura de sus notas, en lugar de exportarlo todo a un único archivo ambiguo.
+2. Exporta y revisa un grupo cada vez.
+3. Reutiliza una asignación de campos escrita solo cuando los tipos de nota coincidan de verdad.
+4. Revisa cada lote creado antes de pasar al siguiente.
+5. Conserva el archivo `.colpkg`, los TXT intactos y el propio Anki.
+
+Si decides estudiar las tarjetas nuevas, elige un momento claro para hacer la transición. Repasar el mismo material en ambas aplicaciones crea dos programaciones independientes que divergen de inmediato. La programación antigua de Anki seguirá disponible en la copia de recuperación, pero no incorporará los repasos que hagas en otro lugar.
+
+No ganas nada por eliminar Anki deprisa. Conserva la colección original hasta que hayas usado el mazo nuevo con normalidad durante un tiempo y estés conforme con todo lo que la vía TXT ha dejado atrás.
+
+## Cuándo no deberías migrar desde Anki de esta manera
+
+Sigue usando Anki o elige una aplicación que importe archivos `.apkg` de forma explícita si tu colección depende de:
+
+- tipos de nota complejos o varias direcciones de tarjeta generadas;
+- plantillas personalizadas, CSS, JavaScript o complementos;
+- un comportamiento cloze que no quieras reconstruir;
+- oclusión de imágenes, audio o imágenes que contengan información esencial;
+- ajustes predefinidos y una organización de mazos que deban transferirse con exactitud;
+- un historial de repasos o una programación actual que no puedas permitirte reiniciar.
+
+Anki es una opción sólida para esos métodos de estudio. La migración mediante TXT no es un veredicto sobre la aplicación, sino una herramienta limitada para quienes conservan su material más valioso principalmente en el contenido de las notas. La [comparativa más amplia entre Anki y Flashcards](/es/blog/anki-vs-flashcards-open-source-app/) explica las ventajas y los inconvenientes de ambos productos sin dar por hecho que todo el mundo deba cambiar.
+
+## La versión segura es aburrida a propósito
+
+Para migrar desde Anki sin poner en riesgo la colección original, mantén el proceso sencillo:
+
+1. Exporta un archivo `.colpkg` con los archivos multimedia y guárdalo en otro lugar.
+2. Exporta un mazo representativo como **Notas en texto sin formato**.
+3. Revisa las tabulaciones, los campos, el HTML, las notas cloze, las etiquetas y las referencias a archivos multimedia.
+4. Escribe una asignación explícita entre el origen y el destino.
+5. Crea un mazo temporal de muestra y comprueba todas las tarjetas.
+6. Amplía la migración solo cuando la muestra supere la prueba.
+7. Conserva Anki y el paquete de recuperación mientras compruebas que el nuevo método de estudio funciona.
+
+El archivo TXT traslada el contenido. El archivo `.colpkg` protege la colección. Cuando dejas de pedirle a un solo archivo que haga ambas cosas, una migración desde Anki resulta mucho más fácil de entender y de revertir.
