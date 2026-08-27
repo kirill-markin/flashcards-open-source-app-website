@@ -36,7 +36,7 @@ Before making cards, check the scope of the class, quiz, or exam:
 
 The American Chemical Society's middle-school [Lesson 4.2](https://www.acs.org/middleschoolchemistry/lessonplans/chapter4/lesson2.html) focuses on the first 20 elements and introduces name, symbol, atomic number, and atomic mass. It also teaches that atomic number equals proton count. That is a useful example of a bounded beginner set. It is not a standard telling every beginner to stop at 20, or every advanced student to learn all 118.
 
-Use the teacher, syllabus, assigned table, and textbook as the controlling sources. ACS, NIST, and CIAAW are strong references for checking facts, but the label or rounding expected on a test may still come from the course. Anonymous “complete periodic table” decks often get this order backward: they choose the facts first and leave you to discover whether they match your work.
+Use the teacher, syllabus, assigned table, and textbook as the controlling sources. ACS, NIST, and CIAAW are strong references for checking facts, but the label or rounding expected on a test may still come from the course. Anonymous “complete periodic table” decks often get this order backward: they choose the facts first and leave you to discover whether they match your work. If electron configurations are in scope, the [Electron Configuration Flashcards: All 118 Elements](/catalog/packages/electron-configuration-flashcards-all-elements/) deck gives you 131 English cards as a starting set, but your course still decides which elements and notation you should study.
 
 ## Make one card for one periodic-table fact
 
