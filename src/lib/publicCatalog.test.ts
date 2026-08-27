@@ -1775,7 +1775,7 @@ test("renders one aggregate package Tags fact and omits empty card tags", () => 
   assert.equal(emptyMarkdown.includes("Tags:"), false);
 });
 
-test("projects normalized card Markdown to complete ordered plain text", () => {
+test("preserves standalone numeric card text and ordered-list markers", async () => {
   const sourceContext = "Public catalog package version deck-version-1 card card-1 frontText";
   const plainText = projectPublicCatalogCardMarkdownToPlainText(
     [
@@ -1783,8 +1783,8 @@ test("projects normalized card Markdown to complete ordered plain text", () => {
       "",
       "Paragraph with [link](https://example.com) and ![diagram](fcasset:inline.webp).",
       "",
-      "- First item",
-      "- Second `item`",
+      "3. First item",
+      "4. Second `item`",
       "",
       "| Term | Meaning |",
       "| --- | --- |",
@@ -1809,8 +1809,8 @@ test("projects normalized card Markdown to complete ordered plain text", () => {
       "",
       "Paragraph with link and diagram.",
       "",
-      "First item",
-      "Second item",
+      "3. First item",
+      "4. Second item",
       "",
       "Term | Meaning",
       "GFM | Table value",
@@ -1820,6 +1820,42 @@ test("projects normalized card Markdown to complete ordered plain text", () => {
       "if ready:",
       "    print(\"a  b\")",
     ].join("\n"),
+  );
+  assert.equal(
+    normalizePublicCatalogCardMarkdownFragment(
+      "1945.",
+      "en",
+      new Map(),
+      sourceContext,
+    ),
+    "1945\\.",
+  );
+  assert.equal(
+    projectPublicCatalogCardMarkdownToPlainText(
+      "1945.",
+      "en",
+      new Map(),
+      sourceContext,
+    ),
+    "1945.",
+  );
+  assert.equal(
+    await renderPublicCatalogCardMarkdownToHtml(
+      "1945.",
+      "en",
+      new Map(),
+      sourceContext,
+    ),
+    "<p>1945.</p>",
+  );
+  assert.equal(
+    await renderPublicCatalogCardMarkdownToHtml(
+      "    1945.",
+      "en",
+      new Map(),
+      sourceContext,
+    ),
+    "<pre><code>1945.\n</code></pre>",
   );
   assert.throws(
     () => projectPublicCatalogCardMarkdownToPlainText(
