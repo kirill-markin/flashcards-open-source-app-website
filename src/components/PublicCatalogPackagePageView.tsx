@@ -400,6 +400,13 @@ export async function PublicCatalogPackagePageView({
               </section>
             </aside>
 
+            <PublicCatalogRelatedDecks
+              heading={copy.similarDecksHeading}
+              locale={locale}
+              packages={relatedPackages}
+              placeholderLabel={copy.coverPlaceholderLabel}
+            />
+
             <div className={styles.descriptionBlock}>
               {latestVersion.contentWarning === null ? null : (
                 <aside className={styles.warning}>
@@ -416,13 +423,6 @@ export async function PublicCatalogPackagePageView({
                 />
               </section>
             </div>
-
-            <PublicCatalogRelatedDecks
-              heading={copy.similarDecksHeading}
-              locale={locale}
-              packages={relatedPackages}
-              placeholderLabel={copy.coverPlaceholderLabel}
-            />
           </div>
         </section>
 

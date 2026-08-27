@@ -17,8 +17,8 @@
   grid-template-areas:
     "title side"
     "description side"
-    "description related"
-    "description details";
+    "description details"
+    "description related";
   gap: 28px clamp(24px, 4vw, 44px);
   align-items: start;
 }
@@ -583,8 +583,8 @@
       "title"
       "side"
       "details"
-      "description"
-      "related";
+      "related"
+      "description";
     gap: 20px;
   }
 
