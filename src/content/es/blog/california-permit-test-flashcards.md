@@ -168,7 +168,7 @@ El DMV describe por separado el examen práctico de manejo: evalúa la conducci�
 
 [Flashcards Open Source App](/features/) admite tarjetas sencillas de anverso y reverso, mazos, etiquetas y repasos pendientes. FSRS (Free Spaced Repetition Scheduler) usa tu historial de repasos para programar cuándo reaparece cada tarjeta. Esto ayuda a distribuir un mazo pequeño para el permiso a lo largo de la semana.
 
-El catálogo también incluye un [mazo independiente de 232 tarjetas en español sobre reglas y señales de California](/catalog/packages/examen-manejo-california-espanol-tarjetas/), sin preguntas copiadas del DMV, que cubre preferencia de paso, velocidad, estacionamiento, control del vehículo, convivencia vial, alcohol, drogas, medicamentos y emergencias.
+El catálogo también incluye un [mazo independiente de 232 tarjetas en español sobre reglas y señales de California](/es/catalog/packages/examen-manejo-california-espanol-tarjetas/), sin preguntas copiadas del DMV, que cubre preferencia de paso, velocidad, estacionamiento, control del vehículo, convivencia vial, alcohol, drogas, medicamentos y emergencias.
 
 La ayuda de la IA es opcional, y tú decides qué borradores se guardan. La IA no verifica las reglas de manejo ni su exactitud legal. Compara cada tarjeta creada por la IA con el manual vigente del DMV. No pegues identificadores privados, documentos de solicitud ni registros de licencias en herramientas de IA alojadas. La guía de privacidad explica este límite con más detalle: [Flashcards privadas con IA](/blog/private-flashcards-with-ai/).
 
