@@ -21,7 +21,7 @@ That is exactly where **advanced chemistry flashcards** help, if you give them t
 
 So the useful version of **how to use flashcards for advanced chemistry** is narrower than most student decks. A focused deck builds a memory layer for the parts that should feel fast before you start working the chemistry.
 
-The [Advanced High School Chemistry Flashcards: Complete 9-Part Course Review](/catalog/packages/advanced-high-school-chemistry-flashcards/) gives you a ready-made memory layer: 450 independently written English cards covering concepts, models, equations, calculation setup, and experimental reasoning across nine parts. It is a complete course review deck, but it still is not a replacement for worked problems or full calculations.
+The [AP Chemistry Flashcards: Complete 9-Unit Course Review](/catalog/packages/ap-chemistry-flashcards/) gives you a ready-made memory layer: 450 independently written English cards covering concepts, models, equations, calculation setup, and experimental reasoning across nine units. It is a complete course review deck, but it still is not a replacement for worked problems or full calculations.
 
 ![Blank flashcards beside chemistry glassware, a molecular model, and an open notebook](/blog/how-to-use-flashcards-for-advanced-chemistry.png)
 
