@@ -8,6 +8,7 @@ import {
 import {
   getPublicCatalogCollectionsByPackageSlug,
   getPublicCatalogPackageBySlug,
+  getPublicCatalogRelatedPackages,
 } from "@/lib/publicCatalogReadModel";
 import { createPublicCatalogPackageMetadata } from "@/lib/seo/createPublicCatalogMetadata";
 
@@ -55,8 +56,14 @@ export default async function PublicCatalogPackagePage({
   const collections = catalog === null
     ? undefined
     : getPublicCatalogCollectionsByPackageSlug(catalog, packageSlug);
+  const relatedPackages = catalog === null
+    ? undefined
+    : getPublicCatalogRelatedPackages(
+      catalog,
+      packageView.packageMetadata.packageId,
+    );
 
-  if (collections === undefined) {
+  if (collections === undefined || relatedPackages === undefined) {
     notFound();
   }
 
@@ -65,6 +72,7 @@ export default async function PublicCatalogPackagePage({
       collections={collections}
       locale={locale}
       packageView={packageView}
+      relatedPackages={relatedPackages}
     />
   );
 }
