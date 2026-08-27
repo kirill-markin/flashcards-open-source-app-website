@@ -209,13 +209,13 @@
 .warning {
   margin: 0 0 20px;
   padding: 14px 16px;
-  border: 1px solid rgba(255, 77, 87, 0.35);
+  border: 1px solid rgba(245, 185, 66, 0.35);
   border-radius: var(--radius-md);
-  background: rgba(255, 77, 87, 0.08);
+  background: rgba(245, 185, 66, 0.08);
 }
 
 .warning strong {
-  color: var(--danger);
+  color: var(--warning);
   font-size: 13px;
 }
 
