@@ -10,6 +10,65 @@ import {
   serializeMarkdownAssetManifest,
 } from "./src/lib/markdownAssetManifest";
 
+type CatalogPackageSlugRedirect = Readonly<{
+  retiredSlug: string;
+  replacementSlug: string;
+}>;
+
+type PermanentRedirect = Readonly<{
+  source: string;
+  destination: string;
+  permanent: true;
+}>;
+
+const catalogPackageSlugRedirects: ReadonlyArray<CatalogPackageSlugRedirect> = [
+  {
+    retiredSlug: "algebra-based-physics-1-flashcards",
+    replacementSlug: "ap-physics-1-flashcards",
+  },
+  {
+    retiredSlug: "advanced-high-school-chemistry-flashcards",
+    replacementSlug: "ap-chemistry-flashcards",
+  },
+  {
+    retiredSlug: "five-unit-psychology-course-review",
+    replacementSlug: "ap-psychology-flashcards",
+  },
+];
+
+const catalogUiPathPrefixes: ReadonlyArray<string> = [
+  "",
+  "/es",
+  "/ar",
+  "/de",
+  "/hi",
+  "/ja",
+  "/ru",
+  "/zh",
+];
+
+function createPermanentCatalogPackageRedirects(): Array<PermanentRedirect> {
+  return catalogPackageSlugRedirects.flatMap(({ retiredSlug, replacementSlug }) =>
+    catalogUiPathPrefixes.flatMap((localePrefix) => {
+      const retiredPath = `${localePrefix}/catalog/packages/${retiredSlug}`;
+      const replacementPath = `${localePrefix}/catalog/packages/${replacementSlug}`;
+
+      return [
+        {
+          source: `${retiredPath}/`,
+          destination: `${replacementPath}/`,
+          permanent: true,
+        },
+        {
+          source: `${retiredPath}.md`,
+          destination: `${replacementPath}.md`,
+          permanent: true,
+        },
+      ];
+    }),
+  );
+}
+
 function readMarkdownAssetManifest(): string {
   const filePath = join(process.cwd(), MARKDOWN_MANIFEST_FILE_PATH);
   let serialized: string;
@@ -86,6 +145,9 @@ const nextConfig: NextConfig = {
     }
 
     return headers;
+  },
+  async redirects() {
+    return createPermanentCatalogPackageRedirects();
   },
 };
 
