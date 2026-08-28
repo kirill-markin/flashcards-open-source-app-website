@@ -1,139 +1,242 @@
 ---
-title: "2026年版 Anki代替アプリ7選：実用目線で比較"
-description: "現行のAnki代替アプリ7つを、料金、対応環境、オフライン利用、スケジューリング、インポート、セルフホスティングで比較し、自分に合うフラッシュカードアプリを選びます。"
+title: "Anki代替アプリ7選【2026年版】：乗り換えて残るもの、失うもの、得るもの"
+description: "7つのAnki代替アプリを、移行精度、オフライン利用、スケジューリング、料金、ソース公開、セルフホスティングの観点から比較。Ankiを使い続けるほうが安全なケースも解説します。"
 date: "2026-03-14"
-updated: "2026-07-30"
+updated: "2026-08-28"
+image: "/blog/best-anki-alternatives.png"
 keywords:
-  - "Anki 代替"
   - "Anki 代替アプリ"
-  - "Anki 代替 2026"
-  - "オープンソース フラッシュカード アプリ"
-  - "間隔反復 アプリ"
-  - "セルフホスト フラッシュカード"
+  - "Anki 代替"
+  - "Ankiのようなアプリ"
+  - "オープンソース Anki 代替アプリ"
+  - "無料 Anki 代替アプリ"
+  - "iOS Anki 代替"
+  - "Ankiから乗り換え"
 ---
 
-Ankiは今も優秀なフラッシュカードアプリです。柔軟で、オフラインでも使え、FSRSに対応し、アドオンと共有デッキの大きなエコシステムがあります。代替アプリへ移る意味があるのは、こうした強みよりも自分にとって重要な学習フローを改善できる場合です。
+Ankiのインポートがエラーなく終わっても、そのデッキを使い物にしていた仕組みまで移るとは限りません。テキストは入り、カードも開く。それでもCSSが消えていたり、音声フィールドが空だったり、全カードが新規扱いになっていたりします。1つのノートから、期待した向きのカードが生成されなくなることもあります。
 
-ここでは、優先するものが異なる本格的な7つの選択肢を比較します。ノートとの連携、シンプルな画面、教室での共有、ガイド付き学習、独自の記憶研究、オープンソースによる管理など、それぞれ得意分野が違います。
+Anki代替アプリを比べるとき、本当に高くつくのはこの部分です。エディターの使いやすさや料金は、乗り換える前でも分かります。ところが、テンプレートの動作、復習履歴、次回復習日、アドオン、オフライン時のメディア、さらにデータを再び持ち出す方法は、問題が起きてから気づきがちです。
 
-> **開示事項：** 私はKirill Markinです。この比較に含まれる製品のひとつ、[Flashcards](https://flashcards-open-source-app.com/)を開発しています。オープンソースとセルフホスティングという用途に合うため掲載していますが、無条件の最有力候補としては扱っていません。以下の製品情報は、公式ページ、公式ドキュメント、アプリストアの掲載情報、ソースリポジトリに基づきます。
+そこで本記事では、移行時に何が残り、何が変わるのかを起点に比較します。Ankiの代わりになり得る7つのアプリが既存コレクションから何を引き継げるのか、どんな場合はAnkiを使い続けるほうが安全なのかを見ていきます。
 
-**情報確認日：** 2026年7月30日。料金はこの日に確認できた米国向けの一般価格、または掲載されている現地価格です。税金、地域別価格、教育割引、アプリストア経由の請求によって異なる場合があります。
+> **開示事項：** 私はKirill Markinです。以下で取り上げる製品のひとつ、[Flashcards](https://flashcards-open-source-app.com/)を開発しています。オープンソースで、セルフホストやAIエージェントを使ったワークフローに対応しているため、比較対象に含めました。ただし、最初から第一候補としているわけではありません。`.apkg`を直接インポートできず、Ankiからの移行では一部データが失われます。セルフホスト版の運用にも、本格的なインフラ作業が必要です。
 
-## Anki代替アプリ7選の早見表
+**情報確認日：** 2026年8月28日。料金は同日時点で公開されていた米国向け、または掲載地域の価格です。税金、地域、教育向けプラン、アプリストア経由の請求によって金額は変わることがあります。
 
-| ツール | 特に向く用途 | 料金 | 対応環境 | オフライン | スケジューリング | インポートとエクスポート | オープンソース／セルフホスト |
-|---|---|---|---|---|---|---|---|
-| [Flashcards](https://flashcards-open-source-app.com/) | オープンソースでの管理と任意のセルフホスティング | [ホスト版の基本機能とセルフホスト版ソフトウェアは無料](/pricing/) | [Web、iOS、Android](https://github.com/kirill-markin/flashcards-open-source-app#available-on) | [まず端末に書き込み、再接続後にWebとモバイルで同期](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/docs/architecture.md#offline-first-sync) | [FSRS](/docs/architecture/#scheduling) | AI支援で下書きし、確認後に取り込むテキスト／CSV；[独自のポータブルパッケージ](https://github.com/kirill-markin/flashcards-open-source-app/tree/main/apps/web/src/screens/settings/workspace/packages)；Ankiの`.apkg`は非対応 | [MITライセンスのソース](https://github.com/kirill-markin/flashcards-open-source-app)と[セルフホスティングガイド](/docs/self-hosting/) |
-| [RemNote](https://www.remnote.com/) | ノートとカードをひとつの学習環境で管理 | [無料；Proは年払いで月額8ドル](https://www.remnote.com/pricing) | Web、Windows、macOS、Linux、iOS、Android | [デスクトップとモバイルはオフライン対応；Web版には制限あり](https://help.remnote.com/en/articles/6752029-offline-mode) | [FSRSまたはAnki SM-2](https://help.remnote.com/en/articles/9337171-understanding-spaced-repetition) | [Ankiの`.apkg`を直接インポート](https://help.remnote.com/en/articles/8664083-switching-from-anki-to-remnote)；[複数のノート形式とエクスポート](https://help.remnote.com/en/articles/7898019-exporting-notes) | コアアプリの公式ソース公開やセルフホスト手順は確認できない |
-| [Mochi](https://mochi.cards/) | ローカルファーストのMarkdownノートとカード | [オフライン利用は無料；Pro同期は月額5ドル](https://mochi.cards/#pricing-section) | Web、Windows、macOS、Linux、iOS、Android | [完全なオフライン利用](https://mochi.cards/docs/getting-started/download-and-install/) | [2択評価による適応型の間隔](https://mochi.cards/docs/reviewing) | [Anki `.apkg`、Markdown、CSVをインポート](https://mochi.cards/docs/import-and-export/importing/)；[持ち運べる形式でエクスポート](https://mochi.cards/docs/import-and-export/exporting/) | コアアプリはセルフホスト向けに非公開；[連携機能はオープンソース](https://github.com/mochi-cards/open-source) |
-| [Quizlet](https://quizlet.com/) | 共有セット、クラス、多様な学習モード | 基本学習は無料；[Plusは年35.99ドルでLearnが月20ラウンド、Plus Unlimitedは年44.99ドルでLearnが無制限](https://quizlet.com/upgrade?source=footer) | Web、iOS、Android | [保存したセットはモバイルでオフライン利用可能](https://help.quizlet.com/hc/en-us/articles/360030565412-Studying-offline-with-Quizlet-mobile-apps) | 機械学習で個別化するLearn；[非会員はサンプルセッション1回](https://help.quizlet.com/hc/en-us/articles/360030986971-Studying-with-Learn)；間隔の計算式は非公開 | [テキストをインポート](https://help.quizlet.com/hc/en-us/articles/360029977151-Creating-sets-by-importing-content)；[自作セットをテキストでエクスポート](https://help.quizlet.com/hc/en-us/articles/360034345672-Exporting-your-sets) | 公式のセルフホスト手順は確認できない |
-| [Brainscape](https://www.brainscape.com/) | 自信度で評価するシンプルな復習と共有クラス | [無料；Proは年払いで月額7.99ドルと表示](https://www.brainscape.com/pricing) | Web、iOS、Android | [ダウンロードしたカードはモバイルでオフライン学習可能](https://brainscape.zendesk.com/hc/en-us/articles/360001017252-Do-I-need-WiFi-or-a-4G-LTE-connection) | [1〜5で評価するConfidence-Based Repetition](https://www.brainscape.com/academy/confidence-based-repetition-definition/) | [CSV、TXT、XLSX、ODSをインポート](https://brainscape.zendesk.com/hc/en-us/articles/115002369931-How-do-I-import-various-files-to-create-flashcards)；[エクスポートはPro](https://brainscape.zendesk.com/hc/en-us/articles/115002383872-How-can-I-export-a-backup-of-my-flashcards) | 公式のセルフホスト手順は確認できない |
-| [SuperMemo](https://www.supermemo.com/) | 語学コースとSuperMemo独自のスケジューリング研究 | [制限付き無料アカウント](https://www.supermemo.com/en/faq/how-many-courses-can-i-create)；[Premiumは月35.99 PLNまたは年359 PLN](https://www.supermemo.com/en/premium-subscription) | [Web、iOS、Android](https://www.supermemo.com/en/faq/on-what-devices-can-i-use-supermemo) | [ダウンロード済みコースは一部制限付きでモバイルのオフライン利用が可能](https://www.supermemo.com/en/faq/can-i-use-supermemo-offline) | [SuperMemo独自方式](https://www.supermemo.com/en/supermemo-method) | [区切り付きテキストを貼り付けてインポート](https://www.supermemo.com/en/blog/how-to-create-flashcards-for-learning)；現行のユーザー向けエクスポートは確認できない | 独自仕様のホスト型サービス；公式セルフホスト機能なし |
-| [Mnemosyne](https://mnemosyne-proj.org/) | 無料で伝統的なオープンソースのデスクトップ運用 | [無料](https://mnemosyne-proj.org/) | [Windows、macOS、Linux、Android；デスクトップサーバー経由のブラウザ復習](https://mnemosyne-proj.org/download-mnemosyne.php) | デスクトップとAndroidで完全なローカル復習 | 0〜5の想起評価による適応型スケジューリング | [Ankiの完全インポートとプレーンテキストのインポート](https://mnemosyne-proj.org/features)；[独自`.cards`形式のエクスポート](https://mnemosyne-proj.org/help/sharing-cards)；[タブ区切りテキストのエクスポート](https://mnemosyne-proj.org/whats-new) | GPLソフトウェア；[自分で同期サーバーを運用可能](https://mnemosyne-proj.org/help/syncing) |
+![時計職人が使い込まれた懐中時計のムーブメントを別のケースに収められるか確かめている](/blog/best-anki-alternatives.png)
 
-この表は判断材料であり、機能の充実度を採点するものではありません。複雑なAnkiコレクションがあるなら、直接`.apkg`を取り込めることが画面設計より重要かもしれません。ひとりで学習するなら、共同作業よりローカル保存が重要な場合もあります。
+## 移行を始める前に、まず結論
 
-## 1. Flashcards：オープンソースでの管理とセルフホスティングに最適
+基本方針は、Ankiを使い続けることです。何度も困っている問題を別のアプリが解消でき、そのメリットが移行コストに見合う場合だけ乗り換えましょう。
 
-[Flashcards](https://flashcards-open-source-app.com/)は、Web、iOS、Android向けの無料フラッシュカードアプリです。現行ソースから、[WebではIndexedDB、iOSではSQLiteを使い、Webとモバイル全体でオフラインファースト同期を行うこと](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/docs/architecture.md#offline-first-sync)が確認できます。[AndroidクライアントはSQLite上のRoomを使用します](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/apps/android/README.md#platform-baseline)。スケジューリングは[FSRS](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/docs/fsrs-scheduling-logic.md)です。[ホスト版の基本機能は無料](/pricing/)で、スタック全体がMITライセンスで公開され、[セルフホスティング手順](/docs/self-hosting/)もあります。
+学習データを含むAnkiパッケージを取り込める製品は3つあります。ただし、引き継げる範囲は製品ごとに異なります。
 
-最大の違いは、Ankiと同じ成熟度をうたうことではなく、スタック全体を管理できる点です。カードの作成と復習、デッキとタグ、AI支援編集、公開API、エージェント用ワークフローのMCPコネクターを備えています。
+- **Mnemosyne**は、カスタムカードタイプと学習データを含むAnkiの完全インポートを案内しています。従来型のローカル運用ができるオープンソースのデスクトップアプリとしては、最も近い選択肢です。ただし、iOSネイティブアプリはありません。
+- **Mochi**は、復習履歴を含む`.apkg`ファイルをインポートします。HTMLをMarkdownへ変換し、CSSとJavaScriptを削除し、Ankiの4つの復習ボタンをRememberedかForgotの2つに置き換えます。
+- **RemNote**は、`.apkg`ファイルから大半のノートタイプと復習履歴をインポートします。ただし現行ガイドによると、インポートしたカードは別の**Need to Learn**キューに入ります。「復習履歴を取り込める」ことと、「今日のAnkiの復習キューがそのまま再現される」ことは別です。
 
-重要な制約は移行です。FlashcardsにはAnkiの`.apkg`を直接取り込む機能が**なく**、Ankiのテンプレート、アドオン、メディア規則、復習履歴を保持できるとは約束していません。ほぼテキストだけのカードであれば、[Ankiからテキストを出力し、TXTまたはCSVファイルを添付し、アシスタントにカード案を作らせ、適用前に下書きを確認する方法](/blog/migrate-from-anki-txt-export-open-source-flashcards/)がサポートされています。[独自のポータブルな`flashcards.zip`パッケージをインポート／エクスポート](https://github.com/kirill-markin/flashcards-open-source-app/tree/main/apps/web/src/screens/settings/workspace/packages)することもできますが、これはFlashcardsのワークスペース間でコンテンツを移すためのもので、Ankiパッケージを読む機能ではありません。
+残る4つは、コレクションの移行ではなく、コンテンツの作り直しです。
 
-オープンソース、セルフホスティング、オフラインファーストのモバイル利用、エージェントからのアクセスが中心要件なら選ぶ価値があります。移行の再現性と成熟したアドオン環境のほうが大切なら、Ankiを使い続けるか、直接インポートできる選択肢を選びましょう。
+- **Quizlet**は、公開セット、クラス、ゲーム、ガイド付き練習に便利です。
+- **Brainscape**は、グループで使いやすい1〜5段階のシンプルな自信度評価を採用しています。
+- **SuperMemo**へ移るなら、独自の学習方式とコースカタログを選ぶことになります。
+- **Flashcards**では、MITライセンスのWeb／ネイティブクライアント、セルフホスト可能なバックエンド、API、MCPを利用できます。確認を挟むTXTまたはCSVのワークフローでは、Ankiの学習状態は保持されません。
 
-## 2. RemNote：ノートとフラッシュカードをまとめるなら最適
+カードが厳密な表示、アドオン、現在の復習キューに依存しているなら、Ankiを使い続けるのは決断を先送りしているわけではありません。それが比較の結論です。
 
-RemNoteはアウトライナー、文書への注釈、フラッシュカードアプリをひとつのナレッジベースにまとめています。[無料プランでもノートとフラッシュカードは無制限](https://www.remnote.com/pricing)です。Proの掲載価格は年96ドルで、月額換算8ドルと表示され、有料プランではAIの利用枠と学習機能が増えます。
+## まず、Ankiコレクションの中身を分けて考える
 
-対応環境は幅広く、Web、Windows、macOS、Linux、iOS、Androidアプリがあります。[オフラインの公式説明](https://help.remnote.com/en/articles/6752029-offline-mode)によると、デスクトップとモバイルアプリではオフラインでノート編集とカード復習ができます。ブラウザ版はあらかじめ開いておく必要があり、キャッシュされていない一部メディアは表示されないことがあります。[FSRSとAnki SM-2の両方](https://help.remnote.com/en/articles/9337171-understanding-spaced-repetition)を選べます。
+「デッキ」は、ひとまとまりのまま持ち運べる単純なデータではありません。製品を比較する前に、何を移す必要があるのかを分けて考えましょう。
 
-既存のAnkiコレクションから移る場合にも実用的です。[公式移行ガイド](https://help.remnote.com/en/articles/8664083-switching-from-anki-to-remnote)は`.apkg`のインポートに対応し、スケジュール情報を保持できると説明しています。ただし、一部の書式は同じ見た目にならない可能性があります。
+| コレクションの要素 | Ankiがパッケージに入れられるもの | 移行先が明示的に対応する必要があるもの |
+| --- | --- | --- |
+| **ノートの内容** | テキストフィールドと保存されたHTML | フィールドの対応付け、穴埋め、非ラテン文字、コード、改行 |
+| **カード生成** | ノートタイプとカードテンプレート | 表→裏／裏→表のカード、カスタムフィールド、CSS、JavaScriptの動作 |
+| **メディア** | **Include media**を有効にした場合のローカル画像、音声、その他のファイル | ファイルの抽出、参照、対応形式、端末間同期 |
+| **整理方法** | デッキ、子デッキ、タグ、任意のデッキプリセット | 階層、タグの意味、プリセット、学習範囲 |
+| **学習状態** | 含める設定にした場合のスケジューリング情報と復習履歴 | 次回復習日、間隔、忘却回数、移行先スケジューラへの変換 |
+| **ワークフロー用コード** | アドオンはデッキパッケージの一部として同梱されない | ブラウザー機能、一括編集、ノート生成など、アドオンが担っていた動作の代替手段 |
 
-構造化されたノート、講義資料、PDFの中でカードを作りたいならRemNoteが向きます。トレードオフはその広さです。復習に特化したツールよりも大きな学習環境です。RemNoteはGitHubでプラグインとテンプレートを公開していますが、コアアプリの公式配布やサポートされたセルフホスト手順は確認できませんでした。
+[Ankiのエクスポートマニュアル](https://docs.ankiweb.net/exporting.html)には、これらのパッケージオプションがすべて記載されています。テキストインポーターから見えるのは最初の行と、場合によってはタグだけです。`.apkg`を直接読むインポーターならさらに多くを扱えますが、何を変換し、何を捨てるかは製品ごとに決まります。
 
-## 3. Mochi：ローカルファーストのMarkdownに最適
+だから「Ankiをインポートできる」という説明だけでは、乗り換えの判断材料として曖昧すぎます。次の3つを別々に確認してください。
 
-MochiはローカルファーストのMarkdownノート兼フラッシュカードアプリです。Web、Windows、macOS、Linux、iOS、Androidで動作します。[公式料金ページ](https://mochi.cards/)では、無制限のオフライン利用は0ドル、端末間同期ができるProは月5ドルです。アカウントを作らずに使うこともできます。
+1. **カードの意味は変わっていないか？** フィールド、生成されるカードの向き、穴埋め、メディア、表示を確認します。
+2. **移行先は、どこまで学習済みか把握しているか？** 復習記録、現在の状態、次回復習日、最初に表示される実際のキューを確認します。
+3. **そこからまた移行できるか？** 移行先からエクスポートし、出力形式に何が含まれるのかを実際に確かめます。
 
-スケジューラは意図的に小さな評価モデルを採用しています。「Remembered」なら間隔が伸び、「Forgot」なら短くなり、再学習時に2回目も失敗するとカードがリセットされます。[期日のドキュメント](https://mochi.cards/docs/reviewing/due-today/)では、目標想起率の初期値が90%であることも説明されています。
+インポーターが最初の問いには合格し、残り2つには失敗することもあります。
 
-移行とデータの持ち運びは特に明確です。Mochiは[復習履歴を含むAnkiの`.apkg`ファイルをインポート](https://mochi.cards/docs/import-and-export/importing/)できますが、CSSとJavaScriptを削除し、HTMLをMarkdownに変換します。MarkdownとCSVもインポートできます。完全な`.mochi`アーカイブ、人が読めるMarkdown、CSVでエクスポートでき、[各形式で失われるメタデータも説明されています](https://mochi.cards/docs/import-and-export/exporting/)。
+## 移行後に残るもの
 
-オフラインで使え、持ち運びやすい静かなテキスト中心のツールが欲しいならMochiが向きます。公式GitHubリンクで公開されているのはコアアプリやセルフホスト可能な同期サービスではなく、[オープンソースの連携機能](https://github.com/mochi-cards/open-source)です。完全なオープンソース製品とは考えないほうがよいでしょう。
+| 製品 | Ankiからのインポート方法 | 学習状態 | 確認すべき主な欠落 |
+| --- | --- | --- | --- |
+| [RemNote](https://www.remnote.com/) | 大半のノートタイプ、メディア、復習履歴を含む[`.apkg`の直接インポート](https://help.remnote.com/en/articles/6751471-importing-from-anki) | 復習履歴は引き継がれるが、インポートしたカードはRemNote独自の**Need to Learn**キューに入る | 複雑なCSS、カスタムJavaScript、一部の自動生成TTS、名前を変更した画像オクルージョン用フィールド |
+| [Mochi](https://mochi.cards/) | 復習履歴を含む[`.apkg`の直接インポート](https://mochi.cards/docs/import-and-export/importing/) | 履歴は引き継がれるが、Ankiと同じキューや次回復習日になるとはドキュメントで保証されていない | HTMLはMarkdownに変換され、CSSとJavaScriptは削除される。以後の評価は2択 |
+| [Mnemosyne](https://mnemosyne-proj.org/) | カスタムカードタイプと学習データを含む[Ankiの完全インポート](https://mnemosyne-proj.org/features)をプロジェクトが案内 | 学習データは別のスケジューラに取り込まれる | テンプレートの正確な動作、変換後の復習予定、カード表示は別途テストが必要 |
+| [Quizlet](https://quizlet.com/) | [用語と定義を貼り付ける](https://help.quizlet.com/hc/en-us/articles/360029977151-Creating-sets-by-importing-content) | Ankiからは何も引き継がない | ノートタイプ、テンプレート、デッキ、メディア構造、すべてのスケジューリングデータ |
+| [Brainscape](https://www.brainscape.com/) | [CSV、TXT、XLSX、ODS](https://brainscape.zendesk.com/hc/en-us/articles/115002369931-How-do-I-import-various-files-to-create-flashcards) | Ankiからは何も引き継がない | テンプレート、アドオン、メディア規則、すべてのスケジューリングデータ |
+| [SuperMemo](https://www.supermemo.com/) | [区切り付きの質問・回答行を貼り付ける](https://www.supermemo.com/en/blog/how-to-create-flashcards-for-learning)。一度に最大100枚 | Ankiからは何も引き継がない | コレクション構造、メディア、テンプレート、すべてのスケジューリングデータ |
+| [Flashcards](https://flashcards-open-source-app.com/) | AnkiのTXTまたはCSVを使い、内容を確認しながらAI支援で下書きを作成 | Ankiからは何も引き継がない | `.apkg`非対応。テンプレート、メディアの正確な再現、デッキ階層、すべてのスケジューリングデータは引き継がれない |
 
-## 4. Quizlet：共有学習セットとクラス利用に最適
+## 料金、オフライン利用、スケジューリング、所有権
 
-Quizletはこの一覧で最も一般向けの選択肢です。大規模な公開ライブラリ、簡単な共有、教員向けクラス機能があり、Web、iOS、AndroidでFlashcards、Match、Test、個別化されたLearnを使えます。
+| 製品 | 2026年8月28日時点の料金 | オフライン利用の範囲 | スケジューラ | ソースとセルフホスティング |
+| --- | --- | --- | --- | --- |
+| **RemNote** | [無料。Proは年額96ドル（月額換算8ドル）](https://www.remnote.com/pricing) | インストール済みアプリは、ログイン後ならオフラインで編集・復習可能。デスクトップはナレッジベース内の全メディアを保持し、モバイルは最近使った画像の一部だけをキャッシュ。Web版は接続中に開いておいたタブが必要 | [Anki SM-2またはベータ版FSRS v6](https://help.remnote.com/en/articles/9124137-the-fsrs-spaced-repetition-algorithm) | コアはプロプライエタリ。公式にサポートされたセルフホスト方法の案内なし |
+| **Mochi** | [オフライン利用は無料。Pro同期は月5ドル](https://mochi.cards/#pricing-section) | インストール済みアプリはアカウントなしでも完全にオフラインで動作。ブラウザーの保存データは消去される可能性がある | [Mochi独自のスケジューラまたはFSRS](https://mochi.cards/docs/reviewing/fsrs/)。どちらもRemembered／Forgotで評価 | コアは独自仕様。公開リポジトリにあるのは連携機能で、セルフホスト可能なアプリではない |
+| **Mnemosyne** | 無料 | [デスクトップでのローカル利用とAndroidでのオフライン復習](https://mnemosyne-proj.org/download-mnemosyne.php)に対応。Androidでは編集不可。iOSネイティブアプリなし | 0〜5の想起評価による適応型スケジューリング | ソースライセンスはコンポーネントごとに異なる。デスクトップまたはヘッドレス環境で自前の同期サーバーを運用可能 |
+| **Quizlet** | 基本利用は無料。[Plusは年35.99ドル、Plus Unlimitedは年44.99ドル](https://quizlet.com/upgrade?source=signup) | ダウンロード済みセットは、iOS／AndroidアプリのFlashcardsとMatchでオフライン利用可能 | 100語以上のセットを対象とする[Web版の間隔反復](https://quizlet.com/features/spaced-repetition)。モバイルは現在も「近日対応予定」。Learnは別の適応型練習 | 独自仕様のホスト型サービス。サポート対象のセルフホスト方法なし |
+| **Brainscape** | [無料。Proは年払いで月額換算7.99ドル](https://www.brainscape.com/pricing) | [モバイルはオフライン中の操作を保持し、以前ダウンロードしたクラスを再接続後に同期できる](https://brainscape.zendesk.com/hc/en-us/articles/115002369711-How-do-Brainscape-s-website-mobile-app-interact-with-each-other)。ただし、アカウント全体が完全なローカルライブラリになるとは保証されていない | 1〜5で評価する[Confidence-Based Repetition](https://www.brainscape.com/academy/confidence-based-repetition-definition/) | プロプライエタリなホスト型サービス。公式にサポートされたセルフホスト方法なし |
+| **SuperMemo** | 制限付き無料アカウント。[月35.99 PLNまたは年359 PLN](https://www.supermemo.com/en/premium-subscription) | ダウンロード済みのモバイルコースはオフラインで利用可能。編集、AI、検索、録音、統計は利用不可 | [SuperMemo独自方式](https://www.supermemo.com/en/supermemo-method) | 独自仕様のホスト型サービス。サポート対象のセルフホスト方法なし |
+| **Flashcards** | [ホスト版の基本機能はベータ期間中無料。セルフホスト用ソフトウェアも無料](/pricing/)。別途インフラ費用が必要 | ネイティブアプリは、オンラインでのログインと最初のワークスペース取得後、まずローカルへ書き込む。リモートメディアはあらかじめキャッシュされている必要がある | [FSRS](/docs/architecture/#scheduling) | MIT。本番環境として公式にサポートされるのはAWS中心のフルスタック構成 |
 
-無料プランでは基本的なセット作成と学習ができ、[非会員はLearnを1セッション無料で試せます](https://help.quizlet.com/hc/en-us/articles/360030986971-Studying-with-Learn)。[米国向け公式料金ページ](https://quizlet.com/upgrade?source=footer)では、Quizlet Plusが年35.99ドルでLearnは月20ラウンド、Quizlet Plus Unlimitedが年44.99ドルでLearnは無制限です。Learnは目標と習熟度から機械学習で学習経路を個別化しますが、QuizletはAnkiやFSRSのように利用者が確認できる間隔の計算式を公開していません。
+この2つの表は、製品の優劣を決める採点表ではありません。十分に学習履歴のたまったカードが3万枚あるなら、直接インポートできることが、ほかの全機能より重要かもしれません。普段iPhoneで復習するなら、ネイティブアプリの有無だけで結論が決まることもあります。ソースが公開されていても、自分か信頼できる人がコードを保守しないなら、その利点は限られます。
 
-オフライン利用はモバイルアプリに限られます。直近8個のセットを自動保存し、追加のセットもダウンロードできます。[FlashcardsとMatchはオフラインでも使え](https://help.quizlet.com/hc/en-us/articles/360030565412-Studying-offline-with-Quizlet-mobile-apps)、再接続すると進捗が同期されます。
+ここで扱う製品には、どれも無料で試せる入口があります。ただし、無料のAnki代替アプリでも、移行コストまで無料になるわけではありません。サブスクリプション料金は簡単に計算できます。テンプレートの作り直し、メディアの確認、復習履歴の再スタートのほうが高くつくことも珍しくありません。
 
-移行時は、カンマ、タブ、ダッシュ、セミコロン、改行で区切った行をWebサイトへ貼り付けられます。作成者は自作した用語と定義をコピー可能なテキストとして出力できますが、[他の利用者からコピーしたセットはエクスポートできません](https://help.quizlet.com/hc/en-us/articles/360034345672-Exporting-your-sets)。
+## RemNote：カードをノートの中に組み込む
 
-スケジューラの透明性やセルフホスティングよりも、共有、既成セット、多様な短期学習モードを重視するならQuizletが向きます。細かくカスタマイズしたAnki運用に最も近い選択肢ではありません。
+RemNoteへ移ると、カードを作る場所そのものが変わります。講義ノートとは別にデッキを管理するのではなく、アウトライン、文書、PDFを扱う流れの中でカードを作ります。ノートアプリとフラッシュカードアプリの間で教材をコピーし続けることが大きな負担なら、Ankiを離れる十分な理由になり得ます。
 
-## 5. Brainscape：自信度で評価するシンプルな復習に最適
+対応範囲は広いものの、復習キューまでそのまま移るわけではありません。RemNoteの[現行Ankiインポートガイド](https://help.remnote.com/en/articles/6751471-importing-from-anki)では、スケジューリング情報、デッキプリセット、メディアを含む`.apkg`を書き出すよう案内しています。復習履歴に加え、基本、穴埋め、一般的な画像オクルージョンカードを含む大半のノートタイプをインポートできます。
 
-Brainscapeの復習は1〜5の自信度評価が中心です。[Confidence-Based Repetition](https://www.brainscape.com/academy/confidence-based-repetition-definition/)により、低く評価したカードは早く、高く評価したカードは遅く再表示されます。高度に設定できるスケジューラより説明しやすい一方、完全な計算式は公開されていません。
+同じガイドによると、新しくインポートしたカードは別の**Need to Learn**キューへ送られます。RemNoteは履歴を利用できますが、Ankiで今日出るはずだったカードが同じ順序で並ぶとは保証されていません。複雑なCSSは削除され、カスタムJavaScriptには対応していません。その場で生成する一部の読み上げ機能も動作せず、画像オクルージョンのインポートは想定されたノート名とフィールド名に依存します。
 
-自作コンテンツの作成、共有、学習は無料です。確認時点の[料金ページ](https://www.brainscape.com/pricing)では、Proは年払いで月額7.99ドルと表示されていました。Web、iOS、Androidで利用でき、ダウンロードしたモバイルカードはオフラインで復習できますが、作成と編集には接続が必要です。
+代表的なデッキで試し、カードの表示と最初の復習キューを両方確認してください。見た目がきれいに移っていても、検証はまだ半分です。
 
-WebとモバイルでCSV、TXT、XLSX、ODSをインポートできます。エクスポートの制限は強く、[デッキのバックアップをダウンロードできるのはProのみ](https://brainscape.zendesk.com/hc/en-us/articles/115002383872-How-can-I-export-a-backup-of-my-flashcards)です。
+インストール済みのデスクトップ／モバイルアプリは、インストールとログイン後ならオフラインで動作します。[オフラインガイド](https://help.remnote.com/en/articles/6752029-offline-mode)を読むと、メディアの扱いには大きな違いがあります。デスクトップはナレッジベース内のすべての画像とPDFを保存しますが、モバイルがキャッシュするのは最近の一部画像だけです。Webアプリはすでに開いているタブなら使い続けられますが、オフライン状態から新しく開くことはできません。
 
-ガイド付きの評価手順、共同クラス、少ない初期設定を求めるならBrainscapeが向きます。公開されたスケジューラ、無料エクスポート、ソースへのアクセス、セルフホスティングが必要なら別の製品を選びましょう。
+ノートとカードを一体化するためなら、コレクションの作り方を変えてもよいという場合にRemNoteを選びましょう。カードテンプレートやアドオンが単なる飾りではなく、学習の仕組みそのものなら、Ankiを使い続けるほうが合っています。
 
-## 6. SuperMemo：独自の記憶方式と語学コースに最適
+## Mochi：ローカルMarkdownと履歴込みの書き出し
 
-ここで扱うのは現在のSuperMemo.comサービスであり、別製品である旧来のWindows版ではありません。対応サービスは最新ブラウザ、iOS、Androidで動作します。[Premiumページ](https://www.supermemo.com/en/premium-subscription)の料金は月35.99 PLNまたは年359 PLNで、[無料アカウントでも限られた数の非公開コースとカードを作れます](https://www.supermemo.com/en/faq/how-many-courses-can-i-create)。
+Mochiは、ローカルデータ、Markdownベースのカード、操作項目を絞った画面を求める人に向いています。インストール版アプリは主要なデスクトップ／モバイル環境で動作し、[アカウントなしでも完全にオフラインで利用できます](https://mochi.cards/docs/getting-started/download-and-install/)。有料になるのは同期機能で、月5ドルです。
 
-SuperMemoは、コンピュータによる間隔反復を導入した製品系列から発展した[独自のスケジューリング方式](https://www.supermemo.com/en/supermemo-method)を採用しています。初期のSM-2の考え方は公開していますが、[後の商用アルゴリズムは独自仕様です](https://www.supermemo.com/en/blog/licensing-and-copyrighting-of-supermemo-algorithms)。SuperMemoの方式を重視する学習者には有力ですが、スケジューラを調べたり置き換えたりしたい人には向きません。
+Ankiの直接インポーターは復習履歴を引き継ぐため、テキストしか移せない選択肢より一歩先にあります。何が変換されるかも明確です。MochiはCSSとJavaScriptを削除し、HTMLをMarkdownへ変換します。カードの意味がテキストと一般的な添付ファイルに収まっているなら問題になりにくい一方、テンプレート自体が意味を担うカードでは要注意です。
 
-モバイルでは[コースをダウンロードしてオフライン学習](https://www.supermemo.com/en/faq/can-i-use-supermemo-offline)できますが、カード作成、AI、検索、統計、コースエディタはオフラインで使えません。一括作成では[区切り文字を選んだ質問・回答テキストを貼り付けます](https://www.supermemo.com/en/blog/how-to-create-flashcards-for-learning)。現行のホスト型サービスについて、公式のAnkiインポーターやユーザー向けエクスポートは確認できませんでした。
+Mochiでは現在、2つのスケジューラを選べます。標準は引き続き独自アルゴリズムですが、Mochiでの既存の進捗をリセットせずに[FSRSを有効化できます](https://mochi.cards/docs/reviewing/fsrs/)。FSRSはMochiに保存された復習履歴からカードの状態を算出します。ただし、FSRSを使っても評価はRememberedかForgotの2択です。HardとEasyを別々のシグナルとして使っているAnki利用者は、毎日の復習リズムが変わると考えてください。
 
-語学コースのカタログと独自のスケジューリング方式を求めるならSuperMemoが向きます。これは商用のホスト型サービスであり、オープンソースまたはセルフホスト型のAnki代替ではありません。
+データを再び持ち出す方法は、大半の独自仕様アプリより明確です。ネイティブの[`.mochi`エクスポート](https://mochi.cards/docs/import-and-export/exporting/)には、カード、テンプレート、添付ファイル、タグ、デッキ構造、復習履歴が含まれます。MarkdownとCSVはほかの場所でも確認しやすい一方、復習履歴などのメタデータは含まれません。
 
-## 7. Mnemosyne：無料のオープンソース・デスクトップ運用に最適
+Mochiの公開GitHubリポジトリにあるのは、[連携機能と関連ツール](https://github.com/mochi-cards/open-source)です。コアアプリや、公式にサポートされたセルフホスト用同期サーバーではありません。ソースを自分で管理するためではなく、オフライン利用とデータの持ち出しやすさを理由に選ぶ製品です。
 
-Mnemosyneは、この中で伝統的なローカルのデスクトップ型フラッシュカードアプリに最も近い選択肢です。バージョン2.11はWindows、macOS、Linux向けに提供され、オフライン復習用のAndroidクライアントもあります。iOSなどその他のモバイル環境でブラウザ復習をするには、デスクトップのWebサーバーを動かす必要があります。
+## Mnemosyne：オープンソースのデスクトップ移行先
 
-ソフトウェアは無料で[GPLライセンス](https://mnemosyne-proj.org/help/sharing-cards)です。[0〜5の自己評価に応じて次回以降の間隔を調整](https://mnemosyne-proj.org/help/getting-started.php)し、プラグインでスケジューラやデータベースの一部を置き換えられます。[機能ドキュメント](https://mnemosyne-proj.org/features)によると、独自カードタイプと学習データを含むAnkiの完全インポートに対応し、プレーンテキスト、SuperMemo、CueCard形式も取り込めます。
+Mnemosyneは、従来型の「デスクトップアプリとローカルデータベース」に最も近い製品です。現行リリースはWindows、macOS、Linuxに対応し、オフライン復習用のAndroidクライアントもあります。機能ページでは、リッチカード、階層タグ、プラグイン、0〜5段階の復習評価、カスタムカードタイプと学習データを含むAnkiの完全インポートが案内されています。
 
-Mnemosyneは管理されたクラウドを必要としません。組み込みの同期プロトコルを使って、[デスクトップ版またはヘッドレス版を自分の同期サーバーとして運用](https://mnemosyne-proj.org/help/syncing)できます。制御しやすい反面、サーバーを到達可能な状態に保ち、ローカルデータをバックアップする責任も自分で負います。
+大規模なノートシステムやクラウドサービスへ移らずにAnkiを離れたい場合、本記事で最も直接的なオープンソースの移行先です。デスクトップまたはヘッドレス環境で動かせる[組み込み同期サーバー](https://mnemosyne-proj.org/help/syncing)もあり、複数クライアントの学習データを統合できます。
 
-自由ソフトウェア、デスクトップ上の所有、Ankiインポート、自前の同期経路が、洗練されたホスト型サービスやiOSネイティブ編集より重要ならMnemosyneを選びましょう。
+制約も判断材料に含めてください。Androidクライアントでは[カードを編集できません](https://mnemosyne-proj.org/help/android-client)。iOS利用者が復習するには、別のマシンでブラウザーサーバーを動かす必要があります。しかも、そのサーバーの公式機能ページにはセキュリティ機能がないと警告されています。同期サーバーを自前で運用するなら、常時接続できる状態を保ち、ネットワークを設定し、データディレクトリをバックアップする作業も必要です。
 
-## 乗り換えたい本当の理由に合うAnki代替はどれ？
+ライセンスは、単に「GPL」とひとくくりにはできません。[プロジェクトのライセンスファイル](https://raw.githubusercontent.com/mnemosyne-proj/mnemosyne/master/LICENSE)には、コンポーネントごとに異なる条件が示されています。[コアのライセンス](https://raw.githubusercontent.com/mnemosyne-proj/mnemosyne/master/mnemosyne/LICENSE)は、名称／帰属表示に関する追加条項付きのAGPL v3です。[openSM2sync](https://raw.githubusercontent.com/mnemosyne-proj/mnemosyne/master/openSM2sync/LICENSE)にはLGPL v3が適用されます。変更や再配布を予定しているなら、それぞれのファイルを確認してください。
 
-- **ノート、PDF、カードを一か所にまとめたい：** RemNoteが最適です。
-- **ローカルファーストのMarkdownと分かりやすいデータ移行を求める：** Mochiが最も合います。
-- **公開セット、クラス共有、複数の学習モードを使いたい：** Quizletが最も手軽です。
-- **1〜5で評価するシンプルな適応型復習がよい：** Brainscapeならスケジューラとのやり取りが分かりやすいです。
-- **SuperMemo独自方式と語学コースがほしい：** 現行のSuperMemoサービスを選びます。
-- **Ankiから直接移行できる成熟した無料デスクトップソフトがほしい：** Mnemosyneが実用的なオープンソース候補です。
-- **現代的なオープンソーススタック、セルフホスティング、モバイルクライアント、エージェント連携が必要：** 現在の移行制限を受け入れられるなら、その組み合わせを狙うFlashcardsが候補です。
+## Quizlet：コレクションの再現性ではなく、クラス利用のために移る
 
-どれも意味のある問題を解決しないなら、Ankiを使い続けるのも合理的です。移行にはコストがかかります。アドオン、カードテンプレートの柔軟性、共有デッキ、長期的な移行の再現性では、今もAnkiに強みがあります。
+Quizletの強みは、別の用途にあります。公開学習セット、教員向けクラス、共有、Match、Test、Learn、グループ活動は、カスタマイズを重ねたAnkiプロファイルよりもクラスに展開しやすい仕組みです。
 
-## 大切なものを失わずに移行する方法
+Ankiから移せるのはプレーンテキストまでです。Quizletは貼り付けた行を用語と定義に変換できますが、`.apkg`を読み取ってノートタイプ、テンプレート、スケジューリング、復習履歴を再構築することはできません。自分で作ったセットは、画像を除いた[コピー可能なテキストとしてエクスポートできます](https://help.quizlet.com/hc/en-us/articles/360034345672-Exporting-your-sets)。一方、ほかの利用者からコピーしたセットはエクスポートできません。持ち運べるのはコンテンツであって、コレクション全体ではありません。
 
-試用中にAnkiプロファイルを削除したり上書きしたりしないでください。完全なバックアップを作り、最も複雑なカード形式、重要なメディア、タグ、スケジューリングの問題が分かるだけの復習履歴を含む代表的なデッキをひとつ選んでテストします。
+Quizletのスケジューリング機能は、まだ移行の途中です。新しい[Spaced Repetition](https://quizlet.com/features/spaced-repetition)は、100語以上のセットでWeb版に自動適用され、Repeat、Hard、Okay、Easyの4段階で評価します。モバイル対応は現在も「近日公開予定」とされています。Learnは別の適応型練習で、有料プラン上の利用制限があります。
 
-移行先が実際に対応する方法を使います。
+オフライン対応も、Webサイトではなくモバイルアプリを意味します。Quizletは直近8個のセットを自動保存し、さらに追加でダウンロードできます。[FlashcardsとMatchはオフラインで動作し](https://help.quizlet.com/hc/en-us/articles/360030565412-Studying-offline-with-Quizlet-mobile-apps)、再接続後に進捗が同期されます。
 
-1. **RemNote、Mochi、Mnemosyne：** コピーした`.apkg`ファイルで、文書化されたAnkiインポートを試します。
-2. **Quizlet、Brainscape、SuperMemo：** 単純な表裏のコンテンツをテキストまたは表計算ソフト対応形式で出力し、スケジュールは作り直す前提にします。
-3. **Flashcards：** ほぼテキストだけのカードをAnkiからTXTまたはCSVで出力し、AI支援の下書きを使い、提案された変更を適用前にすべて確認します。Ankiのスケジュール履歴は移行されず、テンプレートやメディアを正確に再現できる保証もありません。
+教材の配布やクラス活動が目的なら、移る価値があります。その機能だけを得るために、長く育てた個人用の復習スケジュールを作り直すのは、たいてい割に合いません。
 
-インポート後は、カード数、フィールド、タグ、メディア、穴埋めカードの動作、期日を比較します。完全に移行する前に、数日間は両方のアプリで学習してください。インポートの成功と、信頼できる復習キューができることは同じではありません。
+## Brainscape：スケジューラの判断は少なく、移行できる範囲も狭い
 
-## 最適な代替アプリは、トレードオフと付き合い続けられるもの
+Brainscapeでは、思い出せた自信を1〜5で評価します。その結果を使い、苦手なカードほど早く再表示します。完全な計算式は公開されていませんが、共有クラスでも使い方を説明しやすい仕組みです。
 
-誰にとっても最高のAnki代替アプリはありません。
+CSV、TXT、XLSX、ODSファイルに対応しています。表と裏だけのカードには便利ですが、テンプレート、アドオン、メディア規則、Ankiの学習データは残りません。個人用バックアップのエクスポートはPro機能で、表計算ソフトで開き、後から再インポートできるファイルを出力します。
 
-RemNoteとMochiは、ノートをカード作成の流れに組み込みます。QuizletとBrainscapeは初期設定を減らし、共有やガイド付き学習を重視します。SuperMemoには独自の方式があります。Mnemosyneは成熟したローカルの自由ソフトウェアを優先します。Flashcardsは、モバイルとエージェントの現代的なワークフローを備えた、若いオープンソースのセルフホスト可能なスタックです。
+Brainscapeの現行ヘルプセンターによると、Webサイトとモバイルアプリのどちらでも、検索、作成、共有、学習という中核機能を利用できます。モバイルでのオフライン利用、手動の再同期、端末にダウンロード済みのクラスの更新についても案内されています。オフラインから再接続する実用的な流れはありますが、アカウント全体が完全なローカルライブラリになるという保証ではありません。
 
-変えたい制約に基づいて選び、実際の教材で移行を試してください。最も長い機能一覧を選ぶことや、新しい画面なら自動的に優れた学習システムだと思い込むことより、よい判断につながります。
+個人デッキのエクスポートは現在も[Pro機能](https://brainscape.zendesk.com/hc/en-us/articles/115002383872-How-can-I-export-a-backup-of-my-flashcards)です。公式のソース公開も、セルフホスティング方法もありません。
+
+一緒に学ぶ人たちにとってAnkiの設定項目が多すぎるなら、Brainscapeは検討に値します。すでにAnkiの細かな設定を使いこなしている人の移行先には向きません。
+
+## SuperMemo：独自方式を選び、学習履歴は最初から
+
+現在のSuperMemo.comは、SuperMemo独自のスケジューリング方式を中心にしたWeb、iOS、Android向け語学学習プラットフォームです。長年のSuperMemo利用者が知っている旧来のWindows製品とは別です。
+
+これは、Ankiからきれいに移行するための選択肢ではありません。SuperMemo独自の方式とコースカタログを選ぶ判断です。区切り文字を使った質問・回答の行を貼り付けて[一括作成](https://www.supermemo.com/en/blog/how-to-create-flashcards-for-learning)できますが、1回のインポートは100枚までです。現行のホスト型サービスでは、公式の`.apkg`インポーターもユーザー向けのエクスポート方法も確認できませんでした。したがって、案内されている方法ではテンプレート、アドオン、メディア構造、復習履歴を引き継げません。
+
+ダウンロードしたコースは、モバイルアプリでオフライン学習できます。[オフラインガイド](https://www.supermemo.com/en/faq/can-i-use-supermemo-offline)では、AI機能、MemoCardの追加、検索、録音、統計、コースエディターが対象外です。接続を切る前に教材を準備し、同期しておきましょう。
+
+新しいスケジュールで始めてもよいと思えるほど、SuperMemo独自の方式やコースカタログを使いたい場合に選びましょう。既存スケジュールの保持が優先なら、SuperMemoが解決する問題とは噛み合いません。
+
+## Flashcards：フルスタックのソースは公開、Anki移行は最も弱い
+
+Flashcardsは、利用者が自分で管理できる範囲の広さが特徴です。[MITライセンスのリポジトリ](https://github.com/kirill-markin/flashcards-open-source-app)には、Webアプリ、iOS／Androidクライアント、バックエンド、オフライン同期、インフラストラクチャ、[公開API](/docs/api/)、[MCPサーバー](/docs/mcp-connector/)が含まれます。復習には[FSRS](/docs/architecture/#scheduling)を使います。Web、iOS、Androidはいずれも変更をまずローカルに保存し、送信待ちキューへ追加して、再接続後に同期します。
+
+だからといって、Ankiとの互換性があるわけではありません。Flashcardsは`.apkg`も`.colpkg`も読み取れません。サポート対象の[Anki TXT移行](/blog/migrate-from-anki-txt-export-open-source-flashcards/)は、ほぼテキストだけのカードを対象に、確認を挟みながらAI支援で下書きを作るワークフローです。テンプレート、アドオン、デッキ階層、次回復習日、間隔、復習記録は保持されません。TXTファイル内のメディア参照はメディアファイルそのものではないため、メディアの多いデッキは別途作り直して確認する必要があります。
+
+Flashcards独自の`flashcards.zip`パッケージも、完全なバックアップではありません。Flashcardsのワークスペース間で移せるのは、カード、タグ、関連メディアです。復習履歴、FSRSの状態、完全なデッキ構造、ワークスペース設定、アカウントは移動しません。
+
+ホスト版の基本機能は[ベータ期間中無料](/pricing/)です。本番スタックのセルフホスティングは、コマンドひとつで済むDockerインストールではありません。[セルフホスティングガイド](/docs/self-hosting/)ではAWS CDKを使い、AWSサービスに加えてCloudflare、Resend、Sentry、シークレット、マイグレーション、バックアップ、復元、アップグレードが必要です。Docker Composeは開発用の経路であり、サポート対象の本番デプロイではありません。
+
+フルスタックのソースと、運用者が管理できるバックエンドこそが乗り換えの理由であり、カードを安全に作り直せるほど単純な場合にFlashcardsを選びましょう。まず小さな一時デッキを試すなら、[ホスト版アプリを開いてください](https://app.flashcards-open-source-app.com/)。学習状態を正確に引き継ぐことが最優先なら、Ankiを使い続けるか、RemNote、Mochi、Mnemosyneをテストするほうが適切です。
+
+## iOSで使えるAnki代替アプリは？移行時の注意点
+
+「iOS向けAnki代替アプリ」を探す理由は、大きく2つあります。iPhoneネイティブアプリが欲しい場合と、[24.99ドルの買い切り版AnkiMobile](https://apps.apple.com/us/app/ankimobile-flashcards/id373493387)に代わるものが欲しい場合です。
+
+RemNote、Mochi、Quizlet、Brainscape、SuperMemo、Flashcardsには、いずれもiOSアプリがあります。Mnemosyneにはありません。それでも移行の問題は残ります。
+
+- **Mochi**は、テキストだけを移すiOS向け選択肢より多くのデータを保持します。`.apkg`の復習履歴をインポートできますが、カードはMarkdownへ変換され、評価は2択になります。
+- **RemNote**も`.apkg`の復習履歴をインポートします。ただし、今日のAnkiスケジュールが残ると思い込まず、**Need to Learn**キューをテストしてください。
+- **Quizlet**はクラスへの配布に向いていますが、Ankiから移せるのはテキストだけで、新しい間隔反復はまだモバイルに対応していません。
+- **Flashcards**はソースが公開され、iOSネイティブクライアントもありますが、Ankiから移行すると学習状態はリセットされます。
+- **Brainscape**と**SuperMemo**は、それぞれの復習方式に、カードとスケジュールを作り直すだけの価値がある場合に限って候補になります。
+
+価格だけを理由にAnkiMobileを手放す前に、移行先のサブスクリプション料金と、崩れたデータを直す時間も比べてください。長く育てたコレクションを手作業で作り直す無料アプリより、買い切りアプリのほうが安く済むこともあります。
+
+## Ankiを使い続けるほうが安全な場合
+
+使い続けることも、ひとつの明確な判断です。新しい製品を選べなかったという意味ではありません。次のいずれかに当てはまるなら、Ankiを残しましょう。
+
+- コレクションが独自テンプレート、CSS、JavaScript、アドオンに依存している
+- Image Occlusion、音声、その他のメディアが重要な意味を担っている
+- 1つのノートから生成される複数方向のカードを、関連付けたままにする必要がある
+- 新しいエディターより、何年分もの復習履歴と現在の次回復習日のほうが価値がある
+- 代替アプリでは再現できないデスクトップ作業やプラットフォームの組み合わせに依存している
+- 代替アプリのオフライン機能が、実際には使わない環境でしか動かない
+- セルフホスティングには理論上興味があっても、サーバーの運用、保護、バックアップ、アップグレードまではしたくない
+- 見た目がすっきりする以外に、代替アプリが繰り返し起きる問題を何も解決しない
+
+Ankiには今も、成熟したアドオン環境、柔軟なノート／カードテンプレート、FSRSと従来方式のスケジューリング設定、ローカルにインストールできるクライアント、コレクションを持ち運べるパッケージ形式があります。上記の製品で、そのすべてを再現できるものはありません。
+
+所有権の範囲に絞って比較するなら、[オープンソースのフラッシュカードアプリガイド](/blog/best-open-source-flashcard-apps-2026/)を読んでください。オフライン時の動作が決め手なら、[オフライン対応フラッシュカードアプリの比較](/blog/best-offline-flashcards-app/)で、インストール済みアプリ、キャッシュされたコンテンツ、ブラウザータブを分けて説明しています。
+
+## 最後に「移行しない」と決めてもいいチェックリスト
+
+いきなりコレクション全体を移さないでください。失敗しても元に戻せるテストから始めます。
+
+1. **復旧用パッケージを作る。** メディアを含む`.colpkg`をエクスポートし、Ankiプロファイルの外に保存して、別の場所にもコピーを置きます。
+2. **扱いにくいデッキを選ぶ。** 穴埋め、カスタムフィールド、表→裏と裏→表のカード、入れ子のデッキ、タグ、画像、音声、スケジュール変換の違いが分かるだけの復習履歴を含めます。
+3. **移行先が実際に対応する形式をエクスポートする。** 直接インポートできる製品には、スケジューリング、プリセット、メディアを含む`.apkg`を使います。コンテンツだけの作り直しを受け入れる場合に限り、Notes in Plain Textを使います。
+4. **比較用の基準を記録する。** ノート数、カード数、タグ名とデッキ名、メディア数、いくつかの次回復習日と間隔、各ノートタイプから生成されるはずのカード数を記録します。
+5. **一時的な場所へインポートする。** 元のプロファイルを上書きせず、最初のテスト結果を移行先の恒久的なライブラリへ統合しないでください。
+6. **コンテンツと学習状態を分けて確認する。** 表と裏が正しくても、穴埋め、メディア、兄弟カード、復習履歴、次回復習日が残った証拠にはなりません。
+7. **実際に使うすべての端末で、完全終了した状態からオフライン起動する。** 復習と編集を行い、アプリを完全に終了し、接続なしで再起動します。その後、再接続して別の端末も確認します。
+8. **キューが分かれる前に確認する。** 両方のアプリで同じ本番カードを評価する前に、最初の復習カード群と間隔のサンプルを比べます。移行先で最初の復習をした時点から、2つのスケジュールは独立します。
+9. **移行を確定する前に、データを持ち出してみる。** 移行先からエクスポートし、来年そこを離れる場合に何を回収できるか確認します。
+10. **Ankiと手を加えていないバックアップを残す。** 代替アプリを日常的に使って問題がないと分かり、失うものをすべて意識的に受け入れるまで、どちらも削除しないでください。
+
+移行先がテキストしか受け付けないなら、[安全なTXTエクスポートの全手順](/blog/migrate-from-anki-txt-export-open-source-flashcards/)に従ってください。復旧用の`.colpkg`と持ち運び用の作業ファイルを分け、学習状態がリセットされることを明確にしています。
+
+## 迷ったら、この順番で決める
+
+失ってはいけないものから順に考えます。
+
+1. 厳密なテンプレート、アドオン、現在のキューが不可欠なら、代表的な`.apkg`で問題なく移ると確認できない限りAnkiを使い続けます。
+2. ノートとカードをひとつの仕組みにまとめたいなら、RemNoteを試します。インポートしたページだけでなく、**Need to Learn**キューも確認してください。
+3. Ankiでの表示よりローカルMarkdownと確認しやすいエクスポートが重要なら、Mochiを試します。
+4. Ankiを直接インポートできる、機能を絞ったオープンソースのデスクトップアプリが欲しいなら、Mnemosyneを試します。モバイルの制限が自分の習慣に合うかも確認してください。
+5. 本当の問題がクラスへの配布や、よりシンプルな共有復習の流れにあるなら、QuizletまたはBrainscapeで小さなセットを作り直します。
+6. SuperMemo独自の方式が欲しいなら、新しいスケジュールを受け入れます。フルスタックのソース、セルフホスティング、API、MCPアクセスが欲しいなら、Flashcardsで一部データを失うコンテンツの作り直しと、運用作業を受け入れます。
+
+大きく異なる3つのモデルを機能ごとに比べるなら、[Anki、Quizlet、Flashcardsの比較](/blog/anki-vs-quizlet-vs-open-source-flashcards-app/)を見てください。
+
+判断基準はシンプルです。得られるメリットが具体的で、実際のテストを通じて失うものを受け入れられたときに乗り換えましょう。代表的なデッキが問題なく移らないなら、Ankiを使い続けるのは保守的な妥協案ではありません。それが比較の結論です。
