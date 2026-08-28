@@ -4,7 +4,7 @@ description: Privacy policy for Flashcards.
 slug: privacy
 sections:
   - type: legal_page
-    lastUpdated: July 2026
+    lastUpdated: August 2026
 ---
 ## Operator and Scope
 
@@ -26,7 +26,7 @@ Depending on how you use the hosted service, we process:
 - optional AI data, including prompts, chat history, card or workspace context, files and images included in a request, dictated audio, transcripts, model responses, and tool activity;
 - support and feedback data, including messages, your contact email when supplied, app version, platform, locale, and related status information;
 - operational and security data, including request identifiers, timestamps, IP address, user agent, route, response status, app version, device or platform details, and sanitized error diagnostics; and
-- website usage data described in the Analytics section below.
+- website and in-app product usage data described in the Analytics and Product Analytics sections below.
 
 An email address is required to create and sign in to a hosted account. Without it, we cannot provide email authentication or account-based synchronization. Limited guest or local features may be available without a signed-in account.
 
@@ -43,6 +43,14 @@ We do not sell your personal data or use it for targeted advertising.
 The marketing website uses Vercel Web Analytics to measure page views and selected site click events. It operates without analytics cookies. For page views, Vercel can receive the event time, page URL and filtered query parameters, referrer, approximate location, browser, operating system, and device type. Our custom click events include limited properties such as locale, platform, link placement, or interaction type. We do not intentionally include names, email addresses, card content, or account identifiers in these events. Vercel aggregates the data and does not associate a data point with an individual or IP address; its daily visitor hash is discarded after 24 hours.
 
 The hosted web app uses strictly necessary cookies such as `otp_session`, `session`, `refresh`, and `logged_in` to complete authentication, maintain a session, refresh access, and show signed-in state. Disabling these cookies prevents the browser login flow from working.
+
+## Product Analytics
+
+The hosted web, iOS, and Android apps send us product-usage events. Those events go to our own infrastructure and are stored in our own database; we do not use a third-party analytics provider for them.
+
+The events describe how the apps are used, not what you study: for example, which screens you open, when a review session starts and finishes, including how long it lasted and how many cards you answered, and whether key actions such as creating a card, signing in, or syncing succeeded or failed. Each event carries a random per-installation identifier, a session identifier, and technical context such as platform, app version, device model, operating system version, locale, timezone, and approximate country; the event is also linked to the workspace you are working in, and, when you are signed in, to your account. No event ever includes free text, card or deck content, or your email address.
+
+There is no separate setting that turns product analytics off. Deleting your account replaces the identifiers on events already collected with a value that cannot be linked back to you, as described in the Retention and Deletion section.
 
 ## Hosted AI and External AI Clients
 
@@ -73,6 +81,7 @@ The primary hosted application runs in AWS's EU infrastructure. The configured R
 ## Retention and Deletion
 
 - Account and hosted workspace data are kept while your account or the relevant shared workspace remains active. Account deletion removes your current account data, credentials, memberships, and sole-member workspaces from the live database. Content in a workspace that still has other members remains available to those members.
+- Product analytics events are not deleted when you delete your account. We replace their identifiers with a value that cannot be linked back to you and keep the individual events, which can then no longer be tied to you or to any other person.
 - Stored media is kept while the related active workspace content needs it and is deleted through the storage cleanup process after it is no longer referenced. Incomplete temporary uploads expire after 7 days.
 - The database has 7 days of RDS automated backups and a separate daily AWS Backup plan with 35-day retention. Records deleted from the live service may remain in encrypted recovery backups until those backups expire; backups are used for disaster recovery, not normal service access.
 - API Gateway access logs expire after 7 days. Other CloudWatch application logs currently have no automatic expiry configured and remain until they are manually deleted. We restrict their use to operations, security, and debugging and delete relevant entries when required to honor an applicable data-protection right.

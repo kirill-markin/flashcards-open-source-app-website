@@ -4,7 +4,7 @@ description: Datenschutzerklärung für Flashcards.
 slug: privacy
 sections:
   - type: legal_page
-    lastUpdated: Juli 2026
+    lastUpdated: August 2026
 ---
 ## Verantwortlicher und Geltungsbereich
 
@@ -26,7 +26,7 @@ Je nach Nutzung des gehosteten Dienstes verarbeiten wir:
 - optionale KI-Daten wie Prompts, Chatverlauf, Karten- oder Workspace-Kontext, in eine Anfrage einbezogene Dateien und Bilder, diktierte Audiodaten, Transkripte, Modellantworten und Tool-Aktivitäten;
 - Support- und Feedbackdaten wie Nachrichten, eine freiwillig angegebene Kontaktadresse, App-Version, Plattform, Sprache und Bearbeitungsstatus;
 - Betriebs- und Sicherheitsdaten wie Anfragekennungen, Zeitstempel, IP-Adresse, User-Agent, Route, Antwortstatus, App-Version, Geräte- oder Plattformdetails und bereinigte Fehlerdiagnosen; sowie
-- die im Abschnitt Analyse beschriebenen Nutzungsdaten der Website.
+- die in den Abschnitten Analyse und Produktanalyse beschriebenen Nutzungsdaten der Website und der Apps.
 
 Eine E-Mail-Adresse ist erforderlich, um ein gehostetes Konto anzulegen und sich anzumelden. Ohne sie können wir weder die E-Mail-Authentifizierung noch die kontobasierte Synchronisierung anbieten. Begrenzte Gast- oder lokale Funktionen können ohne angemeldetes Konto verfügbar sein.
 
@@ -43,6 +43,14 @@ Wir verkaufen keine personenbezogenen Daten und nutzen sie nicht für zielgerich
 Die Marketing-Website nutzt Vercel Web Analytics, um Seitenaufrufe und ausgewählte Klicks zu messen. Der Dienst arbeitet ohne Analyse-Cookies. Bei Seitenaufrufen kann Vercel Zeitpunkt, URL und gefilterte Abfrageparameter, Referrer, ungefähren Standort, Browser, Betriebssystem und Gerätetyp erhalten. Unsere benutzerdefinierten Klickereignisse enthalten nur begrenzte Angaben wie Sprache, Plattform, Linkposition oder Interaktionsart. Namen, E-Mail-Adressen, Karteninhalte oder Kontokennungen werden nicht absichtlich übermittelt. Vercel aggregiert die Daten und ordnet einzelne Datenpunkte weder einer Person noch einer IP-Adresse zu; der tägliche Besucher-Hash wird nach 24 Stunden verworfen.
 
 Die gehostete Web-App verwendet technisch notwendige Cookies wie `otp_session`, `session`, `refresh` und `logged_in`, um die Authentifizierung abzuschließen, die Sitzung aufrechtzuerhalten und zu erneuern und den Anmeldestatus anzuzeigen. Ohne diese Cookies funktioniert die Anmeldung im Browser nicht.
+
+## Produktanalyse
+
+Die gehosteten Web-, iOS- und Android-Apps senden uns Ereignisse zur Produktnutzung. Diese Ereignisse gelangen in unsere eigene Infrastruktur und werden in unserer eigenen Datenbank gespeichert; ein externer Analyseanbieter wird dafür nicht eingesetzt.
+
+Die Ereignisse beschreiben, wie die Apps genutzt werden, nicht was Sie lernen: zum Beispiel, welche Bildschirme Sie öffnen, wann eine Wiederholungssitzung beginnt und endet, einschließlich ihrer Dauer und der Anzahl beantworteter Karten, und ob zentrale Aktionen wie das Anlegen einer Karte, die Anmeldung oder die Synchronisierung erfolgreich waren oder fehlgeschlagen sind. Jedes Ereignis enthält eine zufällige Kennung je Installation, eine Sitzungskennung sowie technischen Kontext wie Plattform, App-Version, Gerätemodell, Betriebssystemversion, Sprache, Zeitzone und ungefähres Land; das Ereignis wird zusätzlich mit dem Workspace verknüpft, in dem Sie arbeiten, und, wenn Sie angemeldet sind, mit Ihrem Konto. Kein Ereignis enthält jemals Freitext, Karten- oder Deckinhalte oder Ihre E-Mail-Adresse.
+
+Es gibt keine gesonderte Einstellung, mit der sich die Produktanalyse abschalten lässt. Bei der Kontolöschung ersetzen wir die Kennungen in bereits erfassten Ereignissen durch einen Wert, der sich nicht auf Sie zurückführen lässt, wie im Abschnitt Aufbewahrung und Löschung beschrieben.
 
 ## Gehostete KI und externe KI-Clients
 
@@ -73,6 +81,7 @@ Die primäre gehostete Anwendung läuft in EU-Infrastruktur von AWS. Auch die ko
 ## Aufbewahrung und Löschung
 
 - Konto- und gehostete Workspace-Daten werden aufbewahrt, solange das Konto oder der betreffende geteilte Workspace aktiv ist. Bei der Kontolöschung werden aktuelle Kontodaten, Zugangsdaten, Mitgliedschaften und Workspaces mit nur einem Mitglied aus der Live-Datenbank gelöscht. Inhalte eines Workspace mit weiteren Mitgliedern bleiben für diese verfügbar.
+- Produktanalyse-Ereignisse werden bei der Kontolöschung nicht gelöscht. Wir ersetzen ihre Kennungen durch einen Wert, der sich nicht auf Sie zurückführen lässt, und behalten die einzelnen Ereignisse; sie lassen sich danach weder Ihnen noch einer anderen Person zuordnen.
 - Medien bleiben gespeichert, solange aktive Workspace-Inhalte sie benötigen, und werden nach Wegfall aller Verweise durch den Speicherbereinigungsprozess gelöscht. Unvollständige temporäre Uploads verfallen nach 7 Tagen.
 - Für die Datenbank bestehen automatisierte RDS-Backups für 7 Tage sowie ein gesonderter täglicher AWS-Backup-Plan mit 35 Tagen Aufbewahrung. Aus dem Live-Dienst gelöschte Datensätze können bis zum Ablauf in verschlüsselten Wiederherstellungs-Backups verbleiben. Backups dienen der Notfallwiederherstellung, nicht dem normalen Zugriff.
 - API-Gateway-Zugriffsprotokolle verfallen nach 7 Tagen. Andere CloudWatch-Anwendungsprotokolle haben derzeit keine automatische Ablauffrist und bleiben bis zur manuellen Löschung erhalten. Wir beschränken ihre Nutzung auf Betrieb, Sicherheit und Fehlersuche und löschen relevante Einträge, wenn dies zur Erfüllung eines anwendbaren Datenschutzrechts erforderlich ist.
