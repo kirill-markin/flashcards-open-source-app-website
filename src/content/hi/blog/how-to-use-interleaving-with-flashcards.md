@@ -141,6 +141,8 @@ Drill के बाद किसी card को तब save करें, जब
 
 जानबूझकर mix करने लायक एक और छोटा set है [unit circle का 16 angles, radians और exact coordinates वाला flashcard deck](/catalog/packages/unit-circle-degrees-radians-coordinates/), जो unit circle की सभी 16 standard positions का degrees, radians और exact coordinates में अभ्यास कराता है। इन representations को interleave तभी करें जब छोटी blocked introduction में आप हर एक को पहचानने लगें।
 
+इसी बात का बड़ा तथ्य-आधारित उदाहरण [भारत के राष्ट्रीय उद्यान: राज्य, स्थापना वर्ष और प्रमुख वन्यजीव](/catalog/packages/india-national-parks-flashcards-hindi/) है। इसके 153 कार्ड पार्क और राज्य या केंद्र शासित प्रदेश के बीच दोनों दिशाओं का अभ्यास कराते हैं, साथ में आठ चुने हुए अधिसूचना वर्ष और छह पार्कों के प्रमुख वन्यजीव भी रखते हैं। क्रम में निकट दोहरावों के बीच असंबंधित सवाल रखे गए हैं, ताकि जवाब पिछले कार्ड की याद से न आए।
+
 Card 1:
 
 - Front: `(x² + 1)⁴` को differentiate करें। सबसे पहले कौन-सा rule लगाएँगे?
