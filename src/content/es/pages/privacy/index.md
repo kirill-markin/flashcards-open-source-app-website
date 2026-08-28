@@ -4,7 +4,7 @@ description: Política de privacidad de Flashcards.
 slug: privacy
 sections:
   - type: legal_page
-    lastUpdated: julio de 2026
+    lastUpdated: agosto de 2026
 ---
 ## Responsable y alcance
 
@@ -26,7 +26,7 @@ Según cómo uses el servicio alojado, tratamos:
 - datos opcionales de IA, como prompts, historial del chat, contexto de tarjetas o del espacio de trabajo, archivos e imágenes incluidos en una solicitud, audio dictado, transcripciones, respuestas del modelo y actividad de herramientas;
 - datos de soporte y comentarios, como mensajes, correo de contacto cuando lo facilites, versión de la aplicación, plataforma, idioma y estado relacionado;
 - datos operativos y de seguridad, como identificadores de solicitud, marcas de tiempo, dirección IP, agente de usuario, ruta, estado de respuesta, versión de la aplicación, dispositivo o plataforma y diagnósticos de errores depurados; y
-- datos de uso del sitio web descritos en la sección de Analítica.
+- datos de uso del sitio web y de las aplicaciones descritos en las secciones de Analítica y Analítica del producto.
 
 Se necesita un correo electrónico para crear una cuenta alojada e iniciar sesión. Sin él no podemos proporcionar autenticación por correo ni sincronización asociada a la cuenta. Algunas funciones limitadas como invitado o en local pueden estar disponibles sin iniciar sesión.
 
@@ -43,6 +43,14 @@ No vendemos tus datos personales ni los usamos para publicidad dirigida.
 El sitio web de marketing usa Vercel Web Analytics para medir visitas de páginas y determinados clics. Funciona sin cookies de analítica. Para una visita, Vercel puede recibir la hora del evento, la URL y parámetros de consulta filtrados, la página de referencia, la ubicación aproximada, el navegador, el sistema operativo y el tipo de dispositivo. Nuestros eventos de clic personalizados incluyen propiedades limitadas como idioma, plataforma, ubicación del enlace o tipo de interacción. No incluimos deliberadamente nombres, correos electrónicos, contenido de tarjetas ni identificadores de cuenta. Vercel agrega los datos y no asocia cada dato con una persona o dirección IP; su hash diario de visitante se elimina después de 24 horas.
 
 La aplicación web alojada usa cookies estrictamente necesarias, como `otp_session`, `session`, `refresh` y `logged_in`, para completar la autenticación, mantener y renovar la sesión y mostrar el estado de acceso. Si las desactivas, el inicio de sesión en el navegador no funciona.
+
+## Analítica del producto
+
+Las aplicaciones alojadas de web, iOS y Android nos envían eventos de uso del producto. Esos eventos llegan a nuestra propia infraestructura y se guardan en nuestra propia base de datos; para ellos no usamos ningún proveedor externo de analítica.
+
+Los eventos describen cómo se usan las aplicaciones, no lo que estudias: por ejemplo, qué pantallas abres, cuándo empieza y termina una sesión de repaso, incluidas su duración y el número de tarjetas respondidas, y si acciones clave como crear una tarjeta, iniciar sesión o sincronizar se completaron o fallaron. Cada evento incluye un identificador aleatorio por instalación, un identificador de sesión y contexto técnico como plataforma, versión de la aplicación, modelo de dispositivo, versión del sistema operativo, idioma, zona horaria y país aproximado; el evento también se asocia al espacio de trabajo en el que estás trabajando y, si has iniciado sesión, a tu cuenta. Ningún evento incluye nunca texto libre, contenido de tarjetas o mazos ni tu correo electrónico.
+
+No existe un ajuste independiente para desactivar la analítica del producto. Al eliminar tu cuenta, sustituimos los identificadores de los eventos ya recogidos por un valor que no puede vincularse contigo, tal como se describe en la sección de Conservación y eliminación.
 
 ## IA alojada y clientes externos de IA
 
@@ -73,6 +81,7 @@ La aplicación alojada principal funciona en infraestructura de AWS en la UE. La
 ## Conservación y eliminación
 
 - Los datos de cuenta y espacio de trabajo se conservan mientras la cuenta o el espacio compartido correspondiente siga activo. Al eliminar la cuenta se borran de la base de datos activa tus datos de cuenta, credenciales, membresías y espacios de los que eras el único miembro. El contenido de un espacio que conserve otros miembros seguirá disponible para ellos.
+- Los eventos de analítica del producto no se eliminan al eliminar la cuenta. Sustituimos sus identificadores por un valor que no puede vincularse contigo y conservamos los eventos individuales, que a partir de entonces ya no pueden asociarse ni contigo ni con ninguna otra persona.
 - Los archivos multimedia se conservan mientras los necesite el contenido activo y se eliminan mediante el proceso de limpieza cuando dejan de estar referenciados. Las cargas temporales incompletas caducan a los 7 días.
 - La base de datos tiene 7 días de copias automatizadas de RDS y un plan diario separado de AWS Backup con 35 días de conservación. Los registros eliminados del servicio activo pueden permanecer en copias cifradas hasta que caduquen; esas copias se usan para recuperación ante desastres, no para el acceso normal.
 - Los registros de acceso de API Gateway caducan a los 7 días. Los demás registros de aplicación de CloudWatch no tienen actualmente una caducidad automática configurada y permanecen hasta su eliminación manual. Limitamos su uso a operaciones, seguridad y depuración, y eliminamos las entradas pertinentes cuando sea necesario para atender un derecho de protección de datos aplicable.
