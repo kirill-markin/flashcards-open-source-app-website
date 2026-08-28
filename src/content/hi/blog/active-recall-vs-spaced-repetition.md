@@ -75,6 +75,8 @@ Point familiarity नहीं है। Point retrieval है।
 - [2026 में Flashcards के साथ Blurting Method कैसे इस्तेमाल करें](/hi/blog/how-to-use-the-blurting-method-with-flashcards/)
 - [2026 में Flashcards के साथ Feynman Technique कैसे इस्तेमाल करें](/hi/blog/how-to-use-the-feynman-technique-with-flashcards/)
 
+भूगोल का तैयार हिंदी उदाहरण चाहिए, तो [भारत के राष्ट्रीय उद्यान: राज्य, स्थापना वर्ष और प्रमुख वन्यजीव](/catalog/packages/india-national-parks-flashcards-hindi/) देखें। इसके 153 कार्ड पार्क से राज्य या केंद्र शासित प्रदेश, राज्य या केंद्र शासित प्रदेश से उसके सभी मौजूदा पार्क, आठ चुने हुए पार्कों के आधिकारिक अधिसूचना वर्ष और छह पार्कों से जुड़े प्रमुख वन्यजीव याद से निकालने का अभ्यास कराते हैं।
+
 ## Spaced repetition timing layer है
 
 Spaced repetition तब शुरू होता है जब आपको पहले से पता चल चुका हो कि किसी चीज़ को दोबारा देखना वाकई ज़रूरी है।
