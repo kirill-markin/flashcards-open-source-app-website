@@ -86,6 +86,8 @@ La pregunta original sirve como material de partida.
 
 No siempre es el formato final de la tarjeta.
 
+El mazo independiente y no oficial [Constitución Española para oposiciones: títulos y artículos clave](/es/catalog/packages/constitucion-espanola-oposiciones-tarjetas/) marca bien ese límite: sus 242 tarjetas breves repasan los artículos 1–169, la estructura, las disposiciones, las cuatro reformas aprobadas hasta el 20/05/2026, plazos y mayorías sin preguntas de examen copiadas ni preguntas de opción múltiple. Tus fallos en simulacros pueden producir tarjetas personales aparte; no hace falta conservar la pregunta original.
+
 ## El flujo útil empieza por explicar el error, no por guardar todo el examen
 
 Aquí es donde la IA sí ayuda de verdad.

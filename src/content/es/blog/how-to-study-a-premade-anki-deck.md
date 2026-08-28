@@ -235,6 +235,8 @@ Este sitio no es Anki, y no voy a fingir lo contrario. Pero el problema del fluj
 - puedes repasar con FSRS después de la limpieza
 - puedes usar IA para redactar o reescribir tarjetas sin cederle a la IA el control de calidad
 
+Para un ejemplo ya revisado, el catálogo incluye el mazo independiente y no oficial [Constitución Española para oposiciones: títulos y artículos clave](/es/catalog/packages/constitucion-espanola-oposiciones-tarjetas/), publicado por Open Study Contributor. Sus 242 tarjetas cubren los artículos 1–169, la estructura y las disposiciones, las cuatro reformas aprobadas hasta el 20/05/2026, plazos, mayorías y una selección de preguntas inversas que aportan valor real de recuerdo. Úsalo como punto de partida y compáralo con el temario y la convocatoria que estés preparando.
+
 Si solo estás montando lo básico, [Primeros pasos](/es/docs/getting-started/) es el camino más corto. Si quieres flujos con agentes o automatizaciones para crear y limpiar mazos, están la [documentación de la API](/es/docs/api/) y la [guía de self-hosting](/es/docs/self-hosting/).
 
 La parte útil en común es simple: da igual si las tarjetas vienen de Anki, de un mazo compartido o de un borrador de IA, el control de calidad humano sigue decidiendo si el próximo mes de repaso va a ir bien o va a ser miserable.
