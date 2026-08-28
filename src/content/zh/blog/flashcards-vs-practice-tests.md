@@ -103,6 +103,8 @@ OpenAI 的 [Study Mode](https://openai.com/index/chatgpt-study-mode/) 更强调�
 
 但大多数时候，它不能代替完整任务本身。
 
+如果你正在准备教师资格考试科目一《综合素质》，这套[独立制作、非官方的 NTCE 科目一《综合素质》中文闪卡组](/zh/catalog/packages/ntce-comprehensive-quality-flashcards-chinese/)更适合用来巩固小块知识点的回忆。材料分析、阅读、写作、时间分配和完整套题仍要单独练；把卡片答案记熟，不等于已经能在考试里完成这些任务。
+
 ## 最好记的一条分界线：闪卡负责存零件，模拟测试负责给零件加压
 
 这是我目前觉得最清楚的一种区分方式。
