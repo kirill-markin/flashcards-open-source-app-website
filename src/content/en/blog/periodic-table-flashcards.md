@@ -116,6 +116,8 @@ Source: Course trend chart, section 3.2
 
 `General` and `across a period` matter here. “Atomic radius trend?” does not say which direction, which part of the table, or how much explanation the answer needs. Use cards for the compact rule. Explain causes, handle the exceptions taught in class, and compare unfamiliar elements in written problems.
 
+The [Periodic Trends Flashcards deck](/catalog/packages/periodic-trends-flashcards/) is a ready-made starting set for that compact rule layer.
+
 If a back starts collecting several properties and caveats, use the approach in [how to make better flashcards](/blog/how-to-make-better-flashcards/) and split the target.
 
 ## Atomic-number cards stay stable; atomic-weight cards need versioning
