@@ -103,6 +103,8 @@ Compara estas versiones:
 
 Las tarjetas básicas también funcionan mejor cuando ya no tendrás a mano la redacción original. Una pregunta puede especificar la fórmula cuyas condiciones necesitas recordar o el procedimiento cuyo siguiente paso debes indicar.
 
+Para un ejemplo jurídico, el mazo independiente y no oficial [Constitución Española para oposiciones: títulos y artículos clave](/es/catalog/packages/constitucion-espanola-oposiciones-tarjetas/) usa 242 tarjetas de pregunta y respuesta para recordar los artículos 1–169, la estructura, las disposiciones, las cuatro reformas aprobadas hasta el 20/05/2026, plazos, mayorías y algunas relaciones inversas. Las respuestas son paráfrasis breves, no una reproducción literal del articulado; si tu convocatoria exige el texto exacto, consulta el BOE y prepara ese objetivo por separado.
+
 Mantén el reverso breve. Divide una tarjeta cuando un solo anverso exija cuatro puntos independientes. La [guía para hacer mejores flashcards](/es/blog/how-to-make-better-flashcards/) profundiza en la claridad de las preguntas y el tamaño de las tarjetas, mientras que [qué debería ir en una flashcard](/es/blog/what-should-go-on-a-flashcard/) ayuda a decidir si el dato merece un repaso programado.
 
 ## Usa una regla de decisión de 30 segundos
