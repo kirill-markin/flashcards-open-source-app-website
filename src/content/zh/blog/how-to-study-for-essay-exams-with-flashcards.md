@@ -249,6 +249,8 @@ Essay exam 很喜欢考相近概念。
 
 它们是写作前的准备。
 
+如果你准备的是教师资格考试科目一，这套[独立制作的 NTCE 科目一《综合素质》中文闪卡组](/zh/catalog/packages/ntce-comprehensive-quality-flashcards-chinese/)可以放在知识点回忆这一层。材料分析和写作仍要单独做限时、完整的题型练习；只把卡片答案记熟，并不能训练你读材料、组织论证和落笔。
+
 到了某个阶段，你还是得练这些事：
 
 - 在时间压力下挑选 evidence
