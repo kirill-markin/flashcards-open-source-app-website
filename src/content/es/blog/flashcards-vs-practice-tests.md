@@ -87,6 +87,8 @@ Las dos cosas están relacionadas.
 
 No son intercambiables.
 
+El mazo independiente y no oficial [Constitución Española para oposiciones: títulos y artículos clave](/es/catalog/packages/constitucion-espanola-oposiciones-tarjetas/) es un ejemplo concreto de la primera tarea: 242 tarjetas para recordar los artículos 1–169, la estructura y las disposiciones, las cuatro reformas aprobadas hasta el 20/05/2026, plazos, mayorías y algunas correspondencias inversas seleccionadas. No contiene preguntas de examen copiadas ni preguntas de opción múltiple, así que los simulacros y el formato real de tu convocatoria siguen haciendo el segundo trabajo.
+
 Los tests de práctica son especialmente importantes cuando la asignatura empieza a premiar el criterio:
 
 - resolución de problemas en matemáticas y física
