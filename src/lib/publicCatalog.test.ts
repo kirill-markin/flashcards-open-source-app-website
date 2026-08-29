@@ -509,13 +509,17 @@ test("parses the schema and builds latest-version-only lookup data", () => {
   );
 });
 
-test("prioritizes shared audience languages before multilingual semantic similarity", () => {
+test("omits unrelated same-language packages without weakening relevant ranking", () => {
   const input = createValidDump();
-  prepareRecommendationTarget(input, "日本語 動詞 活用", ["ja"]);
+  prepareRecommendationTarget(
+    input,
+    "Führerschein Klasse B Verkehrszeichen Karteikarten",
+    ["de"],
+  );
   appendRecommendationPackage(input, {
     index: 1,
     slug: "matching-content-other-language",
-    title: "日本語 動詞 活用",
+    title: "Führerschein Klasse B Verkehrszeichen Flashcards",
     summary: "",
     description: "",
     languageTags: ["fr"],
@@ -526,10 +530,10 @@ test("prioritizes shared audience languages before multilingual semantic similar
   appendRecommendationPackage(input, {
     index: 2,
     slug: "matching-content-and-language",
-    title: "日本語 動詞 活用 練習",
+    title: "Führerschein Klasse B Verkehrszeichen Lernkarten",
     summary: "",
     description: "",
-    languageTags: ["ja"],
+    languageTags: ["de"],
     publishedAt: "2026-08-03T10:00:00.000Z",
     cardTags: [],
     cardContent: "",
@@ -537,10 +541,10 @@ test("prioritizes shared audience languages before multilingual semantic similar
   appendRecommendationPackage(input, {
     index: 3,
     slug: "same-language-unrelated-content",
-    title: "古代 陶器",
+    title: "Einbürgerungstest Deutschland Karteikarten",
     summary: "",
     description: "",
-    languageTags: ["ja"],
+    languageTags: ["de"],
     publishedAt: "2026-08-04T10:00:00.000Z",
     cardTags: [],
     cardContent: "",
@@ -548,16 +552,19 @@ test("prioritizes shared audience languages before multilingual semantic similar
 
   const model = createPublicCatalogReadModel(parsePublicCatalogDump(input));
   const relatedPackages = getPublicCatalogRelatedPackages(model, fixturePackageId);
+  const markdown = renderPublicCatalogMarkdownDocument(
+    "de/catalog/packages/canonical-package",
+    model,
+  )?.markdown;
 
   assert.deepEqual(
     relatedPackages.map((packageView) => packageView.packageMetadata.slug),
     [
       "matching-content-and-language",
-      "same-language-unrelated-content",
       "matching-content-other-language",
     ],
   );
-  assert.equal(relatedPackages.length, 3);
+  assert.equal(relatedPackages.length, 2);
   assert.equal(
     relatedPackages.some(({ packageMetadata }) =>
       packageMetadata.packageId === fixturePackageId),
@@ -571,9 +578,11 @@ test("prioritizes shared audience languages before multilingual semantic similar
     relatedPackages,
     getPublicCatalogRelatedPackages(model, fixturePackageId),
   );
+  assert.ok(markdown);
+  assert.doesNotMatch(markdown, /Einbürgerungstest Deutschland/);
 });
 
-test("fills six deterministic related packages and rejects a missing package lookup", () => {
+test("caps deterministic related packages at six and rejects a missing package lookup", () => {
   const input = createValidDump();
   const candidateSlugs = [
     "tie-h",
@@ -586,12 +595,12 @@ test("fills six deterministic related packages and rejects a missing package loo
     "tie-d",
   ];
 
-  prepareRecommendationTarget(input, "Shared title", ["en"]);
+  prepareRecommendationTarget(input, "Solar system astronomy", ["en"]);
   candidateSlugs.forEach((slug, index) => {
     appendRecommendationPackage(input, {
       index: index + 1,
       slug,
-      title: "Shared title",
+      title: "Solar system astronomy",
       summary: "",
       description: "",
       languageTags: ["en"],
@@ -1704,13 +1713,13 @@ test("renders useful localized catalog Markdown from the public read model", () 
 
 test("renders the cached related package links in the page locale before card previews", () => {
   const input = createValidDump();
-  prepareRecommendationTarget(input, "Shared title", ["en"]);
+  prepareRecommendationTarget(input, "Astronomy constellations", ["en"]);
 
   Array.from({ length: 6 }, (_unused, index) => index + 1).forEach((index) => {
     appendRecommendationPackage(input, {
       index,
       slug: `related-package-${index}`,
-      title: `Related package ${index}`,
+      title: `Astronomy constellations ${index}`,
       summary: "",
       description: "",
       languageTags: ["en"],
