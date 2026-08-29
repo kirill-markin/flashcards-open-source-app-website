@@ -172,6 +172,8 @@ Si el error procede de una hoja de ejercicios o de una imagen de la tabla, recor
 
 Si de verdad tienes que aprender los 118 elementos, aplica el mismo ciclo a secciones manejables aprobadas por el curso. Después, mezcla esas secciones y reconstruye la tabla completa con regularidad. El objetivo sigue siendo comprender un sistema periódico conectado, no memorizar 118 datos aislados.
 
+Para practicar los nombres, símbolos y números atómicos, el [mazo en español de los 118 elementos](/es/catalog/packages/tabla-periodica-elementos-tarjetas-espanol/) contiene 354 tarjetas para practicar nombre → símbolo, símbolo → nombre y número atómico → nombre + símbolo; no incluye masas, tendencias ni otras propiedades.
+
 ## Mantén la química de verdad fuera del mazo
 
 Las flashcards de la tabla periódica sirven para recordar datos con rapidez. No sustituyen:
