@@ -97,6 +97,13 @@ const nextConfig: NextConfig = {
         pathname: "/v1/catalog/package-versions/*/media-assets/*/download",
         search: "",
       },
+      {
+        protocol: "https",
+        hostname: "d2bq3tvt7zf1kf.cloudfront.net",
+        port: "",
+        pathname: "/catalog/media/**",
+        search: "",
+      },
     ],
     unoptimized: false,
   },
