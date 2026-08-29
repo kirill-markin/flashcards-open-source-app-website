@@ -83,6 +83,8 @@ Diese Mischung gibt dem Deck mehr Reichweite.
 
 Du erinnerst dich nicht nur daran, dass ein Wort existiert. Du lernst, wo es hingehört.
 
+Ein direktes Beispiel für Deutschlernende ist die [unabhängige, inoffizielle Goethe-B1-Kernauswahl mit 288 Karten](/catalog/packages/goethe-zertifikat-b1-wortschatz-karteikarten/): Sie trainiert aktiven Abruf mit deutschen Bedeutungen und kurzen Beispielen und bildet bewusst nicht die vollständige offizielle Wortliste ab.
+
 ## Beispielsätze sind meist stärker als rohe Vokabelkarten, sobald du über die erste Stufe hinaus bist
 
 Das ist wahrscheinlich die größte Verbesserung, die die meisten vornehmen können.
