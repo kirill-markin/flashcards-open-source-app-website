@@ -223,6 +223,8 @@ keywords:
 
 如果你的目标是考试，就让卡组尽量贴近考试词汇和句法结构，不要一路偏到你在网上偶然看到的每个有趣单词上去。
 
+如果你在准备大学英语四级，可以先用这套[独立编写的非官方 300 词 CET-4 核心词汇卡组](/catalog/packages/cet-4-core-vocabulary-flashcards-chinese/)：它用中文释义和原创例句练习一个核心子集，并不是完整的 5,418 词词表；卡组与考试主办方没有隶属关系，也未获得其认可或背书。
+
 如果你在准备 TOEFL，可以用这套[独立整理的 300 词 TOEFL 学术词汇卡组](/zh/catalog/packages/toefl-academic-vocabulary-chinese-flashcards/)起步，再根据自己的练习错题增删卡片。
 
 想让 **如何制作语言抽认卡** 这件事变简单，最快的方法之一就是把用途收窄。
