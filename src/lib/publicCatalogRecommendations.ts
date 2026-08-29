@@ -5,7 +5,44 @@ import type {
 import type { PublicCatalogCollection } from "./publicCatalogTypes";
 
 const RELATED_PACKAGE_LIMIT = 6;
+const RELATED_PACKAGE_MIN_SEMANTIC_SCORE = 0.01;
 const WORD_SEGMENTER = new Intl.Segmenter("und", { granularity: "word" });
+const GENERIC_RECOMMENDATION_TERMS = new Set([
+  "all",
+  "card",
+  "cards",
+  "complete",
+  "deck",
+  "decks",
+  "exam",
+  "flashcard",
+  "flashcards",
+  "learn",
+  "learning",
+  "practice",
+  "review",
+  "study",
+  "test",
+  "karteikarte",
+  "karteikarten",
+  "lernkarte",
+  "lernkarten",
+  "tarjeta",
+  "tarjetas",
+  "mazo",
+  "mazos",
+  "карточка",
+  "карточки",
+  "колода",
+  "フラッシュカード",
+  "カード",
+  "闪卡",
+  "卡片",
+  "بطاقة",
+  "بطاقات",
+  "फ्लैशकार्ड",
+  "कार्ड",
+]);
 
 type WeightedTerms = ReadonlyMap<string, number>;
 type PackageVector = Readonly<{
@@ -36,7 +73,8 @@ function tokenize(value: string): ReadonlyArray<string> {
 
   return [...WORD_SEGMENTER.segment(normalizedValue)]
     .filter((segment) => segment.isWordLike === true)
-    .map((segment) => segment.segment);
+    .map((segment) => segment.segment)
+    .filter((term) => GENERIC_RECOMMENDATION_TERMS.has(term) === false);
 }
 
 function addTextField(
@@ -279,6 +317,8 @@ export function createPublicCatalogRelatedPackagesByPackageId(
           sharesLanguage: hasSharedLanguage(packageView, candidate),
         };
       })
+      .filter((candidate) =>
+        candidate.semanticScore >= RELATED_PACKAGE_MIN_SEMANTIC_SCORE)
       .sort(compareRankedPackages)
       .slice(0, RELATED_PACKAGE_LIMIT)
       .map(({ packageView: candidate }) => {
