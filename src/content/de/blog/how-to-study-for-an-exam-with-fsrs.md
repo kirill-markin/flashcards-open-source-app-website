@@ -58,6 +58,8 @@ Teile die verbleibende Zeit in drei Phasen:
 | 1 bis 2 Wochen | Die Review-Last stabilisieren | Kaum noch neue Karten, vor allem wiederholen und schwache Karten verbessern |
 | Letzte Tage | Abruf schützen | Fällige Karten wiederholen, kurzes gezieltes Pauken, keine riesigen Importe |
 
+Für die Goethe-B1-Prüfung ist die [unabhängige, inoffizielle Kernauswahl mit 288 Wortschatzkarten](/catalog/packages/goethe-zertifikat-b1-wortschatz-karteikarten/) ein konkretes Beispiel für ein bewusst begrenztes Deck: Sie trainiert aktiven Abruf mit deutschen Bedeutungen und kurzen Beispielen und bildet bewusst nicht die vollständige offizielle Wortliste ab.
+
 Der häufigste Fehler, den ich sehe: bis ganz zum Ende immer weiter neues Material ins Deck schütten. Das fühlt sich produktiv an, weil die Kartenzahl steigt.
 
 Meist verschlechtert es aber den Abruf.
