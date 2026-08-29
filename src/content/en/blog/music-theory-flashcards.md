@@ -91,6 +91,8 @@ Back: C-sharp.
 
 The first card asks you to identify what is written. The second makes you choose the correct letter distance before adding the accidental. D-flat on that construction card is not a near miss. F-sharp to some kind of C is a fifth; F-sharp to some kind of D is a sixth.
 
+The [music interval flashcards deck](/catalog/packages/music-interval-flashcards/) gives you targeted practice with interval size and quality, semitone counts, inversions, and note spelling.
+
 ### Key-signature and circle-of-fifths flashcards
 
 Keep major and minor prompts explicit. One key signature belongs to both a relative major and minor key, so “What key is this?” does not have one answer without more context.
