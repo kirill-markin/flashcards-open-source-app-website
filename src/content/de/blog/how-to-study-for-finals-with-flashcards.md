@@ -49,6 +49,8 @@ Damit landet das Material meist schnell in vier Gruppen:
 - Schritte, Abläufe und Formeln, die sauber sitzen müssen
 - Fehler, die du in Quizzen, Hausaufgaben oder Probeklausuren schon gemacht hast
 
+Wenn du für die AEVO lernst, bündelt der [unabhängig erstellte 150-Karten-Stapel zu allen vier Handlungsfeldern](/de/catalog/packages/aevo-ausbildereignungspruefung-karteikarten/) Definitionen, Abgrenzungen, Abläufe und kurze Fälle; er enthält bewusst keine originalen Prüfungsfragen und ersetzt fallnahe Übungen nicht.
+
 Alles andere muss sich seinen Platz erst verdienen.
 
 Wenn ein Thema zwar wichtig ist, aber eigentlich längeres Problemlösen, Essays, Diagrammbeschriftung oder ausführliche schriftliche Erklärungen braucht, würde ich es im Übungs-Workflow lassen, statt es mit Gewalt ins Flashcard-Format zu pressen.
