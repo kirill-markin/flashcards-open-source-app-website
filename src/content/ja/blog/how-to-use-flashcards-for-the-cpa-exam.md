@@ -76,6 +76,8 @@ FAR での失敗は、たいてい2方向に分かれます。広すぎるか、
 
 私は、複数段階の計算そのものを全部フラッシュカードに背負わせようとはしません。FAR には、依然として手を動かす問題演習が必要です。カードに残すべきなのは、再利用できる部分です。recognition のトリガー、classification のルール、ratio のロジック、cash flow の扱い、繰り返し出る仕訳パターンです。
 
+借方・貸方、日常取引、決算整理の基礎を反復したいなら、[日商簿記3級の仕訳フラッシュカード](/catalog/packages/nissho-bookkeeping-3-journal-entry-flashcards-japanese/) は補助練習として使えます。CPA試験対策を置き換えるものではなく、公式教材でもありません。
+
 ## AUDのカードは、正しいassertionやprocedureを選ばせる形が最も強い
 
 AUD は、定義を1つ忘れたから落とす試験ではありません。もっともらしい選択肢が2つあり、そのうちどちらが、今目の前にある assertion、control issue、evidence の問題に本当に対応しているかを取り違えて落とします。
