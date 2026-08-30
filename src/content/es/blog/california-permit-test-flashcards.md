@@ -39,6 +39,8 @@ El aviso sobre traducciones del sitio web del DMV identifica sus páginas en ing
 
 Este artículo se limita a la **preparación del examen teórico ordinario de Clase C de California**. No cubre los exámenes para motocicletas o vehículos comerciales, el curso eLearning para renovaciones, otros estados ni los trámites administrativos para obtener un permiso o una licencia.
 
+Si en realidad preparas el permiso B en España, no uses este contenido del DMV de California: [Señales de tráfico DGT para el permiso B: tarjetas actualizadas](/es/catalog/packages/senales-trafico-dgt-permiso-b-tarjetas/) es un mazo independiente y no oficial de 125 tarjetas que se centra solo en las señales, usa descripciones visuales precisas y no copia preguntas de examen oficiales.
+
 ## Cuatro categorías de flashcards para el examen del permiso de California
 
 No transcribas el manual página por página. Lee una sección, ciérrala, haz un examen de muestra oficial y conserva solo lo que merezca recordarse una y otra vez. Cuatro categorías abarcan la mayoría de las tarjetas útiles.
