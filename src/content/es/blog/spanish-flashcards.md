@@ -151,6 +151,8 @@ Reverso: La cuenta
 
 Estas siguen siendo **flashcards de vocabulario en español**, pero ahora la unidad que recuerdas es una expresión que puedes usar. El marco del Instituto Cervantes dedica un inventario propio a las funciones comunicativas: pedir información, confirmar, describir, expresar una opinión o pedir algo. Un mazo práctico puede seguir ese enfoque.
 
+Si ya estudias español B2, el mazo independiente y no oficial [DELE B2: tarjetas de conectores y expresiones para hablar y escribir](/es/catalog/packages/dele-b2-conectores-expresiones-tarjetas/) ofrece 80 tarjetas para elegir conectores y expresiones con contexto, registro, sintaxis y puntuación. Es una práctica parcial: no sustituye la conversación, la redacción libre ni las pruebas completas del examen.
+
 Algunas categorías de frases útiles son:
 
 - pedir a alguien que repita algo o hable más despacio
