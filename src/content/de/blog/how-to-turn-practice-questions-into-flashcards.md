@@ -81,6 +81,8 @@ Die ursprüngliche Frage ist als Quelle nützlich.
 
 Sie ist aber nicht automatisch schon das beste Kartenformat.
 
+Für die AEVO ist der [unabhängig erstellte Stapel mit 150 kompakten Karten aus allen vier Handlungsfeldern](/de/catalog/packages/aevo-ausbildereignungspruefung-karteikarten/) ein konkretes Beispiel: Er fragt Begriffe, Abgrenzungen und kurze Fälle ab, ohne originale oder erinnerte Prüfungsfragen zu kopieren.
+
 ## Der nützliche Workflow beginnt damit, den Fehler zu erklären, nicht die ganze Prüfung zu speichern
 
 Hier hilft KI tatsächlich.
