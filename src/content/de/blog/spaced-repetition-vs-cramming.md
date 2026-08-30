@@ -41,6 +41,8 @@ Das Prüfungsdatum zählt. Der Tag danach ebenfalls. Die Tabelle hilft dir bei d
 | Abschluss- oder Zertifizierungsprüfung über den gesamten Stoff | Verteilte Abrufübungen über die gesamte Vorbereitungszeit | Greife ältere Themen immer wieder auf, während du neuen Stoff ergänzt, und übe regelmäßig im vollständigen Prüfungsformat |
 | Wissen wird nach der Prüfung gebraucht | Fortlaufende verteilte Abrufübungen | Setze die Wiederholungen nach der Prüfung fort und wende das Wissen in realistischen Aufgaben an |
 
+Wenn du für die AEVO planst, kann der [unabhängig erstellte Stapel mit 150 Karten zu allen vier Handlungsfeldern](/de/catalog/packages/aevo-ausbildereignungspruefung-karteikarten/) als klar begrenzte Grundlage für verteilte Wiederholungen dienen; er ist keine offizielle IHK-Unterlage, enthält keine originalen Prüfungsfragen und ersetzt keine prüfungsnahen Übungen.
+
 Bis morgen reicht die Zeit vielleicht nur für eine gezielte Pauksitzung. Eine Woche erlaubt mehrere Abrufversuche mit echten Pausen dazwischen. Für eine Abschlussprüfung über den gesamten Stoff musst du frühere Themen immer wieder aufgreifen, während du den neuesten Stoff lernst. Berufliches, sprachliches und technisches Wissen solltest du meist auch dann noch wiederholen, wenn die Note schon feststeht.
 
 Ein universeller `1-3-7`-Plan ist für all diese Ziele zu schematisch. Sinnvolle Abstände hängen davon ab, wie lange das Wissen halten soll, und Themen sind dir zu Beginn unterschiedlich vertraut. Ein praktischer [Wiederholungsplan für Flashcards](/blog/how-often-should-you-review-flashcards/) sollte sich an der Frist und daran orientieren, was du tatsächlich abrufen kannst.

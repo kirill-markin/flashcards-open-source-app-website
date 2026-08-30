@@ -56,6 +56,8 @@ Meistens heißt das:
 - Schritte, die man gern vertauscht
 - Regeln mit einer wichtigen Ausnahme
 
+Für die AEVO liefert der [unabhängig erstellte 150-Karten-Stapel zu allen vier Handlungsfeldern](/de/catalog/packages/aevo-ausbildereignungspruefung-karteikarten/) eine solche Gedächtnisschicht aus Definitionen, Abgrenzungen, Abläufen und kurzen Fällen; prüfungsnahe Fallpraxis ersetzt er nicht.
+
 Genau hier lohnt sich Spaced Repetition. Du prüfst nicht nur, ob du die Antwort jetzt kennst. Du entscheidest, dass sie nächste Woche, nächsten Monat oder bis zu den Abschlussprüfungen noch verfügbar sein soll.
 
 Darum helfen Flashcards so oft gegen dieses Gefühl von "Ich habe den ganzen Tag gelernt und es am nächsten Morgen schon wieder vergessen". Der Stoff war im Moment oft verständlich, aber nichts hat die Teile zurückgeholt, die gerade im Begriff waren zu verschwinden.
