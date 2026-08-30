@@ -230,6 +230,8 @@ Si tu objetivo es leer, crea más tarjetas centradas en comprensión a partir de
 
 Si tu objetivo es preparar un examen, mantén el mazo cerca del vocabulario y las estructuras que se evalúan, en vez de irte detrás de cada palabra interesante que ves por internet.
 
+Como ejemplo concreto en español, el mazo independiente y no oficial [DELE B2: tarjetas de conectores y expresiones para hablar y escribir](/es/catalog/packages/dele-b2-conectores-expresiones-tarjetas/) practica con 80 tarjetas la elección productiva de conectores y expresiones para organizar ideas, argumentar y gestionar la interacción. No es un curso ni una preparación completa para el DELE B2; sirve como apoyo para ese objetivo acotado.
+
 Una de las formas más rápidas de hacer más fácil **cómo hacer tarjetas didácticas para idiomas** es elegir un propósito más concreto.
 
 El mazo se limpia enseguida.
