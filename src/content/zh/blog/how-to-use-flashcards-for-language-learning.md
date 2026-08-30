@@ -227,6 +227,8 @@ keywords:
 
 如果你在准备 TOEFL，可以用这套[独立整理的 300 词 TOEFL 学术词汇卡组](/zh/catalog/packages/toefl-academic-vocabulary-chinese-flashcards/)起步，再根据自己的练习错题增删卡片。
 
+如果你在准备考研英语（一），可以从这套[考研英语（一）核心词汇闪卡](/catalog/packages/kaoyan-english-one-core-vocabulary-flashcards-chinese/)开始：它包含 300 张识别卡和 60 张产出卡，练习词义、常见搭配与语境。这是一套独立整理的非官方学习材料，不是官方完整词表或词频排名。
+
 想让 **如何制作语言抽认卡** 这件事变简单，最快的方法之一就是把用途收窄。
 
 这样一来，卡组会立刻清爽很多。
