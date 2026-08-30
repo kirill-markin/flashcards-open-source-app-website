@@ -113,6 +113,8 @@ BC 学生还有一个值得知道的评分细节：College Board 说明 [Calculu
 
 这个拆法很重要，因为 AP Calculus 一直在逼你在符号、图像、表格和语境之间来回切换。导数本身很少是整道题。真正容易丢分的，通常是你有没有把它解释对。
 
+如果你想先把高中范围内的求导条件、切线、导数符号表、单调性和极值练成短提示，可以用这套[独立编写的高考数学导数闪卡](/catalog/packages/gaokao-derivatives-flashcards-chinese/)；它不按 AP 课程对纲，也不包含 AP 真题、积分或级数内容。
+
 如果你现在的牌组还是太宽，可以顺着这篇博客继续看 [2026 年如何用闪卡学数学](https://flashcards-open-source-app.com/blog/how-to-use-flashcards-for-math/)。它是这篇文章最接近的通用配套。
 
 ## 积分卡应该把 antiderivative 和 accumulation 分开
