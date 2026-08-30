@@ -1,198 +1,161 @@
 ---
-title: "Quizlet-Sets exportieren (2026): Karten sichern und übertragen"
-description: "So exportierst du eigene Quizlet-Sets 2026 auf der Website, sicherst den Text in UTF-8, prüfst Trennzeichen und überträgst Karten zu Flashcards oder Anki."
+title: "Quizlet-Sets exportieren: So geht es 2026 (und warum „Exportieren“ fehlt)"
+description: "So exportierst du ein Quizlet-Set über die Website. Falls „Exportieren“ fehlt, prüfe, ob du das Original erstellt hast, eine Kopie geöffnet hast oder die mobile App verwendest."
 image: "/blog/how-to-export-quizlet-sets-and-turn-them-into-fsrs-flashcards.png"
 date: "2026-06-10"
-updated: "2026-08-13"
+updated: "2026-08-30"
 keywords:
-  - "Quizlet-Sets exportieren"
-  - "Quizlet Export"
-  - "Quizlet-Karten herunterladen"
-  - "Quizlet-Set sichern"
+  - "Quizlet exportieren"
+  - "Quizlet-Karteikarten exportieren"
+  - "Quizlet-Export fehlt"
+  - "Quizlet-Karteikarten herunterladen"
+  - "Quizlet zu CSV"
   - "Quizlet zu Anki"
-  - "Quizlet zu Flashcards"
 ---
 
-Über die Exportfunktion von Quizlet lädst du keine fertige Datei für den Kartensatz herunter. Stand 13. August 2026 endet der Export eines selbst erstellten Sets auf der Website mit **Text kopieren**. Begriffe und Definitionen landen in der Zwischenablage. Bilder, Formatierungen, Lernverlauf und Wiederholungsplan des Sets sind nicht enthalten.
+Wenn Quizlet die Schaltfläche **Exportieren** nicht anzeigt, prüfe zuerst zwei Dinge: Hast du das ursprüngliche Set erstellt, und verwendest du die Quizlet-Website? Nur der ursprüngliche Ersteller kann ein Set exportieren, und die Funktion gibt es ausschließlich auf der Website. Eine Kopie lässt sich nicht exportieren, selbst wenn sie inzwischen in deiner Bibliothek liegt.
 
-Trotzdem eignet sich dieser Text als verlässliche Sicherung der Karteninhalte. Speichere zunächst eine unveränderte Kopie, prüfe anschließend die Trennzeichen und teste einige Karten im Zielsystem, bevor du das komplette Set überträgst.
+Sind beide Voraussetzungen erfüllt, dauert der Export nur einen Moment: Öffne das Set auf der Website, wähle **Mehr → Exportieren**, lege die Reihenfolge von Begriffen und Definitionen fest und klicke auf **Text kopieren**. Quizlet lädt keine Kartensatzdatei herunter. Der Text landet stattdessen in deiner Zwischenablage – ohne Bilder.
 
-![Textilrestauratorin bewahrt ein intaktes Paarmuster und prüft drei Abschnitte einer Arbeitskopie](/blog/how-to-export-quizlet-sets-and-turn-them-into-fsrs-flashcards.png)
+**Stand geprüft:** 30. August 2026, anhand der [offiziellen Exportanleitung von Quizlet](https://help.quizlet.com/hc/en-us/articles/360034345672-Exporting-your-sets).
 
-## Kurz erklärt: So exportierst du ein Quizlet-Set
+![Archivmitarbeiterin gleicht zwei passende Abholmarken ab und übergibt paarweise Textkarten; zwei Dokumentenhüllen liegen bereit, die Fotos bleiben hinter Glas](/blog/how-to-export-quizlet-sets-and-turn-them-into-fsrs-flashcards.png)
 
-Melde dich auf der Quizlet-Website an und öffne unter **Deine Bibliothek → Lernsets** ein Set, das du selbst erstellt hast. Wähle **Mehr → Exportieren**, lege die Anordnung von Begriffen und Definitionen fest und klicke auf **Text kopieren**. Füge den Inhalt danach in einen reinen Texteditor ein.
+## Sollte die Schaltfläche „Exportieren“ überhaupt da sein?
 
-Falls der Exportdialog passende Trennzeichen zur Auswahl stellt, empfehle ich einen Tabulator zwischen Begriff und Definition sowie eine neue Zeile zwischen den Karten. Speichere die erste Kopie unverändert als UTF-8-Datei mit der Endung `.txt`. Quizlet erstellt auf diesem Weg weder eine CSV-Datei noch eine vollständige Sicherung des Kartensatzes. Auch Bilder und kopierte Sets werden nicht exportiert.
+Kläre das zuerst, bevor du versuchst, Quizlet-Karteikarten auf einem anderen Weg herunterzuladen:
 
-Diese Einschränkungen nennt Quizlet in seiner [offiziellen Anleitung zum Exportieren von Sets](https://help.quizlet.com/hc/en-us/articles/360034345672-Exporting-your-sets).
+| Deine Situation | Sollte „Exportieren“ verfügbar sein? | Nächster Schritt |
+| --- | --- | --- |
+| Du hast das ursprüngliche Set erstellt und auf der Quizlet-Website geöffnet | Ja, laut der Quizlet-Hilfeseite | Folge den Schritten unten |
+| Du verwendest die iOS- oder Android-App | Nein, exportieren kannst du nur auf der Website | Öffne Quizlet in einem Browser und melde dich an |
+| Du hast das Set eines anderen Nutzers kopiert | Nein, laut Quizlet lassen sich kopierte Sets nicht exportieren | Rechne nicht damit, dass die Kopie „Exportieren“ freischaltet |
+| Du kannst das Set ansehen, hast es aber nicht erstellt | Nein, die Berechtigung zum Ansehen macht dich nicht zum Ersteller | Bitte den Ersteller um eine Quelldatei oder baue das Set aus Material neu auf, das du verwenden darfst |
 
-## Quizlet-Sets exportieren: die genauen Schritte für 2026
+Hast du das ursprüngliche Set erstellt und die Quizlet-Schaltfläche **Exportieren** fehlt trotzdem, prüfe dein Konto und das geöffnete Set: Du musst mit dem Konto des Erstellers angemeldet sein und das Original statt einer Kopie geöffnet haben. Die Quizlet-Hilfeseite nennt keinen zweiten Exportweg. Wende dich in diesem Fall an den Quizlet-Support, statt einem Downloader zu vertrauen, der diese Einschränkung angeblich umgehen kann.
 
-Der Export ist derzeit nur auf der Website verfügbar, nicht in den mobilen Quizlet-Apps. Öffne Quizlet im Browser und gehe so vor:
+## So exportierst du Quizlet-Karteikarten auf der Website
 
-1. [Melde dich bei Quizlet an](https://quizlet.com/login).
+Für ein Set, das du selbst erstellt hast:
+
+1. Melde dich auf der Quizlet-Website an.
 2. Wähle **Deine Bibliothek**.
 3. Wähle **Lernsets**.
 4. Öffne das Set, das du exportieren möchtest.
 5. Öffne das Menü **Mehr**.
 6. Wähle **Exportieren**.
-7. Lege fest, wie Begriffe und Definitionen angeordnet werden sollen.
+7. Lege fest, in welcher Reihenfolge Begriffe und Definitionen ausgegeben werden sollen.
 8. Wähle **Text kopieren**.
-9. Füge den kopierten Text in einen reinen Texteditor ein und speichere die Datei in UTF-8.
+9. Füge das Ergebnis in einen reinen Texteditor ein.
 
-Fehlt die Option **Exportieren**, prüfe zwei Dinge: Hast du das ursprüngliche Set selbst erstellt, und verwendest du die Website? Laut Quizlet lassen sich kopierte Sets nicht exportieren, auch wenn die Kopie in deiner Bibliothek angezeigt wird.
+Damit ist der aktuelle Ablauf abgeschlossen. Eine zusätzliche Schaltfläche zum Herunterladen gibt es nicht.
 
-## Wähle eine Anordnung, die sich gut prüfen lässt
+Für einfache Karten mit Vorder- und Rückseite empfehle ich einen Tabulator zwischen Begriff und Definition und eine neue Zeile nach jeder Karte. Das ist ein praktischer Rat, keine Vorgabe von Quizlet. Tabulatoren lassen sich meist leichter kontrollieren als Kommas, weil Kommas in ganz normalen Definitionen häufig vorkommen.
 
-Im Exportdialog kannst du bestimmen, wie Begriffe und Definitionen angeordnet werden. Die aktuellen Bezeichnungen der Trennzeichen nennt Quizlet auf seiner Hilfeseite allerdings nicht. Für normale Karten mit Vorder- und Rückseite ist folgende Struktur sinnvoll, sofern dein Dialog sie zulässt:
-
-- ein Tabulator zwischen Begriff und Definition;
-- eine neue Zeile zwischen den Karten.
-
-Tabulatoren sind praktisch, weil Definitionen häufig Kommas oder Semikolons enthalten. Ein einfacher Export sieht zum Beispiel so aus:
+Eine saubere Datei mit zwei Karten sieht so aus – in jeder Zeile steht genau ein Tabulator:
 
 ```text
 photosynthesis	Process plants use to convert light energy into chemical energy
 mitosis	Cell division that produces two genetically identical daughter cells
-café	coffee
 ```
 
-Der breite Abstand innerhalb jeder Zeile ist ein Tabulator. Jede Karte steht in einer eigenen Zeile.
+## Was beim Quizlet-Export erhalten bleibt
 
-Der Inhalt ist damit zwar tabulatorgetrennt, Quizlet hat ihn aber lediglich in die Zwischenablage kopiert. Eine `.tsv`- oder `.csv`-Datei wurde weder erstellt noch heruntergeladen. Wenn du `cards.txt` in `cards.csv` umbenennst, konvertierst du damit keine Daten und reparierst auch keine Trennzeichen.
+Quizlet grenzt die Funktion klar ein: Exportiert werden die **Begriffe und Definitionen** eines Sets, das du selbst erstellt hast. Bilder lassen sich laut Quizlet nicht exportieren.
 
-## Speichere zwei Kopien, bevor du den Text bereinigst
+Orientiere dich deshalb am eingefügten Ergebnis. Was dort als Text, Trennzeichen oder Zeilenumbruch erscheint, kannst du in einer Datei speichern. Die Quizlet-Hilfeseite verspricht nicht, Ordner, Lernmodi, Formatierungen, Lernstand, Wiederholungsverlauf oder Zeitplanung zu übernehmen.
 
-Füge den Quizlet-Export in einen reinen Texteditor ein und lege anschließend zwei Dateien an:
+Du erhältst also eine Kopie des Kartentextes, kein wiederherstellbares Quizlet-Backup. Dieser Unterschied ist auch wichtig, wenn du nach „Quizlet-Karteikarten herunterladen“ gesucht hast: Quizlet kopiert den Text in die Zwischenablage; die Datei erstellst du selbst.
 
-1. **Rohkopie:** Speichere den eingefügten Inhalt exakt wie erhalten und in UTF-8, zum Beispiel als `biology-quizlet-raw.txt`.
-2. **Arbeitskopie:** Dupliziere die Datei als `biology-quizlet-clean.txt` und ändere ausschließlich diese Kopie.
+## Speichere zuerst eine unbearbeitete UTF-8-Kopie
 
-Lass beide Dateien im `.txt`-Format. Anki kann reine Textdateien direkt importieren. Wenn du die Daten später in einer Tabellenkalkulation bearbeitest, exportiere dort eine echte CSV- oder TSV-Datei, statt nur die Dateiendung zu ändern. Entscheidend sind die Trennzeichen und die UTF-8-Kodierung, nicht die Endung.
+Sorge dafür, dass du jederzeit auf den unveränderten Export zurückgreifen kannst:
 
-Bewahre die Rohkopie außerdem an einem gesicherten Ort auf. Falls beim Import Felder zusammenrutschen, eine Zeile fehlt oder Zeichen beschädigt werden, kannst du auf die ursprünglichen Daten zurückgreifen, ohne erneut aus Quizlet exportieren zu müssen.
+1. Füge den Export in einen reinen Texteditor ein.
+2. Speichere ihn als UTF-8, zum Beispiel unter `biology-quizlet-raw.txt`.
+3. Dupliziere die Datei als `biology-quizlet-working.txt`.
+4. Lass die Rohdatei unverändert. Bearbeite nur die Arbeitskopie.
 
-## Was beim Export erhalten bleibt – und was nicht
+Prüfe die Arbeitsdatei vor dem Import, während das Quizlet-Set noch geöffnet ist:
 
-Quizlet beschreibt die Funktion als Export der **Begriffe und Definitionen** eines selbst erstellten Sets. Gehe bei allen anderen Inhalten davon aus, dass sie nicht übertragen werden, sofern du sie nicht im eingefügten Text wiederfindest.
+- Blende Leerzeichen und andere unsichtbare Zeichen ein. Kontrolliere dann, wo Tabulatoren und Zeilenumbrüche stehen.
+- Suche innerhalb der Begriffe und Definitionen nach dem gewählten Trennzeichen. Ein zusätzlicher Tabulator kann unerwartet ein drittes Feld erzeugen.
+- Achte auf Definitionen mit eigenen Zeilenumbrüchen; sie können fälschlich als zusätzliche Karten erkannt werden.
+- Vergleiche Anfang, Mitte und Ende der Datei mit dem Quizlet-Set. Nimm dabei auch die längsten Definitionen mit.
+- Schließe die Datei und öffne sie erneut. Prüfe anschließend Akzente, nichtlateinische Schriften, Symbole und typografische Satzzeichen.
+- Markiere leere Felder, Duplikate und unregelmäßige Zeilen, statt stillschweigend zu raten, wie sie repariert werden sollten.
 
-Der kopierte Text kann Folgendes erhalten:
+Vergleiche die Anzahl der Zeilen nur dann mit der Anzahl der Karten, wenn jede Karte genau eine Zeile belegt. Bei mehrzeiligen Definitionen funktioniert diese Abkürzung nicht.
 
-- die Begriffe und Definitionen aus dem kopierten Ergebnis;
-- die dort vorhandene Reihenfolge der Zeilen;
-- Unicode-Zeichen, wenn du die Datei in UTF-8 speicherst und wieder öffnest;
-- die Feldgrenzen, solange das gewählte Trennzeichen nicht auch in einem Begriff oder einer Definition vorkommt.
+Bewahre die Rohdatei auch dann auf, wenn die Arbeitskopie bereits korrekt aussieht. Falls ein Import ein Feld verschiebt oder Inhalte auslässt, hast du weiterhin eine unveränderte Referenz.
 
-Nicht erhalten bleiben:
+## Quizlet zu CSV: Erstelle die Datei gezielt
 
-- Bilder – Quizlet weist ausdrücklich darauf hin, dass Bilder aus urheberrechtlichen Gründen nicht exportiert werden können;
-- Rich-Text-Darstellung, Schriftarten, Hervorhebungen und Layout;
-- Set-Ordner, Kontostruktur, Lernmodi und andere Einstellungen der Quizlet-Oberfläche;
-- Wiederholungsverlauf, Beherrschungsstatus und Zeitplanung;
-- ein Quizlet-Paket, das sich später vollständig wiederherstellen lässt.
+Eine `.txt`-Datei in `.csv` umzubenennen ist keine Konvertierung. Eine CSV-Datei braucht einheitliche Trennzeichen und korrekt gesetzte Anführungszeichen für Felder mit Kommas, Anführungszeichen oder mehrzeiligen Inhalten.
 
-Genau deshalb führt die Suche nach **Quizlet-Karten herunterladen** oft in die Irre. Der Export sichert den Kartentext, aber weder das vollständige Quizlet-Set noch dessen Lernstand in wiederherstellbarer Form.
+So erstellst du aus dem Quizlet-Export eine verlässliche CSV-Datei:
 
-## Prüfe den Text vor dem Import
+1. Lass die Sicherung des Rohtexts unverändert.
+2. Öffne die Arbeitskopie in einem Tabellenprogramm und wähle genau das Trennzeichen, das du in Quizlet verwendet hast.
+3. Prüfe, ob jeder erwartete Datensatz zwei Spalten enthält: Begriff und Definition.
+4. Kontrolliere Anführungszeichen, Trennzeichen und mehrzeilige Definitionen.
+5. Exportiere die Datei als UTF-8-CSV.
+6. Öffne die CSV anschließend erneut in einer separaten Vorschau, bevor du sie anderweitig verwendest.
 
-Nimm dir dafür Zeit, solange das ursprüngliche Set noch geöffnet ist. Auffällige Zeilen lassen sich viel leichter klären, wenn du sie direkt mit der Quelle vergleichen kannst.
+Ein Tabellenprogramm kann die Anführungszeichen ergänzen, die CSV benötigt. Tabulatoren pauschal durch Kommas zu ersetzen schafft das nicht zuverlässig.
 
-### Mache Tabulatoren und Zeilenumbrüche sichtbar
+## Nutze den Text in Flashcards zunächst als zu prüfenden Entwurf
 
-Wenn du Tabulatoren als Trennzeichen gewählt hast, aktiviere in deinem Editor **Leerraum darstellen**, **unsichtbare Zeichen anzeigen** oder die entsprechende Funktion. Eine gewöhnliche Zeile mit zwei Feldern enthält genau einen Tabulator: links davon steht der Begriff, rechts davon die Definition.
+[Flashcards Open Source App](/features/) hat keinen direkten Quizlet-Importer. In der Web-App kannst du eine TXT- oder CSV-Datei an den KI-Chat anhängen und daraus Kartenentwürfe erstellen lassen. Das ist keine verlustfreie Migration.
 
-Vergleiche die Zahl der nicht leeren Zeilen mit der Kartenzahl in Quizlet. Das funktioniert allerdings nur, wenn jede Karte genau eine Zeile belegt. Weichen die Zahlen voneinander ab, suche nach Leerzeilen, leeren Feldern oder Definitionen mit eigenen Zeilenumbrüchen.
+1. Bewahre die rohe Quizlet-Datei außerhalb der App auf.
+2. Hänge die bereinigte TXT-Datei oder die gezielt erstellte CSV-Datei im KI-Chat von Flashcards an.
+3. Erkläre dem Assistenten, welche Felder und welches Trennzeichen die Datei verwendet.
+4. Bitte zunächst um eine kleine Vorschau und sage ausdrücklich, dass noch keine Karten gespeichert werden sollen.
+5. Vergleiche die vorgeschlagene Kartenzahl sowie Vorder- und Rückseiten mit der Arbeitsdatei.
+6. Speichere nur die Karten, die du geprüft hast.
 
-### Prüfe mehrzeilige Definitionen
+Der [Leitfaden für den Einstieg](/docs/getting-started/) beschreibt den KI-Chat mit Workspace-Daten und Dateianhängen. Ein vorsichtiger Prompt könnte so aussehen:
 
-Ein Zeilenumbruch innerhalb einer Definition sieht genauso aus wie der Zeilenumbruch zwischen zwei Karten. Enthält eine Definition eine Liste oder mehrere Absätze, kann sie deshalb die Struktur „eine Karte pro Zeile“ aufbrechen.
+> Lies diese Datei als tabulatorgetrennte Paare aus Begriff und Definition. Speichere noch keine Karten. Erstelle zunächst eine kleine Stichprobe, behalte den Wortlaut der Quelle und nichtlateinische Zeichen bei und führe fehlerhafte, leere oder mehrdeutige Zeilen separat auf, statt zu raten.
 
-Lass die Rohkopie unverändert. Vergleiche die betroffene Karte mit Quizlet. Danach kannst du die Definition in der Arbeitskopie zu einer Zeile zusammenführen oder in eine Tabellenkalkulation übernehmen, die mehrzeilige Felder korrekt in Anführungszeichen setzt. Anki unterstützt ebenfalls mehrzeilige Felder in Anführungszeichen und HTML-Zeilenumbrüche mit `<br>`, wie weiter unten beschrieben.
+Das ist praktisch, wenn die alten Karten ohnehin bereinigt werden müssen. Es beweist allerdings nicht, dass jede Zeile korrekt übertragen wurde. Arbeite deshalb die Prüfliste in [So korrigierst du KI-generierte Flashcards](/blog/how-to-fix-ai-flashcards/) durch und teste einen kleinen Kartensatz, bevor du den Rest erstellst.
 
-### Suche nach Trennzeichen innerhalb der Inhalte
+In Flashcards erstellte Karten beginnen mit einem neuen Lernverlauf. Der Quizlet-Text enthält weder die bisherigen Wiederholungen noch den Planungsstatus, die für die Fortsetzung des alten Wiederholungsplans nötig wären.
 
-Ein Tabulator in einem Begriff oder einer Definition erzeugt unerwartet ein drittes Feld. Suche deshalb nach Zeilen mit mehr als einem Tabulator. Hast du stattdessen Kommas oder Semikolons gewählt, prüfe sie besonders sorgfältig: In normalem Fließtext kommen sie deutlich häufiger vor.
+> **Hinweis in eigener Sache:** Ich entwickle Flashcards Open Source App. Dieser Ablauf beschreibt die aktuellen Grenzen des Produkts; er verspricht keine vollständige Quizlet-Kompatibilität.
 
-### Öffne die UTF-8-Datei erneut
+## Quizlet zu Anki: Nutze den Textimport von Anki
 
-Schließe den Editor und öffne die gespeicherte Datei noch einmal. Prüfe Wörter mit Akzenten, nicht lateinische Schriften, mathematische Symbole und Zeichen wie typografische Apostrophe. Das Beispielwort `café` muss weiterhin als `café` erscheinen und darf nicht durch Ersatzzeichen oder fehlerhafte Zeichenfolgen beschädigt sein.
+Laut Ankis [offiziellem Handbuch zum Textimport](https://docs.ankiweb.net/importing/text-files.html) kannst du reine UTF-8-Textdateien importieren, deren Felder durch Kommas, Semikolons oder Tabulatoren getrennt sind.
 
-### Prüfe Anfang, Mitte und Ende
+Für eine tabulatorgetrennte Arbeitskopie:
 
-Kontrolliere Zeilen am Anfang, in der Mitte und am Ende sowie besonders lange Definitionen. Suche vor dem Import nach exakten Duplikaten, wiederholten Begriffen, leeren Vorder- oder Rückseiten und Zeilen mit zusätzlichen Feldern.
+1. Öffne den Import in Anki und wähle die UTF-8-Textdatei aus.
+2. Prüfe in der Vorschau, ob Anki den Tabulator erkannt hat. Ändere andernfalls die Trennzeichen-Einstellung.
+3. Wähle den Notiztyp und das Zieldeck.
+4. Ordne das erste Feld der Vorderseite und das zweite der Rückseite zu.
+5. Prüfe die Vorschau auf leere, verschobene oder zusätzliche Felder.
+6. Kontrolliere vor dem Import, wie Anki mit Duplikaten und Aktualisierungen umgehen soll.
 
-Auch die Formatierung braucht eine manuelle Kontrolle. Verlasse dich nicht darauf, dass ein Nur-Text-Export Fettschrift, Kursivschrift, Farben, Layout oder den Kontext eines Bildes überträgt. Hat eine Formatierung die Bedeutung der Karte beeinflusst, formuliere diese Bedeutung ausdrücklich im Text.
+Anki ermittelt die erwartete Anzahl der Felder anhand der ersten Zeile, die kein Kommentar ist. In späteren Datensätzen bleiben fehlende Felder leer; zusätzliche Felder werden nicht importiert. Deshalb ist die Vorschau so wichtig: Schon ein versehentliches Trennzeichen kann die Struktur einer Zeile verändern.
 
-## Weg 1: Quizlet-Text in Flashcards übernehmen
+Für mehrzeilige Definitionen musst du dich ebenfalls für eine Variante entscheiden. Anki unterstützt Felder in Anführungszeichen, die sich über mehrere Zeilen erstrecken. Alternativ kann Anki `<br>` als Zeilenumbruch lesen, wenn **HTML in Feldern zulassen** aktiviert ist. Wähle eine Methode und prüfe sie zuerst mit einer kleinen Kopie der Daten, bevor du die vollständige Datei importierst.
 
-[Flashcards Open Source App](/features/) hat keinen Ein-Klick-Importer für Quizlet oder CSV. Der direkte Import der App ist für das eigene Workspace-Paket vorgesehen. Ein Quizlet-Textexport kann stattdessen als Ausgangsmaterial dienen, aus dem du mit KI-Unterstützung Kartenentwürfe erstellst.
+Anki kann eine importierte Notiz standardmäßig anhand ihres ersten Feldes mit einer vorhandenen Notiz desselben Typs abgleichen. Die übrigen Felder werden dann aktualisiert. In den Importoptionen kannst du Duplikate stattdessen ignorieren oder als neue Notizen hinzufügen. Beim Aktualisieren einer vorhandenen Anki-Notiz kann deren Anki-Zeitplanung erhalten bleiben. Die Quizlet-Zeitplanung wird über die Textdatei jedoch nicht übertragen.
 
-In der Praxis nutzt du den KI-Chat als Entwurfsschritt:
+## Behalte das Original, bis der neue Kartensatz zuverlässig funktioniert
 
-1. Lass die rohe Quizlet-Sicherung im `.txt`-Format unverändert.
-2. Hänge die bereinigte `.txt`-Arbeitsdatei an den KI-Chat in Flashcards an. Eine echte `.csv`-Datei aus einer Tabellenkalkulation funktioniert ebenfalls, wenn du die Daten bewusst konvertiert hast.
-3. Nenne das verwendete Trennzeichen und bitte den Assistenten, fehlerhafte Zeilen zu markieren, statt ihren Inhalt zu erraten.
-4. Vergleiche die vorgeschlagene Kartenzahl sowie alle Vorder- und Rückseiten mit der Arbeitsdatei.
-5. Speichere nur die geprüften Karten, die mit der Quelle übereinstimmen.
+Der offizielle Quizlet-Weg endet bei selbst erstellten Sets auf der Website mit **Text kopieren**. Scraping-Skripte, mutmaßliche private Endpunkte und Downloader von Drittanbietern sind davon getrennte, nicht unterstützte Verfahren. Sie machen aus einer Kopie oder einem Set, das du nur ansehen kannst, keinen offiziellen Export.
 
-Dafür kannst du zum Beispiel diesen Prompt verwenden:
+Wenn du statt einer einmaligen Kopie eine wiederkehrende Automatisierung brauchst, erklärt der [aktuelle Stand der Quizlet-API](/blog/quizlet-api/), welche Möglichkeiten offiziell unterstützt werden. Gehört das Set nicht dir, bitte den Ersteller um eine Quelldatei oder baue aus deinen eigenen Notizen einen kleineren Kartensatz neu auf. [So erstellst du bessere Flashcards](/blog/how-to-make-better-flashcards/) hilft dir, diesen neuen Kartensatz zu verbessern, statt jede alte Zeile zu kopieren.
 
-> Lies diese Datei als tabulatorgetrennte Paare aus Begriff und Definition. Erstelle für jede gültige Zeile den Entwurf einer Karte mit Vorder- und Rückseite. Übernimm den Wortlaut der Quelle und nicht lateinische Zeichen unverändert. Liste fehlerhafte, leere oder mehrdeutige Zeilen separat auf und erfinde keinen fehlenden Text.
+Lösche das ursprüngliche Quizlet-Set erst, wenn:
 
-Im [Getting-Started-Leitfaden](/docs/getting-started/) ist beschrieben, dass die gehostete App einen KI-Chat mit Dateianhängen bietet. Der aktuelle Chat akzeptiert TXT- und CSV-Anhänge. Er erstellt mit KI-Unterstützung Kartenentwürfe; ein direkter oder verlustfreier Import ist das nicht. Prüfe Definitionen mit mehreren Zeilen oder Tabulatoren daher besonders sorgfältig. [So korrigierst du KI-generierte Flashcards](/blog/how-to-fix-ai-flashcards/) enthält eine kompakte Prüfliste dafür.
+- die rohe UTF-8-Datei an einem gesicherten Ort gespeichert ist;
+- die Arbeitsdatei nach dem erneuten Öffnen weiterhin die erwarteten Zeichen und Trennzeichen enthält;
+- mehrzeilige Felder, leere Felder, Duplikate und unregelmäßige Zeilen geprüft wurden;
+- wichtiger Bildkontext aus einer Quelle wiederhergestellt wurde, die du verwenden darfst; und
+- ein kleiner Test im Zielsystem die richtigen Vorder- und Rückseiten ergeben hat.
 
-Offenlegung: Ich entwickle Flashcards Open Source App. Der hier beschriebene Weg bildet die aktuellen Möglichkeiten und Grenzen des Produkts ab. Er ist weder eine neutrale Empfehlung noch ein Versprechen vollständiger Quizlet-Kompatibilität.
-
-## Weg 2: Von Quizlet zu Anki wechseln
-
-Anki kann Textdateien direkt importieren. Laut [offiziellem Handbuch zum Textimport](https://docs.ankiweb.net/importing/text-files.html) unterstützt Anki reine UTF-8-Textdateien mit Tabulatoren, Kommas oder Semikolons als Feldtrennzeichen.
-
-So importierst du eine tabulatorgetrennte Arbeitskopie:
-
-1. Öffne den Import in Anki und wähle die UTF-8-kodierte `.txt`-Datei aus.
-2. Prüfe in den Importoptionen, ob Anki den Tabulator als Feldtrennzeichen erkannt hat. Ändere das Trennzeichen, wenn die Vorschau nicht stimmt.
-3. Wähle den gewünschten Notiztyp und das Zieldeck.
-4. Ordne das erste Textfeld der Vorderseite und das zweite der Rückseite zu.
-5. Prüfe die Vorschau auf verschobene, leere oder zusätzliche Felder.
-6. Lege fest, wie Anki mit Übereinstimmungen und Duplikaten umgehen soll.
-7. Importiere zuerst eine kleine Stichprobe und erst danach das vollständige Set.
-
-Anki leitet die erwartete Zahl der Felder aus der ersten Zeile ab, die kein Kommentar ist. Spätere Datensätze mit weniger Feldern erhalten leere Werte; zusätzliche Felder werden nicht importiert. Solche Verschiebungen solltest du bereits in der Vorschau erkennen und korrigieren.
-
-Für mehrzeilige Definitionen unterstützt Anki Felder in Anführungszeichen, die sich über mehrere Zeilen erstrecken. Wenn **HTML in Feldern zulassen** aktiviert ist, kann Anki außerdem `<br>` als Zeilenumbruch interpretieren. Entscheide dich bewusst für eine der beiden Methoden und kontrolliere die Vorschau. Füge nicht allein deshalb HTML ein, um eine Formatierung zu retten, die schon beim Kopieren aus Quizlet verloren ging.
-
-Standardmäßig erkennt Anki übereinstimmende Notizen desselben Notiztyps anhand des ersten Feldes. Je nach Importoption kann Anki eine vorhandene Notiz aktualisieren, die Übereinstimmung ignorieren oder eine neue Notiz anlegen. Prüfe wiederholte Begriffe vor dem vollständigen Import. Eine unbeabsichtigte Aktualisierung kann andere Felder einer bestehenden Notiz verändern.
-
-## Wiederholungsverlauf und Zeitplanung beginnen von vorn
-
-Der Quizlet-Export enthält Begriffe und Definitionen. Es fehlen jedoch die Daten dazu, was und wann du gelernt hast und wie der Lernalgorithmus jede Karte bewertet hat.
-
-Neue Karten in Flashcards beginnen mit einem neuen FSRS-Zustand. Auch neu in Anki importierte Notizen starten als neues Lernmaterial. Aktualisiert ein Anki-Import eine bereits vorhandene, übereinstimmende Notiz, kann deren bisherige Zeitplanung bestehen bleiben. Sie stammt aber weiterhin nicht aus Quizlet. Keiner der beiden Wege kann aus diesem Export über die Zwischenablage den Quizlet-Lernverlauf rekonstruieren.
-
-Bei einem großen Set, das du schon gut kennst, können die ersten Wiederholungen leichter ausfallen oder häufiger erscheinen als in deinen bisherigen Quizlet-Sitzungen. Übertrage zunächst eine repräsentative Auswahl und beobachte, wie sich die neue Warteschlange verhält, bevor du das gesamte Set migrierst.
-
-## Kopierte Sets, öffentliche Sets und die Rechtefrage
-
-Quizlet erlaubt nicht, ein Set zu exportieren, das du von einem anderen Nutzer kopiert hast. Sichtbarkeit und Erlaubnis sind nicht dasselbe: Ein öffentliches Set darf nicht automatisch an anderer Stelle vervielfältigt werden.
-
-In seinen [Grundlagen zum Urheberrecht](https://help.quizlet.com/hc/en-us/articles/360029925172-Copyright-basics) empfiehlt Quizlet, selbst erstellte Originalinhalte zu veröffentlichen. Eine Wiederverwendung kann demnach zulässig sein, wenn du die Erlaubnis oder eine Lizenz dafür hast, wenn das Material gemeinfrei ist oder wenn eine gesetzliche Ausnahme gilt. Da sich das Urheberrecht je nach Land unterscheidet, ist dieser Artikel keine Rechtsberatung.
-
-Gehört das Set nicht dir, arbeite mit deinen eigenen Ausgangsnotizen, bitte den Ersteller um Erlaubnis oder eine Quelldatei oder formuliere ein kleineres persönliches Deck in eigenen Worten. Scraping oder manuelles Kopieren ist kein Ersatz für die fehlende Exportfunktion.
-
-## Lösche das Quizlet-Set noch nicht
-
-Behalte das Quizlet-Set und lösche auch das dazugehörige Konto erst, wenn alle folgenden Punkte erfüllt sind:
-
-- die unveränderte `.txt`-Rohkopie in UTF-8 liegt an einem gesicherten Ort;
-- die Arbeitsdatei lässt sich nach dem Schließen wieder fehlerfrei öffnen;
-- die erwartete Kartenzahl stimmt mit den geprüften Zeilen überein, wobei mehrzeilige Karten berücksichtigt sind;
-- Tabulatoren, Zeilenumbrüche, Duplikate und leere Felder wurden kontrolliert;
-- Akzente, nicht lateinische Schriften, Symbole und Satzzeichen werden weiterhin korrekt angezeigt;
-- notwendige Bilder oder Bedeutungen aus der ursprünglichen Formatierung wurden anhand von Quellen wiederhergestellt, die du verwenden darfst;
-- ein kleiner Test hat in Flashcards oder Anki die richtigen Vorder- und Rückseiten ergeben;
-- du hast im Zielsystem eine Stichprobe geprüft und akzeptiert, dass die Zeitplanung neu beginnt.
-
-Bewahre die rohe Textdatei auch nach diesen Prüfungen als separates Backup auf. Wenn bei einem späteren Import oder einer Bearbeitung etwas schiefgeht, ist sie die am leichtesten zu kontrollierende Ausgangsversion.
-
-Falls du dich noch für ein Zielsystem entscheiden musst, hilft dir der [Vergleich der Quizlet-Alternativen](/blog/quizlet-alternative/) bei den grundsätzlichen Produktunterschieden. Müssen die exportierten Karten selbst überarbeitet werden, lies vor dem vollständigen Import [So erstellst du bessere Flashcards](/blog/how-to-make-better-flashcards/).
+Bewahre die rohe Textdatei auch danach auf. Sie ist die einfachste unabhängige Referenz, falls bei einem späteren Import etwas falsch aussieht. Wenn du noch überlegst, wohin die Karten sollen, zeigt der [Vergleich der Quizlet-Alternativen](/blog/quizlet-alternative/) die grundsätzlichen Unterschiede.
