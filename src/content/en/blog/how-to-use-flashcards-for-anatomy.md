@@ -43,6 +43,8 @@ That falls apart fast because anatomy contains several different retrieval jobs:
 
 That is why **anatomy and physiology flashcards** can feel uneven. The deck is trying to solve different problems with one template.
 
+If you want a baseline before those retrieval jobs split apart, the [105-card Human Body Systems deck](/catalog/packages/human-body-systems-flashcards/) covers organization levels, the core functions and representative organs of 11 systems, organ-to-system recall, and a few cross-system relationships. It leaves detailed regional anatomy, labeled-image identification, and lab-practical work for the cards you build next.
+
 ## Start from the lab practical, not the chapter title
 
 If the course tests anatomy with pins, tagged photos, or unlabeled models, the deck should start there too.
