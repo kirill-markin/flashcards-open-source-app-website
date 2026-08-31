@@ -95,6 +95,8 @@ traffic evidence.
 
 A port is a convention and a clue, not an identity check. Services can be moved, tunneled, proxied, or misconfigured. Teaching certainty from a number creates exactly the wrong habit for **Network+ troubleshooting**.
 
+If you want a ready-made companion for that retrieval work, the [Common Network Port Numbers flashcards](/catalog/packages/common-network-port-numbers-flashcards/) deck has 88 cards: foundational port concepts plus 38 common service mappings in both directions, including TCP/UDP transports and concise uses. Use the official N10-009 table—not this general networking deck—as your exam-scope check.
+
 You do not need separate forward and reverse cards for every pairing on day one. Start with one direction, then add the reverse only when recall is slow or two services interfere with each other. The [Security+ flashcards guide](/blog/how-to-use-flashcards-for-security-plus/) uses the same approach for protocol and security distinctions.
 
 ## Use subnetting cards for anchors, then calculate fresh networks

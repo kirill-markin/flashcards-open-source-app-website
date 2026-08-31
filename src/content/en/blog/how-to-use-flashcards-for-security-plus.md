@@ -130,6 +130,8 @@ The last type matters more than people expect. Pure number cards help, but compa
 
 I also like reversal cards only for the ports I keep missing. If `LDAPS -> 636` keeps slipping, then `636 -> LDAPS` deserves its own card. If a port never causes a miss, I would not force it into extra review just for completeness.
 
+If you want a ready-made base before adding your own misses, [Common Network Port Numbers flashcards](/catalog/packages/common-network-port-numbers-flashcards/) provides 88 cards on foundational port concepts and 38 common service mappings in both directions, including TCP/UDP transports and concise uses. Use it as a general networking companion rather than an SY0-701 scope checklist.
+
 ## Acronyms need translation, not just expansion
 
 Acronym-heavy exams punish fake familiarity. You see the letters, you feel a little confident, and then the answer choices expose that you never built a usable meaning.
