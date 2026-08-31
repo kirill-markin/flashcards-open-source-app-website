@@ -134,6 +134,8 @@ Source: Course glossary; checked with MedlinePlus Appendix B
 
 Do not convert that into “How should I abbreviate blood pressure?” unless the course or institution explicitly requires production and approves the form. Recognition and permission to write an abbreviation are separate questions.
 
+For a premade example of that split, the [Medical Abbreviation Flashcards deck](/catalog/packages/medical-abbreviation-flashcards/) is an independently authored, source-reviewed English study set with 80 recognition cards, four bounded production cards, and six safety and context cards. Its 90 cards are unofficial study material, not a clinical decision-making tool.
+
 Risky abbreviations need another card design. [The Joint Commission's current Do Not Use page](https://www.jointcommission.org/en-us/knowledge-library/support-center/standards-interpretation/do-not-use-list-of-abbreviations) says the prohibited list remains in Information Management standard IM.02.02.01 for hospitals and hospital clinics, and it points readers to ISMP for additional error-prone abbreviations. That is a defined scope, not a claim that every abbreviation is banned in every setting.
 
 For safety items, test the risk and the safer wording:
@@ -174,7 +176,7 @@ The same division matters at program scale. The [nursing-school flashcards guide
 
 Optional AI-assisted creation can draft cards from the material you provide, and you control what gets saved. Check every generated term, split, spelling, definition, abbreviation, and source against the controlling material before saving it. AI output is not clinical validation. Do not upload patient records, identifiers, or other protected data to generate study cards.
 
-The hosted app is free. Study is offline-first with sync across the web, iOS, and Android, and portable export helps you move cards, tags, and related media. The project is MIT licensed and supports self-hosting. It does not provide an official premade medical deck, medical fact validation, or a dedicated audio-card feature. The [Getting Started guide](/docs/getting-started/) covers creating cards and beginning due reviews.
+The hosted app is free. Study is offline-first with sync across the web, iOS, and Android, and portable export helps you move cards, tags, and related media. The project is MIT licensed and supports self-hosting. It does not provide medical fact validation or a dedicated audio-card feature. The [Getting Started guide](/docs/getting-started/) covers creating cards and beginning due reviews.
 
 ## Medical terminology flashcards FAQ
 
