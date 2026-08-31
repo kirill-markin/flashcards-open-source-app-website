@@ -76,7 +76,7 @@ I would usually build **drug class flashcards** in this order:
 4. one high-yield adverse effect
 5. one common confusion
 
-That gives each later fact a place to live.
+That gives each later fact a place to live. The [126-card Pharmacology Drug Class Flashcards deck](/catalog/packages/pharmacology-drug-class-flashcards/) applies this class-first structure to mechanisms, qualified generic-name patterns, common uses, and major safety concepts; it is study material, not for clinical decision-making.
 
 Examples of useful early prompts:
 
