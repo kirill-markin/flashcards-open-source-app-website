@@ -1,152 +1,141 @@
 ---
-title: "Alternativa a RemNote en 2026: RemNote vs Anki vs Flashcards"
-description: "¿Buscas una alternativa a RemNote? Compara RemNote vs Anki vs Flashcards en notas, PDF, FSRS, estudio sin conexión, migración, precios y autoalojamiento."
+title: "Alternativas a RemNote en 2026: opciones gratuitas y de código abierto"
+description: "Compara las alternativas a RemNote según cómo gestionan notas, PDF y tarjetas, su precio y el autoalojamiento. Descubre qué puedes migrar, qué se pierde y cómo ensayar un cambio seguro."
 date: "2026-03-19"
-updated: "2026-08-02"
+updated: "2026-08-31"
 image: "/blog/remnote-alternative.png"
 keywords:
   - "alternativa a remnote"
-  - "alternativa a remnote 2026"
+  - "alternativas a remnote"
+  - "remnote código abierto"
+  - "alternativa gratuita a remnote"
   - "remnote vs anki"
-  - "remnote vs flashcards"
   - "alternativa a remnote de código abierto"
   - "alternativa a remnote autoalojada"
-  - "app de flashcards con fsrs"
   - "app de flashcards sin conexión"
 ---
 
-La versión anterior de este artículo contenía un error importante: presentaba FSRS como un motivo para dejar RemNote. Ahora RemNote documenta FSRS-6 en beta, con activación manual y entrenamiento automático de los pesos. Anki y Flashcards también usan FSRS. Por tanto, la pregunta útil al buscar una **alternativa a RemNote** en 2026 es qué flujo de trabajo prefieres: ¿notas conectadas y lectura de PDF, un sistema de tarjetas maduro o un entorno de tarjetas de código abierto más sencillo?
+RemNote llama **Flashcards Only** («Solo tarjetas») a su exportación para Anki. Las viñetas que no contienen tarjetas se omiten, y el paquete no incluye tus notas enlazadas, tus PDF ni el flujo de trabajo de Reader. Una alternativa puede importar todas las preguntas y respuestas y, aun así, dejar atrás el sistema que daba sentido a esas tarjetas.
 
-> **Nota de transparencia:** Soy Kirill Markin y desarrollo [Flashcards](/), uno de los productos de esta comparativa. Eso no significa que sea automáticamente la mejor opción. RemNote ofrece el flujo nativo de notas y PDF más sólido de los tres. Anki tiene el sistema de tarjetas y el ecosistema de escritorio más maduros, además de las mejores opciones de migración y el mayor control sobre la programación de los repasos.
+La mejor **alternativa a RemNote** es la que resuelve tu motivo para cambiar sin quitarte por el camino la parte de RemNote que todavía funciona. Para algunas personas, el problema es el precio. Para otras, son los archivos locales normales, un sistema de tarjetas más completo o un código fuente que puedan ejecutar por su cuenta.
 
-**Datos comprobados:** 2 de agosto de 2026. Los importes que aparecen a continuación son los precios públicos de EE. UU. o los precios publicados disponibles en esa fecha. Los impuestos, los precios regionales, la facturación a través de las tiendas de aplicaciones y las condiciones de las funciones beta pueden variar.
+> **Aviso:** Soy Kirill Markin y desarrollo [Flashcards](/es/), uno de los productos que se comparan aquí. Flashcards no sustituye a RemNote por completo. RemNote ofrece el flujo integrado de notas y PDF más sólido de esta comparación, mientras que Anki tiene el sistema de tarjetas y los formatos de migración más maduros.
 
-![Comparación de alternativas a RemNote: RemNote vs Anki vs Flashcards para notas, PDF, FSRS, estudio sin conexión y autoalojamiento](/blog/remnote-alternative.png)
+**Datos y precios comprobados:** 31 de agosto de 2026. Los importes indicados corresponden a los precios públicos de EE. UU. y a la facturación anual cuando así se especifica; los impuestos, la región, las tiendas de aplicaciones y las condiciones de la beta pueden cambiar el precio.
 
-## La respuesta breve
+![Una conservadora de archivo prueba a transferir una pequeña muestra de un dosier de estudio enlazado e intacto a sistemas separados de fichas, archivos y bloques](/blog/remnote-alternative.png)
 
-- Elige **RemNote** cuando las notas sean el centro de tu sistema. Sus viñetas y documentos permiten crear tarjetas, mientras que su Reader mantiene conectados los subrayados de los PDF, las notas, las referencias y las tarjetas.
-- Elige **Anki** cuando el centro sean las tarjetas. Ofrece plantillas maduras, controles de FSRS, aplicaciones nativas de escritorio, formatos de migración consolidados y un gran ecosistema de complementos.
-- Elige **Flashcards** si quieres tarjetas sencillas de anverso y reverso en Markdown dentro de una plataforma web y móvil con licencia MIT. Funciona sin conexión por diseño y permite autoalojar toda la pila tecnológica, pero no tiene una base de conocimientos para notas, lector de PDF, aplicación nativa de escritorio ni importación directa desde RemNote o Anki.
-- Conserva tu sistema actual si ninguna de estas diferencias resuelve un problema real. Una interfaz nueva rara vez compensa la pérdida de años de historial de repasos.
+## Empieza por aclarar por qué quieres cambiar
 
-## RemNote vs Anki vs Flashcards
+- **Precio:** Comprueba si RemNote Free ya cubre tu flujo de trabajo real. No pone límites a las notas, las flashcards ni los dispositivos sincronizados, pero sí restringe la cantidad de documentos anotados y algunas funciones avanzadas.
+- **Un flujo de tarjetas demasiado ligado a las notas:** Prueba Anki. Allí, las tarjetas, las plantillas, las importaciones y FSRS pueden ocupar el centro del sistema.
+- **Archivos locales de notas en Markdown:** Divide el trabajo entre Obsidian para las notas y Anki para los repasos. La integración es menor, pero queda mucho más claro dónde están tus datos y quién los controla.
+- **Notas conectadas de código abierto, con PDF y tarjetas integradas:** Logseq es la opción más parecida, con una salvedad importante en 2026: su nueva versión de base de datos está en beta, su nueva app para iOS y la sincronización en tiempo real están en fase alfa, y su nueva app para Android todavía no está disponible para pruebas.
+- **Código fuente y autoalojamiento para un sistema centrado en tarjetas:** Plantéate Flashcards si te bastan las tarjetas de anverso y reverso, aceptas empezar con una programación nueva y estás dispuesto a asumir una carga operativa considerable en AWS.
+- **Lectura de PDF, subrayados enlazados y tarjetas en un solo lugar:** Quédate con RemNote. Ninguna de las otras opciones reproduce bien ese flujo de trabajo.
 
-| Pregunta | RemNote | Anki | Flashcards |
-|---|---|---|---|
-| Para quién encaja mejor | Quien estudia a partir de notas conectadas y documentos fuente | Quien busca un sistema de tarjetas maduro y configurable | Quien quiere tarjetas sencillas en una plataforma web y móvil abierta |
-| Flujo de trabajo principal | Centrado en las notas: las viñetas, los documentos y las referencias pueden generar tarjetas | En la práctica, centrado en las tarjetas; las notas con campos generan tarjetas mediante plantillas | Centrado en las tarjetas: anverso y reverso en Markdown, con mazos, etiquetas y contenido multimedia |
-| Notas y PDF | Base de conocimientos, enlaces entrantes/referencias y un lector de PDF con subrayados vinculados | Sin base de conocimientos para notas ni lector de PDF integrados | Sin base de conocimientos para notas, enlaces entrantes ni lector de PDF; el chat con IA en línea puede preparar borradores de tarjetas a partir de PDF y notas adjuntos |
-| FSRS | FSRS-6 en beta, con activación manual; puede entrenar los pesos a partir del historial de repasos | Controles de FSRS maduros, optimizador de parámetros, retención deseada y simulador | FSRS-6 con cuatro botones de repaso y opciones configurables de retención, pasos, intervalo máximo y variación aleatoria; un conjunto fijo de pesos y ningún optimizador personal |
-| Aplicaciones | Web, Windows, macOS, Linux, iOS y Android | Windows, macOS, Linux, AnkiWeb, la aplicación oficial de pago AnkiMobile y la aplicación gratuita e independiente AnkiDroid | Web, iOS y Android; sin aplicación nativa de escritorio |
-| Sin conexión | Buen funcionamiento en escritorio y móvil; los PDF o archivos multimedia que no estén en caché pueden no estar disponibles en móvil o web, y la versión web no puede arrancar sin conexión | Las colecciones locales de escritorio y móvil funcionan sin conexión; la sincronización es opcional | Las tarjetas, las ediciones y los repasos funcionan sin conexión por diseño; la IA y la transferencia de paquetes a través de la nube requieren acceso a internet y una cuenta en la nube |
-| Importación | Copias de seguridad de RemNote, contenido e historial de repasos de Anki, Markdown, Obsidian, Dynalist y Workflowy | Texto, `.apkg`, `.colpkg` y Mnemosyne | Solo su propio paquete de contenido `flashcards.zip`; sin importación directa desde Anki o RemNote |
-| Exportación | Formato nativo, OPML, `.apkg` de Anki solo para tarjetas, HTML, Markdown y texto; la exportación nativa actualmente omite las imágenes y los PDF | Texto, `.apkg` y `.colpkg` | Su propio `flashcards.zip`: tarjetas activas, etiquetas y archivos multimedia referenciados; sin historial de repasos, estado de FSRS, configuración, estructura completa de mazos ni datos de la cuenta |
-| Precio comprobado el 2 de agosto de 2026 | Gratis; Pro: 8 US$/mes con facturación anual; Pro+AI: 18 US$/mes con facturación anual | Escritorio, AnkiWeb y AnkiDroid gratis; AnkiMobile: pago único de 24,99 US$ en EE. UU. | Aplicación alojada gratis durante la beta; software autoalojado gratis más costes de infraestructura y proveedores |
-| Código abierto / autoalojamiento | Propietario; bases de conocimientos locales solo en escritorio, sin autoalojamiento oficial del servicio completo | Clientes de código abierto y servidor oficial de sincronización autoalojado, pero no todo AnkiWeb | Licencia MIT; despliegue integral compatible para producción mediante AWS CDK |
+Es fácil pasar por alto esta última respuesta. Cambiar no es avanzar si la alternativa resuelve una preocupación por la licencia, pero estropea la sesión de estudio de mañana.
 
-La tabla muestra mejor el coste de cambiar de herramienta que quién gana la comparativa. Un estudiante que trabaja mucho con PDF puede perder más al dejar RemNote de lo que gana con otro sistema de programación de repasos. Un usuario de Anki con tipos de nota personalizados y años de historial quizá obtenga poco a cambio de una interfaz más limpia. Quien necesite notas vinculadas no debería esperar que una aplicación centrada en tarjetas acabe convirtiéndose en un cuaderno.
+## Alternativas a RemNote: matriz de decisión
 
-## La decisión principal: centrarse en las notas o en las tarjetas
+| Opción | Mejor motivo para elegirla | Notas y PDF | Planificador de repasos | Uso sin conexión y control de los datos | Precio comprobado el 31 de agosto de 2026 | Principal límite de la migración |
+|---|---|---|---|---|---|---|
+| **Seguir con RemNote** | Las notas conectadas, la lectura de fuentes y las tarjetas deben estar juntas | Base de conocimientos integrada y Reader con subrayados de PDF, notas y tarjetas enlazados | FSRS-6 en beta, con activación manual y entrenamiento de pesos; SM-2 sigue siendo la opción predeterminada | Las apps de escritorio y móvil funcionan sin conexión después de iniciar sesión; en escritorio se pueden crear bases de conocimientos exclusivamente locales | Gratis; Pro: 8 US$/mes con facturación anual; Pro con IA: 18 US$/mes con facturación anual | La exportación nativa es la mejor opción para restaurar datos en RemNote, pero actualmente omite imágenes y PDF |
+| **Anki** | Las tarjetas, las plantillas, los complementos y la fidelidad de la colección son lo primero | No integra un espacio de trabajo de notas conectadas ni lectura de PDF | Controles maduros de FSRS, parámetros optimizados, retención deseada y simulación de carga de trabajo | Colecciones locales en escritorio y móvil; núcleo de escritorio de código abierto y servidor oficial de sincronización autoalojado | Escritorio, AnkiWeb y AnkiDroid son gratis; la app oficial AnkiMobile es de pago en iOS | RemNote exporta las tarjetas a `.apkg`, no todo el sistema de notas; verifica los datos de programación y el contenido multimedia con una importación de prueba |
+| **Obsidian + Anki** | Quieres notas locales en Markdown sin renunciar a un planificador de repasos maduro | Obsidian gestiona las notas y los archivos adjuntos locales; Anki gestiona las tarjetas; no hay un único flujo integrado desde Reader hasta el repaso | FSRS de Anki | Bóveda local de Markdown y colección local de Anki; Obsidian es gratis, pero propietario | Obsidian gratis; Sync opcional desde 4 US$/mes con facturación anual; precios de Anki indicados arriba | Las exportaciones de RemNote a Markdown y Anki crean dos sistemas; los enlaces activos de RemNote entre notas, fuentes y tarjetas no se convierten en un único flujo portátil |
+| **Logseq** | Buscas específicamente una herramienta de esquemas de código abierto, centrada en las notas, con PDF y tarjetas integradas | Bloques enlazados, anotaciones en PDF y repasos de tarjetas con cuatro valoraciones | Planificador integrado de cuatro valoraciones; [la documentación relaciona su nuevo algoritmo](https://github.com/logseq/docs/blob/master/db-version.md#cards) con el proyecto FSRS original | App con licencia AGPL; los datos de la versión de base de datos pueden exportarse como SQLite, EDN o Markdown estándar con pérdidas | App gratuita y de código abierto | La versión de base de datos actual está en beta; su nueva app para iOS y la sincronización en tiempo real están en fase alfa, la nueva app para Android todavía no está disponible para pruebas y el estado SRS del Logseq antiguo no es compatible con el nuevo algoritmo de tarjetas |
+| **Flashcards** | Quieres tarjetas sencillas en una plataforma de código abierto para web, móvil y backend | Sin base de conocimientos para notas, backlinks, lector de PDF ni app nativa de escritorio | FSRS-6 con pesos fijos y menos controles de ajuste que Anki o RemNote | Clientes web, iOS y Android diseñados para funcionar sin conexión; pila tecnológica completa con licencia MIT y una vía de producción en AWS | App alojada gratis durante la beta; el autoalojamiento añade costes de infraestructura y proveedores | Sin importador directo de RemNote o Anki; el contenido puede reconstruirse, pero el historial de repasos y el estado de FSRS no se transfieren |
 
-RemNote parte de una base de conocimientos. Según su documentación, [todo lo que escribes en RemNote es una viñeta](https://help.remnote.com/en/articles/8017859-bullets) y [cualquier viñeta puede convertirse en una tarjeta](https://help.remnote.com/en/articles/8663109-flashcard-basics). El esquema de una clase, un concepto vinculado, un fragmento de una fuente y una pregunta de repaso pueden convivir en una misma estructura.
+Esta tabla no pretende puntuar las funciones. Un estudiante que trabaja mucho con PDF puede perder más al cambiar a la opción «más abierta» de lo que gana con su licencia. Alguien con un mazo sencillo de vocabulario quizá esté pagando por un sistema de notas que ya no usa. Empieza por la fila que refleje lo que necesitas y después pon a prueba los límites de la migración.
 
-Este enfoque funciona bien si escribir te ayuda a comprender el material antes de decidir qué merece un repaso. La jerarquía y las referencias pasan a formar parte del sistema de estudio. Si esa estructura ya te resulta útil, sustituir RemNote por una aplicación sencilla de tarjetas supone renunciar a una función importante, no simplificar el sistema.
+Gratis y de código abierto son dos filtros distintos. RemNote Free y Obsidian no cuestan nada en su versión básica, pero son productos propietarios. El núcleo de Anki para escritorio, Logseq y Flashcards tienen el código fuente publicado; AnkiMobile sigue siendo una app de pago para iOS, y autoalojar Flashcards también genera costes en la nube.
 
-Anki también se basa en notas, pero allí una «nota» es un registro compuesto por campos. Las [plantillas de tarjetas en HTML/CSS](https://docs.ankiweb.net/templates/intro.html) convierten esos campos en una o varias tarjetas de repaso. Es un sistema potente para estudiar vocabulario en ambos sentidos, usar patrones cloze, añadir audio y crear diseños especializados. No es una base de conocimientos conectada para apuntes de clase o material de investigación.
+## Quédate con RemNote cuando el producto sea el flujo conectado
 
-Las [funciones de Flashcards](/features/) siguen el modelo más limitado de los tres: anverso, reverso, Markdown, mazos, etiquetas y archivos multimedia referenciados. No hay enlaces entrantes, notas extensas ni variantes de tarjetas generadas mediante plantillas. Esa sencillez encaja bien con una colección nueva de tarjetas de anverso y reverso. En cambio, Flashcards es un mal sustituto si dependes de la base de conocimientos de RemNote.
+RemNote reúne pasos que la mayoría de las alternativas separan. Con su [Reader](https://help.remnote.com/en/articles/6690975-learning-from-pdfs-and-files-with-the-remnote-reader) puedes mantener un PDF abierto junto a las notas, pegar referencias que apuntan al subrayado exacto y convertir esas notas o subrayados en flashcards. El plan Free permite anotar tres documentos; la [página de precios](https://www.remnote.com/pricing) actual incluye documentos anotados sin límite en Pro.
 
-En la comparación **RemNote vs Anki**, elige RemNote cuando las tarjetas deban permanecer dentro de un conjunto más amplio de notas. Elige Anki cuando los campos estructurados y las plantillas de tarjetas importen más que el cuaderno que las rodea. En **RemNote vs Flashcards**, la diferencia es todavía más clara: un espacio de estudio conectado frente a otro centrado en tarjetas de anverso y reverso.
+Su planificador de repasos ya no es un motivo evidente para cambiar. RemNote documenta ahora [FSRS-6](https://help.remnote.com/en/articles/9124137-the-fsrs-spaced-repetition-algorithm) como una opción beta que se activa manualmente. Después de al menos 1.000 repasos, RemNote puede entrenar los pesos con tu propio historial. Anki sigue ofreciendo controles más avanzados, pero quien esté cómodo con las notas y los PDF de RemNote no necesita abandonarlos solo para usar FSRS.
 
-## RemNote es la opción clara para estudiar con PDF
+El funcionamiento sin conexión también va más allá de «funciona en una pestaña abierta del navegador». Las [apps de escritorio y móvil de RemNote](https://help.remnote.com/en/articles/6752029-offline-mode) permiten editar notas y repasar tarjetas sin conexión después de instalarlas e iniciar sesión. La app de escritorio conserva una copia local completa de las imágenes y los PDF. En móvil y web pueden faltar los archivos multimedia que no estén en caché, y la app web no puede arrancar sin conexión si la pestaña se ha cerrado o recargado.
 
-El Reader de RemNote permite [abrir un PDF, mantener los subrayados vinculados a su fuente y convertir la lectura en notas o tarjetas](https://help.remnote.com/en/articles/6690975-learning-from-pdfs-and-files-with-the-remnote-reader). Ni Anki ni Flashcards ofrecen un flujo de lectura nativo equivalente.
+Si has empezado esta búsqueda por una **alternativa gratuita a RemNote**, prueba el plan Free antes de cambiar. Si el problema es el acceso al código fuente, el modo local no equivale a código abierto ni a autoalojamiento. La guía específica sobre [si RemNote es de código abierto](/es/blog/is-remnote-open-source/) explica este límite en detalle.
 
-Las cuentas gratuitas de RemNote permiten [anotar un total de tres PDF](https://help.remnote.com/en/articles/6690972-uploading-pdfs-to-remnote). El plan Pro elimina ese límite. Tres PDF bastan para probar el flujo de trabajo, pero no para mucho más si los artículos académicos o los libros de texto son esenciales para tus estudios.
+## RemNote frente a Anki: elige qué ocupa el centro
 
-Anki no incorpora un lector de PDF ni una capa de anotaciones. Los complementos y las herramientas externas pueden cubrir esa carencia, pero quedan fuera del producto principal. Anki tiene más sentido como destino de preguntas ya elaboradas que como lugar donde leer y anotar un artículo.
+La distinción útil al comparar **RemNote frente a Anki** no es «notas frente a ausencia de notas». Anki también almacena notas, pero una nota de Anki es un conjunto de campos que las [plantillas de tarjetas](https://docs.ankiweb.net/templates/intro.html) convierten en tarjetas de repaso. RemNote parte de documentos y viñetas conectadas que pueden convertirse en tarjetas. Uno es un sistema maduro para producir tarjetas; el otro, un espacio de estudio organizado alrededor de notas y fuentes.
 
-El chat con IA de Flashcards acepta PDF y notas, y propone tarjetas de anverso y reverso para que las revises. El [límite actual para los archivos adjuntos que no son imágenes en el cliente web](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/apps/web/src/chat/attachments/FileAttachment.tsx) es de 3 MiB, y el flujo con IA requiere conexión. No guarda la posición de lectura, no permite subrayar un PDF ni vincula una tarjeta guardada con una anotación. Si tu ciclo es «leer, subrayar, conectar y repasar», quédate con RemNote.
+Elige Anki cuando lo esencial sean los campos personalizados, los distintos tipos de tarjeta generados, las plantillas HTML/CSS, los complementos o el historial de repasos acumulado durante años. Su [configuración actual de FSRS](https://docs.ankiweb.net/deck-options.html#fsrs) incluye la optimización de parámetros, la retención deseada y la simulación de carga de trabajo. Sus [exportaciones](https://docs.ankiweb.net/exporting.html) pueden conservar una colección completa en `.colpkg`, mientras que los paquetes de mazos `.apkg` pueden incluir información de programación, preajustes y contenido multimedia.
 
-## FSRS ya no es un motivo para dejar RemNote
+RemNote permite dar el salto a Anki, pero la etiqueta es importante: la [exportación a Anki se llama «Flashcards Only»](https://help.remnote.com/en/articles/7898019-exporting-notes). Se excluyen las viñetas que no contienen tarjetas. RemNote conserva el contexto de los elementos superiores en las tarjetas exportadas y simplifica el comportamiento de las preguntas de opción múltiple, pero esa exportación no es tu base de conocimientos, tu biblioteca de PDF ni tu flujo de lectura completo. La página oficial de exportación de RemNote tampoco promete que todos los datos de programación lleguen a Anki. Haz una prueba antes de considerar que la migración no tiene pérdidas.
 
-La [documentación de FSRS de RemNote](https://help.remnote.com/en/articles/9124137-the-fsrs-spaced-repetition-algorithm) describe FSRS-6 como un sistema de programación personalizado, todavía en beta, que debe activarse manualmente. Puede entrenar los pesos a partir del historial de repasos cuando ya hay suficientes datos. RemNote sigue indicando que SM-2 es la opción predeterminada, así que disponer de FSRS no significa que todas las cuentas ya lo utilicen.
+Anki es la opción más sólida de esta lista si las tarjetas son lo primero. No es el sustituto más directo de RemNote Reader. Si todavía anotas artículos y escribes notas conectadas, combínalo con una herramienta de notas en lugar de forzar a Anki a convertirse en una. La [guía más amplia de alternativas a Anki](/es/blog/best-anki-alternatives/) incluye más opciones centradas en tarjetas.
 
-Anki ofrece el conjunto de herramientas FSRS más maduro de esta comparativa. Su [configuración de FSRS](https://docs.ankiweb.net/deck-options.html#fsrs) integrada incluye la retención deseada, un optimizador de parámetros que ajusta los pesos al historial de repasos y un simulador para estimar la carga de trabajo. Cada preajuste puede usar parámetros entrenados diferentes.
+## Obsidian más Anki: archivos locales y una división deliberada
 
-Flashcards usa FSRS-6 con los botones Again, Hard, Good y Easy. La configuración del espacio de trabajo permite ajustar la retención deseada, los pasos de aprendizaje y reaprendizaje, el intervalo máximo y la variación aleatoria. El producto utiliza un conjunto fijo de pesos y carece de un optimizador que los adapte al historial de cada usuario. La [guía de programación con FSRS](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/docs/fsrs-scheduling-logic.md) documenta tanto estos controles como esa limitación.
+Algunas personas que buscan alternativas a RemNote no necesitan otra app que lo haga todo. Quieren notas que sigan siendo archivos normales y un sistema de repasos que pueda madurar por separado. Obsidian más Anki es la forma más limpia de dividir esas funciones.
 
-La conclusión práctica es sencilla: RemNote ofrece ahora una vía creíble para usar FSRS, Anki permite el ajuste más profundo y Flashcards ofrece una implementación fija de FSRS-6 con menos opciones de personalización. Lee [FSRS vs SM-2](/blog/fsrs-vs-sm-2/) si el sistema de programación es tu principal preocupación. Pero no abandones RemNote porque una comparativa antigua afirme que carece de FSRS.
+[Obsidian guarda las notas](https://obsidian.md/help/Files%2Band%2Bfolders/How%2BObsidian%2Bstores%2Bdata) como texto sin formato Markdown en una carpeta local. La app es gratuita y no requiere cuenta; [Obsidian Sync](https://obsidian.md/pricing), que es opcional, parte de 4 US$ al mes con facturación anual. Obsidian no es de código abierto, pero los archivos de notas se pueden leer directamente y respaldar con herramientas normales de gestión de archivos.
 
-## Estudio sin conexión y disponibilidad de aplicaciones
+Usa la exportación Markdown de RemNote para las notas y su exportación `.apkg` para las tarjetas. Prepárate para limpiar el resultado. Un esquema jerárquico exportado como Markdown legible no equivale a las referencias, los portales, las plantillas ni los marcadores de PDF activos de RemNote. Además, cuando las notas y las tarjetas viven en dos apps, los cambios dejan de propagarse automáticamente entre ellas.
 
-RemNote está disponible en la web, Windows, macOS, Linux, iOS y Android. Su [documentación sobre el modo sin conexión](https://help.remnote.com/en/articles/6752029-offline-mode) indica que las aplicaciones de escritorio y móvil funcionan sin conexión después de iniciar sesión. La aplicación de escritorio guarda localmente todos los archivos multimedia y PDF. En móvil y web, los archivos que nunca se hayan almacenado en caché pueden no estar disponibles, y la aplicación web no puede arrancar sin conexión.
+Esta opción funciona cuando controlar tus archivos locales pesa más que un ciclo fluido de «subrayar, enlazar, crear una tarjeta y repasar». No compensa si ese ciclo es precisamente el motivo por el que elegiste RemNote.
 
-Por eso, la aplicación de escritorio es la opción más fiable de RemNote para disponer de una base de conocimientos completa sin conexión. Los repasos en el móvil también funcionan bien sin conexión, pero esa posibilidad no garantiza que un PDF antiguo que nunca se guardó en caché ya esté en el teléfono.
+## Logseq: la opción de código abierto centrada en notas está en transición
 
-Anki guarda las colecciones de forma local en sus aplicaciones para Windows, macOS y Linux. La aplicación oficial AnkiMobile para iOS y la aplicación independiente AnkiDroid para Android también permiten repasar sin conexión; la sincronización mediante AnkiWeb está disponible cuando la necesites. La [página oficial de aplicaciones de Anki](https://apps.ankiweb.net/) explica las diferencias entre plataformas y ayuda a evitar aplicaciones ajenas con nombres parecidos.
+Logseq merece aparecer en una comparación de **alternativas a RemNote de código abierto** porque realmente se centra en las notas. El [repositorio oficial con licencia AGPL](https://github.com/logseq/logseq) describe una app de gestión del conocimiento con bloques enlazados y anotación de PDF. La [documentación actual de la versión de base de datos](https://github.com/logseq/docs/blob/master/db-version.md#cards) añade tarjetas integradas: etiqueta un bloque, consulta cuándo toca repasarlo y valóralo con una de cuatro opciones.
 
-Flashcards tiene clientes publicados para la web, [iOS](https://apps.apple.com/us/app/flashcards-open-source-app/id6760538964) y [Android](https://play.google.com/store/apps/details?id=com.flashcardsopensourceapp.app). Las tarjetas, las ediciones y los repasos se guardan primero en el dispositivo y se sincronizan al recuperar la conexión. En un ordenador hay que usar el cliente web porque no existe una aplicación nativa de escritorio. El chat con IA y la importación o exportación de paquetes a través de la nube requieren conexión a internet y una cuenta en la nube. Si necesitas un cliente nativo de escritorio o archivos fuente completos disponibles en local, elige Anki o RemNote.
+El estado actual importa más que la lista de funciones. El propio repositorio de Logseq indica que la versión de base de datos está en beta y que su nueva app para iOS y la sincronización en tiempo real están en fase alfa; la documentación actual de la versión de base de datos señala que la app para Android todavía no está disponible para pruebas alfa. Logseq advierte expresamente de que se pueden perder datos y recomienda usar un grafo de prueba que no sea crítico, además de guardar copias de seguridad. Sus [notas sobre los cambios en la versión de base de datos](https://github.com/logseq/docs/blob/master/db-version-changes.md#high-level-changes) también indican que el nuevo algoritmo de tarjetas no importa las propiedades ni los datos SRS de las flashcards antiguas de Logseq.
 
-## La importación y la exportación determinan si cambiar es viable
+La portabilidad exige la misma precisión. La [documentación actual sobre la exportación de la versión de base de datos](https://github.com/logseq/docs/blob/master/db-version.md#export-and-import) ofrece SQLite con archivos, EDN y Markdown estándar. Indica que EDN es la única exportación editable que captura por completo los datos del grafo, pero no recomienda usar EDN como única copia de seguridad. El Markdown estándar omite propiedades y marcas temporales.
 
-RemNote ofrece una vía práctica para pasarse a un sistema centrado en las notas. Sus [importadores](https://help.remnote.com/en/articles/6330674-notes-on-remnote-importers) admiten copias de seguridad de RemNote, contenido e historial de repasos de Anki, Markdown, Obsidian, Dynalist y Workflowy. El CSS personalizado de Anki no se importa, así que comprueba los mazos con estilos después de migrarlos.
+Por tanto, Logseq es la opción que conviene evaluar cuando importan a la vez el código abierto, las notas enlazadas, los PDF y las tarjetas integradas. No es la opción que usaría para trasladar en un solo día una base de conocimientos crítica para unos estudios de Medicina en agosto de 2026. Primero pruébalo en paralelo con RemNote y espera a que la transición actual se estabilice en los dispositivos que realmente usas.
 
-Las [opciones de exportación de RemNote](https://help.remnote.com/en/articles/7898019-exporting-notes) incluyen su formato nativo, OPML, `.apkg` de Anki solo para tarjetas, HTML, Markdown y texto. Una exportación a Anki limitada a las tarjetas no incluye todo el sistema de notas. Y, lo que es más importante, la exportación nativa de RemNote omite actualmente las imágenes y los PDF. Si esos documentos son importantes para tu archivo, conserva los originales fuera de la aplicación.
+## Flashcards: código abierto en toda la pila, modelo de estudio limitado
 
-Anki importa texto, mazos `.apkg`, colecciones `.colpkg` y datos de Mnemosyne. También exporta texto, `.apkg` y `.colpkg`. Sus manuales de [importación](https://docs.ankiweb.net/importing/intro.html) y [exportación](https://docs.ankiweb.net/exporting.html) detallan qué conserva cada formato. Para una colección convencional de tarjetas, estos formatos consolidados ofrecen más opciones de migración que los otros dos productos.
+Flashcards plantea casi el equilibrio opuesto a RemNote. Sus [funciones](/es/features/) se centran en tarjetas de anverso y reverso en Markdown, mazos, etiquetas, contenido multimedia, repasos con FSRS, clientes diseñados para funcionar sin conexión y creación de borradores de tarjetas asistida por IA. No tiene una base de conocimientos de notas conectadas, lector de PDF, app nativa de escritorio ni importador directo de RemNote.
 
-Flashcards solo importa y exporta su propio paquete de contenido `flashcards.zip`. La [documentación sobre portabilidad de datos](/docs/self-hosting/#data-portability) explica que contiene las tarjetas activas, las etiquetas y los archivos multimedia referenciados. No incluye el historial de repasos, el estado de FSRS, la configuración del espacio de trabajo, la estructura completa de los mazos, los datos de la cuenta ni una copia de seguridad completa del espacio de trabajo. No hay un importador directo de Anki o RemNote.
+El código abierto abarca toda la pila: el repositorio con licencia MIT incluye web, iOS, Android, autenticación, backend, sincronización e infraestructura. La [guía oficial de autoalojamiento para producción](/es/docs/self-hosting/) usa AWS CDK. No es una aplicación local que se instala con un solo comando. Quien lo despliega se hace cargo de los costes de la nube, los secretos, las migraciones, la monitorización, las copias de seguridad, las pruebas de restauración y las apps móviles, que deben compilarse por separado.
 
-Puedes adjuntar una exportación TXT, CSV, Markdown o PDF al chat con IA de Flashcards y pedirle que prepare borradores de tarjetas. Eso es crear tarjetas y revisarlas, no realizar una migración sin pérdidas. Conserva la exportación original y no esperes mantener el historial de programación de los repasos. La [guía para migrar una exportación de texto de Anki](/blog/migrate-from-anki-txt-export-open-source-flashcards/) muestra la diferencia en la práctica.
+La migración es una limitación aún mayor para quien ya usa RemNote. Flashcards importa sus propios paquetes `flashcards.zip`, no archivos Markdown de RemNote ni `.apkg` de Anki. Esos paquetes contienen tarjetas, etiquetas y contenido multimedia referenciado, pero no el historial de repasos, el estado de FSRS, la configuración del espacio de trabajo, la estructura completa de los mazos ni las cuentas. El chat con IA puede convertir el texto exportado en borradores de tarjetas para que los revises; eso reconstruye el contenido, no continúa la colección anterior. La [guía de migración desde TXT](/es/blog/migrate-from-anki-txt-export-open-source-flashcards/) muestra paso a paso ese límite con pérdidas.
 
-## Precios comprobados el 2 de agosto de 2026
+Elige Flashcards para un sistema de tarjetas nuevo o sencillo cuando te importe acceder al código de toda la pila. Conserva RemNote para un estudio conectado y elige Anki cuando sean prioritarias la fidelidad de la migración o una estructura de tarjetas avanzada. Para una comparación más específica de sistemas de tarjetas, consulta [Anki vs Flashcards](/es/blog/anki-vs-flashcards-open-source-app/) y la [guía de apps de flashcards de código abierto](/es/blog/best-open-source-flashcard-apps-2026/).
 
-La [página de precios de RemNote](https://www.remnote.com/pricing) mostraba estos importes con facturación anual:
+## Qué no se migrará bien desde RemNote
 
-- **Free:** 0 US$, con notas, tarjetas y dispositivos ilimitados, además de tres PDF anotados.
-- **Pro:** 8 US$ al mes con facturación anual.
-- **Pro+AI:** 18 US$ al mes con facturación anual.
+RemNote ofrece varias exportaciones útiles, pero ningún archivo reproduce por sí solo el producto en otro lugar.
 
-Son importes mensuales equivalentes de una suscripción anual, no precios de una suscripción mensual. Los precios regionales y los impuestos pueden modificar el importe final.
+- **La exportación completa de RemNote** es el mejor formato para restaurar datos en RemNote. Actualmente omite las imágenes y los PDF.
+- **La exportación `.apkg` de Anki** solo contiene flashcards. Las viñetas que no tienen tarjetas desaparecen de esta vía, y el resultado no incluye tu sistema de notas enlazadas.
+- **Markdown, HTML, OPML y texto** facilitan la lectura del contenido en otros sitios. No hacen que otra app comprenda todas las relaciones o flujos de trabajo específicos de RemNote.
+- **Los subrayados y los documentos fuente en PDF** requieren una comprobación aparte. RemNote Reader permite descargar un PDF con subrayados, pero no des por hecho que la exportación completa de la base de conocimientos contiene ese archivo.
+- **La configuración, los temas y los plugins** no se incluyen en una copia de seguridad manual de RemNote, según la [documentación sobre copias de seguridad](https://help.remnote.com/en/articles/6301627-remnote-backups).
+- **El estado de los repasos** debe verificarse tarjeta por tarjeta en el destino. Aunque una importación conserve la pregunta y la respuesta, puede reiniciar la programación.
 
-Las aplicaciones de escritorio de Anki, AnkiWeb y la aplicación independiente AnkiDroid son gratuitas. En la App Store de EE. UU., la aplicación oficial [AnkiMobile costaba 24,99 US$](https://apps.apple.com/us/app/ankimobile-flashcards/id373493387) en un único pago.
+Por eso no basta con que una herramienta «admita Markdown» o «importe Anki». La portabilidad tiene varias capas: notas legibles, contenido multimedia utilizable, documentos fuente enlazados, estructura de tarjetas e historial de aprendizaje.
 
-La versión alojada de Flashcards es [gratuita durante la beta](/pricing/). El software autoalojado es gratuito bajo la licencia MIT, pero la infraestructura, los dominios, el correo electrónico, la monitorización, los proveedores de IA, las copias de seguridad y el tiempo dedicado a administrarlo siguen teniendo un coste.
+## Ensaya la salida antes de cancelar
 
-## Código abierto, solo local y autoalojado son conceptos diferentes
+Haz que el cambio sea reversible. Una hora tranquila ahora sale más barata que descubrir que falta un PDF durante la semana de exámenes.
 
-RemNote es software propietario. Su aplicación de escritorio permite crear [bases de conocimientos solo locales](https://help.remnote.com/en/articles/7867942-multiple-knowledge-bases), de modo que esa base no se guarda en la nube de RemNote. Esto es almacenamiento local, no un servicio oficial de sincronización autoalojado ni un despliegue completo de RemNote.
+1. Crea una nueva exportación manual **RemNote (Complete)** y guárdala sin modificar.
+2. En el escritorio, copia las copias de seguridad locales `.db.zip` y la carpeta `files`. Descarga los PDF originales o anotados que no puedas reemplazar.
+3. Elige una muestra pequeña con casos difíciles: notas anidadas, referencias, un PDF, imágenes, clozes o tarjetas de opción múltiple, etiquetas y tarjetas con un historial de repasos relevante.
+4. Exporta esa muestra en todos los formatos que necesite la alternativa candidata, normalmente Markdown para las notas y `.apkg` para Anki.
+5. Impórtala en una bóveda, un grafo, un perfil o un espacio de trabajo desechable. Compara con RemNote, uno al lado del otro, los recuentos, el formato, los enlaces, el contenido multimedia, los anversos y reversos de las tarjetas, y qué tarjetas están pendientes y para cuándo.
+6. Trabaja sin conexión en todos los dispositivos que pienses utilizar. Luego vuelve a conectarte y confirma que los cambios y los repasos se sincronizan como esperabas.
+7. Restaura la copia de seguridad completa en una base de conocimientos local y temporal de RemNote. Un archivo descargado solo se convierte en un plan de recuperación después de que hayas conseguido abrirlo.
+8. Estudia con ambos sistemas durante varias sesiones reales. Cancela únicamente después de que el sustituto haya superado la prueba del flujo diario, una exportación y una restauración.
 
-Los clientes de Anki son de código abierto, y Anki documenta un [servidor oficial de sincronización autoalojado](https://docs.ankiweb.net/sync-server.html). Permite a los usuarios avanzados sincronizar los clientes de Anki sin AnkiWeb. Es un servidor de sincronización, no una copia completa y autoalojada del servicio AnkiWeb.
+Conserva las exportaciones de origen incluso después del cambio. Una importación correcta demuestra la compatibilidad con la versión actual del destino, no un acceso permanente a cada parte del sistema anterior.
 
-Flashcards publica la aplicación y la infraestructura bajo la licencia MIT. Su [guía de autoalojamiento](/docs/self-hosting/) permite desplegar toda la pila tecnológica en producción mediante AWS CDK. Ese despliegue incluye varios servicios de AWS y de terceros. Docker y Postgres se usan para desarrollo; no constituyen la arquitectura de producción compatible.
+## La lista final más práctica
 
-Flashcards es la única opción de esta lista que permite desplegar de forma compatible toda la pila tecnológica, lo que exige un trabajo real de administración. Tú aportas las cuentas en la nube, pagas los costes de los proveedores, te ocupas de las actualizaciones y las copias de seguridad, y compilas clientes móviles personalizados si quieres conectarlos a tu despliegue. Elige el autoalojamiento por el control que ofrece, no porque vaya a ser automáticamente más barato o sencillo.
+- **Quédate con RemNote** si lo valioso son las notas enlazadas y el estudio con PDF. Puede que su plan Free o una base de conocimientos solo local ya resuelvan tu restricción.
+- **Elige Anki** si las tarjetas, las plantillas, los controles de FSRS y la fidelidad de la migración son lo primero.
+- **Elige Obsidian más Anki** si tener archivos locales de notas en Markdown justifica usar dos herramientas.
+- **Evalúa Logseq** si necesitas notas conectadas de código abierto y tarjetas integradas, pero no lo uses para nada crítico mientras su base de datos y su sistema de sincronización actuales sigan en fase beta y alfa.
+- **Elige Flashcards** si un sistema nuevo y sencillo de tarjetas y el acceso al código de toda la pila pesan más que las notas, los PDF o la continuidad de la programación.
 
-## ¿Qué alternativa a RemNote deberías elegir?
+Desarrollo Flashcards y, aun así, mantendría RemNote para un cuaderno conectado que dependa mucho de PDF o elegiría Anki para una colección compleja y consolidada. Flashcards es la opción más limitada: tarjetas de anverso y reverso, una pila tecnológica abierta y una programación nueva.
 
-### Quédate con RemNote para conectar notas y leer las fuentes
-
-Quédate con RemNote si escribes notas detalladas, anotas PDF, conectas conceptos y creas tarjetas sin separarlas de la fuente. La beta de FSRS elimina el antiguo motivo para cambiar únicamente por el sistema de programación. Ahora hace falta una razón mejor para migrar: el modelo de tarjetas, el precio, la portabilidad o la propiedad del sistema.
-
-### Elige Anki para tarjetas consolidadas y mayor control
-
-Anki es la alternativa práctica a RemNote si no necesitas una base de conocimientos integrada y buscas plantillas flexibles, complementos, clientes nativos de escritorio, controles de FSRS maduros o formatos de importación y exportación consolidados. También es el destino más natural para una colección convencional y extensa de tarjetas.
-
-Anki por sí solo no sustituye al Reader de RemNote. Si anotar las fuentes sigue formando parte de tu rutina de estudio, necesitarás otra herramienta para las notas o los PDF.
-
-### Elige Flashcards para tarjetas sencillas y una plataforma abierta
-
-Flashcards encaja con una colección nueva —o compuesta sobre todo por tarjetas sencillas de anverso y reverso— cuando la licencia MIT, las aplicaciones web y móviles diseñadas para funcionar sin conexión, la creación de borradores con IA o el despliegue de toda la pila tecnológica importan más que las notas vinculadas y una migración fiel.
-
-No es la opción adecuada si necesitas una aplicación nativa de escritorio, un flujo con PDF como el de RemNote, plantillas avanzadas de Anki, importación directa de `.apkg` o conservar un historial de repasos antiguo. Son límites actuales del producto, no detalles de configuración.
-
-## Conclusión: elige según el flujo de trabajo que ya utilizas
-
-Una **alternativa a RemNote** solo resulta útil si resuelve una limitación concreta. RemNote mantiene en un mismo lugar las notas, los PDF y las preguntas de repaso. Anki ofrece plantillas de tarjetas maduras, controles avanzados de programación y portabilidad. Flashcards conserva un modelo sencillo y abre toda la pila tecnológica de la aplicación.
-
-Yo desarrollo Flashcards, pero aun así elegiría RemNote para un cuaderno conectado que dependa mucho de los PDF, y Anki para una colección compleja y madura. Elegiría Flashcards para un espacio nuevo de tarjetas de anverso y reverso si las prioridades fueran una infraestructura abierta y una sincronización móvil que prioriza el funcionamiento sin conexión.
-
-Si ese tercer caso coincide con lo que buscas al comparar **RemNote vs Flashcards**, [abre la aplicación alojada](https://app.flashcards-open-source-app.com/) o consulta la [guía de introducción](/docs/getting-started/). De lo contrario, conserva el sistema que te facilite más el repaso de mañana.
+Cuando sepas qué límite puedes aceptar, prueba solo esa opción. Si Flashcards encaja, la [guía de primeros pasos](/es/docs/getting-started/) explica cómo empezar tanto con la versión alojada como con la autoalojada. Si no encaja, seguir con RemNote también es una decisión válida.
