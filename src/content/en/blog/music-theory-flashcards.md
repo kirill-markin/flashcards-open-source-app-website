@@ -129,6 +129,8 @@ Back: A-C-sharp-E.
 
 That final card checks more than three piano keys. In G major, V/V is an A-major triad, so its third must be spelled C-sharp. `A-D-flat-E` uses an enharmonic piano key but does not spell the requested chord.
 
+For ready-made practice, the [triad chord spelling flashcards deck](/catalog/packages/triad-chord-spelling-flashcards/) has 90 cards: four quality-rule cards, followed by 43 root-position major, minor, diminished, and augmented triads in both directions—chord name to correctly spelled notes, and notes to chord name and quality.
+
 For rhythm and meter, keep compact facts on cards and perform the rhythm elsewhere. A card can ask what a meter symbol means or how many stated subdivisions complete a measure. Then clap, count, conduct, play, or sing a fresh example. Reading “syncopation” on the back of a card is still reading, not rhythm practice.
 
 ## Grade spelling and context without moving the goalposts
