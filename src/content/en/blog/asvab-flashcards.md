@@ -242,6 +242,8 @@ The [FSRS exam-planning guide](/blog/how-to-study-for-an-exam-with-fsrs/) shows 
 
 [Flashcards Open Source App](/features/) supports front/back cards, decks and tags, FSRS due reviews, AI-assisted card creation, offline mobile study with sync across web, iOS, and Android, portable imports and exports, and an open-source self-hosting path.
 
+The [ASVAB Flashcards: Verbal, Math, Science & Technical Review](/catalog/packages/asvab-flashcards-complete-review/) deck contains 220 original, independently authored cards for verbal, math, science, technical, and bounded spatial recall. It sticks to concepts that fit a flashcard and includes no official questions; passage-heavy Paragraph Comprehension, timed multi-step Arithmetic Reasoning, and full visual Assembling Objects practice remain outside its scope.
+
 For this workflow, use decks for the AFQT core and current goal modules, then tags such as `WK`, `PC`, `AR`, `MK`, `GS`, `EI`, `practice-miss`, and `source-check`. AI can help draft or tighten cards from material you provide. You still decide what gets saved and verify every answer against the controlling source.
 
 The app does not provide an official ASVAB deck, ASVAB question bank, test simulator, score predictor, guaranteed result, or automatic mapping from scores to military jobs. Flashcards Open Source App is not affiliated with or endorsed by the ASVAB Testing Program or the U.S. military. Bring only material you are allowed to use, and never use recalled live questions.
