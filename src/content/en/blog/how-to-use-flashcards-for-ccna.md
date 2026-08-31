@@ -117,6 +117,8 @@ Examples:
 
 That is much better than "Explain spanning tree in detail."
 
+If common service ports are one of those weak spots, the [Common Network Port Numbers flashcards](/catalog/packages/common-network-port-numbers-flashcards/) deck offers 88 cards on foundational port concepts and 38 common service mappings in both directions, with TCP/UDP transports and concise uses. It is a general networking companion, so the current Cisco blueprint still sets your exam scope.
+
 ### 3. Show-command interpretation cards
 
 This is one of the best places to use **CCNA show commands flashcards**.
