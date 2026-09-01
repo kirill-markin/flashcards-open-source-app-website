@@ -1,154 +1,160 @@
 ---
-title: "Gizmo替代品（2026）：Gizmo vs Flashcards"
-description: "对比Gizmo与Flashcards在Magic Import、AI Tutor、可控卡片创建、FSRS-6、离线学习、复习模式、游戏化和数据迁移方面的差异。"
+title: "Gizmo 闪卡评测（2026）：免费版限制、Magic Import 与替代方案"
+description: "这篇基于官方资料核查的 Gizmo 闪卡评测，涵盖免费版 Magic Import 的等待限制、AI Tutor、卡片类型、导出、离线证据，以及一个实用替代方案。"
 date: "2026-08-03"
-image: "/blog/gizmo-alternative.png"
+updated: "2026-09-01"
+image: "/blog/gizmo-alternative-v2.png"
 keywords:
-  - "gizmo 替代品"
-  - "gizmo 替代产品"
-  - "gizmo vs flashcards"
-  - "开源 gizmo 替代品"
-  - "AI 闪卡应用"
-  - "FSRS 闪卡应用"
-  - "离线闪卡应用"
-  - "Magic Import 替代品"
-  - "Gizmo AI 替代品"
+  - "Gizmo 闪卡"
+  - "Gizmo 闪卡评测"
+  - "Gizmo AI 评测"
+  - "Gizmo 免费吗"
+  - "Gizmo Magic Import 限制"
+  - "Gizmo 替代方案"
+  - "Gizmo 导出"
 ---
 
-在应用里录下一堂讲座，Gizmo就能据此创建AI Tutor课程；它也能从PowerPoint制作卡片，还把XP、等级、联赛和连续学习天数融入复习。Flashcards简单得多：创建一小组经过核对的正反面卡片，再由FSRS-6安排复习。寻找**Gizmo替代品**时，首先要看清这项核心差异。
+如果你想免费把一周的笔记批量导入 Gizmo，需要记住一个数字：**20 分钟**。Gizmo 目前对 Magic Import 的限制是两次导入之间要等待 20 分钟，而不是每天设有固定配额。Gizmo Unlimited 会取消这段等待时间。
 
-如果你想保留Gizmo那套以AI为核心、带有游戏感的学习环境，Flashcards不能直接替代它。如果你更在意控制AI保存哪些内容、使用有明确文档的FSRS-6调度，以及让卡片编辑和复习先写入本地再同步，Flashcards可能更合适。
+这篇 Gizmo 闪卡评测以当前的官方帮助页面为依据。我没有亲自试用 Gizmo，因此只介绍 Gizmo 文档明确说明的功能，并清楚标出无法确定的部分。
 
-> **利益披露：** 我是Kirill Markin，也是本文对比产品之一[Flashcards](https://flashcards-open-source-app.com/)的开发者。在导入多种源材料、AI Tutor课程、生成不同类型的测验、实时游戏、奖励机制以及社区学习功能方面，Gizmo更有优势。
+> **利益披露：** 我是 Kirill Markin，也是下文对比的替代产品 [Flashcards](https://flashcards-open-source-app.com/) 的开发者。根据现有文档，Gizmo 涵盖的工作流更广：支持更多源材料格式、五种卡片类型、AI Tutor 课程、多种测验形式和游戏化成长机制。Flashcards 则有意专注于更窄的范围。
 
-**信息核对日期：** 2026年8月3日。
+**信息核对日期：** 2026 年 9 月 1 日。
 
-![Gizmo替代品对比：AI卡片创建、游戏化学习、FSRS-6与离线复习](/blog/gizmo-alternative.png)
+![展示 Magic Import、卡片类型和另一种学习流程的 Gizmo 闪卡评测](/blog/gizmo-alternative-v2.png)
 
-## 先说结论
+## Gizmo 免费吗？
 
-- 想导入多种源材料、自动创建卡片、使用AI Tutor课程和测验，并通过游戏化机制复习，选**Gizmo**。它的课程导入流程还支持YouTube视频和已有的Gizmo牌组。
-- 想专注维护正反面卡片，并希望先查看卡片内容、再通过对话让AI保存，同时需要有明确文档的FSRS-6调度，以及离线优先的卡片编辑与复习写入，选**Flashcards**。
-- 也可以**两款一起用**：Gizmo帮你梳理篇幅较长的源材料，Flashcards只保存其中少量已经核对、希望长期记住的事实。
+是的，Gizmo 有免费版。目前最有可能打断学习过程的限制包括：
 
-第三种方案需要手动整理。Gizmo目前明确表示无法导出卡片和牌组，Flashcards也没有Gizmo导入器。两款产品之间既不能自动迁移，也无法无损迁移。
+- [Magic Import](https://help.gizmo.ai/en/articles/15647624-what-is-magic-import) 要求免费用户在两次导入之间等待 20 分钟。Unlimited 会取消这段等待时间。
+- [AI Tutor](https://help.gizmo.ai/en/articles/15869958-how-many-ai-tutor-sessions-can-i-have-for-free) 每个自然日提供五次免费会话。次数每天重置，Unlimited 不设每日会话上限。
+- [Hearts](https://help.gizmo.ai/en/articles/15623061-what-are-hearts) 用于 Memorise：开始时有 15 颗，每答错一道题会失去一颗；全部用完后，要等 10 分钟才能再次测验。Gizmo 表示，仅使用闪卡的题目模式不消耗 Hearts。
+- [Hints](https://help.gizmo.ai/en/articles/15504721-what-are-hints) 可以显示答案的首字母，或排除选择题中的一个错误选项。免费用户可以用测验赚到的 Coins 购买 Hints；Unlimited 提供无限量的 Hints 和 Hearts。
 
-## Gizmo vs Flashcards：快速对比
+那么，Gizmo 免费版究竟能使用多少次 Magic Import？官方给出的答案是等待时间，而不是具体次数。文档承诺的是 20 分钟冷却期，并没有承诺每天一定能成功导入多少次。
 
-| 对比项 | Gizmo | Flashcards |
-|---|---|---|
-| 最适合 | 以AI为核心、带有游戏感地把源材料转成卡片、Tutor课程、测验和游戏 | 可控地创建正反面卡片，再用规则透明的FSRS-6安排复习 |
-| AI起点 | 从主页或牌组启动Magic Import或AI Tutor | 能读取工作区内容的AI对话，包括从已有卡片或复习界面发起的对话 |
-| 支持的源材料 | Magic Import制卡：PDF、应用内讲座录音、粘贴的笔记、照片、PowerPoint、Quizlet、Anki、电子表格和网站。AI Tutor课程导入还支持YouTube和已有Gizmo牌组 | PDF、文本、数据、文档、代码、电子表格和图片附件；不能原生导入PowerPoint、音频、视频、YouTube、网站或Anki包 |
-| 卡片创建 | Magic Import自动创建卡片并选出需要用绿色高亮的内容；AI Tutor也能生成卡片 | AI会说明计划如何修改、检查相似内容，并在通过对话获得许可后创建、更新或删除卡片 |
-| 复习 | Memorise逐步遮住高亮词语，并使用选择题或输入答案 | 显示正面、翻看背面，再用Again、Hard、Good或Easy自行评分 |
-| 调度 | 自动间隔重复；本文查阅的官方文档没有把算法称为FSRS | 有文档说明的FSRS-6调度，并预览下次间隔 |
-| 卡片之外的学习功能 | AI Tutor课程、笔记、课节、AI测验、Hearts、Hints、XP、等级、联赛、连续学习天数和Gizmo Live | 没有对应的游戏、实时互动、课程、奖励或生成式测验系统 |
-| 离线文档说明 | 本文查阅的官方页面没有说明离线优先、先写入本地的保证 | Web端的卡片内容、编辑操作和复习记录先写入IndexedDB，移动端先写入SQLite，恢复连接后再同步 |
-| 导出 | Gizmo表示目前无法导出卡片和牌组 | 工作区ZIP可以迁移卡片、标签和相关媒体，但有重要限制 |
-| 源代码与托管 | 本文查阅的官方页面没有提供开源或自托管方案 | 代码采用MIT许可，并提供基于AWS CDK的生产环境部署方案 |
+## Gizmo 闪卡究竟能做什么
 
-两款产品的共同点可以概括为“AI能帮你制作闪卡”，但制卡前后的工作流程差别很大。
+Gizmo 从你已有的材料入手。Magic Import 把材料转成卡片，Memorise 用这些卡片测试你，AI Tutor 则可以根据源材料授课。按照 Gizmo 的[官方产品概览](https://help.gizmo.ai/en/articles/14472668-how-does-gizmo-work)，XP、Levels、Leagues 和 Streaks 为这套学习循环加上了一层成长机制。
 
-## Gizmo从自动转换开始
+Magic Import 的专项指南列出了九种制卡来源：
 
-在Gizmo中，创建新卡片最快的方式是Magic Import。[官方Magic Import指南](https://help.gizmo.ai/en/articles/15647624-what-is-magic-import)列出的源材料包括PDF、应用内讲座录音、粘贴的笔记、照片、PowerPoint文件、Quizlet、Anki、电子表格和网站。Gizmo会处理这些材料、自动创建卡片，并用绿色高亮标出将在Memorise中测试的词语。
+- PDF
+- 应用内录制的讲座或课程
+- 粘贴的笔记
+- 笔记或白板照片
+- PowerPoint
+- Quizlet
+- Anki
+- 电子表格或 CSV
+- 网站 URL
 
-如果最麻烦的是整理源材料，这么多导入选项会很实用。学生可以直接从演示文稿或讲座开始，不必先把内容转换成支持的文本或图片格式。Gizmo自己仍然建议检查导入后的牌组。自动转换能节省准备时间，但不能保证每张生成的卡片都准确，也不能保证每张都值得学习。
+Gizmo 会生成卡片，并高亮它准备拿来出题的词语。它自己的指南也提醒学生检查牌组，补上导入时遗漏的内容。这应该算作工作流的一部分，而不只是一条脚注：先对照源材料检查卡片，删掉问法不清的卡片并修正错误，再把牌组投入常规复习。[如何修正 AI 闪卡](/blog/how-to-fix-ai-flashcards/)提供了一份实用的检查清单。
 
-根据[官方课程导入指南](https://help.gizmo.ai/en/articles/15935404-how-do-i-use-magic-import-to-start-an-ai-tutor-lesson)，单独的AI Tutor课程导入流程支持PDF、PowerPoint、YouTube、笔记、照片、讲座录音、Quizlet和现有Gizmo牌组。YouTube和现有Gizmo牌组在该文档中属于课程输入，并不在上文用于自动制卡的Magic Import来源列表中。
+AI Tutor 也有一条相关的导入路径。[官方课程导入指南](https://help.gizmo.ai/en/articles/15935404-how-do-i-use-magic-import-to-start-an-ai-tutor-lesson)列出了 PDF、PowerPoint、YouTube、笔记、照片、讲座录音、Quizlet 集合和已有的 Gizmo 牌组。随后，Tutor 会根据这些材料授课，并在过程中穿插测验。
 
-Flashcards没有原生功能可以完整对应Magic Import支持的这组来源。它不能直接导入PowerPoint、音频、视频、YouTube网址、网站网址或Anki包。如果你的学习流程从PowerPoint、讲座录音、YouTube课程、网站或Anki牌组开始，也就是使用上文Gizmo文档列出的相应流程，Gizmo能省下更多准备工作。
+文档中的两份源材料清单并不相同。Anki、电子表格和网站出现在制卡指南中；YouTube 和已有的 Gizmo 牌组则出现在 Tutor 课程指南中。请确认你真正需要的导入路径，不要想当然地认为两个菜单都支持所有输入方式。
 
-## AI Tutor不只是起草卡片
+## Gizmo 支持五种卡片类型
 
-Gizmo的AI Tutor本身就是一个独立的学习界面。根据[AI Tutor文档](https://help.gizmo.ai/en/articles/13011417-how-does-the-ai-tutor-work)，你可以从主页或牌组启动AI Tutor，创建Course，并生成闪卡、Notes、Lessons和AI测验。
+Gizmo 当前的[卡片类型文档](https://help.gizmo.ai/en/articles/16527223-what-types-of-flashcards-can-i-make)列出了五种格式：
 
-如果你还不知道该怎样把一个主题拆成不同的学习活动，Gizmo会很实用。你可以让AI解释内容、跟着课程学习、生成卡片并完成测验，全程不必离开Tutor工作流。
+| 卡片类型 | 考查内容 | 创建方式 |
+| --- | --- | --- |
+| **文本卡片** | 文本或 LaTeX；可将高亮词设为考点，也可选择正反面翻卡显示 | 手动创建或使用 Magic Import |
+| **选择题** | 带有自动生成选项的问题；编辑时可以添加错误选项 | 手动创建或使用 Magic Import |
+| **配对题** | 成对项目由 Gizmo 打乱，再由你重新配对 | 仅限 Magic Import |
+| **排序题** | 条目由 Gizmo 打乱，再由你恢复正确顺序 | 仅限 Magic Import |
+| **判断题** | 由你判断真假的陈述 | 手动创建或使用 Magic Import |
 
-截至信息核对日期，免费方案有两项相关限制。根据[Magic Import指南](https://help.gizmo.ai/en/articles/15647624-what-is-magic-import)，两次Magic Import之间需要等待20分钟；Gizmo还说明，免费用户[每天可以使用五次AI Tutor会话](https://help.gizmo.ai/en/articles/15869958-how-many-ai-tutor-sessions-can-i-have-for-free)。Gizmo Unlimited没有这项Tutor次数上限。这里说的是使用限制，不是价格。方案细节可能变化；如果某项具体限制会影响你的选择，请先查看官方页面。
+这比基础的正反面牌组支持更多题型，Magic Import 也不只是一个省事工具：配对题和排序题目前只能通过 Magic Import 创建。
 
-Flashcards AI对话不提供Gizmo式的Courses、Notes、Lessons，也没有原生的生成式测验模式。它的用途更集中：帮助你检查和维护卡片工作区。
+有一处文档冲突值得特别指出。卡片类型页面称，文本卡片的正面和背面都可以放图片。但 Gizmo 的[卡片管理指南](https://help.gizmo.ai/en/articles/13761411-how-do-i-edit-or-manage-my-cards)又称，照片和图片只能添加到正面。如果背面图片对你很重要，请先在当前编辑器里确认，再开始制作牌组。仅凭这两份官方页面，无法得出更确定的结论。
 
-## Flashcards的可控AI制卡是什么意思
+Gizmo 还说明，测验设置会影响你看到的题目形式。卡片保存时的格式与测验如何考查它有关，但并不完全相同。
 
-Flashcards AI对话接受以下几类附件：
+## 学习流程不只包括卡片
 
-- PDF；
-- TXT、LOG和SQL；
-- CSV、JSON、XML、Markdown和HTML；
-- Python、JavaScript、TypeScript和YAML；
-- XLS和XLSX电子表格；
-- DOCX文档；以及
-- GIF、JPEG、PNG和WebP图片。
+Memorise 是主要的卡片复习模式。Gizmo 会高亮关键词、针对这些词出题，并通过间隔重复让卡片隔一段时间再次出现。Magic Import 会自动选择高亮词，但你可以自行修改。
 
-每个附件最大3 MB，整次AI运行请求最大5 MB。AI对话需要网络连接。
+AI Tutor 负责另一项工作。它可以逐步讲解材料、生成笔记，并根据源材料提问。当你手上有一堂讲座或一份文档，却还没想清楚哪些内容值得做成长期保留的闪卡时，这项功能很实用。
 
-AI对话可以读取当前工作区的内容。它通过权限受限的SQL工具检查卡片、牌组和复习事件，也可以创建、更新或删除卡片。在提出新卡片或将其写入前，它会查找相似内容，并说明可能存在的重复项。它还会明确列出计划执行的更改。
+Gizmo 还把这两种模式的学习进度做成了游戏。测验会计入 XP、Levels、Leagues 和 Streaks，Hearts、Hints 和 Coins 则会影响免费用户的测验节奏。如果这些机制能让你更容易坚持每天回来学习，它们就是真正影响产品选择的功能，而不只是装饰。
 
-是否允许写入，由你在对话中的具体要求决定。说明确切更改后，助手可以直接执行具体、低风险的请求，例如“在我的Biology牌组中创建这三张卡片”。如果写入范围太宽或要求含义不清，仍需再次确认。
+不过，简短的回忆提示和多步骤练习题发挥的作用并不相同。[闪卡与练习测试](/blog/flashcards-vs-practice-tests/)解释了为什么把两者结合起来，通常比硬把每个主题都塞进卡片更实用。
 
-这里没有单独的分阶段草稿审批界面。如果想更严格地控制结果，可以先让AI给出候选卡片或制卡计划。在对话中检查拟定的正面、背面和标签，提出修改，再明确要求AI保存。AI建议的新卡片必须带标签。正面应当是不会泄露答案的问题或回忆提示；背面先给出直接答案，需要时再补充Markdown或示例。
+## 把整门课程搬进 Gizmo 前，先检查四项限制
 
-保存后，你可以先在Cards界面检查、编辑或删除卡片，再开始复习。你也可以完全不用AI，手动创建每张卡片。这套流程刻意保留了人工判断：AI负责初步整理，学习者决定哪些内容应该进入复习队列。[如何修正质量不佳的AI闪卡](/blog/how-to-fix-ai-flashcards/)解释了为什么这一步很重要。
+### 自动生成的卡片仍需检查
 
-## 两种复习循环不能互换
+Gizmo 明确建议在 Magic Import 后检查牌组，也建议把大型文档拆成较小的部分。实际操作顺序很简单：导入范围明确的一小节，对照源材料检查结果，修正或删除质量差的卡片，然后再开始复习。自动生成能省下录入时间，但人工审核这一步不能省。
 
-Gizmo的[产品工作原理概览](https://help.gizmo.ai/en/articles/14472668-how-does-gizmo-work)把Magic Import、Memorise、AI Tutor和进度激励系统串在一起。在Memorise中，Gizmo会考查绿色高亮的词语。[高亮功能指南](https://help.gizmo.ai/en/articles/13166301-how-does-highlighting-work)说明，这些词会逐步被遮住，再以选择题或输入答案的方式测试。
+### 在 Memorise 模式外更方便编辑
 
-Gizmo也使用间隔重复。[间隔重复说明](https://help.gizmo.ai/en/articles/15647638-what-is-spaced-repetition)指出，答对的内容会晚些再出现，答错的内容则会更快回来，具体时间由系统自动设置。本文查阅的官方文档没有把Gizmo的调度器称为FSRS。这只是现有文档能确认的范围，既不能证明，也不能否定其私有实现采用了什么算法。
+Gizmo 的[卡片管理指南](https://help.gizmo.ai/en/articles/13761411-how-do-i-edit-or-manage-my-cards)称，你可以编辑正反面文本、设置格式、在正面添加图片、修改选择题选项、移动卡片，以及删除卡片。
 
-Flashcards的回忆流程更简单。到期卡片或新卡片先显示正面。翻到背面后，你根据自己的回忆情况选择Again、Hard、Good或Easy。每个按钮都会预览下次复习间隔，随后FSRS-6更新卡片的记忆状态和下次到期时间。调度器详情请参阅[FSRS vs SM-2](/blog/fsrs-vs-sm-2/)。
+限制出现在 Memorise 模式中：你可以在那里删除卡片，但目前不能在测验过程中直接编辑。如果学习时发现答案有误，需要先离开当前模式再修正。
 
-在Flashcards复习时，你可以直接编辑卡片。翻到答案后，也可以把这张卡片带入AI对话，进一步改写或讨论。Gizmo允许你在测验之外编辑正面、背面、照片、列表和选择题选项，但[卡片管理指南](https://help.gizmo.ai/en/articles/13761411-how-do-i-edit-or-manage-my-cards)说明，在Memorise中只能删除卡片，不能编辑。
+### Gizmo 暂不支持导出
 
-Flashcards不会生成原生选择题，也不会给手动输入的答案评分。它同样没有Gizmo式的AI测验或Tutor课程。[闪卡与Practice Test训练不同的能力](/blog/flashcards-vs-practice-tests/)，备考时同时使用回忆卡片和多种练习形式也很合理。
+同一份官方指南称，卡片导出目前尚不可用。Gizmo 的[牌组管理指南](https://help.gizmo.ai/en/articles/12995587-how-do-i-make-changes-to-my-decks)也称，牌组导出同样不可用。
 
-## Gizmo的游戏化层确实是重要差异
+这是当前工作流中最明确的数据掌控限制。Gizmo 能接收来自其他多个系统的材料，却没有提供文档明确说明的方式，让用户把生成的卡片再导出去。如果你在意以后迁移数据，就应根据这项现有限制作出判断，而不是押注未来可能推出导出功能。
 
-Gizmo的设计目标之一，就是让学习更像游戏。产品概览列出了XP、等级、联赛和连续学习天数。在Memorise中，每次答错都会消耗一颗Heart；Hearts耗尽后，测验会暂停，直到Hearts恢复。[Hints](https://help.gizmo.ai/en/articles/15504721-what-are-hints)可以显示首字母，也可以排除一道选择题中的一个错误选项；用户能用测验中赚到的金币购买Hint。免费方案和Unlimited方案的具体界限可能变化，请查看[Hearts文档](https://help.gizmo.ai/en/articles/15623061-what-are-hearts)了解当前规则。
+### 官方文档不足以保证离线使用
 
-Gizmo Live把游戏化又推进了一步。[官方Live指南](https://help.gizmo.ai/en/articles/15945296-what-happens-during-a-gizmo-live-game)介绍了限时多人回合、XP、排行榜、押注和答案复盘。课堂或学习小组中的这种体验，与一个人按顺序复习闪卡很不一样。
+我没有找到任何 Gizmo 官方帮助文章，明确承诺离线模式、优先写入本地，或恢复连接后的具体同步流程。本次评测查阅的产品页面以及在帮助中心完成的检索，都没有说明这一边界。
 
-Flashcards没有原生实时多人游戏，也没有Hearts、Hints、XP、金币、等级、联赛、连续学习天数、押注或类似的游戏系统。它同样无法替代Gizmo的社区和共同学习功能。如果这些机制能帮助你坚持每天学习，改用Flashcards就意味着放弃它们，而不是换一种方式获得相同体验。
+这并**不能**证明 Gizmo 无法离线使用。它只说明，本文核查到的官方证据还不足以保证 Gizmo 可以离线工作。如果离线学习对你很重要，请在飞行模式下测试你实际使用的应用和设备：关闭并重新打开应用、复习一张卡片、编辑一处内容、恢复网络，然后确认修改和复习记录都已保留。
 
-## 离线优先的边界要说清楚
+这个区别很重要，因为“已加载的界面暂时还能操作”和“我的复习记录已安全保存，之后还能同步”是两个不同的主张。[离线闪卡应用指南](/blog/best-offline-flashcards-app/)用这套更严格的标准测试了多款产品。
 
-本文查阅的Gizmo官方网站和帮助页面没有说明离线优先、先写入本地的保证。这并不是说“Gizmo无法离线使用”，而只是说明现有文档没有承诺Flashcards文档所描述的同类存储与同步行为。
+## Gizmo 与 Flashcards 快速对比
 
-Flashcards会先把卡片、编辑和复习记录写入本地。Web应用使用IndexedDB，移动应用使用SQLite。更改随后进入待同步队列，恢复连接后再同步。即使断网，你仍然可以手动创建卡片、修改已有卡片或完成到期复习。
+| 比较维度 | Gizmo | Flashcards |
+| --- | --- | --- |
+| 主要起点 | 手动制卡，或用 Magic Import 导入多种学习材料 | 手动或用 AI 辅助创建重点明确的正反面卡片 |
+| 卡片格式 | 文本卡片、选择题、配对题、排序题和判断题 | 正反面卡片 |
+| 围绕牌组的教学 | AI Tutor 课程、笔记和基于源材料的提问 | AI 辅助制卡；当前产品页面没有说明 Tutor 课程模式 |
+| 复习方式 | Memorise、间隔重复和多种题目形式 | FSRS 间隔重复 |
+| 激励机制 | XP、Levels、Leagues、Streaks、Hearts、Hints 和 Coins | 当前产品页面没有说明类似的游戏机制 |
+| 离线证据 | 在查阅过的文档中，没有找到官方离线保证 | 移动端离线学习和自动同步都有文档说明 |
+| 数据迁出 | 目前无法导出卡片和牌组 | 可移植导出包含卡片、标签和相关媒体 |
+| 部署控制 | 在查阅过的官方页面中，没有自托管相关说明 | 开源且支持自托管 |
 
-网络需求的分界线在AI功能。Flashcards AI对话和生成功能必须联网，但查看已保存的卡片和完成复习不需要网络。如果你最在意的是在火车、飞机或校园Wi-Fi信号不佳时也能稳定复习，[离线闪卡指南](/blog/best-offline-flashcards-app/)更详细地解释了这一区别。
+Flashcards 能成为实用的 Gizmo 替代方案，但只适合这张表所体现的较窄需求。它当前的[功能页面](/features/)说明了 FSRS、AI 辅助制卡、移动端离线学习和同步、可移植导出，以及自托管。页面没有说明它具备与 Gizmo 的五种卡片格式、Magic Import、Tutor 课程或游戏机制相对应的功能。
 
-## 迁移只能手动完成，而且带不走全部数据
+## 什么时候 Flashcards 更合适
 
-Gizmo的卡片管理文档说明，[目前无法导出卡片和牌组](https://help.gizmo.ai/en/articles/13761411-how-do-i-edit-or-manage-my-cards)。因此，你无法先导出文件，再按常规方式导入Flashcards。
+如果你真正想保留的是一张经过核对的正反面卡片，可以选择 Flashcards。你既可以手动创建，也可以让 AI 帮忙编写和改进，再决定哪些内容值得保存。复习调度采用 FSRS；[FSRS 与 SM-2 对比](/blog/fsrs-vs-sm-2/)更详细地解释了这套调度模型。
 
-Flashcards自己的工作区ZIP也不是完整的账号备份。它可以在不同Flashcards工作区之间迁移卡片、标签和相关媒体，但不包含复习历史、FSRS状态、工作区设置、完整的牌组结构或账号数据。
+Flashcards 对离线使用和数据迁出的说明更明确。其文档说明移动端支持离线学习和自动同步；[入门指南](/docs/getting-started/)则指出，iOS 客户端采用本地 SQLite 和离线优先同步。可移植导出包含卡片、标签和相关媒体，也可用于在托管版和自托管安装之间迁移。
 
-综合这些限制，从Gizmo迁移到Flashcards既不能自动完成，也无法做到无损。如果决定迁移，可以先选一小组内容，只重新创建仍然有用的卡片。保留原始材料，逐张检查正反面并添加标签，同时要接受Gizmo中的学习进度、Tutor上下文、高亮、游戏状态和调度历史都无法带走。
+取舍在于功能范围。Flashcards 当前的页面没有说明它提供 Gizmo 的导入菜单、五种卡片类型、Tutor 引导课程或奖励系统。如果你正是为这些功能而来，Gizmo 可能更合适。
 
-## Flashcards不能直接替代Gizmo的地方
+## 能从 Gizmo 迁移到其他应用吗？
 
-Flashcards不能替代Gizmo的以下功能：
+目前还不能顺畅迁移。由于 Gizmo 不支持导出，没有常规的文件迁移方式可以把内容从 Gizmo 转入 Flashcards 或其他应用。
 
-- 原生PowerPoint、讲座录音、YouTube课程导入、网站、Quizlet或Anki流程；
-- Memorise中的自动高亮和逐步遮词；
-- 选择题和输入答案式复习；
-- AI Tutor的Courses、Notes、Lessons和生成式测验；
-- Hearts和Hints；
-- XP、金币、等级、联赛和连续学习天数；
-- Gizmo Live多人游戏、排行榜、押注和限时回合；以及
-- 社区和共同学习功能。
+更稳妥的替代办法，是只手动重建值得保留的内容：
 
-这些都是当前明确的产品边界。Flashcards采用MIT许可的源代码，并提供AWS CDK自托管方案，带来的是另一种控制权。如果某种学习模式正是你能坚持学习的原因，开放代码无法弥补它的缺失。
+1. 把原始讲座、笔记、幻灯片或其他源材料放在手边。
+2. 只重新创建那些仍然准确且有用的卡片。
+3. 改写含糊的提示，不要照搬每一张自动生成的卡片。
+4. Gizmo 的高亮、Tutor 上下文、复习调度历史、XP 和其他进度会留在原处，无法一并迁移。
 
-## 哪款Gizmo替代品适合你的学习流程？
+这比使用导入工具更慢，而且并非无损迁移。顺带的好处是，你只会带走那些通过质量检查的卡片。
 
-如果你想用最少步骤把各种源材料变成互动学习内容，选Gizmo。它能原生接收更多学生常用的材料，AI Tutor可以围绕牌组讲解，Memorise则把自动高亮和逐步加大难度的测试结合起来。如果奖励、竞争或小组游戏有助于你养成学习习惯，它的游戏和社交功能也很有实际价值。
+同时使用两款应用也是一种选择。Gizmo 可以梳理讲座或演示文稿，并提供多种形式的练习。Flashcards 则可以保存一小组经过核对的正反面卡片，用于 FSRS 复习。由于 Gizmo 无法导出卡片，两款应用之间仍需手动衔接。
 
-如果你已经确定，值得长期保存的内容应该做成正反面卡片，选Flashcards。它的AI可以检查工作区、查找重复项、明确列出计划更改，并在通过对话获得适当许可后保存。之后，你可以检查或编辑结果，再用有明确文档的FSRS-6复习。卡片相关操作可以离线继续，AI操作则要等到恢复网络后才能使用。
+## 哪种学习流程适合你？
 
-两款一起用也很合理。Gizmo可以帮你拆解讲座或演示文稿，并用多种方式测试同一主题。Flashcards则可以保存少量经过核对的提示，供你长期进行回忆练习。不要自动复制全部内容。少量准确的卡片，通常比大量未经核对的AI输出更有用。
+如果你面对的是杂乱的源材料，希望应用先搭起第一版学习框架，可以选择 Gizmo。文档明确列出的优势包括多种输入来源、五种卡片类型、Tutor 引导式学习、多样化测验和成长机制。
 
-哪款**Gizmo替代品**真正适合你，取决于你还需要哪些围绕卡片展开的功能。想要Magic Import、AI Tutor、多种测试形式和游戏化激励，就继续用Gizmo。想要可控的卡片创建、规则透明的FSRS-6，以及离线优先、先写入本地的复习流程，可以考虑Flashcards。如果后一种工作流更符合你的需要，可以查看[Flashcards功能](/features/)或按照[入门指南](/docs/getting-started/)开始使用。
+如果你已经知道哪些内容值得做成长期保留的正反面卡片，而且相比题型多样性和奖励，更看重 FSRS、有文档说明的移动端离线学习、导出或自托管，可以选择 Flashcards。
+
+真正有用的 Gizmo AI 评测，不该把问题说成“使用 AI”还是“不使用 AI”。两款产品都使用 AI，区别在于 AI 处在工作流的哪一环。Gizmo 用 AI 把范围广泛的材料转化为更完整的学习环境；Flashcards 则把 AI 放进更精简的制卡流程，由你决定保存哪些内容、把哪些内容排入复习。
+
+如果这种更精简的流程更适合你，可以了解 [Flashcards 功能](/features/)，或按照[入门指南](/docs/getting-started/)开始使用。

@@ -1,154 +1,160 @@
 ---
-title: "Alternativa a Gizmo en 2026: Gizmo vs Flashcards"
-description: "Compara Gizmo y Flashcards: Magic Import, AI Tutor, creación controlada de tarjetas, FSRS-6, estudio sin conexión, modos de repaso, gamificación y transferencia de datos."
+title: "Análisis de Gizmo Flashcards (2026): límites del plan gratis, Magic Import y alternativas"
+description: "Análisis de Gizmo Flashcards contrastado con fuentes oficiales: espera de Magic Import en el plan gratis, AI Tutor, tipos de tarjetas, exportación, pruebas sobre el uso sin conexión y una alternativa práctica."
 date: "2026-08-03"
-image: "/blog/gizmo-alternative.png"
+updated: "2026-09-01"
+image: "/blog/gizmo-alternative-v2.png"
 keywords:
-  - "alternativa a gizmo"
-  - "alternativas a gizmo"
-  - "gizmo vs flashcards"
-  - "alternativa a gizmo de código abierto"
-  - "app de flashcards con IA"
-  - "app de flashcards con FSRS"
-  - "app de flashcards sin conexión"
-  - "alternativa a Magic Import"
-  - "alternativa a Gizmo AI"
+  - "Gizmo Flashcards"
+  - "opiniones sobre Gizmo Flashcards"
+  - "análisis de Gizmo AI"
+  - "Gizmo es gratis"
+  - "límite de Gizmo Magic Import"
+  - "alternativa a Gizmo"
+  - "exportar desde Gizmo"
 ---
 
-Gizmo puede crear una lección de AI Tutor a partir de una clase grabada en la propia aplicación, generar tarjetas desde un PowerPoint y convertir los repasos en un juego con XP, niveles, ligas y rachas. Flashcards es mucho más sencilla: permite crear un conjunto más pequeño de tarjetas verificadas, con anverso y reverso, y deja que FSRS-6 programe los repasos. Esa es la diferencia principal para quien busque una **alternativa a Gizmo**.
+Si quieres importar de una vez en Gizmo los apuntes de toda una semana sin pagar, la cifra que debes recordar es **20 minutos**. El límite actual de Gizmo Magic Import es una espera de 20 minutos entre importaciones, no una cuota diaria fija. Gizmo Unlimited elimina esa espera.
 
-Si quieres el entorno de estudio lúdico y centrado en la IA de Gizmo, Flashcards no es un sustituto directo. Puede encajarte mejor si prefieres controlar lo que guarda la IA, contar con una implementación documentada de FSRS-6 y guardar primero en el dispositivo los cambios en las tarjetas y los repasos antes de sincronizarlos.
+Este análisis de Gizmo Flashcards se basa en las páginas de ayuda oficiales actuales. No he probado Gizmo directamente, así que limitaré las afirmaciones sobre el producto a lo que Gizmo documenta y dejaré claros los puntos inciertos.
 
-> **Aviso de transparencia:** Soy Kirill Markin y desarrollo [Flashcards](https://flashcards-open-source-app.com/), uno de los productos comparados en este artículo. Gizmo es mejor para importar una gran variedad de fuentes, crear lecciones con AI Tutor, generar distintos tipos de cuestionarios, jugar en directo, obtener recompensas y estudiar con funciones orientadas a la comunidad.
+> **Aviso de transparencia:** Soy Kirill Markin y desarrollo [Flashcards](https://flashcards-open-source-app.com/), la alternativa que comparo más abajo. Según su documentación, Gizmo ofrece un flujo de trabajo más amplio: más formatos de origen, cinco tipos de tarjetas, lecciones de AI Tutor, cuestionarios variados y una progresión similar a un juego. Flashcards tiene un enfoque deliberadamente más acotado.
 
-**Información comprobada el:** 3 de agosto de 2026.
+**Datos verificados:** 1 de septiembre de 2026.
 
-![Comparativa entre Gizmo y una alternativa con creación de tarjetas mediante IA, estudio gamificado, FSRS-6 y repaso sin conexión](/blog/gizmo-alternative.png)
+![Análisis de Gizmo Flashcards con Magic Import, tipos de tarjetas y un flujo de estudio alternativo](/blog/gizmo-alternative-v2.png)
 
-## La respuesta corta
+## ¿Gizmo es gratis?
 
-- Elige **Gizmo** si buscas importar fuentes muy variadas, crear tarjetas automáticamente, usar las lecciones y los cuestionarios de AI Tutor y repasar con una dinámica de juego. Su sistema de importación de lecciones también acepta vídeos de YouTube y mazos existentes de Gizmo.
-- Elige **Flashcards** si quieres una colección acotada de tarjetas con anverso y reverso, un flujo conversacional con IA que te permita revisar el contenido antes de pedir que se guarde, una implementación documentada de FSRS-6 y un sistema offline-first que guarda primero en local las tarjetas y los repasos.
-- Considera usar **las dos** si Gizmo te ayuda a explorar una fuente extensa y Flashcards conserva el conjunto más pequeño de datos que has verificado y quieres recordar a largo plazo.
+Sí. Gizmo tiene un plan gratuito. Estos son los límites actuales con más probabilidades de interrumpir una sesión de estudio:
 
-Usar ambas requiere un proceso manual. Gizmo indica actualmente que no se pueden exportar tarjetas ni mazos, y Flashcards no tiene un importador para Gizmo. No existe una vía de migración automática o sin pérdidas entre los dos productos.
+- [Magic Import](https://help.gizmo.ai/en/articles/15647624-what-is-magic-import) obliga a los usuarios del plan gratuito a esperar 20 minutos entre importaciones. Unlimited elimina la espera.
+- [AI Tutor](https://help.gizmo.ai/en/articles/15869958-how-many-ai-tutor-sessions-can-i-have-for-free) permite cinco sesiones gratuitas al día. El contador se reinicia cada día y Unlimited elimina el límite diario de sesiones.
+- Los [Hearts](https://help.gizmo.ai/en/articles/15623061-what-are-hearts) se usan en Memorise: empiezas con 15, pierdes uno tras una respuesta incorrecta y, si se agotan, debes esperar 10 minutos para volver a hacer un cuestionario. Gizmo indica que su modalidad de preguntas compuesta únicamente por flashcards no usa Hearts.
+- Los [Hints](https://help.gizmo.ai/en/articles/15504721-what-are-hints) revelan la primera letra de una respuesta o eliminan una opción incorrecta en una pregunta de opción múltiple. En el plan gratuito se compran con Coins ganadas al responder cuestionarios; Unlimited incluye Hints y Hearts ilimitados.
 
-## Gizmo vs Flashcards de un vistazo
+Entonces, ¿cuántas importaciones puedes hacer gratis con Magic Import? La respuesta oficial es un temporizador, no una cantidad. La documentación garantiza un intervalo de espera de 20 minutos; no garantiza cuántas importaciones se completarán con éxito en un día.
 
-| Pregunta | Gizmo | Flashcards |
-|---|---|---|
-| Ideal para | Convertir material de estudio en tarjetas, lecciones de Tutor, cuestionarios y juegos mediante una experiencia lúdica y centrada en la IA | Crear de forma controlada tarjetas con anverso y reverso y repasarlas después con un FSRS-6 transparente |
-| Punto de partida con la IA | Magic Import o AI Tutor desde Home o desde un mazo | Chat con IA que conoce el espacio de trabajo, incluido el que se abre desde una tarjeta existente o durante un repaso |
-| Fuentes compatibles | Magic Import para tarjetas: PDF, grabaciones de clases dentro de la aplicación, notas pegadas, fotos, PowerPoint, Quizlet, Anki, hojas de cálculo y sitios web. La importación de lecciones de AI Tutor también admite YouTube y mazos existentes de Gizmo | Archivos adjuntos PDF, de texto, de datos, documentos, código, hojas de cálculo e imágenes; sin importación nativa de PowerPoint, audio, vídeo, YouTube, sitios web ni paquetes de Anki |
-| Creación de tarjetas | Magic Import crea tarjetas automáticamente y selecciona las palabras resaltadas en verde; AI Tutor también puede generar tarjetas | La IA anuncia los cambios previstos, busca material similar y puede crear, actualizar o eliminar tarjetas con permiso conversacional |
-| Repaso | Memorise oculta progresivamente las palabras resaltadas y utiliza preguntas de opción múltiple o respuestas escritas | Muestra el anverso, revela el reverso y después pide una autoevaluación: Again, Hard, Good o Easy |
-| Planificación | Repetición espaciada automática; la documentación oficial revisada no identifica el algoritmo como FSRS | FSRS-6 documentado, con una vista previa de los próximos intervalos |
-| Estudio alrededor de las tarjetas | Courses, Notes y Lessons de AI Tutor, cuestionarios con IA, Hearts, Hints, XP, niveles, ligas, rachas y Gizmo Live | No ofrece un sistema equivalente de juegos, sesiones en directo, lecciones, recompensas ni cuestionarios generados |
-| Documentación sobre el uso sin conexión | Las páginas oficiales revisadas no documentan una garantía offline-first de escritura primero en local | Las tarjetas, los cambios y los repasos se guardan en IndexedDB en la web o en SQLite en el móvil y se sincronizan cuando vuelve la conexión |
-| Exportación | Gizmo indica que actualmente no se pueden exportar tarjetas ni mazos | El ZIP del espacio de trabajo transfiere tarjetas, etiquetas y archivos multimedia relacionados, con limitaciones importantes |
-| Código fuente y alojamiento | Las páginas oficiales revisadas no presentan una vía de autoalojamiento de código abierto | Código con licencia MIT y una vía de despliegue en producción mediante AWS CDK |
+## Qué ofrece realmente Gizmo Flashcards
 
-Los productos coinciden en una idea: «la IA puede ayudar a crear flashcards». Todo lo que ocurre antes y después es bastante diferente.
+Gizmo parte del material que ya tienes. Magic Import lo convierte en tarjetas, Memorise te hace preguntas sobre ellas y AI Tutor puede enseñar a partir del material original. Según la [presentación oficial del producto](https://help.gizmo.ai/en/articles/14472668-how-does-gizmo-work) de Gizmo, XP, Levels, Leagues y Streaks añaden una capa de progresión al ciclo de estudio.
 
-## Gizmo parte de la conversión automática
-
-La forma más rápida de crear tarjetas en Gizmo es Magic Import. Su [guía oficial de Magic Import](https://help.gizmo.ai/en/articles/15647624-what-is-magic-import) enumera como fuentes los PDF, una grabación de clase hecha dentro de la aplicación, notas pegadas, fotos, archivos de PowerPoint, Quizlet, Anki, hojas de cálculo y sitios web. Gizmo procesa el material, crea las tarjetas automáticamente y resalta en verde las palabras que pondrá a prueba en Memorise.
-
-Esa variedad resulta útil cuando el material de partida es el principal obstáculo. Un estudiante puede empezar con una presentación o una clase sin tener que convertirla antes a un formato de texto o imagen compatible. Aun así, el propio Gizmo aconseja revisar el mazo importado. La conversión automática ahorra tiempo de preparación, pero no garantiza que todas las tarjetas generadas sean correctas o merezcan estudiarse.
-
-Según la [guía oficial de importación de lecciones](https://help.gizmo.ai/en/articles/15935404-how-do-i-use-magic-import-to-start-an-ai-tutor-lesson), el flujo independiente para importar lecciones de AI Tutor admite PDF, PowerPoint, YouTube, notas, fotos, una clase grabada, Quizlet y un mazo existente de Gizmo. YouTube y los mazos existentes de Gizmo aparecen allí como fuentes para lecciones, no en la lista anterior de Magic Import para crear tarjetas automáticamente.
-
-Flashcards no ofrece un equivalente nativo de Magic Import que abarque toda esa lista de fuentes. No admite un PowerPoint, audio, vídeo, una URL de YouTube, una URL de un sitio web ni un paquete de Anki como fuente de importación directa. Si tu rutina comienza con un PowerPoint, la grabación de una clase, una lección de YouTube, un sitio web o un mazo de Anki —siguiendo los flujos de Gizmo documentados arriba—, Gizmo exige menos trabajo de preparación.
-
-## AI Tutor abarca mucho más que redactar tarjetas
-
-AI Tutor de Gizmo es un entorno de estudio por derecho propio. Según la [documentación de AI Tutor](https://help.gizmo.ai/en/articles/13011417-how-does-the-ai-tutor-work), puedes iniciarlo desde Home o desde un mazo. Permite comenzar un Course y generar flashcards, Notes, Lessons y cuestionarios creados por IA.
-
-Gizmo resulta útil cuando todavía no sabes cómo dividir un tema en actividades de estudio. Puedes pedir una explicación, avanzar por una lección, generar tarjetas y hacer un cuestionario sin salir del flujo de Tutor.
-
-El plan gratuito tenía dos límites relevantes en la fecha en la que se comprobaron los datos. Magic Import exigía esperar 20 minutos entre importaciones, según la [guía de Magic Import](https://help.gizmo.ai/en/articles/15647624-what-is-magic-import), y Gizmo documentaba [cinco sesiones gratuitas de AI Tutor al día](https://help.gizmo.ai/en/articles/15869958-how-many-ai-tutor-sessions-can-i-have-for-free). Gizmo Unlimited elimina ese límite de Tutor. Se trata de límites de uso, no de precios; los detalles de los planes pueden cambiar, así que consulta las páginas oficiales antes de decidir en función de un límite concreto.
-
-El chat con IA de Flashcards no ofrece Courses, Notes o Lessons al estilo de Gizmo ni un modo nativo de cuestionarios generados. Su función es más específica: ayudar a revisar y mantener un espacio de trabajo de tarjetas.
-
-## Qué significa crear tarjetas con IA de forma controlada en Flashcards
-
-El chat con IA de Flashcards acepta estos grupos de archivos adjuntos:
+La guía específica de Magic Import enumera nueve fuentes para crear tarjetas:
 
 - PDF;
-- TXT, LOG y SQL;
-- CSV, JSON, XML, Markdown y HTML;
-- Python, JavaScript, TypeScript y YAML;
-- hojas de cálculo XLS y XLSX;
-- documentos DOCX; e
-- imágenes GIF, JPEG, PNG y WebP.
+- una grabación de una clase o lección hecha dentro de la aplicación;
+- apuntes pegados;
+- fotos de apuntes o de una pizarra;
+- PowerPoint;
+- Quizlet;
+- Anki;
+- una hoja de cálculo o un archivo CSV; y
+- la URL de un sitio web.
 
-Cada archivo adjunto puede ocupar hasta 3 MB, y la petición completa enviada a la IA puede ocupar hasta 5 MB. El chat con IA necesita conexión a la red.
+Gizmo genera las tarjetas y resalta las palabras que piensa usar para evaluarte. Su propia guía recomienda revisar el mazo y añadir cualquier contenido que la importación haya omitido. Yo lo trataría como parte del flujo de trabajo, no como una nota al margen: compara las tarjetas con la fuente, elimina las preguntas mal planteadas y corrige los errores antes de incorporar el mazo a los repasos habituales. [Cómo corregir flashcards creadas por IA](/blog/how-to-fix-ai-flashcards/) incluye una lista práctica para depurarlas.
 
-El chat conoce el espacio de trabajo actual. Mediante una herramienta SQL restringida, puede consultar tarjetas, mazos y eventos de repaso y, después, crear, actualizar o eliminar tarjetas. Antes de proponer o guardar tarjetas nuevas, busca material similar y señala los posibles duplicados. También describe los cambios exactos que tiene previsto realizar.
+AI Tutor ofrece una vía de importación relacionada. La [guía oficial para importar lecciones](https://help.gizmo.ai/en/articles/15935404-how-do-i-use-magic-import-to-start-an-ai-tutor-lesson) enumera PDF, PowerPoint, YouTube, apuntes, fotos, clases grabadas, conjuntos de Quizlet y un mazo existente de Gizmo. Después, Tutor enseña a partir de ese material y te va haciendo preguntas.
 
-El permiso se gestiona dentro de la conversación. Una vez anunciados los cambios exactos, el asistente puede ejecutar una petición concreta y de bajo riesgo, como «Crea estas tres tarjetas en mi mazo de Biología». Si la operación de escritura tiene un alcance amplio o no está clara, debe pedir confirmación.
+Las dos listas de fuentes documentadas no son idénticas. Anki, las hojas de cálculo y los sitios web aparecen en la guía para crear tarjetas; YouTube y los mazos existentes de Gizmo aparecen en la guía de lecciones de Tutor. Comprueba el flujo que realmente necesitas en lugar de dar por hecho que todas las fuentes están disponibles en ambos menús.
 
-No hay una pantalla independiente para aprobar borradores por fases. Si quieres tener más control, pide primero tarjetas candidatas o un plan. Lee en el chat los anversos, reversos y etiquetas propuestos, solicita los cambios necesarios y, después, pide explícitamente a la IA que los guarde. Las tarjetas nuevas propuestas por la IA deben llevar etiquetas. El anverso debe plantear una pregunta o una consigna de recuerdo sin revelar la respuesta; el reverso comienza con la respuesta directa y puede añadir Markdown o ejemplos cuando resulten útiles.
+## Gizmo tiene cinco tipos de tarjetas
 
-Una vez guardadas, puedes revisar, editar o eliminar las tarjetas en la pantalla Cards antes de estudiarlas. También puedes crear todas las tarjetas a mano, sin IA. Este flujo incorpora una revisión deliberada: la IA ayuda con la primera versión y el estudiante decide qué entra en la cola de repasos. [Cómo corregir flashcards débiles creadas por IA](/blog/how-to-fix-ai-flashcards/) explica por qué importa esa comprobación.
+La [documentación actual sobre tipos de tarjetas](https://help.gizmo.ai/en/articles/16527223-what-types-of-flashcards-can-i-make) de Gizmo enumera cinco formatos:
 
-## Las formas de repasar no son intercambiables
+| Tipo de tarjeta | Qué evalúa | Cómo se crea |
+| --- | --- | --- |
+| **Tarjeta de texto** | Texto o LaTeX, con palabras resaltadas como objetivo de las preguntas o la opción de mostrar anverso y reverso | Manualmente o con Magic Import |
+| **Opción múltiple** | Una pregunta con opciones de respuesta generadas; al editarla puedes añadir opciones incorrectas | Manualmente o con Magic Import |
+| **Emparejamiento** | Pares que Gizmo baraja para que vuelvas a relacionarlos | Solo con Magic Import |
+| **Ordenación** | Elementos que Gizmo baraja para que vuelvas a colocarlos en orden | Solo con Magic Import |
+| **Verdadero/Falso** | Una afirmación que debes clasificar como verdadera o falsa | Manualmente o con Magic Import |
 
-La [explicación general de cómo funciona el producto](https://help.gizmo.ai/en/articles/14472668-how-does-gizmo-work) relaciona Magic Import, Memorise, AI Tutor y el sistema de progresión de Gizmo. En Memorise, Gizmo evalúa las palabras resaltadas en verde. Su [guía sobre el resaltado](https://help.gizmo.ai/en/articles/13166301-how-does-highlighting-work) explica que esas palabras se ocultan progresivamente y se ponen a prueba con preguntas de opción múltiple o respuestas escritas.
+Es más amplio que un mazo básico de anverso y reverso, y Magic Import no es un simple atajo: por ahora, las tarjetas de Emparejamiento y Ordenación solo pueden crearse con Magic Import.
 
-Gizmo también aplica repetición espaciada. Su [explicación de la repetición espaciada](https://help.gizmo.ai/en/articles/15647638-what-is-spaced-repetition) indica que las respuestas correctas vuelven a aparecer más tarde y las incorrectas, antes, con intervalos configurados automáticamente. La documentación oficial revisada para este artículo no identifica el planificador de Gizmo como FSRS. Es una limitación de la documentación, no una prueba a favor o en contra de ninguna implementación privada.
+Hay un conflicto en la documentación que conviene señalar. La página sobre tipos de tarjetas afirma que las tarjetas de texto pueden incluir imágenes tanto en el anverso como en el reverso. La [guía para gestionar tarjetas](https://help.gizmo.ai/en/articles/13761411-how-do-i-edit-or-manage-my-cards) de Gizmo dice que las fotos y las imágenes solo pueden añadirse al anverso. Si necesitas imágenes en el reverso, comprueba el editor actual antes de preparar el mazo. Las dos páginas oficiales no permiten dar una respuesta más tajante.
 
-Flashcards utiliza un ciclo de recuerdo más sencillo. Una tarjeta nueva o pendiente muestra primero el anverso. Revelas el reverso, valoras cuánto recordabas y eliges Again, Hard, Good o Easy. Cada botón muestra una vista previa del próximo intervalo. A continuación, FSRS-6 actualiza el estado de memoria de la tarjeta y la fecha del siguiente repaso. Para conocer los detalles del planificador, consulta [FSRS vs SM-2](/blog/fsrs-vs-sm-2/).
+Gizmo también señala que la configuración de los cuestionarios influye en los tipos de pregunta que aparecen. El formato en el que se guarda una tarjeta y la forma en que un cuestionario te evalúa con ella están relacionados, pero no son lo mismo.
 
-Puedes editar una tarjeta durante un repaso en Flashcards. Después de revelar la respuesta, también puedes pasar esa tarjeta al chat con IA si quieres reescribirla o comentarla con más detalle. Gizmo permite editar el anverso, el reverso, las fotos, las listas y las opciones de las preguntas tipo test fuera de un cuestionario, pero su [guía de gestión de tarjetas](https://help.gizmo.ai/en/articles/13761411-how-do-i-edit-or-manage-my-cards) indica que, durante Memorise, una tarjeta solo puede eliminarse, no editarse.
+## El ciclo de estudio va más allá de las tarjetas
 
-Flashcards no genera preguntas nativas de opción múltiple ni evalúa respuestas escritas. Tampoco ofrece cuestionarios con IA ni lecciones de Tutor al estilo de Gizmo. [Las flashcards y los exámenes de práctica entrenan habilidades distintas](/blog/flashcards-vs-practice-tests/), y es razonable que quien prepare un examen quiera combinar tarjetas de recuerdo con ejercicios variados.
+Memorise es el modo principal de repaso de tarjetas. Gizmo resalta palabras clave, te hace preguntas sobre ellas y utiliza la repetición espaciada para volver a mostrarlas con el tiempo. Magic Import elige automáticamente qué palabras resaltar, pero puedes cambiarlas.
 
-## La capa lúdica de Gizmo supone una diferencia real
+AI Tutor cumple otra función. Puede guiarte por el material paso a paso, generar apuntes y plantear preguntas basadas en la fuente. Resulta útil cuando tienes una clase o un documento, pero aún no has decidido qué contenido merece convertirse en una flashcard duradera.
 
-Gizmo está diseñado para que estudiar se parezca a un juego. Su presentación del producto documenta XP, niveles, ligas y rachas. En Memorise, cada respuesta incorrecta cuesta un Heart; si se agotan, el repaso queda pausado hasta que se recuperen. Los [Hints](https://help.gizmo.ai/en/articles/15504721-what-are-hints) pueden revelar la primera letra o eliminar una opción incorrecta de una pregunta de opción múltiple. Los usuarios pueden comprarlos con las monedas que consiguen al responder preguntas. Los límites exactos de los planes gratuito y Unlimited pueden cambiar, así que la [documentación sobre Hearts](https://help.gizmo.ai/en/articles/15623061-what-are-hearts) es el lugar adecuado para consultar las reglas actuales.
+En los dos modos, Gizmo convierte el progreso en un juego. Al responder cuestionarios sumas XP y avanzas en Levels, Leagues y Streaks, mientras que Hearts, Hints y Coins influyen en cómo transcurren las sesiones gratuitas. Si estas mecánicas te ayudan a volver cada día, forman parte de la decisión sobre el producto; no son un simple adorno.
 
-Gizmo Live va más allá. Su [guía oficial de Live](https://help.gizmo.ai/en/articles/15945296-what-happens-during-a-gizmo-live-game) describe rondas multijugador cronometradas, XP, una clasificación, apuestas y revisión de respuestas. La experiencia de una clase o un grupo de estudio puede ser muy distinta a la de una cola de flashcards en solitario.
+Aun así, una pregunta breve para ejercitar el recuerdo y un ejercicio de varios pasos cumplen funciones diferentes. [Flashcards frente a exámenes de práctica](/blog/flashcards-vs-practice-tests/) explica por qué suele ser más útil combinarlos que intentar convertir todos los temas en tarjetas.
 
-Flashcards no ofrece multijugador en directo, Hearts, Hints, XP, monedas, niveles, ligas, rachas, apuestas ni un sistema de juego equivalente. Tampoco sustituye las funciones sociales y de estudio compartido de Gizmo. Si estas mecánicas te animan a volver cada día, pasar a Flashcards significa perderlas, no recrearlas.
+## Cuatro límites que conviene revisar antes de pasar un curso a Gizmo
 
-## Offline-first tiene un límite preciso
+### Las tarjetas generadas siguen necesitando una revisión
 
-Las páginas oficiales de Gizmo y de su centro de ayuda revisadas para este artículo no documentan una garantía offline-first de escritura primero en local. Esto no significa que Gizmo no pueda funcionar sin conexión. Solo significa que la documentación revisada no promete el mismo comportamiento de almacenamiento y sincronización que documenta Flashcards.
+Gizmo recomienda explícitamente revisar el mazo después de usar Magic Import y sugiere dividir los documentos grandes en secciones más pequeñas. La secuencia práctica es sencilla: importa una sección bien delimitada, compara el resultado con la fuente, corrige o elimina las tarjetas poco útiles y empieza después a repasarlas. Generar tarjetas ahorra escribirlas desde cero; no sustituye la revisión editorial.
 
-Flashcards guarda las tarjetas, los cambios y los repasos primero en el dispositivo. La aplicación web utiliza IndexedDB; las aplicaciones móviles usan SQLite. Los cambios entran en una cola de salida y se sincronizan cuando vuelve la conexión. Puedes crear una tarjeta manual, corregir una que ya exista o terminar los repasos pendientes sin conexión.
+### Editar resulta más fácil fuera de Memorise
 
-La IA marca el límite. El chat con IA y la generación de contenido de Flashcards necesitan conexión a la red, aunque la colección de tarjetas guardada y el flujo de repaso no la requieran. Si tu prioridad es repasar con fiabilidad en trenes, vuelos o redes Wi-Fi deficientes del campus, la [guía de apps de flashcards sin conexión](/blog/best-offline-flashcards-app/) explica esta diferencia con más detalle.
+La [guía para gestionar tarjetas](https://help.gizmo.ai/en/articles/13761411-how-do-i-edit-or-manage-my-cards) de Gizmo indica que puedes editar el texto del anverso y el reverso, aplicar formato, añadir imágenes al anverso, cambiar las opciones de respuesta, mover tarjetas y eliminarlas.
 
-## La migración es manual e incompleta
+La limitación aparece durante Memorise: puedes eliminar una tarjeta, pero actualmente no puedes editarla en medio del cuestionario. Si detectas una respuesta incorrecta mientras estudias, tendrás que salir de ese flujo para corregirla.
 
-La documentación de Gizmo sobre la gestión de tarjetas indica que [actualmente no se pueden exportar tarjetas ni mazos](https://help.gizmo.ai/en/articles/13761411-how-do-i-edit-or-manage-my-cards). Esto descarta la opción habitual de exportar un archivo e importarlo en Flashcards.
+### Gizmo no ofrece exportación
 
-El ZIP del espacio de trabajo de Flashcards tampoco es una copia de seguridad completa de la cuenta. Puede transferir tarjetas, etiquetas y archivos multimedia relacionados entre espacios de trabajo de Flashcards. No incluye el historial de repasos, el estado de FSRS, los ajustes del espacio de trabajo, la estructura completa de los mazos ni los datos de la cuenta.
+La misma guía oficial indica que la exportación de tarjetas aún no está disponible. La [guía para gestionar mazos](https://help.gizmo.ai/en/articles/12995587-how-do-i-make-changes-to-my-decks) de Gizmo afirma que tampoco se pueden exportar mazos.
 
-En conjunto, estos límites implican que no existe una migración automática o sin pérdidas de Gizmo a Flashcards. Si decides cambiar, empieza con un conjunto pequeño y recrea únicamente las tarjetas que sigan siendo útiles. Conserva el acceso a las fuentes originales, comprueba cada anverso y reverso, añade etiquetas y cuenta con que el progreso de Gizmo, el contexto de Tutor, los resaltados, el estado de los juegos y el historial de planificación no se trasladarán.
+Es la limitación más clara del flujo actual en cuanto al control de los datos. Gizmo acepta material de otros sistemas, pero de momento no ofrece una forma documentada de sacar las tarjetas resultantes. Si te importa poder migrar en el futuro, valora el producto por esta limitación actual, no por la posibilidad de que más adelante incorpore una función de exportación.
 
-## Lo que Flashcards no sustituye de Gizmo
+### El uso sin conexión no está lo bastante documentado como para garantizarlo
 
-Flashcards no sustituye estas funciones de Gizmo:
+No encontré ningún artículo oficial de ayuda de Gizmo que garantice un modo sin conexión, que los cambios se guarden primero en el dispositivo o un proceso concreto de sincronización cuando vuelva la conexión. Ni las páginas del producto ni las búsquedas en el centro de ayuda consultadas para este análisis definen ese límite.
 
-- las vías nativas para PowerPoint, grabaciones de clases, importación de lecciones de YouTube, sitios web, Quizlet o Anki;
-- el resaltado automático y la ocultación progresiva en Memorise;
-- los repasos con preguntas de opción múltiple o respuestas escritas;
-- Courses, Notes, Lessons y cuestionarios generados con AI Tutor;
-- Hearts y Hints;
-- XP, monedas, niveles, ligas y rachas;
-- los juegos multijugador de Gizmo Live, las clasificaciones, las apuestas y las rondas cronometradas; ni
-- las funciones sociales y de estudio compartido.
+Eso **no** demuestra que Gizmo no pueda funcionar sin conexión. Significa que las fuentes oficiales revisadas no bastan para garantizar que lo hará. Si para ti es importante estudiar sin conexión, prueba la aplicación y el dispositivo concretos en modo avión: cierra y vuelve a abrir la aplicación, repasa una tarjeta, haz un cambio, recupera la conexión y confirma que se conserven tanto el cambio como el historial de repasos.
 
-Estos son los límites actuales del producto. El código con licencia MIT de Flashcards y su vía de autoalojamiento mediante AWS CDK ofrecen un tipo de control diferente, pero el código abierto no compensa la ausencia de un modo de estudio si ese modo es lo que te mantiene aprendiendo.
+La distinción importa porque «una pantalla ya cargada sigue respondiendo» y «mi historial de repasos queda almacenado de forma segura y se sincroniza más tarde» son afirmaciones distintas. La [guía de aplicaciones de flashcards sin conexión](/blog/best-offline-flashcards-app/) aplica esa prueba más estricta a varios productos.
 
-## ¿Qué alternativa a Gizmo encaja con tu forma de estudiar?
+## Gizmo frente a Flashcards de un vistazo
 
-Elige Gizmo si quieres la ruta más corta para convertir fuentes variadas en actividades interactivas. Sus formatos de entrada nativos abarcan más material para estudiantes, AI Tutor amplía el estudio más allá del mazo y Memorise combina el resaltado automático con pruebas cada vez más difíciles. Las capas sociales y de juego también importan si las recompensas, la competición o el juego en grupo te ayudan a mantener el hábito.
+| Criterio de decisión | Gizmo | Flashcards |
+| --- | --- | --- |
+| Punto de partida principal | Tarjetas manuales o Magic Import desde distintas fuentes de estudio | Creación manual o asistida por IA de tarjetas concretas con anverso y reverso |
+| Formatos de tarjeta | Tarjeta de texto, Opción múltiple, Emparejamiento, Ordenación y Verdadero/Falso | Tarjetas con anverso y reverso |
+| Enseñanza alrededor del mazo | Lecciones de AI Tutor, apuntes y preguntas basadas en la fuente | Creación de tarjetas asistida por IA; las páginas actuales del producto no documentan un modo de lecciones como el de Tutor |
+| Estilo de repaso | Memorise, repetición espaciada y distintos tipos de pregunta | Repetición espaciada FSRS |
+| Capa de motivación | XP, Levels, Leagues, Streaks, Hearts, Hints y Coins | Las páginas actuales del producto no documentan una capa de juego comparable |
+| Pruebas sobre el uso sin conexión | No se encontró una garantía oficial de funcionamiento sin conexión en la documentación consultada | El estudio sin conexión en dispositivos móviles y la sincronización automática son funciones documentadas |
+| Exportación de datos | Actualmente no se pueden exportar tarjetas ni mazos | Las exportaciones portátiles incluyen tarjetas, etiquetas y archivos multimedia relacionados |
+| Control del despliegue | Las páginas oficiales consultadas no afirman que pueda autoalojarse | Código abierto y autoalojable |
 
-Elige Flashcards si ya sabes que el contenido que quieres conservar debe tener la forma de una tarjeta con anverso y reverso. Su IA puede revisar el espacio de trabajo, buscar duplicados, mostrar los cambios exactos previstos y guardar después de recibir el permiso conversacional adecuado. Luego puedes revisar o editar el resultado y repasarlo con una implementación documentada de FSRS-6. Puedes seguir trabajando con las tarjetas sin conexión; para usar la IA tendrás que esperar a que vuelva la conexión.
+Flashcards es una alternativa práctica a Gizmo solo para el lado más acotado de esta tabla. Su [página de funciones](/features/) actual documenta FSRS, la creación de tarjetas asistida por IA, el estudio sin conexión en dispositivos móviles con sincronización, las exportaciones portátiles y el autoalojamiento. No describe nada equivalente a Magic Import con los cinco formatos de Gizmo, las lecciones de Tutor o la capa de juego.
 
-Usar las dos puede tener sentido. Gizmo ayuda a desglosar una clase o una presentación y a evaluar el tema de varias maneras. Flashcards puede conservar una colección más pequeña de tarjetas verificadas para seguir repasándolas. No copies todo automáticamente. Un mazo breve de tarjetas precisas suele resultar más útil que uno grande generado por IA y sin revisar.
+## Cuándo encaja mejor Flashcards
 
-La respuesta práctica para quien busca una **alternativa a Gizmo** depende de las funciones que necesite además de las propias tarjetas. Sigue con Gizmo si buscas Magic Import, AI Tutor, distintas formas de evaluación y una motivación lúdica. Considera Flashcards si prefieres controlar la creación de tarjetas, usar un FSRS-6 transparente y guardar primero en local los repasos con un sistema offline-first. Si ese segundo flujo se parece más al tuyo, consulta las [funciones de Flashcards](/features/) o sigue la [guía de introducción](/docs/getting-started/).
+Elige Flashcards cuando quieras conservar una tarjeta revisada con anverso y reverso. Puedes crearla manualmente o pedir a la IA que te ayude a redactarla y mejorarla; después, tú decides qué se guarda. El repaso utiliza FSRS; [FSRS frente a SM-2](/blog/fsrs-vs-sm-2/) explica el modelo de programación con más detalle.
+
+Su documentación es más explícita sobre el uso sin conexión y la exportación de datos. Flashcards documenta el estudio sin conexión en dispositivos móviles con sincronización automática, mientras que su [guía de introducción](/docs/getting-started/) especifica que el cliente de iOS utiliza SQLite local y sincronización offline-first. Las exportaciones portátiles incluyen tarjetas, etiquetas y archivos multimedia relacionados, también al trasladar datos entre instalaciones alojadas y autoalojadas.
+
+La contrapartida es el alcance. Las páginas actuales de Flashcards no documentan el menú de importación de Gizmo, sus cinco tipos de tarjetas, las lecciones dirigidas por Tutor ni el sistema de recompensas. Si esas funciones resuelven el problema que te ha traído hasta aquí, probablemente Gizmo encaje mejor.
+
+## ¿Se puede pasar de Gizmo a otra aplicación?
+
+Hoy no se puede hacer de forma sencilla. Como Gizmo no permite exportar, no hay una vía habitual de migración mediante archivos desde Gizmo a Flashcards u otra aplicación.
+
+La alternativa segura es manual y selectiva:
+
+1. Ten a mano la clase, los apuntes, las diapositivas u otra fuente original.
+2. Vuelve a crear solo las tarjetas que sigan siendo correctas y útiles.
+3. Reescribe las preguntas imprecisas en lugar de copiar todas las tarjetas generadas.
+4. Da por hecho que dejarás atrás los elementos resaltados de Gizmo, el contexto de Tutor, el historial de programación de los repasos, XP y otros datos de progreso.
+
+Es más lento que usar un importador y se pierde información. La parte positiva es que solo trasladas las tarjetas que superan un control de calidad.
+
+También puedes usar ambas aplicaciones. Gizmo puede desglosar una clase o una presentación y ofrecer ejercicios variados. Flashcards puede guardar un conjunto más pequeño de tarjetas revisadas con anverso y reverso para repasarlas con FSRS. El paso de una aplicación a otra sigue siendo manual porque Gizmo no permite exportar las tarjetas.
+
+## ¿Qué flujo de trabajo encaja contigo?
+
+Elige Gizmo si empiezas con material desordenado y quieres que la aplicación cree la primera estructura de estudio. Sus ventajas documentadas son la variedad de fuentes, los cinco tipos de tarjetas, el estudio dirigido por Tutor, los cuestionarios variados y las mecánicas de progresión.
+
+Elige Flashcards si ya sabes qué contenido merece convertirse en una tarjeta duradera con anverso y reverso, y te importan más FSRS, el estudio sin conexión documentado para móviles, la exportación o el autoalojamiento que la variedad de cuestionarios y las recompensas.
+
+Un análisis útil de Gizmo AI no plantea la decisión como «IA sí o IA no». Ambos productos usan IA. La diferencia está en qué parte del flujo interviene. Gizmo usa la IA para convertir un conjunto amplio de materiales en un entorno de estudio más completo. Flashcards la integra en un flujo de tarjetas más acotado, en el que tú eliges qué se guarda y se programa.
+
+Si ese flujo más acotado se parece más al tuyo, consulta las [funciones de Flashcards](/features/) o sigue la [guía de introducción](/docs/getting-started/).
