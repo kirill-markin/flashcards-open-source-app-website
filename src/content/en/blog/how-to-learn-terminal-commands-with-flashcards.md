@@ -142,6 +142,8 @@ These are the kind of cards that survive review because they match common termin
 
 If you want a ready-made Git set in the same task-first style, [Git Commands Flashcards: Everyday Workflow, Branching & Recovery](/catalog/packages/git-commands-flashcards/) has 98 cards covering everyday commands, branches, remotes, history, debugging, undo, and recovery.
 
+For a separate Linux foundation, [Linux Command Line Flashcards: Essential Commands, Flags & Workflows](/catalog/packages/linux-command-line-flashcards/) uses 100 task-first cards to practice navigation, files, search, streams, permissions, processes and jobs, archives, storage and system checks, remote transfer and network basics, and environment and history. It does not cover Git, shell scripting, distro-specific package management, or advanced administration.
+
 None of these are heroic. That is the point. Useful command decks are built from ordinary interruptions.
 
 ## Build cards from real sources, not from memory theater
