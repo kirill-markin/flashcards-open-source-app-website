@@ -37,6 +37,8 @@ You usually need different kinds of recall across four buckets:
 | Math | formula, setup, process step, common error pattern | you remember the formula name but not when or how to use it |
 | Practice-test misses | exact confusion, trap pattern, reason the wrong answer looked tempting | you review the explanation once and then miss the same pattern next week |
 
+If you want a ready-to-install baseline, the independent, unofficial [Digital SAT Flashcards: Math, Grammar & Words in Context](/catalog/packages/digital-sat-flashcards-math-grammar-words-in-context/) includes 150 original Reading and Writing cards and 150 Math cards; you will still need Bluebook and the Student Question Bank for official questions, timed sections, and full-passage reasoning.
+
 **Digital SAT flashcards** work better when the card format follows the mistake you are trying to prevent.
 
 ## SAT vocab flashcards should be built around context, not orphan words
