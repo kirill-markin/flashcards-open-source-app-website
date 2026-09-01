@@ -61,6 +61,8 @@ If I were tightening a deck in late April, I would focus hard on:
 
 That kind of prioritization feels less fair. It is much more useful.
 
+For a ready-made starting point, [AP Biology Flashcards: Complete 8-Unit Course Review](https://flashcards-open-source-app.com/catalog/packages/ap-biology-flashcards-complete-course-review/) is an installable, independent, unofficial 540-card deck covering all eight units with original cards for concept and process recall, experimental design, data interpretation, and FRQ reasoning. It does not replace labs or full practice questions.
+
 ## Terms should be carded as decision points, not dictionary entries
 
 A lot of **AP Biology flashcards** fail in a very familiar way:
