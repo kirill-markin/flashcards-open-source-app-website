@@ -307,4 +307,6 @@ That is the version of NREMT flashcards I would trust in 2026.
 
 The useful deck is smaller and more specific. It is built around CAT misses, primary assessment decisions, TEI-style ordering and sorting, and protocol-level recall anchored to what your course is actually teaching.
 
+The [NREMT EMT assessment, treatment, and operations deck](/catalog/packages/nremt-emt-flashcards-assessment-treatment-operations/) is a ready-made option for recall in those areas. Use it alongside scenario judgment, NREMT Technology Enhanced Item practice, and practical-style exercises—the deck complements that work rather than replacing it.
+
 If you want a tool that supports that workflow, start with the [getting-started guide](/docs/getting-started/) or read the [features page](/features/). Flashcards Open Source App is an open-source study tool built around FSRS review. It is not affiliated with NREMT, and it works best when you feed it small cards from real misses instead of giant summaries.
