@@ -54,6 +54,8 @@ That gives you several sensible boundaries for a first deck:
 - describing your daily routine
 - preparing for the next lesson or conversation already on your calendar
 
+Scope matters with ready-made decks too. [Spanish A1 Vocabulary Flashcards: Beginner Words & Phrases](/catalog/packages/spanish-a1-vocabulary-flashcards/) is a broad 480-card foundation across basics, daily life, food and services, and places and communication. The present-tense and numbers decks linked later in this guide are narrower drills.
+
 Pick one situation. Then collect words and chunks from one lesson, a short article, or a transcript you are allowed to use. A card earns its place when it helps with that situation or repairs a real miss. “Might be useful someday” is a weak reason to review something for months.
 
 This is the Spanish-specific version of the broader [language-learning flashcard workflow](/blog/how-to-use-flashcards-for-language-learning/): context first, card second. If a source begins as class or reading notes, [turn the notes into flashcards](/blog/turn-notes-into-flashcards/) selectively instead of converting every sentence.
