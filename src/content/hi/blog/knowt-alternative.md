@@ -1,130 +1,154 @@
 ---
-title: "Knowt Alternative (2026): Knowt और Flashcards की तुलना"
-description: "AI notes, Learn Mode, practice tests, FSRS, offline study, open source, self-hosting और data control के आधार पर Knowt और Flashcards की तुलना।"
+title: "Knowt समीक्षा (2026): मुफ़्त प्लान, ऑफ़लाइन इस्तेमाल और विकल्प"
+description: "स्रोतों से जाँची गई Knowt समीक्षा: Basic और Ultra की कीमतें, मुफ़्त स्टडी मोड और AI सीमाएँ, ऑफ़लाइन इस्तेमाल के प्रमाण, Quizlet इंपोर्ट, PDF एक्सपोर्ट और विकल्प।"
 date: "2026-08-02"
-image: "/blog/knowt-alternative.png"
+updated: "2026-09-02"
+image: "/blog/knowt-alternative-v2.png"
 keywords:
-  - "knowt alternative"
-  - "knowt alternatives"
-  - "knowt vs flashcards"
-  - "open source knowt alternative"
-  - "offline flashcards app"
-  - "fsrs flashcards app"
-  - "self hosted flashcards"
-  - "AI notes से flashcards"
+  - "knowt समीक्षा"
+  - "क्या knowt मुफ़्त है"
+  - "knowt की कीमत"
+  - "knowt ऑफ़लाइन"
+  - "क्या knowt को ऑफ़लाइन इस्तेमाल कर सकते हैं"
+  - "knowt का विकल्प"
+  - "knowt एक्सपोर्ट"
+  - "quizlet से knowt"
 ---
 
-Knowt एक lecture deck को notes, flashcards और practice test में बदल सकता है। Flashcards का दायरा छोटा है: सामग्री को front/back cards में रखें और FSRS से हर review का समय तय करें। **Knowt alternative** खोज रहे लोगों के लिए जवाब काफी हद तक इसी फर्क पर टिका है।
+Knowt की मौजूदा pricing page और उसके एक help article में अलग-अलग कीमतें लिखी हैं। 2 सितंबर 2026 को live plans page पर Basic मुफ़्त था। Ultra की सालाना कीमत $149.99 अग्रिम भुगतान करने पर प्रभावी रूप से $12.49 प्रति माह थी, जबकि महीने-दर-महीने भुगतान का विकल्प $24.99 प्रति माह था। पुराने help article में अब भी दूसरी कीमतें दी हुई थीं।
 
-अगर आप Knowt के पूरे study workflow का विकल्प चाहते हैं, तो Flashcards उसकी सीधी जगह नहीं लेता। लेकिन अगर आपका लक्ष्य चुने हुए, जाँचे हुए facts को महीनों या सालों तक याद रखना है, तो Flashcards बेहतर विकल्प हो सकता है।
+यही छोटा-सा विरोधाभास बताता है कि उपयोगी **Knowt समीक्षा** केवल features की सूची नहीं हो सकती। Knowt का मुफ़्त प्लान काफी कुछ देता है, पर “मुफ़्त study modes” और “unlimited AI” एक ही वादा नहीं हैं। इसके mobile apps अलग-अलग devices के बीच sync करते हैं, लेकिन इस समीक्षा के लिए देखे गए official pages किसी तय offline workflow का वादा नहीं करते। Web पर मिलने वाला export भी PDF है, कोई documented structured migration file नहीं।
 
-> **प्रकटीकरण:** मैं Kirill Markin हूँ और इस तुलना में शामिल products में से एक, [Flashcards](https://flashcards-open-source-app.com/), बनाता हूँ। Native notes, automatic source conversion, कई तरह के quiz formats, community material और classroom workflows के लिए Knowt बेहतर है।
+सीधा निष्कर्ष: अगर आप notes, source conversion और अभ्यास के कई तरीके एक ही product में चाहते हैं, तो Knowt एक मजबूत विकल्प है। अगर आपकी मुख्य जरूरत लंबे समय तक संभालकर रखे जा सकने वाले, जाँचे हुए front/back cards, documented scheduling, offline-first writes या software और infrastructure पर नियंत्रण है, तो सीमित दायरे वाला flashcard app ज्यादा उपयुक्त हो सकता है।
 
-**तथ्यों की जाँच:** 2 अगस्त 2026।
+> **प्रकटीकरण:** मैं Kirill Markin हूँ और यहाँ चर्चा किए गए विकल्पों में से एक, [Flashcards](https://flashcards-open-source-app.com/), बनाता हूँ। Integrated notes, अपने-आप source conversion, कई तरह का अभ्यास, community material और classroom workflows चाहिए हों, तो Knowt का दायरा बड़ा है और संभवतः वही बेहतर विकल्प है।
 
-![AI notes, practice tests, FSRS और offline flashcard review के आधार पर Knowt alternative की तुलना](/blog/knowt-alternative.png)
+**तथ्यों की जाँच 2 सितंबर 2026 को की गई।** यह तुलना link किए गए product pages और help documentation पर आधारित है। जहाँ ये स्रोत कुछ नहीं कहते, वहाँ मैं उनकी चुप्पी को किसी feature के न होने का प्रमाण नहीं मानता। कीमतें और product का व्यवहार बदल सकते हैं, इसलिए किसी भी विकल्प पर निर्भर होने से पहले checkout की पुष्टि करें और अपना offline workflow खुद आजमाएँ।
 
-## संक्षेप में
+![रेलवे सुरंग में जाने से पहले फ़ोन, कार्ड बॉक्स और कागज़ी बैकअप की जाँच करता छात्र](/blog/knowt-alternative-v2.png)
 
-- अगर आप notes, PDFs, PowerPoint files, videos या live recording से flashcards और कई तरह की practice तक जाने का एक guided workflow चाहते हैं, तो **Knowt** चुनें। इसमें community content, classes, teacher progress tracking और game जैसे study modes भी हैं।
-- अगर आप documented FSRS-6 scheduling, offline-first edits और reviews, MIT-licensed code, production self-hosting का रास्ता और AI agents के लिए access वाली सीधी front/back collection चाहते हैं, तो **Flashcards** चुनें।
-- अगर Knowt source material को समझने और exam की तैयारी में मदद करता है, जबकि Flashcards उन थोड़े-से जाँचे हुए facts को संभालता है जिन्हें आप बाद में भी review करना चाहते हैं, तो **दोनों** इस्तेमाल करें।
+## एक नज़र में फैसला
 
-तीसरे विकल्प में सामग्री आपको खुद चुननी होगी। Knowt notes और cards को PDF के रूप में export या print कर सकता है, लेकिन PDF के जरिए editable source data, review history या scheduling state Flashcards में नहीं आते। दोनों products के बीच automatic या lossless migration का कोई रास्ता नहीं है।
+| सवाल | Knowt Basic | Knowt Ultra | Flashcards |
+|---|---|---|---|
+| मौजूदा कीमत | मुफ़्त | सालाना $149.99 अग्रिम भुगतान पर $12.49/माह की प्रभावी दर या $24.99 प्रति माह | Hosted product beta के दौरान मुफ़्त है; self-hosted software मुफ़्त है, लेकिन infrastructure और provider की लागत आपको देनी होगी |
+| सबसे बड़ी खूबी | Notes, flashcards, मुफ़्त study modes और study material की बड़ी library | मौजूदा plans page के अनुसार unlimited AI summaries, Kai chats और auto-graded assessments के साथ Knowt का व्यापक workflow | Documented FSRS, offline-first clients, open-source code और agent access वाले focused front/back cards |
+| Study modes | Knowt की student account guide के अनुसार Learn, Test, Matching, Flashcard और Spaced Repetition के unlimited sessions | वही modes, साथ में paid AI और assessment features | जाँचे हुए front/back cards का recall, जिसे documented FSRS schedule करता है |
+| AI की सीमा | हर महीने की सीमा; सही allowance plan के अनुसार बदलता है और account settings या मौजूदा plan information में दिखता है | मौजूदा plans page अन्य paid features के साथ unlimited AI summaries और Kai chats का दावा करता है | Hosted beta के दौरान AI शामिल है; network access जरूरी है और भविष्य में ज्यादा इस्तेमाल के लिए provider key या paid option की जरूरत पड़ सकती है |
+| Offline इस्तेमाल के प्रमाण | Mobile apps और cross-device sync documented हैं; शुरू से अंत तक पूरा offline workflow documented नहीं है | Documentation की वही सीमा | Mobile पर offline study और sync documented हैं; AI और remote agent functions के लिए connection चाहिए |
+| Export | Web export PDF है; app Files या दूसरे apps में share कर सकता है, लेकिन help page किसी structured deck format का नाम नहीं बताता | वही documented export paths | Package transfer में cards, tags और उनसे जुड़ा media शामिल है, लेकिन review history, scheduler state, settings, पूरी deck structures या account data नहीं |
+| किसके लिए सही | ऐसे students जिन्हें व्यापक मुफ़्त study workflow चाहिए और जो सीमित AI में काम चला सकते हैं | ऐसे students जो Knowt के AI का इतना इस्तेमाल करते हैं कि subscription की कीमत उचित लगे | ऐसे students जिन्हें notes और tests के पूरे suite के बजाय छोटा card system चाहिए, जिसे वे खुद जाँच सकें |
 
-## Knowt vs Flashcards: एक नज़र में
+## क्या Knowt मुफ़्त है? हाँ, लेकिन AI की सीमा अलग है
 
-| सवाल | Knowt | Flashcards |
-|---|---|---|
-| किसके लिए सबसे अच्छा | Notes से AI और फिर कई तरह की practice तक का integrated workflow, जिसमें classroom use भी शामिल है | Open infrastructure और agent access वाली, लंबे समय तक इस्तेमाल की जा सकने वाली front/back card collection |
-| Notes | Native notes editor; Kai study guides, detailed notes और essay outlines का draft बना सकता है | Native notes editor नहीं; AI chat supported files और workspace data के साथ काम करता है |
-| Source conversion | PDF, PPT, video और live-recording workflows; Quizlet से direct import | AI chat PDF, text, data, document, code और image files स्वीकार करता है, लेकिन PPT/PPTX, video या audio uploads नहीं |
-| Study formats | Standard cards, Learn Mode, practice tests, spaced repetition, matching और Knowt Play | Front/back recall, जिसे Again, Hard, Good या Easy से rate किया जाता है |
-| Scheduling | Configurable spaced-repetition mode; इस लेख के लिए देखी गई official documentation algorithm को FSRS नहीं कहती | Documented FSRS-6 scheduling |
-| Offline | Sync के साथ web, iOS और Android; देखे गए official pages में offline-first local writes की guarantee दर्ज नहीं है | Web, iOS और Android पर local writes, जो IndexedDB या SQLite में store होते हैं और connection लौटने पर sync होते हैं |
-| Source और hosting | देखे गए official product pages में open-source, self-hosted deployment उपलब्ध नहीं है | MIT-licensed application और infrastructure; production hosting के लिए AWS CDK |
-| Transfer | Quizlet से direct import; notes और cards को PDF के रूप में print या export किया जा सकता है | Workspace ZIP cards, tags और related media transfer करता है, लेकिन इसकी अहम सीमाएँ हैं |
+Knowt Basic मुफ़्त है। [Knowt के मौजूदा plans page](https://knowt.com/plans) पर notes और flashcards बनाना, मुफ़्त study modes, flashcards में custom hints और multiple-choice options, और लाखों notes व flashcards तक पहुँच शामिल है।
 
-Knowt एक flashcard के आसपास का ज्यादा काम संभालता है। Flashcards जानबूझकर study object को सरल रखता है, जबकि उसके scheduler, clients, backend और infrastructure को inspect किया जा सकता है।
+8 अगस्त 2025 की Knowt [student account guide](https://help.knowt.com/en/articles/10298016-what-are-the-differences-between-free-and-paid-accounts-for-students) ज्यादा स्पष्ट जानकारी देती है। इसके अनुसार Basic users unlimited flashcards और notes बना सकते हैं और Learn, Test, Matching, Flashcard व Spaced Repetition modes में बिना session limit के पढ़ाई कर सकते हैं। Guide यह भी बताती है कि मुफ़्त प्लान की AI limits हर महीने reset होती हैं।
 
-## Knowt का काम flashcard बनने से पहले शुरू हो जाता है
+यह फर्क मायने रखता है। किसी मौजूदा set को मुफ़्त mode में पढ़ने की कोई सीमा न हो सकती है, फिर भी कोई अलग AI action आपके allowance में गिना जा सकता है। Knowt की [AI usage guide](https://help.knowt.com/en/articles/10714626-how-do-i-see-how-much-ai-i-m-using) इन actions को गिनती है:
 
-Knowt की सबसे साफ बढ़त तब दिखती है जब source material अभी बिखरा हुआ हो। उसकी [students के लिए getting-started guide](https://help.knowt.com/en/articles/10722204-student-s-guide-to-getting-started) बताती है कि PDF, PowerPoint files, videos और live recordings से notes या flashcards कैसे बनाए जा सकते हैं। आप कोई set खुद भी लिख सकते हैं या उसे Quizlet से import कर सकते हैं।
+- Kai Complete suggestion generate करना;
+- notes से practice test generate करना;
+- “Explain Why I'm Wrong” या AI free-response grading इस्तेमाल करना;
+- PDF, video या PowerPoint file से notes या cards बनाना; और
+- किसी file के बारे में Kai के साथ की गई हर chat।
 
-उसका native notes editor इस पूरी प्रक्रिया को एक जगह जोड़ता है। Kai [study guide, detailed notes या essay outline लिख सकता है](https://help.knowt.com/en/articles/10298083-how-can-i-use-ai-to-write-my-notes), फिर उन notes को [flashcards में बदला जा सकता है](https://help.knowt.com/en/articles/10714412-how-can-i-create-flashcards-from-my-notes)। इस तरह source, लिखी हुई explanation और study activities अलग-अलग files और tools में बिखरने के बजाय एक ही product में रहते हैं।
+Guide हर Basic account के लिए कोई एक स्थायी public quota नहीं बताती। वह कहती है कि सीमा plan के हिसाब से बदलती है और users को **Settings → Your Plan → AI usage** या plans page देखने को कहती है। अपना वास्तविक allowance जाँचने के लिए यही सही जगह है—किसी पुराने screenshot या review पर निर्भर न रहें।
 
-Flashcards में documents का ऐसा lifecycle नहीं है। उसका AI chat PDFs, TXT और Markdown files, CSV और XLS/XLSX जैसी spreadsheets, DOCX, structured data, आम code formats और images स्वीकार करता है। Chat workspace data पढ़ सकता है और सीमित database access के जरिए cards बना, update या delete कर सकता है। वह किसी मौजूदा card के लिए teaching image भी बना सकता है। यह तब उपयोगी है जब आप AI assistant से पूरी notebook लिखवाने के बजाय अपनी card collection संभालने में मदद लेना चाहते हैं।
+### Knowt की मौजूदा कीमतें
 
-यह native notes editor या lecture-processing pipeline नहीं है। Flashcards में PPT/PPTX, video या audio files upload नहीं की जा सकतीं। Dictation अलग feature है; यह Knowt के live-recording workflow के बराबर नहीं है। अगर आपकी पढ़ाई “lecture upload करो और उसे study material में बदलो” से शुरू होती है, तो Knowt आपकी जरूरत के ज्यादा करीब है। Flashcards में [notes को flashcards में बदलने](/blog/turn-notes-into-flashcards/) के लिए सामग्री को सोच-समझकर चुनना और जाँचना पड़ता है।
+तथ्यों की जाँच वाली तारीख पर student plans page पर ये कीमतें दिख रही थीं:
 
-## Learn Mode और practice tests का फर्क बड़ा है
+| Plan | दिखाई गई कीमत | Billing |
+|---|---:|---|
+| Basic | मुफ़्त | कोई subscription price नहीं |
+| Ultra Annual | $12.49/माह | $149.99 अग्रिम bill किया जाता है |
+| Ultra Monthly | $24.99/माह | हर महीने $24.99 bill किया जाता है |
 
-Knowt एक ही material की practice कई तरीकों से कराता है। उसका [Learn Mode](https://knowt.com/learn-mode) multiple-choice, written या fill-in-the-blank, true/false और standard flashcard questions इस्तेमाल करता है। किसी set पर काम करते समय Knowt का AI question format भी चुन सकता है।
+Annual option में दिखाई गई रकम प्रभावी मासिक दर है, हर महीने लगने वाला $12.49 charge नहीं। पूरे $149.99 का bill शुरुआत में ही आता है।
 
-[Practice Test mode](https://help.knowt.com/en/articles/10714642-how-do-i-use-the-practice-test-mode) में आप test की length तय कर सकते हैं; multiple-choice, true/false और written questions शामिल कर सकते हैं; यह चुन सकते हैं कि prompts terms से शुरू हों या definitions से; smart grading इस्तेमाल कर सकते हैं; और गलत किए गए questions दोबारा हल कर सकते हैं। 200 से ज्यादा words वाले note को भी [multiple-choice practice test](https://help.knowt.com/en/articles/10298080-how-can-i-take-a-practice-test-from-my-notes) में बदला जा सकता है।
+पुरानी student account guide में Ultra की कीमत अब भी $19.99 प्रति माह या $120 सालाना लिखी है। इन्हें Knowt की मौजूदा कीमत न मानें। खरीदारी की जानकारी के लिए live plans page ज्यादा नया स्रोत है; पुराना help article मुफ़्त study modes और हर महीने reset होने वाली AI limits समझने के लिए अब भी उपयोगी है। भुगतान से पहले final checkout में taxes, क्षेत्र के अनुसार अंतर, promotions और renewal terms जाँचें।
 
-Flashcards में इनमें से कोई built-in mode नहीं है। Review में front और back दिखने के बाद आप recall को चार में से एक rating देते हैं: Again, Hard, Good या Easy। इसमें native multiple-choice generator, true/false mode, matching exercise, configurable exam या गलत answers दोबारा कराने वाली queue नहीं है।
+Ultra के मौजूदा page पर Basic की हर सुविधा के साथ unlimited AI summaries और teacher tools, Kai के साथ unlimited chats, unlimited auto-graded assessments और अतिरिक्त assessment features का विज्ञापन है। $149.99 अग्रिम देना उचित है या नहीं, यह आपके study sessions की संख्या से कम और metered AI workflow के इस्तेमाल की आवृत्ति से ज्यादा तय होता है।
 
-जब answer choices किसी material को असल से ज्यादा जाना-पहचाना महसूस कराते हैं, तब यह सरल review उपयोगी हो सकता है। फिर भी coverage जाँचने और exam के format या time pressure की तैयारी के लिए practice test काम आता है। [Flashcards और practice tests के काम अलग हैं](/blog/flashcards-vs-practice-tests/); Knowt दोनों को एक ही product में रखता है।
+## क्या Knowt को ऑफ़लाइन इस्तेमाल किया जा सकता है?
 
-Knowt में matching, community study library, classes, teacher completion tracking और Knowt Play भी हैं। अगर आप shared sets से पढ़ते हैं या यह देखना चाहते हैं कि students ने कोई study mode पूरा किया या नहीं, तो Flashcards में उसके बराबर का system नहीं है।
+शायद उस material या screen के लिए, जिसकी आपको जरूरत है। मगर Knowt की official documentation अभी इतनी जानकारी नहीं देती कि पूरे app के लिए भरोसेमंद वादा किया जा सके। व्यावहारिक जवाब इस पर निर्भर करता है कि app restart करने के बाद क्या खुलता है, कौन-से edits device पर बने रहते हैं और दोबारा connect होने पर क्या sync होता है।
 
-## दोनों reviews schedule करते हैं, पर FSRS-6 को केवल Flashcards document करता है
+Knowt के iOS और Android apps हैं। इसका [mobile page](https://knowt.com/mobile) कहता है कि files और study progress mobile app और website के बीच sync होते हैं। मौजूदा [Google Play listing](https://play.google.com/store/apps/details?id=com.knowt.app) भी mobile-to-web sync और चलते-फिरते पढ़ाई का जिक्र करती है।
 
-Knowt में अलग [spaced-repetition mode](https://help.knowt.com/en/articles/10714645-how-do-i-use-the-spaced-repetition-mode) है। उसके controls में रोज के नए cards की limit, intervals, question types और difficulty feedback शामिल हैं। Mobile users exam date भी set कर सकते हैं।
+जाँच के समय दोनों में से किसी page ने साफ नहीं बताया कि device पर वास्तव में क्या download होता है, connection के बिना app को पूरी तरह restart करने पर कौन-से study modes दोबारा खुलते हैं, offline edits और review progress device पर बने रहते हैं या नहीं, और reconnect करने पर टकराते बदलाव कैसे सुलझते हैं। यह इस बात का प्रमाण नहीं कि Knowt offline काम नहीं करता। इसका मतलब सिर्फ इतना है कि प्रकाशित प्रमाण mobile apps और sync का समर्थन करते हैं, किसी खास offline guarantee का नहीं।
 
-इस लेख के लिए देखी गई Knowt documentation scheduler को FSRS नहीं कहती। इससे यह साबित नहीं होता कि Knowt FSRS इस्तेमाल करता है या नहीं करता; इसका मतलब सिर्फ इतना है कि documentation के बिना algorithm का नाम नहीं दिया जाना चाहिए। खरीदार के लिए काम की बात यह है कि Knowt अपने दूसरे study modes के साथ configurable spaced repetition देता है।
+अगर flight, commute, exam venue या अविश्वसनीय campus Wi-Fi के कारण offline access जरूरी है, तो उसी device और app version पर यह test करें जिसे आप सच में इस्तेमाल करेंगे:
 
-Flashcards अपने scheduler को सार्वजनिक रूप से document करता है। Backend, web, iOS और Android में FSRS-6 लागू है और official `ts-fsrs` 5.2.3 scheduler flow को reference माना गया है। हर review के बाद Again, Hard, Good या Easy की rating card की memory state और अगली due date को update करती है। सार्वजनिक [FSRS scheduling logic](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/docs/fsrs-scheduling-logic.md) में product के pinned parameters भी दर्ज हैं।
+1. Online रहते हुए वही note और flashcard set खोलें जिसकी आपको जरूरत है। कोई visible sync चल रहा हो, तो उसके पूरा होने का इंतजार करें।
+2. एक ऐसी अलग phrase वाला temporary card जोड़ें जिसे बाद में आसानी से पहचाना जा सके।
+3. Airplane mode चालू करें और पक्का करें कि Wi-Fi बंद है। Knowt को पूरी तरह बंद करके फिर खोलें; पहले से खुली screen देखना केवल memory caching की जाँच करता है।
+4. Set खोलें, कई reviews पूरे करें, temporary card को edit करें और एक नया card बनाएँ। हर जरूरी mode को अलग से test करें; किसी एक screen के चलने से पूरे app को offline-ready न मानें।
+5. Offline रहते हुए app को फिर पूरी तरह बंद करके खोलें। पुष्टि करें कि set खुलता है और आपके बदलाव व progress अब भी मौजूद हैं।
+6. दोबारा connect करें, sync को समय दें, फिर web app या दूसरे device पर जाँचें। पुष्टि करें कि दोनों edits और study progress ठीक एक बार पहुँचे हैं और किसी पुरानी copy ने उन्हें overwrite नहीं किया।
 
-अगर आप यह देखना चाहते हैं कि अगला review तय करने वाला algorithm कैसे काम करता है, तो यह transparency उपयोगी है। लेकिन इससे Flashcards एक बड़ा exam-preparation suite नहीं बन जाता। उसी source material को test करने के ज्यादा तरीके अब भी Knowt देता है। Scheduler के बारे में और जानने के लिए [FSRS vs SM-2](/blog/fsrs-vs-sm-2/) पढ़ें।
+किसी बड़े app update के बाद यह test फिर करें। जिस material को खोने का जोखिम आप नहीं उठा सकते, उसकी एक अलग copy भी रखें। “Mobile app है,” “sync होता है” और “मेरे पूरे offline workflow में काम करता है”—ये तीन अलग दावे हैं।
 
-## Offline-first का मतलब सिर्फ mobile app होना नहीं है
+## Knowt के मुफ़्त study modes केवल cards पलटने तक सीमित नहीं हैं
 
-Knowt web, iOS और Android apps देता है। उसका [mobile page](https://knowt.com/mobile) चलते-फिरते access और devices के बीच sync की बात करता है। इस तुलना के लिए जाँचे गए official pages में वह local-write-first architecture दर्ज नहीं है जिसका वर्णन Flashcards करता है। यह उपलब्ध documentation की सीमा है, ऐसा दावा नहीं कि Knowt में offline support बिल्कुल नहीं है।
+Knowt महज़ ऐसा flashcard viewer नहीं है जिसमें AI जोड़ दिया गया हो। इसका [Learn Mode](https://knowt.com/learn-mode) unlimited free sessions देता है और multiple-choice, written या fill-in-the-blank, true/false व सामान्य flashcard questions दिखा सकता है। जब साधारण term-definition prompt उस परीक्षा जैसा न हो जिसकी आप तैयारी कर रहे हैं, तब यह विविधता काम आती है।
 
-Flashcards web data को IndexedDB और mobile data को SQLite में store करता है। Card edits और reviews पहले locally save होते हैं, outbox में जाते हैं और connection लौटने पर sync होते हैं। कमजोर campus Wi-Fi या subway tunnel में भी review जारी रह सकता है। [Offline flashcards comparison](/blog/best-offline-flashcards-app/) बताती है कि local writes सिर्फ travel के दौरान ही उपयोगी क्यों नहीं हैं।
+[Practice Test mode](https://help.knowt.com/en/articles/10714642-how-do-i-use-the-practice-test-mode) में आप test की लंबाई, question type, answers में term, definition या दोनों का इस्तेमाल, smart grading, shuffling और starred terms चुन सकते हैं। इसके बाद पूरा test या केवल गलत हुए questions दोबारा दे सकते हैं। 200 से अधिक words वाला note भी [multiple-choice practice test](https://help.knowt.com/en/articles/10298080-how-can-i-take-a-practice-test-from-my-notes) generate कर सकता है।
 
-यहाँ एक साफ सीमा है: Flashcards AI chat server पर चलता है और उसे network connection चाहिए। Cards, edits और reviews offline जारी रह सकते हैं; AI chat और generation नहीं।
+यहाँ billing की एक बारीकी है। Free account guide Test mode को unlimited बताती है, जबकि AI usage guide के अनुसार notes से practice test generate करना एक AI use गिना जाता है। इसलिए मौजूदा material को बार-बार पढ़ने और Knowt से AI के जरिए नया material बनवाने में फर्क रखें।
 
-## Open source और self-hosting के साथ operator का काम भी मिलता है
+Knowt में अपनी जरूरत के अनुसार बदला जा सकने वाला [Spaced Repetition mode](https://help.knowt.com/en/articles/10714645-how-do-i-use-the-spaced-repetition-mode) भी है। आप हर दिन आने वाले नए cards की संख्या और intervals तय कर सकते हैं, multiple-choice, true/false, written या flashcard questions चुन सकते हैं और difficulty बता सकते हैं, ताकि मुश्किल cards जल्दी वापस आएँ। Mobile setup में exam date भी दी जा सकती है।
 
-Flashcards अपने web, iOS, Android, backend, infrastructure, MCP और Agent API code को MIT license के तहत [GitHub](https://github.com/kirill-markin/flashcards-open-source-app) पर publish करता है। केवल product descriptions पर निर्भर रहने के बजाय आप scheduler और sync implementation inspect कर सकते हैं। AI agents MCP या Agent API के जरिए study workspace में भी काम कर सकते हैं; [getting-started guide](/docs/getting-started/) इन entry points को समझाती है।
+जाँची गई Knowt documentation उसके scheduler को FSRS नहीं कहती। इससे यह पता नहीं चलता कि Knowt अंदर कौन-सा algorithm इस्तेमाल करता है। इसका मतलब केवल इतना है कि स्रोतों पर आधारित तुलना में documentation के बिना उस पर FSRS का label नहीं लगाया जाना चाहिए।
 
-Self-hosting से infrastructure का control मिलता है, लेकिन उसके साथ काफी काम भी आता है। Supported production setup AWS CDK stack है, one-click Docker installation नहीं। AWS services और costs, domains, email, monitoring, backups, upgrades और AI provider credentials की जिम्मेदारी operator की होती है। Deployment को झटपट पूरा होने वाला weekend task मानने से पहले [self-hosting guide](/docs/self-hosting/) पढ़ें।
+## Knowt की सबसे बड़ी बढ़त पहला review शुरू होने से पहले दिखती है
 
-इस लेख के लिए देखे गए Knowt के official product और help pages में इसके बराबर कोई open-source, self-hosted product deployment नहीं मिलता। यह बात जानबूझकर Knowt की public documentation तक सीमित है; इससे उसकी service की private implementation details के बारे में कोई अनुमान नहीं लगाया गया है।
+कई students साफ-सुथरे flashcards से शुरुआत नहीं करते। उनके पास पहले lecture, लंबे notes, slide deck, video या PDF होता है, जिसे अभी पढ़ने लायक material में बदलना बाकी है।
 
-## Import, export और transfer में क्या नहीं आता
+Knowt इसी शुरुआती चरण को ध्यान में रखकर बनाया गया है। इसकी AI documentation में PDFs, videos और PowerPoint files से notes या flashcards generate करना और फिर Learn Mode, practice tests, matching या spaced repetition पर जाना शामिल है। Native notes और अभ्यास के कई formats एक ही product में रहते हैं। Source से study session तक का यह छोटा रास्ता किसी focused flashcard tool के मुकाबले Knowt की सबसे साफ बढ़त है।
 
-Knowt किसी set को सीधे Quizlet से import कर सकता है। यह [flashcards export](https://help.knowt.com/en/articles/10714472-how-can-i-export-my-flashcards) भी कर सकता है, जबकि उसके print workflow से [notes और flashcards को PDFs में बदला जा सकता है](https://help.knowt.com/en/articles/10714514-how-can-i-print-my-notes-and-flashcards)। ये files print करने, share करने और पढ़ने लायक copy रखने के काम आती हैं। लेकिन ये Flashcards में structured migration नहीं हैं और वहाँ Knowt के study modes या scheduling data को दोबारा नहीं बनातीं।
+इसके साथ quality control की जिम्मेदारी भी आती है। Generated cards context छोड़ सकते हैं, किसी claim को जरूरत से ज्यादा व्यापक बना सकते हैं या उपयोगी explanation को कमजोर recognition question में बदल सकते हैं। अहम cards को कई हफ्तों तक review करने से पहले original source से मिलाएँ। यही चेतावनी Flashcards समेत हर AI card generator पर लागू होती है।
 
-Flashcards का workspace ZIP भी complete backup नहीं है। यह Flashcards workspaces के बीच cards, tags और related media transfer करता है। इसमें review history, FSRS state, workspace settings, पूरी deck structures या account data शामिल नहीं होते। Open-source access आपको system inspect और extend करने की गुंजाइश देता है; इससे built-in export comprehensive नहीं हो जाता।
+## Quizlet import आसान है, फिर भी manual तरीका तैयार रखें
 
-अगर आप दोनों apps इस्तेमाल करते हैं, तो पहले एक छोटा, representative sample transfer करें। हर generated या copied card को source से मिलाएँ, original material अपने पास रखें और मानकर चलें कि formatting और scheduling history पीछे छूट जाएँगी। यह manual content workflow है, automated migration path नहीं।
+**Quizlet से Knowt** पर जाने के लिए Knowt अपनी [Quizlet import guide](https://help.knowt.com/en/articles/10298079-how-to-import-flashcards-from-quizlet-to-knowt) में दो तरीके बताता है:
 
-## Flashcards कहाँ Knowt की सीधी जगह नहीं लेता
+1. Knowt Chrome extension install करें, Quizlet set खोलें और extension के जरिए उसे import करें।
+2. Set को separated text के रूप में export या copy करें, फिर सही term और card separators के साथ उसे Knowt के manual importer में paste करें।
 
-जो चीजें नहीं मिलतीं, उन्हें एक list में देखना आसान है। Flashcards इन Knowt features की जगह नहीं लेता:
+Help page खुद चेतावनी देता है कि Quizlet के block करने पर extension काम करना बंद कर सकता है। इसलिए manual separator वाला तरीका केवल किसी दुर्लभ स्थिति के लिए नहीं है। बड़े migration की योजना बनाने से पहले किसी representative set पर इसे आजमाएँ। फिर line breaks, images, rich formatting, duplicate terms और term-definition की दिशा जाँचें।
 
-- native notes editor;
-- PPT, video और live-lecture summarization workflows;
-- Learn Mode में मिलने वाले अलग-अलग question formats;
-- built-in practice tests और गलत answers दोबारा कराने वाला flow;
-- Match या Knowt Play;
-- community study library;
-- classes और teacher progress tracking;
-- Quizlet से direct import; या
-- printable PDF export।
+यही help page Quizlet export access के बारे में एक व्यापक दावा करता है, जो Quizlet के plans और permissions बदलने पर पुराना पड़ सकता है। Import के steps उस दावे को दोहराने पर निर्भर नहीं हैं। अपना Quizlet account और set का ownership जाँचें; export उपलब्ध हो, तो manual path extension पर कम निर्भर रहता है।
 
-Flashcards AI को network connection भी चाहिए, भले ही card editing और review offline चल सकें। ये product की मौजूदा सीमाएँ हैं—कोई छिपी हुई settings या भविष्य के वादे नहीं।
+## Knowt export पढ़ने के काम आता है, documented migration के लिए नहीं
 
-## कौन-सा Knowt alternative आपके workflow के लिए सही है?
+Web पर Knowt की [flashcard export guide](https://help.knowt.com/en/articles/10714472-how-can-i-export-my-flashcards) **Export as PDF** चुनकर नतीजा save करने को कहती है। इसकी [print guide](https://help.knowt.com/en/articles/10714514-how-can-i-print-my-notes-and-flashcards) notes और cards के लिए इसी printable path का इस्तेमाल करती है। Mobile app में documented तरीका Share चुनकर Files या किसी दूसरे app में export करना है; help page इससे बनने वाले file format का नाम नहीं बताता।
 
-अगर आपकी मुख्य समस्या source material को पढ़ाई लायक बनाना है, तो Knowt चुनें। यह lecture, document या note से कई तरह की practice तक का रास्ता छोटा करता है। Shared material, classes, completion tracking या game जैसी activities पर निर्भर students और teachers के लिए भी यह ज्यादा सही है।
+PDF print करने, share करने और इंसानों के पढ़ने लायक snapshot रखने के लिए उपयोगी है। यह structured deck archive नहीं है। जाँची गई documentation terms और definitions, source attachments, study-mode settings या review history के ऐसे machine-readable export का वादा नहीं करती, जिसे कोई दूसरा flashcard app दोबारा बना सके।
 
-अगर आपकी मुख्य समस्या long-term recall के लिए एक compact collection संभालना है, तो Flashcards चुनें। इसमें predictable front/back cards, documented FSRS-6 scheduling, offline-first daily review, open-source code, self-hosting और AI agents के लिए workspace access मिलता है। बदले में native study formats कम मिलते हैं, और self-host करने का फैसला लें तो infrastructure सच में आपको ही चलाना होगा।
+लंबे समय तक काम आने वाले material के लिए Knowt चुनने से पहले कोई वास्तविक set export करके नतीजा देखें। एक व्यावहारिक सवाल पूछें: अगर Knowt कल आपके workflow से गायब हो जाए, तो क्या मिली हुई file से editable cards दोबारा बनाए जा सकेंगे, या आपके पास केवल पढ़ने के लिए document बचेगा?
 
-दोनों इस्तेमाल करना भी ठीक है। Knowt किसी presentation, recording या लंबे note को process करके coverage जाँचने में मदद कर सकता है। इसके बाद केवल जाँचे हुए, लंबे समय तक काम आने वाले facts को ongoing FSRS review के लिए manually Flashcards में copy करें। दोनों की भूमिका साफ रहे, तो किसी app को दूसरे की नकल करने की जरूरत नहीं पड़ती।
+Flashcards भी portability की समस्या पूरी तरह हल नहीं करता। इसका package transfer अलग-अलग Flashcards installations के बीच cards, tags और उनसे जुड़ा media ले जाता है, लेकिन review history, FSRS scheduler state, workspace settings, पूरी deck structures या account data शामिल नहीं करता। [Open source होने भर से कोई export अपने-आप पूरा backup नहीं बन जाता](/docs/self-hosting/)।
 
-निष्कर्ष सीधा है: integrated notes, source conversion, कई तरह के tests और classroom workflows के लिए Knowt इस्तेमाल करें। जब quiz variety के मुकाबले transparent FSRS, offline-first review, open code और infrastructure control ज्यादा मायने रखते हों, तब focused front/back recall के लिए Flashcards इस्तेमाल करें। अगर आपकी जरूरत यही है, तो [Flashcards features](/features/) देखें या [getting-started guide](/docs/getting-started/) से शुरुआत करें।
+## सीमित दायरे वाला विकल्प कब बेहतर है
+
+[Flashcards](/features/) अपने मुख्य object को जानबूझकर छोटा रखता है: जाँचा हुआ front, जाँचा हुआ back और documented FSRS से तय होने वाली due date। इसके mobile clients local writes और offline review के लिए बने हैं और reconnect होने पर sync करते हैं। Hosted product [beta के दौरान मुफ़्त](/pricing/) है, जिसमें AI और sync शामिल हैं। हालाँकि भविष्य में ज्यादा AI usage के लिए अपनी provider key या paid option की जरूरत पड़ सकती है।
+
+यह [MCP और Agent API](/docs/api/) के जरिए workspace access भी देता है, इसलिए Claude Code या Codex जैसे tools cards बनाने और व्यवस्थित करने में मदद कर सकते हैं। इन agent functions और AI features को network services चाहिए। Offline-first card review का मतलब offline AI नहीं है।
+
+Open-source repository में clients, backend services और वास्तविक AWS CDK production path शामिल हैं। Self-hosting के लिए फिर भी AWS infrastructure, email delivery, monitoring, secrets, migrations, backups और restore tests संभालने पड़ते हैं। यह desktop app में “deploy” पर click करने से कहीं ज्यादा, एक छोटा production system चलाने जैसा है। Infrastructure पर नियंत्रण को बिना लागत की सुविधा मानने से पहले [self-hosting guide](/docs/self-hosting/) पढ़ना उपयोगी है।
+
+Flashcards, Knowt का पूरा replacement नहीं है। इसमें Knowt का integrated notes workflow, broad source conversion, Learn Mode की question variety, generated practice-test experience, community study library या classroom features नहीं हैं। अगर आप Knowt इन्हीं कारणों से इस्तेमाल करते हैं, तो सीमित दायरे वाले app पर जाने से उसका उपयोगी हिस्सा ही छूट जाएगा।
+
+## आपको क्या चुनना चाहिए?
+
+अगर आप मुख्य रूप से notes और sets खुद बनाते हैं, मुफ़्त study modes इस्तेमाल करते हैं और AI की जरूरत कभी-कभार पड़ती है, तो Knowt Basic पर बने रहें। Ultra को जरूरी मानने से पहले AI usage screen पर अपनी असली limit जाँचें।
+
+अगर summaries, Kai chats, generated assessments और दूसरे metered AI actions आपकी साप्ताहिक पढ़ाई का अहम हिस्सा हैं, तो Knowt Ultra पर विचार करें। सालाना अग्रिम भुगतान की तुलना अपने एक महीने के वास्तविक usage से करें; unlimited capacity के लिए भुगतान तभी काम आता है, जब limit सच में आपके रास्ते में आ रही हो।
+
+अगर लंबे समय तक काम आने वाला नतीजा जाँचे हुए front/back cards का छोटा collection है और अलग-अलग quiz formats से ज्यादा documented FSRS, offline-first writes, export किया जा सकने वाला card content, open code, self-hosting या agent access मायने रखते हैं, तो Flashcards चुनें। AWS stack पर विचार करने से पहले [hosted app और getting-started guide](/docs/getting-started/) से शुरुआत करें।
+
+दोनों का इस्तेमाल भी समझदारी भरा हो सकता है। बिखरे हुए source material को notes और अलग-अलग तरह के अभ्यास में बदलने के लिए Knowt इस्तेमाल करें, फिर केवल उन्हीं स्थायी facts को manually Flashcards में ले जाएँ जिन्हें आप महीनों तक याद रखना चाहते हैं। दोनों के बीच कोई documented lossless transfer नहीं है, इसलिए source संभालकर रखें, cards verify करें और मानकर चलें कि review history साथ नहीं जाएगी।
+
+अगर दोनों में से किसी का tradeoff ठीक न बैठे, तो [open-source flashcard apps](/blog/best-open-source-flashcard-apps-2026/) की व्यापक सूची देखें या अपनी shortlist में मौजूद tools पर [offline flashcard test](/blog/best-offline-flashcards-app/) चलाएँ। Knowt का सही विकल्प वह नहीं जिसकी feature table सबसे लंबी हो। सही विकल्प वह है जो आपके वास्तविक study session, वास्तविक internet connection और वास्तविक exit plan में टिक सके।
