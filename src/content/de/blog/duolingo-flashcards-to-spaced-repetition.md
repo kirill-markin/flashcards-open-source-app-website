@@ -1,286 +1,185 @@
 ---
-title: "So machst du 2026 aus Duolingo-Flashcards echte Spaced Repetition"
-description: "Du nutzt 2026 Duolingo-Flashcards oder Video Call? Hier ist ein praktischer Workflow, um wichtige Wörter und korrigierte Formulierungen zu sichern, in saubere Flashcards zu verwandeln und sie mit FSRS in einer Open-Source-App zu wiederholen, die du selbst kontrollierst."
+title: "Duolingo-Karteikarten (2026): So funktionieren sie – und was du später wiederholen solltest"
+description: "Duolingo-Karteikarten setzen auf aktives Abrufen in Runden mit je fünf Karten, direkt in den Lektionen. Wiederkehrende Fehler kannst du in ein kleines, selbst verwaltetes FSRS-Deck übernehmen."
 date: "2026-06-12"
-image: "/blog/duolingo-flashcards-to-spaced-repetition.png"
+updated: "2026-09-03"
+image: "/blog/duolingo-flashcards-to-spaced-repetition-v2.png"
 keywords:
-  - "Duolingo flashcards"
-  - "Duolingo Vokabelkarten"
+  - "Duolingo-Karteikarten"
+  - "wie Duolingo-Karteikarten funktionieren"
+  - "Duolingo-Vokabelkarten"
+  - "Duolingo Spaced Repetition"
+  - "Duolingo-Karteikarten exportieren"
   - "Duolingo zu Anki"
-  - "Duolingo spaced repetition"
-  - "Duolingo Video Call Transkript"
-  - "Duolingo Vokabeln wiederholen"
-  - "Duolingo Max Sprechpraxis Flashcards"
-  - "FSRS flashcards"
+  - "Duolingo-Vokabeln am besten wiederholen"
+  - "FSRS zum Sprachenlernen"
 ---
 
-Am **18. November 2025** hat Duolingo [offizielle Flashcards](https://blog.duolingo.com/duolingo-flashcards/) eingeführt. Ein paar Monate später standen viele Sprachlernende vor demselben Anschlussproblem: Das Wort, das du am Montag in einer Lektion verpasst hast und am Donnerstag in einem Video Call schon wieder verpatzt hast, braucht trotzdem irgendwo einen Platz, auch wenn die App längst weitergezogen ist.
+Bei Duolingos Karteikarten beginnt jede Runde mit fünf Karten. Auf jeder steht ein Wort in einer Sprache, die du bereits kannst. Deine Aufgabe ist, die Übersetzung in der Lernsprache laut zu sagen – oder sie zu tippen, falls Sprechen gerade nicht passt.
 
-Genau hier geraten die meisten Workflows mit **Duolingo-Flashcards** ins Wanken.
+Dieses kleine Detail erklärt die Funktion besser als ihr Name. Duolingo-Flashcards sind kein persönliches Vokabeldeck, das du jederzeit nach Belieben durchgehst. Sie sind eine kurze Übung zum aktiven Abrufen innerhalb einer Duolingo-Lektion. Bei einer richtigen Antwort verschwindet die Karte. Bei einem Fehler zeigt Duolingo die Lösung und gibt sie auch akustisch wieder; anschließend landet die Karte für einen weiteren Versuch hinten im Stapel.
 
-Duolingo ist gut darin, dich in Bewegung zu halten. Du bekommst Wiederholungen, Prompts, Korrekturen und gute Gründe, morgen wiederzukommen. Was du nicht automatisch bekommst, ist ein kleines langfristiges Wiederholungssystem rund um genau die Wörter und Formulierungen, über die du immer wieder stolperst.
+Für viele Lernende reicht das schon. Falls dir nach der Lektion einige Wörter immer wieder entfallen, kann ein zweites Deck helfen – aber nur bei diesen hartnäckigen Schwachstellen. Einfach jedes Wort aus Duolingo zu kopieren, würde vor allem zusätzliche Arbeit schaffen.
 
-Dieser Guide bleibt bewusst eng umrissen. Es geht nicht darum, Duolingo zu ersetzen. Es geht darum, das zu nehmen, was Duolingo dir ohnehin schon zeigt, und daraus ein Spaced-Repetition-Deck zu machen, das du 2026 weiterverwenden kannst.
+**Fakten geprüft am:** 3. September 2026.
 
-![Eine warme Schreibtischszene mit von Hand sortierten Sprachkarten und einem unscharfen Gesprächsbildschirm](/blog/duolingo-flashcards-to-spaced-repetition.png)
+![Eine Jongleurin legt einen abgenutzten Jonglierball aus einem Fünfer-Set zum gezielten Üben beiseite](/blog/duolingo-flashcards-to-spaced-repetition-v2.png)
 
-## Warum das jetzt wichtiger ist
+## So funktionieren Duolingo-Karteikarten
 
-Duolingo erzeugt heute mehr Momente vom Typ "Das sollte ich mir für später sichern" als früher.
+Duolingos [offizielle Erklärung zu Flashcards](https://blog.duolingo.com/duolingo-flashcards/) beschreibt diesen Ablauf:
 
-Der Wandel ist in Duolingos eigenen Produktupdates sichtbar:
+1. Ein Stapel enthält fünf Karten. Auf jeder steht ein Wort in deiner eigenen Sprache.
+2. Du sagst die Übersetzung in der Zielsprache laut oder tippst sie ein.
+3. Bei einer richtigen Antwort färbt sich die Karte grün und verschwindet aus dem Stapel.
+4. Bei einer falschen Antwort dreht sie sich um, zeigt die Übersetzung an, gibt sie laut wieder und wandert ans Ende des Stapels.
+5. Drei richtige Antworten genügen, um die Übung zu bestehen.
+6. Zum Abschluss siehst du eine Zusammenfassung: was gut lief und was du noch etwas üben solltest.
 
-- [offizielle Flashcards wurden am 18. November 2025 eingeführt](https://blog.duolingo.com/duolingo-flashcards/)
-- [Duolingo Max brachte stark KI-gestützte Tutor-Funktionen einschließlich Video Call](https://blog.duolingo.com/duolingo-max/)
-- [Video Call mit Lily wurde am 22. April 2025 ausführlicher erklärt](https://blog.duolingo.com/ai-and-video-call/)
-- [Video Call mit Falstaff folgte am 14. Januar 2026 für Gespräche auf Anfängerniveau](https://blog.duolingo.com/beginner-video-call-with-falstaff/)
+Duolingo zufolge erscheinen Flashcards innerhalb von Lektionen. Der Leitfaden von 2026 zum [Schreibtraining in der App](https://blog.duolingo.com/covering-all-the-bases-duolingos-approach-to-writing-skills/) beschreibt sie ebenfalls als Abrufübung, bei der du die Antwort sprichst oder tippst. Im selben Leitfaden wird **Words** separat im Practice-Tab aufgeführt. Dort können Lernende den Wortschatz ihres Kurses erneut ansehen und Wörter ihren Bedeutungen zuordnen.
 
-Das Rohmaterial ist also nicht mehr nur eine Wortliste. Dazu gehören zum Beispiel:
+Wer nach Duolingo-Vokabelkarten sucht, sollte deshalb zwei Funktionen auseinanderhalten:
 
-- Vokabular aus Lektionen
-- korrigierte Formulierungen
-- kleine Grammatik-Kontraste
-- Sprechfehler aus Video Calls
-- Satzmuster, die du wirklich wiederverwenden möchtest
+- **Flashcards** sind die Abrufübung mit fünf Karten innerhalb von Lektionen.
+- **Words** ist ein eigener Bereich zum Vokabeltraining, den Duolingo für den Practice-Tab beschreibt.
 
-Das ist nützlich, erzeugt aber auch ein Filterproblem. Wenn du alles speicherst, wird das Deck schnell unübersichtlich. Wenn du gar nichts speicherst, tauchen dieselben Schwachstellen in Duolingo immer wieder auf und verschwinden dann wieder.
+Flashcards und Words sind also nicht zwei Namen für dieselbe Ansicht: Die Übung mit fünf Karten findest du in Lektionen, Words dagegen im Practice-Tab.
 
-## Der brauchbare Workflow ist manuell, selektiv und etwas langweilig
+## Die Übung in der App und ein langfristiges Deck erfüllen unterschiedliche Aufgaben
 
-Ein Hinweis ist hier wichtig.
+Mit Duolingo-Karteikarten rufst du Vokabeln aus der aktuellen Lektion direkt aus dem Gedächtnis ab. Ein persönliches Deck holt ausgewählte Inhalte in den folgenden Tagen und Monaten immer wieder hervor.
 
-Dieser Workflow basiert **nicht** auf einem offiziellen Duolingo-Import, keiner offiziellen Export-API, keinem Browser-Scraping, keiner Partnerschaft und keiner One-Click-Synchronisierung in Flashcards. Er ist absichtlich manuell. Du merkst, was wichtig war, kopierst es oder machst einen Screenshot, bereitest es auf und machst erst dann Karten daraus.
+| Frage | Duolingos Fünf-Karten-Übung | Ein langfristiges, selbst verwaltetes Deck |
+| --- | --- | --- |
+| Wo findet es statt? | Innerhalb einer Duolingo-Lektion | In der Karteikarten-App deiner Wahl |
+| Was stößt die Wiederholung an? | Die Lektion zeigt einen Stapel mit fünf Karten | Die Karten werden nach dem Zeitplan der jeweiligen App fällig |
+| Was rufst du ab? | Eine gesprochene oder getippte Übersetzung in die Sprache, die du lernst | Eine eng umrissene Abfrage, die du selbst formulierst: ein Wort, eine Wendung, ein Unterschied oder eine Korrektur |
+| Was passiert nach einem Fehler? | Die Antwort wird gezeigt und akustisch wiedergegeben; die Karte wandert ans Ende des Stapels | Du bewertest oder wiederholst die Karte entsprechend dem Ablauf der App |
+| Wofür eignet es sich am besten? | Für eine schnelle Abrufübung, solange die Lektion noch präsent ist | Um persönlich wichtige Schwachstellen langfristig zu wiederholen |
+| Wer bestimmt den Kartentext? | Duolingo gibt die Übung vor | Du kannst Karten bearbeiten, löschen, aufteilen und neu formulieren |
 
-Das ist weniger aufregend als die Fantasieversion von "Duolingo zu Anki".
+Das eine ersetzt das andere nicht. Die Runde mit fünf Karten kann bereits dein kompletter Ablauf sein. Ein eigenes Deck lohnt sich erst, wenn es etwas bewahrt, das dir sonst weiterhin entfallen würde.
 
-Es ist aber viel näher an dem, was langfristig wirklich hält.
+## Wann Duolingo allein ausreicht
 
-## Was du aus Duolingo festhalten solltest
+Du brauchst wahrscheinlich kein zweites Deck, wenn:
 
-Wenn du **Duolingo-Vokabelkarten** willst, die langfristig nützlich bleiben, muss die Regel für das Festhalten strenger sein als "Ich habe das in einer Lektion gesehen".
+- du die Wörter in späteren Lektionen zuverlässig wieder parat hast;
+- eine einzige Korrektur genügt, um den Fehler zu verstehen;
+- dir das Training unter Words und der normale Lernpfad bereits genug Gelegenheiten zum Abrufen geben;
+- dir derselbe Wortschatz beim Lesen, im Gespräch oder im Unterricht wiederbegegnet;
+- die Pflege einer weiteren Warteschlange dir Zeit für die tatsächliche Nutzung der Sprache nehmen würde.
 
-Ich würde hauptsächlich vier Arten von Material behalten.
+Auch gar keine Karte nach einer guten Lerneinheit zu speichern, ist ein völlig sinnvolles Ergebnis.
 
-### 1. Wörter, die du mehr als einmal verfehlt hast
+Ein persönliches Deck hilft eher, wenn du dasselbe Wort oder Muster wiederholt nicht abrufen kannst, eine Korrektur ein konkretes Missverständnis aufdeckt oder du die Formulierung für ein Gespräch brauchst, das ansteht. Das Deck ist ein Filter, keine Sicherungskopie des Kurses.
 
-Nicht jedes neue Wort verdient eine dauerhafte Karte.
+## Was sich für eine spätere Wiederholung lohnt
 
-Wenn sich ein Wort nach einer einzigen Korrektur schon klar angefühlt hat, lass es gehen. Wenn es in zwei oder drei verschiedenen Sitzungen wiederkam und trotzdem Probleme gemacht hat, ist das ein besseres Signal.
+Such nach einer Lektion nicht nach bestimmten Inhaltsarten, sondern nach Signalen. Eine Karte ist besonders sinnvoll, wenn mindestens einer dieser Punkte zutrifft:
 
-Gute Kandidaten:
+- **Es ist dir mehr als einmal nicht eingefallen.** Sobald du die Antwort siehst, erkennst du sie, kannst sie auf Nachfrage aber nicht selbst nennen.
+- **Die Korrektur hat dein Verständnis verändert.** Du hast die falsche Präposition, das falsche Genus, die falsche Konjugation oder die falsche Wortstellung verwendet und weißt jetzt genau, warum.
+- **Du verwechselst immer wieder zwei ähnliche Formen.** Eine knappe Gegenüberstellung würde denselben Fehler beim nächsten Mal verhindern.
+- **Du möchtest die Formulierung außerhalb der App selbst verwenden.** Du brauchst sie für eine Nachricht, eine Reise, den Unterricht oder ein Gespräch, das dir wirklich wichtig ist.
+- **Die Abfrage lässt sich eng begrenzen.** Du kannst eine klare Sache prüfen, ohne eine ganze Erklärung zu kopieren.
 
-- eine Verbform, die du ständig verwechselst
-- ein Funktionswort, das seine Bedeutung auf tückische Weise ändert
-- ein Paar aus fast gleichbedeutenden Wörtern, das in deinem Kopf immer wieder zusammenfällt
+Ein Wort muss nicht ins Deck, nur weil es neu, lustig oder kurz verwirrend war. Nur weil dir etwas einmal begegnet ist, musst du es nicht monatelang wiederholen.
 
-### 2. Korrigierte Formulierungen aus Sprechübungen
+## Ein selektiver Workflow nach jeder Lerneinheit
 
-Das ist meistens das wertvollste Material.
+Der Ablauf sollte nur ein paar Minuten dauern. Sonst wird aus der Duolingo-Lektion schnell eine Runde Dateneingabe.
 
-Wenn du Max-Funktionen wie Video Call nutzt, ist der nützliche Baustein oft nicht ein einzelnes Wort. Es ist die korrigierte Formulierung, die die Lücke zwischen dem zeigt, was du sagen wolltest, und dem, was die Sprache tatsächlich verlangt hat.
+### 1. Erst die Lektion beenden, dann Notizen machen
 
-Dadurch bekommst du Karten mit Kontext:
+Bleib beim Antworten in der Übung, damit Notizen den Abruf nicht unterbrechen. Mögliche Karten sortierst du erst danach.
 
-- welche Präposition dorthin gehört
-- welche Zeitform natürlich klingt
-- welche Wortstellung den Satz verändert hat
+Nutze am Ende die Zusammenfassung und deine eigene Erinnerung, um die unsicheren Stellen zu finden. Wenn nichts hervorsticht, war es das.
 
-Das sind meistens bessere Karten als zufällig isolierte Vokabeln.
+### 2. Nur eine kleine Auswahl übernehmen
 
-### 3. Satzmuster, die du später selbst produzieren willst
+Möchtest du mehrere Korrekturen behalten, sind 3–8 Einträge bereits eine volle Auswahl. Das ist ein praktischer Richtwert, keine Quote oder wissenschaftlich bestimmte Grenze. Zähle dabei die gesamte Lektion oder Lerneinheit, nicht nur einen Stapel mit fünf Karten. Eine gewöhnliche Einheit liefert vielleicht eine Karte – oder gar keine.
 
-Manche Formulierungen sind wichtig, weil du dir leicht vorstellen kannst, dass du sie noch einmal brauchen wirst.
+Notiere nur so viel Kontext, wie du brauchst, um die Korrektur später zu verstehen:
 
-Beispiele:
+```text
+cita = Termin; schon wieder vergessen
+depender de; falsche Präposition verwendet
+se me olvidaron las llaves = Ich habe meine Schlüssel vergessen
+por/para: Geschenk für Ana bestimmt
+```
 
-- "I have been studying for three months"
-- "I forgot to bring my charger"
-- "We ended up taking the train instead"
+Die manuelle Übernahme ist Absicht. Du liest Duolingo damit nicht automatisiert aus, kopierst keinen ganzen Kurs und brauchst weder Export noch API. Diese kleine Hürde erzwingt eine nützliche Entscheidung: Ist der Inhalt wichtig genug für eine weitere Wiederholung?
 
-Wenn sich die Formulierung nach etwas anhört, das du nächste Woche wirklich sagen könntest, ist sie ein starker Kartenkandidat. Wenn sie nur in einer schrägen Duolingo-Szene Sinn ergibt, dann eher nicht.
+### 3. Aus jeder Notiz eine klare Abfrage machen
 
-### 4. Kleine Grammatik-Kontraste mit einem echten Beispiel
+Unbearbeitete Korrekturen sind selten schon fertige Karteikarten. Formuliere jede so um, dass eine klare Antwort erwartet wird.
 
-Duolingo zeigt oft nützliche Mini-Unterschiede:
+| Hinweis aus der Lektion | Schlechte Karte | Bessere Karte | Was sie prüft |
+| --- | --- | --- | --- |
+| Du hast `la cita` wieder vergessen | Vorderseite: „Lektionsvokabeln“ / Rückseite: eine Liste mit zehn Wörtern | Vorderseite: `Tengo una ___ con el dentista.` / Rückseite: `cita` | Ein wiederkehrendes Wort im Kontext |
+| Du hast nach `depender` die falsche Präposition verwendet | Vorderseite: „Erkläre die spanischen Präpositionen“ / Rückseite: ein Grammatikabsatz | Vorderseite: `Todo depende ___ resultado.` / Rückseite: `del` — `Todo depende del resultado.` | Eine Präposition samt Verschmelzung im Satz |
+| Du möchtest das korrigierte Muster „Ich habe meine Schlüssel vergessen“ behalten | Vorderseite: der gesamte korrigierte Dialog / Rückseite: seine Übersetzung | Vorderseite: „Sag mit *se me*: Ich habe meine Schlüssel vergessen.“ / Rückseite: `Se me olvidaron las llaves.` | Ein nützliches Muster zum eigenen Formulieren |
+| Du hast `por` und `para` verwechselt | Vorderseite: „por oder para“ / Rückseite: alle Regeln | Vorderseite: `Este regalo es ___ Ana.` / Rückseite: `para` | Ein konkreter Unterschied |
 
-- `por` vs `para`
-- `ser` vs `estar`
-- die Wahl zwischen perfektiv und imperfektiv
-- Artikelgebrauch, der Ton oder Bedeutung verändert
+Die Richtung der Karte hängt von deinem Ziel ab. Wenn dir das Sprechen schwerfällt, kommt die Bedeutung oder Situation auf die Vorderseite und du formulierst die Antwort in der Zielsprache. Wenn das Lesen das Problem ist, zeigst du vorn die Formulierung in der Zielsprache und fragst nach ihrer Bedeutung. Bei einem wichtigen Inhalt kannst du beide Richtungen behalten, solltest aber nicht automatisch alles doppelt anlegen.
 
-Speichere nicht den ganzen Erklärungsblock. Speichere einen klaren Kontrast mit einem Beispiel, das du wirklich verstehst.
+Weitere Kartenmuster findest du unter [Karteikarten zum Sprachenlernen verwenden](/blog/how-to-use-flashcards-for-language-learning/).
 
-## Was du nicht festhalten solltest
+### 4. Prüfe die Karte, bevor du sie einplanst
 
-Das ist noch wichtiger als die Liste für das Festhalten.
+Lies Vorder- und Rückseite, ohne die Lektion als Kontext mitzudenken. Frag dich:
 
-Die meisten schlechten Systeme für **Duolingo-Spaced-Repetition** scheitern nicht an schlechter Software. Sie scheitern am Horten.
+- Gibt es eine einzige gut vertretbare Antwort?
+- Prüft die Karte genau den Fehler, den ich gemacht habe?
+- Ist das Beispiel natürlich und vollständig genug, um es zu verstehen?
+- Wird mir diese Formulierung in einem Monat noch wichtig sein?
+- Habe ich ein Akzentzeichen, einen Artikel oder ein grammatisches Detail bewahrt, das die Antwort verändert?
 
-Ich würde auslassen:
+Wenn mehrere Übersetzungen gleichermaßen passen, ergänze Kontext oder grenze die Frage ein. „Sag *noch* auf Spanisch“ ist zu ungenau; die beste Übersetzung hängt von der gemeinten Bedeutung ab. Eine vollständige Frage wie „Sie ist immer noch hier“ macht die gesuchte Form klarer.
 
-- Wörter, die du sofort erkannt hast
-- lustige Nonsens-Sätze, die du nie sagen wirst
-- komplette Dialogtranskripte, wenn eigentlich eine Zeile die eigentliche Lektion war
-- riesige Antwortblöcke, die gleichzeitig drei Grammatikpunkte vermitteln
-- offensichtliche Kognaten, die du fast sicher ohnehin behalten wirst
-- Formulierungen, die nur im exakten Lektionenkontext Sinn ergeben
+### 5. Das kleine Deck wiederholen – und weiter aussortieren
 
-Wenn eine Karte sich an einem müden Donnerstagmorgen albern anfühlen würde, sollte sie wahrscheinlich nicht existieren.
+Sobald die Karten eindeutig sind, lässt du die Spaced-Repetition-App deiner Wahl die Termine festlegen. Lösche oder überarbeite eine Karte, wenn sich beim Wiederholen zeigt, dass die Frage vage, die Antwort zu umfangreich oder der Inhalt nicht mehr wichtig ist.
 
-## Der praktische Workflow: erst die Lektion, dann die Karten
+Behalte die fälligen Wiederholungen im Blick, statt einer perfekten Anzahl neuer Karten nachzujagen. Wenn neue Karten nach jeder Lektion die morgige Wiederholung lästig machen, nimm weniger auf. [Wie viele neue Karteikarten pro Tag?](/blog/how-many-new-flashcards-per-day/) erklärt diesen Zielkonflikt ausführlicher.
 
-Im Alltag sollte der Prozess schlicht bleiben.
+## Wo FSRS hilft – und wo es nichts ausrichten kann
 
-### Schritt 1: Erst die Lektion oder das Gespräch beenden
+Bei diesem Ablauf solltest du zwei Ebenen auseinanderhalten. Duolingos offizielle Flashcards-Erklärung beschreibt die Abrufübung samt den erneuten Versuchen nach einem Fehler. In einem separaten Deck mit **FSRS** protokolliert die Karteikarten-App deine Wiederholungen. Der Scheduler berechnet anhand dieses Verlaufs, wann jede gespeicherte Karte wieder erscheinen soll.
 
-Halte nicht alle dreißig Sekunden an, um Flashcards zu bauen. So wird aus einer Sprachlernsession Verwaltungsarbeit.
+Das ist nützlich, weil du dir nicht alles gleich gut merkst. `la cita` fällt dir vielleicht schnell leicht, während `depender de` weiter Probleme macht. Beide müssen nicht nach demselben starren Zeitplan zurückkehren.
 
-Lass Duolingo erst seinen Teil machen:
+Auch FSRS rettet keine schlechte Karte.
 
-- die Lektion abschließen
-- die Flashcards-Session abschließen
-- den Video Call abschließen
+Der Algorithmus kann „Erkläre alle Verwendungen von por und para“ sehr genau einplanen, aber die Frage bleibt zu breit. Er kann eine mehrdeutige Übersetzung häufiger zeigen, doch mehr Wiederholungen machen die Frage nicht eindeutiger. Zuerst kommt die Qualität der Karte, danach die Planung.
 
-Danach machst du eine kurze Sammelrunde, solange die Fehler noch frisch sind.
+Mehr über den Scheduler erfährst du unter [Was ist FSRS?](/blog/what-is-fsrs/). Für die Gestaltung guter Fragen hilft dir [Bessere Karteikarten erstellen](/blog/how-to-make-better-flashcards/).
 
-### Schritt 2: Nur 3 bis 8 Elemente aus dieser Session sichern
+## Brauchst du einen Export für Duolingo-Karteikarten?
 
-Das ist die Regel, die das System am Leben hält.
+Für diesen Ablauf nicht. Du überträgst keine ganze Vokabeldatenbank, sondern nur die wenigen Wörter und Wendungen, für die du dich bewusst entschieden hast.
 
-Drei gute Karten aus einer Sitzung sind normal. Acht sind schon viel. Fünfzehn bedeuten meistens, dass du Dinge speicherst, weil sie interessant waren, nicht weil sie das Wiederholen wert sind.
+Beende die Lerneinheit, wähle die wiederkehrenden Fehler aus und gib sie manuell in die Wiederholungs-App ein, die du ohnehin nutzt. So bleibt der Prozess von jedem Exportweg unabhängig. Außerdem wird „Duolingo-Karteikarten exportieren“ nicht zur aufwendigen Suche nach einem Massenimport, den du wahrscheinlich gar nicht brauchst.
 
-Dein Rohmaterial kann simpel sein:
+Wenn du Anki als Ziel nutzt, erstellst du die ausgewählten Karten dort. Ein Workflow von **Duolingo zu Anki** muss nicht komplizierter sein. Wenn deine Sprachdecks bereits in Anki liegen, gibt es keinen Grund, wegen dieser neuen Karten die App zu wechseln.
 
-- kopierte Formulierungen in einer Notiz
-- ein Screenshot mit der korrigierten Zeile
-- ein eingefügter Transkriptausschnitt
-- eine schnelle Liste wie `estar + location`, `se me olvidó`, `por vs para here`
+Wenn du in einer anderen App ein neues, selbst verwaltetes Deck anlegen möchtest, gelten dieselben Auswahlregeln. Übertrage nicht automatisch fünf Wörter aus der Lektion, nur weil fünf Karten auf dem Bildschirm zu sehen waren. Nimm nur die Inhalte mit, die nachweislich länger deine Aufmerksamkeit brauchen.
 
-### Schritt 3: Das Rohmaterial in echte Abruf-Prompts umschreiben
+## So passt Flashcards Open Source App in den Ablauf
 
-Hier kommt die eigentliche Qualität her.
+> **Offenlegung:** Ich bin Kirill Markin und entwickle die [Flashcards Open Source App](/features/).
 
-Rohmaterial aus Duolingo ist oft zu breit, zu sauber formuliert oder zu stark an den Bildschirm gebunden, auf dem du es gesehen hast. Bevor daraus ein Deck wird, solltest du es in kleinere Front-/Back-Prompts umschreiben.
+Flashcards ist eine Möglichkeit, den selbst verwalteten Teil dieses Ablaufs aufzubewahren. In der [gehosteten App](/docs/getting-started/) kannst du Karten erstellen und wiederholen, den KI-Chat mit Workspace-Daten und Dateianhängen nutzen und Wiederholungen mit FSRS planen. Das [Repository ist Open Source](https://github.com/kirill-markin/flashcards-open-source-app), und es gibt eine dokumentierte Anleitung zum [Self-Hosting](/docs/self-hosting/).
 
-Angenommen, Video Call hat diese Zeile korrigiert:
+Für diesen Duolingo-Workflow reicht die manuelle Eingabe normalerweise aus. KI kann dir helfen, eine Korrektur aufzuteilen oder eine holprige Frage neu zu formulieren. Sie sollte aber nicht entscheiden, welche Vokabeln aus einer Lektion langfristige Wiederholung verdienen. Diese Entscheidung triffst du: Du weißt, was dir nicht eingefallen ist und was du sagen möchtest.
 
-- Rohzeile: "No fui al trabajo porque estaba enfermo."
+Der Leitfaden [Erste Schritte](/docs/getting-started/) erklärt die gehostete App, die Agent-Einrichtung und den Weg zum Self-Hosting. Wenn du bereits ein Wiederholungssystem hast, das für dich funktioniert, behalte es und nutze dort denselben selektiven Prozess.
 
-Daraus könnte werden:
+## Die praktische Antwort
 
-- Vorderseite: Wie sagt man auf Spanisch "I did not go to work because I was sick"?
-  Rückseite: No fui al trabajo porque estaba enfermo.
-- Vorderseite: Welche Vergangenheitsform steckt in `No fui al trabajo`?
-  Rückseite: Präteritum von `ir`: `fui`.
+Duolingo-Karteikarten sind kurze Abrufrunden mit fünf Karten: Du siehst ein Wort in deiner Sprache, nennst die Übersetzung in der Zielsprache und wiederholst falsch beantwortete Karten noch in derselben Übung. Sie fügen sich direkt in eine Lektion ein und können bereits die gesamte Vokabelwiederholung abdecken, die du brauchst.
 
-Vielleicht werden daraus zwei Karten. Vielleicht überlebt nur eine. Entscheidend ist, dass das gespeicherte Material dann nicht mehr wie ein Transkript klingt, sondern wie etwas, das du unter leichtem Druck abrufen kannst.
+Ein zweites Deck lohnt sich nur für das, was übrig bleibt: wiederkehrende Fehler, Korrekturen, die dein Verständnis verändert haben, und Formulierungen, die du später wirklich selbst verwenden möchtest. Erfasse sie manuell, mach aus jedem Eintrag eine klare Frage und überlass FSRS die Wiederholungsplanung.
 
-## Satzkarten schlagen rohe Vokabelkarten meistens
-
-Das ist der Teil, den die meisten auf die harte Tour lernen.
-
-Isolierte Vokabelkarten wirken ordentlich. Satzkarten halten meistens länger.
-
-Eine korrigierte Formulierung wie:
-
-- "I am looking for the train station"
-- "She told me not to worry"
-- "We have known each other since school"
-
-enthält mehrere Dinge gleichzeitig:
-
-- Vokabular
-- Grammatik
-- Wortstellung
-- einen glaubwürdigen Anwendungsfall
-
-Das ist besonders wertvoll, wenn die Formulierung aus einem Moment kommt, in dem du gezögert hast oder korrigiert wurdest. Daran hängt schon etwas Erinnerung.
-
-## Nutze AI, um das Material aufzuräumen, nicht um auszuwählen, was wichtig war
-
-Diese Grenze lohnt sich.
-
-AI ist nach dem Auswahl-Schritt nützlich, nicht davor.
-
-Wenn du eine komplette Duolingo-Session in ein Modell kippst und nach fünfzig Karten fragst, bekommst du normalerweise polierten Schrott gemischt mit einer Handvoll guter Karten. Wenn du zuerst die Zeilen auswählst, die wirklich wichtig waren, wird der Bereinigungsschritt viel nützlicher.
-
-In [Flashcards](https://flashcards-open-source-app.com/) passt dieser Ablauf ziemlich direkt:
-
-- Karten in der gehosteten Web-App erstellen
-- korrigierte Formulierungen in den AI-Chat einfügen oder einen Screenshot beziehungsweise eine Datei anhängen
-- nach einfacheren Front/Back-Entwürfen fragen
-- schwache Karten sofort streichen
-- die Überlebenden mit FSRS wiederholen
-
-Das funktioniert gut für **Duolingo Max speaking practice flashcards**, weil das menschliche Urteil am Anfang des Workflows bleibt.
-
-Wenn du die allgemeineren Regeln für KI-generierte Karten willst, ist [Wie du 2026 KI-Flashcards reparierst](/de/blog/how-to-fix-ai-flashcards/) der direkte Begleitartikel.
-
-## Ein einfacher Prompt, der für Duolingo-Material funktioniert
-
-Du brauchst keine Formulierungen wie für einen Importer. Du brauchst einen Prompt, der die Karten eng hält.
-
-Das reicht:
-
-> Turn these Duolingo phrases and corrections into plain front/back flashcards. One word, phrase, contrast, or grammar point per card. Keep answers short. Preserve natural example sentences when they help. Skip duplicates, jokes, obvious cognates, and anything that would not be useful in real conversation.
-
-Wenn das Rohmaterial aus einem Screenshot oder einem eingefügten Gesprächsausschnitt stammt, füge hinzu:
-
-> If one line contains several ideas, split it into multiple smaller cards.
-
-Damit kommst du normalerweise viel näher an etwas heran, das sich wirklich reviewen lässt.
-
-## FSRS verwandelt Duolingo-Notizen in ein echtes Gedächtnissystem
-
-Das ist die Übergabe, auf die es ankommt.
-
-Duolingo ist gut darin, dich innerhalb von Duolingo immer wieder mit demselben Stoff in Kontakt zu bringen. Was viele danach immer noch wollen, ist eine Wiederholungsebene, die sie selbst kontrollieren, in der Karten monatelang bestehen bleiben und auf Basis echter Gedächtnisleistung wieder auftauchen statt je nachdem, was der Lektionenpfad gerade betont hat.
-
-Hier hilft **FSRS**.
-
-Sobald die Karten klein und ehrlich sind:
-
-- treten leichte Karten zurück
-- bleiben wacklige Karten nah dran
-- wirkt die Warteschlange weniger zufällig
-- fühlt sich die Wiederholung mehr nach Gedächtnisarbeit und weniger nach einem Ordner voller Screenshots an
-
-Wenn du die Scheduler-Seite genauer sehen willst, ist [FSRS vs SM-2 im Jahr 2026](/de/blog/fsrs-vs-sm-2/) die direkte Fortsetzung.
-
-## Halte das Duolingo-Deck getrennt und klein
-
-Auch hier driften viele still und leise vom Kurs ab.
-
-Kippe nicht am ersten Tag jede Quelle zum Sprachenlernen in einen einzigen riesigen Eimer. Ein kleines Deck wie `Duolingo Spanish` oder `Duolingo French` funktioniert am Anfang besser, vor allem solange du deine Regeln für das Festhalten noch auslotest.
-
-Ich würde auch eine grobe wöchentliche Obergrenze setzen:
-
-- etwa 15 bis 30 neue, aus Duolingo abgeleitete Karten pro Woche für lockere Lernende
-- vielleicht 40, wenn du Duolingo intensiv nutzt und konsequent löschst
-
-Darüber hinaus fühlt sich die Warteschlange oft nicht mehr hilfreich an.
-
-Wenn du nicht sicher bist, wie viel neues Material deine Review-Last aufnehmen kann, ist [Wie viele neue Flashcards pro Tag im Jahr 2026?](/de/blog/how-many-new-flashcards-per-day/) der richtige Begleitartikel.
-
-## Wo Flashcards passt, wenn du die Kontrolle behalten willst
-
-Wenn es nicht nur um eine angenehmere Warteschlange geht, sondern um ein System, das du selbst prüfen und zu deinen eigenen Bedingungen behalten kannst, dann passt [Flashcards](https://flashcards-open-source-app.com/) hier ganz natürlich hinein.
-
-Die nützlichen Bausteine sind schlicht:
-
-- einfache Front/Back-Karten
-- FSRS-Review
-- AI-Chat mit eingefügtem Text, Screenshots und Dateianhängen für die Bereinigung
-- eine gehostete Web-App für den schnellen Start
-- eine offline-first iOS-App für Wiederholungen weg vom Schreibtisch
-- eine Open-Source-Codebasis und ein [Self-Hosting-Pfad](/de/docs/self-hosting/), falls dir Datenhoheit wichtig ist
-
-Wenn du den kürzesten Produkteinstieg willst, fang mit [Erste Schritte](/de/docs/getting-started/) an.
-
-## Die praktische Regel für Duolingo-Flashcards im Jahr 2026
-
-Versuche nicht, Duolingo als Ganzes zu speichern.
-
-Speichere die Wörter, die du immer wieder verfehlst, die korrigierten Formulierungen, von denen du etwas gelernt hast, und die Satzmuster, die du tatsächlich noch einmal sagen willst. Forme daraus kleine Karten. Lösche das lustige, aber unnütze Zeug. Dann lass FSRS das Timing übernehmen.
-
-Das ist die Version von **Duolingo-Flashcards**, der ich 2026 vertraue. Duolingo hält den Streak am Laufen. Dein eigenes Spaced-Repetition-Deck sorgt dafür, dass die nützlichen Teile nicht verdampfen, sobald die Lektion vorbei ist.
+Duolingo hält die Übung im Kontext der Lektion. Dein eigenes Deck bewahrt nur wenige relevante Problemstellen für die langfristige Wiederholung. Diese Aufteilung ist leicht durchzuhalten – und selektiv genug, um nützlich zu bleiben.

@@ -1,286 +1,185 @@
 ---
-title: "How to Turn Duolingo Flashcards Into Real Spaced Repetition in 2026"
-description: "Using Duolingo Flashcards or Video Call in 2026? Here is a practical workflow to save the words and corrected phrases that matter, turn them into clean flashcards, and review them with FSRS in an open-source app you control."
+title: "Duolingo Flashcards (2026): How They Work and What to Review Later"
+description: "Learn how Duolingo Flashcards use five-card active-recall rounds, where they fit in lessons, and how to turn recurring misses into a small FSRS deck you control."
 date: "2026-06-12"
-image: "/blog/duolingo-flashcards-to-spaced-repetition.png"
+updated: "2026-09-03"
+image: "/blog/duolingo-flashcards-to-spaced-repetition-v2.png"
 keywords:
   - "Duolingo flashcards"
+  - "how Duolingo flashcards work"
   - "Duolingo vocabulary flashcards"
-  - "Duolingo to Anki"
   - "Duolingo spaced repetition"
-  - "Duolingo Video Call transcript"
+  - "Duolingo flashcards export"
+  - "Duolingo to Anki"
   - "best way to review Duolingo vocabulary"
-  - "Duolingo Max speaking practice flashcards"
-  - "FSRS flashcards"
+  - "FSRS language learning"
 ---
 
-On **November 18, 2025**, Duolingo launched [official Flashcards](https://blog.duolingo.com/duolingo-flashcards/). A few months later, plenty of language learners had the same follow-up problem: the word you missed in a lesson on Monday, then mangled again in a Video Call on Thursday, still needs somewhere to live after the app moves on.
+A Duolingo Flashcards round starts with five cards. Each card shows a word in the language you already know, and you have to say its translation in the language you are learning—or type it when speaking is inconvenient.
 
-That is where most **Duolingo flashcards** workflows get shaky.
+That small detail explains the feature better than the name does. This is not a personal vocabulary deck to browse whenever you like. It is a short active-recall exercise inside Duolingo lessons. A correct card disappears. A missed card shows and plays the answer, then returns at the back of the stack for another attempt.
 
-Duolingo is good at momentum. It gives you repetition, prompts, corrections, and reasons to come back tomorrow. What it does not automatically give you is a small long-term review system built around the exact words and phrases that keep tripping you up.
+For many learners, that is enough. If a few words keep slipping out of memory after the lesson, a second deck can help—but only for those recurring weak spots. Copying every word out of Duolingo would mostly create more work.
 
-This guide stays narrow on purpose. It is not about replacing Duolingo. It is about taking the parts Duolingo already surfaces, then turning those into a spaced-repetition deck you can keep using in 2026.
+**Facts checked:** September 3, 2026.
 
-![A warm desk scene with hand-sorted language flashcards and a blurred conversation screen](/blog/duolingo-flashcards-to-spaced-repetition.png)
+![A juggler sets aside one worn beanbag from a set of five for extra practice](/blog/duolingo-flashcards-to-spaced-repetition-v2.png)
 
-## Why this matters more now
+## How Duolingo Flashcards work
 
-Duolingo creates more "save this for later" moments than it used to.
+Duolingo's [official Flashcards explanation](https://blog.duolingo.com/duolingo-flashcards/) describes this loop:
 
-The shift is visible in Duolingo's own product updates:
+1. A stack contains five cards, each with a word in your own language.
+2. You say the target-language translation aloud or type it.
+3. A correct card turns green and disappears from the stack.
+4. An incorrect card flips over, reveals the translation, plays it aloud, and moves to the back of the stack.
+5. Three correct answers are enough to pass the exercise.
+6. The round ends with a summary of what went well and what could use more practice.
 
-- [official Flashcards launched on November 18, 2025](https://blog.duolingo.com/duolingo-flashcards/)
-- [Duolingo Max introduced AI-heavy tutoring features including Video Call](https://blog.duolingo.com/duolingo-max/)
-- [Video Call with Lily was explained in more detail on April 22, 2025](https://blog.duolingo.com/ai-and-video-call/)
-- [Video Call with Falstaff followed on January 14, 2026 for beginner conversations](https://blog.duolingo.com/beginner-video-call-with-falstaff/)
+Duolingo says Flashcards appear in lessons. Its 2026 guide to [writing practice in the app](https://blog.duolingo.com/covering-all-the-bases-duolingos-approach-to-writing-skills/) also describes them as speaking-or-typing recall practice. The same guide lists **Words** separately in the Practice tab, where learners can revisit course vocabulary and match words with their meanings.
 
-So now the raw material is not just a word list. It can be:
+So if you are looking for Duolingo vocabulary flashcards, there are two different ideas to keep straight:
 
-- lesson vocabulary
-- corrected phrases
-- tiny grammar contrasts
-- speaking mistakes from Video Call
-- sentence patterns you would genuinely like to reuse
+- **Flashcards** are the five-card recall exercise inside lessons.
+- **Words** is a separate vocabulary practice area described by Duolingo for the Practice tab.
 
-That is useful, but it also creates a filtering problem. Save everything and the deck gets noisy fast. Save nothing and the same weak spots keep showing up inside Duolingo, then disappearing again.
+In other words, Flashcards and Words are not two names for the same screen: look in lessons for the five-card exercise and in the Practice tab for Words.
 
-## The useful workflow is manual, selective, and a little boring
+## The in-app exercise and a long-term deck do different jobs
 
-One disclaimer matters here.
+Duolingo Flashcards give you an immediate retrieval attempt around lesson vocabulary. A personal deck gives selected items somewhere to return over the following days and months.
 
-This workflow does **not** rely on an official Duolingo import, export API, browser scraping, partnership, or one-click sync into Flashcards. It is manual by design. You notice what mattered, copy or screenshot it, clean it up, and only then turn it into cards.
+| Question | Duolingo's five-card exercise | A learner-owned long-term deck |
+| --- | --- | --- |
+| Where does it live? | Inside a Duolingo lesson | In the flashcard app you choose |
+| What starts the review? | The lesson presents a five-card stack | Cards become due according to that app's schedule |
+| What do you answer? | A translation into the language you are learning, spoken or typed | Whatever narrow prompt you write: a word, phrase, contrast, or correction |
+| What happens after a miss? | The answer is revealed and played; the card returns to the back of the stack | You rate or repeat the card according to the app's review flow |
+| What is it best at? | Quick recall practice while the lesson is still in context | Keeping personally important weak spots in review over time |
+| Who controls the card text? | Duolingo supplies the exercise | You can edit, delete, split, and rewrite the card |
 
-That is less exciting than the fantasy version of "Duolingo to Anki."
+One is not a replacement for the other. The five-card round can be the whole workflow. A separate deck earns its place only when it preserves something you would otherwise keep losing.
 
-It is also much closer to what actually holds up.
+## When Duolingo alone is enough
 
-## What to capture from Duolingo
+You probably do not need a second deck when:
 
-If you want **Duolingo vocabulary flashcards** that stay useful, the capture rule has to be stricter than "I saw this in a lesson."
+- the words come back reliably in later lessons;
+- one correction is enough for the mistake to make sense;
+- the Words practice and ordinary lesson path already give you enough retrieval;
+- you meet the same vocabulary through reading, conversation, or class;
+- maintaining another queue would displace actual language use.
 
-I would mostly keep four kinds of material.
+Saving zero cards after a good session is a valid result.
 
-### 1. Words you missed more than once
+A personal deck is more useful when the same item fails repeatedly, the correction exposes a specific misunderstanding, or the phrase matters to a conversation you expect to have. This is a filter, not a backup of the course.
 
-Not every new word deserves a permanent card.
+## What is worth reviewing later
 
-If a word felt obvious after one correction, let it go. If it came back two or three times across different sessions and still caused trouble, that is a better signal.
+After a lesson, look for signals rather than categories of content. A card is a stronger candidate when at least one of these is true:
 
-Good candidates:
+- **It has failed more than once.** You recognize the answer after seeing it, but cannot produce it when asked.
+- **The correction changed your understanding.** You used the wrong preposition, gender, conjugation, or word order and now know exactly why.
+- **Two similar forms keep colliding.** A small contrast would prevent the same mistake next time.
+- **You want to produce the phrase outside the app.** It belongs in a message, a trip, a class, or a conversation you actually care about.
+- **The prompt can stay narrow.** You can test one clear thing without copying a whole explanation.
 
-- a verb form you keep mixing up
-- a function word that changes meaning in a sneaky way
-- a near-synonym pair that keeps collapsing together in your head
+Skip a word when it was merely new, funny, or briefly confusing. Exposure is not a commitment to review it for months.
 
-### 2. Corrected phrases from speaking practice
+## A selective workflow after each session
 
-This is usually the highest-value material.
+The workflow should take a few minutes, not turn a Duolingo lesson into data entry.
 
-If you are using Max features like Video Call, the useful item is often not a single vocabulary word. It is the corrected phrase that shows the gap between what you tried to say and what the language actually wanted.
+### 1. Finish the lesson before taking notes
 
-That gives you cards with context:
+Stay in the exercise while you are answering so note-taking does not break the recall flow. Sort the possible cards afterward.
 
-- which preposition belongs there
-- which tense sounds natural
-- what word order changed the sentence
+At the end, use the summary and your own memory to identify the awkward items. If nothing stands out, stop there.
 
-Those are usually better cards than random isolated vocab.
+### 2. Keep it to a small batch
 
-### 3. Sentence patterns you want to produce later
+If several corrections are worth keeping, 3–8 items is already a full batch. Treat that as a working range, not a quota or a scientific limit. Count the whole lesson or study session, not only one five-card stack. An ordinary session might produce one item or none.
 
-Some phrases matter because you can easily imagine needing them again.
+Record only enough context to understand the correction later:
 
-Examples:
+```text
+cita = appointment; forgot it again
+depender de; used the wrong preposition
+se me olvidaron las llaves = I forgot my keys
+por/para: gift intended for Ana
+```
 
-- "I have been studying for three months"
-- "I forgot to bring my charger"
-- "We ended up taking the train instead"
+This manual capture is deliberate. It does not scrape Duolingo or bulk-copy a course, and it does not require an export or API. The small amount of friction forces a useful decision: is this item important enough to become another review?
 
-If the phrase sounds like something you might say next week, it is a strong card candidate. If it only makes sense in a goofy Duolingo scene, it probably is not.
+### 3. Turn each note into one retrieval task
 
-### 4. Small grammar contrasts with one real example
+Raw corrections are rarely finished flashcards. Rewrite each one so there is a clear expected answer.
 
-Duolingo often surfaces useful micro-distinctions:
+| Raw signal from the lesson | Weak card | Better card | What it tests |
+| --- | --- | --- | --- |
+| You forgot `la cita` again | Front: “Lesson vocabulary” / Back: a list of ten words | Front: `Tengo una ___ con el dentista.` / Back: `cita` | One recurring word in context |
+| You used the wrong preposition after `depender` | Front: “Explain Spanish prepositions” / Back: a grammar paragraph | Front: `Todo depende ___ resultado.` / Back: `del` — `Todo depende del resultado.` | One preposition and contraction in context |
+| You want to keep the corrected “I forgot my keys” pattern | Front: the entire corrected dialogue / Back: its translation | Front: “Using *se me*, say: I forgot my keys.” / Back: `Se me olvidaron las llaves.` | One useful production pattern |
+| You confused `por` and `para` | Front: “por vs para” / Back: every rule | Front: `Este regalo es ___ Ana.` / Back: `para` | One concrete contrast |
 
-- `por` vs `para`
-- `ser` vs `estar`
-- perfective vs imperfective choices
-- article usage that changes tone or meaning
+The exact card direction depends on your goal. If speaking is the problem, put the meaning or situation on the front and produce the target language. If reading is the problem, show the target-language phrase and ask for its meaning. You can keep both directions for an important item, but do not duplicate everything automatically.
 
-Do not save the whole explanation block. Save one clean contrast with one example you actually understand.
+For more card patterns, see [How to Use Flashcards for Language Learning](/blog/how-to-use-flashcards-for-language-learning/).
 
-## What not to capture
+### 4. Check the card before scheduling it
 
-This matters even more than the capture list.
+Read both sides without the lesson around them. Ask:
 
-Most bad **Duolingo spaced repetition** systems are not ruined by bad software. They are ruined by hoarding.
+- Is there one defensible answer?
+- Does the card test the mistake I actually made?
+- Is the example natural and complete enough to understand?
+- Will I care about this phrase a month from now?
+- Did I preserve an accent, article, or grammatical detail that changes the answer?
 
-I would skip:
+If a prompt allows several equally good translations, add context or narrow it. “Say *still* in Spanish” is underspecified; the best translation changes with meaning. A full prompt such as “She is still here” makes the target clearer.
 
-- words you already knew on sight
-- funny novelty sentences you will never say
-- full dialogue transcripts when one line was the real lesson
-- giant answer blocks that teach three grammar points at once
-- obvious cognates you will almost certainly remember anyway
-- phrases that only make sense because of the exact lesson scene around them
+### 5. Review the small deck, then keep deleting
 
-If a card would feel silly to review on a tired Thursday morning, it probably should not exist.
+Once the cards are clear, let your chosen spaced-repetition app schedule them. Delete or rewrite a card when reviews reveal that the prompt is vague, the answer is too large, or the item no longer matters.
 
-## The practical workflow: lesson first, cards second
+Watch the due queue rather than chasing a perfect intake number. If adding cards after every lesson makes tomorrow's reviews annoying, capture less. [How Many New Flashcards Per Day](/blog/how-many-new-flashcards-per-day/) explains that workload tradeoff in more detail.
 
-The day-to-day process should stay plain.
+## Where FSRS fits—and where it cannot help
 
-### Step 1: Finish the lesson or conversation first
+For this workflow, keep the two layers separate. Duolingo's official Flashcards explanation describes the active-recall exercise and its retry loop. In a separate deck that uses **FSRS**, the flashcard app records your reviews and the scheduler uses that history to calculate when each saved card should return.
 
-Do not stop every thirty seconds to build flashcards. That is how you turn a language session into admin.
+That is useful for uneven memory. `la cita` may become easy quickly, while `depender de` keeps causing trouble. They do not need to return on the same fixed timetable.
 
-Let Duolingo do its part first:
+FSRS cannot rescue a bad card.
 
-- finish the lesson
-- finish the Flashcards session
-- finish the Video Call
+It can schedule “Explain every use of por and para” very precisely, but the prompt will still be too broad. It can bring back an ambiguous translation more often, but repetition will not make the question less ambiguous. Card quality comes first; scheduling comes after it.
 
-Then do a short capture pass while the mistakes are still fresh.
+For the scheduler itself, read [What Is FSRS?](/blog/what-is-fsrs/). For prompt design, use [How to Make Better Flashcards](/blog/how-to-make-better-flashcards/).
 
-### Step 2: Save only 3 to 8 items from that session
+## Do you need a Duolingo flashcards export?
 
-This is the rule that keeps the system alive.
+Not for this workflow. The point is to move a few decisions, not a vocabulary database.
 
-Three good cards from a session is normal. Eight is already a lot. Fifteen usually means you are saving things because they were interesting, not because they are worth reviewing.
+Finish the session, choose the recurring misses, and enter those items manually in the review app you already use. This makes the process independent of any export route and avoids turning “Duolingo flashcards export” into a hunt for a bulk pipeline you may not need.
 
-Your raw capture can be simple:
+If your destination is Anki, build the selected cards in Anki. A **Duolingo to Anki** workflow does not have to be more complicated than that. If Anki already holds your language decks, there is no reason to change apps for these new cards.
 
-- copied phrases in a note
-- one screenshot with the corrected line
-- a pasted transcript snippet
-- a scratch list like `estar + location`, `se me olvidó`, `por vs para here`
+If you want a new learner-owned deck elsewhere, the same card-selection rules still apply. Do not move five lesson words merely because there were five cards on the screen. Move only the items that proved they need longer attention.
 
-### Step 3: Rewrite the raw material into actual retrieval prompts
+## Where Flashcards Open Source App fits
 
-This is where the quality comes from.
+> **Disclosure:** I am Kirill Markin, and I build [Flashcards Open Source App](/features/).
 
-Raw Duolingo material is often too broad, too polished, or too tied to the screen where you saw it. Before it becomes a deck, rewrite it into smaller front/back prompts.
+Flashcards is one place to keep the learner-owned half of this workflow. The [hosted app](/docs/getting-started/) lets you create and review cards, use AI chat with workspace data and file attachments, and schedule reviews with FSRS. The [repository is open source](https://github.com/kirill-markin/flashcards-open-source-app), and there is a documented [self-hosting path](/docs/self-hosting/).
 
-Suppose Video Call corrected this line:
+For this Duolingo workflow, manual entry is usually enough. AI can help split a correction or rewrite an awkward prompt, but it should not decide which lesson vocabulary deserves long-term review. You make that choice because you know what you missed and what you want to say.
 
-- Raw line: "No fui al trabajo porque estaba enfermo."
+The [Getting Started guide](/docs/getting-started/) covers the hosted app, agent setup, and self-hosted route. If you already have a review system that works, keep it and apply the same selective process there.
 
-That could become:
+## The practical answer
 
-- Front: How do you say "I did not go to work because I was sick" in Spanish?
-  Back: No fui al trabajo porque estaba enfermo.
-- Front: Which past tense appears in `No fui al trabajo`?
-  Back: Preterite of `ir`: `fui`.
+Duolingo Flashcards are short five-card recall rounds: see a word in your language, produce the target-language translation, and retry missed cards within the exercise. They fit naturally inside a lesson and may be all the vocabulary review you need.
 
-Maybe that becomes two cards. Maybe only one survives. The point is that the saved material stops sounding like a transcript and starts sounding like something you can recall under light pressure.
+Build a second deck only for the residue: recurring misses, corrections that changed your understanding, and phrases you genuinely want to produce later. Keep the capture manual, turn each item into one clear prompt, and let FSRS schedule the result.
 
-## Phrase cards usually beat raw vocabulary cards
-
-This is the part most people learn the hard way.
-
-Isolated vocabulary feels neat. Phrase cards are usually what survives.
-
-A corrected phrase like:
-
-- "I am looking for the train station"
-- "She told me not to worry"
-- "We have known each other since school"
-
-carries several things at once:
-
-- vocabulary
-- grammar
-- word order
-- a believable use case
-
-That is especially valuable when the phrase came from a moment where you hesitated or got corrected. It already has some memory attached to it.
-
-## Use AI to clean up the material, not to decide what mattered
-
-This line is worth keeping firm.
-
-AI is useful after the selection step, not before it.
-
-If you dump a whole Duolingo session into a model and ask for fifty cards, you will usually get polished junk mixed with a handful of good cards. If you first choose the lines that actually mattered, the cleanup step becomes much more useful.
-
-Inside [Flashcards](https://flashcards-open-source-app.com/), the practical fit is straightforward:
-
-- create cards in the hosted web app
-- paste corrected phrases into AI chat or attach a screenshot/file
-- ask for simpler front/back drafts
-- cut weak cards immediately
-- review the survivors with FSRS
-
-That works well for **Duolingo Max speaking practice flashcards** because it keeps the human judgment at the front of the workflow.
-
-If you want the broader cleanup rules for generated cards, [How to Fix AI Flashcards in 2026](/blog/how-to-fix-ai-flashcards/) is the direct companion article.
-
-## A plain prompt that works for Duolingo material
-
-You do not need importer language. You need a prompt that keeps the cards narrow.
-
-This is enough:
-
-> Turn these Duolingo phrases and corrections into plain front/back flashcards. One word, phrase, contrast, or grammar point per card. Keep answers short. Preserve natural example sentences when they help. Skip duplicates, jokes, obvious cognates, and anything that would not be useful in real conversation.
-
-If the raw material came from a screenshot or pasted conversation snippet, add:
-
-> If one line contains several ideas, split it into multiple smaller cards.
-
-That usually gets you much closer to something reviewable.
-
-## FSRS is what turns Duolingo notes into a real memory system
-
-This is the handoff that matters.
-
-Duolingo is good at repeated exposure inside Duolingo. What many people still want afterward is a review layer they control, where cards can stay around for months and come back based on actual memory performance instead of whatever the lesson path happened to emphasize.
-
-That is where **FSRS** helps.
-
-Once the cards are small and honest:
-
-- easy cards back off
-- slippery cards stay close
-- the queue feels less random
-- review feels more like memory work and less like a folder full of screenshots
-
-If you want the scheduler side in more detail, [FSRS vs SM-2 in 2026](/blog/fsrs-vs-sm-2/) is the direct follow-up.
-
-## Keep the Duolingo deck separate and small
-
-This is another place where people quietly drift off course.
-
-Do not pour every language-learning source into one giant bucket on day one. A small `Duolingo Spanish` or `Duolingo French` deck works better at first, especially while you are still figuring out your capture rules.
-
-I would also keep a rough weekly ceiling:
-
-- around 15 to 30 new Duolingo-derived cards per week for casual learners
-- maybe 40 if you are using Duolingo heavily and deleting aggressively
-
-Past that, the queue often stops feeling helpful.
-
-If you are unsure how much new material your review load can absorb, [How Many New Flashcards Per Day in 2026](/blog/how-many-new-flashcards-per-day/) is the right companion article.
-
-## Where Flashcards fits if you want ownership
-
-If the point is not just a nicer queue but a system you can inspect and keep on your own terms, this is where [Flashcards](https://flashcards-open-source-app.com/) fits naturally.
-
-The useful pieces here are practical:
-
-- simple front/back cards
-- FSRS review
-- AI chat with pasted text, screenshots, and file attachments for cleanup
-- a hosted web app for quick setup
-- an offline-first iOS app for reviews away from your desk
-- an open-source codebase and a [self-hosting path](/docs/self-hosting/) if data ownership matters to you
-
-If you want the shortest product walkthrough, start with [Getting Started](/docs/getting-started/).
-
-## The practical rule for Duolingo flashcards in 2026
-
-Do not try to save Duolingo wholesale.
-
-Save the words you keep missing, the corrected phrases that taught you something, and the sentence patterns you actually want to say again. Clean those into small cards. Delete the funny but useless stuff. Then let FSRS handle the timing.
-
-That is the version of **Duolingo flashcards** I trust in 2026. Duolingo keeps the streak moving. Your own spaced-repetition deck keeps the useful parts from evaporating after the lesson ends.
+Duolingo keeps the exercise close to the lesson. Your own deck keeps a small number of useful weak spots available for longer review. That division is simple enough to maintain—and selective enough to remain useful.

@@ -1,286 +1,185 @@
 ---
-title: "Cómo convertir las flashcards de Duolingo en repetición espaciada de verdad en 2026"
-description: "¿Usas Duolingo Flashcards o Video Call en 2026? Aquí tienes un flujo práctico para guardar las palabras y frases corregidas que de verdad importan, convertirlas en flashcards limpias y repasarlas con FSRS en una app de código abierto que controlas tú."
+title: "Flashcards de Duolingo (2026): cómo funcionan y qué repasar después"
+description: "Descubre cómo funcionan las rondas de cinco fichas de Duolingo, dónde aparecen en las lecciones y cómo convertir los fallos recurrentes en un pequeño mazo FSRS bajo tu control."
 date: "2026-06-12"
-image: "/blog/duolingo-flashcards-to-spaced-repetition.png"
+updated: "2026-09-03"
+image: "/blog/duolingo-flashcards-to-spaced-repetition-v2.png"
 keywords:
   - "flashcards de Duolingo"
-  - "flashcards de vocabulario de Duolingo"
-  - "Duolingo a Anki"
+  - "cómo funcionan las Flashcards de Duolingo"
+  - "fichas de vocabulario de Duolingo"
   - "repetición espaciada de Duolingo"
-  - "transcripción de Video Call de Duolingo"
+  - "exportar flashcards de Duolingo"
+  - "Duolingo a Anki"
   - "mejor forma de repasar vocabulario de Duolingo"
-  - "flashcards para práctica oral de Duolingo Max"
-  - "flashcards FSRS"
+  - "FSRS para aprender idiomas"
 ---
 
-El **18 de noviembre de 2025**, Duolingo lanzó las [Flashcards oficiales](https://blog.duolingo.com/duolingo-flashcards/). Unos meses después, muchos estudiantes de idiomas se toparon con el mismo problema: la palabra que fallaste el lunes en una lección y que el jueves te volvió a salir mal en una Video Call sigue necesitando un sitio donde quedarse cuando la app ya ha pasado a otra cosa.
+Cada ronda de Flashcards de Duolingo empieza con cinco fichas. En cada una aparece una palabra en el idioma que ya conoces. Tu tarea es decir la traducción en el idioma que estás aprendiendo, o escribirla si en ese momento no te viene bien hablar.
 
-Ahí es donde la mayoría de los flujos con **flashcards de Duolingo** empiezan a flojear.
+Ese detalle explica la función mejor que su nombre. No se trata de un mazo de vocabulario personal que puedas consultar cuando quieras, sino de un breve ejercicio de recuerdo activo dentro de las lecciones de Duolingo. Cuando aciertas una ficha, desaparece. Cuando fallas, ves y escuchas la respuesta; después, la ficha vuelve al final de la pila para que lo intentes otra vez.
 
-Duolingo es bueno para mantener el ritmo. Te da repetición, ejercicios, correcciones y motivos para volver mañana. Lo que no te da automáticamente es un pequeño sistema de repaso a largo plazo construido alrededor de las palabras y frases exactas con las que sigues tropezando.
+Para muchos estudiantes, esto basta. Si después de la lección hay algunas palabras que se te siguen olvidando, puede venirte bien un segundo mazo, pero solo para esos puntos débiles que se repiten. Copiar todas las palabras de Duolingo solo serviría para darte más trabajo.
 
-Esta guía es intencionadamente acotada. No va de reemplazar Duolingo. Va de aprovechar lo que Duolingo ya te muestra y convertirlo en un mazo de repetición espaciada que puedas seguir usando en 2026.
+**Datos comprobados:** 3 de septiembre de 2026.
 
-![Un escritorio cálido con flashcards de idiomas ordenadas a mano y una pantalla de conversación desenfocada](/blog/duolingo-flashcards-to-spaced-repetition.png)
+![Una malabarista aparta una pelota gastada de un juego de cinco para practicarla más](/blog/duolingo-flashcards-to-spaced-repetition-v2.png)
 
-## Por qué esto importa más ahora
+## Cómo funcionan las Flashcards de Duolingo
 
-Duolingo genera más momentos de "guarda esto para luego" que antes.
+La [explicación oficial de Flashcards](https://blog.duolingo.com/duolingo-flashcards/) de Duolingo describe este ciclo:
 
-El cambio se ve en las propias novedades del producto:
+1. La pila contiene cinco fichas, cada una con una palabra en tu idioma.
+2. Dices en voz alta la traducción al idioma que estás aprendiendo o la escribes.
+3. Si aciertas, la ficha se vuelve verde y desaparece de la pila.
+4. Si fallas, la ficha se da la vuelta, muestra y reproduce la traducción y pasa al final de la pila.
+5. Basta con tres respuestas correctas para superar el ejercicio.
+6. La ronda termina con un resumen de lo que salió bien y de lo que conviene practicar un poco más.
 
-- [las Flashcards oficiales se lanzaron el 18 de noviembre de 2025](https://blog.duolingo.com/duolingo-flashcards/)
-- [Duolingo Max presentó funciones de tutoría muy apoyadas en AI, incluida Video Call](https://blog.duolingo.com/duolingo-max/)
-- [Video Call con Lily se explicó con más detalle el 22 de abril de 2025](https://blog.duolingo.com/ai-and-video-call/)
-- [Video Call con Falstaff llegó después, el 14 de enero de 2026, para conversaciones de principiantes](https://blog.duolingo.com/beginner-video-call-with-falstaff/)
+Según Duolingo, las Flashcards aparecen en las lecciones. Su guía de 2026 sobre la [práctica de escritura en la aplicación](https://blog.duolingo.com/covering-all-the-bases-duolingos-approach-to-writing-skills/) también las presenta como una práctica de recuerdo en la que puedes responder hablando o escribiendo. Esa misma guía enumera por separado **Palabras** en la pestaña Práctica, donde puedes volver al vocabulario del curso y relacionar palabras con sus significados.
 
-Así que ahora la materia prima ya no es solo una lista de palabras. Puede ser:
+Por tanto, si buscas fichas de vocabulario de Duolingo, conviene distinguir dos funciones:
 
-- vocabulario de una lección
-- frases corregidas
-- pequeños contrastes gramaticales
-- errores al hablar en Video Call
-- patrones de frase que de verdad te gustaría reutilizar
+- Las **Flashcards** son el ejercicio de recuerdo con cinco fichas que aparece dentro de las lecciones.
+- **Palabras** es otra sección de práctica de vocabulario que Duolingo sitúa en la pestaña Práctica.
 
-Eso es útil, pero también crea un problema de filtro. Si guardas todo, el mazo se llena de ruido enseguida. Si no guardas nada, los mismos puntos débiles siguen apareciendo dentro de Duolingo y luego vuelven a desaparecer.
+Flashcards y Palabras no son dos nombres para la misma pantalla: el ejercicio de cinco fichas está en las lecciones, mientras que Palabras se encuentra en la pestaña Práctica.
 
-## El flujo útil es manual, selectivo y un poco aburrido
+## El ejercicio de la aplicación y un mazo a largo plazo cumplen funciones distintas
 
-Aquí conviene dejar un aviso claro.
+Las Flashcards de Duolingo te piden recordar de inmediato vocabulario relacionado con la lección. Un mazo personal permite que las fichas que elijas vuelvan a aparecer durante los días y meses siguientes.
 
-Este flujo **no** depende de una importación oficial desde Duolingo, de una API oficial de exportación, de scraping en el navegador, de ninguna colaboración ni de una sincronización en un clic con Flashcards. Es manual a propósito. Detectas lo que importaba, lo copias o le haces una captura, lo limpias y solo entonces lo conviertes en tarjetas.
+| Pregunta | Ejercicio de cinco fichas de Duolingo | Mazo personal a largo plazo |
+| --- | --- | --- |
+| ¿Dónde está? | Dentro de una lección de Duolingo | En la aplicación de flashcards que elijas |
+| ¿Cuándo empieza el repaso? | La lección presenta una pila de cinco fichas | Las fichas aparecen cuando corresponde según la programación de esa aplicación |
+| ¿Qué respondes? | Una traducción al idioma que estás aprendiendo, de forma oral o escrita | La consigna concreta que redactes: una palabra, una frase, una distinción o una corrección |
+| ¿Qué pasa cuando fallas? | Ves y escuchas la respuesta; la ficha vuelve al final de la pila | Valoras o repites la ficha según el sistema de repaso de la aplicación |
+| ¿Para qué funciona mejor? | Para practicar el recuerdo rápidamente mientras aún tienes presente el contexto de la lección | Para seguir repasando con el tiempo los puntos débiles que te importan |
+| ¿Quién controla el texto de la ficha? | Duolingo proporciona el ejercicio | Tú puedes editar, eliminar, dividir y reescribir la ficha |
 
-Suena menos emocionante que la fantasía de "Duolingo a Anki".
+Una opción no sustituye a la otra. La ronda de cinco fichas puede ser todo el sistema que necesites. Solo merece la pena crear un mazo aparte si te ayuda a conservar algo que, de otro modo, seguirías olvidando.
 
-También se parece mucho más a lo que realmente aguanta con el tiempo.
+## Cuándo basta con Duolingo
 
-## Qué conviene capturar de Duolingo
+Probablemente no necesites un segundo mazo si:
 
-Si quieres **flashcards de vocabulario de Duolingo** que sigan siendo útiles, la regla de captura tiene que ser más estricta que "vi esto en una lección".
+- recuerdas las palabras sin problemas en lecciones posteriores;
+- una sola corrección basta para entender el error;
+- la práctica de Palabras y el recorrido habitual de las lecciones ya te dan suficientes oportunidades para recordar;
+- vuelves a encontrar el mismo vocabulario al leer, conversar o asistir a clase;
+- mantener otra cola de repaso te quitaría tiempo para usar el idioma de verdad.
 
-Yo me quedaría sobre todo con cuatro tipos de material.
+No guardar ninguna ficha después de una buena sesión también es un resultado válido.
 
-### 1. Palabras que fallaste más de una vez
+Un mazo personal resulta más útil cuando fallas varias veces con el mismo elemento, una corrección revela un malentendido concreto o la frase te importa para una conversación que esperas tener. Es un filtro, no una copia de seguridad del curso.
 
-No toda palabra nueva merece una tarjeta permanente.
+## Qué merece la pena repasar después
 
-Si una palabra te quedó clara después de una sola corrección, déjala pasar. Si volvió dos o tres veces en sesiones distintas y siguió dándote guerra, ésa sí es una buena señal.
+Al terminar una lección, busca señales en lugar de categorías de contenido. Una ficha es mejor candidata cuando se cumple al menos una de estas condiciones:
 
-Buenos candidatos:
+- **Has fallado más de una vez.** Reconoces la respuesta en cuanto la ves, pero no consigues producirla cuando te la piden.
+- **La corrección cambió lo que entendías.** Usaste mal una preposición, el género, una conjugación o el orden de las palabras, y ahora sabes exactamente por qué.
+- **Sigues confundiendo dos formas parecidas.** Una distinción sencilla puede evitar el mismo error la próxima vez.
+- **Quieres usar la frase fuera de la aplicación.** Te servirá en un mensaje, un viaje, una clase o una conversación que de verdad te importa.
+- **La consigna puede ser concreta.** Es posible comprobar una sola cosa con claridad sin copiar una explicación entera.
 
-- una forma verbal que sigues mezclando
-- una palabra funcional que cambia el significado de forma traicionera
-- un par de casi sinónimos que se te siguen fundiendo en la cabeza
+No guardes una palabra solo porque era nueva, graciosa o te confundió durante un momento. Haberla visto no significa que tengas que repasarla durante meses.
 
-### 2. Frases corregidas de la práctica oral
+## Un proceso selectivo después de cada sesión
 
-Normalmente, éste es el material de más valor.
+Este proceso debería llevarte unos minutos, no convertir una lección de Duolingo en una sesión dedicada a pasar datos.
 
-Si usas funciones de Max como Video Call, muchas veces lo útil no es una sola palabra de vocabulario. Es la frase corregida que deja claro el hueco entre lo que intentaste decir y lo que el idioma en realidad pedía.
+### 1. Termina la lección antes de tomar notas
 
-Eso te da tarjetas con contexto:
+Mientras respondes, concéntrate en el ejercicio para que las notas no interrumpan el flujo de recuerdo. Decide después qué posibles fichas vas a conservar.
 
-- qué preposición va ahí
-- qué tiempo suena natural
-- qué cambio de orden alteró la frase
+Al terminar, usa el resumen y tu propia memoria para identificar los elementos que te costaron. Si no destaca ninguno, déjalo ahí.
 
-Suelen ser mejores tarjetas que el vocabulario aislado al azar.
+### 2. Trabaja con lotes pequeños
 
-### 3. Patrones de frase que quieres producir más adelante
+Si hay varias correcciones que merece la pena guardar, entre 3 y 8 elementos ya forman un lote completo. Es un intervalo práctico, no una cuota ni un límite científico. Cuenta toda la lección o sesión de estudio, no solo una pila de cinco fichas. De una sesión normal puede salir un único elemento o ninguno.
 
-Algunas frases importan porque te resulta fácil imaginar que las vas a necesitar otra vez.
+Anota únicamente el contexto necesario para entender la corrección más adelante:
 
-Ejemplos:
+```text
+cita = appointment; la olvidé otra vez
+depender de; usé la preposición equivocada
+se me olvidaron las llaves = I forgot my keys
+por/para: regalo destinado a Ana
+```
 
-- "I have been studying for three months"
-- "I forgot to bring my charger"
-- "We ended up taking the train instead"
+Tomar estas notas a mano es una decisión deliberada. No extrae datos de Duolingo ni copia un curso en bloque, y tampoco requiere una exportación o una API. Esa pequeña fricción te obliga a decidir si el elemento importa lo suficiente como para convertirlo en otra ficha que tendrás que repasar.
 
-Si la frase suena como algo que podrías decir la semana que viene, es una candidata fuerte. Si solo tiene sentido en una escena rara de Duolingo, probablemente no lo es.
+### 3. Convierte cada nota en una tarea de recuerdo
 
-### 4. Contrastes gramaticales pequeños con un ejemplo real
+Las correcciones en bruto rara vez están listas para convertirse en flashcards. Reescribe cada una de forma que tenga una respuesta esperada clara.
 
-Duolingo suele dejar ver microdistinciones útiles:
+| Señal de la lección | Ficha poco útil | Ficha mejor | Qué comprueba |
+| --- | --- | --- | --- |
+| Volviste a olvidar `la cita` | Anverso: “Vocabulario de la lección” / Reverso: una lista de diez palabras | Anverso: `Tengo una ___ con el dentista.` / Reverso: `cita` | Una palabra que se te resiste, dentro de su contexto |
+| Usaste la preposición equivocada después de `depender` | Anverso: “Explica las preposiciones españolas” / Reverso: un párrafo de gramática | Anverso: `Todo depende ___ resultado.` / Reverso: `del` — `Todo depende del resultado.` | Una preposición y una contracción dentro de su contexto |
+| Quieres conservar el patrón corregido “I forgot my keys” | Anverso: el diálogo corregido entero / Reverso: su traducción | Anverso: “Usando *se me*, di: I forgot my keys.” / Reverso: `Se me olvidaron las llaves.` | Un patrón de producción útil |
+| Confundiste `por` y `para` | Anverso: “por frente a para” / Reverso: todas las reglas | Anverso: `Este regalo es ___ Ana.` / Reverso: `para` | Una distinción concreta |
 
-- `por` vs `para`
-- `ser` vs `estar`
-- elecciones perfectivas frente a imperfectivas
-- uso del artículo que cambia el tono o el significado
+La dirección exacta de la ficha depende de tu objetivo. Si lo que te cuesta es hablar, pon en el anverso el significado o la situación y produce la respuesta en el idioma que estás aprendiendo. Si lo difícil es leer, muestra la frase en ese idioma y pide su significado. Para un elemento importante puedes conservar las dos direcciones, pero no dupliques todo por sistema.
 
-No guardes todo el bloque de explicación. Guarda un contraste limpio con un ejemplo que de verdad entiendas.
+Encontrarás más modelos en [Cómo usar flashcards para aprender idiomas](/blog/how-to-use-flashcards-for-language-learning/).
 
-## Qué no conviene capturar
+### 4. Comprueba la ficha antes de programarla
 
-Esto importa incluso más que la lista de captura.
+Lee las dos caras sin el contexto de la lección. Pregúntate:
 
-La mayoría de los malos sistemas de **repetición espaciada de Duolingo** no se estropean por culpa del software. Se estropean por acumular sin filtro.
+- ¿Hay una única respuesta razonable?
+- ¿La ficha comprueba el error que cometí de verdad?
+- ¿El ejemplo suena natural y contiene suficiente información para entenderlo?
+- ¿Seguirá importándome esta frase dentro de un mes?
+- ¿He conservado la tilde, el artículo o cualquier detalle gramatical que cambie la respuesta?
 
-Yo saltaría estos casos:
+Si una consigna admite varias traducciones igual de válidas, añade contexto o acótala. «Di *still* en español» no da suficiente información: la mejor traducción cambia según el sentido. Una consigna completa como «She is still here» deja más claro el objetivo.
 
-- palabras que ya conocías al instante
-- frases graciosas de novedad que nunca vas a decir
-- transcripciones completas de diálogos cuando la lección de verdad estaba en una sola línea
-- bloques enormes de respuesta que enseñan tres puntos gramaticales a la vez
-- cognados evidentes que casi seguro recordarás de todos modos
-- frases que solo tienen sentido por la escena exacta de la lección
+### 5. Repasa el pequeño mazo y sigue eliminando fichas
 
-Si una tarjeta te parecería absurda de repasar un jueves por la mañana con sueño, probablemente no debería existir.
+Cuando las fichas estén claras, deja que la aplicación de repetición espaciada que hayas elegido las programe. Elimina o reescribe una ficha si los repasos revelan que la consigna es ambigua, la respuesta es demasiado larga o el elemento ya no te importa.
 
-## El flujo práctico: primero la lección, luego las tarjetas
+Presta atención a la cola pendiente en lugar de perseguir una cifra perfecta de fichas nuevas. Si añadir fichas después de cada lección hace que los repasos del día siguiente resulten molestos, guarda menos. [Cuántas flashcards nuevas añadir al día](/blog/how-many-new-flashcards-per-day/) explica este equilibrio de carga con más detalle.
 
-El proceso del día a día debería seguir siendo simple.
+## Dónde encaja FSRS y dónde no puede ayudar
 
-### Paso 1: termina primero la lección o la conversación
+Mantén separadas las dos capas de este proceso. La explicación oficial de las Flashcards de Duolingo describe el ejercicio de recuerdo activo y su ciclo de reintentos. En un mazo aparte que use **FSRS**, la aplicación registra tus repasos y el planificador usa ese historial para calcular cuándo debe volver cada ficha guardada.
 
-No te pares cada treinta segundos a construir flashcards. Así conviertes una sesión de idioma en trabajo administrativo.
+Esto viene bien porque no todo se recuerda igual. `la cita` puede resultarte fácil enseguida, mientras que `depender de` sigue dándote problemas. No hace falta que ambas vuelvan con el mismo calendario fijo.
 
-Deja que Duolingo haga primero su parte:
+FSRS no puede salvar una mala ficha.
 
-- termina la lección
-- termina la sesión de Flashcards
-- termina la Video Call
+Puede programar «Explica todos los usos de por y para» con mucha precisión, pero la consigna seguirá siendo demasiado amplia. También puede mostrarte con más frecuencia una traducción ambigua, pero repetirla no hará que la pregunta sea más clara. Primero va la calidad de la ficha; después, la programación.
 
-Luego haz una pasada corta de captura mientras los fallos todavía están frescos.
+Para entender el planificador, lee [¿Qué es FSRS?](/blog/what-is-fsrs/). Para diseñar consignas, consulta [Cómo crear mejores flashcards](/blog/how-to-make-better-flashcards/).
 
-### Paso 2: guarda solo entre 3 y 8 elementos de esa sesión
+## ¿Necesitas exportar las flashcards de Duolingo?
 
-Ésta es la regla que mantiene vivo el sistema.
+No para este proceso. La idea es trasladar unas pocas decisiones, no una base de datos de vocabulario.
 
-Tres buenas tarjetas en una sesión es normal. Ocho ya es mucho. Quince suele significar que estás guardando cosas porque te parecieron interesantes, no porque merezcan un repaso.
+Termina la sesión, elige los fallos recurrentes e introduce esos elementos a mano en la aplicación de repaso que ya utilices. Así el proceso no depende de ninguna vía de exportación y evitas que «exportar flashcards de Duolingo» se convierta en la búsqueda de un sistema de importación masiva que quizá no necesites.
 
-Tu captura en bruto puede ser muy simple:
+Si vas a usar Anki, crea allí las fichas que hayas seleccionado. Un proceso de **Duolingo a Anki** no tiene por qué ser más complicado. Si ya guardas tus mazos de idiomas en Anki, no hay motivo para cambiar de aplicación por estas fichas nuevas.
 
-- frases copiadas en una nota
-- una captura de pantalla con la línea corregida
-- un fragmento pegado de una transcripción
-- una lista rápida como `estar + location`, `se me olvidó`, `por vs para here`
+Si prefieres crear un mazo personal en otra aplicación, se aplican las mismas reglas de selección. No traslades cinco palabras de la lección solo porque había cinco fichas en la pantalla. Conserva únicamente los elementos que hayan demostrado necesitar atención durante más tiempo.
 
-### Paso 3: reescribe el material en bruto como prompts reales de recuerdo
+## Dónde encaja Flashcards Open Source App
 
-Aquí es donde aparece la calidad.
+> **Aviso:** Soy Kirill Markin y desarrollo [Flashcards Open Source App](/features/).
 
-El material en bruto de Duolingo suele ser demasiado amplio, demasiado pulido o demasiado atado a la pantalla donde lo viste. Antes de que se convierta en un mazo, reescríbelo como prompts de anverso y reverso más pequeños.
+Flashcards es una de las aplicaciones donde puedes guardar la parte personal de este proceso. La [versión alojada](/docs/getting-started/) permite crear y repasar fichas, usar el chat con IA junto con los datos y archivos adjuntos de tu espacio de trabajo y programar los repasos con FSRS. El [repositorio es de código abierto](https://github.com/kirill-markin/flashcards-open-source-app) y hay [instrucciones para alojar la aplicación por tu cuenta](/docs/self-hosting/).
 
-Supón que Video Call corrigió esta línea:
+Para este proceso con Duolingo, introducir las fichas a mano suele bastar. La IA puede ayudarte a dividir una corrección o reformular una consigna que no queda clara, pero no debería decidir qué vocabulario de la lección merece un repaso a largo plazo. Esa decisión es tuya: tú sabes qué has fallado y qué quieres decir.
 
-- Línea en bruto: "No fui al trabajo porque estaba enfermo."
+La [guía de primeros pasos](/docs/getting-started/) cubre la aplicación alojada, la configuración de agentes y la opción de alojamiento propio. Si ya tienes un sistema de repaso que te funciona, mantenlo y aplica allí el mismo proceso selectivo.
 
-Eso podría convertirse en:
+## La respuesta práctica
 
-- Anverso: ¿Cómo se dice "I did not go to work because I was sick" en español?
-  Reverso: No fui al trabajo porque estaba enfermo.
-- Anverso: ¿Qué tiempo pasado aparece en `No fui al trabajo`?
-  Reverso: Pretérito de `ir`: `fui`.
+Las Flashcards de Duolingo son rondas breves de recuerdo con cinco fichas: ves una palabra en tu idioma, produces la traducción al idioma que estás aprendiendo y, si fallas, vuelves a intentarlo dentro del mismo ejercicio. Encajan de forma natural en una lección y quizá sean todo el repaso de vocabulario que necesitas.
 
-Puede que de ahí salgan dos tarjetas. Puede que solo sobreviva una. La idea es que el material guardado deje de sonar a transcripción y empiece a sonar a algo que puedas recordar con un poco de presión.
+Crea un segundo mazo solo para lo que se siga resistiendo: fallos recurrentes, correcciones que cambiaron lo que entendías y frases que de verdad quieres producir más adelante. Anótalo a mano, convierte cada elemento en una consigna clara y deja que FSRS programe sus repasos.
 
-## Las tarjetas de frases suelen ganar a las de vocabulario puro
-
-Ésta es la parte que la mayoría termina aprendiendo por las malas.
-
-El vocabulario aislado parece ordenado. Las tarjetas de frases son las que suelen aguantar.
-
-Una frase corregida como:
-
-- "I am looking for the train station"
-- "She told me not to worry"
-- "We have known each other since school"
-
-lleva varias cosas a la vez:
-
-- vocabulario
-- gramática
-- orden de palabras
-- un caso de uso creíble
-
-Eso vale todavía más cuando la frase viene de un momento en el que dudaste o te corrigieron. Ya trae algo de memoria pegada.
-
-## Usa AI para limpiar el material, no para decidir qué importaba
-
-Aquí conviene ser bastante firme.
-
-AI sirve después del paso de selección, no antes.
-
-Si vuelcas una sesión entera de Duolingo en un modelo y le pides cincuenta tarjetas, normalmente te devolverá basura pulida mezclada con un puñado de tarjetas buenas. Si primero eliges las líneas que de verdad importaban, el paso de limpieza se vuelve bastante más útil.
-
-Dentro de [Flashcards](https://flashcards-open-source-app.com/), el encaje práctico es bastante directo:
-
-- crea tarjetas en la app web alojada
-- pega frases corregidas en el chat de AI o adjunta una captura o archivo
-- pide borradores más simples de anverso y reverso
-- corta enseguida las tarjetas flojas
-- repasa las supervivientes con FSRS
-
-Esto funciona bien para las **flashcards de práctica oral de Duolingo Max** porque mantiene el criterio humano al principio del flujo.
-
-Si quieres reglas más amplias para limpiar tarjetas generadas, [Cómo arreglar flashcards hechas con AI en 2026](/es/blog/how-to-fix-ai-flashcards/) es el artículo complementario directo.
-
-## Un prompt sencillo que funciona con material de Duolingo
-
-No necesitas lenguaje de importación. Necesitas un prompt que mantenga las tarjetas acotadas.
-
-Con esto basta:
-
-> Convierte estas frases y correcciones de Duolingo en flashcards simples de anverso y reverso. Una palabra, frase, contraste o punto gramatical por tarjeta. Mantén las respuestas cortas. Conserva ejemplos naturales cuando ayuden. Omite duplicados, bromas, cognados obvios y cualquier cosa que no sería útil en una conversación real.
-
-Si el material en bruto viene de una captura o de un fragmento pegado de conversación, añade:
-
-> Si una línea contiene varias ideas, divídela en varias tarjetas más pequeñas.
-
-Eso suele acercarte bastante a algo que sí se puede repasar.
-
-## FSRS es lo que convierte las notas de Duolingo en un sistema de memoria real
-
-Éste es el relevo que importa.
-
-Duolingo es bueno para la exposición repetida dentro de Duolingo. Lo que mucha gente sigue queriendo después es una capa de repaso bajo su control, donde las tarjetas puedan quedarse meses y volver según el rendimiento real de memoria en vez de según lo que el camino de lecciones decidió remarcar.
-
-Ahí es donde ayuda **FSRS**.
-
-Cuando las tarjetas ya son pequeñas y honestas:
-
-- las fáciles se alejan
-- las escurridizas se quedan cerca
-- la cola se siente menos aleatoria
-- repasar se parece más a trabajo de memoria y menos a una carpeta llena de capturas
-
-Si quieres más detalle sobre la parte del planificador, [FSRS vs SM-2 en 2026](/es/blog/fsrs-vs-sm-2/) es la continuación directa.
-
-## Mantén el mazo de Duolingo separado y pequeño
-
-Éste es otro punto en el que mucha gente se va desviando sin darse cuenta.
-
-No mezcles todas tus fuentes para aprender idiomas en el mismo saco el primer día. Un mazo pequeño `Duolingo Spanish` o `Duolingo French` funciona mejor al principio, sobre todo mientras todavía estás afinando tus reglas de captura.
-
-Yo también mantendría un techo semanal aproximado:
-
-- entre 15 y 30 tarjetas nuevas derivadas de Duolingo por semana para estudiantes casuales
-- quizá 40 si usas Duolingo mucho y borras con agresividad
-
-Más allá de eso, la cola suele dejar de sentirse útil.
-
-Si no tienes claro cuánto material nuevo puede absorber tu carga de repaso, [Cuántas flashcards nuevas al día en 2026](/es/blog/how-many-new-flashcards-per-day/) es el artículo complementario adecuado.
-
-## Dónde encaja Flashcards si lo que quieres es control
-
-Si el objetivo no es solo tener una cola más agradable, sino un sistema que puedas inspeccionar y conservar en tus propios términos, aquí es donde [Flashcards](https://flashcards-open-source-app.com/) encaja de forma natural.
-
-Las piezas útiles aquí son prácticas:
-
-- tarjetas simples de anverso y reverso
-- repaso con FSRS
-- chat de AI con texto pegado, capturas y archivos adjuntos para limpiar material
-- una app web alojada para empezar rápido
-- una app para iOS con enfoque offline-first para repasar lejos del escritorio
-- una base de código open source y una [ruta de self-hosting](/es/docs/self-hosting/) si la propiedad de los datos te importa
-
-Si quieres el recorrido más corto por el producto, empieza por [Primeros pasos](/es/docs/getting-started/).
-
-## La regla práctica para las flashcards de Duolingo en 2026
-
-No intentes guardar Duolingo entero.
-
-Guarda las palabras que sigues fallando, las frases corregidas que te enseñaron algo y los patrones de frase que de verdad quieres volver a decir. Límpialo hasta dejar tarjetas pequeñas. Borra lo gracioso pero inútil. Luego deja que FSRS se encargue del momento.
-
-Ésa es la versión de las **flashcards de Duolingo** en la que yo confío en 2026. Duolingo mantiene viva la racha. Tu propio mazo de repetición espaciada evita que lo útil se evapore cuando termina la lección.
+Duolingo mantiene el ejercicio ligado a la lección. Tu propio mazo conserva durante más tiempo unos pocos puntos débiles que merece la pena seguir repasando. Es una división sencilla de mantener y lo bastante selectiva para seguir siendo útil.
