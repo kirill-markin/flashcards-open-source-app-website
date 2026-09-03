@@ -41,7 +41,7 @@ That should change what goes into your deck. A useful 2026 GMAT deck usually lea
 
 It should lean away from giant vocab stacks and leftover idiom advice.
 
-If you want a starting point before your own error log grows, the [GMAT Quant, Verbal, and Data Insights flashcard deck](https://flashcards-open-source-app.com/catalog/gmat-quant-verbal-data-insights-flashcards/) follows that current-format split. Add, rewrite, or delete cards as your official-practice misses show you what needs work.
+If you want a starting point before your own error log grows, the [GMAT Quant, Verbal, and Data Insights flashcard deck](https://flashcards-open-source-app.com/catalog/packages/gmat-quant-verbal-data-insights-flashcards/) follows that current-format split. Add, rewrite, or delete cards as your official-practice misses show you what needs work.
 
 ## Good GMAT flashcards store decisions, not chapters
 
