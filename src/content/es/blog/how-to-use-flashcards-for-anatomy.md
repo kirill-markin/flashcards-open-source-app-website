@@ -63,6 +63,8 @@ Las buenas preguntas se parecen más al examen:
 - ¿Qué forma el borde lateral de este espacio?
 - ¿Qué vaso queda inmediatamente medial a esta estructura?
 
+Si necesitas una base antes de crear tarjetas a partir del laboratorio, [Huesos del cuerpo humano: tarjetas de anatomía](/es/catalog/packages/huesos-cuerpo-humano-anatomia-tarjetas/) reúne 285 tarjetas en español sobre los huesos de los esqueletos axial y apendicular: nombre, región, clasificación, recuentos convencionales y relaciones óseas o anatómicas básicas. Es un punto de partida de texto; el atlas y el trabajo de laboratorio siguen siendo necesarios para aprender a identificarlos visualmente.
+
 Eso es lo que hace útiles las **flashcards para exámenes prácticos de anatomía**. La tarjeta debería sentirse un poco como el propio práctico, no como un resumen limpio del capítulo que terminaste el martes pasado.
 
 ## Una estructura no debería convertirse en una tarjeta gigantesca
