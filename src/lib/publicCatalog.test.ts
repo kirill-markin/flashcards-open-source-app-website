@@ -890,6 +890,7 @@ test("creates escaped catalog JSON-LD from canonical read-model entities", () =>
   const author = getPublicCatalogAuthorBySlug(model, "author-one");
 
   assert.ok(packageView);
+  assert.ok(packageView.coverMediaAsset);
   assert.ok(collection);
   assert.ok(author);
 
@@ -929,10 +930,14 @@ test("creates escaped catalog JSON-LD from canonical read-model entities", () =>
   }]);
   assert.deepEqual(packageResource.hasPart, { "@id": quiz["@id"] });
   assert.equal("@type" in packageResource.author, false);
-  assert.equal("image" in packageResource, false);
+  assert.equal(
+    packageResource.image,
+    packageView.coverMediaAsset.downloadUrl,
+  );
   assert.equal("aggregateRating" in packageResource, false);
   assert.equal("offers" in packageResource, false);
   assert.equal(quiz["@type"], "Quiz");
+  assert.equal(quiz.image, packageView.coverMediaAsset.downloadUrl);
   assert.deepEqual(
     quiz.about.map((about) => about.name),
     ["Canonical package title"],
@@ -964,6 +969,29 @@ test("creates escaped catalog JSON-LD from canonical read-model entities", () =>
   );
   quiz.hasPart.forEach((question) => {
     assert.equal(Array.isArray(question.acceptedAnswer), false);
+  });
+
+  const packageSchemasWithoutCoverImage = [
+    createPublicCatalogPackageJsonLd([], "en", {
+      ...packageView,
+      coverMediaAsset: null,
+    }),
+    createPublicCatalogPackageJsonLd([], "en", {
+      ...packageView,
+      coverMediaAsset: {
+        ...packageView.coverMediaAsset,
+        mimeType: "application/pdf",
+      },
+    }),
+  ];
+
+  packageSchemasWithoutCoverImage.forEach((schema) => {
+    const resourceWithoutCoverImage = schema["@graph"][0];
+    const quizWithoutCoverImage = schema["@graph"][1];
+
+    assert.ok(quizWithoutCoverImage);
+    assert.equal("image" in resourceWithoutCoverImage, false);
+    assert.equal("image" in quizWithoutCoverImage, false);
   });
 
   const rootSchema = createPublicCatalogRootJsonLd(model, "en");
