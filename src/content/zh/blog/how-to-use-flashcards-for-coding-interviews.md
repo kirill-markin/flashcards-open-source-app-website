@@ -100,6 +100,8 @@ keywords:
 
 这就是有用的 **技术面试 flashcards**，和那种把所有后悔都改写成卡片的大仓库之间的区别。
 
+如果你想先用现成材料练习模式选择，这套 [算法面试模式闪卡](/catalog/packages/coding-interview-patterns-flashcards-chinese/) 有 216 张直接用中文原创的卡片，集中练习题目信号、不变量、复杂度、边界条件和常见误选，而不是按题名整理题解。
+
 如果你想在建立自己的错题记录之前先用一个现成的起点，[Blind 75 Python 解法卡组](/catalog/packages/blind-75-python-solutions/)把 75 道经典题分别做成卡片，涵盖核心数据结构、算法、复杂度、边界情况和 Python 解法。
 
 ## 最好的编程面试卡片，通常来自失误，而不是顺利做对的题
