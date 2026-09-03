@@ -29,7 +29,7 @@ The version I trust is narrower than most giant public decks:
 - handbook navigation for sections you search too slowly
 - conceptual traps and repeated misses from practice problems
 
-That is enough to make **Fundamentals of Engineering flashcards** useful without turning them into a second reference manual.
+[FE Exam Flashcards: Engineering Equations, Units & Handbook Skills](/catalog/packages/fe-exam-engineering-equations-units-flashcards/) is a ready-made starting point for equation recall, unit fluency, and handbook navigation; discipline-specific problem practice still belongs alongside it.
 
 ![Warm engineering study desk with FE exam flashcards, unit-conversion notes, and a softly blurred review dashboard](/blog/how-to-use-flashcards-for-the-fe-exam.png)
 
