@@ -44,6 +44,8 @@ CFA Institute 表示，考生报名时需要选择 Portfolio Management、Privat
 
 按照这个结构，卡组可以很简单：一副卡组，一个 `core` 标签，再加一个所选专业路径的标签。混合复习能避免把专业路径学成一门与共同核心脱节的独立课程。如果练习结果显示两部分失衡，仍可用筛选器分别检查。
 
+如果你选择 Portfolio Management，可以从这套[CFA Level III 投资组合管理路径中文闪卡](/catalog/packages/cfa-level-3-portfolio-management-flashcards-chinese/)开始：480 张卡中，320 张覆盖共同核心，160 张覆盖该路径；卡组不包含 Private Wealth 或 Private Markets 路径内容，也不能替代题组、论述题和模考。
+
 | 卡组部分 | 适合做卡的内容 | 示例标签 |
 | --- | --- | --- |
 | 共同核心 | 资产配置约束、投资组合构建、业绩解释、风险管理决策、道德与职业准则的边界 | `core`、主题、指令词、错误类型 |
