@@ -61,6 +61,8 @@ For AP World, I like timeline cards that keep one foot in chronology and one foo
 - anti-colonial nationalism after World War II
 - Cold War pressure on newly independent states
 
+For a ready-made baseline, [World History Flashcards: 1200–Present Timeline & Themes](/catalog/packages/world-history-1200-present-flashcards/) includes 500 sourced cards across chronology, exchange, states, revolutions, conflict, globalization, and source analysis. It is an independent general-history deck, not College Board material, so keep course-specific unit framing and timed SAQ, DBQ, and LEQ work in separate practice.
+
 Those are not random fact buckets. They are reusable anchors.
 
 If your deck already feels bloated, [How to Make Better Flashcards in 2026](/blog/how-to-make-better-flashcards/) is the right cleanup pass before you add more cards.
