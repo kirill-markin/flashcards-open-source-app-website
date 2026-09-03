@@ -1,6 +1,7 @@
 import type { AppLocale } from "@/lib/i18n";
 import { getAbsoluteUrl, getLocalizedPathname } from "@/lib/i18n";
 import { getPublicCatalogCardMediaDownloadUrls } from "@/lib/publicCatalogCardMedia";
+import { getPublicCatalogCoverImage } from "@/lib/publicCatalogCover";
 import { getPublicCatalogUiCopy } from "@/lib/publicCatalogCopy";
 import {
   getPublicCatalogDestinationCopy,
@@ -90,6 +91,7 @@ interface PublicCatalogPackageResource {
   readonly datePublished: string;
   readonly description: string;
   readonly hasPart?: CatalogEntityReference;
+  readonly image?: string;
   readonly isPartOf?: ReadonlyArray<CatalogCollectionReference>;
   readonly license: CatalogLicenseCreativeWork;
   readonly name: string;
@@ -118,6 +120,7 @@ interface CatalogQuiz {
   readonly "@type": "Quiz";
   readonly about: ReadonlyArray<CatalogQuizAbout>;
   readonly hasPart: ReadonlyArray<CatalogQuizQuestion>;
+  readonly image?: string;
   readonly isPartOf: CatalogEntityReference;
   readonly name: string;
   readonly url: string;
@@ -363,6 +366,10 @@ export function createPublicCatalogPackageJsonLd(
   );
   const resourceId = `${packageUrl}#resource`;
   const quizId = `${packageUrl}#quiz`;
+  const coverImage = getPublicCatalogCoverImage(
+    latestVersion.title,
+    packageView.coverMediaAsset,
+  );
   const questions = packageView.cards.map((card): CatalogQuizQuestion => {
     const mediaDownloadUrls = getPublicCatalogCardMediaDownloadUrls(
       card,
@@ -409,6 +416,7 @@ export function createPublicCatalogPackageJsonLd(
     },
     name: latestVersion.title,
     url: packageUrl,
+    ...(coverImage === null ? {} : { image: coverImage.downloadUrl }),
     ...(questions.length === 0 ? {} : { hasPart: { "@id": quizId } }),
     ...(collections.length === 0
       ? {}
@@ -442,6 +450,7 @@ export function createPublicCatalogPackageJsonLd(
     isPartOf: { "@id": resourceId },
     name: latestVersion.title,
     url: packageUrl,
+    ...(coverImage === null ? {} : { image: coverImage.downloadUrl }),
   };
 
   return {
