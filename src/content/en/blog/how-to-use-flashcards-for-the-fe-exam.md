@@ -140,6 +140,8 @@ Good unit cards can test:
 
 [Metric Prefix Flashcards: All 24 SI Names, Symbols & Powers of Ten](/catalog/packages/metric-prefix-flashcards/) drills the current SI prefix names, case-sensitive symbols, and powers of ten. It stays at prefix recall, so conversion setup and engineering problem practice still belong outside the deck.
 
+If unit identity is the gap, [SI Units Flashcards: 7 Base Units & 22 Named Derived Units](/catalog/packages/si-units-flashcards/) practices quantity ↔ unit name and symbol for all seven base units and all 22 named derived units, plus each named derived unit's coherent base-unit expression. It does not teach conversions or engineering problem solving, so test that recall in FE problems.
+
 Examples:
 
 - Front: What is the fastest explanation for a clean FE setup with a nonsense answer?

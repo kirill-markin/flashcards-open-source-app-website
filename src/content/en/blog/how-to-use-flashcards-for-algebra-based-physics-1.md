@@ -53,6 +53,8 @@ Tagging cards by unit helps, but unit tags should not be the only structure. Add
 
 For a ready-made review set, [AP Physics 1 Flashcards: Complete 8-Unit Course Review](/catalog/packages/ap-physics-1-flashcards/) contains 400 independently written English cards covering concepts, formulas and conditions, graphs, experiments, and reasoning across eight units. It has an original illustrated cover but no card images, so keep diagrams, demonstrations, and full problem work in your course materials.
 
+For the narrower unit-recall layer, [SI Units Flashcards: 7 Base Units & 22 Named Derived Units](/catalog/packages/si-units-flashcards/) practices quantity ↔ unit name and symbol for all seven base units and all 22 named derived units, plus each named derived unit's coherent base-unit expression. It does not cover formulas, conversions, or physics problems.
+
 ## Kinematics cards should test graphs and signs
 
 The weakest kinematics card has `kinematic equations` on the front and a stack of formulas on the back. It is not useless. It is just doing too many jobs badly.
