@@ -1,151 +1,239 @@
 ---
-title: "Die besten Open-Source-Karteikarten-Apps 2026"
-description: "Vergleiche die besten Open-Source-Karteikarten-Apps nach Lizenz, Plattformen, Offline-Nutzung, Scheduler, Sync, Import, Export und echtem Selbsthosting."
+title: "Die besten Open-Source-Karteikarten-Apps 2026: 6 FOSS-Optionen im Vergleich"
+description: "Sechs gepflegte Open-Source-Karteikarten-Apps im Vergleich: Quellcodeumfang, Offline-Daten, Sync, Anki-Import, Export, Selbsthosting und Wiederherstellung."
 date: "2026-08-02"
-image: "/blog/best-open-source-flashcard-apps-2026.png"
+updated: "2026-09-05"
+image: "/blog/best-open-source-flashcard-apps-2026-v2.png"
 keywords:
   - "beste Open-Source-Karteikarten-Apps"
   - "Open-Source-Karteikarten-App"
+  - "Open-Source-Spaced-Repetition"
   - "selbst gehostete Karteikarten"
   - "Offline-Karteikarten-App"
-  - "Spaced-Repetition-App"
-  - "Open-Source-Spaced-Repetition"
+  - "Open-Source-Alternative zu Anki"
+  - "FOSS-Karteikarten"
 ---
 
-Ein GitHub-Link verrät erstaunlich wenig über eine Karteikarten-App. Der Desktop-Client kann quelloffen sein, während die iPhone-App proprietär bleibt. Ein Docker-Image kann zwar eine Browser-App bereitstellen, aber keine Synchronisierung für native Clients. Und selbst eine Offline-Karteikarten-App kann im Kern vollständig geschlossen sein.
+Anki bleibt auch 2026 für die meisten Menschen die beste Open-Source-Karteikarten-App. Spannend wird die Auswahl, sobald „Open Source“ nicht dein einziges unverzichtbares Kriterium ist.
 
-Dieser Vergleich der **besten Open-Source-Karteikarten-Apps** prüft deshalb, worauf es nach der Installation wirklich ankommt: Lizenz, Plattformen, Offline-Nutzung, Scheduler, Synchronisierung, Import und Export sowie den genauen Umfang des Selbsthostings. In die engere Auswahl kommen Anki, Flashcards, Mnemosyne und SiYuan. Als proprietäre Local-first-Vergleichsoption folgt danach Mochi.
+Vielleicht brauchst du eine Browser-App auf deinem eigenen Server. Oder ein Deck, dessen Inhalt als reines Markdown lesbar ist. Oder ein privates Notizsystem, das aus deinen Notizen Karteikarten erstellt. Je nach Anforderung passt ein anderes Produkt – ein öffentliches GitHub-Repository allein beantwortet diese Frage nicht.
 
-> **Offenlegung:** Ich bin Kirill Markin und entwickle [Flashcards](https://flashcards-open-source-app.com/), eines der hier verglichenen Produkte. Die App gehört in diese Auswahl, weil das Repository die Web-App, native Clients, Backend, Synchronisierung und Produktionsinfrastruktur unter der MIT-Lizenz enthält. Ich erkläre sie deshalb nicht automatisch zum Sieger. Anki ist ausgereifter, Mnemosyne bietet einen fokussierten Desktop-Ablauf und eine bessere Anki-Migration, SiYuan ist ein umfassenderes Wissenssystem und Mochi kommt leichter infrage, wenn Open Source für dich kein Muss ist.
+Zu einem quelloffenen Desktop-Client kann eine proprietäre iPhone-App gehören. Ein Docker-Container kann eine Browser-Oberfläche bereitstellen, ohne native Clients zu synchronisieren. Und ein Import kann zwar die Karteninhalte übernehmen, dabei aber Vorlagen, Medien und den jahrelangen Wiederholungsverlauf verlieren, die der Sammlung ihren eigentlichen Wert geben.
 
-**Fakten geprüft:** 2. August 2026.
+Sechs Projekte haben diese Prüfung bestanden. Verglichen habe ich den lizenzierten Quellcode, die neueste stabile Version, lokale Daten, Scheduler, Synchronisierung, Anki-Migration, Export und den genauen Umfang des Selbsthostings. Gerade der letzte Punkt ist wichtiger, als die meisten Funktionslisten vermuten lassen.
 
-![Warmer Schreibtisch zum Vergleich von fünf Open-Source- und Offline-Lernkartensystemen nach Planung, Synchronisierung, Export und Selbsthosting](/blog/best-open-source-flashcard-apps-2026.png)
+> **Offenlegung:** Ich bin Kirill Markin und entwickle [Flashcards](https://flashcards-open-source-app.com/), eine der sechs hier vorgestellten Apps. Das MIT-Repository umfasst Web-App, native Clients, Backend, Synchronisierung und Infrastruktur. Flashcards steht in diesem Vergleich nicht auf Platz eins. Anki ist die sicherere Standardwahl, Mnemosyne bietet einen etablierteren Weg für die Anki-Migration, und mehrere der anderen Optionen lassen sich deutlich einfacher betreiben.
 
-## Was „Open Source“, „offline“ und „selbst gehostet“ hier bedeuten
+**Stand der Fakten:** 5. September 2026. Stabile Releases werden klar von Änderungen getrennt, die bislang nur im Standard-Branch vorliegen.
 
-Ich habe ein Produkt in die Open-Source-Gruppe aufgenommen, wenn der Quellcode der zentralen App für Endnutzer veröffentlicht ist und klare Lizenzbedingungen vorliegen. Anschließend habe ich alle Optionen anhand derselben praktischen Fragen geprüft, statt GitHub-Sterne als Qualitätswertung zu behandeln.
+![Ein Wanderer vergleicht sechs geöffnete Rucksäcke und prüft ein Ersatzset, bevor er eine Open-Source-Karteikarten-App auswählt](/blog/best-open-source-flashcard-apps-2026-v2.png)
 
-- **Open Source** beschreibt die rechtlichen Bedingungen, unter denen der Code genutzt werden darf. Der Begriff verspricht weder Offline-Zugriff noch eine gepflegte mobile App oder einen installierbaren Server.
-- **Offline-Nutzung** bedeutet, dass ein installierter Client Karten anhand lokaler Daten erstellen oder wiederholen kann, ohne einen Server zu kontaktieren. Auch proprietäre Software kann diese Anforderung erfüllen.
-- **Selbst gehostete Synchronisierung** bedeutet, dass du den Dienst betreibst, der Daten zwischen den Clients austauscht. Dieser Dienst muss keinerlei Browser-Oberfläche bieten.
-- **Selbsthosting der vollständigen Web-App** bedeutet, dass deine Bereitstellung eine Anwendung umfasst, die Menschen im Browser verwenden können. Native Clients können trotzdem eigene Builds, eine separate Verteilung oder ein anderes Synchronisierungssystem erfordern.
+## Kurz gesagt
 
-Diese Unterschiede sind der Kern des Artikels. „Quellcode vorhanden“, „funktioniert offline“ und „läuft in Docker“ sind keine austauschbaren Versprechen.
+| Deine wichtigste Anforderung | Beste Wahl | Warum sie passt | Was du zuerst testen solltest |
+| --- | --- | --- | --- |
+| Ein zuverlässiges Allzwecksystem oder eine komplexe bestehende Sammlung | [Anki](https://apps.ankiweb.net/) | Ausgereifte Karten und Vorlagen, FSRS, Add-ons, breite Client-Unterstützung und umfangreiche Paketexporte | Die offizielle iOS-App und AnkiWeb gehören nicht zum quelloffenen Desktop-Code; beim Selbsthosting erhältst du Synchronisierung, aber kein AnkiWeb |
+| Eine fokussierte Desktop-Alternative mit etabliertem Anki-Import | [Mnemosyne](https://mnemosyne-proj.org/) | Lokales Lernen, Import von Anki-Kartentypen und -Lerndaten sowie ein selbst betreibbarer Sync-Server | Version 2.11 ist weiterhin die neueste stabile Version; unter Android kannst du Karten wiederholen, aber nicht bearbeiten |
+| Notizen und Karteikarten in einer lokalen Wissensdatenbank | [SiYuan](https://b3log.org/siyuan/en/) | Native Offline-Apps, integriertes FSRS und eine vollwertige Browser-App per Docker | Die Docker-Instanz kann nicht mit den nativen Apps synchronisieren, und im Docker-Betrieb fehlen mehrere Import-/Exportbefehle |
+| Quellcode für Web, mobile Apps, Backend und Infrastruktur | [Flashcards](https://github.com/kirill-markin/flashcards-open-source-app) | Ein MIT-Monorepo mit dokumentierter Produktivbereitstellung | Der unterstützte Produktiv-Stack ist auf AWS ausgerichtet, und die Migration aus Anki ist verlustbehaftet |
+| Eine jüngere Local-first-Desktop-App mit direktem APKG-Import | [Recall](https://github.com/Madlezz/Recall) | FSRS, Desktop-Builds, eine PWA, lokale Datenbanken und ein optionales verschlüsseltes Relay | Der Import bewahrt nur eine Momentaufnahme der Lernplanung, verarbeitet die ersten beiden Notizfelder und überspringt Audio |
+| Für Menschen lesbare Markdown-Decks ohne Netzwerkabhängigkeit | [Essentialist](https://github.com/essentialist-app/essentialist) | Einfache Deckdateien und eine bewusst für den Offline-Betrieb entwickelte Desktop-/Android-App | Es gibt keine Synchronisierung, und der Lernfortschritt liegt in einer separaten versteckten Datenbank |
 
-## Open-Source-Karteikarten-Apps im Vergleich
+Das ist keine Rangliste nach Funktionsumfang. Beginne bei dem Problem, das du auf keinen Fall akzeptieren kannst. Wenn du zehn Jahre Anki-Wiederholungen mitbringst, zählt eine originalgetreue Migration mehr als eine aufgeräumtere Oberfläche. Betreibst du das System für eine Schule, sind Browser-Zugriff und eine erprobte Wiederherstellung womöglich wichtiger als Add-ons.
 
-Die vier tatsächlich quelloffenen Einträge stehen zuerst. Mochi folgt am Ende, weil die Offline-Nutzung und die portablen Formate für dieselbe Suche relevant sind, die Kernanwendung aber proprietär ist.
+## Was als Open-Source-Karteikarten-App zählt
 
-| Produkt | Lizenz / Quellcode-Status | Plattformen | Offline | Scheduler | Synchronisierung | Import / Export | Genauer Umfang des Selbsthostings |
+Vier Kriterien mussten erfüllt sein:
+
+1. **Für den zentralen Lernablauf sind der Quellcode und eine ausdrückliche Open-Source-Lizenz veröffentlicht.** Ein Verzeichnis mit Integrationen rund um einen unveröffentlichten Kern zählt nicht.
+2. **Spaced Repetition funktioniert heute.** Ein Eintrag auf der Roadmap oder ein allgemeiner Quizmodus reicht nicht.
+3. **Es gibt einen veröffentlichten Build oder eine klar dokumentierte offizielle Bereitstellung.** Neue Commits allein machen aus einem Prototyp noch keine verlässliche Empfehlung.
+4. **Offizielle Quellen machen die Grenzen der Datenhaltung nachvollziehbar.** Nötig waren konkrete Antworten zu Offline-Speicherung, Synchronisierung, Import/Export oder Hosting – kein vages Versprechen, dass Nutzer „ihre Daten besitzen“.
+
+Eine Mindestzahl an GitHub-Sternen gab es nicht. Sterne belohnen Alter und Bekanntheit mindestens so sehr wie die Eignung eines Produkts. Reife bleibt trotzdem wichtig: Anki, Mnemosyne und SiYuan haben etablierte Releases und Betriebsmodelle. Recall und Essentialist empfehle ich nur für enger gefasste Anforderungen, weil ihr veröffentlichtes Verhalten gut genug dokumentiert ist, um eine konkrete Empfehlung abzugeben.
+
+Auch „aktiv gepflegt“ lässt sich nur aus zwei Perspektiven beurteilen. Ein getaggtes Release zeigt, was Nutzer tatsächlich installieren können; der Standard-Branch zeigt, wohin sich das Projekt entwickelt. Essentialist ist dafür das deutlichste Beispiel: Die stabile Version dokumentiert SM-2, der aktuelle Branch dagegen FSRS. In der Tabelle steht deshalb SM-2.
+
+## Sechs FOSS-Karteikarten-Apps im direkten Vergleich
+
+| App | Geprüfte stabile Version | Plattformen | Offline-Daten | Scheduler | Synchronisierung | Anki-Migration und Ausstiegsweg | Umfang beim Selbsthosting |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| [Anki](https://github.com/ankitects/anki) | [Desktop-Kern: AGPL-3.0-or-later, einige Teile unter BSD-3-Clause](https://raw.githubusercontent.com/ankitects/anki/main/LICENSE); AnkiDroid ist ein separates Open-Source-Projekt; das offizielle AnkiMobile ist proprietär | Windows, macOS, Linux; Android über AnkiDroid; iOS über AnkiMobile; gehostetes Lernen im Browser über AnkiWeb | Native Desktop- und Mobil-Clients funktionieren offline | [FSRS und das ältere SM-2](https://docs.ankiweb.net/deck-options) | AnkiWeb oder der offizielle selbst gehostete Synchronisierungsserver | [Import von Text, gepackten Anki-Stapeln und Mnemosyne-`.db`](https://docs.ankiweb.net/importing/intro.html); [Export von Text, `.apkg` und `.colpkg`](https://docs.ankiweb.net/exporting.html) | **Nur Synchronisierung.** Der offizielle Server ist kein selbst gehostetes AnkiWeb und fügt keine Browser-Oberfläche zum Lernen hinzu |
-| [Flashcards](https://github.com/kirill-markin/flashcards-open-source-app) | MIT; Web, iOS, Android, Backend, Synchronisierung und Infrastruktur befinden sich in einem Repository | [Web, iOS, Android](https://github.com/kirill-markin/flashcards-open-source-app#available-on) | Local-first: Die App schreibt in IndexedDB oder SQLite und synchronisiert Änderungen aus der Warteschlange, sobald die Verbindung wieder steht | [FSRS](/docs/architecture/#scheduling) | Gehostete Synchronisierung oder der selbst gehostete Produktions-Stack | `flashcards.zip` überträgt nur Karten, Tags und zugehörige Medien; geprüfte, KI-gestützte Kartenentwürfe aus TXT/CSV sind verlustbehaftet; kein direkter `.apkg`-Import | **Vollständiger Stack mit Einschränkungen.** Die Produktionsumgebung ist auf AWS ausgerichtet und hängt von mehreren externen Diensten ab; Docker Compose dient nur der Entwicklung |
-| [Mnemosyne](https://mnemosyne-proj.org/) | [Die Lizenz hängt von der Komponente ab](https://raw.githubusercontent.com/mnemosyne-proj/mnemosyne/master/LICENSE): Der [Kern verwendet AGPL v3 mit einer zusätzlichen Namens-/Attributionsklausel](https://raw.githubusercontent.com/mnemosyne-proj/mnemosyne/master/mnemosyne/LICENSE), [openSM2sync dagegen LGPL v3](https://raw.githubusercontent.com/mnemosyne-proj/mnemosyne/master/openSM2sync/LICENSE) | [Windows, macOS, Linux, Android; Wiederholung im Browser über einen laufenden Desktop-Server](https://mnemosyne-proj.org/download-mnemosyne.php) | Lokale Desktop-Nutzung und Offline-Wiederholung unter Android; unter Android lassen sich keine Karten bearbeiten | Adaptive Planung anhand von Erinnerungsbewertungen von 0 bis 5 | Integrierte Synchronisierung mit deinem eigenen Desktop- oder Headless-Server | [Vollständiger Anki-Import mit benutzerdefinierten Kartentypen und Lerndaten](https://mnemosyne-proj.org/features), dazu Klartext und ältere Formate; Freigabe- und Textexporte sind keine vollständigen Sicherungen | **Synchronisierung plus eingeschränkte Wiederholung im Browser.** Du betreibst eine Mnemosyne-Instanz; sie ist kein gehostetes Webprodukt |
-| [SiYuan](https://github.com/siyuan-note/siyuan) | AGPL-3.0; das offizielle Projekt verlinkt außerdem quelloffene Clients für Android, iOS und HarmonyOS | Windows, macOS, Linux, Android, iOS, HarmonyOS; Browser-Nutzung über Docker | Vollständige lokale Offline-Nutzung | [FSRS](https://b3log.org/siyuan/en/) | Offizielle Ende-zu-Ende-verschlüsselte Synchronisierung oder Unterstützung für kostenpflichtigen Cloud-Speicher von Drittanbietern | Die allgemeine App unterstützt den Import von Markdown und Daten sowie den Export von Markdown, PDF, Word, HTML und Daten; kein dokumentierter `.apkg`-Importer | **Vollständige Browser-App über Docker.** Docker ist ausschließlich für den Browser gedacht und dient nicht zur Synchronisierung von Desktop- oder Mobil-Clients |
-| [Mochi](https://mochi.cards/) | Proprietärer Kern; die [öffentlichen Repositorys enthalten Integrationen](https://github.com/mochi-cards/open-source), nicht die App selbst | [Web, Windows, macOS, Linux, iOS, Android](https://mochi.cards/docs/getting-started/download-and-install/) | Vollständig offline und ohne Konto nutzbar; der Browser kann seinen lokalen Speicher löschen | Nicht offengelegter adaptiver Scheduler mit den Antworten Remembered / Forgot und einer voreingestellten Ziel-Erinnerungsrate von 90 % | Gehostete, kostenpflichtige Synchronisierung | Import von `.mochi`, Anki-`.apkg`, Markdown und CSV; Export von `.mochi`, Markdown und CSV mit unterschiedlichem Umfang der Metadaten | **Keines.** Es gibt weder eine unterstützte selbst gehostete Kern-App noch einen entsprechenden Synchronisierungsdienst |
+| **Anki** | [26.08.1](https://github.com/ankitects/anki/releases/tag/26.08.1), 5. August 2026 | Windows, macOS, Linux; separate Android- und iOS-Clients; AnkiWeb | Installierte Clients greifen beim Lernen auf lokale Sammlungen zu | FSRS oder das ältere SM-2 | AnkiWeb oder der offizielle selbst gehostete Sync-Server | Importiert Text, APKG/COLPKG und Mnemosyne-Datenbanken; exportiert Text oder Pakete mit wahlweise enthaltenen Medien und Planungsdaten | **Nur Sync-Server.** Kein selbst gehostetes AnkiWeb und keine Browser-Oberfläche zum Lernen |
+| **Mnemosyne** | [2.11](https://github.com/mnemosyne-proj/mnemosyne/releases/tag/2.11), 12. November 2023; das Repository wurde 2026 weiter bearbeitet | Windows, macOS, Linux, Android; eingeschränktes Lernen im Browser | Desktop-Daten liegen lokal; Android ermöglicht Offline-Wiederholungen, kann Karten aber nicht bearbeiten | Adaptive Bewertung der Erinnerung von 0 bis 5 | Integrierte Synchronisierung mit einer Desktop- oder Headless-Instanz | Dokumentiert offiziell einen vollständigen Anki-Import mit benutzerdefinierten Kartentypen und Lerndaten; der Export zum Teilen ist keine vollständige Sicherung | **Synchronisierung plus eingeschränktes Lernen im Browser.** Der Browser-Server hat keine Sicherheitsfunktionen |
+| **SiYuan** | [v3.8.2](https://github.com/siyuan-note/siyuan/releases/tag/v3.8.2), 30. August 2026 | Windows, macOS, Linux, Android, iOS, HarmonyOS; Browser über Docker | Native Clients speichern den Workspace lokal | FSRS | Kostenpflichtige offizielle E2EE-Synchronisierung oder kostenpflichtige Integration mit S3/WebDAV von Drittanbietern | Die native App importiert Markdown/Daten und exportiert mehrere Dokument-/Datenformate; kein dokumentierter APKG-Importer | **Vollständige Browser-App.** Docker kann native Clients nicht synchronisieren und lässt einige Import-/Exportbefehle weg |
+| **Flashcards** | [v1.23.0](https://github.com/kirill-markin/flashcards-open-source-app/releases/tag/v1.23.0), 1. September 2026 | Web, iOS, Android | IndexedDB im Web; SQLite unter iOS; Room auf SQLite unter Android; lokale Änderungen landen vor dem Sync in einer Warteschlange | FSRS | Gehostetes oder vom Betreiber bereitgestelltes Backend | Das eigene ZIP überträgt Karten, Tags, Quellmetadaten und referenzierte Medien, aber keine Decks, Lerndaten, Einstellungen oder Konten; kein APKG-Importer | **Vollständiger Web-/Backend-Stack.** Die Produktivbereitstellung ist auf AWS ausgerichtet; private Builds der nativen Apps erfolgen separat |
+| **Recall** | [v1.3.0](https://github.com/Madlezz/Recall/releases/tag/v1.3.0), 31. Juli 2026 | Windows, macOS, Linux; installierbare PWA | SQLite auf dem Desktop; IndexedDB im Browser; standardmäßig ohne Konto oder Telemetrie | FSRS | Desktop-Ordnersynchronisierung oder ein optionales verschlüsseltes Cloudflare-Worker-/R2-Relay | Der APKG-Import am Desktop liest die ersten beiden Felder, Decks, Tags, eine ungefähre Momentaufnahme der Lernplanung und Bilder; Export als JSON und Recall-Archiv | **Nur verschlüsseltes Snapshot-Relay.** Es hostet nicht die PWA |
+| **Essentialist** | [v0.3.22](https://github.com/essentialist-app/essentialist/releases/tag/v0.3.22), 10. Oktober 2025; der Quellcode wurde 2026 weiter bearbeitet | Android APK, macOS DMG, Linux Flatpak; Windows aus dem Quellcode | Kein Netzwerkzugriff; Deck-Inhalte liegen als Markdown vor | Stabile Version: SM-2; Standard-Branch: FSRS | Keine | Markdown erhält die Karteninhalte; eine versteckte Sidecar-Datenbank speichert den Lernfortschritt | **Nichts zu hosten.** Sichere die Markdown-Datei und ihre Sidecar-Datei gemeinsam |
 
-Die Tabelle ist eine Entscheidungshilfe und keine Wertung nach Funktionsumfang. Ein direkter `.apkg`-Importer kann wichtiger sein als Selbsthosting, wenn du zehn Jahre Wiederholungsverlauf mitbringst. Im Unterricht kann eine Browser-Oberfläche wichtiger sein als das Bearbeiten auf Mobilgeräten. Beginne mit der Anforderung, wegen der du eine App ausschließen würdest.
+## 1. Anki ist die sicherste Standardwahl
 
-## Anki: ausgereift, flexibel und an den Rändern kompliziert
+Anki überzeugt bei den unspektakulären Dingen. Es kann komplexe Notiztypen abbilden, aus Vorlagen zusammengehörige Karten erzeugen, Medien zusammen mit der Sammlung speichern und jahrelange Planungsdaten erhalten. Die stabile Desktop-Version für diesen Vergleich ist [26.08.1](https://github.com/ankitects/anki/releases/tag/26.08.1). Der neuere Build 26.09b2 ist als Beta gekennzeichnet und dient hier deshalb nicht als Grundlage.
 
-Anki bleibt die sicherste Wahl für eine komplexe bestehende Sammlung. Kartenvorlagen, das Ökosystem aus Erweiterungen, die Scheduler-Einstellungen und die Paketformate konnten über viele Jahre reifen. Wenn du Anki genau wegen dieser Stärken nutzt, löst der Wechsel zu einer jüngeren App womöglich gar nichts.
+Die Open-Source-Grenze verläuft nicht überall gleich. Das [Desktop-Repository steht unter AGPL-3.0-or-later](https://github.com/ankitects/anki/blob/26.08.1/LICENSE); für mitgelieferte Komponenten sind Ausnahmen aufgeführt. [AnkiDroid](https://github.com/ankidroid/Anki-Android) ist ein separates Open-Source-Projekt für Android. AnkiMobile und AnkiWeb sind offizielle Angebote, ihr Quellcode ist in diesen Repositorys jedoch nicht enthalten. Mehr dazu steht in [Ist Anki Open Source?](/blog/is-anki-open-source/).
 
-Beim Quellcode ist die Lage gemischt, nicht durchgehend offen. Die [Desktop-Lizenz](https://raw.githubusercontent.com/ankitects/anki/main/LICENSE) ist AGPL-3.0-or-later, einige Teile stehen unter BSD-3-Clause und mitgelieferte Komponenten unter weiteren Lizenzen. [AnkiDroid](https://github.com/ankidroid/Anki-Android) ist ein separates Open-Source-Projekt für Android. Die offizielle iOS-App AnkiMobile ist proprietär, AnkiWeb ein gehosteter Browser-Dienst. Die nativen Clients funktionieren offline; im gehosteten Ökosystem ermöglicht AnkiWeb den Zugriff per Browser.
+Installierte Clients speichern die Sammlung lokal, sodass du gewöhnliche Wiederholungen auch ohne Verbindung erledigen kannst. AnkiWeb ist das Online-Angebot. Wenn das Offline-Verhalten für deine Entscheidung ausschlaggebend ist, erklärt [Funktioniert Anki offline?](/blog/does-anki-work-offline/), welche Daten lokal bleiben und welche Aktionen auf die Synchronisierung warten.
 
-Anki unterstützt sowohl [FSRS als auch den älteren SM-2-Scheduler](https://docs.ankiweb.net/deck-options). Die Migrationsmöglichkeiten sind die stärksten in diesem Vergleich: Anki importiert Textdateien, gepackte Stapel und Mnemosyne-2.0-Datenbanken. Exporte sind als Text, `.apkg` oder `.colpkg` möglich; Medien und Planungsdaten lassen sich dabei konfigurieren.
+Anki unterstützt [FSRS und seinen älteren Scheduler](https://docs.ankiweb.net/deck-options.html). Seine Exportformate bieten in dieser Gruppe die beste Ausgangsbasis für eine Migration. Ein [COLPKG enthält die gesamte Sammlung samt Planungsdaten](https://docs.ankiweb.net/exporting.html); APKG-Exporte können Planungsinformationen und Medien enthalten, wenn du die entsprechenden Optionen auswählst. Anki importiert außerdem Text, Anki-Pakete und Mnemosyne-2.0-Datenbanken.
 
-Beim Selbsthosting ist der Umfang enger. Der [offizielle Synchronisierungsserver](https://docs.ankiweb.net/sync-server.html) synchronisiert kompatible Anki-Clients und richtet sich an erfahrene Betreiber, die AnkiWeb nicht nutzen möchten. Er hostet die AnkiWeb-Oberfläche nicht und bietet daher weder Lernen im Browser noch eine selbst gehostete Website zur Kontoverwaltung. Da sich das Protokoll ändert, müssen außerdem die Versionen von Client und Server kompatibel bleiben.
+Ein solches umfangreiches Ausgangspaket garantiert noch keinen perfekten Import in ein anderes System. Das Zielsystem muss die enthaltenen Vorlagen, Regeln zur Kartenerzeugung, Medienverweise und Scheduler-Felder verstehen. Es bekommt aber deutlich mehr Informationen als aus einer CSV-Datei.
 
-Wähle Anki wegen seiner ausgereiften Vorlagen, Erweiterungen, zuverlässigen Paketmigration und breiten Client-Verfügbarkeit. Der Nachteil in diesem Vergleich liegt nicht im Funktionsumfang, sondern in der Aufteilung auf einen offenen Desktop-Kern, ein separates Android-Projekt, einen proprietären offiziellen iOS-Client und einen gehosteten Webdienst.
+Der [offizielle selbst gehostete Server](https://docs.ankiweb.net/sync-server.html) ist bewusst schlank gehalten. Er synchronisiert kompatible Anki-Clients, bietet aber weder AnkiWeb noch eine Lernoberfläche im Browser oder ein Kontoportal. Standardmäßig kommuniziert er über unverschlüsseltes HTTP. Die Anleitung empfiehlt deshalb, ihn nur im lokalen Netzwerk zu betreiben oder ein VPN beziehungsweise einen HTTPS-Reverse-Proxy vorzuschalten. Auch die Versionen von Client und Server müssen zueinander passen.
 
-## Flashcards: vollständiger Quellcode, Betriebsaufwand in AWS-Dimensionen
+Wähle Anki, wenn die originalgetreue Übernahme deiner Sammlung, Vorlagen, Add-ons oder breite Client-Unterstützung an erster Stelle stehen. Eine andere App lohnt sich vor allem dann, wenn eine konkrete Grenze – etwa eine selbst gehostete Browser-Oberfläche oder ein vollständig veröffentlichter mobiler Stack – schwerer wiegt.
 
-Flashcards setzt andere Prioritäten. Das MIT-lizenzierte Repository enthält die Browser-App, iOS- und Android-Clients, Backend, Offline-Synchronisierung und Infrastruktur. Betreiber erhalten damit Zugriff auf mehr Teile des Produkts als beim offiziellen Synchronisierungsserver von Anki. Dafür fällt auch erheblich mehr Betriebsarbeit an.
+## 2. Mnemosyne konzentriert sich auf lokales Lernen
 
-Die Web-App speichert lokale Daten in IndexedDB, iOS verwendet SQLite und Android Room auf Basis von SQLite. Die [Offline-first-Architektur](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/docs/architecture.md#offline-first-sync) schreibt zuerst lokal, legt Vorgänge in einer Outbox ab und überträgt sie, sobald ein Client wieder verbunden ist. Die Wiederholungen verwenden [FSRS](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/docs/fsrs-scheduling-logic.md). Gehostete und selbst gehostete Installationen bieten dasselbe Produktmodell mit Web-App, Synchronisierung und API.
+Mnemosyne fühlt sich wie ein Lernwerkzeug für den Desktop an, weil es genau das ist. Eine Wissensdatenbank oder Cloud-Plattform bringt es nicht mit. Dafür bekommst du eine lokale Datenbank, einen klassischen Spaced-Repetition-Ablauf, einen Android-Begleiter für Wiederholungen und einen Sync-Server, der auf einem Desktop- oder Headless-Rechner laufen kann.
 
-„Selbsthosting des vollständigen Stacks“ braucht eine ausführlichere Erklärung. Die unterstützte [Anleitung zum Selbsthosting in der Produktion](/docs/self-hosting/) verwendet AWS CDK und kein anbieterneutrales Docker-Paket für den Produktivbetrieb. Erforderlich sind AWS-Infrastruktur und Cognito, Cloudflare DNS, Resend für den E-Mail-Versand sowie eine Sentry-Konfiguration. Du bist für Secrets, Migrationen, Alarme, Sicherungen, Wiederherstellungstests und Upgrades verantwortlich. Die Docker-Compose-Konfiguration im Repository startet PostgreSQL und Migrationen für die lokale Entwicklung; sie ist ausdrücklich nicht für die Produktion vorgesehen. Die nativen Apps befinden sich zwar im Repository, private iOS- und Android-Builds müssen jedoch separat erstellt und verteilt werden. Lies die [Architekturübersicht](/docs/architecture/), bevor du von einer Ein-Kommando-Bereitstellung sprichst.
+Die neueste stabile Version ist weiterhin [2.11 vom November 2023](https://github.com/mnemosyne-proj/mnemosyne/releases/tag/2.11). Zwar wurde das Repository 2026 weiterentwickelt, doch diese Änderungen sind deshalb noch lange kein stabiles Installationspaket. Teste 2.11 auf den Betriebssystemen, die du in den nächsten Jahren nutzen möchtest.
 
-Die Migration ist für Nutzer die größere Einschränkung. Ein `flashcards.zip`-Paket überträgt Karten, Tags und zugehörige Medien zwischen Flashcards-Workspaces. Es überträgt weder den Wiederholungsverlauf noch den FSRS-Zustand, Workspace-Einstellungen, vollständige Stapelstrukturen oder Konten. Das ist ein Inhaltstransfer, keine vollständige Sicherung und keine verlustfreie Migration von einer gehosteten zu einer selbst gehosteten Installation.
+Auch bei der Lizenz reicht ein einzelnes Etikett nicht aus. Die [Lizenzübersicht im Stammverzeichnis](https://github.com/mnemosyne-proj/mnemosyne/blob/master/LICENSE) ordnet openSM2sync die LGPL v3 und dem übrigen Mnemosyne-Code andere Bedingungen zu. Für das [Hauptprogramm](https://github.com/mnemosyne-proj/mnemosyne/blob/master/mnemosyne/LICENSE) gilt die AGPL v3 mit einer zusätzlichen Bestimmung: Der Name Mnemosyne muss in abgeleiteten Werken deutlich sichtbar bleiben; die genaue Form soll mit den Verantwortlichen abgestimmt werden. Lies den Lizenztext, bevor du einen veränderten Build weitergibst.
 
-Einen direkten Importer für Anki-`.apkg` gibt es nicht. Beim unterstützten [TXT-/CSV-Migrationsablauf](/blog/migrate-from-anki-txt-export-open-source-flashcards/) erstellt eine KI Kartenentwürfe aus exportiertem Text, die der Nutzer anschließend prüfen muss. Vorlagen, Planungszustand und Stapelstruktur bleiben nicht erhalten, und selbst einfache Inhalte müssen kontrolliert werden. Der Ablauf eignet sich zum Neuaufbau überwiegend textbasierter Karten, nicht als Beleg für eine exakte Anki-Kompatibilität.
+Mit dem [Android-Client kannst du Karten offline wiederholen, aber nicht bearbeiten](https://mnemosyne-proj.org/help/android-client). Andere Geräte können über einen vom Desktop gestarteten Server im Browser lernen. Die offizielle Funktionsseite warnt allerdings, dass dieser Server keinerlei Sicherheitsfunktionen hat. Er eignet sich als praktische Oberfläche im lokalen Netzwerk, nicht als ausgereifte öffentliche Webanwendung.
 
-Wähle Flashcards, wenn du ausdrücklich einen modernen quelloffenen Web- und Native-Stack, FSRS, Offline-first-Clients und ein vom Betreiber kontrolliertes Backend suchst. Wähle Anki, wenn dir die originalgetreue Übernahme deiner Sammlung wichtiger ist, oder Mnemosyne, wenn eine klassische lokale App mit selbst betriebener Synchronisierung die gewünschte Kontrolle abdeckt.
+Der Import ist Mnemosynes stärkstes Argument für einen Wechsel von Anki. Die offizielle Funktionsseite dokumentiert einen [vollständigen Anki-Import einschließlich benutzerdefinierter Kartentypen und Lerndaten](https://mnemosyne-proj.org/features). Die [integrierte Synchronisierung](https://mnemosyne-proj.org/help/syncing) führt Karten und Lerndaten zusammen und kann einen Rechner nutzen, den du selbst kontrollierst.
 
-## Mnemosyne: fokussiertes Lernen am Desktop und selbst betriebene Synchronisierung
+Der normale Exportbefehl taugt nicht als Sicherung. Er ist zum Teilen ausgewählter Karten gedacht und lässt deine Lerndaten aus. Für einen vollständigen Umzug oder eine Wiederherstellung empfiehlt die [Anleitung für mehrere Computer](https://mnemosyne-proj.org/help/mnemosyne-and-multiple-computers) stattdessen, das gesamte Datenverzeichnis zu kopieren.
 
-Mnemosyne ist die schlankste Option in diesem Vergleich. Es handelt sich um eine klassische Desktop-App für Spaced Repetition mit zuverlässiger lokaler Nutzung, einem Android-Client zum Wiederholen, Anki-Migration und einem Synchronisierungsprotokoll, das du über eine Desktop- oder Headless-Instanz selbst hosten kannst.
+Mnemosyne ist hier die stärkste fokussierte Open-Source-Alternative zu Anki. Die Kehrseite sind seltene stabile Releases, eingeschränkte Bearbeitung auf Mobilgeräten und eine Browser-Oberfläche, die im Netzwerk sorgfältig abgesichert werden muss.
 
-Die Lizenzierung muss genau beschrieben werden. Laut der [Lizenzdatei im Stammverzeichnis](https://raw.githubusercontent.com/mnemosyne-proj/mnemosyne/master/LICENSE) gelten für verschiedene Komponenten unterschiedliche Lizenzen. Die [Lizenz des Mnemosyne-Kerns](https://raw.githubusercontent.com/mnemosyne-proj/mnemosyne/master/mnemosyne/LICENSE) ist AGPL v3 mit einer zusätzlichen Klausel: Der Name Mnemosyne muss in abgeleiteten Werken deutlich sichtbar sein, wobei die genaue Form mit den Verantwortlichen besprochen werden soll. Die untergeordnete [Lizenz von openSM2sync](https://raw.githubusercontent.com/mnemosyne-proj/mnemosyne/master/openSM2sync/LICENSE) ist LGPL v3. Ein einzelner Link kann beide Komponenten nicht korrekt beschreiben.
+## 3. SiYuan passt, wenn deine Notizen das eigentliche System sind
 
-Die aktuelle Download-Seite führt Version 2.11 für Windows, macOS und Linux sowie einen Android-Client für Offline-Wiederholungen und die Synchronisierung mit dem Desktop auf. Auf anderen mobilen Plattformen ist die dokumentierte Option das Wiederholen im Browser über einen Webserver, der auf deinem Desktop läuft. Der [Android-Client unterstützt das Bearbeiten von Karten nicht](https://mnemosyne-proj.org/help/android-client) und ist daher ein Begleiter zum Wiederholen, kein vollwertiger mobiler Editor.
+SiYuan ist eine datenschutzorientierte Wissensmanagement-App, in der Karteikarten Teil desselben Block- und Dokumentmodells sind. Das ist praktisch, wenn dein Lernmaterial direkt aus deinen Notizen entsteht. Wenn du nur eine Warteschlange mit Karten brauchst, ist SiYuan dagegen schnell überdimensioniert.
 
-Bei der Wiederholung bewertest du deine Erinnerung auf einer Skala von 0 bis 5, damit Mnemosyne die künftigen Intervalle anpassen kann. Die Plugin-Architektur erlaubt außerdem, zentrale Teile wie den Scheduler oder die Datenbank zu ersetzen. Die [integrierte Synchronisierung](https://mnemosyne-proj.org/help/syncing) führt Karten und Lerndaten von mehreren Geräten zusammen; ein Desktop- oder Headless-Prozess kann dabei als Server dienen. Der Desktop-Webserver kann Wiederholungen im Browser bereitstellen. Die offizielle Funktionsseite warnt jedoch, dass dieser Browser-Server keinerlei Sicherheitsfunktionen bietet. Er ist kein ausgereifter Webdienst für mehrere Nutzer.
+Das [AGPL-3.0-Repository](https://github.com/siyuan-note/siyuan) vereint Benutzeroberfläche, Kernel, mobile Apps, Datenschicht und FSRS-Komponente. Die hier geprüfte stabile Version ist [v3.8.2](https://github.com/siyuan-note/siyuan/releases/tag/v3.8.2). Desktop- und Mobil-Clients speichern den Workspace lokal und funktionieren auch offline.
 
-Der Import ist einer der besten Gründe für einen Wechsel zu Mnemosyne: Das Projekt dokumentiert den vollständigen Anki-Import mit benutzerdefinierten Kartentypen und Lerndaten sowie Klartext-, SuperMemo- und CueCard-Formate. Beim Export ist mehr Vorsicht nötig. Der `.cards`-Ablauf dient dem [Teilen ausgewählter Karten](https://mnemosyne-proj.org/help/sharing-cards), nicht dem Erhalt des vollständigen Lernstands. Für einen vollständigen Umzug oder eine Sicherung empfiehlt die [Anleitung für mehrere Computer](https://mnemosyne-proj.org/help/mnemosyne-and-multiple-computers), stattdessen das Datenverzeichnis zu kopieren.
+Synchronisierung gehört nicht zur kostenlosen Variante mit lokaler Speicherung. Laut [offizieller Preisseite](https://b3log.org/siyuan/en/pricing.html) umfasst das Abonnement die offizielle Ende-zu-Ende-verschlüsselte Synchronisierung; kostenpflichtige Pro-Funktionen ergänzen Integrationen für deinen eigenen S3- oder WebDAV-Speicher. Das Projekt warnt außerdem davor, einen aktiven Workspace in einem gewöhnlichen Dateisynchronisierungsordner abzulegen, weil gleichzeitige Änderungen Daten beschädigen oder überschreiben können.
 
-Wähle Mnemosyne, wenn du deine Daten lokal auf dem Desktop kontrollieren und die Synchronisierung selbst hosten möchtest, ohne einen Cloud-Anwendungsstack betreiben zu müssen. Prüfe die Einschränkung beim Bearbeiten unter Android und die fehlende Absicherung des Browser-Servers, bevor du dich außerhalb deines Desktops darauf verlässt.
+Docker stellt eine echte Browser-Anwendung bereit, macht SiYuan aber nicht zum Sync-Server für die installierten Apps. Laut der [Docker-Dokumentation für v3.8.2](https://github.com/siyuan-note/siyuan/blob/v3.8.2/README.md#docker-hosting) können sich Desktop- und Mobil-Clients nicht damit verbinden. Im Docker-Betrieb fehlen außerdem der Markdown-Import und der Export als PDF, HTML und Word. In der umfangreicheren nativen Anwendung gibt es diese Befehle. Ihre allgemeine Funktionsliste unverändert auf eine Docker-Bereitstellung zu übertragen, wäre daher irreführend.
 
-## SiYuan: eine selbst gehostete Wissensdatenbank, die auch Karteikarten bietet
+Einen offiziellen APKG-Importer habe ich nicht gefunden. SiYuan kann Markdown und eigene Datenformate übertragen, doch eine Anki-Sammlung musst du gezielt neu aufbauen.
 
-SiYuan ist der Ausreißer in der Open-Source-Gruppe. Im Kern ist es ein auf Datenschutz ausgerichtetes Wissensmanagementsystem mit Blockreferenzen, Dokumenten, Datenbanken und integrierten FSRS-Karteikarten. Das ist attraktiv, wenn aus deinen Notizen die Karten entstehen. Wenn du nur eine Wiederholungswarteschlange brauchst, kann sich SiYuan dagegen nach ziemlich viel Software anfühlen.
+Wähle SiYuan, wenn die Wissensdatenbank das eigentliche Produkt ist und die Karteikarten darin leben sollen. Suchst du einen direkten Ersatz für Anki, sind die Grenzen der Migration bei Mnemosyne und Anki klarer dokumentiert.
 
-Das [offizielle Repository](https://github.com/siyuan-note/siyuan) steht unter AGPL-3.0 und verlinkt die quelloffenen Projekte für Benutzeroberfläche, Kernel, Android, iOS und HarmonyOS. Desktop- und Mobil-Apps speichern Daten lokal und funktionieren weiterhin offline. Die nativen Apps können SiYuans Ende-zu-Ende-verschlüsselte Cloud-Synchronisierung verwenden; zahlende Mitglieder können unterstützten Cloud-Speicher von Drittanbietern konfigurieren. Dieser native Synchronisierungsweg ist vom Docker-Hosting getrennt.
+## 4. Flashcards legt mehr vom Stack offen – dafür musst du ihn auch betreiben
 
-Docker führt eine echte, im Browser zugängliche SiYuan-Anwendung aus. Das Repository nennt jedoch drei wichtige Einschränkungen: Desktop- und Mobil-Apps können sich nicht damit verbinden, der Markdown-Import ist nicht verfügbar und der Export als PDF, HTML oder Word fehlt. Der Docker-Modus ist also ausschließlich für den Browser gedacht und kein privater Synchronisierungsserver für native Clients.
+Flashcards deckt in diesem Vergleich den größten Teil des Produkt-Stacks mit offenem Quellcode ab. Das MIT-Monorepo enthält Web-App, iOS- und Android-Clients, Backend, Authentifizierungsdienst, Synchronisierung, Admin-Anwendung, Datenbankmigrationen und AWS-Infrastruktur. Die hier verwendete stabile Version ist [v1.23.0](https://github.com/kirill-markin/flashcards-open-source-app/releases/tag/v1.23.0). Spätere Änderungen im Standard-Branch zählen nicht als veröffentlichtes Verhalten.
 
-Die allgemeine Anwendung bietet mehr Möglichkeiten für Import und Export. Importiert werden können unter anderem Markdown und SiYuan-Datenpakete; exportiert werden Markdown samt Assets, PDF, Word, HTML und Datenformate. Diese allgemeinen Funktionen dürfen nicht ohne die genannten Einschränkungen in die Docker-Spalte übernommen werden. In der offiziellen Dokumentation habe ich keinen direkten Importer für Anki-`.apkg` gefunden.
+Die [Architektur](/docs/architecture/) folgt dem Offline-first-Prinzip, doch „offline“ bedeutet auf jedem Client etwas anderes. Die Web-App nutzt IndexedDB als lokale Datenbasis. iOS verwendet SQLite, Android Room auf Basis von SQLite. Änderungen werden zuerst lokal geschrieben und vor der Synchronisierung in eine Outbox eingereiht. Dieses Design verkraftet Verbindungsabbrüche; es macht den Browser-Speicher weder dauerhaft noch erspart es dir, einen Kaltstart auf jedem Gerät zu testen.
 
-Wähle SiYuan, wenn dein Hauptziel eine lokale oder selbst gehostete Wissensdatenbank ist und Karteikarten darin leben sollen. Für eine gezielte Anki-Migration bieten Anki oder Mnemosyne ein direkteres Kartenmodell und eine klarere Übertragung der Lerndaten.
+Das ZIP-Paket von Flashcards dient der Übertragung von Inhalten, nicht als Kontosicherung. In v1.23.0 enthält das [Paketschema](https://github.com/kirill-markin/flashcards-open-source-app/blob/v1.23.0/apps/backend/src/workspacePackages/types.ts) Vorder- und Rückseiteninhalte, Tags, Kartentyp, Quellmetadaten und Paketmetadaten; referenzierte Medien werden separat gebündelt. Deckstruktur, Wiederholungsverlauf, FSRS-Zustand, Workspace-Einstellungen und Konten fehlen.
 
-## Mochi: hervorragende Offline-Funktionen machen den Kern nicht quelloffen
+In v1.23.0 gibt es keinen APKG-Importer. Der dokumentierte [Ablauf für die Migration aus Anki per TXT/CSV](/blog/migrate-from-anki-txt-export-open-source-flashcards/) baut die Karten aus exportiertem Text neu auf und erfordert eine manuelle Prüfung. Vorlagen, Planungszustand, Deckstruktur und gebündelte Medien bleiben dabei nicht automatisch erhalten. Für ein einfaches Textdeck ist das vertretbar, für eine stark angepasste Sammlung jedoch eine schlechte Wahl.
 
-Mochi gehört in diesen Vergleich, obwohl es die Anforderungen für die Open-Source-Auswahl nicht erfüllt. Es ist eine angenehm schlichte, Markdown-orientierte App für Karteikarten und Notizen unter macOS, Windows, Linux, iOS, Android und im Web. Die Desktop- und Mobil-Apps können [vollständig offline und ohne Konto](https://mochi.cards/docs/getting-started/download-and-install/) laufen. Auch die Webversion nutzt lokalen Browser-Speicher, den der Browser laut Dokumentation unerwartet löschen kann.
+Auch die [Anleitung zum Selbsthosting](/docs/self-hosting/) ist eindeutig. In der Produktivumgebung kommt ein AWS-CDK-Stack mit RDS, Cognito, API Gateway und Lambda, S3 und CloudFront, Secrets, Alarmen und Sicherungen zum Einsatz. Cloudflare DNS, Resend für E-Mails und die Sentry-Konfiguration liegen außerhalb von AWS. Docker Compose startet nur die lokale Entwicklungsumgebung; es ist nicht das unterstützte Produktivpaket. Betreiber, die private iOS- oder Android-Binärdateien möchten, müssen sie separat erstellen und verteilen.
 
-Der Scheduler bietet zwei Antworten: Remembered und Forgot. Die Dokumentation beschreibt adaptive Intervalle, erneutes Lernen und eine [voreingestellte Ziel-Erinnerungsrate von 90 %](https://mochi.cards/docs/reviewing/due-today/), veröffentlicht aber nicht die Formel. Die geräteübergreifende Synchronisierung ist eine kostenpflichtige gehostete Funktion.
+Wähle Flashcards, wenn dir der vollständige Quellcode für Web, native Apps und Backend diesen Betriebsaufwand wert ist. Wähle Anki oder Mnemosyne, wenn die originalgetreue Übernahme einer bestehenden Sammlung die schwierigere Anforderung ist.
 
-Portabilität ist eine Stärke. Mochi [importiert Anki-`.apkg`-Dateien einschließlich Wiederholungsverlauf](https://mochi.cards/docs/import-and-export/importing/), entfernt dabei aber CSS und JavaScript und wandelt HTML in Markdown um. Benutzerdefinierte Darstellungen werden daher nicht unverändert übernommen. Außerdem importiert Mochi Markdown, CSV und das eigene `.mochi`-Format.
+## 5. Recall ist modern – aber der Importer verdient einen genauen Blick
 
-Das [native `.mochi`-Archiv](https://mochi.cards/docs/import-and-export/mochi-format-reference/) kann Stapel, Karten, Anhänge, Tags, Vorlagen und Wiederholungen enthalten. [Markdown- und CSV-Exporte](https://mochi.cards/docs/import-and-export/exporting/) lassen sich in anderen Werkzeugen leichter prüfen, verlieren aber dokumentierte Metadaten wie Wiederholungsverlauf, Reihenfolge oder Vorlagen. Die aktuelle Dokumentation stützt daher die frühere Behauptung nicht, Mochi-Exporte könnten niemals Wiederholungsverläufe enthalten; das native Format kann sie übertragen.
+Recall ist die jüngste der sechs Hauptempfehlungen. Die App hat es in die Auswahl geschafft, weil [v1.3.0](https://github.com/Madlezz/Recall/releases/tag/v1.3.0) versionierte Desktop-Builds, eine installierbare PWA, klar dokumentierte lokale Speicherung, FSRS, Datenexporte und ein dokumentiertes Design für selbst gehostete Synchronisierung bietet.
 
-Mochis [Open-Source-Repositorys](https://github.com/mochi-cards/open-source) enthalten Integrationen, Plugins und verwandte Werkzeuge, nicht die Kernanwendung oder einen bereitstellbaren Synchronisierungsdienst. Einen unterstützten Weg zum Selbsthosting gibt es nicht. Wähle Mochi, wenn Offline-Nutzung, Markdown und die `.apkg`-Migration wichtiger sind als der Zugang zum Quellcode.
+Die MIT-lizenzierte Desktop-App verwendet SQLite, die PWA IndexedDB. Für beide brauchst du kein Konto; laut Projekt ist die Telemetrie standardmäßig deaktiviert. Desktop-Versionen gibt es für Windows, macOS und Linux.
 
-## Welche Spaced-Repetition-App passt zu deiner wichtigsten Anforderung?
+Der APKG-Importer ist nützlich, doch die Formulierung „review history“ in der README verspricht für die getaggte Implementierung zu viel. Der [Importer-Quellcode von v1.3.0](https://github.com/Madlezz/Recall/blob/v1.3.0/src-tauri/src/anki_import.rs) liest Ankis Wiederholungsprotokoll nicht. Er übernimmt den aktuellen Kartenstatus, das Intervall, die Anzahl der Wiederholungen und Fehlversuche sowie FSRS-Stabilität und -Schwierigkeit, sofern Anki diese Werte gespeichert hat. Bei älteren Karten ohne diese FSRS-Felder schätzt Recall sie anhand von SM-2-Daten.
 
-Es gibt keinen automatischen Sieger. Eine sinnvolle Entscheidung beginnt mit dem Punkt, bei dem du keine Kompromisse eingehen willst.
+Auch die Umwandlung der Inhalte hat klare Grenzen. Der Importer verwendet die ersten beiden Notizfelder als Vorder- und Rückseite, anstatt Anki-Notiztypen und -Vorlagen nachzubilden. Decknamen und Tags bleiben erhalten. Gängige Bildformate werden extrahiert und ihre Verweise angepasst; Audio und andere Medien überspringt der Importer. Da er als Tauri-Befehl implementiert ist, funktioniert die direkte APKG-Migration nur am Desktop und nicht in der Browser-PWA.
 
-- **Wähle Anki** für die ausgereiftesten Vorlagen, Erweiterungen, Paketmigration und das breiteste Client-Ökosystem. Das offizielle Selbsthosting deckt die Synchronisierung ab, nicht AnkiWeb.
-- **Wähle Flashcards** für ein einziges MIT-lizenziertes Repository mit Web-App, nativen Clients und Backend sowie eine unterstützte vollständige Produktionsbereitstellung. Akzeptiere dafür den auf AWS ausgerichteten Stack, die Abhängigkeiten von externen Diensten, den Betriebsaufwand und die verlustbehaftete Anki-Migration.
-- **Wähle Mnemosyne** für fokussiertes lokales Lernen am Desktop, einen starken Anki-Import und einen selbst betriebenen Synchronisierungsserver. Unter Android lassen sich keine Karten bearbeiten, und die Wiederholung im Browser ist an deine laufende Instanz gebunden.
-- **Wähle SiYuan**, wenn Notizen und Dokumente dein Hauptsystem bilden und FSRS-Karteikarten darin leben sollen. Docker bietet eine Browser-App, keine Synchronisierung für native Clients.
-- **Wähle Mochi**, wenn eine proprietäre, aber vollständig offline nutzbare Markdown-App mit direktem `.apkg`-Import für dich in Ordnung ist. Der Kern ist weder quelloffen noch selbst hostbar.
+Das ist deutlich besser als ein Neuaufbau aus reinem Text, aber noch keine originalgetreue Übernahme der Sammlung. Teste Lückentexte, zusammengehörige Karten, zusätzliche Felder, HTML/CSS, Bilder, Audio, Fälligkeitstermine und doppelte Notizen, bevor du mit dem Importer eine große Sammlung umziehst.
 
-Wenn Anki bereits gut funktioniert und dich keine dieser Einschränkungen stört, ist es vernünftig, dabei zu bleiben. Der Wechsel einer Spaced-Repetition-App verursacht echte Arbeit, besonders wenn Vorlagen, Medien und jahrelanger Planungsverlauf betroffen sind. Weitere Produkte außerhalb der Open-Source-Anforderung findest du im [breiteren Vergleich der Anki-Alternativen](/blog/best-anki-alternatives/).
+Recall bietet zwei Wege zur Synchronisierung. Die Desktop-App kann einen Snapshot in einen Ordner schreiben, den Dropbox, Drive oder ein anderer Dateisynchronisierungsdienst verwaltet. Das optionale Relay verwendet einen Cloudflare Worker und einen R2-Bucket. Laut dem getaggten [Sync-Design](https://github.com/Madlezz/Recall/blob/v1.3.0/docs/SYNC.md) verschlüsseln die Clients Snapshots vor dem Upload mit AES-GCM; das Relay sieht den Chiffretext, aber weder Kartendaten noch Schlüssel. Aktualisierungen nutzen optimistische Nebenläufigkeitskontrolle und werden bei einem Konflikt einmal wiederholt; dennoch führt Recall weiterhin vollständige Snapshots statt einzelner Felder zusammen. Ein von den Projektverantwortlichen finanziertes öffentliches Relay gibt es nicht – du stellst es selbst bereit und trägst seine URL ein.
 
-## Checkliste für die Migration der gesamten Sammlung
+Exporte als JSON und Recall-Archiv bieten einen Ausstiegsweg. Stelle einen solchen Export in einem sauberen Profil wieder her, bevor du ihn als Sicherung bezeichnest.
 
-Teste zuerst mit einem repräsentativen Stapel, bevor du die vollständige Sammlung anfasst. Nimm auch die schwierigen Karten auf: benutzerdefinierte Felder, Lückentexte, Bilder, Audio, verschachtelte Stapel, Tags und genug Wiederholungsverlauf, um Unterschiede zwischen den Schedulern sichtbar zu machen.
+Wähle Recall, wenn du eine moderne Local-first-Nutzung am Desktop und in einer PWA suchst und ein junges Projekt samt einem Importer akzeptierst, der eine brauchbare Momentaufnahme statt des gesamten Anki-Systems bewahrt.
 
-1. Exportiere eine vollständige Sicherung aus der aktuellen App und lasse diese Datei unverändert.
-2. Halte die Anzahl der Karten, Feldnamen, Tags, Stapelstruktur, Medienanzahl und eine Auswahl von Fälligkeitsterminen fest.
-3. Prüfe, ob das Ziel das native Format oder nur Text, CSV beziehungsweise Markdown lesen kann. Nur die Wörter zu importieren ist nicht dasselbe wie die Sammlung zu erhalten.
-4. Kontrolliere nach dem Testimport Formatierung, Lückentexte, Vorlagen, Medien, Tags und Wiederholungsverlauf jeweils separat.
-5. Wiederhole Karten offline auf jedem Gerät, das du verwenden möchtest. Prüfe, welche Änderungen lokal in die Warteschlange kommen und welche weiterhin einen Server erfordern.
-6. Erzeuge absichtlich widersprüchliche Teständerungen und prüfe, wie die Synchronisierung sie auflöst, bevor du ihr echtes Material anvertraust.
-7. Führe bei selbst gehosteten Karteikarten ein Upgrade, eine Sicherung und eine tatsächliche Wiederherstellung durch. Ein laufender Container ist noch kein Wiederherstellungsplan.
-8. Lerne mehrere Tage in beiden Apps, bevor du die alte Installation löschst, einfrierst oder zurücksetzt.
+## 6. Essentialist macht das Deck gut lesbar, aber nicht den gesamten Lernstand
 
-Exportformate verdienen eine eigene Prüfung. Anki-Pakete können deutlich mehr als Text erhalten. Mnemosynes Freigabeexport lässt Lerndaten aus. Flashcards-Pakete übertragen Inhalte statt des vollständigen Lernstands. Mochis natives Archiv enthält mehr Metadaten als seine Markdown- und CSV-Exporte. Bei einer SiYuan-Bereitstellung mit Docker fehlen Import- und Exportbefehle, die in der allgemeinen App verfügbar sind.
+Essentialist ist die am engsten zugeschnittene App in diesem Vergleich. Jedes Deck ist eine Markdown-Datei, die du in einem Texteditor öffnen, in einer Versionsverwaltung speichern oder mit gewöhnlichen Dateiwerkzeugen kopieren kannst. Die Anwendung stellt bewusst keine Netzwerkanfragen.
 
-## Warum Scholarsome und OpenCards nicht auf der Auswahlliste stehen
+Die neueste stabile Version ist [v0.3.22](https://github.com/essentialist-app/essentialist/releases/tag/v0.3.22). Sie enthält Builds für Android, macOS und Linux; Windows-Nutzer erstellen die App aus dem Quellcode. Die [README zu dieser Version](https://github.com/essentialist-app/essentialist/blob/v0.3.22/README.md) nennt SM-2 als Scheduler.
 
-[Scholarsome](https://scholarsome.com/) ist quelloffen und selbst hostbar. Auf der offiziellen Startseite steht „Spaced repetition system implementation“ jedoch weiterhin unter den noch geplanten Funktionen. Damit scheidet Scholarsome aus einem Vergleich aus, bei dem regelmäßige, zeitlich geplante Wiederholungen im Mittelpunkt stehen, auch wenn die anderen Lernmodi nützlich sind.
+Die [README des Standard-Branches](https://github.com/essentialist-app/essentialist/blob/main/README.md) nennt inzwischen FSRS, und 2026 wurde der Quellcode im Repository weiterentwickelt. Das zeigt die Richtung des Projekts, macht die Binärdatei von 2025 aber noch nicht zu einer FSRS-Version.
 
-[OpenCards](https://github.com/holgerbrandl/opencards) ist eine Desktop-Karteikarten-App, die auf PowerPoint- und Markdown-Dateien aufbaut. Ich habe sie nicht aufgenommen, weil die [neueste gekennzeichnete Version v2.5.1 von Januar 2017 stammt](https://github.com/holgerbrandl/opencards/releases/tag/v2.5.1) und der [letzte Commit im Repository von Juni 2018](https://github.com/holgerbrandl/opencards/commits/master/). Das sind konkrete Fakten zum Projekt und keine Behauptung, die Software habe keinen Wert. Für eine neue Einrichtung auf mehreren Geräten im Jahr 2026 lässt sie sich damit jedoch nur schwer empfehlen.
+Markdown deckt weniger ab, als es zunächst scheint. Der Kartentext liegt in der sichtbaren Datei, der Lernfortschritt dagegen in einer versteckten Datenbank namens `.<deck file>.db`. Kopierst du `sample.md` ohne `.sample.md.db`, sicherst du zwar Fragen und Antworten, verlierst aber den Lernstatus.
 
-## Die ehrliche Auswahlliste
+Eine integrierte Gerätesynchronisierung oder einen Server gibt es nicht. Du kannst die Dateien in einen eigenen synchronisierten Ordner legen, bist dann aber selbst für Konflikte und Wiederherstellung verantwortlich.
 
-Anki bietet das umfangreichste und ausgereifteste Karteikarten-Ökosystem. „Open-Source-Anki“ ergibt allerdings ein gemischtes Bild, sobald Android, iOS, gehosteter Webzugriff und selbst gehostete Synchronisierung getrennt betrachtet werden. Flashcards legt hier den größten Teil des vollständigen Produkt-Stacks offen, verlangt dafür aber den höchsten Betriebsaufwand in der Produktion und bietet die schwächste verlustfreie Migration. Mnemosyne konzentriert sich auf lokales Lernen und selbst betriebene Synchronisierung. SiYuan stellt eine echte, über Docker gehostete Browser-App rund um ein erheblich größeres Notizsystem bereit. Mochi zeigt, dass hervorragende Offline-Funktionen und Portabilität keinen quelloffenen Kern voraussetzen.
+Wähle Essentialist, wenn lesbares Markdown und ein Workflow ganz ohne Netzwerk dein Ziel sind. Ein nahtloses System für mehrere Geräte ist es nicht, und eine einzelne sichtbare Datei ergibt noch keine vollständige Sicherung.
 
-Die beste Open-Source-Karteikarten-App ist diejenige, bei der der Umfang deiner Kontrolle zu deinen tatsächlichen Anforderungen passt. Prüfe die Lizenz, teste den schwierigsten Migrationsfall und entscheide, ob du lokale Daten, selbst gehostete Synchronisierung oder eine vollständige Bereitstellung für den Browser brauchst. Diese Optionen lösen unterschiedliche Probleme.
+## Vier aktive Projekte, die du im Blick behalten solltest
+
+An diesen Projekten wurde 2026 tatsächlich gearbeitet. Sie bleiben trotzdem außerhalb der sechs Hauptempfehlungen, denn interessanter Quellcode allein reicht für eine Empfehlung nicht aus.
+
+| Projekt | Was bereits konkret ist | Was noch gegen die Hauptliste spricht |
+| --- | --- | --- |
+| [HSK Nest](https://github.com/s-mberli/hsknest) | AGPL-Quellcode, FSRS-/SM-2-/Leitner-Scheduler, Docker-Bereitstellung, ein verwalteter Dienst, CSV-Import und Datenexport | Im Juli 2026 erstellt; keine versionierte App-Veröffentlichung. Das GitHub-Release enthält ein Audiopaket und markiert keinen Meilenstein der App |
+| [Openlet](https://github.com/ChloeVPin/openlet) | MIT-Web-App mit FSRS, CSV-Import, Image Occlusion und einer dokumentierten Supabase-/Vercel-Architektur | Kein getaggtes Release; die offizielle Dokumentation grenzt Offline-Betrieb, Export und Wiederherstellung beim Selbsthosting noch nicht vollständig ab |
+| [Prep](https://github.com/Zamua/prep-app) | MIT-Quellcode, FSRS, gehostete Nutzung und eine dokumentierte Bereitstellung auf der selbst hostbaren celld-Laufzeit | Kein getaggtes Release; beim Selbsthosting betreibst du außerdem celld und Objektspeicher, statt eine eigenständige Karteikarten-Anwendung bereitzustellen |
+| [Kado](https://github.com/LisandroDiMeo/kado-app) | Mobile GPLv3-Kotlin-App, FSRS/SM-2, eine Android-Version und APKG-Import mit Vorlagen und Medien | 2026 erstellt; für iOS musst du selbst aus dem Quellcode bauen, und die offizielle Dokumentation beschreibt keine allgemeine Synchronisierung zwischen Smartphones |
+
+Einige bekannte Namen erfüllen die Kriterien aus einfacheren Gründen nicht. Mochis [Open-Source-Repository](https://github.com/mochi-cards/open-source) enthält Integrationen, nicht die Kernanwendung. [Scholarsome](https://github.com/hwgilbert16/scholarsome#features-coming-soon) ist Open Source und selbst hostbar, doch in der offiziellen README steht Spaced Repetition weiterhin unter „Features coming soon“. [OpenCards](https://github.com/holgerbrandl/opencards) hat seit [v2.5.1 im Januar 2017](https://github.com/holgerbrandl/opencards/releases/tag/v2.5.1) keine neue Version veröffentlicht; seit 2018 gab es im Repository auch keine Codeänderung mehr.
+
+Wenn dir der Zugriff auf den Quellcode nicht zwingend wichtig ist, findest du im [breiteren Vergleich der Anki-Alternativen](/blog/best-anki-alternatives/) Produkte für eine andere Fragestellung.
+
+## Teste eine Migration in fünf getrennten Schichten
+
+Die Angabe „importiert Anki“ sagt für sich genommen fast nichts aus. Eine Migration kann in einer Schicht gelingen und in vier anderen scheitern.
+
+| Schicht | Was du vergleichen solltest | Das irreführende Erfolgssignal |
+| --- | --- | --- |
+| Karteninhalt | Jedes Feld, jede Lückentext-Markierung, jeder Tag, jedes Sonderzeichen und jede doppelte Notiz | Die Gesamtzahl der Karten stimmt ungefähr |
+| Struktur | Notiztypen, Vorlagen, erzeugte zusammengehörige Karten und verschachtelte Decks | Vorder- und Rückseitentext sind irgendwo aufgetaucht |
+| Medien | Bilder und Audio wurden kopiert, lassen sich lokal auflösen und offline abspielen | Der Importer hat die Dateinamen erkannt |
+| Lernstatus | Wiederholungsprotokoll, Status, Fälligkeitstermin, Intervall, Fehlversuche und Scheduler-Parameter | Die importierten Karten sind vorhanden, starten aber unbemerkt wieder als neu |
+| Ausstieg und Wiederherstellung | Ein dokumentierter Export oder eine Sicherung kann dasselbe System an anderer Stelle neu aufbauen | Ein lesbarer Textexport gilt als vollständige Sicherung |
+
+Baue ein absichtlich schwieriges Testdeck, bevor du die echte Sammlung verschiebst. Nimm zusätzliche Felder, Lückentexte, Vorwärts- und Rückwärtsvorlagen, verschachtelte Decks, Tags, Bilder, Audio und genug Wiederholungsverlauf auf, um zu erkennen, ob das Zielsystem ihn übernimmt.
+
+Bewahre die unveränderte Sicherung des Quellsystems auf. Vergleiche nach dem Import die Anzahl von Notizen, Karten und Medien getrennt. Prüfe Fälligkeitstermine, anstatt einer Meldung wie „Lernplanung importiert“ zu vertrauen. Führe auf jedem Gerät, das du nutzen möchtest, Offline-Wiederholungen durch. Erzeuge anschließend auf zwei Geräten widersprüchliche Teständerungen, die du notfalls verwerfen kannst, und beobachte, wie die Synchronisierung damit umgeht.
+
+Nutze beide Systeme einige Tage lang parallel. Die alte Sammlung zu löschen ist der letzte Schritt – und kein Beweis dafür, dass das neue System funktioniert.
+
+## Selbsthosting ist erst mit getesteter Wiederherstellung vollständig
+
+Bei den Produkten oben bezeichnet „selbst gehostet“ sehr unterschiedliche Systeme:
+
+- Bei Anki und Mnemosyne betreibst du **Synchronisierungsdienste**; die Lernoberfläche bleibt in den installierten Clients.
+- SiYuan Docker stellt eine **Browser-Anwendung** bereit, die native Clients nicht als Sync-Server nutzen können.
+- Bei Recall betreibst du ein **verschlüsseltes Snapshot-Relay**, nicht die PWA selbst.
+- Flashcards stellt einen **vollständigen Web- und Backend-Stack** bereit; die nativen Apps bleiben separate Builds.
+- Essentialist hat **keinen Server**; der von dir kontrollierte Bereich beschränkt sich auf die lokalen Dateien.
+
+Sobald dieser Umfang klar ist, solltest du den Teil testen, den Betreiber gern aufschieben:
+
+1. Erstelle Karten, hänge Medien an, schließe Wiederholungen ab und synchronisiere mit zwei Clients.
+2. Sichere jede dokumentierte Datenbank, jeden Objektspeicher-Bucket, jede lokale Datei sowie jedes Secret und jeden Konfigurationswert.
+3. Stelle alles in einem neuen, leeren Konto, auf einem leeren Rechner oder in einer isolierten Bereitstellung wieder her.
+4. Vergleiche Kartenanzahl, Medien, Wiederholungsverlauf, Fälligkeitsstatus, Anmeldung und Client-Synchronisierung.
+5. Aktualisiere die wiederhergestellte Kopie und absolviere einen weiteren Wiederholungszyklus.
+
+Wenn der Neuaufbau weiterhin vom alten Rechner abhängt, betreibst du zwar einen laufenden Dienst, hast aber keine geprüfte Sicherung.
+
+## Häufig gestellte Fragen
+
+### Was ist 2026 die beste Open-Source-Karteikarten-App?
+
+Anki ist für die meisten Lernenden die beste Standardwahl. Es verbindet ein ausgereiftes Sammlungsmodell mit FSRS, breiter Client-Unterstützung und den umfangreichsten eigenen Formaten für Sicherung und Export. Allerdings umfasst das Open-Source-Repository der Desktop-App die offiziellen iOS- und Web-Angebote nicht, und der selbst gehostete Server ermöglicht Synchronisierung statt Lernen im Browser.
+
+### Was ist die beste Open-Source-Alternative zu Anki?
+
+Mnemosyne ist die etablierteste fokussierte Alternative und dokumentiert offiziell den Import benutzerdefinierter Anki-Kartentypen und Lerndaten. Recall wirkt moderner und importiert APKG-Dateien direkt am Desktop. Der Import wandelt jedoch nur die ersten beiden Notizfelder um, bewahrt lediglich eine Momentaufnahme der Lernplanung, importiert Bilder statt Audio und übernimmt nicht das vollständige Wiederholungsprotokoll.
+
+### Kann ich Anki selbst hosten?
+
+Ja, du kannst Ankis offiziellen Sync-Server für kompatible Clients betreiben. Nein, er ist kein selbst gehosteter Ersatz für AnkiWeb: Eine Browser-Oberfläche zum Lernen gibt es nicht.
+
+### Bedeutet Open Source automatisch Offline-Betrieb?
+
+Nein. Open Source beschreibt die Lizenzierung und den Zugriff auf den Quellcode. Ob eine App offline funktioniert, hängt davon ab, wo der Client seine Daten speichert und welche Aktionen einen Dienst voraussetzen. Auch das Gegenteil ist möglich: Eine App kann Daten lokal speichern, ohne den Quellcode ihres Kerns zu veröffentlichen.
+
+### Garantiert Selbsthosting Datenportabilität?
+
+Nein. Selbsthosting bestimmt lediglich, wo ein Dienst läuft. Datenportabilität hängt von Exporten, vollständigen Sicherungen und einer tatsächlich getesteten Wiederherstellung ab. Eine Datenbank auf deinem eigenen Server kann weiterhin schwer zu migrieren sein, und einem lesbaren Markdown-Deck kann trotzdem der separat gespeicherte Lernstatus fehlen.
+
+## Meine Empfehlung
+
+Bleib bei **Anki** oder entscheide dich dafür, solange keine seiner Grenzen ein echtes Problem für dich darstellt. Nimm **Mnemosyne** für fokussiertes lokales Lernen am Desktop und einen etablierten Anki-Import. Nutze **SiYuan**, wenn Karteikarten in eine größere Wissensdatenbank gehören. Ziehe **Flashcards** in Betracht, wenn dir der vollständige Quellcode für Web, native Apps und Backend den Betrieb eines AWS-Produktiv-Stacks wert ist. Wähle **Recall** für einen modernen Local-first-Client, nachdem du die Grenzen seiner Konvertierung getestet hast. Entscheide dich für **Essentialist**, wenn einfaches Markdown und keinerlei Netzwerkzugriff wichtiger sind als Synchronisierung.
+
+Die beste Open-Source-Karteikarten-App ist nicht das Repository mit der längsten Funktionsliste. Es ist die App, deren Grenzen bei Quellcode, Offline-Daten, Migration, Synchronisierung, Hosting und Wiederherstellung zu dem System passen, für das du tatsächlich selbst Verantwortung übernehmen willst.
