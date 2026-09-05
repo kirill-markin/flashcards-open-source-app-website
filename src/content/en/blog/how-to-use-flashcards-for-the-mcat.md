@@ -110,6 +110,8 @@ Equation cards should help you choose and apply, not only recite.
 
 If you want a ready-made set for that retrieval job, [this 180-card MCAT physics and chemistry equations deck](/catalog/packages/mcat-physics-chemistry-equations-flashcards/) covers formulas, variables, units, assumptions or conditions, and original examples of when to use them instead of stopping at a bare formula dump. It is an independent, unofficial study aid that supports passage practice and multi-step calculation practice; it does not replace either.
 
+When the unit relationship itself is the gap, [SI Units Flashcards: 7 Base Units & 22 Named Derived Units](/catalog/packages/si-units-flashcards/) practices quantities, unit names, and symbols in both directions for all seven base units and all 22 named derived units, plus the named derived units' coherent base-unit expressions. It leaves equations, conversions, and MCAT passage work out, so it fits as a reference-recall layer rather than a full MCAT deck.
+
 This is also where people accidentally make flashcards do too much. If a problem really depends on multi-step algebra, graph interpretation, or passage-specific reasoning, solve more problems. If the issue is that you repeatedly forget what changes in a direct versus inverse relationship, that is strong flashcard material.
 
 ## Psych/soc cards should focus on confusable concepts, not glossary copying
