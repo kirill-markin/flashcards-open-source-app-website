@@ -111,6 +111,8 @@ One prefix contains three compact facts: name, symbol, and power. The direction 
 
 The installable [Metric Prefix Flashcards: All 24 SI Names, Symbols & Powers of Ten](/catalog/packages/metric-prefix-flashcards/) deck contains 72 English cards: three recall directions for each of the 24 prefixes, covering the name, case-sensitive symbol, and power of ten. That is exactly `24 × 3`, not 72 different prefixes or conversion exercises. Use the full deck when complete recall is your target. If your course defines a smaller set, begin there and expand when the work reaches another prefix.
 
+The units underneath those prefixes are a separate recall layer. [SI Units Flashcards: 7 Base Units & 22 Named Derived Units](/catalog/packages/si-units-flashcards/) maps each of the seven base quantities and 22 named derived quantities to its unit name and symbol in both directions, then practices all 22 coherent base-unit expressions. It leaves prefixes and conversions out, so use it alongside the prefix deck.
+
 For cards you make yourself, keep one expected answer on each front:
 
 ```text
