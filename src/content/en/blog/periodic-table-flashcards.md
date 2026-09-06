@@ -1,229 +1,306 @@
 ---
-title: "Periodic Table Flashcards in 2026: Elements, Symbols, and Atomic Numbers"
-description: "Make periodic table flashcards for element names, symbols, atomic numbers, and trends without memorizing facts your chemistry course does not require."
+title: "How Many Elements Are in the Periodic Table? All 118 (2026)"
+description: "There are 118 elements in the periodic table in 2026. Find every name, symbol, and atomic number, then build a course-scoped flashcard plan."
 date: "2026-08-08"
-image: "/blog/periodic-table-flashcards.png"
+updated: "2026-09-06"
+image: "/blog/periodic-table-flashcards-v2.png"
 keywords:
+  - "how many elements are in the periodic table"
+  - "periodic table 2026"
+  - "118 elements"
+  - "element names and symbols"
+  - "atomic numbers"
   - "periodic table flashcards"
-  - "element flashcards"
-  - "chemical element flashcards"
-  - "element symbols flashcards"
-  - "atomic number flashcards"
   - "how to memorize the periodic table"
-  - "how to memorize element symbols"
   - "first 20 elements flashcards"
-  - "periodic trends flashcards"
 ---
 
-`Co` is cobalt. `CO` is carbon monoxide, written from the separate element symbols `C` and `O`. One lowercase letter changes the answer. Sodium has another easy trap in its square: `Na` has atomic number 11, while the larger decimal printed on many classroom tables refers to a different property.
+There are **118 known elements in the periodic table in 2026**. The list runs from hydrogen, atomic number 1, to oganesson, atomic number 118. The [American Chemical Society](https://www.acs.org/education/whatischemistry/periodictable.html) gives the same total and explains the organizing rule: elements appear in order of increasing atomic number.
 
-Useful **periodic table flashcards** keep those jobs separate. One card tests the symbol, another tests atomic number, and another might test location or a course-required trend. Put the whole element square on one card and a partly correct answer becomes surprisingly hard to grade.
+If you came here for a quick lookup, the complete table is directly below. It gives every element name, exact case-sensitive symbol, and atomic number—without atomic weights mixed into the same reference. After the table, there is a practical way to decide which of those facts your course actually requires and turn only that scope into flashcards.
 
-![Periodic table flashcards for element names, case-sensitive symbols, and atomic numbers](/blog/periodic-table-flashcards.png)
+**Facts checked:** September 6, 2026.
 
-## Start with your course, not all 118 elements
+![A small chamber group rehearsing before a full orchestra, representing a course-sized selection from all 118 elements](/blog/periodic-table-flashcards-v2.png)
 
-The periodic table contains [118 known elements](https://www.acs.org/education/whatischemistry/periodictable.html), arranged by increasing atomic number. Its rows are periods and its columns are groups. That arrangement also makes trends in properties visible. It still does not follow that every student needs to memorize all 118.
+## All 118 elements: atomic numbers, symbols, and names
 
-Before making cards, check the scope of the class, quiz, or exam:
+The number-symbol-name sequence below was cross-checked against the [NIST Periodic Table of the Elements](https://www.nist.gov/pml/periodic-table-elements) and the [IUPAC reference table](https://iupac.org/cms/wp-content/uploads/2018/12/IUPAC_Periodic_Table-01Dec18.pdf). The spelling column follows NIST's U.S. English: *aluminum* and *cesium*. IUPAC uses *aluminium* and *caesium*. Neither choice changes `Al`, `Cs`, 13, or 55, so use the spelling your course expects.
 
-- which elements you must identify by name and symbol
-- whether you need name-to-symbol, symbol-to-name, or both directions
-- which atomic numbers must be recalled without a supplied table
-- whether group, period, family, electron configuration, or trend questions appear
-- which table edition, property labels, and rounding rules the course uses
-- whether assessments provide a periodic table
+| Atomic number | Symbol | Element name |
+| ---: | :---: | --- |
+| 1 | `H` | Hydrogen |
+| 2 | `He` | Helium |
+| 3 | `Li` | Lithium |
+| 4 | `Be` | Beryllium |
+| 5 | `B` | Boron |
+| 6 | `C` | Carbon |
+| 7 | `N` | Nitrogen |
+| 8 | `O` | Oxygen |
+| 9 | `F` | Fluorine |
+| 10 | `Ne` | Neon |
+| 11 | `Na` | Sodium |
+| 12 | `Mg` | Magnesium |
+| 13 | `Al` | Aluminum |
+| 14 | `Si` | Silicon |
+| 15 | `P` | Phosphorus |
+| 16 | `S` | Sulfur |
+| 17 | `Cl` | Chlorine |
+| 18 | `Ar` | Argon |
+| 19 | `K` | Potassium |
+| 20 | `Ca` | Calcium |
+| 21 | `Sc` | Scandium |
+| 22 | `Ti` | Titanium |
+| 23 | `V` | Vanadium |
+| 24 | `Cr` | Chromium |
+| 25 | `Mn` | Manganese |
+| 26 | `Fe` | Iron |
+| 27 | `Co` | Cobalt |
+| 28 | `Ni` | Nickel |
+| 29 | `Cu` | Copper |
+| 30 | `Zn` | Zinc |
+| 31 | `Ga` | Gallium |
+| 32 | `Ge` | Germanium |
+| 33 | `As` | Arsenic |
+| 34 | `Se` | Selenium |
+| 35 | `Br` | Bromine |
+| 36 | `Kr` | Krypton |
+| 37 | `Rb` | Rubidium |
+| 38 | `Sr` | Strontium |
+| 39 | `Y` | Yttrium |
+| 40 | `Zr` | Zirconium |
+| 41 | `Nb` | Niobium |
+| 42 | `Mo` | Molybdenum |
+| 43 | `Tc` | Technetium |
+| 44 | `Ru` | Ruthenium |
+| 45 | `Rh` | Rhodium |
+| 46 | `Pd` | Palladium |
+| 47 | `Ag` | Silver |
+| 48 | `Cd` | Cadmium |
+| 49 | `In` | Indium |
+| 50 | `Sn` | Tin |
+| 51 | `Sb` | Antimony |
+| 52 | `Te` | Tellurium |
+| 53 | `I` | Iodine |
+| 54 | `Xe` | Xenon |
+| 55 | `Cs` | Cesium |
+| 56 | `Ba` | Barium |
+| 57 | `La` | Lanthanum |
+| 58 | `Ce` | Cerium |
+| 59 | `Pr` | Praseodymium |
+| 60 | `Nd` | Neodymium |
+| 61 | `Pm` | Promethium |
+| 62 | `Sm` | Samarium |
+| 63 | `Eu` | Europium |
+| 64 | `Gd` | Gadolinium |
+| 65 | `Tb` | Terbium |
+| 66 | `Dy` | Dysprosium |
+| 67 | `Ho` | Holmium |
+| 68 | `Er` | Erbium |
+| 69 | `Tm` | Thulium |
+| 70 | `Yb` | Ytterbium |
+| 71 | `Lu` | Lutetium |
+| 72 | `Hf` | Hafnium |
+| 73 | `Ta` | Tantalum |
+| 74 | `W` | Tungsten |
+| 75 | `Re` | Rhenium |
+| 76 | `Os` | Osmium |
+| 77 | `Ir` | Iridium |
+| 78 | `Pt` | Platinum |
+| 79 | `Au` | Gold |
+| 80 | `Hg` | Mercury |
+| 81 | `Tl` | Thallium |
+| 82 | `Pb` | Lead |
+| 83 | `Bi` | Bismuth |
+| 84 | `Po` | Polonium |
+| 85 | `At` | Astatine |
+| 86 | `Rn` | Radon |
+| 87 | `Fr` | Francium |
+| 88 | `Ra` | Radium |
+| 89 | `Ac` | Actinium |
+| 90 | `Th` | Thorium |
+| 91 | `Pa` | Protactinium |
+| 92 | `U` | Uranium |
+| 93 | `Np` | Neptunium |
+| 94 | `Pu` | Plutonium |
+| 95 | `Am` | Americium |
+| 96 | `Cm` | Curium |
+| 97 | `Bk` | Berkelium |
+| 98 | `Cf` | Californium |
+| 99 | `Es` | Einsteinium |
+| 100 | `Fm` | Fermium |
+| 101 | `Md` | Mendelevium |
+| 102 | `No` | Nobelium |
+| 103 | `Lr` | Lawrencium |
+| 104 | `Rf` | Rutherfordium |
+| 105 | `Db` | Dubnium |
+| 106 | `Sg` | Seaborgium |
+| 107 | `Bh` | Bohrium |
+| 108 | `Hs` | Hassium |
+| 109 | `Mt` | Meitnerium |
+| 110 | `Ds` | Darmstadtium |
+| 111 | `Rg` | Roentgenium |
+| 112 | `Cn` | Copernicium |
+| 113 | `Nh` | Nihonium |
+| 114 | `Fl` | Flerovium |
+| 115 | `Mc` | Moscovium |
+| 116 | `Lv` | Livermorium |
+| 117 | `Ts` | Tennessine |
+| 118 | `Og` | Oganesson |
 
-The American Chemical Society's middle-school [Lesson 4.2](https://www.acs.org/middleschoolchemistry/lessonplans/chapter4/lesson2.html) focuses on the first 20 elements and introduces name, symbol, atomic number, and atomic mass. It also teaches that atomic number equals proton count. That is a useful example of a bounded beginner set. It is not a standard telling every beginner to stop at 20, or every advanced student to learn all 118.
+IUPAC formally approved the names and symbols `Nh`, `Mc`, `Ts`, and `Og` for elements 113, 115, 117, and 118 in November 2016. That [IUPAC naming announcement](https://iupac.org/iupac-announces-the-names-of-the-elements-113-115-117-and-118/) is useful when an old worksheet still shows temporary three-letter symbols.
 
-Use the teacher, syllabus, assigned table, and textbook as the controlling sources. ACS, NIST, and CIAAW are strong references for checking facts, but the label or rounding expected on a test may still come from the course. Anonymous “complete periodic table” decks often get this order backward: they choose the facts first and leave you to discover whether they match your work. If electron configurations are in scope, the [Electron Configuration Flashcards: All 118 Elements](/catalog/packages/electron-configuration-flashcards-all-elements/) deck gives you 131 English cards as a starting set, but your course still decides which elements and notation you should study.
+## Atomic number is not atomic mass
 
-## Make one card for one periodic-table fact
+An element square can show several numbers, but they answer different questions.
 
-Most useful element flashcards fit into four categories. Keep each front narrow enough to have one expected answer.
+- **Atomic number** identifies the element and equals its number of protons. Sodium is always atomic number 11.
+- **Element symbol** is the one- or two-letter abbreviation. Case is part of the notation: sodium is `Na`, not `NA` or `na`.
+- **Atomic mass and atomic weight** are not atomic number. Classroom tables may use either term around the larger decimal, but the terms are not perfectly interchangeable; follow the table's exact label, precision, and convention.
+- **Mass number** is the whole-number total of protons and neutrons in one nuclide.
 
-### Element names and case-sensitive symbols
+A bracketed whole number shown for a radioactive element on some tables is usually a mass number—not another atomic number or a standard atomic weight.
 
-Element symbols are case-sensitive. The first letter is uppercase and a second letter is lowercase. `Co`, `C`, `O`, and `CO` should never collapse into the same visual pattern.
+That is why the lookup above stops at name, symbol, and atomic number. Those three fields answer the search intent cleanly. NIST’s [periodic-table version history](https://www.nist.gov/pml/periodic-table-version-history) also shows why a deck of precise atomic-weight values needs a source and date: the underlying reference data can be revised. If your course tests atomic weights, copy the exact property, table edition, and rounding rule it assigns.
 
-```text
-Front: Which element has the symbol Na?
-Back: Sodium.
-Source: Course periodic table
+## How to memorize the periodic table: start with your course
 
-Front: Write the symbol for sodium. Preserve letter case.
-Back: Na.
-Source: Course periodic table
-```
+Seeing 118 rows can create an assignment your course never made: “I suppose I have to memorize all of this.” The real scope is often narrower. Check the syllabus, teacher instructions, permitted reference sheet, and recent questions before making a deck.
 
-Those prompts test different retrieval directions. Keep both if the course asks you to read symbols and write them. Add a contrast card only when a real confusion shows up:
+| If your work asks you to… | Useful recall target | Keep outside this deck |
+| --- | --- | --- |
+| identify common elements in formulas | symbol → name | full formula writing and nomenclature problems |
+| write symbols from element names | name → exact-case symbol | compound charges and subscripts |
+| know the first 20 elements | the required direction for elements 1–20 | the other 98 until the course reaches them |
+| reconstruct the table | selected identities plus group/period anchors | repeated blank-table practice |
+| compare periodic trends | a small set of direction rules and named exceptions | explanations and unfamiliar comparisons |
+| write electron configurations | course-required configurations and exceptions | the orbital-filling work used to derive them |
+| recall all 118 element identities | the tested directions for names, symbols, and atomic numbers | masses, trends, and configurations unless separately required |
+
+Teachers can remove a lot of ambiguity by stating the tested direction. “Know the elements” might mean reading a symbol, producing a symbol, filling a blank table, or recalling atomic numbers. Those tasks produce very different card counts.
+
+## Make cards from the error, not from the entire square
+
+`Co` is cobalt. `CO` is a formula containing the separate symbols `C` and `O`. One lowercase letter changes what the notation says. A useful repair card targets that exact mistake:
 
 ```text
 Front: Which element has the symbol Co?
 Back: Cobalt.
 
-Front: In the formula CO, which two element symbols are present?
+Front: In CO, which two element symbols are present?
 Back: C for carbon and O for oxygen.
 ```
 
-The second card tests formula reading, not another symbol for cobalt. You still need to read symbols inside real formulas; the card just repairs the capitalization mistake.
+The second prompt is formula-reading practice, not another cobalt card. Other lookalikes include `S` and `Si`, `N` and `Ni`, `C` and `Ca`, and `P` and `Pb`. Keep the second letter of a two-letter symbol lowercase.
 
-Once element symbols feel stable, the separate [Polyatomic Ion Flashcards deck](https://flashcards-open-source-app.com/catalog/packages/polyatomic-ion-flashcards/) moves to a different, bounded target: 30 commonly taught polyatomic-ion names and exact formulas with charges in both directions. Periodic-table cards do not cover polyatomic ions, and that recall drill does not replace compound-formula writing, nomenclature practice, or equation work.
+Some symbols are hard for a different reason: the English name does not supply the obvious letters. These are good candidates for early error-driven cards if they are in scope:
 
-### Atomic numbers, element identity, and protons
+| Element | Symbol | Atomic number |
+| --- | :---: | ---: |
+| Sodium | `Na` | 11 |
+| Potassium | `K` | 19 |
+| Iron | `Fe` | 26 |
+| Copper | `Cu` | 29 |
+| Silver | `Ag` | 47 |
+| Tin | `Sn` | 50 |
+| Antimony | `Sb` | 51 |
+| Tungsten | `W` | 74 |
+| Gold | `Au` | 79 |
+| Mercury | `Hg` | 80 |
+| Lead | `Pb` | 82 |
 
-Atomic number is the clean, stable identity field. It equals the number of protons in the nucleus. Isotopes of one element can have different neutron counts, but their proton count and atomic number remain the same.
+Do not make all eleven just because they are in this list. Try a blank-table or symbol quiz first, then keep the ones you miss.
+
+## One fact per card keeps grading honest
+
+“Tell me everything about sodium” looks efficient because it fits one card. During review, it becomes awkward: perhaps you remembered `Na` and 11 but put it in the wrong period. A partly correct answer is hard to grade honestly.
+
+Split the tested facts instead:
 
 ```text
-Front: What is sodium's atomic number?
-Back: 11.
+Front: Write the symbol for sodium. Preserve letter case.
+Back: Na.
+
+Front: Which element has the symbol Na?
+Back: Sodium.
 
 Front: Which element has atomic number 11?
-Back: Sodium (Na).
-
-Front: How many protons are in a sodium nucleus?
-Back: 11.
+Back: Sodium.
 ```
 
-There is rarely a reason to make all three cards for every element. Start with the direction your course tests. Add the proton-count card when that relationship is slow or repeatedly missed; otherwise one fact has quietly turned into three due reviews.
+These are three directions, not three mandatory cards. Start with the direction that appears in your work. Add the reverse only when you must retrieve the reverse answer or when practice exposes a gap. Automatically reversing every fact can turn 118 elements into hundreds of reviews without improving the skill your assessment uses.
 
-### Groups, periods, and family relationships
+For broader card-design examples, see [How to Make Better Flashcards](/blog/how-to-make-better-flashcards/).
 
-Location prompts need an explicit numbering convention. Current group numbers run from 1 to 18, while some teaching materials also print older labels. Copy the convention used by the course instead of mixing two systems on the back.
+## A practical plan for memorizing your required set
 
-```text
-Front: Which period contains Na?
-Back: Period 3.
+Start with evidence, even if it is only a five-minute self-test.
 
-Front: Using group numbers 1–18, which group contains Na?
-Back: Group 1.
+1. **Write down the exact scope.** “Elements 1–20, name ↔ symbol” is usable. “Learn the periodic table” is not.
+2. **Take a short pretest without notes.** Use a blank table, a teacher quiz, or a current chemistry problem. Mark each exact miss.
+3. **Make one card per missing direction.** Do not create atomic-number, group, mass, and trend cards unless those facts are required.
+4. **Learn one bounded block.** A course unit, a family, or elements 1–20 gives you a visible finish line. If all 118 are required, use small numbered bands instead of loading everything on day one.
+5. **Mix confusable items after they are individually familiar.** Put `Co`, `C`, and `O` in the same practice session; mix neighboring atomic numbers that keep swapping. Flashcards Open Source App does not create these contrasts automatically, so choose the deck order or tags yourself.
+6. **Rebuild the shape outside the deck.** Fill a blank table and say the group or period anchors aloud. Isolated cards do not teach spatial layout by themselves.
+7. **Return to chemistry.** Read formulas, explain a trend, write an electron configuration, and solve unfamiliar problems. Each repeated error can produce one small repair card.
 
-Front: In Group 1, which element sits directly below Na?
-Back: Potassium (K).
-```
+Keep the daily queue realistic while expanding the set. [How Many New Flashcards per Day?](/blog/how-many-new-flashcards-per-day/) explains how to use your due-review load, rather than ambition, to set the intake.
 
-A few relationship cards can do more useful work than two coordinate cards for every element. They make you read the table as a structure rather than as 118 unrelated boxes.
+## Ready-made decks for three different jobs
 
-### Periodic trends within a stated scope
+If all 118 identities really are your target, the installable [Periodic Table Flashcards: All 118 Names, Symbols & Atomic Numbers](/catalog/packages/periodic-table-elements/) deck contains 354 cards. It uses three explicit directions for each element: name → symbol, symbol → name, and atomic number → complete element identity. It excludes atomic weights, spatial layout, trends, and electron configurations, so it stays an identity-recall deck instead of trying to become a chemistry course.
 
-Trend cards can hold a direction, comparison rule, or named exception required by the course. Put the region and direction in the prompt:
+Two separate decks cover different scopes:
 
-```text
-Front: What is the general atomic-radius trend from left to right across a period?
-Back: Atomic radius generally decreases.
-Source: Course trend chart, section 3.2
-```
+- [Periodic Trends Flashcards](/catalog/packages/periodic-trends-flashcards/) covers concise trend rules, important distinctions, and comparisons.
+- [Electron Configuration Flashcards: All 118 Elements](/catalog/packages/electron-configuration-flashcards-all-elements/) covers neutral-atom ground-state configurations, including clearly labeled predictions where the reference data requires them.
 
-`General` and `across a period` matter here. “Atomic radius trend?” does not say which direction, which part of the table, or how much explanation the answer needs. Use cards for the compact rule. Explain causes, handle the exceptions taught in class, and compare unfamiliar elements in written problems.
+Metric prefixes are another nearby source of case errors—`M` and `m` do not mean the same thing—but they are not periodic-table content. Keep them in the separate [Metric Prefix Flashcards guide](/blog/metric-prefixes-flashcards/) so chemistry notation does not become one giant mixed deck.
 
-The [Periodic Trends Flashcards deck](/catalog/packages/periodic-trends-flashcards/) is a ready-made starting set for that compact rule layer.
+## What periodic table flashcards cannot teach
 
-If a back starts collecting several properties and caveats, use the approach in [how to make better flashcards](/blog/how-to-make-better-flashcards/) and split the target.
+Flashcards are good at keeping a precise mapping available: `Fe` → iron, 26 → iron, or “sodium” → `Na`. They are much weaker as the only practice for connected work.
 
-## Atomic-number cards stay stable; atomic-weight cards need versioning
+Keep doing these outside the deck:
 
-The number called “mass” in a periodic-table square deserves a closer look. Course materials do not always use the terms with the same precision, and four related ideas are easy to blur:
+- rebuild positions on a blank periodic table
+- read the table legend and use the edition supplied in class
+- explain why a trend occurs and handle the exceptions taught in your course
+- write and interpret formulas and equations
+- derive electron configurations instead of only recognizing finished ones
+- solve calculations and unfamiliar multi-step problems
+- complete laboratory work with the required supervision and safety procedures
 
-- atomic number is the proton count and identifies the element
-- mass number is the whole-number total of protons and neutrons in a particular nuclide
-- isotopic atomic mass is the mass of a particular isotope
-- relative atomic mass and standard atomic weight describe weighted atomic-mass information, with standard atomic weight applying to normal materials under the CIAAW definition
-
-Follow the exact property name your course teaches. A rounded classroom value may be the expected answer even when a scientific reference shows more digits or an interval. Copying a decimal with no label is how a card that looked fine on Monday starts disagreeing with a worksheet on Friday.
-
-Every atomic-weight card should record:
-
-- the exact property named in the prompt
-- the assigned table or textbook edition
-- the required precision or rounding rule
-- the date the value was checked
-
-The [NIST Periodic Table of the Elements](https://www.nist.gov/pml/periodic-table-elements) contains NIST's latest critically evaluated atomic-property data. The current table says it was last updated in June 2024; the web page itself was updated on February 12, 2025. NIST is a strong verification source, not the only “official” periodic table and not a reason to overwrite the convention used for grading.
-
-CIAAW's latest definitive table is [Standard Atomic Weights 2024](https://ciaaw.org/atomic-weights.htm). Some elements have interval values because normal materials can vary in isotopic composition. CIAAW also revised the standard atomic weights of gadolinium, lutetium, and zirconium in 2024. A deck full of precise decimals therefore needs its source and checked date.
-
-[Radioactive elements do not have standard atomic weights](https://ciaaw.org/radioactive-elements.htm). Many periodic tables show the mass number of a selected isotope in square brackets instead. That bracketed integer is a mass number, not an atomic weight that happens to lack decimals.
-
-Unless the course explicitly requires atomic-weight recall, practice reading its supplied table and applying its rounding rule. That is usually the skill the chemistry work needs.
-
-## Reverse cards only when the reverse skill matters
-
-Automatic reversal can turn one element into name-to-symbol, symbol-to-name, element-to-atomic-number, and atomic-number-to-element cards. Add group, period, family, weight, and trends, and the deck becomes huge before you have solved a chemistry problem.
-
-Keep a reverse card when that direction appears in real work or exposes a real gap. Reading `Na` as sodium and writing `Na` from “sodium” are both common tasks. Identifying element 57 from atomic number alone may add little in a course that always supplies a table.
-
-Start with the tested direction. Add the reverse after a quiz, blank-table exercise, or chemistry problem shows that you need it. If new cards are growing faster than your available study time, [adjust the intake from the due-review load](/blog/how-many-new-flashcards-per-day/) instead of chasing completeness.
-
-## How to memorize the periodic table without turning it into trivia
-
-A small repair deck is more useful than a giant deck built in advance. Begin with a blank periodic table, a symbol quiz, or a current chemistry problem without looking at notes. Record the precise miss: “wrote `CO` for cobalt,” “put sodium in period 2,” or “read the decimal as atomic number.” Verify the correction before saving it.
-
-Then use this loop:
-
-1. Choose one course-defined set, such as the first 20 elements or the elements in the current unit.
-2. Learn one new category in a short block: names to symbols, atomic numbers, or locations.
-3. Test the larger shape outside the deck by filling a blank table, reading an unfamiliar table, or solving a problem.
-4. Turn important or repeated misses into small cards with one target and a source note.
-5. Mix close categories once they are accurate. Put `C`, `O`, `Co`, and `CO` near each other, or mix neighboring elements whose atomic numbers keep swapping.
-6. Review due cards, then return to formulas, equations, trend explanations, and calculations.
-7. Delete duplicates and rewrite ambiguous prompts. Repetition does not repair a broken card.
-
-Blocking helps while a new category is still being understood. Mixing later makes you choose among similar answers without a deck label giving the category away. In a [classroom study of 155 students in grades 9–12](https://pubmed.ncbi.nlm.nih.gov/35436145/), students took weekly science quizzes for four weeks and a later test one month after the final quiz. Mean performance on material tested through interleaved retrieval was higher than on material tested through blocked retrieval. That is useful evidence for adding deliberate mixing after the basics; it is not a guarantee for every learner or a reason to randomize a new deck immediately.
-
-The [interleaving guide](/blog/how-to-use-interleaving-with-flashcards/) explains how to choose related categories. Flashcards Open Source App does not create those mixes automatically, so organize the contrasts yourself with decks or tags.
-
-For a miss taken from a worksheet or table image, crop only the useful region and verify every visible label before making the card. The [image-to-flashcards workflow](/blog/how-to-turn-images-into-flashcards/) covers the cleanup. Keep full blank-table reconstruction outside the deck: recognizing one cropped square and rebuilding the spatial map are different tasks.
-
-If you truly must learn all 118 elements, use the same loop across manageable course-approved sections, then mix sections and rebuild the full table regularly. The target is still one connected periodic system, not 118 isolated trivia answers.
-
-## Keep real chemistry work outside the deck
-
-Periodic table flashcards are good at quick retrieval. They cannot replace:
-
-- reading a full table and its legend
-- rebuilding element positions on a blank table
-- explaining why a periodic trend occurs and where the taught exceptions apply
-- writing and interpreting chemical formulas and equations
-- balancing equations and doing calculations
-- solving unfamiliar multi-step problems
-- laboratory observation, measurement, and safety
-
-Cards make selected facts available for those jobs. The jobs still need to be done. The [advanced chemistry flashcards guide](/blog/how-to-use-flashcards-for-advanced-chemistry/) uses the same division at course scale: keep reusable distinctions and repeated misses in review, then do calculations, lab interpretation, and extended-response work elsewhere.
+The [advanced chemistry flashcards guide](/blog/how-to-use-flashcards-for-advanced-chemistry/) develops this split between compact recall and full problem practice.
 
 ## Where Flashcards Open Source App fits
 
-[Flashcards Open Source App](/features/) supports front/back cards, decks and tags, and FSRS due reviews rated `Again`, `Hard`, `Good`, or `Easy`. You can use the hosted web app, and the web, iOS, and Android clients are offline-first for card study. The code is MIT licensed and the project supports self-hosting.
+[Flashcards Open Source App](/features/) supports ordinary front/back cards, decks, tags, and FSRS due reviews with `Again`, `Hard`, `Good`, and `Easy` ratings. You can install the 118-element deck or make a smaller deck that matches your course.
 
-AI chat can work with workspace data and file attachments to draft candidate cards from a lesson, course table, or list of misses. Check every element name, symbol, number, property label, and rounding rule against the controlling source before saving. The app has no dedicated chemistry editor, automatic fact verification, automatic interleaving, or official element deck. The [Getting Started guide](/docs/getting-started/) covers card creation and due reviews.
+AI chat and file attachments can help draft candidate cards from a lesson table or a list of misses. Check every name, symbol, atomic number, property label, and rounding rule against your controlling source before saving. The app has no dedicated chemistry verifier and does not automatically interleave topics for you. The [Getting Started guide](/docs/getting-started/) covers creating cards and beginning due reviews.
 
-## Periodic table flashcards FAQ
+## Periodic table FAQ
 
-### Should I memorize all 118 elements?
+### How many elements are in the periodic table in 2026?
 
-Only when your course or another real requirement asks for all 118. Begin with the tested scope. The first 20 elements are one common teaching example, while other courses emphasize selected families, common ions, transition metals, or elements used in current problems.
+There are 118 known elements. Hydrogen is number 1 and oganesson is number 118. Current ACS, NIST, and IUPAC tables all end at element 118.
 
-### What is the best way to memorize the first 20 elements?
+### What is the 118th element?
 
-First confirm that elements 1–20 are your actual target. Learn names and case-sensitive symbols in a short block, add the atomic numbers your course requires, and use a blank-table exercise to keep the spatial layout. Then mix neighboring and confusable elements while continuing to use them in formulas and problems.
+Oganesson, symbol `Og`, is element 118. IUPAC approved its current name and symbol in November 2016 alongside nihonium (`Nh`), moscovium (`Mc`), and tennessine (`Ts`).
 
-### How can I remember confusing element symbols?
+### Should students memorize all 118 elements?
 
-Use a direct card in the tested direction, followed by one contrast card for the exact confusion. `Co` versus `C` and `O` is more useful than a broad card about “similar symbols.” Preserve capitalization and read the symbols inside real chemical formulas too.
+Only if the course or exam requires all 118. Many students need a smaller set, such as elements 1–20, common elements in formulas, selected families, or the current unit. Confirm the direction too: recognizing `Na` and writing it from “sodium” are separate skills.
 
-### Should atomic mass or atomic weight go on flashcards?
+### Is atomic number the same as atomic mass?
 
-Only if your course expects you to recall it. Use its exact property name, source table, precision or rounding rule, and checked date. Never treat a bracketed mass number for a radioactive element as a standard atomic weight.
+No. Atomic number is the proton count and identifies the element. Mass number counts protons and neutrons in one nuclide; atomic mass and atomic weight describe different mass-related quantities. Use the exact term and reference specified by your course.
 
-### Can flashcards teach periodic trends?
+### What is the fastest way to learn element names and symbols?
 
-They can keep a required direction, relationship, or named exception ready for recall. You still need to explain the trend, compare unfamiliar elements, interpret a table, and solve problems. Avoid broad rules with no stated direction or scope.
+Define the smallest required set, test it without notes, and make cards only for missing directions. Then check recall with a blank table and real chemistry questions.
 
-### Are premade element flashcards reliable?
+## Use the table, then close it
 
-Treat them as drafts. They may contain the wrong scope, another group-numbering convention, different rounding, outdated atomic-weight data, or simple symbol errors. Check every card you keep against the source that controls your course.
-
-## Let the periodic table stay connected
-
-Good **periodic table flashcards** make a defined set of names, case-sensitive element symbols, atomic numbers, locations, and required trends quick to retrieve. Build them from the course scope, version any atomic-weight answers, reverse only the directions you need, and add repair cards from real misses.
-
-Then put the full table back in front of you. Rebuild the map, explain the trend, write the formula, and solve the chemistry problem. The cards have done their job when they make that work smoother.
+Use the 118-row table when you need a trustworthy lookup. For recall, hide it, test exactly what your course expects, and make small cards from the misses. Then return to the blank table, formula, trend explanation, or calculation—the place where the knowledge has to work.

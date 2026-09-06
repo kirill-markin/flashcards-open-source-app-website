@@ -1,227 +1,306 @@
 ---
-title: "Flashcards de la tabla periódica en 2026: elementos, símbolos y números atómicos"
-description: "Crea flashcards de la tabla periódica con nombres de elementos, símbolos, números atómicos y tendencias sin memorizar datos que tu curso de química no exige."
+title: "¿Cuántos elementos hay en la tabla periódica? Los 118 (2026)"
+description: "En 2026 hay 118 elementos en la tabla periódica. Consulta sus nombres, símbolos y números atómicos y crea un plan de flashcards adaptado a tu curso."
 date: "2026-08-08"
-image: "/blog/periodic-table-flashcards.png"
+updated: "2026-09-06"
+image: "/blog/periodic-table-flashcards-v2.png"
 keywords:
+  - "cuántos elementos hay en la tabla periódica"
+  - "tabla periódica 2026"
+  - "118 elementos"
+  - "nombres y símbolos de los elementos"
+  - "números atómicos"
   - "flashcards de la tabla periódica"
-  - "flashcards de elementos"
-  - "flashcards de elementos químicos"
-  - "flashcards de símbolos de elementos"
-  - "flashcards de números atómicos"
   - "cómo memorizar la tabla periódica"
-  - "cómo memorizar los símbolos de los elementos"
   - "flashcards de los primeros 20 elementos"
-  - "flashcards de tendencias periódicas"
 ---
 
-`Co` es cobalto. `CO` es monóxido de carbono, una fórmula formada por los símbolos de dos elementos distintos: `C` y `O`. Una sola letra minúscula cambia la respuesta. La casilla del sodio plantea otra confusión habitual: `Na` tiene el número atómico 11, mientras que el decimal más grande de muchas tablas escolares corresponde a una propiedad diferente.
+Hay **118 elementos conocidos en la tabla periódica en 2026**. La lista va desde el hidrógeno, con número atómico 1, hasta el oganesón, con número atómico 118. La [American Chemical Society](https://www.acs.org/education/whatischemistry/periodictable.html) indica la misma cifra y explica el criterio de ordenación: los elementos aparecen en orden creciente de número atómico.
 
-Las **flashcards de la tabla periódica** útiles separan esas tareas. Una tarjeta comprueba el símbolo; otra, el número atómico; una tercera puede preguntar por la posición o por una tendencia exigida en el curso. Si incluyes toda la casilla del elemento en una sola tarjeta, evaluar una respuesta parcialmente correcta se vuelve bastante complicado.
+Si solo necesitas una consulta rápida, la tabla completa aparece a continuación. Incluye el nombre de cada elemento, su símbolo exacto —con el uso correcto de mayúsculas y minúsculas— y su número atómico, sin mezclar los pesos atómicos en la misma referencia. Después encontrarás una forma práctica de decidir qué datos exige realmente tu curso y convertir solo ese contenido en flashcards.
 
-![Flashcards de la tabla periódica sobre nombres de elementos, símbolos con el uso correcto de mayúsculas y minúsculas y números atómicos](/blog/periodic-table-flashcards.png)
+**Información verificada:** 6 de septiembre de 2026.
 
-## Empieza por tu curso, no por los 118 elementos
+![Un pequeño conjunto de cámara ensaya ante una orquesta completa, como metáfora de elegir solo la parte necesaria de los 118 elementos](/blog/periodic-table-flashcards-v2.png)
 
-La tabla periódica contiene [118 elementos conocidos](https://www.acs.org/education/whatischemistry/periodictable.html), ordenados por número atómico creciente. Las filas se llaman periodos y las columnas, grupos. Esta organización también permite observar tendencias en las propiedades, pero no significa que todos los estudiantes deban memorizar los 118 elementos.
+## Los 118 elementos: números atómicos, símbolos y nombres
 
-Antes de crear tarjetas, comprueba qué abarca la asignatura, la prueba o el examen:
+La secuencia de números, símbolos y nombres que aparece a continuación se contrastó con la [tabla periódica de los elementos del NIST](https://www.nist.gov/pml/periodic-table-elements) y la [tabla de referencia de la IUPAC](https://iupac.org/cms/wp-content/uploads/2018/12/IUPAC_Periodic_Table-01Dec18.pdf). La columna de nombres recoge las denominaciones establecidas en español. En inglés, el NIST emplea las grafías estadounidenses *aluminum* y *cesium*, mientras que la IUPAC usa *aluminium* y *caesium*. Esa diferencia no cambia `Al`, `Cs`, 13 ni 55, así que utiliza la grafía que exija tu curso.
 
-- qué elementos debes identificar por su nombre y símbolo
-- si necesitas pasar del nombre al símbolo, del símbolo al nombre o trabajar en ambos sentidos
-- qué números atómicos debes recordar sin que te proporcionen una tabla
-- si aparecen preguntas sobre grupos, periodos, familias, configuración electrónica o tendencias
-- qué edición de la tabla, denominaciones de las propiedades y reglas de redondeo usa el curso
-- si las evaluaciones incluyen una tabla periódica
+| Número atómico | Símbolo | Nombre del elemento |
+| ---: | :---: | --- |
+| 1 | `H` | Hidrógeno |
+| 2 | `He` | Helio |
+| 3 | `Li` | Litio |
+| 4 | `Be` | Berilio |
+| 5 | `B` | Boro |
+| 6 | `C` | Carbono |
+| 7 | `N` | Nitrógeno |
+| 8 | `O` | Oxígeno |
+| 9 | `F` | Flúor |
+| 10 | `Ne` | Neón |
+| 11 | `Na` | Sodio |
+| 12 | `Mg` | Magnesio |
+| 13 | `Al` | Aluminio |
+| 14 | `Si` | Silicio |
+| 15 | `P` | Fósforo |
+| 16 | `S` | Azufre |
+| 17 | `Cl` | Cloro |
+| 18 | `Ar` | Argón |
+| 19 | `K` | Potasio |
+| 20 | `Ca` | Calcio |
+| 21 | `Sc` | Escandio |
+| 22 | `Ti` | Titanio |
+| 23 | `V` | Vanadio |
+| 24 | `Cr` | Cromo |
+| 25 | `Mn` | Manganeso |
+| 26 | `Fe` | Hierro |
+| 27 | `Co` | Cobalto |
+| 28 | `Ni` | Níquel |
+| 29 | `Cu` | Cobre |
+| 30 | `Zn` | Zinc |
+| 31 | `Ga` | Galio |
+| 32 | `Ge` | Germanio |
+| 33 | `As` | Arsénico |
+| 34 | `Se` | Selenio |
+| 35 | `Br` | Bromo |
+| 36 | `Kr` | Kriptón |
+| 37 | `Rb` | Rubidio |
+| 38 | `Sr` | Estroncio |
+| 39 | `Y` | Itrio |
+| 40 | `Zr` | Circonio |
+| 41 | `Nb` | Niobio |
+| 42 | `Mo` | Molibdeno |
+| 43 | `Tc` | Tecnecio |
+| 44 | `Ru` | Rutenio |
+| 45 | `Rh` | Rodio |
+| 46 | `Pd` | Paladio |
+| 47 | `Ag` | Plata |
+| 48 | `Cd` | Cadmio |
+| 49 | `In` | Indio |
+| 50 | `Sn` | Estaño |
+| 51 | `Sb` | Antimonio |
+| 52 | `Te` | Telurio |
+| 53 | `I` | Yodo |
+| 54 | `Xe` | Xenón |
+| 55 | `Cs` | Cesio |
+| 56 | `Ba` | Bario |
+| 57 | `La` | Lantano |
+| 58 | `Ce` | Cerio |
+| 59 | `Pr` | Praseodimio |
+| 60 | `Nd` | Neodimio |
+| 61 | `Pm` | Prometio |
+| 62 | `Sm` | Samario |
+| 63 | `Eu` | Europio |
+| 64 | `Gd` | Gadolinio |
+| 65 | `Tb` | Terbio |
+| 66 | `Dy` | Disprosio |
+| 67 | `Ho` | Holmio |
+| 68 | `Er` | Erbio |
+| 69 | `Tm` | Tulio |
+| 70 | `Yb` | Iterbio |
+| 71 | `Lu` | Lutecio |
+| 72 | `Hf` | Hafnio |
+| 73 | `Ta` | Tántalo |
+| 74 | `W` | Wolframio |
+| 75 | `Re` | Renio |
+| 76 | `Os` | Osmio |
+| 77 | `Ir` | Iridio |
+| 78 | `Pt` | Platino |
+| 79 | `Au` | Oro |
+| 80 | `Hg` | Mercurio |
+| 81 | `Tl` | Talio |
+| 82 | `Pb` | Plomo |
+| 83 | `Bi` | Bismuto |
+| 84 | `Po` | Polonio |
+| 85 | `At` | Astato |
+| 86 | `Rn` | Radón |
+| 87 | `Fr` | Francio |
+| 88 | `Ra` | Radio |
+| 89 | `Ac` | Actinio |
+| 90 | `Th` | Torio |
+| 91 | `Pa` | Protactinio |
+| 92 | `U` | Uranio |
+| 93 | `Np` | Neptunio |
+| 94 | `Pu` | Plutonio |
+| 95 | `Am` | Americio |
+| 96 | `Cm` | Curio |
+| 97 | `Bk` | Berkelio |
+| 98 | `Cf` | Californio |
+| 99 | `Es` | Einstenio |
+| 100 | `Fm` | Fermio |
+| 101 | `Md` | Mendelevio |
+| 102 | `No` | Nobelio |
+| 103 | `Lr` | Lawrencio |
+| 104 | `Rf` | Rutherfordio |
+| 105 | `Db` | Dubnio |
+| 106 | `Sg` | Seaborgio |
+| 107 | `Bh` | Bohrio |
+| 108 | `Hs` | Hasio |
+| 109 | `Mt` | Meitnerio |
+| 110 | `Ds` | Darmstatio |
+| 111 | `Rg` | Roentgenio |
+| 112 | `Cn` | Copernicio |
+| 113 | `Nh` | Nihonio |
+| 114 | `Fl` | Flerovio |
+| 115 | `Mc` | Moscovio |
+| 116 | `Lv` | Livermorio |
+| 117 | `Ts` | Teneso |
+| 118 | `Og` | Oganesón |
 
-La [Lección 4.2](https://www.acs.org/middleschoolchemistry/lessonplans/chapter4/lesson2.html) de la American Chemical Society para enseñanza secundaria se centra en los primeros 20 elementos e introduce el nombre, el símbolo, el número atómico y la masa atómica. También enseña que el número atómico equivale al número de protones. Es un buen ejemplo de un conjunto inicial bien delimitado, no una norma que obligue a todos los principiantes a detenerse en 20 ni a todos los estudiantes avanzados a aprender los 118.
+La IUPAC aprobó oficialmente en noviembre de 2016 los nombres y símbolos `Nh`, `Mc`, `Ts` y `Og` para los elementos 113, 115, 117 y 118. Este [anuncio de la IUPAC sobre sus nombres](https://iupac.org/iupac-announces-the-names-of-the-elements-113-115-117-and-118/) resulta útil si una hoja de ejercicios antigua todavía muestra símbolos temporales de tres letras.
 
-Toma como fuentes principales al profesor, el programa, la tabla asignada y el libro de texto. ACS, NIST y CIAAW son referencias sólidas para comprobar datos, pero la denominación o el redondeo esperados en un examen pueden seguir dependiendo del curso. Los mazos anónimos de «tabla periódica completa» suelen hacerlo al revés: eligen primero los datos y dejan para después la pregunta de si encajan con lo que estudias.
+## El número atómico no es la masa atómica
 
-## Dedica cada tarjeta a un solo dato de la tabla periódica
+La casilla de un elemento puede mostrar varios números, pero cada uno representa un dato distinto.
 
-Las flashcards de elementos más útiles suelen encajar en cuatro categorías. Formula cada anverso de manera que solo admita una respuesta esperada.
+- El **número atómico** identifica el elemento y corresponde a su número de protones. El sodio siempre tiene el número atómico 11.
+- El **símbolo del elemento** es la abreviatura de una o dos letras. Las mayúsculas y minúsculas forman parte de la notación: el sodio es `Na`, no `NA` ni `na`.
+- La **masa atómica y el peso atómico** no son el número atómico. En las tablas escolares, cualquiera de los dos términos puede acompañar al valor decimal de la casilla, pero no son del todo equivalentes; respeta el nombre, la precisión y la convención que emplee la tabla.
+- El **número másico** es la suma entera de protones y neutrones de un nucleido.
 
-### Nombres de elementos y símbolos con el uso correcto de mayúsculas y minúsculas
+El número entero entre corchetes que algunas tablas muestran para un elemento radiactivo suele ser un número másico, no otro número atómico ni un peso atómico estándar.
 
-En los símbolos de los elementos, las mayúsculas y las minúsculas importan. La primera letra va en mayúscula; si hay una segunda, va en minúscula. `Co`, `C`, `O` y `CO` nunca deberían fundirse en un mismo patrón visual.
+Por eso, la tabla anterior se limita al nombre, el símbolo y el número atómico. Esos tres datos bastan para responder a la consulta sin ambigüedades. El [historial de versiones de la tabla periódica](https://www.nist.gov/pml/periodic-table-version-history) del NIST también muestra por qué un mazo con valores precisos de peso atómico debe indicar la fuente y la fecha: los valores de referencia pueden revisarse. Si tu curso evalúa pesos atómicos, utiliza el nombre exacto de la propiedad, la edición de la tabla y la regla de redondeo que indique.
 
-```text
-Anverso: ¿Qué elemento tiene el símbolo Na?
-Reverso: Sodio.
-Fuente: Tabla periódica del curso
+## Cómo memorizar la tabla periódica: empieza por tu curso
 
-Anverso: Escribe el símbolo del sodio. Respeta las mayúsculas y minúsculas.
-Reverso: Na.
-Fuente: Tabla periódica del curso
-```
+Ver 118 filas puede llevarte a asumir una tarea que tu curso nunca te encargó: «Supongo que tengo que memorizarlo todo». En realidad, el temario suele ser mucho más reducido. Consulta el programa de la asignatura, las indicaciones del profesor, la hoja de consulta permitida y las preguntas recientes antes de crear un mazo.
 
-Estos enunciados ponen a prueba dos sentidos de recuperación distintos. Conserva ambos si el curso te pide leer símbolos y también escribirlos. Añade una tarjeta de contraste únicamente cuando aparezca una confusión real:
+| Si tus ejercicios te piden… | Qué necesitas recordar | Qué dejar fuera de este mazo |
+| --- | --- | --- |
+| identificar elementos comunes en fórmulas | símbolo → nombre | la escritura completa de fórmulas y los problemas de nomenclatura |
+| escribir símbolos a partir de los nombres de los elementos | nombre → símbolo respetando mayúsculas y minúsculas | las cargas y los subíndices de los compuestos |
+| conocer los primeros 20 elementos | el tipo de pregunta exigido para los elementos 1–20 | los otros 98 hasta que el curso llegue a ellos |
+| reconstruir la tabla | determinadas identidades y algunos puntos de referencia de grupos y periodos | la práctica repetida con tablas en blanco |
+| comparar tendencias periódicas | unas pocas reglas sobre la dirección de las tendencias y excepciones concretas | las explicaciones y las comparaciones no practicadas |
+| escribir configuraciones electrónicas | las configuraciones y excepciones exigidas por el curso | el proceso de llenado de orbitales usado para deducirlas |
+| recordar la identidad de los 118 elementos | las correspondencias que se evalúen entre nombres, símbolos y números atómicos | masas, tendencias y configuraciones, salvo que se exijan por separado |
+
+Los profesores pueden evitar mucha ambigüedad si aclaran qué dato darán y cuál habrá que recordar. «Conocer los elementos» puede significar identificar un nombre a partir de un símbolo, escribir el símbolo, rellenar una tabla en blanco o recordar números atómicos. Cada una de esas tareas requiere una cantidad de tarjetas muy distinta.
+
+## Crea tarjetas a partir del error, no de la casilla entera
+
+`Co` es cobalto. `CO` es una fórmula formada por dos símbolos distintos: `C` y `O`. Una letra minúscula cambia el significado de la notación. Una tarjeta de refuerzo útil se centra en ese error concreto:
 
 ```text
 Anverso: ¿Qué elemento tiene el símbolo Co?
 Reverso: Cobalto.
 
-Anverso: En la fórmula CO, ¿qué dos símbolos de elementos aparecen?
+Anverso: En CO, ¿qué dos símbolos de elementos aparecen?
 Reverso: C de carbono y O de oxígeno.
 ```
 
-La segunda tarjeta evalúa la lectura de fórmulas, no un símbolo alternativo del cobalto. Aun así, tendrás que leer los símbolos dentro de fórmulas reales: la tarjeta solo ayuda a corregir el error de mayúsculas y minúsculas.
+La segunda pregunta sirve para practicar la lectura de fórmulas; no es otra tarjeta sobre el cobalto. Otros símbolos fáciles de confundir son `S` y `Si`, `N` y `Ni`, `C` y `Ca`, y `P` y `Pb`. Escribe siempre en minúscula la segunda letra de los símbolos de dos letras.
 
-### Números atómicos, identidad de los elementos y protones
+Algunos símbolos resultan difíciles por otro motivo: el nombre en español no permite deducirlos fácilmente. Si entran en el temario, son buenos candidatos para las primeras tarjetas basadas en errores:
 
-El número atómico identifica al elemento de forma clara y estable. Es igual al número de protones del núcleo. Los isótopos de un mismo elemento pueden tener distinto número de neutrones, pero conservan el mismo número de protones y, por tanto, el mismo número atómico.
+| Elemento | Símbolo | Número atómico |
+| --- | :---: | ---: |
+| Sodio | `Na` | 11 |
+| Potasio | `K` | 19 |
+| Hierro | `Fe` | 26 |
+| Cobre | `Cu` | 29 |
+| Plata | `Ag` | 47 |
+| Estaño | `Sn` | 50 |
+| Antimonio | `Sb` | 51 |
+| Wolframio | `W` | 74 |
+| Oro | `Au` | 79 |
+| Mercurio | `Hg` | 80 |
+| Plomo | `Pb` | 82 |
+
+No prepares las once tarjetas solo porque aparezcan en esta lista. Haz primero una prueba con una tabla en blanco o un cuestionario de símbolos y conserva las que falles.
+
+## Un dato por tarjeta permite evaluarte con rigor
+
+«Dime todo sobre el sodio» parece eficiente porque cabe en una sola tarjeta. El problema aparece durante el repaso: quizá recordaste `Na` y 11, pero situaste el sodio en el periodo equivocado. Es difícil evaluar con rigor una respuesta parcialmente correcta.
+
+Separa los datos que debes recordar:
 
 ```text
-Anverso: ¿Cuál es el número atómico del sodio?
-Reverso: 11.
+Anverso: Escribe el símbolo del sodio. Respeta las mayúsculas y minúsculas.
+Reverso: Na.
+
+Anverso: ¿Qué elemento tiene el símbolo Na?
+Reverso: Sodio.
 
 Anverso: ¿Qué elemento tiene el número atómico 11?
-Reverso: Sodio (Na).
-
-Anverso: ¿Cuántos protones hay en el núcleo de un átomo de sodio?
-Reverso: 11.
+Reverso: Sodio.
 ```
 
-Casi nunca hace falta crear las tres tarjetas para cada elemento. Empieza por el sentido que evalúe tu curso. Añade la tarjeta sobre el número de protones si esa relación te cuesta o la fallas de forma repetida. De lo contrario, un solo dato se convierte, casi sin darte cuenta, en tres repasos pendientes.
+Son tres tipos de pregunta, no tres tarjetas obligatorias. Empieza por el que aparezca en tus ejercicios. Añade la pregunta inversa solo si también debes responder en esa dirección o si la práctica deja al descubierto una carencia. Invertir automáticamente cada dato puede convertir 118 elementos en cientos de repasos sin mejorar la habilidad que exige la evaluación.
 
-### Grupos, periodos y relaciones dentro de las familias
+Para ver más ejemplos de diseño de tarjetas, consulta [Cómo crear mejores flashcards](/blog/how-to-make-better-flashcards/).
 
-Las preguntas sobre la posición deben indicar qué convención de numeración utilizan. Actualmente, los grupos se numeran del 1 al 18, aunque algunos materiales didácticos también muestran denominaciones antiguas. Sigue la convención de tu curso y no mezcles dos sistemas en el reverso.
+## Un plan práctico para memorizar el conjunto que necesitas
 
-```text
-Anverso: ¿En qué periodo se encuentra Na?
-Reverso: Periodo 3.
+Empieza con una prueba diagnóstica, aunque solo dure cinco minutos.
 
-Anverso: Con la numeración de grupos 1–18, ¿en qué grupo se encuentra Na?
-Reverso: Grupo 1.
+1. **Anota el alcance exacto.** «Elementos 1–20, nombre ↔ símbolo» es concreto. «Aprender la tabla periódica» no lo es.
+2. **Haz una prueba breve sin apuntes.** Usa una tabla en blanco, un cuestionario del profesor o un problema de química reciente. Anota cada error concreto.
+3. **Crea una tarjeta por cada tipo de pregunta que hayas fallado.** No añadas tarjetas sobre el número atómico, el grupo, la masa y las tendencias salvo que esos datos sean obligatorios.
+4. **Aprende un bloque delimitado.** Una unidad del curso, una familia o los elementos 1–20 te ofrecen una meta visible. Si necesitas los 118, usa pequeños bloques numerados en lugar de cargarlo todo el primer día.
+5. **Mezcla los elementos que se confunden cuando ya conozcas cada uno por separado.** Incluye `Co`, `C` y `O` en la misma sesión de práctica; mezcla los números atómicos cercanos que sigas confundiendo entre sí. Flashcards Open Source App no crea estos contrastes automáticamente, así que tendrás que decidir cómo ordenar o etiquetar el mazo.
+6. **Reconstruye la estructura fuera del mazo.** Rellena una tabla en blanco y di en voz alta las posiciones de referencia de los grupos o periodos. Las tarjetas aisladas no enseñan por sí solas la disposición espacial.
+7. **Vuelve a la química.** Lee fórmulas, explica una tendencia, escribe una configuración electrónica y resuelve problemas nuevos. Si un error se repite, conviértelo en una pequeña tarjeta de refuerzo.
 
-Anverso: En el grupo 1, ¿qué elemento está justo debajo de Na?
-Reverso: Potasio (K).
-```
+Mantén una cola diaria de repasos realista mientras amplías el conjunto. [¿Cuántas flashcards nuevas al día?](/blog/how-many-new-flashcards-per-day/) explica cómo usar el volumen de repasos pendientes, en lugar de la ambición, para fijar el ritmo de incorporación.
 
-Unas pocas tarjetas sobre relaciones pueden aportar más que dos tarjetas de coordenadas por elemento. Te obligan a leer la tabla como una estructura en lugar de verla como 118 casillas independientes.
+## Mazos preparados para tres objetivos distintos
 
-### Tendencias periódicas dentro de un alcance definido
+Si de verdad necesitas recordar la identidad de los 118 elementos, el mazo instalable [Flashcards de la tabla periódica: nombres, símbolos y números atómicos de los 118 elementos](/catalog/packages/periodic-table-elements/) contiene 354 tarjetas. Incluye tres tipos de tarjeta bien definidos para cada elemento: nombre → símbolo, símbolo → nombre y número atómico → identidad completa del elemento. Excluye pesos atómicos, disposición espacial, tendencias y configuraciones electrónicas, de modo que sigue siendo un mazo para recordar identidades en vez de intentar convertirse en un curso de química.
 
-Las tarjetas sobre tendencias pueden recoger una dirección, una regla de comparación o una excepción concreta exigida por el curso. Especifica en el enunciado la zona de la tabla y la dirección:
+Otros dos mazos cubren contenidos diferentes:
 
-```text
-Anverso: ¿Cuál es la tendencia general del radio atómico de izquierda a derecha a lo largo de un periodo?
-Reverso: El radio atómico suele disminuir.
-Fuente: Gráfico de tendencias del curso, sección 3.2
-```
+- [Flashcards de tendencias periódicas](/catalog/packages/periodic-trends-flashcards/) incluye reglas breves sobre tendencias, distinciones importantes y comparaciones.
+- [Flashcards de configuración electrónica: los 118 elementos](/catalog/packages/electron-configuration-flashcards-all-elements/) incluye las configuraciones del estado fundamental de átomos neutros, con predicciones claramente señaladas cuando los datos de referencia lo requieren.
 
-`General` y `a lo largo de un periodo` son detalles importantes. «¿Tendencia del radio atómico?» no indica la dirección, la parte de la tabla ni cuánta explicación exige la respuesta. Reserva las tarjetas para la regla breve. Explica las causas, estudia las excepciones que se enseñen en clase y compara elementos desconocidos mediante problemas escritos.
+Los prefijos del sistema métrico también provocan errores de mayúsculas y minúsculas —`M` y `m` no significan lo mismo—, pero no forman parte del contenido de la tabla periódica. Guárdalos en la [guía de flashcards de prefijos métricos](/blog/metric-prefixes-flashcards/) para que la notación química no acabe en un único mazo enorme y desordenado.
 
-Si un reverso empieza a acumular propiedades y salvedades, sigue el método para [crear mejores flashcards](/es/blog/how-to-make-better-flashcards/) y divide el contenido en objetivos más pequeños.
+## Lo que no pueden enseñar las flashcards de la tabla periódica
 
-## Las tarjetas de número atómico son estables; las de peso atómico deben indicar la versión
+Las flashcards sirven para afianzar asociaciones precisas: `Fe` → hierro, 26 → hierro o «sodio» → `Na`. Son mucho menos útiles como única práctica para ejercicios que combinan varios pasos o conceptos.
 
-El número que aparece como «masa» en una casilla de la tabla periódica merece atención. Los materiales didácticos no siempre usan estos términos con la misma precisión, y cuatro conceptos relacionados se confunden con facilidad:
+Sigue practicando fuera del mazo:
 
-- el número atómico es el número de protones e identifica el elemento
-- el número másico es la suma entera de protones y neutrones de un nucleido concreto
-- la masa atómica isotópica es la masa de un isótopo concreto
-- la masa atómica relativa y el peso atómico estándar aportan información ponderada basada en las masas atómicas; según la definición de CIAAW, el peso atómico estándar se aplica a materiales normales
+- reconstruir las posiciones en una tabla periódica en blanco
+- leer la leyenda de la tabla y usar la edición facilitada en clase
+- explicar por qué se produce una tendencia y trabajar con las excepciones enseñadas en el curso
+- escribir e interpretar fórmulas y ecuaciones
+- deducir configuraciones electrónicas en lugar de limitarte a reconocer el resultado final
+- resolver cálculos y problemas desconocidos de varios pasos
+- realizar el trabajo de laboratorio con la supervisión y las medidas de seguridad necesarias
 
-Usa el nombre exacto de la propiedad que enseñe tu curso. El valor redondeado de una tabla escolar puede ser la respuesta esperada aunque una referencia científica muestre más decimales o un intervalo. Si copias un decimal sin indicar qué representa, una tarjeta que parecía correcta el lunes puede contradecir la hoja de ejercicios el viernes.
-
-Cada tarjeta de peso atómico debe registrar:
-
-- la propiedad exacta mencionada en el enunciado
-- la edición de la tabla o del libro de texto asignado
-- la precisión o regla de redondeo exigida
-- la fecha en que se comprobó el valor
-
-La [tabla periódica de los elementos de NIST](https://www.nist.gov/pml/periodic-table-elements) contiene los datos de propiedades atómicas más recientes que NIST ha sometido a evaluación crítica. La tabla actual indica que se actualizó por última vez en junio de 2024; la página web se actualizó el 12 de febrero de 2025. NIST es una fuente sólida para comprobar datos, pero no es la única tabla periódica «oficial» ni un motivo para sustituir la convención con la que se te evaluará.
-
-La tabla de referencia definitiva más reciente de CIAAW es [Pesos atómicos estándar 2024](https://ciaaw.org/atomic-weights.htm). Algunos elementos aparecen con valores expresados como intervalos porque la composición isotópica de los materiales normales puede variar. En 2024, CIAAW también revisó los pesos atómicos estándar del gadolinio, el lutecio y el zirconio. Por eso, un mazo lleno de decimales precisos debe indicar la fuente y la fecha de comprobación.
-
-Los [elementos radiactivos no tienen pesos atómicos estándar](https://ciaaw.org/radioactive-elements.htm). Muchas tablas periódicas muestran entre corchetes el número másico de un isótopo seleccionado. Ese entero entre corchetes es un número másico, no un peso atómico sin decimales.
-
-A menos que el curso exija recordar pesos atómicos de memoria, practica con la tabla que te proporcionen y aplica su regla de redondeo. Esa suele ser la habilidad que necesitas para resolver el trabajo de química.
-
-## Crea la tarjeta inversa solo cuando esa habilidad importe
-
-La inversión automática puede convertir un solo elemento en tarjetas del nombre al símbolo, del símbolo al nombre, del elemento al número atómico y del número atómico al elemento. Si además añades grupo, periodo, familia, peso y tendencias, el mazo se hará enorme antes de que hayas resuelto un solo problema de química.
-
-Conserva una tarjeta inversa cuando esa dirección aparezca en el trabajo real o deje al descubierto una laguna concreta. Leer `Na` como sodio y escribir `Na` a partir de «sodio» son dos tareas habituales. En cambio, identificar el elemento 57 solo por su número atómico puede aportar poco en un curso que siempre proporciona la tabla.
-
-Empieza por la dirección que se evalúe. Añade la inversa cuando una prueba, un ejercicio con una tabla en blanco o un problema de química demuestre que la necesitas. Si acumulas tarjetas nuevas más deprisa de lo que permite tu tiempo de estudio, [ajusta la cantidad a la carga de repasos pendientes](/es/blog/how-many-new-flashcards-per-day/) en lugar de perseguir un mazo completo.
-
-## Cómo memorizar la tabla periódica sin reducirla a datos sueltos
-
-Un mazo pequeño para corregir errores resulta más útil que uno enorme preparado de antemano. Empieza con una tabla periódica en blanco, una prueba de símbolos o un problema de química del tema actual, sin mirar los apuntes. Anota el fallo exacto: «escribí `CO` en lugar de cobalto», «puse el sodio en el periodo 2» o «interpreté el decimal como número atómico». Comprueba la respuesta correcta antes de guardarla.
-
-Después, sigue este ciclo:
-
-1. Elige un conjunto definido por el curso, como los primeros 20 elementos o los elementos de la unidad actual.
-2. Aprende una categoría nueva en un bloque breve: del nombre al símbolo, números atómicos o posiciones.
-3. Pon a prueba la estructura completa fuera del mazo: rellena una tabla en blanco, interpreta una tabla que no conozcas o resuelve un problema.
-4. Convierte los errores importantes o repetidos en tarjetas breves, cada una con un solo objetivo y una nota sobre la fuente.
-5. Mezcla categorías próximas cuando ya las domines. Coloca `C`, `O`, `Co` y `CO` cerca, o combina elementos vecinos cuyos números atómicos sigas intercambiando.
-6. Completa los repasos pendientes y vuelve a las fórmulas, las ecuaciones, las explicaciones de tendencias y los cálculos.
-7. Elimina duplicados y reescribe los enunciados ambiguos. Repetir no arregla una tarjeta defectuosa.
-
-La práctica por bloques ayuda mientras aún estás aprendiendo una categoría. Mezclar categorías después te obliga a elegir entre respuestas parecidas sin que el nombre del mazo desvele cuál corresponde. En un [estudio en el aula con 155 estudiantes de los grados 9.º a 12.º](https://pubmed.ncbi.nlm.nih.gov/35436145/), los alumnos hicieron pruebas semanales de ciencias durante cuatro semanas y una prueba posterior un mes después de la última. El rendimiento medio fue mayor en el contenido evaluado mediante recuperación intercalada que en el evaluado mediante recuperación por bloques. Este resultado respalda la introducción deliberada de mezclas una vez dominados los fundamentos; no garantiza que funcionen igual para cada estudiante ni justifica aleatorizar un mazo nuevo desde el principio.
-
-La [guía sobre práctica intercalada](/es/blog/how-to-use-interleaving-with-flashcards/) explica cómo elegir categorías relacionadas. Flashcards Open Source App no crea estas mezclas automáticamente, por lo que tendrás que organizar los contrastes mediante mazos o etiquetas.
-
-Si el error procede de una hoja de ejercicios o de una imagen de la tabla, recorta solo la zona útil y comprueba todas las etiquetas visibles antes de crear la tarjeta. El [método para convertir imágenes en flashcards](/es/blog/how-to-turn-images-into-flashcards/) explica cómo preparar ese material. La reconstrucción completa de una tabla en blanco debe quedar fuera del mazo: reconocer una casilla recortada y reconstruir el mapa espacial son tareas distintas.
-
-Si de verdad tienes que aprender los 118 elementos, aplica el mismo ciclo a secciones manejables aprobadas por el curso. Después, mezcla esas secciones y reconstruye la tabla completa con regularidad. El objetivo sigue siendo comprender un sistema periódico conectado, no memorizar 118 datos aislados.
-
-Para practicar los nombres, símbolos y números atómicos, el [mazo en español de los 118 elementos](/es/catalog/packages/tabla-periodica-elementos-tarjetas-espanol/) contiene 354 tarjetas para practicar nombre → símbolo, símbolo → nombre y número atómico → nombre + símbolo; no incluye masas, tendencias ni otras propiedades.
-
-## Mantén la química de verdad fuera del mazo
-
-Las flashcards de la tabla periódica sirven para recordar datos con rapidez. No sustituyen:
-
-- la lectura de una tabla completa y su leyenda
-- la reconstrucción de las posiciones de los elementos en una tabla en blanco
-- la explicación de por qué se produce una tendencia periódica y dónde se aplican las excepciones estudiadas en clase
-- la escritura e interpretación de fórmulas y ecuaciones químicas
-- el ajuste de ecuaciones y la realización de cálculos
-- la resolución de problemas nuevos de varios pasos
-- la observación, las mediciones y la seguridad en el laboratorio
-
-Las tarjetas ponen a tu alcance algunos datos que necesitas para esas tareas, pero no hacen el trabajo por ti. La [guía de flashcards para química avanzada](/es/blog/how-to-use-flashcards-for-advanced-chemistry/) aplica la misma separación a todo el curso: lleva a los repasos las distinciones reutilizables y los errores repetidos, y deja fuera los cálculos, la interpretación del trabajo de laboratorio y las preguntas de respuesta desarrollada.
+La [guía de flashcards para química avanzada](/blog/how-to-use-flashcards-for-advanced-chemistry/) explica con más detalle la diferencia entre recordar datos breves y practicar problemas completos.
 
 ## Cómo encaja Flashcards Open Source App
 
-[Flashcards Open Source App](/es/features/) ofrece tarjetas con anverso y reverso, mazos y etiquetas, además de repasos pendientes con FSRS mediante `Again`, `Hard`, `Good` y `Easy`. Puedes usar la versión web alojada; los clientes web, iOS y Android siguen un enfoque offline-first para estudiar tarjetas. El código se distribuye con licencia MIT y el proyecto admite el autoalojamiento.
+[Flashcards Open Source App](/features/) permite usar tarjetas convencionales con anverso y reverso, mazos, etiquetas y repasos pendientes con FSRS y las valoraciones `Again`, `Hard`, `Good` y `Easy`. Puedes instalar el mazo de los 118 elementos o crear otro más pequeño que se ajuste a tu curso.
 
-El chat con IA puede usar los datos del espacio de trabajo y los archivos adjuntos para preparar borradores de tarjetas a partir de una lección, una tabla del curso o una lista de errores. Antes de guardar una tarjeta, coteja con la fuente principal cada nombre de elemento, símbolo, número, denominación de propiedad y regla de redondeo. La aplicación no incluye un editor específico de química, verificación automática de datos, práctica intercalada automática ni un mazo oficial de elementos. La [guía de primeros pasos](/es/docs/getting-started/) explica cómo crear tarjetas y completar los repasos pendientes.
+El chat con IA y los archivos adjuntos pueden ayudarte a preparar borradores de tarjetas a partir de una tabla de la lección o una lista de errores. Antes de guardar una tarjeta, comprueba cada nombre, símbolo, número atómico, nombre de propiedad y regla de redondeo con la fuente de referencia de tu curso. La aplicación no incluye un verificador específico de química ni alterna los temas de forma automática. La [guía de primeros pasos](/docs/getting-started/) explica cómo crear tarjetas y comenzar los repasos pendientes.
 
-## Preguntas frecuentes sobre las flashcards de la tabla periódica
+## Preguntas frecuentes sobre la tabla periódica
 
-### ¿Debo memorizar los 118 elementos?
+### ¿Cuántos elementos hay en la tabla periódica en 2026?
 
-Solo si tu curso u otro requisito concreto exige los 118. Empieza por el temario que se evalúe. Los primeros 20 elementos son un ejemplo didáctico habitual, mientras que otros cursos se centran en determinadas familias, iones comunes, metales de transición o elementos que aparecen en los problemas del tema.
+Hay 118 elementos conocidos. El hidrógeno tiene el número atómico 1 y el oganesón, el 118. Las tablas actuales de ACS, NIST e IUPAC terminan en el elemento 118.
 
-### ¿Cuál es la mejor forma de memorizar los primeros 20 elementos?
+### ¿Cuál es el elemento 118?
 
-Primero confirma que los elementos del 1 al 20 sean realmente tu objetivo. Aprende los nombres y los símbolos respetando mayúsculas y minúsculas en un bloque breve, añade los números atómicos que exija el curso y completa una tabla en blanco para conservar la disposición espacial. Después, mezcla elementos vecinos o fáciles de confundir mientras sigues utilizándolos en fórmulas y problemas.
+El oganesón, con símbolo `Og`, es el elemento 118. La IUPAC aprobó su nombre y símbolo actuales en noviembre de 2016 junto con los del nihonio (`Nh`), el moscovio (`Mc`) y el teneso (`Ts`).
 
-### ¿Cómo puedo recordar símbolos de elementos que se confunden fácilmente?
+### ¿Deben los estudiantes memorizar los 118 elementos?
 
-Usa una tarjeta directa en el sentido que se evalúe y añade después una tarjeta de contraste para esa confusión concreta. `Co` frente a `C` y `O` resulta más útil que una tarjeta general sobre «símbolos parecidos». Respeta las mayúsculas y minúsculas, y practica también la lectura de símbolos dentro de fórmulas químicas reales.
+Solo si el curso o el examen exige los 118. Muchos estudiantes necesitan un conjunto más pequeño, como los elementos 1–20, los elementos comunes en fórmulas, determinadas familias o los de la unidad actual. Confirma también qué dato te darán y cuál tendrás que recordar: reconocer `Na` y escribir ese símbolo a partir de «sodio» son habilidades distintas.
 
-### ¿Debo incluir la masa atómica o el peso atómico en las flashcards?
+### ¿Es lo mismo el número atómico que la masa atómica?
 
-Solo si el curso exige recordarlos. Anota el nombre exacto de la propiedad, la tabla de referencia, la precisión o regla de redondeo y la fecha de comprobación. Nunca trates el número másico entre corchetes de un elemento radiactivo como si fuera un peso atómico estándar.
+No. El número atómico es el número de protones e identifica el elemento. El número másico cuenta los protones y neutrones de un nucleido; la masa atómica y el peso atómico describen cantidades distintas relacionadas con la masa. Usa el término y la referencia exactos que indique tu curso.
 
-### ¿Pueden las flashcards enseñar tendencias periódicas?
+### ¿Cuál es la forma más rápida de aprender los nombres y símbolos de los elementos?
 
-Pueden ayudarte a recordar una dirección, una relación o una excepción concreta. Aun así, tendrás que explicar la tendencia, comparar elementos desconocidos, interpretar una tabla y resolver problemas. Evita las reglas generales que no indiquen dirección ni alcance.
+Define el conjunto mínimo necesario, ponlo a prueba sin apuntes y crea tarjetas solo para los tipos de pregunta que hayas fallado. Después, comprueba lo aprendido con una tabla en blanco y preguntas reales de química.
 
-### ¿Son fiables las flashcards de elementos ya preparadas?
+## Consulta la tabla y después ciérrala
 
-Trátalas como borradores. Pueden abarcar un temario equivocado, usar otra convención para numerar los grupos, aplicar un redondeo distinto, contener datos desactualizados sobre pesos atómicos o incluir simples errores en los símbolos. Comprueba cada tarjeta que conserves con la fuente que rige tu curso.
-
-## Mantén conectada la tabla periódica
-
-Las buenas **flashcards de la tabla periódica** permiten recordar con rapidez un conjunto definido de nombres, símbolos de elementos escritos con las mayúsculas y minúsculas correctas, números atómicos, posiciones y tendencias exigidas. Créelas a partir del temario del curso, documenta la versión de cualquier respuesta sobre pesos atómicos, invierte solo los sentidos que necesites y añade tarjetas de refuerzo a partir de errores reales.
-
-Después, vuelve a mirar la tabla completa. Reconstruye el mapa, explica la tendencia, escribe la fórmula y resuelve el problema de química. Las tarjetas habrán cumplido su función si te permiten hacer todo eso con más fluidez.
+Usa la tabla de 118 filas cuando necesites una referencia fiable. Para practicar el recuerdo, ocúltala, comprueba exactamente lo que exige tu curso y crea tarjetas breves a partir de los fallos. Después vuelve a la tabla en blanco, la fórmula, la explicación de una tendencia o el cálculo: ahí es donde tendrás que aplicar lo aprendido.
