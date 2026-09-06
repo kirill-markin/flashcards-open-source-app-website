@@ -1,225 +1,306 @@
 ---
-title: "Periodensystem-Flashcards 2026: Elemente, Symbole und Ordnungszahlen"
-description: "Erstelle Periodensystem-Flashcards zu Elementnamen, Symbolen, Ordnungszahlen und Trends – ohne Fakten zu pauken, die dein Chemiekurs gar nicht verlangt."
+title: "Wie viele Elemente hat das Periodensystem? Alle 118 (2026)"
+description: "Das Periodensystem enthält 2026 insgesamt 118 Elemente. Hier findest du alle Namen, Symbole und Ordnungszahlen – plus einen Karteikartenplan passend zu deinem Kurs."
 date: "2026-08-08"
-image: "/blog/periodic-table-flashcards.png"
+updated: "2026-09-06"
+image: "/blog/periodic-table-flashcards-v2.png"
 keywords:
-  - "periodensystem flashcards"
-  - "elemente flashcards"
-  - "chemische elemente flashcards"
-  - "elementsymbole flashcards"
-  - "ordnungszahlen flashcards"
+  - "wie viele elemente hat das periodensystem"
+  - "periodensystem 2026"
+  - "118 elemente"
+  - "elementnamen und symbole"
+  - "ordnungszahlen"
+  - "karteikarten zum periodensystem"
   - "periodensystem auswendig lernen"
-  - "elementsymbole auswendig lernen"
-  - "erste 20 elemente flashcards"
-  - "periodische trends flashcards"
+  - "karteikarten zu den ersten 20 elementen"
 ---
 
-`Co` steht für Kobalt. `CO` ist Kohlenmonoxid und setzt sich aus den beiden Elementsymbolen `C` und `O` zusammen. Ein einziger Kleinbuchstabe ändert die Antwort. Auch das Kästchen für Natrium birgt eine typische Falle: `Na` hat die Ordnungszahl 11. Die größere Dezimalzahl, die auf vielen Periodensystemen im Unterricht steht, bezeichnet eine andere Eigenschaft.
+Das Periodensystem enthält im Jahr 2026 **118 bekannte Elemente**. Die Liste reicht von Wasserstoff mit der Ordnungszahl 1 bis Oganesson mit der Ordnungszahl 118. Die [American Chemical Society](https://www.acs.org/education/whatischemistry/periodictable.html) nennt dieselbe Gesamtzahl und erklärt das Ordnungsprinzip: Die Elemente sind nach steigender Ordnungszahl angeordnet.
 
-Gute **Periodensystem-Flashcards** trennen diese Aufgaben sauber. Eine Karte fragt das Symbol ab, eine zweite die Ordnungszahl und eine dritte vielleicht die Position oder einen im Kurs verlangten Trend. Packst du das komplette Elementkästchen auf eine Karte, lässt sich eine nur teilweise richtige Antwort erstaunlich schwer bewerten.
+Wenn du nur schnell etwas nachschlagen möchtest, findest du direkt hier die vollständige Tabelle. Sie enthält für jedes Element den Namen, das Symbol in korrekter Groß- und Kleinschreibung sowie die Ordnungszahl – ohne diese Angaben mit Atomgewichten zu vermischen. Nach der Tabelle erfährst du, wie du prüfst, welche Fakten dein Kurs tatsächlich verlangt, und genau daraus Karteikarten erstellst.
 
-![Periodensystem-Flashcards für Elementnamen, Symbole mit korrekter Groß- und Kleinschreibung sowie Ordnungszahlen](/blog/periodic-table-flashcards.png)
+**Fakten geprüft am:** 6. September 2026.
 
-## Beginne mit deinem Kurs, nicht mit allen 118 Elementen
+![Ein kleines Kammerensemble probt vor einem vollständigen Orchester als Bild für die Kursauswahl aus allen 118 Elementen](/blog/periodic-table-flashcards-v2.png)
 
-Das Periodensystem enthält [118 bekannte Elemente](https://www.acs.org/education/whatischemistry/periodictable.html), geordnet nach steigender Ordnungszahl. Die Zeilen heißen Perioden, die Spalten Gruppen. Diese Anordnung macht zugleich Trends bei den Eigenschaften sichtbar. Trotzdem müssen Lernende nicht grundsätzlich alle 118 Elemente auswendig lernen.
+## Alle 118 Elemente: Ordnungszahlen, Symbole und Namen
 
-Kläre deshalb vor dem Erstellen der Karten, was im Unterricht, Test oder in der Prüfung tatsächlich verlangt wird:
+Die folgende Reihenfolge von Ordnungszahlen, Symbolen und Namen wurde mit dem [Periodensystem der Elemente von NIST](https://www.nist.gov/pml/periodic-table-elements) und der [Referenztabelle der IUPAC](https://iupac.org/cms/wp-content/uploads/2018/12/IUPAC_Periodic_Table-01Dec18.pdf) abgeglichen. Für die Namen verwenden wir die etablierten deutschen Bezeichnungen. In den englischen Quellen schreibt NIST auf US-Englisch *aluminum* und *cesium*, die IUPAC dagegen *aluminium* und *caesium*. Die Unterschiede ändern weder die Symbole `Al` und `Cs` noch die Ordnungszahlen 13 und 55. Halte dich bei den Namen an die Vorgaben deines Kurses.
 
-- welche Elemente du anhand ihres Namens und Symbols bestimmen musst
-- ob du den Namen in ein Symbol, das Symbol in einen Namen oder beides übersetzen können musst
-- welche Ordnungszahlen du ohne vorgegebenes Periodensystem abrufen musst
-- ob Fragen zu Gruppe, Periode, Elementfamilie, Elektronenkonfiguration oder Trends vorkommen
-- welche Ausgabe des Periodensystems sowie welche Eigenschaftsbezeichnungen und Rundungsregeln dein Kurs verwendet
-- ob bei Prüfungen ein Periodensystem bereitgestellt wird
+| Ordnungszahl | Symbol | Elementname |
+| ---: | :---: | --- |
+| 1 | `H` | Wasserstoff |
+| 2 | `He` | Helium |
+| 3 | `Li` | Lithium |
+| 4 | `Be` | Beryllium |
+| 5 | `B` | Bor |
+| 6 | `C` | Kohlenstoff |
+| 7 | `N` | Stickstoff |
+| 8 | `O` | Sauerstoff |
+| 9 | `F` | Fluor |
+| 10 | `Ne` | Neon |
+| 11 | `Na` | Natrium |
+| 12 | `Mg` | Magnesium |
+| 13 | `Al` | Aluminium |
+| 14 | `Si` | Silicium |
+| 15 | `P` | Phosphor |
+| 16 | `S` | Schwefel |
+| 17 | `Cl` | Chlor |
+| 18 | `Ar` | Argon |
+| 19 | `K` | Kalium |
+| 20 | `Ca` | Calcium |
+| 21 | `Sc` | Scandium |
+| 22 | `Ti` | Titan |
+| 23 | `V` | Vanadium |
+| 24 | `Cr` | Chrom |
+| 25 | `Mn` | Mangan |
+| 26 | `Fe` | Eisen |
+| 27 | `Co` | Kobalt |
+| 28 | `Ni` | Nickel |
+| 29 | `Cu` | Kupfer |
+| 30 | `Zn` | Zink |
+| 31 | `Ga` | Gallium |
+| 32 | `Ge` | Germanium |
+| 33 | `As` | Arsen |
+| 34 | `Se` | Selen |
+| 35 | `Br` | Brom |
+| 36 | `Kr` | Krypton |
+| 37 | `Rb` | Rubidium |
+| 38 | `Sr` | Strontium |
+| 39 | `Y` | Yttrium |
+| 40 | `Zr` | Zirconium |
+| 41 | `Nb` | Niob |
+| 42 | `Mo` | Molybdän |
+| 43 | `Tc` | Technetium |
+| 44 | `Ru` | Ruthenium |
+| 45 | `Rh` | Rhodium |
+| 46 | `Pd` | Palladium |
+| 47 | `Ag` | Silber |
+| 48 | `Cd` | Cadmium |
+| 49 | `In` | Indium |
+| 50 | `Sn` | Zinn |
+| 51 | `Sb` | Antimon |
+| 52 | `Te` | Tellur |
+| 53 | `I` | Iod |
+| 54 | `Xe` | Xenon |
+| 55 | `Cs` | Cäsium |
+| 56 | `Ba` | Barium |
+| 57 | `La` | Lanthan |
+| 58 | `Ce` | Cer |
+| 59 | `Pr` | Praseodym |
+| 60 | `Nd` | Neodym |
+| 61 | `Pm` | Promethium |
+| 62 | `Sm` | Samarium |
+| 63 | `Eu` | Europium |
+| 64 | `Gd` | Gadolinium |
+| 65 | `Tb` | Terbium |
+| 66 | `Dy` | Dysprosium |
+| 67 | `Ho` | Holmium |
+| 68 | `Er` | Erbium |
+| 69 | `Tm` | Thulium |
+| 70 | `Yb` | Ytterbium |
+| 71 | `Lu` | Lutetium |
+| 72 | `Hf` | Hafnium |
+| 73 | `Ta` | Tantal |
+| 74 | `W` | Wolfram |
+| 75 | `Re` | Rhenium |
+| 76 | `Os` | Osmium |
+| 77 | `Ir` | Iridium |
+| 78 | `Pt` | Platin |
+| 79 | `Au` | Gold |
+| 80 | `Hg` | Quecksilber |
+| 81 | `Tl` | Thallium |
+| 82 | `Pb` | Blei |
+| 83 | `Bi` | Bismut |
+| 84 | `Po` | Polonium |
+| 85 | `At` | Astat |
+| 86 | `Rn` | Radon |
+| 87 | `Fr` | Francium |
+| 88 | `Ra` | Radium |
+| 89 | `Ac` | Actinium |
+| 90 | `Th` | Thorium |
+| 91 | `Pa` | Protactinium |
+| 92 | `U` | Uran |
+| 93 | `Np` | Neptunium |
+| 94 | `Pu` | Plutonium |
+| 95 | `Am` | Americium |
+| 96 | `Cm` | Curium |
+| 97 | `Bk` | Berkelium |
+| 98 | `Cf` | Californium |
+| 99 | `Es` | Einsteinium |
+| 100 | `Fm` | Fermium |
+| 101 | `Md` | Mendelevium |
+| 102 | `No` | Nobelium |
+| 103 | `Lr` | Lawrencium |
+| 104 | `Rf` | Rutherfordium |
+| 105 | `Db` | Dubnium |
+| 106 | `Sg` | Seaborgium |
+| 107 | `Bh` | Bohrium |
+| 108 | `Hs` | Hassium |
+| 109 | `Mt` | Meitnerium |
+| 110 | `Ds` | Darmstadtium |
+| 111 | `Rg` | Roentgenium |
+| 112 | `Cn` | Copernicium |
+| 113 | `Nh` | Nihonium |
+| 114 | `Fl` | Flerovium |
+| 115 | `Mc` | Moscovium |
+| 116 | `Lv` | Livermorium |
+| 117 | `Ts` | Tenness |
+| 118 | `Og` | Oganesson |
 
-Die [Lektion 4.2](https://www.acs.org/middleschoolchemistry/lessonplans/chapter4/lesson2.html) der American Chemical Society für die Mittelstufe konzentriert sich auf die ersten 20 Elemente und führt Namen, Symbole, Ordnungszahlen und Atommassen ein. Sie vermittelt außerdem, dass die Ordnungszahl der Protonenzahl entspricht. Das ist ein gutes Beispiel für einen klar begrenzten Einstieg. Es bedeutet weder, dass alle Anfänger bei 20 Elementen aufhören sollten, noch dass Fortgeschrittene grundsätzlich alle 118 lernen müssen.
+Im November 2016 genehmigte die IUPAC offiziell die Namen und Symbole `Nh`, `Mc`, `Ts` und `Og` für die Elemente 113, 115, 117 und 118. Die [IUPAC-Mitteilung zur Namensgebung](https://iupac.org/iupac-announces-the-names-of-the-elements-113-115-117-and-118/) ist hilfreich, wenn auf einem älteren Arbeitsblatt noch die vorläufigen Symbole mit drei Buchstaben stehen.
 
-Entscheidend sind deine Lehrkraft, der Lehrplan, das vorgegebene Periodensystem und das Lehrbuch. ACS, NIST und CIAAW eignen sich gut zum Überprüfen von Fakten. Welche Bezeichnung oder Rundung in einem Test erwartet wird, kann dennoch dein Kurs bestimmen. Anonyme Decks zum „kompletten Periodensystem“ gehen oft genau umgekehrt vor: Sie legen erst die Fakten fest, und du darfst später herausfinden, ob diese überhaupt zu deinem Lernstoff passen.
+## Ordnungszahl ist nicht Atommasse
 
-## Erstelle eine Karte pro Fakt zum Periodensystem
+Im Kästchen eines Elements können mehrere Zahlen stehen. Sie bedeuten jedoch nicht dasselbe.
 
-Die sinnvollsten Element-Flashcards lassen sich in vier Kategorien einteilen. Formuliere jede Vorderseite so eng, dass es genau eine erwartete Antwort gibt.
+- Die **Ordnungszahl** bestimmt das Element und entspricht seiner Protonenzahl. Natrium hat immer die Ordnungszahl 11.
+- Das **Elementsymbol** ist die Abkürzung aus einem oder zwei Buchstaben. Die Groß- und Kleinschreibung gehört zur Schreibweise: Natrium ist `Na`, nicht `NA` oder `na`.
+- **Atommasse und Atomgewicht** sind nicht die Ordnungszahl. In Unterrichtstabellen kann die größere Dezimalzahl mit einem dieser Begriffe bezeichnet sein. Die Begriffe sind jedoch nicht vollständig austauschbar. Halte dich deshalb genau an die Bezeichnung, Genauigkeit und Konvention deiner Tabelle.
+- Die **Massenzahl** ist die ganzzahlige Summe aus Protonen und Neutronen in einem Nuklid.
 
-### Elementnamen und Symbole mit korrekter Groß- und Kleinschreibung
+Eine eingeklammerte ganze Zahl, die manche Tabellen bei einem radioaktiven Element zeigen, ist normalerweise eine Massenzahl – keine weitere Ordnungszahl und kein Standardatomgewicht.
 
-Bei Elementsymbolen zählt die Groß- und Kleinschreibung. Der erste Buchstabe wird großgeschrieben, ein zweiter klein. `Co`, `C`, `O` und `CO` musst du auf Anhieb voneinander unterscheiden können.
+Deshalb beschränkt sich die Übersicht oben auf Name, Symbol und Ordnungszahl. Für eine eindeutige Zuordnung eines Elements genügen diese drei Angaben. Die [Versionsgeschichte des NIST-Periodensystems](https://www.nist.gov/pml/periodic-table-version-history) zeigt außerdem, warum ein Deck mit genauen Atomgewichten eine Quelle und ein Datum braucht: Die zugrunde liegenden Referenzdaten können überarbeitet werden. Wenn dein Kurs Atomgewichte abfragt, übernimm genau die verlangte Eigenschaft, Tabellenausgabe und Rundungsregel.
 
-```text
-Vorderseite: Welches Element hat das Symbol Na?
-Rückseite: Natrium.
-Quelle: Periodensystem des Kurses
+## Lerne nur, was dein Kurs verlangt
 
-Vorderseite: Schreibe das Symbol für Natrium. Achte auf die Groß- und Kleinschreibung.
-Rückseite: Na.
-Quelle: Periodensystem des Kurses
-```
+Beim Anblick von 118 Zeilen entsteht schnell eine Aufgabe, die dein Kurs nie gestellt hat: „Dann muss ich das wohl alles auswendig lernen.“ Tatsächlich ist der Lernstoff oft deutlich kleiner. Prüfe den Lehrplan, die Anweisungen deiner Lehrkraft, erlaubte Nachschlagetabellen und die letzten Aufgaben, bevor du ein Deck erstellst.
 
-Diese Aufgaben prüfen zwei verschiedene Richtungen. Behalte beide Karten, wenn du im Kurs Symbole sowohl lesen als auch schreiben musst. Eine Vergleichskarte lohnt sich erst, wenn du die Zeichen tatsächlich verwechselst:
+| Wenn deine Aufgaben verlangen, dass du … | Sinnvolles Lernziel | Das gehört nicht in dieses Deck |
+| --- | --- | --- |
+| häufige Elemente in Formeln erkennst | Symbol → Name | vollständige Formel- und Nomenklaturaufgaben |
+| Symbole zu Elementnamen schreibst | Name → Symbol in korrekter Groß- und Kleinschreibung | Ladungen und Indizes von Verbindungen |
+| die ersten 20 Elemente kennst | die verlangte Abfragerichtung für die Elemente 1–20 | die übrigen 98, bis sie im Kurs vorkommen |
+| das Periodensystem rekonstruierst | ausgewählte Elemente sowie Orientierungspunkte für Gruppen und Perioden | wiederholtes Üben mit einem leeren Periodensystem |
+| Trends im Periodensystem vergleichst | einige Richtungsregeln und ausdrücklich genannte Ausnahmen | Erklärungen und neue Vergleichsaufgaben |
+| Elektronenkonfigurationen schreibst | die im Kurs verlangten Konfigurationen und Ausnahmen | das Herleiten über die Besetzung der Orbitale |
+| alle 118 Elemente zuordnest | die geprüften Abfragerichtungen für Namen, Symbole und Ordnungszahlen | Massen, Trends und Konfigurationen, sofern sie nicht separat verlangt werden |
+
+Lehrkräfte können viele Unklarheiten vermeiden, indem sie genau angeben, was abgefragt wird. „Kennt die Elemente“ kann bedeuten, ein Symbol einem Namen zuzuordnen, das Symbol zu einem Namen aufzuschreiben, eine leere Tabelle auszufüllen oder Ordnungszahlen abzurufen. Je nach Aufgabe brauchst du ganz unterschiedlich viele Karten.
+
+## Erstelle Karten zu deinen Fehlern, nicht zum ganzen Kästchen
+
+`Co` steht für Kobalt. `CO` ist eine Formel aus den beiden getrennten Symbolen `C` und `O`. Ein einziger Kleinbuchstabe verändert also die Bedeutung der Schreibweise. Eine sinnvolle Karte setzt genau bei diesem Fehler an:
 
 ```text
 Vorderseite: Welches Element hat das Symbol Co?
 Rückseite: Kobalt.
 
-Vorderseite: Welche beiden Elementsymbole kommen in der Formel CO vor?
+Vorderseite: Welche beiden Elementsymbole kommen in CO vor?
 Rückseite: C für Kohlenstoff und O für Sauerstoff.
 ```
 
-Die zweite Karte prüft, ob du eine Formel lesen kannst. Sie zeigt kein weiteres Symbol für Kobalt. Das Lesen von Symbolen in echten Formeln bleibt weiterhin nötig; die Karte hilft lediglich dabei, den Fehler bei der Groß- und Kleinschreibung zu korrigieren.
+Die zweite Frage übt das Lesen einer Formel; sie ist keine zusätzliche Kobalt-Karte. Weitere leicht verwechselbare Schreibweisen sind `S` und `Si`, `N` und `Ni`, `C` und `Ca` sowie `P` und `Pb`. Bei einem Elementsymbol mit zwei Buchstaben wird der zweite immer kleingeschrieben.
 
-### Ordnungszahlen, Identität des Elements und Protonen
+Manche Symbole sind aus einem anderen Grund schwierig: Ihre Buchstaben lassen sich nicht ohne Weiteres aus dem deutschen Elementnamen ableiten. Falls sie zu deinem Lernstoff gehören, eignen sich solche Zuordnungen gut für frühe, gezielte Karten:
 
-Die Ordnungszahl ist das eindeutige und stabile Merkmal eines Elements. Sie entspricht der Anzahl der Protonen im Atomkern. Isotope desselben Elements können unterschiedlich viele Neutronen besitzen, ihre Protonenzahl und damit ihre Ordnungszahl bleiben jedoch gleich.
+| Element | Symbol | Ordnungszahl |
+| --- | :---: | ---: |
+| Natrium | `Na` | 11 |
+| Kalium | `K` | 19 |
+| Eisen | `Fe` | 26 |
+| Kupfer | `Cu` | 29 |
+| Silber | `Ag` | 47 |
+| Zinn | `Sn` | 50 |
+| Antimon | `Sb` | 51 |
+| Wolfram | `W` | 74 |
+| Gold | `Au` | 79 |
+| Quecksilber | `Hg` | 80 |
+| Blei | `Pb` | 82 |
+
+Erstelle nicht automatisch alle elf Karten, nur weil die Elemente in dieser Liste stehen. Teste dich zuerst mit einem leeren Periodensystem oder einem Symbolquiz und lege nur für deine Fehler Karten an.
+
+## Mit einer Information pro Karte bewertest du dich ehrlich
+
+„Erzähl mir alles über Natrium“ wirkt effizient, weil die gesamte Aufgabe auf eine Karte passt. Beim Wiederholen wird es unpraktisch: Vielleicht hast du dich an `Na` und 11 erinnert, Natrium aber der falschen Periode zugeordnet. Eine teilweise richtige Antwort lässt sich nur schwer ehrlich bewerten.
+
+Teile die geprüften Fakten stattdessen auf:
 
 ```text
-Vorderseite: Welche Ordnungszahl hat Natrium?
-Rückseite: 11.
+Vorderseite: Schreibe das Symbol für Natrium. Achte auf die Groß- und Kleinschreibung.
+Rückseite: Na.
+
+Vorderseite: Welches Element hat das Symbol Na?
+Rückseite: Natrium.
 
 Vorderseite: Welches Element hat die Ordnungszahl 11?
-Rückseite: Natrium (Na).
-
-Vorderseite: Wie viele Protonen enthält ein Natriumkern?
-Rückseite: 11.
+Rückseite: Natrium.
 ```
 
-Nur selten brauchst du für jedes Element alle drei Karten. Beginne mit der Richtung, die dein Kurs prüft. Ergänze die Karte zur Protonenzahl, wenn dir dieser Zusammenhang schwerfällt oder du ihn wiederholt falsch beantwortest. Andernfalls wird aus einem einzigen Fakt unbemerkt die dreifache Menge fälliger Wiederholungen.
+Das sind drei Abfragerichtungen, nicht drei Pflichtkarten. Beginne mit der Richtung, die in deinen Aufgaben vorkommt. Ergänze die umgekehrte Richtung nur, wenn du die Antwort auch andersherum abrufen musst oder beim Üben eine Lücke bemerkst. Wenn du jeden Fakt automatisch umkehrst, können daraus bei 118 Elementen Hunderte Wiederholungen werden, ohne dass du damit die in der Prüfung verlangte Fähigkeit besser trainierst.
 
-### Gruppen, Perioden und Beziehungen zwischen Elementfamilien
+Weitere Beispiele zur Kartengestaltung findest du unter [So erstellst du bessere Flashcards](/blog/how-to-make-better-flashcards/).
 
-Bei Fragen zur Position muss klar sein, welche Nummerierung gilt. Die heutigen Gruppennummern reichen von 1 bis 18, einige Lehrmaterialien führen daneben noch ältere Bezeichnungen auf. Übernimm das System deines Kurses, statt auf der Rückseite zwei Konventionen zu vermischen.
+## Ein praktischer Plan für deinen Lernstoff
 
-```text
-Vorderseite: In welcher Periode steht Na?
-Rückseite: Periode 3.
+Beginne mit einem konkreten Ergebnis – selbst wenn es nur aus einem fünfminütigen Selbsttest stammt.
 
-Vorderseite: In welcher Gruppe steht Na, wenn die Gruppen von 1 bis 18 nummeriert werden?
-Rückseite: Gruppe 1.
+1. **Schreibe den genauen Umfang auf.** „Elemente 1–20, Name ↔ Symbol“ ist brauchbar. „Das Periodensystem lernen“ ist es nicht.
+2. **Mache einen kurzen Test ohne Unterlagen.** Nutze ein leeres Periodensystem, einen Test deiner Lehrkraft oder eine aktuelle Chemieaufgabe. Markiere jede falsche oder fehlende Antwort.
+3. **Erstelle eine Karte pro fehlender Abfragerichtung.** Lege keine Karten zu Ordnungszahl, Gruppe, Masse oder Trend an, wenn diese Fakten nicht verlangt werden.
+4. **Lerne einen klar begrenzten Block.** Eine Unterrichtseinheit, eine Elementfamilie oder die Elemente 1–20 geben dir ein sichtbares Ziel. Wenn alle 118 verlangt werden, arbeite in kleinen Zahlenblöcken, statt am ersten Tag alles in dein Deck zu laden.
+5. **Mische leicht verwechselbare Einträge, sobald du sie einzeln sicher kennst.** Übe `Co`, `C` und `O` in derselben Sitzung und mische benachbarte Ordnungszahlen, die du immer wieder vertauschst. Flashcards Open Source App stellt solche Einträge nicht automatisch gegenüber; lege die Deckreihenfolge oder Tags deshalb selbst fest.
+6. **Übe die Anordnung außerhalb des Decks.** Fülle ein leeres Periodensystem aus und nenne Orientierungspunkte für Gruppen oder Perioden laut. Einzelne Karten vermitteln die räumliche Anordnung nicht von allein.
+7. **Kehre zur Chemie zurück.** Lies Formeln, erkläre einen Trend, schreibe eine Elektronenkonfiguration und löse unbekannte Aufgaben. Aus jedem wiederholten Fehler kann eine kleine Korrekturkarte entstehen.
 
-Vorderseite: Welches Element steht in Gruppe 1 direkt unter Na?
-Rückseite: Kalium (K).
-```
+Halte deine tägliche Wiederholungsmenge realistisch, während du den Lernstoff erweiterst. [Wie viele neue Flashcards pro Tag?](/blog/how-many-new-flashcards-per-day/) erklärt, wie du die Zahl fälliger Wiederholungen statt bloßer Ambition nutzt, um die Zahl neuer Karten festzulegen.
 
-Ein paar Karten zu solchen Beziehungen können mehr bringen als zwei Koordinatenkarten pro Element. So lernst du, das Periodensystem als zusammenhängende Struktur zu lesen und nicht als 118 voneinander unabhängige Kästchen.
+## Vorgefertigte Decks für drei verschiedene Lernziele
 
-### Periodische Trends in einem klar benannten Bereich
+Wenn du wirklich alle 118 Elemente lernen musst, enthält das installierbare Deck [Periodensystem-Flashcards: Alle 118 Namen, Symbole und Ordnungszahlen](/catalog/packages/periodic-table-elements/) 354 Karten. Für jedes Element gibt es drei eindeutige Abfragerichtungen: Name → Symbol, Symbol → Name und Ordnungszahl → vollständige Angaben zum Element. Atomgewichte, räumliche Anordnung, Trends und Elektronenkonfigurationen sind nicht enthalten. So bleibt es ein Deck für die Zuordnung der Elemente, statt zu versuchen, einen ganzen Chemiekurs zu ersetzen.
 
-Karten zu Trends können eine Richtung, eine Vergleichsregel oder eine bestimmte, im Kurs verlangte Ausnahme abfragen. Nenne in der Aufgabe sowohl den Bereich als auch die Richtung:
+Zwei separate Decks decken andere Lernziele ab:
 
-```text
-Vorderseite: Wie verläuft der allgemeine Trend des Atomradius innerhalb einer Periode von links nach rechts?
-Rückseite: Der Atomradius nimmt im Allgemeinen ab.
-Quelle: Trenddiagramm des Kurses, Abschnitt 3.2
-```
+- [Flashcards zu periodischen Trends](/catalog/packages/periodic-trends-flashcards/) behandeln knappe Trendregeln, wichtige Unterscheidungen und Vergleiche.
+- [Elektronenkonfigurations-Flashcards: Alle 118 Elemente](/catalog/packages/electron-configuration-flashcards-all-elements/) behandeln die Grundzustandskonfigurationen neutraler Atome, einschließlich klar gekennzeichneter Vorhersagen, wenn die Referenzdaten diese erfordern.
 
-`Allgemein` und `innerhalb einer Periode` sind hier entscheidend. „Trend des Atomradius?“ lässt offen, um welche Richtung und welchen Teil des Periodensystems es geht und wie ausführlich die Antwort sein soll. Die kompakte Regel passt auf die Karte. Ursachen, die im Unterricht behandelten Ausnahmen und Vergleiche unbekannter Elemente gehören in schriftliche Aufgaben.
+Metrische Präfixe sind eine weitere häufige Quelle für Fehler bei der Groß- und Kleinschreibung – `M` und `m` bedeuten nicht dasselbe –, gehören aber nicht zum Periodensystem. Behandle sie im separaten [Leitfaden zu Flashcards für metrische Präfixe](/blog/metric-prefixes-flashcards/), damit die chemische Schreibweise nicht in einem einzigen riesigen gemischten Deck landet.
 
-Sammeln sich auf einer Rückseite mehrere Eigenschaften und Einschränkungen, folge dem Ansatz aus dem Leitfaden [So erstellst du bessere Flashcards](/de/blog/how-to-make-better-flashcards/) und teile das Lernziel auf.
+## Was Periodensystem-Flashcards nicht vermitteln können
 
-## Karten zu Ordnungszahlen bleiben stabil, Karten zu Atomgewichten müssen versioniert werden
+Flashcards eignen sich gut, um eine exakte Zuordnung abrufbar zu halten: `Fe` → Eisen, 26 → Eisen oder „Natrium“ → `Na`. Als einzige Übungsform für zusammenhängende Aufgaben sind sie deutlich schwächer.
 
-Die Zahl, die in einem Kästchen des Periodensystems als „Masse“ bezeichnet wird, verdient einen genaueren Blick. Unterrichtsmaterialien verwenden die Begriffe nicht immer gleich präzise. Dadurch werden vier verwandte Größen schnell miteinander verwechselt:
+Übe deshalb Folgendes weiterhin außerhalb des Decks:
 
-- Die Ordnungszahl ist die Protonenzahl und bestimmt das Element.
-- Die Massenzahl ist die ganzzahlige Summe aus Protonen und Neutronen in einem bestimmten Nuklid.
-- Die Isotopenmasse ist die Masse eines bestimmten Isotops.
-- Relative Atommasse und Standardatomgewicht beschreiben gewichtete Angaben zur Atommasse; das Standardatomgewicht gilt nach der Definition der CIAAW für normale Materialien.
+- Positionen in einem leeren Periodensystem rekonstruieren
+- die Legende des Periodensystems lesen und die im Unterricht bereitgestellte Ausgabe verwenden
+- erklären, warum ein Trend auftritt, und die im Kurs behandelten Ausnahmen berücksichtigen
+- Formeln und Gleichungen schreiben und deuten
+- Elektronenkonfigurationen herleiten, statt nur fertige Konfigurationen wiederzuerkennen
+- Berechnungen und unbekannte mehrschrittige Aufgaben lösen
+- Laborarbeiten unter der vorgeschriebenen Aufsicht und mit den nötigen Sicherheitsmaßnahmen durchführen
 
-Verwende genau die Bezeichnung, die dein Kurs lehrt. Ein gerundeter Unterrichtswert kann die erwartete Antwort sein, auch wenn ein wissenschaftliches Nachschlagewerk mehr Dezimalstellen oder ein Intervall nennt. Wer eine Dezimalzahl ohne Bezeichnung übernimmt, hat schnell eine Karte, die am Montag noch richtig aussah und am Freitag dem Arbeitsblatt widerspricht.
+Der [Leitfaden zu Flashcards für fortgeschrittene Chemie](/blog/how-to-use-flashcards-for-advanced-chemistry/) vertieft diese Trennung zwischen gezieltem Faktenabruf und dem Lösen ganzer Aufgaben.
 
-Jede Karte zum Atomgewicht sollte Folgendes festhalten:
+## Wie Flashcards Open Source App dich unterstützt
 
-- die genaue Bezeichnung der in der Aufgabe genannten Eigenschaft
-- die verwendete Ausgabe des Periodensystems oder Lehrbuchs
-- die verlangte Genauigkeit oder Rundungsregel
-- das Datum, an dem der Wert geprüft wurde
+[Flashcards Open Source App](/features/) unterstützt klassische Karten mit Vorder- und Rückseite, Decks und Tags. FSRS plant die fälligen Wiederholungen; du bewertest sie mit `Again`, `Hard`, `Good` oder `Easy`. Du kannst das Deck mit allen 118 Elementen installieren oder ein kleineres Deck erstellen, das zu deinem Kurs passt.
 
-Das [Periodensystem der Elemente von NIST](https://www.nist.gov/pml/periodic-table-elements) enthält die neuesten kritisch geprüften Daten von NIST zu atomaren Eigenschaften. Laut aktueller Tabelle wurde sie zuletzt im Juni 2024 aktualisiert; die Webseite selbst trägt den Stand vom 12. Februar 2025. NIST ist eine verlässliche Quelle zum Gegenprüfen. Es ist jedoch nicht das einzige „offizielle“ Periodensystem und kein Grund, die für die Benotung geltende Kurskonvention zu ersetzen.
+KI-Chat und Dateianhänge können dir helfen, aus einer Unterrichtstabelle oder einer Fehlerliste Kartenentwürfe zu erstellen. Prüfe vor dem Speichern jeden Namen, jedes Symbol, jede Ordnungszahl, jede Eigenschaftsbezeichnung und jede Rundungsregel anhand deiner verbindlichen Quelle. Die App prüft chemische Angaben nicht fachlich und mischt die Themen beim Üben nicht automatisch für dich. Im Leitfaden [Erste Schritte](/docs/getting-started/) erfährst du, wie du Karten erstellst und mit fälligen Wiederholungen beginnst.
 
-Die neueste verbindliche Tabelle der CIAAW ist [Standard Atomic Weights 2024](https://ciaaw.org/atomic-weights.htm). Für einige Elemente werden Intervalle angegeben, weil die Isotopenzusammensetzung normaler Materialien variieren kann. 2024 änderte die CIAAW außerdem die Standardatomgewichte von Gadolinium, Lutetium und Zirconium. Ein Deck voller genauer Dezimalwerte braucht daher eine Quellenangabe und ein Prüfdatum.
+## Häufige Fragen zum Periodensystem
 
-[Radioaktive Elemente haben keine Standardatomgewichte](https://ciaaw.org/radioactive-elements.htm). Viele Periodensysteme geben stattdessen die Massenzahl eines ausgewählten Isotops in eckigen Klammern an. Diese ganze Zahl ist eine Massenzahl – kein Atomgewicht, bei dem zufällig die Dezimalstellen fehlen.
+### Wie viele Elemente hat das Periodensystem im Jahr 2026?
 
-Verlangt dein Kurs nicht ausdrücklich, dass du Atomgewichte auswendig abrufst, übe lieber das Ablesen im vorgegebenen Periodensystem und das Anwenden der zugehörigen Rundungsregel. Genau das brauchst du in Chemieaufgaben meist tatsächlich.
+Es gibt 118 bekannte Elemente. Wasserstoff hat die Ordnungszahl 1 und Oganesson die Ordnungszahl 118. Die aktuellen Tabellen von ACS, NIST und IUPAC enden alle bei Element 118.
 
-## Erstelle umgekehrte Karten nur, wenn die umgekehrte Fähigkeit zählt
+### Was ist das 118. Element?
 
-Durch automatisches Umkehren entstehen für ein einziges Element schnell Karten vom Namen zum Symbol, vom Symbol zum Namen, vom Element zur Ordnungszahl und von der Ordnungszahl zum Element. Kommen noch Gruppe, Periode, Familie, Atomgewicht und Trends hinzu, wird das Deck riesig, bevor du auch nur eine Chemieaufgabe gelöst hast.
+Oganesson mit dem Symbol `Og` ist Element 118. Die IUPAC genehmigte seinen heutigen Namen und sein Symbol im November 2016 zusammen mit Nihonium (`Nh`), Moscovium (`Mc`) und Tenness (`Ts`).
 
-Behalte eine umgekehrte Karte, wenn diese Richtung in echten Aufgaben vorkommt oder eine konkrete Wissenslücke sichtbar macht. `Na` als Natrium zu lesen und zu „Natrium“ das Symbol `Na` zu schreiben, sind beides häufige Aufgaben. Element 57 allein an seiner Ordnungszahl zu erkennen, bringt dagegen möglicherweise wenig, wenn im Kurs immer ein Periodensystem bereitliegt.
+### Müssen Lernende alle 118 Elemente auswendig kennen?
 
-Beginne mit der Richtung, die wirklich geprüft wird. Ergänze die umgekehrte Karte erst, wenn ein Test, eine Übung mit einem leeren Periodensystem oder eine Chemieaufgabe zeigt, dass du sie brauchst. Kommen neue Karten schneller hinzu, als du sie lernen kannst, [passe ihre Zahl an die Menge der fälligen Wiederholungen an](/de/blog/how-many-new-flashcards-per-day/), statt einem vermeintlich vollständigen Deck hinterherzujagen.
+Nur wenn der Kurs oder die Prüfung alle 118 verlangt. Viele Lernende brauchen einen kleineren Umfang, etwa die Elemente 1–20, häufige Elemente in Formeln, ausgewählte Familien oder die aktuelle Unterrichtseinheit. Kläre auch die Abfragerichtung: `Na` als Natrium zu erkennen und zu „Natrium“ das Symbol aufzuschreiben, sind zwei verschiedene Fähigkeiten.
 
-## So lernst du das Periodensystem auswendig, ohne es auf ein Faktenquiz zu reduzieren
+### Ist die Ordnungszahl dasselbe wie die Atommasse?
 
-Ein kleines Korrektur-Deck bringt mehr als ein riesiges Deck, das du auf Vorrat anlegst. Nimm dir ein leeres Periodensystem, einen Symboltest oder eine aktuelle Chemieaufgabe vor, ohne in die Unterlagen zu schauen. Halte den konkreten Fehler fest: „`CO` für Kobalt geschrieben“, „Natrium in Periode 2 eingeordnet“ oder „Dezimalzahl als Ordnungszahl gelesen“. Prüfe die richtige Antwort, bevor du sie speicherst.
+Nein. Die Ordnungszahl ist die Protonenzahl und bestimmt das Element. Die Massenzahl zählt Protonen und Neutronen in einem Nuklid; Atommasse und Atomgewicht beschreiben verschiedene massebezogene Größen. Verwende genau den Begriff und die Referenz, die dein Kurs vorgibt.
 
-Nutze anschließend diesen Ablauf:
+### Wie lerne ich Elementnamen und Symbole am schnellsten?
 
-1. Wähle einen vom Kurs vorgegebenen Bereich, zum Beispiel die ersten 20 Elemente oder die Elemente der aktuellen Unterrichtseinheit.
-2. Lerne eine neue Kategorie in einem kurzen Block: Namen und Symbole, Ordnungszahlen oder Positionen.
-3. Prüfe das Gesamtbild außerhalb des Decks. Fülle ein leeres Periodensystem aus, lies eine dir unbekannte Darstellung oder löse eine Aufgabe.
-4. Verwandle wichtige oder wiederkehrende Fehler in kleine Karten mit genau einem Lernziel und einer Quellenangabe.
-5. Mische ähnliche Kategorien, sobald du sie sicher beherrschst. Stelle `C`, `O`, `Co` und `CO` einander gegenüber oder mische benachbarte Elemente, deren Ordnungszahlen du immer wieder vertauschst.
-6. Wiederhole fällige Karten und kehre dann zu Formeln, Gleichungen, Erklärungen von Trends und Berechnungen zurück.
-7. Lösche Duplikate und formuliere mehrdeutige Aufgaben neu. Wiederholung repariert keine fehlerhafte Karte.
+Lege den kleinstmöglichen verlangten Umfang fest, teste dich ohne Unterlagen und erstelle Karten nur für fehlende Abfragerichtungen. Prüfe dein Wissen anschließend mit einem leeren Periodensystem und echten Chemieaufgaben.
 
-Solange du eine neue Kategorie noch verstehen lernst, hilft das Üben in Blöcken. Beim späteren Mischen musst du zwischen ähnlichen Antworten unterscheiden, ohne dass der Deckname die Kategorie vorwegnimmt. In einer [Unterrichtsstudie mit 155 Schülerinnen und Schülern der Klassen 9 bis 12](https://pubmed.ncbi.nlm.nih.gov/35436145/) schrieben die Teilnehmenden vier Wochen lang jede Woche einen naturwissenschaftlichen Test und einen weiteren Test einen Monat nach dem letzten Wochenquiz. Im Durchschnitt schnitten sie bei Stoff, der durch gemischtes Abrufen geprüft worden war, besser ab als bei Stoff aus geblockten Abrufübungen. Das spricht dafür, Inhalte gezielt zu mischen, sobald die Grundlagen sitzen. Es garantiert jedoch nicht jedem Lernenden denselben Effekt und ist kein Grund, ein neues Deck sofort zufällig zu mischen.
+## Erst nachschlagen, dann ohne Tabelle testen
 
-Der [Leitfaden zum Interleaving](/de/blog/how-to-use-interleaving-with-flashcards/) erklärt genauer, wie du passende Kategorien auswählst. Flashcards Open Source App stellt solche Mischungen nicht automatisch zusammen. Gruppiere die gewünschten Kontraste daher selbst mit Decks oder Tags.
-
-Stammt ein Fehler aus einem Arbeitsblatt oder dem Bild eines Periodensystems, schneide nur den relevanten Ausschnitt zu und prüfe jede sichtbare Beschriftung, bevor du daraus eine Karte machst. Der [Ablauf für Flashcards aus Bildern](/de/blog/how-to-turn-images-into-flashcards/) zeigt, wie du das Material bereinigst. Das vollständige leere Periodensystem solltest du weiterhin außerhalb des Decks rekonstruieren: Ein einzelnes ausgeschnittenes Kästchen zu erkennen ist eine andere Aufgabe, als die räumliche Anordnung neu aufzubauen.
-
-Musst du tatsächlich alle 118 Elemente lernen, wende denselben Ablauf auf überschaubare, vom Kurs bestätigte Abschnitte an. Mische die Abschnitte anschließend und rekonstruiere regelmäßig das ganze Periodensystem. Das Ziel bleibt ein zusammenhängendes periodisches System – keine Sammlung aus 118 isolierten Quizantworten.
-
-## Bearbeite echte Chemieaufgaben außerhalb des Decks
-
-Periodensystem-Flashcards eignen sich gut, um ausgewählte Fakten schnell abzurufen. Sie ersetzen jedoch nicht:
-
-- ein vollständiges Periodensystem und seine Legende lesen
-- die Positionen der Elemente in einem leeren Periodensystem rekonstruieren
-- erklären, warum ein periodischer Trend auftritt und wo die im Unterricht behandelten Ausnahmen gelten
-- chemische Formeln und Gleichungen schreiben und deuten
-- Gleichungen ausgleichen und Berechnungen durchführen
-- unbekannte mehrschrittige Aufgaben lösen
-- Beobachtungen, Messungen und sicheres Arbeiten im Labor
-
-Die Karten machen ausgewählte Fakten für diese Arbeiten verfügbar. Die eigentlichen Aufgaben musst du trotzdem lösen. Der Leitfaden zu [Flashcards für fortgeschrittene Chemie](/de/blog/how-to-use-flashcards-for-advanced-chemistry/) überträgt dieselbe Trennung auf einen ganzen Kurs: Wiederverwendbare Unterscheidungen und wiederkehrende Fehler gehören in die Wiederholung; Berechnungen, die Auswertung von Laborergebnissen und Aufgaben mit ausführlicher Antwort bearbeitest du außerhalb des Decks.
-
-## Wobei Flashcards Open Source App hilft
-
-[Flashcards Open Source App](/de/features/) unterstützt Karten mit Vorder- und Rückseite, Decks und Tags sowie fällige FSRS-Wiederholungen, die du mit `Again`, `Hard`, `Good` oder `Easy` bewertest. Du kannst die gehostete Web-App nutzen; die Web-, iOS- und Android-Clients folgen beim Kartenlernen dem Offline-first-Prinzip. Der Code steht unter der MIT-Lizenz, und die App lässt sich selbst hosten.
-
-Der KI-Chat kann Daten aus dem Arbeitsbereich und Dateianhänge verwenden, um Kartenentwürfe aus einer Lektion, dem Periodensystem deines Kurses oder einer Fehlerliste zu erstellen. Prüfe vor dem Speichern jeden Elementnamen, jedes Symbol, jede Zahl, jede Eigenschaftsbezeichnung und jede Rundungsregel anhand deiner verbindlichen Quelle. Die App enthält keinen speziellen Chemieeditor, keine automatische Faktenprüfung, kein automatisches Interleaving und kein offizielles Elemente-Deck. Der Leitfaden [Erste Schritte](/de/docs/getting-started/) erklärt, wie du Karten anlegst und mit den fälligen Wiederholungen beginnst.
-
-## Häufige Fragen zu Periodensystem-Flashcards
-
-### Sollte ich alle 118 Elemente auswendig lernen?
-
-Nur wenn dein Kurs oder eine andere konkrete Anforderung tatsächlich alle 118 verlangt. Beginne mit dem Stoff, der geprüft wird. Die ersten 20 Elemente sind ein verbreitetes Unterrichtsbeispiel; andere Kurse konzentrieren sich auf ausgewählte Familien, häufige Ionen, Übergangsmetalle oder die Elemente aus aktuellen Aufgaben.
-
-### Wie lerne ich die ersten 20 Elemente am besten auswendig?
-
-Prüfe zuerst, ob die Elemente 1 bis 20 wirklich dein Lernziel sind. Lerne Namen und Symbole mit korrekter Groß- und Kleinschreibung in einem kurzen Block, ergänze die vom Kurs verlangten Ordnungszahlen und übe mit einem leeren Periodensystem, damit die räumliche Anordnung erhalten bleibt. Mische anschließend benachbarte und leicht verwechselbare Elemente und verwende sie weiter in Formeln und Aufgaben.
-
-### Wie kann ich mir leicht verwechselbare Elementsymbole merken?
-
-Nutze zunächst eine direkte Karte in der geprüften Richtung und danach eine Vergleichskarte für genau diese Verwechslung. `Co` im direkten Vergleich mit `C` und `O` hilft mehr als eine allgemeine Karte zu „ähnlichen Symbolen“. Achte auf die Groß- und Kleinschreibung und lies die Zeichen auch in echten chemischen Formeln.
-
-### Sollten Atommasse oder Atomgewicht auf Flashcards stehen?
-
-Nur wenn dein Kurs erwartet, dass du diese Werte auswendig weißt. Notiere die genaue Bezeichnung der Eigenschaft, das Periodensystem als Quelle, die geforderte Genauigkeit oder Rundungsregel und das Prüfdatum. Eine eingeklammerte Massenzahl für ein radioaktives Element darfst du niemals wie ein Standardatomgewicht behandeln.
-
-### Können Flashcards periodische Trends vermitteln?
-
-Sie können eine verlangte Richtung, Beziehung oder ausdrücklich benannte Ausnahme im Gedächtnis halten. Erklären musst du den Trend trotzdem; auch unbekannte Elemente vergleichen, ein Periodensystem deuten und Aufgaben lösen können dir die Karten nicht abnehmen. Vermeide allgemeine Regeln ohne eindeutige Richtung und klaren Geltungsbereich.
-
-### Sind vorgefertigte Element-Flashcards zuverlässig?
-
-Betrachte sie als Entwürfe. Sie können den falschen Stoffumfang, eine andere Gruppennummerierung, abweichende Rundungen, veraltete Daten zu Atomgewichten oder schlichte Symbolfehler enthalten. Prüfe jede Karte, die du übernehmen möchtest, anhand der Quelle, die für deinen Kurs gilt.
-
-## Behalte das Periodensystem als Ganzes im Blick
-
-Gute **Periodensystem-Flashcards** machen eine klar begrenzte Auswahl an Namen, Elementsymbolen mit korrekter Groß- und Kleinschreibung, Ordnungszahlen, Positionen und verlangten Trends schnell abrufbar. Richte sie am Kursumfang aus, versehe Antworten zu Atomgewichten mit einer Versionsangabe, lege nur wirklich benötigte umgekehrte Karten an und ergänze Korrekturkarten aus echten Fehlern.
-
-Lege danach wieder das vollständige Periodensystem vor dich. Rekonstruiere seine Struktur, erkläre den Trend, schreibe die Formel und löse die Chemieaufgabe. Wenn dir die Karten diese Arbeit erleichtern, haben sie ihren Zweck erfüllt.
+Verwende die Tabelle mit allen 118 Zeilen, wenn du etwas zuverlässig nachschlagen möchtest. Zum Einprägen blendest du sie aus, testest genau das, was dein Kurs verlangt, und erstellst kleine Karten zu deinen Fehlern. Kehre danach zum leeren Periodensystem, zur Formel, zur Trenderklärung oder zur Berechnung zurück – dorthin, wo du das Wissen anwenden musst.
