@@ -153,6 +153,8 @@ That keeps the deck useful without turning it into homework theater.
 
 For a concrete example, [this Spanish present-tense deck](/catalog/packages/spanish-present-tense-verbs/) has 150 production cards, each pairing one of 25 infinitives with one of six subject groups and asking for a single present-indicative form. It is a focused conjugation drill, not a complete Spanish course.
 
+For contextual tense choice, [Spanish Preterite vs. Imperfect Flashcards: Tense Choice in Context](/catalog/packages/spanish-preterite-vs-imperfect-flashcards/) uses 160 cards: 16 foundations, 120 contextual-production prompts, and 24 story-context questions. Each contextual back gives the answer first, then the completed sentence and a short English explanation.
+
 The [English Irregular Verb Flashcards deck](/catalog/packages/english-irregular-verbs-flashcards/) follows the same narrow approach: 203 short prompts practice 70 common verbs from the base form to past simple and past participle, with reverse recall for distinctive past forms.
 
 ## FSRS is a strong fit for language learning because vocab gets weird over time
