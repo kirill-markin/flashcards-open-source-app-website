@@ -1,227 +1,221 @@
 ---
-title: "Mochi vs Anki (2026): Markdown Notes or Maximum Control?"
-description: "Compare Mochi and Anki on Markdown, FSRS, offline use, sync, pricing, imports, and exports—then choose the app that fits your workflow and existing cards."
+title: "Mochi Flashcards Review (2026): Free Plan, Offline Use, and Anki Comparison"
+description: "A source-checked Mochi flashcards review covering its free plan, offline apps, Markdown notes, FSRS, sync, Anki import, exports, and self-hosting limits."
 date: "2026-03-18"
-updated: "2026-08-19"
-image: "/blog/mochi-alternative-v2.png"
+updated: "2026-09-07"
+image: "/blog/mochi-alternative-v3.png"
 keywords:
+  - "mochi flashcards"
+  - "mochi cards"
   - "mochi vs anki"
   - "anki vs mochi"
-  - "mochi flashcards"
-  - "mochi pricing"
+  - "is mochi free"
   - "mochi offline"
-  - "mochi import anki"
+  - "mochi pricing"
+  - "mochi hosting"
   - "markdown flashcards"
-  - "anki fsrs"
-  - "mochi alternative"
+  - "mochi spaced repetition"
 ---
 
-Mochi can import the review history in an Anki `.apkg` file—provided you included scheduling information when you exported it. The same import strips CSS and JavaScript and converts HTML to Markdown. A basic vocabulary deck may arrive almost unchanged. A deck built around custom templates may not.
+Mochi starts with a Markdown document, not a conventional front-and-back form. Add a line containing three dashes and the document gains reviewable sides. Leave it as a note, link it to another card, or archive it so it stays searchable without entering the review queue.
 
-This is the useful way to think about **Mochi vs Anki**. Mochi gives you a clean, local-first home for Markdown notes and flashcards. Anki gives you a mature card system with deeper templates, scheduler controls, add-ons, and migration formats. The right choice depends less on a feature count than on which parts of your current workflow must survive.
+That small separator explains who **Mochi flashcards** suit. Mochi is a strong fit for someone who wants notes and spaced repetition in the same local-first app, especially if Markdown, backlinks, and a simple Remembered/Forgot review feel natural. It is less convincing for an established Anki owner whose collection depends on generated card variants, custom HTML/CSS, JavaScript, add-ons, or detailed scheduler controls.
 
-> **Disclosure:** I am Kirill Markin, and I build [Flashcards Open Source App](/). It is not part of the main comparison below. Mochi is the stronger fit for connected Markdown notes, while Anki is the stronger fit for complex established collections.
+For a one-device workflow, the free plan is more than a trial: no sign-up is required, and Mochi documents unlimited offline use. The catch is that cross-device sync belongs to the **US$5-per-month Pro plan**. For an Anki user, the harder cost is migration loss. Mochi can import an Anki package and its review history, but it cannot preserve every template, style, script, scheduler setting, or add-on behavior.
 
-**Facts checked:** August 19, 2026. Prices and product details can change, especially through app stores.
+> **Disclosure:** I am Kirill Markin, and I build [Flashcards Open Source App](/). This is a source-checked workflow review, not a claim that I performed a hands-on product test. There are no affiliate links. Mochi and Anki remain the main comparison; my product appears only as a clearly labeled alternative near the end.
 
-![Mochi vs Anki comparison for Markdown notes, FSRS reviews, offline study, pricing, and migration](/blog/mochi-alternative-v2.png)
+**Facts checked:** September 7, 2026. The latest visible [Mochi release](https://mochi.cards/changelog/) was version 26.8.2, dated August 10, 2026. Prices and app-store details can change.
 
-## The short answer
+![A book conservator tests a small accordion of linked cards while the original archive stays safely boxed](/blog/mochi-alternative-v3.png)
 
-- Choose **Mochi** if you want to write Markdown flashcards and notes in the same place, work locally without an account, and use a simpler two-button review flow. Its free plan works offline; Pro costs **US$5 per month** and adds cross-device sync.
-- Choose **Anki** if you want maximum control over note types, HTML/CSS templates, add-ons, shared decks, and FSRS settings. It is also the safer home for an existing collection that depends on Anki-specific behavior.
-- If you already have years of Anki data, test Mochi with a small `.apkg` before moving anything important. Review history can transfer when the package includes scheduling information, but appearance and interactive template behavior may not.
-- Keep your current app if the switch solves no concrete problem. A stable review habit is more valuable than a cleaner editor.
+## The short review
+
+- **Choose Mochi** if you want Markdown notes and cards together, account-free offline use on one device, backlinks, and a binary review decision.
+- **Choose Anki** if you need mature note types, HTML/CSS templates, add-ons, free hosted sync, four review grades, or deeper FSRS controls.
+- **Do not switch yet** if you already review consistently and cannot name the workflow problem Mochi will solve. A new interface is not enough reason to put years of scheduling data and custom cards at risk.
+- **Test before migrating** if Anki is already your long-term collection. Mochi accepts `.apkg` files and can bring in review history, but it converts HTML to Markdown and removes CSS and JavaScript.
 
 ## Mochi vs Anki at a glance
 
-| Question | Mochi | Anki |
+| Decision | Mochi | Anki |
 |---|---|---|
-| Best fit | Markdown users who want notes and cards together | Learners who want a mature, configurable flashcard system |
-| Authoring model | Markdown documents that can become multi-sided cards; fields, templates, links, backlinks, and tags | Notes with fields generate one or more cards through HTML/CSS templates |
-| Native Markdown | Yes | No; core fields and templates use HTML |
-| Scheduling | Mochi's multiplier-based scheduler by default; optional FSRS with target retention and custom parameters | FSRS or legacy SM-2; FSRS adds desired retention, optimized parameters, presets, and a simulator |
-| Review feedback | Remembered / Forgot | Again / Hard / Good / Easy |
-| Offline use | macOS, Windows, Linux, iOS, and Android apps can work fully offline without an account | Desktop and mobile clients keep local collections and work without continuous sync |
-| Cross-device sync | Pro, US$5/month | Free through AnkiWeb |
-| Platforms | Web, macOS, Windows, Linux, iOS, Android | Windows, macOS, Linux, AnkiWeb, official AnkiMobile for iOS, independent AnkiDroid for Android |
-| Anki migration | Imports `.apkg`; scheduling history transfers if included, while HTML becomes Markdown and CSS/JavaScript are removed | Native `.apkg` and `.colpkg` packages preserve Anki-specific data |
-| Portable text | Markdown and CSV export | Tab-separated text export with HTML formatting inside fields |
-| Open source / self-hosting | Local-first; Mochi does not present the core app as open source or document supported self-hosted sync | Main repository uses AGPL; Anki documents a self-hosted sync server for advanced users |
+| Best fit | Linked-note and Markdown users who want notes beside review cards | Learners who want a mature, configurable flashcard system |
+| Card creation | A Markdown document becomes multi-sided when you add `---`; fields and templates are also available | Notes contain fields; HTML/CSS templates generate one or more cards |
+| Review flow | New cards first enter a learning phase; learned cards use Forgot / Remembered | Cards use Again / Hard / Good / Easy |
+| Scheduling | Mochi's own algorithm by default; FSRS is optional | FSRS or legacy SM-2, with broader FSRS tuning tools |
+| Free use | No sign-up and unlimited offline use | Free desktop apps and free AnkiWeb sync; official iOS app is paid |
+| Cross-device sync | Pro, US$5 per month | Free through AnkiWeb |
+| Platforms | Web, macOS, Windows, Linux, iOS, Android | Windows, macOS, Linux, AnkiWeb, official AnkiMobile, independent AnkiDroid |
+| Portable formats | Native `.mochi`, Markdown, and CSV exports | Native `.colpkg` and `.apkg`, plus tab-separated text |
+| Data and hosting boundary | Local-first; the core app is not presented as open source, and no supported self-hosted sync service is documented | Main repository is AGPL-licensed; an official self-hosted sync server is documented |
 
-Start with **authoring comfort versus system depth**. If either app already holds your study history, the migration details matter just as much.
+The useful split is **note-first simplicity versus collection-level control**.
 
-## Mochi makes the card feel like a note
+## What the Mochi interface is built around
 
-Mochi's [card model](https://mochi.cards/docs/cards/) starts with a Markdown document. Add a line containing three dashes and the document becomes a flashcard. Add more separators and it can have more than two sides.
+Mochi's interface makes more sense once you follow one card through it.
 
-The same card can contain headings, lists, code, images, structured fields, and links to other cards. `[[Double brackets]]` create references and backlinks. A long reference note can live beside review cards; archiving it keeps the content available while removing it from the review queue.
+Every card belongs to a deck. Click **New Card** and you get a Markdown canvas rather than fixed question and answer boxes. A single card can hold headings, lists, code, images, structured fields, and links. Add `---` between blocks to create two or more review sides. Add `[[double brackets]]` to reference another card; Mochi creates a backlink automatically. The official [card overview](https://mochi.cards/docs/cards/) also documents templates whose placeholders render structured field values.
 
-That makes Mochi flashcards a natural fit for developers, researchers, and language learners who already think in text files and linked notes. You can write readable source material first, then decide what deserves active recall.
+Cards can do two jobs without living in separate systems:
 
-Mochi also supports fields and templates, so it is not limited to free-form notes. When a template is applied, Mochi renders the template's Markdown with field placeholders; the card's own Markdown stays stored but is ignored during rendering. Markdown remains the native surface rather than an optional layer added to a conventional card editor.
+- a review card uses sides and enters spaced repetition;
+- a reference note can stay in the same deck and be archived, which removes it from new-card and due-card queues without deleting its content, tags, links, or history.
 
-## Anki separates study data from the cards it renders
+[Deck views](https://mochi.cards/docs/decks/custom-views/) are saved combinations of filters, sorting, and layout. You can keep a grid for ordinary browsing, then create another view for a tag, due status, low retention, or recent review. Mochi also lets a view become a cram session without changing normal scheduling or review history. This is more concrete than calling the interface “clean”: the same deck can act like a notebook, a filtered database, and a study queue.
 
-Anki uses a more structured model. A note stores fields; one or more card templates decide which fields appear on each card. The [templates use HTML and CSS](https://docs.ankiweb.net/templates/intro.html), so a single vocabulary note can generate recognition, production, and listening cards without copying the underlying data.
+The [daily review](https://mochi.cards/docs/getting-started/reviewing-cards/) has two stages. In **New cards**, you either add a card to the review schedule or choose Again to see it shortly. Once learned, a due card reveals the next side and asks for **Forgot** or **Remembered**. If you forget it, Mochi uses a re-review queue before resetting progress. The result is a deliberately narrow decision at review time.
 
-This takes longer to learn, but the ceiling is much higher. Anki is better suited to complex cloze patterns, conditional layouts, custom styling, specialized note types, and workflows built around add-ons. Its [official site](https://apps.ankiweb.net/) also links to a large shared-deck and add-on ecosystem.
+## Is Mochi free, and what works offline?
 
-Anki is not a native Markdown flashcards app. Adding a Markdown workflow requires extra tooling and another dependency to maintain. If you mainly want readable notes with a little spaced repetition, Anki can feel like too much machinery. If your cards are structured study records rendered in several ways, that machinery is the point.
+Yes, but “free” and “offline” mean different things depending on where you run it. [Mochi's current pricing](https://mochi.cards/) lists:
 
-## FSRS does not settle the decision anymore
+- **Free:** US$0 forever, no sign-up required, with unlimited offline use.
+- **Pro:** US$5 per month, adding sync across devices, deck publishing, dynamic fields, AI integration, and email support.
 
-Older Mochi comparisons often say Anki wins because Mochi lacks FSRS. That is out of date. Mochi added an FSRS preview in 2025, and its [2026 changelog](https://mochi.cards/changelog/) records further fixes to FSRS interval and retention settings.
+Mochi runs on macOS, Windows, Linux, iOS, Android, and the web. Its [download and installation guide](https://mochi.cards/docs/getting-started/download-and-install/) draws the practical boundary:
 
-There is one detail worth keeping straight: [Mochi still uses its own scheduler by default](https://mochi.cards/docs/reviewing/fsrs/). You can switch to FSRS in Review Settings, choose a target retention rate, and switch back later. Existing learned cards keep their review history when you make that change.
+| Surface | What free and offline mean |
+|---|---|
+| Installed desktop or mobile app | You can use Mochi offline without an account. Data is stored on the device, so one installed app can be a complete free workflow. |
+| Web app without Pro | Content is kept in the browser's offline storage. Mochi warns that a browser can clear this data without warning. |
+| The same collection on several devices | Automatic cross-device sync is a Pro feature, even though each installed app can work offline. |
 
-Mochi keeps the same two grades under either scheduler:
+Offline use and sync are separate promises. You do not need Pro merely to create or review in a downloaded app. You do need it if the same current collection must follow you automatically from laptop to phone. For important free-plan data, keep a native backup rather than treating a device—and especially browser storage—as the only copy.
 
-- **Forgot** means the recall failed.
-- **Remembered** means the recall succeeded.
+If offline behavior is the deciding factor, compare the exact device workflow in [Does Anki Work Offline?](/blog/does-anki-work-offline/) and the broader [offline flashcards app guide](/blog/best-offline-flashcards-app/).
 
-Under FSRS, Mochi maps those outcomes to Again and Good. The binary choice is quick and removes uncertainty about whether a successful answer was Hard, Good, or Easy. It also gives the scheduler less detail about the quality of that success.
+## Markdown flashcards are the real reason to choose Mochi
 
-[Anki's FSRS controls](https://docs.ankiweb.net/deck-options#fsrs) go further. Anki offers desired retention, preset-specific parameters, built-in optimization from your review history, and a simulator for estimating workload. Mochi accepts custom parameters but does not include an optimizer; generating personal parameters requires an external FSRS optimizer. Anki's four ratings also carry more information:
+Mochi's real advantage is how Markdown changes the source material you maintain.
 
-- **Again:** you failed to recall the answer.
-- **Hard:** you recalled it, but with substantial difficulty.
-- **Good:** normal successful recall.
-- **Easy:** unusually easy successful recall.
+A Mochi card remains readable as text. The same document can contain a short explanation, a code block, links to related ideas, and separators between review sides. Cards can also use fields and templates when repeated structure matters. When a template is applied, Mochi renders the template's Markdown with field placeholders and ignores the card's own Markdown during rendering without deleting it.
 
-One rating rule matters here. Anki's manual says Hard is still a successful recall, so using Hard when you actually forgot the answer produces intervals that are too long.
+Anki starts from a different model. A note stores fields, and [card templates](https://docs.ankiweb.net/templates/intro.html) decide which fields appear and which cards are generated. Templates use HTML, with CSS for styling. One vocabulary note can therefore generate recognition and production cards while keeping the underlying data in one place.
 
-Neither button model is universally superior. Choose Mochi if a consistent pass/fail judgment keeps reviews moving. Choose Anki if you will use the extra ratings correctly and want to tune retention, parameters, and workload.
+That structure gives Anki a higher ceiling for conditional layouts, generated card variants, typed answers, custom styling, and workflows extended by add-ons. It also means Anki is not a native Markdown flashcards app. A Markdown-based Anki workflow needs an extra conversion or add-on layer.
 
-For more on the scheduling model itself, read [FSRS vs SM-2](/blog/fsrs-vs-sm-2/).
+The practical question is simple: do you want a note that can become a card, or a structured note type that can generate several cards? Mochi optimizes the first. Anki optimizes the second.
 
-## Offline use, platforms, and sync
+## Mochi spaced repetition now includes FSRS
 
-“Works offline” can mean several things, so it helps to separate local study from cross-device sync.
+Comparisons that say Mochi has no FSRS are stale. Mochi added an FSRS preview in 2025 and has continued to ship fixes around the scheduler. Still, [Mochi's own algorithm remains the default](https://mochi.cards/docs/reviewing/fsrs/).
 
-### Mochi is local-first, with sync in Pro
+The default algorithm changes intervals with fixed multipliers after each remembered or forgotten review. Switch to FSRS in Review Settings and existing learned cards move onto FSRS without losing their history. You can set target retention, enter custom parameters, and switch back later.
 
-Mochi runs on macOS, Windows, Linux, iOS, Android, and the web. Its [installation guide](https://mochi.cards/docs/getting-started/download-and-install/) says the apps can be used completely offline without an account. The [free plan](https://mochi.cards/) includes unlimited offline use.
+Mochi keeps its binary grades under either scheduler:
 
-Your working data lives on the device. If you want the same Mochi collection on several devices, the US$5/month Pro plan adds sync. It also adds publishing, dynamic fields, AI integration, and email support.
+- **Forgot** maps to FSRS Again.
+- **Remembered** maps to FSRS Good.
 
-The web version needs one extra caution. Without Pro, it stores data in the browser's offline storage, and Mochi warns that a browser may clear that storage. Use the desktop or mobile app for important free-plan data, and keep a `.mochi` backup.
+Mochi's documentation says binary grading works with FSRS, while losing some of the information Hard and Easy would provide. It accepts optimized custom parameters but does not have a built-in optimizer; generating personal parameters requires an external FSRS optimizer and Mochi review history.
 
-### Anki stores local collections and syncs through AnkiWeb
+[Anki's FSRS settings](https://docs.ankiweb.net/deck-options.html#fsrs) go further. Desired retention and parameters can be tied to presets, the built-in optimizer can fit parameters to review history, and the simulator estimates reviews or study minutes at different settings. Anki also records four outcomes: Again, Hard, Good, and Easy.
 
-Anki's free desktop app runs on Windows, macOS, and Linux. The official AnkiMobile app covers iPhone and iPad as a paid purchase; the independently developed AnkiDroid app is free on Android. These clients keep local collections, so a network connection is not required for every review.
+Those extra buttons help only if you use them consistently. Anki's manual treats Hard as a successful recall. Pressing Hard when you forgot the answer tells FSRS the wrong thing and can produce intervals that are too long.
 
-[AnkiWeb sync is free](https://docs.ankiweb.net/syncing.html) and keeps a collection aligned across devices. It also supports studying in a browser, but AnkiWeb is a hosted service rather than the offline copy. After the initial one-way setup, ordinary note edits and reviews from several devices can be merged. Changes to note structure, such as adding a field or removing a card template, may require a one-way upload or download instead.
+Choose Mochi's binary review if pass/fail keeps the session clear. Choose Anki if you want the extra grading signal and will use its optimizer, retention controls, presets, or workload simulator. For the scheduler rather than the apps, see [FSRS vs SM-2](/blog/fsrs-vs-sm-2/).
 
-The cost difference is narrow: Mochi charges for hosted sync, while Anki does not. Anki instead charges for its official iOS client. Do not confuse AnkiMobile with similarly named third-party apps in app stores.
+## Mochi pricing and Anki pricing solve different costs
 
-## Mochi pricing vs Anki pricing
+For one-device desktop study, both apps can cost nothing. The cost appears in a different place when more devices enter the workflow.
 
-Mochi's public prices checked on August 19, 2026 are simple:
+Mochi charges **US$5 per month** for Pro sync and bundles it with publishing, dynamic fields, AI integration, and support. Anki's desktop apps are free, and the [official Anki site](https://apps.ankiweb.net/) describes AnkiWeb synchronization as free. AnkiMobile is the paid official iPhone and iPad app; AnkiDroid is a free, independently developed Android client.
 
-- **Free:** US$0, no sign-up required, unlimited offline use.
-- **Pro:** US$5 per month, including cross-device sync and the other Pro features listed above.
+So “Which is cheaper?” depends on your devices:
 
-Anki uses a different funding model:
+- one computer: both can be free;
+- several desktop or Android devices: Anki's free hosted sync avoids a subscription;
+- iPhone or iPad: Anki adds a one-time app purchase, while Mochi puts cross-device sync behind its recurring Pro plan;
+- Mochi users who already want publishing, dynamic fields, or its AI integration may view sync as one part of the bundle rather than the whole cost.
 
-- **Anki desktop:** free on Windows, macOS, and Linux.
-- **AnkiWeb:** free account and sync service.
-- **AnkiDroid:** free independent Android client.
-- **AnkiMobile:** paid official iOS client; check your regional App Store for the current price.
+Check the regional App Store before comparing exact iOS totals. This review does not freeze an app-store price that can vary by market.
 
-For one-device desktop study, both products can cost nothing. For several devices, Anki's free sync may be cheaper over time, while Mochi Pro bundles sync with its other hosted features. An iPhone or iPad changes the Anki calculation because the official client is paid.
+## Mochi hosting is not the same as local-first use
 
-## Importing, exporting, and what migration loses
+Three labels often get collapsed into one:
 
-The file extension tells only half the story. A native backup may include scheduling and application metadata. Markdown or CSV may keep the words while dropping the system around them.
+- **Local-first** means the working copy lives on your device and the app can continue without its cloud service.
+- **Open source** means source code is available under a license that permits inspection and modification.
+- **Self-hosted** means the product documents a supported way to run the relevant service on your own infrastructure.
 
-### When you import Anki into Mochi
+Mochi clearly documents local-first behavior. It does not present its core app as open source: the “Open source” link in its public site footer leads to [a collection of integrations](https://github.com/mochi-cards/open-source), not the core application. Its first-party site also does not document a supported self-hosted replacement for Pro sync.
 
-Mochi's [Anki importer](https://mochi.cards/docs/import-and-export/importing/) accepts `.apkg` files and can import the review history stored in them. In Anki, turn on **Include Scheduling Information** when exporting the sample deck; otherwise the package contains no review history for Mochi to preserve. During import, Mochi:
+If you search for **Mochi hosting** because you want your own server, this is the boundary: you can keep local data and native backups, but the documented cross-device path is Mochi Pro. Local-first is useful data control; it is not self-hosting.
 
-- converts HTML to Markdown;
-- strips CSS and JavaScript;
-- adapts Anki content to Mochi's different card model.
+Anki's main repository is [licensed under AGPL version 3 or later](https://github.com/ankitects/anki/blob/main/LICENSE), with listed exceptions for some components. The official manual also documents a [self-hosted sync server](https://docs.ankiweb.net/sync-server.html) for advanced users. That server replaces AnkiWeb sync for compatible clients; it is not a self-hosted copy of the AnkiWeb site, and Anki expects its operator to handle command-line, networking, firewall, protocol, and update issues.
 
-Simple front/back cards should be the least risky. Custom layouts, JavaScript behavior, and cards whose meaning depends on CSS need close inspection. Test cloze cards, typed answers, audio, images, equations, tags, and nested decks rather than assuming that an accepted file means a faithful migration.
+## What an Anki import keeps—and what it changes
 
-Preserved review history does not guarantee identical future due dates. Mochi and Anki can apply different schedulers, settings, grades, and FSRS parameters to that history.
+Mochi's [import documentation](https://mochi.cards/docs/import-and-export/importing/) accepts Anki `.apkg` files, including review history. But “imported” and “equivalent” are not the same result.
 
-### Native backups are not the same as portable text
+During import, Mochi converts HTML to Markdown and strips CSS and JavaScript. That is a format conversion between two different card models. Plain front/back material is the easiest case. A card that depends on styling, template logic, typed interactions, or JavaScript needs inspection after import.
 
-Mochi's most complete portable export is `.mochi`. According to its [backup and export documentation](https://mochi.cards/docs/getting-started/backing-up/), it can preserve decks, cards, templates, review history, tags, links, metadata, and attachments. Use it for a restorable content backup. For a full snapshot that also keeps app settings and login state, Mochi recommends copying its user directory.
+Review history also needs an explicit export choice. Anki's [export manual](https://docs.ankiweb.net/exporting.html) says **Include Scheduling Information** controls whether review history goes into the package. If you leave it off, Mochi cannot recover history that the `.apkg` never contained.
 
-Mochi's [Markdown and CSV exports](https://mochi.cards/docs/import-and-export/exporting/) are for portability:
+Even when history arrives, do not expect identical future due dates. The two apps can use different schedulers, grades, target retention, parameters, learning steps, and deck settings. Preserved events give the new scheduler evidence; they do not make the systems identical.
 
-- **Markdown** creates one readable file per card and turns subdecks into folders. It does not preserve review history, card order, templates, or tags unless those tags are written into the Markdown.
-- **CSV** can export template field values or pre-rendered front/back sides. For a card with more than two sides, the rendered option joins every side after the first into the back. CSV does not preserve review history, templates, or tags unless embedded in the content.
+## Native backups and portable text do different jobs
 
-Anki also separates full packages from text:
+Before moving anything, keep a backup that can restore the original system. A readable export is useful, but it is not always restorable.
 
-- A **`.colpkg`** holds the entire collection with scheduling and can include media. Importing one replaces the cards in the current Anki collection, so restore it into an empty temporary profile when you only want to inspect or sample the backup.
-- An **`.apkg`** holds one deck and its child decks. It includes cards, notes, and note types, with options for scheduling, presets, and media.
-- A **plain-text export** contains tab-separated note fields with HTML formatting embedded. It is useful for moving content, not for preserving the complete scheduler and deck behavior.
+Mochi's [backup guide](https://mochi.cards/docs/getting-started/backing-up/) documents two native safety options:
 
-Anki documents these differences in its [export guide](https://docs.ankiweb.net/exporting.html). Use `.colpkg` for a full Anki safety backup before any migration. Use `.apkg` for the representative deck you want Mochi to import.
+- Copying the whole user directory preserves content, review history, attachments, app settings, and login state.
+- A `.mochi` export preserves decks, cards, templates and fields, attachments, tags and metadata, review history, card order, and deck structure.
 
-### Moving from Mochi to Anki
+Mochi's [Markdown and CSV exports](https://mochi.cards/docs/import-and-export/exporting/) are portability formats. Markdown creates one file per card and folders for subdecks, but drops review history, card order, templates, and metadata tags unless the tags are in the Markdown. CSV can export template fields or rendered front/back sides, but does not preserve review history, templates, or metadata tags unless they are embedded in the content.
 
-Mochi's CSV export is the practical route. Export field values when you plan to recreate a matching Anki note type, or export rendered front/back sides when the card is simple and appearance matters less than readable content. Anki can [import text files](https://docs.ankiweb.net/importing/intro.html) and map columns to note fields.
+Anki makes a similar distinction:
 
-This is not a round trip. Mochi review history, links, Markdown note structure, templates, and multi-sided behavior do not become equivalent Anki objects through CSV. Keep the original `.mochi` backup even after the Anki copy looks correct.
+- A `.colpkg` exports the whole collection with scheduling and can include media. Importing it replaces the cards in the target Anki collection.
+- An `.apkg` exports one deck and its child decks, with options for scheduling information, presets, and media.
+- Notes in plain text use tab-separated fields with HTML formatting embedded. They preserve editable content, not the full collection behavior.
 
-## A reversible migration test
+Moving from Mochi back to Anki normally means CSV. Anki can [map text columns to note fields](https://docs.ankiweb.net/importing/text-files.html), but Mochi links, multi-sided behavior, templates, and review history do not become equivalent Anki objects through that file. Keep the `.mochi` export after the Anki copy appears correct.
 
-Do not move a whole collection on the strength of one successful import dialog. A small test takes less time than repairing a broken deck.
+## Run a reversible representative-deck test
 
-1. **Create a full Anki backup.** Export a `.colpkg` with media before changing anything.
-2. **Work in a copy.** Create a temporary Anki profile and import the `.colpkg` there. Importing a collection package replaces the cards in the target profile, which is why the empty profile matters.
-3. **Build a representative sample.** In that copied profile, gather 25–50 cards into a test deck: basic cards, reverse cards, cloze, custom templates, CSS, JavaScript, images, audio, equations, tags, nested decks, and cards with real review history.
-4. **Export the sample as `.apkg`.** Include scheduling information, deck presets, and media when those matter to your collection.
-5. **Import it into a new Mochi deck.** Your everyday Anki profile remains untouched.
-6. **Inspect content before reviewing.** Check every special card type, not just a few plain cards. Compare fields, formatting, media, tags, deck structure, and review history.
-7. **Choose Mochi's scheduler deliberately.** Its own algorithm is the default. Switch the test to FSRS only if that is the workflow you intend to keep.
-8. **Review the copied cards for one week.** Decide whether Remembered/Forgot is enough, whether the Markdown editing flow saves time, and whether offline use and sync work on the devices you actually carry.
-9. **Write down the accepted losses.** Template behavior, styling, add-ons, exact due dates, or card types may matter more after a week than they did in the comparison table.
+A migration dialog proves that a file was accepted. It does not prove that your real collection still works—or that you can bring usable content back. Test both directions while your normal Anki profile remains untouched.
 
-If the test fails, delete the Mochi test deck and continue in your everyday Anki profile. That profile and the `.colpkg` backup remain unchanged. If the test works, migrate one real deck at a time and keep both native backups until you have completed several normal review cycles.
+1. **Back up all of Anki.** Export a `.colpkg` with media and store it outside the working profile.
+2. **Prove that the backup opens.** Create an empty temporary Anki profile and import the `.colpkg` there. A collection-package import replaces the target collection, which is why the temporary profile matters.
+3. **Build a representative deck inside that temporary profile.** Keep it small enough to inspect card by card, but include the behavior you rely on: basic and reverse cards, cloze, custom templates, CSS, JavaScript, images, audio, equations, tags, nested decks, and review history.
+4. **Export that deck as `.apkg`.** Include scheduling information, presets, and media when they matter. Those options put the data into the Anki package; they do not promise that Mochi will reproduce every setting.
+5. **Import into a new Mochi deck.** Keep your everyday Anki profile and its due queue unchanged.
+6. **Inspect before reviewing.** Compare content, formatting, fields, media, tags, deck structure, and history. Pay special attention to anything that depended on HTML, CSS, JavaScript, or generated card variants.
+7. **Choose the scheduler on purpose.** Mochi starts with its own algorithm. Turn on FSRS only if that is what you intend to use after the trial.
+8. **Review the copy for one normal week.** Judge the Markdown editing flow, New cards stage, Remembered/Forgot decision, offline behavior, and—if you paid for it—sync on the devices you actually carry.
+9. **Test the way back.** Export the Mochi test deck as `.mochi` for a native backup and as CSV for Anki. Use field-value CSV when reusable fields matter; use rendered-side CSV when you mainly need visible front/back content. Import that CSV into another empty Anki profile and map its columns to a suitable note type.
+10. **Write down every accepted loss.** Check the forward and return paths separately. Exact styling, multi-sided behavior, add-on behavior, generated variants, review grades, history, or future due dates may matter more in daily use than they did in a comparison table.
 
-## Local-first, open source, and self-hosted are different
+The CSV return is a content migration, not a full Mochi restore: it does not carry review history, templates, or metadata tags unless those tags are embedded in the content. If Mochi does not solve the problem you named, delete the test deck and continue with the original Anki profile. If it does, migrate one real deck at a time and keep the Anki `.colpkg` and Mochi `.mochi` backups through several ordinary review cycles.
 
-These labels answer different questions:
+## Who should use Mochi flashcards?
 
-- **Local-first:** can the app keep the working copy on your device and continue without its cloud service?
-- **Open source:** can you inspect and modify the source under a published license?
-- **Self-hosted:** does the product provide a supported way to run the relevant server yourself?
+Mochi is a good fit when:
 
-Mochi is local-first. Its free apps can work offline, and its `.mochi` export gives you a substantial local content backup. The public “open source” link on Mochi's site leads to a [collection of integrations](https://github.com/mochi-cards/open-source), not the source for the core application. Mochi's first-party site does not present the core app as open source or document a supported way to self-host its sync service.
+- Markdown is already how you write and think;
+- notes and review cards belong in the same linked workspace;
+- you want a small Remembered/Forgot decision instead of four grades;
+- one-device offline use covers the free workflow, or Pro sync is worth US$5 per month;
+- your collection is new or simple enough that a conversion from Anki is low-risk.
 
-Anki's [main repository is licensed under AGPL version 3 or later](https://github.com/ankitects/anki/blob/main/LICENSE), with some included components under other licenses. Advanced users can also run the official [self-hosted sync server](https://docs.ankiweb.net/sync-server.html) instead of AnkiWeb. It is a sync server for compatible clients, not a self-hosted edition of the AnkiWeb site. Anki warns that setup and maintenance require command-line and networking knowledge.
+Stay with Anki when:
 
-If local work without an account is enough, Mochi gives you that with less infrastructure. If source availability and control over sync matter, Anki gives you more. Neither choice removes the need for native backups.
+- your note types generate several important card variants;
+- HTML/CSS templates, JavaScript, add-ons, or shared decks are part of the system;
+- free cross-device sync matters more than Markdown authoring;
+- you want Anki's FSRS optimizer, preset controls, four grades, and workload simulator;
+- years of review data and custom behavior are already working well.
 
-## Which one should you choose?
-
-### Choose Mochi for a Markdown notebook-card workflow
-
-Mochi is the better fit when you want notes, references, and cards to share one readable Markdown surface. Its accountless offline mode is attractive for a single device, and Pro adds sync without changing the authoring model. Remembered/Forgot also keeps the daily review decision simple.
-
-It is especially reasonable for a new collection or an Anki collection made mostly of straightforward content. Run the sample import first if custom behavior or years of history matter.
-
-### Choose Anki for maximum control and collection fidelity
-
-Anki is the better fit when your collection depends on note types, generated card variants, HTML/CSS templates, add-ons, shared decks, or detailed FSRS controls. Its package formats and free sync make it easier to keep an Anki-shaped collection intact.
-
-Existing Anki owners should need a concrete reason to leave. Native Markdown or Mochi's calmer authoring flow may be that reason. A slightly cleaner interface by itself probably is not.
-
-### Consider a smaller open-source alternative only for a simpler collection
-
-If neither workflow fits, [Flashcards Open Source App features](/features/) include front/back Markdown cards, FSRS review, offline-first web and mobile clients, MCP and Agent API access, and an open-source self-hosting path. I build it, and its limits matter here: it does not replace Mochi's connected Markdown notebook or Anki's templates and direct `.apkg` migration. It is most sensible for a fresh, simpler collection; the [getting started guide](/docs/getting-started/) shows the current product shape.
+The most sensible Mochi alternative depends on why neither choice fits. For a fresh, simpler collection, [Flashcards Open Source App features](/features/) include FSRS reviews, offline study and sync, portable card/tag/media transfer, agent access, and a documented self-hosted path. I build it, and the limits are relevant: it does not replace Mochi's connected Markdown notebook or Anki's mature template and add-on system. The [getting-started guide](/docs/getting-started/) shows the current hosted, mobile, agent, and self-hosted paths.
 
 ## The bottom line
 
-The practical **Anki vs Mochi** decision comes down to what you want to preserve for the next few years.
+Mochi is more than a prettier Anki interface. Its real idea is that a Markdown note, a linked knowledge record, and a spaced-repetition card can be the same object. The free plan covers accountless offline work; Pro adds the hosted features, including cross-device sync.
 
-Choose Mochi when Markdown notes, local-first use, and binary reviews make the study loop easier. Choose Anki when your long-term home needs mature templates, four-button FSRS controls, free sync, and high-fidelity Anki packages.
+That is a good trade for a learner starting a new Markdown-centered collection. It may also be worth switching from Anki if the representative-deck test proves that native Markdown and binary reviews remove real friction.
 
-If you already own a serious Anki collection, do not decide from screenshots or feature lists. Export a full backup, import a representative `.apkg`, and spend a week with the copied cards. The migration test will show whether Mochi's cleaner workflow is worth the specific behavior your collection leaves behind.
+For an established Anki owner, the burden of proof runs the other way. Back up the collection, test the cards that carry the most custom behavior, and keep Anki unless Mochi improves the week-to-week workflow enough to justify the specific formatting, template, scheduler, and ecosystem features left behind.
