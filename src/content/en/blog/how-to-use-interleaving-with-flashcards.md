@@ -65,7 +65,7 @@ Good candidates include:
 
 - product rule, quotient rule, and chain rule problems
 - movement along a demand curve versus a shift of the curve
-- Spanish preterite versus imperfect in short contexts
+- [Spanish preterite versus imperfect in short contexts](/catalog/packages/spanish-preterite-vs-imperfect-flashcards/)
 - mitosis versus meiosis when a prompt describes an outcome
 - two programming methods with similar inputs but different guarantees
 

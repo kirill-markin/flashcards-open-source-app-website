@@ -128,6 +128,8 @@ Back: fui
 
 Here the imperfect `iba` presents a repeated past habit, while the preterite `fui` presents one completed trip. Use the terminology taught by your course, and copy its intended context. A prompt such as `conjugate ir` is too broad; `Yesterday: ir` can still be too thin. Most **Spanish verb flashcards** should ask for one person, one form, and one meaningfully constrained cue.
 
+The [Spanish Preterite vs. Imperfect Flashcards: Tense Choice in Context](/catalog/packages/spanish-preterite-vs-imperfect-flashcards/) deck extends this answer-first pattern across 160 cards: 16 foundations, 120 contextual-production cards in 60 matched pairs, and 24 short-story prompts.
+
 For a focused drill before adding sentence context, [Spanish Present Tense Flashcards: 25 Verbs, 150 Conjugations](/catalog/packages/spanish-present-tense-verbs/) uses one infinitive and one subject group per card. It deliberately leaves sentence translation and other tenses out.
 
 When the contrast itself is the target, you can place both examples on the back of a dedicated explanation card. Keep production cards smaller. Otherwise, one review score ends up hiding whether you missed the subject, the stem, the ending, or the choice of tense.
