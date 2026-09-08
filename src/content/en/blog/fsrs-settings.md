@@ -1,232 +1,260 @@
 ---
-title: "FSRS Settings in 2026: Desired Retention, Learning Steps, and Review Load Without Over-Tweaking"
-description: "A practical 2026 guide to FSRS settings for flashcards: desired retention, learning steps, maximum interval, new-card limits, and when to stop tuning the scheduler."
+title: "Best FSRS Settings for Anki in 2026: Retention, Steps, and Review Load"
+description: "Choose safe Anki FSRS settings for desired retention, learning steps, optimization, rescheduling, and workload in Anki 26.08 with FSRS-6."
 date: "2026-04-25"
+updated: "2026-09-08"
+image: "/blog/fsrs-settings-v2.png"
 keywords:
   - "FSRS settings"
+  - "best FSRS settings"
   - "Anki FSRS settings"
   - "desired retention FSRS"
   - "FSRS learning steps"
-  - "best FSRS settings"
-  - "FSRS review load"
-  - "spaced repetition settings"
-  - "FSRS flashcards"
+  - "FSRS simulator"
+  - "optimize FSRS parameters"
+  - "FSRS-6"
 ---
 
-The weirdest FSRS mistake is not setting retention too high or too low. It is spending three evenings tuning a scheduler for a deck where half the cards still ask questions like "Explain chapter 4."
+Moving Anki's desired retention from 90% to 95% sounds like a small change. It is not a five-percent increase in work. FSRS must shorten intervals as the target rises, and a mature collection can produce a much heavier review queue. If you also enable **Reschedule cards on change**, part of that workload may arrive immediately.
 
-I understand why it happens. Once people decide FSRS is better than SM-2, the next search is usually **FSRS settings** or **Anki FSRS settings**. The algorithm sounds serious, the settings look mathematical, and suddenly reviewing flashcards feels like configuring a production database.
+The best FSRS settings are therefore not a parameter string to copy. They are a sequence of decisions: set the workload you can sustain, choose the recall target inside that budget, fit the model to your own history, and leave existing due dates alone unless you deliberately want to rebuild them.
 
-It does not need to be that dramatic.
+The labels and behavior below match the [Anki 26.08 release](https://github.com/ankitects/anki/releases/tag/26.08) and its FSRS-6 controls. If you first need the model rather than the settings, read [What Is FSRS?](/blog/what-is-fsrs/). If you are still choosing a scheduler, start with [FSRS vs SM-2](/blog/fsrs-vs-sm-2/).
 
-![Warm desk with flashcards, a small retention dial, and a calm evening study setup](/blog/fsrs-settings.png)
+> **Disclosure:** I am Kirill Markin, and I build [Flashcards Open Source App](/features/). Anki offers personalized parameter fitting and experimental workload simulators that Flashcards does not currently offer. The comparison near the end keeps those differences explicit.
 
-## FSRS settings are a workload decision, not a personality test
+**Facts checked:** September 8, 2026.
 
-The biggest setting in FSRS is not really a memory setting.
+![Canal lock operator tests water flow on a scale model before changing the full-size lock](/blog/fsrs-settings-v2.png)
 
-It is a tradeoff setting.
+## The short answer: start here
 
-When you raise desired retention, you are saying you want cards to come back earlier so you forget less often. That can be good. It also means more reviews. When you lower it, you accept more forgetting in exchange for a lighter queue.
+For most Anki users, these are safe starting choices, not universal settings:
 
-That is not a moral question. It is an operating question.
+| Setting or habit | Safe starting choice | Why |
+| --- | --- | --- |
+| Desired retention | `0.90` | It is Anki's default and balances recall with review load. |
+| FSRS parameters | Use **Optimize Current Preset**; do not paste or hand-edit weights | The optimizer fits the model to your review history. |
+| Optimization frequency | Monthly at most; every few months is usually enough | Anki does not recommend frequent optimization. |
+| Learning steps | Keep a small number of steps that finish the same day | Long step chains delay the model-based schedule. |
+| Relearning steps | Keep them minimal and under one day | The same boundary applies after a failed review card. |
+| Reschedule cards on change | Off | New settings can take effect through future reviews without rebuilding today's queue. |
+| Maximum interval | Keep the 100-year default | A shorter ceiling forces mature cards back more often. |
+| New cards/day | Set it from a workload you can sustain | Every new card creates learning work now and reviews later. |
+| Again versus Hard | Again means failed recall; Hard means difficult success | Incorrect ratings give the model incorrect history. |
 
-If your daily review queue already feels heavy, raising retention because it sounds more serious can make the whole system worse. If you are preparing for a high-stakes exam and the deck is clean, a small increase can make sense.
+If reviews are manageable and your setup is already close to this, there may be nothing to fix. Settings maintenance is not studying.
 
-The problem starts when people try to find the "best" FSRS setting without looking at their actual day.
+## Keep three decisions separate
 
-## Start with desired retention
+People often mix desired retention, FSRS parameters, and daily workload into one idea. They control different things:
 
-Desired retention is the setting most people should understand first.
+- **Desired retention** is your recall target. You choose it from your goals and available study time.
+- **FSRS parameters** fit the memory model to review history. Anki's optimizer calculates them.
+- **New-card and review limits** control how much material enters the system and how much due work Anki can show each day.
 
-In plain language, it tells the scheduler how likely you want to be to remember a card when it comes due. A desired retention of `0.90` means the system is aiming for about 90% recall at review time.
+This separation makes troubleshooting much easier. A large queue does not automatically mean your parameters are wrong. A high-stakes deck does not automatically need a separate parameter preset. And lowering desired retention will not repair an intake rate that was never sustainable.
 
-The [Anki manual](https://docs.ankiweb.net/deck-options.html#desired-retention) puts this tradeoff very directly: higher desired retention shortens intervals and increases reviews, and the workload rises quickly as the value gets close to 1.0.
+## Choose desired retention from workload, not ambition
 
-That last part is the trap.
+Desired retention tells FSRS how likely you want to be to remember a review card when it comes due. At `0.90`, FSRS schedules around a predicted 90% chance of recall. That is a model target, not a guarantee that every session or exam will produce exactly 90% correct answers.
 
-Going from 90% to 95% does not feel like a big change when you type it into a settings box. In daily life, it can feel like the app suddenly found a second job for you.
+The tradeoff works in both directions:
 
-So I would start boring:
+- Raise desired retention, and intervals become shorter as reviews increase.
+- Lower it, and intervals become longer as failures increase.
+- Push it too low, and the extra relearning after failures can consume part of the time you hoped to save.
 
-- use the default if your reviews are manageable
-- lower the target only if the queue is clearly too heavy and forgetting is still acceptable
-- raise it only when the material justifies the extra time
-- change it slowly, then watch what happens
+Anki defaults to 90%. Its [desired-retention guidance](https://docs.ankiweb.net/deck-options.html#desired-retention) warns that workload rises quickly as the target approaches 100% and recommends staying below 97%. The official [optimal-retention explanation](https://github.com/open-spaced-repetition/fsrs4anki/wiki/The-optimal-retention) covers the other end of the curve: very low retention can also be inefficient because forgotten cards need more work.
 
-The goal is not to win the settings screen. The goal is to keep reviewing.
+Start at `0.90`, then change it only after checking the workload. A higher target can make sense for material where forgetting has a real cost. A lower target can make sense when reviews are displacing more valuable study. Neither change fixes vague cards, dishonest ratings, or too many new cards.
 
-## Why 90 percent is a sane default, not a law
+### Deck retention and preset parameters have different scope
 
-The default 90% target is a good center of gravity.
+In Anki 26.08, **Desired retention** offers two scopes: **Shared Preset** and **This deck**. You can therefore keep related decks on one parameter preset while giving a particular deck its own retention target.
 
-It is not a magic number.
+Use that override when the cost of forgetting differs. A licensing-exam deck may justify a higher target than a low-priority reference deck even if both use the same fitted model.
 
-For casual language learning, a slightly lower target may be fine if it keeps the habit alive. For medical, legal, finance, or certification material, you may want a bit more certainty, especially near an exam. For a messy deck full of weak AI-generated cards, raising retention often just makes you see bad cards more often.
+FSRS parameters do not become deck-specific when you choose **This deck**. By default, Anki fits parameters from the review history of all decks assigned to the current preset. If groups of decks differ wildly in subjective difficulty, separate presets are the supported way to fit them separately.
 
-That last one is painful but useful.
+## Use Help Me Decide and the Simulator for different questions
 
-If a card is poorly written, FSRS settings cannot turn it into a good learning object. They can only decide when the bad card comes back.
+Anki 26.08 exposes two separate experimental controls:
 
-Before moving retention upward, I would ask a simpler question: would this deck get better if I deleted 15% of it?
+- **Help Me Decide (Experimental)** shows a personalized retention-workload curve. Use it to ask, “What retention target fits the reviews or minutes I can sustain?”
+- **FSRS Simulator (Experimental)** estimates how one configuration may behave over time. Use it to compare changes to retention, new-card intake, review limits, and maximum interval.
 
-Often yes.
+The [FSRS Simulator documentation](https://docs.ankiweb.net/deck-options.html#the-simulator) lists its core inputs:
 
-## Do not copy someone else's FSRS parameters
+- days to simulate
+- additional new cards to simulate
+- new cards per day
+- maximum reviews per day
+- maximum interval
+- desired retention and the preset's FSRS parameters
 
-Desired retention is meant to be chosen by you.
+The simulation also uses the real memory states of cards in the preset. That makes it more useful for a mature collection than multiplying today's due count by a generic percentage.
 
-FSRS parameters are not.
+Run three scenarios before changing the live setup:
 
-The point of optimizing parameters is that the scheduler can learn from your review history. Copying another learner's parameters because they posted a nice screenshot defeats the point. Their cards, recall habits, deck maturity, and answer-button behavior are not yours.
+1. Your current retention and new-card intake.
+2. The retention target you are considering.
+3. The same target with fewer new cards per day.
 
-The [FSRS optimal retention documentation](https://github.com/open-spaced-repetition/fsrs4anki/wiki/The-optimal-retention) is useful because it frames retention as a balance between knowledge and workload, not as a number to borrow from a stranger.
+The third run tests a common alternative: keep the recall target and slow the stream of new material. If that produces a manageable forecast, you do not need to accept more forgetting just to calm the queue. The deeper intake guide is [How Many New Flashcards per Day?](/blog/how-many-new-flashcards-per-day/).
 
-The practical version is simple:
+Both tools are estimates. Missed days, edited cards, new material, and changing rating habits can move real workload away from the graph. Use the comparison to choose a direction, not to promise an exact queue months from now.
 
-- do not manually edit FSRS parameters unless you know exactly why
-- do not paste parameters from a forum post
-- optimize from your own review history when the tool supports it
-- treat parameter tuning as maintenance, not entertainment
+Older guides may instead mention **Compute Minimum Recommended Retention**, or CMRR. Anki removed that feature in version 25.07. It is not the current workflow for choosing desired retention.
 
-This is one of those places where doing less is genuinely more professional.
+## Optimize FSRS parameters from your own history
 
-## Keep learning steps boring
+Desired retention expresses your goal. FSRS parameters describe how the model fits your reviews.
 
-Learning steps are where many people keep old SM-2 habits alive.
+In Anki 26.08, use **Optimize Current Preset** to fit the parameters for the active preset. By default, Anki includes review history from every deck using that preset; you can adjust the search if the fitting set should be narrower. **Optimize All Presets** updates every preset in one operation.
 
-They add long chains like `1m 10m 1d 3d` because it feels careful. With FSRS, that can get awkward. The scheduler is supposed to take over long-term timing after the first learning phase. If your learning steps stretch across days, you are delaying the part of the system you switched to FSRS for.
+Do not type weights manually or copy them from Reddit, a video, or somebody else's deck. Their cards, review timing, and rating habits are not your history. A clean row of [FSRS-6 weights](https://github.com/open-spaced-repetition/awesome-fsrs/wiki/The-Algorithm#fsrs-6) is not a transferable study strategy.
 
-The Anki manual recommends keeping learning and relearning steps shorter than one day when using FSRS, and keeping the number of steps minimal.
+Re-optimize only after meaningful new review history has accumulated. The Anki manual says once a month is sufficient, while the 26.08 in-app guidance says once every few months is sufficient. The practical conclusion is the same: there is no reason to optimize every week, let alone after every session.
 
-That is good advice.
+### Use the health check with the current preset
 
-For most decks, I would rather keep learning steps short and spend the saved time improving cards:
+Enable **Check health when optimizing (slow)** when you want Anki to assess how well FSRS can adapt to the current preset's history. This check runs with **Optimize Current Preset**, not **Optimize All Presets**.
 
-- split overloaded prompts
-- shorten long answers
-- turn recognition cards into recall cards
-- delete cards that exist only because AI generated them politely
+If the result is poor, inspect the data before touching the weights. The [Anki FSRS parameter guidance](https://docs.ankiweb.net/deck-options.html#fsrs-parameters) names common causes: fewer than a few hundred reviews, using Hard after a failure, and failing to press Again when recall fails. With little useful history, keep the defaults and optimize later instead of borrowing another user's parameters.
 
-The scheduler works better when the card itself is worth scheduling.
+## Again means failed recall; Hard is a pass
 
-## Be careful with maximum interval
+This habit matters as much as any setting.
 
-Maximum interval looks harmless because it feels like a safety limit.
+Use **Again** when you could not produce the required answer or got it wrong. Use **Hard** only when you recalled it correctly, but with serious effort or hesitation. Good and Easy are also passing grades.
 
-It can also quietly create extra work.
+Pressing Hard to avoid a short Again interval records a success after a failure. FSRS then learns from the wrong event. Choose the button that describes the recall, not the interval you want from the labels above the buttons.
 
-If you cap intervals too aggressively, mature cards keep returning even when FSRS would have pushed them farther out. That may be useful for a narrow exam window or for facts you truly want to keep warm. It is usually not useful as a general anxiety setting.
+Ambiguous cards make honest ratings harder. If a prompt asks for five facts and you remember four, the scheduling problem began in the editor. Split or rewrite the card. For cards that keep failing despite repeated reviews, use [How to Fix Leech Flashcards](/blog/how-to-fix-leech-flashcards/).
 
-A very short maximum interval turns spaced repetition into something closer to repeated checking.
+## Keep FSRS learning steps short—or leave them empty deliberately
 
-That is expensive.
+Learning and relearning steps control short returns before the regular long-term schedule takes over. They are not another retention target.
 
-I would only lower maximum interval when there is a real reason:
+Anki's FSRS guidance recommends two constraints:
 
-- the exam date is close
-- the material expires or changes
-- the deck is for critical operational knowledge
-- you have measured the workload and can afford it
+- every step should be shorter than one day and possible to complete on the same day
+- the number of same-day repetitions should stay small
 
-Otherwise, let easy mature cards stay away long enough to make room for the cards that actually need you.
+Long chains such as `1m 10m 1d 3d` carry an old SM-2 habit into FSRS. Steps of a day or more delay model-based scheduling and can create confusing button labels, including Hard showing a longer interval than Good.
 
-## Use new-card limits before you blame FSRS
+A compact sequence such as `1m 10m`, with a `10m` relearning step, is a conservative baseline when it fits your sessions. More same-day repetitions are not automatically better.
 
-Most review-load problems are intake problems.
+Anki 26.08 also allows either (re)learning-step field to be empty. With FSRS enabled, the empty field delegates that short-term scheduling to FSRS. This is experimental, and an Again interval may be one day or longer. Keep short manual steps if you need a predictable same-day return; clear a field only when you intentionally accept FSRS choosing that timing.
 
-The scheduler gets blamed because it is the part that shows up every morning with the bill. But the bill usually came from yesterday's new cards, last week's import, or the 300-card AI batch that looked efficient for about twelve minutes.
+## Keep Reschedule cards on change off for a gradual transition
 
-If reviews are too high, I would check these before touching FSRS settings:
+With **Reschedule cards on change** off—the default—enabling FSRS or changing desired retention or parameters does not immediately rewrite existing due dates. The new configuration applies as cards are reviewed in the future, so the queue changes gradually.
 
-- how many new cards you add per day
-- how many cards you generated but never edited
-- how many cards test multiple facts at once
-- how many stale cards should be suspended or deleted
+Saving one of those FSRS changes with the option on recalculates due dates immediately. Depending on the new target and card states, many cards can become due at once. Anki also adds review entries for rescheduled cards, increasing collection size.
 
-This pairs with a more general planning question:
+This option is useful only when you actually want a retroactive rebuild. For a mature collection:
 
-- [How Many New Flashcards Per Day in 2026?](https://flashcards-open-source-app.com/blog/how-many-new-flashcards-per-day/)
+1. Create a fresh backup and confirm you know how to undo or restore it.
+2. Run the Simulator with the proposed settings.
+3. Choose one configuration change; do not combine several experiments.
+4. When you save it, enable rescheduling only if you want the immediate due-date rewrite and can absorb the result.
 
-FSRS can schedule a good deck more calmly. It cannot make an oversized deck small.
+Anki explicitly recommends a backup when switching from SM-2 with rescheduling. The broader [flashcard backup guide](/blog/how-to-back-up-flashcards/) explains why the recovery path matters as much as the backup file.
 
-## What I would change for exams
+## Keep the maximum interval generous
 
-Exam decks are different because the date is real.
+Anki's maximum interval defaults to 100 years. That looks odd until you remember that it is a ceiling, not a promise that every mature card will disappear for a century.
 
-If the exam is close, the best FSRS setting is not always the one that would make sense for a long-term language deck. You may accept a heavier workload for a few weeks because the material matters now.
+Shortening the ceiling forces well-known cards back sooner and increases workload. At the cap, Hard, Good, and Easy can all show the same delay because none may exceed the maximum.
 
-I would still avoid heroic settings.
+A shorter maximum interval can be reasonable when an exam creates a real horizon, the material changes often, or a professional rule requires repeated exposure regardless of predicted memory. Coordinate that ceiling with the calendar and the Simulator instead of choosing a small number from anxiety. [How to Study for an Exam With FSRS](/blog/how-to-study-for-an-exam-with-fsrs/) covers that narrower case.
 
-For exams, I would change the workflow before I change the algorithm:
+For ordinary long-term learning, leave the cap generous. Desired retention already controls when predicted recall should trigger a review.
 
-1. stop adding new cards earlier than feels comfortable
-2. keep desired retention near the normal range unless the deck is clean
-3. use tags or filtered review for weak topics
-4. raise workload only when the calendar can actually absorb it
-5. protect the final week from giant imports
+## New-card intake is part of the workload decision
 
-This longer guide fits that scenario better:
+FSRS can distribute reviews; it cannot make unlimited intake sustainable. Every new card creates learning work now and review work later.
 
-- [How to Study for an Exam With FSRS in 2026](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/)
+When the queue is too heavy, inspect these before lowering desired retention:
 
-The short version: exams justify stricter review. They do not justify chaos.
+- new cards per day
+- large imports or generated card batches
+- a maximum-reviews limit that keeps hiding due work
+- leeches and vague cards consuming repeated attempts
+- missed review days
 
-## Where Flashcards fits this setup
+Use **Additional new cards to simulate** when you know a deck will grow. A forecast based only on today's collection will not represent the workload after a large import.
 
-[Flashcards](https://flashcards-open-source-app.com/) treats FSRS as part of the product contract, not as a badge on a landing page.
+If the result is too high, reduce intake and simulate again. That preserves the recall target without asking the scheduler to tolerate more forgetting.
 
-The current product direction already matches the settings that matter for serious review:
+## Anki and Flashcards expose different FSRS controls
 
-- front/back cards instead of vague note blobs
-- AI-assisted drafting, with the expectation that you still edit
-- FSRS scheduling for the actual review loop
-- workspace-level settings such as desired retention, learning steps, relearning steps, maximum interval, and fuzz
-- hosted web app plus open-source code for people who care how the system works
+Both products use FSRS-6, but Anki FSRS settings do not map one-for-one onto Flashcards Open Source App.
 
-That last part matters for FSRS-heavy users.
+| Capability | Anki 26.08 | Flashcards Open Source App |
+| --- | --- | --- |
+| Desired retention | **Shared Preset** or **This deck** | Configurable per workspace; default `0.90` |
+| FSRS parameters | **Optimize Current Preset** or **Optimize All Presets** from review history | Official FSRS-6 default weights are pinned and not user-configurable in v1 |
+| Learning steps | Configurable; empty-field scheduling by FSRS is experimental | Configurable per workspace; defaults to `1m 10m` |
+| Relearning steps | Configurable; empty-field scheduling by FSRS is experimental | Configurable per workspace; defaults to `10m` |
+| Maximum interval | Default 100 years | Default 36,500 days, also 100 years |
+| Settings changes | Future reviews by default; optional retroactive rescheduling | Future reviews only; existing due dates are not rebuilt |
+| Workload tools | **Help Me Decide (Experimental)** and **FSRS Simulator (Experimental)** | No equivalent workload simulator in v1 |
 
-If you care enough to search **best FSRS settings**, you probably also care whether the product is hiding the scheduler behind vague marketing words. I would rather use a tool that makes the review model part of the product's real design.
+Flashcards uses the standard Again, Hard, Good, and Easy ratings and keeps card-level FSRS memory state. Its backend, iOS, and Android schedulers are independent implementations kept on the same behavior; the web review flow reuses the backend scheduler rather than adding a fourth copy.
 
-## A simple FSRS settings checklist
+These boundaries and defaults are documented in the public [Flashcards FSRS scheduling specification](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/docs/fsrs-scheduling-logic.md). The tradeoff is straightforward: Flashcards provides a practical workspace-level FSRS-6 setup, while Anki provides finer scope, personalized fitting, and simulation. If those controls are essential, Anki is the stronger fit.
 
-If I were setting up a new deck today, I would keep the checklist short:
+## A safer workflow for a mature collection
 
-| Setting | Practical default | When to revisit it |
-|---|---|---|
-| Desired retention | Start around the normal default | Reviews are too heavy, or the material needs higher recall |
-| FSRS parameters | Optimize from your own history | You have enough review history and the tool supports it |
-| Learning steps | Keep them short and minimal | Same-day learning feels too rushed or too repetitive |
-| Relearning steps | Keep them simple | Failed mature cards keep returning in an unhelpful rhythm |
-| Maximum interval | Leave generous unless there is a reason | Exam windows, critical knowledge, or measured retention gaps |
-| New cards/day | Set lower than your ambition | Daily reviews are crowding out real life |
+If you already have months or years of review history, use this order:
 
-Not glamorous.
+1. **Fix rating semantics.** Again is failure; Hard is difficult success.
+2. **Optimize the current preset.** Fit your own history instead of editing or copying weights.
+3. **Run the health check if needed.** Treat thin or inconsistent history as a data problem.
+4. **Use Help Me Decide.** Choose a retention range from reviews or minutes you can sustain.
+5. **Run the Simulator.** Compare the current setup, the proposed target, and lower new-card intake.
+6. **Change one live input.** Adjust retention or intake first, then observe the real queue.
+7. **Keep steps short.** Remove day-long learning and relearning chains; use empty fields only as an experiment.
+8. **Leave the maximum interval generous.** Shorten it only for a defined horizon or requirement.
+9. **Keep rescheduling off.** If you need an immediate rebuild, back up first and plan for the resulting queue.
 
-Useful.
+This sequence keeps a mature schedule reversible for as long as possible. It also prevents three different problems—the model fit, the recall goal, and the flow of new material—from collapsing into one settings puzzle.
 
-## The best FSRS setting is the one you can keep reviewing
+## FAQ about the best FSRS settings
 
-People usually search **FSRS settings** because they want the algorithm to be precise.
+### Is 90% the best desired retention for FSRS?
 
-That is reasonable. FSRS is better than older scheduling when the implementation is done well and the deck is not a mess. But the practical win does not come from endless tuning. It comes from making a few calm choices, then letting the scheduler do its job while you improve the cards.
+It is the safest general starting point because it is Anki's default and avoids the sharpest part of the high-retention workload curve. The best value for one deck depends on the cost of forgetting and the workload you can sustain. Check **Help Me Decide (Experimental)** before changing it.
 
-Use desired retention as a workload lever.
+### Should I set desired retention to 95%?
 
-Keep learning steps short.
+Only after checking the added reviews or minutes. A clean, high-stakes deck may justify 95%; a large casual collection may become unnecessarily heavy. Do not enable retroactive rescheduling at the same time unless you deliberately want an immediate due-date rebuild.
 
-Do not copy parameters.
+### How often should I optimize FSRS parameters?
 
-Control new cards before blaming the scheduler.
+Monthly is already frequent enough, and Anki 26.08's in-app guidance says once every few months is sufficient. Optimize after meaningful new history has accumulated, not on a daily or weekly schedule.
 
-And if the whole thing still feels heavy, the answer may not be another settings change. It may be a smaller, cleaner deck.
+### Should FSRS learning steps be empty?
 
-## Try FSRS without turning studying into settings maintenance
+Empty learning or relearning steps let Anki 26.08 delegate the corresponding short-term schedule to FSRS. The feature is experimental, and Again may be scheduled a day or more away. Minimal same-day steps remain the conservative choice.
 
-If you want to try that workflow:
+### Does changing FSRS settings reschedule existing Anki cards?
 
-- [Open Flashcards](https://flashcards-open-source-app.com/)
-- [Open the app](https://app.flashcards-open-source-app.com/)
-- [Read the features page](https://flashcards-open-source-app.com/features/)
-- [Compare FSRS and SM-2](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
-- [View the source on GitHub](https://github.com/kirill-markin/flashcards-open-source-app)
+Not by default. With **Reschedule cards on change** off, new settings affect future reviews without immediately rebuilding the queue. Turning it on changes due dates and can make many cards due, so back up first.
+
+### Is CMRR still part of Anki?
+
+No. Anki removed Compute Minimum Recommended Retention in version 25.07. In Anki 26.08, use **Help Me Decide (Experimental)** and **FSRS Simulator (Experimental)** to compare retention with estimated workload.
+
+### Does Flashcards use the same settings as Anki?
+
+It uses FSRS-6 and exposes desired retention, learning steps, relearning steps, maximum interval, and fuzz per workspace. It does not copy Anki's full settings model: weights are pinned in v1, changes are forward-only, and there is no personalized parameter optimization or workload simulator.
+
+## Set the workload before the percentage
+
+Good FSRS settings make the review queue serve a real study plan. Start at 90%, estimate the work, control new-card intake, and raise retention only when remembering more is worth the extra reviews. Keep steps short, the maximum interval generous, and the rating data honest.
+
+Then leave the settings screen. The scheduler needs consistent reviews more than it needs another evening of tuning.
