@@ -43,6 +43,8 @@ AWS also says the exam has **50 scored questions** and **15 unscored questions**
 
 Those four domains are a better starting point for **SAA-C03 flashcards** than a giant pile of AWS product notes. If a card does not help you make a better architecture decision inside one of those domains, it probably does not deserve a permanent slot in the queue.
 
+For a ready-made version of that structure, [AWS Solutions Architect Associate SAA-C03 Flashcards: Architecture Decisions & Trade-Offs](/catalog/packages/aws-solutions-architect-associate-saa-c03-flashcards/) contains 300 English cards centered on decisions and trade-offs across all four domains.
+
 ## Do not build one giant AWS services deck
 
 This is the mistake I would avoid first. People open the exam guide, see a long list of services, and start building a card for every name they recognize only vaguely. A week later the deck is full of shallow prompts and half-remembered product descriptions, which usually reviews badly.
