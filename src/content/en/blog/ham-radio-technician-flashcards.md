@@ -161,11 +161,13 @@ Also check the exam provider's identification, registration, fee, calculator, an
 
 [Flashcards Open Source App](/features/) can hold front-and-back cards, organize them with decks and tags, and schedule reviews with FSRS. That covers the recall part of this workflow.
 
+For a ready-made starting point, [Ham Radio Technician Flashcards: 90 Core Concepts for 2026-2030](/catalog/packages/ham-radio-technician-2026-2030-flashcards/) is a free CC0 1.0 deck published on September 9, 2026. Its 90 original cards use concise concept prompts and explanations across all ten subelements. It is a focused recall layer, not full coverage of the 409-question pool, the three official diagrams, or a randomized 35-question practice exam.
+
 For radio spelling practice alongside Technician study, the [NATO phonetic alphabet deck](/catalog/packages/nato-phonetic-alphabet-flashcards/) drills all 26 official ICAO/NATO letter-to-code-word pairs in both directions, with standard spellings and pronunciation cues. It does not include digits or procedural words.
 
 For a separate Morse code drill, the [Morse code alphabet and numbers deck](/catalog/packages/morse-code-alphabet-numbers/) has 72 visual-recall cards covering letters A–Z and digits 0–9 in both character-to-pattern and pattern-to-character directions; it won't replace listening and timing practice.
 
-The app is not affiliated with the FCC, NCVEC, or ARRL. It does not include an official Technician deck, import the question pool, verify your explanations, provide the official diagrams, or generate a 35-question licensing exam. You supply and check the card content. Use an established current-pool practice service for exam simulation.
+The app and deck are independent, unofficial resources; neither is affiliated with or endorsed by the FCC, NCVEC, or ARRL. The deck does not reproduce the question pool, provide the official diagrams, or generate a 35-question licensing exam. Use it as a starting point, then add and check cards for your own weak spots. Keep an established current-pool practice service for exam simulation.
 
 If you want a place for the cards you make from your own study, the [Getting Started guide](/docs/getting-started/) explains the current app options.
 
