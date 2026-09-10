@@ -1272,7 +1272,8 @@ test("reuses one read model while enabled and returns null while disabled", () =
     () => enabled,
     () => {
       dumpReadCount += 1;
-      return createValidDump();
+      // The reader consumes an already parsed dump, exactly as production does.
+      return parsePublicCatalogDump(createValidDump());
     },
   );
 
