@@ -4,6 +4,8 @@ Marketing website for Flashcards Open Source App. Static Next.js site deployed o
 
 **Git Workflow**: commit directly to `main`; deploy is automatic after push.
 
+**CI**: `.github/workflows/pr-checks.yml` runs `npm run test:catalog` on pull requests and on pushes to `main`. On `main` it reports after the commit has landed and Vercel has started deploying it, so it detects a broken commit rather than blocking one; no status check is currently configured as required.
+
 ## Rules
 
 - Use English for code comments and documentation.
@@ -21,6 +23,7 @@ Marketing website for Flashcards Open Source App. Static Next.js site deployed o
 - `npm run dev`: development server with Turbopack
 - `npm run build`: production build
 - `npm run lint`: ESLint
+- `npm run test:catalog`: catalog test suite
 
 ## BigQuery Analytics
 
