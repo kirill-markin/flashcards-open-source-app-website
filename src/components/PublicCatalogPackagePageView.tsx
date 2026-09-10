@@ -20,6 +20,7 @@ import {
   formatPublicCatalogDate,
   formatPublicCatalogNumber,
   getPublicCatalogPackageAlignmentFacts,
+  getPublicCatalogPackageContentWarning,
 } from "@/lib/publicCatalogFormatting";
 import {
   renderPublicCatalogCardMarkdownToHtml,
@@ -229,6 +230,7 @@ export async function PublicCatalogPackagePageView({
   const { author, coverMediaAsset, latestVersion, packageMetadata } = packageView;
   const cardTags = getPublicCatalogPackageCardTags(packageView);
   const alignmentFacts = getPublicCatalogPackageAlignmentFacts(latestVersion, copy);
+  const contentWarning = getPublicCatalogPackageContentWarning(latestVersion);
   const packageRoutePathname = getPublicCatalogPackageRoutePathname(
     packageMetadata.slug,
   );
@@ -415,10 +417,10 @@ export async function PublicCatalogPackagePageView({
             </aside>
 
             <div className={styles.descriptionBlock}>
-              {latestVersion.contentWarning === null ? null : (
+              {contentWarning === null ? null : (
                 <aside className={styles.warning}>
                   <strong>{copy.contentWarningLabel}</strong>
-                  <p>{latestVersion.contentWarning}</p>
+                  <p>{contentWarning}</p>
                 </aside>
               )}
 
