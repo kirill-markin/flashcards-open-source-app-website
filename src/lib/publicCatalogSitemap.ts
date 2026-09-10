@@ -14,8 +14,7 @@ import {
   getPublicCatalogCollectionRoutePathname,
   getPublicCatalogLanguageAlternates,
   getPublicCatalogLanguageRoutePathname,
-  getPublicCatalogPackageAudienceLocales,
-  getPublicCatalogPackagePageLocales,
+  getPublicCatalogPackageCanonicalLocales,
   getPublicCatalogPackageRoutePathname,
   PUBLIC_CATALOG_AUTHORS_ROUTE_PATHNAME,
   PUBLIC_CATALOG_COLLECTIONS_ROUTE_PATHNAME,
@@ -119,17 +118,24 @@ function createCatalogRoutes(
       routePathname: PUBLIC_CATALOG_COLLECTIONS_ROUTE_PATHNAME,
     },
   ];
-  const packageRoutes = catalog.packages.map((packageView) => ({
-    alternateLocales: getPublicCatalogPackageAudienceLocales(
-      packageView.latestVersion.languageTags,
-    ),
-    lastModified: getPackageLastModified(packageView),
-    pageLocales: getPublicCatalogPackagePageLocales(),
-    priority: 0.6,
-    routePathname: getPublicCatalogPackageRoutePathname(
+  const packageRoutes = catalog.packages.map((packageView) => {
+    // Only canonical package routes belong in the sitemap; the remaining locale
+    // routes canonicalize into them.
+    const canonicalLocales = getPublicCatalogPackageCanonicalLocales(
       packageView.packageMetadata.slug,
-    ),
-  }));
+      packageView.latestVersion.languageTags,
+    );
+
+    return {
+      alternateLocales: canonicalLocales,
+      lastModified: getPackageLastModified(packageView),
+      pageLocales: canonicalLocales,
+      priority: 0.6,
+      routePathname: getPublicCatalogPackageRoutePathname(
+        packageView.packageMetadata.slug,
+      ),
+    };
+  });
   const authorRoutes = [...catalog.authorBySlug.values()].map((author) => ({
     alternateLocales: SUPPORTED_LOCALES,
     lastModified: getNewestPackageLastModified(

@@ -26,8 +26,9 @@ import {
   getPublicCatalogCollectionRoutePathname,
   getPublicCatalogLanguageRoutePathname,
   getPublicCatalogLanguageAlternates,
-  getPublicCatalogPackageAudienceLocales,
+  getPublicCatalogPackageCanonicalLocales,
   getPublicCatalogPackageRoutePathname,
+  resolvePublicCatalogPackageCanonicalLocale,
   PUBLIC_CATALOG_AUTHORS_ROUTE_PATHNAME,
   PUBLIC_CATALOG_COLLECTIONS_ROUTE_PATHNAME,
   PUBLIC_CATALOG_ROUTE_PATHNAME,
@@ -41,9 +42,10 @@ import {
 
 interface CreatePublicCatalogMetadataParams {
   readonly alternateLocales: ReadonlyArray<AppLocale>;
+  /** Locale of the route that carries the canonical URL for this content. */
+  readonly canonicalLocale: AppLocale;
   readonly description: string;
   readonly image: PublicCatalogCoverImage | null;
-  readonly locale: AppLocale;
   readonly modifiedTime: string | null;
   readonly publishedTime: string | null;
   readonly routePathname: string;
@@ -54,18 +56,16 @@ interface CreatePublicCatalogMetadataParams {
 export function createPublicCatalogMetadata(
   params: CreatePublicCatalogMetadataParams,
 ): Metadata {
-  const localizedPathname = getLocalizedPathname(
-    params.locale,
-    params.routePathname,
+  const canonicalUrl = getAbsoluteUrl(
+    getLocalizedPathname(params.canonicalLocale, params.routePathname),
   );
-  const pageUrl = getAbsoluteUrl(localizedPathname);
 
   return {
     metadataBase: new URL(SITE_URL),
     title: params.title,
     description: params.description,
     alternates: {
-      canonical: pageUrl,
+      canonical: canonicalUrl,
       languages: getPublicCatalogLanguageAlternates(
         params.routePathname,
         params.alternateLocales,
@@ -73,9 +73,11 @@ export function createPublicCatalogMetadata(
     },
     openGraph: {
       type: params.type,
-      locale: getOpenGraphLocale(params.locale),
+      // og:locale labels the object identified by og:url, so it follows the
+      // canonical route instead of the route being rendered.
+      locale: getOpenGraphLocale(params.canonicalLocale),
       siteName: SITE_NAME,
-      url: pageUrl,
+      url: canonicalUrl,
       title: params.title,
       description: params.description,
       images: [params.image === null
@@ -107,9 +109,9 @@ export function createPublicCatalogRootMetadata(locale: AppLocale): Metadata {
 
   return createPublicCatalogMetadata({
     alternateLocales: SUPPORTED_LOCALES,
+    canonicalLocale: locale,
     description: copy.intro,
     image: null,
-    locale,
     modifiedTime: null,
     publishedTime: null,
     routePathname: PUBLIC_CATALOG_ROUTE_PATHNAME,
@@ -123,9 +125,9 @@ export function createPublicCatalogAuthorsMetadata(locale: AppLocale): Metadata 
 
   return createPublicCatalogMetadata({
     alternateLocales: SUPPORTED_LOCALES,
+    canonicalLocale: locale,
     description: copy.authorsIntro,
     image: null,
-    locale,
     modifiedTime: null,
     publishedTime: null,
     routePathname: PUBLIC_CATALOG_AUTHORS_ROUTE_PATHNAME,
@@ -139,9 +141,9 @@ export function createPublicCatalogCollectionsMetadata(locale: AppLocale): Metad
 
   return createPublicCatalogMetadata({
     alternateLocales: SUPPORTED_LOCALES,
+    canonicalLocale: locale,
     description: copy.collectionsIntro,
     image: null,
-    locale,
     modifiedTime: null,
     publishedTime: null,
     routePathname: PUBLIC_CATALOG_COLLECTIONS_ROUTE_PATHNAME,
@@ -158,15 +160,20 @@ export function createPublicCatalogPackageMetadata(
   const latestVersion = packageView.latestVersion;
 
   return createPublicCatalogMetadata({
-    alternateLocales: getPublicCatalogPackageAudienceLocales(
+    alternateLocales: getPublicCatalogPackageCanonicalLocales(
+      packageMetadata.slug,
       latestVersion.languageTags,
+    ),
+    canonicalLocale: resolvePublicCatalogPackageCanonicalLocale(
+      packageMetadata.slug,
+      latestVersion.languageTags,
+      locale,
     ),
     description: latestVersion.summary,
     image: getPublicCatalogCoverImage(
       latestVersion.title,
       packageView.coverMediaAsset,
     ),
-    locale,
     modifiedTime: latestVersion.updatedAt,
     publishedTime: packageMetadata.publishedAt,
     routePathname: getPublicCatalogPackageRoutePathname(packageMetadata.slug),
@@ -183,11 +190,11 @@ export function createPublicCatalogAuthorMetadata(
 
   return createPublicCatalogMetadata({
     alternateLocales: SUPPORTED_LOCALES,
+    canonicalLocale: locale,
     description: author.bio === null || author.bio.trim() === ""
       ? copy.authorsIntro
       : author.bio,
     image: null,
-    locale,
     modifiedTime: null,
     publishedTime: null,
     routePathname: getPublicCatalogAuthorRoutePathname(author.slug),
@@ -208,9 +215,9 @@ export function createPublicCatalogCollectionMetadata(
 
   return createPublicCatalogMetadata({
     alternateLocales: SUPPORTED_LOCALES,
+    canonicalLocale: locale,
     description: collection.summary === "" ? copy.collectionsIntro : collection.summary,
     image: null,
-    locale,
     modifiedTime: collection.updatedAt,
     publishedTime: collection.publishedAt,
     routePathname: getPublicCatalogCollectionRoutePathname(collection.slug),
@@ -228,13 +235,13 @@ export function createPublicCatalogFacetMetadata(
 
   return createPublicCatalogMetadata({
     alternateLocales: SUPPORTED_LOCALES,
+    canonicalLocale: locale,
     description: interpolatePublicCatalogCopy(
       copy.languageIntroTemplate,
       "tag",
       displayTag,
     ),
     image: null,
-    locale,
     modifiedTime: null,
     publishedTime: null,
     routePathname: getPublicCatalogLanguageRoutePathname(tag),

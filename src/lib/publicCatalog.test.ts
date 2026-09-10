@@ -68,6 +68,7 @@ import {
   getPublicCatalogCollectionRoutePathname,
   getPublicCatalogLanguageRoutePathname,
   getPublicCatalogPackageAudienceLocales,
+  getPublicCatalogPackageCanonicalLocales,
   getPublicCatalogPackageLocalizedPathname,
   getPublicCatalogPackagePageLocales,
   getPublicCatalogPackageRoutePathname,
@@ -76,6 +77,7 @@ import {
   PUBLIC_CATALOG_COLLECTIONS_ROUTE_PATHNAME,
   isPublicCatalogPageRoutePathname,
   isPublicCatalogSharedPageRoutePathname,
+  resolvePublicCatalogPackageCanonicalLocale,
   resolvePublicCatalogRouteSegment,
 } from "./publicCatalogUrls";
 import {
@@ -1088,7 +1090,7 @@ test("creates deterministic localized catalog sitemap entries from real timestam
     "https://flashcards-open-source-app.com/ja/catalog/languages/world%20history/";
   const latestVersionUpdatedAt = "2026-08-03T09:00:00.000Z";
 
-  assert.equal(entries.length, 72);
+  assert.equal(entries.length, 66);
   assert.equal(entryByUrl.get(rootUrl)?.lastModified, latestVersionUpdatedAt);
   assert.equal(entryByUrl.get(packageUrl)?.lastModified, latestVersionUpdatedAt);
   assert.equal(
@@ -1108,11 +1110,11 @@ test("creates deterministic localized catalog sitemap entries from real timestam
     "2026-08-02T11:30:00.000Z",
   );
   assert.ok(entryByUrl.has(percentFacetUrl));
-  assert.equal(
-    entryByUrl.has(
-      "https://flashcards-open-source-app.com/ja/catalog/packages/canonical-package/",
-    ),
-    true,
+  assert.deepEqual(
+    entries
+      .filter((entry) => entry.url.includes("/catalog/packages/"))
+      .map((entry) => entry.url),
+    [packageUrl, localizedPackageUrl],
   );
   assert.equal(
     entryByUrl.get(packageUrl)?.alternates?.languages?.es,
@@ -3605,47 +3607,126 @@ test("uses entity modification times and package covers in social metadata", () 
   ]);
 });
 
-test("keeps package canonicals while limiting hreflang to audience locales", () => {
+test("canonicalizes every package route into the deck audience locales", () => {
   const model = createPublicCatalogReadModel(parsePublicCatalogDump(createValidDump()));
   const packageView = getPublicCatalogPackageBySlug(model, "canonical-package");
 
   assert.ok(packageView);
-  const metadata = createPublicCatalogPackageMetadata("es", packageView);
 
-  assert.equal(
-    metadata.alternates?.canonical,
-    "https://flashcards-open-source-app.com/es/catalog/packages/canonical-package/",
-  );
-  assert.equal(
-    metadata.alternates?.languages?.es,
-    "https://flashcards-open-source-app.com/es/catalog/packages/canonical-package/",
-  );
-  assert.equal(
-    metadata.alternates?.languages?.["x-default"],
-    "https://flashcards-open-source-app.com/catalog/packages/canonical-package/",
-  );
-  assert.equal(metadata.alternates?.languages?.ja, undefined);
+  const defaultPackageUrl =
+    "https://flashcards-open-source-app.com/catalog/packages/canonical-package/";
+  const spanishPackageUrl =
+    "https://flashcards-open-source-app.com/es/catalog/packages/canonical-package/";
 
-  const canonicalOnlyMetadata = createPublicCatalogPackageMetadata("en", {
+  assert.deepEqual(
+    getPublicCatalogPackageCanonicalLocales("canonical-package", ["ja", "de", "fr"]),
+    ["de", "ja"],
+  );
+  assert.equal(
+    resolvePublicCatalogPackageCanonicalLocale(
+      "canonical-package",
+      ["ja", "de", "fr"],
+      "ja",
+    ),
+    "ja",
+  );
+  assert.equal(
+    resolvePublicCatalogPackageCanonicalLocale(
+      "canonical-package",
+      ["ja", "de", "fr"],
+      "ru",
+    ),
+    "de",
+  );
+
+  // Multi-audience deck: every audience route is canonical, and the routes
+  // outside the audience canonicalize into the first audience locale.
+  const spanishMetadata = createPublicCatalogPackageMetadata("es", packageView);
+
+  assert.deepEqual(packageView.latestVersion.languageTags, ["en", "es"]);
+  assert.equal(spanishMetadata.alternates?.canonical, spanishPackageUrl);
+  assert.equal(spanishMetadata.openGraph?.url, spanishPackageUrl);
+  assert.equal(
+    createPublicCatalogPackageMetadata("en", packageView).alternates?.canonical,
+    defaultPackageUrl,
+  );
+  assert.equal(
+    createPublicCatalogPackageMetadata("ja", packageView).alternates?.canonical,
+    defaultPackageUrl,
+  );
+  assert.equal(spanishMetadata.alternates?.languages?.es, spanishPackageUrl);
+  assert.equal(
+    spanishMetadata.alternates?.languages?.["x-default"],
+    defaultPackageUrl,
+  );
+  assert.equal(spanishMetadata.alternates?.languages?.ja, undefined);
+
+  // Single-audience deck: all eight routes canonicalize to the audience route.
+  const spanishOnlyPackageView = {
     ...packageView,
     latestVersion: {
       ...packageView.latestVersion,
       languageTags: ["es"],
     },
+  };
+
+  getPublicCatalogPackagePageLocales().forEach((locale) => {
+    const localeMetadata = createPublicCatalogPackageMetadata(
+      locale,
+      spanishOnlyPackageView,
+    );
+
+    assert.equal(localeMetadata.alternates?.canonical, spanishPackageUrl);
+    // The OpenGraph block describes the canonical object, so neither og:url nor
+    // og:locale may contradict rel=canonical on the seven non-audience routes.
+    assert.equal(localeMetadata.openGraph?.url, spanishPackageUrl);
+    assert.equal(localeMetadata.openGraph?.locale, "es_ES");
   });
 
-  assert.equal(
-    canonicalOnlyMetadata.alternates?.canonical,
-    "https://flashcards-open-source-app.com/catalog/packages/canonical-package/",
+  const spanishOnlyMetadata = createPublicCatalogPackageMetadata(
+    "en",
+    spanishOnlyPackageView,
   );
-  assert.equal(canonicalOnlyMetadata.alternates?.languages?.en, undefined);
+
+  assert.equal(spanishOnlyMetadata.alternates?.languages?.en, undefined);
+  assert.equal(spanishOnlyMetadata.alternates?.languages?.es, spanishPackageUrl);
   assert.equal(
-    canonicalOnlyMetadata.alternates?.languages?.es,
-    "https://flashcards-open-source-app.com/es/catalog/packages/canonical-package/",
+    spanishOnlyMetadata.alternates?.languages?.["x-default"],
+    spanishPackageUrl,
   );
-  assert.equal(
-    canonicalOnlyMetadata.alternates?.languages?.["x-default"],
-    "https://flashcards-open-source-app.com/catalog/packages/canonical-package/",
+
+  // Pages sharing the metadata factory stay self-canonical on their own route.
+  const spanishCatalogRootUrl = "https://flashcards-open-source-app.com/es/catalog/";
+  const spanishRootMetadata = createPublicCatalogRootMetadata("es");
+
+  assert.equal(spanishRootMetadata.alternates?.canonical, spanishCatalogRootUrl);
+  assert.equal(spanishRootMetadata.openGraph?.url, spanishCatalogRootUrl);
+  assert.equal(spanishRootMetadata.openGraph?.locale, "es_ES");
+
+  const spanishOnlyInput = createValidDump();
+
+  spanishOnlyInput.packageVersions[1].languageTags = ["es"];
+
+  const spanishOnlyModel = createPublicCatalogReadModel(
+    parsePublicCatalogDump(spanishOnlyInput),
+  );
+
+  assert.deepEqual(
+    createPublicCatalogSitemapEntries(spanishOnlyModel)
+      .filter((entry) => entry.url.includes("/catalog/packages/"))
+      .map((entry) => entry.url),
+    [spanishPackageUrl],
+  );
+  assert.throws(
+    () =>
+      createPublicCatalogPackageMetadata("en", {
+        ...packageView,
+        latestVersion: {
+          ...packageView.latestVersion,
+          languageTags: ["fr"],
+        },
+      }),
+    /package canonical-package has no supported audience locale/,
   );
 });
 
