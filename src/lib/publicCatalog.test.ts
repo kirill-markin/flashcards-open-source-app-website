@@ -40,6 +40,7 @@ import {
   formatPublicCatalogNumber,
   formatPublicCatalogPackageCount,
   getPublicCatalogPackageAlignmentFacts,
+  getPublicCatalogPackageContentWarning,
 } from "./publicCatalogFormatting";
 import {
   renderPublicCatalogCardMarkdownToHtml,
@@ -564,6 +565,44 @@ test("shows educational subject and level only when the deck carries a value", (
   [absent, empty, blank].forEach(({ markdown }) => {
     assert.equal(markdown.includes("- Subject:"), false);
     assert.equal(markdown.includes("- Level:"), false);
+  });
+});
+
+test("shows the content warning only when the deck carries a value", () => {
+  const renderContentWarning = (contentWarning: string | null) => {
+    const input = createValidDump();
+
+    input.packageVersions[1].contentWarning = contentWarning;
+
+    const model = createPublicCatalogReadModel(parsePublicCatalogDump(input));
+    const packageView = getPublicCatalogPackageBySlug(model, "canonical-package");
+    const markdown = renderPublicCatalogMarkdownDocument(
+      "catalog/packages/canonical-package",
+      model,
+    )?.markdown;
+
+    assert.ok(packageView);
+    assert.ok(markdown);
+
+    return {
+      warning: getPublicCatalogPackageContentWarning(packageView.latestVersion),
+      markdown,
+    };
+  };
+
+  const present = renderContentWarning("Covers graphic medical imagery");
+  const absent = renderContentWarning(null);
+  const empty = renderContentWarning("");
+  const blank = renderContentWarning("  \n");
+
+  assert.equal(present.warning, "Covers graphic medical imagery");
+  assert.match(
+    present.markdown,
+    /\n> \*\*Content warning:\*\* Covers graphic medical imagery\n/,
+  );
+  [absent, empty, blank].forEach(({ warning, markdown }) => {
+    assert.equal(warning, null);
+    assert.equal(markdown.includes("Content warning"), false);
   });
 });
 

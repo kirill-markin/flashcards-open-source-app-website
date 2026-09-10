@@ -79,3 +79,17 @@ export function getPublicCatalogPackageAlignmentFacts(
   return candidates.flatMap<PublicCatalogPackageAlignmentFact>(({ label, value }) =>
     value === null || value.trim() === "" ? [] : [{ label, value }]);
 }
+
+// Single source of truth for the visible content warning shared by the package page and
+// its generated Markdown. The parser keeps an empty string as a non-null value, so a blank
+// warning counts as absent under the same rule as the alignment rows and neither surface
+// renders a labelled empty warning.
+export function getPublicCatalogPackageContentWarning(
+  latestVersion: PublicCatalogPackageVersion,
+): string | null {
+  const { contentWarning } = latestVersion;
+
+  return contentWarning === null || contentWarning.trim() === ""
+    ? null
+    : contentWarning;
+}
