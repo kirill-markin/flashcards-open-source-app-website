@@ -25,6 +25,7 @@ Open `http://localhost:3000`.
 - `npm run dev` — Development server with Turbopack
 - `npm run build` — Production build
 - `npm run lint` — ESLint linting
+- `npm run test:catalog` — Catalog test suite
 
 ## License
 

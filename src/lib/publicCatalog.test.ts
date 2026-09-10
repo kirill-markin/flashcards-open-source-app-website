@@ -2911,8 +2911,17 @@ test("renders only catalog covers and card-authorized images in generated Markdo
     "[linked-collection-image]: https://tracker.example/linked-collection.gif",
     "[collection-link]: https://example.com/collection-link",
   ].join("\n");
-  input.cards[2].frontText = "![](https://tracker.example/card-front.gif)";
+  // `cards[2]` (`fixtureFirstCardId`) already carries the authorized
+  // `fcasset:inline.webp`, so the unauthorized trackers are appended to that same
+  // card: one card holding both an authorized image and remote ones.
+  input.cards[2].frontText = [
+    input.cards[2].frontText,
+    "",
+    "![](https://tracker.example/card-front.gif)",
+  ].join("\n");
   input.cards[2].backText = [
+    input.cards[2].backText,
+    "",
     "[![Linked card tracker][card-image]][card-link]",
     "",
     "[card-image]: https://tracker.example/linked-card.gif",
