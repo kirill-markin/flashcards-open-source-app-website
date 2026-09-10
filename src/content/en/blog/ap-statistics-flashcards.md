@@ -243,7 +243,7 @@ Choose a daily new-card target that leaves time to finish reviews and solve real
 
 Use AI assistance to shorten an overloaded answer or draft from your notes. Check every statistical claim against the current Course and Exam Description or your teacher's materials before saving it.
 
-Flashcards Open Source App does not currently offer a verified ready-made AP Statistics package. It does not grade FRQs or replace Bluebook and calculator practice either. Start from your current course materials and use the app to schedule the cards that survive your audit.
+For a ready-made starting point, install the [AP Statistics Flashcards: Complete 5-Unit Course Review](/catalog/packages/ap-statistics-flashcards/). Check its statistical claims against your current course materials, and keep FRQs, Bluebook, and calculator practice in your wider study plan.
 
 This is an independent study guide and is not affiliated with or endorsed by College Board. The [getting started guide](/docs/getting-started/) covers both the hosted app and self-hosted setup.
 
