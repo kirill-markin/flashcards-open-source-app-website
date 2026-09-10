@@ -15,7 +15,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint .",
-    "test:catalog": "tsx --test src/lib/publicCatalog.test.ts src/lib/publicCatalogBrowse.test.ts"
+    "test:catalog": "tsx --test \"**/*.test.ts\" \"**/*.test.tsx\""
   },
   "dependencies": {
     "@floating-ui/react-dom": "^2.1.9",
