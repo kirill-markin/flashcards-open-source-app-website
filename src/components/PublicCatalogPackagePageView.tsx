@@ -19,6 +19,7 @@ import {
   formatPublicCatalogCardCount,
   formatPublicCatalogDate,
   formatPublicCatalogNumber,
+  getPublicCatalogPackageAlignmentFacts,
 } from "@/lib/publicCatalogFormatting";
 import {
   renderPublicCatalogCardMarkdownToHtml,
@@ -227,6 +228,7 @@ export async function PublicCatalogPackagePageView({
   const destinationCopy = getPublicCatalogDestinationCopy(locale);
   const { author, coverMediaAsset, latestVersion, packageMetadata } = packageView;
   const cardTags = getPublicCatalogPackageCardTags(packageView);
+  const alignmentFacts = getPublicCatalogPackageAlignmentFacts(latestVersion, copy);
   const packageRoutePathname = getPublicCatalogPackageRoutePathname(
     packageMetadata.slug,
   );
@@ -372,6 +374,12 @@ export async function PublicCatalogPackagePageView({
                       </dd>
                     </div>
                   )}
+                  {alignmentFacts.map((fact) => (
+                    <div className={styles.fact} key={fact.label}>
+                      <dt>{fact.label}</dt>
+                      <dd>{fact.value}</dd>
+                    </div>
+                  ))}
                   {cardTags.length === 0 ? null : (
                     <div className={styles.fact}>
                       <dt>{copy.tagsLabel}</dt>
