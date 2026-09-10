@@ -1,0 +1,60 @@
+name: PR Checks
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+# A superseded run of the same pull request is worth cancelling; a superseded
+# commit on main is not, because every trunk commit has to be gated on its own.
+# github.ref is the same value for every push to main, so it would let a second
+# commit cancel the first and leave it unchecked - github.sha gives each push its
+# own group.
+concurrency:
+  group: pr-checks-${{ github.event.pull_request.number || github.sha }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+jobs:
+  catalog_tests:
+    name: Catalog test suite
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 24
+          cache: npm
+          cache-dependency-path: package-lock.json
+
+      - name: Install dependencies
+        run: npm ci
+
+      # `tsx --test` exits 0 when its patterns match nothing, so a suite that was
+      # deleted, renamed, or moved somewhere the patterns cannot reach would turn
+      # this job green without running a single test. Only the runner's own tally
+      # proves that tests actually executed, so assert on that rather than on the
+      # existence of files matching a second, differently-behaving matcher.
+      # `set -o pipefail` is required: the default shell is `bash -e {0}`, so
+      # without it this pipeline would exit with tee's status and mask a genuine
+      # test failure.
+      - name: Run catalog test suite
+        run: |
+          set -o pipefail
+          npm run test:catalog 2>&1 | tee catalog-test-output.log
+          passed="$(sed -n 's/^.*pass \([0-9][0-9]*\)$/\1/p' catalog-test-output.log | tail -n 1)"
+          if [ -z "$passed" ]; then
+            echo "::error::The test runner printed no 'pass <n>' summary, so there is no evidence any test ran. See the suite output above."
+            exit 1
+          fi
+          if [ "$passed" -lt 1 ]; then
+            echo "::error::The catalog suite executed but reported $passed passing tests, so the test:catalog patterns in package.json no longer match any suite. Restore the suites, or update the patterns to the new naming convention."
+            exit 1
+          fi
+          echo "Catalog suite reported $passed passing tests."
