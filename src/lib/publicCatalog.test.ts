@@ -105,6 +105,7 @@ import {
 } from "./seo/createPublicCatalogMetadata";
 import {
   createPublicCatalogAuthorJsonLd,
+  createPublicCatalogAuthorsJsonLd,
   createPublicCatalogCollectionJsonLd,
   createPublicCatalogFacetJsonLd,
   createPublicCatalogPackageJsonLd,
@@ -1216,7 +1217,7 @@ test("creates escaped catalog JSON-LD from canonical read-model entities", () =>
   );
   assert.equal(
     facetSchema["@graph"][1].itemListElement[0]?.item.url,
-    "https://flashcards-open-source-app.com/de/catalog/packages/canonical-package/",
+    "https://flashcards-open-source-app.com/catalog/packages/canonical-package/",
   );
   assert.equal("dateModified" in facetSchema["@graph"][0], false);
 
@@ -1355,6 +1356,65 @@ test("aligns package JSON-LD to the deck subject, level and canonical route", ()
         },
       }),
     /package canonical-package has no supported audience locale/,
+  );
+});
+
+test("names each deck by its canonical route in catalog ItemLists", () => {
+  const model = createPublicCatalogReadModel(parsePublicCatalogDump(createValidDump()));
+  const collection = getPublicCatalogCollectionBySlug(model, "starter-collection");
+
+  assert.ok(collection);
+  assert.deepEqual(model.packages[0]?.latestVersion.languageTags, ["en", "es"]);
+
+  const canonicalPackageUrl =
+    "https://flashcards-open-source-app.com/catalog/packages/canonical-package/";
+  const collectionPackages =
+    model.packagesByCollectionId.get(collection.collectionId) ?? [];
+  const readFirstItem = (schema: ReturnType<typeof createPublicCatalogFacetJsonLd>) =>
+    schema["@graph"][1].itemListElement[0]?.item;
+
+  // `ja` is not an audience locale of this deck, so `/ja/catalog/packages/...`
+  // is exactly the route the deck page disavows through its own `rel=canonical`
+  // and the sitemap omits. The list entry names the canonical route instead, as
+  // both `url` and `@id`, so a deck keeps one identity per canonical (audience)
+  // route, shared by every rendering locale that canonicalizes into it.
+  const japaneseCollectionItem = readFirstItem(
+    createPublicCatalogCollectionJsonLd(collection, "ja", collectionPackages),
+  );
+
+  assert.equal(japaneseCollectionItem?.url, canonicalPackageUrl);
+  assert.equal(japaneseCollectionItem?.["@id"], canonicalPackageUrl);
+
+  const germanFacetItem = readFirstItem(
+    createPublicCatalogFacetJsonLd("de", model.packages, "en"),
+  );
+
+  assert.equal(germanFacetItem?.url, canonicalPackageUrl);
+  assert.equal(germanFacetItem?.["@id"], canonicalPackageUrl);
+
+  // `es` is an audience locale, so the deck is canonical on the rendering
+  // locale's own route there: the entry follows it instead of collapsing every
+  // list onto the deck's first audience locale.
+  const spanishCollectionItem = readFirstItem(
+    createPublicCatalogCollectionJsonLd(collection, "es", collectionPackages),
+  );
+
+  assert.equal(
+    spanishCollectionItem?.url,
+    "https://flashcards-open-source-app.com/es/catalog/packages/canonical-package/",
+  );
+
+  // Only package entries move. The list page itself and its author entries are
+  // self-canonical in every locale, so they stay on the rendering locale.
+  const germanAuthorsSchema = createPublicCatalogAuthorsJsonLd(model, "de");
+
+  assert.equal(
+    germanAuthorsSchema["@graph"][0].url,
+    "https://flashcards-open-source-app.com/de/catalog/authors/",
+  );
+  assert.equal(
+    readFirstItem(germanAuthorsSchema)?.url,
+    "https://flashcards-open-source-app.com/de/catalog/authors/author-one/",
   );
 });
 
