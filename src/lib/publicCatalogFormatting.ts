@@ -2,6 +2,12 @@ import type { AppLocale } from "./localeConfig";
 import { getIntlLocale } from "./localeConfig";
 import type { PublicCatalogUiCopy } from "./publicCatalogCopy";
 import type { PublicCatalogDestinationCopy } from "./publicCatalogDestinationCopy";
+import type { PublicCatalogPackageVersion } from "./publicCatalogTypes";
+
+export type PublicCatalogPackageAlignmentFact = Readonly<{
+  label: string;
+  value: string;
+}>;
 
 export function formatPublicCatalogNumber(
   locale: AppLocale,
@@ -53,4 +59,23 @@ export function formatPublicCatalogPackageCount(
 
 export function formatPublicCatalogFacetTag(tag: string): string {
   return tag.normalize("NFC").trim();
+}
+
+// Single source of truth for the visible educational alignment rows shared by the
+// package page and its generated Markdown. Only the labels are localized: the values
+// stay verbatim in the language the deck author wrote them. A blank value counts as
+// absent so that a visible row and the package JSON-LD alignment fields never disagree.
+export function getPublicCatalogPackageAlignmentFacts(
+  latestVersion: PublicCatalogPackageVersion,
+  copy: PublicCatalogUiCopy,
+): ReadonlyArray<PublicCatalogPackageAlignmentFact> {
+  const candidates: ReadonlyArray<
+    Readonly<{ label: string; value: string | null }>
+  > = [
+    { label: copy.subjectLabel, value: latestVersion.educationalSubject },
+    { label: copy.levelLabel, value: latestVersion.educationalLevel },
+  ];
+
+  return candidates.flatMap<PublicCatalogPackageAlignmentFact>(({ label, value }) =>
+    value === null || value.trim() === "" ? [] : [{ label, value }]);
 }

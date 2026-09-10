@@ -39,6 +39,7 @@ import {
   formatPublicCatalogDate,
   formatPublicCatalogNumber,
   formatPublicCatalogPackageCount,
+  getPublicCatalogPackageAlignmentFacts,
 } from "./publicCatalogFormatting";
 import {
   renderPublicCatalogCardMarkdownToHtml,
@@ -511,6 +512,59 @@ test("reads educational alignment fields and yields null when a snapshot omits t
     }),
     /packageVersions\[0\]\.educationalLevel must be a string/,
   );
+});
+
+test("shows educational subject and level only when the deck carries a value", () => {
+  const renderAlignment = (subject: string | null, level: string | null) => {
+    const input = createValidDump();
+
+    input.schemaVersion = 3;
+    input.packageVersions[1].educationalSubject = subject;
+    input.packageVersions[1].educationalFramework = "AP Statistics";
+    input.packageVersions[1].educationalLevel = level;
+
+    const model = createPublicCatalogReadModel(parsePublicCatalogDump(input));
+    const packageView = getPublicCatalogPackageBySlug(model, "canonical-package");
+    const markdown = renderPublicCatalogMarkdownDocument(
+      "catalog/packages/canonical-package",
+      model,
+    )?.markdown;
+
+    assert.ok(packageView);
+    assert.ok(markdown);
+
+    return {
+      facts: getPublicCatalogPackageAlignmentFacts(
+        packageView.latestVersion,
+        getPublicCatalogUiCopy("en"),
+      ),
+      markdown,
+    };
+  };
+
+  const present = renderAlignment("Statistics", "High school");
+  const absent = renderAlignment(null, null);
+  const empty = renderAlignment("", "");
+  const blank = renderAlignment("  ", "\n");
+  const partial = renderAlignment("Statistics", "");
+
+  assert.deepEqual(present.facts, [
+    { label: "Subject", value: "Statistics" },
+    { label: "Level", value: "High school" },
+  ]);
+  assert.match(present.markdown, /\n- Subject: Statistics\n- Level: High school\n/);
+  // The framework stays machine-readable only, so it never reaches a rendered row.
+  assert.equal(present.markdown.includes("AP Statistics"), false);
+  assert.deepEqual(partial.facts, [{ label: "Subject", value: "Statistics" }]);
+  assert.match(partial.markdown, /\n- Subject: Statistics\n/);
+  assert.equal(partial.markdown.includes("- Level:"), false);
+  assert.deepEqual(absent.facts, []);
+  assert.deepEqual(empty.facts, []);
+  assert.deepEqual(blank.facts, []);
+  [absent, empty, blank].forEach(({ markdown }) => {
+    assert.equal(markdown.includes("- Subject:"), false);
+    assert.equal(markdown.includes("- Level:"), false);
+  });
 });
 
 test("parses the schema and builds latest-version-only lookup data", () => {
