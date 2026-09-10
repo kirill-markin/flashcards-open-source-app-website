@@ -1,5 +1,4 @@
 import {
-  DEFAULT_LOCALE,
   getAbsoluteUrl,
   getLocalizedPathname,
   SUPPORTED_LOCALES,
@@ -45,6 +44,39 @@ export function getPublicCatalogPackagePageLocales(): ReadonlyArray<AppLocale> {
   return SUPPORTED_LOCALES;
 }
 
+/**
+ * Locales whose package route is canonical: every audience locale of the deck,
+ * in SUPPORTED_LOCALES order. Package routes in other locales repeat the same
+ * untranslated deck content and canonicalize into this set.
+ */
+export function getPublicCatalogPackageCanonicalLocales(
+  packageSlug: string,
+  languageTags: ReadonlyArray<string>,
+): ReadonlyArray<AppLocale> {
+  const audienceLocales = getPublicCatalogPackageAudienceLocales(languageTags);
+
+  if (audienceLocales.length === 0) {
+    throw new Error(
+      `Cannot resolve public catalog canonical locales: package ${packageSlug} has no supported audience locale in languageTags [${languageTags.join(", ")}]. Add a supported locale to the package language tags.`,
+    );
+  }
+
+  return audienceLocales;
+}
+
+export function resolvePublicCatalogPackageCanonicalLocale(
+  packageSlug: string,
+  languageTags: ReadonlyArray<string>,
+  locale: AppLocale,
+): AppLocale {
+  const canonicalLocales = getPublicCatalogPackageCanonicalLocales(
+    packageSlug,
+    languageTags,
+  );
+
+  return canonicalLocales.includes(locale) ? locale : canonicalLocales[0];
+}
+
 export function getPublicCatalogPackageLocalizedPathname(
   locale: AppLocale,
   packageSlug: string,
@@ -59,6 +91,16 @@ export function getPublicCatalogLanguageAlternates(
   routePathname: string,
   locales: ReadonlyArray<AppLocale>,
 ): Readonly<Record<string, string>> {
+  if (locales.length === 0) {
+    throw new Error(
+      `Cannot create public catalog language alternates: route ${routePathname} has no alternate locale.`,
+    );
+  }
+
+  // Locales stay in SUPPORTED_LOCALES order, so the first one is the canonical
+  // of the cluster: DEFAULT_LOCALE for routes that cover every locale, and the
+  // first audience locale for a package restricted to its audience.
+  const canonicalLocale = locales[0];
   const alternates: Record<string, string> = {};
 
   locales.forEach((locale) => {
@@ -67,7 +109,7 @@ export function getPublicCatalogLanguageAlternates(
     );
   });
   alternates["x-default"] = getAbsoluteUrl(
-    getLocalizedPathname(DEFAULT_LOCALE, routePathname),
+    getLocalizedPathname(canonicalLocale, routePathname),
   );
 
   return alternates;
