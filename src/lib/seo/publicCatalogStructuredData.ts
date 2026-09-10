@@ -301,12 +301,30 @@ function createCatalogCollectionPageJsonLd(
   };
 }
 
+/**
+ * A list entry names the deck's canonical route instead of the rendering-locale
+ * one. A deck is canonical only on its audience-locale routes: the
+ * rendering-locale route is disavowed by the deck page's own `rel=canonical`
+ * and is left out of the sitemap, so an `item.url` pointing there would name a
+ * URL the site itself says is not the deck. It also gives a deck one `@id` per
+ * canonical (audience) route, shared by every rendering locale that
+ * canonicalizes into it, matching the identity
+ * `createPublicCatalogPackageJsonLd` already builds from the canonical route.
+ * The visible card link keeps following the rendering locale, which is where
+ * the interface language and the internal linking belong; only the
+ * machine-readable pointer moves. Author and collection entries stay on the
+ * rendering locale because those pages are self-canonical in every locale.
+ */
 function createPackageListEntities(
   packages: ReadonlyArray<PublicCatalogPackageView>,
   locale: AppLocale,
 ): ReadonlyArray<CatalogListEntity> {
   return packages.map((packageView) => ({
-    locale,
+    locale: resolvePublicCatalogPackageCanonicalLocale(
+      packageView.packageMetadata.slug,
+      packageView.latestVersion.languageTags,
+      locale,
+    ),
     name: packageView.latestVersion.title,
     routePathname: getPublicCatalogPackageRoutePathname(
       packageView.packageMetadata.slug,
@@ -324,6 +342,12 @@ export function createPublicCatalogRootJsonLd(
     dateModified: null,
     datePublished: null,
     description: copy.intro,
+    // These entries stay on the rendering locale only because the list is
+    // filtered through `packagesByLanguageTag`: every deck it names already has
+    // the rendering locale as an audience locale, so that route is the
+    // canonical one. If the root ever lists decks outside the rendering locale,
+    // this list starts naming canonical routes like the facet and collection
+    // lists do.
     entities: createPackageListEntities(
       catalog.packagesByLanguageTag.get(locale) ?? [],
       locale,
