@@ -1,146 +1,145 @@
 ---
-title: "Alternativa gratuita a Quizlet en 2026: ¿qué es realmente gratis?"
-description: "¿Es Flashcards una alternativa gratuita a Quizlet? Descubre qué incluye la beta alojada, sus límites, las reglas de importación y exportación, el coste del autoalojamiento y qué funciones de Quizlet faltan."
-image: "/blog/free-quizlet-alternative.png"
+title: "Mejores alternativas gratuitas a Quizlet en 2026: 5 apps comparadas"
+description: "Compara Anki, Knowt, RemNote, Mochi y Flashcards según el estudio gratuito con tarjetas, la sincronización, el uso sin conexión, la importación desde Quizlet, los límites de IA y la letra pequeña de cada plan de 0 $."
+image: "/blog/free-quizlet-alternative-v2.png"
 date: "2026-06-20"
-updated: "2026-08-03"
+updated: "2026-09-10"
 keywords:
-  - "alternativa gratuita a Quizlet"
+  - "alternativas gratuitas a Quizlet"
+  - "mejor alternativa gratuita a Quizlet"
   - "alternativa a Quizlet gratis"
-  - "app de flashcards gratis"
-  - "alternativa a Quizlet Plus"
+  - "app de tarjetas gratis"
+  - "sustituto gratuito de Quizlet"
+  - "Anki vs Quizlet"
+  - "plan gratuito de Knowt"
+  - "plan gratuito de RemNote"
+  - "plan gratuito de Mochi"
   - "alternativa de código abierto a Quizlet"
-  - "app de flashcards FSRS gratis"
-  - "precios de Flashcards"
-  - "coste de autoalojar flashcards"
 ---
 
-La versión alojada de [Flashcards](/) cuesta 0 $ durante la beta y no pide tarjeta de crédito. Incluye IA y sincronización, y el plan no limita el número de tarjetas o archivos ni el almacenamiento total. Por eso puede servir como **alternativa gratuita a Quizlet** para estudiar con tarjetas de anverso y reverso. Eso sí, «gratis» requiere dos aclaraciones: siguen existiendo límites técnicos y no se promete que todas las funciones de la versión alojada vayan a ser gratuitas para siempre.
+Una cuenta gratuita de Quizlet todavía permite estudiar tarjetas, practicar con preguntas, usar diagramas y hacer actividades. La parte incómoda aparece después: quienes no tienen una suscripción solo disponen de un número limitado de rondas de Learn por conjunto, una sola prueba gratuita en el modo Test por conjunto, y el estudio sin conexión figura entre las funciones de pago de Quizlet.
 
-El software también tiene licencia MIT, por lo que autoalojarlo no exige pagar una licencia. Mantener un despliegue de producción, en cambio, sí cuesta dinero. Y si dependes de los modos Learn o Test de Quizlet, de los conjuntos públicos, de su suite de estudio con IA o de sus herramientas para el aula, Flashcards no ofrece sustitutos equivalentes.
+Por eso, «gratis» no basta como criterio. Un sustituto gratuito de Quizlet funciona sin conexión, pero cobra por la app para iPhone. Otro ofrece varios modos de estudio, pero un archivo de salida menos útil. Un tercero sincroniza notas y tarjetas, aunque limita funciones avanzadas de PDF, imágenes o IA.
 
-> **Aviso de transparencia:** Soy Kirill Markin y desarrollo Flashcards. Este artículo se centra en el precio y en los límites de lo gratuito, incluidas las funciones que Quizlet sí ofrece y Flashcards no.
+La mejor alternativa gratuita a Quizlet es aquella cuya contrapartida no estropea tu rutina de estudio real. Esta comparativa cubre exactamente cinco opciones —Anki, Knowt, RemNote, Mochi y Flashcards— y toma el plan gratuito de Quizlet como referencia, sin fingir que todas las ofertas de 0 $ incluyen lo mismo.
 
-**Datos comprobados:** 3 de agosto de 2026.
+> **Aviso de transparencia:** Soy Kirill Markin y desarrollo Flashcards, una de las cinco aplicaciones comparadas aquí. La incluí por ser de código abierto y por sus flujos de trabajo con FSRS y agentes. No es la ganadora universal: no tiene un importador directo de Quizlet, su paquete de transferencia nativo no conserva el estado de los repasos y la oferta gratuita actual de la aplicación alojada es una beta. Esta comparativa se basa en la comprobación de fuentes oficiales —precios, páginas de ayuda y documentación de los repositorios—; no afirmo haber hecho pruebas prácticas a largo plazo con las cinco aplicaciones.
 
-![Alternativa gratuita a Quizlet representada como una caja de tarjetas y archivos multimedia que pasa por un medidor de tamaño, mientras el estado de repaso queda junto a la infraestructura de autoalojamiento](/blog/free-quizlet-alternative.png)
+**Datos comprobados:** 10 de septiembre de 2026.
 
-## Cuánto cuesta esta alternativa gratuita a Quizlet, en una tabla
+![Una estudiante con un conjunto de estudio de muestra compara cinco barcos antes de elegir una alternativa gratuita a Quizlet y probar la migración de ida y vuelta](/blog/free-quizlet-alternative-v2.png)
 
-| Pregunta | Respuesta |
-|---|---|
-| ¿La aplicación alojada es gratuita? | Sí, durante la beta. No se necesita tarjeta de crédito. |
-| ¿La IA y la sincronización son gratuitas? | Están incluidas durante la beta. |
-| ¿Existe un límite de tarjetas o almacenamiento en el plan gratuito? | No. Durante la beta, el plan no limita el número de tarjetas o archivos ni el almacenamiento total. Sí se aplican límites por archivo y por operación. |
-| ¿El autoalojamiento es gratuito? | La licencia del software no tiene coste. Los servicios de AWS, los de proveedores externos y las tareas de operación sí cuestan dinero. |
-| ¿Puede Flashcards importar conjuntos de Quizlet? | No. Solo importa su propio paquete `flashcards.zip`. |
-| ¿Sustituye todas las funciones importantes de Quizlet? | No. Hay carencias importantes en Learn, Test, la biblioteca pública de conjuntos, la suite de estudio con IA de Quizlet y las herramientas para el aula. |
+## La respuesta corta
 
-La promesa a largo plazo es más limitada que «todo será gratis para siempre». La creación y el repaso básicos de tarjetas seguirán siendo gratuitos. Más adelante, un mayor uso de la IA podría requerir tu propia clave de API de un proveedor o una opción de pago. La oferta de la beta no garantiza que todas las funciones de la versión alojada sigan siendo siempre gratuitas.
+- Elige **Anki** si buscas un flujo de trabajo gratuito y consolidado en escritorio y Android, buen uso sin conexión, sincronización gratuita con AnkiWeb y exportaciones detalladas de los mazos. La aplicación oficial para iPhone es de pago.
+- Elige **Knowt** si lo más importante es transferir fácilmente desde Quizlet con un proceso documentado y disponer de muchos modos de estudio gratuitos. Su extensión del navegador puede quedar bloqueada y su vía de exportación documentada es menos completa.
+- Elige **RemNote** si quieres notas y tarjetas en un único espacio de trabajo sincronizado. El plan Free permite notas, tarjetas y dispositivos sincronizados ilimitados, pero limita funciones avanzadas de lectura, imágenes, escritura a mano, bases de conocimiento e IA.
+- Elige **Mochi** si quieres tarjetas sin conexión, solo en local, basadas en Markdown y sin necesidad de crear una cuenta. Sincronizar entre dispositivos exige el plan Pro de 5 $ al mes; la tabla detallada de precios incluye pequeñas asignaciones mensuales de IA y servicios lingüísticos en el plan Free.
+- Elige **Flashcards** si lo que buscas es estudiar con FSRS de código abierto, acceder mediante agentes de IA y controlar un despliegue propio en AWS. La beta alojada es gratuita ahora, pero la migración desde Quizlet es manual y no se promete que todas las funciones alojadas vayan a ser gratuitas para siempre.
 
-Si necesitas comparar las funciones una por una, consulta la comparativa más amplia de [alternativas a Quizlet](/blog/quizlet-alternative/). Aquí nos centramos en el precio, los límites, la portabilidad y las funciones que faltan, porque también pueden cambiar el valor de lo «gratuito».
+Si solo quieres empezar cuanto antes después de Quizlet, prueba Knowt primero. Si buscas la opción sin conexión gratuita más consolidada y no necesitas la aplicación oficial para iOS, empieza por Anki. Las otras tres tienen más sentido cuando el motivo para cambiar son las notas conectadas, Markdown en local o el acceso al código fuente y mediante agentes.
 
-## ¿Qué es gratis en la beta alojada?
+## Qué te ofrece Quizlet por 0 $
 
-Actualmente puedes registrarte y usar el flujo principal de estudio sin pagar:
+La [guía de suscripciones de Quizlet](https://help.quizlet.com/hc/en-us/articles/360041181691-Subscribing-to-Quizlet) dice que una cuenta gratuita incluye tarjetas, preguntas de práctica, diagramas interactivos y actividades. Las herramientas de estudio ampliadas y el estudio sin conexión aparecen entre las funciones de las suscripciones.
 
-- crear y editar tarjetas de anverso y reverso
-- repasar con el algoritmo FSRS-6
-- guardar en local los cambios en las tarjetas y los repasos, y sincronizarlos después entre la web, iOS y Android
-- adjuntar a las tarjetas archivos multimedia relacionados
-- usar el chat con IA y adjuntar archivos
-- conectar clientes de IA mediante MCP
-- usar la Agent API
-- importar y exportar paquetes de espacios de trabajo de Flashcards
+Hay dos límites especialmente fáciles de alcanzar al preparar un examen:
 
-Durante la beta no hay un plan de pago para desbloquear la IA o la sincronización entre dispositivos. La [página de precios](/pricing/) recoge la información vigente sobre la oferta alojada y sus límites futuros.
+- [Learn es gratis durante un número limitado de rondas](https://help.quizlet.com/hc/en-us/articles/40011154960653-Studying-with-Answer-Streaks) por conjunto de estudio para quienes no tienen una suscripción.
+- [Test permite una prueba práctica gratuita](https://help.quizlet.com/hc/en-us/articles/360030642972-Studying-with-Test-mode) por conjunto de tarjetas para quienes no tienen una suscripción.
 
-Que una función esté incluida no significa que también funcione sin conexión. Los cambios en las tarjetas y los repasos pueden guardarse en local y sincronizarse cuando vuelva la conexión. Las llamadas a la IA y la propia sincronización siguen necesitando acceso a la red.
+Quizlet también marca el límite de la migración. En el sitio web, quien crea un conjunto puede [exportar los términos y las definiciones de sus propios conjuntos](https://help.quizlet.com/hc/en-us/articles/360034345672-Exporting-your-sets). Las imágenes no se incluyen y los conjuntos copiados no se pueden exportar. Así que todas las alternativas de abajo parten de las mismas ausencias: no hay imágenes de Quizlet, historial de repasos ni una copia de seguridad completa de la cuenta.
 
-## La aplicación alojada gratuita tiene límites técnicos
+## Comparativa de cinco alternativas gratuitas a Quizlet
 
-Que el plan no imponga cuotas no significa que no existan límites técnicos. Flashcards no pone a las cuentas beta un máximo total de tarjetas, archivos o almacenamiento. Cada solicitud y cada transferencia sí tienen límites de tamaño.
+| Alternativa | Flujo de trabajo útil por 0 $ | Límite entre sincronización y uso sin conexión | Migración desde Quizlet | IA en el plan gratuito | Principal contrapartida |
+| --- | --- | --- | --- | --- | --- |
+| **Anki** | Un sistema consolidado de tarjetas con repetición espaciada en escritorio y Android | Aplicaciones de escritorio gratuitas, AnkiDroid gratis y sincronización gratuita con AnkiWeb; la aplicación oficial AnkiMobile para iOS es de pago | Importa una exportación de texto de Quizlet perteneciente a su creador como campos separados por comas, puntos y comas o tabulaciones | No forma parte de la oferta principal documentada en el sitio de Anki | Una configuración totalmente gratuita excluye la aplicación oficial para iPhone, y Anki requiere más preparación que Quizlet |
+| **Knowt** | Tarjetas y notas ilimitadas, además de Learn, Test, Matching, Flashcards y repetición espaciada | El plan gratuito incluye almacenamiento en la nube y colaboración; las páginas de los planes citadas no prometen un flujo de trabajo sin conexión | Extensión de Chrome, con una alternativa manual basada en separadores para los conjuntos que Quizlet permite exportar | Uso limitado que se restablece cada mes | La extensión puede quedar bloqueada y la vía de exportación documentada es PDF o compartir desde la aplicación, no una copia de seguridad completa y estructurada del mazo |
+| **RemNote** | Notas y tarjetas ilimitadas en un número ilimitado de dispositivos sincronizados | Las aplicaciones de escritorio y móviles permiten editar y repasar sin conexión después de iniciar sesión; algunos archivos multimedia pueden no estar almacenados en caché en el móvil | Reformatea el texto de Quizlet con la sintaxis de tarjetas de RemNote o usa Anki como intermediario | 250 créditos de IA al mes, con límites separados para algunas acciones de IA | Los límites del plan Free también se aplican a los PDF anotados, la ocultación de imágenes, la escritura a mano y las bases de conocimiento |
+| **Mochi** | Tarjetas, mazos, importación y exportación ilimitados sin crear una cuenta | Uso sin conexión ilimitado con almacenamiento local; la sincronización automática entre dispositivos pertenece al plan Pro | Convierte el texto de Quizlet que cumpla los requisitos a CSV o Markdown antes de importarlo | Pequeñas asignaciones mensuales; el plan Pro aumenta los límites | El plan gratuito funciona solo en local, así que un flujo de trabajo con sincronización automática entre teléfono y portátil cuesta dinero |
+| **Flashcards** | Repasos con FSRS, IA, sincronización y flujos de trabajo con agentes durante la beta alojada | La sincronización entre web, iOS y Android está incluida durante la beta; las modificaciones de tarjetas y los repasos pueden continuar en local sin conexión | No hay importador directo; reconstruye el contenido manualmente a partir del texto de Quizlet que cumpla los requisitos o con borradores de IA revisados | Incluida durante la beta; un uso mayor podría requerir más adelante una clave de proveedor o una opción de pago | Las condiciones de la beta pueden cambiar y `flashcards.zip` no incluye el historial de repasos, el estado de FSRS, los ajustes ni la estructura completa de los mazos |
 
-Estos son los límites actuales de los paquetes `flashcards.zip`:
+La tabla no tiene una única ganadora porque «gratis» puede describir la licencia, el primer dispositivo, la sincronización en la nube, la asignación de IA o una oferta alojada temporal. Fíjate primero en la columna que te obligaría a pagar o a perder datos.
 
-| Operación del paquete | Límite |
-|---|---:|
-| Tarjetas en un paquete | 5.000 |
-| Archivos multimedia en un paquete | 10.000 |
-| Un archivo multimedia | 16 MiB |
-| Archivos multimedia combinados en un paquete | 64 MiB |
-| Archivo ZIP importado | 80 MiB |
+## Anki: la opción gratuita y consolidada para escritorio y Android
 
-Estas cifras se aplican a una sola operación de importación o exportación. No son límites de tarjetas, archivos o almacenamiento para toda la cuenta, ni la frontera de un plan de pago oculto. Un espacio de trabajo más grande puede requerir varios paquetes. Las solicitudes a la IA y sus archivos adjuntos también tienen límites propios por petición y restricciones sobre los tipos de archivo compatibles.
+Anki es la opción más segura para empezar cuando tu prioridad es repasar tarjetas a largo plazo, no los juegos al estilo de Quizlet. El [sitio oficial de Anki](https://apps.ankiweb.net/) ofrece versiones gratuitas para Windows, macOS y Linux, sincronización gratuita con AnkiWeb y un enlace a AnkiDroid, la aplicación comunitaria gratuita. La aplicación oficial AnkiMobile para iOS es de pago, principal motivo por el que afirmar que «Anki es gratis» requiere una nota sobre el dispositivo.
 
-## La importación y la exportación son más limitadas de lo que parecen
+Trasladar material sencillo de Quizlet es práctico. Anki puede [importar campos de texto sin formato](https://docs.ankiweb.net/importing/text-files.html) separados por comas, puntos y comas o tabulaciones. Exporta un conjunto de Quizlet que cumpla los requisitos, asigna las columnas de términos y definiciones y, antes de importar el resto, comprueba los saltos de línea, el HTML, los duplicados y el texto no latino. Las imágenes y el historial de estudio que faltan en Quizlet no reaparecen en Anki.
 
-Flashcards tiene un único formato nativo de transferencia: el paquete de espacio de trabajo `flashcards.zip`.
+La vía de salida es uno de los puntos fuertes de Anki. Sus [herramientas de exportación](https://docs.ankiweb.net/exporting.html) pueden crear texto sin formato, mazos individuales `.apkg` o una colección `.colpkg`. Las opciones de los paquetes pueden incluir archivos multimedia e información de programación. Eso no garantiza que otra aplicación entienda todas las plantillas o campos del sistema de programación, pero puedes conservar una copia de seguridad nativa y detallada de Anki, además de una copia de texto más sencilla.
 
-Puede importar un paquete válido exportado por Flashcards. No puede importar conjuntos de Quizlet, CSV, TSV ni texto delimitado genérico. Quizlet permite [crear conjuntos importando texto delimitado](https://help.quizlet.com/hc/en-us/articles/360029977151-Creating-sets-by-importing-content); Flashcards no tiene una pantalla equivalente para importar texto.
+Anki es la mejor alternativa gratuita a Quizlet de esta lista para usuarios de escritorio o Android que valoren el estudio sin conexión y un sistema de tarjetas consolidado. Encaja peor si quieres una interfaz educativa conocida, varios modos guiados o una aplicación oficial para iPhone que cueste 0 $. La comparativa más amplia de [alternativas a Anki](/blog/best-anki-alternatives/) resulta útil si la fidelidad de la migración importa más que dejar Quizlet en particular.
 
-El paquete contiene el material de estudio que Flashcards puede reconstruir:
+## Knowt: la transferencia desde Quizlet más sencilla y documentada
 
-- tarjetas
-- las etiquetas de las tarjetas
-- los archivos multimedia referenciados por las tarjetas
+Knowt es la opción que más se acerca a lo que busca alguien a quien le gustaba la variedad de Quizlet, pero no sus límites gratuitos. La [guía del plan gratuito de Knowt](https://help.knowt.com/en/articles/10298016-what-are-the-differences-between-free-and-paid-accounts-for-students) incluye tarjetas, notas y estudio ilimitados en los modos Learn, Test, Matching, Flashcards y repetición espaciada. El plan [Basic](https://knowt.com/plans) actual es gratuito e incluye creación ilimitada de archivos, colaboración en tiempo real y almacenamiento.
 
-Lo que no incluye es el estado asociado a ese contenido:
+Su vía desde Quizlet también es la más directa de esta comparativa. Knowt documenta una [extensión de Chrome que importa conjuntos de Quizlet](https://help.knowt.com/en/articles/10298079-how-to-import-flashcards-from-quizlet-to-knowt). La misma guía advierte que Quizlet puede bloquear la extensión y ofrece una alternativa manual: exportar el texto de un conjunto que cumpla los requisitos, elegir separadores y pegarlo en el importador manual de Knowt. Aquí debes seguir la regla de propiedad vigente de Quizlet, no la sugerencia de Knowt de crear una copia: Quizlet dice que los conjuntos copiados no se pueden exportar.
 
-- historial de repasos
-- estado de la programación de FSRS
-- ajustes del espacio de trabajo
-- estructuras completas de los mazos
-- datos de la cuenta
+Hay dos contrapartidas. En primer lugar, la IA no es ilimitada; las asignaciones gratuitas se restablecen cada mes. En segundo lugar, la [ayuda sobre exportaciones de Knowt](https://help.knowt.com/en/articles/10714472-how-can-i-export-my-flashcards) explica cómo guardar las tarjetas como PDF o compartirlas desde la aplicación. Eso sirve para leer y compartir, pero no equivale a prometer una copia de seguridad estructurada del mazo con historial de repasos, archivos multimedia y datos de programación.
 
-Así, `flashcards.zip` permite mover material de estudio seleccionado entre espacios de trabajo alojados y autoalojados de Flashcards. No puede reproducir una cuenta ni conservar exactamente la misma programación de repasos. Tampoco sirve como copia de seguridad para recuperación ante desastres: quien gestione una instancia autoalojada seguirá necesitando copias de seguridad de la base de datos y de los archivos multimedia.
+Elige Knowt cuando una migración rápida y los modos de estudio gratuitos importen más que las garantías sin conexión o una vía técnica de salida sólida. Si ya sabes que la fidelidad de la exportación será importante más adelante, haz la prueba de ida y vuelta que aparece abajo antes de trasladar más de un conjunto. La [guía de alternativas a Knowt](/blog/knowt-alternative/) analiza con más detalle las contrapartidas del producto.
 
-### Los conjuntos existentes de Quizlet deben reconstruirse
+## RemNote: notas y tarjetas sincronizadas gratis, con límites de funciones
 
-Quizlet permite a los creadores [exportar los términos y las definiciones de sus propios conjuntos](https://help.quizlet.com/hc/en-us/articles/360034345672-Exporting-your-sets) desde el sitio web. No permite exportar conjuntos copiados ni imágenes.
+RemNote tiene más sentido cuando las tarjetas deben vivir dentro de los apuntes de clase, no en un gestor de mazos separado. Su [plan Free actual](https://www.remnote.com/pricing) incluye notas y tarjetas ilimitadas en un número ilimitado de dispositivos sincronizados. También incluye 250 créditos de IA al mes y cierto acceso a funciones avanzadas de estudio.
 
-El resultado es texto, no un paquete que Flashcards pueda importar. Puedes reconstruir a mano las tarjetas que elijas o pasar el texto al chat con IA de Flashcards para que prepare borradores de tarjetas de anverso y reverso. En ambos casos tendrás que revisar y guardar las tarjetas reconstruidas; ninguno de los dos métodos es una importación directa.
+Los límites exactos importan. Actualmente, Free incluye tres PDF anotados, cinco tarjetas de ocultación de imágenes, un documento escrito a mano, dos bases de conocimiento y usos limitados de varias acciones de IA. Es una oferta generosa para las funciones básicas de tarjetas y notas, pero un estudiante de Medicina que anote muchos PDF e imágenes puede alcanzar el límite mucho antes de quedarse sin tarjetas normales.
 
-La [guía para exportar desde Quizlet](/blog/how-to-export-quizlet-sets-and-turn-them-into-fsrs-flashcards/) explica el proceso de limpieza. No es una migración sin pérdidas: la exportación omite las imágenes y el estado de estudio, y Flashcards no puede procesar ese texto como su formato nativo de transferencia.
+Las aplicaciones de escritorio y móviles de RemNote funcionan sin conexión después de instalarlas e iniciar sesión, y sincronizan los cambios cuando recuperan la conexión. Su [guía sobre el modo sin conexión](https://help.remnote.com/en/articles/6752029-offline-mode) dice que la aplicación de escritorio conserva una copia local completa de las imágenes y los PDF de la base de conocimientos; las versiones móvil y web solo almacenan en caché algunos archivos multimedia. La mayoría de las funciones de IA siguen necesitando conexión.
 
-## Autoalojar no cuesta una licencia, pero sí genera gastos
+La documentación citada de RemNote no ofrece una vía de un solo clic desde Quizlet. Puedes convertir el texto exportado de Quizlet a la sintaxis documentada de RemNote, [`Pregunta >> Respuesta`](https://help.remnote.com/en/articles/9252072-how-to-import-flashcards-from-text), y pegarlo, o bien crear primero un mazo de Anki y usar el [importador de `.apkg` de RemNote](https://help.remnote.com/en/articles/6751471-importing-from-anki). Ambas vías añaden un paso de conversión, y las imágenes y el historial de estudio ausentes en Quizlet siguen sin aparecer.
 
-El código de Flashcards tiene licencia MIT. Puedes inspeccionarlo, modificarlo y desplegarlo sin comprar una licencia de software. Los servidores de producción y el trabajo necesario para mantenerlos se pagan aparte.
+Puedes salir mediante exportaciones nativas de RemNote, Anki, OPML, HTML, Markdown y texto. El formato nativo completo ofrece la mayor fidelidad, mientras que la opción de Anki solo incluye las tarjetas; la [guía de exportación de RemNote](https://help.remnote.com/en/articles/7898019-exporting-notes) también señala que el archivo de exportación nativo no incluye actualmente imágenes ni PDF. Elige RemNote por su modelo de notas y tarjetas, no porque la palabra «ilimitado» se aplique a todas las funciones avanzadas. Consulta la [comparativa de alternativas a RemNote](/blog/remnote-alternative/) si ese modelo es el factor decisivo.
 
-La vía compatible para producción es el stack de AWS CDK del repositorio. La configuración con Docker y PostgreSQL está pensada para el desarrollo local; no es un atajo documentado para desplegar en producción.
+## Mochi: gratis sin conexión, de pago al añadir sincronización
 
-Quien administre una instancia de producción se hace responsable de:
+Mochi traza una línea clara alrededor de su flujo gratuito de tarjetas. Su [página de precios](https://www.mochi.cards/pricing/) dice que no hace falta registrarse e incluye uso sin conexión, tarjetas, mazos, importación y exportación ilimitados por 0 $. Pro cuesta 5 $ al mes y añade sincronización entre dispositivos, publicación, campos dinámicos y asignaciones mucho mayores de IA y servicios lingüísticos.
 
-- los servicios de base de datos, almacenamiento, computación y red de AWS
-- un dominio y la configuración de DNS
-- el envío de correos electrónicos
-- la monitorización y las alertas
-- el uso y las credenciales opcionales de proveedores de IA
-- la gestión de secretos
-- las copias de seguridad de la base de datos y los archivos multimedia, incluidas las pruebas de restauración
-- las actualizaciones, las migraciones, las tareas de seguridad y el tiempo de administración
+La tabla detallada de los planes ofrece actualmente en Free 5000 tokens mensuales de completado mediante IA, además de pequeñas asignaciones para diccionario, traducción, transcripción, texto a voz y búsqueda de imágenes. Son límites propios de una prueba, no un flujo de trabajo con IA ilimitado. El encabezado de la página sigue presentando los servicios de IA como un motivo para pasarse a un plan superior, así que comprueba la asignación disponible en la aplicación antes de incorporarla a tu rutina.
 
-El stack automatiza partes del despliegue, pero no elimina estas responsabilidades. No hay una estimación mensual universal que resulte útil: la región, el tráfico, el almacenamiento, la política de copias de seguridad, el volumen de correo electrónico, el uso de la IA y las decisiones de quien administre el sistema cambian la factura. La [guía de autoalojamiento](/docs/self-hosting/) documenta la arquitectura de AWS y los límites del desarrollo local.
+Mochi sigue siendo una buena aplicación gratuita de tarjetas para estudiar en local desde un portátil o un teléfono. No ofrece una cuenta gratuita en la nube. Si estudias en el ordenador y repasas durante tus desplazamientos con el teléfono, la sincronización automática no es un pequeño extra: cambia el precio del flujo de trabajo.
 
-En resumen, el autoalojamiento cambia quién paga y administra el stack. No convierte la infraestructura en la nube en un servicio gratuito. Si no necesitas controlar la infraestructura, la beta alojada te ahorra ese trabajo mientras siga siendo gratuita.
+Quizlet no se conecta directamente con Mochi. Si tienes una exportación de texto que cumple los requisitos, convierte los términos y las definiciones a CSV o Markdown y usa los [formatos de importación documentados de Mochi](https://mochi.cards/docs/import-and-export/importing/). Aun así tendrás que reconstruir las imágenes, porque Quizlet no las exporta.
 
-## Las funciones importantes de Quizlet que no tienen equivalente
+Las opciones de salida de Mochi son inusualmente claras. Su exportación nativa `.mochi` incluye tarjetas, plantillas, archivos adjuntos, etiquetas, metadatos, historial de repasos, orden y estructura de los mazos. Markdown y CSV son más fáciles de leer en otros programas, pero [sus exportaciones omiten algunos metadatos](https://mochi.cards/docs/import-and-export/exporting/), incluido el historial de repasos. Es un límite razonable: conserva una copia de seguridad nativa para mantener la fidelidad y una copia en Markdown o CSV para facilitar la lectura.
 
-Ahora mismo, Flashcards no tiene un equivalente directo para cuatro áreas de Quizlet que pueden pesar más que el precio:
+Elige Mochi cuando el estudio sin conexión y sin cuenta, junto con la portabilidad de Markdown, importen más que la sincronización automática o unos límites generosos de IA. La [guía de alternativas a Mochi](/blog/mochi-alternative/) cubre la decisión general sobre el producto.
 
-- los modos específicos Learn y Test, incluido el flujo generado de preguntas de opción múltiple
-- una biblioteca pública comparable de conjuntos de estudio
-- Study Guides, Practice Tests y Ask Quizlet, la suite de IA de Quizlet
-- el ecosistema educativo de Quizlet Live, las clases y los informes de progreso
+## Flashcards: de código abierto y preparada para agentes, pero aún en beta
 
-La descripción general de Quizlet presenta [Learn, Test, Practice Tests, Study Guides y Quizlet Live](https://help.quizlet.com/hc/en-us/articles/360030841732-Studying-on-Quizlet). El acceso gratuito a Quizlet también tiene límites: quienes no tienen suscripción reciben un número limitado de rondas de Learn y un Test de práctica por conjunto. Los estudiantes de una clase gestionada por un docente que cumpla los requisitos pueden recibir [acceso ilimitado y sin anuncios a Learn y Test para los conjuntos de la clase](https://help.quizlet.com/hc/en-us/articles/34270983035149-Free-student-access-to-Learn-and-Test-modes).
+Flashcards es la opción más especializada de esta lista. La aplicación alojada es [gratuita durante la beta](/pricing/), con IA y sincronización entre web, iOS y Android incluidas, y sin una cuota del plan sobre las tarjetas, los archivos o el almacenamiento total. Se siguen aplicando los límites normales de solicitudes, archivos y transferencias. La [página de funciones](/features/) documenta el estudio sin conexión, los repasos con FSRS y el acceso al mismo espacio de trabajo mediante MCP y la Agent API.
 
-Si los modos guiados, el material público ya preparado o las herramientas para el aula son esenciales en tu rutina de estudio, una cuenta gratuita de Flashcards no los sustituye. La beta cubre otro flujo de trabajo: tarjetas de anverso y reverso, repasos con FSRS-6, guardado local y sincronización con un enfoque offline-first, archivos multimedia, chat con IA y acceso para agentes.
+La promesa a largo plazo es más limitada que la oferta de la beta. La creación y el repaso básicos de tarjetas seguirán siendo gratuitos. Un mayor uso de la IA podría requerir más adelante tu propia clave de proveedor o una opción de pago, y no se promete que todas las funciones alojadas vayan a ser gratuitas para siempre.
 
-## La respuesta honesta sobre esta alternativa gratuita a Quizlet
+La migración desde Quizlet también es el punto más débil. Flashcards no tiene un importador directo de Quizlet, CSV, TSV, Anki ni texto genérico. El texto de Quizlet que cumpla los requisitos puede servir como material de partida para una reconstrucción manual o para borradores de IA revisados, pero no es una importación sin pérdidas. El [flujo de exportación desde Quizlet](/blog/how-to-export-quizlet-sets-and-turn-them-into-fsrs-flashcards/) explica la limpieza sin fingir que se puedan recuperar los archivos multimedia y el estado de estudio ausentes.
 
-Durante la beta, Flashcards es una **alternativa gratuita a Quizlet** para estudiar con tarjetas de anverso y reverso, repasar con FSRS-6, trabajar con un enfoque offline-first en la web y en dispositivos móviles, sincronizar contenido, usar archivos multimedia y recibir ayuda de la IA. No se necesita tarjeta de crédito y el plan no limita el número de tarjetas o archivos ni el almacenamiento total. Los paquetes y las solicitudes sí tienen límites técnicos.
+El paquete nativo `flashcards.zip` mueve tarjetas, etiquetas y archivos multimedia relacionados entre espacios de trabajo de Flashcards. No mueve el historial de repasos, el estado del programador FSRS, los ajustes, las estructuras completas de los mazos ni los datos de la cuenta. El autoalojamiento te da el software con licencia MIT y el control del despliegue, pero la vía de producción documentada usa AWS y sigue generando costes de infraestructura, proveedores, mantenimiento, copias de seguridad y operación. La [guía de autoalojamiento](/docs/self-hosting/) explica ese límite.
 
-No es un sustituto equivalente de los modos Learn o Test de Quizlet, su biblioteca pública de conjuntos, sus formatos de estudio con IA o su sistema para el aula. El material existente de Quizlet también debe reconstruirse a partir de las exportaciones de texto permitidas en vez de importarse directamente.
+Elige Flashcards cuando el código abierto, el uso explícito de FSRS o el acceso mediante agentes de IA sean el motivo para dejar Quizlet. Elige otra opción cuando importen más la migración directa, los formatos de importación maduros o un plan alojado gratuito, permanente y con todo incluido. La comparativa específica de [Quizlet y su alternativa de código abierto](/blog/quizlet-alternative/) profundiza en Quizlet frente a Flashcards; esta guía de cinco aplicaciones se centra en los límites de las opciones gratuitas.
 
-Los costes se entienden mejor por separado. Hoy, la beta alojada cuesta 0 $. La creación y el repaso básicos de tarjetas seguirán siendo gratuitos, mientras que un mayor uso de la IA podría requerir más adelante tu propia clave de API de un proveedor o una opción de pago. El autoalojamiento elimina el coste de la licencia de software, pero añade la infraestructura, los servicios de terceros, el mantenimiento y el tiempo de administración. Si estos límites encajan con lo que necesitas, [abre Flashcards](https://app.flashcards-open-source-app.com/) y prueba la versión alojada.
+## Haz esta prueba de migración antes de trasladarlo todo
+
+Que una importación tenga éxito no demuestra que una aplicación nueva encaje contigo. Usa un conjunto representativo y prueba el ciclo completo mientras volver a Quizlet siga siendo fácil.
+
+1. Elige un conjunto propio de 30 a 50 tarjetas. Incluye texto no latino o caracteres acentuados, definiciones largas, saltos de línea, términos que parezcan duplicados y al menos una tarjeta basada en una imagen si las utilizas.
+2. Expórtalo desde el sitio web de Quizlet. Anota el número de tarjetas y guarda el texto original sin modificar. Comprueba qué imágenes faltan antes de culpar a la aplicación de destino.
+3. Traslada el mismo conjunto a la opción que encabeza tu lista. Usa la vía directa cuando esté disponible; de lo contrario, haz la mínima conversión de texto documentada. No limpies todavía todos los conjuntos.
+4. Comprueba diez tarjetas difíciles, no diez cómodas. Verifica ambas caras, los saltos de línea, la codificación de caracteres, los duplicados, el orden, las etiquetas o carpetas y cualquier imagen que hayas reconstruido a mano.
+5. Estudia con conexión y después repite una sesión breve sin conexión. Si tu plan incluye sincronización gratuita, vuelve a conectarte desde un segundo dispositivo y confirma que las modificaciones y el progreso de los repasos lleguen una vez: ni dos veces ni de forma parcial.
+6. Exporta desde la aplicación nueva. Abre el archivo fuera de ella y responde a tres preguntas: ¿puedes leer el texto de las tarjetas? ¿Están presentes los archivos multimedia y la organización? ¿El historial de repasos está incluido, se omite o queda atrapado en un formato nativo?
+7. Conserva el conjunto original de Quizlet y el texto exportado hasta que el flujo nuevo haya superado al menos unas cuantas sesiones de estudio reales.
+
+Esta prueba revela las sorpresas caras: una extensión de Chrome que deja de funcionar, una compra en iOS que dabas por opcional, imágenes que nunca salieron de Quizlet, un plan gratuito sin sincronización o una exportación útil para imprimir pero no para migrar.
+
+## Qué alternativa gratuita a Quizlet deberías elegir
+
+Para la mayoría de los usuarios de escritorio y Android, **Anki** es la opción de 0 $ más sólida a largo plazo. Combina estudio sin conexión, sincronización gratuita, formatos maduros de importación y exportación y ningún plazo de beta. La contrapartida es un flujo de trabajo más técnico y una aplicación oficial de pago para iOS.
+
+Para quienes buscan el sustituto gratuito más parecido a los distintos modos de estudio de Quizlet, **Knowt** es la primera opción más práctica que probar. Su importación documentada desde Quizlet es más sencilla que las vías de conversión de las demás opciones, aunque el uso sin conexión y la exportación inspiran menos confianza.
+
+Elige **RemNote** cuando unir notas y tarjetas sincronizadas resuelva un problema real de tu proceso de estudio. Elige **Mochi** cuando te baste con estudiar Markdown en local, sin una cuenta. Prueba **Flashcards** cuando el código abierto y los flujos de trabajo con agentes sean un requisito, aceptando los límites de la beta alojada y de la migración.
+
+No cambies porque una página de precios diga «gratis». Cambia cuando hayas probado los dispositivos que utilizas, el modo que consigue que estudies, un conjunto real de Quizlet y el archivo que necesitarías para salir.

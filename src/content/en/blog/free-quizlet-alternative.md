@@ -1,146 +1,145 @@
 ---
-title: "Free Quizlet Alternative in 2026: What Is Actually Free?"
-description: "Is Flashcards a free Quizlet alternative? See what the hosted beta includes, its limits, import and export rules, self-hosting costs, and missing Quizlet features."
-image: "/blog/free-quizlet-alternative.png"
+title: "Best Free Quizlet Alternatives in 2026: 5 Apps Compared"
+description: "Compare Anki, Knowt, RemNote, Mochi, and Flashcards by free card study, sync, offline use, Quizlet import, AI limits, and the catch behind each $0 plan."
+image: "/blog/free-quizlet-alternative-v2.png"
 date: "2026-06-20"
-updated: "2026-08-03"
+updated: "2026-09-10"
 keywords:
-  - "free Quizlet alternative"
+  - "free Quizlet alternatives"
+  - "best free Quizlet alternative"
   - "Quizlet alternative free"
-  - "free flashcards app"
-  - "Quizlet Plus alternative"
+  - "free flashcard app"
+  - "free Quizlet replacement"
+  - "Anki vs Quizlet"
+  - "Knowt free plan"
+  - "RemNote free plan"
+  - "Mochi free plan"
   - "open source Quizlet alternative"
-  - "free FSRS flashcards app"
-  - "Flashcards pricing"
-  - "self-hosted flashcards cost"
 ---
 
-The hosted version of [Flashcards](/) costs $0 during beta and does not ask for a credit card. AI and sync are included, with no plan-based quota on cards, files, or total storage. That makes it a **free Quizlet alternative** for front/back card study, but “free” needs two footnotes: technical limits still apply, and not every hosted feature is promised at no cost forever.
+A free Quizlet account still lets you study flashcards, practice questions, diagrams, and activities. The awkward part appears later: non-subscribers get only limited Learn rounds for each set, one free practice Test per set, and offline study sits among Quizlet's paid features.
 
-The software is also MIT-licensed, so there is no license fee to self-host it. A production deployment still costs money to run. And if you rely on Quizlet's Learn or Test modes, public sets, AI study suite, or classroom tools, Flashcards does not provide like-for-like replacements.
+That makes “free” a poor filter on its own. One free Quizlet replacement works offline but charges for iPhone. Another gives you several study modes but a less useful exit file. A third syncs notes and cards, then caps advanced PDF, image, or AI features.
 
-> **Disclosure:** I am Kirill Markin, and I build Flashcards. This article focuses on price and free-tier boundaries, including the parts where Quizlet offers features Flashcards does not.
+The best free Quizlet alternative is the one whose catch does not break your actual study routine. This comparison covers exactly five options—Anki, Knowt, RemNote, Mochi, and Flashcards—and treats Quizlet's free plan as the baseline rather than pretending every $0 offer includes the same thing.
 
-**Facts checked:** August 3, 2026.
+> **Disclosure:** I am Kirill Markin, and I build Flashcards, one of the five apps compared here. I included it for its open-source, FSRS, and agent workflows. It is not the universal winner: there is no direct Quizlet importer, its native transfer package does not preserve review state, and the hosted app's current free offer is a beta. This is a source-checked comparison of official pricing, help pages, and repository documentation—not a claim that I ran long-term hands-on tests with all five apps.
 
-![Free Quizlet alternative shown as a box of cards and media passing through a size gauge while review state stays beside self-hosting infrastructure](/blog/free-quizlet-alternative.png)
+**Facts checked:** September 10, 2026.
 
-## The free Quizlet alternative cost, in one table
+![A student holding a sample study set compares five boats before choosing a free Quizlet alternative and testing the migration round trip](/blog/free-quizlet-alternative-v2.png)
 
-| Question | Answer |
-|---|---|
-| Is the hosted app free? | Yes, during beta. No credit card is required. |
-| Are AI and sync free? | They are included during beta. |
-| Are cards or storage capped by a free plan? | No. There are no plan quotas on cards, files, or total storage during beta. Per-file and per-operation limits still apply. |
-| Is self-hosting free? | The software license is free. AWS services, third-party providers, and operating work are not. |
-| Can Flashcards import Quizlet sets? | No. It imports only its own `flashcards.zip` package. |
-| Does it replace every important Quizlet feature? | No. Learn, Test, the public set library, Quizlet's AI study suite, and classroom tools all have important gaps. |
+## The short answer
 
-The lasting promise is narrower than “everything is free forever.” Core card creation and review will remain free. Higher AI usage may later require your own provider API key or a paid option. The beta offer does not guarantee that every hosted feature will always stay free.
+- Choose **Anki** for a mature free desktop and Android workflow, strong offline use, free AnkiWeb sync, and detailed deck exports. The official iPhone app is paid.
+- Choose **Knowt** when an easy documented Quizlet transfer and broad free study modes matter most. Its browser extension can be blocked, and its documented exit is less complete.
+- Choose **RemNote** when you want notes and flashcards in one synced workspace. Notes, cards, and synced devices are unlimited on Free, but advanced reading, image, handwriting, knowledge-base, and AI features have caps.
+- Choose **Mochi** when you want account-free, local-only offline cards written around Markdown. Cross-device sync requires the $5/month Pro plan; the detailed pricing table lists small monthly AI and language-service allowances on Free.
+- Choose **Flashcards** when open-source FSRS study, AI-agent access, and an operator-controlled AWS deployment are the point. The hosted beta is free now, but Quizlet migration is manual and not every hosted feature is promised free forever.
 
-If you need a feature-by-feature decision instead, read the broader [Quizlet alternative comparison](/blog/quizlet-alternative/). This article stays with price, limits, portability, and the missing features that can change the value of “free.”
+If you only want the quickest start after Quizlet, test Knowt first. If you want the most established no-cost offline setup and do not need the official iOS app, start with Anki. The other three make more sense when connected notes, local Markdown, or source and agent access is the reason you are moving.
 
-## What is free in the hosted beta?
+## What Quizlet gives you for $0
 
-You can currently sign up and use the main study workflow without paying:
+Quizlet's [subscription guide](https://help.quizlet.com/hc/en-us/articles/360041181691-Subscribing-to-Quizlet) says a free account covers flashcards, practice questions, interactive diagrams, and activities. It lists extended study tools and offline studying with subscriptions.
 
-- create and edit front/back cards
-- review with the FSRS-6 scheduler
-- write card changes and reviews locally, then sync across web, iOS, and Android
-- attach related media to cards
-- use AI chat with file attachments
-- connect AI clients through MCP
-- use the Agent API
-- import and export Flashcards workspace packages
+Two limits are especially easy to hit while preparing for an exam:
 
-There is no paid tier to unlock AI or cross-device sync during beta. The [pricing page](/pricing/) is the current source for the hosted offer and its future boundary.
+- [Learn is free for a limited number of rounds](https://help.quizlet.com/hc/en-us/articles/40011154960653-Studying-with-Answer-Streaks) per study set for non-subscribers.
+- [Test allows one free practice test](https://help.quizlet.com/hc/en-us/articles/360030642972-Studying-with-Test-mode) per flashcard set for non-subscribers.
 
-Included does not mean every feature works offline. Card changes and reviews can be written locally and synchronized after reconnecting. AI calls and the sync itself still need a network connection.
+Quizlet also sets the migration ceiling. On the website, a creator can [export terms and definitions from their own sets](https://help.quizlet.com/hc/en-us/articles/360034345672-Exporting-your-sets). Images are not included, and copied sets cannot be exported. So every alternative below starts with the same missing pieces: no Quizlet images, no review history, and no complete account backup.
 
-## The free hosted app has technical limits
+## Five free Quizlet alternatives compared
 
-No plan quota does not mean no technical limits. Flashcards does not meter beta accounts by total card count, file count, or storage used. Individual requests and transfers still have size boundaries.
+| Alternative | Useful $0 workflow | Sync and offline boundary | Moving from Quizlet | AI on the free plan | Main catch |
+| --- | --- | --- | --- | --- | --- |
+| **Anki** | Mature spaced-repetition cards on desktop and Android | Free desktop apps, free AnkiDroid, free AnkiWeb sync; official AnkiMobile for iOS is paid | Import a creator-owned Quizlet text export as comma-, semicolon-, or tab-separated fields | Not part of the core offer documented on Anki's site | A completely free setup excludes the official iPhone app, and Anki takes more setup than Quizlet |
+| **Knowt** | Unlimited flashcards and notes plus Learn, Test, Matching, Flashcards, and spaced repetition | Free plan includes cloud storage and collaboration; the cited plan pages do not promise an offline workflow | Chrome extension, with a manual separator-based fallback for sets Quizlet allows you to export | Limited usage that resets monthly | The extension may be blocked, and the documented export path is PDF or app sharing rather than a full structured deck backup |
+| **RemNote** | Unlimited notes and flashcards on unlimited synced devices | Desktop and mobile apps can edit and review offline after login; some mobile media may not be cached | Reformat Quizlet text into RemNote's card syntax, or use an Anki intermediary | 250 monthly AI credits, with separate caps on some AI actions | Free caps also apply to annotated PDFs, image occlusion, handwriting, and knowledge bases |
+| **Mochi** | Unlimited cards, decks, import, and export without an account | Unlimited offline use with local storage; automatic cross-device sync is Pro | Convert eligible Quizlet text to CSV or Markdown before import | Small monthly allowances; Pro raises the limits | The free plan is local-only, so an automatically synced phone-and-laptop workflow costs money |
+| **Flashcards** | FSRS review, AI, sync, and agent workflows during the hosted beta | Sync across web, iOS, and Android is included during beta; local card writes and reviews can continue offline | No direct importer; rebuild from eligible Quizlet text manually or with reviewed AI drafts | Included during beta; higher usage may later need a provider key or paid option | Beta terms can change, and `flashcards.zip` does not carry review history, FSRS state, settings, or full deck structure |
 
-The current `flashcards.zip` package limits are:
+The table has no single winner because “free” can describe the license, the first device, cloud sync, AI allowance, or a temporary hosted offer. Pick the column that would force you to pay—or lose data—first.
 
-| Package operation | Limit |
-|---|---:|
-| Cards in one package | 5,000 |
-| Media files in one package | 10,000 |
-| One media file | 16 MiB |
-| Combined media in one package | 64 MiB |
-| Imported ZIP file | 80 MiB |
+## Anki: the mature free desktop and Android choice
 
-These numbers cap one import or export operation. They are not account-wide card, file, or storage caps, and they are not the boundary of a hidden paid plan. A larger workspace may need to be moved in several packages. AI requests and attachments have their own request and supported-file constraints as well.
+Anki is the safest default when your priority is long-term card review rather than Quizlet-style games. The [official Anki site](https://apps.ankiweb.net/) provides free desktop versions for Windows, macOS, and Linux, free AnkiWeb synchronization, and points to the free community-built AnkiDroid app. The official AnkiMobile app for iOS is paid, which is the main reason “Anki is free” needs a device footnote.
 
-## Import and export are narrower than they sound
+Moving simple Quizlet material is practical. Anki can [import plain-text fields](https://docs.ankiweb.net/importing/text-files.html) separated by commas, semicolons, or tabs. Export an eligible set from Quizlet, match the term and definition columns, then check line breaks, HTML, duplicates, and non-Latin text before importing the rest. Quizlet's missing images and study history do not reappear in Anki.
 
-Flashcards has one native transfer format: a `flashcards.zip` workspace package.
+The exit route is one of Anki's strengths. Its [export tools](https://docs.ankiweb.net/exporting.html) can create plain text, individual `.apkg` decks, or a `.colpkg` collection. Package options can include media and scheduling information. That does not guarantee another app will understand every template or scheduler field, but you can keep a detailed Anki-native backup and a simpler text copy.
 
-It can import a valid package exported by Flashcards. It cannot import a Quizlet set, CSV, TSV, or general delimited text. Quizlet can [create sets by importing delimited text](https://help.quizlet.com/hc/en-us/articles/360029977151-Creating-sets-by-importing-content); Flashcards has no equivalent text-import screen.
+Anki is the best free Quizlet alternative here for desktop or Android users who care about offline study and a mature card system. It is a weaker fit if you want a familiar classroom interface, several guided modes, or a $0 official iPhone app. The broader [Anki alternatives comparison](/blog/best-anki-alternatives/) is useful if migration fidelity matters more than leaving Quizlet specifically.
 
-A package carries the learning content that Flashcards knows how to reconstruct:
+## Knowt: the easiest documented Quizlet transfer
 
-- cards
-- the cards' tags
-- media referenced by the cards
+Knowt is the closest fit for someone who liked Quizlet's variety but not its free limits. The [Knowt free-plan guide](https://help.knowt.com/en/articles/10298016-what-are-the-differences-between-free-and-paid-accounts-for-students) lists unlimited flashcards, notes, and study in Learn, Test, Matching, Flashcards, and spaced-repetition modes. The live [Basic plan](https://knowt.com/plans) is free and lists unlimited file creation, live collaboration, and storage.
 
-It leaves behind the state around that content:
+Its Quizlet route is also the most direct one in this comparison. Knowt documents a [Chrome extension that imports Quizlet sets](https://help.knowt.com/en/articles/10298079-how-to-import-flashcards-from-quizlet-to-knowt). The same guide warns that Quizlet may block the extension and provides a manual fallback: export eligible set text, choose separators, and paste it into Knowt's manual importer. Follow Quizlet's current ownership rule here rather than Knowt's suggestion to make a copy: Quizlet says copied sets cannot be exported.
 
-- review history
-- FSRS scheduler state
-- workspace settings
-- full deck structures
-- account data
+There are two catches. First, AI is not unlimited; free allowances reset monthly. Second, [Knowt's export help](https://help.knowt.com/en/articles/10714472-how-can-i-export-my-flashcards) documents saving flashcards as a PDF or sharing them from the app. That is useful for reading and sharing, but it is not the same promise as a structured deck backup with review history, media, and scheduling data.
 
-So `flashcards.zip` can move selected learning material between hosted and self-hosted Flashcards workspaces. It cannot reproduce an account or continue the exact review schedule. It is also not a disaster-recovery backup; a self-hosting operator still needs database and media backups.
+Choose Knowt when fast migration and free study modes beat offline guarantees or a strong technical exit path. If you already know that export fidelity will matter later, run the round-trip test below before moving more than one set. The [Knowt alternative guide](/blog/knowt-alternative/) covers the product tradeoffs in more depth.
 
-### Existing Quizlet sets need rebuilding
+## RemNote: free synced notes and cards, with feature caps
 
-Quizlet lets creators [export terms and definitions from sets they own](https://help.quizlet.com/hc/en-us/articles/360034345672-Exporting-your-sets) on the website. It does not export copied sets or images.
+RemNote makes the most sense when flashcards should live inside lecture notes rather than in a separate deck manager. Its [current Free plan](https://www.remnote.com/pricing) includes unlimited notes and flashcards on unlimited synced devices. It also includes 250 AI credits per month and some access to advanced study features.
 
-The result is text, not a package Flashcards accepts. You can rebuild selected cards manually, or give the text to Flashcards AI chat as source material for draft front/back cards. Either path requires reviewing and saving the rebuilt cards; neither is a direct import.
+The exact caps matter. Free currently includes three annotated PDFs, five image-occlusion cards, one handwritten document, two knowledge bases, and limited uses of several AI actions. That is a generous card-and-note core, but a medical student annotating many PDFs and images can hit the boundary long before running out of ordinary cards.
 
-The [Quizlet export guide](/blog/how-to-export-quizlet-sets-and-turn-them-into-fsrs-flashcards/) covers the cleanup process. It is not a lossless migration: the export omits images and study state, while Flashcards cannot ingest the text as its native transfer format.
+RemNote's desktop and mobile apps can work offline after installation and login, then sync changes after reconnecting. Its [offline guide](https://help.remnote.com/en/articles/6752029-offline-mode) says desktop keeps a complete local copy of knowledge-base images and PDFs; mobile and web cache only some media. Most AI features remain online-only.
 
-## Self-hosting has no license fee, but it has a bill
+There is no one-click Quizlet path in the cited RemNote docs. You can turn exported Quizlet text into RemNote's documented [`Question >> Answer` syntax](https://help.remnote.com/en/articles/9252072-how-to-import-flashcards-from-text) and paste it, or first build an Anki deck and use RemNote's [`.apkg` importer](https://help.remnote.com/en/articles/6751471-importing-from-anki). Either route adds a conversion step, and Quizlet's missing images and study history remain missing.
 
-The Flashcards code is MIT-licensed. You can inspect, modify, and deploy it without buying a software license. The production servers and the work around them are separate costs.
+Leaving is possible through RemNote-native, Anki, OPML, HTML, Markdown, and text exports. The native complete format is highest fidelity, while the Anki option is flashcards only; [RemNote's export guide](https://help.remnote.com/en/articles/7898019-exporting-notes) also notes that the native export file does not currently include images or PDFs. Choose RemNote for the notes-and-cards model, not because the word “unlimited” applies to every advanced feature. See the [RemNote alternative comparison](/blog/remnote-alternative/) if that model is your deciding factor.
 
-The supported production route is the repository's AWS CDK stack. The Docker and PostgreSQL setup is for local development, not a documented shortcut to a production deployment.
+## Mochi: free offline, paid when you add sync
 
-A production operator is responsible for:
+Mochi draws a clear line around its free card workflow. Its [pricing page](https://www.mochi.cards/pricing/) says no sign-up is required and includes unlimited offline use, cards, decks, import, and export for $0. Pro costs $5 per month and adds sync across devices, publishing, dynamic fields, and much larger AI and language-service allowances.
 
-- AWS database, storage, compute, and network services
-- a domain and DNS configuration
-- email delivery
-- monitoring and alerting
-- optional AI provider usage and credentials
-- secrets management
-- database and media backups, including restore tests
-- upgrades, migrations, security work, and operator time
+The detailed plan table currently gives Free 5,000 monthly AI-completion tokens plus small allowances for dictionary, translation, transcription, text-to-speech, and image search. Those are trial-sized limits, not an unlimited AI workflow. The page's headline still describes AI services as a reason to upgrade, so check the live allowance in the app before making it part of your routine.
 
-The stack automates parts of deployment, but it does not remove these responsibilities. There is no useful universal monthly estimate: region, traffic, storage, backup policy, email volume, AI usage, and operator choices all change the bill. The [self-hosting guide](/docs/self-hosting/) documents the AWS architecture and the local-development boundary.
+Mochi is still a good free flashcard app for local study on a laptop or phone. It does not give you a free cloud account. If you study on a computer and commute with a phone, automatic sync is not a small extra—it changes the price of the workflow.
 
-Self-hosting therefore changes who pays and operates the stack. It does not turn cloud infrastructure into a free service. If infrastructure control is not part of your requirement, the hosted beta avoids that operational work while it remains free.
+Quizlet does not feed directly into Mochi. For an eligible text export, turn the terms and definitions into CSV or Markdown and use Mochi's [documented import formats](https://mochi.cards/docs/import-and-export/importing/). You will still need to rebuild images because Quizlet does not export them.
 
-## The important Quizlet features with no equivalent
+Mochi's exit options are unusually clear. Its native `.mochi` export includes cards, templates, attachments, tags, metadata, review history, order, and deck structure. Markdown and CSV are easier to read elsewhere, but [their exports omit some metadata](https://mochi.cards/docs/import-and-export/exporting/), including review history. This is a good boundary: keep a native backup for fidelity and a Markdown or CSV copy for readability.
 
-Flashcards currently has no direct equivalent to four parts of Quizlet that can matter more than price:
+Choose Mochi when account-free offline study and Markdown portability matter more than automatic sync or generous AI limits. The [Mochi alternative guide](/blog/mochi-alternative/) covers the broader product decision.
 
-- dedicated Learn and Test modes, including the generated multiple-choice flow
-- a comparable public library of study sets
-- Quizlet's AI Study Guides, Practice Tests, and Ask Quizlet suite
-- the classroom and teacher ecosystem around Quizlet Live, classes, and progress reporting
+## Flashcards: open source and agent-friendly, but still a beta
 
-Quizlet's overview describes [Learn, Test, Practice Tests, Study Guides, and Quizlet Live](https://help.quizlet.com/hc/en-us/articles/360030841732-Studying-on-Quizlet). Free Quizlet access has its own boundaries: non-subscribers receive limited Learn rounds and one practice Test per set. Students in an eligible teacher-managed class can receive [unlimited, ad-free Learn and Test access for class sets](https://help.quizlet.com/hc/en-us/articles/34270983035149-Free-student-access-to-Learn-and-Test-modes).
+Flashcards is the narrow specialist in this list. The hosted app is [free during beta](/pricing/), with AI and sync across web, iOS, and Android included and no plan-based quota on cards, files, or total storage. Normal request, file, and transfer limits still apply. The [features page](/features/) documents offline study, FSRS review, and access to the same workspace through MCP and the Agent API.
 
-If guided modes, ready-made public material, or classroom tools are central to your study routine, a $0 Flashcards account does not replace them. The free beta covers a different workflow: front/back cards, FSRS-6 review, offline-first writes and sync, media, AI chat, and agent access.
+The lasting promise is smaller than the beta offer. Core card creation and review will remain free. Higher AI usage may later require your own provider key or a paid option, and there is no promise that every hosted feature will remain free forever.
 
-## The honest free Quizlet alternative answer
+Quizlet migration is also the weakest part of the fit. Flashcards has no direct Quizlet, CSV, TSV, Anki, or general text importer. Eligible Quizlet text can serve as source material for manual rebuilding or reviewed AI drafts, but that is not a lossless import. The [Quizlet export workflow](/blog/how-to-export-quizlet-sets-and-turn-them-into-fsrs-flashcards/) explains the cleanup without pretending the missing media and study state can be recovered.
 
-Flashcards is a **free Quizlet alternative** during beta for front/back cards, FSRS-6 reviews, offline-first use across web and mobile, sync, media, and AI assistance. No credit card is required, and there is no plan quota on cards, files, or total storage. Package and request limits still apply.
+The native `flashcards.zip` package moves cards, tags, and related media between Flashcards workspaces. It does not move review history, FSRS scheduler state, settings, full deck structures, or account data. Self-hosting gives you the MIT-licensed software and control of the deployment, but the documented production path uses AWS and still creates infrastructure, provider, maintenance, backup, and operator costs. The [self-hosting guide](/docs/self-hosting/) spells out that boundary.
 
-It is not a like-for-like replacement for Quizlet's Learn or Test modes, public set library, AI study formats, or classroom system. Existing Quizlet material also has to be rebuilt from eligible text exports rather than directly imported.
+Choose Flashcards when open source, explicit FSRS, or AI-agent access is the reason you are leaving Quizlet. Choose something else when direct migration, mature import formats, or a permanent all-inclusive hosted free tier matters more. The separate [open-source Quizlet comparison](/blog/quizlet-alternative/) goes deeper on Quizlet versus Flashcards; this five-app guide stays focused on no-cost boundaries.
 
-The costs are easiest to understand separately. The hosted beta costs $0 today. Core card creation and review will remain free, while higher AI usage may later require your own provider key or a paid option. Self-hosting removes the software license fee, then adds infrastructure, third-party services, maintenance, and operator time. If those boundaries fit what you need, [open Flashcards](https://app.flashcards-open-source-app.com/) and try the hosted workflow.
+## Run this migration test before moving everything
+
+A successful import is not proof that a new app fits. Use one representative set and test the whole loop while returning to Quizlet is still easy.
+
+1. Pick a creator-owned set with 30–50 cards. Include non-Latin text or accents, long definitions, line breaks, duplicate-looking terms, and at least one image-based card if you use them.
+2. Export it from Quizlet on the website. Record the card count and save the raw text unchanged. Note which images are missing before blaming the destination.
+3. Move the same set into your leading candidate. Use the direct route where available; otherwise do the smallest documented text conversion. Do not clean every set yet.
+4. Check ten difficult cards, not ten convenient ones. Verify both sides, line breaks, character encoding, duplicates, order, tags or folders, and any image you rebuilt manually.
+5. Study online, then repeat a short session offline. Reconnect on a second device if free sync is part of your plan and confirm that edits and review progress arrive once—not twice and not partially.
+6. Export from the new app. Open the file outside that app and answer three questions: Can you read the card text? Are media and organization present? Is review history included, omitted, or trapped in a native format?
+7. Keep the original Quizlet set and exported text until the new workflow has survived at least a few real study sessions.
+
+This test exposes the expensive surprises: a Chrome extension that stops working, an iOS purchase you assumed was optional, images that never left Quizlet, a free plan without sync, or an export that is useful for printing but not for migration.
+
+## Which free Quizlet alternative should you choose?
+
+For most desktop and Android users, **Anki** is the strongest long-term $0 answer. It combines offline study, free sync, mature import and export formats, and no beta deadline. The tradeoff is a more technical workflow and a paid official iOS app.
+
+For students who want the nearest free replacement for Quizlet's varied study modes, **Knowt** is the practical first test. Its documented Quizlet import is easier than the conversion paths elsewhere, though the offline and export story is less reassuring.
+
+Choose **RemNote** when synced notes plus cards remove a real problem in your study process. Choose **Mochi** when local-only, account-free Markdown study is enough. Try **Flashcards** when open source and agent workflows are the requirement, while accepting the hosted beta and migration boundaries.
+
+Do not move because one pricing page says “free.” Move when you have tested the devices you use, the mode that keeps you studying, one real Quizlet set, and the file you would need on the way out.
