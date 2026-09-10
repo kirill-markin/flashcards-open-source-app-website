@@ -1,8 +1,6 @@
 import { remark } from "remark";
-import {
-  assertNoForbiddenUrlInputCharacters,
-  canonicalizeHttpsUrl,
-} from "./markdownLinks";
+import { isSupportedLocale, SUPPORTED_LOCALES } from "./localeConfig";
+import { canonicalizeHttpsUrl } from "./markdownLinks";
 import {
   publicCatalogSchemaVersions,
   type PublicCatalogAuthor,
@@ -55,26 +53,16 @@ function assertNonEmptyString(value: unknown, context: string): string {
   return stringValue;
 }
 
-function assertFacetTag(value: unknown, context: string): string {
-  const tag = assertString(value, context);
+function assertSupportedLanguageTag(value: unknown, context: string): string {
+  const languageTag = assertString(value, context);
 
-  if (tag.isWellFormed() === false) {
-    throw new Error(`Public catalog ${context} must be well-formed Unicode.`);
-  }
-
-  assertNoForbiddenUrlInputCharacters(tag, `Public catalog ${context}`);
-
-  if (tag.trim() === "") {
-    throw new Error(`Public catalog ${context} must not be empty.`);
-  }
-
-  if (tag === "." || tag === "..") {
+  if (isSupportedLocale(languageTag) === false) {
     throw new Error(
-      `Public catalog ${context} must not be a URL dot segment. received=${tag}`,
+      `Public catalog ${context} must be a supported interface locale (${SUPPORTED_LOCALES.join(", ")}). received=${languageTag}`,
     );
   }
 
-  return tag;
+  return languageTag;
 }
 
 function assertUuid(value: unknown, context: string): string {
@@ -98,6 +86,11 @@ function assertNullableString(value: unknown, context: string): string | null {
   }
 
   return assertString(value, context);
+}
+
+// Snapshots older than schemaVersion 3 omit the key entirely.
+function assertOptionalNullableString(value: unknown, context: string): string | null {
+  return value === undefined ? null : assertNullableString(value, context);
 }
 
 function assertNonNegativeInteger(value: unknown, context: string): number {
@@ -270,10 +263,22 @@ function parsePackageVersion(value: unknown, index: number): PublicCatalogPackag
     title: assertNonEmptyString(record.title, `${context}.title`),
     summary: assertString(record.summary, `${context}.summary`),
     description: assertMarkdown(record.description, `${context}.description`),
+    educationalSubject: assertOptionalNullableString(
+      record.educationalSubject,
+      `${context}.educationalSubject`,
+    ),
+    educationalFramework: assertOptionalNullableString(
+      record.educationalFramework,
+      `${context}.educationalFramework`,
+    ),
+    educationalLevel: assertOptionalNullableString(
+      record.educationalLevel,
+      `${context}.educationalLevel`,
+    ),
     languageTags: parseUniqueStringArray(
       record.languageTags,
       `${context}.languageTags`,
-      assertFacetTag,
+      assertSupportedLanguageTag,
     ),
     license: assertNonEmptyString(record.license, `${context}.license`),
     contentWarning: assertNullableString(record.contentWarning, `${context}.contentWarning`),
@@ -349,7 +354,7 @@ function parseCollection(value: unknown, index: number): PublicCatalogCollection
     languageTags: parseUniqueStringArray(
       record.languageTags,
       `${context}.languageTags`,
-      assertFacetTag,
+      assertSupportedLanguageTag,
     ),
     coverPackageId: record.coverPackageId === null
       ? null

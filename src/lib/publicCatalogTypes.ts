@@ -1,4 +1,4 @@
-export const publicCatalogSchemaVersions = [1, 2] as const;
+export const publicCatalogSchemaVersions = [1, 2, 3] as const;
 
 export type PublicCatalogSchemaVersion =
   (typeof publicCatalogSchemaVersions)[number];
@@ -30,6 +30,10 @@ export type PublicCatalogPackageVersion = Readonly<{
   title: string;
   summary: string;
   description: string;
+  // Free text carried from the catalog; absent before snapshot schemaVersion 3.
+  educationalSubject: string | null;
+  educationalFramework: string | null;
+  educationalLevel: string | null;
   languageTags: ReadonlyArray<string>;
   license: string;
   contentWarning: string | null;
