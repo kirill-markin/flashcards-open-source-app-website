@@ -29,6 +29,15 @@ function setMarkdownHeaders(response: NextResponse): NextResponse {
   return response;
 }
 
+// The canonical target is the same-locale HTML page, and a package page is itself
+// canonicalized to the deck's audience-language route, so a package `.md` URL rendered
+// under a non-audience locale ends a two-hop canonical chain. That is deliberate rather
+// than overlooked: `.md` URLs are emitted by no sitemap, so they are reachable and
+// advertised through the `rel="alternate"` header but never submitted for indexing, and a
+// chain on an unsubmitted URL costs nothing. Pointing straight at the canonical route
+// would mean carrying a per-package canonical map in the Markdown asset manifest, which
+// the proxy parses on every cold start. Revisit only if `.md` URLs are ever submitted for
+// indexing.
 function setMarkdownSuccessHeaders(
   response: NextResponse,
   pagePathname: string,
