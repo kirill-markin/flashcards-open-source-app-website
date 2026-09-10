@@ -888,11 +888,16 @@ test("never renders or indexes an older emitted package version", () => {
     "catalog/packages/canonical-package",
     model,
   )?.markdown;
-  const structuredData = JSON.stringify(
-    createPublicCatalogPackageJsonLd([], "en", packageView),
-  );
+  const packageJsonLd = createPublicCatalogPackageJsonLd([], "en", packageView);
+  const structuredData = JSON.stringify(packageJsonLd);
 
   assert.ok(markdown);
+  // The JSON-LD now carries language data, and the old version's `zh` tag is a
+  // supported locale that the shared substring guard below cannot tell apart
+  // from interface locale codes. Pin the emitted languages to the latest
+  // version's tags so an older version's tags cannot reach the markup.
+  assert.deepEqual(packageJsonLd["@graph"][0].inLanguage, ["en", "es"]);
+  assert.deepEqual(packageView.latestVersion.languageTags, ["en", "es"]);
   assert.match(
     markdown,
     new RegExp(`https://app\\.flashcards-open-source-app\\.com/catalog/import/${fixtureLatestVersionId}`),
@@ -1027,7 +1032,9 @@ test("creates escaped catalog JSON-LD from canonical read-model entities", () =>
   );
   assert.equal(packageResource.collectionSize, 2);
   assert.equal(packageResource.dateModified, packageView.latestVersion.updatedAt);
-  assert.equal("inLanguage" in packageResource, false);
+  assert.deepEqual(packageResource.inLanguage, ["en", "es"]);
+  assert.equal(packageResource.learningResourceType, "Flashcards");
+  assert.equal(packageResource.isAccessibleForFree, true);
   assert.equal("keywords" in packageResource, false);
   assert.deepEqual(packageResource.license, {
     "@type": "CreativeWork",
@@ -1055,10 +1062,13 @@ test("creates escaped catalog JSON-LD from canonical read-model entities", () =>
   assert.equal("offers" in packageResource, false);
   assert.equal(quiz["@type"], "Quiz");
   assert.equal(quiz.image, packageView.coverMediaAsset.downloadUrl);
+  // The fixture snapshot carries no educational alignment, so an unclassified
+  // deck keeps the title-only `about` and omits `educationalAlignment`.
   assert.deepEqual(
     quiz.about.map((about) => about.name),
     ["Canonical package title"],
   );
+  assert.equal("educationalAlignment" in quiz, false);
   assert.deepEqual(
     quiz.hasPart.map((question) => ({
       acceptedAnswer: question.acceptedAnswer,
@@ -1176,6 +1186,137 @@ test("creates escaped catalog JSON-LD from canonical read-model entities", () =>
   assert.equal(serializedSchema.includes("<"), false);
   assert.equal(serializedSchema.includes("\\u003c"), true);
   assert.doesNotThrow(() => JSON.parse(serializedSchema));
+});
+
+test("aligns package JSON-LD to the deck subject, level and canonical route", () => {
+  const readAlignedQuiz = (apply: (input: PublicCatalogDumpFixture) => void) => {
+    const input = createValidDump();
+
+    input.schemaVersion = 3;
+    apply(input);
+
+    const model = createPublicCatalogReadModel(parsePublicCatalogDump(input));
+    const packageView = getPublicCatalogPackageBySlug(model, "canonical-package");
+
+    assert.ok(packageView);
+
+    const quiz = createPublicCatalogPackageJsonLd([], "en", packageView)["@graph"][1];
+
+    assert.ok(quiz);
+
+    return quiz;
+  };
+
+  const fullyAlignedQuiz = readAlignedQuiz((input) => {
+    input.packageVersions[1].educationalSubject = "Statistics";
+    input.packageVersions[1].educationalFramework = "AP Statistics";
+    input.packageVersions[1].educationalLevel = "High school";
+  });
+
+  assert.deepEqual(
+    fullyAlignedQuiz.about.map((about) => about.name),
+    ["Canonical package title", "Statistics"],
+  );
+  assert.deepEqual(fullyAlignedQuiz.educationalAlignment, [
+    {
+      "@type": "AlignmentObject",
+      alignmentType: "educationalSubject",
+      educationalFramework: "AP Statistics",
+      targetName: "Statistics",
+    },
+    {
+      "@type": "AlignmentObject",
+      alignmentType: "educationalLevel",
+      educationalFramework: "AP Statistics",
+      targetName: "High school",
+    },
+  ]);
+
+  // The parser keeps a present-but-empty alignment field, so a blank framework
+  // and a blank level must read as absent instead of reaching the markup.
+  const subjectOnlyQuiz = readAlignedQuiz((input) => {
+    input.packageVersions[1].educationalSubject = "Statistics";
+    input.packageVersions[1].educationalFramework = "";
+    input.packageVersions[1].educationalLevel = "   ";
+  });
+
+  assert.deepEqual(subjectOnlyQuiz.educationalAlignment, [
+    {
+      "@type": "AlignmentObject",
+      alignmentType: "educationalSubject",
+      targetName: "Statistics",
+    },
+  ]);
+
+  // Without a subject there is nothing to align to, so a level alone is dropped
+  // and `about` keeps only the deck title.
+  const unalignedQuiz = readAlignedQuiz((input) => {
+    input.packageVersions[1].educationalSubject = "";
+    input.packageVersions[1].educationalFramework = "AP Statistics";
+    input.packageVersions[1].educationalLevel = "High school";
+  });
+
+  assert.equal("educationalAlignment" in unalignedQuiz, false);
+  assert.deepEqual(
+    unalignedQuiz.about.map((about) => about.name),
+    ["Canonical package title"],
+  );
+
+  const model = createPublicCatalogReadModel(parsePublicCatalogDump(createValidDump()));
+  const packageView = getPublicCatalogPackageBySlug(model, "canonical-package");
+  const starterCollection = getPublicCatalogCollectionBySlug(
+    model,
+    "starter-collection",
+  );
+
+  assert.ok(packageView);
+  assert.ok(starterCollection);
+
+  // `zh` is not an audience locale of this deck, so the page canonicalizes into
+  // the deck's canonical route and the structured data describes that route
+  // instead of a URL `rel=canonical` disavows: one `@id` per canonical
+  // (audience) route, shared by every non-audience route that resolves into it.
+  const canonicalPackageUrl =
+    "https://flashcards-open-source-app.com/catalog/packages/canonical-package/";
+  const chineseSchema = createPublicCatalogPackageJsonLd(
+    [starterCollection],
+    "zh",
+    packageView,
+  );
+  const chineseResource = chineseSchema["@graph"][0];
+  const chineseQuiz = chineseSchema["@graph"][1];
+
+  assert.ok(chineseQuiz);
+  assert.deepEqual(packageView.latestVersion.languageTags, ["en", "es"]);
+  assert.equal(chineseResource.url, canonicalPackageUrl);
+  assert.equal(chineseResource["@id"], `${canonicalPackageUrl}#resource`);
+  assert.deepEqual(chineseResource.hasPart, { "@id": `${canonicalPackageUrl}#quiz` });
+  assert.equal(chineseQuiz.url, canonicalPackageUrl);
+  assert.equal(chineseQuiz["@id"], `${canonicalPackageUrl}#quiz`);
+  assert.deepEqual(chineseQuiz.isPartOf, { "@id": `${canonicalPackageUrl}#resource` });
+  // Author and collection pages are self-canonical in every locale, so their
+  // URLs stay on the rendering locale even where the deck itself does not.
+  assert.equal(
+    chineseResource.author.url,
+    "https://flashcards-open-source-app.com/zh/catalog/authors/author-one/",
+  );
+  assert.deepEqual(chineseResource.isPartOf, [{
+    "@type": "CollectionPage",
+    name: "Starter collection",
+    url:
+      "https://flashcards-open-source-app.com/zh/catalog/collections/starter-collection/",
+  }]);
+  assert.throws(
+    () =>
+      createPublicCatalogPackageJsonLd([], "en", {
+        ...packageView,
+        latestVersion: {
+          ...packageView.latestVersion,
+          languageTags: ["fr"],
+        },
+      }),
+    /package canonical-package has no supported audience locale/,
+  );
 });
 
 test("creates deterministic localized catalog sitemap entries from real timestamps", () => {
