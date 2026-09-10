@@ -20,6 +20,7 @@ import {
   formatPublicCatalogFacetTag,
   formatPublicCatalogNumber,
   formatPublicCatalogPackageCount,
+  getPublicCatalogPackageAlignmentFacts,
 } from "./publicCatalogFormatting";
 import {
   getPublicCatalogPackageCardTags,
@@ -123,6 +124,10 @@ function renderPackageFacts(
         getPublicCatalogLanguageRoutePathname(languageTag),
       )))}`);
   }
+
+  getPublicCatalogPackageAlignmentFacts(latestVersion, copy).forEach((fact) => {
+    lines.push(`- ${fact.label}: ${escapeMarkdownText(fact.value)}`);
+  });
 
   if (cardTags.length > 0) {
     lines.push(`- ${copy.tagsLabel}: ${cardTags.map(escapeMarkdownText).join(", ")}`);
