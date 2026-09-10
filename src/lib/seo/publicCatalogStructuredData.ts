@@ -16,12 +16,14 @@ import type {
 import type {
   PublicCatalogAuthor,
   PublicCatalogCollection,
+  PublicCatalogPackageVersion,
 } from "@/lib/publicCatalogTypes";
 import {
   getPublicCatalogAuthorRoutePathname,
   getPublicCatalogCollectionRoutePathname,
   getPublicCatalogLanguageRoutePathname,
   getPublicCatalogPackageRoutePathname,
+  resolvePublicCatalogPackageCanonicalLocale,
   PUBLIC_CATALOG_AUTHORS_ROUTE_PATHNAME,
   PUBLIC_CATALOG_COLLECTIONS_ROUTE_PATHNAME,
   PUBLIC_CATALOG_ROUTE_PATHNAME,
@@ -92,7 +94,10 @@ interface PublicCatalogPackageResource {
   readonly description: string;
   readonly hasPart?: CatalogEntityReference;
   readonly image?: string;
+  readonly inLanguage: ReadonlyArray<string>;
+  readonly isAccessibleForFree: true;
   readonly isPartOf?: ReadonlyArray<CatalogCollectionReference>;
+  readonly learningResourceType: "Flashcards";
   readonly license: CatalogLicenseCreativeWork;
   readonly name: string;
   readonly url: string;
@@ -115,10 +120,18 @@ interface CatalogQuizQuestion {
   readonly text: string;
 }
 
+interface CatalogAlignmentObject {
+  readonly "@type": "AlignmentObject";
+  readonly alignmentType: "educationalLevel" | "educationalSubject";
+  readonly educationalFramework?: string;
+  readonly targetName: string;
+}
+
 interface CatalogQuiz {
   readonly "@id": string;
   readonly "@type": "Quiz";
   readonly about: ReadonlyArray<CatalogQuizAbout>;
+  readonly educationalAlignment?: ReadonlyArray<CatalogAlignmentObject>;
   readonly hasPart: ReadonlyArray<CatalogQuizQuestion>;
   readonly image?: string;
   readonly isPartOf: CatalogEntityReference;
@@ -175,8 +188,72 @@ interface CreateCatalogCollectionPageJsonLdParams {
   readonly routePathname: string;
 }
 
+interface CatalogEducationalAlignmentFields {
+  readonly framework: string | null;
+  readonly level: string | null;
+  readonly subject: string | null;
+}
+
 function getCatalogAbsoluteUrl(locale: AppLocale, routePathname: string): string {
   return getAbsoluteUrl(getLocalizedPathname(locale, routePathname));
+}
+
+/**
+ * The snapshot parser keeps a present-but-empty alignment field as `""`, so an
+ * unclassified deck must be read as absent instead of emitting an empty value.
+ */
+function readCatalogAlignmentValue(value: string | null): string | null {
+  return value === null || value.trim() === "" ? null : value;
+}
+
+function readCatalogEducationalAlignmentFields(
+  version: PublicCatalogPackageVersion,
+): CatalogEducationalAlignmentFields {
+  return {
+    framework: readCatalogAlignmentValue(version.educationalFramework),
+    level: readCatalogAlignmentValue(version.educationalLevel),
+    subject: readCatalogAlignmentValue(version.educationalSubject),
+  };
+}
+
+function createCatalogAlignmentObject(
+  alignmentType: CatalogAlignmentObject["alignmentType"],
+  targetName: string,
+  framework: string | null,
+): CatalogAlignmentObject {
+  return {
+    "@type": "AlignmentObject",
+    alignmentType,
+    targetName,
+    ...(framework === null ? {} : { educationalFramework: framework }),
+  };
+}
+
+/**
+ * The subject carries the alignment: without it there is nothing for a level to
+ * align to, so an unclassified deck emits no `educationalAlignment` at all.
+ */
+function createCatalogEducationalAlignment(
+  fields: CatalogEducationalAlignmentFields,
+): ReadonlyArray<CatalogAlignmentObject> {
+  if (fields.subject === null) {
+    return [];
+  }
+
+  return [
+    createCatalogAlignmentObject(
+      "educationalSubject",
+      fields.subject,
+      fields.framework,
+    ),
+    ...(fields.level === null
+      ? []
+      : [createCatalogAlignmentObject(
+          "educationalLevel",
+          fields.level,
+          fields.framework,
+        )]),
+  ];
 }
 
 function createCatalogCollectionPageJsonLd(
@@ -356,8 +433,20 @@ export function createPublicCatalogPackageJsonLd(
 ): PublicCatalogPackageJsonLd {
   const packageMetadata = packageView.packageMetadata;
   const latestVersion = packageView.latestVersion;
-  const packageUrl = getCatalogAbsoluteUrl(
+  // A deck is canonical only on its audience-locale routes, so `url` matches the
+  // `rel=canonical` the page itself emits and every `@id` follows the same
+  // route: one `@id` per canonical (audience) route, shared by every
+  // non-audience route that canonicalizes into it, instead of a separate
+  // identity on each of the eight rendering locales. Author and collection pages
+  // are self-canonical in every locale, so their URLs keep following the
+  // rendering locale.
+  const canonicalLocale = resolvePublicCatalogPackageCanonicalLocale(
+    packageMetadata.slug,
+    latestVersion.languageTags,
     locale,
+  );
+  const packageUrl = getCatalogAbsoluteUrl(
+    canonicalLocale,
     getPublicCatalogPackageRoutePathname(packageMetadata.slug),
   );
   const authorUrl = getCatalogAbsoluteUrl(
@@ -410,6 +499,9 @@ export function createPublicCatalogPackageJsonLd(
     dateModified: latestVersion.updatedAt,
     datePublished: packageMetadata.publishedAt,
     description: latestVersion.summary,
+    inLanguage: latestVersion.languageTags,
+    isAccessibleForFree: true,
+    learningResourceType: "Flashcards",
     license: {
       "@type": "CreativeWork",
       name: latestVersion.license,
@@ -439,17 +531,25 @@ export function createPublicCatalogPackageJsonLd(
     };
   }
 
+  const alignmentFields = readCatalogEducationalAlignmentFields(latestVersion);
+  const educationalAlignment = createCatalogEducationalAlignment(alignmentFields);
   const quiz: CatalogQuiz = {
     "@id": quizId,
     "@type": "Quiz",
-    about: [{
-      "@type": "Thing",
-      name: latestVersion.title,
-    }],
+    about: [
+      {
+        "@type": "Thing",
+        name: latestVersion.title,
+      },
+      ...(alignmentFields.subject === null
+        ? []
+        : [{ "@type": "Thing" as const, name: alignmentFields.subject }]),
+    ],
     hasPart: questions,
     isPartOf: { "@id": resourceId },
     name: latestVersion.title,
     url: packageUrl,
+    ...(educationalAlignment.length === 0 ? {} : { educationalAlignment }),
     ...(coverImage === null ? {} : { image: coverImage.downloadUrl }),
   };
 
