@@ -21,6 +21,7 @@ import {
   formatPublicCatalogNumber,
   formatPublicCatalogPackageCount,
   getPublicCatalogPackageAlignmentFacts,
+  getPublicCatalogPackageContentWarning,
 } from "./publicCatalogFormatting";
 import {
   getPublicCatalogPackageCardTags,
@@ -306,10 +307,12 @@ function renderPackageDetail(
     ...renderPackageFacts(collections, locale, packageView),
   );
 
-  if (latestVersion.contentWarning !== null) {
+  const contentWarning = getPublicCatalogPackageContentWarning(latestVersion);
+
+  if (contentWarning !== null) {
     lines.push(
       "",
-      `> **${escapeMarkdownText(copy.contentWarningLabel)}:** ${escapeMarkdownText(latestVersion.contentWarning)}`,
+      `> **${escapeMarkdownText(copy.contentWarningLabel)}:** ${escapeMarkdownText(contentWarning)}`,
     );
   }
 
