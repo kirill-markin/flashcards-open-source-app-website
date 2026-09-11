@@ -269,6 +269,8 @@ For anatomy and embryology, I would bias toward:
 - defect and consequence
 - structure tied to one classic clinical presentation
 
+If cranial nerve basics are one of those weak spots, the [84-card Cranial Nerve Flashcards deck](https://flashcards-open-source-app.com/catalog/packages/cranial-nerves-names-functions-tests-flashcards/) covers names, numbers, classification as sensory, motor, or mixed, core functions, and high-level assessment cues. It does not cover lesion localization, diagnosis, treatment, or board-style clinical reasoning.
+
 For behavioral science and biostats, I would bias toward:
 
 - study design clue
