@@ -179,6 +179,8 @@ Examples:
 
 That is more useful than asking yourself to explain the whole brachial plexus or the whole autonomic pharmacology chapter from memory.
 
+If cranial nerve names, numbers, classifications, or core functions are the part slowing you down, the [84-card Cranial Nerve Flashcards deck](/catalog/packages/cranial-nerves-names-functions-tests-flashcards/) is a focused foundation. Its assessment cues stay high level; lesion localization and board-style clinical reasoning still belong in your COMLEX sources and question-bank work.
+
 If you want the broader non-COMLEX version of this workflow, [How to Use Flashcards for Medical School in 2026](/blog/how-to-use-flashcards-for-medical-school/) is the better starting point. If you are also dual-prepping, [How to Use Flashcards for USMLE Step 1 in 2026](/blog/how-to-use-flashcards-for-usmle-step-1/) covers the more systems-heavy Step 1 angle.
 
 ## FSRS helps COMLEX prep when the card quality is already under control

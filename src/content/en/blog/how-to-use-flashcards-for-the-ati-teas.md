@@ -77,6 +77,8 @@ For **TEAS science flashcards**, I would split the work into the same buckets AT
 
 For a ready-made science starting point, [the ATI TEAS 7 Science Flashcards deck](/catalog/packages/ati-teas-7-science-flashcards/) contains 446 independently written English cards: 185 for anatomy and physiology, 92 for biology, 84 for chemistry, and 85 for scientific reasoning. It is independent and unofficial, so keep reading, math, and English in your wider TEAS plan.
 
+If cranial nerves are a specific weak spot in your course or prep materials, the [84-card Cranial Nerve Flashcards deck](/catalog/packages/cranial-nerves-names-functions-tests-flashcards/) covers their names, numbers, classification as sensory, motor, or mixed, core functions, and high-level assessment cues. It is a general foundation, not a TEAS-specific scope guide or clinical resource.
+
 Anatomy and physiology usually deserves the most card volume inside science, but "more cards" does not mean "bigger cards."
 
 Good science cards stay small:
