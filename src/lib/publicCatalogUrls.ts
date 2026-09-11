@@ -87,6 +87,21 @@ export function getPublicCatalogPackageLocalizedPathname(
   );
 }
 
+/**
+ * The package route in the deck's canonical locale: `locale` itself when it is
+ * an audience locale of the deck, otherwise the first audience locale.
+ */
+export function getPublicCatalogPackageCanonicalPathname(
+  locale: AppLocale,
+  packageSlug: string,
+  languageTags: ReadonlyArray<string>,
+): string {
+  return getLocalizedPathname(
+    resolvePublicCatalogPackageCanonicalLocale(packageSlug, languageTags, locale),
+    getPublicCatalogPackageRoutePathname(packageSlug),
+  );
+}
+
 export function getPublicCatalogLanguageAlternates(
   routePathname: string,
   locales: ReadonlyArray<AppLocale>,

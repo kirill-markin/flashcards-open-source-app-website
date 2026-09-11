@@ -37,6 +37,7 @@ import {
   getPublicCatalogAuthorRoutePathname,
   getPublicCatalogCollectionRoutePathname,
   getPublicCatalogLanguageRoutePathname,
+  getPublicCatalogPackageCanonicalPathname,
   getPublicCatalogPackagePageLocales,
   getPublicCatalogPackageLocalizedPathname,
   getPublicCatalogPackageRoutePathname,
@@ -284,7 +285,11 @@ export async function PublicCatalogPackagePageView({
             ]}
             currentPage={{
               label: latestVersion.title,
-              href: getLocalizedPathname(locale, packageRoutePathname),
+              href: getPublicCatalogPackageCanonicalPathname(
+                locale,
+                packageMetadata.slug,
+                latestVersion.languageTags,
+              ),
             }}
             locale={locale}
           />
