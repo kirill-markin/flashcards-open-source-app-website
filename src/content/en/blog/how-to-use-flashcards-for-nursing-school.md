@@ -125,6 +125,8 @@ That keeps the deck closer to retrieval and further from passive rereading.
 
 The same principle applies to patient-care facts. If one card tries to hold assessment findings, interventions, teaching points, precautions, and exceptions all at once, it stops being reviewable. Four clean cards are better than one "comprehensive" card you start dodging by week three.
 
+If cranial nerve basics are part of your current unit, the [84-card Cranial Nerve Flashcards deck](/catalog/packages/cranial-nerves-names-functions-tests-flashcards/) covers names, numbers, classification as sensory, motor, or mixed, core functions, and carefully bounded assessment cues. It does not cover diagnosis, lesion localization, treatment, or clinical guidance.
+
 If your source material for this section is mostly lecture slides, handouts, or review packets, these upstream workflows are the closest match:
 
 - [How to Turn a PDF Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-turn-a-pdf-into-flashcards/)

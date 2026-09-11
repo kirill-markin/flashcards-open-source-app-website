@@ -67,6 +67,8 @@ Better prompts sound more like the exam:
 
 That is what makes **anatomy lab practical flashcards** useful. The card should feel a little like the practical itself, not like a neat summary of the chapter you finished last Tuesday.
 
+If cranial nerves are the current block, the [84-card Cranial Nerve Flashcards deck](/catalog/packages/cranial-nerves-names-functions-tests-flashcards/) covers all 12 by name and number, then drills sensory, motor, or mixed classification, core functions, and high-level assessment cues. It stops at foundational recall; lesion localization, diagnosis, treatment, and course-specific practical work stay outside its scope.
+
 ## One structure should not become one giant card
 
 Anatomy cards go bad for a very normal reason: one muscle looks efficient enough to justify one massive card.
