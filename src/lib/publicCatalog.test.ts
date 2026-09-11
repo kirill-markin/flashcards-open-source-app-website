@@ -75,6 +75,7 @@ import {
   getPublicCatalogLanguageRoutePathname,
   getPublicCatalogPackageAudienceLocales,
   getPublicCatalogPackageCanonicalLocales,
+  getPublicCatalogPackageCanonicalPathname,
   getPublicCatalogPackageLocalizedPathname,
   getPublicCatalogPackagePageLocales,
   getPublicCatalogPackageRoutePathname,
@@ -1415,6 +1416,36 @@ test("names each deck by its canonical route in catalog ItemLists", () => {
   assert.equal(
     readFirstItem(germanAuthorsSchema)?.url,
     "https://flashcards-open-source-app.com/de/catalog/authors/author-one/",
+  );
+});
+
+test("names the deck's canonical route as the package page's last breadcrumb", () => {
+  const model = createPublicCatalogReadModel(parsePublicCatalogDump(createValidDump()));
+  const packageView = getPublicCatalogPackageBySlug(model, "canonical-package");
+
+  assert.ok(packageView);
+  assert.deepEqual(packageView.latestVersion.languageTags, ["en", "es"]);
+
+  const packageSlug = packageView.packageMetadata.slug;
+  const languageTags = packageView.latestVersion.languageTags;
+
+  // `ja` and `de` are not audience locales of this deck, so their package
+  // routes are exactly what the page disavows through its own `rel=canonical`;
+  // the breadcrumb's last element names the canonical route instead.
+  assert.equal(
+    getPublicCatalogPackageCanonicalPathname("ja", packageSlug, languageTags),
+    "/catalog/packages/canonical-package/",
+  );
+  assert.equal(
+    getPublicCatalogPackageCanonicalPathname("de", packageSlug, languageTags),
+    "/catalog/packages/canonical-package/",
+  );
+
+  // `es` is an audience locale, so the deck is canonical on the rendering
+  // locale's own route there.
+  assert.equal(
+    getPublicCatalogPackageCanonicalPathname("es", packageSlug, languageTags),
+    "/es/catalog/packages/canonical-package/",
   );
 });
 
