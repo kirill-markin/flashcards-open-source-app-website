@@ -267,7 +267,7 @@ A simple organization is one `N10-009` deck with tags such as `ports`, `subnetti
 
 [Flashcards Open Source App](/features/) handles the memory part of the workflow: front-and-back cards, decks and tags, due review with FSRS, offline study and sync, portable exports, and a self-hosted option. It should hold the small facts and decisions you want available before practical work.
 
-There is no official or prebuilt N10-009 deck implied here. Start from the current CompTIA objectives and your own legitimate study misses. [Getting Started](/docs/getting-started/) covers the hosted and self-hosted paths if you want to build the deck in Flashcards.
+If you want a ready-made starting point, the [CompTIA Network+ N10-009 flashcards](/catalog/packages/comptia-network-plus-n10-009-flashcards/) deck has 250 original English cards across all five current exam domains. It is an independent, unofficial memory aid, so keep the current CompTIA objectives, hands-on labs, and authorized PBQ practice in the study loop. Add your own legitimate study misses as you go.
 
 If you are studying a nearby certification, the [CompTIA A+ flashcards guide](/blog/comptia-a-plus-flashcards/) applies the same retrieval-versus-practice boundary to technician work, while the [CCNA flashcards guide](/blog/how-to-use-flashcards-for-ccna/) goes deeper into routing, switching, and command practice.
 
