@@ -102,6 +102,8 @@ That is the difference between useful **technical interview flashcards** and a g
 
 If you want a ready-made starting point before building your own mistake log, the [Blind 75 Python solutions deck](/catalog/packages/blind-75-python-solutions/) turns all 75 classic problems into cards covering the core data structure, algorithm, complexity, edge cases, and a Python solution.
 
+For practice recognizing which approach fits, the [Coding Interview Patterns Flashcards deck](/catalog/packages/coding-interview-patterns-flashcards/) has 210 language-agnostic cards on pattern signals, invariants, complexity, edge cases, and why a pattern fails. It complements the Blind 75 solutions with questions about when and why to use each approach.
+
 ## The best coding interview cards usually come from mistakes, not wins
 
 This is where people can improve fast.
