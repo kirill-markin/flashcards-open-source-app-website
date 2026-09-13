@@ -63,6 +63,7 @@ interface PublicCatalogStudyCtaProps {
   readonly helper: string;
   readonly href: string;
   readonly label: string;
+  readonly locale: AppLocale;
   readonly packageId: string;
   readonly placement: PublicCatalogInstallPlacement;
 }
@@ -85,6 +86,7 @@ function PublicCatalogStudyCta({
   helper,
   href,
   label,
+  locale,
   packageId,
   placement,
 }: PublicCatalogStudyCtaProps): React.JSX.Element {
@@ -94,6 +96,7 @@ function PublicCatalogStudyCta({
         className={styles.installButton}
         href={href}
         label={label}
+        locale={locale}
         packageId={packageId}
         placement={placement}
       />
@@ -108,6 +111,7 @@ function PublicCatalogCardListStudyCta({
   helper,
   href,
   label,
+  locale,
   packageId,
   placement,
   placeholderLabel,
@@ -130,6 +134,7 @@ function PublicCatalogCardListStudyCta({
           helper={helper}
           href={href}
           label={label}
+          locale={locale}
           packageId={packageId}
           placement={placement}
         />
@@ -254,6 +259,7 @@ export async function PublicCatalogPackagePageView({
     helper: copy.installHelper,
     href: latestVersion.installUrl,
     label: copy.installLabel,
+    locale,
     packageId: packageMetadata.packageId,
     placement: "top",
   };
