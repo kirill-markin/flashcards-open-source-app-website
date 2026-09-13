@@ -1,197 +1,158 @@
 ---
-title: >-
-  Cómo convertir un vídeo de YouTube en tarjetas didácticas en 2026: borradores
-  con IA para clases, tutoriales y vídeos de idiomas
-description: >-
-  ¿Quieres convertir un vídeo de YouTube en tarjetas didácticas sin tener que
-  verlo entero dos veces? Aquí tienes un flujo de trabajo práctico para 2026:
-  usa la transcripción, crea un buen borrador con IA, corrige rápido las
-  tarjetas flojas y estudia el mazo final con FSRS.
-date: '2026-03-24'
+title: "Mejor generador de flashcards a partir de un vídeo de YouTube en 2026: comparativa de 4 herramientas"
+description: "Compara cuatro formas documentadas de estudiar con vídeos de YouTube en 2026: qué produce cada una, los límites de las transcripciones y del contenido visual, las opciones de repaso y exportación, y un flujo manual con salida transferible."
+date: "2026-03-24"
+updated: "2026-09-13"
+image: "/blog/youtube-to-flashcards.png"
 keywords:
-  - youtube a tarjetas didácticas
-  - convertir un video de youtube en tarjetas didácticas
-  - video de youtube a tarjetas didácticas
-  - tarjetas didácticas con ia a partir de vídeos
-  - clase en video a tarjetas didácticas
-  - vídeo de idiomas a tarjetas didácticas
-  - estudiar videos de youtube con tarjetas didácticas
-  - transcripción de youtube a tarjetas didácticas
+  - "mejor generador de flashcards desde un vídeo de youtube 2026"
+  - "youtube a flashcards"
+  - "convertir un vídeo de YouTube en tarjetas de estudio"
+  - "flashcards con IA a partir de vídeo"
+  - "transcripción de YouTube a flashcards"
+  - "tarjetas de Anki desde YouTube"
+  - "generador de flashcards para vídeos de YouTube"
 ---
-Ayer abrí un tutorial de YouTube de 26 minutos que se suponía que iba a enseñarme un concepto concreto y acabé pausándolo cada cuarenta segundos, copiando frases de la transcripción y preguntándome en qué momento exacto "ver un vídeo" se había convertido en trabajo administrativo de media jornada.
 
-Suele ser justo cuando la gente empieza a buscar **cómo convertir un vídeo de YouTube en tarjetas didácticas**.
+La mejor herramienta para convertir vídeos de YouTube en flashcards depende menos de la rapidez con la que acepta una URL que de las opciones que ofrece después para revisar, editar, repasar y trasladar el contenido. AnkiDecks ofrece la ruta documentada más clara desde la URL de un vídeo público de YouTube hasta un archivo `.apkg` para Anki. StudyFetch y Knowt son más directos si quieres generar y estudiar las tarjetas dentro de sus propios entornos. El flujo que Gizmo documenta para YouTube crea una lección con AI Tutor, no un mazo de tarjetas. Flashcards Open Source App exige un paso adicional porque tienes que aportar la transcripción, pero te da un mazo editable y transferible con FSRS, estudio sin conexión y la opción de alojar la aplicación por tu cuenta.
 
-No porque el vídeo sea malo para aprender. Sino porque una explicación útil dentro de un vídeo suele quedar enterrada entre relleno, repeticiones, chistes, desvíos, pausas para patrocinadores y esa única frase que de verdad necesitabas en el minuto 17:42.
+Así que no hay un único ganador para todo el mundo. Elige primero el resultado que quieres y cómo podrás llevártelo; introducir el contenido es la parte fácil.
 
-## La transcripción es la materia prima de verdad
+**Transparencia:** desarrollo Flashcards Open Source App. Esta comparación se basa en la documentación oficial vigente, no en pruebas prácticas. **Información verificada: 13 de septiembre de 2026.**
 
-Creo que esta es la primera idea que conviene decir sin rodeos.
+![Estudiante que compara una transcripción de YouTube con cinco borradores de tarjetas antes de elegir una aplicación de estudio](/blog/youtube-to-flashcards.png)
 
-Si quieres **convertir un vídeo de YouTube en tarjetas didácticas**, el vídeo en sí no suele ser el formato más útil para trabajar. La transcripción sí.
+## Tabla rápida para decidir
 
-Es ahí donde los conceptos se pueden buscar. Es ahí donde puedes aislar un tramo concreto. Es ahí donde la IA puede proponer tarjetas sin fingir que cada pausa visual o cada digresión hablada merecen ocupar espacio en tu memoria.
+| Opción | Entrada de YouTube documentada | Qué produce | Opciones de repaso y salida | Ideal para |
+| --- | --- | --- | --- | --- |
+| [StudyFetch](https://www.studyfetch.com/use-case/flashcard) | Sí; incluye los vídeos de YouTube entre las fuentes admitidas | Tarjetas de término y definición, audio, opción múltiple, rellenar huecos, tipo cloze y oclusión de imágenes | Documenta sus propios modos de repaso; la página citada no documenta una vía de exportación a un formato transferible | Quieres varios formatos de tarjeta y piensas estudiar dentro del mismo producto |
+| [Knowt](https://help.knowt.com/en/articles/10298038-how-to-create-flashcards-and-notes-from-a-youtube-video-using-the-chrome-extension) | Sí, mediante su extensión para Chrome | Kai analiza el vídeo abierto, envía el resultado a Knowt y puede crear tarjetas o apuntes | La guía citada sobre YouTube mantiene el flujo dentro de Knowt y no documenta ningún paso de exportación | Ya ves los vídeos en Chrome y quieres la ruta más corta para llevarlos a Knowt |
+| [AnkiDecks](https://anki-decks.com/) | Sí; pega la URL de un vídeo público de YouTube | Tarjetas de pregunta-respuesta, tipo cloze u opción múltiple, basadas en la transcripción y con marcas de tiempo | Documenta FSRS integrado y exportación a `.apkg` | Quieres crear tarjetas de Anki desde YouTube o una salida claramente compatible con Anki |
+| [Gizmo](https://help.gizmo.ai/en/articles/15935404-how-do-i-use-magic-import-to-start-an-ai-tutor-lesson) | Sí; pega una URL de YouTube en la importación documentada de AI Tutor | Una lección de AI Tutor basada en la transcripción, que te enseña y te hace preguntas | Esta opción genera una lección, no un flujo documentado para convertir YouTube en tarjetas exportables | Prefieres una tutoría guiada a un mazo reutilizable |
+| [Flashcards Open Source App](/features/) | No hay una importación directa documentada mediante URL de YouTube; [aporta la transcripción como archivo adjunto](/docs/getting-started/) | Borradores de tarjetas creados con ayuda de IA que tú eliges, editas y guardas | FSRS, exportaciones transferibles, estudio móvil sin conexión y alojamiento propio | Valoras la verificación, la propiedad de los datos y un sistema de repaso duradero |
 
-Por eso el flujo de trabajo práctico empieza un paso antes de lo que mucha gente imagina:
+La etiqueta «generador de flashcards a partir de YouTube» oculta una diferencia importante: aceptar un enlace de YouTube no te dice si recibirás tarjetas, una sesión con un tutor, un mazo editable o un archivo que podrás llevarte a otro sitio.
 
-1. sacar la transcripción
-2. elegir el fragmento útil
-3. crear tarjetas a partir de ese texto
-4. corregir rápido las más flojas
-5. repasar las que sobrevivan con repetición espaciada
+## Una transcripción es útil, pero no es el vídeo completo
 
-Eso es mucho menos mágico que "pega un enlace y recibe sabiduría", y precisamente por eso suele funcionar mejor.
+[YouTube ofrece una transcripción completa cuando el vídeo tiene subtítulos](https://support.google.com/youtube/answer/15930243?hl=en). También puedes hacer clic en una línea de la transcripción para saltar al momento correspondiente. Por eso la transcripción es un mapa excelente para clases, tutoriales y vídeos de idiomas.
 
-## La generación con un clic se está haciendo popular por algo
+Aun así, solo representa la parte hablada.
 
-Está bastante claro que la categoría se mueve en esa dirección.
+La transcripción puede omitir justo aquello que contiene la información clave:
 
-Los productos ya promocionan sin rodeos flujos para convertir YouTube en cuestionarios o tarjetas porque la demanda existe. El alumnado ya usa la IA de forma intensiva para estudiar, y la búsqueda de flujos de trabajo más rápidos entre la fuente y el repaso no está bajando el ritmo.
+- un diagrama que el profesor señala sin describirlo
+- los pasos intermedios al resolver una ecuación
+- cambios de código que se hacen en pantalla sin explicarlos
+- la ortografía, la puntuación o los caracteres que aparecen en una clase de idiomas
+- un gráfico cuya tendencia se describe como «esta línea» o «la sección azul»
 
-No creo que eso signifique que cualquier tarjeta generada pase a ser buena automáticamente.
+Los subtítulos automáticos añaden otra fuente de errores. [YouTube advierte que los subtítulos generados automáticamente pueden interpretar mal lo que se dice](https://support.google.com/youtube/answer/6373554?hl=en) debido a la pronunciación, los acentos, los dialectos, el ruido de fondo, las voces solapadas y otros problemas de audio. Una tarjeta bien redactada puede ser incorrecta y, al mismo tiempo, reproducir con total fidelidad una transcripción defectuosa.
 
-Significa que la intención de búsqueda detrás de **vídeo de YouTube a tarjetas didácticas** ya es evidente: la gente no quiere convertir a mano una explicación de 40 minutos en veinte preguntas de repaso una vez ha terminado de verla.
+Este límite importa al comparar productos. AnkiDecks y Gizmo describen explícitamente flujos para YouTube basados en transcripciones. Knowt dice que Kai analiza el vídeo, pero la guía citada no especifica que la extensión capte todos los detalles visuales. StudyFetch incluye la oclusión de imágenes como tipo de tarjeta, pero su página de flashcards no confirma que la importación desde YouTube extraiga o comprenda automáticamente los fotogramas del vídeo. Por tanto, esa documentación no demuestra que las herramientas comprendan la información visual.
 
-## Un vídeo de YouTube es más difícil que unos apuntes porque el habla se repite
+Cuando gran parte del material está en la pantalla, usa la transcripción para comprobar lo que se dice y vuelve al momento correspondiente del vídeo para añadir por tu cuenta la captura, el diagrama, la fórmula o el estado del código que falte. Si el creador ofrece diapositivas o apuntes, el [flujo para convertir PDF en flashcards](/blog/how-to-turn-a-pdf-into-flashcards/) puede ser una fuente más segura.
 
-Los apuntes suelen venir comprimidos.
+## Qué documenta de verdad cada herramienta
 
-Los vídeos no.
+### StudyFetch: el catálogo documentado más amplio de tipos de tarjeta
 
-La gente explica la misma idea de tres maneras. Adelanta puntos antes de desarrollarlos. Vuelve sobre lo mismo. Usa ejemplos que funcionan mientras lo estás viendo, pero que son pésimos como tarjetas si los copias tal cual.
+La [página de flashcards de StudyFetch](https://www.studyfetch.com/use-case/flashcard) incluye los vídeos de YouTube entre las fuentes admitidas. También documenta más formatos de salida que las otras opciones directas de creación de tarjetas de esta comparativa: tarjetas estándar de término y definición, audio, opción múltiple, rellenar huecos, tipo cloze y oclusión de imágenes.
 
-Por eso **transcripción de YouTube a tarjetas didácticas** exige un criterio de edición más estricto de lo que mucha gente espera.
+Esa variedad resulta útil cuando la fuente exige algo más que texto en el anverso y el reverso. Quien estudia un idioma puede querer audio. Un estudiante de anatomía o ingeniería puede necesitar oclusión de imágenes. Para una clase, las tarjetas tipo cloze pueden funcionar mejor que decenas de preguntas demasiado amplias.
 
-En el primer borrador normalmente conviene eliminar:
+La página citada confirma los modos de repaso propios de StudyFetch, pero no documenta una vía para exportar los conjuntos generados a un formato transferible. Eso no significa que la exportación no exista; deja la cuestión de la portabilidad sin respuesta. Si prevés trasladar el mazo más adelante, confirma el formato de exportación actual antes de generar un mazo grande.
 
-- formulaciones repetidas
-- introducciones largas para situar la escena
-- ejemplos que dependen de lo que se veía en pantalla
-- preguntas que solo tienen sentido si recuerdas el párrafo entero que las rodea
-- respuestas que acabaron convertidas en miniensayos
+### Knowt: práctico cuando ya tienes el vídeo abierto en Chrome
 
-Si te saltas esa limpieza, el mazo parece productivo durante un día y molesto para siempre.
+[Knowt documenta un flujo mediante una extensión del navegador](https://help.knowt.com/en/articles/10298038-how-to-create-flashcards-and-notes-from-a-youtube-video-using-the-chrome-extension): abre un vídeo de YouTube, activa la extensión, deja que Kai lo analice y envíe el resultado a Knowt, y después pide flashcards o apuntes.
 
-## Los distintos tipos de vídeo piden tarjetas distintas
+La ventaja está clara. No hay que copiar la transcripción por separado y puedes elegir apuntes si convertir la explicación en un mazo simplificaría demasiado el contenido.
 
-Esta parte importa.
+Esta guía oficial explica cómo crear el material dentro de Knowt, pero no documenta cómo exportar el contenido resultante de YouTube a un formato transferible. Es una limitación de la guía citada, no una prueba de que Knowt carezca de funciones de exportación. Comprueba las opciones actuales por separado si estudias en otro sistema o quieres una copia de seguridad fuera de la cuenta.
 
-Una clase grabada no es lo mismo que un tutorial de programación. Una lección de idiomas no es lo mismo que un vídeo de preparación de examen.
+### AnkiDecks: la ruta documentada más clara hacia Anki
 
-Así que yo no le pediría a la IA el mismo estilo genérico de tarjeta cada vez.
+[AnkiDecks indica](https://anki-decks.com/) que puedes pegar la URL de un vídeo público de YouTube y generar tarjetas a partir de su transcripción. Documenta marcas de tiempo y formatos de pregunta-respuesta, cloze y opción múltiple. También anuncia FSRS integrado y exportación a `.apkg`. Son afirmaciones del proveedor, no resultados de pruebas realizadas para este artículo.
 
-Por ejemplo:
+Entre las cuatro opciones documentadas, su exportación a `.apkg` es la forma más explícita de llevar el resultado a Anki. Eso convierte a AnkiDecks en la opción directa si «YouTube a flashcards» significa en realidad «YouTube a un mazo que pueda seguir editando y repasando en Anki».
 
-- clases grabadas: términos clave, definiciones, relaciones de causa y efecto, pasos breves de un proceso
-- tutoriales de programación: conceptos, comandos, por qué se elige una opción y no otra
-- vídeos de idiomas: vocabulario, patrones de frase, notas de pronunciación que sigan teniendo sentido por escrito
-- vídeos de preparación de examen: fórmulas, distinciones, errores habituales, ejemplos compactos
+Las marcas de tiempo también facilitan la verificación. No demuestran que una tarjeta sea correcta, pero permiten volver más rápido a la fuente para comprobar una respuesta dudosa.
 
-Así, las **tarjetas generadas con IA a partir de un vídeo** se centran en lo que realmente quieres recordar, no en reproducir al presentador.
+### Gizmo: una lección con tutor, no una importación documentada de tarjetas desde YouTube
 
-## No conviertas todo el vídeo si solo importa el 20 %
+Conviene hablar de Gizmo con cuidado porque en su interfaz conviven dos funciones fáciles de confundir. [Las instrucciones oficiales para YouTube](https://help.gizmo.ai/en/articles/15935404-how-do-i-use-magic-import-to-start-an-ai-tutor-lesson) explican que puedes pegar una URL para iniciar una lección de AI Tutor basada en la transcripción del vídeo. El tutor te enseña el contenido y te hace preguntas a medida que avanza la lección.
 
-Aquí es donde mucha gente pierde tiempo.
+Puede ser un buen resultado cuando necesitas comprender una clase antes de decidir qué memorizar. No equivale a generar un mazo editable de flashcards a partir de YouTube.
 
-La gracia de las tarjetas didácticas es hacer trabajo selectivo de memoria, no ser fiel al material original por pura inercia.
+Gizmo también utiliza el término Magic Import de forma más amplia, pero la opción de YouTube citada está destinada específicamente a una lección de AI Tutor. Sin otra documentación oficial, no des por hecho que su flujo general de importación de tarjetas acepte una URL de YouTube o produzca flashcards de YouTube exportables.
 
-Si un vídeo de cuarenta minutos contiene ocho ideas que merece la pena recordar, yo quiero entre ocho y quince buenas tarjetas, no sesenta creadas por sentimiento de culpa.
+## Prueba cinco tarjetas antes de generar cincuenta
 
-Por eso el mejor flujo de trabajo para **estudiar vídeos de YouTube con tarjetas didácticas** va por bloques:
+Un generador puede ahorrarte tiempo y, sin que te des cuenta, llenar de tarjetas flojas la cola de repasos que tendrás después. Una muestra de cinco tarjetas permite detectar los problemas costosos cuando aún es fácil corregirlos.
 
-- elige un capítulo o un tramo concreto
-- crea tarjetas solo a partir de esa parte
-- borra sin piedad
-- repite solo si la siguiente sección también merece memorizarse
+1. **Elige un segmento coherente.** Usa un capítulo o una sección de entre cinco y diez minutos, no el vídeo entero. Anota las marcas de tiempo de inicio y fin.
+2. **Revisa primero la fuente.** Lee el tramo correspondiente de la transcripción y echa un vistazo al vídeo. Corrige los errores evidentes de los subtítulos y captura cualquier elemento visual del que dependa la explicación.
+3. **Pide solo cinco tarjetas.** Pide que cada una ponga a prueba una sola idea, que la pregunta se entienda por sí sola, que la respuesta sea breve y que no incluya datos ajenos al fragmento proporcionado.
+4. **Contrasta cada tarjeta con la fuente.** Comprueba la afirmación exacta y cualquier matiz, número, grafía, fórmula o vínculo causal. Después pregúntate si sabrías decidir si la respuesta es correcta sin volver a abrir el vídeo.
+5. **Comprueba la salida antes de ampliar el mazo.** Edita una tarjeta, exporta la muestra o crea una copia de seguridad si la portabilidad te importa, y confirma que el formato, las marcas de tiempo y los archivos multimedia se conservan en el lugar donde piensas estudiar.
 
-Eso mantiene limpio el mazo y hace que la cola de repaso parezca realista.
+Usa para la muestra un prompt deliberadamente sencillo:
 
-## La IA es útil aquí porque el tiempo ya es el recurso escaso
+```text
+Crea un máximo de cinco tarjetas de estudio usando únicamente el fragmento de la fuente que aparece a continuación.
 
-Cada vez es más difícil ignorar ese cambio.
+- Pon a prueba una sola idea por tarjeta.
+- Haz que cada pregunta se entienda sin el contexto del vídeo.
+- Mantén cada respuesta lo bastante breve como para decidir con un criterio claro si es correcta.
+- No añadas nada de memoria ni uses información ajena al fragmento.
+- Incluye la marca de tiempo de la fuente y una breve cita de apoyo cuando sea posible.
+- Devuelve menos de cinco tarjetas si el fragmento no da para cinco preguntas útiles.
 
-En febrero de 2025, una cobertura sobre una encuesta de HEPI y Kortext decía que el 92 % del alumnado estaba usando herramientas de IA, y que muchos citaban el ahorro de tiempo y la mejora de la calidad del trabajo como las razones principales. Eso no valida automáticamente cualquier flujo de estudio con IA. Pero sí ayuda a explicar por qué **clase en vídeo a tarjetas didácticas** se está convirtiendo en una categoría de búsqueda más fuerte.
+[Pega aquí el fragmento de la transcripción]
+```
 
-Nadie quiere pasarse una hora sacando posibles preguntas de una transcripción si esa parte se puede comprimir en diez minutos de borrador y edición.
+Cinco es un límite, no una cuota. Una marca de tiempo o una breve cita de apoyo también agilizan la verificación; no sustituyen la comprobación de la transcripción y del momento correspondiente del vídeo.
 
-Ese es el papel útil de la IA.
+Descarta o reescribe una tarjeta de la muestra cuando:
 
-No sustituir el aprendizaje.
+- la pregunta depende de «esto», «eso» o un contexto que no se ve
+- la respuesta contiene varios datos que deberían evaluarse por separado
+- la tarjeta convierte un ejemplo en una regla general
+- el texto de la transcripción parece sospechoso
+- hace falta un diagrama o una acción en pantalla para responder
+- la tarjeta es correcta, pero no lo bastante útil como para repasarla repetidamente
 
-Quitar trabajo administrativo que rodea al aprendizaje.
+Si la mayor parte de la muestra necesita cambios importantes, reduce el segmento de la fuente o prueba otro flujo de trabajo antes de generar el mazo completo. [Cómo corregir flashcards creadas con IA](/blog/how-to-fix-ai-flashcards/) ofrece una lista de comprobación más detallada para preguntas vagas, respuestas sobrecargadas, duplicados y datos sin respaldo.
 
-## Los buenos prompts de vídeo a tarjetas son más aburridos que brillantes
+## Elige el resultado y cómo llevártelo
 
-Yo pediría:
+La comodidad del enlace directo importa una sola vez. Poder editar, repasar y trasladar el mazo importa durante todo el tiempo que lo conserves.
 
-- una idea por tarjeta
-- formato simple de pregunta y respuesta
-- ningún dato inventado
-- nada de respuestas enormes
-- nada que dependa de imágenes, salvo que pienses añadirlas a mano más tarde
+Sigue este orden para elegir:
 
-Con eso basta.
+1. **Decide si realmente necesitas tarjetas.** Elige la opción documentada de Gizmo cuando buscas una lección guiada. Elige un generador de tarjetas cuando ya comprendes el contenido y quieres practicar la recuperación activa.
+2. **Decide dónde vas a repasar.** StudyFetch y Knowt tienen sentido si su propio entorno de estudio será el destino. AnkiDecks es la opción más clara si el destino es Anki. Flashcards encaja si quieres FSRS y control sobre lo que guardas y exportas.
+3. **Comprueba el tipo de fuente.** Una clase clara con buenos subtítulos se presta a la generación basada en la transcripción. Una derivación matemática, una demostración de programación, un tutorial de arte o una clase con muchos diagramas exigen comprobar manualmente la parte visual.
+4. **Prueba la edición y las referencias a la fuente.** Confirma que puedes corregir la pregunta y la respuesta, conservar el contexto que necesitas y encontrar en el vídeo la fuente de una tarjeta dudosa. Las páginas citadas de los productos no describen estos controles de forma uniforme, así que pruébalos en vez de dar nada por hecho.
+5. **Comprueba la portabilidad antes de generar muchas tarjetas.** Si se documenta la exportación a `.apkg` o a otro formato transferible, tienes una vía de salida. «Puedes crear tarjetas» no es la misma promesa.
+6. **Evalúa el sistema de repaso posterior.** La generación crea un borrador. El planificador decide cuándo volverás a ver cada tarjeta. Si esta parte es nueva para ti, [FSRS frente a SM-2](/blog/fsrs-vs-sm-2/) explica por qué el planificador afecta a la carga de trabajo cuando pasa la novedad inicial.
 
-Cuanto más teatral se pone el prompt, más fácil es que el modelo produzca tarjetas que suenan impresionantes pero se repasan fatal.
+Este enfoque también evita una trampa habitual: elegir un generador por su demostración y descubrir después que el mazo resulta difícil de editar, comprobar o trasladar cuando empieza el trabajo de verdad.
 
-## FSRS importa cuando se apaga el brillo de la generación
+## Dónde encaja de verdad Flashcards Open Source App
 
-A la gente le entusiasma el paso de conversión porque parece la parte mágica.
+Flashcards Open Source App **no** documenta actualmente la importación directa mediante una URL de YouTube. La ruta práctica empieza por la transcripción:
 
-El valor real empieza después, cuando vuelves a abrir el mazo tres días más tarde y el ritmo del repaso o bien encaja, o bien empieza a gastarte la paciencia en silencio.
+1. Abre la transcripción del vídeo en YouTube.
+2. Guarda el capítulo relevante en un archivo en lugar de enviar la transcripción entera.
+3. Adjunta el archivo con ese fragmento al chat de IA de la versión alojada, como se explica en [Primeros pasos](/docs/getting-started/).
+4. Pide cinco borradores de tarjetas, compáralos con la transcripción y el vídeo, y guarda solo los que quieras conservar.
+5. Repasa el mazo con FSRS y expórtalo cuando quieras conservar una copia de seguridad en un formato transferible.
 
-Por eso **convertir YouTube en tarjetas didácticas** no es solo un problema de generación. También lo es de programación del repaso.
+Ese paso adicional con la transcripción es la contrapartida. La ventaja aparece después de la generación. La [página actual de funciones](/features/) documenta la creación de tarjetas con ayuda de IA, que solo se guardan cuando tú lo decides, la planificación de repasos con FSRS, exportaciones transferibles que incluyen tarjetas, etiquetas y archivos multimedia relacionados, estudio móvil sin conexión con sincronización y la opción de alojamiento propio.
 
-Si las tarjetas son decentes pero el sistema de repaso es débil, todo el flujo de trabajo sigue pareciendo un poco falso. Si las tarjetas son decentes y el planificador es sólido, el hábito tiene muchas más opciones de sobrevivir.
+Encaja bien cuando el vídeo es solo la fuente de hoy y quieres que el mazo siga siendo útil el mes que viene. No es la mejor opción si tu requisito principal es importar vídeos de YouTube con un solo clic.
 
-Si quieres profundizar más en la parte de la programación, este artículo complementario entra más al detalle:
-
-- [FSRS vs SM-2 en 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
-
-## Dónde encaja Flashcards en este flujo de trabajo
-
-[Flashcards](https://flashcards-open-source-app.com/) encaja bien en **convertir un vídeo de YouTube en tarjetas didácticas** porque el flujo de trabajo práctico puede mantenerse con los pies en la tierra:
-
-- saca la transcripción del vídeo
-- pega el texto en un chat con IA
-- crea tarjetas de anverso y reverso por secciones
-- corrige rápido las que queden vagas
-- estudia el mazo final con FSRS
-
-Eso importa más que fingir que la parte difícil es conseguir un primer borrador vistoso.
-
-El producto ya cubre las piezas que de verdad importan:
-
-- chat con IA
-- carga de texto plano
-- creación directa de tarjetas de anverso y reverso
-- edición después del borrador
-- repaso con FSRS
-
-Eso hace que el flujo de trabajo se parezca más a estudiar y menos a una demo montada para impresionar.
-
-## Esto queda entre convertir notas y convertir PDF en tarjetas
-
-Se parece a ambas cosas, pero no es exactamente ninguna de las dos.
-
-Si la fuente es material escrito por ti, este artículo complementario encaja mejor:
-
-- [Cómo convertir notas en tarjetas didácticas en 2026](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
-
-Si la fuente es un documento, unas diapositivas o un artículo académico, este otro es mejor opción:
-
-- [Cómo convertir un PDF en tarjetas didácticas en 2026](https://flashcards-open-source-app.com/blog/how-to-turn-a-pdf-into-flashcards/)
-
-El vídeo es una categoría molesta en sí misma porque mezcla la calidad de la explicación con el ruido de la transcripción.
-
-Precisamente por eso importa tanto tener un flujo de trabajo limpio.
-
-## La mejor regla
-
-No intentes memorizar el vídeo entero.
-
-Convierte la transcripción en un borrador, quédate solo con lo que merezca recuerdo activo y deja que un sistema de repetición espaciada de verdad se encargue del calendario a partir de ahí.
-
-Esa es la versión de **convertir YouTube en tarjetas didácticas** en la que de verdad confío. Respeta para qué sirve bien la IA, mantiene razonable la carga de edición y produce un mazo que quizá sí quieras seguir repasando la semana que viene.
-
-Si eso es lo que buscas, [Flashcards](https://flashcards-open-source-app.com/) te da el camino práctico: entra la transcripción, se redactan y se limpian las tarjetas, y después llega el repaso serio con FSRS en vez de otra pestaña más de generador ingenioso que nunca vuelves a abrir.
+La conclusión práctica es sencilla: elige StudyFetch si quieres distintos formatos de tarjeta dentro del producto; Knowt, por su flujo mediante la extensión de Chrome; AnkiDecks, por una salida documentada a `.apkg`; o Gizmo, para una lección con tutor basada en la transcripción. Elige la ruta manual de Flashcards cuando la verificación, la edición, el repaso con FSRS y el control de tus datos importen más que ahorrarte el paso de copiar la transcripción. Elijas la opción que elijas, haz la prueba de cinco tarjetas antes de confiarle una clase de una hora.
