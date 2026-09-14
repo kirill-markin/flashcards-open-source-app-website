@@ -1,198 +1,269 @@
 ---
-title: "How to Use Claude for Studying in 2026: A Tutor-to-Flashcards Workflow"
-description: "Use Claude as a tutor, catch your real weak spots, save selected cards to Flashcards through MCP, and review them later with FSRS."
+title: "How to Use Claude for Studying in 2026: A Practical Workflow"
+description: "Study from your own notes with Claude, answer one question at a time, verify corrections, and turn weak spots into flashcards within your course's AI rules."
 date: "2026-05-28"
-image: "/blog/how-to-use-claude-for-studying.png"
+updated: "2026-09-14"
+image: "/blog/how-to-use-claude-for-studying-v2.png"
 keywords:
   - "how to use Claude for studying"
   - "Claude for studying"
-  - "study with Claude"
   - "Claude study workflow"
   - "Claude tutor"
-  - "Claude MCP flashcards"
-  - "Claude custom connector flashcards"
-  - "Claude Code flashcards"
+  - "Claude flashcards"
   - "Claude Learning Mode"
 ---
 
-You have explained meiosis twice, yet Claude catches you mixing it up with mitosis again. Good. That mistake is more useful than another polished summary.
+A lecture slide says “chromosomes separate” without specifying which ones. If Claude quietly fills the gap from general knowledge, you can end up practicing a confident answer that your source never established.
 
-The best way to use **Claude for studying** is to turn moments like that into a short loop: let Claude question you, choose the weak spots worth remembering, save a few focused cards, and review them later in Flashcards. Claude handles the conversation. Flashcards keeps the cards and schedules their return with FSRS.
+The first useful prompt is not “quiz me.” Ask Claude to show which claims the material supports, which parts are ambiguous, and what it cannot read. Then it can tutor from a boundary you can inspect.
 
-With the Flashcards MCP connector, the card can move from the conversation into your deck without copy and paste. MCP is simply a connection that lets Claude use approved features of another app. Keep write actions on approval, and Claude will ask before it changes your cards.
+That source-bounded loop is the practical answer to **how to use Claude for studying**: audit the material, answer one question at a time from memory, keep evidence beside each correction, and save only the weak spots worth seeing again. It works in a normal Claude chat and does not require a flashcard app.
 
-![Warm desk scene with Claude tutoring notes sorted into weak-spot flashcards](/blog/how-to-use-claude-for-studying.png)
+> **Disclosure:** I am Kirill Markin, and I build [Flashcards Open Source App](/features/). Beyond this disclosure, the product appears only in the optional handoff section below; the study method does not depend on it. This article was researched and edited with AI assistance.
 
-## The Claude study workflow I would actually use
+**Facts checked:** September 14, 2026.
 
-A smooth chat can create a dangerous feeling: everything makes sense while the explanation is on screen. Ten minutes later, the details have vanished.
+![Study evidence desk linking source notes to one question and two verified weak-spot cards, with an ambiguous note set aside](/blog/how-to-use-claude-for-studying-v2.png)
 
-I use this loop instead:
+## The short Claude study workflow
 
-1. Give Claude one narrow topic and the source material it needs.
-2. Ask for one question at a time.
-3. Answer from memory before reading any explanation.
-4. Mark the mistakes, slow answers, and ideas you keep mixing up.
-5. Choose a few of those weak spots and preview the cards.
-6. Approve the cards you want, then review them later in Flashcards.
+Use this loop for one lecture section, reading, or practice set:
 
-For example, Claude might ask what separates during anaphase I of meiosis. You answer "sister chromatids." Claude points out that homologous chromosomes separate first and asks you to explain the distinction again. That exact confusion deserves a card. The three paragraphs Claude used to help you reach the answer probably do not.
+1. Check what your course allows you to do with AI.
+2. Give Claude a small, named batch of source material.
+3. Ask it to flag missing, conflicting, or unreadable information before teaching.
+4. Answer one question at a time from memory.
+5. Record the correction, source location, and any uncertainty.
+6. Verify important answers yourself.
+7. Keep only durable weak spots for later practice or flashcards.
 
-This keeps the deck tied to evidence from your own recall. You are saving what broke during practice, not everything that appeared in the chat.
+The order matters. Quizzing from an ambiguous source only makes the ambiguity harder to notice.
 
-## Start by making Claude tutor you
+## Check the course rules before the first upload
 
-[Anthropic's Learning mode](https://www.anthropic.com/news/introducing-claude-for-education) guides students with questions instead of immediately giving away the answer. If your Claude account includes it, it suits this workflow well.
+Start with the syllabus, assignment instructions, and your institution's AI policy. Rules can differ by course and assignment, so write down what is allowed for this particular task: explanation, practice questions, feedback, outlining, citation help, or none of those.
 
-An ordinary Claude chat works too. Start with a prompt like this:
+Anthropic's [student guidance for Claude for Education](https://support.claude.com/en/articles/11139144-use-claude-for-education-at-your-university) lists explanations, practice questions, study guides, and flashcards as study uses. The same guidance says to follow institutional academic-integrity rules and not use Claude for work you are expected to complete independently.
+
+That gives you a practical boundary:
+
+- Use Claude to rehearse concepts when tutoring and practice are permitted.
+- Do not ask it to solve an active assessment that you must complete alone.
+- Do not upload confidential, personal, copyrighted, or restricted course material unless you have permission to share it with the service.
+- If the policy is vague, ask the instructor before the graded work begins.
+
+Keep the original work yours. Feedback after your own attempt may be permitted study support; submitting Claude's work as your own may break the rules your course set.
+
+## Put the right files in the right place
+
+A one-off chat is enough for a short study session. For a continuing course, create one Claude Project and add only the material that belongs to it.
+
+[Claude Projects](https://support.claude.com/en/articles/9519177-how-can-i-create-and-manage-projects) are available to all users, with Free accounts currently limited to five projects. Files and instructions added to project knowledge persist there for reuse across chats in that Project. Ordinary chat context is not automatically shared with other chats unless you add the relevant material to project knowledge.
+
+Putting two chats in the same Project does not, by itself, make every detail from the first chat available in the second.
+
+Claude's [file-upload documentation](https://support.claude.com/en/articles/8241126-upload-files-to-claude) currently lists PDF, DOCX, CSV, TXT, HTML, ODT, RTF, EPUB, JSON, and XLSX, plus JPEG, PNG, GIF, and WebP images. XLSX uploads require code execution and file creation to be enabled. You can attach a file to one chat or keep it in a Project's Files section for reuse.
+
+Use the smallest useful batch: one lecture, one chapter section, or the questions you just got wrong. Name the boundary in the prompt, such as “slides 8–17” or “the section titled Genetic Linkage.” A smaller batch makes evidence easier to locate and accidental blending easier to catch.
+
+Anthropic introduced [**Learning mode** inside Claude for Education Projects](https://www.anthropic.com/news/introducing-claude-for-education) as a guided, Socratic experience that asks students to reason instead of immediately supplying answers. You may have it if your university provides Claude for Education, but you should not assume it is available on every personal Claude account. The prompts below create a similar question-led session in a regular chat.
+
+## Make Claude expose ambiguity before it teaches
+
+Attach the material, state the exact boundary, and ask for a source audit first:
 
 ```text
-Teach me this topic like a tutor. Ask one question at a time and wait for my
-answer. Do not reveal the full answer too early. When I make a mistake, tell me
-exactly what I missed and ask me to try once more before you explain it.
-Keep a short list of genuine weak spots, but do not create flashcards yet.
+Use only the files and sections I name for this study session. Do not fill gaps
+from general knowledge unless I explicitly ask you to.
+
+Before tutoring me, make a source map with:
+- the concepts the material explains clearly;
+- terms, diagrams, or passages that are ambiguous or incomplete;
+- text, formulas, labels, or pages you cannot read reliably;
+- contradictions between the supplied sources;
+- prerequisites the material assumes but does not explain.
+
+For every item, give the file name and page, slide, or heading. Label anything
+without direct support as UNSUPPORTED. Do not start the quiz yet.
 ```
 
-Add the material you are studying: lecture notes, a short reading, corrected practice questions, or a few slides. I would keep each session to one chapter or one closely related set of ideas. It is easier to check Claude's explanations, and the resulting cards make more sense on their own.
+Read the map against the files. If Claude claims a definition appears on slide 12, open slide 12. If a chart label is unreadable, paste the relevant text or upload a clearer image. If two course sources disagree, keep the disagreement visible and ask the instructor or use the source your course designates as authoritative.
 
-For an ongoing course, a Claude Project can keep its chats, source material, and instructions together. Anthropic's [guide to Projects](https://support.claude.com/en/articles/9517075-what-are-projects) explains how they work. If your starting point is a long document, the [PDF-to-flashcards workflow](/blog/how-to-turn-a-pdf-into-flashcards/) covers that job in more detail.
-
-## Save the weak spots, not the whole chat
-
-After ten or fifteen minutes of questions, ask Claude to show its notes:
+You can ask for an outside explanation later. Keep it separate:
 
 ```text
-Show me the weak spots from this session. Include only ideas I missed, answered
-slowly, or confused more than once. For each one, explain in one sentence why it
-deserves a flashcard. Do not save anything yet.
+The course source does not explain this prerequisite. Explain it from general
+knowledge in a section labeled OUTSIDE THE COURSE MATERIAL. Do not present that
+explanation as if it came from my files.
 ```
 
-The best candidates are usually small:
+That label helps keep background knowledge from quietly becoming course evidence.
 
-- a definition you could not produce
-- two similar ideas you reversed
-- a step you kept skipping
-- a formula you knew but set up incorrectly
-- an exception that changed the answer
+## Ask one question, then wait
 
-Skip the warm-up questions, facts you answered easily, and broad prompts such as "Explain cellular respiration." FSRS can schedule a card efficiently, but it cannot make an unnecessary card worth your time.
-
-## Turn your chosen weak spots into flashcards
-
-Once the Flashcards connector is enabled, choose the candidates yourself and ask Claude to draft them:
+Once the source map looks sound, start retrieval practice: produce the answer before seeing it instead of recognizing a polished explanation after Claude has shown it.
 
 ```text
-Turn weak spots 2, 4, and 5 into Flashcards cards.
+Tutor me only on the supported material in the source map.
+
+Ask one question at a time and wait for my answer. Do not include hints in the
+question. After I answer:
+1. mark it Correct, Partly correct, Incorrect, or Source unclear;
+2. say exactly what was right and what was missing;
+3. cite the supporting file and page, slide, or heading;
+4. ask me to try once more before showing the full answer;
+5. add only a genuine gap to the weak-spot log.
+
+Mix direct recall, distinctions between similar ideas, and short applications.
+Do not make flashcards yet. Stop after 10 questions and show the log.
+```
+
+One question at a time removes clues from later items and makes each attempt easier to evaluate. With a list of ten, it is easy to skip the uncomfortable questions or answer only the parts you know.
+
+Ask Claude to vary the question type too. Definitions reveal missing terms. Comparisons reveal concepts you confuse. Small applications show whether you can use the idea rather than repeat its wording. For a multi-step calculation, work it on paper and show the steps; the final number alone gives Claude very little to diagnose.
+
+## Keep an evidence and uncertainty log
+
+The weak-spot log should be an audit trail, not a scorecard. Use a small table:
+
+| Question | Your answer | Verdict | Correction | Evidence | Uncertainty | Next step |
+| --- | --- | --- | --- | --- | --- | --- |
+| What separates in anaphase I? | Sister chromatids | Incorrect | Homologous chromosomes separate; sister chromatids remain joined | Lecture 4, slide 18 | None | Retry, then consider one card |
+
+Ask Claude to write “Source unclear” when the evidence cannot settle the answer. Do not turn that row into a memory target. Resolve it first.
+
+The uncertainty column also catches less obvious problems: a diagram Claude could not read, a term that the lecturer uses differently from the textbook, or a conclusion that depends on an unstated assumption. “Probably correct” and “supported by slide 18” are not the same status.
+
+## A worked example: tutoring text versus one durable card
+
+Suppose the supplied course note says:
+
+> During anaphase I, homologous chromosomes move to opposite poles. Sister chromatids remain joined at their centromeres.
+
+Claude asks: “What separates during anaphase I?” You answer: “Sister chromatids.”
+
+Useful tutor feedback is short and specific:
+
+```text
+Incorrect. Sister chromatids remain joined during anaphase I. Check the two
+sentences again: what moves to opposite poles?
+```
+
+After the retry, Claude may explain how this differs from anaphase II. That explanation belongs in the tutoring conversation. The durable weak spot is smaller:
+
+```text
+Front: What separates during anaphase I of meiosis?
+Back: Homologous chromosomes; sister chromatids remain joined.
+Evidence: Lecture 4, slide 18
+```
+
+One mistake produced one focused, gradeable card. The hint, retry, explanation, and encouragement did their job in the moment; they do not all need to follow you into future reviews.
+
+## Verify before you trust the correction
+
+Claude can make an answer sound settled while misreading a file, importing outside knowledge, or accepting a vague response. Verification should match the claim:
+
+1. **Course-specific facts:** open the cited page or slide and compare the wording, conditions, and exceptions yourself.
+2. **Worked problems:** redo the steps independently, check units and signs, then compare with an official answer key or instructor guidance if available.
+3. **Current facts:** if web search is available for your model and account, ask Claude to search and cite primary sources. Open the links; citations make checking possible, not automatic.
+4. **High-stakes or disputed points:** use the assigned textbook, course staff, or another authority your course recognizes.
+
+Anthropic's [web-search guide](https://support.claude.com/en/articles/10684626-enable-and-use-web-search) says search responses include citations and advises readers to cross-check important information with authoritative sources. Search availability can vary; if it is unavailable, use a trusted source directly rather than letting Claude guess.
+
+A useful verification prompt is deliberately strict:
+
+```text
+Audit the weak-spot log. For each correction, give the exact source location and
+a short supporting excerpt. If the source does not directly support the answer,
+change the verdict to UNSUPPORTED. List any answer that depends on outside
+knowledge, an inference, or unreadable content. Do not repair those gaps by
+guessing.
+```
+
+Then inspect the cited material yourself. Claude is helping you find the evidence, not replacing it.
+
+## Decide what deserves another review
+
+Not every correction should become a flashcard. Some gaps need a worked example, a diagram, office hours, or another practice problem.
+
+Keep a flashcard candidate when it:
+
+- came from an answer you got wrong, gave slowly, or confused with a similar idea;
+- matters beyond the current question;
+- can be tested with one clear prompt and one short answer;
+- is supported by a source you checked;
+- will still make sense without the Claude conversation beside it.
+
+Skip it when:
+
+- the source itself remains ambiguous;
+- you answered it easily and consistently;
+- the prompt asks for a whole essay or process;
+- the answer changes with unstated conditions;
+- practicing the skill would help more than memorizing a sentence.
+
+Ask Claude for candidates, not a finished deck:
+
+```text
+Review the verified weak-spot log. Propose cards only for repeated or important
+gaps that can be tested cleanly.
 
 Use one memory target per card. Keep each front specific and each back short.
-Use only facts supported by the material in this conversation. Show me the
-proposed fronts, backs, and destination deck before writing anything. After I
-approve them, create the cards through the Flashcards connector and read the
-saved cards back to me.
+Include the evidence location and any remaining uncertainty. Put practice-only
+gaps in a separate list with a suitable exercise. Do not save anything yet.
 ```
 
-The preview catches vague questions, bloated answers, and confident-looking mistakes before they reach your deck. A good card should still make sense tomorrow, when the Claude conversation is no longer beside it.
+Discard the rest. A Claude study session can be useful even when it creates no cards.
 
-For more examples, read [How to Make Better Flashcards](/blog/how-to-make-better-flashcards/). If every session somehow produces fifty "essential" cards, [How to Avoid AI Flashcard Overload](/blog/how-to-avoid-ai-flashcard-overload/) will help more than a longer prompt.
+## Optional: move selected cards out of Claude
 
-## Connect Claude web to Flashcards
+The simplest handoff works with any flashcard app. Ask Claude to return only the approved cards as plain front/back blocks, check them once more, and copy them into your usual review system.
 
-For most students, Claude in the browser is the easiest place to start. Add Flashcards as a custom connector with this URL:
+If you use Flashcards Open Source App, Claude can also save approved cards through its remote custom connector. Anthropic's [current custom connector guide](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp) says remote connectors are available on Free, Pro, Max, Team, and Enterprise plans; Free users can add one. Connect only servers you trust and review write actions before approval.
+
+The Flashcards MCP URL is:
 
 ```text
 https://mcp.flashcards-open-source-app.com/mcp
 ```
 
-Open Claude's connector settings, choose **Add custom connector**, paste the URL, and connect. A browser window will ask you to sign in to Flashcards and approve access through OAuth. You do not need to paste an API key into Claude. After that, enable the connector in the chat where you want to study.
-
-Anthropic's [custom connector instructions](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp) show the current menu path. A school-managed Team or Enterprise workspace may require an owner to add the connector first.
-
-The [step-by-step Flashcards MCP guide](/blog/how-to-connect-flashcards-to-claude-with-mcp/) includes the connector screens and a first test card. Use that guide if you are setting this up now; the rest of this article stays focused on studying.
-
-## Claude Code uses a separate MCP setup
-
-Claude Code is useful when your study material already lives in a folder of Markdown notes, code, or technical documentation. Add the same remote Flashcards server from the terminal:
-
-```bash
-claude mcp add --transport http flashcards https://mcp.flashcards-open-source-app.com/mcp
-```
-
-Then run `/mcp` in Claude Code, choose the Flashcards server, and complete the OAuth login in your browser. Anthropic documents the flow in [Connect Claude Code to tools via MCP](https://code.claude.com/docs/en/mcp).
-
-Adding the connector to Claude on the web does not configure Claude Code on your computer. They reach the same Flashcards endpoint, but each has its own setup and credential storage.
-
-For a headless machine or automated terminal session with no practical browser login, Flashcards also accepts a long-lived `fca_` agent key as a Bearer token:
-
-```bash
-claude mcp add --transport http \
-  flashcards https://mcp.flashcards-open-source-app.com/mcp \
-  --header "Authorization: Bearer ${FLASHCARDS_MCP_TOKEN}"
-```
-
-Store the key in `FLASHCARDS_MCP_TOKEN` through your environment or secret manager. Treat it like a password: keep it out of prompts, screenshots, shell history, and version control. The [API reference](/docs/api/) explains how to obtain an agent key. For a normal interactive session, use OAuth.
-
-## Check what Claude can read and change
-
-The connector exposes three tools. You do not need to understand SQL to use them, but the read/write split is worth knowing:
-
-| Tool | What it does | Changes data? |
-| --- | --- | --- |
-| `list_workspaces` | Shows the Flashcards workspaces your account can access | No |
-| `sql_query` | Reads allowed workspace, card, deck, and review data | No |
-| `sql_execute` | Creates, edits, moves, or deletes cards and decks | Yes |
-
-The first two tools are read-only. `sql_execute` is the only tool that can change data. In Claude web, I keep it on **Needs approval** and check the workspace, cards, decks, and proposed changes before allowing each write. Broad deletion requests deserve an especially careful look.
-
-The server limits these tools to your authorized workspace and the supported Flashcards data. Claude cannot use them as unrestricted access to the underlying database. The [Flashcards MCP documentation](/docs/mcp-connector/) has the current authentication details and tool contract.
-
-One detail is easy to miss: Flashcards currently authorizes the connector as a single surface, rather than offering separate read-only and read-write OAuth grants. Requiring approval or blocking the write tool is a setting on Claude's side. The Flashcards server separately enforces that its two read tools cannot change data.
-
-Connecting also means card text requested through the tools can be sent to Claude for processing. Do not connect study material that you are not allowed to share with that service. [Is MCP Safe for Flashcards?](/blog/is-mcp-safe-for-flashcards/) explains the privacy path, write risks, backups, and deletion limits.
-
-## Claude can clean up cards and decks too
-
-The connector is useful after the first card is saved. Claude can inspect the card and deck data you authorize, then create, edit, move, reorganize, or delete cards and decks after you approve the write.
-
-You might ask:
+The connector exposes `list_workspaces` and read-only `sql_query`, plus the write tool `sql_execute`. Keep the handoff narrow:
 
 ```text
-Show me the cards in my Cell Biology deck that cover mitosis. Do not edit them.
-Flag duplicates and cards that test more than one idea.
+Use the Flashcards connector for only the cards I approved. First list my
+workspaces and ask which one to use. Show the exact fronts, backs, and destination
+before writing. Create nothing until I approve the preview. After the write,
+read the saved cards back so I can verify them.
 ```
 
-Then choose the changes you want:
+The [step-by-step Claude connector guide](/blog/how-to-connect-flashcards-to-claude-with-mcp/) covers setup and permissions; there is no need to duplicate that setup inside a study session. The [MCP connector reference](/docs/mcp-connector/) documents the current tools and authentication.
 
-```text
-Move the three cards I approved into the Cell Division deck. Read them back to
-me after the move so I can check the result.
-```
+Claude can create the approved cards, but FSRS scheduling and reviews happen in the Flashcards app. Open the [web app](https://app.flashcards-open-source-app.com/) when cards are due, recall the answer, reveal it, and record the review there. If you would rather avoid connector access, manual copy remains a complete workflow.
 
-For a rewrite, ask Claude to show the new front and back before updating the card. For a larger cleanup, begin with a read-only inspection and keep approvals to a small, exact set of records. This makes mistakes easier to catch before they spread through a deck.
+## Where Claude still needs supervision
 
-## Do the real FSRS review in Flashcards
+This method reduces avoidable errors; it does not make Claude authoritative.
 
-Claude can read eligible card and review data, but this connector does not let it record an official review event, choose your Again, Hard, Good, or Easy rating, or update the FSRS schedule. Review history and scheduling data are read-only through the connector.
+- A source-bounded answer can still be wrong if the source is wrong.
+- Extracted file content can lose context, especially around diagrams, tables, and scanned pages.
+- Claude may grade an open-ended answer too generously or too literally.
+- A long tutoring chat can drift away from the original boundary.
+- Easy hints can create recognition without durable recall.
 
-After Claude creates the cards, open the [Flashcards web app](https://app.flashcards-open-source-app.com/) or a mobile app to review them. Your ratings are recorded there, and FSRS uses them to decide when each card should return.
+Restart from the named source when the conversation drifts. Ask for a fresh source location when an explanation changes. For skills such as proofs, essays, pronunciation, lab work, or programming, use direct practice and human feedback alongside retrieval questions.
 
-You can still ask Claude to quiz you conversationally on a small set of cards. The [AI flashcard tutor guide](/blog/ai-flashcard-tutor-due-cards/) shows that workflow. Complete and rate the scheduled review in Flashcards afterward so your progress stays accurate.
+## A final checklist for studying with Claude
 
-## Copy the cards manually if you prefer
+Before ending the session, check that:
 
-You may not want to give Claude access to a stored deck, especially when the material is private. The learning method still works without a connector.
+- the AI use fits the rules for this course and assignment;
+- Claude named anything ambiguous, unreadable, or unsupported;
+- you answered one question at a time before seeing help;
+- each correction points to evidence you opened yourself;
+- outside knowledge is labeled separately from course material;
+- unresolved uncertainty did not become a flashcard;
+- only a few durable weak spots survived;
+- any connector write was previewed and approved;
+- you have a plan to revisit each selected weak spot.
 
-Ask Claude for plain card candidates:
-
-```text
-Turn only the selected weak spots into front/back flashcards. Use one memory
-target per card. Keep the front specific and the back short. Do not invent
-facts. Put each card in a separate block so I can review and copy it manually.
-```
-
-Delete the weak candidates in Claude, then copy the survivors into Flashcards yourself. It adds a small manual step, but you keep complete control over what leaves the conversation and what enters your deck.
-
-## A useful Claude study session can stay small
-
-You do not need a one-shot prompt that turns a semester into 800 cards. A better **Claude study workflow** fits after a lecture or practice set: answer a few questions, catch the places where recall breaks, save three or four useful cards, and move on.
-
-That is how I use Claude for studying: work through the confusion while it is fresh, then let Flashcards bring the right question back after the chat closes. The small handoff turns a helpful conversation into something you may still remember next month.
+A useful **Claude tutor** does more than explain. It shows where the source ends, waits while you retrieve, and leaves you with a short record of what actually broke. That record—not the length of the chat—is what makes the Claude study workflow worth repeating.
