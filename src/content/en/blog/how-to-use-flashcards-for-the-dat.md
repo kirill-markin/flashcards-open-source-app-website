@@ -62,6 +62,8 @@ I would keep one temporary `orgo-2026` tag and watch these areas closely: curved
 
 The best DAT organic chemistry flashcards are not long reaction maps. They are decision points: What feature makes this carbonyl carbon more electrophilic? Under these conditions, is substitution or elimination more likely? Which signal pattern fits a para-disubstituted aromatic ring better? What curved-arrow step is missing between these starting materials and product?
 
+If identifying the functional group is still slowing you down, start with [functional group recognition practice](/catalog/packages/organic-chemistry-functional-groups-flashcards/). The cards use condensed structures for name and structure recall, plus distinctions between similar groups. Work on that prerequisite before returning to reaction reasoning and synthesis problems.
+
 If you already use public decks, this is the section I would audit first. Anything that still reflects older naming, hides the mechanism logic inside a wall of text, or skips newer subtopic detail deserves a rewrite.
 
 ## PAT cards should come from repeated misses, not from fake memorization
