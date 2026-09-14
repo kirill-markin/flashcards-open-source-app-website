@@ -80,6 +80,8 @@ This matters because **MCAT amino acids flashcards** are not difficult because o
 
 If you want a ready-made starting point, [this 120-card set for the 20 standard amino acids](/catalog/packages/amino-acid-flashcards/) separates side-chain recognition and drawing from code recall. It does not cover charge states, pKa values, or MCAT-specific classifications, so treat it as a focused recall set rather than a complete amino-acid review.
 
+If the structure cues themselves are the gap, [these functional group flashcards](/catalog/packages/organic-chemistry-functional-groups-flashcards/) use condensed structures to practice group names, defining bonds, and distinctions between easily confused groups. That gives you a smaller recognition task to work on before returning to biochemistry questions.
+
 I would be careful with image-heavy cards that ask you to decode an entire structure plus every property plus one weird exception. Those usually feel high yield and review badly.
 
 ## Equations should be stored as decision tools, not poster art
