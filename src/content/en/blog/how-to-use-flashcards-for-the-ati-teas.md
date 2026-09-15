@@ -120,6 +120,8 @@ I would rather build cards like:
 - How many centimeters are in 2.5 meters?
 - What is the formula for the area of a triangle?
 
+If conversions are where you hesitate, [Fractions, Decimals & Percentages Flashcards](/catalog/packages/fractions-decimals-percentages-flashcards/) gives you focused practice moving between the three forms. Use it alongside fresh TEAS math problems.
+
 For the recall behind metric questions, [Metric Prefix Flashcards: All 24 SI Names, Symbols & Powers of Ten](/catalog/packages/metric-prefix-flashcards/) drills the current SI prefix names, case-sensitive symbols, and powers of ten. It does not teach the conversions themselves, so keep those in problem practice.
 
 Then use practice problems for the longer work.
