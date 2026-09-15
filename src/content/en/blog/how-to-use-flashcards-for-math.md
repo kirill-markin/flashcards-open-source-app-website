@@ -73,6 +73,8 @@ Better **math formula flashcards** aim at one memory target at a time:
 
 If basic division facts are the missing layer, [Division Flashcards 1–12: All 144 Facts](/catalog/packages/division-flashcards-1-12/) has 144 text-only quotient-recall cards covering every divisor-and-quotient pair from 1 through 12. It doesn't include remainders or long division, so keep those in problem practice.
 
+If switching between fractions, decimals, and percentages slows down your problem solving, [Fractions, Decimals & Percentages Flashcards](/catalog/packages/fractions-decimals-percentages-flashcards/) offers focused conversion practice. Follow the cards with fresh problems that use those conversions.
+
 For a concrete, deliberately narrow example, [Unit Circle Flashcards: 16 Angles, Radians & Exact Coordinates](/catalog/packages/unit-circle-degrees-radians-coordinates/) lets you practice the 16 standard unit-circle positions in degrees, radians, and exact coordinates without turning the whole topic into one oversized card.
 
 Greek letters are another small memory layer you can separate from the formulas that use them. [Greek Alphabet Flashcards: All 24 Uppercase & Lowercase Letters](/catalog/packages/greek-alphabet-flashcards/) has 72 cards for uppercase-to-name, lowercase-to-name, and name-to-symbol recall across all 24 letters. It stops at letter-form and name recognition; it does not teach pronunciation, transliteration, vocabulary, handwriting, or mathematical meanings.
