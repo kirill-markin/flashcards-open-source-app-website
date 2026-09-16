@@ -8,6 +8,8 @@ description: >-
 
 Esta página documenta el contrato actual de agente de IA externo para Flashcards.
 
+Si su cliente habla MCP, el [conector MCP](/docs/mcp-connector/) es la forma más simple de conectarse y envuelve esta misma superficie de datos. Esta página documenta el contrato HTTP de descubrimiento, SQL, guías y repaso que usan los agentes de CLI.
+
 Comience desde el punto de entrada del descubrimiento canónico:
 
 ```text
@@ -23,6 +25,7 @@ La respuesta de descubrimiento le dice al agente cómo:
 - cargar el contexto de la cuenta
 - crear o seleccionar un espacio de trabajo
 - continuar a través de la superficie SQL publicada
+- obtener guías de referencia y repasar tarjetas de una en una
 
 ## Descubrimiento en tiempo de ejecución y código fuente
 
@@ -95,6 +98,10 @@ Después de la verificación, la superficie actual del agente es:
 - `POST /v1/agent/workspaces/{workspaceId}/select`
 - `POST /v1/agent/sql/query` (solo lectura)
 - `POST /v1/agent/sql/execute` (escritura)
+- `GET /v1/agent/guide/{topic}` (solo lectura)
+- `POST /v1/agent/reviews/next` (solo lectura)
+- `POST /v1/agent/reviews/reveal` (solo lectura)
+- `POST /v1/agent/reviews/submit` (escritura)
 
 El bootstrap típico se ve así:
 
@@ -106,21 +113,27 @@ El bootstrap típico se ve así:
 
 La selección del espacio de trabajo es explícita por conexión de clave API. Los agentes deben seguir el texto `instructions` devuelto y `docs.discoveryUrl` para las rutas en tiempo de ejecución, además de `docs.source.agentRoutesUrl` para los detalles de implementación, en lugar de adivinar el siguiente paso.
 
+Las rutas SQL y de repaso también aceptan un `workspaceId` opcional en el cuerpo JSON. Este apunta a ese espacio de trabajo durante una llamada sin cambiar la selección; omítalo para usar el espacio de trabajo seleccionado. Si no hay ni una selección ni un `workspaceId`, responden `409 WORKSPACE_SELECTION_REQUIRED`.
+
 ## Superficie SQL
 
-`POST /v1/agent/sql/query` es la superficie estrictamente de solo lectura (`SHOW TABLES`, `DESCRIBE`, `SELECT`) y `POST /v1/agent/sql/execute` es la superficie de escritura (`INSERT`, `UPDATE`, `DELETE`); una sola llamada debe ser totalmente de lectura o totalmente de escritura.
+`POST /v1/agent/sql/query` es la superficie estrictamente de solo lectura (`SHOW TABLES`, `DESCRIBE`, `SHOW COLUMNS`, `SELECT`) y `POST /v1/agent/sql/execute` es la superficie de escritura (`INSERT`, `UPDATE`, `DELETE`); una sola llamada debe ser totalmente de lectura o totalmente de escritura.
 
 Está intencionalmente limitado y no es PostgreSQL completo. Esta documentación
 cubre solo el dialecto compatible, no una referencia de compatibilidad con
 PostgreSQL.
 
 Ninguna ruta de lectura repara datos, recalcula la programación ni cambia el
-estado de las tarjetas. Use `POST /v1/agent/sql/execute` para toda escritura.
+estado de las tarjetas. Use `POST /v1/agent/sql/execute` para toda escritura de
+tarjetas y mazos. SQL no puede escribir `review_events` ni el estado de
+programación FSRS; registre los repasos mediante
+`POST /v1/agent/reviews/submit`.
 
 Familias de declaraciones actuales:
 
 - `SHOW TABLES`
 - `DESCRIBE <resource>`
+- `SHOW COLUMNS FROM <resource>`
 - `SELECT`
 - `INSERT`
 - `UPDATE`
@@ -138,7 +151,7 @@ Notas:
 - `LIMIT` por defecto es `100` y tiene un límite de `100`
 - use `ORDER BY` cuando necesite una paginación estable
 - utilice `SHOW TABLES` o `DESCRIBE cards` para el descubrimiento de esquemas
-- el contrato de agente externo tiene un alcance de espacio de trabajo después de la selección
+- cada llamada SQL tiene el alcance de un espacio de trabajo: el `workspaceId` del cuerpo o el espacio de trabajo seleccionado
 
 Solicitud de ejemplo:
 
@@ -171,7 +184,7 @@ curl -X POST https://api.flashcards-open-source-app.com/v1/agent/sql/execute \
   }'
 ```
 
-También hay disponible un servidor MCP remoto en `https://mcp.flashcards-open-source-app.com/mcp` que usa OAuth 2.1 (Dynamic Client Registration + PKCE). Expone la misma división como dos herramientas, `sql_query` (estrictamente de solo lectura) y `sql_execute` (escritura), además de `list_workspaces`, estrictamente de solo lectura.
+También hay disponible un servidor MCP remoto en `https://mcp.flashcards-open-source-app.com/mcp` que usa OAuth 2.1 (Dynamic Client Registration + PKCE). Expone la misma división SQL como `sql_query` (estrictamente de solo lectura) y `sql_execute` (escritura), además de `list_workspaces`, `get_guide` y las herramientas de repaso `next_review_card`, `reveal_answer` y `submit_review`; consulte el [conector MCP](/docs/mcp-connector/).
 
 ### Seguridad y alcance
 
@@ -179,9 +192,55 @@ La superficie SQL es un dialecto contenido y validado por el analizador, no Post
 
 - **Lista de instrucciones cerrada**: solo `SHOW TABLES`, `DESCRIBE`, `SHOW COLUMNS` y `SELECT` para lecturas, e `INSERT`, `UPDATE` y `DELETE` para escrituras. Cualquier otra cosa se rechaza en el análisis.
 - **Recursos limitados**: las instrucciones solo pueden tocar los recursos `workspace`, `cards`, `decks` y `review_events`.
-- **Alcance por espacio de trabajo**: cada instrucción tiene el alcance de su espacio de trabajo seleccionado, sin acceso entre inquilinos.
+- **Alcance por espacio de trabajo**: cada instrucción tiene el alcance de un espacio de trabajo al que puede acceder, ya sea el `workspaceId` del cuerpo de la solicitud o su espacio de trabajo seleccionado, sin acceso entre inquilinos.
+- **Cuerpos de solicitud estrictos**: las rutas SQL y de repaso rechazan un campo desconocido en el cuerpo, por lo que un `workspaceId` mal escrito falla en lugar de ejecutarse contra el espacio de trabajo seleccionado.
 - **Límites**: hasta `100` filas por instrucción, hasta `50` instrucciones por lote y un límite de resultados de aproximadamente `12k` tokens. Los lotes de mutación se aplican de forma atómica.
-- **División de lectura/escritura**: `sql_query` y `list_workspaces` son estrictamente de solo lectura (`readOnlyHint`) y nunca reparan datos, recalculan la programación ni cambian el estado de las tarjetas. `sql_execute` es la única herramienta de escritura y realiza escrituras (`destructiveHint`); una sola llamada debe ser totalmente de lectura o totalmente de escritura.
+- **División de lectura/escritura**: `sql_query` y `list_workspaces` son estrictamente de solo lectura (`readOnlyHint`) y nunca reparan datos, recalculan la programación ni cambian el estado de las tarjetas. `sql_execute` es la única herramienta SQL de escritura y realiza escrituras (`destructiveHint`); una sola llamada debe ser totalmente de lectura o totalmente de escritura. SQL no puede escribir `review_events` ni el estado de programación FSRS; solo `POST /v1/agent/reviews/submit` (MCP `submit_review`) registra un repaso.
+
+## Guías
+
+`GET /v1/agent/guide/{topic}` devuelve una guía de referencia en `data.guide`, el mismo cuerpo que sirve la herramienta MCP `get_guide`. Temas:
+
+- `sql_dialect`: la gramática SQL completa, los límites y ejemplos
+- `card_authoring`: el contrato de la tarjeta, las etiquetas, las comprobaciones de duplicados y el formato
+- `bulk_authoring`: dividir y verificar un trabajo de escritura grande
+- `review_flow`: el ciclo de repaso y calificación
+
+Un tema desconocido responde `400` con la lista de temas compatibles. Obtenga la guía correspondiente antes de crear tarjetas, escribir en bloque o hacer un repaso, y vuelva a leer `sql_dialect` después de una instrucción rechazada.
+
+```bash
+curl https://api.flashcards-open-source-app.com/v1/agent/guide/sql_dialect \
+  -H "Authorization: ApiKey $FLASHCARDS_OPEN_SOURCE_API_KEY"
+```
+
+## Repasos
+
+Las rutas de repaso permiten a un agente preguntar a un estudiante una tarjeta a la vez y guardar cada calificación en la programación FSRS de la tarjeta. Reciben los mismos argumentos JSON que las herramientas de repaso de MCP:
+
+- `POST /v1/agent/reviews/next` devuelve `card` con `cardId` y `frontText`, o `card: null` cuando no hay nada pendiente. Opcionalmente, `tags` (cualquiera de ellas) o `deckId` acota la cola, nunca ambos; una solicitud sin cuerpo es válida.
+- `POST /v1/agent/reviews/reveal` requiere `cardId` y devuelve el `backText` de esa tarjeta.
+- `POST /v1/agent/reviews/submit` requiere `cardId`, un UUID `reviewId` generado por el cliente, un `rating` de `Again`, `Hard`, `Good` o `Easy`, y el `reviewedTimeZone` IANA del estudiante. El servidor asigna la hora del repaso y devuelve la nueva programación de la tarjeta, incluidos `dueAt`, `state`, `reps` y `lapses`.
+
+Las tres rutas aceptan el `workspaceId` opcional. Conserve el `reviewId` antes de enviar y reintente un envío incierto con la solicitud idéntica; nunca registra un segundo repaso. Las rutas de repaso también pueden responder:
+
+- `409 REVIEW_EVENT_CONFLICT`: el repaso ya se había registrado, y `error.details.reviewSchedule` contiene la programación actual de la tarjeta.
+- `409 REVIEW_ID_CARD_MISMATCH`: el `reviewId` ya identifica un repaso de otra tarjeta, por lo que no se guardó nada; envíe de nuevo con un nuevo `reviewId`.
+- `409 REVIEW_STALE`: la hora de repaso almacenada de la tarjeta es igual o posterior a la hora actual del servidor; repase otra tarjeta.
+- `400 REVIEW_INPUT_INVALID`: un argumento falta, no es válido o no se admite, incluido `tags` combinado con `deckId` o una etiqueta que el espacio de trabajo no usa.
+
+Envío de ejemplo:
+
+```bash
+curl -X POST https://api.flashcards-open-source-app.com/v1/agent/reviews/submit \
+  -H "Content-Type: application/json" \
+  -H "Authorization: ApiKey $FLASHCARDS_OPEN_SOURCE_API_KEY" \
+  -d '{
+    "cardId":"693c4863-28a2-45e8-8f55-9fa31fc95ff2",
+    "reviewId":"429bb7cc-40fb-49f3-bb50-48a5db2826d1",
+    "rating":"Good",
+    "reviewedTimeZone":"Europe/Sofia"
+  }'
+```
 
 ## API humanas y de sincronización
 

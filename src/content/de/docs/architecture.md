@@ -61,7 +61,7 @@ Apex-Weiterleitung             -> <domain>      -> CloudFront redirect -> app.<d
 1. Agenten starten mit `GET /v1/`.
 2. Der OTP-Bootstrap laeuft auf `auth.<domain>`.
 3. Der Agent erhaelt einen langlebigen API-Key.
-4. Der Agent laedt `/v1/agent/me`, listet Workspaces, waehlt bei Bedarf einen aus und nutzt dann `/v1/agent/sql`.
+4. Der Agent laedt `/v1/agent/me`, listet Workspaces, waehlt bei Bedarf einen aus und nutzt dann `/v1/agent/sql/query` und `/v1/agent/sql/execute`.
 
 ## Scheduling
 
