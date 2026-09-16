@@ -6,8 +6,9 @@ description: Fuege den entfernten Flashcards-MCP-Server als benutzerdefinierten 
 ## Ueberblick
 
 Flashcards betreibt einen entfernten MCP-Server (Model Context Protocol), damit
-MCP-Clients und KI-Agenten deine faelligen Karten lesen und Karten sowie Decks
-fuer dich erstellen oder bearbeiten koennen.
+MCP-Clients und KI-Agenten deine faelligen Karten lesen, sie Frage fuer Frage mit
+dir wiederholen und Karten sowie Decks fuer dich erstellen oder bearbeiten
+koennen.
 
 Agenten koennen sich auf zwei Wegen verbinden: ueber diesen MCP-Server (am besten
 fuer MCP-Clients wie Claude oder Cursor) oder ueber die
@@ -20,8 +21,9 @@ Verbinde dich damit unter:
 https://mcp.flashcards-open-source-app.com/mcp
 ```
 
-Der Transport ist Streamable HTTP, und der Server stellt drei Tools ueber eine
-kleine, absichtlich eingeschraenkte SQL-Oberflaeche bereit. Es ist dieselbe
+Der Transport ist Streamable HTTP, und der Server stellt sieben Tools bereit: zwei
+SQL-Tools ueber eine kleine, absichtlich eingeschraenkte SQL-Oberflaeche, eine
+Workspace-Liste, einen Referenz-Leitfaden und drei Review-Tools. Es ist dieselbe
 Datenoberflaeche pro Nutzer wie in der [API-Referenz](/docs/api/); der MCP-Server
 ist der connector-freundliche Weg, sie von Clients aus zu erreichen, die MCP
 sprechen.
@@ -43,11 +45,12 @@ Connector hinzu:
 
 Rufe nach der Autorisierung einmal `list_workspaces` auf, um einen Workspace
 auszuwaehlen, und nutze dann `sql_query` zum Lesen und `sql_execute` zum
-Schreiben.
+Schreiben von Karten und Decks. Rufe fuer ein Review `next_review_card`, dann
+`reveal_answer` und dann `submit_review` auf.
 
 ## Tools
 
-Der Server stellt drei Tools bereit. Lesen und Schreiben sind bewusst getrennt,
+Der Server stellt sieben Tools bereit. Lesen und Schreiben sind bewusst getrennt,
 damit ein einzelnes Tool niemals sichere und destruktive Operationen vermischt.
 
 - `sql_query` — strikt nur lesender Zugriff auf deine Karten und Decks
@@ -58,7 +61,17 @@ damit ein einzelnes Tool niemals sichere und destruktive Operationen vermischt.
   zugreifen kannst, jeweils mit ihrer `workspaceId`, dem Namen, der Anzahl
   aktiver Karten, der letzten Aktivitaet und der Angabe, ob es dein aktuell
   ausgewaehlter Standard ist. Verwende eine zurueckgegebene `workspaceId` fuer
-  das `workspaceId`-Argument von `sql_query` und `sql_execute`.
+  das optionale `workspaceId`-Argument der SQL- und Review-Tools.
+- `get_guide` — strikt nur lesender Referenz-Leitfaden zu einem Thema:
+  `sql_dialect`, `card_authoring`, `bulk_authoring` oder `review_flow`. Das Tool
+  liest keine Workspace-Daten.
+- `next_review_card` — strikt nur lesend: gibt die naechste Karte zur Wiederholung
+  zurueck, nur die Vorderseite, in derselben Warteschlangen-Reihenfolge wie die
+  Apps. Optionale `tags` oder `deckId` grenzen die Warteschlange ein.
+- `reveal_answer` — strikt nur lesend: gibt die Rueckseite einer Karte zurueck,
+  nachdem sich der Lernende an ihrer Vorderseite versucht hat.
+- `submit_review` — erfasst eine Bewertung `Again`, `Hard`, `Good` oder `Easy`
+  und schreibt den FSRS-Wiederholungsplan der Karte fort.
 
 Die SQL-Oberflaeche ist ein absichtlich eingeschraenkter Dialekt und kein
 vollstaendiges PostgreSQL. Diese Dokumentation beschreibt nur den unterstuetzten
@@ -66,6 +79,36 @@ Dialekt, keine PostgreSQL-Kompatibilitaetsreferenz. Anweisungen koennen nur die
 Ressourcen `workspace`, `cards`, `decks` und `review_events` adressieren, jede
 Anweisung ist auf deinen eigenen Workspace beschraenkt, und Lese- sowie
 Schreibvorgaenge sind auf `100` Zeilen pro Anweisung begrenzt.
+
+## Reviews
+
+Mit den Review-Tools kann ein Agent einen Lernenden Karte fuer Karte abfragen und
+jede Bewertung im FSRS-Wiederholungsplan der Karte speichern:
+
+1. `next_review_card` gibt eine `cardId` und `frontText` zurueck, oder
+   `card: null`, wenn nichts faellig ist.
+2. Nachdem der Lernende geantwortet hat, gibt `reveal_answer` den `backText`
+   dieser Karte zurueck.
+3. `submit_review` nimmt die `cardId`, eine clientseitig erzeugte
+   `reviewId`-UUID, ein `rating` und die IANA-`reviewedTimeZone` des Lernenden
+   entgegen. Der Server setzt die Review-Zeit und gibt den neuen
+   Wiederholungsplan der Karte zurueck.
+
+Sende eine unsichere Uebermittlung mit derselben `reviewId` erneut; dabei wird nie
+ein zweites Review erfasst. Eine Uebermittlung kann ausserdem folgende Antworten
+liefern:
+
+- `409 REVIEW_EVENT_CONFLICT` — das Review wurde bereits erfasst, und die
+  Fehlerdetails enthalten den aktuellen Wiederholungsplan der Karte.
+- `409 REVIEW_ID_CARD_MISMATCH` — die `reviewId` identifiziert bereits ein Review
+  einer anderen Karte, daher wurde nichts gespeichert; sende erneut mit einer
+  neuen `reviewId`.
+- `409 REVIEW_STALE` — die gespeicherte Review-Zeit der Karte ist gleich oder
+  spaeter als die aktuelle Serverzeit; wiederhole eine andere Karte.
+
+Reviews werden nur ueber `submit_review` erfasst: SQL kann weder `review_events`
+noch den FSRS-Planungszustand schreiben. Rufe `get_guide` mit dem Thema
+`review_flow` auf, um die vollstaendigen Review- und Bewertungsregeln zu erhalten.
 
 ## Karten-Vertrag
 
@@ -122,15 +165,23 @@ Datenbankzugriff:
   `UPDATE` und `DELETE`. Alles andere wird beim Parsen abgelehnt.
 - **Begrenzte Ressourcen**: Anweisungen koennen nur `workspace`, `cards`, `decks`
   und `review_events` betreffen.
-- **Workspace-Geltungsbereich**: jede Anweisung ist auf deinen ausgewaehlten
-  Workspace beschraenkt, ohne mandantenuebergreifenden Zugriff.
+- **Workspace-Geltungsbereich**: jede SQL-Anweisung und jedes Review ist auf
+  einen Workspace beschraenkt, auf den du zugreifen kannst, entweder die von dir
+  uebergebene `workspaceId` oder deinen ausgewaehlten Standard, ohne
+  mandantenuebergreifenden Zugriff.
+- **Strikte Argumente**: jedes Tool lehnt ein unbekanntes Argument ab, sodass eine
+  falsch geschriebene `workspaceId` fehlschlaegt, statt gegen deinen
+  Standard-Workspace ausgefuehrt zu werden.
 - **Grenzwerte**: bis zu `100` Zeilen pro Anweisung, bis zu `50` Anweisungen pro
   Batch und eine Ergebnisgrenze von etwa `12k` Tokens. Mutations-Batches werden
   atomar angewendet.
-- **Trennung von Lesen und Schreiben**: `sql_query` und `list_workspaces` sind
-  strikt nur lesend (`readOnlyHint`) und reparieren keine Daten, berechnen keine
-  Planung neu und aendern keinen Kartenzustand. `sql_execute` ist das einzige
-  Schreib-Tool und fuehrt Schreibvorgaenge aus (`destructiveHint`).
+- **Trennung von Lesen und Schreiben**: `sql_query`, `list_workspaces`,
+  `get_guide`, `next_review_card` und `reveal_answer` sind strikt nur lesend
+  (`readOnlyHint`) und reparieren keine Daten, berechnen keine Planung neu und
+  aendern keinen Kartenzustand. `sql_execute` und `submit_review` sind die
+  einzigen Schreib-Tools (`destructiveHint`): `sql_execute` schreibt Karten und
+  Decks, und `submit_review` erfasst ein Review und schreibt den Plan seiner
+  Karte fort.
 
 Der gesamte Stack — App, Backend und Infrastruktur — ist Open Source und kann
 [selbst gehostet](/docs/self-hosting/) werden, sodass du denselben Connector
