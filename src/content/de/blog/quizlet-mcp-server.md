@@ -75,7 +75,7 @@ Flashcards Open Source App stellt einen Remote-MCP-Endpunkt bereit:
 
 `https://mcp.flashcards-open-source-app.com/mcp`
 
-Die [Dokumentation des MCP-Connectors](/docs/mcp-connector/) beschreibt drei Tools: `list_workspaces`, `sql_query` für Lesezugriffe und `sql_execute` für Schreibzugriffe. Interaktive MCP-Clients können die Verbindung per OAuth autorisieren. Terminal-Agenten können stattdessen bei der [Dokumentation der Agent API](/docs/api/) einsteigen und den dort beschriebenen HTTP-Ablauf verwenden.
+Die [Dokumentation des MCP-Connectors](/docs/mcp-connector/) beschreibt sieben Tools: `list_workspaces`, `sql_query` für Lesezugriffe, `sql_execute` für Schreibzugriffe, `get_guide` für Referenz-Leitfäden sowie `next_review_card`, `reveal_answer` und `submit_review` für Wiederholungen. Interaktive MCP-Clients können die Verbindung per OAuth autorisieren. Terminal-Agenten können stattdessen bei der [Dokumentation der Agent API](/docs/api/) einsteigen und den dort beschriebenen HTTP-Ablauf verwenden.
 
 Damit wird Flashcards nicht zu einem Quizlet-Connector. Der unterstützte Ablauf sieht so aus:
 
@@ -94,7 +94,7 @@ Wenn du abwägst, ob sich dieser Tausch über den Agentenzugriff hinaus lohnt, h
 
 Eine öffentlich dokumentierte Schnittstelle räumt zwar einige Unklarheiten bei der Integration aus, macht aber nicht jede MCP-Aktion automatisch sicher. OAuth authentifiziert die Verbindung. Es garantiert weder, dass eine KI-generierte Karte korrekt ist, noch sorgt es dafür, dass abgerufene Kartendaten im Karteikartendienst bleiben. Ob eine Änderung deiner Absicht entspricht, entscheidet OAuth ebenfalls nicht.
 
-Flashcards trennt Lesevorgänge vom Schreib-Tool `sql_execute`. Die OAuth-Berechtigung gilt trotzdem für den gesamten Connector; deshalb hängen Toolsperren und Freigaberegeln vom jeweiligen Client ab. Beginne mit einem kleinen, nicht vertraulichen Arbeitsbereich. Lass den Agenten nur die Daten lesen, die er für seine Aufgabe braucht. Wenn der Client es unterstützt, verlange für jeden Schreibzugriff eine eigene Freigabe, und prüfe vor der Bestätigung sowohl den Arbeitsbereich als auch die vorgeschlagene Änderung.
+Flashcards trennt Lesevorgänge von seinen Schreib-Tools: `sql_execute` für Karten und Decks, `submit_review` für Wiederholungen. Die OAuth-Berechtigung gilt trotzdem für den gesamten Connector; deshalb hängen Toolsperren und Freigaberegeln vom jeweiligen Client ab. Beginne mit einem kleinen, nicht vertraulichen Arbeitsbereich. Lass den Agenten nur die Daten lesen, die er für seine Aufgabe braucht. Wenn der Client es unterstützt, verlange für jeden Schreibzugriff eine eigene Freigabe, und prüfe vor der Bestätigung sowohl den Arbeitsbereich als auch die vorgeschlagene Änderung.
 
 Verbinde keine privaten Lernmaterialien, bevor du die Aufbewahrungs- und Datenverarbeitungsregeln des KI-Clients geprüft hast. Das ausführliche Bedrohungsmodell findest du unter [Ist MCP für Flashcards sicher?](/blog/is-mcp-safe-for-flashcards/). Für die erste Übertragung genügt eine einfache Regel: Bewahre den Rohexport auf, prüfe einige Karten in der Vorschau, genehmige einen eng begrenzten Schreibvorgang und kontrolliere das Ergebnis in der Ziel-App, bevor du weitermachst.
 

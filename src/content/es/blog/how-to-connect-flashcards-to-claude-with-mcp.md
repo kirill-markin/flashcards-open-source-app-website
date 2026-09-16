@@ -60,10 +60,11 @@ Si estás en un workspace Team o Enterprise, un Owner o Primary Owner puede aña
 
 ## Configura los primeros permisos de forma conservadora
 
-El conector de Flashcards que se ve aquí expone una superficie pequeña de herramientas:
+Para crear tarjetas, importan cuatro de las herramientas del conector:
 
 - `list_workspaces` para listar los workspaces disponibles
 - `sql_query` para acceso de lectura
+- `get_guide` para las reglas de redacción de tarjetas que Claude lee antes de su primera escritura
 - `sql_execute` para acciones de escritura, como crear tarjetas
 
 Claude te deja poner cada herramienta en **Always allow**, **Needs approval** o **Blocked**.

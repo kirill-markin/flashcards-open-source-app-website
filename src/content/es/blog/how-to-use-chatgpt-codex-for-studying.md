@@ -109,17 +109,21 @@ guardadas para que pueda comprobarlas.
 
 Codex debería empezar con la herramienta de solo lectura que lista los workspaces. Cuando elijas el workspace y cómo organizar las tarjetas, podrá preparar la escritura. Antes de aprobarla, comprueba el workspace, los anversos, los reversos, las etiquetas, los cambios en los mazos y el número de registros afectados.
 
-El conector ofrece tres herramientas:
+El conector ofrece siete herramientas:
 
 | Herramienta | Qué puede hacer | ¿Escribe datos? |
 | --- | --- | --- |
 | `list_workspaces` | Lista los workspaces de Flashcards a los que puedes acceder | No |
 | `sql_query` | Lee datos permitidos de workspaces, tarjetas, mazos y repasos | No |
 | `sql_execute` | Crea, edita o elimina tarjetas y mazos permitidos | Sí |
+| `get_guide` | Devuelve una guía de referencia sobre SQL, redacción de tarjetas, escrituras masivas o repasos | No |
+| `next_review_card` | Muestra el anverso de la siguiente tarjeta que toca repasar | No |
+| `reveal_answer` | Muestra el reverso de esa tarjeta después de que respondas | No |
+| `submit_review` | Registra una valoración Again, Hard, Good o Easy y actualiza la programación de FSRS | Sí |
 
 Los nombres parecen técnicos porque el conector usa una interfaz limitada parecida a SQL. No necesitas escribir SQL. Pide el resultado con palabras normales y revisa el cambio propuesto.
 
-Esto no es acceso sin restricciones a la base de datos. Cada solicitud queda limitada a un workspace autorizado, y el servidor solo acepta las lecturas y escrituras de tarjetas o mazos que documenta. La [guía de seguridad de MCP](/es/blog/is-mcp-safe-for-flashcards/) explica con más detalle cómo circulan los datos, los límites, las aprobaciones y el riesgo de borrado.
+Esto no es acceso sin restricciones a la base de datos. Cada solicitud queda limitada a un workspace autorizado, y el servidor solo acepta las lecturas, las escrituras de tarjetas o mazos y las valoraciones de repaso que documenta. La [guía de seguridad de MCP](/es/blog/is-mcp-safe-for-flashcards/) explica con más detalle cómo circulan los datos, los límites, las aprobaciones y el riesgo de borrado.
 
 ## Codex puede ordenar el mazo después de la sesión de estudio
 
@@ -143,7 +147,7 @@ En Flashcards, los mazos son filtros guardados. Colocar una tarjeta en otro mazo
 
 ## El repaso real con FSRS sigue haciéndose en Flashcards
 
-El conector MCP puede leer el historial de repasos y los campos permitidos del estado y la programación de FSRS. Su herramienta de escritura no puede crear eventos de repaso (`review_events`), registrar una valoración Again, Hard, Good o Easy ni cambiar el estado o la programación de FSRS. Esos campos son de solo lectura a través de este conector.
+El conector MCP puede leer el historial de repasos y los campos permitidos del estado y la programación de FSRS. Su herramienta de escritura SQL no puede crear eventos de repaso (`review_events`), registrar una valoración Again, Hard, Good o Easy ni cambiar el estado o la programación de FSRS. El conector solo puede registrar una valoración mediante su herramienta independiente `submit_review`, y este flujo deja los repasos en manos de la app.
 
 Abre la [app web de Flashcards](https://app.flashcards-open-source-app.com/) o una app móvil cuando toque repasar las tarjetas. Intenta recordar la respuesta, revela el reverso y elige allí tu valoración. Flashcards registra el repaso y FSRS decide cuándo debe volver la tarjeta.
 

@@ -75,7 +75,7 @@ Flashcards Open Source App ofrece este endpoint MCP remoto:
 
 `https://mcp.flashcards-open-source-app.com/mcp`
 
-Su [documentación del conector MCP](/docs/mcp-connector/) define tres herramientas: `list_workspaces`, `sql_query` para leer y `sql_execute` para escribir. Los clientes MCP interactivos pueden autorizar la conexión mediante OAuth. Los agentes que funcionan desde un terminal pueden consultar la [documentación de Agent API](/docs/api/) y utilizar el flujo HTTP publicado.
+Su [documentación del conector MCP](/docs/mcp-connector/) define siete herramientas: `list_workspaces`, `sql_query` para leer, `sql_execute` para escribir, `get_guide` para consultar guías de referencia, además de `next_review_card`, `reveal_answer` y `submit_review` para repasar. Los clientes MCP interactivos pueden autorizar la conexión mediante OAuth. Los agentes que funcionan desde un terminal pueden consultar la [documentación de Agent API](/docs/api/) y utilizar el flujo HTTP publicado.
 
 Esto no convierte Flashcards en un conector de Quizlet. El flujo con soporte es este:
 
@@ -94,7 +94,7 @@ Si estás valorando si el cambio compensa más allá del acceso para agentes, co
 
 Un contrato público reduce parte de la incertidumbre de una integración, pero eso no hace seguras todas las acciones de MCP. OAuth autentica la conexión, pero no garantiza que una tarjeta generada por IA sea correcta, que los datos devueltos permanezcan dentro del servicio de flashcards ni que una edición refleje tu intención.
 
-Flashcards separa las operaciones de lectura de su herramienta de escritura, `sql_execute`. La credencial OAuth permite acceder a toda la superficie del conector, así que el bloqueo de herramientas y el sistema de aprobación dependen del cliente. Empieza con un espacio de trabajo pequeño y sin información sensible. Permite que el agente lea solo los datos necesarios para la tarea, exige aprobación para cada escritura cuando el cliente lo permita y revisa el espacio de trabajo y el cambio propuesto antes de aceptarlo.
+Flashcards separa las operaciones de lectura de sus herramientas de escritura: `sql_execute` para tarjetas y mazos, y `submit_review` para repasos. La credencial OAuth permite acceder a toda la superficie del conector, así que el bloqueo de herramientas y el sistema de aprobación dependen del cliente. Empieza con un espacio de trabajo pequeño y sin información sensible. Permite que el agente lea solo los datos necesarios para la tarea, exige aprobación para cada escritura cuando el cliente lo permita y revisa el espacio de trabajo y el cambio propuesto antes de aceptarlo.
 
 No conectes material de estudio privado hasta que hayas revisado las condiciones de conservación y tratamiento de datos del cliente de IA. El modelo de amenazas detallado está en [¿Es seguro usar MCP con flashcards?](/blog/is-mcp-safe-for-flashcards/). Para una primera transferencia basta con una regla sencilla: conserva la exportación original, previsualiza unas cuantas tarjetas, aprueba una operación de escritura concreta y comprueba el resultado en la aplicación de destino antes de continuar.
 
