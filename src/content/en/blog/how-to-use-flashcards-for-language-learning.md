@@ -112,6 +112,8 @@ Now the card teaches the word and a usable chunk of language at the same time.
 
 That is usually better for **flashcards for vocabulary** than endless translation-only pairs.
 
+For English phrases, the [English phrasal verb flashcards](/catalog/packages/english-phrasal-verbs-flashcards/) pair meaning recall in short contexts with word-order practice, including where object pronouns belong.
+
 ## Do not let the deck become a museum of words you never plan to use
 
 This happens a lot with AI-generated decks and imported lists.
