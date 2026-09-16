@@ -142,13 +142,13 @@ values before the write and read the saved cards back afterward.
 
 In Flashcards, decks are saved filters. Putting a card under a different deck may mean changing its tags, so review those too. You can use the same inspect-then-approve pattern to create a deck, reorganize a small set, or delete cards you explicitly identify. “Delete everything that looks bad” is a risky prompt in any tool with real write access.
 
-## The real FSRS review still happens in Flashcards
+## The real FSRS review is the one Flashcards records
 
-The MCP connector can read allowed review history in `review_events` and FSRS state and scheduling fields. Its SQL write tool cannot create review events, submit an Again, Hard, Good, or Easy rating, or change the FSRS state or schedule. The connector can record a rating only through its separate `submit_review` tool, and this workflow leaves reviews to the app.
+The MCP connector can read allowed review history in `review_events` and FSRS state and scheduling fields. Its SQL write tool cannot create review events, submit an Again, Hard, Good, or Easy rating, or change the FSRS state or schedule. The connector can record a rating only through its separate `submit_review` tool, so you can do a review in the app or let Codex run it.
 
 Open the [Flashcards web app](https://app.flashcards-open-source-app.com/) or a mobile client when the cards are due. Recall the answer, reveal the back, and choose your rating there. Flashcards records the review, and FSRS decides when the card should return.
 
-Codex can still quiz you informally from card data you authorize. Treat that as extra practice. It does not replace the scheduled review in Flashcards. The [AI flashcard tutor guide](/blog/ai-flashcard-tutor-due-cards/) explains this distinction with a complete quiz flow.
+Codex can also quiz you informally from card data you authorize. Treat that as extra practice: a quiz on its own records no review and leaves your schedule alone. When you want an official review, ask Codex to run one with the review tools. It calls `next_review_card` to show only the front, `reveal_answer` to show the back after you answer, and `submit_review` to record the rating so FSRS can reschedule the card. Codex grades your answer unless you ask to choose each rating yourself. The [AI flashcard tutor guide](/blog/ai-flashcard-tutor-due-cards/) walks through that review loop in more detail.
 
 ## Codex CLI uses the same MCP configuration
 

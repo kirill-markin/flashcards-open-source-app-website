@@ -146,13 +146,13 @@ gespeicherten Karten danach wieder aus und zeige sie mir noch einmal.
 
 In Flashcards sind Decks gespeicherte Filter. Damit eine Karte unter einem anderen Deck erscheint, müssen möglicherweise ihre Tags geändert werden. Prüfe deshalb auch die Tags. Nach demselben Muster – zuerst ansehen, dann freigeben – kannst du ein Deck erstellen, eine kleine Auswahl neu ordnen oder ausdrücklich benannte Karten löschen. „Lösche alles, was schlecht aussieht“ ist bei jedem Werkzeug mit echtem Schreibzugriff ein riskanter Prompt.
 
-## Die eigentliche FSRS-Wiederholung findet weiterhin in Flashcards statt
+## Als eigentliche FSRS-Wiederholung zählt, was Flashcards aufzeichnet
 
-Der MCP-Connector kann freigegebene Wiederholungsdaten sowie Zustands- und Planungsfelder von FSRS lesen. Die gespeicherten Wiederholungsereignisse (`review_events`) und die Zustands- und Planungsdaten von FSRS sind über SQL jedoch schreibgeschützt. Das SQL-Schreibwerkzeug kann keine Wiederholung erfassen, keine Bewertung mit Again, Hard, Good oder Easy abgeben und den FSRS-Zustand oder -Zeitplan nicht verändern. Eine Bewertung kann der Connector nur über sein separates Werkzeug `submit_review` erfassen, und dieser Ablauf überlässt Wiederholungen der App.
+Der MCP-Connector kann freigegebene Wiederholungsdaten sowie Zustands- und Planungsfelder von FSRS lesen. Die gespeicherten Wiederholungsereignisse (`review_events`) und die Zustands- und Planungsdaten von FSRS sind über SQL jedoch schreibgeschützt. Das SQL-Schreibwerkzeug kann keine Wiederholung erfassen, keine Bewertung mit Again, Hard, Good oder Easy abgeben und den FSRS-Zustand oder -Zeitplan nicht verändern. Eine Bewertung kann der Connector nur über sein separates Werkzeug `submit_review` erfassen, also kannst du eine Wiederholung in der App machen oder von Codex durchführen lassen.
 
 Öffne die [Flashcards-Web-App](https://app.flashcards-open-source-app.com/) oder eine mobile App, sobald die Karten fällig sind. Rufe die Antwort aus dem Gedächtnis ab, decke die Rückseite auf und wähle dort deine Bewertung. Flashcards zeichnet die offizielle Wiederholung auf, danach entscheidet FSRS, wann die Karte wieder fällig wird.
 
-Codex kann dich mit den freigegebenen Kartendaten weiterhin informell abfragen. Betrachte das als zusätzliche Übung. Es ersetzt nicht die geplante Wiederholung in Flashcards. Die Anleitung zum [KI-Tutor für Karteikarten](/de/blog/ai-flashcard-tutor-due-cards/) zeigt den Unterschied anhand eines vollständigen Abfrageablaufs.
+Codex kann dich mit den freigegebenen Kartendaten auch informell abfragen. Betrachte das als zusätzliche Übung: Eine Abfrage allein erfasst keine Wiederholung und lässt deinen Zeitplan unverändert. Wenn du eine offizielle Wiederholung willst, bitte Codex, sie mit den Wiederholungswerkzeugen durchzuführen. Codex zeigt dann mit `next_review_card` nur die Vorderseite, mit `reveal_answer` nach deiner Antwort die Rückseite und erfasst mit `submit_review` die Bewertung, damit FSRS die Karte neu einplanen kann. Deine Antwort bewertet Codex, es sei denn, du bittest darum, jede Bewertung selbst zu wählen. Die Anleitung zum [KI-Tutor für Karteikarten](/de/blog/ai-flashcard-tutor-due-cards/) zeigt diesen Wiederholungsablauf ausführlicher.
 
 ## Codex CLI nutzt dieselbe MCP-Konfiguration
 
