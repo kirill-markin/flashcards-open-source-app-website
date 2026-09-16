@@ -4,7 +4,7 @@ Marketing website for Flashcards Open Source App. Static Next.js site deployed o
 
 **Git Workflow**: commit directly to `main`; deploy is automatic after push.
 
-**CI**: `.github/workflows/pr-checks.yml` runs `npm run test:catalog` on pull requests and on pushes to `main`. On `main` it reports after the commit has landed and Vercel has started deploying it, so it detects a broken commit rather than blocking one; no status check is currently configured as required.
+**CI**: `.github/workflows/pr-checks.yml` runs `npm run test:catalog` on pull requests and on pushes to `main`. Its `Catalog test suite` job is a required status check for merging a pull request into `main`; the branch need not be up to date. A direct push to `main` by an admin bypasses the check: the run reports after the commit has landed and Vercel has started deploying it, so it detects a broken commit rather than blocking one.
 
 ## Rules
 
