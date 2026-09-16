@@ -117,7 +117,7 @@ For more practice with the same retrieval pattern, the [World Capitals Flashcard
 
 An intentional cue on the front is part of the card. If the front always includes a first letter, diagram, sentence context, or formula sheet, judge the answer with that cue present. You are grading the prompt you designed.
 
-AI tutoring needs the same boundary. An AI can reveal a hint, compare text, or keep a session note. Its note is not an FSRS rating, and a fluent comparison does not prove that either answer is factually correct. [The AI flashcard tutor workflow](/blog/ai-flashcard-tutor-due-cards/) keeps first attempts separate from official reviews for this reason.
+AI tutoring needs the same boundary. In [the AI flashcard tutor workflow](/blog/ai-flashcard-tutor-due-cards/), the tutor grades your first attempt, not what you learned after seeing the answer, and records that grade as a real FSRS review through `submit_review`. The grading rules come from `get_guide` with the topic `review_flow`, and the article's tutor prompt adds the rule from this section: an attempt that needed a hint is rated Again. The grade is still the model's judgment, so name the rating in your answer or ask for manual ratings if you want the final say.
 
 ## Rate each attempt separately during relearning
 

@@ -115,7 +115,7 @@ Wenn die Vorderseite nach der Hauptstadt von Burkina Faso fragt und dir Ouagadou
 
 Ein bewusst eingebauter Hinweis auf der Vorderseite gehört dagegen zur Karte. Wenn dort immer ein Anfangsbuchstabe, ein Diagramm, ein Satzkontext oder eine Formelsammlung steht, beurteilst du deine Antwort mit diesem Hinweis. Du bewertest die Aufgabe, die du selbst erstellt hast.
 
-Für KI-Tutoren gilt dieselbe Grenze. Eine KI kann einen Hinweis geben, Texte vergleichen oder eine Sitzungsnotiz führen. Diese Notiz ist keine FSRS-Bewertung, und eine elegant formulierte Gegenüberstellung beweist nicht, dass eine der beiden Antworten sachlich stimmt. Der [Workflow für einen KI-Tutor mit Karteikarten](/de/blog/ai-flashcard-tutor-due-cards/) trennt deshalb erste Versuche von offiziellen Wiederholungen.
+Für KI-Tutoren gilt dieselbe Grenze. Im [Workflow für einen KI-Tutor mit Karteikarten](/de/blog/ai-flashcard-tutor-due-cards/) bewertet der Tutor deinen ersten Versuch, nicht das, was du erst beim Aufdecken der Antwort gelernt hast, und speichert diese Bewertung über `submit_review` als echte FSRS-Wiederholung. Die Bewertungsregeln kommen aus `get_guide` mit dem Thema `review_flow`, und der Tutor-Prompt aus dem Artikel ergänzt die Regel aus diesem Abschnitt: Ein Versuch, für den du einen Hinweis gebraucht hast, wird mit Again bewertet. Die Bewertung bleibt trotzdem das Urteil des Modells: Wenn du das letzte Wort haben willst, nenne sie selbst zusammen mit deiner Antwort oder bitte um manuelle Bewertungen.
 
 ## Bewerte beim Wiedererlernen jeden Versuch für sich
 
