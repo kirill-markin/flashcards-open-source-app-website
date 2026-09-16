@@ -75,7 +75,7 @@ Flashcards Open Source App publishes a remote MCP endpoint at:
 
 `https://mcp.flashcards-open-source-app.com/mcp`
 
-Its [MCP connector documentation](/docs/mcp-connector/) defines three tools: `list_workspaces`, `sql_query` for reads, and `sql_execute` for writes. Interactive MCP clients can authorize with OAuth. Terminal agents can instead start from the [Agent API documentation](/docs/api/) and use the published HTTP flow.
+Its [MCP connector documentation](/docs/mcp-connector/) defines seven tools: `list_workspaces`, `sql_query` for reads, `sql_execute` for writes, `get_guide` for reference guides, plus `next_review_card`, `reveal_answer`, and `submit_review` for reviews. Interactive MCP clients can authorize with OAuth. Terminal agents can instead start from the [Agent API documentation](/docs/api/) and use the published HTTP flow.
 
 This does not turn Flashcards into a Quizlet connector. The supported workflow is:
 
@@ -94,7 +94,7 @@ If you are deciding whether that trade is worthwhile beyond agent access, see th
 
 A public contract removes some integration guesswork, but it does not make every MCP action safe. OAuth authenticates the connection. It does not guarantee that an AI-generated card is correct, keep returned card data inside the flashcard service, or decide whether an edit matches your intent.
 
-Flashcards separates read operations from `sql_execute`, its write tool. The OAuth credential still covers the connector surface, so tool blocking and approval behavior depend on the client. Start with a small, non-sensitive workspace. Let the agent read only the data needed for the task, keep writes on per-call approval when the client supports it, and inspect the workspace and proposed change before accepting it.
+Flashcards separates read operations from its write tools: `sql_execute` for cards and decks, `submit_review` for reviews. The OAuth credential still covers the connector surface, so tool blocking and approval behavior depend on the client. Start with a small, non-sensitive workspace. Let the agent read only the data needed for the task, keep writes on per-call approval when the client supports it, and inspect the workspace and proposed change before accepting it.
 
 Do not connect private study material until you have checked the AI client's retention and data-handling terms. The detailed threat model is in [Is MCP Safe for Flashcards?](/blog/is-mcp-safe-for-flashcards/). For a first transfer, a simple rule is enough: keep the raw export, preview a few cards, approve a narrow write, and verify the result in the destination app before doing more.
 

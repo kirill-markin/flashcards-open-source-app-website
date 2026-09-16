@@ -234,7 +234,7 @@ Die Flashcards-MCP-URL lautet:
 https://mcp.flashcards-open-source-app.com/mcp
 ```
 
-Der Connector stellt `list_workspaces` und das Nur-Lese-Tool `sql_query` sowie das Schreib-Tool `sql_execute` bereit. Halte die Übertragung eng begrenzt:
+Zum Speichern von Karten stellt der Connector `list_workspaces`, das Nur-Lese-Tool `sql_query`, `get_guide` für die Regeln zum Schreiben von Karten sowie das Schreib-Tool `sql_execute` bereit. Halte die Übertragung eng begrenzt:
 
 ```text
 Verwende den Flashcards-Connector ausschließlich für die von mir freigegebenen
@@ -246,7 +246,7 @@ Karten nach dem Schreibvorgang wieder aus, damit ich sie überprüfen kann.
 
 Die [Schritt-für-Schritt-Anleitung zum Claude-Connector](/blog/how-to-connect-flashcards-to-claude-with-mcp/) erklärt Einrichtung und Berechtigungen; du musst diesen Vorgang in einer Lernsitzung nicht wiederholen. Die [MCP-Connector-Referenz](/docs/mcp-connector/) dokumentiert die aktuellen Tools und die Authentifizierung.
 
-Claude kann die freigegebenen Karten anlegen, doch Terminplanung nach FSRS und Wiederholungen finden in der Flashcards-App statt. Öffne die [Web-App](https://app.flashcards-open-source-app.com/), wenn Karten fällig sind, rufe die Antwort aus dem Gedächtnis ab, decke sie auf und erfasse dort die Wiederholung. Wenn du keinen Connector-Zugriff möchtest, bleibt das manuelle Kopieren ein vollständiger Ablauf.
+Claude kann die freigegebenen Karten anlegen, doch die Terminplanung nach FSRS bleibt in Flashcards. Öffne die [Web-App](https://app.flashcards-open-source-app.com/), wenn Karten fällig sind, rufe die Antwort aus dem Gedächtnis ab, decke sie auf und erfasse dort die Wiederholung. Wenn du keinen Connector-Zugriff möchtest, bleibt das manuelle Kopieren ein vollständiger Ablauf.
 
 ## Wo Claude weiter Aufsicht braucht
 

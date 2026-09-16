@@ -86,7 +86,7 @@ Quizlet की 30 जून 2026 की Google Classroom घोषणा भी 
 Flashcards Open Source App, एक ही सीमित per-user data surface तक पहुँचने के दो documented रास्ते देता है:
 
 - [External Agent API](/docs/api/) `GET https://api.flashcards-open-source-app.com/v1/` से शुरू होता है। उसका discovery response agent को email OTP login, API-key creation और workspace selection की प्रक्रिया बताता है। पढ़ने के लिए SQL-style query route है और लिखने के लिए अलग execute route।
-- [Remote MCP server](/docs/mcp-connector/) `https://mcp.flashcards-open-source-app.com/mcp` पर उपलब्ध है। MCP clients को तीन tools मिलते हैं: `list_workspaces`, `sql_query` और `sql_execute`।
+- [Remote MCP server](/docs/mcp-connector/) `https://mcp.flashcards-open-source-app.com/mcp` पर उपलब्ध है। MCP clients को सात tools मिलते हैं: `list_workspaces`, `sql_query`, `sql_execute`, `get_guide` और review tools `next_review_card`, `reveal_answer` तथा `submit_review`।
 
 दोनों रास्ते workspace-scoped हैं। Published resources `workspace`, `cards`, `decks` और `review_events` हैं, और हर statement के results अधिकतम 100 rows तक सीमित हैं। SQL-style interface एक limited dialect है, raw PostgreSQL नहीं। कोई OpenAPI schema नहीं है, इसलिए generated OpenAPI clients पर निर्भर workflows को अलग interface चाहिए।
 

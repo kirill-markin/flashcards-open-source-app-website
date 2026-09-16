@@ -227,7 +227,7 @@ The Flashcards MCP URL is:
 https://mcp.flashcards-open-source-app.com/mcp
 ```
 
-The connector exposes `list_workspaces` and read-only `sql_query`, plus the write tool `sql_execute`. Keep the handoff narrow:
+For saving cards, the connector exposes `list_workspaces`, read-only `sql_query`, and `get_guide` for the card-writing rules, plus the write tool `sql_execute`. Keep the handoff narrow:
 
 ```text
 Use the Flashcards connector for only the cards I approved. First list my
@@ -238,7 +238,7 @@ read the saved cards back so I can verify them.
 
 The [step-by-step Claude connector guide](/blog/how-to-connect-flashcards-to-claude-with-mcp/) covers setup and permissions; there is no need to duplicate that setup inside a study session. The [MCP connector reference](/docs/mcp-connector/) documents the current tools and authentication.
 
-Claude can create the approved cards, but FSRS scheduling and reviews happen in the Flashcards app. Open the [web app](https://app.flashcards-open-source-app.com/) when cards are due, recall the answer, reveal it, and record the review there. If you would rather avoid connector access, manual copy remains a complete workflow.
+Claude can create the approved cards, but FSRS scheduling stays in Flashcards. Open the [web app](https://app.flashcards-open-source-app.com/) when cards are due, recall the answer, reveal it, and record the review there. If you would rather avoid connector access, manual copy remains a complete workflow.
 
 ## Where Claude still needs supervision
 

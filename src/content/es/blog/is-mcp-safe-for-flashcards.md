@@ -14,7 +14,7 @@ keywords:
   - "inyección de prompts en MCP"
 ---
 
-El 20 de mayo de 2026, la NSA publicó una guía de seguridad de 17 páginas sobre Model Context Protocol. Eso importa cuando un mazo contiene algo más que vocabulario público. Una conexión MCP de Flashcards puede devolver al cliente de IA tarjetas, metadatos del espacio de trabajo e historial de repaso. Con esa misma credencial de acceso completo, el cliente también puede invocar una herramienta que modifica tarjetas o las marca como eliminadas. Para saber **si es seguro usar MCP con Flashcards**, hay que comprobar dos cosas: si esos datos pueden llegar al cliente elegido y si este puede usar la herramienta de escritura.
+El 20 de mayo de 2026, la NSA publicó una guía de seguridad de 17 páginas sobre Model Context Protocol. Eso importa cuando un mazo contiene algo más que vocabulario público. Una conexión MCP de Flashcards puede devolver al cliente de IA tarjetas, metadatos del espacio de trabajo e historial de repaso. Con esa misma credencial de acceso completo, el cliente también puede invocar una herramienta que modifica tarjetas o las marca como eliminadas. Para saber **si es seguro usar MCP con Flashcards**, hay que comprobar dos cosas: si esos datos pueden llegar al cliente elegido y si este puede usar las herramientas de escritura.
 
 OAuth protege la autorización y el intercambio de tokens. El servidor de Flashcards, por su parte, limita lo que pueden hacer sus herramientas. Ninguno de esos controles puede decidir si un cambio es acertado, mantener dentro de Flashcards los datos recuperados ni garantizar que el cliente de IA pedirá permiso antes de escribir.
 
@@ -33,7 +33,7 @@ En una sesión MCP remota pueden intervenir cuatro partes:
 
 Algunos productos reúnen las funciones de cliente y proveedor del modelo. Otros envían los resultados de las herramientas a un servicio distinto. Lo único garantizado es que Flashcards devuelve los datos solicitados al cliente MCP autenticado. Lo que suceda después depende de la arquitectura, el plan y la configuración del cliente. El resultado puede entrar en el contexto de un modelo, quedarse en la infraestructura de un proveedor o pasar a otro servicio que lo procese.
 
-Los riesgos concretos se concentran en tres puntos. Una lectura puede revelar el texto de las tarjetas, la estructura de los mazos, la configuración del espacio de trabajo o los eventos de repaso. Una escritura puede crear tarjetas no deseadas, cambiar contenido o marcar tarjetas y mazos como eliminados. El agente, además, puede malinterpretar tu solicitud o tomar como órdenes las instrucciones que encuentre en material importado.
+Los riesgos concretos se concentran en tres puntos. Una lectura puede revelar el texto de las tarjetas, la estructura de los mazos, la configuración del espacio de trabajo o los eventos de repaso. Una escritura puede crear tarjetas no deseadas, cambiar contenido, marcar tarjetas y mazos como eliminados o registrar un repaso que reprograma una tarjeta. El agente, además, puede malinterpretar tu solicitud o tomar como órdenes las instrucciones que encuentre en material importado.
 
 Las [recomendaciones de la NSA sobre MCP de mayo de 2026](https://www.nsa.gov/Press-Room/Press-Releases-Statements/Press-Release-View/Article/4496698/nsa-releases-security-design-considerations-for-ai-driven-automation-leveraging/) señalan una distinción importante. La autenticación, la autorización y la validación siguen siendo necesarias. Aun así, las llamadas dinámicas a herramientas, el contexto compartido y la confianza implícita crean riesgos que esos controles no resuelven. Un mazo público para aprender idiomas y otro creado a partir de notas confidenciales de un cliente requieren decisiones distintas.
 
@@ -43,19 +43,23 @@ Flashcards usa un flujo de código de autorización con PKCE y Dynamic Client Re
 
 Estas medidas protegen el inicio de sesión y el intercambio de tokens. La [especificación estable de autorización de MCP del 25 de noviembre de 2025](https://modelcontextprotocol.io/specification/2025-11-25/basic/authorization) exige PKCE para este flujo y tokens específicos para cada recurso. También aclara que la autorización es opcional en las implementaciones de MCP en general. Por eso, que un conector use OAuth no dice nada sobre otro servidor.
 
-Flashcards solo anuncia un alcance (scope) de OAuth: `flashcards`. No ofrece por separado un permiso OAuth de solo lectura y otro de lectura y escritura. Sus credenciales autorizan todas las funciones del conector. Por eso, decir que una configuración es «de solo lectura» significa únicamente que el cliente de IA ha desactivado o bloqueado `sql_execute`. El servidor sí impide que `sql_query` escriba. La misma credencial sigue autorizando `sql_execute` si el cliente envía esa llamada.
+Flashcards solo anuncia un alcance (scope) de OAuth: `flashcards`. No ofrece por separado un permiso OAuth de solo lectura y otro de lectura y escritura. Sus credenciales autorizan todas las funciones del conector. Por eso, decir que una configuración es «de solo lectura» significa únicamente que el cliente de IA ha desactivado o bloqueado tanto `sql_execute` como `submit_review`. El servidor sí impide que `sql_query` escriba. La misma credencial sigue autorizando cualquiera de las dos herramientas de escritura si el cliente envía esa llamada.
 
 Bloquear herramientas en el cliente es un control operativo útil. La concesión de OAuth no cambia y ese ajuste no limita a un cliente malicioso o comprometido que conserve la credencial.
 
-## Qué pueden hacer realmente las tres herramientas MCP de Flashcards
+## Qué pueden hacer realmente las herramientas MCP de Flashcards
 
-El conector no acepta PostgreSQL arbitrario. Expone un dialecto SQL cuyas reglas aplica un analizador. Cada herramienta tiene un alcance distinto:
+El conector no acepta PostgreSQL arbitrario. Expone un dialecto SQL cuyas reglas aplica un analizador. Cada una de sus siete herramientas tiene un alcance distinto:
 
 | Herramienta | Alcance actual | ¿Modifica datos? | Ajuste prudente en el cliente |
 | --- | --- | --- | --- |
 | `list_workspaces` | Muestra hasta 100 espacios de trabajo a los que puede acceder el usuario, junto con su ID, nombre, número de tarjetas activas y última actividad; también indica cuál es el predeterminado | No | Actívala solo si aceptas que el cliente reciba estos metadatos de la cuenta |
 | `sql_query` | Lee `workspace`, `cards`, `decks` y `review_events` en el espacio de trabajo solicitado | No | Actívala para una tarea de lectura bien delimitada y solicita solo las columnas necesarias |
 | `sql_execute` | Inserta, actualiza o marca como eliminados registros de `cards` y `decks` en el espacio de trabajo solicitado | Sí | Déjala desactivada salvo que el cliente pueda limitar las escrituras de una forma que consideres aceptable |
+| `get_guide` | Devuelve una guía de referencia fija sobre el dialecto SQL, la creación de tarjetas, la creación masiva de tarjetas o el flujo de repaso, sin leer datos del espacio de trabajo | No | Actívala; devuelve documentación, no tus tarjetas |
+| `next_review_card` | Devuelve el anverso de la siguiente tarjeta que toca repasar en el espacio de trabajo solicitado | No | Actívala para una sesión de repaso y recuerda que el texto de la tarjeta llega al cliente |
+| `reveal_answer` | Devuelve el reverso de una tarjeta en el espacio de trabajo solicitado | No | Actívala junto con `next_review_card` |
+| `submit_review` | Registra una valoración Again, Hard, Good o Easy y avanza la programación de FSRS de esa tarjeta | Sí | Déjala desactivada salvo que quieras que el agente registre los repasos por ti |
 
 La [guía de MCP](/es/docs/mcp-connector/) y la [referencia de la API](/es/docs/api/) describen el dialecto público. La implementación añade algunos detalles de seguridad que conviene conocer antes de decidir cuánto confiar en el conector.
 
@@ -69,7 +73,7 @@ Un espacio de trabajo de prueba ayuda a entender cómo presenta el cliente las l
 
 ### Qué puede revelar el acceso de solo lectura
 
-`list_workspaces` y `sql_query` no pueden modificar el estado de las tarjetas. Tampoco pueden reparar datos ni recalcular la programación de los repasos. Esta separación la impone el servidor. Si `sql_execute` no está disponible para el cliente, es mucho menos probable que una llamada accidental cambie la base de datos.
+`list_workspaces` y `sql_query` no pueden modificar el estado de las tarjetas. Tampoco pueden reparar datos ni recalcular la programación de los repasos. Esta separación la impone el servidor. Si `sql_execute` y `submit_review` no están disponibles para el cliente, es mucho menos probable que una llamada accidental cambie la base de datos.
 
 Aun así, los datos devueltos salen del backend de Flashcards. Una consulta sobre temas que todavía no dominas puede incluir el texto de las tarjetas y los eventos de repaso. Incluso una tarjeta breve puede contener datos de un paciente, el nombre de un sistema interno, un ejemplo personal en otro idioma o notas para una entrevista.
 
@@ -77,7 +81,7 @@ La [política de privacidad de Flashcards](/es/privacy/) se aplica a los datos s
 
 ### El acceso de escritura es más limitado que el acceso total a la base de datos
 
-`sql_execute` acepta `INSERT`, `UPDATE` y `DELETE`, aunque solo para `cards` y `decks`. Los recursos `workspace` y `review_events` son de solo lectura. Los campos de programación de las tarjetas —incluidas las fechas de vencimiento, el número de repasos y el estado persistente de FSRS— también son de solo lectura en este dialecto. MCP no puede registrar un repaso ni reescribir directamente el estado de programación de FSRS.
+`sql_execute` acepta `INSERT`, `UPDATE` y `DELETE`, aunque solo para `cards` y `decks`. Los recursos `workspace` y `review_events` son de solo lectura. Los campos de programación de las tarjetas —incluidas las fechas de vencimiento, el número de repasos y el estado persistente de FSRS— también son de solo lectura en este dialecto. SQL no puede escribir un repaso ni reescribir directamente el estado de programación de FSRS. Un repaso solo llega a la programación mediante `submit_review`, y un repaso guardado no se puede editar ni deshacer mediante MCP.
 
 Tanto `UPDATE` como `DELETE` exigen una cláusula `WHERE`. Esto impide ejecutar una instrucción sin filtro. Sin embargo, una condición válida pero amplia todavía puede coincidir con muchas filas. La validación sintáctica no puede saber si ese filtro expresa tu intención.
 
@@ -87,18 +91,18 @@ Los [Términos del servicio](/es/terms/) piden a los usuarios que revisen los re
 
 ## Las aprobaciones se controlan en el cliente
 
-Flashcards marca `sql_query` con `readOnlyHint` y `sql_execute` con `destructiveHint`. En el [esquema estable de MCP del 25 de noviembre de 2025](https://modelcontextprotocol.io/specification/2025-11-25/schema), las anotaciones de las herramientas son solo indicaciones. Ayudan a un cliente compatible a elegir una política de aprobación, pero no la imponen.
+Flashcards marca `sql_query` y las demás herramientas de lectura con `readOnlyHint`, y `sql_execute` y `submit_review` con `destructiveHint`. En el [esquema estable de MCP del 25 de noviembre de 2025](https://modelcontextprotocol.io/specification/2025-11-25/schema), las anotaciones de las herramientas son solo indicaciones. Ayudan a un cliente compatible a elegir una política de aprobación, pero no la imponen.
 
-Cuando Flashcards recibe una llamada a `sql_execute` válida y autenticada, la ejecuta de inmediato. No aparece una segunda pantalla de confirmación en Flashcards. Cualquier pausa para pedir aprobación humana ocurre en el cliente de IA, antes de que la petición llegue al servidor.
+Cuando Flashcards recibe una llamada a `sql_execute` o `submit_review` válida y autenticada, la ejecuta de inmediato. No aparece una segunda pantalla de confirmación en Flashcards. Cualquier pausa para pedir aprobación humana ocurre en el cliente de IA, antes de que la petición llegue al servidor.
 
 El comportamiento depende del cliente. Por ejemplo, la [documentación de OpenAI sobre el modo desarrollador](https://developers.openai.com/api/docs/guides/developer-mode) indica que las acciones de escritura requieren confirmación de forma predeterminada. El modo también permite recordar una decisión durante una conversación. Su [página de ayuda sobre las aplicaciones MCP](https://help.openai.com/en/articles/12584461-developer-mode-and-mcp-apps-in-chatgpt-beta) explica que las solicitudes de confirmación dependen de los permisos de la aplicación, el contexto y los controles del espacio de trabajo. Otros clientes pueden ofrecer controles distintos o ninguno.
 
 Usa la opción más estricta que ofrezca realmente tu cliente:
 
-- Si permite desactivar herramientas individuales, mantén `sql_execute` desactivada hasta que una tarea la necesite.
+- Si permite desactivar herramientas individuales, mantén `sql_execute` y `submit_review` desactivadas hasta que una tarea las necesite.
 - Si puede exigir aprobación para cada cambio, activa esa opción y no permitas que el cliente recuerde las aprobaciones de escritura.
 - Cuando te muestre una llamada propuesta, revisa el `workspaceId`, cada instrucción, las condiciones `WHERE` y el número de registros que esperas encontrar.
-- Si no puede bloquear la herramienta de escritura ni detenerse de forma fiable antes de las llamadas, trata la conexión como si tuviera permiso de escritura desde el primer momento.
+- Si no puede bloquear las herramientas de escritura ni detenerse de forma fiable antes de las llamadas, trata la conexión como si tuviera permiso de escritura desde el primer momento.
 
 Estos ajustes reducen la posibilidad de cometer un error. La respuesta del modelo sigue necesitando criterio humano.
 
@@ -108,7 +112,7 @@ Cada instrucción puede devolver o afectar un máximo de 100 registros. Cada lot
 
 Los lotes de cambios son atómicos: o se completan todas las instrucciones o falla la transacción. La atomicidad evita que los cambios queden aplicados a medias si una instrucción produce un error. No evalúa tu intención ni permite deshacer un lote válido una vez confirmada la transacción.
 
-El resultado serializado tiene además un límite de 48.000 caracteres. Este límite se aplica después de ejecutar el cambio y solo protege el tamaño de la respuesta MCP. Una modificación puede quedar confirmada antes de que se rechace un resultado demasiado grande. Para medir el impacto, toma como referencia el máximo de 100 filas por instrucción y consulta con `sql_query` cualquier objetivo amplio antes de escribir.
+El resultado serializado tiene además un límite de 48.000 caracteres. Este límite se aplica después de ejecutar el cambio y solo protege el tamaño de la respuesta MCP. Para entonces, la modificación ya está confirmada, así que un resultado de escritura demasiado grande se acorta en lugar de rechazarse. Para medir el impacto, toma como referencia el máximo de 100 filas por instrucción y consulta con `sql_query` cualquier objetivo amplio antes de escribir.
 
 ## La inyección de prompts puede venir del material de estudio
 
@@ -146,7 +150,7 @@ Si tu modelo de amenazas exige una revocación OAuth inmediata en el servidor, e
 2. Verifica la URL del servidor. El endpoint documentado es `https://mcp.flashcards-open-source-app.com/mcp`. Evita dominios que se le parezcan y definiciones de conectores copiadas de fuentes desconocidas.
 3. Lee las políticas de ambas partes. Empieza por la [política de privacidad de Flashcards](/es/privacy/) y comprueba después las reglas de conservación, entrenamiento, memoria, registro de actividad y eliminación del cliente de IA concreto.
 4. Decide si basta con un espacio de trabajo aparte. Sirve para ensayar, pero la conexión todavía puede dirigirse a otros espacios de trabajo de la misma cuenta. Usa otra cuenta o despliegue cuando necesites un aislamiento estricto.
-5. Empieza con `sql_execute` bloqueada en el cliente. Si el cliente no permite bloquearla, reconoce antes de conectarte que la credencial OAuth conserva la capacidad de escritura.
+5. Empieza con `sql_execute` y `submit_review` bloqueadas en el cliente. Si el cliente no permite bloquearlas, reconoce antes de conectarte que la credencial OAuth conserva la capacidad de escritura.
 6. Solicita solo los datos necesarios. Selecciona únicamente las columnas y filas que necesita la respuesta y no incluyas en la conversación secretos ajenos a la tarea.
 7. Haz una copia de seguridad verificada antes de aplicar cambios masivos. La [guía de copias de seguridad de Flashcards](/es/blog/how-to-back-up-flashcards/) explica el proceso general.
 8. Comprueba con `sql_query` todas las actualizaciones o eliminaciones amplias antes de ejecutarlas. Prefiere los ID exactos de tarjetas o mazos, compara el número de coincidencias con lo que esperabas y divide el cambio en instrucciones pequeñas.
@@ -157,14 +161,14 @@ Para configurar la conexión después de tomar estas decisiones, consulta [Cómo
 
 ## Cómo ayudan el código abierto y el autohospedaje
 
-El conector de Flashcards tiene varias propiedades útiles: herramientas separadas de lectura y escritura, una lista cerrada de instrucciones permitidas, comprobaciones de acceso al espacio de trabajo en cada llamada, campos de programación de solo lectura y código fuente público. Estos controles facilitan inspeccionar y limitar su alcance. Reducen el riesgo, pero no pueden garantizar que un cliente sea seguro ni que el modelo tome la decisión correcta.
+El conector de Flashcards tiene varias propiedades útiles: herramientas separadas de lectura y escritura, una lista cerrada de instrucciones permitidas, comprobaciones de acceso al espacio de trabajo en cada llamada, campos de programación que SQL no puede escribir y código fuente público. Estos controles facilitan inspeccionar y limitar su alcance. Reducen el riesgo, pero no pueden garantizar que un cliente sea seguro ni que el modelo tome la decisión correcta.
 
 Un [despliegue autohospedado](/es/docs/self-hosting/) puede trasladar el almacenamiento y las operaciones de Flashcards a una infraestructura bajo tu control. Pero las consultas que envíes a un servicio de IA externo seguirán llevando datos de las tarjetas fuera de ese despliegue. La ruta del modelo y del cliente debe cumplir el mismo estándar de privacidad que la base de datos.
 
 ## Una regla sencilla para decidir
 
-Usa las herramientas de lectura de MCP cuando aceptes que los datos solicitados salgan de Flashcards por la ruta del cliente elegido, las condiciones del proveedor te resulten aceptables y la tarea justifique esa divulgación. Considera que la conexión tiene acceso completo salvo que tu cliente haya bloqueado realmente `sql_execute`.
+Usa las herramientas de lectura de MCP cuando aceptes que los datos solicitados salgan de Flashcards por la ruta del cliente elegido, las condiciones del proveedor te resulten aceptables y la tarea justifique esa divulgación. Considera que la conexión tiene acceso completo salvo que tu cliente haya bloqueado realmente `sql_execute` y `submit_review`.
 
-Activa la herramienta de escritura solo para una tarea bien delimitada, cuando el cliente pueda detenerse antes de cada llamada importante, hayas comprobado previamente qué filas afectará y exista una copia de seguridad utilizable. Recuerda que un lote puede modificar mucho más de 100 registros y que MCP no ofrece una función para deshacer una eliminación.
+Activa una herramienta de escritura solo para una tarea bien delimitada, cuando el cliente pueda detenerse antes de cada llamada importante, hayas comprobado previamente qué filas afectará y exista una copia de seguridad utilizable. Recuerda que un lote puede modificar mucho más de 100 registros y que MCP no ofrece una función para deshacer una eliminación.
 
 No uses la conexión MCP si el mazo no se puede compartir con el cliente o sus procesadores o si no están claras las políticas que regirán los datos después de salir de Flashcards. Tampoco la uses si necesitas aislamiento estricto entre espacios de trabajo de una misma cuenta, si es obligatoria la revocación inmediata de OAuth o si el flujo requiere escrituras destructivas sin supervisión. En esos casos, usa Flashcards sin MCP o elige un despliegue y una ruta de modelo cuyo flujo de datos completo cumpla tus requisitos.

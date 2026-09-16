@@ -107,17 +107,21 @@ read the saved cards back so I can check them.
 
 Codex should start with the read-only workspace tool. Once you choose the workspace and organization, it can prepare the write. Check the workspace, fronts, backs, tags, deck changes, and number of affected records before approving it.
 
-The connector exposes three tools:
+The connector exposes seven tools:
 
 | Tool | What it can do | Writes data? |
 | --- | --- | --- |
 | `list_workspaces` | List Flashcards workspaces you can access | No |
 | `sql_query` | Read allowed workspace, card, deck, and review data | No |
 | `sql_execute` | Create, edit, or delete allowed cards and decks | Yes |
+| `get_guide` | Return a reference guide for SQL, card writing, bulk writes, or reviews | No |
+| `next_review_card` | Show the front of the next card to review | No |
+| `reveal_answer` | Show the back of that card after you answer | No |
+| `submit_review` | Record an Again, Hard, Good, or Easy rating and update the FSRS schedule | Yes |
 
 The names look technical because the connector uses a small SQL-style contract. You do not have to write SQL yourself. Ask for the result in ordinary language and review the proposed change.
 
-This is not unrestricted database access. Every request stays inside an authorized workspace, and the server accepts only its documented reads and card or deck writes. The [MCP safety guide](/blog/is-mcp-safe-for-flashcards/) explains the privacy path, limits, approvals, and deletion risk in more detail.
+This is not unrestricted database access. Every request stays inside an authorized workspace, and the server accepts only its documented reads, card or deck writes, and review ratings. The [MCP safety guide](/blog/is-mcp-safe-for-flashcards/) explains the privacy path, limits, approvals, and deletion risk in more detail.
 
 ## Codex can clean up the deck after the study session
 
@@ -140,7 +144,7 @@ In Flashcards, decks are saved filters. Putting a card under a different deck ma
 
 ## The real FSRS review still happens in Flashcards
 
-The MCP connector can read allowed review history in `review_events` and FSRS state and scheduling fields. Its write tool cannot create review events, submit an Again, Hard, Good, or Easy rating, or change the FSRS state or schedule. Those fields are read-only on this connector surface.
+The MCP connector can read allowed review history in `review_events` and FSRS state and scheduling fields. Its SQL write tool cannot create review events, submit an Again, Hard, Good, or Easy rating, or change the FSRS state or schedule. The connector can record a rating only through its separate `submit_review` tool, and this workflow leaves reviews to the app.
 
 Open the [Flashcards web app](https://app.flashcards-open-source-app.com/) or a mobile client when the cards are due. Recall the answer, reveal the back, and choose your rating there. Flashcards records the review, and FSRS decides when the card should return.
 

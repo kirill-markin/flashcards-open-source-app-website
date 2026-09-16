@@ -75,7 +75,7 @@ Flashcards Open Source App 公布的远程 MCP 端点是：
 
 `https://mcp.flashcards-open-source-app.com/mcp`
 
-[MCP 连接器文档](/docs/mcp-connector/)定义了三个工具：`list_workspaces`、用于读取的 `sql_query`，以及用于写入的 `sql_execute`。交互式 MCP 客户端可以通过 OAuth 授权。终端中的智能体则可以从 [Agent API 文档](/docs/api/)入手，使用文档中的 HTTP 流程。
+[MCP 连接器文档](/docs/mcp-connector/)定义了七个工具：`list_workspaces`、用于读取的 `sql_query`、用于写入的 `sql_execute`、用于获取参考指南的 `get_guide`，以及用于复习的 `next_review_card`、`reveal_answer` 和 `submit_review`。交互式 MCP 客户端可以通过 OAuth 授权。终端中的智能体则可以从 [Agent API 文档](/docs/api/)入手，使用文档中的 HTTP 流程。
 
 这不会让 Flashcards 变成 Quizlet 连接器。受支持的流程是：
 
@@ -94,7 +94,7 @@ Flashcards 无法读取 Quizlet URL、镜像 Quizlet 账户、同步 Quizlet 后
 
 公开的接口契约可以减少集成时的猜测，但不会让每次 MCP 操作都自动变得安全。OAuth 只负责验证连接身份；它无法保证 AI 生成的卡片内容正确，无法确保返回的卡片数据仍留在闪卡服务内，也无法判断某次编辑是否符合你的意图。
 
-Flashcards 将读取操作与写入工具 `sql_execute` 分开。OAuth 凭据仍可调用整套连接器接口，因此能否禁用某项工具、写入前是否需要审批，都由客户端决定。先从一个小型且不含敏感内容的工作区开始，只让智能体读取任务所需的数据。如果客户端支持，让每次写入都单独审批；接受更改之前，先检查工作区和准备提交的修改。
+Flashcards 将读取操作与写入工具分开：`sql_execute` 用于卡片和牌组，`submit_review` 用于复习。OAuth 凭据仍可调用整套连接器接口，因此能否禁用某项工具、写入前是否需要审批，都由客户端决定。先从一个小型且不含敏感内容的工作区开始，只让智能体读取任务所需的数据。如果客户端支持，让每次写入都单独审批；接受更改之前，先检查工作区和准备提交的修改。
 
 在确认 AI 客户端的数据保留与处理条款之前，不要连接私密学习资料。详细的威胁模型见[用 MCP 管理闪卡安全吗？](/blog/is-mcp-safe-for-flashcards/)。第一次迁移时，遵循一条简单规则就够了：保留原始导出文件，预览几张卡片，只批准范围明确的写入，然后在目标应用中核对结果，再扩大处理范围。
 

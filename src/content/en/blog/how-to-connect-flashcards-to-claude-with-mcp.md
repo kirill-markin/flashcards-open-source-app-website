@@ -60,10 +60,11 @@ If you are on a Team or Enterprise workspace, an Owner or Primary Owner can add 
 
 ## Set the first permissions conservatively
 
-The Flashcards connector shown here exposes a small tool surface:
+For creating cards, four of the connector's tools matter:
 
 - `list_workspaces` for listing available workspaces
 - `sql_query` for read access
+- `get_guide` for the card-writing rules Claude reads before its first write
 - `sql_execute` for write actions such as creating cards
 
 Claude lets you set each tool to **Always allow**, **Needs approval**, or **Blocked**.

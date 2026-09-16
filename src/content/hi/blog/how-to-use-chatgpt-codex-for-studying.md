@@ -107,17 +107,21 @@ tags और डेक में होने वाले बदलाव दि
 
 Codex को शुरुआत read-only workspace tool से करनी चाहिए। Workspace और डेक की व्यवस्था चुनने के बाद वह बदलाव तैयार कर सकता है। मंज़ूरी देने से पहले workspace, fronts, backs, tags, डेक में होने वाले बदलाव और प्रभावित records की संख्या जाँचें।
 
-Connector तीन tools देता है:
+Connector सात tools देता है:
 
 | Tool | यह क्या कर सकता है | क्या डेटा लिखता है? |
 | --- | --- | --- |
 | `list_workspaces` | आपकी पहुँच वाले Flashcards workspaces की सूची दिखाता है | नहीं |
 | `sql_query` | अनुमति वाला workspace, card, deck और review data पढ़ता है | नहीं |
 | `sql_execute` | अनुमति वाले कार्ड और डेक बनाता, बदलता या मिटाता है | हाँ |
+| `get_guide` | SQL, कार्ड लिखने, bulk writes या रिव्यू के लिए reference guide देता है | नहीं |
+| `next_review_card` | रिव्यू के लिए अगले कार्ड का front दिखाता है | नहीं |
+| `reveal_answer` | आपके जवाब देने के बाद उसी कार्ड का back दिखाता है | नहीं |
+| `submit_review` | Again, Hard, Good या Easy rating दर्ज करता है और FSRS schedule update करता है | हाँ |
 
 नाम तकनीकी लगते हैं क्योंकि connector एक छोटा SQL-style contract इस्तेमाल करता है। आपको खुद SQL लिखने की ज़रूरत नहीं है। नतीजा सामान्य भाषा में माँगें और प्रस्तावित बदलाव जाँचें।
 
-यह database का खुला access नहीं है। हर request उसी workspace तक सीमित रहती है जिसकी अनुमति मिली है, और server सिर्फ़ अपने दस्तावेज़ों में तय read requests तथा कार्ड या डेक में बदलाव स्वीकार करता है। [MCP safety guide](/hi/blog/is-mcp-safe-for-flashcards/) बताती है कि डेटा कहाँ जाता है, क्या सीमाएँ हैं, मंज़ूरी कैसे काम करती है और कार्ड मिटाने में क्या जोखिम है।
+यह database का खुला access नहीं है। हर request उसी workspace तक सीमित रहती है जिसकी अनुमति मिली है, और server सिर्फ़ अपने दस्तावेज़ों में तय read requests, कार्ड या डेक में बदलाव और रिव्यू ratings स्वीकार करता है। [MCP safety guide](/hi/blog/is-mcp-safe-for-flashcards/) बताती है कि डेटा कहाँ जाता है, क्या सीमाएँ हैं, मंज़ूरी कैसे काम करती है और कार्ड मिटाने में क्या जोखिम है।
 
 ## पढ़ाई के बाद Codex डेक भी साफ़ कर सकता है
 
@@ -140,7 +144,7 @@ Flashcards में decks सेव किए गए filters होते ह�
 
 ## असली FSRS रिव्यू अब भी Flashcards में ही होता है
 
-MCP connector अनुमति वाली review history के साथ FSRS state और scheduling fields पढ़ सकता है। उसका write tool `review_events` नहीं बना सकता, Again, Hard, Good या Easy rating दर्ज नहीं कर सकता और FSRS state या schedule नहीं बदल सकता। इस connector के लिए ये fields read-only हैं।
+MCP connector अनुमति वाली review history के साथ FSRS state और scheduling fields पढ़ सकता है। उसका SQL write tool `review_events` नहीं बना सकता, Again, Hard, Good या Easy rating दर्ज नहीं कर सकता और FSRS state या schedule नहीं बदल सकता। Connector rating सिर्फ़ अपने अलग `submit_review` tool से दर्ज कर सकता है, और यह workflow रिव्यू app पर ही छोड़ता है।
 
 कार्डों के रिव्यू का समय आने पर [Flashcards web app](https://app.flashcards-open-source-app.com/) या mobile app खोलें। जवाब याद करें, back दिखाएँ और वहीं अपनी rating चुनें। Flashcards रिव्यू दर्ज करता है और FSRS तय करता है कि कार्ड अगली बार कब लौटेगा।
 

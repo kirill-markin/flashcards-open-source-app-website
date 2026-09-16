@@ -231,7 +231,7 @@ La URL MCP de Flashcards es:
 https://mcp.flashcards-open-source-app.com/mcp
 ```
 
-El conector ofrece `list_workspaces` y `sql_query`, que es de solo lectura, además de la herramienta de escritura `sql_execute`. Mantén la transferencia bien acotada:
+Para guardar tarjetas, el conector ofrece `list_workspaces`, la herramienta de solo lectura `sql_query` y `get_guide` con las reglas para redactar tarjetas, además de la herramienta de escritura `sql_execute`. Mantén la transferencia bien acotada:
 
 ```text
 Usa el conector de Flashcards únicamente con las tarjetas que he aprobado. Primero,
@@ -243,7 +243,7 @@ que pueda verificarlas.
 
 La [guía paso a paso del conector de Claude](/blog/how-to-connect-flashcards-to-claude-with-mcp/) explica la configuración y los permisos; no hace falta repetir ese proceso dentro de una sesión de estudio. La [referencia del conector MCP](/docs/mcp-connector/) documenta las herramientas y la autenticación actuales.
 
-Claude puede crear las tarjetas aprobadas, pero la programación con FSRS y los repasos se realizan en la aplicación Flashcards. Abre la [aplicación web](https://app.flashcards-open-source-app.com/) cuando llegue el momento de repasar, intenta recordar la respuesta, muéstrala y registra allí el resultado. Si prefieres que el conector no tenga acceso, copiar las tarjetas a mano sigue siendo un flujo de trabajo completo.
+Claude puede crear las tarjetas aprobadas, pero la programación con FSRS se queda en Flashcards. Abre la [aplicación web](https://app.flashcards-open-source-app.com/) cuando llegue el momento de repasar, intenta recordar la respuesta, muéstrala y registra allí el resultado. Si prefieres que el conector no tenga acceso, copiar las tarjetas a mano sigue siendo un flujo de trabajo completo.
 
 ## Claude sigue necesitando supervisión
 
