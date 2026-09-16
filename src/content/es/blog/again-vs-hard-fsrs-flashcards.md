@@ -115,7 +115,7 @@ Si el anverso pregunta por la capital de Burkina Faso y necesitas la pista «Emp
 
 Una ayuda incluida de antemano en el anverso forma parte de la tarjeta. Si el anverso siempre incluye una letra inicial, un diagrama, el contexto de una frase o una hoja de fórmulas, juzga la respuesta con esa ayuda presente. Estás valorando el intento con la tarjeta que diseñaste.
 
-La tutoría con IA sigue la misma regla. Una IA puede revelar una pista, comparar textos o guardar una nota de la sesión. Esa nota no es una valoración de FSRS, y una comparación convincente no demuestra que ninguna de las respuestas sea correcta. Por eso, el [flujo de trabajo con un tutor de flashcards con IA](/es/blog/ai-flashcard-tutor-due-cards/) mantiene los intentos iniciales separados de los repasos oficiales.
+La tutoría con IA sigue la misma regla. En el [flujo de trabajo con un tutor de flashcards con IA](/es/blog/ai-flashcard-tutor-due-cards/), el tutor valora tu primer intento, no lo que aprendiste al ver la respuesta, y registra esa valoración como un repaso de FSRS de verdad mediante `submit_review`. Las reglas de valoración vienen de `get_guide` con el tema `review_flow`, y el prompt para el tutor que propone el artículo añade la regla de esta sección: un intento que necesitó una pista se valora como Again. La valoración sigue siendo el criterio del modelo, así que di la valoración junto con tu respuesta o pide valoraciones manuales si quieres tener la última palabra.
 
 ## Valora por separado cada intento durante el reaprendizaje
 
