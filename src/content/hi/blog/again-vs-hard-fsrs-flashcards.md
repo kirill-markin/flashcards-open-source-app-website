@@ -115,7 +115,7 @@ Hint सीखने में मदद कर सकती है, लेक�
 
 कार्ड के सामने जानबूझकर दिया गया संकेत उसी कार्ड का हिस्सा है। अगर वहाँ हमेशा पहला अक्षर, चित्र, वाक्य का संदर्भ या formula sheet रहती है, तो उसी संकेत के साथ जवाब का आकलन कीजिए। आप अपने बनाए सवाल पर rating दे रहे हैं।
 
-AI tutor के साथ भी यही सीमा ज़रूरी है। AI hint दिखा सकता है, लिखे हुए जवाबों की तुलना कर सकता है या session note रख सकता है। उसका note FSRS rating नहीं है। अच्छी तरह लिखी तुलना भी यह साबित नहीं करती कि दोनों में से कोई जवाब तथ्यात्मक रूप से सही है। इसी वजह से [AI flashcard tutor workflow](/hi/blog/ai-flashcard-tutor-due-cards/) पहली कोशिशों को आधिकारिक reviews से अलग रखता है।
+AI tutor के साथ भी यही सीमा ज़रूरी है। [AI flashcard tutor workflow](/hi/blog/ai-flashcard-tutor-due-cards/) में tutor आपकी पहली कोशिश को grade करता है, जवाब देखने के बाद आपने जो जाना उसे नहीं, और `submit_review` के ज़रिए उसी grade को असली FSRS review के रूप में दर्ज करता है। Grading के नियम `get_guide` के `review_flow` topic से आते हैं, और उस लेख का tutor prompt यही hint वाला नियम भी जोड़ता है: जिस कोशिश में hint लगा हो, उसे `Again` rate किया जाता है। फिर भी grade model का आकलन ही है, इसलिए आख़िरी फ़ैसला अपने हाथ में रखना हो, तो जवाब के साथ ही rating बता दीजिए या manual ratings माँगिए।
 
 ## Relearning के दौरान हर कोशिश की अलग rating दें
 
