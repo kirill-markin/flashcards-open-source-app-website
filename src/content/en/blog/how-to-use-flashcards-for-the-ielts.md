@@ -66,6 +66,8 @@ Better cards:
 
 Sentence cards do more useful work because they preserve meaning, grammar, and exam context at the same time.
 
+For general English practice alongside your exam work, [English phrasal verb flashcards](/catalog/packages/english-phrasal-verbs-flashcards/) cover meanings in context and word order, including object-pronoun placement.
+
 If your main goal is broader language growth outside the exam, [How to Use Flashcards for Language Learning in 2026](/blog/how-to-use-flashcards-for-language-learning/) is the better companion article.
 
 ## IELTS Speaking cards should train expansion, not scripts
