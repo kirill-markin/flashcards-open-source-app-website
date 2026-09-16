@@ -145,13 +145,13 @@ las tarjetas guardadas después.
 
 En Flashcards, los mazos son filtros guardados. Colocar una tarjeta en otro mazo puede implicar cambiar sus etiquetas, así que revísalas también. Puedes usar el mismo método de revisar primero y aprobar después para crear un mazo, reorganizar un conjunto pequeño o eliminar tarjetas que hayas identificado de forma explícita. «Elimina todo lo que parezca malo» es una petición arriesgada en cualquier herramienta con acceso real de escritura.
 
-## El repaso real con FSRS sigue haciéndose en Flashcards
+## El repaso real con FSRS es el que registra Flashcards
 
-El conector MCP puede leer el historial de repasos y los campos permitidos del estado y la programación de FSRS. Su herramienta de escritura SQL no puede crear eventos de repaso (`review_events`), registrar una valoración Again, Hard, Good o Easy ni cambiar el estado o la programación de FSRS. El conector solo puede registrar una valoración mediante su herramienta independiente `submit_review`, y este flujo deja los repasos en manos de la app.
+El conector MCP puede leer el historial de repasos y los campos permitidos del estado y la programación de FSRS. Su herramienta de escritura SQL no puede crear eventos de repaso (`review_events`), registrar una valoración Again, Hard, Good o Easy ni cambiar el estado o la programación de FSRS. El conector solo puede registrar una valoración mediante su herramienta independiente `submit_review`, así que puedes hacer un repaso en la app o dejar que Codex lo dirija.
 
 Abre la [app web de Flashcards](https://app.flashcards-open-source-app.com/) o una app móvil cuando toque repasar las tarjetas. Intenta recordar la respuesta, revela el reverso y elige allí tu valoración. Flashcards registra el repaso y FSRS decide cuándo debe volver la tarjeta.
 
-Codex sí puede hacerte un cuestionario informal a partir de los datos de tarjetas que autorices. Trátalo como una práctica adicional. No sustituye el repaso programado en Flashcards. La [guía del tutor de flashcards con IA](/es/blog/ai-flashcard-tutor-due-cards/) explica esta diferencia con un flujo completo de preguntas.
+Codex también puede hacerte un cuestionario informal a partir de los datos de tarjetas que autorices. Trátalo como una práctica adicional: un cuestionario por sí solo no registra ningún repaso ni cambia tu programación. Cuando quieras un repaso oficial, pídele a Codex que lo haga con las herramientas de repaso. Codex usa `next_review_card` para mostrar solo el anverso, `reveal_answer` para mostrar el reverso después de que respondas y `submit_review` para registrar la valoración, de modo que FSRS pueda reprogramar la tarjeta. Codex califica tu respuesta, a menos que le pidas que te deje elegir cada valoración. La [guía del tutor de flashcards con IA](/es/blog/ai-flashcard-tutor-due-cards/) explica ese ciclo de repaso con más detalle.
 
 ## Codex CLI usa la misma configuración MCP
 
