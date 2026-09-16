@@ -7,6 +7,10 @@ description: खोज, OTP की शुरुआती प्रक्रि�
 
 यह पेज Flashcards के लिए बाहरी AI एजेंटों के मौजूदा अनुबंध का विवरण देता है।
 
+अगर आपका क्लाइंट MCP बोलता है, तो [MCP कनेक्टर](/docs/mcp-connector/) कनेक्ट करने का
+सबसे सरल तरीका है और यह इसी डेटा इंटरफ़ेस को अपने भीतर समेटता है। यह पेज CLI एजेंटों
+द्वारा उपयोग किए जाने वाले HTTP खोज, SQL, गाइड और समीक्षा अनुबंध का विवरण देता है।
+
 शुरुआत मानक खोज प्रवेश बिंदु से करें:
 
 ```text
@@ -22,6 +26,7 @@ GET https://api.flashcards-open-source-app.com/v1/
 - account context प्राप्त करे
 - workspace बनाए या चुने
 - प्रकाशित SQL इंटरफ़ेस के जरिए आगे बढ़े
+- संदर्भ गाइड प्राप्त करे और एक-एक करके कार्डों की समीक्षा करे
 
 ## रनटाइम डिस्कवरी और स्रोत
 
@@ -94,6 +99,10 @@ curl -X POST https://auth.flashcards-open-source-app.com/api/agent/verify-code \
 - `POST /v1/agent/workspaces/{workspaceId}/select`
 - `POST /v1/agent/sql/query` (केवल पढ़ने के लिए)
 - `POST /v1/agent/sql/execute` (लिखने के लिए)
+- `GET /v1/agent/guide/{topic}` (केवल पढ़ने के लिए)
+- `POST /v1/agent/reviews/next` (केवल पढ़ने के लिए)
+- `POST /v1/agent/reviews/reveal` (केवल पढ़ने के लिए)
+- `POST /v1/agent/reviews/submit` (लिखने के लिए)
 
 सामान्य शुरुआती क्रम इस तरह होता है:
 
@@ -105,20 +114,25 @@ curl -X POST https://auth.flashcards-open-source-app.com/api/agent/verify-code \
 
 हर API key connection के लिए workspace selection अलग से स्पष्ट रूप से किया जाता है। अगला कदम अनुमान से तय करने के बजाय एजेंटों को लौटाए गए `instructions` text और runtime routes के लिए `docs.discoveryUrl`, साथ ही implementation details के लिए `docs.source.agentRoutesUrl` का पालन करना चाहिए।
 
+SQL और समीक्षा routes JSON body में एक वैकल्पिक `workspaceId` भी स्वीकार करते हैं। यह workspace selection बदले बिना केवल एक कॉल के लिए उस workspace को लक्षित करता है; चुने हुए workspace का उपयोग करने के लिए इसे छोड़ दें। जब न कोई selection हो और न कोई `workspaceId`, तो वे `409 WORKSPACE_SELECTION_REQUIRED` लौटाते हैं।
+
 ## SQL इंटरफ़ेस
 
-`POST /v1/agent/sql/query` सख्ती से केवल पढ़ने का इंटरफ़ेस है (`SHOW TABLES`, `DESCRIBE`, `SELECT`) और `POST /v1/agent/sql/execute` लिखने का इंटरफ़ेस है (`INSERT`, `UPDATE`, `DELETE`); एक ही कॉल या तो पूरी तरह पढ़ने की होनी चाहिए या पूरी तरह लिखने की।
+`POST /v1/agent/sql/query` सख्ती से केवल पढ़ने का इंटरफ़ेस है (`SHOW TABLES`, `DESCRIBE`, `SHOW COLUMNS`, `SELECT`) और `POST /v1/agent/sql/execute` लिखने का इंटरफ़ेस है (`INSERT`, `UPDATE`, `DELETE`); एक ही कॉल या तो पूरी तरह पढ़ने की होनी चाहिए या पूरी तरह लिखने की।
 
 इसे जानबूझकर सीमित रखा गया है; यह पूरा PostgreSQL नहीं है। ये दस्तावेज़ केवल
 समर्थित बोली को कवर करते हैं, PostgreSQL compatibility reference नहीं हैं।
 
 कोई भी read path डेटा की मरम्मत, scheduling की पुनर्गणना, या कार्ड state में
-बदलाव नहीं करता। हर write के लिए `POST /v1/agent/sql/execute` का उपयोग करें।
+बदलाव नहीं करता। कार्ड और डेक के हर write के लिए `POST /v1/agent/sql/execute` का
+उपयोग करें। SQL `review_events` या FSRS scheduling state नहीं लिख सकता; समीक्षाएँ
+`POST /v1/agent/reviews/submit` के जरिए दर्ज करें।
 
 फ़िलहाल समर्थित स्टेटमेंट प्रकार:
 
 - `SHOW TABLES`
 - `DESCRIBE <resource>`
+- `SHOW COLUMNS FROM <resource>`
 - `SELECT`
 - `INSERT`
 - `UPDATE`
@@ -136,7 +150,7 @@ curl -X POST https://auth.flashcards-open-source-app.com/api/agent/verify-code \
 - `LIMIT` का default `100` है और इसकी अधिकतम सीमा भी `100` ही है
 - स्थिर pagination चाहिए तो `ORDER BY` का उपयोग करें
 - schema जानने के लिए `SHOW TABLES` या `DESCRIBE cards` का उपयोग करें
-- selection के बाद यह बाहरी एजेंट अनुबंध workspace-scoped हो जाता है
+- हर SQL कॉल एक workspace तक सीमित है: body में दिया गया `workspaceId`, या चुना हुआ workspace
 
 उदाहरण अनुरोध:
 
@@ -169,7 +183,7 @@ curl -X POST https://api.flashcards-open-source-app.com/v1/agent/sql/execute \
   }'
 ```
 
-`https://mcp.flashcards-open-source-app.com/mcp` पर एक रिमोट MCP सर्वर भी उपलब्ध है, जो OAuth 2.1 (Dynamic Client Registration + PKCE) का उपयोग करता है। यह वही विभाजन दो टूल के रूप में देता है, `sql_query` (सख्ती से केवल पढ़ने के लिए) और `sql_execute` (लिखने के लिए), साथ ही सख्ती से केवल पढ़ने वाला `list_workspaces`।
+`https://mcp.flashcards-open-source-app.com/mcp` पर एक रिमोट MCP सर्वर भी उपलब्ध है, जो OAuth 2.1 (Dynamic Client Registration + PKCE) का उपयोग करता है। यह वही SQL विभाजन `sql_query` (सख्ती से केवल पढ़ने के लिए) और `sql_execute` (लिखने के लिए) के रूप में देता है, साथ ही `list_workspaces`, `get_guide`, और समीक्षा टूल `next_review_card`, `reveal_answer` और `submit_review`; देखें [MCP कनेक्टर](/docs/mcp-connector/)।
 
 ### सुरक्षा और दायरा
 
@@ -177,9 +191,55 @@ SQL सतह कच्चे PostgreSQL के बजाय एक सीमि
 
 - **बंद स्टेटमेंट अनुमति-सूची**: पढ़ने के लिए केवल `SHOW TABLES`, `DESCRIBE`, `SHOW COLUMNS` और `SELECT`, तथा लिखने के लिए `INSERT`, `UPDATE` और `DELETE`। बाकी सब कुछ पार्स के समय अस्वीकार कर दिया जाता है।
 - **सीमित संसाधन**: स्टेटमेंट केवल `workspace`, `cards`, `decks` और `review_events` संसाधनों को ही छू सकते हैं।
-- **प्रति-वर्कस्पेस दायरा**: हर स्टेटमेंट आपके चुने हुए वर्कस्पेस तक सीमित है, किसी अन्य टेनेंट तक पहुँच नहीं।
+- **प्रति-वर्कस्पेस दायरा**: हर स्टेटमेंट आपकी पहुँच वाले एक वर्कस्पेस तक सीमित है, या तो request body में दिया गया `workspaceId` या आपका चुना हुआ वर्कस्पेस, किसी अन्य टेनेंट तक पहुँच नहीं।
+- **सख्त request body**: SQL और समीक्षा routes किसी अज्ञात body field को अस्वीकार करते हैं, इसलिए गलत वर्तनी वाला `workspaceId` चुने हुए वर्कस्पेस पर चलने के बजाय विफल हो जाता है।
 - **सीमाएँ**: प्रति स्टेटमेंट अधिकतम `100` पंक्तियाँ, प्रति बैच अधिकतम `50` स्टेटमेंट, और परिणाम की सीमा लगभग `12k` टोकन। म्यूटेशन बैच परमाणु रूप से लागू होते हैं।
-- **पढ़ने/लिखने का विभाजन**: `sql_query` और `list_workspaces` सख्ती से केवल पढ़ने के लिए हैं (`readOnlyHint`) और डेटा की मरम्मत, scheduling की पुनर्गणना, या कार्ड state में बदलाव कभी नहीं करते। `sql_execute` एकमात्र write tool है और लिखने का कार्य करता है (`destructiveHint`); एक ही कॉल या तो पूरी तरह पढ़ने की होनी चाहिए या पूरी तरह लिखने की।
+- **पढ़ने/लिखने का विभाजन**: `sql_query` और `list_workspaces` सख्ती से केवल पढ़ने के लिए हैं (`readOnlyHint`) और डेटा की मरम्मत, scheduling की पुनर्गणना, या कार्ड state में बदलाव कभी नहीं करते। `sql_execute` एकमात्र SQL write tool है और लिखने का कार्य करता है (`destructiveHint`); एक ही कॉल या तो पूरी तरह पढ़ने की होनी चाहिए या पूरी तरह लिखने की। SQL `review_events` या FSRS scheduling state नहीं लिख सकता; केवल `POST /v1/agent/reviews/submit` (MCP `submit_review`) ही समीक्षा दर्ज करता है।
+
+## गाइड
+
+`GET /v1/agent/guide/{topic}` `data.guide` में एक संदर्भ गाइड लौटाता है, यह वही सामग्री है जो MCP `get_guide` टूल देता है। विषय:
+
+- `sql_dialect`: पूरा SQL व्याकरण, सीमाएँ और उदाहरण
+- `card_authoring`: कार्ड अनुबंध, tags, डुप्लिकेट जाँच और फ़ॉर्मैटिंग
+- `bulk_authoring`: किसी बड़े write job को बाँटना और सत्यापित करना
+- `review_flow`: समीक्षा और रेटिंग का चक्र
+
+अज्ञात विषय पर समर्थित विषयों की सूची के साथ `400` उत्तर मिलता है। कार्ड लिखने, बड़ी मात्रा में लिखने, या समीक्षा चलाने से पहले संबंधित गाइड प्राप्त करें, और किसी स्टेटमेंट के अस्वीकार होने के बाद `sql_dialect` फिर से पढ़ें।
+
+```bash
+curl https://api.flashcards-open-source-app.com/v1/agent/guide/sql_dialect \
+  -H "Authorization: ApiKey $FLASHCARDS_OPEN_SOURCE_API_KEY"
+```
+
+## समीक्षाएँ
+
+समीक्षा routes किसी एजेंट को एक समय में एक कार्ड पर शिक्षार्थी से प्रश्न पूछने और हर रेटिंग को कार्ड के FSRS schedule में सहेजने देते हैं। ये वही JSON arguments लेते हैं जो MCP समीक्षा टूल लेते हैं:
+
+- `POST /v1/agent/reviews/next` `cardId` और `frontText` के साथ `card` लौटाता है, या कुछ भी बकाया न होने पर `card: null`। वैकल्पिक `tags` (इनमें से कोई भी) या `deckId` कतार को सीमित करता है, दोनों एक साथ कभी नहीं; बिना body वाला अनुरोध भी मान्य है।
+- `POST /v1/agent/reviews/reveal` के लिए `cardId` आवश्यक है और यह उस कार्ड का `backText` लौटाता है।
+- `POST /v1/agent/reviews/submit` के लिए `cardId`, क्लाइंट द्वारा बनाया गया एक `reviewId` UUID, `Again`, `Hard`, `Good` या `Easy` में से एक `rating`, और शिक्षार्थी का IANA `reviewedTimeZone` आवश्यक है। सर्वर समीक्षा का समय दर्ज करता है और कार्ड का नया schedule लौटाता है, जिसमें `dueAt`, `state`, `reps` और `lapses` शामिल हैं।
+
+तीनों routes वैकल्पिक `workspaceId` स्वीकार करते हैं। सबमिट करने से पहले `reviewId` को सुरक्षित रखें, और किसी अनिश्चित सबमिशन को बिल्कुल उसी अनुरोध के साथ दोबारा आज़माएँ; यह कभी दूसरी समीक्षा दर्ज नहीं करता। समीक्षा routes ये उत्तर भी दे सकते हैं:
+
+- `409 REVIEW_EVENT_CONFLICT`: समीक्षा पहले ही दर्ज हो चुकी है, और `error.details.reviewSchedule` में कार्ड का वर्तमान schedule होता है।
+- `409 REVIEW_ID_CARD_MISMATCH`: `reviewId` पहले से किसी दूसरे कार्ड की समीक्षा की पहचान करता है, इसलिए कुछ भी संग्रहीत नहीं हुआ; नए `reviewId` के साथ फिर से सबमिट करें।
+- `409 REVIEW_STALE`: कार्ड का संग्रहीत समीक्षा समय वर्तमान सर्वर समय के बराबर या उसके बाद का है; किसी दूसरे कार्ड की समीक्षा करें।
+- `400 REVIEW_INPUT_INVALID`: कोई argument गायब, अमान्य या असमर्थित है, जिसमें `deckId` के साथ मिलाए गए `tags` या ऐसा tag शामिल है जिसका workspace उपयोग नहीं करता।
+
+उदाहरण सबमिशन:
+
+```bash
+curl -X POST https://api.flashcards-open-source-app.com/v1/agent/reviews/submit \
+  -H "Content-Type: application/json" \
+  -H "Authorization: ApiKey $FLASHCARDS_OPEN_SOURCE_API_KEY" \
+  -d '{
+    "cardId":"693c4863-28a2-45e8-8f55-9fa31fc95ff2",
+    "reviewId":"429bb7cc-40fb-49f3-bb50-48a5db2826d1",
+    "rating":"Good",
+    "reviewedTimeZone":"Europe/Sofia"
+  }'
+```
 
 ## उपयोगकर्ता और समन्वयन API
 

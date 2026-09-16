@@ -61,7 +61,7 @@ Web アプリ                               -> app.<domain>  -> CloudFront -> SP
 1. エージェントは `GET /v1/` から開始する
 2. OTP による初期認証は `auth.<domain>` 上で行う
 3. エージェントは長期間有効な API キーを受け取る
-4. エージェントは `/v1/agent/me` を読み込み、ワークスペース一覧を取得し、必要に応じて選択してから `/v1/agent/sql` を使う
+4. エージェントは `/v1/agent/me` を読み込み、ワークスペース一覧を取得し、必要に応じて選択してから `/v1/agent/sql/query` と `/v1/agent/sql/execute` を使う
 
 ## スケジューリング
 
