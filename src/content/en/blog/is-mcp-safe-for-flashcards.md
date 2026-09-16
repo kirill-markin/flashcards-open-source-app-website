@@ -14,7 +14,7 @@ keywords:
   - "MCP prompt injection"
 ---
 
-On May 20, 2026, the NSA published 17 pages of security guidance about Model Context Protocol. That matters if a deck contains more than public vocabulary: a Flashcards MCP connection can return cards, workspace metadata, and review history to an AI client. The same full-access credential can also call a tool that changes cards or marks them deleted. For anyone asking **is MCP safe for flashcards**, two checks decide it: whether that data may reach the chosen client and whether the client can use the write tool.
+On May 20, 2026, the NSA published 17 pages of security guidance about Model Context Protocol. That matters if a deck contains more than public vocabulary: a Flashcards MCP connection can return cards, workspace metadata, and review history to an AI client. The same full-access credential can also call a tool that changes cards or marks them deleted. For anyone asking **is MCP safe for flashcards**, two checks decide it: whether that data may reach the chosen client and whether the client can use the write tools.
 
 OAuth protects authorization and token exchange, and the Flashcards server narrows what its tools can do. Neither control can tell whether a proposed edit is wise, keep retrieved data inside Flashcards, or guarantee that an AI client will ask before a write.
 
@@ -33,7 +33,7 @@ A remote MCP session can involve four roles:
 
 Some products combine the client and model-provider roles. Others route tool results to a separate service. The guaranteed hop is simpler: Flashcards returns the requested data to the authenticated MCP client. What happens next depends on the client's architecture, plan, and settings. The result may enter a model's context, stay within one provider's infrastructure, or pass to another processor.
 
-The practical risks land in three places. A read can disclose card text, deck structure, workspace settings, or review events. A write can create unwanted cards, change content, or mark cards and decks deleted. The agent can also misunderstand your request or treat instructions found in imported material as commands.
+The practical risks land in three places. A read can disclose card text, deck structure, workspace settings, or review events. A write can create unwanted cards, change content, mark cards and decks deleted, or record a review that reschedules a card. The agent can also misunderstand your request or treat instructions found in imported material as commands.
 
 The [NSA's May 2026 MCP guidance](https://www.nsa.gov/Press-Room/Press-Releases-Statements/Press-Release-View/Article/4496698/nsa-releases-security-design-considerations-for-ai-driven-automation-leveraging/) makes a useful distinction. Authentication, authorization, and validation remain necessary, while dynamic tool calls, shared context, and implicit trust create risks those controls do not settle. A public language deck and a deck built from confidential client notes deserve different decisions.
 
@@ -43,19 +43,23 @@ Flashcards uses an authorization-code flow with PKCE and Dynamic Client Registra
 
 These measures protect the login and token exchange. The stable [MCP authorization specification dated November 25, 2025](https://modelcontextprotocol.io/specification/2025-11-25/basic/authorization) requires PKCE for this flow and resource-specific tokens. It also says authorization is optional across MCP implementations generally, so the existence of OAuth in one connector says nothing about another server.
 
-Flashcards currently advertises one OAuth scope: `flashcards`. It does not issue separate read-only and read-write OAuth permissions, and its credentials authorize the full connector surface. Calling a setup "read-only" therefore means the AI client has disabled or blocked `sql_execute`. The server enforces that `sql_query` itself cannot write. The same credential can authorize `sql_execute` if the client sends that call.
+Flashcards currently advertises one OAuth scope: `flashcards`. It does not issue separate read-only and read-write OAuth permissions, and its credentials authorize the full connector surface. Calling a setup "read-only" therefore means the AI client has disabled or blocked both `sql_execute` and `submit_review`. The server enforces that `sql_query` itself cannot write. The same credential can authorize either write tool if the client sends that call.
 
 Client-side tool blocking is a useful operational control. The OAuth grant remains unchanged, and a malicious or compromised client that still holds the credential is not constrained by that setting.
 
-## What the three Flashcards MCP tools can actually do
+## What the Flashcards MCP tools can actually do
 
-The connector exposes a parser-enforced SQL dialect rather than arbitrary PostgreSQL. Its three tools have distinct surfaces:
+The connector exposes a parser-enforced SQL dialect rather than arbitrary PostgreSQL. Its seven tools have distinct surfaces:
 
 | Tool | Current access | Changes data? | Conservative client setting |
 | --- | --- | --- | --- |
 | `list_workspaces` | Lists up to 100 workspaces the user can access, including ID, name, active-card count, last activity, and which one is the default | No | Enable only if this account-level metadata is acceptable to return to the client |
 | `sql_query` | Reads `workspace`, `cards`, `decks`, and `review_events` in one requested workspace | No | Enable for a defined read task and request only the columns needed |
 | `sql_execute` | Inserts, updates, or marks records deleted in `cards` and `decks` in one requested workspace | Yes | Keep disabled unless the client can constrain writes in a way you accept |
+| `get_guide` | Returns one fixed reference guide on the SQL dialect, card authoring, bulk authoring, or the review flow, without reading workspace data | No | Enable; it returns documentation, not your cards |
+| `next_review_card` | Returns the front of the next card to review in one requested workspace | No | Enable for a review session and remember that card text reaches the client |
+| `reveal_answer` | Returns the back of one card in one requested workspace | No | Enable together with `next_review_card` |
+| `submit_review` | Records one Again, Hard, Good, or Easy rating and advances that card's FSRS schedule | Yes | Keep disabled unless you want the agent to record reviews for you |
 
 The [MCP guide](/docs/mcp-connector/) and [API reference](/docs/api/) describe the public dialect. The implementation adds a few security details that matter when deciding how much to trust it.
 
@@ -69,7 +73,7 @@ A test workspace is still useful for learning how a client presents tool calls. 
 
 ### What read-only access can still reveal
 
-`list_workspaces` and `sql_query` cannot change card state. They also cannot repair data or recalculate scheduling. This server-enforced split makes an accidental database change much less likely when `sql_execute` is unavailable to the client.
+`list_workspaces` and `sql_query` cannot change card state. They also cannot repair data or recalculate scheduling. This server-enforced split makes an accidental database change much less likely when `sql_execute` and `submit_review` are unavailable to the client.
 
 The returned data still leaves the Flashcards backend. A query about weak topics may include card text and review events. Even a short card can contain a patient detail, an internal system name, a private language example, or notes for an interview.
 
@@ -77,7 +81,7 @@ The [Flashcards privacy policy](/privacy/) covers data requested through MCP and
 
 ### Write access has narrower powers than full database access
 
-`sql_execute` accepts `INSERT`, `UPDATE`, and `DELETE`, but only for `cards` and `decks`. The `workspace` and `review_events` resources are read-only. Card scheduling fields—including due dates, review counts, and persisted FSRS state—are also read-only through this dialect. MCP cannot submit a study review or directly rewrite FSRS scheduling state.
+`sql_execute` accepts `INSERT`, `UPDATE`, and `DELETE`, but only for `cards` and `decks`. The `workspace` and `review_events` resources are read-only. Card scheduling fields—including due dates, review counts, and persisted FSRS state—are also read-only through this dialect. SQL cannot write a study review or rewrite FSRS scheduling state directly. A review reaches the schedule only through `submit_review`, and a saved review cannot be edited or undone through MCP.
 
 Both `UPDATE` and `DELETE` require a `WHERE` clause. That prevents a statement with no filter, although a valid broad condition can still match many rows. Syntax validation cannot tell whether the filter expresses your intention.
 
@@ -87,18 +91,18 @@ The [Terms of Service](/terms/) asks users to review AI-generated output before 
 
 ## Approvals belong to the client
 
-Flashcards marks `sql_query` with `readOnlyHint` and `sql_execute` with `destructiveHint`. In the stable [MCP schema from November 25, 2025](https://modelcontextprotocol.io/specification/2025-11-25/schema), tool annotations are explicitly hints. They help a compatible client choose an approval policy; they do not enforce one.
+Flashcards marks `sql_query` and the other read tools with `readOnlyHint`, and `sql_execute` and `submit_review` with `destructiveHint`. In the stable [MCP schema from November 25, 2025](https://modelcontextprotocol.io/specification/2025-11-25/schema), tool annotations are explicitly hints. They help a compatible client choose an approval policy; they do not enforce one.
 
-Once Flashcards receives a valid, authenticated `sql_execute` call, it executes it immediately. There is no second Flashcards confirmation screen. Any pause for human approval happens in the AI client before the request reaches the server.
+Once Flashcards receives a valid, authenticated `sql_execute` or `submit_review` call, it executes it immediately. There is no second Flashcards confirmation screen. Any pause for human approval happens in the AI client before the request reaches the server.
 
 Client behavior varies. OpenAI's [developer-mode documentation](https://developers.openai.com/api/docs/guides/developer-mode), for example, says write actions require confirmation by default and lets users remember a decision for a conversation. Its [MCP apps help page](https://help.openai.com/en/articles/12584461-developer-mode-and-mcp-apps-in-chatgpt-beta) explains that prompts depend on app permissions, context, and workspace controls. Other clients may expose different controls or none at all.
 
 Use the strongest option your client actually provides:
 
-- If it can disable individual tools, leave `sql_execute` off until a task needs it.
+- If it can disable individual tools, leave `sql_execute` and `submit_review` off until a task needs them.
 - If it can require approval for every change, choose that setting and avoid remembered approvals for writes.
 - When it shows a proposed call, inspect the `workspaceId`, every statement, the `WHERE` conditions, and the expected number of matching records.
-- If it cannot block the write tool or reliably pause before calls, treat the connection as write-enabled from the start.
+- If it cannot block the write tools or reliably pause before calls, treat the connection as write-enabled from the start.
 
 These settings reduce the chance of a mistake. Model output still needs human judgment.
 
@@ -108,7 +112,7 @@ Each statement can return or affect at most 100 records, and one batch can conta
 
 Mutation batches are atomic: either every statement in the batch succeeds or the transaction fails. Atomicity prevents a half-applied batch when one statement errors. It does not check intent, and it provides no undo after a valid batch commits.
 
-There is also a 48,000-character cap on the serialized result. That cap is applied after mutation execution and only protects the MCP response size. A mutation can commit before an oversized result is rejected. Use the 100-row statement cap as the relevant impact limit and preview broad targets with `sql_query` before writing.
+There is also a 48,000-character cap on the serialized result. That cap is applied after mutation execution and only protects the MCP response size. The mutation has already committed by then, so an oversized write result is shortened rather than rejected. Use the 100-row statement cap as the relevant impact limit and preview broad targets with `sql_query` before writing.
 
 ## Prompt injection can arrive in the study material
 
@@ -146,7 +150,7 @@ If immediate server-side OAuth revocation is a requirement for your threat model
 2. Verify the server URL. The documented endpoint is `https://mcp.flashcards-open-source-app.com/mcp`. Avoid lookalike domains and connector definitions copied from unknown sources.
 3. Read both sides' policies. Start with [Flashcards privacy](/privacy/), then check the exact AI client's retention, training, memory, logging, and deletion rules.
 4. Decide whether a spare workspace is enough. It is useful for a rehearsal, but the connection can still target other workspaces on the same account. Use a separate account or deployment when you need strict isolation.
-5. Start with `sql_execute` blocked in the client. If the client cannot block it, acknowledge that the OAuth credential remains write-capable before connecting.
+5. Start with `sql_execute` and `submit_review` blocked in the client. If the client cannot block them, acknowledge that the OAuth credential remains write-capable before connecting.
 6. Request the minimum data. Select only the columns and rows needed for the answer, and keep unrelated secrets out of the conversation.
 7. Make a tested backup before bulk changes. The [flashcards backup guide](/blog/how-to-back-up-flashcards/) covers the broader workflow.
 8. Preview every broad update or delete with `sql_query`. Prefer exact card or deck IDs, compare the match count with your expectation, and split the change into small statements.
@@ -157,14 +161,14 @@ For the setup steps after making these choices, see [How to Connect Flashcards t
 
 ## Where open source and self-hosting help
 
-The Flashcards connector has several useful properties: separate read and write tools, a closed statement allowlist, per-call workspace membership checks, read-only scheduling fields, and public source code. These controls make the surface easier to inspect and constrain. They reduce risk; they cannot guarantee a safe client or correct model decision.
+The Flashcards connector has several useful properties: separate read and write tools, a closed statement allowlist, per-call workspace membership checks, scheduling fields that SQL cannot write, and public source code. These controls make the surface easier to inspect and constrain. They reduce risk; they cannot guarantee a safe client or correct model decision.
 
 A [self-hosted deployment](/docs/self-hosting/) can move Flashcards storage and operations onto infrastructure you control. Queries sent to an external AI service still carry card data outside that deployment. The model and client path must meet the same privacy standard as the database.
 
 ## A simple decision rule
 
-Use MCP read tools when the requested data may leave Flashcards for the chosen client path, the provider terms are acceptable, and the task justifies that disclosure. Treat the connection as full-access unless your client has actually blocked `sql_execute`.
+Use MCP read tools when the requested data may leave Flashcards for the chosen client path, the provider terms are acceptable, and the task justifies that disclosure. Treat the connection as full-access unless your client has actually blocked `sql_execute` and `submit_review`.
 
-Enable the write tool only for a narrow job when the client can pause before each important call, you have previewed the target rows, and a usable backup exists. Remember that one batch can touch far more than 100 records and that a delete has no MCP undo.
+Enable a write tool only for a narrow job when the client can pause before each important call, you have previewed the target rows, and a usable backup exists. Remember that one batch can touch far more than 100 records and that a delete has no MCP undo.
 
 Skip the connection when the deck cannot be shared with the client or its processors, the downstream policy is unclear, strict workspace isolation is required on the same account, immediate OAuth revocation is mandatory, or the workflow needs unattended destructive writes. In those cases, use Flashcards without MCP or choose a deployment and model path whose full data flow meets your requirements.

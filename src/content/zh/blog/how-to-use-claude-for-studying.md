@@ -223,7 +223,7 @@ Flashcards MCP URL 是：
 https://mcp.flashcards-open-source-app.com/mcp
 ```
 
-该连接器提供 `list_workspaces` 和只读的 `sql_query`，以及写入工具 `sql_execute`。提示词要把交接范围说清楚：
+保存卡片时会用到该连接器的 `list_workspaces`、只读的 `sql_query`、提供写卡规则的 `get_guide`，以及写入工具 `sql_execute`。提示词要把交接范围说清楚：
 
 ```text
 Flashcards 连接器只能用于我已经批准的卡片。先列出我的工作区，再问我
@@ -233,7 +233,7 @@ Flashcards 连接器只能用于我已经批准的卡片。先列出我的工作
 
 [Claude 连接器分步指南](/blog/how-to-connect-flashcards-to-claude-with-mcp/)介绍了设置步骤和权限；无需在学习对话中重复整套设置。[MCP 连接器参考文档](/docs/mcp-connector/)记录了当前可用的工具和身份验证方式。
 
-Claude 可以创建已经批准的卡片，但 FSRS 安排复习时间和实际复习都要在 Flashcards 应用中进行。卡片到期后，打开 [Web 应用](https://app.flashcards-open-source-app.com/)，先回忆答案，再显示答案，并在那里记录复习结果。如果你不想授予连接器访问权限，手动复制同样是一套完整流程。
+Claude 可以创建已经批准的卡片，但 FSRS 复习安排仍由 Flashcards 负责。卡片到期后，打开 [Web 应用](https://app.flashcards-open-source-app.com/)，先回忆答案，再显示答案，并在那里记录复习结果。如果你不想授予连接器访问权限，手动复制同样是一套完整流程。
 
 ## 这些地方仍然要由你把关
 

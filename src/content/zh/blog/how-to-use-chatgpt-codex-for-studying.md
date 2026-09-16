@@ -106,17 +106,21 @@ https://mcp.flashcards-open-source-app.com/mcp
 
 Codex 应该先调用只读的工作区工具。等你选好工作区和整理方式后，它才能准备写入。批准前，请检查工作区、卡片正面与背面、标签、牌组改动，以及会影响多少条记录。
 
-连接器提供三个工具：
+连接器提供七个工具：
 
 | 工具 | 能做什么 | 会写入数据吗？ |
 | --- | --- | --- |
 | `list_workspaces` | 列出你有权访问的 Flashcards 工作区 | 否 |
 | `sql_query` | 读取允许访问的工作区、卡片、牌组和复习数据 | 否 |
 | `sql_execute` | 创建、编辑或删除允许操作的卡片和牌组 | 是 |
+| `get_guide` | 返回关于 SQL、写卡、批量写入或复习的参考指南 | 否 |
+| `next_review_card` | 显示下一张待复习卡片的正面 | 否 |
+| `reveal_answer` | 在你作答后显示这张卡片的背面 | 否 |
+| `submit_review` | 记录一次 Again、Hard、Good 或 Easy 评分，并更新 FSRS 复习安排 | 是 |
 
 这些名称看起来有些技术味，是因为连接器内部使用了一套精简的 SQL 式指令。你不需要自己写 SQL。直接用日常语言描述想要的结果，再检查拟执行的改动即可。
 
-这并不是不受限制的数据库访问。每个请求都只能操作已授权的工作区，服务器也只接受文档中规定的读取操作，以及针对卡片或牌组的写入操作。[MCP 安全指南](/zh/blog/is-mcp-safe-for-flashcards/)更详细地介绍了数据流向、权限限制、审批和删除风险。
+这并不是不受限制的数据库访问。每个请求都只能操作已授权的工作区，服务器也只接受文档中规定的读取操作、针对卡片或牌组的写入操作，以及复习评分。[MCP 安全指南](/zh/blog/is-mcp-safe-for-flashcards/)更详细地介绍了数据流向、权限限制、审批和删除风险。
 
 ## 学习结束后，Codex 还能帮你整理牌组
 
@@ -139,7 +143,7 @@ Codex 应该先调用只读的工作区工具。等你选好工作区和整理�
 
 ## 正式的 FSRS 复习仍要在 Flashcards 中完成
 
-MCP 连接器可以读取允许访问的 `review_events`（复习记录）和复习安排相关字段。它的写入工具不能创建 `review_events`，不能提交 Again、Hard、Good 或 Easy 评分，也不能修改已经保存的 FSRS 状态或复习安排。对这个连接器来说，这些字段都是只读的。
+MCP 连接器可以读取允许访问的 `review_events`（复习记录）和复习安排相关字段。它的 SQL 写入工具不能创建 `review_events`，不能提交 Again、Hard、Good 或 Easy 评分，也不能修改已经保存的 FSRS 状态或复习安排。连接器只能通过单独的 `submit_review` 工具记录评分，而这套流程把复习留给应用完成。
 
 卡片到期后，打开 [Flashcards 网页版](https://app.flashcards-open-source-app.com/)或移动端客户端。先回忆答案，再显示背面，并在那里选择评分。Flashcards 会记录这次正式复习，再由 FSRS 决定卡片何时重新出现。
 

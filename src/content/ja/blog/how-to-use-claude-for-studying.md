@@ -224,7 +224,7 @@ FlashcardsのMCP URLは次のとおりです。
 https://mcp.flashcards-open-source-app.com/mcp
 ```
 
-このコネクタには`list_workspaces`と読み取り専用の`sql_query`に加え、書き込み用の`sql_execute`があります。移行する範囲は、承認したカードだけに絞ります。
+カードを保存するためのツールとして、このコネクタには`list_workspaces`、読み取り専用の`sql_query`、カード作成ルールを返す`get_guide`に加え、書き込み用の`sql_execute`があります。移行する範囲は、承認したカードだけに絞ります。
 
 ```text
 私が承認したカードにだけFlashcardsコネクタを使ってください。最初に私の
@@ -235,7 +235,7 @@ https://mcp.flashcards-open-source-app.com/mcp
 
 [Claudeコネクタの手順ガイド](/blog/how-to-connect-flashcards-to-claude-with-mcp/)では、設定と権限について順を追って説明しています。学習セッションの中で、その設定を繰り返す必要はありません。[MCPコネクタのリファレンス](/docs/mcp-connector/)には、現在のツールと認証方法が記載されています。
 
-Claudeは承認済みのカードを作成できますが、FSRSによる復習スケジュールと実際の復習はFlashcardsアプリで行います。カードを復習する時期になったら[ウェブアプリ](https://app.flashcards-open-source-app.com/)を開き、答えを思い出してから正解を表示し、そこで復習結果を記録します。コネクタからのアクセスを避けたい場合は、手動でコピーするだけでも一連の流れを完結できます。
+Claudeは承認済みのカードを作成できますが、FSRSによる復習スケジュールはFlashcardsで管理します。カードを復習する時期になったら[ウェブアプリ](https://app.flashcards-open-source-app.com/)を開き、答えを思い出してから正解を表示し、そこで復習結果を記録します。コネクタからのアクセスを避けたい場合は、手動でコピーするだけでも一連の流れを完結できます。
 
 ## Claudeに人の確認が欠かせない場面
 

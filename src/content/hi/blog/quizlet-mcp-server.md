@@ -75,7 +75,7 @@ Flashcards Open Source App का remote MCP endpoint यह है:
 
 `https://mcp.flashcards-open-source-app.com/mcp`
 
-उसके [MCP connector के दस्तावेज़ों](/docs/mcp-connector/) में तीन tools बताए गए हैं: `list_workspaces`, पढ़ने के लिए `sql_query` और लिखने के लिए `sql_execute`। Interactive MCP clients OAuth से अनुमति ले सकते हैं। Terminal agents इसके बजाय [Agent API के दस्तावेज़ों](/docs/api/) से शुरुआत करके प्रकाशित HTTP flow इस्तेमाल कर सकते हैं।
+उसके [MCP connector के दस्तावेज़ों](/docs/mcp-connector/) में सात tools बताए गए हैं: `list_workspaces`, पढ़ने के लिए `sql_query`, लिखने के लिए `sql_execute`, reference guides के लिए `get_guide`, और reviews के लिए `next_review_card`, `reveal_answer` तथा `submit_review`। Interactive MCP clients OAuth से अनुमति ले सकते हैं। Terminal agents इसके बजाय [Agent API के दस्तावेज़ों](/docs/api/) से शुरुआत करके प्रकाशित HTTP flow इस्तेमाल कर सकते हैं।
 
 इससे Flashcards कोई Quizlet connector नहीं बन जाता। समर्थित workflow यह है:
 
@@ -94,7 +94,7 @@ Flashcards कोई Quizlet URL नहीं पढ़ सकता, Quizlet ac
 
 सार्वजनिक contract से integration से जुड़ी कुछ अनिश्चितता दूर होती है, लेकिन इससे हर MCP action सुरक्षित नहीं हो जाता। OAuth connection को authenticate करता है। वह यह गारंटी नहीं देता कि AI से बना card सही है, यह पक्का नहीं करता कि वापस मिला card data flashcard service के भीतर ही रहे और न यह तय करता है कि कोई बदलाव आपकी मंशा से मेल खाता है।
 
-Flashcards पढ़ने वाले operations को अपने write tool `sql_execute` से अलग रखता है। फिर भी OAuth credential पूरे connector surface पर लागू होता है, इसलिए tools को block करने और approvals का व्यवहार client पर निर्भर करता है। शुरुआत छोटे और non-sensitive workspace से करें। Agent को केवल वही data पढ़ने दें जो काम के लिए ज़रूरी है। Client में सुविधा हो तो हर write के लिए approval रखें, और बदलाव स्वीकार करने से पहले workspace तथा प्रस्तावित बदलाव की जाँच करें।
+Flashcards पढ़ने वाले operations को अपने write tools से अलग रखता है: cards और decks के लिए `sql_execute`, reviews के लिए `submit_review`। फिर भी OAuth credential पूरे connector surface पर लागू होता है, इसलिए tools को block करने और approvals का व्यवहार client पर निर्भर करता है। शुरुआत छोटे और non-sensitive workspace से करें। Agent को केवल वही data पढ़ने दें जो काम के लिए ज़रूरी है। Client में सुविधा हो तो हर write के लिए approval रखें, और बदलाव स्वीकार करने से पहले workspace तथा प्रस्तावित बदलाव की जाँच करें।
 
 निजी study material तब तक न जोड़ें, जब तक आप AI client की retention और data-handling terms न देख लें। विस्तृत threat model [क्या MCP Flashcards के लिए सुरक्षित है?](/blog/is-mcp-safe-for-flashcards/) में है। पहले transfer के लिए एक आसान नियम काफ़ी है: मूल export रखें, कुछ cards का preview देखें, सीमित write को मंज़ूरी दें और आगे बढ़ने से पहले destination app में नतीजे की जाँच करें।
 

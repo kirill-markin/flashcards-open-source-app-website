@@ -14,7 +14,7 @@ keywords:
   - "MCP प्रॉम्प्ट इंजेक्शन"
 ---
 
-20 मई 2026 को NSA ने Model Context Protocol की सुरक्षा पर 17 पन्नों की गाइड जारी की। सार्वजनिक शब्दावली से आगे कुछ भी रखने वाले डेक के लिए यह बात सीधे मायने रखती है: Flashcards MCP कनेक्शन किसी AI क्लाइंट को कार्ड, वर्कस्पेस मेटाडेटा और रिव्यू हिस्ट्री लौटा सकता है। पूरी पहुँच देने वाला वही क्रेडेंशियल कार्ड बदलने या उन्हें हटाया हुआ चिह्नित करने वाले टूल को भी कॉल कर सकता है। इसलिए **क्या Flashcards के लिए MCP सुरक्षित है** पूछने वाले किसी भी व्यक्ति को दो बातें जाँचनी चाहिए: क्या उस डेटा का चुने हुए क्लाइंट तक पहुँचना स्वीकार्य है, और क्या क्लाइंट लिखने वाला टूल इस्तेमाल कर सकता है।
+20 मई 2026 को NSA ने Model Context Protocol की सुरक्षा पर 17 पन्नों की गाइड जारी की। सार्वजनिक शब्दावली से आगे कुछ भी रखने वाले डेक के लिए यह बात सीधे मायने रखती है: Flashcards MCP कनेक्शन किसी AI क्लाइंट को कार्ड, वर्कस्पेस मेटाडेटा और रिव्यू हिस्ट्री लौटा सकता है। पूरी पहुँच देने वाला वही क्रेडेंशियल कार्ड बदलने या उन्हें हटाया हुआ चिह्नित करने वाले टूल को भी कॉल कर सकता है। इसलिए **क्या Flashcards के लिए MCP सुरक्षित है** पूछने वाले किसी भी व्यक्ति को दो बातें जाँचनी चाहिए: क्या उस डेटा का चुने हुए क्लाइंट तक पहुँचना स्वीकार्य है, और क्या क्लाइंट लिखने वाले टूल इस्तेमाल कर सकता है।
 
 OAuth authorization और token exchange को सुरक्षित रखता है, जबकि Flashcards सर्वर अपने टूलों की पहुँच सीमित करता है। मगर दोनों में से कोई भी यह नहीं परख सकता कि सुझाया गया बदलाव समझदारी भरा है या नहीं। वे निकाले गए डेटा को Flashcards के भीतर नहीं रख सकते और न ही यह गारंटी दे सकते हैं कि AI क्लाइंट कुछ लिखने से पहले पूछेगा।
 
@@ -33,7 +33,7 @@ OAuth authorization और token exchange को सुरक्षित रख
 
 कुछ उत्पादों में क्लाइंट और मॉडल प्रदाता की भूमिका एक ही सेवा निभाती है। दूसरे उत्पाद टूल के नतीजे किसी अलग सेवा को भेजते हैं। एक बात तय है: Flashcards माँगा गया डेटा प्रमाणित MCP क्लाइंट को लौटाता है। उसके बाद क्या होता है, यह क्लाइंट की बनावट, प्लान और सेटिंग्स पर निर्भर करता है। नतीजा मॉडल के context में जा सकता है, एक ही प्रदाता के infrastructure में रह सकता है, या किसी दूसरे processor तक पहुँच सकता है।
 
-व्यावहारिक जोखिम तीन जगह हैं। पढ़ने वाली कॉल कार्ड का टेक्स्ट, डेक की बनावट, वर्कस्पेस सेटिंग्स या review events उजागर कर सकती है। लिखने वाली कॉल अनचाहे कार्ड बना सकती है, सामग्री बदल सकती है, या कार्ड और डेक को हटाया हुआ चिह्नित कर सकती है। एजेंट आपके अनुरोध को गलत समझ सकता है या इंपोर्ट की गई सामग्री में मिले निर्देशों को कमांड मान सकता है।
+व्यावहारिक जोखिम तीन जगह हैं। पढ़ने वाली कॉल कार्ड का टेक्स्ट, डेक की बनावट, वर्कस्पेस सेटिंग्स या review events उजागर कर सकती है। लिखने वाली कॉल अनचाहे कार्ड बना सकती है, सामग्री बदल सकती है, कार्ड और डेक को हटाया हुआ चिह्नित कर सकती है, या ऐसा रिव्यू दर्ज कर सकती है जिससे कार्ड का schedule बदल जाए। एजेंट आपके अनुरोध को गलत समझ सकता है या इंपोर्ट की गई सामग्री में मिले निर्देशों को कमांड मान सकता है।
 
 [मई 2026 में MCP पर NSA की गाइड](https://www.nsa.gov/Press-Room/Press-Releases-Statements/Press-Release-View/Article/4496698/nsa-releases-security-design-considerations-for-ai-driven-automation-leveraging/) एक उपयोगी फर्क बताती है। Authentication, authorization और validation ज़रूरी हैं, लेकिन dynamic tool calls, shared context और implicit trust ऐसे जोखिम पैदा करते हैं जिन्हें ये controls अपने-आप हल नहीं करते। सार्वजनिक भाषा वाले डेक और किसी ग्राहक के गोपनीय नोट्स से बने डेक के लिए एक जैसा फैसला सही नहीं होगा।
 
@@ -43,19 +43,23 @@ Flashcards interactive MCP clients के लिए PKCE और Dynamic Client R
 
 ये उपाय login और token exchange को सुरक्षित रखते हैं। [25 नवंबर 2025 की स्थिर MCP authorization specification](https://modelcontextprotocol.io/specification/2025-11-25/basic/authorization) इस flow के लिए PKCE और resource-specific tokens अनिवार्य करती है। वह यह भी कहती है कि हर MCP implementation में authorization अनिवार्य नहीं है। इसलिए किसी एक connector में OAuth मौजूद होने से किसी दूसरे server की सुरक्षा के बारे में कुछ साबित नहीं होता।
 
-Flashcards अभी सिर्फ़ एक OAuth scope घोषित करता है: `flashcards`। वह पढ़ने और पढ़ने-लिखने के लिए अलग OAuth permissions नहीं देता; उसके credentials पूरे connector की पहुँच देते हैं। इसलिए किसी setup को "read-only" कहने का मतलब सिर्फ़ यह है कि AI client ने `sql_execute` को disable या block किया है। Server यह पक्का करता है कि `sql_query` खुद कुछ लिख नहीं सकता। लेकिन client call भेजे तो वही credential `sql_execute` को भी authorize कर सकता है।
+Flashcards अभी सिर्फ़ एक OAuth scope घोषित करता है: `flashcards`। वह पढ़ने और पढ़ने-लिखने के लिए अलग OAuth permissions नहीं देता; उसके credentials पूरे connector की पहुँच देते हैं। इसलिए किसी setup को "read-only" कहने का मतलब सिर्फ़ यह है कि AI client ने `sql_execute` और `submit_review`, दोनों को disable या block किया है। Server यह पक्का करता है कि `sql_query` खुद कुछ लिख नहीं सकता। लेकिन client call भेजे तो वही credential इनमें से किसी भी write tool को authorize कर सकता है।
 
 Client में किसी tool को block करना उपयोगी operational control है, लेकिन इससे OAuth grant नहीं बदलता। किसी malicious या compromised client के पास वही credential हो, तो यह setting उसे सीमित नहीं करती।
 
-## Flashcards के तीन MCP टूल असल में क्या कर सकते हैं
+## Flashcards के MCP टूल असल में क्या कर सकते हैं
 
-Connector मनमाने PostgreSQL की जगह parser से लागू की गई सीमित SQL dialect देता है। उसके तीनों टूल की पहुँच अलग है:
+Connector मनमाने PostgreSQL की जगह parser से लागू की गई सीमित SQL dialect देता है। उसके सातों टूल की पहुँच अलग है:
 
 | टूल | मौजूदा पहुँच | डेटा बदलता है? | सावधानी के लिए client setting |
 | --- | --- | --- | --- |
 | `list_workspaces` | उपयोगकर्ता की पहुँच वाले अधिकतम 100 workspaces की सूची देता है; साथ में ID, नाम, सक्रिय कार्डों की संख्या, पिछली गतिविधि और default workspace बताता है | नहीं | इसे तभी चालू करें जब account-level metadata का client तक जाना स्वीकार्य हो |
 | `sql_query` | माँगे गए एक workspace में `workspace`, `cards`, `decks` और `review_events` पढ़ता है | नहीं | पढ़ने के किसी तय काम के लिए चालू करें और सिर्फ़ ज़रूरी columns माँगें |
 | `sql_execute` | माँगे गए एक workspace में `cards` और `decks` के records जोड़ता, बदलता या deleted के रूप में mark करता है | हाँ | इसे तब तक बंद रखें, जब तक client लिखने की पहुँच को ऐसे सीमित न कर सके जो आपको स्वीकार हो |
+| `get_guide` | SQL dialect, कार्ड लिखने, bulk authoring या review flow पर एक तय reference guide लौटाता है; workspace data नहीं पढ़ता | नहीं | चालू करें; यह documentation लौटाता है, आपके कार्ड नहीं |
+| `next_review_card` | माँगे गए एक workspace में रिव्यू के लिए अगले कार्ड का सामने वाला हिस्सा लौटाता है | नहीं | review session के लिए चालू करें, और याद रखें कि कार्ड का टेक्स्ट client तक पहुँचता है |
+| `reveal_answer` | माँगे गए एक workspace में एक कार्ड का पीछे वाला हिस्सा लौटाता है | नहीं | `next_review_card` के साथ ही चालू करें |
+| `submit_review` | एक Again, Hard, Good या Easy rating दर्ज करता है और उस कार्ड का FSRS schedule आगे बढ़ाता है | हाँ | इसे तब तक बंद रखें, जब तक आप न चाहें कि agent आपकी ओर से रिव्यू दर्ज करे |
 
 [MCP guide](/hi/docs/mcp-connector/) और [API reference](/hi/docs/api/) सार्वजनिक SQL dialect समझाते हैं। इसे लागू करने वाले code में सुरक्षा से जुड़ी कुछ और बातें हैं, जिन्हें भरोसे की सीमा तय करते समय समझना ज़रूरी है।
 
@@ -69,7 +73,7 @@ Connector मनमाने PostgreSQL की जगह parser से लाग
 
 ### केवल पढ़ने वाली पहुँच फिर भी क्या उजागर कर सकती है
 
-`list_workspaces` और `sql_query` कार्ड की स्थिति नहीं बदल सकते। वे डेटा की मरम्मत या scheduling की दोबारा गणना भी नहीं कर सकते। Server पर लागू इस बँटवारे से, client को `sql_execute` न मिले तो database में गलती से बदलाव होने की आशंका बहुत कम हो जाती है।
+`list_workspaces` और `sql_query` कार्ड की स्थिति नहीं बदल सकते। वे डेटा की मरम्मत या scheduling की दोबारा गणना भी नहीं कर सकते। Server पर लागू इस बँटवारे से, client को `sql_execute` और `submit_review` न मिलें तो database में गलती से बदलाव होने की आशंका बहुत कम हो जाती है।
 
 लौटाया गया डेटा फिर भी Flashcards backend से बाहर जाता है। कमजोर विषयों की query में कार्ड का टेक्स्ट और review events शामिल हो सकते हैं। किसी छोटे कार्ड में भी मरीज की जानकारी, किसी internal system का नाम, भाषा सीखने का निजी उदाहरण या interview notes हो सकते हैं।
 
@@ -77,7 +81,7 @@ Connector मनमाने PostgreSQL की जगह parser से लाग
 
 ### लिखने की पहुँच पूरी database access से कहीं सीमित है
 
-`sql_execute` `INSERT`, `UPDATE` और `DELETE` स्वीकार करता है, लेकिन सिर्फ़ `cards` और `decks` के लिए। `workspace` और `review_events` resources केवल पढ़े जा सकते हैं। कार्ड की scheduling से जुड़े fields—जिनमें due dates, review counts और persisted FSRS state शामिल हैं—भी इस dialect से केवल पढ़े जा सकते हैं। MCP कोई study review दर्ज नहीं कर सकता और न ही सीधे FSRS scheduling state दोबारा लिख सकता है।
+`sql_execute` `INSERT`, `UPDATE` और `DELETE` स्वीकार करता है, लेकिन सिर्फ़ `cards` और `decks` के लिए। `workspace` और `review_events` resources केवल पढ़े जा सकते हैं। कार्ड की scheduling से जुड़े fields—जिनमें due dates, review counts और persisted FSRS state शामिल हैं—भी इस dialect से केवल पढ़े जा सकते हैं। SQL कोई study review नहीं लिख सकता और न ही सीधे FSRS scheduling state दोबारा लिख सकता है। Review सिर्फ़ `submit_review` के जरिए schedule तक पहुँचता है, और दर्ज हो चुके review को MCP के जरिए न बदला जा सकता है, न undo किया जा सकता है।
 
 `UPDATE` और `DELETE`, दोनों में `WHERE` clause होना अनिवार्य है। इससे बिना filter वाला statement रुक जाता है, हालाँकि कोई valid लेकिन बहुत व्यापक condition फिर भी कई rows से match कर सकती है। Syntax validation यह नहीं बता सकता कि filter आपकी मंशा को सही ढंग से व्यक्त करता है या नहीं।
 
@@ -87,18 +91,18 @@ Connector मनमाने PostgreSQL की जगह parser से लाग
 
 ## मंज़ूरी AI client की ज़िम्मेदारी है
 
-Flashcards `sql_query` को `readOnlyHint` और `sql_execute` को `destructiveHint` से mark करता है। [25 नवंबर 2025 की स्थिर MCP schema](https://modelcontextprotocol.io/specification/2025-11-25/schema) में tool annotations साफ़ तौर पर hints हैं। वे compatible client को approval policy चुनने में मदद करते हैं; खुद उस policy को लागू नहीं करते।
+Flashcards `sql_query` और बाकी read tools को `readOnlyHint` से, और `sql_execute` तथा `submit_review` को `destructiveHint` से mark करता है। [25 नवंबर 2025 की स्थिर MCP schema](https://modelcontextprotocol.io/specification/2025-11-25/schema) में tool annotations साफ़ तौर पर hints हैं। वे compatible client को approval policy चुनने में मदद करते हैं; खुद उस policy को लागू नहीं करते।
 
-Flashcards को valid और authenticated `sql_execute` call मिलते ही वह उसे तुरंत चला देता है। Flashcards में दूसरी confirmation screen नहीं आती। इंसानी मंज़ूरी के लिए कोई भी pause, request के server तक पहुँचने से पहले AI client में होता है।
+Flashcards को valid और authenticated `sql_execute` या `submit_review` call मिलते ही वह उसे तुरंत चला देता है। Flashcards में दूसरी confirmation screen नहीं आती। इंसानी मंज़ूरी के लिए कोई भी pause, request के server तक पहुँचने से पहले AI client में होता है।
 
 हर client का व्यवहार अलग होता है। उदाहरण के लिए, OpenAI की [developer mode documentation](https://developers.openai.com/api/docs/guides/developer-mode) कहती है कि write actions के लिए default रूप से confirmation चाहिए और users किसी conversation के लिए अपना फैसला याद रख सकते हैं। उसका [MCP apps help page](https://help.openai.com/en/articles/12584461-developer-mode-and-mcp-apps-in-chatgpt-beta) बताता है कि prompts app permissions, context और workspace controls पर निर्भर करते हैं। दूसरे clients अलग controls दे सकते हैं, या कोई control नहीं भी दे सकते।
 
 आपका client असल में जो सबसे सख़्त विकल्प देता है, उसका इस्तेमाल करें:
 
-- अगर वह अलग-अलग tools disable कर सकता है, तो काम में ज़रूरत पड़ने तक `sql_execute` बंद रखें।
+- अगर वह अलग-अलग tools disable कर सकता है, तो काम में ज़रूरत पड़ने तक `sql_execute` और `submit_review` बंद रखें।
 - अगर वह हर बदलाव के लिए approval अनिवार्य कर सकता है, तो वह setting चुनें और writes के लिए remembered approvals से बचें।
 - सुझाई गई call दिखने पर `workspaceId`, हर statement, `WHERE` conditions और match होने वाले records की अनुमानित संख्या जाँचें।
-- अगर वह write tool block नहीं कर सकता या calls से पहले भरोसेमंद ढंग से रुक नहीं सकता, तो connection को शुरू से write-enabled मानें।
+- अगर वह write tools block नहीं कर सकता या calls से पहले भरोसेमंद ढंग से रुक नहीं सकता, तो connection को शुरू से write-enabled मानें।
 
 ये settings गलती की संभावना घटाती हैं। Model output को अब भी इंसान को परखना पड़ता है।
 
@@ -108,7 +112,7 @@ Flashcards को valid और authenticated `sql_execute` call मिलते 
 
 Mutation batches atomic होते हैं: या तो batch का हर statement सफल होता है, या पूरी transaction fail हो जाती है। किसी statement में error आए तो atomicity batch को आधा लागू होने से रोकती है। वह मंशा नहीं जाँचती, और valid batch commit होने के बाद कोई undo नहीं देती।
 
-Serialized result पर 48,000 characters की cap भी है। यह cap mutation execute होने के बाद लागू होती है और सिर्फ़ MCP response का size सीमित करती है। बहुत बड़ा result reject होने से पहले mutation commit हो सकती है। असर की असली सीमा हर statement की 100-row cap है; लिखने से पहले व्यापक targets को `sql_query` से preview करें।
+Serialized result पर 48,000 characters की cap भी है। यह cap mutation execute होने के बाद लागू होती है और सिर्फ़ MCP response का size सीमित करती है। तब तक mutation commit हो चुकी होती है, इसलिए write का बहुत बड़ा result reject होने के बजाय छोटा कर दिया जाता है। असर की असली सीमा हर statement की 100-row cap है; लिखने से पहले व्यापक targets को `sql_query` से preview करें।
 
 ## Prompt injection पढ़ाई की सामग्री से आ सकता है
 
@@ -146,7 +150,7 @@ Headless `fca_` Agent API keys अलग तरह के credentials हैं�
 2. Server URL जाँचें। दस्तावेज़ों में दिया endpoint `https://mcp.flashcards-open-source-app.com/mcp` है। उससे मिलते-जुलते domains और unknown sources से copy की गई connector definitions से बचें।
 3. दोनों पक्षों की policies पढ़ें। [Flashcards privacy](/hi/privacy/) से शुरू करें, फिर इस्तेमाल होने वाले AI client की retention, training, memory, logging और deletion rules जाँचें।
 4. तय करें कि spare workspace काफ़ी है या नहीं। अभ्यास के लिए वह उपयोगी है, लेकिन connection उसी account के दूसरे workspaces को भी target कर सकता है। सख़्त isolation चाहिए तो अलग account या deployment इस्तेमाल करें।
-5. Client में `sql_execute` block करके शुरू करें। अगर client उसे block नहीं कर सकता, तो connect करने से पहले मानें कि OAuth credential में लिखने की क्षमता बनी रहती है।
+5. Client में `sql_execute` और `submit_review` block करके शुरू करें। अगर client उन्हें block नहीं कर सकता, तो connect करने से पहले मानें कि OAuth credential में लिखने की क्षमता बनी रहती है।
 6. कम-से-कम data माँगें। जवाब के लिए सिर्फ़ ज़रूरी columns और rows select करें, और unrelated secrets को conversation से बाहर रखें।
 7. Bulk changes से पहले ऐसा backup बनाएँ जिसे आपने जाँचकर देखा हो। [Flashcards backup guide](/hi/blog/how-to-back-up-flashcards/) में पूरा workflow दिया गया है।
 8. हर व्यापक update या delete को `sql_query` से preview करें। सटीक card या deck IDs चुनें, match count को अपनी उम्मीद से मिलाएँ और change को छोटे statements में बाँटें।
@@ -157,13 +161,13 @@ Headless `fca_` Agent API keys अलग तरह के credentials हैं�
 
 ## Open source और self-hosting कहाँ मदद करते हैं
 
-Flashcards connector में कई उपयोगी खूबियाँ हैं: अलग read और write tools, statements की सीमित allowlist, हर call पर workspace membership checks, read-only scheduling fields और public source code। इन controls से connector के दायरे की जाँच करना और उसे सीमित रखना आसान होता है। वे जोखिम घटाते हैं; सुरक्षित client या model के सही फैसले की गारंटी नहीं देते।
+Flashcards connector में कई उपयोगी खूबियाँ हैं: अलग read और write tools, statements की सीमित allowlist, हर call पर workspace membership checks, ऐसे scheduling fields जिन्हें SQL नहीं लिख सकता, और public source code। इन controls से connector के दायरे की जाँच करना और उसे सीमित रखना आसान होता है। वे जोखिम घटाते हैं; सुरक्षित client या model के सही फैसले की गारंटी नहीं देते।
 
 [Self-hosted deployment](/hi/docs/self-hosting/) Flashcards storage और operations को ऐसे infrastructure पर ला सकता है जिसे आप नियंत्रित करते हैं। External AI service को भेजी गई queries card data को फिर भी उस deployment से बाहर ले जाती हैं। Model और client वाला रास्ता भी उसी privacy standard पर खरा उतरना चाहिए जो database के लिए है।
 
 ## फैसला करने का एक सरल नियम
 
-MCP read tools तभी इस्तेमाल करें, जब माँगा गया data चुने हुए client path के जरिए Flashcards से बाहर जा सकता हो और यह आपको स्वीकार हो, provider की terms ठीक हों, और task उस data को साझा करना उचित ठहराता हो। जब तक client ने सच में `sql_execute` block न किया हो, connection को full-access मानें।
+MCP read tools तभी इस्तेमाल करें, जब माँगा गया data चुने हुए client path के जरिए Flashcards से बाहर जा सकता हो और यह आपको स्वीकार हो, provider की terms ठीक हों, और task उस data को साझा करना उचित ठहराता हो। जब तक client ने सच में `sql_execute` और `submit_review` block न किए हों, connection को full-access मानें।
 
 Write tool सिर्फ़ किसी सीमित काम के लिए enable करें, जब client हर अहम call से पहले रुक सकता हो, आपने target rows preview कर ली हों और इस्तेमाल करने लायक backup मौजूद हो। याद रखें, एक batch 100 से कहीं ज़्यादा records छू सकता है और delete के लिए MCP में undo नहीं है।
 

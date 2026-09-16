@@ -59,7 +59,7 @@ GET https://api.flashcards-open-source-app.com/v1/
 4. Агент просит пользователя прислать этот последний код.
 5. Агент подтверждает код и получает долгоживущий API-ключ.
 6. Агент вызывает `/v1/agent/me` и `/v1/agent/workspaces`.
-7. Агент создает или выбирает нужное рабочее пространство и затем продолжает через `/v1/agent/sql`.
+7. Агент создает или выбирает нужное рабочее пространство и затем продолжает через `/v1/agent/sql/query` и `/v1/agent/sql/execute`.
 
 Это важно, потому что агент не останавливается на этапе "вход выполнен". Он может пройти остальную часть настройки и сразу перейти к реальным чтениям и записям.
 
@@ -117,17 +117,19 @@ curl https://api.flashcards-open-source-app.com/v1/
       "Load account context",
       "Select a workspace",
       "Inspect runtime discovery and the published SQL surface through SQL introspection",
-      "Read and write cards and decks through /agent/sql"
+      "Read cards and decks through POST /agent/sql/query (read-only)",
+      "Write cards and decks through POST /agent/sql/execute (INSERT, UPDATE, DELETE)"
     ],
     "authBaseUrl": "https://auth.flashcards-open-source-app.com",
     "apiBaseUrl": "https://api.flashcards-open-source-app.com/v1",
     "surface": {
       "accountUrl": "https://api.flashcards-open-source-app.com/v1/agent/me",
       "workspacesUrl": "https://api.flashcards-open-source-app.com/v1/agent/workspaces",
-      "sqlUrl": "https://api.flashcards-open-source-app.com/v1/agent/sql"
+      "sqlQueryUrl": "https://api.flashcards-open-source-app.com/v1/agent/sql/query",
+      "sqlExecuteUrl": "https://api.flashcards-open-source-app.com/v1/agent/sql/execute"
     }
   },
-  "instructions": "Start with POST https://auth.flashcards-open-source-app.com/api/agent/send-code using the user's email, then POST https://auth.flashcards-open-source-app.com/api/agent/verify-code to obtain an API key. After login, call GET https://api.flashcards-open-source-app.com/v1/agent/me, then GET https://api.flashcards-open-source-app.com/v1/agent/workspaces?limit=100. If no workspace is selected for this API key, call POST https://api.flashcards-open-source-app.com/v1/agent/workspaces/{workspaceId}/select or create one with POST https://api.flashcards-open-source-app.com/v1/agent/workspaces using {\"name\":\"Personal\"}. After workspace bootstrap, use POST https://api.flashcards-open-source-app.com/v1/agent/sql for all shared card and deck reads and writes. Use docs.discoveryUrl for runtime discovery and docs.source.agentRoutesUrl for implementation details. The SQL surface is intentionally limited and is not full PostgreSQL.",
+  "instructions": "Start with POST https://auth.flashcards-open-source-app.com/api/agent/send-code using the user's email, then POST https://auth.flashcards-open-source-app.com/api/agent/verify-code to obtain an API key. After login, call GET https://api.flashcards-open-source-app.com/v1/agent/me, then GET https://api.flashcards-open-source-app.com/v1/agent/workspaces?limit=100. If no workspace is selected for this API key, call POST https://api.flashcards-open-source-app.com/v1/agent/workspaces/{workspaceId}/select or create one with POST https://api.flashcards-open-source-app.com/v1/agent/workspaces using {\"name\":\"Personal\"}. After workspace bootstrap, use POST https://api.flashcards-open-source-app.com/v1/agent/sql/query for all shared card and deck reads (SHOW TABLES, DESCRIBE, SHOW COLUMNS, SELECT) and POST https://api.flashcards-open-source-app.com/v1/agent/sql/execute for card and deck authoring writes (INSERT, UPDATE, DELETE). Use docs.discoveryUrl for runtime discovery and docs.source.agentRoutesUrl for implementation details. The SQL surface is intentionally limited and is not full PostgreSQL.",
   "docs": {
     "discoveryUrl": "https://api.flashcards-open-source-app.com/v1/",
     "docsUrl": "https://flashcards-open-source-app.com/docs/",
@@ -205,7 +207,7 @@ curl -X POST https://auth.flashcards-open-source-app.com/api/agent/verify-code \
       "revokedAt": null
     }
   },
-  "instructions": "Store this API key outside chat memory now. Use it in the Authorization header as 'ApiKey <key>'. Next call GET /v1/agent/me to load account context. Then call GET /v1/agent/workspaces?limit=100. If exactly one workspace exists, select it if needed. If no workspace exists, create one with POST /v1/agent/workspaces using {\"name\":\"Personal\"}. After a workspace is selected, use POST /v1/agent/sql for all data access. Use docs.discoveryUrl for runtime routes and docs.source.authRoutesUrl for implementation details.",
+  "instructions": "Store this API key outside chat memory now. Use it in the Authorization header as 'ApiKey <key>'. Next call GET /v1/agent/me to load account context. Then call GET /v1/agent/workspaces?limit=100. If exactly one workspace exists, select it if needed. If no workspace exists, create one with POST /v1/agent/workspaces using {\"name\":\"Personal\"}. After a workspace is selected, use POST /v1/agent/sql/query for reads and POST /v1/agent/sql/execute for writes. Use docs.discoveryUrl for runtime routes and docs.source.authRoutesUrl for implementation details.",
   "docs": {
     "discoveryUrl": "https://api.flashcards-open-source-app.com/v1/",
     "source": {
@@ -247,7 +249,7 @@ curl https://api.flashcards-open-source-app.com/v1/agent/me \
       "createdAt": "2026-03-10T12:00:00.000Z"
     }
   },
-  "instructions": "Next call GET https://api.flashcards-open-source-app.com/v1/agent/workspaces?limit=100 to inspect available workspaces for this API key. If data.nextCursor is not null, continue with the same endpoint and cursor=data.nextCursor until it becomes null. If no workspace is selected, call POST https://api.flashcards-open-source-app.com/v1/agent/workspaces/{workspaceId}/select. If no workspace exists, create one with POST https://api.flashcards-open-source-app.com/v1/agent/workspaces using {\"name\":\"Personal\"}. After a workspace is selected, use POST https://api.flashcards-open-source-app.com/v1/agent/sql for reads, writes, and SQL introspection. Read payload from data.* and use docs.discoveryUrl for runtime routes and docs.source.agentRoutesUrl for implementation details.",
+  "instructions": "Next call GET https://api.flashcards-open-source-app.com/v1/agent/workspaces?limit=100 to inspect available workspaces for this API key. If data.nextCursor is not null, continue with the same endpoint and cursor=data.nextCursor until it becomes null. If no workspace is selected, call POST https://api.flashcards-open-source-app.com/v1/agent/workspaces/{workspaceId}/select. If no workspace exists, create one with POST https://api.flashcards-open-source-app.com/v1/agent/workspaces using {\"name\":\"Personal\"}. After a workspace is selected, use POST https://api.flashcards-open-source-app.com/v1/agent/sql/query for reads and SQL introspection and POST https://api.flashcards-open-source-app.com/v1/agent/sql/execute for writes. Read payload from data.* and use docs.discoveryUrl for runtime routes and docs.source.agentRoutesUrl for implementation details.",
   "docs": {
     "discoveryUrl": "https://api.flashcards-open-source-app.com/v1/",
     "source": {
@@ -263,7 +265,7 @@ curl https://api.flashcards-open-source-app.com/v1/agent/me \
 - создать первое рабочее пространство, если их пока нет
 - выбрать нужное рабочее пространство, если их несколько
 - изучить runtime-маршруты через discovery по адресу `/v1/`
-- использовать `POST /v1/agent/sql` для чтения, записи и SQL-интроспекции
+- использовать `POST /v1/agent/sql/query` для чтения и SQL-интроспекции, а `POST /v1/agent/sql/execute` для записи
 
 Именно поэтому такой вход полезен на практике, а не просто "технически корректен".
 
@@ -290,10 +292,10 @@ OpenAPI недоступен, а `/v1/` служит точкой входа run
 Flashcards - проект с открытым исходным кодом, поэтому весь сценарий можно проверить по исходникам, а не воспринимать его как черный ящик.
 
 - Репозиторий: [github.com/kirill-markin/flashcards-open-source-app](https://github.com/kirill-markin/flashcards-open-source-app)
-- Маршрут discovery для агента: [apps/backend/src/agentDiscovery.ts](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/apps/backend/src/agentDiscovery.ts)
-- Маршрут send-code для агента: [apps/auth/src/routes/agentSendCode.ts](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/apps/auth/src/routes/agentSendCode.ts)
-- Маршрут verify-code для агента: [apps/auth/src/routes/agentVerifyCode.ts](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/apps/auth/src/routes/agentVerifyCode.ts)
-- Ответы для инициализации аккаунта и рабочего пространства: [apps/backend/src/agentSetup.ts](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/apps/backend/src/agentSetup.ts)
+- Маршрут discovery для агента: [apps/backend/src/agent/discovery.ts](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/apps/backend/src/agent/discovery.ts)
+- Маршрут send-code для агента: [apps/auth/src/routes/agent/agentSendCode.ts](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/apps/auth/src/routes/agent/agentSendCode.ts)
+- Маршрут verify-code для агента: [apps/auth/src/routes/agent/agentVerifyCode.ts](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/apps/auth/src/routes/agent/agentVerifyCode.ts)
+- Ответы для инициализации аккаунта и рабочего пространства: [apps/backend/src/agent/setup.ts](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/apps/backend/src/agent/setup.ts)
 
 Если вам важны открытая реализация аутентификации API, вход через одноразовый код по email или дизайн сценариев подключения для агентов, именно эти файлы стоит читать в первую очередь.
 

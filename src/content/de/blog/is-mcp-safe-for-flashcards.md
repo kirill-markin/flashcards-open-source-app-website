@@ -14,7 +14,7 @@ keywords:
   - "Prompt Injection bei MCP"
 ---
 
-Am 20. Mai 2026 veröffentlichte die NSA einen 17-seitigen Sicherheitsleitfaden zum Model Context Protocol. Das ist relevant, sobald ein Deck mehr als allgemein zugängliche Vokabeln enthält: Eine MCP-Verbindung zu Flashcards kann Karten, Workspace-Metadaten und den Wiederholungsverlauf an einen KI-Client senden. Dieselben Zugangsdaten gewähren Vollzugriff auf den Connector. Damit kann der Client auch ein Tool aufrufen, das Karten verändert oder als gelöscht markiert. Für die Frage **Ist MCP für Flashcards sicher?** sind zwei Punkte entscheidend: Dürfen diese Daten den gewählten Client erreichen, und kann der Client das Schreib-Tool nutzen?
+Am 20. Mai 2026 veröffentlichte die NSA einen 17-seitigen Sicherheitsleitfaden zum Model Context Protocol. Das ist relevant, sobald ein Deck mehr als allgemein zugängliche Vokabeln enthält: Eine MCP-Verbindung zu Flashcards kann Karten, Workspace-Metadaten und den Wiederholungsverlauf an einen KI-Client senden. Dieselben Zugangsdaten gewähren Vollzugriff auf den Connector. Damit kann der Client auch ein Tool aufrufen, das Karten verändert oder als gelöscht markiert. Für die Frage **Ist MCP für Flashcards sicher?** sind zwei Punkte entscheidend: Dürfen diese Daten den gewählten Client erreichen, und kann der Client die Schreib-Tools nutzen?
 
 OAuth sichert die Autorisierung und den Token-Austausch ab. Der Flashcards-Server begrenzt, was seine Tools tun dürfen. Doch weder OAuth noch diese Serverregeln können beurteilen, ob eine vorgeschlagene Änderung sinnvoll ist, abgerufene Daten in Flashcards halten oder dafür sorgen, dass ein KI-Client vor einem Schreibvorgang um Erlaubnis fragt.
 
@@ -33,7 +33,7 @@ An einer Remote-MCP-Sitzung können vier Rollen beteiligt sein:
 
 Manche Produkte vereinen die Rollen von Client und Modellanbieter. Andere leiten Tool-Ergebnisse an einen separaten Dienst weiter. Fest steht nur dieser Schritt: Flashcards sendet die angeforderten Daten an den authentifizierten MCP-Client. Was danach geschieht, hängt von dessen Architektur, Tarif und Einstellungen ab. Das Ergebnis kann in den Kontext eines Modells gelangen, innerhalb der Infrastruktur eines einzigen Anbieters bleiben oder an einen weiteren Datenverarbeiter weitergegeben werden.
 
-Praktisch geht es um drei Risiken. Ein Lesezugriff kann Kartentexte, die Deckstruktur, Workspace-Einstellungen oder Wiederholungsereignisse offenlegen. Ein Schreibzugriff kann unerwünschte Karten erstellen, Inhalte ändern oder Karten und Decks als gelöscht markieren. Außerdem kann der Agent deine Anfrage missverstehen oder Anweisungen aus importiertem Material für Befehle halten.
+Praktisch geht es um drei Risiken. Ein Lesezugriff kann Kartentexte, die Deckstruktur, Workspace-Einstellungen oder Wiederholungsereignisse offenlegen. Ein Schreibzugriff kann unerwünschte Karten erstellen, Inhalte ändern, Karten und Decks als gelöscht markieren oder eine Wiederholung erfassen, durch die eine Karte neu eingeplant wird. Außerdem kann der Agent deine Anfrage missverstehen oder Anweisungen aus importiertem Material für Befehle halten.
 
 Der [NSA-Leitfaden zu MCP vom Mai 2026](https://www.nsa.gov/Press-Room/Press-Releases-Statements/Press-Release-View/Article/4496698/nsa-releases-security-design-considerations-for-ai-driven-automation-leveraging/) unterscheidet hier sinnvoll: Authentifizierung, Autorisierung und Validierung bleiben notwendig. Die Risiken dynamischer Tool-Aufrufe, gemeinsam genutzter Kontexte und impliziten Vertrauens können diese Kontrollen jedoch nicht ausräumen. Bei einem öffentlichen Vokabeldeck kann die Entscheidung deshalb anders ausfallen als bei einem Deck aus vertraulichen Kundennotizen.
 
@@ -43,19 +43,23 @@ Für interaktive MCP-Clients nutzt Flashcards einen Authorization-Code-Flow mit 
 
 Diese Maßnahmen sichern die Anmeldung und den Token-Austausch ab. Die stabile [MCP-Autorisierungsspezifikation vom 25. November 2025](https://modelcontextprotocol.io/specification/2025-11-25/basic/authorization) verlangt für diesen Ablauf PKCE und ressourcenspezifische Token. Zugleich ist Autorisierung bei MCP-Implementierungen grundsätzlich optional. OAuth in diesem Connector sagt daher nicht aus, wie ein anderer MCP-Server den Zugriff absichert.
 
-Flashcards weist derzeit genau einen OAuth-Scope aus: `flashcards`. Separate Berechtigungen für Lese- und Schreibzugriff gibt es nicht; dieser Scope gewährt Vollzugriff auf den Connector. „Nur lesend“ ist eine Verbindung deshalb nur dann, wenn der KI-Client `sql_execute` deaktiviert oder blockiert. Serverseitig ist lediglich garantiert, dass `sql_query` nicht schreiben kann. Sendet der Client einen Aufruf an `sql_execute`, berechtigen dieselben Zugangsdaten auch dazu.
+Flashcards weist derzeit genau einen OAuth-Scope aus: `flashcards`. Separate Berechtigungen für Lese- und Schreibzugriff gibt es nicht; dieser Scope gewährt Vollzugriff auf den Connector. „Nur lesend“ ist eine Verbindung deshalb nur dann, wenn der KI-Client sowohl `sql_execute` als auch `submit_review` deaktiviert oder blockiert. Serverseitig ist lediglich garantiert, dass `sql_query` nicht schreiben kann. Sendet der Client einen Aufruf an eines der beiden Schreib-Tools, berechtigen dieselben Zugangsdaten auch dazu.
 
 Das Blockieren einzelner Tools im Client ist trotzdem sinnvoll. Die OAuth-Freigabe selbst bleibt dabei unverändert. Ein bösartiger oder kompromittierter Client mit den Zugangsdaten bleibt von dieser Einstellung unberührt.
 
-## Was die drei Flashcards-MCP-Tools tatsächlich können
+## Was die Flashcards-MCP-Tools tatsächlich können
 
-Der Connector erlaubt keinen beliebigen PostgreSQL-Zugriff, sondern nur einen vom Parser durchgesetzten SQL-Dialekt. Seine drei Tools haben klar getrennte Zugriffsbereiche:
+Der Connector erlaubt keinen beliebigen PostgreSQL-Zugriff, sondern nur einen vom Parser durchgesetzten SQL-Dialekt. Seine sieben Tools haben klar getrennte Zugriffsbereiche:
 
 | Tool | Zugriff | Ändert Daten? | Vorsichtige Client-Einstellung |
 | --- | --- | --- | --- |
 | `list_workspaces` | Listet bis zu 100 Workspaces auf, auf die der Nutzer zugreifen kann: ID, Name, Anzahl aktiver Karten, letzte Aktivität und Standard-Workspace | Nein | Nur aktivieren, wenn der Client diese Kontometadaten erhalten darf |
 | `sql_query` | Liest `workspace`, `cards`, `decks` und `review_events` innerhalb eines angegebenen Workspaces | Nein | Für eine klar definierte Leseaufgabe aktivieren und nur die benötigten Spalten anfordern |
 | `sql_execute` | Fügt Datensätze in `cards` und `decks` ein, aktualisiert sie oder markiert sie als gelöscht, jeweils innerhalb eines angegebenen Workspaces | Ja | Deaktiviert lassen, sofern der Client Schreibvorgänge nicht auf eine für dich akzeptable Weise begrenzen kann |
+| `get_guide` | Liefert einen festen Referenz-Leitfaden zum SQL-Dialekt, zum Erstellen von Karten, zum Erstellen vieler Karten auf einmal oder zum Ablauf einer Wiederholung, ohne Workspace-Daten zu lesen | Nein | Aktivieren; das Tool liefert Dokumentation, nicht deine Karten |
+| `next_review_card` | Liefert die Vorderseite der nächsten Karte zur Wiederholung innerhalb eines angegebenen Workspaces | Nein | Für eine Wiederholungssitzung aktivieren und bedenken, dass Kartentext an den Client gelangt |
+| `reveal_answer` | Liefert die Rückseite einer Karte innerhalb eines angegebenen Workspaces | Nein | Zusammen mit `next_review_card` aktivieren |
+| `submit_review` | Erfasst eine Bewertung mit Again, Hard, Good oder Easy und schreibt den FSRS-Plan dieser Karte fort | Ja | Deaktiviert lassen, sofern der Agent Wiederholungen nicht für dich erfassen soll |
 
 Der [MCP-Leitfaden](/de/docs/mcp-connector/) und die [API-Referenz](/de/docs/api/) beschreiben den öffentlich dokumentierten Dialekt. Für die Sicherheitsbewertung sind außerdem einige Details der Implementierung wichtig.
 
@@ -69,7 +73,7 @@ Ein Test-Workspace hilft trotzdem dabei, die Darstellung von Tool-Aufrufen im Cl
 
 ### Was ein Nur-Lese-Zugriff trotzdem preisgeben kann
 
-`list_workspaces` und `sql_query` können Kartendaten nicht verändern. Sie können auch keine Daten reparieren oder die Planung neu berechnen. Ohne `sql_execute` senkt diese serverseitige Trennung das Risiko versehentlicher Datenbankänderungen deutlich.
+`list_workspaces` und `sql_query` können Kartendaten nicht verändern. Sie können auch keine Daten reparieren oder die Planung neu berechnen. Ohne `sql_execute` und `submit_review` senkt diese serverseitige Trennung das Risiko versehentlicher Datenbankänderungen deutlich.
 
 Die Ergebnisse verlassen trotzdem das Flashcards-Backend. Eine Abfrage zu schwachen Themen kann Kartentexte und Wiederholungsereignisse enthalten. Selbst eine kurze Karte kann Patientendaten, den Namen eines internen Systems, ein privates Sprachbeispiel oder Notizen für ein Bewerbungsgespräch enthalten.
 
@@ -77,7 +81,7 @@ Die [Datenschutzerklärung von Flashcards](/de/privacy/) gilt auch für Daten, d
 
 ### Schreibzugriff ist enger begrenzt als voller Datenbankzugriff
 
-`sql_execute` erlaubt `INSERT`, `UPDATE` und `DELETE`, aber ausschließlich für `cards` und `decks`. Für `workspace` und `review_events` besteht nur Lesezugriff. Auch die Planungsfelder von Karten – darunter Fälligkeitstermine, Anzahl der Wiederholungen und der persistierte FSRS-Zustand – lassen sich über diesen Dialekt nur lesen. MCP kann weder eine Wiederholung als Lernereignis verbuchen noch den FSRS-Planungszustand direkt überschreiben.
+`sql_execute` erlaubt `INSERT`, `UPDATE` und `DELETE`, aber ausschließlich für `cards` und `decks`. Für `workspace` und `review_events` besteht nur Lesezugriff. Auch die Planungsfelder von Karten – darunter Fälligkeitstermine, Anzahl der Wiederholungen und der persistierte FSRS-Zustand – lassen sich über diesen Dialekt nur lesen. SQL kann weder eine Wiederholung als Lernereignis verbuchen noch den FSRS-Planungszustand direkt überschreiben. In die Planung gelangt eine Wiederholung nur über `submit_review`, und eine gespeicherte Wiederholung lässt sich über MCP weder bearbeiten noch rückgängig machen.
 
 Für `UPDATE` und `DELETE` ist eine `WHERE`-Klausel Pflicht. Damit fällt nur die völlig ungefilterte Anweisung weg; eine gültige, weit gefasste Bedingung kann weiterhin viele Zeilen treffen. Der Parser kann nicht erkennen, ob der Filter deiner Absicht entspricht.
 
@@ -87,18 +91,18 @@ Die [Nutzungsbedingungen](/de/terms/) fordern Nutzer auf, KI-generierte Ausgaben
 
 ## Freigaben liegen allein beim Client
 
-Flashcards kennzeichnet `sql_query` mit `readOnlyHint` und `sql_execute` mit `destructiveHint`. Im stabilen [MCP-Schema vom 25. November 2025](https://modelcontextprotocol.io/specification/2025-11-25/schema) sind Tool-Annotationen ausdrücklich als Hinweise definiert. Ein kompatibler Client kann daraus seine Freigaberegeln ableiten; erzwingen können die Annotationen nichts.
+Flashcards kennzeichnet `sql_query` und die übrigen Lese-Tools mit `readOnlyHint` sowie `sql_execute` und `submit_review` mit `destructiveHint`. Im stabilen [MCP-Schema vom 25. November 2025](https://modelcontextprotocol.io/specification/2025-11-25/schema) sind Tool-Annotationen ausdrücklich als Hinweise definiert. Ein kompatibler Client kann daraus seine Freigaberegeln ableiten; erzwingen können die Annotationen nichts.
 
-Sobald Flashcards einen gültigen, authentifizierten `sql_execute`-Aufruf erhält, führt der Server ihn sofort aus. Flashcards zeigt keinen zweiten Bestätigungsbildschirm. Eine menschliche Freigabe kann daher nur der KI-Client einholen, bevor die Anfrage den Server erreicht.
+Sobald Flashcards einen gültigen, authentifizierten Aufruf von `sql_execute` oder `submit_review` erhält, führt der Server ihn sofort aus. Flashcards zeigt keinen zweiten Bestätigungsbildschirm. Eine menschliche Freigabe kann daher nur der KI-Client einholen, bevor die Anfrage den Server erreicht.
 
 Wie das aussieht, hängt vom Client ab. OpenAIs [Dokumentation zum Entwicklermodus](https://developers.openai.com/api/docs/guides/developer-mode) erklärt beispielsweise, dass Schreibaktionen standardmäßig bestätigt werden müssen und Nutzer eine Entscheidung für eine Unterhaltung speichern können. Laut der [Hilfeseite zu MCP-Apps](https://help.openai.com/en/articles/12584461-developer-mode-and-mcp-apps-in-chatgpt-beta) hängen Freigabeaufforderungen von App-Berechtigungen, Kontext und Workspace-Kontrollen ab. Andere Clients bieten abweichende Kontrollen oder gar keine.
 
 Nutze die strengste Option, die dein Client tatsächlich anbietet:
 
-- Kann der Client einzelne Tools deaktivieren, lass `sql_execute` ausgeschaltet, bis eine Aufgabe es benötigt.
+- Kann der Client einzelne Tools deaktivieren, lass `sql_execute` und `submit_review` ausgeschaltet, bis eine Aufgabe sie benötigt.
 - Kann er vor jeder Änderung eine Freigabe verlangen, wähle diese Einstellung und lass Freigabeentscheidungen für Schreibvorgänge nicht speichern.
 - Zeigt er einen geplanten Aufruf an, prüfe `workspaceId`, jede Anweisung, die `WHERE`-Bedingungen und die erwartete Anzahl passender Datensätze.
-- Kann er das Schreib-Tool nicht blockieren oder vor Aufrufen nicht zuverlässig pausieren, behandle die Verbindung von Anfang an als schreibberechtigt.
+- Kann er die Schreib-Tools nicht blockieren oder vor Aufrufen nicht zuverlässig pausieren, behandle die Verbindung von Anfang an als schreibberechtigt.
 
 Diese Einstellungen verringern die Wahrscheinlichkeit eines Fehlers. Ob die Modellausgabe sinnvoll ist, muss trotzdem ein Mensch beurteilen.
 
@@ -108,7 +112,7 @@ Eine Anweisung kann höchstens 100 Datensätze zurückgeben oder verändern. Ein
 
 Ein Batch mit Änderungen ist atomar: Entweder werden alle Anweisungen erfolgreich ausgeführt oder die Transaktion schlägt fehl. So bleibt bei einem Fehler kein nur teilweise ausgeführter Batch zurück. Die Atomarität prüft jedoch keine Absicht und kann einen erfolgreich festgeschriebenen Batch nicht rückgängig machen.
 
-Zusätzlich ist das serialisierte Ergebnis auf 48.000 Zeichen begrenzt. Diese Grenze greift erst nach dem Ausführen der Änderung und begrenzt nur die MCP-Antwort. Eine Änderung kann also bereits festgeschrieben sein, bevor ein zu großes Ergebnis abgelehnt wird. Für die möglichen Auswirkungen zählt deshalb das Limit von 100 Zeilen pro Anweisung. Prüfe breite Zielmengen vor dem Schreiben mit `sql_query`.
+Zusätzlich ist das serialisierte Ergebnis auf 48.000 Zeichen begrenzt. Diese Grenze greift erst nach dem Ausführen der Änderung und begrenzt nur die MCP-Antwort. Die Änderung ist zu diesem Zeitpunkt bereits festgeschrieben, daher wird ein zu großes Ergebnis eines Schreibvorgangs gekürzt und nicht abgelehnt. Für die möglichen Auswirkungen zählt deshalb das Limit von 100 Zeilen pro Anweisung. Prüfe breite Zielmengen vor dem Schreiben mit `sql_query`.
 
 ## Prompt Injection kann im Lernmaterial stecken
 
@@ -146,7 +150,7 @@ Falls dein Bedrohungsmodell einen sofortigen serverseitigen OAuth-Widerruf verla
 2. Prüfe die Server-URL. Der dokumentierte Endpunkt lautet `https://mcp.flashcards-open-source-app.com/mcp`. Meide zum Verwechseln ähnliche Domains und Connector-Definitionen aus unbekannten Quellen.
 3. Lies die Richtlinien auf beiden Seiten. Beginne mit der [Datenschutzerklärung von Flashcards](/de/privacy/) und prüfe dann für den konkreten KI-Client die Regeln zu Speicherfristen, Training, Memory, Protokollierung und Löschung.
 4. Entscheide, ob ein zusätzlicher Workspace genügt. Für einen Probelauf ist er nützlich, doch die Verbindung kann jeden anderen zugänglichen Workspace desselben Kontos ansprechen. Nutze ein separates Konto oder eine separate Bereitstellung, wenn du strikte Isolation benötigst.
-5. Blockiere `sql_execute` zunächst im Client. Kann der Client das Tool nicht blockieren, bedenke vor dem Herstellen der Verbindung, dass die OAuth-Zugangsdaten weiterhin Schreibzugriff erlauben.
+5. Blockiere `sql_execute` und `submit_review` zunächst im Client. Kann der Client die Tools nicht blockieren, bedenke vor dem Herstellen der Verbindung, dass die OAuth-Zugangsdaten weiterhin Schreibzugriff erlauben.
 6. Fordere nur die nötigsten Daten an. Wähle ausschließlich die Spalten und Zeilen aus, die für die Antwort erforderlich sind, und halte vertrauliche Informationen, die nichts mit der Aufgabe zu tun haben, aus der Unterhaltung heraus.
 7. Erstelle vor Massenänderungen ein getestetes Backup. Der [Leitfaden zur Sicherung von Flashcards](/de/blog/how-to-back-up-flashcards/) beschreibt den umfassenderen Ablauf.
 8. Prüfe jede breit angelegte Aktualisierung oder Löschung zuerst mit `sql_query`. Bevorzuge eindeutige Karten- oder Deck-IDs, gleiche die Anzahl der Treffer mit deiner Erwartung ab und teile die Änderung in kleine Anweisungen auf.
@@ -157,14 +161,14 @@ Die nächsten Einrichtungsschritte stehen in [So verbindest du Flashcards mit Cl
 
 ## Wo Open Source und Self-Hosting helfen
 
-Der Flashcards-Connector hat einige nützliche Eigenschaften: getrennte Lese- und Schreib-Tools, eine feste Liste erlaubter Anweisungen, die Prüfung der Workspace-Mitgliedschaft bei jedem Aufruf, nur lesbare Planungsfelder und öffentlich zugänglichen Quellcode. Dadurch lässt sich sein Zugriffsbereich leichter prüfen und begrenzen. Diese Kontrollen senken das Risiko; sie können weder einen sicheren Client noch eine richtige Entscheidung des Modells garantieren.
+Der Flashcards-Connector hat einige nützliche Eigenschaften: getrennte Lese- und Schreib-Tools, eine feste Liste erlaubter Anweisungen, die Prüfung der Workspace-Mitgliedschaft bei jedem Aufruf, Planungsfelder, die SQL nicht schreiben kann, und öffentlich zugänglichen Quellcode. Dadurch lässt sich sein Zugriffsbereich leichter prüfen und begrenzen. Diese Kontrollen senken das Risiko; sie können weder einen sicheren Client noch eine richtige Entscheidung des Modells garantieren.
 
 Eine [selbst gehostete Bereitstellung](/de/docs/self-hosting/) kann Speicherung und Betrieb von Flashcards auf eine von dir kontrollierte Infrastruktur verlagern. Abfragen an einen externen KI-Dienst übertragen Kartendaten trotzdem aus dieser Bereitstellung heraus. Für die Verarbeitung durch Modell und Client muss deshalb derselbe Datenschutzstandard gelten wie für die Datenbank.
 
 ## Eine einfache Entscheidungsregel
 
-Nutze die MCP-Lese-Tools nur, wenn die angeforderten Daten über den gewählten Weg an den Client gelangen dürfen, du die Bedingungen des Anbieters akzeptierst und die Aufgabe diese Weitergabe rechtfertigt. Solange dein Client `sql_execute` nicht tatsächlich blockiert, gilt die Verbindung als Vollzugriff.
+Nutze die MCP-Lese-Tools nur, wenn die angeforderten Daten über den gewählten Weg an den Client gelangen dürfen, du die Bedingungen des Anbieters akzeptierst und die Aufgabe diese Weitergabe rechtfertigt. Solange dein Client `sql_execute` und `submit_review` nicht tatsächlich blockiert, gilt die Verbindung als Vollzugriff.
 
-Aktiviere das Schreib-Tool nur für eine eng begrenzte Aufgabe, wenn der Client vor jedem wichtigen Aufruf pausieren kann, du die Zielzeilen vorab geprüft hast und ein brauchbares Backup vorhanden ist. Ein Batch kann weit mehr als 100 Datensätze erfassen, und eine Löschung lässt sich über MCP nicht rückgängig machen.
+Aktiviere ein Schreib-Tool nur für eine eng begrenzte Aufgabe, wenn der Client vor jedem wichtigen Aufruf pausieren kann, du die Zielzeilen vorab geprüft hast und ein brauchbares Backup vorhanden ist. Ein Batch kann weit mehr als 100 Datensätze erfassen, und eine Löschung lässt sich über MCP nicht rückgängig machen.
 
 Verzichte auf die Verbindung, wenn das Deck nicht mit dem Client oder seinen Datenverarbeitern geteilt werden darf, die Regeln für die weitere Verarbeitung unklar sind, auf demselben Konto strikte Workspace-Isolation nötig ist, ein sofortiger OAuth-Widerruf zwingend erforderlich ist oder der Ablauf unbeaufsichtigte destruktive Schreibvorgänge voraussetzt. Nutze Flashcards in diesen Fällen ohne MCP oder wähle eine Bereitstellung und einen Modellpfad, deren gesamter Datenfluss deine Anforderungen erfüllt.

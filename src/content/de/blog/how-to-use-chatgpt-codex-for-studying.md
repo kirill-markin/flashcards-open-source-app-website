@@ -110,17 +110,21 @@ und zeige sie mir, damit ich sie prüfen kann.
 
 Codex sollte zuerst das Werkzeug aufrufen, das deine Workspaces nur auflistet und nichts verändert. Sobald du den Workspace und die Einordnung ausgewählt hast, kann es die Schreibaktion vorbereiten. Prüfe vor der Freigabe den Workspace, die Vorder- und Rückseiten, Tags, Änderungen an Decks und die Anzahl der betroffenen Einträge.
 
-Der Connector stellt drei Werkzeuge bereit:
+Der Connector stellt sieben Werkzeuge bereit:
 
 | Tool | Funktion | Verändert Daten? |
 | --- | --- | --- |
 | `list_workspaces` | Listet die Flashcards-Workspaces auf, auf die du zugreifen darfst | Nein |
 | `sql_query` | Liest freigegebene Daten zu Workspaces, Karten, Decks und Wiederholungen | Nein |
 | `sql_execute` | Erstellt, bearbeitet oder löscht freigegebene Karten und Decks | Ja |
+| `get_guide` | Liefert einen Referenz-Leitfaden zu SQL, zum Schreiben von Karten, zu umfangreichen Schreibaktionen oder zu Wiederholungen | Nein |
+| `next_review_card` | Zeigt die Vorderseite der nächsten Karte zur Wiederholung | Nein |
+| `reveal_answer` | Zeigt die Rückseite dieser Karte, nachdem du geantwortet hast | Nein |
+| `submit_review` | Erfasst eine Bewertung mit Again, Hard, Good oder Easy und aktualisiert den FSRS-Zeitplan | Ja |
 
 Die Namen wirken technisch, weil der Connector im Hintergrund eine kleine SQL-ähnliche Schnittstelle verwendet. Du musst selbst kein SQL schreiben. Beschreibe das gewünschte Ergebnis in normaler Sprache und prüfe die vorgeschlagene Änderung.
 
-Das ist kein uneingeschränkter Datenbankzugriff. Jede Anfrage bleibt auf einen Workspace beschränkt, auf den dein Konto zugreifen darf. Der Server akzeptiert außerdem nur die dokumentierten Lesezugriffe sowie Schreibaktionen für Karten und Decks. Die Anleitung [Ist MCP für Flashcards sicher?](/de/blog/is-mcp-safe-for-flashcards/) erklärt den Datenweg, die Grenzen, Freigaben und das Risiko beim Löschen genauer.
+Das ist kein uneingeschränkter Datenbankzugriff. Jede Anfrage bleibt auf einen Workspace beschränkt, auf den dein Konto zugreifen darf. Der Server akzeptiert außerdem nur die dokumentierten Lesezugriffe, Schreibaktionen für Karten und Decks sowie Bewertungen von Wiederholungen. Die Anleitung [Ist MCP für Flashcards sicher?](/de/blog/is-mcp-safe-for-flashcards/) erklärt den Datenweg, die Grenzen, Freigaben und das Risiko beim Löschen genauer.
 
 ## Codex kann das Deck nach der Lernsitzung aufräumen
 
@@ -144,7 +148,7 @@ In Flashcards sind Decks gespeicherte Filter. Damit eine Karte unter einem ander
 
 ## Die eigentliche FSRS-Wiederholung findet weiterhin in Flashcards statt
 
-Der MCP-Connector kann freigegebene Wiederholungsdaten sowie Zustands- und Planungsfelder von FSRS lesen. Die gespeicherten Wiederholungsereignisse (`review_events`) und die Zustands- und Planungsdaten von FSRS sind über diese Schnittstelle jedoch schreibgeschützt. Das Schreibwerkzeug kann keine Wiederholung erfassen, keine Bewertung mit Again, Hard, Good oder Easy abgeben und den FSRS-Zustand oder -Zeitplan nicht verändern.
+Der MCP-Connector kann freigegebene Wiederholungsdaten sowie Zustands- und Planungsfelder von FSRS lesen. Die gespeicherten Wiederholungsereignisse (`review_events`) und die Zustands- und Planungsdaten von FSRS sind über SQL jedoch schreibgeschützt. Das SQL-Schreibwerkzeug kann keine Wiederholung erfassen, keine Bewertung mit Again, Hard, Good oder Easy abgeben und den FSRS-Zustand oder -Zeitplan nicht verändern. Eine Bewertung kann der Connector nur über sein separates Werkzeug `submit_review` erfassen, und dieser Ablauf überlässt Wiederholungen der App.
 
 Öffne die [Flashcards-Web-App](https://app.flashcards-open-source-app.com/) oder eine mobile App, sobald die Karten fällig sind. Rufe die Antwort aus dem Gedächtnis ab, decke die Rückseite auf und wähle dort deine Bewertung. Flashcards zeichnet die offizielle Wiederholung auf, danach entscheidet FSRS, wann die Karte wieder fällig wird.
 
