@@ -141,13 +141,13 @@ Codex 应该先调用只读的工作区工具。等你选好工作区和整理�
 
 在 Flashcards 中，牌组其实是保存下来的筛选条件。把卡片放到另一个牌组，可能意味着修改标签，所以标签也要一起检查。你也可以用同样的“先检查，再批准”方式创建牌组、整理少量卡片，或删除你明确指定的卡片。对于任何拥有真实写入权限的工具，“删掉所有看起来不好的卡片”都是一句危险的提示词。
 
-## 正式的 FSRS 复习仍要在 Flashcards 中完成
+## 由 Flashcards 记录的，才是正式的 FSRS 复习
 
-MCP 连接器可以读取允许访问的 `review_events`（复习记录）和复习安排相关字段。它的 SQL 写入工具不能创建 `review_events`，不能提交 Again、Hard、Good 或 Easy 评分，也不能修改已经保存的 FSRS 状态或复习安排。连接器只能通过单独的 `submit_review` 工具记录评分，而这套流程把复习留给应用完成。
+MCP 连接器可以读取允许访问的 `review_events`（复习记录）和复习安排相关字段。它的 SQL 写入工具不能创建 `review_events`，不能提交 Again、Hard、Good 或 Easy 评分，也不能修改已经保存的 FSRS 状态或复习安排。连接器只能通过单独的 `submit_review` 工具记录评分，所以复习既可以在应用里完成，也可以交给 Codex 来进行。
 
 卡片到期后，打开 [Flashcards 网页版](https://app.flashcards-open-source-app.com/)或移动端客户端。先回忆答案，再显示背面，并在那里选择评分。Flashcards 会记录这次正式复习，再由 FSRS 决定卡片何时重新出现。
 
-Codex 仍然可以根据你授权的卡片数据进行非正式测验，把它当成额外练习即可。它不能替代 Flashcards 中按计划进行的正式复习。[AI 闪卡导师指南](/zh/blog/ai-flashcard-tutor-due-cards/)用完整的测验流程解释了这一区别。
+Codex 也可以根据你授权的卡片数据进行非正式测验，把它当成额外练习即可：单纯的测验不会记录复习，也不会改变复习安排。想做正式复习时，请让 Codex 用复习工具来进行。它会用 `next_review_card` 只显示正面，在你作答后用 `reveal_answer` 显示背面，再用 `submit_review` 记录评分，让 FSRS 重新安排这张卡。除非你要求自己选择每次评分，否则由 Codex 为你的回答评分。[AI 闪卡导师指南](/zh/blog/ai-flashcard-tutor-due-cards/)更详细地介绍了这个复习流程。
 
 ## Codex CLI（命令行工具）使用同一份 MCP 配置
 
