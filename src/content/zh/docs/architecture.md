@@ -61,7 +61,7 @@ iOS 应用 / 代理客户端            -> api.<domain>  -> API Gateway -> Lambd
 1. 代理客户端从 `GET /v1/` 开始。
 2. OTP 引导流程在 `auth.<domain>` 上进行。
 3. 代理客户端会获得一个长期有效的 API 密钥。
-4. 代理客户端会先加载 `/v1/agent/me`，列出可用工作区，必要时选择其中一个，然后再调用 `/v1/agent/sql`。
+4. 代理客户端会先加载 `/v1/agent/me`，列出可用工作区，必要时选择其中一个，然后再调用 `/v1/agent/sql/query` 和 `/v1/agent/sql/execute`。
 
 ## 调度
 

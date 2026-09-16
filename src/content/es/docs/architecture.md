@@ -62,7 +62,7 @@ Apex fallback                   -> <domain>      -> CloudFront redirect -> app.<
 1. Los agentes comienzan con `GET /v1/`.
 2. El arranque de OTP se ejecuta en `auth.<domain>`.
 3. El agente recibe una clave API de larga duración.
-4. El agente carga `/v1/agent/me`, enumera los espacios de trabajo, selecciona uno si es necesario y luego usa `/v1/agent/sql`.
+4. El agente carga `/v1/agent/me`, enumera los espacios de trabajo, selecciona uno si es necesario y luego usa `/v1/agent/sql/query` y `/v1/agent/sql/execute`.
 
 ## Programación
 
