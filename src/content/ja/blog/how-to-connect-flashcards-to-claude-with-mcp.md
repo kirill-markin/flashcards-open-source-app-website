@@ -60,10 +60,11 @@ TeamまたはEnterpriseワークスペースを使っている場合は、Owner�
 
 ## 最初の権限設定は控えめでいい
 
-ここで出ているFlashcardsコネクタは、使うツールの範囲がかなり小さめです。
+カードを作るときに関係するのは、Flashcardsコネクタのツールのうち次の4つです。
 
 - `list_workspaces` は利用可能なワークスペース一覧の取得
 - `sql_query` は読み取り専用アクセス
+- `get_guide` はClaudeが最初の書き込みの前に読むカード作成ルールの取得
 - `sql_execute` はカード作成のような書き込み操作
 
 Claudeでは各ツールごとに **Always allow**、**Needs approval**、**Blocked** を設定できます。

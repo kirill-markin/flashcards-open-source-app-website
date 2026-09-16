@@ -62,10 +62,11 @@ Individual Claude account के लिए setup flow यह है:
 
 ## शुरुआत में permissions को conservative रखें
 
-यहाँ दिखाया गया Flashcards connector छोटा-सा tool surface expose करता है:
+Cards बनाने के लिए connector के चार tools काम आते हैं:
 
 - `list_workspaces` available workspaces की सूची के लिए
 - `sql_query` read access के लिए
+- `get_guide` card writing rules के लिए, जिन्हें Claude पहली बार लिखने से पहले पढ़ता है
 - `sql_execute` write actions के लिए, जैसे cards बनाना
 
 Claude हर tool के लिए **Always allow**, **Needs approval**, या **Blocked** set करने देता है।

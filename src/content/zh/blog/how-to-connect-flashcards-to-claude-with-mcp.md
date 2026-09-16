@@ -60,10 +60,11 @@ Flashcards 连接器的准确 URL 是：
 
 ## 第一次设置权限时，先保守一点
 
-这里展示的 Flashcards 连接器，暴露出来的工具并不多：
+创建卡片时，需要关注 Flashcards 连接器中的这四个工具：
 
 - `list_workspaces`：列出可用 workspace
 - `sql_query`：只读查询
+- `get_guide`：获取 Claude 在第一次写入前要读的写卡规则
 - `sql_execute`：执行写入操作，比如创建卡片
 
 Claude 允许你把每个工具分别设成 `Always allow`、`Needs approval` 或 `Blocked`。

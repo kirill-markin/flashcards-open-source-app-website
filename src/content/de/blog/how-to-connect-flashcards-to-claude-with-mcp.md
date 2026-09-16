@@ -60,10 +60,11 @@ Wenn du in einem Team- oder Enterprise-Workspace bist, kann ein Owner oder Prima
 
 ## Setze die ersten Berechtigungen eher vorsichtig
 
-Der Flashcards-Connector in diesem Beispiel hat einen kleinen Tool-Umfang:
+Für das Erstellen von Karten sind vier Tools des Connectors wichtig:
 
 - `list_workspaces`, um verfügbare Workspaces aufzulisten
 - `sql_query` für Lesezugriff
+- `get_guide` für die Regeln zum Schreiben von Karten, die Claude vor dem ersten Schreibvorgang liest
 - `sql_execute` für Schreibaktionen wie das Erstellen von Karten
 
 Claude lässt dich jedes Tool auf **Always allow**, **Needs approval** oder **Blocked** setzen.
