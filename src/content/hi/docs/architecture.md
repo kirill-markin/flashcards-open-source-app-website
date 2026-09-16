@@ -61,7 +61,7 @@ Apex fallback                   -> <domain>      -> CloudFront redirect -> app.<
 1. एजेंट `GET /v1/` से शुरू होते हैं।
 2. OTP bootstrap `auth.<domain>` पर चलता है।
 3. एजेंट को एक long-lived API key मिलती है।
-4. एजेंट `/v1/agent/me` लोड करता है, workspaces की सूची पढ़ता है, ज़रूरत पड़ने पर एक चुनता है, और फिर `/v1/agent/sql` का उपयोग करता है।
+4. एजेंट `/v1/agent/me` लोड करता है, workspaces की सूची पढ़ता है, ज़रूरत पड़ने पर एक चुनता है, और फिर `/v1/agent/sql/query` और `/v1/agent/sql/execute` का उपयोग करता है।
 
 ## शेड्यूलिंग
 
