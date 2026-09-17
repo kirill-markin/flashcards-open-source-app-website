@@ -65,7 +65,7 @@ iOS 应用 / 代理客户端            -> api.<domain>  -> API Gateway -> Lambd
 
 ## 调度
 
-Flashcards 使用 FSRS 作为复习调度器。
+Nibomo 使用 FSRS 作为复习调度器。
 
 实现说明：
 

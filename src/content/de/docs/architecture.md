@@ -65,7 +65,7 @@ Apex-Weiterleitung             -> <domain>      -> CloudFront redirect -> app.<d
 
 ## Scheduling
 
-Flashcards verwendet FSRS als Review-Scheduler.
+Nibomo verwendet FSRS als Review-Scheduler.
 
 Implementierungshinweise:
 

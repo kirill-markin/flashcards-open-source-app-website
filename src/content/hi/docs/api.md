@@ -5,7 +5,7 @@ description: खोज, OTP की शुरुआती प्रक्रि�
 
 ## परिचय
 
-यह पेज Flashcards के लिए बाहरी AI एजेंटों के मौजूदा अनुबंध का विवरण देता है।
+यह पेज Nibomo के लिए बाहरी AI एजेंटों के मौजूदा अनुबंध का विवरण देता है।
 
 अगर आपका क्लाइंट MCP बोलता है, तो [MCP कनेक्टर](/docs/mcp-connector/) कनेक्ट करने का
 सबसे सरल तरीका है और यह इसी डेटा इंटरफ़ेस को अपने भीतर समेटता है। यह पेज CLI एजेंटों
@@ -243,7 +243,7 @@ curl -X POST https://api.flashcards-open-source-app.com/v1/agent/reviews/submit 
 
 ## उपयोगकर्ता और समन्वयन API
 
-Flashcards में उपयोगकर्ता क्लाइंट और offline-first sync के लिए अलग APIs भी हैं, लेकिन बाहरी एजेंटों के लिए वे मुख्य अनुबंध नहीं हैं:
+Nibomo में उपयोगकर्ता क्लाइंट और offline-first sync के लिए अलग APIs भी हैं, लेकिन बाहरी एजेंटों के लिए वे मुख्य अनुबंध नहीं हैं:
 
 - browser आधारित flows shared-domain cookies और CSRF protection का उपयोग करते हैं
 - offline-first क्लाइंट `/v1/workspaces/{workspaceId}/sync/push` और `/v1/workspaces/{workspaceId}/sync/pull` के तहत लागू किए गए sync routes का उपयोग करते हैं

@@ -1,6 +1,6 @@
 ---
 title: Privacy Policy
-description: Privacy policy for Flashcards.
+description: Privacy policy for Nibomo.
 slug: privacy
 sections:
   - type: legal_page
@@ -8,7 +8,7 @@ sections:
 ---
 ## Operator and Scope
 
-The hosted Flashcards service is operated by SAMO DANNI EOOD, company ID 207395566, VAT BG207395566, registered address bulv. Maritza 154, entrance D, floor 6 #14, 4018, Plovdiv, Bulgaria. Flashcards was created by Kirill Markin.
+The hosted Nibomo service is operated by SAMO DANNI EOOD, company ID 207395566, VAT BG207395566, registered address bulv. Maritza 154, entrance D, floor 6 #14, 4018, Plovdiv, Bulgaria. Nibomo was created by Kirill Markin.
 
 This policy applies to the hosted website, apps, API, and MCP service operated by us. A self-hosted instance is controlled by its operator, who is responsible for its privacy practices.
 
@@ -58,7 +58,7 @@ OpenAI is the AI provider configured for hosted chat, transcription, and image-g
 
 Hosted AI requests are also observed through Langfuse Cloud for debugging and service-quality analysis. Langfuse traces can include prompts, model responses, tool activity, user, workspace and session identifiers, and operational metadata. The implementation masks email addresses and secret-looking fields; custom transcription traces exclude raw audio bytes and attachment data.
 
-When you connect Flashcards to an external AI client through the remote MCP service or Agent API, the data you ask that client to retrieve is also processed by the client and its AI or model provider. That separate processing is controlled by the client operator and governed by its terms and privacy policy.
+When you connect Nibomo to an external AI client through the remote MCP service or Agent API, the data you ask that client to retrieve is also processed by the client and its AI or model provider. That separate processing is controlled by the client operator and governed by its terms and privacy policy.
 
 ## Processors and Recipients
 
@@ -70,7 +70,7 @@ We use the following service-provider categories for the hosted service:
 - Langfuse Cloud for hosted AI observability;
 - Sentry for sanitized error and diagnostic reporting when enabled in the relevant hosted service or app build;
 - Vercel for the marketing website and its cookie-free Web Analytics; and
-- Cloudflare for DNS and domain management. Current Flashcards DNS records are DNS-only, so Cloudflare does not proxy hosted website or app HTTP traffic.
+- Cloudflare for DNS and domain management. Current Nibomo DNS records are DNS-only, so Cloudflare does not proxy hosted website or app HTTP traffic.
 
 Data can also be disclosed to other members of a shared workspace according to the service's collaboration features, to an external client you authorize, to professional advisers under confidentiality duties, or to public authorities when disclosure is legally required.
 

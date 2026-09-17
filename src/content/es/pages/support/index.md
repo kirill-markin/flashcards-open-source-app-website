@@ -1,6 +1,6 @@
 ---
 title: Soporte
-description: Opciones de soporte para Flashcards.
+description: Opciones de soporte para Nibomo.
 slug: support
 sections:
   - type: legal_page
@@ -16,7 +16,7 @@ En la app iOS puedes borrar tu cuenta alojada desde `Settings > Account Settings
 
 ## Codigo abierto e informes tecnicos
 
-Flashcards es de codigo abierto. Para errores, problemas de autoalojamiento o discusiones tecnicas, tambien puedes usar el [repositorio de GitHub](https://github.com/kirill-markin/flashcards-open-source-app) y su issue tracker.
+Nibomo es de codigo abierto. Para errores, problemas de autoalojamiento o discusiones tecnicas, tambien puedes usar el [repositorio de GitHub](https://github.com/kirill-markin/flashcards-open-source-app) y su issue tracker.
 
 ## Autoalojamiento
 

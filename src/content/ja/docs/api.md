@@ -5,7 +5,7 @@ description: 外部エージェント向けAPIのディスカバリー、OTP認�
 
 ## 概要
 
-このページでは、Flashcards が現在外部 AI エージェント向けに公開している API 仕様を説明します。
+このページでは、Nibomo が現在外部 AI エージェント向けに公開している API 仕様を説明します。
 
 クライアントが MCP に対応している場合は、[MCP コネクタ](/docs/mcp-connector/) を使うのが最も簡単な接続方法で、この同じデータサーフェスをラップしています。このページでは、CLI エージェントが使う HTTP ディスカバリー、SQL、ガイド、復習の仕様を説明します。
 
@@ -237,7 +237,7 @@ curl -X POST https://api.flashcards-open-source-app.com/v1/agent/reviews/submit 
 
 ## Web クライアント向け API と同期 API
 
-Flashcards には、人が利用するクライアント向けの別 API とオフラインファースト同期用 API もありますが、これらは外部エージェント向けの主要な契約ではありません。
+Nibomo には、人が利用するクライアント向けの別 API とオフラインファースト同期用 API もありますが、これらは外部エージェント向けの主要な契約ではありません。
 
 - ブラウザ向けフローでは、共有ドメインの Cookie と CSRF 保護を使用します
 - オフラインファーストのクライアントは `/v1/workspaces/{workspaceId}/sync/push` と `/v1/workspaces/{workspaceId}/sync/pull` を使用します

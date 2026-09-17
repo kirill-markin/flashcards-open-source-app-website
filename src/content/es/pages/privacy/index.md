@@ -1,6 +1,6 @@
 ---
 title: Política de privacidad
-description: Política de privacidad de Flashcards.
+description: Política de privacidad de Nibomo.
 slug: privacy
 sections:
   - type: legal_page
@@ -8,7 +8,7 @@ sections:
 ---
 ## Responsable y alcance
 
-El servicio alojado de Flashcards está operado por SAMO DANNI EOOD, ID de empresa 207395566, VAT BG207395566, con domicilio social en bulv. Maritza 154, entrance D, floor 6 #14, 4018, Plovdiv, Bulgaria. Flashcards fue creado por Kirill Markin.
+El servicio alojado de Nibomo está operado por SAMO DANNI EOOD, ID de empresa 207395566, VAT BG207395566, con domicilio social en bulv. Maritza 154, entrance D, floor 6 #14, 4018, Plovdiv, Bulgaria. Nibomo fue creado por Kirill Markin.
 
 Esta política se aplica al sitio web, las aplicaciones, la API y el servicio MCP alojados que operamos. Una instancia autoalojada está controlada por su operador, que es responsable de sus prácticas de privacidad.
 
@@ -58,7 +58,7 @@ OpenAI es el proveedor configurado para las funciones alojadas de chat, transcri
 
 Las solicitudes de IA alojada también se observan mediante Langfuse Cloud para depuración y análisis de calidad. Sus trazas pueden incluir prompts, respuestas del modelo, actividad de herramientas, identificadores de usuario, espacio de trabajo y sesión, y metadatos operativos. La implementación oculta correos y campos con apariencia de secreto; las trazas personalizadas de transcripción excluyen el audio y los datos de archivos adjuntos.
 
-Si conectas Flashcards a un cliente externo de IA mediante el servicio MCP remoto o la Agent API, el cliente y su proveedor de IA también tratan los datos que le pidas recuperar. Ese tratamiento independiente está controlado por el operador del cliente y se rige por sus propias condiciones y política de privacidad.
+Si conectas Nibomo a un cliente externo de IA mediante el servicio MCP remoto o la Agent API, el cliente y su proveedor de IA también tratan los datos que le pidas recuperar. Ese tratamiento independiente está controlado por el operador del cliente y se rige por sus propias condiciones y política de privacidad.
 
 ## Encargados y destinatarios
 
@@ -70,7 +70,7 @@ Usamos estas categorías de proveedores para el servicio alojado:
 - Langfuse Cloud para observabilidad de IA;
 - Sentry para informes depurados de errores y diagnóstico cuando esté activado en el servicio o la compilación correspondiente;
 - Vercel para el sitio web de marketing y su Web Analytics sin cookies; y
-- Cloudflare para DNS y gestión de dominios. Los registros DNS actuales de Flashcards son de tipo DNS-only, por lo que Cloudflare no actúa como proxy del tráfico HTTP del sitio o las aplicaciones.
+- Cloudflare para DNS y gestión de dominios. Los registros DNS actuales de Nibomo son de tipo DNS-only, por lo que Cloudflare no actúa como proxy del tráfico HTTP del sitio o las aplicaciones.
 
 Los datos también pueden mostrarse a otros miembros de un espacio de trabajo compartido, transmitirse a un cliente externo que autorices, comunicarse a asesores profesionales sujetos a confidencialidad o a autoridades públicas cuando la ley lo exija.
 

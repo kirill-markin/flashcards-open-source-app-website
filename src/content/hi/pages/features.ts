@@ -1,7 +1,7 @@
 import type { PageContent } from "@/lib/content/types";
 
 export const FEATURES_PAGE_CONTENT: PageContent = {
-  title: "Flashcards की खूबियाँ",
+  title: "Nibomo की खूबियाँ",
   description:
     "FSRS स्पेस्ड रिपिटीशन, AI की मदद से फ्लैशकार्ड बनाने, ऑफ़लाइन पढ़ाई, एक्सपोर्ट और सेल्फ़-होस्टिंग वाले मुफ़्त ओपन-सोर्स फ्लैशकार्ड।",
   slug: "features",

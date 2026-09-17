@@ -6,7 +6,7 @@ description: >-
 ---
 ## Descripción general
 
-Esta página documenta el contrato actual de agente de IA externo para Flashcards.
+Esta página documenta el contrato actual de agente de IA externo para Nibomo.
 
 Si su cliente habla MCP, el [conector MCP](/docs/mcp-connector/) es la forma más simple de conectarse y envuelve esta misma superficie de datos. Esta página documenta el contrato HTTP de descubrimiento, SQL, guías y repaso que usan los agentes de CLI.
 
@@ -244,7 +244,7 @@ curl -X POST https://api.flashcards-open-source-app.com/v1/agent/reviews/submit 
 
 ## API humanas y de sincronización
 
-Flashcards también incluye API independientes para clientes humanos y sincronización sin conexión, pero no son el contrato principal para agentes externos:
+Nibomo también incluye API independientes para clientes humanos y sincronización sin conexión, pero no son el contrato principal para agentes externos:
 
 - los flujos del navegador utilizan cookies de dominio compartido más protección CSRF
 - Los primeros clientes sin conexión utilizan rutas de sincronización implementadas en `/v1/workspaces/{workspaceId}/sync/push` y `/v1/workspaces/{workspaceId}/sync/pull`

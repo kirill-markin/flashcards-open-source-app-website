@@ -1,6 +1,6 @@
 ---
 title: सेवा की शर्तें
-description: Flashcards के लिए सेवा की शर्तें।
+description: Nibomo के लिए सेवा की शर्तें।
 slug: terms
 sections:
   - type: legal_page
@@ -8,7 +8,7 @@ sections:
 ---
 ## सेवा और प्रदाता
 
-Flashcards ओपन-सोर्स spaced-repetition और flashcards टूल है। ये शर्तें केवल SAMO DANNI EOOD द्वारा दी गई होस्टेड वेबसाइट, ऐप, API और MCP सेवा पर लागू होती हैं। कंपनी आईडी 207395566, VAT BG207395566 और पंजीकृत पता bulv. Maritza 154, entrance D, floor 6 #14, 4018, Plovdiv, Bulgaria है। Flashcards को Kirill Markin ने बनाया है।
+Nibomo ओपन-सोर्स spaced-repetition और flashcards टूल है। ये शर्तें केवल SAMO DANNI EOOD द्वारा दी गई होस्टेड वेबसाइट, ऐप, API और MCP सेवा पर लागू होती हैं। कंपनी आईडी 207395566, VAT BG207395566 और पंजीकृत पता bulv. Maritza 154, entrance D, floor 6 #14, 4018, Plovdiv, Bulgaria है। Nibomo को Kirill Markin ने बनाया है।
 
 बीटा अवधि में होस्टेड सेवा जैसी है और उपलब्धता के आधार पर दी जाती है।
 

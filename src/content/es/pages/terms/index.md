@@ -1,6 +1,6 @@
 ---
 title: Términos del servicio
-description: Términos del servicio de Flashcards.
+description: Términos del servicio de Nibomo.
 slug: terms
 sections:
   - type: legal_page
@@ -8,7 +8,7 @@ sections:
 ---
 ## Servicio y proveedor
 
-Flashcards es una herramienta de código abierto para tarjetas y repetición espaciada. Estos Términos rigen únicamente el sitio web, las aplicaciones, la API y el servicio MCP alojados que presta SAMO DANNI EOOD, ID de empresa 207395566, VAT BG207395566, con domicilio social en bulv. Maritza 154, entrance D, floor 6 #14, 4018, Plovdiv, Bulgaria. Flashcards fue creado por Kirill Markin.
+Nibomo es una herramienta de código abierto para tarjetas y repetición espaciada. Estos Términos rigen únicamente el sitio web, las aplicaciones, la API y el servicio MCP alojados que presta SAMO DANNI EOOD, ID de empresa 207395566, VAT BG207395566, con domicilio social en bulv. Maritza 154, entrance D, floor 6 #14, 4018, Plovdiv, Bulgaria. Nibomo fue creado por Kirill Markin.
 
 Durante la fase beta, el servicio alojado se ofrece tal cual y según disponibilidad.
 

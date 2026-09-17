@@ -1,7 +1,7 @@
 import type { PageContent } from "@/lib/content/types";
 
 export const HOME_PAGE_CONTENT: PageContent = {
-  title: "Flashcards - Kostenlose Open-Source-App für Spaced Repetition",
+  title: "Nibomo - Kostenlose Open-Source-App für Spaced Repetition",
   description:
     "Kostenlose Open-Source-Lernkarten mit FSRS Spaced Repetition, KI-gestützter Kartenerstellung, Offline-Lernen, Synchronisierung, Export und Self-Hosting.",
   slug: "home",
@@ -15,7 +15,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
         "Mehr behalten.",
       ],
       subtitle:
-        "Eine kostenlose Open-Source-Lernkarten-App, die jede Wiederholung zum richtigen Zeitpunkt plant, offline funktioniert und über Web, iOS und Android synchronisiert. Nutze KI, wenn du Hilfe beim Erstellen oder Verbessern von Karten möchtest.",
+        "Eine kostenlose Open-Source-Lernkarten-App, die jede Wiederholung zum richtigen Zeitpunkt plant, offline funktioniert und über Web, iOS und Android synchronisiert. Nutze KI, wenn du Hilfe beim Erstellen oder Verbessern von Karten möchtest. Nibomo hieß früher Flashcards Open Source App.",
       trustLine: "Keine Kreditkarte. Keine Werbung. Kein Testzeitraum.",
       primaryLink: {
         label: "Loslegen",

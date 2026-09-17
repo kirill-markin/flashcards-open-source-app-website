@@ -1,9 +1,9 @@
 ---
 title: Self-Hosting-Leitfaden
-description: Führe Flashcards lokal mit PostgreSQL, Authentifizierung, Backend, Web und Administration aus oder stelle den dokumentierten Produktions-Stack mit AWS CDK bereit.
+description: Führe Nibomo lokal mit PostgreSQL, Authentifizierung, Backend, Web und Administration aus oder stelle den dokumentierten Produktions-Stack mit AWS CDK bereit.
 ---
 
-Flashcards unterstützt zwei unterschiedliche Wege: eine lokale Entwicklungsumgebung und eine Produktionsbereitstellung auf AWS. Docker Compose führt PostgreSQL und Migrationen für die lokale Entwicklung aus; es ist nicht die Methode für die Produktionsbereitstellung.
+Nibomo unterstützt zwei unterschiedliche Wege: eine lokale Entwicklungsumgebung und eine Produktionsbereitstellung auf AWS. Docker Compose führt PostgreSQL und Migrationen für die lokale Entwicklung aus; es ist nicht die Methode für die Produktionsbereitstellung.
 
 ## Voraussetzungen für die lokale Entwicklung
 

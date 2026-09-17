@@ -1,6 +1,6 @@
 ---
 title: Support
-description: Support-Optionen fuer Flashcards.
+description: Support-Optionen fuer Nibomo.
 slug: support
 sections:
   - type: legal_page
@@ -16,7 +16,7 @@ In der iOS-App kannst du dein gehostetes Konto unter `Settings > Account Setting
 
 ## Open Source und technische Meldungen
 
-Flashcards ist Open Source. Fuer Bug-Reports, Self-Hosting-Probleme oder technische Diskussionen kannst du auch das [GitHub-Repository](https://github.com/kirill-markin/flashcards-open-source-app) und dessen Issue-Tracker nutzen.
+Nibomo ist Open Source. Fuer Bug-Reports, Self-Hosting-Probleme oder technische Diskussionen kannst du auch das [GitHub-Repository](https://github.com/kirill-markin/flashcards-open-source-app) und dessen Issue-Tracker nutzen.
 
 ## Self-Hosting
 

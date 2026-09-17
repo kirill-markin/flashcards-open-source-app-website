@@ -1,9 +1,9 @@
 ---
 title: 自托管指南
-description: 使用 PostgreSQL、认证、后端、Web 和管理服务在本地运行 Flashcards，或部署文档所述的 AWS CDK 生产环境技术栈。
+description: 使用 PostgreSQL、认证、后端、Web 和管理服务在本地运行 Nibomo，或部署文档所述的 AWS CDK 生产环境技术栈。
 ---
 
-Flashcards 支持两种不同的运行方式：本地开发环境和 AWS 生产环境部署。Docker Compose 只用于运行本地开发所需的 PostgreSQL 和迁移；它不是生产环境的部署方式。
+Nibomo 支持两种不同的运行方式：本地开发环境和 AWS 生产环境部署。Docker Compose 只用于运行本地开发所需的 PostgreSQL 和迁移；它不是生产环境的部署方式。
 
 ## 本地开发要求
 

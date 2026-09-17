@@ -1,6 +1,6 @@
 ---
 title: 利用規約
-description: Flashcards の利用規約。
+description: Nibomo の利用規約。
 slug: terms
 sections:
   - type: legal_page
@@ -8,7 +8,7 @@ sections:
 ---
 ## サービスと提供者
 
-Flashcards はオープンソースの間隔反復型フラッシュカードツールです。本規約は、SAMO DANNI EOOD（会社番号 207395566、VAT 番号 BG207395566、登記住所 bulv. Maritza 154, entrance D, floor 6 #14, 4018, Plovdiv, Bulgaria）が提供するホスト型ウェブサイト、アプリ、API、および MCP サービスにのみ適用されます。Flashcards は Kirill Markin が開発しました。
+Nibomo はオープンソースの間隔反復型フラッシュカードツールです。本規約は、SAMO DANNI EOOD（会社番号 207395566、VAT 番号 BG207395566、登記住所 bulv. Maritza 154, entrance D, floor 6 #14, 4018, Plovdiv, Bulgaria）が提供するホスト型ウェブサイト、アプリ、API、および MCP サービスにのみ適用されます。Nibomo は Kirill Markin が開発しました。
 
 ホスト型サービスは、ベータ期間中、現状有姿かつ提供可能な範囲で提供されます。
 
