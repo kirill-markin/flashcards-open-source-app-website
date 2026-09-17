@@ -184,7 +184,7 @@ Check for:
 
 If the deck feels suspicious, compare a handful of cards directly against your source. Five minutes of spot-checking can save weeks of low-value review.
 
-If you are also using AI to draft or rewrite cards in [Flashcards](/features/), keep the same standard there too. Draft first. Edit second. Review third.
+If you are also using AI to draft or rewrite cards in [Nibomo](/features/), keep the same standard there too. Draft first. Edit second. Review third.
 
 ## Know when a shared deck is helping and when it is stealing time
 
@@ -224,11 +224,11 @@ Here is the first-week workflow I would actually trust:
 
 That is the practical answer to **how to use premade Anki decks**. Import, audit, and shrink.
 
-## Where Flashcards Open Source App fits
+## Where Nibomo fits
 
 This site is not Anki, and I would not pretend otherwise. But the workflow problem is the same across modern flashcard tools: weak cards get expensive once they enter live review.
 
-[Flashcards](/features/) fits this workflow in a straightforward way:
+[Nibomo](/features/) fits this workflow in a straightforward way:
 
 - you can create or edit plain front/back cards
 - you can organize material into decks and tags

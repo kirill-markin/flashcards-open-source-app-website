@@ -248,7 +248,7 @@ If you want the scheduler side explained more directly, [How to Study for an Exa
 
 ## Where Flashcards fits
 
-[Flashcards](https://flashcards-open-source-app.com/) fits anatomy best after you already know what needs to be remembered.
+[Nibomo](https://flashcards-open-source-app.com/) fits anatomy best after you already know what needs to be remembered.
 
 That is a good match for this subject because anatomy study tends to pull from several messy sources at once:
 

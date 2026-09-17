@@ -223,7 +223,7 @@ That makes the drafting cleaner and the review queue easier to trust.
 
 ## Where Flashcards fits
 
-[Flashcards](https://flashcards-open-source-app.com/) is a good fit for **practice questions to flashcards** because the product already has the pieces this workflow needs:
+[Nibomo](https://flashcards-open-source-app.com/) is a good fit for **practice questions to flashcards** because the product already has the pieces this workflow needs:
 
 - AI chat
 - file and image attachments
@@ -268,7 +268,7 @@ More useful mistakes.
 
 If that is what you want, start here:
 
-- [Open Flashcards](https://flashcards-open-source-app.com/)
+- [Open Nibomo](https://flashcards-open-source-app.com/)
 - [Open the app](https://app.flashcards-open-source-app.com/)
 - [Read the getting started guide](https://flashcards-open-source-app.com/docs/getting-started/)
 - [View the source on GitHub](https://github.com/kirill-markin/flashcards-open-source-app)

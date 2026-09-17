@@ -240,7 +240,7 @@ If you want the scheduling side in more detail, [How to Study for an Exam With F
 
 ## Where Flashcards fits in this AP Biology workflow
 
-If you want to run this inside [Flashcards](https://flashcards-open-source-app.com/), the useful part is not some vague promise that AI will magically learn biology for you.
+If you want to run this inside [Nibomo](https://flashcards-open-source-app.com/), the useful part is not some vague promise that AI will magically learn biology for you.
 
 The useful part is that the product already covers the messy middle of the workflow:
 

@@ -100,7 +100,7 @@ That feels less like automation theater and more like actual help.
 
 ## Flashcards already has the right shape for this workflow
 
-[Flashcards](https://flashcards-open-source-app.com/) is interesting here because the product already combines the pieces that matter:
+[Nibomo](https://flashcards-open-source-app.com/) is interesting here because the product already combines the pieces that matter:
 
 - front/back card creation
 - AI chat
@@ -193,13 +193,13 @@ I think the best answer is a cleaner division of labor:
 
 That removes the boring part without pretending the human should disappear from the loop.
 
-That is why [Flashcards](https://flashcards-open-source-app.com/) is a strong fit for people searching how to **turn notes into flashcards**. The current product already has the useful shape for it: card creation, AI chat, file attachments, plain text support, and serious spaced repetition afterward.
+That is why [Nibomo](https://flashcards-open-source-app.com/) is a strong fit for people searching how to **turn notes into flashcards**. The current product already has the useful shape for it: card creation, AI chat, file attachments, plain text support, and serious spaced repetition afterward.
 
 ## Try the notes-to-flashcards workflow that does not become a second job
 
 If you want a practical way to **turn notes into flashcards**, start here:
 
-- [Open Flashcards](https://flashcards-open-source-app.com/)
+- [Open Nibomo](https://flashcards-open-source-app.com/)
 - [Open the app](https://app.flashcards-open-source-app.com/)
 - [Read the getting started guide](https://flashcards-open-source-app.com/docs/getting-started/)
 - [View the source on GitHub](https://github.com/kirill-markin/flashcards-open-source-app)

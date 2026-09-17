@@ -18,7 +18,7 @@ If you want to batch-import a week of notes into Gizmo for free, the number to r
 
 This Gizmo flashcards review is based on current official help pages. I have not tested Gizmo hands-on, so I will keep product claims to what Gizmo documents and make the uncertain parts explicit.
 
-> **Disclosure:** I am Kirill Markin, and I build [Flashcards](https://flashcards-open-source-app.com/), the alternative compared below. Gizmo offers a broader documented workflow: more source formats, five card types, AI Tutor lessons, varied quizzes, and game-like progression. Flashcards is deliberately narrower.
+> **Disclosure:** I am Kirill Markin, and I build [Nibomo](https://flashcards-open-source-app.com/), the alternative compared below. Gizmo offers a broader documented workflow: more source formats, five card types, AI Tutor lessons, varied quizzes, and game-like progression. Nibomo is deliberately narrower.
 
 **Facts checked:** September 1, 2026.
 
@@ -111,9 +111,9 @@ That does **not** prove Gizmo cannot work offline. It means the official evidenc
 
 The distinction matters because “a loaded screen still responds” and “my review history is safely stored and syncs later” are different claims. The [offline flashcards app guide](/blog/best-offline-flashcards-app/) uses that stricter test across several products.
 
-## Gizmo vs Flashcards at a glance
+## Gizmo vs Nibomo at a glance
 
-| Decision point | Gizmo | Flashcards |
+| Decision point | Gizmo | Nibomo |
 | --- | --- | --- |
 | Main starting point | Manual cards or Magic Import from varied study sources | Manual or AI-assisted creation of focused front/back cards |
 | Card formats | Card text, Multiple choice, Matching, Ordering, and True/False | Front/back cards |
@@ -126,7 +126,7 @@ The distinction matters because “a loaded screen still responds” and “my r
 
 Flashcards is a practical Gizmo alternative only for the narrower side of this table. Its current [features page](/features/) documents FSRS, AI-assisted card creation, mobile offline study and sync, portable exports, and self-hosting. It does not describe an equivalent to Gizmo's five-format Magic Import, Tutor lessons, or game layer.
 
-## When Flashcards is the better fit
+## When Nibomo is the better fit
 
 Choose Flashcards when the thing you want to keep is a checked front/back card. You can create it manually or ask AI to help write and improve it, then decide what gets saved. Review uses FSRS; [FSRS vs SM-2](/blog/fsrs-vs-sm-2/) explains the scheduling model in more detail.
 
@@ -157,4 +157,4 @@ Choose Flashcards when you already know what deserves a durable front/back card 
 
 The useful Gizmo AI review is not “AI versus no AI.” Both products use AI. The difference is where it sits. Gizmo uses AI to turn broad material into a larger study environment. Flashcards uses AI inside a smaller card workflow where you choose what is saved and scheduled.
 
-If the narrower workflow sounds closer to yours, explore [Flashcards features](/features/) or follow the [getting-started guide](/docs/getting-started/).
+If the narrower workflow sounds closer to yours, explore [Nibomo features](/features/) or follow the [getting-started guide](/docs/getting-started/).

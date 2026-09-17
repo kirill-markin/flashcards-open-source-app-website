@@ -23,7 +23,7 @@ That small separator explains who **Mochi flashcards** suit. Mochi is a strong f
 
 For a one-device workflow, the free plan is more than a trial: no sign-up is required, and Mochi documents unlimited offline use. The catch is that cross-device sync belongs to the **US$5-per-month Pro plan**. For an Anki user, the harder cost is migration loss. Mochi can import an Anki package and its review history, but it cannot preserve every template, style, script, scheduler setting, or add-on behavior.
 
-> **Disclosure:** I am Kirill Markin, and I build [Flashcards Open Source App](/). This is a source-checked workflow review, not a claim that I performed a hands-on product test. There are no affiliate links. Mochi and Anki remain the main comparison; my product appears only as a clearly labeled alternative near the end.
+> **Disclosure:** I am Kirill Markin, and I build [Nibomo](/). This is a source-checked workflow review, not a claim that I performed a hands-on product test. There are no affiliate links. Mochi and Anki remain the main comparison; my product appears only as a clearly labeled alternative near the end.
 
 **Facts checked:** September 7, 2026. The latest visible [Mochi release](https://mochi.cards/changelog/) was version 26.8.2, dated August 10, 2026. Prices and app-store details can change.
 
@@ -210,7 +210,7 @@ Stay with Anki when:
 - you want Anki's FSRS optimizer, preset controls, four grades, and workload simulator;
 - years of review data and custom behavior are already working well.
 
-The most sensible Mochi alternative depends on why neither choice fits. For a fresh, simpler collection, [Flashcards Open Source App features](/features/) include FSRS reviews, offline study and sync, portable card/tag/media transfer, agent access, and a documented self-hosted path. I build it, and the limits are relevant: it does not replace Mochi's connected Markdown notebook or Anki's mature template and add-on system. The [getting-started guide](/docs/getting-started/) shows the current hosted, mobile, agent, and self-hosted paths.
+The most sensible Mochi alternative depends on why neither choice fits. For a fresh, simpler collection, [Nibomo features](/features/) include FSRS reviews, offline study and sync, portable card/tag/media transfer, agent access, and a documented self-hosted path. I build it, and the limits are relevant: it does not replace Mochi's connected Markdown notebook or Anki's mature template and add-on system. The [getting-started guide](/docs/getting-started/) shows the current hosted, mobile, agent, and self-hosted paths.
 
 ## The bottom line
 

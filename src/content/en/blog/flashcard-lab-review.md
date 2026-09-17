@@ -16,7 +16,7 @@ Flashcard Lab starts with a familiar table: prompts in the first column, answers
 
 This **Flashcard Lab app review** is based on the product website, current Android and iPhone listings, the Chrome Web Store, Google Workspace Marketplace, and the vendor's privacy policy. It is not a hands-on test. The official sources describe the authoring, capture, printing, and review surfaces well, but leave some important product behavior undocumented.
 
-> **Disclosure:** I am Kirill Markin, and I build [Flashcards Open Source App](/features/), one of the alternatives in this review. Flashcard Lab has the better spreadsheet-native workflow. Flashcards is stronger when a dedicated front/back workspace, documented FSRS-6, offline-first local writes, MIT-licensed source, or whole-stack self-hosting matters more than Google Sheets integration. Anki remains the mature local power-user reference.
+> **Disclosure:** I am Kirill Markin, and I build [Nibomo](/features/), one of the alternatives in this review. Flashcard Lab has the better spreadsheet-native workflow. Nibomo is stronger when a dedicated front/back workspace, documented FSRS-6, offline-first local writes, MIT-licensed source, or whole-stack self-hosting matters more than Google Sheets integration. Anki remains the mature local power-user reference.
 
 **Facts checked:** August 12, 2026. Prices below are public US App Store prices visible on that date. Taxes, regional pricing, promotions, add-on checkout prices, and future beta terms may differ.
 
@@ -25,14 +25,14 @@ This **Flashcard Lab app review** is based on the product website, current Andro
 ## The short answer
 
 - Choose **Flashcard Lab** when Google Sheets is where you want to create and maintain cards. Browser capture, bulk spreadsheet editing, mobile review, and Google Docs printing form a practical workflow.
-- Choose **Flashcards Open Source App** when you want explicit front/back cards in a non-Google workspace, documented FSRS-6, offline-first writes, open-source code, and a supported self-hosting path. It does not have live Google Sheets integration.
+- Choose **Nibomo** when you want explicit front/back cards in a non-Google workspace, documented FSRS-6, offline-first writes, open-source code, and a supported self-hosting path. It does not have live Google Sheets integration.
 - Choose **Anki** when you need mature desktop clients, advanced note types and templates, add-ons, established collection packages, or deeper FSRS controls.
 
 There is no automatic winner. The deciding question is where the authoritative copy of your study material should live: a Google Sheet, a dedicated open workspace, or a mature local collection.
 
-## Flashcard Lab vs Flashcards vs Anki
+## Flashcard Lab vs Nibomo vs Anki
 
-| Decision | Flashcard Lab | Flashcards Open Source App | Anki |
+| Decision | Flashcard Lab | Nibomo | Anki |
 | --- | --- | --- | --- |
 | Best fit | Spreadsheet authoring, browser capture, Google Docs printing, and simple review | Focused front/back cards in an open web and mobile stack | Mature local flashcards with templates, add-ons, and broad migration support |
 | Source of truth | Google Sheet rows supply prompts, answers, and optional supporting text | Workspace cards hold explicit front, back, tags, decks, media, and scheduler state | Local collection holds notes, fields, generated cards, media, and scheduling data |
@@ -80,7 +80,7 @@ Capture is not verification. An automatically retrieved definition can be wrong 
 
 Google Docs printing is a practical advantage for teachers, classroom stations, physical sorting, and learners who cannot use a device during a session. Flashcard Lab turns the Sheet into printable cards instead of requiring screenshots or a second layout tool.
 
-If Sheets-to-Docs printing is a core requirement, Flashcard Lab is the clear fit here. Flashcards Open Source App has no equivalent workflow, and printing is not the reason most people choose Anki.
+If Sheets-to-Docs printing is a core requirement, Flashcard Lab is the clear fit here. Nibomo has no equivalent workflow, and printing is not the reason most people choose Anki.
 
 ## Spaced repetition is present, but the formula is not public
 
@@ -142,7 +142,7 @@ The strongest portability claim here is simple: you can still read and copy prom
 
 The official sources do not establish that review history, spaced repetition state, test results, image behavior, purchases, or every app setting lives in the Sheet. An untouched copy protects the visible card content; it is not automatically a complete Flashcard Lab backup.
 
-There is also no lossless migration to Flashcards Open Source App. Flashcards has no live Google Sheets integration and no Flashcard Lab importer. A CSV, spreadsheet export, or attached spreadsheet can be source material for AI-assisted drafting, but the draft needs review and begins with new FSRS state. Attaching a spreadsheet is not the same as keeping cards backed by a live Sheet.
+There is also no lossless migration to Nibomo. Nibomo has no live Google Sheets integration and no Flashcard Lab importer. A CSV, spreadsheet export, or attached spreadsheet can be source material for AI-assisted drafting, but the draft needs review and begins with new FSRS state. Attaching a spreadsheet is not the same as keeping cards backed by a live Sheet.
 
 Anki has a more conventional route because it can [import delimited text into note fields](https://docs.ankiweb.net/importing/text-files.html). You still need to map columns, decide what to do with optional subtext, verify media, and expect new scheduling unless a supported format explicitly carries history. A Google Sheet is not an Anki collection package.
 
@@ -164,7 +164,7 @@ Flashcard Lab fits when Google Sheets is already the working home for the materi
 
 Accept the tradeoffs before committing: meaningful Google permissions, a scheduler without a published formula, unclear complete offline behavior, undocumented exact cross-surface sync rules, and pricing that must be checked on the surface you intend to use.
 
-### Choose Flashcards for an open, non-Google workspace
+### Choose Nibomo for an open, non-Google workspace
 
 Flashcards is the stronger **Flashcard Lab alternative** when the goal is to move the source of truth out of Google Sheets. It provides dedicated front/back cards, documented FSRS-6, offline-first writes across web and mobile, agent access, MIT-licensed code, and a supported whole-stack deployment.
 

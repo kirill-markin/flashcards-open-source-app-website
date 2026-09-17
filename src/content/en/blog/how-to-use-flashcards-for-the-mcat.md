@@ -287,7 +287,7 @@ If you want the exam-timing side in more detail, read this next:
 
 ## Where Flashcards fits this MCAT workflow
 
-[Flashcards](https://flashcards-open-source-app.com/) is a strong fit for this kind of MCAT workflow because it covers the parts students usually split across too many tools.
+[Nibomo](https://flashcards-open-source-app.com/) is a strong fit for this kind of MCAT workflow because it covers the parts students usually split across too many tools.
 
 The product already gives you the pieces this workflow needs:
 
@@ -324,4 +324,4 @@ than one giant imported deck that quietly turns into background guilt.
 
 That is the version of **MCAT flashcards** that usually holds up in real prep: not as a solution for every part of the exam, and definitely not as a substitute for CARS passage work, but as a durable system for facts, distinctions, and mistakes you do not want to relearn under pressure.
 
-If you want the workflow in one open-source stack, [Flashcards](https://flashcards-open-source-app.com/) gives you the practical path: draft from notes or uploads, keep the good cards, and let FSRS handle the review timing while you stay focused on actual MCAT practice.
+If you want the workflow in one open-source stack, [Nibomo](https://flashcards-open-source-app.com/) gives you the practical path: draft from notes or uploads, keep the good cards, and let FSRS handle the review timing while you stay focused on actual MCAT practice.

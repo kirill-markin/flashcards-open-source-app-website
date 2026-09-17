@@ -195,7 +195,7 @@ Keep the card small. Let the exam stay bigger.
 
 ## Where Flashcards fits
 
-[Flashcards](/features/) is a good fit after the practice-exam step.
+[Nibomo](/features/) is a good fit after the practice-exam step.
 
 The product should not be described as a magic practice-exam generator. The more accurate workflow is: use the AI tool you prefer to generate the exam from your notes, then keep the survivors in Flashcards.
 

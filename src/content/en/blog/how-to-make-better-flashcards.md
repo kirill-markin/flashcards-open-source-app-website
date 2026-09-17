@@ -238,7 +238,7 @@ The deck gets better when the bad cards leave.
 
 ## Why Flashcards fits this workflow well
 
-[Flashcards](https://flashcards-open-source-app.com/) is a strong fit for **how to make effective flashcards** because the product is built around the parts that matter after drafting:
+[Nibomo](https://flashcards-open-source-app.com/) is a strong fit for **how to make effective flashcards** because the product is built around the parts that matter after drafting:
 
 - real front/back cards
 - decks and tags
@@ -263,7 +263,7 @@ That is the version of **what makes a good flashcard** I actually trust.
 
 If you want a practical **flashcard front and back** system that still works once the novelty of AI generation wears off, start here:
 
-- [Open Flashcards](https://flashcards-open-source-app.com/)
+- [Open Nibomo](https://flashcards-open-source-app.com/)
 - [Open the app](https://app.flashcards-open-source-app.com/)
 - [Read the self-hosting guide](https://flashcards-open-source-app.com/docs/self-hosting/)
 - [View the source on GitHub](https://github.com/kirill-markin/flashcards-open-source-app)

@@ -262,7 +262,7 @@ Delete one.
 
 ## Where Flashcards fits
 
-[Flashcards](https://flashcards-open-source-app.com/) is a strong fit for **how to organize flashcards** because the product already has the parts this workflow needs:
+[Nibomo](https://flashcards-open-source-app.com/) is a strong fit for **how to organize flashcards** because the product already has the parts this workflow needs:
 
 - decks and tags for long-term structure
 - filtered decks based on tags and effort level
@@ -304,7 +304,7 @@ Less structural guilt.
 
 If that is what you want, start here:
 
-- [Open Flashcards](https://flashcards-open-source-app.com/)
+- [Open Nibomo](https://flashcards-open-source-app.com/)
 - [Open the app](https://app.flashcards-open-source-app.com/)
 - [Read the getting started guide](https://flashcards-open-source-app.com/docs/getting-started/)
 - [View the source on GitHub](https://github.com/kirill-markin/flashcards-open-source-app)

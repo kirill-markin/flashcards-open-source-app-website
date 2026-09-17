@@ -293,9 +293,9 @@ This is where most of the quality comes from.
 
 Do not build a second review system for terminal commands unless you enjoy maintaining abandoned study systems.
 
-## Where Flashcards Open Source App fits
+## Where Nibomo fits
 
-[Flashcards Open Source App](/) fits well here because terminal study is already narrow and text-heavy.
+[Nibomo](/) fits well here because terminal study is already narrow and text-heavy.
 
 You can use it to:
 

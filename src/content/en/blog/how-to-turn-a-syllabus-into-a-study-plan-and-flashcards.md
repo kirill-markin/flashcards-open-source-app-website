@@ -240,7 +240,7 @@ If your goal is exam prep from a broader course pile, these companion pieces fit
 
 ## Where Flashcards fits in this workflow
 
-[Flashcards](/features/) fits after the syllabus has already been turned into structure.
+[Nibomo](/features/) fits after the syllabus has already been turned into structure.
 
 The useful path is straightforward:
 

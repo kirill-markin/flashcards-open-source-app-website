@@ -247,7 +247,7 @@ Those notes give the AI something useful to compress. They also keep your deck c
 
 This part should stay explicit.
 
-Flashcards Open Source App has no official ACT integration. Use it with your own notes, your own summaries, and your own mistake writeups from lawful study materials. Do not turn it into a storage place for copied proprietary question banks, full answer keys, or long blocks of protected ACT content you do not have the right to reproduce.
+Nibomo has no official ACT integration. Use it with your own notes, your own summaries, and your own mistake writeups from lawful study materials. Do not turn it into a storage place for copied proprietary question banks, full answer keys, or long blocks of protected ACT content you do not have the right to reproduce.
 
 In practice, the strongest card is usually not the whole question anyway. It is your compact summary of what failed and what would have changed the result next time.
 
@@ -321,9 +321,9 @@ FSRS helps with the timing. It does not rescue bad cards. The order still matter
 
 If you want the scheduling side in more detail, read [How to Study for an Exam With FSRS in 2026](/blog/how-to-study-for-an-exam-with-fsrs/) and [FSRS vs SM-2 in 2026](/blog/fsrs-vs-sm-2/).
 
-## Where Flashcards Open Source App fits this ACT workflow
+## Where Nibomo fits this ACT workflow
 
-[Flashcards](/) is a good fit for this kind of ACT prep because the current product already supports the awkward middle between "I missed this question" and "I am reviewing the exact lesson tomorrow."
+[Nibomo](/) is a good fit for this kind of ACT prep because the current product already supports the awkward middle between "I missed this question" and "I am reviewing the exact lesson tomorrow."
 
 Useful parts for this workflow:
 

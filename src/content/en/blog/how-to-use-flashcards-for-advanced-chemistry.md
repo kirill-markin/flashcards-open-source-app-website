@@ -223,7 +223,7 @@ If you want a simple test, ask this: when I miss this card, will fixing it make 
 
 ## Where Flashcards fits if you want one place for the workflow
 
-[Flashcards](https://flashcards-open-source-app.com/) fits this advanced chemistry workflow well because the product already supports the practical parts after you identify the memory target:
+[Nibomo](https://flashcards-open-source-app.com/) fits this advanced chemistry workflow well because the product already supports the practical parts after you identify the memory target:
 
 - front/back card creation and editing
 - AI-assisted drafting through chat

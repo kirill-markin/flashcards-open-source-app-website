@@ -261,11 +261,11 @@ FSRS is useful in a Network+ study plan once the cards are worth scheduling, but
 
 A simple organization is one `N10-009` deck with tags such as `ports`, `subnetting`, `commands`, `operations`, `security`, `troubleshooting`, `practice-miss`, and `lab-miss`. Add the objective code to version-sensitive cards when it helps you audit them. Tags should help you find a weak area, not reproduce the entire PDF as a folder tree.
 
-## Where Flashcards Open Source App fits
+## Where Nibomo fits
 
-> **Disclosure:** Flashcards Open Source App is not affiliated with or endorsed by CompTIA. It is not an official Network+ course, practice exam, or PBQ simulator.
+> **Disclosure:** Nibomo is not affiliated with or endorsed by CompTIA. It is not an official Network+ course, practice exam, or PBQ simulator.
 
-[Flashcards Open Source App](/features/) handles the memory part of the workflow: front-and-back cards, decks and tags, due review with FSRS, offline study and sync, portable exports, and a self-hosted option. It should hold the small facts and decisions you want available before practical work.
+[Nibomo](/features/) handles the memory part of the workflow: front-and-back cards, decks and tags, due review with FSRS, offline study and sync, portable exports, and a self-hosted option. It should hold the small facts and decisions you want available before practical work.
 
 If you want a ready-made starting point, the [CompTIA Network+ N10-009 flashcards](/catalog/packages/comptia-network-plus-n10-009-flashcards/) deck has 250 original English cards across all five current exam domains. It is an independent, unofficial memory aid, so keep the current CompTIA objectives, hands-on labs, and authorized PBQ practice in the study loop. Add your own legitimate study misses as you go.
 

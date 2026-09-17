@@ -113,7 +113,7 @@ I like three stages:
 
 That separation matters because editing mode and review mode are different jobs. When you mix them, weak cards sneak through because you are tired, in a hurry, or mildly impressed that the AI already did the typing.
 
-Inside [Flashcards](/features/), the useful shape is simple: draft from your source, edit the front and back, organize by deck or tag, then review the final set with FSRS after the cleanup pass.
+Inside [Nibomo](/features/), the useful shape is simple: draft from your source, edit the front and back, organize by deck or tag, then review the final set with FSRS after the cleanup pass.
 
 ## Watch for the four overload signals early
 
@@ -183,7 +183,7 @@ The boring version works. If the accepted deck stays small and clean, the habit 
 
 ## Where Flashcards fits this workflow
 
-[Flashcards](/features/) fits this workflow well because the product covers the full path in one place:
+[Nibomo](/features/) fits this workflow well because the product covers the full path in one place:
 
 - AI chat for turning notes and source material into draft cards
 - front/back editing before cards become permanent

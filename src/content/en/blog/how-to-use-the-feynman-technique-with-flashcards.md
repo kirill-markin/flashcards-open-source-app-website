@@ -220,7 +220,7 @@ The Feynman technique produces rough material. You often end up with some mix of
 - a weak-spot list from an AI tutoring session
 - half-clean card drafts you still want to edit
 
-That is a good fit for [Flashcards Open Source App](/).
+That is a good fit for [Nibomo](/).
 
 The product already supports the useful part of this workflow:
 

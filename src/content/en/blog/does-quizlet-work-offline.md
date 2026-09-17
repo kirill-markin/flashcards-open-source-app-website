@@ -16,7 +16,7 @@ A Quizlet set that opens while you have a signal is not automatically ready when
 
 The mobile apps automatically save eight recently used sets when offline saving is enabled. You can download more yourself. Creating and editing sets also work offline in the apps, and Quizlet says those changes publish when you reconnect.
 
-> **Disclosure:** I am Kirill Markin, and I build [Flashcards](/), another flashcards app. This guide stays with Quizlet's documented behavior. Flashcards is not the automatic alternative if Quizlet's mobile offline limits already fit your needs.
+> **Disclosure:** I am Kirill Markin, and I build [Nibomo](/), another flashcards app. This guide stays with Quizlet's documented behavior. Nibomo is not the automatic alternative if Quizlet's mobile offline limits already fit your needs.
 
 **Facts checked:** August 14, 2026.
 

@@ -168,7 +168,7 @@ And if your source is a document or lecture slides, this one is closer:
 
 ## Where Flashcards fits this workflow
 
-[Flashcards](https://flashcards-open-source-app.com/) is a strong fit for **handwritten notes to flashcards** because the product already has the parts that matter together:
+[Nibomo](https://flashcards-open-source-app.com/) is a strong fit for **handwritten notes to flashcards** because the product already has the parts that matter together:
 
 - AI chat
 - image and file attachments
@@ -210,7 +210,7 @@ Less magic. Better cards.
 
 If that is what you want, start here:
 
-- [Open Flashcards](https://flashcards-open-source-app.com/)
+- [Open Nibomo](https://flashcards-open-source-app.com/)
 - [Open the app](https://app.flashcards-open-source-app.com/)
 - [Read the getting started guide](https://flashcards-open-source-app.com/docs/getting-started/)
 - [View the source on GitHub](https://github.com/kirill-markin/flashcards-open-source-app)

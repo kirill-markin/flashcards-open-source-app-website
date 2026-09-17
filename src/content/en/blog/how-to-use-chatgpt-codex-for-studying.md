@@ -27,7 +27,7 @@ Each part has a narrow job:
 1. **ChatGPT Study Mode** asks questions, gives hints, and helps you work through the material.
 2. **You** decide which mistakes deserve a permanent card.
 3. **Codex in the ChatGPT desktop app or CLI** uses Flashcards MCP to create or clean up the approved cards.
-4. **Flashcards** records your reviews and schedules the next one with FSRS.
+4. **Nibomo** records your reviews and schedules the next one with FSRS.
 
 OpenAI's current [Study Mode guide](https://help.openai.com/en/articles/11780217-chatgpt-study-mode-faq) describes a tutor that can work step by step, quiz you one question at a time, and use uploaded notes, images, or PDFs. That makes it a good place to discover what you cannot yet explain from memory.
 
@@ -146,7 +146,7 @@ In Flashcards, decks are saved filters. Putting a card under a different deck ma
 
 The MCP connector can read allowed review history in `review_events` and FSRS state and scheduling fields. Its SQL write tool cannot create review events, submit an Again, Hard, Good, or Easy rating, or change the FSRS state or schedule. The connector can record a rating only through its separate `submit_review` tool, so you can do a review in the app or let Codex run it.
 
-Open the [Flashcards web app](https://app.flashcards-open-source-app.com/) or a mobile client when the cards are due. Recall the answer, reveal the back, and choose your rating there. Flashcards records the review, and FSRS decides when the card should return.
+Open the [Nibomo web app](https://app.flashcards-open-source-app.com/) or a mobile client when the cards are due. Recall the answer, reveal the back, and choose your rating there. Nibomo records the review, and FSRS decides when the card should return.
 
 Codex can also quiz you informally from card data you authorize. Treat that as extra practice: a quiz on its own records no review and leaves your schedule alone. When you want an official review, ask Codex to run one with the review tools. It calls `next_review_card` to show only the front, `reveal_answer` to show the back after you answer, and `submit_review` to record the rating so FSRS can reschedule the card. Codex grades your answer unless you ask to choose each rating yourself. The [AI flashcard tutor guide](/blog/ai-flashcard-tutor-due-cards/) walks through that review loop in more detail.
 

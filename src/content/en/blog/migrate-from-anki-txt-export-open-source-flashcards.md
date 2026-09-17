@@ -20,7 +20,7 @@ Those files solve different problems. The collection package is your way back. T
 
 This workflow is for text-based decks and destinations that can work from TXT or CSV. The text export does not preserve Anki's scheduler state, templates, add-ons, or media files. You will test a representative deck first, inspect every field, and leave the original collection untouched until the result is good enough to use.
 
-> **Disclosure:** I am Kirill Markin, and I build [Flashcards](https://flashcards-open-source-app.com/). This guide is explicit about the cases where staying in Anki, or choosing a destination that imports `.apkg`, is the better decision.
+> **Disclosure:** I am Kirill Markin, and I build [Nibomo](https://flashcards-open-source-app.com/). This guide is explicit about the cases where staying in Anki, or choosing a destination that imports `.apkg`, is the better decision.
 
 **Facts checked:** August 27, 2026.
 
@@ -166,7 +166,7 @@ Compare the sample against Anki side by side. Do not accept “most of it looks 
 
 If the test fails, remove the temporary cards using the destination's own cleanup flow, then change the mapping or cleanup process. Your Anki collection and both export files remain intact. That is what makes the test reversible.
 
-## Using the TXT file with Flashcards Open Source App
+## Using the TXT file with Nibomo
 
 Flashcards does not have a direct Anki importer. It cannot read `.apkg` or `.colpkg` and reconstruct Anki templates, media, or review history.
 
@@ -211,7 +211,7 @@ Stay in Anki, or choose a destination that explicitly imports `.apkg`, when your
 - deck presets and organization that must transfer exactly;
 - review history or current scheduling that you cannot afford to reset.
 
-Anki is a strong fit for those workflows. TXT migration is not a verdict on the app; it is a narrow tool for people whose valuable asset is mostly the note content. The broader [Anki vs Flashcards comparison](/blog/anki-vs-flashcards-open-source-app/) covers the product tradeoffs without assuming that everyone should switch.
+Anki is a strong fit for those workflows. TXT migration is not a verdict on the app; it is a narrow tool for people whose valuable asset is mostly the note content. The broader [Anki vs Nibomo comparison](/blog/anki-vs-flashcards-open-source-app/) covers the product tradeoffs without assuming that everyone should switch.
 
 ## The safe version is intentionally boring
 

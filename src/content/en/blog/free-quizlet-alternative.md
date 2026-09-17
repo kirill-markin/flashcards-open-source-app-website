@@ -1,6 +1,6 @@
 ---
 title: "Best Free Quizlet Alternatives in 2026: 5 Apps Compared"
-description: "Compare Anki, Knowt, RemNote, Mochi, and Flashcards by free card study, sync, offline use, Quizlet import, AI limits, and the catch behind each $0 plan."
+description: "Compare Anki, Knowt, RemNote, Mochi, and Nibomo by free card study, sync, offline use, Quizlet import, AI limits, and the catch behind each $0 plan."
 image: "/blog/free-quizlet-alternative-v2.png"
 date: "2026-06-20"
 updated: "2026-09-10"
@@ -35,7 +35,7 @@ The best free Quizlet alternative is the one whose catch does not break your act
 - Choose **Knowt** when an easy documented Quizlet transfer and broad free study modes matter most. Its browser extension can be blocked, and its documented exit is less complete.
 - Choose **RemNote** when you want notes and flashcards in one synced workspace. Notes, cards, and synced devices are unlimited on Free, but advanced reading, image, handwriting, knowledge-base, and AI features have caps.
 - Choose **Mochi** when you want account-free, local-only offline cards written around Markdown. Cross-device sync requires the $5/month Pro plan; the detailed pricing table lists small monthly AI and language-service allowances on Free.
-- Choose **Flashcards** when open-source FSRS study, AI-agent access, and an operator-controlled AWS deployment are the point. The hosted beta is free now, but Quizlet migration is manual and not every hosted feature is promised free forever.
+- Choose **Nibomo** when open-source FSRS study, AI-agent access, and an operator-controlled AWS deployment are the point. The hosted beta is free now, but Quizlet migration is manual and not every hosted feature is promised free forever.
 
 If you only want the quickest start after Quizlet, test Knowt first. If you want the most established no-cost offline setup and do not need the official iOS app, start with Anki. The other three make more sense when connected notes, local Markdown, or source and agent access is the reason you are moving.
 
@@ -58,7 +58,7 @@ Quizlet also sets the migration ceiling. On the website, a creator can [export t
 | **Knowt** | Unlimited flashcards and notes plus Learn, Test, Matching, Flashcards, and spaced repetition | Free plan includes cloud storage and collaboration; the cited plan pages do not promise an offline workflow | Chrome extension, with a manual separator-based fallback for sets Quizlet allows you to export | Limited usage that resets monthly | The extension may be blocked, and the documented export path is PDF or app sharing rather than a full structured deck backup |
 | **RemNote** | Unlimited notes and flashcards on unlimited synced devices | Desktop and mobile apps can edit and review offline after login; some mobile media may not be cached | Reformat Quizlet text into RemNote's card syntax, or use an Anki intermediary | 250 monthly AI credits, with separate caps on some AI actions | Free caps also apply to annotated PDFs, image occlusion, handwriting, and knowledge bases |
 | **Mochi** | Unlimited cards, decks, import, and export without an account | Unlimited offline use with local storage; automatic cross-device sync is Pro | Convert eligible Quizlet text to CSV or Markdown before import | Small monthly allowances; Pro raises the limits | The free plan is local-only, so an automatically synced phone-and-laptop workflow costs money |
-| **Flashcards** | FSRS review, AI, sync, and agent workflows during the hosted beta | Sync across web, iOS, and Android is included during beta; local card writes and reviews can continue offline | No direct importer; rebuild from eligible Quizlet text manually or with reviewed AI drafts | Included during beta; higher usage may later need a provider key or paid option | Beta terms can change, and `flashcards.zip` does not carry review history, FSRS state, settings, or full deck structure |
+| **Nibomo** | FSRS review, AI, sync, and agent workflows during the hosted beta | Sync across web, iOS, and Android is included during beta; local card writes and reviews can continue offline | No direct importer; rebuild from eligible Quizlet text manually or with reviewed AI drafts | Included during beta; higher usage may later need a provider key or paid option | Beta terms can change, and `flashcards.zip` does not carry review history, FSRS state, settings, or full deck structure |
 
 The table has no single winner because “free” can describe the license, the first device, cloud sync, AI allowance, or a temporary hosted offer. Pick the column that would force you to pay—or lose data—first.
 
@@ -140,6 +140,6 @@ For most desktop and Android users, **Anki** is the strongest long-term $0 answe
 
 For students who want the nearest free replacement for Quizlet's varied study modes, **Knowt** is the practical first test. Its documented Quizlet import is easier than the conversion paths elsewhere, though the offline and export story is less reassuring.
 
-Choose **RemNote** when synced notes plus cards remove a real problem in your study process. Choose **Mochi** when local-only, account-free Markdown study is enough. Try **Flashcards** when open source and agent workflows are the requirement, while accepting the hosted beta and migration boundaries.
+Choose **RemNote** when synced notes plus cards remove a real problem in your study process. Choose **Mochi** when local-only, account-free Markdown study is enough. Try **Nibomo** when open source and agent workflows are the requirement, while accepting the hosted beta and migration boundaries.
 
 Do not move because one pricing page says “free.” Move when you have tested the devices you use, the mode that keeps you studying, one real Quizlet set, and the file you would need on the way out.

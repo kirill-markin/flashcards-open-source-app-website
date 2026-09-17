@@ -250,7 +250,7 @@ So keep the order simple:
 
 ## Where Flashcards fits in this AP Calculus workflow
 
-[Flashcards](https://flashcards-open-source-app.com/) fits this AP Calculus workflow well if you want one place to keep the whole loop tight without turning the article into a sales pitch.
+[Nibomo](https://flashcards-open-source-app.com/) fits this AP Calculus workflow well if you want one place to keep the whole loop tight without turning the article into a sales pitch.
 
 The useful part is not that it is "for students." The useful part is that it lets you keep rule cards, FRQ misses, and BC series cards in one review system instead of scattering them across notes, screenshots, and old corrections.
 

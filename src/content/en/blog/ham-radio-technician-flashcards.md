@@ -157,9 +157,9 @@ On the day before the session:
 
 Also check the exam provider's identification, registration, fee, calculator, and session instructions. Flashcards cannot prepare the administrative part for you.
 
-## Where Flashcards Open Source App fits
+## Where Nibomo fits
 
-[Flashcards Open Source App](/features/) can hold front-and-back cards, organize them with decks and tags, and schedule reviews with FSRS. That covers the recall part of this workflow.
+[Nibomo](/features/) can hold front-and-back cards, organize them with decks and tags, and schedule reviews with FSRS. That covers the recall part of this workflow.
 
 For a ready-made starting point, [Ham Radio Technician Flashcards: 90 Core Concepts for 2026-2030](/catalog/packages/ham-radio-technician-2026-2030-flashcards/) is a free CC0 1.0 deck published on September 9, 2026. Its 90 original cards use concise concept prompts and explanations across all ten subelements. It is a focused recall layer, not full coverage of the 409-question pool, the three official diagrams, or a randomized 35-question practice exam.
 

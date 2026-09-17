@@ -18,7 +18,7 @@ ChatGPT can turn a lecture file into a polished list of questions and answers. T
 
 That is the useful answer to **how to use ChatGPT to make flashcards** in 2026. Give it a narrow source, make it expose gaps and ambiguities before drafting, treat every output as a candidate, and save only the cards you have checked. ChatGPT helps with extraction and wording. It does not produce a verified deck or schedule spaced-repetition reviews for you.
 
-> **Disclosure:** I am Kirill Markin, and I build [Flashcards Open Source App](/features/). This guide works with any front/back flashcard app. I mention Flashcards where its actual workflow is relevant, not as proof that every learner should use it.
+> **Disclosure:** I am Kirill Markin, and I build [Nibomo](/features/). This guide works with any front/back flashcard app. I mention Nibomo where its actual workflow is relevant, not as proof that every learner should use it.
 
 **Facts checked:** August 15, 2026.
 
