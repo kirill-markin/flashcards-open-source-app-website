@@ -19,7 +19,7 @@ keywords:
 
 **تم التحقق من الحقائق:** 12 سبتمبر 2026.
 
-> **إفصاح:** أنا كيريل ماركين، وأطوّر Flashcards Open Source App. أعرض أدناه خادم MCP وAgent API اللذين يقدمهما ضمن البدائل. لا يستطيع Flashcards الاتصال بحساب Quizlet أو استيراد رابط Quizlet.
+> **إفصاح:** أنا كيريل ماركين، وأطوّر Nibomo. أعرض أدناه خادم MCP وAgent API اللذين يقدمهما ضمن البدائل. لا يستطيع Nibomo الاتصال بحساب Quizlet أو استيراد رابط Quizlet.
 
 ![بستانية تنقل نبتة صغيرة من دفيئة مغلقة إلى حوض زراعة تصله شبكة ري بالتنقيط متفرعة](/blog/quizlet-mcp-server.png)
 
@@ -71,7 +71,7 @@ keywords:
 
 ## ما الذي يمكن لـ Claude وCodex استخدامه بعد التصدير؟
 
-يوفّر Flashcards Open Source App نقطة نهاية MCP بعيدة على العنوان:
+يوفّر Nibomo نقطة نهاية MCP بعيدة على العنوان:
 
 `https://mcp.flashcards-open-source-app.com/mcp`
 
