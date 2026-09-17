@@ -15,11 +15,11 @@ keywords:
   - "tarjetas autoalojadas"
 ---
 
-En StudySmarter, un set puede formar parte de toda la rutina de una asignatura: notas, material subido, contenido compartido, cuestionarios, simulacros de examen y un plan de estudio. Flashcards Open Source App se centra deliberadamente en algo mucho más concreto: tarjetas con anverso y reverso y una cola para repasarlas. Esa diferencia es el mejor punto de partida al buscar una **alternativa a StudySmarter**.
+En StudySmarter, un set puede formar parte de toda la rutina de una asignatura: notas, material subido, contenido compartido, cuestionarios, simulacros de examen y un plan de estudio. Nibomo se centra deliberadamente en algo mucho más concreto: tarjetas con anverso y reverso y una cola para repasarlas. Esa diferencia es el mejor punto de partida al buscar una **alternativa a StudySmarter**.
 
 Flashcards no pretende ser una versión reducida de StudySmarter. Encaja con quienes ya guardan sus notas y fuentes en otro lugar y solo quieren una app de tarjetas sencilla, centrada en el repaso. Si StudySmarter te sirve para gestionar toda la asignatura, cambiarte supondría perder bastante más que unas cuantas funciones secundarias.
 
-> **Aviso de transparencia:** Soy Kirill Markin y desarrollo [Flashcards Open Source App](/features/), uno de los productos que comparo en este artículo. StudySmarter es mejor para tomar notas dentro de la aplicación, trabajar con material de consulta, acceder a contenido ya preparado o creado por la comunidad, hacer cuestionarios y simulacros de examen y planificar el estudio.
+> **Aviso de transparencia:** Soy Kirill Markin y desarrollo [Nibomo](/features/), uno de los productos que comparo en este artículo. StudySmarter es mejor para tomar notas dentro de la aplicación, trabajar con material de consulta, acceder a contenido ya preparado o creado por la comunidad, hacer cuestionarios y simulacros de examen y planificar el estudio.
 
 **Datos comprobados:** 3 de agosto de 2026.
 
@@ -28,14 +28,14 @@ Flashcards no pretende ser una versión reducida de StudySmarter. Encaja con qui
 ## La respuesta breve
 
 - Elige **StudySmarter** si quieres reunir en un solo producto notas, material de aprendizaje, sets compartidos, explicaciones, cuestionarios, simulacros de examen y planificación.
-- Elige **Flashcards Open Source App** si solo necesitas mantener tarjetas con anverso y reverso, con programación de repasos FSRS-6 documentada, cambios que se guardan primero en el dispositivo y se sincronizan después, código con licencia MIT, acceso para agentes de IA y un despliegue integral compatible mediante AWS CDK.
+- Elige **Nibomo** si solo necesitas mantener tarjetas con anverso y reverso, con programación de repasos FSRS-6 documentada, cambios que se guardan primero en el dispositivo y se sincronizan después, código con licencia MIT, acceso para agentes de IA y un despliegue integral compatible mediante AWS CDK.
 - Quédate con **StudySmarter** si tu queja es menor. No hay una migración sin pérdidas documentada entre ambos productos, y pasarte a Flashcards implica dejar atrás las herramientas de StudySmarter para gestionar una asignatura completa.
 
 Elegir una u otra no dice nada sobre cuánto te tomas en serio el estudio. StudySmarter cubre un recorrido más amplio, desde el material de la asignatura hasta la preparación del examen. Flashcards se concentra en mantener una colección más pequeña de tarjetas lista para el repaso a largo plazo.
 
 ## StudySmarter vs Flashcards de un vistazo
 
-| Pregunta | StudySmarter | Flashcards Open Source App |
+| Pregunta | StudySmarter | Nibomo |
 |---|---|---|
 | Para quién encaja mejor | Quien quiere gestionar una asignatura y preparar sus exámenes en un mismo lugar | Quien quiere repasar a largo plazo una colección concreta de tarjetas con anverso y reverso |
 | Notas | Notas y documentos propios con formato, subrayado y anotaciones | Sin sistema propio de notas; las tarjetas admiten Markdown en el anverso y el reverso |
@@ -139,4 +139,4 @@ StudySmarter es la mejor opción cuando empiezas con diapositivas de clase, nota
 
 Flashcards es una **alternativa a StudySmarter** más específica cuando ya partes de un conjunto limpio de datos y quieres recordarlos a largo plazo mediante tarjetas con anverso y reverso. Renuncias a las herramientas de la plataforma más amplia a cambio de FSRS-6 documentado, cambios locales que se sincronizan al volver la conexión, código con licencia MIT, acceso para agentes y una vía compatible para autoalojar toda la plataforma.
 
-Desarrollo Flashcards y no lo recomendaría como sustituto general de StudySmarter. Sí lo recomendaría cuando ese flujo más limitado es precisamente el motivo por el que buscas una **alternativa a StudySmarter**. Si ese es tu caso, consulta las [funciones de Flashcards](/features/) o empieza por la [guía de introducción](/docs/getting-started/).
+Desarrollo Flashcards y no lo recomendaría como sustituto general de StudySmarter. Sí lo recomendaría cuando ese flujo más limitado es precisamente el motivo por el que buscas una **alternativa a StudySmarter**. Si ese es tu caso, consulta las [funciones de Nibomo](/features/) o empieza por la [guía de introducción](/docs/getting-started/).

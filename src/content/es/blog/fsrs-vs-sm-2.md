@@ -106,7 +106,7 @@ Decir "usamos FSRS" no significa que un producto de tarjetas didácticas sea bue
 
 Lo que importa es si la implementación es realmente cuidadosa.
 
-En [Flashcards](https://flashcards-open-source-app.com/), FSRS se trata como un contrato de producto, no solo como una etiqueta de marketing. El comportamiento del programador se refleja entre el backend y la aplicación de iOS. La aplicación web refleja el contrato de datos del programador, pero no incluye una tercera implementación independiente de FSRS. El sistema almacena el estado de la memoria oculta en cada tarjeta, mantiene pasos explícitos de aprendizaje y reaprendizaje, admite configuraciones a nivel de espacio de trabajo como retención deseada, pasos de aprendizaje, pasos de reaprendizaje, intervalo máximo y confusión, y utiliza la marca de tiempo de revisión del cliente real hasta `reviewedAtClient` durante la programación.
+En [Nibomo](https://flashcards-open-source-app.com/), FSRS se trata como un contrato de producto, no solo como una etiqueta de marketing. El comportamiento del programador se refleja entre el backend y la aplicación de iOS. La aplicación web refleja el contrato de datos del programador, pero no incluye una tercera implementación independiente de FSRS. El sistema almacena el estado de la memoria oculta en cada tarjeta, mantiene pasos explícitos de aprendizaje y reaprendizaje, admite configuraciones a nivel de espacio de trabajo como retención deseada, pasos de aprendizaje, pasos de reaprendizaje, intervalo máximo y confusión, y utiliza la marca de tiempo de revisión del cliente real hasta `reviewedAtClient` durante la programación.
 
 Esto suena como un detalle de backend, pero es exactamente el tipo de detalle que decide si dos clientes programan la misma tarjeta de la misma manera o se separan.
 
@@ -138,4 +138,4 @@ Le brinda al programador mejor información, mejor control y mejores probabilida
 
 Ése es el objetivo de la repetición espaciada.
 
-Si desea una **aplicación de tarjetas didácticas de código abierto** que trate la calidad de la programación como una decisión central del producto en lugar de una casilla de verificación, [Flashcards](https://flashcards-open-source-app.com/) está diseñada en esa dirección.
+Si desea una **aplicación de tarjetas didácticas de código abierto** que trate la calidad de la programación como una decisión central del producto en lugar de una casilla de verificación, [Nibomo](https://flashcards-open-source-app.com/) está diseñada en esa dirección.

@@ -264,7 +264,7 @@ Si desea ver el lado del programador con más detalle, esto es más profundo:
 
 ## Dónde encaja Flashcards en este flujo de trabajo
 
-[Flashcards](https://flashcards-open-source-app.com/) es una buena opción para **audio en tarjetas didácticas** porque el producto ya tiene las piezas que este flujo de trabajo necesita en un solo lugar:
+[Nibomo](https://flashcards-open-source-app.com/) es una buena opción para **audio en tarjetas didácticas** porque el producto ya tiene las piezas que este flujo de trabajo necesita en un solo lugar:
 
 - Chat de IA
 - archivos adjuntos

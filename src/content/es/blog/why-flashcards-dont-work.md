@@ -231,7 +231,7 @@ Normalmente es el mazo.
 
 ## Dónde encaja Flashcards
 
-[Flashcards](/es/features/) resulta útil aquí después del diagnóstico, no en lugar del diagnóstico. Conserva las supervivientes como tarjetas normales de anverso y reverso, organízalas por mazo o etiqueta y deja que FSRS se encargue del momento una vez que esas tarjetas ya merecen ser repasadas. Si quieres ayuda de IA, úsala para borradores y limpieza, no como permiso para volcar cada tarjeta candidata en tu cola activa.
+[Nibomo](/es/features/) resulta útil aquí después del diagnóstico, no en lugar del diagnóstico. Conserva las supervivientes como tarjetas normales de anverso y reverso, organízalas por mazo o etiqueta y deja que FSRS se encargue del momento una vez que esas tarjetas ya merecen ser repasadas. Si quieres ayuda de IA, úsala para borradores y limpieza, no como permiso para volcar cada tarjeta candidata en tu cola activa.
 
 La app no te va a borrar las tarjetas flojas, arreglarte las leech ni decidir qué temas necesitaban práctica real en vez de más memorización. Ninguna app puede hacer esa parte con honestidad.
 

@@ -233,9 +233,9 @@ Las flashcards te ayudan a retener la palabra, el carácter, la construcción o 
 
 Este límite también ayuda a mantener el mazo más pequeño. Un error de vocabulario puede necesitar una tarjeta. Un descuido por falta de concentración después de 30 minutos suele exigir un bloque de práctica más largo, no un recordatorio que diga `concéntrate`.
 
-## Dónde encaja Flashcards Open Source App
+## Dónde encaja Nibomo
 
-[Flashcards Open Source App](/es/) se ocupa de la parte de retención del plan. Puedes crear y editar tarjetas de anverso y reverso, repasar las tarjetas programadas y usar las cuatro valoraciones Again, Hard, Good y Easy con la programación de FSRS. El núcleo es gratuito y de código abierto.
+[Nibomo](/es/) se ocupa de la parte de retención del plan. Puedes crear y editar tarjetas de anverso y reverso, repasar las tarjetas programadas y usar las cuatro valoraciones Again, Hard, Good y Easy con la programación de FSRS. El núcleo es gratuito y de código abierto.
 
 Una configuración práctica sería:
 

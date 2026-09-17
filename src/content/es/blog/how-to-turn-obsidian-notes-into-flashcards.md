@@ -117,7 +117,7 @@ Si quieres reglas mejores para redactar tarjetas, sigue con [Cómo crear mejores
 
 ## Flashcards encaja en el flujo de Obsidian sin fingir que es tu vault
 
-[Flashcards](https://flashcards-open-source-app.com/) encaja bien aquí porque resuelve con limpieza la parte de estudio del flujo:
+[Nibomo](https://flashcards-open-source-app.com/) encaja bien aquí porque resuelve con limpieza la parte de estudio del flujo:
 
 - crear tarjetas de anverso y reverso
 - usar el chat con IA para redactar a partir de texto pegado

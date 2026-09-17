@@ -175,7 +175,7 @@ Las tarjetas más pequeñas hacen que FSRS sea mucho más útil. Si quieres ajus
 
 ## Dónde encaja Flashcards en este flujo
 
-[Flashcards](https://flashcards-open-source-app.com/) encaja bien con este tipo de estudio de matemáticas porque el producto soporta justo las partes que importan después de identificar el objetivo de memoria:
+[Nibomo](https://flashcards-open-source-app.com/) encaja bien con este tipo de estudio de matemáticas porque el producto soporta justo las partes que importan después de identificar el objetivo de memoria:
 
 - tarjetas de anverso y reverso para fórmulas, pistas de reconocimiento y patrones de error
 - mazos, etiquetas y filtrado cuando quieres repasar un tema sin romper tu biblioteca principal

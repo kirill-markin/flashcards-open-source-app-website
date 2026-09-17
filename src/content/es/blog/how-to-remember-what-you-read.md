@@ -18,7 +18,7 @@ El jueves pasado terminé un capítulo, me sentí productivo unos cinco minutos 
 
 Si quieres primero la respuesta corta, aquí va: lee bloques más pequeños, para antes, cierra el texto, intenta decir la idea con tus propias palabras y convierte en flashcards solo lo que fallaste. La mayoría de la gente hace casi lo contrario. Lee demasiado tiempo, subraya demasiado, siente que el material le resulta familiar y solo descubre el hueco cuando el texto ya no está delante.
 
-Si ya usas [Flashcards](/es/), la versión práctica es simple: crea tarjetas solo a partir de los fallos y deja que FSRS te las devuelva más adelante. No conviertas el capítulo entero en un mazo solo porque ya invertiste tiempo en leerlo.
+Si ya usas [Nibomo](/es/), la versión práctica es simple: crea tarjetas solo a partir de los fallos y deja que FSRS te las devuelva más adelante. No conviertas el capítulo entero en un mazo solo porque ya invertiste tiempo en leerlo.
 
 Ese hueco es más fácil de pasar por alto en 2026 porque ahora leer tiene más ayudas. La IA puede resumir, simplificar, explicar y reformular casi cualquier cosa. Son herramientas útiles. Siguen sin ser memoria. Si el proceso nunca te obliga a recuperar la idea sin ayuda, puedes terminar muchas páginas y quedarte con muy poco.
 
@@ -335,7 +335,7 @@ Esa es una respuesta mucho más sólida a **cómo recordar lo que lees** que rel
 
 ## Dónde encaja Flashcards
 
-[Flashcards](/es/) encaja después de que el bloque de lectura ya te haya enseñado qué importa.
+[Nibomo](/es/) encaja después de que el bloque de lectura ya te haya enseñado qué importa.
 
 Ese es el lugar útil del producto:
 

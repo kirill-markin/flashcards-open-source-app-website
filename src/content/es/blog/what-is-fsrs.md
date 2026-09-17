@@ -25,7 +25,7 @@ Esa es la respuesta breve a **qué es FSRS**. Para entender cómo funciona, nece
 
 ## FSRS es el planificador, no la aplicación de tarjetas
 
-Anki puede usar FSRS. Flashcards Open Source App usa FSRS. Otros productos y bibliotecas también pueden implementarlo. El [proyecto open-spaced-repetition](https://github.com/open-spaced-repetition) publica abiertamente el modelo, sus implementaciones y las herramientas relacionadas.
+Anki puede usar FSRS. Nibomo usa FSRS. Otros productos y bibliotecas también pueden implementarlo. El [proyecto open-spaced-repetition](https://github.com/open-spaced-repetition) publica abiertamente el modelo, sus implementaciones y las herramientas relacionadas.
 
 El producto y el planificador cumplen funciones distintas:
 
@@ -173,7 +173,7 @@ Este límite ayuda a diagnosticar los problemas de estudio. Si los intervalos a 
 
 ## Cómo implementa Flashcards el algoritmo FSRS
 
-> **Aviso:** Soy Kirill Markin y desarrollo [Flashcards Open Source App](/es/features/). Esta sección describe el comportamiento ya disponible en el producto; no implica que todos los estudiantes deban dejar otra aplicación.
+> **Aviso:** Soy Kirill Markin y desarrollo [Nibomo](/es/features/). Esta sección describe el comportamiento ya disponible en el producto; no implica que todos los estudiantes deban dejar otra aplicación.
 
 Flashcards implementa actualmente **FSRS-6** reproduciendo el flujo de planificación oficial de `ts-fsrs` 5.2.3. Utiliza las valoraciones estándar Again, Hard, Good y Easy. Los planificadores del backend, iOS y Android siguen el mismo comportamiento, mientras que el flujo de repaso web reutiliza el planificador del backend.
 
@@ -181,7 +181,7 @@ Los valores predeterminados actuales son una desired retention de `0.90`, learni
 
 Flashcards fija los pesos predeterminados oficiales de FSRS-6 en v1. Los usuarios no pueden modificarlos y, por ahora, el producto no ajusta parámetros FSRS personalizados a partir del historial de cada usuario. Esta limitación es importante al compararlo con el optimizador de Anki.
 
-La [especificación pública del planificador FSRS de Flashcards](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/docs/fsrs-scheduling-logic.md) documenta el modelo de estado actual, los valores predeterminados, los límites de los ajustes y las reglas de paridad entre plataformas. La [página general de funcionalidades](/es/features/) muestra cómo encaja el planificador en el producto, en lugar de presentar FSRS como si fuera una aplicación independiente.
+La [especificación pública del planificador FSRS de Nibomo](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/docs/fsrs-scheduling-logic.md) documenta el modelo de estado actual, los valores predeterminados, los límites de los ajustes y las reglas de paridad entre plataformas. La [página general de funcionalidades](/es/features/) muestra cómo encaja el planificador en el producto, en lugar de presentar FSRS como si fuera una aplicación independiente.
 
 ## Preguntas frecuentes sobre FSRS
 

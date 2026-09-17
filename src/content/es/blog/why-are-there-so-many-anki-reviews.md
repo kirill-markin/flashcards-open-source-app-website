@@ -226,7 +226,7 @@ Ese último caso es muy común. Algunas personas no tienen realmente demasiados 
 
 ## Dónde encaja Flashcards sin fingir que es magia
 
-[Características de Flashcards](/es/features/) ayuda aquí por una razón práctica: el producto cubre tanto la parte anterior al repaso como la parte durante el repaso.
+[Características de Nibomo](/es/features/) ayuda aquí por una razón práctica: el producto cubre tanto la parte anterior al repaso como la parte durante el repaso.
 
 Eso importa porque muchos picos de repaso empiezan antes del primer día de repaso. Empiezan cuando entran demasiadas tarjetas en el mazo activo, o cuando los borradores generados con IA se aceptan sin suficiente edición.
 

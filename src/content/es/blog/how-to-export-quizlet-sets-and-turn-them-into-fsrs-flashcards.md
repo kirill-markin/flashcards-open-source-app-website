@@ -106,7 +106,7 @@ Una hoja de cálculo puede añadir las comillas que necesita el CSV. Una sustitu
 
 ## Usa el texto en Flashcards como borrador para revisar
 
-[Flashcards Open Source App](/features/) no tiene un importador directo de Quizlet. En la aplicación alojada, los archivos TXT o CSV se pueden adjuntar al chat con IA para preparar un borrador. No es una migración sin pérdidas.
+[Nibomo](/features/) no tiene un importador directo de Quizlet. En la aplicación alojada, los archivos TXT o CSV se pueden adjuntar al chat con IA para preparar un borrador. No es una migración sin pérdidas.
 
 1. Conserva el archivo original de Quizlet fuera de la aplicación.
 2. Adjunta al chat con IA de Flashcards el TXT limpio o el CSV que hayas preparado con cuidado.
@@ -123,7 +123,7 @@ Este método puede venir bien si las tarjetas antiguas también necesitan una li
 
 Las tarjetas creadas en Flashcards empiezan con un historial de aprendizaje nuevo. El texto de Quizlet no incluye los eventos de repaso ni el estado de programación necesarios para seguir con la cola anterior.
 
-> **Aviso de transparencia:** Desarrollo Flashcards Open Source App. Este proceso refleja los límites actuales del producto; no implica una compatibilidad completa con Quizlet.
+> **Aviso de transparencia:** Desarrollo Nibomo. Este proceso refleja los límites actuales del producto; no implica una compatibilidad completa con Quizlet.
 
 ## De Quizlet a Anki: usa el importador de texto de Anki
 

@@ -133,7 +133,7 @@ Usa las herramientas en secuencia. Deja que las preguntas similares a las del ex
 
 FSRS automatiza el momento en que vuelven las tarjetas. El proyecto oficial [Free Spaced Repetition Scheduler](https://github.com/open-spaced-repetition/free-spaced-repetition-scheduler) modela la dificultad, la estabilidad y la recuperabilidad de una tarjeta. Después de cada intento, tu valoración le da al planificador la señal que necesita para decidir la siguiente fecha.
 
-En Flashcards Open Source App, el planificador actual es FSRS-6. La cola muestra las tarjetas pendientes y los repasos usan cuatro valoraciones:
+En Nibomo, el planificador actual es FSRS-6. La cola muestra las tarjetas pendientes y los repasos usan cuatro valoraciones:
 
 - `Again` cuando no has conseguido recordar
 - `Hard` cuando has recordado con dificultad
@@ -158,4 +158,4 @@ Antes de elegir entre **estudio intensivo y repetición espaciada**, comprueba c
 
 Varios días te dan tiempo para distribuir los intentos de recuperación. Con una sola noche, necesitas una lista breve de contenidos importantes que todavía puedas corregir. Mantén las preguntas de práctica en cualquiera de los dos planes y continúa los repasos espaciados después de la prueba para los conocimientos que sigan importando.
 
-Puedes seguir cada paso de esta guía con papel, un archivo de notas y preguntas de práctica. Si quieres que FSRS gestione las fechas de las tarjetas, consulta las [funcionalidades de Flashcards](/features/) o [abre la app alojada](https://app.flashcards-open-source-app.com). Elige el patrón de estudio según el plazo y cuánto tiempo necesitas conservar lo aprendido.
+Puedes seguir cada paso de esta guía con papel, un archivo de notas y preguntas de práctica. Si quieres que FSRS gestione las fechas de las tarjetas, consulta las [funcionalidades de Nibomo](/features/) o [abre la app alojada](https://app.flashcards-open-source-app.com). Elige el patrón de estudio según el plazo y cuánto tiempo necesitas conservar lo aprendido.

@@ -100,7 +100,7 @@ Tres hábitos sencillos hacen que el mazo resulte más útil:
 - Practica en voz alta los nombres y los términos que no te resulten familiares, no solo mentalmente.
 - Coloca primero en el reverso la respuesta que se evalúa y deja la explicación debajo.
 
-Pide de vez en cuando a otra persona que lea 10 o 20 preguntas en orden aleatorio. Una grabación con el teléfono también puede mostrar pausas que no notas durante el repaso en silencio. Flashcards Open Source App no evalúa el habla ni simula una entrevista de USCIS, así que esto es simplemente práctica oral con tu mazo.
+Pide de vez en cuando a otra persona que lea 10 o 20 preguntas en orden aleatorio. Una grabación con el teléfono también puede mostrar pausas que no notas durante el repaso en silencio. Nibomo no evalúa el habla ni simula una entrevista de USCIS, así que esto es simplemente práctica oral con tu mazo.
 
 USCIS recomienda a los solicitantes usar las respuestas de su banco oficial. Estás practicando una respuesta clara a una pregunta oral, no un discurso sobre todo lo que sabes del tema.
 
@@ -178,9 +178,9 @@ Estos detalles aparecen en el [PDF oficial con las preguntas y respuestas de 202
 
 Si se aplica la regla 65/20, crea un mazo o un filtro separado con las 20 preguntas oficiales marcadas con un asterisco. No estudies un grupo aleatorio de 20 tarjetas. Las respuestas que pueden cambiar dentro de ese grupo también necesitan la misma comprobación en la fecha de la entrevista.
 
-## Cómo ayuda Flashcards Open Source App
+## Cómo ayuda Nibomo
 
-[Flashcards Open Source App](/features/) cubre la parte práctica de este flujo: tarjetas de anverso y reverso, mazos, etiquetas, repasos programados y planificación con FSRS en la aplicación web, iOS y Android. El proyecto es de código abierto y utiliza la licencia MIT.
+[Nibomo](/features/) cubre la parte práctica de este flujo: tarjetas de anverso y reverso, mazos, etiquetas, repasos programados y planificación con FSRS en la aplicación web, iOS y Android. El proyecto es de código abierto y utiliza la licencia MIT.
 
 El [mazo para el examen de ciudadanía de EE. UU.](/catalog/packages/us-citizenship-test/) se ha creado de forma independiente a partir de materiales oficiales de USCIS. No es un producto oficial de USCIS, ni está afiliado a USCIS ni cuenta con su respaldo. No sincroniza automáticamente los cambios de cargos públicos, no importa el PDF de USCIS con un solo clic, no evalúa las respuestas orales ni simula la entrevista de naturalización. Debes verificar y mantener actualizadas las respuestas que pueden cambiar mediante fuentes oficiales vigentes, y tú decides cómo evaluar lo que recuerdas.
 

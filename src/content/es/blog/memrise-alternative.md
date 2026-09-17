@@ -17,7 +17,7 @@ keywords:
 
 Abre Memrise sin una lista de vocabulario y aun así te dirá qué aprender a continuación. Abre un espacio de trabajo vacío en Flashcards y seguirá vacío hasta que añadas algo. Esa es la diferencia clave para quien busca una **alternativa a Memrise**.
 
-Memrise ofrece cursos oficiales ya preparados, frases útiles, vídeo y audio de hablantes nativos y práctica guiada. [Flashcards](/features/) te ayuda a crear una colección personal de tarjetas y a programar los repasos con FSRS-6. Tendrás más control sobre las tarjetas y el software, pero necesitarás otra fuente con la que aprender el idioma.
+Memrise ofrece cursos oficiales ya preparados, frases útiles, vídeo y audio de hablantes nativos y práctica guiada. [Nibomo](/features/) te ayuda a crear una colección personal de tarjetas y a programar los repasos con FSRS-6. Tendrás más control sobre las tarjetas y el software, pero necesitarás otra fuente con la que aprender el idioma.
 
 > **Aviso de transparencia:** Soy Kirill Markin y desarrollo Flashcards, uno de los productos que comparo aquí. Memrise es la opción más sólida para quien busca contenido de idiomas estructurado y práctica integrada de comprensión auditiva, pronunciación y expresión oral.
 
@@ -28,7 +28,7 @@ Memrise ofrece cursos oficiales ya preparados, frases útiles, vídeo y audio de
 ## La respuesta corta
 
 - Elige **Memrise** si quieres empezar con contenido oficial ya preparado, escuchar a hablantes nativos y practicar vocabulario, comprensión auditiva, pronunciación, formación de frases y conversación en un solo producto.
-- Elige **Flashcards** si el material ya te llega de un profesor, un libro de texto, un curso, lecturas, audios o conversaciones y quieres decidir exactamente qué entra en una cola de repaso gestionada con FSRS-6 y cuyo funcionamiento está documentado.
+- Elige **Nibomo** si el material ya te llega de un profesor, un libro de texto, un curso, lecturas, audios o conversaciones y quieres decidir exactamente qué entra en una cola de repaso gestionada con FSRS-6 y cuyo funcionamiento está documentado.
 - Usa **ambos** si Memrise te proporciona la ruta de aprendizaje y Flashcards conserva ese conjunto más reducido de palabras, correcciones y frases personales que quieres recordar a largo plazo.
 
 Flashcards no es una copia gratuita y de código abierto de Memrise. Puede sustituir las tarjetas personales y los repasos dentro de tu flujo de trabajo, pero no un programa completo de aprendizaje de idiomas.
@@ -140,4 +140,4 @@ Quédate con Memrise si quieres que la app te marque la ruta de aprendizaje. Es 
 
 Elige Flashcards si ya tienes un profesor, un curso, un libro de texto u otra fuente y quieres mantener tu propio material con FSRS-6 documentado, guardado local con enfoque offline-first en web y móvil, código con licencia MIT o autoalojamiento de toda la pila. A cambio, tendrás que crear las tarjetas y aceptar que no incluye un programa de idiomas ni permite importar directamente desde Memrise.
 
-Usar ambos suele ser la respuesta más clara a **Memrise vs Flashcards**. Aprende con Memrise, un profesor, lecturas, audios y conversaciones reales. Guarda en Flashcards solo ese material personal que quieras conservar a largo plazo. Si esa función de apoyo es lo que necesitas de una **alternativa de código abierto a Memrise**, explora las [funciones de Flashcards](/features/) y prueba el flujo de trabajo con un conjunto pequeño antes de trasladar nada importante.
+Usar ambos suele ser la respuesta más clara a **Memrise vs Flashcards**. Aprende con Memrise, un profesor, lecturas, audios y conversaciones reales. Guarda en Flashcards solo ese material personal que quieras conservar a largo plazo. Si esa función de apoyo es lo que necesitas de una **alternativa de código abierto a Memrise**, explora las [funciones de Nibomo](/features/) y prueba el flujo de trabajo con un conjunto pequeño antes de trasladar nada importante.

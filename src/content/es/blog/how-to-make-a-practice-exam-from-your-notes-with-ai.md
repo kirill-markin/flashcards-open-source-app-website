@@ -195,7 +195,7 @@ Mantén la tarjeta pequeña. Deja que el examen siga siendo más grande.
 
 ## Dónde encaja Flashcards
 
-[Flashcards](/es/features/) encaja bien después del paso del examen de práctica.
+[Nibomo](/es/features/) encaja bien después del paso del examen de práctica.
 
 No conviene describir el producto como un generador mágico de exámenes de práctica. El flujo más preciso es este: usa la herramienta de IA que prefieras para generar el examen a partir de tus apuntes y luego guarda en Flashcards solo lo que sobreviva a ese filtro.
 

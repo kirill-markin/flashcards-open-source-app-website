@@ -233,7 +233,7 @@ Si quieres más detalle sobre la parte de programación, éste es el complemento
 
 ## Dónde encaja Flashcards en este flujo de trabajo del CPA
 
-Si quieres llevar esto dentro de [Flashcards](https://flashcards-open-source-app.com/), la parte útil no es una promesa vaga de que la IA va a hacerte aprobar el examen CPA por arte de magia.
+Si quieres llevar esto dentro de [Nibomo](https://flashcards-open-source-app.com/), la parte útil no es una promesa vaga de que la IA va a hacerte aprobar el examen CPA por arte de magia.
 
 La parte útil es que el producto ya soporta la parte intermedia real del flujo:
 

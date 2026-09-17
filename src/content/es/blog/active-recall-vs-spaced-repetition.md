@@ -90,7 +90,7 @@ En ese momento cambia la pregunta. Ya no es "¿puedo recuperar esto?". Ahora es 
 
 Ese es el problema de planificación que resuelve la repetición espaciada.
 
-Un buen planificador hace volver antes el material inestable y luego va ampliando el intervalo a medida que el recuerdo se vuelve más fácil. En [Flashcards](/es/), esa capa de tiempo funciona con FSRS, y eso importa en cuanto tu cola de repaso deja de ser un mazo diminuto. Si lo que te interesa es la comparación entre planificadores, [FSRS vs SM-2 en 2026](/es/blog/fsrs-vs-sm-2/) es la versión más a fondo.
+Un buen planificador hace volver antes el material inestable y luego va ampliando el intervalo a medida que el recuerdo se vuelve más fácil. En [Nibomo](/es/), esa capa de tiempo funciona con FSRS, y eso importa en cuanto tu cola de repaso deja de ser un mazo diminuto. Si lo que te interesa es la comparación entre planificadores, [FSRS vs SM-2 en 2026](/es/blog/fsrs-vs-sm-2/) es la versión más a fondo.
 
 Así que la **repetición espaciada** no sustituye al active recall. Es el calendario del material que se ganó otro repaso.
 
@@ -220,7 +220,7 @@ Si haces práctica de recuperación y nunca pasas los fallos útiles a un sistem
 
 ## Dónde encaja Flashcards
 
-[Flashcards](/es/) encaja después de la explicación, después del tutor, después del cuestionario y después de la sesión de práctica.
+[Nibomo](/es/) encaja después de la explicación, después del tutor, después del cuestionario y después de la sesión de práctica.
 
 Es la capa de retención, no todo el proceso de aprendizaje.
 

@@ -168,9 +168,9 @@ No añadas tantas tarjetas nuevas que los repasos pendientes te dejen sin tiempo
 
 Esta separación también importa a lo largo de todo un programa. La [guía de flashcards para la escuela de enfermería](/es/blog/how-to-use-flashcards-for-nursing-school/) reserva las tarjetas para el recuerdo rápido y deja el razonamiento clínico y la aplicación para las actividades que realmente los evalúan.
 
-## Cómo encajan FSRS y Flashcards Open Source App
+## Cómo encajan FSRS y Nibomo
 
-[Flashcards Open Source App](/es/features/) admite tarjetas sencillas con anverso y reverso, mazos y etiquetas. Puedes etiquetar las tarjetas con `word-part`, `full-term`, `spelling`, `abbreviation` o `safety` y después repasar las que estén pendientes con FSRS. FSRS puede mostrar antes las tarjetas difíciles y espaciar más las que ya resultan familiares. Programa los repasos a partir de tu historial; no entiende medicina, no verifica definiciones ni decide si una abreviatura es segura.
+[Nibomo](/es/features/) admite tarjetas sencillas con anverso y reverso, mazos y etiquetas. Puedes etiquetar las tarjetas con `word-part`, `full-term`, `spelling`, `abbreviation` o `safety` y después repasar las que estén pendientes con FSRS. FSRS puede mostrar antes las tarjetas difíciles y espaciar más las que ya resultan familiares. Programa los repasos a partir de tu historial; no entiende medicina, no verifica definiciones ni decide si una abreviatura es segura.
 
 La creación opcional asistida por IA puede preparar borradores de tarjetas a partir del material que proporciones, y tú controlas lo que se guarda. Antes de guardar una tarjeta, coteja con el material que rige el curso cada término generado, separación en componentes, grafía, definición, abreviatura y fuente. El contenido generado por IA no equivale a una validación clínica. No subas historias clínicas, identificadores ni otros datos protegidos para crear tarjetas de estudio.
 

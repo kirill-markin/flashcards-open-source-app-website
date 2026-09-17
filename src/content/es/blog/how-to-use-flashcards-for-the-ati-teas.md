@@ -269,7 +269,7 @@ Eso se parece bastante al flujo de [Cómo convertir preguntas de práctica en fl
 
 ## Dónde encaja Flashcards en este flujo de trabajo para ATI TEAS
 
-Si quieres hacer esto dentro de [Flashcards](https://flashcards-open-source-app.com/), el encaje es práctico, no oficial.
+Si quieres hacer esto dentro de [Nibomo](https://flashcards-open-source-app.com/), el encaje es práctico, no oficial.
 
 No hay integración oficial con ATI, y no hay un modo especial para TEAS. La parte útil es más simple que eso.
 

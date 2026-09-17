@@ -214,7 +214,7 @@ Recitar toda la tabla de quetta a quecto puede ayudarte a recordar el orden y, a
 
 Sigue un orden claro en el primer bloque de aprendizaje. Mezcla elementos parecidos después de que sus correspondencias básicas sean estables. La [guía sobre práctica intercalada](/blog/how-to-use-interleaving-with-flashcards/) muestra cómo mezclar categorías que se confunden sin convertir la sesión en una sucesión aleatoria de cambios de contexto.
 
-Repasa las tarjetas guardadas cuando les toque. Flashcards Open Source App admite tarjetas Markdown de anverso y reverso, mazos y etiquetas, contenido multimedia y repasos programados con FSRS. El mazo ya preparado sobre prefijos métricos se ocupa de la memorización; no comprueba cálculos ni genera problemas de conversión por ti.
+Repasa las tarjetas guardadas cuando les toque. Nibomo admite tarjetas Markdown de anverso y reverso, mazos y etiquetas, contenido multimedia y repasos programados con FSRS. El mazo ya preparado sobre prefijos métricos se ocupa de la memorización; no comprueba cálculos ni genera problemas de conversión por ti.
 
 ## Diagnostica el error antes de añadir más tarjetas
 

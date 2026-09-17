@@ -205,7 +205,7 @@ Mantén el planificador al margen del experimento con la secuencia. La práctica
 
 ## Cómo encaja Flashcards en este flujo
 
-[Flashcards Open Source App](/es/features/) aporta a este flujo una capa clara para la retención: tarjetas explícitas de anverso y reverso, cuatro opciones para valorar cada repaso y programación con FSRS para las tarjetas pendientes. Las funciones publicadas no incluyen intercalación automática entre mazos o espacios de trabajo. Por tanto, no supongas que una cola normal de repaso forma por sí sola pares de contraste deliberados.
+[Nibomo](/es/features/) aporta a este flujo una capa clara para la retención: tarjetas explícitas de anverso y reverso, cuatro opciones para valorar cada repaso y programación con FSRS para las tarjetas pendientes. Las funciones publicadas no incluyen intercalación automática entre mazos o espacios de trabajo. Por tanto, no supongas que una cola normal de repaso forma por sí sola pares de contraste deliberados.
 
 Mantén clara la separación:
 

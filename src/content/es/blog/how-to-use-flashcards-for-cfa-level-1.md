@@ -275,7 +275,7 @@ Etiquétalos con `needs-recheck` y verifícalos contra las páginas oficiales de
 
 ## Dónde encaja Flashcards en este flujo CFA
 
-[Flashcards](https://flashcards-open-source-app.com/) encaja en este flujo porque soporta las piezas concretas que necesita un mazo CFA sin fingir que reemplaza los materiales de CFA Institute:
+[Nibomo](https://flashcards-open-source-app.com/) encaja en este flujo porque soporta las piezas concretas que necesita un mazo CFA sin fingir que reemplaza los materiales de CFA Institute:
 
 - creación y edición de tarjetas anverso/reverso
 - mazos y etiquetas para organizar por tema y fuente
@@ -291,7 +291,7 @@ Usa materiales oficiales y preguntas de práctica para encontrar los puntos déb
 
 Si eso es lo que quieres, empieza aquí:
 
-- [Abrir Flashcards](https://flashcards-open-source-app.com/)
+- [Abrir Nibomo](https://flashcards-open-source-app.com/)
 - [Abrir la app](https://app.flashcards-open-source-app.com/)
 - [Leer la guía de primeros pasos](https://flashcards-open-source-app.com/docs/getting-started/)
 - [Ver el código fuente en GitHub](https://github.com/kirill-markin/flashcards-open-source-app)

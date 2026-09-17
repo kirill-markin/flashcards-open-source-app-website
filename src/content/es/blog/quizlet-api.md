@@ -18,7 +18,7 @@ Esta conclusión se limita a la documentación pública de Quizlet; no describe 
 
 **Información comprobada:** 18 de agosto de 2026.
 
-> **Aviso de transparencia:** Soy Kirill Markin y desarrollo Flashcards Open Source App. Su Agent API y su servidor MCP aparecen como alternativas más adelante. Flashcards no es compatible con Quizlet ni importa automáticamente sets de Quizlet.
+> **Aviso de transparencia:** Soy Kirill Markin y desarrollo Nibomo. Su Agent API y su servidor MCP aparecen como alternativas más adelante. Flashcards no es compatible con Quizlet ni importa automáticamente sets de Quizlet.
 
 ![Desarrollador que compara la exportación y la inserción de Quizlet, sus integraciones específicas y una API de flashcards documentada](/blog/quizlet-api.png)
 
@@ -35,7 +35,7 @@ Desde fuera, varias funciones oficiales pueden parecer similares a una API. En r
 | Convertir una conversación de ChatGPT en un set de Quizlet | [Aplicación de Quizlet para ChatGPT](https://quizlet.com/blog/quizlet-comes-to-chat-gpt) | Crear y previsualizar un set mediante `@Quizlet` | Credenciales o endpoints para tu propia aplicación |
 | Asignar trabajo de Quizlet en Google Classroom | [Complemento de Quizlet para Google Classroom](https://quizlet.com/blog/quizlet-google-classroom-add-on) | Buscar, asignar y hacer un seguimiento de actividades en Classroom | Una API general para software educativo personalizado |
 | Crear tu propia integración con Quizlet | Actualmente no hay ninguna vía de autoservicio documentada | Puede existir un acuerdo específico con un socio | Registro público, claves de API o un contrato documentado para los datos de las tarjetas |
-| Automatizar tu propio espacio de trabajo de flashcards | [Agent API de Flashcards](/docs/api/) o [conector MCP](/docs/mcp-connector/) | Lecturas y escrituras recurrentes de tarjetas y mazos, limitadas a un espacio de trabajo | Compatibilidad con Quizlet o importación automática desde Quizlet |
+| Automatizar tu propio espacio de trabajo de flashcards | [Agent API de Nibomo](/docs/api/) o [conector MCP](/docs/mcp-connector/) | Lecturas y escrituras recurrentes de tarjetas y mazos, limitadas a un espacio de trabajo | Compatibilidad con Quizlet o importación automática desde Quizlet |
 
 La diferencia es sencilla: copiar una vez el texto de tus propias tarjetas es una exportación. Mostrar Quizlet en otra página es una inserción. Una integración específica solo funciona dentro del flujo del producto para el que se creó. Si un programa necesita crear, leer y editar tarjetas de forma recurrente, necesita una API de lectura y escritura documentada.
 
@@ -83,7 +83,7 @@ La vía segura consiste en utilizar un sistema de flashcards que documente cómo
 
 ## Qué ofrece realmente Flashcards como alternativa mediante API
 
-Flashcards Open Source App publica dos vías de acceso al mismo conjunto limitado de datos de cada usuario:
+Nibomo publica dos vías de acceso al mismo conjunto limitado de datos de cada usuario:
 
 - La [Agent API externa](/docs/api/) empieza en `GET https://api.flashcards-open-source-app.com/v1/`. Su respuesta de descubrimiento guía al agente durante el inicio de sesión mediante OTP por correo electrónico, la creación de una clave de API y la selección del espacio de trabajo. Las lecturas utilizan una ruta de consultas de estilo SQL; las escrituras, una ruta de ejecución independiente.
 - El [servidor MCP remoto](/docs/mcp-connector/) está disponible en `https://mcp.flashcards-open-source-app.com/mcp`. Los clientes MCP disponen de siete herramientas: `list_workspaces`, `sql_query`, `sql_execute`, `get_guide` y las herramientas de repaso `next_review_card`, `reveal_answer` y `submit_review`.

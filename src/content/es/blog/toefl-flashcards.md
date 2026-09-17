@@ -236,9 +236,9 @@ No pueden sustituir:
 
 Usa [recursos oficiales de preparación para el TOEFL](https://www.ets.org/toefl/test-takers/ibt/prepare.html) durante todo tu plan de estudio. La práctica completa también revela problemas de ritmo y atención que una cola de repaso de vocabulario no puede detectar.
 
-## Dónde encaja Flashcards Open Source App
+## Dónde encaja Nibomo
 
-[Flashcards](/es/) cubre la capa de retención de este flujo de trabajo. La aplicación web ofrece tarjetas de anverso y reverso, un chat con IA que puede usar los datos del espacio de trabajo y archivos adjuntos —incluidos los de texto sin formato—, y repasos con FSRS. Las opciones de repaso son Again, Hard, Good y Easy.
+[Nibomo](/es/) cubre la capa de retención de este flujo de trabajo. La aplicación web ofrece tarjetas de anverso y reverso, un chat con IA que puede usar los datos del espacio de trabajo y archivos adjuntos —incluidos los de texto sin formato—, y repasos con FSRS. Las opciones de repaso son Again, Hard, Good y Easy.
 
 Un flujo de trabajo cuidadoso es:
 

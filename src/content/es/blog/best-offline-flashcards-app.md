@@ -18,7 +18,7 @@ keywords:
 
 Para esta decisión, las versiones web deben evaluarse por separado. Un conjunto descargado en el móvil, una imagen guardada en caché y una pestaña que sigue funcionando tras perder la conexión no equivalen a una app instalada capaz de arrancar desde cero y abrir su colección local.
 
-> **Aviso de transparencia:** Soy Kirill Markin y desarrollo [Flashcards](https://flashcards-open-source-app.com/), uno de los productos incluidos en esta comparativa. No lo considero el ganador por defecto. Es más reciente que Anki, el primer inicio de sesión y la carga inicial del espacio de trabajo requieren internet, y el contenido multimedia remoto solo está disponible sin conexión después de que el dispositivo lo haya guardado en caché.
+> **Aviso de transparencia:** Soy Kirill Markin y desarrollo [Nibomo](https://flashcards-open-source-app.com/), uno de los productos incluidos en esta comparativa. No lo considero el ganador por defecto. Es más reciente que Anki, el primer inicio de sesión y la carga inicial del espacio de trabajo requieren internet, y el contenido multimedia remoto solo está disponible sin conexión después de que el dispositivo lo haya guardado en caché.
 
 **Datos verificados:** 22 de agosto de 2026.
 
@@ -89,7 +89,7 @@ La [guía de Mochi sobre copias de seguridad](https://mochi.cards/docs/getting-s
 
 ### Flashcards: clientes nativos local-first, con requisitos iniciales
 
-La [arquitectura offline-first de Flashcards](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/docs/architecture.md#offline-first-sync) escribe las tarjetas, los mazos, los ajustes y los repasos en local antes de enviarlos. La versión web utiliza IndexedDB, la de iOS utiliza SQLite y la de Android utiliza Room sobre SQLite. Los repasos se transfieren como un flujo de eventos al que solo se añaden entradas; el estado mutable de las tarjetas y los mazos pasa por la cola de salida.
+La [arquitectura offline-first de Nibomo](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/docs/architecture.md#offline-first-sync) escribe las tarjetas, los mazos, los ajustes y los repasos en local antes de enviarlos. La versión web utiliza IndexedDB, la de iOS utiliza SQLite y la de Android utiliza Room sobre SQLite. Los repasos se transfieren como un flujo de eventos al que solo se añaden entradas; el estado mutable de las tarjetas y los mazos pasa por la cola de salida.
 
 La [transferencia de contenido multimedia utiliza un flujo independiente](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/docs/architecture.md#client-media-transfer). Los archivos adjuntos nuevos pueden esperar en una cola local de subida, pero un archivo adjunto remoto que ya existía solo está disponible sin conexión después de que el dispositivo haya guardado su contenido en caché. Por eso, los clientes nativos para iOS y Android son las opciones más fiables para viajar. El cliente web contiene datos locales, pero una página cargada en el navegador no equivale a una app instalada capaz de arrancar desde cero sin conexión.
 

@@ -19,7 +19,7 @@ Quizlet sí ofrece una aplicación oficial en ChatGPT. Permite convertir una con
 
 **Información comprobada:** 12 de septiembre de 2026.
 
-> **Aviso de transparencia:** Soy Kirill Markin y desarrollo Flashcards Open Source App. Más adelante presento su servidor MCP y su Agent API como alternativas. Flashcards no puede conectarse a una cuenta de Quizlet ni importar una URL de Quizlet.
+> **Aviso de transparencia:** Soy Kirill Markin y desarrollo Nibomo. Más adelante presento su servidor MCP y su Agent API como alternativas. Flashcards no puede conectarse a una cuenta de Quizlet ni importar una URL de Quizlet.
 
 ![Una jardinera lleva una planta joven desde un invernadero cerrado hasta un bancal con riego por goteo ramificado](/blog/quizlet-mcp-server.png)
 
@@ -71,7 +71,7 @@ Por eso conviene que el traslado sea reversible. Si una definición con varias l
 
 ## Qué pueden usar Claude y Codex después de la exportación
 
-Flashcards Open Source App ofrece este endpoint MCP remoto:
+Nibomo ofrece este endpoint MCP remoto:
 
 `https://mcp.flashcards-open-source-app.com/mcp`
 

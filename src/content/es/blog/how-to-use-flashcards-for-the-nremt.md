@@ -259,7 +259,7 @@ La mejor configuración es:
 3. repasarlas en orden mixto
 4. dejar que FSRS decida cuándo vuelven
 
-Ahí es donde la [página de funciones](/features/) y la [guía de primeros pasos](/docs/getting-started/) encajan bien si quieres un solo lugar para tarjetas de anverso y reverso y repaso con FSRS. Flashcards Open Source App es simplemente la herramienta de estudio aquí, no un producto oficial del NREMT.
+Ahí es donde la [página de funciones](/features/) y la [guía de primeros pasos](/docs/getting-started/) encajan bien si quieres un solo lugar para tarjetas de anverso y reverso y repaso con FSRS. Nibomo es simplemente la herramienta de estudio aquí, no un producto oficial del NREMT.
 
 Si quieres más detalle sobre la parte de planificación, la siguiente lectura es [esta guía de FSRS para exámenes](/blog/how-to-study-for-an-exam-with-fsrs/).
 
@@ -307,4 +307,4 @@ Eso te da una puesta a punto dirigida sin tener que reconstruir todo el mazo.
 
 El mazo útil es más pequeño y más específico. Está construido alrededor de errores CAT, decisiones de evaluación primaria, ordenación y clasificación al estilo TEI y recuerdo de protocolos anclado a lo que tu curso realmente está enseñando.
 
-Si quieres una herramienta que encaje con ese flujo, empieza por la [guía de primeros pasos](/docs/getting-started/) o lee la [página de funciones](/features/). Flashcards Open Source App es una herramienta de estudio de código abierto basada en repaso con FSRS. No está afiliada al NREMT y funciona mejor cuando la alimentas con tarjetas pequeñas nacidas de errores reales, no con resúmenes gigantes.
+Si quieres una herramienta que encaje con ese flujo, empieza por la [guía de primeros pasos](/docs/getting-started/) o lee la [página de funciones](/features/). Nibomo es una herramienta de estudio de código abierto basada en repaso con FSRS. No está afiliada al NREMT y funciona mejor cuando la alimentas con tarjetas pequeñas nacidas de errores reales, no con resúmenes gigantes.

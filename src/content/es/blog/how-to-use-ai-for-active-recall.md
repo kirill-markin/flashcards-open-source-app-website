@@ -205,7 +205,7 @@ El mazo debería responder una sola pregunta:
 
 ## Dónde encaja Flashcards
 
-[Flashcards](/es/) encaja después de la sesión de tutoría, cuando ya sabes qué merece quedarse en la memoria.
+[Nibomo](/es/) encaja después de la sesión de tutoría, cuando ya sabes qué merece quedarse en la memoria.
 
 No existe un botón mágico que convierta un buen chat en memoria a largo plazo. El flujo útil es más simple:
 

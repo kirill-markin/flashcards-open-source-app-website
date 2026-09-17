@@ -238,13 +238,13 @@ No importes cientos de **tarjetas de estudio para el ASVAB** solo porque la fech
 
 La [guía para planificar un examen con FSRS](/es/blog/how-to-study-for-an-exam-with-fsrs/) muestra cómo organizar el estudio hacia atrás desde el día del examen. La guía para [establecer una cantidad diaria de tarjetas nuevas](/es/blog/how-many-new-flashcards-per-day/) ayuda cuando la cola empieza a crecer más rápido de lo que puedes repasarla.
 
-## Cómo encaja Flashcards Open Source App
+## Cómo encaja Nibomo
 
-[Flashcards Open Source App](/es/features/) admite tarjetas con anverso y reverso, mazos y etiquetas, repasos pendientes con FSRS, creación de tarjetas asistida por IA, estudio sin conexión en el móvil y sincronización entre la web, iOS y Android, importaciones y exportaciones portátiles y una opción de autoalojamiento de código abierto.
+[Nibomo](/es/features/) admite tarjetas con anverso y reverso, mazos y etiquetas, repasos pendientes con FSRS, creación de tarjetas asistida por IA, estudio sin conexión en el móvil y sincronización entre la web, iOS y Android, importaciones y exportaciones portátiles y una opción de autoalojamiento de código abierto.
 
 Para este flujo de trabajo, utiliza mazos para el núcleo del AFQT y los módulos relacionados con tus objetivos actuales, y etiquetas como `WK`, `PC`, `AR`, `MK`, `GS`, `EI`, `practice-miss` y `source-check`. La IA puede ayudarte a redactar o pulir tarjetas a partir del material que proporciones. Tú sigues decidiendo qué se guarda y comprobando cada respuesta con la fuente de referencia.
 
-La aplicación no proporciona un mazo oficial del ASVAB, un banco de preguntas del ASVAB, un simulador del examen, un predictor de puntuaciones, resultados garantizados ni una asignación automática de las puntuaciones a puestos militares. Flashcards Open Source App no está afiliada al Programa de Evaluación del ASVAB ni a las Fuerzas Armadas de Estados Unidos, ni cuenta con su respaldo. Incluye solo material que tengas derecho a utilizar y nunca uses preguntas reales que recuerdes.
+La aplicación no proporciona un mazo oficial del ASVAB, un banco de preguntas del ASVAB, un simulador del examen, un predictor de puntuaciones, resultados garantizados ni una asignación automática de las puntuaciones a puestos militares. La app Nibomo no está afiliada al Programa de Evaluación del ASVAB ni a las Fuerzas Armadas de Estados Unidos, ni cuenta con su respaldo. Incluye solo material que tengas derecho a utilizar y nunca uses preguntas reales que recuerdes.
 
 Consulta [Primeros pasos](/es/docs/getting-started/) para conocer la aplicación alojada, los clientes móviles, la conexión para agentes y la opción de autoalojamiento.
 

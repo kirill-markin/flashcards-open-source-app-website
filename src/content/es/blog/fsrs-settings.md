@@ -21,7 +21,7 @@ Por eso, los mejores ajustes de FSRS no son una cadena de parámetros que puedas
 
 Las etiquetas y el comportamiento que se explican a continuación corresponden a la [versión 26.08 de Anki](https://github.com/ankitects/anki/releases/tag/26.08) y a sus controles de FSRS-6. Si antes de configurar nada necesitas entender el modelo, lee [¿Qué es FSRS?](/blog/what-is-fsrs/). Si aún estás decidiendo qué planificador usar, empieza por [FSRS frente a SM-2](/blog/fsrs-vs-sm-2/).
 
-> **Aviso:** Soy Kirill Markin y desarrollo [Flashcards Open Source App](/features/). Anki ofrece un ajuste personalizado de parámetros y simuladores experimentales de carga de trabajo que Flashcards todavía no incluye. La comparación hacia el final del artículo deja claras estas diferencias.
+> **Aviso:** Soy Kirill Markin y desarrollo [Nibomo](/features/). Anki ofrece un ajuste personalizado de parámetros y simuladores experimentales de carga de trabajo que Flashcards todavía no incluye. La comparación hacia el final del artículo deja claras estas diferencias.
 
 **Datos verificados:** 8 de septiembre de 2026.
 
@@ -191,9 +191,9 @@ Si el resultado es demasiado alto, reduce la entrada y vuelve a simular. Así co
 
 ## Anki y Flashcards ofrecen controles de FSRS distintos
 
-Ambos productos utilizan FSRS-6, pero los ajustes de FSRS de Anki no se corresponden uno a uno con los de Flashcards Open Source App.
+Ambos productos utilizan FSRS-6, pero los ajustes de FSRS de Anki no se corresponden uno a uno con los de Nibomo.
 
-| Función | Anki 26.08 | Flashcards Open Source App |
+| Función | Anki 26.08 | Nibomo |
 | --- | --- | --- |
 | Retención deseada | **Shared Preset** o **This deck** | Configurable por espacio de trabajo; valor predeterminado `0.90` |
 | Parámetros de FSRS | **Optimize Current Preset** u **Optimize All Presets** a partir del historial de repaso | Los pesos predeterminados oficiales de FSRS-6 están fijados y no se pueden configurar en la versión 1 |
@@ -205,7 +205,7 @@ Ambos productos utilizan FSRS-6, pero los ajustes de FSRS de Anki no se correspo
 
 Flashcards utiliza las valoraciones estándar **Again**, **Hard**, **Good** y **Easy**, y mantiene el estado de memoria de FSRS de cada tarjeta. Sus planificadores del backend, iOS y Android son implementaciones independientes que mantienen el mismo comportamiento; el flujo de repaso web reutiliza el planificador del backend en lugar de añadir una cuarta implementación.
 
-Estos límites y valores predeterminados están documentados en la [especificación pública de programación FSRS de Flashcards](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/docs/fsrs-scheduling-logic.md). La diferencia práctica es clara: Flashcards ofrece una configuración funcional de FSRS-6 por espacio de trabajo, mientras que Anki proporciona ámbitos más precisos, ajuste personalizado y simulación. Si esos controles son imprescindibles para ti, Anki es la opción más adecuada.
+Estos límites y valores predeterminados están documentados en la [especificación pública de programación FSRS de Nibomo](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/docs/fsrs-scheduling-logic.md). La diferencia práctica es clara: Flashcards ofrece una configuración funcional de FSRS-6 por espacio de trabajo, mientras que Anki proporciona ámbitos más precisos, ajuste personalizado y simulación. Si esos controles son imprescindibles para ti, Anki es la opción más adecuada.
 
 ## Un flujo de trabajo más seguro para una colección madura
 

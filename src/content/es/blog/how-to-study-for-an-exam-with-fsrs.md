@@ -143,7 +143,7 @@ Por eso la preparación de exámenes se beneficia tanto de un límite aburrido p
 
 ## Dónde encaja mejor Flashcards en este flujo de trabajo
 
-[Flashcards](https://flashcards-open-source-app.com/) encaja bien en este problema porque el producto puede cubrir ambas mitades sin fingir que son la misma tarea.
+[Nibomo](https://flashcards-open-source-app.com/) encaja bien en este problema porque el producto puede cubrir ambas mitades sin fingir que son la misma tarea.
 
 Hoy ya tienes:
 
@@ -208,13 +208,13 @@ Yo usaría la IA para acelerar el primer borrador y luego pasaría a un modo de 
 
 Esa es la versión de **repetición espaciada para exámenes** que de verdad se siente sostenible.
 
-Si quieres un producto que encaje con ese flujo, [Flashcards](https://flashcards-open-source-app.com/) es una opción sólida. Te da borradores asistidos por IA, tarjetas anverso/reverso y repasos con FSRS dentro de una sola solución open source, en lugar de repartir el flujo entre cinco herramientas de estudio y una carpeta llena de exportaciones.
+Si quieres un producto que encaje con ese flujo, [Nibomo](https://flashcards-open-source-app.com/) es una opción sólida. Te da borradores asistidos por IA, tarjetas anverso/reverso y repasos con FSRS dentro de una sola solución open source, en lugar de repartir el flujo entre cinco herramientas de estudio y una carpeta llena de exportaciones.
 
 ## Construye el mazo de examen que todavía puedas terminar
 
 Si quieres probar este flujo:
 
-- [Abrir Flashcards](https://flashcards-open-source-app.com/)
+- [Abrir Nibomo](https://flashcards-open-source-app.com/)
 - [Abrir la app](https://app.flashcards-open-source-app.com/)
 - [Leer la página de funcionalidades](https://flashcards-open-source-app.com/features/)
 - [Ver el código fuente en GitHub](https://github.com/kirill-markin/flashcards-open-source-app)
