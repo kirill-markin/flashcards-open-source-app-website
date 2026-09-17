@@ -285,11 +285,11 @@ PANCEで求められる記憶は、とても普通の意味でばらついてい
 
 スケジューリングの細かい話まで見たいなら、次の2本がちょうどつながります。[2026年版 FSRSの設定](/ja/blog/fsrs-settings/) と [2026年版 FSRSで試験勉強する方法](/ja/blog/how-to-study-for-an-exam-with-fsrs/) です。
 
-## このPANCEワークフローでのFlashcards Open Source Appの位置づけ
+## このPANCEワークフローでのNibomoの位置づけ
 
 こういう対策は、道具が退屈な部分をちゃんと処理してくれるとかなり進めやすくなります。
 
-Flashcards Open Source App がPANCE対策に合うのは、次のことがやりやすいからです。
+Nibomo がPANCE対策に合うのは、次のことがやりやすいからです。
 
 - 自分のノートや問題解説からカードを下書きする
 - 日々の復習負債になる前に、重すぎるカードを分割する

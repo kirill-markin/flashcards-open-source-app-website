@@ -20,7 +20,7 @@ Anki代替アプリを比べるとき、本当に高くつくのはこの部分�
 
 そこで本記事では、移行時に何が残り、何が変わるのかを起点に比較します。Ankiの代わりになり得る7つのアプリが既存コレクションから何を引き継げるのか、どんな場合はAnkiを使い続けるほうが安全なのかを見ていきます。
 
-> **開示事項：** 私はKirill Markinです。以下で取り上げる製品のひとつ、[Flashcards](https://flashcards-open-source-app.com/)を開発しています。オープンソースで、セルフホストやAIエージェントを使ったワークフローに対応しているため、比較対象に含めました。ただし、最初から第一候補としているわけではありません。`.apkg`を直接インポートできず、Ankiからの移行では一部データが失われます。セルフホスト版の運用にも、本格的なインフラ作業が必要です。
+> **開示事項：** 私はKirill Markinです。以下で取り上げる製品のひとつ、[Nibomo](https://flashcards-open-source-app.com/)を開発しています。オープンソースで、セルフホストやAIエージェントを使ったワークフローに対応しているため、比較対象に含めました。ただし、最初から第一候補としているわけではありません。`.apkg`を直接インポートできず、Ankiからの移行では一部データが失われます。セルフホスト版の運用にも、本格的なインフラ作業が必要です。
 
 **情報確認日：** 2026年8月28日。料金は同日時点で公開されていた米国向け、または掲載地域の価格です。税金、地域、教育向けプラン、アプリストア経由の請求によって金額は変わることがあります。
 
@@ -41,7 +41,7 @@ Anki代替アプリを比べるとき、本当に高くつくのはこの部分�
 - **Quizlet**は、公開セット、クラス、ゲーム、ガイド付き練習に便利です。
 - **Brainscape**は、グループで使いやすい1〜5段階のシンプルな自信度評価を採用しています。
 - **SuperMemo**へ移るなら、独自の学習方式とコースカタログを選ぶことになります。
-- **Flashcards**では、MITライセンスのWeb／ネイティブクライアント、セルフホスト可能なバックエンド、API、MCPを利用できます。確認を挟むTXTまたはCSVのワークフローでは、Ankiの学習状態は保持されません。
+- **Nibomo**では、MITライセンスのWeb／ネイティブクライアント、セルフホスト可能なバックエンド、API、MCPを利用できます。確認を挟むTXTまたはCSVのワークフローでは、Ankiの学習状態は保持されません。
 
 カードが厳密な表示、アドオン、現在の復習キューに依存しているなら、Ankiを使い続けるのは決断を先送りしているわけではありません。それが比較の結論です。
 
@@ -78,7 +78,7 @@ Anki代替アプリを比べるとき、本当に高くつくのはこの部分�
 | [Quizlet](https://quizlet.com/) | [用語と定義を貼り付ける](https://help.quizlet.com/hc/en-us/articles/360029977151-Creating-sets-by-importing-content) | Ankiからは何も引き継がない | ノートタイプ、テンプレート、デッキ、メディア構造、すべてのスケジューリングデータ |
 | [Brainscape](https://www.brainscape.com/) | [CSV、TXT、XLSX、ODS](https://brainscape.zendesk.com/hc/en-us/articles/115002369931-How-do-I-import-various-files-to-create-flashcards) | Ankiからは何も引き継がない | テンプレート、アドオン、メディア規則、すべてのスケジューリングデータ |
 | [SuperMemo](https://www.supermemo.com/) | [区切り付きの質問・回答行を貼り付ける](https://www.supermemo.com/en/blog/how-to-create-flashcards-for-learning)。一度に最大100枚 | Ankiからは何も引き継がない | コレクション構造、メディア、テンプレート、すべてのスケジューリングデータ |
-| [Flashcards](https://flashcards-open-source-app.com/) | AnkiのTXTまたはCSVを使い、内容を確認しながらAI支援で下書きを作成 | Ankiからは何も引き継がない | `.apkg`非対応。テンプレート、メディアの正確な再現、デッキ階層、すべてのスケジューリングデータは引き継がれない |
+| [Nibomo](https://flashcards-open-source-app.com/) | AnkiのTXTまたはCSVを使い、内容を確認しながらAI支援で下書きを作成 | Ankiからは何も引き継がない | `.apkg`非対応。テンプレート、メディアの正確な再現、デッキ階層、すべてのスケジューリングデータは引き継がれない |
 
 ## 料金、オフライン利用、スケジューリング、所有権
 
@@ -90,7 +90,7 @@ Anki代替アプリを比べるとき、本当に高くつくのはこの部分�
 | **Quizlet** | 基本利用は無料。[Plusは年35.99ドル、Plus Unlimitedは年44.99ドル](https://quizlet.com/upgrade?source=signup) | ダウンロード済みセットは、iOS／AndroidアプリのFlashcardsとMatchでオフライン利用可能 | 100語以上のセットを対象とする[Web版の間隔反復](https://quizlet.com/features/spaced-repetition)。モバイルは現在も「近日対応予定」。Learnは別の適応型練習 | 独自仕様のホスト型サービス。サポート対象のセルフホスト方法なし |
 | **Brainscape** | [無料。Proは年払いで月額換算7.99ドル](https://www.brainscape.com/pricing) | [モバイルはオフライン中の操作を保持し、以前ダウンロードしたクラスを再接続後に同期できる](https://brainscape.zendesk.com/hc/en-us/articles/115002369711-How-do-Brainscape-s-website-mobile-app-interact-with-each-other)。ただし、アカウント全体が完全なローカルライブラリになるとは保証されていない | 1〜5で評価する[Confidence-Based Repetition](https://www.brainscape.com/academy/confidence-based-repetition-definition/) | プロプライエタリなホスト型サービス。公式にサポートされたセルフホスト方法なし |
 | **SuperMemo** | 制限付き無料アカウント。[月35.99 PLNまたは年359 PLN](https://www.supermemo.com/en/premium-subscription) | ダウンロード済みのモバイルコースはオフラインで利用可能。編集、AI、検索、録音、統計は利用不可 | [SuperMemo独自方式](https://www.supermemo.com/en/supermemo-method) | 独自仕様のホスト型サービス。サポート対象のセルフホスト方法なし |
-| **Flashcards** | [ホスト版の基本機能はベータ期間中無料。セルフホスト用ソフトウェアも無料](/pricing/)。別途インフラ費用が必要 | ネイティブアプリは、オンラインでのログインと最初のワークスペース取得後、まずローカルへ書き込む。リモートメディアはあらかじめキャッシュされている必要がある | [FSRS](/docs/architecture/#scheduling) | MIT。本番環境として公式にサポートされるのはAWS中心のフルスタック構成 |
+| **Nibomo** | [ホスト版の基本機能はベータ期間中無料。セルフホスト用ソフトウェアも無料](/pricing/)。別途インフラ費用が必要 | ネイティブアプリは、オンラインでのログインと最初のワークスペース取得後、まずローカルへ書き込む。リモートメディアはあらかじめキャッシュされている必要がある | [FSRS](/docs/architecture/#scheduling) | MIT。本番環境として公式にサポートされるのはAWS中心のフルスタック構成 |
 
 この2つの表は、製品の優劣を決める採点表ではありません。十分に学習履歴のたまったカードが3万枚あるなら、直接インポートできることが、ほかの全機能より重要かもしれません。普段iPhoneで復習するなら、ネイティブアプリの有無だけで結論が決まることもあります。ソースが公開されていても、自分か信頼できる人がコードを保守しないなら、その利点は限られます。
 
@@ -187,7 +187,7 @@ RemNote、Mochi、Quizlet、Brainscape、SuperMemo、Flashcardsには、いず�
 - **Mochi**は、テキストだけを移すiOS向け選択肢より多くのデータを保持します。`.apkg`の復習履歴をインポートできますが、カードはMarkdownへ変換され、評価は2択になります。
 - **RemNote**も`.apkg`の復習履歴をインポートします。ただし、今日のAnkiスケジュールが残ると思い込まず、**Need to Learn**キューをテストしてください。
 - **Quizlet**はクラスへの配布に向いていますが、Ankiから移せるのはテキストだけで、新しい間隔反復はまだモバイルに対応していません。
-- **Flashcards**はソースが公開され、iOSネイティブクライアントもありますが、Ankiから移行すると学習状態はリセットされます。
+- **Nibomo**はソースが公開され、iOSネイティブクライアントもありますが、Ankiから移行すると学習状態はリセットされます。
 - **Brainscape**と**SuperMemo**は、それぞれの復習方式に、カードとスケジュールを作り直すだけの価値がある場合に限って候補になります。
 
 価格だけを理由にAnkiMobileを手放す前に、移行先のサブスクリプション料金と、崩れたデータを直す時間も比べてください。長く育てたコレクションを手作業で作り直す無料アプリより、買い切りアプリのほうが安く済むこともあります。

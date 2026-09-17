@@ -207,9 +207,9 @@ FSRSは、繰り返し想起する価値のあるカードを選んだあと、�
 
 復習間隔を短くするためだけに、実際の出来より低い評価を選ばないでください。普通の日に終えられない速さでキューが増えるなら、価値の低いカードを削るか、新規カード数を減らします。[FSRSで試験勉強する方法](/blog/how-to-study-for-an-exam-with-fsrs/)では、構築、安定化、最終復習の各段階を説明しています。[1日に追加する新しいフラッシュカードの枚数](/blog/how-many-new-flashcards-per-day/)では、見栄えのよいカード総数ではなく、使える時間から負荷を見積もる方法を紹介しています。
 
-## Flashcards Open Source Appをどう使うか
+## Nibomoをどう使うか
 
-[Flashcards Open Source Appの機能](/features/)には、表裏カードの作成、ワークスペースデータと対応形式のファイル添付を使えるAIチャット、Again、Hard、Good、Easyで評価するFSRS復習があります。
+[Nibomoの機能](/features/)には、表裏カードの作成、ワークスペースデータと対応形式のファイル添付を使えるAIチャット、Again、Hard、Good、Easyで評価するFSRS復習があります。
 
 全6ドメインをすぐ復習したい場合は、[CCSP 2026 試験対策フラッシュカード：6ドメイン総復習](/catalog/packages/ccsp-2026-japanese-flashcards/)をプレビューしてインストールできます。2026年8月1日施行の試験要綱をもとに独自作成した、354枚の非公式日本語デッキです。
 

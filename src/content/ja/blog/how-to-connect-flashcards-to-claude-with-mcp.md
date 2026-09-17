@@ -163,7 +163,7 @@ ClaudeはFlashcards内でカードを作る手伝いができます。読み取�
 - [App StoreのFlashcards for iPhone and iPad](https://apps.apple.com/app/apple-store/id6760538964?pt=128797295&ct=marketing_site&mt=8)
 - [Google PlayのFlashcards for Android](https://play.google.com/store/apps/details?id=com.flashcardsopensourceapp.app&utm_source=flashcards_website&utm_medium=referral&utm_campaign=marketing_site)
 
-![Flashcards Open Source Appの復習体験を、ホスト版Webアプリとモバイルアプリで見せる画面](/home/app-screens-showcase-en.png)
+![Nibomoの復習体験を、ホスト版Webアプリとモバイルアプリで見せる画面](/home/app-screens-showcase-en.png)
 
 まだ製品を触っていないなら、[使い始めガイド](/ja/docs/getting-started/) が最短です。
 

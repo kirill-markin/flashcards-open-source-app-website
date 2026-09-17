@@ -262,7 +262,7 @@ keywords:
 
 ## Flashcards がこのやり方に向いている理由
 
-[Flashcards](https://flashcards-open-source-app.com/) が **フラッシュカードを整理する方法** という問いに合っているのは、この運用に必要な要素がすでにそろっているからです。
+[Nibomo](https://flashcards-open-source-app.com/) が **フラッシュカードを整理する方法** という問いに合っているのは、この運用に必要な要素がすでにそろっているからです。
 
 - 長期の構造を支えるデッキとタグ
 - タグと負荷レベルに基づく絞り込みデッキ

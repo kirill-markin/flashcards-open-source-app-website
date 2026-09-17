@@ -170,7 +170,7 @@ PDF は、たいていもっと整っています。
 
 ## Flashcards がこの流れに合う理由
 
-[Flashcards](https://flashcards-open-source-app.com/) は、手書きノートをフラッシュカードにしたいときに相性が良いです。大事な部品がすでに同じ場所に揃っているからです。
+[Nibomo](https://flashcards-open-source-app.com/) は、手書きノートをフラッシュカードにしたいときに相性が良いです。大事な部品がすでに同じ場所に揃っているからです。
 
 - AI チャット
 - 画像とファイルの添付

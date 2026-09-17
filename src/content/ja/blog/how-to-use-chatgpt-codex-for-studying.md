@@ -27,7 +27,7 @@ keywords:
 1. **ChatGPT Study Mode**が質問を出し、ヒントを与え、順を追って理解を助ける。
 2. **あなた**が、どの間違いを今後の復習用カードに残すか決める。
 3. **ChatGPTデスクトップアプリ内のCodexまたはCodex CLI**が、Flashcards MCPを使って、承認したカードを作成したり整えたりする。
-4. **Flashcards**が復習の結果を記録し、FSRSで次の復習日を決める。
+4. **Nibomo**が復習の結果を記録し、FSRSで次の復習日を決める。
 
 OpenAIの[Study Mode公式ガイド](https://help.openai.com/en/articles/11780217-chatgpt-study-mode-faq)では、1問ずつ出題し、段階的に考え方を導き、アップロードしたノート、画像、PDFも使える家庭教師として紹介されています。まだ自分の言葉で説明できない部分を見つけるのに向いています。
 

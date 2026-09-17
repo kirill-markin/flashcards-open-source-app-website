@@ -231,7 +231,7 @@ FSRS のフラッシュカードが、この流れを長続きさせます。
 
 ## Flashcards がこの流れに合う理由
 
-[Flashcards](https://flashcards-open-source-app.com/) は、ChatGPT Study Mode をフラッシュカードに変える用途と相性が良いです。AI 家庭教師だけでは埋まらない部分を、製品側が埋めているからです。
+[Nibomo](https://flashcards-open-source-app.com/) は、ChatGPT Study Mode をフラッシュカードに変える用途と相性が良いです。AI 家庭教師だけでは埋まらない部分を、製品側が埋めているからです。
 
 - チャットの記憶ではなく表面と裏面のカード
 - 整理と下書きのための AI チャット

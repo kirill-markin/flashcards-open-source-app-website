@@ -21,7 +21,7 @@ Ankiのdesired retention（目標定着率）を90%から95%に上げるのは�
 
 以下のラベルと動作は、[Anki 26.08リリース](https://github.com/ankitects/anki/releases/tag/26.08)と、そのFSRS-6設定に合わせています。設定の前にモデルそのものを知りたい方は、[FSRSとは？](/blog/what-is-fsrs/)を読んでください。まだスケジューラを選んでいる段階なら、まずは[FSRSとSM-2の比較](/blog/fsrs-vs-sm-2/)が参考になります。
 
-> **開示事項：** 私はKirill Markinで、[Flashcards Open Source App](/features/)を開発しています。Ankiには、個人の履歴に合わせたパラメータ最適化機能と、現在のFlashcardsにはない実験的な学習量シミュレーターがあります。記事後半の比較では、この違いを明記しています。
+> **開示事項：** 私はKirill Markinで、[Nibomo](/features/)を開発しています。Ankiには、個人の履歴に合わせたパラメータ最適化機能と、現在のNibomoにはない実験的な学習量シミュレーターがあります。記事後半の比較では、この違いを明記しています。
 
 **事実確認日：** 2026年9月8日。
 
@@ -191,9 +191,9 @@ FSRSは復習を分散できますが、新規カードを無制限に増やし�
 
 ## AnkiとFlashcardsで使えるFSRS設定は異なる
 
-どちらの製品もFSRS-6を使っていますが、AnkiのFSRS設定とFlashcards Open Source Appの設定は1対1では対応しません。
+どちらの製品もFSRS-6を使っていますが、AnkiのFSRS設定とNibomoの設定は1対1では対応しません。
 
-| 機能 | Anki 26.08 | Flashcards Open Source App |
+| 機能 | Anki 26.08 | Nibomo |
 | --- | --- | --- |
 | Desired retention（目標定着率） | **Shared Preset**（共有プリセット）または **This deck**（このデッキ） | ワークスペース単位で設定可能。デフォルトは`0.90` |
 | FSRS parameters（FSRSパラメータ） | 復習履歴から **Optimize Current Preset**（現在のプリセットを最適化）または **Optimize All Presets**（すべてのプリセットを最適化） | 公式のFSRS-6デフォルト重みで固定され、v1ではユーザーが変更できない |

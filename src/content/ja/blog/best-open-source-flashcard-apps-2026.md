@@ -22,7 +22,7 @@ keywords:
 
 今回の比較対象に残ったのは6プロジェクトです。ライセンス付きで公開されているソース、最新の安定版リリース、ローカルデータ、スケジューラ、同期、Ankiからの移行、エクスポート、そしてセルフホストできる範囲を正確に比較しました。最後の境界は、一般的な機能一覧で語られる以上に重要です。
 
-> **開示事項：** 私はKirill Markinです。以下の6アプリのひとつである[Flashcards](https://flashcards-open-source-app.com/)を開発しています。MITライセンスのリポジトリには、Webアプリ、ネイティブクライアント、バックエンド、同期、インフラが含まれます。ただし、Flashcardsを1位にはしていません。Ankiのほうが無難な第一候補であり、Mnemosyneにはより確立されたAnki移行手段があります。また、ここで挙げる製品の中には、運用がずっと簡単なものも複数あります。
+> **開示事項：** 私はKirill Markinです。以下の6アプリのひとつである[Nibomo](https://flashcards-open-source-app.com/)を開発しています。MITライセンスのリポジトリには、Webアプリ、ネイティブクライアント、バックエンド、同期、インフラが含まれます。ただし、Nibomoを1位にはしていません。Ankiのほうが無難な第一候補であり、Mnemosyneにはより確立されたAnki移行手段があります。また、ここで挙げる製品の中には、運用がずっと簡単なものも複数あります。
 
 **事実確認日：** 2026年9月5日。安定版リリースと、デフォルトブランチにしか存在しない作業内容は分けて記載しています。
 
@@ -35,7 +35,7 @@ keywords:
 | 信頼できる汎用システム、または複雑な既存コレクション | [Anki](https://apps.ankiweb.net/) | 成熟したカードとテンプレート、FSRS、アドオン、幅広いクライアント、情報量の多いパッケージエクスポート | 公式iOSアプリとAnkiWebは、オープンソースのデスクトップ版コードに含まれない。セルフホストできるのは同期であり、AnkiWebではない |
 | 確立されたAnkiインポートを備えた、学習に特化したデスクトップ代替 | [Mnemosyne](https://mnemosyne-proj.org/) | ローカル学習、Ankiのカードタイプと学習データのインポート、自分で運用できる同期サーバー | 2.11が今も最新の安定版。Androidでは復習できるが編集はできない |
 | ひとつのローカル知識ベースにノートとフラッシュカードを統合 | [SiYuan](https://b3log.org/siyuan/en/) | オフライン対応のネイティブアプリ、組み込みFSRS、本格的なDockerホスト型ブラウザアプリ | Dockerクライアントはネイティブアプリと同期できず、Dockerでは一部のインポート・エクスポートコマンドも使えない |
-| Web、モバイル、バックエンド、インフラまで公開されたソース | [Flashcards](https://github.com/kirill-markin/flashcards-open-source-app) | 文書化された本番デプロイを備える、ひとつのMITモノレポ | 対応する本番スタックはAWS中心で、Ankiからの移行では情報が失われる |
+| Web、モバイル、バックエンド、インフラまで公開されたソース | [Nibomo](https://github.com/kirill-markin/flashcards-open-source-app) | 文書化された本番デプロイを備える、ひとつのMITモノレポ | 対応する本番スタックはAWS中心で、Ankiからの移行では情報が失われる |
 | APKGを直接インポートできる、比較的新しいローカルファーストのデスクトップアプリ | [Recall](https://github.com/Madlezz/Recall) | FSRS、デスクトップビルド、PWA、ローカルデータベース、任意で使える暗号化リレー | インポートで保持されるのはスケジューリングのスナップショットのみ。ノートの先頭2フィールドだけを処理し、音声は取り込まない |
 | ネットワークに依存しない、人が読めるMarkdownデッキ | [Essentialist](https://github.com/essentialist-app/essentialist) | プレーンなデッキファイルと、意図的にオフライン設計されたデスクトップ・Androidアプリ | 同期機能はなく、進捗は別の隠しデータベースに保存される |
 
@@ -61,7 +61,7 @@ GitHubのスター数は足切り条件にしませんでした。スター数�
 | **Anki** | [26.08.1](https://github.com/ankitects/anki/releases/tag/26.08.1)、2026年8月5日 | Windows、macOS、Linux。別クライアントとしてAndroidとiOS。AnkiWeb | インストール型クライアントはローカルコレクションから学習 | FSRSまたは従来のSM-2 | AnkiWebまたは公式セルフホスト同期サーバー | テキスト、APKG/COLPKG、Mnemosyneデータベースをインポート。メディアとスケジューリング情報の有無を選んで、テキストまたはパッケージへエクスポート | **同期サーバーのみ。** セルフホスト版AnkiWebやブラウザ学習UIはない |
 | **Mnemosyne** | [2.11](https://github.com/mnemosyne-proj/mnemosyne/releases/tag/2.11)、2023年11月12日。リポジトリでは2026年も活動が継続 | Windows、macOS、Linux、Android。限定的なブラウザ復習 | デスクトップはローカル。Androidではオフライン復習できるが編集不可 | 0〜5段階の想起評価に応じて調整 | デスクトップまたはヘッドレスインスタンスとの組み込み同期 | カスタムカードタイプと学習データを含む完全なAnkiインポートを公式に文書化。共有用エクスポートは完全なバックアップではない | **同期と限定的なブラウザ復習。** ブラウザサーバーにセキュリティ機能はない |
 | **SiYuan** | [v3.8.2](https://github.com/siyuan-note/siyuan/releases/tag/v3.8.2)、2026年8月30日 | Windows、macOS、Linux、Android、iOS、HarmonyOS。Docker経由のブラウザ版 | ネイティブクライアントはワークスペースをローカルに保持 | FSRS | 有料の公式E2EE同期、または有料のサードパーティS3/WebDAV連携 | 通常版アプリはMarkdown・データをインポートし、複数の文書・データ形式へエクスポート。文書化されたAPKGインポーターはない | **完全なブラウザアプリ。** Dockerはネイティブクライアントと同期できず、一部のインポート・エクスポートコマンドも使えない |
-| **Flashcards** | [v1.23.0](https://github.com/kirill-markin/flashcards-open-source-app/releases/tag/v1.23.0)、2026年9月1日 | Web、iOS、Android | WebはIndexedDB、iOSはSQLite、AndroidはSQLite上のRoom。ローカル書き込みを同期キューに追加 | FSRS | ホスト型または運用者がデプロイしたバックエンド | 独自ZIPでカード、タグ、ソースメタデータ、参照メディアを移動。ただしデッキ、学習状態、設定、アカウントは含まない。APKGインポーターもない | **完全なWeb・バックエンドスタック。** 本番デプロイはAWS中心。非公開のネイティブビルドは別途必要 |
+| **Nibomo** | [v1.23.0](https://github.com/kirill-markin/flashcards-open-source-app/releases/tag/v1.23.0)、2026年9月1日 | Web、iOS、Android | WebはIndexedDB、iOSはSQLite、AndroidはSQLite上のRoom。ローカル書き込みを同期キューに追加 | FSRS | ホスト型または運用者がデプロイしたバックエンド | 独自ZIPでカード、タグ、ソースメタデータ、参照メディアを移動。ただしデッキ、学習状態、設定、アカウントは含まない。APKGインポーターもない | **完全なWeb・バックエンドスタック。** 本番デプロイはAWS中心。非公開のネイティブビルドは別途必要 |
 | **Recall** | [v1.3.0](https://github.com/Madlezz/Recall/releases/tag/v1.3.0)、2026年7月31日 | Windows、macOS、Linux。インストール可能なPWA | デスクトップはSQLite、ブラウザはIndexedDB。デフォルトではアカウントもテレメトリも不要 | FSRS | デスクトップのフォルダ同期、または任意の暗号化Cloudflare Worker/R2リレー | デスクトップのAPKGインポートは先頭2フィールド、デッキ、タグ、おおよそのスケジューリングスナップショット、画像を読み込む。JSONとRecallアーカイブへエクスポート | **暗号化スナップショットリレーのみ。** PWAはホストしない |
 | **Essentialist** | [v0.3.22](https://github.com/essentialist-app/essentialist/releases/tag/v0.3.22)、2025年10月10日。ソースでは2026年も活動が継続 | Android APK、macOS DMG、Linux Flatpak。Windowsはソースからビルド | ネットワークアクセスなし。デッキ内容はMarkdown | 安定版リリース：SM-2。デフォルトブランチ：FSRS | なし | Markdownはカード内容を保持し、隠しsidecarデータベースは進捗を保持 | **ホストするものはない。** Markdownファイルとsidecarを一緒にバックアップする |
 
@@ -234,6 +234,6 @@ Mnemosyneは、学習に特化した代替製品として最も確立されて�
 
 ## 私のおすすめ
 
-Ankiの制約が実際の問題にならない限り、**Anki**を使い続けるか、新しく選んでください。ローカルのデスクトップ学習と確立されたAnkiインポートを重視するなら**Mnemosyne**。フラッシュカードを大きな知識ベースの中へ置きたいなら**SiYuan**。AWS本番スタックを運用してでもWeb、ネイティブ、バックエンドのソース全体を所有したいなら**Flashcards**。変換上の制限をテストしたうえで、モダンなローカルファーストクライアントを選ぶなら**Recall**。プレーンなMarkdownとネットワークアクセスなしを同期より重視するなら**Essentialist**です。
+Ankiの制約が実際の問題にならない限り、**Anki**を使い続けるか、新しく選んでください。ローカルのデスクトップ学習と確立されたAnkiインポートを重視するなら**Mnemosyne**。フラッシュカードを大きな知識ベースの中へ置きたいなら**SiYuan**。AWS本番スタックを運用してでもWeb、ネイティブ、バックエンドのソース全体を所有したいなら**Nibomo**。変換上の制限をテストしたうえで、モダンなローカルファーストクライアントを選ぶなら**Recall**。プレーンなMarkdownとネットワークアクセスなしを同期より重視するなら**Essentialist**です。
 
 最良のオープンソース・フラッシュカードアプリとは、機能一覧が最も長いリポジトリではありません。ソース、オフラインデータ、移行、同期、ホスティング、復旧の境界が、自分で引き受けられるシステムと一致する製品です。

@@ -234,7 +234,7 @@ FSRS が期末週に役立つ理由は1つです。固定的な復習ルーチ�
 
 ## この流れの中でFlashcardsがはまる場所
 
-[Flashcards](https://flashcards-open-source-app.com/) がここで役立つのは、現実の期末週が持ち込む散らかり方に合わせた作りになっていて、入力が最初からきれいだと想定していないからです。
+[Nibomo](https://flashcards-open-source-app.com/) がここで役立つのは、現実の期末週が持ち込む散らかり方に合わせた作りになっていて、入力が最初からきれいだと想定していないからです。
 
 hosted web app でファイルを取り込み、ソースを整理したいときはファイル添付対応の AI chat を使い、残すべき内容だけを front/back cards として作成・編集できます。その後の復習ループは decks、tags、filtering、search、FSRS で1か所にまとめられます。offline-first の web、iOS、Android アプリがあるのも、席を離れた瞬間に消えるブラウザタブ型の勉強ツールより、期末週にはずっと理にかなっています。
 

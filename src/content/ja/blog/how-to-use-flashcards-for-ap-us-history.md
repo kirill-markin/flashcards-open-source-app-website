@@ -226,7 +226,7 @@ LEQ は、年号だけのデッキがすぐ通用しなくなる場所です。�
 
 ## APUSHの学習フローの中で、Flashcardsはどこにはまるのか
 
-[Flashcards](https://flashcards-open-source-app.com/) でこの流れを回したいなら、役に立つのは「このアプリが APUSH を全部何とかしてくれる」という大きすぎる約束ではありません。
+[Nibomo](https://flashcards-open-source-app.com/) でこの流れを回したいなら、役に立つのは「このアプリが APUSH を全部何とかしてくれる」という大きすぎる約束ではありません。
 
 役に立つのは、ワークフローのいちばん面倒な中間部分に、すでに合っていることです。
 
