@@ -125,6 +125,8 @@ A useful error card does not need to copy the whole original problem. It just ne
 
 This is one reason I like error cards so much for **spaced repetition math**. They stay close to reality. They come from actual failures, not from a fantasy version of studying where every card is equally important.
 
+If you keep confusing AND and OR or applying NOT to the wrong part of an expression, the [truth table flashcards](/catalog/packages/truth-table-flashcards/) offer focused practice with those decisions. Follow the cards with a fresh truth table on paper.
+
 ## Flashcards do not replace doing math
 
 This part should stay blunt.

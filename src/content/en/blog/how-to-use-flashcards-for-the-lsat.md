@@ -136,6 +136,8 @@ Examples:
 
 That gives you a deck you can actually reuse. It also keeps your notes focused on the logic underneath the question instead of turning your study system into a copied archive of official material.
 
+For general logic practice with conditionals, contrapositives, and invalid reversals, try the [truth table flashcards](/catalog/packages/truth-table-flashcards/). Then return to your own missed questions to practice recognizing those patterns in context.
+
 ## Build an LSAT wrong answer journal you will actually reopen
 
 Most people do some version of an error log. A much smaller group builds an **LSAT wrong answer journal** that survives past the first motivated weekend.
