@@ -106,7 +106,7 @@ Quizlet 对导出范围写得很明确：这项功能只会导出创建者自有
 
 ## 把文本作为待审核的草稿交给 Flashcards
 
-[Flashcards Open Source App](/features/) 没有直接导入 Quizlet 的工具。托管版处理 TXT 或 CSV 的方式，是把文件作为附件交给 AI 辅助起草，而不是原样无损迁移。
+[Nibomo](/features/) 没有直接导入 Quizlet 的工具。托管版处理 TXT 或 CSV 的方式，是把文件作为附件交给 AI 辅助起草，而不是原样无损迁移。
 
 1. 把原始 Quizlet 文件保留在应用之外。
 2. 在 Flashcards AI chat 中附上清理后的 TXT，或按上述步骤准备好的 CSV。
@@ -123,7 +123,7 @@ Quizlet 对导出范围写得很明确：这项功能只会导出创建者自有
 
 在 Flashcards 中创建的卡片会从一段全新的学习历史开始。Quizlet 文本不包含继续原有队列所需的复习事件或调度状态。
 
-> **披露：** 我是 Flashcards Open Source App 的开发者。本文如实说明产品目前的限制，并不是在声称它与 Quizlet 完全兼容。
+> **披露：** 我是 Nibomo 的开发者。本文如实说明产品目前的限制，并不是在声称它与 Quizlet 完全兼容。
 
 ## Quizlet 转 Anki：使用 Anki 的文本导入功能
 

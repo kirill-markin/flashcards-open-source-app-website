@@ -263,9 +263,9 @@ keywords:
 
 - [2026 年 FSRS vs SM-2](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
 
-## Flashcards Open Source App 在这套流程里的位置
+## Nibomo 在这套流程里的位置
 
-[Flashcards Open Source App](https://flashcards-open-source-app.com/) 很适合 **文章转抽认卡** 这类流程，因为产品本身已经覆盖了最关键的环节：
+[Nibomo](https://flashcards-open-source-app.com/) 很适合 **文章转抽认卡** 这类流程，因为产品本身已经覆盖了最关键的环节：
 
 - 粘贴或上传来自文章、博客、电子报或文档页面的纯文本
 - 在制作卡片前，先在 AI 聊天里清理原文

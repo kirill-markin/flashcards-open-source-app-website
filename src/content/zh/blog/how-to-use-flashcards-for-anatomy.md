@@ -250,7 +250,7 @@ keywords:
 
 ## Flashcards 在这里扮演什么角色
 
-[Flashcards](https://flashcards-open-source-app.com/) 最适合在你已经知道“什么值得记”的前提下，用来学解剖学。
+[Nibomo](https://flashcards-open-source-app.com/) 最适合在你已经知道“什么值得记”的前提下，用来学解剖学。
 
 这和解剖学其实很匹配，因为这门课的素材往往本来就同时来自好几种有点凌乱的来源：
 

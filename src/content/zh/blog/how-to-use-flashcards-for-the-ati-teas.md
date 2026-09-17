@@ -277,7 +277,7 @@ TEAS 备考会制造出很多很乱的素材。你手里会堆着复制下来的
 
 ## Flashcards 在这套 ATI TEAS 流程里能帮上什么
 
-如果你想把这套流程放进 [Flashcards](https://flashcards-open-source-app.com/) 里跑，它的价值是实用层面的，不是什么官方集成。
+如果你想把这套流程放进 [Nibomo](https://flashcards-open-source-app.com/) 里跑，它的价值是实用层面的，不是什么官方集成。
 
 这里没有官方 ATI 集成，也没有专门的 TEAS 模式。真正有用的地方比这简单得多。
 

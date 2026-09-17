@@ -221,9 +221,9 @@ FSRS 比固定的复习节奏更擅长处理这种参差不齐的遗忘速度。
 
 - [2026 年 FSRS vs SM-2](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
 
-## Flashcards Open Source App 在这个流程里适合做什么
+## Nibomo 在这个流程里适合做什么
 
-[Flashcards Open Source App](https://flashcards-open-source-app.com/) 很适合 **podcast to flashcards**，因为它已经覆盖了让这套流程真正能用起来的那些关键步骤：
+[Nibomo](https://flashcards-open-source-app.com/) 很适合 **podcast to flashcards**，因为它已经覆盖了让这套流程真正能用起来的那些关键步骤：
 
 - 粘贴或上传播客转录稿的纯文本
 - 在创建卡片之前，先在 AI chat 里清理素材

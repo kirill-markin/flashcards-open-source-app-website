@@ -216,7 +216,7 @@ Study Mode、Guided Learning 和 NotebookLM 都更强调解释、追问和类似
 
 ## Flashcards 在这里怎么接上
 
-[Flashcards](/) 最适合放在作业之后，也就是“真正开始复习”的那个阶段。
+[Nibomo](/) 最适合放在作业之后，也就是“真正开始复习”的那个阶段。
 
 这个交接点正好和当前产品能力对得上：
 

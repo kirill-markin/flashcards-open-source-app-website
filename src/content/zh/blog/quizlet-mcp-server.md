@@ -19,7 +19,7 @@ Quizlet 确实提供了官方 ChatGPT 应用。它可以把一段 ChatGPT 对话
 
 **事实核验日期：** 2026 年 9 月 12 日。
 
-> **披露：** 我是 Kirill Markin，也是 Flashcards Open Source App 的开发者。下文会将它的 MCP 服务器和 Agent API 作为替代方案介绍。Flashcards 无法连接 Quizlet 账户，也不能导入 Quizlet URL。
+> **披露：** 我是 Kirill Markin，也是 Nibomo 的开发者。下文会将它的 MCP 服务器和 Agent API 作为替代方案介绍。Nibomo 无法连接 Quizlet 账户，也不能导入 Quizlet URL。
 
 ![一名园丁将一株幼苗从封闭温室搬到接有分支滴灌系统的种植床](/blog/quizlet-mcp-server.png)
 
@@ -71,7 +71,7 @@ Quizlet 的[官方导出说明](https://help.quizlet.com/hc/en-us/articles/36003
 
 ## 导出后，Claude 和 Codex 可以怎么用
 
-Flashcards Open Source App 公布的远程 MCP 端点是：
+Nibomo 公布的远程 MCP 端点是：
 
 `https://mcp.flashcards-open-source-app.com/mcp`
 

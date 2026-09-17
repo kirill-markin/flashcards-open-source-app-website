@@ -166,11 +166,11 @@ FSRS 救不了一张设计糟糕的卡片。
 
 如果你想在其他应用里新建一副由自己掌控的卡组，同样要遵守这些筛选规则。不要因为屏幕上刚好有五张卡片，就把五个课程单词全搬过去。只留下那些已经证明需要更长期关注的内容。
 
-## Flashcards Open Source App 在这套流程中的位置
+## Nibomo 在这套流程中的位置
 
-> **披露：** 我是 Kirill Markin，也是 [Flashcards Open Source App](/features/) 的开发者。
+> **披露：** 我是 Kirill Markin，也是 [Nibomo](/features/) 的开发者。
 
-Flashcards Open Source App 可以承接这套流程中由学习者掌控的那一半。[托管版应用](/docs/getting-started/)支持创建和复习卡片、在 AI 对话中使用工作区数据和文件附件，并通过 FSRS 安排复习。[代码仓库是开源的](https://github.com/kirill-markin/flashcards-open-source-app)，也提供了有文档说明的[自托管方案](/docs/self-hosting/)。
+Nibomo 可以承接这套流程中由学习者掌控的那一半。[托管版应用](/docs/getting-started/)支持创建和复习卡片、在 AI 对话中使用工作区数据和文件附件，并通过 FSRS 安排复习。[代码仓库是开源的](https://github.com/kirill-markin/flashcards-open-source-app)，也提供了有文档说明的[自托管方案](/docs/self-hosting/)。
 
 对这套 Duolingo 流程来说，手动录入通常已经够用。AI 可以帮你拆分纠正内容，或改写一句别扭的提示，但不该替你决定哪些课程词汇值得长期复习。这个选择要由你来做，因为只有你知道自己错在哪里、以后想说什么。
 

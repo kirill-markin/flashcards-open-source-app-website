@@ -22,7 +22,7 @@ keywords:
 
 最终有六个项目通过了这次筛选。我比较了它们采用明确许可证的源码、最新稳定版、本地数据、调度器、同步、Anki 迁移、导出，以及自托管到底覆盖哪些部分。最后这一点，比大多数功能列表体现出来的更重要。
 
-> **利益披露：** 我是 Kirill Markin，也是下列六款应用之一 [Flashcards](https://flashcards-open-source-app.com/) 的开发者。它采用 MIT 许可证的仓库覆盖 Web 应用、原生客户端、后端、同步和基础设施。我没有把它排在第一。Anki 是更稳妥的默认选择，Mnemosyne 的 Anki 迁移路径更成熟，而且这里还有几款方案运维起来轻松得多。
+> **利益披露：** 我是 Kirill Markin，也是下列六款应用之一 [Nibomo](https://flashcards-open-source-app.com/) 的开发者。它采用 MIT 许可证的仓库覆盖 Web 应用、原生客户端、后端、同步和基础设施。我没有把它排在第一。Anki 是更稳妥的默认选择，Mnemosyne 的 Anki 迁移路径更成熟，而且这里还有几款方案运维起来轻松得多。
 
 **事实核查日期：** 2026 年 9 月 5 日。稳定版与只存在于默认分支的开发成果会分开说明。
 
@@ -35,7 +35,7 @@ keywords:
 | 可靠的通用系统，或已有复杂收藏 | [Anki](https://apps.ankiweb.net/) | 卡片和模板系统成熟，支持 FSRS、插件和多种客户端，还能导出信息完整的软件包 | 官方 iOS 应用和 AnkiWeb 不属于开源桌面代码；自托管只能获得同步服务，不能获得 AnkiWeb |
 | 专注于桌面端，并有成熟 Anki 导入能力的替代方案 | [Mnemosyne](https://mnemosyne-proj.org/) | 本地学习，可导入 Anki 卡片类型和学习数据，还能自行运行同步服务器 | 2.11 仍是最新稳定版；Android 端能复习，但不能编辑 |
 | 在同一个本地知识库中管理笔记和闪卡 | [SiYuan](https://b3log.org/siyuan/en/) | 原生应用可离线使用，内置 FSRS，并提供真正能用 Docker 托管的浏览器应用 | Docker 版无法与原生应用同步，而且多项导入和导出命令在 Docker 中不可用 |
-| Web、移动端、后端和基础设施都有源码 | [Flashcards](https://github.com/kirill-markin/flashcards-open-source-app) | 一个采用 MIT 许可证的 monorepo，生产部署有完整文档 | 官方支持的生产栈以 AWS 为中心，从 Anki 迁移会丢失部分数据 |
+| Web、移动端、后端和基础设施都有源码 | [Nibomo](https://github.com/kirill-markin/flashcards-open-source-app) | 一个采用 MIT 许可证的 monorepo，生产部署有完整文档 | 官方支持的生产栈以 AWS 为中心，从 Anki 迁移会丢失部分数据 |
 | 较新的 local-first 桌面应用，并支持直接导入 APKG | [Recall](https://github.com/Madlezz/Recall) | 支持 FSRS，有桌面构建、PWA、本地数据库和可选的加密中继 | 导入只保留调度状态快照，只处理笔记的前两个字段，并跳过音频 |
 | 不依赖网络、可直接阅读的 Markdown 牌组 | [Essentialist](https://github.com/essentialist-app/essentialist) | 牌组就是普通文件，桌面和 Android 应用刻意采用纯离线设计 | 没有同步功能，进度保存在单独的隐藏数据库中 |
 
@@ -61,7 +61,7 @@ GitHub 星标数不是入选门槛。它既反映项目年龄和知名度，也�
 | **Anki** | [26.08.1](https://github.com/ankitects/anki/releases/tag/26.08.1)，2026 年 8 月 5 日 | Windows、macOS、Linux；独立的 Android 和 iOS 客户端；AnkiWeb | 已安装的客户端使用本地收藏学习 | FSRS 或旧版 SM-2 | AnkiWeb 或官方自托管同步服务器 | 可导入文本、APKG/COLPKG 和 Mnemosyne 数据库；可导出文本或软件包，并选择是否包含媒体与调度数据 | **仅同步服务器。** 不能自托管 AnkiWeb，也没有浏览器学习界面 |
 | **Mnemosyne** | [2.11](https://github.com/mnemosyne-proj/mnemosyne/releases/tag/2.11)，2023 年 11 月 12 日；仓库在 2026 年仍有开发活动 | Windows、macOS、Linux、Android；有限的浏览器复习功能 | 桌面端使用本地数据；Android 可离线复习，但不能编辑 | 自适应的 0–5 级回忆评分 | 内置同步，可连接桌面端或无界面实例 | 官方文档说明可完整导入 Anki，包括自定义卡片类型和学习数据；用于分享的导出不是完整备份 | **同步加有限的浏览器复习。** 浏览器服务器没有安全功能 |
 | **SiYuan** | [v3.8.2](https://github.com/siyuan-note/siyuan/releases/tag/v3.8.2)，2026 年 8 月 30 日 | Windows、macOS、Linux、Android、iOS、HarmonyOS；通过 Docker 在浏览器中使用 | 原生客户端在本地保存工作空间 | FSRS | 付费的官方 E2EE 同步，或付费的第三方 S3/WebDAV 集成 | 常规应用可导入 Markdown 和数据，并导出多种文档及数据格式；没有文档化的 APKG 导入器 | **完整的浏览器应用。** Docker 版不能与原生客户端同步，并移除了部分导入和导出命令 |
-| **Flashcards** | [v1.23.0](https://github.com/kirill-markin/flashcards-open-source-app/releases/tag/v1.23.0)，2026 年 9 月 1 日 | Web、iOS、Android | Web 端使用 IndexedDB；iOS 使用 SQLite；Android 使用基于 SQLite 的 Room；本地写入会排队等待同步 | FSRS | 官方托管或由运营者部署的后端 | 自有 ZIP 可迁移卡片、标签、来源元数据和引用的媒体文件，但不包括牌组、学习状态、设置或账号；没有 APKG 导入器 | **完整的 Web/后端栈。** 生产部署以 AWS 为中心；私有原生构建需要另行处理 |
+| **Nibomo** | [v1.23.0](https://github.com/kirill-markin/flashcards-open-source-app/releases/tag/v1.23.0)，2026 年 9 月 1 日 | Web、iOS、Android | Web 端使用 IndexedDB；iOS 使用 SQLite；Android 使用基于 SQLite 的 Room；本地写入会排队等待同步 | FSRS | 官方托管或由运营者部署的后端 | 自有 ZIP 可迁移卡片、标签、来源元数据和引用的媒体文件，但不包括牌组、学习状态、设置或账号；没有 APKG 导入器 | **完整的 Web/后端栈。** 生产部署以 AWS 为中心；私有原生构建需要另行处理 |
 | **Recall** | [v1.3.0](https://github.com/Madlezz/Recall/releases/tag/v1.3.0)，2026 年 7 月 31 日 | Windows、macOS、Linux；可安装的 PWA | 桌面端使用 SQLite；浏览器使用 IndexedDB；默认不需要账号，也不开启遥测 | FSRS | 桌面文件夹同步，或可选的加密 Cloudflare Worker/R2 中继 | 桌面端导入 APKG 时读取前两个字段、牌组、标签、近似的调度状态快照和图片；可导出 JSON 与 Recall 归档 | **仅加密快照中继。** 它不托管 PWA |
 | **Essentialist** | [v0.3.22](https://github.com/essentialist-app/essentialist/releases/tag/v0.3.22)，2025 年 10 月 10 日；源码在 2026 年仍有开发活动 | Android APK、macOS DMG、Linux Flatpak；Windows 需从源码构建 | 不访问网络；牌组内容采用 Markdown | 稳定版：SM-2；默认分支：FSRS | 无 | Markdown 保存卡片内容；隐藏的配套数据库保存进度 | **没有可托管的服务。** Markdown 文件和配套数据库必须一起备份 |
 
@@ -234,6 +234,6 @@ Mnemosyne 是最成熟的专用替代品，官方明确说明可以导入 Anki �
 
 ## 我的建议
 
-只要没有哪条边界给你带来实际问题，就继续使用或直接选择 **Anki**。如果需要专注的本地桌面学习和成熟的 Anki 导入，选择 **Mnemosyne**。如果闪卡属于更大的知识库，选择 **SiYuan**。如果完整掌控 Web、原生客户端和后端源码值得承担 AWS 生产栈的运维成本，考虑 **Flashcards**。测试完转换限制后，可以选择 **Recall** 作为现代 local-first 客户端。如果普通 Markdown 和完全不访问网络比同步更重要，选择 **Essentialist**。
+只要没有哪条边界给你带来实际问题，就继续使用或直接选择 **Anki**。如果需要专注的本地桌面学习和成熟的 Anki 导入，选择 **Mnemosyne**。如果闪卡属于更大的知识库，选择 **SiYuan**。如果完整掌控 Web、原生客户端和后端源码值得承担 AWS 生产栈的运维成本，考虑 **Nibomo**。测试完转换限制后，可以选择 **Recall** 作为现代 local-first 客户端。如果普通 Markdown 和完全不访问网络比同步更重要，选择 **Essentialist**。
 
 最好的开源闪卡应用，不是功能列表最长的仓库，而是源码、离线数据、迁移、同步、托管和恢复边界都符合你真正愿意维护的那套系统。

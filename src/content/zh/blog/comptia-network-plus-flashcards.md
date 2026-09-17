@@ -249,11 +249,11 @@ CompTIA 将[实操题](https://www.comptia.org/en-us/resources/test-policies/exa
 
 最简单的组织方式，是建立一个 `N10-009` 卡组，再使用 `ports`、`subnetting`、`commands`、`operations`、`security`、`troubleshooting`、`practice-miss` 和 `lab-miss` 等标签。如果考试目标代码有助于之后复查，也可以把它加到与版本有关的卡片上。标签应该帮助你找到薄弱领域，而不是把整份 PDF 复制成一棵文件夹树。
 
-## Flashcards Open Source App 适合放在这套流程的哪里
+## Nibomo 适合放在这套流程的哪里
 
-> **声明：**Flashcards Open Source App 与 CompTIA 没有任何关联，也未获得 CompTIA 认可。它不是官方 Network+ 课程、模拟考试或 PBQ 模拟器。
+> **声明：**Nibomo 与 CompTIA 没有任何关联，也未获得 CompTIA 认可。它不是官方 Network+ 课程、模拟考试或 PBQ 模拟器。
 
-[Flashcards Open Source App](/zh/features/)负责这套流程中的记忆复习：创建正反面卡片，用卡组和标签整理内容，通过 FSRS 复习到期卡片，离线学习与同步，导出数据，以及选择自托管。适合放进应用里的，是你希望在动手实践前能够随时想起的小知识点和判断。
+[Nibomo](/zh/features/)负责这套流程中的记忆复习：创建正反面卡片，用卡组和标签整理内容，通过 FSRS 复习到期卡片，离线学习与同步，导出数据，以及选择自托管。适合放进应用里的，是你希望在动手实践前能够随时想起的小知识点和判断。
 
 本文并不暗示这里有官方或预制的 N10-009 卡组。请从当前的 CompTIA 考试目标，以及你在正规学习中真正暴露出的薄弱点开始制卡。如果想在 Flashcards 中自己建立卡组，[入门指南](/zh/docs/getting-started/)介绍了托管版和自托管版的使用方式。
 

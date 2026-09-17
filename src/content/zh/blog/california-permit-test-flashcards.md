@@ -164,9 +164,9 @@ DMV 的[交通管制章节](https://www.dmv.ca.gov/portal/handbook/california-dr
 
 DMV 对路考另有说明：它评估安全操作车辆、驾驶习惯，以及在真实情境中运用交通法规知识的能力。请遵守 DMV 当前要求，依法接受实际驾驶指导并练习。连续多日完成卡片复习，并不能证明一个人能安全操控车辆或通过路考。
 
-## Flashcards Open Source App 在这套方法中的位置
+## Nibomo 在这套方法中的位置
 
-[Flashcards Open Source App](/features/)支持普通正反面卡、卡组、标签和到期复习。FSRS（Free Spaced Repetition Scheduler，自由间隔重复调度器）会根据你的复习记录安排每张卡何时再次出现，有助于把一套小型驾照笔试卡组分散到一周中复习。
+[Nibomo](/features/)支持普通正反面卡、卡组、标签和到期复习。FSRS（Free Spaced Repetition Scheduler，自由间隔重复调度器）会根据你的复习记录安排每张卡何时再次出现，有助于把一套小型驾照笔试卡组分散到一周中复习。
 
 AI 辅助并非必需，而且由你决定保存哪些草稿卡片。AI 不能替你核实驾驶规则或法律准确性。每张 AI 生成的卡都要由人逐张对照当前 DMV 手册核实；不要把私人身份信息、申请文件或驾照记录粘贴到托管式 AI 工具中。隐私指南更详细地解释了这条边界：[用 AI 制作私密闪卡](/blog/private-flashcards-with-ai/)。
 

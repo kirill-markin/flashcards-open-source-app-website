@@ -17,7 +17,7 @@ keywords:
 
 Brainscape 与 Flashcards 最重要的区别，藏在一个 Brainscape 用户从不需要管理的字段里：每张卡片的准确到期时间。Brainscape 要求你按 1–5 分评估掌握信心，之后仍可随时继续复习整副卡组。Flashcards 则让你选择 Again、Hard、Good 或 Easy，再由 FSRS-6 为这张卡片安排明确的下次复习时间。
 
-两者在调度方式上的分歧，基本决定了该怎么选。需要共享班级、编辑权限、教师分析、常见电子表格导入，或想随时进入引导式循环突击复习，Brainscape 更合适。想要明确的到期队列、所有受支持客户端均可离线优先编辑、AI 智能体接入、MIT 许可代码或自托管部署，[Flashcards](/features/) 则是更合适的 **Brainscape 替代方案**。
+两者在调度方式上的分歧，基本决定了该怎么选。需要共享班级、编辑权限、教师分析、常见电子表格导入，或想随时进入引导式循环突击复习，Brainscape 更合适。想要明确的到期队列、所有受支持客户端均可离线优先编辑、AI 智能体接入、MIT 许可代码或自托管部署，[Nibomo](/features/) 则是更合适的 **Brainscape 替代方案**。
 
 > **披露声明：** 我是 Kirill Markin，也是本文对比产品之一 Flashcards 的开发者。Brainscape 在本文多个重要项目中胜出。对比内容仅限官方产品页面、帮助文章和源代码仓库有明确记录的功能与行为。
 
@@ -29,7 +29,7 @@ Brainscape 与 Flashcards 最重要的区别，藏在一个 Brainscape 用户从
 
 如果你想共享班级、控制卡片编辑权限、查看学生进度、导入常见电子表格，或不必等卡片到期就能随时复习卡组，选择 **Brainscape**。它的 1–5 分 Confidence-Based Repetition（基于信心评分的重复学习）流程随时可用，也适合考前突击。
 
-如果你希望 FSRS-6 按目标记忆保留率生成明确的到期队列，需要在 Web、iOS 和 Android 上将编辑和复习先保存到本地，或想要一款支持 AI 对话、MCP、Agent API 及自托管的开源闪卡应用，选择 **Flashcards**。
+如果你希望 FSRS-6 按目标记忆保留率生成明确的到期队列，需要在 Web、iOS 和 Android 上将编辑和复习先保存到本地，或想要一款支持 AI 对话、MCP、Agent API 及自托管的开源闪卡应用，选择 **Nibomo**。
 
 如果班级或分析功能已经融入你的实际工作流，继续使用 Brainscape。Flashcards 目前无法替代这些功能，迁移卡片也无法带走 Brainscape 的调度历史。
 

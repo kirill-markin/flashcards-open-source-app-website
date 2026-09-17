@@ -281,7 +281,7 @@ AI 生成的提纲通常是：
 
 ## Flashcards 在这个流程里适合做什么
 
-[Flashcards](https://flashcards-open-source-app.com/) 很适合用来处理 **学习提纲转抽认卡**，因为这个产品已经具备这套流程真正需要的几个部分：
+[Nibomo](https://flashcards-open-source-app.com/) 很适合用来处理 **学习提纲转抽认卡**，因为这个产品已经具备这套流程真正需要的几个部分：
 
 - 用 AI 对话重组粗糙的提纲文字
 - 支持文件和图片附件

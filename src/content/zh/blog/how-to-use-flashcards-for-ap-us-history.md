@@ -226,7 +226,7 @@ LEQ 恰好是那种“只背日期”的牌组会很快失效的地方。你不�
 
 ## Flashcards 在 APUSH 工作流里适合放在哪
 
-如果你想把这套流程放进 [Flashcards](https://flashcards-open-source-app.com/) 里，真正有用的部分，不是什么宏大的承诺，说这个 app 会替你自动学完 APUSH。
+如果你想把这套流程放进 [Nibomo](https://flashcards-open-source-app.com/) 里，真正有用的部分，不是什么宏大的承诺，说这个 app 会替你自动学完 APUSH。
 
 真正有用的是，这个产品本身就很适合这套流程里最混乱、也最关键的中段：
 

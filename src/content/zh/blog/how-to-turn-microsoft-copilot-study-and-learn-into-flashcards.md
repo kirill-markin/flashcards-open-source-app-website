@@ -1,6 +1,6 @@
 ---
 title: "2026 年如何把 Microsoft Copilot Study and Learn 变成闪卡：保留导师，用 FSRS 长期复习"
-description: "把 Word 文档、PowerPoint、PDF 和 URL 放进 Microsoft Copilot Study and Learn 做引导式学习，再只把真正的薄弱点转进 Flashcards Open Source App，用 FSRS 做间隔重复。"
+description: "把 Word 文档、PowerPoint、PDF 和 URL 放进 Microsoft Copilot Study and Learn 做引导式学习，再只把真正的薄弱点转进 Nibomo，用 FSRS 做间隔重复。"
 date: "2026-06-09"
 image: "/blog/how-to-turn-microsoft-copilot-study-and-learn-into-flashcards.png"
 keywords:
@@ -18,7 +18,7 @@ keywords:
 
 这正是 **Microsoft Copilot Study and Learn 闪卡** 背后真正要解决的问题。引导式学习会话当然能帮你理解内容，但聊天过程看起来再聪明，也不会自动把它变成一套能长期保留的记忆系统。
 
-我真正信任的流程，比产品演示克制得多。先用 Study and Learn 带你过一遍自己的材料，记下答错、答慢和容易混淆的地方，然后只把这些薄弱点转进 Flashcards Open Source App，再用 FSRS 复习。
+我真正信任的流程，比产品演示克制得多。先用 Study and Learn 带你过一遍自己的材料，记下答错、答慢和容易混淆的地方，然后只把这些薄弱点转进 Nibomo，再用 FSRS 复习。
 
 ![Microsoft Copilot Study and Learn 学习流程，包含 Word、PowerPoint、PDF 和用于 FSRS 复习的闪卡](/blog/how-to-turn-microsoft-copilot-study-and-learn-into-flashcards.png)
 
@@ -119,7 +119,7 @@ keywords:
 3. 让 Copilot 先教，再在讲太多之前先测你。
 4. 随手记下一小份清单，只写那些答错、答慢或混淆的点。
 5. 结束时，让 Copilot 只给你一份简短的薄弱点总结，并标出每个薄弱点来自哪份文件或哪段内容。
-6. 只把这些薄弱点转进 Flashcards Open Source App。
+6. 只把这些薄弱点转进 Nibomo。
 7. 把每个薄弱点改写成一张干净的正反面卡片。
 8. 最后用 FSRS 复习这些卡。
 
@@ -159,7 +159,7 @@ keywords:
 
 ## Flashcards 是 Copilot 之后更适合承接记忆的那一层
 
-[Flashcards Open Source App](/zh/features/) 不是要取代 Study and Learn。
+[Nibomo](/zh/features/) 不是要取代 Study and Learn。
 
 Copilot 继续负责辅导。Flashcards 负责长期复习。
 
@@ -195,6 +195,6 @@ FSRS 在这里很适合，因为薄弱点本来就不均匀。课件里的一个
 
 然后保持克制。
 
-只把那些真正重要的薄弱点拿出来，转进 Flashcards Open Source App，整理成干净的卡，再让 FSRS 处理 Copilot 本来就不擅长的那一层：会话结束之后，怎么把内容真正记住。
+只把那些真正重要的薄弱点拿出来，转进 Nibomo，整理成干净的卡，再让 FSRS 处理 Copilot 本来就不擅长的那一层：会话结束之后，怎么把内容真正记住。
 
 这才是 **如何把 Microsoft Copilot Study and Learn 变成闪卡** 更实用的版本。保留微软这个导师。让卡组保持精简。把记忆层放进一个真正为复习而设计的地方。

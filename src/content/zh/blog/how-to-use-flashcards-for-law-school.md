@@ -222,7 +222,7 @@ keywords:
 
 ## Flashcards 在这套法学院工作流里适合放在哪里
 
-如果你想在 [Flashcards](https://flashcards-open-source-app.com/) 里跑这套流程，真正有用的地方并不是抽象地说“AI 可以做卡”。而是这个产品目前已经覆盖了这项工作里最无聊、却又最关键的中段：
+如果你想在 [Nibomo](https://flashcards-open-source-app.com/) 里跑这套流程，真正有用的地方并不是抽象地说“AI 可以做卡”。而是这个产品目前已经覆盖了这项工作里最无聊、却又最关键的中段：
 
 - 用于起草和清理卡片的 AI chat
 - 包括纯文本上传在内的文件附件

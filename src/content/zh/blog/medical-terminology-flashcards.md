@@ -168,9 +168,9 @@ keywords:
 
 放到整个专业课程中，这种分工同样重要。[护理专业闪卡指南](/zh/blog/how-to-use-flashcards-for-nursing-school/)把快速回忆留在卡组里，把临床推理和应用留给真正检验这些能力的任务。
 
-## FSRS 和 Flashcards Open Source App 能做什么
+## FSRS 和 Nibomo 能做什么
 
-[Flashcards Open Source App](/zh/features/)提供普通的正面／背面卡片、卡组和标签。你可以用 `word-part`、`full-term`、`spelling`、`abbreviation` 或 `safety` 标记卡片，再用 FSRS 复习到期内容。FSRS 可以让难卡更早再次出现，也能拉长熟悉卡片的复习间隔。它只根据你的复习记录安排时间；它不懂医学，不会核验定义，也不能判断某个缩写是否安全。
+[Nibomo](/zh/features/)提供普通的正面／背面卡片、卡组和标签。你可以用 `word-part`、`full-term`、`spelling`、`abbreviation` 或 `safety` 标记卡片，再用 FSRS 复习到期内容。FSRS 可以让难卡更早再次出现，也能拉长熟悉卡片的复习间隔。它只根据你的复习记录安排时间；它不懂医学，不会核验定义，也不能判断某个缩写是否安全。
 
 可选的 AI 辅助创建功能可以根据你提供的材料起草候选卡片，保存哪些内容由你决定。保存前，请对照课程或机构指定的资料，核对每个术语、拆分方式、拼写、定义、缩写和来源。AI 输出不等于临床验证。不要上传患者病历、身份标识信息或其他受保护数据来生成学习卡片。
 

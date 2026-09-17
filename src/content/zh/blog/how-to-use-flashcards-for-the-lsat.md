@@ -185,7 +185,7 @@ conditional logic 是 LSAT 上最适合用抽认卡处理的部分之一，因�
 
 这一点应该明确写出来。
 
-Flashcards Open Source App 不是 LSAC 的官方工具，也没有任何官方 LSAT 集成。请只用它处理你自己的笔记、你自己的总结、你自己的解释，以及你对合法来源材料的复盘。不要用它去建立一份你无权复制的 LSAT 题目、篇章或答案库私有档案。
+Nibomo 不是 LSAC 的官方工具，也没有任何官方 LSAT 集成。请只用它处理你自己的笔记、你自己的总结、你自己的解释，以及你对合法来源材料的复盘。不要用它去建立一份你无权复制的 LSAT 题目、篇章或答案库私有档案。
 
 这其实也是更好的学习方式。最强的卡片通常不是整道题。更强的，往往是你自己压缩出来的那句总结：这次推理错在哪里，下次希望自己做出什么不同判断。
 
@@ -212,9 +212,9 @@ Flashcards Open Source App 不是 LSAC 的官方工具，也没有任何官方 L
 - [2026 年如何用 FSRS 为考试复习](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/)
 - [2026 年 FSRS vs SM-2](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
 
-## Flashcards Open Source App 在这套 LSAT 工作流里适合放在哪里
+## Nibomo 在这套 LSAT 工作流里适合放在哪里
 
-如果你想在 [Flashcards](https://flashcards-open-source-app.com/) 里跑这套工作流，真正有用的地方并不是一句模糊的“AI 会替你学习”。真正有用的，是目前这个产品已经覆盖了这项工作里最核心的中段：
+如果你想在 [Nibomo](https://flashcards-open-source-app.com/) 里跑这套工作流，真正有用的地方并不是一句模糊的“AI 会替你学习”。真正有用的，是目前这个产品已经覆盖了这项工作里最核心的中段：
 
 - 托管网页版应用里的 AI chat 和文件附件
 - 正反面卡片的创建与编辑

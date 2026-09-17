@@ -157,9 +157,9 @@ ARRL 的[分步考取执照指南](https://www.arrl.org/getting-licensed-step-by
 
 还要查看考试组织方关于身份证件、报名、费用、计算器和考试场次的说明。闪卡无法替你完成这些考务准备。
 
-## Flashcards Open Source App 适合用在哪里
+## Nibomo 适合用在哪里
 
-[Flashcards Open Source App](/features/)可以保存正反面卡片，用卡组和标签进行整理，并通过 FSRS 安排复习。这正好覆盖上述流程中的主动回忆部分。
+[Nibomo](/features/)可以保存正反面卡片，用卡组和标签进行整理，并通过 FSRS 安排复习。这正好覆盖上述流程中的主动回忆部分。
 
 本应用与 FCC、NCVEC 或 ARRL 均无隶属或合作关系。它不附带官方 Technician 卡组，不会导入题库或核实你的解释，也不提供官方图，更不会生成一场包含 35 道题的执照考试。卡片内容需要由你自己提供并核查。请使用成熟、采用现行题库的模拟考试服务来练习完整考试。
 

@@ -246,7 +246,7 @@ keywords:
 
 ## Flashcards 为什么特别适合这套工作流
 
-[Flashcards](https://flashcards-open-source-app.com/) 很适合这类认证备考，因为这个产品已经支持了这套流程真正依赖的几个环节：
+[Nibomo](https://flashcards-open-source-app.com/) 很适合这类认证备考，因为这个产品已经支持了这套流程真正依赖的几个环节：
 
 - 正反面卡片，适合做干净的回忆提示
 - AI chat，可以根据笔记、学习指南和题目复盘材料起草卡片

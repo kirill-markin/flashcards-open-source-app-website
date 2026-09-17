@@ -244,7 +244,7 @@ FSRS 最适合在这些条件下发挥作用：
 
 ## 为什么 Flashcards 更适合这套工作流
 
-[Flashcards](https://flashcards-open-source-app.com/) 很适合这类问题，因为产品支持的是整套“少生成垃圾卡，更快复习好卡”的流程，而不是假装每一步都是同一件事。
+[Nibomo](https://flashcards-open-source-app.com/) 很适合这类问题，因为产品支持的是整套“少生成垃圾卡，更快复习好卡”的流程，而不是假装每一步都是同一件事。
 
 目前这个仓库里对应的产品能力，和这套工作流是对得上的：
 

@@ -20,7 +20,7 @@ Anki 导入可以全程不报错，却依然毁掉一副牌组原本好用的地
 
 这篇对比就从这条边界讲起。下文会比较 7 款类似 Anki 的应用：它们能从现有集合中带走什么、导入后会发生哪些变化，以及什么时候继续使用 Anki 才是更稳妥的结论。
 
-> **利益披露：** 我是 Kirill Markin，也是下文产品之一 [Flashcards](https://flashcards-open-source-app.com/) 的开发者。我把它纳入比较，是因为它支持开源、自托管和智能体工作流。它不是默认赢家：它不能直接导入 `.apkg`，从 Anki 迁移会丢失数据，而且运行自托管技术栈确实是一项基础设施工作。
+> **利益披露：** 我是 Kirill Markin，也是下文产品之一 [Nibomo](https://flashcards-open-source-app.com/) 的开发者。我把它纳入比较，是因为它支持开源、自托管和智能体工作流。它不是默认赢家：它不能直接导入 `.apkg`，从 Anki 迁移会丢失数据，而且运行自托管技术栈确实是一项基础设施工作。
 
 **事实核查日期：** 2026 年 8 月 28 日。价格为当天可查到的美国公开价格或页面所列当地价格。税费、地区、教育优惠和应用商店计费方式都可能影响实际金额。
 
@@ -41,7 +41,7 @@ Anki 导入可以全程不报错，却依然毁掉一副牌组原本好用的地
 - **Quizlet** 适合公开学习集、班级、游戏和引导式练习。
 - **Brainscape** 为群体提供更简单的 1–5 分信心评分循环。
 - **SuperMemo** 意味着改用它的专有方法和课程目录。
-- **Flashcards** 提供采用 MIT 许可的网页端和原生客户端、自托管后端、API 与 MCP 访问。它通过 TXT 或 CSV 生成需要人工检查的内容，不会保留 Anki 的学习状态。
+- **Nibomo** 提供采用 MIT 许可的网页端和原生客户端、自托管后端、API 与 MCP 访问。它通过 TXT 或 CSV 生成需要人工检查的内容，不会保留 Anki 的学习状态。
 
 如果你的卡片依赖精确渲染、插件或当前复习队列，那么继续使用 Anki 并不是犹豫不决。这就是答案。
 
@@ -78,7 +78,7 @@ Anki 导入可以全程不报错，却依然毁掉一副牌组原本好用的地
 | [Quizlet](https://quizlet.com/) | [粘贴术语和定义](https://help.quizlet.com/hc/en-us/articles/360029977151-Creating-sets-by-importing-content) | 不保留任何 Anki 学习状态 | 笔记类型、模板、牌组、媒体结构和全部调度数据 |
 | [Brainscape](https://www.brainscape.com/) | [CSV、TXT、XLSX 或 ODS](https://brainscape.zendesk.com/hc/en-us/articles/115002369931-How-do-I-import-various-files-to-create-flashcards) | 不保留任何 Anki 学习状态 | 模板、插件、媒体规则和全部调度数据 |
 | [SuperMemo](https://www.supermemo.com/) | [粘贴用分隔符隔开的问答行](https://www.supermemo.com/en/blog/how-to-create-flashcards-for-learning)，每次最多 100 张 | 不保留任何 Anki 学习状态 | 集合结构、媒体、模板和全部调度数据 |
-| [Flashcards](https://flashcards-open-source-app.com/) | 根据 Anki TXT 或 CSV 生成需要人工检查的 AI 辅助草稿 | 不保留任何 Anki 学习状态 | 不支持 `.apkg`；模板、媒体保真度、牌组层级和全部调度数据都无法带走 |
+| [Nibomo](https://flashcards-open-source-app.com/) | 根据 Anki TXT 或 CSV 生成需要人工检查的 AI 辅助草稿 | 不保留任何 Anki 学习状态 | 不支持 `.apkg`；模板、媒体保真度、牌组层级和全部调度数据都无法带走 |
 
 ## 价格、离线使用、调度和所有权
 
@@ -90,7 +90,7 @@ Anki 导入可以全程不报错，却依然毁掉一副牌组原本好用的地
 | **Quizlet** | 基础功能免费；[Plus 每年 35.99 美元，Plus Unlimited 每年 44.99 美元](https://quizlet.com/upgrade?source=signup) | 下载的学习集可在 iOS 和 Android 应用中通过 Flashcards 和 Match 离线使用。 | 网页端为包含 100 个以上术语的学习集提供[间隔重复](https://quizlet.com/features/spaced-repetition)；移动端仍标注为即将推出。Learn 是另一套自适应练习。 | 专有托管服务；没有受支持的自托管方案 |
 | **Brainscape** | [免费；Pro 按年付费时每月 7.99 美元](https://www.brainscape.com/pricing) | [移动端可以保留离线时完成的内容，之后再同步已下载的班级](https://brainscape.zendesk.com/hc/en-us/articles/115002369711-How-do-Brainscape-s-website-mobile-app-interact-with-each-other)；文档不承诺整个卡片库都完整保存在本地。 | [信心重复法（Confidence-Based Repetition）](https://www.brainscape.com/academy/confidence-based-repetition-definition/)，按 1–5 分评分 | 专有托管服务；没有受支持的自托管方案 |
 | **SuperMemo** | 有限制的免费账户；[每月 35.99 PLN 或每年 359 PLN](https://www.supermemo.com/en/premium-subscription) | 已下载的移动端课程可离线学习；编辑、AI、搜索、录音和统计不可用。 | [SuperMemo 专有方法](https://www.supermemo.com/en/supermemo-method) | 专有托管服务；没有受支持的自托管方案 |
-| **Flashcards** | [测试期间托管版核心功能免费；自托管软件免费](/pricing/)，另加你自己的基础设施成本 | 在线登录并首次下载工作区数据后，原生应用会优先写入本地；远端媒体必须已经缓存。 | [FSRS](/docs/architecture/#scheduling) | MIT；受支持的生产部署是一套以 AWS 为中心的完整技术栈 |
+| **Nibomo** | [测试期间托管版核心功能免费；自托管软件免费](/pricing/)，另加你自己的基础设施成本 | 在线登录并首次下载工作区数据后，原生应用会优先写入本地；远端媒体必须已经缓存。 | [FSRS](/docs/architecture/#scheduling) | MIT；受支持的生产部署是一套以 AWS 为中心的完整技术栈 |
 
 这些表格不是评分榜。如果你有 30,000 张已经积累了成熟复习记录的卡片，能否直接导入可能比其他所有功能都重要。如果你只在 iPhone 上复习，有没有原生应用就可能决定结果。只有你或你信任的人愿意维护代码时，开放源代码才有实际价值。
 
@@ -187,7 +187,7 @@ RemNote、Mochi、Quizlet、Brainscape、SuperMemo 和 Flashcards 都有 iOS 应
 - **Mochi** 保留的内容比只支持文本导入的 iOS 产品更多：它能导入 `.apkg` 中的复习历史，但会把内容转成 Markdown，并改用两档评分。
 - **RemNote** 也能导入 `.apkg` 复习历史，但要测试它的 **待学习（Need to Learn）** 队列，不要直接假设今天的 Anki 调度会保留下来。
 - **Quizlet** 适合课堂分发，但从 Anki 迁移时只支持文本，而且新的间隔重复流程还没有登陆移动端。
-- **Flashcards** 提供原生 iOS 客户端并开放源代码，但从 Anki 迁移会重置学习状态。
+- **Nibomo** 提供原生 iOS 客户端并开放源代码，但从 Anki 迁移会重置学习状态。
 - **Brainscape** 和 **SuperMemo** 只有在它们的复习方法值得你重建卡片和调度时才合适。
 
 如果你只是因为价格想离开 AnkiMobile，先把一次性购买费用与订阅价格、修复迁移所需的时间放在一起比较。一款一次性付费的应用，可能比一款免费却要你手动整理成熟卡片库的应用更便宜。
