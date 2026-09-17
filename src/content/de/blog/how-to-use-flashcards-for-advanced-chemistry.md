@@ -219,7 +219,7 @@ Wenn du einen einfachen Test willst, frag dich: Wenn ich diese Karte verfehle, w
 
 ## Wo Flashcards in diesen Workflow passt
 
-[Flashcards](https://flashcards-open-source-app.com/) passt gut zu diesem Workflow für fortgeschrittene Chemie, weil das Produkt die praktischen Teile schon unterstützt, sobald du das Gedächtnisziel sauber erkannt hast:
+[Nibomo](https://flashcards-open-source-app.com/) passt gut zu diesem Workflow für fortgeschrittene Chemie, weil das Produkt die praktischen Teile schon unterstützt, sobald du das Gedächtnisziel sauber erkannt hast:
 
 - Karten mit Vorder- und Rückseite erstellen und bearbeiten
 - KI-gestützte Entwürfe im Chat

@@ -248,7 +248,7 @@ Halte die Reihenfolge deshalb einfach:
 
 ## Wo Flashcards in diesen AP-Calculus-Workflow passt
 
-[Flashcards](https://flashcards-open-source-app.com/) passt gut zu diesem AP-Calculus-Workflow, wenn du den ganzen Kreislauf an einem Ort zusammenhalten willst, ohne aus dem Artikel einen Verkaufstext zu machen.
+[Nibomo](https://flashcards-open-source-app.com/) passt gut zu diesem AP-Calculus-Workflow, wenn du den ganzen Kreislauf an einem Ort zusammenhalten willst, ohne aus dem Artikel einen Verkaufstext zu machen.
 
 Der nützliche Teil ist nicht, dass die App "für Schüler" ist. Der nützliche Teil ist, dass du Regelkarten, FRQ-Fehler und BC-Reihenkarten in einem Wiederholungssystem halten kannst, statt sie über Notizen, Screenshots und alte Korrekturen zu verteilen.
 

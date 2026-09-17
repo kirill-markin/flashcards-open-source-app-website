@@ -153,7 +153,7 @@ Wenn du die Scheduling-Seite genauer verstehen willst, geht dieser Begleitartike
 
 ## Wo Flashcards in diesen Workflow passt
 
-[Flashcards](https://flashcards-open-source-app.com/) funktioniert gut für **PDF in Flashcards umwandeln**, weil das Produkt die entscheidenden Bausteine bereits an einem Ort vereint:
+[Nibomo](https://flashcards-open-source-app.com/) funktioniert gut für **PDF in Flashcards umwandeln**, weil das Produkt die entscheidenden Bausteine bereits an einem Ort vereint:
 
 - KI-Chat
 - Datei-Anhänge
@@ -204,4 +204,4 @@ Verlange, dass sie zum Rohmaterial für einen besseren Entwurf wird.
 
 Das ist die Version von **wie man eine PDF in Flashcards umwandelt**, der ich tatsächlich vertraue. Weniger magisch, etwas manueller und deutlich wahrscheinlicher, Karten hervorzubringen, die du nach drei Review-Sitzungen immer noch respektierst.
 
-Wenn du genau diesen Workflow willst, ist [Flashcards](https://flashcards-open-source-app.com/) eine starke Wahl: Dokument hochladen, Karten mit KI entwerfen, bereinigen und dann in einem echten Spaced-Repetition-System lernen, statt sie in einer Generierungsdemo stranden zu lassen.
+Wenn du genau diesen Workflow willst, ist [Nibomo](https://flashcards-open-source-app.com/) eine starke Wahl: Dokument hochladen, Karten mit KI entwerfen, bereinigen und dann in einem echten Spaced-Repetition-System lernen, statt sie in einer Generierungsdemo stranden zu lassen.

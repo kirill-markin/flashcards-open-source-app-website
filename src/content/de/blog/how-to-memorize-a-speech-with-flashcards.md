@@ -137,7 +137,7 @@ Ein praktischer Ablauf für eine Woche könnte so aussehen:
 
 Wenn du mehr Zeit hast, verteile dieselbe Arbeit auf einen längeren Zeitraum. Wenn du nur einen Abend hast, konzentriere dich auf den Ablauf, kritische Passagen mit festem Wortlaut, Übergänge und mindestens einen vollständigen Durchlauf mit lautem Vortrag. Auch der beste Wiederholungsplan macht aus stillem Wiederlesen keine Vortragsprobe.
 
-Beantworte in [Flashcards](/features/) jede Karte, bevor du die Rückseite aufdeckst, und bewerte den Versuch mit Again (noch einmal), Hard (schwer), Good (gut) oder Easy (leicht). Lass FSRS anhand dieser Bewertungen spätere Kartenwiederholungen einplanen. Bewerte, ob das Stichwort den geforderten Inhalt ausgelöst hat, nicht ob der gesamte Vortrag schon ausgefeilt wirkte. Der ausführlichere [Leitfaden zur Wiederholungshäufigkeit](/blog/how-often-should-you-review-flashcards/) erklärt, warum fällige Wiederholungen nützlicher sind, als jeden Tag das gesamte Deck erneut zu lesen.
+Beantworte in [Nibomo](/features/) jede Karte, bevor du die Rückseite aufdeckst, und bewerte den Versuch mit Again (noch einmal), Hard (schwer), Good (gut) oder Easy (leicht). Lass FSRS anhand dieser Bewertungen spätere Kartenwiederholungen einplanen. Bewerte, ob das Stichwort den geforderten Inhalt ausgelöst hat, nicht ob der gesamte Vortrag schon ausgefeilt wirkte. Der ausführlichere [Leitfaden zur Wiederholungshäufigkeit](/blog/how-often-should-you-review-flashcards/) erklärt, warum fällige Wiederholungen nützlicher sind, als jeden Tag das gesamte Deck erneut zu lesen.
 
 ## Digitale Lernkarten fürs Training und Stichwortkarten für den Auftritt sind unterschiedliche Werkzeuge
 
@@ -178,7 +178,7 @@ Toastmasters empfiehlt, unter denselben körperlichen Bedingungen zu proben, unt
 
 ## Wobei Flashcards hilft – und wobei nicht
 
-[Flashcards](/de/) eignet sich für den Teil der Redevorbereitung, in dem du dein Gedächtnis trainierst:
+[Nibomo](/de/) eignet sich für den Teil der Redevorbereitung, in dem du dein Gedächtnis trainierst:
 
 - Karten mit Vorder- und Rückseite können Abschnittsstichwörter, Übergänge, Wiedereinstiegspunkte und geprüfte Passagen mit festem Wortlaut enthalten.
 - Tags können Karten als `transition`, `exact` oder `restart` kennzeichnen, und ein Deck kann den passenden Filter für einen Vortrag speichern.

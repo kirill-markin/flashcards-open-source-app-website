@@ -256,7 +256,7 @@ Wenn du die Scheduling-Seite genauer sehen willst, ist [Wie du 2026 mit FSRS fü
 
 ## Wo Flashcards in diesen Workflow passt
 
-[Flashcards](/de/) passt gut zu diesem GED-Workflow, weil das Produkt bereits die langweiligen Teile abdeckt, die das System tragfähig machen:
+[Nibomo](/de/) passt gut zu diesem GED-Workflow, weil das Produkt bereits die langweiligen Teile abdeckt, die das System tragfähig machen:
 
 - klassische Vorder-/Rückseitenkarten in der gehosteten Web-App erstellen und bearbeiten
 - KI-Chat für Entwürfe und Nachbearbeitung aus eingefügtem Text oder Dateianhängen

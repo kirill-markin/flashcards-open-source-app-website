@@ -281,7 +281,7 @@ Dann hast du nur eine Form von Hausaufgabe in eine andere verwandelt.
 
 ## Wo Flashcards hineinpasst
 
-[Flashcards](https://flashcards-open-source-app.com/) passt gut zu **Lernzettel in Flashcards umwandeln**, weil das Produkt die Bausteine für diesen Workflow bereits mitbringt:
+[Nibomo](https://flashcards-open-source-app.com/) passt gut zu **Lernzettel in Flashcards umwandeln**, weil das Produkt die Bausteine für diesen Workflow bereits mitbringt:
 
 - KI-Chat, um rohen Text aus Lernzetteln neu zu strukturieren
 - Datei- und Bildanhänge

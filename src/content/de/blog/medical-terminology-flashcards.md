@@ -168,9 +168,9 @@ Halte die Zahl neuer Karten so klein, dass nach den fälligen Wiederholungen noc
 
 Dieselbe Trennung gilt für einen ganzen Ausbildungsgang. Der [Leitfaden zu Flashcards in der Pflegeausbildung](/de/blog/how-to-use-flashcards-for-nursing-school/) behält schnell abrufbares Wissen im Deck, während klinisches Denken und die praktische Anwendung in den Aufgaben bleiben, die genau diese Fähigkeiten prüfen.
 
-## Wo FSRS und Flashcards Open Source App ins Spiel kommen
+## Wo FSRS und Nibomo ins Spiel kommen
 
-[Flashcards Open Source App](/de/features/) unterstützt einfache Karten mit Vorder- und Rückseite, Decks und Tags. Du kannst Karten mit `word-part`, `full-term`, `spelling`, `abbreviation` oder `safety` taggen und anschließend die mit FSRS fälligen Karten wiederholen. FSRS kann schwierige Karten früher wieder vorlegen und die Abstände bei vertrauten Karten vergrößern. Es plant Wiederholungen anhand deines bisherigen Lernverlaufs; es versteht keine Medizin, überprüft keine Definition und entscheidet nicht, ob eine Abkürzung sicher ist.
+[Nibomo](/de/features/) unterstützt einfache Karten mit Vorder- und Rückseite, Decks und Tags. Du kannst Karten mit `word-part`, `full-term`, `spelling`, `abbreviation` oder `safety` taggen und anschließend die mit FSRS fälligen Karten wiederholen. FSRS kann schwierige Karten früher wieder vorlegen und die Abstände bei vertrauten Karten vergrößern. Es plant Wiederholungen anhand deines bisherigen Lernverlaufs; es versteht keine Medizin, überprüft keine Definition und entscheidet nicht, ob eine Abkürzung sicher ist.
 
 Mit der optionalen KI-gestützten Kartenerstellung kannst du aus dem von dir bereitgestellten Material Entwürfe erzeugen und selbst entscheiden, was gespeichert wird. Überprüfe vor dem Speichern alle erzeugten Begriffe, Zerlegungen, Schreibweisen, Definitionen, Abkürzungen und Quellen anhand des maßgeblichen Materials. Eine KI-Ausgabe ersetzt keine klinische Validierung. Lade keine Patientenakten, Identifikationsdaten oder andere geschützte Daten hoch, um Lernkarten zu erstellen.
 

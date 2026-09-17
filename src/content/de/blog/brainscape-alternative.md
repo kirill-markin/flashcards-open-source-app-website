@@ -1,6 +1,6 @@
 ---
-title: "Brainscape-Alternative (2026): Brainscape vs Flashcards"
-description: "Vergleich von Brainscape und Flashcards: Confidence-Based Repetition vs FSRS, Offline-Nutzung, mobile Apps, Zusammenarbeit, KI, Preise, Import, Export und Kontrolle."
+title: "Brainscape-Alternative (2026): Brainscape vs Nibomo"
+description: "Vergleich von Brainscape und Nibomo: Confidence-Based Repetition vs FSRS, Offline-Nutzung, mobile Apps, Zusammenarbeit, KI, Preise, Import, Export und Kontrolle."
 date: "2026-03-21"
 updated: "2026-08-03"
 image: "/blog/brainscape-alternative.png"
@@ -17,7 +17,7 @@ keywords:
 
 Der wichtigste Unterschied zwischen Brainscape und Flashcards steckt in einem Feld, das du bei Brainscape nie verwalten musst: dem genauen Fälligkeitszeitpunkt einer Karte. Brainscape fragt auf einer Skala von 1 bis 5, wie sicher du dir bei der Antwort bist, und hält das Deck für weitere Durchgänge offen. Bei Flashcards wählst du Again, Hard, Good oder Easy. Anschließend legt FSRS-6 für diese Karte einen konkreten Zeitpunkt für die nächste Wiederholung fest.
 
-Dieser Unterschied in der Lernplanung prägt fast jede Entscheidung im Vergleich **Brainscape vs Flashcards**. Brainscape ist die bessere Wahl für gemeinsam genutzte Klassen, Bearbeitungsrechte, Analysen für Lehrkräfte, den Import gängiger Tabellenformate und einen geführten Lernmodus, den du jederzeit zum Pauken nutzen kannst. [Flashcards](/features/) ist die stärkere **Brainscape-Alternative**, wenn du eine klare Fälligkeitswarteschlange, Offline-first-Bearbeitung auf allen unterstützten Plattformen, Zugriff für KI-Agenten, MIT-lizenzierten Code oder eine selbst gehostete Installation möchtest.
+Dieser Unterschied in der Lernplanung prägt fast jede Entscheidung im Vergleich **Brainscape vs Flashcards**. Brainscape ist die bessere Wahl für gemeinsam genutzte Klassen, Bearbeitungsrechte, Analysen für Lehrkräfte, den Import gängiger Tabellenformate und einen geführten Lernmodus, den du jederzeit zum Pauken nutzen kannst. [Nibomo](/features/) ist die stärkere **Brainscape-Alternative**, wenn du eine klare Fälligkeitswarteschlange, Offline-first-Bearbeitung auf allen unterstützten Plattformen, Zugriff für KI-Agenten, MIT-lizenzierten Code oder eine selbst gehostete Installation möchtest.
 
 > **Offenlegung:** Ich bin Kirill Markin und entwickle Flashcards, eines der beiden hier verglichenen Produkte. In mehreren wichtigen Kategorien liegt Brainscape vorn. Ich habe den Vergleich auf Funktionen beschränkt, die auf offiziellen Produktseiten, in Hilfeartikeln und in den Quellcode-Repositorys dokumentiert sind.
 
@@ -29,7 +29,7 @@ Dieser Unterschied in der Lernplanung prägt fast jede Entscheidung im Vergleich
 
 Wähle **Brainscape**, wenn du Klassen teilen, Bearbeitungsrechte für Karten verwalten, den Lernfortschritt verfolgen, gängige Tabellendateien importieren oder ein Deck jederzeit wiederholen möchtest, ohne auf fällige Karten zu warten. Confidence-Based Repetition mit Bewertungen von 1 bis 5 bleibt auch für eine kurzfristige Lerneinheit vor der Prüfung verfügbar.
 
-Wähle **Flashcards**, wenn FSRS-6 anhand einer angestrebten Behaltensrate eine eindeutige Fälligkeitswarteschlange erstellen soll, Bearbeitungen und Wiederholungen im Web sowie unter iOS und Android zunächst lokal gespeichert werden müssen oder du eine Open-Source-Lernkarten-App mit KI-Chat, MCP, Agent API und dokumentiertem Self-Hosting suchst.
+Wähle **Nibomo**, wenn FSRS-6 anhand einer angestrebten Behaltensrate eine eindeutige Fälligkeitswarteschlange erstellen soll, Bearbeitungen und Wiederholungen im Web sowie unter iOS und Android zunächst lokal gespeichert werden müssen oder du eine Open-Source-Lernkarten-App mit KI-Chat, MCP, Agent API und dokumentiertem Self-Hosting suchst.
 
 Bleib bei Brainscape, wenn Klassen oder Analysen zu deinem tatsächlichen Lernalltag gehören. Flashcards ersetzt diese Funktionen derzeit nicht. Bei einem Umzug der Karten würde außerdem der bisherige Planungsverlauf aus Brainscape zurückbleiben.
 

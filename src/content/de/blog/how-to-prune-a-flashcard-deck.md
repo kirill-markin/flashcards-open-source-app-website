@@ -222,7 +222,7 @@ Meist verlangt das Deck nach Kuratierung.
 
 ## Wo Flashcards hineinpasst
 
-[Flashcards](/de/features/) passt gut zu dieser Art Bereinigung, weil die Wartungsschritte nah beieinander liegen statt über drei Tabs und eine Tabelle verteilt zu sein:
+[Nibomo](/de/features/) passt gut zu dieser Art Bereinigung, weil die Wartungsschritte nah beieinander liegen statt über drei Tabs und eine Tabelle verteilt zu sein:
 
 - KI kann beim Entwerfen oder Prüfen von Karten helfen
 - Bearbeitung von Vorder- und Rückseite macht Umschreiben schnell

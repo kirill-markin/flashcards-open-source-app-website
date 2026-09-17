@@ -240,13 +240,13 @@ Importiere nicht Hunderte **ASVAB-Lernkarten**, nur weil der Testtermin näher r
 
 Der [FSRS-Leitfaden zur Prüfungsplanung](/de/blog/how-to-study-for-an-exam-with-fsrs/) zeigt, wie du vom Testtermin rückwärts planst. Der Leitfaden zum [Festlegen einer täglichen Anzahl neuer Karten](/de/blog/how-many-new-flashcards-per-day/) hilft, wenn die Warteschlange schneller wächst, als du sie wiederholen kannst.
 
-## Wie Flashcards Open Source App in den Lernplan passt
+## Wie Nibomo in den Lernplan passt
 
-[Flashcards Open Source App](/de/features/) unterstützt Karten mit Vorder- und Rückseite, Decks und Tags, fällige Wiederholungen nach FSRS, KI-gestützte Kartenerstellung, Offline-Lernen auf Mobilgeräten mit Synchronisierung zwischen Web, iOS und Android, übertragbare Importe und Exporte sowie eine Open-Source-Option zum Selbsthosten.
+[Nibomo](/de/features/) unterstützt Karten mit Vorder- und Rückseite, Decks und Tags, fällige Wiederholungen nach FSRS, KI-gestützte Kartenerstellung, Offline-Lernen auf Mobilgeräten mit Synchronisierung zwischen Web, iOS und Android, übertragbare Importe und Exporte sowie eine Open-Source-Option zum Selbsthosten.
 
 Nutze für diesen Ablauf Decks für den AFQT-Kern und deine aktuellen Zielmodule. Ergänze Tags wie `WK`, `PC`, `AR`, `MK`, `GS`, `EI`, `practice-miss` und `source-check`. KI kann dir helfen, aus bereitgestelltem Material Karten zu entwerfen oder ihre Formulierung zu straffen. Du entscheidest weiterhin selbst, was gespeichert wird, und prüfst jede Antwort anhand der maßgeblichen Quelle.
 
-Die App bietet weder ein offizielles ASVAB-Deck noch eine ASVAB-Fragensammlung, einen Testsimulator, eine Ergebnisprognose, ein garantiertes Resultat oder eine automatische Zuordnung deiner Ergebnisse zu militärischen Berufen. Flashcards Open Source App ist weder mit dem ASVAB Testing Program noch mit den US-Streitkräften verbunden und wird von keinem der beiden empfohlen. Verwende nur Material, das du verwenden darfst, und niemals Fragen, an die du dich aus echten Tests erinnerst.
+Die App bietet weder ein offizielles ASVAB-Deck noch eine ASVAB-Fragensammlung, einen Testsimulator, eine Ergebnisprognose, ein garantiertes Resultat oder eine automatische Zuordnung deiner Ergebnisse zu militärischen Berufen. Nibomo ist weder mit dem ASVAB Testing Program noch mit den US-Streitkräften verbunden und wird von keinem der beiden empfohlen. Verwende nur Material, das du verwenden darfst, und niemals Fragen, an die du dich aus echten Tests erinnerst.
 
 Unter [Erste Schritte](/de/docs/getting-started/) findest du Informationen zur gehosteten App, den mobilen Apps, zur Anbindung von KI-Agenten und zum Selbsthosting.
 

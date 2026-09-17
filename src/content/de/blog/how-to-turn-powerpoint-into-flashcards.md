@@ -218,7 +218,7 @@ Die flashy Variante scheitert meist aus demselben Grund: zu viele Karten, zu sch
 
 ## Wo Flashcards nach dem Extraktionsschritt hineinpasst
 
-Sobald der nützliche Folieninhalt als Text vorliegt, deckt [Flashcards](/de/features/) den Teil ab, der wirklich zählt:
+Sobald der nützliche Folieninhalt als Text vorliegt, deckt [Nibomo](/de/features/) den Teil ab, der wirklich zählt:
 
 - KI-Chat für Entwürfe aus eingefügtem Text oder angehängten Dateien
 - Erstellung und Bearbeitung von Vorder- und Rückseitenkarten

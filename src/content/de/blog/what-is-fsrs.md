@@ -25,7 +25,7 @@ Das ist die kurze Antwort auf die Frage **Was ist FSRS?** Um zu verstehen, wie F
 
 ## FSRS ist der Scheduler, nicht die Flashcard-App
 
-Anki kann FSRS verwenden. Flashcards Open Source App verwendet FSRS. Auch andere Produkte und Bibliotheken können den Algorithmus implementieren. Das Projekt [open-spaced-repetition](https://github.com/open-spaced-repetition) veröffentlicht das Modell, Implementierungen und unterstützende Tools frei zugänglich.
+Anki kann FSRS verwenden. Nibomo verwendet FSRS. Auch andere Produkte und Bibliotheken können den Algorithmus implementieren. Das Projekt [open-spaced-repetition](https://github.com/open-spaced-repetition) veröffentlicht das Modell, Implementierungen und unterstützende Tools frei zugänglich.
 
 Produkt und Scheduler haben unterschiedliche Aufgaben:
 
@@ -173,7 +173,7 @@ Diese Grenze hilft bei der Diagnose von Lernproblemen. Seltsames langfristiges T
 
 ## So implementiert Flashcards FSRS
 
-> **Offenlegung:** Ich bin Kirill Markin und entwickle [Flashcards Open Source App](/de/features/). Dieser Abschnitt beschreibt das veröffentlichte Produktverhalten. Damit behaupte ich nicht, dass jeder Lernende seine bisherige App verlassen sollte.
+> **Offenlegung:** Ich bin Kirill Markin und entwickle [Nibomo](/de/features/). Dieser Abschnitt beschreibt das veröffentlichte Produktverhalten. Damit behaupte ich nicht, dass jeder Lernende seine bisherige App verlassen sollte.
 
 Flashcards implementiert derzeit **FSRS-6** und bildet dafür den offiziellen Scheduling-Ablauf von `ts-fsrs` 5.2.3 nach. Die App verwendet die vier Standardbewertungen Again, Hard, Good und Easy. Die Scheduler im Backend sowie unter iOS und Android verhalten sich gleich; der Wiederholungsablauf im Web nutzt den Backend-Scheduler.
 

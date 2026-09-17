@@ -168,7 +168,7 @@ Und wenn deine Quelle ein Dokument oder Vorlesungsfolien sind, ist dieser Artike
 
 ## Wo Flashcards in diesen Workflow passt
 
-[Flashcards](https://flashcards-open-source-app.com/) passt gut, wenn du **handschriftliche Notizen in Flashcards verwandeln** willst, weil das Produkt genau die Bausteine zusammenbringt, die hier zählen:
+[Nibomo](https://flashcards-open-source-app.com/) passt gut, wenn du **handschriftliche Notizen in Flashcards verwandeln** willst, weil das Produkt genau die Bausteine zusammenbringt, die hier zählen:
 
 - KI-Chat
 - Bild- und Dateianhänge

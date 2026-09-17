@@ -285,11 +285,11 @@ Darum ist die Reihenfolge wichtig:
 
 Wenn du die Planungsdetails willst, sind [FSRS-Einstellungen 2026: Desired Retention, Learning Steps und Wiederholungslast ohne Feintuning-Falle](/de/blog/fsrs-settings/) und [Wie du 2026 mit FSRS für eine Prüfung lernst: Ein Flashcard-Plan, den du vor dem Prüfungstag wirklich schaffst](/de/blog/how-to-study-for-an-exam-with-fsrs/) die richtigen Anschlussartikel.
 
-## Wo Flashcards Open Source App in diesen PANCE-Workflow passt
+## Wo Nibomo in diesen PANCE-Workflow passt
 
 Diese Art der Vorbereitung läuft besser, wenn das Tool die langweiligen Teile zuverlässig übernimmt.
 
-Flashcards Open Source App passt gut zur PANCE-Vorbereitung, weil du damit:
+Nibomo passt gut zur PANCE-Vorbereitung, weil du damit:
 
 - Karten aus deinen eigenen Notizen oder Frageerklärungen entwerfen kannst
 - überladene Karten aufteilen kannst, bevor sie zu täglicher Wiederholungslast werden

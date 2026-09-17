@@ -1,6 +1,6 @@
 ---
-title: "StudyFetch-Alternative 2026: StudyFetch vs Anki vs Flashcards"
-description: "Du suchst eine StudyFetch-Alternative? Vergleiche StudyFetch, Anki und Flashcards bei KI-Lernhilfen, Spaced Repetition, Offline-Nutzung, Datenschutz und Datenhoheit."
+title: "StudyFetch-Alternative 2026: StudyFetch vs Anki vs Nibomo"
+description: "Du suchst eine StudyFetch-Alternative? Vergleiche StudyFetch, Anki und Nibomo bei KI-Lernhilfen, Spaced Repetition, Offline-Nutzung, Datenschutz und Datenhoheit."
 date: "2026-08-17"
 image: "/blog/studyfetch-alternative.png"
 keywords:
@@ -18,7 +18,7 @@ StudyFetch hat seinen Spaced Learning Hub am 13. Juli 2026 veröffentlicht. Alle
 
 Bei der Suche nach einer **StudyFetch-Alternative** lautet die entscheidende Frage deshalb nicht: „Welche App kann KI-Lernkarten erstellen?“ Entscheidend ist, was im Mittelpunkt deines Lernsystems stehen soll: StudyFetchs breite, auf deinen Quellen basierende KI-Suite, Ankis ausgereifte lokale Sammlung oder der jüngere Open-Source-Workflow von Flashcards rund um FSRS und KI-Agenten.
 
-> **Offenlegung:** Ich bin Kirill Markin und entwickle [Flashcards](/), eines der hier verglichenen Produkte. Flashcards gewinnt nicht automatisch. StudyFetch bietet in diesem Vergleich die umfangreichste integrierte Suite für KI-Tutoring und Übungen. Anki ist bei Offline-Ökosystem, Vorlagen, Add-ons, Migrationsformaten und Scheduler-Einstellungen am ausgereiftesten.
+> **Offenlegung:** Ich bin Kirill Markin und entwickle [Nibomo](/), eines der hier verglichenen Produkte. Nibomo gewinnt nicht automatisch. StudyFetch bietet in diesem Vergleich die umfangreichste integrierte Suite für KI-Tutoring und Übungen. Anki ist bei Offline-Ökosystem, Vorlagen, Add-ons, Migrationsformaten und Scheduler-Einstellungen am ausgereiftesten.
 
 **Stand der Angaben:** 17. August 2026. Die aktuelle Datenschutzerklärung von StudyFetch für Privatnutzer ist auf den 13. August 2026 datiert, die Nutzungsbedingungen auf den 16. August 2026. Diese Dokumente gelten getrennt von den Vereinbarungen für Unternehmen und Bildungseinrichtungen. Auf einer offiziellen öffentlichen Seite konnte ich keinen aktuellen, konkreten Preis für die Webversion von StudyFetch bestätigen. Deshalb übernimmt dieser Leitfaden keine Preise aus Blogs anderer Anbieter.
 
@@ -28,7 +28,7 @@ Bei der Suche nach einer **StudyFetch-Alternative** lautet die entscheidende Fra
 
 - Wähle **StudyFetch**, wenn du Kursmaterial in einem Workspace in Notizen, Lernkarten, Quiz, Übungstests, Tutoring, Audio, Video und weitere Lernaktivitäten verwandeln möchtest. Der Spaced Learning Hub gibt den Lernkarten jetzt auch eine gemeinsame Warteschlange für fällige Wiederholungen.
 - Wähle **Anki**, wenn die Sammlung selbst langfristig den eigentlichen Wert darstellt. Du bekommst lokale Desktop- und Mobil-Apps, flexible Notiztypen und Vorlagen, Add-ons, etablierte Paketformate und die umfangreichsten FSRS-Einstellungen in diesem Vergleich.
-- Wähle **Flashcards**, wenn du geprüfte Karten mit Vorder- und Rückseite, dokumentiertes FSRS-6, Offline-first-Clients für Web und Mobilgeräte, MIT-lizenzierten Quellcode, einen Weg zum Self-Hosting des gesamten Stacks und direkten Zugriff für KI-Agenten möchtest.
+- Wähle **Nibomo**, wenn du geprüfte Karten mit Vorder- und Rückseite, dokumentiertes FSRS-6, Offline-first-Clients für Web und Mobilgeräte, MIT-lizenzierten Quellcode, einen Weg zum Self-Hosting des gesamten Stacks und direkten Zugriff für KI-Agenten möchtest.
 - Nutze **zwei Werkzeuge**, wenn sie unterschiedliche Aufgaben lösen. StudyFetch kann dir helfen, einen Kurs zu erschließen und den Stoff zu üben. Anki oder Flashcards können die kleinere Auswahl geprüfter Abruffragen verwalten, die du auch im nächsten Jahr noch behalten möchtest.
 
 ## StudyFetch vs Anki vs Flashcards

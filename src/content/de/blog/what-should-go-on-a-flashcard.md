@@ -292,7 +292,7 @@ Nichts Raffiniertes daran. Genau deshalb funktioniert er.
 
 ## Wo Flashcards hineinpasst
 
-[Flashcards](/de/features/) funktioniert am besten, nachdem du aufgehört hast, jeden Satz aus der Quelle als zukünftige Karte zu behandeln.
+[Nibomo](/de/features/) funktioniert am besten, nachdem du aufgehört hast, jeden Satz aus der Quelle als zukünftige Karte zu behandeln.
 
 Der nützliche Workflow ist enger:
 

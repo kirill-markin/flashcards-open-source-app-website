@@ -242,7 +242,7 @@ Wenn du die Scheduling-Seite direkter erklärt haben willst, sind [Wie du 2026 m
 
 ## Wo Flashcards gut hineinpasst
 
-[Flashcards](https://flashcards-open-source-app.com/) passt für Anatomie am besten dann, wenn du bereits weißt, was erinnert werden muss.
+[Nibomo](https://flashcards-open-source-app.com/) passt für Anatomie am besten dann, wenn du bereits weißt, was erinnert werden muss.
 
 Das passt zu diesem Fach gut, weil Anatomie-Lernen meist gleichzeitig aus mehreren unordentlichen Quellen kommt:
 

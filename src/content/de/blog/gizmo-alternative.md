@@ -18,7 +18,7 @@ Wenn du die Notizen einer ganzen Woche auf einmal kostenlos in Gizmo importieren
 
 Dieser Test der Gizmo-Lernkarten stützt sich auf aktuelle offizielle Hilfeseiten. Ich habe Gizmo nicht selbst praktisch getestet. Deshalb beschränke ich Produktaussagen auf das, was Gizmo dokumentiert, und kennzeichne Unsicherheiten ausdrücklich.
 
-> **Offenlegung:** Ich bin Kirill Markin und entwickle [Flashcards](https://flashcards-open-source-app.com/), die unten verglichene Alternative. Gizmo dokumentiert einen breiteren Lernablauf: mehr Quellformate, fünf Kartentypen, Lektionen mit AI Tutor, abwechslungsreiche Quizze und spielerische Fortschrittsmechaniken. Flashcards ist bewusst enger ausgerichtet.
+> **Offenlegung:** Ich bin Kirill Markin und entwickle [Nibomo](https://flashcards-open-source-app.com/), die unten verglichene Alternative. Gizmo dokumentiert einen breiteren Lernablauf: mehr Quellformate, fünf Kartentypen, Lektionen mit AI Tutor, abwechslungsreiche Quizze und spielerische Fortschrittsmechaniken. Nibomo ist bewusst enger ausgerichtet.
 
 **Angaben geprüft am:** 1. September 2026.
 

@@ -245,7 +245,7 @@ Wenn du den Vergleich der Scheduler selbst willst, deckt [FSRS vs SM-2 in 2026](
 
 ## Wie Flashcards in diesen Workflow passt
 
-[Flashcards](https://flashcards-open-source-app.com/) passt gut zum Thema **wie man KI-Flashcards repariert**, weil das Produkt genau die unbequeme Mitte abdeckt, die die meisten Generatoren offenlassen:
+[Nibomo](https://flashcards-open-source-app.com/) passt gut zum Thema **wie man KI-Flashcards repariert**, weil das Produkt genau die unbequeme Mitte abdeckt, die die meisten Generatoren offenlassen:
 
 - Front/Back-Karten in der gehosteten Web-App erstellen
 - KI-Chat mit Workspace-Daten und Dateianhängen nutzen, auch mit Plain-Text-Uploads

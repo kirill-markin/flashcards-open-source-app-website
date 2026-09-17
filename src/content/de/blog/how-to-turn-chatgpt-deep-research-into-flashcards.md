@@ -198,7 +198,7 @@ Für die allgemeinere Seite der Kartenqualität passen [Wie du 2026 bessere Flas
 
 ## Wo Flashcards tatsächlich hineinpasst
 
-[Flashcards](/de/features/) passt nach dem Rechercheteil hinein, nicht davor.
+[Nibomo](/de/features/) passt nach dem Rechercheteil hinein, nicht davor.
 
 Das Produkt behauptet keine direkte One-Click-Integration mit ChatGPT Deep Research. Der ehrliche Workflow ist einfacher:
 
@@ -240,4 +240,4 @@ Lerne die verifizierten Teile, die du nur ungern vergessen würdest.
 
 Das ist die Version von **Deep Research Spaced Repetition**, die tatsächlich trägt: Nutze ChatGPT Deep Research, um ein Thema zu sammeln, zu vergleichen und zu dokumentieren, und verwandle dann nur die datierten Fakten, Unterschiede und Entscheidungsregeln in saubere Karten, die du mit FSRS wiederholen kannst.
 
-Wenn du genau das willst, passt [Flashcards](/de/) gut dazu. Es gibt dir einen Ort, an dem du den nützlichen Teil eines Rechercheberichts bereinigst, in Vorder-/Rückseite-Karten verwandelst und auch dann weiter wiederholst, wenn die Aufregung über den ersten KI-generierten Bericht längst nachgelassen hat.
+Wenn du genau das willst, passt [Nibomo](/de/) gut dazu. Es gibt dir einen Ort, an dem du den nützlichen Teil eines Rechercheberichts bereinigst, in Vorder-/Rückseite-Karten verwandelst und auch dann weiter wiederholst, wenn die Aufregung über den ersten KI-generierten Bericht längst nachgelassen hat.

@@ -18,7 +18,7 @@ ChatGPT kann aus einer Datei mit Vorlesungsunterlagen eine sauber formulierte Li
 
 Genau darin liegt 2026 die praktische Antwort auf die Frage, **wie du mit ChatGPT Karteikarten erstellst**. Begrenze die Quelle klar, lass ChatGPT Lücken und Unklarheiten vor dem ersten Entwurf offenlegen, behandle jede Ausgabe als Vorschlag und speichere nur Karten, die du selbst geprüft hast. ChatGPT hilft beim Herausarbeiten und Formulieren. Es liefert weder einen verifizierten Kartenstapel noch einen Zeitplan für Spaced-Repetition-Wiederholungen.
 
-> **Offenlegung:** Ich bin Kirill Markin und entwickle die [Flashcards Open Source App](/de/features/). Dieser Leitfaden funktioniert mit jeder Karteikarten-App, bei der eine Karte aus Vorder- und Rückseite besteht. Ich erwähne Flashcards dort, wo der tatsächliche Ablauf der App relevant ist – nicht als Beleg dafür, dass alle Lernenden sie verwenden sollten.
+> **Offenlegung:** Ich bin Kirill Markin und entwickle [Nibomo](/de/features/). Dieser Leitfaden funktioniert mit jeder Karteikarten-App, bei der eine Karte aus Vorder- und Rückseite besteht. Ich erwähne Nibomo dort, wo der tatsächliche Ablauf der App relevant ist – nicht als Beleg dafür, dass alle Lernenden sie verwenden sollten.
 
 **Fakten geprüft:** 15. August 2026.
 

@@ -220,7 +220,7 @@ Wenn du die Planungsseite ausführlicher willst, passen diese beiden Artikel am 
 
 ## Wo Flashcards in diesen Jura-Workflow hineinpasst
 
-Wenn du diesen Workflow in [Flashcards](https://flashcards-open-source-app.com/) umsetzen willst, ist der nützliche Teil nicht einfach nur abstrakt gesagt "KI erstellt Karten". Entscheidend ist, dass das aktuelle Produkt schon den unspektakulären Mittelteil der Arbeit unterstützt:
+Wenn du diesen Workflow in [Nibomo](https://flashcards-open-source-app.com/) umsetzen willst, ist der nützliche Teil nicht einfach nur abstrakt gesagt "KI erstellt Karten". Entscheidend ist, dass das aktuelle Produkt schon den unspektakulären Mittelteil der Arbeit unterstützt:
 
 - KI-Chat für Entwürfe und Überarbeitung
 - Dateianhänge einschließlich Uploads von Klartextdateien

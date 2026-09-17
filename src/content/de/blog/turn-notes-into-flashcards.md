@@ -100,7 +100,7 @@ Das fühlt sich weniger nach Automatisierungstheater und mehr nach echter Hilfe 
 
 ## Flashcards hat bereits die richtige Form für diesen Workflow
 
-[Flashcards](https://flashcards-open-source-app.com/) ist hier interessant, weil das Produkt die Teile, die zählen, bereits kombiniert:
+[Nibomo](https://flashcards-open-source-app.com/) ist hier interessant, weil das Produkt die Teile, die zählen, bereits kombiniert:
 
 - Erstellung von Vorder- und Rückseitenkarten
 - KI-Chat
@@ -193,7 +193,7 @@ Ich glaube, die beste Antwort ist eine sauberere Arbeitsteilung:
 
 So verschwindet der langweilige Teil, ohne so zu tun, als sollte der Mensch aus der Schleife verschwinden.
 
-Darum ist [Flashcards](https://flashcards-open-source-app.com/) eine starke Wahl für Menschen, die **Notizen in Flashcards verwandeln** wollen. Das aktuelle Produkt hat dafür bereits die richtige Form: Kartenerstellung, KI-Chat, Dateianhänge, Unterstützung für Klartext und ernsthafte Spaced Repetition im Anschluss.
+Darum ist [Nibomo](https://flashcards-open-source-app.com/) eine starke Wahl für Menschen, die **Notizen in Flashcards verwandeln** wollen. Das aktuelle Produkt hat dafür bereits die richtige Form: Kartenerstellung, KI-Chat, Dateianhänge, Unterstützung für Klartext und ernsthafte Spaced Repetition im Anschluss.
 
 ## Probiere den Workflow aus, mit dem aus Notizen Flashcards werden
 

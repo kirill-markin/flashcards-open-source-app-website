@@ -191,7 +191,7 @@ FSRS plant mit dem Signal, das du ihm gibst. Es kann weder einen unklaren Prompt
 
 ## So funktionieren die vier FSRS-Bewertungen in Flashcards
 
-Zu den [Funktionen der Flashcards Open Source App](/de/features/) gehören Vorder-/Rückseiten-Wiederholungen mit FSRS. Du sendest Again, Hard, Good oder Easy, und das Backend berechnet aus dieser Bewertung den nächsten Fälligkeitszeitpunkt.
+Zu den [Funktionen von Nibomo](/de/features/) gehören Vorder-/Rückseiten-Wiederholungen mit FSRS. Du sendest Again, Hard, Good oder Easy, und das Backend berechnet aus dieser Bewertung den nächsten Fälligkeitszeitpunkt.
 
 Nutze dabei dieselbe Regel in zwei Schritten:
 

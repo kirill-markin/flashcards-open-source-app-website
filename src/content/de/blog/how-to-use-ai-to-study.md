@@ -197,7 +197,7 @@ Wenn dich speziell die Scheduler-Seite interessiert, erklärt [FSRS vs SM-2 in 2
 
 ## Wo Flashcards in diesen Workflow passt
 
-[Flashcards](/) ist nicht der KI-Tutor für alles.
+[Nibomo](/) ist nicht der KI-Tutor für alles.
 
 Die Stärke des Produkts liegt eher darin, nach KI-Tutoring, Zusammenfassungen und generierten Fragen die Ebene fürs Behalten zu übernehmen.
 

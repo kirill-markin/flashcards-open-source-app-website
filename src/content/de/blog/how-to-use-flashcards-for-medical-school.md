@@ -240,7 +240,7 @@ Genau dort verdient sich das Deck seinen Platz.
 
 ## Wo Flashcards in diesen Workflow besonders gut passt
 
-[Flashcards](https://flashcards-open-source-app.com/) passt gut zu **Flashcards für das Medizinstudium**, weil das Produkt die Bausteine unterstützt, von denen dieser Workflow abhängt:
+[Nibomo](https://flashcards-open-source-app.com/) passt gut zu **Flashcards für das Medizinstudium**, weil das Produkt die Bausteine unterstützt, von denen dieser Workflow abhängt:
 
 - Karten im Vorder-/Rückseitenformat für klare Abrufprompts
 - KI-Chat, um aus Vorlesungstexten, Notizen oder Material aus der Nachbereitung von Fragen Kartenentwürfe zu erstellen
@@ -273,4 +273,4 @@ Das ist die Variante von **Spaced Repetition im Medizinstudium**, der ich vertra
 
 Kein riesiges Archiv und kein Ordner-Hobby. Sondern ein Deck, das auch dann noch sinnvoll bleibt, wenn der Block anzieht und die Fragetexte gemeiner werden.
 
-Wenn du ein Tool willst, das genau um diesen Workflow herum gebaut ist, passt [Flashcards](https://flashcards-open-source-app.com/) gut dazu. Du bekommst Vorder- und Rückseitenkarten, KI-gestützte Entwürfe, Tags, gefilterte Wiederholung und FSRS in einem Open-Source-Stack, der vom Anatomiesaal bis zur Examensvorbereitung nützlich bleiben kann.
+Wenn du ein Tool willst, das genau um diesen Workflow herum gebaut ist, passt [Nibomo](https://flashcards-open-source-app.com/) gut dazu. Du bekommst Vorder- und Rückseitenkarten, KI-gestützte Entwürfe, Tags, gefilterte Wiederholung und FSRS in einem Open-Source-Stack, der vom Anatomiesaal bis zur Examensvorbereitung nützlich bleiben kann.

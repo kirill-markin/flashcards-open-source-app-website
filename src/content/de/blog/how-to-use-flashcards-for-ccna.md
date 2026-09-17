@@ -271,7 +271,7 @@ Wenn dir sonst vor allem die Review-Last den Plan kaputtmacht, passen [Wie viele
 
 ## Wo Flashcards in diesem Workflow gut hineinpasst
 
-[Flashcards](/) passt gut zur CCNA-Vorbereitung, weil diese Prüfung chaotisches Ausgangsmaterial produziert: Lab-Notizen, eingefügter CLI-Output, kurze Fehlerprotokolle und kleine Troubleshooting-Zusammenfassungen. Die App kann den Aufbereitungsschritt und den Review-Schritt abbilden, ohne so zu tun, als wären das dieselben Aufgaben.
+[Nibomo](/) passt gut zur CCNA-Vorbereitung, weil diese Prüfung chaotisches Ausgangsmaterial produziert: Lab-Notizen, eingefügter CLI-Output, kurze Fehlerprotokolle und kleine Troubleshooting-Zusammenfassungen. Die App kann den Aufbereitungsschritt und den Review-Schritt abbilden, ohne so zu tun, als wären das dieselben Aufgaben.
 
 Ich würde sie so einsetzen:
 

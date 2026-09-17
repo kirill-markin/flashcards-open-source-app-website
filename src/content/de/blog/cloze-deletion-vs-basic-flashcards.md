@@ -183,9 +183,9 @@ Prüfe einen kleinen Stapel, bevor sich viele Wiederholungen ansammeln:
 
 Beim Wiederholen immer wieder zu zögern ist ein nützlicher Hinweis. Schreibe eine Karte um, wenn du regelmäßig denkst: `Ich kannte die Idee, aber nicht das genaue Wort`, oder wenn das Satzmuster die Antwort nahelegt, bevor du die Tatsache abrufst. [Active Recall und Spaced Repetition](/de/blog/active-recall-vs-spaced-repetition/) erklärt den Unterschied zwischen Abruf und Planung, und der [Leitfaden zu FSRS-Einstellungen](/de/blog/fsrs-settings/) behandelt die zeitliche Steuerung, nachdem die Karten bereinigt sind.
 
-## Wie Flashcards Open Source App mit dieser Entscheidung umgeht
+## Wie Nibomo mit dieser Entscheidung umgeht
 
-Die [Funktionen von Flashcards Open Source App](/de/features/) basieren auf klaren Vorder-/Rückseitenkarten. Die App bietet keine native Cloze-Syntax, kein Cloze-Rendering und keine automatische Erzeugung von Cloze-Notizen. Wenn du mit Cloze-Material beginnst, wandle das nützliche Abrufziel wie oben gezeigt in eine Vorder-/Rückseitenfrage um.
+Die [Funktionen von Nibomo](/de/features/) basieren auf klaren Vorder-/Rückseitenkarten. Die App bietet keine native Cloze-Syntax, kein Cloze-Rendering und keine automatische Erzeugung von Cloze-Notizen. Wenn du mit Cloze-Material beginnst, wandle das nützliche Abrufziel wie oben gezeigt in eine Vorder-/Rückseitenfrage um.
 
 Beim KI-gestützten Entwerfen kannst du dir im Chat oder mithilfe eines Dateianhangs Vorder-/Rückseitenkarten vorschlagen lassen, die du anschließend prüfst und bearbeitest. Überprüfe jede inhaltliche Antwort anhand ihrer Quelle. Während der Wiederholung bewertest du Karten mit Again, Hard, Good oder Easy, und FSRS nutzt diesen Verlauf, um künftige Wiederholungszeitpunkte festzulegen; an der Formulierung der Karten ändert es nichts.
 

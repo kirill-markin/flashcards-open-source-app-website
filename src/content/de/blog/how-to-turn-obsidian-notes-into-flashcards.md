@@ -117,7 +117,7 @@ Wenn du als Nächstes bessere Regeln fürs Schreiben von Karten willst, lies [Wi
 
 ## Flashcards passt in den Obsidian-Workflow, ohne so zu tun, als wäre es dein Vault
 
-[Flashcards](https://flashcards-open-source-app.com/) passt hier gut, weil die App den Lernteil des Workflows sauber übernimmt:
+[Nibomo](https://flashcards-open-source-app.com/) passt hier gut, weil die App den Lernteil des Workflows sauber übernimmt:
 
 - Vorderseiten-/Rückseiten-Karten erstellen
 - KI-Chat zum Entwerfen aus eingefügtem Text nutzen

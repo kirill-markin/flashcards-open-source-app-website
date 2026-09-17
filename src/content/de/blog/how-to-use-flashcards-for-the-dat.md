@@ -117,7 +117,7 @@ Beispiele: Du hast eine Biologiefrage verpasst, weil du die Rollen von Lysosomen
 
 AI ist für die DAT-Vorbereitung nützlich, wenn du sie als Entwurfshelfer behandelst und nicht als Autorität. Gute Anwendungsfälle sind, saubere Biologienotizen in kurze Frage-Antwort-Kandidaten zu verwandeln, ein Fehlerprotokoll aus organischer Chemie zu verdichten oder aus einer PAT-Notiz eine wiederverwendbare Regelkarte zu machen. Schlechte Anwendungsfälle sind, einem riesigen automatisch erzeugten Deck zu vertrauen oder Karten zu behalten, die glatt klingen, aber nichts prüfen.
 
-Wenn du Entwurf, Review und Bearbeitung an einem Ort halten willst, passt Flashcards Open Source App hier gut hinein. Die gehostete App kombiniert Kartenerstellung, FSRS-Wiederholung und AI-Chat in einem Workflow. Du kannst also Karten aus deinen eigenen Notizen oder Fehlerprotokollen entwerfen und sie schärfen, bevor sie in die Wiederholung gehen. Die Produktoberfläche wird auf [Features](/features/) erklärt, das Setup in [Getting Started](/docs/getting-started/).
+Wenn du Entwurf, Review und Bearbeitung an einem Ort halten willst, passt Nibomo hier gut hinein. Die gehostete App kombiniert Kartenerstellung, FSRS-Wiederholung und AI-Chat in einem Workflow. Du kannst also Karten aus deinen eigenen Notizen oder Fehlerprotokollen entwerfen und sie schärfen, bevor sie in die Wiederholung gehen. Die Produktoberfläche wird auf [Features](/features/) erklärt, das Setup in [Getting Started](/docs/getting-started/).
 
 Die Bearbeitungsregel ist einfach: Jede Karte sollte genau eine Sache prüfen, die du unter Druck wirklich abrufen willst. Wenn sie das nicht tut, lösch sie.
 

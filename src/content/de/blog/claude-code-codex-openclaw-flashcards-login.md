@@ -17,7 +17,7 @@ Anmeldeseite öffnen. Auf den Code warten. Das Token kopieren. Einen API-Key ers
 
 Genau solche Arbeit sollte dir ein Tool abnehmen.
 
-In [Flashcards](https://flashcards-open-source-app.com/) gibt es jetzt einen Open-Source-Anmeldeablauf für Agenten, der mit genau einer Discovery-URL beginnt:
+In [Nibomo](https://flashcards-open-source-app.com/) gibt es jetzt einen Open-Source-Anmeldeablauf für Agenten, der mit genau einer Discovery-URL beginnt:
 
 `https://api.flashcards-open-source-app.com/v1/`
 

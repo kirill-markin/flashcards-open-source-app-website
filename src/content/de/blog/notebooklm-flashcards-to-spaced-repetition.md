@@ -118,7 +118,7 @@ Darum vertraue ich Roh-Exporten aus keinem **AI study tool flashcards**-Workflow
 
 ## Warum Flashcards hier besser in diesen Workflow passt
 
-[Flashcards](https://flashcards-open-source-app.com/) passt genau in diese Lücke, weil das Produkt nicht nur Generator und nicht nur Review-Tool ist. Es erlaubt dir, den Bereinigungsschritt dort zu machen, wo später auch das Review passiert.
+[Nibomo](https://flashcards-open-source-app.com/) passt genau in diese Lücke, weil das Produkt nicht nur Generator und nicht nur Review-Tool ist. Es erlaubt dir, den Bereinigungsschritt dort zu machen, wo später auch das Review passiert.
 
 Das ist wichtiger, als viele zugeben.
 
@@ -201,4 +201,4 @@ Ich würde sie als Entwurf behandeln.
 
 Das ist die Version von **NotebookLM flashcards**, der ich am meisten vertraue: NotebookLM bringt dich von chaotischen Quellen zu Kandidatenkarten, und dann verschiebst du diese Karten in einen echten Spaced-Repetition-Workflow, in dem du sie bearbeiten, kürzen und mit einem echten Scheduler reviewen kannst.
 
-Wenn du genau das willst, ist [Flashcards](https://flashcards-open-source-app.com/) eine starke Wahl. Es gibt dir eine praktische Brücke von KI-generiertem Lernmaterial zu einem Deck, das du vielleicht noch einen Monat später reviewst.
+Wenn du genau das willst, ist [Nibomo](https://flashcards-open-source-app.com/) eine starke Wahl. Es gibt dir eine praktische Brücke von KI-generiertem Lernmaterial zu einem Deck, das du vielleicht noch einen Monat später reviewst.
