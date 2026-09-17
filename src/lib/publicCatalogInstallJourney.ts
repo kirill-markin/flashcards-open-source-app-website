@@ -220,7 +220,8 @@ function emitCatalogInstallClick(
     eventName: CATALOG_INSTALL_EVENT_NAME,
     clientOccurredAt: occurredAt,
     clientSentAt: occurredAt,
-    deviceLocale: locale,
+    uiLocale: locale,
+    deviceLocale: navigator.language,
     properties: {
       install_journey_id: installJourneyId,
       package_version_id: packageVersionId,
