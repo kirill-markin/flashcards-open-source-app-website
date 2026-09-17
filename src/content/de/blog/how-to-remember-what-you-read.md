@@ -18,7 +18,7 @@ Letzten Donnerstag habe ich ein Kapitel beendet, mich etwa fünf Minuten lang pr
 
 Wenn du zuerst die kurze Antwort willst, hier ist sie: Lies kleinere Abschnitte, hör früher auf, schließe die Quelle, versuche die Idee in einfachen Worten wiederzugeben und verwandle nur die Lücken in Flashcards. Die meisten machen fast das Gegenteil. Sie lesen zu lange, markieren zu viel, fühlen sich mit dem Stoff vertraut und merken die Lücke erst, wenn die Quelle schon weg ist.
 
-Wenn du bereits [Flashcards](/de/) nutzt, ist die praktische Version einfach: Erstelle Karten nur aus den Lücken und lass FSRS sie dir später wieder vorlegen. Mach aus einem ganzen Kapitel nicht automatisch ein Deck, nur weil du Zeit mit dem Lesen verbracht hast.
+Wenn du bereits [Nibomo](/de/) nutzt, ist die praktische Version einfach: Erstelle Karten nur aus den Lücken und lass FSRS sie dir später wieder vorlegen. Mach aus einem ganzen Kapitel nicht automatisch ein Deck, nur weil du Zeit mit dem Lesen verbracht hast.
 
 Diese Lücke ist 2026 noch leichter zu übersehen, weil Lesen heute mehr Hilfsmittel hat. KI kann fast alles zusammenfassen, vereinfachen, erklären und umformulieren. Nützliche Werkzeuge. Aber kein Gedächtnis. Wenn dein Workflow dich nie dazu bringt, die Idee ohne Unterstützung abzurufen, kannst du viele Seiten lesen und trotzdem nur sehr wenig behalten.
 
@@ -337,7 +337,7 @@ Das ist eine viel stärkere Antwort auf **behalten, was du liest** als so lange 
 
 ## Wo Flashcards hineinpasst
 
-[Flashcards](/de/) passt genau an die Stelle, an der der Leseabschnitt dir schon gezeigt hat, was wirklich zählt.
+[Nibomo](/de/) passt genau an die Stelle, an der der Leseabschnitt dir schon gezeigt hat, was wirklich zählt.
 
 Genau da ist das Produkt nützlich:
 

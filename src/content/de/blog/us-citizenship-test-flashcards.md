@@ -100,7 +100,7 @@ Drei kleine Gewohnheiten machen das Deck nützlicher:
 - Übe Namen und ungewohnte Begriffe laut, nicht nur im Kopf.
 - Schreibe die verlangte Antwort zuerst auf die Rückseite und die Erklärung darunter.
 
-Lass dir gelegentlich von einer Lernpartnerin oder einem Lernpartner 10 oder 20 Fragen in gemischter Reihenfolge vorlesen. Eine Aufnahme mit dem Smartphone kann außerdem Pausen hörbar machen, die dir beim stillen Lernen nicht auffallen. Flashcards Open Source App bewertet deine Aussprache nicht und simuliert kein USCIS-Interview. Die Übung bleibt also genau das: normales Sprechtraining mit deinem Deck.
+Lass dir gelegentlich von einer Lernpartnerin oder einem Lernpartner 10 oder 20 Fragen in gemischter Reihenfolge vorlesen. Eine Aufnahme mit dem Smartphone kann außerdem Pausen hörbar machen, die dir beim stillen Lernen nicht auffallen. Nibomo bewertet deine Aussprache nicht und simuliert kein USCIS-Interview. Die Übung bleibt also genau das: normales Sprechtraining mit deinem Deck.
 
 USCIS empfiehlt Antragstellern, die Antworten aus dem veröffentlichten Fragenkatalog zu verwenden. Du übst eine klare Antwort auf eine mündliche Frage, keinen Vortrag über dein gesamtes Wissen zu diesem Thema.
 
@@ -178,9 +178,9 @@ Diese Testregeln stehen im offiziellen PDF-Dokument [Fragen und Antworten zum Te
 
 Wenn die 65/20-Regel für dich gilt, erstelle ein eigenes Deck oder einen Filter mit den 20 offiziell markierten Fragen. Lerne keine zufällige Auswahl von 20 Karten. Auch veränderliche Antworten innerhalb dieser Gruppe musst du für den Tag des Interviews erneut prüfen.
 
-## Wobei Flashcards Open Source App hilft
+## Wobei Nibomo hilft
 
-[Flashcards Open Source App](/features/) unterstützt den praktischen Teil dieses Ablaufs: Karten mit Vorder- und Rückseite, Decks, Tags, fällige Wiederholungen und eine Wiederholungsplanung mit FSRS in der gehosteten Web-App sowie unter iOS und Android. Das Projekt ist Open Source und steht unter der MIT-Lizenz.
+[Nibomo](/features/) unterstützt den praktischen Teil dieses Ablaufs: Karten mit Vorder- und Rückseite, Decks, Tags, fällige Wiederholungen und eine Wiederholungsplanung mit FSRS in der gehosteten Web-App sowie unter iOS und Android. Das Projekt ist Open Source und steht unter der MIT-Lizenz.
 
 Das [Lernkartendeck für den US-Einbürgerungstest](/catalog/packages/us-citizenship-test/) wurde unabhängig auf Grundlage der offiziellen USCIS-Materialien erstellt. Es ist kein offizielles USCIS-Produkt und weder mit USCIS verbunden noch von USCIS gebilligt. Es synchronisiert geänderte Amtsträger nicht automatisch, importiert das USCIS-PDF nicht mit einem Klick, bewertet keine gesprochenen Antworten und simuliert kein Einbürgerungsinterview. Du musst veränderliche Antworten anhand aktueller offizieller Quellen selbst prüfen und pflegen und entscheidest selbst, wie du deinen Abruf bewertest.
 

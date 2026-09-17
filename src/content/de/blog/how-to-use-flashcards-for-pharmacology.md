@@ -257,7 +257,7 @@ Wenn deine Warteschlange schon schwerer wird, als sie sein sollte, lösen diese 
 
 ## Wo Flashcards in diesen Ablauf passt
 
-[Flashcards](https://flashcards-open-source-app.com/) passt gut zu dieser Art des Pharmakologie-Lernens, weil der nützliche Teil nicht darin besteht, die Pharmakologie an KI abzugeben. So würde ich nicht lernen.
+[Nibomo](https://flashcards-open-source-app.com/) passt gut zu dieser Art des Pharmakologie-Lernens, weil der nützliche Teil nicht darin besteht, die Pharmakologie an KI abzugeben. So würde ich nicht lernen.
 
 Der nützliche Teil ist enger:
 

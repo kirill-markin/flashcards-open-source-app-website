@@ -135,7 +135,7 @@ Nutze die Werkzeuge nacheinander. Lass realistische Fragen Lücken aufdecken, ha
 
 FSRS plant automatisch, wann du Karten wiederholen sollst. Das offizielle Projekt [Free Spaced Repetition Scheduler](https://github.com/open-spaced-repetition/free-spaced-repetition-scheduler) modelliert Schwierigkeit, Stabilität und Abrufwahrscheinlichkeit einer Karte. Nach jedem Abrufversuch liefert deine Bewertung das Signal für die nächste Entscheidung des Schedulers.
 
-In der Flashcards Open Source App ist FSRS-6 der aktuelle Scheduler. Die Warteschlange zeigt fällige Karten, und bei Wiederholungen stehen vier Bewertungen zur Auswahl:
+In Nibomo ist FSRS-6 der aktuelle Scheduler. Die Warteschlange zeigt fällige Karten, und bei Wiederholungen stehen vier Bewertungen zur Auswahl:
 
 - `Again` für einen fehlgeschlagenen Abruf
 - `Hard` für einen schwierigen, aber erfolgreichen Abruf

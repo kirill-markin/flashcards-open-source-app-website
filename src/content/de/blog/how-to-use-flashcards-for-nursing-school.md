@@ -244,7 +244,7 @@ Und wenn du das Planungsmodell selbst erklärt haben willst:
 
 ## Wo Flashcards in diesen Pflege-Workflow passt
 
-[Flashcards](https://flashcards-open-source-app.com/) passt gut zu **Flashcards Pflegeausbildung**, weil das Produkt die Bausteine unterstützt, von denen dieser Workflow abhängt:
+[Nibomo](https://flashcards-open-source-app.com/) passt gut zu **Flashcards Pflegeausbildung**, weil das Produkt die Bausteine unterstützt, von denen dieser Workflow abhängt:
 
 - Vorder-/Rückseitenkarten für enge Abrufprompts
 - KI-Chat mit Workspace-Daten und Dateianhängen, um aus Notizen, Vorlesungstexten oder Begründungen aus Fragen Kartenentwürfe zu erstellen

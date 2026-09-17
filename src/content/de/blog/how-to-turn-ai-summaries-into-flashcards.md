@@ -240,7 +240,7 @@ Wenn deine Quelle einen Schritt früher beginnt, passen diese Begleitartikel bes
 
 ## Der Nutzen des Produkts ist kleiner als das Versprechen, und das ist gut so
 
-[Flashcards](/de/) kommt in diesem Workflow erst später ins Spiel, nachdem du die Zusammenfassung bereits hast und entschieden hast, was wirklich wiederholt werden sollte.
+[Nibomo](/de/) kommt in diesem Workflow erst später ins Spiel, nachdem du die Zusammenfassung bereits hast und entschieden hast, was wirklich wiederholt werden sollte.
 
 Das ist gut, weil die nützlichen nächsten Schritte überschaubar sind:
 

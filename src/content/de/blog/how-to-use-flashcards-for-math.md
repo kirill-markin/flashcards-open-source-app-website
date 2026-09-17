@@ -175,7 +175,7 @@ Kleinere Karten machen FSRS viel nützlicher. Wenn du an der Scheduling-Seite fe
 
 ## Wo Flashcards in diesen Workflow passt
 
-[Flashcards](https://flashcards-open-source-app.com/) passt gut zu dieser Art des Mathelernens, weil das Produkt genau die Teile unterstützt, die nach der Identifikation des Gedächtnisziels zählen:
+[Nibomo](https://flashcards-open-source-app.com/) passt gut zu dieser Art des Mathelernens, weil das Produkt genau die Teile unterstützt, die nach der Identifikation des Gedächtnisziels zählen:
 
 - Vorder-/Rückseiten-Karten für Formeln, Erkennungshinweise und Fehlermuster
 - Decks, Tags und Filter, wenn du ein Thema gezielt wiederholen willst, ohne deine Hauptbibliothek zu zerlegen

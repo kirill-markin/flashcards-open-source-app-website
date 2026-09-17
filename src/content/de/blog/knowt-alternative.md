@@ -21,7 +21,7 @@ Schon dieser kleine Widerspruch zeigt, warum ein hilfreicher **Knowt-Test** mehr
 
 Das kurze Fazit: Knowt passt gut, wenn du Notizen, die Aufbereitung von Quellmaterial und mehrere Übungsformen in einem Produkt suchst. Eine schlankere Lernkarten-App ist sinnvoller, wenn du vor allem langlebige, geprüfte Karten mit Vorder- und Rückseite, eine dokumentierte Wiederholungsplanung, Änderungen im Offline-Betrieb oder Kontrolle über Software und Infrastruktur möchtest.
 
-> **Offenlegung:** Ich bin Kirill Markin und entwickle [Flashcards](https://flashcards-open-source-app.com/), eine der hier besprochenen Alternativen. Knowt deckt mehr Anwendungsfälle ab und ist wahrscheinlich die bessere Wahl für integrierte Notizen, die automatische Aufbereitung von Quellmaterial, abwechslungsreiche Übungen, Community-Material und den Einsatz im Unterricht.
+> **Offenlegung:** Ich bin Kirill Markin und entwickle [Nibomo](https://flashcards-open-source-app.com/), eine der hier besprochenen Alternativen. Knowt deckt mehr Anwendungsfälle ab und ist wahrscheinlich die bessere Wahl für integrierte Notizen, die automatische Aufbereitung von Quellmaterial, abwechslungsreiche Übungen, Community-Material und den Einsatz im Unterricht.
 
 **Stand der Fakten: 2. September 2026.** Dieser Vergleich stützt sich auf die verlinkten Produktseiten und Hilfedokumente. Wo diese Quellen keine Angaben machen, benenne ich die Lücke, statt daraus zu schließen, dass eine Funktion fehlt. Preise und Produktverhalten können sich ändern. Prüfe deshalb vor deiner Entscheidung den Betrag im letzten Bestellschritt und teste deinen eigenen Offline-Workflow.
 
@@ -133,7 +133,7 @@ Auch Flashcards löst die Portabilität nicht vollständig. Die Paketübertragun
 
 ## Wann die schlankere Alternative besser passt
 
-[Flashcards](/features/) hält sein zentrales Lernobjekt bewusst klein: eine geprüfte Vorderseite, eine geprüfte Rückseite und einen mit dokumentiertem FSRS berechneten Fälligkeitstermin. Die mobilen Clients sind für lokale Änderungen und Offline-Wiederholungen ausgelegt und synchronisieren nach der erneuten Verbindung. Das gehostete Produkt ist [während der Beta kostenlos](/pricing/), einschließlich KI und Synchronisierung. Eine künftig intensivere KI-Nutzung kann allerdings einen eigenen Anbieterschlüssel oder eine kostenpflichtige Option erfordern.
+[Nibomo](/features/) hält sein zentrales Lernobjekt bewusst klein: eine geprüfte Vorderseite, eine geprüfte Rückseite und einen mit dokumentiertem FSRS berechneten Fälligkeitstermin. Die mobilen Clients sind für lokale Änderungen und Offline-Wiederholungen ausgelegt und synchronisieren nach der erneuten Verbindung. Das gehostete Produkt ist [während der Beta kostenlos](/pricing/), einschließlich KI und Synchronisierung. Eine künftig intensivere KI-Nutzung kann allerdings einen eigenen Anbieterschlüssel oder eine kostenpflichtige Option erfordern.
 
 Über [MCP und eine Agent API](/docs/api/) gewährt Flashcards außerdem Zugriff auf den Workspace. So können Werkzeuge wie Claude Code oder Codex beim Erstellen und Organisieren von Karten helfen. Diese Agentenfunktionen und die KI-Funktionen sind auf Netzwerkdienste angewiesen. Offline-first-Wiederholungen bedeuten nicht, dass auch die KI offline funktioniert.
 

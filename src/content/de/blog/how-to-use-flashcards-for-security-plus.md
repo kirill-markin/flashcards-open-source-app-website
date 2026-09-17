@@ -342,7 +342,7 @@ Wenn das für dein Lernsetup wichtig ist, lohnt sich auch dieser Artikel:
 
 ## Wo Flashcards gut in diesen Workflow passt
 
-[Flashcards](https://flashcards-open-source-app.com/) passt gut zu **Security+ Flashcards**, weil das Produkt diesen Workflow bereits abbildet, statt dich zu zwingen, über fünf Tools zu improvisieren.
+[Nibomo](https://flashcards-open-source-app.com/) passt gut zu **Security+ Flashcards**, weil das Produkt diesen Workflow bereits abbildet, statt dich zu zwingen, über fünf Tools zu improvisieren.
 
 Du kannst nutzen:
 

@@ -220,7 +220,7 @@ Die Feynman-Technik erzeugt Rohmaterial. Am Ende hast du oft irgendeine Mischung
 - einer Schwachstellenliste aus einer KI-Tutoring-Sitzung
 - halb sauberen Kartenentwürfen, die du noch bearbeiten willst
 
-Das passt gut zu [Flashcards Open Source App](/de/).
+Das passt gut zu [Nibomo](/de/).
 
 Das Produkt unterstützt den nützlichen Teil dieses Workflows bereits:
 

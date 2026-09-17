@@ -192,9 +192,9 @@ Für AP World würde ich den Wochenrhythmus absichtlich langweilig halten:
 
 Wenn du die Scheduling-Seite genauer verstehen willst, ist [Wie du 2026 mit FSRS für eine Prüfung lernst](/blog/how-to-study-for-an-exam-with-fsrs/) der beste Begleitartikel.
 
-## Wo Flashcards Open Source App in diesen AP-World-Workflow passt
+## Wo Nibomo in diesen AP-World-Workflow passt
 
-Wenn du einen Ort willst, an dem dieses System zusammenläuft, passt [Flashcards Open Source App](/) gut zu diesem Workflow, ohne dass du dir einen merkwürdigen Lernstack zusammenbauen musst.
+Wenn du einen Ort willst, an dem dieses System zusammenläuft, passt [Nibomo](/) gut zu diesem Workflow, ohne dass du dir einen merkwürdigen Lernstack zusammenbauen musst.
 
 Das aktuelle Produkt unterstützt bereits den nützlichen Mittelteil der Arbeit:
 

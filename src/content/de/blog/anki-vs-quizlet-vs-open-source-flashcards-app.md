@@ -1,6 +1,6 @@
 ---
-title: "Anki vs Quizlet vs Flashcards 2026: Welche Karteikarten-App ist die beste?"
-description: "Anki vs Quizlet vs Flashcards im Praxisvergleich 2026: Spaced Repetition, Offline-Lernen, KI, Import, Export, Preise, Open Source und Datenhoheit."
+title: "Anki vs Quizlet vs Nibomo 2026: Welche Karteikarten-App ist die beste?"
+description: "Anki vs Quizlet vs Nibomo im Praxisvergleich 2026: Spaced Repetition, Offline-Lernen, KI, Import, Export, Preise, Open Source und Datenhoheit."
 image: "/blog/anki-vs-quizlet-vs-open-source-flashcards-app.png"
 date: "2026-03-09"
 updated: "2026-08-02"
@@ -15,15 +15,15 @@ keywords:
   - "selbst gehostete karteikarten"
 ---
 
-Die Antwort auf **Anki vs Quizlet** lautet längst nicht mehr einfach: „Anki für ernsthafte Lernende, Quizlet für alle anderen.“ 2026 bietet Anki FSRS und eine außergewöhnlich ausgereifte lokale Sammlungsverwaltung. Quizlet überzeugt mit durchdachten Funktionen für den Unterricht und KI-Lernwerkzeugen. Flashcards Open Source App verbindet integriertes FSRS und KI mit der Möglichkeit, den gesamten Stack selbst zu hosten – ist aber noch ein deutlich jüngeres Produkt. Welche die **beste Karteikarten-App** ist, hängt davon ab, welcher dieser Kompromisse für dich am wichtigsten ist.
+Die Antwort auf **Anki vs Quizlet** lautet längst nicht mehr einfach: „Anki für ernsthafte Lernende, Quizlet für alle anderen.“ 2026 bietet Anki FSRS und eine außergewöhnlich ausgereifte lokale Sammlungsverwaltung. Quizlet überzeugt mit durchdachten Funktionen für den Unterricht und KI-Lernwerkzeugen. Nibomo verbindet integriertes FSRS und KI mit der Möglichkeit, den gesamten Stack selbst zu hosten – ist aber noch ein deutlich jüngeres Produkt. Welche die **beste Karteikarten-App** ist, hängt davon ab, welcher dieser Kompromisse für dich am wichtigsten ist.
 
-> **Offenlegung:** Ich bin Kirill Markin und entwickle [Flashcards Open Source App](/features/), eines der Produkte in diesem Vergleich. Die App ist hier vertreten, weil sie KI, FSRS und Self-Hosting des gesamten Stacks kombiniert. Ich behandle sie jedoch nicht als automatischen Sieger: Für mehrere der unten beschriebenen typischen Anwendungsfälle sind Anki und Quizlet die bessere Wahl.
+> **Offenlegung:** Ich bin Kirill Markin und entwickle [Nibomo](/features/), eines der Produkte in diesem Vergleich. Die App ist hier vertreten, weil sie KI, FSRS und Self-Hosting des gesamten Stacks kombiniert. Ich behandle sie jedoch nicht als automatischen Sieger: Für mehrere der unten beschriebenen typischen Anwendungsfälle sind Anki und Quizlet die bessere Wahl.
 
 Einen universellen Sieger gibt es also nicht. Müsste ich die Entscheidung auf drei Zeilen reduzieren, wären es diese:
 
 - Wähle **Anki** für den ausgereiftesten und am längsten bewährten Spaced-Repetition-Workflow.
 - Wähle **Quizlet** für das Teilen im Unterricht, fertige öffentliche Lernsets und abwechslungsreiches kurzfristiges Üben.
-- Wähle **Flashcards Open Source App** für integrierte KI, FSRS und Kontrolle über den gesamten Stack – sofern du mit einem jungen Ökosystem und eingeschränkten Möglichkeiten für eine originalgetreue Migration leben kannst.
+- Wähle **Nibomo** für integrierte KI, FSRS und Kontrolle über den gesamten Stack – sofern du mit einem jungen Ökosystem und eingeschränkten Möglichkeiten für eine originalgetreue Migration leben kannst.
 
 Die Details sind wichtig, vor allem wenn du bereits Hunderte oder Tausende Karten hast.
 
@@ -33,7 +33,7 @@ Die Details sind wichtig, vor allem wenn du bereits Hunderte oder Tausende Karte
 
 Diese Tabelle basiert auf Produktinformationen, die am 2. August 2026 geprüft wurden. Preise und Funktionsumfang können je nach Region abweichen.
 
-| Kategorie | Anki | Quizlet | Flashcards Open Source App |
+| Kategorie | Anki | Quizlet | Nibomo |
 | --- | --- | --- | --- |
 | Wiederholungsplanung | Ausgereifter Scheduler mit [FSRS-Unterstützung](https://docs.ankiweb.net/deck-options), detaillierten Einstellungen, Wiederholungsverlauf und großem Add-on-Ökosystem | [Learn](https://help.quizlet.com/hc/en-us/articles/360030986971-Studying-with-Learn) erstellt mithilfe von maschinellem Lernen einen persönlichen Lernpfad anhand deiner Ziele und deiner Vertrautheit mit dem Stoff; es ist kein langfristiger Scheduler nach Art von FSRS | FSRS ist integriert und standardmäßig aktiv, mit den Bewertungen Again/Hard/Good/Easy und Einstellungen auf Workspace-Ebene |
 | Offline | Desktop-Anwendung und native mobile Apps ermöglichen lokales Lernen; die Synchronisierung ist optional | Auf [iOS und Android](https://help.quizlet.com/hc/en-us/articles/360030565412-Studying-offline-with-Quizlet-mobile-apps) lassen sich gespeicherte Sets in Flashcards und Match offline nutzen und Sets offline erstellen; die Website funktioniert nicht offline | Native Apps für iOS (SQLite) und Android (Room/SQLite) sind der zuverlässigste Offline-Weg; nach dem Laden speichert die Web-App Karten und noch nicht synchronisierte Änderungen in IndexedDB, KI und Synchronisierung benötigen aber eine Verbindung |
@@ -81,7 +81,7 @@ Auch die Portabilität ist begrenzter. Quizlet lässt dich Begriffe und Definiti
 
 ## Wähle Flashcards, wenn du KI, FSRS und Self-Hosting zusammen möchtest
 
-[Flashcards Open Source App](/features/) kombiniert FSRS-Wiederholungsplanung, KI-Chat mit Workspace-Kontext, das Erstellen und Bearbeiten von Karten, Dateianhänge, offlinefähige native Apps und einen API-Zugang für KI-Agenten in einem Produkt.
+[Nibomo](/features/) kombiniert FSRS-Wiederholungsplanung, KI-Chat mit Workspace-Kontext, das Erstellen und Bearbeiten von Karten, Dateianhänge, offlinefähige native Apps und einen API-Zugang für KI-Agenten in einem Produkt.
 
 Nutze Flashcards, wenn du:
 
@@ -117,7 +117,7 @@ Für anspruchsvolle, langfristige Spaced Repetition ist **Anki nach wie vor die 
 
 Für den Unterricht, öffentliche Sets und schnelles, abwechslungsreiches Üben ist **Quizlet weiterhin die naheliegendste Empfehlung**. Die sozialen Funktionen und Workflows für Lehrkräfte sind ein echter Vorteil – keine Kleinigkeit, die ohnehin jeder Wettbewerber bietet.
 
-Für Lernende, die ausdrücklich KI-gestützte Kartenarbeit, FSRS und die Möglichkeit suchen, das gesamte System selbst zu betreiben, passt **Flashcards Open Source App am besten**. Gleichzeitig ist sie von den drei Optionen die riskanteste, wenn du heute ausgereifte Importkompatibilität oder ein vollständiges, portables Backup benötigst.
+Für Lernende, die ausdrücklich KI-gestützte Kartenarbeit, FSRS und die Möglichkeit suchen, das gesamte System selbst zu betreiben, passt **Nibomo am besten**. Gleichzeitig ist Nibomo von den drei Optionen die riskanteste, wenn du heute ausgereifte Importkompatibilität oder ein vollständiges, portables Backup benötigst.
 
 Das ist die ehrliche Entscheidung im Jahr 2026: Wähle das stärkste Werkzeug für das Lernsystem, das du tatsächlich nutzt, und prüfe, wie du deine Daten wieder herausbekommst, bevor deine Sammlung für einen Umzug zu wertvoll wird.
 

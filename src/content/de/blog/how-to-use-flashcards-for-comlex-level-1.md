@@ -231,7 +231,7 @@ Wenn du genau diesen Teil schärfer machen willst, passen [Wie du 2026 bessere F
 
 ## Wo Flashcards hineinpasst
 
-[Flashcards](/de/) passt am besten ab dem Punkt, an dem du weißt, was sich überhaupt zu behalten lohnt.
+[Nibomo](/de/) passt am besten ab dem Punkt, an dem du weißt, was sich überhaupt zu behalten lohnt.
 
 Für **COMLEX Level 1 Flashcards** sieht die sinnvolle Einrichtung meistens so aus:
 

@@ -259,7 +259,7 @@ Wenn du die Scheduler-Seite genauer verstehen willst, lies hier weiter:
 
 ## Warum Flashcards gut in diesen Workflow passt
 
-[Flashcards](https://flashcards-open-source-app.com/) passt gut zu **Audio in Flashcards umwandeln**, weil das Produkt bereits alle Teile dieses Workflows an einem Ort zusammenbringt:
+[Nibomo](https://flashcards-open-source-app.com/) passt gut zu **Audio in Flashcards umwandeln**, weil das Produkt bereits alle Teile dieses Workflows an einem Ort zusammenbringt:
 
 - KI-Chat
 - Dateianhänge

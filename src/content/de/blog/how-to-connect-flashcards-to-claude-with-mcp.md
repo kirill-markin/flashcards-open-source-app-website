@@ -163,7 +163,7 @@ Du kannst die gehostete Web-App öffnen, die Karte auf dem Smartphone prüfen od
 - [Flashcards für iPhone und iPad im App Store](https://apps.apple.com/app/apple-store/id6760538964?pt=128797295&ct=marketing_site&mt=8)
 - [Flashcards für Android bei Google Play](https://play.google.com/store/apps/details?id=com.flashcardsopensourceapp.app&utm_source=flashcards_website&utm_medium=referral&utm_campaign=marketing_site)
 
-![Flashcards Open Source App beim Wiederholen in der gehosteten Web-App und den mobilen Apps](/home/app-screens-showcase-en.png)
+![Nibomo beim Wiederholen in der gehosteten Web-App und den mobilen Apps](/home/app-screens-showcase-en.png)
 
 Falls du das Produkt noch nicht benutzt hast, ist [Erste Schritte](/de/docs/getting-started/) der schnellste Einstieg.
 

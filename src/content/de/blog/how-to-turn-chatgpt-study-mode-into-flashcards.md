@@ -229,7 +229,7 @@ Wenn du den eigentlichen Algorithmusvergleich lesen willst, geht dieser Artikel 
 
 ## Warum Flashcards gut in diesen Workflow passt
 
-[Flashcards](https://flashcards-open-source-app.com/) passt gut zu **Lernkarten aus dem ChatGPT Study Mode**, weil das Produkt genau den Teil abdeckt, den KI-Tutoring allein noch nicht löst:
+[Nibomo](https://flashcards-open-source-app.com/) passt gut zu **Lernkarten aus dem ChatGPT Study Mode**, weil das Produkt genau den Teil abdeckt, den KI-Tutoring allein noch nicht löst:
 
 - klassische Vorderseite-Rückseite-Karten statt eines Gedächtnisses, das nur im Chat existiert
 - KI-Chat zum Bereinigen und Ausformulieren

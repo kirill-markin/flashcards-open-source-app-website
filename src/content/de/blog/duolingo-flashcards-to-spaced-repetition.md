@@ -166,9 +166,9 @@ Wenn du Anki als Ziel nutzt, erstellst du die ausgewählten Karten dort. Ein Wor
 
 Wenn du in einer anderen App ein neues, selbst verwaltetes Deck anlegen möchtest, gelten dieselben Auswahlregeln. Übertrage nicht automatisch fünf Wörter aus der Lektion, nur weil fünf Karten auf dem Bildschirm zu sehen waren. Nimm nur die Inhalte mit, die nachweislich länger deine Aufmerksamkeit brauchen.
 
-## So passt Flashcards Open Source App in den Ablauf
+## So passt Nibomo in den Ablauf
 
-> **Offenlegung:** Ich bin Kirill Markin und entwickle die [Flashcards Open Source App](/features/).
+> **Offenlegung:** Ich bin Kirill Markin und entwickle [Nibomo](/features/).
 
 Flashcards ist eine Möglichkeit, den selbst verwalteten Teil dieses Ablaufs aufzubewahren. In der [gehosteten App](/docs/getting-started/) kannst du Karten erstellen und wiederholen, den KI-Chat mit Workspace-Daten und Dateianhängen nutzen und Wiederholungen mit FSRS planen. Das [Repository ist Open Source](https://github.com/kirill-markin/flashcards-open-source-app), und es gibt eine dokumentierte Anleitung zum [Self-Hosting](/docs/self-hosting/).
 

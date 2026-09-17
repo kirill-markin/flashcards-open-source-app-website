@@ -181,7 +181,7 @@ Erstelle ein Deck mit dem Namen `EU-KI-Verordnung — offizielle Quellen`. Nutze
 
 Halte jeden Eintrag als einfache Karte mit Vorder- und Rückseite fest. Setze die kurze Antwort auf der Rückseite an den Anfang, gefolgt von Artikel oder Anhang, offizieller Quelle, Abrufdatum und Versionshinweis. Alles mit dem Tag `needs-source-check` bleibt von den normalen Wiederholungen ausgeschlossen, bis du es geprüft hast. Behandle diesen Tag wie eine Quarantäne.
 
-Zu den [Funktionen von Flashcards Open Source App](/features/) gehören einfache Karten mit Vorder- und Rückseite, Decks und Tags sowie Wiederholungen mit FSRS. Die gehostete App ist kostenlos, und das Open-Source-Projekt lässt sich auch selbst hosten. Sobald eine Karte die Quellenprüfung bestanden hat, lass FSRS-6 ihre Wiederholungen planen. Versuche die Antwort, bevor du die Rückseite aufdeckst, und wähle anschließend Again, Hard, Good oder Easy danach, wie gut du die Antwort tatsächlich abrufen konntest:
+Zu den [Funktionen von Nibomo](/features/) gehören einfache Karten mit Vorder- und Rückseite, Decks und Tags sowie Wiederholungen mit FSRS. Die gehostete App ist kostenlos, und das Open-Source-Projekt lässt sich auch selbst hosten. Sobald eine Karte die Quellenprüfung bestanden hat, lass FSRS-6 ihre Wiederholungen planen. Versuche die Antwort, bevor du die Rückseite aufdeckst, und wähle anschließend Again, Hard, Good oder Easy danach, wie gut du die Antwort tatsächlich abrufen konntest:
 
 - **Again**, wenn die verlangte Antwort fehlt oder falsch ist
 - **Hard** bei einer richtigen Antwort, an die du dich nur mit großer Mühe erinnert hast

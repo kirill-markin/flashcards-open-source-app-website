@@ -1,13 +1,13 @@
 ---
-title: "Memrise-Alternative 2026: Memrise vs. Flashcards"
-description: "Memrise und Flashcards im Vergleich: offizielle Sprachkurse, eigener Wortschatz, FSRS-6, Offline-Lernen, Migration, Open Source und Self-Hosting."
+title: "Memrise-Alternative 2026: Memrise vs. Nibomo"
+description: "Memrise und Nibomo im Vergleich: offizielle Sprachkurse, eigener Wortschatz, FSRS-6, Offline-Lernen, Migration, Open Source und Self-Hosting."
 date: "2026-03-22"
 updated: "2026-08-03"
 image: "/blog/memrise-alternative.png"
 keywords:
   - "Memrise-Alternative"
   - "Memrise-Alternative 2026"
-  - "Memrise vs. Flashcards"
+  - "Memrise vs. Nibomo"
   - "Open-Source-Alternative zu Memrise"
   - "Lernkarten-App zum Sprachenlernen"
   - "FSRS-Lernkarten-App"
@@ -17,7 +17,7 @@ keywords:
 
 Du kannst Memrise ohne Vokabelliste öffnen, und die App zeigt dir trotzdem, was als Nächstes ansteht. Ein leerer Flashcards-Workspace bleibt dagegen leer, bis du selbst etwas hinzufügst. Das ist der entscheidende Unterschied für alle, die nach einer **Memrise-Alternative** suchen.
 
-Memrise bietet fertige offizielle Sprachinhalte, nützliche Redewendungen, Videos und Audioaufnahmen von Muttersprachlern sowie geführte Übungen. Mit [Flashcards](/features/) baust du deine eigene Kartensammlung auf und planst die Wiederholungen mit FSRS-6. Du bekommst mehr Kontrolle über die Karten und die Software, brauchst aber eine andere Quelle, aus der du die Sprache lernst.
+Memrise bietet fertige offizielle Sprachinhalte, nützliche Redewendungen, Videos und Audioaufnahmen von Muttersprachlern sowie geführte Übungen. Mit [Nibomo](/features/) baust du deine eigene Kartensammlung auf und planst die Wiederholungen mit FSRS-6. Du bekommst mehr Kontrolle über die Karten und die Software, brauchst aber eine andere Quelle, aus der du die Sprache lernst.
 
 > **Offenlegung:** Ich bin Kirill Markin und entwickle Flashcards, eines der hier verglichenen Produkte. Für Lernende, die strukturierte Sprachinhalte und integrierte Übungen zum Hörverstehen, zur Aussprache und zum Sprechen suchen, ist Memrise die stärkere Wahl.
 
@@ -28,7 +28,7 @@ Memrise bietet fertige offizielle Sprachinhalte, nützliche Redewendungen, Video
 ## Kurz gesagt
 
 - Wähle **Memrise**, wenn du mit fertigen offiziellen Inhalten beginnen, Muttersprachler hören und Wortschatz, Hörverstehen, Aussprache, Satzbildung und Gespräche in einem Produkt üben möchtest.
-- Wähle **Flashcards**, wenn dein Lernstoff bereits von einer Lehrkraft, aus einem Lehrbuch oder Kurs, aus Lektüre, Hörmaterial oder Gesprächen stammt und du genau entscheiden möchtest, welche Inhalte in die dokumentierte FSRS-6-Wiederholungsplanung einfließen.
+- Wähle **Nibomo**, wenn dein Lernstoff bereits von einer Lehrkraft, aus einem Lehrbuch oder Kurs, aus Lektüre, Hörmaterial oder Gesprächen stammt und du genau entscheiden möchtest, welche Inhalte in die dokumentierte FSRS-6-Wiederholungsplanung einfließen.
 - Nutze **beide**, wenn Memrise den Lernpfad vorgibt und Flashcards die kleinere Auswahl eigener Wörter, Korrekturen und Wendungen festhält, die du dir langfristig merken möchtest.
 
 Flashcards ist keine kostenlose Open-Source-Kopie von Memrise. Die App kann persönliche Karten und deren Wiederholung übernehmen, nicht aber das Sprachlernprogramm drumherum.

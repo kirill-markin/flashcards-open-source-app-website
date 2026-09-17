@@ -262,7 +262,7 @@ Lösch eine.
 
 ## Wo Flashcards dazu passt
 
-[Flashcards](https://flashcards-open-source-app.com/) passt sehr gut zu **wie organisiert man Flashcards**, weil das Produkt bereits die Bausteine hat, die dieser Workflow braucht:
+[Nibomo](https://flashcards-open-source-app.com/) passt sehr gut zu **wie organisiert man Flashcards**, weil das Produkt bereits die Bausteine hat, die dieser Workflow braucht:
 
 - Decks und Tags für die langfristige Struktur
 - gefilterte Decks auf Basis von Tags und Aufwandsniveau

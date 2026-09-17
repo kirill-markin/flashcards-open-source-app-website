@@ -205,7 +205,7 @@ Was konnte ich nicht sauber genug abrufen, sodass ich später noch einmal daran 
 
 ## Wo Flashcards hineinpasst
 
-[Flashcards](/de/) passt nach der Tutor-Sitzung, sobald klar ist, was wirklich ins Gedächtnis soll.
+[Nibomo](/de/) passt nach der Tutor-Sitzung, sobald klar ist, was wirklich ins Gedächtnis soll.
 
 Es gibt keinen magischen Knopf, der einen guten Chat in Langzeitgedächtnis verwandelt. Der nützliche Workflow ist einfacher:
 

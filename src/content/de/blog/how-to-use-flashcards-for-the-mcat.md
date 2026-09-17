@@ -279,7 +279,7 @@ Wenn du den Aspekt Prüfungstiming genauer ansehen willst, lies als Nächstes:
 
 ## Wie Flashcards in diesen MCAT-Workflow passt
 
-[Flashcards](https://flashcards-open-source-app.com/) passt gut zu dieser Art von MCAT-Workflow, weil das Produkt genau die Teile abdeckt, die viele Studierende sonst auf zu viele Tools verteilen.
+[Nibomo](https://flashcards-open-source-app.com/) passt gut zu dieser Art von MCAT-Workflow, weil das Produkt genau die Teile abdeckt, die viele Studierende sonst auf zu viele Tools verteilen.
 
 Das Produkt bringt bereits die Bausteine mit, die dieser Workflow braucht:
 
@@ -316,4 +316,4 @@ statt eines riesigen importierten Decks, das sich still in ein schlechtes Gewiss
 
 Das ist die Version von **MCAT Flashcards**, die in echter Vorbereitung meist trägt: nicht als Lösung für jeden Teil der Prüfung und ganz sicher nicht als Ersatz für CARS-Passage-Arbeit, sondern als belastbares System für Fakten, Abgrenzungen und Fehler, die du nicht unter Druck neu lernen willst.
 
-Wenn du diesen Workflow in einem einzigen Open-Source-Stack willst, bietet dir [Flashcards](https://flashcards-open-source-app.com/) den praktischen Weg: aus Notizen oder Uploads entwerfen, die guten Karten behalten und FSRS das Wiederholungs-Timing überlassen, während du den Fokus auf echte MCAT-Praxis behältst.
+Wenn du diesen Workflow in einem einzigen Open-Source-Stack willst, bietet dir [Nibomo](https://flashcards-open-source-app.com/) den praktischen Weg: aus Notizen oder Uploads entwerfen, die guten Karten behalten und FSRS das Wiederholungs-Timing überlassen, während du den Fokus auf echte MCAT-Praxis behältst.

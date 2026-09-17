@@ -236,7 +236,7 @@ Wenn du die Planungsseite ausführlicher willst, ist [Wie du 2026 mit FSRS für 
 
 ## Wo Flashcards in diesen AP-Biology-Workflow passen
 
-Wenn du das innerhalb von [Flashcards](https://flashcards-open-source-app.com/) umsetzen willst, ist der nützliche Teil nicht irgendein vages Versprechen, dass KI dir Biologie schon irgendwie von allein beibringt.
+Wenn du das innerhalb von [Nibomo](https://flashcards-open-source-app.com/) umsetzen willst, ist der nützliche Teil nicht irgendein vages Versprechen, dass KI dir Biologie schon irgendwie von allein beibringt.
 
 Nützlich ist, dass das Produkt bereits den chaotischen Mittelteil des Workflows abdeckt:
 

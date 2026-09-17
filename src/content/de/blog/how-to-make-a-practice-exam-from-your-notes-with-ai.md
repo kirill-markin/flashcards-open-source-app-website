@@ -195,7 +195,7 @@ Halte die Karte klein. Lass die Probeklausur größer bleiben.
 
 ## Wo Flashcards hineinpasst
 
-[Flashcards](/de/features/) passt gut nach dem Schritt mit der Probeklausur.
+[Nibomo](/de/features/) passt gut nach dem Schritt mit der Probeklausur.
 
 Das Produkt sollte nicht als magischer Probeklausur-Generator beschrieben werden. Der präzisere Ablauf ist: Nutze das KI-Tool deiner Wahl, um aus deinen Notizen eine Probeklausur zu erzeugen, und übernimm danach nur die überlebenden Schwachstellen in Flashcards.
 

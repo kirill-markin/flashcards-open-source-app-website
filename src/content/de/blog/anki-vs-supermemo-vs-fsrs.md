@@ -18,7 +18,7 @@ Du kannst FSRS in Anki verwenden. Seit SuperMemo 20 erschienen ist, läuft FSRS 
 
 Anki ist eine Karteikarten-App mit eigenem Ökosystem. SuperMemo kann zwei aktuelle Produkte oder eine lange Familie von Algorithmen bezeichnen. FSRS ist ein Scheduler, den Softwareprodukte implementieren können. Dieser Leitfaden trennt zunächst diese Kategorien und vergleicht dann die Entscheidungen, die du tatsächlich treffen kannst.
 
-> **Offenlegung:** Ich bin Kirill Markin und entwickle die [Flashcards Open Source App](/features/), die unten als eine praktische FSRS-Implementierung vorkommt. Ich stelle sie nicht automatisch als beste Wahl dar und benenne ausdrücklich, wo ihr noch junges Ökosystem ins Gewicht fällt.
+> **Offenlegung:** Ich bin Kirill Markin und entwickle die App [Nibomo](/features/), die unten als eine praktische FSRS-Implementierung vorkommt. Ich stelle sie nicht automatisch als beste Wahl dar und benenne ausdrücklich, wo ihr noch junges Ökosystem ins Gewicht fällt.
 
 **Fakten geprüft:** 3. August 2026.
 
@@ -43,7 +43,7 @@ Das übersichtlichste Denkmodell sieht so aus:
 | [SuperMemo 20 für Windows](https://supermemo.store/products/supermemo-20-for-windows) | Proprietäre Windows-Anwendung für Wissensmanagement und Incremental Reading | Die Algorithm Arena umfasst SM-2, SM-15, SM-19, SM-20 und FSRS | Incremental Reading, Wissensbäume und Importe aus Dokumenten, Webseiten, E-Mails und Videos | Nur für Windows erhältlich und nicht dasselbe Produkt wie SuperMemo.com |
 | [SuperMemo.com](https://www.supermemo.com/en/app) | Gehosteter Sprachlerndienst für Web, iOS und Android | Proprietäre SuperMemo-Methode; die aktuellen öffentlichen Seiten weisen sie weder als SM-18 noch als SM-20 oder FSRS aus | Vorgefertigte Sprachkurse, MemoCards und geräteübergreifendes Lernen in einem gehosteten Dienst | Nicht das Windows-Produkt; der genaue Scheduler ist nicht öffentlich dokumentiert |
 | [FSRS](https://github.com/open-spaced-repetition/fsrs4anki) | Offener Scheduler und Open-Source-Projekt | Wird von einem Softwareprodukt oder einer Bibliothek implementiert | Entwickler und Nutzer, die eine überprüfbare Scheduling-Logik suchen | Liefert selbst weder Karten noch Editor, Synchronisierung oder Lernoberfläche |
-| [Flashcards Open Source App](/features/) | Junges Open-Source-Karteikartenprodukt auf Basis von FSRS | FSRS-6 mit fest hinterlegten offiziellen Standardgewichten und konfigurierbaren Scheduling-Einstellungen pro Workspace | Web, iOS, Android, Self-Hosting, API und Workflows mit KI-Agenten | Kleineres Ökosystem als Anki und noch keine personalisierten FSRS-Gewichte |
+| [Nibomo](/features/) | Junges Open-Source-Karteikartenprodukt auf Basis von FSRS | FSRS-6 mit fest hinterlegten offiziellen Standardgewichten und konfigurierbaren Scheduling-Einstellungen pro Workspace | Web, iOS, Android, Self-Hosting, API und Workflows mit KI-Agenten | Kleineres Ökosystem als Anki und noch keine personalisierten FSRS-Gewichte |
 
 Die Zeilen sind bewusst nicht symmetrisch. Anki und Flashcards bieten vollständige Karteikarten-Workflows. SuperMemo 20 verbindet Scheduling mit einem wesentlich umfassenderen Lese- und Wissensworkflow. SuperMemo.com bietet ein gehostetes Sprachlernerlebnis. FSRS liefert anderen Anwendungen die Scheduling-Logik.
 
@@ -155,7 +155,7 @@ Prüfe FSRS-Implementierungen und -Bibliotheken. Dank offener Dokumentation, For
 
 ### Du suchst einen modernen Open-Source-Workflow für Web, Mobilgeräte und KI-Agenten
 
-Sieh dir die [Flashcards Open Source App](/features/) an. Sie kombiniert FSRS-6 mit Web, iOS, Android, Self-Hosting, einer öffentlichen API und Zugang für KI-Agenten. Ihre klare Einschränkung ist die Reife: Das Ökosystem ist jünger als das von Anki und reicht bei Vorlagen, Add-ons, geteilten Decks und Migrationstreue nicht an Anki heran. Sammlungen, die auf diesen Stärken beruhen, sind in Anki besser aufgehoben.
+Sieh dir die App [Nibomo](/features/) an. Sie kombiniert FSRS-6 mit Web, iOS, Android, Self-Hosting, einer öffentlichen API und Zugang für KI-Agenten. Ihre klare Einschränkung ist die Reife: Das Ökosystem ist jünger als das von Anki und reicht bei Vorlagen, Add-ons, geteilten Decks und Migrationstreue nicht an Anki heran. Sammlungen, die auf diesen Stärken beruhen, sind in Anki besser aufgehoben.
 
 ## Ein Scheduler kann kein schwaches Lernsystem retten
 

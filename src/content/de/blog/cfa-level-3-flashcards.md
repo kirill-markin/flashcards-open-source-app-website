@@ -180,7 +180,7 @@ Bewahre auch organisatorische Fakten an einem anderen Ort auf. Prüfungsstruktur
 
 ## Wo Flashcards in den Lernplan passt
 
-[Flashcards](/) hält kleine Wissensbausteine abrufbar, ohne das Curriculum, Item Sets, Constructed Responses oder Mocks zu ersetzen. Die gehostete Web-App unterstützt Karten mit Vorder- und Rückseite, Tags, die Wiederholung fälliger Karten mit FSRS sowie KI-Chat mit Workspace-Daten und Dateianhängen. Das Projekt ist Open Source; sein Repository enthält außerdem einen iOS-Client, und die Android-App ist bei Google Play veröffentlicht.
+[Nibomo](/) hält kleine Wissensbausteine abrufbar, ohne das Curriculum, Item Sets, Constructed Responses oder Mocks zu ersetzen. Die gehostete Web-App unterstützt Karten mit Vorder- und Rückseite, Tags, die Wiederholung fälliger Karten mit FSRS sowie KI-Chat mit Workspace-Daten und Dateianhängen. Das Projekt ist Open Source; sein Repository enthält außerdem einen iOS-Client, und die Android-App ist bei Google Play veröffentlicht.
 
 Beginne mit den letzten Übungsfehlern, die ein wiederverwendbares Problem sichtbar gemacht haben. Überarbeite von KI entworfene Karten vor dem Speichern, wiederhole die fälligen Karten und kehre dann zu Aufgaben unter Zeitdruck zurück. Auf den aktuellen Seiten zu den [Features](/features/) und zum [Einstieg](/docs/getting-started/) sowie im [Quellcode](https://github.com/kirill-markin/flashcards-open-source-app) siehst du genau, was das Produkt bietet.
 

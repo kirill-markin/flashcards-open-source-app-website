@@ -213,7 +213,7 @@ Wenn du Karten direkt aus KI-Prompts baust, passt dieser Begleitartikel ebenfall
 
 ## Warum Flashcards hier gut passt
 
-[Flashcards](https://flashcards-open-source-app.com/) passt gut zu diesem Workflow, weil das Produkt beide Seiten des Problems abdeckt:
+[Nibomo](https://flashcards-open-source-app.com/) passt gut zu diesem Workflow, weil das Produkt beide Seiten des Problems abdeckt:
 
 - KI-Chat für Entwürfe aus Notizen, PDFs und anderen Quellen
 - Bearbeitung von Vorder- und Rückseite, bevor Karten dauerhaft ins Deck wandern
@@ -234,4 +234,4 @@ Lege es danach fest, welchen Wiederholungsaufwand dein normales Leben tatsächli
 
 Genau das ist für mich die sinnvolle Antwort auf **wie viele Flashcards pro Tag** im Jahr 2026: Fang kleiner an, als deine Begeisterung gern würde, halte die Karten sauber, beobachte die fälligen Wiederholungen ehrlich und erhöhe nur dann, wenn sich das System weiterhin ruhig anfühlt.
 
-Wenn du genau diesen Workflow willst, gibt dir [Flashcards](https://flashcards-open-source-app.com/) die praktische Grundlage: aus Quellmaterial Karten entwerfen, konsequent aussortieren und anschließend mit FSRS wiederholen, statt eine euphorische Generierungssitzung stillschweigend in einen Monat Rückstand kippen zu lassen.
+Wenn du genau diesen Workflow willst, gibt dir [Nibomo](https://flashcards-open-source-app.com/) die praktische Grundlage: aus Quellmaterial Karten entwerfen, konsequent aussortieren und anschließend mit FSRS wiederholen, statt eine euphorische Generierungssitzung stillschweigend in einen Monat Rückstand kippen zu lassen.

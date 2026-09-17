@@ -233,7 +233,7 @@ Ich würde Prüfungslogistik in einer leichteren getaggten Teilmenge wie `exam-f
 
 ## Warum Flashcards gut in diesen Workflow passt
 
-[Flashcards](https://flashcards-open-source-app.com/) passt gut zu dieser Art Prüfungsvorbereitung, weil das Produkt beide Hälften der Arbeit unterstützt, ohne so zu tun, als wären sie dasselbe.
+[Nibomo](https://flashcards-open-source-app.com/) passt gut zu dieser Art Prüfungsvorbereitung, weil das Produkt beide Hälften der Arbeit unterstützt, ohne so zu tun, als wären sie dasselbe.
 
 Du kannst:
 

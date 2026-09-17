@@ -154,7 +154,7 @@ Wenn du eine **Open-Source-Alternative zu RemNote** brauchst, entscheide zuerst,
 
 ## Offenlegung: Ich entwickle Flashcards
 
-> **Offenlegung:** Ich bin Kirill Markin und entwickle [Flashcards](https://flashcards-open-source-app.com/). Das MIT-lizenzierte Repository enthält die Web-App, iOS- und Android-Clients, Authentifizierung, Backend, Synchronisierung, MCP-Dienst und AWS-Infrastruktur. Bei Flashcards sind damit heute mehr Produktteile im Quellcode einsehbar als bei RemNote. Das macht Flashcards aber nicht für jeden Lern-Workflow zum besseren Produkt.
+> **Offenlegung:** Ich bin Kirill Markin und entwickle [Nibomo](https://flashcards-open-source-app.com/). Das MIT-lizenzierte Repository enthält die Web-App, iOS- und Android-Clients, Authentifizierung, Backend, Synchronisierung, MCP-Dienst und AWS-Infrastruktur. Bei Nibomo sind damit heute mehr Produktteile im Quellcode einsehbar als bei RemNote. Das macht Nibomo aber nicht für jeden Lern-Workflow zum besseren Produkt.
 
 Flashcards deckt einen schmaleren Lern-Workflow ab. Es bietet keine verknüpfte Wissensdatenbank für Notizen, keinen PDF-Reader, keine native Desktop-App und keinen direkten RemNote-Importer. RemNote ist ausgereifter und deutlich stärker, wenn Notizen, Verweise und Quelldokumente im Mittelpunkt des Lernens stehen. Ein Wechsel allein wegen der Lizenz kann bedeuten, dass genau der Workflow verloren geht, der die Sammlung überhaupt nützlich gemacht hat.
 

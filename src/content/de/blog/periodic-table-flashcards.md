@@ -240,7 +240,7 @@ Beginne mit einem konkreten Ergebnis – selbst wenn es nur aus einem fünfminü
 2. **Mache einen kurzen Test ohne Unterlagen.** Nutze ein leeres Periodensystem, einen Test deiner Lehrkraft oder eine aktuelle Chemieaufgabe. Markiere jede falsche oder fehlende Antwort.
 3. **Erstelle eine Karte pro fehlender Abfragerichtung.** Lege keine Karten zu Ordnungszahl, Gruppe, Masse oder Trend an, wenn diese Fakten nicht verlangt werden.
 4. **Lerne einen klar begrenzten Block.** Eine Unterrichtseinheit, eine Elementfamilie oder die Elemente 1–20 geben dir ein sichtbares Ziel. Wenn alle 118 verlangt werden, arbeite in kleinen Zahlenblöcken, statt am ersten Tag alles in dein Deck zu laden.
-5. **Mische leicht verwechselbare Einträge, sobald du sie einzeln sicher kennst.** Übe `Co`, `C` und `O` in derselben Sitzung und mische benachbarte Ordnungszahlen, die du immer wieder vertauschst. Flashcards Open Source App stellt solche Einträge nicht automatisch gegenüber; lege die Deckreihenfolge oder Tags deshalb selbst fest.
+5. **Mische leicht verwechselbare Einträge, sobald du sie einzeln sicher kennst.** Übe `Co`, `C` und `O` in derselben Sitzung und mische benachbarte Ordnungszahlen, die du immer wieder vertauschst. Nibomo stellt solche Einträge nicht automatisch gegenüber; lege die Deckreihenfolge oder Tags deshalb selbst fest.
 6. **Übe die Anordnung außerhalb des Decks.** Fülle ein leeres Periodensystem aus und nenne Orientierungspunkte für Gruppen oder Perioden laut. Einzelne Karten vermitteln die räumliche Anordnung nicht von allein.
 7. **Kehre zur Chemie zurück.** Lies Formeln, erkläre einen Trend, schreibe eine Elektronenkonfiguration und löse unbekannte Aufgaben. Aus jedem wiederholten Fehler kann eine kleine Korrekturkarte entstehen.
 
@@ -273,9 +273,9 @@ Flashcards eignen sich gut, um eine exakte Zuordnung abrufbar zu halten: `Fe` �
 
 Der [Leitfaden zu Flashcards für fortgeschrittene Chemie](/blog/how-to-use-flashcards-for-advanced-chemistry/) vertieft diese Trennung zwischen gezieltem Faktenabruf und dem Lösen ganzer Aufgaben.
 
-## Wie Flashcards Open Source App dich unterstützt
+## Wie Nibomo dich unterstützt
 
-[Flashcards Open Source App](/features/) unterstützt klassische Karten mit Vorder- und Rückseite, Decks und Tags. FSRS plant die fälligen Wiederholungen; du bewertest sie mit `Again`, `Hard`, `Good` oder `Easy`. Du kannst das Deck mit allen 118 Elementen installieren oder ein kleineres Deck erstellen, das zu deinem Kurs passt.
+[Nibomo](/features/) unterstützt klassische Karten mit Vorder- und Rückseite, Decks und Tags. FSRS plant die fälligen Wiederholungen; du bewertest sie mit `Again`, `Hard`, `Good` oder `Easy`. Du kannst das Deck mit allen 118 Elementen installieren oder ein kleineres Deck erstellen, das zu deinem Kurs passt.
 
 KI-Chat und Dateianhänge können dir helfen, aus einer Unterrichtstabelle oder einer Fehlerliste Kartenentwürfe zu erstellen. Prüfe vor dem Speichern jeden Namen, jedes Symbol, jede Ordnungszahl, jede Eigenschaftsbezeichnung und jede Rundungsregel anhand deiner verbindlichen Quelle. Die App prüft chemische Angaben nicht fachlich und mischt die Themen beim Üben nicht automatisch für dich. Im Leitfaden [Erste Schritte](/docs/getting-started/) erfährst du, wie du Karten erstellst und mit fälligen Wiederholungen beginnst.
 

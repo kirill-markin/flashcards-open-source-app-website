@@ -264,9 +264,9 @@ Dieser einfache Rhythmus eignet sich als Ausgangspunkt:
 
 In diesem Kreislauf bleibt **Spanischlernen mit Spaced Repetition** eine Unterstützung. Das Deck hält kleine Korrekturen und nützliche Sprache abrufbar. Die echte Sprachpraxis liefert neue Kontexte, Zeitdruck und Rückmeldung.
 
-## Wo Flashcards Open Source App ins Spiel kommt
+## Wo Nibomo ins Spiel kommt
 
-[Flashcards Open Source App](/de/features/) übernimmt in diesem Ablauf die Wiederholungen. Die App unterstützt Karten mit Vorder- und Rückseite, Decks und Tags, fällige Wiederholungen nach FSRS, KI-gestützte Kartenerstellung, Offline-Lernen und Synchronisierung im Web sowie auf iOS und Android, portable Importe und Exporte und eine Open-Source-Option zum Selbsthosten.
+[Nibomo](/de/features/) übernimmt in diesem Ablauf die Wiederholungen. Die App unterstützt Karten mit Vorder- und Rückseite, Decks und Tags, fällige Wiederholungen nach FSRS, KI-gestützte Kartenerstellung, Offline-Lernen und Synchronisierung im Web sowie auf iOS und Android, portable Importe und Exporte und eine Open-Source-Option zum Selbsthosten.
 
 Eine einfache Struktur dafür sieht so aus:
 

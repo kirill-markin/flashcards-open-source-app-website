@@ -216,7 +216,7 @@ Kein So-tun-als-wäre-noch-mehr-Überlastung die richtige Antwort auf Überlastu
 
 ## Warum Flashcards hier besser hineinpasst
 
-[Flashcards](https://flashcards-open-source-app.com/) passt gut zur Erholung von **spaced repetition backlog**, weil der Workflow nicht über drei verschiedene Tools aufgespalten werden muss:
+[Nibomo](https://flashcards-open-source-app.com/) passt gut zur Erholung von **spaced repetition backlog**, weil der Workflow nicht über drei verschiedene Tools aufgespalten werden muss:
 
 - KI-Chat kann beim Entwerfen helfen, aber du entscheidest trotzdem, was überlebt
 - Front/Back-Bearbeitung macht es einfach, schwache Karten zu kürzen oder aufzuteilen

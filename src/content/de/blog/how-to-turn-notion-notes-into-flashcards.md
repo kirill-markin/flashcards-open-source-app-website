@@ -187,7 +187,7 @@ Wenn du diesen Vergleich genauer sehen willst, geht dieser Begleitartikel tiefer
 
 ## Wo Flashcards in diesen Workflow passt
 
-[Flashcards](https://flashcards-open-source-app.com/) passt gut zu **Notion-Notizen in Flashcards verwandeln**, weil das Produkt die Teile abdeckt, die Menschen sonst mühsam von Hand zusammenbauen müssen:
+[Nibomo](https://flashcards-open-source-app.com/) passt gut zu **Notion-Notizen in Flashcards verwandeln**, weil das Produkt die Teile abdeckt, die Menschen sonst mühsam von Hand zusammenbauen müssen:
 
 - KI-Chat für Kartenentwürfe
 - Dateianhänge für exportierte Seiten
@@ -246,4 +246,4 @@ Nutze die Seite lieber als starkes Rohmaterial für einen besseren Entwurf.
 
 Genau diese Variante von **Notion zu Flashcards** halte ich für überzeugend. Sie ist weniger magisch als das Ein-Klick-Versprechen, an den richtigen Stellen etwas manueller und deutlich wahrscheinlicher, dir Karten zu liefern, die du auch nächste Woche noch lernen willst.
 
-Wenn du genau diesen Workflow suchst, ist [Flashcards](https://flashcards-open-source-app.com/) eine gute Wahl: Notizen exportieren, mit KI Karten entwerfen, die schwachen schnell aussortieren und das Ergebnis in einem echten Spaced-Repetition-System lernen, statt es in deinem Notiztool eingeschlossen zu lassen.
+Wenn du genau diesen Workflow suchst, ist [Nibomo](https://flashcards-open-source-app.com/) eine gute Wahl: Notizen exportieren, mit KI Karten entwerfen, die schwachen schnell aussortieren und das Ergebnis in einem echten Spaced-Repetition-System lernen, statt es in deinem Notiztool eingeschlossen zu lassen.

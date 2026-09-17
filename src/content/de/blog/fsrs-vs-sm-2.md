@@ -101,7 +101,7 @@ Zu sagen "wir nutzen FSRS" macht ein Flashcards-Produkt nicht automatisch gut.
 
 Entscheidend ist, ob die Implementierung wirklich sorgfältig ist.
 
-In [Flashcards](https://flashcards-open-source-app.com/) wird FSRS als Produktvertrag behandelt, nicht bloß als Marketinglabel. Das Scheduler-Verhalten ist zwischen Backend und iOS-App gespiegelt. Die Web-App spiegelt denselben Scheduler-Datenvertrag, liefert aber keine dritte unabhängige FSRS-Implementierung aus. Das System speichert versteckten Gedächtniszustand auf jeder Karte, hält explizite Learning- und Relearning-Schritte vor, unterstützt Workspace-weite Einstellungen wie Desired Retention, Learning Steps, Relearning Steps, Maximum Interval und Fuzz und verwendet beim Scheduling den echten Client-Review-Zeitstempel über `reviewedAtClient`.
+In [Nibomo](https://flashcards-open-source-app.com/) wird FSRS als Produktvertrag behandelt, nicht bloß als Marketinglabel. Das Scheduler-Verhalten ist zwischen Backend und iOS-App gespiegelt. Die Web-App spiegelt denselben Scheduler-Datenvertrag, liefert aber keine dritte unabhängige FSRS-Implementierung aus. Das System speichert versteckten Gedächtniszustand auf jeder Karte, hält explizite Learning- und Relearning-Schritte vor, unterstützt Workspace-weite Einstellungen wie Desired Retention, Learning Steps, Relearning Steps, Maximum Interval und Fuzz und verwendet beim Scheduling den echten Client-Review-Zeitstempel über `reviewedAtClient`.
 
 Das klingt nach Backend-Detail, ist aber genau die Art Detail, die entscheidet, ob zwei Clients dieselbe Karte gleich schedulen oder auseinanderdriften.
 
@@ -133,4 +133,4 @@ Es gibt dem Scheduler bessere Informationen, bessere Kontrolle und bessere Chanc
 
 Genau das ist der Sinn von Spaced Repetition.
 
-Wenn du eine **Open-Source-Flashcards-App** willst, die Scheduling-Qualität als zentrale Produktentscheidung statt als Checkbox behandelt, ist [Flashcards](https://flashcards-open-source-app.com/) in genau diese Richtung gebaut.
+Wenn du eine **Open-Source-Flashcards-App** willst, die Scheduling-Qualität als zentrale Produktentscheidung statt als Checkbox behandelt, ist [Nibomo](https://flashcards-open-source-app.com/) in genau diese Richtung gebaut.

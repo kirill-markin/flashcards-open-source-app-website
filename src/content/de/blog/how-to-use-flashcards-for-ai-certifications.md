@@ -246,7 +246,7 @@ Wenn eher die Kartenqualität selbst der Schwachpunkt ist, würde ich als Nächs
 
 ## Wo Flashcards besser in diesen Workflow hineinpasst
 
-[Flashcards](https://flashcards-open-source-app.com/) passt gut zu dieser Art von Zertifizierungsvorbereitung, weil das Produkt die Teile bereits unterstützt, auf die dieser Workflow angewiesen ist:
+[Nibomo](https://flashcards-open-source-app.com/) passt gut zu dieser Art von Zertifizierungsvorbereitung, weil das Produkt die Teile bereits unterstützt, auf die dieser Workflow angewiesen ist:
 
 - Karten mit Vorder- und Rückseite für saubere Abrufprompts
 - KI-Chat für Entwürfe aus Notizen, Lernleitfäden und Material aus der Nachbereitung von Übungsfragen

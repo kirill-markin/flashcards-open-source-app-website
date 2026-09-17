@@ -263,7 +263,7 @@ Wenn deine tägliche Warteschlange zäh wird, ist [Wie du 2026 Flashcards schnel
 
 ## Wo Flashcards hier hineinpasst
 
-[Flashcards](/de/) passt gut zu diesem Workflow, weil es die Teile, die Level-II-Kandidaten meistens brauchen, schon an einem Ort bündelt:
+[Nibomo](/de/) passt gut zu diesem Workflow, weil es die Teile, die Level-II-Kandidaten meistens brauchen, schon an einem Ort bündelt:
 
 - Vorder- und Rückseitenkarten, die du klein halten kannst
 - Tags für Thema, LOS und Mock-Miss-Tracking

@@ -203,7 +203,7 @@ Halte die FSRS-Planung aus dem Experiment mit der Kartenfolge heraus. **Interlea
 
 ## So passt Flashcards in diesen Workflow
 
-Die [Flashcards Open Source App](/de/features/) übernimmt in diesem Workflow klar abgegrenzt die langfristige Wiederholung: mit eindeutigen Vorder-/Rückseitenkarten, vier Bewertungsoptionen pro Wiederholung und FSRS-Planung für fällige Karten. Die veröffentlichte Funktionsbeschreibung verspricht kein automatisches Interleaving über Decks oder Workspaces hinweg. Gehe daher nicht davon aus, dass eine normale Warteschlange fälliger Karten bewusst Kontrastpaare für dich zusammenstellt.
+[Nibomo](/de/features/) übernimmt in diesem Workflow klar abgegrenzt die langfristige Wiederholung: mit eindeutigen Vorder-/Rückseitenkarten, vier Bewertungsoptionen pro Wiederholung und FSRS-Planung für fällige Karten. Die veröffentlichte Funktionsbeschreibung verspricht kein automatisches Interleaving über Decks oder Workspaces hinweg. Gehe daher nicht davon aus, dass eine normale Warteschlange fälliger Karten bewusst Kontrastpaare für dich zusammenstellt.
 
 Halte die Aufgabenteilung klar:
 

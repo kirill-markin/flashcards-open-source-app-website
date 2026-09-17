@@ -235,9 +235,9 @@ Vergleiche dein Deck einmal pro Woche mit der Tabelle der Prüfungsbereiche. So 
 
 CompTIA empfiehlt für beide V15-Prüfungen 12 Monate praktische Berufserfahrung als IT Support Specialist. Das ist keine zusätzliche Zertifizierungsvoraussetzung, zeigt aber, wie viel praktischen Kontext die Prüfungsziele voraussetzen.
 
-## Wobei Flashcards Open Source App hilft
+## Wobei Nibomo hilft
 
-[Flashcards Open Source App](/features/) übernimmt den Teil des Lernens, bei dem es ums Behalten geht: einfache Karten mit Vorder- und Rückseite, Decks und Tags, die Wiederholung fälliger Karten mit FSRS, optionale KI-Hilfe bei Kartenentwürfen, mobiles Offline-Lernen mit Synchronisierung und portable Exportdateien. Die gehostete App ist während der aktuellen Beta kostenlos, und das Projekt kann selbst gehostet werden.
+[Nibomo](/features/) übernimmt den Teil des Lernens, bei dem es ums Behalten geht: einfache Karten mit Vorder- und Rückseite, Decks und Tags, die Wiederholung fälliger Karten mit FSRS, optionale KI-Hilfe bei Kartenentwürfen, mobiles Offline-Lernen mit Synchronisierung und portable Exportdateien. Die gehostete App ist während der aktuellen Beta kostenlos, und das Projekt kann selbst gehostet werden.
 
 Ein sauberes A+-Setup bleibt einfach:
 

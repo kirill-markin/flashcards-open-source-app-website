@@ -16,7 +16,7 @@ Nur weil sich ein Quizlet-Set bei bestehender Verbindung öffnen lässt, ist es 
 
 Ist das Offline-Speichern aktiviert, sichern die mobilen Apps automatisch acht zuletzt verwendete Sets. Weitere Sets kannst du selbst herunterladen. Auch das Erstellen und Bearbeiten funktioniert in den Apps ohne Internet. Laut Quizlet werden die Änderungen veröffentlicht, sobald du wieder online bist.
 
-> **Offenlegung:** Ich bin Kirill Markin und entwickle [Flashcards](/de/), eine andere Karteikarten-App. Dieser Leitfaden beschränkt sich auf das von Quizlet dokumentierte Verhalten. Wenn die Grenzen des mobilen Offline-Modus von Quizlet zu deinen Anforderungen passen, ist Flashcards nicht automatisch die bessere Alternative.
+> **Offenlegung:** Ich bin Kirill Markin und entwickle [Nibomo](/de/), eine andere Karteikarten-App. Dieser Leitfaden beschränkt sich auf das von Quizlet dokumentierte Verhalten. Wenn die Grenzen des mobilen Offline-Modus von Quizlet zu deinen Anforderungen passen, ist Nibomo nicht automatisch die bessere Alternative.
 
 **Fakten geprüft:** 14. August 2026.
 

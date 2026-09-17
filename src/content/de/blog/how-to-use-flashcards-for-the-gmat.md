@@ -241,7 +241,7 @@ Wenn dein Workflow ohnehin von Erklärungen und Fehlern ausgeht, geht [Wie du 20
 
 Dieser Teil sollte ausdrücklich drinbleiben.
 
-Flashcards Open Source App hat keine offizielle Integration mit GMAT oder GMAC. Nutze die App mit rechtmäßigen persönlichen Notizen, deinen eigenen Erklärungen und Zusammenfassungen aus der Nachbereitung von Übungsfragen. Nutze sie nicht, um eine Sammlung kopierter geschützter GMAT-Fragetexte, Antwortbanken oder anderer Materialien aufzubauen, die du nicht reproduzieren darfst.
+Nibomo hat keine offizielle Integration mit GMAT oder GMAC. Nutze die App mit rechtmäßigen persönlichen Notizen, deinen eigenen Erklärungen und Zusammenfassungen aus der Nachbereitung von Übungsfragen. Nutze sie nicht, um eine Sammlung kopierter geschützter GMAT-Fragetexte, Antwortbanken oder anderer Materialien aufzubauen, die du nicht reproduzieren darfst.
 
 In der Praxis ist die beste Karte ohnehin selten die vollständige Frage. Meist ist sie deine knappe Zusammenfassung davon, was schiefging und was das Ergebnis beim nächsten Mal verändert hätte.
 
@@ -277,9 +277,9 @@ Was FSRS nicht kann, ist aufgeblähte Karten oder veraltete Lernannahmen retten.
 
 Wenn du die Scheduling-Seite genauer verstehen willst, behandelt [Wie du 2026 mit FSRS für eine Prüfung lernst](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/) das direkt.
 
-## Wo Flashcards Open Source App hineinpasst
+## Wo Nibomo hineinpasst
 
-[Flashcards](https://flashcards-open-source-app.com/) passt gut zu dieser Art von GMAT-Vorbereitung, weil die App den etwas unangenehmen Zwischenschritt zwischen "Ich habe diese Frage falsch gemacht" und "Ich wiederhole morgen genau das richtige Gedächtnisziel" abdeckt.
+[Nibomo](https://flashcards-open-source-app.com/) passt gut zu dieser Art von GMAT-Vorbereitung, weil die App den etwas unangenehmen Zwischenschritt zwischen "Ich habe diese Frage falsch gemacht" und "Ich wiederhole morgen genau das richtige Gedächtnisziel" abdeckt.
 
 Nützliche Teile für diesen Workflow:
 
