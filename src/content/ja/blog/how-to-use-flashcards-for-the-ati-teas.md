@@ -269,7 +269,7 @@ TEAS 対策では、元の材料がすぐ散らかります。解説のコピー
 
 ## この ATI TEAS の流れの中で Flashcards がはまる場所
 
-[Flashcards](https://flashcards-open-source-app.com/) の中でこの運用を回したいなら、相性がいいのは公式連携ではなく実務面です。
+[Nibomo](https://flashcards-open-source-app.com/) の中でこの運用を回したいなら、相性がいいのは公式連携ではなく実務面です。
 
 公式の ATI 連携はありませんし、TEAS 専用モードもありません。役に立つ部分は、もっと単純です。
 

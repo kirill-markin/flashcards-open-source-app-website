@@ -259,7 +259,7 @@ keywords:
 
 ## Flashcards がこの流れに合う理由
 
-[Flashcards](https://flashcards-open-source-app.com/) は、**音声からフラッシュカードを作る流れ** と相性が良いです。このワークフローに必要な部品が、すでに1か所にそろっているからです。
+[Nibomo](https://flashcards-open-source-app.com/) は、**音声からフラッシュカードを作る流れ** と相性が良いです。このワークフローに必要な部品が、すでに1か所にそろっているからです。
 
 - AI チャット
 - ファイル添付

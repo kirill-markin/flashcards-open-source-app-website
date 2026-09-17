@@ -230,7 +230,7 @@ keywords:
 
 ## Flashcards がこの流れに合う理由
 
-[Flashcards](https://flashcards-open-source-app.com/) は、語彙学習の間隔反復と相性が良いです。このやり方に必要な要素が、最初からそろっているからです。
+[Nibomo](https://flashcards-open-source-app.com/) は、語彙学習の間隔反復と相性が良いです。このやり方に必要な要素が、最初からそろっているからです。
 
 - わかりやすい表面と裏面のカード
 - FSRS による復習スケジューリング

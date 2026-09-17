@@ -245,7 +245,7 @@ OpenAI の [Study Mode](https://openai.com/index/chatgpt-study-mode/) は、ガ�
 
 ## Flashcards がいちばんしっくりくる役割
 
-[Flashcards](/ja/) を、私は本格的な模擬試験プラットフォームとは呼びません。
+[Nibomo](/ja/) を、私は本格的な模擬試験プラットフォームとは呼びません。
 
 むしろ合うのは、解説、チュータリング、クイズ、練習問題がすでに診断を済ませたあと、その内容を定着させる役割です。
 

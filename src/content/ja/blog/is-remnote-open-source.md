@@ -154,7 +154,7 @@ RemNoteの[組み込みMCPサーバー](https://help.remnote.com/en/articles/164
 
 ## 開示事項：私はFlashcardsを開発しています
 
-> **開示事項：** 私はKirill Markinです。[Flashcards](https://flashcards-open-source-app.com/)を開発しています。MITライセンスのリポジトリには、Webアプリ、iOS・Androidクライアント、認証、バックエンド、同期、MCPサービス、AWSインフラが含まれています。現時点で公開されているソースの範囲はRemNoteより広いものの、すべての学習ワークフローでFlashcardsのほうが優れているという意味ではありません。
+> **開示事項：** 私はKirill Markinです。[Nibomo](https://flashcards-open-source-app.com/)を開発しています。MITライセンスのリポジトリには、Webアプリ、iOS・Androidクライアント、認証、バックエンド、同期、MCPサービス、AWSインフラが含まれています。現時点で公開されているソースの範囲はRemNoteより広いものの、すべての学習ワークフローでNibomoのほうが優れているという意味ではありません。
 
 Flashcardsが対象とする学習ワークフローは、より限定的です。相互にリンクしたノートを扱うナレッジベース、PDFリーダー、ネイティブのデスクトップアプリ、RemNoteからの直接インポート機能はありません。ノート、参照、元資料が学習の中心なら、RemNoteのほうが成熟しており、機能もはるかに充実しています。ライセンスだけを理由に移行すると、コレクションを役立つものにしていたワークフローを失う可能性があります。
 

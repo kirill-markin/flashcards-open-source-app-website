@@ -245,7 +245,7 @@ AP Psychologyの対策は、めったにきれいには進みません。ある�
 
 ## AP Psychologyの学習フローの中で、Flashcardsはどこにはまるのか
 
-[Flashcards](https://flashcards-open-source-app.com/) の中でこれを回したいなら、役に立つのは「AIが魔法のようにAP Psychを勉強してくれる」という曖昧な約束ではありません。
+[Nibomo](https://flashcards-open-source-app.com/) の中でこれを回したいなら、役に立つのは「AIが魔法のようにAP Psychを勉強してくれる」という曖昧な約束ではありません。
 
 役に立つのは、製品がすでにこのワークフローの真ん中に合っていることです。
 

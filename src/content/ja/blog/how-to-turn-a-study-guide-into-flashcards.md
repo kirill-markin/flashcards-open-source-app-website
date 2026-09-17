@@ -283,7 +283,7 @@ AI のガイドでは、整いすぎた文章を、本当に覚えたいとこ�
 
 ## Flashcards が合う理由
 
-[Flashcards](https://flashcards-open-source-app.com/) は、勉強ガイドをフラッシュカードにする流れと相性が良いです。必要な要素がすでに揃っているからです。
+[Nibomo](https://flashcards-open-source-app.com/) は、勉強ガイドをフラッシュカードにする流れと相性が良いです。必要な要素がすでに揃っているからです。
 
 - 荒い勉強ガイドの文章を組み替えるための AI チャット
 - ファイルと画像の添付

@@ -241,7 +241,7 @@ SAA-C03 には、覚える価値はあるが、コアデッキの中心には置
 
 ## この運用で Flashcards が合う理由
 
-[Flashcards](https://flashcards-open-source-app.com/) がこの種の試験対策に合っているのは、この作業の 2 つの側面を、同じものだとごまかさずに両方支えられるからです。
+[Nibomo](https://flashcards-open-source-app.com/) がこの種の試験対策に合っているのは、この作業の 2 つの側面を、同じものだとごまかさずに両方支えられるからです。
 
 できることは次のとおりです。
 

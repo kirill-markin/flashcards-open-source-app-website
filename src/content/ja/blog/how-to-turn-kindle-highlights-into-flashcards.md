@@ -227,9 +227,9 @@ FSRS は、その現実を固定的な復習ルールよりうまく扱えます
 
 - [2026年の FSRS vs SM-2: どの間隔反復アルゴリズムがより多く覚えられるか](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
 
-## Flashcards Open Source App が向いている理由
+## Nibomo が向いている理由
 
-[Flashcards Open Source App](https://flashcards-open-source-app.com/) は、Kindle のハイライトをフラッシュカード化したいときに相性が良いです。必要な作業の実務的な部分が、すでにそろっているからです。
+[Nibomo](https://flashcards-open-source-app.com/) は、Kindle のハイライトをフラッシュカード化したいときに相性が良いです。必要な作業の実務的な部分が、すでにそろっているからです。
 
 - 書き出したハイライトの本文を貼り付けるかアップロードできる
 - カードを作る前に AI チャットで内容を整えられる
@@ -261,7 +261,7 @@ FSRS は、その現実を固定的な復習ルールよりうまく扱えます
 
 それが欲しいなら、ここから始めてください。
 
-- [Flashcards Open Source App を開く](https://flashcards-open-source-app.com/)
+- [Nibomo を開く](https://flashcards-open-source-app.com/)
 - [スタートガイドを読む](https://flashcards-open-source-app.com/docs/getting-started/)
 - [API ドキュメントを読む](https://flashcards-open-source-app.com/docs/api/)
 - [GitHub でソースを見る](https://github.com/kirill-markin/flashcards-open-source-app)

@@ -205,7 +205,7 @@ FSRS は、「ここに穴があった」と気づいたことを、「来週ま
 
 ## Flashcards の出番
 
-[Flashcards](/) は、Gemini Guided Learning を置き換えようとしているわけではありません。
+[Nibomo](/) は、Gemini Guided Learning を置き換えようとしているわけではありません。
 
 入る場所はセッションのあとです。何を覚える価値があるのかが見えた、そのあとです。
 

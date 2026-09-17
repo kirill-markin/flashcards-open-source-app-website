@@ -235,7 +235,7 @@ FAR、AUD、REG、BAR、ISC、TCP のどれでも、問題を落としたとき�
 
 ## このCPAワークフローの中でFlashcardsがはまる場所
 
-[Flashcards](https://flashcards-open-source-app.com/) の中でこの流れを回すなら、便利なのは「AI が魔法みたいに CPA 試験に受からせてくれる」という曖昧な約束ではありません。
+[Nibomo](https://flashcards-open-source-app.com/) の中でこの流れを回すなら、便利なのは「AI が魔法みたいに CPA 試験に受からせてくれる」という曖昧な約束ではありません。
 
 本当に便利なのは、製品がすでにこのワークフローの雑で面倒な中間工程を支えていることです。
 

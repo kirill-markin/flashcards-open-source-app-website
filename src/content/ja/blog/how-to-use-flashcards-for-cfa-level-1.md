@@ -275,7 +275,7 @@ CFA関連の細部は変わります。試験ウィンドウ、受験料、登�
 
 ## このCFAワークフローでFlashcardsが合う場所
 
-[Flashcards](https://flashcards-open-source-app.com/) は、CFA Instituteの教材を置き換えるふりをせず、CFAデッキで本当に必要な部分を支えられるので、このワークフローに合います。
+[Nibomo](https://flashcards-open-source-app.com/) は、CFA Instituteの教材を置き換えるふりをせず、CFAデッキで本当に必要な部分を支えられるので、このワークフローに合います。
 
 - 表/裏カードの作成と編集
 - トピックと出典を整理するためのデッキとタグ

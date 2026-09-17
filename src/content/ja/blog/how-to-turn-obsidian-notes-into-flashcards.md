@@ -119,7 +119,7 @@ Vault のノートの多くは省略表現で書かれています。それ自�
 
 ## Flashcards は、Vault の代わりを装わずに Obsidian ワークフローへ収まる
 
-[Flashcards](https://flashcards-open-source-app.com/) がここに合うのは、ワークフローのうち勉強の部分をすっきり担当してくれるからです。
+[Nibomo](https://flashcards-open-source-app.com/) がここに合うのは、ワークフローのうち勉強の部分をすっきり担当してくれるからです。
 
 - 表裏カードを作れる
 - 貼り付けたテキストから AI チャットで下書きできる
