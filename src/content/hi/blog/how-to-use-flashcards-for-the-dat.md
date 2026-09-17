@@ -117,7 +117,7 @@ Practical workflow सीधा है:
 
 DAT prep में AI तब उपयोगी है जब आप उसे authority नहीं, drafting assistant की तरह treat करें। अच्छे use cases हैं: साफ़ biology notes को short Q-and-A candidates में बदलना, organic chemistry mistake log को tighter बनाना, या PAT review note को reusable rule card में बदलना। खराब use cases हैं: किसी giant auto-generated deck पर भरोसा करना, या ऐसे cards रख लेना जो polished तो लगते हों लेकिन test कुछ भी नहीं करते।
 
-अगर आप drafting, reviewing, और editing एक ही जगह रखना चाहते हैं, तो Flashcards Open Source App यहाँ natural fit है। Hosted app card creation, FSRS review, और AI chat को एक workflow में जोड़ता है, ताकि आप अपने notes या mistake logs से cards draft करें और review में डालने से पहले उन्हें साफ़ कर लें। Product surface [Features](/features/) पर समझाया गया है और setup [Getting Started](/docs/getting-started/) में covered है।
+अगर आप drafting, reviewing, और editing एक ही जगह रखना चाहते हैं, तो Nibomo यहाँ natural fit है। Hosted app card creation, FSRS review, और AI chat को एक workflow में जोड़ता है, ताकि आप अपने notes या mistake logs से cards draft करें और review में डालने से पहले उन्हें साफ़ कर लें। Product surface [Features](/features/) पर समझाया गया है और setup [Getting Started](/docs/getting-started/) में covered है।
 
 Editing rule सीधी है: हर card एक ही चीज़ test करे जिसे आप pressure में सच में retrieve करना चाहते हैं। अगर वह ऐसा नहीं करती, तो उसे delete कर दें।
 

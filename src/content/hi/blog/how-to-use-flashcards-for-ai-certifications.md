@@ -246,7 +246,7 @@ Certification prep बार-बार आपको ज़रूरत से �
 
 ## इस workflow में Flashcards कहाँ बेहतर बैठता है
 
-[Flashcards](https://flashcards-open-source-app.com/) इस तरह की certification prep के लिए इसलिए अच्छा विकल्प है, क्योंकि product पहले से उन हिस्सों को support करता है जिन पर यह workflow टिका है:
+[Nibomo](https://flashcards-open-source-app.com/) इस तरह की certification prep के लिए इसलिए अच्छा विकल्प है, क्योंकि product पहले से उन हिस्सों को support करता है जिन पर यह workflow टिका है:
 
 - साफ़ recall prompts के लिए front/back cards
 - notes, study guides, और question-review material से draft बनाने के लिए AI chat
@@ -276,7 +276,7 @@ Certification prep बार-बार आपको ज़रूरत से �
 
 अगर आप यह workflow आज़माना चाहते हैं:
 
-- [Flashcards खोलें](https://flashcards-open-source-app.com/)
+- [Nibomo खोलें](https://flashcards-open-source-app.com/)
 - [ऐप खोलें](https://app.flashcards-open-source-app.com/)
 - [features पेज पढ़ें](https://flashcards-open-source-app.com/features/)
 - [GitHub पर स्रोत देखें](https://github.com/kirill-markin/flashcards-open-source-app)

@@ -240,7 +240,7 @@ Summaries से निकले ज़्यादातर useful cards एक
 
 ## Product fit वादे से छोटा है, और यही अच्छी बात है
 
-[Flashcards](/hi/) इस workflow में बाद में fit बैठता है, तब जब आपके पास summary पहले से हो और आप तय कर चुके हों कि क्या चीज़ सच में review deserve करती है।
+[Nibomo](/hi/) इस workflow में बाद में fit बैठता है, तब जब आपके पास summary पहले से हो और आप तय कर चुके हों कि क्या चीज़ सच में review deserve करती है।
 
 यह अच्छा fit है क्योंकि useful next steps काफ़ी narrow हैं:
 

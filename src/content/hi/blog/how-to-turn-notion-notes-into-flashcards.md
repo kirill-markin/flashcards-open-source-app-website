@@ -187,7 +187,7 @@ direct sync सुनने में अच्छा लगता है, ज�
 
 ## इस तरीके में Flashcards कहाँ सबसे अच्छी तरह फिट बैठता है
 
-[Flashcards](https://flashcards-open-source-app.com/) **Notion notes को flashcards में बदलें** वाले काम के लिए इसलिए अच्छा विकल्प है, क्योंकि यह product उन हिस्सों को एक साथ लाती है जिन्हें लोग अक्सर हाथ से जोड़ते हैं:
+[Nibomo](https://flashcards-open-source-app.com/) **Notion notes को flashcards में बदलें** वाले काम के लिए इसलिए अच्छा विकल्प है, क्योंकि यह product उन हिस्सों को एक साथ लाती है जिन्हें लोग अक्सर हाथ से जोड़ते हैं:
 
 - drafting के लिए AI chat
 - exported pages के लिए file attachments
@@ -246,4 +246,4 @@ Flashcards दोहराव की व्यवस्था सँभालत
 
 **Notion से flashcards** का यही वह रूप है जिस पर मुझे सचमुच भरोसा है। इसमें one-click pitch वाला दिखावटी जादू कम है, सही जगहों पर थोड़ा-सा हाथ का काम ज़्यादा है, और इस बात की संभावना कहीं अधिक है कि अगले हफ्ते भी आप उन्हीं कार्डों को पढ़ना चाहेंगे।
 
-अगर आप यही workflow चाहते हैं, तो [Flashcards](https://flashcards-open-source-app.com/) अच्छा विकल्प है: नोट्स export करें, AI से कार्ड का मसौदा बनवाएँ, कमज़ोर कार्ड जल्दी हटाएँ, और नतीजे को किसी नोट्स वाले औज़ार के भीतर फँसाकर छोड़ने के बजाय एक असली spaced repetition system में पढ़ें।
+अगर आप यही workflow चाहते हैं, तो [Nibomo](https://flashcards-open-source-app.com/) अच्छा विकल्प है: नोट्स export करें, AI से कार्ड का मसौदा बनवाएँ, कमज़ोर कार्ड जल्दी हटाएँ, और नतीजे को किसी नोट्स वाले औज़ार के भीतर फँसाकर छोड़ने के बजाय एक असली spaced repetition system में पढ़ें।

@@ -276,9 +276,9 @@ AI का इस्तेमाल इन कामों के लिए म�
 
 आपको बस वही पंद्रह सबक बार-बार भूलना बंद करना है।
 
-## Flashcards Open Source App कहाँ फिट बैठता है
+## Nibomo कहाँ फिट बैठता है
 
-[Flashcards Open Source App](https://flashcards-open-source-app.com/) **कोडिंग इंटरव्यू फ्लैशकार्ड** के लिए अच्छा विकल्प है, क्योंकि यह प्रॉडक्ट पहले से वही चीज़ें सपोर्ट करता है जो सच में मायने रखती हैं:
+[Nibomo](https://flashcards-open-source-app.com/) **कोडिंग इंटरव्यू फ्लैशकार्ड** के लिए अच्छा विकल्प है, क्योंकि यह प्रॉडक्ट पहले से वही चीज़ें सपोर्ट करता है जो सच में मायने रखती हैं:
 
 - manual interval tuning के बिना बार-बार रिव्यू के लिए FSRS scheduling
 - tag और effort level के आधार पर decks, tags, search और filtered decks

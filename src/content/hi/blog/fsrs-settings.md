@@ -21,7 +21,7 @@ Anki में **Desired retention** को 90% से 95% करना मा�
 
 नीचे दिए गए labels और उनका व्यवहार [Anki 26.08 release](https://github.com/ankitects/anki/releases/tag/26.08) और उसके FSRS-6 controls से मेल खाते हैं। अगर आपको सेटिंग्स से पहले मॉडल समझना है, तो [FSRS क्या है?](/blog/what-is-fsrs/) पढ़ें। अगर आप अभी scheduler चुन रहे हैं, तो [FSRS बनाम SM-2](/blog/fsrs-vs-sm-2/) से शुरू करें।
 
-> **खुलासा:** मैं Kirill Markin हूँ और [Flashcards Open Source App](/features/) बनाता हूँ। Anki में व्यक्तिगत parameter fitting और experimental workload simulators मिलते हैं, जो फ़िलहाल Flashcards में नहीं हैं। लेख के आख़िर में दी गई तुलना इन फ़र्क़ों को साफ़ रखती है।
+> **खुलासा:** मैं Kirill Markin हूँ और [Nibomo](/features/) बनाता हूँ। Anki में व्यक्तिगत parameter fitting और experimental workload simulators मिलते हैं, जो फ़िलहाल Nibomo में नहीं हैं। लेख के आख़िर में दी गई तुलना इन फ़र्क़ों को साफ़ रखती है।
 
 **तथ्यों की जाँच:** 8 सितंबर 2026।
 
@@ -191,9 +191,9 @@ FSRS reviews को बाँट सकता है; नए कार्डो�
 
 ## Anki और Flashcards में FSRS controls अलग हैं
 
-दोनों products FSRS-6 इस्तेमाल करते हैं, मगर Anki की FSRS सेटिंग्स और Flashcards Open Source App की सेटिंग्स एक-दूसरे से हूबहू नहीं मिलतीं।
+दोनों products FSRS-6 इस्तेमाल करते हैं, मगर Anki की FSRS सेटिंग्स और Nibomo की सेटिंग्स एक-दूसरे से हूबहू नहीं मिलतीं।
 
-| क्षमता | Anki 26.08 | Flashcards Open Source App |
+| क्षमता | Anki 26.08 | Nibomo |
 | --- | --- | --- |
 | Desired retention | **Shared Preset** या **This deck** | हर workspace के लिए configurable; default `0.90` |
 | FSRS parameters | Review history से **Optimize Current Preset** या **Optimize All Presets** | आधिकारिक FSRS-6 default weights तय हैं और v1 में user उन्हें बदल नहीं सकता |

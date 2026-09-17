@@ -248,7 +248,7 @@ Fix सीधा है। AI को fast draft करने दें, फि�
 
 ## इस GRE workflow में Flashcards कहाँ fit बैठता है
 
-अगर आप इसे [Flashcards](https://flashcards-open-source-app.com/hi/) के भीतर चलाना चाहते हैं, तो उपयोगी बात यह नहीं है कि "AI पढ़ाई को आसान बना देता है।" असली बात यह है कि मौजूदा product पहले से workflow के इस practical middle को support करता है:
+अगर आप इसे [Nibomo](https://flashcards-open-source-app.com/hi/) के भीतर चलाना चाहते हैं, तो उपयोगी बात यह नहीं है कि "AI पढ़ाई को आसान बना देता है।" असली बात यह है कि मौजूदा product पहले से workflow के इस practical middle को support करता है:
 
 - front/back cards बनाना और edit करना
 - drafting और cleanup के लिए AI chat
@@ -274,7 +274,7 @@ Fix सीधा है। AI को fast draft करने दें, फि�
 
 अगर आप यह workflow Flashcards में आज़माना चाहते हैं:
 
-- [Flashcards से शुरू करें](https://flashcards-open-source-app.com/hi/)
+- [Nibomo से शुरू करें](https://flashcards-open-source-app.com/hi/)
 - [Web app खोलें](https://app.flashcards-open-source-app.com/)
 - [Getting started guide पढ़ें](https://flashcards-open-source-app.com/hi/docs/getting-started/)
 - [GitHub पर source code देखें](https://github.com/kirill-markin/flashcards-open-source-app)

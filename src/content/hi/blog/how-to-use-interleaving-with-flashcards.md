@@ -205,7 +205,7 @@ Sequencing experiment से scheduler को अलग रखें। Spaced r
 
 ## Flashcards इस workflow में कैसे फिट होता है
 
-[Flashcards Open Source App](/hi/features/) इस workflow को साफ़ retention layer देता है: स्पष्ट front/back cards, चार review ratings और due cards के लिए FSRS scheduling। इसके घोषित features decks या workspaces के बीच automatic interleaving का वादा नहीं करते, इसलिए यह न मानें कि normal due queue आपके लिए जानबूझकर contrast pairs बना रही है।
+[Nibomo](/hi/features/) इस workflow को साफ़ retention layer देता है: स्पष्ट front/back cards, चार review ratings और due cards के लिए FSRS scheduling। इसके घोषित features decks या workspaces के बीच automatic interleaving का वादा नहीं करते, इसलिए यह न मानें कि normal due queue आपके लिए जानबूझकर contrast pairs बना रही है।
 
 यह सीमा साफ़ रखें:
 

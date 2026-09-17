@@ -226,9 +226,9 @@ Objective documents candidates को unauthorized third-party material से �
 
 CompTIA दोनों V15 exams के लिए IT support specialist role में 12 महीने के hands-on experience की सलाह देता है। यह केवल सलाह है, कोई अतिरिक्त certification requirement नहीं, लेकिन यह उस practical context के स्तर की अच्छी याद दिलाता है जिसकी objectives में उम्मीद की गई है।
 
-## इस workflow में Flashcards Open Source App कहाँ काम आता है
+## इस workflow में Nibomo कहाँ काम आता है
 
-[Flashcards Open Source App](/features/) याद रखने वाला हिस्सा संभालता है: साधारण front-and-back cards, decks और tags, FSRS से due review, card drafts बनाने में optional AI help, sync के साथ offline mobile study और portable exports। मौजूदा beta के दौरान hosted app मुफ़्त है और project को self-host भी किया जा सकता है।
+[Nibomo](/features/) याद रखने वाला हिस्सा संभालता है: साधारण front-and-back cards, decks और tags, FSRS से due review, card drafts बनाने में optional AI help, sync के साथ offline mobile study और portable exports। मौजूदा beta के दौरान hosted app मुफ़्त है और project को self-host भी किया जा सकता है।
 
 A+ का setup सरल रखा जा सकता है:
 

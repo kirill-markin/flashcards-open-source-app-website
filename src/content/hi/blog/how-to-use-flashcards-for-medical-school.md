@@ -252,7 +252,7 @@ Scheduling का यही हिस्सा है जिस पर मुझ
 
 ## इस workflow में Flashcards कहाँ बेहतर fit बैठता है
 
-[Flashcards](https://flashcards-open-source-app.com/) **मेडिकल स्कूल फ्लैशकार्ड** के लिए अच्छा fit है, क्योंकि product पहले से उन हिस्सों को support करता है जिन पर यह workflow depend करता है:
+[Nibomo](https://flashcards-open-source-app.com/) **मेडिकल स्कूल फ्लैशकार्ड** के लिए अच्छा fit है, क्योंकि product पहले से उन हिस्सों को support करता है जिन पर यह workflow depend करता है:
 
 - साफ़ recall prompts के लिए front/back cards
 - lecture text, notes, या question-review material से candidate cards draft करने के लिए AI chat
@@ -274,4 +274,4 @@ Scheduling का यही हिस्सा है जिस पर मुझ
 
 न कोई बहुत बड़ा archive, न folders सँभालने का कोई अलग शौक। ऐसा deck जो तब भी समझ में आए, जब block व्यस्त हो जाए और question stems और मुश्किल होने लगें।
 
-अगर आप ऐसे workflow के लिए बना हुआ tool चाहते हैं, तो [Flashcards](https://flashcards-open-source-app.com/) एक मज़बूत विकल्प है। यह front/back cards, AI-assisted drafting, tags, filtered review, और FSRS को एक ही open-source stack में देता है, जो anatomy lab से लेकर board-style prep तक उपयोगी रह सकता है।
+अगर आप ऐसे workflow के लिए बना हुआ tool चाहते हैं, तो [Nibomo](https://flashcards-open-source-app.com/) एक मज़बूत विकल्प है। यह front/back cards, AI-assisted drafting, tags, filtered review, और FSRS को एक ही open-source stack में देता है, जो anatomy lab से लेकर board-style prep तक उपयोगी रह सकता है।

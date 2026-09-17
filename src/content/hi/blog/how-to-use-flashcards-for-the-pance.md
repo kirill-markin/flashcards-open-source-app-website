@@ -285,11 +285,11 @@ PANCE memory एक बहुत normal तरीके से uneven होत�
 
 अगर आप scheduling details चाहते हैं, तो [2026 में FSRS settings](/hi/blog/fsrs-settings/) और [2026 में FSRS के साथ exam की तैयारी कैसे करें](/hi/blog/how-to-study-for-an-exam-with-fsrs/) सही follow-up हैं।
 
-## इस PANCE workflow में Flashcards Open Source App कहाँ फिट बैठता है
+## इस PANCE workflow में Nibomo कहाँ फिट बैठता है
 
 इस तरह की prep तब बेहतर चलती है जब tool boring parts को अच्छी तरह संभालता हो।
 
-Flashcards Open Source App PANCE prep में फिट बैठता है, क्योंकि आप:
+Nibomo PANCE prep में फिट बैठता है, क्योंकि आप:
 
 - अपने notes या question explanations से cards draft कर सकते हैं
 - overloaded cards को split कर सकते हैं, इससे पहले कि वे daily review debt बन जाएँ

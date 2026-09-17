@@ -227,9 +227,9 @@ FSRS fixed review rules की तुलना में इस वास्त�
 
 - [2026 में FSRS बनाम SM-2](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
 
-## Flashcards Open Source App कहाँ फिट बैठता है
+## Nibomo कहाँ फिट बैठता है
 
-[Flashcards Open Source App](https://flashcards-open-source-app.com/) **Kindle highlights से flashcards** के लिए अच्छा fit है क्योंकि product पहले से workflow के practical parts cover करता है:
+[Nibomo](https://flashcards-open-source-app.com/) **Kindle highlights से flashcards** के लिए अच्छा fit है क्योंकि product पहले से workflow के practical parts cover करता है:
 
 - exported highlights से text paste या upload करना
 - cards बनाने से पहले AI chat में material साफ़ करना

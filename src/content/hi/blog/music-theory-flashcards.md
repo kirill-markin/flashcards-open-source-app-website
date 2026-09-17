@@ -179,7 +179,7 @@ Music theory में काम आने वाले mixes हैं:
 
 बेतरतीब variety लक्ष्य नहीं है। ऐसी categories मिलाएँ जो एक जैसी दिखती हों, जिनमें अलग-अलग rules के बीच चुनना पड़ता हो या जो असली analysis में साथ आती हों। Session में listening और performed work भी रखें, लेकिन सिर्फ़ इसलिए लिखित card को ear training न कहें कि उसके पास कोई audio exercise रखा है।
 
-[फ़्लैशकार्ड के साथ interleaving की guide](/hi/blog/how-to-use-interleaving-with-flashcards/) एक category से mixed progression तक जाने का तरीका ज़्यादा विस्तार से बताती है। Flashcards Open Source App अपने-आप deliberate contrast sets नहीं बनाता, इसलिए संबंधित prompts आपको खुद चुनने होंगे।
+[फ़्लैशकार्ड के साथ interleaving की guide](/hi/blog/how-to-use-interleaving-with-flashcards/) एक category से mixed progression तक जाने का तरीका ज़्यादा विस्तार से बताती है। Nibomo अपने-आप deliberate contrast sets नहीं बनाता, इसलिए संबंधित prompts आपको खुद चुनने होंगे।
 
 ## कितने म्यूज़िक थ्योरी फ़्लैशकार्ड बनाने चाहिए?
 
@@ -196,9 +196,9 @@ Music theory में काम आने वाले mixes हैं:
 
 Tags की मदद से हर छोटी category को अलग deck में बाँटे बिना छोटा contrast set बनाया जा सकता है। अगर card का पिछला हिस्सा कई definitions, exceptions और examples जमा करने लगे, तो [बेहतर फ़्लैशकार्ड बनाने की guide](/hi/blog/how-to-make-better-flashcards/) काम आएगी।
 
-## Flashcards Open Source App कहाँ काम आता है
+## Nibomo कहाँ काम आता है
 
-[Flashcards Open Source App](/hi/features/) front/back cards, decks और tags देता है, साथ ही `Again`, `Hard`, `Good` और `Easy` वाली FSRS due reviews भी। यह web, iOS और Android पर offline-first है। इसका source MIT license के तहत उपलब्ध है और self-hosting supported है।
+[Nibomo](/hi/features/) front/back cards, decks और tags देता है, साथ ही `Again`, `Hard`, `Good` और `Easy` वाली FSRS due reviews भी। यह web, iOS और Android पर offline-first है। इसका source MIT license के तहत उपलब्ध है और self-hosting supported है।
 
 AI chat upload की गई files या images के साथ काम करके lesson page या notation crop से candidate cards का draft बना सकता है। Save करने से पहले हर pitch, accidental, symbol और answer को लागू होने वाले source से जाँचें। App में notation editor, ear-training engine, official music-theory course या deck, automatic fact verification या automatic interleaving नहीं है। ये काम अभी भी आपके course materials और music practice में रहते हैं।
 

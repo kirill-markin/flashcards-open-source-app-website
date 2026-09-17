@@ -25,7 +25,7 @@ keywords:
 
 ## FSRS शेड्यूलर है, फ़्लैशकार्ड ऐप नहीं
 
-Anki में FSRS का इस्तेमाल किया जा सकता है। Flashcards Open Source App भी FSRS इस्तेमाल करता है। दूसरे products और libraries भी इसे लागू कर सकते हैं। [open-spaced-repetition project](https://github.com/open-spaced-repetition) इसके model, implementations और सहायक tools को खुले तौर पर उपलब्ध कराता है।
+Anki में FSRS का इस्तेमाल किया जा सकता है। Nibomo भी FSRS इस्तेमाल करता है। दूसरे products और libraries भी इसे लागू कर सकते हैं। [open-spaced-repetition project](https://github.com/open-spaced-repetition) इसके model, implementations और सहायक tools को खुले तौर पर उपलब्ध कराता है।
 
 Product और शेड्यूलर की भूमिकाएँ अलग-अलग हैं:
 
@@ -173,7 +173,7 @@ FSRS खराब input को भी बहुत सावधानी से 
 
 ## Flashcards में FSRS कैसे लागू किया गया है
 
-> **Disclosure:** मैं Kirill Markin हूँ और [Flashcards Open Source App](/features/) बनाता हूँ। यह हिस्सा जारी हो चुके product के व्यवहार का वर्णन करता है; यह दावा नहीं करता कि हर विद्यार्थी को कोई दूसरा ऐप छोड़ देना चाहिए।
+> **Disclosure:** मैं Kirill Markin हूँ और [Nibomo](/features/) बनाता हूँ। यह हिस्सा जारी हो चुके product के व्यवहार का वर्णन करता है; यह दावा नहीं करता कि हर विद्यार्थी को कोई दूसरा ऐप छोड़ देना चाहिए।
 
 Flashcards इस समय आधिकारिक `ts-fsrs` 5.2.3 scheduling flow के अनुरूप **FSRS-6** लागू करता है। इसमें standard Again, Hard, Good और Easy ratings इस्तेमाल होती हैं। Backend, iOS और Android के शेड्यूलर एक जैसा व्यवहार करते हैं, जबकि web review flow backend शेड्यूलर का ही दोबारा इस्तेमाल करता है।
 

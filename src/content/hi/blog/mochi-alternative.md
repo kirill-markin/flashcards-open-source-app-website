@@ -23,7 +23,7 @@ Mochi में कार्ड बनाने की शुरुआत सा
 
 एक डिवाइस वाले workflow में मुफ़्त प्लान केवल trial नहीं है: sign-up ज़रूरी नहीं और Mochi के दस्तावेज़ों के मुताबिक ऑफ़लाइन इस्तेमाल की कोई सीमा नहीं है। मगर अलग-अलग डिवाइस के बीच sync केवल **US$5 प्रति माह वाले Pro प्लान** में मिलता है। Anki user के लिए असली कीमत migration में होने वाला नुकसान है। Mochi Anki का package और उसकी review history इम्पोर्ट कर सकता है, लेकिन हर template, style, script, scheduler setting या add-on behavior को जस का तस नहीं रख सकता।
 
-> **खुलासा:** मैं Kirill Markin हूँ और [Flashcards Open Source App](/hi/) बनाता हूँ। यह स्रोतों की जाँच पर आधारित workflow समीक्षा है; मैं यह दावा नहीं कर रहा कि मैंने खुद product को इस्तेमाल करके test किया है। इसमें कोई affiliate link नहीं है। मुख्य तुलना Mochi और Anki की ही है; मेरा product अंत के पास साफ़ तौर पर चिह्नित विकल्प के रूप में ही आता है।
+> **खुलासा:** मैं Kirill Markin हूँ और [Nibomo](/hi/) बनाता हूँ। यह स्रोतों की जाँच पर आधारित workflow समीक्षा है; मैं यह दावा नहीं कर रहा कि मैंने खुद product को इस्तेमाल करके test किया है। इसमें कोई affiliate link नहीं है। मुख्य तुलना Mochi और Anki की ही है; मेरा product अंत के पास साफ़ तौर पर चिह्नित विकल्प के रूप में ही आता है।
 
 **तथ्यों की जाँच:** 7 सितंबर 2026। [Mochi के changelog में दिखाई देने वाली सबसे नई रिलीज़](https://mochi.cards/changelog/) version 26.8.2 थी, जिसकी तारीख 10 अगस्त 2026 थी। कीमतें और app-store से जुड़ी जानकारी बदल सकती हैं।
 
@@ -210,7 +210,7 @@ Anki पर बने रहें, जब:
 - आपको Anki का FSRS optimizer, preset controls, चार grades और workload simulator चाहिए;
 - कई वर्षों का review data और custom behavior पहले से ठीक काम कर रहे हैं।
 
-अगर दोनों में से कोई भी विकल्प सही नहीं बैठता, तो सबसे समझदार Mochi alternative इस बात पर निर्भर करेगा कि आपको उनमें कमी क्या लगती है। नए और सरल collection के लिए [Flashcards Open Source App की खूबियों](/hi/features/) में FSRS reviews, offline study और sync, cards/tags/media का portable transfer, agent access और दस्तावेज़ों में दिया गया self-hosted रास्ता शामिल है। मैं इसे बनाता हूँ और इसकी सीमाएँ भी यहाँ मायने रखती हैं: यह Mochi के connected Markdown notebook या Anki के परिपक्व template और add-on system की जगह नहीं लेता। [शुरुआत करने की guide](/hi/docs/getting-started/) अभी उपलब्ध hosted, mobile, agent और self-hosted तरीके दिखाती है।
+अगर दोनों में से कोई भी विकल्प सही नहीं बैठता, तो सबसे समझदार Mochi alternative इस बात पर निर्भर करेगा कि आपको उनमें कमी क्या लगती है। नए और सरल collection के लिए [Nibomo की खूबियों](/hi/features/) में FSRS reviews, offline study और sync, cards/tags/media का portable transfer, agent access और दस्तावेज़ों में दिया गया self-hosted रास्ता शामिल है। मैं इसे बनाता हूँ और इसकी सीमाएँ भी यहाँ मायने रखती हैं: यह Mochi के connected Markdown notebook या Anki के परिपक्व template और add-on system की जगह नहीं लेता। [शुरुआत करने की guide](/hi/docs/getting-started/) अभी उपलब्ध hosted, mobile, agent और self-hosted तरीके दिखाती है।
 
 ## निचोड़
 

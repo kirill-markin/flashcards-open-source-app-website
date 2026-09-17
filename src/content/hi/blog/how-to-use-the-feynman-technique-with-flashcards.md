@@ -220,7 +220,7 @@ Feynman technique rough material बनाती है। अक्सर अ�
 - AI tutoring session से weak-spot list
 - आधे-साफ़ card drafts जिन्हें आप अभी edit करना चाहते हैं
 
-यह [Flashcards Open Source App](/hi/) के लिए अच्छा fit है।
+यह [Nibomo](/hi/) के लिए अच्छा fit है।
 
 Product पहले से इस workflow के उपयोगी हिस्से को support करता है:
 

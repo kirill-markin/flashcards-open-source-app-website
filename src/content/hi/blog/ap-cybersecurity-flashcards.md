@@ -172,9 +172,9 @@ Cards याद करने वाले छोटे हिस्सों म
 
 मई करीब आने पर नए cards बनाना कम करें। याद से जवाब देने, अनजान evidence का अर्थ निकालने और समय-सीमा में source sets पूरे करने पर ज़्यादा समय दें। Cards की बढ़ती गिनती लक्ष्य नहीं है। Evidence के आधार पर भरोसेमंद फैसले लेना लक्ष्य है।
 
-## इस workflow में Flashcards Open Source App कहाँ काम आता है
+## इस workflow में Nibomo कहाँ काम आता है
 
-[Flashcards Open Source App की सुविधाएँ](/features/) इस workflow के सीधे हिस्से संभालती हैं: front/back cards बनाना, due review और FSRS scheduling। ऊपर दिए पाँच formats के लिए किसी खास AP template की ज़रूरत नहीं है।
+[Nibomo की सुविधाएँ](/features/) इस workflow के सीधे हिस्से संभालती हैं: front/back cards बनाना, due review और FSRS scheduling। ऊपर दिए पाँच formats के लिए किसी खास AP template की ज़रूरत नहीं है।
 
 Optional AI chat में workspace data और file attachments के साथ काम किया जा सकता है। इनमें supported plain-text uploads भी शामिल हैं। यह संभावित cards का draft बनाने या बहुत लंबे जवाब को छोटा करने में मदद कर सकता है। Save करने से पहले हर technical claim को course materials से जाँचें। AI से बने cards को कभी official AP content न मानें।
 

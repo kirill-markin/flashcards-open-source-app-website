@@ -261,9 +261,9 @@ Level II prep में पहले से ही काफ़ी moving parts 
 
 अगर आपकी daily queue चिपचिपी होने लगे, तो और cards जोड़ने से पहले [2026 में flashcards को तेज़ी से review कैसे करें](/hi/blog/how-to-review-flashcards-faster/) अच्छा cleanup pass है।
 
-## इस workflow में Flashcards Open Source App कहाँ फिट बैठता है
+## इस workflow में Nibomo कहाँ फिट बैठता है
 
-[Flashcards Open Source App](/hi/) इस workflow के लिए अच्छा fit है, क्योंकि Level II candidates को आम तौर पर एक ही जगह कुछ साफ़ चीज़ें चाहिए होती हैं:
+[Nibomo](/hi/) इस workflow के लिए अच्छा fit है, क्योंकि Level II candidates को आम तौर पर एक ही जगह कुछ साफ़ चीज़ें चाहिए होती हैं:
 
 - छोटे front/back cards
 - topic, LOS, और mock-miss tracking के लिए tags

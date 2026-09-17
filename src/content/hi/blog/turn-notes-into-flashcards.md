@@ -100,7 +100,7 @@ card quality की समस्या शायद ही कभी सिर�
 
 ## Flashcards के पास इस workflow के लिए पहले से सही shape है
 
-[Flashcards](https://flashcards-open-source-app.com/) यहाँ दिलचस्प है क्योंकि product पहले से वे pieces combine करती है जो मायने रखते हैं:
+[Nibomo](https://flashcards-open-source-app.com/) यहाँ दिलचस्प है क्योंकि product पहले से वे pieces combine करती है जो मायने रखते हैं:
 
 - front/back card creation
 - AI chat
@@ -193,13 +193,13 @@ card quality की समस्या शायद ही कभी सिर�
 
 इससे boring part हट जाती है, बिना यह नाटक किए कि human loop से गायब हो जानी चाहिए।
 
-इसीलिए [Flashcards](https://flashcards-open-source-app.com/) उन लोगों के लिए अच्छा fit है जो **notes को flashcards में बदलें** खोज रहे हैं। current product में इसके लिए useful shape पहले से मौजूद है: card creation, AI chat, file attachments, plain text support, और उसके बाद serious spaced repetition।
+इसीलिए [Nibomo](https://flashcards-open-source-app.com/) उन लोगों के लिए अच्छा fit है जो **notes को flashcards में बदलें** खोज रहे हैं। current product में इसके लिए useful shape पहले से मौजूद है: card creation, AI chat, file attachments, plain text support, और उसके बाद serious spaced repetition।
 
 ## वह notes-to-flashcards workflow आज़माएँ जो second job न बन जाए
 
 अगर आप **notes को flashcards में बदलने** का practical तरीका चाहते हैं, तो यहाँ से शुरू करें:
 
-- [Open Flashcards](https://flashcards-open-source-app.com/)
+- [Open Nibomo](https://flashcards-open-source-app.com/)
 - [ऐप खोलें](https://app.flashcards-open-source-app.com/)
 - [getting started guide पढ़ें](https://flashcards-open-source-app.com/docs/getting-started/)
 - [GitHub पर source देखें](https://github.com/kirill-markin/flashcards-open-source-app)

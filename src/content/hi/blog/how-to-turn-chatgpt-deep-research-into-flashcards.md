@@ -198,7 +198,7 @@ Card quality वाले बड़े हिस्से के लिए [2026
 
 ## Flashcards असल में कहाँ fit बैठता है
 
-[Flashcards](/hi/features/) research pass के बाद काम आता है, पहले नहीं।
+[Nibomo](/hi/features/) research pass के बाद काम आता है, पहले नहीं।
 
 Product, ChatGPT Deep Research के साथ किसी direct one-click integration का दावा नहीं करता। ईमानदार workflow इससे सरल है:
 
@@ -240,4 +240,4 @@ Deep Research, Study Mode, Guided Learning, या quiz generator जैसी �
 
 यही **डीप रिसर्च स्पेस्ड रिपीटिशन** का version है जो वास्तव में टिकता है: topic को gather, compare, और document करने के लिए ChatGPT Deep Research का इस्तेमाल कीजिए, फिर सिर्फ़ dated facts, distinctions, और decision rules को ऐसे साफ़ cards में बदलिए जिन्हें आप FSRS के साथ review कर सकें।
 
-अगर आपको यही चाहिए, तो [Flashcards](/hi/) अच्छा fit है। यह आपको एक ही जगह देता है जहाँ आप research report के काम के हिस्से को साफ़ कर सकते हैं, उसे front/back cards में बदल सकते हैं, और पहली AI-generated report का excitement उतर जाने के बाद भी review जारी रख सकते हैं।
+अगर आपको यही चाहिए, तो [Nibomo](/hi/) अच्छा fit है। यह आपको एक ही जगह देता है जहाँ आप research report के काम के हिस्से को साफ़ कर सकते हैं, उसे front/back cards में बदल सकते हैं, और पहली AI-generated report का excitement उतर जाने के बाद भी review जारी रख सकते हैं।

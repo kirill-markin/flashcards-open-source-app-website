@@ -124,7 +124,7 @@ plain-text copy सही मायने में उसी तरह ugly ह
 
 यह अब और भी ज़्यादा मायने रखता है क्योंकि बहुत-सी decks notes, transcripts, OCR, PDFs, और AI-assisted cleanup से बन रही हैं। एक बार उपयोगी हिस्सा readable text के रूप में store हो जाए, तो आगे आपके options बहुत बेहतर हो जाते हैं।
 
-इसीलिए cleanup के बाद [Flashcards](/features/) एक reasonable landing spot है। current product plain text और file attachments के साथ AI chat support करती है, इसलिए cleaned export सिर्फ़ dead backup material बनकर नहीं रहना पड़ता। वह एक बेहतर deck के लिए draft input बन सकती है।
+इसीलिए cleanup के बाद [Nibomo](/features/) एक reasonable landing spot है। current product plain text और file attachments के साथ AI chat support करती है, इसलिए cleaned export सिर्फ़ dead backup material बनकर नहीं रहना पड़ता। वह एक बेहतर deck के लिए draft input बन सकती है।
 
 ## सिर्फ़ final card नहीं, source का भी backup लें
 
@@ -202,7 +202,7 @@ Anki ownership discussion को उपयोगी बनाने वाली
 - plain front/back cards जो portable रहें
 - ऐसा AI जो real data के साथ जुड़ा हो, सिर्फ़ one-shot generation demos के साथ नहीं
 
-[Flashcards](/) अभी उसी shape की तरफ़ बढ़ रही है।
+[Nibomo](/) अभी उसी shape की तरफ़ बढ़ रही है।
 
 current public docs इस direction को काफ़ी concrete बनाती हैं:
 

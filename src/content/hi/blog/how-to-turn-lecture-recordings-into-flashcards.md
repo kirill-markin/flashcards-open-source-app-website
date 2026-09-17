@@ -222,7 +222,7 @@ keywords:
 
 ## यहाँ Flashcards कहाँ फिट बैठता है
 
-[Flashcards](https://flashcards-open-source-app.com/) **लेक्चर रिकॉर्डिंग्स को फ़्लैशकार्ड्स में बदलने** की प्रक्रिया के लिए अच्छा विकल्प है, क्योंकि यह उस हिस्से को संभालता है जिसे ट्रांसक्रिप्ट और AI से मसौदा बनवाना अपने दम पर हल नहीं करते:
+[Nibomo](https://flashcards-open-source-app.com/) **लेक्चर रिकॉर्डिंग्स को फ़्लैशकार्ड्स में बदलने** की प्रक्रिया के लिए अच्छा विकल्प है, क्योंकि यह उस हिस्से को संभालता है जिसे ट्रांसक्रिप्ट और AI से मसौदा बनवाना अपने दम पर हल नहीं करते:
 
 - सामने-पीछे वाले कार्ड्स बनाने वाला वास्तविक ऐप
 - डेक और टैग
@@ -287,7 +287,7 @@ keywords:
 
 अगर आप **लेक्चर ट्रांसक्रिप्ट से फ़्लैशकार्ड्स** का तरीका बना रहे हैं, तो यहाँ से शुरू करें:
 
-- [Flashcards खोलें](https://flashcards-open-source-app.com/)
+- [Nibomo खोलें](https://flashcards-open-source-app.com/)
 - [ऐप खोलें](https://app.flashcards-open-source-app.com/)
 - [स्वयं-होस्टिंग मार्गदर्शिका पढ़ें](https://flashcards-open-source-app.com/docs/self-hosting/)
 - [GitHub पर स्रोत कोड देखें](https://github.com/kirill-markin/flashcards-open-source-app)

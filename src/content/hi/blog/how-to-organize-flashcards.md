@@ -262,7 +262,7 @@ keywords:
 
 ## Flashcards इसमें कहाँ फिट बैठता है
 
-[Flashcards](https://flashcards-open-source-app.com/) **फ्लैशकार्ड कैसे व्यवस्थित करें** जैसे सवाल के लिए इसलिए उपयुक्त है, क्योंकि इस तरीके को चलाने के लिए जो हिस्से चाहिए, वे उत्पाद में पहले से मौजूद हैं:
+[Nibomo](https://flashcards-open-source-app.com/) **फ्लैशकार्ड कैसे व्यवस्थित करें** जैसे सवाल के लिए इसलिए उपयुक्त है, क्योंकि इस तरीके को चलाने के लिए जो हिस्से चाहिए, वे उत्पाद में पहले से मौजूद हैं:
 
 - लंबे समय की संरचना के लिए डेक और टैग
 - टैग और मेहनत के स्तर के आधार पर फ़िल्टर्ड डेक
@@ -304,7 +304,7 @@ keywords:
 
 अगर आपको यही चाहिए, तो यहाँ से शुरू कीजिए:
 
-- [Flashcards खोलें](https://flashcards-open-source-app.com/)
+- [Nibomo खोलें](https://flashcards-open-source-app.com/)
 - [ऐप खोलें](https://app.flashcards-open-source-app.com/)
 - [Getting Started मार्गदर्शिका पढ़ें](https://flashcards-open-source-app.com/docs/getting-started/)
 - [GitHub पर स्रोत देखें](https://github.com/kirill-markin/flashcards-open-source-app)

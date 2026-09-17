@@ -18,7 +18,7 @@ keywords:
 
 Anki एक flashcard product और ecosystem है। SuperMemo नाम दो मौजूदा products के लिए भी इस्तेमाल होता है और algorithms की एक लंबी श्रृंखला के लिए भी। FSRS एक scheduler है, जिसे अलग-अलग products अपने भीतर लागू कर सकते हैं। यह guide पहले इन अलग categories को साफ़ करती है, फिर उन विकल्पों की तुलना करती है जिन्हें आप सच में चुन सकते हैं।
 
-> **Disclosure:** मैं Kirill Markin हूँ और [Flashcards Open Source App](/hi/features/) बनाता हूँ। नीचे इसे FSRS के एक व्यावहारिक implementation के तौर पर शामिल किया गया है। मैं इसे अपने-आप सबसे अच्छा विकल्प नहीं मानता और जहाँ इसका नया व छोटा ecosystem मायने रखता है, वहाँ साफ़ तौर पर बताता हूँ।
+> **Disclosure:** मैं Kirill Markin हूँ और [Nibomo](/hi/features/) बनाता हूँ। नीचे इसे FSRS के एक व्यावहारिक implementation के तौर पर शामिल किया गया है। मैं इसे अपने-आप सबसे अच्छा विकल्प नहीं मानता और जहाँ इसका नया व छोटा ecosystem मायने रखता है, वहाँ साफ़ तौर पर बताता हूँ।
 
 **Facts checked:** 3 अगस्त, 2026।
 
@@ -43,7 +43,7 @@ Anki एक flashcard product और ecosystem है। SuperMemo नाम द
 | [SuperMemo 20 for Windows](https://supermemo.store/products/supermemo-20-for-windows) | Proprietary Windows knowledge management और incremental reading product | Algorithm Arena में SM-2, SM-15, SM-19, SM-20 और FSRS शामिल हैं | Incremental reading, knowledge trees और documents, web pages, email व video से imports | केवल Windows के लिए; SuperMemo.com से अलग product |
 | [SuperMemo.com](https://www.supermemo.com/en/app) | Web, iOS और Android के लिए hosted language-learning service | Proprietary SuperMemo method; मौजूदा public pages इसे SM-18, SM-20 या FSRS नहीं बताते | तैयार language courses, MemoCards और अलग-अलग devices पर hosted study | यह Windows product नहीं है और इसका सटीक scheduler public नहीं है |
 | [FSRS](https://github.com/open-spaced-repetition/fsrs4anki) | Open scheduler और project | इसे कोई host product या library लागू करती है | ऐसे developers और users जो scheduling logic को जाँच-परख सकना चाहते हैं | यह अपने-आप cards, editor, sync या study interface नहीं देता |
-| [Flashcards Open Source App](/hi/features/) | FSRS पर बना नया open-source flashcard product | FSRS-6, जिसके official default weights तय रखे गए हैं, और बदल सकने वाली workspace scheduling settings | Web, iOS, Android, self-hosting, API और AI-agent workflows | Anki के मुकाबले छोटा ecosystem और अभी personalized FSRS weights नहीं |
+| [Nibomo](/hi/features/) | FSRS पर बना नया open-source flashcard product | FSRS-6, जिसके official default weights तय रखे गए हैं, और बदल सकने वाली workspace scheduling settings | Web, iOS, Android, self-hosting, API और AI-agent workflows | Anki के मुकाबले छोटा ecosystem और अभी personalized FSRS weights नहीं |
 
 इन पंक्तियों का एक जैसा न होना जानबूझकर है। Anki और Flashcards पूरा flashcard workflow देते हैं। SuperMemo 20 scheduling को कहीं व्यापक reading और knowledge workflow के साथ जोड़ता है। SuperMemo.com एक hosted language-learning experience बेचता है। FSRS दूसरे software को scheduling logic देता है।
 
@@ -106,7 +106,7 @@ Review ratings किसी scheduling system को दिए जाने व�
 | System | दिखने वाली ratings | इन labels का मतलब |
 | --- | --- | --- |
 | Anki with FSRS | Again, Hard, Good, Easy | Again का अर्थ failed recall है। Hard, Good और Easy सफल recall हैं, जिनमें क्रमशः कम effort लगा। |
-| Flashcards | Again, Hard, Good, Easy | Failure और success की सीमा वही है। API 0–3 इस्तेमाल करती है और इन values को अंदरूनी तौर पर FSRS grades 1–4 से map करती है। |
+| Nibomo | Again, Hard, Good, Easy | Failure और success की सीमा वही है। API 0–3 इस्तेमाल करती है और इन values को अंदरूनी तौर पर FSRS grades 1–4 से map करती है। |
 | Hosted SuperMemo.com | Don't know, Almost, Know | [SuperMemo method page](https://www.supermemo.com/en/supermemo-method) पर दर्ज तीन विकल्पों वाला product scale। इसे चार FSRS grades से सीधे नहीं मिलाना चाहिए। |
 | SuperMemo 20 for Windows | Desktop SuperMemo grading flow | यह एक अलग product interface है, जो Algorithm Arena में कई algorithms को input देता है। इसका अर्थ hosted service के तीन labels से नहीं निकाला जाना चाहिए। |
 
@@ -155,7 +155,7 @@ FSRS implementations और libraries को परखें। Open documentati
 
 ### आपको modern open-source web, mobile और agent workflow चाहिए
 
-[Flashcards Open Source App](/hi/features/) को देखें। यह FSRS-6 को web, iOS, Android, self-hosting, public API और AI-agent access के साथ जोड़ता है। इसकी साफ़ सीमा maturity है: इसका ecosystem Anki से नया है और templates, add-ons, shared decks या migration fidelity में यह Anki की गहराई की बराबरी नहीं करता। जो collections इन खूबियों पर निर्भर हैं, उनके लिए Anki ही रखें।
+[Nibomo](/hi/features/) को देखें। यह FSRS-6 को web, iOS, Android, self-hosting, public API और AI-agent access के साथ जोड़ता है। इसकी साफ़ सीमा maturity है: इसका ecosystem Anki से नया है और templates, add-ons, shared decks या migration fidelity में यह Anki की गहराई की बराबरी नहीं करता। जो collections इन खूबियों पर निर्भर हैं, उनके लिए Anki ही रखें।
 
 ## Scheduler कमज़ोर study system को नहीं बचा सकता
 

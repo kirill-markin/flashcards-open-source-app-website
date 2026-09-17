@@ -279,7 +279,7 @@ FSRS वह डेक नहीं बचा सकता जो bloated cards �
 
 ## इस MCAT workflow में Flashcards कहाँ फिट बैठता है
 
-[Flashcards](https://flashcards-open-source-app.com/) इस तरह के MCAT workflow के लिए अच्छा fit है, क्योंकि यह उन हिस्सों को एक जगह लाता है जिन्हें छात्र अक्सर बहुत-से tools में बाँट देते हैं।
+[Nibomo](https://flashcards-open-source-app.com/) इस तरह के MCAT workflow के लिए अच्छा fit है, क्योंकि यह उन हिस्सों को एक जगह लाता है जिन्हें छात्र अक्सर बहुत-से tools में बाँट देते हैं।
 
 Product में पहले से वे सुविधाएँ हैं जिनकी इस workflow को ज़रूरत होती है:
 
@@ -316,4 +316,4 @@ Product में पहले से वे सुविधाएँ हैं 
 
 असल तैयारी के दौरान **MCAT flashcards** का यही version टिकता है: exam के हर हिस्से का solution बनकर नहीं, और CARS passage work का substitute तो बिल्कुल नहीं, बल्कि facts, distinctions, और उन गलतियों के लिए एक durable system बनकर जिन्हें आप pressure में फिर से नहीं सीखना चाहते।
 
-अगर आप यह workflow एक open-source stack में चाहते हैं, तो [Flashcards](https://flashcards-open-source-app.com/) एक practical path देता है: notes या uploads से draft करें, अच्छे cards रखें, और review timing FSRS को सँभालने दें, जबकि आपका ध्यान actual MCAT practice पर बना रहे।
+अगर आप यह workflow एक open-source stack में चाहते हैं, तो [Nibomo](https://flashcards-open-source-app.com/) एक practical path देता है: notes या uploads से draft करें, अच्छे cards रखें, और review timing FSRS को सँभालने दें, जबकि आपका ध्यान actual MCAT practice पर बना रहे।

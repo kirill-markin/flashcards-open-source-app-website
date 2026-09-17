@@ -226,7 +226,7 @@ LEQ वह जगह है जहाँ date-only decks बहुत जल्�
 
 ## APUSH workflow में Flashcards कहाँ fit बैठता है
 
-अगर आप यह सब [Flashcards](https://flashcards-open-source-app.com/) के अंदर चलाना चाहते हैं, तो काम की बात यह नहीं है कि app किसी जादू से आपके लिए APUSH कर देगा।
+अगर आप यह सब [Nibomo](https://flashcards-open-source-app.com/) के अंदर चलाना चाहते हैं, तो काम की बात यह नहीं है कि app किसी जादू से आपके लिए APUSH कर देगा।
 
 काम की बात यह है कि product पहले से ही workflow के messy middle में fit बैठता है:
 

@@ -1,12 +1,12 @@
 ---
-title: "Brainscape विकल्प (2026): Brainscape बनाम Flashcards"
-description: "Confidence-Based Repetition बनाम FSRS, ऑफ़लाइन इस्तेमाल, मोबाइल ऐप, सहयोग, AI, कीमत, इम्पोर्ट, एक्सपोर्ट और मालिकाना हक के आधार पर Brainscape और Flashcards की तुलना।"
+title: "Brainscape विकल्प (2026): Brainscape बनाम Nibomo"
+description: "Confidence-Based Repetition बनाम FSRS, ऑफ़लाइन इस्तेमाल, मोबाइल ऐप, सहयोग, AI, कीमत, इम्पोर्ट, एक्सपोर्ट और मालिकाना हक के आधार पर Brainscape और Nibomo की तुलना।"
 date: "2026-03-21"
 updated: "2026-08-03"
 image: "/blog/brainscape-alternative.png"
 keywords:
   - "Brainscape विकल्प"
-  - "Brainscape बनाम Flashcards"
+  - "Brainscape बनाम Nibomo"
   - "Confidence-Based Repetition बनाम FSRS"
   - "ऑफ़लाइन flashcards app"
   - "ओपन सोर्स flashcards app"
@@ -17,7 +17,7 @@ keywords:
 
 Brainscape और Flashcards के बीच सबसे अहम फर्क एक ऐसी जानकारी का है जिसे Brainscape में आपको कभी संभालना ही नहीं पड़ता: किसी कार्ड के अगले रिव्यू का ठीक-ठीक समय। Brainscape आपसे 1 से 5 तक confidence rating माँगता है और डेक को दोबारा पढ़ने के लिए खुला रखता है। Flashcards में आप Again, Hard, Good या Easy चुनते हैं, जिसके बाद FSRS-6 उस कार्ड के अगले रिव्यू का निश्चित समय तय करता है।
 
-Scheduler का यही अंतर **Brainscape बनाम Flashcards** के फैसले को काफी हद तक तय करता है। साझा classes, editing permissions, teacher analytics, आम spreadsheet files इम्पोर्ट करने की सुविधा और कभी भी cramming के लिए इस्तेमाल किए जा सकने वाले guided loop के मामले में Brainscape बेहतर विकल्प है। अगर आपको स्पष्ट due queue, हर supported client पर offline-first editing, AI-agent access, MIT-licensed code या self-hosted deployment चाहिए, तो [Flashcards](/features/) अधिक मजबूत **Brainscape विकल्प** है।
+Scheduler का यही अंतर **Brainscape बनाम Nibomo** के फैसले को काफी हद तक तय करता है। साझा classes, editing permissions, teacher analytics, आम spreadsheet files इम्पोर्ट करने की सुविधा और कभी भी cramming के लिए इस्तेमाल किए जा सकने वाले guided loop के मामले में Brainscape बेहतर विकल्प है। अगर आपको स्पष्ट due queue, हर supported client पर offline-first editing, AI-agent access, MIT-licensed code या self-hosted deployment चाहिए, तो [Nibomo](/features/) अधिक मजबूत **Brainscape विकल्प** है।
 
 > **खुलासा:** मैं Kirill Markin हूँ और इस लेख में शामिल उत्पादों में से एक, Flashcards, बनाता हूँ। इस तुलना की कई अहम श्रेणियों में Brainscape आगे है। मैंने तुलना केवल आधिकारिक product pages, help articles और source repositories में दर्ज व्यवहार तक सीमित रखी है।
 
@@ -29,13 +29,13 @@ Scheduler का यही अंतर **Brainscape बनाम Flashcards** �
 
 अगर आप classes साझा करना चाहते हैं, यह तय करना चाहते हैं कि कार्ड कौन संपादित कर सकता है, छात्रों की प्रगति देखना चाहते हैं, आम spreadsheet files इम्पोर्ट करना चाहते हैं या कार्ड के due होने का इंतजार किए बिना किसी डेक को पढ़ना चाहते हैं, तो **Brainscape** चुनें। इसका 1–5 Confidence-Based Repetition flow आखिरी समय की cram session के लिए भी हमेशा उपलब्ध रहता है।
 
-अगर आप चाहते हैं कि FSRS-6 target retention setting के आधार पर स्पष्ट due queue बनाए, web, iOS और Android पर बदलाव और रिव्यू पहले device पर save हों, या आपको AI chat, MCP, Agent API और documented self-hosting वाला open-source flashcards app चाहिए, तो **Flashcards** चुनें।
+अगर आप चाहते हैं कि FSRS-6 target retention setting के आधार पर स्पष्ट due queue बनाए, web, iOS और Android पर बदलाव और रिव्यू पहले device पर save हों, या आपको AI chat, MCP, Agent API और documented self-hosting वाला open-source flashcards app चाहिए, तो **Nibomo** चुनें।
 
 अगर Brainscape की classes या analytics सचमुच आपके workflow का हिस्सा हैं, तो Brainscape पर ही बने रहें। Flashcards फिलहाल उनकी जगह नहीं लेता, और कार्ड ले जाने पर Brainscape की scheduling history भी पीछे छूट जाएगी।
 
-## Brainscape बनाम Flashcards: एक नजर में
+## Brainscape बनाम Nibomo: एक नजर में
 
-| फैसला | Brainscape | Flashcards | व्यावहारिक विजेता |
+| फैसला | Brainscape | Nibomo | व्यावहारिक विजेता |
 |---|---|---|---|
 | रिव्यू का तरीका | Confidence-Based Repetition; 1–5 rating, जिसमें कम confidence वाले कार्ड अधिक बार और अधिक confidence वाले कार्ड कम बार चुने जाते हैं | FSRS-6; Again/Hard/Good/Easy rating के बाद स्पष्ट `due_at` समय store करता है | अपनी मर्जी से दोहराने या cram study के लिए Brainscape; due queue और retention control के लिए Flashcards |
 | Scheduler का ब्योरा | जब भी आप अगला कार्ड माँगते हैं, confidence buckets से तुलनात्मक चयन; सभी कार्ड की rating 5 होने पर भी डेक पढ़ा जा सकता है | D/S/R memory state; 0.90 desired retention; 1 और 10 मिनट के learning steps; 10 मिनट का relearning step; अधिकतम 36,500 दिन; fuzz; स्थिर गैर-वैयक्तिकृत weights | इस पर निर्भर है कि आपको कैसी queue चाहिए |
@@ -46,7 +46,7 @@ Scheduler का यही अंतर **Brainscape बनाम Flashcards** �
 | इम्पोर्ट | सूची paste करें या CSV, TXT, XLSX अथवा ODS upload करें; मोबाइल पर फ़ाइल, तस्वीर या camera capture से भी यही प्रक्रिया शुरू की जा सकती है | सीधे केवल अपना `flashcards.zip` इम्पोर्ट करता है; दूसरी supported files, जाँच के बाद AI drafting के लिए source material बन सकती हैं | आम files इम्पोर्ट करने के लिए Brainscape |
 | एक्सपोर्ट | Pro deck export ऐसी spreadsheet files बनाता है जो Excel में खुलती हैं | `flashcards.zip` active cards, tags और उनसे जुड़ा media Flashcards workspaces या instances के बीच ले जाता है | जरूरत पर निर्भर: spreadsheets के लिए Brainscape; अपने workspace को स्थानांतरित करने के लिए Flashcards |
 | 3 अगस्त, 2026 को जाँची गई कीमत | Basic मुफ्त; annual billing पर Pro US$7.99 प्रति माह दिखाया गया; Enterprise के लिए quote | Hosted app beta के दौरान मुफ्त; self-hosted software मुफ्त, लेकिन infrastructure और provider costs अलग | इस्तेमाल और hosting के तरीके पर निर्भर |
-| मालिकाना हक | Proprietary hosted service; Pro में export उपलब्ध | पूरा application और infrastructure MIT licensed; documented AWS self-hosting | Flashcards |
+| मालिकाना हक | Proprietary hosted service; Pro में export उपलब्ध | पूरा application और infrastructure MIT licensed; documented AWS self-hosting | Nibomo |
 
 यह फैसले में मदद करने वाली तालिका है, features का score नहीं। छह classes चलाने वाला शिक्षक open-source ownership आकर्षक लगने के बावजूद उचित रूप से Brainscape चुन सकता है। कमजोर connection पर कार्ड संपादित करने वाला व्यक्ति इसका उलटा फैसला कर सकता है।
 

@@ -216,7 +216,7 @@ AI का misuse करने का सबसे आसान तरीका �
 
 ## Flashcards कहाँ fit बैठता है
 
-[Flashcards](/hi/) assignment के बाद सबसे अच्छा fit बैठता है, जब असली पढ़ाई फिर से शुरू होती है।
+[Nibomo](/hi/) assignment के बाद सबसे अच्छा fit बैठता है, जब असली पढ़ाई फिर से शुरू होती है।
 
 यह handoff मौजूदा product setup पर टिकता है:
 

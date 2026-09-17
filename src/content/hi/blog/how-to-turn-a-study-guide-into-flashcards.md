@@ -281,7 +281,7 @@ AI गाइड के साथ आप अक्सर चमकदार द�
 
 ## Flashcards इसमें कहाँ काम आता है
 
-[Flashcards](https://flashcards-open-source-app.com/) **स्टडी गाइड से Flashcards** के लिए अच्छा विकल्प है, क्योंकि प्रोडक्ट में पहले से वे हिस्से मौजूद हैं जिनकी इस तरीके को ज़रूरत होती है:
+[Nibomo](https://flashcards-open-source-app.com/) **स्टडी गाइड से Flashcards** के लिए अच्छा विकल्प है, क्योंकि प्रोडक्ट में पहले से वे हिस्से मौजूद हैं जिनकी इस तरीके को ज़रूरत होती है:
 
 - बिखरे हुए स्टडी-गाइड पाठ को फिर से व्यवस्थित करने के लिए AI चैट
 - फ़ाइल और इमेज अटैचमेंट
@@ -321,7 +321,7 @@ AI गाइड के साथ आप अक्सर चमकदार द�
 
 अगर आप यही चाहते हैं, तो यहाँ से शुरू करें:
 
-- [Flashcards खोलें](https://flashcards-open-source-app.com/)
+- [Nibomo खोलें](https://flashcards-open-source-app.com/)
 - [ऐप खोलें](https://app.flashcards-open-source-app.com/)
 - [शुरुआत करने की गाइड पढ़ें](https://flashcards-open-source-app.com/docs/getting-started/)
 - [GitHub पर सोर्स कोड देखें](https://github.com/kirill-markin/flashcards-open-source-app)

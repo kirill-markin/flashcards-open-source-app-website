@@ -1,6 +1,6 @@
 ---
-title: "2026 का ओपन सोर्स Quizlet विकल्प: Quizlet बनाम Flashcards"
-description: "ओपन सोर्स Quizlet विकल्प खोज रहे हैं? स्टडी मोड, FSRS, ऑफ़लाइन इस्तेमाल, AI, शेयरिंग, इम्पोर्ट, एक्सपोर्ट और डेटा पर नियंत्रण के आधार पर Quizlet और Flashcards की तुलना करें।"
+title: "2026 का ओपन सोर्स Quizlet विकल्प: Quizlet बनाम Nibomo"
+description: "ओपन सोर्स Quizlet विकल्प खोज रहे हैं? स्टडी मोड, FSRS, ऑफ़लाइन इस्तेमाल, AI, शेयरिंग, इम्पोर्ट, एक्सपोर्ट और डेटा पर नियंत्रण के आधार पर Quizlet और Nibomo की तुलना करें।"
 date: "2026-03-17"
 updated: "2026-08-02"
 image: "/blog/quizlet-alternative.png"
@@ -8,14 +8,14 @@ keywords:
   - "ओपन सोर्स Quizlet विकल्प"
   - "Quizlet का ओपन सोर्स विकल्प"
   - "Quizlet विकल्प"
-  - "Quizlet बनाम Flashcards"
+  - "Quizlet बनाम Nibomo"
   - "Quizlet विकल्प 2026"
   - "FSRS flashcards app"
   - "offline flashcards app"
   - "self-hosted flashcards app"
 ---
 
-एक **ओपन सोर्स Quizlet विकल्प** रोज़ दोहराने वाले कार्डों की कतार तो बदल सकता है, मगर ज़रूरी नहीं कि वह Quizlet के Learn mode, Test mode या public sets की लाइब्रेरी की जगह भी ले सके। [Flashcards](/features/) के साथ यही समझौता है: यहाँ स्पष्ट रूप से दर्ज FSRS-6 scheduling, web और mobile पर ऑफ़लाइन-फर्स्ट तरीके से बदलाव सहेजने की सुविधा और MIT-licensed self-hosting का रास्ता मिलता है। फिर भी यह Quizlet का ओपन सोर्स क्लोन नहीं है।
+एक **ओपन सोर्स Quizlet विकल्प** रोज़ दोहराने वाले कार्डों की कतार तो बदल सकता है, मगर ज़रूरी नहीं कि वह Quizlet के Learn mode, Test mode या public sets की लाइब्रेरी की जगह भी ले सके। [Nibomo](/features/) के साथ यही समझौता है: यहाँ स्पष्ट रूप से दर्ज FSRS-6 scheduling, web और mobile पर ऑफ़लाइन-फर्स्ट तरीके से बदलाव सहेजने की सुविधा और MIT-licensed self-hosting का रास्ता मिलता है। फिर भी यह Quizlet का ओपन सोर्स क्लोन नहीं है।
 
 निर्देशित study modes, practice tests, AI study tools और साझा सामग्री के मामले में Quizlet अब भी आगे है। Flashcards का ध्यान एक सीधी front/back review queue, agent access और ऐसे production AWS CDK deployment पर है जिसे आप अपने AWS account में चला सकते हैं।
 
@@ -29,17 +29,17 @@ keywords:
 
 अगर आपको जाना-पहचाना classroom workflow, कई तरह के प्रश्न, अपने-आप तैयार होने वाले practice tests या पहले से मौजूद public study sets चाहिए, तो **Quizlet** चुनें। इसके Learn और Test अनुभव एक सामान्य flashcard review queue से कहीं अधिक विकसित हैं।
 
-अगर Quizlet का ओपन सोर्स विकल्प खोजने की आपकी मुख्य वजह पारदर्शी FSRS-6 scheduling, mobile के साथ web पर भी ऑफ़लाइन-फर्स्ट पढ़ाई, अपने workspace के लिए AI और agent access या infrastructure खुद चलाने का विकल्प है, तो **Flashcards** चुनें।
+अगर Quizlet का ओपन सोर्स विकल्प खोजने की आपकी मुख्य वजह पारदर्शी FSRS-6 scheduling, mobile के साथ web पर भी ऑफ़लाइन-फर्स्ट पढ़ाई, अपने workspace के लिए AI और agent access या infrastructure खुद चलाने का विकल्प है, तो **Nibomo** चुनें।
 
 ऐप बदलने की कीमत भी है। Flashcards में Quizlet से सीधे इम्पोर्ट करने की सुविधा नहीं है, और Quizlet का एक्सपोर्ट lossless migration के लिए पर्याप्त जानकारी नहीं देता। आपका मौजूदा Quizlet workflow ठीक चल रहा है, तो उसी पर बने रहना समझदारी हो सकती है।
 
 ## ओपन सोर्स Quizlet विकल्प: सीधी तुलना
 
-| पहलू | Quizlet | Flashcards | व्यावहारिक विजेता |
+| पहलू | Quizlet | Nibomo | व्यावहारिक विजेता |
 |---|---|---|---|
 | Learn और Test workflows | अलग adaptive Learn mode और scoring व review वाला configurable Test mode | पारंपरिक front/back queue; अलग Learn या Test mode नहीं, multiple-choice test generation भी नहीं | Quizlet |
 | Scheduling और FSRS | Personalized scheduled review और Memory Score; सार्वजनिक दस्तावेज़ यह नहीं बताते कि scheduler FSRS है | Again, Hard, Good और Easy के साथ स्पष्ट FSRS-6 | निर्भर करता है: scheduled-review अनुभव के लिए Quizlet, स्पष्ट रूप से दर्ज FSRS-6 scheduler के लिए Flashcards |
-| Offline | iOS और Android; हाल में इस्तेमाल किए गए sets अपने-आप save होते हैं, बाकी download किए जा सकते हैं | Web, iOS और Android पर ऑफ़लाइन-फर्स्ट local writes, फिर connection लौटने पर sync | Flashcards |
+| Offline | iOS और Android; हाल में इस्तेमाल किए गए sets अपने-आप save होते हैं, बाकी download किए जा सकते हैं | Web, iOS और Android पर ऑफ़लाइन-फर्स्ट local writes, फिर connection लौटने पर sync | Nibomo |
 | AI | Practice tests, study guides, summarization, flashcard creation, homework help और Ask Quizlet | File attachments के साथ AI chat, साथ में MCP और Agent API | तैयार study tools के लिए Quizlet; workspace और agent access के लिए Flashcards |
 | साझा सामग्री | Public sets और folders, साथ में teachers की बनाई बड़ी लाइब्रेरी | इसके बराबर कोई end-user shared-content library नहीं | Quizlet |
 | इम्पोर्ट | Website पर delimited text paste करें; हर पंक्ति एक card बनती है | केवल अपना `flashcards.zip` package इम्पोर्ट करता है | Quizlet |
@@ -149,4 +149,4 @@ Flashcards शायद आपके लिए बेहतर है, अगर
 
 यह “Quizlet, मगर उसकी कमियों के बिना” नहीं है। इसकी अपनी कमियाँ हैं: अलग Learn या Test mode नहीं, बराबरी की shared-set library नहीं, Quizlet से सीधे इम्पोर्ट करने की सुविधा नहीं और `flashcards.zip` के जरिए complete portable backup नहीं।
 
-इन कमियों से Quizlet के वही हिस्से छूटते हैं जिन्हें आप सबसे ज़्यादा इस्तेमाल करते हैं, तो Quizlet पर बने रहें। अगर scheduler transparency, ऑफ़लाइन-फर्स्ट पढ़ाई और infrastructure control ने आपको तलाश शुरू करने पर मजबूर किया, तो फैसला करने से पहले [Flashcards खोलें](https://app.flashcards-open-source-app.com/) या [source code देखें](https://github.com/kirill-markin/flashcards-open-source-app)। अच्छा study system वही है, जिसकी सीमाएँ और समझौते नएपन का आकर्षण खत्म होने के बाद भी उचित लगें।
+इन कमियों से Quizlet के वही हिस्से छूटते हैं जिन्हें आप सबसे ज़्यादा इस्तेमाल करते हैं, तो Quizlet पर बने रहें। अगर scheduler transparency, ऑफ़लाइन-फर्स्ट पढ़ाई और infrastructure control ने आपको तलाश शुरू करने पर मजबूर किया, तो फैसला करने से पहले [Nibomo खोलें](https://app.flashcards-open-source-app.com/) या [source code देखें](https://github.com/kirill-markin/flashcards-open-source-app)। अच्छा study system वही है, जिसकी सीमाएँ और समझौते नएपन का आकर्षण खत्म होने के बाद भी उचित लगें।
