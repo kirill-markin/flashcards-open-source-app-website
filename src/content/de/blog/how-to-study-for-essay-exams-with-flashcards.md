@@ -298,7 +298,7 @@ Wenn du genau diesen Teil schärfer machen willst, sind [How to Use AI for Activ
 
 ## Wo Flashcards hineinpasst
 
-[Flashcards](/) passt praktisch zu **wie man Flashcards für Essay-Prüfungen nutzt**, weil Essay-Vorbereitung meist nicht nur ein Generierungsproblem ist. Sie ist auch ein Bearbeitungs-, Organisations- und Wiederholungsproblem.
+[Nibomo](/) passt praktisch zu **wie man Flashcards für Essay-Prüfungen nutzt**, weil Essay-Vorbereitung meist nicht nur ein Generierungsproblem ist. Sie ist auch ein Bearbeitungs-, Organisations- und Wiederholungsproblem.
 
 Du brauchst einen Ort, an dem du:
 

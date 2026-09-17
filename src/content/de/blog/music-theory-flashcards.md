@@ -179,7 +179,7 @@ Sinnvolle Kombinationen für Musiktheorie sind:
 
 Bloße Abwechslung ist nicht das Ziel. Mische Kategorien, die ähnlich aussehen, konkurrierenden Regeln folgen oder in echten Analysen gemeinsam vorkommen. Hörübungen und praktisches Musizieren gehören ebenfalls in die Lerneinheit. Eine schriftliche Karte wird jedoch nicht zur Gehörbildung, nur weil daneben eine Hörübung liegt.
 
-Der Leitfaden zum [Interleaving mit Flashcards](/de/blog/how-to-use-interleaving-with-flashcards/) erklärt den Übergang von einzelnen Kategorien zu gemischten Übungen genauer. Flashcards Open Source App stellt gezielte Vergleichsgruppen nicht automatisch zusammen. Wähle die zusammengehörigen Aufgaben deshalb selbst aus.
+Der Leitfaden zum [Interleaving mit Flashcards](/de/blog/how-to-use-interleaving-with-flashcards/) erklärt den Übergang von einzelnen Kategorien zu gemischten Übungen genauer. Nibomo stellt gezielte Vergleichsgruppen nicht automatisch zusammen. Wähle die zusammengehörigen Aufgaben deshalb selbst aus.
 
 ## Wie viele Musiktheorie-Flashcards solltest du erstellen?
 
@@ -196,9 +196,9 @@ Mit einigen Regeln hältst du die Zahl im Griff:
 
 Mit Tags kannst du eine kleine Vergleichsgruppe zusammenstellen, ohne jede winzige Kategorie in ein eigenes Deck auszulagern. Der ausführlichere [Leitfaden für bessere Flashcards](/de/blog/how-to-make-better-flashcards/) hilft, wenn sich auf einer Rückseite mehrere Definitionen, Ausnahmen und Beispiele ansammeln.
 
-## Wobei Flashcards Open Source App hilft
+## Wobei Nibomo hilft
 
-[Flashcards Open Source App](/de/features/) bietet Karten mit Vorder- und Rückseite, Decks und Tags sowie fällige FSRS-Wiederholungen mit `Again`, `Hard`, `Good` und `Easy`. Die App funktioniert im Web sowie auf iOS und Android nach dem Offline-first-Prinzip. Ihr Quellcode ist unter der MIT-Lizenz verfügbar; Self-Hosting wird unterstützt.
+[Nibomo](/de/features/) bietet Karten mit Vorder- und Rückseite, Decks und Tags sowie fällige FSRS-Wiederholungen mit `Again`, `Hard`, `Good` und `Easy`. Die App funktioniert im Web sowie auf iOS und Android nach dem Offline-first-Prinzip. Ihr Quellcode ist unter der MIT-Lizenz verfügbar; Self-Hosting wird unterstützt.
 
 Der KI-Chat kann hochgeladene Dateien oder Bilder verwenden, um aus einer Unterrichtsseite oder einem Notenausschnitt Kartenentwürfe zu erstellen. Prüfe vor dem Speichern jede Tonhöhe, jedes Vorzeichen, jedes Symbol und jede Antwort anhand der maßgeblichen Quelle. Die App bietet keinen Notationseditor, keine Gehörbildungs-Engine, keinen offiziellen Musiktheoriekurs und kein offizielles Deck, keine automatische Faktenprüfung und kein automatisches Interleaving. Diese Aufgaben bleiben Teil deiner Kursarbeit und Musikpraxis.
 

@@ -269,7 +269,7 @@ Das ähnelt dem Workflow in [How to Turn Practice Questions Into Flashcards in 2
 
 ## Wo Flashcards in diesen ATI-TEAS-Workflow passen
 
-Wenn du das in [Flashcards](https://flashcards-open-source-app.com/) umsetzen willst, passt das praktisch, nicht offiziell.
+Wenn du das in [Nibomo](https://flashcards-open-source-app.com/) umsetzen willst, passt das praktisch, nicht offiziell.
 
 Es gibt keine offizielle ATI-Integration, und es gibt keinen speziellen TEAS-Modus. Der nützliche Teil ist einfacher.
 

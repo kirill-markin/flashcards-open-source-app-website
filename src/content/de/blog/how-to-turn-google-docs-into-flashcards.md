@@ -39,7 +39,7 @@ Darum überschneidet sich das Thema mit [Wie du Notizen in Flashcards verwandels
 
 Ich würde eine native Synchronisierung hier nicht zum Hauptziel machen.
 
-Flashcards Open Source App wird nützlich, nachdem du den relevanten Text aus dem Doc herausgezogen hast. Das aktuelle Produkt bietet KI-Chat, Datei-Anhänge, Klartext-Uploads, Vorder-/Rückseite-Karten und FSRS-Reviews. Es verspricht keine spezielle Google-Docs-Integration, die ein live geteiltes Dokument einliest und dir stillschweigend ein sauberes Deck daraus baut. Das ist der ehrlichere Workflow. Die aktuelle Produktoberfläche siehst du auf der [Features-Seite](/features/).
+Nibomo wird nützlich, nachdem du den relevanten Text aus dem Doc herausgezogen hast. Das aktuelle Produkt bietet KI-Chat, Datei-Anhänge, Klartext-Uploads, Vorder-/Rückseite-Karten und FSRS-Reviews. Es verspricht keine spezielle Google-Docs-Integration, die ein live geteiltes Dokument einliest und dir stillschweigend ein sauberes Deck daraus baut. Das ist der ehrlichere Workflow. Die aktuelle Produktoberfläche siehst du auf der [Features-Seite](/features/).
 
 Für einen Google-Docs-Workflow reicht das meistens:
 
@@ -223,7 +223,7 @@ Du brauchst am ersten Tag keine schöne Taxonomie. Du brauchst nur genug Struktu
 
 ## Wo Flashcards nach dem Kopieren oder Exportieren hineinpasst
 
-Sobald der nützliche Teil des Google Docs sauberer vorliegt, übernimmt Flashcards Open Source App den Teil, der wirklich zählt:
+Sobald der nützliche Teil des Google Docs sauberer vorliegt, übernimmt Nibomo den Teil, der wirklich zählt:
 
 - KI-Chat für Entwürfe aus eingefügtem Text oder angehängten Dateien
 - schlichte Vorder-/Rückseite-Karten

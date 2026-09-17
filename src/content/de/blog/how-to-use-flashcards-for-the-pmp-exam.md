@@ -229,7 +229,7 @@ Wenn du die Planungsseite ausführlicher willst, ist [Wie du 2026 mit FSRS für 
 
 ## Wo Flashcards in diesen PMP-Workflow hineinpasst
 
-Wenn du das in [Flashcards](https://flashcards-open-source-app.com/) umsetzen willst, liegt der nützliche Teil nicht in dem vagen Versprechen, dass KI irgendwie für dich lernen wird.
+Wenn du das in [Nibomo](https://flashcards-open-source-app.com/) umsetzen willst, liegt der nützliche Teil nicht in dem vagen Versprechen, dass KI irgendwie für dich lernen wird.
 
 Der nützliche Teil ist, dass das Produkt schon den Mittelteil dieses Workflows abdeckt:
 

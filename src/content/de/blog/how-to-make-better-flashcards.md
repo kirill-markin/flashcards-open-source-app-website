@@ -236,7 +236,7 @@ Ein Deck wird besser, wenn die schlechten Karten verschwinden.
 
 ## Warum Flashcards gut zu diesem Workflow passt
 
-[Flashcards](https://flashcards-open-source-app.com/) passt gut dazu, **effektive Flashcards** zu erstellen, weil das Produkt um die Teile herum gebaut ist, die nach dem Entwurf wirklich zählen:
+[Nibomo](https://flashcards-open-source-app.com/) passt gut dazu, **effektive Flashcards** zu erstellen, weil das Produkt um die Teile herum gebaut ist, die nach dem Entwurf wirklich zählen:
 
 - echte Karten mit Vorder- und Rückseite
 - Decks und Tags

@@ -1,6 +1,6 @@
 ---
-title: "Open-Source-Alternative zu Quizlet 2026: Quizlet vs. Flashcards"
-description: "Du suchst eine Open-Source-Alternative zu Quizlet? Der Vergleich mit Flashcards zeigt die Unterschiede bei Lernmodi, FSRS, Offline-Nutzung, KI, Teilen, Import, Export und Datenkontrolle."
+title: "Open-Source-Alternative zu Quizlet 2026: Quizlet vs. Nibomo"
+description: "Du suchst eine Open-Source-Alternative zu Quizlet? Der Vergleich mit Nibomo zeigt die Unterschiede bei Lernmodi, FSRS, Offline-Nutzung, KI, Teilen, Import, Export und Datenkontrolle."
 date: "2026-03-17"
 updated: "2026-08-02"
 image: "/blog/quizlet-alternative.png"
@@ -8,14 +8,14 @@ keywords:
   - "Open-Source-Quizlet-Alternative"
   - "Open-Source-Alternative zu Quizlet"
   - "Quizlet-Alternative"
-  - "Quizlet vs. Flashcards"
+  - "Quizlet vs. Nibomo"
   - "Quizlet-Alternative 2026"
   - "FSRS-Karteikarten-App"
   - "Offline-Karteikarten-App"
   - "selbst gehostete Karteikarten-App"
 ---
 
-Eine **Open-Source-Alternative zu Quizlet** kann deine tägliche Wiederholungsroutine ersetzen. Sie ersetzt jedoch weder die Quizlet-Modi Lernen und Test noch die Bibliothek öffentlicher Lernsets. Genau das ist der Haken bei [Flashcards](/features/): Die App bietet einen dokumentierten FSRS-6-Algorithmus, speichert Änderungen im Web und auf Mobilgeräten nach dem Offline-First-Prinzip und lässt sich dank MIT-Lizenz selbst hosten. Ein Open-Source-Klon von Quizlet ist sie nicht.
+Eine **Open-Source-Alternative zu Quizlet** kann deine tägliche Wiederholungsroutine ersetzen. Sie ersetzt jedoch weder die Quizlet-Modi Lernen und Test noch die Bibliothek öffentlicher Lernsets. Genau das ist der Haken bei [Nibomo](/features/): Die App bietet einen dokumentierten FSRS-6-Algorithmus, speichert Änderungen im Web und auf Mobilgeräten nach dem Offline-First-Prinzip und lässt sich dank MIT-Lizenz selbst hosten. Ein Open-Source-Klon von Quizlet ist sie nicht.
 
 Quizlet bleibt die stärkere Wahl für geführte Lernmodi, Übungstests, fertige KI-Lerntools und geteilte Inhalte. Flashcards konzentriert sich auf eine einfachere Wiederholungsroutine mit Vorder- und Rückseite, den Zugriff durch KI-Agenten und ein produktionsreifes AWS-CDK-Deployment, das du in deinem eigenen Konto betreiben kannst.
 
@@ -29,7 +29,7 @@ Quizlet bleibt die stärkere Wahl für geführte Lernmodi, Übungstests, fertige
 
 Wähle **Quizlet**, wenn du einen vertrauten Ablauf für Unterricht und Lerngruppen, verschiedene Fragetypen, automatisch erstellte Übungstests oder bereits vorhandene öffentliche Lernsets suchst. Der Lernen- und der Test-Modus gehen deutlich über eine klassische Karteikarten-Wiederholung hinaus.
 
-Wähle **Flashcards**, wenn du vor allem einen transparenten FSRS-6-Algorithmus, Offline-First-Lernen im Web und auf Mobilgeräten, den Zugriff von KI und Agenten auf deinen Arbeitsbereich oder die Möglichkeit suchst, die Infrastruktur selbst zu betreiben.
+Wähle **Nibomo**, wenn du vor allem einen transparenten FSRS-6-Algorithmus, Offline-First-Lernen im Web und auf Mobilgeräten, den Zugriff von KI und Agenten auf deinen Arbeitsbereich oder die Möglichkeit suchst, die Infrastruktur selbst zu betreiben.
 
 Ein Wechsel kostet Zeit. Flashcards hat keinen direkten Quizlet-Importer, und der Quizlet-Export enthält nicht genug Informationen für einen verlustfreien Umzug. Wenn dein bisheriger Ablauf in Quizlet funktioniert, ist es unter Umständen vernünftiger, dabei zu bleiben.
 

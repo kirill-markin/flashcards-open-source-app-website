@@ -20,7 +20,7 @@ Das ist der teure Teil beim Vergleich von Anki-Alternativen. Einen aufgeräumter
 
 Genau dort setzt dieser Vergleich an. Er behandelt sieben Apps wie Anki, zeigt, was sie aus einer bestehenden Sammlung übernehmen, was sich nach dem Import ändert und wann du besser bei Anki bleibst.
 
-> **Offenlegung:** Ich bin Kirill Markin und entwickle [Flashcards](https://flashcards-open-source-app.com/), eines der Produkte in diesem Vergleich. Ich habe es wegen des offenen Quellcodes, der Self-Hosting-Option und der Workflows für KI-Agenten aufgenommen. Es ist hier nicht automatisch die beste Wahl: Es hat keinen direkten `.apkg`-Importer, die Migration aus Anki ist verlustbehaftet, und der Betrieb des selbst gehosteten Stacks ist eine echte Infrastrukturaufgabe.
+> **Offenlegung:** Ich bin Kirill Markin und entwickle [Nibomo](https://flashcards-open-source-app.com/), eines der Produkte in diesem Vergleich. Ich habe es wegen des offenen Quellcodes, der Self-Hosting-Option und der Workflows für KI-Agenten aufgenommen. Es ist hier nicht automatisch die beste Wahl: Es hat keinen direkten `.apkg`-Importer, die Migration aus Anki ist verlustbehaftet, und der Betrieb des selbst gehosteten Stacks ist eine echte Infrastrukturaufgabe.
 
 **Fakten geprüft:** 28. August 2026. Die Preise sind die an diesem Tag verfügbaren öffentlichen US-Preise oder angegebenen lokalen Preise. Steuern, Regionen, Bildungsangebote und die Abrechnung über App-Stores können den Betrag verändern.
 
@@ -41,7 +41,7 @@ Bei den übrigen vier Produkten baust du Inhalte neu auf, statt eine Sammlung zu
 - **Quizlet** eignet sich für öffentliche Lernsets, Klassen, Spiele und angeleitetes Üben.
 - **Brainscape** bietet Gruppen eine einfachere Bewertungsschleife von 1 bis 5.
 - **SuperMemo** ist ein Wechsel zu seiner proprietären Methode und seinem Kurskatalog.
-- **Flashcards** bietet MIT-lizenzierte Web- und native Clients, ein selbst hostbares Backend sowie API- und MCP-Zugriff. Der geprüfte Workflow mit TXT oder CSV erhält den Anki-Lernstatus nicht.
+- **Nibomo** bietet MIT-lizenzierte Web- und native Clients, ein selbst hostbares Backend sowie API- und MCP-Zugriff. Der geprüfte Workflow mit TXT oder CSV erhält den Anki-Lernstatus nicht.
 
 Wenn deine Karten von exakter Darstellung, Add-ons oder der aktuellen Wiederholungswarteschlange abhängen, ist es keine Unentschlossenheit, bei Anki zu bleiben. Es ist die richtige Antwort.
 
@@ -78,7 +78,7 @@ Ein Importer kann die erste Frage bestehen und bei den anderen beiden scheitern.
 | [Quizlet](https://quizlet.com/) | [Begriffe und Definitionen einfügen](https://help.quizlet.com/hc/en-us/articles/360029977151-Creating-sets-by-importing-content) | Kein Anki-Lernstatus | Notiztypen, Vorlagen, Decks, Medienstruktur und sämtliche Planungsdaten |
 | [Brainscape](https://www.brainscape.com/) | [CSV, TXT, XLSX oder ODS](https://brainscape.zendesk.com/hc/en-us/articles/115002369931-How-do-I-import-various-files-to-create-flashcards) | Kein Anki-Lernstatus | Vorlagen, Add-ons, Medienregeln und sämtliche Planungsdaten |
 | [SuperMemo](https://www.supermemo.com/) | [Frage-und-Antwort-Zeilen mit Trennzeichen einfügen](https://www.supermemo.com/en/blog/how-to-create-flashcards-for-learning), bis zu 100 auf einmal | Kein Anki-Lernstatus | Sammlungsstruktur, Medien, Vorlagen und sämtliche Planungsdaten |
-| [Flashcards](https://flashcards-open-source-app.com/) | Geprüfter, KI-gestützter Entwurfsworkflow mit Anki-TXT oder -CSV | Kein Anki-Lernstatus | Keine `.apkg`-Unterstützung; Vorlagen, Medientreue, Deck-Hierarchie und sämtliche Planungsdaten bleiben zurück |
+| [Nibomo](https://flashcards-open-source-app.com/) | Geprüfter, KI-gestützter Entwurfsworkflow mit Anki-TXT oder -CSV | Kein Anki-Lernstatus | Keine `.apkg`-Unterstützung; Vorlagen, Medientreue, Deck-Hierarchie und sämtliche Planungsdaten bleiben zurück |
 
 ## Preis, Offline-Nutzung, Lernplanung und Kontrolle
 
@@ -90,7 +90,7 @@ Ein Importer kann die erste Frage bestehen und bei den anderen beiden scheitern.
 | **Quizlet** | Grundlegende Nutzung kostenlos; [Plus $35.99/Jahr, Plus Unlimited $44.99/Jahr](https://quizlet.com/upgrade?source=signup) | Heruntergeladene Sets funktionieren in den iOS- und Android-Apps mit Flashcards und Match offline. | [Spaced Repetition im Web](https://quizlet.com/features/spaced-repetition) für Sets mit mindestens 100 Begriffen; mobil weiterhin als „coming soon“ gekennzeichnet. Learn ist ein getrennter adaptiver Übungsmodus. | Proprietärer gehosteter Dienst; kein unterstützter Weg zum Self-Hosting |
 | **Brainscape** | [Kostenlos; Pro $7.99/Monat bei jährlicher Abrechnung](https://www.brainscape.com/pricing) | [Die mobile App kann Eingaben offline speichern und zuvor heruntergeladene Klassen später synchronisieren](https://brainscape.zendesk.com/hc/en-us/articles/115002369711-How-do-Brainscape-s-website-mobile-app-interact-with-each-other); die Dokumentation verspricht keine vollständige lokale Bibliothek. | [Confidence-Based Repetition](https://www.brainscape.com/academy/confidence-based-repetition-definition/), bewertet von 1 bis 5 | Proprietärer gehosteter Dienst; kein unterstützter Weg zum Self-Hosting |
 | **SuperMemo** | Kostenloses Konto mit Einschränkungen; [35.99 PLN/Monat oder 359 PLN/Jahr](https://www.supermemo.com/en/premium-subscription) | Heruntergeladene mobile Kurse funktionieren offline; Bearbeitung, KI, Suche, Aufnahmen und Statistiken nicht. | [Proprietäre SuperMemo-Methode](https://www.supermemo.com/en/supermemo-method) | Proprietärer gehosteter Dienst; kein unterstützter Weg zum Self-Hosting |
-| **Flashcards** | [Gehosteter Kern während der Beta kostenlos; Software zum Selbsthosten kostenlos](/pricing/), zuzüglich deiner Infrastrukturkosten | Native Apps schreiben nach der Online-Anmeldung und dem erstmaligen Laden des Workspace lokal; entfernte Medien müssen bereits im Cache liegen. | [FSRS](/docs/architecture/#scheduling) | MIT; das unterstützte Produktiv-Deployment ist ein vollständiger, AWS-basierter Stack |
+| **Nibomo** | [Gehosteter Kern während der Beta kostenlos; Software zum Selbsthosten kostenlos](/pricing/), zuzüglich deiner Infrastrukturkosten | Native Apps schreiben nach der Online-Anmeldung und dem erstmaligen Laden des Workspace lokal; entfernte Medien müssen bereits im Cache liegen. | [FSRS](/docs/architecture/#scheduling) | MIT; das unterstützte Produktiv-Deployment ist ein vollständiger, AWS-basierter Stack |
 
 Diese Tabellen sind keine Ranglisten. Bei 30.000 ausgereiften Karten kann ein direkter Importer wichtiger sein als jede andere Funktion. Eine native iPhone-App kann die Entscheidung bestimmen, wenn du dort wiederholst. Quellcodezugriff ist nur dann relevant, wenn du oder eine Person deines Vertrauens den Code auch pflegen wird.
 
@@ -187,7 +187,7 @@ RemNote, Mochi, Quizlet, Brainscape, SuperMemo und Flashcards haben alle iOS-App
 - **Mochi** erhält mehr Daten als die iOS-Optionen mit reinem Textimport: Es importiert den Wiederholungsverlauf aus `.apkg`, wandelt die Inhalte aber in Markdown um und verwendet binäre Bewertungen.
 - **RemNote** importiert ebenfalls den Wiederholungsverlauf aus `.apkg`. Teste jedoch die **Need to Learn**-Warteschlange, statt anzunehmen, dass der heutige Anki-Lernplan erhalten bleibt.
 - **Quizlet** eignet sich zum Verteilen von Sets im Unterricht, doch der Anki-Weg ist rein textbasiert und der neue Spaced-Repetition-Ablauf noch nicht auf Mobilgeräten verfügbar.
-- **Flashcards** ist die Open-Source-Option mit nativem iOS-Client, setzt bei der Migration aus Anki aber den Lernstatus zurück.
+- **Nibomo** ist die Open-Source-Option mit nativem iOS-Client, setzt bei der Migration aus Anki aber den Lernstatus zurück.
 - **Brainscape** und **SuperMemo** sind nur sinnvoll, wenn dir ihre jeweilige Wiederholungsmethode den Neuaufbau der Karten und des Lernplans wert ist.
 
 Bevor du AnkiMobile wegen des Preises verlässt, vergleiche diesen Preis mit den Kosten eines Abos und den Stunden für die Nacharbeit an der Migration. Ein einmaliger App-Kauf kann günstiger sein als eine kostenlose App, die eine ausgereifte Sammlung in ein manuelles Projekt verwandelt.

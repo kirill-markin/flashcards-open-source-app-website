@@ -174,7 +174,7 @@ Das ist ehrlich, und meistens ist es ohnehin besser als eine falsche One-Click-P
 
 ## Warum Flashcards zu diesem Workflow passt
 
-[Flashcards](/) versucht nicht, Gemini Deep Research zu ersetzen.
+[Nibomo](/) versucht nicht, Gemini Deep Research zu ersetzen.
 
 Es passt gut, weil es den Teil übernimmt, den Deep Research offenlässt:
 
@@ -227,4 +227,4 @@ Verlange vom Bericht, dass er sichtbar macht, was ein Deck verdient.
 
 Das ist die Version davon, wie du Gemini Deep Research in Flashcards verwandelst, die tatsächlich trägt: Behalte den Bericht für den Kontext, vertraue den Quellenlinks mehr als der polierten Formulierung, extrahiere nur die Aussagen, die du später wieder abrufen willst, und lass FSRS nach der Bereinigung den Review-Rhythmus übernehmen.
 
-Wenn du genau das willst, ist [Flashcards](/) eine starke Wahl. Es gibt dir einen Ort, um Recherchenotizen zu bereinigen, sie in Vorderseite-Rückseite-Karten zu verwandeln, nach Thema zu organisieren und mit einem echten Spaced-Repetition-System zu reviewen, statt zu hoffen, dass der Bericht selbst schon die Gedächtnisarbeit übernimmt.
+Wenn du genau das willst, ist [Nibomo](/) eine starke Wahl. Es gibt dir einen Ort, um Recherchenotizen zu bereinigen, sie in Vorderseite-Rückseite-Karten zu verwandeln, nach Thema zu organisieren und mit einem echten Spaced-Repetition-System zu reviewen, statt zu hoffen, dass der Bericht selbst schon die Gedächtnisarbeit übernimmt.

@@ -247,7 +247,7 @@ Diese Notizen geben der KI etwas Nützliches zum Verdichten. Sie halten dein Dec
 
 Dieser Teil sollte ausdrücklich klar bleiben.
 
-Flashcards Open Source App hat keine offizielle ACT-Integration. Nutze sie mit deinen eigenen Notizen, deinen eigenen Zusammenfassungen und deinen eigenen Fehlerbeschreibungen aus rechtmäßigen Lernmaterialien. Verwandle sie nicht in einen Speicherort für kopierte proprietäre Fragenbanken, vollständige Lösungsschlüssel oder lange Blöcke geschützter ACT-Inhalte, die du nicht reproduzieren darfst.
+Nibomo hat keine offizielle ACT-Integration. Nutze die App mit deinen eigenen Notizen, deinen eigenen Zusammenfassungen und deinen eigenen Fehlerbeschreibungen aus rechtmäßigen Lernmaterialien. Verwandle sie nicht in einen Speicherort für kopierte proprietäre Fragenbanken, vollständige Lösungsschlüssel oder lange Blöcke geschützter ACT-Inhalte, die du nicht reproduzieren darfst.
 
 In der Praxis ist die stärkste Karte meistens ohnehin nicht die ganze Aufgabe. Es ist deine kompakte Zusammenfassung dessen, was schiefgelaufen ist und was das Ergebnis beim nächsten Mal verändert hätte.
 
@@ -321,9 +321,9 @@ FSRS hilft beim Timing. Schlechte Karten rettet es nicht. Die Reihenfolge bleibt
 
 Wenn du die Planungsseite genauer willst, lies [Wie du 2026 mit FSRS für eine Prüfung lernst](/blog/how-to-study-for-an-exam-with-fsrs/) und [FSRS vs SM-2 in 2026](/blog/fsrs-vs-sm-2/).
 
-## Wo Flashcards Open Source App in diesen ACT-Workflow passt
+## Wo Nibomo in diesen ACT-Workflow passt
 
-[Flashcards](/) passt gut zu dieser Art ACT-Vorbereitung, weil das aktuelle Produkt bereits den unhandlichen Mittelteil zwischen "Ich habe diese Frage verpasst" und "Ich wiederhole morgen genau diese Lektion" abdeckt.
+[Nibomo](/) passt gut zu dieser Art ACT-Vorbereitung, weil das aktuelle Produkt bereits den unhandlichen Mittelteil zwischen "Ich habe diese Frage verpasst" und "Ich wiederhole morgen genau diese Lektion" abdeckt.
 
 Nützliche Teile für diesen Workflow:
 

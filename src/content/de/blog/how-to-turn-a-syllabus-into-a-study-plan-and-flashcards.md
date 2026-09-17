@@ -240,7 +240,7 @@ Wenn dein Ziel Prüfungsvorbereitung aus einem größeren Kurspaket ist, passen 
 
 ## Wo Flashcards in diesen Workflow hineinpasst
 
-[Flashcards](/de/features/) passt in diesen Workflow, sobald der Syllabus schon in eine klare Struktur überführt wurde.
+[Nibomo](/de/features/) passt in diesen Workflow, sobald der Syllabus schon in eine klare Struktur überführt wurde.
 
 Der nützliche Weg ist ziemlich direkt:
 

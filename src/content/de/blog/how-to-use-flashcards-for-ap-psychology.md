@@ -243,7 +243,7 @@ Wenn du die Planungsseite ausführlicher willst, passen diese beiden Artikel am 
 
 ## Wo Flashcards in einen AP-Psychology-Workflow passen
 
-Wenn du das innerhalb von [Flashcards](https://flashcards-open-source-app.com/) umsetzen willst, ist der nützliche Teil nicht irgendein vages Versprechen, dass KI AP Psych schon irgendwie für dich übernehmen wird.
+Wenn du das innerhalb von [Nibomo](https://flashcards-open-source-app.com/) umsetzen willst, ist der nützliche Teil nicht irgendein vages Versprechen, dass KI AP Psych schon irgendwie für dich übernehmen wird.
 
 Nützlich ist, dass das Produkt bereits in die Mitte dieses Workflows passt:
 

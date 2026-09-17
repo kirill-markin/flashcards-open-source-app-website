@@ -90,7 +90,7 @@ Dann ändert sich die Frage. Es geht nicht mehr um "Kann ich das abrufen?" Es ge
 
 Genau dieses Scheduling-Problem löst Spaced Repetition.
 
-Ein guter Scheduler holt instabiles Material früher zurück und zieht sich dann Schritt für Schritt zurück, wenn die Erinnerung stabiler wird. In [Flashcards](/de/) läuft diese Timing-Schicht mit FSRS. Spätestens wenn deine Review-Warteschlange größer wird als ein Mini-Deck, spielt das eine echte Rolle. Wenn du den Scheduler selbst vergleichen willst, ist [FSRS vs SM-2 in 2026](/de/blog/fsrs-vs-sm-2/) die passendere Vertiefung.
+Ein guter Scheduler holt instabiles Material früher zurück und zieht sich dann Schritt für Schritt zurück, wenn die Erinnerung stabiler wird. In [Nibomo](/de/) läuft diese Timing-Schicht mit FSRS. Spätestens wenn deine Review-Warteschlange größer wird als ein Mini-Deck, spielt das eine echte Rolle. Wenn du den Scheduler selbst vergleichen willst, ist [FSRS vs SM-2 in 2026](/de/blog/fsrs-vs-sm-2/) die passendere Vertiefung.
 
 **Spaced Repetition** ersetzt Active Recall also nicht. Es ist der Kalender für das Material, das sich eine weitere Wiederholung verdient hat.
 
@@ -220,7 +220,7 @@ Wenn du Retrieval Practice machst und die nützlichen Fehler nie in ein echtes R
 
 ## Wo Flashcards hineinpasst
 
-[Flashcards](/de/) passt nach der Erklärung, nach dem Tutor, nach dem Quiz und nach der Übungssitzung hinein.
+[Nibomo](/de/) passt nach der Erklärung, nach dem Tutor, nach dem Quiz und nach der Übungssitzung hinein.
 
 Es ist die Schicht fürs Behalten, nicht der ganze Lernprozess.
 

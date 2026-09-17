@@ -263,7 +263,7 @@ Wenn du die Planungsseite genauer verstehen willst, lies hier weiter:
 
 ## Wo Flashcards in diesen Workflow passt
 
-[Flashcards](https://flashcards-open-source-app.com/) passt gut zu diesem Workflow, weil das Produkt genau die Teile abdeckt, auf die es ankommt:
+[Nibomo](https://flashcards-open-source-app.com/) passt gut zu diesem Workflow, weil das Produkt genau die Teile abdeckt, auf die es ankommt:
 
 - Klartext aus einem Artikel, Blogartikel, Newsletter oder einer Dokumentationsseite einfügen oder hochladen
 - die Quelle im KI-Chat bereinigen, bevor Karten entstehen

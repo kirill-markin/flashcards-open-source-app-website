@@ -192,7 +192,7 @@ Nutze einen Kreislauf: Übe im Kontext, untersuche den Fehler, speichere die kle
 
 ## Erstelle und plane das Deck, ohne den Quellenbezug zu verlieren
 
-Für diesen Ablauf reicht eine einfache Einrichtung in [Flashcards Open Source App](/features/):
+Für diesen Ablauf reicht eine einfache Einrichtung in [Nibomo](/features/):
 
 1. Erstelle Karten mit Vorder- und Rückseite für jeweils ein Abrufziel.
 2. Kennzeichne jede Karte nach ACS-Bereich und bei Bedarf nach Aufgabe, Quelle oder Fehler aus einer Übung.
@@ -205,7 +205,7 @@ FSRS plant, wann einzelne Karten wiederkehren. Es prüft weder die Richtigkeit v
 
 Der [Leitfaden zum Wiederholungsplan für Lernkarten](/blog/how-often-should-you-review-flashcards/) erklärt, wie fällige Wiederholungen funktionieren. Im Leitfaden [Erste Schritte](/docs/getting-started/) findest du Informationen zum Erstellen und Wiederholen von Karten, zum KI-Chat und zu Dateianhängen. Die App enthält kein fertiges FAA-Part-107-Deck, stellt keine offiziellen Prüfungsfragen bereit, simuliert nicht den UAG-Test und ersetzt keine FAA-Lernmaterialien.
 
-Flashcards Open Source App steht weder in Verbindung mit der FAA noch wird sie von ihr unterstützt. Du stellst die Karteninhalte selbst bereit und bist dafür verantwortlich, sie anhand aktueller offizieller Unterlagen zu prüfen.
+Nibomo steht weder in Verbindung mit der FAA noch wird die App von ihr unterstützt. Du stellst die Karteninhalte selbst bereit und bist dafür verantwortlich, sie anhand aktueller offizieller Unterlagen zu prüfen.
 
 ## Häufige Fragen zu FAA-Part-107-Lernkarten
 

@@ -176,7 +176,7 @@ Dieser Workflow ist weniger aufregend als ein riesiges automatisch erzeugtes Dec
 
 ## Wo Flashcards in diesen Ablauf passt
 
-[Flashcards](/de/) passt gut zu diesem Workflow, weil das Produkt schon um die Teile herum gebaut ist, die wichtig werden, sobald die Motivation nachlässt:
+[Nibomo](/de/) passt gut zu diesem Workflow, weil das Produkt schon um die Teile herum gebaut ist, die wichtig werden, sobald die Motivation nachlässt:
 
 - eine gehostete Web-App zum Erstellen von Karten und für fällige Reviews
 - KI-Chat mit Dateianhängen und Klartext-Uploads

@@ -20,7 +20,7 @@ Genau dort beginnt die echte HESI-A2-Vorbereitung im Jahr 2026. Elsevier definie
 
 Der bessere Workflow ist enger gefasst. Prüfe zuerst die Anforderungen deines Programms. Baue ein kleines Basis-Deck nur für die bewerteten Abschnitte. Lass dann deine Fehler aus Übungstests entscheiden, welche neuen Karten es wert sind, zu bleiben. So bleibst du bei der Prüfung, die du wirklich ablegst, und vermeidest die schlechteste HESI-Gewohnheit im Internet: aufgeblähte oder kopierte Decks auswendig zu lernen, die gar nicht zu deiner Schule passen.
 
-Das funktioniert, egal ob du Karten von Hand aus einem offiziellen Review Book erstellst, verfehlte Fragen in kleinere Abruf-Prompts zerlegst oder ein Roh-Deck in Flashcards Open Source App bereinigst.
+Das funktioniert, egal ob du Karten von Hand aus einem offiziellen Review Book erstellst, verfehlte Fragen in kleinere Abruf-Prompts zerlegst oder ein Roh-Deck in Nibomo bereinigst.
 
 ![Warmer HESI-A2-Lernschreibtisch mit schulbezogenen Flashcards für Anatomie, Biologie, Mathe, Lesen, Grammatik, Vokabeln und Übungsfehler](/blog/how-to-use-flashcards-for-the-hesi-a2.png)
 
@@ -219,11 +219,11 @@ Beispiele:
 
 Das ist ein deutlich besserer Workflow, als geleakte Items auswendig zu lernen oder vollständige Fragen in deinem Deck zu konservieren. Nutze legitime Vorbereitung. Behalte das Konzept. Lass die kopierte Formulierung weg.
 
-## Flashcards Open Source App passt gut, sobald dein Quellenmaterial sauber ist
+## Nibomo passt gut, sobald dein Quellenmaterial sauber ist
 
 Diese Art von Vorbereitung wird einfacher, wenn dasselbe Tool Entwurf, Tagging, Bearbeitung und Wiederholung abdecken kann.
 
-Flashcards Open Source App passt gut zur HESI-A2-Vorbereitung, weil du damit:
+Nibomo passt gut zur HESI-A2-Vorbereitung, weil du damit:
 
 - ein paar Karten aus offiziellem Lernmaterial oder deinen eigenen Notizen entwerfen kannst
 - überladene Karten aufteilen kannst, bevor sie in die Wiederholung gehen

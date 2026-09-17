@@ -27,7 +27,7 @@ Jeder Teil hat eine klar begrenzte Aufgabe:
 1. Der **ChatGPT Study Mode** stellt Fragen, gibt Hinweise und hilft dir, den Stoff Schritt für Schritt zu erarbeiten.
 2. **Du** entscheidest, welche Fehler du dauerhaft als Karte festhalten willst.
 3. **Codex in der ChatGPT-Desktop-App oder in der CLI** erstellt oder überarbeitet die freigegebenen Karten mit Flashcards MCP.
-4. **Flashcards** zeichnet deine Wiederholungen auf und plant mit FSRS den nächsten Termin.
+4. **Nibomo** zeichnet deine Wiederholungen auf und plant mit FSRS den nächsten Termin.
 
 OpenAIs aktuelle [Anleitung zum Study Mode](https://help.openai.com/en/articles/11780217-chatgpt-study-mode-faq) beschreibt einen Tutor, der mit dir Schritt für Schritt arbeitet, dich mit jeweils einer Frage abfragt und hochgeladene Notizen, Bilder oder PDFs einbezieht. So findest du heraus, was du noch nicht aus dem Gedächtnis erklären kannst.
 

@@ -1,5 +1,5 @@
 ---
-title: "StudySmarter Alternative 2026: Vergleich mit Flashcards"
+title: "StudySmarter Alternative 2026: Vergleich mit Nibomo"
 description: "Suchst du eine Alternative zu StudySmarter? Vergleiche Lernapp, Notizen, Quiz, FSRS, Offline-Lernen, KI, Self-Hosting und Datenkontrolle."
 date: "2026-08-03"
 image: "/blog/studysmarter-alternative.png"
@@ -16,11 +16,11 @@ keywords:
   - "self hosting karteikarten"
 ---
 
-StudySmarter bündelt fast alles, was rund um einen Kurs anfällt: Notizen, hochgeladene Unterlagen, geteilte Inhalte, Quiz, Probeprüfungen und Lernplanung. Flashcards Open Source App setzt bewusst enger an. Die Lernapp verwaltet Karteikarten mit Vorder- und Rückseite und plant deren Wiederholungen. Wer nach einer **StudySmarter Alternative** sucht, sollte deshalb zuerst klären, ob wirklich die ganze Lernplattform ersetzt werden soll – oder nur die Karteikarten-App darin.
+StudySmarter bündelt fast alles, was rund um einen Kurs anfällt: Notizen, hochgeladene Unterlagen, geteilte Inhalte, Quiz, Probeprüfungen und Lernplanung. Nibomo setzt bewusst enger an. Die Lernapp verwaltet Karteikarten mit Vorder- und Rückseite und plant deren Wiederholungen. Wer nach einer **StudySmarter Alternative** sucht, sollte deshalb zuerst klären, ob wirklich die ganze Lernplattform ersetzt werden soll – oder nur die Karteikarten-App darin.
 
 Flashcards ist keine abgespeckte Kopie von StudySmarter. Die App passt zu Lernenden, die Notizen und Quellen bereits anderswo verwalten und für ihre geprüften Fakten eine einfache, fokussierte Karteikarten-App suchen. Wer mit StudySmarter einen kompletten Kurs organisiert, würde bei einem Wechsel deutlich mehr als ein paar Zusatzfunktionen verlieren.
 
-> **Offenlegung:** Ich bin Kirill Markin und entwickle [Flashcards Open Source App](/features/), eines der beiden Produkte in diesem Vergleich. StudySmarter ist bei nativen Notizen, Quellenmaterial, fertigen und von der Community erstellten Inhalten, Quiz, Probeprüfungen und Lernplanung klar besser aufgestellt.
+> **Offenlegung:** Ich bin Kirill Markin und entwickle [Nibomo](/features/), eines der beiden Produkte in diesem Vergleich. StudySmarter ist bei nativen Notizen, Quellenmaterial, fertigen und von der Community erstellten Inhalten, Quiz, Probeprüfungen und Lernplanung klar besser aufgestellt.
 
 **Stand der Angaben:** 3. August 2026.
 
@@ -29,14 +29,14 @@ Flashcards ist keine abgespeckte Kopie von StudySmarter. Die App passt zu Lernen
 ## Kurz gesagt
 
 - Wähle **StudySmarter**, wenn du Notizen, hochgeladene Lernmaterialien, geteilte Sets, Erklärungen, Quiz, Probeprüfungen und deine Lernplanung in einer App haben möchtest.
-- Wähle **Flashcards Open Source App**, wenn du Karteikarten mit Vorder- und Rückseite langfristig pflegen willst: mit dokumentiertem FSRS-6, lokaler Speicherung und späterer Synchronisierung, MIT-lizenziertem Code, Zugriff für KI-Agenten und einem unterstützten Deployment des gesamten Stacks über AWS CDK.
+- Wähle **Nibomo**, wenn du Karteikarten mit Vorder- und Rückseite langfristig pflegen willst: mit dokumentiertem FSRS-6, lokaler Speicherung und späterer Synchronisierung, MIT-lizenziertem Code, Zugriff für KI-Agenten und einem unterstützten Deployment des gesamten Stacks über AWS CDK.
 - Bleib bei **StudySmarter**, wenn dich nur eine Kleinigkeit stört. Zwischen den Produkten ist keine verlustfreie Migration dokumentiert. Beim Wechsel zu Flashcards lässt du StudySmarters Werkzeuge für den gesamten Kurs zurück.
 
 Keine der beiden Entscheidungen macht das Lernen automatisch ernsthafter. StudySmarter deckt einen größeren Teil des Weges vom Kursmaterial bis zur Prüfungsvorbereitung ab. Flashcards konzentriert sich darauf, eine kleinere Kartensammlung über längere Zeit wiederholbar zu halten.
 
 ## StudySmarter vs Flashcards auf einen Blick
 
-| Frage | StudySmarter | Flashcards Open Source App |
+| Frage | StudySmarter | Nibomo |
 |---|---|---|
 | Am besten geeignet für | Kurs- und Prüfungsvorbereitung in einer All-in-one-Lernapp | Gezielte Langzeitwiederholung mit Karten aus Vorder- und Rückseite |
 | Notizen | Native Notizen und Dokumente mit Formatierung, Markierungen und Anmerkungen | Kein natives Notizsystem; Vorder- und Rückseite unterstützen Markdown |

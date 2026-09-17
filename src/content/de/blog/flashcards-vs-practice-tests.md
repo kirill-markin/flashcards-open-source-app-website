@@ -230,7 +230,7 @@ So wird aus "Ich vergesse am nächsten Tag alles wieder" meistens eher: "Ich hab
 
 ## Wo Flashcards hier ehrlich hineinpasst
 
-[Flashcards](/de/) ist nicht das Produkt, das ich ehrlich als vollständige Plattform für Übungstests beschreiben würde.
+[Nibomo](/de/) ist nicht das Produkt, das ich ehrlich als vollständige Plattform für Übungstests beschreiben würde.
 
 Es passt besser als Gedächtnisschicht, nachdem Erklärungen, Nachhilfe, Quizze und Übungsfragen ihre Arbeit schon gemacht haben.
 

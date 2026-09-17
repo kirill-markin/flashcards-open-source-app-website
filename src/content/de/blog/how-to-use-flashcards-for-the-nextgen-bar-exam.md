@@ -243,7 +243,7 @@ Wenn du die Planungsseite ausführlicher willst, ist das hier der direkte Beglei
 
 ## Wo Flashcards in diesen NextGen-Workflow hineinpassen
 
-Wenn du das in [Flashcards](https://flashcards-open-source-app.com/) umsetzen willst, liegt der nützliche Teil nicht in dem vagen Versprechen, dass KI das Lernen leichter macht. Der nützliche Teil ist, dass das Produkt bereits den eigentlichen Mittelteil dieses Workflows unterstützt:
+Wenn du das in [Nibomo](https://flashcards-open-source-app.com/) umsetzen willst, liegt der nützliche Teil nicht in dem vagen Versprechen, dass KI das Lernen leichter macht. Der nützliche Teil ist, dass das Produkt bereits den eigentlichen Mittelteil dieses Workflows unterstützt:
 
 - KI-Chat in der Web-App
 - Dateianhänge und Klartext-Uploads für Outlines, Übungsnotizen oder kopierte Erklärungen

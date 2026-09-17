@@ -231,7 +231,7 @@ Das Deck wird sofort sauberer.
 
 ## Warum Flashcards gut in diesen Workflow passt
 
-[Flashcards](https://flashcards-open-source-app.com/) passt gut zu diesem Workflow, weil das Produkt bereits die Bausteine mitbringt, auf die diese Art von Vokabellernen mit Spaced Repetition angewiesen ist:
+[Nibomo](https://flashcards-open-source-app.com/) passt gut zu diesem Workflow, weil das Produkt bereits die Bausteine mitbringt, auf die diese Art von Vokabellernen mit Spaced Repetition angewiesen ist:
 
 - saubere Vorder- und Rückseitenkarten
 - FSRS-gestützte Wiederholungsplanung
@@ -260,4 +260,4 @@ Ich würde das System simpel halten:
 
 So ergibt der Einsatz von Flashcards fürs Sprachenlernen im Jahr 2026 für mich am meisten Sinn.
 
-Wenn du ein Tool willst, das genau für diesen Workflow gebaut ist, passt [Flashcards](https://flashcards-open-source-app.com/) gut. Es gibt dir KI-gestützte Entwürfe, klare Vorder- und Rückseitenkarten und FSRS-gestützte Wiederholungen in einem Open-Source-Stack, also genau das, was ein Sprachdeck braucht, sobald du aufhörst, Wortsammlung mit echtem Lernen zu verwechseln.
+Wenn du ein Tool willst, das genau für diesen Workflow gebaut ist, passt [Nibomo](https://flashcards-open-source-app.com/) gut. Es gibt dir KI-gestützte Entwürfe, klare Vorder- und Rückseitenkarten und FSRS-gestützte Wiederholungen in einem Open-Source-Stack, also genau das, was ein Sprachdeck braucht, sobald du aufhörst, Wortsammlung mit echtem Lernen zu verwechseln.

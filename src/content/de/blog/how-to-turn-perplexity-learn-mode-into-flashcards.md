@@ -196,16 +196,16 @@ Wenn du die Planungsseite genauer willst, gehen [FSRS-Einstellungen 2026](/de/bl
 
 Dieser Text ist enger. Perplexity hat das Loch gefunden. FSRS hilft dir, es mit der Zeit zu schließen.
 
-## Wo Flashcards Open Source App hineinpasst
+## Wo Nibomo hineinpasst
 
-[Flashcards Open Source App](/de/) passt nach Learn Mode, sobald klar ist, was es wert ist, behalten zu werden.
+[Nibomo](/de/) passt nach Learn Mode, sobald klar ist, was es wert ist, behalten zu werden.
 
 Es gibt keinen magischen Perplexity-Importknopf, den ich hier schönreden müsste. Der nützliche Workflow ist schlichter und glaubwürdiger:
 
 1. Beende die Learn-Mode-Sitzung.
 2. Kopiere die Schwachstellen, den bereinigten Kartenentwurf oder beides.
 3. Behalte den Abschnitt in den Notizen oder die Quelle neben jeder Kartenidee, während du bearbeitest.
-4. Füge das in den KI-Chat der Flashcards Open Source App ein oder erstelle die Karten direkt.
+4. Füge das in den KI-Chat von Nibomo ein oder erstelle die Karten direkt.
 5. Formuliere alles zu schlichten Vorder-/Rückseite-Karten um.
 6. Organisiere sie per Deck oder Tag.
 7. Wiederhole sie mit FSRS.

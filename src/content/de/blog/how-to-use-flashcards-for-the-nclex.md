@@ -247,7 +247,7 @@ Hier wird auch der Unterschied zwischen einem Deck für die Pflegeausbildung und
 
 ## Wo Flashcards hineinpasst
 
-[Flashcards](https://flashcards-open-source-app.com/) passt gut zu diesem Workflow, weil es dir die langweiligen Dinge gibt, die hier zählen: kleine Vorderseiten-/Rückseiten-Karten, Tags, gefilterte Wiederholung und FSRS-Planung, sobald die Karten sauber genug sind, um ihr zu vertrauen.
+[Nibomo](https://flashcards-open-source-app.com/) passt gut zu diesem Workflow, weil es dir die langweiligen Dinge gibt, die hier zählen: kleine Vorderseiten-/Rückseiten-Karten, Tags, gefilterte Wiederholung und FSRS-Planung, sobald die Karten sauber genug sind, um ihr zu vertrauen.
 
 Das ist für die NCLEX-Vorbereitung nützlich, weil dein Quellenmaterial schnell chaotisch wird. Begründungen liegen in einem Tab, handschriftliche Notizen in einem anderen, irgendwo noch ein Blatt mit Laborwerten, und deine echten Schwachstellen verteilen sich meistens über all das. Das richtige Tool ist das, mit dem du daraus kleinere Karten machen kannst, ohne dir damit ein zweites Vollzeit-Lernsystem zu bauen.
 

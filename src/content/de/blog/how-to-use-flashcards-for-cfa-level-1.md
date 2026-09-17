@@ -275,7 +275,7 @@ Tagge diese Karten mit `needs-recheck` und verifiziere sie gegen die offiziellen
 
 ## Wo Flashcards in diesen CFA-Workflow passt
 
-[Flashcards](https://flashcards-open-source-app.com/) passt in diesen Workflow, weil es genau die Teile unterstützt, die ein CFA-Deck braucht, ohne so zu tun, als würde es CFA-Institute-Materialien ersetzen:
+[Nibomo](https://flashcards-open-source-app.com/) passt in diesen Workflow, weil es genau die Teile unterstützt, die ein CFA-Deck braucht, ohne so zu tun, als würde es CFA-Institute-Materialien ersetzen:
 
 - Erstellen und Bearbeiten von Front/Back-Karten
 - Decks und Tags für Organisation nach Thema und Quelle

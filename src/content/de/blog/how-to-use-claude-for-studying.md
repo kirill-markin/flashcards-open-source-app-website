@@ -19,7 +19,7 @@ Deine erste sinnvolle Eingabe sollte deshalb nicht „Frag mich ab“ sein. Lass
 
 Dieser quellengebundene Ablauf ist die praktische Antwort auf die Frage, wie du **Claude zum Lernen nutzen** kannst: Prüfe das Material, beantworte eine Frage nach der anderen aus dem Gedächtnis, halte den Beleg direkt neben jeder Korrektur fest und speichere nur die Wissenslücken, die eine spätere Wiederholung lohnen. Das funktioniert in einem normalen Claude-Chat und kommt ohne Karteikarten-App aus.
 
-> **Offenlegung:** Ich bin Kirill Markin und entwickle die [Flashcards Open Source App](/features/). Abgesehen von diesem Hinweis erscheint das Produkt nur im optionalen Abschnitt zur Übertragung weiter unten; die Lernmethode hängt nicht davon ab. Dieser Artikel wurde mit Unterstützung von KI recherchiert und redigiert.
+> **Offenlegung:** Ich bin Kirill Markin und entwickle [Nibomo](/features/). Abgesehen von diesem Hinweis erscheint das Produkt nur im optionalen Abschnitt zur Übertragung weiter unten; die Lernmethode hängt nicht davon ab. Dieser Artikel wurde mit Unterstützung von KI recherchiert und redigiert.
 
 **Fakten geprüft:** 14. September 2026.
 
@@ -226,7 +226,7 @@ Verwirf den Rest. Eine Lernsitzung mit Claude kann auch dann nützlich sein, wen
 
 Die einfachste Übertragung funktioniert mit jeder Karteikarten-App. Lass Claude nur die freigegebenen Karten als schlichte Blöcke mit Vorder- und Rückseite ausgeben, prüfe sie noch einmal und kopiere sie in dein gewohntes Wiederholungssystem.
 
-Wenn du die Flashcards Open Source App nutzt, kann Claude freigegebene Karten auch über seinen Remote Custom Connector speichern. Laut Anthropics [aktueller Anleitung für Custom Connectors](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp) sind Remote Connectors in den Tarifen Free, Pro, Max, Team und Enterprise verfügbar; Nutzer des Tarifs Free können einen hinzufügen. Verbinde nur Server, denen du vertraust, und prüfe Schreibaktionen vor der Freigabe.
+Wenn du Nibomo nutzt, kann Claude freigegebene Karten auch über seinen Remote Custom Connector speichern. Laut Anthropics [aktueller Anleitung für Custom Connectors](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp) sind Remote Connectors in den Tarifen Free, Pro, Max, Team und Enterprise verfügbar; Nutzer des Tarifs Free können einen hinzufügen. Verbinde nur Server, denen du vertraust, und prüfe Schreibaktionen vor der Freigabe.
 
 Die Flashcards-MCP-URL lautet:
 

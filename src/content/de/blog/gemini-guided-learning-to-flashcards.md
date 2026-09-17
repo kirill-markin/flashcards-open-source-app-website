@@ -205,7 +205,7 @@ Wenn du den Vergleich der Scheduler selbst willst, ist [FSRS vs SM-2 in 2026](/b
 
 ## Wo Flashcards hineinpasst
 
-[Flashcards](/) versucht nicht, Gemini Guided Learning zu ersetzen.
+[Nibomo](/) versucht nicht, Gemini Guided Learning zu ersetzen.
 
 Es passt nach der Sitzung, sobald klar ist, was es wert ist, behalten zu werden.
 

@@ -289,9 +289,9 @@ Hier kommt der Großteil der Qualität her.
 
 Baue kein zweites Wiederholungssystem für Terminalbefehle, außer du pflegst gern verlassene Lernsysteme.
 
-## Wo Flashcards Open Source App hineinpasst
+## Wo Nibomo hineinpasst
 
-[Flashcards Open Source App](/de/) passt hier gut, weil das Lernen von Terminalbefehlen ohnehin klar abgegrenzt und textlastig ist.
+[Nibomo](/de/) passt hier gut, weil das Lernen von Terminalbefehlen ohnehin klar abgegrenzt und textlastig ist.
 
 Du kannst es dafür nutzen:
 

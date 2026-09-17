@@ -125,7 +125,7 @@ Eine Klartext-Kopie ist auf die richtige Weise hässlich:
 
 Das ist heute noch wichtiger, weil viele Decks aus Notizen, Transkripten, OCR, PDFs und KI-gestützter Bereinigung entstehen. Sobald der nützliche Teil als lesbarer Text gespeichert ist, werden deine späteren Optionen deutlich besser.
 
-Deshalb ist [Flashcards](/features/) nach der Bereinigung auch ein sinnvoller nächster Ort. Das aktuelle Produkt unterstützt KI-Chat mit Klartext und Dateianhängen, also muss ein bereinigter Export nicht als totes Backup-Material herumliegen. Er kann zum Entwurfs-Input für ein besseres Deck werden.
+Deshalb ist [Nibomo](/features/) nach der Bereinigung auch ein sinnvoller nächster Ort. Das aktuelle Produkt unterstützt KI-Chat mit Klartext und Dateianhängen, also muss ein bereinigter Export nicht als totes Backup-Material herumliegen. Er kann zum Entwurfs-Input für ein besseres Deck werden.
 
 ## Sichere die Quelle, nicht nur die fertige Karte
 
@@ -203,7 +203,7 @@ Wenn ich ein neues Deck mit Blick auf Eigentum aufsetzen würde, wären mir zuer
 - schlichte Vorder-/Rückseitenkarten, die portabel bleiben
 - KI, die an echte Daten angebunden ist, nicht nur an One-Shot-Generierungsdemos
 
-Das ist die Richtung, in die [Flashcards](/) sich bereits bewegt.
+Das ist die Richtung, in die [Nibomo](/) sich bereits bewegt.
 
 Die aktuellen öffentlichen Docs reichen aus, um diese Richtung konkret zu machen:
 

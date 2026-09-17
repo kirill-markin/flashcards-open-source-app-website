@@ -221,9 +221,9 @@ Wenn du die Scheduling-Seite genauer verstehen willst, geht dieser Artikel tiefe
 
 - [FSRS vs SM-2 in 2026: Welcher Spaced-Repetition-Algorithmus hilft dir, mehr zu behalten?](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
 
-## Wo Flashcards Open Source App hineinpasst
+## Wo Nibomo hineinpasst
 
-[Flashcards Open Source App](https://flashcards-open-source-app.com/) passt gut zu **Podcast zu Flashcards**, weil das Produkt bereits die praktischen Schritte abdeckt, die den Workflow nutzbar machen:
+[Nibomo](https://flashcards-open-source-app.com/) passt gut zu **Podcast zu Flashcards**, weil das Produkt bereits die praktischen Schritte abdeckt, die den Workflow nutzbar machen:
 
 - Klartext aus Podcast-Transkripten einfügen oder hochladen
 - das Material im KI-Chat bereinigen, bevor Karten erstellt werden

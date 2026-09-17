@@ -276,9 +276,9 @@ Du musst nicht 400 Lösungen auswendig lernen.
 
 Du musst nur aufhören, dieselben fünfzehn Lektionen immer wieder zu vergessen.
 
-## Wo Flashcards Open Source App gut passt
+## Wo Nibomo gut passt
 
-[Flashcards Open Source App](https://flashcards-open-source-app.com/) passt gut zu **Flashcards für Coding-Interviews**, weil das Produkt die Teile bereits unterstützt, auf die es wirklich ankommt:
+[Nibomo](https://flashcards-open-source-app.com/) passt gut zu **Flashcards für Coding-Interviews**, weil das Produkt die Teile bereits unterstützt, auf die es wirklich ankommt:
 
 - FSRS-Planung für regelmäßige Wiederholungen ohne manuelles Intervall-Tuning
 - Decks, Tags, Suche und gefilterte Decks nach Tag und Aufwand

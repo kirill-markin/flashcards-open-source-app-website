@@ -305,4 +305,4 @@ Das ist die Version von NREMT-Flashcards, der ich 2026 vertrauen würde.
 
 Das nützliche Deck ist kleiner und spezifischer. Es richtet sich auf CAT-Fehler, Entscheidungen im Primary Assessment, TEI-artige Reihenfolge- und Sortieraufgaben sowie protokollnahes Abrufen aus und knüpft an das an, was dein Kurs tatsächlich lehrt.
 
-Wenn du ein Tool willst, das diesen Workflow unterstützt, dann starte mit dem [Getting-Started-Guide](/docs/getting-started/) oder lies die [Features-Seite](/features/). Flashcards Open Source App ist ein Open-Source-Lerntool mit FSRS-Wiederholung. Es ist nicht mit NREMT verbunden und funktioniert am besten, wenn du es mit kleinen Karten aus echten Fehlern fütterst statt mit riesigen Zusammenfassungen.
+Wenn du ein Tool willst, das diesen Workflow unterstützt, dann starte mit dem [Getting-Started-Guide](/docs/getting-started/) oder lies die [Features-Seite](/features/). Nibomo ist ein Open-Source-Lerntool mit FSRS-Wiederholung. Es ist nicht mit NREMT verbunden und funktioniert am besten, wenn du es mit kleinen Karten aus echten Fehlern fütterst statt mit riesigen Zusammenfassungen.

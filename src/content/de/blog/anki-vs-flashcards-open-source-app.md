@@ -1,23 +1,23 @@
 ---
-title: "Anki vs. Flashcards (2026): Welche App solltest du nutzen?"
-description: "Vergleiche Anki und Flashcards Open Source App bei FSRS, Offline-Nutzung, mobilen Apps, KI, Migration, Self-Hosting und Datenkontrolle, bevor du wechselst."
+title: "Anki vs. Nibomo (2026): Welche App solltest du nutzen?"
+description: "Vergleiche Anki und Nibomo bei FSRS, Offline-Nutzung, mobilen Apps, KI, Migration, Self-Hosting und Datenkontrolle, bevor du wechselst."
 date: "2026-04-25"
 updated: "2026-08-23"
 image: "/blog/anki-vs-flashcards-open-source-app-v2.png"
 keywords:
+  - "Anki vs. Nibomo"
   - "Anki vs. Flashcards"
-  - "Anki vs. Flashcards Open Source App"
   - "Anki-Alternative"
   - "Open-Source-Anki-Alternative"
   - "FSRS-Karteikarten-App"
   - "selbst gehostete Karteikarten-App"
 ---
 
-Wenn deine Karten und dein Wiederholungsverlauf bereits in Anki stecken, ist ein App-Wechsel vor allem eine Datenmigration – und erst in zweiter Linie eine Designfrage. Anki kann einzelne Decks oder die gesamte Sammlung samt Planungsdaten und Medien exportieren. Flashcards Open Source App kann Ankis `.apkg`- und `.colpkg`-Pakete jedoch nicht importieren. Einfache Karteninhalte lassen sich damit zwar neu aufbauen, deine aktuelle Wiederholungswarteschlange lässt sich aber nicht fortsetzen.
+Wenn deine Karten und dein Wiederholungsverlauf bereits in Anki stecken, ist ein App-Wechsel vor allem eine Datenmigration – und erst in zweiter Linie eine Designfrage. Anki kann einzelne Decks oder die gesamte Sammlung samt Planungsdaten und Medien exportieren. Nibomo kann Ankis `.apkg`- und `.colpkg`-Pakete jedoch nicht importieren. Einfache Karteninhalte lassen sich damit zwar neu aufbauen, deine aktuelle Wiederholungswarteschlange lässt sich aber nicht fortsetzen.
 
 Diese Einschränkung ist für die meisten Vergleiche von **Anki vs. Flashcards** ausschlaggebend. Bleib bei Anki, wenn dir eine originalgetreue Sammlung, Vorlagen, Add-ons, geteilte Decks oder deine eingespielte Wiederholungsroutine am wichtigsten sind. Probiere Flashcards aus, wenn du mit einem neuen oder überwiegend textbasierten Deck beginnen kannst und dir der Quellcode des gesamten Stacks, Offline-first-Synchronisierung, integrierte KI oder Agenten-Workflows wichtiger sind.
 
-> **Offenlegung:** Ich bin Kirill Markin und entwickle [Flashcards](https://flashcards-open-source-app.com/). Ich habe ein klares Interesse an dem Produkt. Deshalb ist Anki in diesem Vergleich die Standardempfehlung für alle Workflows, die Flashcards noch nicht abbilden kann.
+> **Offenlegung:** Ich bin Kirill Markin und entwickle [Nibomo](https://flashcards-open-source-app.com/). Ich habe ein klares Interesse an dem Produkt. Deshalb ist Anki in diesem Vergleich die Standardempfehlung für alle Workflows, die Nibomo noch nicht abbilden kann.
 
 **Fakten geprüft:** 23. August 2026.
 
@@ -25,15 +25,15 @@ Diese Einschränkung ist für die meisten Vergleiche von **Anki vs. Flashcards**
 
 ## Kurzurteil
 
-| Deine Anforderung | Anki | Flashcards Open Source App | Aktuell besser geeignet |
+| Deine Anforderung | Anki | Nibomo | Aktuell besser geeignet |
 | --- | --- | --- | --- |
 | Du musst eine komplexe Sammlung samt Wiederholungsverlauf erhalten | Eine `.colpkg`-Datei enthält die vollständige Sammlung und den Lernplan; eine `.apkg`-Datei kann den Wiederholungsverlauf, Deck-Voreinstellungen und Medien enthalten | Kein direkter Import von Anki-Paketen; aus einem Anki-Textexport entstehen geprüfte Kartenentwürfe, keine originalgetreue Übertragung der Sammlung | **Anki** |
 | Du möchtest FSRS nutzen | Unterstützt FSRS, die Parameteroptimierung anhand des Wiederholungsverlaufs, die gewünschte Behaltensquote und Deck-Voreinstellungen | Verwendet fest vorgegebene FSRS-6-Gewichte im Web, unter iOS und Android sowie im Backend; die Workspace-Einstellungen optimieren die Gewichte nicht anhand deiner Wiederholungen | **Beide**; Anki ist stärker bei der persönlichen Optimierung und beim Erhalt des bestehenden Lernplans |
 | Du lernst ohne Internet | Installierte Desktop-, iOS- und Android-Clients speichern die Sammlung lokal; AnkiWeb bleibt auf eine Internetverbindung angewiesen | Web, iOS und Android speichern Kartenänderungen und Wiederholungen zuerst lokal; Anmeldung, erstmalige Datenübernahme, Synchronisierung, KI und nicht zwischengespeicherte Medien benötigen eine Verbindung | **Beide**, nachdem du deine konkreten Geräte und Medien getestet hast |
 | Du bist auf Vorlagen, Add-ons oder geteilte Decks angewiesen | Ausgereifte offizielle Workflows und ein großes Community-Ökosystem | Konzentriert sich auf Karten mit Vorder- und Rückseite; kein vergleichbares Ökosystem für Add-ons oder geteilte Decks | **Anki** |
-| Du möchtest integrierte KI und Agentenzugriff | Über Add-ons und Integrationen von Drittanbietern möglich | KI-Chat mit Workspace-Kontext und Dateien sowie MCP und eine öffentliche Agent API | **Flashcards** |
+| Du möchtest integrierte KI und Agentenzugriff | Über Add-ons und Integrationen von Drittanbietern möglich | KI-Chat mit Workspace-Kontext und Dateien sowie MCP und eine öffentliche Agent API | **Nibomo** |
 | Du möchtest selbst über den Server bestimmen | Der offizielle selbst gehostete Server ersetzt die Synchronisierung von Sammlung und Medien | Die dokumentierte AWS-Bereitstellung umfasst Web, Authentifizierung, Backend, Synchronisierung, KI-Worker und Infrastruktur | Hängt davon ab, ob du **nur die Synchronisierung** oder den **gesamten Stack** brauchst |
-| Du möchtest den Quellcode des vollständigen Client- und Service-Stacks | Anki Desktop und der Synchronisierungsserver sind öffentlich; AnkiDroid ist ein separates öffentliches Projekt; der vollständige Quellcode von AnkiMobile und AnkiWeb ist nicht öffentlich | Web, iOS, Android, Authentifizierung, Backend, Synchronisierung, Agentenschnittstellen und Infrastruktur stehen in einem einzigen Repository unter MIT-Lizenz | **Flashcards** |
+| Du möchtest den Quellcode des vollständigen Client- und Service-Stacks | Anki Desktop und der Synchronisierungsserver sind öffentlich; AnkiDroid ist ein separates öffentliches Projekt; der vollständige Quellcode von AnkiMobile und AnkiWeb ist nicht öffentlich | Web, iOS, Android, Authentifizierung, Backend, Synchronisierung, Agentenschnittstellen und Infrastruktur stehen in einem einzigen Repository unter MIT-Lizenz | **Nibomo** |
 
 Wer Anki bereits intensiv nutzt, ist meist am besten beraten, dabei zu bleiben. Ein Test von Flashcards ist sinnvoll, wenn gerade einer der Unterschiede im Produktumfang ein echtes Problem löst – nicht bloß, weil die Oberfläche neuer ist.
 
@@ -150,6 +150,6 @@ Du kannst mit der [gehosteten App](https://app.flashcards-open-source-app.com/) 
 
 ## Die praktische Antwort
 
-Für die meisten etablierten Nutzer, die **Anki vs. Flashcards Open Source App** vergleichen, sollte Anki die Haupt-App bleiben. Anki bietet das stärkere Sammlungsmodell, originalgetreuere Migrationen, mehr Möglichkeiten zur Anpassung und das größere Ökosystem – und verfügt bereits über FSRS und zuverlässige Offline-Clients.
+Für die meisten etablierten Nutzer, die **Anki vs. Nibomo** vergleichen, sollte Anki die Haupt-App bleiben. Anki bietet das stärkere Sammlungsmodell, originalgetreuere Migrationen, mehr Möglichkeiten zur Anpassung und das größere Ökosystem – und verfügt bereits über FSRS und zuverlässige Offline-Clients.
 
 Flashcards ist für einen engeren Kreis eine glaubwürdige Open-Source-Anki-Alternative: für Menschen, die bereit sind, mit einem neuen Planungsverlauf zu beginnen, und dafür Zugriff auf den Quellcode des gesamten Stacks, verfügbare Web- und native Apps, Offline-first-Synchronisierung, integrierte KI und Agenten-Workflows erhalten. Teste diesen Kompromiss mit einem repräsentativen Deck. Wenn die Einschränkung, die du beseitigen wolltest, tatsächlich verschwindet, kannst du den Einsatz schrittweise ausweiten.

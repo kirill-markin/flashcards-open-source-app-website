@@ -159,11 +159,11 @@ Beginne mit einer täglichen Menge, die du an einem normalen Arbeitstag bewälti
 
 Flashcards trainieren den Abruf über längere Zeit. Fragensets unter Zeitdruck trainieren dich darin, zu lesen, auszuwählen, dein Tempo einzuteilen und Unsicherheit auszuhalten. Du brauchst beides.
 
-## Wo Flashcards Open Source App in diesen Workflow passt
+## Wo Nibomo in diesen Workflow passt
 
-Die [Funktionen von Flashcards Open Source App](/features/) unterstützen diesen Workflow: Du kannst Karten mit Vorder- und Rückseite erstellen oder importieren, sie mit Tags organisieren, mit KI-Unterstützung entwerfen und mit FSRS wiederholen.
+Die [Funktionen von Nibomo](/features/) unterstützen diesen Workflow: Du kannst Karten mit Vorder- und Rückseite erstellen oder importieren, sie mit Tags organisieren, mit KI-Unterstützung entwerfen und mit FSRS wiederholen.
 
-KI-Ausgaben müssen weiterhin von Menschen geprüft werden. Flashcards Open Source App ist nicht mit ASWB verbunden, kein offizieller Anbieter von ASWB-Inhalten und kein Prüfungssimulator. Die App enthält weder ein ASWB-Deck noch eine Fragenbank. Verwende nur Quellen, zu deren Nutzung du berechtigt bist, und verknüpfe Karten, bei denen es darauf ankommt, mit dem Kontext zu Kategorie und Rechtsgebiet.
+KI-Ausgaben müssen weiterhin von Menschen geprüft werden. Nibomo ist nicht mit ASWB verbunden, kein offizieller Anbieter von ASWB-Inhalten und kein Prüfungssimulator. Die App enthält weder ein ASWB-Deck noch eine Fragenbank. Verwende nur Quellen, zu deren Nutzung du berechtigt bist, und verknüpfe Karten, bei denen es darauf ankommt, mit dem Kontext zu Kategorie und Rechtsgebiet.
 
 ## Letzte Kontrolle vor dem Lernen mit dem Deck
 

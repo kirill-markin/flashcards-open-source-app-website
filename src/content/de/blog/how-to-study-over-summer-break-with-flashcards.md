@@ -212,7 +212,7 @@ Wenn KI dein Deck schon größer gemacht hat als deine Geduld, ist [Wie du 2026 
 
 ## Wo Flashcards gut hineinpasst
 
-[Flashcards](/de/) passt gut zu dieser Art von Sommer-Wiederholung, weil das Schwierige nicht Neuheit ist. Es geht darum, lange genug reibungsarm zu bleiben, damit du dranbleibst.
+[Nibomo](/de/) passt gut zu dieser Art von Sommer-Wiederholung, weil das Schwierige nicht Neuheit ist. Es geht darum, lange genug reibungsarm zu bleiben, damit du dranbleibst.
 
 Du kannst Karten aus Notizen oder Dateien entwerfen, sie auf schlichte Vorderseiten-/Rückseiten-Prompts zurechtschneiden und dann FSRS das Timing der Wiederholungen überlassen, sobald das Deck sauber ist. Das ist im Juli wichtiger als während der Klausurenphase. In der Klausurenphase tolerieren Menschen für ein paar Tage einen chaotischen Workflow. Im Sommer hören sie einfach auf, die App zu öffnen.
 

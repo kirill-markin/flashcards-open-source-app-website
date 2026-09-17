@@ -250,9 +250,9 @@ Wenn du die Scheduling-Seite genauer verstehen willst, geht dieser Artikel weite
 
 - [FSRS vs SM-2 in 2026: Welcher Spaced-Repetition-Algorithmus hilft dir, mehr zu behalten?](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
 
-## Wo Flashcards Open Source App passt
+## Wo Nibomo passt
 
-[Flashcards Open Source App](https://flashcards-open-source-app.com/) passt gut zu diesem Workflow, weil das Produkt bereits auf das ausgerichtet ist, was Voice-basiertes Sprachenlernen braucht:
+[Nibomo](https://flashcards-open-source-app.com/) passt gut zu diesem Workflow, weil das Produkt bereits auf das ausgerichtet ist, was Voice-basiertes Sprachenlernen braucht:
 
 - saubere Front/Back-Kartenerstellung
 - FSRS-Scheduling für Langzeit-Review
@@ -284,7 +284,7 @@ Und lass danach Spaced Repetition die leise Arbeit übernehmen.
 
 Wenn du genau das willst, starte hier:
 
-- [Flashcards Open Source App öffnen](https://flashcards-open-source-app.com/)
+- [Nibomo öffnen](https://flashcards-open-source-app.com/)
 - [Erste Schritte](https://flashcards-open-source-app.com/docs/getting-started/)
 - [API-Referenz](https://flashcards-open-source-app.com/docs/api/)
 - [Den Sourcecode auf GitHub ansehen](https://github.com/kirill-markin/flashcards-open-source-app)

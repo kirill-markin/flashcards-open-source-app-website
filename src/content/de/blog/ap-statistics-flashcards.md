@@ -237,13 +237,13 @@ Halte die Routine so überschaubar, dass du sie das ganze Schuljahr beibehalten 
 
 Setze dir ein Tagesziel für neue Karten, bei dem noch genug Zeit für fällige Wiederholungen und echte Aufgaben bleibt. [Wie viele neue Lernkarten pro Tag?](/blog/how-many-new-flashcards-per-day/) erklärt, wie du dieses Ziel anpasst, wenn die Wiederholungen mehr werden.
 
-## Wobei Flashcards Open Source App hilft
+## Wobei Nibomo hilft
 
-[Flashcards Open Source App](/features/) übernimmt den Teil des Lernens, bei dem es ums Erinnern geht: Karten mit Vorder- und Rückseite, Tags, FSRS-Planung, Importe und portable Exporte, KI-gestützte Entwürfe sowie Offline-First-Clients. Eine Karte kann gleichzeitig Tags für Unit, Practice und Fehlertyp tragen.
+[Nibomo](/features/) übernimmt den Teil des Lernens, bei dem es ums Erinnern geht: Karten mit Vorder- und Rückseite, Tags, FSRS-Planung, Importe und portable Exporte, KI-gestützte Entwürfe sowie Offline-First-Clients. Eine Karte kann gleichzeitig Tags für Unit, Practice und Fehlertyp tragen.
 
 Mit der KI-Unterstützung kannst du eine überladene Antwort kürzen oder aus deinen Notizen einen Entwurf erstellen. Prüfe jede statistische Aussage anhand der aktuellen Course and Exam Description oder der Materialien deiner Lehrkraft, bevor du sie speicherst.
 
-Flashcards Open Source App bietet derzeit kein geprüftes, fertiges AP-Statistics-Paket. Die App bewertet keine FRQs und ersetzt weder Übungen in Bluebook noch die Arbeit mit dem Taschenrechner. Beginne mit deinen aktuellen Kursmaterialien und plane in der App nur die Karten ein, die nach deiner Prüfung des Decks übrig bleiben.
+Nibomo bietet derzeit kein geprüftes, fertiges AP-Statistics-Paket. Die App bewertet keine FRQs und ersetzt weder Übungen in Bluebook noch die Arbeit mit dem Taschenrechner. Beginne mit deinen aktuellen Kursmaterialien und plane in der App nur die Karten ein, die nach deiner Prüfung des Decks übrig bleiben.
 
 Dieser unabhängige Lernleitfaden ist weder mit College Board verbunden noch von College Board unterstützt. Im [Einstiegsleitfaden](/docs/getting-started/) findest du Informationen zur gehosteten App und zum Self-Hosting.
 

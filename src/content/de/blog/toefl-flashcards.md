@@ -236,9 +236,9 @@ Sie können Folgendes nicht ersetzen:
 
 Nutze während deiner gesamten Vorbereitung [offizielle TOEFL-Vorbereitungsmaterialien](https://www.ets.org/toefl/test-takers/ibt/prepare.html). Vollständige Übungen zeigen außerdem Probleme mit Tempo und Aufmerksamkeit, die in einer Warteschlange mit Vokabelkarten unsichtbar bleiben.
 
-## Wo Flashcards Open Source App in den Ablauf passt
+## Wo Nibomo in den Ablauf passt
 
-[Flashcards](/de/) übernimmt in diesem Workflow den Teil fürs langfristige Behalten. Die Web-App unterstützt Karten mit Vorder- und Rückseite, KI-Chat mit Workspace-Daten und Dateianhängen einschließlich Klartextdateien sowie Wiederholungen mit FSRS. Die Bewertungsoptionen heißen Again, Hard, Good und Easy.
+[Nibomo](/de/) übernimmt in diesem Workflow den Teil fürs langfristige Behalten. Die Web-App unterstützt Karten mit Vorder- und Rückseite, KI-Chat mit Workspace-Daten und Dateianhängen einschließlich Klartextdateien sowie Wiederholungen mit FSRS. Die Bewertungsoptionen heißen Again, Hard, Good und Easy.
 
 Ein sorgfältiger Ablauf sieht so aus:
 
