@@ -1,6 +1,6 @@
 ---
 title: الدعم
-description: خيارات الدعم لـ Flashcards.
+description: خيارات الدعم لـ Nibomo.
 slug: support
 sections:
   - type: legal_page
@@ -16,7 +16,7 @@ sections:
 
 ## المصدر المفتوح والتقارير التقنية
 
-Flashcards مفتوح المصدر. للإبلاغ عن الأخطاء أو مشكلات الاستضافة الذاتية أو النقاشات التقنية، يمكنك أيضًا استخدام [مستودع GitHub](https://github.com/kirill-markin/flashcards-open-source-app) ومتعقب القضايا الخاص به.
+Nibomo مفتوح المصدر. للإبلاغ عن الأخطاء أو مشكلات الاستضافة الذاتية أو النقاشات التقنية، يمكنك أيضًا استخدام [مستودع GitHub](https://github.com/kirill-markin/flashcards-open-source-app) ومتعقب القضايا الخاص به.
 
 ## الاستضافة الذاتية
 

@@ -1,6 +1,6 @@
 ---
 title: Terms of Service
-description: Terms of service for Flashcards.
+description: Terms of service for Nibomo.
 slug: terms
 sections:
   - type: legal_page
@@ -8,7 +8,7 @@ sections:
 ---
 ## Service and Provider
 
-Flashcards is an open-source spaced-repetition and flashcards tool. These Terms govern only the hosted website, apps, API, and MCP service provided by SAMO DANNI EOOD, company ID 207395566, VAT BG207395566, registered address bulv. Maritza 154, entrance D, floor 6 #14, 4018, Plovdiv, Bulgaria. Flashcards was created by Kirill Markin.
+Nibomo is an open-source spaced-repetition and flashcards tool. These Terms govern only the hosted website, apps, API, and MCP service provided by SAMO DANNI EOOD, company ID 207395566, VAT BG207395566, registered address bulv. Maritza 154, entrance D, floor 6 #14, 4018, Plovdiv, Bulgaria. Nibomo was created by Kirill Markin.
 
 The hosted service is provided on an as-is and as-available basis during the beta period.
 

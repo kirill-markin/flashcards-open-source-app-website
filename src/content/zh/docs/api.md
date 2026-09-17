@@ -5,7 +5,7 @@ description: 面向外部智能代理的 API，涵盖发现入口、OTP 登录�
 
 ## 概览
 
-本页介绍 Flashcards 当前面向外部智能代理公开的 API 约定。
+本页介绍 Nibomo 当前面向外部智能代理公开的 API 约定。
 
 如果你的客户端支持 MCP，[MCP 连接器](/docs/mcp-connector/) 是最简单的连接方式，
 并且封装的是同一套数据接口。本页介绍 CLI 智能代理使用的
@@ -242,7 +242,7 @@ curl -X POST https://api.flashcards-open-source-app.com/v1/agent/reviews/submit 
 
 ## 面向人工用户与同步场景的 API
 
-Flashcards 也提供供人工用户客户端和离线优先同步场景使用的独立 API，但这些并不是外部智能代理的主要接口约定：
+Nibomo 也提供供人工用户客户端和离线优先同步场景使用的独立 API，但这些并不是外部智能代理的主要接口约定：
 
 - 浏览器流程使用共享域 Cookie，并配合 CSRF 保护
 - 离线优先客户端使用 `/v1/workspaces/{workspaceId}/sync/push` 与 `/v1/workspaces/{workspaceId}/sync/pull` 下已实现的同步路由

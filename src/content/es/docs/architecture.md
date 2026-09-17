@@ -66,7 +66,7 @@ Apex fallback                   -> <domain>      -> CloudFront redirect -> app.<
 
 ## Programación
 
-Flashcards utiliza FSRS como programador de revisiones.
+Nibomo utiliza FSRS como programador de revisiones.
 
 Notas de implementación:
 

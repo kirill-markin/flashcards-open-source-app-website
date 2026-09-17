@@ -65,7 +65,7 @@ Apex fallback                   -> <domain>      -> CloudFront redirect -> app.<
 
 ## Планирование повторений
 
-В Flashcards за планирование повторений отвечает FSRS.
+В Nibomo за планирование повторений отвечает FSRS.
 
 Примечания по реализации:
 

@@ -1,7 +1,7 @@
 import type { PageContent } from "@/lib/content/types";
 
 export const FEATURES_PAGE_CONTENT: PageContent = {
-  title: "Flashcards Features",
+  title: "Nibomo Features",
   description:
     "Explore free, open-source flashcards with FSRS spaced repetition, AI-assisted card creation, offline study and sync, portable exports, and self-hosting.",
   slug: "features",

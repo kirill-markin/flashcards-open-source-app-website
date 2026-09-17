@@ -1,7 +1,7 @@
 import type { PageContent } from "@/lib/content/types";
 
 export const HOME_PAGE_CONTENT: PageContent = {
-  title: "Flashcards - 無料・オープンソースの間隔反復アプリ",
+  title: "Nibomo - 無料・オープンソースの間隔反復アプリ",
   description:
     "FSRS による間隔反復、AI を使ったフラッシュカード作成、オフライン学習と同期、エクスポート、セルフホストに対応した無料・オープンソースアプリです。",
   slug: "home",
@@ -15,7 +15,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
         "もっと覚える。",
       ],
       subtitle:
-        "復習に最適なタイミングを知らせ、オフラインでも使え、Web・iOS・Android 間で同期できる、無料・オープンソースのフラッシュカードアプリです。フラッシュカードの作成や改善には、必要なときだけ AI を活用できます。",
+        "復習に最適なタイミングを知らせ、オフラインでも使え、Web・iOS・Android 間で同期できる、無料・オープンソースのフラッシュカードアプリです。フラッシュカードの作成や改善には、必要なときだけ AI を活用できます。Nibomo は以前 Flashcards Open Source App という名前でした。",
       trustLine:
         "クレジットカード不要。広告なし。トライアルのカウントダウンなし。",
       primaryLink: {
