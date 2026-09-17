@@ -1,7 +1,7 @@
 import type { PageContent } from "@/lib/content/types";
 
 export const HOME_PAGE_CONTENT: PageContent = {
-  title: "Flashcards - 免费开源的间隔重复闪卡应用",
+  title: "Nibomo - 免费开源的间隔重复闪卡应用",
   description:
     "免费开源闪卡应用，支持 FSRS 间隔重复、AI 辅助创建、离线学习与同步、数据导出和自行托管。",
   slug: "home",
@@ -15,7 +15,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
         "记住更多。",
       ],
       subtitle:
-        "一款免费开源的闪卡应用，会在恰当的时间安排复习，支持离线使用，并在 Web、iOS 和 Android 之间同步。需要创建或改进闪卡时，可以选择让 AI 帮忙。",
+        "一款免费开源的闪卡应用，会在恰当的时间安排复习，支持离线使用，并在 Web、iOS 和 Android 之间同步。需要创建或改进闪卡时，可以选择让 AI 帮忙。Nibomo 以前叫 Flashcards Open Source App。",
       trustLine: "无需信用卡。没有广告。没有试用倒计时。",
       primaryLink: {
         label: "开始使用",

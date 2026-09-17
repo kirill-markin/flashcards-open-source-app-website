@@ -1,11 +1,11 @@
 ---
 title: MCP-Connector
-description: Fuege den entfernten Flashcards-MCP-Server als benutzerdefinierten Connector hinzu, mit OAuth fuer Clients, einem API-Key fuer den Headless-Einsatz und getrennten SQL-Tools fuer Lesen und Schreiben.
+description: Fuege den entfernten Nibomo-MCP-Server als benutzerdefinierten Connector hinzu, mit OAuth fuer Clients, einem API-Key fuer den Headless-Einsatz und getrennten SQL-Tools fuer Lesen und Schreiben.
 ---
 
 ## Ueberblick
 
-Flashcards betreibt einen entfernten MCP-Server (Model Context Protocol), damit
+Nibomo betreibt einen entfernten MCP-Server (Model Context Protocol), damit
 MCP-Clients und KI-Agenten deine faelligen Karten lesen, sie Frage fuer Frage mit
 dir wiederholen und Karten sowie Decks fuer dich erstellen oder bearbeiten
 koennen.

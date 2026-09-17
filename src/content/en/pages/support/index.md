@@ -1,6 +1,6 @@
 ---
 title: Support
-description: Support options for Flashcards.
+description: Support options for Nibomo.
 slug: support
 sections:
   - type: legal_page
@@ -16,7 +16,7 @@ In the iOS app, you can delete your hosted account from `Settings > Account Sett
 
 ## Open Source And Technical Reports
 
-Flashcards is open source. For bug reports, self-hosting issues, or technical discussions, you can also use the [GitHub repository](https://github.com/kirill-markin/flashcards-open-source-app) and its issue tracker.
+Nibomo is open source. For bug reports, self-hosting issues, or technical discussions, you can also use the [GitHub repository](https://github.com/kirill-markin/flashcards-open-source-app) and its issue tracker.
 
 ## Self-Hosting
 

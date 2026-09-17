@@ -1,9 +1,9 @@
 ---
 title: Self-Hosting Guide
-description: Run Flashcards locally with PostgreSQL, auth, backend, web, and admin, or deploy the documented AWS CDK production stack.
+description: Run Nibomo locally with PostgreSQL, auth, backend, web, and admin, or deploy the documented AWS CDK production stack.
 ---
 
-Flashcards supports two distinct paths: a local development environment and a production deployment on AWS. Docker Compose runs PostgreSQL and migrations for local development; it is not the production deployment method.
+Nibomo supports two distinct paths: a local development environment and a production deployment on AWS. Docker Compose runs PostgreSQL and migrations for local development; it is not the production deployment method.
 
 ## Local development requirements
 

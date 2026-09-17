@@ -65,7 +65,7 @@ Apex fallback                   -> <domain>      -> CloudFront redirect -> app.<
 
 ## शेड्यूलिंग
 
-Flashcards में review scheduler के लिए FSRS का उपयोग होता है।
+Nibomo में review scheduler के लिए FSRS का उपयोग होता है।
 
 कार्यान्वयन संबंधी टिप्पणियाँ:
 

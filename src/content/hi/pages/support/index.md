@@ -1,6 +1,6 @@
 ---
 title: सहायता
-description: Flashcards के लिए सहायता के विकल्प।
+description: Nibomo के लिए सहायता के विकल्प।
 slug: support
 sections:
   - type: legal_page
@@ -16,7 +16,7 @@ iOS app में आप `Settings > Account Settings > Danger Zone > Delete my 
 
 ## ओपन सोर्स और तकनीकी मुद्दे
 
-Flashcards ओपन सोर्स है। बग रिपोर्ट, self-hosting से जुड़ी समस्याओं, या तकनीकी चर्चाओं के लिए आप [GitHub repository](https://github.com/kirill-markin/flashcards-open-source-app) और उसके issue tracker का भी उपयोग कर सकते हैं।
+Nibomo ओपन सोर्स है। बग रिपोर्ट, self-hosting से जुड़ी समस्याओं, या तकनीकी चर्चाओं के लिए आप [GitHub repository](https://github.com/kirill-markin/flashcards-open-source-app) और उसके issue tracker का भी उपयोग कर सकते हैं।
 
 ## स्वयं होस्ट करना
 

@@ -1,7 +1,7 @@
 import type { PageContent } from "@/lib/content/types";
 
 export const HOME_PAGE_CONTENT: PageContent = {
-  title: "Flashcards - App gratuita y de código abierto con repetición espaciada",
+  title: "Nibomo - App gratuita y de código abierto con repetición espaciada",
   description:
     "Flashcards gratuitas y de código abierto con repetición espaciada FSRS, creación con IA, estudio y sincronización sin conexión, exportación y alojamiento propio.",
   slug: "home",
@@ -15,7 +15,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
         "Recuerda más.",
       ],
       subtitle:
-        "Una app de tarjetas gratuita y de código abierto que programa cada repaso en el momento adecuado, funciona sin conexión y se sincroniza en la web, iOS y Android. Usa la IA cuando quieras crear o mejorar tarjetas.",
+        "Una app de tarjetas gratuita y de código abierto que programa cada repaso en el momento adecuado, funciona sin conexión y se sincroniza en la web, iOS y Android. Usa la IA cuando quieras crear o mejorar tarjetas. Nibomo se llamaba antes Flashcards Open Source App.",
       trustLine: "Sin tarjeta de crédito. Sin anuncios. Sin periodo de prueba.",
       primaryLink: {
         label: "Empezar",

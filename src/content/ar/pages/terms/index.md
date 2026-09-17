@@ -1,6 +1,6 @@
 ---
 title: شروط الخدمة
-description: شروط خدمة Flashcards.
+description: شروط خدمة Nibomo.
 slug: terms
 sections:
   - type: legal_page
@@ -8,7 +8,7 @@ sections:
 ---
 ## الخدمة ومزوّدها
 
-Flashcards أداة مفتوحة المصدر للبطاقات والتكرار المتباعد. تنظم هذه الشروط فقط الموقع والتطبيقات وواجهة API وخدمة MCP المستضافة التي تقدمها شركة SAMO DANNI EOOD، ورقم الشركة 207395566، ورقم ضريبة القيمة المضافة BG207395566، وعنوانها المسجّل bulv. Maritza 154, entrance D, floor 6 #14, 4018, Plovdiv, Bulgaria. أنشأ Kirill Markin تطبيق Flashcards.
+Nibomo أداة مفتوحة المصدر للبطاقات والتكرار المتباعد. تنظم هذه الشروط فقط الموقع والتطبيقات وواجهة API وخدمة MCP المستضافة التي تقدمها شركة SAMO DANNI EOOD، ورقم الشركة 207395566، ورقم ضريبة القيمة المضافة BG207395566، وعنوانها المسجّل bulv. Maritza 154, entrance D, floor 6 #14, 4018, Plovdiv, Bulgaria. أنشأ Kirill Markin تطبيق Nibomo.
 
 تُقدّم الخدمة المستضافة خلال الفترة التجريبية كما هي وحسب توفرها.
 

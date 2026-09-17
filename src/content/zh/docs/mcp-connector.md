@@ -1,11 +1,11 @@
 ---
 title: MCP 连接器
-description: 将远程 Flashcards MCP 服务器添加为自定义连接器，为客户端提供 OAuth、为无界面场景提供 API 密钥，并将读取与写入 SQL 工具拆分开来。
+description: 将远程 Nibomo MCP 服务器添加为自定义连接器，为客户端提供 OAuth、为无界面场景提供 API 密钥，并将读取与写入 SQL 工具拆分开来。
 ---
 
 ## 概览
 
-Flashcards 运行着一个远程 MCP（Model Context Protocol）服务器，让 MCP 客户端和
+Nibomo 运行着一个远程 MCP（Model Context Protocol）服务器，让 MCP 客户端和
 AI 智能代理能够读取你的待复习卡片、与你一起逐题复习这些卡片，并为你创建或编辑卡片和
 卡组。
 

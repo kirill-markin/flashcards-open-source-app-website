@@ -65,7 +65,7 @@ Web アプリ                               -> app.<domain>  -> CloudFront -> SP
 
 ## スケジューリング
 
-Flashcards は、復習スケジューラとして FSRS を採用しています。
+Nibomo は、復習スケジューラとして FSRS を採用しています。
 
 実装上のポイント:
 

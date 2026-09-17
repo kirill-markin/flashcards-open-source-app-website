@@ -1,6 +1,6 @@
 ---
 title: 支持
-description: Flashcards 的支持渠道。
+description: Nibomo 的支持渠道。
 slug: support
 sections:
   - type: legal_page
@@ -16,7 +16,7 @@ sections:
 
 ## 开源与技术反馈
 
-Flashcards 是开源项目。若要报告缺陷、反馈自托管问题，或参与技术讨论，你也可以使用 [GitHub 仓库](https://github.com/kirill-markin/flashcards-open-source-app) 及其问题跟踪器。
+Nibomo 是开源项目。若要报告缺陷、反馈自托管问题，或参与技术讨论，你也可以使用 [GitHub 仓库](https://github.com/kirill-markin/flashcards-open-source-app) 及其问题跟踪器。
 
 ## 自托管
 

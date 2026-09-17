@@ -1,6 +1,6 @@
 ---
 title: Nutzungsbedingungen
-description: Nutzungsbedingungen für Flashcards.
+description: Nutzungsbedingungen für Nibomo.
 slug: terms
 sections:
   - type: legal_page
@@ -8,7 +8,7 @@ sections:
 ---
 ## Dienst und Anbieter
 
-Flashcards ist ein Open-Source-Werkzeug für Karteikarten und verteilte Wiederholung. Diese Bedingungen gelten ausschließlich für die gehostete Website, die Apps, APIs und den MCP-Dienst von SAMO DANNI EOOD, Unternehmens-ID 207395566, VAT BG207395566, eingetragene Anschrift bulv. Maritza 154, entrance D, floor 6 #14, 4018, Plovdiv, Bulgaria. Flashcards wurde von Kirill Markin erstellt.
+Nibomo ist ein Open-Source-Werkzeug für Karteikarten und verteilte Wiederholung. Diese Bedingungen gelten ausschließlich für die gehostete Website, die Apps, APIs und den MCP-Dienst von SAMO DANNI EOOD, Unternehmens-ID 207395566, VAT BG207395566, eingetragene Anschrift bulv. Maritza 154, entrance D, floor 6 #14, 4018, Plovdiv, Bulgaria. Nibomo wurde von Kirill Markin erstellt.
 
 Der gehostete Dienst wird während der Beta-Phase wie vorhanden und nach Verfügbarkeit bereitgestellt.
 

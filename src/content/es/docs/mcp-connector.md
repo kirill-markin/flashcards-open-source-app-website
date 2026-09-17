@@ -1,11 +1,11 @@
 ---
 title: Conector MCP
-description: Añada el servidor MCP remoto de Flashcards como un conector personalizado, con OAuth para clientes, una clave API para uso headless y herramientas SQL de lectura y escritura separadas.
+description: Añada el servidor MCP remoto de Nibomo como un conector personalizado, con OAuth para clientes, una clave API para uso headless y herramientas SQL de lectura y escritura separadas.
 ---
 
 ## Descripción general
 
-Flashcards ejecuta un servidor MCP (Model Context Protocol) remoto para que los
+Nibomo ejecuta un servidor MCP (Model Context Protocol) remoto para que los
 clientes MCP y los agentes de IA puedan leer sus tarjetas pendientes, repasarlas
 con usted una pregunta a la vez y crear o editar tarjetas y mazos por usted.
 

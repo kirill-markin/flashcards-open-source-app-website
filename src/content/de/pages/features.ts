@@ -1,7 +1,7 @@
 import type { PageContent } from "@/lib/content/types";
 
 export const FEATURES_PAGE_CONTENT: PageContent = {
-  title: "Flashcards-Funktionen",
+  title: "Nibomo-Funktionen",
   description:
     "Entdecke kostenlose Open-Source-Lernkarten mit FSRS Spaced Repetition, KI-gestützter Kartenerstellung, Offline-Lernen, Export und Self-Hosting.",
   slug: "features",

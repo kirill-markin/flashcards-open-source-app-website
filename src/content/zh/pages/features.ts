@@ -1,7 +1,7 @@
 import type { PageContent } from "@/lib/content/types";
 
 export const FEATURES_PAGE_CONTENT: PageContent = {
-  title: "Flashcards 功能",
+  title: "Nibomo 功能",
   description:
     "探索免费开源闪卡应用的 FSRS 间隔重复、AI 辅助创建、离线学习、数据导出和自行托管功能。",
   slug: "features",

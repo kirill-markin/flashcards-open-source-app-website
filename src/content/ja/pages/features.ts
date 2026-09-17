@@ -1,7 +1,7 @@
 import type { PageContent } from "@/lib/content/types";
 
 export const FEATURES_PAGE_CONTENT: PageContent = {
-  title: "Flashcards の機能",
+  title: "Nibomo の機能",
   description:
     "FSRS による間隔反復、AI を使ったフラッシュカード作成、オフライン学習、エクスポート、セルフホストに対応した無料・オープンソースアプリです。",
   slug: "features",

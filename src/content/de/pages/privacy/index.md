@@ -1,6 +1,6 @@
 ---
 title: Datenschutz
-description: Datenschutzerklärung für Flashcards.
+description: Datenschutzerklärung für Nibomo.
 slug: privacy
 sections:
   - type: legal_page
@@ -8,7 +8,7 @@ sections:
 ---
 ## Verantwortlicher und Geltungsbereich
 
-Der gehostete Flashcards-Dienst wird von SAMO DANNI EOOD betrieben, Unternehmens-ID 207395566, VAT BG207395566, eingetragene Anschrift bulv. Maritza 154, entrance D, floor 6 #14, 4018, Plovdiv, Bulgaria. Flashcards wurde von Kirill Markin erstellt.
+Der gehostete Nibomo-Dienst wird von SAMO DANNI EOOD betrieben, Unternehmens-ID 207395566, VAT BG207395566, eingetragene Anschrift bulv. Maritza 154, entrance D, floor 6 #14, 4018, Plovdiv, Bulgaria. Nibomo wurde von Kirill Markin erstellt.
 
 Diese Erklärung gilt für die von uns betriebenen gehosteten Websites, Apps, APIs und den MCP-Dienst. Eine selbst gehostete Instanz wird von ihrem jeweiligen Betreiber kontrolliert; dieser ist für die dortige Datenverarbeitung verantwortlich.
 
@@ -58,7 +58,7 @@ OpenAI ist der konfigurierte Anbieter für gehosteten Chat, Transkription und Bi
 
 Gehostete KI-Anfragen werden außerdem über Langfuse Cloud zur Fehlersuche und Qualitätsanalyse beobachtet. Langfuse-Traces können Prompts, Modellantworten, Tool-Aktivitäten, Nutzer-, Workspace- und Sitzungskennungen sowie Betriebsmetadaten enthalten. Die Implementierung maskiert E-Mail-Adressen und geheimnisähnliche Felder; benutzerdefinierte Transkriptions-Traces schließen rohe Audiodaten und Anhangsdaten aus.
 
-Wenn Sie Flashcards über den Remote-MCP-Dienst oder die Agent API mit einem externen KI-Client verbinden, verarbeiten auch dieser Client und sein KI- oder Modellanbieter die von Ihnen abgerufenen Daten. Diese separate Verarbeitung wird vom Betreiber des Clients kontrolliert und unterliegt dessen Bedingungen und Datenschutzerklärung.
+Wenn Sie Nibomo über den Remote-MCP-Dienst oder die Agent API mit einem externen KI-Client verbinden, verarbeiten auch dieser Client und sein KI- oder Modellanbieter die von Ihnen abgerufenen Daten. Diese separate Verarbeitung wird vom Betreiber des Clients kontrolliert und unterliegt dessen Bedingungen und Datenschutzerklärung.
 
 ## Auftragsverarbeiter und Empfänger
 
@@ -70,7 +70,7 @@ Für den gehosteten Dienst nutzen wir folgende Anbieterkategorien:
 - Langfuse Cloud für KI-Observability;
 - Sentry für bereinigte Fehler- und Diagnoseberichte, soweit dies im jeweiligen gehosteten Dienst oder App-Build aktiviert ist;
 - Vercel für die Marketing-Website und deren cookie-freie Web Analytics; sowie
-- Cloudflare für DNS und Domainverwaltung. Die aktuellen Flashcards-DNS-Einträge sind „DNS-only“, sodass Cloudflare den HTTP-Verkehr von Website und Apps nicht als Proxy verarbeitet.
+- Cloudflare für DNS und Domainverwaltung. Die aktuellen Nibomo-DNS-Einträge sind „DNS-only“, sodass Cloudflare den HTTP-Verkehr von Website und Apps nicht als Proxy verarbeitet.
 
 Daten können außerdem entsprechend den Zusammenarbeitsfunktionen anderen Mitgliedern eines geteilten Workspace, einem von Ihnen autorisierten externen Client, zur Vertraulichkeit verpflichteten Beratern oder bei gesetzlicher Verpflichtung Behörden offengelegt werden.
 
