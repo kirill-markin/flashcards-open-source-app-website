@@ -261,11 +261,11 @@ Network+ study plan में FSRS तब उपयोगी है, जब card
 
 Organization सरल रखें: एक `N10-009` deck और उसमें `ports`, `subnetting`, `commands`, `operations`, `security`, `troubleshooting`, `practice-miss` तथा `lab-miss` जैसे tags। Version-sensitive cards पर objective code जोड़ें, अगर उससे audit करना आसान हो। Tags का काम कमजोर area ढूँढना है, पूरे PDF को folder tree की तरह दोहराना नहीं।
 
-## इस workflow में Flashcards Open Source App की भूमिका
+## इस workflow में Nibomo की भूमिका
 
-> **स्पष्ट जानकारी:** Flashcards Open Source App का CompTIA से कोई संबंध नहीं है और CompTIA ने इसे endorse नहीं किया है। यह official Network+ course, practice exam या PBQ simulator नहीं है।
+> **स्पष्ट जानकारी:** Nibomo का CompTIA से कोई संबंध नहीं है और CompTIA ने इसे endorse नहीं किया है। यह official Network+ course, practice exam या PBQ simulator नहीं है।
 
-[Flashcards Open Source App](/hi/features/) इस workflow का memory वाला हिस्सा संभालता है: सामने-पीछे वाले cards, decks और tags, FSRS से due review, offline study और sync, portable exports और self-hosted option। इसमें वे छोटे facts और decisions रखें जिन्हें practical work शुरू करने से पहले तुरंत याद करना है।
+[Nibomo](/hi/features/) इस workflow का memory वाला हिस्सा संभालता है: सामने-पीछे वाले cards, decks और tags, FSRS से due review, offline study और sync, portable exports और self-hosted option। इसमें वे छोटे facts और decisions रखें जिन्हें practical work शुरू करने से पहले तुरंत याद करना है।
 
 यहाँ किसी official या पहले से तैयार N10-009 deck का वादा नहीं है। मौजूदा CompTIA objectives और पढ़ाई के दौरान हुई अपनी legitimate गलतियों से शुरुआत करें। Flashcards में अपना deck बनाना हो, तो [शुरुआत करने की गाइड](/hi/docs/getting-started/) hosted और self-hosted दोनों रास्ते समझाती है।
 

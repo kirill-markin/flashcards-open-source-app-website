@@ -268,7 +268,7 @@ FSRS ठीक इसी काम में अच्छा है।
 
 ## इस AP Physics 1 workflow में Flashcards कहाँ fit बैठता है
 
-[Flashcards](/) इस workflow में अच्छी तरह fit बैठता है, अगर आप graph cards, force mistakes, और FRQ repair cards को notes, screenshots, और old corrections में बिखेरने के बजाय एक जगह रखना चाहते हैं।
+[Nibomo](/) इस workflow में अच्छी तरह fit बैठता है, अगर आप graph cards, force mistakes, और FRQ repair cards को notes, screenshots, और old corrections में बिखेरने के बजाय एक जगह रखना चाहते हैं।
 
 काम के हिस्से practical हैं:
 

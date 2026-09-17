@@ -195,7 +195,7 @@ Card छोटा रखिए। Exam को बड़ा रहने दी�
 
 ## Flashcards कहाँ fit बैठता है
 
-[Flashcards](/hi/features/) practice-exam step के बाद अच्छा fit है।
+[Nibomo](/hi/features/) practice-exam step के बाद अच्छा fit है।
 
 Product को किसी magic practice-exam generator की तरह describe नहीं करना चाहिए। ज़्यादा सही workflow यह है: जिस AI tool को आप पसंद करते हैं उससे अपने notes से exam बनाइए, फिर जो useful weak spots बचें उन्हें Flashcards में रखिए।
 

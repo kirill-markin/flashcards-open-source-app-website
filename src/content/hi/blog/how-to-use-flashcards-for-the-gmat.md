@@ -244,7 +244,7 @@ official material आपको दिखाता है:
 
 इस हिस्से को साफ़-साफ़ लिखना चाहिए।
 
-Flashcards Open Source App का GMAT या GMAC के साथ कोई official integration नहीं है। इसे lawful personal notes, अपनी explanations और practice-review summaries के साथ इस्तेमाल करें। copied proprietary GMAT question text, answer banks, या ऐसे किसी material की library बनाने के लिए इसका इस्तेमाल न करें जिसे reproduce करने का अधिकार आपके पास नहीं है।
+Nibomo का GMAT या GMAC के साथ कोई official integration नहीं है। इसे lawful personal notes, अपनी explanations और practice-review summaries के साथ इस्तेमाल करें। copied proprietary GMAT question text, answer banks, या ऐसे किसी material की library बनाने के लिए इसका इस्तेमाल न करें जिसे reproduce करने का अधिकार आपके पास नहीं है।
 
 असल में सबसे अच्छा card अक्सर पूरा question होता ही नहीं है। वह आपकी अपनी compact summary होती है कि कहाँ चूक हुई और अगली बार result बदलने के लिए क्या अलग करना था।
 
@@ -280,9 +280,9 @@ FSRS क्या नहीं करता: यह भरे हुए cards �
 
 अगर आप scheduling वाले हिस्से को और detail में समझना चाहते हैं, तो [2026 में FSRS के साथ परीक्षा की तैयारी कैसे करें](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/) इसे सीधे समझाता है।
 
-## Flashcards Open Source App कहाँ फिट बैठता है
+## Nibomo कहाँ फिट बैठता है
 
-[Flashcards](https://flashcards-open-source-app.com/) इस तरह की GMAT prep के लिए अच्छा fit है, क्योंकि यह "मैंने यह question miss किया" और "मैं कल सही memory target review कर रहा हूँ" के बीच वाले मुश्किल हिस्से को संभालता है।
+[Nibomo](https://flashcards-open-source-app.com/) इस तरह की GMAT prep के लिए अच्छा fit है, क्योंकि यह "मैंने यह question miss किया" और "मैं कल सही memory target review कर रहा हूँ" के बीच वाले मुश्किल हिस्से को संभालता है।
 
 इस workflow के लिए उपयोगी हिस्से:
 

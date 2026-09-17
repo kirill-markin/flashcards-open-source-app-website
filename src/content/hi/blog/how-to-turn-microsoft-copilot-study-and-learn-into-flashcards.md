@@ -1,6 +1,6 @@
 ---
 title: "2026 में Microsoft Copilot Study and Learn को फ़्लैशकार्ड्स में कैसे बदलें: ट्यूटर बनाए रखें, FSRS के साथ review करें"
-description: "अपने Word documents, PDF files, slides और URLs के साथ Microsoft Copilot Study and Learn का इस्तेमाल करें, फिर सिर्फ़ कमज़ोर हिस्सों को Flashcards Open Source App में ले जाकर FSRS के साथ spaced repetition review करें।"
+description: "अपने Word documents, PDF files, slides और URLs के साथ Microsoft Copilot Study and Learn का इस्तेमाल करें, फिर सिर्फ़ कमज़ोर हिस्सों को Nibomo में ले जाकर FSRS के साथ spaced repetition review करें।"
 date: "2026-06-09"
 image: "/blog/how-to-turn-microsoft-copilot-study-and-learn-into-flashcards.png"
 keywords:
@@ -18,7 +18,7 @@ keywords:
 
 असल ज़रूरत यहीं से शुरू होती है। **Microsoft Copilot Study and Learn flashcards** का मतलब यह नहीं कि AI session अच्छा लगा, इसलिए वह अपने आप long-term memory system भी बन गया। guided tutoring समझाने में मदद कर सकती है। याद टिकाने के लिए अलग layer चाहिए।
 
-मुझे जो workflow सच में काम का लगता है, वह सीधा है: Study and Learn को अपने material पर coach की तरह इस्तेमाल कीजिए, जहाँ आप चूकते हैं या धीरे जवाब देते हैं उन्हें नोट कीजिए, फिर सिर्फ़ उन्हीं weak spots को Flashcards Open Source App में ले जाकर FSRS के साथ review कीजिए।
+मुझे जो workflow सच में काम का लगता है, वह सीधा है: Study and Learn को अपने material पर coach की तरह इस्तेमाल कीजिए, जहाँ आप चूकते हैं या धीरे जवाब देते हैं उन्हें नोट कीजिए, फिर सिर्फ़ उन्हीं weak spots को Nibomo में ले जाकर FSRS के साथ review कीजिए।
 
 ![Microsoft Copilot Study and Learn workflow जिसमें Word, PowerPoint, PDF और FSRS review के लिए flashcards शामिल हैं](/blog/how-to-turn-microsoft-copilot-study-and-learn-into-flashcards.png)
 
@@ -119,7 +119,7 @@ Microsoft की usage guide session के अंदर remediation और miss
 3. Copilot से कहें कि वह step by step पढ़ाए और ज़्यादा explain करने से पहले quiz ले।
 4. जो चीज़ें miss हुईं, धीरे answer हुईं, या mix हुईं, उनकी छोटी scratch list रखें।
 5. अंत में Copilot से सिर्फ़ weak-spot summary माँगें, साथ में यह भी कि हर weak spot किस file या passage से आया।
-6. सिर्फ़ उन्हीं weak spots को Flashcards Open Source App में ले जाएँ।
+6. सिर्फ़ उन्हीं weak spots को Nibomo में ले जाएँ।
 7. हर weak spot को एक साफ़ front/back card में बदलें।
 8. final cards को FSRS के साथ review करें।
 
@@ -159,7 +159,7 @@ Microsoft की usage guide session के अंदर remediation और miss
 
 ## Copilot के बाद durable layer Flashcards है
 
-[Flashcards Open Source App](/hi/features/) Study and Learn को replace करने की कोशिश नहीं कर रही।
+[Nibomo](/hi/features/) Study and Learn को replace करने की कोशिश नहीं कर रही।
 
 coaching का काम Copilot को ही रखना चाहिए। long-term review का काम Flashcards को।
 
@@ -195,6 +195,6 @@ FSRS यहाँ इसलिए useful है क्योंकि weak spots
 
 फिर selective रहिए।
 
-जो weak spots सच में मायने रखती हैं, उन्हें Flashcards Open Source App में ले जाइए, उन्हें plain cards में साफ़ कीजिए, और FSRS को वह काम करने दीजिए जिसके लिए Copilot बनी ही नहीं है: session खत्म होने के बाद भी material याद रखना।
+जो weak spots सच में मायने रखती हैं, उन्हें Nibomo में ले जाइए, उन्हें plain cards में साफ़ कीजिए, और FSRS को वह काम करने दीजिए जिसके लिए Copilot बनी ही नहीं है: session खत्म होने के बाद भी material याद रखना।
 
 यही **Microsoft Copilot Study and Learn को फ़्लैशकार्ड्स में कैसे बदलें** का काम का version है। Microsoft tutor को रखिए। card set छोटा रखिए। memory layer को ऐसी जगह रखिए जो review के लिए बनी हो।

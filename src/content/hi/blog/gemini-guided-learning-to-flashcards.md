@@ -205,7 +205,7 @@ FSRS वही हिस्सा है जो "मैंने यह gap प�
 
 ## Flashcards इसमें कहाँ fit बैठता है
 
-[Flashcards](/) Gemini Guided Learning को replace करने की कोशिश नहीं कर रहा।
+[Nibomo](/) Gemini Guided Learning को replace करने की कोशिश नहीं कर रहा।
 
 यह session के बाद fit बैठता है, जब आपको पता चल चुका हो कि क्या याद रखने लायक है।
 

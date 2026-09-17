@@ -218,7 +218,7 @@ Flashy version हर बार लगभग एक ही वजह से fail
 
 ## Extraction step के बाद Flashcards कहाँ fit बैठती है
 
-जब उपयोगी slide content text form में आ जाती है, तब [Flashcards](/hi/features/) वही हिस्सा संभालती है जो सच में मायने रखता है:
+जब उपयोगी slide content text form में आ जाती है, तब [Nibomo](/hi/features/) वही हिस्सा संभालती है जो सच में मायने रखता है:
 
 - pasted text या attached files से drafting के लिए AI chat
 - front/back card creation और editing

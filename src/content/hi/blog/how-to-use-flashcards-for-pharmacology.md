@@ -257,7 +257,7 @@ Pharmacology flashcards class structure, mechanisms, adverse effects, contraindi
 
 ## इस workflow में Flashcards कहाँ fit बैठता है
 
-[Flashcards](https://flashcards-open-source-app.com/) इस तरह की pharmacology study के लिए ठीक बैठता है, क्योंकि उपयोगी हिस्सा यह नहीं है कि आप pharmacology को AI के हवाले कर दें। मैं उस तरह पढ़ाई नहीं करूँगा।
+[Nibomo](https://flashcards-open-source-app.com/) इस तरह की pharmacology study के लिए ठीक बैठता है, क्योंकि उपयोगी हिस्सा यह नहीं है कि आप pharmacology को AI के हवाले कर दें। मैं उस तरह पढ़ाई नहीं करूँगा।
 
 उपयोगी हिस्सा इससे ज़्यादा संकरा है:
 

@@ -175,7 +175,7 @@ Homework, quiz, या practice set के बाद:
 
 ## इस workflow में Flashcards कहाँ फिट बैठता है
 
-[Flashcards](https://flashcards-open-source-app.com/) इस तरह की math study के लिए अच्छा विकल्प है, क्योंकि यह product उन हिस्सों को support करता है जो memory target तय होने के बाद सबसे ज़्यादा मायने रखते हैं:
+[Nibomo](https://flashcards-open-source-app.com/) इस तरह की math study के लिए अच्छा विकल्प है, क्योंकि यह product उन हिस्सों को support करता है जो memory target तय होने के बाद सबसे ज़्यादा मायने रखते हैं:
 
 - formulas, recognition cues, और error patterns के लिए front/back cards
 - decks, tags, और filtering, ताकि main library तोड़े बिना एक topic review कर सकें

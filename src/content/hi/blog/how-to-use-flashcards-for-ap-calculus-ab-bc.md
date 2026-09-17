@@ -248,7 +248,7 @@ FSRS ठीक इसी काम में अच्छा है।
 
 ## इस AP Calculus workflow में Flashcards कहाँ फिट बैठता है
 
-[Flashcards](https://flashcards-open-source-app.com/) इस AP Calculus workflow में अच्छी तरह fit बैठता है, बिना इस article को sales pitch बनाए।
+[Nibomo](https://flashcards-open-source-app.com/) इस AP Calculus workflow में अच्छी तरह fit बैठता है, बिना इस article को sales pitch बनाए।
 
 काम की बात यह नहीं है कि यह "students के लिए" है। काम की बात यह है कि यह आपको rule cards, FRQ misses, और BC series cards को एक ही review system में रखने देता है, बजाय उन्हें notes, screenshots, और पुरानी corrections में बिखेरने के।
 

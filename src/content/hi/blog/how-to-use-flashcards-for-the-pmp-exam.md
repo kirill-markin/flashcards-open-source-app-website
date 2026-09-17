@@ -227,7 +227,7 @@ Order महत्वपूर्ण है:
 
 ## इस PMP workflow में Flashcards कहाँ fit बैठता है
 
-अगर आप यह सब [Flashcards](https://flashcards-open-source-app.com/) के अंदर करना चाहते हैं, तो उपयोगी हिस्सा यह नहीं है कि AI किसी vague जादू से आपकी जगह पढ़ाई कर देगी।
+अगर आप यह सब [Nibomo](https://flashcards-open-source-app.com/) के अंदर करना चाहते हैं, तो उपयोगी हिस्सा यह नहीं है कि AI किसी vague जादू से आपकी जगह पढ़ाई कर देगी।
 
 उपयोगी हिस्सा यह है कि product पहले से इस workflow के बीच वाले हिस्से को cover करता है:
 

@@ -231,7 +231,7 @@ FSRS पुराने systems की तुलना में repetitions क
 
 ## जहाँ Flashcards काम आता है
 
-[Flashcards](/hi/features/) diagnosis के बाद यहाँ काम आता है, diagnosis की जगह नहीं। बचे हुए cards को plain front/back cards की तरह रखें, उन्हें deck या tag से organize करें, और जब cards सचमुच review के लायक हो जाएँ तब timing FSRS को संभालने दें। अगर AI की मदद चाहिए, तो उसे drafting और cleanup के लिए इस्तेमाल करें, हर candidate card को live queue में फेंकने की permission की तरह नहीं।
+[Nibomo](/hi/features/) diagnosis के बाद यहाँ काम आता है, diagnosis की जगह नहीं। बचे हुए cards को plain front/back cards की तरह रखें, उन्हें deck या tag से organize करें, और जब cards सचमुच review के लायक हो जाएँ तब timing FSRS को संभालने दें। अगर AI की मदद चाहिए, तो उसे drafting और cleanup के लिए इस्तेमाल करें, हर candidate card को live queue में फेंकने की permission की तरह नहीं।
 
 फिर भी app आपके लिए कमजोर cards delete नहीं करेगा, leeches ठीक नहीं करेगा, या यह तय नहीं करेगा कि किन topics को ज़्यादा memorization की जगह real practice चाहिए थी। वह हिस्सा कोई app ईमानदारी से नहीं कर सकता।
 

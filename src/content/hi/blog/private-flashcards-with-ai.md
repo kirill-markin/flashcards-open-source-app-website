@@ -81,7 +81,7 @@ AI सबसे ज़्यादा तब काम आती है जब �
 
 ## Flashcards अभी क्या-क्या साफ़ तौर पर बताता है
 
-[Flashcards](/hi/) उस middle path में इसलिए फिट बैठता है, क्योंकि control के विकल्प पहले से ही repo, [features page](/hi/features/), docs, और public pages में साफ़ दिखाई देते हैं।
+[Nibomo](/hi/) उस middle path में इसलिए फिट बैठता है, क्योंकि control के विकल्प पहले से ही repo, [features page](/hi/features/), docs, और public pages में साफ़ दिखाई देते हैं।
 
 आज project इन चीज़ों को document करता है:
 

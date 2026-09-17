@@ -222,7 +222,7 @@ Deck cleanup dramatic rescue mission की जगह छोटी recurring hab
 
 ## Flashcards इसमें कहाँ fit बैठता है
 
-[Flashcards](/hi/features/) इस cleanup style के साथ ठीक बैठता है, क्योंकि maintenance के steps तीन tabs और एक spreadsheet में बिखरे हुए नहीं रहते:
+[Nibomo](/hi/features/) इस cleanup style के साथ ठीक बैठता है, क्योंकि maintenance के steps तीन tabs और एक spreadsheet में बिखरे हुए नहीं रहते:
 
 - AI cards draft या inspect करने में मदद कर सकता है
 - front/back editing rewrites को तेज़ बनाती है

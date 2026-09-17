@@ -242,7 +242,7 @@ Anatomy आपको endless candidate cards देती है। आपकी
 
 ## Flashcards कहाँ fit होता है
 
-[Flashcards](https://flashcards-open-source-app.com/) anatomy में तब सबसे अच्छा fit होता है जब आपको पहले से पता हो कि क्या याद रखना है।
+[Nibomo](https://flashcards-open-source-app.com/) anatomy में तब सबसे अच्छा fit होता है जब आपको पहले से पता हो कि क्या याद रखना है।
 
 यह इस subject के लिए अच्छा match है, क्योंकि anatomy की पढ़ाई अक्सर एक साथ कई messy sources से आती है:
 

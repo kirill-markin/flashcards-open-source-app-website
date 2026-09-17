@@ -233,7 +233,7 @@ SAA-C03 की कुछ बातें जानने लायक हैं,
 
 ## इस workflow में Flashcards कहाँ अच्छा fit बैठता है
 
-[Flashcards](https://flashcards-open-source-app.com/) इस तरह की exam prep के लिए अच्छा fit है, क्योंकि product इस काम के दोनों हिस्सों को संभालता है, बिना यह दिखावा किए कि दोनों एक ही चीज़ हैं।
+[Nibomo](https://flashcards-open-source-app.com/) इस तरह की exam prep के लिए अच्छा fit है, क्योंकि product इस काम के दोनों हिस्सों को संभालता है, बिना यह दिखावा किए कि दोनों एक ही चीज़ हैं।
 
 आप यह कर सकते हैं:
 

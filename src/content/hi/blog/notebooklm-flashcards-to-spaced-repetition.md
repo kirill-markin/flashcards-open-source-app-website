@@ -118,7 +118,7 @@ cards को फिर भी simple होना चाहिए।
 
 ## इस workflow में Flashcards कहाँ बेहतर फिट बैठता है
 
-[Flashcards](https://flashcards-open-source-app.com/) इस exact gap के लिए अच्छा fit है क्योंकि यह सिर्फ़ generator नहीं है और सिर्फ़ review tool भी नहीं। यह आपको उसी जगह cleanup step करने देती है जहाँ बाद में review होगी।
+[Nibomo](https://flashcards-open-source-app.com/) इस exact gap के लिए अच्छा fit है क्योंकि यह सिर्फ़ generator नहीं है और सिर्फ़ review tool भी नहीं। यह आपको उसी जगह cleanup step करने देती है जहाँ बाद में review होगी।
 
 यह लोगों के मानने से ज़्यादा मायने रखता है।
 
@@ -201,4 +201,4 @@ Flashcards cleanup, card creation, और review system संभालती �
 
 यही **NotebookLM flashcards** का वह version है जिस पर मुझे सबसे ज़्यादा भरोसा है: messy sources से candidate cards तक पहुँचने के लिए NotebookLM का उपयोग करें, फिर उन cards को real spaced repetition workflow में ले जाएँ जहाँ आप उन्हें edit, shorten, और actual scheduler के साथ review कर सकें।
 
-अगर आप यही चाहते हैं, तो [Flashcards](https://flashcards-open-source-app.com/) एक मजबूत fit है। यह AI-generated study material और ऐसी deck के बीच practical bridge देती है जिसे आप शायद एक महीने बाद भी review कर रहे हों।
+अगर आप यही चाहते हैं, तो [Nibomo](https://flashcards-open-source-app.com/) एक मजबूत fit है। यह AI-generated study material और ऐसी deck के बीच practical bridge देती है जिसे आप शायद एक महीने बाद भी review कर रहे हों।

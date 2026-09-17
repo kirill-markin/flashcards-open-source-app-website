@@ -294,7 +294,7 @@ visual study करने वाले लोग अक्सर मान ल�
 
 ## Flashcards कहाँ फिट बैठता है
 
-[Flashcards](https://flashcards-open-source-app.com/) **diagram से flashcards** workflow के लिए अच्छा fit है क्योंकि product में पहले से इस process के लिए ज़रूरी हिस्से हैं:
+[Nibomo](https://flashcards-open-source-app.com/) **diagram से flashcards** workflow के लिए अच्छा fit है क्योंकि product में पहले से इस process के लिए ज़रूरी हिस्से हैं:
 
 - AI chat
 - image और file attachments
@@ -339,7 +339,7 @@ visual upload करो, उपयोगी structure निकालो, cards 
 
 अगर आप यही चाहते हैं, तो यहाँ से शुरू करें:
 
-- [Open Flashcards](https://flashcards-open-source-app.com/)
+- [Open Nibomo](https://flashcards-open-source-app.com/)
 - [ऐप खोलें](https://app.flashcards-open-source-app.com/)
 - [getting started guide पढ़ें](https://flashcards-open-source-app.com/docs/getting-started/)
 - [GitHub पर source देखें](https://github.com/kirill-markin/flashcards-open-source-app)

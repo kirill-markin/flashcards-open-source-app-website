@@ -166,11 +166,11 @@ Session पूरा करें, बार-बार होने वाली
 
 अगर आप अपनी नई deck किसी और app में बनाना चाहते हैं, तो कार्ड चुनने के यही rules वहाँ भी लागू होते हैं। Lesson के पाँच शब्द सिर्फ इसलिए न ले जाएँ कि स्क्रीन पर पाँच कार्ड थे। केवल वही चीज़ें ले जाएँ जिनसे साफ़ हो गया कि उन्हें लंबे समय तक ध्यान देने की ज़रूरत है।
 
-## Flashcards Open Source App कहाँ काम आता है
+## Nibomo कहाँ काम आता है
 
-> **खुलासा:** मैं Kirill Markin हूँ और [Flashcards Open Source App](/features/) बनाता हूँ।
+> **खुलासा:** मैं Kirill Markin हूँ और [Nibomo](/features/) बनाता हूँ।
 
-Flashcards Open Source App में आप इस workflow का अपना हिस्सा रख सकते हैं। [Hosted app](/docs/getting-started/) में कार्ड बनाए और review किए जा सकते हैं, workspace data और file attachments के साथ AI chat इस्तेमाल की जा सकती है और FSRS से reviews schedule किए जा सकते हैं। [Repository open source है](https://github.com/kirill-markin/flashcards-open-source-app), और [self-hosting के निर्देश](/docs/self-hosting/) भी मौजूद हैं।
+Nibomo में आप इस workflow का अपना हिस्सा रख सकते हैं। [Hosted app](/docs/getting-started/) में कार्ड बनाए और review किए जा सकते हैं, workspace data और file attachments के साथ AI chat इस्तेमाल की जा सकती है और FSRS से reviews schedule किए जा सकते हैं। [Repository open source है](https://github.com/kirill-markin/flashcards-open-source-app), और [self-hosting के निर्देश](/docs/self-hosting/) भी मौजूद हैं।
 
 Duolingo के इस workflow के लिए हाथ से entry करना आम तौर पर काफी है। AI किसी correction को छोटे हिस्सों में बाँटने या उलझे हुए prompt को rewrite करने में मदद कर सकता है, लेकिन उसे यह तय नहीं करना चाहिए कि lesson की कौन-सी vocabulary long-term review के लायक है। यह चुनाव आप करते हैं, क्योंकि आपको पता है कि आप कहाँ चूके और क्या कहना चाहते हैं।
 

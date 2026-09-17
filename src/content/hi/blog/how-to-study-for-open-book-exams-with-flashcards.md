@@ -254,9 +254,9 @@ AI यहाँ मदद कर सकता है, लेकिन failure mo
 
 अगर आप पहले किसी tutor-style AI session से काम कर रहे हैं, तो [2026 में active recall के लिए AI का उपयोग कैसे करें](/hi/blog/how-to-use-ai-for-active-recall/) इसका सबसे क़रीबी companion article है।
 
-## Flashcards Open Source App इसमें कहाँ fit बैठता है
+## Nibomo इसमें कहाँ fit बैठता है
 
-[Flashcards](/hi/) open-book exam prep के लिए अच्छा fit है, क्योंकि इस तरह की पढ़ाई छोटी और precise होती है। आप पूरे course को warehouse करने की कोशिश नहीं कर रहे। आप बस ऐसे prompts का एक साफ़ deck रखना चाहते हैं जिन्हें automatic बनना अभी बाकी है:
+[Nibomo](/hi/) open-book exam prep के लिए अच्छा fit है, क्योंकि इस तरह की पढ़ाई छोटी और precise होती है। आप पूरे course को warehouse करने की कोशिश नहीं कर रहे। आप बस ऐसे prompts का एक साफ़ deck रखना चाहते हैं जिन्हें automatic बनना अभी बाकी है:
 
 - problem-type recognition
 - rule selection

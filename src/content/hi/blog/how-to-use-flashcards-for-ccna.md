@@ -271,7 +271,7 @@ Deck का stable हिस्सा उन चीज़ों पर होन
 
 ## इस workflow में Flashcards कहाँ अच्छा बैठता है
 
-[Flashcards](/) CCNA prep के लिए अच्छा fit है, क्योंकि यह exam messy source material पैदा करता है: lab notes, pasted CLI output, short miss logs, और छोटे troubleshooting summaries। App cleanup step और review step दोनों संभाल सकता है, बिना यह दिखावा किए कि दोनों एक ही काम हैं।
+[Nibomo](/) CCNA prep के लिए अच्छा fit है, क्योंकि यह exam messy source material पैदा करता है: lab notes, pasted CLI output, short miss logs, और छोटे troubleshooting summaries। App cleanup step और review step दोनों संभाल सकता है, बिना यह दिखावा किए कि दोनों एक ही काम हैं।
 
 मैं इसे कुछ इस तरह इस्तेमाल करूँगा:
 

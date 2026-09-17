@@ -259,7 +259,7 @@ FSRS उपयोगी है, क्योंकि EMT recall uneven हो�
 3. mixed order में review कीजिए
 4. उन्हें कब वापस आना है, यह FSRS पर छोड़ दीजिए
 
-यहीं [features page](/features/) और [getting-started guide](/docs/getting-started/) अच्छी तरह fit होते हैं, अगर आप front/back cards और FSRS review के लिए एक ही जगह चाहते हैं। Flashcards Open Source App यहां सिर्फ़ study tool है, कोई official NREMT product नहीं।
+यहीं [features page](/features/) और [getting-started guide](/docs/getting-started/) अच्छी तरह fit होते हैं, अगर आप front/back cards और FSRS review के लिए एक ही जगह चाहते हैं। Nibomo यहां सिर्फ़ study tool है, कोई official NREMT product नहीं।
 
 अगर आपको scheduling side थोड़ी और detail में चाहिए, तो [यह FSRS exam guide](/blog/how-to-study-for-an-exam-with-fsrs/) अगला अच्छा पढ़ना है।
 
@@ -307,4 +307,4 @@ Review को boring और consistent रखिए। Official examination prep
 
 उपयोगी deck छोटी और ज़्यादा specific होती है। वह CAT misses, primary assessment decisions, TEI-style ordering और sorting, और उस protocol-level recall के आसपास बनती है जो आपकी course training से जुड़ा हुआ है।
 
-अगर आप ऐसा tool चाहते हैं जो इस workflow को support करे, तो [getting-started guide](/docs/getting-started/) से शुरू कीजिए या [features page](/features/) पढ़िए। Flashcards Open Source App एक open-source study tool है जो FSRS review के आसपास बना है। इसका NREMT से कोई affiliation नहीं है, और यह तब सबसे अच्छा काम करता है जब आप इसमें giant summaries की जगह real misses से निकले छोटे cards डालते हैं।
+अगर आप ऐसा tool चाहते हैं जो इस workflow को support करे, तो [getting-started guide](/docs/getting-started/) से शुरू कीजिए या [features page](/features/) पढ़िए। Nibomo एक open-source study tool है जो FSRS review के आसपास बना है। इसका NREMT से कोई affiliation नहीं है, और यह तब सबसे अच्छा काम करता है जब आप इसमें giant summaries की जगह real misses से निकले छोटे cards डालते हैं।

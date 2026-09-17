@@ -240,7 +240,7 @@ Course बड़ा दिखता है, इसलिए लोग उसक�
 
 ## इस workflow में Flashcards कहाँ फिट बैठता है
 
-[Flashcards](/hi/features/) तब सबसे अच्छा फिट बैठता है जब सिलेबस को पहले ही usable structure में बदला जा चुका हो।
+[Nibomo](/hi/features/) तब सबसे अच्छा फिट बैठता है जब सिलेबस को पहले ही usable structure में बदला जा चुका हो।
 
 काम का रास्ता सीधा है:
 

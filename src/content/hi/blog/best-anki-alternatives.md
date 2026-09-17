@@ -20,7 +20,7 @@ Anki के विकल्पों की तुलना में यही 
 
 यह तुलना उसी सीमा से शुरू होती है। इसमें Anki जैसे सात ऐप शामिल हैं: हर ऐप मौजूदा कलेक्शन से क्या ले जा सकता है, इंपोर्ट के बाद क्या बदलता है और कब Anki पर टिके रहना अधिक सुरक्षित है।
 
-> **खुलासा:** मैं Kirill Markin हूँ और नीचे दिए गए प्रोडक्ट में से एक, [Flashcards](https://flashcards-open-source-app.com/), बनाता हूँ। मैंने इसे open-source, self-hosting और agent workflows के कारण शामिल किया है। यह अपने-आप पहला विकल्प नहीं बन जाता: इसमें सीधे `.apkg` इंपोर्ट करने की सुविधा नहीं है, Anki माइग्रेशन में डेटा छूटता है और self-hosted stack चलाना सचमुच infrastructure का काम है।
+> **खुलासा:** मैं Kirill Markin हूँ और नीचे दिए गए प्रोडक्ट में से एक, [Nibomo](https://flashcards-open-source-app.com/), बनाता हूँ। मैंने इसे open-source, self-hosting और agent workflows के कारण शामिल किया है। यह अपने-आप पहला विकल्प नहीं बन जाता: इसमें सीधे `.apkg` इंपोर्ट करने की सुविधा नहीं है, Anki माइग्रेशन में डेटा छूटता है और self-hosted stack चलाना सचमुच infrastructure का काम है।
 
 **तथ्यों की जाँच:** 28 अगस्त 2026। कीमतें उस तारीख को उपलब्ध सार्वजनिक अमेरिकी या बताई गई स्थानीय कीमतें हैं। टैक्स, क्षेत्र, शिक्षा संबंधी ऑफ़र और app-store billing से रकम बदल सकती है।
 
@@ -41,7 +41,7 @@ Anki के विकल्पों की तुलना में यही 
 - **Quizlet** public sets, classes, games और guided practice के लिए उपयोगी है।
 - **Brainscape** किसी समूह को 1–5 confidence वाला सरल review loop देता है।
 - **SuperMemo** अपनाने का मतलब उसकी proprietary method और course catalog पर जाना है।
-- **Flashcards** MIT-licensed web और native clients, self-hosted backend, API और MCP access देता है। इसका जाँचा हुआ TXT या CSV workflow Anki की learning state सुरक्षित नहीं रखता।
+- **Nibomo** MIT-licensed web और native clients, self-hosted backend, API और MCP access देता है। इसका जाँचा हुआ TXT या CSV workflow Anki की learning state सुरक्षित नहीं रखता।
 
 अगर आपके कार्ड हूबहू rendering, add-ons या मौजूदा review queue पर निर्भर हैं, तो Anki पर टिके रहना अनिर्णय नहीं है। यही सही जवाब है।
 
@@ -78,7 +78,7 @@ Anki के विकल्पों की तुलना में यही 
 | [Quizlet](https://quizlet.com/) | [Terms और definitions paste करें](https://help.quizlet.com/hc/en-us/articles/360029977151-Creating-sets-by-importing-content) | Anki से कुछ नहीं | Note types, templates, डेक, मीडिया की बनावट और पूरा scheduling data |
 | [Brainscape](https://www.brainscape.com/) | [CSV, TXT, XLSX या ODS](https://brainscape.zendesk.com/hc/en-us/articles/115002369931-How-do-I-import-various-files-to-create-flashcards) | Anki से कुछ नहीं | Templates, add-ons, मीडिया के नियम और पूरा scheduling data |
 | [SuperMemo](https://www.supermemo.com/) | एक बार में अधिकतम 100 [delimiter से अलग की गई सवाल-जवाब की पंक्तियाँ paste करें](https://www.supermemo.com/en/blog/how-to-create-flashcards-for-learning) | Anki से कुछ नहीं | कलेक्शन की बनावट, मीडिया, templates और पूरा scheduling data |
-| [Flashcards](https://flashcards-open-source-app.com/) | Anki TXT या CSV से जाँची हुई AI-assisted drafting | Anki से कुछ नहीं | `.apkg` support नहीं; templates, मीडिया की fidelity, deck hierarchy और पूरा scheduling data पीछे छूट जाता है |
+| [Nibomo](https://flashcards-open-source-app.com/) | Anki TXT या CSV से जाँची हुई AI-assisted drafting | Anki से कुछ नहीं | `.apkg` support नहीं; templates, मीडिया की fidelity, deck hierarchy और पूरा scheduling data पीछे छूट जाता है |
 
 ## कीमत, ऑफ़लाइन उपयोग, शेड्यूलिंग और मालिकाना हक़
 
@@ -90,7 +90,7 @@ Anki के विकल्पों की तुलना में यही 
 | **Quizlet** | Basic उपयोग मुफ़्त; [Plus $35.99/वर्ष, Plus Unlimited $44.99/वर्ष](https://quizlet.com/upgrade?source=signup) | डाउनलोड किए गए sets iOS और Android ऐप में Flashcards और Match के साथ ऑफ़लाइन काम करते हैं। | 100+ terms वाले sets के लिए [web spaced repetition](https://quizlet.com/features/spaced-repetition); mobile को अब भी coming soon बताया गया है। Learn अलग adaptive practice है। | Proprietary hosted service; supported self-hosting का रास्ता नहीं |
 | **Brainscape** | [मुफ़्त; सालाना billing पर Pro $7.99/माह](https://www.brainscape.com/pricing) | [Mobile ऑफ़लाइन रहते हुए काम सहेज सकता है और पहले से डाउनलोड की गई classes को बाद में sync कर सकता है](https://brainscape.zendesk.com/hc/en-us/articles/115002369711-How-do-Brainscape-s-website-mobile-app-interact-with-each-other); documentation पूरी local library का वादा नहीं करता। | 1–5 rating वाली [Confidence-Based Repetition](https://www.brainscape.com/academy/confidence-based-repetition-definition/) | Proprietary hosted service; supported self-hosting का रास्ता नहीं |
 | **SuperMemo** | सीमाओं के साथ मुफ़्त account; [35.99 PLN/माह या 359 PLN/वर्ष](https://www.supermemo.com/en/premium-subscription) | डाउनलोड किए गए mobile courses ऑफ़लाइन चलते हैं; editing, AI, search, recordings और statistics नहीं। | [Proprietary SuperMemo method](https://www.supermemo.com/en/supermemo-method) | Proprietary hosted service; supported self-hosting का रास्ता नहीं |
-| **Flashcards** | [Beta के दौरान hosted core मुफ़्त; self-host करने के लिए software मुफ़्त](/pricing/), साथ में आपकी infrastructure costs | Online login और शुरुआती workspace hydration के बाद native apps पहले local data में लिखते हैं; remote media पहले से cache होना चाहिए। | [FSRS](/docs/architecture/#scheduling) | MIT; supported production deployment AWS पर केंद्रित full stack है |
+| **Nibomo** | [Beta के दौरान hosted core मुफ़्त; self-host करने के लिए software मुफ़्त](/pricing/), साथ में आपकी infrastructure costs | Online login और शुरुआती workspace hydration के बाद native apps पहले local data में लिखते हैं; remote media पहले से cache होना चाहिए। | [FSRS](/docs/architecture/#scheduling) | MIT; supported production deployment AWS पर केंद्रित full stack है |
 
 ये तालिकाएँ कोई scorecard नहीं हैं। अगर आपके पास 30,000 पुराने, लंबे समय से पढ़े जा रहे कार्ड हैं, तो सीधा इंपोर्टर हर दूसरी सुविधा से अधिक अहम हो सकता है। अगर आप iPhone पर रिव्यू करते हैं, तो native iPhone ऐप ही फैसला तय कर सकता है। सोर्स एक्सेस तभी मायने रखता है, जब आप या आपका कोई भरोसेमंद व्यक्ति कोड maintain करेगा।
 
@@ -187,7 +187,7 @@ RemNote, Mochi, Quizlet, Brainscape, SuperMemo और Flashcards—सभी क
 - **Mochi** text-only iOS विकल्पों से अधिक डेटा बचाता है: यह Markdown conversion और binary grading के साथ `.apkg` review history इंपोर्ट करता है।
 - **RemNote** भी `.apkg` review history इंपोर्ट करता है, लेकिन यह मानने के बजाय कि आज का Anki schedule बच गया है, इसकी **Need to Learn** queue टेस्ट करें।
 - **Quizlet** classroom distribution के लिए सही है, लेकिन इसका Anki रास्ता text-only है और नया spaced-repetition flow अभी mobile पर नहीं है।
-- **Flashcards** native iOS client वाला source-available विकल्प है, लेकिन इसकी Anki माइग्रेशन learning state reset कर देती है।
+- **Nibomo** native iOS client वाला source-available विकल्प है, लेकिन इसकी Anki माइग्रेशन learning state reset कर देती है।
 - **Brainscape** और **SuperMemo** तभी सही हैं, जब उनकी review method के लिए कार्ड और schedule दोबारा बनाना उचित हो।
 
 सिर्फ़ कीमत के कारण AnkiMobile छोड़ने से पहले उसकी तुलना subscription की लागत और माइग्रेशन ठीक करने में लगने वाले घंटों से करें। One-time app purchase उस मुफ़्त ऐप से सस्ती हो सकती है जो लंबे समय से बने कलेक्शन को manual project बना दे।

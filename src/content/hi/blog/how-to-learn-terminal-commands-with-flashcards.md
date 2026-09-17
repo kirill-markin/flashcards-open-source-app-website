@@ -289,9 +289,9 @@ FSRS उपयोगी है क्योंकि वह इस आधार 
 
 टर्मिनल commands के लिए दूसरा review system मत बनाइए, जब तक छोड़े हुए study systems को maintain करना आपका शौक न हो।
 
-## Flashcards Open Source App इसमें कहाँ फिट बैठता है
+## Nibomo इसमें कहाँ फिट बैठता है
 
-[Flashcards Open Source App](/hi/) यहाँ अच्छी तरह काम करता है, क्योंकि terminal study पहले से सीमित भी है और text-heavy भी।
+[Nibomo](/hi/) यहाँ अच्छी तरह काम करता है, क्योंकि terminal study पहले से सीमित भी है और text-heavy भी।
 
 आप इसका उपयोग इन कामों के लिए कर सकते हैं:
 

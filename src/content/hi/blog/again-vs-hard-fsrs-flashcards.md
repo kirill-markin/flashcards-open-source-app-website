@@ -191,7 +191,7 @@ FSRS आपके दिए संकेत के आधार पर schedule 
 
 ## Flashcards में चारों FSRS ratings कैसे काम करती हैं
 
-[Flashcards Open Source App के features](/hi/features/) में FSRS पर आधारित front/back review मिलता है। आप `Again`, `Hard`, `Good` या `Easy` चुनते हैं और backend उस review से अगली तारीख और समय निकालता है।
+[Nibomo के features](/hi/features/) में FSRS पर आधारित front/back review मिलता है। आप `Again`, `Hard`, `Good` या `Easy` चुनते हैं और backend उस review से अगली तारीख और समय निकालता है।
 
 इस प्रक्रिया में भी वही दो कदम अपनाइए:
 

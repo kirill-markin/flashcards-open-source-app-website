@@ -183,9 +183,9 @@ Reviews इकट्ठे होने से पहले छोटे batch �
 
 Review के दौरान बार-बार हिचकना उपयोगी signal है। अगर आप बार-बार सोचते हैं, `I knew the idea, but not the exact word`, या वाक्य का pattern तथ्य से पहले जवाब बता देता है, तो card दोबारा लिखें। [Active recall और spaced repetition](/hi/blog/active-recall-vs-spaced-repetition/) समझाता है कि retrieval और scheduling कैसे अलग हैं, और [FSRS settings guide](/hi/blog/fsrs-settings/) स्पष्ट cards के बाद timing choices समझाती है।
 
-## Flashcards Open Source App इस चुनाव को कैसे संभालता है
+## Nibomo इस चुनाव को कैसे संभालता है
 
-[Flashcards Open Source App के features](/hi/features/) explicit front/back cards इस्तेमाल करते हैं। App में native cloze syntax, cloze rendering या automatic cloze-note generation नहीं है। अगर आप cloze material से शुरू कर रहे हैं, तो ऊपर दिखाए गए तरीके से उपयोगी retrieval target को front/back question में बदलें।
+[Nibomo के features](/hi/features/) explicit front/back cards इस्तेमाल करते हैं। App में native cloze syntax, cloze rendering या automatic cloze-note generation नहीं है। अगर आप cloze material से शुरू कर रहे हैं, तो ऊपर दिखाए गए तरीके से उपयोगी retrieval target को front/back question में बदलें।
 
 AI-assisted drafting में chat या file attachment का इस्तेमाल करके जाँच और editing के लिए front/back cards सुझाए जा सकते हैं। हर factual answer को उसके source से verify करें। Review के दौरान आप cards को Again, Hard, Good या Easy grade करते हैं, और FSRS उस history से आगे का timing चुनता है; वह wording ठीक नहीं करता।
 

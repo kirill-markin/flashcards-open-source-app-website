@@ -238,7 +238,7 @@ AI दोहराए जाने वाले मेहनत वाले क
 
 ## Flashcards इस तरीके के लिए उपयुक्त क्यों है
 
-[Flashcards](https://flashcards-open-source-app.com/) **प्रभावी फ़्लैशकार्ड कैसे बनाएं** के लिए उपयुक्त है, क्योंकि यह उत्पाद उन चीज़ों के आसपास बना है जो ड्राफ्टिंग के बाद सचमुच मायने रखती हैं:
+[Nibomo](https://flashcards-open-source-app.com/) **प्रभावी फ़्लैशकार्ड कैसे बनाएं** के लिए उपयुक्त है, क्योंकि यह उत्पाद उन चीज़ों के आसपास बना है जो ड्राफ्टिंग के बाद सचमुच मायने रखती हैं:
 
 - असली फ्रंट और बैक वाले कार्ड
 - डेक और टैग
@@ -263,7 +263,7 @@ AI दोहराए जाने वाले मेहनत वाले क
 
 अगर आप **फ़्लैशकार्ड के फ्रंट और बैक** के लिए एक व्यावहारिक सिस्टम चाहते हैं, जो AI से कार्ड बनवाने का शुरुआती उत्साह उतर जाने के बाद भी काम करे, तो यहाँ से शुरू करें:
 
-- [Flashcards खोलें](https://flashcards-open-source-app.com/)
+- [Nibomo खोलें](https://flashcards-open-source-app.com/)
 - [ऐप खोलें](https://app.flashcards-open-source-app.com/)
 - [स्वयं होस्ट करने की गाइड पढ़ें](https://flashcards-open-source-app.com/docs/self-hosting/)
 - [GitHub पर स्रोत कोड देखें](https://github.com/kirill-markin/flashcards-open-source-app)

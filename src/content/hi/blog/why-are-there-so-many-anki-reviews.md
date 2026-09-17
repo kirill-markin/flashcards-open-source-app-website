@@ -226,7 +226,7 @@ Low-value cards delete कीजिए। Non-priority material suspend की�
 
 ## Flashcards कहाँ fit होता है, बिना magic होने का नाटक किए
 
-[Flashcards features](/hi/features/) यहाँ एक practical वजह से useful हैं: product review से पहले वाले हिस्से और review के दौरान वाले हिस्से, दोनों को cover करता है।
+[Nibomo features](/hi/features/) यहाँ एक practical वजह से useful हैं: product review से पहले वाले हिस्से और review के दौरान वाले हिस्से, दोनों को cover करता है।
 
 यह इसलिए मायने रखता है क्योंकि बहुत-से review spikes पहले review day से पहले ही शुरू हो जाते हैं। वे तब शुरू होते हैं जब बहुत-से cards live deck में घुस जाते हैं, या जब AI-generated drafts को बिना काफ़ी editing के accept कर लिया जाता है।
 

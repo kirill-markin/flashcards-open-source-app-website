@@ -113,7 +113,7 @@ workflow का यही बदलाव सबसे ज़्यादा द
 
 यह separation इसलिए ज़रूरी है क्योंकि editing mode और review mode दो अलग काम हैं। जब आप दोनों को मिला देते हैं, तो कमजोर कार्ड सिर्फ़ इसलिए निकल जाते हैं क्योंकि आप थके हुए हैं, जल्दी में हैं, या थोड़ा impressed हैं कि typing AI ने पहले ही कर दी।
 
-[Flashcards](/hi/features/) के अंदर इसका practical shape सीधा है: source से draft बनाइए, front और back edit कीजिए, deck या tag से organize कीजिए, फिर cleanup pass के बाद final set को FSRS के साथ review कीजिए।
+[Nibomo](/hi/features/) के अंदर इसका practical shape सीधा है: source से draft बनाइए, front और back edit कीजिए, deck या tag से organize कीजिए, फिर cleanup pass के बाद final set को FSRS के साथ review कीजिए।
 
 ## overload के चार signals जल्दी पहचानिए
 
@@ -183,7 +183,7 @@ AI यहाँ भी उपयोगी है। बस इसका का�
 
 ## इस workflow में Flashcards कहाँ fit बैठता है
 
-[Flashcards](/hi/features/) इस workflow में इसलिए ठीक बैठता है क्योंकि product पूरा रास्ता एक ही जगह कवर करता है:
+[Nibomo](/hi/features/) इस workflow में इसलिए ठीक बैठता है क्योंकि product पूरा रास्ता एक ही जगह कवर करता है:
 
 - notes और source material को draft cards में बदलने के लिए AI chat
 - cards को permanent बनाने से पहले front/back editing

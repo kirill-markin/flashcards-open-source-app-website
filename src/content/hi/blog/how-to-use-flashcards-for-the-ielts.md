@@ -233,9 +233,9 @@ AI यहां उपयोगी है, लेकिन उतने बड�
 
 इससे आपके पास पढ़ने के लिए एक ही जगह रहती है, लेकिन आप उस हिस्से पर zoom in भी कर सकते हैं जहां points leak हो रहे हैं।
 
-## Flashcards Open Source App इसमें कहां फिट होता है
+## Nibomo इसमें कहां फिट होता है
 
-[Flashcards](/hi/) IELTS prep के लिए अच्छा fit है, क्योंकि काम का workflow एक अच्छे अर्थ में narrow और repetitive होता है:
+[Nibomo](/hi/) IELTS prep के लिए अच्छा fit है, क्योंकि काम का workflow एक अच्छे अर्थ में narrow और repetitive होता है:
 
 - एक `IELTS` deck रखिए और cards को exam type, skill, और mistake pattern के हिसाब से tag कीजिए
 - missed questions, rough Speaking notes, और messy Writing fixes को practice के तुरंत बाद front/back cards में बदलिए
@@ -260,7 +260,7 @@ AI यहां उपयोगी है, लेकिन उतने बड�
 
 अगर आप यही workflow actual product के अंदर आजमाना चाहते हैं:
 
-- [Flashcards खोलें](/hi/)
+- [Nibomo खोलें](/hi/)
 - [ऐप खोलें](https://app.flashcards-open-source-app.com/)
 - [शुरुआत गाइड पढ़ें](/hi/docs/getting-started/)
 - [GitHub पर source देखें](https://github.com/kirill-markin/flashcards-open-source-app)
