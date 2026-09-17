@@ -5,7 +5,7 @@ description: Externe Agent-API fuer Discovery, OTP-Bootstrap, Workspace-Setup un
 
 ## Ueberblick
 
-Diese Seite dokumentiert den aktuellen externen KI-Agenten-Vertrag fuer Flashcards.
+Diese Seite dokumentiert den aktuellen externen KI-Agenten-Vertrag fuer Nibomo.
 
 Wenn dein Client MCP spricht, ist der [MCP-Connector](/docs/mcp-connector/) der
 einfachste Weg, dich zu verbinden, und er kapselt dieselbe Datenoberflaeche. Diese
@@ -246,7 +246,7 @@ curl -X POST https://api.flashcards-open-source-app.com/v1/agent/reviews/submit 
 
 ## Menschliche und Sync-APIs
 
-Flashcards enthaelt auch separate APIs fuer menschliche Clients und Offline-First-Sync, aber sie sind nicht der Hauptvertrag fuer externe Agenten:
+Nibomo enthaelt auch separate APIs fuer menschliche Clients und Offline-First-Sync, aber sie sind nicht der Hauptvertrag fuer externe Agenten:
 
 - Browser-Flows nutzen Shared-Domain-Cookies plus CSRF-Schutz
 - Offline-First-Clients verwenden die implementierten Sync-Routen unter `/v1/workspaces/{workspaceId}/sync/push` und `/v1/workspaces/{workspaceId}/sync/pull`

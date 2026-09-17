@@ -1,6 +1,6 @@
 ---
 title: 服务条款
-description: Flashcards 的服务条款。
+description: Nibomo 的服务条款。
 slug: terms
 sections:
   - type: legal_page
@@ -8,7 +8,7 @@ sections:
 ---
 ## 服务与提供方
 
-Flashcards 是一款开源的间隔重复与抽认卡工具。本条款仅适用于 SAMO DANNI EOOD 提供的托管网站、应用、API 和 MCP 服务。公司编号为 207395566，增值税编号为 BG207395566，注册地址为 bulv. Maritza 154, entrance D, floor 6 #14, 4018, Plovdiv, Bulgaria。Flashcards 由 Kirill Markin 创建。
+Nibomo 是一款开源的间隔重复与抽认卡工具。本条款仅适用于 SAMO DANNI EOOD 提供的托管网站、应用、API 和 MCP 服务。公司编号为 207395566，增值税编号为 BG207395566，注册地址为 bulv. Maritza 154, entrance D, floor 6 #14, 4018, Plovdiv, Bulgaria。Nibomo 由 Kirill Markin 创建。
 
 在测试期间，托管服务按现状和可用情况提供。
 

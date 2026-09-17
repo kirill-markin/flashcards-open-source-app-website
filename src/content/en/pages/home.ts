@@ -1,7 +1,7 @@
 import type { PageContent } from "@/lib/content/types";
 
 export const HOME_PAGE_CONTENT: PageContent = {
-  title: "Flashcards App - Free, Open-Source Spaced Repetition",
+  title: "Nibomo - Free, Open-Source Spaced Repetition Flashcards App",
   description:
     "Free, open-source flashcards with FSRS spaced repetition, AI-assisted card creation, offline study and sync, portable exports, and self-hosting.",
   slug: "home",
@@ -15,7 +15,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
         "Remember more.",
       ],
       subtitle:
-        "Free, open-source flashcards that schedule each review for the right time, work offline, and sync across the web, iOS, and Android. Use AI when you want help creating or improving cards.",
+        "Free, open-source flashcards that schedule each review for the right time, work offline, and sync across the web, iOS, and Android. Use AI when you want help creating or improving cards. Nibomo was formerly known as Flashcards Open Source App.",
       trustLine: "No credit card. No ads. No trial countdown.",
       primaryLink: {
         label: "Get Started",

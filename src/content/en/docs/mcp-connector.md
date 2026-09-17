@@ -1,11 +1,11 @@
 ---
 title: MCP Connector
-description: Add the remote Flashcards MCP server as a custom connector, with OAuth for clients, an API key for headless use, and split read and write SQL tools.
+description: Add the remote Nibomo MCP server as a custom connector, with OAuth for clients, an API key for headless use, and split read and write SQL tools.
 ---
 
 ## Overview
 
-Flashcards runs a remote MCP (Model Context Protocol) server so MCP clients and
+Nibomo runs a remote MCP (Model Context Protocol) server so MCP clients and
 AI agents can read your due cards, review them with you one question at a time,
 and create or edit cards and decks for you.
 

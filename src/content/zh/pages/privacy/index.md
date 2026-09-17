@@ -1,6 +1,6 @@
 ---
 title: 隐私政策
-description: Flashcards 的隐私政策。
+description: Nibomo 的隐私政策。
 slug: privacy
 sections:
   - type: legal_page
@@ -8,7 +8,7 @@ sections:
 ---
 ## 运营方与适用范围
 
-托管版 Flashcards 服务由 SAMO DANNI EOOD 运营，公司编号 207395566，增值税编号 BG207395566，注册地址为 bulv. Maritza 154, entrance D, floor 6 #14, 4018, Plovdiv, Bulgaria。Flashcards 由 Kirill Markin 创建。
+托管版 Nibomo 服务由 SAMO DANNI EOOD 运营，公司编号 207395566，增值税编号 BG207395566，注册地址为 bulv. Maritza 154, entrance D, floor 6 #14, 4018, Plovdiv, Bulgaria。Nibomo 由 Kirill Markin 创建。
 
 本政策适用于由我们运营的托管网站、应用、API 和 MCP 服务。自托管实例由其运营者控制，其隐私处理由该运营者负责。
 
@@ -58,7 +58,7 @@ OpenAI 是为托管聊天、语音转录和图片生成功能配置的 AI 提供
 
 为调试和分析服务质量，托管 AI 请求也会通过 Langfuse Cloud 进行观测。Langfuse 跟踪可能包含提示词、模型回复、工具活动、用户、工作区和会话标识符以及运营元数据。实现会遮蔽电子邮箱地址和类似机密信息的字段；自定义语音转录跟踪不包含原始音频字节和附件数据。
 
-当您通过远程 MCP 服务或 Agent API 将 Flashcards 连接到外部 AI 客户端时，您要求该客户端获取的数据也会由该客户端及其 AI 或模型提供商处理。此项独立处理由客户端运营者控制，并受其条款和隐私政策约束。
+当您通过远程 MCP 服务或 Agent API 将 Nibomo 连接到外部 AI 客户端时，您要求该客户端获取的数据也会由该客户端及其 AI 或模型提供商处理。此项独立处理由客户端运营者控制，并受其条款和隐私政策约束。
 
 ## 处理者与接收方
 
@@ -70,7 +70,7 @@ OpenAI 是为托管聊天、语音转录和图片生成功能配置的 AI 提供
 - Langfuse Cloud，用于托管 AI 可观测性；
 - Sentry，在相关托管服务或应用构建中启用时，用于经过清理的错误与诊断报告；
 - Vercel，用于营销网站和不使用 Cookie 的 Web Analytics；以及
-- Cloudflare，用于 DNS 和域名管理。目前 Flashcards 的 DNS 记录为仅 DNS 模式，因此 Cloudflare 不代理托管网站或应用的 HTTP 流量。
+- Cloudflare，用于 DNS 和域名管理。目前 Nibomo 的 DNS 记录为仅 DNS 模式，因此 Cloudflare 不代理托管网站或应用的 HTTP 流量。
 
 根据服务的协作功能，数据还可能披露给共享工作区的其他成员、您授权的外部客户端、负有保密义务的专业顾问，或在法律要求时披露给公共机关。
 

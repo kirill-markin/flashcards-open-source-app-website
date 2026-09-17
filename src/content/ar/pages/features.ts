@@ -1,7 +1,7 @@
 import type { PageContent } from "@/lib/content/types";
 
 export const FEATURES_PAGE_CONTENT: PageContent = {
-  title: "مزايا Flashcards",
+  title: "مزايا Nibomo",
   description:
     "اكتشف بطاقات مجانية ومفتوحة المصدر مع تكرار FSRS المتباعد وإنشاء بمساعدة الذكاء الاصطناعي ودراسة دون اتصال وتصدير واستضافة ذاتية.",
   slug: "features",

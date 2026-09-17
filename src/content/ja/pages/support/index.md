@@ -1,6 +1,6 @@
 ---
 title: サポート
-description: Flashcards のサポート案内。
+description: Nibomo のサポート案内。
 slug: support
 sections:
   - type: legal_page
@@ -16,7 +16,7 @@ iOS アプリでは、`Settings > Account Settings > Danger Zone > Delete my acc
 
 ## オープンソース関連・技術的なご報告
 
-Flashcards はオープンソースです。バグ報告、セルフホスティング時の問題、技術的な議論については、[GitHub リポジトリ](https://github.com/kirill-markin/flashcards-open-source-app) とその Issue トラッカーもご利用いただけます。
+Nibomo はオープンソースです。バグ報告、セルフホスティング時の問題、技術的な議論については、[GitHub リポジトリ](https://github.com/kirill-markin/flashcards-open-source-app) とその Issue トラッカーもご利用いただけます。
 
 ## セルフホスティング
 

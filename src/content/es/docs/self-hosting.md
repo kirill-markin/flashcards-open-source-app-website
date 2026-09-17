@@ -1,9 +1,9 @@
 ---
 title: Guía de autoalojamiento
-description: Ejecuta Flashcards en local con PostgreSQL, autenticación, backend, web y administración, o despliega la pila de producción documentada con AWS CDK.
+description: Ejecuta Nibomo en local con PostgreSQL, autenticación, backend, web y administración, o despliega la pila de producción documentada con AWS CDK.
 ---
 
-Flashcards admite dos rutas diferentes: un entorno de desarrollo local y un despliegue de producción en AWS. Docker Compose ejecuta PostgreSQL y las migraciones para el desarrollo local; no es el método de despliegue en producción.
+Nibomo admite dos rutas diferentes: un entorno de desarrollo local y un despliegue de producción en AWS. Docker Compose ejecuta PostgreSQL y las migraciones para el desarrollo local; no es el método de despliegue en producción.
 
 ## Requisitos para el desarrollo local
 
