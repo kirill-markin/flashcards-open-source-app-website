@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "packageManager": "npm@12.0.2",
-  "description": "Marketing website for Flashcards Open Source App",
+  "description": "Marketing website for Nibomo",
   "author": "Kirill Markin",
   "license": "MIT",
   "scripts": {
