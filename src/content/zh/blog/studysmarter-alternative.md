@@ -15,11 +15,11 @@ keywords:
   - "自托管闪卡"
 ---
 
-StudySmarter 的一个学习集可以放进一条更完整的学习流程：笔记、上传资料、共享内容、测验、模拟考试和课程计划。Flashcards Open Source App 则刻意把范围收窄，只处理正反面卡片和复习队列。寻找 **StudySmarter 替代品**时，首先要看清这项差别。
+StudySmarter 的一个学习集可以放进一条更完整的学习流程：笔记、上传资料、共享内容、测验、模拟考试和课程计划。Nibomo 则刻意把范围收窄，只处理正反面卡片和复习队列。寻找 **StudySmarter 替代品**时，首先要看清这项差别。
 
 Flashcards 不是 StudySmarter 的精简版。它适合已经在别处保存笔记和原始资料，只需要一款简单、专注的闪卡应用的人。如果整门课程都依赖 StudySmarter，迁移后失去的远不止几个附加功能。
 
-> **利益披露：** 我是 Kirill Markin，也是本文对比产品之一 [Flashcards Open Source App](/features/) 的开发者。原生笔记、原始资料、现成及社区内容、测验、模拟考试和学习规划，都是 StudySmarter 更擅长的部分。
+> **利益披露：** 我是 Kirill Markin，也是本文对比产品之一 [Nibomo](/features/) 的开发者。原生笔记、原始资料、现成及社区内容、测验、模拟考试和学习规划，都是 StudySmarter 更擅长的部分。
 
 **事实核查日期：** 2026 年 8 月 3 日。
 
@@ -28,14 +28,14 @@ Flashcards 不是 StudySmarter 的精简版。它适合已经在别处保存笔�
 ## 先说结论
 
 - 想把笔记、上传的学习资料、共享学习集、知识讲解、测验、模拟考试和规划放在同一款产品里，选择 **StudySmarter**。
-- 只想维护正反面卡片，同时看重有文档说明的 FSRS-6 调度、离线优先的本地写入与同步、MIT 许可代码、AI Agent 访问，以及受支持的 AWS CDK 全栈部署，选择 **Flashcards Open Source App**。
+- 只想维护正反面卡片，同时看重有文档说明的 FSRS-6 调度、离线优先的本地写入与同步、MIT 许可代码、AI Agent 访问，以及受支持的 AWS CDK 全栈部署，选择 **Nibomo**。
 - 如果只是对小问题不满意，继续用 **StudySmarter**。目前没有文档表明两款产品之间可以无损迁移，转到 Flashcards 也意味着放弃 StudySmarter 的课程级工具。
 
 无论选哪一款，都不代表学习态度更认真。StudySmarter 覆盖从课程资料到备考的更多环节；Flashcards 则专注于让规模较小的卡片集合适合长期复习。
 
 ## StudySmarter vs Flashcards：快速对比
 
-| 对比项 | StudySmarter | Flashcards Open Source App |
+| 对比项 | StudySmarter | Nibomo |
 |---|---|---|
 | 最适合 | 一体化的课程学习与备考流程 | 长期专注复习正反面卡片 |
 | 笔记 | 原生笔记和文档，支持格式、重点标记与批注 | 没有原生笔记系统；卡片正反面使用 Markdown |

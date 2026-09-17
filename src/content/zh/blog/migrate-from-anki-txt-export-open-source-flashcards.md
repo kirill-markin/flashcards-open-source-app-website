@@ -20,7 +20,7 @@ keywords:
 
 这套流程适合以文本为主的牌组，以及能够处理 TXT 或 CSV 的目标应用。文本导出不会保留 Anki 的调度状态、模板、插件或媒体文件。你需要先用一个有代表性的牌组测试，逐一核对字段；在结果真正可用之前，不要改动原集合。
 
-> **利益相关说明：** 我是 Kirill Markin，也是 [Flashcards](https://flashcards-open-source-app.com/) 的开发者。本指南也会明确说明：在哪些情况下，继续使用 Anki 或选择支持导入 `.apkg` 的应用才是更稳妥的决定。
+> **利益相关说明：** 我是 Kirill Markin，也是 [Nibomo](https://flashcards-open-source-app.com/) 的开发者。本指南也会明确说明：在哪些情况下，继续使用 Anki 或选择支持导入 `.apkg` 的应用才是更稳妥的决定。
 
 **事实核查日期：** 2026 年 8 月 27 日。
 
@@ -166,7 +166,7 @@ HTML -> 移除，但保留换行
 
 如果测试失败，请用目标应用自身的清理流程删除临时卡片，再调整映射或清理方式。Anki 集合和两份导出文件都会保持完整，这正是测试可逆的原因。
 
-## 在 Flashcards Open Source App 中使用 TXT 文件
+## 在 Nibomo 中使用 TXT 文件
 
 Flashcards 目前没有直接导入 Anki 的功能。它无法读取 `.apkg` 或 `.colpkg`，也不能据此重建 Anki 的模板、媒体或复习历史。
 

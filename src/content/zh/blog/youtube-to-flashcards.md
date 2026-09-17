@@ -14,11 +14,11 @@ keywords:
   - "YouTube 视频闪卡生成器"
 ---
 
-选择 YouTube 视频闪卡生成器时，真正要看的不是它能多快接收一条链接，而是生成以后：卡片能不能核查和编辑、怎么复习、以后能不能迁走。AnkiDecks 的官方文档给出了最清晰的路径，可以把公开的 YouTube 网址转成 Anki `.apkg` 文件。如果你准备留在产品自带的学习环境里复习，StudyFetch 和 Knowt 的流程更直接。Gizmo 官方文档中的 YouTube 流程生成的是一节 AI Tutor 课程，而不是闪卡卡组。Flashcards Open Source App 则需要多走一步，由你先提供文字稿；它换来的是一套可编辑、可迁移的卡组，以及 FSRS、离线学习和自行托管能力。
+选择 YouTube 视频闪卡生成器时，真正要看的不是它能多快接收一条链接，而是生成以后：卡片能不能核查和编辑、怎么复习、以后能不能迁走。AnkiDecks 的官方文档给出了最清晰的路径，可以把公开的 YouTube 网址转成 Anki `.apkg` 文件。如果你准备留在产品自带的学习环境里复习，StudyFetch 和 Knowt 的流程更直接。Gizmo 官方文档中的 YouTube 流程生成的是一节 AI Tutor 课程，而不是闪卡卡组。Nibomo 则需要多走一步，由你先提供文字稿；它换来的是一套可编辑、可迁移的卡组，以及 FSRS、离线学习和自行托管能力。
 
 所以，这里没有适合所有人的唯一答案。先看最后会产出什么、以后怎么迁移；输入链接反而是最简单的一步。
 
-**利益披露：** 我是 Flashcards Open Source App 的开发者。本文对比只依据当前的官方文档，没有进行实际上手测试。**事实核查日期：2026 年 9 月 13 日。**
+**利益披露：** 我是 Nibomo 的开发者。本文对比只依据当前的官方文档，没有进行实际上手测试。**事实核查日期：2026 年 9 月 13 日。**
 
 ![一名学生对照 YouTube 文字稿检查五张闪卡草稿，再决定使用哪款学习应用](/blog/youtube-to-flashcards.png)
 
@@ -30,7 +30,7 @@ keywords:
 | [Knowt](https://help.knowt.com/en/articles/10298038-how-to-create-flashcards-and-notes-from-a-youtube-video-using-the-chrome-extension) | 支持；通过 Chrome 扩展程序导入 | Kai 分析当前打开的视频，把结果发送到 Knowt，再生成闪卡或笔记 | 所引 YouTube 指南只说明了 Knowt 内的流程，没有记录导出步骤 | 已经在 Chrome 中观看视频，希望用最短路径把内容带入 Knowt 的人 |
 | [AnkiDecks](https://anki-decks.com/) | 支持；粘贴公开的 YouTube 网址 | 根据文字稿生成带时间戳的问答、挖空题或选择题卡片 | 内置 FSRS 和 `.apkg` 导出都有文档说明 | 想从 YouTube 制作 Anki 闪卡，或需要明确 Anki 兼容迁移方式的人 |
 | [Gizmo](https://help.gizmo.ai/en/articles/15935404-how-do-i-use-magic-import-to-start-an-ai-tutor-lesson) | 支持；在官方说明的 AI Tutor 导入流程中粘贴 YouTube 网址 | 一节以文字稿为依据、边讲解边提问的 Tutor 课程 | 这条路径生成的是课程，并不是文档明确支持的 YouTube 闪卡导出流程 | 比起可重复使用的卡组，更想要引导式辅导的人 |
-| [Flashcards Open Source App](/features/) | 官方文档未说明支持直接导入 YouTube 网址；需要[把文字稿作为文件附件上传](/docs/getting-started/) | 由 AI 辅助起草卡片，再由你挑选、编辑和保存 | 支持 FSRS、可移植导出、移动端离线学习和自行托管 | 看重核查、数据所有权和长期复习系统的人 |
+| [Nibomo](/features/) | 官方文档未说明支持直接导入 YouTube 网址；需要[把文字稿作为文件附件上传](/docs/getting-started/) | 由 AI 辅助起草卡片，再由你挑选、编辑和保存 | 支持 FSRS、可移植导出、移动端离线学习和自行托管 | 看重核查、数据所有权和长期复习系统的人 |
 
 “YouTube 闪卡生成器”这个名字掩盖了最重要的区别：能接收 YouTube 链接，并不代表最后得到的一定是卡片。它也可能是一节导师课程、一套可编辑的卡组，或一个能够迁移到别处的文件。
 
@@ -141,9 +141,9 @@ Gizmo 也会在更广的范围内使用 Magic Import 这个名称，不过这里
 
 这样选，也能避开一个常见的坑：看了演示就决定使用某个生成器，真正开始学习后，才发现卡组很难编辑、核查或迁移。
 
-## Flashcards Open Source App 适合什么场景
+## Nibomo 适合什么场景
 
-Flashcards Open Source App **目前没有文档说明支持直接导入 YouTube 网址**。实际流程要从文字稿开始：
+Nibomo **目前没有文档说明支持直接导入 YouTube 网址**。实际流程要从文字稿开始：
 
 1. 打开视频的 YouTube 文字稿。
 2. 把相关章节放进一个文件，不要提交整份文字稿。

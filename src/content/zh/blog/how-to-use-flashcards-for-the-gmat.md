@@ -241,7 +241,7 @@ Data Sufficiency 很能说明，为什么当前 GMAT 需要一套更现代的抽
 
 这一点要明确写出来。
 
-Flashcards Open Source App 与 GMAT 或 GMAC 没有任何官方集成，也没有任何官方合作。请只用它处理合法的个人笔记、你自己的解释，以及练习复盘总结。不要拿它去建立一整库复制来的 GMAT 专有题干、答案库，或其他你无权复制的材料。
+Nibomo 与 GMAT 或 GMAC 没有任何官方集成，也没有任何官方合作。请只用它处理合法的个人笔记、你自己的解释，以及练习复盘总结。不要拿它去建立一整库复制来的 GMAT 专有题干、答案库，或其他你无权复制的材料。
 
 实际上，最有价值的卡片本来也通常不是整道题。更有价值的，往往是你自己写出来的那句简短总结：到底哪里出了问题，下次改什么才会改变结果。
 
@@ -277,9 +277,9 @@ FSRS 很适合 GMAT 备考，因为遗忘本来就不均匀，而且这种不均
 
 如果你想更具体看排程这一层，这篇文章会直接展开：[2026 年如何用 FSRS 备考](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/)。
 
-## Flashcards Open Source App 适合放在哪一段
+## Nibomo 适合放在哪一段
 
-[Flashcards](https://flashcards-open-source-app.com/) 很适合这种 GMAT 备考流程，因为它刚好覆盖了“我做错了这题”和“我明天该复习哪一个记忆目标”之间那段最麻烦的空档。
+[Nibomo](https://flashcards-open-source-app.com/) 很适合这种 GMAT 备考流程，因为它刚好覆盖了“我做错了这题”和“我明天该复习哪一个记忆目标”之间那段最麻烦的空档。
 
 这套流程里真正有用的部分包括：
 

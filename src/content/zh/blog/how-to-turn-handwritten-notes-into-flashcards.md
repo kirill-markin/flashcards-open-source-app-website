@@ -168,7 +168,7 @@ PDF 通常一开始就更完整、更规整。
 
 ## Flashcards 在这套流程里适合做什么
 
-[Flashcards](https://flashcards-open-source-app.com/) 很适合“**把手写笔记做成抽认卡**”这类流程，因为这个产品已经把真正重要的部分放在一起了：
+[Nibomo](https://flashcards-open-source-app.com/) 很适合“**把手写笔记做成抽认卡**”这类流程，因为这个产品已经把真正重要的部分放在一起了：
 
 - AI 对话
 - 图片和文件附件

@@ -237,13 +237,13 @@ College Board 的 [AP Statistics 课程修订从 2026–27 学年开始生效](h
 
 每天计划学习多少张新卡，要以不影响完成到期复习和做真实题目为前提。[每天应该学多少张新闪卡？](/blog/how-many-new-flashcards-per-day/)介绍了如何随着待复习卡的累积调整数量。
 
-## Flashcards Open Source App 在这套流程中的位置
+## Nibomo 在这套流程中的位置
 
-[Flashcards Open Source App](/features/)可以负责记忆训练这一层：正反面卡片、标签、FSRS 排程、导入和便携式导出、AI 辅助起草，以及离线优先的客户端。同一张卡可以同时带有单元、实践类型和错因标签。
+[Nibomo](/features/)可以负责记忆训练这一层：正反面卡片、标签、FSRS 排程、导入和便携式导出、AI 辅助起草，以及离线优先的客户端。同一张卡可以同时带有单元、实践类型和错因标签。
 
 可以让 AI 帮你缩短过长的答案，或者根据笔记起草卡片。保存前，仍要对照当前 Course and Exam Description 或教师资料，核查每一项统计学表述。
 
-Flashcards Open Source App 目前没有经过核实的现成 AP Statistics 卡包，也不会给 FRQ 评分，更不能替代 Bluebook 和计算器练习。应该从当前课程资料出发，只把通过核查的卡片放进应用排程。
+Nibomo 目前没有经过核实的现成 AP Statistics 卡包，也不会给 FRQ 评分，更不能替代 Bluebook 和计算器练习。应该从当前课程资料出发，只把通过核查的卡片放进应用排程。
 
 这是一份独立学习指南，与 College Board 没有隶属关系，也未获得其认可。[入门指南](/docs/getting-started/)介绍了线上应用和自托管两种使用方式。
 

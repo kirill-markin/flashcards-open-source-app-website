@@ -18,7 +18,7 @@ keywords:
 
 **事实核查于：** 2026 年 8 月 18 日。
 
-> **披露：** 我是 Kirill Markin，也是 Flashcards Open Source App 的开发者。下文会把它的 Agent API 和 MCP 服务器列为替代方案。Flashcards 与 Quizlet 并不兼容，也不会自动导入 Quizlet 学习集。
+> **披露：** 我是 Kirill Markin，也是 Nibomo 的开发者。下文会把它的 Agent API 和 MCP 服务器列为替代方案。Nibomo 与 Quizlet 并不兼容，也不会自动导入 Quizlet 学习集。
 
 ![开发者对比 Quizlet 导出、嵌入、特定产品集成和有公开文档的闪卡 API](/blog/quizlet-api.png)
 
@@ -83,7 +83,7 @@ Quizlet 在 2026 年 6 月 30 日发布的 Google Classroom 公告同样只针�
 
 ## Flashcards 这个 API 替代方案究竟提供什么
 
-Flashcards Open Source App 为同一套受限且按用户隔离的数据接口提供两种访问方式：
+Nibomo 为同一套受限且按用户隔离的数据接口提供两种访问方式：
 
 - [外部 Agent API](/docs/api/) 从 `GET https://api.flashcards-open-source-app.com/v1/` 开始。它的发现响应会引导智能体完成邮件 OTP 登录、创建 API 密钥和选择工作区。读取走 SQL 风格的查询路由，写入走独立的执行路由。
 - [远程 MCP 服务器](/docs/mcp-connector/)位于 `https://mcp.flashcards-open-source-app.com/mcp`。MCP 客户端可以使用七个工具：`list_workspaces`、`sql_query`、`sql_execute`、`get_guide`，以及复习工具 `next_review_card`、`reveal_answer` 和 `submit_review`。

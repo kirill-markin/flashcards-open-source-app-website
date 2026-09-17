@@ -252,7 +252,7 @@ keywords:
 
 ## Flashcards 在这套护理工作流里适合放在哪里
 
-[Flashcards](https://flashcards-open-source-app.com/) 很适合用来跑这套 **护理学院抽认卡** 工作流，因为这个产品已经覆盖了这套方法最依赖的那些部分：
+[Nibomo](https://flashcards-open-source-app.com/) 很适合用来跑这套 **护理学院抽认卡** 工作流，因为这个产品已经覆盖了这套方法最依赖的那些部分：
 
 - 用于窄提示正反面卡片的前后卡结构
 - 带有工作区数据和文件附件的 AI chat，可用于根据笔记、课堂文本或题目解析起草卡片

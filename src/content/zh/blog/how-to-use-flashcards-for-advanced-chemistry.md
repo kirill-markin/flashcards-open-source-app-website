@@ -219,7 +219,7 @@ keywords:
 
 ## 如果你想把整个流程放在同一个地方，Flashcards 适合放在哪
 
-[Flashcards](https://flashcards-open-source-app.com/) 很适合这套高中进阶化学学习流程，因为当你已经找准记忆目标之后，产品本身刚好支持后面的那些实操步骤：
+[Nibomo](https://flashcards-open-source-app.com/) 很适合这套高中进阶化学学习流程，因为当你已经找准记忆目标之后，产品本身刚好支持后面的那些实操步骤：
 
 - 正反面卡片的创建和编辑
 - 通过聊天进行 AI 辅助起草

@@ -18,7 +18,7 @@ keywords:
 
 Anki 是闪卡产品和生态。SuperMemo 既可能指两款现行产品，也可能指一个延续多代的算法家族。FSRS 则是可由不同产品实现的调度器。本文会先分清这些类别，再比较你实际面对的选择。
 
-> **披露：**我是 Kirill Markin，也是 [Flashcards Open Source App](/zh/features/) 的开发者。下文会把它作为一种实际的 FSRS 实现来介绍，但不会默认将它列为最佳选择，也会明确说明其生态尚年轻所带来的影响。
+> **披露：**我是 Kirill Markin，也是 [Nibomo](/zh/features/) 的开发者。下文会把它作为一种实际的 FSRS 实现来介绍，但不会默认将它列为最佳选择，也会明确说明其生态尚年轻所带来的影响。
 
 **事实核查日期：**2026 年 8 月 3 日。
 
@@ -43,7 +43,7 @@ Anki 是闪卡产品和生态。SuperMemo 既可能指两款现行产品，也�
 | [SuperMemo 20 for Windows](https://supermemo.store/products/supermemo-20-for-windows) | 专有的 Windows 知识管理和渐进阅读产品 | Algorithm Arena 包含 SM-2、SM-15、SM-19、SM-20 和 FSRS | 渐进阅读、知识树，以及从文档、网页、电子邮件和视频导入内容 | 仅支持 Windows；与 SuperMemo.com 是不同产品 |
 | [SuperMemo.com](https://www.supermemo.com/en/app) | 支持 Web、iOS 和 Android 的托管语言学习服务 | 专有 SuperMemo 方法；当前公开页面未说明它使用 SM-18、SM-20 或 FSRS | 预制语言课程、MemoCards 和跨设备托管学习 | 它不是 Windows 产品，确切调度器也未公开 |
 | [FSRS](https://github.com/open-spaced-repetition/fsrs4anki) | 开放的调度器和相关项目 | 由宿主产品或库实现 | 希望检查调度逻辑的开发者和用户 | 本身不提供卡片、编辑器、同步或学习界面 |
-| [Flashcards Open Source App](/zh/features/) | 围绕 FSRS 构建的较年轻开源闪卡产品 | FSRS-6，固定采用官方默认权重，并可配置 workspace 调度设置 | Web、iOS、Android、自托管、API 和 AI agent 工作流 | 生态规模小于 Anki，尚不支持个性化 FSRS 权重 |
+| [Nibomo](/zh/features/) | 围绕 FSRS 构建的较年轻开源闪卡产品 | FSRS-6，固定采用官方默认权重，并可配置 workspace 调度设置 | Web、iOS、Android、自托管、API 和 AI agent 工作流 | 生态规模小于 Anki，尚不支持个性化 FSRS 权重 |
 
 这些比较项并非刻意写得完全对称。Anki 和 Flashcards 提供完整的闪卡工作流；SuperMemo 20 把调度融入更广泛的阅读和知识工作流；SuperMemo.com 提供托管语言学习体验；FSRS 则为其他软件提供调度逻辑。
 
@@ -155,7 +155,7 @@ Workspace 可以调整 desired retention、steps、maximum interval 和 fuzz，�
 
 ### 你想要现代的开源 Web、移动端和 agent 工作流
 
-可以评估 [Flashcards Open Source App](/zh/features/)。它把 FSRS-6 与 Web、iOS、Android、自托管、公开 API 和 AI agent 访问结合起来。它的实际局限是生态尚不成熟：与 Anki 相比，它在模板、add-ons、共享牌组和迁移保真度方面都不够丰富。依赖 Anki 这些优势的卡片库，应该继续留在 Anki。
+可以评估 [Nibomo](/zh/features/)。它把 FSRS-6 与 Web、iOS、Android、自托管、公开 API 和 AI agent 访问结合起来。它的实际局限是生态尚不成熟：与 Anki 相比，它在模板、add-ons、共享牌组和迁移保真度方面都不够丰富。依赖 Anki 这些优势的卡片库，应该继续留在 Anki。
 
 ## 调度器救不了薄弱的学习系统
 

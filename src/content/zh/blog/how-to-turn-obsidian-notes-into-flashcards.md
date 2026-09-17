@@ -117,7 +117,7 @@ Obsidian 笔记里经常会有一些在 vault 里很好用、但放进闪卡草�
 
 ## Flashcards 很适合接住 Obsidian 工作流，但并不假装自己就是你的 vault
 
-[Flashcards](https://flashcards-open-source-app.com/) 之所以适合这个场景，是因为它能把学习这一侧处理得很干净：
+[Nibomo](https://flashcards-open-source-app.com/) 之所以适合这个场景，是因为它能把学习这一侧处理得很干净：
 
 - 创建正反面卡片
 - 用 AI 对话根据粘贴的文本起草卡片

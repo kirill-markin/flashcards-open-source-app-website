@@ -236,7 +236,7 @@ AI 很擅长消除文书劳动。
 
 ## 为什么 Flashcards 很适合这种工作流
 
-[Flashcards](https://flashcards-open-source-app.com/) 很适合 **如何制作高效抽认卡** 这种需求，因为这个产品围绕的是起草之后真正重要的那部分：
+[Nibomo](https://flashcards-open-source-app.com/) 很适合 **如何制作高效抽认卡** 这种需求，因为这个产品围绕的是起草之后真正重要的那部分：
 
 - 真正的正反面卡片
 - 卡组和标签

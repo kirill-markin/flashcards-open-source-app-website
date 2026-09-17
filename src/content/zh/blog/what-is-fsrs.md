@@ -25,7 +25,7 @@ keywords:
 
 ## FSRS 是调度器，不是闪卡应用
 
-Anki 可以使用 FSRS，Flashcards Open Source App 也使用 FSRS，其他产品和程序库同样可以实现它。[open-spaced-repetition 项目](https://github.com/open-spaced-repetition)公开发布了这一模型、相关实现和配套工具。
+Anki 可以使用 FSRS，Nibomo 也使用 FSRS，其他产品和程序库同样可以实现它。[open-spaced-repetition 项目](https://github.com/open-spaced-repetition)公开发布了这一模型、相关实现和配套工具。
 
 产品和调度器各有分工：
 
@@ -173,7 +173,7 @@ FSRS 可以把糟糕的输入安排得非常精确，但再先进的间隔也不
 
 ## Flashcards 如何实现 FSRS
 
-> **披露：** 我是 Kirill Markin，也是 [Flashcards Open Source App](/zh/features/) 的开发者。本节描述的是已经发布的产品行为，并不是说每位学习者都应该离开自己正在使用的其他应用。
+> **披露：** 我是 Kirill Markin，也是 [Nibomo](/zh/features/) 的开发者。本节描述的是已经发布的产品行为，并不是说每位学习者都应该离开自己正在使用的其他应用。
 
 Flashcards 目前实现的是 **FSRS-6**，并与官方 `ts-fsrs` 5.2.3 的调度流程保持一致。它采用标准的 Again、Hard、Good 和 Easy 评分。后端、iOS 和 Android 调度器保持相同行为，Web 端的复习流程则复用后端调度器。
 

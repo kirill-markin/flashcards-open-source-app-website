@@ -262,7 +262,7 @@ FSRS 有帮助，是因为：
 
 ## Flashcards 在这套 Digital SAT 工作流里适合做什么
 
-[Flashcards](https://flashcards-open-source-app.com/) 很适合承接这类 **Digital SAT flashcards** 工作流，因为当前产品已经支持这套流程真正依赖的那些部分：
+[Nibomo](https://flashcards-open-source-app.com/) 很适合承接这类 **Digital SAT flashcards** 工作流，因为当前产品已经支持这套流程真正依赖的那些部分：
 
 - 正反面卡片的创建和编辑
 - AI 对话，可根据笔记、粘贴的解析内容或模考复盘起草候选卡片

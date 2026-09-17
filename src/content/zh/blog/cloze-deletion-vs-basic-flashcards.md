@@ -183,9 +183,9 @@ FSRS 无法判断一张 cloze 卡是否泄露答案，也无法判断一张基�
 
 复习时反复犹豫，本身就是有用的证据。如果你总在想 `I knew the idea, but not the exact word`，或者还没回忆事实，句式就已经提示了答案，那就重写卡片。[主动回忆与间隔重复](/zh/blog/active-recall-vs-spaced-repetition/)解释了回忆和排程的区别；卡片清理好之后，[FSRS 设置指南](/zh/blog/fsrs-settings/)会讲时间安排方面的选择。
 
-## Flashcards Open Source App 如何处理这项选择
+## Nibomo 如何处理这项选择
 
-[Flashcards Open Source App 功能](/zh/features/)使用明确的正反面卡片。这个应用不提供原生 cloze 语法、cloze 渲染或 cloze 笔记自动生成功能。如果你的材料最初是 cloze 格式，就按上面的方法，把其中有用的回忆目标转换成正反面问题。
+[Nibomo 功能](/zh/features/)使用明确的正反面卡片。这个应用不提供原生 cloze 语法、cloze 渲染或 cloze 笔记自动生成功能。如果你的材料最初是 cloze 格式，就按上面的方法，把其中有用的回忆目标转换成正反面问题。
 
 借助 AI 起草时，可以通过聊天或文件附件生成正反面候选卡，再由你检查和编辑。每个事实性答案都要对照来源核实。复习时，你用 Again、Hard、Good 或 Easy 给卡片评分，FSRS 再根据这段复习记录安排未来的复习时间；它不会替你修正措辞。
 

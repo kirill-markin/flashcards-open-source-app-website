@@ -257,7 +257,7 @@ OpenAI 的 [Study Mode](https://openai.com/index/chatgpt-study-mode/) 更强调�
 
 ## Flashcards 在这里最诚实的位置
 
-[Flashcards](/zh/) 并不是我会描述成“完整模拟考试平台”的产品。
+[Nibomo](/zh/) 并不是我会描述成“完整模拟考试平台”的产品。
 
 它更适合作为解释、辅导、测验和练习题之后的那一层记忆保留系统。
 

@@ -278,9 +278,9 @@ while left < right:
 
 你需要的是别再反复忘记同样那十五个教训。
 
-## Flashcards Open Source App 在这里适合做什么
+## Nibomo 在这里适合做什么
 
-[Flashcards Open Source App](https://flashcards-open-source-app.com/) 很适合拿来做 **编程面试 flashcards**，因为它已经支持那些真正关键的部分：
+[Nibomo](https://flashcards-open-source-app.com/) 很适合拿来做 **编程面试 flashcards**，因为它已经支持那些真正关键的部分：
 
 - FSRS 调度，不用你手动调复习间隔也能稳定复习
 - decks、tags、搜索，以及按 tag 和 effort level 筛选的 filtered decks

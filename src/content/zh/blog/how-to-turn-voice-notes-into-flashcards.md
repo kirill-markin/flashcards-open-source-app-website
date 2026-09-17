@@ -259,7 +259,7 @@ keywords:
 
 ## 为什么 Flashcards 很适合这套流程
 
-[Flashcards](https://flashcards-open-source-app.com/) 很适合 **音频转抽认卡**，因为这个产品已经把这条流程真正需要的部件放在同一个地方：
+[Nibomo](https://flashcards-open-source-app.com/) 很适合 **音频转抽认卡**，因为这个产品已经把这条流程真正需要的部件放在同一个地方：
 
 - AI 对话
 - 文件附件

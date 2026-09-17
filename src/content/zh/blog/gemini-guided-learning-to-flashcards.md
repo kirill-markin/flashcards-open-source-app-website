@@ -205,7 +205,7 @@ FSRS 才是把“我发现这里有个漏洞”真正变成“我下周更不容
 
 ## Flashcards 在哪里适合接手
 
-[Flashcards](/) 并不是想取代 Gemini Guided Learning。
+[Nibomo](/) 并不是想取代 Gemini Guided Learning。
 
 它适合接在会话之后，在你已经知道什么值得记住的时候接手。
 

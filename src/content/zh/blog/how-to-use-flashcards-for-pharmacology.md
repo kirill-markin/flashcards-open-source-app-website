@@ -267,7 +267,7 @@ keywords:
 
 ## Flashcards 在这套工作流里的位置
 
-[Flashcards](https://flashcards-open-source-app.com/) 比较适合这种药理学学习方式，因为真正有用的部分，不是把药理学直接丢给 AI。我不会那样学。
+[Nibomo](https://flashcards-open-source-app.com/) 比较适合这种药理学学习方式，因为真正有用的部分，不是把药理学直接丢给 AI。我不会那样学。
 
 真正有用的部分更窄一些：
 

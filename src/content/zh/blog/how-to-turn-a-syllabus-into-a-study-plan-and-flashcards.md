@@ -240,7 +240,7 @@ keywords:
 
 ## Flashcards 在这套流程里处于什么位置
 
-[Flashcards](/zh/features/) 适合放在课程大纲已经被整理成结构之后。
+[Nibomo](/zh/features/) 适合放在课程大纲已经被整理成结构之后。
 
 有用的路径其实很直接：
 

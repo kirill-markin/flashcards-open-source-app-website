@@ -242,9 +242,9 @@ NABP 的备考页面会把考生引向 Pre-MPJE 和 Pre-UMPJE。你可以把这�
 
 如果你想更细看排程这部分，下一步是 [2026 年 FSRS 设置](/zh/blog/fsrs-settings/) 和 [2026 年 FSRS vs SM-2](/zh/blog/fsrs-vs-sm-2/)。
 
-## Flashcards Open Source App 在这套工作流里适合承担什么角色
+## Nibomo 在这套工作流里适合承担什么角色
 
-[Flashcards Open Source App](/zh/) 最适合介入的时间点，是你已经知道哪些内容值得反复复习之后。
+[Nibomo](/zh/) 最适合介入的时间点，是你已经知道哪些内容值得反复复习之后。
 
 这个产品已经覆盖了这套流程中间那段最关键的部分：
 

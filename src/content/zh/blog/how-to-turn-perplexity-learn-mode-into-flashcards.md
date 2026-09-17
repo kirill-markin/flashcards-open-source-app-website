@@ -196,16 +196,16 @@ Perplexity 可以帮你理解内容，也可以把失误暴露出来。但它不
 
 这篇文章的范围更窄一些。Perplexity 帮你找出漏洞。FSRS 帮你把这个漏洞慢慢补上。
 
-## Flashcards Open Source App 适合插在这里
+## Nibomo 适合插在这里
 
-[Flashcards Open Source App](/zh/) 最适合接在 Learn Mode 之后，也就是你已经知道什么值得留下来的时候。
+[Nibomo](/zh/) 最适合接在 Learn Mode 之后，也就是你已经知道什么值得留下来的时候。
 
 这里并没有什么魔法般的 Perplexity 一键导入按钮，我也不想假装它存在。真正有用的流程反而更简单，也更可信：
 
 1. 完成 Learn Mode 会话。
 2. 复制薄弱点、清理过的候选卡，或者两者都复制出来。
 3. 在编辑每张候选卡时，把对应的笔记片段或引用来源放在旁边。
-4. 把这些内容粘贴进 Flashcards Open Source App 的 AI chat，或者直接创建卡片。
+4. 把这些内容粘贴进 Nibomo 的 AI chat，或者直接创建卡片。
 5. 把措辞改成简单的正反面卡。
 6. 按卡组或标签整理。
 7. 用 FSRS 复习。

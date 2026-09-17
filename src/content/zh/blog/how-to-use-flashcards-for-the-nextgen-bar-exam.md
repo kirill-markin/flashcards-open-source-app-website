@@ -245,7 +245,7 @@ Performance task 更像是在约束条件下执行：你要读案卷，从资料
 
 ## Flashcards 在这套 NextGen 工作流里适合放在哪里
 
-如果你想把这套流程跑在 [Flashcards](https://flashcards-open-source-app.com/) 里，真正有用的地方并不是那种空泛的承诺，说 AI 会让学习更轻松。真正有用的，是这个产品已经支持了这套工作流最关键的中段：
+如果你想把这套流程跑在 [Nibomo](https://flashcards-open-source-app.com/) 里，真正有用的地方并不是那种空泛的承诺，说 AI 会让学习更轻松。真正有用的，是这个产品已经支持了这套工作流最关键的中段：
 
 - Web app 里的 AI chat
 - 面向大纲、练习笔记或复制来的解析的文件附件和纯文本上传

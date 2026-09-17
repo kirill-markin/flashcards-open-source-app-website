@@ -17,7 +17,7 @@ keywords:
 
 这类工作，本来就应该交给工具处理。
 
-在 [Flashcards](https://flashcards-open-source-app.com/) 里，我们现在提供了一套开源的代理登录流程，起点就是一个发现入口 URL：
+在 [Nibomo](https://flashcards-open-source-app.com/) 里，我们现在提供了一套开源的代理登录流程，起点就是一个发现入口 URL：
 
 `https://api.flashcards-open-source-app.com/v1/`
 

@@ -317,7 +317,7 @@ Step 1 复习本来就会呈现出一种很正常的不均匀状态。有些药�
 
 ## Flashcards 在 Step 1 工作流里的位置
 
-如果你想在 [Flashcards](https://flashcards-open-source-app.com/) 里用这套流程，它的价值并不是某种模糊的承诺，说 AI 会替你学会医学。
+如果你想在 [Nibomo](https://flashcards-open-source-app.com/) 里用这套流程，它的价值并不是某种模糊的承诺，说 AI 会替你学会医学。
 
 真正的价值在于，这个产品已经覆盖了流程里最实用的中间层：
 

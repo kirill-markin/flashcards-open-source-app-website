@@ -121,7 +121,7 @@ Anki 提供官方的[自托管同步服务器](https://docs.ankiweb.net/sync-ser
 
 ## 关于 Flashcards 与全栈控制
 
-> **披露：** 我是 Kirill Markin，也是 [Flashcards](https://flashcards-open-source-app.com/) 的开发者。它的[开源代码库采用 MIT 许可证](https://github.com/kirill-markin/flashcards-open-source-app)，涵盖 Web 应用、iOS 和 Android 客户端、身份验证、后端、同步功能以及 AWS 基础设施。相比 Anki 只覆盖同步的服务器，Flashcards 公开源码和支持自托管的范围更广。不过，Flashcards 也年轻得多，在成熟度、插件生态和 Anki 迁移保真度方面都更弱，因此不能默认认为它更好。
+> **披露：** 我是 Kirill Markin，也是 [Nibomo](https://flashcards-open-source-app.com/) 的开发者。它的[开源代码库采用 MIT 许可证](https://github.com/kirill-markin/flashcards-open-source-app)，涵盖 Web 应用、iOS 和 Android 客户端、身份验证、后端、同步功能以及 AWS 基础设施。相比 Anki 只覆盖同步的服务器，Nibomo 公开源码和支持自托管的范围更广。不过，Nibomo 也年轻得多，在成熟度、插件生态和 Anki 迁移保真度方面都更弱，因此不能默认认为它更好。
 
 Flashcards 提供了完整的 [AWS 全栈自托管文档](/zh/docs/self-hosting/)，但它并不是一条命令就能完成的通用部署方案。运营者需要负责 AWS、Cloudflare、身份验证、电子邮件发送、数据库恢复、监控和升级，还要单独构建与分发原生应用。[Flashcards 自托管指南](/zh/blog/self-hosted-open-source-flashcards-app-for-spaced-repetition/)提供了更简短的产品视角，[Anki 与 Flashcards 对比](/zh/blog/anki-vs-flashcards-open-source-app/)则详细介绍了成熟度和工作流程方面的取舍。
 
