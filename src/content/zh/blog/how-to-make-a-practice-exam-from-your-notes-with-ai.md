@@ -209,7 +209,7 @@ keywords:
 
 ## Flashcards 适合接在这里
 
-[Flashcards](/zh/features/) 很适合放在模拟考试之后。
+[Nibomo](/zh/features/) 很适合放在模拟考试之后。
 
 我不会把这个产品描述成一个“神奇的模拟考试生成器”。更准确的说法是：你先用自己喜欢的 AI 工具基于笔记生成模拟题，再把筛完之后留下来的那部分，接进 Flashcards。
 

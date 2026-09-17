@@ -191,7 +191,7 @@ FSRS 只会根据你给出的信号安排复习。它无法修复含糊的题面
 
 ## 四档 FSRS 评分如何用于 Flashcards
 
-[Flashcards Open Source App 的功能](/zh/features/)包括正反面卡片复习和 FSRS 排程。你提交 Again、Hard、Good 或 Easy，后端会根据这次复习计算下次到期时间。
+[Nibomo 的功能](/zh/features/)包括正反面卡片复习和 FSRS 排程。你提交 Again、Hard、Good 或 Easy，后端会根据这次复习计算下次到期时间。
 
 在这个流程里继续使用同样的两步：
 

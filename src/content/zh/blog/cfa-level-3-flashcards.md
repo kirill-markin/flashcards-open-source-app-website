@@ -182,7 +182,7 @@ CFA Institute 还说明，计算题只输入正确数值也可以拿到满分。
 
 ## Flashcards 适合放在学习流程的哪里
 
-[Flashcards](/) 负责主动回忆这一层，但不会替代课程教材、题组、论述题或模考。托管版网页应用支持正反面卡片、标签、通过 FSRS 复习到期卡，以及使用工作区数据和文件附件的 AI 对话。项目采用开源方式；代码库也包含 iOS 客户端，Android 应用则已发布到 Google Play。
+[Nibomo](/) 负责主动回忆这一层，但不会替代课程教材、题组、论述题或模考。托管版网页应用支持正反面卡片、标签、通过 FSRS 复习到期卡，以及使用工作区数据和文件附件的 AI 对话。项目采用开源方式；代码库也包含 iOS 客户端，Android 应用则已发布到 Google Play。
 
 先从最近几道暴露出可复用问题的练习错题开始。保存前编辑 AI 起草的卡片，复习到期内容，然后回到限时做题。当前的[功能页面](/features/)、[入门指南](/docs/getting-started/)和[源代码](https://github.com/kirill-markin/flashcards-open-source-app)准确展示了产品提供的功能。
 

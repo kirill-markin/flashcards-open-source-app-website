@@ -179,7 +179,7 @@ keywords:
 
 目标不是随意增加变化，而是混合那些外观相近、规则容易混用，或会在真实分析中同时出现的类别。学习时也要保留听音和演奏练习，但不能因为音频练习恰好排在书面卡片旁边，就把书面卡片称为听音训练。
 
-[用闪卡进行交错练习的指南](/zh/blog/how-to-use-interleaving-with-flashcards/)更详细地说明了如何从单一类别过渡到混合类别。Flashcards Open Source App 不会自动建立有意安排的对比组，需要你自己选择相近的题目。
+[用闪卡进行交错练习的指南](/zh/blog/how-to-use-interleaving-with-flashcards/)更详细地说明了如何从单一类别过渡到混合类别。Nibomo 不会自动建立有意安排的对比组，需要你自己选择相近的题目。
 
 ## 乐理闪卡该做多少张？
 
@@ -196,9 +196,9 @@ keywords:
 
 标签可以帮你临时组合出一小组对比卡，不必把每个细小类别都拆成单独卡组。如果卡片背面开始堆积多个定义、例外和示例，可以参考这篇更完整的[优质闪卡指南](/zh/blog/how-to-make-better-flashcards/)。
 
-## Flashcards Open Source App 在这套方法中能做什么
+## Nibomo 在这套方法中能做什么
 
-[Flashcards Open Source App](/zh/features/)提供正反面卡片、卡组和标签，并用 FSRS 安排到期复习，评分选项包括 `Again`、`Hard`、`Good` 和 `Easy`。它在 Web、iOS 和 Android 上采用离线优先设计。源代码以 MIT 许可证开放，并支持自托管。
+[Nibomo](/zh/features/)提供正反面卡片、卡组和标签，并用 FSRS 安排到期复习，评分选项包括 `Again`、`Hard`、`Good` 和 `Easy`。它在 Web、iOS 和 Android 上采用离线优先设计。源代码以 MIT 许可证开放，并支持自托管。
 
 AI 对话可以读取上传的文件或图片，根据课程页面或乐谱局部图起草候选卡片。保存之前，要根据课程采用的资料逐项核对音高、升降记号、符号和答案。应用不提供记谱编辑器、听音训练引擎、官方乐理课程或卡组、自动事实核验，也不会自动安排交错练习。这些工作仍要在课程材料和音乐实践中完成。
 

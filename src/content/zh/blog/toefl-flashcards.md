@@ -238,9 +238,9 @@ TOEFL 衡量的是综合语言能力。如果把整套课程、词汇书或练�
 
 整个备考计划中都要持续使用[官方 TOEFL 备考资源](https://www.ets.org/toefl/test-takers/ibt/prepare.html)。完整练习还能暴露时间分配和注意力问题，这些不是词汇复习队列能够发现的。
 
-## Flashcards Open Source App 在这套流程中负责什么
+## Nibomo 在这套流程中负责什么
 
-[Flashcards](/zh/)负责这套流程中的长期记忆环节。网页版支持正反面卡片和 FSRS 复习；AI 对话可使用工作区数据，也支持包括纯文本文件在内的附件。四个复习选项是 Again、Hard、Good 和 Easy。
+[Nibomo](/zh/)负责这套流程中的长期记忆环节。网页版支持正反面卡片和 FSRS 复习；AI 对话可使用工作区数据，也支持包括纯文本文件在内的附件。四个复习选项是 Again、Hard、Good 和 Easy。
 
 一套稳妥的流程是：
 

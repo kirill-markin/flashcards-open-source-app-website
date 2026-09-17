@@ -243,7 +243,7 @@ AP Psychology 的备考通常不会很平滑。有些天你能完整做完一个
 
 ## Flashcards 在 AP Psychology 工作流里适合放在哪一段
 
-如果你想把这套流程放进 [Flashcards](https://flashcards-open-source-app.com/) 里，真正有用的地方，不是某种模糊的承诺，说 AI 会神奇地帮你把 AP Psych 全都学完。
+如果你想把这套流程放进 [Nibomo](https://flashcards-open-source-app.com/) 里，真正有用的地方，不是某种模糊的承诺，说 AI 会神奇地帮你把 AP Psych 全都学完。
 
 真正有用的是，这个产品已经能承接这套工作流中间最关键的那一段：
 

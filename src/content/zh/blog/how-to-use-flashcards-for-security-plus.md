@@ -342,7 +342,7 @@ FSRS 在这里之所以有效，是因为卡片本身已经满足这些条件：
 
 ## Flashcards 很适合承接这套流程
 
-[Flashcards](https://flashcards-open-source-app.com/) 很适合用来做 **Security+ flashcards**，因为这个产品本身已经符合这套流程，而不需要你在 5 个工具之间临时拼接。
+[Nibomo](https://flashcards-open-source-app.com/) 很适合用来做 **Security+ flashcards**，因为这个产品本身已经符合这套流程，而不需要你在 5 个工具之间临时拼接。
 
 你可以用到：
 

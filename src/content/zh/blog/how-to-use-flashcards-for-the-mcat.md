@@ -285,7 +285,7 @@ FSRS 在这里有用，是因为有些知识点记得很快，有些却会反复
 
 ## Flashcards 在这套 MCAT 流程里适合做什么
 
-[Flashcards](https://flashcards-open-source-app.com/) 很适合这种 MCAT 流程，因为它覆盖了学生最常被迫拆散到多个工具里的那些环节。
+[Nibomo](https://flashcards-open-source-app.com/) 很适合这种 MCAT 流程，因为它覆盖了学生最常被迫拆散到多个工具里的那些环节。
 
 这个产品已经具备这套流程真正需要的组件：
 
@@ -322,4 +322,4 @@ FSRS 在这里有用，是因为有些知识点记得很快，有些却会反复
 
 这才是通常能在真实备考中撑得住的 **MCAT flashcards** 版本：它不是整场考试的万能答案，也绝对不能替代 CARS 的篇章训练；但对那些你不想在高压环境下重新现学的事实、区别和错误模式来说，它是一套足够耐用的系统。
 
-如果你想把整套流程放进一个开源栈里，[Flashcards](https://flashcards-open-source-app.com/) 提供了一条很实际的路径：从笔记或上传内容起草卡片，保留真正有价值的卡，再让 FSRS 处理复习节奏，而你把注意力留给真正的 MCAT 练习。
+如果你想把整套流程放进一个开源栈里，[Nibomo](https://flashcards-open-source-app.com/) 提供了一条很实际的路径：从笔记或上传内容起草卡片，保留真正有价值的卡，再让 FSRS 处理复习节奏，而你把注意力留给真正的 MCAT 练习。

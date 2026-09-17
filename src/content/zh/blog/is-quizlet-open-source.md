@@ -128,7 +128,7 @@ Quizlet 的官方 GitHub 组织和公开文档都没有提供受支持的完整 
 
 ## 披露：我在开发一款开源替代产品
 
-> **披露：** 我是 Kirill Markin，也是 [Flashcards Open Source App](/zh/features/) 的开发者。它采用 [MIT 许可证的仓库](https://github.com/kirill-markin/flashcards-open-source-app)，包含完整的 Web、iOS、Android、身份验证、后端、同步和基础设施技术栈。它公开源码的范围与 Quizlet 不同，但并不因此成为可以直接替换 Quizlet 的产品。
+> **披露：** 我是 Kirill Markin，也是 [Nibomo](/zh/features/) 的开发者。它采用 [MIT 许可证的仓库](https://github.com/kirill-markin/flashcards-open-source-app)，包含完整的 Web、iOS、Android、身份验证、后端、同步和基础设施技术栈。它公开源码的范围与 Quizlet 不同，但并不因此成为可以直接替换 Quizlet 的产品。
 
 Flashcards 提供了一套以 AWS 为核心的[自托管指南](/zh/docs/self-hosting/)，而不是一键运行的本地安装程序。部署者需要自行负责云账户、身份验证、邮件发送、监控、备份、升级和原生应用构建。
 

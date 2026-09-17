@@ -250,9 +250,9 @@ Voice 让练习变得更容易，于是人们开始收集超出自己现实能�
 
 - [2026 年 FSRS vs SM-2](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
 
-## 为什么 Flashcards Open Source App 很适合
+## 为什么 Nibomo 很适合
 
-[Flashcards Open Source App](https://flashcards-open-source-app.com/) 很适合这套工作流，因为它本来就和 voice-based language practice 真正需要的东西对齐：
+[Nibomo](https://flashcards-open-source-app.com/) 很适合这套工作流，因为它本来就和 voice-based language practice 真正需要的东西对齐：
 
 - 干净的 front/back 卡片创建
 - 用于长期复习的 FSRS 排程
@@ -284,7 +284,7 @@ Flashcards 则保留那些你差一点就说出来、但还没真正掌握的语
 
 如果你想要的就是这种工作流，可以从这里开始：
 
-- [打开 Flashcards Open Source App](https://flashcards-open-source-app.com/)
+- [打开 Nibomo](https://flashcards-open-source-app.com/)
 - [阅读入门指南](https://flashcards-open-source-app.com/docs/getting-started/)
 - [阅读 API 文档](https://flashcards-open-source-app.com/docs/api/)
 - [在 GitHub 上查看源码](https://github.com/kirill-markin/flashcards-open-source-app)

@@ -265,7 +265,7 @@ Level II 备考本来就已经有很多变量了。排程器应该让系统安�
 
 ## Flashcards 在这个工作流里适合做什么
 
-[Flashcards Open Source App](/zh/) 很适合这套工作流，因为 Level II 考生真正需要的那些东西，它本来就集中在同一个地方：
+[Nibomo](/zh/) 很适合这套工作流，因为 Level II 考生真正需要的那些东西，它本来就集中在同一个地方：
 
 - 可以保持精简的正反面卡片
 - 用来跟踪 topic、LOS 和 mock-miss 的标签

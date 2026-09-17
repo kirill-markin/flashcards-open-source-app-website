@@ -237,7 +237,7 @@ FSRS 最适合处理的，正是这种情况。
 
 ## Flashcards 在这套 AP Biology 工作流里适合放在哪一段
 
-如果你想把这套流程放进 [Flashcards](https://flashcards-open-source-app.com/) 里，真正有用的地方，并不是某种模糊的承诺，说 AI 会神奇地帮你把生物全学会。
+如果你想把这套流程放进 [Nibomo](https://flashcards-open-source-app.com/) 里，真正有用的地方，并不是某种模糊的承诺，说 AI 会神奇地帮你把生物全学会。
 
 真正有用的是，这个产品已经覆盖了这套工作流里最混乱、却也最关键的中段：
 

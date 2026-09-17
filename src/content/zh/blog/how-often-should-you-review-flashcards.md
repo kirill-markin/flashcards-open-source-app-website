@@ -51,7 +51,7 @@ keywords:
 
 FSRS 是一种间隔重复调度器。每次复习后，它会更新这张卡的记忆状态模型，再计算一个新的间隔。你需要先真正尝试作答，再翻开答案，并诚实选择 Again、Hard、Good 或 Easy；这些操作会为系统提供有效信号。
 
-Flashcards Open Source App 目前使用 FSRS-6，默认期望记忆保持率为 `0.90`。计算长期复习间隔时，会用到卡片当前的稳定性、距上次复习已经过去的日历天数、目标记忆保持率、最大间隔和确定性间隔扰动（fuzz）。新卡可能先经过较短的学习步骤，再进入长期复习；成熟卡回忆失败后，则可能先经过重新学习步骤，再回到长期复习。这些产品特有的行为详见公开的 [FSRS 调度逻辑权威文档](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/docs/fsrs-scheduling-logic.md)。
+Nibomo 目前使用 FSRS-6，默认期望记忆保持率为 `0.90`。计算长期复习间隔时，会用到卡片当前的稳定性、距上次复习已经过去的日历天数、目标记忆保持率、最大间隔和确定性间隔扰动（fuzz）。新卡可能先经过较短的学习步骤，再进入长期复习；成熟卡回忆失败后，则可能先经过重新学习步骤，再回到长期复习。这些产品特有的行为详见公开的 [FSRS 调度逻辑权威文档](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/docs/fsrs-scheduling-logic.md)。
 
 说得直白一点：
 

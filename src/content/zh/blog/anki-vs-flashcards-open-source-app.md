@@ -1,23 +1,23 @@
 ---
 title: "Anki vs Flashcards（2026）：哪款应用更适合你？"
-description: "切换之前，先从 FSRS、离线使用、移动端、AI、迁移、自托管和数据控制等方面对比 Anki 与 Flashcards Open Source App。"
+description: "切换之前，先从 FSRS、离线使用、移动端、AI、迁移、自托管和数据控制等方面对比 Anki 与 Nibomo。"
 date: "2026-04-25"
 updated: "2026-08-23"
 image: "/blog/anki-vs-flashcards-open-source-app-v2.png"
 keywords:
   - "Anki vs Flashcards"
-  - "Anki 与 Flashcards Open Source App 对比"
+  - "Anki 与 Nibomo 对比"
   - "Anki 替代品"
   - "开源 Anki 替代品"
   - "FSRS 闪卡应用"
   - "自托管闪卡应用"
 ---
 
-如果你的卡片和复习历史早已积累在 Anki 里，换应用首先是数据迁移问题，然后才轮到设计偏好。Anki 可以连同调度数据和媒体一起导出单个牌组，也可以导出整个集合。Flashcards Open Source App 无法导入 Anki 的 `.apkg` 或 `.colpkg` 包，所以它虽然能帮你重建简单的卡片内容，却无法延续你现有的复习队列。
+如果你的卡片和复习历史早已积累在 Anki 里，换应用首先是数据迁移问题，然后才轮到设计偏好。Anki 可以连同调度数据和媒体一起导出单个牌组，也可以导出整个集合。Nibomo 无法导入 Anki 的 `.apkg` 或 `.colpkg` 包，所以它虽然能帮你重建简单的卡片内容，却无法延续你现有的复习队列。
 
 大多数 **Anki vs Flashcards** 对比，最终都取决于这条边界。如果你最看重集合保真度、模板、插件、共享牌组或已经稳定下来的复习习惯，就继续使用 Anki。如果你可以从全新牌组或以文本为主的牌组开始，而且更在意完整技术栈的源代码、离线优先同步、内置 AI 或 AI 智能体工作流，可以试试 Flashcards。
 
-> **披露：** 我是 Kirill Markin，也是 [Flashcards](https://flashcards-open-source-app.com/) 的开发者。我与这个产品有直接利益关系，因此凡是 Flashcards 暂时无法复现的工作流，本文都默认推荐 Anki。
+> **披露：** 我是 Kirill Markin，也是 [Nibomo](https://flashcards-open-source-app.com/) 的开发者。我与这个产品有直接利益关系，因此凡是 Nibomo 暂时无法复现的工作流，本文都默认推荐 Anki。
 
 **事实核实日期：** 2026 年 8 月 23 日。
 
@@ -25,15 +25,15 @@ keywords:
 
 ## 快速结论
 
-| 你的核心要求 | Anki | Flashcards Open Source App | 目前更适合 |
+| 你的核心要求 | Anki | Nibomo | 目前更适合 |
 | --- | --- | --- | --- |
 | 你需要完整保留复杂集合及其复习历史 | `.colpkg` 会保留完整集合和调度信息；`.apkg` 可以包含复习历史、牌组选项组和媒体 | 不支持直接导入 Anki 包；Anki 文本导出文件只能变成经你审核的卡片草稿，无法忠实迁移整个集合 | **Anki** |
 | 你想使用 FSRS | 支持 FSRS，可根据复习历史优化参数、设置目标保留率，并使用牌组选项组 | Web、iOS、Android 和后端都使用锁定的 FSRS-6 权重；工作区设置不会根据你的复习记录优化权重 | **两者皆可**；Anki 在个性化优化和调度连续性方面更强 |
 | 你会在没有网络时学习 | 已安装的桌面端、iOS 和 Android 客户端会在本地保存集合；AnkiWeb 仍然只能在线使用 | Web、iOS 和 Android 会先把卡片与复习变更写入本地；登录、首次数据加载、同步、AI 和未缓存的媒体都需要联网 | **两者皆可**，但应先用你实际的设备和媒体做测试 |
 | 你依赖模板、插件或共享牌组 | 官方工作流成熟深入，社区生态庞大 | 以正面/背面卡片为核心；没有同等规模的插件或共享牌组生态 | **Anki** |
-| 你想要内置 AI 和 AI 智能体接入 | 可通过第三方插件和集成实现 | AI 对话可读取工作区上下文和文件，另外还提供 MCP 与公共 Agent API | **Flashcards** |
+| 你想要内置 AI 和 AI 智能体接入 | 可通过第三方插件和集成实现 | AI 对话可读取工作区上下文和文件，另外还提供 MCP 与公共 Agent API | **Nibomo** |
 | 你想控制服务器 | 官方自托管服务器可以接管集合与媒体同步 | 文档完备的 AWS 部署涵盖 Web、身份验证、后端、同步、AI worker 和基础设施 | 取决于你只需要**同步**，还是需要**整个技术栈** |
-| 你想获得完整客户端与服务栈的源代码 | Anki 桌面端和同步服务器的源代码公开；AnkiDroid 是独立的公开项目；完整的 AnkiMobile 和 AnkiWeb 源代码并未公开 | Web、iOS、Android、身份验证、后端、同步、AI 智能体接口和基础设施都在同一个采用 MIT 许可证的仓库中 | **Flashcards** |
+| 你想获得完整客户端与服务栈的源代码 | Anki 桌面端和同步服务器的源代码公开；AnkiDroid 是独立的公开项目；完整的 AnkiMobile 和 AnkiWeb 源代码并未公开 | Web、iOS、Android、身份验证、后端、同步、AI 智能体接口和基础设施都在同一个采用 MIT 许可证的仓库中 | **Nibomo** |
 
 对于已经认真使用 Anki 的用户，最稳妥的答案通常还是留在 Anki。只有当 Flashcards 不同的能力边界确实解决了某个实际问题时，它才值得一试，而不是仅仅因为界面更新。
 
@@ -150,6 +150,6 @@ Flashcards 可以导入和导出自己的[便携式 `flashcards.zip` 工作区�
 
 ## 实际结论
 
-对于大多数已有成熟学习流程、正在比较 **Anki vs Flashcards Open Source App** 的用户，Anki 仍应是主力应用。它的集合模型、迁移保真度、自定义能力和生态系统都更强，同时已经具备 FSRS 和可靠的离线客户端。
+对于大多数已有成熟学习流程、正在比较 **Anki vs Nibomo** 的用户，Anki 仍应是主力应用。它的集合模型、迁移保真度、自定义能力和生态系统都更强，同时已经具备 FSRS 和可靠的离线客户端。
 
 对另一小部分用户来说，Flashcards 是一个可信的开源 Anki 替代品：他们愿意接受调度历史从头开始，以换取完整技术栈的源代码、已经发布的 Web 端和原生应用、离线优先同步、内置 AI 以及 AI 智能体工作流。先用一个有代表性的牌组验证这项取舍。如果你想摆脱的那项限制确实被解决了，再逐步扩大使用范围。

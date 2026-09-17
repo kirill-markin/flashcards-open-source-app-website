@@ -16,7 +16,7 @@ Flashcard Lab 从一张熟悉的表格开始：第一列写问题，第二列写
 
 这篇 **Flashcard Lab 应用评测**依据产品网站、当前的 Android 和 iPhone 商店页面、Chrome 应用商店、Google Workspace Marketplace 以及厂商的隐私政策撰写，并非亲自上手测试。官方资料清楚介绍了内容编写、采集、打印和复习功能，但一些重要的产品行为仍没有文档说明。
 
-> **利益披露：** 我是 Kirill Markin，也是本文所列替代产品之一 [Flashcards Open Source App](/zh/features/) 的开发者。Flashcard Lab 以电子表格为核心的工作流更出色。如果你更看重专门的正反面卡片工作区、有文档说明的 FSRS-6、离线优先的本地写入、MIT 许可源代码或全栈自托管，而不是 Google Sheets 集成，那么 Flashcards 更有优势。Anki 仍是面向高级用户的成熟本地工具标杆。
+> **利益披露：** 我是 Kirill Markin，也是本文所列替代产品之一 [Nibomo](/zh/features/) 的开发者。Flashcard Lab 以电子表格为核心的工作流更出色。如果你更看重专门的正反面卡片工作区、有文档说明的 FSRS-6、离线优先的本地写入、MIT 许可源代码或全栈自托管，而不是 Google Sheets 集成，那么 Nibomo 更有优势。Anki 仍是面向高级用户的成熟本地工具标杆。
 
 **事实核查日期：** 2026 年 8 月 12 日。下文价格是当天公开可见的美国 App Store 价格。税费、地区定价、促销、插件结账页价格和未来测试版的条款可能有所不同。
 
@@ -25,14 +25,14 @@ Flashcard Lab 从一张熟悉的表格开始：第一列写问题，第二列写
 ## 先说结论
 
 - 如果你希望在 Google Sheets 中创建和维护卡片，选择 **Flashcard Lab**。浏览器采集、电子表格批量编辑、移动端复习和 Google Docs 打印共同组成了一套实用工作流。
-- 如果你想在非 Google 工作区中使用正面、背面分开的卡片，同时需要有文档说明的 FSRS-6、离线优先写入、开源代码和受支持的自托管路径，选择 **Flashcards Open Source App**。它没有实时 Google Sheets 集成。
+- 如果你想在非 Google 工作区中使用正面、背面分开的卡片，同时需要有文档说明的 FSRS-6、离线优先写入、开源代码和受支持的自托管路径，选择 **Nibomo**。它没有实时 Google Sheets 集成。
 - 如果你需要成熟的桌面客户端、高级笔记类型和模板、插件、成熟的集合包格式，或更深入的 FSRS 控制，选择 **Anki**。
 
 没有哪款产品天然胜出。真正决定选择的是：学习资料的主版本应该放在哪里——Google Sheet、专用的开放工作区，还是成熟的本地集合。
 
 ## Flashcard Lab、Flashcards 与 Anki 对比
 
-| 决策项 | Flashcard Lab | Flashcards Open Source App | Anki |
+| 决策项 | Flashcard Lab | Nibomo | Anki |
 | --- | --- | --- | --- |
 | 最适合 | 用电子表格编写内容、通过浏览器采集、用 Google Docs 打印，以及简单复习 | 在开放的 Web 和移动技术栈中专注学习正反面卡片 | 使用模板、插件并支持多种迁移方式的成熟本地闪卡系统 |
 | 资料主版本 | Google Sheet 中的行提供问题、答案和可选补充文字 | 工作区卡片保存明确的正面、背面、标签、牌组、媒体和调度状态 | 本地集合保存笔记、字段、生成的卡片、媒体和调度数据 |
@@ -80,7 +80,7 @@ Chrome 扩展可以通过右键菜单保存选中的文字，并获取释义。�
 
 通过 Google Docs 打印，对教师、课堂分站学习、实体卡片分类活动，以及学习时无法使用设备的学习者都很实用。Flashcard Lab 能把 Sheet 转成可打印卡片，无需截图，也不用再借助另一套排版工具。
 
-如果从 Sheets 到 Docs 的打印是核心需求，Flashcard Lab 显然最合适。Flashcards Open Source App 没有对应的工作流，而打印也不是大多数人选择 Anki 的理由。
+如果从 Sheets 到 Docs 的打印是核心需求，Flashcard Lab 显然最合适。Nibomo 没有对应的工作流，而打印也不是大多数人选择 Anki 的理由。
 
 ## 有间隔重复，但公式并未公开
 
@@ -142,7 +142,7 @@ Marketplace 权限页面显示，Flashcard Lab 可以请求以下访问权限：
 
 官方资料并未证明复习历史、间隔重复状态、测试结果、图片行为、购买项目或每项应用设置都保存在 Sheet 中。原样保留一份副本可以保护可见的卡片内容，但这份副本并不会自动成为完整的 Flashcard Lab 备份。
 
-也无法无损迁移到 Flashcards Open Source App。Flashcards 没有实时 Google Sheets 集成，也没有 Flashcard Lab 导入工具。CSV、电子表格导出文件或作为附件上传的电子表格可以用作 AI 辅助生成卡片初稿的源资料，但初稿需要检查，而且会从新的 FSRS 状态开始。把电子表格作为附件上传，不等于让卡片继续与实时 Sheet 保持关联。
+也无法无损迁移到 Nibomo。Nibomo 没有实时 Google Sheets 集成，也没有 Flashcard Lab 导入工具。CSV、电子表格导出文件或作为附件上传的电子表格可以用作 AI 辅助生成卡片初稿的源资料，但初稿需要检查，而且会从新的 FSRS 状态开始。把电子表格作为附件上传，不等于让卡片继续与实时 Sheet 保持关联。
 
 Anki 提供了更传统的迁移方式，它可以[把分隔符文本导入笔记字段](https://docs.ankiweb.net/importing/text-files.html)。你仍需要映射各列、决定如何处理可选补充文字、检查媒体；除非受支持的格式明确包含历史记录，否则应做好从新的调度状态开始的准备。Google Sheet 并不是 Anki 集合包。
 

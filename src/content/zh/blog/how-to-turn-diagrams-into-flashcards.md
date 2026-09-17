@@ -294,7 +294,7 @@ Quizlet 至今仍保留专门的图示学习流程，这本身就说明需求是
 
 ## Flashcards 为什么适合这件事
 
-[Flashcards](https://flashcards-open-source-app.com/) 很适合 **把图示做成抽认卡** 这种工作流，因为这个产品已经具备了这套流程真正需要的要素：
+[Nibomo](https://flashcards-open-source-app.com/) 很适合 **把图示做成抽认卡** 这种工作流，因为这个产品已经具备了这套流程真正需要的要素：
 
 - AI 聊天
 - 图片和文件附件

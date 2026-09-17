@@ -21,7 +21,7 @@ keywords:
 
 下文使用的标签和功能行为均对应 [Anki 26.08 版本](https://github.com/ankitects/anki/releases/tag/26.08)及其中的 FSRS-6 设置。如果你还不了解模型本身，可以先读[什么是 FSRS？](/blog/what-is-fsrs/)；如果还在选择调度算法，可以先看 [FSRS 与 SM-2 对比](/blog/fsrs-vs-sm-2/)。
 
-> **披露：** 我是 Kirill Markin，也是 [Flashcards Open Source App](/features/) 的开发者。Anki 提供个性化参数拟合和实验性的工作量模拟器，目前 Flashcards 还没有这些功能。文末的对比会明确列出这些差异。
+> **披露：** 我是 Kirill Markin，也是 [Nibomo](/features/) 的开发者。Anki 提供个性化参数拟合和实验性的工作量模拟器，目前 Nibomo 还没有这些功能。文末的对比会明确列出这些差异。
 
 **事实核查日期：** 2026 年 9 月 8 日。
 
@@ -191,9 +191,9 @@ FSRS 可以把复习任务分散开，却无法让无限加入新卡这件事变
 
 ## Anki 与 Flashcards 提供的 FSRS 控制项不同
 
-两款产品都使用 FSRS-6，但 Anki 的 FSRS 设置无法与 Flashcards Open Source App 逐项对应。
+两款产品都使用 FSRS-6，但 Anki 的 FSRS 设置无法与 Nibomo 逐项对应。
 
-| 功能 | Anki 26.08 | Flashcards Open Source App |
+| 功能 | Anki 26.08 | Nibomo |
 | --- | --- | --- |
 | **Desired retention**（目标记忆率） | **Shared Preset** 或 **This deck** | 可按工作区配置；默认值为 `0.90` |
 | FSRS 参数 | 根据复习历史使用 **Optimize Current Preset** 或 **Optimize All Presets** | 固定采用 FSRS-6 官方默认权重，v1 不允许用户配置 |
