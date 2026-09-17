@@ -1,6 +1,6 @@
 # flashcards-open-source-app-website
 
-Marketing website for Flashcards Open Source App. Static Next.js site deployed on Vercel.
+Marketing website for Nibomo. Static Next.js site deployed on Vercel.
 
 **Git Workflow**: commit directly to `main`; deploy is automatic after push.
 

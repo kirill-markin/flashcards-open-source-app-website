@@ -60,7 +60,7 @@ export function GET(): ImageResponse {
             letterSpacing: "-0.02em",
           }}
         >
-          Flashcards
+          Nibomo
         </div>
         <div
           style={{

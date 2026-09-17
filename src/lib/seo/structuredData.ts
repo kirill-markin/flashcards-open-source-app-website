@@ -127,7 +127,11 @@ function createWebsiteStructuredData(
     "@type": "WebSite",
     url: SITE_URL,
     name: SITE_NAME,
-    alternateName: ["Flashcards Open Source App", "Open Source Flashcards App"],
+    alternateName: [
+      "Flashcards Open Source App",
+      "Open Source Flashcards App",
+      "Flashcards",
+    ],
     description: params.description,
     inLanguage: params.locale,
     about: SOFTWARE_REFERENCE,
