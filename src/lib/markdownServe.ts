@@ -511,7 +511,7 @@ export function renderLlmsText(
     ? ""
     : `\n\n## Public Catalog\n\n${renderPublicCatalogLlmsSection(publicCatalog)}`;
 
-  return `# Flashcards
+  return `# Nibomo
 
 > Open-source flashcards app with spaced repetition, web and iOS clients, agent-ready onboarding, and a self-hosted AWS/Postgres deployment path.
 
