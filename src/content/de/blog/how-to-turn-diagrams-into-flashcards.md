@@ -294,7 +294,7 @@ Wenn du zehn Diagramme gleichzeitig hochlädst, wirft das Modell schnell alles i
 
 ## Wo Flashcards gut passt
 
-[Flashcards](https://flashcards-open-source-app.com/) passt gut zu einem Vorgehen, bei dem du **Diagramme in Flashcards umwandelst**, weil das Produkt die Bausteine bereits mitbringt, die du dafür brauchst:
+[Nibomo](https://flashcards-open-source-app.com/) passt gut zu einem Vorgehen, bei dem du **Diagramme in Flashcards umwandelst**, weil das Produkt die Bausteine bereits mitbringt, die du dafür brauchst:
 
 - KI-Chat
 - Bild- und Datei-Anhänge

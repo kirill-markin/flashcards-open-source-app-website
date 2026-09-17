@@ -157,9 +157,9 @@ Am Tag vor dem Prüfungstermin:
 
 Prüfe außerdem die Vorgaben des Prüfungsanbieters zu Ausweis, Anmeldung, Gebühr, Taschenrechner und Ablauf des Termins. Auf diesen organisatorischen Teil können dich Lernkarten nicht vorbereiten.
 
-## Wobei Flashcards Open Source App hilft
+## Wobei Nibomo hilft
 
-[Flashcards Open Source App](/features/) kann Karten mit Vorder- und Rückseite speichern, sie in Decks und mit Tags ordnen und Wiederholungen mit FSRS planen. Damit deckt sie den Abrufteil dieses Lernablaufs ab.
+[Nibomo](/features/) kann Karten mit Vorder- und Rückseite speichern, sie in Decks und mit Tags ordnen und Wiederholungen mit FSRS planen. Damit deckt die App den Abrufteil dieses Lernablaufs ab.
 
 Die App steht in keiner Verbindung zur FCC, zu NCVEC oder ARRL. Sie enthält kein offizielles Technician-Deck, importiert den Fragenpool nicht, prüft deine Erklärungen nicht, stellt die offiziellen Abbildungen nicht bereit und erstellt keine Technician-Lizenzprüfung mit 35 Fragen. Du erstellst und prüfst die Karteninhalte selbst. Nutze für die Prüfungssimulation einen etablierten Übungsdienst, der mit dem aktuellen Pool arbeitet.
 

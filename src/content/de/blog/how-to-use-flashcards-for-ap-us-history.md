@@ -226,7 +226,7 @@ Wenn du von einem großen Premade Deck oder einem älteren **APUSH Anki**-Setup 
 
 ## Wo Flashcards in einen APUSH-Workflow hineinpassen
 
-Wenn du das Ganze in [Flashcards](https://flashcards-open-source-app.com/) nutzen willst, liegt der nützliche Teil nicht in irgendeinem großen Versprechen, dass die App APUSH schon irgendwie für dich erledigt.
+Wenn du das Ganze in [Nibomo](https://flashcards-open-source-app.com/) nutzen willst, liegt der nützliche Teil nicht in irgendeinem großen Versprechen, dass die App APUSH schon irgendwie für dich erledigt.
 
 Nützlich ist, dass das Produkt bereits gut zur unordentlichen Mitte dieses Workflows passt:
 

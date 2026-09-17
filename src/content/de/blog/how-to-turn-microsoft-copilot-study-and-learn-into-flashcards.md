@@ -1,6 +1,6 @@
 ---
 title: "So machst du 2026 aus Microsoft Copilot Study and Learn sinnvolle Flashcards: Tutor behalten, mit FSRS wiederholen"
-description: "Nutze Microsoft Copilot Study and Learn mit eigenen Word-Dokumenten, PDFs, Folien und URLs und übertrage danach nur die echten Schwachstellen in die Flashcards Open Source App, um sie mit FSRS wiederholt abzurufen."
+description: "Nutze Microsoft Copilot Study and Learn mit eigenen Word-Dokumenten, PDFs, Folien und URLs und übertrage danach nur die echten Schwachstellen in Nibomo, um sie mit FSRS wiederholt abzurufen."
 date: "2026-06-09"
 image: "/blog/how-to-turn-microsoft-copilot-study-and-learn-into-flashcards.png"
 keywords:
@@ -18,7 +18,7 @@ Gestern habe ich Microsoft 365 Copilot geöffnet, einen PowerPoint-Foliensatz un
 
 Genau darum geht es bei **Microsoft Copilot Study and Learn Flashcards**. Die geführte Sitzung kann dir beim Verstehen helfen. Sie wird aber nicht automatisch zu einem verlässlichen Erinnerungssystem, nur weil sich der Chat klug angefühlt hat.
 
-Der Workflow, dem ich hier vertraue, ist ziemlich eng gefasst: Nutze Study and Learn als Tutor für dein eigenes Material, halte Fehler und langsame Antworten fest und verschiebe nur diese Schwachstellen in die Flashcards Open Source App, wo du sie mit FSRS wiederholst.
+Der Workflow, dem ich hier vertraue, ist ziemlich eng gefasst: Nutze Study and Learn als Tutor für dein eigenes Material, halte Fehler und langsame Antworten fest und verschiebe nur diese Schwachstellen in Nibomo, wo du sie mit FSRS wiederholst.
 
 ![Microsoft Copilot Study and Learn mit Word, PowerPoint, PDF und Flashcards zur Wiederholung mit FSRS](/blog/how-to-turn-microsoft-copilot-study-and-learn-into-flashcards.png)
 
@@ -119,7 +119,7 @@ So würde ich das in einer normalen Lernwoche tatsächlich einsetzen:
 3. Bitte Copilot, dich Schritt für Schritt zu unterrichten und dich abzufragen, bevor es zu viel erklärt.
 4. Führe eine winzige Notizliste mit Fehlern, langsamen Antworten und Verwechslungen.
 5. Bitte Copilot am Ende nur um eine kurze Zusammenfassung dieser Schwachstellen, plus Datei oder Abschnitt, aus dem jede Schwachstelle stammt.
-6. Verschiebe nur diese Schwachstellen in die Flashcards Open Source App.
+6. Verschiebe nur diese Schwachstellen in Nibomo.
 7. Mache aus jeder Schwachstelle genau eine saubere Vorderseite-Rückseite-Karte.
 8. Wiederhole die finalen Karten mit FSRS.
 
@@ -159,7 +159,7 @@ Wenn du nach der Übergabe strengere Regeln fürs Kartenschreiben willst, geht [
 
 ## Flashcards ist die dauerhafte Ebene nach Copilot
 
-[Flashcards Open Source App](/de/features/) soll Study and Learn nicht ersetzen.
+[Nibomo](/de/features/) soll Study and Learn nicht ersetzen.
 
 Copilot darf den Coaching-Teil behalten. Flashcards übernimmt den langfristigen Wiederholungsteil.
 
@@ -195,6 +195,6 @@ Nutze es als Tutor auf Basis deiner eigenen Word-Dokumente, Folien, PDFs, URLs u
 
 Und dann werde streng.
 
-Nimm die Schwachstellen, die wirklich relevant sind, verschiebe sie in die Flashcards Open Source App, bereinige sie zu schlichten Karten und lass FSRS den Teil übernehmen, für den Copilot gar nicht gebaut ist: den Stoff auch dann noch im Kopf zu halten, wenn die Sitzung längst vorbei ist.
+Nimm die Schwachstellen, die wirklich relevant sind, verschiebe sie in Nibomo, bereinige sie zu schlichten Karten und lass FSRS den Teil übernehmen, für den Copilot gar nicht gebaut ist: den Stoff auch dann noch im Kopf zu halten, wenn die Sitzung längst vorbei ist.
 
 Das ist die praktische Antwort auf **wie man Microsoft Copilot Study and Learn in Flashcards verwandelt**. Behalte den Microsoft-Tutor. Halte das Kartenset klein. Lass die Gedächtnisebene dort leben, wo Wiederholung wirklich zuhause ist.

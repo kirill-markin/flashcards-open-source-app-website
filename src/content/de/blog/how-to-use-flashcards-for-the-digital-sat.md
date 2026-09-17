@@ -260,7 +260,7 @@ Wenn du die Planungsseite ausführlicher willst, passen diese beiden Artikel am 
 
 ## Wie Flashcards in diesen Digital-SAT-Workflow passt
 
-[Flashcards](https://flashcards-open-source-app.com/) passt gut zu **Digital SAT Flashcards**, weil das aktuelle Produkt die Teile bereits unterstützt, von denen dieser Workflow abhängt:
+[Nibomo](https://flashcards-open-source-app.com/) passt gut zu **Digital SAT Flashcards**, weil das aktuelle Produkt die Teile bereits unterstützt, von denen dieser Workflow abhängt:
 
 - Karten im Vorder-/Rückseitenformat erstellen und bearbeiten
 - KI-Chat, um aus Notizen, eingefügten Erklärungen oder der Nachbereitung von Übungstests Kartenentwürfe zu erstellen

@@ -229,7 +229,7 @@ Wenn du den Scheduling-Teil genauer verstehen willst, geht dieser Artikel tiefer
 
 ## Wo Flashcards in diesen Workflow passt
 
-[Flashcards](https://flashcards-open-source-app.com/) passt gut zu diesem Workflow, weil das Produkt die praktischen Teile bereits abdeckt:
+[Nibomo](https://flashcards-open-source-app.com/) passt gut zu diesem Workflow, weil das Produkt die praktischen Teile bereits abdeckt:
 
 - Text aus exportierten Highlights einfügen oder hochladen
 - das Material im KI-Chat bereinigen, bevor Karten entstehen

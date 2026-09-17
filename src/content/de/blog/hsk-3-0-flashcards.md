@@ -233,9 +233,9 @@ Lernkarten helfen dir, die Vokabel, das Schriftzeichen, die Konstruktion oder di
 
 Diese Grenze hält auch das Deck kleiner. Eine übersehene Vokabel braucht vielleicht eine Karte. Ein Konzentrationstief nach 30 Minuten braucht meistens einen längeren Übungsblock und keine Erinnerung mit dem Text `konzentrieren`.
 
-## Wie Flashcards Open Source App in den Lernplan passt
+## Wie Nibomo in den Lernplan passt
 
-[Flashcards Open Source App](/) übernimmt in deinem Lernplan den Teil fürs langfristige Behalten. Du kannst Karten mit Vorder- und Rückseite erstellen und bearbeiten, fällige Karten wiederholen und deine Antworten mit Again, Hard, Good und Easy bewerten. FSRS plant die nächsten Wiederholungen. Der Kern ist kostenlos und Open Source.
+[Nibomo](/) übernimmt in deinem Lernplan den Teil fürs langfristige Behalten. Du kannst Karten mit Vorder- und Rückseite erstellen und bearbeiten, fällige Karten wiederholen und deine Antworten mit Again, Hard, Good und Easy bewerten. FSRS plant die nächsten Wiederholungen. Der Kern ist kostenlos und Open Source.
 
 Ein praktischer Ablauf sieht so aus:
 

@@ -187,7 +187,7 @@ Wenn die Karten schon existieren und sich bereits zu vage anfühlen, ist [Wie du
 
 ## Wo Flashcards nach der Bereinigung hineinpasst
 
-Sobald der Bildinhalt lesbar ist, passt [Flashcards](/de/features/) zum praktischen Teil des Workflows:
+Sobald der Bildinhalt lesbar ist, passt [Nibomo](/de/features/) zum praktischen Teil des Workflows:
 
 - KI-Chat mit hochgeladenen Dateien und hochgeladenen Bildern in der gehosteten App
 - Front-/Back-Karten entwerfen und bearbeiten

@@ -240,7 +240,7 @@ Damit löst du mehr Fälle als mit den meisten komplizierten Optimierungsratschl
 
 ## Wo Flashcards in diesen Ablauf gut passt
 
-[Flashcards](https://flashcards-open-source-app.com/) passt für dieses konkrete Problem gut, weil das Produkt den gesamten Ablauf "weniger Müll erzeugen, die guten Karten schneller wiederholen" unterstützt, ohne so zu tun, als wäre jeder Schritt dieselbe Aufgabe.
+[Nibomo](https://flashcards-open-source-app.com/) passt für dieses konkrete Problem gut, weil das Produkt den gesamten Ablauf "weniger Müll erzeugen, die guten Karten schneller wiederholen" unterstützt, ohne so zu tun, als wäre jeder Schritt dieselbe Aufgabe.
 
 Die aktuellen Produktfähigkeiten in diesem Repo passen gut dazu:
 

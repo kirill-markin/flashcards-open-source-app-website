@@ -164,9 +164,9 @@ Lernkarten können den Abruf von Ampelsignalen, Verkehrszeichen, entscheidenden 
 
 Das DMV beschreibt die praktische Fahrprüfung separat: Sie bewertet die sichere Bedienung des Fahrzeugs, Fahrgewohnheiten und die Anwendung der Verkehrsregeln in realen Situationen. Halte dich bei rechtmäßigem Fahrunterricht und praktischen Fahrübungen an die aktuellen DMV-Vorgaben. Eine lange Erfolgsserie bei Lernkarten belegt nicht, dass jemand ein Fahrzeug sicher beherrscht oder die praktische Fahrprüfung besteht.
 
-## Wobei Flashcards Open Source App hilft
+## Wobei Nibomo hilft
 
-[Flashcards Open Source App](/features/) unterstützt einfache Karten mit Vorder- und Rückseite, Decks, Tags und fällige Wiederholungen. FSRS (Free Spaced Repetition Scheduler) nutzt deinen bisherigen Wiederholungsverlauf, um zu planen, wann jede Karte wiederkehrt. So lässt sich ein kleines Permit-Test-Deck über die Woche verteilen.
+[Nibomo](/features/) unterstützt einfache Karten mit Vorder- und Rückseite, Decks, Tags und fällige Wiederholungen. FSRS (Free Spaced Repetition Scheduler) nutzt deinen bisherigen Wiederholungsverlauf, um zu planen, wann jede Karte wiederkehrt. So lässt sich ein kleines Permit-Test-Deck über die Woche verteilen.
 
 KI-Unterstützung ist optional, und du entscheidest, welche Kartenentwürfe gespeichert werden. KI prüft weder Verkehrsregeln noch deren rechtliche Richtigkeit. Vergleiche jede von KI erstellte Karte mit dem aktuellen DMV-Handbuch. Füge außerdem keine persönlichen Identifikationsdaten, Antragsunterlagen oder Führerscheindaten in gehostete KI-Tools ein. Der Datenschutzleitfaden erklärt diese Grenze genauer: [Private Lernkarten mit KI](/blog/private-flashcards-with-ai/).
 

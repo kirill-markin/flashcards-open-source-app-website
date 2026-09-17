@@ -222,7 +222,7 @@ Das ist ein viel besserer Deal, als jeden Satz in eine Karte zu verwandeln und d
 
 ## Wo Flashcards passt
 
-[Flashcards](https://flashcards-open-source-app.com/) passt gut zu **study lecture recordings with flashcards**, weil es den Teil abdeckt, den Transkripte und KI-Entwürfe allein nicht lösen:
+[Nibomo](https://flashcards-open-source-app.com/) passt gut zu **study lecture recordings with flashcards**, weil es den Teil abdeckt, den Transkripte und KI-Entwürfe allein nicht lösen:
 
 - eine echte Flashcards-App mit Front/Back-Karten
 - Decks und Tags

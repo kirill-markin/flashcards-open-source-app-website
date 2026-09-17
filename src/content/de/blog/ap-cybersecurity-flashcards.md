@@ -172,9 +172,9 @@ Ein kleiner wöchentlicher Rhythmus lässt sich leichter durchhalten als der Ver
 
 Je näher der Mai rückt, desto weniger neue Karten solltest du erstellen. Verbringe mehr Zeit mit aktivem Abruf, der Auswertung unbekannter Belege und Übungen mit vollständigen Quellenpaketen unter Zeitdruck. Miss deinen Fortschritt an verlässlichen Entscheidungen statt an einer wachsenden Kartenzahl.
 
-## Wobei Flashcards Open Source App hilft
+## Wobei Nibomo hilft
 
-Die [Funktionen von Flashcards Open Source App](/features/) decken den einfachen Teil dieses Ablaufs ab: Karten mit Vorder- und Rückseite erstellen, fällige Karten wiederholen und Wiederholungen mit FSRS planen. Die fünf Formate oben funktionieren ohne spezielle AP-Vorlage.
+Die [Funktionen von Nibomo](/features/) decken den einfachen Teil dieses Ablaufs ab: Karten mit Vorder- und Rückseite erstellen, fällige Karten wiederholen und Wiederholungen mit FSRS planen. Die fünf Formate oben funktionieren ohne spezielle AP-Vorlage.
 
 Der optionale KI-Chat kann Workspace-Daten und Dateianhänge verarbeiten, darunter Dateien in unterstützten Klartextformaten. Er kann Kartenentwürfe erstellen oder eine überladene Antwort kürzen. Prüfe jede fachliche Aussage anhand deiner Kursmaterialien, bevor du sie speicherst, und behandle generierte Karten nie als offizielle AP-Inhalte.
 

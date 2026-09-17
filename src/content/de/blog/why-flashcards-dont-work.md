@@ -231,7 +231,7 @@ Meistens ist es das Deck.
 
 ## Wo Flashcards hilft
 
-[Flashcards](/de/features/) ist hier nach der Diagnose nützlich, nicht an ihrer Stelle. Behalte die überlebenden Karten als schlichte Vorder- und Rückseitenkarten, organisiere sie per Deck oder Tag und lass FSRS das Timing übernehmen, sobald die Karten überhaupt wiederholungswürdig sind. Wenn du KI-Unterstützung willst, nutze sie für Entwürfe und Bereinigung, nicht als Freibrief, jede Kandidatenkarte in die Live-Warteschlange zu kippen.
+[Nibomo](/de/features/) ist hier nach der Diagnose nützlich, nicht an ihrer Stelle. Behalte die überlebenden Karten als schlichte Vorder- und Rückseitenkarten, organisiere sie per Deck oder Tag und lass FSRS das Timing übernehmen, sobald die Karten überhaupt wiederholungswürdig sind. Wenn du KI-Unterstützung willst, nutze sie für Entwürfe und Bereinigung, nicht als Freibrief, jede Kandidatenkarte in die Live-Warteschlange zu kippen.
 
 Die App wird trotzdem keine schwachen Karten für dich löschen, keine Leeches für dich reparieren und auch nicht ehrlich entscheiden, welche Themen echte Übung statt mehr Auswendiglernen gebraucht hätten. Diesen Teil kann dir keine App abnehmen.
 

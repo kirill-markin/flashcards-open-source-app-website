@@ -113,7 +113,7 @@ Ich mag drei Stufen:
 
 Diese Trennung ist wichtig, weil Bearbeitungsmodus und Review-Modus zwei verschiedene Aufgaben sind. Wenn du beides mischst, rutschen schwache Karten durch, weil du müde bist, es eilig hast oder kurz beeindruckt davon bist, dass die KI das Tippen schon übernommen hat.
 
-Innerhalb von [Flashcards](/de/features/) ist das sinnvolle Muster schlicht: aus deiner Quelle Entwürfe erstellen, Vorder- und Rückseite bearbeiten, per Deck oder Tag organisieren und erst nach dem Bereinigungsdurchgang mit FSRS wiederholen.
+Innerhalb von [Nibomo](/de/features/) ist das sinnvolle Muster schlicht: aus deiner Quelle Entwürfe erstellen, Vorder- und Rückseite bearbeiten, per Deck oder Tag organisieren und erst nach dem Bereinigungsdurchgang mit FSRS wiederholen.
 
 ## Achte früh auf die vier Überlastungs-Signale
 
@@ -183,7 +183,7 @@ Die langweilige Version funktioniert. Wenn das übernommene Deck klein und saube
 
 ## Wie Flashcards diesen Workflow unterstützt
 
-[Flashcards](/de/features/) passt gut zu diesem Workflow, weil das Produkt den ganzen Weg an einer Stelle abdeckt:
+[Nibomo](/de/features/) passt gut zu diesem Workflow, weil das Produkt den ganzen Weg an einer Stelle abdeckt:
 
 - KI-Chat, um aus Notizen und Quellmaterial Kartenentwürfe zu machen
 - Bearbeitung von Vorder- und Rückseite, bevor Karten dauerhaft werden

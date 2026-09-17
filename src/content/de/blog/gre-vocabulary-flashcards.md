@@ -248,7 +248,7 @@ Wenn dein Rohmaterial als Notizen, Artikelauszüge oder Fragen-Reviews beginnt, 
 
 ## Wo Flashcards in diesem GRE-Workflow passt
 
-Wenn du das mit [Flashcards](https://flashcards-open-source-app.com/de/) umsetzen willst, ist der nützliche Teil nicht die vage Behauptung, dass "KI das Lernen einfacher macht". Der nützliche Teil ist, dass das aktuelle Produkt schon den praktischen Mittelteil dieses Workflows unterstützt:
+Wenn du das mit [Nibomo](https://flashcards-open-source-app.com/de/) umsetzen willst, ist der nützliche Teil nicht die vage Behauptung, dass "KI das Lernen einfacher macht". Der nützliche Teil ist, dass das aktuelle Produkt schon den praktischen Mittelteil dieses Workflows unterstützt:
 
 - Erstellung und Bearbeitung von Vorder-/Rückseiten-Karten
 - KI-Chat für Entwurf und Bereinigung

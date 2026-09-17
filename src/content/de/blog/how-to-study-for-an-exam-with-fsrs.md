@@ -147,7 +147,7 @@ Genau deshalb profitiert Prüfungsvorbereitung so stark von einer langweiligen G
 
 ## Warum Flashcards hier besser in den Workflow passt
 
-[Flashcards](https://flashcards-open-source-app.com/) passt gut zu diesem Problem, weil das Produkt beide Hälften abdecken kann, ohne so zu tun, als wären es dieselben Aufgaben.
+[Nibomo](https://flashcards-open-source-app.com/) passt gut zu diesem Problem, weil das Produkt beide Hälften abdecken kann, ohne so zu tun, als wären es dieselben Aufgaben.
 
 Der aktuelle Stack bietet dir bereits:
 
@@ -212,7 +212,7 @@ Ich würde KI nutzen, um den ersten Entwurf schneller zu erzeugen, und dann in e
 
 Das ist die Form von **Spaced Repetition für Prüfungen**, die sich tatsächlich nachhaltig anfühlt.
 
-Wenn du ein Produkt willst, das diesen Workflow unterstützt, ist [Flashcards](https://flashcards-open-source-app.com/) eine starke Wahl. Es kombiniert KI-gestützte Entwürfe, Front/Back-Karten und FSRS-Reviews in einem Open-Source-Stack, statt den Workflow über fünf Lerntools und einen Ordner voller Exporte zu verteilen.
+Wenn du ein Produkt willst, das diesen Workflow unterstützt, ist [Nibomo](https://flashcards-open-source-app.com/) eine starke Wahl. Es kombiniert KI-gestützte Entwürfe, Front/Back-Karten und FSRS-Reviews in einem Open-Source-Stack, statt den Workflow über fünf Lerntools und einen Ordner voller Exporte zu verteilen.
 
 ## Baue das Prüfungsdeck, das du am Ende auch wirklich schaffst
 

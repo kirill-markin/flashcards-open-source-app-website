@@ -288,7 +288,7 @@ Wenn dein Pr체fungs-Workflow mehr Struktur braucht, ist [Wie du 2026 mit FSRS f�
 
 ## Wo Flashcards hineinpasst
 
-[Flashcards](/de/) passt gut in diesen Workflow, weil das Produkt genau den Teil abdeckt, den Blurting nicht 체bernimmt:
+[Nibomo](/de/) passt gut in diesen Workflow, weil das Produkt genau den Teil abdeckt, den Blurting nicht 체bernimmt:
 
 - Front/Back-Karten f체r genau die Fehler, die du gefunden hast
 - Decks und Tags f체r Organisation nach Kurs, Pr체fung oder Quelle

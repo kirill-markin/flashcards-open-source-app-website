@@ -254,9 +254,9 @@ Der nützliche Workflow 2026 sieht eher so aus: Lass KI die Vorarbeit verkürzen
 
 Wenn du zuerst mit einer tutorähnlichen KI-Sitzung arbeitest, ist [Wie du 2026 KI für Active Recall nutzt](/de/blog/how-to-use-ai-for-active-recall/) der nächstliegende Begleitartikel.
 
-## Wo Flashcards Open Source App hier passt
+## Wo Nibomo hier passt
 
-[Flashcards](/de/) passt gut zur Vorbereitung auf Open-Book-Klausuren, weil diese Art des Lernens klein und präzise ist. Du versuchst nicht, den ganzen Kurs einzulagern. Du versuchst, ein sauberes Deck mit den Abfragen zu behalten, die trotzdem automatisch werden müssen:
+[Nibomo](/de/) passt gut zur Vorbereitung auf Open-Book-Klausuren, weil diese Art des Lernens klein und präzise ist. Du versuchst nicht, den ganzen Kurs einzulagern. Du versuchst, ein sauberes Deck mit den Abfragen zu behalten, die trotzdem automatisch werden müssen:
 
 - Erkennen des Problemtyps
 - Regelauswahl

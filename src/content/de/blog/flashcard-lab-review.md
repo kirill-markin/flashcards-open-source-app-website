@@ -16,7 +16,7 @@ Flashcard Lab setzt bei einer vertrauten Tabelle an: Prompts stehen in der erste
 
 Für diese **Bewertung der Flashcard Lab App** wurden die Produktwebsite, die aktuellen Einträge für Android und iPhone, der Chrome Web Store, der Google Workspace Marketplace und die Datenschutzerklärung des Anbieters ausgewertet. Es handelt sich nicht um einen Praxistest. Die offiziellen Quellen beschreiben die Bereiche zum Erstellen, Erfassen, Drucken und Wiederholen gut, lassen aber einige wichtige Verhaltensweisen des Produkts undokumentiert.
 
-> **Transparenzhinweis:** Ich bin Kirill Markin und entwickle die [Flashcards Open Source App](/de/features/), eine der Alternativen in diesem Vergleich. Flashcard Lab bietet den besseren tabellenbasierten Workflow. Flashcards ist stärker, wenn ein eigenständiger Arbeitsbereich mit klaren Vorder- und Rückseiten, dokumentiertes FSRS-6, lokales Speichern nach dem Offline-first-Prinzip, MIT-lizenzierter Quellcode oder Self-Hosting des gesamten Stacks wichtiger sind als die Google-Sheets-Integration. Anki bleibt die ausgereifte lokale Referenz für Power-User.
+> **Transparenzhinweis:** Ich bin Kirill Markin und entwickle [Nibomo](/de/features/), eine der Alternativen in diesem Vergleich. Flashcard Lab bietet den besseren tabellenbasierten Workflow. Nibomo ist stärker, wenn ein eigenständiger Arbeitsbereich mit klaren Vorder- und Rückseiten, dokumentiertes FSRS-6, lokales Speichern nach dem Offline-first-Prinzip, MIT-lizenzierter Quellcode oder Self-Hosting des gesamten Stacks wichtiger sind als die Google-Sheets-Integration. Anki bleibt die ausgereifte lokale Referenz für Power-User.
 
 **Stand der Faktenprüfung:** 12. August 2026. Die Preise unten waren an diesem Datum öffentlich im US App Store sichtbar. Steuern, regionale Preise, Aktionen, Checkout-Preise für das Add-on und künftige Beta-Bedingungen können abweichen.
 
@@ -25,14 +25,14 @@ Für diese **Bewertung der Flashcard Lab App** wurden die Produktwebsite, die ak
 ## Die kurze Antwort
 
 - Wähle **Flashcard Lab**, wenn du deine Karten in Google Sheets erstellen und pflegen möchtest. Browser-Erfassung, Massenbearbeitung in der Tabelle, mobiles Wiederholen und Drucken über Google Docs ergeben einen praktischen Workflow.
-- Wähle **Flashcards Open Source App**, wenn du klar definierte Vorder- und Rückseiten in einem Arbeitsbereich außerhalb von Google, dokumentiertes FSRS-6, Offline-first-Speicherung, Open-Source-Code und einen unterstützten Weg zum Self-Hosting möchtest. Eine Live-Integration mit Google Sheets gibt es nicht.
+- Wähle **Nibomo**, wenn du klar definierte Vorder- und Rückseiten in einem Arbeitsbereich außerhalb von Google, dokumentiertes FSRS-6, Offline-first-Speicherung, Open-Source-Code und einen unterstützten Weg zum Self-Hosting möchtest. Eine Live-Integration mit Google Sheets gibt es nicht.
 - Wähle **Anki**, wenn du ausgereifte Desktop-Clients, fortgeschrittene Notiztypen und Vorlagen, Add-ons, etablierte Sammlungspakete oder umfassendere FSRS-Einstellungen brauchst.
 
 Es gibt keinen automatischen Sieger. Entscheidend ist, wo die maßgebliche Fassung deines Lernmaterials liegen soll: in einem Google Sheet, in einem eigenen offenen Arbeitsbereich oder in einer ausgereiften lokalen Sammlung.
 
 ## Flashcard Lab vs Flashcards vs Anki
 
-| Kriterium | Flashcard Lab | Flashcards Open Source App | Anki |
+| Kriterium | Flashcard Lab | Nibomo | Anki |
 | --- | --- | --- | --- |
 | Am besten geeignet für | Kartenerstellung in Tabellen, Browser-Erfassung, Drucken über Google Docs und einfaches Wiederholen | Klar strukturierte Vorder-/Rückseitenkarten in einem offenen Web- und Mobile-Stack | Ausgereifte lokale Lernkarten mit Vorlagen, Add-ons und breiter Unterstützung für Migrationen |
 | Maßgebliche Datenquelle | Zeilen in Google Sheets liefern Prompts, Antworten und optionale Zusatztexte | Karten im Arbeitsbereich enthalten klar definierte Vorder- und Rückseiten, Tags, Stapel, Medien und Scheduler-Status | Die lokale Sammlung enthält Notizen, Felder, daraus erzeugte Karten, Medien und Planungsdaten |
@@ -80,7 +80,7 @@ Erfassen ersetzt keine Überprüfung. Eine automatisch abgerufene Definition kan
 
 Das Drucken über Google Docs ist ein praktischer Vorteil für Lehrkräfte, Lernstationen im Unterricht, das Sortieren physischer Karten und Lernende, die während einer Einheit kein Gerät verwenden können. Flashcard Lab macht aus dem Sheet druckbare Karten, ohne Screenshots oder ein zweites Layout-Tool zu erfordern.
 
-Wenn das Drucken von Sheets über Docs eine Kernanforderung ist, ist Flashcard Lab hier die eindeutige Wahl. Flashcards Open Source App bietet keinen vergleichbaren Workflow, und das Drucken ist nicht der Grund, aus dem sich die meisten Menschen für Anki entscheiden.
+Wenn das Drucken von Sheets über Docs eine Kernanforderung ist, ist Flashcard Lab hier die eindeutige Wahl. Nibomo bietet keinen vergleichbaren Workflow, und das Drucken ist nicht der Grund, aus dem sich die meisten Menschen für Anki entscheiden.
 
 ## Spaced Repetition ist vorhanden, aber die Formel bleibt unbekannt
 
@@ -142,7 +142,7 @@ Die stärkste Aussage zur Portabilität ist einfach: Du kannst die Prompt- und A
 
 Die offiziellen Quellen belegen nicht, dass Wiederholungsverlauf, Spaced-Repetition-Status, Testergebnisse, Bildverhalten, Käufe oder jede App-Einstellung im Sheet gespeichert werden. Eine unveränderte Kopie schützt die sichtbaren Karteninhalte; sie ist nicht automatisch ein vollständiges Backup von Flashcard Lab.
 
-Es gibt auch keine verlustfreie Migration zu Flashcards Open Source App. Flashcards bietet weder eine Live-Integration mit Google Sheets noch einen Flashcard-Lab-Importer. Eine CSV-Datei, ein Tabellenexport oder eine angehängte Tabelle kann als Quellmaterial für einen KI-gestützten Entwurf dienen. Der Entwurf muss jedoch geprüft werden und beginnt mit einem neuen FSRS-Zustand. Eine Tabelle anzuhängen ist nicht dasselbe, wie Karten dauerhaft mit einem live verbundenen Sheet zu verknüpfen.
+Es gibt auch keine verlustfreie Migration zu Nibomo. Nibomo bietet weder eine Live-Integration mit Google Sheets noch einen Flashcard-Lab-Importer. Eine CSV-Datei, ein Tabellenexport oder eine angehängte Tabelle kann als Quellmaterial für einen KI-gestützten Entwurf dienen. Der Entwurf muss jedoch geprüft werden und beginnt mit einem neuen FSRS-Zustand. Eine Tabelle anzuhängen ist nicht dasselbe, wie Karten dauerhaft mit einem live verbundenen Sheet zu verknüpfen.
 
 Anki bietet einen konventionelleren Weg, weil es [Text mit Trennzeichen in Notizfelder importieren](https://docs.ankiweb.net/importing/text-files.html) kann. Du musst trotzdem die Spalten zuordnen, über den Umgang mit optionalen Zusatztexten entscheiden, Medien prüfen und mit einer neuen Wiederholungsplanung rechnen, sofern ein unterstütztes Format nicht ausdrücklich den Verlauf überträgt. Ein Google Sheet ist kein Anki-Sammlungspaket.
 

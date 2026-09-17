@@ -14,11 +14,11 @@ keywords:
   - "YouTube-Video-Flashcard-Generator"
 ---
 
-Welches Tool am besten Flashcards aus YouTube-Videos erstellt, hängt nicht nur davon ab, wie schnell es eine URL verarbeitet. Wichtiger ist, was du anschließend prüfen, bearbeiten, wiederholen und exportieren kannst. AnkiDecks bietet den am klarsten dokumentierten Weg von einer öffentlichen YouTube-URL zu einer Anki-Datei im Format `.apkg`. StudyFetch und Knowt sind direkter, wenn du die generierten Karten in der jeweiligen Lernumgebung verwenden möchtest. Gizmos dokumentierter YouTube-Workflow erstellt dagegen eine Lektion mit dem AI Tutor und kein Flashcard-Deck. Bei Flashcards Open Source App musst du einen zusätzlichen Schritt einlegen und das Transkript selbst bereitstellen. Dafür bekommst du ein bearbeitbares, portables Deck mit FSRS, Offline-Lernen und der Möglichkeit zum Self-Hosting.
+Welches Tool am besten Flashcards aus YouTube-Videos erstellt, hängt nicht nur davon ab, wie schnell es eine URL verarbeitet. Wichtiger ist, was du anschließend prüfen, bearbeiten, wiederholen und exportieren kannst. AnkiDecks bietet den am klarsten dokumentierten Weg von einer öffentlichen YouTube-URL zu einer Anki-Datei im Format `.apkg`. StudyFetch und Knowt sind direkter, wenn du die generierten Karten in der jeweiligen Lernumgebung verwenden möchtest. Gizmos dokumentierter YouTube-Workflow erstellt dagegen eine Lektion mit dem AI Tutor und kein Flashcard-Deck. Bei Nibomo musst du einen zusätzlichen Schritt einlegen und das Transkript selbst bereitstellen. Dafür bekommst du ein bearbeitbares, portables Deck mit FSRS, Offline-Lernen und der Möglichkeit zum Self-Hosting.
 
 Den einen Gewinner für alle gibt es also nicht. Entscheide zuerst, welches Ergebnis du brauchst und wie leicht du später zu einem anderen System wechseln möchtest. Die Eingabe der URL ist der einfache Teil.
 
-**Offenlegung:** Ich entwickle Flashcards Open Source App. Dieser Vergleich stützt sich auf die aktuelle offizielle Dokumentation, nicht auf eigene Praxistests. **Fakten geprüft: 13. September 2026.**
+**Offenlegung:** Ich entwickle Nibomo. Dieser Vergleich stützt sich auf die aktuelle offizielle Dokumentation, nicht auf eigene Praxistests. **Fakten geprüft: 13. September 2026.**
 
 ![Ein Student vergleicht ein YouTube-Transkript mit fünf Flashcard-Entwürfen, bevor er sich für eine Lern-App entscheidet](/blog/youtube-to-flashcards.png)
 
@@ -30,7 +30,7 @@ Den einen Gewinner für alle gibt es also nicht. Entscheide zuerst, welches Erge
 | [Knowt](https://help.knowt.com/en/articles/10298038-how-to-create-flashcards-and-notes-from-a-youtube-video-using-the-chrome-extension) | Ja, über die Chrome-Erweiterung | Kai analysiert das geöffnete Video, sendet das Ergebnis an Knowt und kann daraus Flashcards oder Notizen erstellen | Der zitierte YouTube-Leitfaden führt den Workflow innerhalb von Knowt fort und dokumentiert keinen Exportschritt | Du schaust bereits in Chrome und möchtest auf direktem Weg in Knowt weiterlernen |
 | [AnkiDecks](https://anki-decks.com/) | Ja; du fügst eine öffentliche YouTube-URL ein | Transkriptbasierte Q&A-, Cloze- oder Multiple-Choice-Karten mit Zeitstempeln | Integriertes FSRS und ein `.apkg`-Export sind dokumentiert | Du möchtest Anki-Flashcards aus YouTube oder einen klaren, Anki-kompatiblen Exportweg |
 | [Gizmo](https://help.gizmo.ai/en/articles/15935404-how-do-i-use-magic-import-to-start-an-ai-tutor-lesson) | Ja; du fügst eine YouTube-URL in den dokumentierten Import für den AI Tutor ein | Eine transkriptgestützte Tutor-Lektion, die den Stoff vermittelt und dich dazu abfragt | Dieser Weg führt zu einer Lektion, nicht zu einem dokumentierten Export von YouTube-Inhalten als Karten | Du möchtest eher angeleitet lernen als ein wiederverwendbares Deck erstellen |
-| [Flashcards Open Source App](/features/) | Kein dokumentierter direkter Import von YouTube-URLs; [du stellst das Transkript als Dateianhang bereit](/docs/getting-started/) | KI-gestützte Kartenentwürfe, die du auswählst, bearbeitest und speicherst | FSRS, portable Exporte, mobiles Offline-Lernen und Self-Hosting | Dir sind sorgfältige Prüfung, Datenhoheit und ein langfristig nutzbares Wiederholungssystem wichtig |
+| [Nibomo](/features/) | Kein dokumentierter direkter Import von YouTube-URLs; [du stellst das Transkript als Dateianhang bereit](/docs/getting-started/) | KI-gestützte Kartenentwürfe, die du auswählst, bearbeitest und speicherst | FSRS, portable Exporte, mobiles Offline-Lernen und Self-Hosting | Dir sind sorgfältige Prüfung, Datenhoheit und ein langfristig nutzbares Wiederholungssystem wichtig |
 
 Hinter der Bezeichnung „YouTube-Flashcard-Generator“ steckt also ein wichtiger Unterschied: Ein Tool kann einen YouTube-Link annehmen und trotzdem etwas ganz anderes liefern – einzelne Karten, eine Tutor-Lektion, ein bearbeitbares Deck oder eine Datei, die du in ein anderes System übernehmen kannst.
 
@@ -141,9 +141,9 @@ Gehe bei der Auswahl in dieser Reihenfolge vor:
 
 Mit dieser Reihenfolge vermeidest du eine typische Falle: Du entscheidest dich wegen einer überzeugenden Demo für einen Generator und stellst erst später fest, dass sich das Deck kaum bearbeiten, überprüfen oder verschieben lässt.
 
-## Wo Flashcards Open Source App ehrlicherweise einzuordnen ist
+## Wo Nibomo ehrlicherweise einzuordnen ist
 
-Flashcards Open Source App dokumentiert derzeit **keinen** direkten Import von YouTube-URLs. Der praktische Weg beginnt deshalb mit dem Transkript:
+Nibomo dokumentiert derzeit **keinen** direkten Import von YouTube-URLs. Der praktische Weg beginnt deshalb mit dem Transkript:
 
 1. Öffne das YouTube-Transkript des Videos.
 2. Speichere das relevante Kapitel in einer Datei, statt das gesamte Transkript zu senden.

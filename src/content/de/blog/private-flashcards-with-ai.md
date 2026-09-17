@@ -81,7 +81,7 @@ Das ist gesünder als die falsche Wahl zwischen alter Desktop-Software und einer
 
 ## Was Flashcards heute bereits dokumentiert
 
-[Flashcards](/de/) passt zu diesem Mittelweg, weil die Kontrolloptionen bereits im Repository, auf der [Feature-Seite](/de/features/), in den Docs und auf den öffentlichen Seiten sichtbar sind.
+[Nibomo](/de/) passt zu diesem Mittelweg, weil die Kontrolloptionen bereits im Repository, auf der [Feature-Seite](/de/features/), in den Docs und auf den öffentlichen Seiten sichtbar sind.
 
 Heute dokumentiert das Projekt:
 

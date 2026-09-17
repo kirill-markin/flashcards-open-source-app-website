@@ -317,7 +317,7 @@ Wenn du die Planungslogik genauer verstehen willst, ist [Wie du 2026 mit FSRS f�
 
 ## Wo Flashcards in einen Step-1-Workflow passen
 
-Wenn du das innerhalb von [Flashcards](https://flashcards-open-source-app.com/) umsetzen willst, liegt der Wert nicht in einem vagen Versprechen, dass KI Medizin für dich lernen wird.
+Wenn du das innerhalb von [Nibomo](https://flashcards-open-source-app.com/) umsetzen willst, liegt der Wert nicht in einem vagen Versprechen, dass KI Medizin für dich lernen wird.
 
 Der Wert liegt darin, dass das Produkt bereits die praktische Mitte des Workflows abdeckt:
 

@@ -185,7 +185,7 @@ Das ist ein gesünderer **Spaced Repetition LSAT**-Workflow, als aus allem, was 
 
 Dieser Punkt sollte ausdrücklich so stehen bleiben.
 
-Flashcards Open Source App ist kein offizielles LSAC-Tool und hat keine offizielle LSAT-Integration. Nutze es mit deinen eigenen Notizen, deinen eigenen Zusammenfassungen, deinen eigenen Erklärungen und deiner eigenen Nachbereitung von rechtmäßigem Quellenmaterial. Nutze es nicht, um ein privates Archiv kopierter LSAT-Fragen, Passagen oder Antwortsammlungen aufzubauen, die du nicht reproduzieren darfst.
+Nibomo ist kein offizielles LSAC-Tool und hat keine offizielle LSAT-Integration. Nutze es mit deinen eigenen Notizen, deinen eigenen Zusammenfassungen, deinen eigenen Erklärungen und deiner eigenen Nachbereitung von rechtmäßigem Quellenmaterial. Nutze es nicht, um ein privates Archiv kopierter LSAT-Fragen, Passagen oder Antwortsammlungen aufzubauen, die du nicht reproduzieren darfst.
 
 Das ist auch einfach die bessere Art zu lernen. Die stärkste Karte ist meist nicht die vollständige Frage. Es ist deine kompakte Zusammenfassung des Denkfehlers und der nächsten Entscheidung, die du richtig treffen willst.
 
@@ -209,9 +209,9 @@ Was FSRS nicht kann, ist vage Karten oder veraltete Decks zu retten. Ich würde 
 
 Wenn du die Scheduling-Seite ausführlicher willst, sind [Wie du 2026 mit FSRS für eine Prüfung lernst](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/) und [FSRS vs. SM-2 im Jahr 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/) die direkten Anschlussartikel.
 
-## Wo Flashcards Open Source App hineinpasst
+## Wo Nibomo hineinpasst
 
-Wenn du diesen Workflow in [Flashcards](https://flashcards-open-source-app.com/) umsetzen willst, besteht der nützliche Teil nicht aus dem vagen Versprechen, dass KI für dich lernt. Der nützliche Teil ist, dass das aktuelle Produkt schon den Mittelteil der Arbeit unterstützt:
+Wenn du diesen Workflow in [Nibomo](https://flashcards-open-source-app.com/) umsetzen willst, besteht der nützliche Teil nicht aus dem vagen Versprechen, dass KI für dich lernt. Der nützliche Teil ist, dass das aktuelle Produkt schon den Mittelteil der Arbeit unterstützt:
 
 - KI-Chat mit Dateianhängen in der gehosteten Web-App
 - Erstellung und Bearbeitung von Vorder-/Rückseitenkarten

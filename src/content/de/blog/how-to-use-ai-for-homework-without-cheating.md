@@ -216,7 +216,7 @@ Wenn sich deine KI-generierten Karten jetzt schon aufgebläht anfühlen, ist [So
 
 ## Wo Flashcards in diesen Ablauf passt
 
-[Flashcards](/de/) passt am besten nach der Hausaufgabe, wenn das eigentliche Lernen wieder beginnt.
+[Nibomo](/de/) passt am besten nach der Hausaufgabe, wenn das eigentliche Lernen wieder beginnt.
 
 Diese Übergabe passt auch gut zur aktuellen Produktoberfläche:
 

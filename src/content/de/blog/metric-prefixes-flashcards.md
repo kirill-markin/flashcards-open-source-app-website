@@ -214,7 +214,7 @@ Wenn du die vollständige Tabelle von quetta bis quecto aufsagst, kannst du die 
 
 Lerne den ersten Block zunächst in einer klaren Reihenfolge. Mische leicht verwechselbare Alternativen, sobald ihre grundlegenden Zuordnungen sitzen. Der [Leitfaden zum Interleaving](/blog/how-to-use-interleaving-with-flashcards/) zeigt, wie du ähnliche Kategorien mischst, ohne aus der Sitzung eine Folge wahlloser Kontextwechsel zu machen.
 
-Wiederhole gespeicherte Karten, wenn sie fällig sind. Flashcards Open Source App unterstützt Markdown-Karten mit Vorder- und Rückseite, Decks und Tags, Medien sowie fällige Wiederholungen mit FSRS. Das fertige Deck zu metrischen Präfixen deckt den Abruf ab. Es prüft keine Berechnungen und erzeugt keine Umrechnungsaufgaben für dich.
+Wiederhole gespeicherte Karten, wenn sie fällig sind. Nibomo unterstützt Markdown-Karten mit Vorder- und Rückseite, Decks und Tags, Medien sowie fällige Wiederholungen mit FSRS. Das fertige Deck zu metrischen Präfixen deckt den Abruf ab. Es prüft keine Berechnungen und erzeugt keine Umrechnungsaufgaben für dich.
 
 ## Finde zuerst den Fehler, bevor du weitere Karten hinzufügst
 

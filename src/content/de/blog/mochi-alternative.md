@@ -23,7 +23,7 @@ Diese kleine Trennlinie zeigt ziemlich gut, für wen sich **Mochi Flashcards** e
 
 Für die Nutzung auf nur einem Gerät ist der kostenlose Tarif mehr als eine Testversion: Du musst dich nicht registrieren, und Mochi dokumentiert eine unbegrenzte Offline-Nutzung. Der Haken: Die geräteübergreifende Synchronisierung gehört zum **Pro-Tarif für US$5 pro Monat**. Für Anki-Nutzer können mögliche Verluste bei der Migration schwerer wiegen. Mochi kann ein Anki-Paket samt Wiederholungsverlauf importieren, aber nicht jede Vorlage, Gestaltung, jedes Skript, jede Scheduler-Einstellung und jedes Add-on-Verhalten bewahren.
 
-> **Offenlegung:** Ich bin Kirill Markin und entwickle die [Flashcards Open Source App](/de/). Dieser Workflow-Test stützt sich auf geprüfte Quellen. Ich behaupte nicht, Mochi selbst praktisch getestet zu haben. Es gibt keine Affiliate-Links. Im Mittelpunkt steht der Vergleich zwischen Mochi und Anki; mein eigenes Produkt erscheint erst gegen Ende als klar gekennzeichnete Alternative.
+> **Offenlegung:** Ich bin Kirill Markin und entwickle [Nibomo](/de/). Dieser Workflow-Test stützt sich auf geprüfte Quellen. Ich behaupte nicht, Mochi selbst praktisch getestet zu haben. Es gibt keine Affiliate-Links. Im Mittelpunkt steht der Vergleich zwischen Mochi und Anki; mein eigenes Produkt erscheint erst gegen Ende als klar gekennzeichnete Alternative.
 
 **Stand der Angaben:** 7. September 2026. Die neueste sichtbare [Mochi-Version](https://mochi.cards/changelog/) war Version 26.8.2 vom 10. August 2026. Preise und Angaben in App-Stores können sich ändern.
 
@@ -210,7 +210,7 @@ Bleib bei Anki, wenn:
 - du Ankis FSRS-Optimierer, Voreinstellungen, vier Bewertungen und Arbeitslast-Simulator möchtest;
 - deine jahrelangen Wiederholungsdaten und individuellen Abläufe bereits zuverlässig funktionieren.
 
-Welche Mochi-Alternative sinnvoll ist, hängt davon ab, warum keine der beiden Optionen passt. Für eine neue, einfachere Sammlung bieten die [Funktionen der Flashcards Open Source App](/de/features/) FSRS-Wiederholungen, Offline-Lernen und Synchronisierung, den Import und Export von Karten, Tags und Medien in portablen Formaten, Agentenzugriff und einen dokumentierten Weg zum Self-Hosting. Ich entwickle die App, und auch ihre Grenzen sind wichtig: Sie ersetzt weder Mochis verknüpftes Markdown-Notizbuch noch Ankis ausgereiftes System aus Vorlagen und Add-ons. Die [Anleitung für den Einstieg](/de/docs/getting-started/) zeigt die aktuellen Wege zur gehosteten oder mobilen Nutzung sowie für Agenten und Self-Hosting.
+Welche Mochi-Alternative sinnvoll ist, hängt davon ab, warum keine der beiden Optionen passt. Für eine neue, einfachere Sammlung bieten die [Funktionen von Nibomo](/de/features/) FSRS-Wiederholungen, Offline-Lernen und Synchronisierung, den Import und Export von Karten, Tags und Medien in portablen Formaten, Agentenzugriff und einen dokumentierten Weg zum Self-Hosting. Ich entwickle die App, und auch ihre Grenzen sind wichtig: Sie ersetzt weder Mochis verknüpftes Markdown-Notizbuch noch Ankis ausgereiftes System aus Vorlagen und Add-ons. Die [Anleitung für den Einstieg](/de/docs/getting-started/) zeigt die aktuellen Wege zur gehosteten oder mobilen Nutzung sowie für Agenten und Self-Hosting.
 
 ## Fazit
 

@@ -338,7 +338,7 @@ Für diesen Teil sind diese beiden Artikel die natürliche Fortsetzung:
 
 ## Wo Flashcards in diesen Workflow passt
 
-[Flashcards](/de/) passt gut zu dieser Art der FE-Vorbereitung, weil das Produkt den mittleren Teil des Workflows unterstützt und nicht nur den ersten Entwurf:
+[Nibomo](/de/) passt gut zu dieser Art der FE-Vorbereitung, weil das Produkt den mittleren Teil des Workflows unterstützt und nicht nur den ersten Entwurf:
 
 - Vorderseiten-/Rückseitenkarten für Formeln, Einheitenprüfungen und Fallenmuster
 - Decks und Tags für fachübergreifende gegenüber fachrichtungsspezifischer Wiederholung

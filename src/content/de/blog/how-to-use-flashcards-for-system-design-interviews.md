@@ -269,9 +269,9 @@ Du brauchst kein heroisches Wochenend-Deck für Architekturmuster.
 
 Du brauchst eine wiederholbare Schleife, die verhindert, dass dieselbe schwache Antwort zweimal auftaucht.
 
-## Wo Flashcards Open Source App hineinpasst
+## Wo Nibomo hineinpasst
 
-[Flashcards Open Source App](/de/features/) passt gut zu diesem Workflow, weil Vorbereitung auf System Design chaotisches Ausgangsmaterial erzeugt: Mock-Notizen, Architektur-Stichpunkte, eingefügte Transkripte, Screenshots, Plain-Text-Checklisten und schnelle Postmortems dazu, was du verpasst hast.
+[Nibomo](/de/features/) passt gut zu diesem Workflow, weil Vorbereitung auf System Design chaotisches Ausgangsmaterial erzeugt: Mock-Notizen, Architektur-Stichpunkte, eingefügte Transkripte, Screenshots, Plain-Text-Checklisten und schnelle Postmortems dazu, was du verpasst hast.
 
 Die aktuelle Produktoberfläche passt dazu ziemlich gut:
 

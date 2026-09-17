@@ -8,7 +8,7 @@ keywords:
   - "von Anki migrieren"
   - "Anki TXT exportieren"
   - "Anki-Deck exportieren"
-  - "Anki zu Flashcards"
+  - "Anki zu Nibomo"
   - "Anki-Migration"
   - "Notes in Plain Text"
   - ".colpkg-Backup"
@@ -20,7 +20,7 @@ Die beiden Dateien erfüllen unterschiedliche Aufgaben. Das Sammlungspaket siche
 
 Dieser Ablauf eignet sich für textbasierte Decks und Zielsysteme, die mit TXT- oder CSV-Dateien arbeiten können. Der Textexport enthält weder den Status des Anki-Schedulers noch Vorlagen, Add-ons oder Mediendateien. Teste deshalb zuerst ein repräsentatives Deck, prüfe jedes Feld und lass die ursprüngliche Sammlung unverändert, bis das Ergebnis im Alltag überzeugt.
 
-> **Offenlegung:** Ich bin Kirill Markin und entwickle [Flashcards](https://flashcards-open-source-app.com/). Dieser Leitfaden sagt klar, wann du besser bei Anki bleibst oder ein Zielsystem wählst, das `.apkg` importieren kann.
+> **Offenlegung:** Ich bin Kirill Markin und entwickle [Nibomo](https://flashcards-open-source-app.com/). Dieser Leitfaden sagt klar, wann du besser bei Anki bleibst oder ein Zielsystem wählst, das `.apkg` importieren kann.
 
 **Fakten geprüft:** 27. August 2026.
 
@@ -166,7 +166,7 @@ Vergleiche die Stichprobe direkt mit Anki. Gib dich nicht damit zufrieden, dass 
 
 Falls der Test scheitert, entfernst du die temporären Karten über die dafür vorgesehene Funktion des Zielsystems. Passe danach die Zuordnung oder die Bereinigung an. Deine Anki-Sammlung und beide Exportdateien bleiben unverändert – genau das macht den Test reversibel.
 
-## Die TXT-Datei mit Flashcards Open Source App verwenden
+## Die TXT-Datei mit Nibomo verwenden
 
 Flashcards bietet keinen direkten Anki-Importer. Die App kann `.apkg` oder `.colpkg` nicht lesen und daraus Anki-Vorlagen, Medien oder den Wiederholungsverlauf rekonstruieren.
 

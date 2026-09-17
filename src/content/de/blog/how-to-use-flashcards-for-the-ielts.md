@@ -233,9 +233,9 @@ Eine einfachere Struktur hält meistens besser:
 
 So hast du einen einzigen Ort zum Lernen und kannst trotzdem genau in den Bereich hineinzoomen, der dir gerade Punkte kostet.
 
-## Wo Flashcards Open Source App passt
+## Wo Nibomo passt
 
-[Flashcards](/de/) passt gut zur IELTS-Vorbereitung, weil der nützliche Workflow angenehm eng und im guten Sinn wiederholbar ist:
+[Nibomo](/de/) passt gut zur IELTS-Vorbereitung, weil der nützliche Workflow angenehm eng und im guten Sinn wiederholbar ist:
 
 - Halte ein `IELTS`-Deck und tagge Karten nach Prüfungsformat, Fertigkeit und Fehlermuster.
 - Verwandle falsch beantwortete Fragen, rohe Speaking-Notizen und unordentliche Writing-Korrekturen direkt nach der Übung in Vorder- und Rückseitenkarten.

@@ -246,7 +246,7 @@ Es gibt hier keinen besonderen Claude-zu-Flashcards-Button, und ich würde auch 
 4. Organisiere sie in Decks und Tags.
 5. Wiederhole das fertige Deck mit FSRS.
 
-[Flashcards](/de/) passt gut zu diesem Workflow, weil das aktuelle Produkt genau den Teil abdeckt, den Claude nicht selbst fertigstellt:
+[Nibomo](/de/) passt gut zu diesem Workflow, weil das aktuelle Produkt genau den Teil abdeckt, den Claude nicht selbst fertigstellt:
 
 - Erstellung und Bearbeitung klassischer Vorder-/Rückseite-Karten
 - KI-Chat mit Workspace-Daten und Datei-Anhängen

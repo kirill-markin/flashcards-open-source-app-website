@@ -236,7 +236,7 @@ Genau deshalb sollte der Workflow für die Klausurenphase getrennt vom "mit KI l
 
 ## Wo Flashcards in diesen Workflow passt
 
-[Flashcards](https://flashcards-open-source-app.com/) ist hier nützlich, weil das Produkt zum echten Chaos der Klausurenphase passt, statt so zu tun, als würde dein Lernmaterial sauber sortiert ankommen.
+[Nibomo](https://flashcards-open-source-app.com/) ist hier nützlich, weil das Produkt zum echten Chaos der Klausurenphase passt, statt so zu tun, als würde dein Lernmaterial sauber sortiert ankommen.
 
 Du kannst die gehostete Web-App nutzen, Dateien hochladen, den KI-Chat mit Anhängen verwenden, wenn du eine Quelle erst aufräumen musst, daraus Front-/Back-Karten erstellen und bearbeiten und die finale Wiederholung mit Decks, Tags, Filtern, Suche und FSRS an einem Ort halten. Die offline-first Apps für Web, iOS und Android ergeben in der Klausurenphase ebenfalls mehr Sinn als noch ein weiterer Browser-Tab zum Lernen, den du verlierst, sobald du den Schreibtisch verlässt.
 

@@ -21,7 +21,7 @@ Die besten FSRS-Einstellungen sind deshalb keine Parameterfolge, die du einfach 
 
 Die folgenden Bezeichnungen und Verhaltensweisen entsprechen [Anki 26.08](https://github.com/ankitects/anki/releases/tag/26.08) und den dortigen FSRS-6-Einstellungen. Wenn du zunächst das Modell statt der Einstellungen verstehen möchtest, lies [Was ist FSRS?](/blog/what-is-fsrs/). Falls du noch zwischen Schedulern wählst, beginne mit [FSRS vs. SM-2](/blog/fsrs-vs-sm-2/).
 
-> **Offenlegung:** Ich bin Kirill Markin und entwickle die [Flashcards Open Source App](/features/). Anki bietet eine personalisierte Parameteranpassung und experimentelle Simulatoren für den Arbeitsaufwand, die Flashcards derzeit nicht anbietet. Der Vergleich gegen Ende macht diese Unterschiede ausdrücklich deutlich.
+> **Offenlegung:** Ich bin Kirill Markin und entwickle [Nibomo](/features/). Anki bietet eine personalisierte Parameteranpassung und experimentelle Simulatoren für den Arbeitsaufwand, die Nibomo derzeit nicht anbietet. Der Vergleich gegen Ende macht diese Unterschiede ausdrücklich deutlich.
 
 **Fakten geprüft am:** 8. September 2026.
 
@@ -191,9 +191,9 @@ Ist das Ergebnis zu hoch, reduziere die Zahl neuer Karten und simuliere erneut. 
 
 ## Anki und Flashcards bieten unterschiedliche FSRS-Einstellungen
 
-Beide Produkte verwenden FSRS-6. Die FSRS-Einstellungen von Anki lassen sich jedoch nicht eins zu eins auf die Flashcards Open Source App übertragen.
+Beide Produkte verwenden FSRS-6. Die FSRS-Einstellungen von Anki lassen sich jedoch nicht eins zu eins auf Nibomo übertragen.
 
-| Funktion | Anki 26.08 | Flashcards Open Source App |
+| Funktion | Anki 26.08 | Nibomo |
 | --- | --- | --- |
 | Desired retention | **Shared Preset** oder **This deck** | Pro Arbeitsbereich konfigurierbar; Standard `0.90` |
 | FSRS-Parameter | **Optimize Current Preset** oder **Optimize All Presets** anhand des Wiederholungsverlaufs | Die offiziellen FSRS-6-Standardgewichte sind fest vorgegeben und in v1 nicht vom Nutzer konfigurierbar. |

@@ -223,7 +223,7 @@ Das macht den Entwurf sauberer und die Review-Warteschlange verlässlicher.
 
 ## Wo Flashcards in diesen Workflow passt
 
-[Flashcards](https://flashcards-open-source-app.com/) passt gut dazu, **Übungsfragen in Flashcards umzuwandeln**, weil das Produkt die Bausteine dieses Workflows schon mitbringt:
+[Nibomo](https://flashcards-open-source-app.com/) passt gut dazu, **Übungsfragen in Flashcards umzuwandeln**, weil das Produkt die Bausteine dieses Workflows schon mitbringt:
 
 - KI-Chat
 - Datei- und Bildanhänge

@@ -106,7 +106,7 @@ Ein Tabellenprogramm kann die Anführungszeichen ergänzen, die CSV benötigt. T
 
 ## Nutze den Text in Flashcards zunächst als zu prüfenden Entwurf
 
-[Flashcards Open Source App](/features/) hat keinen direkten Quizlet-Importer. In der Web-App kannst du eine TXT- oder CSV-Datei an den KI-Chat anhängen und daraus Kartenentwürfe erstellen lassen. Das ist keine verlustfreie Migration.
+[Nibomo](/features/) hat keinen direkten Quizlet-Importer. In der Web-App kannst du eine TXT- oder CSV-Datei an den KI-Chat anhängen und daraus Kartenentwürfe erstellen lassen. Das ist keine verlustfreie Migration.
 
 1. Bewahre die rohe Quizlet-Datei außerhalb der App auf.
 2. Hänge die bereinigte TXT-Datei oder die gezielt erstellte CSV-Datei im KI-Chat von Flashcards an.
@@ -123,7 +123,7 @@ Das ist praktisch, wenn die alten Karten ohnehin bereinigt werden müssen. Es be
 
 In Flashcards erstellte Karten beginnen mit einem neuen Lernverlauf. Der Quizlet-Text enthält weder die bisherigen Wiederholungen noch den Planungsstatus, die für die Fortsetzung des alten Wiederholungsplans nötig wären.
 
-> **Hinweis in eigener Sache:** Ich entwickle Flashcards Open Source App. Dieser Ablauf beschreibt die aktuellen Grenzen des Produkts; er verspricht keine vollständige Quizlet-Kompatibilität.
+> **Hinweis in eigener Sache:** Ich entwickle Nibomo. Dieser Ablauf beschreibt die aktuellen Grenzen des Produkts; er verspricht keine vollständige Quizlet-Kompatibilität.
 
 ## Quizlet zu Anki: Nutze den Textimport von Anki
 

@@ -244,7 +244,7 @@ Wenn du tiefer in die Scheduler-Seite einsteigen willst, sind [FSRS-Einstellunge
 
 ## Wo Flashcards in diesen Workflow hineinpasst
 
-Am besten passt [Flashcards](/de/), sobald du weißt, was überhaupt wiederholt werden sollte.
+Am besten passt [Nibomo](/de/), sobald du weißt, was überhaupt wiederholt werden sollte.
 
 Das Produkt unterstützt bereits den Mittelteil dieses Workflows:
 

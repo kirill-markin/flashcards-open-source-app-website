@@ -128,7 +128,7 @@ Der [ausführlichere Leitfaden zu Quizlet-Alternativen](/de/blog/quizlet-alterna
 
 ## Offenlegung: Ich entwickle eine Open-Source-Alternative
 
-> **Offenlegung:** Ich bin Kirill Markin und entwickle die [Flashcards Open Source App](/de/features/). Ihr [MIT-lizenziertes Repository](https://github.com/kirill-markin/flashcards-open-source-app) enthält den vollständigen Stack für Web, iOS, Android, Authentifizierung, Backend, Synchronisierung und Infrastruktur. Damit verläuft die Grenze des veröffentlichten Quellcodes bei Flashcards anders als bei Quizlet. Ein direkter Ersatz für Quizlet ist die App trotzdem nicht.
+> **Offenlegung:** Ich bin Kirill Markin und entwickle [Nibomo](/de/features/). Das [MIT-lizenzierte Repository](https://github.com/kirill-markin/flashcards-open-source-app) enthält den vollständigen Stack für Web, iOS, Android, Authentifizierung, Backend, Synchronisierung und Infrastruktur. Damit verläuft die Grenze des veröffentlichten Quellcodes bei Nibomo anders als bei Quizlet. Ein direkter Ersatz für Quizlet ist die App trotzdem nicht.
 
 Für Flashcards gibt es eine [Self-Hosting-Anleitung mit Schwerpunkt auf AWS](/de/docs/self-hosting/), aber keinen lokalen Ein-Klick-Installer. Wer die App betreibt, ist selbst für Cloud-Konten, Authentifizierung, E-Mail-Versand, Monitoring, Backups, Upgrades und Builds der nativen Apps verantwortlich.
 

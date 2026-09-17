@@ -206,9 +206,9 @@ Ein praktischer **CCSP-Lernplan für 2026** sieht so aus:
 
 Wähle nicht absichtlich eine schwierigere Bewertung, nur um ein kürzeres Intervall zu erzwingen. Wenn die Warteschlange schneller wächst, als du sie an einem gewöhnlichen Tag abarbeiten kannst, streiche Karten mit geringem Nutzen oder verringere die Zahl neuer Karten. [So lernst du mit FSRS für eine Prüfung](/blog/how-to-study-for-an-exam-with-fsrs/) erklärt die Phasen Aufbau, Stabilisierung und Abschlusswiederholung. [Wie viele neue Flashcards pro Tag?](/blog/how-many-new-flashcards-per-day/) hilft, die Menge anhand der verfügbaren Zeit statt einer beeindruckenden Kartenzahl abzuschätzen.
 
-## Wo die Flashcards Open Source App hineinpasst
+## Wo Nibomo hineinpasst
 
-Zu den [Funktionen der Flashcards Open Source App](/features/) gehören die Erstellung von Karten mit Vorder- und Rückseite, ein KI-Chat mit Workspace-Daten und unterstützten Dateianhängen sowie die Wiederholung mit FSRS und den Bewertungen Again, Hard, Good und Easy.
+Zu den [Funktionen von Nibomo](/features/) gehören die Erstellung von Karten mit Vorder- und Rückseite, ein KI-Chat mit Workspace-Daten und unterstützten Dateianhängen sowie die Wiederholung mit FSRS und den Bewertungen Again, Hard, Good und Easy.
 
 Halte ihre Rolle bei der CCSP-Vorbereitung bewusst begrenzt. Verfasse anhand geprüfter Quellen eine Notiz zur Prüfungsübersicht oder ein Fehlerprotokoll aus autorisierten Übungsfragen. Nutze anschließend den KI-Chat, um einige Kartenentwürfe mit jeweils einem klaren Lernziel zu erstellen. Vergleiche jeden Entwurf mit der offiziellen Quelle und überarbeite ihn selbst. Wiederhole die behaltenen Karten mit FSRS. Nutze für vollständige Szenarioübungen weiterhin autorisierte Anbieter.
 

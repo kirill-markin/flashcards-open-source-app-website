@@ -214,7 +214,7 @@ Wenn dein Workflow ohnehin tutorartige Quiz-Sitzungen enthält, passen [So nutzt
 
 ## Wo Flashcards hineinpasst
 
-[Flashcards](/de/) passt gut zu diesem Workflow, weil die nützlichen Schritte klein und praktisch sind: schlichte Vorderseiten-/Rückseiten-Karten entwerfen, sie bereinigen und die Karten, die übrig bleiben, mit FSRS wiederholen. Die gehostete Web-App unterstützt außerdem KI-Chat plus Dateianhänge, darunter auch Klartext-Uploads. Das hilft, wenn Quiz-Feedback zuerst als kopierter LMS-Text oder als roher Export vorliegt statt als sauberer Lernzettel.
+[Nibomo](/de/) passt gut zu diesem Workflow, weil die nützlichen Schritte klein und praktisch sind: schlichte Vorderseiten-/Rückseiten-Karten entwerfen, sie bereinigen und die Karten, die übrig bleiben, mit FSRS wiederholen. Die gehostete Web-App unterstützt außerdem KI-Chat plus Dateianhänge, darunter auch Klartext-Uploads. Das hilft, wenn Quiz-Feedback zuerst als kopierter LMS-Text oder als roher Export vorliegt statt als sauberer Lernzettel.
 
 Wenn du zuerst den Produktüberblick willst, geh zu [Features](/de/features/). Wenn du direkt loslegen willst, nimm [Erste Schritte](/de/docs/getting-started/).
 

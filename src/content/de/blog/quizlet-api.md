@@ -18,7 +18,7 @@ Diese Aussage bezieht sich auf die öffentliche Dokumentation von Quizlet, nicht
 
 **Fakten geprüft:** 18. August 2026.
 
-> **Offenlegung:** Ich bin Kirill Markin und entwickle Flashcards Open Source App. Deren Agent API und MCP-Server stelle ich weiter unten als Alternativen vor. Flashcards ist nicht mit Quizlet kompatibel und importiert Quizlet-Sets nicht automatisch.
+> **Offenlegung:** Ich bin Kirill Markin und entwickle Nibomo. Die Agent API und den MCP-Server der App stelle ich weiter unten als Alternativen vor. Nibomo ist nicht mit Quizlet kompatibel und importiert Quizlet-Sets nicht automatisch.
 
 ![Ein Entwickler vergleicht Quizlet-Export, Embed, spezifische Integrationen und eine dokumentierte Karteikarten-API](/blog/quizlet-api.png)
 
@@ -83,7 +83,7 @@ Der sichere Weg ist ein Karteikartensystem, das ausdrücklich dokumentiert, wie 
 
 ## Was die API-Alternative von Flashcards tatsächlich bietet
 
-Flashcards Open Source App veröffentlicht zwei Zugangswege zu derselben begrenzten Schnittstelle für die Daten des jeweiligen Nutzers:
+Nibomo veröffentlicht zwei Zugangswege zu derselben begrenzten Schnittstelle für die Daten des jeweiligen Nutzers:
 
 - Die [externe Agent API](/docs/api/) beginnt bei `GET https://api.flashcards-open-source-app.com/v1/`. Ihre Discovery-Antwort führt einen Agenten durch die Anmeldung per E-Mail-OTP, das Erstellen eines API-Keys und die Auswahl eines Arbeitsbereichs. Für Lesezugriffe gibt es eine SQL-ähnliche Abfrageroute, für Schreibzugriffe eine separate Ausführungsroute.
 - Der [Remote-MCP-Server](/docs/mcp-connector/) ist unter `https://mcp.flashcards-open-source-app.com/mcp` verfügbar. MCP-Clients erhalten sieben Tools: `list_workspaces`, `sql_query`, `sql_execute`, `get_guide` sowie die Wiederholungs-Tools `next_review_card`, `reveal_answer` und `submit_review`.

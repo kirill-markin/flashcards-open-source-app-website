@@ -290,7 +290,7 @@ Wenn du weiterhin vage Karten in den FSRS-Planer kippst, wiederholst du am Ende 
 
 ## Warum Flashcards gut zu diesem Step-2-CK-Workflow passt
 
-Wenn du das innerhalb von [Flashcards](https://flashcards-open-source-app.com/) umsetzen willst, ist der eigentliche Vorteil nicht, dass das Produkt klinisches Denken ersetzt. Es gibt dir nur einen schnelleren Weg von chaotischem Step-2-Ausgangsmaterial zu kleineren, wiederholbaren Karten.
+Wenn du das innerhalb von [Nibomo](https://flashcards-open-source-app.com/) umsetzen willst, ist der eigentliche Vorteil nicht, dass das Produkt klinisches Denken ersetzt. Es gibt dir nur einen schnelleren Weg von chaotischem Step-2-Ausgangsmaterial zu kleineren, wiederholbaren Karten.
 
 Worauf es ankommt, ist einfacher:
 

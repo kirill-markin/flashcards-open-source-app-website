@@ -19,7 +19,7 @@ Quizlet bietet zwar eine offizielle App in ChatGPT. Sie kann aus einer ChatGPT-U
 
 **Fakten geprüft:** 12. September 2026.
 
-> **Offenlegung:** Ich bin Kirill Markin und entwickle Flashcards Open Source App. Den MCP-Server und die Agent API der App stelle ich weiter unten als Alternativen vor. Flashcards kann sich weder mit einem Quizlet-Konto verbinden noch eine Quizlet-URL importieren.
+> **Offenlegung:** Ich bin Kirill Markin und entwickle Nibomo. Den MCP-Server und die Agent API der App stelle ich weiter unten als Alternativen vor. Nibomo kann sich weder mit einem Quizlet-Konto verbinden noch eine Quizlet-URL importieren.
 
 ![Eine Gärtnerin trägt eine junge Pflanze aus einem geschlossenen Gewächshaus zu einem Beet mit verzweigter Tröpfchenbewässerung](/blog/quizlet-mcp-server.png)
 
@@ -71,7 +71,7 @@ Genau deshalb sollte die Übertragung reversibel bleiben. Wenn aus einer mehrzei
 
 ## Was Claude und Codex nach dem Export nutzen können
 
-Flashcards Open Source App stellt einen Remote-MCP-Endpunkt bereit:
+Nibomo stellt einen Remote-MCP-Endpunkt bereit:
 
 `https://mcp.flashcards-open-source-app.com/mcp`
 

@@ -184,7 +184,7 @@ Prüf auf:
 
 Wenn sich das Deck verdächtig anfühlt, vergleich ein paar Karten direkt mit deiner Quelle. Fünf Minuten Stichprobe können dir Wochen mit schwachen Reviews ersparen.
 
-Wenn du in [Flashcards](/de/features/) auch KI nutzt, um Karten zu entwerfen oder umzuschreiben, behalte denselben Standard bei. Erst Entwurf. Dann Bearbeitung. Dann Review.
+Wenn du in [Nibomo](/de/features/) auch KI nutzt, um Karten zu entwerfen oder umzuschreiben, behalte denselben Standard bei. Erst Entwurf. Dann Bearbeitung. Dann Review.
 
 ## Erkenne, wann ein geteiltes Deck dir hilft und wann es dir Zeit klaut
 
@@ -224,11 +224,11 @@ So sieht der Workflow aus, dem ich in der ersten Woche wirklich trauen würde:
 
 Das ist die praktische Antwort auf **wie du vorgefertigte Anki-Decks nutzt**. Importieren, prüfen, verkleinern.
 
-## Wo Flashcards Open Source App in diesen Workflow passt
+## Wo Nibomo in diesen Workflow passt
 
 Diese Seite ist nicht Anki, und ich würde auch nichts anderes behaupten. Aber das Workflow-Problem ist bei modernen Flashcard-Tools dasselbe: Schwache Karten werden teuer, sobald sie in echten Reviews landen.
 
-[Flashcards](/de/features/) passt ziemlich direkt in diesen Workflow:
+[Nibomo](/de/features/) passt ziemlich direkt in diesen Workflow:
 
 - du kannst einfache Vorderseiten-/Rückseiten-Karten erstellen oder bearbeiten
 - du kannst Material in Decks und Tags organisieren
