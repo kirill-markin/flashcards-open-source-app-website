@@ -248,7 +248,7 @@ FSRS が得意なのは、まさにそこです。
 
 ## このAP CalculusワークフローでFlashcardsが合う場所
 
-[Flashcards](https://flashcards-open-source-app.com/) は、この AP Calculus の流れと相性がいいです。ただし、この記事を売り込みにしたいわけではありません。
+[Nibomo](https://flashcards-open-source-app.com/) は、この AP Calculus の流れと相性がいいです。ただし、この記事を売り込みにしたいわけではありません。
 
 役に立つのは、「学生向けアプリ」だからではありません。ルールカード、FRQ の失点、BC の級数カードを、ノート、スクリーンショット、昔の解き直しに散らさず、1つの復習システムで管理できるところです。
 

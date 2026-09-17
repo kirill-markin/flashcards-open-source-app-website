@@ -244,7 +244,7 @@ practice misses がよく暴くのは次のような弱さです。
 
 ## このワークフローの中で Flashcards がはまる場所
 
-[Flashcards](https://flashcards-open-source-app.com/) が最も役立つのは、「何を復習すべきか」が分かったあとです。
+[Nibomo](https://flashcards-open-source-app.com/) が最も役立つのは、「何を復習すべきか」が分かったあとです。
 
 この製品は、ワークフローの真ん中をすでに支えています。
 

@@ -221,9 +221,9 @@ FSRS は、そうした不揃いな忘れ方を、固定的な復習間隔より
 
 - [2026年のFSRSとSM-2比較: どの間隔反復アルゴリズムがより多く覚えられるか](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
 
-## Flashcards Open Source App がこの流れに合う理由
+## Nibomo がこの流れに合う理由
 
-[Flashcards Open Source App](https://flashcards-open-source-app.com/) は、**ポッドキャストをフラッシュカード化する流れ** とかなり相性が良いです。実際にこの手順を回すために必要な要素が、すでにひと通りそろっているからです。
+[Nibomo](https://flashcards-open-source-app.com/) は、**ポッドキャストをフラッシュカード化する流れ** とかなり相性が良いです。実際にこの手順を回すために必要な要素が、すでにひと通りそろっているからです。
 
 - ポッドキャストの文字起こしをプレーンテキストで貼り付けたりアップロードしたりできる
 - カードを作る前に、AIチャットの中で素材を整理できる

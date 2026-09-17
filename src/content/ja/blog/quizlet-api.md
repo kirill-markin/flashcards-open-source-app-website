@@ -18,7 +18,7 @@ keywords:
 
 **事実確認日：** 2026年8月18日。
 
-> **開示事項：** 私はKirill Markinです。以下で代替手段として紹介するAgent APIとMCPサーバーを提供するFlashcards Open Source Appを開発しています。FlashcardsはQuizlet互換ではなく、Quizletセットを自動でインポートする機能もありません。
+> **開示事項：** 私はKirill Markinです。以下で代替手段として紹介するAgent APIとMCPサーバーを提供するNibomoを開発しています。NibomoはQuizlet互換ではなく、Quizletセットを自動でインポートする機能もありません。
 
 ![Quizletのエクスポート、埋め込み、個別連携、ドキュメント化されたフラッシュカードAPIを比較する開発者](/blog/quizlet-api.png)
 
@@ -83,7 +83,7 @@ Quizletが2026年6月30日に発表したGoogle Classroomアドオンも、同�
 
 ## Quizlet APIの代替としてFlashcardsが提供するもの
 
-Flashcards Open Source Appは、ユーザーごとに範囲が限られた同じデータ領域へアクセスする方法を二つ公開しています。
+Nibomoは、ユーザーごとに範囲が限られた同じデータ領域へアクセスする方法を二つ公開しています。
 
 - [外部Agent API](/docs/api/)は`GET https://api.flashcards-open-source-app.com/v1/`から始まります。ディスカバリー応答が、メールOTPでのログイン、APIキーの作成、ワークスペースの選択までエージェントを案内します。読み取りにはSQL形式のクエリルート、書き込みには別の実行ルートを使います。
 - [リモートMCPサーバー](/docs/mcp-connector/)は`https://mcp.flashcards-open-source-app.com/mcp`で利用できます。MCPクライアントが使えるツールは、`list_workspaces`、`sql_query`、`sql_execute`、`get_guide`と、復習用の`next_review_card`、`reveal_answer`、`submit_review`の七つです。

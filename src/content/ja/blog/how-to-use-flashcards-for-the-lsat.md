@@ -185,7 +185,7 @@ conditional logic は、LSAT でフラッシュカードが特に機能しやす
 
 ここは明確に書いておくべきです。
 
-Flashcards Open Source App は LSAC の公式ツールではなく、LSAT との公式連携もありません。使うのは、自分のノート、自分の要約、自分の説明、そして適法に利用できる教材の復習に限ってください。複製権限のない LSAT の設問、文章、解答バンクをそのまま蓄積する用途には使わないでください。
+Nibomo は LSAC の公式ツールではなく、LSAT との公式連携もありません。使うのは、自分のノート、自分の要約、自分の説明、そして適法に利用できる教材の復習に限ってください。複製権限のない LSAT の設問、文章、解答バンクをそのまま蓄積する用途には使わないでください。
 
 実際、最も強いカードは問題文そのものではないことが多いです。自分が犯した reasoning のミスと、次に正したい判断を短く要約したカードのほうが役に立ちます。
 
@@ -209,9 +209,9 @@ Flashcards Open Source App は LSAC の公式ツールではなく、LSAT との
 
 スケジューリング面をもう少し詳しく見たいなら、[2026年版 FSRSで試験勉強する方法](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/) と [2026年版 FSRSとSM-2の違い](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/) がそのまま次につながります。
 
-## Flashcards Open Source Appがはまる場所
+## Nibomoがはまる場所
 
-[Flashcards](https://flashcards-open-source-app.com/) の中でこの運用を回したいなら、役立つのは「AI が勝手に勉強してくれる」という曖昧な約束ではありません。今の製品が、実際に必要な途中作業をすでに支えていることです。
+[Nibomo](https://flashcards-open-source-app.com/) の中でこの運用を回したいなら、役立つのは「AI が勝手に勉強してくれる」という曖昧な約束ではありません。今の製品が、実際に必要な途中作業をすでに支えていることです。
 
 - hosted web app 内の AI チャットとファイル添付
 - 表裏カードの作成と編集

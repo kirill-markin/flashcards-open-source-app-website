@@ -219,7 +219,7 @@ keywords:
 
 ## ワークフローを1か所で回したいなら、Flashcards はここにはまる
 
-[Flashcards](https://flashcards-open-source-app.com/) は、この高校の発展化学の学習フローとかなり相性がいいです。記憶対象を見つけたあとに必要な実務部分が、すでにそろっているからです。
+[Nibomo](https://flashcards-open-source-app.com/) は、この高校の発展化学の学習フローとかなり相性がいいです。記憶対象を見つけたあとに必要な実務部分が、すでにそろっているからです。
 
 - 表裏カードの作成と編集
 - チャット経由の AI 下書き

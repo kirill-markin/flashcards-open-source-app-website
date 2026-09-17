@@ -261,9 +261,9 @@ FSRS があると、役に立つ情報がちょうどよい間隔で戻ってき
 
 - [2026年の FSRS vs SM-2: より多く覚えやすいのはどちらの間隔反復アルゴリズムか](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
 
-## Flashcards Open Source App がこの流れに合う理由
+## Nibomo がこの流れに合う理由
 
-[Flashcards Open Source App](https://flashcards-open-source-app.com/) は、**記事をフラッシュカード化する流れ** と相性が良いです。大事な部分が、すでにそろっているからです。
+[Nibomo](https://flashcards-open-source-app.com/) は、**記事をフラッシュカード化する流れ** と相性が良いです。大事な部分が、すでにそろっているからです。
 
 - 記事、ブログ記事、ニュースレター、ドキュメントページのプレーンテキストを貼り付けたりアップロードしたりできる
 - カードを作る前に、AI チャットの中で元の文章を整理できる

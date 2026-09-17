@@ -236,7 +236,7 @@ AP Biology の復習には、ごく普通の形でムラがあります。安定
 
 ## このAP Biologyの学習フローで、Flashcardsはどこにはまるのか
 
-[Flashcards](https://flashcards-open-source-app.com/) でこの流れを回したいなら、役に立つのは「AIが魔法みたいに生物を学習してくれる」という曖昧な約束ではありません。
+[Nibomo](https://flashcards-open-source-app.com/) でこの流れを回したいなら、役に立つのは「AIが魔法みたいに生物を学習してくれる」という曖昧な約束ではありません。
 
 役に立つのは、製品がすでにワークフローのいちばん厄介な中間部分をカバーしていることです。
 

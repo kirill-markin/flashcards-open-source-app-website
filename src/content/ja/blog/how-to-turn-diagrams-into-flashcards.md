@@ -296,7 +296,7 @@ Quizlet ですら図解専用の学習導線を持ち続けています。それ
 
 ## Flashcards が合う理由
 
-[Flashcards](https://flashcards-open-source-app.com/) は、図解をフラッシュカードにする流れと相性が良いです。必要な要素が最初から揃っているからです。
+[Nibomo](https://flashcards-open-source-app.com/) は、図解をフラッシュカードにする流れと相性が良いです。必要な要素が最初から揃っているからです。
 
 - AI チャット
 - 画像とファイルの添付

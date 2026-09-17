@@ -229,7 +229,7 @@ PMP で FSRS が役立つのは、記憶負荷にムラがあるからです。
 
 ## この PMP ワークフローの中で Flashcards がはまる場所
 
-[Flashcards](https://flashcards-open-source-app.com/) の中でこの流れを回すなら、便利なのは「AI がなんとなく代わりに勉強してくれる」という曖昧な約束ではありません。
+[Nibomo](https://flashcards-open-source-app.com/) の中でこの流れを回すなら、便利なのは「AI がなんとなく代わりに勉強してくれる」という曖昧な約束ではありません。
 
 本当に便利なのは、製品がすでにこのワークフローの真ん中をカバーしていることです。
 

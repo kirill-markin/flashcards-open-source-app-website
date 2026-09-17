@@ -128,7 +128,7 @@ Quizletは、公式GitHub Organizationにも公開ドキュメントにも、サ
 
 ## 開示事項：私はオープンソースの代替製品を開発しています
 
-> **開示事項：** 私はKirill Markinです。[Flashcards Open Source App](/ja/features/)を開発しています。[MITライセンスのリポジトリ](https://github.com/kirill-markin/flashcards-open-source-app)には、Web、iOS、Android、認証、バックエンド、同期、インフラの全スタックが含まれています。Quizletとはソースが公開されている範囲が異なりますが、FlashcardsがQuizletをそのまま置き換えられるという意味ではありません。
+> **開示事項：** 私はKirill Markinです。[Nibomo](/ja/features/)を開発しています。[MITライセンスのリポジトリ](https://github.com/kirill-markin/flashcards-open-source-app)には、Web、iOS、Android、認証、バックエンド、同期、インフラの全スタックが含まれています。Quizletとはソースが公開されている範囲が異なりますが、NibomoがQuizletをそのまま置き換えられるという意味ではありません。
 
 Flashcardsには、ワンクリックで使えるローカルインストーラーではなく、[AWSを中心としたセルフホスティング手順](/ja/docs/self-hosting/)があります。運用者自身が、クラウドアカウント、認証、メール配信、監視、バックアップ、アップグレード、ネイティブアプリのビルドを管理します。
 

@@ -19,7 +19,7 @@ Quizletには、ChatGPT向けの公式アプリがあります。ChatGPTの会�
 
 **事実確認日：** 2026年9月12日。
 
-> **開示事項：** 私はKirill Markinで、Flashcards Open Source Appを開発しています。以下では、そのMCPサーバーとAgent APIを代替手段として紹介します。FlashcardsからQuizletアカウントへ接続したり、QuizletのURLをインポートしたりすることはできません。
+> **開示事項：** 私はKirill Markinで、Nibomoを開発しています。以下では、そのMCPサーバーとAgent APIを代替手段として紹介します。NibomoからQuizletアカウントへ接続したり、QuizletのURLをインポートしたりすることはできません。
 
 ![庭師が閉じた温室から1株の苗を、分岐した点滴灌漑のある花壇へ運んでいる](/blog/quizlet-mcp-server.png)
 
@@ -71,7 +71,7 @@ Quizletの[公式エクスポート手順](https://help.quizlet.com/hc/en-us/art
 
 ## エクスポート後にClaudeとCodexで使えるもの
 
-Flashcards Open Source AppのリモートMCPエンドポイントは、次のとおりです。
+NibomoのリモートMCPエンドポイントは、次のとおりです。
 
 `https://mcp.flashcards-open-source-app.com/mcp`
 

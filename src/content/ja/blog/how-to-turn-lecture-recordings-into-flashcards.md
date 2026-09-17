@@ -220,9 +220,9 @@ keywords:
 
 そのほうが、すべての文をカードにして生産性と呼ぶより、ずっとましです。
 
-## Flashcards Open Source App が合う理由
+## Nibomo が合う理由
 
-[Flashcards Open Source App](https://flashcards-open-source-app.com/) は、**講義録音をフラッシュカードで勉強するやり方** と相性が良い選択肢です。文字起こしや AI による下書きだけでは解決しない部分を埋めてくれるからです。
+[Nibomo](https://flashcards-open-source-app.com/) は、**講義録音をフラッシュカードで勉強するやり方** と相性が良い選択肢です。文字起こしや AI による下書きだけでは解決しない部分を埋めてくれるからです。
 
 - 表と裏を持つ本物のフラッシュカードアプリ
 - デッキとタグ
@@ -287,7 +287,7 @@ keywords:
 
 **講義の文字起こしからフラッシュカードを作る流れ** を組みたいなら、まずはここから始めてください。
 
-- [Flashcards Open Source App を開く](https://flashcards-open-source-app.com/)
+- [Nibomo を開く](https://flashcards-open-source-app.com/)
 - [アプリを開く](https://app.flashcards-open-source-app.com/)
 - [セルフホスティングガイドを読む](https://flashcards-open-source-app.com/docs/self-hosting/)
 - [GitHub でソースを見る](https://github.com/kirill-markin/flashcards-open-source-app)

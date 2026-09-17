@@ -17,7 +17,7 @@ keywords:
 
 本来、こういう作業こそツールが肩代わりすべきです。
 
-[Flashcards](https://flashcards-open-source-app.com/) では、1 つのディスカバリー URL から始められる、オープンソースのエージェント向けログインフローを公開しています。
+[Nibomo](https://flashcards-open-source-app.com/) では、1 つのディスカバリー URL から始められる、オープンソースのエージェント向けログインフローを公開しています。
 
 `https://api.flashcards-open-source-app.com/v1/`
 

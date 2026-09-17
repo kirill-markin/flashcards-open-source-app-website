@@ -342,7 +342,7 @@ FSRS がうまく機能するのは、カードが次の条件を満たすとき
 
 ## このワークフローで Flashcards が合う理由
 
-[Flashcards](https://flashcards-open-source-app.com/) は、**Security+ フラッシュカード** とかなり相性がいいです。5つの別ツールをつなぎ合わせなくても、すでにワークフローに合った形になっているからです。
+[Nibomo](https://flashcards-open-source-app.com/) は、**Security+ フラッシュカード** とかなり相性がいいです。5つの別ツールをつなぎ合わせなくても、すでにワークフローに合った形になっているからです。
 
 使えるのは、たとえば次の機能です。
 

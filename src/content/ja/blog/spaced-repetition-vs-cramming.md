@@ -133,7 +133,7 @@ keywords:
 
 FSRSは、カードをいつ復習に戻すか自動で決めます。公式の[Free Spaced Repetition Schedulerプロジェクト](https://github.com/open-spaced-repetition/free-spaced-repetition-scheduler)は、カードの難易度、安定性、想起可能性をモデル化しています。復習のたびに選ぶ評価が、次の復習日を決める材料になります。
 
-Flashcards Open Source Appが現在採用しているスケジューラはFSRS-6です。復習キューには期限を迎えたカードが表示され、次の4段階で評価します。
+Nibomoが現在採用しているスケジューラはFSRS-6です。復習キューには期限を迎えたカードが表示され、次の4段階で評価します。
 
 - `Again`: 思い出せなかった
 - `Hard`: 苦労したが思い出せた

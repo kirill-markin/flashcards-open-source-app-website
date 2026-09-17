@@ -25,7 +25,7 @@ keywords:
 
 ## FSRSはスケジューラであり、フラッシュカードアプリではない
 
-AnkiではFSRSを利用できます。Flashcards Open Source AppもFSRSを採用しています。ほかの製品やライブラリにも実装できます。[open-spaced-repetitionプロジェクト](https://github.com/open-spaced-repetition)は、モデル、実装、関連ツールを公開しています。
+AnkiではFSRSを利用できます。NibomoもFSRSを採用しています。ほかの製品やライブラリにも実装できます。[open-spaced-repetitionプロジェクト](https://github.com/open-spaced-repetition)は、モデル、実装、関連ツールを公開しています。
 
 製品とスケジューラでは、担当する役割が異なります。
 
@@ -173,7 +173,7 @@ Ankiの現在の[FSRS向け学習ステップのガイダンス](https://docs.an
 
 ## FlashcardsでのFSRS実装
 
-> **開示:** 私はKirill Markinで、[Flashcards Open Source App](/ja/features/)を開発しています。このセクションでは、リリース済み製品の動作を説明します。すべての学習者に、別のアプリから乗り換えるよう勧めるものではありません。
+> **開示:** 私はKirill Markinで、[Nibomo](/ja/features/)を開発しています。このセクションでは、リリース済み製品の動作を説明します。すべての学習者に、別のアプリから乗り換えるよう勧めるものではありません。
 
 Flashcardsは現在、公式の`ts-fsrs` 5.2.3のスケジューリング処理と同じ流れを再現する形で、**FSRS-6**を実装しています。標準のAgain、Hard、Good、Easy評価を使います。バックエンド、iOS、Androidのスケジューラは同じ動作に従い、Webの復習フローはバックエンドのスケジューラを再利用します。
 
