@@ -269,7 +269,7 @@ keywords:
 
 ## أين يدخل Flashcards في سير عمل ATI TEAS هذا
 
-إذا أردت تنفيذ هذا داخل [Flashcards](https://flashcards-open-source-app.com/)، فالمواءمة هنا عملية وليست رسمية.
+إذا أردت تنفيذ هذا داخل [Nibomo](https://flashcards-open-source-app.com/)، فالمواءمة هنا عملية وليست رسمية.
 
 لا يوجد تكامل رسمي مع ATI، ولا يوجد وضع خاص لاختبار TEAS. والجزء المفيد أبسط من ذلك.
 
