@@ -275,7 +275,7 @@ Tag those with `needs-recheck` and verify them against the official CFA Institut
 
 ## Where Flashcards fits this CFA workflow
 
-[Flashcards](https://flashcards-open-source-app.com/) fits this workflow because it supports the specific parts a CFA deck needs without pretending to replace CFA Institute materials:
+[Nibomo](https://flashcards-open-source-app.com/) fits this workflow because it supports the specific parts a CFA deck needs without pretending to replace CFA Institute materials:
 
 - front/back card creation and editing
 - decks and tags for topic and source organization
@@ -291,7 +291,7 @@ That is the practical version of **spaced repetition CFA** studying: not a giant
 
 If that is what you want, start here:
 
-- [Open Flashcards](https://flashcards-open-source-app.com/)
+- [Open Nibomo](https://flashcards-open-source-app.com/)
 - [Open the app](https://app.flashcards-open-source-app.com/)
 - [Read the getting started guide](https://flashcards-open-source-app.com/docs/getting-started/)
 - [View the source on GitHub](https://github.com/kirill-markin/flashcards-open-source-app)

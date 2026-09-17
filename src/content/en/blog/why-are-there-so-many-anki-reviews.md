@@ -226,7 +226,7 @@ That last case is common. Some people do not actually have too many reviews. The
 
 ## Where Flashcards fits without pretending to be magic
 
-[Flashcards features](/features/) are useful here for one practical reason: the product covers the part before review and the part during review.
+[Nibomo features](/features/) are useful here for one practical reason: the product covers the part before review and the part during review.
 
 That matters because a lot of review spikes start before the first review day. They start when too many cards enter the live deck, or when AI-generated drafts are accepted without enough editing.
 

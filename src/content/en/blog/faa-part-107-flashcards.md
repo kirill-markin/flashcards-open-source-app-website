@@ -192,7 +192,7 @@ Use a loop: practice in context, inspect the miss, store the smallest reusable l
 
 ## Build and schedule the deck without losing the source
 
-A simple setup in [Flashcards Open Source App](/features/) is enough for this workflow:
+A simple setup in [Nibomo](/features/) is enough for this workflow:
 
 1. Create front-and-back cards for one retrieval target at a time.
 2. Tag each card by ACS area and, when useful, by task, source, or practice miss.
@@ -205,7 +205,7 @@ FSRS schedules when individual cards return. It does not check regulatory accura
 
 The [flashcard review schedule guide](/blog/how-often-should-you-review-flashcards/) explains how due reviews work. The [Getting Started guide](/docs/getting-started/) covers card creation, review, AI chat, and file attachments. The app includes an [independently authored, unofficial FAA Part 107 review deck](/catalog/packages/faa-part-107-flashcards/) with 286 English cards covering the current ACS knowledge areas. It does not include copied exam material, simulate the UAG exam, or replace FAA study materials.
 
-Flashcards Open Source App is not affiliated with or endorsed by the FAA. You remain responsible for checking the material against current official FAA sources.
+Nibomo is not affiliated with or endorsed by the FAA. You remain responsible for checking the material against current official FAA sources.
 
 ## FAA Part 107 flashcards FAQ
 

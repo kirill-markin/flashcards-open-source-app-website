@@ -90,7 +90,7 @@ Now the question changes. It is no longer "Can I retrieve this?" It is "When sho
 
 That is the scheduling problem spaced repetition solves.
 
-A good scheduler brings unstable material back earlier, then backs off as the memory gets easier. In [Flashcards](/), that timing layer runs on FSRS, which matters once your review queue grows beyond a tiny deck. If you want the scheduler comparison itself, [FSRS vs SM-2 in 2026](/blog/fsrs-vs-sm-2/) is the deeper version.
+A good scheduler brings unstable material back earlier, then backs off as the memory gets easier. In [Nibomo](/), that timing layer runs on FSRS, which matters once your review queue grows beyond a tiny deck. If you want the scheduler comparison itself, [FSRS vs SM-2 in 2026](/blog/fsrs-vs-sm-2/) is the deeper version.
 
 So **spaced repetition** is not the replacement for active recall. It is the calendar for the material that earned another review.
 
@@ -220,7 +220,7 @@ If you do retrieval practice and never move the useful misses into a real review
 
 ## Where Flashcards fits
 
-[Flashcards](/) fits after the explanation, after the tutor, after the quiz, and after the practice session.
+[Nibomo](/) fits after the explanation, after the tutor, after the quiz, and after the practice session.
 
 It is the retention layer, not the whole learning process.
 

@@ -121,7 +121,7 @@ For a smaller foundation, [this 24-structure organelle package](https://flashcar
 
 AI is useful for DAT prep when you treat it like a drafting assistant, not like an authority. Good use cases are turning clean biology notes into short Q-and-A candidates, tightening an organic chemistry mistake log, or converting a PAT review note into a reusable rule card. Bad use cases are trusting a giant auto-generated deck or keeping cards that sound polished but test nothing.
 
-If you want to keep drafting, reviewing, and editing in one place, Flashcards Open Source App fits naturally here. The hosted app combines card creation, FSRS review, and AI chat in one workflow, so you can draft cards from your own notes or mistake logs and then clean them up before they enter review. The product surface is explained on [Features](/features/) and the setup is covered in [Getting Started](/docs/getting-started/).
+If you want to keep drafting, reviewing, and editing in one place, Nibomo fits naturally here. The hosted app combines card creation, FSRS review, and AI chat in one workflow, so you can draft cards from your own notes or mistake logs and then clean them up before they enter review. The product surface is explained on [Features](/features/) and the setup is covered in [Getting Started](/docs/getting-started/).
 
 The editing rule is simple: every card should test one thing you actually want to retrieve under pressure. If it does not, delete it.
 

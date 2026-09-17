@@ -17,7 +17,7 @@ Open a login page. Wait for the code. Copy the token. Create an API key. Paste i
 
 That is exactly the kind of work a tool should handle for you.
 
-In [Flashcards](https://flashcards-open-source-app.com/), we now expose an open-source agent login flow that starts from one discovery URL:
+In [Nibomo](https://flashcards-open-source-app.com/), we now expose an open-source agent login flow that starts from one discovery URL:
 
 `https://api.flashcards-open-source-app.com/v1/`
 
@@ -309,7 +309,7 @@ Then let it handle the rest.
 
 Useful links:
 
-- [Flashcards website](https://flashcards-open-source-app.com/)
+- [Nibomo website](https://flashcards-open-source-app.com/)
 - [Hosted app](https://app.flashcards-open-source-app.com/)
 - [Getting started](https://flashcards-open-source-app.com/docs/getting-started/)
 - [GitHub repository](https://github.com/kirill-markin/flashcards-open-source-app)

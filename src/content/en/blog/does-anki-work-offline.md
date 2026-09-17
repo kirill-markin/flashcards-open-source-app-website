@@ -123,6 +123,6 @@ Do not use the rehearsal to redesign note types on two devices. The goal is to p
 
 Anki's installed clients are a strong fit for travel when you want a complete local collection rather than a small set of cached cards. The limits are concrete: the device needs the collection and media in advance, AnkiWeb stays online-only, and network-backed card features still need a connection.
 
-If you are choosing between several tools for travel, the [offline flashcards app comparison](/blog/best-offline-flashcards-app/) applies the same card, editing, progress, media, and later-sync tests to five products. If you are considering a different study stack for reasons beyond connectivity, see [Anki vs Flashcards Open Source App](/blog/anki-vs-flashcards-open-source-app/).
+If you are choosing between several tools for travel, the [offline flashcards app comparison](/blog/best-offline-flashcards-app/) applies the same card, editing, progress, media, and later-sync tests to five products. If you are considering a different study stack for reasons beyond connectivity, see [Anki vs Nibomo](/blog/anki-vs-flashcards-open-source-app/).
 
 The practical answer to “Does Anki work offline?” is yes on desktop, iPhone, iPad, and Android after the exact device has the collection and media you need. Sync before leaving, rehearse in airplane mode, and sync the device with your offline work first when you reconnect.

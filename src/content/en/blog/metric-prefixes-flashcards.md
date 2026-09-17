@@ -216,7 +216,7 @@ Chanting the full chart from quetta to quecto can produce fluent order recall wh
 
 Do the first learning block in a clear order. Mix close alternatives after their basic mappings are stable. The [interleaving guide](/blog/how-to-use-interleaving-with-flashcards/) shows how to mix confusable categories without turning the session into random context switching.
 
-Review saved cards when they are due. Flashcards Open Source App supports front/back Markdown cards, decks and tags, media, and FSRS due reviews. The ready-made metric-prefix deck supplies the recall layer; it does not verify calculations or generate conversion problems for you.
+Review saved cards when they are due. Nibomo supports front/back Markdown cards, decks and tags, media, and FSRS due reviews. The ready-made metric-prefix deck supplies the recall layer; it does not verify calculations or generate conversion problems for you.
 
 ## Diagnose the error before adding more cards
 

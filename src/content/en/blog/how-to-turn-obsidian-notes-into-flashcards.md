@@ -117,7 +117,7 @@ If you want better card-writing rules next, read [How to Make Better Flashcards]
 
 ## Flashcards fits the Obsidian workflow without pretending to be your vault
 
-[Flashcards](https://flashcards-open-source-app.com/) makes sense here because it handles the study side of the workflow cleanly:
+[Nibomo](https://flashcards-open-source-app.com/) makes sense here because it handles the study side of the workflow cleanly:
 
 - create front/back cards
 - use AI chat to draft from pasted text

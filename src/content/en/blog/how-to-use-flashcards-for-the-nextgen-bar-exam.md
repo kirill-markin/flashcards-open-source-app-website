@@ -243,7 +243,7 @@ If you want the scheduling side in more detail, this is the direct companion art
 
 ## Where Flashcards fits this NextGen workflow
 
-If you want to run this inside [Flashcards](https://flashcards-open-source-app.com/), the useful part is not a vague promise that AI makes studying easier. The useful part is that the product already supports the actual middle of this workflow:
+If you want to run this inside [Nibomo](https://flashcards-open-source-app.com/), the useful part is not a vague promise that AI makes studying easier. The useful part is that the product already supports the actual middle of this workflow:
 
 - AI chat in the web app
 - file attachments and plain text uploads for outlines, practice notes, or copied explanations

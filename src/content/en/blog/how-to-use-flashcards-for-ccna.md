@@ -273,7 +273,7 @@ If the review-load side is what usually breaks your plan, [How Many New Flashcar
 
 ## Where Flashcards fits this workflow well
 
-[Flashcards](/) is a good fit for CCNA prep because this exam creates messy source material: lab notes, pasted CLI output, short miss logs, and small troubleshooting summaries. The app can handle the cleanup step and the review step without pretending they are the same job.
+[Nibomo](/) is a good fit for CCNA prep because this exam creates messy source material: lab notes, pasted CLI output, short miss logs, and small troubleshooting summaries. The app can handle the cleanup step and the review step without pretending they are the same job.
 
 I would use it like this:
 

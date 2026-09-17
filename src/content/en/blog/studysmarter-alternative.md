@@ -1,12 +1,12 @@
 ---
-title: "StudySmarter Alternative (2026): StudySmarter vs Flashcards"
+title: "StudySmarter Alternative (2026): StudySmarter vs Nibomo"
 description: "Looking for a StudySmarter alternative? Compare notes, quizzes, FSRS, offline study, mobile apps, AI, self-hosting, and data control."
 date: "2026-08-03"
 image: "/blog/studysmarter-alternative.png"
 keywords:
   - "studysmarter alternative"
   - "alternative to studysmarter"
-  - "studysmarter vs flashcards"
+  - "studysmarter vs nibomo"
   - "simple flashcard app"
   - "focused flashcard app"
   - "open source flashcards app"
@@ -15,11 +15,11 @@ keywords:
   - "self hosted flashcards"
 ---
 
-A StudySmarter study set can sit inside a much larger study routine: notes, uploaded material, shared content, quizzes, mock exams, and a plan for the course. Flashcards Open Source App deliberately narrows that routine to front/back cards and their review queue. That is the useful starting point when searching for a **StudySmarter alternative**.
+A StudySmarter study set can sit inside a much larger study routine: notes, uploaded material, shared content, quizzes, mock exams, and a plan for the course. Nibomo deliberately narrows that routine to front/back cards and their review queue. That is the useful starting point when searching for a **StudySmarter alternative**.
 
 Flashcards is not a smaller copy of StudySmarter. It fits people who already keep notes and source material elsewhere and now want a simple, focused flashcard app. Anyone relying on StudySmarter for the whole course would lose more than a few extra features by moving.
 
-> **Disclosure:** I am Kirill Markin, and I build [Flashcards Open Source App](/features/), one of the products compared here. StudySmarter is better for native notes, source material, ready-made and community content, quizzes, mock exams, and study planning.
+> **Disclosure:** I am Kirill Markin, and I build [Nibomo](/features/), one of the products compared here. StudySmarter is better for native notes, source material, ready-made and community content, quizzes, mock exams, and study planning.
 
 **Facts checked:** August 3, 2026.
 
@@ -28,14 +28,14 @@ Flashcards is not a smaller copy of StudySmarter. It fits people who already kee
 ## The short answer
 
 - Choose **StudySmarter** when you want notes, uploaded learning material, shared sets, explanations, quizzes, mock exams, and planning in one product.
-- Choose **Flashcards Open Source App** when the job is maintaining front/back cards with documented FSRS-6 scheduling, offline-first local writes and sync, MIT-licensed code, AI-agent access, and a supported whole-stack AWS CDK deployment.
+- Choose **Nibomo** when the job is maintaining front/back cards with documented FSRS-6 scheduling, offline-first local writes and sync, MIT-licensed code, AI-agent access, and a supported whole-stack AWS CDK deployment.
 - Keep **StudySmarter** when your complaint is minor. There is no documented lossless migration between these products, and moving to Flashcards means leaving StudySmarter's course-level tools behind.
 
 Neither choice signals a more serious way to study. StudySmarter covers more of the path from course material to exam preparation. Flashcards concentrates on keeping a smaller card collection reviewable over time.
 
-## StudySmarter vs Flashcards at a glance
+## StudySmarter vs Nibomo at a glance
 
-| Question | StudySmarter | Flashcards Open Source App |
+| Question | StudySmarter | Nibomo |
 |---|---|---|
 | Best fit | An all-in-one course and exam workflow | Focused long-term review of front/back cards |
 | Notes | Native notes and documents with formatting, highlights, and annotations | No native notes system; cards use front/back Markdown |
@@ -121,7 +121,7 @@ StudySmarter is the stronger choice when notes, uploaded source material, commun
 
 Leaving makes sense only when another product fixes a concrete constraint. A cleaner card screen rarely compensates for losing a course workflow you already use.
 
-### Choose Flashcards for a focused card collection
+### Choose Nibomo for a focused card collection
 
 Flashcards fits when your notes and source material already live elsewhere and the study app only needs to maintain front/back cards. Documented FSRS-6, offline-first local writes, open code, agent access, and whole-stack control are the reasons to consider it.
 
@@ -139,4 +139,4 @@ StudySmarter is the better choice when your workflow begins with lecture slides,
 
 Flashcards is the more focused **StudySmarter alternative** when the starting point is already a clean set of facts and the job is long-term front/back recall. You give up the broader suite in exchange for documented FSRS-6, offline-first sync, MIT-licensed code, agent access, and supported whole-stack self-hosting.
 
-I build Flashcards, and I would not recommend it as a general replacement for StudySmarter. I would recommend it when the narrower workflow is the reason you want an **alternative to StudySmarter**. If that describes your search, read the [Flashcards features](/features/) or start with the [getting-started guide](/docs/getting-started/).
+I build Nibomo, and I would not recommend it as a general replacement for StudySmarter. I would recommend it when the narrower workflow is the reason you want an **alternative to StudySmarter**. If that describes your search, read the [Nibomo features](/features/) or start with the [getting-started guide](/docs/getting-started/).

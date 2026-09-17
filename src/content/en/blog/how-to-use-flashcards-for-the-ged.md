@@ -256,7 +256,7 @@ If you want the scheduling side in more detail, [How to Study for an Exam With F
 
 ## Where Flashcards fits
 
-[Flashcards](/) is a good fit for this GED workflow because the product already covers the boring parts that make the system stick:
+[Nibomo](/) is a good fit for this GED workflow because the product already covers the boring parts that make the system stick:
 
 - front/back card creation and editing in the hosted web app
 - AI chat for drafting and cleanup from pasted text or file attachments

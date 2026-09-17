@@ -242,7 +242,7 @@ That is where the deck earns its space.
 
 ## Where Flashcards fits this workflow better
 
-[Flashcards](https://flashcards-open-source-app.com/) is a strong fit for **medical school flashcards** because the product already supports the pieces this kind of workflow depends on:
+[Nibomo](https://flashcards-open-source-app.com/) is a strong fit for **medical school flashcards** because the product already supports the pieces this kind of workflow depends on:
 
 - front/back cards for clean recall prompts
 - AI chat for drafting candidate cards from lecture text, notes, or question-review material
@@ -275,4 +275,4 @@ That is the version of **spaced repetition for medical school** I trust.
 
 Not a giant archive or a folder hobby. A deck that still makes sense when the block gets busy and the question stems get mean.
 
-If you want a tool built around that workflow, [Flashcards](https://flashcards-open-source-app.com/) is a strong fit. It gives you front/back cards, AI-assisted drafting, tags, filtered review, and FSRS in one open-source stack that can stay useful from anatomy lab through board-style prep.
+If you want a tool built around that workflow, [Nibomo](https://flashcards-open-source-app.com/) is a strong fit. It gives you front/back cards, AI-assisted drafting, tags, filtered review, and FSRS in one open-source stack that can stay useful from anatomy lab through board-style prep.

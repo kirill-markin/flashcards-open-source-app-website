@@ -298,7 +298,7 @@ If that is the part you want to sharpen, [How to Use AI for Active Recall in 202
 
 ## Where Flashcards fits
 
-[Flashcards](/) is a practical fit for **how to use flashcards for essay exams** because essay prep is usually not only a generation problem. It is an editing, storage, and review problem.
+[Nibomo](/) is a practical fit for **how to use flashcards for essay exams** because essay prep is usually not only a generation problem. It is an editing, storage, and review problem.
 
 You need one place to:
 

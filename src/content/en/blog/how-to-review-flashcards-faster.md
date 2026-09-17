@@ -240,7 +240,7 @@ That solves more cases than most complicated optimization advice.
 
 ## Where Flashcards fits this workflow better
 
-[Flashcards](https://flashcards-open-source-app.com/) is a good fit for this specific problem because the product supports the whole "generate less junk, review the good stuff faster" workflow without pretending every step is the same thing.
+[Nibomo](https://flashcards-open-source-app.com/) is a good fit for this specific problem because the product supports the whole "generate less junk, review the good stuff faster" workflow without pretending every step is the same thing.
 
 The current product capabilities in this repo line up well with that:
 
@@ -283,7 +283,7 @@ And if you are studying with AI in 2026, that is the real skill now. Not generat
 
 If you want to try that workflow in one place:
 
-- [Open Flashcards](https://flashcards-open-source-app.com/)
+- [Open Nibomo](https://flashcards-open-source-app.com/)
 - [Open the app](https://app.flashcards-open-source-app.com/)
 - [Read the features page](https://flashcards-open-source-app.com/features/)
 - [View the source on GitHub](https://github.com/kirill-markin/flashcards-open-source-app)

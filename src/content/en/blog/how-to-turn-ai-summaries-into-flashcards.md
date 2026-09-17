@@ -240,7 +240,7 @@ If your source starts one step earlier, these companion posts are closer fits:
 
 ## The product fit is smaller than the promise, and that is good
 
-[Flashcards](/) fits later in this workflow, after you already have the summary and have decided what actually deserves review.
+[Nibomo](/) fits later in this workflow, after you already have the summary and have decided what actually deserves review.
 
 That is a good fit because the useful next steps are narrow:
 

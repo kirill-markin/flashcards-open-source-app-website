@@ -229,7 +229,7 @@ If you want the algorithm comparison itself, this goes deeper:
 
 ## Where Flashcards fits this workflow better
 
-[Flashcards](https://flashcards-open-source-app.com/) is a strong fit for **how to turn ChatGPT Study Mode into flashcards** because the product covers the part AI tutoring still does not solve by itself:
+[Nibomo](https://flashcards-open-source-app.com/) is a strong fit for **how to turn ChatGPT Study Mode into flashcards** because the product covers the part AI tutoring still does not solve by itself:
 
 - front/back cards instead of chat-only memory
 - AI chat for cleanup and drafting
@@ -262,7 +262,7 @@ That is the version of **ChatGPT Study Mode flashcards** that makes sense to me 
 
 If that is what you want, start here:
 
-- [Open Flashcards](https://flashcards-open-source-app.com/)
+- [Open Nibomo](https://flashcards-open-source-app.com/)
 - [Open the app](https://app.flashcards-open-source-app.com/)
 - [See the features](https://flashcards-open-source-app.com/features/)
 - [View the source on GitHub](https://github.com/kirill-markin/flashcards-open-source-app)

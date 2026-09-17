@@ -1,6 +1,6 @@
 ---
-title: "Open Source Quizlet Alternative in 2026: Quizlet vs Flashcards"
-description: "Looking for an open source Quizlet alternative? Compare Quizlet and Flashcards across study modes, FSRS, offline use, AI, sharing, import, export, and data control."
+title: "Open Source Quizlet Alternative in 2026: Quizlet vs Nibomo"
+description: "Looking for an open source Quizlet alternative? Compare Quizlet and Nibomo across study modes, FSRS, offline use, AI, sharing, import, export, and data control."
 date: "2026-03-17"
 updated: "2026-08-02"
 image: "/blog/quizlet-alternative.png"
@@ -8,14 +8,14 @@ keywords:
   - "open source Quizlet alternative"
   - "open-source Quizlet alternative"
   - "Quizlet alternative"
-  - "Quizlet vs Flashcards"
+  - "Quizlet vs Nibomo"
   - "Quizlet alternative 2026"
   - "FSRS flashcards app"
   - "offline flashcards app"
   - "self-hosted flashcards app"
 ---
 
-An **open source Quizlet alternative** can replace a daily review queue without replacing Quizlet's Learn mode, Test mode, or library of public sets. That is the catch with [Flashcards](/features/): it adds documented FSRS-6 scheduling, offline-first writes on web and mobile, and an MIT-licensed self-hosting path, but it is not an open-source clone of Quizlet.
+An **open source Quizlet alternative** can replace a daily review queue without replacing Quizlet's Learn mode, Test mode, or library of public sets. That is the catch with [Nibomo](/features/): it adds documented FSRS-6 scheduling, offline-first writes on web and mobile, and an MIT-licensed self-hosting path, but it is not an open-source clone of Quizlet.
 
 Quizlet remains stronger for guided study modes, practice tests, AI study products, and shared content. Flashcards is built around a simpler front/back review queue, agent access, and a production AWS CDK deployment you can run in your own account.
 
@@ -29,7 +29,7 @@ Quizlet remains stronger for guided study modes, practice tests, AI study produc
 
 Choose **Quizlet** if you want a familiar classroom workflow, varied question types, generated practice tests, or existing public study sets. Its Learn and Test experiences are more developed than a standard flashcard review queue.
 
-Choose **Flashcards** if the main reason you want an open-source Quizlet alternative is transparent FSRS-6 scheduling, offline-first study on the web as well as mobile, AI and agent access to your workspace, or the option to operate the infrastructure yourself.
+Choose **Nibomo** if the main reason you want an open-source Quizlet alternative is transparent FSRS-6 scheduling, offline-first study on the web as well as mobile, AI and agent access to your workspace, or the option to operate the infrastructure yourself.
 
 Switching has a real cost. Flashcards has no direct Quizlet importer, and Quizlet export does not contain enough information for a lossless move. If your current Quizlet workflow works, staying put can be the sensible answer.
 
@@ -149,4 +149,4 @@ Flashcards is an **open source Quizlet alternative** in 2026 for one specific ki
 
 It is not “Quizlet without the drawbacks.” It has its own gaps: no dedicated Learn or Test modes, no comparable shared-set library, no direct Quizlet importer, and no complete portable backup through `flashcards.zip`.
 
-If those gaps remove the parts of Quizlet you use most, stay with Quizlet. If scheduler transparency, offline-first study, and infrastructure control are the reason you started searching, [open Flashcards](https://app.flashcards-open-source-app.com/) or [inspect the source](https://github.com/kirill-markin/flashcards-open-source-app) before deciding. A good study system is the one whose tradeoffs still look reasonable after the novelty wears off.
+If those gaps remove the parts of Quizlet you use most, stay with Quizlet. If scheduler transparency, offline-first study, and infrastructure control are the reason you started searching, [open Nibomo](https://app.flashcards-open-source-app.com/) or [inspect the source](https://github.com/kirill-markin/flashcards-open-source-app) before deciding. A good study system is the one whose tradeoffs still look reasonable after the novelty wears off.

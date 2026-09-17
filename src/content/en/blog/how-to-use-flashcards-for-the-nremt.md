@@ -259,7 +259,7 @@ The better setup is:
 3. review them in mixed order
 4. let FSRS decide when they come back
 
-That is where the [features page](/features/) and [getting-started guide](/docs/getting-started/) fit nicely if you want one place for front/back cards and FSRS review. Flashcards Open Source App is just the study tool here, not an official NREMT product.
+That is where the [features page](/features/) and [getting-started guide](/docs/getting-started/) fit nicely if you want one place for front/back cards and FSRS review. Nibomo is just the study tool here, not an official NREMT product.
 
 If you want the scheduling side in more detail, [this FSRS exam guide](/blog/how-to-study-for-an-exam-with-fsrs/) is the next read.
 
@@ -309,4 +309,4 @@ The useful deck is smaller and more specific. It is built around CAT misses, pri
 
 The [NREMT EMT assessment, treatment, and operations deck](/catalog/packages/nremt-emt-flashcards-assessment-treatment-operations/) is a ready-made option for recall in those areas. Use it alongside scenario judgment, NREMT Technology Enhanced Item practice, and practical-style exercises—the deck complements that work rather than replacing it.
 
-If you want a tool that supports that workflow, start with the [getting-started guide](/docs/getting-started/) or read the [features page](/features/). Flashcards Open Source App is an open-source study tool built around FSRS review. It is not affiliated with NREMT, and it works best when you feed it small cards from real misses instead of giant summaries.
+If you want a tool that supports that workflow, start with the [getting-started guide](/docs/getting-started/) or read the [features page](/features/). Nibomo is an open-source study tool built around FSRS review. It is not affiliated with NREMT, and it works best when you feed it small cards from real misses instead of giant summaries.

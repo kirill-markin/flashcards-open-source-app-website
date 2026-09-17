@@ -159,11 +159,11 @@ Start with a daily load you can finish on a normal workday. As the appointment a
 
 Flashcards train retrieval over time. Timed question sets train you to read, choose, pace, and tolerate uncertainty. You need both.
 
-## Where Flashcards Open Source App fits
+## Where Nibomo fits
 
-[Flashcards Open Source App features](/features/) support this workflow: you can author or import front/back cards, organize them with tags, use AI-assisted drafting, and review with FSRS.
+[Nibomo features](/features/) support this workflow: you can author or import front/back cards, organize them with tags, use AI-assisted drafting, and review with FSRS.
 
-AI output still needs human review. Flashcards Open Source App is not affiliated with ASWB, is not an official ASWB content provider, and is not an exam simulator. It does not include an ASWB deck or question bank. Bring sources you have the right to use and keep category and jurisdiction context attached to the cards that need it.
+AI output still needs human review. Nibomo is not affiliated with ASWB, is not an official ASWB content provider, and is not an exam simulator. It does not include an ASWB deck or question bank. Bring sources you have the right to use and keep category and jurisdiction context attached to the cards that need it.
 
 ## Final check before you study the deck
 

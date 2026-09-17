@@ -261,9 +261,9 @@ If you want the scheduling side in more detail, go here:
 
 - [FSRS vs SM-2 in 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
 
-## Where Flashcards Open Source App fits
+## Where Nibomo fits
 
-[Flashcards Open Source App](https://flashcards-open-source-app.com/) is a good fit for an **article to flashcards** workflow because the product already covers the parts that matter most:
+[Nibomo](https://flashcards-open-source-app.com/) is a good fit for an **article to flashcards** workflow because the product already covers the parts that matter most:
 
 - paste or upload plain text from an article, blog post, newsletter, or docs page
 - clean up the source inside AI chat before making cards

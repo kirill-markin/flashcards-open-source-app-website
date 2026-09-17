@@ -1,12 +1,12 @@
 ---
-title: "Brainscape Alternative (2026): Brainscape vs Flashcards"
-description: "Compare Brainscape and Flashcards across Confidence-Based Repetition vs FSRS, offline use, mobile apps, collaboration, AI, pricing, imports, exports, and ownership."
+title: "Brainscape Alternative (2026): Brainscape vs Nibomo"
+description: "Compare Brainscape and Nibomo across Confidence-Based Repetition vs FSRS, offline use, mobile apps, collaboration, AI, pricing, imports, exports, and ownership."
 date: "2026-03-21"
 updated: "2026-08-03"
 image: "/blog/brainscape-alternative.png"
 keywords:
   - "brainscape alternative"
-  - "brainscape vs flashcards"
+  - "brainscape vs nibomo"
   - "confidence-based repetition vs FSRS"
   - "offline flashcards app"
   - "open source flashcards app"
@@ -17,7 +17,7 @@ keywords:
 
 The most important difference between Brainscape and Flashcards is a field you never have to manage in Brainscape: a card's exact due time. Brainscape asks for a confidence rating from 1 to 5 and keeps the deck available for another pass. Flashcards asks Again, Hard, Good, or Easy, then uses FSRS-6 to assign that card a specific next review time.
 
-That scheduler split drives most of the **Brainscape vs Flashcards** decision. Brainscape is the better choice for shared classes, editing permissions, teacher analytics, broad spreadsheet import, and a guided loop you can use for cramming at any time. [Flashcards](/features/) is the stronger **Brainscape alternative** when you want an explicit due queue, offline-first edits on every supported client, AI-agent access, MIT-licensed code, or a self-hosted deployment.
+That scheduler split drives most of the **Brainscape vs Nibomo** decision. Brainscape is the better choice for shared classes, editing permissions, teacher analytics, broad spreadsheet import, and a guided loop you can use for cramming at any time. [Nibomo](/features/) is the stronger **Brainscape alternative** when you want an explicit due queue, offline-first edits on every supported client, AI-agent access, MIT-licensed code, or a self-hosted deployment.
 
 > **Disclosure:** I am Kirill Markin, and I build Flashcards, one of the products compared here. Brainscape wins several important categories in this article. I have limited the comparison to behavior documented by official product pages, help articles, and source repositories.
 
@@ -29,24 +29,24 @@ That scheduler split drives most of the **Brainscape vs Flashcards** decision. B
 
 Choose **Brainscape** if you want to share classes, control who may edit cards, monitor student progress, import common spreadsheet files, or study a deck on demand without waiting for cards to become due. Its 1–5 Confidence-Based Repetition flow remains available for a last-minute cram session.
 
-Choose **Flashcards** if you want FSRS-6 to create an explicit due queue around a target retention setting, need edits and reviews to save locally on web, iOS, and Android, or want an open-source flashcards app with AI chat, MCP, an Agent API, and documented self-hosting.
+Choose **Nibomo** if you want FSRS-6 to create an explicit due queue around a target retention setting, need edits and reviews to save locally on web, iOS, and Android, or want an open-source flashcards app with AI chat, MCP, an Agent API, and documented self-hosting.
 
 Stay with Brainscape if its classes or analytics are part of your real workflow. Flashcards does not currently replace them, and moving cards would also leave Brainscape scheduling history behind.
 
-## Brainscape vs Flashcards at a glance
+## Brainscape vs Nibomo at a glance
 
-| Decision | Brainscape | Flashcards | Practical winner |
+| Decision | Brainscape | Nibomo | Practical winner |
 |---|---|---|---|
-| Review model | Confidence-Based Repetition; rate 1–5, with low-confidence cards selected more often and high-confidence cards less often | FSRS-6; rate Again/Hard/Good/Easy and store an explicit `due_at` | Brainscape for flexible repeat/cram study; Flashcards for a due queue and retention control |
+| Review model | Confidence-Based Repetition; rate 1–5, with low-confidence cards selected more often and high-confidence cards less often | FSRS-6; rate Again/Hard/Good/Easy and store an explicit `due_at` | Brainscape for flexible repeat/cram study; Nibomo for a due queue and retention control |
 | Scheduler detail | Relative selection from confidence buckets whenever you request the next card; even all-5 decks remain studyable | D/S/R memory state; 0.90 desired retention; 1/10-minute learning steps; 10-minute relearning; 36,500-day max; fuzz; pinned non-personalized weights | Depends on the queue you want |
 | Platforms | Web, iOS, Android | Web, iOS, Android; no desktop client | Tie for supported platforms |
-| Offline behavior | Previously downloaded cards can be studied offline on mobile; creating and editing need a connection | Reviews and edits write locally first in IndexedDB on web, SQLite on iOS, and Room/SQLite on Android, then sync | Flashcards for offline creation and editing |
+| Offline behavior | Previously downloaded cards can be studied offline on mobile; creating and editing need a connection | Reviews and edits write locally first in IndexedDB on web, SQLite on iOS, and Room/SQLite on Android, then sync | Nibomo for offline creation and editing |
 | Collaboration | Classes, share links, editor permissions, and detailed analytics on school/group plans | No equivalent link-shared classes, card-editor permissions, or teacher progress analytics | Brainscape |
-| AI | Basic can make “100s” of AI flashcards; Pro lists unlimited AI; source-to-card and import-cleanup workflows | AI chat, supported file attachments, workspace read/write actions, MCP, and Agent API | Brainscape for guided bulk authoring; Flashcards for agent access |
+| AI | Basic can make “100s” of AI flashcards; Pro lists unlimited AI; source-to-card and import-cleanup workflows | AI chat, supported file attachments, workspace read/write actions, MCP, and Agent API | Brainscape for guided bulk authoring; Nibomo for agent access |
 | Import | Paste a list or upload CSV, TXT, XLSX, or ODS; mobile also accepts files, images, and camera capture | Direct import only for its own `flashcards.zip`; other supported files can be source material for reviewed AI drafting | Brainscape for general import |
-| Export | Pro deck export produces spreadsheet files that open in Excel | `flashcards.zip` carries active cards, tags, and referenced media between Flashcards workspaces or instances | Depends: Brainscape for spreadsheets; Flashcards for its own workspace transfer |
+| Export | Pro deck export produces spreadsheet files that open in Excel | `flashcards.zip` carries active cards, tags, and referenced media between Flashcards workspaces or instances | Depends: Brainscape for spreadsheets; Nibomo for its own workspace transfer |
 | Price checked August 3, 2026 | Basic free; Pro shown at US$7.99/month on annual billing; Enterprise by quote | Hosted app free during beta; self-hosted software free plus infrastructure and provider costs | Depends on usage and hosting choice |
-| Ownership | Proprietary hosted service; export exists on Pro | Full application and infrastructure MIT licensed; documented AWS self-hosting | Flashcards |
+| Ownership | Proprietary hosted service; export exists on Pro | Full application and infrastructure MIT licensed; documented AWS self-hosting | Nibomo |
 
 This is a decision table, not a feature score. A teacher running six classes may reasonably pick Brainscape even if open-source ownership sounds appealing. A solo learner who edits cards on an unreliable connection may make the opposite choice.
 
@@ -62,7 +62,7 @@ Its [official algorithm comparison](https://www.brainscape.com/academy/comparing
 
 This is useful when you want a guided loop without configuring intervals. It also suits cramming: open the deck, keep reviewing, and let lower-confidence material take more of the session. The tradeoff is that Brainscape is not presenting a calendar-like queue in which every card has a specific due time.
 
-### Flashcards creates a due queue around retention
+### Nibomo creates a due queue around retention
 
 Flashcards uses [FSRS-6](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/docs/fsrs-scheduling-logic.md). The [open FSRS model](https://github.com/open-spaced-repetition/free-spaced-repetition-scheduler) represents a card's memory state through difficulty (D), stability (S), and retrievability (R). After Again, Hard, Good, or Easy, Flashcards updates that state and stores an explicit `due_at` timestamp.
 

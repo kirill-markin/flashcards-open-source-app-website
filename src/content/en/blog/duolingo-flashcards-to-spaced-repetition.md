@@ -166,11 +166,11 @@ If your destination is Anki, build the selected cards in Anki. A **Duolingo to A
 
 If you want a new learner-owned deck elsewhere, the same card-selection rules still apply. Do not move five lesson words merely because there were five cards on the screen. Move only the items that proved they need longer attention.
 
-## Where Flashcards Open Source App fits
+## Where Nibomo fits
 
-> **Disclosure:** I am Kirill Markin, and I build [Flashcards Open Source App](/features/).
+> **Disclosure:** I am Kirill Markin, and I build [Nibomo](/features/).
 
-Flashcards is one place to keep the learner-owned half of this workflow. The [hosted app](/docs/getting-started/) lets you create and review cards, use AI chat with workspace data and file attachments, and schedule reviews with FSRS. The [repository is open source](https://github.com/kirill-markin/flashcards-open-source-app), and there is a documented [self-hosting path](/docs/self-hosting/).
+Nibomo is one place to keep the learner-owned half of this workflow. The [hosted app](/docs/getting-started/) lets you create and review cards, use AI chat with workspace data and file attachments, and schedule reviews with FSRS. The [repository is open source](https://github.com/kirill-markin/flashcards-open-source-app), and there is a documented [self-hosting path](/docs/self-hosting/).
 
 For this Duolingo workflow, manual entry is usually enough. AI can help split a correction or rewrite an awkward prompt, but it should not decide which lesson vocabulary deserves long-term review. You make that choice because you know what you missed and what you want to say.
 

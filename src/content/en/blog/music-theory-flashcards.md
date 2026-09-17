@@ -187,7 +187,7 @@ Useful music-theory mixes include:
 
 Random variety is not the goal. Mix categories that look similar, use competing rules, or appear together in real analysis. Keep listening and performed work in the session too, but do not call a written card ear training because an audio exercise happens to sit beside it.
 
-The guide to [interleaving with flashcards](/blog/how-to-use-interleaving-with-flashcards/) explains this one-category-to-mixed progression in more detail. Flashcards Open Source App does not build deliberate contrast sets automatically, so choose the related prompts yourself.
+The guide to [interleaving with flashcards](/blog/how-to-use-interleaving-with-flashcards/) explains this one-category-to-mixed progression in more detail. Nibomo does not build deliberate contrast sets automatically, so choose the related prompts yourself.
 
 ## How many music theory flashcards should you make?
 
@@ -204,9 +204,9 @@ Control the count with a few rules:
 
 Tags let you assemble a short contrast set without splitting each tiny category into its own deck. The broader [better-flashcards guide](/blog/how-to-make-better-flashcards/) is useful when a back starts collecting several definitions, exceptions, and examples.
 
-## Where Flashcards Open Source App fits
+## Where Nibomo fits
 
-[Flashcards Open Source App](/features/) provides front/back cards, decks and tags, and FSRS due reviews with `Again`, `Hard`, `Good`, and `Easy`. It is offline-first on the web, iOS, and Android. Its source is available under the MIT license, with self-hosting supported.
+[Nibomo](/features/) provides front/back cards, decks and tags, and FSRS due reviews with `Again`, `Hard`, `Good`, and `Easy`. It is offline-first on the web, iOS, and Android. Its source is available under the MIT license, with self-hosting supported.
 
 AI chat can work with uploaded files or images to draft candidate cards from a lesson page or notation crop. Check every pitch, accidental, symbol, and answer against the controlling source before saving. The app does not provide a notation editor, ear-training engine, full music-theory course, automatic fact verification, or automatic interleaving. Those jobs remain in your course materials and music practice.
 

@@ -247,7 +247,7 @@ This is also where the difference between a nursing-school deck and an NCLEX dec
 
 ## Where Flashcards fits
 
-[Flashcards](https://flashcards-open-source-app.com/) fits this workflow well because it gives you the boring things that matter: small front/back cards, tags, filtered review, and FSRS scheduling once the cards are clean enough to trust.
+[Nibomo](https://flashcards-open-source-app.com/) fits this workflow well because it gives you the boring things that matter: small front/back cards, tags, filtered review, and FSRS scheduling once the cards are clean enough to trust.
 
 That is useful for NCLEX prep because your source material gets messy fast. Rationales live in one tab, handwritten notes in another, a lab-values sheet somewhere else, and your real weak spots are usually scattered across all of them. The right tool is the one that lets you turn those into smaller cards without creating a second full-time study system.
 

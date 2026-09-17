@@ -118,7 +118,7 @@ This is why I do not fully trust raw exports from any **AI study tool flashcards
 
 ## Where Flashcards fits this workflow better
 
-[Flashcards](https://flashcards-open-source-app.com/) is a strong fit for this exact gap because the product is not only a generator and not only a review tool. It lets you do the cleanup step in the same place where the review will happen.
+[Nibomo](https://flashcards-open-source-app.com/) is a strong fit for this exact gap because the product is not only a generator and not only a review tool. It lets you do the cleanup step in the same place where the review will happen.
 
 That matters more than people admit.
 
@@ -201,4 +201,4 @@ I would treat them as a draft.
 
 That is the version of **NotebookLM flashcards** I trust most: use NotebookLM to get from messy sources to candidate cards, then move those cards into a real spaced repetition workflow where you can edit them, shorten them, and review them with an actual scheduler.
 
-If that is what you want, [Flashcards](https://flashcards-open-source-app.com/) is a strong fit. It gives you a practical bridge from AI-generated study material to a deck you might still be reviewing a month from now.
+If that is what you want, [Nibomo](https://flashcards-open-source-app.com/) is a strong fit. It gives you a practical bridge from AI-generated study material to a deck you might still be reviewing a month from now.

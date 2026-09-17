@@ -203,7 +203,7 @@ Keep the scheduler out of the sequencing experiment. Interleaving with spaced re
 
 ## How Flashcards fits the workflow
 
-[Flashcards Open Source App](/features/) gives this workflow a clear retention layer: explicit front/back cards, four review ratings, and FSRS scheduling for due cards. Its published feature contract does not promise automatic interleaving across decks or workspaces, so do not assume that a normal due queue is constructing deliberate contrast pairs for you.
+[Nibomo](/features/) gives this workflow a clear retention layer: explicit front/back cards, four review ratings, and FSRS scheduling for due cards. Its published feature contract does not promise automatic interleaving across decks or workspaces, so do not assume that a normal due queue is constructing deliberate contrast pairs for you.
 
 Keep the boundary clear:
 

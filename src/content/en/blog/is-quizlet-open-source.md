@@ -128,7 +128,7 @@ The [broader Quizlet alternatives guide](/blog/quizlet-alternative/) covers prod
 
 ## Disclosure: I build an open-source alternative
 
-> **Disclosure:** I am Kirill Markin, and I build [Flashcards Open Source App](/features/). Its [MIT-licensed repository](https://github.com/kirill-markin/flashcards-open-source-app) contains the full web, iOS, Android, authentication, backend, sync, and infrastructure stack. That provides a different source boundary from Quizlet, but it does not make Flashcards a drop-in Quizlet replacement.
+> **Disclosure:** I am Kirill Markin, and I build [Nibomo](/features/). Its [MIT-licensed repository](https://github.com/kirill-markin/flashcards-open-source-app) contains the full web, iOS, Android, authentication, backend, sync, and infrastructure stack. That provides a different source boundary from Quizlet, but it does not make Nibomo a drop-in Quizlet replacement.
 
 Flashcards has an [AWS-centered self-hosting guide](/docs/self-hosting/), not a one-click local installer. The operator owns the cloud accounts, authentication, email delivery, monitoring, backups, upgrades, and native app builds.
 

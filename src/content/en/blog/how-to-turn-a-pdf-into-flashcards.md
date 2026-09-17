@@ -153,7 +153,7 @@ If you want the scheduling side in more detail, this companion article goes deep
 
 ## Where Flashcards fits this workflow
 
-[Flashcards](https://flashcards-open-source-app.com/) works well for **turn pdf into flashcards** because the product already has the parts that matter in one place:
+[Nibomo](https://flashcards-open-source-app.com/) works well for **turn pdf into flashcards** because the product already has the parts that matter in one place:
 
 - AI chat
 - file attachments
@@ -204,4 +204,4 @@ Ask it to become raw material for a better draft.
 
 That is the version of **how to turn a PDF into flashcards** I actually trust. It is less magical, a little more manual, and much more likely to produce cards you will still respect after three review sessions.
 
-If that is the workflow you want, [Flashcards](https://flashcards-open-source-app.com/) is a strong fit: upload the document, draft cards with AI, clean them up, and then study them inside a real spaced repetition system instead of leaving them stranded in a generation demo.
+If that is the workflow you want, [Nibomo](https://flashcards-open-source-app.com/) is a strong fit: upload the document, draft cards with AI, clean them up, and then study them inside a real spaced repetition system instead of leaving them stranded in a generation demo.

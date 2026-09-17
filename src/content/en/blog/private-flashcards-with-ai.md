@@ -81,7 +81,7 @@ That is a healthier setup than the fake choice between old desktop software and 
 
 ## What Flashcards already documents
 
-[Flashcards](/) fits that middle path because the control choices are already visible in the repo, [features page](/features/), docs, and public pages.
+[Nibomo](/) fits that middle path because the control choices are already visible in the repo, [features page](/features/), docs, and public pages.
 
 Today the project documents:
 

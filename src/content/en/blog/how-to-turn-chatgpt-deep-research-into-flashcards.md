@@ -198,7 +198,7 @@ For the general card-quality side, [How to Make Better Flashcards in 2026](/blog
 
 ## Where Flashcards actually fits
 
-[Flashcards](/features/) fits after the research pass, not before it.
+[Nibomo](/features/) fits after the research pass, not before it.
 
 The product does not claim a direct one-click integration with ChatGPT Deep Research. The honest workflow is simpler:
 
@@ -240,4 +240,4 @@ Memorize the verified parts you would hate to forget.
 
 That is the version of **deep research spaced repetition** that actually holds up: use ChatGPT Deep Research to gather, compare, and document the topic, then turn only the dated facts, distinctions, and decision rules into clean cards you can review with FSRS.
 
-If that is what you want, [Flashcards](/) is a strong fit. It gives you one place to clean up the useful part of a research report, turn it into front/back cards, and keep reviewing after the excitement of the first AI-generated report wears off.
+If that is what you want, [Nibomo](/) is a strong fit. It gives you one place to clean up the useful part of a research report, turn it into front/back cards, and keep reviewing after the excitement of the first AI-generated report wears off.

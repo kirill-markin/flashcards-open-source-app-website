@@ -14,11 +14,11 @@ keywords:
   - "YouTube video flashcard generator"
 ---
 
-The best YouTube-to-flashcards tool depends less on how quickly it accepts a URL than on what you can inspect, edit, review, and move afterward. AnkiDecks has the clearest documented route from a public YouTube URL to an Anki `.apkg` file. StudyFetch and Knowt are more direct if you want generated cards inside their own study environments. Gizmo's documented YouTube workflow creates an AI Tutor lesson, not a flashcard deck. Flashcards Open Source App takes an extra step because you bring the transcript yourself, but gives you an editable, portable deck with FSRS, offline study, and a self-hosting option.
+The best YouTube-to-flashcards tool depends less on how quickly it accepts a URL than on what you can inspect, edit, review, and move afterward. AnkiDecks has the clearest documented route from a public YouTube URL to an Anki `.apkg` file. StudyFetch and Knowt are more direct if you want generated cards inside their own study environments. Gizmo's documented YouTube workflow creates an AI Tutor lesson, not a flashcard deck. Nibomo takes an extra step because you bring the transcript yourself, but gives you an editable, portable deck with FSRS, offline study, and a self-hosting option.
 
 So there isn't one universal winner. Choose the output and exit path first; the input box is the easy part.
 
-**Disclosure:** I build Flashcards Open Source App. This comparison is based on current official documentation, not hands-on testing. **Facts checked: September 13, 2026.**
+**Disclosure:** I build Nibomo. This comparison is based on current official documentation, not hands-on testing. **Facts checked: September 13, 2026.**
 
 ![Student comparing a YouTube transcript with five draft flashcards before choosing a study app](/blog/youtube-to-flashcards.png)
 
@@ -30,7 +30,7 @@ So there isn't one universal winner. Choose the output and exit path first; the 
 | [Knowt](https://help.knowt.com/en/articles/10298038-how-to-create-flashcards-and-notes-from-a-youtube-video-using-the-chrome-extension) | Yes, through its Chrome extension | Kai analyzes the open video, sends the result to Knowt, and can create flashcards or notes | The cited YouTube guide keeps the workflow in Knowt and does not document an export step | You already watch in Chrome and want the shortest route into Knowt |
 | [AnkiDecks](https://anki-decks.com/) | Yes; paste a public YouTube URL | Transcript-based Q&A, Cloze, or Multiple Choice cards with timestamps | Built-in FSRS and `.apkg` export are documented | You want Anki flashcards from YouTube or a clear Anki-compatible exit |
 | [Gizmo](https://help.gizmo.ai/en/articles/15935404-how-do-i-use-magic-import-to-start-an-ai-tutor-lesson) | Yes; paste a YouTube URL into the documented AI Tutor import | A transcript-grounded Tutor lesson that teaches and quizzes you | This route is a lesson, not a documented YouTube-to-card export flow | You want guided tutoring more than a reusable deck |
-| [Flashcards Open Source App](/features/) | No documented direct YouTube URL import; [bring the transcript as a file attachment](/docs/getting-started/) | AI-assisted card drafts that you choose, edit, and save | FSRS, portable exports, offline mobile study, and self-hosting | You value verification, data ownership, and a long-lived review system |
+| [Nibomo](/features/) | No documented direct YouTube URL import; [bring the transcript as a file attachment](/docs/getting-started/) | AI-assisted card drafts that you choose, edit, and save | FSRS, portable exports, offline mobile study, and self-hosting | You value verification, data ownership, and a long-lived review system |
 
 The label “YouTube flashcard generator” hides the important distinction: accepting a YouTube link does not tell you whether you will get cards, a tutor session, an editable deck, or a file you can move elsewhere.
 
@@ -141,9 +141,9 @@ Use this order when choosing:
 
 This approach also avoids a common trap: choosing a generator for its demo, then discovering that the deck is difficult to edit, verify, or move after the real work begins.
 
-## Where Flashcards Open Source App fits honestly
+## Where Nibomo fits honestly
 
-Flashcards Open Source App does **not** currently document direct YouTube URL ingestion. The practical route is transcript-first:
+Nibomo does **not** currently document direct YouTube URL ingestion. The practical route is transcript-first:
 
 1. Open the video's YouTube transcript.
 2. Put the relevant chapter in a file rather than sending the whole transcript.

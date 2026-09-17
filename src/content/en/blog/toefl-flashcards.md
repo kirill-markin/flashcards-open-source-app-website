@@ -238,9 +238,9 @@ They cannot replace:
 
 Use [official TOEFL preparation resources](https://www.ets.org/toefl/test-takers/ibt/prepare.html) throughout your study plan. Full practice also reveals pacing and attention problems that a vocabulary queue cannot expose.
 
-## Where Flashcards Open Source App fits
+## Where Nibomo fits
 
-[Flashcards](/) covers the retention layer of this workflow. The web app supports front/back cards, AI chat with workspace data and file attachments, including plain-text files, and FSRS review. The review choices are Again, Hard, Good, and Easy.
+[Nibomo](/) covers the retention layer of this workflow. The web app supports front/back cards, AI chat with workspace data and file attachments, including plain-text files, and FSRS review. The review choices are Again, Hard, Good, and Easy.
 
 One careful workflow is:
 

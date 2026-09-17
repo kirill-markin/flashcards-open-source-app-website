@@ -229,9 +229,9 @@ Once a week, compare your deck with the domain table. This catches blind spots w
 
 CompTIA recommends 12 months of hands-on experience in an IT support specialist role for both V15 exams. That is guidance, not an extra certification requirement, but it is a useful reminder about the level of practical context the objectives expect.
 
-## Where Flashcards Open Source App fits
+## Where Nibomo fits
 
-[Flashcards Open Source App](/features/) handles the memory layer: plain front-and-back cards, decks and tags, due review with FSRS, optional AI help with card drafts, offline mobile study with sync, and portable exports. The hosted app is free during the current beta, and the project can be self-hosted.
+[Nibomo](/features/) handles the memory layer: plain front-and-back cards, decks and tags, due review with FSRS, optional AI help with card drafts, offline mobile study with sync, and portable exports. The hosted app is free during the current beta, and the project can be self-hosted.
 
 For a ready-made starting point, the independently authored, unofficial [CompTIA A+ 220-1201 & 220-1202 Flashcards: Core 1 and Core 2](/catalog/packages/comptia-a-plus-220-1201-220-1202-flashcards/) package reviews both current V15 exams in 520 original cards; keep hands-on labs and lawful PBQ practice alongside it.
 

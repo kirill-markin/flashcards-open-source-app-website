@@ -237,9 +237,9 @@ Keep the routine small enough to use through the school year:
 
 Choose a daily new-card target that leaves time to finish reviews and solve real questions. [How Many New Flashcards Per Day?](/blog/how-many-new-flashcards-per-day/) explains how to adjust it as reviews accumulate.
 
-## Where Flashcards Open Source App fits
+## Where Nibomo fits
 
-[Flashcards Open Source App](/features/) can handle the memory layer: front/back cards, tags, FSRS scheduling, imports and portable exports, AI-assisted drafts, and offline-first clients. One card can carry unit, practice, and mistake tags.
+[Nibomo](/features/) can handle the memory layer: front/back cards, tags, FSRS scheduling, imports and portable exports, AI-assisted drafts, and offline-first clients. One card can carry unit, practice, and mistake tags.
 
 Use AI assistance to shorten an overloaded answer or draft from your notes. Check every statistical claim against the current Course and Exam Description or your teacher's materials before saving it.
 

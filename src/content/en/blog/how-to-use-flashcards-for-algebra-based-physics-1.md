@@ -233,7 +233,7 @@ For more on scheduling, [How to Study for an Exam With FSRS in 2026](/blog/how-t
 
 ## Where Flashcards fits in the workflow
 
-[Flashcards](/) gives you one place for graph cues, formula conditions, force-selection mistakes, experiment decisions, and reasoning repairs instead of scattering them across screenshots and old corrections.
+[Nibomo](/) gives you one place for graph cues, formula conditions, force-selection mistakes, experiment decisions, and reasoning repairs instead of scattering them across screenshots and old corrections.
 
 The useful parts are practical:
 

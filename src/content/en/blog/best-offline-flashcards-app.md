@@ -1,6 +1,6 @@
 ---
 title: "Which Flashcard Apps Work Offline in 2026? 5 Apps Compared"
-description: "Compare Anki, Quizlet, RemNote, Mochi, and Flashcards by offline card access, editing, media, review history, and sync—plus a practical airplane-mode test."
+description: "Compare Anki, Quizlet, RemNote, Mochi, and Nibomo by offline card access, editing, media, review history, and sync—plus a practical airplane-mode test."
 date: "2026-03-16"
 updated: "2026-08-22"
 image: "/blog/best-offline-flashcards-app.png"
@@ -18,7 +18,7 @@ Which study app works offline? **All five apps in this comparison can keep at le
 
 The browser versions are different products for this decision. A downloaded mobile set, a cached image, and a tab that happens to survive a connection loss are not the same as an installed app that can cold-open its local collection.
 
-> **Disclosure:** I am Kirill Markin, and I build [Flashcards](https://flashcards-open-source-app.com/), one of the products compared here. I do not treat it as the automatic winner. It is younger than Anki, its first login and workspace hydration need internet, and remote media is available offline only after the device has cached it.
+> **Disclosure:** I am Kirill Markin, and I build [Nibomo](https://flashcards-open-source-app.com/), one of the products compared here. I do not treat it as the automatic winner. It is younger than Anki, its first login and workspace hydration need internet, and remote media is available offline only after the device has cached it.
 
 **Facts checked:** August 22, 2026.
 
@@ -112,4 +112,4 @@ This takes about ten minutes and catches the failures that matter: the wrong sur
 
 For most students, commuters, and travelers, Anki remains the best offline flashcards app because its installed clients make the fewest compromises. The right exception can still be more useful: Mochi for account-free local study, RemNote for desktop notes and media, Quizlet for prepared mobile sets, or Flashcards for local-first native work with later sync.
 
-If offline access is only one part of your decision, compare the [best open-source flashcard apps in 2026](/blog/best-open-source-flashcard-apps-2026/) or the broader [Anki vs Quizlet vs Flashcards comparison](/blog/anki-vs-quizlet-vs-open-source-flashcards-app/). Whichever app you choose, prepare the exact device and run the airplane-mode test before the connection matters.
+If offline access is only one part of your decision, compare the [best open-source flashcard apps in 2026](/blog/best-open-source-flashcard-apps-2026/) or the broader [Anki vs Quizlet vs Nibomo comparison](/blog/anki-vs-quizlet-vs-open-source-flashcards-app/). Whichever app you choose, prepare the exact device and run the airplane-mode test before the connection matters.

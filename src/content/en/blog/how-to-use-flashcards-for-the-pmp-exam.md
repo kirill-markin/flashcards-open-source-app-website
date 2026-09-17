@@ -227,7 +227,7 @@ If you want the scheduling side in more detail, [How to Study for an Exam With F
 
 ## Where Flashcards fits in this PMP workflow
 
-If you want to run this inside [Flashcards](https://flashcards-open-source-app.com/), the useful part is not a vague promise that AI will somehow study for you.
+If you want to run this inside [Nibomo](https://flashcards-open-source-app.com/), the useful part is not a vague promise that AI will somehow study for you.
 
 The useful part is that the product already covers the middle of this workflow:
 

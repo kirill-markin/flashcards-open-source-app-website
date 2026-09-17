@@ -240,7 +240,7 @@ Start with evidence, even if it is only a five-minute self-test.
 2. **Take a short pretest without notes.** Use a blank table, a teacher quiz, or a current chemistry problem. Mark each exact miss.
 3. **Make one card per missing direction.** Do not create atomic-number, group, mass, and trend cards unless those facts are required.
 4. **Learn one bounded block.** A course unit, a family, or elements 1–20 gives you a visible finish line. If all 118 are required, use small numbered bands instead of loading everything on day one.
-5. **Mix confusable items after they are individually familiar.** Put `Co`, `C`, and `O` in the same practice session; mix neighboring atomic numbers that keep swapping. Flashcards Open Source App does not create these contrasts automatically, so choose the deck order or tags yourself.
+5. **Mix confusable items after they are individually familiar.** Put `Co`, `C`, and `O` in the same practice session; mix neighboring atomic numbers that keep swapping. Nibomo does not create these contrasts automatically, so choose the deck order or tags yourself.
 6. **Rebuild the shape outside the deck.** Fill a blank table and say the group or period anchors aloud. Isolated cards do not teach spatial layout by themselves.
 7. **Return to chemistry.** Read formulas, explain a trend, write an electron configuration, and solve unfamiliar problems. Each repeated error can produce one small repair card.
 
@@ -273,9 +273,9 @@ Keep doing these outside the deck:
 
 The [advanced chemistry flashcards guide](/blog/how-to-use-flashcards-for-advanced-chemistry/) develops this split between compact recall and full problem practice.
 
-## Where Flashcards Open Source App fits
+## Where Nibomo fits
 
-[Flashcards Open Source App](/features/) supports ordinary front/back cards, decks, tags, and FSRS due reviews with `Again`, `Hard`, `Good`, and `Easy` ratings. You can install the 118-element deck or make a smaller deck that matches your course.
+[Nibomo](/features/) supports ordinary front/back cards, decks, tags, and FSRS due reviews with `Again`, `Hard`, `Good`, and `Easy` ratings. You can install the 118-element deck or make a smaller deck that matches your course.
 
 AI chat and file attachments can help draft candidate cards from a lesson table or a list of misses. Check every name, symbol, atomic number, property label, and rounding rule against your controlling source before saving. The app has no dedicated chemistry verifier and does not automatically interleave topics for you. The [Getting Started guide](/docs/getting-started/) covers creating cards and beginning due reviews.
 

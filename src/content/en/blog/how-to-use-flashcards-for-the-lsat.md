@@ -185,7 +185,7 @@ That is a healthier **spaced repetition LSAT** workflow than trying to build one
 
 This part should stay explicit.
 
-Flashcards Open Source App is not an official LSAC tool and has no official LSAT integration. Use it with your own notes, your own summaries, your own explanations, and your own review of lawful source material. Do not use it to build a private archive of copied LSAT questions, passages, or answer banks you do not have the right to reproduce.
+Nibomo is not an official LSAC tool and has no official LSAT integration. Use it with your own notes, your own summaries, your own explanations, and your own review of lawful source material. Do not use it to build a private archive of copied LSAT questions, passages, or answer banks you do not have the right to reproduce.
 
 This is also just better studying. The strongest card is usually not the full question. It is your compact summary of the reasoning mistake and the next decision you want to get right.
 
@@ -209,9 +209,9 @@ What FSRS does not do is rescue vague cards or outdated decks. I would keep the 
 
 If you want the scheduling side in more detail, [How to Study for an Exam With FSRS in 2026](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/) and [FSRS vs SM-2 in 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/) are the direct follow-ups.
 
-## Where Flashcards Open Source App fits
+## Where Nibomo fits
 
-If you want to run this workflow inside [Flashcards](https://flashcards-open-source-app.com/), the useful part is not a vague promise that AI will study for you. The useful part is that the current product already supports the middle of the job:
+If you want to run this workflow inside [Nibomo](https://flashcards-open-source-app.com/), the useful part is not a vague promise that AI will study for you. The useful part is that the current product already supports the middle of the job:
 
 - AI chat with file attachments in the hosted web app
 - front/back card creation and editing

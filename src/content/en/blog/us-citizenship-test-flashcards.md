@@ -102,7 +102,7 @@ Three small habits make the deck more useful:
 - Practice names and unfamiliar terms aloud, not only in your head.
 - Keep the tested answer first on the back; put explanation below it.
 
-Ask a study partner to read 10 or 20 prompts in mixed order from time to time. A phone recording can also reveal pauses you do not notice during silent review. Flashcards Open Source App does not score speech or simulate a USCIS interview, so this remains ordinary speaking practice around your deck.
+Ask a study partner to read 10 or 20 prompts in mixed order from time to time. A phone recording can also reveal pauses you do not notice during silent review. Nibomo does not score speech or simulate a USCIS interview, so this remains ordinary speaking practice around your deck.
 
 USCIS encourages applicants to use the responses in its published bank. You are practicing a clear response to an oral question, not a speech about everything you know on the topic.
 
@@ -180,9 +180,9 @@ Those test details appear in the official [2025 questions and answers PDF](https
 
 If 65/20 applies, create a separate deck or filter from the 20 starred official questions. Do not study a random 20-card subset. Changing answers inside the starred set still need the same interview-date check.
 
-## Where Flashcards Open Source App helps
+## Where Nibomo helps
 
-[Flashcards Open Source App](/features/) covers the practical middle of this workflow: front/back cards, decks, tags, due review, and FSRS scheduling across the hosted web app, iOS, and Android. The project is open source under the MIT license.
+[Nibomo](/features/) covers the practical middle of this workflow: front/back cards, decks, tags, due review, and FSRS scheduling across the hosted web app, iOS, and Android. The project is open source under the MIT license.
 
 The [U.S. Citizenship Test deck](/catalog/packages/us-citizenship-test/) is independently based on official USCIS material. It is not an official USCIS product and is not affiliated with or endorsed by USCIS. It does not automatically sync changed officeholders, import the USCIS PDF with one click, score spoken answers, or simulate the naturalization interview. You must verify and maintain mutable answers against current official sources and decide how to grade your recall.
 

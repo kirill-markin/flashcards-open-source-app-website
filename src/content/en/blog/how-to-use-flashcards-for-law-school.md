@@ -220,7 +220,7 @@ If you want the scheduling side in more detail, these two articles fit best:
 
 ## Where Flashcards fits this law-school workflow
 
-If you want to run this workflow inside [Flashcards](https://flashcards-open-source-app.com/), the useful part is not "AI makes cards" in the abstract. It is that the current product already supports the boring middle of the job:
+If you want to run this workflow inside [Nibomo](https://flashcards-open-source-app.com/), the useful part is not "AI makes cards" in the abstract. It is that the current product already supports the boring middle of the job:
 
 - AI chat for drafting and cleanup
 - file attachments including plain text uploads
@@ -245,7 +245,7 @@ That is the version of **law school flashcards** I would trust.
 
 If you want to try that workflow in Flashcards:
 
-- [Start with Flashcards](https://flashcards-open-source-app.com/)
+- [Start with Nibomo](https://flashcards-open-source-app.com/)
 - [Open the web app](https://app.flashcards-open-source-app.com/)
 - [Read the getting started guide](https://flashcards-open-source-app.com/docs/getting-started/)
 - [View the source on GitHub](https://github.com/kirill-markin/flashcards-open-source-app)

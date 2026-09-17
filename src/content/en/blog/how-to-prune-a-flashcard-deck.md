@@ -222,7 +222,7 @@ Usually the deck is asking for curation.
 
 ## Where Flashcards fits
 
-[Flashcards](/features/) fits this cleanup style because the maintenance steps live close together instead of across three tabs and a spreadsheet:
+[Nibomo](/features/) fits this cleanup style because the maintenance steps live close together instead of across three tabs and a spreadsheet:
 
 - AI can help draft or inspect cards
 - front/back editing makes rewrites quick

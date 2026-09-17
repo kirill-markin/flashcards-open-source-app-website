@@ -243,7 +243,7 @@ If your workflow already starts from explanations and misses, [How to Turn Pract
 
 This part should stay explicit.
 
-Flashcards Open Source App has no official GMAT or GMAC integration. Use it with lawful personal notes, your own explanations, and practice-review summaries. Do not use it to build a library of copied proprietary GMAT question text, answer banks, or other material you do not have the right to reproduce.
+Nibomo has no official GMAT or GMAC integration. Use it with lawful personal notes, your own explanations, and practice-review summaries. Do not use it to build a library of copied proprietary GMAT question text, answer banks, or other material you do not have the right to reproduce.
 
 In practice, the best card is usually not the full question anyway. It is your compact summary of what failed and what would have changed the result next time.
 
@@ -279,9 +279,9 @@ What FSRS does not do is rescue bloated cards or outdated study assumptions. The
 
 If you want the scheduling side in more detail, [How to Study for an Exam With FSRS in 2026](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/) covers that directly.
 
-## Where Flashcards Open Source App fits
+## Where Nibomo fits
 
-[Flashcards](https://flashcards-open-source-app.com/) is a good fit for this kind of GMAT prep because it covers the awkward middle between "I missed this question" and "I am reviewing the right memory target tomorrow."
+[Nibomo](https://flashcards-open-source-app.com/) is a good fit for this kind of GMAT prep because it covers the awkward middle between "I missed this question" and "I am reviewing the right memory target tomorrow."
 
 Useful parts for this workflow:
 

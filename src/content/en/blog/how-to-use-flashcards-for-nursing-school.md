@@ -248,7 +248,7 @@ And if you want the scheduling model itself explained:
 
 ## Where Flashcards fits this nursing workflow
 
-[Flashcards](https://flashcards-open-source-app.com/) is a strong fit for **nursing school flashcards** because the product already supports the pieces this workflow depends on:
+[Nibomo](https://flashcards-open-source-app.com/) is a strong fit for **nursing school flashcards** because the product already supports the pieces this workflow depends on:
 
 - front/back cards for narrow recall prompts
 - AI chat with workspace data and file attachments for drafting from notes, lecture text, or question rationales
