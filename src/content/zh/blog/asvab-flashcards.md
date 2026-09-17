@@ -239,13 +239,13 @@ FSRS 会根据每张卡片的复习历史安排下次出现时间。对于需要
 
 [FSRS 考试规划指南](/zh/blog/how-to-study-for-an-exam-with-fsrs/)介绍了如何从考试日期倒推学习安排。当复习队列的增长速度开始超过你的复习能力时，可以参考[如何设定每天的新卡数量](/zh/blog/how-many-new-flashcards-per-day/)。
 
-## Flashcards Open Source App 在这套方法中的位置
+## Nibomo 在这套方法中的位置
 
-[Flashcards Open Source App](/zh/features/)支持正反面卡片、卡组与标签、FSRS 到期复习、AI 辅助制卡、移动端离线学习与 Web、iOS 和 Android 跨平台同步、便于迁移数据的导入与导出，以及开源自托管方案。
+[Nibomo](/zh/features/)支持正反面卡片、卡组与标签、FSRS 到期复习、AI 辅助制卡、移动端离线学习与 Web、iOS 和 Android 跨平台同步、便于迁移数据的导入与导出，以及开源自托管方案。
 
 在这套流程中，可以分别为 AFQT 核心和当前目标模块建立卡组，再添加 `WK`、`PC`、`AR`、`MK`、`GS`、`EI`、`practice-miss` 和 `source-check` 等标签。AI 可以根据你提供的材料协助起草或精简卡片。最终由你决定保存哪些内容，并逐一对照作为依据的权威来源核实每个答案。
 
-本应用不提供官方 ASVAB 卡组、ASVAB 题库、考试模拟器、成绩预测、成绩保证，也不会根据分数自动匹配军队岗位。Flashcards Open Source App 与 ASVAB Testing Program 或美国军方没有隶属关系，也未获得其认可。请只使用你有权使用的材料，绝不要使用凭记忆还原的仍在使用的正式考试题。
+本应用不提供官方 ASVAB 卡组、ASVAB 题库、考试模拟器、成绩预测、成绩保证，也不会根据分数自动匹配军队岗位。Nibomo 与 ASVAB Testing Program 或美国军方没有隶属关系，也未获得其认可。请只使用你有权使用的材料，绝不要使用凭记忆还原的仍在使用的正式考试题。
 
 请参阅[快速开始](/zh/docs/getting-started/)，了解托管应用、移动客户端、智能体连接和自托管方案。
 

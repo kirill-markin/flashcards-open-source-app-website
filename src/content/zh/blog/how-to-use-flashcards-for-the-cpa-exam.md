@@ -247,7 +247,7 @@ Core 部分是固定的：AUD、FAR 和 REG。Discipline 部分则要在 Busines
 
 ## Flashcards 在这套 CPA 工作流里适合放在哪里
 
-如果你想把这套流程跑在 [Flashcards](https://flashcards-open-source-app.com/) 里，真正有用的地方并不是那种模糊承诺，说 AI 会神奇地替你通过 CPA 考试。
+如果你想把这套流程跑在 [Nibomo](https://flashcards-open-source-app.com/) 里，真正有用的地方并不是那种模糊承诺，说 AI 会神奇地替你通过 CPA 考试。
 
 真正有用的是，这个产品已经覆盖了这套流程里最麻烦的中间地带：
 

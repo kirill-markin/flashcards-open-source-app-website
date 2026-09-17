@@ -133,7 +133,7 @@ keywords:
 
 FSRS 会自动安排卡片再次出现的时间。官方的 [Free Spaced Repetition Scheduler 项目](https://github.com/open-spaced-repetition/free-spaced-repetition-scheduler)会对卡片的难度、稳定性和可提取性建模。每次复习后，你的评分会为下一次排程提供信号。
 
-Flashcards Open Source App 目前使用 FSRS-6。队列会显示到期卡片，复习时有四档评分：
+Nibomo 目前使用 FSRS-6。队列会显示到期卡片，复习时有四档评分：
 
 - `Again`：回忆失败
 - `Hard`：回忆成功，但过程很困难

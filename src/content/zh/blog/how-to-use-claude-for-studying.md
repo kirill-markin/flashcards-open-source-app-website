@@ -19,7 +19,7 @@ keywords:
 
 这套限定在资料范围内的学习循环，就是**如何用 Claude 学习**的一种实用方法：先核查资料，一次只答一个问题，而且先凭记忆作答；每项订正都附上依据，最后只留下以后仍值得复习的薄弱点。普通 Claude 对话就能完成整套流程，不需要闪卡应用。
 
-> **利益关系披露：** 我是 Kirill Markin，也是 [Flashcards Open Source App](/features/) 的开发者。除这段披露外，该产品只会出现在下文可选的数据交接部分；这套学习方法并不依赖它。本文的调研和编辑使用了 AI 辅助。
+> **利益关系披露：** 我是 Kirill Markin，也是 [Nibomo](/features/) 的开发者。除这段披露外，该产品只会出现在下文可选的数据交接部分；这套学习方法并不依赖它。本文的调研和编辑使用了 AI 辅助。
 
 **事实核查日期：** 2026 年 9 月 14 日。
 
@@ -215,7 +215,7 @@ Anthropic 的[网页搜索指南](https://support.claude.com/en/articles/1068462
 
 最简单的数据交接方式适用于任何闪卡应用：让 Claude 只用纯文本的正面/背面区块返回你批准的卡片，再核对一遍，然后复制到你平时使用的复习系统中。
 
-如果你使用 Flashcards Open Source App，Claude 也可以通过远程自定义连接器保存已经批准的卡片。Anthropic 的[当前自定义连接器指南](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp)说明，Free、Pro、Max、Team 和 Enterprise 套餐都能使用远程连接器；Free 用户可以添加一个。只连接你信任的服务器，并在批准前仔细查看写入操作。
+如果你使用 Nibomo，Claude 也可以通过远程自定义连接器保存已经批准的卡片。Anthropic 的[当前自定义连接器指南](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp)说明，Free、Pro、Max、Team 和 Enterprise 套餐都能使用远程连接器；Free 用户可以添加一个。只连接你信任的服务器，并在批准前仔细查看写入操作。
 
 Flashcards MCP URL 是：
 

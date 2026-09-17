@@ -27,7 +27,7 @@ keywords:
 1. **ChatGPT Study Mode** 负责提问、给提示，陪你一步步弄懂材料。
 2. **你**决定哪些错误值得做成卡片，留到以后复习。
 3. **ChatGPT 桌面应用中的 Codex 或 Codex CLI** 通过 Flashcards MCP 创建或整理你已经批准的卡片。
-4. **Flashcards** 记录你的复习，并用 FSRS 安排下一次复习时间。
+4. **Nibomo** 记录你的复习，并用 FSRS 安排下一次复习时间。
 
 OpenAI 目前的 [Study Mode 指南](https://help.openai.com/en/articles/11780217-chatgpt-study-mode-faq)说明，这项功能会像导师一样逐步辅导、一次只问一道题，还能使用你上传的笔记、图片或 PDF。它很适合帮你发现：哪些内容看起来眼熟，自己却还无法凭记忆解释。
 

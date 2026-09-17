@@ -235,7 +235,7 @@ keywords:
 
 ## 为什么 Flashcards 更适合这套工作流
 
-[Flashcards](https://flashcards-open-source-app.com/) 很适合 **词汇间隔重复**，因为这个产品已经支持这种工作流真正依赖的部分：
+[Nibomo](https://flashcards-open-source-app.com/) 很适合 **词汇间隔重复**，因为这个产品已经支持这种工作流真正依赖的部分：
 
 - 干净的正反面卡
 - FSRS 复习调度
@@ -264,4 +264,4 @@ keywords:
 
 这才是我真正信任的 **如何用抽认卡学语言**。
 
-如果你想找一个围绕这种工作流来构建的工具，[Flashcards](https://flashcards-open-source-app.com/) 很适合。它把 AI 辅助起草、正反面卡片和 FSRS 复习放在同一个开源栈里，而这正是当你不再把“收集单词”误认为“真的学会语言”之后，一副语言卡组真正需要的东西。
+如果你想找一个围绕这种工作流来构建的工具，[Nibomo](https://flashcards-open-source-app.com/) 很适合。它把 AI 辅助起草、正反面卡片和 FSRS 复习放在同一个开源栈里，而这正是当你不再把“收集单词”误认为“真的学会语言”之后，一副语言卡组真正需要的东西。

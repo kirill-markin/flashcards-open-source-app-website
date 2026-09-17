@@ -163,7 +163,7 @@ Claude 可以帮你在 Flashcards 里创建卡片，也可以通过只读工具�
 - [适用于 iPhone 和 iPad 的 Flashcards App Store 页面](https://apps.apple.com/app/apple-store/id6760538964?pt=128797295&ct=marketing_site&mt=8)
 - [适用于 Android 的 Flashcards Google Play 页面](https://play.google.com/store/apps/details?id=com.flashcardsopensourceapp.app&utm_source=flashcards_website&utm_medium=referral&utm_campaign=marketing_site)
 
-![Flashcards Open Source App 在托管网页版和移动应用中的复习体验](/home/app-screens-showcase-en.png)
+![Nibomo 在托管网页版和移动应用中的复习体验](/home/app-screens-showcase-en.png)
 
 如果你还没真正用过这个产品，[入门指南](/docs/getting-started/)是最快的开始方式。
 

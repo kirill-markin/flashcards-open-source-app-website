@@ -206,9 +206,9 @@ ISC2 在 [6 月 30 日的更新公告](https://www.isc2.org/Insights/2026/06/isc
 
 不要为了强行缩短间隔而把实际回忆情况评得更难。如果复习队列增长得比普通一天能完成的速度还快，就删掉低价值卡片，或降低新卡数量。[如何使用 FSRS 备考](/blog/how-to-study-for-an-exam-with-fsrs/)解释了构建、稳定和最终复习阶段。[每天应添加多少张新闪卡](/blog/how-many-new-flashcards-per-day/)则帮助你按可用时间而不是好看的卡片总数估算负载。
 
-## Flashcards Open Source App 适合用在什么位置
+## Nibomo 适合用在什么位置
 
-[Flashcards Open Source App 功能](/features/)包括创建正反面卡片、使用工作区数据和受支持文件附件的 AI 聊天，以及通过 Again、Hard、Good、Easy 评分进行 FSRS 复习。
+[Nibomo 功能](/features/)包括创建正反面卡片、使用工作区数据和受支持文件附件的 AI 聊天，以及通过 Again、Hard、Good、Easy 评分进行 FSRS 复习。
 
 在 CCSP 备考中，应让它承担有限而明确的角色。先根据核对过的来源写一份大纲笔记，或记录获授权练习中的错题；再用 AI 聊天起草几张每次只考一个目标的卡片。随后，把每份草稿与官方来源对照，并亲自编辑。保留下来的卡片用 FSRS 复习；完整场景练习则继续使用你获授权使用的正规提供商材料。
 

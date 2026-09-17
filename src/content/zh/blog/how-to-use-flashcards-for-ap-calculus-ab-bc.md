@@ -250,7 +250,7 @@ BC 在 parametric、polar 和 vector-valued questions 上也有足够多的额�
 
 ## Flashcards 在这套 AP Calculus 工作流里适合放在哪
 
-[Flashcards](https://flashcards-open-source-app.com/) 很适合这套 AP Calculus 工作流，前提是你想把整条链路收在一个地方，而不是把这篇文章写成产品宣传。
+[Nibomo](https://flashcards-open-source-app.com/) 很适合这套 AP Calculus 工作流，前提是你想把整条链路收在一个地方，而不是把这篇文章写成产品宣传。
 
 真正有用的点，不是它“面向学生”。真正有用的点是：它能让你把法则卡、FRQ 错因卡和 BC series 卡都放在同一个复习系统里，而不是散落在笔记、截图和旧订正里。
 

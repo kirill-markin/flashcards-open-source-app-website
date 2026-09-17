@@ -100,7 +100,7 @@ keywords:
 
 ## Flashcards 已经具备这条工作流需要的形态
 
-[Flashcards](https://flashcards-open-source-app.com/) 在这方面很有意思，因为它已经把这条流程真正需要的几个关键部分放在一起了：
+[Nibomo](https://flashcards-open-source-app.com/) 在这方面很有意思，因为它已经把这条流程真正需要的几个关键部分放在一起了：
 
 - 正反面卡片创建
 - AI 对话
@@ -195,7 +195,7 @@ keywords:
 
 这样可以把最无聊的部分拿走，又不会假装人应该彻底从整个流程里消失。
 
-这也是为什么 [Flashcards](https://flashcards-open-source-app.com/) 很适合那些搜索怎么 **把笔记做成闪卡** 的人。它现在已经有了这条路线真正需要的形态：卡片创建、AI 对话、文件附件、纯文本支持，以及后续认真可靠的间隔重复复习。
+这也是为什么 [Nibomo](https://flashcards-open-source-app.com/) 很适合那些搜索怎么 **把笔记做成闪卡** 的人。它现在已经有了这条路线真正需要的形态：卡片创建、AI 对话、文件附件、纯文本支持，以及后续认真可靠的间隔重复复习。
 
 ## 试试这条不会把学习做成第二份工作的“笔记转闪卡”流程
 

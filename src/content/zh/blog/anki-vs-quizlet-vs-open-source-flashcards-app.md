@@ -15,15 +15,15 @@ keywords:
   - "自托管闪卡"
 ---
 
-**Anki vs Quizlet** 的答案，早已不是“认真学习就选 Anki，其他人选 Quizlet”这么简单。到了 2026 年，Anki 已支持 FSRS，并拥有非常成熟的本地卡片库；Quizlet 的班级功能和 AI 学习工具更完善；Flashcards Open Source App 则把 FSRS、AI 和全栈自托管整合在了一起，但产品与生态还年轻得多。哪款才是**最佳闪卡应用**，取决于你最看重哪组优缺点。
+**Anki vs Quizlet** 的答案，早已不是“认真学习就选 Anki，其他人选 Quizlet”这么简单。到了 2026 年，Anki 已支持 FSRS，并拥有非常成熟的本地卡片库；Quizlet 的班级功能和 AI 学习工具更完善；Nibomo 则把 FSRS、AI 和全栈自托管整合在了一起，但产品与生态还年轻得多。哪款才是**最佳闪卡应用**，取决于你最看重哪组优缺点。
 
-> **利益披露：** 我是 Kirill Markin，也是本次对比产品之一 [Flashcards Open Source App](/features/) 的开发者。我将它列入对比，是因为它同时提供 AI、FSRS 和全栈自托管，但不会因此把它当成默认赢家。在下文提到的几类常见场景中，Anki 或 Quizlet 都是更好的选择。
+> **利益披露：** 我是 Kirill Markin，也是本次对比产品之一 [Nibomo](/features/) 的开发者。我将它列入对比，是因为它同时提供 AI、FSRS 和全栈自托管，但不会因此把它当成默认赢家。在下文提到的几类常见场景中，Anki 或 Quizlet 都是更好的选择。
 
 没有一款产品适合所有人。如果把选择压缩成三句话：
 
 - 选择 **Anki**：它拥有体系最完整、经受时间检验最久的长期间隔重复工作流。
 - 选择 **Quizlet**：它更适合课堂分享、使用现成的公开学习集，以及多样化的短期练习。
-- 选择 **Flashcards Open Source App**：它适合想同时使用 AI、FSRS 并掌控整个技术栈，同时能接受生态仍处早期、迁移无法完整还原数据的人。
+- 选择 **Nibomo**：它适合想同时使用 AI、FSRS 并掌控整个技术栈，同时能接受生态仍处早期、迁移无法完整还原数据的人。
 
 细节很重要，尤其是当你已经积累了几百甚至几千张卡片时。
 
@@ -33,7 +33,7 @@ keywords:
 
 下表依据截至 2026 年 8 月 2 日核对过的产品信息。价格和功能可用性可能因地区而异。
 
-| 对比项 | Anki | Quizlet | Flashcards Open Source App |
+| 对比项 | Anki | Quizlet | Nibomo |
 | --- | --- | --- | --- |
 | 调度器 | 调度体系成熟，[支持 FSRS](https://docs.ankiweb.net/deck-options)，设置细致，保留复习历史，并拥有庞大的插件生态 | [Learn](https://help.quizlet.com/hc/en-us/articles/360030986971-Studying-with-Learn) 会根据学习目标和对材料的熟悉程度，用机器学习规划个性化学习路径；但它不是采用 FSRS 的长期调度器 | 内置并默认使用 FSRS，提供 Again、Hard、Good、Easy 四档评分以及工作区设置 |
 | 离线使用 | 桌面端与原生移动端均以本地学习为主；同步并非必需 | 在 [iOS 和 Android](https://help.quizlet.com/hc/en-us/articles/360030565412-Studying-offline-with-Quizlet-mobile-apps) 上，已保存的学习集可在 Flashcards 和 Match 模式中离线使用，也可以离线创建学习集；网站不支持离线使用 | 原生 iOS（SQLite）和 Android（Room/SQLite）应用是最直接、可靠的离线方案；Web 应用加载后会将卡片和尚未同步的更改保存在 IndexedDB 中，但 AI 和同步仍需联网 |
@@ -81,7 +81,7 @@ Quizlet Learn 会根据你的目标和对材料的熟悉程度，利用机器学
 
 ## 想同时拥有 AI、FSRS 和自托管时，选择 Flashcards
 
-[Flashcards Open Source App](/features/) 提供了另一种组合：FSRS 调度、可读取工作区上下文的 AI 聊天、卡片创建与编辑、文件附件、支持离线的原生应用，以及面向 AI 智能体的 API。
+[Nibomo](/features/) 提供了另一种组合：FSRS 调度、可读取工作区上下文的 AI 聊天、卡片创建与编辑、文件附件、支持离线的原生应用，以及面向 AI 智能体的 API。
 
 如果你符合以下情况，适合使用 Flashcards：
 
@@ -117,7 +117,7 @@ Flashcards 仍处于早期开发阶段。它的生态、导入格式支持、高
 
 对于课堂使用、公开学习集和快速多样的练习，**Quizlet 仍是最容易推荐的选择**。它的社交与教学工作流确实是优势，不是所有竞品都已具备、可以忽略不计的小功能。
 
-对于明确想用 AI 辅助处理卡片、使用 FSRS，并希望自行运行整个系统的学习者，**Flashcards Open Source App 最符合这组需求**。不过，如果你现在就需要成熟的导入兼容性或完整的可移植备份，它也是三款产品中风险最高的选择。
+对于明确想用 AI 辅助处理卡片、使用 FSRS，并希望自行运行整个系统的学习者，**Nibomo 最符合这组需求**。不过，如果你现在就需要成熟的导入兼容性或完整的可移植备份，它也是三款产品中风险最高的选择。
 
 这就是 2026 年的实际选择逻辑：根据你现有的学习系统，选择优势最匹配的工具；再趁卡片库还没珍贵到难以迁移之前，确认以后如何把数据导出来。
 

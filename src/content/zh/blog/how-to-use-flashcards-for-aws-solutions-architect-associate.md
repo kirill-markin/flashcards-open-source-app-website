@@ -237,7 +237,7 @@ OpenAI 在 **2025 年 7 月 29 日** 推出了 **Study Mode**，它是一种围�
 
 ## Flashcards 很适合放进这套工作流里
 
-[Flashcards](https://flashcards-open-source-app.com/) 很适合这类考试备考，因为它能同时覆盖这项工作里最重要的两部分，而且不会假装它们是同一件事。
+[Nibomo](https://flashcards-open-source-app.com/) 很适合这类考试备考，因为它能同时覆盖这项工作里最重要的两部分，而且不会假装它们是同一件事。
 
 你可以：
 

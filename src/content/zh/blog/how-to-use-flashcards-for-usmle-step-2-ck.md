@@ -290,7 +290,7 @@ Step 2 CK 的记忆起伏，其实非常正常：
 
 ## 为什么 Flashcards 适合这套 Step 2 CK 工作流
 
-如果你想在 [Flashcards](https://flashcards-open-source-app.com/) 里跑这套流程，真正有用的地方并不是它替你完成了临床思考，而是它能更快地把混乱的 Step 2 原材料变成更小、更能复习的卡片。
+如果你想在 [Nibomo](https://flashcards-open-source-app.com/) 里跑这套流程，真正有用的地方并不是它替你完成了临床思考，而是它能更快地把混乱的 Step 2 原材料变成更小、更能复习的卡片。
 
 更重要的是这些更直接的能力：
 

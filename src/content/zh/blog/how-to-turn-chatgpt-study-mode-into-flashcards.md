@@ -231,7 +231,7 @@ AI 负责帮你现在把这个概念学懂。
 
 ## 为什么 Flashcards 更适合这套流程
 
-[Flashcards](https://flashcards-open-source-app.com/) 很适合 **如何把 ChatGPT Study Mode 变成闪卡**，因为它刚好补上了 AI 辅导自己还解决不了的那一层：
+[Nibomo](https://flashcards-open-source-app.com/) 很适合 **如何把 ChatGPT Study Mode 变成闪卡**，因为它刚好补上了 AI 辅导自己还解决不了的那一层：
 
 - 正经的正反面卡片，而不是只停留在聊天里的记忆
 - 可以用 AI chat 做清理和起草

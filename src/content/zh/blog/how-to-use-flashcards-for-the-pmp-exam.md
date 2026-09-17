@@ -235,7 +235,7 @@ FSRS 对 PMP 很有用，因为这类记忆负荷本来就不均匀。
 
 ## Flashcards 在这套 PMP 工作流里适合放在哪里
 
-如果你想把这套流程跑在 [Flashcards](https://flashcards-open-source-app.com/) 里，真正有用的地方并不是那种模糊承诺，说 AI 会替你把学习这件事做掉。
+如果你想把这套流程跑在 [Nibomo](https://flashcards-open-source-app.com/) 里，真正有用的地方并不是那种模糊承诺，说 AI 会替你把学习这件事做掉。
 
 真正有用的是，这个产品已经覆盖了这套流程里最中间、也最麻烦的那一段：
 

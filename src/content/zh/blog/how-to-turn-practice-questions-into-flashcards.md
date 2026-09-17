@@ -223,7 +223,7 @@ Flashcards 则负责确保这个失误下周不会继续出现。
 
 ## Flashcards 为什么适合这件事
 
-[Flashcards](https://flashcards-open-source-app.com/) 很适合 **练习题转卡片**，因为这个产品已经具备这套流程真正需要的关键组件：
+[Nibomo](https://flashcards-open-source-app.com/) 很适合 **练习题转卡片**，因为这个产品已经具备这套流程真正需要的关键组件：
 
 - AI 对话
 - 文件和图片附件

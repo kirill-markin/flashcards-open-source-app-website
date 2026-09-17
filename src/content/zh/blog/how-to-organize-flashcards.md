@@ -262,7 +262,7 @@ Anki 当前的文档依然提醒：如果一个人已经积压严重，却还不
 
 ## Flashcards 为什么适合这个工作流
 
-[Flashcards](https://flashcards-open-source-app.com/) 很适合解决 **如何整理抽认卡** 这个问题，因为产品本身已经具备这套工作流需要的关键部分：
+[Nibomo](https://flashcards-open-source-app.com/) 很适合解决 **如何整理抽认卡** 这个问题，因为产品本身已经具备这套工作流需要的关键部分：
 
 - 用于长期结构的牌组和标签
 - 基于标签和卡片费力程度的筛选牌组

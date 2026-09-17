@@ -123,6 +123,6 @@ Anki 的安装版客户端会保留本地备份，但媒体文件需要单独处
 
 如果你希望旅途中能使用完整的本地集合，而不只是少量缓存卡片，Anki 的安装版客户端很合适。它的限制也很明确：必须提前把集合和媒体保存到设备，AnkiWeb 只能联网使用，依赖在线资源的卡片功能也仍然需要网络。
 
-如果你正在为出行挑选学习工具，[离线闪卡应用对比](/zh/blog/best-offline-flashcards-app/)用相同的卡片、编辑、进度、媒体和恢复联网后同步测试比较了五款产品。如果你考虑更换学习工具的原因不只是网络连接，请参阅 [Anki 与 Flashcards Open Source App 对比](/zh/blog/anki-vs-flashcards-open-source-app/)。
+如果你正在为出行挑选学习工具，[离线闪卡应用对比](/zh/blog/best-offline-flashcards-app/)用相同的卡片、编辑、进度、媒体和恢复联网后同步测试比较了五款产品。如果你考虑更换学习工具的原因不只是网络连接，请参阅 [Anki 与 Nibomo 对比](/zh/blog/anki-vs-flashcards-open-source-app/)。
 
 “Anki 可以离线使用吗？”实际答案是可以：前提是桌面电脑、iPhone、iPad 或 Android 设备上已经保存了所需的集合和媒体。出发前完成同步，用飞行模式演练一次，恢复联网后则先同步保存着离线更改的那台设备。

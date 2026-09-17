@@ -174,7 +174,7 @@ Flashcards 并没有直接连接 Gemini Deep Research。Gemini 负责研究这�
 
 ## 为什么 Flashcards 适合这套流程
 
-[Flashcards](/) 不是用来取代 Gemini Deep Research 的。
+[Nibomo](/) 不是用来取代 Gemini Deep Research 的。
 
 它适合这套流程，是因为它正好接住了 Deep Research 没做完的那一部分：
 
@@ -227,4 +227,4 @@ Flashcards 并没有直接连接 Gemini Deep Research。Gemini 负责研究这�
 
 这才是我真正信服的 **如何把 Gemini Deep Research 变成闪卡**：把报告留作上下文，相信来源链接胜过那些打磨过的措辞，只提取以后值得主动回忆的结论，再让 FSRS 在清理完成之后接管复习节奏。
 
-如果你想要的正是这套方式，[Flashcards](/) 会很适合。它给你一个地方，用来整理研究笔记、把它们改写成正反面卡、按主题组织起来，然后用真正的间隔重复系统复习，而不是指望报告自己顺便完成记忆工作。
+如果你想要的正是这套方式，[Nibomo](/) 会很适合。它给你一个地方，用来整理研究笔记、把它们改写成正反面卡、按主题组织起来，然后用真正的间隔重复系统复习，而不是指望报告自己顺便完成记忆工作。

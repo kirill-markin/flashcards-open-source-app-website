@@ -214,7 +214,7 @@ AI 很擅长起草候选卡，但不擅长尊重你未来的复习预算。
 
 ## 为什么 Flashcards 更适合处理这个问题
 
-[Flashcards](https://flashcards-open-source-app.com/) 很适合做 **间隔重复积压** 恢复，因为整个工作流不需要拆到三个不同工具里完成：
+[Nibomo](https://flashcards-open-source-app.com/) 很适合做 **间隔重复积压** 恢复，因为整个工作流不需要拆到三个不同工具里完成：
 
 - AI chat 可以帮你起草卡，但保留哪些仍由你决定
 - 正反面编辑让你很容易缩短或拆分弱卡

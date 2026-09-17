@@ -271,7 +271,7 @@ keywords:
 
 ## 为什么 Flashcards 适合这套工作流
 
-[Flashcards](https://flashcards-open-source-app.com/) 很适合 **医学院抽认卡** 这类场景，因为这个产品本身已经支持这套工作流真正依赖的那些环节：
+[Nibomo](https://flashcards-open-source-app.com/) 很适合 **医学院抽认卡** 这类场景，因为这个产品本身已经支持这套工作流真正依赖的那些环节：
 
 - 用正反面卡片完成干净的提取式提示
 - 用 AI 对话从课程文字、笔记或题目复盘材料里起草候选卡片

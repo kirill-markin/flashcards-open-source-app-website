@@ -224,7 +224,7 @@ keywords:
 
 ## Flashcards 在这套流程里适合做什么
 
-[Flashcards](https://flashcards-open-source-app.com/) 很适合 **用抽认卡复习课堂录音**，因为它补上了文字稿和 AI 起草都解决不了的那一层：
+[Nibomo](https://flashcards-open-source-app.com/) 很适合 **用抽认卡复习课堂录音**，因为它补上了文字稿和 AI 起草都解决不了的那一层：
 
 - 真正的抽认卡应用，支持正反面卡片
 - 卡组和标签

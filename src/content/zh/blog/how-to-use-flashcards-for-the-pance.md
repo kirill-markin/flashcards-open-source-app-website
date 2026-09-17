@@ -285,11 +285,11 @@ PANCE 的记忆负荷本来就不均匀，而且这很正常：
 
 如果你想看更具体的调度细节，下一步该读的是 [2026 年 FSRS 设置](/zh/blog/fsrs-settings/) 和 [2026 年如何用 FSRS 备考](/zh/blog/how-to-study-for-an-exam-with-fsrs/)。
 
-## Flashcards Open Source App 在这套 PANCE 工作流里适合做什么
+## Nibomo 在这套 PANCE 工作流里适合做什么
 
 当工具能把那些无聊但必要的部分处理好时，这种备考会顺畅很多。
 
-Flashcards Open Source App 之所以适合 PANCE 备考，是因为你可以：
+Nibomo 之所以适合 PANCE 备考，是因为你可以：
 
 - 用自己的笔记或题目解析起草卡片
 - 在卡片开始变成每日复习负担之前，把它们拆小

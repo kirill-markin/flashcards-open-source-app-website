@@ -227,9 +227,9 @@ keywords:
 
 - [2026 年 FSRS vs SM-2](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
 
-## 为什么 Flashcards Open Source App 很适合这个场景
+## 为什么 Nibomo 很适合这个场景
 
-[Flashcards Open Source App](https://flashcards-open-source-app.com/) 很适合 **Kindle 高亮转 Flashcards**，因为它已经覆盖了这套流程里真正实用的部分：
+[Nibomo](https://flashcards-open-source-app.com/) 很适合 **Kindle 高亮转 Flashcards**，因为它已经覆盖了这套流程里真正实用的部分：
 
 - 粘贴或上传导出的高亮文本
 - 先在 AI chat 里整理材料，再创建卡片

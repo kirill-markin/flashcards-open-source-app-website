@@ -275,7 +275,7 @@ CFA 细节会变。考试窗口、费用、报名截止日期、课程更新、�
 
 ## Flashcards 在这套 CFA 工作流里的位置
 
-[Flashcards](https://flashcards-open-source-app.com/) 适合这套工作流，因为它支持 CFA 卡组真正需要的具体环节，同时不会假装替代 CFA Institute 材料：
+[Nibomo](https://flashcards-open-source-app.com/) 适合这套工作流，因为它支持 CFA 卡组真正需要的具体环节，同时不会假装替代 CFA Institute 材料：
 
 - 创建和编辑正反面卡片
 - 用牌组和标签按科目及来源组织内容

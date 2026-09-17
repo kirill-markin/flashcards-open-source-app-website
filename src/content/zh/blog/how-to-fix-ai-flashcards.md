@@ -245,7 +245,7 @@ FSRS 真正擅长的，是在卡片已经清楚到足以信任之后，去处理
 
 ## Flashcards 在这套工作流里的位置
 
-[Flashcards](https://flashcards-open-source-app.com/) 很适合 **如何修正 AI flashcards** 这类工作流，因为这个产品正好覆盖了大多数生成器留下来的那段尴尬中间地带：
+[Nibomo](https://flashcards-open-source-app.com/) 很适合 **如何修正 AI flashcards** 这类工作流，因为这个产品正好覆盖了大多数生成器留下来的那段尴尬中间地带：
 
 - 在托管 Web 应用里创建正反面卡片
 - 使用带工作区数据和文件附件的 AI 对话，包括纯文本上传

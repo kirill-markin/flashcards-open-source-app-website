@@ -145,7 +145,7 @@ keywords:
 
 ## 为什么 Flashcards 更适合这个工作流
 
-[Flashcards](https://flashcards-open-source-app.com/) 很适合这个问题，因为它可以同时承接两半工作，而且不会假装它们其实是同一件事。
+[Nibomo](https://flashcards-open-source-app.com/) 很适合这个问题，因为它可以同时承接两半工作，而且不会假装它们其实是同一件事。
 
 当前栈已经提供：
 
@@ -210,7 +210,7 @@ AI 让过量生产变得非常容易。
 
 这才是那种真正可持续的 **考试用间隔重复**。
 
-如果你想要一个支持这种工作流的产品，[Flashcards](https://flashcards-open-source-app.com/) 很适合。它把 AI 辅助起草、正反面卡片和 FSRS 复习放在同一个开源栈里，而不是把工作流分散到五个学习工具和一堆导出文件中间。
+如果你想要一个支持这种工作流的产品，[Nibomo](https://flashcards-open-source-app.com/) 很适合。它把 AI 辅助起草、正反面卡片和 FSRS 复习放在同一个开源栈里，而不是把工作流分散到五个学习工具和一堆导出文件中间。
 
 ## 建立一副你到最后还能做完的考试卡组
 

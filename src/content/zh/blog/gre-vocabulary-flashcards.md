@@ -250,7 +250,7 @@ AI 在这里确实有用，只是不值得无脑放行。
 
 ## Flashcards 在这套 GRE 工作流里真正适合做什么
 
-如果你想把这套流程放进 [Flashcards](https://flashcards-open-source-app.com/zh)，真正有用的点，不是什么“AI 让学习更简单”的空话，而是当前产品已经覆盖了这套流程中间最实际的部分：
+如果你想把这套流程放进 [Nibomo](https://flashcards-open-source-app.com/zh)，真正有用的点，不是什么“AI 让学习更简单”的空话，而是当前产品已经覆盖了这套流程中间最实际的部分：
 
 - 正反面卡片的创建和编辑
 - 用于起草和清理的 AI 对话

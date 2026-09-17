@@ -177,7 +177,7 @@ keywords:
 
 ## Flashcards 在这套工作流里为什么合适
 
-[Flashcards](https://flashcards-open-source-app.com/) 很适合这种数学学习方式，因为一旦你明确了记忆目标，它正好支持后面真正重要的那几部分：
+[Nibomo](https://flashcards-open-source-app.com/) 很适合这种数学学习方式，因为一旦你明确了记忆目标，它正好支持后面真正重要的那几部分：
 
 - 用正反面卡片承载公式、识别线索和错误模式
 - 用牌组、标签和筛选在不打乱主库的前提下定向复习某个主题

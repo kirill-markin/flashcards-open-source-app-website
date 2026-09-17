@@ -197,7 +197,7 @@ keywords:
 
 ## Flashcards 在这个流程里适合做什么
 
-[Flashcards](https://flashcards-open-source-app.com/) 很适合 **把 Notion 笔记做成闪卡**，因为它正好覆盖了大家通常需要自己拼起来的几个环节：
+[Nibomo](https://flashcards-open-source-app.com/) 很适合 **把 Notion 笔记做成闪卡**，因为它正好覆盖了大家通常需要自己拼起来的几个环节：
 
 - 用 AI 对话起草卡片
 - 用文件附件处理导出的页面
@@ -256,4 +256,4 @@ Flashcards 负责真正的复习系统。
 
 这才是我真正信任的 **Notion 转闪卡**。它没有一键式宣传说得那么神奇，但在真正该人工介入的地方保留了一点手工判断，也更有可能产出那些你下周仍然愿意继续复习的卡片。
 
-如果你想要的正是这种流程，[Flashcards](https://flashcards-open-source-app.com/) 会是一个很合适的选择：先导出笔记，用 AI 起草卡片，迅速清掉弱卡，再把结果放进真正的间隔重复系统里学习，而不是继续把它困在记笔记工具里。
+如果你想要的正是这种流程，[Nibomo](https://flashcards-open-source-app.com/) 会是一个很合适的选择：先导出笔记，用 AI 起草卡片，迅速清掉弱卡，再把结果放进真正的间隔重复系统里学习，而不是继续把它困在记笔记工具里。

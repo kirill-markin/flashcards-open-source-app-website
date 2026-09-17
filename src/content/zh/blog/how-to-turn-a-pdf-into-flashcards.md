@@ -153,7 +153,7 @@ keywords:
 
 ## 为什么 Flashcards 很适合这个工作流
 
-[Flashcards](https://flashcards-open-source-app.com/) 对 **把 pdf 变成 flashcards** 这个流程很合适，因为真正重要的环节已经在一个产品里：
+[Nibomo](https://flashcards-open-source-app.com/) 对 **把 pdf 变成 flashcards** 这个流程很合适，因为真正重要的环节已经在一个产品里：
 
 - AI chat
 - 文件附件
@@ -204,4 +204,4 @@ PDF 往往来自讲座、教材、导出的讲义，以及那些不是由你自�
 
 这才是我真正信任的 **如何把 PDF 变成 flashcards** 方法。它少一点魔法，多一点人工，但也更可能让你在三轮复习之后仍然尊重这些卡。
 
-如果你想要的正是这种工作流，[Flashcards](https://flashcards-open-source-app.com/) 很适合：上传文档，用 AI 起草卡片，清理它们，然后把它们放进真正的间隔重复系统里学习，而不是把它们丢在一个只适合演示生成效果的地方。
+如果你想要的正是这种工作流，[Nibomo](https://flashcards-open-source-app.com/) 很适合：上传文档，用 AI 起草卡片，清理它们，然后把它们放进真正的间隔重复系统里学习，而不是把它们丢在一个只适合演示生成效果的地方。

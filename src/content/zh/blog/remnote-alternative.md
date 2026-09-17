@@ -19,7 +19,7 @@ RemNote 把 Anki 导出标为 **Flashcards Only（仅闪卡）**。没有做成�
 
 最适合你的 **RemNote 替代方案**，应该解决你想离开的那个问题，同时别把 RemNote 中仍然好用的部分一起丢掉。有人在意价格，有人想要普通的本地文件、更成熟的卡片系统，或者可以自行部署和运行的源码。
 
-> **披露：** 我是 Kirill Markin，也是本文对比产品之一 [Flashcards](/zh/) 的开发者。Flashcards 无法完整替代 RemNote。在这几款产品中，RemNote 的笔记与 PDF 一体化工作流最强，Anki 的卡片系统和迁移格式则最成熟。
+> **披露：** 我是 Kirill Markin，也是本文对比产品之一 [Nibomo](/zh/) 的开发者。Nibomo 无法完整替代 RemNote。在这几款产品中，RemNote 的笔记与 PDF 一体化工作流最强，Anki 的卡片系统和迁移格式则最成熟。
 
 **事实与价格核查日期：** 2026 年 8 月 31 日。文中采用美国公开定价；注明年付的项目按年付价格计算。税费、地区、应用商店和测试版条款都可能影响实际金额。
 
@@ -44,7 +44,7 @@ RemNote 把 Anki 导出标为 **Flashcards Only（仅闪卡）**。没有做成�
 | **Anki** | 卡片、模板、插件和卡片集合的完整性最重要 | 没有集成式的关联笔记或 PDF 阅读工作区 | 成熟的 FSRS 控制，包括参数优化、目标记忆保持率和工作量模拟 | 卡片集合保存在本地桌面端或移动端；桌面核心开源，并提供官方自托管同步服务器 | 桌面端、AnkiWeb 和 AnkiDroid 免费；官方 AnkiMobile 是付费 iOS 应用 | RemNote 导出到 `.apkg` 的只有卡片，不是整套笔记系统；应通过测试导入核对调度数据和媒体 |
 | **Obsidian + Anki** | 想要普通的本地 Markdown 笔记，又不愿放弃成熟的卡片调度器 | Obsidian 管本地笔记和附件，Anki 管卡片；没有统一的“从 Reader 到复习”闭环 | Anki FSRS | 本地 Markdown 库加本地 Anki 集合；Obsidian 本身免费，但不是开源软件 | Obsidian 免费；可选的 Sync 年付折合每月 US$4 起；Anki 价格同上 | RemNote 的 Markdown 与 Anki 导出会形成两个系统；RemNote 中笔记、资料和卡片之间的动态链接不会变成一套可移植的工作流 |
 | **Logseq** | 明确想要以笔记为核心、支持 PDF 和内置卡片的开源大纲工具 | 相互链接的块、PDF 批注，以及使用四档评分的卡片复习 | 内置四档评分调度器；[新算法的说明](https://github.com/logseq/docs/blob/master/db-version.md#cards)链接到了最初的 FSRS 项目 | 应用采用 AGPL 许可证；数据库版本的数据可导出为 SQLite、EDN 或有损的标准 Markdown | 免费开源应用 | 当前数据库版本处于 beta；新 iOS 应用和实时同步处于 alpha，新 Android 应用尚未开放测试，旧版 Logseq 的 SRS 状态也不兼容新的卡片算法 |
-| **Flashcards** | 想在开放的 Web、移动端和后端完整技术栈中使用简单卡片 | 没有笔记知识库、反向链接、PDF 阅读器或原生桌面应用 | FSRS-6，使用固定权重，可调参数比 Anki 或 RemNote 少 | Web、iOS 和 Android 均采用离线优先设计；整套技术栈使用 MIT 许可证，并提供 AWS 生产部署方案 | 托管应用在 beta 期间免费；自托管另有基础设施和服务商成本 | 没有直接的 RemNote 或 Anki 导入器；可以重建内容，但复习历史和 FSRS 状态无法迁移 |
+| **Nibomo** | 想在开放的 Web、移动端和后端完整技术栈中使用简单卡片 | 没有笔记知识库、反向链接、PDF 阅读器或原生桌面应用 | FSRS-6，使用固定权重，可调参数比 Anki 或 RemNote 少 | Web、iOS 和 Android 均采用离线优先设计；整套技术栈使用 MIT 许可证，并提供 AWS 生产部署方案 | 托管应用在 beta 期间免费；自托管另有基础设施和服务商成本 | 没有直接的 RemNote 或 Anki 导入器；可以重建内容，但复习历史和 FSRS 状态无法迁移 |
 
 这不是一张功能排行榜。大量依赖 PDF 的学生改用“最开放”的选项，失去的可能比从许可证中得到的更多。只有简单词汇卡片的人，也可能一直在为早已不用的笔记系统付费。先找到符合你实际限制的那一行，再测试它的迁移边界。
 

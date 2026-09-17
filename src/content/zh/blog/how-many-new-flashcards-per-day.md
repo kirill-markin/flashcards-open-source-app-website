@@ -215,7 +215,7 @@ FSRS 确实比旧式间隔重复系统更擅长让复习时机显得合理。
 
 ## 为什么 Flashcards 更适合这个工作流
 
-[Flashcards](https://flashcards-open-source-app.com/) 很适合这个流程，因为它同时覆盖了问题的两端：
+[Nibomo](https://flashcards-open-source-app.com/) 很适合这个流程，因为它同时覆盖了问题的两端：
 
 - 用 AI chat 从笔记、PDF 和其他来源起草
 - 在卡片变成永久内容之前先编辑正反面
@@ -236,4 +236,4 @@ FSRS 确实比旧式间隔重复系统更擅长让复习时机显得合理。
 
 这才是我在 2026 年信任的 **一天做多少 flashcards** 规则：起步比你的兴奋感想要的更小，保持卡片干净，诚实观察到期队列，并且只有在系统仍然平静时才增加。
 
-如果你想要这种工作流，[Flashcards](https://flashcards-open-source-app.com/) 给出的正是实用组合：先从源材料起草，再狠一点编辑，最后用 FSRS 复习，而不是让某次令人兴奋的制卡过程悄悄变成一个月的积压。
+如果你想要这种工作流，[Nibomo](https://flashcards-open-source-app.com/) 给出的正是实用组合：先从源材料起草，再狠一点编辑，最后用 FSRS 复习，而不是让某次令人兴奋的制卡过程悄悄变成一个月的积压。

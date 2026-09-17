@@ -218,9 +218,9 @@ CompTIA 将[实操题](https://www.comptia.org/en-us/resources/test-policies/exa
 
 CompTIA 建议参加两门 V15 考试的考生具备 12 个月 IT 支持专员岗位的实践经验。这是建议，不是额外的认证要求，但它能提醒你：考试目标期待考生具备怎样的实际背景。
 
-## Flashcards Open Source App 在哪里发挥作用
+## Nibomo 在哪里发挥作用
 
-[Flashcards Open Source App](/features/)负责记忆这一层：普通正反面卡、卡组与标签、使用 FSRS 复习到期卡片、由 AI 辅助起草卡片（可选）、可同步的移动端离线学习，以及便于迁移的导出功能。当前 beta 测试期间可以免费使用托管版应用，项目也支持自托管。
+[Nibomo](/features/)负责记忆这一层：普通正反面卡、卡组与标签、使用 FSRS 复习到期卡片、由 AI 辅助起草卡片（可选）、可同步的移动端离线学习，以及便于迁移的导出功能。当前 beta 测试期间可以免费使用托管版应用，项目也支持自托管。
 
 一套清晰的 A+ 配置可以很简单：
 
