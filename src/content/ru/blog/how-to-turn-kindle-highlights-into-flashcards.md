@@ -227,9 +227,9 @@ FSRS учитывает эту реальность лучше, чем фикс�
 
 - [FSRS vs SM-2 в 2026 году](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
 
-## Где здесь полезен Flashcards Open Source App
+## Где здесь полезен Nibomo
 
-[Flashcards Open Source App](https://flashcards-open-source-app.com/) хорошо подходит для сценария **выделения Kindle в карточки**, потому что продукт уже закрывает практические части этого процесса:
+[Nibomo](https://flashcards-open-source-app.com/) хорошо подходит для сценария **выделения Kindle в карточки**, потому что продукт уже закрывает практические части этого процесса:
 
 - можно вставить или загрузить текст из экспортированных выделений
 - можно очистить материал в AI-чате перед созданием карточек
@@ -261,7 +261,7 @@ FSRS учитывает эту реальность лучше, чем фикс�
 
 Если это именно то, что вам нужно, начните отсюда:
 
-- [Открыть Flashcards Open Source App](https://flashcards-open-source-app.com/)
+- [Открыть Nibomo](https://flashcards-open-source-app.com/)
 - [Прочитать руководство по началу работы](https://flashcards-open-source-app.com/docs/getting-started/)
 - [Прочитать документацию API](https://flashcards-open-source-app.com/docs/api/)
 - [Посмотреть исходный код на GitHub](https://github.com/kirill-markin/flashcards-open-source-app)

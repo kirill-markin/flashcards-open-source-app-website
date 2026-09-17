@@ -205,7 +205,7 @@ Google уже поддерживает карточки внутри Gemini, и 
 
 ## Где здесь находится Flashcards
 
-[Flashcards](/) не пытается заменить Gemini Guided Learning.
+[Nibomo](/) не пытается заменить Gemini Guided Learning.
 
 Он нужен после сессии, когда вы уже понимаете, что именно стоит запомнить.
 

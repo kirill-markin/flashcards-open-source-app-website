@@ -163,7 +163,7 @@ Claude может помочь создать карточки внутри Flas
 - [Flashcards для iPhone и iPad в App Store](https://apps.apple.com/app/apple-store/id6760538964?pt=128797295&ct=marketing_site&mt=8)
 - [Flashcards для Android в Google Play](https://play.google.com/store/apps/details?id=com.flashcardsopensourceapp.app&utm_source=flashcards_website&utm_medium=referral&utm_campaign=marketing_site)
 
-![Интерфейс повторения Flashcards Open Source App в веб-приложении и мобильных приложениях](/home/app-screens-showcase-en.png)
+![Интерфейс повторения Nibomo в веб-приложении и мобильных приложениях](/home/app-screens-showcase-en.png)
 
 Если вы еще не пользовались продуктом, самый быстрый старт - это [С чего начать](/docs/getting-started/).
 
