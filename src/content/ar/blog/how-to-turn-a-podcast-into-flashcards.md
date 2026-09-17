@@ -221,9 +221,9 @@ keywords:
 
 - [FSRS مقابل SM-2 في عام 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
 
-## أين يناسب Flashcards Open Source App هذا المسار
+## أين يناسب Nibomo هذا المسار
 
-يُعد [Flashcards Open Source App](https://flashcards-open-source-app.com/) مناسبًا جدًا لمسار **تحويل البودكاست إلى Flashcards** لأن المنتج يغطي بالفعل الخطوات العملية التي تجعل هذا الأسلوب قابلًا للاستخدام:
+يُعد [Nibomo](https://flashcards-open-source-app.com/) مناسبًا جدًا لمسار **تحويل البودكاست إلى Flashcards** لأن المنتج يغطي بالفعل الخطوات العملية التي تجعل هذا الأسلوب قابلًا للاستخدام:
 
 - لصق نصوص البودكاست أو رفعها كنص عادي
 - تنظيف المادة داخل دردشة الذكاء الاصطناعي قبل إنشاء البطاقات

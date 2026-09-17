@@ -18,7 +18,7 @@ keywords:
 
 **تم التحقق من الحقائق:** 18 أغسطس 2026.
 
-> **إفصاح:** أنا كيريل ماركين، وأطوّر Flashcards Open Source App. أورد أدناه Agent API وخادم MCP الخاصين به ضمن البدائل. لا يتوافق Flashcards مع Quizlet، ولا يستورد مجموعات Quizlet تلقائيًا.
+> **إفصاح:** أنا كيريل ماركين، وأطوّر Nibomo. أورد أدناه Agent API وخادم MCP الخاصين به ضمن البدائل. لا يتوافق Nibomo مع Quizlet، ولا يستورد مجموعات Quizlet تلقائيًا.
 
 ![مطوّر يقارن بين تصدير Quizlet والتضمين وعمليات التكامل المحددة وواجهة API موثقة للبطاقات التعليمية](/blog/quizlet-api.png)
 
@@ -83,7 +83,7 @@ keywords:
 
 ## ما الذي يوفّره بديل Flashcards API فعلًا؟
 
-ينشر Flashcards Open Source App طريقتين للوصول إلى النطاق المحدود نفسه من البيانات، على مستوى كل مستخدم:
+ينشر Nibomo طريقتين للوصول إلى النطاق المحدود نفسه من البيانات، على مستوى كل مستخدم:
 
 - تبدأ [Agent API الخارجية](/docs/api/) من `GET https://api.flashcards-open-source-app.com/v1/`. وترشد استجابة الاكتشاف الوكيل عبر خطوات تسجيل الدخول باستخدام رمز OTP عبر البريد الإلكتروني، وإنشاء مفتاح API، واختيار مساحة العمل. تستخدم عمليات القراءة مسار استعلام بأسلوب SQL، بينما تستخدم عمليات الكتابة مسار تنفيذ منفصلًا.
 - يتوفر [خادم MCP البعيد](/docs/mcp-connector/) على `https://mcp.flashcards-open-source-app.com/mcp`. ويحصل عملاء MCP على سبع أدوات: `list_workspaces` و`sql_query` و`sql_execute` و`get_guide`، وأدوات المراجعة `next_review_card` و`reveal_answer` و`submit_review`.

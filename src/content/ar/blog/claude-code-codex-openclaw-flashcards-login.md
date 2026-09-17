@@ -17,7 +17,7 @@ keywords:
 
 وهذا بالضبط النوع من العمل الذي يفترض أن تتكفّل به الأداة بدلًا منك.
 
-في [Flashcards](https://flashcards-open-source-app.com/) نتيح الآن مسار تسجيل دخول مفتوح المصدر للوكلاء يبدأ من رابط اكتشاف واحد:
+في [Nibomo](https://flashcards-open-source-app.com/) نتيح الآن مسار تسجيل دخول مفتوح المصدر للوكلاء يبدأ من رابط اكتشاف واحد:
 
 `https://api.flashcards-open-source-app.com/v1/`
 
