@@ -269,9 +269,9 @@ You do not need a heroic weekend deck for architecture patterns flashcards.
 
 You need a repeatable loop that stops the same weak answer from showing up twice.
 
-## Where Flashcards Open Source App fits
+## Where Nibomo fits
 
-[Flashcards Open Source App](/features/) is a good fit for this workflow because system design prep creates messy source material: mock notes, architecture bullets, pasted transcripts, screenshots, plain-text checklists, and quick postmortems on what you missed.
+[Nibomo](/features/) is a good fit for this workflow because system design prep creates messy source material: mock notes, architecture bullets, pasted transcripts, screenshots, plain-text checklists, and quick postmortems on what you missed.
 
 The current product surface matches that pretty well:
 

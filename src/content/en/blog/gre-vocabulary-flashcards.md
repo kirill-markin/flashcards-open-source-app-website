@@ -250,7 +250,7 @@ If your raw material starts as notes, article excerpts, or question reviews, the
 
 ## Where Flashcards fits this GRE workflow
 
-If you want to run this inside [Flashcards](https://flashcards-open-source-app.com/), the useful part is not a vague promise that "AI makes study easier." It is that the current product already supports the practical middle of the workflow:
+If you want to run this inside [Nibomo](https://flashcards-open-source-app.com/), the useful part is not a vague promise that "AI makes study easier." It is that the current product already supports the practical middle of the workflow:
 
 - front/back card creation and editing
 - AI chat for drafting and cleanup
@@ -276,7 +276,7 @@ That is the version of a **GRE vocab deck** I would trust.
 
 If you want to try that workflow in Flashcards:
 
-- [Start with Flashcards](https://flashcards-open-source-app.com/)
+- [Start with Nibomo](https://flashcards-open-source-app.com/)
 - [Open the web app](https://app.flashcards-open-source-app.com/)
 - [Read the getting started guide](https://flashcards-open-source-app.com/docs/getting-started/)
 - [View the source on GitHub](https://github.com/kirill-markin/flashcards-open-source-app)

@@ -245,7 +245,7 @@ The deck gets cleaner immediately.
 
 ## Where Flashcards fits this workflow better
 
-[Flashcards](https://flashcards-open-source-app.com/) is a strong fit for **spaced repetition for vocabulary** because the product already supports the pieces this workflow depends on:
+[Nibomo](https://flashcards-open-source-app.com/) is a strong fit for **spaced repetition for vocabulary** because the product already supports the pieces this workflow depends on:
 
 - clean front/back cards
 - FSRS review scheduling
@@ -274,4 +274,4 @@ I would keep the system simple:
 
 That is the version of **how to use flashcards for language learning** I trust.
 
-If you want a tool built around that workflow, [Flashcards](https://flashcards-open-source-app.com/) is a strong fit. It gives you AI-assisted drafting, front/back cards, and FSRS review in one open-source stack, which is exactly what a language deck needs once you stop mistaking word collection for actual learning.
+If you want a tool built around that workflow, [Nibomo](https://flashcards-open-source-app.com/) is a strong fit. It gives you AI-assisted drafting, front/back cards, and FSRS review in one open-source stack, which is exactly what a language deck needs once you stop mistaking word collection for actual learning.

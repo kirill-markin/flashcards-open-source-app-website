@@ -222,7 +222,7 @@ That is a much better deal than turning every sentence into a card and calling i
 
 ## Where Flashcards fits
 
-[Flashcards](https://flashcards-open-source-app.com/) is a strong fit for **study lecture recordings with flashcards** because it covers the part that transcripts and AI drafting do not solve on their own:
+[Nibomo](https://flashcards-open-source-app.com/) is a strong fit for **study lecture recordings with flashcards** because it covers the part that transcripts and AI drafting do not solve on their own:
 
 - a real flashcards app with front/back cards
 - decks and tags
@@ -287,7 +287,7 @@ That is the version of **how to turn lecture recordings into flashcards** that a
 
 If you are building a **lecture transcript to flashcards** workflow, start here:
 
-- [Open Flashcards](https://flashcards-open-source-app.com/)
+- [Open Nibomo](https://flashcards-open-source-app.com/)
 - [Open the app](https://app.flashcards-open-source-app.com/)
 - [Read the self-hosting guide](https://flashcards-open-source-app.com/docs/self-hosting/)
 - [View the source on GitHub](https://github.com/kirill-markin/flashcards-open-source-app)

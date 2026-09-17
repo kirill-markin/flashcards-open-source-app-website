@@ -1,23 +1,22 @@
 ---
-title: "Anki vs Flashcards (2026): Which App Should You Use?"
-description: "Compare Anki and Flashcards Open Source App on FSRS, offline use, mobile apps, AI, migration, self-hosting, and data control before you switch."
+title: "Anki vs Nibomo (2026): Which App Should You Use?"
+description: "Compare Anki and Nibomo on FSRS, offline use, mobile apps, AI, migration, self-hosting, and data control before you switch."
 date: "2026-04-25"
 updated: "2026-08-23"
 image: "/blog/anki-vs-flashcards-open-source-app-v2.png"
 keywords:
-  - "Anki vs Flashcards"
-  - "Anki vs Flashcards Open Source App"
+  - "Anki vs Nibomo"
   - "Anki alternative"
   - "open source Anki alternative"
   - "FSRS flashcard app"
   - "self-hosted flashcards app"
 ---
 
-If Anki already holds your cards and review history, switching apps is a data-migration decision before it is a design preference. Anki can export a deck or an entire collection with scheduling data and media. Flashcards Open Source App cannot import Anki's `.apkg` or `.colpkg` packages, so it can help rebuild simple card content but cannot continue the review queue you have today.
+If Anki already holds your cards and review history, switching apps is a data-migration decision before it is a design preference. Anki can export a deck or an entire collection with scheduling data and media. Nibomo cannot import Anki's `.apkg` or `.colpkg` packages, so it can help rebuild simple card content but cannot continue the review queue you have today.
 
-That boundary decides most **Anki vs Flashcards** comparisons. Stay with Anki when collection fidelity, templates, add-ons, shared decks, or an established review habit matter most. Try Flashcards when you can start with a new or mostly text-based deck and care more about whole-stack source access, offline-first sync, built-in AI, or agent workflows.
+That boundary decides most **Anki vs Nibomo** comparisons. Stay with Anki when collection fidelity, templates, add-ons, shared decks, or an established review habit matter most. Try Nibomo when you can start with a new or mostly text-based deck and care more about whole-stack source access, offline-first sync, built-in AI, or agent workflows.
 
-> **Disclosure:** I am Kirill Markin, and I build [Flashcards](https://flashcards-open-source-app.com/). I have a clear interest in the product, so this comparison treats Anki as the default for workflows that Flashcards cannot yet reproduce.
+> **Disclosure:** I am Kirill Markin, and I build [Nibomo](https://flashcards-open-source-app.com/). I have a clear interest in the product, so this comparison treats Anki as the default for workflows that Nibomo cannot yet reproduce.
 
 **Facts checked:** August 23, 2026.
 
@@ -25,15 +24,15 @@ That boundary decides most **Anki vs Flashcards** comparisons. Stay with Anki wh
 
 ## Quick verdict
 
-| Your constraint | Anki | Flashcards Open Source App | Better fit today |
+| Your constraint | Anki | Nibomo | Better fit today |
 | --- | --- | --- | --- |
 | You need to preserve a complex collection and its review history | A `.colpkg` keeps the full collection and schedule; an `.apkg` can include review history, deck presets, and media | No direct Anki package import; an Anki text export becomes reviewed card drafts, not a faithful collection transfer | **Anki** |
 | You want FSRS | Supports FSRS, parameter optimization from review history, desired retention, and deck presets | Uses pinned FSRS-6 weights across web, iOS, Android, and the backend; workspace settings do not optimize weights from your reviews | **Either**; Anki is stronger for personal optimization and schedule continuity |
 | You study without internet | Installed desktop, iOS, and Android clients keep local collections; AnkiWeb remains online-only | Web, iOS, and Android write card and review changes locally first; sign-in, initial hydration, sync, AI, and uncached media need a connection | **Either**, after testing your exact devices and media |
 | You rely on templates, add-ons, or shared decks | Deep official workflows and a large community ecosystem | Focused front/back workflow; no equivalent add-on or shared-deck ecosystem | **Anki** |
-| You want built-in AI and agent access | Possible through third-party add-ons and integrations | AI chat with workspace context and files, plus MCP and a public Agent API | **Flashcards** |
+| You want built-in AI and agent access | Possible through third-party add-ons and integrations | AI chat with workspace context and files, plus MCP and a public Agent API | **Nibomo** |
 | You want to control the server | Official self-hosted server replaces collection and media sync | Documented AWS deployment covers web, auth, backend, sync, AI worker, and infrastructure | Depends whether you need **sync only** or the **whole stack** |
-| You want source for the complete client-and-service stack | Desktop Anki and the sync server are public; AnkiDroid is a separate public project; the complete AnkiMobile and AnkiWeb source is not public | Web, iOS, Android, auth, backend, sync, agent surfaces, and infrastructure are MIT-licensed in one repository | **Flashcards** |
+| You want source for the complete client-and-service stack | Desktop Anki and the sync server are public; AnkiDroid is a separate public project; the complete AnkiMobile and AnkiWeb source is not public | Web, iOS, Android, auth, backend, sync, agent surfaces, and infrastructure are MIT-licensed in one repository | **Nibomo** |
 
 The safest answer for a serious existing Anki user is usually to stay. Flashcards becomes a sensible trial when one of its different boundaries solves a real problem—not merely because its interface is newer.
 
@@ -135,7 +134,7 @@ Choose Anki if you:
 
 For an exam or another high-stakes workflow already running well, staying with Anki is not resistance to change. It protects working study infrastructure.
 
-## Who should try Flashcards?
+## Who should try Nibomo?
 
 Try Flashcards if you:
 
@@ -150,6 +149,6 @@ You can start with the [hosted app](https://app.flashcards-open-source-app.com/)
 
 ## The practical answer
 
-For most established users comparing **Anki vs Flashcards Open Source App**, Anki should remain the main app. It has the stronger collection model, migration fidelity, customization surface, and ecosystem, while already offering FSRS and reliable offline clients.
+For most established users comparing **Anki vs Nibomo**, Anki should remain the main app. It has the stronger collection model, migration fidelity, customization surface, and ecosystem, while already offering FSRS and reliable offline clients.
 
 Flashcards is a credible open source Anki alternative for a narrower group: people willing to start a fresh schedule in exchange for whole-stack source access, released web and native apps, offline-first sync, built-in AI, and agent workflows. Test that trade with one representative deck. If the limitation you wanted to escape actually disappears, expand from there.

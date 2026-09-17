@@ -238,7 +238,7 @@ That is the point.
 
 ## Where Flashcards fits this workflow
 
-[Flashcards](/) works well for this timing because the app covers the narrow moment between "I understood this" and "now I need clean cards before the details drift."
+[Nibomo](/) works well for this timing because the app covers the narrow moment between "I understood this" and "now I need clean cards before the details drift."
 
 You can:
 

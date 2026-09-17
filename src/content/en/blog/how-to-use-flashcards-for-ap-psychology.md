@@ -243,7 +243,7 @@ If you want the scheduling side in more detail, these two articles fit best:
 
 ## Where Flashcards fits an AP Psychology workflow
 
-If you want to run this inside [Flashcards](https://flashcards-open-source-app.com/), the useful part is not a vague promise that AI will magically study AP Psych for you.
+If you want to run this inside [Nibomo](https://flashcards-open-source-app.com/), the useful part is not a vague promise that AI will magically study AP Psych for you.
 
 The useful part is that the product already fits the middle of this workflow:
 

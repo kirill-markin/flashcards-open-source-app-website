@@ -18,7 +18,7 @@ That is a finding about Quizlet's public documentation, not a claim about its in
 
 **Facts checked:** August 18, 2026.
 
-> **Disclosure:** I am Kirill Markin, and I build Flashcards Open Source App, whose Agent API and MCP server appear as alternatives below. Flashcards is not Quizlet-compatible, and it does not automatically import Quizlet sets.
+> **Disclosure:** I am Kirill Markin, and I build Nibomo, whose Agent API and MCP server appear as alternatives below. Nibomo is not Quizlet-compatible, and it does not automatically import Quizlet sets.
 
 ![Developer comparing Quizlet export, embed, named integrations, and a documented flashcard API](/blog/quizlet-api.png)
 
@@ -83,7 +83,7 @@ The safe route is a flashcard system that explicitly publishes how outside softw
 
 ## What the Flashcards API alternative actually provides
 
-Flashcards Open Source App publishes two routes to the same limited, per-user data surface:
+Nibomo publishes two routes to the same limited, per-user data surface:
 
 - The [external Agent API](/docs/api/) starts at `GET https://api.flashcards-open-source-app.com/v1/`. Its discovery response guides an agent through email OTP login, API-key creation, and workspace selection. Reads use a SQL-style query route; writes use a separate execute route.
 - The [remote MCP server](/docs/mcp-connector/) is available at `https://mcp.flashcards-open-source-app.com/mcp`. MCP clients get seven tools: `list_workspaces`, `sql_query`, `sql_execute`, `get_guide`, and the review tools `next_review_card`, `reveal_answer`, and `submit_review`.

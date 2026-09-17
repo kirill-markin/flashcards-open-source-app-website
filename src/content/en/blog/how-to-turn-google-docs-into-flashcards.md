@@ -223,9 +223,9 @@ That makes later cleanup easier. It also helps when one shared doc mixed vocabul
 
 You do not need a beautiful taxonomy on day one. You do need enough structure that one collaborative document does not turn into one giant undifferentiated deck.
 
-## Where Flashcards Open Source App fits after the copy or export step
+## Where Nibomo fits after the copy or export step
 
-Once the useful part of the Google Doc is in a cleaner form, Flashcards Open Source App covers the part that matters:
+Once the useful part of the Google Doc is in a cleaner form, Nibomo covers the part that matters:
 
 - AI chat for drafting from pasted text or attached files
 - plain front/back card creation

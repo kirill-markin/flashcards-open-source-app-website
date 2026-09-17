@@ -216,7 +216,7 @@ If your AI-generated cards already feel bloated, [How to Fix AI Flashcards in 20
 
 ## Where Flashcards fits
 
-[Flashcards](/) fits best after the assignment, when the real studying starts again.
+[Nibomo](/) fits best after the assignment, when the real studying starts again.
 
 That handoff is grounded in the current product surface:
 

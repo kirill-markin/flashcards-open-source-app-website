@@ -319,7 +319,7 @@ If you want the scheduling side in more detail, [How to Study for an Exam With F
 
 ## Where Flashcards fits in a Step 1 workflow
 
-If you want to run this inside [Flashcards](https://flashcards-open-source-app.com/), the value is not a vague promise that AI will learn medicine for you.
+If you want to run this inside [Nibomo](https://flashcards-open-source-app.com/), the value is not a vague promise that AI will learn medicine for you.
 
 The value is that the product already covers the practical middle of the workflow:
 

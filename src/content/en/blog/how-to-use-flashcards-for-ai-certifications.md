@@ -246,7 +246,7 @@ If the card quality itself is the weak point, this is the next article I would o
 
 ## Where Flashcards fits this workflow better
 
-[Flashcards](https://flashcards-open-source-app.com/) is a strong fit for this kind of certification prep because the product already supports the parts this workflow depends on:
+[Nibomo](https://flashcards-open-source-app.com/) is a strong fit for this kind of certification prep because the product already supports the parts this workflow depends on:
 
 - front/back cards for clean recall prompts
 - AI chat for drafting from notes, study guides, and question-review material
@@ -276,7 +276,7 @@ More recall that actually survives the exam timer.
 
 If you want to try that workflow:
 
-- [Open Flashcards](https://flashcards-open-source-app.com/)
+- [Open Nibomo](https://flashcards-open-source-app.com/)
 - [Open the app](https://app.flashcards-open-source-app.com/)
 - [Read the features page](https://flashcards-open-source-app.com/features/)
 - [View the source on GitHub](https://github.com/kirill-markin/flashcards-open-source-app)

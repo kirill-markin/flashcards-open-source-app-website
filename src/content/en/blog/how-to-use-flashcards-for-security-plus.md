@@ -344,7 +344,7 @@ If that matters to your study setup, this one is worth reading too:
 
 ## Where Flashcards fits this workflow well
 
-[Flashcards](https://flashcards-open-source-app.com/) is a strong fit for **Security+ flashcards** because the product already matches the workflow instead of forcing you to improvise across five tools.
+[Nibomo](https://flashcards-open-source-app.com/) is a strong fit for **Security+ flashcards** because the product already matches the workflow instead of forcing you to improvise across five tools.
 
 [CompTIA Security+ SY0-701 Flashcards: Complete Objective Review](/catalog/packages/comptia-security-plus-sy0-701-flashcards/) contains 744 original open-response cards across all five current SY0-701 domains. It is not affiliated with or endorsed by CompTIA and excludes copied exam material, exam dumps, multiple-choice practice, and raw objective wording.
 

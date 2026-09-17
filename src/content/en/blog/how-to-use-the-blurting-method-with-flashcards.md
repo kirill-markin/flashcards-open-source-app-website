@@ -288,7 +288,7 @@ If your exam workflow needs more structure than that, [How to Study for an Exam 
 
 ## Where Flashcards fits
 
-[Flashcards](/) fits this workflow because the product covers the part blurting does not:
+[Nibomo](/) fits this workflow because the product covers the part blurting does not:
 
 - front/back cards for the exact misses you found
 - decks and tags for class, exam, or source organization

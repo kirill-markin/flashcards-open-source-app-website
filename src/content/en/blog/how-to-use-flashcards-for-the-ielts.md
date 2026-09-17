@@ -235,9 +235,9 @@ A simpler structure usually holds up better:
 
 That gives you one place to study while still letting you zoom in on the part that is leaking points.
 
-## Where Flashcards Open Source App fits
+## Where Nibomo fits
 
-[Flashcards](/) is a good fit for IELTS prep because the useful workflow is narrow and repetitive in a good way:
+[Nibomo](/) is a good fit for IELTS prep because the useful workflow is narrow and repetitive in a good way:
 
 - keep one `IELTS` deck and tag cards by exam type, skill, and mistake pattern
 - turn missed questions, rough Speaking notes, and messy Writing fixes into front/back cards right after practice
@@ -262,7 +262,7 @@ That is a much better answer to **how to study for IELTS** than building a giant
 
 If you want to try this workflow inside the actual product:
 
-- [Open Flashcards](/)
+- [Open Nibomo](/)
 - [Open the app](https://app.flashcards-open-source-app.com/)
 - [Read the getting started guide](/docs/getting-started/)
 - [View the source on GitHub](https://github.com/kirill-markin/flashcards-open-source-app)

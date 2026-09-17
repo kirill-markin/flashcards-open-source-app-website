@@ -212,7 +212,7 @@ If AI already made your deck bigger than your patience, [How to Fix AI Flashcard
 
 ## Where Flashcards fits well
 
-[Flashcards](/) works nicely for this kind of summer review because the hard part is not novelty. It is staying low-friction long enough to keep showing up.
+[Nibomo](/) works nicely for this kind of summer review because the hard part is not novelty. It is staying low-friction long enough to keep showing up.
 
 You can draft cards from notes or files, trim them into plain front/back prompts, and let FSRS handle the review timing once the deck is clean. That matters more in July than during finals week. During finals, people will tolerate a messy workflow for a few days. In summer, they will just stop opening it.
 

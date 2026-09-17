@@ -143,7 +143,7 @@ That is why exam prep benefits so much from a boring boundary: card drafting ear
 
 ## Where Flashcards fits this workflow better
 
-[Flashcards](https://flashcards-open-source-app.com/) is a strong fit for this problem because the product can handle both halves without pretending they are the same job.
+[Nibomo](https://flashcards-open-source-app.com/) is a strong fit for this problem because the product can handle both halves without pretending they are the same job.
 
 The current stack already gives you:
 
@@ -208,13 +208,13 @@ I would use AI to make the first draft faster, then switch into a stricter exam 
 
 That is the version of **spaced repetition for exams** that actually feels sustainable.
 
-If you want a product that supports that workflow, [Flashcards](https://flashcards-open-source-app.com/) is a strong fit. It gives you AI-assisted drafting, front/back cards, and FSRS review in one open-source stack instead of scattering the workflow across five study tools and a folder of exports.
+If you want a product that supports that workflow, [Nibomo](https://flashcards-open-source-app.com/) is a strong fit. It gives you AI-assisted drafting, front/back cards, and FSRS review in one open-source stack instead of scattering the workflow across five study tools and a folder of exports.
 
 ## Build the exam deck you can still finish
 
 If you want to try the workflow:
 
-- [Open Flashcards](https://flashcards-open-source-app.com/)
+- [Open Nibomo](https://flashcards-open-source-app.com/)
 - [Open the app](https://app.flashcards-open-source-app.com/)
 - [Read the features page](https://flashcards-open-source-app.com/features/)
 - [View the source on GitHub](https://github.com/kirill-markin/flashcards-open-source-app)

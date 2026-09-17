@@ -230,7 +230,7 @@ That is usually how "I forget everything the next day" turns into "I still misse
 
 ## Where Flashcards fits honestly
 
-[Flashcards](/) is not the product I would describe as a full practice-test platform.
+[Nibomo](/) is not the product I would describe as a full practice-test platform.
 
 It fits better as the retention layer after explanation, tutoring, quizzes, and practice questions have already done their job.
 

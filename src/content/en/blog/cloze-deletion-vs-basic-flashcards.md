@@ -185,9 +185,9 @@ Audit a small batch before reviews accumulate:
 
 Repeated hesitation during review is useful evidence. Rewrite a card when you keep thinking, `I knew the idea, but not the exact word`, or when the sentence pattern produces the answer before the fact does. [Active recall and spaced repetition](/blog/active-recall-vs-spaced-repetition/) explains how retrieval and scheduling differ, and the [FSRS settings guide](/blog/fsrs-settings/) covers timing choices after the cards are clean.
 
-## How Flashcards Open Source App handles this choice
+## How Nibomo handles this choice
 
-[Flashcards Open Source App features](/features/) use explicit front/back cards. The app does not expose native cloze syntax, cloze rendering, or automatic cloze-note generation. If you start with cloze material, convert the useful retrieval target into a front/back question as shown above.
+[Nibomo features](/features/) use explicit front/back cards. The app does not expose native cloze syntax, cloze rendering, or automatic cloze-note generation. If you start with cloze material, convert the useful retrieval target into a front/back question as shown above.
 
 AI-assisted drafting can use chat or a file attachment to propose front/back cards for inspection and editing. Verify every factual answer against its source. During review, you grade cards with Again, Hard, Good, or Easy, and FSRS uses that history to choose future timing; it does not repair the wording.
 

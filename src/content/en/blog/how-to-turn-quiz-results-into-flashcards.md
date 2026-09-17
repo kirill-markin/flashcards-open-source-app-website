@@ -214,7 +214,7 @@ If your workflow already includes tutor-style quiz sessions, [How to Use AI for 
 
 ## Where Flashcards fits
 
-[Flashcards](/) is a good fit for this workflow because the useful steps are small and practical: draft plain front/back cards, clean them up, and review the ones worth keeping with FSRS. The hosted web app also supports AI chat plus file attachments, including plain text uploads, which helps when quiz feedback starts as copied LMS text or a rough export instead of a neat study guide.
+[Nibomo](/) is a good fit for this workflow because the useful steps are small and practical: draft plain front/back cards, clean them up, and review the ones worth keeping with FSRS. The hosted web app also supports AI chat plus file attachments, including plain text uploads, which helps when quiz feedback starts as copied LMS text or a rough export instead of a neat study guide.
 
 If you want the product overview first, start with the [features page](/features/) or the [getting started guide](/docs/getting-started/).
 

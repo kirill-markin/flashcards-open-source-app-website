@@ -133,7 +133,7 @@ Use the tools in sequence. Let realistic questions expose gaps, store the small 
 
 FSRS automates return timing for cards. The official [Free Spaced Repetition Scheduler project](https://github.com/open-spaced-repetition/free-spaced-repetition-scheduler) models a card’s difficulty, stability, and retrievability. After each attempt, your rating supplies the signal for the next scheduling decision.
 
-In Flashcards Open Source App, the current scheduler is FSRS-6. The queue shows cards that are due, and reviews use four ratings:
+In Nibomo, the current scheduler is FSRS-6. The queue shows cards that are due, and reviews use four ratings:
 
 - `Again` for failed recall
 - `Hard` for a difficult but successful recall
@@ -158,4 +158,4 @@ Before choosing **cramming vs spaced repetition**, check five things:
 
 Several days give you time to distribute retrieval. One evening calls for a narrow list of repairable, high-value items. Keep practice questions in either plan, and continue spaced reviews after the test for knowledge that still matters.
 
-You can follow every step here with paper, a notes file, and practice questions. If you want FSRS to manage card dates, review the [Flashcards features](/features/) or [open the hosted app](https://app.flashcards-open-source-app.com). Choose the study pattern from the deadline and from how long the knowledge must last.
+You can follow every step here with paper, a notes file, and practice questions. If you want FSRS to manage card dates, review the [Nibomo features](/features/) or [open the hosted app](https://app.flashcards-open-source-app.com). Choose the study pattern from the deadline and from how long the knowledge must last.

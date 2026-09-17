@@ -235,9 +235,9 @@ Flashcards help you retain the word, character, construction, or correction that
 
 This boundary also keeps the deck smaller. A missed vocabulary item may need a card. A concentration lapse after 30 minutes usually needs a longer practice block, not a reminder saying `concentrate`.
 
-## Where Flashcards Open Source App fits
+## Where Nibomo fits
 
-[Flashcards Open Source App](/) covers the retention part of the plan. You can create and edit front/back cards, review due items, and use the four Again, Hard, Good, and Easy ratings with FSRS scheduling. The core is free and open source.
+[Nibomo](/) covers the retention part of the plan. You can create and edit front/back cards, review due items, and use the four Again, Hard, Good, and Easy ratings with FSRS scheduling. The core is free and open source.
 
 One practical setup is:
 

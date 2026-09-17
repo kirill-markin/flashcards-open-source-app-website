@@ -180,7 +180,7 @@ Keep administrative facts elsewhere too. Exam structure, curriculum, registratio
 
 ## Where Flashcards fits
 
-[Flashcards](/) covers the recall layer without replacing the curriculum, item sets, constructed responses, or mocks. The hosted web app supports front/back cards, tags, due-card review with FSRS, and AI chat with workspace data and file attachments. The project is open source; its repository also includes an iOS client, and the Android app is published on Google Play.
+[Nibomo](/) covers the recall layer without replacing the curriculum, item sets, constructed responses, or mocks. The hosted web app supports front/back cards, tags, due-card review with FSRS, and AI chat with workspace data and file attachments. The project is open source; its repository also includes an iOS client, and the Android app is published on Google Play.
 
 Start with the last few practice misses that exposed a reusable problem. Edit AI-drafted cards before saving them, review what is due, and return to timed questions. The current [features](/features/), [getting started guide](/docs/getting-started/), and [source code](https://github.com/kirill-markin/flashcards-open-source-app) show exactly what the product offers.
 

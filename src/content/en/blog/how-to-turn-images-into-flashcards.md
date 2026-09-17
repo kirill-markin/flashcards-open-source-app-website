@@ -187,7 +187,7 @@ If the cards already exist and already feel vague, [How to Fix AI Flashcards](/b
 
 ## Where Flashcards fits after the cleanup pass
 
-Once the image content is readable, [Flashcards](/features/) fits the practical part of the workflow:
+Once the image content is readable, [Nibomo](/features/) fits the practical part of the workflow:
 
 - AI chat with uploaded files and uploaded images in the hosted app
 - front/back card drafting and editing

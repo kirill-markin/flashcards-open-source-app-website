@@ -18,7 +18,7 @@ You can use FSRS inside Anki. Since the release of SuperMemo 20, FSRS can partic
 
 Anki is a flashcard product and ecosystem. SuperMemo can mean two current products or a long family of algorithms. FSRS is a scheduler that products can implement. This guide separates those categories first, then compares the choices you can actually make.
 
-> **Disclosure:** I am Kirill Markin, and I build [Flashcards Open Source App](/features/), which is included as one practical FSRS implementation below. I do not treat it as the default winner, and I call out where its younger ecosystem matters.
+> **Disclosure:** I am Kirill Markin, and I build [Nibomo](/features/), which is included as one practical FSRS implementation below. I do not treat it as the default winner, and I call out where its younger ecosystem matters.
 
 **Facts checked:** August 3, 2026.
 
@@ -43,7 +43,7 @@ So “Anki FSRS” is not a contradiction. It means Anki is the product and FSRS
 | [SuperMemo 20 for Windows](https://supermemo.store/products/supermemo-20-for-windows) | Proprietary Windows knowledge-management and incremental-reading product | Algorithm Arena includes SM-2, SM-15, SM-19, SM-20, and FSRS | Incremental reading, knowledge trees, and imports from documents, web pages, email, and video | Windows-only product; separate from SuperMemo.com |
 | [SuperMemo.com](https://www.supermemo.com/en/app) | Hosted language-learning service for web, iOS, and Android | Proprietary SuperMemo method; current public pages do not identify it as SM-18, SM-20, or FSRS | Prepared language courses, MemoCards, and cross-device hosted study | Not the Windows product, and its exact scheduler is not public |
 | [FSRS](https://github.com/open-spaced-repetition/fsrs4anki) | Open scheduler and project | Implemented by a host product or library | Developers and users who want inspectable scheduling logic | It provides no cards, editor, sync, or study interface by itself |
-| [Flashcards Open Source App](/features/) | Younger open-source flashcard product built around FSRS | FSRS-6 with pinned official default weights and configurable workspace scheduling settings | Web, iOS, Android, self-hosting, API, and AI-agent workflows | Smaller ecosystem than Anki and no personalized FSRS weights yet |
+| [Nibomo](/features/) | Younger open-source flashcard product built around FSRS | FSRS-6 with pinned official default weights and configurable workspace scheduling settings | Web, iOS, Android, self-hosting, API, and AI-agent workflows | Smaller ecosystem than Anki and no personalized FSRS weights yet |
 
 The rows are deliberately not symmetrical. Anki and Flashcards give you full flashcard workflows. SuperMemo 20 combines scheduling with a much broader reading and knowledge workflow. SuperMemo.com sells a hosted language-learning experience. FSRS supplies scheduling logic to other software.
 
@@ -55,7 +55,7 @@ This matters when someone says they want to leave Anki “for FSRS.” Current A
 
 The manual's wording needs one historical footnote. **SM-2 is an early algorithm in the SuperMemo lineage, not a synonym for current SuperMemo.** Calling Anki's older scheduler “legacy SM-2” follows Anki's documentation and identifies the algorithm family behind it. It does not establish that every implementation detail is identical to the original SM-2 published decades ago. For a more focused technical comparison, see [FSRS vs SM-2](/blog/fsrs-vs-sm-2/).
 
-If your mature collection depends on custom templates, add-ons, media, or years of review history, moving products creates real migration work. Switching Anki's scheduler may be far cheaper than switching away from Anki. The broader [Anki vs Flashcards comparison](/blog/anki-vs-flashcards-open-source-app/) covers the product-level tradeoff.
+If your mature collection depends on custom templates, add-ons, media, or years of review history, moving products creates real migration work. Switching Anki's scheduler may be far cheaper than switching away from Anki. The broader [Anki vs Nibomo comparison](/blog/anki-vs-flashcards-open-source-app/) covers the product-level tradeoff.
 
 ## “SuperMemo” now needs a qualifier
 
@@ -155,7 +155,7 @@ Evaluate FSRS implementations and libraries. The open documentation, formulas, a
 
 ### You want a modern open-source web, mobile, and agent workflow
 
-Evaluate [Flashcards Open Source App](/features/). It combines FSRS-6 with web, iOS, Android, self-hosting, a public API, and AI-agent access. Its honest limitation is maturity: it is a younger ecosystem than Anki, and it does not match Anki's depth of templates, add-ons, shared decks, or migration fidelity. Keep Anki for collections that rely on those strengths.
+Evaluate [Nibomo](/features/). It combines FSRS-6 with web, iOS, Android, self-hosting, a public API, and AI-agent access. Its honest limitation is maturity: it is a younger ecosystem than Anki, and it does not match Anki's depth of templates, add-ons, shared decks, or migration fidelity. Keep Anki for collections that rely on those strengths.
 
 ## A scheduler does not rescue a weak study system
 

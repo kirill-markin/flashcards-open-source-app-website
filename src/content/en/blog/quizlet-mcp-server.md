@@ -19,7 +19,7 @@ Quizlet does have an official app in ChatGPT. It can turn a ChatGPT conversation
 
 **Facts checked:** September 12, 2026.
 
-> **Disclosure:** I am Kirill Markin, and I build Flashcards Open Source App, whose MCP server and Agent API appear as alternatives below. Flashcards cannot connect to a Quizlet account or import a Quizlet URL.
+> **Disclosure:** I am Kirill Markin, and I build Nibomo, whose MCP server and Agent API appear as alternatives below. Nibomo cannot connect to a Quizlet account or import a Quizlet URL.
 
 ![A gardener carries one young plant from a closed greenhouse into a garden bed with branching drip irrigation](/blog/quizlet-mcp-server.png)
 
@@ -71,7 +71,7 @@ That is why keeping the move reversible matters. If a multiline definition becom
 
 ## What Claude and Codex can use after the export
 
-Flashcards Open Source App publishes a remote MCP endpoint at:
+Nibomo publishes a remote MCP endpoint at:
 
 `https://mcp.flashcards-open-source-app.com/mcp`
 

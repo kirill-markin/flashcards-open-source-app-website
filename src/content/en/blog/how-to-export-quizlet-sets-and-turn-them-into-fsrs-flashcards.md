@@ -106,7 +106,7 @@ A spreadsheet can add the quoting CSV needs. A global tab-to-comma replacement c
 
 ## Move the text into Flashcards as reviewed draft material
 
-[Flashcards Open Source App](/features/) has no direct Quizlet importer. The hosted route for TXT or CSV is AI-assisted drafting from a file attachment, not a lossless migration.
+[Nibomo](/features/) has no direct Quizlet importer. The hosted route for TXT or CSV is AI-assisted drafting from a file attachment, not a lossless migration.
 
 1. Keep the raw Quizlet file outside the app.
 2. Attach the cleaned TXT or deliberately prepared CSV in Flashcards AI chat.
@@ -123,7 +123,7 @@ This can be useful when the old cards also need cleanup. It does not prove that 
 
 Cards created in Flashcards start with new learning history. The Quizlet text does not contain the review events or scheduling state needed to continue the old queue.
 
-> **Disclosure:** I build Flashcards Open Source App. This workflow states the product's current limits; it is not a claim of complete Quizlet compatibility.
+> **Disclosure:** I build Nibomo. This workflow states the product's current limits; it is not a claim of complete Quizlet compatibility.
 
 ## Quizlet to Anki: use Anki's text importer
 

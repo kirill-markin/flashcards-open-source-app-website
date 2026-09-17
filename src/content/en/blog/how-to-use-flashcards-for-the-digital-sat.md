@@ -262,7 +262,7 @@ If you want the scheduling side in more detail, these two articles fit best:
 
 ## Where Flashcards fits this Digital SAT workflow
 
-[Flashcards](https://flashcards-open-source-app.com/) is a strong fit for **digital SAT flashcards** because the current product already supports the parts this workflow depends on:
+[Nibomo](https://flashcards-open-source-app.com/) is a strong fit for **digital SAT flashcards** because the current product already supports the parts this workflow depends on:
 
 - front/back card creation and editing
 - AI chat for drafting candidate cards from notes, pasted explanations, or practice-test review

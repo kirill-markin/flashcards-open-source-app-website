@@ -250,9 +250,9 @@ If you want the scheduling side in more detail, this piece goes deeper:
 
 - [FSRS vs SM-2 in 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
 
-## Where Flashcards Open Source App fits
+## Where Nibomo fits
 
-[Flashcards Open Source App](https://flashcards-open-source-app.com/) is a good fit for this workflow because the product already lines up with what voice-based language practice needs:
+[Nibomo](https://flashcards-open-source-app.com/) is a good fit for this workflow because the product already lines up with what voice-based language practice needs:
 
 - clean front/back card creation
 - FSRS scheduling for long-term review
@@ -284,7 +284,7 @@ Then let spaced repetition do the quiet work afterward.
 
 If that is what you want, start here:
 
-- [Open Flashcards Open Source App](https://flashcards-open-source-app.com/)
+- [Open Nibomo](https://flashcards-open-source-app.com/)
 - [Read the getting started guide](https://flashcards-open-source-app.com/docs/getting-started/)
 - [Read the API docs](https://flashcards-open-source-app.com/docs/api/)
 - [View the source on GitHub](https://github.com/kirill-markin/flashcards-open-source-app)

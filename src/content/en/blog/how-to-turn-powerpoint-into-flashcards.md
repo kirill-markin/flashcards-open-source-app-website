@@ -218,7 +218,7 @@ The flashy version usually fails for the same reason every time: too many cards,
 
 ## Where Flashcards fits after the extraction step
 
-Once the useful slide content is in text form, [Flashcards](/features/) covers the part that matters:
+Once the useful slide content is in text form, [Nibomo](/features/) covers the part that matters:
 
 - AI chat for drafting from pasted text or attached files
 - front/back card creation and editing

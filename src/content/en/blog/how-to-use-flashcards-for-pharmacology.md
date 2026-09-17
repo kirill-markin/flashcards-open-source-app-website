@@ -257,7 +257,7 @@ If your queue is already getting heavier than it should, these two articles usua
 
 ## Where Flashcards fits in this workflow
 
-[Flashcards](https://flashcards-open-source-app.com/) is a reasonable fit for this kind of pharmacology study because the useful part is not handing the pharmacology over to AI. I would not study that way.
+[Nibomo](https://flashcards-open-source-app.com/) is a reasonable fit for this kind of pharmacology study because the useful part is not handing the pharmacology over to AI. I would not study that way.
 
 The useful part is narrower:
 

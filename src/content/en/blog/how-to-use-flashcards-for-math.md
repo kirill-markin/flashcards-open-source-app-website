@@ -181,7 +181,7 @@ Smaller cards make FSRS much more useful. If you want to tune the scheduling sid
 
 ## Where Flashcards fits in this workflow
 
-[Flashcards](https://flashcards-open-source-app.com/) is a good fit for this kind of math study because the product supports the parts that matter after you identify the memory target:
+[Nibomo](https://flashcards-open-source-app.com/) is a good fit for this kind of math study because the product supports the parts that matter after you identify the memory target:
 
 - front/back cards for formulas, recognition cues, and error patterns
 - decks, tags, and filtering when you want to review one topic without breaking your main library

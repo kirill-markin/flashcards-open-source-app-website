@@ -20,7 +20,7 @@ That is the real starting point for HESI A2 prep in 2026. Elsevier defines the a
 
 The better workflow is narrower. Check your program requirements first. Build a small base deck only for scored sections. Then let practice-test misses decide which new cards are worth keeping. That keeps you aligned with the exam you are actually taking and helps you avoid the worst HESI habit on the internet: memorizing bloated or copied decks that do not match your school.
 
-This approach works whether you are making cards by hand from an official review book, turning missed questions into smaller recall prompts, or cleaning up a draft deck inside Flashcards Open Source App.
+This approach works whether you are making cards by hand from an official review book, turning missed questions into smaller recall prompts, or cleaning up a draft deck inside Nibomo.
 
 ![Warm HESI A2 study desk with school-specific flashcards for anatomy, biology, math, reading, grammar, vocabulary, and practice misses](/blog/how-to-use-flashcards-for-the-hesi-a2.png)
 
@@ -227,11 +227,11 @@ Examples:
 
 That is a much better workflow than trying to memorize leaked items or preserve full questions inside your deck. Use legitimate prep. Keep the concept. Drop the copied wording.
 
-## Flashcards Open Source App fits well once your source material is clean
+## Nibomo fits well once your source material is clean
 
 This kind of prep gets easier when the same tool can handle drafting, tagging, editing, and review.
 
-Flashcards Open Source App is a good fit for HESI A2 prep because you can:
+Nibomo is a good fit for HESI A2 prep because you can:
 
 - draft a few cards from official study material or your own notes
 - split overloaded cards before they enter review

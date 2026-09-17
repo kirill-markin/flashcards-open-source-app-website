@@ -15,7 +15,7 @@ keywords:
 
 Yes, Flashcards can be self-hosted. The full application and infrastructure code is open source under the MIT license. You can run the services locally for development or deploy the repository's documented production stack on AWS. If you do not want to operate infrastructure, the [hosted app](https://app.flashcards-open-source-app.com/) remains available.
 
-![Flashcards Open Source App mobile screens for review, progress, AI chat, and cards](/home/app-screens-showcase-en.png)
+![Nibomo mobile screens for review, progress, AI chat, and cards](/home/app-screens-showcase-en.png)
 
 ## What can be self-hosted
 
