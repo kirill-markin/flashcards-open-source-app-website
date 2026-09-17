@@ -227,9 +227,9 @@ If you want the scheduling part in more detail, this article goes deeper:
 
 - [FSRS vs SM-2 in 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
 
-## Where Flashcards Open Source App fits
+## Where Nibomo fits
 
-[Flashcards Open Source App](https://flashcards-open-source-app.com/) is a strong fit for **kindle highlights to flashcards** because the product already covers the practical parts of the workflow:
+[Nibomo](https://flashcards-open-source-app.com/) is a strong fit for **kindle highlights to flashcards** because the product already covers the practical parts of the workflow:
 
 - paste or upload text from exported highlights
 - clean the material up in AI chat before creating cards
@@ -261,7 +261,7 @@ Then let spaced repetition do the quiet part afterward.
 
 If that is what you want, start here:
 
-- [Open Flashcards Open Source App](https://flashcards-open-source-app.com/)
+- [Open Nibomo](https://flashcards-open-source-app.com/)
 - [Read the getting started guide](https://flashcards-open-source-app.com/docs/getting-started/)
 - [Read the API docs](https://flashcards-open-source-app.com/docs/api/)
 - [View the source on GitHub](https://github.com/kirill-markin/flashcards-open-source-app)

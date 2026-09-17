@@ -235,7 +235,7 @@ I would keep exam logistics in a lighter tagged subset like `exam-facts` or `nee
 
 ## Where Flashcards fits this workflow well
 
-[Flashcards](https://flashcards-open-source-app.com/) is a good fit for this kind of exam prep because the product supports both halves of the job without pretending they are the same thing.
+[Nibomo](https://flashcards-open-source-app.com/) is a good fit for this kind of exam prep because the product supports both halves of the job without pretending they are the same thing.
 
 You can:
 

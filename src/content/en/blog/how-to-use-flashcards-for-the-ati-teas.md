@@ -277,7 +277,7 @@ That is similar to the workflow in [How to Turn Practice Questions Into Flashcar
 
 ## Where Flashcards fits this ATI TEAS workflow
 
-If you want to run this inside [Flashcards](https://flashcards-open-source-app.com/), the fit is practical, not official.
+If you want to run this inside [Nibomo](https://flashcards-open-source-app.com/), the fit is practical, not official.
 
 There is no official ATI integration, and there is no special TEAS mode. The useful part is simpler than that.
 

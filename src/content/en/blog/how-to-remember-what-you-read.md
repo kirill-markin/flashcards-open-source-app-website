@@ -18,7 +18,7 @@ Last Thursday I finished a chapter, felt productive for about five minutes, then
 
 If you want a short answer first, here it is: read smaller chunks, stop sooner, close the source, try to say the idea back in plain language, and turn only the misses into flashcards. Most people do almost the reverse. They read too long, highlight too much, feel familiar with the material, and only discover the gap when the source is gone.
 
-If you already use [Flashcards](/), the practical version is simple: create cards only from the misses and let FSRS bring them back later. Do not turn the whole chapter into a deck just because you spent time reading it.
+If you already use [Nibomo](/), the practical version is simple: create cards only from the misses and let FSRS bring them back later. Do not turn the whole chapter into a deck just because you spent time reading it.
 
 That gap gets easier to miss in 2026 because reading has more helpers now. AI can summarize, simplify, explain, and rephrase almost anything. Useful tools. Still not memory. If the workflow never makes you retrieve the idea without support, you can finish a lot of pages and keep very little.
 
@@ -335,7 +335,7 @@ That is a much stronger answer to **remember what you read** than rereading unti
 
 ## Where Flashcards fits
 
-[Flashcards](/) fits after the reading chunk has already shown you what matters.
+[Nibomo](/) fits after the reading chunk has already shown you what matters.
 
 That is the useful place for the product:
 

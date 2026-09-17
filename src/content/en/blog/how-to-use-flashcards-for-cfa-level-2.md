@@ -263,7 +263,7 @@ If your daily queue starts getting sticky, [How to Review Flashcards Faster in 2
 
 ## Where Flashcards fits
 
-[Flashcards](/) is a good fit for this workflow because it already supports the pieces that Level II candidates tend to need in one place:
+[Nibomo](/) is a good fit for this workflow because it already supports the pieces that Level II candidates tend to need in one place:
 
 - front and back cards you can keep small
 - tags for topic, LOS, and mock-miss tracking

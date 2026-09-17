@@ -154,7 +154,7 @@ If you need an **open-source RemNote alternative**, decide whether the notes-and
 
 ## Disclosure: I build Flashcards
 
-> **Disclosure:** I am Kirill Markin, and I build [Flashcards](https://flashcards-open-source-app.com/). Its MIT-licensed repository includes the web app, iOS and Android clients, authentication, backend, sync, MCP service, and AWS infrastructure. That is a broader current source boundary than RemNote provides, but it does not make Flashcards the better product for every study workflow.
+> **Disclosure:** I am Kirill Markin, and I build [Nibomo](https://flashcards-open-source-app.com/). Its MIT-licensed repository includes the web app, iOS and Android clients, authentication, backend, sync, MCP service, and AWS infrastructure. That is a broader current source boundary than RemNote provides, but it does not make Nibomo the better product for every study workflow.
 
 Flashcards covers a narrower learning workflow. It has no connected note knowledge base, PDF reader, native desktop app, or direct RemNote importer. RemNote is more mature and much stronger when notes, references, and source documents are the center of study. Moving for the license alone can mean losing the workflow that made the collection useful.
 

@@ -1,13 +1,13 @@
 ---
-title: "Memrise Alternative (2026): Memrise vs Flashcards"
-description: "Compare Memrise and Flashcards for official language courses, custom vocabulary, FSRS-6, offline study, migration, open source, and self-hosting."
+title: "Memrise Alternative (2026): Memrise vs Nibomo"
+description: "Compare Memrise and Nibomo for official language courses, custom vocabulary, FSRS-6, offline study, migration, open source, and self-hosting."
 date: "2026-03-22"
 updated: "2026-08-03"
 image: "/blog/memrise-alternative.png"
 keywords:
   - "Memrise alternative"
   - "Memrise alternative 2026"
-  - "Memrise vs Flashcards"
+  - "Memrise vs Nibomo"
   - "open source Memrise alternative"
   - "language learning flashcards app"
   - "FSRS flashcards app"
@@ -17,7 +17,7 @@ keywords:
 
 Open Memrise without a vocabulary list and it can still tell you what to learn next. Open an empty Flashcards workspace and it stays empty until you add something. That is the central tradeoff for anyone searching for a **Memrise alternative**.
 
-Memrise provides ready-made official language content, useful phrases, native-speaker video and audio, and guided practice. [Flashcards](/features/) helps you build a personal card collection and schedule it with FSRS-6. You get more control over the cards and the software, but you need another source to teach you the language.
+Memrise provides ready-made official language content, useful phrases, native-speaker video and audio, and guided practice. [Nibomo](/features/) helps you build a personal card collection and schedule it with FSRS-6. You get more control over the cards and the software, but you need another source to teach you the language.
 
 > **Disclosure:** I am Kirill Markin, and I build Flashcards, one of the products compared here. Memrise is the stronger choice for a learner who wants structured language content and integrated listening, pronunciation, and speaking practice.
 
@@ -28,14 +28,14 @@ Memrise provides ready-made official language content, useful phrases, native-sp
 ## The short answer
 
 - Choose **Memrise** if you want to begin with ready-made official content, hear native speakers, and practice vocabulary, listening, pronunciation, sentence building, and conversation in one product.
-- Choose **Flashcards** if your material already comes from a teacher, textbook, course, reading, listening, or conversations and you want to decide exactly what enters a documented FSRS-6 review queue.
+- Choose **Nibomo** if your material already comes from a teacher, textbook, course, reading, listening, or conversations and you want to decide exactly what enters a documented FSRS-6 review queue.
 - Use **both** if Memrise supplies the learning path while Flashcards keeps the smaller set of personal words, corrections, and phrases you want to remember for a long time.
 
 Flashcards is not a free, open-source copy of Memrise. It can replace the personal-card and review part of the workflow, not the language program around it.
 
-## Memrise vs Flashcards at a glance
+## Memrise vs Nibomo at a glance
 
-| Question | Memrise | Flashcards |
+| Question | Memrise | Nibomo |
 |---|---|---|
 | Best for | Learning from ready-made official language content and practicing several language skills | Remembering material you selected from other learning sources |
 | Starting from zero | Easier: Memrise supplies useful words, phrases, scenarios, and practice | Harder: you must create or generate cards and decide what is worth learning |
@@ -58,7 +58,7 @@ Memrise also has smart review and spaced repetition. Flashcards is not adding re
 
 Building a good personal vocabulary collection takes more judgment than it first appears. You have to notice useful material, write a clear prompt and answer, correct mistakes, add media when it helps, and remove weak cards. Some learners want that control. Others want to tap the next lesson and start.
 
-## Flashcards is not a complete language program
+## Nibomo is not a complete language program
 
 This boundary deserves its own section because “open source Memrise alternative” can sound like a promise of a full replacement.
 
@@ -74,7 +74,7 @@ Its useful role is narrower: a **memory layer** beside something that teaches or
 
 The [language-learning flashcards guide](/blog/how-to-use-flashcards-for-language-learning/) explains how to turn those sources into useful cards. Flashcards can keep selected material available for recall. It does not replace explanations, grammar instruction, listening practice, or speaking with people.
 
-## Personal vocabulary is where Flashcards fits
+## Personal vocabulary is where Nibomo fits
 
 A general course teaches what is useful for many learners. Your collection can capture what is useful for you: a phrase from this morning's lesson, a correction from a teacher, a line you misunderstood in a book, or a word that keeps appearing at work.
 
@@ -98,7 +98,7 @@ Personal vocabulary is therefore not unique to Flashcards. You can create word l
 
 The useful distinction is product scope and control. Memrise puts custom lists inside its language-learning system. Flashcards makes the personal card collection the entire product and publishes the application and infrastructure code under the MIT license.
 
-## Both schedule reviews, but only Flashcards documents FSRS-6
+## Both schedule reviews, but only Nibomo documents FSRS-6
 
 Memrise describes smart review and spaced repetition for official content and the new word lists. The public material reviewed for this article does not name its scheduler as FSRS. That is not evidence that Memrise does or does not use FSRS internally; the algorithm simply is not documented there.
 
@@ -106,7 +106,7 @@ Flashcards publicly documents its FSRS-6 implementation. During review, you reve
 
 Scheduler transparency helps when you want to inspect what creates the queue. Memrise's wider practice environment is more useful when you need to hear, build, and speak sentences. FSRS can schedule a stored answer; it cannot supply the missing language exercises.
 
-## Offline study favors Flashcards, with limits
+## Offline study favors Nibomo, with limits
 
 Memrise's help page for [the new official experience](https://memrisebeta.zendesk.com/hc/en-us/articles/4437047561745-The-New-Memrise-Experience) says its practice tools rely on cloud services and that the new experience has no offline mode. Keep that scope intact: the page does not establish how every historical Memrise product or the separate community-courses site behaves.
 
@@ -114,7 +114,7 @@ Flashcards writes ordinary cards, edits, and reviews to local storage first on w
 
 Offline-first is not the same as “everything works offline.” Flashcards AI, cloud package transfer, and sync require connectivity. The local-write guarantee covers ordinary card creation, editing, and review.
 
-## There is no direct Memrise-to-Flashcards migration
+## There is no direct Memrise-to-Nibomo migration
 
 Flashcards has no Memrise importer. There is no automatic or lossless path for moving an official Memrise course, custom word list, older community course, media, and learning progress into a Flashcards workspace.
 
@@ -140,4 +140,4 @@ Stay with Memrise when you want the app to supply the learning path. It is the m
 
 Choose Flashcards when you already have a teacher, course, textbook, or other source and want to maintain your own material with documented FSRS-6, offline-first writes across web and mobile, MIT-licensed code, or whole-stack self-hosting. You must accept the card-making work, the missing language curriculum, and the absence of direct Memrise import.
 
-Using both is often the cleanest **Memrise vs Flashcards** answer. Learn from Memrise, a teacher, reading, listening, and real conversations. Put only the durable personal material into Flashcards for continued review. If that supporting role is what you need from an **open source Memrise alternative**, explore the [Flashcards features](/features/) and test the workflow with a small set before moving anything important.
+Using both is often the cleanest **Memrise vs Nibomo** answer. Learn from Memrise, a teacher, reading, listening, and real conversations. Put only the durable personal material into Nibomo for continued review. If that supporting role is what you need from an **open source Memrise alternative**, explore the [Nibomo features](/features/) and test the workflow with a small set before moving anything important.

@@ -234,7 +234,7 @@ This is also why the finals workflow should stay separate from the "study with A
 
 ## Where Flashcards fits this workflow
 
-[Flashcards](https://flashcards-open-source-app.com/) is useful here because the product matches the actual finals-week mess instead of assuming your study inputs arrive clean.
+[Nibomo](https://flashcards-open-source-app.com/) is useful here because the product matches the actual finals-week mess instead of assuming your study inputs arrive clean.
 
 You can use the hosted web app to drop in files, use AI chat with attachments when you need help cleaning up a source, turn the survivors into front/back cards, and keep the final review loop in one place with decks, tags, filtering, search, and FSRS scheduling. The offline-first web, iOS, and Android apps also make more sense during finals than another browser-only study tab you lose as soon as you leave your desk.
 

@@ -170,9 +170,9 @@ Keep the intake small enough that due reviews leave time for the rest of the cou
 
 The same division matters at program scale. The [nursing-school flashcards guide](/blog/how-to-use-flashcards-for-nursing-school/) keeps quick recall in the deck while leaving clinical reasoning and application in the work that actually tests them.
 
-## Where FSRS and Flashcards Open Source App fit
+## Where FSRS and Nibomo fit
 
-[Flashcards Open Source App](/features/) supports plain front/back cards, decks, and tags. You can tag cards by `word-part`, `full-term`, `spelling`, `abbreviation`, or `safety`, then review cards that are due with FSRS. FSRS can bring difficult cards back sooner and leave longer gaps for familiar ones. It schedules review from your history; it does not understand medicine, verify a definition, or decide whether an abbreviation is safe.
+[Nibomo](/features/) supports plain front/back cards, decks, and tags. You can tag cards by `word-part`, `full-term`, `spelling`, `abbreviation`, or `safety`, then review cards that are due with FSRS. FSRS can bring difficult cards back sooner and leave longer gaps for familiar ones. It schedules review from your history; it does not understand medicine, verify a definition, or decide whether an abbreviation is safe.
 
 Optional AI-assisted creation can draft cards from the material you provide, and you control what gets saved. Check every generated term, split, spelling, definition, abbreviation, and source against the controlling material before saving it. AI output is not clinical validation. Do not upload patient records, identifiers, or other protected data to generate study cards.
 

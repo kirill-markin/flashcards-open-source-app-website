@@ -125,7 +125,7 @@ A plain-text copy is ugly in the right way:
 
 This matters even more now because a lot of decks are built from notes, transcripts, OCR, PDFs, and AI-assisted cleanup. Once the useful part is stored as readable text, your future options get much better.
 
-That is also why [Flashcards](/features/) is a reasonable landing spot after cleanup. The current product supports AI chat with plain text and file attachments, so a cleaned export does not have to sit there as dead backup material. It can become draft input for a better deck.
+That is also why [Nibomo](/features/) is a reasonable landing spot after cleanup. The current product supports AI chat with plain text and file attachments, so a cleaned export does not have to sit there as dead backup material. It can become draft input for a better deck.
 
 ## Back up the source, not only the final card
 
@@ -203,7 +203,7 @@ If I were setting up a new deck with ownership in mind, I would care about a few
 - plain front/back cards that stay portable
 - AI attached to real data, not only to one-shot generation demos
 
-That is the shape [Flashcards](/) is already moving toward.
+That is the shape [Nibomo](/) is already moving toward.
 
 The current public docs are enough to make the direction concrete:
 

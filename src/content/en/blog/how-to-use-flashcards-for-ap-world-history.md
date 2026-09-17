@@ -196,7 +196,7 @@ If you want the scheduling side in more detail, [How to Study for an Exam With F
 
 ## Where Flashcards fits this AP World workflow
 
-If you want one place to run this system, [Flashcards Open Source App](/) fits the workflow without requiring a weird study stack.
+If you want one place to run this system, [Nibomo](/) fits the workflow without requiring a weird study stack.
 
 The current product already supports the useful middle of the job:
 

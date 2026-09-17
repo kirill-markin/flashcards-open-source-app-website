@@ -244,7 +244,7 @@ If you want the scheduler-specific side, [FSRS Settings in 2026](/blog/fsrs-sett
 
 ## Where Flashcards fits this workflow
 
-[Flashcards](/) fits best after you know what deserves review.
+[Nibomo](/) fits best after you know what deserves review.
 
 The product already supports the middle of the workflow:
 

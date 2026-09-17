@@ -213,7 +213,7 @@ If you are building cards directly from AI prompts, this companion piece fits to
 
 ## Where Flashcards fits this better
 
-[Flashcards](https://flashcards-open-source-app.com/) is a strong fit for this workflow because the product covers both sides of the problem:
+[Nibomo](https://flashcards-open-source-app.com/) is a strong fit for this workflow because the product covers both sides of the problem:
 
 - AI chat for drafting from notes, PDFs, and other sources
 - front/back card editing before the cards become permanent
@@ -234,4 +234,4 @@ Choose it based on the review load your normal life can carry.
 
 That is the version of **how many flashcards a day** I trust in 2026: start smaller than your excitement wants, keep the cards clean, watch the due queue honestly, and increase only when the system still feels calm.
 
-If that is the workflow you want, [Flashcards](https://flashcards-open-source-app.com/) gives you the practical setup: draft from source material, edit aggressively, and review with FSRS instead of letting one exciting card-generation session quietly turn into a month of backlog.
+If that is the workflow you want, [Nibomo](https://flashcards-open-source-app.com/) gives you the practical setup: draft from source material, edit aggressively, and review with FSRS instead of letting one exciting card-generation session quietly turn into a month of backlog.

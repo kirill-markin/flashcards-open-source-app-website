@@ -254,9 +254,9 @@ The useful workflow in 2026 is closer to this: let AI reduce setup time so you c
 
 If you are working from a tutor-style AI session first, [How to Use AI for Active Recall in 2026](/blog/how-to-use-ai-for-active-recall/) is the closest companion article.
 
-## Where Flashcards Open Source App fits
+## Where Nibomo fits
 
-[Flashcards](/) is a good fit for open-book exam prep because this kind of studying is small and precise. You are not trying to warehouse the course. You are trying to keep a clean deck of the prompts that still need to become automatic:
+[Nibomo](/) is a good fit for open-book exam prep because this kind of studying is small and precise. You are not trying to warehouse the course. You are trying to keep a clean deck of the prompts that still need to become automatic:
 
 - problem-type recognition
 - rule selection

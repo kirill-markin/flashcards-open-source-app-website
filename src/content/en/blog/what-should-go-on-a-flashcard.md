@@ -292,7 +292,7 @@ Nothing fancy. That is part of why it works.
 
 ## Where Flashcards fits
 
-[Flashcards](/features/) works best after you stop treating every source sentence as a future card.
+[Nibomo](/features/) works best after you stop treating every source sentence as a future card.
 
 The useful workflow is narrower:
 

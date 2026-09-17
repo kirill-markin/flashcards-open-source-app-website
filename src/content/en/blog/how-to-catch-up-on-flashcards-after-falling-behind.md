@@ -216,7 +216,7 @@ No pretending the correct response to overload is even more overload.
 
 ## Where Flashcards fits this better
 
-[Flashcards](https://flashcards-open-source-app.com/) is a strong fit for **spaced repetition backlog** recovery because the workflow does not have to split across three different tools:
+[Nibomo](https://flashcards-open-source-app.com/) is a strong fit for **spaced repetition backlog** recovery because the workflow does not have to split across three different tools:
 
 - AI chat can help draft cards, but you still decide what survives
 - front/back editing makes it easy to shorten or split weak cards
@@ -258,4 +258,4 @@ That is the version of **how to fix Anki backlog** I trust.
 
 Not a heroic rescue session. Not a total restart. Just a calmer system that you can actually reopen tomorrow.
 
-If you want a product that fits that workflow, [Flashcards](https://flashcards-open-source-app.com/) is a strong fit. It gives you AI-assisted drafting, front/back editing, and FSRS review in one open-source stack, which is exactly what helps when the real problem is not only the number of due cards but the quality of the deck you are trying to save.
+If you want a product that fits that workflow, [Nibomo](https://flashcards-open-source-app.com/) is a strong fit. It gives you AI-assisted drafting, front/back editing, and FSRS review in one open-source stack, which is exactly what helps when the real problem is not only the number of due cards but the quality of the deck you are trying to save.

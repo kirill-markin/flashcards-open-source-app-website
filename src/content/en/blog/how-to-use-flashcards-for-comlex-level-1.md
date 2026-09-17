@@ -233,7 +233,7 @@ If that is the part you want to tighten, [How to Make Better Flashcards in 2026]
 
 ## Where Flashcards fits
 
-[Flashcards](/) fits best once you know what deserves retention.
+[Nibomo](/) fits best once you know what deserves retention.
 
 For **COMLEX Level 1 flashcards**, the useful setup is usually:
 

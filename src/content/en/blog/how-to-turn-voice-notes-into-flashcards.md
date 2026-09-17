@@ -259,7 +259,7 @@ If you want the scheduler side in more detail, this goes deeper:
 
 ## Where Flashcards fits this workflow
 
-[Flashcards](https://flashcards-open-source-app.com/) is a strong fit for **audio to flashcards** because the product already has the pieces this workflow needs in one place:
+[Nibomo](https://flashcards-open-source-app.com/) is a strong fit for **audio to flashcards** because the product already has the pieces this workflow needs in one place:
 
 - AI chat
 - file attachments

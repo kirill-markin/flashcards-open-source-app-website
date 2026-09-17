@@ -51,7 +51,7 @@ So a fixed **1-3-7 flashcard schedule** is better treated as a starting rule for
 
 FSRS is a spaced-repetition scheduler. After a review, it updates a model of that card’s memory state and calculates another interval. You provide the useful signal by attempting the answer before revealing it and then choosing Again, Hard, Good, or Easy honestly.
 
-In Flashcards Open Source App, the current scheduler is FSRS-6 and the default desired retention is `0.90`. Long-term intervals use the card’s current stability, the elapsed calendar days since its last review, target retention, the maximum interval, and deterministic fuzz. New and failed cards can also pass through short learning or relearning steps before entering or returning to long-term review. Those are product-specific facts documented in the public [FSRS scheduling source of truth](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/docs/fsrs-scheduling-logic.md).
+In Nibomo, the current scheduler is FSRS-6 and the default desired retention is `0.90`. Long-term intervals use the card’s current stability, the elapsed calendar days since its last review, target retention, the maximum interval, and deterministic fuzz. New and failed cards can also pass through short learning or relearning steps before entering or returning to long-term review. Those are product-specific facts documented in the public [FSRS scheduling source of truth](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/docs/fsrs-scheduling-logic.md).
 
 In plain English:
 
@@ -190,4 +190,4 @@ The answer to **how often should you review flashcards** is simple enough to sur
 
 Let easy, stable cards move away. Let difficult cards return more cautiously. Record failures honestly. When nothing is due, stop or do a clearly separate learning activity. When life interrupts, return to the overdue queue without resetting your history.
 
-FSRS handles the dates; you handle the recall. If you want that schedule without maintaining a paper calendar, see the [Flashcards features](/features/) and [getting-started guide](/docs/getting-started/). The useful routine is not complicated: open, retrieve, rate, close, come back tomorrow.
+FSRS handles the dates; you handle the recall. If you want that schedule without maintaining a paper calendar, see the [Nibomo features](/features/) and [getting-started guide](/docs/getting-started/). The useful routine is not complicated: open, retrieve, rate, close, come back tomorrow.

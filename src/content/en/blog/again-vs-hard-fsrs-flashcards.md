@@ -193,7 +193,7 @@ FSRS schedules the signal you give it. It cannot repair an unclear prompt, decid
 
 ## How the four FSRS ratings fit Flashcards
 
-[Flashcards Open Source App features](/features/) include front/back review with FSRS. You submit Again, Hard, Good, or Easy, and the backend uses that review to calculate the next due time.
+[Nibomo features](/features/) include front/back review with FSRS. You submit Again, Hard, Good, or Easy, and the backend uses that review to calculate the next due time.
 
 Use the same two-step rule in that flow:
 

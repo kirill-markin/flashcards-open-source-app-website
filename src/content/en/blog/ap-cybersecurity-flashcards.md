@@ -172,9 +172,9 @@ A small weekly cycle is easier to sustain than building a giant deck before May.
 
 As May approaches, reduce new-card creation. Spend more time retrieving, interpreting unfamiliar evidence, and completing timed source sets. A growing card count is not the goal. Reliable decisions are.
 
-## Where Flashcards Open Source App fits honestly
+## Where Nibomo fits honestly
 
-[Flashcards Open Source App’s features](/features/) cover the straightforward part of this workflow: front/back card creation, due review, and FSRS scheduling. You can make the five formats above without a special AP template.
+[Nibomo’s features](/features/) cover the straightforward part of this workflow: front/back card creation, due review, and FSRS scheduling. You can make the five formats above without a special AP template.
 
 The optional AI chat supports workspace data and file attachments, including supported plain-text uploads. It can help draft card candidates or shorten a crowded answer. Check every technical claim against your course materials before saving it, and never treat generated cards as official AP content.
 

@@ -281,7 +281,7 @@ You just turned one format of homework into another.
 
 ## Where Flashcards fits
 
-[Flashcards](https://flashcards-open-source-app.com/) is a good fit for **study guide to flashcards** because the product already has the pieces this workflow needs:
+[Nibomo](https://flashcards-open-source-app.com/) is a good fit for **study guide to flashcards** because the product already has the pieces this workflow needs:
 
 - AI chat for restructuring rough study-guide text
 - file and image attachments
@@ -321,7 +321,7 @@ More recall from less material.
 
 If that is what you want, start here:
 
-- [Open Flashcards](https://flashcards-open-source-app.com/)
+- [Open Nibomo](https://flashcards-open-source-app.com/)
 - [Open the app](https://app.flashcards-open-source-app.com/)
 - [Read the getting started guide](https://flashcards-open-source-app.com/docs/getting-started/)
 - [View the source on GitHub](https://github.com/kirill-markin/flashcards-open-source-app)

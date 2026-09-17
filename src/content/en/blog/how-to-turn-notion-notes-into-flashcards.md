@@ -187,7 +187,7 @@ If you want that comparison in more detail, this companion article goes deeper:
 
 ## Where Flashcards fits this workflow
 
-[Flashcards](https://flashcards-open-source-app.com/) is a strong fit for **turn Notion notes into flashcards** because the product covers the parts people usually have to stitch together manually:
+[Nibomo](https://flashcards-open-source-app.com/) is a strong fit for **turn Notion notes into flashcards** because the product covers the parts people usually have to stitch together manually:
 
 - AI chat for drafting
 - file attachments for exported pages
@@ -246,4 +246,4 @@ Use the page as strong raw material for a better draft.
 
 That is the version of **Notion to flashcards** I actually trust. It is less magical than the one-click pitch, a little more manual in the right places, and much more likely to give you cards you still want to review next week.
 
-If that is the workflow you want, [Flashcards](https://flashcards-open-source-app.com/) is a solid fit: export the notes, draft cards with AI, clean the weak ones fast, and study the result in a real spaced repetition system instead of leaving it trapped inside your note tool.
+If that is the workflow you want, [Nibomo](https://flashcards-open-source-app.com/) is a solid fit: export the notes, draft cards with AI, clean the weak ones fast, and study the result in a real spaced repetition system instead of leaving it trapped inside your note tool.

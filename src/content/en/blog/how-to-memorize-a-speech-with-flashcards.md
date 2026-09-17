@@ -137,7 +137,7 @@ A practical one-week sequence could look like this:
 
 If you have longer, spread the same work out. If you have one evening, prioritize the route, exact high-risk wording, transitions, and at least one complete aloud run. There is no card schedule that turns silent rereading into delivery practice.
 
-In [Flashcards](/features/), answer before revealing the back and rate that card attempt with Again, Hard, Good, or Easy. Let FSRS schedule later card reviews from those ratings. Rate whether the cue produced the required content, not whether the whole delivery felt polished. The broader [review-frequency guide](/blog/how-often-should-you-review-flashcards/) explains why due reviews are more useful than rereading the entire deck every day.
+In [Nibomo](/features/), answer before revealing the back and rate that card attempt with Again, Hard, Good, or Easy. Let FSRS schedule later card reviews from those ratings. Rate whether the cue produced the required content, not whether the whole delivery felt polished. The broader [review-frequency guide](/blog/how-often-should-you-review-flashcards/) explains why due reviews are more useful than rereading the entire deck every day.
 
 ## Training flashcards and on-stage cue cards are different tools
 
@@ -178,7 +178,7 @@ Toastmasters recommends rehearsing in the physical manner you expect to deliver,
 
 ## Where Flashcards fits—and where it does not
 
-[Flashcards](/) is useful during the memory-training part of speech preparation:
+[Nibomo](/) is useful during the memory-training part of speech preparation:
 
 - front/back cards can hold section cues, transitions, restart points, and verified exact lines
 - tags can mark cards as `transition`, `exact`, or `restart`, and a deck can save the matching filter for one talk

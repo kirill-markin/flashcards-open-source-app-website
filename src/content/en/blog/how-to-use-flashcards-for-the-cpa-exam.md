@@ -233,7 +233,7 @@ If you want the scheduling side in more detail, this is the direct companion:
 
 ## Where Flashcards fits in this CPA workflow
 
-If you want to run this inside [Flashcards](https://flashcards-open-source-app.com/), the useful part is not some vague promise that AI will magically pass the CPA exam for you.
+If you want to run this inside [Nibomo](https://flashcards-open-source-app.com/), the useful part is not some vague promise that AI will magically pass the CPA exam for you.
 
 The useful part is that the product already supports the messy middle of the workflow:
 

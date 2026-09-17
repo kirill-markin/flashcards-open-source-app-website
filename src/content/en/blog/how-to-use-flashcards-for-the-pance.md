@@ -287,11 +287,11 @@ So the order matters:
 
 If you want the scheduling details, [FSRS Settings in 2026](/blog/fsrs-settings/) and [How to Study for an Exam With FSRS in 2026](/blog/how-to-study-for-an-exam-with-fsrs/) are the right follow-ups.
 
-## Where Flashcards Open Source App fits this PANCE workflow
+## Where Nibomo fits this PANCE workflow
 
 This kind of prep goes better when the tool handles the boring parts well.
 
-Flashcards Open Source App fits PANCE prep because you can:
+Nibomo fits PANCE prep because you can:
 
 - draft cards from your own notes or question explanations
 - split overloaded cards before they become daily review debt

@@ -207,9 +207,9 @@ A practical **CCSP study plan for 2026** looks like this:
 
 Do not press a harder rating merely to force a shorter interval. If the queue grows faster than you can finish it on an ordinary day, cut low-value cards or lower the new-card load. [How to Study for an Exam With FSRS](/blog/how-to-study-for-an-exam-with-fsrs/) explains the build, stabilization, and final-review phases. [How Many New Flashcards Per Day](/blog/how-many-new-flashcards-per-day/) helps estimate a load from available time rather than an impressive card count.
 
-## Where Flashcards Open Source App fits
+## Where Nibomo fits
 
-[Flashcards Open Source App features](/features/) include front/back card creation, AI chat with workspace data and supported file attachments, and FSRS review with Again, Hard, Good, and Easy ratings.
+[Nibomo features](/features/) include front/back card creation, AI chat with workspace data and supported file attachments, and FSRS review with Again, Hard, Good, and Easy ratings.
 
 You can preview and install [CCSP 2026 Flashcards: August Exam Outline Review](/catalog/packages/ccsp-2026-exam-flashcards/), a reviewed deck of 340 original cards covering the current August 1, 2026 six-domain outline. It is an independent study aid, not affiliated with or endorsed by ISC2.
 

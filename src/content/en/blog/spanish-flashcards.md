@@ -272,9 +272,9 @@ Here is a practical starting rhythm:
 
 That loop gives **Spanish spaced repetition** a supporting role. The deck keeps small corrections and useful language available. Real Spanish supplies fresh context, time pressure, and feedback.
 
-## Where Flashcards Open Source App fits
+## Where Nibomo fits
 
-[Flashcards Open Source App](/features/) covers the review layer of this workflow. It supports front/back cards, decks and tags, FSRS due reviews, AI-assisted card creation, offline study and sync across web, iOS, and Android, portable imports and exports, and an open-source self-hosting path.
+[Nibomo](/features/) covers the review layer of this workflow. It supports front/back cards, decks and tags, FSRS due reviews, AI-assisted card creation, offline study and sync across web, iOS, and Android, portable imports and exports, and an open-source self-hosting path.
 
 One simple setup is:
 

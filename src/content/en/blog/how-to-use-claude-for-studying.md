@@ -19,7 +19,7 @@ The first useful prompt is not “quiz me.” Ask Claude to show which claims th
 
 That source-bounded loop is the practical answer to **how to use Claude for studying**: audit the material, answer one question at a time from memory, keep evidence beside each correction, and save only the weak spots worth seeing again. It works in a normal Claude chat and does not require a flashcard app.
 
-> **Disclosure:** I am Kirill Markin, and I build [Flashcards Open Source App](/features/). Beyond this disclosure, the product appears only in the optional handoff section below; the study method does not depend on it. This article was researched and edited with AI assistance.
+> **Disclosure:** I am Kirill Markin, and I build [Nibomo](/features/). Beyond this disclosure, the product appears only in the optional handoff section below; the study method does not depend on it. This article was researched and edited with AI assistance.
 
 **Facts checked:** September 14, 2026.
 
@@ -219,7 +219,7 @@ Discard the rest. A Claude study session can be useful even when it creates no c
 
 The simplest handoff works with any flashcard app. Ask Claude to return only the approved cards as plain front/back blocks, check them once more, and copy them into your usual review system.
 
-If you use Flashcards Open Source App, Claude can also save approved cards through its remote custom connector. Anthropic's [current custom connector guide](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp) says remote connectors are available on Free, Pro, Max, Team, and Enterprise plans; Free users can add one. Connect only servers you trust and review write actions before approval.
+If you use Nibomo, Claude can also save approved cards through its remote custom connector. Anthropic's [current custom connector guide](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp) says remote connectors are available on Free, Pro, Max, Team, and Enterprise plans; Free users can add one. Connect only servers you trust and review write actions before approval.
 
 The Flashcards MCP URL is:
 

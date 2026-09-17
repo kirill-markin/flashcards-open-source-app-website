@@ -1,6 +1,6 @@
 ---
 title: "How to Turn Microsoft Copilot Study and Learn Into Flashcards in 2026: Keep the Coach, Review With FSRS"
-description: "Use Microsoft Copilot Study and Learn with your own Word docs, PDFs, slides, and URLs, then move only the weak spots into Flashcards Open Source App for spaced repetition with FSRS."
+description: "Use Microsoft Copilot Study and Learn with your own Word docs, PDFs, slides, and URLs, then move only the weak spots into Nibomo for spaced repetition with FSRS."
 date: "2026-06-09"
 image: "/blog/how-to-turn-microsoft-copilot-study-and-learn-into-flashcards.png"
 keywords:
@@ -18,7 +18,7 @@ Yesterday I opened Microsoft 365 Copilot, dropped in a PowerPoint deck and one P
 
 That is the real job behind **Microsoft Copilot Study and Learn flashcards**. The guided session can help you understand the material. It does not automatically become a durable memory system just because the chat felt smart.
 
-The workflow I trust is narrower than the product demo. Use Study and Learn to coach you through your own material, keep the misses and slow spots, then move only those weak points into Flashcards Open Source App and review them with FSRS.
+The workflow I trust is narrower than the product demo. Use Study and Learn to coach you through your own material, keep the misses and slow spots, then move only those weak points into Nibomo and review them with FSRS.
 
 ![Microsoft Copilot Study and Learn workflow with Word, PowerPoint, PDF, and flashcards for FSRS review](/blog/how-to-turn-microsoft-copilot-study-and-learn-into-flashcards.png)
 
@@ -119,7 +119,7 @@ This is the version I would repeat during a real week:
 3. Ask Copilot to teach step by step and quiz you before explaining too much.
 4. Keep a tiny scratch list of what you missed, answered slowly, or confused.
 5. At the end, ask Copilot for a short weak-spot summary only, plus the file or passage each weak spot came from.
-6. Move only those weak spots into Flashcards Open Source App.
+6. Move only those weak spots into Nibomo.
 7. Turn each weak spot into one clean front/back card.
 8. Review the final cards with FSRS.
 
@@ -159,7 +159,7 @@ If you want stricter card-writing rules after the handoff, [How to Make Better F
 
 ## Flashcards is the durable layer after Copilot
 
-[Flashcards Open Source App](/features/) is not trying to replace Study and Learn.
+[Nibomo](/features/) is not trying to replace Study and Learn.
 
 Copilot should keep the coaching job. Flashcards should keep the long-term review job.
 
@@ -195,6 +195,6 @@ Use it as a coach that works from your own Word docs, slides, PDFs, URLs, and no
 
 Then be selective.
 
-Take the weak spots that actually matter, move them into Flashcards Open Source App, clean them into plain cards, and let FSRS handle the part Copilot is not really built for: remembering the material after the session is over.
+Take the weak spots that actually matter, move them into Nibomo, clean them into plain cards, and let FSRS handle the part Copilot is not really built for: remembering the material after the session is over.
 
 That is the practical version of **how to turn Microsoft Copilot Study and Learn into flashcards**. Keep the Microsoft tutor. Keep the card set small. Let the memory layer live somewhere built for review.

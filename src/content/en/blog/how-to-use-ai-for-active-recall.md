@@ -205,7 +205,7 @@ What did I fail to retrieve cleanly enough that I want another shot at it later?
 
 ## Where Flashcards fits
 
-[Flashcards](/) fits after the tutoring session, once you know what deserves retention.
+[Nibomo](/) fits after the tutoring session, once you know what deserves retention.
 
 There is no magic button that turns a good chat into long-term memory. The useful workflow is simpler:
 

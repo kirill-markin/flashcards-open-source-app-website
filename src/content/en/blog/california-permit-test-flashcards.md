@@ -164,9 +164,9 @@ Flashcards can strengthen recall of signals, signs, right-of-way triggers, numbe
 
 DMV describes the behind-the-wheel test separately: it evaluates safe vehicle operation, driving habits, and applying traffic-law knowledge in real situations. Follow the current DMV requirements for lawful behind-the-wheel instruction and practice. A strong card streak is not evidence that someone can control a vehicle safely or pass a drive test.
 
-## Where Flashcards Open Source App fits
+## Where Nibomo fits
 
-[Flashcards Open Source App](/features/) supports plain front/back cards, decks, tags, and due reviews. FSRS (Free Spaced Repetition Scheduler) uses your review history to schedule when each card returns, which helps distribute a small permit deck across the week.
+[Nibomo](/features/) supports plain front/back cards, decks, tags, and due reviews. FSRS (Free Spaced Repetition Scheduler) uses your review history to schedule when each card returns, which helps distribute a small permit deck across the week.
 
 AI assistance is optional, and you control which draft cards get saved. AI does not verify driving rules or legal accuracy. Compare every AI-produced card with the current DMV handbook, and do not paste private identifiers, application documents, or license records into hosted AI tools. The privacy guide explains that boundary in more detail: [Private Flashcards With AI](/blog/private-flashcards-with-ai/).
 

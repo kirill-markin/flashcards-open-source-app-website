@@ -197,7 +197,7 @@ If you care about the scheduler side specifically, [FSRS vs SM-2 in 2026](/blog/
 
 ## Where Flashcards fits
 
-[Flashcards](/) is not the AI tutor for everything.
+[Nibomo](/) is not the AI tutor for everything.
 
 It fits best as the retention layer after AI tutoring, summaries, and generated questions have already done their job.
 

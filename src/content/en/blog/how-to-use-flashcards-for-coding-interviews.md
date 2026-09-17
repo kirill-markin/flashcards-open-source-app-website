@@ -278,9 +278,9 @@ You do not need to memorize 400 solutions.
 
 You need to stop forgetting the same fifteen lessons.
 
-## Where Flashcards Open Source App fits
+## Where Nibomo fits
 
-[Flashcards Open Source App](https://flashcards-open-source-app.com/) is a good fit for **coding interview flashcards** because the product already supports the parts that matter:
+[Nibomo](https://flashcards-open-source-app.com/) is a good fit for **coding interview flashcards** because the product already supports the parts that matter:
 
 - FSRS scheduling for repeated review without manual interval tuning
 - decks, tags, search, and filtered decks by tag and effort level

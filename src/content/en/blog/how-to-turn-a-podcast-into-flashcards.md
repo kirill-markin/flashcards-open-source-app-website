@@ -221,9 +221,9 @@ If you want the scheduling side in more detail, this article goes deeper:
 
 - [FSRS vs SM-2 in 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
 
-## Where Flashcards Open Source App fits
+## Where Nibomo fits
 
-[Flashcards Open Source App](https://flashcards-open-source-app.com/) is a strong fit for **podcast to flashcards** because the product already covers the practical steps that make the workflow usable:
+[Nibomo](https://flashcards-open-source-app.com/) is a strong fit for **podcast to flashcards** because the product already covers the practical steps that make the workflow usable:
 
 - paste or upload plain text from podcast transcripts
 - clean up the material inside AI chat before creating cards

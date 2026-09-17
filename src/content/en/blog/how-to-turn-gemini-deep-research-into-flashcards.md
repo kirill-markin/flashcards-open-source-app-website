@@ -174,7 +174,7 @@ That is honest, and it is usually better than a fake one-click pipeline anyway. 
 
 ## Why Flashcards fits this workflow
 
-[Flashcards](/) is not trying to replace Gemini Deep Research.
+[Nibomo](/) is not trying to replace Gemini Deep Research.
 
 It fits because it handles the part Deep Research leaves unfinished:
 
@@ -227,4 +227,4 @@ Ask the report to reveal what deserves a deck.
 
 That is the version of how to turn Gemini Deep Research into flashcards that actually holds up: keep the report for context, trust the source links more than the polished phrasing, extract only the claims worth retrieving later, and let FSRS handle the review rhythm after the cleanup work is done.
 
-If that is what you want, [Flashcards](/) is a strong fit. It gives you one place to clean up research notes, turn them into front/back cards, organize them by topic, and review them with a real spaced repetition system instead of hoping the report itself will do the memory work.
+If that is what you want, [Nibomo](/) is a strong fit. It gives you one place to clean up research notes, turn them into front/back cards, organize them by topic, and review them with a real spaced repetition system instead of hoping the report itself will do the memory work.

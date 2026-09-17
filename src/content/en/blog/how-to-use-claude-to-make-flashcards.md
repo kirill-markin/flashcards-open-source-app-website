@@ -248,7 +248,7 @@ There is no special Claude-to-Flashcards button here, and I would not pretend ot
 4. organize them into decks and tags
 5. review the final deck with FSRS
 
-[Flashcards](/) fits this workflow because the current product covers the part Claude does not finish on its own:
+[Nibomo](/) fits this workflow because the current product covers the part Claude does not finish on its own:
 
 - front/back card creation and editing
 - AI chat with workspace data and file attachments

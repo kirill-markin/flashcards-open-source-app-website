@@ -198,7 +198,7 @@ This article is narrower. Perplexity found the hole. FSRS helps you close it ove
 
 ## Where Flashcards fits
 
-[Flashcards](/) fits after Learn Mode, once you know what is worth keeping.
+[Nibomo](/) fits after Learn Mode, once you know what is worth keeping.
 
 There is no magic Perplexity import button I need to pretend exists. The useful workflow is simpler and more believable:
 

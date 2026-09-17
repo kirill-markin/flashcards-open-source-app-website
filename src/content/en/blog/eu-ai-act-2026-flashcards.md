@@ -182,7 +182,7 @@ Create one deck named `EU AI Act — official sources`. Use tags to create usefu
 
 Keep each item as a plain front/back card. Put the short answer first on the back, followed by the article or annex, official source, retrieval date, and version note. Anything tagged `needs-source-check` stays outside normal review until you verify it. Treat that tag as quarantine.
 
-[Flashcards Open Source App features](/features/) include plain front/back cards, decks and tags, and FSRS review. The hosted app is free, and the project also has an open-source self-hosted path. Once a card passes its source check, let FSRS-6 schedule it. Attempt the answer before revealing the back, then choose Again, Hard, Good, or Easy based on the recall you actually produced:
+[Nibomo features](/features/) include plain front/back cards, decks and tags, and FSRS review. The hosted app is free, and the project also has an open-source self-hosted path. Once a card passes its source check, let FSRS-6 schedule it. Attempt the answer before revealing the back, then choose Again, Hard, Good, or Easy based on the recall you actually produced:
 
 - **Again** for a missing or wrong required answer
 - **Hard** for correct recall with serious difficulty

@@ -245,7 +245,7 @@ If you want the scheduler comparison itself, [FSRS vs SM-2 in 2026](https://flas
 
 ## Where Flashcards fits this workflow
 
-[Flashcards](https://flashcards-open-source-app.com/) is a good fit for **how to fix AI flashcards** because the product already covers the awkward middle that most generators leave behind:
+[Nibomo](https://flashcards-open-source-app.com/) is a good fit for **how to fix AI flashcards** because the product already covers the awkward middle that most generators leave behind:
 
 - create front/back cards in the hosted web app
 - use AI chat with workspace data and file attachments, including plain text uploads

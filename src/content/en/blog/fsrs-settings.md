@@ -21,7 +21,7 @@ The best FSRS settings are therefore not a parameter string to copy. They are a 
 
 The labels and behavior below match the [Anki 26.08 release](https://github.com/ankitects/anki/releases/tag/26.08) and its FSRS-6 controls. If you first need the model rather than the settings, read [What Is FSRS?](/blog/what-is-fsrs/). If you are still choosing a scheduler, start with [FSRS vs SM-2](/blog/fsrs-vs-sm-2/).
 
-> **Disclosure:** I am Kirill Markin, and I build [Flashcards Open Source App](/features/). Anki offers personalized parameter fitting and experimental workload simulators that Flashcards does not currently offer. The comparison near the end keeps those differences explicit.
+> **Disclosure:** I am Kirill Markin, and I build [Nibomo](/features/). Anki offers personalized parameter fitting and experimental workload simulators that Nibomo does not currently offer. The comparison near the end keeps those differences explicit.
 
 **Facts checked:** September 8, 2026.
 
@@ -189,11 +189,11 @@ Use **Additional new cards to simulate** when you know a deck will grow. A forec
 
 If the result is too high, reduce intake and simulate again. That preserves the recall target without asking the scheduler to tolerate more forgetting.
 
-## Anki and Flashcards expose different FSRS controls
+## Anki and Nibomo expose different FSRS controls
 
-Both products use FSRS-6, but Anki FSRS settings do not map one-for-one onto Flashcards Open Source App.
+Both products use FSRS-6, but Anki FSRS settings do not map one-for-one onto Nibomo.
 
-| Capability | Anki 26.08 | Flashcards Open Source App |
+| Capability | Anki 26.08 | Nibomo |
 | --- | --- | --- |
 | Desired retention | **Shared Preset** or **This deck** | Configurable per workspace; default `0.90` |
 | FSRS parameters | **Optimize Current Preset** or **Optimize All Presets** from review history | Official FSRS-6 default weights are pinned and not user-configurable in v1 |
@@ -249,7 +249,7 @@ Not by default. With **Reschedule cards on change** off, new settings affect fut
 
 No. Anki removed Compute Minimum Recommended Retention in version 25.07. In Anki 26.08, use **Help Me Decide (Experimental)** and **FSRS Simulator (Experimental)** to compare retention with estimated workload.
 
-### Does Flashcards use the same settings as Anki?
+### Does Nibomo use the same settings as Anki?
 
 It uses FSRS-6 and exposes desired retention, learning steps, relearning steps, maximum interval, and fuzz per workspace. It does not copy Anki's full settings model: weights are pinned in v1, changes are forward-only, and there is no personalized parameter optimization or workload simulator.
 

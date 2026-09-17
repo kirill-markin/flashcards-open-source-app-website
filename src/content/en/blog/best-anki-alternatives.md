@@ -20,7 +20,7 @@ That is the expensive part of comparing Anki alternatives. A cleaner editor or a
 
 This comparison starts at that boundary. It covers seven apps like Anki, what each one can take from an existing collection, what changes after import, and when keeping Anki is the safer result.
 
-> **Disclosure:** I am Kirill Markin, and I build [Flashcards](https://flashcards-open-source-app.com/), one of the products below. I included it for its open-source, self-hosting, and agent workflows. It is not the default winner: it has no direct `.apkg` importer, its Anki migration is lossy, and operating the self-hosted stack is a real infrastructure job.
+> **Disclosure:** I am Kirill Markin, and I build [Nibomo](https://flashcards-open-source-app.com/), one of the products below. I included it for its open-source, self-hosting, and agent workflows. It is not the default winner: it has no direct `.apkg` importer, its Anki migration is lossy, and operating the self-hosted stack is a real infrastructure job.
 
 **Facts checked:** August 28, 2026. Prices are the public US or listed local prices available on that date. Taxes, regions, education offers, and app-store billing can change the amount.
 
@@ -41,7 +41,7 @@ The remaining four are content rebuilds, not collection migrations:
 - **Quizlet** is useful for public sets, classes, games, and guided practice.
 - **Brainscape** gives a group a simpler 1–5 confidence loop.
 - **SuperMemo** is a move into its proprietary method and course catalog.
-- **Flashcards** gives you MIT-licensed web and native clients, a self-hosted backend, API, and MCP access. Its reviewed TXT or CSV workflow does not preserve Anki learning state.
+- **Nibomo** gives you MIT-licensed web and native clients, a self-hosted backend, API, and MCP access. Its reviewed TXT or CSV workflow does not preserve Anki learning state.
 
 If your cards depend on exact rendering, add-ons, or the current review queue, staying in Anki is not indecision. It is the answer.
 
@@ -78,7 +78,7 @@ An importer may pass the first question and fail the other two.
 | [Quizlet](https://quizlet.com/) | [Paste terms and definitions](https://help.quizlet.com/hc/en-us/articles/360029977151-Creating-sets-by-importing-content) | None from Anki | Note types, templates, decks, media structure, and all scheduling data |
 | [Brainscape](https://www.brainscape.com/) | [CSV, TXT, XLSX, or ODS](https://brainscape.zendesk.com/hc/en-us/articles/115002369931-How-do-I-import-various-files-to-create-flashcards) | None from Anki | Templates, add-ons, media rules, and all scheduling data |
 | [SuperMemo](https://www.supermemo.com/) | [Paste delimited question-and-answer rows](https://www.supermemo.com/en/blog/how-to-create-flashcards-for-learning), up to 100 at once | None from Anki | Collection structure, media, templates, and all scheduling data |
-| [Flashcards](https://flashcards-open-source-app.com/) | Reviewed AI-assisted drafting from Anki TXT or CSV | None from Anki | No `.apkg` support; templates, media fidelity, deck hierarchy, and all scheduling data stay behind |
+| [Nibomo](https://flashcards-open-source-app.com/) | Reviewed AI-assisted drafting from Anki TXT or CSV | None from Anki | No `.apkg` support; templates, media fidelity, deck hierarchy, and all scheduling data stay behind |
 
 ## Price, offline use, scheduling, and ownership
 
@@ -90,7 +90,7 @@ An importer may pass the first question and fail the other two.
 | **Quizlet** | Free basic use; [Plus $35.99/year, Plus Unlimited $44.99/year](https://quizlet.com/upgrade?source=signup) | Downloaded sets work offline in the iOS and Android apps with Flashcards and Match. | [Web spaced repetition](https://quizlet.com/features/spaced-repetition) for sets with 100+ terms; mobile is still marked as coming soon. Learn is separate adaptive practice. | Proprietary hosted service; no supported self-hosting path |
 | **Brainscape** | [Free; Pro $7.99/month on annual billing](https://www.brainscape.com/pricing) | [Mobile can retain work while offline and later sync previously downloaded classes](https://brainscape.zendesk.com/hc/en-us/articles/115002369711-How-do-Brainscape-s-website-mobile-app-interact-with-each-other); the docs do not promise a complete local library. | [Confidence-Based Repetition](https://www.brainscape.com/academy/confidence-based-repetition-definition/), rated 1–5 | Proprietary hosted service; no supported self-hosting path |
 | **SuperMemo** | Free account with limits; [35.99 PLN/month or 359 PLN/year](https://www.supermemo.com/en/premium-subscription) | Downloaded mobile courses work offline; editing, AI, search, recordings, and statistics do not. | [Proprietary SuperMemo method](https://www.supermemo.com/en/supermemo-method) | Proprietary hosted service; no supported self-hosting path |
-| **Flashcards** | [Hosted core free during beta; software free to self-host](/pricing/), plus your infrastructure costs | Native apps write locally after online login and initial workspace hydration; remote media must already be cached. | [FSRS](/docs/architecture/#scheduling) | MIT; supported production deployment is an AWS-centered full stack |
+| **Nibomo** | [Hosted core free during beta; software free to self-host](/pricing/), plus your infrastructure costs | Native apps write locally after online login and initial workspace hydration; remote media must already be cached. | [FSRS](/docs/architecture/#scheduling) | MIT; supported production deployment is an AWS-centered full stack |
 
 These tables are not scorecards. A direct importer can matter more than every other feature if you have 30,000 mature cards. A native iPhone app can decide the result if that is where you review. Source access matters only when you or someone you trust will maintain the code.
 
@@ -187,7 +187,7 @@ RemNote, Mochi, Quizlet, Brainscape, SuperMemo, and Flashcards all have iOS apps
 - **Mochi** preserves more than the text-only iOS options: it imports `.apkg` review history, with Markdown conversion and binary grading.
 - **RemNote** also imports `.apkg` review history, but test its **Need to Learn** queue rather than assuming today's Anki schedule survives.
 - **Quizlet** fits classroom distribution, but its Anki path is text-only and its new spaced-repetition flow is not yet on mobile.
-- **Flashcards** is the source-available option with a native iOS client, but its Anki migration resets learning state.
+- **Nibomo** is the source-available option with a native iOS client, but its Anki migration resets learning state.
 - **Brainscape** and **SuperMemo** make sense only if their review method is worth rebuilding the cards and schedule.
 
 Before leaving AnkiMobile over price, compare it with the cost of a subscription and the hours needed to repair a migration. A one-time app purchase can be cheaper than a free app that turns a mature collection into a manual project.
@@ -237,6 +237,6 @@ Start with the part you cannot afford to lose:
 5. If classroom distribution or a simpler shared review loop is the actual problem, rebuild a small set in Quizlet or Brainscape.
 6. If you specifically want SuperMemo's method, accept a fresh schedule. If you specifically want full-stack source, self-hosting, API, and MCP access, accept Flashcards' lossy content rebuild and operator work.
 
-For a feature-by-feature view of three very different models, see [Anki vs Quizlet vs Flashcards](/blog/anki-vs-quizlet-vs-open-source-flashcards-app/).
+For a feature-by-feature view of three very different models, see [Anki vs Quizlet vs Nibomo](/blog/anki-vs-quizlet-vs-open-source-flashcards-app/).
 
 The useful rule is simple: switch when the gain is specific and the loss has survived a real test. If your representative deck cannot cross the boundary cleanly, keeping Anki is not the conservative fallback. It is the result of the comparison.
