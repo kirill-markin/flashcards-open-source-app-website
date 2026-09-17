@@ -236,6 +236,6 @@ Y por eso también conviene separar el flujo de finales del flujo de "estudiar c
 
 ## Dónde encaja Flashcards en este flujo
 
-[Flashcards](https://flashcards-open-source-app.com/) encaja bien aquí porque el producto se ajusta al caos real de la semana de finales en lugar de asumir que tus materiales de estudio llegan limpios.
+[Nibomo](https://flashcards-open-source-app.com/) encaja bien aquí porque el producto se ajusta al caos real de la semana de finales en lugar de asumir que tus materiales de estudio llegan limpios.
 
 Puedes usar la aplicación web alojada para subir archivos, usar el chat con IA y adjuntos cuando necesites limpiar una fuente, convertir lo que sobreviva en tarjetas de anverso y reverso, editar esas tarjetas y mantener el ciclo final de repaso en un solo sitio con mazos, etiquetas, filtros, búsqueda y planificación con FSRS. Las apps offline-first para web, iOS y Android también tienen mucho más sentido en finales que otra pestaña de navegador que pierdes en cuanto te alejas del escritorio. Si quieres ver el producto con más detalle antes de probarlo, el resumen más limpio está en la [página de funcionalidades](https://flashcards-open-source-app.com/features/). Y, si te importa el control, el proyecto es open source y también admite self-hosting.

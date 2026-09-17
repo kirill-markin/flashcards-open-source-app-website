@@ -21,7 +21,7 @@ Esa pequeña contradicción explica por qué una **reseña de Knowt** útil nece
 
 En pocas palabras: Knowt encaja muy bien si quieres reunir notas, conversión de material y varias formas de practicar en un solo producto. Una aplicación más centrada en las flashcards tiene más sentido si buscas, sobre todo, tarjetas duraderas con anverso y reverso revisados, un planificador documentado, cambios que se guarden primero en local o control sobre el software y la infraestructura.
 
-> **Nota de transparencia:** Soy Kirill Markin y desarrollo [Flashcards](https://flashcards-open-source-app.com/), una de las alternativas que comparo aquí. Knowt abarca más y probablemente sea la mejor opción si necesitas notas integradas, conversión automática de material, distintos tipos de práctica, contenido de la comunidad o funciones para el aula.
+> **Nota de transparencia:** Soy Kirill Markin y desarrollo [Nibomo](https://flashcards-open-source-app.com/), una de las alternativas que comparo aquí. Knowt abarca más y probablemente sea la mejor opción si necesitas notas integradas, conversión automática de material, distintos tipos de práctica, contenido de la comunidad o funciones para el aula.
 
 **Información comprobada el 2 de septiembre de 2026.** La comparación se basa en las páginas de producto y los artículos de ayuda enlazados. Cuando las fuentes no aclaran algo, lo indico en vez de tomar ese silencio como prueba de que una función no existe. Los precios y el funcionamiento pueden cambiar: revisa el importe final antes de pagar y prueba tu propio flujo sin conexión antes de depender de cualquiera de las dos opciones.
 
@@ -133,7 +133,7 @@ Flashcards tampoco resuelve por completo la portabilidad. Su transferencia de pa
 
 ## Cuándo encaja mejor una alternativa más específica
 
-[Flashcards](/features/) mantiene a propósito un objeto central sencillo: un anverso revisado, un reverso revisado y una fecha para el siguiente repaso calculada mediante FSRS documentado. Sus clientes móviles están diseñados para guardar cambios en local y repasar sin conexión, y sincronizan al recuperarla. El producto alojado es [gratis durante la beta](/pricing/), incluida la IA y la sincronización, aunque en el futuro un uso más intensivo de la IA puede exigir una clave propia de proveedor o una opción de pago.
+[Nibomo](/features/) mantiene a propósito un objeto central sencillo: un anverso revisado, un reverso revisado y una fecha para el siguiente repaso calculada mediante FSRS documentado. Sus clientes móviles están diseñados para guardar cambios en local y repasar sin conexión, y sincronizan al recuperarla. El producto alojado es [gratis durante la beta](/pricing/), incluida la IA y la sincronización, aunque en el futuro un uso más intensivo de la IA puede exigir una clave propia de proveedor o una opción de pago.
 
 También permite acceder al espacio de trabajo mediante [MCP y una Agent API](/docs/api/), de modo que herramientas como Claude Code o Codex pueden ayudar a crear y organizar tarjetas. Esas funciones para agentes y las funciones de IA necesitan servicios de red. Que el repaso de tarjetas priorice el trabajo sin conexión no significa que la IA también funcione sin ella.
 

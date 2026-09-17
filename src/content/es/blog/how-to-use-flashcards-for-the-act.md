@@ -247,7 +247,7 @@ Esas notas le dan a la IA algo útil que comprimir. También mantienen tu mazo m
 
 Conviene dejar esta parte explícita.
 
-Flashcards Open Source App no tiene ninguna integración oficial con ACT. Úsala con tus propios apuntes, tus propios resúmenes y tus propias explicaciones de errores a partir de materiales de estudio obtenidos legalmente. No la conviertas en un lugar para guardar bancos de preguntas propietarios copiados, claves de respuestas completas o bloques largos de contenido protegido de ACT que no tienes derecho a reproducir.
+Nibomo no tiene ninguna integración oficial con ACT. Úsala con tus propios apuntes, tus propios resúmenes y tus propias explicaciones de errores a partir de materiales de estudio obtenidos legalmente. No la conviertas en un lugar para guardar bancos de preguntas propietarios copiados, claves de respuestas completas o bloques largos de contenido protegido de ACT que no tienes derecho a reproducir.
 
 En la práctica, la tarjeta más fuerte casi nunca es la pregunta entera. Suele ser tu resumen compacto de qué falló y qué habría cambiado el resultado la próxima vez.
 
@@ -321,9 +321,9 @@ FSRS ayuda con el momento. No rescata tarjetas malas. El orden sigue importando:
 
 Si quieres más detalle sobre la parte de planificación, lee [Cómo estudiar para un examen con FSRS en 2026](/blog/how-to-study-for-an-exam-with-fsrs/) y [FSRS vs SM-2 en 2026](/blog/fsrs-vs-sm-2/).
 
-## Dónde encaja Flashcards Open Source App en este flujo del ACT
+## Dónde encaja Nibomo en este flujo del ACT
 
-[Flashcards](/) encaja bien con este tipo de preparación del ACT porque el producto actual ya cubre ese punto intermedio incómodo entre "fallé esta pregunta" y "mañana voy a repasar exactamente esta lección".
+[Nibomo](/) encaja bien con este tipo de preparación del ACT porque el producto actual ya cubre ese punto intermedio incómodo entre "fallé esta pregunta" y "mañana voy a repasar exactamente esta lección".
 
 Partes útiles para este flujo:
 

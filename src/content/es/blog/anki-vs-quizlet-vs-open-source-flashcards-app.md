@@ -15,15 +15,15 @@ keywords:
   - "flashcards autohospedadas"
 ---
 
-La respuesta útil a la comparación **Anki vs Quizlet** ya no es «Anki para estudiantes serios y Quizlet para todos los demás». En 2026, Anki cuenta con FSRS y un sistema local excepcionalmente consolidado. Quizlet ofrece una experiencia muy cuidada para las clases y herramientas de estudio con IA. Flashcards Open Source App combina FSRS integrado, IA y la posibilidad de autoalojar toda la infraestructura, aunque sigue siendo un producto mucho más joven. La **mejor app de flashcards** depende de qué ventajas y limitaciones pesen más para ti.
+La respuesta útil a la comparación **Anki vs Quizlet** ya no es «Anki para estudiantes serios y Quizlet para todos los demás». En 2026, Anki cuenta con FSRS y un sistema local excepcionalmente consolidado. Quizlet ofrece una experiencia muy cuidada para las clases y herramientas de estudio con IA. Nibomo combina FSRS integrado, IA y la posibilidad de autoalojar toda la infraestructura, aunque sigue siendo un producto mucho más joven. La **mejor app de flashcards** depende de qué ventajas y limitaciones pesen más para ti.
 
-> **Aviso de transparencia:** Soy Kirill Markin y desarrollo [Flashcards Open Source App](/features/), uno de los productos incluidos en esta comparación. Lo he incluido porque combina IA, FSRS y la posibilidad de autoalojar toda la infraestructura, pero no lo considero el ganador por defecto. Anki y Quizlet son mejores opciones para varios de los casos de uso habituales que explico a continuación.
+> **Aviso de transparencia:** Soy Kirill Markin y desarrollo [Nibomo](/features/), uno de los productos incluidos en esta comparación. Lo he incluido porque combina IA, FSRS y la posibilidad de autoalojar toda la infraestructura, pero no lo considero el ganador por defecto. Anki y Quizlet son mejores opciones para varios de los casos de uso habituales que explico a continuación.
 
 Por tanto, no existe un ganador universal. Si tuviera que resumir la decisión en tres líneas:
 
 - Elige **Anki** si buscas el sistema de repetición espaciada a largo plazo más completo y probado.
 - Elige **Quizlet** para compartir en clase, acceder a conjuntos públicos ya preparados y practicar de distintas formas a corto plazo.
-- Elige **Flashcards Open Source App** si quieres IA integrada, FSRS y control de toda la infraestructura, siempre que aceptes un ecosistema en fase inicial y una migración que todavía no conserva todos los detalles.
+- Elige **Nibomo** si quieres IA integrada, FSRS y control de toda la infraestructura, siempre que aceptes un ecosistema en fase inicial y una migración que todavía no conserva todos los detalles.
 
 Los detalles importan, sobre todo si ya tienes cientos o miles de tarjetas.
 
@@ -33,7 +33,7 @@ Los detalles importan, sobre todo si ya tienes cientos o miles de tarjetas.
 
 La información de esta tabla se verificó el 2 de agosto de 2026. Los precios y la disponibilidad de las funciones pueden variar según la región.
 
-| Categoría | Anki | Quizlet | Flashcards Open Source App |
+| Categoría | Anki | Quizlet | Nibomo |
 | --- | --- | --- | --- |
 | Planificación de repasos | Sistema consolidado con [FSRS disponible](https://docs.ankiweb.net/deck-options), ajustes detallados, historial de repasos y un amplio ecosistema de complementos | [Learn](https://help.quizlet.com/hc/en-us/articles/360030986971-Studying-with-Learn) crea una ruta personalizada según tus objetivos y lo bien que conoces el material mediante aprendizaje automático; no es un sistema de planificación a largo plazo como FSRS | FSRS viene integrado y se usa de forma predeterminada, con las valoraciones Again/Hard/Good/Easy y ajustes por espacio de trabajo |
 | Sin conexión | En las aplicaciones de escritorio y móviles nativas, el estudio funciona con datos locales; la sincronización es opcional | En [iOS y Android](https://help.quizlet.com/hc/en-us/articles/360030565412-Studying-offline-with-Quizlet-mobile-apps), los conjuntos guardados funcionan sin conexión en Flashcards y Match, y también se pueden crear conjuntos sin conexión; el sitio web necesita conexión | Las aplicaciones nativas para iOS (SQLite) y Android (Room/SQLite) ofrecen la opción sin conexión más clara y fiable. Tras cargarse, la aplicación web guarda las tarjetas y los cambios pendientes en IndexedDB, pero la IA y la sincronización necesitan conexión |
@@ -81,7 +81,7 @@ La portabilidad también es más limitada. Quizlet permite exportar los término
 
 ## Elige Flashcards si quieres IA, FSRS y autoalojamiento en un mismo producto
 
-[Flashcards Open Source App](/features/) combina en un solo producto la planificación FSRS, un chat con IA que conoce el contexto del espacio de trabajo, creación y edición de tarjetas, archivos adjuntos, aplicaciones nativas que funcionan sin conexión y una API para agentes de IA.
+[Nibomo](/features/) combina en un solo producto la planificación FSRS, un chat con IA que conoce el contexto del espacio de trabajo, creación y edición de tarjetas, archivos adjuntos, aplicaciones nativas que funcionan sin conexión y una API para agentes de IA.
 
 Usa Flashcards si:
 
@@ -117,8 +117,8 @@ Para un uso serio y prolongado de la repetición espaciada, **Anki sigue siendo 
 
 Para el uso en clase, los conjuntos públicos y la práctica rápida y variada, **Quizlet sigue siendo la recomendación más sencilla**. Sus flujos de trabajo sociales y docentes son una ventaja real, no una función menor que todos sus competidores ya igualen.
 
-Para quienes buscan específicamente crear y editar tarjetas con IA, usar FSRS y tener la opción de ejecutar todo el sistema por su cuenta, **Flashcards Open Source App es la opción más directa**. También es la elección más arriesgada de las tres si hoy necesitas una compatibilidad de importación madura o una copia de seguridad completa y portátil.
+Para quienes buscan específicamente crear y editar tarjetas con IA, usar FSRS y tener la opción de ejecutar todo el sistema por su cuenta, **Nibomo es la opción más directa**. También es la elección más arriesgada de las tres si hoy necesitas una compatibilidad de importación madura o una copia de seguridad completa y portátil.
 
 Esa es la decisión sincera en 2026: elige la herramienta más sólida para el sistema de estudio que realmente tienes y, antes de que tu colección adquiera demasiado valor como para moverla, comprueba cómo podrás sacar tus datos.
 
-Puedes [probar la aplicación alojada de Flashcards](https://app.flashcards-open-source-app.com/), consultar los [precios y límites de la beta](/pricing/) o leer los [requisitos de autoalojamiento](/docs/self-hosting/) antes de decidirte.
+Puedes [probar la aplicación alojada de Nibomo](https://app.flashcards-open-source-app.com/), consultar los [precios y límites de la beta](/pricing/) o leer los [requisitos de autoalojamiento](/docs/self-hosting/) antes de decidirte.

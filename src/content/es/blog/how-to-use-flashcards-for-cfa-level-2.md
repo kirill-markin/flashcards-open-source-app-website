@@ -263,7 +263,7 @@ Si tu cola diaria empieza a atascarse, [Cómo repasar flashcards más rápido en
 
 ## Dónde encaja Flashcards
 
-[Flashcards](/es/) encaja bien en este flujo porque ya reúne en un mismo sitio las piezas que los candidatos de Level II suelen necesitar:
+[Nibomo](/es/) encaja bien en este flujo porque ya reúne en un mismo sitio las piezas que los candidatos de Level II suelen necesitar:
 
 - tarjetas de anverso y reverso que puedes mantener pequeñas
 - etiquetas para seguir tema, LOS y fallos de simulacro

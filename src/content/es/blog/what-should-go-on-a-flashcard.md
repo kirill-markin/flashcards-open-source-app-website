@@ -292,7 +292,7 @@ Nada sofisticado. En parte por eso funciona.
 
 ## Dónde encaja Flashcards
 
-[Flashcards](/es/features/) funciona mejor cuando dejas de tratar cada frase de la fuente como una futura tarjeta.
+[Nibomo](/es/features/) funciona mejor cuando dejas de tratar cada frase de la fuente como una futura tarjeta.
 
 El flujo útil es más estrecho:
 

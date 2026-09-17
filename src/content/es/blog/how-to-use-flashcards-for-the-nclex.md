@@ -247,7 +247,7 @@ Aquí también es donde se vuelve obvia la diferencia entre un mazo de la carrer
 
 ## Dónde encaja Flashcards
 
-[Flashcards](https://flashcards-open-source-app.com/) encaja bien en este flujo porque te da esas cosas aburridas que de verdad importan: tarjetas pequeñas de anverso y reverso, etiquetas, repaso filtrado y programación con FSRS cuando las tarjetas ya están lo bastante limpias como para confiar en ellas.
+[Nibomo](https://flashcards-open-source-app.com/) encaja bien en este flujo porque te da esas cosas aburridas que de verdad importan: tarjetas pequeñas de anverso y reverso, etiquetas, repaso filtrado y programación con FSRS cuando las tarjetas ya están lo bastante limpias como para confiar en ellas.
 
 Eso es útil para preparar el NCLEX porque tu material fuente se desordena muy rápido. Los racionales viven en una pestaña, las notas escritas a mano en otra, una hoja de valores de laboratorio por algún lado más y tus verdaderos puntos débiles suelen quedar desperdigados entre todo eso. La herramienta correcta es la que te deja convertirlo en tarjetas más pequeñas sin crear un segundo sistema de estudio a tiempo completo.
 

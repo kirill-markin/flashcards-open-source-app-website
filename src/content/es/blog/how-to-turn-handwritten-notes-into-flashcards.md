@@ -173,7 +173,7 @@ Y si tu fuente es un documento o unas diapositivas, este se parece más a lo que
 
 ## Dónde encaja Flashcards en este flujo
 
-[Flashcards](https://flashcards-open-source-app.com/) encaja bien en **apuntes manuscritos a flashcards** porque el producto ya reúne las piezas que de verdad importan:
+[Nibomo](https://flashcards-open-source-app.com/) encaja bien en **apuntes manuscritos a flashcards** porque el producto ya reúne las piezas que de verdad importan:
 
 - chat con IA
 - adjuntos de imagen y archivo
@@ -215,7 +215,7 @@ Menos magia. Mejores tarjetas.
 
 Si eso es lo que buscas, empieza aquí:
 
-- [Abrir Flashcards](https://flashcards-open-source-app.com/)
+- [Abrir Nibomo](https://flashcards-open-source-app.com/)
 - [Abrir la aplicación](https://app.flashcards-open-source-app.com/)
 - [Leer la guía de introducción](https://flashcards-open-source-app.com/docs/getting-started/)
 - [Ver el código fuente en GitHub](https://github.com/kirill-markin/flashcards-open-source-app)

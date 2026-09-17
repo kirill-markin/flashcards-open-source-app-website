@@ -298,7 +298,7 @@ Si subes diez diagramas a la vez, el modelo empieza a mezclarlos y el mazo pierd
 
 ## Dónde encaja Flashcards
 
-[Flashcards](https://flashcards-open-source-app.com/) encaja bien en un flujo de trabajo para **convertir diagramas en tarjetas didácticas** porque el producto ya tiene las piezas que este proceso necesita:
+[Nibomo](https://flashcards-open-source-app.com/) encaja bien en un flujo de trabajo para **convertir diagramas en tarjetas didácticas** porque el producto ya tiene las piezas que este proceso necesita:
 
 - chat con IA
 - adjuntos de imágenes y archivos
@@ -343,7 +343,7 @@ Mejor memoria.
 
 Si eso es lo que quieres, empieza aquí:
 
-- [Ir al sitio de Flashcards](https://flashcards-open-source-app.com/)
+- [Ir al sitio de Nibomo](https://flashcards-open-source-app.com/)
 - [Abrir la aplicación](https://app.flashcards-open-source-app.com/)
 - [Leer la guía de inicio](https://flashcards-open-source-app.com/docs/getting-started/)
 - [Ver el código en GitHub](https://github.com/kirill-markin/flashcards-open-source-app)

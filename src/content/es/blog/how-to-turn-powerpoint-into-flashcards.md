@@ -218,7 +218,7 @@ La versión llamativa suele fallar siempre por la misma razón: demasiadas tarje
 
 ## Dónde encaja Flashcards después del paso de extracción
 
-Una vez que el contenido útil de las diapositivas ya está en formato de texto, [Flashcards](/es/features/) cubre la parte que importa:
+Una vez que el contenido útil de las diapositivas ya está en formato de texto, [Nibomo](/es/features/) cubre la parte que importa:
 
 - chat con IA para redactar a partir de texto pegado o archivos adjuntos
 - creación y edición de tarjetas de anverso y reverso

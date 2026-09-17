@@ -289,9 +289,9 @@ Aquí es donde sale la mayor parte de la calidad.
 
 No construyas un segundo sistema de repaso para comandos de terminal a menos que disfrutes manteniendo sistemas de estudio abandonados.
 
-## Dónde encaja Flashcards Open Source App
+## Dónde encaja Nibomo
 
-[Flashcards Open Source App](/es/) encaja muy bien aquí porque estudiar terminal ya es un caso bastante acotado y muy basado en texto.
+[Nibomo](/es/) encaja muy bien aquí porque estudiar terminal ya es un caso bastante acotado y muy basado en texto.
 
 Puedes usarla para:
 

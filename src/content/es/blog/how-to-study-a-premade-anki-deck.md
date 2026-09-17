@@ -184,7 +184,7 @@ Comprueba si hay:
 
 Si el mazo te da mala espina, compara unas cuantas tarjetas directamente con tu fuente. Cinco minutos de comprobación puntual pueden ahorrarte semanas de repaso de poco valor.
 
-Si además estás usando IA para redactar o reescribir tarjetas en [Flashcards](/es/features/), mantén el mismo criterio ahí también. Primero borrador. Después edición. Después repaso.
+Si además estás usando IA para redactar o reescribir tarjetas en [Nibomo](/es/features/), mantén el mismo criterio ahí también. Primero borrador. Después edición. Después repaso.
 
 ## Aprende a detectar cuándo un mazo compartido ayuda y cuándo te roba tiempo
 
@@ -224,11 +224,11 @@ Este es el flujo de la primera semana en el que yo sí confiaría:
 
 Esa es la respuesta práctica a **cómo usar mazos Anki prefabricados**. Importa, revisa y reduce.
 
-## Dónde encaja Flashcards Open Source App
+## Dónde encaja Nibomo
 
 Este sitio no es Anki, y no voy a fingir lo contrario. Pero el problema del flujo de trabajo es el mismo en las herramientas modernas de flashcards: las tarjetas flojas salen caras en cuanto entran en el repaso real.
 
-[Flashcards](/es/features/) encaja en este flujo de forma bastante directa:
+[Nibomo](/es/features/) encaja en este flujo de forma bastante directa:
 
 - puedes crear o editar tarjetas simples de anverso y reverso
 - puedes organizar el material en mazos y etiquetas

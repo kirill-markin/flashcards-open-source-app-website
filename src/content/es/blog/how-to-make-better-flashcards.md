@@ -243,7 +243,7 @@ El mazo mejora cuando salen las malas.
 
 ## Por qué Flashcards encaja bien con este flujo de trabajo
 
-[Flashcards](https://flashcards-open-source-app.com/) encaja muy bien con **cómo hacer flashcards efectivas** porque el producto está pensado en torno a lo que importa después del borrador:
+[Nibomo](https://flashcards-open-source-app.com/) encaja muy bien con **cómo hacer flashcards efectivas** porque el producto está pensado en torno a lo que importa después del borrador:
 
 - tarjetas reales de anverso y reverso
 - mazos y etiquetas
@@ -268,7 +268,7 @@ Esa es la versión de **qué hace buena a una flashcard** en la que de verdad co
 
 Si quieres un sistema práctico de **anverso y reverso de una flashcard** que siga funcionando cuando se pase la novedad de generar tarjetas con IA, empieza aquí:
 
-- [Abrir Flashcards](https://flashcards-open-source-app.com/)
+- [Abrir Nibomo](https://flashcards-open-source-app.com/)
 - [Abrir la app](https://app.flashcards-open-source-app.com/)
 - [Leer la guía de autoalojamiento](https://flashcards-open-source-app.com/docs/self-hosting/)
 - [Ver el código en GitHub](https://github.com/kirill-markin/flashcards-open-source-app)

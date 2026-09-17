@@ -157,9 +157,9 @@ El día anterior a la sesión de examen:
 
 Consulta también las instrucciones del proveedor del examen sobre identificación, inscripción, tarifas, calculadora y sesión. Las flashcards no pueden prepararte para la parte administrativa.
 
-## El papel de Flashcards Open Source App
+## El papel de Nibomo
 
-[Flashcards Open Source App](/features/) permite crear tarjetas con anverso y reverso, organizarlas mediante mazos y etiquetas, y programar los repasos con FSRS. Eso cubre la parte de recuperación de este método.
+[Nibomo](/features/) permite crear tarjetas con anverso y reverso, organizarlas mediante mazos y etiquetas, y programar los repasos con FSRS. Eso cubre la parte de recuperación de este método.
 
 La app no está afiliada a la FCC, NCVEC ni ARRL. No incluye un mazo oficial para Technician, no importa el banco de preguntas, no verifica tus explicaciones, no proporciona los diagramas oficiales ni genera un examen de licencia de 35 preguntas. Tú aportas y compruebas el contenido de las tarjetas. Para simular el examen, usa un servicio de práctica fiable que trabaje con el banco vigente.
 

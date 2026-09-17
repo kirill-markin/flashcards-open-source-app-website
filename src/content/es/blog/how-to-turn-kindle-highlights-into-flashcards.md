@@ -232,9 +232,9 @@ Si quieres profundizar más en la parte de la programación de repasos, este art
 
 - [FSRS vs SM-2 en 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
 
-## Dónde encaja Flashcards Open Source App
+## Dónde encaja Nibomo
 
-[Flashcards Open Source App](https://flashcards-open-source-app.com/) encaja muy bien para **subrayados de Kindle a tarjetas didácticas** porque el producto ya cubre las partes prácticas del flujo de trabajo:
+[Nibomo](https://flashcards-open-source-app.com/) encaja muy bien para **subrayados de Kindle a tarjetas didácticas** porque el producto ya cubre las partes prácticas del flujo de trabajo:
 
 - pegar o subir texto a partir de subrayados exportados
 - limpiar el material en el chat con IA antes de crear tarjetas

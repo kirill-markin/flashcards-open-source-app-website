@@ -214,7 +214,7 @@ Si tu flujo ya incluye sesiones de cuestionario con estilo tutor, [Cómo usar IA
 
 ## Dónde encaja Flashcards
 
-[Flashcards](/es/) encaja bien en este flujo de trabajo porque los pasos que importan son pequeños y prácticos: redactar tarjetas claras de anverso y reverso, limpiarlas y repasar con FSRS las que de verdad merece la pena conservar. La aplicación web también admite chat con IA y archivos adjuntos, incluida la subida de texto plano, lo que ayuda cuando el feedback del cuestionario empieza como texto copiado del LMS o como una exportación torpe en vez de una guía de estudio limpia.
+[Nibomo](/es/) encaja bien en este flujo de trabajo porque los pasos que importan son pequeños y prácticos: redactar tarjetas claras de anverso y reverso, limpiarlas y repasar con FSRS las que de verdad merece la pena conservar. La aplicación web también admite chat con IA y archivos adjuntos, incluida la subida de texto plano, lo que ayuda cuando el feedback del cuestionario empieza como texto copiado del LMS o como una exportación torpe en vez de una guía de estudio limpia.
 
 Si primero quieres una visión general del producto, empieza por la [página de funcionalidades](/es/features/) o la [guía de primeros pasos](/es/docs/getting-started/).
 

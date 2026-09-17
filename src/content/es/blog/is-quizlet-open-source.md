@@ -128,7 +128,7 @@ La [guía general de alternativas a Quizlet](/es/blog/quizlet-alternative/) anal
 
 ## Aviso de transparencia: desarrollo una alternativa de código abierto
 
-> **Aviso de transparencia:** Soy Kirill Markin y desarrollo [Flashcards Open Source App](/es/features/). Su [repositorio con licencia MIT](https://github.com/kirill-markin/flashcards-open-source-app) incluye toda la pila: web, iOS, Android, autenticación, backend, sincronización e infraestructura. El límite del código fuente es distinto al de Quizlet, pero eso no convierte Flashcards en un sustituto directo.
+> **Aviso de transparencia:** Soy Kirill Markin y desarrollo [Nibomo](/es/features/). Su [repositorio con licencia MIT](https://github.com/kirill-markin/flashcards-open-source-app) incluye toda la pila: web, iOS, Android, autenticación, backend, sincronización e infraestructura. El límite del código fuente es distinto al de Quizlet, pero eso no convierte Flashcards en un sustituto directo.
 
 Flashcards tiene una [guía de autoalojamiento centrada en AWS](/es/docs/self-hosting/), no un instalador local de un solo clic. Quien lo opera se hace cargo de las cuentas en la nube, la autenticación, la entrega de correo electrónico, la monitorización, las copias de seguridad, las actualizaciones y las compilaciones de las aplicaciones nativas.
 

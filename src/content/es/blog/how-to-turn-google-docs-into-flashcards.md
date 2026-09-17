@@ -39,7 +39,7 @@ Por eso este tema se cruza tanto con [Cómo convertir apuntes en tarjetas didác
 
 Yo no trataría la sincronización nativa como el objetivo principal.
 
-**Flashcards Open Source App** resulta útil después de sacar del documento el texto que sí importa. El producto actual ofrece chat con IA, archivos adjuntos, cargas de texto plano, creación de tarjetas de anverso y reverso y repaso con FSRS. No promete una integración especial con Google Docs que lea un documento compartido en vivo y lo convierta en silencio en un mazo limpio. Ese es el flujo más honesto. Puedes ver la superficie actual del producto en la [página de funciones](/features/).
+**Nibomo** resulta útil después de sacar del documento el texto que sí importa. El producto actual ofrece chat con IA, archivos adjuntos, cargas de texto plano, creación de tarjetas de anverso y reverso y repaso con FSRS. No promete una integración especial con Google Docs que lea un documento compartido en vivo y lo convierta en silencio en un mazo limpio. Ese es el flujo más honesto. Puedes ver la superficie actual del producto en la [página de funciones](/features/).
 
 Para un flujo de trabajo con Google Docs, eso suele bastar:
 
@@ -141,7 +141,7 @@ Esta es la versión en la que confiaría un miércoles por la noche, cuando no q
 1. Congela una sección pequeña del Google Doc.
 2. Quédate con el encabezado, el texto final y los comentarios que revelan confusión real.
 3. Borra el ruido administrativo, los duplicados, los restos del modo sugerencias y la autoría ambigua.
-4. Copia esa sección limpia en el chat con IA de Flashcards Open Source App, o adjunta un archivo exportado si así te resulta más fácil inspeccionarlo.
+4. Copia esa sección limpia en el chat con IA de Nibomo, o adjunta un archivo exportado si así te resulta más fácil inspeccionarlo.
 5. Pide tarjetas simples de anverso y reverso con un solo hecho, distinción o paso por tarjeta.
 6. Borra las tarjetas flojas o repetidas antes de que lleguen al repaso.
 7. Reescribe las respuestas largas y divide las tarjetas sobrecargadas.
@@ -221,9 +221,9 @@ Yo normalmente separaría la salida por:
 
 No necesitas una taxonomía preciosa el primer día. Sí necesitas la estructura suficiente para que un solo documento colaborativo no acabe convertido en un mazo enorme e indiferenciado.
 
-## Dónde encaja Flashcards Open Source App después de copiar o exportar
+## Dónde encaja Nibomo después de copiar o exportar
 
-Una vez que la parte útil del Google Doc está más limpia, **Flashcards Open Source App** cubre lo que de verdad importa:
+Una vez que la parte útil del Google Doc está más limpia, **Nibomo** cubre lo que de verdad importa:
 
 - chat con IA para redactar a partir de texto pegado o archivos adjuntos
 - creación de tarjetas simples de anverso y reverso

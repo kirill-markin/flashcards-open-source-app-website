@@ -230,7 +230,7 @@ Así es como "al día siguiente se me olvida todo" suele convertirse en "seguí 
 
 ## Dónde encaja Flashcards de forma honesta
 
-[Flashcards](/es/) no es el producto que yo vendería como una plataforma completa de tests de práctica.
+[Nibomo](/es/) no es el producto que yo vendería como una plataforma completa de tests de práctica.
 
 Encaja mejor como capa de retención después de que la explicación, la tutoría, los cuestionarios y las preguntas de práctica ya hayan hecho su parte.
 

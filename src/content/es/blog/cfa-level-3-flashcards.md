@@ -180,7 +180,7 @@ Guarda también en otro lugar los datos administrativos. La estructura del exame
 
 ## Dónde encaja Flashcards
 
-[Flashcards](/) cubre la capa de recuperación sin sustituir el temario, los item sets, las respuestas construidas ni los simulacros. La aplicación web alojada admite tarjetas con anverso y reverso, etiquetas, repaso de tarjetas pendientes con FSRS y un chat con IA que puede usar los datos del espacio de trabajo y los archivos adjuntos. El proyecto es de código abierto; su repositorio también incluye un cliente para iOS y la aplicación para Android está publicada en Google Play.
+[Nibomo](/) cubre la capa de recuperación sin sustituir el temario, los item sets, las respuestas construidas ni los simulacros. La aplicación web alojada admite tarjetas con anverso y reverso, etiquetas, repaso de tarjetas pendientes con FSRS y un chat con IA que puede usar los datos del espacio de trabajo y los archivos adjuntos. El proyecto es de código abierto; su repositorio también incluye un cliente para iOS y la aplicación para Android está publicada en Google Play.
 
 Empieza con los últimos errores de práctica que hayan revelado un problema reutilizable. Edita las tarjetas redactadas por la IA antes de guardarlas, repasa las pendientes y vuelve a las preguntas cronometradas. La página de [funciones](/features/), la [guía de primeros pasos](/docs/getting-started/) y el [código fuente](https://github.com/kirill-markin/flashcards-open-source-app) muestran exactamente qué ofrece el producto.
 

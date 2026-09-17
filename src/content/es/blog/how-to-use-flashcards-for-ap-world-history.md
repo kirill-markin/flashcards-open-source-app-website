@@ -194,7 +194,7 @@ Si quieres más detalle sobre la parte de planificación, [Cómo estudiar para u
 
 ## Dónde encaja Flashcards en este flujo de AP World
 
-Si quieres un solo lugar para llevar este sistema, [Flashcards Open Source App](/) encaja bien con el flujo sin obligarte a montar un stack de estudio raro.
+Si quieres un solo lugar para llevar este sistema, [Nibomo](/) encaja bien con el flujo sin obligarte a montar un stack de estudio raro.
 
 El producto actual ya cubre la parte útil del trabajo:
 

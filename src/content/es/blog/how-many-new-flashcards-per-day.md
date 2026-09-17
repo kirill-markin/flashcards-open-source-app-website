@@ -213,7 +213,7 @@ Si estás creando tarjetas directamente a partir de prompts de IA, esta pieza co
 
 ## Por qué Flashcards encaja mejor aquí
 
-[Flashcards](https://flashcards-open-source-app.com/) encaja bien en este flujo de trabajo porque el producto cubre ambos lados del problema:
+[Nibomo](https://flashcards-open-source-app.com/) encaja bien en este flujo de trabajo porque el producto cubre ambos lados del problema:
 
 - chat con IA para crear borradores a partir de apuntes, PDFs y otras fuentes
 - edición del anverso y reverso de las tarjetas antes de que se queden como definitivas
@@ -234,4 +234,4 @@ Elígelo según la carga de repaso que tu vida normal pueda sostener.
 
 Esa es la versión de **cuántas tarjetas al día** en la que confío en 2026: empieza por debajo de lo que te pide la emoción del momento, mantén las tarjetas limpias, observa con honestidad la cola de pendientes y sube solo cuando el sistema siga sintiéndose tranquilo.
 
-Si ese es el flujo de trabajo que buscas, [Flashcards](https://flashcards-open-source-app.com/) te da la configuración práctica: crear borradores desde el material fuente, editar con criterio y repasar con FSRS en lugar de dejar que una sesión entusiasmada de generación de tarjetas se convierta, sin darte cuenta, en un mes de retraso acumulado.
+Si ese es el flujo de trabajo que buscas, [Nibomo](https://flashcards-open-source-app.com/) te da la configuración práctica: crear borradores desde el material fuente, editar con criterio y repasar con FSRS en lugar de dejar que una sesión entusiasmada de generación de tarjetas se convierta, sin darte cuenta, en un mes de retraso acumulado.

@@ -20,7 +20,7 @@ En ECU, las secciones de Grammar, Chemistry y Physics sobran para quienes aspira
 
 El mejor flujo es más acotado. Revisa primero los requisitos de tu programa. Crea un mazo base pequeño solo para las secciones que puntúan. Después, deja que los errores de los simulacros decidan qué tarjetas nuevas merece la pena conservar. Así te mantienes alineado con el examen que realmente vas a hacer y evitas el peor vicio del HESI en internet: memorizar mazos inflados o copiados que no coinciden con tu escuela.
 
-Este enfoque funciona tanto si haces tarjetas a mano a partir de un libro oficial de repaso como si conviertes preguntas falladas en preguntas de recuerdo más pequeñas o depuras un borrador de mazo dentro de Flashcards Open Source App.
+Este enfoque funciona tanto si haces tarjetas a mano a partir de un libro oficial de repaso como si conviertes preguntas falladas en preguntas de recuerdo más pequeñas o depuras un borrador de mazo dentro de Nibomo.
 
 ![Escritorio de estudio cálido para el HESI A2 con flashcards específicas de la escuela para anatomía, biología, matemáticas, lectura, gramática, vocabulario y errores de práctica](/blog/how-to-use-flashcards-for-the-hesi-a2.png)
 
@@ -219,11 +219,11 @@ Ejemplos:
 
 Ése es un flujo mucho mejor que intentar memorizar ítems filtrados o conservar preguntas completas dentro del mazo. Usa preparación legítima. Quédate con el concepto. Elimina la redacción copiada.
 
-## Flashcards Open Source App encaja bien una vez que tu material de origen está limpio
+## Nibomo encaja bien una vez que tu material de origen está limpio
 
 Este tipo de preparación se vuelve más fácil cuando la misma herramienta puede encargarse de borradores, etiquetas, edición y repaso.
 
-Flashcards Open Source App encaja bien para preparar el HESI A2 porque te permite:
+Nibomo encaja bien para preparar el HESI A2 porque te permite:
 
 - redactar unas pocas tarjetas a partir de material oficial de estudio o de tus propios apuntes
 - dividir las tarjetas sobrecargadas antes de que entren en repaso

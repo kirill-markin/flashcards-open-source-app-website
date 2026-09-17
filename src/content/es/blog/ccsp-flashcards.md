@@ -206,9 +206,9 @@ Un **plan de estudio CCSP práctico para 2026** se parece a esto:
 
 No elijas una valoración que refleje más dificultad de la real solo para forzar un intervalo más corto. Si la cola crece más rápido de lo que puedes terminarla en un día normal, elimina las tarjetas de poco valor o reduce la carga de tarjetas nuevas. [Cómo estudiar para un examen con FSRS](/blog/how-to-study-for-an-exam-with-fsrs/) explica las fases de creación, estabilización y repaso final. [Cuántas flashcards nuevas añadir al día](/blog/how-many-new-flashcards-per-day/) ayuda a calcular una carga a partir del tiempo disponible, en lugar de una cifra de tarjetas que suene impresionante.
 
-## Dónde encaja Flashcards Open Source App
+## Dónde encaja Nibomo
 
-Las [funcionalidades de Flashcards Open Source App](/features/) incluyen la creación de tarjetas de anverso y reverso, chat con IA que utiliza los datos del espacio de trabajo y los archivos adjuntos compatibles, y repaso con FSRS mediante las valoraciones Again, Hard, Good y Easy.
+Las [funcionalidades de Nibomo](/features/) incluyen la creación de tarjetas de anverso y reverso, chat con IA que utiliza los datos del espacio de trabajo y los archivos adjuntos compatibles, y repaso con FSRS mediante las valoraciones Again, Hard, Good y Easy.
 
 En la preparación del CCSP, mantén su papel acotado. Escribe una nota sobre el esquema contrastada con la fuente o un registro de errores cometidos con material de práctica autorizado, usa el chat con IA para redactar unas pocas tarjetas con un único objetivo y después compara cada borrador con la fuente oficial y edítalo tú mismo. Repasa con FSRS las tarjetas que conserves. Sigue recurriendo a proveedores autorizados para practicar escenarios completos.
 

@@ -243,7 +243,7 @@ Si quieres más detalle sobre la parte de programación, éste es el artículo c
 
 ## Dónde encaja Flashcards en este flujo NextGen
 
-Si quieres llevar este flujo dentro de [Flashcards](https://flashcards-open-source-app.com/), la parte útil no es una promesa vaga de que la IA hace que estudiar sea más fácil. La parte útil es que el producto ya soporta la parte intermedia real de este flujo:
+Si quieres llevar este flujo dentro de [Nibomo](https://flashcards-open-source-app.com/), la parte útil no es una promesa vaga de que la IA hace que estudiar sea más fácil. La parte útil es que el producto ya soporta la parte intermedia real de este flujo:
 
 - chat con IA en la app web
 - adjuntos de archivos y subidas de texto plano para outlines, apuntes de práctica o explicaciones copiadas

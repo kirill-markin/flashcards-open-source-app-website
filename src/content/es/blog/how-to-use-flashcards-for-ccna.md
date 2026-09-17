@@ -271,7 +271,7 @@ Si lo que suele romperte el plan es la carga de repaso, [Cuántas flashcards nue
 
 ## Dónde encaja bien Flashcards dentro de este flujo
 
-[Flashcards](/) encaja bien en la preparación de CCNA porque este examen genera material fuente desordenado: apuntes de laboratorio, salida de CLI pegada, registros cortos de fallos y pequeños resúmenes de troubleshooting. La app puede encargarse de la fase de limpieza y de la fase de repaso sin fingir que son el mismo trabajo.
+[Nibomo](/) encaja bien en la preparación de CCNA porque este examen genera material fuente desordenado: apuntes de laboratorio, salida de CLI pegada, registros cortos de fallos y pequeños resúmenes de troubleshooting. La app puede encargarse de la fase de limpieza y de la fase de repaso sin fingir que son el mismo trabajo.
 
 Yo lo usaría así:
 

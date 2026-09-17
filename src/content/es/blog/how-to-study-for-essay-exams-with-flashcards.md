@@ -298,7 +298,7 @@ Si esa es la parte que quieres afinar, [How to Use AI for Active Recall in 2026]
 
 ## Dónde encaja Flashcards
 
-[Flashcards](/) encaja bien para **cómo usar flashcards para exámenes de desarrollo** porque preparar este tipo de pruebas casi nunca es solo un problema de generación. También es un problema de edición, almacenamiento y repaso.
+[Nibomo](/) encaja bien para **cómo usar flashcards para exámenes de desarrollo** porque preparar este tipo de pruebas casi nunca es solo un problema de generación. También es un problema de edición, almacenamiento y repaso.
 
 Necesitas un solo lugar para:
 

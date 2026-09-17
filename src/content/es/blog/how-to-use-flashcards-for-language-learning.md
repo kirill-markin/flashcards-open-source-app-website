@@ -238,7 +238,7 @@ El mazo se limpia enseguida.
 
 ## Dónde encaja mejor Flashcards en este flujo de trabajo
 
-[Flashcards](https://flashcards-open-source-app.com/) encaja muy bien en **repetición espaciada para vocabulario** porque el producto ya incluye las piezas de las que depende este flujo de trabajo:
+[Nibomo](https://flashcards-open-source-app.com/) encaja muy bien en **repetición espaciada para vocabulario** porque el producto ya incluye las piezas de las que depende este flujo de trabajo:
 
 - tarjetas limpias de anverso y reverso
 - programación de repaso con FSRS
@@ -267,4 +267,4 @@ Yo mantendría el sistema simple:
 
 Esa es la versión de **cómo usar tarjetas didácticas para aprender idiomas** en la que confío.
 
-Si quieres una herramienta construida alrededor de ese flujo de trabajo, [Flashcards](https://flashcards-open-source-app.com/) encaja muy bien. Reúne borradores asistidos por IA, tarjetas de anverso y reverso y repasos con FSRS dentro de una misma base open source, que es justo lo que necesita un mazo de idiomas cuando dejas de confundir coleccionar palabras con aprenderlas de verdad.
+Si quieres una herramienta construida alrededor de ese flujo de trabajo, [Nibomo](https://flashcards-open-source-app.com/) encaja muy bien. Reúne borradores asistidos por IA, tarjetas de anverso y reverso y repasos con FSRS dentro de una misma base open source, que es justo lo que necesita un mazo de idiomas cuando dejas de confundir coleccionar palabras con aprenderlas de verdad.

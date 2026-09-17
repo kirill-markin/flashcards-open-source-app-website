@@ -17,7 +17,7 @@ Abre la página de inicio de sesión. Espera el código. Copia el token. Crea un
 
 Ese es exactamente el tipo de trabajo que una herramienta debería hacer por ti.
 
-En [Flashcards](https://flashcards-open-source-app.com/), ahora ofrecemos un flujo abierto de inicio de sesión para agentes que arranca desde una única URL de descubrimiento:
+En [Nibomo](https://flashcards-open-source-app.com/), ahora ofrecemos un flujo abierto de inicio de sesión para agentes que arranca desde una única URL de descubrimiento:
 
 `https://api.flashcards-open-source-app.com/v1/`
 
@@ -311,7 +311,7 @@ Y deja que se encargue del resto.
 
 Enlaces útiles:
 
-- [Sitio web de Flashcards](https://flashcards-open-source-app.com/)
+- [Sitio web de Nibomo](https://flashcards-open-source-app.com/)
 - [Aplicación alojada](https://app.flashcards-open-source-app.com/)
 - [Primeros pasos](https://flashcards-open-source-app.com/docs/getting-started/)
 - [Repositorio en GitHub](https://github.com/kirill-markin/flashcards-open-source-app)

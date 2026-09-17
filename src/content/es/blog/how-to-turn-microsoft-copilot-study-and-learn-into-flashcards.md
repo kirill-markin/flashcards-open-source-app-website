@@ -1,6 +1,6 @@
 ---
 title: "Cómo convertir Microsoft Copilot Study and Learn en flashcards en 2026: conserva el tutor y repasa con FSRS"
-description: "Usa Microsoft Copilot Study and Learn con tus propios documentos de Word, PDF, diapositivas y URLs, y convierte solo los puntos débiles en flashcards para repasarlos en Flashcards Open Source App con FSRS."
+description: "Usa Microsoft Copilot Study and Learn con tus propios documentos de Word, PDF, diapositivas y URLs, y convierte solo los puntos débiles en flashcards para repasarlos en Nibomo con FSRS."
 date: "2026-06-09"
 image: "/blog/how-to-turn-microsoft-copilot-study-and-learn-into-flashcards.png"
 keywords:
@@ -18,7 +18,7 @@ Ayer abrí Microsoft 365 Copilot, subí una presentación de PowerPoint y un PDF
 
 Ahí está el trabajo real detrás de las **flashcards de Microsoft Copilot Study and Learn**. La sesión guiada puede ayudarte a entender el material. No se convierte por arte de magia en un sistema de memoria duradero solo porque el chat parezca inteligente.
 
-El flujo de trabajo en el que yo confío es bastante más estrecho que la demo del producto. Usa Study and Learn para estudiar con tu propio material, quédate con los fallos y los puntos donde dudas, y pasa después solo esos puntos débiles a Flashcards Open Source App para repasarlos con FSRS.
+El flujo de trabajo en el que yo confío es bastante más estrecho que la demo del producto. Usa Study and Learn para estudiar con tu propio material, quédate con los fallos y los puntos donde dudas, y pasa después solo esos puntos débiles a Nibomo para repasarlos con FSRS.
 
 ![Flujo de Microsoft Copilot Study and Learn con Word, PowerPoint, PDF y flashcards para repasar con FSRS](/blog/how-to-turn-microsoft-copilot-study-and-learn-into-flashcards.png)
 
@@ -119,7 +119,7 @@ Esta es la versión que repetiría en una semana normal:
 3. pídele a Copilot que te enseñe paso a paso y te haga preguntas antes de explicar demasiado
 4. mantén una lista mínima de lo que fallaste, respondiste con lentitud o confundiste
 5. al terminar, pídele a Copilot un resumen corto solo de puntos débiles, más el archivo o pasaje de donde salió cada uno
-6. pasa solo esos puntos débiles a Flashcards Open Source App
+6. pasa solo esos puntos débiles a Nibomo
 7. convierte cada punto débil en una tarjeta limpia de anverso y reverso
 8. repasa las tarjetas finales con FSRS
 
@@ -159,7 +159,7 @@ Si quieres reglas más estrictas para escribir tarjetas después del relevo, [C�
 
 ## Flashcards es la capa duradera después de Copilot
 
-[Flashcards Open Source App](/es/features/) no intenta sustituir a Study and Learn.
+[Nibomo](/es/features/) no intenta sustituir a Study and Learn.
 
 Copilot debería quedarse con el trabajo de tutoría. Flashcards debería quedarse con el repaso a largo plazo.
 
@@ -195,6 +195,6 @@ Creo que ese es el modelo mental correcto para Microsoft Copilot Study and Learn
 
 Luego filtra de verdad.
 
-Quédate con los puntos débiles que importan, pásalos a Flashcards Open Source App, conviértelos en tarjetas simples y deja que FSRS se encargue de la parte para la que Copilot no está realmente construido: recordar el material cuando la sesión ya terminó.
+Quédate con los puntos débiles que importan, pásalos a Nibomo, conviértelos en tarjetas simples y deja que FSRS se encargue de la parte para la que Copilot no está realmente construido: recordar el material cuando la sesión ya terminó.
 
 Esa es la versión práctica de **cómo convertir Microsoft Copilot Study and Learn en flashcards**. Conserva el tutor de Microsoft. Mantén pequeño el mazo. Deja que la parte de memoria viva en un sitio pensado para repasar.

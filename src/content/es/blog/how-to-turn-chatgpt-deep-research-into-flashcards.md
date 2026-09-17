@@ -204,7 +204,7 @@ Para la parte general de calidad de tarjeta, [Cómo hacer mejores tarjetas didá
 
 ## Dónde encaja Flashcards de verdad
 
-[Flashcards](/es/features/) encaja después de la fase de investigación, no antes.
+[Nibomo](/es/features/) encaja después de la fase de investigación, no antes.
 
 El producto no promete una integración directa de un clic con ChatGPT Deep Research. El flujo honesto es más simple:
 
@@ -246,4 +246,4 @@ Memoriza las partes verificadas que de verdad te molestaría olvidar.
 
 Esa es la versión de **Deep Research y repetición espaciada** que de verdad aguanta: usa ChatGPT Deep Research para reunir, comparar y documentar el tema, y luego convierte en tarjetas limpias solo los hechos fechados, las distinciones y las reglas de decisión que quieras repasar con FSRS.
 
-Si eso es lo que buscas, [Flashcards](/es/) encaja muy bien. Te da un solo lugar para limpiar la parte útil de un informe de investigación, convertirla en tarjetas de anverso y reverso y seguir repasando cuando ya se haya pasado la emoción del primer informe generado por IA.
+Si eso es lo que buscas, [Nibomo](/es/) encaja muy bien. Te da un solo lugar para limpiar la parte útil de un informe de investigación, convertirla en tarjetas de anverso y reverso y seguir repasando cuando ya se haya pasado la emoción del primer informe generado por IA.

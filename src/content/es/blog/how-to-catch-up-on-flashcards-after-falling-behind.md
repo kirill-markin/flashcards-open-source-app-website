@@ -222,7 +222,7 @@ No pretender que la respuesta correcta a la sobrecarga sea aún más sobrecarga.
 
 ## Dónde se adapta mejor Flashcards a esto
 
-[Flashcards](https://flashcards-open-source-app.com/) es una buena opción para la recuperación de **repeticiones pendientes espaciadas** porque el flujo de trabajo no tiene que dividirse en tres herramientas diferentes:
+[Nibomo](https://flashcards-open-source-app.com/) es una buena opción para la recuperación de **repeticiones pendientes espaciadas** porque el flujo de trabajo no tiene que dividirse en tres herramientas diferentes:
 
 - El chat de IA puede ayudar a seleccionar cartas, pero aún así decides qué sobrevive.
 - La edición frontal/posterior facilita acortar o dividir tarjetas débiles
@@ -264,4 +264,4 @@ Esa es la versión de **cómo solucionar el trabajo pendiente de Anki** en la qu
 
 No fue una sesión de rescate heroica. No es un reinicio total. Simplemente un sistema más tranquilo que podrás reabrir mañana.
 
-Si desea un producto que se ajuste a ese flujo de trabajo, [Flashcards](https://flashcards-open-source-app.com/) es una buena opción. Le brinda redacción asistida por IA, edición frontal y posterior y revisión FSRS en una pila de código abierto, que es exactamente lo que ayuda cuando el problema real no es solo la cantidad de cartas vencidas sino también la calidad del mazo que está intentando guardar.
+Si desea un producto que se ajuste a ese flujo de trabajo, [Nibomo](https://flashcards-open-source-app.com/) es una buena opción. Le brinda redacción asistida por IA, edición frontal y posterior y revisión FSRS en una pila de código abierto, que es exactamente lo que ayuda cuando el problema real no es solo la cantidad de cartas vencidas sino también la calidad del mazo que está intentando guardar.

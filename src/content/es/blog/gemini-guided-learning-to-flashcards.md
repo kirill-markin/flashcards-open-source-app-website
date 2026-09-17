@@ -205,7 +205,7 @@ Si quieres la comparación entre planificadores, [FSRS vs SM-2 en 2026](/blog/fs
 
 ## Dónde encaja Flashcards
 
-[Flashcards](/) no intenta sustituir a Gemini Guided Learning.
+[Nibomo](/) no intenta sustituir a Gemini Guided Learning.
 
 Encaja después de la sesión, cuando ya sabes qué merece la pena recordar.
 

@@ -81,7 +81,7 @@ Eso es una configuración más sana que la falsa elección entre software de esc
 
 ## Lo que Flashcards ya documenta
 
-[Flashcards](/es/) encaja en esa vía intermedia porque las opciones de control ya son visibles en el repositorio, la [página de funcionalidades](/es/features/), la documentación y las páginas públicas.
+[Nibomo](/es/) encaja en esa vía intermedia porque las opciones de control ya son visibles en el repositorio, la [página de funcionalidades](/es/features/), la documentación y las páginas públicas.
 
 Hoy el proyecto documenta:
 

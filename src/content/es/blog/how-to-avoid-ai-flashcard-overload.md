@@ -113,7 +113,7 @@ Me gustan tres etapas:
 
 Esa separación importa porque el modo edición y el modo repaso son trabajos distintos. Cuando los mezclas, las tarjetas flojas se cuelan porque estás cansado, vas con prisa o te impresiona un poco que la IA ya haya hecho la parte mecánica de redactar.
 
-Dentro de [Flashcards](/es/features/), la forma útil es simple: crea borradores desde tu fuente, edita anverso y reverso, organiza por mazo o etiqueta y luego repasa el conjunto final con FSRS después de la limpieza.
+Dentro de [Nibomo](/es/features/), la forma útil es simple: crea borradores desde tu fuente, edita anverso y reverso, organiza por mazo o etiqueta y luego repasa el conjunto final con FSRS después de la limpieza.
 
 ## Detecta pronto las cuatro señales de sobrecarga
 
@@ -183,7 +183,7 @@ La versión aburrida funciona. Si el mazo aceptado se mantiene pequeño y limpio
 
 ## Dónde encaja Flashcards en este flujo
 
-[Flashcards](/es/features/) encaja bien en este flujo porque el producto cubre el recorrido completo en un solo sitio:
+[Nibomo](/es/features/) encaja bien en este flujo porque el producto cubre el recorrido completo en un solo sitio:
 
 - chat con IA para convertir apuntes y material fuente en borradores de tarjetas
 - edición de anverso y reverso antes de que las tarjetas se vuelvan permanentes

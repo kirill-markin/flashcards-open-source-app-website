@@ -285,11 +285,11 @@ Así que el orden importa:
 
 Si quieres los detalles de planificación, [Configuración de FSRS en 2026](/es/blog/fsrs-settings/) y [Cómo estudiar para un examen con FSRS en 2026](/es/blog/how-to-study-for-an-exam-with-fsrs/) son las mejores lecturas siguientes.
 
-## Dónde encaja Flashcards Open Source App en este flujo de trabajo para el PANCE
+## Dónde encaja Nibomo en este flujo de trabajo para el PANCE
 
 Este tipo de preparación funciona mejor cuando la herramienta resuelve bien las partes aburridas.
 
-Flashcards Open Source App encaja bien en la preparación del PANCE porque puedes:
+Nibomo encaja bien en la preparación del PANCE porque puedes:
 
 - redactar tarjetas a partir de tus propios apuntes o explicaciones de preguntas
 - dividir tarjetas sobrecargadas antes de que se conviertan en deuda diaria de repaso

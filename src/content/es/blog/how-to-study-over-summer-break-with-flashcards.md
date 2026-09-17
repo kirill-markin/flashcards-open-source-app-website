@@ -212,7 +212,7 @@ Si la IA ya hizo tu mazo más grande que tu paciencia, [Cómo arreglar flashcard
 
 ## Dónde encaja bien Flashcards
 
-[Flashcards](/es/) encaja bien en este tipo de repaso de verano porque la parte difícil no es la novedad. Es mantener una fricción lo bastante baja como para seguir volviendo.
+[Nibomo](/es/) encaja bien en este tipo de repaso de verano porque la parte difícil no es la novedad. Es mantener una fricción lo bastante baja como para seguir volviendo.
 
 Puedes redactar tarjetas a partir de apuntes o archivos, recortarlas hasta dejarlas en prompts simples de anverso y reverso, y dejar que FSRS se encargue del momento del repaso una vez que el mazo esté limpio. Eso importa más en julio que durante la semana de finales. En finales, la gente tolera un flujo de trabajo desordenado durante unos días. En verano, simplemente deja de abrirlo.
 

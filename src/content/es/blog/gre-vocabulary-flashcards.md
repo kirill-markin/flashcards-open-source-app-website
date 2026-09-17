@@ -248,7 +248,7 @@ Si tu materia prima empieza como apuntes, fragmentos de artículos o revisión d
 
 ## Dónde encaja Flashcards en este flujo de trabajo para el GRE
 
-Si quieres hacer esto dentro de [Flashcards](/es/), la parte útil no es una promesa vaga de que "la IA hace que estudiar sea más fácil". Lo importante es que el producto actual ya cubre la parte práctica del centro del flujo:
+Si quieres hacer esto dentro de [Nibomo](/es/), la parte útil no es una promesa vaga de que "la IA hace que estudiar sea más fácil". Lo importante es que el producto actual ya cubre la parte práctica del centro del flujo:
 
 - creación y edición de tarjetas de anverso y reverso
 - chat con IA para redactar y limpiar
@@ -274,7 +274,7 @@ Si quieres **flashcards de vocabulario para el GRE** que de verdad mejoren tu pu
 
 Si quieres probar ese flujo en Flashcards:
 
-- [Empieza con Flashcards](/es/)
+- [Empieza con Nibomo](/es/)
 - [Abre la app web](https://app.flashcards-open-source-app.com/)
 - [Lee la guía de primeros pasos](/es/docs/getting-started)
 - [Mira el código fuente en GitHub](https://github.com/kirill-markin/flashcards-open-source-app)

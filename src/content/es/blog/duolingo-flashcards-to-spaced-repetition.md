@@ -166,9 +166,9 @@ Si vas a usar Anki, crea allí las fichas que hayas seleccionado. Un proceso de 
 
 Si prefieres crear un mazo personal en otra aplicación, se aplican las mismas reglas de selección. No traslades cinco palabras de la lección solo porque había cinco fichas en la pantalla. Conserva únicamente los elementos que hayan demostrado necesitar atención durante más tiempo.
 
-## Dónde encaja Flashcards Open Source App
+## Dónde encaja Nibomo
 
-> **Aviso:** Soy Kirill Markin y desarrollo [Flashcards Open Source App](/features/).
+> **Aviso:** Soy Kirill Markin y desarrollo [Nibomo](/features/).
 
 Flashcards es una de las aplicaciones donde puedes guardar la parte personal de este proceso. La [versión alojada](/docs/getting-started/) permite crear y repasar fichas, usar el chat con IA junto con los datos y archivos adjuntos de tu espacio de trabajo y programar los repasos con FSRS. El [repositorio es de código abierto](https://github.com/kirill-markin/flashcards-open-source-app) y hay [instrucciones para alojar la aplicación por tu cuenta](/docs/self-hosting/).
 

@@ -290,7 +290,7 @@ Si sigues alimentando el planificador con tarjetas vagas, seguirás repasando ta
 
 ## Por qué Flashcards encaja en este flujo de Step 2 CK
 
-Si quieres hacer esto dentro de [Flashcards](https://flashcards-open-source-app.com/), lo útil no es que sustituya el razonamiento clínico. Te da una vía más rápida para pasar de material desordenado de Step 2 a tarjetas más pequeñas y repasables.
+Si quieres hacer esto dentro de [Nibomo](https://flashcards-open-source-app.com/), lo útil no es que sustituya el razonamiento clínico. Te da una vía más rápida para pasar de material desordenado de Step 2 a tarjetas más pequeñas y repasables.
 
 Lo que importa es más simple:
 

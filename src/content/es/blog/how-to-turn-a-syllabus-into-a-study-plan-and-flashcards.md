@@ -240,7 +240,7 @@ Si tu objetivo es preparar exámenes a partir de una asignatura más amplia, est
 
 ## Dónde encaja Flashcards en este flujo
 
-[Flashcards](/es/features/) encaja una vez que el programa ya se ha convertido en estructura.
+[Nibomo](/es/features/) encaja una vez que el programa ya se ha convertido en estructura.
 
 El recorrido útil es bastante directo:
 

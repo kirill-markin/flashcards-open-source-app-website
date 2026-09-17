@@ -317,7 +317,7 @@ Si quieres más detalle sobre la parte de programación, [Cómo estudiar para un
 
 ## Dónde encaja Flashcards en un flujo de trabajo de Step 1
 
-Si quieres usar esto dentro de [Flashcards](https://flashcards-open-source-app.com/), el valor no es una promesa vaga de que la IA vaya a aprender medicina por ti.
+Si quieres usar esto dentro de [Nibomo](https://flashcards-open-source-app.com/), el valor no es una promesa vaga de que la IA vaya a aprender medicina por ti.
 
 El valor es que el producto ya cubre la parte intermedia práctica del flujo:
 

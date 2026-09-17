@@ -176,7 +176,7 @@ Ese flujo es menos emocionante que un mazo enorme autogenerado. También es much
 
 ## Dónde encaja Flashcards
 
-[Flashcards](/es/) encaja bien con este tipo de flujo porque el producto ya está construido alrededor de lo que importa cuando la motivación se desgasta:
+[Nibomo](/es/) encaja bien con este tipo de flujo porque el producto ya está construido alrededor de lo que importa cuando la motivación se desgasta:
 
 - una app web alojada para crear tarjetas y hacer los repasos del día
 - chat con IA con archivos adjuntos y cargas de texto plano

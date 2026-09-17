@@ -19,7 +19,7 @@ Por eso, el primer prompt útil no es «hazme preguntas». Antes conviene pedirl
 
 Ese proceso basado en las fuentes es la respuesta práctica a **cómo usar Claude para estudiar**: revisa primero el material, responde de memoria una pregunta cada vez, conserva la evidencia junto a cada corrección y guarda solo las dudas que realmente merezca la pena repasar. Funciona en un chat normal de Claude y no exige usar una aplicación de flashcards.
 
-> **Nota de transparencia:** Soy Kirill Markin y desarrollo [Flashcards Open Source App](/features/). Aparte de esta nota, el producto solo aparece en la sección opcional sobre cómo transferir las tarjetas; el método de estudio no depende de él. Este artículo se investigó y editó con ayuda de IA.
+> **Nota de transparencia:** Soy Kirill Markin y desarrollo [Nibomo](/features/). Aparte de esta nota, el producto solo aparece en la sección opcional sobre cómo transferir las tarjetas; el método de estudio no depende de él. Este artículo se investigó y editó con ayuda de IA.
 
 **Información comprobada:** 14 de septiembre de 2026.
 
@@ -223,7 +223,7 @@ Descarta el resto. Una sesión de estudio con Claude puede ser útil aunque no p
 
 La opción más sencilla sirve con cualquier aplicación de flashcards. Pide a Claude que devuelva únicamente las tarjetas aprobadas como bloques de anverso y reverso en texto sin formato, compruébalas una vez más y cópialas en tu sistema de repaso habitual.
 
-Si utilizas Flashcards Open Source App, Claude también puede guardar las tarjetas aprobadas mediante su conector personalizado remoto. La [guía actual de Anthropic sobre conectores personalizados](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp) indica que los conectores remotos están disponibles en los planes Free, Pro, Max, Team y Enterprise; los usuarios del plan Free pueden añadir uno. Conecta únicamente servidores de confianza y revisa las acciones de escritura antes de aprobarlas.
+Si utilizas Nibomo, Claude también puede guardar las tarjetas aprobadas mediante su conector personalizado remoto. La [guía actual de Anthropic sobre conectores personalizados](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp) indica que los conectores remotos están disponibles en los planes Free, Pro, Max, Team y Enterprise; los usuarios del plan Free pueden añadir uno. Conecta únicamente servidores de confianza y revisa las acciones de escritura antes de aprobarlas.
 
 La URL MCP de Flashcards es:
 

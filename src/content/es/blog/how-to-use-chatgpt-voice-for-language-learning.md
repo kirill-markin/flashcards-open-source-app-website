@@ -257,7 +257,7 @@ Si quieres profundizar en la parte de la programación, este artículo entra má
 
 ## Dónde encaja Flashcards
 
-[Flashcards](https://flashcards-open-source-app.com/) encaja bien en este flujo de trabajo porque el producto ya cubre justo lo que necesita la práctica oral con IA:
+[Nibomo](https://flashcards-open-source-app.com/) encaja bien en este flujo de trabajo porque el producto ya cubre justo lo que necesita la práctica oral con IA:
 
 - creación sencilla de tarjetas de anverso y reverso
 - repaso a largo plazo con FSRS
@@ -289,7 +289,7 @@ Y luego deja que la repetición espaciada haga su trabajo silencioso.
 
 Si eso es lo que buscas, empieza aquí:
 
-- [Abrir Flashcards](https://flashcards-open-source-app.com/)
+- [Abrir Nibomo](https://flashcards-open-source-app.com/)
 - [Leer la guía de inicio](https://flashcards-open-source-app.com/docs/getting-started/)
 - [Leer la documentación de la API](https://flashcards-open-source-app.com/docs/api/)
 - [Ver el código fuente en GitHub](https://github.com/kirill-markin/flashcards-open-source-app)

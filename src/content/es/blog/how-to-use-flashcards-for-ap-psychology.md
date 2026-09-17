@@ -243,7 +243,7 @@ Si quieres más detalle sobre la parte de planificación, estos dos artículos e
 
 ## Dónde encaja Flashcards en un flujo de AP Psychology
 
-Si quieres hacer esto dentro de [Flashcards](https://flashcards-open-source-app.com/), la parte útil no es una promesa vaga de que la IA va a estudiar AP Psych mágicamente por ti.
+Si quieres hacer esto dentro de [Nibomo](https://flashcards-open-source-app.com/), la parte útil no es una promesa vaga de que la IA va a estudiar AP Psych mágicamente por ti.
 
 La parte útil es que el producto ya encaja justo en el centro de este flujo:
 

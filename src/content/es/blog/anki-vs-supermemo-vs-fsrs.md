@@ -18,7 +18,7 @@ Puedes usar FSRS dentro de Anki. Desde el lanzamiento de SuperMemo 20, FSRS tamb
 
 Anki es un producto y un ecosistema de flashcards. SuperMemo puede referirse a dos productos actuales o a una larga familia de algoritmos. FSRS es un planificador que otros productos pueden implementar. Esta guía separa primero esas categorías y después compara las decisiones que realmente puedes tomar.
 
-> **Declaración de intereses:** Soy Kirill Markin y desarrollo [Flashcards Open Source App](/features/), que aparece más abajo como una implementación práctica de FSRS. No la presento como la ganadora por defecto y señalo en qué aspectos importa que su ecosistema sea más joven.
+> **Declaración de intereses:** Soy Kirill Markin y desarrollo [Nibomo](/features/), que aparece más abajo como una implementación práctica de FSRS. No la presento como la ganadora por defecto y señalo en qué aspectos importa que su ecosistema sea más joven.
 
 **Datos comprobados:** 3 de agosto de 2026.
 
@@ -43,7 +43,7 @@ Por tanto, «Anki FSRS» no es una contradicción. Significa que Anki es el prod
 | [SuperMemo 20 for Windows](https://supermemo.store/products/supermemo-20-for-windows) | Producto propietario para Windows de gestión del conocimiento y lectura incremental | Algorithm Arena incluye SM-2, SM-15, SM-19, SM-20 y FSRS | Lectura incremental, árboles de conocimiento e importaciones desde documentos, páginas web, correo electrónico y vídeo | Producto exclusivo para Windows; independiente de SuperMemo.com |
 | [SuperMemo.com](https://www.supermemo.com/en/app) | Servicio alojado para aprender idiomas en web, iOS y Android | Método propietario de SuperMemo; las páginas públicas actuales no lo identifican como SM-18, SM-20 o FSRS | Cursos de idiomas preparados, MemoCards y estudio alojado entre dispositivos | No es el producto para Windows y su planificador exacto no es público |
 | [FSRS](https://github.com/open-spaced-repetition/fsrs4anki) | Planificador y proyecto de código abierto | Lo implementa un producto anfitrión o una biblioteca | Desarrolladores y usuarios que quieren una lógica de planificación que puedan inspeccionar | Por sí solo no ofrece tarjetas, editor, sincronización ni interfaz de estudio |
-| [Flashcards Open Source App](/features/) | Producto de flashcards de código abierto más reciente, construido alrededor de FSRS | FSRS-6 con los pesos oficiales predeterminados fijados y ajustes de planificación configurables por espacio de trabajo | Web, iOS, Android, alojamiento propio, API y flujos de trabajo con agentes de IA | Ecosistema más pequeño que Anki y todavía sin pesos FSRS personalizados |
+| [Nibomo](/features/) | Producto de flashcards de código abierto más reciente, construido alrededor de FSRS | FSRS-6 con los pesos oficiales predeterminados fijados y ajustes de planificación configurables por espacio de trabajo | Web, iOS, Android, alojamiento propio, API y flujos de trabajo con agentes de IA | Ecosistema más pequeño que Anki y todavía sin pesos FSRS personalizados |
 
 Las filas no son simétricas a propósito. Anki y Flashcards ofrecen flujos completos de trabajo con flashcards. SuperMemo 20 combina la planificación de repasos con un sistema mucho más amplio de lectura y gestión del conocimiento. SuperMemo.com ofrece una experiencia alojada para aprender idiomas. FSRS aporta la lógica de planificación a otros programas.
 
@@ -55,7 +55,7 @@ Esto importa cuando alguien dice que quiere dejar Anki «por FSRS». La versión
 
 La formulación del manual exige una precisión histórica. **SM-2 es uno de los primeros algoritmos del linaje de SuperMemo, no un sinónimo del SuperMemo actual.** Llamar «SM-2 heredado» al planificador anterior de Anki sigue la documentación de Anki e identifica la familia de algoritmos en la que se basa. No implica que todos sus detalles de implementación sean idénticos a los del SM-2 original publicado hace décadas. Para una comparación técnica más específica, consulta [FSRS vs SM-2](/blog/fsrs-vs-sm-2/).
 
-Si tienes una colección consolidada que depende de plantillas personalizadas, complementos, archivos multimedia o años de historial de repasos, cambiar de producto exige una migración considerable. Cambiar el planificador de Anki puede requerir mucho menos esfuerzo que abandonar Anki. La comparación más amplia entre [Anki y Flashcards](/blog/anki-vs-flashcards-open-source-app/) aborda las diferencias entre ambos productos.
+Si tienes una colección consolidada que depende de plantillas personalizadas, complementos, archivos multimedia o años de historial de repasos, cambiar de producto exige una migración considerable. Cambiar el planificador de Anki puede requerir mucho menos esfuerzo que abandonar Anki. La comparación más amplia entre [Anki y Nibomo](/blog/anki-vs-flashcards-open-source-app/) aborda las diferencias entre ambos productos.
 
 ## Ahora «SuperMemo» necesita un calificativo
 
@@ -155,7 +155,7 @@ Evalúa las implementaciones y bibliotecas de FSRS. Su documentación, fórmulas
 
 ### Quieres un flujo moderno y de código abierto para web, móvil y agentes
 
-Evalúa [Flashcards Open Source App](/features/). Combina FSRS-6 con web, iOS, Android, alojamiento propio, una API pública y acceso para agentes de IA. Su limitación es la madurez: su ecosistema es más joven que el de Anki y no iguala la riqueza de sus plantillas, complementos y mazos compartidos, ni su fidelidad al migrar colecciones. Conserva Anki para las colecciones que dependan de esas fortalezas.
+Evalúa [Nibomo](/features/). Combina FSRS-6 con web, iOS, Android, alojamiento propio, una API pública y acceso para agentes de IA. Su limitación es la madurez: su ecosistema es más joven que el de Anki y no iguala la riqueza de sus plantillas, complementos y mazos compartidos, ni su fidelidad al migrar colecciones. Conserva Anki para las colecciones que dependan de esas fortalezas.
 
 ## Un planificador no rescata un sistema de estudio débil
 

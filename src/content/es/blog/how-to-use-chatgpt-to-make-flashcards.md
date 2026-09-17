@@ -18,7 +18,7 @@ ChatGPT puede convertir un archivo de clase en una lista bien redactada de pregu
 
 Esta es la forma práctica de **usar ChatGPT para crear flashcards** en 2026. Trabaja con una fuente acotada, pídele que señale lagunas y ambigüedades antes de redactar, trata cada resultado como una propuesta y guarda solo las tarjetas que hayas comprobado. ChatGPT ayuda a extraer el contenido y formularlo. No crea un mazo verificado ni programa por ti los repasos con repetición espaciada.
 
-> **Aviso de transparencia:** Soy Kirill Markin y desarrollo [Flashcards Open Source App](/es/features/). Esta guía funciona con cualquier app de flashcards con anverso y reverso. Menciono Flashcards cuando su flujo de trabajo resulta relevante, no para afirmar que todos los estudiantes deberían usarla.
+> **Aviso de transparencia:** Soy Kirill Markin y desarrollo [Nibomo](/es/features/). Esta guía funciona con cualquier app de flashcards con anverso y reverso. Menciono Flashcards cuando su flujo de trabajo resulta relevante, no para afirmar que todos los estudiantes deberían usarla.
 
 **Información verificada:** 15 de agosto de 2026.
 

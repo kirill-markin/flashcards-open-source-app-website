@@ -27,7 +27,7 @@ Cada parte tiene una tarea concreta:
 1. **ChatGPT Study Mode** hace preguntas, da pistas y te ayuda a trabajar el material.
 2. **Tú** decides qué errores merecen una tarjeta permanente.
 3. **Codex en la aplicación de escritorio de ChatGPT o Codex CLI** usa Flashcards MCP para crear o corregir las tarjetas que has aprobado.
-4. **Flashcards** registra tus repasos y programa el siguiente con FSRS.
+4. **Nibomo** registra tus repasos y programa el siguiente con FSRS.
 
 La [guía actual de Study Mode de OpenAI](https://help.openai.com/en/articles/11780217-chatgpt-study-mode-faq) describe un tutor que puede avanzar paso a paso, hacerte un cuestionario con una pregunta cada vez y usar apuntes, imágenes o PDF que hayas subido. Así puedes descubrir qué cosas todavía no eres capaz de explicar de memoria.
 
@@ -91,7 +91,7 @@ https://mcp.flashcards-open-source-app.com/mcp
 5. Cuando la aplicación se reinicie, selecciona **Authenticate** y completa en el navegador el inicio de sesión OAuth de Flashcards.
 6. Escribe `/mcp` en Codex para confirmar que el servidor está conectado.
 
-Estos pasos siguen la [configuración actual de MCP para la aplicación de escritorio de ChatGPT y Codex](https://learn.chatgpt.com/docs/extend/mcp) de OpenAI. Flashcards usa OAuth para el inicio de sesión interactivo, así que no tienes que pegar una clave de API en una sesión normal de escritorio. La [documentación de Flashcards MCP](/es/docs/mcp-connector/) incluye todos los detalles sobre la autenticación y las herramientas por si necesitas resolver un problema de conexión.
+Estos pasos siguen la [configuración actual de MCP para la aplicación de escritorio de ChatGPT y Codex](https://learn.chatgpt.com/docs/extend/mcp) de OpenAI. Flashcards usa OAuth para el inicio de sesión interactivo, así que no tienes que pegar una clave de API en una sesión normal de escritorio. La [documentación de Nibomo MCP](/es/docs/mcp-connector/) incluye todos los detalles sobre la autenticación y las herramientas por si necesitas resolver un problema de conexión.
 
 Revisa cada cambio antes de aprobarlo. Listar workspaces es una operación de solo lectura; crear, reescribir, reorganizar o eliminar tarjetas guardadas no lo es. Si tu centro educativo o empresa administra ChatGPT, su administrador también puede limitar los servidores o herramientas MCP que tienes permitido activar.
 
@@ -149,7 +149,7 @@ En Flashcards, los mazos son filtros guardados. Colocar una tarjeta en otro mazo
 
 El conector MCP puede leer el historial de repasos y los campos permitidos del estado y la programación de FSRS. Su herramienta de escritura SQL no puede crear eventos de repaso (`review_events`), registrar una valoración Again, Hard, Good o Easy ni cambiar el estado o la programación de FSRS. El conector solo puede registrar una valoración mediante su herramienta independiente `submit_review`, así que puedes hacer un repaso en la app o dejar que Codex lo dirija.
 
-Abre la [app web de Flashcards](https://app.flashcards-open-source-app.com/) o una app móvil cuando toque repasar las tarjetas. Intenta recordar la respuesta, revela el reverso y elige allí tu valoración. Flashcards registra el repaso y FSRS decide cuándo debe volver la tarjeta.
+Abre la [app web de Nibomo](https://app.flashcards-open-source-app.com/) o una app móvil cuando toque repasar las tarjetas. Intenta recordar la respuesta, revela el reverso y elige allí tu valoración. Flashcards registra el repaso y FSRS decide cuándo debe volver la tarjeta.
 
 Codex también puede hacerte un cuestionario informal a partir de los datos de tarjetas que autorices. Trátalo como una práctica adicional: un cuestionario por sí solo no registra ningún repaso ni cambia tu programación. Cuando quieras un repaso oficial, pídele a Codex que lo haga con las herramientas de repaso. Codex usa `next_review_card` para mostrar solo el anverso, `reveal_answer` para mostrar el reverso después de que respondas y `submit_review` para registrar la valoración, de modo que FSRS pueda reprogramar la tarjeta. Codex califica tu respuesta, a menos que le pidas que te deje elegir cada valoración. La [guía del tutor de flashcards con IA](/es/blog/ai-flashcard-tutor-due-cards/) explica ese ciclo de repaso con más detalle.
 
@@ -174,7 +174,7 @@ codex mcp add flashcards \
   --bearer-token-env-var FLASHCARDS_MCP_TOKEN
 ```
 
-La [guía de la API de Flashcards](/es/docs/api/) explica cómo obtener la clave de agente. Trátala como una contraseña y no la incluyas en prompts, capturas de pantalla, el historial del shell ni el control de versiones. OAuth es la opción más sencilla cuando puedes iniciar sesión desde el navegador.
+La [guía de la API de Nibomo](/es/docs/api/) explica cómo obtener la clave de agente. Trátala como una contraseña y no la incluyas en prompts, capturas de pantalla, el historial del shell ni el control de versiones. OAuth es la opción más sencilla cuando puedes iniciar sesión desde el navegador.
 
 ## ChatGPT web tiene una ruta de conexión diferente
 

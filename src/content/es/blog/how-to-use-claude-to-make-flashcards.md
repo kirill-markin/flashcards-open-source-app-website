@@ -248,7 +248,7 @@ No hay ningún botón especial de Claude a Flashcards, y no voy a fingir lo cont
 4. organízalas en mazos y etiquetas
 5. repasa el mazo final con FSRS
 
-[Flashcards](/es/) encaja bien en este flujo porque el producto actual cubre justo la parte que Claude no termina por sí solo:
+[Nibomo](/es/) encaja bien en este flujo porque el producto actual cubre justo la parte que Claude no termina por sí solo:
 
 - creación y edición de tarjetas de anverso y reverso
 - chat con IA con datos del workspace y archivos adjuntos
