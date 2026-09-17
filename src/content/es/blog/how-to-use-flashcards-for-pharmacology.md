@@ -257,7 +257,7 @@ Si tu cola ya está creciendo más de la cuenta, estos dos artículos suelen res
 
 ## Dónde encaja Flashcards en este flujo
 
-[Flashcards](https://flashcards-open-source-app.com/) encaja razonablemente bien en este tipo de estudio de farmacología porque la parte útil no es delegarle la farmacología a la IA. Yo no estudiaría así.
+[Nibomo](https://flashcards-open-source-app.com/) encaja razonablemente bien en este tipo de estudio de farmacología porque la parte útil no es delegarle la farmacología a la IA. Yo no estudiaría así.
 
 La parte útil es más estrecha:
 

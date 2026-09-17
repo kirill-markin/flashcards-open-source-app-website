@@ -250,7 +250,7 @@ Si quieres la comparación del planificador en sí, [FSRS vs SM-2 in 2026](https
 
 ## Dónde encaja Flashcards en este flujo de trabajo
 
-[Flashcards](https://flashcards-open-source-app.com/) encaja bien en **cómo corregir flashcards de IA** porque el producto ya cubre ese punto intermedio incómodo que la mayoría de los generadores deja sin resolver:
+[Nibomo](https://flashcards-open-source-app.com/) encaja bien en **cómo corregir flashcards de IA** porque el producto ya cubre ese punto intermedio incómodo que la mayoría de los generadores deja sin resolver:
 
 - crear tarjetas de anverso y reverso en la app web alojada
 - usar chat con IA con datos del espacio de trabajo y archivos adjuntos, incluidas cargas de texto plano

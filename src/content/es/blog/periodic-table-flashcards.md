@@ -240,7 +240,7 @@ Empieza con una prueba diagnóstica, aunque solo dure cinco minutos.
 2. **Haz una prueba breve sin apuntes.** Usa una tabla en blanco, un cuestionario del profesor o un problema de química reciente. Anota cada error concreto.
 3. **Crea una tarjeta por cada tipo de pregunta que hayas fallado.** No añadas tarjetas sobre el número atómico, el grupo, la masa y las tendencias salvo que esos datos sean obligatorios.
 4. **Aprende un bloque delimitado.** Una unidad del curso, una familia o los elementos 1–20 te ofrecen una meta visible. Si necesitas los 118, usa pequeños bloques numerados en lugar de cargarlo todo el primer día.
-5. **Mezcla los elementos que se confunden cuando ya conozcas cada uno por separado.** Incluye `Co`, `C` y `O` en la misma sesión de práctica; mezcla los números atómicos cercanos que sigas confundiendo entre sí. Flashcards Open Source App no crea estos contrastes automáticamente, así que tendrás que decidir cómo ordenar o etiquetar el mazo.
+5. **Mezcla los elementos que se confunden cuando ya conozcas cada uno por separado.** Incluye `Co`, `C` y `O` en la misma sesión de práctica; mezcla los números atómicos cercanos que sigas confundiendo entre sí. Nibomo no crea estos contrastes automáticamente, así que tendrás que decidir cómo ordenar o etiquetar el mazo.
 6. **Reconstruye la estructura fuera del mazo.** Rellena una tabla en blanco y di en voz alta las posiciones de referencia de los grupos o periodos. Las tarjetas aisladas no enseñan por sí solas la disposición espacial.
 7. **Vuelve a la química.** Lee fórmulas, explica una tendencia, escribe una configuración electrónica y resuelve problemas nuevos. Si un error se repite, conviértelo en una pequeña tarjeta de refuerzo.
 
@@ -273,9 +273,9 @@ Sigue practicando fuera del mazo:
 
 La [guía de flashcards para química avanzada](/blog/how-to-use-flashcards-for-advanced-chemistry/) explica con más detalle la diferencia entre recordar datos breves y practicar problemas completos.
 
-## Cómo encaja Flashcards Open Source App
+## Cómo encaja Nibomo
 
-[Flashcards Open Source App](/features/) permite usar tarjetas convencionales con anverso y reverso, mazos, etiquetas y repasos pendientes con FSRS y las valoraciones `Again`, `Hard`, `Good` y `Easy`. Puedes instalar el mazo de los 118 elementos o crear otro más pequeño que se ajuste a tu curso.
+[Nibomo](/features/) permite usar tarjetas convencionales con anverso y reverso, mazos, etiquetas y repasos pendientes con FSRS y las valoraciones `Again`, `Hard`, `Good` y `Easy`. Puedes instalar el mazo de los 118 elementos o crear otro más pequeño que se ajuste a tu curso.
 
 El chat con IA y los archivos adjuntos pueden ayudarte a preparar borradores de tarjetas a partir de una tabla de la lección o una lista de errores. Antes de guardar una tarjeta, comprueba cada nombre, símbolo, número atómico, nombre de propiedad y regla de redondeo con la fuente de referencia de tu curso. La aplicación no incluye un verificador específico de química ni alterna los temas de forma automática. La [guía de primeros pasos](/docs/getting-started/) explica cómo crear tarjetas y comenzar los repasos pendientes.
 

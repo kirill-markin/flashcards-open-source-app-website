@@ -240,7 +240,7 @@ Si tu fuente empieza un paso antes, estos artículos complementarios encajan mej
 
 ## El producto encaja en una parte más pequeña de lo que promete, y eso es bueno
 
-[Flashcards](/es/) encaja más tarde dentro de este flujo, después de que ya tengas el resumen y hayas decidido qué merece de verdad el repaso.
+[Nibomo](/es/) encaja más tarde dentro de este flujo, después de que ya tengas el resumen y hayas decidido qué merece de verdad el repaso.
 
 Encaja bien porque los siguientes pasos útiles son concretos:
 

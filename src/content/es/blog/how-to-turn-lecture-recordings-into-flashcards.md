@@ -227,7 +227,7 @@ Es mucho mejor que convertir cada frase en una tarjeta y llamarla productividad.
 
 ## Dónde encajan las Flashcards
 
-[Flashcards](https://flashcards-open-source-app.com/) es una buena opción para **grabaciones de conferencias de estudio con tarjetas didácticas** porque cubre la parte que las transcripciones y los borradores de IA no resuelven por sí solos:
+[Nibomo](https://flashcards-open-source-app.com/) es una buena opción para **grabaciones de conferencias de estudio con tarjetas didácticas** porque cubre la parte que las transcripciones y los borradores de IA no resuelven por sí solos:
 
 - una aplicación de tarjetas didácticas reales con tarjetas frontales y posteriores
 - mazos y etiquetas

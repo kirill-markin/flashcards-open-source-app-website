@@ -279,7 +279,7 @@ Si quieres profundizar más en la parte de la planificación, lee esto después:
 
 ## Dónde encaja Flashcards en este flujo de trabajo para el MCAT
 
-[Flashcards](https://flashcards-open-source-app.com/) encaja bien en este tipo de flujo para el MCAT porque cubre las partes que muchos estudiantes suelen repartir entre demasiadas herramientas.
+[Nibomo](https://flashcards-open-source-app.com/) encaja bien en este tipo de flujo para el MCAT porque cubre las partes que muchos estudiantes suelen repartir entre demasiadas herramientas.
 
 El producto ya te da las piezas que este flujo necesita:
 
@@ -316,4 +316,4 @@ antes que un mazo gigante importado que poco a poco se convierta en culpa de fon
 
 Ésa es la versión de **flashcards para el MCAT** que suele aguantar en la preparación real: no como solución para cada parte del examen, y desde luego no como sustituto del trabajo con pasajes de CARS, sino como un sistema duradero para hechos, distinciones y errores que no quieres volver a aprender bajo presión.
 
-Si quieres ese flujo dentro de una sola solución de código abierto, [Flashcards](https://flashcards-open-source-app.com/) te da el camino práctico: redacta a partir de apuntes o archivos, quédate con las buenas tarjetas y deja que FSRS gestione el calendario de repaso mientras tú sigues centrado en la práctica real del MCAT.
+Si quieres ese flujo dentro de una sola solución de código abierto, [Nibomo](https://flashcards-open-source-app.com/) te da el camino práctico: redacta a partir de apuntes o archivos, quédate con las buenas tarjetas y deja que FSRS gestione el calendario de repaso mientras tú sigues centrado en la práctica real del MCAT.

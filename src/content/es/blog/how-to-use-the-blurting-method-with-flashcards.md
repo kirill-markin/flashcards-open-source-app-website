@@ -288,7 +288,7 @@ Si tu flujo de examen necesita más estructura que eso, [Cómo estudiar para un 
 
 ## Dónde encaja Flashcards
 
-[Flashcards](/es/) encaja en este flujo porque el producto cubre la parte que el blurting no cubre:
+[Nibomo](/es/) encaja en este flujo porque el producto cubre la parte que el blurting no cubre:
 
 - tarjetas de anverso y reverso para los fallos concretos que encontraste
 - mazos y etiquetas para organizar por asignatura, examen o fuente

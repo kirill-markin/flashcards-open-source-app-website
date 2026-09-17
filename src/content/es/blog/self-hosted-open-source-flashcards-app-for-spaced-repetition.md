@@ -15,7 +15,7 @@ keywords:
 
 Sí, Flashcards se puede autoalojar. Todo el código de la aplicación y de la infraestructura es de código abierto y se distribuye bajo la licencia MIT. Puedes ejecutar los servicios en local para desarrollo o desplegar en AWS la pila de producción documentada del repositorio. Si no quieres gestionar infraestructura, la [aplicación alojada](https://app.flashcards-open-source-app.com/) sigue estando disponible.
 
-![Pantallas móviles de Flashcards Open Source App para repaso, progreso, chat con IA y tarjetas](/home/app-screens-showcase-es.png)
+![Pantallas móviles de Nibomo para repaso, progreso, chat con IA y tarjetas](/home/app-screens-showcase-es.png)
 
 ## Qué se puede autoalojar
 

@@ -192,7 +192,7 @@ Sigue un ciclo: practica en contexto, examina el fallo, guarda la lección reuti
 
 ## Crea y programa el mazo sin perder la fuente
 
-Una configuración sencilla en [Flashcards Open Source App](/features/) basta para seguir este flujo:
+Una configuración sencilla en [Nibomo](/features/) basta para seguir este flujo:
 
 1. Crea tarjetas de anverso y reverso con un único objetivo de recuperación cada vez.
 2. Etiqueta cada tarjeta según el área de los ACS y, cuando resulte útil, según la tarea, la fuente o el error detectado en la práctica.
@@ -205,7 +205,7 @@ FSRS programa cuándo volverá a aparecer cada tarjeta. No comprueba la precisi�
 
 La [guía sobre el calendario de repaso de flashcards](/blog/how-often-should-you-review-flashcards/) explica cómo funcionan los repasos pendientes. La [guía de primeros pasos](/docs/getting-started/) cubre la creación de tarjetas, el repaso, el chat con IA y los archivos adjuntos. La aplicación no incluye un mazo prediseñado para la Parte 107 de la FAA, no proporciona preguntas oficiales del examen, no simula el examen UAG ni sustituye los materiales de estudio de la FAA.
 
-Flashcards Open Source App no está afiliada a la FAA ni cuenta con su respaldo. Tú proporcionas el contenido de las tarjetas y eres responsable de comprobarlo con el material oficial vigente.
+La app Nibomo no está afiliada a la FAA ni cuenta con su respaldo. Tú proporcionas el contenido de las tarjetas y eres responsable de comprobarlo con el material oficial vigente.
 
 ## Preguntas frecuentes sobre las flashcards de la Parte 107 de la FAA
 

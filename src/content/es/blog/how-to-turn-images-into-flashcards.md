@@ -192,7 +192,7 @@ Si las tarjetas ya existen y ya te suenan vagas, [Cómo corregir flashcards de I
 
 ## Dónde encaja Flashcards después de la limpieza
 
-Una vez que el contenido de la imagen ya es legible, [Flashcards](/es/features/) encaja bien en la parte práctica del flujo:
+Una vez que el contenido de la imagen ya es legible, [Nibomo](/es/features/) encaja bien en la parte práctica del flujo:
 
 - chat con IA con archivos e imágenes subidos en la aplicación alojada
 - redacción y edición de tarjetas de anverso y reverso

@@ -181,7 +181,7 @@ Crea un solo mazo llamado `Ley de IA de la UE — fuentes oficiales`. Usa etique
 
 Mantén cada elemento como una tarjeta sencilla de anverso y reverso. Coloca primero la respuesta breve en el reverso y, a continuación, el artículo o anexo, la fuente oficial, la fecha de consulta y la nota de versión. Todo lo que tenga la etiqueta `needs-source-check` debe permanecer fuera de los repasos normales hasta que lo verifiques. Trata esa etiqueta como una cuarentena.
 
-Las [funciones de Flashcards Open Source App](/features/) incluyen tarjetas sencillas de anverso y reverso, mazos y etiquetas, y repasos con FSRS. La aplicación alojada es gratuita y el proyecto también ofrece una opción de código abierto para alojarla por tu cuenta. Cuando una tarjeta supere la comprobación de su fuente, deja que FSRS-6 programe sus repasos. Intenta responder antes de revelar el reverso y elige después Again, Hard, Good o Easy según lo que hayas recordado realmente:
+Las [funciones de Nibomo](/features/) incluyen tarjetas sencillas de anverso y reverso, mazos y etiquetas, y repasos con FSRS. La aplicación alojada es gratuita y el proyecto también ofrece una opción de código abierto para alojarla por tu cuenta. Cuando una tarjeta supere la comprobación de su fuente, deja que FSRS-6 programe sus repasos. Intenta responder antes de revelar el reverso y elige después Again, Hard, Good o Easy según lo que hayas recordado realmente:
 
 - **Again** si falta la respuesta requerida o es incorrecta
 - **Hard** si recuerdas la respuesta correcta con mucha dificultad

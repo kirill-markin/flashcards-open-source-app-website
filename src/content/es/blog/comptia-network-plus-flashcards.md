@@ -263,11 +263,11 @@ FSRS resulta útil en un plan de estudio para Network+ cuando las tarjetas ya me
 
 Una organización sencilla consiste en un mazo `N10-009` con etiquetas como `ports`, `subnetting`, `commands`, `operations`, `security`, `troubleshooting`, `practice-miss` y `lab-miss`. Añade el código del objetivo a las tarjetas que dependan de la versión cuando te ayude a revisarlas. Las etiquetas deberían ayudarte a encontrar un punto débil, no reproducir todo el PDF como un árbol de carpetas.
 
-## Dónde encaja Flashcards Open Source App
+## Dónde encaja Nibomo
 
-> **Aviso:** Flashcards Open Source App no está afiliada a CompTIA ni está respaldada por ella. No es un curso oficial de Network+, un examen de práctica ni un simulador de PBQ.
+> **Aviso:** La app Nibomo no está afiliada a CompTIA ni está respaldada por ella. No es un curso oficial de Network+, un examen de práctica ni un simulador de PBQ.
 
-[Flashcards Open Source App](/es/features/) se ocupa de la parte de memorización del flujo de trabajo: tarjetas con anverso y reverso, mazos y etiquetas, repaso de las tarjetas pendientes con FSRS, estudio sin conexión y sincronización, exportaciones transferibles y una opción autoalojada. Úsala para guardar los datos y las decisiones concretos que quieres tener disponibles antes del trabajo práctico.
+[Nibomo](/es/features/) se ocupa de la parte de memorización del flujo de trabajo: tarjetas con anverso y reverso, mazos y etiquetas, repaso de las tarjetas pendientes con FSRS, estudio sin conexión y sincronización, exportaciones transferibles y una opción autoalojada. Úsala para guardar los datos y las decisiones concretos que quieres tener disponibles antes del trabajo práctico.
 
 Aquí no afirmamos que exista un mazo oficial o predefinido de N10-009. Empieza a partir de los objetivos actuales de CompTIA y de tus propios errores legítimos de estudio. [Primeros pasos](/es/docs/getting-started/) explica las modalidades alojada y autoalojada si quieres crear el mazo en Flashcards.
 

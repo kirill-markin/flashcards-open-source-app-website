@@ -226,9 +226,9 @@ Si quieres profundizar más en la parte de la programación, este artículo entr
 
 - [FSRS vs SM-2 en 2026: ¿Qué algoritmo de repetición espaciada le ayuda a recordar más?](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
 
-## Dónde encaja Flashcards Open Source App
+## Dónde encaja Nibomo
 
-[Flashcards Open Source App](https://flashcards-open-source-app.com/) encaja muy bien en **podcast a tarjetas didácticas** porque el producto ya cubre los pasos prácticos que hacen utilizable este flujo de trabajo:
+[Nibomo](https://flashcards-open-source-app.com/) encaja muy bien en **podcast a tarjetas didácticas** porque el producto ya cubre los pasos prácticos que hacen utilizable este flujo de trabajo:
 
 - pegar o subir texto sin formato procedente de transcripciones de podcasts
 - limpiar el material dentro del chat de IA antes de crear tarjetas

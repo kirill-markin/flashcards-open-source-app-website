@@ -262,7 +262,7 @@ Elimina una.
 
 ## Dónde encaja Flashcards
 
-[Flashcards](https://flashcards-open-source-app.com/) encaja muy bien en **cómo organizar flashcards** porque el producto ya tiene las piezas que este flujo necesita:
+[Nibomo](https://flashcards-open-source-app.com/) encaja muy bien en **cómo organizar flashcards** porque el producto ya tiene las piezas que este flujo necesita:
 
 - mazos y etiquetas para estructura a largo plazo
 - mazos filtrados basados en etiquetas y nivel de esfuerzo
@@ -304,7 +304,7 @@ Menos culpa estructural.
 
 Si eso es lo que quieres, empieza aquí:
 
-- [Abrir Flashcards](https://flashcards-open-source-app.com/)
+- [Abrir Nibomo](https://flashcards-open-source-app.com/)
 - [Abrir la app](https://app.flashcards-open-source-app.com/)
 - [Leer la guía de inicio](https://flashcards-open-source-app.com/docs/getting-started/)
 - [Ver el código fuente en GitHub](https://github.com/kirill-markin/flashcards-open-source-app)

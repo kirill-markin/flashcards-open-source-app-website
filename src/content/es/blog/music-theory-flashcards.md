@@ -179,7 +179,7 @@ Estas son algunas combinaciones útiles de teoría musical:
 
 El objetivo no es añadir variedad al azar. Mezcla categorías que se parezcan, que apliquen reglas fáciles de confundir entre sí o que aparezcan juntas en análisis reales. Incluye también ejercicios auditivos e interpretativos en la sesión, pero no llames entrenamiento auditivo a una tarjeta escrita solo porque tenga al lado un ejercicio de audio.
 
-La guía sobre [práctica intercalada con flashcards](/es/blog/how-to-use-interleaving-with-flashcards/) explica con más detalle el paso de practicar una categoría a combinar varias. Flashcards Open Source App no crea automáticamente series diseñadas para contrastar conceptos, por lo que tendrás que elegir los enunciados relacionados.
+La guía sobre [práctica intercalada con flashcards](/es/blog/how-to-use-interleaving-with-flashcards/) explica con más detalle el paso de practicar una categoría a combinar varias. Nibomo no crea automáticamente series diseñadas para contrastar conceptos, por lo que tendrás que elegir los enunciados relacionados.
 
 ## ¿Cuántas flashcards de teoría musical deberías crear?
 
@@ -196,9 +196,9 @@ Mantén la cantidad bajo control con estas pautas:
 
 Las etiquetas permiten reunir un pequeño grupo de contraste sin separar cada categoría mínima en un mazo propio. La guía general para [hacer mejores flashcards](/es/blog/how-to-make-better-flashcards/) puede ayudarte cuando un reverso empieza a acumular varias definiciones, excepciones y ejemplos.
 
-## Cómo encaja Flashcards Open Source App
+## Cómo encaja Nibomo
 
-[Flashcards Open Source App](/es/features/) ofrece tarjetas con anverso y reverso, mazos, etiquetas y repasos pendientes con FSRS mediante `Again`, `Hard`, `Good` y `Easy`. Sigue un enfoque offline-first en la web, iOS y Android. Su código fuente está disponible bajo licencia MIT y admite el autoalojamiento.
+[Nibomo](/es/features/) ofrece tarjetas con anverso y reverso, mazos, etiquetas y repasos pendientes con FSRS mediante `Again`, `Hard`, `Good` y `Easy`. Sigue un enfoque offline-first en la web, iOS y Android. Su código fuente está disponible bajo licencia MIT y admite el autoalojamiento.
 
 El chat con IA puede trabajar con los archivos o las imágenes que subas y preparar borradores de tarjetas a partir de una página de la lección o de un recorte de notación. Antes de guardar, coteja cada altura, alteración, símbolo y respuesta con la fuente que establece el criterio. La aplicación no incluye un editor de notación, un sistema de entrenamiento auditivo, ningún curso ni mazo oficial de teoría musical, verificación automática de datos ni práctica intercalada automática. Ese trabajo sigue correspondiendo a los materiales del curso y a la práctica musical.
 

@@ -117,7 +117,7 @@ Ejemplos: fallaste una pregunta de biología porque confundiste las funciones de
 
 La AI es útil para preparar el DAT cuando la tratas como asistente de borradores, no como autoridad. Los buenos usos incluyen convertir apuntes limpios de biología en candidatos cortos de pregunta y respuesta, afinar un registro de errores de química orgánica o transformar una nota de repaso de PAT en una tarjeta reutilizable basada en una regla. Los malos usos incluyen confiar en un mazo gigante generado automáticamente o conservar tarjetas que suenan pulidas pero no evalúan nada.
 
-Si quieres seguir escribiendo, revisando y editando en un mismo sitio, Flashcards Open Source App encaja muy bien aquí. La app alojada combina creación de tarjetas, repaso con FSRS y chat con AI en un solo flujo, así que puedes crear borradores a partir de tus propios apuntes o registros de errores y luego pulirlos antes de que entren en repaso. Lo que ofrece el producto se explica en [Features](/features/) y la configuración está en [Getting Started](/docs/getting-started/).
+Si quieres seguir escribiendo, revisando y editando en un mismo sitio, Nibomo encaja muy bien aquí. La app alojada combina creación de tarjetas, repaso con FSRS y chat con AI en un solo flujo, así que puedes crear borradores a partir de tus propios apuntes o registros de errores y luego pulirlos antes de que entren en repaso. Lo que ofrece el producto se explica en [Features](/features/) y la configuración está en [Getting Started](/docs/getting-started/).
 
 La regla de edición es simple: cada tarjeta debería evaluar una sola cosa que realmente quieras recuperar bajo presión. Si no lo hace, bórrala.
 

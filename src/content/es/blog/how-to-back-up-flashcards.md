@@ -125,7 +125,7 @@ Una copia en texto plano es fea de la forma correcta:
 
 Esto importa aún más ahora porque muchos mazos se construyen a partir de notas, transcripciones, OCR, PDFs y limpieza asistida por IA. Cuando la parte útil queda guardada como texto legible, tus opciones futuras mejoran muchísimo.
 
-Por eso también [Flashcards](/features/) es un buen destino después de la limpieza. El producto actual admite chat con IA con texto plano y archivos adjuntos, así que una exportación limpia no tiene por qué quedarse como material muerto de respaldo. Puede convertirse en borrador para un mazo mejor.
+Por eso también [Nibomo](/features/) es un buen destino después de la limpieza. El producto actual admite chat con IA con texto plano y archivos adjuntos, así que una exportación limpia no tiene por qué quedarse como material muerto de respaldo. Puede convertirse en borrador para un mazo mejor.
 
 ## Haz copia también de la fuente, no solo de la tarjeta final
 
@@ -203,7 +203,7 @@ Si yo fuera a crear un mazo nuevo pensando en la propiedad de los datos, me fija
 - tarjetas sencillas de anverso y reverso que sigan siendo portables
 - IA conectada a datos reales, no solo a demos de generación puntual
 
-Esa es la dirección en la que ya se está moviendo [Flashcards](/).
+Esa es la dirección en la que ya se está moviendo [Nibomo](/).
 
 La documentación pública actual basta para concretar esa dirección:
 

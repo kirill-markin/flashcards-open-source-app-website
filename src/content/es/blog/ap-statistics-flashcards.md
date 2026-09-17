@@ -237,13 +237,13 @@ Elige una rutina lo bastante breve como para mantenerla durante todo el curso:
 
 Fija un objetivo diario de tarjetas nuevas que te deje tiempo para terminar los repasos y resolver preguntas reales. [¿Cuántas flashcards nuevas al día?](/blog/how-many-new-flashcards-per-day/) explica cómo ajustarlo a medida que se acumula el trabajo de repaso.
 
-## Qué papel cumple Flashcards Open Source App
+## Qué papel cumple Nibomo
 
-[Flashcards Open Source App](/features/) puede encargarse de la parte de memorización: tarjetas con anverso y reverso, etiquetas, programación de repasos con FSRS, importación y exportación en formatos portátiles, borradores asistidos por IA y clientes que priorizan el uso sin conexión. Cada tarjeta puede llevar etiquetas de unidad, práctica estadística y tipo de error.
+[Nibomo](/features/) puede encargarse de la parte de memorización: tarjetas con anverso y reverso, etiquetas, programación de repasos con FSRS, importación y exportación en formatos portátiles, borradores asistidos por IA y clientes que priorizan el uso sin conexión. Cada tarjeta puede llevar etiquetas de unidad, práctica estadística y tipo de error.
 
 Usa la ayuda de IA para acortar una respuesta demasiado cargada o preparar un borrador a partir de tus apuntes. Antes de guardar una tarjeta, comprueba cada afirmación estadística con el Course and Exam Description actual o con los materiales de tu docente.
 
-Flashcards Open Source App no ofrece actualmente un paquete verificado y listo para usar de AP Statistics. Tampoco califica las FRQ ni sustituye la práctica con Bluebook y la calculadora. Empieza con los materiales actuales de tu curso y usa la aplicación para programar las tarjetas que superen la revisión.
+Nibomo no ofrece actualmente un paquete verificado y listo para usar de AP Statistics. Tampoco califica las FRQ ni sustituye la práctica con Bluebook y la calculadora. Empieza con los materiales actuales de tu curso y usa la aplicación para programar las tarjetas que superen la revisión.
 
 Esta guía de estudio es independiente: no está afiliada a College Board ni cuenta con su respaldo. La [guía de primeros pasos](/docs/getting-started/) explica tanto la aplicación alojada como la opción de autoalojamiento.
 

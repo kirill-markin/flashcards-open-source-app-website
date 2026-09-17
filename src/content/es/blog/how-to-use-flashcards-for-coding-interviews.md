@@ -276,9 +276,9 @@ No necesitas memorizar 400 soluciones.
 
 Necesitas dejar de olvidar las mismas quince lecciones.
 
-## Dónde encaja Flashcards Open Source App
+## Dónde encaja Nibomo
 
-[Flashcards Open Source App](https://flashcards-open-source-app.com/) encaja bien para **flashcards para entrevistas de programación** porque el producto ya soporta las partes que importan:
+[Nibomo](https://flashcards-open-source-app.com/) encaja bien para **flashcards para entrevistas de programación** porque el producto ya soporta las partes que importan:
 
 - planificación con FSRS para repasos repetidos sin ajustar intervalos a mano
 - mazos, etiquetas, búsqueda y mazos filtrados por etiqueta y nivel de esfuerzo

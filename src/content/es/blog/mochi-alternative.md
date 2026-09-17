@@ -23,7 +23,7 @@ Ese pequeño separador deja bastante claro para quién funcionan bien las **tarj
 
 Para trabajar en un solo dispositivo, el plan gratuito es mucho más que una prueba: no exige registro y Mochi documenta un uso sin conexión ilimitado. La contrapartida es que la sincronización entre dispositivos forma parte del **plan Pro de US$5 al mes**. Para quien usa Anki, el coste más serio está en lo que se pierde al migrar. Mochi puede importar un paquete de Anki y su historial de repasos, pero no puede conservar todas las plantillas, estilos, scripts, opciones del planificador ni comportamientos de los complementos.
 
-> **Aviso de transparencia:** Soy Kirill Markin y desarrollo [Flashcards Open Source App](/es/). Esta reseña del flujo de trabajo está contrastada con fuentes; no afirmo haber realizado una prueba práctica del producto. No hay enlaces de afiliado. Mochi y Anki son los protagonistas de la comparación; mi producto solo aparece cerca del final como una alternativa claramente identificada.
+> **Aviso de transparencia:** Soy Kirill Markin y desarrollo [Nibomo](/es/). Esta reseña del flujo de trabajo está contrastada con fuentes; no afirmo haber realizado una prueba práctica del producto. No hay enlaces de afiliado. Mochi y Anki son los protagonistas de la comparación; mi producto solo aparece cerca del final como una alternativa claramente identificada.
 
 **Datos comprobados:** 7 de septiembre de 2026. La última [versión de Mochi](https://mochi.cards/changelog/) visible era la 26.8.2, publicada el 10 de agosto de 2026. Los precios y los datos de las tiendas de aplicaciones pueden cambiar.
 
@@ -210,7 +210,7 @@ Quédate con Anki cuando:
 - quieres el optimizador de FSRS de Anki, sus controles de preajustes, cuatro valoraciones y el simulador de carga de trabajo;
 - llevas años acumulando datos de repaso y los comportamientos personalizados ya te funcionan bien.
 
-La alternativa a Mochi más sensata depende del motivo por el que ninguna de las dos opciones encaje. Para una colección nueva y más sencilla, las [funciones de Flashcards Open Source App](/es/features/) incluyen repasos con FSRS, estudio sin conexión y sincronización, transferencia de tarjetas, etiquetas y archivos multimedia en formatos portátiles, acceso para agentes y una vía de autoalojamiento documentada. Yo la desarrollo, y sus límites vienen al caso: no sustituye el cuaderno Markdown conectado de Mochi ni el sistema consolidado de plantillas y complementos de Anki. La [guía de primeros pasos](/es/docs/getting-started/) muestra las formas actuales de acceso: servicio alojado, apps móviles, agentes y autoalojamiento.
+La alternativa a Mochi más sensata depende del motivo por el que ninguna de las dos opciones encaje. Para una colección nueva y más sencilla, las [funciones de Nibomo](/es/features/) incluyen repasos con FSRS, estudio sin conexión y sincronización, transferencia de tarjetas, etiquetas y archivos multimedia en formatos portátiles, acceso para agentes y una vía de autoalojamiento documentada. Yo la desarrollo, y sus límites vienen al caso: no sustituye el cuaderno Markdown conectado de Mochi ni el sistema consolidado de plantillas y complementos de Anki. La [guía de primeros pasos](/es/docs/getting-started/) muestra las formas actuales de acceso: servicio alojado, apps móviles, agentes y autoalojamiento.
 
 ## En resumen
 

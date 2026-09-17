@@ -197,7 +197,7 @@ Si te interesa en concreto el lado del planificador, [FSRS vs SM-2 en 2026](/blo
 
 ## Dónde encaja Flashcards
 
-[Flashcards](/) no es el tutor de IA para todo.
+[Nibomo](/) no es el tutor de IA para todo.
 
 Encaja mejor como capa de retención después de que la tutoría con IA, los resúmenes y las preguntas generadas ya hayan hecho su trabajo.
 

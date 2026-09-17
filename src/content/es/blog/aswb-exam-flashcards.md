@@ -159,11 +159,11 @@ Empieza con una carga diaria que puedas terminar en un día laboral normal. A me
 
 Las flashcards entrenan la recuperación activa con el paso del tiempo. Los bloques de preguntas cronometrados te entrenan para leer, elegir, controlar el ritmo y tolerar la incertidumbre. Necesitas ambas cosas.
 
-## Cómo encaja Flashcards Open Source App
+## Cómo encaja Nibomo
 
-Las [funciones de Flashcards Open Source App](/features/) respaldan este método: puedes crear o importar tarjetas de anverso y reverso, organizarlas con etiquetas, usar IA para preparar borradores y repasar con FSRS.
+Las [funciones de Nibomo](/features/) respaldan este método: puedes crear o importar tarjetas de anverso y reverso, organizarlas con etiquetas, usar IA para preparar borradores y repasar con FSRS.
 
-El contenido generado por IA sigue necesitando revisión humana. Flashcards Open Source App no está afiliada a ASWB, no es un proveedor oficial de contenidos de ASWB ni es un simulador de examen. No incluye ningún mazo ni banco de preguntas de ASWB. Aporta fuentes que tengas derecho a usar y conserva el contexto de categoría y jurisdicción en las tarjetas que lo necesiten.
+El contenido generado por IA sigue necesitando revisión humana. La app Nibomo no está afiliada a ASWB, no es un proveedor oficial de contenidos de ASWB ni es un simulador de examen. No incluye ningún mazo ni banco de preguntas de ASWB. Aporta fuentes que tengas derecho a usar y conserva el contexto de categoría y jurisdicción en las tarjetas que lo necesiten.
 
 ## Comprobación final antes de estudiar el mazo
 

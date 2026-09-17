@@ -266,9 +266,9 @@ Puedes empezar con este ritmo semanal:
 
 Este ciclo reserva a la **repetición espaciada para español** un papel de apoyo. El mazo mantiene accesibles pequeñas correcciones y expresiones útiles. El español real aporta contexto nuevo, presión de tiempo y correcciones.
 
-## Cómo encaja Flashcards Open Source App
+## Cómo encaja Nibomo
 
-[Flashcards Open Source App](/es/features/) cubre la parte de repaso de este flujo de trabajo. Admite tarjetas con anverso y reverso, mazos y etiquetas, repasos pendientes con FSRS, creación de tarjetas asistida por IA, estudio sin conexión y sincronización entre la web, iOS y Android, importaciones y exportaciones portátiles y una opción de autoalojamiento para el proyecto de código abierto.
+[Nibomo](/es/features/) cubre la parte de repaso de este flujo de trabajo. Admite tarjetas con anverso y reverso, mazos y etiquetas, repasos pendientes con FSRS, creación de tarjetas asistida por IA, estudio sin conexión y sincronización entre la web, iOS y Android, importaciones y exportaciones portátiles y una opción de autoalojamiento para el proyecto de código abierto.
 
 Una configuración sencilla sería:
 

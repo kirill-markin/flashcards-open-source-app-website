@@ -342,7 +342,7 @@ Si eso importa en tu configuración de estudio, esto también merece la pena:
 
 ## Dónde encaja bien Flashcards en este flujo
 
-[Flashcards](https://flashcards-open-source-app.com/) encaja muy bien con **las flashcards de Security+** porque el producto ya coincide con el flujo de trabajo en lugar de obligarte a improvisar entre cinco herramientas.
+[Nibomo](https://flashcards-open-source-app.com/) encaja muy bien con **las flashcards de Security+** porque el producto ya coincide con el flujo de trabajo en lugar de obligarte a improvisar entre cinco herramientas.
 
 Puedes usar:
 

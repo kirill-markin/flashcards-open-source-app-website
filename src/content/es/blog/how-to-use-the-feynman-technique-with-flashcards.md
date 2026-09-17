@@ -220,7 +220,7 @@ La técnica Feynman produce material en bruto. Muchas veces acabas con alguna me
 - una lista de puntos flojos de una sesión de tutoría con IA
 - borradores de tarjetas medio pulidos que todavía quieres editar
 
-Eso encaja bien con [Flashcards Open Source App](/es/).
+Eso encaja bien con [Nibomo](/es/).
 
 El producto ya cubre la parte útil de este flujo:
 

@@ -238,7 +238,7 @@ Esa es la gracia.
 
 ## Dónde encaja Flashcards en este flujo
 
-[Flashcards](/es/) encaja bien con este momento porque la app cubre ese tramo estrecho entre "esto ya lo entendí" y "ahora necesito tarjetas limpias antes de que se me borren los detalles".
+[Nibomo](/es/) encaja bien con este momento porque la app cubre ese tramo estrecho entre "esto ya lo entendí" y "ahora necesito tarjetas limpias antes de que se me borren los detalles".
 
 Puedes:
 

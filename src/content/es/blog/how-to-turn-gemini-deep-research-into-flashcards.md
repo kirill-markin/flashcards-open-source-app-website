@@ -178,7 +178,7 @@ Eso es honesto, y normalmente también es mejor que un falso flujo de un solo cl
 
 ## Por qué Flashcards encaja en este flujo de trabajo
 
-[Flashcards](/) no intenta sustituir a Gemini Deep Research.
+[Nibomo](/) no intenta sustituir a Gemini Deep Research.
 
 Encaja porque se ocupa de la parte que Deep Research deja sin terminar:
 
@@ -231,4 +231,4 @@ Pídele al informe que revele qué merece un mazo.
 
 Esa es la versión de **cómo convertir Gemini Deep Research en tarjetas didácticas** que de verdad se sostiene: conserva el informe como contexto, confía más en los enlaces a las fuentes que en la redacción pulida, extrae solo las afirmaciones que merezca la pena recuperar después y deja que FSRS marque el ritmo del repaso cuando el trabajo de limpieza ya esté hecho.
 
-Si eso es lo que buscas, [Flashcards](/) encaja muy bien. Te da un solo lugar para ordenar notas de investigación, convertirlas en tarjetas de anverso y reverso, organizarlas por tema y repasarlas con un sistema real de repetición espaciada en lugar de esperar que el propio informe haga el trabajo de memoria.
+Si eso es lo que buscas, [Nibomo](/) encaja muy bien. Te da un solo lugar para ordenar notas de investigación, convertirlas en tarjetas de anverso y reverso, organizarlas por tema y repasarlas con un sistema real de repetición espaciada en lugar de esperar que el propio informe haga el trabajo de memoria.

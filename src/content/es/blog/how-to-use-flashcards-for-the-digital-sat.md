@@ -260,7 +260,7 @@ Si quieres más detalle sobre la parte de planificación, estos dos artículos e
 
 ## Dónde encaja Flashcards en este flujo del SAT Digital
 
-[Flashcards](https://flashcards-open-source-app.com/) encaja bien para **flashcards para el SAT Digital** porque el producto actual ya soporta las partes de las que depende este flujo:
+[Nibomo](https://flashcards-open-source-app.com/) encaja bien para **flashcards para el SAT Digital** porque el producto actual ya soporta las partes de las que depende este flujo:
 
 - creación y edición de tarjetas anverso/reverso
 - chat con IA para redactar tarjetas candidatas a partir de apuntes, explicaciones pegadas o revisión de exámenes de práctica
