@@ -204,7 +204,7 @@ Este artículo es más estrecho. Perplexity encontró el hueco. FSRS te ayuda a 
 
 ## Dónde encaja Flashcards
 
-[Flashcards Open Source App](/es/) encaja después de Learn Mode, una vez que ya sabes qué merece la pena conservar.
+[Nibomo](/es/) encaja después de Learn Mode, una vez que ya sabes qué merece la pena conservar.
 
 No hace falta fingir que existe un botón mágico de importación desde Perplexity. El flujo útil es más simple y más creíble:
 

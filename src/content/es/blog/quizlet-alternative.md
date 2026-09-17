@@ -15,7 +15,7 @@ keywords:
   - "aplicación de tarjetas autoalojada"
 ---
 
-Una **alternativa de código abierto a Quizlet** puede sustituir tu cola diaria de repasos, pero no necesariamente los modos Learn y Test de Quizlet ni su biblioteca de conjuntos públicos. Ese es el matiz de [Flashcards](/features/): ofrece planificación de repasos con FSRS-6 documentado, guardado local con enfoque offline-first en web y móvil, y una vía de autoalojamiento con licencia MIT. No es un clon de Quizlet de código abierto.
+Una **alternativa de código abierto a Quizlet** puede sustituir tu cola diaria de repasos, pero no necesariamente los modos Learn y Test de Quizlet ni su biblioteca de conjuntos públicos. Ese es el matiz de [Nibomo](/features/): ofrece planificación de repasos con FSRS-6 documentado, guardado local con enfoque offline-first en web y móvil, y una vía de autoalojamiento con licencia MIT. No es un clon de Quizlet de código abierto.
 
 Quizlet sigue siendo más completo en modos de estudio guiados, exámenes de práctica, herramientas de estudio con IA y contenido compartido. Flashcards gira en torno a una cola de repaso más sencilla, con tarjetas de anverso y reverso, acceso para agentes y un despliegue de producción con AWS CDK que puedes ejecutar en tu propia cuenta.
 
@@ -29,7 +29,7 @@ Quizlet sigue siendo más completo en modos de estudio guiados, exámenes de pr�
 
 Elige **Quizlet** si quieres un flujo conocido para el aula, distintos tipos de preguntas, exámenes de práctica generados o conjuntos de estudio públicos que ya existen. Sus modos Learn y Test están mucho más desarrollados que una cola convencional de repaso con tarjetas.
 
-Elige **Flashcards** si buscas una alternativa open source a Quizlet sobre todo por la transparencia de su planificación con FSRS-6, el uso offline-first tanto en web como en móvil, el acceso de sistemas de IA y agentes a tu espacio de trabajo o la posibilidad de operar la infraestructura por tu cuenta.
+Elige **Nibomo** si buscas una alternativa open source a Quizlet sobre todo por la transparencia de su planificación con FSRS-6, el uso offline-first tanto en web como en móvil, el acceso de sistemas de IA y agentes a tu espacio de trabajo o la posibilidad de operar la infraestructura por tu cuenta.
 
 Cambiar tiene un coste real. Flashcards no dispone de un importador directo de Quizlet, y la exportación de Quizlet no contiene información suficiente para un traslado sin pérdidas. Si tu flujo actual en Quizlet funciona, quedarte puede ser la decisión más sensata.
 
@@ -149,4 +149,4 @@ Flashcards es una **alternativa de código abierto a Quizlet** en 2026 para un t
 
 No es «Quizlet sin sus inconvenientes». Tiene sus propias carencias: no ofrece modos Learn o Test específicos, una biblioteca comparable de conjuntos compartidos, un importador directo de Quizlet ni una copia de seguridad portátil y completa mediante `flashcards.zip`.
 
-Si esas carencias eliminan las partes de Quizlet que más utilizas, quédate con Quizlet. Si empezaste a buscar por la transparencia del planificador, el estudio offline-first y la posibilidad de controlar tu infraestructura mediante el autoalojamiento, [abre Flashcards](https://app.flashcards-open-source-app.com/) o [consulta el código fuente](https://github.com/kirill-markin/flashcards-open-source-app) antes de decidir. Un buen sistema de estudio es aquel cuyas contrapartidas siguen pareciendo razonables cuando pasa la novedad.
+Si esas carencias eliminan las partes de Quizlet que más utilizas, quédate con Quizlet. Si empezaste a buscar por la transparencia del planificador, el estudio offline-first y la posibilidad de controlar tu infraestructura mediante el autoalojamiento, [abre Nibomo](https://app.flashcards-open-source-app.com/) o [consulta el código fuente](https://github.com/kirill-markin/flashcards-open-source-app) antes de decidir. Un buen sistema de estudio es aquel cuyas contrapartidas siguen pareciendo razonables cuando pasa la novedad.

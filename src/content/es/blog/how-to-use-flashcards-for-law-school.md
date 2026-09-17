@@ -220,7 +220,7 @@ Si quieres más detalle sobre la parte de programación, estos dos artículos en
 
 ## Dónde encaja Flashcards en este flujo de Derecho
 
-Si quieres llevar este flujo dentro de [Flashcards](https://flashcards-open-source-app.com/), la parte útil no es "la IA crea tarjetas" en abstracto. Es que el producto actual ya cubre la parte intermedia y aburrida del trabajo:
+Si quieres llevar este flujo dentro de [Nibomo](https://flashcards-open-source-app.com/), la parte útil no es "la IA crea tarjetas" en abstracto. Es que el producto actual ya cubre la parte intermedia y aburrida del trabajo:
 
 - chat con IA para borradores y limpieza
 - adjuntos de archivos, incluidas subidas de texto plano
@@ -245,7 +245,7 @@ Si quieres **flashcards para la carrera de derecho** que de verdad ayuden:
 
 Si quieres probar ese flujo en Flashcards:
 
-- [Empieza con Flashcards](https://flashcards-open-source-app.com/)
+- [Empieza con Nibomo](https://flashcards-open-source-app.com/)
 - [Abre la app web](https://app.flashcards-open-source-app.com/)
 - [Lee la guía de primeros pasos](https://flashcards-open-source-app.com/docs/getting-started/)
 - [Ver el código fuente en GitHub](https://github.com/kirill-markin/flashcards-open-source-app)

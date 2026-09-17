@@ -216,7 +216,7 @@ Si tus tarjetas generadas con IA ya se sienten hinchadas, [Cómo corregir flashc
 
 ## Dónde encaja Flashcards
 
-[Flashcards](/es/) encaja mejor después de la tarea, cuando el estudio real vuelve a empezar.
+[Nibomo](/es/) encaja mejor después de la tarea, cuando el estudio real vuelve a empezar.
 
 Ese relevo encaja con lo que hoy ofrece el producto:
 

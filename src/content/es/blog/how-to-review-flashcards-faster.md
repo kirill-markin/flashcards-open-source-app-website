@@ -240,7 +240,7 @@ Eso resuelve más casos que la mayoría de consejos complicados de optimización
 
 ## Dónde encaja mejor Flashcards en este flujo
 
-[Flashcards](https://flashcards-open-source-app.com/) encaja bien con este problema concreto porque el producto soporta todo el flujo de "generar menos basura, repasar lo bueno más rápido" sin fingir que cada paso es el mismo trabajo.
+[Nibomo](https://flashcards-open-source-app.com/) encaja bien con este problema concreto porque el producto soporta todo el flujo de "generar menos basura, repasar lo bueno más rápido" sin fingir que cada paso es el mismo trabajo.
 
 Las capacidades actuales del producto en este repo encajan bien con eso:
 
@@ -283,7 +283,7 @@ Y si estás estudiando con IA en 2026, ésa es la habilidad de verdad ahora. No 
 
 Si quieres probar ese flujo en un solo sitio:
 
-- [Abrir Flashcards](https://flashcards-open-source-app.com/)
+- [Abrir Nibomo](https://flashcards-open-source-app.com/)
 - [Abrir la app](https://app.flashcards-open-source-app.com/)
 - [Leer la página de funcionalidades](https://flashcards-open-source-app.com/features/)
 - [Ver el código fuente en GitHub](https://github.com/kirill-markin/flashcards-open-source-app)

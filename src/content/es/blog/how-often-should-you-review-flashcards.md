@@ -51,7 +51,7 @@ Por eso, conviene tratar un **calendario 1-3-7 de flashcards** como una regla in
 
 FSRS es un planificador de repetición espaciada. Después de un repaso, actualiza un modelo del estado de memoria de esa tarjeta y calcula el siguiente intervalo. Tú aportas la señal útil: intentas responder antes de mostrar el reverso y después eliges Again, Hard, Good o Easy con honestidad.
 
-En Flashcards Open Source App, el planificador actual es FSRS-6 y la retención deseada predeterminada es `0.90`. Los intervalos a largo plazo se calculan a partir de la estabilidad actual de la tarjeta, los días naturales transcurridos desde el último repaso, la retención deseada, el intervalo máximo y una variación determinista. Las tarjetas nuevas y las que has fallado también pueden pasar por pasos breves de aprendizaje o reaprendizaje antes de entrar o volver al repaso a largo plazo. Estos son datos específicos del producto documentados en el [documento público de referencia sobre la programación con FSRS](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/docs/fsrs-scheduling-logic.md).
+En Nibomo, el planificador actual es FSRS-6 y la retención deseada predeterminada es `0.90`. Los intervalos a largo plazo se calculan a partir de la estabilidad actual de la tarjeta, los días naturales transcurridos desde el último repaso, la retención deseada, el intervalo máximo y una variación determinista. Las tarjetas nuevas y las que has fallado también pueden pasar por pasos breves de aprendizaje o reaprendizaje antes de entrar o volver al repaso a largo plazo. Estos son datos específicos del producto documentados en el [documento público de referencia sobre la programación con FSRS](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/docs/fsrs-scheduling-logic.md).
 
 Dicho sin tecnicismos:
 
@@ -137,7 +137,7 @@ Planifica hacia atrás desde el día de la prueba. Introduce las tarjetas import
 
 Esa práctica adicional es un repaso intensivo motivado por la fecha límite que se añade al calendario normal. Puede tener todo el sentido. Mantenla separada de la manipulación de valoraciones: una respuesta fallida sigue siendo Again aunque no te guste el intervalo corto, y una respuesta fácil no se convierte en Hard porque quieras volver a verla mañana.
 
-La retención deseada también puede afectar a la carga de trabajo, pero cambiar un ajuste a última hora no es una máquina del tiempo. Según el [contrato de ajustes con efecto solo hacia delante de Flashcards](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/docs/fsrs-scheduling-logic.md), los cambios en la configuración del espacio de trabajo solo afectan a repasos futuros; cambiar la retención deseada no recalcula las fechas ya programadas. La [guía completa para planificar un examen con FSRS](/blog/how-to-study-for-an-exam-with-fsrs/) explica las fases de entrada, estabilización y repaso final sin convertir este artículo en una segunda guía para exámenes.
+La retención deseada también puede afectar a la carga de trabajo, pero cambiar un ajuste a última hora no es una máquina del tiempo. Según el [contrato de ajustes con efecto solo hacia delante de Nibomo](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/docs/fsrs-scheduling-logic.md), los cambios en la configuración del espacio de trabajo solo afectan a repasos futuros; cambiar la retención deseada no recalcula las fechas ya programadas. La [guía completa para planificar un examen con FSRS](/blog/how-to-study-for-an-exam-with-fsrs/) explica las fases de entrada, estabilización y repaso final sin convertir este artículo en una segunda guía para exámenes.
 
 ## Las flashcards de papel necesitan un equivalente manual
 
@@ -159,7 +159,7 @@ El papel tiene cualidades útiles: no exige dispositivo ni cuenta y permite dibu
 
 El **mejor calendario de repaso de flashcards** depende en parte de cuánta carga quieras asumir. La retención deseada indica a un planificador FSRS con qué probabilidad quieres recordar una tarjeta cuando llegue su fecha de repaso. Un objetivo más alto suele producir intervalos más cortos y más repasos, como explica el [manual oficial de Anki sobre FSRS](https://docs.ankiweb.net/deck-options.html#fsrs).
 
-El manual señala que `0.90` es el valor predeterminado de Anki y advierte que la carga aumenta con rapidez cuando la retención deseada se acerca a `1.0`. Es un contexto general útil sobre FSRS, no una afirmación de que todas las opciones de Anki existan en Flashcards. Para consultar los valores predeterminados y los límites de este producto, usa el [documento del planificador de Flashcards](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/docs/fsrs-scheduling-logic.md).
+El manual señala que `0.90` es el valor predeterminado de Anki y advierte que la carga aumenta con rapidez cuando la retención deseada se acerca a `1.0`. Es un contexto general útil sobre FSRS, no una afirmación de que todas las opciones de Anki existan en Flashcards. Para consultar los valores predeterminados y los límites de este producto, usa el [documento del planificador de Nibomo](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/docs/fsrs-scheduling-logic.md).
 
 Un objetivo de `0.90` no significa «repasa cada tarjeta cada diez días» ni garantiza que aciertes exactamente el 90 % de las tarjetas en cada sesión corta. Orienta el cálculo del intervalo a partir de la estimación actual del estado de memoria de cada tarjeta.
 
@@ -190,4 +190,4 @@ La respuesta a **cada cuánto debes repasar flashcards** es lo bastante sencilla
 
 Deja que las tarjetas fáciles y estables se alejen. Deja que las difíciles vuelvan con más cautela. Registra los fallos con honestidad. Cuando no haya nada pendiente, para o haz una actividad de aprendizaje claramente separada. Cuando la vida interrumpa la rutina, vuelve a la cola de tarjetas atrasadas sin reiniciar tu historial.
 
-FSRS se ocupa de las fechas; tú, de recordar. Si quieres ese calendario sin mantener uno en papel, consulta las [funcionalidades de Flashcards](/features/) y la [guía para empezar](/docs/getting-started/). La rutina útil no es complicada: abre, intenta recordar, valora, cierra y vuelve mañana.
+FSRS se ocupa de las fechas; tú, de recordar. Si quieres ese calendario sin mantener uno en papel, consulta las [funcionalidades de Nibomo](/features/) y la [guía para empezar](/docs/getting-started/). La rutina útil no es complicada: abre, intenta recordar, valora, cierra y vuelve mañana.

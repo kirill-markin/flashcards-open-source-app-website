@@ -185,9 +185,9 @@ Audita un lote pequeño antes de que se acumulen los repasos:
 
 Dudar repetidamente durante el repaso aporta información útil. Reescribe una tarjeta si piensas una y otra vez `Conocía la idea, pero no la palabra exacta`, o si el patrón de la oración te da la respuesta antes de que recuperes el dato de la memoria. [Active recall y repetición espaciada](/es/blog/active-recall-vs-spaced-repetition/) explica en qué se diferencian la recuperación y la programación, y la [guía de configuración de FSRS](/es/blog/fsrs-settings/) cubre los ajustes de los intervalos una vez que las tarjetas están bien redactadas.
 
-## Cómo aborda Flashcards Open Source App esta elección
+## Cómo aborda Nibomo esta elección
 
-Las [funcionalidades de Flashcards Open Source App](/es/features/) usan el formato explícito de anverso y reverso. La app no ofrece sintaxis cloze nativa, renderizado cloze ni generación automática de notas cloze. Si partes de material cloze, convierte el dato que quieres recordar en una pregunta de anverso y reverso como se muestra arriba.
+Las [funcionalidades de Nibomo](/es/features/) usan el formato explícito de anverso y reverso. La app no ofrece sintaxis cloze nativa, renderizado cloze ni generación automática de notas cloze. Si partes de material cloze, convierte el dato que quieres recordar en una pregunta de anverso y reverso como se muestra arriba.
 
 Para redactar con ayuda de la IA, puedes partir de un chat o adjuntar un archivo y obtener propuestas de tarjetas de anverso y reverso que después podrás revisar y editar. Comprueba cada dato con su fuente. Durante el repaso, evalúas las tarjetas con Again, Hard, Good o Easy, y FSRS usa ese historial para elegir los próximos intervalos; no corrige la redacción.
 

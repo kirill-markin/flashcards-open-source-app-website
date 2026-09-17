@@ -244,7 +244,7 @@ Si quieres la parte específica del planificador, [Configuración de FSRS en 202
 
 ## Dónde encaja Flashcards en este flujo
 
-[Flashcards](/es/) encaja mejor después de que ya sabes qué merece repaso.
+[Nibomo](/es/) encaja mejor después de que ya sabes qué merece repaso.
 
 El producto ya cubre bien la parte central de este flujo:
 

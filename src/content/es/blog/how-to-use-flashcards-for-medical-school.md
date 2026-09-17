@@ -240,7 +240,7 @@ Ahí es donde el mazo se gana su espacio.
 
 ## Dónde encaja mejor Flashcards en este flujo
 
-[Flashcards](https://flashcards-open-source-app.com/) encaja bien para **flashcards de medicina** porque el producto ya soporta las piezas de las que depende este tipo de flujo:
+[Nibomo](https://flashcards-open-source-app.com/) encaja bien para **flashcards de medicina** porque el producto ya soporta las piezas de las que depende este tipo de flujo:
 
 - tarjetas anverso/reverso para preguntas de recuperación limpias
 - chat con IA para redactar tarjetas candidatas a partir de texto de clase, apuntes o material de revisión de preguntas

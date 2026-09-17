@@ -232,9 +232,9 @@ Una vez por semana, compara tu mazo con la tabla de dominios. Esto permite detec
 
 CompTIA recomienda 12 meses de experiencia práctica en un puesto de especialista en soporte de TI para ambos exámenes V15. Es una recomendación, no un requisito de certificación adicional, pero sirve para recordar el nivel de contexto práctico que exigen los objetivos.
 
-## Dónde encaja Flashcards Open Source App
+## Dónde encaja Nibomo
 
-[Flashcards Open Source App](/features/) se ocupa de la parte de memorización: tarjetas sencillas de anverso y reverso, mazos y etiquetas, repaso de las tarjetas pendientes con FSRS, ayuda opcional de IA para crear borradores de tarjetas, estudio sin conexión en el móvil con sincronización y exportaciones transferibles. La aplicación alojada es gratuita durante la beta actual y el proyecto se puede autoalojar.
+[Nibomo](/features/) se ocupa de la parte de memorización: tarjetas sencillas de anverso y reverso, mazos y etiquetas, repaso de las tarjetas pendientes con FSRS, ayuda opcional de IA para crear borradores de tarjetas, estudio sin conexión en el móvil con sincronización y exportaciones transferibles. La aplicación alojada es gratuita durante la beta actual y el proyecto se puede autoalojar.
 
 Una configuración sencilla para A+ puede limitarse a esto:
 

@@ -123,7 +123,7 @@ Es por eso que no confío plenamente en las exportaciones sin procesar de ningú
 
 ## Dónde se adapta mejor Flashcards a este flujo de trabajo
 
-[Flashcards](https://flashcards-open-source-app.com/) encaja perfectamente en esta brecha exacta porque el producto no es solo un generador ni solo una herramienta de revisión. Le permite realizar el paso de limpieza en el mismo lugar donde se realizará la revisión.
+[Nibomo](https://flashcards-open-source-app.com/) encaja perfectamente en esta brecha exacta porque el producto no es solo un generador ni solo una herramienta de revisión. Le permite realizar el paso de limpieza en el mismo lugar donde se realizará la revisión.
 
 Eso importa más de lo que la gente admite.
 
@@ -206,4 +206,4 @@ Los trataría como un borrador.
 
 Esa es la versión de **tarjetas didácticas de NotebookLM** en la que más confío: utilice NotebookLM para pasar de fuentes confusas a tarjetas candidatas, luego mueva esas tarjetas a un flujo de trabajo de repetición espaciada real donde pueda editarlas, acortarlas y revisarlas con un programador real.
 
-Si eso es lo que quieres, [Flashcards](https://flashcards-open-source-app.com/) es una buena opción. Le brinda un puente práctico entre el material de estudio generado por IA y un mazo que quizás todavía esté revisando dentro de un mes.
+Si eso es lo que quieres, [Nibomo](https://flashcards-open-source-app.com/) es una buena opción. Le brinda un puente práctico entre el material de estudio generado por IA y un mazo que quizás todavía esté revisando dentro de un mes.

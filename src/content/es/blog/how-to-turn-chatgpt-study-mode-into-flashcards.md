@@ -234,7 +234,7 @@ Si quieres la comparación entre algoritmos, aquí se desarrolla más:
 
 ## Aquí es donde Flashcards encaja mejor en este flujo de trabajo
 
-[Flashcards](https://flashcards-open-source-app.com/) encaja bien en **cómo convertir ChatGPT Study Mode en tarjetas didácticas** porque cubre justo la parte que la tutoría con IA todavía no resuelve por sí sola:
+[Nibomo](https://flashcards-open-source-app.com/) encaja bien en **cómo convertir ChatGPT Study Mode en tarjetas didácticas** porque cubre justo la parte que la tutoría con IA todavía no resuelve por sí sola:
 
 - tarjetas de anverso y reverso en lugar de una memoria que vive solo en el chat
 - chat con IA para limpiar y redactar
@@ -267,7 +267,7 @@ Esa es la versión de **flashcards de ChatGPT Study Mode** que tiene sentido par
 
 Si eso es lo que buscas, empieza aquí:
 
-- [Abrir Flashcards](https://flashcards-open-source-app.com/)
+- [Abrir Nibomo](https://flashcards-open-source-app.com/)
 - [Abrir la app](https://app.flashcards-open-source-app.com/)
 - [Ver las funcionalidades](https://flashcards-open-source-app.com/features/)
 - [Ver el código fuente en GitHub](https://github.com/kirill-markin/flashcards-open-source-app)

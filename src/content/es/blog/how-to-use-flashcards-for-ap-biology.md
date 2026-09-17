@@ -236,7 +236,7 @@ Si quieres más detalle sobre la parte de planificación, [Cómo estudiar para u
 
 ## Dónde encaja Flashcards en este flujo de trabajo de AP Biology
 
-Si quieres llevar esto dentro de [Flashcards](https://flashcards-open-source-app.com/), la parte útil no es una promesa vaga de que la IA va a aprender biología por arte de magia por ti.
+Si quieres llevar esto dentro de [Nibomo](https://flashcards-open-source-app.com/), la parte útil no es una promesa vaga de que la IA va a aprender biología por arte de magia por ti.
 
 La parte útil es que el producto ya cubre la parte intermedia y desordenada del flujo:
 

@@ -246,7 +246,7 @@ Si el punto débil está en la calidad de las tarjetas, éste es el siguiente ar
 
 ## Dónde encaja mejor Flashcards en este flujo
 
-[Flashcards](https://flashcards-open-source-app.com/) encaja bien en este tipo de preparación de certificaciones porque el producto ya cubre las piezas de las que depende este flujo:
+[Nibomo](https://flashcards-open-source-app.com/) encaja bien en este tipo de preparación de certificaciones porque el producto ya cubre las piezas de las que depende este flujo:
 
 - tarjetas anverso/reverso para preguntas de recuperación limpias
 - chat con IA para crear borradores a partir de apuntes, guías de estudio y material de revisión de preguntas
@@ -276,7 +276,7 @@ Más recuerdo que de verdad sobrevive al cronómetro del examen.
 
 Si quieres probar ese flujo de trabajo:
 
-- [Abrir Flashcards](https://flashcards-open-source-app.com/)
+- [Abrir Nibomo](https://flashcards-open-source-app.com/)
 - [Abrir la app](https://app.flashcards-open-source-app.com/)
 - [Leer la página de funcionalidades](https://flashcards-open-source-app.com/features/)
 - [Ver el código fuente en GitHub](https://github.com/kirill-markin/flashcards-open-source-app)

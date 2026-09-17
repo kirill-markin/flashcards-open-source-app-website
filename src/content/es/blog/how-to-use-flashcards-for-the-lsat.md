@@ -185,7 +185,7 @@ Yo lo mantendría aburrido a propósito.
 
 Esta parte debería seguir siendo explícita.
 
-Flashcards Open Source App no es una herramienta oficial de LSAC y no tiene ninguna integración oficial con el LSAT. Úsala con tus propios apuntes, tus propios resúmenes, tus propias explicaciones y tu propia revisión de material obtenido de forma lícita. No la uses para construir un archivo privado de preguntas, pasajes o bancos de respuestas del LSAT copiados sin derecho a reproducción.
+Nibomo no es una herramienta oficial de LSAC y no tiene ninguna integración oficial con el LSAT. Úsala con tus propios apuntes, tus propios resúmenes, tus propias explicaciones y tu propia revisión de material obtenido de forma lícita. No la uses para construir un archivo privado de preguntas, pasajes o bancos de respuestas del LSAT copiados sin derecho a reproducción.
 
 Y, además, así se estudia mejor. La mejor tarjeta casi nunca es la pregunta completa. Suele ser tu resumen compacto del error de razonamiento y de la siguiente decisión que quieres acertar.
 
@@ -209,9 +209,9 @@ Lo que FSRS no hace es rescatar tarjetas vagas ni mazos anticuados. Yo mantendr�
 
 Si quieres más detalle sobre la parte de programación, [Cómo estudiar para un examen con FSRS en 2026](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/) y [FSRS vs SM-2 en 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/) son las continuaciones directas.
 
-## Dónde encaja Flashcards Open Source App
+## Dónde encaja Nibomo
 
-Si quieres llevar este flujo dentro de [Flashcards](https://flashcards-open-source-app.com/), la parte útil no es una promesa vaga de que la IA estudiará por ti. La parte útil es que el producto actual ya cubre la parte intermedia del trabajo:
+Si quieres llevar este flujo dentro de [Nibomo](https://flashcards-open-source-app.com/), la parte útil no es una promesa vaga de que la IA estudiará por ti. La parte útil es que el producto actual ya cubre la parte intermedia del trabajo:
 
 - chat con IA y adjuntos de archivos en la app web alojada
 - creación y edición de tarjetas anverso/reverso

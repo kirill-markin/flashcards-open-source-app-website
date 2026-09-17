@@ -228,7 +228,7 @@ Eso hace que el borrador salga más limpio y que sea más fácil confiar en la c
 
 ## Dónde encaja Flashcards
 
-[Flashcards](https://flashcards-open-source-app.com/) encaja bien para **convertir preguntas de práctica en tarjetas de estudio** porque el producto ya tiene las piezas que necesita este flujo de trabajo:
+[Nibomo](https://flashcards-open-source-app.com/) encaja bien para **convertir preguntas de práctica en tarjetas de estudio** porque el producto ya tiene las piezas que necesita este flujo de trabajo:
 
 - chat con IA
 - adjuntos de archivos e imágenes
@@ -273,7 +273,7 @@ Errores más útiles.
 
 Si eso es lo que buscas, empieza aquí:
 
-- [Abrir el sitio de Flashcards](https://flashcards-open-source-app.com/)
+- [Abrir el sitio de Nibomo](https://flashcards-open-source-app.com/)
 - [Abrir la aplicación](https://app.flashcards-open-source-app.com/)
 - [Leer la guía de introducción](https://flashcards-open-source-app.com/docs/getting-started/)
 - [Ver el código fuente en GitHub](https://github.com/kirill-markin/flashcards-open-source-app)

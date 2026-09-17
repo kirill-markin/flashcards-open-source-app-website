@@ -20,7 +20,7 @@ Cada archivo resuelve un problema distinto. El paquete de la colección es tu v�
 
 Este proceso está pensado para mazos basados en texto y aplicaciones capaces de trabajar con TXT o CSV. La exportación de texto no conserva el estado de programación de Anki, las plantillas, los complementos ni los archivos multimedia. Primero probarás un mazo representativo, revisarás todos los campos y mantendrás intacta la colección original hasta obtener un resultado que puedas usar con confianza.
 
-> **Aviso:** Soy Kirill Markin y desarrollo [Flashcards](https://flashcards-open-source-app.com/). Esta guía deja claro cuándo conviene seguir usando Anki o elegir una aplicación que importe archivos `.apkg`.
+> **Aviso:** Soy Kirill Markin y desarrollo [Nibomo](https://flashcards-open-source-app.com/). Esta guía deja claro cuándo conviene seguir usando Anki o elegir una aplicación que importe archivos `.apkg`.
 
 **Información comprobada:** 27 de agosto de 2026.
 
@@ -166,7 +166,7 @@ Compara la muestra con Anki, una junto a la otra. No aceptes un «casi todo pare
 
 Si la prueba falla, elimina las tarjetas temporales mediante el proceso de limpieza de la propia aplicación y modifica la asignación o el proceso de limpieza. Tu colección de Anki y los dos archivos exportados permanecerán intactos. Eso es lo que hace que la prueba sea reversible.
 
-## Cómo usar el archivo TXT con Flashcards Open Source App
+## Cómo usar el archivo TXT con Nibomo
 
 Flashcards no tiene un importador directo de Anki. No puede leer archivos `.apkg` o `.colpkg` y reconstruir las plantillas, los archivos multimedia ni el historial de repasos de Anki.
 
@@ -212,7 +212,7 @@ Sigue usando Anki o elige una aplicación que importe archivos `.apkg` de forma 
 - ajustes predefinidos y una organización de mazos que deban transferirse con exactitud;
 - un historial de repasos o una programación actual que no puedas permitirte reiniciar.
 
-Anki es una opción sólida para esos métodos de estudio. La migración mediante TXT no es un veredicto sobre la aplicación, sino una herramienta limitada para quienes conservan su material más valioso principalmente en el contenido de las notas. La [comparativa más amplia entre Anki y Flashcards](/es/blog/anki-vs-flashcards-open-source-app/) explica las ventajas y los inconvenientes de ambos productos sin dar por hecho que todo el mundo deba cambiar.
+Anki es una opción sólida para esos métodos de estudio. La migración mediante TXT no es un veredicto sobre la aplicación, sino una herramienta limitada para quienes conservan su material más valioso principalmente en el contenido de las notas. La [comparativa más amplia entre Anki y Nibomo](/es/blog/anki-vs-flashcards-open-source-app/) explica las ventajas y los inconvenientes de ambos productos sin dar por hecho que todo el mundo deba cambiar.
 
 ## La versión segura es aburrida a propósito
 

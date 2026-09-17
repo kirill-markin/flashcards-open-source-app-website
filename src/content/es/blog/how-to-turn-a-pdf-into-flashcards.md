@@ -158,7 +158,7 @@ Si desea conocer la programación con más detalle, este artículo complementari
 
 ## Dónde encaja Flashcards en este flujo de trabajo
 
-[Flashcards](https://flashcards-open-source-app.com/) funciona bien para **convertir pdf en tarjetas didácticas** porque el producto ya tiene las partes importantes en un solo lugar:
+[Nibomo](https://flashcards-open-source-app.com/) funciona bien para **convertir pdf en tarjetas didácticas** porque el producto ya tiene las partes importantes en un solo lugar:
 
 - Chat de IA
 - archivos adjuntos
@@ -209,4 +209,4 @@ Pídele que se convierta en materia prima para un mejor calado.
 
 Esa es la versión de **cómo convertir un PDF en tarjetas didácticas** en la que realmente confío. Es menos mágico, un poco más manual y es mucho más probable que produzcas cartas que seguirás respetando después de tres sesiones de revisión.
 
-Si ese es el flujo de trabajo que desea, [Flashcards](https://flashcards-open-source-app.com/) es una buena opción: cargue el documento, redacte las tarjetas con IA, límpielas y luego estúdielas dentro de un sistema de repetición espaciada real en lugar de dejarlas varadas en una demostración de generación.
+Si ese es el flujo de trabajo que desea, [Nibomo](https://flashcards-open-source-app.com/) es una buena opción: cargue el documento, redacte las tarjetas con IA, límpielas y luego estúdielas dentro de un sistema de repetición espaciada real en lugar de dejarlas varadas en una demostración de generación.

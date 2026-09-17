@@ -231,7 +231,7 @@ Si ésa es la parte que quieres afinar, [Cómo crear mejores flashcards en 2026]
 
 ## Dónde encaja Flashcards
 
-[Flashcards](/es/) encaja mejor una vez que ya sabes qué merece quedarse en la memoria.
+[Nibomo](/es/) encaja mejor una vez que ya sabes qué merece quedarse en la memoria.
 
 Para las **flashcards para COMLEX Level 1**, la configuración útil suele ser:
 

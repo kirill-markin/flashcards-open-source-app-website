@@ -248,7 +248,7 @@ Así que deja el orden simple:
 
 ## Dónde encaja Flashcards en este flujo de AP Calculus
 
-[Flashcards](https://flashcards-open-source-app.com/) encaja bien en este flujo de AP Calculus si quieres un solo sitio donde mantener todo el ciclo ajustado sin convertir el artículo en un discurso de venta.
+[Nibomo](https://flashcards-open-source-app.com/) encaja bien en este flujo de AP Calculus si quieres un solo sitio donde mantener todo el ciclo ajustado sin convertir el artículo en un discurso de venta.
 
 Lo útil no es que sea "para estudiantes". Lo útil es que te permite guardar tarjetas de reglas, fallos de FRQ y tarjetas de series de BC dentro de un mismo sistema de repaso en vez de dispersarlo entre apuntes, capturas y correcciones viejas.
 

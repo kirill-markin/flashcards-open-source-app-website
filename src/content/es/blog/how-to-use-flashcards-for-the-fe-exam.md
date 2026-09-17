@@ -338,7 +338,7 @@ Estos dos artículos son las siguientes lecturas naturales para esa parte:
 
 ## Dónde encaja Flashcards en este flujo
 
-[Flashcards](/es/) encaja bien con este estilo de preparación del FE porque el producto cubre la parte media del flujo, no solo el primer borrador:
+[Nibomo](/es/) encaja bien con este estilo de preparación del FE porque el producto cubre la parte media del flujo, no solo el primer borrador:
 
 - tarjetas de anverso y reverso para ecuaciones, comprobaciones de unidades y patrones trampa
 - mazos y etiquetas para separar el repaso común de ingeniería del específico por disciplina

@@ -18,7 +18,7 @@ StudyFetch lanzó su Spaced Learning Hub el 13 de julio de 2026. Ese único lanz
 
 Por eso, al buscar una **alternativa a StudyFetch**, la pregunta ya no es «¿Qué aplicación puede crear flashcards con IA?». La decisión importante es qué quieres situar en el centro de tu sistema de estudio: el amplio conjunto de herramientas de IA de StudyFetch, que trabaja a partir de tus fuentes; la consolidada colección local de Anki; o el flujo más reciente, abierto y basado en FSRS y agentes de Flashcards.
 
-> **Aviso de transparencia:** Soy Kirill Markin y desarrollo [Flashcards](/), uno de los productos comparados aquí. Eso no convierte automáticamente a Flashcards en la mejor opción. StudyFetch ofrece el conjunto más amplio de herramientas integradas para tutoría y práctica con IA de esta comparativa. Anki cuenta con el ecosistema sin conexión más maduro, además de las plantillas, los complementos, los formatos de migración y los controles de programación de repasos más completos.
+> **Aviso de transparencia:** Soy Kirill Markin y desarrollo [Nibomo](/), uno de los productos comparados aquí. Eso no convierte automáticamente a Flashcards en la mejor opción. StudyFetch ofrece el conjunto más amplio de herramientas integradas para tutoría y práctica con IA de esta comparativa. Anki cuenta con el ecosistema sin conexión más maduro, además de las plantillas, los complementos, los formatos de migración y los controles de programación de repasos más completos.
 
 **Datos comprobados:** 17 de agosto de 2026. La Política de privacidad vigente de StudyFetch para consumidores está fechada el 13 de agosto de 2026 y sus Términos del servicio, el 16 de agosto de 2026. Estas páginas son distintas de los acuerdos para empresas e instituciones educativas. No pude verificar el precio actual de StudyFetch para la web en ninguna página pública oficial, así que esta guía no repite cifras publicadas en blogs de la competencia.
 
@@ -28,7 +28,7 @@ Por eso, al buscar una **alternativa a StudyFetch**, la pregunta ya no es «¿Qu
 
 - Elige **StudyFetch** si quieres un único espacio de trabajo que convierta el material de una asignatura en apuntes, flashcards, cuestionarios, exámenes de práctica, tutoría, audio, vídeo y otras actividades. Spaced Learning Hub también reúne ahora sus flashcards en una cola común de repasos pendientes.
 - Elige **Anki** si la colección en sí es lo que quieres conservar a largo plazo. Ofrece aplicaciones locales para ordenador y móvil, tipos de nota y plantillas flexibles, complementos, formatos de archivo consolidados y los controles de FSRS más completos de los tres.
-- Elige **Flashcards** si quieres tarjetas de anverso y reverso que puedas revisar antes de guardarlas, FSRS-6 documentado, clientes web y móviles que guardan primero en local, código con licencia MIT, una vía para autoalojar todo el stack y acceso directo para agentes de IA.
+- Elige **Nibomo** si quieres tarjetas de anverso y reverso que puedas revisar antes de guardarlas, FSRS-6 documentado, clientes web y móviles que guardan primero en local, código con licencia MIT, una vía para autoalojar todo el stack y acceso directo para agentes de IA.
 - Usa **dos herramientas** si cada una resuelve una tarea distinta. StudyFetch puede ayudarte a entender y practicar una asignatura; Anki o Flashcards pueden conservar el grupo más pequeño de preguntas verificadas que todavía quieras recordar el año que viene.
 
 ## StudyFetch vs Anki vs Flashcards

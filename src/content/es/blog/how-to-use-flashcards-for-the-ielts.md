@@ -233,9 +233,9 @@ Una estructura más simple suele aguantar mejor:
 
 Eso te da un único sitio para estudiar y, al mismo tiempo, te permite acercarte justo a la parte por la que estás perdiendo puntos.
 
-## Dónde encaja Flashcards Open Source App
+## Dónde encaja Nibomo
 
-[Flashcards](/es/) encaja bien en la preparación del IELTS porque el flujo útil es estrecho y repetitivo en el buen sentido:
+[Nibomo](/es/) encaja bien en la preparación del IELTS porque el flujo útil es estrecho y repetitivo en el buen sentido:
 
 - mantén un mazo `IELTS` y etiqueta las tarjetas por tipo de examen, destreza y patrón de error
 - convierte las preguntas falladas, las notas en bruto de Speaking y las correcciones desordenadas de Writing en tarjetas de anverso y reverso justo después de practicar
@@ -260,7 +260,7 @@ Esa es una respuesta mucho mejor a **cómo estudiar para el IELTS** que construi
 
 Si quieres probar este flujo dentro del producto real:
 
-- [Abrir Flashcards](/es/)
+- [Abrir Nibomo](/es/)
 - [Abrir la app](https://app.flashcards-open-source-app.com/)
 - [Leer la guía de primeros pasos](/es/docs/getting-started/)
 - [Ver el código fuente en GitHub](https://github.com/kirill-markin/flashcards-open-source-app)

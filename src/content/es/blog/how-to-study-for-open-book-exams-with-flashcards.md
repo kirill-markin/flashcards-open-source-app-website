@@ -254,9 +254,9 @@ El flujo útil en 2026 se parece más a esto: deja que la IA reduzca el tiempo d
 
 Si primero estudias a partir de una sesión con IA en modo tutor, [Cómo usar IA para active recall en 2026](/es/blog/how-to-use-ai-for-active-recall/) es el artículo complementario más cercano.
 
-## Dónde encaja Flashcards Open Source App
+## Dónde encaja Nibomo
 
-[Flashcards](/es/) encaja bien en la preparación para exámenes con libro abierto porque este tipo de estudio es pequeño y preciso. No estás intentando almacenar todo el curso. Estás intentando mantener un mazo limpio de los prompts que todavía necesitan volverse automáticos:
+[Nibomo](/es/) encaja bien en la preparación para exámenes con libro abierto porque este tipo de estudio es pequeño y preciso. No estás intentando almacenar todo el curso. Estás intentando mantener un mazo limpio de los prompts que todavía necesitan volverse automáticos:
 
 - reconocimiento del tipo de problema
 - selección de reglas

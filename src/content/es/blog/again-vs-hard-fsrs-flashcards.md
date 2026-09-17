@@ -191,7 +191,7 @@ FSRS programa a partir de la señal que le das. No puede reparar una pregunta am
 
 ## Cómo encajan las cuatro valoraciones de FSRS en Flashcards
 
-Las [funcionalidades de Flashcards Open Source App](/es/features/) incluyen repasos de anverso y reverso con FSRS. Envías Again, Hard, Good o Easy, y el backend usa esa valoración para calcular cuándo toca el próximo repaso.
+Las [funcionalidades de Nibomo](/es/features/) incluyen repasos de anverso y reverso con FSRS. Envías Again, Hard, Good o Easy, y el backend usa esa valoración para calcular cuándo toca el próximo repaso.
 
 Aplica la misma regla de dos pasos en ese flujo:
 

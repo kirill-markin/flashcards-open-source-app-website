@@ -14,11 +14,11 @@ keywords:
   - "generador de flashcards para vídeos de YouTube"
 ---
 
-La mejor herramienta para convertir vídeos de YouTube en flashcards depende menos de la rapidez con la que acepta una URL que de las opciones que ofrece después para revisar, editar, repasar y trasladar el contenido. AnkiDecks ofrece la ruta documentada más clara desde la URL de un vídeo público de YouTube hasta un archivo `.apkg` para Anki. StudyFetch y Knowt son más directos si quieres generar y estudiar las tarjetas dentro de sus propios entornos. El flujo que Gizmo documenta para YouTube crea una lección con AI Tutor, no un mazo de tarjetas. Flashcards Open Source App exige un paso adicional porque tienes que aportar la transcripción, pero te da un mazo editable y transferible con FSRS, estudio sin conexión y la opción de alojar la aplicación por tu cuenta.
+La mejor herramienta para convertir vídeos de YouTube en flashcards depende menos de la rapidez con la que acepta una URL que de las opciones que ofrece después para revisar, editar, repasar y trasladar el contenido. AnkiDecks ofrece la ruta documentada más clara desde la URL de un vídeo público de YouTube hasta un archivo `.apkg` para Anki. StudyFetch y Knowt son más directos si quieres generar y estudiar las tarjetas dentro de sus propios entornos. El flujo que Gizmo documenta para YouTube crea una lección con AI Tutor, no un mazo de tarjetas. Nibomo exige un paso adicional porque tienes que aportar la transcripción, pero te da un mazo editable y transferible con FSRS, estudio sin conexión y la opción de alojar la aplicación por tu cuenta.
 
 Así que no hay un único ganador para todo el mundo. Elige primero el resultado que quieres y cómo podrás llevártelo; introducir el contenido es la parte fácil.
 
-**Transparencia:** desarrollo Flashcards Open Source App. Esta comparación se basa en la documentación oficial vigente, no en pruebas prácticas. **Información verificada: 13 de septiembre de 2026.**
+**Transparencia:** desarrollo Nibomo. Esta comparación se basa en la documentación oficial vigente, no en pruebas prácticas. **Información verificada: 13 de septiembre de 2026.**
 
 ![Estudiante que compara una transcripción de YouTube con cinco borradores de tarjetas antes de elegir una aplicación de estudio](/blog/youtube-to-flashcards.png)
 
@@ -30,7 +30,7 @@ Así que no hay un único ganador para todo el mundo. Elige primero el resultado
 | [Knowt](https://help.knowt.com/en/articles/10298038-how-to-create-flashcards-and-notes-from-a-youtube-video-using-the-chrome-extension) | Sí, mediante su extensión para Chrome | Kai analiza el vídeo abierto, envía el resultado a Knowt y puede crear tarjetas o apuntes | La guía citada sobre YouTube mantiene el flujo dentro de Knowt y no documenta ningún paso de exportación | Ya ves los vídeos en Chrome y quieres la ruta más corta para llevarlos a Knowt |
 | [AnkiDecks](https://anki-decks.com/) | Sí; pega la URL de un vídeo público de YouTube | Tarjetas de pregunta-respuesta, tipo cloze u opción múltiple, basadas en la transcripción y con marcas de tiempo | Documenta FSRS integrado y exportación a `.apkg` | Quieres crear tarjetas de Anki desde YouTube o una salida claramente compatible con Anki |
 | [Gizmo](https://help.gizmo.ai/en/articles/15935404-how-do-i-use-magic-import-to-start-an-ai-tutor-lesson) | Sí; pega una URL de YouTube en la importación documentada de AI Tutor | Una lección de AI Tutor basada en la transcripción, que te enseña y te hace preguntas | Esta opción genera una lección, no un flujo documentado para convertir YouTube en tarjetas exportables | Prefieres una tutoría guiada a un mazo reutilizable |
-| [Flashcards Open Source App](/features/) | No hay una importación directa documentada mediante URL de YouTube; [aporta la transcripción como archivo adjunto](/docs/getting-started/) | Borradores de tarjetas creados con ayuda de IA que tú eliges, editas y guardas | FSRS, exportaciones transferibles, estudio móvil sin conexión y alojamiento propio | Valoras la verificación, la propiedad de los datos y un sistema de repaso duradero |
+| [Nibomo](/features/) | No hay una importación directa documentada mediante URL de YouTube; [aporta la transcripción como archivo adjunto](/docs/getting-started/) | Borradores de tarjetas creados con ayuda de IA que tú eliges, editas y guardas | FSRS, exportaciones transferibles, estudio móvil sin conexión y alojamiento propio | Valoras la verificación, la propiedad de los datos y un sistema de repaso duradero |
 
 La etiqueta «generador de flashcards a partir de YouTube» oculta una diferencia importante: aceptar un enlace de YouTube no te dice si recibirás tarjetas, una sesión con un tutor, un mazo editable o un archivo que podrás llevarte a otro sitio.
 
@@ -141,9 +141,9 @@ Sigue este orden para elegir:
 
 Este enfoque también evita una trampa habitual: elegir un generador por su demostración y descubrir después que el mazo resulta difícil de editar, comprobar o trasladar cuando empieza el trabajo de verdad.
 
-## Dónde encaja de verdad Flashcards Open Source App
+## Dónde encaja de verdad Nibomo
 
-Flashcards Open Source App **no** documenta actualmente la importación directa mediante una URL de YouTube. La ruta práctica empieza por la transcripción:
+Nibomo **no** documenta actualmente la importación directa mediante una URL de YouTube. La ruta práctica empieza por la transcripción:
 
 1. Abre la transcripción del vídeo en YouTube.
 2. Guarda el capítulo relevante en un archivo en lugar de enviar la transcripción entera.

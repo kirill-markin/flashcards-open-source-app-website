@@ -281,7 +281,7 @@ Solo convertiste un formato de deberes en otro.
 
 ## Dónde encaja Flashcards
 
-[Flashcards](https://flashcards-open-source-app.com/) encaja bien para **pasar una guía de estudio a tarjetas de estudio** porque el producto ya tiene las piezas que necesita este flujo de trabajo:
+[Nibomo](https://flashcards-open-source-app.com/) encaja bien para **pasar una guía de estudio a tarjetas de estudio** porque el producto ya tiene las piezas que necesita este flujo de trabajo:
 
 - chat con IA para reestructurar texto en bruto de una guía de estudio
 - adjuntos de archivos e imágenes
@@ -321,7 +321,7 @@ Más recuerdo con menos material.
 
 Si eso es lo que buscas, empieza aquí:
 
-- [Ir a Flashcards](https://flashcards-open-source-app.com/)
+- [Ir a Nibomo](https://flashcards-open-source-app.com/)
 - [Abrir la aplicación](https://app.flashcards-open-source-app.com/)
 - [Leer la guía de introducción](https://flashcards-open-source-app.com/docs/getting-started/)
 - [Ver el código fuente en GitHub](https://github.com/kirill-markin/flashcards-open-source-app)

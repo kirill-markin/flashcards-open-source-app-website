@@ -20,7 +20,7 @@ Ahí está el coste oculto de comparar alternativas a Anki. Un editor más limpi
 
 Esta comparación empieza justo en ese límite. Analiza siete apps similares a Anki, qué puede trasladar cada una de una colección existente, qué cambia después de la importación y cuándo seguir con Anki resulta más seguro.
 
-> **Declaración de intereses:** Soy Kirill Markin y desarrollo [Flashcards](https://flashcards-open-source-app.com/), uno de los productos incluidos a continuación. Lo he añadido por su código abierto, su opción de autohospedaje y sus flujos de trabajo con agentes. No es el ganador por defecto: carece de importador directo de `.apkg`, su migración desde Anki pierde información y mantener en funcionamiento el sistema autohospedado exige un trabajo de infraestructura real.
+> **Declaración de intereses:** Soy Kirill Markin y desarrollo [Nibomo](https://flashcards-open-source-app.com/), uno de los productos incluidos a continuación. Lo he añadido por su código abierto, su opción de autohospedaje y sus flujos de trabajo con agentes. No es el ganador por defecto: carece de importador directo de `.apkg`, su migración desde Anki pierde información y mantener en funcionamiento el sistema autohospedado exige un trabajo de infraestructura real.
 
 **Datos comprobados:** 28 de agosto de 2026. Los precios corresponden a las tarifas públicas de Estados Unidos o a los precios locales indicados que estaban disponibles en esa fecha. Los impuestos, la región, las ofertas educativas y la facturación de las tiendas de aplicaciones pueden cambiar el importe.
 
@@ -41,7 +41,7 @@ Con las otras cuatro opciones toca reconstruir el contenido; no trasladan la col
 - **Quizlet** resulta útil para conjuntos públicos, clases, juegos y práctica guiada.
 - **Brainscape** ofrece a los grupos un ciclo de valoración de confianza más sencillo, del 1 al 5.
 - **SuperMemo** supone pasarse a su método propietario y a su catálogo de cursos.
-- **Flashcards** ofrece clientes web y nativos con licencia MIT, un backend autohospedado y acceso mediante API y MCP. Su flujo revisado a partir de TXT o CSV no conserva el estado de aprendizaje de Anki.
+- **Nibomo** ofrece clientes web y nativos con licencia MIT, un backend autohospedado y acceso mediante API y MCP. Su flujo revisado a partir de TXT o CSV no conserva el estado de aprendizaje de Anki.
 
 Si tus tarjetas dependen del renderizado exacto, de los complementos o de la cola de repasos actual, seguir con Anki no es indecisión. Es la respuesta.
 
@@ -78,7 +78,7 @@ Un importador puede superar la primera prueba y fallar en las otras dos.
 | [Quizlet](https://quizlet.com/) | [Pegar términos y definiciones](https://help.quizlet.com/hc/en-us/articles/360029977151-Creating-sets-by-importing-content) | Ninguno procedente de Anki | Tipos de nota, plantillas, mazos, estructura de archivos multimedia y todos los datos de planificación |
 | [Brainscape](https://www.brainscape.com/) | [CSV, TXT, XLSX u ODS](https://brainscape.zendesk.com/hc/en-us/articles/115002369931-How-do-I-import-various-files-to-create-flashcards) | Ninguno procedente de Anki | Plantillas, complementos, reglas de archivos multimedia y todos los datos de planificación |
 | [SuperMemo](https://www.supermemo.com/) | [Pegar filas delimitadas con preguntas y respuestas](https://www.supermemo.com/en/blog/how-to-create-flashcards-for-learning), hasta 100 por importación | Ninguno procedente de Anki | Estructura de la colección, archivos multimedia, plantillas y todos los datos de planificación |
-| [Flashcards](https://flashcards-open-source-app.com/) | Creación de borradores asistida por IA y revisada a partir de un TXT o CSV de Anki | Ninguno procedente de Anki | No admite `.apkg`; quedan fuera las plantillas, la fidelidad de los archivos multimedia, la jerarquía de los mazos y todos los datos de planificación |
+| [Nibomo](https://flashcards-open-source-app.com/) | Creación de borradores asistida por IA y revisada a partir de un TXT o CSV de Anki | Ninguno procedente de Anki | No admite `.apkg`; quedan fuera las plantillas, la fidelidad de los archivos multimedia, la jerarquía de los mazos y todos los datos de planificación |
 
 ## Precio, uso sin conexión, planificación y propiedad
 
@@ -90,7 +90,7 @@ Un importador puede superar la primera prueba y fallar en las otras dos.
 | **Quizlet** | Uso básico gratuito; [Plus por 35,99 $/año y Plus Unlimited por 44,99 $/año](https://quizlet.com/upgrade?source=signup) | Los conjuntos descargados funcionan sin conexión en las apps para iOS y Android con Flashcards y Match. | [Repetición espaciada en la web](https://quizlet.com/features/spaced-repetition) para conjuntos de 100 términos o más; la versión móvil sigue marcada como próxima. Learn es una vía de práctica adaptativa independiente. | Servicio alojado propietario; no ofrece una vía de autohospedaje admitida |
 | **Brainscape** | [Gratis; Pro por 7,99 $/mes con facturación anual](https://www.brainscape.com/pricing) | [La app móvil puede conservar los cambios hechos sin conexión y sincronizar más tarde las clases descargadas previamente](https://brainscape.zendesk.com/hc/en-us/articles/115002369711-How-do-Brainscape-s-website-mobile-app-interact-with-each-other); la documentación no promete una biblioteca local completa. | [Confidence-Based Repetition](https://www.brainscape.com/academy/confidence-based-repetition-definition/), con valoraciones del 1 al 5 | Servicio alojado propietario; no ofrece una vía de autohospedaje admitida |
 | **SuperMemo** | Cuenta gratuita con límites; [35,99 PLN/mes o 359 PLN/año](https://www.supermemo.com/en/premium-subscription) | Los cursos descargados en el móvil funcionan sin conexión; la edición, la IA, la búsqueda, las grabaciones y las estadísticas no. | [Método propietario de SuperMemo](https://www.supermemo.com/en/supermemo-method) | Servicio alojado propietario; no ofrece una vía de autohospedaje admitida |
-| **Flashcards** | [Núcleo alojado gratis durante la beta; software gratis para autohospedarlo](/pricing/), más tus costes de infraestructura | Las apps nativas escriben primero en local después de iniciar sesión con conexión y completar la carga inicial del espacio de trabajo; los archivos multimedia remotos deben estar ya en caché. | [FSRS](/docs/architecture/#scheduling) | MIT; el despliegue de producción admitido es un sistema completo centrado en AWS |
+| **Nibomo** | [Núcleo alojado gratis durante la beta; software gratis para autohospedarlo](/pricing/), más tus costes de infraestructura | Las apps nativas escriben primero en local después de iniciar sesión con conexión y completar la carga inicial del espacio de trabajo; los archivos multimedia remotos deben estar ya en caché. | [FSRS](/docs/architecture/#scheduling) | MIT; el despliegue de producción admitido es un sistema completo centrado en AWS |
 
 Estas tablas no son una clasificación. Un importador directo puede pesar más que cualquier otra función si tienes 30 000 tarjetas maduras. Una app nativa para iPhone puede decidir el resultado si es ahí donde repasas. El acceso al código solo importa si tú o alguien de confianza vais a mantenerlo.
 
@@ -187,7 +187,7 @@ RemNote, Mochi, Quizlet, Brainscape, SuperMemo y Flashcards tienen apps para iOS
 - **Mochi** conserva más información que las opciones de iOS limitadas al texto: importa el historial de repasos de `.apkg`, aunque convierte el contenido a Markdown y utiliza valoraciones binarias.
 - **RemNote** también importa el historial de repasos de `.apkg`, pero prueba la cola **Need to Learn** en vez de dar por hecho que conservará la planificación de hoy en Anki.
 - **Quizlet** encaja bien para distribuir material en clase, pero su vía desde Anki se limita al texto y su nuevo flujo de repetición espaciada todavía no está disponible en móviles.
-- **Flashcards** ofrece el código fuente y un cliente nativo para iOS, pero su migración desde Anki reinicia el estado de aprendizaje.
+- **Nibomo** ofrece el código fuente y un cliente nativo para iOS, pero su migración desde Anki reinicia el estado de aprendizaje.
 - **Brainscape** y **SuperMemo** solo tienen sentido si sus métodos de repaso compensan tener que reconstruir las tarjetas y la planificación.
 
 Antes de dejar AnkiMobile por el precio, compara esa compra con el coste de una suscripción y con las horas que necesitarás para reparar una migración. Una app de pago único puede salir más barata que una alternativa gratuita que convierta una colección madura en un proyecto manual.

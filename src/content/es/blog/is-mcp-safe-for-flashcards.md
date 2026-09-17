@@ -39,7 +39,7 @@ Las [recomendaciones de la NSA sobre MCP de mayo de 2026](https://www.nsa.gov/Pr
 
 ## Qué protege OAuth en Flashcards
 
-Flashcards usa un flujo de código de autorización con PKCE y Dynamic Client Registration para los clientes MCP interactivos. Apruebas la conexión en el navegador y PKCE vincula el intercambio del código al cliente que lo inició. El servidor también comprueba que el token de acceso se haya emitido para el recurso MCP de Flashcards. La [guía del conector MCP de Flashcards](/es/docs/mcp-connector/) incluye el endpoint y los metadatos de descubrimiento.
+Flashcards usa un flujo de código de autorización con PKCE y Dynamic Client Registration para los clientes MCP interactivos. Apruebas la conexión en el navegador y PKCE vincula el intercambio del código al cliente que lo inició. El servidor también comprueba que el token de acceso se haya emitido para el recurso MCP de Flashcards. La [guía del conector MCP de Nibomo](/es/docs/mcp-connector/) incluye el endpoint y los metadatos de descubrimiento.
 
 Estas medidas protegen el inicio de sesión y el intercambio de tokens. La [especificación estable de autorización de MCP del 25 de noviembre de 2025](https://modelcontextprotocol.io/specification/2025-11-25/basic/authorization) exige PKCE para este flujo y tokens específicos para cada recurso. También aclara que la autorización es opcional en las implementaciones de MCP en general. Por eso, que un conector use OAuth no dice nada sobre otro servidor.
 
@@ -77,7 +77,7 @@ Un espacio de trabajo de prueba ayuda a entender cómo presenta el cliente las l
 
 Aun así, los datos devueltos salen del backend de Flashcards. Una consulta sobre temas que todavía no dominas puede incluir el texto de las tarjetas y los eventos de repaso. Incluso una tarjeta breve puede contener datos de un paciente, el nombre de un sistema interno, un ejemplo personal en otro idioma o notas para una entrevista.
 
-La [política de privacidad de Flashcards](/es/privacy/) se aplica a los datos solicitados mediante MCP y la API para agentes. En el límite del protocolo, Flashcards entrega el resultado al cliente MCP. Que después también lo reciba un proveedor del modelo aparte, cuánto tiempo lo conserve cada servicio y si puede usarse para entrenamiento dependen de la configuración del cliente y de las condiciones del proveedor. No confundas el acceso «de solo lectura» con una garantía de privacidad.
+La [política de privacidad de Nibomo](/es/privacy/) se aplica a los datos solicitados mediante MCP y la API para agentes. En el límite del protocolo, Flashcards entrega el resultado al cliente MCP. Que después también lo reciba un proveedor del modelo aparte, cuánto tiempo lo conserve cada servicio y si puede usarse para entrenamiento dependen de la configuración del cliente y de las condiciones del proveedor. No confundas el acceso «de solo lectura» con una garantía de privacidad.
 
 ### El acceso de escritura es más limitado que el acceso total a la base de datos
 
@@ -134,7 +134,7 @@ OpenAI ofrece un ejemplo concreto. Su [documentación actual sobre las aplicacio
 
 Comprueba qué cliente, tipo de cuenta, política del espacio de trabajo, región y configuración vas a usar. Busca sus reglas sobre conservación, entrenamiento, memoria, acceso de administradores, subencargados del tratamiento y eliminación. Si la documentación no aclara si el material confidencial puede salir del cliente, no hagas la prueba con un mazo real.
 
-Eliminar la cuenta alojada, desconectar el conector y borrar las copias guardadas por otros servicios son operaciones distintas. La [política de privacidad de Flashcards](/es/privacy/) explica cómo eliminar los datos alojados. Flashcards no puede borrar datos que ya haya conservado un cliente o proveedor del modelo; usa también los controles de ese proveedor.
+Eliminar la cuenta alojada, desconectar el conector y borrar las copias guardadas por otros servicios son operaciones distintas. La [política de privacidad de Nibomo](/es/privacy/) explica cómo eliminar los datos alojados. Flashcards no puede borrar datos que ya haya conservado un cliente o proveedor del modelo; usa también los controles de ese proveedor.
 
 ## Desconectar y revocar credenciales son pasos distintos
 
@@ -148,7 +148,7 @@ Si tu modelo de amenazas exige una revocación OAuth inmediata en el servidor, e
 
 1. Clasifica el material de origen. Los apuntes públicos, la información personal, el contenido confidencial del empleador y los datos regulados no deberían compartir una misma política de acceso. Si no tienes autorización para enviar el material al cliente y a sus procesadores, no lo expongas mediante MCP.
 2. Verifica la URL del servidor. El endpoint documentado es `https://mcp.flashcards-open-source-app.com/mcp`. Evita dominios que se le parezcan y definiciones de conectores copiadas de fuentes desconocidas.
-3. Lee las políticas de ambas partes. Empieza por la [política de privacidad de Flashcards](/es/privacy/) y comprueba después las reglas de conservación, entrenamiento, memoria, registro de actividad y eliminación del cliente de IA concreto.
+3. Lee las políticas de ambas partes. Empieza por la [política de privacidad de Nibomo](/es/privacy/) y comprueba después las reglas de conservación, entrenamiento, memoria, registro de actividad y eliminación del cliente de IA concreto.
 4. Decide si basta con un espacio de trabajo aparte. Sirve para ensayar, pero la conexión todavía puede dirigirse a otros espacios de trabajo de la misma cuenta. Usa otra cuenta o despliegue cuando necesites un aislamiento estricto.
 5. Empieza con `sql_execute` y `submit_review` bloqueadas en el cliente. Si el cliente no permite bloquearlas, reconoce antes de conectarte que la credencial OAuth conserva la capacidad de escritura.
 6. Solicita solo los datos necesarios. Selecciona únicamente las columnas y filas que necesita la respuesta y no incluyas en la conversación secretos ajenos a la tarea.

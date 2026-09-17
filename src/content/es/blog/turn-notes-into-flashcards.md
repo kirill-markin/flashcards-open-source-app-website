@@ -105,7 +105,7 @@ Eso se parece menos a teatro de automatización y más a ayuda real.
 
 ## Flashcards ya tiene la forma adecuada para este flujo
 
-[Flashcards](https://flashcards-open-source-app.com/) resulta interesante aquí porque el producto ya reúne las piezas que importan:
+[Nibomo](https://flashcards-open-source-app.com/) resulta interesante aquí porque el producto ya reúne las piezas que importan:
 
 - creación de tarjetas con frente y reverso
 - chat con IA
@@ -198,13 +198,13 @@ Creo que la mejor respuesta es una división del trabajo más limpia:
 
 Eso quita la parte aburrida sin fingir que el humano deba desaparecer del proceso.
 
-Por eso [Flashcards](https://flashcards-open-source-app.com/) encaja tan bien para quien está buscando cómo **convertir apuntes en flashcards**. El producto ya tiene la forma adecuada para eso: creación de tarjetas, chat con IA, archivos adjuntos, soporte para texto plano y repetición espaciada seria después.
+Por eso [Nibomo](https://flashcards-open-source-app.com/) encaja tan bien para quien está buscando cómo **convertir apuntes en flashcards**. El producto ya tiene la forma adecuada para eso: creación de tarjetas, chat con IA, archivos adjuntos, soporte para texto plano y repetición espaciada seria después.
 
 ## Prueba un flujo de apuntes a flashcards que no se convierta en un segundo trabajo
 
 Si quieres una forma práctica de **convertir apuntes en flashcards**, empieza aquí:
 
-- [Abrir Flashcards](https://flashcards-open-source-app.com/)
+- [Abrir Nibomo](https://flashcards-open-source-app.com/)
 - [Abrir la app](https://app.flashcards-open-source-app.com/)
 - [Leer la guía de inicio](https://flashcards-open-source-app.com/docs/getting-started/)
 - [Ver el código fuente en GitHub](https://github.com/kirill-markin/flashcards-open-source-app)

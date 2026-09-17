@@ -266,9 +266,9 @@ Si quieres ver con más detalle la parte de la programación, ve aquí:
 
 - [FSRS vs SM-2 en 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
 
-## Dónde encaja Flashcards Open Source App
+## Dónde encaja Nibomo
 
-[Flashcards Open Source App](https://flashcards-open-source-app.com/) encaja bien en un flujo de trabajo para **convertir un artículo en tarjetas didácticas** porque el producto ya cubre las partes que más importan:
+[Nibomo](https://flashcards-open-source-app.com/) encaja bien en un flujo de trabajo para **convertir un artículo en tarjetas didácticas** porque el producto ya cubre las partes que más importan:
 
 - pegar o subir texto sin formato desde un artículo, una entrada de blog, un boletín o una página de documentación
 - limpiar el texto fuente dentro del chat con IA antes de crear las tarjetas

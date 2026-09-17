@@ -269,9 +269,9 @@ No necesitas un mazo heroico de fin de semana sobre patrones de arquitectura.
 
 Necesitas un bucle repetible que impida que la misma respuesta floja aparezca dos veces.
 
-## Dónde encaja Flashcards Open Source App
+## Dónde encaja Nibomo
 
-[Flashcards Open Source App](/es/features/) encaja bien con este flujo porque la preparación de system design genera material bastante desordenado: notas de mock interviews, bullets de arquitectura, transcripciones pegadas, capturas de pantalla, checklists en texto plano y postmortems rápidos de lo que se te escapó.
+[Nibomo](/es/features/) encaja bien con este flujo porque la preparación de system design genera material bastante desordenado: notas de mock interviews, bullets de arquitectura, transcripciones pegadas, capturas de pantalla, checklists en texto plano y postmortems rápidos de lo que se te escapó.
 
 Lo que ofrece hoy el producto encaja bastante bien con eso:
 

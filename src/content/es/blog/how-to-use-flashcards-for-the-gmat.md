@@ -241,7 +241,7 @@ Si tu flujo de trabajo ya parte de explicaciones y errores, [Cómo convertir pre
 
 Esta parte debería seguir siendo explícita.
 
-Flashcards Open Source App no tiene ninguna integración oficial con GMAT ni con GMAC. Úsala con apuntes personales lícitos, tus propias explicaciones y resúmenes de revisión de práctica. No la uses para construir una biblioteca de texto copiado de preguntas propietarias del GMAT, bancos de respuestas u otro material que no tengas derecho a reproducir.
+Nibomo no tiene ninguna integración oficial con GMAT ni con GMAC. Úsala con apuntes personales lícitos, tus propias explicaciones y resúmenes de revisión de práctica. No la uses para construir una biblioteca de texto copiado de preguntas propietarias del GMAT, bancos de respuestas u otro material que no tengas derecho a reproducir.
 
 En la práctica, la mejor tarjeta casi nunca es la pregunta completa. Suele ser tu resumen compacto de qué falló y qué habría cambiado el resultado la próxima vez.
 
@@ -277,9 +277,9 @@ Lo que FSRS no hace es rescatar tarjetas hinchadas ni supuestos de estudio desac
 
 Si quieres más detalle sobre la parte de programación, [Cómo estudiar para un examen con FSRS en 2026](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/) lo cubre de forma directa.
 
-## Dónde encaja Flashcards Open Source App
+## Dónde encaja Nibomo
 
-[Flashcards](https://flashcards-open-source-app.com/) encaja bien en este tipo de preparación para el GMAT porque cubre ese punto incómodo entre "fallé esta pregunta" y "mañana estoy repasando el objetivo de memoria correcto".
+[Nibomo](https://flashcards-open-source-app.com/) encaja bien en este tipo de preparación para el GMAT porque cubre ese punto incómodo entre "fallé esta pregunta" y "mañana estoy repasando el objetivo de memoria correcto".
 
 Partes útiles para este flujo de trabajo:
 

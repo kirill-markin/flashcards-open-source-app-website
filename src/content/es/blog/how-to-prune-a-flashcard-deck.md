@@ -222,7 +222,7 @@ Normalmente el mazo está pidiendo curaduría.
 
 ## Dónde encaja Flashcards
 
-[Flashcards](/es/features/) encaja bien con este estilo de limpieza porque los pasos de mantenimiento viven cerca entre sí en lugar de estar repartidos entre tres pestañas y una hoja de cálculo:
+[Nibomo](/es/features/) encaja bien con este estilo de limpieza porque los pasos de mantenimiento viven cerca entre sí en lugar de estar repartidos entre tres pestañas y una hoja de cálculo:
 
 - la IA puede ayudar a redactar o revisar tarjetas
 - la edición de anverso y reverso hace que reescribir sea rápido

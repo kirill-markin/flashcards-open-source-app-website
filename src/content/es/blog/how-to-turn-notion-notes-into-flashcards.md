@@ -192,7 +192,7 @@ Si desea esa comparación con más detalle, este artículo complementario va má
 
 ## Dónde encaja Flashcards en este flujo de trabajo
 
-[Flashcards](https://flashcards-open-source-app.com/) es una buena opción para **convertir notas de Notion en tarjetas didácticas** porque el producto cubre las partes que las personas normalmente tienen que unir manualmente:
+[Nibomo](https://flashcards-open-source-app.com/) es una buena opción para **convertir notas de Notion en tarjetas didácticas** porque el producto cubre las partes que las personas normalmente tienen que unir manualmente:
 
 - Chat AI para redacción
 - archivos adjuntos para páginas exportadas
@@ -251,4 +251,4 @@ Utilice la página como materia prima sólida para un mejor borrador.
 
 Esa es la versión de **Notion to flashcards** en la que realmente confío. Es menos mágico que la presentación con un solo clic, un poco más manual en los lugares correctos y es mucho más probable que le proporcione tarjetas que aún desee revisar la próxima semana.
 
-Si ese es el flujo de trabajo que desea, [Flashcards](https://flashcards-open-source-app.com/) es una opción sólida: exporte las notas, redacte tarjetas con IA, limpie las débiles rápidamente y estudie el resultado en un sistema de repetición espaciada real en lugar de dejarlo atrapado dentro de su herramienta de notas.
+Si ese es el flujo de trabajo que desea, [Nibomo](https://flashcards-open-source-app.com/) es una opción sólida: exporte las notas, redacte tarjetas con IA, limpie las débiles rápidamente y estudie el resultado en un sistema de repetición espaciada real en lugar de dejarlo atrapado dentro de su herramienta de notas.

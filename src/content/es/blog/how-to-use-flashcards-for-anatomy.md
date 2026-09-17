@@ -244,7 +244,7 @@ Si quieres una explicación más directa de la parte del planificador, [Cómo es
 
 ## Dónde encaja Flashcards
 
-[Flashcards](https://flashcards-open-source-app.com/) encaja especialmente bien en anatomía cuando ya sabes qué merece la pena recordar.
+[Nibomo](https://flashcards-open-source-app.com/) encaja especialmente bien en anatomía cuando ya sabes qué merece la pena recordar.
 
 Eso encaja muy bien con esta asignatura porque el estudio de anatomía suele alimentarse de varias fuentes desordenadas a la vez:
 

@@ -244,7 +244,7 @@ Y si quieres que te expliquen el propio modelo de planificación:
 
 ## Dónde encaja Flashcards en este flujo de enfermería
 
-[Flashcards](https://flashcards-open-source-app.com/) encaja bien para **flashcards para enfermería** porque el producto ya soporta las piezas de las que depende este flujo:
+[Nibomo](https://flashcards-open-source-app.com/) encaja bien para **flashcards para enfermería** porque el producto ya soporta las piezas de las que depende este flujo:
 
 - tarjetas anverso/reverso para prompts de recuerdo estrechos
 - chat con IA con datos del workspace y adjuntos de archivos para redactar a partir de apuntes, texto de clase o racionales de preguntas

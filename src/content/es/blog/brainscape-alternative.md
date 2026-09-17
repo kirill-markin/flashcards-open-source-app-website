@@ -17,7 +17,7 @@ keywords:
 
 La diferencia más importante entre Brainscape y Flashcards está en un dato que nunca tendrás que gestionar en Brainscape: la fecha y hora exactas del próximo repaso de cada tarjeta. Brainscape te pide que valores tu confianza del 1 al 5 y deja el mazo disponible para otra ronda. Flashcards te pide que elijas Again, Hard, Good o Easy y usa FSRS-6 para programar la fecha y la hora concretas del siguiente repaso de esa tarjeta.
 
-Esta diferencia entre planificadores define buena parte de la decisión entre **Brainscape y Flashcards**. Brainscape es mejor para compartir clases, gestionar permisos de edición, consultar analíticas para docentes, importar distintos formatos de hoja de cálculo y seguir un ciclo guiado que permite hacer un repaso intensivo en cualquier momento. [Flashcards](/features/) es una **alternativa a Brainscape** más sólida si buscas una cola explícita de tarjetas pendientes, edición offline-first en todos los clientes compatibles, acceso para agentes de IA, código con licencia MIT o un despliegue autoalojado.
+Esta diferencia entre planificadores define buena parte de la decisión entre **Brainscape y Flashcards**. Brainscape es mejor para compartir clases, gestionar permisos de edición, consultar analíticas para docentes, importar distintos formatos de hoja de cálculo y seguir un ciclo guiado que permite hacer un repaso intensivo en cualquier momento. [Nibomo](/features/) es una **alternativa a Brainscape** más sólida si buscas una cola explícita de tarjetas pendientes, edición offline-first en todos los clientes compatibles, acceso para agentes de IA, código con licencia MIT o un despliegue autoalojado.
 
 > **Aviso de transparencia:** Soy Kirill Markin y desarrollo Flashcards, uno de los productos que comparo aquí. Brainscape gana en varias categorías importantes de este artículo. He limitado la comparación al funcionamiento documentado en las páginas oficiales de los productos, los artículos de ayuda y los repositorios de código fuente.
 
@@ -29,7 +29,7 @@ Esta diferencia entre planificadores define buena parte de la decisión entre **
 
 Elige **Brainscape** si quieres compartir clases, controlar quién puede editar las tarjetas, supervisar el progreso de los estudiantes, importar formatos habituales de hoja de cálculo o estudiar un mazo cuando quieras, sin esperar a que haya tarjetas pendientes. Su sistema de Confidence-Based Repetition, con niveles del 1 al 5, sigue disponible para un repaso intensivo de última hora.
 
-Elige **Flashcards** si quieres que FSRS-6 cree una cola explícita de tarjetas pendientes según un objetivo de retención, necesitas que las ediciones y los repasos se guarden primero en local tanto en web como en iOS y Android, o buscas una app de flashcards de código abierto con chat de IA, MCP, una Agent API y autoalojamiento documentado.
+Elige **Nibomo** si quieres que FSRS-6 cree una cola explícita de tarjetas pendientes según un objetivo de retención, necesitas que las ediciones y los repasos se guarden primero en local tanto en web como en iOS y Android, o buscas una app de flashcards de código abierto con chat de IA, MCP, una Agent API y autoalojamiento documentado.
 
 Quédate con Brainscape si sus clases o analíticas forman parte de tu flujo de trabajo habitual. Flashcards no las sustituye por ahora, y trasladar las tarjetas también implica dejar atrás el historial de planificación de Brainscape.
 

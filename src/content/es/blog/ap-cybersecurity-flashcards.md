@@ -172,9 +172,9 @@ Es más fácil mantener un ciclo semanal pequeño que construir un mazo enorme a
 
 Conforme se acerque mayo, crea menos tarjetas nuevas. Dedica más tiempo a recordar la información, interpretar evidencia nueva y completar conjuntos de fuentes con límite de tiempo. El objetivo no es aumentar el número de tarjetas, sino tomar decisiones fiables.
 
-## Dónde encaja de verdad Flashcards Open Source App
+## Dónde encaja de verdad Nibomo
 
-Las [funciones de Flashcards Open Source App](/features/) cubren la parte sencilla de este flujo: crear tarjetas con anverso y reverso, repasar las que tocan y programar los repasos con FSRS. Puedes crear los cinco formatos anteriores sin una plantilla especial para AP.
+Las [funciones de Nibomo](/features/) cubren la parte sencilla de este flujo: crear tarjetas con anverso y reverso, repasar las que tocan y programar los repasos con FSRS. Puedes crear los cinco formatos anteriores sin una plantilla especial para AP.
 
 El chat opcional con IA puede trabajar con los datos del espacio de trabajo y con archivos adjuntos, incluidas las cargas compatibles de texto sin formato. Puede ayudarte a redactar posibles tarjetas o a acortar una respuesta demasiado larga. Comprueba cada afirmación técnica con los materiales del curso antes de guardarla y nunca trates las tarjetas generadas como contenido oficial de AP.
 

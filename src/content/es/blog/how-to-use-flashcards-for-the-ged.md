@@ -256,7 +256,7 @@ Si quieres más detalle sobre la parte de programación, [Cómo estudiar para un
 
 ## Dónde encaja Flashcards
 
-[Flashcards](/es/) encaja bien en este flujo de estudio para el GED porque el producto ya cubre las partes aburridas que hacen que el sistema se sostenga:
+[Nibomo](/es/) encaja bien en este flujo de estudio para el GED porque el producto ya cubre las partes aburridas que hacen que el sistema se sostenga:
 
 - chat con IA para redactar y limpiar tarjetas a partir de texto pegado o archivos adjuntos
 - programación de repaso con FSRS una vez que las tarjetas ya merecen quedarse

@@ -219,7 +219,7 @@ Si quieres una prueba sencilla, pregúntate esto: cuando fallo esta tarjeta, ¿c
 
 ## Dónde encaja Flashcards si quieres llevar todo el flujo en un solo sitio
 
-[Flashcards](https://flashcards-open-source-app.com/) encaja bien con este flujo de química avanzada de secundaria porque el producto ya cubre la parte práctica después de detectar el objetivo de memoria:
+[Nibomo](https://flashcards-open-source-app.com/) encaja bien con este flujo de química avanzada de secundaria porque el producto ya cubre la parte práctica después de detectar el objetivo de memoria:
 
 - creación y edición de tarjetas de anverso y reverso
 - redacción asistida por IA a través del chat

@@ -16,7 +16,7 @@ Flashcard Lab parte de una tabla conocida: preguntas en la primera columna, resp
 
 Esta **reseña de la app Flashcard Lab** se basa en el sitio web del producto, las fichas actuales de Android y iPhone, Chrome Web Store, Google Workspace Marketplace y la política de privacidad del proveedor. No es una prueba práctica. Las fuentes oficiales explican bien cómo se crean, capturan, imprimen y repasan las tarjetas, pero dejan sin documentar algunos comportamientos importantes del producto.
 
-> **Aviso de transparencia:** Soy Kirill Markin y desarrollo [Flashcards Open Source App](/es/features/), una de las alternativas incluidas en esta reseña. Flashcard Lab ofrece un flujo de trabajo mejor adaptado a las hojas de cálculo. Flashcards destaca si das prioridad a un espacio dedicado para tarjetas con anverso y reverso, FSRS-6 documentado, el guardado local antes de sincronizar, el código con licencia MIT o el autoalojamiento de toda la plataforma por encima de la integración con Google Sheets. Anki sigue siendo la referencia consolidada para usuarios avanzados que prefieren trabajar en local.
+> **Aviso de transparencia:** Soy Kirill Markin y desarrollo [Nibomo](/es/features/), una de las alternativas incluidas en esta reseña. Flashcard Lab ofrece un flujo de trabajo mejor adaptado a las hojas de cálculo. Flashcards destaca si das prioridad a un espacio dedicado para tarjetas con anverso y reverso, FSRS-6 documentado, el guardado local antes de sincronizar, el código con licencia MIT o el autoalojamiento de toda la plataforma por encima de la integración con Google Sheets. Anki sigue siendo la referencia consolidada para usuarios avanzados que prefieren trabajar en local.
 
 **Datos comprobados:** 12 de agosto de 2026. Los precios que aparecen a continuación son los precios públicos de la App Store de Estados Unidos visibles en esa fecha. Los impuestos, los precios regionales, las promociones, los precios de compra dentro del complemento y las condiciones futuras de la beta pueden variar.
 
@@ -25,14 +25,14 @@ Esta **reseña de la app Flashcard Lab** se basa en el sitio web del producto, l
 ## La respuesta breve
 
 - Elige **Flashcard Lab** si quieres crear y mantener las tarjetas en Google Sheets. La captura desde el navegador, la edición masiva en la hoja de cálculo, el repaso en el móvil y la impresión mediante Google Docs forman un flujo de trabajo práctico.
-- Elige **Flashcards Open Source App** si buscas tarjetas con anverso y reverso bien definidos en un espacio de trabajo independiente de Google, FSRS-6 documentado, guardado local antes de sincronizar, código abierto y una vía de autoalojamiento con soporte. No ofrece integración en directo con Google Sheets.
+- Elige **Nibomo** si buscas tarjetas con anverso y reverso bien definidos en un espacio de trabajo independiente de Google, FSRS-6 documentado, guardado local antes de sincronizar, código abierto y una vía de autoalojamiento con soporte. No ofrece integración en directo con Google Sheets.
 - Elige **Anki** si necesitas clientes de escritorio consolidados, tipos de nota y plantillas avanzados, complementos, paquetes de colecciones establecidos o controles más detallados de FSRS.
 
 No hay un ganador automático. La pregunta decisiva es dónde debe residir la copia de referencia de tu material de estudio: en una hoja de Google Sheets, en un espacio de trabajo abierto y específico para estudiar o en una colección local consolidada.
 
 ## Flashcard Lab vs Flashcards vs Anki
 
-| Decisión | Flashcard Lab | Flashcards Open Source App | Anki |
+| Decisión | Flashcard Lab | Nibomo | Anki |
 | --- | --- | --- | --- |
 | Para quién encaja mejor | Creación en hojas de cálculo, captura desde el navegador, impresión mediante Google Docs y repaso sencillo | Tarjetas centradas en el anverso y el reverso dentro de una plataforma abierta para web y móvil | Tarjetas locales consolidadas con plantillas, complementos y amplio soporte para migraciones |
 | Fuente de referencia | Las filas de Google Sheets contienen preguntas, respuestas y texto complementario opcional | Las tarjetas del espacio de trabajo contienen de forma explícita el anverso, el reverso, las etiquetas, los mazos, los archivos multimedia y el estado del planificador | La colección local contiene notas, campos, tarjetas generadas, archivos multimedia y datos de planificación |
@@ -80,7 +80,7 @@ Capturar contenido no significa comprobarlo. Una definición obtenida automátic
 
 La impresión mediante Google Docs es una ventaja práctica para profesores, estaciones de aprendizaje en el aula, actividades de clasificación con tarjetas físicas y estudiantes que no pueden usar un dispositivo durante una sesión. Flashcard Lab convierte la hoja de Google Sheets en tarjetas imprimibles sin obligarte a hacer capturas de pantalla ni a usar una segunda herramienta de maquetación.
 
-Si la impresión de Sheets a Docs es un requisito esencial, Flashcard Lab es la opción clara. Flashcards Open Source App no ofrece un flujo de trabajo equivalente, y la impresión no es el motivo por el que la mayoría de la gente elige Anki.
+Si la impresión de Sheets a Docs es un requisito esencial, Flashcard Lab es la opción clara. Nibomo no ofrece un flujo de trabajo equivalente, y la impresión no es el motivo por el que la mayoría de la gente elige Anki.
 
 ## Hay repetición espaciada, pero la fórmula no es pública
 
@@ -119,7 +119,7 @@ El 12 de agosto de 2026, la ficha estadounidense de iPhone mostraba la aplicaci�
 
 La ficha pública no explica con suficiente claridad la duración ni si el derecho de acceso se comparte entre las distintas versiones como para relacionar ninguna de estas compras con el acceso de por vida descrito para el complemento. Consulta la pantalla de actualización de la versión que quieras usar; no des por hecho que una compra en iPhone desbloquea funciones de Google Sheets, Android, Chrome o el navegador.
 
-Como referencia, las [funciones principales del servicio alojado de Flashcards son gratuitas durante la beta](/es/pricing/). Su software con licencia MIT puede autoalojarse, pero la infraestructura de AWS, el correo electrónico, la supervisión, los proveedores de IA, las copias de seguridad y el mantenimiento siguen costando dinero o tiempo. La aplicación de escritorio de Anki, AnkiWeb y AnkiDroid se ofrecen gratis; la aplicación oficial AnkiMobile costaba US$24.99 en Estados Unidos mediante un único pago cuando se comprobó.
+Como referencia, las [funciones principales del servicio alojado de Nibomo son gratuitas durante la beta](/es/pricing/). Su software con licencia MIT puede autoalojarse, pero la infraestructura de AWS, el correo electrónico, la supervisión, los proveedores de IA, las copias de seguridad y el mantenimiento siguen costando dinero o tiempo. La aplicación de escritorio de Anki, AnkiWeb y AnkiDroid se ofrecen gratis; la aplicación oficial AnkiMobile costaba US$24.99 en Estados Unidos mediante un único pago cuando se comprobó.
 
 ## Revisa el acceso a Google y lo que afirma el proveedor sobre la privacidad
 
@@ -142,7 +142,7 @@ Lo que puede afirmarse con mayor seguridad sobre la portabilidad es sencillo: pu
 
 Las fuentes oficiales no demuestran que el historial de repasos, el estado de la repetición espaciada, los resultados de las pruebas, el comportamiento de las imágenes, las compras o todos los ajustes de la aplicación residan en la hoja. Una copia intacta protege el contenido visible de las tarjetas, pero no es automáticamente una copia de seguridad completa de Flashcard Lab.
 
-Tampoco existe una migración sin pérdidas a Flashcards Open Source App. Flashcards no ofrece integración en directo con Google Sheets ni un importador de Flashcard Lab. Un CSV, una exportación de la hoja de cálculo o una hoja adjunta pueden servir como material de partida para crear un borrador con ayuda de IA, pero ese borrador debe revisarse y comienza con un estado de FSRS nuevo. Adjuntar una hoja de cálculo no equivale a mantener las tarjetas vinculadas a una hoja activa.
+Tampoco existe una migración sin pérdidas a Nibomo. Flashcards no ofrece integración en directo con Google Sheets ni un importador de Flashcard Lab. Un CSV, una exportación de la hoja de cálculo o una hoja adjunta pueden servir como material de partida para crear un borrador con ayuda de IA, pero ese borrador debe revisarse y comienza con un estado de FSRS nuevo. Adjuntar una hoja de cálculo no equivale a mantener las tarjetas vinculadas a una hoja activa.
 
 Anki ofrece una vía más convencional porque puede [importar texto delimitado en campos de notas](https://docs.ankiweb.net/importing/text-files.html). Aun así, tendrás que asignar las columnas, decidir qué hacer con el texto complementario opcional, comprobar los archivos multimedia y partir de una planificación nueva, salvo que un formato compatible transfiera el historial de forma explícita. Una hoja de Google Sheets no es un paquete de colección de Anki.
 

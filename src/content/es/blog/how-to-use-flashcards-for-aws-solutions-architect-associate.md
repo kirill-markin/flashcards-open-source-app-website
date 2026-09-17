@@ -233,7 +233,7 @@ Yo mantendría la logística del examen en un subconjunto más ligero etiquetado
 
 ## Dónde encaja bien Flashcards en este flujo
 
-[Flashcards](https://flashcards-open-source-app.com/) encaja bien en este tipo de preparación porque el producto cubre las dos mitades del trabajo sin fingir que son lo mismo.
+[Nibomo](https://flashcards-open-source-app.com/) encaja bien en este tipo de preparación porque el producto cubre las dos mitades del trabajo sin fingir que son lo mismo.
 
 Puedes:
 
