@@ -4,7 +4,7 @@ description: Privacy policy for Nibomo.
 slug: privacy
 sections:
   - type: legal_page
-    lastUpdated: August 2026
+    lastUpdated: September 2026
 ---
 ## Operator and Scope
 
@@ -42,15 +42,25 @@ We do not sell your personal data or use it for targeted advertising.
 
 The marketing website uses Vercel Web Analytics to measure page views and selected site click events. It operates without analytics cookies. For page views, Vercel can receive the event time, page URL and filtered query parameters, referrer, approximate location, browser, operating system, and device type. Our custom click events include limited properties such as locale, platform, link placement, or interaction type. We do not intentionally include names, email addresses, card content, or account identifiers in these events. Vercel aggregates the data and does not associate a data point with an individual or IP address; its daily visitor hash is discarded after 24 hours.
 
+Separately, catalog install links send a click event to our own product analytics collector, with a random install-journey identifier, public package version identifier, page interface language, browser device language, link placement, source category, and device category. The journey identifier is passed to the app to connect steps of the installation flow. This collector does not infer country from the click. These website click events are suppressed when the browser exposes Global Privacy Control or Do Not Track.
+
 The hosted web app uses strictly necessary cookies such as `otp_session`, `session`, `refresh`, and `logged_in` to complete authentication, maintain a session, refresh access, and show signed-in state. Disabling these cookies prevents the browser login flow from working.
 
 ## Product Analytics
 
 The hosted web, iOS, and Android apps send us product-usage events. Those events go to our own infrastructure and are stored in our own database; we do not use a third-party analytics provider for them.
 
-The events describe how the apps are used, not what you study: for example, which screens you open, when a review session starts and finishes, including how long it lasted and how many cards you answered, and whether key actions such as creating a card, signing in, or syncing succeeded or failed. Each event carries a random per-installation identifier, a session identifier, and technical context such as platform, app version, device model, operating system version, locale, timezone, and approximate country; the event is also linked to the workspace you are working in, and, when you are signed in, to your account. No event ever includes free text, card or deck content, or your email address.
+Events describe screens, review-session duration and counts, and whether actions succeed or fail. They can include installation and session identifiers and, where applicable, workspace and account identifiers. They do not include free text, card or deck content, or your email address.
 
-There is no separate setting that turns product analytics off. Deleting your account replaces the identifiers on events already collected with a value that cannot be linked back to you, as described in the Retention and Deletion section.
+Where supported by the client version, the interface language is captured when each event occurs, before offline queuing. Device language is separate and can differ from the interface language. Installation profiles hold current technical context, including platform, app and operating system versions, device language, and timezone, when supplied by the client. Some technical context also remains on individual events for compatibility. Older clients or events may lack interface language; we do not infer missing values from device language or timezone.
+
+For audience analysis, we estimate the connection country from the IP address received by our API gateway for eligible direct app requests, at most once per installation per UTC day when it connects. We look up the address in a MaxMind GeoLite Country database held in our own AWS infrastructure. The address is processed in request memory, is not stored in product analytics, and is not sent to MaxMind. Our configured API Gateway access logs omit the raw IP address; network infrastructure still processes IP addresses to handle requests. Country is approximate, may be unknown or affected by a VPN, and does not identify residence, nationality, or precise location. Server relays, AI clients, and catalog-click requests do not supply installation country. We do not apply upload-time country to earlier offline events.
+
+Country history consists of sparse observations, extending a period when the sampled country is unchanged and starting another when it changes. The period bounds do not prove daily activity or continuous presence between observations. Feedback separately records the connection country when the submission is first accepted, not when an offline draft was created.
+
+This product includes GeoLite data created by MaxMind, available from [MaxMind](https://www.maxmind.com).
+
+There is no separate setting that turns in-app product analytics off. Account deletion removes associated installation profiles and changes retained event identifiers and context as described in the Retention and Deletion section.
 
 ## Hosted AI and External AI Clients
 
@@ -81,7 +91,9 @@ The primary hosted application runs in AWS's EU infrastructure. The configured R
 ## Retention and Deletion
 
 - Account and hosted workspace data are kept while your account or the relevant shared workspace remains active. Account deletion removes your current account data, credentials, memberships, and sole-member workspaces from the live database. Content in a workspace that still has other members remains available to those members.
-- Product analytics events are not deleted when you delete your account. We replace their identifiers with a value that cannot be linked back to you and keep the individual events, which can then no longer be tied to you or to any other person.
+- Product analytics events remain after account deletion. For events linked to your account and linked guest identities, we replace account identifiers with a random value, remove identity links, and clear installation, session, workspace, request, device-model, operating-system, device-language, interface-language, timezone, and country fields. Associated installation profiles and their country history are deleted. This describes identifier removal, not a guarantee that retained events are anonymous in every context.
+- Detailed country periods are excluded from audience reads once their last observation is older than 90 days. Daily cleanup deletes them; physical deletion can lag until a cleanup run succeeds. An unchanged period can start earlier than 90 days, but it is not a daily location record. The first known country is kept separately for the lifetime of the installation profile, until that profile is deleted.
+- Feedback country stays with its feedback record and is deleted with that record through the account-deletion lifecycle; the 90-day country-history rule does not apply to feedback.
 - Stored media is kept while the related active workspace content needs it and is deleted through the storage cleanup process after it is no longer referenced. Incomplete temporary uploads expire after 7 days.
 - The database has 7 days of RDS automated backups and a separate daily AWS Backup plan with 35-day retention. Records deleted from the live service may remain in encrypted recovery backups until those backups expire; backups are used for disaster recovery, not normal service access.
 - API Gateway access logs expire after 7 days. Other CloudWatch application logs currently have no automatic expiry configured and remain until they are manually deleted. We restrict their use to operations, security, and debugging and delete relevant entries when required to honor an applicable data-protection right.

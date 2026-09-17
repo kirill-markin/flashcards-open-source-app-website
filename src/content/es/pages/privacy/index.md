@@ -4,7 +4,7 @@ description: Política de privacidad de Nibomo.
 slug: privacy
 sections:
   - type: legal_page
-    lastUpdated: agosto de 2026
+    lastUpdated: septiembre de 2026
 ---
 ## Responsable y alcance
 
@@ -42,15 +42,25 @@ No vendemos tus datos personales ni los usamos para publicidad dirigida.
 
 El sitio web de marketing usa Vercel Web Analytics para medir visitas de páginas y determinados clics. Funciona sin cookies de analítica. Para una visita, Vercel puede recibir la hora del evento, la URL y parámetros de consulta filtrados, la página de referencia, la ubicación aproximada, el navegador, el sistema operativo y el tipo de dispositivo. Nuestros eventos de clic personalizados incluyen propiedades limitadas como idioma, plataforma, ubicación del enlace o tipo de interacción. No incluimos deliberadamente nombres, correos electrónicos, contenido de tarjetas ni identificadores de cuenta. Vercel agrega los datos y no asocia cada dato con una persona o dirección IP; su hash diario de visitante se elimina después de 24 horas.
 
+Por separado, los enlaces de instalación del catálogo envían un evento de clic a nuestro propio colector de analítica del producto, con un identificador aleatorio del recorrido de instalación, el identificador público de la versión del paquete, el idioma de la interfaz de la página, el idioma del dispositivo indicado por el navegador, la posición del enlace, la categoría de origen y la categoría de dispositivo. El identificador del recorrido se pasa a la aplicación para conectar los pasos de instalación. Este colector no deduce el país a partir del clic. Estos eventos de clic del sitio se omiten cuando el navegador señala Global Privacy Control o Do Not Track.
+
 La aplicación web alojada usa cookies estrictamente necesarias, como `otp_session`, `session`, `refresh` y `logged_in`, para completar la autenticación, mantener y renovar la sesión y mostrar el estado de acceso. Si las desactivas, el inicio de sesión en el navegador no funciona.
 
 ## Analítica del producto
 
 Las aplicaciones alojadas de web, iOS y Android nos envían eventos de uso del producto. Esos eventos llegan a nuestra propia infraestructura y se guardan en nuestra propia base de datos; para ellos no usamos ningún proveedor externo de analítica.
 
-Los eventos describen cómo se usan las aplicaciones, no lo que estudias: por ejemplo, qué pantallas abres, cuándo empieza y termina una sesión de repaso, incluidas su duración y el número de tarjetas respondidas, y si acciones clave como crear una tarjeta, iniciar sesión o sincronizar se completaron o fallaron. Cada evento incluye un identificador aleatorio por instalación, un identificador de sesión y contexto técnico como plataforma, versión de la aplicación, modelo de dispositivo, versión del sistema operativo, idioma, zona horaria y país aproximado; el evento también se asocia al espacio de trabajo en el que estás trabajando y, si has iniciado sesión, a tu cuenta. Ningún evento incluye nunca texto libre, contenido de tarjetas o mazos ni tu correo electrónico.
+Los eventos describen pantallas, duración y recuentos de las sesiones de repaso, y si las acciones se completan o fallan. Pueden incluir identificadores de instalación y sesión y, cuando corresponde, de espacio de trabajo y cuenta. No incluyen texto libre, contenido de tarjetas o mazos ni tu correo electrónico.
 
-No existe un ajuste independiente para desactivar la analítica del producto. Al eliminar tu cuenta, sustituimos los identificadores de los eventos ya recogidos por un valor que no puede vincularse contigo, tal como se describe en la sección de Conservación y eliminación.
+Cuando la versión del cliente lo admite, el idioma de la interfaz se captura al producirse cada evento, antes de ponerlo en la cola sin conexión. El idioma del dispositivo se registra por separado y puede ser diferente. Los perfiles de instalación guardan el contexto técnico actual, como plataforma, versiones de la aplicación y del sistema operativo, idioma del dispositivo y zona horaria, cuando el cliente los proporciona. Por compatibilidad, parte del contexto técnico también permanece en los eventos individuales. Los clientes o eventos antiguos pueden carecer del idioma de interfaz; no deducimos los valores ausentes a partir del idioma del dispositivo o la zona horaria.
+
+Para analizar nuestra audiencia, estimamos el país de la conexión a partir de la dirección IP que recibe nuestra puerta de enlace API en solicitudes directas de la aplicación que cumplen los requisitos, como máximo una vez por instalación y día UTC en que se conecte. Consultamos la dirección en una base de datos MaxMind GeoLite Country alojada en nuestra propia infraestructura de AWS. La dirección se procesa en la memoria de la solicitud, no se almacena en la analítica del producto ni se envía a MaxMind. Los registros de acceso de API Gateway configurados no incluyen la dirección IP sin procesar; la infraestructura de red sigue procesando direcciones IP para atender las solicitudes. El país es aproximado, puede ser desconocido o verse afectado por una VPN, y no identifica residencia, nacionalidad ni ubicación precisa. Los intermediarios de servidor, los clientes de IA y las solicitudes de clic del catálogo no aportan un país de instalación. No asignamos el país del momento de la carga a eventos anteriores sin conexión.
+
+El historial de países consiste en observaciones espaciadas: un periodo se amplía cuando el país observado no cambia y se inicia otro cuando cambia. Los límites del periodo no demuestran actividad diaria ni presencia continua entre observaciones. Los comentarios guardan por separado el país de la conexión cuando se acepta el envío por primera vez, no cuando se creó un borrador sin conexión.
+
+Este producto incluye datos GeoLite creados por MaxMind, disponibles en [MaxMind](https://www.maxmind.com).
+
+No existe un ajuste independiente para desactivar la analítica del producto en la aplicación. Eliminar la cuenta borra los perfiles de instalación asociados y modifica los identificadores y el contexto de los eventos conservados, como se describe en Conservación y eliminación.
 
 ## IA alojada y clientes externos de IA
 
@@ -81,7 +91,9 @@ La aplicación alojada principal funciona en infraestructura de AWS en la UE. La
 ## Conservación y eliminación
 
 - Los datos de cuenta y espacio de trabajo se conservan mientras la cuenta o el espacio compartido correspondiente siga activo. Al eliminar la cuenta se borran de la base de datos activa tus datos de cuenta, credenciales, membresías y espacios de los que eras el único miembro. El contenido de un espacio que conserve otros miembros seguirá disponible para ellos.
-- Los eventos de analítica del producto no se eliminan al eliminar la cuenta. Sustituimos sus identificadores por un valor que no puede vincularse contigo y conservamos los eventos individuales, que a partir de entonces ya no pueden asociarse ni contigo ni con ninguna otra persona.
+- Los eventos de analítica del producto permanecen tras eliminar la cuenta. En los eventos vinculados a tu cuenta y a las identidades de invitado asociadas, sustituimos los identificadores de cuenta por un valor aleatorio, eliminamos los enlaces de identidad y vaciamos los campos de instalación, sesión, espacio de trabajo, solicitud, modelo de dispositivo, sistema operativo, idioma del dispositivo, idioma de interfaz, zona horaria y país. Se eliminan los perfiles de instalación asociados y su historial de países. Esto describe la eliminación de identificadores, no garantiza que los eventos conservados sean anónimos en cualquier contexto.
+- Los periodos detallados de país se excluyen de las consultas de audiencia cuando su última observación tiene más de 90 días. Una limpieza diaria los elimina; la eliminación física puede demorarse hasta que se complete una ejecución correctamente. Un periodo sin cambios puede haber comenzado hace más de 90 días, pero no es un registro diario de ubicación. El primer país conocido se conserva por separado durante la vida del perfil de instalación, hasta que se elimina ese perfil.
+- El país de un comentario permanece con su registro y se elimina con él mediante el ciclo de eliminación de la cuenta; la regla de 90 días del historial de países no se aplica a los comentarios.
 - Los archivos multimedia se conservan mientras los necesite el contenido activo y se eliminan mediante el proceso de limpieza cuando dejan de estar referenciados. Las cargas temporales incompletas caducan a los 7 días.
 - La base de datos tiene 7 días de copias automatizadas de RDS y un plan diario separado de AWS Backup con 35 días de conservación. Los registros eliminados del servicio activo pueden permanecer en copias cifradas hasta que caduquen; esas copias se usan para recuperación ante desastres, no para el acceso normal.
 - Los registros de acceso de API Gateway caducan a los 7 días. Los demás registros de aplicación de CloudWatch no tienen actualmente una caducidad automática configurada y permanecen hasta su eliminación manual. Limitamos su uso a operaciones, seguridad y depuración, y eliminamos las entradas pertinentes cuando sea necesario para atender un derecho de protección de datos aplicable.
