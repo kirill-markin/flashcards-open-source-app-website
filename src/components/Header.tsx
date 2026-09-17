@@ -19,7 +19,7 @@ export const Header: React.FC<HeaderProps> = ({ locale }) => {
     <header className={styles.header}>
       <div className={styles.inner}>
         <Link href={getLocalizedPathname(locale, "/")} className={styles.logo}>
-          Flashcards
+          Nibomo
         </Link>
 
         <nav className={styles.desktopNav}>

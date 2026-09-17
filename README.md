@@ -1,6 +1,6 @@
-# Flashcards Open Source App Website
+# Nibomo Website
 
-Marketing website for [Flashcards Open Source App](https://github.com/kirill-markin/flashcards-open-source-app). Static Next.js site deployed on Vercel.
+Marketing website for [Nibomo](https://github.com/kirill-markin/flashcards-open-source-app), formerly Flashcards Open Source App. Static Next.js site deployed on Vercel.
 
 **Live:** [flashcards-open-source-app.com](https://flashcards-open-source-app.com/)
 

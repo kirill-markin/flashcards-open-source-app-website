@@ -111,7 +111,7 @@ const nextConfig: NextConfig = {
   poweredByHeader: false,
   env: {
     SITE_URL: "https://flashcards-open-source-app.com/",
-    SITE_NAME: "Flashcards",
+    SITE_NAME: "Nibomo",
     APP_URL: "https://app.flashcards-open-source-app.com",
     AUTH_URL: "https://auth.flashcards-open-source-app.com",
     [MARKDOWN_MANIFEST_ENVIRONMENT_VARIABLE]: readMarkdownAssetManifest(),
