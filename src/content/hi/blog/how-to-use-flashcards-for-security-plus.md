@@ -342,7 +342,7 @@ Certification prep अक्सर छोटे-छोटे time scraps मे�
 
 ## इस workflow में Flashcards कहाँ अच्छी तरह fit बैठता है
 
-[Flashcards](https://flashcards-open-source-app.com/) **Security+ flashcards** के लिए अच्छा fit है, क्योंकि product पहले से workflow के साथ match करता है, आपको पाँच अलग tools में improvise करने पर मजबूर नहीं करता।
+[Nibomo](https://flashcards-open-source-app.com/) **Security+ flashcards** के लिए अच्छा fit है, क्योंकि product पहले से workflow के साथ match करता है, आपको पाँच अलग tools में improvise करने पर मजबूर नहीं करता।
 
 आप इस्तेमाल कर सकते हैं:
 

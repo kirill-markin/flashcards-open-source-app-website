@@ -92,7 +92,7 @@ Spaced repetition तब शुरू होता है जब आपको �
 
 यही scheduling problem spaced repetition solve करता है।
 
-एक अच्छा scheduler unstable material को जल्दी वापस लाता है, फिर जैसे-जैसे memory आसान होती जाती है, पीछे हटता जाता है। [Flashcards](/hi/) में यह timing layer FSRS पर चलती है, और deck थोड़ा बड़ा होते ही यह बात मायने रखने लगती है। अगर आपको scheduler की comparison चाहिए, तो [2026 में FSRS बनाम SM-2](/hi/blog/fsrs-vs-sm-2/) इस विषय का ज़्यादा गहराई वाला लेख है।
+एक अच्छा scheduler unstable material को जल्दी वापस लाता है, फिर जैसे-जैसे memory आसान होती जाती है, पीछे हटता जाता है। [Nibomo](/hi/) में यह timing layer FSRS पर चलती है, और deck थोड़ा बड़ा होते ही यह बात मायने रखने लगती है। अगर आपको scheduler की comparison चाहिए, तो [2026 में FSRS बनाम SM-2](/hi/blog/fsrs-vs-sm-2/) इस विषय का ज़्यादा गहराई वाला लेख है।
 
 इसलिए **spaced repetition** active recall का replacement नहीं है। यह उस material का calendar है जिसने दूसरी review कमाई है।
 
@@ -222,7 +222,7 @@ Sequence थोड़ा boring है। शायद इसी वजह स�
 
 ## Flashcards कहाँ fit बैठता है
 
-[Flashcards](/hi/) explanation के बाद, tutor के बाद, quiz के बाद, और practice session के बाद अच्छी तरह fit बैठता है।
+[Nibomo](/hi/) explanation के बाद, tutor के बाद, quiz के बाद, और practice session के बाद अच्छी तरह fit बैठता है।
 
 यह retention layer है, पूरा learning process नहीं।
 

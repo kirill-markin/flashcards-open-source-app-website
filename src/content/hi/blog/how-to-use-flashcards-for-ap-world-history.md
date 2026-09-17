@@ -194,7 +194,7 @@ AP World के लिए मैं weekly rhythm जानबूझकर borin
 
 ## इस AP World workflow में Flashcards कहाँ fit बैठता है
 
-अगर आप यह system चलाने के लिए एक ही जगह चाहते हैं, तो [Flashcards Open Source App](/) बिना किसी अजीब study stack के इस workflow में fit बैठता है।
+अगर आप यह system चलाने के लिए एक ही जगह चाहते हैं, तो [Nibomo](/) बिना किसी अजीब study stack के इस workflow में fit बैठता है।
 
 Current product पहले से काम के सबसे उपयोगी हिस्से को support करता है:
 

@@ -246,7 +246,7 @@ FSRS क्या नहीं करता: overloaded deck को बचान
 
 ## इस नर्सिंग workflow में Flashcards कहाँ fit बैठता है
 
-[Flashcards](https://flashcards-open-source-app.com/) **नर्सिंग स्कूल फ्लैशकार्ड** के लिए अच्छा fit है, क्योंकि product पहले से उन हिस्सों को support करता है जिन पर यह workflow depend करता है:
+[Nibomo](https://flashcards-open-source-app.com/) **नर्सिंग स्कूल फ्लैशकार्ड** के लिए अच्छा fit है, क्योंकि product पहले से उन हिस्सों को support करता है जिन पर यह workflow depend करता है:
 
 - संकरे recall prompts के लिए front/back cards
 - notes, lecture text, या question rationales से drafting के लिए workspace data और file attachments के साथ AI chat

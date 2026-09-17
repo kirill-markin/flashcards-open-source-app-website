@@ -207,7 +207,7 @@ Deck को सिर्फ़ एक सवाल का जवाब देन
 
 ## Flashcards कहाँ fit बैठता है
 
-[Flashcards](/hi/) tutoring session के बाद fit बैठता है, जब आपको पता चल चुका हो कि क्या चीज़ retention के लायक है।
+[Nibomo](/hi/) tutoring session के बाद fit बैठता है, जब आपको पता चल चुका हो कि क्या चीज़ retention के लायक है।
 
 ऐसी कोई magic button नहीं है जो अच्छी chat को long-term memory में बदल दे। काम का workflow इससे आसान है:
 

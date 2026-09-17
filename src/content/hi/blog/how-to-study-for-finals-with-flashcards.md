@@ -234,7 +234,7 @@ Finals week में FSRS एक वजह से useful है: यह अच�
 
 ## इस workflow में Flashcards कहाँ fit बैठता है
 
-[Flashcards](https://flashcards-open-source-app.com/) यहाँ इसलिए useful है क्योंकि product finals week की असली messy reality से मेल खाता है, यह मानकर नहीं चलता कि आपकी study inputs पहले से साफ़ आती हैं।
+[Nibomo](https://flashcards-open-source-app.com/) यहाँ इसलिए useful है क्योंकि product finals week की असली messy reality से मेल खाता है, यह मानकर नहीं चलता कि आपकी study inputs पहले से साफ़ आती हैं।
 
 आप hosted web app में files जोड़ सकते हैं, source साफ़ करने में मदद चाहिए तो file attachments के साथ AI chat इस्तेमाल कर सकते हैं, बची हुई काम की चीज़ों को front/back cards में बदल सकते हैं, और decks, tags, filtering, search, और FSRS scheduling के साथ final review loop एक ही जगह रख सकते हैं। Offline-first web, iOS, और Android apps भी finals के दौरान किसी ऐसे browser-only study tab से ज़्यादा समझ में आते हैं जो desk छोड़ते ही गुम हो जाए।
 

@@ -221,9 +221,9 @@ FSRS इस uneven decay को fixed review rhythm से बेहतर स�
 
 - [2026 में FSRS बनाम SM-2](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
 
-## Flashcards Open Source App इसमें कहाँ फिट बैठता है
+## Nibomo इसमें कहाँ फिट बैठता है
 
-[Flashcards Open Source App](https://flashcards-open-source-app.com/) **podcast से flashcards** के लिए अच्छा fit है क्योंकि product पहले से उन practical steps को cover करता है जो इस workflow को usable बनाते हैं:
+[Nibomo](https://flashcards-open-source-app.com/) **podcast से flashcards** के लिए अच्छा fit है क्योंकि product पहले से उन practical steps को cover करता है जो इस workflow को usable बनाते हैं:
 
 - podcast transcripts से plain text paste या upload करना
 - cards बनाने से पहले AI chat के भीतर material साफ़ करना

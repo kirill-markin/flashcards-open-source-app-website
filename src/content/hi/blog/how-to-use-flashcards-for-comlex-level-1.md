@@ -231,7 +231,7 @@ AI explanation को candidate flashcards में बदलने में �
 
 ## Flashcards कहाँ fit बैठता है
 
-[Flashcards](/hi/) तब सबसे useful होता है जब आपको साफ दिखने लगे कि किस चीज को retention में जाना चाहिए।
+[Nibomo](/hi/) तब सबसे useful होता है जब आपको साफ दिखने लगे कि किस चीज को retention में जाना चाहिए।
 
 **COMLEX Level 1 flashcards** के लिए useful setup आमतौर पर यह होता है:
 

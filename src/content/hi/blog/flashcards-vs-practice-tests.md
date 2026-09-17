@@ -236,7 +236,7 @@ Fix glamorous नहीं है:
 
 ## Flashcards यहाँ ईमानदारी से कहाँ fit बैठता है
 
-[Flashcards](/hi/) ऐसा product नहीं है जिसे मैं full practice-test platform कहूँगा।
+[Nibomo](/hi/) ऐसा product नहीं है जिसे मैं full practice-test platform कहूँगा।
 
 यह explanation, tutoring, quizzes, और practice questions अपना काम कर लेने के बाद retention layer के रूप में ज़्यादा natural fit बैठता है।
 

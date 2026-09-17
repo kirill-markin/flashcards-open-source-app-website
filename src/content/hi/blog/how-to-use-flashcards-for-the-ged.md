@@ -256,7 +256,7 @@ Adult learners के लिए **GED spaced repetition** खास तौर �
 
 ## Flashcards कहाँ fit बैठता है
 
-[Flashcards](/) इस GED workflow के लिए अच्छा fit है, क्योंकि product पहले से उन boring parts को संभालता है जिनकी वजह से system टिकता है:
+[Nibomo](/) इस GED workflow के लिए अच्छा fit है, क्योंकि product पहले से उन boring parts को संभालता है जिनकी वजह से system टिकता है:
 
 - hosted web app में front/back card creation और editing
 - pasted text या file attachments से drafting और cleanup के लिए AI chat

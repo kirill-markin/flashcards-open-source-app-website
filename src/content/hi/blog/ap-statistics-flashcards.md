@@ -237,13 +237,13 @@ Routine इतना छोटा रखें कि पूरे स्कू�
 
 हर दिन नए कार्ड का ऐसा लक्ष्य रखें कि reviews पूरे करने और असली सवाल हल करने का समय भी बचे। [हर दिन कितने नए फ़्लैशकार्ड बनाने चाहिए?](/blog/how-many-new-flashcards-per-day/) बताता है कि reviews बढ़ने पर यह संख्या कैसे बदलें।
 
-## इस तरीके में Flashcards Open Source App कहाँ मदद करता है
+## इस तरीके में Nibomo कहाँ मदद करता है
 
-[Flashcards Open Source App](/features/) याद करने वाला हिस्सा संभाल सकता है: front/back कार्ड, tags, FSRS scheduling, imports और portable exports, AI-assisted drafts और offline-first clients। एक ही कार्ड पर unit, practice और mistake tags लगाए जा सकते हैं।
+[Nibomo](/features/) याद करने वाला हिस्सा संभाल सकता है: front/back कार्ड, tags, FSRS scheduling, imports और portable exports, AI-assisted drafts और offline-first clients। एक ही कार्ड पर unit, practice और mistake tags लगाए जा सकते हैं।
 
 बहुत लंबे उत्तर को छोटा करने या अपने notes से draft बनाने के लिए AI assistance इस्तेमाल करें। सहेजने से पहले हर statistical claim को मौजूदा Course and Exam Description या अपने teacher की सामग्री से जाँचें।
 
-Flashcards Open Source App अभी कोई verified, ready-made AP Statistics package नहीं देता। यह FRQ को grade भी नहीं करता और Bluebook या calculator practice की जगह नहीं लेता। अपने मौजूदा course materials से शुरुआत करें और जाँच में सही पाए गए कार्ड को schedule करने के लिए app इस्तेमाल करें।
+Nibomo अभी कोई verified, ready-made AP Statistics package नहीं देता। यह FRQ को grade भी नहीं करता और Bluebook या calculator practice की जगह नहीं लेता। अपने मौजूदा course materials से शुरुआत करें और जाँच में सही पाए गए कार्ड को schedule करने के लिए app इस्तेमाल करें।
 
 यह एक स्वतंत्र study guide है; इसका College Board से कोई संबंध नहीं है और न ही College Board ने इसका समर्थन किया है। [शुरुआत करने की गाइड](/docs/getting-started/) hosted app और self-hosted setup, दोनों समझाती है।
 

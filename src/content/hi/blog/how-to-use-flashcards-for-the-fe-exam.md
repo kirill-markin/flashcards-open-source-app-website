@@ -338,7 +338,7 @@ FSRS क्या नहीं करता: खराब deck को नही�
 
 ## इस workflow में Flashcards कहाँ fit बैठता है
 
-[Flashcards](/hi/) FE prep के इस style के लिए अच्छा fit है, क्योंकि product workflow के बीच वाले हिस्से को support करता है, सिर्फ़ first draft को नहीं:
+[Nibomo](/hi/) FE prep के इस style के लिए अच्छा fit है, क्योंकि product workflow के बीच वाले हिस्से को support करता है, सिर्फ़ first draft को नहीं:
 
 - equations, unit checks, और trap patterns के लिए front/back cards
 - common-engineering बनाम discipline-specific review के लिए decks और tags

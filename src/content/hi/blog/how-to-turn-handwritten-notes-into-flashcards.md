@@ -168,7 +168,7 @@ notebook photo आम तौर पर ज़्यादा personal, ज़्
 
 ## इस workflow में Flashcards कहाँ फिट बैठता है
 
-[Flashcards](https://flashcards-open-source-app.com/) **handwritten notes से flashcards** के लिए अच्छा fit है क्योंकि product में पहले से वे हिस्से एक साथ हैं जो मायने रखते हैं:
+[Nibomo](https://flashcards-open-source-app.com/) **handwritten notes से flashcards** के लिए अच्छा fit है क्योंकि product में पहले से वे हिस्से एक साथ हैं जो मायने रखते हैं:
 
 - AI chat
 - image और file attachments
@@ -210,7 +210,7 @@ messy notebook photos से यह मत कहिए कि वे एक ह
 
 अगर आप यही चाहते हैं, तो यहाँ से शुरू करें:
 
-- [Open Flashcards](https://flashcards-open-source-app.com/)
+- [Open Nibomo](https://flashcards-open-source-app.com/)
 - [ऐप खोलें](https://app.flashcards-open-source-app.com/)
 - [getting started guide पढ़ें](https://flashcards-open-source-app.com/docs/getting-started/)
 - [GitHub पर source देखें](https://github.com/kirill-markin/flashcards-open-source-app)

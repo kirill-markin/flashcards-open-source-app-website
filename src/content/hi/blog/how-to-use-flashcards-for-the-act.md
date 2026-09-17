@@ -247,7 +247,7 @@ AI यहाँ उपयोगी है, लेकिन सिर्फ compr
 
 इस हिस्से को साफ़-साफ़ कहना चाहिए।
 
-Flashcards Open Source App का ACT के साथ कोई official integration नहीं है। इसे अपने notes, अपनी summaries, और lawful study materials से लिखे गए अपने mistake writeups के साथ इस्तेमाल करें। इसे copied proprietary question banks, full answer keys, या ACT के ऐसे लंबे protected content को जमा करने की जगह न बनाइए जिसे reproduce करने का अधिकार आपके पास नहीं है।
+Nibomo का ACT के साथ कोई official integration नहीं है। इसे अपने notes, अपनी summaries, और lawful study materials से लिखे गए अपने mistake writeups के साथ इस्तेमाल करें। इसे copied proprietary question banks, full answer keys, या ACT के ऐसे लंबे protected content को जमा करने की जगह न बनाइए जिसे reproduce करने का अधिकार आपके पास नहीं है।
 
 असल में सबसे मजबूत card अक्सर पूरा question होता ही नहीं। वह आपकी compact summary होती है कि failure कहाँ हुआ और अगली बार result बदलने के लिए क्या अलग करना होगा।
 
@@ -321,9 +321,9 @@ FSRS timing में मदद करता है। वह खराब cards
 
 अगर आप scheduling वाले हिस्से को और detail में समझना चाहते हैं, तो [2026 में FSRS के साथ परीक्षा की तैयारी कैसे करें](/blog/how-to-study-for-an-exam-with-fsrs/) और [2026 में FSRS बनाम SM-2](/blog/fsrs-vs-sm-2/) पढ़ें।
 
-## इस ACT workflow में Flashcards Open Source App कहाँ fit बैठता है
+## इस ACT workflow में Nibomo कहाँ fit बैठता है
 
-[Flashcards](/) इस तरह की ACT prep के लिए अच्छा fit है, क्योंकि current product पहले से उस awkward middle को support करता है जहाँ बात "मैंने यह question miss किया" और "मैं कल यही exact lesson review कर रहा हूँ" के बीच की होती है।
+[Nibomo](/) इस तरह की ACT prep के लिए अच्छा fit है, क्योंकि current product पहले से उस awkward middle को support करता है जहाँ बात "मैंने यह question miss किया" और "मैं कल यही exact lesson review कर रहा हूँ" के बीच की होती है।
 
 इस workflow के लिए उपयोगी हिस्से:
 

@@ -18,7 +18,7 @@ keywords:
 
 यह Gizmo flashcards रिव्यू मौजूदा आधिकारिक help pages पर आधारित है। मैंने Gizmo को खुद चलाकर नहीं परखा है, इसलिए product से जुड़े दावे उन्हीं बातों तक सीमित हैं जिन्हें Gizmo ने अपने दस्तावेज़ों में दर्ज किया है। जहाँ जानकारी साफ़ नहीं है, वहाँ मैंने इसे स्पष्ट रूप से बताया है।
 
-> **खुलासा:** मैं Kirill Markin हूँ और नीचे तुलना में शामिल [Flashcards](https://flashcards-open-source-app.com/) को मैं बनाता हूँ। Gizmo के दस्तावेज़ों में बताया गया workflow ज़्यादा व्यापक है: इसमें ज़्यादा source formats, पाँच card types, AI Tutor lessons, कई तरह के quizzes और game जैसी progression मिलती है। Flashcards को जानबूझकर सीमित दायरे में रखा गया है।
+> **खुलासा:** मैं Kirill Markin हूँ और नीचे तुलना में शामिल [Nibomo](https://flashcards-open-source-app.com/) को मैं बनाता हूँ। Gizmo के दस्तावेज़ों में बताया गया workflow ज़्यादा व्यापक है: इसमें ज़्यादा source formats, पाँच card types, AI Tutor lessons, कई तरह के quizzes और game जैसी progression मिलती है। Nibomo को जानबूझकर सीमित दायरे में रखा गया है।
 
 **तथ्यों की जाँच:** 1 सितंबर 2026।
 
@@ -111,9 +111,9 @@ Gizmo की [card-management guide](https://help.gizmo.ai/en/articles/13761411-
 
 यह फर्क अहम है, क्योंकि “पहले से load हुई screen अब भी जवाब दे रही है” और “मेरी review history सुरक्षित store हुई है और बाद में sync हो जाएगी” दो अलग दावे हैं। [Offline flashcards app guide](/blog/best-offline-flashcards-app/) कई products को इसी ज़्यादा सख्त test पर परखती है।
 
-## Gizmo बनाम Flashcards: एक नज़र में
+## Gizmo बनाम Nibomo: एक नज़र में
 
-| फैसला किस आधार पर लें | Gizmo | Flashcards |
+| फैसला किस आधार पर लें | Gizmo | Nibomo |
 | --- | --- | --- |
 | शुरुआत कहाँ से होती है | Manual cards या पढ़ाई के अलग-अलग sources से Magic Import | चुनिंदा front/back cards, जिन्हें manual तरीके से या AI की मदद से बनाया जाए |
 | Card formats | Card text, Multiple choice, Matching, Ordering और True/False | Front/back cards |
@@ -157,4 +157,4 @@ Offline इस्तेमाल और data बाहर निकालने 
 
 Gizmo AI रिव्यू में असली तुलना “AI बनाम बिना AI” की नहीं है। दोनों products AI इस्तेमाल करते हैं। फर्क यह है कि workflow में AI कहाँ आता है। Gizmo बड़े source material को पढ़ाई के व्यापक माहौल में बदलने के लिए AI इस्तेमाल करता है। Flashcards छोटे card workflow के भीतर AI इस्तेमाल करता है, जहाँ आप तय करते हैं कि क्या save और schedule होगा।
 
-अगर सीमित दायरे वाला यह workflow आपकी ज़रूरतों के ज़्यादा करीब लगता है, तो [Flashcards के features](/features/) देखें या [शुरुआती guide](/docs/getting-started/) से शुरुआत करें।
+अगर सीमित दायरे वाला यह workflow आपकी ज़रूरतों के ज़्यादा करीब लगता है, तो [Nibomo के features](/features/) देखें या [शुरुआती guide](/docs/getting-started/) से शुरुआत करें।

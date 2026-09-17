@@ -244,7 +244,7 @@ Practice misses अक्सर ये चीज़ें सामने ला
 
 ## इस workflow में Flashcards कहाँ फिट बैठता है
 
-[Flashcards](/hi/) तब सबसे अच्छा fit बैठता है, जब आपको पहले से पता हो कि review के लायक क्या है।
+[Nibomo](/hi/) तब सबसे अच्छा fit बैठता है, जब आपको पहले से पता हो कि review के लायक क्या है।
 
 Product पहले से workflow के बीच वाले हिस्से को support करता है:
 

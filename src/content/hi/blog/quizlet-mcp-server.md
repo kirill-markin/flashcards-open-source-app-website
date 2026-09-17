@@ -19,7 +19,7 @@ keywords:
 
 **तथ्यों की जाँच:** 12 सितंबर 2026।
 
-> **खुलासा:** मैं Kirill Markin हूँ और Flashcards Open Source App बनाता हूँ। उसका MCP server और Agent API नीचे विकल्पों के रूप में शामिल हैं। Flashcards को Quizlet account से जोड़ा नहीं जा सकता और वह Quizlet URL import नहीं कर सकता।
+> **खुलासा:** मैं Kirill Markin हूँ और Nibomo बनाता हूँ। उसका MCP server और Agent API नीचे विकल्पों के रूप में शामिल हैं। Nibomo को Quizlet account से जोड़ा नहीं जा सकता और वह Quizlet URL import नहीं कर सकता।
 
 ![एक माली बंद ग्रीनहाउस से एक छोटे पौधे को शाखाओं वाली ड्रिप सिंचाई से जुड़ी क्यारी में ले जा रही है](/blog/quizlet-mcp-server.png)
 
@@ -71,7 +71,7 @@ Separators, CSV और files से जुड़ी पूरी checklist [2026
 
 ## Export के बाद Claude और Codex क्या इस्तेमाल कर सकते हैं
 
-Flashcards Open Source App का remote MCP endpoint यह है:
+Nibomo का remote MCP endpoint यह है:
 
 `https://mcp.flashcards-open-source-app.com/mcp`
 

@@ -174,7 +174,7 @@ Flashcards सीधे Gemini Deep Research से connected नहीं ह�
 
 ## Flashcards इस workflow में क्यों fit बैठता है
 
-[Flashcards](/) Gemini Deep Research को replace करने की कोशिश नहीं कर रहा।
+[Nibomo](/) Gemini Deep Research को replace करने की कोशिश नहीं कर रहा।
 
 यह इसलिए fit बैठता है क्योंकि यह वही हिस्सा संभालता है जिसे Deep Research अधूरा छोड़ देता है:
 
@@ -227,4 +227,4 @@ Report से यह उम्मीद कीजिए कि वह बता�
 
 असल में **Gemini Deep Research को फ़्लैशकार्ड्स में कैसे बदलें** का टिकाऊ version यही है: context के लिए report संभालकर रखें, polished wording से ज़्यादा source links पर भरोसा करें, सिर्फ़ वही claims निकालें जिन्हें बाद में याद से निकालना सार्थक हो, और cleanup पूरा होने के बाद review की rhythm FSRS पर छोड़ दें।
 
-अगर आप यही चाहते हैं, तो [Flashcards](/) एक मज़बूत fit है। यह आपको research notes साफ़ करने, उन्हें front/back cards में बदलने, topic के हिसाब से organize करने, और किसी ऐसी spaced repetition system के साथ review करने के लिए एक जगह देता है जो सच में याददाश्त का काम करती है, सिर्फ़ यह उम्मीद नहीं करती कि report खुद यह काम कर लेगी।
+अगर आप यही चाहते हैं, तो [Nibomo](/) एक मज़बूत fit है। यह आपको research notes साफ़ करने, उन्हें front/back cards में बदलने, topic के हिसाब से organize करने, और किसी ऐसी spaced repetition system के साथ review करने के लिए एक जगह देता है जो सच में याददाश्त का काम करती है, सिर्फ़ यह उम्मीद नहीं करती कि report खुद यह काम कर लेगी।

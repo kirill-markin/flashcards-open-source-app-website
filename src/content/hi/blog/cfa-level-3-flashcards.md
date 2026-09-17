@@ -180,7 +180,7 @@ Level III की एक व्यावहारिक अध्ययन प्
 
 ## इस प्रक्रिया में Flashcards की भूमिका
 
-[Flashcards](/) curriculum, item sets, constructed responses या मॉक टेस्ट की जगह लिए बिना याद करने वाला हिस्सा सँभालता है। Hosted web app में front/back cards, tags, FSRS से तय रिव्यू और workspace data व file attachments के साथ AI chat उपलब्ध हैं। यह project open source है; इसकी repository में iOS client भी है और Android app Google Play पर प्रकाशित है।
+[Nibomo](/) curriculum, item sets, constructed responses या मॉक टेस्ट की जगह लिए बिना याद करने वाला हिस्सा सँभालता है। Hosted web app में front/back cards, tags, FSRS से तय रिव्यू और workspace data व file attachments के साथ AI chat उपलब्ध हैं। यह project open source है; इसकी repository में iOS client भी है और Android app Google Play पर प्रकाशित है।
 
 अभ्यास की उन पिछली कुछ गलतियों से शुरू करें जिनमें दोबारा होने वाली समस्या सामने आई थी। AI के बनाए मसौदों को सहेजने से पहले संपादित करें, तय समय पर आए कार्डों का रिव्यू करें और फिर समयबद्ध सवालों पर लौटें। मौजूदा [features](/features/), [शुरुआत करने की गाइड](/docs/getting-started/) और [source code](https://github.com/kirill-markin/flashcards-open-source-app) ठीक-ठीक दिखाते हैं कि इस उत्पाद में क्या मिलता है।
 

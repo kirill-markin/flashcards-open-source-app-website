@@ -159,11 +159,11 @@ FSRS पिछली बार जानकारी याद करने क�
 
 फ़्लैशकार्ड समय के साथ जानकारी याद करने का अभ्यास कराते हैं। समयबद्ध question sets सवाल पढ़ना, जवाब चुनना, अपनी रफ़्तार संभालना और अनिश्चितता के बीच फैसला करना सिखाते हैं। आपको दोनों चाहिए।
 
-## इस तरीके में Flashcards Open Source App कहाँ काम आता है
+## इस तरीके में Nibomo कहाँ काम आता है
 
-[Flashcards Open Source App की सुविधाएँ](/features/) इस तरीके में मदद करती हैं: आप front/back cards लिख या import कर सकते हैं, tags से उन्हें व्यवस्थित कर सकते हैं, AI की मदद से draft बना सकते हैं और FSRS से review कर सकते हैं।
+[Nibomo की सुविधाएँ](/features/) इस तरीके में मदद करती हैं: आप front/back cards लिख या import कर सकते हैं, tags से उन्हें व्यवस्थित कर सकते हैं, AI की मदद से draft बना सकते हैं और FSRS से review कर सकते हैं।
 
-AI के output को अब भी इंसान की जाँच चाहिए। Flashcards Open Source App का ASWB से कोई संबंध नहीं है, यह ASWB का आधिकारिक content provider नहीं है और न ही exam simulator है। इसमें ASWB deck या question bank शामिल नहीं है। केवल वे sources इस्तेमाल करें जिन्हें इस्तेमाल करने का आपको अधिकार है। जिन cards को category और jurisdiction का संदर्भ चाहिए, उनके साथ वह संदर्भ जोड़कर रखें।
+AI के output को अब भी इंसान की जाँच चाहिए। Nibomo का ASWB से कोई संबंध नहीं है, यह ASWB का आधिकारिक content provider नहीं है और न ही exam simulator है। इसमें ASWB deck या question bank शामिल नहीं है। केवल वे sources इस्तेमाल करें जिन्हें इस्तेमाल करने का आपको अधिकार है। जिन cards को category और jurisdiction का संदर्भ चाहिए, उनके साथ वह संदर्भ जोड़कर रखें।
 
 ## Deck पढ़ना शुरू करने से पहले अंतिम जाँच
 

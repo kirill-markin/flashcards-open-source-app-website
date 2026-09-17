@@ -212,7 +212,7 @@ Summer decks तब bloated हो जाती हैं जब लोग "य�
 
 ## Flashcards इसमें कहाँ अच्छे से fit होता है
 
-[Flashcards](/hi/) इस तरह की summer review के लिए अच्छा fit है, क्योंकि मुश्किल हिस्सा novelty नहीं होता। मुश्किल हिस्सा friction इतना कम रखना होता है कि आप लौटते रहें।
+[Nibomo](/hi/) इस तरह की summer review के लिए अच्छा fit है, क्योंकि मुश्किल हिस्सा novelty नहीं होता। मुश्किल हिस्सा friction इतना कम रखना होता है कि आप लौटते रहें।
 
 आप notes या files से cards draft कर सकते हैं, उन्हें plain front/back prompts तक trim कर सकते हैं, और deck साफ़ हो जाने पर review timing FSRS पर छोड़ सकते हैं। July में यह बात finals week से भी ज़्यादा मायने रखती है। Finals के दौरान लोग कुछ दिनों के लिए messy workflow tolerate कर लेते हैं। Summer में वे बस app खोलना बंद कर देते हैं।
 

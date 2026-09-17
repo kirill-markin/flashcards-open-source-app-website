@@ -242,7 +242,7 @@ FSRS तब सबसे अच्छा काम करता है जब:
 
 ## इस workflow में Flashcards कहाँ बेहतर fit बैठता है
 
-[Flashcards](https://flashcards-open-source-app.com/) इस खास समस्या के लिए अच्छा fit है, क्योंकि यह product पूरे "कम junk बनाओ, अच्छे cards को तेज़ review करो" workflow को support करता है, बिना यह दिखावा किए कि हर step एक ही काम है।
+[Nibomo](https://flashcards-open-source-app.com/) इस खास समस्या के लिए अच्छा fit है, क्योंकि यह product पूरे "कम junk बनाओ, अच्छे cards को तेज़ review करो" workflow को support करता है, बिना यह दिखावा किए कि हर step एक ही काम है।
 
 इस repo में मौजूद मौजूदा product capabilities इससे अच्छी तरह मेल खाती हैं:
 
@@ -285,7 +285,7 @@ FSRS तब सबसे अच्छा काम करता है जब:
 
 अगर आप यह workflow एक ही जगह आज़माना चाहते हैं:
 
-- [Flashcards खोलें](https://flashcards-open-source-app.com/)
+- [Nibomo खोलें](https://flashcards-open-source-app.com/)
 - [ऐप खोलें](https://app.flashcards-open-source-app.com/)
 - [features page पढ़ें](https://flashcards-open-source-app.com/features/)
 - [GitHub पर source देखें](https://github.com/kirill-markin/flashcards-open-source-app)

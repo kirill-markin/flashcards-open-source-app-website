@@ -117,7 +117,7 @@ clean की हुई note लें और plain front/back cards माँग
 
 ## Flashcards, Obsidian workflow में ठीक बैठता है, बिना यह दिखावा किए कि वही आपका vault है
 
-[Flashcards](https://flashcards-open-source-app.com/) यहाँ इसलिए समझ आता है क्योंकि यह workflow के पढ़ाई वाले हिस्से को साफ़ तरीके से संभालता है:
+[Nibomo](https://flashcards-open-source-app.com/) यहाँ इसलिए समझ आता है क्योंकि यह workflow के पढ़ाई वाले हिस्से को साफ़ तरीके से संभालता है:
 
 - front/back cards बनाना
 - pasted text से draft तैयार करने के लिए AI chat

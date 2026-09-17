@@ -260,7 +260,7 @@ FSRS क्या नहीं करता: वह बहुत ज़्या
 
 ## इस Digital SAT workflow में Flashcards कहाँ फिट बैठता है
 
-[Flashcards](https://flashcards-open-source-app.com/) **Digital SAT फ़्लैशकार्ड** के लिए अच्छा विकल्प है, क्योंकि मौजूदा product पहले से उन हिस्सों को support करता है जिन पर यह workflow टिका है:
+[Nibomo](https://flashcards-open-source-app.com/) **Digital SAT फ़्लैशकार्ड** के लिए अच्छा विकल्प है, क्योंकि मौजूदा product पहले से उन हिस्सों को support करता है जिन पर यह workflow टिका है:
 
 - front/back cards बनाना और उन्हें edit करना
 - notes, pasted explanations, या practice-test review से candidate cards draft करने के लिए AI chat

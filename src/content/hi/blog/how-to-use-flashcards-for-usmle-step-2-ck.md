@@ -290,7 +290,7 @@ Step 2 CK memory बहुत सामान्य तरीके से uneve
 
 ## इस Step 2 CK workflow में Flashcards क्यों ठीक बैठता है
 
-अगर आप यह workflow [Flashcards](https://flashcards-open-source-app.com/) के भीतर चलाना चाहते हैं, तो उपयोगी बात यह नहीं कि product clinical thinking की जगह लेता है। उपयोगी बात यह है कि यह बिखरे हुए Step 2 source material से छोटे, reviewable cards तक पहुँचने का तेज़ रास्ता देता है।
+अगर आप यह workflow [Nibomo](https://flashcards-open-source-app.com/) के भीतर चलाना चाहते हैं, तो उपयोगी बात यह नहीं कि product clinical thinking की जगह लेता है। उपयोगी बात यह है कि यह बिखरे हुए Step 2 source material से छोटे, reviewable cards तक पहुँचने का तेज़ रास्ता देता है।
 
 असल में मायने रखने वाली चीज़ें सीधी हैं:
 

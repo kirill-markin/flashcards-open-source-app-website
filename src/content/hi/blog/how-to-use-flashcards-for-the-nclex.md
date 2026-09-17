@@ -247,7 +247,7 @@ FSRS उपयोगी है, क्योंकि NCLEX memory uneven हो
 
 ## Flashcards यहाँ कहाँ काम आता है
 
-[Flashcards](https://flashcards-open-source-app.com/) इस workflow में अच्छी तरह काम आता है, क्योंकि यह वे boring चीज़ें देता है जो सच में मायने रखती हैं: छोटे front/back cards, tags, filtered review, और cards काफ़ी साफ़ हो जाने के बाद FSRS scheduling।
+[Nibomo](https://flashcards-open-source-app.com/) इस workflow में अच्छी तरह काम आता है, क्योंकि यह वे boring चीज़ें देता है जो सच में मायने रखती हैं: छोटे front/back cards, tags, filtered review, और cards काफ़ी साफ़ हो जाने के बाद FSRS scheduling।
 
 NCLEX prep में यह इसलिए उपयोगी है, क्योंकि source material बहुत जल्दी messy हो जाता है। Rationales एक tab में हैं, handwritten notes दूसरे में, lab-values sheet कहीं और पड़ी है, और आपकी असली weak spots आम तौर पर उन सबमें बिखरी होती हैं। सही tool वही है जो आपको उन्हें छोटे cards में बदलने दे, बिना दूसरी full-time study system बनाए।
 

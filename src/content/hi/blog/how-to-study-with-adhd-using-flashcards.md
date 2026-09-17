@@ -176,7 +176,7 @@ FSRS तब मदद करता है जब cards पहले से revie
 
 ## इस workflow में Flashcards कहाँ fit होता है
 
-[Flashcards](/hi/) इस तरह के workflow के लिए अच्छा fit है, क्योंकि product पहले से उन्हीं हिस्सों के आसपास बना है जो motivation उतर जाने के बाद भी मायने रखते हैं:
+[Nibomo](/hi/) इस तरह के workflow के लिए अच्छा fit है, क्योंकि product पहले से उन्हीं हिस्सों के आसपास बना है जो motivation उतर जाने के बाद भी मायने रखते हैं:
 
 - card creation और due reviews के लिए hosted web app
 - file attachments और plain-text uploads के साथ AI chat
