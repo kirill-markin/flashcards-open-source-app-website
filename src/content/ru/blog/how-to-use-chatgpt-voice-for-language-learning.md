@@ -250,9 +250,9 @@ keywords:
 
 - ['FSRS против SM-2 в 2026 году: какой алгоритм интервального повторения поможет вам](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
 
-## Где здесь подходит Flashcards Open Source App
+## Где здесь подходит Nibomo
 
-[Flashcards Open Source App](https://flashcards-open-source-app.com/) хорошо вписывается в этот сценарий, потому что продукт уже совпадает с тем, что нужно голосовой языковой практике:
+[Nibomo](https://flashcards-open-source-app.com/) хорошо вписывается в этот сценарий, потому что продукт уже совпадает с тем, что нужно голосовой языковой практике:
 
 - чистое создание карточек front/back
 - планирование FSRS для долгосрочного повторения
@@ -284,7 +284,7 @@ keywords:
 
 Если вам нужен именно такой сценарий, начните здесь:
 
-- [Open Flashcards Open Source App](https://flashcards-open-source-app.com/)
+- [Open Nibomo](https://flashcards-open-source-app.com/)
 - [Начало работы](https://flashcards-open-source-app.com/docs/getting-started/)
 - [API-справка](https://flashcards-open-source-app.com/docs/api/)
 - [View the source on GitHub](https://github.com/kirill-markin/flashcards-open-source-app)

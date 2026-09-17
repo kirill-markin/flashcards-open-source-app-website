@@ -17,7 +17,7 @@ keywords:
 
 Именно такую работу инструмент и должен брать на себя.
 
-В [Flashcards](https://flashcards-open-source-app.com/) мы открыли для агентов сценарий входа с открытым исходным кодом, который начинается с одной discovery-ссылки:
+В [Nibomo](https://flashcards-open-source-app.com/) мы открыли для агентов сценарий входа с открытым исходным кодом, который начинается с одной discovery-ссылки:
 
 `https://api.flashcards-open-source-app.com/v1/`
 
