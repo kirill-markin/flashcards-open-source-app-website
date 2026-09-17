@@ -261,9 +261,9 @@ Level II対策は、もともと動く部品が多いです。スケジューラ
 
 毎日のキューがだんだん重くなってきたら、[2026年版 フラッシュカードを速く復習する方法](/ja/blog/how-to-review-flashcards-faster/) が、カードを増やす前の整理として役立ちます。
 
-## Flashcards Open Source App がこの流れに合う理由
+## Nibomo がこの流れに合う理由
 
-[Flashcards Open Source App](/ja/) は、この運用と相性が良いです。Level II受験者が必要としがちな部品を、すでに1か所で持っているからです。
+[Nibomo](/ja/) は、この運用と相性が良いです。Level II受験者が必要としがちな部品を、すでに1か所で持っているからです。
 
 - 小さく保てる表裏カード
 - topic、LOS、mock-miss を追えるタグ

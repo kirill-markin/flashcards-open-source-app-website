@@ -191,7 +191,7 @@ FSRSは、入力された評価をもとにスケジュールを決めます。�
 
 ## FlashcardsでFSRSの4段階評価を使う流れ
 
-[Flashcards Open Source Appの機能](/ja/features/)には、FSRSを使った表面・裏面形式の復習があります。Again、Hard、Good、Easyのいずれかを送信すると、バックエンドがその復習結果から次の復習時刻を計算します。
+[Nibomoの機能](/ja/features/)には、FSRSを使った表面・裏面形式の復習があります。Again、Hard、Good、Easyのいずれかを送信すると、バックエンドがその復習結果から次の復習時刻を計算します。
 
 この流れでも、同じ2段階のルールを使います。
 

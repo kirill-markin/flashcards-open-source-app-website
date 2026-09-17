@@ -276,9 +276,9 @@ AIを使ったカード作成全体の話から入りたいなら、まずはこ
 
 同じ15個の教訓を何度も忘れるのを止めればいいのです。
 
-## Flashcards Open Source App が向いている理由
+## Nibomo が向いている理由
 
-[Flashcards Open Source App](https://flashcards-open-source-app.com/) が **コーディング面接用フラッシュカード** に向いているのは、この用途で重要な要素をすでに押さえているからです。
+[Nibomo](https://flashcards-open-source-app.com/) が **コーディング面接用フラッシュカード** に向いているのは、この用途で重要な要素をすでに押さえているからです。
 
 - 手動で間隔を調整しなくても繰り返し復習できる FSRS スケジューリング
 - デッキ、タグ、検索、タグや負荷レベルで絞り込める filtered deck 機能

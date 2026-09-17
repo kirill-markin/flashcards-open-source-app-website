@@ -219,7 +219,7 @@ keywords:
 
 ## Flashcards がこの流れに合う理由
 
-[Flashcards](https://flashcards-open-source-app.com/) は、**演習問題をフラッシュカードに変える用途** と相性の良いプロダクトです。この流れに必要な部品が、すでに揃っているからです。
+[Nibomo](https://flashcards-open-source-app.com/) は、**演習問題をフラッシュカードに変える用途** と相性の良いプロダクトです。この流れに必要な部品が、すでに揃っているからです。
 
 - AI チャット
 - ファイルと画像の添付

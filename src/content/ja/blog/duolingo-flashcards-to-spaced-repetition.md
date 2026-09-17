@@ -166,11 +166,11 @@ FSRS でも、悪いカードは救えません。
 
 別のアプリに自分のデッキを新しく作る場合も、カードの選び方は同じです。画面に5枚あったというだけで、レッスンの5単語をそのまま移す必要はありません。長く復習する必要があると実際にわかったものだけを移します。
 
-## Flashcards Open Source App の役割
+## Nibomo の役割
 
-> **開示:** 私は Kirill Markin です。[Flashcards Open Source App](/features/) を開発しています。
+> **開示:** 私は Kirill Markin です。[Nibomo](/features/) を開発しています。
 
-Flashcards は、この方法のうち、自分で管理するデッキを置ける場所の1つです。[ホスト版アプリ](/docs/getting-started/) では、カードの作成と復習、ワークスペースのデータや添付ファイルを使った AI チャット、FSRS による復習スケジュールを利用できます。[リポジトリはオープンソース](https://github.com/kirill-markin/flashcards-open-source-app) で、[セルフホスティングの手順](/docs/self-hosting/) も公開しています。
+Nibomo は、この方法のうち、自分で管理するデッキを置ける場所の1つです。[ホスト版アプリ](/docs/getting-started/) では、カードの作成と復習、ワークスペースのデータや添付ファイルを使った AI チャット、FSRS による復習スケジュールを利用できます。[リポジトリはオープンソース](https://github.com/kirill-markin/flashcards-open-source-app) で、[セルフホスティングの手順](/docs/self-hosting/) も公開しています。
 
 この Duolingo の使い方なら、通常は手入力で十分です。AI は訂正内容を分割したり、不自然な問いを書き直したりするのに役立ちます。ただし、レッスンのどの単語を長期復習に残すかまで AI に決めさせるものではありません。何を間違え、何を言えるようになりたいかは、自分がいちばんよくわかっています。
 

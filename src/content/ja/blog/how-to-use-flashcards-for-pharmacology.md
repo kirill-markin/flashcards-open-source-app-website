@@ -259,7 +259,7 @@ keywords:
 
 ## このワークフローで Flashcards が合う場所
 
-[Flashcards](https://flashcards-open-source-app.com/) がこの種の薬理学学習に合うのは、薬理学そのものを AI に丸投げするからではありません。私はそのやり方では勉強しません。
+[Nibomo](https://flashcards-open-source-app.com/) がこの種の薬理学学習に合うのは、薬理学そのものを AI に丸投げするからではありません。私はそのやり方では勉強しません。
 
 役に立つ部分は、もっと限定的です。
 

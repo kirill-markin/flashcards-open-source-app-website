@@ -19,7 +19,7 @@ keywords:
 
 このように教材の範囲を限定する流れが、**Claudeを勉強に使う方法**の実践的な答えです。最初に教材を点検し、記憶だけで1問ずつ答え、それぞれの訂正に根拠を添え、あとで見直す価値のある弱点だけを残します。通常のClaudeチャットで実践でき、フラッシュカードアプリも必須ではありません。
 
-> **開示事項：** 私はKirill Markinで、[Flashcards Open Source App](/features/)を開発しています。この開示を除き、製品について触れるのは、後半の任意のカード移行セクションだけです。この学習法は製品に依存しません。この記事の調査と編集にはAIを使用しました。
+> **開示事項：** 私はKirill Markinで、[Nibomo](/features/)を開発しています。この開示を除き、製品について触れるのは、後半の任意のカード移行セクションだけです。この学習法は製品に依存しません。この記事の調査と編集にはAIを使用しました。
 
 **事実確認日：** 2026年9月14日。
 
@@ -216,7 +216,7 @@ Anthropicの[ウェブ検索ガイド](https://support.claude.com/en/articles/10
 
 最も簡単な移行方法は、どのフラッシュカードアプリでも使えます。承認したカードだけを、表面と裏面に分けたプレーンテキストで返すようClaudeに頼み、もう一度確認してから、普段使っている復習システムにコピーします。
 
-Flashcards Open Source Appを使っている場合は、Claudeのリモートカスタムコネクタを通じて、承認済みのカードを保存することもできます。Anthropicの[現在のカスタムコネクタガイド](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp)によると、リモートコネクタはFree、Pro、Max、Team、Enterpriseプランで利用でき、Freeユーザーは1つ追加できます。信頼できるサーバーだけに接続し、承認前に書き込み操作の内容を確認してください。
+Nibomoを使っている場合は、Claudeのリモートカスタムコネクタを通じて、承認済みのカードを保存することもできます。Anthropicの[現在のカスタムコネクタガイド](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp)によると、リモートコネクタはFree、Pro、Max、Team、Enterpriseプランで利用でき、Freeユーザーは1つ追加できます。信頼できるサーバーだけに接続し、承認前に書き込み操作の内容を確認してください。
 
 FlashcardsのMCP URLは次のとおりです。
 

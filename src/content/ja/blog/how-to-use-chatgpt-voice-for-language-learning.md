@@ -250,7 +250,7 @@ keywords:
 
 ## Flashcards がこの用途に合う理由
 
-[Flashcards](https://flashcards-open-source-app.com/) がこのワークフローに向いているのは、音声ベースの語学練習に必要なものが、すでにきれいにそろっているからです。
+[Nibomo](https://flashcards-open-source-app.com/) がこのワークフローに向いているのは、音声ベースの語学練習に必要なものが、すでにきれいにそろっているからです。
 
 - シンプルな表裏形式のカード作成
 - 長期復習のための FSRS スケジューリング

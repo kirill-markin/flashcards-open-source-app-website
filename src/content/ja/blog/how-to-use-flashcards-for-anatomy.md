@@ -242,7 +242,7 @@ keywords:
 
 ## Flashcards が向いている場所
 
-[Flashcards](https://flashcards-open-source-app.com/) が解剖学にいちばん合うのは、何を覚えるべきかがすでに見えている段階です。
+[Nibomo](https://flashcards-open-source-app.com/) が解剖学にいちばん合うのは、何を覚えるべきかがすでに見えている段階です。
 
 これは解剖学とかなり相性がいいです。解剖学の勉強は、複数の雑多な素材を同時にまたぎがちだからです。
 

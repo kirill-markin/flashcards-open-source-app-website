@@ -315,7 +315,7 @@ FSRS が助けてくれるのは、まさにそこです。
 
 ## Flashcards が Step 1 ワークフローにはまる場所
 
-[Flashcards](https://flashcards-open-source-app.com/) の中でこの運用を回したいなら、価値は「AI があなたの代わりに医学を学んでくれる」という曖昧な約束にはありません。
+[Nibomo](https://flashcards-open-source-app.com/) の中でこの運用を回したいなら、価値は「AI があなたの代わりに医学を学んでくれる」という曖昧な約束にはありません。
 
 価値があるのは、製品がすでにこのワークフローの実務的な中間部分をカバーしていることです。
 

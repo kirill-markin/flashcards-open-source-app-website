@@ -1,6 +1,6 @@
 ---
 title: "2026年版 Microsoft Copilot Study and Learn をフラッシュカード化する方法: コーチ役はそのまま、復習は FSRS に任せる"
-description: "Microsoft Copilot Study and Learn を Word、PDF、PowerPoint、URL と一緒に使い、弱点だけを Flashcards Open Source App に移して FSRS で間隔反復する実践的な学習フローです。"
+description: "Microsoft Copilot Study and Learn を Word、PDF、PowerPoint、URL と一緒に使い、弱点だけを Nibomo に移して FSRS で間隔反復する実践的な学習フローです。"
 date: "2026-06-09"
 image: "/blog/how-to-turn-microsoft-copilot-study-and-learn-into-flashcards.png"
 keywords:
@@ -18,7 +18,7 @@ keywords:
 
 ここが **Microsoft Copilot Study and Learn フラッシュカード** を考える理由です。誘導つきの学習セッションは理解には役立ちます。でも、チャットが賢かったからといって、そのまま長期記憶の仕組みにはなりません。
 
-私が信頼している流れはもっと絞られています。Study and Learn で自分の教材を一緒に進め、間違えた点や反応が鈍かった点だけを残し、それだけを Flashcards Open Source App に移して FSRS で復習します。
+私が信頼している流れはもっと絞られています。Study and Learn で自分の教材を一緒に進め、間違えた点や反応が鈍かった点だけを残し、それだけを Nibomo に移して FSRS で復習します。
 
 ![Word、PowerPoint、PDF と FSRS 復習用フラッシュカードを組み合わせた Microsoft Copilot Study and Learn の学習フロー](/blog/how-to-turn-microsoft-copilot-study-and-learn-into-flashcards.png)
 
@@ -119,7 +119,7 @@ Microsoft の usage guide でも、間違えた項目のやり直しや補習が
 3. Copilot に、説明しすぎる前に段階的に質問させる。
 4. 間違えた点、答えが遅かった点、混同した点だけ小さなメモに残す。
 5. 最後に、その弱点だけの短い要約と、各弱点がどのファイルや箇所から来たかを Copilot に出させる。
-6. その弱点だけを Flashcards Open Source App に移す。
+6. その弱点だけを Nibomo に移す。
 7. 各弱点を、きれいな表裏カード1枚にする。
 8. 仕上がったカードを FSRS で復習する。
 
@@ -159,7 +159,7 @@ Microsoft の usage guide でも、間違えた項目のやり直しや補習が
 
 ## Copilot のあとで長期復習を持つのが Flashcards
 
-[Flashcards Open Source App](/ja/features/) は、Study and Learn を置き換えるためのものではありません。
+[Nibomo](/ja/features/) は、Study and Learn を置き換えるためのものではありません。
 
 Copilot にはコーチ役を続けてもらう。Flashcards には長期復習の役を持ってもらう。
 
@@ -195,6 +195,6 @@ Word、スライド、PDF、URL、ノートをもとに動くコーチとして�
 
 そのうえで、ちゃんと選別します。
 
-本当に重要な弱点だけを Flashcards Open Source App に移し、シンプルなカードへ整え、Copilot が本質的には作られていない部分、つまりセッションのあとも覚えておく仕事を FSRS に任せる。
+本当に重要な弱点だけを Nibomo に移し、シンプルなカードへ整え、Copilot が本質的には作られていない部分、つまりセッションのあとも覚えておく仕事を FSRS に任せる。
 
 これが、実際的な **Microsoft Copilot Study and Learn をフラッシュカード化する方法** です。Microsoft の家庭教師は残す。カードセットは小さく保つ。記憶の層は、復習のために作られた場所に置く。
