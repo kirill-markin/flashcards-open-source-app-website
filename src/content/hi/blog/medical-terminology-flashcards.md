@@ -168,9 +168,9 @@ Square brackets के भीतर लिखा text आपको पूरा 
 
 पूरे program के स्तर पर भी यही बँटवारा काम आता है। [Nursing-school flashcards guide](/hi/blog/how-to-use-flashcards-for-nursing-school/) जल्दी याद करने वाली बातों को डेक में रखती है, जबकि clinical reasoning और application को उन गतिविधियों में छोड़ती है जो सच में इन कौशलों को जाँचती हैं।
 
-## FSRS और Flashcards Open Source App कहाँ काम आते हैं
+## FSRS और Nibomo कहाँ काम आते हैं
 
-[Flashcards Open Source App](/hi/features/) में साधारण सामने/पीछे वाले कार्ड, डेक और tags हैं। आप कार्डों को `word-part`, `full-term`, `spelling`, `abbreviation` या `safety` से tag कर सकते हैं, फिर FSRS के साथ due cards का रिव्यू कर सकते हैं। FSRS मुश्किल कार्डों को जल्दी वापस ला सकता है और जाने-पहचाने कार्डों के बीच लंबा अंतर रख सकता है। यह आपकी review history से अगला रिव्यू तय करता है; यह medicine नहीं समझता, किसी definition की पुष्टि नहीं करता और यह तय नहीं करता कि कोई संक्षिप्त रूप सुरक्षित है या नहीं।
+[Nibomo](/hi/features/) में साधारण सामने/पीछे वाले कार्ड, डेक और tags हैं। आप कार्डों को `word-part`, `full-term`, `spelling`, `abbreviation` या `safety` से tag कर सकते हैं, फिर FSRS के साथ due cards का रिव्यू कर सकते हैं। FSRS मुश्किल कार्डों को जल्दी वापस ला सकता है और जाने-पहचाने कार्डों के बीच लंबा अंतर रख सकता है। यह आपकी review history से अगला रिव्यू तय करता है; यह medicine नहीं समझता, किसी definition की पुष्टि नहीं करता और यह तय नहीं करता कि कोई संक्षिप्त रूप सुरक्षित है या नहीं।
 
 वैकल्पिक AI-assisted creation आपकी दी हुई सामग्री से कार्डों का draft बना सकता है, और क्या save करना है यह आप तय करते हैं। Save करने से पहले हर generated term, split, spelling, definition, abbreviation और स्रोत को मुख्य सामग्री से जाँचें। AI output clinical validation नहीं है। Study cards बनाने के लिए patient records, identifiers या कोई दूसरा protected data upload न करें।
 

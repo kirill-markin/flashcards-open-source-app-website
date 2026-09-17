@@ -17,7 +17,7 @@ keywords:
 
 असल में यही वह काम है जो कोई टूल आपके लिए संभालना चाहिए।
 
-[Flashcards](https://flashcards-open-source-app.com/) में अब हम एजेंटों के लिए एक खुला लॉग-इन तरीका उपलब्ध कराते हैं, जो इस एक शुरुआती URL से शुरू होता है:
+[Nibomo](https://flashcards-open-source-app.com/) में अब हम एजेंटों के लिए एक खुला लॉग-इन तरीका उपलब्ध कराते हैं, जो इस एक शुरुआती URL से शुरू होता है:
 
 `https://api.flashcards-open-source-app.com/v1/`
 
@@ -309,7 +309,7 @@ Flashcards खुला स्रोत है, इसलिए आप पूर
 
 काम के लिंक:
 
-- [Flashcards website](https://flashcards-open-source-app.com/)
+- [Nibomo website](https://flashcards-open-source-app.com/)
 - [Hosted app](https://app.flashcards-open-source-app.com/)
 - [Getting started](https://flashcards-open-source-app.com/docs/getting-started/)
 - [GitHub repository](https://github.com/kirill-markin/flashcards-open-source-app)

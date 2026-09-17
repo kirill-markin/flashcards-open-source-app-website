@@ -153,7 +153,7 @@ file format बदल सकता है।
 
 ## इस workflow में Flashcards कहाँ फिट बैठता है
 
-[Flashcards](https://flashcards-open-source-app.com/) **pdf को flashcards में बदलने** के लिए इसलिए अच्छा fit है, क्योंकि इसमें पहले से वही हिस्से एक साथ मौजूद हैं जो वास्तव में मायने रखते हैं:
+[Nibomo](https://flashcards-open-source-app.com/) **pdf को flashcards में बदलने** के लिए इसलिए अच्छा fit है, क्योंकि इसमें पहले से वही हिस्से एक साथ मौजूद हैं जो वास्तव में मायने रखते हैं:
 
 - AI chat
 - file attachments
@@ -204,4 +204,4 @@ PDF से यह उम्मीद मत कीजिए कि वह अप
 
 **PDF को flashcards में कैसे बदलें** का यही वह version है जिस पर मुझे सचमुच भरोसा है। इसमें जादू कम है, थोड़ा manual work ज़्यादा है, और ऐसे कार्ड बनने की संभावना कहीं अधिक है जिनका आप तीन review sessions बाद भी सम्मान कर सकें।
 
-अगर आप यही workflow चाहते हैं, तो [Flashcards](https://flashcards-open-source-app.com/) एक मज़बूत विकल्प है: document upload करें, AI से कार्ड तैयार करवाएँ, उन्हें साफ़ करें, और फिर किसी generation demo में छोड़ने के बजाय एक असली spaced repetition system के भीतर पढ़ें।
+अगर आप यही workflow चाहते हैं, तो [Nibomo](https://flashcards-open-source-app.com/) एक मज़बूत विकल्प है: document upload करें, AI से कार्ड तैयार करवाएँ, उन्हें साफ़ करें, और फिर किसी generation demo में छोड़ने के बजाय एक असली spaced repetition system के भीतर पढ़ें।

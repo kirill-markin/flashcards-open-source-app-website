@@ -269,9 +269,9 @@ Tags बताते हैं कि इस हफ्ते किस चीज
 
 आपको एक repeatable loop चाहिए जो एक ही कमज़ोर answer को दूसरी बार फिर से लौटने से रोके।
 
-## इसमें Flashcards Open Source App कहाँ फिट बैठता है
+## इसमें Nibomo कहाँ फिट बैठता है
 
-[Flashcards Open Source App](/hi/features/) इस workflow के लिए अच्छा fit है, क्योंकि सिस्टम डिज़ाइन prep messy source material पैदा करती है: mock notes, architecture bullets, pasted transcripts, screenshots, plain-text checklists, और आपने क्या miss किया उसके छोटे postmortems।
+[Nibomo](/hi/features/) इस workflow के लिए अच्छा fit है, क्योंकि सिस्टम डिज़ाइन prep messy source material पैदा करती है: mock notes, architecture bullets, pasted transcripts, screenshots, plain-text checklists, और आपने क्या miss किया उसके छोटे postmortems।
 
 मौजूदा product surface इससे अच्छी तरह मेल खाता है:
 

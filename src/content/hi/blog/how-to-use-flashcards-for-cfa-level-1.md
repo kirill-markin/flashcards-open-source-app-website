@@ -275,7 +275,7 @@ CFA details बदलती हैं। Exam windows, fees, registration deadli
 
 ## इस CFA workflow में Flashcards कहाँ fit होता है
 
-[Flashcards](https://flashcards-open-source-app.com/) इस workflow में fit होता है, क्योंकि यह CFA deck के specific हिस्सों को support करता है, बिना यह दिखावा किए कि यह CFA Institute materials की जगह ले सकता है:
+[Nibomo](https://flashcards-open-source-app.com/) इस workflow में fit होता है, क्योंकि यह CFA deck के specific हिस्सों को support करता है, बिना यह दिखावा किए कि यह CFA Institute materials की जगह ले सकता है:
 
 - front/back card creation और editing
 - topic और source organization के लिए decks और tags
@@ -291,7 +291,7 @@ Weak spots ढूँढने के लिए official materials और practic
 
 अगर यही चाहिए, तो यहाँ से शुरू करें:
 
-- [Flashcards खोलें](https://flashcards-open-source-app.com/)
+- [Nibomo खोलें](https://flashcards-open-source-app.com/)
 - [ऐप खोलें](https://app.flashcards-open-source-app.com/)
 - [getting started guide पढ़ें](https://flashcards-open-source-app.com/docs/getting-started/)
 - [GitHub पर source देखें](https://github.com/kirill-markin/flashcards-open-source-app)

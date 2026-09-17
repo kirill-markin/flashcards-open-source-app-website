@@ -20,7 +20,7 @@ ECU में BSN applicants के लिए Grammar, Chemistry और Physics 
 
 बेहतर workflow इससे कहीं संकरा होता है। पहले अपने program requirements देखिए। सिर्फ़ उन sections के लिए एक छोटा base deck बनाइए जिनका score लिया जाता है। फिर practice-test misses को तय करने दीजिए कि कौन-से नए cards रखने लायक हैं। इससे आपकी तैयारी उसी exam के साथ aligned रहती है जो आप सच में देने वाले हैं, और आप HESI prep की सबसे खराब internet habit से बचते हैं: ऐसे bloated या copied decks रटना जो आपके school के format से मेल ही नहीं खाते।
 
-यह तरीका तब भी काम करता है जब आप official review book से हाथ से cards बना रहे हों, missed questions को छोटे recall prompts में बदल रहे हों, या Flashcards Open Source App के अंदर किसी draft deck को साफ़ कर रहे हों।
+यह तरीका तब भी काम करता है जब आप official review book से हाथ से cards बना रहे हों, missed questions को छोटे recall prompts में बदल रहे हों, या Nibomo के अंदर किसी draft deck को साफ़ कर रहे हों।
 
 ![HESI A2 की warm study desk, जिस पर anatomy, biology, math, reading, grammar, vocabulary और practice mistakes के school-specific flashcards रखे हैं](/blog/how-to-use-flashcards-for-the-hesi-a2.png)
 
@@ -219,11 +219,11 @@ Premade HESI decks की दो समस्याएँ हैं।
 
 यह leaked items को याद करने या पूरे questions को deck के अंदर सुरक्षित रखने की कोशिश से कहीं बेहतर workflow है। Legitimate prep इस्तेमाल कीजिए। Concept रखिए। Copied wording छोड़ दीजिए।
 
-## जब source material साफ़ हो, तब Flashcards Open Source App बहुत अच्छी तरह fit बैठता है
+## जब source material साफ़ हो, तब Nibomo बहुत अच्छी तरह fit बैठता है
 
 इस तरह की prep तब आसान हो जाती है जब एक ही tool drafting, tagging, editing और review संभाल सके।
 
-Flashcards Open Source App HESI A2 prep के लिए अच्छा fit है, क्योंकि आप:
+Nibomo HESI A2 prep के लिए अच्छा fit है, क्योंकि आप:
 
 - official study material या अपने notes से कुछ cards draft कर सकते हैं
 - review में जाने से पहले overloaded cards को split कर सकते हैं

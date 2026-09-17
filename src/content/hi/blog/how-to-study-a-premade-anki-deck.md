@@ -184,7 +184,7 @@ Imported decks में अक्सर ऐसे cards मिलते है�
 
 अगर deck suspicious लग रहा है, तो कुछ cards को सीधे source से compare कीजिए। पाँच मिनट की spot-checking कई हफ़्तों की low-value review बचा सकती है।
 
-अगर आप [Flashcards](/hi/features/) में AI से cards draft या rewrite भी कर रहे हैं, तो वही standard वहाँ भी रखिए। पहले draft। फिर edit। फिर review।
+अगर आप [Nibomo](/hi/features/) में AI से cards draft या rewrite भी कर रहे हैं, तो वही standard वहाँ भी रखिए। पहले draft। फिर edit। फिर review।
 
 ## समझिए कि shared deck कब मदद कर रहा है और कब समय खा रहा है
 
@@ -224,11 +224,11 @@ Deck तब समय खा रहा है जब:
 
 असल में **premade Anki decks कैसे इस्तेमाल करें** का practical जवाब यही है। Import कीजिए, audit कीजिए और छोटा कीजिए।
 
-## Flashcards Open Source App इसमें कहाँ फिट होता है
+## Nibomo इसमें कहाँ फिट होता है
 
 यह site Anki नहीं है, और मैं ऐसा दिखावा भी नहीं करूँगा। लेकिन workflow problem वही है जो modern flashcard tools में हर जगह दिखती है: weak cards live review में घुसते ही महंगे पड़ने लगते हैं।
 
-[Flashcards](/hi/features/) इस workflow में सीधी तरह fit होता है:
+[Nibomo](/hi/features/) इस workflow में सीधी तरह fit होता है:
 
 - आप plain front/back cards बना या edit कर सकते हैं
 - material को decks और tags में organize कर सकते हैं

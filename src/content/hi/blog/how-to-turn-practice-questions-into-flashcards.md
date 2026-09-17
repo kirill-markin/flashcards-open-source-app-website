@@ -221,7 +221,7 @@ history का कोई गलत हुआ प्रश्न वास्त�
 
 ## Flashcards यहाँ कहाँ काम आता है
 
-[Flashcards](https://flashcards-open-source-app.com/) **अभ्यास प्रश्नों से फ़्लैशकार्ड** बनाने के लिए अच्छा विकल्प है, क्योंकि इसमें पहले से वे हिस्से मौजूद हैं जिनकी इस प्रक्रिया को ज़रूरत होती है:
+[Nibomo](https://flashcards-open-source-app.com/) **अभ्यास प्रश्नों से फ़्लैशकार्ड** बनाने के लिए अच्छा विकल्प है, क्योंकि इसमें पहले से वे हिस्से मौजूद हैं जिनकी इस प्रक्रिया को ज़रूरत होती है:
 
 - AI chat
 - फ़ाइल और चित्र संलग्नक
@@ -266,7 +266,7 @@ history का कोई गलत हुआ प्रश्न वास्त�
 
 अगर आप यही चाहते हैं, तो यहाँ से शुरू करें:
 
-- [Flashcards खोलें](https://flashcards-open-source-app.com/)
+- [Nibomo खोलें](https://flashcards-open-source-app.com/)
 - [ऐप खोलें](https://app.flashcards-open-source-app.com/)
 - [शुरुआती मार्गदर्शिका पढ़ें](https://flashcards-open-source-app.com/docs/getting-started/)
 - [GitHub पर स्रोत कोड देखें](https://github.com/kirill-markin/flashcards-open-source-app)

@@ -243,7 +243,7 @@ AP Psychology prep शायद ही कभी smooth चलती है। �
 
 ## AP Psychology workflow में Flashcards कहाँ fit बैठता है
 
-अगर आप इसे [Flashcards](https://flashcards-open-source-app.com/) के अंदर चलाना चाहते हैं, तो उपयोगी हिस्सा यह नहीं है कि AI किसी जादू से आपके लिए AP Psych पढ़ लेगा।
+अगर आप इसे [Nibomo](https://flashcards-open-source-app.com/) के अंदर चलाना चाहते हैं, तो उपयोगी हिस्सा यह नहीं है कि AI किसी जादू से आपके लिए AP Psych पढ़ लेगा।
 
 उपयोगी हिस्सा यह है कि product पहले से इस workflow के बीच वाले हिस्से में अच्छी तरह बैठता है:
 

@@ -187,7 +187,7 @@ image workflows को clever prompting की ज़रूरत नहीं �
 
 ## Cleanup pass के बाद Flashcards कहाँ fit बैठता है
 
-जब image content readable हो जाए, तब [Flashcards](/hi/features/) workflow के practical हिस्से में fit बैठता है:
+जब image content readable हो जाए, तब [Nibomo](/hi/features/) workflow के practical हिस्से में fit बैठता है:
 
 - hosted app में uploaded files और uploaded images के साथ AI chat
 - front/back card drafting और editing

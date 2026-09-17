@@ -233,9 +233,9 @@ HSK एक भाषा की परीक्षा है। याद से 
 
 यह सीमा deck को छोटा भी रखती है। छूटी हुई vocabulary के लिए card चाहिए हो सकता है। 30 मिनट बाद ध्यान भटकने पर आम तौर पर अभ्यास के लंबे सत्र की ज़रूरत होती है, `ध्यान लगाओ` लिखे reminder की नहीं।
 
-## Flashcards Open Source App इसमें कहाँ काम आता है
+## Nibomo इसमें कहाँ काम आता है
 
-[Flashcards Open Source App](/) योजना में याद बनाए रखने वाला हिस्सा संभालता है। आप front/back cards बना और edit कर सकते हैं, due cards की समीक्षा कर सकते हैं और FSRS scheduling के साथ Again, Hard, Good और Easy की चार ratings इस्तेमाल कर सकते हैं। इसका मूल हिस्सा मुफ़्त और open source है।
+[Nibomo](/) योजना में याद बनाए रखने वाला हिस्सा संभालता है। आप front/back cards बना और edit कर सकते हैं, due cards की समीक्षा कर सकते हैं और FSRS scheduling के साथ Again, Hard, Good और Easy की चार ratings इस्तेमाल कर सकते हैं। इसका मूल हिस्सा मुफ़्त और open source है।
 
 एक व्यावहारिक setup ऐसा है:
 

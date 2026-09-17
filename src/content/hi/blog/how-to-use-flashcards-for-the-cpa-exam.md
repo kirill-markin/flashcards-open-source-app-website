@@ -233,7 +233,7 @@ FSRS क्या नहीं करता: फूले हुए deck को 
 
 ## इस CPA workflow में Flashcards कहाँ सबसे ठीक बैठता है
 
-अगर आप यह सब [Flashcards](https://flashcards-open-source-app.com/) के भीतर चलाना चाहते हैं, तो उपयोगी बात यह नहीं है कि AI किसी जादू से आपको CPA exam पास करा देगा।
+अगर आप यह सब [Nibomo](https://flashcards-open-source-app.com/) के भीतर चलाना चाहते हैं, तो उपयोगी बात यह नहीं है कि AI किसी जादू से आपको CPA exam पास करा देगा।
 
 उपयोगी बात यह है कि product पहले से workflow के इस messy middle को संभालता है:
 

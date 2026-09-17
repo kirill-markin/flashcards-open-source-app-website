@@ -143,7 +143,7 @@ memory training वह जगह है जहाँ आप:
 
 ## इस workflow में Flashcards कहाँ बेहतर बैठता है
 
-[Flashcards](https://flashcards-open-source-app.com/) इस समस्या के लिए अच्छा fit है क्योंकि product दोनों हिस्सों को संभाल सकता है, बिना यह दिखावा किए कि वे एक ही काम हैं।
+[Nibomo](https://flashcards-open-source-app.com/) इस समस्या के लिए अच्छा fit है क्योंकि product दोनों हिस्सों को संभाल सकता है, बिना यह दिखावा किए कि वे एक ही काम हैं।
 
 मौजूदा stack पहले से यह देता है:
 
@@ -208,13 +208,13 @@ AI overproduction को आसान बना देता है।
 
 यही **परीक्षाओं के लिए spaced repetition** का वह रूप है जो सच में टिकाऊ लगता है।
 
-अगर आप ऐसा product चाहते हैं जो इस workflow को support करे, तो [Flashcards](https://flashcards-open-source-app.com/) अच्छा fit है। यह आपको AI-assisted drafting, front/back cards, और FSRS review एक ही open-source stack में देता है, पाँच study tools और exports के एक फ़ोल्डर में workflow बिखेरने के बजाय।
+अगर आप ऐसा product चाहते हैं जो इस workflow को support करे, तो [Nibomo](https://flashcards-open-source-app.com/) अच्छा fit है। यह आपको AI-assisted drafting, front/back cards, और FSRS review एक ही open-source stack में देता है, पाँच study tools और exports के एक फ़ोल्डर में workflow बिखेरने के बजाय।
 
 ## ऐसा exam deck बनाएं जिसे आप अब भी पूरा कर सकें
 
 अगर आप यह workflow आज़माना चाहते हैं:
 
-- [Open Flashcards](https://flashcards-open-source-app.com/)
+- [Open Nibomo](https://flashcards-open-source-app.com/)
 - [ऐप खोलें](https://app.flashcards-open-source-app.com/)
 - [features page पढ़ें](https://flashcards-open-source-app.com/features/)
 - [GitHub पर source देखें](https://github.com/kirill-markin/flashcards-open-source-app)

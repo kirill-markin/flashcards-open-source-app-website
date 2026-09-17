@@ -245,7 +245,7 @@ FSRS जो चीज़ अच्छी तरह करता है, वह t
 
 ## इस workflow में Flashcards कहाँ फिट बैठता है
 
-[Flashcards](https://flashcards-open-source-app.com/) **AI फ़्लैशकार्ड्स कैसे ठीक करें** के लिए अच्छा fit है क्योंकि product पहले से ही उस असहज बीच वाले हिस्से को संभालता है जिसे ज़्यादातर generators अधूरा छोड़ देते हैं:
+[Nibomo](https://flashcards-open-source-app.com/) **AI फ़्लैशकार्ड्स कैसे ठीक करें** के लिए अच्छा fit है क्योंकि product पहले से ही उस असहज बीच वाले हिस्से को संभालता है जिसे ज़्यादातर generators अधूरा छोड़ देते हैं:
 
 - hosted web app में front/back cards बनाइए
 - workspace data और file attachments के साथ AI chat इस्तेमाल कीजिए, जिनमें plain text uploads भी शामिल हैं

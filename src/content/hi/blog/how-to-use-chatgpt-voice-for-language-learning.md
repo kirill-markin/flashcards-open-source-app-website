@@ -250,9 +250,9 @@ voice practice आसान बना देती है, इसलिए ल�
 
 - [2026 में FSRS बनाम SM-2](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
 
-## Flashcards Open Source App कहाँ फिट बैठता है
+## Nibomo कहाँ फिट बैठता है
 
-[Flashcards Open Source App](https://flashcards-open-source-app.com/) इस workflow के लिए अच्छा fit है क्योंकि product पहले से voice-based language practice की ज़रूरतों के साथ मेल खाती है:
+[Nibomo](https://flashcards-open-source-app.com/) इस workflow के लिए अच्छा fit है क्योंकि product पहले से voice-based language practice की ज़रूरतों के साथ मेल खाती है:
 
 - clean front/back card creation
 - long-term review के लिए FSRS scheduling
@@ -284,7 +284,7 @@ conversation का उपयोग weak spots उजागर करने क�
 
 अगर आप यही चाहते हैं, तो यहाँ से शुरू करें:
 
-- [Open Flashcards Open Source App](https://flashcards-open-source-app.com/)
+- [Open Nibomo](https://flashcards-open-source-app.com/)
 - [getting started guide पढ़ें](https://flashcards-open-source-app.com/docs/getting-started/)
 - [API docs पढ़ें](https://flashcards-open-source-app.com/docs/api/)
 - [GitHub पर source देखें](https://github.com/kirill-markin/flashcards-open-source-app)

@@ -292,7 +292,7 @@ source material जितना बड़ा होगा, फ़िल्टर
 
 ## यहाँ Flashcards कहाँ काम आता है
 
-[Flashcards](/hi/features/) तब सबसे अच्छा काम करता है जब आप source के हर sentence को future card मानना बंद कर देते हैं।
+[Nibomo](/hi/features/) तब सबसे अच्छा काम करता है जब आप source के हर sentence को future card मानना बंद कर देते हैं।
 
 useful workflow ज़्यादा संकरा है:
 

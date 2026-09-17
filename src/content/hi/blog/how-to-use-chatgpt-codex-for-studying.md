@@ -27,7 +27,7 @@ keywords:
 1. **ChatGPT Study Mode** सवाल पूछता है, संकेत देता है और विषय को समझने में आपकी मदद करता है।
 2. **आप** तय करते हैं कि कौन-सी गलतियाँ लंबे समय के लिए कार्ड बनने लायक हैं।
 3. **ChatGPT desktop app या CLI में Codex** मंज़ूर किए हुए कार्ड बनाने या ठीक करने के लिए Flashcards MCP इस्तेमाल करता है।
-4. **Flashcards** आपके रिव्यू दर्ज करता है और FSRS से अगले रिव्यू का समय तय करता है।
+4. **Nibomo** आपके रिव्यू दर्ज करता है और FSRS से अगले रिव्यू का समय तय करता है।
 
 OpenAI की मौजूदा [Study Mode guide](https://help.openai.com/en/articles/11780217-chatgpt-study-mode-faq) ऐसे ट्यूटर के बारे में बताती है जो कदम-दर-कदम आपके साथ काम कर सकता है, एक बार में एक सवाल पूछ सकता है और अपलोड किए गए नोट्स, तस्वीरें या PDFs इस्तेमाल कर सकता है। इसलिए यहाँ आसानी से पता चलता है कि आप अभी कौन-सी बात बिना मदद के नहीं समझा पा रहे हैं।
 
@@ -146,7 +146,7 @@ Flashcards में decks सेव किए गए filters होते ह�
 
 MCP connector अनुमति वाली review history के साथ FSRS state और scheduling fields पढ़ सकता है। उसका SQL write tool `review_events` नहीं बना सकता, Again, Hard, Good या Easy rating दर्ज नहीं कर सकता और FSRS state या schedule नहीं बदल सकता। Connector rating सिर्फ़ अपने अलग `submit_review` tool से दर्ज कर सकता है, इसलिए आप रिव्यू app में कर सकते हैं या Codex से करवा सकते हैं।
 
-कार्डों के रिव्यू का समय आने पर [Flashcards web app](https://app.flashcards-open-source-app.com/) या mobile app खोलें। जवाब याद करें, back दिखाएँ और वहीं अपनी rating चुनें। Flashcards रिव्यू दर्ज करता है और FSRS तय करता है कि कार्ड अगली बार कब लौटेगा।
+कार्डों के रिव्यू का समय आने पर [Nibomo web app](https://app.flashcards-open-source-app.com/) या mobile app खोलें। जवाब याद करें, back दिखाएँ और वहीं अपनी rating चुनें। Flashcards रिव्यू दर्ज करता है और FSRS तय करता है कि कार्ड अगली बार कब लौटेगा।
 
 Codex आपकी अनुमति वाले कार्ड डेटा से अनौपचारिक quiz भी ले सकता है। उसे अतिरिक्त अभ्यास मानें: सिर्फ़ quiz से कोई रिव्यू दर्ज नहीं होता और आपका schedule नहीं बदलता। जब आपको आधिकारिक रिव्यू चाहिए, तो Codex से review tools के साथ रिव्यू करवाएँ। वह `next_review_card` से सिर्फ़ front दिखाता है, आपके जवाब के बाद `reveal_answer` से back दिखाता है और `submit_review` से rating दर्ज करता है, ताकि FSRS कार्ड को फिर से schedule कर सके। जब तक आप हर rating खुद चुनने के लिए न कहें, Codex आपके जवाब की rating खुद तय करता है। [AI flashcard tutor guide](/hi/blog/ai-flashcard-tutor-due-cards/) में यह review flow विस्तार से समझाया गया है।
 

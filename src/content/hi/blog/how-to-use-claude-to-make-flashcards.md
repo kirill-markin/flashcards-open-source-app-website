@@ -248,7 +248,7 @@ FSRS भूलने की समस्या संभालता है।
 4. उन्हें decks और tags में organize करें
 5. final deck को FSRS के साथ review करें
 
-[Flashcards](/hi/) इस workflow में fit बैठता है, क्योंकि current product उसी हिस्से को cover करती है जिसे Claude अपने-आप पूरा नहीं करता:
+[Nibomo](/hi/) इस workflow में fit बैठता है, क्योंकि current product उसी हिस्से को cover करती है जिसे Claude अपने-आप पूरा नहीं करता:
 
 - front/back card creation और editing
 - workspace data और file attachments के साथ AI chat

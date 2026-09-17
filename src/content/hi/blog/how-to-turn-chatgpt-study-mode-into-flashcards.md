@@ -229,7 +229,7 @@ review system ज़्यादा मायने रखता है।
 
 ## इस workflow में Flashcards कहाँ बेहतर बैठता है
 
-[Flashcards](https://flashcards-open-source-app.com/) **ChatGPT Study Mode को flashcards में कैसे बदलें** वाले workflow के लिए मज़बूत fit है, क्योंकि यह product उस हिस्से को cover करता है जिसे AI tutoring अपने आप हल नहीं करती:
+[Nibomo](https://flashcards-open-source-app.com/) **ChatGPT Study Mode को flashcards में कैसे बदलें** वाले workflow के लिए मज़बूत fit है, क्योंकि यह product उस हिस्से को cover करता है जिसे AI tutoring अपने आप हल नहीं करती:
 
 - chat-only memory के बजाय front/back cards
 - cleanup और drafting के लिए AI chat

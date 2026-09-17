@@ -236,9 +236,9 @@ Flashcards याद से निकाली जा सकने वाली 
 
 अपने पूरे study plan में [TOEFL के official preparation resources](https://www.ets.org/toefl/test-takers/ibt/prepare.html) इस्तेमाल कीजिए। Full practice pacing और attention की वे समस्याएँ भी दिखाती है जिन्हें vocabulary queue सामने नहीं ला सकती।
 
-## Flashcards Open Source App इस workflow में कहाँ fit होता है
+## Nibomo इस workflow में कहाँ fit होता है
 
-[Flashcards](/hi/) इस workflow में याद बनाए रखने वाली layer संभालता है। Web app में front/back cards, workspace data और file attachments—plain-text files समेत—के साथ AI chat और FSRS review उपलब्ध हैं। Review choices Again, Hard, Good और Easy हैं।
+[Nibomo](/hi/) इस workflow में याद बनाए रखने वाली layer संभालता है। Web app में front/back cards, workspace data और file attachments—plain-text files समेत—के साथ AI chat और FSRS review उपलब्ध हैं। Review choices Again, Hard, Good और Easy हैं।
 
 एक practical और सावधानी भरा workflow यह है:
 

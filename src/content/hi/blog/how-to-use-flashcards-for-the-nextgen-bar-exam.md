@@ -243,7 +243,7 @@ FSRS क्या नहीं करता: वह फूले हुए deck 
 
 ## इस NextGen workflow में Flashcards कहाँ फिट बैठता है
 
-अगर आप इसे [Flashcards](https://flashcards-open-source-app.com/) में चलाना चाहते हैं, तो उपयोगी बात यह धुंधला वादा नहीं है कि AI पढ़ाई आसान बना देता है। उपयोगी बात यह है कि product इस workflow के असली बीच वाले हिस्से को पहले से संभालता है:
+अगर आप इसे [Nibomo](https://flashcards-open-source-app.com/) में चलाना चाहते हैं, तो उपयोगी बात यह धुंधला वादा नहीं है कि AI पढ़ाई आसान बना देता है। उपयोगी बात यह है कि product इस workflow के असली बीच वाले हिस्से को पहले से संभालता है:
 
 - web app में AI chat
 - outlines, practice notes, या copied explanations के लिए file attachments और plain text uploads

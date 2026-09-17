@@ -196,9 +196,9 @@ Perplexity आपको समझने और misses पकड़ने मे�
 
 यह article उससे ज़्यादा सीमित है। Hole Perplexity ने दिखाया। समय के साथ उसे बंद करने में FSRS मदद करता है।
 
-## Flashcards Open Source App इसमें कहाँ fit बैठता है
+## Nibomo इसमें कहाँ fit बैठता है
 
-[Flashcards Open Source App](/hi/) Learn Mode के बाद fit बैठता है, जब आपको पता चल जाए कि क्या रखना सच में बनता है।
+[Nibomo](/hi/) Learn Mode के बाद fit बैठता है, जब आपको पता चल जाए कि क्या रखना सच में बनता है।
 
 मुझे किसी जादुई Perplexity import button का दिखावा नहीं करना। काम का workflow इससे आसान और ज़्यादा believable है:
 

@@ -21,7 +21,7 @@ Knowt की मौजूदा pricing page और उसके एक help art
 
 सीधा निष्कर्ष: अगर आप notes, source conversion और अभ्यास के कई तरीके एक ही product में चाहते हैं, तो Knowt एक मजबूत विकल्प है। अगर आपकी मुख्य जरूरत लंबे समय तक संभालकर रखे जा सकने वाले, जाँचे हुए front/back cards, documented scheduling, offline-first writes या software और infrastructure पर नियंत्रण है, तो सीमित दायरे वाला flashcard app ज्यादा उपयुक्त हो सकता है।
 
-> **प्रकटीकरण:** मैं Kirill Markin हूँ और यहाँ चर्चा किए गए विकल्पों में से एक, [Flashcards](https://flashcards-open-source-app.com/), बनाता हूँ। Integrated notes, अपने-आप source conversion, कई तरह का अभ्यास, community material और classroom workflows चाहिए हों, तो Knowt का दायरा बड़ा है और संभवतः वही बेहतर विकल्प है।
+> **प्रकटीकरण:** मैं Kirill Markin हूँ और यहाँ चर्चा किए गए विकल्पों में से एक, [Nibomo](https://flashcards-open-source-app.com/), बनाता हूँ। Integrated notes, अपने-आप source conversion, कई तरह का अभ्यास, community material और classroom workflows चाहिए हों, तो Knowt का दायरा बड़ा है और संभवतः वही बेहतर विकल्प है।
 
 **तथ्यों की जाँच 2 सितंबर 2026 को की गई।** यह तुलना link किए गए product pages और help documentation पर आधारित है। जहाँ ये स्रोत कुछ नहीं कहते, वहाँ मैं उनकी चुप्पी को किसी feature के न होने का प्रमाण नहीं मानता। कीमतें और product का व्यवहार बदल सकते हैं, इसलिए किसी भी विकल्प पर निर्भर होने से पहले checkout की पुष्टि करें और अपना offline workflow खुद आजमाएँ।
 
@@ -29,7 +29,7 @@ Knowt की मौजूदा pricing page और उसके एक help art
 
 ## एक नज़र में फैसला
 
-| सवाल | Knowt Basic | Knowt Ultra | Flashcards |
+| सवाल | Knowt Basic | Knowt Ultra | Nibomo |
 |---|---|---|---|
 | मौजूदा कीमत | मुफ़्त | सालाना $149.99 अग्रिम भुगतान पर $12.49/माह की प्रभावी दर या $24.99 प्रति माह | Hosted product beta के दौरान मुफ़्त है; self-hosted software मुफ़्त है, लेकिन infrastructure और provider की लागत आपको देनी होगी |
 | सबसे बड़ी खूबी | Notes, flashcards, मुफ़्त study modes और study material की बड़ी library | मौजूदा plans page के अनुसार unlimited AI summaries, Kai chats और auto-graded assessments के साथ Knowt का व्यापक workflow | Documented FSRS, offline-first clients, open-source code और agent access वाले focused front/back cards |
@@ -133,7 +133,7 @@ Flashcards भी portability की समस्या पूरी तरह �
 
 ## सीमित दायरे वाला विकल्प कब बेहतर है
 
-[Flashcards](/features/) अपने मुख्य object को जानबूझकर छोटा रखता है: जाँचा हुआ front, जाँचा हुआ back और documented FSRS से तय होने वाली due date। इसके mobile clients local writes और offline review के लिए बने हैं और reconnect होने पर sync करते हैं। Hosted product [beta के दौरान मुफ़्त](/pricing/) है, जिसमें AI और sync शामिल हैं। हालाँकि भविष्य में ज्यादा AI usage के लिए अपनी provider key या paid option की जरूरत पड़ सकती है।
+[Nibomo](/features/) अपने मुख्य object को जानबूझकर छोटा रखता है: जाँचा हुआ front, जाँचा हुआ back और documented FSRS से तय होने वाली due date। इसके mobile clients local writes और offline review के लिए बने हैं और reconnect होने पर sync करते हैं। Hosted product [beta के दौरान मुफ़्त](/pricing/) है, जिसमें AI और sync शामिल हैं। हालाँकि भविष्य में ज्यादा AI usage के लिए अपनी provider key या paid option की जरूरत पड़ सकती है।
 
 यह [MCP और Agent API](/docs/api/) के जरिए workspace access भी देता है, इसलिए Claude Code या Codex जैसे tools cards बनाने और व्यवस्थित करने में मदद कर सकते हैं। इन agent functions और AI features को network services चाहिए। Offline-first card review का मतलब offline AI नहीं है।
 

@@ -236,7 +236,7 @@ AP Biology review बहुत सामान्य तरीके से अ�
 
 ## इस AP Biology workflow में Flashcards कहाँ बैठता है
 
-अगर आप इसे [Flashcards](https://flashcards-open-source-app.com/) के अंदर चलाना चाहते हैं, तो उपयोगी हिस्सा यह नहीं है कि AI किसी जादू से आपके लिए biology सीख लेगा।
+अगर आप इसे [Nibomo](https://flashcards-open-source-app.com/) के अंदर चलाना चाहते हैं, तो उपयोगी हिस्सा यह नहीं है कि AI किसी जादू से आपके लिए biology सीख लेगा।
 
 उपयोगी हिस्सा यह है कि product पहले से workflow के बीच वाले मुश्किल हिस्से को cover करता है:
 

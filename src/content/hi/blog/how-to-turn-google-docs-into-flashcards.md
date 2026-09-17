@@ -39,7 +39,7 @@ Google Docs सिर्फ़ "cloud में notes" नहीं है। �
 
 मैं इसे यहाँ मुख्य लक्ष्य नहीं मानता।
 
-Flashcards Open Source App तब काम आती है जब आप doc से relevant text निकाल लेते हैं। अभी का product surface आपको AI chat, file attachments, plain text uploads, front/back card creation, और FSRS review देता है। यह किसी खास Google Docs integration का वादा नहीं करता जो live shared document पढ़कर चुपचाप आपके लिए clean deck बना दे। ईमानदार workflow अभी यही है। मौजूदा product surface आप [features page](/features/) पर देख सकते हैं।
+Nibomo तब काम आती है जब आप doc से relevant text निकाल लेते हैं। अभी का product surface आपको AI chat, file attachments, plain text uploads, front/back card creation, और FSRS review देता है। यह किसी खास Google Docs integration का वादा नहीं करता जो live shared document पढ़कर चुपचाप आपके लिए clean deck बना दे। ईमानदार workflow अभी यही है। मौजूदा product surface आप [features page](/features/) पर देख सकते हैं।
 
 Google Docs workflow के लिए आम तौर पर इतना ही काफ़ी है:
 
@@ -141,7 +141,7 @@ shared docs में बहुत-सा ऐसा text जमा हो जा
 1. Google Doc के एक छोटे section को freeze करें।
 2. heading, final text, और वे comments रखें जो असली confusion दिखाती हैं।
 3. admin chatter, duplicates, suggestion debris, और owner ambiguity हटा दें।
-4. उस cleaned section को Flashcards Open Source App की AI chat में paste करें, या अगर inspect करना आसान हो तो exported file attach करें।
+4. उस cleaned section को Nibomo की AI chat में paste करें, या अगर inspect करना आसान हो तो exported file attach करें।
 5. plain front/back cards माँगें, हर card में एक fact, distinction, या step हो।
 6. कमज़ोर या repeated cards को review तक पहुँचने से पहले ही हटा दें।
 7. लंबे answers को rewrite करें और overloaded cards को split करें।
@@ -223,9 +223,9 @@ Flashcards review तब बेहतर काम करती है जब de
 
 आपको पहले दिन से beautiful taxonomy की ज़रूरत नहीं है। आपको बस इतनी structure चाहिए कि एक collaborative document एक giant, बिना फ़र्क वाली deck में न बदल जाए।
 
-## copy या export step के बाद Flashcards Open Source App कहाँ fit बैठती है
+## copy या export step के बाद Nibomo कहाँ fit बैठती है
 
-जब Google Doc का useful हिस्सा साफ़ रूप में आ जाता है, तब Flashcards Open Source App वही हिस्सा संभालती है जो सच में मायने रखता है:
+जब Google Doc का useful हिस्सा साफ़ रूप में आ जाता है, तब Nibomo वही हिस्सा संभालती है जो सच में मायने रखता है:
 
 - pasted text या attached files से drafting के लिए AI chat
 - plain front/back card creation

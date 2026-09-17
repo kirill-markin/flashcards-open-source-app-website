@@ -288,7 +288,7 @@ Flashcards इसलिए मदद करता है क्योंकि �
 
 ## Flashcards यहाँ कहाँ fit बैठता है
 
-[Flashcards](/hi/) इस workflow में इसलिए fit बैठता है, क्योंकि product उस हिस्से को संभालता है जो blurting अपने आप नहीं कर पाता:
+[Nibomo](/hi/) इस workflow में इसलिए fit बैठता है, क्योंकि product उस हिस्से को संभालता है जो blurting अपने आप नहीं कर पाता:
 
 - front/back cards, ठीक उन्हीं misses के लिए जो आपको मिलीं
 - class, exam, या source के हिसाब से decks और tags

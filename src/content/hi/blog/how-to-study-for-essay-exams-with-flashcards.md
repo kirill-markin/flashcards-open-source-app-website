@@ -296,9 +296,9 @@ Tutor-style AI essay prep में मदद कर सकती है, खा
 
 अगर आप उसी हिस्से को sharpen करना चाहते हैं, तो [2026 में Active Recall के लिए AI का इस्तेमाल कैसे करें](/blog/how-to-use-ai-for-active-recall/) और [2026 में AI फ़्लैशकार्ड्स कैसे ठीक करें](/blog/how-to-fix-ai-flashcards/) ज़्यादा अच्छे follow-ups हैं।
 
-## इसमें Flashcards Open Source App कहाँ fit बैठता है
+## इसमें Nibomo कहाँ fit बैठता है
 
-[Flashcards Open Source App](/) **essay exams के लिए flashcards कैसे इस्तेमाल करें** वाले workflow के लिए practical fit है, क्योंकि essay prep आम तौर पर सिर्फ़ generation problem नहीं होती। वह editing, storage, और review problem भी होती है।
+[Nibomo](/) **essay exams के लिए flashcards कैसे इस्तेमाल करें** वाले workflow के लिए practical fit है, क्योंकि essay prep आम तौर पर सिर्फ़ generation problem नहीं होती। वह editing, storage, और review problem भी होती है।
 
 आपको एक ऐसी जगह चाहिए जहाँ आप:
 

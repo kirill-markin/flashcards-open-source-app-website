@@ -185,7 +185,7 @@ flashcards इसलिए मदद करते हैं क्योंक�
 
 इस हिस्से को साफ़ रखना चाहिए।
 
-Flashcards Open Source App कोई official LSAC tool नहीं है और इसकी कोई official LSAT integration नहीं है। इसे अपनी notes, अपनी summaries, अपनी explanations और lawful source material की अपनी review के साथ इस्तेमाल करें। इसे copied LSAT questions, passages, या answer banks का private archive बनाने के लिए इस्तेमाल न करें, जिन्हें reproduce करने का आपको अधिकार नहीं है।
+Nibomo कोई official LSAC tool नहीं है और इसकी कोई official LSAT integration नहीं है। इसे अपनी notes, अपनी summaries, अपनी explanations और lawful source material की अपनी review के साथ इस्तेमाल करें। इसे copied LSAT questions, passages, या answer banks का private archive बनाने के लिए इस्तेमाल न करें, जिन्हें reproduce करने का आपको अधिकार नहीं है।
 
 और सच कहें तो पढ़ाई के लिहाज़ से भी यही बेहतर है। सबसे मजबूत card अक्सर पूरा question नहीं होता। वह आपकी reasoning mistake का compact summary होता है और वह अगला decision होता है जिसे आप अगली बार सही करना चाहते हैं।
 
@@ -209,9 +209,9 @@ Flashcards Open Source App कोई official LSAC tool नहीं है औ�
 
 अगर scheduling वाले हिस्से को और detail में समझना है, तो [2026 में FSRS के साथ परीक्षा की तैयारी कैसे करें](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/) और [2026 में FSRS बनाम SM-2](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/) इसके सीधे follow-ups हैं।
 
-## Flashcards Open Source App यहाँ कहाँ फिट बैठता है
+## Nibomo यहाँ कहाँ फिट बैठता है
 
-अगर आप यह workflow [Flashcards](https://flashcards-open-source-app.com/) के अंदर चलाना चाहते हैं, तो उपयोगी बात यह नहीं है कि AI आपके लिए पढ़ाई कर देगा। उपयोगी बात यह है कि मौजूदा product पहले से इस काम के बीच वाले हिस्से को support करता है:
+अगर आप यह workflow [Nibomo](https://flashcards-open-source-app.com/) के अंदर चलाना चाहते हैं, तो उपयोगी बात यह नहीं है कि AI आपके लिए पढ़ाई कर देगा। उपयोगी बात यह है कि मौजूदा product पहले से इस काम के बीच वाले हिस्से को support करता है:
 
 - hosted web app में file attachments के साथ AI chat
 - front/back card creation और editing

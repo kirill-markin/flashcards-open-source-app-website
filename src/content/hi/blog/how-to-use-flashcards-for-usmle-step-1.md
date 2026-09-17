@@ -317,7 +317,7 @@ Step 1 review बहुत सामान्य तरीके से uneven �
 
 ## Step 1 की तैयारी में Flashcards कहाँ फिट बैठता है
 
-अगर आप इसे [Flashcards](https://flashcards-open-source-app.com/) के भीतर चलाना चाहते हैं, तो value इस धुंधले वादे में नहीं है कि AI आपके लिए medicine सीख लेगा।
+अगर आप इसे [Nibomo](https://flashcards-open-source-app.com/) के भीतर चलाना चाहते हैं, तो value इस धुंधले वादे में नहीं है कि AI आपके लिए medicine सीख लेगा।
 
 असली value यह है कि product पहले से workflow के practical middle को cover करता है:
 

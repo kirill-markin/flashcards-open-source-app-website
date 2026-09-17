@@ -222,7 +222,7 @@ Outline विषय को एक जगह समझाती है। Deck �
 
 ## इस लॉ स्कूल workflow में Flashcards कहाँ फिट बैठता है
 
-अगर आप यह workflow [Flashcards](https://flashcards-open-source-app.com/) में चलाना चाहते हैं, तो उपयोगी बात सिर्फ़ यह अमूर्त दावा नहीं है कि "AI cards बना देता है।" उपयोगी बात यह है कि product अभी उस काम के सबसे उबाऊ लेकिन ज़रूरी हिस्से को पहले से support करता है:
+अगर आप यह workflow [Nibomo](https://flashcards-open-source-app.com/) में चलाना चाहते हैं, तो उपयोगी बात सिर्फ़ यह अमूर्त दावा नहीं है कि "AI cards बना देता है।" उपयोगी बात यह है कि product अभी उस काम के सबसे उबाऊ लेकिन ज़रूरी हिस्से को पहले से support करता है:
 
 - drafting और cleanup के लिए AI chat
 - plain text uploads सहित file attachments
@@ -247,7 +247,7 @@ Outline विषय को एक जगह समझाती है। Deck �
 
 अगर आप यह workflow Flashcards में आज़माना चाहते हैं:
 
-- [Flashcards से शुरुआत करें](https://flashcards-open-source-app.com/)
+- [Nibomo से शुरुआत करें](https://flashcards-open-source-app.com/)
 - [वेब ऐप खोलें](https://app.flashcards-open-source-app.com/)
 - [Getting Started मार्गदर्शिका पढ़ें](https://flashcards-open-source-app.com/docs/getting-started/)
 - [GitHub पर स्रोत देखें](https://github.com/kirill-markin/flashcards-open-source-app)

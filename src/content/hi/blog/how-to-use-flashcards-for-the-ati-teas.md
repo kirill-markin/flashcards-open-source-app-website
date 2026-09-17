@@ -269,7 +269,7 @@ TEAS prep बहुत messy source material बनाती है। Copy क�
 
 ## इस ATI TEAS workflow में Flashcards कहाँ fit बैठता है
 
-अगर आप यह workflow [Flashcards](https://flashcards-open-source-app.com/) के अंदर चलाना चाहते हैं, तो इसका मेल व्यावहारिक है, आधिकारिक नहीं।
+अगर आप यह workflow [Nibomo](https://flashcards-open-source-app.com/) के अंदर चलाना चाहते हैं, तो इसका मेल व्यावहारिक है, आधिकारिक नहीं।
 
 कोई official ATI integration नहीं है, और कोई special TEAS mode भी नहीं है। काम की बात इससे कहीं ज़्यादा सीधी है।
 

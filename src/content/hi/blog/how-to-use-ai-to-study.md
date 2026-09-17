@@ -197,7 +197,7 @@ memory work वह है जहाँ आप:
 
 ## Flashcards कहाँ fit बैठता है
 
-[Flashcards](/) ऐसा AI tutor नहीं है जो सब कुछ कर दे।
+[Nibomo](/) ऐसा AI tutor नहीं है जो सब कुछ कर दे।
 
 यह AI tutoring, summaries, और generated questions के बाद retention layer के रूप में सबसे अच्छा fit बैठता है।
 
