@@ -164,7 +164,7 @@ keywords:
 - [Flashcards لأجهزة iPhone وiPad على App Store](https://apps.apple.com/app/apple-store/id6760538964?pt=128797295&ct=marketing_site&mt=8)
 - [Flashcards لأجهزة Android على Google Play](https://play.google.com/store/apps/details?id=com.flashcardsopensourceapp.app&utm_source=flashcards_website&utm_medium=referral&utm_campaign=marketing_site)
 
-![تجربة المراجعة في Flashcards Open Source App عبر تطبيق الويب المستضاف وتطبيقات الهاتف](/home/app-screens-showcase-en.png)
+![تجربة المراجعة في Nibomo عبر تطبيق الويب المستضاف وتطبيقات الهاتف](/home/app-screens-showcase-en.png)
 
 إذا لم تكن قد استخدمت المنتج بعد، فصفحة [Getting Started](/docs/getting-started/) هي أسرع مدخل.
 
