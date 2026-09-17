@@ -112,4 +112,6 @@ Choose a card that addresses the reason for your mistake. If you mixed up the co
 | What is the negation of `x > 10` for real numbers? | `x ≤ 10`; the negation includes equality |
 | `p` is false and `q` is true. Evaluate `p ∨ (¬q)` | False; the negation of `q` is false, and false OR false gives false |
 
+For more practice, the [truth table flashcards](/catalog/packages/truth-table-flashcards/) cover connective rules and evaluating expressions from stated truth assignments.
+
 Answer before flipping the card, then work through an example with new numbers on paper. You can use paper flashcards or cards with a front and back in the app; the [getting started guide](/docs/getting-started/) explains how to begin. For more ways to use this approach, read [how to use flashcards for math](/blog/how-to-use-flashcards-for-math/) and [how to make clearer flashcards](/blog/how-to-make-better-flashcards/).
