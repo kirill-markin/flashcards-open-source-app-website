@@ -45,6 +45,8 @@ That is why **anatomy and physiology flashcards** can feel uneven. The deck is t
 
 If you want a baseline before those retrieval jobs split apart, the [105-card Human Body Systems deck](/catalog/packages/human-body-systems-flashcards/) covers organization levels, the core functions and representative organs of 11 systems, organ-to-system recall, and a few cross-system relationships. It leaves detailed regional anatomy, labeled-image identification, and lab-practical work for the cards you build next.
 
+For plane names and movement vocabulary, use the [Anatomical Planes & Joint Movements Flashcards](/catalog/packages/anatomical-planes-movements-flashcards/). Practice naming the movement before connecting it to the muscles that produce it.
+
 ## Start from the lab practical, not the chapter title
 
 If the course tests anatomy with pins, tagged photos, or unlabeled models, the deck should start there too.
