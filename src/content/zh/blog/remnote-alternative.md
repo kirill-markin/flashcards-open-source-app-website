@@ -31,7 +31,7 @@ RemNote 把 Anki 导出标为 **Flashcards Only（仅闪卡）**。没有做成�
 - **卡片工作流与笔记绑得太紧：** 试试 Anki。它给卡片、模板、导入和 FSRS 留出了更大的空间，让它们真正成为整套系统的核心。
 - **想要普通的本地笔记文件：** 用 Obsidian 管理 Markdown 笔记，用 Anki 负责复习。两者没有那么紧密，但笔记和卡片分别归谁管理，一目了然。
 - **需要支持 PDF 和内置卡片的开源关联笔记：** Logseq 是这里最接近的选择，不过在 2026 年有一个重要前提：它的新数据库版本仍处于 beta，新 iOS 应用和实时同步处于 alpha，新 Android 应用则尚未开放测试。
-- **想要一套专注于卡片、可查看源码并自托管的技术栈：** 如果正反面卡片已经够用，而且你能接受重新开始复习计划并承担大量 AWS 运维工作，可以考虑 Flashcards。
+- **想要一套专注于卡片、可查看源码并自托管的技术栈：** 如果正反面卡片已经够用，而且你能接受重新开始复习计划并承担大量 AWS 运维工作，可以考虑 Nibomo。
 - **想把 PDF 阅读、关联高亮和制卡放在一起：** 继续使用 RemNote。其他方案都无法完整复现这套工作流。
 
 最后一个答案很容易被忽略。如果替代方案只是满足了你对许可证的偏好，却打乱了明天的学习，那么迁移就不算进步。
@@ -48,7 +48,7 @@ RemNote 把 Anki 导出标为 **Flashcards Only（仅闪卡）**。没有做成�
 
 这不是一张功能排行榜。大量依赖 PDF 的学生改用“最开放”的选项，失去的可能比从许可证中得到的更多。只有简单词汇卡片的人，也可能一直在为早已不用的笔记系统付费。先找到符合你实际限制的那一行，再测试它的迁移边界。
 
-免费和开源是两套不同的筛选标准。RemNote Free 和 Obsidian 的核心应用不收费，但都是专有软件。Anki 的桌面核心、Logseq 和 Flashcards 会公开源代码；AnkiMobile 仍是付费 iOS 应用，而自托管 Flashcards 仍会产生云服务成本。
+免费和开源是两套不同的筛选标准。RemNote Free 和 Obsidian 的核心应用不收费，但都是专有软件。Anki 的桌面核心、Logseq 和 Nibomo 会公开源代码；AnkiMobile 仍是付费 iOS 应用，而自托管 Nibomo 仍会产生云服务成本。
 
 ## 当关联工作流本身就是产品价值时，继续使用 RemNote
 
@@ -90,15 +90,15 @@ Logseq 理应出现在 **开源 RemNote 替代方案** 的对比中，因为它�
 
 因此，如果开源、关联笔记、PDF 和内置卡片缺一不可，Logseq 值得评估。但在 2026 年 8 月，我不会用它在一天之内迁移一套医学生备考所依赖的关键知识库。先让它和 RemNote 并行运行，看看当前这场转型在你实际使用的设备上是否稳定。
 
-## Flashcards：整套技术栈开放，学习模型更聚焦
+## Nibomo：整套技术栈开放，学习模型更聚焦
 
-Flashcards 的取舍几乎与 RemNote 相反。它的[功能](/zh/features/)围绕支持 Markdown 的正反面卡片、牌组、标签、媒体、FSRS 复习、离线优先客户端，以及用 AI 辅助起草卡片展开。它没有关联笔记知识库、PDF 阅读器、原生桌面应用或直接的 RemNote 导入器。
+Nibomo 的取舍几乎与 RemNote 相反。它的[功能](/zh/features/)围绕支持 Markdown 的正反面卡片、牌组、标签、媒体、FSRS 复习、离线优先客户端，以及用 AI 辅助起草卡片展开。它没有关联笔记知识库、PDF 阅读器、原生桌面应用或直接的 RemNote 导入器。
 
 它的开源范围覆盖整套技术栈：采用 MIT 许可证的仓库包含 Web、iOS、Android、身份验证、后端、同步和基础设施。官方支持的[生产环境自托管指南](/zh/docs/self-hosting/)使用 AWS CDK。这不是一条命令就能启动的本地一体化应用。运维者要自行负责云服务成本、密钥、迁移、监控、备份、恢复测试，还要分别构建移动应用。
 
-对现有 RemNote 用户来说，迁移才是更大的限制。Flashcards 只能导入自己的 `flashcards.zip` 包，不能导入 RemNote Markdown 或 Anki `.apkg`。这些包会带上卡片、标签和引用的媒体，但不包括复习历史、FSRS 状态、工作区设置、完整牌组结构或账户。AI 聊天可以把导出的文本转换成卡片草稿，再由你审核；这是在重建内容，不是在延续原来的卡片集合。[TXT 迁移指南](/zh/blog/migrate-from-anki-txt-export-open-source-flashcards/)逐步展示了这条有损迁移的边界。
+对现有 RemNote 用户来说，迁移才是更大的限制。Nibomo 只能导入自己的 `flashcards.zip` 包，不能导入 RemNote Markdown 或 Anki `.apkg`。这些包会带上卡片、标签和引用的媒体，但不包括复习历史、FSRS 状态、工作区设置、完整牌组结构或账户。AI 聊天可以把导出的文本转换成卡片草稿，再由你审核；这是在重建内容，不是在延续原来的卡片集合。[TXT 迁移指南](/zh/blog/migrate-from-anki-txt-export-open-source-flashcards/)逐步展示了这条有损迁移的边界。
 
-如果你准备建立一个全新或简单的卡片工作区，而且想拿到整套技术栈的源码，可以选择 Flashcards。需要关联式学习工作流就继续用 RemNote；如果迁移完整性或高级卡片结构更重要，则选择 Anki。更聚焦的卡片系统对比可参阅 [Anki 与 Nibomo](/zh/blog/anki-vs-flashcards-open-source-app/)和[开源闪卡应用指南](/zh/blog/best-open-source-flashcard-apps-2026/)。
+如果你准备建立一个全新或简单的卡片工作区，而且想拿到整套技术栈的源码，可以选择 Nibomo。需要关联式学习工作流就继续用 RemNote；如果迁移完整性或高级卡片结构更重要，则选择 Anki。更聚焦的卡片系统对比可参阅 [Anki 与 Nibomo](/zh/blog/anki-vs-flashcards-open-source-app/)和[开源闪卡应用指南](/zh/blog/best-open-source-flashcard-apps-2026/)。
 
 ## 哪些内容无法从 RemNote 完整迁移
 
@@ -134,8 +134,8 @@ RemNote 提供了几种实用的导出格式，但没有任何一个文件能在
 - **选择 Anki：** 适合优先考虑卡片、模板、FSRS 控制和迁移完整性的人。
 - **选择 Obsidian 加 Anki：** 适合为了普通的本地笔记文件，愿意同时维护两个工具的人。
 - **评估 Logseq：** 适合需要开源关联笔记和内置卡片的人，但它当前的数据库与同步技术栈仍处于 beta 和 alpha 阶段，测试时只用非关键数据。
-- **选择 Flashcards：** 适合更看重简单的新卡片系统和整套技术栈的源代码访问，而不是笔记、PDF 或复习计划连续性的人。
+- **选择 Nibomo：** 适合更看重简单的新卡片系统和整套技术栈的源代码访问，而不是笔记、PDF 或复习计划连续性的人。
 
-我是 Flashcards 的开发者，但面对主要围绕 PDF 建立的关联笔记库，我仍会继续使用 RemNote；面对结构复杂、已经用了很久的卡片集合，我会选择 Anki。Flashcards 是范围更窄的选择：正反面卡片、开放技术栈，以及一套全新的复习计划。
+我是 Nibomo 的开发者，但面对主要围绕 PDF 建立的关联笔记库，我仍会继续使用 RemNote；面对结构复杂、已经用了很久的卡片集合，我会选择 Anki。Nibomo 是范围更窄的选择：正反面卡片、开放技术栈，以及一套全新的复习计划。
 
-确定自己能接受哪条边界后，只测试对应的那条路线。如果 Flashcards 适合你，[入门指南](/zh/docs/getting-started/)介绍了托管与自托管的入口；如果不适合，继续使用 RemNote 也完全合理。
+确定自己能接受哪条边界后，只测试对应的那条路线。如果 Nibomo 适合你，[入门指南](/zh/docs/getting-started/)介绍了托管与自托管的入口；如果不适合，继续使用 RemNote 也完全合理。

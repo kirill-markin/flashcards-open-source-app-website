@@ -235,7 +235,7 @@ FSRS 最适合处理的，正是这种情况。
 
 如果你想更具体看排程这一层，这篇文章就是最直接的配套阅读：[2026 年如何用 FSRS 备考](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)。
 
-## Flashcards 在这套 AP Biology 工作流里适合放在哪一段
+## Nibomo 在这套 AP Biology 工作流里适合放在哪一段
 
 如果你想把这套流程放进 [Nibomo](https://nibomo.com/) 里，真正有用的地方，并不是某种模糊的承诺，说 AI 会神奇地帮你把生物全学会。
 

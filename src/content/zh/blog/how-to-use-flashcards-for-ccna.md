@@ -273,7 +273,7 @@ Cisco 自己那篇 [v1.1 更新说明](https://blogs.cisco.com/learning/understa
 
 如果真正拖垮你的通常是复习负担这一侧，那这两篇会直接接得上：[2026 年每天该新增多少张 Flashcards？](/blog/how-many-new-flashcards-per-day/) 和 [2026 年如何用 FSRS 备考](/blog/how-to-study-for-an-exam-with-fsrs/)。
 
-## Flashcards 很适合放进这套流程的哪个位置
+## Nibomo 很适合放进这套流程的哪个位置
 
 [Nibomo](/) 很适合拿来准备 CCNA，因为这门考试会制造很多很乱的原始材料：实验笔记、粘贴出来的 CLI 输出、简短错题记录，还有零散的故障排查总结。这个产品能同时接住整理和复习这两步，而且不会假装它们其实是一回事。
 

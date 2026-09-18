@@ -1,36 +1,36 @@
 ---
-title: "如何通过 MCP 将 Flashcards 接入 Claude，并直接在聊天中创建闪卡"
-description: "这是一份实操指南：如何在 Claude 中添加 Flashcards MCP 自定义连接器、设置合适的工具权限，并让 Claude 直接把学习卡片写入你的 Flashcards workspace。"
+title: "如何通过 MCP 将 Nibomo 接入 Claude，并直接在聊天中创建闪卡"
+description: "这是一份实操指南：如何在 Claude 中添加 Nibomo MCP 自定义连接器、设置合适的工具权限，并让 Claude 直接把学习卡片写入你的 Nibomo workspace。"
 date: "2026-06-23"
 image: "/blog/how-to-connect-flashcards-to-claude-with-mcp.png"
 keywords:
   - "Claude MCP flashcards"
-  - "Flashcards 连接 Claude"
-  - "Claude 自定义连接器 Flashcards"
+  - "Nibomo 连接 Claude"
+  - "Claude 自定义连接器闪卡"
   - "在 Claude 中创建闪卡"
-  - "Flashcards MCP 连接器"
+  - "Nibomo MCP 连接器"
   - "Claude browser flashcards"
-  - "Flashcards Claude connector"
-  - "Claude 创建 Flashcards 卡片"
-  - "Flashcards remote MCP"
-  - "Claude connector Flashcards workspace"
+  - "Nibomo Claude connector"
+  - "Claude 创建 Nibomo 卡片"
+  - "Nibomo remote MCP"
+  - "Claude connector Nibomo workspace"
 ---
 
-昨天我在 Claude 里大概花了一分钟，就往 Flashcards 里加进了一张测试卡。真正有用的，不是演示本身。真正有用的是，我看见 Claude 先问该用哪个 workspace，再请求写入权限，最后把卡片放进真实应用里，而不是把内容困在聊天记录里。
+昨天我在 Claude 里大概花了一分钟，就往 Nibomo 里加进了一张测试卡。真正有用的，不是演示本身。真正有用的是，我看见 Claude 先问该用哪个 workspace，再请求写入权限，最后把卡片放进真实应用里，而不是把内容困在聊天记录里。
 
 这就是现在值得搜索 **Claude MCP 闪卡** 的实际原因。
 
-如果你想让 Claude 直接在 Flashcards workspace 里创建卡片，整个设置其实很短：添加 Flashcards 自定义连接器，检查工具权限，在对话里启用它，然后在 Claude 准备保存卡片时批准写入调用。
+如果你想让 Claude 直接在 Nibomo workspace 里创建卡片，整个设置其实很短：添加 Nibomo 自定义连接器，检查工具权限，在对话里启用它，然后在 Claude 准备保存卡片时批准写入调用。
 
 ![Claude 已连接到 Nibomo MCP 服务器，可直接从聊天中创建闪卡](/blog/how-to-connect-flashcards-to-claude-with-mcp.png)
 
 ## 这是自定义连接器，不是目录里的现成条目
 
-先说一个关键细节：Flashcards 连接到 Claude 的方式，是通过 **自定义连接器** 加上 **remote MCP**。
+先说一个关键细节：Nibomo 连接到 Claude 的方式，是通过 **自定义连接器** 加上 **remote MCP**。
 
-所以别去 Claude 官方连接器目录里找一个已经上架的 Flashcards 应用。正常流程是打开 Claude 的[连接器设置页面](https://claude.ai/customize/connectors)，点击加号，选择 **Add custom connector**，然后手动粘贴 Flashcards 的 MCP URL。
+所以别去 Claude 官方连接器目录里找一个已经上架的 Nibomo 应用。正常流程是打开 Claude 的[连接器设置页面](https://claude.ai/customize/connectors)，点击加号，选择 **Add custom connector**，然后手动粘贴 Nibomo 的 MCP URL。
 
-Flashcards 连接器的准确 URL 是：
+Nibomo 连接器的准确 URL 是：
 
 `https://mcp.nibomo.com/mcp`
 
@@ -40,11 +40,11 @@ Flashcards 连接器的准确 URL 是：
 
 有两点比很多人想的更重要。
 
-第一，Claude 访问远程 MCP 服务器时，走的是 Anthropic 的云基础设施，不是你的笔记本电脑。这意味着服务器必须能从公共互联网访问。Flashcards 已经满足这个条件，所以上面的公共 MCP 端点就是你该填的地址。
+第一，Claude 访问远程 MCP 服务器时，走的是 Anthropic 的云基础设施，不是你的笔记本电脑。这意味着服务器必须能从公共互联网访问。Nibomo 已经满足这个条件，所以上面的公共 MCP 端点就是你该填的地址。
 
 第二，把连接器权限当成真正的工具权限来看。只连接你信任的服务器，先看清每个工具能做什么，再认真阅读每一次写入审批请求，然后再决定是否放行。
 
-## 如何在 Claude 里添加 Flashcards MCP 连接器
+## 如何在 Claude 里添加 Nibomo MCP 连接器
 
 如果你用的是个人 Claude 账户，设置路径是这样的：
 
@@ -60,7 +60,7 @@ Flashcards 连接器的准确 URL 是：
 
 ## 第一次设置权限时，先保守一点
 
-创建卡片时，需要关注 Flashcards 连接器中的这四个工具：
+创建卡片时，需要关注 Nibomo 连接器中的这四个工具：
 
 - `list_workspaces`：列出可用 workspace
 - `sql_query`：只读查询
@@ -83,7 +83,7 @@ Claude 允许你把每个工具分别设成 `Always allow`、`Needs approval` �
 
 如果 Claude 明明该用连接器，却没有调用，先检查这几个最常见的问题：
 
-- Flashcards 连接器是否已经在设置里连上
+- Nibomo 连接器是否已经在设置里连上
 - 这个连接器是否已经为当前聊天启用
 - 写入工具是否没有被设成 `Blocked`
 
@@ -96,7 +96,7 @@ Claude 允许你把每个工具分别设成 `Always allow`、`Needs approval` �
 下面这些是不错的起步示例：
 
 ```text
-在 Flashcards 中创建一张新闪卡。
+在 Nibomo 中创建一张新闪卡。
 正面：HTTP 404 是什么意思？
 背面：服务器上找不到所请求的资源。
 标签：web-basics
@@ -104,11 +104,11 @@ Claude 允许你把每个工具分别设成 `Always allow`、`Needs approval` �
 ```
 
 ```text
-在创建任何内容之前，先列出我在 Flashcards 里的 workspaces，并告诉我哪个最适合放语言学习卡片。
+在创建任何内容之前，先列出我在 Nibomo 里的 workspaces，并告诉我哪个最适合放语言学习卡片。
 ```
 
 ```text
-在 Flashcards 中创建一张新的西班牙语闪卡。
+在 Nibomo 中创建一张新的西班牙语闪卡。
 正面：西班牙语里“我想要一杯咖啡”怎么说？
 背面：Me gustaría un café.
 标签：spanish, travel
@@ -121,11 +121,11 @@ Claude 允许你把每个工具分别设成 `Always allow`、`Needs approval` �
 
 这部分其实很普通。
 
-你让 Claude 在 Flashcards 里创建一张卡。如果你有多个 workspace，而且默认目标并不明显，Claude 可能会先问你该放到哪里。接着，如果 `sql_execute` 还设成 `Needs approval`，Claude 就会调用写入工具并等待你的批准。
+你让 Claude 在 Nibomo 里创建一张卡。如果你有多个 workspace，而且默认目标并不明显，Claude 可能会先问你该放到哪里。接着，如果 `sql_execute` 还设成 `Needs approval`，Claude 就会调用写入工具并等待你的批准。
 
 这正是你想看到的行为。
 
-你应该先检查写入请求，再批准，然后让 Claude 完成剩下的动作。下面这张截图里，Claude 先问了该用哪个 workspace，接着执行了 Flashcards 写入操作，最后报告测试卡已经成功添加。
+你应该先检查写入请求，再批准，然后让 Claude 完成剩下的动作。下面这张截图里，Claude 先问了该用哪个 workspace，接着执行了 Nibomo 写入操作，最后报告测试卡已经成功添加。
 
 ![Claude 在询问使用哪个 workspace 后，通过 Nibomo MCP 连接器创建测试闪卡](/blog/claude-mcp-flashcards-create-card.png)
 
@@ -142,9 +142,9 @@ Claude 允许你把每个工具分别设成 `Always allow`、`Needs approval` �
 
 这个设置确实有用，但它不是魔法。
 
-Claude 可以帮你在 Flashcards 里创建卡片，也可以通过只读工具读取连接器里的数据、查看 workspace、执行查询。但这并不意味着 Claude 起草出来的每一张卡都够好，也不意味着你应该闭着眼批准每一次写入请求。
+Claude 可以帮你在 Nibomo 里创建卡片，也可以通过只读工具读取连接器里的数据、查看 workspace、执行查询。但这并不意味着 Claude 起草出来的每一张卡都够好，也不意味着你应该闭着眼批准每一次写入请求。
 
-我还是会把 Claude 当成起草和录入层，然后把真正重要的部分留给 Flashcards：
+我还是会把 Claude 当成起草和录入层，然后把真正重要的部分留给 Nibomo：
 
 - 清理掉质量一般的卡
 - 整理牌组和标签
@@ -155,13 +155,13 @@ Claude 可以帮你在 Flashcards 里创建卡片，也可以通过只读工具�
 
 ## Claude 创建完卡片后，还是要去真实应用里看一眼
 
-这其实是我最喜欢这套流程的一点。卡片不会停留在一段看起来很漂亮的 AI 对话里。它会落进 Flashcards 里，而你之后真的可以在那里复习它。
+这其实是我最喜欢这套流程的一点。卡片不会停留在一段看起来很漂亮的 AI 对话里。它会落进 Nibomo 里，而你之后真的可以在那里复习它。
 
 你可以打开托管版 web app，在手机上检查卡片，或者继续按你原本的学习流程往下走：
 
 - [Nibomo 网页版](https://app.flashcards-open-source-app.com/)
-- [适用于 iPhone 和 iPad 的 Flashcards App Store 页面](https://apps.apple.com/app/apple-store/id6760538964?pt=128797295&ct=marketing_site&mt=8)
-- [适用于 Android 的 Flashcards Google Play 页面](https://play.google.com/store/apps/details?id=com.flashcardsopensourceapp.app&utm_source=flashcards_website&utm_medium=referral&utm_campaign=marketing_site)
+- [适用于 iPhone 和 iPad 的 Nibomo App Store 页面](https://apps.apple.com/app/apple-store/id6760538964?pt=128797295&ct=marketing_site&mt=8)
+- [适用于 Android 的 Nibomo Google Play 页面](https://play.google.com/store/apps/details?id=com.flashcardsopensourceapp.app&utm_source=flashcards_website&utm_medium=referral&utm_campaign=marketing_site)
 
 ![Nibomo 在托管网页版和移动应用中的复习体验](/home/app-screens-showcase-en.png)
 
@@ -169,7 +169,7 @@ Claude 可以帮你在 Flashcards 里创建卡片，也可以通过只读工具�
 
 ## 简短版
 
-如果你搜索的是 **把 Flashcards 连接到 Claude**，真正的流程就是这样：
+如果你搜索的是 **把 Nibomo 连接到 Claude**，真正的流程就是这样：
 
 1. 打开 Claude 的[自定义连接器设置](https://claude.ai/customize/connectors)
 2. 添加 `https://mcp.nibomo.com/mcp`
@@ -178,6 +178,6 @@ Claude 可以帮你在 Flashcards 里创建卡片，也可以通过只读工具�
 5. 在聊天里启用这个连接器
 6. 让 Claude 创建一张卡
 7. 批准写入调用
-8. 回到 Flashcards 里检查保存后的卡片
+8. 回到 Nibomo 里检查保存后的卡片
 
-这样你就能从 Claude 对话直接走到真实的 Flashcards workspace，中间不需要假装有官方集成，不需要手动复制粘贴，也不会在第一天就失去对写入操作的控制。
+这样你就能从 Claude 对话直接走到真实的 Nibomo workspace，中间不需要假装有官方集成，不需要手动复制粘贴，也不会在第一天就失去对写入操作的控制。

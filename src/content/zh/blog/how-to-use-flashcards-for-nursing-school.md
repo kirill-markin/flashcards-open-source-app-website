@@ -250,7 +250,7 @@ keywords:
 
 - [2026 年 FSRS vs SM-2](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
-## Flashcards 在这套护理工作流里适合放在哪里
+## Nibomo 在这套护理工作流里适合放在哪里
 
 [Nibomo](https://nibomo.com/) 很适合用来跑这套 **护理学院抽认卡** 工作流，因为这个产品已经覆盖了这套方法最依赖的那些部分：
 

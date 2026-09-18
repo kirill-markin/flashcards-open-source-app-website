@@ -286,7 +286,7 @@ Blurting 在这里有用，是因为它能检验：一旦笔记拿开，这个�
 
 如果你的备考工作流需要比这更明确的结构，适合一起看的配套文章是 [2026 年如何用 FSRS 备考](/zh/blog/how-to-study-for-an-exam-with-fsrs/)。
 
-## Flashcards 在这个流程里负责哪一段
+## Nibomo 在这个流程里负责哪一段
 
 [Nibomo](/zh/) 适合接在这套流程里，是因为它正好补上了 blurting 本身不负责的那一段：
 

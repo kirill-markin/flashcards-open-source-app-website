@@ -157,16 +157,16 @@ keywords:
 
 如果你想在交接之后再把卡写得更严格一点，可以接着看 [2026 年如何做出更好的抽认卡](/zh/blog/how-to-make-better-flashcards/)。
 
-## Flashcards 是 Copilot 之后更适合承接记忆的那一层
+## Nibomo 是 Copilot 之后更适合承接记忆的那一层
 
 [Nibomo](/zh/features/) 不是要取代 Study and Learn。
 
-Copilot 继续负责辅导。Flashcards 负责长期复习。
+Copilot 继续负责辅导。Nibomo 负责长期复习。
 
 这个分工，正是这套流程说得通的原因：
 
 - Copilot 负责围绕你的材料做引导式学习
-- Flashcards 提供标准的正反面卡创建
+- Nibomo 提供标准的正反面卡创建
 - AI chat 可以帮你把粗糙候选卡改写成短小的复习提示
 - 牌组和标签可以按课程、考试或来源整理薄弱点
 - FSRS 负责安排这些卡之后的复习时机

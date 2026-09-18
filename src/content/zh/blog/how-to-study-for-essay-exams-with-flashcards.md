@@ -308,7 +308,7 @@ Tutor 风格的 AI 对 essay 备考有帮助，特别是在它先逼你回答、
 
 如果你想重点补的是这一块，后续更适合看的是 [How to Use AI for Active Recall in 2026](/blog/how-to-use-ai-for-active-recall/) 和 [How to Fix AI Flashcards in 2026](/blog/how-to-fix-ai-flashcards/)。
 
-## Flashcards 适合放在哪一层
+## Nibomo 适合放在哪一层
 
 [Nibomo](/) 很适合用来解决 **如何用抽认卡准备 essay exam** 这个问题，因为 essay 备考通常不只是一个生成问题。
 

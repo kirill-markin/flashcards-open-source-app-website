@@ -152,13 +152,13 @@ RemNote 的[内置 MCP 服务器](https://help.remnote.com/en/articles/16424066-
 
 如果你需要**开源 RemNote 替代方案**，先确定不可妥协的是笔记与 PDF 工作区，还是闪卡系统。[Anki 的源码开放范围](/zh/blog/is-anki-open-source/)包括开源的桌面与 Android 客户端，以及可自托管的同步服务器，但 Anki 并非所有组成部分都开源。[开源闪卡应用指南](/zh/blog/best-open-source-flashcard-apps-2026/)则用许可证和托管范围比较了其他几款产品。它们都不会自动成为 RemNote 关联知识库的完整替代品。
 
-## 披露：我在开发 Flashcards
+## 披露：我在开发 Nibomo
 
 > **披露：** 我是 Kirill Markin，也是 [Nibomo](https://nibomo.com/) 的开发者。它采用 MIT 许可证的仓库包含 Web 应用、iOS 和 Android 客户端、身份验证、后端、同步、MCP 服务以及 AWS 基础设施。目前，这套源码的开放范围比 RemNote 更广，但这并不意味着 Nibomo 适合所有学习流程。
 
-Flashcards 专注的学习流程更窄：它没有关联笔记知识库、PDF 阅读器、原生桌面应用，也不能直接导入 RemNote。当笔记、引用和原始文档处于学习流程的核心时，RemNote 更成熟，优势也明显得多。只为许可证而迁移，可能会丢掉原本让卡片集合发挥作用的整套流程。
+Nibomo 专注的学习流程更窄：它没有关联笔记知识库、PDF 阅读器、原生桌面应用，也不能直接导入 RemNote。当笔记、引用和原始文档处于学习流程的核心时，RemNote 更成熟，优势也明显得多。只为许可证而迁移，可能会丢掉原本让卡片集合发挥作用的整套流程。
 
-Flashcards 提供一套有文档的 [AWS 全栈自托管方案](/zh/docs/self-hosting/)，但它不是一条命令就能运行起来的本地一体化服务。部署者需要自行负责 AWS、Cloudflare、身份验证、邮件发送、监控、升级、数据库恢复，以及单独构建原生应用。它的[远程 MCP 连接器](/zh/docs/mcp-connector/)不要求桌面应用保持打开，就能访问卡片和卡组；RemNote 的本地连接器可以访问当前知识库，却不能访问复习队列。两者的产品形态不同，不能简单排成一条孰优孰劣的阶梯。
+Nibomo 提供一套有文档的 [AWS 全栈自托管方案](/zh/docs/self-hosting/)，但它不是一条命令就能运行起来的本地一体化服务。部署者需要自行负责 AWS、Cloudflare、身份验证、邮件发送、监控、升级、数据库恢复，以及单独构建原生应用。它的[远程 MCP 连接器](/zh/docs/mcp-connector/)不要求桌面应用保持打开，就能访问卡片和卡组；RemNote 的本地连接器可以访问当前知识库，却不能访问复习队列。两者的产品形态不同，不能简单排成一条孰优孰劣的阶梯。
 
 如果隐私比品牌更重要，可以阅读[借助 AI 使用私密闪卡](/zh/blog/private-flashcards-with-ai/)。其中的检查清单会帮助你分别判断学习流程中的本地存储、同步、AI 服务商访问和自托管。
 

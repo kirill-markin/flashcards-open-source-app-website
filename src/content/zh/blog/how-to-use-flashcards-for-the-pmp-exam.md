@@ -233,7 +233,7 @@ FSRS 对 PMP 很有用，因为这类记忆负荷本来就不均匀。
 
 如果你想更细看排程这一侧，[2026 年如何用 FSRS 为考试复习](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/) 就是直接对应的配套文章。
 
-## Flashcards 在这套 PMP 工作流里适合放在哪里
+## Nibomo 在这套 PMP 工作流里适合放在哪里
 
 如果你想把这套流程跑在 [Nibomo](https://nibomo.com/) 里，真正有用的地方并不是那种模糊承诺，说 AI 会替你把学习这件事做掉。
 

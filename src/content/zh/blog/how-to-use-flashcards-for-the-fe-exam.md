@@ -336,7 +336,7 @@ FSRS 有用，是因为它不会假装每张卡都该用同样的时间表。简
 - [2026 年如何用 FSRS 备考](/zh/blog/how-to-study-for-an-exam-with-fsrs/)
 - [2026 年 FSRS 设置：该改什么，不该改什么](/zh/blog/fsrs-settings/)
 
-## Flashcards 在这套流程里适合放在哪里
+## Nibomo 在这套流程里适合放在哪里
 
 [Nibomo](/zh/) 很适合这种 FE 备考方式，因为它支持的是这套流程最中间、也最实际的那一段，而不只是最前面的起草：
 

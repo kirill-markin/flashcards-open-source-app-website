@@ -229,7 +229,7 @@ AI 负责帮你现在把这个概念学懂。
 
 - [2026 年 FSRS vs SM-2](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
-## 为什么 Flashcards 更适合这套流程
+## 为什么 Nibomo 更适合这套流程
 
 [Nibomo](https://nibomo.com/) 很适合 **如何把 ChatGPT Study Mode 变成闪卡**，因为它刚好补上了 AI 辅导自己还解决不了的那一层：
 
@@ -243,7 +243,7 @@ AI 负责帮你现在把这个概念学懂。
 
 1. 用 AI 导师先把主题讲明白
 2. 复制你答错的点
-3. 在 Flashcards 里把它们整理成卡片
+3. 在 Nibomo 里把它们整理成卡片
 4. 之后用 FSRS 复习
 
 这比指望一次聊天会话“顺便”变成长期记忆，要可信得多。

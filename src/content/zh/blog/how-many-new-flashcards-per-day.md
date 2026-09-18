@@ -213,7 +213,7 @@ FSRS 确实比旧式间隔重复系统更擅长让复习时机显得合理。
 
 - [2026 年如何用 ChatGPT 制作 Flashcards](https://nibomo.com/blog/how-to-use-chatgpt-to-make-flashcards/)
 
-## 为什么 Flashcards 更适合这个工作流
+## 为什么 Nibomo 更适合这个工作流
 
 [Nibomo](https://nibomo.com/) 很适合这个流程，因为它同时覆盖了问题的两端：
 
