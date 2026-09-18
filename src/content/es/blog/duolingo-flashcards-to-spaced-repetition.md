@@ -170,7 +170,7 @@ Si prefieres crear un mazo personal en otra aplicación, se aplican las mismas r
 
 > **Aviso:** Soy Kirill Markin y desarrollo [Nibomo](/features/).
 
-Flashcards es una de las aplicaciones donde puedes guardar la parte personal de este proceso. La [versión alojada](/docs/getting-started/) permite crear y repasar fichas, usar el chat con IA junto con los datos y archivos adjuntos de tu espacio de trabajo y programar los repasos con FSRS. El [repositorio es de código abierto](https://github.com/kirill-markin/flashcards-open-source-app) y hay [instrucciones para alojar la aplicación por tu cuenta](/docs/self-hosting/).
+Nibomo es una de las aplicaciones donde puedes guardar la parte personal de este proceso. La [versión alojada](/docs/getting-started/) permite crear y repasar fichas, usar el chat con IA junto con los datos y archivos adjuntos de tu espacio de trabajo y programar los repasos con FSRS. El [repositorio es de código abierto](https://github.com/kirill-markin/flashcards-open-source-app) y hay [instrucciones para alojar la aplicación por tu cuenta](/docs/self-hosting/).
 
 Para este proceso con Duolingo, introducir las fichas a mano suele bastar. La IA puede ayudarte a dividir una corrección o reformular una consigna que no queda clara, pero no debería decidir qué vocabulario de la lección merece un repaso a largo plazo. Esa decisión es tuya: tú sabes qué has fallado y qué quieres decir.
 

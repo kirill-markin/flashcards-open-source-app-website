@@ -241,7 +241,7 @@ Si quieres más detalle sobre la parte de programación, éste es el artículo c
 
 - [Cómo estudiar para un examen con FSRS en 2026](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)
 
-## Dónde encaja Flashcards en este flujo NextGen
+## Dónde encaja Nibomo en este flujo NextGen
 
 Si quieres llevar este flujo dentro de [Nibomo](https://nibomo.com/), la parte útil no es una promesa vaga de que la IA hace que estudiar sea más fácil. La parte útil es que el producto ya soporta la parte intermedia real de este flujo:
 

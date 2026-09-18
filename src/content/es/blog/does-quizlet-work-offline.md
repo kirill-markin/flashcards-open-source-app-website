@@ -16,7 +16,7 @@ Que un set de Quizlet se abra cuando tienes cobertura no significa que vaya a es
 
 Cuando activas el guardado sin conexión, las apps móviles guardan automáticamente ocho sets que hayas usado recientemente. También puedes descargar otros de forma manual. Las apps permiten además crear y editar sets sin internet; Quizlet indica que esos cambios se publican cuando recuperas la conexión.
 
-> **Aviso de transparencia:** Soy Kirill Markin y desarrollo [Nibomo](/es/), otra app de flashcards. Esta guía se ciñe al comportamiento que Quizlet documenta. Flashcards no es la alternativa automática si el modo sin conexión de Quizlet para móviles ya cubre tus necesidades.
+> **Aviso de transparencia:** Soy Kirill Markin y desarrollo [Nibomo](/es/), otra app de flashcards. Esta guía se ciñe al comportamiento que Quizlet documenta. Nibomo no es la alternativa automática si el modo sin conexión de Quizlet para móviles ya cubre tus necesidades.
 
 **Datos verificados:** 14 de agosto de 2026.
 

@@ -269,7 +269,7 @@ Una organización sencilla consiste en un mazo `N10-009` con etiquetas como `por
 
 [Nibomo](/es/features/) se ocupa de la parte de memorización del flujo de trabajo: tarjetas con anverso y reverso, mazos y etiquetas, repaso de las tarjetas pendientes con FSRS, estudio sin conexión y sincronización, exportaciones transferibles y una opción autoalojada. Úsala para guardar los datos y las decisiones concretos que quieres tener disponibles antes del trabajo práctico.
 
-Aquí no afirmamos que exista un mazo oficial o predefinido de N10-009. Empieza a partir de los objetivos actuales de CompTIA y de tus propios errores legítimos de estudio. [Primeros pasos](/es/docs/getting-started/) explica las modalidades alojada y autoalojada si quieres crear el mazo en Flashcards.
+Aquí no afirmamos que exista un mazo oficial o predefinido de N10-009. Empieza a partir de los objetivos actuales de CompTIA y de tus propios errores legítimos de estudio. [Primeros pasos](/es/docs/getting-started/) explica las modalidades alojada y autoalojada si quieres crear el mazo en Nibomo.
 
 Si estás estudiando una certificación cercana, la [guía de flashcards para CompTIA A+](/es/blog/comptia-a-plus-flashcards/) aplica la misma separación entre recordar y practicar al trabajo técnico, mientras que la [guía de flashcards para CCNA](/es/blog/how-to-use-flashcards-for-ccna/) profundiza en la práctica de routing, switching y comandos.
 

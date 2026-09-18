@@ -195,7 +195,7 @@ Creo que por eso **flashcards con IA y repetición espaciada** es una forma tan 
 
 Si te interesa en concreto el lado del planificador, [FSRS vs SM-2 en 2026](/blog/fsrs-vs-sm-2/) explica por qué yo prefiero meter las tarjetas finales en FSRS en lugar de dejarlas dentro de una transcripción de chat o de una exportación estática.
 
-## Dónde encaja Flashcards
+## Dónde encaja Nibomo
 
 [Nibomo](/) no es el tutor de IA para todo.
 
@@ -213,7 +213,7 @@ Encaja bien porque el producto ya cubre el siguiente paso práctico:
 Así el flujo de trabajo sigue siendo honesto:
 
 1. usa tu tutor de IA o asistente de estudio para comprender el material
-2. lleva los puntos débiles útiles a Flashcards
+2. lleva los puntos débiles útiles a Nibomo
 3. límpialos hasta convertirlos en tarjetas simples
 4. repásalos con FSRS hasta que de verdad se queden
 

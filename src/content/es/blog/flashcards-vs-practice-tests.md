@@ -228,7 +228,7 @@ La solución no tiene nada de glamur:
 
 Así es como "al día siguiente se me olvida todo" suele convertirse en "seguí fallando algunas cosas, pero ahora sé exactamente cuáles".
 
-## Dónde encaja Flashcards de forma honesta
+## Dónde encaja Nibomo de forma honesta
 
 [Nibomo](/es/) no es el producto que yo vendería como una plataforma completa de tests de práctica.
 
@@ -247,7 +247,7 @@ La propuesta honesta es bastante más modesta que mucho marketing de software de
 
 Usa el test de práctica para encontrar el problema.
 
-Usa Flashcards para conservar la parte del problema que todavía te conviene seguir corrigiendo más adelante.
+Usa Nibomo para conservar la parte del problema que todavía te conviene seguir corrigiendo más adelante.
 
 ## Un ritmo semanal realista
 

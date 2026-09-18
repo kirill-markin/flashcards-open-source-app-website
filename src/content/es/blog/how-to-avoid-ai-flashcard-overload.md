@@ -181,7 +181,7 @@ Ese es todo el sistema. No hace falta un plan heroico de constancia. Tampoco una
 
 La versión aburrida funciona. Si el mazo aceptado se mantiene pequeño y limpio, el hábito suele sobrevivir. Si la IA lo inunda porque el primer borrador parecía impresionante, acabas manteniendo una cola en vez de aprender con ella.
 
-## Dónde encaja Flashcards en este flujo
+## Dónde encaja Nibomo en este flujo
 
 [Nibomo](/es/features/) encaja bien en este flujo porque el producto cubre el recorrido completo en un solo sitio:
 

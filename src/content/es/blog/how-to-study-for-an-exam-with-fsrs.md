@@ -141,7 +141,7 @@ Cuando esos dos flujos se mezclan, estudiar empieza a parecer productivo sin nec
 
 Por eso la preparación de exámenes se beneficia tanto de un límite aburrido pero útil: primero redactar tarjetas, después repasarlas.
 
-## Dónde encaja mejor Flashcards en este flujo de trabajo
+## Dónde encaja mejor Nibomo en este flujo de trabajo
 
 [Nibomo](https://nibomo.com/) encaja bien en este problema porque el producto puede cubrir ambas mitades sin fingir que son la misma tarea.
 

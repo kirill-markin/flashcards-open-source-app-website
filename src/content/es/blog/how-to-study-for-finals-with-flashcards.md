@@ -234,7 +234,7 @@ No me pasaría esa noche metiendo material nuevo en el sistema, salvo que hubier
 
 Y por eso también conviene separar el flujo de finales del flujo de "estudiar con IA". El trabajo con las fuentes puede expandirse para siempre. El repaso de finales no.
 
-## Dónde encaja Flashcards en este flujo
+## Dónde encaja Nibomo en este flujo
 
 [Nibomo](https://nibomo.com/) encaja bien aquí porque el producto se ajusta al caos real de la semana de finales en lugar de asumir que tus materiales de estudio llegan limpios.
 

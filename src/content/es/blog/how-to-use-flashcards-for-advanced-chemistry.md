@@ -217,7 +217,7 @@ El mazo debería hacerse más pequeño a medida que tu criterio mejora.
 
 Si quieres una prueba sencilla, pregúntate esto: cuando fallo esta tarjeta, ¿corregirla hará que el siguiente problema de química sea más fácil? Si la respuesta es no, probablemente no debería quedarse.
 
-## Dónde encaja Flashcards si quieres llevar todo el flujo en un solo sitio
+## Dónde encaja Nibomo si quieres llevar todo el flujo en un solo sitio
 
 [Nibomo](https://nibomo.com/) encaja bien con este flujo de química avanzada de secundaria porque el producto ya cubre la parte práctica después de detectar el objetivo de memoria:
 

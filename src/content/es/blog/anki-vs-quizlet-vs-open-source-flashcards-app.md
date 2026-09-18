@@ -1,6 +1,6 @@
 ---
-title: "Anki vs Quizlet vs Flashcards en 2026: ¿cuál elegir?"
-description: "Comparamos Anki, Quizlet y Flashcards en 2026: repetición espaciada, uso sin conexión, IA, migración, precios, código abierto y control de tus datos."
+title: "Anki vs Quizlet vs Nibomo en 2026: ¿cuál elegir?"
+description: "Comparamos Anki, Quizlet y Nibomo en 2026: repetición espaciada, uso sin conexión, IA, migración, precios, código abierto y control de tus datos."
 image: "/blog/anki-vs-quizlet-vs-open-source-flashcards-app.png"
 date: "2026-03-09"
 updated: "2026-08-02"
@@ -29,7 +29,7 @@ Los detalles importan, sobre todo si ya tienes cientos o miles de tarjetas.
 
 ![Un escritorio de estudio cálido compara una colección local consolidada, una configuración compartida para clase y un sistema de estudio abierto con IA](/blog/anki-vs-quizlet-vs-open-source-flashcards-app.png)
 
-## Anki vs Quizlet vs Flashcards: comparación práctica
+## Anki vs Quizlet vs Nibomo: comparación práctica
 
 La información de esta tabla se verificó el 2 de agosto de 2026. Los precios y la disponibilidad de las funciones pueden variar según la región.
 
@@ -75,15 +75,15 @@ Usa Quizlet si:
 - vas a examinarte pronto y quieres juegos, pruebas y ejercicios variados
 - utilizas las guías de estudio con IA integradas o las herramientas para PDF más que los controles de programación a largo plazo
 
-Quizlet Learn usa aprendizaje automático para personalizar una ruta de estudio según tus objetivos y tu dominio del material. Esa personalización aporta valor, pero no emplea el mismo modelo que el sistema de repaso FSRS de Anki o Flashcards. Si tu objetivo principal es conservar conocimientos durante varios años, Anki ofrece un sistema más maduro.
+Quizlet Learn usa aprendizaje automático para personalizar una ruta de estudio según tus objetivos y tu dominio del material. Esa personalización aporta valor, pero no emplea el mismo modelo que el sistema de repaso FSRS de Anki o Nibomo. Si tu objetivo principal es conservar conocimientos durante varios años, Anki ofrece un sistema más maduro.
 
 La portabilidad también es más limitada. Quizlet permite exportar los términos y las definiciones de los conjuntos que hayas creado en el sitio web, pero no los conjuntos copiados ni las imágenes. Ese límite puede ser perfectamente razonable para un semestre. Convence menos si piensas conservar una colección personal de conocimientos durante una década.
 
-## Elige Flashcards si quieres IA, FSRS y autoalojamiento en un mismo producto
+## Elige Nibomo si quieres IA, FSRS y autoalojamiento en un mismo producto
 
 [Nibomo](/features/) combina en un solo producto la planificación FSRS, un chat con IA que conoce el contexto del espacio de trabajo, creación y edición de tarjetas, archivos adjuntos, aplicaciones nativas que funcionan sin conexión y una API para agentes de IA.
 
-Usa Flashcards si:
+Usa Nibomo si:
 
 - buscas una **app de flashcards de código abierto** cuyo código de aplicación e infraestructura sea público
 - estás dispuesto a autoalojarla porque te importa controlar toda la pila
@@ -95,9 +95,9 @@ La versión alojada es la forma más sencilla de empezar; la [guía de introducc
 
 ### La advertencia sobre su madurez es importante
 
-Flashcards está en una fase temprana de desarrollo. Su ecosistema, los formatos de importación compatibles, las herramientas avanzadas de repaso y las opciones de recuperación todavía no alcanzan la madurez de Anki. No dispone de un importador directo de archivos `.apkg`. Los paquetes nativos `flashcards.zip` trasladan las tarjetas activas, las etiquetas y los archivos multimedia referenciados, pero no el historial de repasos, el estado del planificador FSRS, los ajustes del espacio de trabajo, las estructuras completas de los mazos ni los datos de la cuenta.
+Nibomo está en una fase temprana de desarrollo. Su ecosistema, los formatos de importación compatibles, las herramientas avanzadas de repaso y las opciones de recuperación todavía no alcanzan la madurez de Anki. No dispone de un importador directo de archivos `.apkg`. Los paquetes nativos `flashcards.zip` trasladan las tarjetas activas, las etiquetas y los archivos multimedia referenciados, pero no el historial de repasos, el estado del planificador FSRS, los ajustes del espacio de trabajo, las estructuras completas de los mazos ni los datos de la cuenta.
 
-En la práctica, esto implica dos cosas. Al migrar una colección de Anki muy personalizada, perderás estructuras importantes a menos que mantengas Anki como fuente de referencia. Además, un paquete de Flashcards no debe considerarse una copia de seguridad completa para recuperación ante desastres. La [guía detallada para hacer copias de seguridad de las flashcards](/blog/how-to-back-up-flashcards/) explica qué debes guardar por separado.
+En la práctica, esto implica dos cosas. Al migrar una colección de Anki muy personalizada, perderás estructuras importantes a menos que mantengas Anki como fuente de referencia. Además, un paquete de Nibomo no debe considerarse una copia de seguridad completa para recuperación ante desastres. La [guía detallada para hacer copias de seguridad de las flashcards](/blog/how-to-back-up-flashcards/) explica qué debes guardar por separado.
 
 La beta alojada en la nube es gratuita actualmente e incluye IA y sincronización. Es una condición de la beta, no una promesa de que el uso ilimitado de la IA alojada vaya a ser gratuito para siempre. La página de precios ya señala que un uso más intensivo de la IA podría requerir más adelante una clave de API de un proveedor o una opción de pago.
 

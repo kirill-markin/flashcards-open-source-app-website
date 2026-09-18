@@ -214,7 +214,7 @@ Eso no son flashcards. Son tareas pequeñas disfrazadas de flashcards.
 
 Si tus tarjetas generadas con IA ya se sienten hinchadas, [Cómo corregir flashcards de IA en 2026](/es/blog/how-to-fix-ai-flashcards/) es la siguiente lectura útil.
 
-## Dónde encaja Flashcards
+## Dónde encaja Nibomo
 
 [Nibomo](/es/) encaja mejor después de la tarea, cuando el estudio real vuelve a empezar.
 
@@ -226,7 +226,7 @@ Ese relevo encaja con lo que hoy ofrece el producto:
 - seguir estudiando ahora en la app web, con el cliente iOS offline-first en el repositorio y la app de Android disponible en Google Play
 - pasar más adelante a la opción self-hosted si te importa el control a largo plazo
 
-Así el flujo de trabajo se mantiene honesto. La IA ayuda a explicar. La tarea revela dónde estabas flojo. Flashcards mantiene esos puntos débiles vivos el tiempo suficiente para que dejen de repetirse.
+Así el flujo de trabajo se mantiene honesto. La IA ayuda a explicar. La tarea revela dónde estabas flojo. Nibomo mantiene esos puntos débiles vivos el tiempo suficiente para que dejen de repetirse.
 
 Si empiezas desde apuntes, cuestionarios o una sesión con tutor en vez de desde una tarea, estas son las mejores lecturas siguientes:
 

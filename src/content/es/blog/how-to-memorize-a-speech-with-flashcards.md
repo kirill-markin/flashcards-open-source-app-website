@@ -176,7 +176,7 @@ Al menos algunos ensayos deben reproducir las condiciones reales:
 
 Toastmasters recomienda ensayar en las mismas condiciones físicas en las que piensas presentar, lo que incluye estar de pie y moverte si así vas a hablar ([Toastmasters, 2024](https://www.toastmasters.org/Magazine/Magazine%20Issues/2024/Feb/Memorizing%20Speeches)). El mazo te ayuda a recordar qué viene después. El ensayo completo enseña a tu voz y a tu cuerpo qué hacer con ese contenido.
 
-## Dónde encaja Flashcards y dónde no
+## Dónde encaja Nibomo y dónde no
 
 [Nibomo](/es/) resulta útil para entrenar la memoria mientras preparas un discurso:
 

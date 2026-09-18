@@ -128,13 +128,13 @@ La [guía general de alternativas a Quizlet](/es/blog/quizlet-alternative/) anal
 
 ## Aviso de transparencia: desarrollo una alternativa de código abierto
 
-> **Aviso de transparencia:** Soy Kirill Markin y desarrollo [Nibomo](/es/features/). Su [repositorio con licencia MIT](https://github.com/kirill-markin/flashcards-open-source-app) incluye toda la pila: web, iOS, Android, autenticación, backend, sincronización e infraestructura. El límite del código fuente es distinto al de Quizlet, pero eso no convierte Flashcards en un sustituto directo.
+> **Aviso de transparencia:** Soy Kirill Markin y desarrollo [Nibomo](/es/features/). Su [repositorio con licencia MIT](https://github.com/kirill-markin/flashcards-open-source-app) incluye toda la pila: web, iOS, Android, autenticación, backend, sincronización e infraestructura. El límite del código fuente es distinto al de Quizlet, pero eso no convierte Nibomo en un sustituto directo.
 
-Flashcards tiene una [guía de autoalojamiento centrada en AWS](/es/docs/self-hosting/), no un instalador local de un solo clic. Quien lo opera se hace cargo de las cuentas en la nube, la autenticación, la entrega de correo electrónico, la monitorización, las copias de seguridad, las actualizaciones y las compilaciones de las aplicaciones nativas.
+Nibomo tiene una [guía de autoalojamiento centrada en AWS](/es/docs/self-hosting/), no un instalador local de un solo clic. Quien lo opera se hace cargo de las cuentas en la nube, la autenticación, la entrega de correo electrónico, la monitorización, las copias de seguridad, las actualizaciones y las compilaciones de las aplicaciones nativas.
 
-No es compatible con Quizlet. No hay un importador de Quizlet de un solo clic y Flashcards no reproduce todos sus juegos ni su ecosistema para clases. Puedes usar una exportación de texto de Quizlet ya revisada como material de partida para crear tarjetas nuevas, pero eso es un proceso de migración, no compatibilidad con los conjuntos ni con el historial de estudio de Quizlet.
+No es compatible con Quizlet. No hay un importador de Quizlet de un solo clic y Nibomo no reproduce todos sus juegos ni su ecosistema para clases. Puedes usar una exportación de texto de Quizlet ya revisada como material de partida para crear tarjetas nuevas, pero eso es un proceso de migración, no compatibilidad con los conjuntos ni con el historial de estudio de Quizlet.
 
-Plantéate Flashcards si el código fuente de toda la pila, la licencia MIT, una API y un despliegue bajo el control de quien lo opera importan lo suficiente como para aceptar esos límites. Valora otras [aplicaciones de tarjetas de código abierto](/es/blog/best-open-source-flashcard-apps-2026/) si das más importancia a un ecosistema de escritorio maduro, la importación directa o un autoalojamiento menos exigente.
+Plantéate Nibomo si el código fuente de toda la pila, la licencia MIT, una API y un despliegue bajo el control de quien lo opera importan lo suficiente como para aceptar esos límites. Valora otras [aplicaciones de tarjetas de código abierto](/es/blog/best-open-source-flashcard-apps-2026/) si das más importancia a un ecosistema de escritorio maduro, la importación directa o un autoalojamiento menos exigente.
 
 ## La respuesta breve
 

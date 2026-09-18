@@ -193,7 +193,7 @@ Si el problema es más amplio y tiene que ver con propiedad e inspectabilidad, l
 
 - [Aplicación Flashcards de código abierto y autoalojada para repetición espaciada](/blog/self-hosted-open-source-flashcards-app-for-spaced-repetition/)
 
-## Dónde encaja Flashcards si quieres que tu próximo mazo sea más fácil de conservar
+## Dónde encaja Nibomo si quieres que tu próximo mazo sea más fácil de conservar
 
 Si yo fuera a crear un mazo nuevo pensando en la propiedad de los datos, me fijaría primero en unas cuantas cualidades del producto:
 

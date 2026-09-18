@@ -121,7 +121,7 @@ Las buenas cartas suelen hacer bien algunas cosas repetitivas:
 
 Es por eso que no confío plenamente en las exportaciones sin procesar de ningún flujo de trabajo de **tarjetas didácticas de herramientas de estudio de IA**. El modelo es excelente dibujando. Todavía vale la pena darle una segunda pasada antes de que la baraja se vuelva real.
 
-## Dónde se adapta mejor Flashcards a este flujo de trabajo
+## Dónde se adapta mejor Nibomo a este flujo de trabajo
 
 [Nibomo](https://nibomo.com/) encaja perfectamente en esta brecha exacta porque el producto no es solo un generador ni solo una herramienta de revisión. Le permite realizar el paso de limpieza en el mismo lugar donde se realizará la revisión.
 
@@ -138,7 +138,7 @@ El producto ya admite:
 Entonces, el camino desde **NotebookLM a las tarjetas didácticas** es sencillo:
 
 1. copiar o exportar las tarjetas NotebookLM
-2. envíalos al chat de Flashcards AI como texto
+2. envíalos al chat de Nibomo AI como texto
 3. Solicite tarjetas anverso/reverso más cortas y limpias
 4. cree las tarjetas finales solo después de que el texto parezca correcto
 5. revíselos con FSRS en lugar de dejarlos dentro de un cuaderno fuente
@@ -186,7 +186,7 @@ Lo mantendría intencionalmente aburrido:
 1. elija una fuente configurada en NotebookLM
 2. generar tarjetas didácticas de candidatos
 3. exportar o copiar el texto
-4. pégalo en el chat de Flashcards AI
+4. pégalo en el chat de Nibomo AI
 5. pide un hecho o concepto por tarjeta
 6. corta cualquier cosa vaga o repetitiva
 7. crea el mazo final
@@ -196,7 +196,7 @@ Eso funciona porque cada herramienta hace la parte en la que realmente es buena.
 
 NotebookLM maneja la comprensión del código fuente.
 
-Flashcards se encarga de la limpieza, la creación de tarjetas y el sistema de revisión.
+Nibomo se encarga de la limpieza, la creación de tarjetas y el sistema de revisión.
 
 ## Entonces, ¿cuál es la mejor manera de utilizar las tarjetas didácticas NotebookLM en 2026?
 

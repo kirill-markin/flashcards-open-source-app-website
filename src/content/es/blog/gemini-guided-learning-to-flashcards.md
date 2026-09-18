@@ -203,7 +203,7 @@ FSRS es la parte que convierte "detecté esta laguna" en "es menos probable que 
 
 Si quieres la comparación entre planificadores, [FSRS vs SM-2 en 2026](/blog/fsrs-vs-sm-2/) es el mejor lugar para esa discusión. Este artículo es más concreto. Gemini ya encontró los puntos débiles. Ahora esos puntos necesitan un hogar de repaso real.
 
-## Dónde encaja Flashcards
+## Dónde encaja Nibomo
 
 [Nibomo](/) no intenta sustituir a Gemini Guided Learning.
 

@@ -269,7 +269,7 @@ No esto:
 
 Si lo que suele romperte el plan es la carga de repaso, [Cuántas flashcards nuevas por día en 2026](/blog/how-many-new-flashcards-per-day/) y [Cómo estudiar para un examen con FSRS en 2026](/blog/how-to-study-for-an-exam-with-fsrs/) encajan de lleno aquí.
 
-## Dónde encaja bien Flashcards dentro de este flujo
+## Dónde encaja bien Nibomo dentro de este flujo
 
 [Nibomo](/) encaja bien en la preparación de CCNA porque este examen genera material fuente desordenado: apuntes de laboratorio, salida de CLI pegada, registros cortos de fallos y pequeños resúmenes de troubleshooting. La app puede encargarse de la fase de limpieza y de la fase de repaso sin fingir que son el mismo trabajo.
 

@@ -218,7 +218,7 @@ Si quieres más detalle sobre la parte de programación, estos dos artículos en
 - [Cómo estudiar para un examen con FSRS en 2026](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)
 - [FSRS vs SM-2 en 2026](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
-## Dónde encaja Flashcards en este flujo de Derecho
+## Dónde encaja Nibomo en este flujo de Derecho
 
 Si quieres llevar este flujo dentro de [Nibomo](https://nibomo.com/), la parte útil no es "la IA crea tarjetas" en abstracto. Es que el producto actual ya cubre la parte intermedia y aburrida del trabajo:
 
@@ -243,7 +243,7 @@ Si quieres **flashcards para la carrera de derecho** que de verdad ayuden:
 
 Ésa es la versión de **flashcards para derecho** en la que yo confiaría.
 
-Si quieres probar ese flujo en Flashcards:
+Si quieres probar ese flujo en Nibomo:
 
 - [Empieza con Nibomo](https://nibomo.com/)
 - [Abre la app web](https://app.flashcards-open-source-app.com/)

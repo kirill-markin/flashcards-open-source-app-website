@@ -156,7 +156,7 @@ Si desea conocer la programación con más detalle, este artículo complementari
 
 - [FSRS vs SM-2 en 2026: ¿Qué algoritmo de repetición espaciada le ayuda a recordar más?](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
-## Dónde encaja Flashcards en este flujo de trabajo
+## Dónde encaja Nibomo en este flujo de trabajo
 
 [Nibomo](https://nibomo.com/) funciona bien para **convertir pdf en tarjetas didácticas** porque el producto ya tiene las partes importantes en un solo lugar:
 
@@ -170,7 +170,7 @@ Esa combinación importa más de lo que la gente admite.
 
 Muchos productos son decentes en el momento "mira, aparecieron las tarjetas". Entonces el flujo de trabajo se vuelve confuso. ¿Dónde viven los borradores? ¿Cómo los editas? ¿Qué sucede cuando realmente quieres estudiarlos seriamente en lugar de admirar la demostración de generación?
 
-Ahí es donde Flashcards se siente más arraigado que un generador independiente.
+Ahí es donde Nibomo se siente más arraigado que un generador independiente.
 
 ## Mantendría el flujo de trabajo aburrido a propósito
 

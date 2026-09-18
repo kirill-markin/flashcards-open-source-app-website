@@ -218,7 +218,7 @@ Si generas tarjetas antes de saber qué has fallado de verdad, casi siempre acab
 
 Si haces práctica de recuperación y nunca pasas los fallos útiles a un sistema de repaso real, estás confiando en que la memoria organice la memoria. Eso casi siempre sale mal.
 
-## Dónde encaja Flashcards
+## Dónde encaja Nibomo
 
 [Nibomo](/es/) encaja después de la explicación, después del tutor, después del cuestionario y después de la sesión de práctica.
 

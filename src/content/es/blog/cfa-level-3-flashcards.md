@@ -178,7 +178,7 @@ Mantén el volumen de tarjetas lo bastante bajo como para proteger la práctica 
 
 Guarda también en otro lugar los datos administrativos. La estructura del examen, el temario, las reglas de inscripción, las fechas y las políticas pueden cambiar. Las afirmaciones de este artículo sobre el formato del examen se comprobaron con CFA Institute el 21 de julio de 2026. Antes de actuar, verifica con CFA Institute tu itinerario, convocatoria, plazos, material permitido y políticas vigentes.
 
-## Dónde encaja Flashcards
+## Dónde encaja Nibomo
 
 [Nibomo](/) cubre la capa de recuperación sin sustituir el temario, los item sets, las respuestas construidas ni los simulacros. La aplicación web alojada admite tarjetas con anverso y reverso, etiquetas, repaso de tarjetas pendientes con FSRS y un chat con IA que puede usar los datos del espacio de trabajo y los archivos adjuntos. El proyecto es de código abierto; su repositorio también incluye un cliente para iOS y la aplicación para Android está publicada en Google Play.
 

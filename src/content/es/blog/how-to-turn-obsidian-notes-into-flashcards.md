@@ -115,7 +115,7 @@ Aquí es donde la fase de edición se gana su lugar. El borrador de IA te da vel
 
 Si quieres reglas mejores para redactar tarjetas, sigue con [Cómo crear mejores tarjetas didácticas](https://nibomo.com/blog/how-to-make-better-flashcards/).
 
-## Flashcards encaja en el flujo de Obsidian sin fingir que es tu vault
+## Nibomo encaja en el flujo de Obsidian sin fingir que es tu vault
 
 [Nibomo](https://nibomo.com/) encaja bien aquí porque resuelve con limpieza la parte de estudio del flujo:
 
@@ -124,7 +124,7 @@ Si quieres reglas mejores para redactar tarjetas, sigue con [Cómo crear mejores
 - adjuntar archivos cuando eso sea más cómodo que pegar texto
 - repasar las tarjetas finales con FSRS
 
-Esto encaja mejor que fingir que la app es una capa nativa de Obsidian. No es tu grafo de notas, ni tu navegador del vault, ni un reemplazo de plugins. Tampoco necesita serlo. El traspaso útil es más simple: Obsidian sigue siendo el hogar de las notas y Flashcards toma el relevo cuando quieres practicar recuperación activa.
+Esto encaja mejor que fingir que la app es una capa nativa de Obsidian. No es tu grafo de notas, ni tu navegador del vault, ni un reemplazo de plugins. Tampoco necesita serlo. El traspaso útil es más simple: Obsidian sigue siendo el hogar de las notas y Nibomo toma el relevo cuando quieres practicar recuperación activa.
 
 Si primero quieres ver lo básico del producto, empieza por [Primeros pasos](https://nibomo.com/docs/getting-started/).
 

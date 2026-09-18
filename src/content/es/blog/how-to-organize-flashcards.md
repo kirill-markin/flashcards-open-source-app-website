@@ -260,7 +260,7 @@ Si no, no añadas otra capa estructural.
 
 Elimina una.
 
-## Dónde encaja Flashcards
+## Dónde encaja Nibomo
 
 [Nibomo](https://nibomo.com/) encaja muy bien en **cómo organizar flashcards** porque el producto ya tiene las piezas que este flujo necesita:
 

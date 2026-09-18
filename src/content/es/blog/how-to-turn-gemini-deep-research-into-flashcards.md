@@ -163,20 +163,20 @@ Si quieres profundizar más en la parte de escribir tarjetas, este artículo com
 
 Conviene decir esta parte de forma clara porque las páginas de producto en este espacio adoran insinuar magia.
 
-Flashcards no está conectado directamente con Gemini Deep Research. Gemini se ocupa de la parte de investigación. Flashcards se ocupa de la parte de retención una vez que ya tienes el material.
+Nibomo no está conectado directamente con Gemini Deep Research. Gemini se ocupa de la parte de investigación. Nibomo se ocupa de la parte de retención una vez que ya tienes el material.
 
 El camino práctico sigue siendo directo:
 
 1. haz la investigación en Gemini
 2. copia la sección útil o guarda el texto del informe que quieres conservar
-3. lleva ese texto o archivo a Flashcards
+3. lleva ese texto o archivo a Nibomo
 4. reescríbelo como tarjetas limpias de anverso y reverso
 5. organiza las tarjetas con mazos o etiquetas
 6. repásalas con FSRS
 
 Eso es honesto, y normalmente también es mejor que un falso flujo de un solo clic. La mayor parte de la calidad viene de la selección y la edición, no del paso de transferencia.
 
-## Por qué Flashcards encaja en este flujo de trabajo
+## Por qué Nibomo encaja en este flujo de trabajo
 
 [Nibomo](/) no intenta sustituir a Gemini Deep Research.
 
@@ -204,7 +204,7 @@ Un solo informe suele contener varios tipos distintos de cosas que conviene reco
 
 No hace falta que todo eso viva para siempre en un montón organizado por herramienta.
 
-Dentro de Flashcards, yo organizaría por materia. El informe puede venir de Gemini, pero la estructura a largo plazo debería seguir perteneciendo a aquello que estás aprendiendo.
+Dentro de Nibomo, yo organizaría por materia. El informe puede venir de Gemini, pero la estructura a largo plazo debería seguir perteneciendo a aquello que estás aprendiendo.
 
 Eso hace que **Gemini Deep Research y repetición espaciada** resulte práctico. No estás construyendo un santuario para un informe. Estás extrayendo de él memoria reutilizable.
 
