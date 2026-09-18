@@ -113,7 +113,7 @@ Diese Unterscheidung ist wichtig, denn „ein bereits geladener Bildschirm reagi
 
 ## Gizmo vs. Flashcards auf einen Blick
 
-| Entscheidungspunkt | Gizmo | Flashcards |
+| Entscheidungspunkt | Gizmo | Nibomo |
 | --- | --- | --- |
 | Ausgangspunkt | Manuelle Karten oder Magic Import aus unterschiedlichen Lernquellen | Manuelle oder KI-gestützte Erstellung fokussierter Karten mit Vorder- und Rückseite |
 | Kartenformate | Textkarte, Multiple Choice, Zuordnung, Reihenfolge und Richtig/Falsch | Karten mit Vorder- und Rückseite |
@@ -157,4 +157,4 @@ Wähle Flashcards, wenn du bereits weißt, welcher Stoff in eine dauerhafte Kart
 
 Ein aussagekräftiger Test von Gizmo AI vergleicht nicht „KI“ mit „keiner KI“. Beide Produkte verwenden KI. Der Unterschied liegt darin, an welcher Stelle sie zum Einsatz kommt. Gizmo nutzt KI, um aus umfangreichem Material eine größere Lernumgebung zu bauen. Flashcards setzt KI in einem kleineren Kartenablauf ein, in dem du entscheidest, was gespeichert und eingeplant wird.
 
-Wenn dieser engere Ablauf eher zu dir passt, sieh dir die [Funktionen von Flashcards](/features/) an oder folge dem [Leitfaden für die ersten Schritte](/docs/getting-started/).
+Wenn dieser engere Ablauf eher zu dir passt, sieh dir die [Funktionen von Nibomo](/features/) an oder folge dem [Leitfaden für die ersten Schritte](/docs/getting-started/).

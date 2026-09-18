@@ -226,7 +226,7 @@ Dieser letzte Fall ist häufig. Manche Leute haben nicht wirklich zu viele Revie
 
 ## Wo Flashcards sinnvoll hineinpasst, ohne so zu tun, als wäre es Magie
 
-[Flashcards-Features](/de/features/) sind hier aus einem praktischen Grund nützlich: Das Produkt deckt den Teil vor dem Review und den Teil während des Reviews ab.
+[Nibomo-Features](/de/features/) sind hier aus einem praktischen Grund nützlich: Das Produkt deckt den Teil vor dem Review und den Teil während des Reviews ab.
 
 Das ist wichtig, weil viele Review-Spitzen schon vor dem ersten Review-Tag beginnen. Sie beginnen dann, wenn zu viele Karten ins aktive Deck kommen oder KI-generierte Entwürfe ohne genug Bearbeitung akzeptiert werden.
 

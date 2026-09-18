@@ -106,7 +106,7 @@ Las valoraciones de repaso son señales que se introducen en un sistema de plani
 | Sistema | Valoraciones visibles | Qué establecen las etiquetas |
 | --- | --- | --- |
 | Anki con FSRS | Again, Hard, Good, Easy | Again indica que no se logró recordar. Hard, Good y Easy indican que sí se recordó, con un esfuerzo decreciente. |
-| Flashcards | Again, Hard, Good, Easy | Separa el fallo del acierto del mismo modo. La API usa 0–3 y asigna esos valores internamente a los grados 1–4 de FSRS. |
+| Nibomo | Again, Hard, Good, Easy | Separa el fallo del acierto del mismo modo. La API usa 0–3 y asigna esos valores internamente a los grados 1–4 de FSRS. |
 | SuperMemo.com alojado | Don't know, Almost, Know | Una escala de producto con tres opciones documentada en la [página del método SuperMemo](https://www.supermemo.com/en/supermemo-method). No debe asignarse mecánicamente a las cuatro valoraciones de FSRS. |
 | SuperMemo 20 for Windows | Flujo de valoración de SuperMemo para escritorio | Una interfaz de producto distinta cuyas valoraciones se pasan a varios algoritmos de Algorithm Arena. No deduzcas su significado a partir de las tres etiquetas del servicio alojado. |
 

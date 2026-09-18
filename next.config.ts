@@ -110,7 +110,6 @@ const nextConfig: NextConfig = {
   reactStrictMode: true,
   poweredByHeader: false,
   env: {
-    SITE_URL: "https://nibomo.com/",
     SITE_NAME: "Nibomo",
     APP_URL: "https://app.flashcards-open-source-app.com",
     AUTH_URL: "https://auth.flashcards-open-source-app.com",

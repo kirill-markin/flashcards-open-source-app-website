@@ -23,7 +23,7 @@ Quizlet sigue siendo más completo en modos de estudio guiados, exámenes de pr�
 
 **Información comprobada:** 2 de agosto de 2026.
 
-![Flujos de estudio de Quizlet y Flashcards de código abierto, lado a lado sobre un escritorio cálido](/blog/quizlet-alternative.png)
+![Flujos de estudio de Quizlet y Nibomo de código abierto, lado a lado sobre un escritorio cálido](/blog/quizlet-alternative.png)
 
 ## La respuesta corta
 
@@ -35,16 +35,16 @@ Cambiar tiene un coste real. Flashcards no dispone de un importador directo de Q
 
 ## Alternativa de código abierto a Quizlet: la comparación
 
-| Dimensión | Quizlet | Flashcards | Ganador en la práctica |
+| Dimensión | Quizlet | Nibomo | Ganador en la práctica |
 |---|---|---|---|
 | Flujos Learn y Test | Modo Learn adaptativo específico y modo Test configurable, con puntuación y revisión | Cola convencional de anverso y reverso; no tiene modos Learn o Test específicos ni genera exámenes de opción múltiple | Quizlet |
-| Planificación y FSRS | Repaso programado personalizado y Memory Score; la documentación pública no identifica el algoritmo de planificación como FSRS | FSRS-6 explícito con Again, Hard, Good y Easy | Depende: Quizlet por su experiencia de repaso programado; Flashcards por ofrecer un planificador FSRS-6 documentado |
-| Sin conexión | iOS y Android; los conjuntos recientes se guardan y los demás se pueden descargar | Guardado local offline-first en web, iOS y Android, con sincronización al recuperar la conexión | Flashcards |
-| IA | Exámenes de práctica, guías de estudio, resúmenes, creación de tarjetas, ayuda con tareas y Ask Quizlet | Chat con IA y archivos adjuntos, además de MCP y una Agent API | Quizlet por sus herramientas de estudio listas para usar; Flashcards por el acceso al espacio de trabajo para sistemas de IA y agentes |
+| Planificación y FSRS | Repaso programado personalizado y Memory Score; la documentación pública no identifica el algoritmo de planificación como FSRS | FSRS-6 explícito con Again, Hard, Good y Easy | Depende: Quizlet por su experiencia de repaso programado; Nibomo por ofrecer un planificador FSRS-6 documentado |
+| Sin conexión | iOS y Android; los conjuntos recientes se guardan y los demás se pueden descargar | Guardado local offline-first en web, iOS y Android, con sincronización al recuperar la conexión | Nibomo |
+| IA | Exámenes de práctica, guías de estudio, resúmenes, creación de tarjetas, ayuda con tareas y Ask Quizlet | Chat con IA y archivos adjuntos, además de MCP y una Agent API | Quizlet por sus herramientas de estudio listas para usar; Nibomo por el acceso al espacio de trabajo para sistemas de IA y agentes |
 | Contenido compartido | Conjuntos y carpetas públicos, con una gran biblioteca creada por docentes | No hay una biblioteca de contenido compartido comparable para usuarios finales | Quizlet |
 | Importación | Permite pegar texto delimitado en el sitio web; cada fila se convierte en una tarjeta | Solo importa su propio paquete `flashcards.zip` | Quizlet |
-| Exportación | Términos y definiciones propios del creador desde el sitio web; sin imágenes ni exportación de conjuntos copiados | `flashcards.zip` transfiere tarjetas, etiquetas y contenido multimedia relacionado entre espacios de trabajo de Flashcards | Depende de lo que necesites trasladar |
-| Propiedad y control de los datos | Servicio alojado y de código cerrado, sujeto a las funciones y condiciones de Quizlet | Licencia MIT; aplicación alojada disponible; el autoalojamiento con AWS CDK da a los operadores control sobre la infraestructura y la base de datos | Flashcards por el acceso al código; el autoalojamiento por el control de la infraestructura y la base de datos |
+| Exportación | Términos y definiciones propios del creador desde el sitio web; sin imágenes ni exportación de conjuntos copiados | `flashcards.zip` transfiere tarjetas, etiquetas y contenido multimedia relacionado entre espacios de trabajo de Nibomo | Depende de lo que necesites trasladar |
+| Propiedad y control de los datos | Servicio alojado y de código cerrado, sujeto a las funciones y condiciones de Quizlet | Licencia MIT; aplicación alojada disponible; el autoalojamiento con AWS CDK da a los operadores control sobre la infraestructura y la base de datos | Nibomo por el acceso al código; el autoalojamiento por el control de la infraestructura y la base de datos |
 
 La última columna es deliberadamente irregular. Un producto puede ser mejor para preparar el examen del viernes y el otro puede dar a sus operadores más control sobre el software y la infraestructura. Tu forma de estudiar determina qué ventaja importa de verdad.
 

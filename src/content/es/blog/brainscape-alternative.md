@@ -23,7 +23,7 @@ Esta diferencia entre planificadores define buena parte de la decisión entre **
 
 **Datos comprobados:** 3 de agosto de 2026. Los precios corresponden a las tarifas públicas para Estados Unidos que se mostraban ese día. Los impuestos, los precios regionales, la facturación en las tiendas de aplicaciones, los presupuestos para instituciones y las futuras condiciones de la beta pueden variar.
 
-![Comparación entre Brainscape y Flashcards con niveles de confianza, una cola de repasos de FSRS, estudio sin conexión en el móvil y control mediante código abierto](/blog/brainscape-alternative.png)
+![Comparación entre Brainscape y Nibomo con niveles de confianza, una cola de repasos de FSRS, estudio sin conexión en el móvil y control mediante código abierto](/blog/brainscape-alternative.png)
 
 ## La respuesta corta
 
@@ -35,18 +35,18 @@ Quédate con Brainscape si sus clases o analíticas forman parte de tu flujo de 
 
 ## Brainscape vs Flashcards de un vistazo
 
-| Decisión | Brainscape | Flashcards | Ganador práctico |
+| Decisión | Brainscape | Nibomo | Ganador práctico |
 |---|---|---|---|
-| Modelo de repaso | Confidence-Based Repetition; valoración del 1 al 5, con las tarjetas de menor confianza seleccionadas más a menudo y las de mayor confianza, con menos frecuencia | FSRS-6; valoración con Again/Hard/Good/Easy y almacenamiento de un `due_at` explícito | Brainscape para repetir con flexibilidad o hacer un repaso intensivo; Flashcards para tener una cola de tarjetas pendientes y controlar la retención |
+| Modelo de repaso | Confidence-Based Repetition; valoración del 1 al 5, con las tarjetas de menor confianza seleccionadas más a menudo y las de mayor confianza, con menos frecuencia | FSRS-6; valoración con Again/Hard/Good/Easy y almacenamiento de un `due_at` explícito | Brainscape para repetir con flexibilidad o hacer un repaso intensivo; Nibomo para tener una cola de tarjetas pendientes y controlar la retención |
 | Detalles del planificador | Selección relativa por grupos de confianza cada vez que pides la siguiente tarjeta; incluso los mazos con todas las tarjetas valoradas con 5 siguen disponibles para estudiar | Estado de memoria D/S/R; retención deseada de 0.90; pasos de aprendizaje de 1 y 10 minutos; reaprendizaje de 10 minutos; máximo de 36,500 días; fuzz; pesos fijos no personalizados | Depende del tipo de cola que prefieras |
 | Plataformas | Web, iOS y Android | Web, iOS y Android; sin cliente de escritorio | Empate en plataformas compatibles |
-| Uso sin conexión | Las tarjetas descargadas previamente se pueden estudiar sin conexión en el móvil; para crear y editar hace falta conexión | Los repasos y las ediciones se guardan primero en local, en IndexedDB en web, SQLite en iOS y Room/SQLite en Android, y después se sincronizan | Flashcards para crear y editar sin conexión |
+| Uso sin conexión | Las tarjetas descargadas previamente se pueden estudiar sin conexión en el móvil; para crear y editar hace falta conexión | Los repasos y las ediciones se guardan primero en local, en IndexedDB en web, SQLite en iOS y Room/SQLite en Android, y después se sincronizan | Nibomo para crear y editar sin conexión |
 | Colaboración | Clases, enlaces para compartir, permisos de edición y analíticas detalladas en los planes para centros y grupos | No ofrece clases equivalentes compartidas mediante enlace, permisos para editar tarjetas ni analíticas de progreso para docentes | Brainscape |
-| IA | Basic permite crear «cientos» de flashcards con IA; Pro ofrece IA ilimitada; flujos para convertir fuentes en tarjetas y limpiar contenido importado | Chat de IA, archivos adjuntos compatibles, acciones de lectura y escritura en el espacio de trabajo, MCP y Agent API | Brainscape para la creación masiva guiada; Flashcards para el acceso de agentes |
+| IA | Basic permite crear «cientos» de flashcards con IA; Pro ofrece IA ilimitada; flujos para convertir fuentes en tarjetas y limpiar contenido importado | Chat de IA, archivos adjuntos compatibles, acciones de lectura y escritura en el espacio de trabajo, MCP y Agent API | Brainscape para la creación masiva guiada; Nibomo para el acceso de agentes |
 | Importación | Pegar una lista o subir archivos CSV, TXT, XLSX u ODS; en el móvil también admite archivos, imágenes y capturas con la cámara | Solo importa directamente su propio `flashcards.zip`; otros archivos compatibles pueden servir como material de origen para redactar con IA borradores que después deben revisarse | Brainscape para la importación general |
-| Exportación | La exportación de mazos de Pro genera hojas de cálculo que se abren en Excel | `flashcards.zip` transfiere tarjetas activas, etiquetas y archivos multimedia asociados entre espacios de trabajo o instancias de Flashcards | Depende: Brainscape para hojas de cálculo; Flashcards para transferir su propio espacio de trabajo |
+| Exportación | La exportación de mazos de Pro genera hojas de cálculo que se abren en Excel | `flashcards.zip` transfiere tarjetas activas, etiquetas y archivos multimedia asociados entre espacios de trabajo o instancias de Nibomo | Depende: Brainscape para hojas de cálculo; Nibomo para transferir su propio espacio de trabajo |
 | Precio comprobado el 3 de agosto de 2026 | Basic gratis; Pro se mostraba a US$7.99 al mes con facturación anual; Enterprise, precio a consultar | App alojada gratis durante la beta; software autoalojado gratis, más los costes de infraestructura y proveedores | Depende del uso y de la opción de alojamiento |
-| Propiedad | Servicio alojado y propietario; Pro incluye exportación | Aplicación e infraestructura completas con licencia MIT; autoalojamiento documentado en AWS | Flashcards |
+| Propiedad | Servicio alojado y propietario; Pro incluye exportación | Aplicación e infraestructura completas con licencia MIT; autoalojamiento documentado en AWS | Nibomo |
 
 Esta tabla ayuda a tomar una decisión; no es una clasificación por número de funciones. Un docente que gestione seis clases puede elegir Brainscape con toda lógica, aunque le atraiga el control que ofrece el código abierto. Una persona que estudie por su cuenta y edite tarjetas con una conexión poco fiable puede decidir justo lo contrario.
 

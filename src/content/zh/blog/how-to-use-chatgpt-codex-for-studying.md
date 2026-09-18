@@ -90,7 +90,7 @@ https://mcp.flashcards-open-source-app.com/mcp
 5. 应用重启后，选择 **Authenticate**，并在浏览器中完成 Flashcards OAuth 登录。
 6. 在 Codex 中输入 `/mcp`，确认服务器已连接。
 
-这些步骤来自 OpenAI 目前的 [ChatGPT 桌面应用与 Codex MCP 设置指南](https://learn.chatgpt.com/docs/extend/mcp)。Flashcards 在交互式登录中使用 OAuth 授权，因此普通桌面会话不需要粘贴 API 密钥。如果连接遇到问题，[Flashcards MCP 文档](/zh/docs/mcp-connector/)列出了完整的认证方式和工具规则。
+这些步骤来自 OpenAI 目前的 [ChatGPT 桌面应用与 Codex MCP 设置指南](https://learn.chatgpt.com/docs/extend/mcp)。Flashcards 在交互式登录中使用 OAuth 授权，因此普通桌面会话不需要粘贴 API 密钥。如果连接遇到问题，[Nibomo MCP 文档](/zh/docs/mcp-connector/)列出了完整的认证方式和工具规则。
 
 每次写入前都要检查并批准。列出工作区是只读操作；创建、改写、整理或删除已保存的卡片都会修改数据。如果你的 ChatGPT 账户由学校或单位管理，管理员也可能限制你能启用哪些 MCP 服务器或工具。
 
@@ -110,7 +110,7 @@ Codex 应该先调用只读的工作区工具。等你选好工作区和整理�
 
 | 工具 | 能做什么 | 会写入数据吗？ |
 | --- | --- | --- |
-| `list_workspaces` | 列出你有权访问的 Flashcards 工作区 | 否 |
+| `list_workspaces` | 列出你有权访问的 Nibomo 工作区 | 否 |
 | `sql_query` | 读取允许访问的工作区、卡片、牌组和复习数据 | 否 |
 | `sql_execute` | 创建、编辑或删除允许操作的卡片和牌组 | 是 |
 | `get_guide` | 返回关于 SQL、写卡、批量写入或复习的参考指南 | 否 |
@@ -145,7 +145,7 @@ Codex 应该先调用只读的工作区工具。等你选好工作区和整理�
 
 MCP 连接器可以读取允许访问的 `review_events`（复习记录）和复习安排相关字段。它的 SQL 写入工具不能创建 `review_events`，不能提交 Again、Hard、Good 或 Easy 评分，也不能修改已经保存的 FSRS 状态或复习安排。连接器只能通过单独的 `submit_review` 工具记录评分，所以复习既可以在应用里完成，也可以交给 Codex 来进行。
 
-卡片到期后，打开 [Flashcards 网页版](https://app.flashcards-open-source-app.com/)或移动端客户端。先回忆答案，再显示背面，并在那里选择评分。Flashcards 会记录这次正式复习，再由 FSRS 决定卡片何时重新出现。
+卡片到期后，打开 [Nibomo 网页版](https://app.flashcards-open-source-app.com/)或移动端客户端。先回忆答案，再显示背面，并在那里选择评分。Flashcards 会记录这次正式复习，再由 FSRS 决定卡片何时重新出现。
 
 Codex 也可以根据你授权的卡片数据进行非正式测验，把它当成额外练习即可：单纯的测验不会记录复习，也不会改变复习安排。想做正式复习时，请让 Codex 用复习工具来进行。它会用 `next_review_card` 只显示正面，在你作答后用 `reveal_answer` 显示背面，再用 `submit_review` 记录评分，让 FSRS 重新安排这张卡。除非你要求自己选择每次评分，否则由 Codex 为你的回答评分。[AI 闪卡导师指南](/zh/blog/ai-flashcard-tutor-due-cards/)更详细地介绍了这个复习流程。
 
@@ -170,7 +170,7 @@ codex mcp add flashcards \
   --bearer-token-env-var FLASHCARDS_MCP_TOKEN
 ```
 
-[Flashcards API 指南](/zh/docs/api/)介绍了如何获取 Agent 密钥。请把它当成密码，不要放进提示词、截图、命令行历史记录或版本控制。对于需要人在电脑前操作的交互式会话，OAuth 更方便。
+[Nibomo API 指南](/zh/docs/api/)介绍了如何获取 Agent 密钥。请把它当成密码，不要放进提示词、截图、命令行历史记录或版本控制。对于需要人在电脑前操作的交互式会话，OAuth 更方便。
 
 ## ChatGPT 网页版使用另一条连接器路径
 

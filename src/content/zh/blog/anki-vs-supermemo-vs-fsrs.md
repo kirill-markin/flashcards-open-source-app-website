@@ -55,7 +55,7 @@ Anki 远不只是一种间隔重复算法。它的价值来自围绕调度长期
 
 这里需要补充一点历史背景。**SM-2 是 SuperMemo 算法谱系中的早期算法，并不是当前 SuperMemo 的同义词。**把 Anki 的旧调度器称为“legacy SM-2”，是沿用 Anki 文档的表述，并指出其背后的算法家族；这并不代表每一处实现细节都与几十年前发布的原始 SM-2 完全相同。更聚焦的技术对比见 [FSRS vs SM-2](/zh/blog/fsrs-vs-sm-2/)。
 
-如果你的成熟卡片库依赖自定义模板、add-ons、媒体或多年的复习历史，换产品会带来实实在在的迁移工作。只更换 Anki 的调度器，成本可能远低于离开 Anki。更完整的产品层面对比见 [Anki vs Flashcards](/zh/blog/anki-vs-flashcards-open-source-app/)。
+如果你的成熟卡片库依赖自定义模板、add-ons、媒体或多年的复习历史，换产品会带来实实在在的迁移工作。只更换 Anki 的调度器，成本可能远低于离开 Anki。更完整的产品层面对比见 [Anki vs Nibomo](/zh/blog/anki-vs-flashcards-open-source-app/)。
 
 ## 现在谈“SuperMemo”必须说清具体指什么
 
@@ -106,7 +106,7 @@ Desired retention 会把模型转化为复习计划。调度器估算可提取�
 | 系统 | 可见评分 | 标签所表达的含义 |
 | --- | --- | --- |
 | 使用 FSRS 的 Anki | Again、Hard、Good、Easy | Again 表示回忆失败；Hard、Good 和 Easy 都表示回忆成功，只是费力程度依次降低。 |
-| Flashcards | Again、Hard、Good、Easy | 成功与失败的分界相同。API 使用 0–3，并在内部将这些值映射为 FSRS 的 1–4 级。 |
+| Nibomo | Again、Hard、Good、Easy | 成功与失败的分界相同。API 使用 0–3，并在内部将这些值映射为 FSRS 的 1–4 级。 |
 | 托管的 SuperMemo.com | Don't know、Almost、Know | [SuperMemo 方法页面](https://www.supermemo.com/en/supermemo-method)所记录的三档产品评分，不能机械地映射到 FSRS 的四档评分。 |
 | SuperMemo 20 for Windows | 桌面版 SuperMemo 评分流程 | 这是另一个产品界面，会为 Algorithm Arena 中的多种算法提供输入。不要根据托管服务的三个标签推断它的含义。 |
 

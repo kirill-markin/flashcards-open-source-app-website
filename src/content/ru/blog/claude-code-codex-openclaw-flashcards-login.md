@@ -309,7 +309,7 @@ Flashcards - проект с открытым исходным кодом, по�
 
 Полезные ссылки:
 
-- [Flashcards website](https://nibomo.com/)
+- [Nibomo website](https://nibomo.com/)
 - [Hosted app](https://app.flashcards-open-source-app.com/)
 - [Getting started](https://nibomo.com/docs/getting-started/)
 - [GitHub repository](https://github.com/kirill-markin/flashcards-open-source-app)

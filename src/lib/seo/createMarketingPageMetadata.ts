@@ -17,12 +17,19 @@ export function createMarketingPageMetadata(
   locale: AppLocale
 ): Metadata {
   const pageContent = readPageContent(slug, locale);
-
-  return createPageMetadata({
+  const metadata = createPageMetadata({
     title: pageContent.title,
     description: pageContent.description,
     locale,
     routePathname: getMarketingRoutePathname(slug),
     openGraphType: "website",
   });
+
+  if (slug !== "home") {
+    return metadata;
+  }
+
+  // The root layout appends the site name to every page title, and the home
+  // title already names the brand, so keep the home title absolute.
+  return { ...metadata, title: { absolute: pageContent.title } };
 }

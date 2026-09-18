@@ -33,7 +33,7 @@ StudyFetch 于 2026 年 7 月 13 日推出了 Spaced Learning Hub（间隔学习
 
 ## StudyFetch、Anki 与 Flashcards 对比
 
-| 对比项 | StudyFetch | Anki | Flashcards |
+| 对比项 | StudyFetch | Anki | Nibomo |
 |---|---|---|---|
 | 最适合的场景 | 围绕源材料构建、覆盖面广的 AI 学习环境 | 成熟、可配置的长期卡片集合 | 基于开放 Web 与移动技术栈，专注复习正反面卡片 |
 | 从源材料到学习内容 | 生成笔记、闪卡、测验、测试、辅导、音频、视频和其他活动 | 核心应用没有同类的一体化源材料工作流 | AI 对话可以利用工作区数据和附件提出卡片草稿；是否保存由你决定 |

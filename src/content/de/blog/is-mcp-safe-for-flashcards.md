@@ -20,7 +20,7 @@ OAuth sichert die Autorisierung und den Token-Austausch ab. Der Flashcards-Serve
 
 Maßgeblich sind die konkreten Grenzen jedes Tools, die von Flashcards erzwungenen Regeln und die Schutzmaßnahmen, die allein der Client bereitstellt.
 
-![Warmer Schreibtisch mit getrennten Bereichen für Lese- und Schreibzugriff über Flashcards MCP](/blog/is-mcp-safe-for-flashcards.png)
+![Warmer Schreibtisch mit getrennten Bereichen für Lese- und Schreibzugriff über Nibomo MCP](/blog/is-mcp-safe-for-flashcards.png)
 
 ## Ist MCP für Flashcards sicher? Der tatsächliche Datenweg
 
@@ -39,7 +39,7 @@ Der [NSA-Leitfaden zu MCP vom Mai 2026](https://www.nsa.gov/Press-Room/Press-Rel
 
 ## Was OAuth bei Flashcards absichert
 
-Für interaktive MCP-Clients nutzt Flashcards einen Authorization-Code-Flow mit PKCE und Dynamic Client Registration. Du bestätigst die Verbindung im Browser, und PKCE bindet den Code-Austausch an den Client, der ihn gestartet hat. Außerdem prüft der Server, ob das Access-Token für die Flashcards-MCP-Ressource ausgestellt wurde. Der [Leitfaden zum Flashcards-MCP-Connector](/de/docs/mcp-connector/) nennt den Endpunkt und die Discovery-Metadaten.
+Für interaktive MCP-Clients nutzt Flashcards einen Authorization-Code-Flow mit PKCE und Dynamic Client Registration. Du bestätigst die Verbindung im Browser, und PKCE bindet den Code-Austausch an den Client, der ihn gestartet hat. Außerdem prüft der Server, ob das Access-Token für die Flashcards-MCP-Ressource ausgestellt wurde. Der [Leitfaden zum Nibomo-MCP-Connector](/de/docs/mcp-connector/) nennt den Endpunkt und die Discovery-Metadaten.
 
 Diese Maßnahmen sichern die Anmeldung und den Token-Austausch ab. Die stabile [MCP-Autorisierungsspezifikation vom 25. November 2025](https://modelcontextprotocol.io/specification/2025-11-25/basic/authorization) verlangt für diesen Ablauf PKCE und ressourcenspezifische Token. Zugleich ist Autorisierung bei MCP-Implementierungen grundsätzlich optional. OAuth in diesem Connector sagt daher nicht aus, wie ein anderer MCP-Server den Zugriff absichert.
 
@@ -77,7 +77,7 @@ Ein Test-Workspace hilft trotzdem dabei, die Darstellung von Tool-Aufrufen im Cl
 
 Die Ergebnisse verlassen trotzdem das Flashcards-Backend. Eine Abfrage zu schwachen Themen kann Kartentexte und Wiederholungsereignisse enthalten. Selbst eine kurze Karte kann Patientendaten, den Namen eines internen Systems, ein privates Sprachbeispiel oder Notizen für ein Bewerbungsgespräch enthalten.
 
-Die [Datenschutzerklärung von Flashcards](/de/privacy/) gilt auch für Daten, die über MCP und die Agent API angefordert werden. An der Protokollgrenze übermittelt Flashcards das Ergebnis an den MCP-Client. Ob es danach auch ein separater Modellanbieter erhält, wie lange der jeweilige Dienst es speichert und ob es für Training verwendet werden darf, hängt vom Client-Setup und den Bedingungen des Anbieters ab. Behandle „nur lesend“ deshalb nicht als Datenschutzversprechen.
+Die [Datenschutzerklärung von Nibomo](/de/privacy/) gilt auch für Daten, die über MCP und die Agent API angefordert werden. An der Protokollgrenze übermittelt Flashcards das Ergebnis an den MCP-Client. Ob es danach auch ein separater Modellanbieter erhält, wie lange der jeweilige Dienst es speichert und ob es für Training verwendet werden darf, hängt vom Client-Setup und den Bedingungen des Anbieters ab. Behandle „nur lesend“ deshalb nicht als Datenschutzversprechen.
 
 ### Schreibzugriff ist enger begrenzt als voller Datenbankzugriff
 
@@ -134,7 +134,7 @@ OpenAI ist ein konkretes Beispiel. Laut der aktuellen [Dokumentation zu Apps in 
 
 Prüfe den konkreten Client, den Kontotyp, die Workspace-Richtlinie, die Region und die Einstellungen, die du verwenden willst. Achte auf Speicherfristen, Training, Memory, Administratorzugriff, Unterauftragsverarbeiter und Löschung. Wenn die Dokumentation nicht beantwortet, ob vertrauliches Ausgangsmaterial den Client verlassen kann, teste diese Frage nicht mit einem echten Deck.
 
-Das gehostete Konto zu löschen, den Connector zu trennen und Kopien bei weiteren Diensten zu löschen sind drei verschiedene Vorgänge. Die [Datenschutzerklärung von Flashcards](/de/privacy/) beschreibt die Löschung gehosteter Daten. Flashcards kann keine Daten entfernen, die ein Client oder Modellanbieter bereits gespeichert hat; nutze dafür auch die Einstellungen des jeweiligen Anbieters.
+Das gehostete Konto zu löschen, den Connector zu trennen und Kopien bei weiteren Diensten zu löschen sind drei verschiedene Vorgänge. Die [Datenschutzerklärung von Nibomo](/de/privacy/) beschreibt die Löschung gehosteter Daten. Flashcards kann keine Daten entfernen, die ein Client oder Modellanbieter bereits gespeichert hat; nutze dafür auch die Einstellungen des jeweiligen Anbieters.
 
 ## Verbindung trennen und Zugangsdaten widerrufen sind nicht dasselbe
 
@@ -148,7 +148,7 @@ Falls dein Bedrohungsmodell einen sofortigen serverseitigen OAuth-Widerruf verla
 
 1. Ordne das Ausgangsmaterial ein. Öffentliche Lernnotizen, personenbezogene Daten, vertrauliche Inhalte des Arbeitgebers und regulierte Daten sollten nicht derselben Zugriffsrichtlinie unterliegen. Wenn du das Material nicht an den Client und seine Datenverarbeiter senden darfst, stelle es nicht über MCP bereit.
 2. Prüfe die Server-URL. Der dokumentierte Endpunkt lautet `https://mcp.flashcards-open-source-app.com/mcp`. Meide zum Verwechseln ähnliche Domains und Connector-Definitionen aus unbekannten Quellen.
-3. Lies die Richtlinien auf beiden Seiten. Beginne mit der [Datenschutzerklärung von Flashcards](/de/privacy/) und prüfe dann für den konkreten KI-Client die Regeln zu Speicherfristen, Training, Memory, Protokollierung und Löschung.
+3. Lies die Richtlinien auf beiden Seiten. Beginne mit der [Datenschutzerklärung von Nibomo](/de/privacy/) und prüfe dann für den konkreten KI-Client die Regeln zu Speicherfristen, Training, Memory, Protokollierung und Löschung.
 4. Entscheide, ob ein zusätzlicher Workspace genügt. Für einen Probelauf ist er nützlich, doch die Verbindung kann jeden anderen zugänglichen Workspace desselben Kontos ansprechen. Nutze ein separates Konto oder eine separate Bereitstellung, wenn du strikte Isolation benötigst.
 5. Blockiere `sql_execute` und `submit_review` zunächst im Client. Kann der Client die Tools nicht blockieren, bedenke vor dem Herstellen der Verbindung, dass die OAuth-Zugangsdaten weiterhin Schreibzugriff erlauben.
 6. Fordere nur die nötigsten Daten an. Wähle ausschließlich die Spalten und Zeilen aus, die für die Antwort erforderlich sind, und halte vertrauliche Informationen, die nichts mit der Aufgabe zu tun haben, aus der Unterhaltung heraus.

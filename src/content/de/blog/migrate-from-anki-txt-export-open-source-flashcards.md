@@ -213,7 +213,7 @@ Bleibe bei Anki oder wähle ein Zielsystem, das `.apkg` ausdrücklich importiert
 - Deck-Voreinstellungen und eine Organisation, die exakt übertragen werden müssen;
 - einen Wiederholungsverlauf oder eine aktuelle Lernplanung, die du nicht zurücksetzen kannst.
 
-Für solche Workflows ist Anki eine gute Wahl. Die TXT-Migration ist kein Urteil über die App, sondern ein eng begrenztes Werkzeug für Menschen, deren Lernmaterial im Wesentlichen in den Notizinhalten steckt. Der ausführlichere [Vergleich zwischen Anki und Flashcards](/de/blog/anki-vs-flashcards-open-source-app/) behandelt die Unterschiede zwischen den Produkten, ohne davon auszugehen, dass alle wechseln sollten.
+Für solche Workflows ist Anki eine gute Wahl. Die TXT-Migration ist kein Urteil über die App, sondern ein eng begrenztes Werkzeug für Menschen, deren Lernmaterial im Wesentlichen in den Notizinhalten steckt. Der ausführlichere [Vergleich zwischen Anki und Nibomo](/de/blog/anki-vs-flashcards-open-source-app/) behandelt die Unterschiede zwischen den Produkten, ohne davon auszugehen, dass alle wechseln sollten.
 
 ## Die sichere Variante ist bewusst unspektakulär
 

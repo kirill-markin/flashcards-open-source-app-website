@@ -35,7 +35,7 @@ Flashcards no es una copia gratuita y de código abierto de Memrise. Puede susti
 
 ## Memrise vs Flashcards de un vistazo
 
-| Pregunta | Memrise | Flashcards |
+| Pregunta | Memrise | Nibomo |
 |---|---|---|
 | Mejor para | Aprender con contenido oficial ya preparado y practicar varias destrezas lingüísticas | Recordar material que has seleccionado de otras fuentes de aprendizaje |
 | Empezar desde cero | Más fácil: Memrise proporciona palabras, frases, situaciones y prácticas útiles | Más difícil: debes crear o generar tarjetas y decidir qué merece la pena aprender |

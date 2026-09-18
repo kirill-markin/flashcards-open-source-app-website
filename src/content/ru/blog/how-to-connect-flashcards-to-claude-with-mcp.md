@@ -22,7 +22,7 @@ keywords:
 
 Если вы хотите, чтобы Claude создавал карточки прямо в вашем рабочем пространстве Flashcards, настройка короткая: добавьте кастомный коннектор Flashcards, проверьте разрешения инструментов, включите коннектор в чате и подтвердите действие записи, когда Claude будет готов сохранить карточку.
 
-![Claude подключен к MCP-серверу Flashcards для создания карточек прямо из чата](/blog/how-to-connect-flashcards-to-claude-with-mcp.png)
+![Claude подключен к MCP-серверу Nibomo для создания карточек прямо из чата](/blog/how-to-connect-flashcards-to-claude-with-mcp.png)
 
 ## Это кастомный коннектор, а не запись в каталоге
 
@@ -73,7 +73,7 @@ Claude позволяет выставить для каждого инстру�
 
 Именно это и показано на скриншоте с настройками: `list_workspaces` и `sql_query` разрешены, а `sql_execute` все еще требует отдельного подтверждения.
 
-![Настройки коннектора Claude с правами Flashcards MCP: инструменты чтения разрешены всегда, а запись требует подтверждения](/blog/claude-mcp-flashcards-connector-settings.png)
+![Настройки коннектора Claude с правами Nibomo MCP: инструменты чтения разрешены всегда, а запись требует подтверждения](/blog/claude-mcp-flashcards-connector-settings.png)
 
 Ослабить ограничения можно позже, если вам это действительно нужно. Я бы не начинал с этого.
 
@@ -127,7 +127,7 @@ Use my Personal workspace.
 
 Запрос на запись стоит прочитать, подтвердить и дать Claude закончить работу. На скриншоте ниже Claude сначала спросил, какое рабочее пространство использовать, потом запустил действие записи в Flashcards и сообщил, что тестовая карточка успешно добавлена.
 
-![Чат Claude создает тестовую карточку через коннектор Flashcards MCP после уточнения, в какое рабочее пространство ее сохранить](/blog/claude-mcp-flashcards-create-card.png)
+![Чат Claude создает тестовую карточку через коннектор Nibomo MCP после уточнения, в какое рабочее пространство ее сохранить](/blog/claude-mcp-flashcards-create-card.png)
 
 Необязательно вникать в сырой SQL, если только вы специально не хотите разобрать вызов инструмента поближе. Важен сам рабочий процесс:
 
@@ -159,7 +159,7 @@ Claude может помочь создать карточки внутри Flas
 
 Можно открыть веб-приложение, проверить карточку на телефоне или просто продолжить обычный учебный процесс:
 
-- [Веб-приложение Flashcards](https://app.flashcards-open-source-app.com/)
+- [Веб-приложение Nibomo](https://app.flashcards-open-source-app.com/)
 - [Flashcards для iPhone и iPad в App Store](https://apps.apple.com/app/apple-store/id6760538964?pt=128797295&ct=marketing_site&mt=8)
 - [Flashcards для Android в Google Play](https://play.google.com/store/apps/details?id=com.flashcardsopensourceapp.app&utm_source=flashcards_website&utm_medium=referral&utm_campaign=marketing_site)
 

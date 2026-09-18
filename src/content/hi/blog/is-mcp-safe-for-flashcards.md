@@ -20,7 +20,7 @@ OAuth authorization और token exchange को सुरक्षित रख
 
 इसलिए असली सीमाएँ साफ़ हैं: हर टूल कहाँ तक पहुँच सकता है, Flashcards कौन-से नियम लागू करता है, और कौन-सी सुरक्षा सिर्फ़ आपके क्लाइंट पर निर्भर है।
 
-![Flashcards MCP में पढ़ने और लिखने की अनुमतियों के लिए अलग-अलग हिस्सों वाला गर्म रोशनी का डेस्क](/blog/is-mcp-safe-for-flashcards.png)
+![Nibomo MCP में पढ़ने और लिखने की अनुमतियों के लिए अलग-अलग हिस्सों वाला गर्म रोशनी का डेस्क](/blog/is-mcp-safe-for-flashcards.png)
 
 ## क्या Flashcards के लिए MCP सुरक्षित है? डेटा का असली रास्ता देखें
 
@@ -39,7 +39,7 @@ OAuth authorization और token exchange को सुरक्षित रख
 
 ## Flashcards OAuth क्या सुरक्षित करता है
 
-Flashcards interactive MCP clients के लिए PKCE और Dynamic Client Registration वाला authorization-code flow इस्तेमाल करता है। आप browser में connection approve करते हैं, और PKCE code exchange को उसी client से बाँधता है जिसने उसे शुरू किया था। Server यह भी जाँचता है कि access token Flashcards MCP resource के लिए ही जारी किया गया था। [Flashcards MCP connector guide](/hi/docs/mcp-connector/) में endpoint और discovery metadata दिए गए हैं।
+Flashcards interactive MCP clients के लिए PKCE और Dynamic Client Registration वाला authorization-code flow इस्तेमाल करता है। आप browser में connection approve करते हैं, और PKCE code exchange को उसी client से बाँधता है जिसने उसे शुरू किया था। Server यह भी जाँचता है कि access token Flashcards MCP resource के लिए ही जारी किया गया था। [Nibomo MCP connector guide](/hi/docs/mcp-connector/) में endpoint और discovery metadata दिए गए हैं।
 
 ये उपाय login और token exchange को सुरक्षित रखते हैं। [25 नवंबर 2025 की स्थिर MCP authorization specification](https://modelcontextprotocol.io/specification/2025-11-25/basic/authorization) इस flow के लिए PKCE और resource-specific tokens अनिवार्य करती है। वह यह भी कहती है कि हर MCP implementation में authorization अनिवार्य नहीं है। इसलिए किसी एक connector में OAuth मौजूद होने से किसी दूसरे server की सुरक्षा के बारे में कुछ साबित नहीं होता।
 
@@ -77,7 +77,7 @@ Connector मनमाने PostgreSQL की जगह parser से लाग
 
 लौटाया गया डेटा फिर भी Flashcards backend से बाहर जाता है। कमजोर विषयों की query में कार्ड का टेक्स्ट और review events शामिल हो सकते हैं। किसी छोटे कार्ड में भी मरीज की जानकारी, किसी internal system का नाम, भाषा सीखने का निजी उदाहरण या interview notes हो सकते हैं।
 
-[Flashcards privacy policy](/hi/privacy/) MCP और Agent API से माँगे गए डेटा पर लागू होती है। Protocol की सीमा पर Flashcards नतीजा MCP client को भेजता है। कोई अलग model provider उसे पाएगा या नहीं, कोई उसे कितने समय तक रखेगा, और training के लिए उसका इस्तेमाल हो सकता है या नहीं—यह client setup और provider की शर्तों पर निर्भर करता है। "Read-only" को privacy की मुहर मानने के बजाय ये बातें जाँचें।
+[Nibomo privacy policy](/hi/privacy/) MCP और Agent API से माँगे गए डेटा पर लागू होती है। Protocol की सीमा पर Flashcards नतीजा MCP client को भेजता है। कोई अलग model provider उसे पाएगा या नहीं, कोई उसे कितने समय तक रखेगा, और training के लिए उसका इस्तेमाल हो सकता है या नहीं—यह client setup और provider की शर्तों पर निर्भर करता है। "Read-only" को privacy की मुहर मानने के बजाय ये बातें जाँचें।
 
 ### लिखने की पहुँच पूरी database access से कहीं सीमित है
 
@@ -134,7 +134,7 @@ OpenAI इसका एक ठोस उदाहरण देता है। �
 
 आप जिस client, account type, workspace policy, region और settings का सच में इस्तेमाल करेंगे, उन्हें जाँचें। Retention, training, memory, administrator access, subprocessors और deletion की जानकारी देखें। अगर documentation यह नहीं बताती कि confidential source material client से बाहर जा सकता है या नहीं, तो असली deck से उस सवाल को test न करें।
 
-Hosted account delete करना, connector disconnect करना और आगे बनी copies delete करना अलग-अलग काम हैं। [Flashcards privacy](/hi/privacy/) hosted data delete करने का तरीका बताती है। Client या model provider के पास पहले से रखा data Flashcards delete नहीं कर सकता; उसके लिए उस provider के controls भी इस्तेमाल करें।
+Hosted account delete करना, connector disconnect करना और आगे बनी copies delete करना अलग-अलग काम हैं। [Nibomo privacy](/hi/privacy/) hosted data delete करने का तरीका बताती है। Client या model provider के पास पहले से रखा data Flashcards delete नहीं कर सकता; उसके लिए उस provider के controls भी इस्तेमाल करें।
 
 ## Disconnect करना और credential revoke करना अलग कदम हैं
 
@@ -148,7 +148,7 @@ Headless `fca_` Agent API keys अलग तरह के credentials हैं�
 
 1. Source material की श्रेणी तय करें। Public study notes, निजी जानकारी, employer-confidential content और regulated data को एक ही access policy के तहत नहीं रखना चाहिए। अगर आपको material client और उसके processors को भेजने की अनुमति नहीं है, तो उसे MCP के जरिए expose न करें।
 2. Server URL जाँचें। दस्तावेज़ों में दिया endpoint `https://mcp.flashcards-open-source-app.com/mcp` है। उससे मिलते-जुलते domains और unknown sources से copy की गई connector definitions से बचें।
-3. दोनों पक्षों की policies पढ़ें। [Flashcards privacy](/hi/privacy/) से शुरू करें, फिर इस्तेमाल होने वाले AI client की retention, training, memory, logging और deletion rules जाँचें।
+3. दोनों पक्षों की policies पढ़ें। [Nibomo privacy](/hi/privacy/) से शुरू करें, फिर इस्तेमाल होने वाले AI client की retention, training, memory, logging और deletion rules जाँचें।
 4. तय करें कि spare workspace काफ़ी है या नहीं। अभ्यास के लिए वह उपयोगी है, लेकिन connection उसी account के दूसरे workspaces को भी target कर सकता है। सख़्त isolation चाहिए तो अलग account या deployment इस्तेमाल करें।
 5. Client में `sql_execute` और `submit_review` block करके शुरू करें। अगर client उन्हें block नहीं कर सकता, तो connect करने से पहले मानें कि OAuth credential में लिखने की क्षमता बनी रहती है।
 6. कम-से-कम data माँगें। जवाब के लिए सिर्फ़ ज़रूरी columns और rows select करें, और unrelated secrets को conversation से बाहर रखें।

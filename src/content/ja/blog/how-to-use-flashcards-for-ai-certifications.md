@@ -278,7 +278,7 @@ AWS AI Practitioner、MicrosoftのAI-900 / AI-901ルート、Google Cloud Genera
 
 この流れを試したいなら、ここから始めてください。
 
-- [Flashcards を開く](https://nibomo.com/)
+- [Nibomo を開く](https://nibomo.com/)
 - [アプリを開く](https://app.flashcards-open-source-app.com/)
 - [機能ページを読む](https://nibomo.com/features/)
 - [GitHub でソースを見る](https://github.com/kirill-markin/flashcards-open-source-app)

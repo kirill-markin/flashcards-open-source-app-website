@@ -22,7 +22,7 @@ keywords:
 
 如果你想让 Claude 直接在 Flashcards workspace 里创建卡片，整个设置其实很短：添加 Flashcards 自定义连接器，检查工具权限，在对话里启用它，然后在 Claude 准备保存卡片时批准写入调用。
 
-![Claude 已连接到 Flashcards MCP 服务器，可直接从聊天中创建闪卡](/blog/how-to-connect-flashcards-to-claude-with-mcp.png)
+![Claude 已连接到 Nibomo MCP 服务器，可直接从聊天中创建闪卡](/blog/how-to-connect-flashcards-to-claude-with-mcp.png)
 
 ## 这是自定义连接器，不是目录里的现成条目
 
@@ -73,7 +73,7 @@ Claude 允许你把每个工具分别设成 `Always allow`、`Needs approval` �
 
 这也是下面这张连接器设置截图展示的状态：`list_workspaces` 和 `sql_query` 已允许，`sql_execute` 仍然需要你手动批准。
 
-![Claude 连接器设置页中，Flashcards MCP 的读权限已设为始终允许，写权限仍需批准](/blog/claude-mcp-flashcards-connector-settings.png)
+![Claude 连接器设置页中，Nibomo MCP 的读权限已设为始终允许，写权限仍需批准](/blog/claude-mcp-flashcards-connector-settings.png)
 
 以后如果你非常确定，也可以再放宽。刚开始我不会这么做。
 
@@ -127,7 +127,7 @@ Claude 允许你把每个工具分别设成 `Always allow`、`Needs approval` �
 
 你应该先检查写入请求，再批准，然后让 Claude 完成剩下的动作。下面这张截图里，Claude 先问了该用哪个 workspace，接着执行了 Flashcards 写入操作，最后报告测试卡已经成功添加。
 
-![Claude 在询问使用哪个 workspace 后，通过 Flashcards MCP 连接器创建测试闪卡](/blog/claude-mcp-flashcards-create-card.png)
+![Claude 在询问使用哪个 workspace 后，通过 Nibomo MCP 连接器创建测试闪卡](/blog/claude-mcp-flashcards-create-card.png)
 
 除非你想非常仔细地检查工具调用，否则不需要关心底层原始 SQL。真正重要的是这个工作流：
 
@@ -159,7 +159,7 @@ Claude 可以帮你在 Flashcards 里创建卡片，也可以通过只读工具�
 
 你可以打开托管版 web app，在手机上检查卡片，或者继续按你原本的学习流程往下走：
 
-- [Flashcards 网页版](https://app.flashcards-open-source-app.com/)
+- [Nibomo 网页版](https://app.flashcards-open-source-app.com/)
 - [适用于 iPhone 和 iPad 的 Flashcards App Store 页面](https://apps.apple.com/app/apple-store/id6760538964?pt=128797295&ct=marketing_site&mt=8)
 - [适用于 Android 的 Flashcards Google Play 页面](https://play.google.com/store/apps/details?id=com.flashcardsopensourceapp.app&utm_source=flashcards_website&utm_medium=referral&utm_campaign=marketing_site)
 

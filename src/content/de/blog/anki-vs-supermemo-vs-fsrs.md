@@ -55,7 +55,7 @@ Das ist entscheidend, wenn jemand Anki „für FSRS“ verlassen möchte. Die ak
 
 Die Formulierung im Handbuch braucht allerdings eine historische Einordnung. **SM-2 ist ein früher Algorithmus aus der SuperMemo-Familie und kein Synonym für das heutige SuperMemo.** Ankis älteren Scheduler als „Legacy SM-2“ zu bezeichnen, folgt der Anki-Dokumentation und benennt die Algorithmusfamilie, auf die er zurückgeht. Daraus folgt nicht, dass jedes Implementierungsdetail mit dem ursprünglichen, vor Jahrzehnten veröffentlichten SM-2 identisch ist. Einen gezielteren technischen Vergleich bietet [FSRS vs SM-2](/blog/fsrs-vs-sm-2/).
 
-Wenn deine über Jahre gewachsene Sammlung von eigenen Vorlagen, Add-ons, Medien oder einer langen Wiederholungshistorie abhängt, ist ein Produktwechsel mit echtem Migrationsaufwand verbunden. Innerhalb von Anki den Scheduler zu wechseln kann erheblich einfacher sein, als Anki ganz zu verlassen. Der ausführlichere Vergleich [Anki vs Flashcards](/blog/anki-vs-flashcards-open-source-app/) behandelt diese Abwägung auf Produktebene.
+Wenn deine über Jahre gewachsene Sammlung von eigenen Vorlagen, Add-ons, Medien oder einer langen Wiederholungshistorie abhängt, ist ein Produktwechsel mit echtem Migrationsaufwand verbunden. Innerhalb von Anki den Scheduler zu wechseln kann erheblich einfacher sein, als Anki ganz zu verlassen. Der ausführlichere Vergleich [Anki vs Nibomo](/blog/anki-vs-flashcards-open-source-app/) behandelt diese Abwägung auf Produktebene.
 
 ## „SuperMemo“ braucht heute einen Zusatz
 
@@ -106,7 +106,7 @@ Bewertungen liefern einem Scheduling-System Signale. Da Produkte unterschiedlich
 | System | Sichtbare Bewertungen | Was die Bezeichnungen aussagen |
 | --- | --- | --- |
 | Anki mit FSRS | Again, Hard, Good, Easy | Again steht für einen fehlgeschlagenen Abruf. Hard, Good und Easy stehen für erfolgreichen Abruf mit jeweils geringerem Aufwand. |
-| Flashcards | Again, Hard, Good, Easy | Dieselbe Grenze zwischen Misserfolg und Erfolg. Die API verwendet 0–3 und ordnet diese Werte intern den FSRS-Bewertungen 1–4 zu. |
+| Nibomo | Again, Hard, Good, Easy | Dieselbe Grenze zwischen Misserfolg und Erfolg. Die API verwendet 0–3 und ordnet diese Werte intern den FSRS-Bewertungen 1–4 zu. |
 | Gehostetes SuperMemo.com | Don't know, Almost, Know | Eine dreistufige Produktskala, die auf der [Seite zur SuperMemo-Methode](https://www.supermemo.com/en/supermemo-method) dokumentiert ist. Sie sollte nicht mechanisch auf die vier FSRS-Bewertungen abgebildet werden. |
 | SuperMemo 20 für Windows | Bewertungsablauf in der SuperMemo-Desktop-Anwendung | Eine eigene Produktoberfläche, die mehrere Algorithmen in der Algorithm Arena mit Daten versorgt. Ihre Bedeutung lässt sich nicht aus den drei Bezeichnungen des gehosteten Dienstes ableiten. |
 

@@ -35,7 +35,7 @@ Several official features can look API-adjacent from the outside. They solve nar
 | Turn a ChatGPT conversation into a Quizlet set | [Quizlet app in ChatGPT](https://quizlet.com/blog/quizlet-comes-to-chat-gpt) | Creating and previewing a set through `@Quizlet` | Credentials or endpoints for your own app |
 | Assign Quizlet work in Google Classroom | [Quizlet Google Classroom add-on](https://quizlet.com/blog/quizlet-google-classroom-add-on) | Finding, assigning, and tracking activities in Classroom | A general API for custom education software |
 | Build your own Quizlet integration | No self-service path is currently documented | A named partner arrangement may exist | Public signup, API keys, or a documented card contract |
-| Automate your own flashcard workspace | [Flashcards Agent API](/docs/api/) or [MCP connector](/docs/mcp-connector/) | Repeated, workspace-scoped card and deck reads and writes | Quizlet compatibility or automatic Quizlet import |
+| Automate your own flashcard workspace | [Nibomo Agent API](/docs/api/) or [MCP connector](/docs/mcp-connector/) | Repeated, workspace-scoped card and deck reads and writes | Quizlet compatibility or automatic Quizlet import |
 
 The useful distinction is simple: copying your own card text once is an export job. Showing Quizlet on another page is an embed job. A named integration works only inside that product flow. Software that repeatedly creates, reads, and edits cards needs a documented read/write API.
 

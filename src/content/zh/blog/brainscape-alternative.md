@@ -35,18 +35,18 @@ Brainscape 与 Flashcards 最重要的区别，藏在一个 Brainscape 用户从
 
 ## Brainscape 与 Flashcards 快速对比
 
-| 对比项 | Brainscape | Flashcards | 更适合谁 |
+| 对比项 | Brainscape | Nibomo | 更适合谁 |
 |---|---|---|---|
-| 复习模型 | Confidence-Based Repetition；按 1–5 分评分，低信心卡片更常出现，高信心卡片较少出现 | FSRS-6；选择 Again/Hard/Good/Easy，并记录明确的 `due_at` | 灵活重复和突击复习选 Brainscape；到期队列和记忆保留率控制选 Flashcards |
+| 复习模型 | Confidence-Based Repetition；按 1–5 分评分，低信心卡片更常出现，高信心卡片较少出现 | FSRS-6；选择 Again/Hard/Good/Easy，并记录明确的 `due_at` | 灵活重复和突击复习选 Brainscape；到期队列和记忆保留率控制选 Nibomo |
 | 调度细节 | 每次请求下一张卡片时，从不同信心评分组中相对选择；即使全副卡组都是 5 分，也仍可继续学习 | D/S/R 记忆状态；目标记忆保留率 0.90；1/10 分钟学习步骤；10 分钟重新学习步骤；最大间隔 36,500 天；启用 fuzz；固定使用非个性化权重 | 取决于你想要哪种复习队列 |
 | 平台 | Web、iOS、Android | Web、iOS、Android；无桌面客户端 | 支持平台相同 |
-| 离线使用 | 移动端可离线学习此前下载的卡片；创建和编辑需要联网 | 复习和编辑先写入本地：Web 使用 IndexedDB，iOS 使用 SQLite，Android 使用 Room/SQLite，之后再同步 | 离线创建和编辑选 Flashcards |
+| 离线使用 | 移动端可离线学习此前下载的卡片；创建和编辑需要联网 | 复习和编辑先写入本地：Web 使用 IndexedDB，iOS 使用 SQLite，Android 使用 Room/SQLite，之后再同步 | 离线创建和编辑选 Nibomo |
 | 协作 | 班级、分享链接、编辑者权限；学校/团体方案提供详细分析 | 没有同等的链接共享班级、卡片编辑权限或教师进度分析 | Brainscape |
-| AI | Basic 可生成“100s”张 AI 闪卡；Pro 标明 AI 不限量；支持将来源转换为卡片和清理导入内容 | AI 对话、支持的文件附件、工作区读写操作、MCP 和 Agent API | 引导式批量制卡选 Brainscape；智能体接入选 Flashcards |
+| AI | Basic 可生成“100s”张 AI 闪卡；Pro 标明 AI 不限量；支持将来源转换为卡片和清理导入内容 | AI 对话、支持的文件附件、工作区读写操作、MCP 和 Agent API | 引导式批量制卡选 Brainscape；智能体接入选 Nibomo |
 | 导入 | 可粘贴列表，或上传 CSV、TXT、XLSX、ODS；移动端还支持文件、图片和相机拍摄 | 只能直接导入自有的 `flashcards.zip`；其他支持的文件可作为 AI 起草卡片的来源，生成内容需人工审核 | 通用导入选 Brainscape |
-| 导出 | Pro 可将卡组导出为 Excel 能打开的电子表格文件 | `flashcards.zip` 可在 Flashcards 工作区或实例之间传输有效卡片、标签和引用的媒体 | 电子表格选 Brainscape；Flashcards 工作区迁移选 Flashcards |
+| 导出 | Pro 可将卡组导出为 Excel 能打开的电子表格文件 | `flashcards.zip` 可在 Nibomo 工作区或实例之间传输有效卡片、标签和引用的媒体 | 电子表格选 Brainscape；Nibomo 工作区迁移选 Nibomo |
 | 2026 年 8 月 3 日核查价格 | Basic 免费；Pro 按年付费时显示为每月 US$7.99；Enterprise 需询价 | 托管应用测试期间免费；自托管软件免费，另需承担基础设施和服务商费用 | 取决于使用场景和托管方式 |
-| 所有权 | 专有托管服务；Pro 支持导出 | 完整应用及基础设施采用 MIT 许可；提供 AWS 自托管文档 | Flashcards |
+| 所有权 | 专有托管服务；Pro 支持导出 | 完整应用及基础设施采用 MIT 许可；提供 AWS 自托管文档 | Nibomo |
 
 这张表用于辅助选择，不是功能打分。管理六个班级的教师即使看重开源，也完全可能选择 Brainscape；经常在网络不稳定时编辑卡片的个人学习者，则可能作出相反选择。
 

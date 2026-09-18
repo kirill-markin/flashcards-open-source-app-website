@@ -35,7 +35,7 @@ Mehrere offizielle Funktionen können von außen wie eine API wirken. Sie sind j
 | Eine ChatGPT-Unterhaltung in ein Quizlet-Set umwandeln | [Quizlet-App in ChatGPT](https://quizlet.com/blog/quizlet-comes-to-chat-gpt) | Ein Set über `@Quizlet` erstellen und in der Vorschau ansehen | Zugangsdaten oder Endpunkte für deine eigene App |
 | Quizlet-Aufgaben in Google Classroom zuweisen | [Quizlet-Add-on für Google Classroom](https://quizlet.com/blog/quizlet-google-classroom-add-on) | Aktivitäten in Classroom finden, zuweisen und nachverfolgen | Eine allgemeine API für eigene Lernsoftware |
 | Eine eigene Quizlet-Integration entwickeln | Derzeit ist kein Self-Service-Weg dokumentiert | Möglicherweise gibt es eine individuelle Partnervereinbarung | Öffentliche Registrierung, API-Keys oder eine dokumentierte Schnittstelle für Kartendaten |
-| Den eigenen Karteikarten-Arbeitsbereich automatisieren | [Flashcards Agent API](/docs/api/) oder [MCP-Connector](/docs/mcp-connector/) | Wiederkehrende, arbeitsbereichsbezogene Lese- und Schreibzugriffe auf Karten und Decks | Quizlet-Kompatibilität oder automatischer Quizlet-Import |
+| Den eigenen Karteikarten-Arbeitsbereich automatisieren | [Nibomo Agent API](/docs/api/) oder [MCP-Connector](/docs/mcp-connector/) | Wiederkehrende, arbeitsbereichsbezogene Lese- und Schreibzugriffe auf Karten und Decks | Quizlet-Kompatibilität oder automatischer Quizlet-Import |
 
 Die entscheidende Unterscheidung ist einfach: Wenn du deinen eigenen Kartentext einmal kopierst, ist das eine Exportaufgabe. Wenn du Quizlet auf einer anderen Seite anzeigst, ist das eine Einbettungsaufgabe. Eine spezifische Integration ist auf den jeweils vorgesehenen Ablauf beschränkt. Software, die Karten regelmäßig erstellt, liest und bearbeitet, braucht dagegen eine dokumentierte API mit Lese- und Schreibzugriff.
 
@@ -92,7 +92,7 @@ Beide Zugangswege sind auf einen Arbeitsbereich begrenzt. Die veröffentlichten 
 
 Damit können Entwickler oder KI-Agenten ihre eigenen Karteikarten automatisieren. Die Schnittstellen können weder eine Quizlet-URL auslesen noch ein Quizlet-Konto spiegeln oder als undokumentierter Quizlet-Client auftreten. Es gibt keinen automatischen Quizlet-Importer. Exportiere für eine Migration zunächst Begriffe und Definitionen aus deinem eigenen Set, prüfe den Text und ordne ihn danach den Kartenfeldern des Zielsystems zu. Das Zielsystem erstellt seinen eigenen Lernzustand; der Quizlet-Verlauf wird nicht übertragen.
 
-Weitere Produktunterschiede neben dem API-Zugriff findest du im [Vergleich zwischen Quizlet und der Open-Source-Alternative Flashcards](/blog/quizlet-alternative/).
+Weitere Produktunterschiede neben dem API-Zugriff findest du im [Vergleich zwischen Quizlet und der Open-Source-Alternative Nibomo](/blog/quizlet-alternative/).
 
 ## Nicht öffentlich dokumentierte Browseranfragen sind keine sichere Abkürzung
 

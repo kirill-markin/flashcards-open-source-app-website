@@ -113,7 +113,7 @@ Gizmo 的[卡片管理指南](https://help.gizmo.ai/en/articles/13761411-how-do-
 
 ## Gizmo 与 Flashcards 快速对比
 
-| 比较维度 | Gizmo | Flashcards |
+| 比较维度 | Gizmo | Nibomo |
 | --- | --- | --- |
 | 主要起点 | 手动制卡，或用 Magic Import 导入多种学习材料 | 手动或用 AI 辅助创建重点明确的正反面卡片 |
 | 卡片格式 | 文本卡片、选择题、配对题、排序题和判断题 | 正反面卡片 |
@@ -157,4 +157,4 @@ Flashcards 对离线使用和数据迁出的说明更明确。其文档说明移
 
 真正有用的 Gizmo AI 评测，不该把问题说成“使用 AI”还是“不使用 AI”。两款产品都使用 AI，区别在于 AI 处在工作流的哪一环。Gizmo 用 AI 把范围广泛的材料转化为更完整的学习环境；Flashcards 则把 AI 放进更精简的制卡流程，由你决定保存哪些内容、把哪些内容排入复习。
 
-如果这种更精简的流程更适合你，可以了解 [Flashcards 功能](/features/)，或按照[入门指南](/docs/getting-started/)开始使用。
+如果这种更精简的流程更适合你，可以了解 [Nibomo 功能](/features/)，或按照[入门指南](/docs/getting-started/)开始使用。

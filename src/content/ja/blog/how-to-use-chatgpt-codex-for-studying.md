@@ -91,7 +91,7 @@ https://mcp.flashcards-open-source-app.com/mcp
 5. アプリが再起動したら**Authenticate**を選び、ブラウザでFlashcardsのOAuthログインを完了する。
 6. Codexで`/mcp`と入力し、サーバーが接続されていることを確認する。
 
-この手順は、OpenAIの[ChatGPTデスクトップアプリとCodex向けMCP設定ガイド](https://learn.chatgpt.com/docs/extend/mcp)に沿っています。FlashcardsはブラウザからのログインにOAuthを使うため、通常のデスクトップ利用でAPIキーを貼り付ける必要はありません。接続で困ったときは、[Flashcards MCPドキュメント](/ja/docs/mcp-connector/)で認証方法とツール仕様を確認できます。
+この手順は、OpenAIの[ChatGPTデスクトップアプリとCodex向けMCP設定ガイド](https://learn.chatgpt.com/docs/extend/mcp)に沿っています。FlashcardsはブラウザからのログインにOAuthを使うため、通常のデスクトップ利用でAPIキーを貼り付ける必要はありません。接続で困ったときは、[Nibomo MCPドキュメント](/ja/docs/mcp-connector/)で認証方法とツール仕様を確認できます。
 
 書き込みは、実行前に毎回確認してください。ワークスペースの一覧表示は読み取り専用ですが、保存済みのカードの作成、書き直し、整理、削除はデータを変更します。学校や勤務先がChatGPTを管理している場合、管理者が利用できるMCPサーバーやツールを制限していることもあります。
 
@@ -112,7 +112,7 @@ Codexは最初に、読み取り専用のワークスペース一覧ツールを
 
 | ツール | できること | データを変更する？ |
 | --- | --- | --- |
-| `list_workspaces` | アクセスできるFlashcardsワークスペースを表示する | いいえ |
+| `list_workspaces` | アクセスできるNibomoワークスペースを表示する | いいえ |
 | `sql_query` | 許可されたワークスペース、カード、デッキ、復習データを読み取る | いいえ |
 | `sql_execute` | 許可されたカードやデッキを作成、編集、削除する | はい |
 | `get_guide` | SQL、カードの書き方、一括書き込み、復習のいずれかについてリファレンスガイドを返す | いいえ |
@@ -148,7 +148,7 @@ Flashcardsのデッキは、保存済みのフィルターです。カードを�
 
 MCPコネクタは、許可された復習履歴とスケジュール項目を読み取れます。ただし、SQLの書き込みツールから`review_events`を作成したり、Again、Hard、Good、Easyの評価を送ったり、FSRSの状態やスケジュールを変更したりすることはできません。コネクタが評価を記録できるのはこれとは別の`submit_review`ツールを使う場合だけなので、復習はアプリで行うことも、Codexに任せることもできます。
 
-カードの復習日が来たら、[Flashcards web app](https://app.flashcards-open-source-app.com/)またはモバイルアプリを開きます。答えを思い出してから裏面を表示し、そこで評価を選んでください。Flashcardsが復習を記録し、その結果を使ってFSRSが次にカードを出す時期を決めます。
+カードの復習日が来たら、[Nibomo web app](https://app.flashcards-open-source-app.com/)またはモバイルアプリを開きます。答えを思い出してから裏面を表示し、そこで評価を選んでください。Flashcardsが復習を記録し、その結果を使ってFSRSが次にカードを出す時期を決めます。
 
 許可したカードのデータを使い、Codexに会話形式で問題を出してもらうこともできます。これは追加の練習で、出題だけでは復習は記録されず、次の復習日も変わりません。正式な復習をしたいときは、復習用のツールで進めるようCodexに頼んでください。Codexは`next_review_card`で表面だけを表示し、答えたあと`reveal_answer`で裏面を表示し、`submit_review`で評価を記録するので、FSRSがカードの次の復習日を決め直せます。自分で評価を選びたいと伝えない限り、回答の評価はCodexが行います。[AIフラッシュカード家庭教師のガイド](/ja/blog/ai-flashcard-tutor-due-cards/)で、この復習の流れを詳しく説明しています。
 
@@ -173,7 +173,7 @@ codex mcp add flashcards \
   --bearer-token-env-var FLASHCARDS_MCP_TOKEN
 ```
 
-エージェントキーの取得方法は[Flashcards APIガイド](/ja/docs/api/)で説明しています。パスワードと同じように扱い、プロンプト、スクリーンショット、シェル履歴、バージョン管理には入れないでください。普段使いのパソコンで対話しながら使うなら、OAuthのほうが簡単です。
+エージェントキーの取得方法は[Nibomo APIガイド](/ja/docs/api/)で説明しています。パスワードと同じように扱い、プロンプト、スクリーンショット、シェル履歴、バージョン管理には入れないでください。普段使いのパソコンで対話しながら使うなら、OAuthのほうが簡単です。
 
 ## ChatGPTのWeb版は接続方法が異なる
 
