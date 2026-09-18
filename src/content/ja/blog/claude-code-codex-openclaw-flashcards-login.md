@@ -1,6 +1,6 @@
 ---
-title: "Claude Code、Codex、OpenClaw から Flashcards にログインする方法"
-description: "Flashcards は、1 つのディスカバリー URL とメール OTP、長期利用できる API キーを組み合わせた、オープンソースのエージェント向けログインフローを公開しています。エージェントには URL を 1 つ渡し、メールで届く最新の 8 桁コードを返すだけで、アカウント情報の読み込みからワークスペースの準備まで進められます。"
+title: "Claude Code、Codex、OpenClaw から Nibomo にログインする方法"
+description: "Nibomo は、1 つのディスカバリー URL とメール OTP、長期利用できる API キーを組み合わせた、オープンソースのエージェント向けログインフローを公開しています。エージェントには URL を 1 つ渡し、メールで届く最新の 8 桁コードを返すだけで、アカウント情報の読み込みからワークスペースの準備まで進められます。"
 date: "2026-03-10"
 keywords:
   - "Claude Code ログイン"
@@ -44,7 +44,7 @@ GET https://api.flashcards-open-source-app.com/v1/
 
 大まかに言うと、エージェントはここで次の 4 点をすぐ把握できます。
 
-- これは Flashcards のサービスである
+- これは Nibomo のサービスである
 - ログインと登録はどちらもメール OTP で行う
 - 検証に成功すると長期利用できる API キーが返る
 - ログイン後はアカウント情報の読み込みとワークスペース初期化に進む
@@ -55,7 +55,7 @@ GET https://api.flashcards-open-source-app.com/v1/
 
 1. エージェントがディスカバリーエンドポイントを呼ぶ
 2. エージェントがユーザーのメールアドレスを `send-code` に送信する
-3. Flashcards が 8 桁コードをメールで送り、`otpSessionToken` を返す
+3. Nibomo が 8 桁コードをメールで送り、`otpSessionToken` を返す
 4. エージェントがユーザーに最新のコードを尋ねる
 5. エージェントがコードを検証し、長期利用できる API キーを受け取る
 6. `/v1/agent/me` と `/v1/agent/workspaces` を呼ぶ
@@ -68,10 +68,10 @@ GET https://api.flashcards-open-source-app.com/v1/
 これだけで十分です。
 
 ```text
-次の Flashcards のディスカバリー URL を使ってください:
+次の Nibomo のディスカバリー URL を使ってください:
 https://api.flashcards-open-source-app.com/v1/
 
-Flashcards アカウントにログインして、アカウント情報を読み込み、適切なワークスペースを選ぶか作成してください。
+Nibomo アカウントにログインして、アカウント情報を読み込み、適切なワークスペースを選ぶか作成してください。
 フロー上で必要になったときだけ、メールに届いた最新の 8 桁コードを私に聞いてください。
 ```
 
@@ -82,7 +82,7 @@ Flashcards アカウントにログインして、アカウント情報を読み
 考え方は同じで、少しだけ具体的にします。
 
 ```text
-次の URL を使って私の Flashcards アカウントに接続してください:
+次の URL を使って私の Nibomo アカウントに接続してください:
 https://api.flashcards-open-source-app.com/v1/
 
 返ってきた指示に従い、API キーは安全に扱い、私のアカウント情報を読み込んでからワークスペースの準備に進んでください。
@@ -289,7 +289,7 @@ OpenAPI は利用できず、`/v1/` がランタイムディスカバリのエ�
 
 ## これはオープンソースです
 
-Flashcards はオープンソースなので、ブラックボックスとして扱うのではなく、フロー全体を自分で確認できます。
+Nibomo はオープンソースなので、ブラックボックスとして扱うのではなく、フロー全体を自分で確認できます。
 
 - リポジトリ: [github.com/kirill-markin/flashcards-open-source-app](https://github.com/kirill-markin/flashcards-open-source-app)
 - エージェント向けディスカバリールート: [apps/backend/src/agent/discovery.ts](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/apps/backend/src/agent/discovery.ts)

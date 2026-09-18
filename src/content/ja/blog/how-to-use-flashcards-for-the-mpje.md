@@ -242,7 +242,7 @@ practice misses がよく暴くのは次のような弱さです。
 
 スケジューラ側の話をもっと詳しく見たいなら、[2026年版 FSRS Settings](https://nibomo.com/blog/fsrs-settings/) と [2026年版 FSRS vs SM-2](https://nibomo.com/blog/fsrs-vs-sm-2/) が直接つながる記事です。
 
-## このワークフローの中で Flashcards がはまる場所
+## このワークフローの中で Nibomo がはまる場所
 
 [Nibomo](https://nibomo.com/) が最も役立つのは、「何を復習すべきか」が分かったあとです。
 

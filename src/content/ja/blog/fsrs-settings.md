@@ -189,7 +189,7 @@ FSRSは復習を分散できますが、新規カードを無制限に増やし�
 
 予測値が大きすぎるなら、新規カードの投入量を減らして、もう一度シミュレーションします。そうすれば、忘却を増やす設定にしなくても、想起率の目標を維持できます。
 
-## AnkiとFlashcardsで使えるFSRS設定は異なる
+## AnkiとNibomoで使えるFSRS設定は異なる
 
 どちらの製品もFSRS-6を使っていますが、AnkiのFSRS設定とNibomoの設定は1対1では対応しません。
 
@@ -203,9 +203,9 @@ FSRSは復習を分散できますが、新規カードを無制限に増やし�
 | 設定変更 | デフォルトでは今後の復習に適用。過去分を含む再スケジュールも任意で可能 | 今後の復習のみに適用。既存の期限は再構築されない |
 | 学習量ツール | **Help Me Decide (Experimental)** と **FSRS Simulator (Experimental)** | v1には同等の学習量シミュレーターがない |
 
-Flashcardsは標準的なAgain、Hard、Good、Easyの評価を使い、カード単位でFSRSの記憶状態を保持します。バックエンド、iOS、Androidのスケジューラはそれぞれ独立した実装ですが、挙動が揃うよう維持されています。Webの復習フローは4つ目の実装を追加せず、バックエンドのスケジューラを再利用します。
+Nibomoは標準的なAgain、Hard、Good、Easyの評価を使い、カード単位でFSRSの記憶状態を保持します。バックエンド、iOS、Androidのスケジューラはそれぞれ独立した実装ですが、挙動が揃うよう維持されています。Webの復習フローは4つ目の実装を追加せず、バックエンドのスケジューラを再利用します。
 
-こうした適用範囲とデフォルトは、公開されている[FlashcardsのFSRSスケジュール仕様](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/docs/fsrs-scheduling-logic.md)に記載されています。違いは明快です。Flashcardsが提供するのは、実用的なワークスペース単位のFSRS-6設定です。一方のAnkiには、より細かな適用範囲、履歴に合わせた個別最適化、シミュレーションがあります。そうした機能が不可欠なら、Ankiのほうが向いています。
+こうした適用範囲とデフォルトは、公開されている[NibomoのFSRSスケジュール仕様](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/docs/fsrs-scheduling-logic.md)に記載されています。違いは明快です。Nibomoが提供するのは、実用的なワークスペース単位のFSRS-6設定です。一方のAnkiには、より細かな適用範囲、履歴に合わせた個別最適化、シミュレーションがあります。そうした機能が不可欠なら、Ankiのほうが向いています。
 
 ## 成熟したコレクションのための、より安全な手順
 
@@ -249,9 +249,9 @@ Learning stepsまたはrelearning stepsを空にすると、Anki 26.08は対応�
 
 いいえ。Ankiはバージョン25.07でCompute Minimum Recommended Retentionを削除しました。Anki 26.08では、定着率と推定学習量を比較するために **Help Me Decide (Experimental)** と **FSRS Simulator (Experimental)** を使います。
 
-### FlashcardsはAnkiと同じ設定を使いますか？
+### NibomoはAnkiと同じ設定を使いますか？
 
-FlashcardsはFSRS-6を使い、ワークスペースごとにdesired retention、learning steps、relearning steps、maximum interval、fuzzを設定できます。ただし、Ankiの設定モデルをそのまま再現しているわけではありません。v1では重みが固定され、変更は今後の復習にのみ適用され、個人に合わせたパラメータ最適化や学習量シミュレーターはありません。
+NibomoはFSRS-6を使い、ワークスペースごとにdesired retention、learning steps、relearning steps、maximum interval、fuzzを設定できます。ただし、Ankiの設定モデルをそのまま再現しているわけではありません。v1では重みが固定され、変更は今後の復習にのみ適用され、個人に合わせたパラメータ最適化や学習量シミュレーターはありません。
 
 ## パーセンテージより先に学習量を決める
 

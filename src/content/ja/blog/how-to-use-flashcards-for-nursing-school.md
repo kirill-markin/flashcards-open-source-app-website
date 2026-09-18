@@ -250,7 +250,7 @@ keywords:
 
 - [2026年版 FSRSとSM-2の違い](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
-## この看護学校の学習フローの中で Flashcards がはまる場所
+## この看護学校の学習フローの中で Nibomo がはまる場所
 
 [Nibomo](https://nibomo.com/) が **看護学校 フラッシュカード** に向いているのは、この運用で必要になる要素をすでに備えているからです。
 

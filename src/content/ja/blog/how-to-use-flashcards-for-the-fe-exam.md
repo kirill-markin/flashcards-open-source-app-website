@@ -340,7 +340,7 @@ FSRS が助かるのは、すべてのカードに同じ予定を与えなくて
 - [2026年版 FSRSで試験勉強する方法](/ja/blog/how-to-study-for-an-exam-with-fsrs/)
 - [2026年版 FSRS Settings: 何を変え、何をそのままにすべきか](/ja/blog/fsrs-settings/)
 
-## このワークフローの中で Flashcards がはまる場所
+## このワークフローの中で Nibomo がはまる場所
 
 [Nibomo](/ja/) が FE 対策に合うのは、最初の下書きだけではなく、ワークフローの真ん中を支えているからです。
 

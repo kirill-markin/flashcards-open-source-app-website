@@ -192,7 +192,7 @@ AP World では、週ごとの流れを意図的に単調なくらいにして�
 
 スケジューリング側をもう少し詳しく見たいなら、[2026年版 FSRSで試験勉強する方法](/blog/how-to-study-for-an-exam-with-fsrs/) がいちばん近い companion article です。
 
-## このAP Worldの流れで、Flashcardsがはまる場所
+## このAP Worldの流れで、Nibomoがはまる場所
 
 このやり方を1か所で回したいなら、[Nibomo](/) は、変に複雑な学習ツールの寄せ集めを作らなくてもこの流れに合います。
 

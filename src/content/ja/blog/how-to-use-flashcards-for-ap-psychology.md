@@ -243,7 +243,7 @@ AP Psychologyの対策は、めったにきれいには進みません。ある�
 - [2026年版 FSRSで試験勉強する方法](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)
 - [2026年版 FSRS vs SM-2](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
-## AP Psychologyの学習フローの中で、Flashcardsはどこにはまるのか
+## AP Psychologyの学習フローの中で、Nibomoはどこにはまるのか
 
 [Nibomo](https://nibomo.com/) の中でこれを回したいなら、役に立つのは「AIが魔法のようにAP Psychを勉強してくれる」という曖昧な約束ではありません。
 

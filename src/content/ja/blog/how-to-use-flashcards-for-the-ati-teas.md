@@ -267,7 +267,7 @@ TEAS 対策では、元の材料がすぐ散らかります。解説のコピー
 
 この流れは、[2026年版 演習問題をフラッシュカードに変える方法](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/) や [2026年版 より良いフラッシュカードの作り方](https://nibomo.com/blog/how-to-make-better-flashcards/) とかなり近いです。
 
-## この ATI TEAS の流れの中で Flashcards がはまる場所
+## この ATI TEAS の流れの中で Nibomo がはまる場所
 
 [Nibomo](https://nibomo.com/) の中でこの運用を回したいなら、相性がいいのは公式連携ではなく実務面です。
 

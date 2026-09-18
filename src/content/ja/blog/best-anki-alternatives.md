@@ -166,23 +166,23 @@ Brainscapeの現行ヘルプセンターによると、Webサイトとモバイ�
 
 新しいスケジュールで始めてもよいと思えるほど、SuperMemo独自の方式やコースカタログを使いたい場合に選びましょう。既存スケジュールの保持が優先なら、SuperMemoが解決する問題とは噛み合いません。
 
-## Flashcards：フルスタックのソースは公開、Anki移行は最も弱い
+## Nibomo：フルスタックのソースは公開、Anki移行は最も弱い
 
-Flashcardsは、利用者が自分で管理できる範囲の広さが特徴です。[MITライセンスのリポジトリ](https://github.com/kirill-markin/flashcards-open-source-app)には、Webアプリ、iOS／Androidクライアント、バックエンド、オフライン同期、インフラストラクチャ、[公開API](/docs/api/)、[MCPサーバー](/docs/mcp-connector/)が含まれます。復習には[FSRS](/docs/architecture/#scheduling)を使います。Web、iOS、Androidはいずれも変更をまずローカルに保存し、送信待ちキューへ追加して、再接続後に同期します。
+Nibomoは、利用者が自分で管理できる範囲の広さが特徴です。[MITライセンスのリポジトリ](https://github.com/kirill-markin/flashcards-open-source-app)には、Webアプリ、iOS／Androidクライアント、バックエンド、オフライン同期、インフラストラクチャ、[公開API](/docs/api/)、[MCPサーバー](/docs/mcp-connector/)が含まれます。復習には[FSRS](/docs/architecture/#scheduling)を使います。Web、iOS、Androidはいずれも変更をまずローカルに保存し、送信待ちキューへ追加して、再接続後に同期します。
 
-だからといって、Ankiとの互換性があるわけではありません。Flashcardsは`.apkg`も`.colpkg`も読み取れません。サポート対象の[Anki TXT移行](/blog/migrate-from-anki-txt-export-open-source-flashcards/)は、ほぼテキストだけのカードを対象に、確認を挟みながらAI支援で下書きを作るワークフローです。テンプレート、アドオン、デッキ階層、次回復習日、間隔、復習記録は保持されません。TXTファイル内のメディア参照はメディアファイルそのものではないため、メディアの多いデッキは別途作り直して確認する必要があります。
+だからといって、Ankiとの互換性があるわけではありません。Nibomoは`.apkg`も`.colpkg`も読み取れません。サポート対象の[Anki TXT移行](/blog/migrate-from-anki-txt-export-open-source-flashcards/)は、ほぼテキストだけのカードを対象に、確認を挟みながらAI支援で下書きを作るワークフローです。テンプレート、アドオン、デッキ階層、次回復習日、間隔、復習記録は保持されません。TXTファイル内のメディア参照はメディアファイルそのものではないため、メディアの多いデッキは別途作り直して確認する必要があります。
 
-Flashcards独自の`flashcards.zip`パッケージも、完全なバックアップではありません。Flashcardsのワークスペース間で移せるのは、カード、タグ、関連メディアです。復習履歴、FSRSの状態、完全なデッキ構造、ワークスペース設定、アカウントは移動しません。
+Nibomo独自の`flashcards.zip`パッケージも、完全なバックアップではありません。Nibomoのワークスペース間で移せるのは、カード、タグ、関連メディアです。復習履歴、FSRSの状態、完全なデッキ構造、ワークスペース設定、アカウントは移動しません。
 
 ホスト版の基本機能は[ベータ期間中無料](/pricing/)です。本番スタックのセルフホスティングは、コマンドひとつで済むDockerインストールではありません。[セルフホスティングガイド](/docs/self-hosting/)ではAWS CDKを使い、AWSサービスに加えてCloudflare、Resend、Sentry、シークレット、マイグレーション、バックアップ、復元、アップグレードが必要です。Docker Composeは開発用の経路であり、サポート対象の本番デプロイではありません。
 
-フルスタックのソースと、運用者が管理できるバックエンドこそが乗り換えの理由であり、カードを安全に作り直せるほど単純な場合にFlashcardsを選びましょう。まず小さな一時デッキを試すなら、[ホスト版アプリを開いてください](https://app.flashcards-open-source-app.com/)。学習状態を正確に引き継ぐことが最優先なら、Ankiを使い続けるか、RemNote、Mochi、Mnemosyneをテストするほうが適切です。
+フルスタックのソースと、運用者が管理できるバックエンドこそが乗り換えの理由であり、カードを安全に作り直せるほど単純な場合にNibomoを選びましょう。まず小さな一時デッキを試すなら、[ホスト版アプリを開いてください](https://app.flashcards-open-source-app.com/)。学習状態を正確に引き継ぐことが最優先なら、Ankiを使い続けるか、RemNote、Mochi、Mnemosyneをテストするほうが適切です。
 
 ## iOSで使えるAnki代替アプリは？移行時の注意点
 
 「iOS向けAnki代替アプリ」を探す理由は、大きく2つあります。iPhoneネイティブアプリが欲しい場合と、[24.99ドルの買い切り版AnkiMobile](https://apps.apple.com/us/app/ankimobile-flashcards/id373493387)に代わるものが欲しい場合です。
 
-RemNote、Mochi、Quizlet、Brainscape、SuperMemo、Flashcardsには、いずれもiOSアプリがあります。Mnemosyneにはありません。それでも移行の問題は残ります。
+RemNote、Mochi、Quizlet、Brainscape、SuperMemo、Nibomoには、いずれもiOSアプリがあります。Mnemosyneにはありません。それでも移行の問題は残ります。
 
 - **Mochi**は、テキストだけを移すiOS向け選択肢より多くのデータを保持します。`.apkg`の復習履歴をインポートできますが、カードはMarkdownへ変換され、評価は2択になります。
 - **RemNote**も`.apkg`の復習履歴をインポートします。ただし、今日のAnkiスケジュールが残ると思い込まず、**Need to Learn**キューをテストしてください。
@@ -235,7 +235,7 @@ Ankiには今も、成熟したアドオン環境、柔軟なノート／カー�
 3. Ankiでの表示よりローカルMarkdownと確認しやすいエクスポートが重要なら、Mochiを試します。
 4. Ankiを直接インポートできる、機能を絞ったオープンソースのデスクトップアプリが欲しいなら、Mnemosyneを試します。モバイルの制限が自分の習慣に合うかも確認してください。
 5. 本当の問題がクラスへの配布や、よりシンプルな共有復習の流れにあるなら、QuizletまたはBrainscapeで小さなセットを作り直します。
-6. SuperMemo独自の方式が欲しいなら、新しいスケジュールを受け入れます。フルスタックのソース、セルフホスティング、API、MCPアクセスが欲しいなら、Flashcardsで一部データを失うコンテンツの作り直しと、運用作業を受け入れます。
+6. SuperMemo独自の方式が欲しいなら、新しいスケジュールを受け入れます。フルスタックのソース、セルフホスティング、API、MCPアクセスが欲しいなら、Nibomoで一部データを失うコンテンツの作り直しと、運用作業を受け入れます。
 
 大きく異なる3つのモデルを機能ごとに比べるなら、[Anki、Quizlet、Nibomoの比較](/blog/anki-vs-quizlet-vs-open-source-flashcards-app/)を見てください。
 

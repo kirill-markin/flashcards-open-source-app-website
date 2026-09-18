@@ -243,7 +243,7 @@ keywords:
 
 - [2026年版 FSRSで試験勉強する方法](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)
 
-## この NextGen の運用の中で Flashcards がはまる場所
+## この NextGen の運用の中で Nibomo がはまる場所
 
 [Nibomo](https://nibomo.com/) の中でこの流れを回すなら、便利なのは「AIが勉強を楽にしてくれる」という曖昧な約束ではありません。今の製品が、実際に必要なワークフローの真ん中をすでに支えていることです。
 

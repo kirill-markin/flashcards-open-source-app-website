@@ -1,6 +1,6 @@
 ---
 title: "2026年版 ChatGPTとCodexを勉強に使う方法：MCPでフラッシュカードを保存"
-description: "ChatGPT Study Modeで弱点を見つけ、ChatGPTデスクトップ版のCodexとFlashcards MCPで選んだカードだけを保存し、FSRSで復習する方法を紹介します。"
+description: "ChatGPT Study Modeで弱点を見つけ、ChatGPTデスクトップ版のCodexとNibomo MCPで選んだカードだけを保存し、FSRSで復習する方法を紹介します。"
 date: "2026-08-02"
 image: "/blog/how-to-use-chatgpt-codex-for-studying.png"
 keywords:
@@ -14,24 +14,24 @@ keywords:
 
 昨日、ChatGPTに「標本サイズが大きいと、一般に信頼区間が狭くなるのはなぜ？」と聞かれました。自信たっぷりに3文も答えたのに、どういうわけか「標準誤差」の一言だけを避けていました。この抜けだけは、カードに残す価値があります。ほかの内容は、そのままチャットに置いておけば十分です。
 
-**ChatGPTとCodexを勉強に使う方法**を知りたいなら、私ならこうします。ChatGPTとのやり取りで本当の弱点を見つけ、カードに残すものは自分で選び、CodexからFlashcards MCPコネクタを使って保存します。カードはFlashcardsに入り、あとでFSRSがちょうどよい時期にもう一度出してくれます。
+**ChatGPTとCodexを勉強に使う方法**を知りたいなら、私ならこうします。ChatGPTとのやり取りで本当の弱点を見つけ、カードに残すものは自分で選び、CodexからNibomo MCPコネクタを使って保存します。カードはNibomoに入り、あとでFSRSがちょうどよい時期にもう一度出してくれます。
 
 これは、教科書の1章を渡してデッキを丸ごと作らせる方法とは違います。その場の学習から長期的な復習へ、必要な部分だけを渡す小さな流れです。コネクタが省いてくれるのは、コピー＆ペーストの手間だけです。何を覚えるべきかは、自分で決めます。
 
 ![ChatGPTとCodexで見つけた弱点をMCP経由でFSRSフラッシュカードに保存する学習ワークフロー](/blog/how-to-use-chatgpt-codex-for-studying.png)
 
-## 役割分担：ChatGPTが教え、Codexが保存し、Flashcardsが復習日を決める
+## 役割分担：ChatGPTが教え、Codexが保存し、Nibomoが復習日を決める
 
 役割は、はっきり分かれています。
 
 1. **ChatGPT Study Mode**が質問を出し、ヒントを与え、順を追って理解を助ける。
 2. **あなた**が、どの間違いを今後の復習用カードに残すか決める。
-3. **ChatGPTデスクトップアプリ内のCodexまたはCodex CLI**が、Flashcards MCPを使って、承認したカードを作成したり整えたりする。
+3. **ChatGPTデスクトップアプリ内のCodexまたはCodex CLI**が、Nibomo MCPを使って、承認したカードを作成したり整えたりする。
 4. **Nibomo**が復習の結果を記録し、FSRSで次の復習日を決める。
 
 OpenAIの[Study Mode公式ガイド](https://help.openai.com/en/articles/11780217-chatgpt-study-mode-faq)では、1問ずつ出題し、段階的に考え方を導き、アップロードしたノート、画像、PDFも使える家庭教師として紹介されています。まだ自分の言葉で説明できない部分を見つけるのに向いています。
 
-MCPが必要なのは3番目だけです。Codexが、許可された少数のFlashcardsツールを使うための橋だと考えてください。ツールはワークスペースの一覧を表示し、許可された学習データを読み取り、書き込みを承認したあとでカードやデッキを変更できます。
+MCPが必要なのは3番目だけです。Codexが、許可された少数のNibomoツールを使うための橋だと考えてください。ツールはワークスペースの一覧を表示し、許可された学習データを読み取り、書き込みを承認したあとでカードやデッキを変更できます。
 
 ## まずChatGPTで本当の弱点を見つける
 
@@ -75,23 +75,23 @@ MCPが必要なのは3番目だけです。Codexが、許可された少数のFl
 
 ノートがすでにパソコン上のファイルに入っているなら、Codexのまま、同じように1問ずつ質問してもらうこともできます。候補を見せ、自分が承認するまではカードを書き込まないよう伝えてください。多くの学習者にはChatGPT Study Modeのほうが家庭教師として使いやすく、ローカルファイルやMCPツールを使う段階でCodexが役立ちます。
 
-## CodexをFlashcards MCPサーバーに接続する
+## CodexをNibomo MCPサーバーに接続する
 
 デスクトップアプリでの設定は短く済みます。
 
 1. ChatGPTデスクトップアプリで**Settings > MCP servers**を開く。
 2. **Add server**を選ぶ。
-3. 名前を`Flashcards`にし、**Streamable HTTP**を選んで、次のURLを入力する。
+3. 名前を`nibomo`にし、**Streamable HTTP**を選んで、次のURLを入力する。
 
 ```text
 https://mcp.nibomo.com/mcp
 ```
 
 4. サーバーを保存し、**Restart**を選ぶ。
-5. アプリが再起動したら**Authenticate**を選び、ブラウザでFlashcardsのOAuthログインを完了する。
+5. アプリが再起動したら**Authenticate**を選び、ブラウザでNibomoのOAuthログインを完了する。
 6. Codexで`/mcp`と入力し、サーバーが接続されていることを確認する。
 
-この手順は、OpenAIの[ChatGPTデスクトップアプリとCodex向けMCP設定ガイド](https://learn.chatgpt.com/docs/extend/mcp)に沿っています。FlashcardsはブラウザからのログインにOAuthを使うため、通常のデスクトップ利用でAPIキーを貼り付ける必要はありません。接続で困ったときは、[Nibomo MCPドキュメント](/ja/docs/mcp-connector/)で認証方法とツール仕様を確認できます。
+この手順は、OpenAIの[ChatGPTデスクトップアプリとCodex向けMCP設定ガイド](https://learn.chatgpt.com/docs/extend/mcp)に沿っています。NibomoはブラウザからのログインにOAuthを使うため、通常のデスクトップ利用でAPIキーを貼り付ける必要はありません。接続で困ったときは、[Nibomo MCPドキュメント](/ja/docs/mcp-connector/)で認証方法とツール仕様を確認できます。
 
 書き込みは、実行前に毎回確認してください。ワークスペースの一覧表示は読み取り専用ですが、保存済みのカードの作成、書き直し、整理、削除はデータを変更します。学校や勤務先がChatGPTを管理している場合、管理者が利用できるMCPサーバーやツールを制限していることもあります。
 
@@ -100,7 +100,7 @@ https://mcp.nibomo.com/mcp
 デスクトップアプリでCodexに切り替え、最終候補を渡します。私なら、次のように頼みます。
 
 ```text
-Flashcards MCPサーバーを使ってください。まずワークスペースの一覧を表示し、
+Nibomo MCPサーバーを使ってください。まずワークスペースの一覧を表示し、
 どこにカードを保存するか確認してください。書き込む前に、表面、裏面、タグ、
 デッキの変更案を見せてください。私が承認したカードだけを作成してください。
 書き込み後は、保存されたカードをもう一度読み取って、内容を確認できるようにしてください。
@@ -142,13 +142,13 @@ Codexは最初に、読み取り専用のワークスペース一覧ツールを
 値を見せ、書き込み後は保存されたカードをもう一度読み取ってください。
 ```
 
-Flashcardsのデッキは、保存済みのフィルターです。カードを別のデッキに移すときは、タグが変更される場合があるため、タグも確認してください。同じ「読み取る、確認する、承認する」の流れで、デッキの作成、少数のカードの整理、自分が明示したカードの削除もできます。データを変更できるツールへ「問題のありそうなカードを全部削除して」と頼むのは危険です。
+Nibomoのデッキは、保存済みのフィルターです。カードを別のデッキに移すときは、タグが変更される場合があるため、タグも確認してください。同じ「読み取る、確認する、承認する」の流れで、デッキの作成、少数のカードの整理、自分が明示したカードの削除もできます。データを変更できるツールへ「問題のありそうなカードを全部削除して」と頼むのは危険です。
 
-## FSRSの復習として数えられるのは、Flashcardsが記録したもの
+## FSRSの復習として数えられるのは、Nibomoが記録したもの
 
 MCPコネクタは、許可された復習履歴とスケジュール項目を読み取れます。ただし、SQLの書き込みツールから`review_events`を作成したり、Again、Hard、Good、Easyの評価を送ったり、FSRSの状態やスケジュールを変更したりすることはできません。コネクタが評価を記録できるのはこれとは別の`submit_review`ツールを使う場合だけなので、復習はアプリで行うことも、Codexに任せることもできます。
 
-カードの復習日が来たら、[Nibomo web app](https://app.flashcards-open-source-app.com/)またはモバイルアプリを開きます。答えを思い出してから裏面を表示し、そこで評価を選んでください。Flashcardsが復習を記録し、その結果を使ってFSRSが次にカードを出す時期を決めます。
+カードの復習日が来たら、[Nibomo web app](https://app.flashcards-open-source-app.com/)またはモバイルアプリを開きます。答えを思い出してから裏面を表示し、そこで評価を選んでください。Nibomoが復習を記録し、その結果を使ってFSRSが次にカードを出す時期を決めます。
 
 許可したカードのデータを使い、Codexに会話形式で問題を出してもらうこともできます。これは追加の練習で、出題だけでは復習は記録されず、次の復習日も変わりません。正式な復習をしたいときは、復習用のツールで進めるようCodexに頼んでください。Codexは`next_review_card`で表面だけを表示し、答えたあと`reveal_answer`で裏面を表示し、`submit_review`で評価を記録するので、FSRSがカードの次の復習日を決め直せます。自分で評価を選びたいと伝えない限り、回答の評価はCodexが行います。[AIフラッシュカード家庭教師のガイド](/ja/blog/ai-flashcard-tutor-due-cards/)で、この復習の流れを詳しく説明しています。
 
@@ -159,8 +159,8 @@ MCPコネクタは、許可された復習履歴とスケジュール項目を�
 次のコマンドでリモートサーバーを追加します。
 
 ```bash
-codex mcp add flashcards --url https://mcp.nibomo.com/mcp
-codex mcp login flashcards
+codex mcp add nibomo --url https://mcp.nibomo.com/mcp
+codex mcp login nibomo
 ```
 
 `codex mcp list`で保存されたサーバーを確認し、Codex CLI内では`/mcp`を使って有効なツールを確認できます。同じパソコン（Codexホスト）では、デスクトップアプリ内のCodex、Codex CLI、IDE拡張機能が`config.toml`を共有します。サーバーを一度設定し、必要ならほかのローカルクライアントを再起動すれば、そちらにも表示されます。ChatGPTのWeb版は、このファイルを読み取りません。
@@ -168,7 +168,7 @@ codex mcp login flashcards
 画面のないサーバーなど、ブラウザでOAuth認証しにくい環境では、有効期間の長い`fca_`エージェントキーをBearerトークンとして利用できます。キーそのものではなく、キーを入れた環境変数の名前を登録します。
 
 ```bash
-codex mcp add flashcards \
+codex mcp add nibomo \
   --url https://mcp.nibomo.com/mcp \
   --bearer-token-env-var FLASHCARDS_MCP_TOKEN
 ```
@@ -179,7 +179,7 @@ codex mcp add flashcards \
 
 ChatGPTのWeb版は、ローカルのCodexに保存された`config.toml`のMCPサーバーを読み取りません。Web版では、リモートのMCPを使うツールは**ChatGPT Work**のプラグイン経由で提供され、利用できるプラグインやツールはワークスペースの管理者が制御できます。
 
-カスタムMCPアプリを使う場合は、別途Web版の設定が必要です。ChatGPT Developer modeを使い、利用できるかどうかや書き込み権限は、アカウントとワークスペースによって異なります。カスタムアプリを追加または公開できるワークスペースなら、OpenAIの[Developer modeとMCPアプリのガイド](https://help.openai.com/en/articles/12584461-developer-mode-apps-and-full-mcp-connectors-in-chatgpt-beta)に従い、Flashcardsの書き込みツールが動くと考える前に、有効になっている操作を確認してください。
+カスタムMCPアプリを使う場合は、別途Web版の設定が必要です。ChatGPT Developer modeを使い、利用できるかどうかや書き込み権限は、アカウントとワークスペースによって異なります。カスタムアプリを追加または公開できるワークスペースなら、OpenAIの[Developer modeとMCPアプリのガイド](https://help.openai.com/en/articles/12584461-developer-mode-apps-and-full-mcp-connectors-in-chatgpt-beta)に従い、Nibomoの書き込みツールが動くと考える前に、有効になっている操作を確認してください。
 
 使い方は、次の4つに分かれます。
 
@@ -198,7 +198,7 @@ ChatGPTのWeb版は、ローカルのCodexに保存された`config.toml`のMCP�
 含めてください。新しいカードや新しい事実は追加しないでください。
 ```
 
-一度読み返し、残したいカードだけをFlashcardsへコピーして、いつもの復習に進みます。非公開の教材を扱う場合、学校が管理するアカウントを使っている場合、AIクライアントに保存済みのカードを読ませたくない場合には、手動入力が無理のない選択です。
+一度読み返し、残したいカードだけをNibomoへコピーして、いつもの復習に進みます。非公開の教材を扱う場合、学校が管理するアカウントを使っている場合、AIクライアントに保存済みのカードを読ませたくない場合には、手動入力が無理のない選択です。
 
 関連記事の[ChatGPT Study Modeをフラッシュカードに変える方法](/ja/blog/how-to-turn-chatgpt-study-mode-into-flashcards/)では、コネクタを使わず、家庭教師との対話からカードを作る流れに焦点を当てています。[ChatGPTでフラッシュカードを作る方法](/ja/blog/how-to-use-chatgpt-to-make-flashcards/)では、ノートからカード案を作る、より広い使い方を紹介しています。Anthropicのツールも使うなら、[Claudeで勉強する方法](/ja/blog/how-to-use-claude-for-studying/)で、Claude独自のコネクタ設定を使い、家庭教師からMCPへ引き継ぐ同じ流れを確認できます。
 
@@ -206,4 +206,4 @@ ChatGPTのWeb版は、ローカルのCodexに保存された`config.toml`のMCP�
 
 ChatGPTとの良い学習セッションが20分続いても、できあがるカードは3枚で十分かもしれません。それで問題ありません。会話は内容を理解するために役立ち、カードはあとで必要になる弱点だけを残せばよいからです。
 
-私がすすめる**ChatGPTとCodexの学習ワークフロー**は単純です。質問に答え、思い出せなかったところに気づき、少数の分かりやすいカードを承認し、Flashcards MCPで保存します。FSRSの復習はFlashcardsで行います。コネクタが省くのはコピー＆ペーストです。あとで何を復習するかは、今の自分が決めます。
+私がすすめる**ChatGPTとCodexの学習ワークフロー**は単純です。質問に答え、思い出せなかったところに気づき、少数の分かりやすいカードを承認し、Nibomo MCPで保存します。FSRSの復習はNibomoで行います。コネクタが省くのはコピー＆ペーストです。あとで何を復習するかは、今の自分が決めます。
