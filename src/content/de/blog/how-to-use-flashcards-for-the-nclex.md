@@ -245,7 +245,7 @@ Weil der NCLEX eine fünfstündige CAT-Prüfung ist und das offizielle Bulletin 
 
 Hier wird auch der Unterschied zwischen einem Deck für die Pflegeausbildung und einem NCLEX-Deck sehr deutlich. Die Version für die Pflegeausbildung kann mehr inhaltliches Ausfransen tolerieren. Die Version **Flashcards für den NCLEX** sollte straffer, selektiver und weniger von Vollständigkeitsdrang geprägt wirken.
 
-## Wo Flashcards hineinpasst
+## Wo Nibomo hineinpasst
 
 [Nibomo](https://nibomo.com/) passt gut zu diesem Workflow, weil es dir die langweiligen Dinge gibt, die hier zählen: kleine Vorderseiten-/Rückseiten-Karten, Tags, gefilterte Wiederholung und FSRS-Planung, sobald die Karten sauber genug sind, um ihr zu vertrauen.
 

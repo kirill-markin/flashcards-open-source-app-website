@@ -81,7 +81,7 @@ Bei laufender Automatisierung muss deine Software bestimmte Aufgaben wiederholt 
 
 Der sichere Weg ist ein Karteikartensystem, das ausdrücklich dokumentiert, wie sich externe Software authentifiziert und welche Lese- und Schreibvorgänge unterstützt werden. Das kann bedeuten, für den automatisierten Ablauf eine Alternative zur Quizlet-API zu wählen und Quizlet weiterhin nur für die offiziell unterstützten Lernaufgaben einzusetzen.
 
-## Was die API-Alternative von Flashcards tatsächlich bietet
+## Was die API-Alternative von Nibomo tatsächlich bietet
 
 Nibomo veröffentlicht zwei Zugangswege zu derselben begrenzten Schnittstelle für die Daten des jeweiligen Nutzers:
 

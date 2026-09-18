@@ -246,7 +246,7 @@ Wenn dein Rohmaterial als Notizen, Artikelauszüge oder Fragen-Reviews beginnt, 
 - [Wie du 2026 Notizen in Flashcards verwandelst: KI-Entwürfe mit FSRS statt manuellem Kopieren und Einfügen](https://nibomo.com/de/blog/turn-notes-into-flashcards/)
 - [Wie du 2026 einen Artikel in Flashcards verwandelst: Die wichtigen Ideen behalten statt Highlights zu horten](https://nibomo.com/de/blog/how-to-turn-an-article-into-flashcards/)
 
-## Wo Flashcards in diesem GRE-Workflow passt
+## Wo Nibomo in diesem GRE-Workflow passt
 
 Wenn du das mit [Nibomo](https://nibomo.com/de/) umsetzen willst, ist der nützliche Teil nicht die vage Behauptung, dass "KI das Lernen einfacher macht". Der nützliche Teil ist, dass das aktuelle Produkt schon den praktischen Mittelteil dieses Workflows unterstützt:
 
@@ -272,7 +272,7 @@ Wenn du **GRE-Vokabel-Flashcards** willst, die deinen Verbal-Score wirklich bewe
 
 Das ist die Version eines **GRE-Vokabeldecks**, der ich trauen würde.
 
-Wenn du diesen Workflow in Flashcards ausprobieren willst:
+Wenn du diesen Workflow in Nibomo ausprobieren willst:
 
 - [Starte mit Nibomo](https://nibomo.com/de/)
 - [Öffne die Web-App](https://app.flashcards-open-source-app.com/)

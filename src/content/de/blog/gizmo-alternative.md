@@ -111,7 +111,7 @@ Das beweist **nicht**, dass Gizmo offline nicht funktioniert. Es bedeutet nur, d
 
 Diese Unterscheidung ist wichtig, denn „ein bereits geladener Bildschirm reagiert weiterhin“ und „mein Wiederholungsverlauf wird sicher gespeichert und später synchronisiert“ sind zwei verschiedene Aussagen. Der [Leitfaden zu Offline-Lernkarten-Apps](/blog/best-offline-flashcards-app/) wendet diesen strengeren Test auf mehrere Produkte an.
 
-## Gizmo vs. Flashcards auf einen Blick
+## Gizmo vs. Nibomo auf einen Blick
 
 | Entscheidungspunkt | Gizmo | Nibomo |
 | --- | --- | --- |
@@ -124,19 +124,19 @@ Diese Unterscheidung ist wichtig, denn „ein bereits geladener Bildschirm reagi
 | Datenexport | Der Export von Karten und Decks ist derzeit nicht verfügbar | Exportdateien enthalten Karten, Tags und zugehörige Medien |
 | Kontrolle über das Deployment | Keine Self-Hosting-Aussage auf den geprüften offiziellen Seiten | Open Source und selbst hostbar |
 
-Flashcards ist nur für die engere Seite dieser Tabelle eine praktische Gizmo-Alternative. Die aktuelle [Funktionsübersicht](/features/) dokumentiert FSRS, KI-gestützte Kartenerstellung, mobiles Offline-Lernen mit Synchronisierung, Exportdateien und Self-Hosting. Ein Gegenstück zu Gizmos Magic Import mit fünf Formaten, Tutor-Lektionen oder Spielebene beschreibt sie nicht.
+Nibomo ist nur für die engere Seite dieser Tabelle eine praktische Gizmo-Alternative. Die aktuelle [Funktionsübersicht](/features/) dokumentiert FSRS, KI-gestützte Kartenerstellung, mobiles Offline-Lernen mit Synchronisierung, Exportdateien und Self-Hosting. Ein Gegenstück zu Gizmos Magic Import mit fünf Formaten, Tutor-Lektionen oder Spielebene beschreibt sie nicht.
 
-## Wann Flashcards besser passt
+## Wann Nibomo besser passt
 
-Wähle Flashcards, wenn du vor allem eine geprüfte Karte mit Vorder- und Rückseite dauerhaft behalten möchtest. Du kannst sie manuell erstellen oder dir von der KI beim Formulieren und Verbessern helfen lassen und dann entscheiden, was gespeichert wird. Für die Wiederholungen kommt FSRS zum Einsatz; [FSRS vs. SM-2](/blog/fsrs-vs-sm-2/) erklärt das Planungsmodell genauer.
+Wähle Nibomo, wenn du vor allem eine geprüfte Karte mit Vorder- und Rückseite dauerhaft behalten möchtest. Du kannst sie manuell erstellen oder dir von der KI beim Formulieren und Verbessern helfen lassen und dann entscheiden, was gespeichert wird. Für die Wiederholungen kommt FSRS zum Einsatz; [FSRS vs. SM-2](/blog/fsrs-vs-sm-2/) erklärt das Planungsmodell genauer.
 
-Die Aussagen zur Offline-Nutzung und zum Datenexport sind eindeutiger. Flashcards dokumentiert mobiles Offline-Lernen mit automatischer Synchronisierung. Der [Leitfaden für die ersten Schritte](/docs/getting-started/) nennt für den iOS-Client eine lokale SQLite-Datenbank und eine Offline-first-Synchronisierung. Die Exportdateien enthalten Karten, Tags und zugehörige Medien und ermöglichen auch Übertragungen zwischen gehosteten und selbst betriebenen Installationen.
+Die Aussagen zur Offline-Nutzung und zum Datenexport sind eindeutiger. Nibomo dokumentiert mobiles Offline-Lernen mit automatischer Synchronisierung. Der [Leitfaden für die ersten Schritte](/docs/getting-started/) nennt für den iOS-Client eine lokale SQLite-Datenbank und eine Offline-first-Synchronisierung. Die Exportdateien enthalten Karten, Tags und zugehörige Medien und ermöglichen auch Übertragungen zwischen gehosteten und selbst betriebenen Installationen.
 
-Der Kompromiss liegt im Funktionsumfang. Die aktuellen Seiten von Flashcards dokumentieren weder ein Gegenstück zu Gizmos Importmenü noch zu den fünf Kartentypen, den Tutor-Lektionen oder dem Belohnungssystem. Wenn diese Funktionen genau das Problem lösen, das dich hierhergeführt hat, passt Gizmo wahrscheinlich besser.
+Der Kompromiss liegt im Funktionsumfang. Die aktuellen Seiten von Nibomo dokumentieren weder ein Gegenstück zu Gizmos Importmenü noch zu den fünf Kartentypen, den Tutor-Lektionen oder dem Belohnungssystem. Wenn diese Funktionen genau das Problem lösen, das dich hierhergeführt hat, passt Gizmo wahrscheinlich besser.
 
 ## Kannst du von Gizmo zu einer anderen App wechseln?
 
-Derzeit nicht ohne Reibungsverluste. Da Gizmo keinen Export anbietet, gibt es keinen üblichen dateibasierten Migrationsweg von Gizmo zu Flashcards oder einer anderen App.
+Derzeit nicht ohne Reibungsverluste. Da Gizmo keinen Export anbietet, gibt es keinen üblichen dateibasierten Migrationsweg von Gizmo zu Nibomo oder einer anderen App.
 
 Der sichere Weg ist manuell und selektiv:
 
@@ -147,14 +147,14 @@ Der sichere Weg ist manuell und selektiv:
 
 Das ist langsamer als ein Importer und nicht verlustfrei. Der nützliche Nebeneffekt: Du übernimmst nur Karten, die eine Qualitätsprüfung bestehen.
 
-Beide Apps parallel zu verwenden, ist eine weitere Möglichkeit. Gizmo kann eine Vorlesung oder Präsentation aufschlüsseln und abwechslungsreiche Übungen anbieten. Flashcards kann eine kleinere Auswahl geprüfter Karten mit Vorder- und Rückseite für FSRS-Wiederholungen verwalten. Die Verbindung zwischen beiden bleibt manuell, weil Gizmo die Karten nicht exportiert.
+Beide Apps parallel zu verwenden, ist eine weitere Möglichkeit. Gizmo kann eine Vorlesung oder Präsentation aufschlüsseln und abwechslungsreiche Übungen anbieten. Nibomo kann eine kleinere Auswahl geprüfter Karten mit Vorder- und Rückseite für FSRS-Wiederholungen verwalten. Die Verbindung zwischen beiden bleibt manuell, weil Gizmo die Karten nicht exportiert.
 
 ## Welcher Lernablauf passt zu dir?
 
 Wähle Gizmo, wenn du mit unübersichtlichem Quellmaterial beginnst und die App daraus eine erste Lernstruktur erstellen soll. Zu den dokumentierten Stärken gehören die Vielfalt der Eingaben, fünf Kartentypen, Tutor-geführtes Lernen, abwechslungsreiche Quizze und Fortschrittsmechaniken.
 
-Wähle Flashcards, wenn du bereits weißt, welcher Stoff in eine dauerhafte Karte mit Vorder- und Rückseite gehört, und FSRS, dokumentiertes mobiles Offline-Lernen, Export oder Self-Hosting dir wichtiger sind als Quizvielfalt und Belohnungen.
+Wähle Nibomo, wenn du bereits weißt, welcher Stoff in eine dauerhafte Karte mit Vorder- und Rückseite gehört, und FSRS, dokumentiertes mobiles Offline-Lernen, Export oder Self-Hosting dir wichtiger sind als Quizvielfalt und Belohnungen.
 
-Ein aussagekräftiger Test von Gizmo AI vergleicht nicht „KI“ mit „keiner KI“. Beide Produkte verwenden KI. Der Unterschied liegt darin, an welcher Stelle sie zum Einsatz kommt. Gizmo nutzt KI, um aus umfangreichem Material eine größere Lernumgebung zu bauen. Flashcards setzt KI in einem kleineren Kartenablauf ein, in dem du entscheidest, was gespeichert und eingeplant wird.
+Ein aussagekräftiger Test von Gizmo AI vergleicht nicht „KI“ mit „keiner KI“. Beide Produkte verwenden KI. Der Unterschied liegt darin, an welcher Stelle sie zum Einsatz kommt. Gizmo nutzt KI, um aus umfangreichem Material eine größere Lernumgebung zu bauen. Nibomo setzt KI in einem kleineren Kartenablauf ein, in dem du entscheidest, was gespeichert und eingeplant wird.
 
 Wenn dieser engere Ablauf eher zu dir passt, sieh dir die [Funktionen von Nibomo](/features/) an oder folge dem [Leitfaden für die ersten Schritte](/docs/getting-started/).

@@ -188,7 +188,7 @@ Zu den [Funktionen von Nibomo](/features/) gehören einfache Karten mit Vorder- 
 - **Good** bei einer richtigen Antwort mit normalem Aufwand
 - **Easy** bei einer mühelosen richtigen Antwort
 
-[Active Recall und Spaced Repetition im Vergleich](/blog/active-recall-vs-spaced-repetition/) erklärt die Aufgabenteilung: Abrufübungen zeigen, was du jetzt wiedergeben kannst; die zeitliche Verteilung bestimmt, wann die geprüfte Karte erneut erscheint. Der [Leitfaden „Erste Schritte“](/docs/getting-started/) beschreibt die gehostete App und das Self-Hosting, falls du den Ablauf in die Praxis umsetzen möchtest. Flashcards stellt kein offizielles Deck zur EU-KI-Verordnung bereit, prüft keine rechtlichen Inhalte und aktualisiert deine Karten nicht, wenn sich die Rechtslage ändert.
+[Active Recall und Spaced Repetition im Vergleich](/blog/active-recall-vs-spaced-repetition/) erklärt die Aufgabenteilung: Abrufübungen zeigen, was du jetzt wiedergeben kannst; die zeitliche Verteilung bestimmt, wann die geprüfte Karte erneut erscheint. Der [Leitfaden „Erste Schritte“](/docs/getting-started/) beschreibt die gehostete App und das Self-Hosting, falls du den Ablauf in die Praxis umsetzen möchtest. Nibomo stellt kein offizielles Deck zur EU-KI-Verordnung bereit, prüft keine rechtlichen Inhalte und aktualisiert deine Karten nicht, wenn sich die Rechtslage ändert.
 
 ## Halte rechtliche Beurteilungen aus der Wiederholungswarteschlange heraus
 

@@ -185,7 +185,7 @@ Ich würde zuerst auf diese Dinge prüfen:
 
 Wenn die Karten schon existieren und sich bereits zu vage anfühlen, ist [Wie du KI-Flashcards reparierst](/de/blog/how-to-fix-ai-flashcards/) der nächste Schritt.
 
-## Wo Flashcards nach der Bereinigung hineinpasst
+## Wo Nibomo nach der Bereinigung hineinpasst
 
 Sobald der Bildinhalt lesbar ist, passt [Nibomo](/de/features/) zum praktischen Teil des Workflows:
 

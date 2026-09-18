@@ -176,7 +176,7 @@ Zumindest einige Proben müssen unter realistischen Bedingungen stattfinden:
 
 Toastmasters empfiehlt, unter denselben körperlichen Bedingungen zu proben, unter denen du später auftreten wirst – also auch im Stehen und in Bewegung, wenn du so vortragen wirst ([Toastmasters, 2024](https://www.toastmasters.org/Magazine/Magazine%20Issues/2024/Feb/Memorizing%20Speeches)). Das Deck hilft dir, dich an den nächsten Inhalt zu erinnern. Bei der Vortragsprobe lernen Stimme und Körper, wie sie ihn vermitteln.
 
-## Wobei Flashcards hilft – und wobei nicht
+## Wobei Nibomo hilft – und wobei nicht
 
 [Nibomo](/de/) eignet sich für den Teil der Redevorbereitung, in dem du dein Gedächtnis trainierst:
 

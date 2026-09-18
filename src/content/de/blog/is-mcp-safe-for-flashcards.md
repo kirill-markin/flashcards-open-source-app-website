@@ -14,11 +14,11 @@ keywords:
   - "Prompt Injection bei MCP"
 ---
 
-Am 20. Mai 2026 veröffentlichte die NSA einen 17-seitigen Sicherheitsleitfaden zum Model Context Protocol. Das ist relevant, sobald ein Deck mehr als allgemein zugängliche Vokabeln enthält: Eine MCP-Verbindung zu Flashcards kann Karten, Workspace-Metadaten und den Wiederholungsverlauf an einen KI-Client senden. Dieselben Zugangsdaten gewähren Vollzugriff auf den Connector. Damit kann der Client auch ein Tool aufrufen, das Karten verändert oder als gelöscht markiert. Für die Frage **Ist MCP für Flashcards sicher?** sind zwei Punkte entscheidend: Dürfen diese Daten den gewählten Client erreichen, und kann der Client die Schreib-Tools nutzen?
+Am 20. Mai 2026 veröffentlichte die NSA einen 17-seitigen Sicherheitsleitfaden zum Model Context Protocol. Das ist relevant, sobald ein Deck mehr als allgemein zugängliche Vokabeln enthält: Eine MCP-Verbindung zu Nibomo kann Karten, Workspace-Metadaten und den Wiederholungsverlauf an einen KI-Client senden. Dieselben Zugangsdaten gewähren Vollzugriff auf den Connector. Damit kann der Client auch ein Tool aufrufen, das Karten verändert oder als gelöscht markiert. Für die Frage **Ist MCP für Flashcards sicher?** sind zwei Punkte entscheidend: Dürfen diese Daten den gewählten Client erreichen, und kann der Client die Schreib-Tools nutzen?
 
-OAuth sichert die Autorisierung und den Token-Austausch ab. Der Flashcards-Server begrenzt, was seine Tools tun dürfen. Doch weder OAuth noch diese Serverregeln können beurteilen, ob eine vorgeschlagene Änderung sinnvoll ist, abgerufene Daten in Flashcards halten oder dafür sorgen, dass ein KI-Client vor einem Schreibvorgang um Erlaubnis fragt.
+OAuth sichert die Autorisierung und den Token-Austausch ab. Der Nibomo-Server begrenzt, was seine Tools tun dürfen. Doch weder OAuth noch diese Serverregeln können beurteilen, ob eine vorgeschlagene Änderung sinnvoll ist, abgerufene Daten in Nibomo halten oder dafür sorgen, dass ein KI-Client vor einem Schreibvorgang um Erlaubnis fragt.
 
-Maßgeblich sind die konkreten Grenzen jedes Tools, die von Flashcards erzwungenen Regeln und die Schutzmaßnahmen, die allein der Client bereitstellt.
+Maßgeblich sind die konkreten Grenzen jedes Tools, die von Nibomo erzwungenen Regeln und die Schutzmaßnahmen, die allein der Client bereitstellt.
 
 ![Warmer Schreibtisch mit getrennten Bereichen für Lese- und Schreibzugriff über Nibomo MCP](/blog/is-mcp-safe-for-flashcards.png)
 
@@ -29,25 +29,25 @@ An einer Remote-MCP-Sitzung können vier Rollen beteiligt sein:
 1. du
 2. die KI-Anwendung oder der MCP-Client, in dem du die Anfrage stellst
 3. gegebenenfalls ein Modellanbieter, wenn die Modellverarbeitung außerhalb dieses Clients stattfindet
-4. der Flashcards-MCP-Server samt Backend
+4. der Nibomo-MCP-Server samt Backend
 
-Manche Produkte vereinen die Rollen von Client und Modellanbieter. Andere leiten Tool-Ergebnisse an einen separaten Dienst weiter. Fest steht nur dieser Schritt: Flashcards sendet die angeforderten Daten an den authentifizierten MCP-Client. Was danach geschieht, hängt von dessen Architektur, Tarif und Einstellungen ab. Das Ergebnis kann in den Kontext eines Modells gelangen, innerhalb der Infrastruktur eines einzigen Anbieters bleiben oder an einen weiteren Datenverarbeiter weitergegeben werden.
+Manche Produkte vereinen die Rollen von Client und Modellanbieter. Andere leiten Tool-Ergebnisse an einen separaten Dienst weiter. Fest steht nur dieser Schritt: Nibomo sendet die angeforderten Daten an den authentifizierten MCP-Client. Was danach geschieht, hängt von dessen Architektur, Tarif und Einstellungen ab. Das Ergebnis kann in den Kontext eines Modells gelangen, innerhalb der Infrastruktur eines einzigen Anbieters bleiben oder an einen weiteren Datenverarbeiter weitergegeben werden.
 
 Praktisch geht es um drei Risiken. Ein Lesezugriff kann Kartentexte, die Deckstruktur, Workspace-Einstellungen oder Wiederholungsereignisse offenlegen. Ein Schreibzugriff kann unerwünschte Karten erstellen, Inhalte ändern, Karten und Decks als gelöscht markieren oder eine Wiederholung erfassen, durch die eine Karte neu eingeplant wird. Außerdem kann der Agent deine Anfrage missverstehen oder Anweisungen aus importiertem Material für Befehle halten.
 
 Der [NSA-Leitfaden zu MCP vom Mai 2026](https://www.nsa.gov/Press-Room/Press-Releases-Statements/Press-Release-View/Article/4496698/nsa-releases-security-design-considerations-for-ai-driven-automation-leveraging/) unterscheidet hier sinnvoll: Authentifizierung, Autorisierung und Validierung bleiben notwendig. Die Risiken dynamischer Tool-Aufrufe, gemeinsam genutzter Kontexte und impliziten Vertrauens können diese Kontrollen jedoch nicht ausräumen. Bei einem öffentlichen Vokabeldeck kann die Entscheidung deshalb anders ausfallen als bei einem Deck aus vertraulichen Kundennotizen.
 
-## Was OAuth bei Flashcards absichert
+## Was OAuth bei Nibomo absichert
 
-Für interaktive MCP-Clients nutzt Flashcards einen Authorization-Code-Flow mit PKCE und Dynamic Client Registration. Du bestätigst die Verbindung im Browser, und PKCE bindet den Code-Austausch an den Client, der ihn gestartet hat. Außerdem prüft der Server, ob das Access-Token für die Flashcards-MCP-Ressource ausgestellt wurde. Der [Leitfaden zum Nibomo-MCP-Connector](/de/docs/mcp-connector/) nennt den Endpunkt und die Discovery-Metadaten.
+Für interaktive MCP-Clients nutzt Nibomo einen Authorization-Code-Flow mit PKCE und Dynamic Client Registration. Du bestätigst die Verbindung im Browser, und PKCE bindet den Code-Austausch an den Client, der ihn gestartet hat. Außerdem prüft der Server, ob das Access-Token für die Nibomo-MCP-Ressource ausgestellt wurde. Der [Leitfaden zum Nibomo-MCP-Connector](/de/docs/mcp-connector/) nennt den Endpunkt und die Discovery-Metadaten.
 
 Diese Maßnahmen sichern die Anmeldung und den Token-Austausch ab. Die stabile [MCP-Autorisierungsspezifikation vom 25. November 2025](https://modelcontextprotocol.io/specification/2025-11-25/basic/authorization) verlangt für diesen Ablauf PKCE und ressourcenspezifische Token. Zugleich ist Autorisierung bei MCP-Implementierungen grundsätzlich optional. OAuth in diesem Connector sagt daher nicht aus, wie ein anderer MCP-Server den Zugriff absichert.
 
-Flashcards weist derzeit genau einen OAuth-Scope aus: `flashcards`. Separate Berechtigungen für Lese- und Schreibzugriff gibt es nicht; dieser Scope gewährt Vollzugriff auf den Connector. „Nur lesend“ ist eine Verbindung deshalb nur dann, wenn der KI-Client sowohl `sql_execute` als auch `submit_review` deaktiviert oder blockiert. Serverseitig ist lediglich garantiert, dass `sql_query` nicht schreiben kann. Sendet der Client einen Aufruf an eines der beiden Schreib-Tools, berechtigen dieselben Zugangsdaten auch dazu.
+Nibomo weist derzeit genau einen OAuth-Scope aus: `flashcards`. Separate Berechtigungen für Lese- und Schreibzugriff gibt es nicht; dieser Scope gewährt Vollzugriff auf den Connector. „Nur lesend“ ist eine Verbindung deshalb nur dann, wenn der KI-Client sowohl `sql_execute` als auch `submit_review` deaktiviert oder blockiert. Serverseitig ist lediglich garantiert, dass `sql_query` nicht schreiben kann. Sendet der Client einen Aufruf an eines der beiden Schreib-Tools, berechtigen dieselben Zugangsdaten auch dazu.
 
 Das Blockieren einzelner Tools im Client ist trotzdem sinnvoll. Die OAuth-Freigabe selbst bleibt dabei unverändert. Ein bösartiger oder kompromittierter Client mit den Zugangsdaten bleibt von dieser Einstellung unberührt.
 
-## Was die Flashcards-MCP-Tools tatsächlich können
+## Was die Nibomo-MCP-Tools tatsächlich können
 
 Der Connector erlaubt keinen beliebigen PostgreSQL-Zugriff, sondern nur einen vom Parser durchgesetzten SQL-Dialekt. Seine sieben Tools haben klar getrennte Zugriffsbereiche:
 
@@ -65,7 +65,7 @@ Der [MCP-Leitfaden](/de/docs/mcp-connector/) und die [API-Referenz](/de/docs/api
 
 ### Wie die Workspace-Auswahl wirklich funktioniert
 
-Jeder SQL-Aufruf betrifft genau einen Workspace. Vor der Ausführung prüft Flashcards erneut, ob der Nutzer noch darauf zugreifen darf. Die ID eines fremden Workspaces allein reicht also nicht für den Zugriff.
+Jeder SQL-Aufruf betrifft genau einen Workspace. Vor der Ausführung prüft Nibomo erneut, ob der Nutzer noch darauf zugreifen darf. Die ID eines fremden Workspaces allein reicht also nicht für den Zugriff.
 
 Der ausgewählte Workspace ist allerdings nur die Voreinstellung. Fehlt `workspaceId`, nutzt das Tool diesen Workspace. Mit einer ausdrücklich angegebenen ID kann dieselbe Verbindung jeden Workspace ansprechen, auf den der Nutzer zugreifen kann. `list_workspaces` liefert IDs nur für die Workspaces im Ergebnis; die Begrenzung auf 100 Ergebnisse ist jedoch keine Isolationsgrenze, denn mit einer ausdrücklich angegebenen `workspaceId` lässt sich weiterhin jeder Workspace ansprechen, auf den der Nutzer zugreifen kann.
 
@@ -75,9 +75,9 @@ Ein Test-Workspace hilft trotzdem dabei, die Darstellung von Tool-Aufrufen im Cl
 
 `list_workspaces` und `sql_query` können Kartendaten nicht verändern. Sie können auch keine Daten reparieren oder die Planung neu berechnen. Ohne `sql_execute` und `submit_review` senkt diese serverseitige Trennung das Risiko versehentlicher Datenbankänderungen deutlich.
 
-Die Ergebnisse verlassen trotzdem das Flashcards-Backend. Eine Abfrage zu schwachen Themen kann Kartentexte und Wiederholungsereignisse enthalten. Selbst eine kurze Karte kann Patientendaten, den Namen eines internen Systems, ein privates Sprachbeispiel oder Notizen für ein Bewerbungsgespräch enthalten.
+Die Ergebnisse verlassen trotzdem das Nibomo-Backend. Eine Abfrage zu schwachen Themen kann Kartentexte und Wiederholungsereignisse enthalten. Selbst eine kurze Karte kann Patientendaten, den Namen eines internen Systems, ein privates Sprachbeispiel oder Notizen für ein Bewerbungsgespräch enthalten.
 
-Die [Datenschutzerklärung von Nibomo](/de/privacy/) gilt auch für Daten, die über MCP und die Agent API angefordert werden. An der Protokollgrenze übermittelt Flashcards das Ergebnis an den MCP-Client. Ob es danach auch ein separater Modellanbieter erhält, wie lange der jeweilige Dienst es speichert und ob es für Training verwendet werden darf, hängt vom Client-Setup und den Bedingungen des Anbieters ab. Behandle „nur lesend“ deshalb nicht als Datenschutzversprechen.
+Die [Datenschutzerklärung von Nibomo](/de/privacy/) gilt auch für Daten, die über MCP und die Agent API angefordert werden. An der Protokollgrenze übermittelt Nibomo das Ergebnis an den MCP-Client. Ob es danach auch ein separater Modellanbieter erhält, wie lange der jeweilige Dienst es speichert und ob es für Training verwendet werden darf, hängt vom Client-Setup und den Bedingungen des Anbieters ab. Behandle „nur lesend“ deshalb nicht als Datenschutzversprechen.
 
 ### Schreibzugriff ist enger begrenzt als voller Datenbankzugriff
 
@@ -87,13 +87,13 @@ Für `UPDATE` und `DELETE` ist eine `WHERE`-Klausel Pflicht. Damit fällt nur di
 
 Bei `cards` und `decks` setzt `DELETE` einen Löschzeitstempel (Tombstone), den die Synchronisierung verwendet; die Datenbankzeile wird nicht sofort entfernt. Gelöschte Einträge verschwinden aus den aktiven Daten. Über MCP lassen sie sich weder rückgängig machen noch wiederherstellen. Nach einer versehentlichen Löschung bleibt daher nur die Wiederherstellung auf anderem Weg oder aus einem Backup.
 
-Die [Nutzungsbedingungen](/de/terms/) fordern Nutzer auf, KI-generierte Ausgaben vor einer Änderung zu prüfen. Das ist hier besonders wichtig: Flashcards kann Anweisungstyp, Ressource, Spalten und Zeilenlimit validieren. Ob die Änderung inhaltlich gewollt ist, kann der Server nicht beurteilen.
+Die [Nutzungsbedingungen](/de/terms/) fordern Nutzer auf, KI-generierte Ausgaben vor einer Änderung zu prüfen. Das ist hier besonders wichtig: Nibomo kann Anweisungstyp, Ressource, Spalten und Zeilenlimit validieren. Ob die Änderung inhaltlich gewollt ist, kann der Server nicht beurteilen.
 
 ## Freigaben liegen allein beim Client
 
-Flashcards kennzeichnet `sql_query` und die übrigen Lese-Tools mit `readOnlyHint` sowie `sql_execute` und `submit_review` mit `destructiveHint`. Im stabilen [MCP-Schema vom 25. November 2025](https://modelcontextprotocol.io/specification/2025-11-25/schema) sind Tool-Annotationen ausdrücklich als Hinweise definiert. Ein kompatibler Client kann daraus seine Freigaberegeln ableiten; erzwingen können die Annotationen nichts.
+Nibomo kennzeichnet `sql_query` und die übrigen Lese-Tools mit `readOnlyHint` sowie `sql_execute` und `submit_review` mit `destructiveHint`. Im stabilen [MCP-Schema vom 25. November 2025](https://modelcontextprotocol.io/specification/2025-11-25/schema) sind Tool-Annotationen ausdrücklich als Hinweise definiert. Ein kompatibler Client kann daraus seine Freigaberegeln ableiten; erzwingen können die Annotationen nichts.
 
-Sobald Flashcards einen gültigen, authentifizierten Aufruf von `sql_execute` oder `submit_review` erhält, führt der Server ihn sofort aus. Flashcards zeigt keinen zweiten Bestätigungsbildschirm. Eine menschliche Freigabe kann daher nur der KI-Client einholen, bevor die Anfrage den Server erreicht.
+Sobald Nibomo einen gültigen, authentifizierten Aufruf von `sql_execute` oder `submit_review` erhält, führt der Server ihn sofort aus. Nibomo zeigt keinen zweiten Bestätigungsbildschirm. Eine menschliche Freigabe kann daher nur der KI-Client einholen, bevor die Anfrage den Server erreicht.
 
 Wie das aussieht, hängt vom Client ab. OpenAIs [Dokumentation zum Entwicklermodus](https://developers.openai.com/api/docs/guides/developer-mode) erklärt beispielsweise, dass Schreibaktionen standardmäßig bestätigt werden müssen und Nutzer eine Entscheidung für eine Unterhaltung speichern können. Laut der [Hilfeseite zu MCP-Apps](https://help.openai.com/en/articles/12584461-developer-mode-and-mcp-apps-in-chatgpt-beta) hängen Freigabeaufforderungen von App-Berechtigungen, Kontext und Workspace-Kontrollen ab. Andere Clients bieten abweichende Kontrollen oder gar keine.
 
@@ -122,25 +122,25 @@ OAuth muss dafür nicht versagen. Der autorisierte Client darf den Schreibvorgan
 
 Der [vollständige MCP-Sicherheitsbericht der NSA](https://www.nsa.gov/Portals/75/documents/Cybersecurity/CSI_MCP_SECURITY.pdf) stuft Tool- und Modellausgaben als nicht vertrauenswürdige Eingaben für den nächsten Verarbeitungsschritt ein. Er empfiehlt strikte Ressourcengrenzen, Parametervalidierung, eine sorgfältige Prüfung von Ausgaben und minimale Berechtigungen. Diese Maßnahmen senken das Risiko, können Prompt Injection aber nicht ausschließen.
 
-Flashcards setzt auf Serverseite einige nützliche Grenzen. Der Parser weist nicht unterstützte Anweisungstypen und Ressourcen zurück, und das MCP-Tool kann weder zu einer Shell noch zu einer uneingeschränkten Datenbankverbindung werden. Eine eingeschleuste Anweisung kann trotzdem eine syntaktisch gültige Änderung an zugänglichen Karten verlangen. Der Server sieht den erlaubten Aufruf, nicht aber die Unterhaltung, die das Modell dazu gebracht hat.
+Nibomo setzt auf Serverseite einige nützliche Grenzen. Der Parser weist nicht unterstützte Anweisungstypen und Ressourcen zurück, und das MCP-Tool kann weder zu einer Shell noch zu einer uneingeschränkten Datenbankverbindung werden. Eine eingeschleuste Anweisung kann trotzdem eine syntaktisch gültige Änderung an zugänglichen Karten verlangen. Der Server sieht den erlaubten Aufruf, nicht aber die Unterhaltung, die das Modell dazu gebracht hat.
 
-Beschränke Sitzungen mit sensiblen Daten auf eine vertrauenswürdige Quelle, einen klar festgelegten Workspace und die Tools, die für die Aufgabe nötig sind. Kombiniere keinen nicht vertrauenswürdigen Import, themenfremde Connectoren und unbeaufsichtigte Schreibvorgänge in Flashcards im selben Agentenlauf. Das schafft keine Isolationsgrenze, macht verdächtige Aufrufe aber leichter erkennbar.
+Beschränke Sitzungen mit sensiblen Daten auf eine vertrauenswürdige Quelle, einen klar festgelegten Workspace und die Tools, die für die Aufgabe nötig sind. Kombiniere keinen nicht vertrauenswürdigen Import, themenfremde Connectoren und unbeaufsichtigte Schreibvorgänge in Nibomo im selben Agentenlauf. Das schafft keine Isolationsgrenze, macht verdächtige Aufrufe aber leichter erkennbar.
 
 ## Dein Client- und Modell-Setup bestimmt die Datenschutzgrenze
 
-Flashcards bleibt die maßgebliche Datenquelle, gibt angeforderte Inhalte aber an den MCP-Client weiter. Ab dort hängt die Verarbeitung vom Produkt ab. Der Client kann das Modell selbst betreiben, einen separaten Anbieter aufrufen, Tool-Ergebnisse im Unterhaltungsverlauf speichern, sie Workspace-Administratoren zugänglich machen oder in eine Memory-Funktion einbeziehen. Je nach Architektur verläuft die Datenschutzgrenze deshalb an einer anderen Stelle.
+Nibomo bleibt die maßgebliche Datenquelle, gibt angeforderte Inhalte aber an den MCP-Client weiter. Ab dort hängt die Verarbeitung vom Produkt ab. Der Client kann das Modell selbst betreiben, einen separaten Anbieter aufrufen, Tool-Ergebnisse im Unterhaltungsverlauf speichern, sie Workspace-Administratoren zugänglich machen oder in eine Memory-Funktion einbeziehen. Je nach Architektur verläuft die Datenschutzgrenze deshalb an einer anderen Stelle.
 
 OpenAI ist ein konkretes Beispiel. Laut der aktuellen [Dokumentation zu Apps in ChatGPT](https://help.openai.com/en/articles/11487775-connector) können abgerufene App-Daten als Antwortkontext dienen und mit Memory oder der Websuche interagieren. Die Dokumentation beschreibt außerdem unterschiedliche Voreinstellungen für das Training: Für Business-, Enterprise- und Edu-Konten gelten andere Vorgaben als für persönliche Tarife mit aktivierter Option „Improve the model for everyone“. Diese Regeln gelten für OpenAI, nicht für MCP allgemein.
 
 Prüfe den konkreten Client, den Kontotyp, die Workspace-Richtlinie, die Region und die Einstellungen, die du verwenden willst. Achte auf Speicherfristen, Training, Memory, Administratorzugriff, Unterauftragsverarbeiter und Löschung. Wenn die Dokumentation nicht beantwortet, ob vertrauliches Ausgangsmaterial den Client verlassen kann, teste diese Frage nicht mit einem echten Deck.
 
-Das gehostete Konto zu löschen, den Connector zu trennen und Kopien bei weiteren Diensten zu löschen sind drei verschiedene Vorgänge. Die [Datenschutzerklärung von Nibomo](/de/privacy/) beschreibt die Löschung gehosteter Daten. Flashcards kann keine Daten entfernen, die ein Client oder Modellanbieter bereits gespeichert hat; nutze dafür auch die Einstellungen des jeweiligen Anbieters.
+Das gehostete Konto zu löschen, den Connector zu trennen und Kopien bei weiteren Diensten zu löschen sind drei verschiedene Vorgänge. Die [Datenschutzerklärung von Nibomo](/de/privacy/) beschreibt die Löschung gehosteter Daten. Nibomo kann keine Daten entfernen, die ein Client oder Modellanbieter bereits gespeichert hat; nutze dafür auch die Einstellungen des jeweiligen Anbieters.
 
 ## Verbindung trennen und Zugangsdaten widerrufen sind nicht dasselbe
 
-Die aktuelle OAuth-Implementierung von Flashcards stellt Access-Token mit einer Laufzeit von einer Stunde und rotierende Refresh-Token ohne festes Ablaufdatum aus. Flashcards bietet derzeit weder eine Benutzeroberfläche zum Widerrufen von OAuth-Verbindungen noch einen öffentlichen Widerrufs-Endpunkt. Entfernst du den Connector, verwirft der Client möglicherweise seine Zugangsdaten. Diese clientseitige Aktion garantiert nicht, dass die Token auch serverseitig ungültig werden.
+Die aktuelle OAuth-Implementierung von Nibomo stellt Access-Token mit einer Laufzeit von einer Stunde und rotierende Refresh-Token ohne festes Ablaufdatum aus. Nibomo bietet derzeit weder eine Benutzeroberfläche zum Widerrufen von OAuth-Verbindungen noch einen öffentlichen Widerrufs-Endpunkt. Entfernst du den Connector, verwirft der Client möglicherweise seine Zugangsdaten. Diese clientseitige Aktion garantiert nicht, dass die Token auch serverseitig ungültig werden.
 
-Die `fca_`-API-Schlüssel für Headless-Agenten sind eine eigene Art von Zugangsdaten. Diese Schlüssel kannst du in Flashcards unter **Agent Connections** widerrufen. Halte die beiden Authentifizierungswege auseinander, wenn du Zugriffe dokumentierst oder beendest.
+Die `fca_`-API-Schlüssel für Headless-Agenten sind eine eigene Art von Zugangsdaten. Diese Schlüssel kannst du in Nibomo unter **Agent Connections** widerrufen. Halte die beiden Authentifizierungswege auseinander, wenn du Zugriffe dokumentierst oder beendest.
 
 Falls dein Bedrohungsmodell einen sofortigen serverseitigen OAuth-Widerruf verlangt, bietet der aktuelle OAuth-Connector diese Kontrolle nicht. Für eine sensible, langfristige Verbindung wiegt diese Einschränkung schwerer als für ein öffentliches Testdeck, das sich leicht ersetzen lässt.
 
@@ -157,13 +157,13 @@ Falls dein Bedrohungsmodell einen sofortigen serverseitigen OAuth-Widerruf verla
 9. Nutze Client-Freigaben, wenn es sie gibt. Bestätige jedes Mal den Workspace und die vollständige Nutzlast; verlass dich nicht darauf, dass `destructiveHint` eine Nachfrage erzwingt.
 10. Beende den Zugriff bewusst. Trenne den OAuth-Connector und entferne seine gespeicherten Zugangsdaten aus dem Client. Beachte dabei die aktuelle Einschränkung beim serverseitigen Widerruf. Widerrufe `fca_`-Schlüssel unter **Agent Connections** und kümmere dich getrennt um Daten, die der Client oder Modellanbieter gespeichert hat.
 
-Die nächsten Einrichtungsschritte stehen in [So verbindest du Flashcards mit Claude über MCP](/de/blog/how-to-connect-flashcards-to-claude-with-mcp/). Der Leitfaden erklärt die einzelnen Klicks; diese Checkliste hilft dir bei der Entscheidung, ob die Verbindung für ein bestimmtes Deck geeignet ist.
+Die nächsten Einrichtungsschritte stehen in [So verbindest du Nibomo mit Claude über MCP](/de/blog/how-to-connect-flashcards-to-claude-with-mcp/). Der Leitfaden erklärt die einzelnen Klicks; diese Checkliste hilft dir bei der Entscheidung, ob die Verbindung für ein bestimmtes Deck geeignet ist.
 
 ## Wo Open Source und Self-Hosting helfen
 
-Der Flashcards-Connector hat einige nützliche Eigenschaften: getrennte Lese- und Schreib-Tools, eine feste Liste erlaubter Anweisungen, die Prüfung der Workspace-Mitgliedschaft bei jedem Aufruf, Planungsfelder, die SQL nicht schreiben kann, und öffentlich zugänglichen Quellcode. Dadurch lässt sich sein Zugriffsbereich leichter prüfen und begrenzen. Diese Kontrollen senken das Risiko; sie können weder einen sicheren Client noch eine richtige Entscheidung des Modells garantieren.
+Der Nibomo-Connector hat einige nützliche Eigenschaften: getrennte Lese- und Schreib-Tools, eine feste Liste erlaubter Anweisungen, die Prüfung der Workspace-Mitgliedschaft bei jedem Aufruf, Planungsfelder, die SQL nicht schreiben kann, und öffentlich zugänglichen Quellcode. Dadurch lässt sich sein Zugriffsbereich leichter prüfen und begrenzen. Diese Kontrollen senken das Risiko; sie können weder einen sicheren Client noch eine richtige Entscheidung des Modells garantieren.
 
-Eine [selbst gehostete Bereitstellung](/de/docs/self-hosting/) kann Speicherung und Betrieb von Flashcards auf eine von dir kontrollierte Infrastruktur verlagern. Abfragen an einen externen KI-Dienst übertragen Kartendaten trotzdem aus dieser Bereitstellung heraus. Für die Verarbeitung durch Modell und Client muss deshalb derselbe Datenschutzstandard gelten wie für die Datenbank.
+Eine [selbst gehostete Bereitstellung](/de/docs/self-hosting/) kann Speicherung und Betrieb von Nibomo auf eine von dir kontrollierte Infrastruktur verlagern. Abfragen an einen externen KI-Dienst übertragen Kartendaten trotzdem aus dieser Bereitstellung heraus. Für die Verarbeitung durch Modell und Client muss deshalb derselbe Datenschutzstandard gelten wie für die Datenbank.
 
 ## Eine einfache Entscheidungsregel
 
@@ -171,4 +171,4 @@ Nutze die MCP-Lese-Tools nur, wenn die angeforderten Daten über den gewählten 
 
 Aktiviere ein Schreib-Tool nur für eine eng begrenzte Aufgabe, wenn der Client vor jedem wichtigen Aufruf pausieren kann, du die Zielzeilen vorab geprüft hast und ein brauchbares Backup vorhanden ist. Ein Batch kann weit mehr als 100 Datensätze erfassen, und eine Löschung lässt sich über MCP nicht rückgängig machen.
 
-Verzichte auf die Verbindung, wenn das Deck nicht mit dem Client oder seinen Datenverarbeitern geteilt werden darf, die Regeln für die weitere Verarbeitung unklar sind, auf demselben Konto strikte Workspace-Isolation nötig ist, ein sofortiger OAuth-Widerruf zwingend erforderlich ist oder der Ablauf unbeaufsichtigte destruktive Schreibvorgänge voraussetzt. Nutze Flashcards in diesen Fällen ohne MCP oder wähle eine Bereitstellung und einen Modellpfad, deren gesamter Datenfluss deine Anforderungen erfüllt.
+Verzichte auf die Verbindung, wenn das Deck nicht mit dem Client oder seinen Datenverarbeitern geteilt werden darf, die Regeln für die weitere Verarbeitung unklar sind, auf demselben Konto strikte Workspace-Isolation nötig ist, ein sofortiger OAuth-Widerruf zwingend erforderlich ist oder der Ablauf unbeaufsichtigte destruktive Schreibvorgänge voraussetzt. Nutze Nibomo in diesen Fällen ohne MCP oder wähle eine Bereitstellung und einen Modellpfad, deren gesamter Datenfluss deine Anforderungen erfüllt.

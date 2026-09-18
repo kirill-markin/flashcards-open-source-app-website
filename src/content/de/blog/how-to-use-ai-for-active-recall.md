@@ -18,7 +18,7 @@ Am Dienstagabend ließ ich mir von einem KI-Tutor ein Statistikkonzept erklären
 
 Genau darin liegt das Problem vieler Workflows mit "KI zum Lernen". KI kann heute sehr gut erklären, coachen und abfragen. Sie kann dir aber auch etwas zu früh das Gefühl geben, schon bereit zu sein.
 
-Die Version, die in der Praxis hält, ist einfacher: Lass die KI zuerst fragen, antworte in eigenen Worten, behalte nur Fehler und Stellen, an denen du ins Stocken geraten bist, und mach aus genau diesen Schwachstellen kleine Flashcards für FSRS. Der KI-Tutor deckt die Lücke auf. Flashcards speichert, ordnet und plant die Wiederholung.
+Die Version, die in der Praxis hält, ist einfacher: Lass die KI zuerst fragen, antworte in eigenen Worten, behalte nur Fehler und Stellen, an denen du ins Stocken geraten bist, und mach aus genau diesen Schwachstellen kleine Flashcards für FSRS. Der KI-Tutor deckt die Lücke auf. Nibomo speichert, ordnet und plant die Wiederholung.
 
 ![Warme Schreibtischszene mit KI-Active-Recall, Flashcards und einem Lernnotizbuch](/blog/how-to-use-ai-for-active-recall.png)
 
@@ -203,7 +203,7 @@ Das Deck sollte nur eine Frage beantworten:
 
 Was konnte ich nicht sauber genug abrufen, sodass ich später noch einmal daran arbeiten will?
 
-## Wo Flashcards hineinpasst
+## Wo Nibomo hineinpasst
 
 [Nibomo](/de/) passt nach der Tutor-Sitzung, sobald klar ist, was wirklich ins Gedächtnis soll.
 
@@ -214,7 +214,7 @@ Es gibt keinen magischen Knopf, der einen guten Chat in Langzeitgedächtnis verw
 3. Forme daraus klare Karten.
 4. Wiederhole sie mit FSRS über die Zeit.
 
-Genau da wird Flashcards nützlich:
+Genau da wird Nibomo nützlich:
 
 - Vorder- und Rückseitenkarten für die Schwachstellen, die du tatsächlich gefunden hast
 - Decks und Tags, damit die Karten nach Kurs, Prüfung oder Thema geordnet bleiben

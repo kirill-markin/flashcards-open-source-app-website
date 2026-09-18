@@ -98,7 +98,7 @@ Genau dafür ist KI hilfreich, wenn du **Lernnotizen in Flashcards verwandelst**
 
 Das fühlt sich weniger nach Automatisierungstheater und mehr nach echter Hilfe an.
 
-## Flashcards hat bereits die richtige Form für diesen Workflow
+## Nibomo hat bereits die richtige Form für diesen Workflow
 
 [Nibomo](https://nibomo.com/) ist hier interessant, weil das Produkt die Teile, die zählen, bereits kombiniert:
 
@@ -114,7 +114,7 @@ Diese Kombination ist wichtig. Viele **KI-Flashcard-Generatoren** sind im Kern G
 - kannst du sie in einem ernsthaften System wiederholen?
 - können die generierten Karten neben dem Rest deines echten Lernmaterials leben?
 
-Genau dort wirkt Flashcards geerdeter als ein einmaliger Generator.
+Genau dort wirkt Nibomo geerdeter als ein einmaliger Generator.
 
 ## FSRS ist wichtiger als der Generierungstrick
 
@@ -171,7 +171,7 @@ Verringere diese Arbeit, und die Gewohnheit lässt sich viel leichter aufrechter
 
 Manche, die nach **Flashcards aus Notizen** suchen, starten nicht bei null. Sie nutzen Spaced Repetition bereits. Sie wissen schon, dass die Grundidee funktioniert. Sie sind nur müde von all den Behelfslösungen zwischen Notizen, Exporten, Kartenerstellung und tatsächlicher Wiederholung.
 
-Genau dort zeigt Flashcards in die richtige Richtung. Es ist eine **quelloffene Flashcards-App**, in der KI-Workflows im echten Lernprodukt leben, statt als losgelöste Demo herumzuschweben.
+Genau dort zeigt Nibomo in die richtige Richtung. Es ist eine **quelloffene Flashcards-App**, in der KI-Workflows im echten Lernprodukt leben, statt als losgelöste Demo herumzuschweben.
 
 Wenn dein Problem eher darin liegt, vorhandene Sammlungen umzuziehen, starte hier:
 

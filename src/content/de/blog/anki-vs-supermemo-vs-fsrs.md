@@ -45,7 +45,7 @@ Das übersichtlichste Denkmodell sieht so aus:
 | [FSRS](https://github.com/open-spaced-repetition/fsrs4anki) | Offener Scheduler und Open-Source-Projekt | Wird von einem Softwareprodukt oder einer Bibliothek implementiert | Entwickler und Nutzer, die eine überprüfbare Scheduling-Logik suchen | Liefert selbst weder Karten noch Editor, Synchronisierung oder Lernoberfläche |
 | [Nibomo](/features/) | Junges Open-Source-Karteikartenprodukt auf Basis von FSRS | FSRS-6 mit fest hinterlegten offiziellen Standardgewichten und konfigurierbaren Scheduling-Einstellungen pro Workspace | Web, iOS, Android, Self-Hosting, API und Workflows mit KI-Agenten | Kleineres Ökosystem als Anki und noch keine personalisierten FSRS-Gewichte |
 
-Die Zeilen sind bewusst nicht symmetrisch. Anki und Flashcards bieten vollständige Karteikarten-Workflows. SuperMemo 20 verbindet Scheduling mit einem wesentlich umfassenderen Lese- und Wissensworkflow. SuperMemo.com bietet ein gehostetes Sprachlernerlebnis. FSRS liefert anderen Anwendungen die Scheduling-Logik.
+Die Zeilen sind bewusst nicht symmetrisch. Anki und Nibomo bieten vollständige Karteikarten-Workflows. SuperMemo 20 verbindet Scheduling mit einem wesentlich umfassenderen Lese- und Wissensworkflow. SuperMemo.com bietet ein gehostetes Sprachlernerlebnis. FSRS liefert anderen Anwendungen die Scheduling-Logik.
 
 ## Was Anki tatsächlich bietet
 
@@ -112,9 +112,9 @@ Bewertungen liefern einem Scheduling-System Signale. Da Produkte unterschiedlich
 
 Die folgenreichste Unterscheidung bei FSRS ist die zwischen Again und Hard. Laut [Anki-Handbuch](https://docs.ankiweb.net/deck-options.html#fsrs) behandelt FSRS Hard als erfolgreichen Abruf und Again als Misserfolg. Wer Hard wählt, weil das nächste Intervall angenehmer aussieht, zeichnet ein Ereignis auf, das gar nicht stattgefunden hat. Der praktische Leitfaden [Again vs Hard](/blog/again-vs-hard-fsrs-flashcards/) behandelt Teilantworten und Grenzfälle ausführlich.
 
-## So implementiert Flashcards FSRS heute
+## So implementiert Nibomo FSRS heute
 
-Flashcards setzt FSRS als konkrete Produktkomponente ein und nicht als vages Etikett für „intelligente Wiederholung“. Die Implementierung wurde am 3. August 2026 anhand des Quellcode-Repositorys beim Commit `9cb013f78767c081f5385a53daa5e4b9fe69d3b6` überprüft.
+Nibomo setzt FSRS als konkrete Produktkomponente ein und nicht als vages Etikett für „intelligente Wiederholung“. Die Implementierung wurde am 3. August 2026 anhand des Quellcode-Repositorys beim Commit `9cb013f78767c081f5385a53daa5e4b9fe69d3b6` überprüft.
 
 Der Backend-Scheduler bildet den offiziellen Ablauf von `ts-fsrs` 5.2.3 nach und verwendet fest die offiziellen FSRS-6-Standardgewichte. Backend, iOS und Android enthalten drei voneinander unabhängige Scheduler-Implementierungen. Die Web-App greift dagegen auf das Backend-Modul zurück, statt eine vierte Implementierung zu pflegen. Gemeinsame Golden-Testvektoren stellen sicher, dass sich alle diese Implementierungen beim Scheduling gleich verhalten.
 
@@ -129,9 +129,9 @@ Für Workspaces gelten standardmäßig:
 - ein maximales Intervall von `36,500` Tagen
 - aktivierter Fuzz
 
-Workspaces können Desired Retention, Steps, das maximale Intervall und Fuzz für künftige Wiederholungen ändern. Flashcards personalisiert die FSRS-Gewichte derzeit **nicht** pro Nutzer und stellt sie dort auch nicht zur Konfiguration bereit; die v1-Gewichte sind fest hinterlegte Standardwerte. Das ist ein wesentlicher Unterschied zu Produkten, die Parameter anhand des individuellen Wiederholungsverlaufs optimieren. Der [Leitfaden zu FSRS-Einstellungen](/blog/fsrs-settings/) erklärt die Folgen für die Arbeitslast, ohne so zu tun, als müsse jeder Regler angepasst werden.
+Workspaces können Desired Retention, Steps, das maximale Intervall und Fuzz für künftige Wiederholungen ändern. Nibomo personalisiert die FSRS-Gewichte derzeit **nicht** pro Nutzer und stellt sie dort auch nicht zur Konfiguration bereit; die v1-Gewichte sind fest hinterlegte Standardwerte. Das ist ein wesentlicher Unterschied zu Produkten, die Parameter anhand des individuellen Wiederholungsverlaufs optimieren. Der [Leitfaden zu FSRS-Einstellungen](/blog/fsrs-settings/) erklärt die Folgen für die Arbeitslast, ohne so zu tun, als müsse jeder Regler angepasst werden.
 
-Auf der Wiederholungsansicht im Web zeigt Flashcards für Again, Hard, Good und Easy jeweils eine Vorschau des berechneten nächsten Intervalls. Die Bewertungen `0`, `1`, `2` und `3` aus Benutzeroberfläche und API werden intern den FSRS-Bewertungen `1` bis `4` zugeordnet. Again steht für einen fehlgeschlagenen Abruf; Hard, Good und Easy stehen für erfolgreiche Abrufe mit jeweils geringerem Aufwand. Alle Clients erinnern bei häufiger Verwendung von Hard daran: Eine Antwort, die du nicht abrufen konntest, gehört unter Again.
+Auf der Wiederholungsansicht im Web zeigt Nibomo für Again, Hard, Good und Easy jeweils eine Vorschau des berechneten nächsten Intervalls. Die Bewertungen `0`, `1`, `2` und `3` aus Benutzeroberfläche und API werden intern den FSRS-Bewertungen `1` bis `4` zugeordnet. Again steht für einen fehlgeschlagenen Abruf; Hard, Good und Easy stehen für erfolgreiche Abrufe mit jeweils geringerem Aufwand. Alle Clients erinnern bei häufiger Verwendung von Hard daran: Eine Antwort, die du nicht abrufen konntest, gehört unter Again.
 
 So bleibt der Scheduler nachvollziehbar und verhält sich auf allen Plattformen konsistent. Gute Karten, ehrliche Bewertungen und das tatsächliche Erledigen der Wiederholungen werden dadurch nicht überflüssig.
 
@@ -179,6 +179,6 @@ Eine praktische Antwort auf **Anki vs SuperMemo vs FSRS** beginnt damit, die fal
 
 Nutze **Anki mit FSRS**, wenn du Ankis ausgereiftes Ökosystem mit einem aktuellen FSRS-Scheduler verbinden möchtest. Prüfe **SuperMemo 20 für Windows**, wenn Incremental Reading und ein umfassender Wissensworkflow unter Windows im Mittelpunkt stehen; FSRS nimmt dort bereits an der Algorithm Arena teil. Betrachte **SuperMemo.com** separat, wenn du eigentlich gehostete Sprachkurse suchst. Prüfe **FSRS-Implementierungen**, wenn du selbst die Scheduling-Schicht entwickelst oder überprüfen möchtest.
 
-Flashcards passt zum neueren Open-Source-Anwendungsfall mit Web, Mobilgeräten, Self-Hosting und KI-Agenten. Es bietet eine FSRS-6-Implementierung mit fest hinterlegten Standardgewichten, die plattformübergreifend auf identisches Verhalten getestet ist, hat aber auch ein jüngeres Produktökosystem.
+Nibomo passt zum neueren Open-Source-Anwendungsfall mit Web, Mobilgeräten, Self-Hosting und KI-Agenten. Es bietet eine FSRS-6-Implementierung mit fest hinterlegten Standardgewichten, die plattformübergreifend auf identisches Verhalten getestet ist, hat aber auch ein jüngeres Produktökosystem.
 
 Wähle zuerst einen Workflow, den du langfristig beibehalten kannst, und konfiguriere darin den Spaced-Repetition-Algorithmus. Das Produkt führt dich zur Wiederholung. Der Scheduler setzt einen modellbasierten Termin. Deine Karten, Bewertungen und Konsequenz liefern weiterhin das eigentliche Lernsignal.

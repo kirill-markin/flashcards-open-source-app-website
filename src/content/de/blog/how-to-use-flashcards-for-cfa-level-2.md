@@ -261,7 +261,7 @@ Diese letzte Review ist wichtiger, als sie aussieht. Wenn deine Themenmischung o
 
 Wenn deine tägliche Warteschlange zäh wird, ist [Wie du 2026 Flashcards schneller wiederholst](/de/blog/how-to-review-flashcards-faster/) eine gute Aufräumrunde, bevor du noch mehr Karten hinzufügst.
 
-## Wo Flashcards hier hineinpasst
+## Wo Nibomo hier hineinpasst
 
 [Nibomo](/de/) passt gut zu diesem Workflow, weil es die Teile, die Level-II-Kandidaten meistens brauchen, schon an einem Ort bündelt:
 

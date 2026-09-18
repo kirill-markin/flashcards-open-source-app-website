@@ -273,7 +273,7 @@ Ich würde sie aus dem dauerhaften Memory Deck heraushalten. Nutze eine kleine t
 
 Tagge diese Karten mit `needs-recheck` und verifiziere sie gegen die offiziellen CFA-Institute-Seiten, bevor du Entscheidungen triffst. Dein langfristiges Deck sollte stabile Abrufziele enthalten. Deine Admin-Erinnerungen sollten leicht überprüfbar bleiben.
 
-## Wo Flashcards in diesen CFA-Workflow passt
+## Wo Nibomo in diesen CFA-Workflow passt
 
 [Nibomo](https://nibomo.com/) passt in diesen Workflow, weil es genau die Teile unterstützt, die ein CFA-Deck braucht, ohne so zu tun, als würde es CFA-Institute-Materialien ersetzen:
 

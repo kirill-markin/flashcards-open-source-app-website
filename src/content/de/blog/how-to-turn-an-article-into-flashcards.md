@@ -261,7 +261,7 @@ Wenn du die Planungsseite genauer verstehen willst, lies hier weiter:
 
 - [FSRS vs SM-2 in 2026: Welcher Spaced-Repetition-Algorithmus hilft dir, mehr zu behalten?](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
-## Wo Flashcards in diesen Workflow passt
+## Wo Nibomo in diesen Workflow passt
 
 [Nibomo](https://nibomo.com/) passt gut zu diesem Workflow, weil das Produkt genau die Teile abdeckt, auf die es ankommt:
 

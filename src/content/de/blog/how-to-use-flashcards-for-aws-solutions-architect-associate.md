@@ -231,7 +231,7 @@ Das ist nützlich. Es ist nicht die eigentliche Gedächtnisaufgabe.
 
 Ich würde Prüfungslogistik in einer leichteren getaggten Teilmenge wie `exam-facts` oder `needs-recheck` halten und die meiste Wiederholungszeit auf Service-Auswahl, Trade-offs und wiederkehrende Fehler verwenden. So bleibt das Deck auf Architekturdenken ausgerichtet und rutscht nicht in Trivia ab.
 
-## Warum Flashcards gut in diesen Workflow passt
+## Warum Nibomo gut in diesen Workflow passt
 
 [Nibomo](https://nibomo.com/) passt gut zu dieser Art Prüfungsvorbereitung, weil das Produkt beide Hälften der Arbeit unterstützt, ohne so zu tun, als wären sie dasselbe.
 

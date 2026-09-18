@@ -260,7 +260,7 @@ Wenn nicht, füge keine weitere Strukturebene hinzu.
 
 Lösch eine.
 
-## Wo Flashcards dazu passt
+## Wo Nibomo dazu passt
 
 [Nibomo](https://nibomo.com/) passt sehr gut zu **wie organisiert man Flashcards**, weil das Produkt bereits die Bausteine hat, die dieser Workflow braucht:
 

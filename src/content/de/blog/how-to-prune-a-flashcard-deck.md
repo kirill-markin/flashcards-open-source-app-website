@@ -220,7 +220,7 @@ Dieser Workflow ist deutlich nützlicher, als so zu tun, als wäre die Antwort a
 
 Meist verlangt das Deck nach Kuratierung.
 
-## Wo Flashcards hineinpasst
+## Wo Nibomo hineinpasst
 
 [Nibomo](/de/features/) passt gut zu dieser Art Bereinigung, weil die Wartungsschritte nah beieinander liegen statt über drei Tabs und eine Tabelle verteilt zu sein:
 

@@ -170,7 +170,7 @@ Wenn du in einer anderen App ein neues, selbst verwaltetes Deck anlegen möchtes
 
 > **Offenlegung:** Ich bin Kirill Markin und entwickle [Nibomo](/features/).
 
-Flashcards ist eine Möglichkeit, den selbst verwalteten Teil dieses Ablaufs aufzubewahren. In der [gehosteten App](/docs/getting-started/) kannst du Karten erstellen und wiederholen, den KI-Chat mit Workspace-Daten und Dateianhängen nutzen und Wiederholungen mit FSRS planen. Das [Repository ist Open Source](https://github.com/kirill-markin/flashcards-open-source-app), und es gibt eine dokumentierte Anleitung zum [Self-Hosting](/docs/self-hosting/).
+Nibomo ist eine Möglichkeit, den selbst verwalteten Teil dieses Ablaufs aufzubewahren. In der [gehosteten App](/docs/getting-started/) kannst du Karten erstellen und wiederholen, den KI-Chat mit Workspace-Daten und Dateianhängen nutzen und Wiederholungen mit FSRS planen. Das [Repository ist Open Source](https://github.com/kirill-markin/flashcards-open-source-app), und es gibt eine dokumentierte Anleitung zum [Self-Hosting](/docs/self-hosting/).
 
 Für diesen Duolingo-Workflow reicht die manuelle Eingabe normalerweise aus. KI kann dir helfen, eine Korrektur aufzuteilen oder eine holprige Frage neu zu formulieren. Sie sollte aber nicht entscheiden, welche Vokabeln aus einer Lektion langfristige Wiederholung verdienen. Diese Entscheidung triffst du: Du weißt, was dir nicht eingefallen ist und was du sagen möchtest.
 

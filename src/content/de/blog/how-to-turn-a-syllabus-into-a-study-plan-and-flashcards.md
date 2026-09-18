@@ -238,7 +238,7 @@ Wenn dein Ziel Prüfungsvorbereitung aus einem größeren Kurspaket ist, passen 
 - [Wie du 2026 mit FSRS für eine Prüfung lernst](/de/blog/how-to-study-for-an-exam-with-fsrs/)
 - [So nutzt du KI 2026 zum Lernen](/de/blog/how-to-use-ai-to-study/)
 
-## Wo Flashcards in diesen Workflow hineinpasst
+## Wo Nibomo in diesen Workflow hineinpasst
 
 [Nibomo](/de/features/) passt in diesen Workflow, sobald der Syllabus schon in eine klare Struktur überführt wurde.
 

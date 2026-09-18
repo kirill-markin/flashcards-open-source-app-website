@@ -242,7 +242,7 @@ Und wenn du das Planungsmodell selbst erklärt haben willst:
 
 - [FSRS vs. SM-2 im Jahr 2026](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
-## Wo Flashcards in diesen Pflege-Workflow passt
+## Wo Nibomo in diesen Pflege-Workflow passt
 
 [Nibomo](https://nibomo.com/) passt gut zu **Flashcards Pflegeausbildung**, weil das Produkt die Bausteine unterstützt, von denen dieser Workflow abhängt:
 

@@ -234,7 +234,7 @@ Es gehört dazu, **bessere Flashcards zu erstellen**.
 
 Ein Deck wird besser, wenn die schlechten Karten verschwinden.
 
-## Warum Flashcards gut zu diesem Workflow passt
+## Warum Nibomo gut zu diesem Workflow passt
 
 [Nibomo](https://nibomo.com/) passt gut dazu, **effektive Flashcards** zu erstellen, weil das Produkt um die Teile herum gebaut ist, die nach dem Entwurf wirklich zählen:
 

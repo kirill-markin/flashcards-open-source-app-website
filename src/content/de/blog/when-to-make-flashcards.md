@@ -236,7 +236,7 @@ Nichts Besonderes daran.
 
 Genau das ist der Punkt.
 
-## Wo Flashcards in diesen Workflow passt
+## Wo Nibomo in diesen Workflow passt
 
 [Nibomo](/de/) passt gut zu diesem Timing, weil die App genau den kurzen Moment zwischen "ich habe das verstanden" und "jetzt brauche ich saubere Karten, bevor die Details verschwimmen" abdeckt.
 

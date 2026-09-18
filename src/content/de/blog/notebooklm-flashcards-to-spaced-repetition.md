@@ -116,7 +116,7 @@ Gute Karten machen meist ein paar wiederkehrende Dinge richtig:
 
 Darum vertraue ich Roh-Exporten aus keinem **AI study tool flashcards**-Workflow vollständig. Das Modell ist großartig im Entwurf. Ein zweiter Durchgang ist es trotzdem wert, bevor das Deck real wird.
 
-## Warum Flashcards hier besser in diesen Workflow passt
+## Warum Nibomo hier besser in diesen Workflow passt
 
 [Nibomo](https://nibomo.com/) passt genau in diese Lücke, weil das Produkt nicht nur Generator und nicht nur Review-Tool ist. Es erlaubt dir, den Bereinigungsschritt dort zu machen, wo später auch das Review passiert.
 
@@ -133,7 +133,7 @@ Das Produkt unterstützt bereits:
 So wird der Weg von **NotebookLM to flashcards** sehr direkt:
 
 1. die NotebookLM-Karten kopieren oder exportieren
-2. sie als Text in den KI-Chat von Flashcards geben
+2. sie als Text in den KI-Chat von Nibomo geben
 3. um kürzere, sauberere Front/Back-Karten bitten
 4. die finalen Karten erst anlegen, wenn die Formulierungen stimmen
 5. sie mit FSRS reviewen, statt sie in einem Source-Notebook liegen zu lassen
@@ -181,7 +181,7 @@ Ich würde ihn absichtlich langweilig halten:
 1. ein Quellset in NotebookLM auswählen
 2. Kandidaten-Flashcards generieren
 3. den Text exportieren oder kopieren
-4. ihn in den KI-Chat von Flashcards einfügen
+4. ihn in den KI-Chat von Nibomo einfügen
 5. um eine Karte pro Fakt oder Konzept bitten
 6. alles Vage oder Repetitive streichen
 7. das finale Deck anlegen
@@ -191,7 +191,7 @@ Das funktioniert, weil jedes Tool genau den Teil übernimmt, in dem es tatsächl
 
 NotebookLM übernimmt Quellverständnis.
 
-Flashcards übernimmt Bereinigung, Kartenerstellung und Review-System.
+Nibomo übernimmt Bereinigung, Kartenerstellung und Review-System.
 
 ## Wie nutzt du NotebookLM-Flashcards 2026 also am besten?
 

@@ -218,7 +218,7 @@ Wenn du Karten erzeugst, bevor du überhaupt weißt, was du wirklich verpasst ha
 
 Wenn du Retrieval Practice machst und die nützlichen Fehler nie in ein echtes Review-System überträgst, hoffst du darauf, dass dein Gedächtnis dein Gedächtnis organisiert. Das geht selten gut aus.
 
-## Wo Flashcards hineinpasst
+## Wo Nibomo hineinpasst
 
 [Nibomo](/de/) passt nach der Erklärung, nach dem Tutor, nach dem Quiz und nach der Übungssitzung hinein.
 

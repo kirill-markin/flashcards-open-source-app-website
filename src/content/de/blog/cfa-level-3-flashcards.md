@@ -178,7 +178,7 @@ Halte die Kartenmenge so klein, dass genug Zeit für Übungsfragen bleibt. Wenn 
 
 Bewahre auch organisatorische Fakten an einem anderen Ort auf. Prüfungsstruktur, Curriculum, Anmelderegeln, Termine und Richtlinien können sich ändern. Die Aussagen zum Prüfungsformat in diesem Artikel wurden am 21. Juli 2026 anhand der Angaben des CFA Institute geprüft. Verifiziere dort deinen Pathway, dein Prüfungsfenster, Fristen, zulässige Hilfsmittel und aktuelle Richtlinien, bevor du Entscheidungen darauf stützt.
 
-## Wo Flashcards in den Lernplan passt
+## Wo Nibomo in den Lernplan passt
 
 [Nibomo](/) hält kleine Wissensbausteine abrufbar, ohne das Curriculum, Item Sets, Constructed Responses oder Mocks zu ersetzen. Die gehostete Web-App unterstützt Karten mit Vorder- und Rückseite, Tags, die Wiederholung fälliger Karten mit FSRS sowie KI-Chat mit Workspace-Daten und Dateianhängen. Das Projekt ist Open Source; sein Repository enthält außerdem einen iOS-Client, und die Android-App ist bei Google Play veröffentlicht.
 

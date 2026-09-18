@@ -30,7 +30,7 @@ Für diese **Bewertung der Flashcard Lab App** wurden die Produktwebsite, die ak
 
 Es gibt keinen automatischen Sieger. Entscheidend ist, wo die maßgebliche Fassung deines Lernmaterials liegen soll: in einem Google Sheet, in einem eigenen offenen Arbeitsbereich oder in einer ausgereiften lokalen Sammlung.
 
-## Flashcard Lab vs Flashcards vs Anki
+## Flashcard Lab vs Nibomo vs Anki
 
 | Kriterium | Flashcard Lab | Nibomo | Anki |
 | --- | --- | --- | --- |
@@ -43,7 +43,7 @@ Es gibt keinen automatischen Sieger. Entscheidend ist, wo die maßgebliche Fassu
 | Preise geprüft am 12. August 2026 | Kostenlose Einstiegsmöglichkeiten mit kostenpflichtigen Funktionen; der US-iPhone-Eintrag zeigte Pro für US$17.99 und Elite für US$19.99 | Die gehosteten Kernfunktionen sind während der Beta kostenlos; die MIT-lizenzierte Software ist kostenlos, aber selbst gehostete Infrastruktur und Anbieter kosten Geld | Desktop, AnkiWeb und AnkiDroid sind kostenlos; US-AnkiMobile kostete einmalig US$24.99 |
 | Open Source / Self-Hosting | Kein offizieller Quellcode des Kernprodukts und keine Self-Hosting-Distribution gefunden | MIT-lizenzierte Anwendung und AWS-Infrastruktur mit einem dokumentierten Weg zum Produktivbetrieb | Open-Source-Desktop-Clients und ein offizieller selbst gehosteter Sync-Server; kein selbst gehostetes AnkiWeb |
 
-Die Tabelle vergleicht bewusst Workflows und nicht die Anzahl der Funktionen. Mit Flashcard Lab bleibt die Tabelle auch als gewöhnliche Tabelle nützlich. Flashcards und Anki speichern einen umfangreicheren Lernstatus im Lernsystem, lösen sich dafür aber vom Sheet-zentrierten Modell.
+Die Tabelle vergleicht bewusst Workflows und nicht die Anzahl der Funktionen. Mit Flashcard Lab bleibt die Tabelle auch als gewöhnliche Tabelle nützlich. Nibomo und Anki speichern einen umfangreicheren Lernstatus im Lernsystem, lösen sich dafür aber vom Sheet-zentrierten Modell.
 
 ## Das Google Sheet bleibt im Mittelpunkt
 
@@ -88,7 +88,7 @@ Flashcard Lab wirbt mit einem Lernmodus für Spaced Repetition. Die offiziellen 
 
 Die geprüften Quellen nennen weder FSRS noch SM-2 oder einen anderen Algorithmus. Sie veröffentlichen keine Intervallformel, zeigen nicht, wie sich eine Antwort auf das Fälligkeitsdatum auswirkt, und sagen nicht, ob der Wiederholungsverlauf im Google Sheet gespeichert wird. Eine verantwortungsvolle **Bewertung von Flashcard Lab** kann diese Lücken nicht mit Vermutungen füllen.
 
-Flashcards dokumentiert dagegen klar, wie die Planung funktioniert. Die [FSRS-6-Dokumentation](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/docs/fsrs-scheduling-logic.md) beschreibt Bewertungen, gespeicherten Zustand, Standardwerte und aktuelle Grenzen. Sie verwendet die offiziellen Standardgewichtungen, statt persönliche Gewichtungen anhand des individuellen Lernverlaufs zu optimieren.
+Nibomo dokumentiert dagegen klar, wie die Planung funktioniert. Die [FSRS-6-Dokumentation](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/docs/fsrs-scheduling-logic.md) beschreibt Bewertungen, gespeicherten Zustand, Standardwerte und aktuelle Grenzen. Sie verwendet die offiziellen Standardgewichtungen, statt persönliche Gewichtungen anhand des individuellen Lernverlaufs zu optimieren.
 
 Anki geht für Menschen, die das System genauer einstellen wollen, noch weiter. Die [FSRS-Einstellungen](https://docs.ankiweb.net/deck-options.html#fsrs) umfassen gewünschte Retention, Parameteroptimierung, Voreinstellungen und Simulationswerkzeuge. Damit ist Anki die ausgereifte Wahl für die Lernplanung, aber nicht automatisch der Sieger für jemanden, der vor allem ohne viel Einrichtung aus einem Sheet lernen möchte.
 
@@ -102,7 +102,7 @@ Die öffentlichen Seiten liefern jedoch keine vollständige Dokumentation zur Of
 
 Das bleibt ungeklärt und ist kein Beweis dafür, dass die Offline-Nutzung nicht funktioniert. Wer jedoch auf Flügen oder mit unzuverlässigem Internet lernen möchte, sollte sich nicht auf ein Verhalten verlassen, das der Anbieter nicht dokumentiert hat.
 
-Flashcards dokumentiert [lokales Speichern nach dem Offline-first-Prinzip](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/docs/architecture.md#offline-first-sync): Karten, Änderungen und Wiederholungen werden im Web und auf Mobilgeräten zuerst lokal gespeichert und nach der erneuten Verbindung synchronisiert. Die Erstanmeldung und das erstmalige Laden des Arbeitsbereichs benötigen weiterhin eine Verbindung; auch KI-Funktionen und nicht im Cache gespeicherte Medien sind ohne Internet nur eingeschränkt verfügbar. Die installierten Clients von Anki halten ihre Arbeitssammlungen lokal vor. Der [Vergleich von Offline-Lernkarten-Apps](/de/blog/best-offline-flashcards-app/) behandelt diese Unterschiede ausführlicher.
+Nibomo dokumentiert [lokales Speichern nach dem Offline-first-Prinzip](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/docs/architecture.md#offline-first-sync): Karten, Änderungen und Wiederholungen werden im Web und auf Mobilgeräten zuerst lokal gespeichert und nach der erneuten Verbindung synchronisiert. Die Erstanmeldung und das erstmalige Laden des Arbeitsbereichs benötigen weiterhin eine Verbindung; auch KI-Funktionen und nicht im Cache gespeicherte Medien sind ohne Internet nur eingeschränkt verfügbar. Die installierten Clients von Anki halten ihre Arbeitssammlungen lokal vor. Der [Vergleich von Offline-Lernkarten-Apps](/de/blog/best-offline-flashcards-app/) behandelt diese Unterschiede ausführlicher.
 
 ## Die Preise von Flashcard Lab hängen von der Nutzungsform ab
 
@@ -154,7 +154,7 @@ Bevor du ein großes Sheet verschiebst:
 4. Vergleiche die entstandenen Vorderseiten, Rückseiten und Zusatztexte, bevor du den Vorgang auf alle Daten ausweitest.
 5. Gehe davon aus, dass Wiederholungsverlauf und Planungsstatus zurückbleiben, solange nicht beide Produkte einen Übertragungsweg dokumentiert haben.
 
-Für den `flashcards.zip`-Export von Flashcards gilt eine ähnliche Einschränkung: Er überträgt aktive Karten, Tags und referenzierte Medien, nicht aber Wiederholungsverlauf, FSRS-Status, Arbeitsbereichseinstellungen, die vollständige Stapelstruktur oder Kontodaten. Open Source allein macht aus einem Inhaltsexport kein vollständiges Backup.
+Für den `flashcards.zip`-Export von Nibomo gilt eine ähnliche Einschränkung: Er überträgt aktive Karten, Tags und referenzierte Medien, nicht aber Wiederholungsverlauf, FSRS-Status, Arbeitsbereichseinstellungen, die vollständige Stapelstruktur oder Kontodaten. Open Source allein macht aus einem Inhaltsexport kein vollständiges Backup.
 
 ## Welchen Workflow solltest du wählen?
 
@@ -164,9 +164,9 @@ Flashcard Lab passt, wenn Google Sheets bereits die Arbeitsgrundlage für das Ma
 
 Berücksichtige vor der Entscheidung die Nachteile: weitreichende Google-Berechtigungen, ein Scheduler ohne veröffentlichte Formel, unklarer vollständiger Offline-Betrieb, undokumentierte genaue Synchronisierungsregeln zwischen den Nutzungsformen und Preise, die für die gewünschte Nutzungsform geprüft werden müssen.
 
-### Wähle Flashcards für einen offenen, Google-unabhängigen Arbeitsbereich
+### Wähle Nibomo für einen offenen, Google-unabhängigen Arbeitsbereich
 
-Flashcards ist die stärkere **Alternative zu Flashcard Lab**, wenn die maßgebliche Datenquelle nicht mehr in Google Sheets liegen soll. Es bietet eigenständige Karten mit Vorder- und Rückseite, dokumentiertes FSRS-6, Offline-first-Speicherung im Web und auf Mobilgeräten, Agentenzugriff, MIT-lizenzierten Code und eine unterstützte Bereitstellung des gesamten Stacks.
+Nibomo ist die stärkere **Alternative zu Flashcard Lab**, wenn die maßgebliche Datenquelle nicht mehr in Google Sheets liegen soll. Es bietet eigenständige Karten mit Vorder- und Rückseite, dokumentiertes FSRS-6, Offline-first-Speicherung im Web und auf Mobilgeräten, Agentenzugriff, MIT-lizenzierten Code und eine unterstützte Bereitstellung des gesamten Stacks.
 
 Es ist keine Abkürzung für den bestehenden Sheets-Workflow. Es gibt weder eine Live-Synchronisierung mit Sheets noch einen direkten Flashcard-Lab-Importer, einen nativen Desktop-Client oder eine verlustfreie Migration der Wiederholungsplanung. Der [Leitfaden für die ersten Schritte](/de/docs/getting-started/) beschreibt den gehosteten Weg. Der [Self-Hosting-Leitfaden](/de/docs/self-hosting/) erklärt den AWS-basierten Produktivbetrieb und den dafür erforderlichen Aufwand.
 
@@ -184,4 +184,4 @@ Flashcard Lab hat eine klare Aufgabe: Zeilen aus Google Sheets in Karten zum Wie
 
 Die Grenzen sind ebenso klar. „Einfache Spaced Repetition“ legt den Algorithmus nicht offen. Die Einträge der mobilen Apps belegen keinen vollständigen Offline-Betrieb. Ein lesbares Sheet beweist nicht, dass der Wiederholungsverlauf portabel ist. Öffentliche Preise auf einer Oberfläche begründen keine universelle Freischaltung.
 
-Wähle Flashcard Lab für den vollständigen Google-Sheets-Workflow. Wähle Flashcards für einen eigenständigen, offenen Arbeitsbereich mit dokumentiertem FSRS-6 und Offline-first-Speicherung. Wähle Anki für ausgereifte lokale Kontrolle und Funktionen für Power-User. Die beste Wahl ist die, bei der die maßgebliche Datenquelle dort liegt, wo du sie tatsächlich pflegen möchtest.
+Wähle Flashcard Lab für den vollständigen Google-Sheets-Workflow. Wähle Nibomo für einen eigenständigen, offenen Arbeitsbereich mit dokumentiertem FSRS-6 und Offline-first-Speicherung. Wähle Anki für ausgereifte lokale Kontrolle und Funktionen für Power-User. Die beste Wahl ist die, bei der die maßgebliche Datenquelle dort liegt, wo du sie tatsächlich pflegen möchtest.
