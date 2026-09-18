@@ -211,7 +211,7 @@ AI プロンプトから直接カードを作っているなら、こちらも�
 
 - [2026年にChatGPTでフラッシュカードを作る方法: プロンプトを整え、カードを磨き、FSRSで復習を回す](https://nibomo.com/blog/how-to-use-chatgpt-to-make-flashcards/)
 
-## Flashcards がこの流れに向いている理由
+## Nibomo がこの流れに向いている理由
 
 [Nibomo](https://nibomo.com/) は、このワークフローと相性が良いです。問題の両側を 1 つの製品で扱えるからです。
 

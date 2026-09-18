@@ -168,7 +168,7 @@ PDF は、たいていもっと整っています。
 
 - [2026年版 PDFをフラッシュカード化する方法: 講義スライド・教科書・論文からFSRS向けカードを作る](https://nibomo.com/blog/how-to-turn-a-pdf-into-flashcards/)
 
-## Flashcards がこの流れに合う理由
+## Nibomo がこの流れに合う理由
 
 [Nibomo](https://nibomo.com/) は、手書きノートをフラッシュカードにしたいときに相性が良いです。大事な部品がすでに同じ場所に揃っているからです。
 

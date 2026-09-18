@@ -229,7 +229,7 @@ AI は、解説から候補カードを下書きするのは得意です。た�
 
 この部分をもっと詰めたいなら、[2026年版 より良いフラッシュカードの作り方](/ja/blog/how-to-make-better-flashcards/) と [2026年版 AIでアクティブリコールする方法](/ja/blog/how-to-use-ai-for-active-recall/) が COMLEX の流れと相性のよい補助記事です。
 
-## Flashcards が入る場所
+## Nibomo が入る場所
 
 [Nibomo](/ja/) が最も活きるのは、何を保持する価値があるかが見えたあとです。
 

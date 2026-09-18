@@ -220,7 +220,7 @@ keywords:
 - [2026年版 FSRSで試験勉強する方法](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)
 - [2026年版 FSRSとSM-2の違い](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
-## このロースクール運用の中で Flashcards がはまる場所
+## このロースクール運用の中で Nibomo がはまる場所
 
 [Nibomo](https://nibomo.com/) の中でこの運用を回すなら、便利なのは抽象的な意味で「AIがカードを作る」ことではありません。今の製品が、面倒だけれど実際には必要な中間作業をすでに支えていることです。
 
@@ -245,7 +245,7 @@ keywords:
 
 私が信頼する **ロースクール フラッシュカード** は、この形です。
 
-この運用を Flashcards で試したいなら、次から始められます。
+この運用を Nibomo で試したいなら、次から始められます。
 
 - [Nibomo を始める](https://nibomo.com/)
 - [Web アプリを開く](https://app.flashcards-open-source-app.com/)

@@ -224,7 +224,7 @@ LEQ は、年号だけのデッキがすぐ通用しなくなる場所です。�
 
 大きい既製デッキや古い **APUSH Anki** の設定から移行するなら、[2026年版 Ankiからオープンソースのフラッシュカードアプリへ移行する方法](/blog/migrate-from-anki-txt-export-open-source-flashcards/) が整理に向いています。スケジューリング側は、[2026年版 FSRSで試験勉強する方法](/blog/how-to-study-for-an-exam-with-fsrs/) が一番相性のいい補助記事です。
 
-## APUSHの学習フローの中で、Flashcardsはどこにはまるのか
+## APUSHの学習フローの中で、Nibomoはどこにはまるのか
 
 [Nibomo](https://nibomo.com/) でこの流れを回したいなら、役に立つのは「このアプリが APUSH を全部何とかしてくれる」という大きすぎる約束ではありません。
 

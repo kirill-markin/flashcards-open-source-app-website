@@ -234,7 +234,7 @@ AP Biology の復習には、ごく普通の形でムラがあります。安定
 
 スケジューリング面をもう少し詳しく知りたいなら、[2026年版 FSRSで試験勉強する方法](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/) が直接の相方です。
 
-## このAP Biologyの学習フローで、Flashcardsはどこにはまるのか
+## このAP Biologyの学習フローで、Nibomoはどこにはまるのか
 
 [Nibomo](https://nibomo.com/) でこの流れを回したいなら、役に立つのは「AIが魔法みたいに生物を学習してくれる」という曖昧な約束ではありません。
 

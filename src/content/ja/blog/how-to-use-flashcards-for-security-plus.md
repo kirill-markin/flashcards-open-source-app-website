@@ -340,7 +340,7 @@ FSRS がうまく機能するのは、カードが次の条件を満たすとき
 
 - [2026年版 ベストなオフライン対応フラッシュカードアプリ](https://nibomo.com/blog/best-offline-flashcards-app/)
 
-## このワークフローで Flashcards が合う理由
+## このワークフローで Nibomo が合う理由
 
 [Nibomo](https://nibomo.com/) は、**Security+ フラッシュカード** とかなり相性がいいです。5つの別ツールをつなぎ合わせなくても、すでにワークフローに合った形になっているからです。
 

@@ -176,7 +176,7 @@ Hamilton CollegeのOral Communication Centerは、紙のノートカードには
 
 Toastmastersは、本番で立って動きながら話すなら、その姿勢や動きも含めてリハーサルするよう勧めています（[Toastmasters, 2024](https://www.toastmasters.org/Magazine/Magazine%20Issues/2024/Feb/Memorizing%20Speeches)）。デッキは次に話す内容を思い出す助けになります。話し方のリハーサルでは、それを伝えるための声や体の使い方を身に付けます。
 
-## Flashcardsが役立つ範囲と、役立たない範囲
+## Nibomoが役立つ範囲と、役立たない範囲
 
 [Nibomo](/ja/)が役立つのは、スピーチ準備のうち記憶を鍛える部分です。
 

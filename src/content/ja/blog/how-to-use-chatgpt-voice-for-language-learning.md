@@ -248,7 +248,7 @@ keywords:
 
 - [2026年の FSRS vs SM-2: どの間隔反復アルゴリズムがより多く覚えられるか](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
-## Flashcards がこの用途に合う理由
+## Nibomo がこの用途に合う理由
 
 [Nibomo](https://nibomo.com/) がこのワークフローに向いているのは、音声ベースの語学練習に必要なものが、すでにきれいにそろっているからです。
 

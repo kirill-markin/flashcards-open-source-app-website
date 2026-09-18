@@ -246,7 +246,7 @@ FSRS が得意なのは、まさにそこです。
 
 [How to Study for an Exam With FSRS in 2026](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/) は、スケジューリング側をもっと詳しく扱っています。
 
-## このAP CalculusワークフローでFlashcardsが合う場所
+## このAP CalculusワークフローでNibomoが合う場所
 
 [Nibomo](https://nibomo.com/) は、この AP Calculus の流れと相性がいいです。ただし、この記事を売り込みにしたいわけではありません。
 
