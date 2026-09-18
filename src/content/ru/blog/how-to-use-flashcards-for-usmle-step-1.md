@@ -315,7 +315,7 @@ FSRS - это тот слой расписания, которому я бы д�
 
 Если хотите подробнее разобраться именно с частью про расписание, то [How to Study for an Exam With FSRS in 2026](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/) - прямая парная статья. Если очередь у вас уже выходит из-под контроля, то следующим полезным чтением будет [How Many New Flashcards Per Day in 2026](https://nibomo.com/blog/how-many-new-flashcards-per-day/).
 
-## Как Flashcards вписывается в процесс подготовки к Step 1
+## Как Nibomo вписывается в процесс подготовки к Step 1
 
 Если вы хотите выстроить все это внутри [Nibomo](https://nibomo.com/), ценность не в расплывчатом обещании, что AI "выучит за вас медицину".
 
