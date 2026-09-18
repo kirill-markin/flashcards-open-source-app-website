@@ -27,7 +27,7 @@ Marketing website for Nibomo. Static Next.js site deployed on Vercel.
 
 ## BigQuery Analytics
 
-- BigQuery contains the Google Search Console bulk export for `flashcards-open-source-app.com`, enabled on 2026-08-09. Use it for page and query clicks, search impressions, CTR, and average position; do not expect exported data from before this date.
+- BigQuery contains the Google Search Console bulk export, enabled on 2026-08-09 for `flashcards-open-source-app.com`; rows from before the move to `nibomo.com` carry the old domain. Use it for page and query clicks, search impressions, CTR, and average position; do not expect exported data from before this date.
 - Use `npm run bigquery:query` with GoogleSQL on stdin for Search Console and SEO analysis; the implementation is `scripts/queryBigQuery.ts`.
 - The ignored `.env.bigquery.local` stores the local key path, project ID, location, and per-query byte limit. The service-account JSON stays outside the repository.
 - Never use or modify `gcloud` authentication for this integration, and never commit local configuration or credentials. If the configuration, key, or API access is unavailable, ask the user to provision or restore it instead of falling back to another Google identity.
@@ -61,16 +61,19 @@ Marketing website for Nibomo. Static Next.js site deployed on Vercel.
 
 ## Auth Integration
 
-The site has zero auth logic. It only checks whether the `logged_in` cookie is present (set by `auth.flashcards-open-source-app.com` on `.flashcards-open-source-app.com`) to switch between "Log In / Sign Up" and "Open App" buttons. There is no JWT verification.
+The site has zero auth logic. It only checks whether the `logged_in` cookie is present (set by `auth.flashcards-open-source-app.com` on `.flashcards-open-source-app.com`) to switch between "Log In / Sign Up" and "Open App" buttons. There is no JWT verification. The site is served from `nibomo.com`, which cannot read a cookie scoped to the old domain, so signed-in visitors keep seeing the signed-out buttons; both still land in the app. This degradation is accepted and no cross-domain session check is added.
 
 ## Domain Layout
 
 | Domain | What | Where |
 | --- | --- | --- |
-| `flashcards-open-source-app.com` | This marketing site | Vercel |
+| `nibomo.com` | This marketing site | Vercel |
+| `flashcards-open-source-app.com` | Former marketing domain, redirects here | Vercel |
 | `app.flashcards-open-source-app.com` | Main app | AWS CloudFront + S3 |
 | `auth.flashcards-open-source-app.com` | Cognito auth UI/API | AWS API Gateway + Lambda |
 | `api.flashcards-open-source-app.com` | Backend API | AWS API Gateway + Lambda |
+
+`flashcards-open-source-app.com` and both `www` hosts issue one path-preserving 308 redirect to `nibomo.com` and stay alive permanently; the app, auth and API hosts keep the old domain.
 
 ## Client Entry Points
 
