@@ -309,7 +309,7 @@ Flashcards مشروع مفتوح المصدر، لذلك يمكنك فحص هذ�
 
 روابط مفيدة:
 
-- [موقع Flashcards](https://nibomo.com/)
+- [موقع Nibomo](https://nibomo.com/)
 - [التطبيق المستضاف](https://app.flashcards-open-source-app.com/)
 - [البدء](https://nibomo.com/docs/getting-started/)
 - [مستودع GitHub](https://github.com/kirill-markin/flashcards-open-source-app)

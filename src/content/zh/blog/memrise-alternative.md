@@ -35,7 +35,7 @@ Flashcards 不是 Memrise 的免费开源复刻版。它可以替代学习流程
 
 ## Memrise vs Flashcards：快速对比
 
-| 对比项 | Memrise | Flashcards |
+| 对比项 | Memrise | Nibomo |
 |---|---|---|
 | 最适合 | 通过现成的官方语言内容学习，并练习多种语言技能 | 记住自己从其他学习来源中挑选的材料 |
 | 从零开始 | 更容易：Memrise 提供实用单词、短语、场景和练习 | 更难：你必须创建或生成卡片，还要判断哪些内容值得学习 |
@@ -140,4 +140,4 @@ Flashcards 以 [MIT 许可](https://github.com/kirill-markin/flashcards-open-sou
 
 如果你已经有老师、课程、教材或其他材料来源，而且看重明确采用 FSRS-6、Web 与移动端离线优先写入、MIT 许可代码或完整技术栈自托管，选择 Flashcards。你也要接受亲自制卡、没有语言课程，以及无法直接导入 Memrise 这些现实限制。
 
-两款一起用，往往能给出最清楚的 **Memrise vs Flashcards** 答案。通过 Memrise、老师、阅读、听力和真实对话学习语言，只把值得长期保留的个人材料放进 Flashcards 继续复习。如果你需要的正是这种辅助工具，而不是一套完整的语言课程，可以查看 [Flashcards 功能](/features/)，先用一小组内容测试流程，再动手转移重要材料。
+两款一起用，往往能给出最清楚的 **Memrise vs Flashcards** 答案。通过 Memrise、老师、阅读、听力和真实对话学习语言，只把值得长期保留的个人材料放进 Flashcards 继续复习。如果你需要的正是这种辅助工具，而不是一套完整的语言课程，可以查看 [Nibomo 功能](/features/)，先用一小组内容测试流程，再动手转移重要材料。

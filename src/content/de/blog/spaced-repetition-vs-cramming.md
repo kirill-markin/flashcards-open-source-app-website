@@ -160,4 +160,4 @@ Bevor du dich zwischen **Pauken und Spaced Repetition** entscheidest, prüfe fü
 
 Mehrere Tage geben dir Zeit, Abrufversuche zu verteilen. An einem Abend brauchst du eine kurze Liste mit wichtigen Punkten, die sich noch beheben lassen. Übungsfragen gehören in beide Pläne. Setze verteilte Wiederholungen nach der Prüfung fort, wenn das Wissen weiterhin zählt.
 
-Du kannst jeden Schritt hier mit Papier, einer Notizdatei und Übungsfragen umsetzen. Wenn FSRS die Kartentermine verwalten soll, sieh dir die [Funktionen von Flashcards](/features/) an oder [öffne die gehostete App](https://app.flashcards-open-source-app.com). Wähle dein Lernmuster danach, wie nah die Frist ist und wie lange du das Wissen behalten musst.
+Du kannst jeden Schritt hier mit Papier, einer Notizdatei und Übungsfragen umsetzen. Wenn FSRS die Kartentermine verwalten soll, sieh dir die [Funktionen von Nibomo](/features/) an oder [öffne die gehostete App](https://app.flashcards-open-source-app.com). Wähle dein Lernmuster danach, wie nah die Frist ist und wie lange du das Wissen behalten musst.

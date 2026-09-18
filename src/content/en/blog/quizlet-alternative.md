@@ -23,7 +23,7 @@ Quizlet remains stronger for guided study modes, practice tests, AI study produc
 
 **Facts checked:** August 2, 2026.
 
-![Quizlet and open source Flashcards study workflows side by side on a warm desk](/blog/quizlet-alternative.png)
+![Quizlet and open source Nibomo study workflows side by side on a warm desk](/blog/quizlet-alternative.png)
 
 ## The short answer
 
@@ -35,16 +35,16 @@ Switching has a real cost. Flashcards has no direct Quizlet importer, and Quizle
 
 ## Open source Quizlet alternative: the comparison
 
-| Dimension | Quizlet | Flashcards | Practical winner |
+| Dimension | Quizlet | Nibomo | Practical winner |
 |---|---|---|---|
 | Learn and Test workflows | Dedicated adaptive Learn mode and configurable Test mode with scoring and review | Conventional front/back queue; no dedicated Learn or Test modes and no multiple-choice test generation | Quizlet |
-| Scheduling and FSRS | Personalized scheduled review and Memory Score; public docs do not identify the scheduler as FSRS | Explicit FSRS-6 with Again, Hard, Good, and Easy | Depends: Quizlet for its scheduled-review experience, Flashcards for a documented FSRS-6 scheduler |
-| Offline | iOS and Android; recent sets are saved and others can be downloaded | Offline-first local writes on web, iOS, and Android, then sync after reconnecting | Flashcards |
-| AI | Practice tests, study guides, summarization, flashcard creation, homework help, and Ask Quizlet | AI chat with file attachments, plus MCP and an Agent API | Quizlet for ready-made study tools; Flashcards for workspace and agent access |
+| Scheduling and FSRS | Personalized scheduled review and Memory Score; public docs do not identify the scheduler as FSRS | Explicit FSRS-6 with Again, Hard, Good, and Easy | Depends: Quizlet for its scheduled-review experience, Nibomo for a documented FSRS-6 scheduler |
+| Offline | iOS and Android; recent sets are saved and others can be downloaded | Offline-first local writes on web, iOS, and Android, then sync after reconnecting | Nibomo |
+| AI | Practice tests, study guides, summarization, flashcard creation, homework help, and Ask Quizlet | AI chat with file attachments, plus MCP and an Agent API | Quizlet for ready-made study tools; Nibomo for workspace and agent access |
 | Shared content | Public sets and folders, with a large teacher-created library | No comparable end-user shared-content library | Quizlet |
 | Import | Paste delimited text on the website; each row becomes a card | Imports only its own `flashcards.zip` package | Quizlet |
-| Export | Creator's own terms and definitions on the website; no images and no export of copied sets | `flashcards.zip` transfers cards, tags, and related media between Flashcards workspaces | Depends on what you need to move |
-| Data ownership and control | Closed, hosted service governed by Quizlet's product and terms | MIT-licensed; hosted app available; AWS CDK self-hosting gives operators infrastructure and database control | Flashcards for code access; self-hosting for infrastructure and database control |
+| Export | Creator's own terms and definitions on the website; no images and no export of copied sets | `flashcards.zip` transfers cards, tags, and related media between Nibomo workspaces | Depends on what you need to move |
+| Data ownership and control | Closed, hosted service governed by Quizlet's product and terms | MIT-licensed; hosted app available; AWS CDK self-hosting gives operators infrastructure and database control | Nibomo for code access; self-hosting for infrastructure and database control |
 
 That last column is deliberately untidy. One product can be better for studying for Friday's test while another gives operators more control over the software and infrastructure. Your workflow decides which advantage matters.
 

@@ -262,7 +262,7 @@ OpenAI запустила ChatGPT Study Mode **29 июля 2025 года**. Goog
 
 Если вам нужен именно такой сценарий, начать можно здесь:
 
-- [Открыть Flashcards](https://nibomo.com/)
+- [Открыть Nibomo](https://nibomo.com/)
 - [Открыть приложение](https://app.flashcards-open-source-app.com/)
 - [Посмотреть возможности](https://nibomo.com/features/)
 - [Посмотреть исходный код на GitHub](https://github.com/kirill-markin/flashcards-open-source-app)

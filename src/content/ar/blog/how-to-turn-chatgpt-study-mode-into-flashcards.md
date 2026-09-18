@@ -262,7 +262,7 @@ keywords:
 
 إذا كان هذا ما تريده، فابدأ من هنا:
 
-- [افتح Flashcards](https://nibomo.com/)
+- [افتح Nibomo](https://nibomo.com/)
 - [افتح التطبيق](https://app.flashcards-open-source-app.com/)
 - [اطّلع على المزايا](https://nibomo.com/features/)
 - [اعرض المصدر على GitHub](https://github.com/kirill-markin/flashcards-open-source-app)

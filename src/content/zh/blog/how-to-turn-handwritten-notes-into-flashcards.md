@@ -216,7 +216,7 @@ PDF 通常一开始就更完整、更规整。
 
 如果你要的正是这种流程，可以从这里开始：
 
-- [打开 Flashcards](https://nibomo.com/)
+- [打开 Nibomo](https://nibomo.com/)
 - [打开应用](https://app.flashcards-open-source-app.com/)
 - [阅读入门指南](https://nibomo.com/docs/getting-started/)
 - [在 GitHub 上查看源码](https://github.com/kirill-markin/flashcards-open-source-app)

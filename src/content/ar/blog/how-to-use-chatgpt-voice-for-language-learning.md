@@ -284,7 +284,7 @@ keywords:
 
 إذا كان هذا ما تريده، فابدأ من هنا:
 
-- [تعرّف إلى Flashcards](https://nibomo.com/)
+- [تعرّف إلى Nibomo](https://nibomo.com/)
 - [اقرأ دليل البدء](https://nibomo.com/docs/getting-started/)
 - [اطّلع على وثائق API](https://nibomo.com/docs/api/)
 - [اعرض الشفرة المصدرية على GitHub](https://github.com/kirill-markin/flashcards-open-source-app)

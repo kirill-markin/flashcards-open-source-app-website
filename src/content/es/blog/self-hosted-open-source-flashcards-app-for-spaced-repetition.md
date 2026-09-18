@@ -56,7 +56,7 @@ La [documentación de arquitectura](https://github.com/kirill-markin/flashcards-
 | Área | Aplicación alojada | Despliegue autoalojado |
 | --- | --- | --- |
 | Configuración inicial | Abre la aplicación e inicia sesión | Configura cuentas, secretos y dominios, y despliega la pila de AWS |
-| Infraestructura | Gestionada por el proyecto Flashcards | Gestionada en tus cuentas de AWS y Cloudflare |
+| Infraestructura | Gestionada por el proyecto Nibomo | Gestionada en tus cuentas de AWS y Cloudflare |
 | Base de datos y copias de seguridad | Gestionadas por el servicio | RDS, la política de copias de seguridad, las migraciones y la recuperación son responsabilidad tuya |
 | Autenticación y correo electrónico | Gestionados por el servicio | Cognito, junto con tus credenciales de envío de correo y el DNS |
 | IA | Usa la configuración del servicio alojado | Usa el proceso asíncrono desplegado y tus credenciales de modelos; el acceso de invitados tiene una cuota independiente |

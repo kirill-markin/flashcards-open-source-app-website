@@ -56,7 +56,7 @@ Die [Architekturdokumentation](https://github.com/kirill-markin/flashcards-open-
 | Bereich | Gehostete App | Selbst betriebene Bereitstellung |
 | --- | --- | --- |
 | Ersteinrichtung | App öffnen und anmelden | Konten, Geheimnisse und Domains konfigurieren und den AWS-Stack bereitstellen |
-| Infrastruktur | Vom Flashcards-Projekt betrieben | In deinen AWS- und Cloudflare-Konten von dir betrieben |
+| Infrastruktur | Vom Nibomo-Projekt betrieben | In deinen AWS- und Cloudflare-Konten von dir betrieben |
 | Datenbank und Backups | Werden für dich verwaltet | RDS, Backup-Richtlinie, Migrationen und Wiederherstellung liegen in deiner Verantwortung |
 | Authentifizierung und E-Mail | Werden für dich verwaltet | Cognito sowie deine Zugangsdaten für den E-Mail-Versand und DNS |
 | KI | Verwendet die Konfiguration des gehosteten Dienstes | Verwendet den bereitgestellten Worker und deine Modellzugangsdaten; Gastzugriffe haben ein eigenes Kontingent |

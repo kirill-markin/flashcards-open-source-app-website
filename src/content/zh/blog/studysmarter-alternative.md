@@ -139,4 +139,4 @@ StudySmarter 可以处理笔记、共享资料、测验练习、模拟考试和�
 
 如果起点已经是一组整理好的知识点，任务只是长期进行正反面回忆，Flashcards 才是更专注的 **StudySmarter 替代品**。你会放弃覆盖面更广的功能套件，换来有文档说明的 FSRS-6、离线优先同步、MIT 许可代码、Agent 访问，以及受支持的全栈自托管。
 
-我在开发 Flashcards，但不会把它推荐为 StudySmarter 的通用替代品。只有当更窄的工作流正是你寻找 **StudySmarter 替代产品**的原因时，我才会推荐它。如果这符合你的需要，可以查看 [Flashcards 功能](/features/)或从[入门指南](/docs/getting-started/)开始。
+我在开发 Flashcards，但不会把它推荐为 StudySmarter 的通用替代品。只有当更窄的工作流正是你寻找 **StudySmarter 替代产品**的原因时，我才会推荐它。如果这符合你的需要，可以查看 [Nibomo 功能](/features/)或从[入门指南](/docs/getting-started/)开始。

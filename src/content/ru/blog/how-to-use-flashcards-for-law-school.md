@@ -245,7 +245,7 @@ Outline объясняет предмет в одном месте. Колода
 
 Если хотите попробовать такой процесс в Flashcards:
 
-- [Начать с Flashcards](https://nibomo.com/)
+- [Начать с Nibomo](https://nibomo.com/)
 - [Открыть веб-приложение](https://app.flashcards-open-source-app.com/)
 - [Прочитать руководство по началу работы](https://nibomo.com/docs/getting-started/)
 - [Посмотреть исходный код на GitHub](https://github.com/kirill-markin/flashcards-open-source-app)

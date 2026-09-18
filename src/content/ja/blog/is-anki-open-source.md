@@ -123,7 +123,7 @@ Ankiには公式の[セルフホスト同期サーバー](https://docs.ankiweb.n
 
 > **開示事項：** 私はKirill Markinです。[Nibomo](https://nibomo.com/)を開発しています。[MITライセンスのリポジトリ](https://github.com/kirill-markin/flashcards-open-source-app)には、Webアプリ、iOS・Androidクライアント、認証、バックエンド、同期、AWSインフラが含まれています。Ankiの同期専用サーバーよりも、ソース公開とセルフホストの対象範囲が広い構成です。ただし、Nibomoははるかに新しく、成熟度、アドオン、Ankiから移行する際の再現性では劣ります。そのため、無条件に第一候補となる製品ではありません。
 
-Flashcardsには、[AWSでスタック全体をセルフホストする手順](/ja/docs/self-hosting/)があります。ただし、汎用的なワンコマンドデプロイではありません。運用者は、AWS、Cloudflare、認証、メール配信、データベース復旧、監視、アップグレードに加え、ネイティブアプリのビルドと配布も個別に担います。[セルフホスト版Flashcardsのガイド](/ja/blog/self-hosted-open-source-flashcards-app-for-spaced-repetition/)では製品としての要点を短くまとめ、[AnkiとFlashcardsの比較](/ja/blog/anki-vs-flashcards-open-source-app/)では成熟度とワークフローのトレードオフを詳しく扱っています。
+Flashcardsには、[AWSでスタック全体をセルフホストする手順](/ja/docs/self-hosting/)があります。ただし、汎用的なワンコマンドデプロイではありません。運用者は、AWS、Cloudflare、認証、メール配信、データベース復旧、監視、アップグレードに加え、ネイティブアプリのビルドと配布も個別に担います。[セルフホスト版Flashcardsのガイド](/ja/blog/self-hosted-open-source-flashcards-app-for-spaced-repetition/)では製品としての要点を短くまとめ、[AnkiとNibomoの比較](/ja/blog/anki-vs-flashcards-open-source-app/)では成熟度とワークフローのトレードオフを詳しく扱っています。
 
 ほかのプロジェクトも比較したい場合は、[オープンソースのフラッシュカードアプリ比較](/ja/blog/best-open-source-flashcard-apps-2026/)をご覧ください。複数のツールを、ライセンス、オフライン利用、同期、移行、セルフホストという同じ基準で比較しています。
 

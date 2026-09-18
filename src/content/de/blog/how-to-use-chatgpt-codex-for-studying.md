@@ -92,7 +92,7 @@ https://mcp.flashcards-open-source-app.com/mcp
 5. Wähle nach dem Neustart **Authenticate** und schließe die OAuth-Anmeldung bei Flashcards im Browser ab.
 6. Gib in Codex `/mcp` ein, um zu prüfen, ob der Server verbunden ist.
 
-Diese Schritte entsprechen OpenAIs aktueller [MCP-Einrichtung für die ChatGPT-Desktop-App und Codex](https://learn.chatgpt.com/docs/extend/mcp). Flashcards nutzt OAuth für die interaktive Anmeldung. In einer normalen Desktop-Sitzung musst du daher keinen API-Key einfügen. Die [Flashcards-MCP-Dokumentation](/de/docs/mcp-connector/) beschreibt die Authentifizierung und alle verfügbaren Werkzeuge, falls die Verbindung nicht funktioniert.
+Diese Schritte entsprechen OpenAIs aktueller [MCP-Einrichtung für die ChatGPT-Desktop-App und Codex](https://learn.chatgpt.com/docs/extend/mcp). Flashcards nutzt OAuth für die interaktive Anmeldung. In einer normalen Desktop-Sitzung musst du daher keinen API-Key einfügen. Die [Nibomo-MCP-Dokumentation](/de/docs/mcp-connector/) beschreibt die Authentifizierung und alle verfügbaren Werkzeuge, falls die Verbindung nicht funktioniert.
 
 Prüfe jede Schreibaktion, bevor sie ausgeführt wird. Das Auflisten von Workspaces verändert nichts. Das Erstellen, Umschreiben, Neuordnen oder Löschen gespeicherter Karten oder Decks dagegen schon. Wenn deine Schule oder dein Arbeitgeber ChatGPT verwaltet, können die Administratoren außerdem einschränken, welche MCP-Server oder Werkzeuge du aktivieren darfst.
 
@@ -114,7 +114,7 @@ Der Connector stellt sieben Werkzeuge bereit:
 
 | Tool | Funktion | Verändert Daten? |
 | --- | --- | --- |
-| `list_workspaces` | Listet die Flashcards-Workspaces auf, auf die du zugreifen darfst | Nein |
+| `list_workspaces` | Listet die Nibomo-Workspaces auf, auf die du zugreifen darfst | Nein |
 | `sql_query` | Liest freigegebene Daten zu Workspaces, Karten, Decks und Wiederholungen | Nein |
 | `sql_execute` | Erstellt, bearbeitet oder löscht freigegebene Karten und Decks | Ja |
 | `get_guide` | Liefert einen Referenz-Leitfaden zu SQL, zum Schreiben von Karten, zu umfangreichen Schreibaktionen oder zu Wiederholungen | Nein |
@@ -150,7 +150,7 @@ In Flashcards sind Decks gespeicherte Filter. Damit eine Karte unter einem ander
 
 Der MCP-Connector kann freigegebene Wiederholungsdaten sowie Zustands- und Planungsfelder von FSRS lesen. Die gespeicherten Wiederholungsereignisse (`review_events`) und die Zustands- und Planungsdaten von FSRS sind über SQL jedoch schreibgeschützt. Das SQL-Schreibwerkzeug kann keine Wiederholung erfassen, keine Bewertung mit Again, Hard, Good oder Easy abgeben und den FSRS-Zustand oder -Zeitplan nicht verändern. Eine Bewertung kann der Connector nur über sein separates Werkzeug `submit_review` erfassen, also kannst du eine Wiederholung in der App machen oder von Codex durchführen lassen.
 
-Öffne die [Flashcards-Web-App](https://app.flashcards-open-source-app.com/) oder eine mobile App, sobald die Karten fällig sind. Rufe die Antwort aus dem Gedächtnis ab, decke die Rückseite auf und wähle dort deine Bewertung. Flashcards zeichnet die offizielle Wiederholung auf, danach entscheidet FSRS, wann die Karte wieder fällig wird.
+Öffne die [Nibomo-Web-App](https://app.flashcards-open-source-app.com/) oder eine mobile App, sobald die Karten fällig sind. Rufe die Antwort aus dem Gedächtnis ab, decke die Rückseite auf und wähle dort deine Bewertung. Flashcards zeichnet die offizielle Wiederholung auf, danach entscheidet FSRS, wann die Karte wieder fällig wird.
 
 Codex kann dich mit den freigegebenen Kartendaten auch informell abfragen. Betrachte das als zusätzliche Übung: Eine Abfrage allein erfasst keine Wiederholung und lässt deinen Zeitplan unverändert. Wenn du eine offizielle Wiederholung willst, bitte Codex, sie mit den Wiederholungswerkzeugen durchzuführen. Codex zeigt dann mit `next_review_card` nur die Vorderseite, mit `reveal_answer` nach deiner Antwort die Rückseite und erfasst mit `submit_review` die Bewertung, damit FSRS die Karte neu einplanen kann. Deine Antwort bewertet Codex, es sei denn, du bittest darum, jede Bewertung selbst zu wählen. Die Anleitung zum [KI-Tutor für Karteikarten](/de/blog/ai-flashcard-tutor-due-cards/) zeigt diesen Wiederholungsablauf ausführlicher.
 
@@ -175,7 +175,7 @@ codex mcp add flashcards \
   --bearer-token-env-var FLASHCARDS_MCP_TOKEN
 ```
 
-Die [Flashcards-API-Anleitung](/de/docs/api/) erklärt, wie du den Agent-Key erhältst. Behandle ihn wie ein Passwort und halte ihn aus Prompts, Screenshots, dem Shell-Verlauf und der Versionsverwaltung heraus. Für eine normale interaktive Sitzung ist OAuth die einfachere Wahl.
+Die [Nibomo-API-Anleitung](/de/docs/api/) erklärt, wie du den Agent-Key erhältst. Behandle ihn wie ein Passwort und halte ihn aus Prompts, Screenshots, dem Shell-Verlauf und der Versionsverwaltung heraus. Für eine normale interaktive Sitzung ist OAuth die einfachere Wahl.
 
 ## ChatGPT Web bindet MCP anders ein
 

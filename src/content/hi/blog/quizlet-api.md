@@ -35,7 +35,7 @@ keywords:
 | ChatGPT conversation को Quizlet set में बदलना | [ChatGPT में Quizlet app](https://quizlet.com/blog/quizlet-comes-to-chat-gpt) | `@Quizlet` के ज़रिए set बनाना और preview करना | अपने app के लिए credentials या endpoints |
 | Google Classroom में Quizlet का काम assign करना | [Quizlet Google Classroom add-on](https://quizlet.com/blog/quizlet-google-classroom-add-on) | Classroom में activities ढूँढना, assign करना और track करना | Custom education software के लिए general API |
 | अपना Quizlet integration बनाना | फिलहाल किसी self-service रास्ते की documentation उपलब्ध नहीं है | किसी खास partner के साथ अलग arrangement हो सकता है | Public signup, API keys या documented card contract |
-| अपने flashcard workspace को automate करना | [Flashcards Agent API](/docs/api/) या [MCP connector](/docs/mcp-connector/) | Workspace के दायरे में cards और decks को बार-बार पढ़ना और लिखना | Quizlet compatibility या automatic Quizlet import |
+| अपने flashcard workspace को automate करना | [Nibomo Agent API](/docs/api/) या [MCP connector](/docs/mcp-connector/) | Workspace के दायरे में cards और decks को बार-बार पढ़ना और लिखना | Quizlet compatibility या automatic Quizlet import |
 
 फर्क सीधा है। अपने cards का text एक बार copy करना export का काम है। किसी दूसरे page पर Quizlet दिखाना embed का काम है। किसी खास product के लिए बनाया गया integration सिर्फ़ उसी workflow में चलता है। लेकिन cards को बार-बार बनाने, पढ़ने और edit करने वाले software को documented read/write API चाहिए।
 

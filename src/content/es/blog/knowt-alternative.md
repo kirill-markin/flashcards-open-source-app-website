@@ -29,7 +29,7 @@ En pocas palabras: Knowt encaja muy bien si quieres reunir notas, conversión de
 
 ## La comparación rápida
 
-| Pregunta | Knowt Basic | Knowt Ultra | Flashcards |
+| Pregunta | Knowt Basic | Knowt Ultra | Nibomo |
 |---|---|---|---|
 | Precio actual | Gratis | $12.49/mes si se pagan $149.99 por adelantado al año, o $24.99 con facturación mensual | El producto alojado es gratis durante la beta; el software para autoalojamiento es gratuito, pero la infraestructura y los proveedores corren por tu cuenta |
 | Principal ventaja | Notas, flashcards, modos de estudio gratuitos y una gran biblioteca de material | El flujo más amplio de Knowt, con resúmenes de IA, chats con Kai y evaluaciones con corrección automática ilimitados según la página de planes vigente | Tarjetas centradas en anverso y reverso, FSRS documentado, clientes que priorizan el trabajo sin conexión, código abierto y acceso para agentes |

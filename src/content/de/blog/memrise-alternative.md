@@ -35,7 +35,7 @@ Flashcards ist keine kostenlose Open-Source-Kopie von Memrise. Die App kann pers
 
 ## Memrise vs. Flashcards auf einen Blick
 
-| Frage | Memrise | Flashcards |
+| Frage | Memrise | Nibomo |
 |---|---|---|
 | Am besten geeignet für | Lernen mit fertigen offiziellen Sprachinhalten und Übungen für mehrere Sprachfertigkeiten | Langfristiges Wiederholen von Lernstoff, den du selbst aus anderen Quellen ausgewählt hast |
 | Einstieg ohne Vorkenntnisse | Einfacher: Memrise stellt nützliche Wörter, Redewendungen, Szenarien und Übungen bereit | Schwieriger: Du musst Karten erstellen oder generieren und entscheiden, was sich zu lernen lohnt |
@@ -140,4 +140,4 @@ Bleib bei Memrise, wenn die App den Lernpfad vorgeben soll. Für Anfänger, fert
 
 Wähle Flashcards, wenn du bereits eine Lehrkraft, einen Kurs, ein Lehrbuch oder eine andere Quelle hast und dein eigenes Material mit dokumentiertem FSRS-6, Offline-first-Speicherung im Web und auf Mobilgeräten, MIT-lizenziertem Code oder Self-Hosting des gesamten Stacks pflegen möchtest. Dafür erstellst und pflegst du die Karten selbst; außerdem fehlen der Sprachlehrplan und ein direkter Memrise-Import.
 
-Beide Apps zu kombinieren ist oft die klarste Antwort auf **Memrise vs. Flashcards**. Lerne mit Memrise, einer Lehrkraft, Lektüre, Hörmaterial und echten Gesprächen. Übernimm nur das persönliche Material in Flashcards, das du langfristig wiederholen möchtest. Wenn du genau diese ergänzende Rolle von einer **Open-Source-Alternative zu Memrise** erwartest, sieh dir die [Funktionen von Flashcards](/features/) an und teste den Workflow mit einer kleinen Auswahl, bevor du wichtige Inhalte überträgst.
+Beide Apps zu kombinieren ist oft die klarste Antwort auf **Memrise vs. Flashcards**. Lerne mit Memrise, einer Lehrkraft, Lektüre, Hörmaterial und echten Gesprächen. Übernimm nur das persönliche Material in Flashcards, das du langfristig wiederholen möchtest. Wenn du genau diese ergänzende Rolle von einer **Open-Source-Alternative zu Memrise** erwartest, sieh dir die [Funktionen von Nibomo](/features/) an und teste den Workflow mit einer kleinen Auswahl, bevor du wichtige Inhalte überträgst.

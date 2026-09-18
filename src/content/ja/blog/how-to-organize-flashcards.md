@@ -304,7 +304,7 @@ keywords:
 
 それが欲しいなら、ここから始めてください。
 
-- [Flashcards を開く](https://nibomo.com/)
+- [Nibomo を開く](https://nibomo.com/)
 - [アプリを開く](https://app.flashcards-open-source-app.com/)
 - [スタートガイドを読む](https://nibomo.com/docs/getting-started/)
 - [GitHub でソースを見る](https://github.com/kirill-markin/flashcards-open-source-app)

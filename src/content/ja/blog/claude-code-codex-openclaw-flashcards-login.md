@@ -309,7 +309,7 @@ Flashcards はオープンソースなので、ブラックボックスとして
 
 参考リンク:
 
-- [Flashcards 公式サイト](https://nibomo.com/)
+- [Nibomo 公式サイト](https://nibomo.com/)
 - [ホスト版アプリ](https://app.flashcards-open-source-app.com/)
 - [スタートガイド](https://nibomo.com/docs/getting-started/)
 - [GitHub リポジトリ](https://github.com/kirill-markin/flashcards-open-source-app)

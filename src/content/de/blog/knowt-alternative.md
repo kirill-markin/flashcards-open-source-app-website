@@ -29,7 +29,7 @@ Das kurze Fazit: Knowt passt gut, wenn du Notizen, die Aufbereitung von Quellmat
 
 ## Die wichtigsten Unterschiede auf einen Blick
 
-| Frage | Knowt Basic | Knowt Ultra | Flashcards |
+| Frage | Knowt Basic | Knowt Ultra | Nibomo |
 |---|---|---|---|
 | Aktueller Preis | Kostenlos | $12.49/Monat bei jährlicher Vorauszahlung von $149.99 oder $24.99 bei monatlicher Zahlung | Das gehostete Produkt ist während der Beta kostenlos; die selbst gehostete Software ebenfalls, Infrastruktur- und Anbieterkosten zahlst du selbst |
 | Größte Stärke | Notizen, Lernkarten, kostenlose Lernmodi und eine große Materialbibliothek | Der breitere Knowt-Workflow mit unbegrenzten KI-Zusammenfassungen, Kai-Chats und automatisch bewerteten Tests laut aktueller Tarifseite | Geprüfte Karten mit Vorder- und Rückseite, dokumentiertes FSRS, Offline-first-Clients, offener Quellcode und Agentenzugriff |

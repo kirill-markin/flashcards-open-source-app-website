@@ -237,6 +237,6 @@ Beginne mit dem Teil, den du auf keinen Fall verlieren kannst:
 5. Wenn der Einsatz im Unterricht oder eine einfachere gemeinsame Wiederholungsschleife das eigentliche Problem ist, baue ein kleines Set in Quizlet oder Brainscape neu auf.
 6. Wenn du ausdrücklich SuperMemos Methode möchtest, akzeptiere einen neuen Lernplan. Wenn du ausdrücklich Zugriff auf den Quellcode des gesamten Stacks, Self-Hosting, API- und MCP-Zugriff möchtest, akzeptiere den verlustbehafteten Neuaufbau der Inhalte und den Betriebsaufwand von Flashcards.
 
-Einen Funktionsvergleich dreier sehr unterschiedlicher Modelle findest du unter [Anki vs. Quizlet vs. Flashcards](/blog/anki-vs-quizlet-vs-open-source-flashcards-app/).
+Einen Funktionsvergleich dreier sehr unterschiedlicher Modelle findest du unter [Anki vs. Quizlet vs. Nibomo](/blog/anki-vs-quizlet-vs-open-source-flashcards-app/).
 
 Eine einfache Regel hilft: Wechsle, wenn der Gewinn konkret ist und der Verlust einen echten Test überstanden hat. Wenn dein repräsentatives Deck diese Prüfung nicht sauber besteht, ist es keine konservative Notlösung, bei Anki zu bleiben. Es ist das Ergebnis des Vergleichs.

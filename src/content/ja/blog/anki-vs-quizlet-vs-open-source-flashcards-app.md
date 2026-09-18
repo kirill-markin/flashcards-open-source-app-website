@@ -121,4 +121,4 @@ AIによるカード作成、FSRS、システム全体を自分で運用でき�
 
 2026年の率直な結論は、いま実際に使っている学習システムに最も合うツールを選ぶことです。そして、コレクションの価値が高まりすぎて移せなくなる前に、データをどう取り出せるか確認しておきましょう。
 
-決める前に、[ホスト型Flashcardsアプリを試す](https://app.flashcards-open-source-app.com/)、[料金とベータ版の制限を確認する](/pricing/)、[セルフホスティングの要件を読む](/docs/self-hosting/)こともできます。
+決める前に、[ホスト型Nibomoアプリを試す](https://app.flashcards-open-source-app.com/)、[料金とベータ版の制限を確認する](/pricing/)、[セルフホスティングの要件を読む](/docs/self-hosting/)こともできます。

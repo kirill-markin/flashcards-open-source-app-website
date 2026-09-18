@@ -20,7 +20,7 @@ OAuth protects authorization and token exchange, and the Flashcards server narro
 
 The useful boundaries are concrete: what each tool can reach, which rules Flashcards enforces, and which safeguards exist only in your client.
 
-![Warm desk with separate read and write permission bays for Flashcards MCP](/blog/is-mcp-safe-for-flashcards.png)
+![Warm desk with separate read and write permission bays for Nibomo MCP](/blog/is-mcp-safe-for-flashcards.png)
 
 ## Is MCP safe for flashcards? Follow the actual data path
 
@@ -39,7 +39,7 @@ The [NSA's May 2026 MCP guidance](https://www.nsa.gov/Press-Room/Press-Releases-
 
 ## What Flashcards OAuth secures
 
-Flashcards uses an authorization-code flow with PKCE and Dynamic Client Registration for interactive MCP clients. You approve the connection in a browser, and PKCE binds the code exchange to the client that started it. The server also checks that an access token was issued for the Flashcards MCP resource. The [Flashcards MCP connector guide](/docs/mcp-connector/) lists the endpoint and discovery metadata.
+Flashcards uses an authorization-code flow with PKCE and Dynamic Client Registration for interactive MCP clients. You approve the connection in a browser, and PKCE binds the code exchange to the client that started it. The server also checks that an access token was issued for the Flashcards MCP resource. The [Nibomo MCP connector guide](/docs/mcp-connector/) lists the endpoint and discovery metadata.
 
 These measures protect the login and token exchange. The stable [MCP authorization specification dated November 25, 2025](https://modelcontextprotocol.io/specification/2025-11-25/basic/authorization) requires PKCE for this flow and resource-specific tokens. It also says authorization is optional across MCP implementations generally, so the existence of OAuth in one connector says nothing about another server.
 
@@ -77,7 +77,7 @@ A test workspace is still useful for learning how a client presents tool calls. 
 
 The returned data still leaves the Flashcards backend. A query about weak topics may include card text and review events. Even a short card can contain a patient detail, an internal system name, a private language example, or notes for an interview.
 
-The [Flashcards privacy policy](/privacy/) covers data requested through MCP and the Agent API. At the protocol boundary, Flashcards sends the result to the MCP client. Whether a separate model provider receives it, how long anyone retains it, and whether it can be used for training depend on the client setup and provider terms. Check those details instead of treating "read-only" as a privacy label.
+The [Nibomo privacy policy](/privacy/) covers data requested through MCP and the Agent API. At the protocol boundary, Flashcards sends the result to the MCP client. Whether a separate model provider receives it, how long anyone retains it, and whether it can be used for training depend on the client setup and provider terms. Check those details instead of treating "read-only" as a privacy label.
 
 ### Write access has narrower powers than full database access
 
@@ -134,7 +134,7 @@ OpenAI offers one concrete example. Its current [Apps in ChatGPT documentation](
 
 Check the exact client, account type, workspace policy, region, and settings you will use. Look for retention, training, memory, administrator access, subprocessors, and deletion. If the documentation does not answer whether confidential source material may leave the client, do not test the question with a real deck.
 
-Deleting the hosted account, disconnecting the connector, and deleting downstream copies are separate operations. [Flashcards privacy](/privacy/) describes hosted-data deletion. Flashcards cannot delete data already retained by a client or model provider; use that provider's controls as well.
+Deleting the hosted account, disconnecting the connector, and deleting downstream copies are separate operations. [Nibomo privacy](/privacy/) describes hosted-data deletion. Flashcards cannot delete data already retained by a client or model provider; use that provider's controls as well.
 
 ## Disconnecting and credential revocation are different steps
 
@@ -148,7 +148,7 @@ If immediate server-side OAuth revocation is a requirement for your threat model
 
 1. Classify the source material. Public study notes, personal information, employer-confidential content, and regulated data should not share one access policy. If you are not authorized to send the material to the client and its processors, do not expose it through MCP.
 2. Verify the server URL. The documented endpoint is `https://mcp.flashcards-open-source-app.com/mcp`. Avoid lookalike domains and connector definitions copied from unknown sources.
-3. Read both sides' policies. Start with [Flashcards privacy](/privacy/), then check the exact AI client's retention, training, memory, logging, and deletion rules.
+3. Read both sides' policies. Start with [Nibomo privacy](/privacy/), then check the exact AI client's retention, training, memory, logging, and deletion rules.
 4. Decide whether a spare workspace is enough. It is useful for a rehearsal, but the connection can still target other workspaces on the same account. Use a separate account or deployment when you need strict isolation.
 5. Start with `sql_execute` and `submit_review` blocked in the client. If the client cannot block them, acknowledge that the OAuth credential remains write-capable before connecting.
 6. Request the minimum data. Select only the columns and rows needed for the answer, and keep unrelated secrets out of the conversation.

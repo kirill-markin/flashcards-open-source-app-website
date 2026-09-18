@@ -22,7 +22,7 @@ That is the practical reason to look up **Claude MCP flashcards** right now.
 
 If you want Claude to create cards directly in your Flashcards workspace, the setup is short: add the Flashcards custom connector, review the tool permissions, enable it in chat, and approve the write call when Claude is ready to save a card.
 
-![Claude connected to the Flashcards MCP server for creating flashcards from chat](/blog/how-to-connect-flashcards-to-claude-with-mcp.png)
+![Claude connected to the Nibomo MCP server for creating flashcards from chat](/blog/how-to-connect-flashcards-to-claude-with-mcp.png)
 
 ## This is a custom connector, not a directory listing
 
@@ -73,7 +73,7 @@ For a first setup, I would keep the read-only tools on **Always allow** and keep
 
 That is also what the connector settings screenshot shows here: `list_workspaces` and `sql_query` are allowed, while `sql_execute` still needs your approval.
 
-![Claude connector settings showing Flashcards MCP permissions with read tools always allowed and write tools needing approval](/blog/claude-mcp-flashcards-connector-settings.png)
+![Claude connector settings showing Nibomo MCP permissions with read tools always allowed and write tools needing approval](/blog/claude-mcp-flashcards-connector-settings.png)
 
 You can loosen that later if you really want to. I would not start there.
 
@@ -129,7 +129,7 @@ That is the right behavior.
 
 You should review the write request, approve it, and then let Claude finish. In the screenshot below, Claude asked which workspace to use, ran the Flashcards write action, and reported that the test card had been added successfully.
 
-![Claude chat creating a test flashcard through the Flashcards MCP connector after asking which workspace to use](/blog/claude-mcp-flashcards-create-card.png)
+![Claude chat creating a test flashcard through the Nibomo MCP connector after asking which workspace to use](/blog/claude-mcp-flashcards-create-card.png)
 
 You do not need to care about the raw SQL unless you want to inspect the tool call closely. What matters is the workflow:
 

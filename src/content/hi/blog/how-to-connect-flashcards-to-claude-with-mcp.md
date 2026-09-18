@@ -22,7 +22,7 @@ keywords:
 
 अगर आप चाहते हैं कि Claude सीधे आपके Flashcards workspace में cards बनाए, तो setup छोटा है: Flashcards custom connector जोड़िए, tool permissions review कीजिए, chat में उसे enable कीजिए, और जब Claude card save करने के लिए तैयार हो तब write call approve कीजिए।
 
-![Claude chat से flashcards बनाने के लिए Flashcards MCP server से जुड़ा हुआ](/blog/how-to-connect-flashcards-to-claude-with-mcp.png)
+![Claude chat से flashcards बनाने के लिए Nibomo MCP server से जुड़ा हुआ](/blog/how-to-connect-flashcards-to-claude-with-mcp.png)
 
 ## यह custom connector है, directory listing नहीं
 
@@ -75,7 +75,7 @@ Claude हर tool के लिए **Always allow**, **Needs approval**, या
 
 यही connector settings वाले screenshot में भी दिख रहा है: `list_workspaces` और `sql_query` allowed हैं, जबकि `sql_execute` अभी भी आपके approval का इंतज़ार करता है।
 
-![Claude connector settings में Flashcards MCP permissions, जहाँ read tools हमेशा allowed हैं और write tools approval माँगते हैं](/blog/claude-mcp-flashcards-connector-settings.png)
+![Claude connector settings में Nibomo MCP permissions, जहाँ read tools हमेशा allowed हैं और write tools approval माँगते हैं](/blog/claude-mcp-flashcards-connector-settings.png)
 
 बाद में चाहें तो इसे ढीला कर सकते हैं। मैं शुरुआत वहीं से नहीं करूँगा।
 
@@ -129,7 +129,7 @@ Tags: spanish, travel
 
 आपको write request review करनी चाहिए, उसे approve करना चाहिए, और फिर Claude को finish करने देना चाहिए। नीचे वाले screenshot में Claude ने पूछा कौन-सा workspace इस्तेमाल करना है, Flashcards write action चलाया, और बताया कि test card सफलतापूर्वक add हो गया।
 
-![Claude chat, जिसने workspace पूछने के बाद Flashcards MCP connector के जरिए एक test flashcard बनाया](/blog/claude-mcp-flashcards-create-card.png)
+![Claude chat, जिसने workspace पूछने के बाद Nibomo MCP connector के जरिए एक test flashcard बनाया](/blog/claude-mcp-flashcards-create-card.png)
 
 अगर आप tool call को बहुत करीब से inspect नहीं करना चाहते, तो raw SQL की परवाह करने की ज़रूरत नहीं है। असली workflow यह है:
 

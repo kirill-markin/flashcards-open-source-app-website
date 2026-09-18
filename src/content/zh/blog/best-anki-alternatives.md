@@ -237,6 +237,6 @@ Anki 依然拥有成熟的插件生态、灵活的笔记与卡片模板、FSRS �
 5. 如果真正的问题是课堂分发或需要更简单的共同复习方式，请在 Quizlet 或 Brainscape 中重建一个小型学习集。
 6. 如果你明确想要 SuperMemo 的方法，就接受全新的调度。如果你明确想要完整技术栈的源代码、自托管、API 和 MCP 访问，就接受 Flashcards 会丢失数据的内容重建流程，以及随之而来的运维工作。
 
-如需逐项比较 3 种差异很大的模式，请阅读 [Anki、Quizlet 与 Flashcards 对比](/blog/anki-vs-quizlet-vs-open-source-flashcards-app/)。
+如需逐项比较 3 种差异很大的模式，请阅读 [Anki、Quizlet 与 Nibomo 对比](/blog/anki-vs-quizlet-vs-open-source-flashcards-app/)。
 
 有一条规则很实用：只有收益足够具体，而且所有损失都经过真实测试，才切换。如果有代表性的牌组无法完整跨过迁移边界，继续使用 Anki 就不是保守的退路，而是比较得出的结果。

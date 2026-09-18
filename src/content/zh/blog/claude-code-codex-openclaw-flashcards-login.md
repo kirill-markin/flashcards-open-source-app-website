@@ -309,7 +309,7 @@ Flashcards 是开源项目，所以你可以直接检查整个流程，而不是
 
 有用的链接：
 
-- [Flashcards 官网](https://nibomo.com/)
+- [Nibomo 官网](https://nibomo.com/)
 - [托管应用](https://app.flashcards-open-source-app.com/)
 - [快速开始](https://nibomo.com/docs/getting-started/)
 - [GitHub 仓库](https://github.com/kirill-markin/flashcards-open-source-app)

@@ -260,7 +260,7 @@ AI здесь полезен, но полезной работы у него м�
 
 Если хотите попробовать этот сценарий прямо в продукте:
 
-- [Открыть Flashcards](/ru/)
+- [Открыть Nibomo](/ru/)
 - [Открыть приложение](https://app.flashcards-open-source-app.com/)
 - [Прочитать руководство по началу работы](/ru/docs/getting-started/)
 - [Посмотреть исходный код на GitHub](https://github.com/kirill-markin/flashcards-open-source-app)
