@@ -267,7 +267,7 @@ Outline дает покрытие. Ошибки дают релевантнос�
 
 Это очень похоже на сценарий из [How to Turn Practice Questions Into Flashcards in 2026](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/) и [How to Make Better Flashcards in 2026](https://nibomo.com/blog/how-to-make-better-flashcards/).
 
-## Где Flashcards вписывается в этот сценарий ATI TEAS
+## Где Nibomo вписывается в этот сценарий ATI TEAS
 
 Если вы хотите вести этот процесс внутри [Nibomo](https://nibomo.com/), совпадение здесь практическое, а не официальное.
 

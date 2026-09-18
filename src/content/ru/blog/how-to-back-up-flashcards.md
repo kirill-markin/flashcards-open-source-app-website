@@ -193,7 +193,7 @@ keywords:
 
 - [Self-Hosted Open Source Flashcards App for Spaced Repetition](/blog/self-hosted-open-source-flashcards-app-for-spaced-repetition/)
 
-## Где Flashcards подходит, если вы хотите, чтобы следующей колодой было проще владеть
+## Где Nibomo подходит, если вы хотите, чтобы следующей колодой было проще владеть
 
 Если бы я собирал новую колоду с оглядкой на владение данными, я бы в первую очередь смотрел на несколько свойств продукта:
 
