@@ -1069,7 +1069,7 @@ test("creates escaped catalog JSON-LD from canonical read-model entities", () =>
   assert.deepEqual(packageResource["@type"], ["LearningResource", "Collection"]);
   assert.equal(
     packageResource.url,
-    "https://flashcards-open-source-app.com/es/catalog/packages/canonical-package/",
+    "https://nibomo.com/es/catalog/packages/canonical-package/",
   );
   assert.equal(packageResource.collectionSize, 2);
   assert.equal(packageResource.dateModified, packageView.latestVersion.updatedAt);
@@ -1083,15 +1083,15 @@ test("creates escaped catalog JSON-LD from canonical read-model entities", () =>
   });
   assert.deepEqual(packageResource.author, {
     "@id":
-      "https://flashcards-open-source-app.com/es/catalog/authors/author-one/#author",
+      "https://nibomo.com/es/catalog/authors/author-one/#author",
     name: "Author < One",
-    url: "https://flashcards-open-source-app.com/es/catalog/authors/author-one/",
+    url: "https://nibomo.com/es/catalog/authors/author-one/",
   });
   assert.deepEqual(packageResource.isPartOf, [{
     "@type": "CollectionPage",
     name: "Starter collection",
     url:
-      "https://flashcards-open-source-app.com/es/catalog/collections/starter-collection/",
+      "https://nibomo.com/es/catalog/collections/starter-collection/",
   }]);
   assert.deepEqual(packageResource.hasPart, { "@id": quiz["@id"] });
   assert.equal("@type" in packageResource.author, false);
@@ -1171,7 +1171,7 @@ test("creates escaped catalog JSON-LD from canonical read-model entities", () =>
   assert.equal(rootItemList.numberOfItems, 1);
   assert.equal(
     rootItemList.itemListElement[0]?.item.url,
-    "https://flashcards-open-source-app.com/catalog/packages/canonical-package/",
+    "https://nibomo.com/catalog/packages/canonical-package/",
   );
   const emptyLocalizedRootItemList = createPublicCatalogRootJsonLd(
     model,
@@ -1214,11 +1214,11 @@ test("creates escaped catalog JSON-LD from canonical read-model entities", () =>
 
   assert.equal(
     facetSchema["@graph"][0].url,
-    "https://flashcards-open-source-app.com/de/catalog/languages/en/",
+    "https://nibomo.com/de/catalog/languages/en/",
   );
   assert.equal(
     facetSchema["@graph"][1].itemListElement[0]?.item.url,
-    "https://flashcards-open-source-app.com/catalog/packages/canonical-package/",
+    "https://nibomo.com/catalog/packages/canonical-package/",
   );
   assert.equal("dateModified" in facetSchema["@graph"][0], false);
 
@@ -1318,7 +1318,7 @@ test("aligns package JSON-LD to the deck subject, level and canonical route", ()
   // instead of a URL `rel=canonical` disavows: one `@id` per canonical
   // (audience) route, shared by every non-audience route that resolves into it.
   const canonicalPackageUrl =
-    "https://flashcards-open-source-app.com/catalog/packages/canonical-package/";
+    "https://nibomo.com/catalog/packages/canonical-package/";
   const chineseSchema = createPublicCatalogPackageJsonLd(
     [starterCollection],
     "zh",
@@ -1339,13 +1339,13 @@ test("aligns package JSON-LD to the deck subject, level and canonical route", ()
   // URLs stay on the rendering locale even where the deck itself does not.
   assert.equal(
     chineseResource.author.url,
-    "https://flashcards-open-source-app.com/zh/catalog/authors/author-one/",
+    "https://nibomo.com/zh/catalog/authors/author-one/",
   );
   assert.deepEqual(chineseResource.isPartOf, [{
     "@type": "CollectionPage",
     name: "Starter collection",
     url:
-      "https://flashcards-open-source-app.com/zh/catalog/collections/starter-collection/",
+      "https://nibomo.com/zh/catalog/collections/starter-collection/",
   }]);
   assert.throws(
     () =>
@@ -1368,7 +1368,7 @@ test("names each deck by its canonical route in catalog ItemLists", () => {
   assert.deepEqual(model.packages[0]?.latestVersion.languageTags, ["en", "es"]);
 
   const canonicalPackageUrl =
-    "https://flashcards-open-source-app.com/catalog/packages/canonical-package/";
+    "https://nibomo.com/catalog/packages/canonical-package/";
   const collectionPackages =
     model.packagesByCollectionId.get(collection.collectionId) ?? [];
   const readFirstItem = (schema: ReturnType<typeof createPublicCatalogFacetJsonLd>) =>
@@ -1402,7 +1402,7 @@ test("names each deck by its canonical route in catalog ItemLists", () => {
 
   assert.equal(
     spanishCollectionItem?.url,
-    "https://flashcards-open-source-app.com/es/catalog/packages/canonical-package/",
+    "https://nibomo.com/es/catalog/packages/canonical-package/",
   );
 
   // Only package entries move. The list page itself and its author entries are
@@ -1411,11 +1411,11 @@ test("names each deck by its canonical route in catalog ItemLists", () => {
 
   assert.equal(
     germanAuthorsSchema["@graph"][0].url,
-    "https://flashcards-open-source-app.com/de/catalog/authors/",
+    "https://nibomo.com/de/catalog/authors/",
   );
   assert.equal(
     readFirstItem(germanAuthorsSchema)?.url,
-    "https://flashcards-open-source-app.com/de/catalog/authors/author-one/",
+    "https://nibomo.com/de/catalog/authors/author-one/",
   );
 });
 
@@ -1458,24 +1458,24 @@ test("creates deterministic localized catalog sitemap entries from real timestam
   const model = createPublicCatalogReadModel(parsePublicCatalogDump(input));
   const entries = createPublicCatalogSitemapEntries(model);
   const entryByUrl = new Map(entries.map((entry) => [entry.url, entry]));
-  const rootUrl = "https://flashcards-open-source-app.com/catalog/";
-  const authorIndexUrl = "https://flashcards-open-source-app.com/catalog/authors/";
+  const rootUrl = "https://nibomo.com/catalog/";
+  const authorIndexUrl = "https://nibomo.com/catalog/authors/";
   const authorUrl =
-    "https://flashcards-open-source-app.com/catalog/authors/author-one/";
+    "https://nibomo.com/catalog/authors/author-one/";
   const collectionIndexUrl =
-    "https://flashcards-open-source-app.com/catalog/collections/";
+    "https://nibomo.com/catalog/collections/";
   const collectionUrl =
-    "https://flashcards-open-source-app.com/catalog/collections/starter-collection/";
+    "https://nibomo.com/catalog/collections/starter-collection/";
   const packageUrl =
-    "https://flashcards-open-source-app.com/catalog/packages/canonical-package/";
+    "https://nibomo.com/catalog/packages/canonical-package/";
   const localizedPackageUrl =
-    "https://flashcards-open-source-app.com/es/catalog/packages/canonical-package/";
+    "https://nibomo.com/es/catalog/packages/canonical-package/";
   const russianPackageUrl =
-    "https://flashcards-open-source-app.com/ru/catalog/packages/canonical-package/";
+    "https://nibomo.com/ru/catalog/packages/canonical-package/";
   const languageFacetUrl =
-    "https://flashcards-open-source-app.com/catalog/languages/en/";
+    "https://nibomo.com/catalog/languages/en/";
   const localizedFacetUrl =
-    "https://flashcards-open-source-app.com/ja/catalog/languages/ru/";
+    "https://nibomo.com/ja/catalog/languages/ru/";
   const latestVersionUpdatedAt = "2026-08-03T09:00:00.000Z";
 
   // Three audience languages mean three canonical package routes; every other
@@ -1516,11 +1516,11 @@ test("creates deterministic localized catalog sitemap entries from real timestam
   );
   assert.equal(
     entryByUrl.get(localizedFacetUrl)?.alternates?.languages?.es,
-    "https://flashcards-open-source-app.com/es/catalog/languages/ru/",
+    "https://nibomo.com/es/catalog/languages/ru/",
   );
   assert.equal(
     entryByUrl.get(localizedFacetUrl)?.alternates?.languages?.["x-default"],
-    "https://flashcards-open-source-app.com/catalog/languages/ru/",
+    "https://nibomo.com/catalog/languages/ru/",
   );
   assert.equal(entries.some((entry) => entry.url.includes("?")), false);
   assert.equal(entries.some((entry) => entry.url.includes("/import/")), false);
@@ -1547,7 +1547,7 @@ test("includes collection-only languages in static facets without inventing pack
   const sitemapEntries = createPublicCatalogSitemapEntries(model);
   const collectionOnlyFacet = sitemapEntries.find(
     (entry) => entry.url
-      === "https://flashcards-open-source-app.com/catalog/languages/de/",
+      === "https://nibomo.com/catalog/languages/de/",
   );
 
   assert.equal(
@@ -2011,7 +2011,7 @@ test("renders useful localized catalog Markdown from the public read model", () 
   assert.match(packageDocument.markdown, /First \*\*front\*\*/);
   assert.match(
     packageDocument.markdown,
-    /https:\/\/flashcards-open-source-app\.com\/es\/catalog\/authors\/author-one\//,
+    /https:\/\/nibomo\.com\/es\/catalog\/authors\/author-one\//,
   );
   assert.ok(rootDocument);
   assert.equal(rootDocument.markdown.includes("/catalog/import/"), false);
@@ -2025,11 +2025,11 @@ test("renders useful localized catalog Markdown from the public read model", () 
   assert.equal(additionalLocalizedPackageDocument?.locale, "ja");
   assert.match(
     localizedRootDocument.markdown,
-    /https:\/\/flashcards-open-source-app\.com\/ar\/catalog\/packages\/canonical-package\//,
+    /https:\/\/nibomo\.com\/ar\/catalog\/packages\/canonical-package\//,
   );
   assert.doesNotMatch(
     localizedRootDocument.markdown,
-    /https:\/\/flashcards-open-source-app\.com\/catalog\/packages\/canonical-package\//,
+    /https:\/\/nibomo\.com\/catalog\/packages\/canonical-package\//,
   );
   assert.equal(
     listMarkdownAstNodes(parseMarkdownAst(localizedRootDocument.markdown)).some(
@@ -2093,7 +2093,7 @@ test("renders the cached related package links in the page locale before card pr
     packageLinkDestinations,
     relatedPackages.map(
       (relatedPackage) =>
-        `https://flashcards-open-source-app.com/es/catalog/packages/${relatedPackage.packageMetadata.slug}/`,
+        `https://nibomo.com/es/catalog/packages/${relatedPackage.packageMetadata.slug}/`,
     ),
   );
 });
@@ -2256,7 +2256,7 @@ test("renders safe canonical links for authored URLs and catalog facet paths", (
   assert.ok(renderedLinks.includes(websiteUrl));
   assert.ok(renderedLinks.includes(installUrl));
   assert.ok(renderedLinks.includes(
-    `https://flashcards-open-source-app.com/${languagePagePath}/`,
+    `https://nibomo.com/${languagePagePath}/`,
   ));
   assert.equal(documents.some((markdown) => markdown?.includes("<img")), false);
 });
@@ -3110,7 +3110,7 @@ test("renders eligible catalog card math inline and as static display blocks", a
     "",
     "- $list_item$",
     "",
-    "[$link_label$](https://flashcards-open-source-app.com)",
+    "[$link_label$](https://nibomo.com)",
     "",
     "`$inline_code$`",
     "",
@@ -3149,7 +3149,7 @@ test("renders eligible catalog card math inline and as static display blocks", a
     [
       "Reference side with $reference$ and [documentation][docs].",
       "",
-      "[docs]: https://flashcards-open-source-app.com/docs/",
+      "[docs]: https://nibomo.com/docs/",
     ].join("\n"),
     "en",
     new Map(),
@@ -3160,7 +3160,7 @@ test("renders eligible catalog card math inline and as static display blocks", a
   assert.match(referenceLiteralHtml, /\$reference\$/u);
   assert.match(
     referenceLiteralHtml,
-    /href="https:\/\/flashcards-open-source-app\.com\/docs\/"/u,
+    /href="https:\/\/nibomo\.com\/docs\/"/u,
   );
 
   await assert.rejects(
@@ -3919,9 +3919,9 @@ test("canonicalizes every package route into the deck audience locales", () => {
   assert.ok(packageView);
 
   const defaultPackageUrl =
-    "https://flashcards-open-source-app.com/catalog/packages/canonical-package/";
+    "https://nibomo.com/catalog/packages/canonical-package/";
   const spanishPackageUrl =
-    "https://flashcards-open-source-app.com/es/catalog/packages/canonical-package/";
+    "https://nibomo.com/es/catalog/packages/canonical-package/";
 
   assert.deepEqual(
     getPublicCatalogPackageCanonicalLocales("canonical-package", ["ja", "de", "fr"]),
@@ -4001,7 +4001,7 @@ test("canonicalizes every package route into the deck audience locales", () => {
   );
 
   // Pages sharing the metadata factory stay self-canonical on their own route.
-  const spanishCatalogRootUrl = "https://flashcards-open-source-app.com/es/catalog/";
+  const spanishCatalogRootUrl = "https://nibomo.com/es/catalog/";
   const spanishRootMetadata = createPublicCatalogRootMetadata("es");
 
   assert.equal(spanishRootMetadata.alternates?.canonical, spanishCatalogRootUrl);
