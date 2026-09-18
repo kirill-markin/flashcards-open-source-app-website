@@ -248,7 +248,7 @@ GRE の語彙は積み上げ式です。日曜に8時間だけ語彙漬けにな
 - [2026年版 ノートをフラッシュカードに変える方法](/ja/blog/turn-notes-into-flashcards/)
 - [2026年版 記事をフラッシュカードに変える方法](/ja/blog/how-to-turn-an-article-into-flashcards/)
 
-## この GRE ワークフローの中で Flashcards がはまる場所
+## この GRE ワークフローの中で Nibomo がはまる場所
 
 [Nibomo](/ja/) の中でこの運用を回したいなら、重要なのは「AI で勉強が簡単になる」といった曖昧な約束ではありません。今のプロダクトが、ワークフローの実務的な中心をすでに支えていることです。
 
@@ -274,7 +274,7 @@ GRE の語彙は積み上げ式です。日曜に8時間だけ語彙漬けにな
 
 私が信頼する **GRE vocab deck** は、こういうものです。
 
-Flashcards でこの運用を試すなら、ここから始めてください。
+Nibomo でこの運用を試すなら、ここから始めてください。
 
 - [Nibomo を始める](/ja/)
 - [Web アプリを開く](https://app.flashcards-open-source-app.com/)

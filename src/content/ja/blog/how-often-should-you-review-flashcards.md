@@ -137,7 +137,7 @@ AgainとHardの境界でいつも迷うなら、詳しい[Again、Hard、Good、
 
 その追加練習は、試験日という締め切りに合わせ、通常のスケジュールへ上乗せする詰め込み学習です。十分に理にかなっている場合もあります。ただし、評価の操作とは分けてください。短い間隔が気に入らなくても、答えられなければAgainのままです。明日もう一度見たいからといって、簡単に答えられたカードをHardに変えてはいけません。
 
-目標保持率も学習量に影響しますが、直前に設定を変えても時間を巻き戻せるわけではありません。Flashcardsの[設定は今後の復習にのみ反映されるという仕様](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/docs/fsrs-scheduling-logic.md)では、ワークスペース設定の変更は、変更後に行う復習だけに反映されます。目標保持率を変えても、既存の復習予定日は再計算されません。カード投入、安定化、最終復習の各段階については、詳しい[FSRS試験対策ガイド](/blog/how-to-study-for-an-exam-with-fsrs/)で扱っています。ここでは同じ内容を繰り返しません。
+目標保持率も学習量に影響しますが、直前に設定を変えても時間を巻き戻せるわけではありません。Nibomoの[設定は今後の復習にのみ反映されるという仕様](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/docs/fsrs-scheduling-logic.md)では、ワークスペース設定の変更は、変更後に行う復習だけに反映されます。目標保持率を変えても、既存の復習予定日は再計算されません。カード投入、安定化、最終復習の各段階については、詳しい[FSRS試験対策ガイド](/blog/how-to-study-for-an-exam-with-fsrs/)で扱っています。ここでは同じ内容を繰り返しません。
 
 ## 紙のフラッシュカードでは手作業で似た仕組みを作る
 
@@ -159,7 +159,7 @@ AgainとHardの境界でいつも迷うなら、詳しい[Again、Hard、Good、
 
 **最適なフラッシュカードの復習スケジュール**は、学習負荷をどこに設定するかという選択にも左右されます。目標保持率とは、期限を迎えた時点でカードを思い出せる確率をどのくらいにしたいか、FSRSスケジューラへ伝える設定です。目標を高くすると一般に間隔は短くなり、復習回数が増えます。Anki公式の[FSRSマニュアル](https://docs.ankiweb.net/deck-options.html#fsrs)でも、その仕組みが説明されています。
 
-同マニュアルでは`0.90`をAnkiの初期値としており、目標保持率が`1.0`に近づくと学習量が急激に増えると注意しています。これはFSRS全般を理解するうえで役立つ情報であり、Ankiのすべての設定がFlashcardsにもあるという意味ではありません。この製品の初期値と仕様上の範囲は、[Flashcardsのスケジューラ文書](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/docs/fsrs-scheduling-logic.md)で確認してください。
+同マニュアルでは`0.90`をAnkiの初期値としており、目標保持率が`1.0`に近づくと学習量が急激に増えると注意しています。これはFSRS全般を理解するうえで役立つ情報であり、Ankiのすべての設定がNibomoにもあるという意味ではありません。この製品の初期値と仕様上の範囲は、[Nibomoのスケジューラ文書](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/docs/fsrs-scheduling-logic.md)で確認してください。
 
 目標が`0.90`だからといって、「すべてのカードを10日ごとに復習する」という意味ではありません。短いセッションのたびに、必ず正答率がちょうど90%になる保証でもありません。カードごとの現在の記憶状態の推定値から間隔を計算するときの指針です。
 

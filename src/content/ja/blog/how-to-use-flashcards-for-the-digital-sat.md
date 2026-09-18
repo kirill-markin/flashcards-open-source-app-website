@@ -262,7 +262,7 @@ FSRSが助けてくれるのは、次のような点です。
 - [2026年版 FSRSで試験勉強する方法](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)
 - [2026年のFSRSとSM-2を比較: より覚えやすい間隔反復アルゴリズムはどちらか](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
-## Flashcards がデジタルSAT運用に向いている理由
+## Nibomo がデジタルSAT運用に向いている理由
 
 [Nibomo](https://nibomo.com/) が **デジタルSAT フラッシュカード** と相性が良いのは、この運用に必要な要素を、現行プロダクトがすでに備えているからです。
 

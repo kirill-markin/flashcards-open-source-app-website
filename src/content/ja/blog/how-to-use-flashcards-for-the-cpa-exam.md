@@ -233,7 +233,7 @@ FAR、AUD、REG、BAR、ISC、TCP のどれでも、問題を落としたとき�
 
 - [2026年版 FSRSで試験勉強する方法](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)
 
-## このCPAワークフローの中でFlashcardsがはまる場所
+## このCPAワークフローの中でNibomoがはまる場所
 
 [Nibomo](https://nibomo.com/) の中でこの流れを回すなら、便利なのは「AI が魔法みたいに CPA 試験に受からせてくれる」という曖昧な約束ではありません。
 

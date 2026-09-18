@@ -287,7 +287,7 @@ FSRSが役立つのは、定着の速さが内容ごとにばらつくからで�
 - [2026年版 FSRSで試験勉強する方法](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)
 - [2026年のFSRSとSM-2を比較: より覚えやすい間隔反復アルゴリズムはどちらか](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
-## このMCAT運用での Flashcards の位置づけ
+## このMCAT運用での Nibomo の位置づけ
 
 [Nibomo](https://nibomo.com/) は、MCAT向けのこの運用とかなり相性が良いです。多くの受験生が複数のツールに分散させがちな部分を、まとめて扱えるからです。
 

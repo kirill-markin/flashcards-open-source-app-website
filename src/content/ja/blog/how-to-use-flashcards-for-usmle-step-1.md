@@ -313,7 +313,7 @@ FSRS が助けてくれるのは、まさにそこです。
 
 スケジューリング面をもう少し詳しく見たいなら、直接つながる記事は [2026年版 FSRSで試験勉強する方法](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/) です。すでにキューが手に負えなくなりつつあるなら、次に役立つのは [2026年版 1日に何枚の新規フラッシュカードを追加すべきか](https://nibomo.com/blog/how-many-new-flashcards-per-day/) です。
 
-## Flashcards が Step 1 ワークフローにはまる場所
+## Nibomo が Step 1 ワークフローにはまる場所
 
 [Nibomo](https://nibomo.com/) の中でこの運用を回したいなら、価値は「AI があなたの代わりに医学を学んでくれる」という曖昧な約束にはありません。
 

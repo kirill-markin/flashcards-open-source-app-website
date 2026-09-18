@@ -244,7 +244,7 @@ PDF を全部読んだことを証明するカードは要りません。
 
 - [2026年に、より良いフラッシュカードを作る方法: FSRS と噛み合う表裏カードのルール](https://nibomo.com/blog/how-to-make-better-flashcards/)
 
-## Flashcards がこの流れに合う理由
+## Nibomo がこの流れに合う理由
 
 [Nibomo](https://nibomo.com/) は、この種の資格試験対策にかなり合っています。この運用で必要になる要素が、すでに揃っているからです。
 
