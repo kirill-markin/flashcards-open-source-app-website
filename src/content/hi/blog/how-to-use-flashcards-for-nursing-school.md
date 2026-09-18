@@ -244,7 +244,7 @@ FSRS क्या नहीं करता: overloaded deck को बचान
 
 - [2026 में FSRS बनाम SM-2](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
-## इस नर्सिंग workflow में Flashcards कहाँ fit बैठता है
+## इस नर्सिंग workflow में Nibomo कहाँ fit बैठता है
 
 [Nibomo](https://nibomo.com/) **नर्सिंग स्कूल फ्लैशकार्ड** के लिए अच्छा fit है, क्योंकि product पहले से उन हिस्सों को support करता है जिन पर यह workflow depend करता है:
 

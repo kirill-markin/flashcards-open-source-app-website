@@ -1,6 +1,6 @@
 ---
-title: "Claude Code, Codex, या OpenClaw को Flashcards में आपके लिए लॉग इन कैसे करने दें"
-description: "Flashcards एजेंटों के लिए एक खुला लॉग-इन तरीका उपलब्ध कराता है, जो एक शुरुआती URL, ईमेल OTP, और लंबे समय तक मान्य API कुंजी पर आधारित है। अपने एजेंट को बस एक लिंक दें, फिर ईमेल से आया 8-अंकों का कोड भेजें, और उसे खाता व कार्य-क्षेत्र की शुरुआती तैयारी पूरी करने दें।"
+title: "Claude Code, Codex, या OpenClaw को Nibomo में आपके लिए लॉग इन कैसे करने दें"
+description: "Nibomo एजेंटों के लिए एक खुला लॉग-इन तरीका उपलब्ध कराता है, जो एक शुरुआती URL, ईमेल OTP, और लंबे समय तक मान्य API कुंजी पर आधारित है। अपने एजेंट को बस एक लिंक दें, फिर ईमेल से आया 8-अंकों का कोड भेजें, और उसे खाता व कार्य-क्षेत्र की शुरुआती तैयारी पूरी करने दें।"
 date: "2026-03-10"
 keywords:
   - "claude code login"
@@ -44,7 +44,7 @@ GET https://api.flashcards-open-source-app.com/v1/
 
 सारांश रूप में एजेंट तुरंत चार बातें समझ लेता है:
 
-- यह Flashcards सेवा है
+- यह Nibomo सेवा है
 - लॉग-इन और पंजीकरण दोनों ईमेल OTP से होते हैं
 - सफल सत्यापन पर लंबे समय तक मान्य API कुंजी मिलती है
 - लॉग-इन के बाद अगला कदम खाते और कार्य-क्षेत्र का शुरुआती सेटअप है
@@ -55,7 +55,7 @@ GET https://api.flashcards-open-source-app.com/v1/
 
 1. एजेंट discovery endpoint को कॉल करता है।
 2. एजेंट उपयोगकर्ता का ईमेल `send-code` पर भेजता है।
-3. Flashcards ईमेल से 8-अंकों का कोड भेजता है और `otpSessionToken` लौटाता है।
+3. Nibomo ईमेल से 8-अंकों का कोड भेजता है और `otpSessionToken` लौटाता है।
 4. एजेंट उपयोगकर्ता से वही ताज़ा कोड मांगता है।
 5. एजेंट कोड सत्यापित करता है और लंबे समय तक मान्य API कुंजी प्राप्त करता है।
 6. एजेंट `/v1/agent/me` और `/v1/agent/workspaces` को कॉल करता है।
@@ -68,10 +68,10 @@ GET https://api.flashcards-open-source-app.com/v1/
 इतना काफी है:
 
 ```text
-Use this Flashcards discovery URL:
+Use this Nibomo discovery URL:
 https://api.flashcards-open-source-app.com/v1/
 
-Log in to my Flashcards account, load account context, and select or create the correct workspace.
+Log in to my Nibomo account, load account context, and select or create the correct workspace.
 Ask me only for the latest 8-digit email code when the flow requires it.
 ```
 
@@ -82,7 +82,7 @@ Ask me only for the latest 8-digit email code when the flow requires it.
 विचार वही है, बस थोड़ा अधिक स्पष्ट:
 
 ```text
-Connect my Flashcards account using this URL:
+Connect my Nibomo account using this URL:
 https://api.flashcards-open-source-app.com/v1/
 
 Follow the returned instructions, keep the API key secure, load my account, then continue to workspace setup.
@@ -289,7 +289,7 @@ OpenAPI उपलब्ध नहीं है और `/v1/` runtime discovery �
 
 ## यह खुला स्रोत है
 
-Flashcards खुला स्रोत है, इसलिए आप पूरे तरीके को किसी बंद व्यवस्था की तरह मानकर भरोसा करने के बजाय खुद देख सकते हैं।
+Nibomo खुला स्रोत है, इसलिए आप पूरे तरीके को किसी बंद व्यवस्था की तरह मानकर भरोसा करने के बजाय खुद देख सकते हैं।
 
 - Repository: [github.com/kirill-markin/flashcards-open-source-app](https://github.com/kirill-markin/flashcards-open-source-app)
 - एजेंट discovery route: [apps/backend/src/agent/discovery.ts](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/apps/backend/src/agent/discovery.ts)

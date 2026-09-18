@@ -224,7 +224,7 @@ LEQ वह जगह है जहाँ date-only decks बहुत जल्�
 
 अगर आप किसी बड़े premade deck या पुराने **APUSH Anki** setup से आ रहे हैं, तो [2026 में Anki से Open Source Flashcards App पर कैसे migrate करें](/blog/migrate-from-anki-txt-export-open-source-flashcards/) सबसे साफ handoff guide है। Scheduling side के लिए [2026 में FSRS के साथ exam की तैयारी कैसे करें](/blog/how-to-study-for-an-exam-with-fsrs/) सबसे अच्छा companion है।
 
-## APUSH workflow में Flashcards कहाँ fit बैठता है
+## APUSH workflow में Nibomo कहाँ fit बैठता है
 
 अगर आप यह सब [Nibomo](https://nibomo.com/) के अंदर चलाना चाहते हैं, तो काम की बात यह नहीं है कि app किसी जादू से आपके लिए APUSH कर देगा।
 

@@ -245,7 +245,7 @@ FSRS उपयोगी है, क्योंकि NCLEX memory uneven हो
 
 यहीं nursing-school deck और NCLEX deck का फ़र्क भी साफ़ दिखता है। Nursing-school version थोड़ी ज़्यादा content sprawl सह सकता है। **NCLEX के लिए फ्लैशकार्ड** वाला version ज़्यादा चुस्त, ज़्यादा selective, और थोड़ा कम sentimental होना चाहिए।
 
-## Flashcards यहाँ कहाँ काम आता है
+## Nibomo यहाँ कहाँ काम आता है
 
 [Nibomo](https://nibomo.com/) इस workflow में अच्छी तरह काम आता है, क्योंकि यह वे boring चीज़ें देता है जो सच में मायने रखती हैं: छोटे front/back cards, tags, filtered review, और cards काफ़ी साफ़ हो जाने के बाद FSRS scheduling।
 

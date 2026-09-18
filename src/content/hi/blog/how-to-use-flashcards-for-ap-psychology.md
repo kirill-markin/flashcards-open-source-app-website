@@ -241,7 +241,7 @@ AP Psychology prep शायद ही कभी smooth चलती है। �
 - [2026 में FSRS के साथ exam की तैयारी कैसे करें](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)
 - [2026 में FSRS बनाम SM-2](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
-## AP Psychology workflow में Flashcards कहाँ fit बैठता है
+## AP Psychology workflow में Nibomo कहाँ fit बैठता है
 
 अगर आप इसे [Nibomo](https://nibomo.com/) के अंदर चलाना चाहते हैं, तो उपयोगी हिस्सा यह नहीं है कि AI किसी जादू से आपके लिए AP Psych पढ़ लेगा।
 

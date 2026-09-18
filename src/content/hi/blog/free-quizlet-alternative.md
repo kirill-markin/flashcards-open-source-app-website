@@ -21,9 +21,9 @@ Quizlet के मुफ़्त अकाउंट में अब भी fla
 
 इसलिए केवल “मुफ़्त” देखकर ऐप चुनना ठीक नहीं। कोई मुफ़्त Quizlet विकल्प ऑफ़लाइन चलता है, लेकिन iPhone ऐप के पैसे लेता है। किसी में पढ़ाई के कई तरीके मिलते हैं, मगर अपना डेटा बाहर निकालने वाली फ़ाइल कम काम की होती है। कोई notes और cards को सिंक करता है, फिर PDF, image या AI की उन्नत सुविधाओं पर सीमा लगा देता है।
 
-सबसे अच्छा मुफ़्त Quizlet विकल्प वही है जिसकी कमी आपकी पढ़ाई की असली दिनचर्या न बिगाड़े। इस तुलना में ठीक पाँच विकल्प हैं—Anki, Knowt, RemNote, Mochi और Flashcards। हर $0 offer को एक जैसा मानने के बजाय Quizlet के मुफ़्त प्लान को आधार बनाया गया है।
+सबसे अच्छा मुफ़्त Quizlet विकल्प वही है जिसकी कमी आपकी पढ़ाई की असली दिनचर्या न बिगाड़े। इस तुलना में ठीक पाँच विकल्प हैं—Anki, Knowt, RemNote, Mochi और Nibomo। हर $0 offer को एक जैसा मानने के बजाय Quizlet के मुफ़्त प्लान को आधार बनाया गया है।
 
-> **खुलासा:** मेरा नाम Kirill Markin है और इस लेख में तुलना किए गए पाँच ऐप्स में से एक—Flashcards—मैं बनाता हूँ। इसे शामिल करने की वजह इसके open-source, FSRS और agent workflows हैं। यह हर किसी के लिए सबसे अच्छा विकल्प नहीं है: इसमें सीधे Quizlet इंपोर्ट करने का तरीका नहीं है, इसका native transfer package review state को सुरक्षित नहीं रखता और hosted app का मौजूदा मुफ़्त offer beta है। यह तुलना आधिकारिक pricing, help pages और repository documentation के स्रोतों से जाँची गई है; इसका मतलब यह नहीं कि मैंने पाँचों ऐप्स को लंबे समय तक खुद इस्तेमाल करके परखा है।
+> **खुलासा:** मेरा नाम Kirill Markin है और इस लेख में तुलना किए गए पाँच ऐप्स में से एक—Nibomo—मैं बनाता हूँ। इसे शामिल करने की वजह इसके open-source, FSRS और agent workflows हैं। यह हर किसी के लिए सबसे अच्छा विकल्प नहीं है: इसमें सीधे Quizlet इंपोर्ट करने का तरीका नहीं है, इसका native transfer package review state को सुरक्षित नहीं रखता और hosted app का मौजूदा मुफ़्त offer beta है। यह तुलना आधिकारिक pricing, help pages और repository documentation के स्रोतों से जाँची गई है; इसका मतलब यह नहीं कि मैंने पाँचों ऐप्स को लंबे समय तक खुद इस्तेमाल करके परखा है।
 
 **तथ्यों की जाँच:** 10 सितंबर, 2026।
 
@@ -108,17 +108,17 @@ Mochi से अपना डेटा बाहर निकालने के
 
 अगर automatic sync या बड़े AI limits से ज़्यादा बिना अकाउंट वाली ऑफ़लाइन पढ़ाई और Markdown portability मायने रखती है, तो Mochi चुनें। [Mochi alternative guide](/blog/mochi-alternative/) में इस product को चुनने का फ़ैसला अधिक विस्तार से समझाया गया है।
 
-## Flashcards: open source और agents के अनुकूल, लेकिन अब भी beta
+## Nibomo: open source और agents के अनुकूल, लेकिन अब भी beta
 
-इस सूची में Flashcards खास ज़रूरतों वाला विकल्प है। Hosted app [beta के दौरान मुफ़्त है](/pricing/)। इसमें web, iOS और Android पर AI तथा sync शामिल हैं और cards, files या total storage पर plan-based quota नहीं है। Request, file और transfer की सामान्य सीमाएँ फिर भी लागू होती हैं। [Features page](/features/) ऑफ़लाइन पढ़ाई, FSRS review और MCP तथा Agent API के ज़रिए उसी workspace तक पहुँच को document करता है।
+इस सूची में Nibomo खास ज़रूरतों वाला विकल्प है। Hosted app [beta के दौरान मुफ़्त है](/pricing/)। इसमें web, iOS और Android पर AI तथा sync शामिल हैं और cards, files या total storage पर plan-based quota नहीं है। Request, file और transfer की सामान्य सीमाएँ फिर भी लागू होती हैं। [Features page](/features/) ऑफ़लाइन पढ़ाई, FSRS review और MCP तथा Agent API के ज़रिए उसी workspace तक पहुँच को document करता है।
 
 लंबी अवधि का वादा beta offer के मुकाबले सीमित है। Cards बनाना और उन्हें दोहराना मुफ़्त रहेगा। AI के ज़्यादा उपयोग के लिए बाद में अपनी provider key या paid option की ज़रूरत पड़ सकती है। यह वादा भी नहीं है कि हर hosted feature हमेशा मुफ़्त रहेगा।
 
-Quizlet migration भी इस विकल्प की सबसे बड़ी कमज़ोरी है। Flashcards में Quizlet, CSV, TSV, Anki या सामान्य text के लिए कोई direct importer नहीं है। Eligible Quizlet text को manually cards बनाने या review किए गए AI drafts के source material की तरह इस्तेमाल किया जा सकता है, लेकिन यह lossless import नहीं है। [Quizlet export workflow](/blog/how-to-export-quizlet-sets-and-turn-them-into-fsrs-flashcards/) cleanup समझाता है और ऐसा दावा नहीं करता कि गायब media और study state वापस मिल सकती है।
+Quizlet migration भी इस विकल्प की सबसे बड़ी कमज़ोरी है। Nibomo में Quizlet, CSV, TSV, Anki या सामान्य text के लिए कोई direct importer नहीं है। Eligible Quizlet text को manually cards बनाने या review किए गए AI drafts के source material की तरह इस्तेमाल किया जा सकता है, लेकिन यह lossless import नहीं है। [Quizlet export workflow](/blog/how-to-export-quizlet-sets-and-turn-them-into-fsrs-flashcards/) cleanup समझाता है और ऐसा दावा नहीं करता कि गायब media और study state वापस मिल सकती है।
 
-Native `flashcards.zip` package Flashcards workspaces के बीच cards, tags और उनसे जुड़ा media ले जाता है। इसमें review history, FSRS scheduler state, settings, पूरा deck structure या account data नहीं जाता। Self-hosting से MIT-licensed software और deployment पर नियंत्रण मिलता है, लेकिन documented production path AWS इस्तेमाल करता है। Infrastructure, provider, maintenance, backup और operator की लागत फिर भी आती है। [Self-hosting guide](/docs/self-hosting/) इस सीमा को साफ़ करती है।
+Native `flashcards.zip` package Nibomo workspaces के बीच cards, tags और उनसे जुड़ा media ले जाता है। इसमें review history, FSRS scheduler state, settings, पूरा deck structure या account data नहीं जाता। Self-hosting से MIT-licensed software और deployment पर नियंत्रण मिलता है, लेकिन documented production path AWS इस्तेमाल करता है। Infrastructure, provider, maintenance, backup और operator की लागत फिर भी आती है। [Self-hosting guide](/docs/self-hosting/) इस सीमा को साफ़ करती है।
 
-अगर Quizlet छोड़ने की वजह open source, साफ़ तौर पर बताया गया FSRS या AI-agent access है, तो Flashcards चुनें। अगर direct migration, आज़माए हुए import formats या ऐसा hosted free tier ज़्यादा अहम है जिसमें सब कुछ हमेशा मुफ़्त रहे, तो कोई दूसरा विकल्प चुनें। अलग [open-source Quizlet comparison](/blog/quizlet-alternative/) में Quizlet और Flashcards की गहरी तुलना है; पाँच ऐप्स वाली यह guide बिना लागत वाली सीमाओं पर केंद्रित है।
+अगर Quizlet छोड़ने की वजह open source, साफ़ तौर पर बताया गया FSRS या AI-agent access है, तो Nibomo चुनें। अगर direct migration, आज़माए हुए import formats या ऐसा hosted free tier ज़्यादा अहम है जिसमें सब कुछ हमेशा मुफ़्त रहे, तो कोई दूसरा विकल्प चुनें। अलग [open-source Quizlet comparison](/blog/quizlet-alternative/) में Quizlet और Nibomo की गहरी तुलना है; पाँच ऐप्स वाली यह guide बिना लागत वाली सीमाओं पर केंद्रित है।
 
 ## सब कुछ ले जाने से पहले यह migration test करें
 

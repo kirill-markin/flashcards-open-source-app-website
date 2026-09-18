@@ -210,7 +210,7 @@ Summer decks तब bloated हो जाती हैं जब लोग "य�
 
 अगर AI ने आपकी deck को आपकी patience से बड़ा बना दिया है, तो [2026 में AI फ़्लैशकार्ड्स कैसे ठीक करें](/hi/blog/how-to-fix-ai-flashcards/) सबसे पहले पढ़ने लायक cleanup guide है।
 
-## Flashcards इसमें कहाँ अच्छे से fit होता है
+## Nibomo इसमें कहाँ अच्छे से fit होता है
 
 [Nibomo](/hi/) इस तरह की summer review के लिए अच्छा fit है, क्योंकि मुश्किल हिस्सा novelty नहीं होता। मुश्किल हिस्सा friction इतना कम रखना होता है कि आप लौटते रहें।
 

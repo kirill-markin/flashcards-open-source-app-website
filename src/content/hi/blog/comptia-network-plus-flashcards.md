@@ -267,7 +267,7 @@ Organization सरल रखें: एक `N10-009` deck और उसमे�
 
 [Nibomo](/hi/features/) इस workflow का memory वाला हिस्सा संभालता है: सामने-पीछे वाले cards, decks और tags, FSRS से due review, offline study और sync, portable exports और self-hosted option। इसमें वे छोटे facts और decisions रखें जिन्हें practical work शुरू करने से पहले तुरंत याद करना है।
 
-यहाँ किसी official या पहले से तैयार N10-009 deck का वादा नहीं है। मौजूदा CompTIA objectives और पढ़ाई के दौरान हुई अपनी legitimate गलतियों से शुरुआत करें। Flashcards में अपना deck बनाना हो, तो [शुरुआत करने की गाइड](/hi/docs/getting-started/) hosted और self-hosted दोनों रास्ते समझाती है।
+यहाँ किसी official या पहले से तैयार N10-009 deck का वादा नहीं है। मौजूदा CompTIA objectives और पढ़ाई के दौरान हुई अपनी legitimate गलतियों से शुरुआत करें। Nibomo में अपना deck बनाना हो, तो [शुरुआत करने की गाइड](/hi/docs/getting-started/) hosted और self-hosted दोनों रास्ते समझाती है।
 
 अगर आप पास की किसी दूसरी certification की तैयारी कर रहे हैं, तो [CompTIA A+ फ़्लैशकार्ड गाइड](/hi/blog/comptia-a-plus-flashcards/) technician के काम में याद करने और अभ्यास के बीच यही सीमा लागू करती है। [CCNA फ़्लैशकार्ड गाइड](/hi/blog/how-to-use-flashcards-for-ccna/) routing, switching और command practice को और गहराई से समझाती है।
 

@@ -192,7 +192,7 @@ Anki ownership discussion को उपयोगी बनाने वाली
 
 - [Spaced Repetition के लिए Self-Hosted Open Source Flashcards App](/blog/self-hosted-open-source-flashcards-app-for-spaced-repetition/)
 
-## अगर आप चाहते हैं कि अगली deck को own करना आसान हो, तो Flashcards कहाँ fit बैठती है
+## अगर आप चाहते हैं कि अगली deck को own करना आसान हो, तो Nibomo कहाँ fit बैठती है
 
 अगर मैं ownership को ध्यान में रखकर नई deck सेट कर रहा होता, तो मैं पहले कुछ product qualities देखता:
 

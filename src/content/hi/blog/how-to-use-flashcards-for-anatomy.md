@@ -240,7 +240,7 @@ Anatomy आपको endless candidate cards देती है। आपकी
 
 अगर scheduler वाला हिस्सा और सीधे समझना है, तो [2026 में FSRS के साथ परीक्षा की तैयारी कैसे करें](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/) और [2026 में FSRS बनाम SM-2](https://nibomo.com/blog/fsrs-vs-sm-2/) इसके दो साफ़ follow-ups हैं।
 
-## Flashcards कहाँ fit होता है
+## Nibomo कहाँ fit होता है
 
 [Nibomo](https://nibomo.com/) anatomy में तब सबसे अच्छा fit होता है जब आपको पहले से पता हो कि क्या याद रखना है।
 

@@ -18,7 +18,7 @@ keywords:
 
 ज़्यादातर "AI से पढ़ाई" वाले workflows की यही दिक्कत है। AI अब समझाने, guide करने, और quiz लेने में बहुत अच्छा हो चुका है। वह आपको असल तैयारी से पहले ही तैयार महसूस भी करा देता है।
 
-जो version सच में टिकता है, वह इससे आसान है: पहले AI से सवाल पूछवाइए, फिर अपने शब्दों में जवाब दीजिए, जहाँ आप चूके सिर्फ़ वही बचाइए, और उन्हीं कमज़ोर हिस्सों को छोटे flashcards में बदलकर FSRS से review कीजिए। AI tutor gap दिखाता है। Flashcards उस follow-up को सहेजता, organize करता, और schedule करता है।
+जो version सच में टिकता है, वह इससे आसान है: पहले AI से सवाल पूछवाइए, फिर अपने शब्दों में जवाब दीजिए, जहाँ आप चूके सिर्फ़ वही बचाइए, और उन्हीं कमज़ोर हिस्सों को छोटे flashcards में बदलकर FSRS से review कीजिए। AI tutor gap दिखाता है। Nibomo उस follow-up को सहेजता, organize करता, और schedule करता है।
 
 ![गरम रोशनी वाले डेस्क पर AI active recall, flashcards और study notebook](/blog/how-to-use-ai-for-active-recall.png)
 
@@ -205,7 +205,7 @@ Deck को सिर्फ़ एक सवाल का जवाब देन
 
 मैं क्या साफ़-साफ़ retrieve नहीं कर पाया, और इसलिए बाद में फिर से देखना चाहता हूँ?
 
-## Flashcards कहाँ fit बैठता है
+## Nibomo कहाँ fit बैठता है
 
 [Nibomo](/hi/) tutoring session के बाद fit बैठता है, जब आपको पता चल चुका हो कि क्या चीज़ retention के लायक है।
 
@@ -216,7 +216,7 @@ Deck को सिर्फ़ एक सवाल का जवाब देन
 3. उन्हें साफ़, सीधे cards में बदलें
 4. समय के साथ FSRS से review करें
 
-यहीं Flashcards उपयोगी बनता है:
+यहीं Nibomo उपयोगी बनता है:
 
 - उन्हीं weak spots के लिए front/back cards जो आपको सच में मिले
 - decks और tags, ताकि cards class, exam, या topic के हिसाब से organized रहें

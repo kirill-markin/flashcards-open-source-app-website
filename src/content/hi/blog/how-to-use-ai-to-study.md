@@ -195,7 +195,7 @@ memory work वह है जहाँ आप:
 
 अगर आपको scheduler वाला हिस्सा खास तौर पर समझना है, तो [2026 में FSRS बनाम SM-2](/blog/fsrs-vs-sm-2/) बताता है कि मैं final cards को chat transcript या static export में छोड़ने के बजाय FSRS में क्यों डालना पसंद करूँगा।
 
-## Flashcards कहाँ fit बैठता है
+## Nibomo कहाँ fit बैठता है
 
 [Nibomo](/) ऐसा AI tutor नहीं है जो सब कुछ कर दे।
 
@@ -213,7 +213,7 @@ memory work वह है जहाँ आप:
 इससे workflow ईमानदार बना रहता है:
 
 1. सामग्री को समझने के लिए अपने AI tutor या study assistant का उपयोग करो
-2. काम के weak spots को Flashcards में लाओ
+2. काम के weak spots को Nibomo में लाओ
 3. उन्हें simple cards में साफ़ करो
 4. FSRS के साथ review करो जब तक वे सच में टिक न जाएँ
 

@@ -273,7 +273,7 @@ CFA details बदलती हैं। Exam windows, fees, registration deadli
 
 इन्हें `needs-recheck` से tag करें और decisions लेने से पहले official CFA Institute pages से verify करें। आपके long-term deck में stable recall targets होने चाहिए। Admin reminders audit करने में आसान रहने चाहिए।
 
-## इस CFA workflow में Flashcards कहाँ fit होता है
+## इस CFA workflow में Nibomo कहाँ fit होता है
 
 [Nibomo](https://nibomo.com/) इस workflow में fit होता है, क्योंकि यह CFA deck के specific हिस्सों को support करता है, बिना यह दिखावा किए कि यह CFA Institute materials की जगह ले सकता है:
 

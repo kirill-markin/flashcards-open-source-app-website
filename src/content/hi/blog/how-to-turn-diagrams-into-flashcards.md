@@ -292,7 +292,7 @@ visual study करने वाले लोग अक्सर मान ल�
 
 अगर आप एक साथ दस diagrams upload करेंगे, तो model उन्हें flatten करना शुरू कर देगा और deck जल्दी precision खो देगा।
 
-## Flashcards कहाँ फिट बैठता है
+## Nibomo कहाँ फिट बैठता है
 
 [Nibomo](https://nibomo.com/) **diagram से flashcards** workflow के लिए अच्छा fit है क्योंकि product में पहले से इस process के लिए ज़रूरी हिस्से हैं:
 

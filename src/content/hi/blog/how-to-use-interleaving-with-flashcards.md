@@ -203,7 +203,7 @@ Category hints चुपचाप पूरी exercise बेअसर कर �
 
 Sequencing experiment से scheduler को अलग रखें। Spaced repetition के साथ interleaving करते समय FSRS review history और due timing सुरक्षित रहनी चाहिए। Review system के आसपास जानबूझकर mixed practice जोड़ें; सिर्फ़ अच्छा दिखने वाला pattern बनाए रखने के लिए mature cards को बार-बार reset या reschedule न करें।
 
-## Flashcards इस workflow में कैसे फिट होता है
+## Nibomo इस workflow में कैसे फिट होता है
 
 [Nibomo](/hi/features/) इस workflow को साफ़ retention layer देता है: स्पष्ट front/back cards, चार review ratings और due cards के लिए FSRS scheduling। इसके घोषित features decks या workspaces के बीच automatic interleaving का वादा नहीं करते, इसलिए यह न मानें कि normal due queue आपके लिए जानबूझकर contrast pairs बना रही है।
 

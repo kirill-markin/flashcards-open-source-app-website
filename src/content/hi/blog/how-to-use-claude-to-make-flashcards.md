@@ -1,6 +1,6 @@
 ---
 title: "2026 में Claude से फ़्लैशकार्ड्स कैसे बनाएं: Projects, File Uploads और FSRS Review"
-description: "2026 के लिए Claude फ़्लैशकार्ड workflow का एक व्यावहारिक तरीका: Projects और file uploads से छोटे, साफ़ card drafts बनाइए, फिर सिर्फ़ काम के cards को Flashcards में ले जाकर असली FSRS review कीजिए।"
+description: "2026 के लिए Claude फ़्लैशकार्ड workflow का एक व्यावहारिक तरीका: Projects और file uploads से छोटे, साफ़ card drafts बनाइए, फिर सिर्फ़ काम के cards को Nibomo में ले जाकर असली FSRS review कीजिए।"
 date: "2026-06-11"
 image: "/blog/how-to-use-claude-to-make-flashcards.png"
 keywords:
@@ -236,15 +236,15 @@ FSRS भूलने की समस्या संभालता है।
 
 अगर आपको scheduler side ज़्यादा detail में चाहिए, तो [2026 में FSRS बनाम SM-2](/hi/blog/fsrs-vs-sm-2/) इसका सीधा follow-up है।
 
-## बचे हुए cards को Flashcards में ले जाएँ, किसी magic Claude integration का दिखावा किए बिना
+## बचे हुए cards को Nibomo में ले जाएँ, किसी magic Claude integration का दिखावा किए बिना
 
 यह हिस्सा ईमानदार रहना चाहिए।
 
-यहाँ कोई special Claude-to-Flashcards button नहीं है, और मैं ऐसा दिखावा नहीं करूँगा। काम की handoff इससे कहीं simpler है:
+यहाँ कोई special Claude-to-Nibomo button नहीं है, और मैं ऐसा दिखावा नहीं करूँगा। काम की handoff इससे कहीं simpler है:
 
 1. Claude में candidate cards draft करें
 2. कमजोर cards delete या rewrite करें
-3. बचे हुए cards को Flashcards AI chat में copy करें या cards सीधे app में बनाएं
+3. बचे हुए cards को Nibomo AI chat में copy करें या cards सीधे app में बनाएं
 4. उन्हें decks और tags में organize करें
 5. final deck को FSRS के साथ review करें
 

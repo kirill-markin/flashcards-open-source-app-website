@@ -246,7 +246,7 @@ FSRS ठीक इसी काम में अच्छा है।
 
 [2026 में FSRS के साथ exam की तैयारी कैसे करें](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/) scheduling side पर और गहराई से जाता है।
 
-## इस AP Calculus workflow में Flashcards कहाँ फिट बैठता है
+## इस AP Calculus workflow में Nibomo कहाँ फिट बैठता है
 
 [Nibomo](https://nibomo.com/) इस AP Calculus workflow में अच्छी तरह fit बैठता है, बिना इस article को sales pitch बनाए।
 

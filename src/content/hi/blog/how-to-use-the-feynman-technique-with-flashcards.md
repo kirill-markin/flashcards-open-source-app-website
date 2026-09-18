@@ -210,7 +210,7 @@ AI यहाँ काम का है, लेकिन ज़्यादा�
 
 अगर AI वाले हिस्से पर और detail चाहिए, तो [2026 में AI से Active Recall कैसे करें](/hi/blog/how-to-use-ai-for-active-recall/) सही companion article है।
 
-## Flashcards कहाँ फिट बैठता है
+## Nibomo कहाँ फिट बैठता है
 
 Feynman technique rough material बनाती है। अक्सर अंत में आपके पास इनमें से कुछ न कुछ होता है:
 
