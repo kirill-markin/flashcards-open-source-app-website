@@ -18,7 +18,7 @@ Esta conclusión se limita a la documentación pública de Quizlet; no describe 
 
 **Información comprobada:** 18 de agosto de 2026.
 
-> **Aviso de transparencia:** Soy Kirill Markin y desarrollo Nibomo. Su Agent API y su servidor MCP aparecen como alternativas más adelante. Flashcards no es compatible con Quizlet ni importa automáticamente sets de Quizlet.
+> **Aviso de transparencia:** Soy Kirill Markin y desarrollo Nibomo. Su Agent API y su servidor MCP aparecen como alternativas más adelante. Nibomo no es compatible con Quizlet ni importa automáticamente sets de Quizlet.
 
 ![Desarrollador que compara la exportación y la inserción de Quizlet, sus integraciones específicas y una API de flashcards documentada](/blog/quizlet-api.png)
 
@@ -81,7 +81,7 @@ Automatizar tareas recurrentes exige que tu software pueda repetir el mismo trab
 
 La vía segura consiste en utilizar un sistema de flashcards que documente cómo se autentica el software externo y qué operaciones de lectura y escritura admite. Puede que eso implique elegir una alternativa a la API de Quizlet para el flujo automatizado y conservar Quizlet para las tareas de estudio que el servicio sí ofrece públicamente.
 
-## Qué ofrece realmente Flashcards como alternativa mediante API
+## Qué ofrece realmente Nibomo como alternativa mediante API
 
 Nibomo publica dos vías de acceso al mismo conjunto limitado de datos de cada usuario:
 

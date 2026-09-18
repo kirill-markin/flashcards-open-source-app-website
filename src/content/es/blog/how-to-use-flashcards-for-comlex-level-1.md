@@ -229,7 +229,7 @@ Así mantienes la IA en el papel de borrador en vez de dejar que hinche el mazo 
 
 Si ésa es la parte que quieres afinar, [Cómo crear mejores flashcards en 2026](/es/blog/how-to-make-better-flashcards/) y [Cómo usar IA para hacer active recall en 2026](/es/blog/how-to-use-ai-for-active-recall/) encajan muy bien con este flujo de COMLEX.
 
-## Dónde encaja Flashcards
+## Dónde encaja Nibomo
 
 [Nibomo](/es/) encaja mejor una vez que ya sabes qué merece quedarse en la memoria.
 

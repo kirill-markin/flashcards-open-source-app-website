@@ -171,7 +171,7 @@ Y si tu fuente es un documento o unas diapositivas, este se parece más a lo que
 
 - [Cómo convertir un PDF en tarjetas didácticas en 2026](https://nibomo.com/blog/how-to-turn-a-pdf-into-flashcards/)
 
-## Dónde encaja Flashcards en este flujo
+## Dónde encaja Nibomo en este flujo
 
 [Nibomo](https://nibomo.com/) encaja bien en **apuntes manuscritos a flashcards** porque el producto ya reúne las piezas que de verdad importan:
 

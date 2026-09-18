@@ -254,7 +254,7 @@ FSRS ayuda mucho una vez que las tarjetas son pequeñas y honestas. Las tarjetas
 
 Si quieres más detalle sobre la parte de programación, [Cómo estudiar para un examen con FSRS en 2026](/es/blog/how-to-study-for-an-exam-with-fsrs/) es la continuación directa. Si tu cantidad de tarjetas ya está creciendo demasiado rápido, [¿Cuántas tarjetas nuevas al día en 2026?](/es/blog/how-many-new-flashcards-per-day/) es la lectura más urgente.
 
-## Dónde encaja Flashcards
+## Dónde encaja Nibomo
 
 [Nibomo](/es/) encaja bien en este flujo de estudio para el GED porque el producto ya cubre las partes aburridas que hacen que el sistema se sostenga:
 

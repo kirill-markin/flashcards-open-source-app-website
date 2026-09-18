@@ -286,7 +286,7 @@ Esa combinación es especialmente útil en las dos últimas semanas antes de un 
 
 Si tu flujo de examen necesita más estructura que eso, [Cómo estudiar para un examen con FSRS en 2026](/es/blog/how-to-study-for-an-exam-with-fsrs/) es el artículo complementario adecuado.
 
-## Dónde encaja Flashcards
+## Dónde encaja Nibomo
 
 [Nibomo](/es/) encaja en este flujo porque el producto cubre la parte que el blurting no cubre:
 

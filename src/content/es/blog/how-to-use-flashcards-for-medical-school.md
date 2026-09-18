@@ -238,7 +238,7 @@ Por eso **las flashcards para la carrera de medicina** también deberían quedar
 
 Ahí es donde el mazo se gana su espacio.
 
-## Dónde encaja mejor Flashcards en este flujo
+## Dónde encaja mejor Nibomo en este flujo
 
 [Nibomo](https://nibomo.com/) encaja bien para **flashcards de medicina** porque el producto ya soporta las piezas de las que depende este tipo de flujo:
 

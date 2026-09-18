@@ -241,7 +241,7 @@ Es parte de **cómo hacer mejores flashcards**.
 
 El mazo mejora cuando salen las malas.
 
-## Por qué Flashcards encaja bien con este flujo de trabajo
+## Por qué Nibomo encaja bien con este flujo de trabajo
 
 [Nibomo](https://nibomo.com/) encaja muy bien con **cómo hacer flashcards efectivas** porque el producto está pensado en torno a lo que importa después del borrador:
 

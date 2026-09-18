@@ -248,7 +248,7 @@ Lo que FSRS sí hace bien es gestionar el calendario de repaso una vez que las t
 
 Si quieres la comparación del planificador en sí, [FSRS vs SM-2 in 2026](https://nibomo.com/blog/fsrs-vs-sm-2/) cubre esa parte.
 
-## Dónde encaja Flashcards en este flujo de trabajo
+## Dónde encaja Nibomo en este flujo de trabajo
 
 [Nibomo](https://nibomo.com/) encaja bien en **cómo corregir flashcards de IA** porque el producto ya cubre ese punto intermedio incómodo que la mayoría de los generadores deja sin resolver:
 

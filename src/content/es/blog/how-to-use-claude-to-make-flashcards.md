@@ -1,6 +1,6 @@
 ---
 title: "Cómo usar Claude para crear flashcards en 2026: Projects, carga de archivos y repaso con FSRS"
-description: "Un flujo práctico para crear flashcards con Claude en 2026: usa Projects y la carga de archivos para redactar tarjetas más pequeñas y limpias, y luego pasa las que de verdad valen la pena a Flashcards para repasarlas con FSRS."
+description: "Un flujo práctico para crear flashcards con Claude en 2026: usa Projects y la carga de archivos para redactar tarjetas más pequeñas y limpias, y luego pasa las que de verdad valen la pena a Nibomo para repasarlas con FSRS."
 date: "2026-06-11"
 image: "/blog/how-to-use-claude-to-make-flashcards.png"
 keywords:
@@ -236,15 +236,15 @@ Son trabajos distintos.
 
 Si quieres profundizar más en la parte del planificador, [FSRS vs SM-2 en 2026](/es/blog/fsrs-vs-sm-2/) es el siguiente artículo directo.
 
-## Pasa las que sobrevivan a Flashcards sin fingir que existe una integración mágica con Claude
+## Pasa las que sobrevivan a Nibomo sin fingir que existe una integración mágica con Claude
 
 Aquí conviene ser honestos.
 
-No hay ningún botón especial de Claude a Flashcards, y no voy a fingir lo contrario. El relevo útil es más simple:
+No hay ningún botón especial de Claude a Nibomo, y no voy a fingir lo contrario. El relevo útil es más simple:
 
 1. redacta tarjetas candidatas en Claude
 2. borra o reescribe las flojas
-3. copia las que sobrevivan al chat con IA de Flashcards o crea las tarjetas directamente en la app
+3. copia las que sobrevivan al chat con IA de Nibomo o crea las tarjetas directamente en la app
 4. organízalas en mazos y etiquetas
 5. repasa el mazo final con FSRS
 

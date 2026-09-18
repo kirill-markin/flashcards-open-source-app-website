@@ -246,7 +246,7 @@ Así que deja el orden simple:
 
 [Cómo estudiar para un examen con FSRS en 2026](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/) entra más a fondo en la parte de planificación.
 
-## Dónde encaja Flashcards en este flujo de AP Calculus
+## Dónde encaja Nibomo en este flujo de AP Calculus
 
 [Nibomo](https://nibomo.com/) encaja bien en este flujo de AP Calculus si quieres un solo sitio donde mantener todo el ciclo ajustado sin convertir el artículo en un discurso de venta.
 

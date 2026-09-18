@@ -340,7 +340,7 @@ Si eso importa en tu configuración de estudio, esto también merece la pena:
 
 - [Best Offline Flashcards App in 2026](https://nibomo.com/blog/best-offline-flashcards-app/)
 
-## Dónde encaja bien Flashcards en este flujo
+## Dónde encaja bien Nibomo en este flujo
 
 [Nibomo](https://nibomo.com/) encaja muy bien con **las flashcards de Security+** porque el producto ya coincide con el flujo de trabajo en lugar de obligarte a improvisar entre cinco herramientas.
 

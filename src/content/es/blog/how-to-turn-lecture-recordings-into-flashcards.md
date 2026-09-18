@@ -225,7 +225,7 @@ Si el profesor pasó cuatro minutos explicando un concepto con tres ejemplos, es
 
 Es mucho mejor que convertir cada frase en una tarjeta y llamarla productividad.
 
-## Dónde encajan las Flashcards
+## Dónde encaja Nibomo
 
 [Nibomo](https://nibomo.com/) es una buena opción para **grabaciones de conferencias de estudio con tarjetas didácticas** porque cubre la parte que las transcripciones y los borradores de IA no resuelven por sí solos:
 

@@ -224,13 +224,13 @@ Si el número doloroso es:
 
 Ese último caso es muy común. Algunas personas no tienen realmente demasiados repasos. Tienen repasos demasiado lentos y demasiado molestos. Si ése es tu caso, [Cómo repasar flashcards más rápido en 2026](/es/blog/how-to-review-flashcards-faster/) te ayudará más que otra ronda de ajustes del planificador.
 
-## Dónde encaja Flashcards sin fingir que es magia
+## Dónde encaja Nibomo sin fingir que es magia
 
 [Características de Nibomo](/es/features/) ayuda aquí por una razón práctica: el producto cubre tanto la parte anterior al repaso como la parte durante el repaso.
 
 Eso importa porque muchos picos de repaso empiezan antes del primer día de repaso. Empiezan cuando entran demasiadas tarjetas en el mazo activo, o cuando los borradores generados con IA se aceptan sin suficiente edición.
 
-Flashcards puede ayudar con las partes aburridas que sí importan:
+Nibomo puede ayudar con las partes aburridas que sí importan:
 
 - crear borradores de tarjetas a partir del material fuente
 - editar tarjetas de anverso y reverso antes de que se conviertan en deuda de repaso permanente

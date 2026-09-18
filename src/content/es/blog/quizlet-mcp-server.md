@@ -19,7 +19,7 @@ Quizlet sí ofrece una aplicación oficial en ChatGPT. Permite convertir una con
 
 **Información comprobada:** 12 de septiembre de 2026.
 
-> **Aviso de transparencia:** Soy Kirill Markin y desarrollo Nibomo. Más adelante presento su servidor MCP y su Agent API como alternativas. Flashcards no puede conectarse a una cuenta de Quizlet ni importar una URL de Quizlet.
+> **Aviso de transparencia:** Soy Kirill Markin y desarrollo Nibomo. Más adelante presento su servidor MCP y su Agent API como alternativas. Nibomo no puede conectarse a una cuenta de Quizlet ni importar una URL de Quizlet.
 
 ![Una jardinera lleva una planta joven desde un invernadero cerrado hasta un bancal con riego por goteo ramificado](/blog/quizlet-mcp-server.png)
 
@@ -77,16 +77,16 @@ Nibomo ofrece este endpoint MCP remoto:
 
 Su [documentación del conector MCP](/docs/mcp-connector/) define siete herramientas: `list_workspaces`, `sql_query` para leer, `sql_execute` para escribir, `get_guide` para consultar guías de referencia, además de `next_review_card`, `reveal_answer` y `submit_review` para repasar. Los clientes MCP interactivos pueden autorizar la conexión mediante OAuth. Los agentes que funcionan desde un terminal pueden consultar la [documentación de Agent API](/docs/api/) y utilizar el flujo HTTP publicado.
 
-Esto no convierte Flashcards en un conector de Quizlet. El flujo con soporte es este:
+Esto no convierte Nibomo en un conector de Quizlet. El flujo con soporte es este:
 
 1. exportar el texto de un set de Quizlet que hayas creado;
 2. conservar el archivo original y revisar una copia de trabajo;
-3. revisar las tarjetas resultantes antes de guardarlas en Flashcards; y
-4. conectar el espacio de trabajo de Flashcards resultante a un cliente compatible para futuras lecturas y escrituras.
+3. revisar las tarjetas resultantes antes de guardarlas en Nibomo; y
+4. conectar el espacio de trabajo de Nibomo resultante a un cliente compatible para futuras lecturas y escrituras.
 
-Para Claude, encontrarás los pasos en [Cómo conectar Flashcards con Claude mediante MCP](/blog/how-to-connect-flashcards-to-claude-with-mcp/). Codex y otros agentes pueden utilizar la vía documentada de MCP o Agent API que admita su entorno.
+Para Claude, encontrarás los pasos en [Cómo conectar Nibomo con Claude mediante MCP](/blog/how-to-connect-flashcards-to-claude-with-mcp/). Codex y otros agentes pueden utilizar la vía documentada de MCP o Agent API que admita su entorno.
 
-Flashcards no puede leer una URL de Quizlet, replicar una cuenta de Quizlet, sincronizar cambios posteriores ni recuperar las imágenes y el historial de estudio que la exportación omite. Crea sus propias tarjetas y un nuevo estado de programación a partir del material que decidas trasladar.
+Nibomo no puede leer una URL de Quizlet, replicar una cuenta de Quizlet, sincronizar cambios posteriores ni recuperar las imágenes y el historial de estudio que la exportación omite. Crea sus propias tarjetas y un nuevo estado de programación a partir del material que decidas trasladar.
 
 Si estás valorando si el cambio compensa más allá del acceso para agentes, consulta la [comparación de una alternativa de código abierto con Quizlet](/blog/quizlet-alternative/).
 
@@ -94,7 +94,7 @@ Si estás valorando si el cambio compensa más allá del acceso para agentes, co
 
 Un contrato público reduce parte de la incertidumbre de una integración, pero eso no hace seguras todas las acciones de MCP. OAuth autentica la conexión, pero no garantiza que una tarjeta generada por IA sea correcta, que los datos devueltos permanezcan dentro del servicio de flashcards ni que una edición refleje tu intención.
 
-Flashcards separa las operaciones de lectura de sus herramientas de escritura: `sql_execute` para tarjetas y mazos, y `submit_review` para repasos. La credencial OAuth permite acceder a toda la superficie del conector, así que el bloqueo de herramientas y el sistema de aprobación dependen del cliente. Empieza con un espacio de trabajo pequeño y sin información sensible. Permite que el agente lea solo los datos necesarios para la tarea, exige aprobación para cada escritura cuando el cliente lo permita y revisa el espacio de trabajo y el cambio propuesto antes de aceptarlo.
+Nibomo separa las operaciones de lectura de sus herramientas de escritura: `sql_execute` para tarjetas y mazos, y `submit_review` para repasos. La credencial OAuth permite acceder a toda la superficie del conector, así que el bloqueo de herramientas y el sistema de aprobación dependen del cliente. Empieza con un espacio de trabajo pequeño y sin información sensible. Permite que el agente lea solo los datos necesarios para la tarea, exige aprobación para cada escritura cuando el cliente lo permita y revisa el espacio de trabajo y el cambio propuesto antes de aceptarlo.
 
 No conectes material de estudio privado hasta que hayas revisado las condiciones de conservación y tratamiento de datos del cliente de IA. El modelo de amenazas detallado está en [¿Es seguro usar MCP con flashcards?](/blog/is-mcp-safe-for-flashcards/). Para una primera transferencia basta con una regla sencilla: conserva la exportación original, previsualiza unas cuantas tarjetas, aprueba una operación de escritura concreta y comprueba el resultado en la aplicación de destino antes de continuar.
 

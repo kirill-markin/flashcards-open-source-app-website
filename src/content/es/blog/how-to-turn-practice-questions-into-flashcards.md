@@ -226,7 +226,7 @@ Yo prefiero hacerlo en lotes cortos:
 
 Eso hace que el borrador salga más limpio y que sea más fácil confiar en la cola de repaso.
 
-## Dónde encaja Flashcards
+## Dónde encaja Nibomo
 
 [Nibomo](https://nibomo.com/) encaja bien para **convertir preguntas de práctica en tarjetas de estudio** porque el producto ya tiene las piezas que necesita este flujo de trabajo:
 

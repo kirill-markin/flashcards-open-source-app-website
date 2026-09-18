@@ -236,7 +236,7 @@ Una de las formas más rápidas de hacer más fácil **cómo hacer tarjetas did�
 
 El mazo se limpia enseguida.
 
-## Dónde encaja mejor Flashcards en este flujo de trabajo
+## Dónde encaja mejor Nibomo en este flujo de trabajo
 
 [Nibomo](https://nibomo.com/) encaja muy bien en **repetición espaciada para vocabulario** porque el producto ya incluye las piezas de las que depende este flujo de trabajo:
 

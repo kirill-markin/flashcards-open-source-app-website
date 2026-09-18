@@ -279,7 +279,7 @@ Si cada tarjeta todavía te obliga a reconstruir el paquete entero, no convertis
 
 Solo convertiste un formato de deberes en otro.
 
-## Dónde encaja Flashcards
+## Dónde encaja Nibomo
 
 [Nibomo](https://nibomo.com/) encaja bien para **pasar una guía de estudio a tarjetas de estudio** porque el producto ya tiene las piezas que necesita este flujo de trabajo:
 

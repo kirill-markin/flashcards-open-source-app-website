@@ -255,7 +255,7 @@ Si quieres profundizar en la parte de la programación, este artículo entra má
 
 - [FSRS vs SM-2 en 2026](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
-## Dónde encaja Flashcards
+## Dónde encaja Nibomo
 
 [Nibomo](https://nibomo.com/) encaja bien en este flujo de trabajo porque el producto ya cubre justo lo que necesita la práctica oral con IA:
 

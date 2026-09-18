@@ -242,7 +242,7 @@ Y si quieres que te expliquen el propio modelo de planificación:
 
 - [FSRS vs SM-2 en 2026](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
-## Dónde encaja Flashcards en este flujo de enfermería
+## Dónde encaja Nibomo en este flujo de enfermería
 
 [Nibomo](https://nibomo.com/) encaja bien para **flashcards para enfermería** porque el producto ya soporta las piezas de las que depende este flujo:
 

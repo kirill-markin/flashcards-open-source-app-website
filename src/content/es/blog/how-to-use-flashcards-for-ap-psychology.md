@@ -241,7 +241,7 @@ Si quieres más detalle sobre la parte de planificación, estos dos artículos e
 - [Cómo estudiar para un examen con FSRS en 2026](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)
 - [FSRS vs SM-2 en 2026](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
-## Dónde encaja Flashcards en un flujo de AP Psychology
+## Dónde encaja Nibomo en un flujo de AP Psychology
 
 Si quieres hacer esto dentro de [Nibomo](https://nibomo.com/), la parte útil no es una promesa vaga de que la IA va a estudiar AP Psych mágicamente por ti.
 

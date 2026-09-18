@@ -290,7 +290,7 @@ Ese es todo el flujo.
 
 Nada sofisticado. En parte por eso funciona.
 
-## Dónde encaja Flashcards
+## Dónde encaja Nibomo
 
 [Nibomo](/es/features/) funciona mejor cuando dejas de tratar cada frase de la fuente como una futura tarjeta.
 

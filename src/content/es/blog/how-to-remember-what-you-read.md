@@ -193,7 +193,7 @@ Pregunta: "¿Qué no pude recuperar con suficiente claridad como para querer otr
 
 Esa pregunta más concreta produce tarjetas mucho mejores.
 
-En la práctica, eso suele significar un mazo pequeño o una etiqueta para una sola unidad de lectura dentro de Flashcards, no un volcado gigante de todo un capítulo.
+En la práctica, eso suele significar un mazo pequeño o una etiqueta para una sola unidad de lectura dentro de Nibomo, no un volcado gigante de todo un capítulo.
 
 Imagina que lees una sección de biología y tu comprobación de recuerdo dice:
 
@@ -333,7 +333,7 @@ Esta es la versión que yo repetiría de verdad en una semana normal:
 
 Esa es una respuesta mucho más sólida a **cómo recordar lo que lees** que releer hasta que la página te suene familiar.
 
-## Dónde encaja Flashcards
+## Dónde encaja Nibomo
 
 [Nibomo](/es/) encaja después de que el bloque de lectura ya te haya enseñado qué importa.
 

@@ -229,7 +229,7 @@ Eso basta para decirte si el problema es el método o el mazo.
 
 Normalmente es el mazo.
 
-## Dónde encaja Flashcards
+## Dónde encaja Nibomo
 
 [Nibomo](/es/features/) resulta útil aquí después del diagnóstico, no en lugar del diagnóstico. Conserva las supervivientes como tarjetas normales de anverso y reverso, organízalas por mazo o etiqueta y deja que FSRS se encargue del momento una vez que esas tarjetas ya merecen ser repasadas. Si quieres ayuda de IA, úsala para borradores y limpieza, no como permiso para volcar cada tarjeta candidata en tu cola activa.
 

@@ -203,7 +203,7 @@ Desconfía de la idea de que una secuencia adaptativa o generada por IA tiene qu
 
 Mantén el planificador al margen del experimento con la secuencia. La práctica intercalada con repetición espaciada debe conservar el historial y las fechas de repaso de FSRS. Añade práctica mixta deliberada alrededor del sistema de repaso; no reinicies ni reprogrames tarjetas maduras una y otra vez solo para mantener un patrón atractivo.
 
-## Cómo encaja Flashcards en este flujo
+## Cómo encaja Nibomo en este flujo
 
 [Nibomo](/es/features/) aporta a este flujo una capa clara para la retención: tarjetas explícitas de anverso y reverso, cuatro opciones para valorar cada repaso y programación con FSRS para las tarjetas pendientes. Las funciones publicadas no incluyen intercalación automática entre mazos o espacios de trabajo. Por tanto, no supongas que una cola normal de repaso forma por sí sola pares de contraste deliberados.
 

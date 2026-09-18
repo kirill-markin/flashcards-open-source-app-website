@@ -189,7 +189,7 @@ Reescribe o divide la tarjeta, vuelve a estudiar el contenido o elimínala en ve
 
 FSRS programa a partir de la señal que le das. No puede reparar una pregunta ambigua, decidir qué detalle ausente era importante ni verificar si tu respuesta oral era correcta.
 
-## Cómo encajan las cuatro valoraciones de FSRS en Flashcards
+## Cómo encajan las cuatro valoraciones de FSRS en Nibomo
 
 Las [funcionalidades de Nibomo](/es/features/) incluyen repasos de anverso y reverso con FSRS. Envías Again, Hard, Good o Easy, y el backend usa esa valoración para calcular cuándo toca el próximo repaso.
 

@@ -174,7 +174,7 @@ En la práctica, eso puede significar terminar una sección corta de biología, 
 
 Ese flujo es menos emocionante que un mazo enorme autogenerado. También es mucho más fácil de volver a empezar mañana.
 
-## Dónde encaja Flashcards
+## Dónde encaja Nibomo
 
 [Nibomo](/es/) encaja bien con este tipo de flujo porque el producto ya está construido alrededor de lo que importa cuando la motivación se desgasta:
 

@@ -188,7 +188,7 @@ Las [funciones de Nibomo](/features/) incluyen tarjetas sencillas de anverso y r
 - **Good** si recuerdas la respuesta correcta con un esfuerzo normal
 - **Easy** si recuerdas la respuesta correcta sin esfuerzo
 
-[Recuerdo activo frente a repetición espaciada](/blog/active-recall-vs-spaced-repetition/) explica el reparto de funciones: la recuperación muestra lo que puedes producir ahora; el espaciado decide cuándo volverá a aparecer la tarjeta verificada. La [guía de primeros pasos](/docs/getting-started/) explica las opciones alojada y autohospedada si quieres poner en práctica este método. Flashcards no proporciona un mazo oficial sobre la Ley de IA de la UE, no verifica el contenido jurídico ni actualiza tus tarjetas cuando cambia el Derecho.
+[Recuerdo activo frente a repetición espaciada](/blog/active-recall-vs-spaced-repetition/) explica el reparto de funciones: la recuperación muestra lo que puedes producir ahora; el espaciado decide cuándo volverá a aparecer la tarjeta verificada. La [guía de primeros pasos](/docs/getting-started/) explica las opciones alojada y autohospedada si quieres poner en práctica este método. Nibomo no proporciona un mazo oficial sobre la Ley de IA de la UE, no verifica el contenido jurídico ni actualiza tus tarjetas cuando cambia el Derecho.
 
 ## Mantén el razonamiento jurídico fuera de la cola de repaso
 

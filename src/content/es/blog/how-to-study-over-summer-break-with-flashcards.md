@@ -210,7 +210,7 @@ Los mazos de verano se hinchan cuando la gente confunde "esto salió en la asign
 
 Si la IA ya hizo tu mazo más grande que tu paciencia, [Cómo arreglar flashcards creadas con IA en 2026](/es/blog/how-to-fix-ai-flashcards/) es la guía de limpieza que deberías leer primero.
 
-## Dónde encaja bien Flashcards
+## Dónde encaja bien Nibomo
 
 [Nibomo](/es/) encaja bien en este tipo de repaso de verano porque la parte difícil no es la novedad. Es mantener una fricción lo bastante baja como para seguir volviendo.
 

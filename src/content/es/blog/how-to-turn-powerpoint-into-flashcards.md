@@ -50,7 +50,7 @@ Si buscas **pptx a flashcards**, quizá esperas un flujo de un clic: subes la pr
 
 No funciona así.
 
-Flashcards resulta útil después de extraer primero el contenido con significado de las diapositivas. Puedes pegar texto, subir material de apoyo, usar el chat con IA para redactar tarjetas, editar tarjetas de anverso y reverso, organizarlas en mazos y etiquetas, y repasarlas con FSRS. Lo que no hace es ingerir de forma nativa un PowerPoint o Google Slides bruto y convertirlo por sí solo en buenas tarjetas.
+Nibomo resulta útil después de extraer primero el contenido con significado de las diapositivas. Puedes pegar texto, subir material de apoyo, usar el chat con IA para redactar tarjetas, editar tarjetas de anverso y reverso, organizarlas en mazos y etiquetas, y repasarlas con FSRS. Lo que no hace es ingerir de forma nativa un PowerPoint o Google Slides bruto y convertirlo por sí solo en buenas tarjetas.
 
 Suena menos mágico, pero es más honesto. El cuello de botella real nunca fue subir el archivo. Era decidir qué quería decir realmente la diapositiva.
 
@@ -216,7 +216,7 @@ Ese flujo sobrevive al uso real porque mantiene pequeño el paso de redacción y
 
 La versión llamativa suele fallar siempre por la misma razón: demasiadas tarjetas, demasiado rápido y con demasiado lenguaje de clase sin limpiar todavía dentro.
 
-## Dónde encaja Flashcards después del paso de extracción
+## Dónde encaja Nibomo después del paso de extracción
 
 Una vez que el contenido útil de las diapositivas ya está en formato de texto, [Nibomo](/es/features/) cubre la parte que importa:
 

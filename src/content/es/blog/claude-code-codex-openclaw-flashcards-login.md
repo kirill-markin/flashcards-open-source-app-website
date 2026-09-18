@@ -1,6 +1,6 @@
 ---
-title: "Cómo hacer que Claude Code, Codex u OpenClaw inicien sesión en Flashcards por ti"
-description: "Flashcards ofrece un flujo abierto de inicio de sesión para agentes basado en una sola URL de descubrimiento, un código OTP por correo electrónico y una clave API de larga duración. Dale ese enlace a tu agente, pásale el código de 8 dígitos y deja que complete por sí mismo la configuración de la cuenta y del espacio de trabajo."
+title: "Cómo hacer que Claude Code, Codex u OpenClaw inicien sesión en Nibomo por ti"
+description: "Nibomo ofrece un flujo abierto de inicio de sesión para agentes basado en una sola URL de descubrimiento, un código OTP por correo electrónico y una clave API de larga duración. Dale ese enlace a tu agente, pásale el código de 8 dígitos y deja que complete por sí mismo la configuración de la cuenta y del espacio de trabajo."
 date: "2026-03-10"
 keywords:
   - "claude code flashcards"
@@ -44,7 +44,7 @@ GET https://api.flashcards-open-source-app.com/v1/
 
 A grandes rasgos, el agente aprende de inmediato cuatro cosas:
 
-- que este es el servicio de Flashcards
+- que este es el servicio de Nibomo
 - que tanto el inicio de sesión como el registro usan un OTP enviado por correo electrónico
 - que una verificación correcta devuelve una clave API de larga duración
 - que, después de iniciar sesión, el siguiente paso es preparar la cuenta y el espacio de trabajo
@@ -55,7 +55,7 @@ La secuencia es intencionadamente corta.
 
 1. El agente llama al endpoint de descubrimiento.
 2. El agente envía el correo electrónico del usuario a `send-code`.
-3. Flashcards envía por correo el código de 8 dígitos y devuelve un `otpSessionToken`.
+3. Nibomo envía por correo el código de 8 dígitos y devuelve un `otpSessionToken`.
 4. El agente le pide al usuario ese código más reciente.
 5. El agente valida el código y recibe una clave API de larga duración.
 6. El agente llama a `/v1/agent/me` y `/v1/agent/workspaces`.
@@ -70,10 +70,10 @@ Esto es suficiente:
 Los siguientes prompts están en inglés a propósito, para que puedas copiarlos y pegarlos tal cual en la herramienta:
 
 ```text
-Use this Flashcards discovery URL:
+Use this Nibomo discovery URL:
 https://api.flashcards-open-source-app.com/v1/
 
-Log in to my Flashcards account, load account context, and select or create the correct workspace.
+Log in to my Nibomo account, load account context, and select or create the correct workspace.
 Ask me only for the latest 8-digit email code when the flow requires it.
 ```
 
@@ -84,7 +84,7 @@ Después de eso, no hace falta explicar manualmente la secuencia de autenticaci�
 La idea es la misma, con algo más de contexto:
 
 ```text
-Connect my Flashcards account using this URL:
+Connect my Nibomo account using this URL:
 https://api.flashcards-open-source-app.com/v1/
 
 Follow the returned instructions, keep the API key secure, load my account, then continue to workspace setup.
@@ -291,7 +291,7 @@ Eso es más sencillo para el usuario y más fácil de automatizar.
 
 ## Esto es código abierto
 
-Flashcards es de código abierto, así que puedes inspeccionar el flujo entero en lugar de tratarlo como una caja negra.
+Nibomo es de código abierto, así que puedes inspeccionar el flujo entero en lugar de tratarlo como una caja negra.
 
 - Repositorio: [github.com/kirill-markin/flashcards-open-source-app](https://github.com/kirill-markin/flashcards-open-source-app)
 - Ruta de descubrimiento del agente: [apps/backend/src/agent/discovery.ts](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/apps/backend/src/agent/discovery.ts)

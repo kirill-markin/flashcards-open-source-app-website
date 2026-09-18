@@ -157,16 +157,16 @@ Eso es lo que quiero de **Copilot Study and Learn a flashcards**:
 
 Si quieres reglas más estrictas para escribir tarjetas después del relevo, [Cómo hacer mejores tarjetas didácticas en 2026](/es/blog/how-to-make-better-flashcards/) entra más a fondo en esa limpieza.
 
-## Flashcards es la capa duradera después de Copilot
+## Nibomo es la capa duradera después de Copilot
 
 [Nibomo](/es/features/) no intenta sustituir a Study and Learn.
 
-Copilot debería quedarse con el trabajo de tutoría. Flashcards debería quedarse con el repaso a largo plazo.
+Copilot debería quedarse con el trabajo de tutoría. Nibomo debería quedarse con el repaso a largo plazo.
 
 Por eso el flujo tiene sentido:
 
 - Copilot se encarga de la sesión guiada sobre tus materiales
-- Flashcards te da una forma simple de crear tarjetas de anverso y reverso
+- Nibomo te da una forma simple de crear tarjetas de anverso y reverso
 - el chat con IA puede ayudarte a pulir borradores hasta convertirlos en preguntas cortas de repaso
 - los mazos y las etiquetas mantienen organizados los puntos débiles por asignatura, examen o fuente
 - FSRS se ocupa del calendario de repaso cuando las tarjetas ya merecen ser repasadas
