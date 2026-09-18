@@ -1,36 +1,36 @@
 ---
-title: "Cómo conectar Flashcards a Claude con MCP y crear tarjetas desde el chat"
-description: "Una guía práctica para añadir el conector personalizado de Flashcards en Claude, revisar los permisos adecuados y pedirle a Claude que cree tarjetas de estudio directamente en tu workspace de Flashcards."
+title: "Cómo conectar Nibomo a Claude con MCP y crear tarjetas desde el chat"
+description: "Una guía práctica para añadir el conector personalizado de Nibomo en Claude, revisar los permisos adecuados y pedirle a Claude que cree tarjetas de estudio directamente en tu workspace de Nibomo."
 date: "2026-06-23"
 image: "/blog/how-to-connect-flashcards-to-claude-with-mcp.png"
 keywords:
   - "Claude MCP flashcards"
-  - "cómo conectar Flashcards a Claude"
-  - "conector personalizado de Flashcards para Claude"
+  - "cómo conectar Nibomo a Claude"
+  - "conector personalizado de Nibomo para Claude"
   - "crear tarjetas en Claude"
-  - "conector MCP de Flashcards"
-  - "Claude con Flashcards"
-  - "conector Claude Flashcards"
+  - "conector MCP de Nibomo"
+  - "Claude con Nibomo"
+  - "conector Claude Nibomo"
   - "tarjetas con Claude MCP"
-  - "Flashcards remote MCP"
-  - "workspace de Flashcards en Claude"
+  - "Nibomo remote MCP"
+  - "workspace de Nibomo en Claude"
 ---
 
-Ayer añadí una tarjeta de prueba a Flashcards desde Claude en menos de un minuto. La parte útil no fue la demo. La parte útil fue ver a Claude preguntar qué workspace usar, pedir aprobación para la acción de escritura y dejar la tarjeta dentro de la app real en vez de dejarla atrapada en el chat.
+Ayer añadí una tarjeta de prueba a Nibomo desde Claude en menos de un minuto. La parte útil no fue la demo. La parte útil fue ver a Claude preguntar qué workspace usar, pedir aprobación para la acción de escritura y dejar la tarjeta dentro de la app real en vez de dejarla atrapada en el chat.
 
 Esa es la razón práctica para buscar ahora mismo **Claude MCP flashcards**.
 
-Si quieres que Claude cree tarjetas directamente en tu workspace de Flashcards, la configuración es corta: añade el conector personalizado de Flashcards, revisa los permisos de las herramientas, actívalo dentro del chat y aprueba la llamada de escritura cuando Claude esté listo para guardar una tarjeta.
+Si quieres que Claude cree tarjetas directamente en tu workspace de Nibomo, la configuración es corta: añade el conector personalizado de Nibomo, revisa los permisos de las herramientas, actívalo dentro del chat y aprueba la llamada de escritura cuando Claude esté listo para guardar una tarjeta.
 
 ![Claude conectado al servidor MCP de Nibomo para crear flashcards desde el chat](/blog/how-to-connect-flashcards-to-claude-with-mcp.png)
 
 ## Esto es un conector personalizado, no una app listada en ningún directorio
 
-Primero, un detalle importante: Flashcards se conecta a Claude como un **conector personalizado** usando **remote MCP**.
+Primero, un detalle importante: Nibomo se conecta a Claude como un **conector personalizado** usando **remote MCP**.
 
-Así que no te pongas a buscar una app de Flashcards ya listada dentro del directorio oficial de conectores de Claude. El flujo normal es abrir la [página de configuración de conectores](https://claude.ai/customize/connectors) de Claude, pulsar el botón `+`, elegir **Add custom connector** y pegar tú mismo la URL del MCP de Flashcards.
+Así que no te pongas a buscar una app de Nibomo ya listada dentro del directorio oficial de conectores de Claude. El flujo normal es abrir la [página de configuración de conectores](https://claude.ai/customize/connectors) de Claude, pulsar el botón `+`, elegir **Add custom connector** y pegar tú mismo la URL del MCP de Nibomo.
 
-La URL exacta del conector de Flashcards es esta:
+La URL exacta del conector de Nibomo es esta:
 
 `https://mcp.nibomo.com/mcp`
 
@@ -40,11 +40,11 @@ Enlace directo: [mcp.nibomo.com/mcp](https://mcp.nibomo.com/mcp)
 
 Hay dos detalles que importan más de lo que parecen.
 
-El primero es que Claude accede a los servidores remote MCP desde la infraestructura en la nube de Anthropic, no desde tu portátil. Eso significa que el servidor tiene que estar accesible en la Internet pública. Flashcards ya lo está, así que el endpoint MCP público de arriba es el que necesitas.
+El primero es que Claude accede a los servidores remote MCP desde la infraestructura en la nube de Anthropic, no desde tu portátil. Eso significa que el servidor tiene que estar accesible en la Internet pública. Nibomo ya lo está, así que el endpoint MCP público de arriba es el que necesitas.
 
 El segundo es que conviene tratar los permisos del conector como permisos reales de herramientas. Conéctalo solo a servidores en los que confíes, revisa lo que puede hacer cada herramienta y lee con cuidado las solicitudes de aprobación antes de permitir acciones de escritura.
 
-## Cómo añadir el conector MCP de Flashcards en Claude
+## Cómo añadir el conector MCP de Nibomo en Claude
 
 Para una cuenta individual de Claude, la ruta de configuración es esta:
 
@@ -83,7 +83,7 @@ Después de la configuración, abre una conversación en Claude y asegúrate de 
 
 Si Claude no está usando el conector cuando debería, revisa primero lo obvio:
 
-- el conector de Flashcards está conectado en la configuración
+- el conector de Nibomo está conectado en la configuración
 - el conector está activado para el chat actual
 - la herramienta de escritura no está bloqueada
 
@@ -96,7 +96,7 @@ Mantén el prompt sencillo. Claude no necesita ninguna ceremonia aquí.
 Estos son buenos prompts para empezar:
 
 ```text
-Crea una nueva flashcard en Flashcards.
+Crea una nueva flashcard en Nibomo.
 Anverso: ¿Qué significa HTTP 404?
 Reverso: El recurso solicitado no se encontró en el servidor.
 Etiqueta: web-basics
@@ -104,11 +104,11 @@ Pregúntame qué workspace usar si no estás seguro.
 ```
 
 ```text
-Antes de crear nada, lista mis workspaces de Flashcards y dime cuál parece mejor para tarjetas de estudio de idiomas.
+Antes de crear nada, lista mis workspaces de Nibomo y dime cuál parece mejor para tarjetas de estudio de idiomas.
 ```
 
 ```text
-Crea una nueva flashcard de español en Flashcards.
+Crea una nueva flashcard de español en Nibomo.
 Anverso: ¿Cómo se dice "I would like a coffee" en español?
 Reverso: Me gustaría un café.
 Etiquetas: spanish, travel
@@ -121,11 +121,11 @@ Yo empezaría con una o dos tarjetas, no con cincuenta. La idea es confirmar el 
 
 Esta parte, por suerte, es bastante normal.
 
-Le pides a Claude que cree una tarjeta en Flashcards. Si tienes más de un workspace y no hay uno obvio por defecto, Claude puede preguntarte dónde ponerla. Después de eso, Claude usa la herramienta de escritura y espera aprobación si `sql_execute` sigue en **Needs approval**.
+Le pides a Claude que cree una tarjeta en Nibomo. Si tienes más de un workspace y no hay uno obvio por defecto, Claude puede preguntarte dónde ponerla. Después de eso, Claude usa la herramienta de escritura y espera aprobación si `sql_execute` sigue en **Needs approval**.
 
 Ese comportamiento es el correcto.
 
-Conviene revisar la solicitud de escritura, aprobarla y dejar que Claude termine. En la captura de abajo, Claude preguntó qué workspace usar, ejecutó la acción de escritura de Flashcards y confirmó que la tarjeta de prueba se había añadido correctamente.
+Conviene revisar la solicitud de escritura, aprobarla y dejar que Claude termine. En la captura de abajo, Claude preguntó qué workspace usar, ejecutó la acción de escritura de Nibomo y confirmó que la tarjeta de prueba se había añadido correctamente.
 
 ![Chat de Claude creando una flashcard de prueba a través del conector MCP de Nibomo después de preguntar qué workspace usar](/blog/claude-mcp-flashcards-create-card.png)
 
@@ -142,9 +142,9 @@ Con eso basta para empezar a **crear flashcards en Claude** sin fingir que Claud
 
 Esta configuración es útil, pero no es magia.
 
-Claude puede ayudarte a crear tarjetas dentro de Flashcards. También puede leer desde el conector, inspeccionar workspaces y consultar datos a través de las herramientas de lectura. Eso no significa que todas las tarjetas que redacte Claude vayan a ser buenas, ni que convenga aprobar a ciegas cada solicitud de escritura.
+Claude puede ayudarte a crear tarjetas dentro de Nibomo. También puede leer desde el conector, inspeccionar workspaces y consultar datos a través de las herramientas de lectura. Eso no significa que todas las tarjetas que redacte Claude vayan a ser buenas, ni que convenga aprobar a ciegas cada solicitud de escritura.
 
-Yo seguiría tratando a Claude como la capa de borrador y entrada, y usaría Flashcards para las partes que importan después:
+Yo seguiría tratando a Claude como la capa de borrador y entrada, y usaría Nibomo para las partes que importan después:
 
 - pulir tarjetas flojas
 - organizar mazos y etiquetas
@@ -155,13 +155,13 @@ Si quieres mejores prompts para redactar tarjetas antes de conectar la capa de h
 
 ## Después de que Claude cree la tarjeta, revísala en la app real
 
-Esta es la parte que más me gusta de esta configuración. La tarjeta no se queda en una transcripción bonita de IA. Termina dentro de Flashcards, donde de verdad puedes repasarla más tarde.
+Esta es la parte que más me gusta de esta configuración. La tarjeta no se queda en una transcripción bonita de IA. Termina dentro de Nibomo, donde de verdad puedes repasarla más tarde.
 
 Puedes abrir la app web alojada, comprobar la tarjeta en el móvil o seguir con tu flujo normal de estudio:
 
 - [App web de Nibomo](https://app.flashcards-open-source-app.com/)
-- [Flashcards para iPhone y iPad en la App Store](https://apps.apple.com/app/apple-store/id6760538964?pt=128797295&ct=marketing_site&mt=8)
-- [Flashcards para Android en Google Play](https://play.google.com/store/apps/details?id=com.flashcardsopensourceapp.app&utm_source=flashcards_website&utm_medium=referral&utm_campaign=marketing_site)
+- [Nibomo para iPhone y iPad en la App Store](https://apps.apple.com/app/apple-store/id6760538964?pt=128797295&ct=marketing_site&mt=8)
+- [Nibomo para Android en Google Play](https://play.google.com/store/apps/details?id=com.flashcardsopensourceapp.app&utm_source=flashcards_website&utm_medium=referral&utm_campaign=marketing_site)
 
 ![Experiencia de repaso de Nibomo en la app web alojada y en las apps móviles](/home/app-screens-showcase-en.png)
 
@@ -169,7 +169,7 @@ Si todavía no has usado el producto, [Primeros pasos](/es/docs/getting-started/
 
 ## La versión corta
 
-Si buscabas **conectar Flashcards a Claude**, este es el flujo real:
+Si buscabas **conectar Nibomo a Claude**, este es el flujo real:
 
 1. abre la [configuración de conectores personalizados](https://claude.ai/customize/connectors) de Claude
 2. añade `https://mcp.nibomo.com/mcp`
@@ -178,6 +178,6 @@ Si buscabas **conectar Flashcards a Claude**, este es el flujo real:
 5. activa el conector en tu chat
 6. pídele a Claude que cree una tarjeta
 7. aprueba la llamada de escritura
-8. revisa la tarjeta guardada en Flashcards
+8. revisa la tarjeta guardada en Nibomo
 
-Así pasas del chat de Claude a un workspace real de Flashcards sin integraciones inventadas, sin copiar y pegar a mano y sin perder el control sobre las acciones de escritura el primer día.
+Así pasas del chat de Claude a un workspace real de Nibomo sin integraciones inventadas, sin copiar y pegar a mano y sin perder el control sobre las acciones de escritura el primer día.

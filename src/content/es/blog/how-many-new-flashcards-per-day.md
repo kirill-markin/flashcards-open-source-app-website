@@ -211,7 +211,7 @@ Si estás creando tarjetas directamente a partir de prompts de IA, esta pieza co
 
 - [Cómo usar ChatGPT para crear tarjetas didácticas en 2026](https://nibomo.com/blog/how-to-use-chatgpt-to-make-flashcards/)
 
-## Por qué Flashcards encaja mejor aquí
+## Por qué Nibomo encaja mejor aquí
 
 [Nibomo](https://nibomo.com/) encaja bien en este flujo de trabajo porque el producto cubre ambos lados del problema:
 

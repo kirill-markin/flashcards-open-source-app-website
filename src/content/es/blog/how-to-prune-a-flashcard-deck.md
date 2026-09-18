@@ -220,7 +220,7 @@ Ese flujo es bastante más útil que fingir que la respuesta a **demasiadas flas
 
 Normalmente el mazo está pidiendo curaduría.
 
-## Dónde encaja Flashcards
+## Dónde encaja Nibomo
 
 [Nibomo](/es/features/) encaja bien con este estilo de limpieza porque los pasos de mantenimiento viven cerca entre sí en lugar de estar repartidos entre tres pestañas y una hoja de cálculo:
 

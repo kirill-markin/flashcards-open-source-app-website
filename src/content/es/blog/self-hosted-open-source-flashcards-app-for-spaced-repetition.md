@@ -1,6 +1,6 @@
 ---
 title: "Aplicación de tarjetas de código abierto y autoalojada para repetición espaciada"
-description: "Aloja por tu cuenta la pila de código abierto de Flashcards en local para desarrollo o despliega en AWS su infraestructura de producción documentada con CDK."
+description: "Aloja por tu cuenta la pila de código abierto de Nibomo en local para desarrollo o despliega en AWS su infraestructura de producción documentada con CDK."
 date: "2026-03-08"
 updated: "2026-07-30"
 image: "/home/app-screens-showcase-es.png"
@@ -13,13 +13,13 @@ keywords:
   - "tarjetas con IA"
 ---
 
-Sí, Flashcards se puede autoalojar. Todo el código de la aplicación y de la infraestructura es de código abierto y se distribuye bajo la licencia MIT. Puedes ejecutar los servicios en local para desarrollo o desplegar en AWS la pila de producción documentada del repositorio. Si no quieres gestionar infraestructura, la [aplicación alojada](https://app.flashcards-open-source-app.com/) sigue estando disponible.
+Sí, Nibomo se puede autoalojar. Todo el código de la aplicación y de la infraestructura es de código abierto y se distribuye bajo la licencia MIT. Puedes ejecutar los servicios en local para desarrollo o desplegar en AWS la pila de producción documentada del repositorio. Si no quieres gestionar infraestructura, la [aplicación alojada](https://app.flashcards-open-source-app.com/) sigue estando disponible.
 
 ![Pantallas móviles de Nibomo para repaso, progreso, chat con IA y tarjetas](/home/app-screens-showcase-es.png)
 
 ## Qué se puede autoalojar
 
-El repositorio contiene los servicios y la infraestructura del sistema principal de Flashcards:
+El repositorio contiene los servicios y la infraestructura del sistema principal de Nibomo:
 
 - la aplicación web y la aplicación de administración
 - la API del backend y el servicio de autenticación sin contraseña
@@ -119,7 +119,7 @@ La instalación explícita de autenticación es necesaria actualmente en una cop
 
 ## La portabilidad de datos es útil, pero deliberadamente limitada
 
-La importación y exportación de paquetes de Flashcards abarca las tarjetas, sus etiquetas y el contenido multimedia relacionado. **No** transfiere el historial de repasos, el estado del planificador FSRS, la configuración del espacio de trabajo, las estructuras completas de los mazos ni los datos de la cuenta.
+La importación y exportación de paquetes de Nibomo abarca las tarjetas, sus etiquetas y el contenido multimedia relacionado. **No** transfiere el historial de repasos, el estado del planificador FSRS, la configuración del espacio de trabajo, las estructuras completas de los mazos ni los datos de la cuenta.
 
 Esta diferencia importa si vas a pasar del servicio alojado a tu propio despliegue o viceversa. El paquete portable permite transferir contenido, pero no constituye una migración completa de la base de datos ni de la cuenta. Para disponer de una copia de seguridad operativa completa, quien gestione una instalación autoalojada también debe ocuparse de la base de datos PostgreSQL y del almacenamiento multimedia creados por la pila de AWS.
 
@@ -138,7 +138,7 @@ La IA es opcional en el despliegue de AWS. La pila de CDK despliega el proceso a
 
 ## Limitaciones operativas y de una beta real
 
-Flashcards sigue siendo un producto en una fase temprana. El repositorio está activo, las migraciones y la configuración de despliegue pueden cambiar, y el autoalojamiento presupone que sabes gestionar una aplicación en AWS.
+Nibomo sigue siendo un producto en una fase temprana. El repositorio está activo, las migraciones y la configuración de despliegue pueden cambiar, y el autoalojamiento presupone que sabes gestionar una aplicación en AWS.
 
 La pila de CDK incluye copias de seguridad, alarmas, secretos y automatización del despliegue, pero esos componentes siguen necesitando una persona responsable. Deberías contar con estas tareas:
 
@@ -155,7 +155,7 @@ Si este trabajo operativo no te resulta útil, la aplicación alojada es la opci
 
 Anki es una opción madura de código abierto con un gran ecosistema y flujos de trabajo sólidos en el escritorio. Quizlet es un servicio de consumo gestionado que ofrece una experiencia de estudio con poca configuración. Ambos pueden ser la elección adecuada según prefieras una herramienta local consolidada o una plataforma completamente gestionada.
 
-Flashcards sigue otro camino: un repositorio abierto para web, aplicaciones móviles, API e infraestructura, construido alrededor de FSRS, la sincronización, los flujos de trabajo con IA, MCP y una opción de autoalojamiento en AWS. Es más joven que Anki y, cuando se autoaloja, requiere bastante más trabajo operativo que Quizlet. La razón para elegirlo es que esta combinación se ajuste a tus necesidades, no que toda persona que estudie deba gestionar una pila en la nube.
+Nibomo sigue otro camino: un repositorio abierto para web, aplicaciones móviles, API e infraestructura, construido alrededor de FSRS, la sincronización, los flujos de trabajo con IA, MCP y una opción de autoalojamiento en AWS. Es más joven que Anki y, cuando se autoaloja, requiere bastante más trabajo operativo que Quizlet. La razón para elegirlo es que esta combinación se ajuste a tus necesidades, no que toda persona que estudie deba gestionar una pila en la nube.
 
 ## Prueba la aplicación alojada o ejecuta tu propia pila
 

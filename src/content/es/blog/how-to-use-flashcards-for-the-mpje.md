@@ -242,7 +242,7 @@ Así que yo mantendría el orden así de simple:
 
 Si quieres la parte específica del planificador, [Configuración de FSRS en 2026](/es/blog/fsrs-settings/) y [FSRS vs SM-2 en 2026](/es/blog/fsrs-vs-sm-2/) son los siguientes artículos directos.
 
-## Dónde encaja Flashcards en este flujo
+## Dónde encaja Nibomo en este flujo
 
 [Nibomo](/es/) encaja mejor después de que ya sabes qué merece repaso.
 

@@ -193,13 +193,13 @@ Ese es el relevo limpio:
 
 Mantén la tarjeta pequeña. Deja que el examen siga siendo más grande.
 
-## Dónde encaja Flashcards
+## Dónde encaja Nibomo
 
 [Nibomo](/es/features/) encaja bien después del paso del examen de práctica.
 
-No conviene describir el producto como un generador mágico de exámenes de práctica. El flujo más preciso es este: usa la herramienta de IA que prefieras para generar el examen a partir de tus apuntes y luego guarda en Flashcards solo lo que sobreviva a ese filtro.
+No conviene describir el producto como un generador mágico de exámenes de práctica. El flujo más preciso es este: usa la herramienta de IA que prefieras para generar el examen a partir de tus apuntes y luego guarda en Nibomo solo lo que sobreviva a ese filtro.
 
-Ese relevo funciona bien porque Flashcards ya te da la siguiente capa práctica:
+Ese relevo funciona bien porque Nibomo ya te da la siguiente capa práctica:
 
 - chat con IA y datos del workspace, archivos adjuntos y texto pegado para redactar o limpiar tarjetas
 - tarjetas simples de anverso y reverso en lugar de artefactos de estudio inflados
@@ -213,7 +213,7 @@ Así el flujo se mantiene honesto:
 
 1. genera el examen de práctica en la herramienta externa de IA que prefieras
 2. revisa los fallos y las respuestas lentas
-3. mueve a Flashcards solo los puntos débiles útiles
+3. mueve a Nibomo solo los puntos débiles útiles
 4. límpialos hasta convertirlos en tarjetas simples de anverso y reverso
 5. repasa el conjunto final con FSRS
 

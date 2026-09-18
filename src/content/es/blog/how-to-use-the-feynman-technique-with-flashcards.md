@@ -210,7 +210,7 @@ Malos usos:
 
 Si quieres profundizar en la parte de IA, [Cómo usar IA para hacer active recall en 2026](/es/blog/how-to-use-ai-for-active-recall/) es el artículo compañero adecuado.
 
-## Dónde encaja Flashcards
+## Dónde encaja Nibomo
 
 La técnica Feynman produce material en bruto. Muchas veces acabas con alguna mezcla de estas cosas:
 

@@ -238,7 +238,7 @@ Yo haría esto, en este orden:
 
 Eso resuelve más casos que la mayoría de consejos complicados de optimización.
 
-## Dónde encaja mejor Flashcards en este flujo
+## Dónde encaja mejor Nibomo en este flujo
 
 [Nibomo](https://nibomo.com/) encaja bien con este problema concreto porque el producto soporta todo el flujo de "generar menos basura, repasar lo bueno más rápido" sin fingir que cada paso es el mismo trabajo.
 

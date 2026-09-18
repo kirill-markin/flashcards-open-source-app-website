@@ -267,7 +267,7 @@ Si el reverso del borrador parece un párrafo de un cuaderno de ejercicios, rec�
 
 Eso se parece bastante al flujo de [Cómo convertir preguntas de práctica en flashcards en 2026](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/) y [Cómo hacer mejores flashcards en 2026](https://nibomo.com/blog/how-to-make-better-flashcards/).
 
-## Dónde encaja Flashcards en este flujo de trabajo para ATI TEAS
+## Dónde encaja Nibomo en este flujo de trabajo para ATI TEAS
 
 Si quieres hacer esto dentro de [Nibomo](https://nibomo.com/), el encaje es práctico, no oficial.
 

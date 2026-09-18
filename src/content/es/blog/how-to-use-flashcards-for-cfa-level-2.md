@@ -261,7 +261,7 @@ Esa última revisión importa más de lo que parece. Si la mezcla por tema o el 
 
 Si tu cola diaria empieza a atascarse, [Cómo repasar flashcards más rápido en 2026](/es/blog/how-to-review-flashcards-faster/) es una buena puesta a punto antes de añadir más tarjetas.
 
-## Dónde encaja Flashcards
+## Dónde encaja Nibomo
 
 [Nibomo](/es/) encaja bien en este flujo porque ya reúne en un mismo sitio las piezas que los candidatos de Level II suelen necesitar:
 

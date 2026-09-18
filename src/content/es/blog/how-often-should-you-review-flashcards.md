@@ -159,7 +159,7 @@ El papel tiene cualidades útiles: no exige dispositivo ni cuenta y permite dibu
 
 El **mejor calendario de repaso de flashcards** depende en parte de cuánta carga quieras asumir. La retención deseada indica a un planificador FSRS con qué probabilidad quieres recordar una tarjeta cuando llegue su fecha de repaso. Un objetivo más alto suele producir intervalos más cortos y más repasos, como explica el [manual oficial de Anki sobre FSRS](https://docs.ankiweb.net/deck-options.html#fsrs).
 
-El manual señala que `0.90` es el valor predeterminado de Anki y advierte que la carga aumenta con rapidez cuando la retención deseada se acerca a `1.0`. Es un contexto general útil sobre FSRS, no una afirmación de que todas las opciones de Anki existan en Flashcards. Para consultar los valores predeterminados y los límites de este producto, usa el [documento del planificador de Nibomo](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/docs/fsrs-scheduling-logic.md).
+El manual señala que `0.90` es el valor predeterminado de Anki y advierte que la carga aumenta con rapidez cuando la retención deseada se acerca a `1.0`. Es un contexto general útil sobre FSRS, no una afirmación de que todas las opciones de Anki existan en Nibomo. Para consultar los valores predeterminados y los límites de este producto, usa el [documento del planificador de Nibomo](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/docs/fsrs-scheduling-logic.md).
 
 Un objetivo de `0.90` no significa «repasa cada tarjeta cada diez días» ni garantiza que aciertes exactamente el 90 % de las tarjetas en cada sesión corta. Orienta el cálculo del intervalo a partir de la estimación actual del estado de memoria de cada tarjeta.
 

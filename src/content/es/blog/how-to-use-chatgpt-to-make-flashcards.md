@@ -18,7 +18,7 @@ ChatGPT puede convertir un archivo de clase en una lista bien redactada de pregu
 
 Esta es la forma práctica de **usar ChatGPT para crear flashcards** en 2026. Trabaja con una fuente acotada, pídele que señale lagunas y ambigüedades antes de redactar, trata cada resultado como una propuesta y guarda solo las tarjetas que hayas comprobado. ChatGPT ayuda a extraer el contenido y formularlo. No crea un mazo verificado ni programa por ti los repasos con repetición espaciada.
 
-> **Aviso de transparencia:** Soy Kirill Markin y desarrollo [Nibomo](/es/features/). Esta guía funciona con cualquier app de flashcards con anverso y reverso. Menciono Flashcards cuando su flujo de trabajo resulta relevante, no para afirmar que todos los estudiantes deberían usarla.
+> **Aviso de transparencia:** Soy Kirill Markin y desarrollo [Nibomo](/es/features/). Esta guía funciona con cualquier app de flashcards con anverso y reverso. Menciono Nibomo cuando su flujo de trabajo resulta relevante, no para afirmar que todos los estudiantes deberían usarla.
 
 **Información verificada:** 15 de agosto de 2026.
 
@@ -229,7 +229,7 @@ Separa las tarjetas con una línea en blanco. No incluyas introducción ni concl
 
 Los bloques sencillos de anverso y reverso son fáciles de revisar y copiar en la mayoría de los editores de tarjetas, aunque cada app tiene sus propias reglas de importación. Si necesitas tabulaciones, CSV u otro formato, pídelo solo después de consultar los requisitos actuales del destino. Conserva una copia del texto sin modificar hasta que hayas verificado las tarjetas guardadas.
 
-La app web de Flashcards ofrece un chat con IA que admite archivos adjuntos, y las tarjetas guardadas tienen campos explícitos de anverso y reverso. Tú revisas el contenido propuesto y decides qué se guarda. Puedes completar allí todo el proceso de comprobación de fuentes o copiar en el editor de tarjetas el resultado de ChatGPT que ya hayas aprobado. La [página de funcionalidades](/es/features/) muestra las opciones actuales del producto.
+La app web de Nibomo ofrece un chat con IA que admite archivos adjuntos, y las tarjetas guardadas tienen campos explícitos de anverso y reverso. Tú revisas el contenido propuesto y decides qué se guarda. Puedes completar allí todo el proceso de comprobación de fuentes o copiar en el editor de tarjetas el resultado de ChatGPT que ya hayas aprobado. La [página de funcionalidades](/es/features/) muestra las opciones actuales del producto.
 
 Si quieres que Codex u otro cliente MCP escriba directamente las tarjetas aprobadas, usa el [flujo específico de estudio con ChatGPT y Codex](/es/blog/how-to-use-chatgpt-codex-for-studying/) y la [documentación del conector MCP](/es/docs/mcp-connector/). Esa integración requiere sus propias comprobaciones de seguridad y aprobación; no hace falta repetirlas aquí. No des por hecho que una conversación normal de ChatGPT tiene acceso directo a tu colección de flashcards.
 
@@ -237,7 +237,7 @@ Si quieres que Codex u otro cliente MCP escriba directamente las tarjetas aproba
 
 ChatGPT puede hacerte preguntas en una conversación o crear un repaso con formato de flashcards. Ninguna de estas acciones programa los repasos a lo largo del tiempo. Cuando las tarjetas aprobadas estén en una app de flashcards, haz allí los repasos de verdad: intenta recordar la respuesta, muestra el reverso, evalúa el resultado y deja que el planificador decida cuándo vuelve a aparecer la tarjeta.
 
-Flashcards usa FSRS para programar esos repasos. [FSRS frente a SM-2](/es/blog/fsrs-vs-sm-2/) explica la diferencia si quieres conocer los detalles del algoritmo. La división de tareas es sencilla: ChatGPT redacta las propuestas y te ayuda a probarlas; la app de flashcards guarda el historial de repasos y gestiona el calendario.
+Nibomo usa FSRS para programar esos repasos. [FSRS frente a SM-2](/es/blog/fsrs-vs-sm-2/) explica la diferencia si quieres conocer los detalles del algoritmo. La división de tareas es sencilla: ChatGPT redacta las propuestas y te ayuda a probarlas; la app de flashcards guarda el historial de repasos y gestiona el calendario.
 
 Esta división también facilita las correcciones. Si más adelante encuentras un error en la fuente o no te gusta la redacción, corrige o elimina la tarjeta guardada. No dejes una respuesta dudosa en el mazo solo por el tiempo que tardaste en generar la tarjeta.
 

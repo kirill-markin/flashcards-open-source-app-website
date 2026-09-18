@@ -192,7 +192,7 @@ Para AP World, yo haría que el ritmo semanal fuera deliberadamente aburrido:
 
 Si quieres más detalle sobre la parte de planificación, [Cómo estudiar para un examen con FSRS en 2026](/blog/how-to-study-for-an-exam-with-fsrs/) es el mejor artículo complementario.
 
-## Dónde encaja Flashcards en este flujo de AP World
+## Dónde encaja Nibomo en este flujo de AP World
 
 Si quieres un solo lugar para llevar este sistema, [Nibomo](/) encaja bien con el flujo sin obligarte a montar un stack de estudio raro.
 

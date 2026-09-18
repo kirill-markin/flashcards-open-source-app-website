@@ -238,7 +238,7 @@ Si tu objetivo es preparar exámenes a partir de una asignatura más amplia, est
 - [Cómo estudiar para un examen con FSRS en 2026](/es/blog/how-to-study-for-an-exam-with-fsrs/)
 - [Cómo usar la IA para estudiar en 2026](/es/blog/how-to-use-ai-to-study/)
 
-## Dónde encaja Flashcards en este flujo
+## Dónde encaja Nibomo en este flujo
 
 [Nibomo](/es/features/) encaja una vez que el programa ya se ha convertido en estructura.
 

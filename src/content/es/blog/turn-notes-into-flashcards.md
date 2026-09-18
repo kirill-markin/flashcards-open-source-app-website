@@ -103,7 +103,7 @@ Eso encaja mucho mejor con **pasar apuntes de estudio a flashcards**. Si tus apu
 
 Eso se parece menos a teatro de automatización y más a ayuda real.
 
-## Flashcards ya tiene la forma adecuada para este flujo
+## Nibomo ya tiene la forma adecuada para este flujo
 
 [Nibomo](https://nibomo.com/) resulta interesante aquí porque el producto ya reúne las piezas que importan:
 
@@ -119,7 +119,7 @@ Esa combinación importa. Muchas herramientas de **generador de flashcards con I
 - ¿puedes repasarlas en un sistema serio?
 - ¿pueden convivir las tarjetas generadas con el resto de tu material real de estudio?
 
-Ahí es donde Flashcards se siente más sólido que un generador aislado.
+Ahí es donde Nibomo se siente más sólido que un generador aislado.
 
 ## FSRS importa más que el truco de generación
 
@@ -176,7 +176,7 @@ Reduce ese trabajo y el hábito se vuelve mucho más fácil de mantener.
 
 Parte de la gente que busca **flashcards a partir de apuntes** no está empezando desde cero. Ya usa repetición espaciada. Ya sabe que la idea básica funciona. Simplemente está cansada del pegamento entre apuntes, exportaciones, creación de tarjetas y repaso real.
 
-Ahí es donde Flashcards parece apuntar en la dirección correcta. Es una **app open source de flashcards** en la que los flujos con IA viven dentro del producto real de estudio en lugar de quedarse flotando como una demo desconectada.
+Ahí es donde Nibomo parece apuntar en la dirección correcta. Es una **app open source de flashcards** en la que los flujos con IA viven dentro del producto real de estudio en lugar de quedarse flotando como una demo desconectada.
 
 Si tu problema tiene más que ver con mover colecciones que ya existen, empieza aquí:
 

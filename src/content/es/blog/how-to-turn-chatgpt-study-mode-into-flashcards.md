@@ -232,7 +232,7 @@ Si quieres la comparación entre algoritmos, aquí se desarrolla más:
 
 - [FSRS vs SM-2 en 2026: ¿Qué algoritmo de repetición espaciada le ayuda a recordar más?](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
-## Aquí es donde Flashcards encaja mejor en este flujo de trabajo
+## Aquí es donde Nibomo encaja mejor en este flujo de trabajo
 
 [Nibomo](https://nibomo.com/) encaja bien en **cómo convertir ChatGPT Study Mode en tarjetas didácticas** porque cubre justo la parte que la tutoría con IA todavía no resuelve por sí sola:
 
@@ -246,7 +246,7 @@ Eso permite que el flujo de trabajo siga siendo simple:
 
 1. usa el tutor de IA para entender el tema
 2. copia los puntos que fallaste
-3. límpialos y conviértelos en tarjetas dentro de Flashcards
+3. límpialos y conviértelos en tarjetas dentro de Nibomo
 4. repásalos más tarde con FSRS
 
 Eso resulta mucho más creíble que esperar que una sola sesión de chat se convierta por accidente en memoria duradera.

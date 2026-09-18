@@ -168,7 +168,7 @@ Si la prueba falla, elimina las tarjetas temporales mediante el proceso de limpi
 
 ## Cómo usar el archivo TXT con Nibomo
 
-Flashcards no tiene un importador directo de Anki. No puede leer archivos `.apkg` o `.colpkg` y reconstruir las plantillas, los archivos multimedia ni el historial de repasos de Anki.
+Nibomo no tiene un importador directo de Anki. No puede leer archivos `.apkg` o `.colpkg` y reconstruir las plantillas, los archivos multimedia ni el historial de repasos de Anki.
 
 La opción disponible actualmente en la aplicación alojada es crear borradores con ayuda de la IA a partir de archivos adjuntos. Abre la [aplicación alojada siguiendo la guía de primeros pasos](/es/docs/getting-started/), adjunta el TXT o un CSV preparado con cuidado en el chat de IA y pide expresamente un borrador pequeño sin guardar nada. Revisa las tarjetas propuestas en el chat y, solo entonces, pide al asistente que guarde el lote aprobado.
 

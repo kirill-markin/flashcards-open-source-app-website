@@ -45,7 +45,7 @@ Por tanto, «Anki FSRS» no es una contradicción. Significa que Anki es el prod
 | [FSRS](https://github.com/open-spaced-repetition/fsrs4anki) | Planificador y proyecto de código abierto | Lo implementa un producto anfitrión o una biblioteca | Desarrolladores y usuarios que quieren una lógica de planificación que puedan inspeccionar | Por sí solo no ofrece tarjetas, editor, sincronización ni interfaz de estudio |
 | [Nibomo](/features/) | Producto de flashcards de código abierto más reciente, construido alrededor de FSRS | FSRS-6 con los pesos oficiales predeterminados fijados y ajustes de planificación configurables por espacio de trabajo | Web, iOS, Android, alojamiento propio, API y flujos de trabajo con agentes de IA | Ecosistema más pequeño que Anki y todavía sin pesos FSRS personalizados |
 
-Las filas no son simétricas a propósito. Anki y Flashcards ofrecen flujos completos de trabajo con flashcards. SuperMemo 20 combina la planificación de repasos con un sistema mucho más amplio de lectura y gestión del conocimiento. SuperMemo.com ofrece una experiencia alojada para aprender idiomas. FSRS aporta la lógica de planificación a otros programas.
+Las filas no son simétricas a propósito. Anki y Nibomo ofrecen flujos completos de trabajo con flashcards. SuperMemo 20 combina la planificación de repasos con un sistema mucho más amplio de lectura y gestión del conocimiento. SuperMemo.com ofrece una experiencia alojada para aprender idiomas. FSRS aporta la lógica de planificación a otros programas.
 
 ## Qué ofrece Anki en realidad
 
@@ -112,9 +112,9 @@ Las valoraciones de repaso son señales que se introducen en un sistema de plani
 
 La distinción de FSRS con más consecuencias es Again frente a Hard. El [manual de Anki](https://docs.ankiweb.net/deck-options.html#fsrs) explica que FSRS interpreta Hard como un recuerdo satisfactorio y Again como un fallo. Elegir Hard porque el siguiente intervalo parece más conveniente registra un hecho que no ocurrió. La guía práctica sobre [Again vs Hard](/blog/again-vs-hard-fsrs-flashcards/) explica con detalle las respuestas parciales y los casos límite.
 
-## Cómo implementa Flashcards FSRS hoy
+## Cómo implementa Nibomo FSRS hoy
 
-Flashcards usa FSRS como componente del producto, no como una etiqueta imprecisa de «repetición inteligente». La implementación se verificó con el repositorio de código fuente en el commit `9cb013f78767c081f5385a53daa5e4b9fe69d3b6` el 3 de agosto de 2026.
+Nibomo usa FSRS como componente del producto, no como una etiqueta imprecisa de «repetición inteligente». La implementación se verificó con el repositorio de código fuente en el commit `9cb013f78767c081f5385a53daa5e4b9fe69d3b6` el 3 de agosto de 2026.
 
 El planificador del backend reproduce el flujo oficial de `ts-fsrs` 5.2.3 y fija los pesos oficiales predeterminados de FSRS-6. El backend, iOS y Android contienen tres implementaciones independientes del planificador, mientras que la aplicación web reutiliza el módulo del backend en vez de mantener una cuarta copia. Unos vectores de prueba de referencia compartidos garantizan el mismo comportamiento de planificación en todas esas implementaciones.
 
@@ -129,9 +129,9 @@ Los valores predeterminados del espacio de trabajo son:
 - un intervalo máximo de `36,500` días
 - dispersión aleatoria (*fuzz*) activada
 
-Los espacios de trabajo pueden cambiar la retención deseada, los pasos, el intervalo máximo y la dispersión para los repasos futuros. Flashcards **no** personaliza ni ofrece actualmente pesos de FSRS por usuario: los pesos de v1 son valores predeterminados fijados. Esta es una diferencia importante frente a los productos que ajustan parámetros a partir del historial individual. La [guía de configuración de FSRS](/blog/fsrs-settings/) explica las consecuencias para la carga de trabajo sin dar por sentado que haya que tocar todos los controles.
+Los espacios de trabajo pueden cambiar la retención deseada, los pasos, el intervalo máximo y la dispersión para los repasos futuros. Nibomo **no** personaliza ni ofrece actualmente pesos de FSRS por usuario: los pesos de v1 son valores predeterminados fijados. Esta es una diferencia importante frente a los productos que ajustan parámetros a partir del historial individual. La [guía de configuración de FSRS](/blog/fsrs-settings/) explica las consecuencias para la carga de trabajo sin dar por sentado que haya que tocar todos los controles.
 
-En la pantalla web de repaso, Flashcards muestra una vista previa del siguiente intervalo calculado para Again, Hard, Good y Easy. Las valoraciones `0`, `1`, `2` y `3` del usuario o de la API se asignan internamente a los grados `1` a `4` de FSRS. Again registra un fallo al recordar; Hard, Good y Easy indican que sí se recordó, con un esfuerzo decreciente. Todos los clientes muestran un recordatorio cuando se usa Hard con frecuencia: si no recordaste una respuesta, corresponde elegir Again.
+En la pantalla web de repaso, Nibomo muestra una vista previa del siguiente intervalo calculado para Again, Hard, Good y Easy. Las valoraciones `0`, `1`, `2` y `3` del usuario o de la API se asignan internamente a los grados `1` a `4` de FSRS. Again registra un fallo al recordar; Hard, Good y Easy indican que sí se recordó, con un esfuerzo decreciente. Todos los clientes muestran un recordatorio cuando se usa Hard con frecuencia: si no recordaste una respuesta, corresponde elegir Again.
 
 Así, el planificador puede inspeccionarse y mantiene un comportamiento coherente entre plataformas. Eso no hace prescindibles unas tarjetas de calidad, unas valoraciones sinceras ni completar los repasos.
 
@@ -179,6 +179,6 @@ La respuesta práctica a **Anki vs SuperMemo vs FSRS** empieza por abandonar la 
 
 Usa **Anki con FSRS** cuando quieras el ecosistema consolidado de Anki y un planificador FSRS actual. Evalúa **SuperMemo 20 for Windows** cuando sean fundamentales la lectura incremental y un sistema avanzado de gestión del conocimiento en Windows; FSRS ya participa en su Algorithm Arena. Evalúa **SuperMemo.com** por separado cuando el objetivo real sean los cursos de idiomas alojados. Evalúa las **implementaciones de FSRS** cuando estés desarrollando o auditando la propia capa de planificación.
 
-Flashcards encaja si buscas una opción moderna y de código abierto para web, móvil, alojamiento propio y agentes. Ofrece una implementación de FSRS-6 con pesos fijados y paridad comprobada mediante pruebas, aunque su ecosistema de producto es más joven.
+Nibomo encaja si buscas una opción moderna y de código abierto para web, móvil, alojamiento propio y agentes. Ofrece una implementación de FSRS-6 con pesos fijados y paridad comprobada mediante pruebas, aunque su ecosistema de producto es más joven.
 
 Elige el flujo de trabajo que puedas mantener y configura después el algoritmo de repetición espaciada dentro de él. El producto te lleva hasta el repaso. El planificador elige una fecha basada en un modelo. Tus tarjetas, tus valoraciones y tu constancia siguen aportando la señal de aprendizaje.

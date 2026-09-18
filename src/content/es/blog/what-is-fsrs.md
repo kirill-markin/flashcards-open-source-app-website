@@ -171,15 +171,15 @@ Imagina una tarjeta que pregunta: «Explica el sistema inmunitario». Pulsar Aga
 
 Este límite ayuda a diagnosticar los problemas de estudio. Si los intervalos a largo plazo parecen extraños, revisa los ajustes, el historial de valoraciones o la implementación. Si el reverso de la tarjeta te hace dudar constantemente, revisa la calidad de la tarjeta. Una cola enorme puede deberse al ritmo al que añades tarjetas nuevas, no al propio algoritmo FSRS.
 
-## Cómo implementa Flashcards el algoritmo FSRS
+## Cómo implementa Nibomo el algoritmo FSRS
 
 > **Aviso:** Soy Kirill Markin y desarrollo [Nibomo](/es/features/). Esta sección describe el comportamiento ya disponible en el producto; no implica que todos los estudiantes deban dejar otra aplicación.
 
-Flashcards implementa actualmente **FSRS-6** reproduciendo el flujo de planificación oficial de `ts-fsrs` 5.2.3. Utiliza las valoraciones estándar Again, Hard, Good y Easy. Los planificadores del backend, iOS y Android siguen el mismo comportamiento, mientras que el flujo de repaso web reutiliza el planificador del backend.
+Nibomo implementa actualmente **FSRS-6** reproduciendo el flujo de planificación oficial de `ts-fsrs` 5.2.3. Utiliza las valoraciones estándar Again, Hard, Good y Easy. Los planificadores del backend, iOS y Android siguen el mismo comportamiento, mientras que el flujo de repaso web reutiliza el planificador del backend.
 
 Los valores predeterminados actuales son una desired retention de `0.90`, learning steps de 1 y 10 minutos, un relearning step de 10 minutos, un intervalo máximo de 36 500 días y el fuzz activado. Los propietarios de cada espacio de trabajo pueden modificar estos ajustes. Los cambios solo afectan a los repasos futuros; las fechas de repaso existentes no se recalculan sin avisar.
 
-Flashcards fija los pesos predeterminados oficiales de FSRS-6 en v1. Los usuarios no pueden modificarlos y, por ahora, el producto no ajusta parámetros FSRS personalizados a partir del historial de cada usuario. Esta limitación es importante al compararlo con el optimizador de Anki.
+Nibomo fija los pesos predeterminados oficiales de FSRS-6 en v1. Los usuarios no pueden modificarlos y, por ahora, el producto no ajusta parámetros FSRS personalizados a partir del historial de cada usuario. Esta limitación es importante al compararlo con el optimizador de Anki.
 
 La [especificación pública del planificador FSRS de Nibomo](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/docs/fsrs-scheduling-logic.md) documenta el modelo de estado actual, los valores predeterminados, los límites de los ajustes y las reglas de paridad entre plataformas. La [página general de funcionalidades](/es/features/) muestra cómo encaja el planificador en el producto, en lugar de presentar FSRS como si fuera una aplicación independiente.
 

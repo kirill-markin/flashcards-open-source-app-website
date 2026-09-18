@@ -18,7 +18,7 @@ Si quieres importar de una vez en Gizmo los apuntes de toda una semana sin pagar
 
 Este análisis de Gizmo Flashcards se basa en las páginas de ayuda oficiales actuales. No he probado Gizmo directamente, así que limitaré las afirmaciones sobre el producto a lo que Gizmo documenta y dejaré claros los puntos inciertos.
 
-> **Aviso de transparencia:** Soy Kirill Markin y desarrollo [Nibomo](https://nibomo.com/), la alternativa que comparo más abajo. Según su documentación, Gizmo ofrece un flujo de trabajo más amplio: más formatos de origen, cinco tipos de tarjetas, lecciones de AI Tutor, cuestionarios variados y una progresión similar a un juego. Flashcards tiene un enfoque deliberadamente más acotado.
+> **Aviso de transparencia:** Soy Kirill Markin y desarrollo [Nibomo](https://nibomo.com/), la alternativa que comparo más abajo. Según su documentación, Gizmo ofrece un flujo de trabajo más amplio: más formatos de origen, cinco tipos de tarjetas, lecciones de AI Tutor, cuestionarios variados y una progresión similar a un juego. Nibomo tiene un enfoque deliberadamente más acotado.
 
 **Datos verificados:** 1 de septiembre de 2026.
 
@@ -111,7 +111,7 @@ Eso **no** demuestra que Gizmo no pueda funcionar sin conexión. Significa que l
 
 La distinción importa porque «una pantalla ya cargada sigue respondiendo» y «mi historial de repasos queda almacenado de forma segura y se sincroniza más tarde» son afirmaciones distintas. La [guía de aplicaciones de flashcards sin conexión](/blog/best-offline-flashcards-app/) aplica esa prueba más estricta a varios productos.
 
-## Gizmo frente a Flashcards de un vistazo
+## Gizmo frente a Nibomo de un vistazo
 
 | Criterio de decisión | Gizmo | Nibomo |
 | --- | --- | --- |
@@ -124,19 +124,19 @@ La distinción importa porque «una pantalla ya cargada sigue respondiendo» y �
 | Exportación de datos | Actualmente no se pueden exportar tarjetas ni mazos | Las exportaciones portátiles incluyen tarjetas, etiquetas y archivos multimedia relacionados |
 | Control del despliegue | Las páginas oficiales consultadas no afirman que pueda autoalojarse | Código abierto y autoalojable |
 
-Flashcards es una alternativa práctica a Gizmo solo para el lado más acotado de esta tabla. Su [página de funciones](/features/) actual documenta FSRS, la creación de tarjetas asistida por IA, el estudio sin conexión en dispositivos móviles con sincronización, las exportaciones portátiles y el autoalojamiento. No describe nada equivalente a Magic Import con los cinco formatos de Gizmo, las lecciones de Tutor o la capa de juego.
+Nibomo es una alternativa práctica a Gizmo solo para el lado más acotado de esta tabla. Su [página de funciones](/features/) actual documenta FSRS, la creación de tarjetas asistida por IA, el estudio sin conexión en dispositivos móviles con sincronización, las exportaciones portátiles y el autoalojamiento. No describe nada equivalente a Magic Import con los cinco formatos de Gizmo, las lecciones de Tutor o la capa de juego.
 
-## Cuándo encaja mejor Flashcards
+## Cuándo encaja mejor Nibomo
 
-Elige Flashcards cuando quieras conservar una tarjeta revisada con anverso y reverso. Puedes crearla manualmente o pedir a la IA que te ayude a redactarla y mejorarla; después, tú decides qué se guarda. El repaso utiliza FSRS; [FSRS frente a SM-2](/blog/fsrs-vs-sm-2/) explica el modelo de programación con más detalle.
+Elige Nibomo cuando quieras conservar una tarjeta revisada con anverso y reverso. Puedes crearla manualmente o pedir a la IA que te ayude a redactarla y mejorarla; después, tú decides qué se guarda. El repaso utiliza FSRS; [FSRS frente a SM-2](/blog/fsrs-vs-sm-2/) explica el modelo de programación con más detalle.
 
-Su documentación es más explícita sobre el uso sin conexión y la exportación de datos. Flashcards documenta el estudio sin conexión en dispositivos móviles con sincronización automática, mientras que su [guía de introducción](/docs/getting-started/) especifica que el cliente de iOS utiliza SQLite local y sincronización offline-first. Las exportaciones portátiles incluyen tarjetas, etiquetas y archivos multimedia relacionados, también al trasladar datos entre instalaciones alojadas y autoalojadas.
+Su documentación es más explícita sobre el uso sin conexión y la exportación de datos. Nibomo documenta el estudio sin conexión en dispositivos móviles con sincronización automática, mientras que su [guía de introducción](/docs/getting-started/) especifica que el cliente de iOS utiliza SQLite local y sincronización offline-first. Las exportaciones portátiles incluyen tarjetas, etiquetas y archivos multimedia relacionados, también al trasladar datos entre instalaciones alojadas y autoalojadas.
 
-La contrapartida es el alcance. Las páginas actuales de Flashcards no documentan el menú de importación de Gizmo, sus cinco tipos de tarjetas, las lecciones dirigidas por Tutor ni el sistema de recompensas. Si esas funciones resuelven el problema que te ha traído hasta aquí, probablemente Gizmo encaje mejor.
+La contrapartida es el alcance. Las páginas actuales de Nibomo no documentan el menú de importación de Gizmo, sus cinco tipos de tarjetas, las lecciones dirigidas por Tutor ni el sistema de recompensas. Si esas funciones resuelven el problema que te ha traído hasta aquí, probablemente Gizmo encaje mejor.
 
 ## ¿Se puede pasar de Gizmo a otra aplicación?
 
-Hoy no se puede hacer de forma sencilla. Como Gizmo no permite exportar, no hay una vía habitual de migración mediante archivos desde Gizmo a Flashcards u otra aplicación.
+Hoy no se puede hacer de forma sencilla. Como Gizmo no permite exportar, no hay una vía habitual de migración mediante archivos desde Gizmo a Nibomo u otra aplicación.
 
 La alternativa segura es manual y selectiva:
 
@@ -147,14 +147,14 @@ La alternativa segura es manual y selectiva:
 
 Es más lento que usar un importador y se pierde información. La parte positiva es que solo trasladas las tarjetas que superan un control de calidad.
 
-También puedes usar ambas aplicaciones. Gizmo puede desglosar una clase o una presentación y ofrecer ejercicios variados. Flashcards puede guardar un conjunto más pequeño de tarjetas revisadas con anverso y reverso para repasarlas con FSRS. El paso de una aplicación a otra sigue siendo manual porque Gizmo no permite exportar las tarjetas.
+También puedes usar ambas aplicaciones. Gizmo puede desglosar una clase o una presentación y ofrecer ejercicios variados. Nibomo puede guardar un conjunto más pequeño de tarjetas revisadas con anverso y reverso para repasarlas con FSRS. El paso de una aplicación a otra sigue siendo manual porque Gizmo no permite exportar las tarjetas.
 
 ## ¿Qué flujo de trabajo encaja contigo?
 
 Elige Gizmo si empiezas con material desordenado y quieres que la aplicación cree la primera estructura de estudio. Sus ventajas documentadas son la variedad de fuentes, los cinco tipos de tarjetas, el estudio dirigido por Tutor, los cuestionarios variados y las mecánicas de progresión.
 
-Elige Flashcards si ya sabes qué contenido merece convertirse en una tarjeta duradera con anverso y reverso, y te importan más FSRS, el estudio sin conexión documentado para móviles, la exportación o el autoalojamiento que la variedad de cuestionarios y las recompensas.
+Elige Nibomo si ya sabes qué contenido merece convertirse en una tarjeta duradera con anverso y reverso, y te importan más FSRS, el estudio sin conexión documentado para móviles, la exportación o el autoalojamiento que la variedad de cuestionarios y las recompensas.
 
-Un análisis útil de Gizmo AI no plantea la decisión como «IA sí o IA no». Ambos productos usan IA. La diferencia está en qué parte del flujo interviene. Gizmo usa la IA para convertir un conjunto amplio de materiales en un entorno de estudio más completo. Flashcards la integra en un flujo de tarjetas más acotado, en el que tú eliges qué se guarda y se programa.
+Un análisis útil de Gizmo AI no plantea la decisión como «IA sí o IA no». Ambos productos usan IA. La diferencia está en qué parte del flujo interviene. Gizmo usa la IA para convertir un conjunto amplio de materiales en un entorno de estudio más completo. Nibomo la integra en un flujo de tarjetas más acotado, en el que tú eliges qué se guarda y se programa.
 
 Si ese flujo más acotado se parece más al tuyo, consulta las [funciones de Nibomo](/features/) o sigue la [guía de introducción](/docs/getting-started/).

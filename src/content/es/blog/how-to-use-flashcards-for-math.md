@@ -173,7 +173,7 @@ La trampa es que el planificador sigue necesitando tarjetas limpias. Si la pregu
 
 Las tarjetas más pequeñas hacen que FSRS sea mucho más útil. Si quieres ajustar la programación de repasos una vez que la escritura de tarjetas ya esté controlada, [Configuración de FSRS en 2026: qué cambiar y qué dejar en paz](https://nibomo.com/blog/fsrs-settings/) es la siguiente lectura correcta.
 
-## Dónde encaja Flashcards en este flujo
+## Dónde encaja Nibomo en este flujo
 
 [Nibomo](https://nibomo.com/) encaja bien con este tipo de estudio de matemáticas porque el producto soporta justo las partes que importan después de identificar el objetivo de memoria:
 

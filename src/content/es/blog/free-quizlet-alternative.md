@@ -1,6 +1,6 @@
 ---
 title: "Mejores alternativas gratuitas a Quizlet en 2026: 5 apps comparadas"
-description: "Compara Anki, Knowt, RemNote, Mochi y Flashcards según el estudio gratuito con tarjetas, la sincronización, el uso sin conexión, la importación desde Quizlet, los límites de IA y la letra pequeña de cada plan de 0 $."
+description: "Compara Anki, Knowt, RemNote, Mochi y Nibomo según el estudio gratuito con tarjetas, la sincronización, el uso sin conexión, la importación desde Quizlet, los límites de IA y la letra pequeña de cada plan de 0 $."
 image: "/blog/free-quizlet-alternative-v2.png"
 date: "2026-06-20"
 updated: "2026-09-10"
@@ -21,9 +21,9 @@ Una cuenta gratuita de Quizlet todavía permite estudiar tarjetas, practicar con
 
 Por eso, «gratis» no basta como criterio. Un sustituto gratuito de Quizlet funciona sin conexión, pero cobra por la app para iPhone. Otro ofrece varios modos de estudio, pero un archivo de salida menos útil. Un tercero sincroniza notas y tarjetas, aunque limita funciones avanzadas de PDF, imágenes o IA.
 
-La mejor alternativa gratuita a Quizlet es aquella cuya contrapartida no estropea tu rutina de estudio real. Esta comparativa cubre exactamente cinco opciones —Anki, Knowt, RemNote, Mochi y Flashcards— y toma el plan gratuito de Quizlet como referencia, sin fingir que todas las ofertas de 0 $ incluyen lo mismo.
+La mejor alternativa gratuita a Quizlet es aquella cuya contrapartida no estropea tu rutina de estudio real. Esta comparativa cubre exactamente cinco opciones —Anki, Knowt, RemNote, Mochi y Nibomo— y toma el plan gratuito de Quizlet como referencia, sin fingir que todas las ofertas de 0 $ incluyen lo mismo.
 
-> **Aviso de transparencia:** Soy Kirill Markin y desarrollo Flashcards, una de las cinco aplicaciones comparadas aquí. La incluí por ser de código abierto y por sus flujos de trabajo con FSRS y agentes. No es la ganadora universal: no tiene un importador directo de Quizlet, su paquete de transferencia nativo no conserva el estado de los repasos y la oferta gratuita actual de la aplicación alojada es una beta. Esta comparativa se basa en la comprobación de fuentes oficiales —precios, páginas de ayuda y documentación de los repositorios—; no afirmo haber hecho pruebas prácticas a largo plazo con las cinco aplicaciones.
+> **Aviso de transparencia:** Soy Kirill Markin y desarrollo Nibomo, una de las cinco aplicaciones comparadas aquí. La incluí por ser de código abierto y por sus flujos de trabajo con FSRS y agentes. No es la ganadora universal: no tiene un importador directo de Quizlet, su paquete de transferencia nativo no conserva el estado de los repasos y la oferta gratuita actual de la aplicación alojada es una beta. Esta comparativa se basa en la comprobación de fuentes oficiales —precios, páginas de ayuda y documentación de los repositorios—; no afirmo haber hecho pruebas prácticas a largo plazo con las cinco aplicaciones.
 
 **Datos comprobados:** 10 de septiembre de 2026.
 
@@ -108,17 +108,17 @@ Las opciones de salida de Mochi son inusualmente claras. Su exportación nativa 
 
 Elige Mochi cuando el estudio sin conexión y sin cuenta, junto con la portabilidad de Markdown, importen más que la sincronización automática o unos límites generosos de IA. La [guía de alternativas a Mochi](/blog/mochi-alternative/) cubre la decisión general sobre el producto.
 
-## Flashcards: de código abierto y preparada para agentes, pero aún en beta
+## Nibomo: de código abierto y preparada para agentes, pero aún en beta
 
-Flashcards es la opción más especializada de esta lista. La aplicación alojada es [gratuita durante la beta](/pricing/), con IA y sincronización entre web, iOS y Android incluidas, y sin una cuota del plan sobre las tarjetas, los archivos o el almacenamiento total. Se siguen aplicando los límites normales de solicitudes, archivos y transferencias. La [página de funciones](/features/) documenta el estudio sin conexión, los repasos con FSRS y el acceso al mismo espacio de trabajo mediante MCP y la Agent API.
+Nibomo es la opción más especializada de esta lista. La aplicación alojada es [gratuita durante la beta](/pricing/), con IA y sincronización entre web, iOS y Android incluidas, y sin una cuota del plan sobre las tarjetas, los archivos o el almacenamiento total. Se siguen aplicando los límites normales de solicitudes, archivos y transferencias. La [página de funciones](/features/) documenta el estudio sin conexión, los repasos con FSRS y el acceso al mismo espacio de trabajo mediante MCP y la Agent API.
 
 La promesa a largo plazo es más limitada que la oferta de la beta. La creación y el repaso básicos de tarjetas seguirán siendo gratuitos. Un mayor uso de la IA podría requerir más adelante tu propia clave de proveedor o una opción de pago, y no se promete que todas las funciones alojadas vayan a ser gratuitas para siempre.
 
-La migración desde Quizlet también es el punto más débil. Flashcards no tiene un importador directo de Quizlet, CSV, TSV, Anki ni texto genérico. El texto de Quizlet que cumpla los requisitos puede servir como material de partida para una reconstrucción manual o para borradores de IA revisados, pero no es una importación sin pérdidas. El [flujo de exportación desde Quizlet](/blog/how-to-export-quizlet-sets-and-turn-them-into-fsrs-flashcards/) explica la limpieza sin fingir que se puedan recuperar los archivos multimedia y el estado de estudio ausentes.
+La migración desde Quizlet también es el punto más débil. Nibomo no tiene un importador directo de Quizlet, CSV, TSV, Anki ni texto genérico. El texto de Quizlet que cumpla los requisitos puede servir como material de partida para una reconstrucción manual o para borradores de IA revisados, pero no es una importación sin pérdidas. El [flujo de exportación desde Quizlet](/blog/how-to-export-quizlet-sets-and-turn-them-into-fsrs-flashcards/) explica la limpieza sin fingir que se puedan recuperar los archivos multimedia y el estado de estudio ausentes.
 
-El paquete nativo `flashcards.zip` mueve tarjetas, etiquetas y archivos multimedia relacionados entre espacios de trabajo de Flashcards. No mueve el historial de repasos, el estado del programador FSRS, los ajustes, las estructuras completas de los mazos ni los datos de la cuenta. El autoalojamiento te da el software con licencia MIT y el control del despliegue, pero la vía de producción documentada usa AWS y sigue generando costes de infraestructura, proveedores, mantenimiento, copias de seguridad y operación. La [guía de autoalojamiento](/docs/self-hosting/) explica ese límite.
+El paquete nativo `flashcards.zip` mueve tarjetas, etiquetas y archivos multimedia relacionados entre espacios de trabajo de Nibomo. No mueve el historial de repasos, el estado del programador FSRS, los ajustes, las estructuras completas de los mazos ni los datos de la cuenta. El autoalojamiento te da el software con licencia MIT y el control del despliegue, pero la vía de producción documentada usa AWS y sigue generando costes de infraestructura, proveedores, mantenimiento, copias de seguridad y operación. La [guía de autoalojamiento](/docs/self-hosting/) explica ese límite.
 
-Elige Flashcards cuando el código abierto, el uso explícito de FSRS o el acceso mediante agentes de IA sean el motivo para dejar Quizlet. Elige otra opción cuando importen más la migración directa, los formatos de importación maduros o un plan alojado gratuito, permanente y con todo incluido. La comparativa específica de [Quizlet y su alternativa de código abierto](/blog/quizlet-alternative/) profundiza en Quizlet frente a Flashcards; esta guía de cinco aplicaciones se centra en los límites de las opciones gratuitas.
+Elige Nibomo cuando el código abierto, el uso explícito de FSRS o el acceso mediante agentes de IA sean el motivo para dejar Quizlet. Elige otra opción cuando importen más la migración directa, los formatos de importación maduros o un plan alojado gratuito, permanente y con todo incluido. La comparativa específica de [Quizlet y su alternativa de código abierto](/blog/quizlet-alternative/) profundiza en Quizlet frente a Nibomo; esta guía de cinco aplicaciones se centra en los límites de las opciones gratuitas.
 
 ## Haz esta prueba de migración antes de trasladarlo todo
 

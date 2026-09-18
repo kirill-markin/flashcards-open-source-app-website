@@ -202,7 +202,7 @@ Si quieres más detalle sobre la parte de planificación, [Configuración de FSR
 
 Este artículo es más estrecho. Perplexity encontró el hueco. FSRS te ayuda a cerrarlo con el tiempo.
 
-## Dónde encaja Flashcards
+## Dónde encaja Nibomo
 
 [Nibomo](/es/) encaja después de Learn Mode, una vez que ya sabes qué merece la pena conservar.
 
@@ -211,7 +211,7 @@ No hace falta fingir que existe un botón mágico de importación desde Perplexi
 1. termina la sesión de Learn Mode
 2. copia los puntos débiles, el borrador de tarjetas ya limpio o las dos cosas
 3. conserva al lado de cada tarjeta candidata el fragmento del apunte o la cita fuente mientras editas
-4. pega eso en el chat con IA de Flashcards o crea las tarjetas directamente
+4. pega eso en el chat con IA de Nibomo o crea las tarjetas directamente
 5. edita la redacción hasta dejar tarjetas simples de anverso y reverso
 6. organízalas por mazo o etiqueta
 7. repásalas con FSRS

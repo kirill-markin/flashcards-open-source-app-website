@@ -255,7 +255,7 @@ Si tu cola ya está creciendo más de la cuenta, estos dos artículos suelen res
 - [How Many New Flashcards Per Day in 2026?](https://nibomo.com/blog/how-many-new-flashcards-per-day/)
 - [How to Review Flashcards Faster in 2026](https://nibomo.com/blog/how-to-review-flashcards-faster/)
 
-## Dónde encaja Flashcards en este flujo
+## Dónde encaja Nibomo en este flujo
 
 [Nibomo](https://nibomo.com/) encaja razonablemente bien en este tipo de estudio de farmacología porque la parte útil no es delegarle la farmacología a la IA. Yo no estudiaría así.
 

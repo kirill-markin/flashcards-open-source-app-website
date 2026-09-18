@@ -202,7 +202,7 @@ Ese es el tipo de reescritura que quiero de **Deep Research en tarjetas didácti
 
 Para la parte general de calidad de tarjeta, [Cómo hacer mejores tarjetas didácticas en 2026](/es/blog/how-to-make-better-flashcards/) y [Cómo repasar tarjetas didácticas más rápido en 2026](/es/blog/how-to-review-flashcards-faster/) encajan justo al lado de este flujo.
 
-## Dónde encaja Flashcards de verdad
+## Dónde encaja Nibomo de verdad
 
 [Nibomo](/es/features/) encaja después de la fase de investigación, no antes.
 
@@ -210,7 +210,7 @@ El producto no promete una integración directa de un clic con ChatGPT Deep Rese
 
 1. termina el informe en ChatGPT
 2. copia la sección útil o exporta el informe
-3. pega el texto relevante en el chat con IA de Flashcards o adjunta el archivo exportado
+3. pega el texto relevante en el chat con IA de Nibomo o adjunta el archivo exportado
 4. usa el chat con IA para pulir la redacción y convertirla en tarjetas limpias de anverso y reverso
 5. edita las tarjetas finales, organízalas por mazo o etiqueta y repásalas con FSRS
 

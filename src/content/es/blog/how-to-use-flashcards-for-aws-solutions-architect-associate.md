@@ -231,7 +231,7 @@ Son útiles. No son el reto principal de memoria.
 
 Yo mantendría la logística del examen en un subconjunto más ligero etiquetado con algo como `exam-facts` o `needs-recheck`, y luego dedicaría la mayor parte del repaso a elecciones de servicios, trade-offs y errores repetidos. Así el mazo sigue centrado en pensamiento arquitectónico y no en trivia.
 
-## Dónde encaja bien Flashcards en este flujo
+## Dónde encaja bien Nibomo en este flujo
 
 [Nibomo](https://nibomo.com/) encaja bien en este tipo de preparación porque el producto cubre las dos mitades del trabajo sin fingir que son lo mismo.
 

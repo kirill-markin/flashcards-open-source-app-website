@@ -315,7 +315,7 @@ Así que yo mantendría el orden así de simple:
 
 Si quieres más detalle sobre la parte de programación, [Cómo estudiar para un examen con FSRS en 2026](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/) es el complemento directo. Si tu cola ya se está descontrolando, [Cuántas flashcards nuevas al día en 2026](https://nibomo.com/blog/how-many-new-flashcards-per-day/) es la siguiente lectura útil.
 
-## Dónde encaja Flashcards en un flujo de trabajo de Step 1
+## Dónde encaja Nibomo en un flujo de trabajo de Step 1
 
 Si quieres usar esto dentro de [Nibomo](https://nibomo.com/), el valor no es una promesa vaga de que la IA vaya a aprender medicina por ti.
 

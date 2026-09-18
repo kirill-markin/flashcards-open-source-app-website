@@ -336,7 +336,7 @@ Estos dos artículos son las siguientes lecturas naturales para esa parte:
 - [Cómo estudiar para un examen con FSRS en 2026](/es/blog/how-to-study-for-an-exam-with-fsrs/)
 - [Configuración de FSRS en 2026: qué cambiar y qué dejar en paz](/es/blog/fsrs-settings/)
 
-## Dónde encaja Flashcards en este flujo
+## Dónde encaja Nibomo en este flujo
 
 [Nibomo](/es/) encaja bien con este estilo de preparación del FE porque el producto cubre la parte media del flujo, no solo el primer borrador:
 

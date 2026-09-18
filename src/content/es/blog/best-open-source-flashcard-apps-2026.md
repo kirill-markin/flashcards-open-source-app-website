@@ -111,19 +111,19 @@ No encontré ningún importador oficial de APKG. SiYuan puede trasladar archivos
 
 Elige SiYuan cuando la base de conocimiento sea el producto principal y las flashcards deban vivir dentro de ella. Si buscas un sustituto directo de Anki, tanto Mnemosyne como Anki ofrecen límites de migración más claros.
 
-## 4. Flashcards publica más capas del stack, pero hay que operarlas
+## 4. Nibomo publica más capas del stack, pero hay que operarlas
 
-Flashcards es el producto que más capas publica en esta comparativa. El monorepo MIT incluye la app web, los clientes para iOS y Android, el backend, el servicio de autenticación, la sincronización, la aplicación de administración, las migraciones de la base de datos y la infraestructura de AWS. La versión estable usada aquí es la [v1.23.0](https://github.com/kirill-markin/flashcards-open-source-app/releases/tag/v1.23.0). El trabajo posterior en la rama predeterminada no cuenta como comportamiento publicado.
+Nibomo es el producto que más capas publica en esta comparativa. El monorepo MIT incluye la app web, los clientes para iOS y Android, el backend, el servicio de autenticación, la sincronización, la aplicación de administración, las migraciones de la base de datos y la infraestructura de AWS. La versión estable usada aquí es la [v1.23.0](https://github.com/kirill-markin/flashcards-open-source-app/releases/tag/v1.23.0). El trabajo posterior en la rama predeterminada no cuenta como comportamiento publicado.
 
 La [arquitectura](/docs/architecture/) es offline-first, aunque «sin conexión» significa algo ligeramente distinto en cada cliente. La app web guarda su copia principal de los datos en IndexedDB. iOS usa SQLite y Android, Room sobre SQLite. Los cambios se escriben primero en local y quedan en una cola de salida hasta la sincronización. Este diseño tolera las interrupciones de conexión, pero no convierte el almacenamiento del navegador en permanente ni evita tener que probar un arranque en frío en cada dispositivo.
 
-El paquete ZIP de Flashcards sirve para transferir contenido, no para crear una copia de seguridad de la cuenta. En v1.23.0, su [esquema de paquetes](https://github.com/kirill-markin/flashcards-open-source-app/blob/v1.23.0/apps/backend/src/workspacePackages/types.ts) contiene el anverso y el reverso, las etiquetas, el tipo de tarjeta, los metadatos de origen y los metadatos del paquete; los archivos multimedia referenciados se incluyen por separado. No contiene la estructura de los mazos, el historial de repasos, el estado de FSRS, los ajustes del espacio de trabajo ni las cuentas.
+El paquete ZIP de Nibomo sirve para transferir contenido, no para crear una copia de seguridad de la cuenta. En v1.23.0, su [esquema de paquetes](https://github.com/kirill-markin/flashcards-open-source-app/blob/v1.23.0/apps/backend/src/workspacePackages/types.ts) contiene el anverso y el reverso, las etiquetas, el tipo de tarjeta, los metadatos de origen y los metadatos del paquete; los archivos multimedia referenciados se incluyen por separado. No contiene la estructura de los mazos, el historial de repasos, el estado de FSRS, los ajustes del espacio de trabajo ni las cuentas.
 
 No hay ningún importador de APKG en v1.23.0. El [flujo documentado para migrar desde Anki mediante TXT/CSV](/blog/migrate-from-anki-txt-export-open-source-flashcards/) usa el texto exportado para reconstruir las tarjetas y requiere una revisión humana. Las plantillas, el estado de planificación, la estructura de los mazos y los archivos multimedia incluidos no se conservan automáticamente por esta vía. Es una opción razonable para un mazo sencillo de texto, pero no para una colección muy personalizada.
 
 La [guía de autohospedaje](/docs/self-hosting/) es igual de explícita. En producción se usa un stack de AWS CDK con RDS, Cognito, API Gateway y Lambda, S3 y CloudFront, secretos, alarmas y copias de seguridad. El DNS de Cloudflare, el correo de Resend y la configuración de Sentry quedan fuera de AWS. Docker Compose sirve para el desarrollo local; no es el paquete de producción con soporte. Quien necesite binarios privados para iOS o Android debe compilarlos y distribuirlos por separado.
 
-Elige Flashcards cuando controlar todo el código de la web, las apps nativas y el backend compense ese trabajo operativo. Elige Anki o Mnemosyne si conservar una colección existente es el requisito más difícil de resolver.
+Elige Nibomo cuando controlar todo el código de la web, las apps nativas y el backend compense ese trabajo operativo. Elige Anki o Mnemosyne si conservar una colección existente es el requisito más difícil de resolver.
 
 ## 5. Recall es moderna, pero conviene examinar bien el importador
 
@@ -197,7 +197,7 @@ Los productos anteriores usan «autohospedado» para describir modelos muy disti
 - Anki y Mnemosyne ejecutan **servicios de sincronización**; los clientes instalados siguen siendo la interfaz de estudio.
 - SiYuan con Docker ejecuta una **aplicación web** que los clientes nativos no pueden usar como servidor de sincronización.
 - Recall ejecuta un **relay de instantáneas cifradas**, no la propia PWA.
-- Flashcards despliega un **stack web y backend completo**; las apps nativas siguen siendo compilaciones separadas.
+- Nibomo despliega un **stack web y backend completo**; las apps nativas siguen siendo compilaciones separadas.
 - Essentialist **no tiene servidor**; el control de los datos se limita a los archivos locales.
 
 Cuando tengas claro qué incluye el autohospedaje, prueba la parte que suele posponerse:

@@ -224,7 +224,7 @@ Yo mantendría el flujo semanal así de simple:
 
 Si vienes de un mazo grande ya hecho o de una configuración antigua de **APUSH Anki**, [Cómo migrar de Anki a una app open source de flashcards en 2026](/blog/migrate-from-anki-txt-export-open-source-flashcards/) es la guía más limpia para hacer el traspaso. Para la parte de planificación, [Cómo estudiar para un examen con FSRS en 2026](/blog/how-to-study-for-an-exam-with-fsrs/) es el mejor complemento.
 
-## Dónde encaja Flashcards en un flujo de APUSH
+## Dónde encaja Nibomo en un flujo de APUSH
 
 Si quieres llevar esto dentro de [Nibomo](https://nibomo.com/), la parte útil no es una gran promesa de que la app de algún modo vaya a hacer APUSH por ti.
 

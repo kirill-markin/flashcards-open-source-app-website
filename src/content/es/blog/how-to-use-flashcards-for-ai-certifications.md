@@ -244,7 +244,7 @@ Si el punto débil está en la calidad de las tarjetas, éste es el siguiente ar
 
 - [Cómo hacer mejores flashcards en 2026](https://nibomo.com/blog/how-to-make-better-flashcards/)
 
-## Dónde encaja mejor Flashcards en este flujo
+## Dónde encaja mejor Nibomo en este flujo
 
 [Nibomo](https://nibomo.com/) encaja bien en este tipo de preparación de certificaciones porque el producto ya cubre las piezas de las que depende este flujo:
 

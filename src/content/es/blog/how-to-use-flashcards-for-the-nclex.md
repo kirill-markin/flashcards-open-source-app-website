@@ -245,7 +245,7 @@ Como el NCLEX es un examen CAT de cinco horas y el boletín oficial dice que los
 
 Aquí también es donde se vuelve obvia la diferencia entre un mazo de la carrera de enfermería y un mazo para NCLEX. La versión de la carrera puede tolerar más dispersión de contenido. La versión de **flashcards para el NCLEX** debería sentirse más ajustada, más selectiva y un poco menos sentimental.
 
-## Dónde encaja Flashcards
+## Dónde encaja Nibomo
 
 [Nibomo](https://nibomo.com/) encaja bien en este flujo porque te da esas cosas aburridas que de verdad importan: tarjetas pequeñas de anverso y reverso, etiquetas, repaso filtrado y programación con FSRS cuando las tarjetas ya están lo bastante limpias como para confiar en ellas.
 

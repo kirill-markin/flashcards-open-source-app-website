@@ -190,7 +190,7 @@ Yo revisaría primero estas cosas:
 
 Si las tarjetas ya existen y ya te suenan vagas, [Cómo corregir flashcards de IA](/es/blog/how-to-fix-ai-flashcards/) es el siguiente paso.
 
-## Dónde encaja Flashcards después de la limpieza
+## Dónde encaja Nibomo después de la limpieza
 
 Una vez que el contenido de la imagen ya es legible, [Nibomo](/es/features/) encaja bien en la parte práctica del flujo:
 
