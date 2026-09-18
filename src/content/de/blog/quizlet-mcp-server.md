@@ -73,7 +73,7 @@ Genau deshalb sollte die Übertragung reversibel bleiben. Wenn aus einer mehrzei
 
 Nibomo stellt einen Remote-MCP-Endpunkt bereit:
 
-`https://mcp.flashcards-open-source-app.com/mcp`
+`https://mcp.nibomo.com/mcp`
 
 Die [Dokumentation des MCP-Connectors](/docs/mcp-connector/) beschreibt sieben Tools: `list_workspaces`, `sql_query` für Lesezugriffe, `sql_execute` für Schreibzugriffe, `get_guide` für Referenz-Leitfäden sowie `next_review_card`, `reveal_answer` und `submit_review` für Wiederholungen. Interaktive MCP-Clients können die Verbindung per OAuth autorisieren. Terminal-Agenten können stattdessen bei der [Dokumentation der Agent API](/docs/api/) einsteigen und den dort beschriebenen HTTP-Ablauf verwenden.
 

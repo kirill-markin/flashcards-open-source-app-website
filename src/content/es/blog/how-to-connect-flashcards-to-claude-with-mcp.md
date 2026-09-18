@@ -32,9 +32,9 @@ Así que no te pongas a buscar una app de Flashcards ya listada dentro del direc
 
 La URL exacta del conector de Flashcards es esta:
 
-`https://mcp.flashcards-open-source-app.com/mcp`
+`https://mcp.nibomo.com/mcp`
 
-Enlace directo: [mcp.flashcards-open-source-app.com/mcp](https://mcp.flashcards-open-source-app.com/mcp)
+Enlace directo: [mcp.nibomo.com/mcp](https://mcp.nibomo.com/mcp)
 
 ## Antes de conectarlo
 
@@ -51,7 +51,7 @@ Para una cuenta individual de Claude, la ruta de configuración es esta:
 1. Abre [Customize > Connectors](https://claude.ai/customize/connectors).
 2. Haz clic en `+`.
 3. Elige **Add custom connector**.
-4. Escribe un nombre para el conector y pega `https://mcp.flashcards-open-source-app.com/mcp`.
+4. Escribe un nombre para el conector y pega `https://mcp.nibomo.com/mcp`.
 5. Añade el conector.
 6. Haz clic en **Connect** y completa el login si Claude te lo pide.
 7. Revisa los permisos de las herramientas antes de empezar a usarlo en tus chats.
@@ -172,7 +172,7 @@ Si todavía no has usado el producto, [Primeros pasos](/es/docs/getting-started/
 Si buscabas **conectar Flashcards a Claude**, este es el flujo real:
 
 1. abre la [configuración de conectores personalizados](https://claude.ai/customize/connectors) de Claude
-2. añade `https://mcp.flashcards-open-source-app.com/mcp`
+2. añade `https://mcp.nibomo.com/mcp`
 3. conecta el conector y revisa los permisos
 4. deja abiertas las herramientas de lectura y mantén la escritura con aprobación al principio
 5. activa el conector en tu chat

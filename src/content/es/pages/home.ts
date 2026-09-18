@@ -29,8 +29,8 @@ export const HOME_PAGE_CONTENT: PageContent = {
         {
           caption: "Añade este servidor MCP a tu cliente de IA:",
           link: {
-            label: "https://mcp.flashcards-open-source-app.com/mcp",
-            href: "https://mcp.flashcards-open-source-app.com/mcp",
+            label: "https://mcp.nibomo.com/mcp",
+            href: "https://mcp.nibomo.com/mcp",
           },
         },
       ],

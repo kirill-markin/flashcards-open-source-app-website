@@ -183,7 +183,7 @@ curl -X POST https://api.flashcards-open-source-app.com/v1/agent/sql/execute \
   }'
 ```
 
-A remote MCP server is also available at `https://mcp.flashcards-open-source-app.com/mcp` using OAuth 2.1 (Dynamic Client Registration + PKCE). It exposes the same SQL split as `sql_query` (strictly read-only) and `sql_execute` (write), plus `list_workspaces`, `get_guide`, and the review tools `next_review_card`, `reveal_answer`, and `submit_review`; see the [MCP connector](/docs/mcp-connector/).
+A remote MCP server is also available at `https://mcp.nibomo.com/mcp` using OAuth 2.1 (Dynamic Client Registration + PKCE). It exposes the same SQL split as `sql_query` (strictly read-only) and `sql_execute` (write), plus `list_workspaces`, `get_guide`, and the review tools `next_review_card`, `reveal_answer`, and `submit_review`; see the [MCP connector](/docs/mcp-connector/).
 
 ### Safety And Scope
 

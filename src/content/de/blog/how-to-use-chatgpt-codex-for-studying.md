@@ -85,7 +85,7 @@ Die Einrichtung in der Desktop-App ist kurz:
 3. Nenne den Server `Flashcards`, wähle **Streamable HTTP** und gib diese URL ein:
 
 ```text
-https://mcp.flashcards-open-source-app.com/mcp
+https://mcp.nibomo.com/mcp
 ```
 
 4. Speichere den Server und wähle dann **Restart**.
@@ -161,7 +161,7 @@ Die meisten Lernenden können das Terminal überspringen. Es ist praktisch, wenn
 Füge den Remote-Server so hinzu:
 
 ```bash
-codex mcp add flashcards --url https://mcp.flashcards-open-source-app.com/mcp
+codex mcp add flashcards --url https://mcp.nibomo.com/mcp
 codex mcp login flashcards
 ```
 
@@ -171,7 +171,7 @@ Für eine Sitzung ohne grafische Oberfläche, in der die OAuth-Anmeldung im Brow
 
 ```bash
 codex mcp add flashcards \
-  --url https://mcp.flashcards-open-source-app.com/mcp \
+  --url https://mcp.nibomo.com/mcp \
   --bearer-token-env-var FLASHCARDS_MCP_TOKEN
 ```
 

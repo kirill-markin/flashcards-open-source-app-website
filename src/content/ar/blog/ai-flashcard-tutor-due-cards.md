@@ -45,7 +45,7 @@ keywords:
 
 يستخدم جميع عملاء MCP عنوان الخادم نفسه:
 
-`https://mcp.flashcards-open-source-app.com/mcp`
+`https://mcp.nibomo.com/mcp`
 
 العملاء التفاعليون يسجّلون الدخول عبر OAuth 2.1 مع PKCE والتسجيل الديناميكي للعملاء (Dynamic Client Registration). توافق على الوصول في المتصفح، دون أن تلصق مفتاحًا أو تسجّل تطبيقًا مسبقًا. وفي الاستخدام دون واجهة يمكن بدلًا من ذلك إرسال مفتاح Agent API يبدأ بـ `fca_` كرمز Bearer. يشرح [توثيق موصل MCP](/ar/docs/mcp-connector/) الطريقتين ومواصفات الأدوات كاملة.
 
@@ -53,7 +53,7 @@ keywords:
 
 - في Claude، أضف Flashcards كموصل مخصص من **Customize > Connectors**. بحسب [دليل Anthropic للموصلات المخصصة](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp)، تقتصر خطة Free على موصل مخصص واحد، وفي خطتي Team وEnterprise يضيف المالك الموصل للمؤسسة أولًا. ويمرّ [دليل إعداد Claude عبر MCP](/ar/blog/how-to-connect-flashcards-to-claude-with-mcp/) على الشاشات واحدة تلو الأخرى.
 - في ChatGPT، يُربط Flashcards بوصفه تطبيق MCP مخصصًا. حفظ المراجعة إجراء كتابة، وإمكانية إضافة تطبيق له صلاحية الكتابة وطريقة إضافته تعتمدان على خطتك ومساحة عملك. وفي بعض الخطط يتولى المسؤول إعداد التطبيق أو نشره للأعضاء. راجع الخطوات الحالية لخطتك في [مقالة مساعدة OpenAI عن وضع المطوّر وتطبيقات MCP](https://help.openai.com/en/articles/12584461-developer-mode-and-mcp-apps-in-chatgpt).
-- في Codex، أضف خادم Streamable HTTP من **Settings > MCP servers** في تطبيق ChatGPT لسطح المكتب، أو شغّل `codex mcp add flashcards --url https://mcp.flashcards-open-source-app.com/mcp` ثم `codex mcp login flashcards`. تشير [وثائق OpenAI عن MCP في Codex](https://learn.chatgpt.com/docs/extend/mcp) إلى أن تطبيق سطح المكتب وCodex CLI وإضافة IDE تتشارك هذا الإعداد. وستجد تفاصيل أكثر في [دليل الدراسة باستخدام ChatGPT وCodex](/ar/blog/how-to-use-chatgpt-codex-for-studying/).
+- في Codex، أضف خادم Streamable HTTP من **Settings > MCP servers** في تطبيق ChatGPT لسطح المكتب، أو شغّل `codex mcp add flashcards --url https://mcp.nibomo.com/mcp` ثم `codex mcp login flashcards`. تشير [وثائق OpenAI عن MCP في Codex](https://learn.chatgpt.com/docs/extend/mcp) إلى أن تطبيق سطح المكتب وCodex CLI وإضافة IDE تتشارك هذا الإعداد. وستجد تفاصيل أكثر في [دليل الدراسة باستخدام ChatGPT وCodex](/ar/blog/how-to-use-chatgpt-codex-for-studying/).
 
 ويمكنك أيضًا الاستغناء عن الربط كليًا. دردشة الذكاء الاصطناعي داخل Flashcards فيها أدوات المراجعة نفسها، فتعمل الحلقة هناك أيضًا. أما وكلاء سطر الأوامر الذين لا يدعمون MCP، فيمكنهم استدعاء إجراءات المراجعة نفسها كمسارات HTTP موثّقة في [مرجع Agent API](/ar/docs/api/).
 

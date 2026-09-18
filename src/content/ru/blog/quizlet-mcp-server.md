@@ -73,7 +73,7 @@ keywords:
 
 Nibomo публикует удалённый MCP-эндпоинт по адресу:
 
-`https://mcp.flashcards-open-source-app.com/mcp`
+`https://mcp.nibomo.com/mcp`
 
 В [документации MCP-коннектора](/docs/mcp-connector/) описаны семь инструментов: `list_workspaces`, `sql_query` для чтения, `sql_execute` для записи, `get_guide` для справочных руководств, а также `next_review_card`, `reveal_answer` и `submit_review` для повторений. Интерактивные MCP-клиенты могут авторизоваться через OAuth. Терминальные агенты вместо этого могут начать с [документации Agent API](/docs/api/) и использовать опубликованный HTTP-сценарий.
 

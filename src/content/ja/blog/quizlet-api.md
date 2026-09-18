@@ -86,7 +86,7 @@ Quizletが2026年6月30日に発表したGoogle Classroomアドオンも、同�
 Nibomoは、ユーザーごとに範囲が限られた同じデータ領域へアクセスする方法を二つ公開しています。
 
 - [外部Agent API](/docs/api/)は`GET https://api.flashcards-open-source-app.com/v1/`から始まります。ディスカバリー応答が、メールOTPでのログイン、APIキーの作成、ワークスペースの選択までエージェントを案内します。読み取りにはSQL形式のクエリルート、書き込みには別の実行ルートを使います。
-- [リモートMCPサーバー](/docs/mcp-connector/)は`https://mcp.flashcards-open-source-app.com/mcp`で利用できます。MCPクライアントが使えるツールは、`list_workspaces`、`sql_query`、`sql_execute`、`get_guide`と、復習用の`next_review_card`、`reveal_answer`、`submit_review`の七つです。
+- [リモートMCPサーバー](/docs/mcp-connector/)は`https://mcp.nibomo.com/mcp`で利用できます。MCPクライアントが使えるツールは、`list_workspaces`、`sql_query`、`sql_execute`、`get_guide`と、復習用の`next_review_card`、`reveal_answer`、`submit_review`の七つです。
 
 どちらもワークスペース単位でアクセス範囲が制限されます。公開されているリソースは`workspace`、`cards`、`decks`、`review_events`で、結果は1ステートメントにつき100行までです。SQL形式のインターフェースは制限付きの方言であり、生のPostgreSQLではありません。OpenAPIスキーマはないため、生成されたOpenAPIクライアントに依存するワークフローには別のインターフェースが必要です。
 

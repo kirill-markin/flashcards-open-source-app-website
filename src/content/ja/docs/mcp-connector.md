@@ -12,7 +12,7 @@ Nibomo はリモートの MCP（Model Context Protocol）サーバーを動か�
 接続先は次のとおりです。
 
 ```text
-https://mcp.flashcards-open-source-app.com/mcp
+https://mcp.nibomo.com/mcp
 ```
 
 トランスポートは Streamable HTTP で、サーバーは 7 つのツールを公開します。内訳は、小さく意図的に制限された SQL サーフェスを扱う 2 つの SQL ツール、ワークスペース一覧、リファレンスガイド、3 つの復習ツールです。これは [API リファレンス](/docs/api/) と同じユーザーごとのデータサーフェスであり、MCP サーバーは MCP を話すクライアントからそこに到達するためのコネクタに適した方法です。
@@ -22,7 +22,7 @@ https://mcp.flashcards-open-source-app.com/mcp
 ほとんどのクライアントでは、リモート MCP サーバーをカスタムコネクタとして追加します。
 
 1. クライアントのコネクタまたは MCP サーバーの設定を開きます。
-2. カスタムコネクタを追加し、サーバー URL `https://mcp.flashcards-open-source-app.com/mcp` を貼り付けます。
+2. カスタムコネクタを追加し、サーバー URL `https://mcp.nibomo.com/mcp` を貼り付けます。
 3. 対話型のクライアントでは、プロンプトが表示されたらブラウザで認可します。サーバーは OAuth 2.1 と Dynamic Client Registration を使用するため、貼り付けるクライアントシークレットも、事前に登録しておくアプリも不要です。
 4. ヘッドレスまたは CLI で利用する場合は、ブラウザフローの代わりに、エージェント API キーを使って `Authorization: Bearer fca_…` ヘッダーを設定します。
 
@@ -76,7 +76,7 @@ SQL サーフェスは意図的に制限された方言であり、完全な Pos
 サーバーは PKCE と Dynamic Client Registration を用いた authorization-code フローを実装しています。MCP URL をカスタムコネクタとして追加し、ブラウザで認可してください。クライアントシークレットを事前に共有することはありません。ディスカバリーは標準的です。
 
 - Protected-resource メタデータ:
-  `https://mcp.flashcards-open-source-app.com/.well-known/oauth-protected-resource`
+  `https://mcp.nibomo.com/.well-known/oauth-protected-resource`
 - Authorization-server メタデータ:
   `https://auth.flashcards-open-source-app.com/.well-known/oauth-authorization-server`
 

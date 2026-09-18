@@ -220,7 +220,7 @@ Anthropic 的[网页搜索指南](https://support.claude.com/en/articles/1068462
 Flashcards MCP URL 是：
 
 ```text
-https://mcp.flashcards-open-source-app.com/mcp
+https://mcp.nibomo.com/mcp
 ```
 
 保存卡片时会用到该连接器的 `list_workspaces`、只读的 `sql_query`、提供写卡规则的 `get_guide`，以及写入工具 `sql_execute`。提示词要把交接范围说清楚：

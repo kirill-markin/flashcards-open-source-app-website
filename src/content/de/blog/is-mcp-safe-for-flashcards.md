@@ -147,7 +147,7 @@ Falls dein Bedrohungsmodell einen sofortigen serverseitigen OAuth-Widerruf verla
 ## Eine praktische Checkliste vor der Verbindung
 
 1. Ordne das Ausgangsmaterial ein. Öffentliche Lernnotizen, personenbezogene Daten, vertrauliche Inhalte des Arbeitgebers und regulierte Daten sollten nicht derselben Zugriffsrichtlinie unterliegen. Wenn du das Material nicht an den Client und seine Datenverarbeiter senden darfst, stelle es nicht über MCP bereit.
-2. Prüfe die Server-URL. Der dokumentierte Endpunkt lautet `https://mcp.flashcards-open-source-app.com/mcp`. Meide zum Verwechseln ähnliche Domains und Connector-Definitionen aus unbekannten Quellen.
+2. Prüfe die Server-URL. Der dokumentierte Endpunkt lautet `https://mcp.nibomo.com/mcp`. Meide zum Verwechseln ähnliche Domains und Connector-Definitionen aus unbekannten Quellen.
 3. Lies die Richtlinien auf beiden Seiten. Beginne mit der [Datenschutzerklärung von Nibomo](/de/privacy/) und prüfe dann für den konkreten KI-Client die Regeln zu Speicherfristen, Training, Memory, Protokollierung und Löschung.
 4. Entscheide, ob ein zusätzlicher Workspace genügt. Für einen Probelauf ist er nützlich, doch die Verbindung kann jeden anderen zugänglichen Workspace desselben Kontos ansprechen. Nutze ein separates Konto oder eine separate Bereitstellung, wenn du strikte Isolation benötigst.
 5. Blockiere `sql_execute` und `submit_review` zunächst im Client. Kann der Client die Tools nicht blockieren, bedenke vor dem Herstellen der Verbindung, dass die OAuth-Zugangsdaten weiterhin Schreibzugriff erlauben.

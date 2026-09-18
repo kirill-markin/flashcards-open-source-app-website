@@ -45,7 +45,7 @@ Showing the front alone turns each card into a retrieval attempt. In one randomi
 
 Every MCP client uses the same server URL:
 
-`https://mcp.flashcards-open-source-app.com/mcp`
+`https://mcp.nibomo.com/mcp`
 
 Interactive clients sign in through OAuth 2.1 with PKCE and Dynamic Client Registration. You approve access in the browser and don't paste a key or register an app first. Headless setups can send an `fca_` agent API key as a Bearer token instead. The [MCP connector docs](/docs/mcp-connector/) cover both paths and the full tool contract.
 
@@ -53,7 +53,7 @@ Where you add the URL depends on the client:
 
 - In Claude, add Flashcards as a custom connector under **Customize > Connectors**. Anthropic's [custom connector guide](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp) says Free plans are limited to one custom connector, and on Team and Enterprise plans an owner adds the connector for the organization first. The [Claude MCP setup guide](/blog/how-to-connect-flashcards-to-claude-with-mcp/) walks through the screens.
 - In ChatGPT, Flashcards connects as a custom MCP app. Saving a review is a write action, and whether and how you can add an app with write access depends on your plan and workspace. On some plans, an admin sets the app up or publishes it for members. Check OpenAI's [help article on developer mode and MCP apps](https://help.openai.com/en/articles/12584461-developer-mode-and-mcp-apps-in-chatgpt) for the current steps on your plan.
-- In Codex, add a Streamable HTTP server under **Settings > MCP servers** in the ChatGPT desktop app, or run `codex mcp add flashcards --url https://mcp.flashcards-open-source-app.com/mcp` followed by `codex mcp login flashcards`. OpenAI's [Codex MCP docs](https://learn.chatgpt.com/docs/extend/mcp) note that the desktop app, Codex CLI, and IDE extension share that configuration. The [ChatGPT and Codex study guide](/blog/how-to-use-chatgpt-codex-for-studying/) has more detail.
+- In Codex, add a Streamable HTTP server under **Settings > MCP servers** in the ChatGPT desktop app, or run `codex mcp add flashcards --url https://mcp.nibomo.com/mcp` followed by `codex mcp login flashcards`. OpenAI's [Codex MCP docs](https://learn.chatgpt.com/docs/extend/mcp) note that the desktop app, Codex CLI, and IDE extension share that configuration. The [ChatGPT and Codex study guide](/blog/how-to-use-chatgpt-codex-for-studying/) has more detail.
 
 You can also skip the connection entirely. The AI chat inside Flashcards has the same review tools, so the loop works there too. Terminal agents that don't speak MCP can call the same review actions as HTTP routes, documented in the [Agent API reference](/docs/api/).
 

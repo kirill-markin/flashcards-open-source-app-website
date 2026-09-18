@@ -73,7 +73,7 @@ Separators, CSV और files से जुड़ी पूरी checklist [2026
 
 Nibomo का remote MCP endpoint यह है:
 
-`https://mcp.flashcards-open-source-app.com/mcp`
+`https://mcp.nibomo.com/mcp`
 
 उसके [MCP connector के दस्तावेज़ों](/docs/mcp-connector/) में सात tools बताए गए हैं: `list_workspaces`, पढ़ने के लिए `sql_query`, लिखने के लिए `sql_execute`, reference guides के लिए `get_guide`, और reviews के लिए `next_review_card`, `reveal_answer` तथा `submit_review`। Interactive MCP clients OAuth से अनुमति ले सकते हैं। Terminal agents इसके बजाय [Agent API के दस्तावेज़ों](/docs/api/) से शुरुआत करके प्रकाशित HTTP flow इस्तेमाल कर सकते हैं।
 

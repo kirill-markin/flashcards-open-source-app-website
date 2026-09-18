@@ -45,7 +45,7 @@ MCPでFlashcardsにつないだ**AIフラッシュカードチューター**は�
 
 どのMCPクライアントでも、サーバーURLは同じです。
 
-`https://mcp.flashcards-open-source-app.com/mcp`
+`https://mcp.nibomo.com/mcp`
 
 対話型のクライアントは、PKCEとDynamic Client Registrationを使ったOAuth 2.1でサインインします。ブラウザでアクセスを承認するだけで、キーを貼り付けたり、事前にアプリを登録したりする必要はありません。ヘッドレス環境では、代わりに`fca_`エージェントAPIキーをBearerトークンとして送れます。どちらの方法も、ツール仕様の全体と合わせて[MCPコネクタのドキュメント](/ja/docs/mcp-connector/)にまとめています。
 
@@ -53,7 +53,7 @@ URLを追加する場所は、クライアントごとに違います。
 
 - Claudeでは、**Customize > Connectors**でFlashcardsをカスタムコネクタとして追加します。Anthropicの[カスタムコネクタガイド](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp)によると、Freeプランで使えるカスタムコネクタは1つまでです。TeamプランとEnterpriseプランでは、まずオーナーが組織向けにコネクタを追加します。画面ごとの手順は[ClaudeのMCP設定ガイド](/ja/blog/how-to-connect-flashcards-to-claude-with-mcp/)で紹介しています。
 - ChatGPTでは、FlashcardsをカスタムMCPアプリとして接続します。復習の保存は書き込み操作で、書き込み権限のあるアプリを追加できるかどうか、どう追加するかはプランとワークスペースによって決まります。プランによっては、管理者がアプリを設定したり、メンバー向けに公開したりします。自分のプランでの最新の手順は、OpenAIの[developer modeとMCPアプリに関するヘルプ記事](https://help.openai.com/en/articles/12584461-developer-mode-and-mcp-apps-in-chatgpt)で確認してください。
-- Codexでは、ChatGPTデスクトップアプリの**Settings > MCP servers**でStreamable HTTPサーバーを追加するか、`codex mcp add flashcards --url https://mcp.flashcards-open-source-app.com/mcp`を実行してから`codex mcp login flashcards`を実行します。OpenAIの[Codex MCPドキュメント](https://learn.chatgpt.com/docs/extend/mcp)によると、この設定はデスクトップアプリ、Codex CLI、IDE拡張機能で共有されます。詳しくは[ChatGPTとCodexを勉強に使うガイド](/ja/blog/how-to-use-chatgpt-codex-for-studying/)を参照してください。
+- Codexでは、ChatGPTデスクトップアプリの**Settings > MCP servers**でStreamable HTTPサーバーを追加するか、`codex mcp add flashcards --url https://mcp.nibomo.com/mcp`を実行してから`codex mcp login flashcards`を実行します。OpenAIの[Codex MCPドキュメント](https://learn.chatgpt.com/docs/extend/mcp)によると、この設定はデスクトップアプリ、Codex CLI、IDE拡張機能で共有されます。詳しくは[ChatGPTとCodexを勉強に使うガイド](/ja/blog/how-to-use-chatgpt-codex-for-studying/)を参照してください。
 
 接続そのものを省くこともできます。Flashcardsの中のAIチャットにも同じ復習ツールがあるので、このループはそこでも使えます。MCPに対応していないターミナルエージェントは、同じ復習操作をHTTPルートとして呼び出せます。仕様は[Agent APIリファレンス](/ja/docs/api/)にあります。
 

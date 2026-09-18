@@ -177,7 +177,7 @@ curl -X POST https://api.flashcards-open-source-app.com/v1/agent/sql/execute \
   }'
 ```
 
-リモート MCP サーバーも `https://mcp.flashcards-open-source-app.com/mcp` で利用でき、OAuth 2.1（Dynamic Client Registration + PKCE）を使用します。同じ SQL の分割を `sql_query`（厳密な読み取り専用）と `sql_execute`（書き込み）として公開し、さらに `list_workspaces`、`get_guide`、復習ツールの `next_review_card`、`reveal_answer`、`submit_review` も提供します。詳しくは [MCP コネクタ](/docs/mcp-connector/) を参照してください。
+リモート MCP サーバーも `https://mcp.nibomo.com/mcp` で利用でき、OAuth 2.1（Dynamic Client Registration + PKCE）を使用します。同じ SQL の分割を `sql_query`（厳密な読み取り専用）と `sql_execute`（書き込み）として公開し、さらに `list_workspaces`、`get_guide`、復習ツールの `next_review_card`、`reveal_answer`、`submit_review` も提供します。詳しくは [MCP コネクタ](/docs/mcp-connector/) を参照してください。
 
 ### 安全性と範囲
 

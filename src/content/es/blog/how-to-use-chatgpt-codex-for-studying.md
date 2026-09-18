@@ -84,7 +84,7 @@ Se configura en pocos pasos desde la aplicación de escritorio:
 3. Ponle el nombre `Flashcards`, elige **Streamable HTTP** e introduce esta URL:
 
 ```text
-https://mcp.flashcards-open-source-app.com/mcp
+https://mcp.nibomo.com/mcp
 ```
 
 4. Guarda el servidor y selecciona **Restart**.
@@ -160,7 +160,7 @@ La mayoría de los estudiantes puede saltarse el terminal. Codex CLI resulta pr�
 Añade el servidor remoto con:
 
 ```bash
-codex mcp add flashcards --url https://mcp.flashcards-open-source-app.com/mcp
+codex mcp add flashcards --url https://mcp.nibomo.com/mcp
 codex mcp login flashcards
 ```
 
@@ -170,7 +170,7 @@ Para una sesión sin interfaz gráfica (headless) en la que OAuth mediante el na
 
 ```bash
 codex mcp add flashcards \
-  --url https://mcp.flashcards-open-source-app.com/mcp \
+  --url https://mcp.nibomo.com/mcp \
   --bearer-token-env-var FLASHCARDS_MCP_TOKEN
 ```
 

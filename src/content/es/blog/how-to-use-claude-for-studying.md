@@ -228,7 +228,7 @@ Si utilizas Nibomo, Claude también puede guardar las tarjetas aprobadas mediant
 La URL MCP de Flashcards es:
 
 ```text
-https://mcp.flashcards-open-source-app.com/mcp
+https://mcp.nibomo.com/mcp
 ```
 
 Para guardar tarjetas, el conector ofrece `list_workspaces`, la herramienta de solo lectura `sql_query` y `get_guide` con las reglas para redactar tarjetas, además de la herramienta de escritura `sql_execute`. Mantén la transferencia bien acotada:

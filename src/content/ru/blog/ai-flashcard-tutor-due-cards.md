@@ -45,7 +45,7 @@ keywords:
 
 URL сервера для всех MCP-клиентов один и тот же:
 
-`https://mcp.flashcards-open-source-app.com/mcp`
+`https://mcp.nibomo.com/mcp`
 
 Интерактивные клиенты входят через OAuth 2.1 с PKCE и Dynamic Client Registration. Вы разрешаете доступ в браузере, и не нужно ни вставлять ключ, ни заранее регистрировать приложение. Headless-сценарии вместо этого могут передавать API-ключ агента `fca_` как Bearer-токен. Оба пути и полный контракт инструментов описаны в [документации по MCP-коннектору](/ru/docs/mcp-connector/).
 
@@ -53,7 +53,7 @@ URL сервера для всех MCP-клиентов один и тот же:
 
 - В Claude добавьте Flashcards как кастомный коннектор в разделе **Customize > Connectors**. В [руководстве Anthropic по кастомным коннекторам](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp) сказано, что на тарифе Free можно подключить только один кастомный коннектор, а на тарифах Team и Enterprise коннектор сначала добавляет для организации владелец. По всем экранам проведёт [руководство по настройке Claude через MCP](/ru/blog/how-to-connect-flashcards-to-claude-with-mcp/).
 - В ChatGPT Flashcards подключается как собственное MCP-приложение. Сохранение повторения — это действие записи, а можно ли добавить приложение с доступом к записи и как это сделать, зависит от тарифа и рабочего пространства. На некоторых тарифах приложение настраивает администратор или публикует его для участников. Актуальные шаги для вашего тарифа смотрите в [справочной статье OpenAI о режиме разработчика и MCP-приложениях](https://help.openai.com/en/articles/12584461-developer-mode-and-mcp-apps-in-chatgpt).
-- В Codex добавьте сервер Streamable HTTP в **Settings > MCP servers** в приложении ChatGPT для компьютера или выполните `codex mcp add flashcards --url https://mcp.flashcards-open-source-app.com/mcp`, а затем `codex mcp login flashcards`. В [документации OpenAI по MCP в Codex](https://learn.chatgpt.com/docs/extend/mcp) отмечено, что приложение для компьютера, Codex CLI и расширение для IDE пользуются одной и той же конфигурацией. Подробнее — в [руководстве по учёбе с ChatGPT и Codex](/ru/blog/how-to-use-chatgpt-codex-for-studying/).
+- В Codex добавьте сервер Streamable HTTP в **Settings > MCP servers** в приложении ChatGPT для компьютера или выполните `codex mcp add flashcards --url https://mcp.nibomo.com/mcp`, а затем `codex mcp login flashcards`. В [документации OpenAI по MCP в Codex](https://learn.chatgpt.com/docs/extend/mcp) отмечено, что приложение для компьютера, Codex CLI и расширение для IDE пользуются одной и той же конфигурацией. Подробнее — в [руководстве по учёбе с ChatGPT и Codex](/ru/blog/how-to-use-chatgpt-codex-for-studying/).
 
 Можно и вовсе ничего не подключать. У ИИ-чата внутри Flashcards есть те же инструменты повторения, так что цикл работает и там. Терминальные агенты без поддержки MCP могут вызывать те же действия повторения как HTTP-маршруты, они описаны в [справочнике Agent API](/ru/docs/api/).
 
