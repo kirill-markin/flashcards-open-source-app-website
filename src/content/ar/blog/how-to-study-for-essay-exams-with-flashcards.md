@@ -296,7 +296,7 @@ keywords:
 
 إذا كان هذا هو الجانب الذي تريد تحسينه، فمقالا [How to Use AI for Active Recall in 2026](/blog/how-to-use-ai-for-active-recall/) و[How to Fix AI Flashcards in 2026](/blog/how-to-fix-ai-flashcards/) هما المتابعتان الأنسب.
 
-## أين يناسب Flashcards في هذا كله
+## أين يناسب Nibomo في هذا كله
 
 [Nibomo](/) مناسب عمليًا لـ**كيفية استخدام البطاقات التعليمية لاختبارات المقال** لأن التحضير للمقال لا يكون عادة مشكلة توليد فقط. بل هو أيضًا مشكلة تحرير وتخزين ومراجعة.
 
