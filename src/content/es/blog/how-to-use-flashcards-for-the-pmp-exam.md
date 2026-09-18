@@ -225,7 +225,7 @@ El orden importa:
 
 Si quieres más detalle sobre la parte de programación, [How to Study for an Exam With FSRS in 2026](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/) es el complemento directo.
 
-## Dónde encaja Flashcards en este flujo de trabajo del PMP
+## Dónde encaja Nibomo en este flujo de trabajo del PMP
 
 Si quieres llevar esto dentro de [Nibomo](https://nibomo.com/), la parte útil no es una promesa vaga de que la IA de algún modo va a estudiar por ti.
 

@@ -258,7 +258,7 @@ Si quieres más detalle sobre la parte de planificación, estos dos artículos e
 - [Cómo estudiar para un examen con FSRS en 2026](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)
 - [FSRS vs SM-2 en 2026](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
-## Dónde encaja Flashcards en este flujo del SAT Digital
+## Dónde encaja Nibomo en este flujo del SAT Digital
 
 [Nibomo](https://nibomo.com/) encaja bien para **flashcards para el SAT Digital** porque el producto actual ya soporta las partes de las que depende este flujo:
 

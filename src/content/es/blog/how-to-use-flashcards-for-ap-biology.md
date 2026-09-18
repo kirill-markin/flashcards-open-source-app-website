@@ -234,7 +234,7 @@ Así que yo mantendría el orden así de simple:
 
 Si quieres más detalle sobre la parte de planificación, [Cómo estudiar para un examen con FSRS en 2026](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/) es el complemento directo.
 
-## Dónde encaja Flashcards en este flujo de trabajo de AP Biology
+## Dónde encaja Nibomo en este flujo de trabajo de AP Biology
 
 Si quieres llevar esto dentro de [Nibomo](https://nibomo.com/), la parte útil no es una promesa vaga de que la IA va a aprender biología por arte de magia por ti.
 

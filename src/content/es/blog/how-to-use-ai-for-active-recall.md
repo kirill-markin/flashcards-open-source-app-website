@@ -18,7 +18,7 @@ El martes por la noche dejé que un tutor con IA me guiara por un concepto de es
 
 Ese es el problema de muchos flujos de "IA para estudiar". La IA ya explica muy bien, hace de tutor bastante bien y también plantea buenos cuestionarios. También sabe hacerte sentir preparado un poco antes de que realmente lo estés.
 
-La versión que mejor funciona es más simple: deja que la IA pregunte primero, responde con tus propias palabras, conserva solo los fallos y los momentos en los que dudas demasiado, y convierte esos puntos flojos en flashcards pequeñas para repasarlas con FSRS. El tutor con IA deja al descubierto el hueco. Flashcards guarda, ordena y programa el repaso que viene después.
+La versión que mejor funciona es más simple: deja que la IA pregunte primero, responde con tus propias palabras, conserva solo los fallos y los momentos en los que dudas demasiado, y convierte esos puntos flojos en flashcards pequeñas para repasarlas con FSRS. El tutor con IA deja al descubierto el hueco. Nibomo guarda, ordena y programa el repaso que viene después.
 
 ![Escena de escritorio cálido con active recall con IA, flashcards y un cuaderno de estudio](/blog/how-to-use-ai-for-active-recall.png)
 
@@ -203,7 +203,7 @@ El mazo debería responder una sola pregunta:
 
 ¿Qué no fui capaz de recuperar con la suficiente claridad como para querer otra oportunidad más tarde?
 
-## Dónde encaja Flashcards
+## Dónde encaja Nibomo
 
 [Nibomo](/es/) encaja después de la sesión de tutoría, cuando ya sabes qué merece quedarse en la memoria.
 
@@ -214,7 +214,7 @@ No existe un botón mágico que convierta un buen chat en memoria a largo plazo.
 3. limpia esa lista hasta convertirla en tarjetas claras
 4. repásalas con FSRS con el tiempo
 
-Ahí es donde Flashcards resulta útil:
+Ahí es donde Nibomo resulta útil:
 
 - tarjetas de frente y reverso para los puntos flojos que de verdad encontraste
 - mazos y etiquetas para mantenerlas ordenadas por asignatura, examen o tema

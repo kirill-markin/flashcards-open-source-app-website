@@ -246,7 +246,7 @@ Si tu materia prima empieza como apuntes, fragmentos de artículos o revisión d
 - [Cómo convertir apuntes en flashcards en 2026](/es/blog/turn-notes-into-flashcards)
 - [Cómo convertir un artículo en flashcards en 2026](/es/blog/how-to-turn-an-article-into-flashcards)
 
-## Dónde encaja Flashcards en este flujo de trabajo para el GRE
+## Dónde encaja Nibomo en este flujo de trabajo para el GRE
 
 Si quieres hacer esto dentro de [Nibomo](/es/), la parte útil no es una promesa vaga de que "la IA hace que estudiar sea más fácil". Lo importante es que el producto actual ya cubre la parte práctica del centro del flujo:
 
@@ -272,7 +272,7 @@ Si quieres **flashcards de vocabulario para el GRE** que de verdad mejoren tu pu
 
 Ésa es la versión de un **mazo de vocabulario GRE** de la que yo sí me fiaría.
 
-Si quieres probar ese flujo en Flashcards:
+Si quieres probar ese flujo en Nibomo:
 
 - [Empieza con Nibomo](/es/)
 - [Abre la app web](https://app.flashcards-open-source-app.com/)

@@ -166,23 +166,23 @@ Los cursos descargados se pueden estudiar sin conexión en las apps móviles. La
 
 Elige SuperMemo si su método o su catálogo de cursos te interesan lo suficiente como para empezar una planificación nueva. Si tu prioridad es conservar la planificación actual, esta opción resuelve otro problema.
 
-## Flashcards: código disponible para todo el sistema, pero la importación más limitada desde Anki
+## Nibomo: código disponible para todo el sistema, pero la importación más limitada desde Anki
 
-Flashcards pone a disposición el código de todo el sistema. El [repositorio con licencia MIT](https://github.com/kirill-markin/flashcards-open-source-app) contiene la app web, los clientes para iOS y Android, el backend, la sincronización sin conexión, la infraestructura, la [API pública](/docs/api/) y el [servidor MCP](/docs/mcp-connector/). Los repasos utilizan [FSRS](/docs/architecture/#scheduling). Las versiones web, iOS y Android escriben primero en local, añaden los cambios a una cola de salida y sincronizan al recuperar la conexión.
+Nibomo pone a disposición el código de todo el sistema. El [repositorio con licencia MIT](https://github.com/kirill-markin/flashcards-open-source-app) contiene la app web, los clientes para iOS y Android, el backend, la sincronización sin conexión, la infraestructura, la [API pública](/docs/api/) y el [servidor MCP](/docs/mcp-connector/). Los repasos utilizan [FSRS](/docs/architecture/#scheduling). Las versiones web, iOS y Android escriben primero en local, añaden los cambios a una cola de salida y sincronizan al recuperar la conexión.
 
-Eso no la hace compatible con Anki. Flashcards no puede leer `.apkg` ni `.colpkg`. La [vía admitida para migrar desde Anki mediante TXT](/blog/migrate-from-anki-txt-export-open-source-flashcards/) crea borradores con ayuda de la IA para tarjetas basadas principalmente en texto y exige revisarlos. No conserva las plantillas, los complementos, la jerarquía de los mazos, las fechas de vencimiento, los intervalos ni los eventos de repaso. Las referencias a archivos multimedia dentro de un TXT no son los archivos en sí, por lo que los mazos que dependen mucho de ellos requieren una reconstrucción y una comprobación independientes.
+Eso no la hace compatible con Anki. Nibomo no puede leer `.apkg` ni `.colpkg`. La [vía admitida para migrar desde Anki mediante TXT](/blog/migrate-from-anki-txt-export-open-source-flashcards/) crea borradores con ayuda de la IA para tarjetas basadas principalmente en texto y exige revisarlos. No conserva las plantillas, los complementos, la jerarquía de los mazos, las fechas de vencimiento, los intervalos ni los eventos de repaso. Las referencias a archivos multimedia dentro de un TXT no son los archivos en sí, por lo que los mazos que dependen mucho de ellos requieren una reconstrucción y una comprobación independientes.
 
-El formato propio `flashcards.zip` también tiene un alcance menor que una copia de seguridad. Permite trasladar tarjetas, etiquetas y los archivos multimedia relacionados entre espacios de trabajo de Flashcards. No traslada el historial de repasos, el estado de FSRS, la estructura completa de los mazos, los ajustes del espacio de trabajo ni las cuentas.
+El formato propio `flashcards.zip` también tiene un alcance menor que una copia de seguridad. Permite trasladar tarjetas, etiquetas y los archivos multimedia relacionados entre espacios de trabajo de Nibomo. No traslada el historial de repasos, el estado de FSRS, la estructura completa de los mazos, los ajustes del espacio de trabajo ni las cuentas.
 
 El núcleo alojado es [gratis durante la beta](/pricing/). Autohospedar el sistema de producción no consiste en ejecutar Docker con un solo comando: la [guía de autohospedaje](/docs/self-hosting/) usa AWS CDK y requiere servicios de AWS, además de Cloudflare, Resend, Sentry, secretos, migraciones, copias de seguridad, restauraciones y actualizaciones. Docker Compose sirve para desarrollo; no es la vía de despliegue de producción admitida.
 
-Elige Flashcards cuando el acceso a todo el código y un backend bajo tu control sean la razón para cambiar, y tus tarjetas sean lo bastante sencillas como para reconstruirlas de forma segura. [Abre la app alojada](https://app.flashcards-open-source-app.com/) para probar un pequeño mazo temporal. Quédate con Anki —o prueba RemNote, Mochi o Mnemosyne— si lo primero es conservar fielmente el estado de aprendizaje.
+Elige Nibomo cuando el acceso a todo el código y un backend bajo tu control sean la razón para cambiar, y tus tarjetas sean lo bastante sencillas como para reconstruirlas de forma segura. [Abre la app alojada](https://app.flashcards-open-source-app.com/) para probar un pequeño mazo temporal. Quédate con Anki —o prueba RemNote, Mochi o Mnemosyne— si lo primero es conservar fielmente el estado de aprendizaje.
 
 ## ¿Qué alternativa a Anki funciona en iOS sin sorpresas al migrar?
 
 Una «alternativa a Anki para iOS» puede significar dos cosas distintas: una app nativa para iPhone o una forma de evitar la compra única de [AnkiMobile por 24,99 $](https://apps.apple.com/us/app/ankimobile-flashcards/id373493387).
 
-RemNote, Mochi, Quizlet, Brainscape, SuperMemo y Flashcards tienen apps para iOS. Mnemosyne no. Aun así, queda por resolver la migración:
+RemNote, Mochi, Quizlet, Brainscape, SuperMemo y Nibomo tienen apps para iOS. Mnemosyne no. Aun así, queda por resolver la migración:
 
 - **Mochi** conserva más información que las opciones de iOS limitadas al texto: importa el historial de repasos de `.apkg`, aunque convierte el contenido a Markdown y utiliza valoraciones binarias.
 - **RemNote** también importa el historial de repasos de `.apkg`, pero prueba la cola **Need to Learn** en vez de dar por hecho que conservará la planificación de hoy en Anki.
@@ -235,8 +235,8 @@ Empieza por lo que no puedes permitirte perder:
 3. Si el Markdown local y unas exportaciones que puedas inspeccionar importan más que el renderizado de Anki, prueba Mochi.
 4. Si buscas una app de escritorio de código abierto centrada en las tarjetas y con importación directa desde Anki, prueba Mnemosyne y confirma que sus limitaciones móviles encajan con tu rutina.
 5. Si el verdadero problema es distribuir material en clase o simplificar un ciclo compartido de repaso, reconstruye un conjunto pequeño en Quizlet o Brainscape.
-6. Si buscas específicamente el método de SuperMemo, acepta una planificación nueva. Si buscas acceso al código de todo el sistema, autohospedaje, API y MCP, acepta la reconstrucción con pérdidas de Flashcards y el trabajo operativo que conlleva.
+6. Si buscas específicamente el método de SuperMemo, acepta una planificación nueva. Si buscas acceso al código de todo el sistema, autohospedaje, API y MCP, acepta la reconstrucción con pérdidas de Nibomo y el trabajo operativo que conlleva.
 
-Para comparar función por función tres modelos muy distintos, consulta [Anki vs. Quizlet vs. Flashcards](/blog/anki-vs-quizlet-vs-open-source-flashcards-app/).
+Para comparar función por función tres modelos muy distintos, consulta [Anki vs. Quizlet vs. Nibomo](/blog/anki-vs-quizlet-vs-open-source-flashcards-app/).
 
 La regla útil es sencilla: cambia cuando la ventaja sea concreta y hayas sometido las pérdidas a una prueba real. Si tu mazo representativo no logra cruzar ese límite sin problemas, seguir con Anki no es la salida conservadora por defecto. Es el resultado de la comparación.

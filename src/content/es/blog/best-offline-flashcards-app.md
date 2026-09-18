@@ -1,6 +1,6 @@
 ---
 title: "¿Qué apps de flashcards funcionan sin conexión en 2026? Comparativa de 5 apps"
-description: "Compara Anki, Quizlet, RemNote, Mochi y Flashcards según el acceso sin conexión a las tarjetas, la edición, el contenido multimedia, el historial de repasos y la sincronización, con una prueba práctica en modo avión."
+description: "Compara Anki, Quizlet, RemNote, Mochi y Nibomo según el acceso sin conexión a las tarjetas, la edición, el contenido multimedia, el historial de repasos y la sincronización, con una prueba práctica en modo avión."
 date: "2026-03-16"
 updated: "2026-08-22"
 image: "/blog/best-offline-flashcards-app.png"
@@ -14,7 +14,7 @@ keywords:
   - "app de repetición espaciada sin conexión"
 ---
 
-¿Qué app de estudio funciona sin conexión? **Las cinco apps de esta comparativa permiten continuar al menos una parte del estudio sin internet, pero solo si utilizas la versión adecuada.** Las apps instaladas de Anki son la opción general más segura para disponer de una colección local completa. Las de Mochi ofrecen la alternativa más clara si no quieres crear una cuenta. RemNote funciona bien sin conexión en sus apps instaladas, aunque el acceso al contenido multimedia desde el móvil es parcial. Quizlet requiere su app para iOS o Android y haber preparado los conjuntos de tarjetas de antemano. Flashcards utiliza almacenamiento local-first en sus apps nativas, pero antes necesita un inicio de sesión con conexión y la descarga inicial del espacio de trabajo.
+¿Qué app de estudio funciona sin conexión? **Las cinco apps de esta comparativa permiten continuar al menos una parte del estudio sin internet, pero solo si utilizas la versión adecuada.** Las apps instaladas de Anki son la opción general más segura para disponer de una colección local completa. Las de Mochi ofrecen la alternativa más clara si no quieres crear una cuenta. RemNote funciona bien sin conexión en sus apps instaladas, aunque el acceso al contenido multimedia desde el móvil es parcial. Quizlet requiere su app para iOS o Android y haber preparado los conjuntos de tarjetas de antemano. Nibomo utiliza almacenamiento local-first en sus apps nativas, pero antes necesita un inicio de sesión con conexión y la descarga inicial del espacio de trabajo.
 
 Para esta decisión, las versiones web deben evaluarse por separado. Un conjunto descargado en el móvil, una imagen guardada en caché y una pestaña que sigue funcionando tras perder la conexión no equivalen a una app instalada capaz de arrancar desde cero y abrir su colección local.
 
@@ -33,11 +33,11 @@ Las demás apps destacan en situaciones más concretas:
 - Elige **la app instalada de Mochi** si quieres crear tarjetas y repasarlas en local sin una cuenta.
 - Elige **RemNote para escritorio** si tus tarjetas forman parte de tus notas y necesitas disponer de imágenes y PDF en local.
 - Elige **Quizlet para móvil** si sabes exactamente qué conjuntos necesitas y los modos Flashcards o Match cubren tus necesidades durante el viaje.
-- Elige **Flashcards en iOS o Android** si quieres guardar primero en local las ediciones y el historial de repasos para sincronizarlos más tarde, y aceptas tanto la configuración inicial con conexión como la menor madurez del producto.
+- Elige **Nibomo en iOS o Android** si quieres guardar primero en local las ediciones y el historial de repasos para sincronizarlos más tarde, y aceptas tanto la configuración inicial con conexión como la menor madurez del producto.
 
 Esta comparativa examina cinco aspectos por separado: el acceso a las tarjetas, su edición, el historial de repasos guardado, el contenido multimedia y la sincronización posterior. Una app debe cumplir los requisitos que tu colección necesita de verdad; una etiqueta de «uso sin conexión» no basta por sí sola.
 
-Si solo puedes utilizar un navegador, hay menos opciones fiables. RemNote documenta un modo que depende de mantener abierta la pestaña, la guía de Quizlet sobre el uso sin conexión solo contempla las apps móviles y AnkiWeb es un servicio en línea. Mochi indica que su versión web sin Pro utiliza el almacenamiento sin conexión del navegador, pero advierte de que este puede borrarlo. Flashcards guarda los datos de estudio en IndexedDB, aunque su cliente web no ofrece la misma garantía de arranque sin conexión que una app nativa instalada.
+Si solo puedes utilizar un navegador, hay menos opciones fiables. RemNote documenta un modo que depende de mantener abierta la pestaña, la guía de Quizlet sobre el uso sin conexión solo contempla las apps móviles y AnkiWeb es un servicio en línea. Mochi indica que su versión web sin Pro utiliza el almacenamiento sin conexión del navegador, pero advierte de que este puede borrarlo. Nibomo guarda los datos de estudio en IndexedDB, aunque su cliente web no ofrece la misma garantía de arranque sin conexión que una app nativa instalada.
 
 ## Primero, identifica la modalidad de uso sin conexión
 
@@ -87,7 +87,7 @@ La [guía de instalación de Mochi](https://mochi.cards/docs/getting-started/dow
 
 La [guía de Mochi sobre copias de seguridad](https://mochi.cards/docs/getting-started/backing-up/) añade una vía útil de recuperación a este modelo local: una copia del directorio de usuario de la app de escritorio conserva las tarjetas, las plantillas, el historial de repasos, los archivos adjuntos, los ajustes y el estado de inicio de sesión, mientras que una exportación `.mochi` permite trasladar los datos de estudio entre dispositivos. Para utilizar un solo dispositivo sin conexión durante mucho tiempo, ofrece una protección más concreta que confiar únicamente en la sincronización.
 
-### Flashcards: clientes nativos local-first, con requisitos iniciales
+### Nibomo: clientes nativos local-first, con requisitos iniciales
 
 La [arquitectura offline-first de Nibomo](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/docs/architecture.md#offline-first-sync) escribe las tarjetas, los mazos, los ajustes y los repasos en local antes de enviarlos. La versión web utiliza IndexedDB, la de iOS utiliza SQLite y la de Android utiliza Room sobre SQLite. Los repasos se transfieren como un flujo de eventos al que solo se añaden entradas; el estado mutable de las tarjetas y los mazos pasa por la cola de salida.
 
@@ -110,6 +110,6 @@ La documentación oficial explica los límites del producto. Esta prueba reprodu
 
 La prueba tarda unos diez minutos y detecta los fallos que importan: utilizar la versión inadecuada, una descarga incompleta, contenido multimedia ausente, trabajo que desaparece tras reiniciar o progreso que nunca llega al siguiente dispositivo.
 
-Para la mayoría de los estudiantes y de quienes se desplazan a diario o viajan, Anki sigue siendo la mejor app de flashcards sin conexión porque sus clientes instalados exigen menos concesiones. Aun así, otra opción puede encajar mejor en un caso concreto: Mochi para estudiar en local sin una cuenta, RemNote para trabajar con notas y contenido multimedia en el escritorio, Quizlet para llevar conjuntos preparados en el móvil o Flashcards para trabajar primero en local con sus apps nativas y sincronizar después.
+Para la mayoría de los estudiantes y de quienes se desplazan a diario o viajan, Anki sigue siendo la mejor app de flashcards sin conexión porque sus clientes instalados exigen menos concesiones. Aun así, otra opción puede encajar mejor en un caso concreto: Mochi para estudiar en local sin una cuenta, RemNote para trabajar con notas y contenido multimedia en el escritorio, Quizlet para llevar conjuntos preparados en el móvil o Nibomo para trabajar primero en local con sus apps nativas y sincronizar después.
 
-Si el acceso sin conexión es solo uno de tus criterios, compara las [mejores apps de flashcards de código abierto en 2026](/blog/best-open-source-flashcard-apps-2026/) o consulta la comparativa más amplia de [Anki vs. Quizlet vs. Flashcards](/blog/anki-vs-quizlet-vs-open-source-flashcards-app/). Elijas la app que elijas, prepara el dispositivo concreto y haz la prueba en modo avión antes de que realmente necesites estudiar sin conexión.
+Si el acceso sin conexión es solo uno de tus criterios, compara las [mejores apps de flashcards de código abierto en 2026](/blog/best-open-source-flashcard-apps-2026/) o consulta la comparativa más amplia de [Anki vs. Quizlet vs. Nibomo](/blog/anki-vs-quizlet-vs-open-source-flashcards-app/). Elijas la app que elijas, prepara el dispositivo concreto y haz la prueba en modo avión antes de que realmente necesites estudiar sin conexión.

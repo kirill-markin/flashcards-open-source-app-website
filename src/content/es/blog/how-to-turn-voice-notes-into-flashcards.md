@@ -262,7 +262,7 @@ Si desea ver el lado del programador con más detalle, esto es más profundo:
 
 - [FSRS vs SM-2 en 2026: ¿Qué algoritmo de repetición espaciada le ayuda a recordar más?](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
-## Dónde encaja Flashcards en este flujo de trabajo
+## Dónde encaja Nibomo en este flujo de trabajo
 
 [Nibomo](https://nibomo.com/) es una buena opción para **audio en tarjetas didácticas** porque el producto ya tiene las piezas que este flujo de trabajo necesita en un solo lugar:
 
@@ -276,7 +276,7 @@ Esa combinación importa más de lo que la gente admite.
 
 Muchas herramientas pueden ayudar con la transcripción. Muchas herramientas pueden generar tarjetas. La verdadera pregunta es hacia dónde van las cartas a continuación. ¿Se mantienen editables? ¿Viven en el mismo espacio de trabajo que el resto de tu material de estudio? ¿Puedes realmente revisarlos seriamente después?
 
-Ahí es donde Flashcards parece más arraigado que una demostración de transcripción de una sola vez.
+Ahí es donde Nibomo parece más arraigado que una demostración de transcripción de una sola vez.
 
 ## Mantendría el mensaje aburrido a propósito
 

@@ -266,7 +266,7 @@ Así que deja el orden simple:
 
 Si quieres más detalle sobre la parte de planificación, [Cómo estudiar para un examen con FSRS en 2026](/blog/how-to-study-for-an-exam-with-fsrs/) es el artículo complementario directo.
 
-## Dónde encaja Flashcards en este flujo de AP Physics 1
+## Dónde encaja Nibomo en este flujo de AP Physics 1
 
 [Nibomo](https://nibomo.com/) encaja bien en este flujo si quieres un solo sitio donde guardar tarjetas de gráficas, errores de fuerzas y correcciones de FRQ sin repartirlas entre apuntes, capturas y correcciones viejas.
 

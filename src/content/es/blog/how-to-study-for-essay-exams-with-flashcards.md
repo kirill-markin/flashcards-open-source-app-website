@@ -296,7 +296,7 @@ Yo no usaría la IA para generar un único "mazo de exámenes de desarrollo" gig
 
 Si esa es la parte que quieres afinar, [How to Use AI for Active Recall in 2026](/blog/how-to-use-ai-for-active-recall/) y [How to Fix AI Flashcards in 2026](/blog/how-to-fix-ai-flashcards/) son mejores artículos para seguir.
 
-## Dónde encaja Flashcards
+## Dónde encaja Nibomo
 
 [Nibomo](/) encaja bien para **cómo usar flashcards para exámenes de desarrollo** porque preparar este tipo de pruebas casi nunca es solo un problema de generación. También es un problema de edición, almacenamiento y repaso.
 

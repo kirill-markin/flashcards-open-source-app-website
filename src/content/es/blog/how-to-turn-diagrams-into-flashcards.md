@@ -296,7 +296,7 @@ Eso podría significar:
 
 Si subes diez diagramas a la vez, el modelo empieza a mezclarlos y el mazo pierde precisión enseguida.
 
-## Dónde encaja Flashcards
+## Dónde encaja Nibomo
 
 [Nibomo](https://nibomo.com/) encaja bien en un flujo de trabajo para **convertir diagramas en tarjetas didácticas** porque el producto ya tiene las piezas que este proceso necesita:
 

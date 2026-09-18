@@ -21,7 +21,7 @@ Por eso, los mejores ajustes de FSRS no son una cadena de parámetros que puedas
 
 Las etiquetas y el comportamiento que se explican a continuación corresponden a la [versión 26.08 de Anki](https://github.com/ankitects/anki/releases/tag/26.08) y a sus controles de FSRS-6. Si antes de configurar nada necesitas entender el modelo, lee [¿Qué es FSRS?](/blog/what-is-fsrs/). Si aún estás decidiendo qué planificador usar, empieza por [FSRS frente a SM-2](/blog/fsrs-vs-sm-2/).
 
-> **Aviso:** Soy Kirill Markin y desarrollo [Nibomo](/features/). Anki ofrece un ajuste personalizado de parámetros y simuladores experimentales de carga de trabajo que Flashcards todavía no incluye. La comparación hacia el final del artículo deja claras estas diferencias.
+> **Aviso:** Soy Kirill Markin y desarrollo [Nibomo](/features/). Anki ofrece un ajuste personalizado de parámetros y simuladores experimentales de carga de trabajo que Nibomo todavía no incluye. La comparación hacia el final del artículo deja claras estas diferencias.
 
 **Datos verificados:** 8 de septiembre de 2026.
 
@@ -189,7 +189,7 @@ Usa **Additional new cards to simulate** (tarjetas nuevas adicionales que se van
 
 Si el resultado es demasiado alto, reduce la entrada y vuelve a simular. Así conservas el objetivo de recuerdo sin pedir al planificador que tolere más olvidos.
 
-## Anki y Flashcards ofrecen controles de FSRS distintos
+## Anki y Nibomo ofrecen controles de FSRS distintos
 
 Ambos productos utilizan FSRS-6, pero los ajustes de FSRS de Anki no se corresponden uno a uno con los de Nibomo.
 
@@ -203,9 +203,9 @@ Ambos productos utilizan FSRS-6, pero los ajustes de FSRS de Anki no se correspo
 | Cambios en los ajustes | Se aplican a repasos futuros de forma predeterminada; reprogramación retroactiva opcional | Solo se aplican a repasos futuros; las fechas de repaso existentes no se reconstruyen |
 | Herramientas de carga de trabajo | **Help Me Decide (Experimental)** y **FSRS Simulator (Experimental)** | No hay un simulador de carga de trabajo equivalente en la versión 1 |
 
-Flashcards utiliza las valoraciones estándar **Again**, **Hard**, **Good** y **Easy**, y mantiene el estado de memoria de FSRS de cada tarjeta. Sus planificadores del backend, iOS y Android son implementaciones independientes que mantienen el mismo comportamiento; el flujo de repaso web reutiliza el planificador del backend en lugar de añadir una cuarta implementación.
+Nibomo utiliza las valoraciones estándar **Again**, **Hard**, **Good** y **Easy**, y mantiene el estado de memoria de FSRS de cada tarjeta. Sus planificadores del backend, iOS y Android son implementaciones independientes que mantienen el mismo comportamiento; el flujo de repaso web reutiliza el planificador del backend en lugar de añadir una cuarta implementación.
 
-Estos límites y valores predeterminados están documentados en la [especificación pública de programación FSRS de Nibomo](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/docs/fsrs-scheduling-logic.md). La diferencia práctica es clara: Flashcards ofrece una configuración funcional de FSRS-6 por espacio de trabajo, mientras que Anki proporciona ámbitos más precisos, ajuste personalizado y simulación. Si esos controles son imprescindibles para ti, Anki es la opción más adecuada.
+Estos límites y valores predeterminados están documentados en la [especificación pública de programación FSRS de Nibomo](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/docs/fsrs-scheduling-logic.md). La diferencia práctica es clara: Nibomo ofrece una configuración funcional de FSRS-6 por espacio de trabajo, mientras que Anki proporciona ámbitos más precisos, ajuste personalizado y simulación. Si esos controles son imprescindibles para ti, Anki es la opción más adecuada.
 
 ## Un flujo de trabajo más seguro para una colección madura
 
@@ -249,7 +249,7 @@ No de forma predeterminada. Con **Reschedule cards on change** desactivado, los 
 
 No. Anki eliminó **Compute Minimum Recommended Retention** en la versión 25.07. En Anki 26.08, usa **Help Me Decide (Experimental)** y **FSRS Simulator (Experimental)** para comparar la retención con la carga de trabajo estimada.
 
-### ¿Flashcards usa los mismos ajustes que Anki?
+### ¿Nibomo usa los mismos ajustes que Anki?
 
 Utiliza FSRS-6 y ofrece retención deseada, pasos de aprendizaje, pasos de reaprendizaje, intervalo máximo y fuzz (variación aleatoria) por espacio de trabajo. No reproduce todo el modelo de ajustes de Anki: los pesos están fijados en la versión 1, los cambios solo se aplican en adelante y no hay optimización personalizada de parámetros ni simulador de carga de trabajo.
 

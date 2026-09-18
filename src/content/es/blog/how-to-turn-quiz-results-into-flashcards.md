@@ -212,7 +212,7 @@ La conversión ciega sigue siendo un error. Si el modelo convierte cada frase en
 
 Si tu flujo ya incluye sesiones de cuestionario con estilo tutor, [Cómo usar IA para hacer active recall en 2026](/es/blog/how-to-use-ai-for-active-recall/) y [Cómo convertir ChatGPT Study Mode en flashcards en 2026](/es/blog/how-to-turn-chatgpt-study-mode-into-flashcards/) encajan de forma natural al lado de este artículo.
 
-## Dónde encaja Flashcards
+## Dónde encaja Nibomo
 
 [Nibomo](/es/) encaja bien en este flujo de trabajo porque los pasos que importan son pequeños y prácticos: redactar tarjetas claras de anverso y reverso, limpiarlas y repasar con FSRS las que de verdad merece la pena conservar. La aplicación web también admite chat con IA y archivos adjuntos, incluida la subida de texto plano, lo que ayuda cuando el feedback del cuestionario empieza como texto copiado del LMS o como una exportación torpe en vez de una guía de estudio limpia.
 

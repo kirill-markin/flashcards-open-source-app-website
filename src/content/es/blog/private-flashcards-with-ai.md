@@ -79,7 +79,7 @@ Lo que la mayoría quiere es una vía intermedia razonable:
 
 Eso es una configuración más sana que la falsa elección entre software de escritorio antiguo y un SaaS cerrado con una pestaña de estudio.
 
-## Lo que Flashcards ya documenta
+## Lo que Nibomo ya documenta
 
 [Nibomo](/es/) encaja en esa vía intermedia porque las opciones de control ya son visibles en el repositorio, la [página de funcionalidades](/es/features/), la documentación y las páginas públicas.
 
@@ -120,7 +120,7 @@ Una **app de flashcards privada** mejor mantiene la IA en un papel más limitado
 
 Eso no es ir contra la IA. Es simplemente más limpio.
 
-La documentación y las páginas de la versión alojada de Flashcards ya separan esas capacidades en lugar de presentar la IA como el único camino a través del producto. La [guía de primeros pasos](/es/docs/getting-started/) enumera la creación de tarjetas, el repaso de tarjetas vencidas y el chat con IA como partes distintas de la app alojada. Los [términos](/es/terms/) también dejan claro que el chat con IA es opcional y que las solicitudes de IA alojadas pueden ser procesadas por proveedores externos si eliges usar esa función.
+La documentación y las páginas de la versión alojada de Nibomo ya separan esas capacidades en lugar de presentar la IA como el único camino a través del producto. La [guía de primeros pasos](/es/docs/getting-started/) enumera la creación de tarjetas, el repaso de tarjetas vencidas y el chat con IA como partes distintas de la app alojada. Los [términos](/es/terms/) también dejan claro que el chat con IA es opcional y que las solicitudes de IA alojadas pueden ser procesadas por proveedores externos si eliges usar esa función.
 
 Ese es el tipo de claridad que quiero en una herramienta de estudio sensible a la privacidad. No perfección. Límites claros.
 
@@ -146,7 +146,7 @@ Una app que guarda las tarjetas en local, te deja repasarlas en local y sincroni
 
 Esa es una de las razones por las que las **flashcards sin conexión** y la privacidad pertenecen a la misma conversación.
 
-En Flashcards, la documentación actual de arquitectura ya describe el cliente de iOS como SQLite local más sincronización push y pull a través del backend. Esa es una posición más sólida que la de una herramienta solo de navegador que parece moderna hasta que se cae la conexión.
+En Nibomo, la documentación actual de arquitectura ya describe el cliente de iOS como SQLite local más sincronización push y pull a través del backend. Esa es una posición más sólida que la de una herramienta solo de navegador que parece moderna hasta que se cae la conexión.
 
 Si lo offline es tu requisito principal, el artículo complementario sobre [flashcards offline-first](/es/blog/best-offline-flashcards-app/) entra más a fondo.
 
@@ -158,7 +158,7 @@ Normalmente no vas a conseguir eso con un producto alojado, porque los productos
 
 Por eso precisamente importa el autohospedaje.
 
-La documentación de autohospedaje de Flashcards ya describe una configuración local para Postgres, auth, backend y web, y documenta `AUTH_MODE=none` para uso local. En lenguaje sencillo, el proyecto ya soporta una ruta de **app de estudio sin cuenta** cuando ejecutas tu propia pila en local en lugar de usar el servicio alojado.
+La documentación de autohospedaje de Nibomo ya describe una configuración local para Postgres, auth, backend y web, y documenta `AUTH_MODE=none` para uso local. En lenguaje sencillo, el proyecto ya soporta una ruta de **app de estudio sin cuenta** cuando ejecutas tu propia pila en local en lugar de usar el servicio alojado.
 
 No será la opción correcta para todo el mundo. Probablemente la mayoría debería empezar con la versión alojada y solo ir más allá si necesita ese control extra. Pero si tu material es lo bastante sensible como para que los límites de una cuenta de terceros no encajen, esta opción cambia la conversación.
 
@@ -168,12 +168,12 @@ Si esa es tu prioridad, [Aplicación de flashcards de código abierto y autohosp
 
 Aquí es donde muchas herramientas hacen que la privacidad parezca un todo o nada.
 
-Flashcards ya expone una superficie externa documentada para agentes y una vía MCP en lugar de forzar la automatización a través de una única interfaz sellada. La documentación de la API también deja claro que el contrato externo para agentes queda acotado al espacio de trabajo una vez que lo seleccionas, lo cual es una forma más sana que el marketing vago de "integración con IA".
+Nibomo ya expone una superficie externa documentada para agentes y una vía MCP en lugar de forzar la automatización a través de una única interfaz sellada. La documentación de la API también deja claro que el contrato externo para agentes queda acotado al espacio de trabajo una vez que lo seleccionas, lo cual es una forma más sana que el marketing vago de "integración con IA".
 
 Si el lado de agentes te importa, estas son las siguientes lecturas útiles:
 
-- [Cómo dejar que Claude Code, Codex u OpenClaw inicien sesión en Flashcards por ti](/es/blog/claude-code-codex-openclaw-flashcards-login/)
-- [Cómo conectar Flashcards a Claude con MCP](/es/blog/how-to-connect-flashcards-to-claude-with-mcp/)
+- [Cómo dejar que Claude Code, Codex u OpenClaw inicien sesión en Nibomo por ti](/es/blog/claude-code-codex-openclaw-flashcards-login/)
+- [Cómo conectar Nibomo a Claude con MCP](/es/blog/how-to-connect-flashcards-to-claude-with-mcp/)
 
 Eso te da una configuración más inspeccionable que la de un producto de estudio donde la IA existe solo dentro de la interfaz y las reglas de un único proveedor.
 

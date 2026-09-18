@@ -277,7 +277,7 @@ Si quieres profundizar más en la parte de la planificación, lee esto después:
 - [Cómo estudiar para un examen con FSRS en 2026](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)
 - [FSRS vs SM-2 en 2026](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
-## Dónde encaja Flashcards en este flujo de trabajo para el MCAT
+## Dónde encaja Nibomo en este flujo de trabajo para el MCAT
 
 [Nibomo](https://nibomo.com/) encaja bien en este tipo de flujo para el MCAT porque cubre las partes que muchos estudiantes suelen repartir entre demasiadas herramientas.
 

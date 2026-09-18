@@ -220,7 +220,7 @@ Sin reinicio dramático.
 
 No pretender que la respuesta correcta a la sobrecarga sea aún más sobrecarga.
 
-## Dónde se adapta mejor Flashcards a esto
+## Dónde se adapta mejor Nibomo a esto
 
 [Nibomo](https://nibomo.com/) es una buena opción para la recuperación de **repeticiones pendientes espaciadas** porque el flujo de trabajo no tiene que dividirse en tres herramientas diferentes:
 

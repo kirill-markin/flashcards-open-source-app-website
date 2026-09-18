@@ -242,7 +242,7 @@ Lo que FSRS no hace es rescatar tarjetas infladas. El orden importa:
 
 Si quieres una explicación más directa de la parte del planificador, [Cómo estudiar para un examen con FSRS en 2026](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/) y [FSRS vs. SM-2 en 2026](https://nibomo.com/blog/fsrs-vs-sm-2/) son los dos seguimientos más limpios.
 
-## Dónde encaja Flashcards
+## Dónde encaja Nibomo
 
 [Nibomo](https://nibomo.com/) encaja especialmente bien en anatomía cuando ya sabes qué merece la pena recordar.
 

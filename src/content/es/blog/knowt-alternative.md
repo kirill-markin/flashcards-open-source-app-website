@@ -108,7 +108,7 @@ Muchos estudiantes no parten de flashcards bien preparadas. Parten de una clase,
 
 Knowt está diseñado para esa fase previa. Su documentación sobre IA explica cómo generar notas o flashcards a partir de archivos PDF, vídeos y PowerPoint y, a continuación, pasar a Learn Mode, exámenes de práctica, emparejamiento o repetición espaciada. Las notas nativas y los distintos formatos de práctica permanecen dentro del mismo producto. Ese trayecto más corto entre el material original y la sesión de estudio es la ventaja más clara de Knowt frente a una herramienta centrada en flashcards.
 
-También obliga a hacer un control de calidad. Las tarjetas generadas pueden omitir contexto, formular una afirmación de manera demasiado amplia o convertir una explicación útil en una pregunta de reconocimiento poco eficaz. Contrasta las tarjetas importantes con la fuente original antes de pasar semanas repasándolas. La misma advertencia vale para cualquier generador de tarjetas con IA, incluido Flashcards.
+También obliga a hacer un control de calidad. Las tarjetas generadas pueden omitir contexto, formular una afirmación de manera demasiado amplia o convertir una explicación útil en una pregunta de reconocimiento poco eficaz. Contrasta las tarjetas importantes con la fuente original antes de pasar semanas repasándolas. La misma advertencia vale para cualquier generador de tarjetas con IA, incluido Nibomo.
 
 ## Importar desde Quizlet es cómodo, pero no pierdas de vista el método manual
 
@@ -129,7 +129,7 @@ Un PDF resulta útil para imprimir, compartir o conservar una copia legible. No 
 
 Antes de elegir Knowt para guardar material a largo plazo, exporta un conjunto realista y examina el resultado. La pregunta práctica es sencilla: si Knowt desapareciera mañana de tu flujo de trabajo, ¿podrías reconstruir las tarjetas editables con lo que recibiste o solo conservarías un documento para leer?
 
-Flashcards tampoco resuelve por completo la portabilidad. Su transferencia de paquetes mueve tarjetas, etiquetas y archivos multimedia relacionados entre instalaciones de Flashcards, pero no incluye el historial de repasos, el estado del planificador FSRS, los ajustes del espacio de trabajo, la estructura completa de los mazos ni los datos de la cuenta. [Que el código sea abierto no convierte automáticamente una exportación en una copia de seguridad completa](/docs/self-hosting/).
+Nibomo tampoco resuelve por completo la portabilidad. Su transferencia de paquetes mueve tarjetas, etiquetas y archivos multimedia relacionados entre instalaciones de Nibomo, pero no incluye el historial de repasos, el estado del planificador FSRS, los ajustes del espacio de trabajo, la estructura completa de los mazos ni los datos de la cuenta. [Que el código sea abierto no convierte automáticamente una exportación en una copia de seguridad completa](/docs/self-hosting/).
 
 ## Cuándo encaja mejor una alternativa más específica
 
@@ -139,7 +139,7 @@ También permite acceder al espacio de trabajo mediante [MCP y una Agent API](/d
 
 El repositorio de código abierto incluye clientes, servicios de backend y una vía real de producción con AWS CDK. Autoalojarlo sigue implicando operar la infraestructura de AWS, la entrega de correo electrónico, la monitorización, los secretos, las migraciones, las copias de seguridad y las pruebas de restauración. Se parece más a gestionar un pequeño sistema de producción que a pulsar «deploy» en una aplicación de escritorio. Conviene leer la [guía de autoalojamiento](/docs/self-hosting/) antes de tratar el control de la infraestructura como una ventaja gratuita.
 
-Flashcards no sustituye por completo a Knowt. No ofrece el flujo integrado de notas de Knowt, su amplia conversión de fuentes, la variedad de preguntas de Learn Mode, la experiencia de generar exámenes de práctica, la biblioteca de estudio de la comunidad ni las funciones para el aula. Si esas prestaciones son el motivo por el que usas Knowt, cambiar a una aplicación más específica eliminaría justo la parte que te resulta útil.
+Nibomo no sustituye por completo a Knowt. No ofrece el flujo integrado de notas de Knowt, su amplia conversión de fuentes, la variedad de preguntas de Learn Mode, la experiencia de generar exámenes de práctica, la biblioteca de estudio de la comunidad ni las funciones para el aula. Si esas prestaciones son el motivo por el que usas Knowt, cambiar a una aplicación más específica eliminaría justo la parte que te resulta útil.
 
 ## ¿Cuál deberías elegir?
 
@@ -147,8 +147,8 @@ Quédate con Knowt Basic si, en general, creas las notas y los conjuntos a mano,
 
 Considera Knowt Ultra si los resúmenes, los chats con Kai, las evaluaciones generadas y otras acciones de IA sujetas a límites son esenciales en tu estudio semanal. Compara el pago anual por adelantado con un mes de uso real: pagar por una capacidad ilimitada solo ayuda cuando el límite de verdad se interpone.
 
-Elige Flashcards si el resultado que quieres conservar es una colección más pequeña de tarjetas verificadas con anverso y reverso, y valoras más el FSRS documentado, guardar los cambios primero en local, el contenido exportable de las tarjetas, el código abierto, el autoalojamiento o el acceso para agentes que la variedad de formatos de examen. Empieza con la [aplicación alojada y la guía de introducción](/docs/getting-started/) antes de plantearte la infraestructura de AWS.
+Elige Nibomo si el resultado que quieres conservar es una colección más pequeña de tarjetas verificadas con anverso y reverso, y valoras más el FSRS documentado, guardar los cambios primero en local, el contenido exportable de las tarjetas, el código abierto, el autoalojamiento o el acceso para agentes que la variedad de formatos de examen. Empieza con la [aplicación alojada y la guía de introducción](/docs/getting-started/) antes de plantearte la infraestructura de AWS.
 
-También puede tener sentido usar las dos. Deja que Knowt convierta material original desordenado en notas y actividades variadas; después, traslada manualmente a Flashcards solo los datos estables que quieras recordar durante meses. No hay una transferencia sin pérdidas documentada entre ambas, así que conserva la fuente, verifica las tarjetas y asume que el historial de repasos no se trasladará.
+También puede tener sentido usar las dos. Deja que Knowt convierta material original desordenado en notas y actividades variadas; después, traslada manualmente a Nibomo solo los datos estables que quieras recordar durante meses. No hay una transferencia sin pérdidas documentada entre ambas, así que conserva la fuente, verifica las tarjetas y asume que el historial de repasos no se trasladará.
 
 Si ninguna de las dos opciones te convence, compara una selección más amplia de [aplicaciones de flashcards de código abierto](/blog/best-open-source-flashcard-apps-2026/) o ejecuta la [prueba de flashcards sin conexión](/blog/best-offline-flashcards-app/) con las herramientas que ya tengas en tu lista. La alternativa a Knowt adecuada no es la que presenta la tabla de funciones más larga. Es la que funciona en tu sesión de estudio real, con tu conexión a internet real y con un plan de salida que también sea realista.

@@ -273,7 +273,7 @@ Yo los mantendría fuera del mazo permanente de memoria. Usa una capa temporal p
 
 Etiquétalos con `needs-recheck` y verifícalos contra las páginas oficiales de CFA Institute antes de tomar decisiones. Tu mazo de largo plazo debería contener objetivos de recuperación estables. Tus recordatorios administrativos deberían seguir siendo fáciles de auditar.
 
-## Dónde encaja Flashcards en este flujo CFA
+## Dónde encaja Nibomo en este flujo CFA
 
 [Nibomo](https://nibomo.com/) encaja en este flujo porque soporta las piezas concretas que necesita un mazo CFA sin fingir que reemplaza los materiales de CFA Institute:
 

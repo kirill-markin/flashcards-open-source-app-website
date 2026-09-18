@@ -190,7 +190,7 @@ Si desea esa comparación con más detalle, este artículo complementario va má
 
 - [FSRS vs SM-2 en 2026: ¿Qué algoritmo de repetición espaciada le ayuda a recordar más?](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
-## Dónde encaja Flashcards en este flujo de trabajo
+## Dónde encaja Nibomo en este flujo de trabajo
 
 [Nibomo](https://nibomo.com/) es una buena opción para **convertir notas de Notion en tarjetas didácticas** porque el producto cubre las partes que las personas normalmente tienen que unir manualmente:
 
@@ -205,7 +205,7 @@ Esa combinación importa más de lo que la gente admite.
 
 Muchas herramientas son buenas en el momento de la transferencia y débiles en todo lo posterior. Aparecen las cartas. Excelente. Entonces todavía necesitas un lugar confiable para editarlos, estudiarlos y mantenerlos dentro de un ciclo de revisión real.
 
-Ahí es donde Flashcards se siente más como un flujo de trabajo y menos como un truco.
+Ahí es donde Nibomo se siente más como un flujo de trabajo y menos como un truco.
 
 ## Esto es diferente de las notas genéricas a las tarjetas didácticas.
 
@@ -213,7 +213,7 @@ Hay superposición, pero la intención de búsqueda no es idéntica.
 
 Las personas que buscan **convertir notas de Notion en tarjetas didácticas** ya eligieron un entorno de notas. Por lo general, quieren ayuda para pasar de ese entorno al recuerdo activo sin reconstruir todo desde cero.
 
-Eso hace que el flujo de trabajo de exportación y borrador sea especialmente práctico. Respeta el hecho de que Notion todavía está haciendo su trabajo como hogar de notas, mientras que Flashcards se hace cargo de la parte para la que Notion realmente no está diseñado: revisión de repeticiones espaciadas.
+Eso hace que el flujo de trabajo de exportación y borrador sea especialmente práctico. Respeta el hecho de que Notion todavía está haciendo su trabajo como hogar de notas, mientras que Nibomo se hace cargo de la parte para la que Notion realmente no está diseñado: revisión de repeticiones espaciadas.
 
 Si su material fuente es texto sin formato en lugar de un espacio de trabajo de Notion, este artículo complementario es la mejor opción:
 
@@ -241,7 +241,7 @@ Notion sigue siendo la herramienta de notas.
 
 La IA se encarga de la redacción administrativa.
 
-Flashcards maneja el sistema de revisión.
+Nibomo maneja el sistema de revisión.
 
 ## La mejor regla
 

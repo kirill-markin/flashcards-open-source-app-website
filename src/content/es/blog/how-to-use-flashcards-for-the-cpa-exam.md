@@ -231,7 +231,7 @@ Si quieres más detalle sobre la parte de programación, éste es el complemento
 
 - [Cómo estudiar para un examen con FSRS en 2026: crea un plan de flashcards que puedas terminar antes del día del examen](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)
 
-## Dónde encaja Flashcards en este flujo de trabajo del CPA
+## Dónde encaja Nibomo en este flujo de trabajo del CPA
 
 Si quieres llevar esto dentro de [Nibomo](https://nibomo.com/), la parte útil no es una promesa vaga de que la IA va a hacerte aprobar el examen CPA por arte de magia.
 

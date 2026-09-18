@@ -231,7 +231,7 @@ Eso importa porque:
 - una autoevaluación turbia hace que los intervalos sean menos fiables
 - las calificaciones repetidas de "casi" pueden dejar una tarjeta floja en un punto medio muy molesto
 
-Esto también importa en Flashcards, porque la app usa repaso FSRS con `Again`, `Hard`, `Good` y `Easy`. Los toques repetidos de `Again` no son vergonzosos. Son datos. La tarjeta te está pidiendo edición.
+Esto también importa en Nibomo, porque la app usa repaso FSRS con `Again`, `Hard`, `Good` y `Easy`. Los toques repetidos de `Again` no son vergonzosos. Son datos. La tarjeta te está pidiendo edición.
 
 ## Un bucle semanal simple de limpieza de leeches
 
@@ -246,9 +246,9 @@ Una o dos veces por semana:
 
 Con eso basta para la mayoría de los mazos. No necesitas una gran taxonomía, un panel de leeches ni perder un fin de semana entero gestionando el mazo. Necesitas el hábito de negarte a mantener tarjetas malas en circulación.
 
-## Cómo manejar tarjetas de fallos repetidos en Flashcards
+## Cómo manejar tarjetas de fallos repetidos en Nibomo
 
-Si usas Flashcards en concreto, el flujo es bastante directo:
+Si usas Nibomo en concreto, el flujo es bastante directo:
 
 1. repasa normalmente con calificaciones FSRS honestas
 2. cuando la misma tarjeta siga fallando, edita la tarjeta de anverso/reverso en vez de confiar en que un repaso más la arreglará

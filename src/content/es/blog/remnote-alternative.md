@@ -19,7 +19,7 @@ RemNote llama **Flashcards Only** («Solo tarjetas») a su exportación para Ank
 
 La mejor **alternativa a RemNote** es la que resuelve tu motivo para cambiar sin quitarte por el camino la parte de RemNote que todavía funciona. Para algunas personas, el problema es el precio. Para otras, son los archivos locales normales, un sistema de tarjetas más completo o un código fuente que puedan ejecutar por su cuenta.
 
-> **Aviso:** Soy Kirill Markin y desarrollo [Nibomo](/es/), uno de los productos que se comparan aquí. Flashcards no sustituye a RemNote por completo. RemNote ofrece el flujo integrado de notas y PDF más sólido de esta comparación, mientras que Anki tiene el sistema de tarjetas y los formatos de migración más maduros.
+> **Aviso:** Soy Kirill Markin y desarrollo [Nibomo](/es/), uno de los productos que se comparan aquí. Nibomo no sustituye a RemNote por completo. RemNote ofrece el flujo integrado de notas y PDF más sólido de esta comparación, mientras que Anki tiene el sistema de tarjetas y los formatos de migración más maduros.
 
 **Datos y precios comprobados:** 31 de agosto de 2026. Los importes indicados corresponden a los precios públicos de EE. UU. y a la facturación anual cuando así se especifica; los impuestos, la región, las tiendas de aplicaciones y las condiciones de la beta pueden cambiar el precio.
 
@@ -31,7 +31,7 @@ La mejor **alternativa a RemNote** es la que resuelve tu motivo para cambiar sin
 - **Un flujo de tarjetas demasiado ligado a las notas:** Prueba Anki. Allí, las tarjetas, las plantillas, las importaciones y FSRS pueden ocupar el centro del sistema.
 - **Archivos locales de notas en Markdown:** Divide el trabajo entre Obsidian para las notas y Anki para los repasos. La integración es menor, pero queda mucho más claro dónde están tus datos y quién los controla.
 - **Notas conectadas de código abierto, con PDF y tarjetas integradas:** Logseq es la opción más parecida, con una salvedad importante en 2026: su nueva versión de base de datos está en beta, su nueva app para iOS y la sincronización en tiempo real están en fase alfa, y su nueva app para Android todavía no está disponible para pruebas.
-- **Código fuente y autoalojamiento para un sistema centrado en tarjetas:** Plantéate Flashcards si te bastan las tarjetas de anverso y reverso, aceptas empezar con una programación nueva y estás dispuesto a asumir una carga operativa considerable en AWS.
+- **Código fuente y autoalojamiento para un sistema centrado en tarjetas:** Plantéate Nibomo si te bastan las tarjetas de anverso y reverso, aceptas empezar con una programación nueva y estás dispuesto a asumir una carga operativa considerable en AWS.
 - **Lectura de PDF, subrayados enlazados y tarjetas en un solo lugar:** Quédate con RemNote. Ninguna de las otras opciones reproduce bien ese flujo de trabajo.
 
 Es fácil pasar por alto esta última respuesta. Cambiar no es avanzar si la alternativa resuelve una preocupación por la licencia, pero estropea la sesión de estudio de mañana.
@@ -48,7 +48,7 @@ Es fácil pasar por alto esta última respuesta. Cambiar no es avanzar si la alt
 
 Esta tabla no pretende puntuar las funciones. Un estudiante que trabaja mucho con PDF puede perder más al cambiar a la opción «más abierta» de lo que gana con su licencia. Alguien con un mazo sencillo de vocabulario quizá esté pagando por un sistema de notas que ya no usa. Empieza por la fila que refleje lo que necesitas y después pon a prueba los límites de la migración.
 
-Gratis y de código abierto son dos filtros distintos. RemNote Free y Obsidian no cuestan nada en su versión básica, pero son productos propietarios. El núcleo de Anki para escritorio, Logseq y Flashcards tienen el código fuente publicado; AnkiMobile sigue siendo una app de pago para iOS, y autoalojar Flashcards también genera costes en la nube.
+Gratis y de código abierto son dos filtros distintos. RemNote Free y Obsidian no cuestan nada en su versión básica, pero son productos propietarios. El núcleo de Anki para escritorio, Logseq y Nibomo tienen el código fuente publicado; AnkiMobile sigue siendo una app de pago para iOS, y autoalojar Nibomo también genera costes en la nube.
 
 ## Quédate con RemNote cuando el producto sea el flujo conectado
 
@@ -90,15 +90,15 @@ La portabilidad exige la misma precisión. La [documentación actual sobre la ex
 
 Por tanto, Logseq es la opción que conviene evaluar cuando importan a la vez el código abierto, las notas enlazadas, los PDF y las tarjetas integradas. No es la opción que usaría para trasladar en un solo día una base de conocimientos crítica para unos estudios de Medicina en agosto de 2026. Primero pruébalo en paralelo con RemNote y espera a que la transición actual se estabilice en los dispositivos que realmente usas.
 
-## Flashcards: código abierto en toda la pila, modelo de estudio limitado
+## Nibomo: código abierto en toda la pila, modelo de estudio limitado
 
-Flashcards plantea casi el equilibrio opuesto a RemNote. Sus [funciones](/es/features/) se centran en tarjetas de anverso y reverso en Markdown, mazos, etiquetas, contenido multimedia, repasos con FSRS, clientes diseñados para funcionar sin conexión y creación de borradores de tarjetas asistida por IA. No tiene una base de conocimientos de notas conectadas, lector de PDF, app nativa de escritorio ni importador directo de RemNote.
+Nibomo plantea casi el equilibrio opuesto a RemNote. Sus [funciones](/es/features/) se centran en tarjetas de anverso y reverso en Markdown, mazos, etiquetas, contenido multimedia, repasos con FSRS, clientes diseñados para funcionar sin conexión y creación de borradores de tarjetas asistida por IA. No tiene una base de conocimientos de notas conectadas, lector de PDF, app nativa de escritorio ni importador directo de RemNote.
 
 El código abierto abarca toda la pila: el repositorio con licencia MIT incluye web, iOS, Android, autenticación, backend, sincronización e infraestructura. La [guía oficial de autoalojamiento para producción](/es/docs/self-hosting/) usa AWS CDK. No es una aplicación local que se instala con un solo comando. Quien lo despliega se hace cargo de los costes de la nube, los secretos, las migraciones, la monitorización, las copias de seguridad, las pruebas de restauración y las apps móviles, que deben compilarse por separado.
 
-La migración es una limitación aún mayor para quien ya usa RemNote. Flashcards importa sus propios paquetes `flashcards.zip`, no archivos Markdown de RemNote ni `.apkg` de Anki. Esos paquetes contienen tarjetas, etiquetas y contenido multimedia referenciado, pero no el historial de repasos, el estado de FSRS, la configuración del espacio de trabajo, la estructura completa de los mazos ni las cuentas. El chat con IA puede convertir el texto exportado en borradores de tarjetas para que los revises; eso reconstruye el contenido, no continúa la colección anterior. La [guía de migración desde TXT](/es/blog/migrate-from-anki-txt-export-open-source-flashcards/) muestra paso a paso ese límite con pérdidas.
+La migración es una limitación aún mayor para quien ya usa RemNote. Nibomo importa sus propios paquetes `flashcards.zip`, no archivos Markdown de RemNote ni `.apkg` de Anki. Esos paquetes contienen tarjetas, etiquetas y contenido multimedia referenciado, pero no el historial de repasos, el estado de FSRS, la configuración del espacio de trabajo, la estructura completa de los mazos ni las cuentas. El chat con IA puede convertir el texto exportado en borradores de tarjetas para que los revises; eso reconstruye el contenido, no continúa la colección anterior. La [guía de migración desde TXT](/es/blog/migrate-from-anki-txt-export-open-source-flashcards/) muestra paso a paso ese límite con pérdidas.
 
-Elige Flashcards para un sistema de tarjetas nuevo o sencillo cuando te importe acceder al código de toda la pila. Conserva RemNote para un estudio conectado y elige Anki cuando sean prioritarias la fidelidad de la migración o una estructura de tarjetas avanzada. Para una comparación más específica de sistemas de tarjetas, consulta [Anki vs Nibomo](/es/blog/anki-vs-flashcards-open-source-app/) y la [guía de apps de flashcards de código abierto](/es/blog/best-open-source-flashcard-apps-2026/).
+Elige Nibomo para un sistema de tarjetas nuevo o sencillo cuando te importe acceder al código de toda la pila. Conserva RemNote para un estudio conectado y elige Anki cuando sean prioritarias la fidelidad de la migración o una estructura de tarjetas avanzada. Para una comparación más específica de sistemas de tarjetas, consulta [Anki vs Nibomo](/es/blog/anki-vs-flashcards-open-source-app/) y la [guía de apps de flashcards de código abierto](/es/blog/best-open-source-flashcard-apps-2026/).
 
 ## Qué no se migrará bien desde RemNote
 
@@ -134,8 +134,8 @@ Conserva las exportaciones de origen incluso después del cambio. Una importaci�
 - **Elige Anki** si las tarjetas, las plantillas, los controles de FSRS y la fidelidad de la migración son lo primero.
 - **Elige Obsidian más Anki** si tener archivos locales de notas en Markdown justifica usar dos herramientas.
 - **Evalúa Logseq** si necesitas notas conectadas de código abierto y tarjetas integradas, pero no lo uses para nada crítico mientras su base de datos y su sistema de sincronización actuales sigan en fase beta y alfa.
-- **Elige Flashcards** si un sistema nuevo y sencillo de tarjetas y el acceso al código de toda la pila pesan más que las notas, los PDF o la continuidad de la programación.
+- **Elige Nibomo** si un sistema nuevo y sencillo de tarjetas y el acceso al código de toda la pila pesan más que las notas, los PDF o la continuidad de la programación.
 
-Desarrollo Flashcards y, aun así, mantendría RemNote para un cuaderno conectado que dependa mucho de PDF o elegiría Anki para una colección compleja y consolidada. Flashcards es la opción más limitada: tarjetas de anverso y reverso, una pila tecnológica abierta y una programación nueva.
+Desarrollo Nibomo y, aun así, mantendría RemNote para un cuaderno conectado que dependa mucho de PDF o elegiría Anki para una colección compleja y consolidada. Nibomo es la opción más limitada: tarjetas de anverso y reverso, una pila tecnológica abierta y una programación nueva.
 
-Cuando sepas qué límite puedes aceptar, prueba solo esa opción. Si Flashcards encaja, la [guía de primeros pasos](/es/docs/getting-started/) explica cómo empezar tanto con la versión alojada como con la autoalojada. Si no encaja, seguir con RemNote también es una decisión válida.
+Cuando sepas qué límite puedes aceptar, prueba solo esa opción. Si Nibomo encaja, la [guía de primeros pasos](/es/docs/getting-started/) explica cómo empezar tanto con la versión alojada como con la autoalojada. Si no encaja, seguir con RemNote también es una decisión válida.
