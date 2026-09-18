@@ -104,12 +104,12 @@ So erstellst du aus dem Quizlet-Export eine verlässliche CSV-Datei:
 
 Ein Tabellenprogramm kann die Anführungszeichen ergänzen, die CSV benötigt. Tabulatoren pauschal durch Kommas zu ersetzen schafft das nicht zuverlässig.
 
-## Nutze den Text in Flashcards zunächst als zu prüfenden Entwurf
+## Nutze den Text in Nibomo zunächst als zu prüfenden Entwurf
 
 [Nibomo](/features/) hat keinen direkten Quizlet-Importer. In der Web-App kannst du eine TXT- oder CSV-Datei an den KI-Chat anhängen und daraus Kartenentwürfe erstellen lassen. Das ist keine verlustfreie Migration.
 
 1. Bewahre die rohe Quizlet-Datei außerhalb der App auf.
-2. Hänge die bereinigte TXT-Datei oder die gezielt erstellte CSV-Datei im KI-Chat von Flashcards an.
+2. Hänge die bereinigte TXT-Datei oder die gezielt erstellte CSV-Datei im KI-Chat von Nibomo an.
 3. Erkläre dem Assistenten, welche Felder und welches Trennzeichen die Datei verwendet.
 4. Bitte zunächst um eine kleine Vorschau und sage ausdrücklich, dass noch keine Karten gespeichert werden sollen.
 5. Vergleiche die vorgeschlagene Kartenzahl sowie Vorder- und Rückseiten mit der Arbeitsdatei.
@@ -121,7 +121,7 @@ Der [Leitfaden für den Einstieg](/docs/getting-started/) beschreibt den KI-Chat
 
 Das ist praktisch, wenn die alten Karten ohnehin bereinigt werden müssen. Es beweist allerdings nicht, dass jede Zeile korrekt übertragen wurde. Arbeite deshalb die Prüfliste in [So korrigierst du KI-generierte Flashcards](/blog/how-to-fix-ai-flashcards/) durch und teste einen kleinen Kartensatz, bevor du den Rest erstellst.
 
-In Flashcards erstellte Karten beginnen mit einem neuen Lernverlauf. Der Quizlet-Text enthält weder die bisherigen Wiederholungen noch den Planungsstatus, die für die Fortsetzung des alten Wiederholungsplans nötig wären.
+In Nibomo erstellte Karten beginnen mit einem neuen Lernverlauf. Der Quizlet-Text enthält weder die bisherigen Wiederholungen noch den Planungsstatus, die für die Fortsetzung des alten Wiederholungsplans nötig wären.
 
 > **Hinweis in eigener Sache:** Ich entwickle Nibomo. Dieser Ablauf beschreibt die aktuellen Grenzen des Produkts; er verspricht keine vollständige Quizlet-Kompatibilität.
 

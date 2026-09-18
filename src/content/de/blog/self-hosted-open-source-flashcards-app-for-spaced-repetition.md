@@ -1,6 +1,6 @@
 ---
 title: "Selbst gehostete Open-Source-Lernkarten-App für Spaced Repetition"
-description: "Betreibe den Open-Source-Stack von Flashcards zur Entwicklung lokal oder stelle die dokumentierte Produktionsinfrastruktur mit AWS CDK bereit."
+description: "Betreibe den Open-Source-Stack von Nibomo zur Entwicklung lokal oder stelle die dokumentierte Produktionsinfrastruktur mit AWS CDK bereit."
 date: "2026-03-08"
 updated: "2026-07-30"
 image: "/home/app-screens-showcase-de.png"
@@ -13,13 +13,13 @@ keywords:
   - "KI-Lernkarten"
 ---
 
-Ja, Flashcards kann selbst gehostet werden. Der vollständige Anwendungs- und Infrastrukturcode steht unter der MIT-Lizenz als Open Source zur Verfügung. Du kannst die Dienste zur Entwicklung lokal ausführen oder den dokumentierten Produktions-Stack des Repositorys auf AWS bereitstellen. Wenn du keine Infrastruktur betreiben möchtest, steht weiterhin die [gehostete App](https://app.flashcards-open-source-app.com/) zur Verfügung.
+Ja, Nibomo kann selbst gehostet werden. Der vollständige Anwendungs- und Infrastrukturcode steht unter der MIT-Lizenz als Open Source zur Verfügung. Du kannst die Dienste zur Entwicklung lokal ausführen oder den dokumentierten Produktions-Stack des Repositorys auf AWS bereitstellen. Wenn du keine Infrastruktur betreiben möchtest, steht weiterhin die [gehostete App](https://app.flashcards-open-source-app.com/) zur Verfügung.
 
 ![Mobile Ansichten von Nibomo für Wiederholungen, Fortschritt, KI-Chat und Karten](/home/app-screens-showcase-de.png)
 
 ## Was selbst gehostet werden kann
 
-Das Repository enthält die Dienste und die Infrastruktur des zentralen Flashcards-Systems:
+Das Repository enthält die Dienste und die Infrastruktur des zentralen Nibomo-Systems:
 
 - die Web-App und die Admin-App
 - die Backend-API und den Dienst für passwortlose Authentifizierung
@@ -119,7 +119,7 @@ Die ausdrückliche Installation des Authentifizierungspakets ist derzeit bei ein
 
 ## Datenportabilität ist nützlich, aber bewusst begrenzt
 
-Der Paketimport und -export von Flashcards umfasst Karten, deren Tags und zugehörige Medien. **Nicht** übertragen werden der Wiederholungsverlauf, der Zustand des FSRS-Planers, Workspace-Einstellungen, vollständige Deckstrukturen oder Kontodaten.
+Der Paketimport und -export von Nibomo umfasst Karten, deren Tags und zugehörige Medien. **Nicht** übertragen werden der Wiederholungsverlauf, der Zustand des FSRS-Planers, Workspace-Einstellungen, vollständige Deckstrukturen oder Kontodaten.
 
 Dieser Unterschied ist wichtig, wenn du zwischen dem gehosteten Dienst und deiner eigenen Bereitstellung wechselst. Das portable Paket dient der Übertragung von Inhalten, nicht als vollständige Datenbank- oder Kontomigration. Für ein vollständiges betriebliches Backup muss der Betreiber einer selbst gehosteten Instanz auch die vom AWS-Stack erstellte PostgreSQL-Datenbank und den Medienspeicher verwalten.
 
@@ -138,7 +138,7 @@ KI ist bei der AWS-Bereitstellung optional. Der CDK-Stack stellt den asynchronen
 
 ## Ehrliche Beta- und Betriebsgrenzen
 
-Flashcards ist noch ein junges Produkt. Das Repository wird aktiv weiterentwickelt, Migrationen und Bereitstellungskonfiguration können sich ändern, und Self-Hosting setzt voraus, dass du eine AWS-Anwendung betreiben kannst.
+Nibomo ist noch ein junges Produkt. Das Repository wird aktiv weiterentwickelt, Migrationen und Bereitstellungskonfiguration können sich ändern, und Self-Hosting setzt voraus, dass du eine AWS-Anwendung betreiben kannst.
 
 Der CDK-Stack enthält Backups, Alarme, Geheimnisse und Automatisierung für die Bereitstellung, aber diese Komponenten benötigen weiterhin einen Betreiber. Du solltest damit rechnen:
 
@@ -155,7 +155,7 @@ Wenn dir diese Betriebsarbeit keinen Nutzen bringt, ist die gehostete App der ei
 
 Anki ist eine ausgereifte Open-Source-Lösung mit einem großen Ökosystem und leistungsfähigen Desktop-Abläufen. Quizlet ist ein verwalteter Dienst für Endverbraucher und ermöglicht Lernen mit wenig Einrichtungsaufwand. Beide können die richtige Wahl sein, je nachdem, ob du ein etabliertes lokales Werkzeug oder eine vollständig verwaltete Plattform bevorzugst.
 
-Flashcards verfolgt einen anderen Weg: ein offenes Repository für Web, mobile Apps, API und Infrastruktur rund um FSRS, Synchronisierung, KI-Abläufe, MCP und eine Self-Hosting-Option auf AWS. Das Projekt ist jünger als Anki und erfordert beim Self-Hosting erheblich mehr Betriebsaufwand als Quizlet. Du solltest es wählen, wenn diese Kombination zu deinen Anforderungen passt, und nicht, weil alle Lernenden einen Cloud-Stack betreiben sollten.
+Nibomo verfolgt einen anderen Weg: ein offenes Repository für Web, mobile Apps, API und Infrastruktur rund um FSRS, Synchronisierung, KI-Abläufe, MCP und eine Self-Hosting-Option auf AWS. Das Projekt ist jünger als Anki und erfordert beim Self-Hosting erheblich mehr Betriebsaufwand als Quizlet. Du solltest es wählen, wenn diese Kombination zu deinen Anforderungen passt, und nicht, weil alle Lernenden einen Cloud-Stack betreiben sollten.
 
 ## Probiere die gehostete App aus oder betreibe deinen eigenen Stack
 

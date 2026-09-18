@@ -141,7 +141,7 @@ Das ist die Version, der ich an einem Mittwochabend vertrauen würde, wenn ich k
 1. Einen kleinen Abschnitt des Google Docs einfrieren.
 2. Die Überschrift, den finalen Text und die Kommentare behalten, die echte Verwirrung sichtbar machen.
 3. Verwaltungsgeplänkel, Duplikate, Vorschlagsreste und unklare Autorenschaft löschen.
-4. Den bereinigten Abschnitt in den Flashcards-KI-Chat kopieren oder eine exportierte Datei anhängen, wenn sich das besser prüfen lässt.
+4. Den bereinigten Abschnitt in den Nibomo-KI-Chat kopieren oder eine exportierte Datei anhängen, wenn sich das besser prüfen lässt.
 5. Um schlichte Vorder-/Rückseite-Karten bitten, mit genau einem Fakt, einer Unterscheidung oder einem Prozessschritt pro Karte.
 6. Schwache oder wiederholte Karten löschen, bevor sie überhaupt in die Wiederholung kommen.
 7. Lange Antworten umschreiben und überladene Karten aufteilen.
@@ -221,7 +221,7 @@ Ich würde die Ergebnisse meist so aufteilen:
 
 Du brauchst am ersten Tag keine schöne Taxonomie. Du brauchst nur genug Struktur, damit aus einem kollaborativen Dokument kein einziges riesiges undifferenziertes Deck wird.
 
-## Wo Flashcards nach dem Kopieren oder Exportieren hineinpasst
+## Wo Nibomo nach dem Kopieren oder Exportieren hineinpasst
 
 Sobald der nützliche Teil des Google Docs sauberer vorliegt, übernimmt Nibomo den Teil, der wirklich zählt:
 

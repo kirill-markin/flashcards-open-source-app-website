@@ -258,7 +258,7 @@ Wenn du die Planungsseite ausführlicher willst, passen diese beiden Artikel am 
 - [Wie du 2026 mit FSRS für eine Prüfung lernst](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)
 - [FSRS vs. SM-2 im Jahr 2026](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
-## Wie Flashcards in diesen Digital-SAT-Workflow passt
+## Wie Nibomo in diesen Digital-SAT-Workflow passt
 
 [Nibomo](https://nibomo.com/) passt gut zu **Digital SAT Flashcards**, weil das aktuelle Produkt die Teile bereits unterstützt, von denen dieser Workflow abhängt:
 

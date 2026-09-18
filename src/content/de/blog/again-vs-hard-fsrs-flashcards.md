@@ -189,7 +189,7 @@ Formuliere die Karte neu, teile sie auf, lerne sie erneut oder entferne sie, sta
 
 FSRS plant mit dem Signal, das du ihm gibst. Es kann weder einen unklaren Prompt reparieren noch entscheiden, welches fehlende Detail wichtig war oder ob deine gesprochene Antwort sachlich stimmt.
 
-## So funktionieren die vier FSRS-Bewertungen in Flashcards
+## So funktionieren die vier FSRS-Bewertungen in Nibomo
 
 Zu den [Funktionen von Nibomo](/de/features/) gehören Vorder-/Rückseiten-Wiederholungen mit FSRS. Du sendest Again, Hard, Good oder Easy, und das Backend berechnet aus dieser Bewertung den nächsten Fälligkeitszeitpunkt.
 

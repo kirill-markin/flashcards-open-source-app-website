@@ -171,17 +171,17 @@ Angenommen, eine Karte fragt: „Erkläre das Immunsystem.“ Wiederholte Again-
 
 Diese Grenze hilft bei der Diagnose von Lernproblemen. Seltsames langfristiges Timing deutet auf Einstellungen, die Bewertungshistorie oder die Implementierung hin. Wenn du ständig mit der Kartenrückseite haderst, liegt es eher an der Kartenqualität. Eine riesige Warteschlange kann vom Zustrom neuer Karten kommen und nicht vom FSRS-Algorithmus selbst.
 
-## So implementiert Flashcards FSRS
+## So implementiert Nibomo FSRS
 
 > **Offenlegung:** Ich bin Kirill Markin und entwickle [Nibomo](/de/features/). Dieser Abschnitt beschreibt das veröffentlichte Produktverhalten. Damit behaupte ich nicht, dass jeder Lernende seine bisherige App verlassen sollte.
 
-Flashcards implementiert derzeit **FSRS-6** und bildet dafür den offiziellen Scheduling-Ablauf von `ts-fsrs` 5.2.3 nach. Die App verwendet die vier Standardbewertungen Again, Hard, Good und Easy. Die Scheduler im Backend sowie unter iOS und Android verhalten sich gleich; der Wiederholungsablauf im Web nutzt den Backend-Scheduler.
+Nibomo implementiert derzeit **FSRS-6** und bildet dafür den offiziellen Scheduling-Ablauf von `ts-fsrs` 5.2.3 nach. Die App verwendet die vier Standardbewertungen Again, Hard, Good und Easy. Die Scheduler im Backend sowie unter iOS und Android verhalten sich gleich; der Wiederholungsablauf im Web nutzt den Backend-Scheduler.
 
 Standardmäßig gelten eine Desired Retention von `0.90`, Learning Steps von 1 und 10 Minuten, ein zehnminütiger Relearning Step und ein Maximum Interval von 36.500 Tagen; Fuzz ist aktiviert. Workspace-Inhaber können diese Einstellungen anpassen. Änderungen gelten nur für zukünftige Wiederholungen; bestehende Fälligkeitstermine werden nicht unbemerkt neu berechnet.
 
 In v1 sind die offiziellen FSRS-6-Standardgewichte fest hinterlegt. Nutzer können sie nicht konfigurieren, und das Produkt passt die FSRS-Parameter derzeit nicht individuell an die Wiederholungshistorie einzelner Nutzer an. Diese Einschränkung ist beim Vergleich mit dem Optimizer von Anki wichtig.
 
-Die öffentliche [Spezifikation des FSRS-Schedulings von Flashcards](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/docs/fsrs-scheduling-logic.md) dokumentiert das aktuelle Zustandsmodell, die Standardwerte, die Grenzen der Einstellungen und die Regeln für plattformübergreifend einheitliches Verhalten. Die umfassendere [Features-Seite](/de/features/) zeigt, wie der Scheduler in das Produkt eingebunden ist, statt FSRS als eigenständige App darzustellen.
+Die öffentliche [Spezifikation des FSRS-Schedulings von Nibomo](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/docs/fsrs-scheduling-logic.md) dokumentiert das aktuelle Zustandsmodell, die Standardwerte, die Grenzen der Einstellungen und die Regeln für plattformübergreifend einheitliches Verhalten. Die umfassendere [Features-Seite](/de/features/) zeigt, wie der Scheduler in das Produkt eingebunden ist, statt FSRS als eigenständige App darzustellen.
 
 ## FAQ zu FSRS
 

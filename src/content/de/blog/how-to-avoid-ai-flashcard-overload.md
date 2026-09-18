@@ -181,7 +181,7 @@ Das ist schon das ganze System. Kein heroischer Konsistenzplan. Keine riesige Pr
 
 Die langweilige Version funktioniert. Wenn das übernommene Deck klein und sauber bleibt, überlebt die Gewohnheit meistens. Wenn KI das Deck flutet, nur weil der erste Entwurf beeindruckend aussah, pflegst du am Ende eine Warteschlange statt daraus zu lernen.
 
-## Wie Flashcards diesen Workflow unterstützt
+## Wie Nibomo diesen Workflow unterstützt
 
 [Nibomo](/de/features/) passt gut zu diesem Workflow, weil das Produkt den ganzen Weg an einer Stelle abdeckt:
 

@@ -193,13 +193,13 @@ Das ist die saubere Übergabe:
 
 Halte die Karte klein. Lass die Probeklausur größer bleiben.
 
-## Wo Flashcards hineinpasst
+## Wo Nibomo hineinpasst
 
 [Nibomo](/de/features/) passt gut nach dem Schritt mit der Probeklausur.
 
-Das Produkt sollte nicht als magischer Probeklausur-Generator beschrieben werden. Der präzisere Ablauf ist: Nutze das KI-Tool deiner Wahl, um aus deinen Notizen eine Probeklausur zu erzeugen, und übernimm danach nur die überlebenden Schwachstellen in Flashcards.
+Das Produkt sollte nicht als magischer Probeklausur-Generator beschrieben werden. Der präzisere Ablauf ist: Nutze das KI-Tool deiner Wahl, um aus deinen Notizen eine Probeklausur zu erzeugen, und übernimm danach nur die überlebenden Schwachstellen in Nibomo.
 
-Diese Übergabe funktioniert gut, weil Flashcards dir schon die praktische nächste Ebene gibt:
+Diese Übergabe funktioniert gut, weil Nibomo dir schon die praktische nächste Ebene gibt:
 
 - KI-Chat mit Workspace-Daten, Dateianhängen und eingefügtem Text zum Entwerfen oder Aufräumen von Karten
 - schlichte Vorder- und Rückseitenkarten statt aufgeblähter Lernartefakte
@@ -213,7 +213,7 @@ So bleibt der Ablauf ehrlich:
 
 1. Erzeuge die Probeklausur im externen KI-Tool, das du gern nutzt.
 2. Geh die Fehler und langsamen Antworten durch.
-3. Übernimm nur die nützlichen Schwachstellen in Flashcards.
+3. Übernimm nur die nützlichen Schwachstellen in Nibomo.
 4. Räume sie in schlichte Vorder- und Rückseitenkarten auf.
 5. Wiederhole das finale Set mit FSRS.
 

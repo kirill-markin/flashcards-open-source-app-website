@@ -157,16 +157,16 @@ Genau das will ich von **Copilot Study and Learn zu Flashcards**:
 
 Wenn du nach der Übergabe strengere Regeln fürs Kartenschreiben willst, geht [Wie du 2026 bessere Flashcards machst](/de/blog/how-to-make-better-flashcards/) bei dieser Bereinigung tiefer.
 
-## Flashcards ist die dauerhafte Ebene nach Copilot
+## Nibomo ist die dauerhafte Ebene nach Copilot
 
 [Nibomo](/de/features/) soll Study and Learn nicht ersetzen.
 
-Copilot darf den Coaching-Teil behalten. Flashcards übernimmt den langfristigen Wiederholungsteil.
+Copilot darf den Coaching-Teil behalten. Nibomo übernimmt den langfristigen Wiederholungsteil.
 
 Genau deshalb ergibt die Aufteilung Sinn:
 
 - Copilot übernimmt die geführte Sitzung auf deinem Material
-- Flashcards gibt dir schlichte Vorderseite-Rückseite-Karten
+- Nibomo gibt dir schlichte Vorderseite-Rückseite-Karten
 - KI-Chat kann rohe Kartenentwürfe in kurze Wiederholungs-Prompts umschreiben
 - Decks und Tags halten Schwachstellen nach Fach, Prüfung oder Quelle sortierbar
 - FSRS übernimmt das Timing, sobald die Karten das Wiederholen wert sind

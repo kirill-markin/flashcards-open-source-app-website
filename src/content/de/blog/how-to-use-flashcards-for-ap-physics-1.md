@@ -266,7 +266,7 @@ Halte die Reihenfolge deshalb einfach:
 
 Wenn du die Scheduling-Seite ausführlicher willst, ist [Wie du 2026 mit FSRS für eine Prüfung lernst](/blog/how-to-study-for-an-exam-with-fsrs/) der direkte Begleitartikel.
 
-## Wo Flashcards in diesen AP-Physics-1-Workflow passt
+## Wo Nibomo in diesen AP-Physics-1-Workflow passt
 
 [Nibomo](https://nibomo.com/) passt gut zu diesem Workflow, wenn du Karten zu Diagrammen, Kraftfehlern und FRQ-Reparaturen an einem Ort halten willst, statt sie über Notizen, Screenshots und alte Korrekturen zu verteilen.
 

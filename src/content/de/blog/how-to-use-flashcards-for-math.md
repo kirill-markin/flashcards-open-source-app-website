@@ -173,7 +173,7 @@ Der Haken ist, dass auch der Scheduler saubere Karten braucht. Wenn ein Prompt v
 
 Kleinere Karten machen FSRS viel nützlicher. Wenn du an der Scheduling-Seite feilen willst, nachdem die Kartenseite unter Kontrolle ist, ist [FSRS-Einstellungen 2026: Desired Retention, Learning Steps und Wiederholungslast ohne Feintuning-Falle](https://nibomo.com/blog/fsrs-settings/) der richtige nächste Text.
 
-## Wo Flashcards in diesen Workflow passt
+## Wo Nibomo in diesen Workflow passt
 
 [Nibomo](https://nibomo.com/) passt gut zu dieser Art des Mathelernens, weil das Produkt genau die Teile unterstützt, die nach der Identifikation des Gedächtnisziels zählen:
 

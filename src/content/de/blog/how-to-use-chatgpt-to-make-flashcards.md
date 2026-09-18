@@ -229,7 +229,7 @@ Schluss hinzu.
 
 Einfache Blöcke aus Vorder- und Rückseite lassen sich leicht prüfen und in die meisten Karteneditoren kopieren, auch wenn jede App eigene Importregeln hat. Benötigst du Tabulatoren, CSV oder ein anderes Format, fordere es erst an, nachdem du die aktuellen Anforderungen des Zielsystems geprüft hast. Bewahre eine unveränderte Textkopie auf, bis du kontrolliert hast, dass die Karten richtig gespeichert wurden.
 
-Die gehostete Flashcards-App bietet einen KI-Chat mit Dateianhängen; gespeicherte Karten haben getrennte Felder für Vorder- und Rückseite. Du prüfst den vorgeschlagenen Inhalt und entscheidest, was gespeichert wird. Du kannst dort den gesamten Ablauf zur Quellenprüfung durchführen oder die genehmigte ChatGPT-Ausgabe in den Karteneditor kopieren. Die [Funktionsübersicht](/de/features/) zeigt die aktuellen Produktbereiche.
+Die gehostete Nibomo-App bietet einen KI-Chat mit Dateianhängen; gespeicherte Karten haben getrennte Felder für Vorder- und Rückseite. Du prüfst den vorgeschlagenen Inhalt und entscheidest, was gespeichert wird. Du kannst dort den gesamten Ablauf zur Quellenprüfung durchführen oder die genehmigte ChatGPT-Ausgabe in den Karteneditor kopieren. Die [Funktionsübersicht](/de/features/) zeigt die aktuellen Produktbereiche.
 
 Wenn Codex oder ein anderer MCP-Client genehmigte Karten direkt speichern soll, nutze den separaten [Lernablauf mit ChatGPT und Codex](/de/blog/how-to-use-chatgpt-codex-for-studying/) und die [Dokumentation zum MCP-Connector](/de/docs/mcp-connector/). Diese Einrichtung braucht eigene Sicherheits- und Genehmigungsprüfungen; sie muss hier nicht wiederholt werden. Geh nicht davon aus, dass ein normaler ChatGPT-Chat direkten Zugriff auf deine Karteikartensammlung hat.
 
@@ -237,7 +237,7 @@ Wenn Codex oder ein anderer MCP-Client genehmigte Karten direkt speichern soll, 
 
 ChatGPT kann dich in einer Unterhaltung abfragen oder eine Wiederholung im Karteikartenstil erstellen. Keine dieser Aktionen plant deine Karten über längere Zeit. Sobald die genehmigten Karten in einer Karteikarten-App liegen, erledigst du dort die eigentlichen Wiederholungen: Rufe die Antwort ab, decke die Rückseite auf, bewerte das Ergebnis und lass den Algorithmus entscheiden, wann die Karte wiederkehrt.
 
-Flashcards verwendet FSRS für diese Planung. [FSRS im Vergleich mit SM-2](/de/blog/fsrs-vs-sm-2/) erklärt den Unterschied, falls dich die Details des Algorithmus interessieren. Der entscheidende Unterschied ist einfacher: ChatGPT entwirft Vorschläge und hilft dir beim Testen; die Karteikarten-App speichert den Wiederholungsverlauf und steuert den Wiederholungsplan.
+Nibomo verwendet FSRS für diese Planung. [FSRS im Vergleich mit SM-2](/de/blog/fsrs-vs-sm-2/) erklärt den Unterschied, falls dich die Details des Algorithmus interessieren. Der entscheidende Unterschied ist einfacher: ChatGPT entwirft Vorschläge und hilft dir beim Testen; die Karteikarten-App speichert den Wiederholungsverlauf und steuert den Wiederholungsplan.
 
 Diese Aufgabenteilung erleichtert auch Korrekturen. Findest du später einen Fehler in der Quelle oder gefällt dir die Formulierung nicht mehr, ändere oder lösche die gespeicherte Karte. Lass keine fragwürdige Antwort im Stapel, nur weil ihre Erstellung Zeit gekostet hat.
 

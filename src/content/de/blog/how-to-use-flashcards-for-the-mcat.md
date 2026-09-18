@@ -277,7 +277,7 @@ Wenn du den Aspekt Prüfungstiming genauer ansehen willst, lies als Nächstes:
 - [Wie du 2026 mit FSRS für eine Prüfung lernst](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)
 - [FSRS vs. SM-2 im Jahr 2026](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
-## Wie Flashcards in diesen MCAT-Workflow passt
+## Wie Nibomo in diesen MCAT-Workflow passt
 
 [Nibomo](https://nibomo.com/) passt gut zu dieser Art von MCAT-Workflow, weil das Produkt genau die Teile abdeckt, die viele Studierende sonst auf zu viele Tools verteilen.
 

@@ -227,7 +227,7 @@ Wenn du den Scheduling-Teil genauer verstehen willst, geht dieser Artikel tiefer
 
 - [FSRS vs SM-2 in 2026: Welcher Spaced-Repetition-Algorithmus hilft dir, mehr zu behalten?](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
-## Wo Flashcards in diesen Workflow passt
+## Wo Nibomo in diesen Workflow passt
 
 [Nibomo](https://nibomo.com/) passt gut zu diesem Workflow, weil das Produkt die praktischen Teile bereits abdeckt:
 

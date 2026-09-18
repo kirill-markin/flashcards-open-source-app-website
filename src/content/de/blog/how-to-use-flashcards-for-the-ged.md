@@ -254,7 +254,7 @@ FSRS hilft sehr, sobald die Karten klein und ehrlich sind. Leichte Karten treten
 
 Wenn du die Scheduling-Seite genauer sehen willst, ist [Wie du 2026 mit FSRS für eine Prüfung lernst](/de/blog/how-to-study-for-an-exam-with-fsrs/) die direkte Fortsetzung. Wenn deine Kartenzahl schon zu schnell wächst, ist [Wie viele neue Flashcards pro Tag im Jahr 2026?](/de/blog/how-many-new-flashcards-per-day/) die dringendere Lektüre.
 
-## Wo Flashcards in diesen Workflow passt
+## Wo Nibomo in diesen Workflow passt
 
 [Nibomo](/de/) passt gut zu diesem GED-Workflow, weil das Produkt bereits die langweiligen Teile abdeckt, die das System tragfähig machen:
 

@@ -217,7 +217,7 @@ Das Deck sollte kleiner werden, je besser dein Urteilsvermögen wird.
 
 Wenn du einen einfachen Test willst, frag dich: Wenn ich diese Karte verfehle, wird die nächste Chemieaufgabe dadurch leichter, dass ich sie korrigiere? Wenn die Antwort nein ist, sollte die Karte wahrscheinlich nicht bleiben.
 
-## Wo Flashcards in diesen Workflow passt
+## Wo Nibomo in diesen Workflow passt
 
 [Nibomo](https://nibomo.com/) passt gut zu diesem Workflow für fortgeschrittene Chemie, weil das Produkt die praktischen Teile schon unterstützt, sobald du das Gedächtnisziel sauber erkannt hast:
 

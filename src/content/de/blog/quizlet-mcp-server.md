@@ -77,16 +77,16 @@ Nibomo stellt einen Remote-MCP-Endpunkt bereit:
 
 Die [Dokumentation des MCP-Connectors](/docs/mcp-connector/) beschreibt sieben Tools: `list_workspaces`, `sql_query` für Lesezugriffe, `sql_execute` für Schreibzugriffe, `get_guide` für Referenz-Leitfäden sowie `next_review_card`, `reveal_answer` und `submit_review` für Wiederholungen. Interaktive MCP-Clients können die Verbindung per OAuth autorisieren. Terminal-Agenten können stattdessen bei der [Dokumentation der Agent API](/docs/api/) einsteigen und den dort beschriebenen HTTP-Ablauf verwenden.
 
-Damit wird Flashcards nicht zu einem Quizlet-Connector. Der unterstützte Ablauf sieht so aus:
+Damit wird Nibomo nicht zu einem Quizlet-Connector. Der unterstützte Ablauf sieht so aus:
 
 1. Exportiere den Text aus einem Quizlet-Set, das du selbst erstellt hast.
 2. Bewahre die Rohdatei auf und prüfe eine Arbeitskopie.
-3. Prüfe die zugeordneten Karten, bevor du sie in Flashcards speicherst.
-4. Verbinde den so angelegten Flashcards-Arbeitsbereich für künftige Lese- und Schreibzugriffe mit einem kompatiblen Client.
+3. Prüfe die zugeordneten Karten, bevor du sie in Nibomo speicherst.
+4. Verbinde den so angelegten Nibomo-Arbeitsbereich für künftige Lese- und Schreibzugriffe mit einem kompatiblen Client.
 
-Die einzelnen Schritte für Claude findest du unter [So verbindest du Flashcards über MCP mit Claude](/blog/how-to-connect-flashcards-to-claude-with-mcp/). Codex und andere Agenten können den dokumentierten MCP- oder Agent-API-Weg verwenden, den ihre jeweilige Umgebung unterstützt.
+Die einzelnen Schritte für Claude findest du unter [So verbindest du Nibomo über MCP mit Claude](/blog/how-to-connect-flashcards-to-claude-with-mcp/). Codex und andere Agenten können den dokumentierten MCP- oder Agent-API-Weg verwenden, den ihre jeweilige Umgebung unterstützt.
 
-Flashcards kann keine Quizlet-URL auslesen, kein Quizlet-Konto spiegeln, spätere Änderungen in Quizlet synchronisieren oder Bilder und Lernverläufe wiederherstellen, die im Export fehlen. Aus dem Material, das du überträgst, erstellt Flashcards eigene Karten und einen neuen Planungsstatus.
+Nibomo kann keine Quizlet-URL auslesen, kein Quizlet-Konto spiegeln, spätere Änderungen in Quizlet synchronisieren oder Bilder und Lernverläufe wiederherstellen, die im Export fehlen. Aus dem Material, das du überträgst, erstellt Nibomo eigene Karten und einen neuen Planungsstatus.
 
 Wenn du abwägst, ob sich dieser Tausch über den Agentenzugriff hinaus lohnt, hilft dir der [Vergleich mit der Open-Source-Alternative zu Quizlet](/blog/quizlet-alternative/).
 
@@ -94,7 +94,7 @@ Wenn du abwägst, ob sich dieser Tausch über den Agentenzugriff hinaus lohnt, h
 
 Eine öffentlich dokumentierte Schnittstelle räumt zwar einige Unklarheiten bei der Integration aus, macht aber nicht jede MCP-Aktion automatisch sicher. OAuth authentifiziert die Verbindung. Es garantiert weder, dass eine KI-generierte Karte korrekt ist, noch sorgt es dafür, dass abgerufene Kartendaten im Karteikartendienst bleiben. Ob eine Änderung deiner Absicht entspricht, entscheidet OAuth ebenfalls nicht.
 
-Flashcards trennt Lesevorgänge von seinen Schreib-Tools: `sql_execute` für Karten und Decks, `submit_review` für Wiederholungen. Die OAuth-Berechtigung gilt trotzdem für den gesamten Connector; deshalb hängen Toolsperren und Freigaberegeln vom jeweiligen Client ab. Beginne mit einem kleinen, nicht vertraulichen Arbeitsbereich. Lass den Agenten nur die Daten lesen, die er für seine Aufgabe braucht. Wenn der Client es unterstützt, verlange für jeden Schreibzugriff eine eigene Freigabe, und prüfe vor der Bestätigung sowohl den Arbeitsbereich als auch die vorgeschlagene Änderung.
+Nibomo trennt Lesevorgänge von seinen Schreib-Tools: `sql_execute` für Karten und Decks, `submit_review` für Wiederholungen. Die OAuth-Berechtigung gilt trotzdem für den gesamten Connector; deshalb hängen Toolsperren und Freigaberegeln vom jeweiligen Client ab. Beginne mit einem kleinen, nicht vertraulichen Arbeitsbereich. Lass den Agenten nur die Daten lesen, die er für seine Aufgabe braucht. Wenn der Client es unterstützt, verlange für jeden Schreibzugriff eine eigene Freigabe, und prüfe vor der Bestätigung sowohl den Arbeitsbereich als auch die vorgeschlagene Änderung.
 
 Verbinde keine privaten Lernmaterialien, bevor du die Aufbewahrungs- und Datenverarbeitungsregeln des KI-Clients geprüft hast. Das ausführliche Bedrohungsmodell findest du unter [Ist MCP für Flashcards sicher?](/blog/is-mcp-safe-for-flashcards/). Für die erste Übertragung genügt eine einfache Regel: Bewahre den Rohexport auf, prüfe einige Karten in der Vorschau, genehmige einen eng begrenzten Schreibvorgang und kontrolliere das Ergebnis in der Ziel-App, bevor du weitermachst.
 

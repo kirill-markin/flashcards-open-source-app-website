@@ -211,7 +211,7 @@ Wenn du Karten direkt aus KI-Prompts baust, passt dieser Begleitartikel ebenfall
 
 - [Wie du 2026 mit ChatGPT bessere Lernkarten erstellst: klarere Prompts, bessere Karten, bessere Wiederholung mit FSRS](https://nibomo.com/blog/how-to-use-chatgpt-to-make-flashcards/)
 
-## Warum Flashcards hier gut passt
+## Warum Nibomo hier gut passt
 
 [Nibomo](https://nibomo.com/) passt gut zu diesem Workflow, weil das Produkt beide Seiten des Problems abdeckt:
 

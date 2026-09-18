@@ -1,6 +1,6 @@
 ---
 title: "KI-Tutor für Karteikarten 2026: Fällige Karten per MCP abfragen lassen und FSRS-Wiederholungen speichern"
-description: "Verbinde Claude, ChatGPT oder Codex per MCP mit Flashcards. Der KI-Tutor fragt deine fälligen Karten ab, beurteilt jede Antwort und speichert die Bewertung als FSRS-Wiederholung."
+description: "Verbinde Claude, ChatGPT oder Codex per MCP mit Nibomo. Der KI-Tutor fragt deine fälligen Karten ab, beurteilt jede Antwort und speichert die Bewertung als FSRS-Wiederholung."
 date: "2026-07-15"
 updated: "2026-09-16"
 image: "/blog/ai-flashcard-tutor-due-cards.png"
@@ -15,9 +15,9 @@ keywords:
   - "FSRS-Wiederholung mit KI"
 ---
 
-Soll Claude dich deine fälligen Karten abfragen, liefert der Flashcards-Connector genau eine Frage: eine Karten-ID und den Text der Vorderseite. Die Rückseite steckt nicht darin. Sobald du geantwortet hast, holt der Tutor die gespeicherte Antwort, sagt dir, was dir gefehlt hat, und speichert Again, Hard, Good oder Easy als echte FSRS-Wiederholung. Synchronisiert dein Smartphone danach, hat die Karte dort schon ihren nächsten Fälligkeitstermin.
+Soll Claude dich deine fälligen Karten abfragen, liefert der Nibomo-Connector genau eine Frage: eine Karten-ID und den Text der Vorderseite. Die Rückseite steckt nicht darin. Sobald du geantwortet hast, holt der Tutor die gespeicherte Antwort, sagt dir, was dir gefehlt hat, und speichert Again, Hard, Good oder Easy als echte FSRS-Wiederholung. Synchronisiert dein Smartphone danach, hat die Karte dort schon ihren nächsten Fälligkeitstermin.
 
-Das kann ein **KI-Tutor für Karteikarten** heute mit Flashcards über MCP. Der Connector bringt drei Wiederholungs-Tools mit: `next_review_card`, `reveal_answer` und `submit_review`. Eine Wiederholung im Chat zählt deshalb genauso wie eine in der App. Frühere Fassungen dieser Anleitung beschrieben noch ein Quiz ohne Schreibzugriff, das du danach in der App noch einmal durchgehen musstest. Die Wiederholungs-Tools machen diesen Umweg überflüssig.
+Das kann ein **KI-Tutor für Karteikarten** heute mit Nibomo über MCP. Der Connector bringt drei Wiederholungs-Tools mit: `next_review_card`, `reveal_answer` und `submit_review`. Eine Wiederholung im Chat zählt deshalb genauso wie eine in der App. Frühere Fassungen dieser Anleitung beschrieben noch ein Quiz ohne Schreibzugriff, das du danach in der App noch einmal durchgehen musstest. Die Wiederholungs-Tools machen diesen Umweg überflüssig.
 
 Auf eine Sache solltest du achten: Die Bewertung übernimmt der Tutor. Standardmäßig nennt er sie samt kurzer Begründung und speichert sie, ohne dich um eine Bestätigung zu bitten. Eine gespeicherte Wiederholung lässt sich über diese Tools nicht mehr bearbeiten. Mitreden kannst du trotzdem bei jeder Bewertung, und diese Anleitung zeigt dir die drei Wege dafür.
 
@@ -37,7 +37,7 @@ Nach den Standardregeln folgen Schritt 4 und 5 direkt aufeinander. Der Tutor fra
 
 Zwischen den Schritten wird nichts reserviert. Baut ein Chat mittendrin die Verbindung neu auf, liefert `next_review_card` einfach wieder das, was gerade vorne in der Warteschlange steht, und das kann dieselbe Karte sein. Außerdem gibt es nur einen Weg, eine Wiederholung zu speichern. Die SQL-Tools können `review_events` lesen, aber weder in den Wiederholungsverlauf noch in den FSRS-Planungszustand schreiben. In deinen Zeitplan kommt eine Wiederholung also nur über `submit_review`.
 
-Die Bewertungsregeln liefert Flashcards selbst, der Tutor muss sich keine ausdenken. `get_guide` mit dem Thema `review_flow` gibt den vollständigen Wiederholungsablauf samt Bewertungsregeln zurück. Über MCP schickt außerdem jedes Wiederholungs-Tool diese Regeln in seinem Ergebnis noch einmal mit. So hängt eine lange Sitzung nicht davon ab, ob sich der Tutor an einen Leitfaden erinnert, den er vor zwanzig Minuten gelesen hat.
+Die Bewertungsregeln liefert Nibomo selbst, der Tutor muss sich keine ausdenken. `get_guide` mit dem Thema `review_flow` gibt den vollständigen Wiederholungsablauf samt Bewertungsregeln zurück. Über MCP schickt außerdem jedes Wiederholungs-Tool diese Regeln in seinem Ergebnis noch einmal mit. So hängt eine lange Sitzung nicht davon ab, ob sich der Tutor an einen Leitfaden erinnert, den er vor zwanzig Minuten gelesen hat.
 
 Weil zuerst nur die Vorderseite zu sehen ist, wird jede Karte zu einem Abrufversuch. In einer randomisierten Studie übten Assistenzärztinnen und -ärzte aus Pädiatrie und Notfallmedizin ein Thema mehrfach mit Kurzantworttests samt Feedback und lernten ein anderes mehrfach mit einem Übersichtsblatt, auf dem dieselben Informationen standen. Mehr als sechs Monate später erreichten die 40 Teilnehmenden, die bis zum Ende dabei waren, laut dem [veröffentlichten Abstract](https://pubmed.ncbi.nlm.nih.gov/19930508/) im getesteten Thema durchschnittlich 39 % und im Thema mit dem Übersichtsblatt 26 %. Das war eine kleine Studie aus der medizinischen Ausbildung, kein Test von KI-Tutoren. Das Grundprinzip dieses Ablaufs stützt sie trotzdem: erst selbst versuchen, dann die Antwort sehen. Für den größeren Zusammenhang: [Active Recall und Spaced Repetition haben unterschiedliche Aufgaben](/de/blog/active-recall-vs-spaced-repetition/), und dieser Ablauf deckt beides ab.
 
@@ -51,24 +51,24 @@ Interaktive Clients melden sich über OAuth 2.1 mit PKCE und Dynamic Client Regi
 
 Wo du die URL einträgst, hängt vom Client ab:
 
-- In Claude fügst du Flashcards unter **Customize > Connectors** als Custom Connector hinzu. Laut Anthropics [Anleitung zu Custom Connectors](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp) ist im Free-Tarif nur ein Custom Connector möglich, und in Team- und Enterprise-Tarifen muss zuerst ein Owner den Connector für die Organisation hinzufügen. Die [Anleitung zur Einrichtung von Claude mit MCP](/de/blog/how-to-connect-flashcards-to-claude-with-mcp/) geht die einzelnen Bildschirme mit dir durch.
-- In ChatGPT verbindest du Flashcards als eigene MCP-App. Eine Wiederholung zu speichern ist eine Schreibaktion, und ob und wie du eine App mit Schreibzugriff hinzufügen kannst, hängt von Tarif und Workspace ab. In manchen Tarifen richtet ein Admin die App ein oder veröffentlicht sie für die Mitglieder. Die aktuellen Schritte für deinen Tarif findest du in OpenAIs [Hilfeartikel zu Entwicklermodus und MCP-Apps](https://help.openai.com/en/articles/12584461-developer-mode-and-mcp-apps-in-chatgpt).
-- Für Codex fügst du in der ChatGPT-Desktop-App unter **Settings > MCP servers** einen Streamable-HTTP-Server hinzu oder führst `codex mcp add flashcards --url https://mcp.nibomo.com/mcp` und danach `codex mcp login flashcards` aus. Laut OpenAIs [Codex-Dokumentation zu MCP](https://learn.chatgpt.com/docs/extend/mcp) teilen sich Desktop-App, Codex CLI und IDE-Erweiterung diese Konfiguration. Mehr Details stehen in der [Anleitung zum Lernen mit ChatGPT und Codex](/de/blog/how-to-use-chatgpt-codex-for-studying/).
+- In Claude fügst du Nibomo unter **Customize > Connectors** als Custom Connector hinzu. Laut Anthropics [Anleitung zu Custom Connectors](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp) ist im Free-Tarif nur ein Custom Connector möglich, und in Team- und Enterprise-Tarifen muss zuerst ein Owner den Connector für die Organisation hinzufügen. Die [Anleitung zur Einrichtung von Claude mit MCP](/de/blog/how-to-connect-flashcards-to-claude-with-mcp/) geht die einzelnen Bildschirme mit dir durch.
+- In ChatGPT verbindest du Nibomo als eigene MCP-App. Eine Wiederholung zu speichern ist eine Schreibaktion, und ob und wie du eine App mit Schreibzugriff hinzufügen kannst, hängt von Tarif und Workspace ab. In manchen Tarifen richtet ein Admin die App ein oder veröffentlicht sie für die Mitglieder. Die aktuellen Schritte für deinen Tarif findest du in OpenAIs [Hilfeartikel zu Entwicklermodus und MCP-Apps](https://help.openai.com/en/articles/12584461-developer-mode-and-mcp-apps-in-chatgpt).
+- Für Codex fügst du in der ChatGPT-Desktop-App unter **Settings > MCP servers** einen Streamable-HTTP-Server hinzu oder führst `codex mcp add nibomo --url https://mcp.nibomo.com/mcp` und danach `codex mcp login nibomo` aus. Laut OpenAIs [Codex-Dokumentation zu MCP](https://learn.chatgpt.com/docs/extend/mcp) teilen sich Desktop-App, Codex CLI und IDE-Erweiterung diese Konfiguration. Mehr Details stehen in der [Anleitung zum Lernen mit ChatGPT und Codex](/de/blog/how-to-use-chatgpt-codex-for-studying/).
 
-Du kannst dir die Verbindung auch ganz sparen. Der KI-Chat in Flashcards hat dieselben Wiederholungs-Tools, der Ablauf klappt also auch dort. Terminal-Agenten ohne MCP-Unterstützung können dieselben Wiederholungsaktionen als HTTP-Routen aufrufen. Die [Agent-API-Referenz](/de/docs/api/) dokumentiert sie.
+Du kannst dir die Verbindung auch ganz sparen. Der KI-Chat in Nibomo hat dieselben Wiederholungs-Tools, der Ablauf klappt also auch dort. Terminal-Agenten ohne MCP-Unterstützung können dieselben Wiederholungsaktionen als HTTP-Routen aufrufen. Die [Agent-API-Referenz](/de/docs/api/) dokumentiert sie.
 
 ## Aktiviere nur die Tools, die du zum Wiederholen brauchst
 
 Der Connector hat sieben Tools. Eine Wiederholungssitzung nutzt fünf davon: `list_workspaces`, `get_guide`, `next_review_card`, `reveal_answer` und `submit_review`. `sql_query` hilft, wenn der Tutor den Namen eines Decks oder Tags nachschlagen soll. `sql_execute` erstellt, bearbeitet und löscht Karten und Decks. Zum Wiederholen brauchst du es nie, also blockiere es für diese Sitzung, wenn dein Client das erlaubt.
 
-`submit_review` muss eingeschaltet bleiben, denn es ist der einzige Schreibzugriff im Ablauf. Flashcards kennzeichnet es als destruktiv und nicht als nur lesend, weil es den Fälligkeitstermin, die Wiederholungszähler und den FSRS-Zustand der Karte überschreibt. Manche Clients entscheiden anhand dieser Kennzeichnung, wann sie dich um eine Freigabe bitten, und genau das hilft, wenn du Bewertungen prüfen willst.
+`submit_review` muss eingeschaltet bleiben, denn es ist der einzige Schreibzugriff im Ablauf. Nibomo kennzeichnet es als destruktiv und nicht als nur lesend, weil es den Fälligkeitstermin, die Wiederholungszähler und den FSRS-Zustand der Karte überschreibt. Manche Clients entscheiden anhand dieser Kennzeichnung, wann sie dich um eine Freigabe bitten, und genau das hilft, wenn du Bewertungen prüfen willst.
 
 ## Kopiere diesen Tutor-Prompt
 
 Ein schlichtes „Frag mich meine Karteikarten ab“ reicht als Einstieg. Mit ein paar genauen Vorgaben läuft die Sitzung aber vorhersehbarer. Setz also deine eigene Zeitzone ein und nimm stattdessen diesen Prompt:
 
 ```text
-Sei mein Karteikarten-Tutor und nutze dafür die Flashcards-MCP-Tools.
+Sei mein Karteikarten-Tutor und nutze dafür die Nibomo-MCP-Tools.
 
 Vor der ersten Karte:
 1. Rufe get_guide mit dem Thema review_flow auf und halte dich an diese Regeln.
@@ -122,14 +122,14 @@ Diese Tools können eine gespeicherte Wiederholung nicht bearbeiten, und die Reg
 
 - Nenne die Bewertung zusammen mit deiner Antwort. Die Regeln weisen den Tutor an, eine Bewertung zu übernehmen, die du vor der Übermittlung nennst. Bei „Canberra. Hat gedauert, sagen wir Hard“ sollte also Hard gespeichert werden.
 - Fordere mit dem ausgetauschten Schritt 5 von oben manuelle Bewertungen an. Der Tutor deckt die Antwort auf und wartet dann, bis du wählst.
-- Nutze einen Client, den du so einstellen kannst, dass er vor schreibenden Tools nachfragt. Ein abgelehnter Aufruf kommt nie bei Flashcards an, also wird auch nichts gespeichert. Steht in der Tool-Eingabe eine Bewertung, die du anders siehst, lehne den Aufruf ab und sag dem Tutor, welche Bewertung er senden soll.
+- Nutze einen Client, den du so einstellen kannst, dass er vor schreibenden Tools nachfragt. Ein abgelehnter Aufruf kommt nie bei Nibomo an, also wird auch nichts gespeichert. Steht in der Tool-Eingabe eine Bewertung, die du anders siehst, lehne den Aufruf ab und sag dem Tutor, welche Bewertung er senden soll.
 
 Diesen Freigabeschritt löst jeder Client anders:
 
 - In Claude stellst du `submit_review` in den Tool-Berechtigungen des Connectors auf **Needs approval**. Laut Anthropics [Hilfeseite zu Connectors](https://support.claude.com/en/articles/11176164-use-connectors-to-extend-claude-s-capabilities) gibt es für jedes Tool **Always allow**, **Needs approval** und **Blocked**, und in Team- und Enterprise-Tarifen kann ein Owner Tools außerdem für die ganze Organisation einschränken. Die [Anleitung zur Einrichtung von Claude](/de/blog/how-to-connect-flashcards-to-claude-with-mcp/) zeigt, wo du diese Berechtigungen findest.
 - In ChatGPT ist eine Rückfrage vor `submit_review` nicht garantiert. ChatGPT kann vor einer Schreibaktion um Bestätigung bitten, je nach Berechtigungen der App und deinem Workspace. Die Bewertung in deiner Antwort zu nennen und manuelle Bewertungen funktionieren in jedem Client, also verlass dich in ChatGPT auf diese beiden Wege.
 
-In Codex fragt der Freigabemodus `writes` bei allen Tools nach, die nicht als nur lesend gekennzeichnet sind. Codex speichert MCP-Server in `~/.codex/config.toml` oder, wenn du den Server auf ein Projekt beschränkt hast, in der `.codex/config.toml` dieses Projekts. Such dort die vorhandene Tabelle `[mcp_servers.<name>]` für Flashcards, wobei `<name>` der Name ist, den du dem Server gegeben hast (`flashcards`, wenn du oben den Befehl `codex mcp add` benutzt hast), füg darunter diese Zeile ein, speichere die Datei und starte Codex neu. Ab dann fragt Codex vor jedem Aufruf von `submit_review` und `sql_execute` nach:
+In Codex fragt der Freigabemodus `writes` bei allen Tools nach, die nicht als nur lesend gekennzeichnet sind. Codex speichert MCP-Server in `~/.codex/config.toml` oder, wenn du den Server auf ein Projekt beschränkt hast, in der `.codex/config.toml` dieses Projekts. Such dort die vorhandene Tabelle `[mcp_servers.<name>]` für Nibomo, wobei `<name>` der Name ist, den du dem Server gegeben hast (`nibomo`, wenn du oben den Befehl `codex mcp add` benutzt hast), füg darunter diese Zeile ein, speichere die Datei und starte Codex neu. Ab dann fragt Codex vor jedem Aufruf von `submit_review` und `sql_execute` nach:
 
 ```toml
 default_tools_approval_mode = "writes"
@@ -145,21 +145,21 @@ Im Ergebnis stehen das neue `dueAt`, das Intervall, der Zustand der Karte und ih
 
 Eine Karte, die du nicht wusstest, kann noch in derselben Sitzung zurückkommen. Mit den Standardschritten ist sie innerhalb weniger Minuten wieder fällig, und `next_review_card` zieht kürzlich wiederholte fällige Karten den übrigen fälligen Karten vor. Läuft die Sitzung lange genug, rechne also damit, dass dir eine Karte nach Again noch einmal begegnet.
 
-Den Zeitstempel setzt der Server selbst, deshalb brauchen Wiederholungen mit dem Tutor eine aktive Verbindung. Es sind Online-Aktionen, und Wiederholungen, die du anderswo gemacht hast, lassen sich damit nicht importieren. Offline wiederholst du weiterhin in den Flashcards-Apps, die wie gewohnt synchronisieren.
+Den Zeitstempel setzt der Server selbst, deshalb brauchen Wiederholungen mit dem Tutor eine aktive Verbindung. Es sind Online-Aktionen, und Wiederholungen, die du anderswo gemacht hast, lassen sich damit nicht importieren. Offline wiederholst du weiterhin in den Nibomo-Apps, die wie gewohnt synchronisieren.
 
 ## Wenn eine Übermittlung fehlschlägt oder der Chat abbricht
 
 Jede Wiederholung hat eine `reviewId`, eine UUID, die der Tutor für genau diese eine Wiederholung erzeugt. Sie sorgt dafür, dass ein erneuter Versuch nicht doppelt zählt:
 
 - Ein erneuter Versuch mit derselben `reviewId` legt nie eine zweite Wiederholung an. Ist der erste Versuch schon angekommen, bekommt der neue Versuch `REVIEW_EVENT_CONFLICT` zurück, zusammen mit dem aktuellen Zeitplan der Karte. Der Tutor kann dann den Fälligkeitstermin nennen, statt noch einmal zu übermitteln.
-- Taucht eine `reviewId` bei einer anderen Karte erneut auf, lehnt Flashcards das mit `REVIEW_ID_CARD_MISMATCH` ab. Für diese Karte wird nichts gespeichert, und der Tutor braucht zum Übermitteln eine neue `reviewId`.
+- Taucht eine `reviewId` bei einer anderen Karte erneut auf, lehnt Nibomo das mit `REVIEW_ID_CARD_MISMATCH` ab. Für diese Karte wird nichts gespeichert, und der Tutor braucht zum Übermitteln eine neue `reviewId`.
 - `REVIEW_STALE` heißt, dass der gespeicherte Wiederholungszeitpunkt der Karte der aktuellen Serverzeit entspricht oder danach liegt. Mach dann mit einer anderen Karte weiter.
 
 Meldet der Tutor eine fehlgeschlagene Übermittlung, frag nach, welcher Code zurückkam, bevor er weitermacht. Daran siehst du, ob deine Bewertung gespeichert wurde.
 
 ## Wiederhole ein Deck oder ein paar Tags
 
-`next_review_card` nimmt einen optionalen Filter an. `tags` beschränkt die Warteschlange auf Karten mit mindestens einem der angegebenen Tags, wobei Groß- und Kleinschreibung keine Rolle spielt. Ein Tag, den dein Workspace nicht verwendet, liefert einen Fehler statt einer leeren Warteschlange. So fällt ein Tippfehler schnell auf. `deckId` beschränkt die Warteschlange auf ein gespeichertes Deck. Ein Deck ist in Flashcards ein gespeicherter Tag-Filter, und ein Deck ohne Tags umfasst jede Karte.
+`next_review_card` nimmt einen optionalen Filter an. `tags` beschränkt die Warteschlange auf Karten mit mindestens einem der angegebenen Tags, wobei Groß- und Kleinschreibung keine Rolle spielt. Ein Tag, den dein Workspace nicht verwendet, liefert einen Fehler statt einer leeren Warteschlange. So fällt ein Tippfehler schnell auf. `deckId` beschränkt die Warteschlange auf ein gespeichertes Deck. Ein Deck ist in Nibomo ein gespeicherter Tag-Filter, und ein Deck ohne Tags umfasst jede Karte.
 
 Du kannst einen der beiden Filter nutzen, aber nicht beide zugleich. Ergänze den Prompt um eine Zeile wie diese:
 
@@ -171,17 +171,17 @@ Weißt du die genauen Namen nicht mehr, kann der Tutor deine Decks oder Tags vor
 
 ## Grenzen, die du vor dem Start kennen solltest
 
-Die Bewertung ist das Urteil des Modells. `submit_review` speichert jede Bewertung, die der Tutor sendet, und Flashcards kann nicht prüfen, ob deine Antwort sie verdient hat. Standardmäßig kommt zwischen Aufdecken und Speichern keine Rückfrage an dich. Nutze deshalb eine der Kontrollen von oben, bis du den Bewertungen des Tutors vertraust.
+Die Bewertung ist das Urteil des Modells. `submit_review` speichert jede Bewertung, die der Tutor sendet, und Nibomo kann nicht prüfen, ob deine Antwort sie verdient hat. Standardmäßig kommt zwischen Aufdecken und Speichern keine Rückfrage an dich. Nutze deshalb eine der Kontrollen von oben, bis du den Bewertungen des Tutors vertraust.
 
 Dass die Rückseite verdeckt bleibt, ist eine Konvention des Ablaufs. `sql_query` kann beide Seiten einer Karte lesen. Ein Tutor, der sich nicht an den Ablauf hält, könnte die Rückseite also vorher sehen. In Clients mit Einstellungen pro Tool schließt du diesen Weg, indem du `sql_query` blockierst. Dafür kann der Tutor dann keine Decks und Tags mehr nachschlagen.
 
-Deine Kartentexte verlassen Flashcards. Vorder- und Rückseiten und deine Antworten gehen an den KI-Client und an dessen Modellanbieter, und dort gelten die Einstellungen dieses Anbieters zu Speicherung und Training. [Ist MCP für Flashcards sicher?](/de/blog/is-mcp-safe-for-flashcards/) behandelt Datenweg, Berechtigungen und Prompt Injection im Detail. Bei einem Vokabeldeck darfst du anders entscheiden als bei Karten aus vertraulichen Arbeitsnotizen.
+Deine Kartentexte verlassen Nibomo. Vorder- und Rückseiten und deine Antworten gehen an den KI-Client und an dessen Modellanbieter, und dort gelten die Einstellungen dieses Anbieters zu Speicherung und Training. [Ist MCP für Flashcards sicher?](/de/blog/is-mcp-safe-for-flashcards/) behandelt Datenweg, Berechtigungen und Prompt Injection im Detail. Bei einem Vokabeldeck darfst du anders entscheiden als bei Karten aus vertraulichen Arbeitsnotizen.
 
 ## FAQ zu KI-Tutoren für Karteikarten
 
 ### Kann Claude oder ChatGPT mich meine eigenen Karteikarten abfragen?
 
-Ja. Verbinde den Flashcards-MCP-Server in Claude als Custom Connector, in ChatGPT als eigene MCP-App, sofern Tarif und Workspace Apps mit Schreibzugriff erlauben, oder in Codex als MCP-Server. Der Tutor holt dann mit `next_review_card` jeweils eine Karte aus deiner Wiederholungswarteschlange.
+Ja. Verbinde den Nibomo-MCP-Server in Claude als Custom Connector, in ChatGPT als eigene MCP-App, sofern Tarif und Workspace Apps mit Schreibzugriff erlauben, oder in Codex als MCP-Server. Der Tutor holt dann mit `next_review_card` jeweils eine Karte aus deiner Wiederholungswarteschlange.
 
 ### Fragt der Tutor nach, bevor er eine Bewertung speichert?
 
@@ -201,7 +201,7 @@ Ja. Neue Karten kommen nach den fälligen, in derselben Reihenfolge wie in den A
 
 ### Kann ich einen KI-Tutor nutzen, ohne einen externen Client zu verbinden?
 
-Ja. Der KI-Chat in Flashcards hat dieselben drei Wiederholungs-Tools. Du kannst also direkt in der App wiederholen, ohne MCP einzurichten.
+Ja. Der KI-Chat in Nibomo hat dieselben drei Wiederholungs-Tools. Du kannst also direkt in der App wiederholen, ohne MCP einzurichten.
 
 ### Brauche ich einen API-Key?
 

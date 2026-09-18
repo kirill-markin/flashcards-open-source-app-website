@@ -279,7 +279,7 @@ Wenn jede Karte immer noch verlangt, dass du das ganze Paket im Kopf rekonstruie
 
 Dann hast du nur eine Form von Hausaufgabe in eine andere verwandelt.
 
-## Wo Flashcards hineinpasst
+## Wo Nibomo hineinpasst
 
 [Nibomo](https://nibomo.com/) passt gut zu **Lernzettel in Flashcards umwandeln**, weil das Produkt die Bausteine für diesen Workflow bereits mitbringt:
 

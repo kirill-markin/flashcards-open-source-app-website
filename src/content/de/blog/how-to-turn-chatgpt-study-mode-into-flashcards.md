@@ -227,7 +227,7 @@ Wenn du den eigentlichen Algorithmusvergleich lesen willst, geht dieser Artikel 
 
 - [FSRS vs SM-2 in 2026: Welcher Spaced-Repetition-Algorithmus hilft dir, mehr zu behalten?](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
-## Warum Flashcards gut in diesen Workflow passt
+## Warum Nibomo gut in diesen Workflow passt
 
 [Nibomo](https://nibomo.com/) passt gut zu **Lernkarten aus dem ChatGPT Study Mode**, weil das Produkt genau den Teil abdeckt, den KI-Tutoring allein noch nicht löst:
 
@@ -241,7 +241,7 @@ So bleibt der Workflow angenehm einfach:
 
 1. den KI-Tutor nutzen, um das Thema zu verstehen
 2. die Stellen kopieren, die du nicht konntest
-3. sie in Flashcards zu Karten ausformulieren
+3. sie in Nibomo zu Karten ausformulieren
 4. sie später mit FSRS wiederholen
 
 Das ist deutlich glaubwürdiger, als zu erwarten, dass eine einzige Chat-Sitzung zufällig in dauerhaftes Wissen umschlägt.

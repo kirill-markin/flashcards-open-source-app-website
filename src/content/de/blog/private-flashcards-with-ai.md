@@ -79,7 +79,7 @@ Was die meisten wollen, ist ein vernünftiger Mittelweg:
 
 Das ist gesünder als die falsche Wahl zwischen alter Desktop-Software und einer geschlossenen SaaS-App mit Lern-Tab.
 
-## Was Flashcards heute bereits dokumentiert
+## Was Nibomo heute bereits dokumentiert
 
 [Nibomo](/de/) passt zu diesem Mittelweg, weil die Kontrolloptionen bereits im Repository, auf der [Feature-Seite](/de/features/), in den Docs und auf den öffentlichen Seiten sichtbar sind.
 
@@ -120,7 +120,7 @@ Eine bessere **private Karteikarten-App** gibt KI bewusst eine kleinere Rolle:
 
 Das ist nicht anti-KI. Es ist einfach sauberer.
 
-Die gehosteten Flashcards-Dokumente und Seiten trennen diese Fähigkeiten bereits, statt KI als einzigen Weg durch das Produkt darzustellen. Der Leitfaden [Erste Schritte](/de/docs/getting-started/) führt Kartenerstellung, Wiederholung fälliger Karten und KI-Chat als getrennte Teile der gehosteten App auf. Die [Nutzungsbedingungen](/de/terms/) sagen außerdem klar, dass KI-Chat optional ist und dass gehostete KI-Anfragen von Drittanbietern verarbeitet werden können, wenn du diese Funktion nutzt.
+Die gehosteten Nibomo-Dokumente und Seiten trennen diese Fähigkeiten bereits, statt KI als einzigen Weg durch das Produkt darzustellen. Der Leitfaden [Erste Schritte](/de/docs/getting-started/) führt Kartenerstellung, Wiederholung fälliger Karten und KI-Chat als getrennte Teile der gehosteten App auf. Die [Nutzungsbedingungen](/de/terms/) sagen außerdem klar, dass KI-Chat optional ist und dass gehostete KI-Anfragen von Drittanbietern verarbeitet werden können, wenn du diese Funktion nutzt.
 
 Genau diese Art von Klarheit will ich von einem datenschutzsensiblen Lerntool. Keine Perfektion. Klare Grenzen.
 
@@ -146,7 +146,7 @@ Eine App, die Karten lokal speichert, dich lokal wiederholen lässt und später 
 
 Darum gehören **Offline-Flashcards** und Datenschutz in dieselbe Diskussion.
 
-In Flashcards beschreiben die aktuellen Architektur-Dokumente den iOS-Client bereits als lokales SQLite plus Sync-Push und Sync-Pull über das Backend. Das ist eine stärkere Position als bei einem reinen Browser-Tool, das modern wirkt, bis die Verbindung abbricht.
+In Nibomo beschreiben die aktuellen Architektur-Dokumente den iOS-Client bereits als lokales SQLite plus Sync-Push und Sync-Pull über das Backend. Das ist eine stärkere Position als bei einem reinen Browser-Tool, das modern wirkt, bis die Verbindung abbricht.
 
 Wenn die Offline-Seite für dich die Hauptanforderung ist, liest du am besten den Begleitartikel zu [Offline-First-Flashcards](/de/blog/best-offline-flashcards-app/).
 
@@ -158,7 +158,7 @@ Das bekommst du bei einem gehosteten Produkt normalerweise nicht, weil gehostete
 
 Genau deshalb ist der Self-Hosting-Pfad wichtig.
 
-Die Self-Hosting-Dokumentation von Flashcards beschreibt bereits ein lokales Setup für Postgres, Auth, Backend und Web und dokumentiert `AUTH_MODE=none` für lokale Nutzung. Auf gut Deutsch: Das Projekt unterstützt bereits einen Weg zu einer **Lern-App ohne Konto**, wenn du deinen eigenen lokalen Stack betreibst, statt den gehosteten Dienst zu nutzen.
+Die Self-Hosting-Dokumentation von Nibomo beschreibt bereits ein lokales Setup für Postgres, Auth, Backend und Web und dokumentiert `AUTH_MODE=none` für lokale Nutzung. Auf gut Deutsch: Das Projekt unterstützt bereits einen Weg zu einer **Lern-App ohne Konto**, wenn du deinen eigenen lokalen Stack betreibst, statt den gehosteten Dienst zu nutzen.
 
 Das ist nicht für alle die richtige Wahl. Die meisten sollten wahrscheinlich mit der gehosteten Version anfangen und nur weitergehen, wenn sie die zusätzliche Kontrolle wirklich brauchen. Aber wenn dein Material so sensibel ist, dass Grenzen durch Drittanbieter-Konten nicht passen, verändert diese Option das ganze Gespräch.
 
@@ -168,12 +168,12 @@ Wenn genau das deine Priorität ist, ist [Selbst gehostete Open-Source-Flashcard
 
 Genau hier lassen viele Tools Datenschutz wie eine Alles-oder-Nichts-Frage wirken.
 
-Flashcards bietet bereits eine dokumentierte externe Agent-Oberfläche und einen MCP-Pfad, statt Automatisierung durch eine einzige abgeschottete Schnittstelle zu erzwingen. Die API-Doku sagt außerdem klar, dass der externe Agent-Vertrag nach der Auswahl auf einen Workspace begrenzt ist. Das ist deutlich gesünder als vages Marketing rund um "KI-Integration".
+Nibomo bietet bereits eine dokumentierte externe Agent-Oberfläche und einen MCP-Pfad, statt Automatisierung durch eine einzige abgeschottete Schnittstelle zu erzwingen. Die API-Doku sagt außerdem klar, dass der externe Agent-Vertrag nach der Auswahl auf einen Workspace begrenzt ist. Das ist deutlich gesünder als vages Marketing rund um "KI-Integration".
 
 Wenn dir die Agent-Seite wichtig ist, sind das die nächsten sinnvollen Artikel:
 
-- [Wie Claude Code, Codex oder OpenClaw dich bei Flashcards einloggen können](/de/blog/claude-code-codex-openclaw-flashcards-login/)
-- [Wie du Flashcards per MCP mit Claude verbindest](/de/blog/how-to-connect-flashcards-to-claude-with-mcp/)
+- [Wie Claude Code, Codex oder OpenClaw dich bei Nibomo einloggen können](/de/blog/claude-code-codex-openclaw-flashcards-login/)
+- [Wie du Nibomo per MCP mit Claude verbindest](/de/blog/how-to-connect-flashcards-to-claude-with-mcp/)
 
 Das ergibt ein Setup, das sich besser prüfen lässt, als bei einem Lerntool, in dem KI nur innerhalb der Oberfläche und Regeln eines einzigen Anbieters existiert.
 

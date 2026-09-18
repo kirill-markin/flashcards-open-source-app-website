@@ -229,7 +229,7 @@ Einer der schnellsten Wege zu besseren Sprachlern-Flashcards ist ein klarerer Zw
 
 Das Deck wird sofort sauberer.
 
-## Warum Flashcards gut in diesen Workflow passt
+## Warum Nibomo gut in diesen Workflow passt
 
 [Nibomo](https://nibomo.com/) passt gut zu diesem Workflow, weil das Produkt bereits die Bausteine mitbringt, auf die diese Art von Vokabellernen mit Spaced Repetition angewiesen ist:
 

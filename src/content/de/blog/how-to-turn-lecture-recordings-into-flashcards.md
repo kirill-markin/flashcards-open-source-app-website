@@ -220,7 +220,7 @@ Wenn der Dozent vier Minuten lang ein Konzept mit drei Beispielen erklärt hat, 
 
 Das ist ein viel besserer Deal, als jeden Satz in eine Karte zu verwandeln und das Produktivität zu nennen.
 
-## Wo Flashcards passt
+## Wo Nibomo passt
 
 [Nibomo](https://nibomo.com/) passt gut zu **study lecture recordings with flashcards**, weil es den Teil abdeckt, den Transkripte und KI-Entwürfe allein nicht lösen:
 

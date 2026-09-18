@@ -189,7 +189,7 @@ Verwende **Additional new cards to simulate**, wenn du weißt, dass ein Deck wac
 
 Ist das Ergebnis zu hoch, reduziere die Zahl neuer Karten und simuliere erneut. So behältst du dein Abrufziel bei, ohne dem Scheduler eine höhere Vergessensrate vorzugeben.
 
-## Anki und Flashcards bieten unterschiedliche FSRS-Einstellungen
+## Anki und Nibomo bieten unterschiedliche FSRS-Einstellungen
 
 Beide Produkte verwenden FSRS-6. Die FSRS-Einstellungen von Anki lassen sich jedoch nicht eins zu eins auf Nibomo übertragen.
 
@@ -203,9 +203,9 @@ Beide Produkte verwenden FSRS-6. Die FSRS-Einstellungen von Anki lassen sich jed
 | Änderungen an Einstellungen | Standardmäßig nur für künftige Wiederholungen; optionale rückwirkende Neuplanung | Nur für künftige Wiederholungen; bestehende Fälligkeitstermine werden nicht neu aufgebaut. |
 | Werkzeuge für den Arbeitsaufwand | **Help Me Decide (Experimental)** und **FSRS Simulator (Experimental)** | Kein vergleichbarer Simulator für den Arbeitsaufwand in v1 |
 
-Flashcards verwendet die üblichen Bewertungen Again, Hard, Good und Easy und speichert den FSRS-Gedächtniszustand auf Kartenebene. Die Scheduler im Backend sowie in iOS und Android sind unabhängige Implementierungen mit demselben Verhalten. Der Wiederholungsablauf im Web greift auf den Backend-Scheduler zurück, statt eine vierte Implementierung hinzuzufügen.
+Nibomo verwendet die üblichen Bewertungen Again, Hard, Good und Easy und speichert den FSRS-Gedächtniszustand auf Kartenebene. Die Scheduler im Backend sowie in iOS und Android sind unabhängige Implementierungen mit demselben Verhalten. Der Wiederholungsablauf im Web greift auf den Backend-Scheduler zurück, statt eine vierte Implementierung hinzuzufügen.
 
-Diese Grenzen und Standardwerte sind in der öffentlichen [Spezifikation zur FSRS-Planungslogik von Flashcards](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/docs/fsrs-scheduling-logic.md) dokumentiert. Der Unterschied ist klar: Flashcards bietet eine praktische FSRS-6-Konfiguration auf Arbeitsbereichsebene, während Anki feinere Geltungsbereiche, personalisierte Anpassung und Simulation bereitstellt. Wenn diese Funktionen unverzichtbar sind, ist Anki die bessere Wahl.
+Diese Grenzen und Standardwerte sind in der öffentlichen [Spezifikation zur FSRS-Planungslogik von Nibomo](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/docs/fsrs-scheduling-logic.md) dokumentiert. Der Unterschied ist klar: Nibomo bietet eine praktische FSRS-6-Konfiguration auf Arbeitsbereichsebene, während Anki feinere Geltungsbereiche, personalisierte Anpassung und Simulation bereitstellt. Wenn diese Funktionen unverzichtbar sind, ist Anki die bessere Wahl.
 
 ## Ein sichererer Ablauf für eine reife Sammlung
 
@@ -249,9 +249,9 @@ Standardmäßig nicht. Solange **Reschedule cards on change** ausgeschaltet ist,
 
 Nein. Anki hat **Compute Minimum Recommended Retention** mit Version 25.07 entfernt. Verwende in Anki 26.08 **Help Me Decide (Experimental)** und **FSRS Simulator (Experimental)**, um die Behaltensrate mit dem geschätzten Arbeitsaufwand zu vergleichen.
 
-### Verwendet Flashcards dieselben Einstellungen wie Anki?
+### Verwendet Nibomo dieselben Einstellungen wie Anki?
 
-Flashcards verwendet FSRS-6 und bietet pro Arbeitsbereich **Desired retention**, Learning steps, Relearning steps, Maximum interval und Fuzz. Das vollständige Einstellungsmodell von Anki wird nicht übernommen: In v1 sind die Gewichte fest vorgegeben, Änderungen wirken nur in die Zukunft und es gibt weder eine personalisierte Parameteroptimierung noch einen Simulator für den Arbeitsaufwand.
+Nibomo verwendet FSRS-6 und bietet pro Arbeitsbereich **Desired retention**, Learning steps, Relearning steps, Maximum interval und Fuzz. Das vollständige Einstellungsmodell von Anki wird nicht übernommen: In v1 sind die Gewichte fest vorgegeben, Änderungen wirken nur in die Zukunft und es gibt weder eine personalisierte Parameteroptimierung noch einen Simulator für den Arbeitsaufwand.
 
 ## Lege den Arbeitsaufwand vor dem Prozentsatz fest
 

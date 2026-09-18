@@ -267,7 +267,7 @@ Wenn die Rückseite im ersten Entwurf wie ein Absatz aus einem Arbeitsbuch aussi
 
 Das ähnelt dem Workflow in [How to Turn Practice Questions Into Flashcards in 2026](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/) und [How to Make Better Flashcards in 2026](https://nibomo.com/blog/how-to-make-better-flashcards/).
 
-## Wo Flashcards in diesen ATI-TEAS-Workflow passen
+## Wo Nibomo in diesen ATI-TEAS-Workflow passt
 
 Wenn du das in [Nibomo](https://nibomo.com/) umsetzen willst, passt das praktisch, nicht offiziell.
 

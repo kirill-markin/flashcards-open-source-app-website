@@ -234,7 +234,7 @@ Darum würde ich die Reihenfolge schlicht halten:
 
 Wenn du die Planungsseite ausführlicher willst, ist [Wie du 2026 mit FSRS für eine Prüfung lernst](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/) der direkte Begleitartikel.
 
-## Wo Flashcards in diesen AP-Biology-Workflow passen
+## Wo Nibomo in diesen AP-Biology-Workflow passt
 
 Wenn du das innerhalb von [Nibomo](https://nibomo.com/) umsetzen willst, ist der nützliche Teil nicht irgendein vages Versprechen, dass KI dir Biologie schon irgendwie von allein beibringt.
 

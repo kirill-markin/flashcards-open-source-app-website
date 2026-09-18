@@ -228,7 +228,7 @@ Die Lösung ist nicht glamourös:
 
 So wird aus "Ich vergesse am nächsten Tag alles wieder" meistens eher: "Ich habe immer noch ein paar Dinge verfehlt, aber jetzt weiß ich genau, welche paar Dinge es sind."
 
-## Wo Flashcards hier ehrlich hineinpasst
+## Wo Nibomo hier ehrlich hineinpasst
 
 [Nibomo](/de/) ist nicht das Produkt, das ich ehrlich als vollständige Plattform für Übungstests beschreiben würde.
 
@@ -247,7 +247,7 @@ Das ehrliche Verkaufsargument ist kleiner, als es viel Marketing für Lernsoftwa
 
 Nutze den Übungstest, um das Problem zu finden.
 
-Nutze Flashcards, um den Teil des Problems festzuhalten, der später noch korrigiert sein soll.
+Nutze Nibomo, um den Teil des Problems festzuhalten, der später noch korrigiert sein soll.
 
 ## Ein realistischer Wochenrhythmus
 

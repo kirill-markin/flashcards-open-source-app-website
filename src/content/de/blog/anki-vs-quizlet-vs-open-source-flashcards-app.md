@@ -29,7 +29,7 @@ Die Details sind wichtig, vor allem wenn du bereits Hunderte oder Tausende Karte
 
 ![Warmer Lerntisch mit einer ausgereiften lokalen Karteikartensammlung, einem gemeinsamen Unterrichts-Setup und einem offenen KI-Lernsystem](/blog/anki-vs-quizlet-vs-open-source-flashcards-app.png)
 
-## Anki vs Quizlet vs Flashcards: der Praxisvergleich
+## Anki vs Quizlet vs Nibomo: der Praxisvergleich
 
 Diese Tabelle basiert auf Produktinformationen, die am 2. August 2026 geprüft wurden. Preise und Funktionsumfang können je nach Region abweichen.
 
@@ -75,15 +75,15 @@ Nutze Quizlet, wenn du:
 - bald einen Test schreibst und Spiele, Übungstests sowie abwechslungsreiche Übungen möchtest
 - integrierte KI-Lernleitfäden oder Werkzeuge für PDFs häufiger nutzt als detaillierte Einstellungen für die langfristige Wiederholungsplanung
 
-Quizlet Learn personalisiert mithilfe von maschinellem Lernen einen Lernpfad anhand deiner Ziele und deiner Vertrautheit mit dem Stoff. Das ist eine echte Form der Personalisierung, aber nicht dasselbe Modell wie das FSRS-Wiederholungssystem von Anki und Flashcards. Wenn du Wissen über mehrere Jahre behalten möchtest, bietet Anki die ausgereiftere Technik.
+Quizlet Learn personalisiert mithilfe von maschinellem Lernen einen Lernpfad anhand deiner Ziele und deiner Vertrautheit mit dem Stoff. Das ist eine echte Form der Personalisierung, aber nicht dasselbe Modell wie das FSRS-Wiederholungssystem von Anki und Nibomo. Wenn du Wissen über mehrere Jahre behalten möchtest, bietet Anki die ausgereiftere Technik.
 
 Auch die Portabilität ist begrenzter. Quizlet lässt dich Begriffe und Definitionen aus Sets exportieren, die du selbst auf der Website erstellt hast – kopierte Sets und Bilder jedoch nicht. Für ein Semester kann das ein vernünftiger Kompromiss sein. Für eine persönliche Wissenssammlung, die du ein Jahrzehnt lang behalten möchtest, ist er weniger überzeugend.
 
-## Wähle Flashcards, wenn du KI, FSRS und Self-Hosting zusammen möchtest
+## Wähle Nibomo, wenn du KI, FSRS und Self-Hosting zusammen möchtest
 
 [Nibomo](/features/) kombiniert FSRS-Wiederholungsplanung, KI-Chat mit Workspace-Kontext, das Erstellen und Bearbeiten von Karten, Dateianhänge, offlinefähige native Apps und einen API-Zugang für KI-Agenten in einem Produkt.
 
-Nutze Flashcards, wenn du:
+Nutze Nibomo, wenn du:
 
 - eine **Open-Source-Karteikarten-App** suchst, deren Anwendungs- und Infrastrukturcode öffentlich ist
 - zum Self-Hosting bereit bist, weil dir die Kontrolle über den gesamten Stack wichtig ist
@@ -95,9 +95,9 @@ Die gehostete App bietet den einfachsten Einstieg; der [Leitfaden für den Einst
 
 ### Der Hinweis zum Reifegrad ist wichtig
 
-Flashcards befindet sich noch in einer frühen Entwicklungsphase. Ökosystem, Importmöglichkeiten, fortgeschrittene Wiederholungsfunktionen und Möglichkeiten zur Wiederherstellung sind nicht so ausgereift wie bei Anki. Einen direkten `.apkg`-Importer gibt es nicht. Native `flashcards.zip`-Pakete übertragen aktive Karten, Tags und referenzierte Medien, nicht jedoch Wiederholungsverlauf, FSRS-Planungsstatus, Workspace-Einstellungen, vollständige Deck-Strukturen oder Kontodaten.
+Nibomo befindet sich noch in einer frühen Entwicklungsphase. Ökosystem, Importmöglichkeiten, fortgeschrittene Wiederholungsfunktionen und Möglichkeiten zur Wiederherstellung sind nicht so ausgereift wie bei Anki. Einen direkten `.apkg`-Importer gibt es nicht. Native `flashcards.zip`-Pakete übertragen aktive Karten, Tags und referenzierte Medien, nicht jedoch Wiederholungsverlauf, FSRS-Planungsstatus, Workspace-Einstellungen, vollständige Deck-Strukturen oder Kontodaten.
 
-In der Praxis bedeutet das zweierlei. Beim Umzug einer stark angepassten Anki-Sammlung gehen wichtige Strukturen verloren, sofern du Anki nicht als maßgebliches System beibehältst. Außerdem ist ein Flashcards-Paket kein vollständiges Backup für die Wiederherstellung nach einem Ausfall. Der ausführliche [Leitfaden für Karteikarten-Backups](/blog/how-to-back-up-flashcards/) erklärt, was du separat sichern solltest.
+In der Praxis bedeutet das zweierlei. Beim Umzug einer stark angepassten Anki-Sammlung gehen wichtige Strukturen verloren, sofern du Anki nicht als maßgebliches System beibehältst. Außerdem ist ein Nibomo-Paket kein vollständiges Backup für die Wiederherstellung nach einem Ausfall. Der ausführliche [Leitfaden für Karteikarten-Backups](/blog/how-to-back-up-flashcards/) erklärt, was du separat sichern solltest.
 
 Die gehostete Cloud Beta ist derzeit kostenlos – einschließlich KI und Synchronisierung. Das ist ein Beta-Angebot und kein Versprechen, dass unbegrenzte gehostete KI für immer kostenlos bleibt. Schon jetzt weist die Preisseite darauf hin, dass eine intensivere KI-Nutzung später möglicherweise einen API-Schlüssel des Anbieters oder eine kostenpflichtige Option erfordert.
 

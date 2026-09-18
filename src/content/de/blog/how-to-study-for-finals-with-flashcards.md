@@ -234,7 +234,7 @@ Ich würde an dem Abend kein neues Material mehr ins System füttern, außer es 
 
 Genau deshalb sollte der Workflow für die Klausurenphase getrennt vom "mit KI lernen"-Workflow bleiben. Quellenverarbeitung kann sich endlos ausdehnen. Wiederholungen in der Klausurenphase können das nicht.
 
-## Wo Flashcards in diesen Workflow passt
+## Wo Nibomo in diesen Workflow passt
 
 [Nibomo](https://nibomo.com/) ist hier nützlich, weil das Produkt zum echten Chaos der Klausurenphase passt, statt so zu tun, als würde dein Lernmaterial sauber sortiert ankommen.
 
