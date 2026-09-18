@@ -34,7 +34,7 @@ Notes को AI से साफ़ किया जा सकता है। S
 
 Finals week के लिए standard थोड़ा ज़्यादा सख्त होना चाहिए। लक्ष्य यह नहीं है कि semester भर आपने जो भी छुआ, उसे बचाकर रखा जाए। लक्ष्य यह है कि सबसे काम की सामग्री को ऐसे review loop में डाला जाए जिसे आप exam से पहले अब भी पूरा कर सकें।
 
-अगर आपको scheduling वाला broader हिस्सा चाहिए, तो [How to Study for an Exam With FSRS in 2026](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs) उस पर अच्छी तरह बात करता है। यह लेख उस ज़्यादा उलझी हुई समस्या पर है जो पहले सामने आती है: sources बहुत ज़्यादा हैं और review time बहुत कम।
+अगर आपको scheduling वाला broader हिस्सा चाहिए, तो [How to Study for an Exam With FSRS in 2026](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs) उस पर अच्छी तरह बात करता है। यह लेख उस ज़्यादा उलझी हुई समस्या पर है जो पहले सामने आती है: sources बहुत ज़्यादा हैं और review time बहुत कम।
 
 ## Flashcard generation नहीं, triage से शुरू करें
 
@@ -112,7 +112,7 @@ AI chats का उपयोग इन चीज़ों के लिए क�
 - follow-up questions जिन्होंने confusion उजागर की
 - likely misses की छोटी lists जिन्हें verify करके रखा जा सकता है
 
-पूरी chat को अंतिम सच मत मानिए। AI tutoring समझने के लिए काम की है, लेकिन फ़्लैशकार्ड्स cleaned lesson से आने चाहिए, conversation की हर polished line से नहीं। अगर आपके drafts पहले से bloated या vague हैं, तो [How to Fix AI Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-fix-ai-flashcards/) सही cleanup guide है।
+पूरी chat को अंतिम सच मत मानिए। AI tutoring समझने के लिए काम की है, लेकिन फ़्लैशकार्ड्स cleaned lesson से आने चाहिए, conversation की हर polished line से नहीं। अगर आपके drafts पहले से bloated या vague हैं, तो [How to Fix AI Flashcards in 2026](https://nibomo.com/blog/how-to-fix-ai-flashcards/) सही cleanup guide है।
 
 ### Practice-test गलतियाँ
 
@@ -127,7 +127,7 @@ AI chats का उपयोग इन चीज़ों के लिए क�
 - लंबी explanations को छोटे recall targets में तोड़ें
 - cards को tag करें ताकि बाद में mistake-driven material साथ में review किया जा सके
 
-उस narrower workflow के लिए companion article है [How to Turn Practice Questions Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/).
+उस narrower workflow के लिए companion article है [How to Turn Practice Questions Into Flashcards in 2026](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/).
 
 ## चार sources से चार decks नहीं, overlap से एक deck बनाएं
 
@@ -154,7 +154,7 @@ Students अक्सर बनाते हैं:
 
 इससे review queue एक ही जगह रहती है, और ज़रूरत पड़ने पर source context भी बचा रहता है।
 
-यहीं decks, tags, filtering, और search सच में practical बनते हैं, सिर्फ़ सजावटी नहीं। आप पूरे finals deck को सामान्य तरीके से review कर सकते हैं, फिर exam बहुत करीब आने पर `practice-miss` या `must-know` पर narrow कर सकते हैं। अगर आपकी organization पहले से बिखर रही है, तो [How to Organize Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-organize-flashcards/) किसी और card-generation guide से बेहतर companion article है।
+यहीं decks, tags, filtering, और search सच में practical बनते हैं, सिर्फ़ सजावटी नहीं। आप पूरे finals deck को सामान्य तरीके से review कर सकते हैं, फिर exam बहुत करीब आने पर `practice-miss` या `must-know` पर narrow कर सकते हैं। अगर आपकी organization पहले से बिखर रही है, तो [How to Organize Flashcards in 2026](https://nibomo.com/blog/how-to-organize-flashcards/) किसी और card-generation guide से बेहतर companion article है।
 
 ## Scope को जितना मन करे उससे ज़्यादा काटें
 
@@ -176,7 +176,7 @@ Scope काटने के सबसे आसान तरीके हैं
 - उस material पर cards बनाना बंद करें जिसे आप पहले से cold जानते हैं
 - यह दिखावा बंद करें कि हर chapter बराबर weight deserve करता है
 
-यहीं [How to Make Better Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/) काम आता है। बेहतर cards आम तौर पर छात्रों की उम्मीद से छोटे, साफ़, और कम होते हैं।
+यहीं [How to Make Better Flashcards in 2026](https://nibomo.com/blog/how-to-make-better-flashcards/) काम आता है। बेहतर cards आम तौर पर छात्रों की उम्मीद से छोटे, साफ़, और कम होते हैं।
 
 ## Timing के लिए FSRS इस्तेमाल करें, लेकिन exam day से पहले intake रोक दें
 
@@ -196,7 +196,7 @@ Finals week में FSRS एक वजह से useful है: यह अच�
 
 जैसे-जैसे exam करीब आता है, काम collecting से हटकर recalling पर आ जाता है।
 
-अगर आप reviews में पहले से पीछे हैं, तो उस समस्या को सीधे हल करें। यह दिखावा न करें कि नया batch जादू से मदद करेगा। [How to Catch Up on Flashcards After Falling Behind in 2026](https://flashcards-open-source-app.com/blog/how-to-catch-up-on-flashcards-after-falling-behind/) सही detour है अगर आपका असली bottleneck queue है।
+अगर आप reviews में पहले से पीछे हैं, तो उस समस्या को सीधे हल करें। यह दिखावा न करें कि नया batch जादू से मदद करेगा। [How to Catch Up on Flashcards After Falling Behind in 2026](https://nibomo.com/blog/how-to-catch-up-on-flashcards-after-falling-behind/) सही detour है अगर आपका असली bottleneck queue है।
 
 ## Finals-week card उस source से तेज़ review होना चाहिए जिससे वह बना है
 
@@ -234,11 +234,11 @@ Finals week में FSRS एक वजह से useful है: यह अच�
 
 ## इस workflow में Flashcards कहाँ fit बैठता है
 
-[Nibomo](https://flashcards-open-source-app.com/) यहाँ इसलिए useful है क्योंकि product finals week की असली messy reality से मेल खाता है, यह मानकर नहीं चलता कि आपकी study inputs पहले से साफ़ आती हैं।
+[Nibomo](https://nibomo.com/) यहाँ इसलिए useful है क्योंकि product finals week की असली messy reality से मेल खाता है, यह मानकर नहीं चलता कि आपकी study inputs पहले से साफ़ आती हैं।
 
 आप hosted web app में files जोड़ सकते हैं, source साफ़ करने में मदद चाहिए तो file attachments के साथ AI chat इस्तेमाल कर सकते हैं, बची हुई काम की चीज़ों को front/back cards में बदल सकते हैं, और decks, tags, filtering, search, और FSRS scheduling के साथ final review loop एक ही जगह रख सकते हैं। Offline-first web, iOS, और Android apps भी finals के दौरान किसी ऐसे browser-only study tab से ज़्यादा समझ में आते हैं जो desk छोड़ते ही गुम हो जाए।
 
-अगर product आज़माने से पहले details देखनी हैं, तो साफ़ overview [features page](https://flashcards-open-source-app.com/features/) पर है। और अगर आप control चाहते हैं, तो project open source है और self-hosting path भी देता है।
+अगर product आज़माने से पहले details देखनी हैं, तो साफ़ overview [features page](https://nibomo.com/features/) पर है। और अगर आप control चाहते हैं, तो project open source है और self-hosting path भी देता है।
 
 ## Finals के लिए काम का सीधा नियम
 

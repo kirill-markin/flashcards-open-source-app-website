@@ -87,7 +87,7 @@ Ya tienes el concepto en tu cabeza en alguna parte. La nota de voz es el complic
 
 Si su fuente es una grabación completa de la clase en lugar de su propio resumen, comience aquí:
 
-- [Cómo convertir grabaciones de conferencias en tarjetas didácticas en 2026](https://flashcards-open-source-app.com/blog/how-to-turn-lecture-recordings-into-flashcards/)
+- [Cómo convertir grabaciones de conferencias en tarjetas didácticas en 2026](https://nibomo.com/blog/how-to-turn-lecture-recordings-into-flashcards/)
 
 ## El flujo de trabajo en el que confío es la grabación breve, la transcripción y luego una limpieza despiadada.
 
@@ -203,7 +203,7 @@ Eso a menudo hace que **estudiar notas de voz con tarjetas didácticas** sea má
 
 Si la fuente sin procesar está escrita a mano en lugar de hablada, este artículo encaja mejor:
 
-- [Cómo convertir notas escritas a mano en tarjetas didácticas en 2026](https://flashcards-open-source-app.com/blog/how-to-turn-handwritten-notes-into-flashcards/)
+- [Cómo convertir notas escritas a mano en tarjetas didácticas en 2026](https://nibomo.com/blog/how-to-turn-handwritten-notes-into-flashcards/)
 
 ## Los flujos de trabajo incorrectos de audio a tarjetas didácticas suelen fallar de las mismas tres maneras
 
@@ -260,11 +260,11 @@ Si el programador es sólido, todo el flujo de trabajo de audio se vuelve creíb
 
 Si desea ver el lado del programador con más detalle, esto es más profundo:
 
-- [FSRS vs SM-2 en 2026: ¿Qué algoritmo de repetición espaciada le ayuda a recordar más?](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [FSRS vs SM-2 en 2026: ¿Qué algoritmo de repetición espaciada le ayuda a recordar más?](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
 ## Dónde encaja Flashcards en este flujo de trabajo
 
-[Nibomo](https://flashcards-open-source-app.com/) es una buena opción para **audio en tarjetas didácticas** porque el producto ya tiene las piezas que este flujo de trabajo necesita en un solo lugar:
+[Nibomo](https://nibomo.com/) es una buena opción para **audio en tarjetas didácticas** porque el producto ya tiene las piezas que este flujo de trabajo necesita en un solo lugar:
 
 - Chat de IA
 - archivos adjuntos

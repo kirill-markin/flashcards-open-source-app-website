@@ -17,7 +17,7 @@ keywords:
 
 本来、こういう作業こそツールが肩代わりすべきです。
 
-[Nibomo](https://flashcards-open-source-app.com/) では、1 つのディスカバリー URL から始められる、オープンソースのエージェント向けログインフローを公開しています。
+[Nibomo](https://nibomo.com/) では、1 つのディスカバリー URL から始められる、オープンソースのエージェント向けログインフローを公開しています。
 
 `https://api.flashcards-open-source-app.com/v1/`
 
@@ -132,7 +132,7 @@ curl https://api.flashcards-open-source-app.com/v1/
   "instructions": "Start with POST https://auth.flashcards-open-source-app.com/api/agent/send-code using the user's email, then POST https://auth.flashcards-open-source-app.com/api/agent/verify-code to obtain an API key. After login, call GET https://api.flashcards-open-source-app.com/v1/agent/me, then GET https://api.flashcards-open-source-app.com/v1/agent/workspaces?limit=100. If no workspace is selected for this API key, call POST https://api.flashcards-open-source-app.com/v1/agent/workspaces/{workspaceId}/select or create one with POST https://api.flashcards-open-source-app.com/v1/agent/workspaces using {\"name\":\"Personal\"}. After workspace bootstrap, use POST https://api.flashcards-open-source-app.com/v1/agent/sql/query for all shared card and deck reads (SHOW TABLES, DESCRIBE, SHOW COLUMNS, SELECT) and POST https://api.flashcards-open-source-app.com/v1/agent/sql/execute for card and deck authoring writes (INSERT, UPDATE, DELETE). Use docs.discoveryUrl for runtime discovery and docs.source.agentRoutesUrl for implementation details. The SQL surface is intentionally limited and is not full PostgreSQL.",
   "docs": {
     "discoveryUrl": "https://api.flashcards-open-source-app.com/v1/",
-    "docsUrl": "https://flashcards-open-source-app.com/docs/",
+    "docsUrl": "https://nibomo.com/docs/",
     "source": {
       "agentRoutesUrl": "https://github.com/kirill-markin/flashcards-open-source-app/tree/main/apps/backend/src/routes"
     }
@@ -309,9 +309,9 @@ Flashcards はオープンソースなので、ブラックボックスとして
 
 参考リンク:
 
-- [Flashcards 公式サイト](https://flashcards-open-source-app.com/)
+- [Flashcards 公式サイト](https://nibomo.com/)
 - [ホスト版アプリ](https://app.flashcards-open-source-app.com/)
-- [スタートガイド](https://flashcards-open-source-app.com/docs/getting-started/)
+- [スタートガイド](https://nibomo.com/docs/getting-started/)
 - [GitHub リポジトリ](https://github.com/kirill-markin/flashcards-open-source-app)
 
 プロダクトがオープンソースで、認証フローが十分に絞られていれば、「エージェントに任せる」は本当に機能するはずです。このフローは、そのために作られています。

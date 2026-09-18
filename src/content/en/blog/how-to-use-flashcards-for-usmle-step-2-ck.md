@@ -51,7 +51,7 @@ Official Step 2 CK specifications emphasize physician tasks more than disease me
 
 That is where **Step 2 CK management flashcards** actually earn their space. They should feel like fast retrieval drills for clinical decisions, not like a second textbook hiding in a deck.
 
-If you are earlier in training and need the broader version of this workflow, [How to Use Flashcards for Medical School in 2026](https://flashcards-open-source-app.com/blog/how-to-use-flashcards-for-medical-school/) is the better upstream article. If you are still in the Step 1 memory world of mechanisms, pathology images, and integrated systems, [How to Use Flashcards for USMLE Step 1 in 2026](https://flashcards-open-source-app.com/blog/how-to-use-flashcards-for-usmle-step-1/) is the closer match.
+If you are earlier in training and need the broader version of this workflow, [How to Use Flashcards for Medical School in 2026](https://nibomo.com/blog/how-to-use-flashcards-for-medical-school/) is the better upstream article. If you are still in the Step 1 memory world of mechanisms, pathology images, and integrated systems, [How to Use Flashcards for USMLE Step 1 in 2026](https://nibomo.com/blog/how-to-use-flashcards-for-usmle-step-1/) is the closer match.
 
 ## Shelf misses should drive more of the deck than your reading does
 
@@ -84,7 +84,7 @@ What usually does **not** deserve a flashcard:
 
 Those are real problems. They are just not flashcard problems.
 
-If the raw material is mostly missed questions, [How to Turn Practice Questions Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/) is the direct companion workflow.
+If the raw material is mostly missed questions, [How to Turn Practice Questions Into Flashcards in 2026](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/) is the direct companion workflow.
 
 ## Build cards around the decision hinge, not around the disease label
 
@@ -229,7 +229,7 @@ Useful tags might look like:
 
 That gives you a cleaner study pattern than building a separate permanent deck for every tiny topic that passes through your service for one week.
 
-If organization is already becoming its own hobby, [How to Organize Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-organize-flashcards/) is the right corrective.
+If organization is already becoming its own hobby, [How to Organize Flashcards in 2026](https://nibomo.com/blog/how-to-organize-flashcards/) is the right corrective.
 
 ## A workable Step 2 CK workflow is boring on purpose
 
@@ -263,7 +263,7 @@ Shift the deck away from "everything I touched this year" and toward:
 
 That is how **Step 2 CK shelf misses** and dedicated review start working together instead of becoming two separate study systems.
 
-If you want the scheduling side in more detail, [How to Study for an Exam With FSRS in 2026](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/) is the direct follow-up.
+If you want the scheduling side in more detail, [How to Study for an Exam With FSRS in 2026](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/) is the direct follow-up.
 
 ## FSRS helps once the cards stop trying to do five jobs at once
 
@@ -290,7 +290,7 @@ If you keep feeding vague cards into the scheduler, you still end up reviewing v
 
 ## Why Flashcards fits this Step 2 CK workflow
 
-If you want to run this inside [Nibomo](https://flashcards-open-source-app.com/), the useful part is not that it replaces the clinical thinking. It gives you a faster path from messy Step 2 source material to smaller, reviewable cards.
+If you want to run this inside [Nibomo](https://nibomo.com/), the useful part is not that it replaces the clinical thinking. It gives you a faster path from messy Step 2 source material to smaller, reviewable cards.
 
 What matters is simpler:
 
@@ -303,7 +303,7 @@ What matters is simpler:
 
 That combination matters because Step 2 CK source material is scattered by default. Shelf questions, ward notes, explanations, and review docs all live in different places. The better system is the one that lets you turn those into narrower cards without turning deck maintenance into its own clerkship.
 
-If the core problem is card quality rather than medical content, [How to Make Better Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/) is the better next read.
+If the core problem is card quality rather than medical content, [How to Make Better Flashcards in 2026](https://nibomo.com/blog/how-to-make-better-flashcards/) is the better next read.
 
 ## The useful rule
 

@@ -82,7 +82,7 @@ keywords:
 
 Если исходник у вас не собственный пересказ, а полная запись занятия, начните отсюда:
 
-- [Как превратить записи лекций в карточки в 2026 году](https://flashcards-open-source-app.com/blog/how-to-turn-lecture-recordings-into-flashcards/)
+- [Как превратить записи лекций в карточки в 2026 году](https://nibomo.com/blog/how-to-turn-lecture-recordings-into-flashcards/)
 
 ## Рабочий процесс, которому я доверяю: короткая запись, транскрипция и затем безжалостная чистка
 
@@ -198,7 +198,7 @@ keywords:
 
 Если исходник у вас рукописный, а не голосовой, эта статья подойдет лучше:
 
-- [Как превратить рукописные заметки в карточки в 2026 году](https://flashcards-open-source-app.com/blog/how-to-turn-handwritten-notes-into-flashcards/)
+- [Как превратить рукописные заметки в карточки в 2026 году](https://nibomo.com/blog/how-to-turn-handwritten-notes-into-flashcards/)
 
 ## Плохие сценарии "аудио в карточки" обычно ломаются в одних и тех же трех местах
 
@@ -255,11 +255,11 @@ keywords:
 
 Если хотите подробнее именно про планировщик, вот отдельная статья:
 
-- [FSRS vs SM-2 in 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [FSRS vs SM-2 in 2026](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
 ## Как сюда вписывается Flashcards
 
-[Nibomo](https://flashcards-open-source-app.com/) хорошо подходит для сценария **аудио в карточки**, потому что в продукте уже собраны все нужные части процесса:
+[Nibomo](https://nibomo.com/) хорошо подходит для сценария **аудио в карточки**, потому что в продукте уже собраны все нужные части процесса:
 
 - чат с ИИ
 - прикрепление файлов

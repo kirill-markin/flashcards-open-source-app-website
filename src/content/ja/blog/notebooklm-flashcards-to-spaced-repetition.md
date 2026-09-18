@@ -116,7 +116,7 @@ keywords:
 
 ## Flashcards がこの流れに合う理由
 
-[Nibomo](https://flashcards-open-source-app.com/) は、このちょうど空いている部分と相性が良いです。単なる生成ツールでも、単なる復習ツールでもなく、「整える段階」を同じ場所で済ませられるからです。
+[Nibomo](https://nibomo.com/) は、このちょうど空いている部分と相性が良いです。単なる生成ツールでも、単なる復習ツールでもなく、「整える段階」を同じ場所で済ませられるからです。
 
 これは多くの人が思う以上に重要です。
 
@@ -150,7 +150,7 @@ keywords:
 
 復習設計をもっと見たいなら、こちらです。
 
-- [2026年の FSRS vs SM-2: どの間隔反復アルゴリズムがより多く覚えられるか](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [2026年の FSRS vs SM-2: どの間隔反復アルゴリズムがより多く覚えられるか](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
 ## 元資料が散らかっているほど、この手順は効く
 
@@ -168,9 +168,9 @@ keywords:
 
 もし元資料がまださらに手前の段階なら、こちらの関連記事も役立ちます。
 
-- [2026年版 ノートをフラッシュカードに変える方法: 手作業のコピペではなく、AIの下書きとFSRSを使う](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
-- [2026年版 PDFをフラッシュカード化する方法: 講義スライド・教科書・論文からFSRS向けカードを作る](https://flashcards-open-source-app.com/blog/how-to-turn-a-pdf-into-flashcards/)
-- [2026年版 Notionのノートをフラッシュカード化する方法: エクスポートし、AIで下書きを作り、FSRSで復習する](https://flashcards-open-source-app.com/blog/how-to-turn-notion-notes-into-flashcards/)
+- [2026年版 ノートをフラッシュカードに変える方法: 手作業のコピペではなく、AIの下書きとFSRSを使う](https://nibomo.com/blog/turn-notes-into-flashcards/)
+- [2026年版 PDFをフラッシュカード化する方法: 講義スライド・教科書・論文からFSRS向けカードを作る](https://nibomo.com/blog/how-to-turn-a-pdf-into-flashcards/)
+- [2026年版 Notionのノートをフラッシュカード化する方法: エクスポートし、AIで下書きを作り、FSRSで復習する](https://nibomo.com/blog/how-to-turn-notion-notes-into-flashcards/)
 
 ## 私なら今週こう使う
 
@@ -199,4 +199,4 @@ Flashcards は整理、カード作成、復習システム。
 
 これが、私が最も信頼している NotebookLM の使い方です。散らかった元資料から候補カードまでは NotebookLM に任せ、そのあとでカードを本物の間隔反復の流れへ移し、整え、短くし、実際のスケジューラで復習する。
 
-それが欲しいなら、[Nibomo](https://flashcards-open-source-app.com/) はかなり良い選択です。AI が作った学習資料から、1か月後にもまだ復習しているかもしれないデッキへ橋をかけてくれます。
+それが欲しいなら、[Nibomo](https://nibomo.com/) はかなり良い選択です。AI が作った学習資料から、1か月後にもまだ復習しているかもしれないデッキへ橋をかけてくれます。

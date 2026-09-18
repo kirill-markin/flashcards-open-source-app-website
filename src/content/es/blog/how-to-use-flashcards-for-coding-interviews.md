@@ -200,7 +200,7 @@ El foco de corto plazo aún puede cambiar rápido.
 
 Si te interesa más la parte amplia de organización, este artículo encaja bien después:
 
-- [How to Organize Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-organize-flashcards/)
+- [How to Organize Flashcards in 2026](https://nibomo.com/blog/how-to-organize-flashcards/)
 
 ## La tarjeta debería ser más simple que la explicación que leíste
 
@@ -257,7 +257,7 @@ El cuello de botella sigue siendo el criterio.
 
 Si te interesa la parte más amplia de crear borradores con IA, empieza aquí:
 
-- [How to Use ChatGPT to Make Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-use-chatgpt-to-make-flashcards/)
+- [How to Use ChatGPT to Make Flashcards in 2026](https://nibomo.com/blog/how-to-use-chatgpt-to-make-flashcards/)
 
 ## Un flujo de trabajo de flashcards para entrevistas de programación que yo sí usaría
 
@@ -278,7 +278,7 @@ Necesitas dejar de olvidar las mismas quince lecciones.
 
 ## Dónde encaja Nibomo
 
-[Nibomo](https://flashcards-open-source-app.com/) encaja bien para **flashcards para entrevistas de programación** porque el producto ya soporta las partes que importan:
+[Nibomo](https://nibomo.com/) encaja bien para **flashcards para entrevistas de programación** porque el producto ya soporta las partes que importan:
 
 - planificación con FSRS para repasos repetidos sin ajustar intervalos a mano
 - mazos, etiquetas, búsqueda y mazos filtrados por etiqueta y nivel de esfuerzo
@@ -292,11 +292,11 @@ Esa combinación importa porque las **flashcards de algoritmos** solo funcionan 
 
 Si tu problema principal es más la calidad de las tarjetas que el contenido específico de entrevistas, este artículo encaja bien:
 
-- [How to Make Better Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [How to Make Better Flashcards in 2026](https://nibomo.com/blog/how-to-make-better-flashcards/)
 
 Si tu cola de repaso ya se siente peligrosa, empieza aquí:
 
-- [How to Catch Up on Flashcards After Falling Behind in 2026](https://flashcards-open-source-app.com/blog/how-to-catch-up-on-flashcards-after-falling-behind/)
+- [How to Catch Up on Flashcards After Falling Behind in 2026](https://nibomo.com/blog/how-to-catch-up-on-flashcards-after-falling-behind/)
 
 ## La regla útil
 

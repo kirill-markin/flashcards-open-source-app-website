@@ -90,7 +90,7 @@ Esto importa porque **la repetición espaciada para la carrera de derecho** no e
 
 Si el punto débil está en cómo redactas las tarjetas, lee esto a continuación:
 
-- [Cómo crear mejores flashcards en 2026](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [Cómo crear mejores flashcards en 2026](https://nibomo.com/blog/how-to-make-better-flashcards/)
 
 ## Los outlines de Derecho son material fuente, no el mazo final
 
@@ -111,7 +111,7 @@ El outline explica la materia en un solo sitio. El mazo comprueba si puedes saca
 
 Si tu material todavía se parece más a apuntes de clase que a un outline terminado, éste es el artículo complementario adecuado:
 
-- [Cómo convertir apuntes en flashcards en 2026](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
+- [Cómo convertir apuntes en flashcards en 2026](https://nibomo.com/blog/turn-notes-into-flashcards/)
 
 ## Las flashcards de issue spotting deberían entrenar disparadores, no respuestas completas de ensayo
 
@@ -150,7 +150,7 @@ Yo mantendría un pequeño flujo de tarjetas derivadas de supuestos durante el s
 
 Si ese flujo es justo lo que necesitas, empieza aquí:
 
-- [Cómo convertir preguntas de práctica en flashcards en 2026](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/)
+- [Cómo convertir preguntas de práctica en flashcards en 2026](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/)
 
 ## Un flujo semanal práctico de flashcards para Derecho
 
@@ -168,7 +168,7 @@ Ese es un flujo mucho más sano para **flashcards para la carrera de derecho** q
 
 Si tu problema principal es la estructura más que la redacción, este artículo encaja directamente:
 
-- [Cómo organizar Flashcards en 2026](https://flashcards-open-source-app.com/blog/how-to-organize-flashcards/)
+- [Cómo organizar Flashcards en 2026](https://nibomo.com/blog/how-to-organize-flashcards/)
 
 ## Las flashcards para el bar exam funcionan mejor cuando el mazo de 1L se construyó limpio
 
@@ -215,12 +215,12 @@ Así que yo mantendría el orden así de simple:
 
 Si quieres más detalle sobre la parte de programación, estos dos artículos encajan mejor:
 
-- [Cómo estudiar para un examen con FSRS en 2026](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/)
-- [FSRS vs SM-2 en 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [Cómo estudiar para un examen con FSRS en 2026](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)
+- [FSRS vs SM-2 en 2026](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
 ## Dónde encaja Flashcards en este flujo de Derecho
 
-Si quieres llevar este flujo dentro de [Nibomo](https://flashcards-open-source-app.com/), la parte útil no es "la IA crea tarjetas" en abstracto. Es que el producto actual ya cubre la parte intermedia y aburrida del trabajo:
+Si quieres llevar este flujo dentro de [Nibomo](https://nibomo.com/), la parte útil no es "la IA crea tarjetas" en abstracto. Es que el producto actual ya cubre la parte intermedia y aburrida del trabajo:
 
 - chat con IA para borradores y limpieza
 - adjuntos de archivos, incluidas subidas de texto plano
@@ -245,9 +245,9 @@ Si quieres **flashcards para la carrera de derecho** que de verdad ayuden:
 
 Si quieres probar ese flujo en Flashcards:
 
-- [Empieza con Nibomo](https://flashcards-open-source-app.com/)
+- [Empieza con Nibomo](https://nibomo.com/)
 - [Abre la app web](https://app.flashcards-open-source-app.com/)
-- [Lee la guía de primeros pasos](https://flashcards-open-source-app.com/docs/getting-started/)
+- [Lee la guía de primeros pasos](https://nibomo.com/docs/getting-started/)
 - [Ver el código fuente en GitHub](https://github.com/kirill-markin/flashcards-open-source-app)
 
 La meta no es construir un outline más bonito con forma de flashcards. La meta es conseguir que las reglas, excepciones y disparadores de issues aparezcan más rápido cuando cambia el patrón de hechos y el reloj está corriendo.

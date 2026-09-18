@@ -60,7 +60,7 @@ Pharmacology में यह सबसे आम गलती है जो म
 
 यहीं 150-card session ऐसी चीज़ बन जाता है जिससे आप बचना शुरू कर देते हैं।
 
-अगर आपकी बड़ी दिक्कत card quality ही है, तो [2026 में बेहतर फ्लैशकार्ड कैसे बनाएँ](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/) इसका सही companion article है।
+अगर आपकी बड़ी दिक्कत card quality ही है, तो [2026 में बेहतर फ्लैशकार्ड कैसे बनाएँ](https://nibomo.com/blog/how-to-make-better-flashcards/) इसका सही companion article है।
 
 ## Trivia से पहले drug class फ्लैशकार्ड आने चाहिए
 
@@ -209,7 +209,7 @@ Pharmacology में यह खास तौर पर सच है, क्�
 - यह class problem थी, mechanism problem, या confusion problem?
 - सबसे छोटा कौन-सा card अगले हफ्ते यही miss दोबारा होने से रोक सकता है?
 
-अगर आपके सबसे अच्छे cards notes के बजाय questions से आ रहे हों, तो [2026 में अभ्यास प्रश्नों से फ्लैशकार्ड कैसे बनाएँ](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/) इसका सीधा अगला article है।
+अगर आपके सबसे अच्छे cards notes के बजाय questions से आ रहे हों, तो [2026 में अभ्यास प्रश्नों से फ्लैशकार्ड कैसे बनाएँ](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/) इसका सीधा अगला article है।
 
 ## Pharmacology को heroic cramming से ज़्यादा revisitation की ज़रूरत होती है
 
@@ -228,7 +228,7 @@ Medical education में spaced repetition पर हुई एक recent [me
 
 इसीलिए **pharmacology spaced repetition** binge review से बेहतर fit है। Subject छोटी-छोटी confusions के ज़रिए decay करता है, इसलिए review system को भी छोटी-छोटी confusions ही repair करनी चाहिए।
 
-अगर आपको card-writing वाले हिस्से के बजाय exam-scheduling वाला हिस्सा चाहिए, तो [2026 में FSRS के साथ परीक्षा की तैयारी कैसे करें](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/) यहाँ सीधे fit बैठता है।
+अगर आपको card-writing वाले हिस्से के बजाय exam-scheduling वाला हिस्सा चाहिए, तो [2026 में FSRS के साथ परीक्षा की तैयारी कैसे करें](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/) यहाँ सीधे fit बैठता है।
 
 ## यह study guidance है, medical advice नहीं
 
@@ -252,12 +252,12 @@ Pharmacology flashcards class structure, mechanisms, adverse effects, contraindi
 
 अगर आपकी queue पहले ही ज़रूरत से भारी होने लगी है, तो ये दो articles आम तौर पर अगली दिक्कत सुलझाते हैं:
 
-- [2026 में रोज़ कितने नए फ्लैशकार्ड?](https://flashcards-open-source-app.com/blog/how-many-new-flashcards-per-day/)
-- [2026 में फ्लैशकार्ड तेज़ी से review कैसे करें](https://flashcards-open-source-app.com/blog/how-to-review-flashcards-faster/)
+- [2026 में रोज़ कितने नए फ्लैशकार्ड?](https://nibomo.com/blog/how-many-new-flashcards-per-day/)
+- [2026 में फ्लैशकार्ड तेज़ी से review कैसे करें](https://nibomo.com/blog/how-to-review-flashcards-faster/)
 
 ## इस workflow में Flashcards कहाँ fit बैठता है
 
-[Nibomo](https://flashcards-open-source-app.com/) इस तरह की pharmacology study के लिए ठीक बैठता है, क्योंकि उपयोगी हिस्सा यह नहीं है कि आप pharmacology को AI के हवाले कर दें। मैं उस तरह पढ़ाई नहीं करूँगा।
+[Nibomo](https://nibomo.com/) इस तरह की pharmacology study के लिए ठीक बैठता है, क्योंकि उपयोगी हिस्सा यह नहीं है कि आप pharmacology को AI के हवाले कर दें। मैं उस तरह पढ़ाई नहीं करूँगा।
 
 उपयोगी हिस्सा इससे ज़्यादा संकरा है:
 

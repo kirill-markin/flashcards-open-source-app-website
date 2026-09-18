@@ -57,7 +57,7 @@ AWS यह भी कहता है कि exam में **50 scored question
 
 उन cards को छोड़ दीजिए जो सिर्फ़ यह साबित करते हैं कि आपने AWS का कोई page एक बार खोल लिया था।
 
-Certification prep में यही बड़ा नियम और जगहों पर भी लागू होता है। अगर आपको इसका broader multi-certification version चाहिए, तो [2026 में AI certifications के लिए फ्लैशकार्ड कैसे इस्तेमाल करें](https://flashcards-open-source-app.com/blog/how-to-use-flashcards-for-ai-certifications/) इसी बात को दूसरे angle से समझाता है।
+Certification prep में यही बड़ा नियम और जगहों पर भी लागू होता है। अगर आपको इसका broader multi-certification version चाहिए, तो [2026 में AI certifications के लिए फ्लैशकार्ड कैसे इस्तेमाल करें](https://nibomo.com/blog/how-to-use-flashcards-for-ai-certifications/) इसी बात को दूसरे angle से समझाता है।
 
 ## सबसे अच्छे SAA-C03 cards definitions नहीं, choices पर होते हैं
 
@@ -140,7 +140,7 @@ Official exam guide की यह line सबसे उपयोगी लाइ
 
 इससे practice material सिर्फ़ frustrating नहीं रहता, reviewable बन जाता है।
 
-अगर इस workflow में bottleneck सबसे ज़्यादा महसूस हो रहा है, तो [2026 में AI फ़्लैशकार्ड कैसे ठीक करें](https://flashcards-open-source-app.com/blog/how-to-fix-ai-flashcards/) misses से cards draft करने के बाद cleanup pass में मदद करेगा।
+अगर इस workflow में bottleneck सबसे ज़्यादा महसूस हो रहा है, तो [2026 में AI फ़्लैशकार्ड कैसे ठीक करें](https://nibomo.com/blog/how-to-fix-ai-flashcards/) misses से cards draft करने के बाद cleanup pass में मदद करेगा।
 
 ## Service short names पर थोड़ा extra ध्यान देना ठीक रहता है
 
@@ -177,7 +177,7 @@ SAA-C03 के लिए मैं abbreviations रटने में extra ti
 - `missed`
 - `needs-recheck`
 
-यह structure सधा हुआ रहता है, लेकिन फिर भी study block से पहले focused subsets निकालने देता है। अगर organization वाला हिस्सा और detail में देखना है, तो [2026 में फ्लैशकार्ड कैसे व्यवस्थित करें](https://flashcards-open-source-app.com/blog/how-to-organize-flashcards/) इसका सही companion article है।
+यह structure सधा हुआ रहता है, लेकिन फिर भी study block से पहले focused subsets निकालने देता है। अगर organization वाला हिस्सा और detail में देखना है, तो [2026 में फ्लैशकार्ड कैसे व्यवस्थित करें](https://nibomo.com/blog/how-to-organize-flashcards/) इसका सही companion article है।
 
 ## Reasoning से cards draft कराने के लिए AI का इस्तेमाल करें, फिर उन्हें सख़्ती से edit करें
 
@@ -194,7 +194,7 @@ OpenAI ने **29 जुलाई 2025** को **Study Mode** introduce कि
 
 मैं पूरी AI conversation को deck में export नहीं करूँगा।
 
-Certification decks तब बेहतर होते हैं जब AI compression और cleanup में मदद करे, न कि polished nonsense की बाढ़ से queue भर दे। [2026 में बेहतर फ्लैशकार्ड कैसे बनाएँ](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/) इसी editing standard को और गहराई से समझाता है।
+Certification decks तब बेहतर होते हैं जब AI compression और cleanup में मदद करे, न कि polished nonsense की बाढ़ से queue भर दे। [2026 में बेहतर फ्लैशकार्ड कैसे बनाएँ](https://nibomo.com/blog/how-to-make-better-flashcards/) इसी editing standard को और गहराई से समझाता है।
 
 ## उबाऊ-सा साप्ताहिक rhythm, heroic AWS binge sessions से बेहतर चलता है
 
@@ -214,7 +214,7 @@ Certification decks तब बेहतर होते हैं जब AI comp
 - study guide से एक giant deck import करना
 - सौ नए cards सिर्फ़ इसलिए बना लेना कि names important लगे
 
-यहीं [2026 में FSRS के साथ परीक्षा की तैयारी कैसे करें](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/) सीधे फिट बैठता है। Scheduler मदद करता है, लेकिन तब ही सबसे अच्छा काम करता है जब card load इतना छोटा रहे कि आप उसे पूरा कर सकें।
+यहीं [2026 में FSRS के साथ परीक्षा की तैयारी कैसे करें](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/) सीधे फिट बैठता है। Scheduler मदद करता है, लेकिन तब ही सबसे अच्छा काम करता है जब card load इतना छोटा रहे कि आप उसे पूरा कर सकें।
 
 ## Exam logistics और volatile facts को एक छोटी temporary layer में रखिए
 
@@ -233,7 +233,7 @@ SAA-C03 की कुछ बातें जानने लायक हैं,
 
 ## इस workflow में Flashcards कहाँ अच्छा fit बैठता है
 
-[Nibomo](https://flashcards-open-source-app.com/) इस तरह की exam prep के लिए अच्छा fit है, क्योंकि product इस काम के दोनों हिस्सों को संभालता है, बिना यह दिखावा किए कि दोनों एक ही चीज़ हैं।
+[Nibomo](https://nibomo.com/) इस तरह की exam prep के लिए अच्छा fit है, क्योंकि product इस काम के दोनों हिस्सों को संभालता है, बिना यह दिखावा किए कि दोनों एक ही चीज़ हैं।
 
 आप यह कर सकते हैं:
 
@@ -257,6 +257,6 @@ SAA-C03 के लिए यह practical setup है, क्योंकि ar
 
 यही वह deck है जो सच में score बदलता है।
 
-और अगर आपके मौजूदा cards अब भी बहुत broad लगते हैं, तो [2026 में अभ्यास प्रश्नों को फ़्लैशकार्ड में कैसे बदलें](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/) अगला बेहतर लेख है, क्योंकि SAA-C03 decks आम तौर पर तब सबसे तेज़ सुधरते हैं जब raw material summaries से नहीं, misses से आता है।
+और अगर आपके मौजूदा cards अब भी बहुत broad लगते हैं, तो [2026 में अभ्यास प्रश्नों को फ़्लैशकार्ड में कैसे बदलें](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/) अगला बेहतर लेख है, क्योंकि SAA-C03 decks आम तौर पर तब सबसे तेज़ सुधरते हैं जब raw material summaries से नहीं, misses से आता है।
 
 SAA-C03 के लिए साफ़ version सीधा है: official domains पढ़िए, practice misses को आक्रामक तरीके से mine कीजिए, जितने छोटे trade-off cards ज़रूरी लगते हैं उससे भी छोटे cards बनाइए, और review timing FSRS पर छोड़ दीजिए। आम तौर पर इतना काफ़ी होता है कि scenario wording slippery होने पर भी सही AWS answer जल्दी सामने आ जाए।

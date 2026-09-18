@@ -92,7 +92,7 @@ Eso es mucho mejor material en bruto para **flashcards para certificaciones de I
 
 Si tu fuente principal son las preguntas de práctica, este artículo complementario encaja directamente:
 
-- [Cómo convertir preguntas de práctica en flashcards en 2026](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/)
+- [Cómo convertir preguntas de práctica en flashcards en 2026](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/)
 
 ## Cuatro tipos de tarjetas funcionan especialmente bien para preparar exámenes de IA
 
@@ -178,7 +178,7 @@ Eso mantiene tranquila la estructura de largo plazo y aun así te deja sacar el 
 
 Si quieres más detalle sobre la parte de organización, lee esto después:
 
-- [Cómo organizar Flashcards en 2026](https://flashcards-open-source-app.com/blog/how-to-organize-flashcards/)
+- [Cómo organizar Flashcards en 2026](https://nibomo.com/blog/how-to-organize-flashcards/)
 
 ## El flujo semanal debería ser aburrido a propósito
 
@@ -202,7 +202,7 @@ La buena versión de **estudiar certificaciones con FSRS** es más pequeña de l
 
 Si el problema real es la carga de repaso, este artículo combina bien con la preparación de certificaciones:
 
-- [Cómo estudiar para un examen con FSRS en 2026](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/)
+- [Cómo estudiar para un examen con FSRS en 2026](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)
 
 ## Guarda los datos sensibles a cambios en una capa temporal más pequeña
 
@@ -242,11 +242,11 @@ Eso normalmente significa:
 
 Si el punto débil está en la calidad de las tarjetas, éste es el siguiente artículo que yo abriría:
 
-- [Cómo hacer mejores flashcards en 2026](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [Cómo hacer mejores flashcards en 2026](https://nibomo.com/blog/how-to-make-better-flashcards/)
 
 ## Dónde encaja mejor Flashcards en este flujo
 
-[Nibomo](https://flashcards-open-source-app.com/) encaja bien en este tipo de preparación de certificaciones porque el producto ya cubre las piezas de las que depende este flujo:
+[Nibomo](https://nibomo.com/) encaja bien en este tipo de preparación de certificaciones porque el producto ya cubre las piezas de las que depende este flujo:
 
 - tarjetas anverso/reverso para preguntas de recuperación limpias
 - chat con IA para crear borradores a partir de apuntes, guías de estudio y material de revisión de preguntas
@@ -276,7 +276,7 @@ Más recuerdo que de verdad sobrevive al cronómetro del examen.
 
 Si quieres probar ese flujo de trabajo:
 
-- [Abrir Nibomo](https://flashcards-open-source-app.com/)
+- [Abrir Nibomo](https://nibomo.com/)
 - [Abrir la app](https://app.flashcards-open-source-app.com/)
-- [Leer la página de funcionalidades](https://flashcards-open-source-app.com/features/)
+- [Leer la página de funcionalidades](https://nibomo.com/features/)
 - [Ver el código fuente en GitHub](https://github.com/kirill-markin/flashcards-open-source-app)

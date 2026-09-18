@@ -88,9 +88,9 @@ Good A&P or biology cards usually test one fact, one distinction, or one step:
 - What is the role of the ribosome?
 - What happens during osmosis?
 
-If cell structures are one of your weak areas, [this 48-card organelle package](https://flashcards-open-source-app.com/catalog/packages/cell-organelles-functions/) drills the names and primary functions of 24 common structures in both directions. It is text-only and not HESI-specific; it does not cover diagrams, pathways, or the rest of biology.
+If cell structures are one of your weak areas, [this 48-card organelle package](https://nibomo.com/catalog/packages/cell-organelles-functions/) drills the names and primary functions of 24 common structures in both directions. It is text-only and not HESI-specific; it does not cover diagrams, pathways, or the rest of biology.
 
-If your school's A&P scope includes cranial nerves, the [84-card Cranial Nerve Flashcards deck](https://flashcards-open-source-app.com/catalog/packages/cranial-nerves-names-functions-tests-flashcards/) reviews their names, numbers, classification as sensory, motor, or mixed, core functions, and high-level assessment cues. It is a general foundation, not HESI-specific material or clinical guidance.
+If your school's A&P scope includes cranial nerves, the [84-card Cranial Nerve Flashcards deck](https://nibomo.com/catalog/packages/cranial-nerves-names-functions-tests-flashcards/) reviews their names, numbers, classification as sensory, motor, or mixed, core functions, and high-level assessment cues. It is a general foundation, not HESI-specific material or clinical guidance.
 
 What usually goes wrong:
 

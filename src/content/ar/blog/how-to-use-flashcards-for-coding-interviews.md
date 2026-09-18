@@ -200,7 +200,7 @@ while left < right:
 
 إذا أردت جانب التنظيم الأوسع، فهذه المقالة مناسبة بعدها مباشرة:
 
-- [كيف تنظّم البطاقات التعليمية في 2026](https://flashcards-open-source-app.com/blog/how-to-organize-flashcards/)
+- [كيف تنظّم البطاقات التعليمية في 2026](https://nibomo.com/blog/how-to-organize-flashcards/)
 
 ## يجب أن تكون البطاقة أبسط من الشرح الذي قرأته
 
@@ -257,7 +257,7 @@ while left < right:
 
 إذا أردت الجانب الأوسع لاستخدام الذكاء الاصطناعي في صياغة المسودات، فابدأ من هنا:
 
-- [كيف تستخدم ChatGPT لصنع البطاقات التعليمية في 2026](https://flashcards-open-source-app.com/blog/how-to-use-chatgpt-to-make-flashcards/)
+- [كيف تستخدم ChatGPT لصنع البطاقات التعليمية في 2026](https://nibomo.com/blog/how-to-use-chatgpt-to-make-flashcards/)
 
 ## سير عمل للبطاقات التعليمية لمقابلات البرمجة يمكنني استخدامه فعلًا
 
@@ -278,7 +278,7 @@ while left < right:
 
 ## أين يناسب Nibomo هذا الاستخدام
 
-[Nibomo](https://flashcards-open-source-app.com/) مناسب جدًا لـ **البطاقات التعليمية لمقابلات البرمجة** لأن المنتج يدعم أصلًا الأجزاء التي تهم:
+[Nibomo](https://nibomo.com/) مناسب جدًا لـ **البطاقات التعليمية لمقابلات البرمجة** لأن المنتج يدعم أصلًا الأجزاء التي تهم:
 
 - جدولة FSRS للمراجعة المتكررة من دون ضبط يدوي للفواصل
 - المجموعات والوسوم والبحث والمجموعات المصفّاة بحسب الوسم ومستوى الجهد
@@ -292,11 +292,11 @@ while left < right:
 
 إذا كانت مشكلتك الأكبر هي جودة البطاقة لا محتوى المقابلة نفسه، فهذه المقالة مناسبة:
 
-- [كيف تصنع بطاقات تعليمية أفضل في 2026](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [كيف تصنع بطاقات تعليمية أفضل في 2026](https://nibomo.com/blog/how-to-make-better-flashcards/)
 
 وإذا كان طابور المراجعة لديك يبدو خطيرًا أصلًا، فابدأ من هنا:
 
-- [كيف تلحق بالبطاقات التعليمية بعد أن تتأخر عنها في 2026](https://flashcards-open-source-app.com/blog/how-to-catch-up-on-flashcards-after-falling-behind/)
+- [كيف تلحق بالبطاقات التعليمية بعد أن تتأخر عنها في 2026](https://nibomo.com/blog/how-to-catch-up-on-flashcards-after-falling-behind/)
 
 ## القاعدة المفيدة
 

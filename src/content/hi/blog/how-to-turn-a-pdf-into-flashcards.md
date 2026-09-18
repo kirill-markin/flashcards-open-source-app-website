@@ -149,11 +149,11 @@ file format बदल सकता है।
 
 अगर आप scheduling वाले हिस्से को थोड़ा और विस्तार से समझना चाहते हैं, तो यह companion article उस पर गहराई से बात करता है:
 
-- [2026 में FSRS बनाम SM-2](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [2026 में FSRS बनाम SM-2](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
 ## इस workflow में Flashcards कहाँ फिट बैठता है
 
-[Nibomo](https://flashcards-open-source-app.com/) **pdf को flashcards में बदलने** के लिए इसलिए अच्छा fit है, क्योंकि इसमें पहले से वही हिस्से एक साथ मौजूद हैं जो वास्तव में मायने रखते हैं:
+[Nibomo](https://nibomo.com/) **pdf को flashcards में बदलने** के लिए इसलिए अच्छा fit है, क्योंकि इसमें पहले से वही हिस्से एक साथ मौजूद हैं जो वास्तव में मायने रखते हैं:
 
 - AI chat
 - file attachments
@@ -194,7 +194,7 @@ PDFs अक्सर lectures, textbooks, exported handouts, और ऐसे do
 
 अगर आपका source पहले से plain text है, document नहीं, तो यह companion piece ज़्यादा उपयुक्त है:
 
-- [2026 में Notes को Flashcards में कैसे बदलें](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
+- [2026 में Notes को Flashcards में कैसे बदलें](https://nibomo.com/blog/turn-notes-into-flashcards/)
 
 ## बेहतर नियम
 
@@ -204,4 +204,4 @@ PDF से यह उम्मीद मत कीजिए कि वह अप
 
 **PDF को flashcards में कैसे बदलें** का यही वह version है जिस पर मुझे सचमुच भरोसा है। इसमें जादू कम है, थोड़ा manual work ज़्यादा है, और ऐसे कार्ड बनने की संभावना कहीं अधिक है जिनका आप तीन review sessions बाद भी सम्मान कर सकें।
 
-अगर आप यही workflow चाहते हैं, तो [Nibomo](https://flashcards-open-source-app.com/) एक मज़बूत विकल्प है: document upload करें, AI से कार्ड तैयार करवाएँ, उन्हें साफ़ करें, और फिर किसी generation demo में छोड़ने के बजाय एक असली spaced repetition system के भीतर पढ़ें।
+अगर आप यही workflow चाहते हैं, तो [Nibomo](https://nibomo.com/) एक मज़बूत विकल्प है: document upload करें, AI से कार्ड तैयार करवाएँ, उन्हें साफ़ करें, और फिर किसी generation demo में छोड़ने के बजाय एक असली spaced repetition system के भीतर पढ़ें।

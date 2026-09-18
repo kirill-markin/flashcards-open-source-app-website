@@ -180,9 +180,9 @@ Wenn du die Folien, Notizen oder ein PDF-Handout hast, nutze sie zusammen mit de
 
 Darum überschneidet sich dieser Workflow auch gut mit ein paar benachbarten Quelltypen:
 
-- [Wie du 2026 eine PDF in Flashcards verwandelst: Vorlesungsfolien, Lehrbücher und Papers zu FSRS-Karten](https://flashcards-open-source-app.com/blog/how-to-turn-a-pdf-into-flashcards/)
-- [Wie du 2026 Notizen in Flashcards verwandelst: KI-Entwürfe mit FSRS statt manuellem Copy-and-paste](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
-- [Wie du 2026 ein YouTube-Video in Flashcards verwandelst: KI-Entwürfe für Vorlesungen, Tutorials und Sprachvideos](https://flashcards-open-source-app.com/blog/youtube-to-flashcards/)
+- [Wie du 2026 eine PDF in Flashcards verwandelst: Vorlesungsfolien, Lehrbücher und Papers zu FSRS-Karten](https://nibomo.com/blog/how-to-turn-a-pdf-into-flashcards/)
+- [Wie du 2026 Notizen in Flashcards verwandelst: KI-Entwürfe mit FSRS statt manuellem Copy-and-paste](https://nibomo.com/blog/turn-notes-into-flashcards/)
+- [Wie du 2026 ein YouTube-Video in Flashcards verwandelst: KI-Entwürfe für Vorlesungen, Tutorials und Sprachvideos](https://nibomo.com/blog/youtube-to-flashcards/)
 
 Andere Quelle, gleiche Grundregel: mit geerdetem Material beginnen und dann schmale Karten entwerfen, statt die KI ein komplettes Lernsystem erfinden zu lassen.
 
@@ -222,7 +222,7 @@ Das ist ein viel besserer Deal, als jeden Satz in eine Karte zu verwandeln und d
 
 ## Wo Flashcards passt
 
-[Nibomo](https://flashcards-open-source-app.com/) passt gut zu **study lecture recordings with flashcards**, weil es den Teil abdeckt, den Transkripte und KI-Entwürfe allein nicht lösen:
+[Nibomo](https://nibomo.com/) passt gut zu **study lecture recordings with flashcards**, weil es den Teil abdeckt, den Transkripte und KI-Entwürfe allein nicht lösen:
 
 - eine echte Flashcards-App mit Front/Back-Karten
 - Decks und Tags
@@ -253,7 +253,7 @@ Wenn du dir die Arbeit gemacht hast, aus einer chaotischen Vorlesung starke Abru
 
 Wenn du die Algorithmus-Seite genauer sehen willst, geht dieser Artikel tiefer:
 
-- [FSRS vs SM-2 in 2026: Welcher Spaced-Repetition-Algorithmus hilft dir, mehr zu behalten?](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [FSRS vs SM-2 in 2026: Welcher Spaced-Repetition-Algorithmus hilft dir, mehr zu behalten?](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
 ## Eine praktische Regel dafür, was eine Karte verdient
 
@@ -287,9 +287,9 @@ Das ist die Version von **how to turn lecture recordings into flashcards**, die 
 
 Wenn du einen **lecture transcript to flashcards**-Workflow aufbauen willst, starte hier:
 
-- [Flashcards öffnen](https://flashcards-open-source-app.com/)
+- [Flashcards öffnen](https://nibomo.com/)
 - [Die App öffnen](https://app.flashcards-open-source-app.com/)
-- [Self-Hosting-Leitfaden](https://flashcards-open-source-app.com/docs/self-hosting/)
+- [Self-Hosting-Leitfaden](https://nibomo.com/docs/self-hosting/)
 - [Den Sourcecode auf GitHub ansehen](https://github.com/kirill-markin/flashcards-open-source-app)
 
 Vorlesungsaufzeichnungen sind wertvoll.

@@ -57,7 +57,7 @@ Ich würde den Exam Guide als Grenze behandeln, nicht als Transkriptionsprojekt.
 
 Überspringe Karten, die nur beweisen, dass du einmal eine AWS-Seite geöffnet hast.
 
-Dieselbe Grundregel gilt auch für andere Zertifizierungen. Wenn du die breitere Version für mehrere Zertifizierungen suchst, macht [Wie du 2026 Flashcards für AI-Zertifizierungen nutzt](https://flashcards-open-source-app.com/blog/how-to-use-flashcards-for-ai-certifications/) denselben Punkt aus einer etwas anderen Perspektive.
+Dieselbe Grundregel gilt auch für andere Zertifizierungen. Wenn du die breitere Version für mehrere Zertifizierungen suchst, macht [Wie du 2026 Flashcards für AI-Zertifizierungen nutzt](https://nibomo.com/blog/how-to-use-flashcards-for-ai-certifications/) denselben Punkt aus einer etwas anderen Perspektive.
 
 ## Die besten SAA-C03-Karten drehen sich um Entscheidungen, nicht um Definitionen
 
@@ -140,7 +140,7 @@ Nach jedem Fehler würde ich drei Dinge notieren, bevor du irgendetwas in eine K
 
 So wird Übungsmaterial zu etwas, das sich wiederholen lässt, statt nur zu etwas Frustrierendem.
 
-Wenn genau dieser Workflow dein Engpass ist, hilft [Wie du 2026 KI-Flashcards reparierst](https://flashcards-open-source-app.com/blog/how-to-fix-ai-flashcards/) bei der Bereinigungsrunde, nachdem du Karten aus Fehlern entworfen hast.
+Wenn genau dieser Workflow dein Engpass ist, hilft [Wie du 2026 KI-Flashcards reparierst](https://nibomo.com/blog/how-to-fix-ai-flashcards/) bei der Bereinigungsrunde, nachdem du Karten aus Fehlern entworfen hast.
 
 ## AWS-Short-Names verdienen etwas extra Aufmerksamkeit
 
@@ -177,7 +177,7 @@ Nützliche Tags könnten sein:
 - `missed`
 - `needs-recheck`
 
-Diese Struktur bleibt ruhig und erlaubt dir trotzdem, vor einer Lerneinheit gezielt Teilmengen herauszuziehen. Wenn du die Organisationsseite ausführlicher willst, ist [Wie du 2026 Flashcards organisierst](https://flashcards-open-source-app.com/blog/how-to-organize-flashcards/) der passende Begleitartikel.
+Diese Struktur bleibt ruhig und erlaubt dir trotzdem, vor einer Lerneinheit gezielt Teilmengen herauszuziehen. Wenn du die Organisationsseite ausführlicher willst, ist [Wie du 2026 Flashcards organisierst](https://nibomo.com/blog/how-to-organize-flashcards/) der passende Begleitartikel.
 
 ## Nutze KI, um Karten aus Begründungen zu entwerfen, und bearbeite sie dann hart
 
@@ -194,7 +194,7 @@ Ich würde KI für Dinge wie diese nutzen:
 
 Ich würde keine kompletten KI-Konversationen ins Deck exportieren.
 
-Zertifizierungsdecks werden besser, wenn KI bei Kompression und Bereinigung hilft, nicht wenn sie die Warteschlange mit poliertem Unsinn flutet. [Wie du 2026 bessere Flashcards erstellst](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/) geht genauer auf diesen Bearbeitungsstandard ein.
+Zertifizierungsdecks werden besser, wenn KI bei Kompression und Bereinigung hilft, nicht wenn sie die Warteschlange mit poliertem Unsinn flutet. [Wie du 2026 bessere Flashcards erstellst](https://nibomo.com/blog/how-to-make-better-flashcards/) geht genauer auf diesen Bearbeitungsstandard ein.
 
 ## Ein langweilig-rhythmischer Wochenablauf funktioniert besser als heroische AWS-Binge-Sessions
 
@@ -214,7 +214,7 @@ Nicht:
 - einen riesigen Deck-Import aus einem Study Guide machen
 - hundert neue Karten hinzufügen, nur weil die Namen wichtig klangen
 
-Genau dazu passt [Wie du 2026 mit FSRS für eine Prüfung lernst](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/). Der Scheduler hilft, aber am besten funktioniert er immer noch, wenn die Kartenlast klein genug bleibt, um wirklich fertig zu werden.
+Genau dazu passt [Wie du 2026 mit FSRS für eine Prüfung lernst](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/). Der Scheduler hilft, aber am besten funktioniert er immer noch, wenn die Kartenlast klein genug bleibt, um wirklich fertig zu werden.
 
 ## Halte Prüfungslogistik und volatile Fakten in einer kleineren temporären Schicht
 
@@ -233,7 +233,7 @@ Ich würde Prüfungslogistik in einer leichteren getaggten Teilmenge wie `exam-f
 
 ## Warum Flashcards gut in diesen Workflow passt
 
-[Nibomo](https://flashcards-open-source-app.com/) passt gut zu dieser Art Prüfungsvorbereitung, weil das Produkt beide Hälften der Arbeit unterstützt, ohne so zu tun, als wären sie dasselbe.
+[Nibomo](https://nibomo.com/) passt gut zu dieser Art Prüfungsvorbereitung, weil das Produkt beide Hälften der Arbeit unterstützt, ohne so zu tun, als wären sie dasselbe.
 
 Du kannst:
 
@@ -257,6 +257,6 @@ Ich würde anfangen mit:
 
 Das ist das Deck, das deinen Score tatsächlich verändert.
 
-Und wenn sich deine aktuellen Karten immer noch zu breit anfühlen, ist [Wie du 2026 Übungsfragen in Flashcards verwandelst](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/) der bessere nächste Text, weil SAA-C03-Decks meistens am schnellsten besser werden, wenn das Rohmaterial aus Fehlern statt aus Zusammenfassungen kommt.
+Und wenn sich deine aktuellen Karten immer noch zu breit anfühlen, ist [Wie du 2026 Übungsfragen in Flashcards verwandelst](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/) der bessere nächste Text, weil SAA-C03-Decks meistens am schnellsten besser werden, wenn das Rohmaterial aus Fehlern statt aus Zusammenfassungen kommt.
 
 Für SAA-C03 ist die saubere Kurzfassung einfach: Lerne die offiziellen Domains, nutze Fehler aus Übungsfragen konsequent, baue kleinere Trade-off-Karten, als du zunächst denkst, und lass FSRS das Wiederholungstiming übernehmen. Das reicht meistens, damit die richtige AWS-Antwort schneller auftaucht, wenn die Formulierung im Szenario rutschig wird.

@@ -17,7 +17,7 @@ keywords:
 
 وهذا بالضبط النوع من العمل الذي يفترض أن تتكفّل به الأداة بدلًا منك.
 
-في [Nibomo](https://flashcards-open-source-app.com/) نتيح الآن مسار تسجيل دخول مفتوح المصدر للوكلاء يبدأ من رابط اكتشاف واحد:
+في [Nibomo](https://nibomo.com/) نتيح الآن مسار تسجيل دخول مفتوح المصدر للوكلاء يبدأ من رابط اكتشاف واحد:
 
 `https://api.flashcards-open-source-app.com/v1/`
 
@@ -132,7 +132,7 @@ curl https://api.flashcards-open-source-app.com/v1/
   "instructions": "Start with POST https://auth.flashcards-open-source-app.com/api/agent/send-code using the user's email, then POST https://auth.flashcards-open-source-app.com/api/agent/verify-code to obtain an API key. After login, call GET https://api.flashcards-open-source-app.com/v1/agent/me, then GET https://api.flashcards-open-source-app.com/v1/agent/workspaces?limit=100. If no workspace is selected for this API key, call POST https://api.flashcards-open-source-app.com/v1/agent/workspaces/{workspaceId}/select or create one with POST https://api.flashcards-open-source-app.com/v1/agent/workspaces using {\"name\":\"Personal\"}. After workspace bootstrap, use POST https://api.flashcards-open-source-app.com/v1/agent/sql/query for all shared card and deck reads (SHOW TABLES, DESCRIBE, SHOW COLUMNS, SELECT) and POST https://api.flashcards-open-source-app.com/v1/agent/sql/execute for card and deck authoring writes (INSERT, UPDATE, DELETE). Use docs.discoveryUrl for runtime discovery and docs.source.agentRoutesUrl for implementation details. The SQL surface is intentionally limited and is not full PostgreSQL.",
   "docs": {
     "discoveryUrl": "https://api.flashcards-open-source-app.com/v1/",
-    "docsUrl": "https://flashcards-open-source-app.com/docs/",
+    "docsUrl": "https://nibomo.com/docs/",
     "source": {
       "agentRoutesUrl": "https://github.com/kirill-markin/flashcards-open-source-app/tree/main/apps/backend/src/routes"
     }
@@ -309,9 +309,9 @@ Flashcards مشروع مفتوح المصدر، لذلك يمكنك فحص هذ�
 
 روابط مفيدة:
 
-- [موقع Flashcards](https://flashcards-open-source-app.com/)
+- [موقع Flashcards](https://nibomo.com/)
 - [التطبيق المستضاف](https://app.flashcards-open-source-app.com/)
-- [البدء](https://flashcards-open-source-app.com/docs/getting-started/)
+- [البدء](https://nibomo.com/docs/getting-started/)
 - [مستودع GitHub](https://github.com/kirill-markin/flashcards-open-source-app)
 
 إذا كان المنتج مفتوح المصدر وكانت واجهة المصادقة محددة وواضحة بما يكفي، فمن المفترض أن تنجح عبارة "دع الوكيل يتولى الأمر" فعلًا. وهذا هو الغرض من هذا المسار.

@@ -20,7 +20,7 @@ Those files solve different problems. The collection package is your way back. T
 
 This workflow is for text-based decks and destinations that can work from TXT or CSV. The text export does not preserve Anki's scheduler state, templates, add-ons, or media files. You will test a representative deck first, inspect every field, and leave the original collection untouched until the result is good enough to use.
 
-> **Disclosure:** I am Kirill Markin, and I build [Nibomo](https://flashcards-open-source-app.com/). This guide is explicit about the cases where staying in Anki, or choosing a destination that imports `.apkg`, is the better decision.
+> **Disclosure:** I am Kirill Markin, and I build [Nibomo](https://nibomo.com/). This guide is explicit about the cases where staying in Anki, or choosing a destination that imports `.apkg`, is the better decision.
 
 **Facts checked:** August 27, 2026.
 

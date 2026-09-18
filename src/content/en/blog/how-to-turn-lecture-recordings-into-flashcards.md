@@ -180,9 +180,9 @@ If you have the slide deck, notes, or a PDF handout, use them alongside the tran
 
 This is also why the workflow overlaps nicely with a few related source types:
 
-- [How to Turn a PDF Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-turn-a-pdf-into-flashcards/)
-- [How to Turn Notes Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
-- [How to Turn a YouTube Video Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/youtube-to-flashcards/)
+- [How to Turn a PDF Into Flashcards in 2026](https://nibomo.com/blog/how-to-turn-a-pdf-into-flashcards/)
+- [How to Turn Notes Into Flashcards in 2026](https://nibomo.com/blog/turn-notes-into-flashcards/)
+- [How to Turn a YouTube Video Into Flashcards in 2026](https://nibomo.com/blog/youtube-to-flashcards/)
 
 Different source, same underlying rule: start from grounded material, then draft narrow cards instead of asking AI to invent a study system for you.
 
@@ -222,7 +222,7 @@ That is a much better deal than turning every sentence into a card and calling i
 
 ## Where Flashcards fits
 
-[Nibomo](https://flashcards-open-source-app.com/) is a strong fit for **study lecture recordings with flashcards** because it covers the part that transcripts and AI drafting do not solve on their own:
+[Nibomo](https://nibomo.com/) is a strong fit for **study lecture recordings with flashcards** because it covers the part that transcripts and AI drafting do not solve on their own:
 
 - a real flashcards app with front/back cards
 - decks and tags
@@ -253,7 +253,7 @@ If you did the work to turn a messy lecture into strong retrieval prompts, you w
 
 If you want the algorithm side in more detail, this article goes deeper:
 
-- [FSRS vs SM-2 in 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [FSRS vs SM-2 in 2026](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
 ## A practical rule for deciding what deserves a card
 
@@ -287,9 +287,9 @@ That is the version of **how to turn lecture recordings into flashcards** that a
 
 If you are building a **lecture transcript to flashcards** workflow, start here:
 
-- [Open Nibomo](https://flashcards-open-source-app.com/)
+- [Open Nibomo](https://nibomo.com/)
 - [Open the app](https://app.flashcards-open-source-app.com/)
-- [Read the self-hosting guide](https://flashcards-open-source-app.com/docs/self-hosting/)
+- [Read the self-hosting guide](https://nibomo.com/docs/self-hosting/)
 - [View the source on GitHub](https://github.com/kirill-markin/flashcards-open-source-app)
 
 Lecture recordings are valuable.

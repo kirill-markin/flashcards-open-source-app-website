@@ -150,7 +150,7 @@ That is much closer to a usable **podcast to anki** workflow than preserving eve
 
 If you want the broader card-writing rules, start here:
 
-- [How to Make Better Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [How to Make Better Flashcards in 2026](https://nibomo.com/blog/how-to-make-better-flashcards/)
 
 ## Different podcasts need different card styles
 
@@ -188,7 +188,7 @@ That is why **podcast notes to flashcards** is not one fixed formula. The source
 
 If the source is more language-practice than general learning, this companion article is the closer fit:
 
-- [How to Use Flashcards for Language Learning in 2026](https://flashcards-open-source-app.com/blog/how-to-use-flashcards-for-language-learning/)
+- [How to Use Flashcards for Language Learning in 2026](https://nibomo.com/blog/how-to-use-flashcards-for-language-learning/)
 
 ## The real time-saver is not generation. It is cutting replay.
 
@@ -219,11 +219,11 @@ FSRS handles that uneven decay better than a fixed review rhythm.
 
 If you want the scheduling side in more detail, this article goes deeper:
 
-- [FSRS vs SM-2 in 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [FSRS vs SM-2 in 2026](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
 ## Where Nibomo fits
 
-[Nibomo](https://flashcards-open-source-app.com/) is a strong fit for **podcast to flashcards** because the product already covers the practical steps that make the workflow usable:
+[Nibomo](https://nibomo.com/) is a strong fit for **podcast to flashcards** because the product already covers the practical steps that make the workflow usable:
 
 - paste or upload plain text from podcast transcripts
 - clean up the material inside AI chat before creating cards
@@ -235,8 +235,8 @@ That combination matters because the hard part is not finding audio. The hard pa
 
 If the source is closer to lectures or YouTube than podcasts, these companion articles fit too:
 
-- [How to Turn Lecture Recordings Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-turn-lecture-recordings-into-flashcards/)
-- [How to Turn a YouTube Video Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/youtube-to-flashcards/)
+- [How to Turn Lecture Recordings Into Flashcards in 2026](https://nibomo.com/blog/how-to-turn-lecture-recordings-into-flashcards/)
+- [How to Turn a YouTube Video Into Flashcards in 2026](https://nibomo.com/blog/youtube-to-flashcards/)
 
 ## The useful rule
 

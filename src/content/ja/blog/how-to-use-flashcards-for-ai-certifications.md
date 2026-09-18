@@ -92,7 +92,7 @@ AWSでさえ、試験対策ガイダンスの中で、試験形式の問題や�
 
 演習問題を主な材料にするなら、次の記事はそのままつながります。
 
-- [2026年版 演習問題をフラッシュカードに変える方法: 間違えた問題からFSRSデッキを作る](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/)
+- [2026年版 演習問題をフラッシュカードに変える方法: 間違えた問題からFSRSデッキを作る](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/)
 
 ## AI試験対策では、4種類のカードがとくに機能しやすい
 
@@ -178,7 +178,7 @@ AWSでさえ、試験対策ガイダンスの中で、試験形式の問題や�
 
 整理の考え方をもう少し詳しく見るなら、次の記事が自然につながります。
 
-- [2026年版 フラッシュカードの整理術: デッキ・タグ・絞り込みレビューで学習を複雑にしない](https://flashcards-open-source-app.com/blog/how-to-organize-flashcards/)
+- [2026年版 フラッシュカードの整理術: デッキ・タグ・絞り込みレビューで学習を複雑にしない](https://nibomo.com/blog/how-to-organize-flashcards/)
 
 ## 毎週の運用は、わざと退屈なくらいでいい
 
@@ -202,7 +202,7 @@ AWSでさえ、試験対策ガイダンスの中で、試験形式の問題や�
 
 本当に重いのが復習負荷のほうなら、次の記事も相性が良いです。
 
-- [2026年に FSRS で試験勉強する方法: 試験日までに終えられるフラッシュカード計画を作る](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/)
+- [2026年に FSRS で試験勉強する方法: 試験日までに終えられるフラッシュカード計画を作る](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)
 
 ## 更新されやすい事実は、小さい一時レイヤーに分ける
 
@@ -242,11 +242,11 @@ PDF を全部読んだことを証明するカードは要りません。
 
 もし弱点がカードの質そのものにあるなら、次に読むならこの記事です。
 
-- [2026年に、より良いフラッシュカードを作る方法: FSRS と噛み合う表裏カードのルール](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [2026年に、より良いフラッシュカードを作る方法: FSRS と噛み合う表裏カードのルール](https://nibomo.com/blog/how-to-make-better-flashcards/)
 
 ## Flashcards がこの流れに合う理由
 
-[Nibomo](https://flashcards-open-source-app.com/) は、この種の資格試験対策にかなり合っています。この運用で必要になる要素が、すでに揃っているからです。
+[Nibomo](https://nibomo.com/) は、この種の資格試験対策にかなり合っています。この運用で必要になる要素が、すでに揃っているからです。
 
 - きれいな想起プロンプトを作れる表裏カード
 - ノート、学習ガイド、問題の振り返りから下書きを作る AI チャット
@@ -278,7 +278,7 @@ AWS AI Practitioner、MicrosoftのAI-900 / AI-901ルート、Google Cloud Genera
 
 この流れを試したいなら、ここから始めてください。
 
-- [Flashcards を開く](https://flashcards-open-source-app.com/)
+- [Flashcards を開く](https://nibomo.com/)
 - [アプリを開く](https://app.flashcards-open-source-app.com/)
-- [機能ページを読む](https://flashcards-open-source-app.com/features/)
+- [機能ページを読む](https://nibomo.com/features/)
 - [GitHub でソースを見る](https://github.com/kirill-markin/flashcards-open-source-app)

@@ -92,7 +92,7 @@ keywords:
 
 如果你的主要素材来源就是练习题，这篇配套文章可以直接接着看：
 
-- [2026 年如何把练习题做成 Flashcards](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/)
+- [2026 年如何把练习题做成 Flashcards](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/)
 
 ## 有四类卡片，特别适合 AI 考试准备
 
@@ -178,7 +178,7 @@ keywords:
 
 如果你想更详细看整理这一侧，可以接着读这篇：
 
-- [2026 年如何整理 Flashcards](https://flashcards-open-source-app.com/blog/how-to-organize-flashcards/)
+- [2026 年如何整理 Flashcards](https://nibomo.com/blog/how-to-organize-flashcards/)
 
 ## 每周工作流最好故意保持“无聊”
 
@@ -202,7 +202,7 @@ keywords:
 
 如果你真正卡住的是复习负载，而不是制卡本身，这篇文章会和认证备考很搭：
 
-- [2026 年如何用 FSRS 备考](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/)
+- [2026 年如何用 FSRS 备考](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)
 
 ## 把易变事实放进一个更小的临时层
 
@@ -242,11 +242,11 @@ keywords:
 
 如果问题其实出在卡片质量本身，而不是资料来源，那我下一篇会先打开这篇：
 
-- [2026 年如何制作更好的 Flashcards](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [2026 年如何制作更好的 Flashcards](https://nibomo.com/blog/how-to-make-better-flashcards/)
 
 ## Flashcards 为什么特别适合这套工作流
 
-[Nibomo](https://flashcards-open-source-app.com/) 很适合这类认证备考，因为这个产品已经支持了这套流程真正依赖的几个环节：
+[Nibomo](https://nibomo.com/) 很适合这类认证备考，因为这个产品已经支持了这套流程真正依赖的几个环节：
 
 - 正反面卡片，适合做干净的回忆提示
 - AI chat，可以根据笔记、学习指南和题目复盘材料起草卡片
@@ -278,7 +278,7 @@ keywords:
 
 如果你想试试这套工作流：
 
-- [打开 Flashcards](https://flashcards-open-source-app.com/)
+- [打开 Flashcards](https://nibomo.com/)
 - [打开应用](https://app.flashcards-open-source-app.com/)
-- [查看功能页面](https://flashcards-open-source-app.com/features/)
+- [查看功能页面](https://nibomo.com/features/)
 - [在 GitHub 上查看源码](https://github.com/kirill-markin/flashcards-open-source-app)

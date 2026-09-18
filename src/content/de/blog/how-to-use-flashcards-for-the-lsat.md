@@ -64,7 +64,7 @@ Schwache Karten klingen meistens wie Themenetiketten:
 
 Das sind Notizen. Keine starken Abrufreize.
 
-Wenn die Kartenqualität das Hauptproblem ist, ist [Wie du 2026 bessere Flashcards erstellst](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/) der richtige Begleitartikel, bevor du noch mehr Karten anlegst.
+Wenn die Kartenqualität das Hauptproblem ist, ist [Wie du 2026 bessere Flashcards erstellst](https://nibomo.com/blog/how-to-make-better-flashcards/) der richtige Begleitartikel, bevor du noch mehr Karten anlegst.
 
 ## LSAT-Logical-Reasoning-Flashcards sollten Argumentbewegungen und Antwortfallen festhalten
 
@@ -165,7 +165,7 @@ Ich würde solche Karten nach Funktion taggen, nicht nur nach Abschnitt:
 
 So bekommt dein Wrong-Answer-Journal ein zweites Leben als Wiederholungssystem statt als Friedhof guter Vorsätze.
 
-Wenn die Nachbereitung von Übungsfragen schon jetzt die Quelle deiner besten Karten ist, geht [Wie du 2026 Übungsfragen in Flashcards verwandelst](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/) bei genau diesem Schritt tiefer.
+Wenn die Nachbereitung von Übungsfragen schon jetzt die Quelle deiner besten Karten ist, geht [Wie du 2026 Übungsfragen in Flashcards verwandelst](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/) bei genau diesem Schritt tiefer.
 
 ## Ein praktischer Wochen-Workflow für LSAT-Flashcards
 
@@ -207,11 +207,11 @@ Was FSRS nicht kann, ist vage Karten oder veraltete Decks zu retten. Ich würde 
 4. schwache Karten schnell löschen
 5. FSRS die Überlebenden planen lassen
 
-Wenn du die Scheduling-Seite ausführlicher willst, sind [Wie du 2026 mit FSRS für eine Prüfung lernst](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/) und [FSRS vs. SM-2 im Jahr 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/) die direkten Anschlussartikel.
+Wenn du die Scheduling-Seite ausführlicher willst, sind [Wie du 2026 mit FSRS für eine Prüfung lernst](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/) und [FSRS vs. SM-2 im Jahr 2026](https://nibomo.com/blog/fsrs-vs-sm-2/) die direkten Anschlussartikel.
 
 ## Wo Nibomo hineinpasst
 
-Wenn du diesen Workflow in [Nibomo](https://flashcards-open-source-app.com/) umsetzen willst, besteht der nützliche Teil nicht aus dem vagen Versprechen, dass KI für dich lernt. Der nützliche Teil ist, dass das aktuelle Produkt schon den Mittelteil der Arbeit unterstützt:
+Wenn du diesen Workflow in [Nibomo](https://nibomo.com/) umsetzen willst, besteht der nützliche Teil nicht aus dem vagen Versprechen, dass KI für dich lernt. Der nützliche Teil ist, dass das aktuelle Produkt schon den Mittelteil der Arbeit unterstützt:
 
 - KI-Chat mit Dateianhängen in der gehosteten Web-App
 - Erstellung und Bearbeitung von Vorder-/Rückseitenkarten
@@ -221,7 +221,7 @@ Wenn du diesen Workflow in [Nibomo](https://flashcards-open-source-app.com/) ums
 
 Das ist wichtig, weil **LSAT Flashcards** nicht nur ein Generierungsproblem sind. Sie sind auch ein Bearbeitungsproblem, ein Organisationsproblem und ein Wiederholungsproblem.
 
-Wenn dein größeres Problem die Deck-Struktur ist, lies [Wie du 2026 Flashcards organisierst](https://flashcards-open-source-app.com/blog/how-to-organize-flashcards/). Wenn du gedanklich schon weiter bis zum 1L-Jahr gehst, ist [Wie du 2026 Flashcards im Jurastudium nutzt](https://flashcards-open-source-app.com/blog/how-to-use-flashcards-for-law-school/) der natürliche nächste Schritt nach der Vorbereitung auf die Zulassung.
+Wenn dein größeres Problem die Deck-Struktur ist, lies [Wie du 2026 Flashcards organisierst](https://nibomo.com/blog/how-to-organize-flashcards/). Wenn du gedanklich schon weiter bis zum 1L-Jahr gehst, ist [Wie du 2026 Flashcards im Jurastudium nutzt](https://nibomo.com/blog/how-to-use-flashcards-for-law-school/) der natürliche nächste Schritt nach der Vorbereitung auf die Zulassung.
 
 ## Bau das Deck, mit dem du den Fehler früher erkennst
 

@@ -101,7 +101,7 @@ SM-2 は説明が簡単です。
 
 大事なのは、実装が本当に丁寧かどうかです。
 
-[Nibomo](https://flashcards-open-source-app.com/) では、FSRS は単なるマーケティング用のラベルではなく、製品として守るべき契約として扱われています。スケジューラの挙動はバックエンドと iOS アプリでそろえられており、web アプリはスケジューリング用データ契約を共有しつつ、別の独立した FSRS 実装は持ちません。各カードには内部の記憶状態が保存され、learning steps と relearning steps は明示され、desired retention、learning steps、relearning steps、maximum interval、fuzz などのワークスペース設定も扱えます。さらに、スケジューリング時には `reviewedAtClient` を通じて実際のクライアント側レビュー時刻を使います。
+[Nibomo](https://nibomo.com/) では、FSRS は単なるマーケティング用のラベルではなく、製品として守るべき契約として扱われています。スケジューラの挙動はバックエンドと iOS アプリでそろえられており、web アプリはスケジューリング用データ契約を共有しつつ、別の独立した FSRS 実装は持ちません。各カードには内部の記憶状態が保存され、learning steps と relearning steps は明示され、desired retention、learning steps、relearning steps、maximum interval、fuzz などのワークスペース設定も扱えます。さらに、スケジューリング時には `reviewedAtClient` を通じて実際のクライアント側レビュー時刻を使います。
 
 一見すると裏側の細かい話ですが、複数のクライアントで同じカードが同じようにスケジュールされるか、少しずつずれていくかを決めるのは、まさにこうした部分です。
 
@@ -133,4 +133,4 @@ SM-2 がこの分野を形作った功績は大きいと思います。ただ、
 
 それこそが、間隔反復の本質です。
 
-スケジューリングの質を単なるチェック項目ではなく、製品の中心的な判断として扱う **オープンソースのフラッシュカードアプリ** を探しているなら、[Nibomo](https://flashcards-open-source-app.com/) はその方向で作られています。
+スケジューリングの質を単なるチェック項目ではなく、製品の中心的な判断として扱う **オープンソースのフラッシュカードアプリ** を探しているなら、[Nibomo](https://nibomo.com/) はその方向で作られています。

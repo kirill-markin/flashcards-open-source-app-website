@@ -77,7 +77,7 @@ Por ejemplo, una tarjeta de renal normalmente no debería pedirte que expliques 
 
 Eso se parece mucho más a cómo se siente de verdad el repaso mixto de Step 1.
 
-Si quieres la versión más amplia para la carrera de medicina en vez de la versión centrada en la fase intensiva de Step 1, lee [Cómo usar flashcards para la carrera de medicina en 2026](https://flashcards-open-source-app.com/blog/how-to-use-flashcards-for-medical-school/).
+Si quieres la versión más amplia para la carrera de medicina en vez de la versión centrada en la fase intensiva de Step 1, lee [Cómo usar flashcards para la carrera de medicina en 2026](https://nibomo.com/blog/how-to-use-flashcards-for-medical-school/).
 
 ## Las tarjetas de patología deberían separar el reconocimiento de patrones del mecanismo
 
@@ -125,7 +125,7 @@ Ejemplos:
 
 Las **flashcards de imágenes de patología Step 1** funcionan mejor cuando enseñan un patrón estable cada vez, en vez de pedirte que reconstruyas un capítulo entero de patología a partir de una sola captura.
 
-Si tu punto débil es el flujo de trabajo con imágenes, [Cómo convertir diagramas en flashcards en 2026](https://flashcards-open-source-app.com/blog/how-to-turn-diagrams-into-flashcards/) es el artículo complementario más cercano.
+Si tu punto débil es el flujo de trabajo con imágenes, [Cómo convertir diagramas en flashcards en 2026](https://nibomo.com/blog/how-to-turn-diagrams-into-flashcards/) es el artículo complementario más cercano.
 
 ## Las tarjetas con imágenes deberían entrenar lo que puedes ver rápido, no lo que puedes releer despacio
 
@@ -220,7 +220,7 @@ Lo que normalmente **no** merece una tarjeta:
 
 Esos son problemas reales. Simplemente no son problemas de flashcards.
 
-Si la mejor fuente de tus tarjetas son las preguntas falladas, [Cómo convertir preguntas de práctica en flashcards en 2026](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/) profundiza más en ese flujo de conversión.
+Si la mejor fuente de tus tarjetas son las preguntas falladas, [Cómo convertir preguntas de práctica en flashcards en 2026](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/) profundiza más en ese flujo de conversión.
 
 ## Las tarjetas de fisiología normalmente deberían ir sobre la dirección del cambio
 
@@ -313,11 +313,11 @@ Así que yo mantendría el orden así de simple:
 4. mantén realista el volumen de tarjetas nuevas durante la fase intensiva
 5. deja que FSRS se encargue del calendario cuando el mazo ya merezca ser programado
 
-Si quieres más detalle sobre la parte de programación, [Cómo estudiar para un examen con FSRS en 2026](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/) es el complemento directo. Si tu cola ya se está descontrolando, [Cuántas flashcards nuevas al día en 2026](https://flashcards-open-source-app.com/blog/how-many-new-flashcards-per-day/) es la siguiente lectura útil.
+Si quieres más detalle sobre la parte de programación, [Cómo estudiar para un examen con FSRS en 2026](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/) es el complemento directo. Si tu cola ya se está descontrolando, [Cuántas flashcards nuevas al día en 2026](https://nibomo.com/blog/how-many-new-flashcards-per-day/) es la siguiente lectura útil.
 
 ## Dónde encaja Flashcards en un flujo de trabajo de Step 1
 
-Si quieres usar esto dentro de [Nibomo](https://flashcards-open-source-app.com/), el valor no es una promesa vaga de que la IA vaya a aprender medicina por ti.
+Si quieres usar esto dentro de [Nibomo](https://nibomo.com/), el valor no es una promesa vaga de que la IA vaya a aprender medicina por ti.
 
 El valor es que el producto ya cubre la parte intermedia práctica del flujo:
 
@@ -329,7 +329,7 @@ El valor es que el producto ya cubre la parte intermedia práctica del flujo:
 
 Eso encaja bien con Step 1 porque el cuello de botella normalmente no es encontrar más información. Es conseguir que la información correcta siga siendo fácil de repasar el tiempo suficiente para sobrevivir a un día de examen mixto.
 
-Si tu principal problema es que la IA sigue redactando tarjetas que parecen pulidas pero se repasan mal, [Cómo arreglar las flashcards creadas con IA en 2026](https://flashcards-open-source-app.com/blog/how-to-fix-ai-flashcards/) es la continuación adecuada.
+Si tu principal problema es que la IA sigue redactando tarjetas que parecen pulidas pero se repasan mal, [Cómo arreglar las flashcards creadas con IA en 2026](https://nibomo.com/blog/how-to-fix-ai-flashcards/) es la continuación adecuada.
 
 ## La regla útil para las flashcards de Step 1 en 2026
 

@@ -87,7 +87,7 @@ Beispiele für starke AP-Psychology-Begriffs-Prompts:
 
 Solche Karten sind stärker als ein riesiges Glossardeck, weil sie genau den Teil trainieren, der unter Druck meistens versagt: die richtige Idee von einer nahe liegenden falschen zu unterscheiden.
 
-Wenn weniger das Fach selbst als die Kartenqualität das Problem ist, ist [Wie du 2026 bessere Flashcards erstellst](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/) der richtige Begleitartikel.
+Wenn weniger das Fach selbst als die Kartenqualität das Problem ist, ist [Wie du 2026 bessere Flashcards erstellst](https://nibomo.com/blog/how-to-make-better-flashcards/) der richtige Begleitartikel.
 
 ## Berühmte Studien brauchen getrennte Karten für Forschende, Ergebnis und den Einsatz in der Prüfung
 
@@ -143,7 +143,7 @@ Ich würde Prompts bauen wie:
 
 Gerade die letzte Frage ist für eine digitale Prüfung wichtiger, als viele erwarten. Eine Grafik, Tabelle oder ein kurzer Artikelausschnitt kann am Bildschirm schwerer wirken, einfach weil Formulierung und Layout ungewohnt sind. Gute Karten trainieren die stabile Idee darunter und nicht nur den genauen Wortlaut.
 
-Wenn deine Übungssets immer wieder dieselben reproduzierbaren Lücken aufdecken, passt [Wie du 2026 Übungsfragen in Flashcards verwandelst](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/) hier direkt dazu.
+Wenn deine Übungssets immer wieder dieselben reproduzierbaren Lücken aufdecken, passt [Wie du 2026 Übungsfragen in Flashcards verwandelst](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/) hier direkt dazu.
 
 ## FRQ-Vorbereitung funktioniert besser, wenn die Karte den Denkschritt speichert
 
@@ -215,7 +215,7 @@ Ich würde die Routine so einfach halten:
 
 Der langweilige Teil ist genau das, was das Deck Ende April und Anfang Mai nutzbar macht, statt nur an einem Wochenende beeindruckend wirken zu lassen.
 
-Wenn ausgerechnet die Organisation immer wieder wegrutscht, passt [Wie du 2026 Flashcards organisierst](https://flashcards-open-source-app.com/blog/how-to-organize-flashcards/) gut zu diesem Workflow.
+Wenn ausgerechnet die Organisation immer wieder wegrutscht, passt [Wie du 2026 Flashcards organisierst](https://nibomo.com/blog/how-to-organize-flashcards/) gut zu diesem Workflow.
 
 ## FSRS ist nützlich, wenn AP-Psychology-Wiederholung ungleichmäßig wird
 
@@ -238,12 +238,12 @@ Darum würde ich die Reihenfolge schlicht halten:
 
 Wenn du die Planungsseite ausführlicher willst, passen diese beiden Artikel am besten:
 
-- [Wie du 2026 mit FSRS für eine Prüfung lernst](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/)
-- [FSRS vs. SM-2 im Jahr 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [Wie du 2026 mit FSRS für eine Prüfung lernst](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)
+- [FSRS vs. SM-2 im Jahr 2026](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
 ## Wo Flashcards in einen AP-Psychology-Workflow passen
 
-Wenn du das innerhalb von [Nibomo](https://flashcards-open-source-app.com/) umsetzen willst, ist der nützliche Teil nicht irgendein vages Versprechen, dass KI AP Psych schon irgendwie für dich übernehmen wird.
+Wenn du das innerhalb von [Nibomo](https://nibomo.com/) umsetzen willst, ist der nützliche Teil nicht irgendein vages Versprechen, dass KI AP Psych schon irgendwie für dich übernehmen wird.
 
 Nützlich ist, dass das Produkt bereits in die Mitte dieses Workflows passt:
 
@@ -257,7 +257,7 @@ Nützlich ist, dass das Produkt bereits in die Mitte dieses Workflows passt:
 
 Das bedeutet: Du kannst einen Stapel Vokabular, einen Screenshot einer Erklärung zu Forschungsmethoden oder eine grobe Korrekturanmerkung zu AAQ oder EBQ nehmen, daraus Kandidatenkarten machen, die schwachen aussortieren und die verbleibenden Karten an einem Ort weiter wiederholen.
 
-Wenn der Entwurfsschritt polierte, aber schlechte Karten erzeugt, ist [Wie du 2026 KI-Flashcards reparierst](https://flashcards-open-source-app.com/blog/how-to-fix-ai-flashcards/) der richtige nächste Schritt.
+Wenn der Entwurfsschritt polierte, aber schlechte Karten erzeugt, ist [Wie du 2026 KI-Flashcards reparierst](https://nibomo.com/blog/how-to-fix-ai-flashcards/) der richtige nächste Schritt.
 
 ## Die Version von AP-Psychology-Flashcards, der ich tatsächlich vertrauen würde
 

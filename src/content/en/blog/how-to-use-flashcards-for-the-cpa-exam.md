@@ -181,7 +181,7 @@ Examples:
 
 This is the direct companion workflow if simulation review is already your best source of cards:
 
-- [How to Turn Practice Questions Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/)
+- [How to Turn Practice Questions Into Flashcards in 2026](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/)
 
 ## A misses-to-cards workflow fits CPA prep better than outline copying
 
@@ -207,11 +207,11 @@ I would keep the weekly loop simple:
 
 If the card-writing part keeps getting mushy, read this next:
 
-- [How to Make Better Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [How to Make Better Flashcards in 2026](https://nibomo.com/blog/how-to-make-better-flashcards/)
 
 If the bigger problem is deck sprawl, this one is the better follow-up:
 
-- [How to Organize Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-organize-flashcards/)
+- [How to Organize Flashcards in 2026](https://nibomo.com/blog/how-to-organize-flashcards/)
 
 ## FSRS helps once the CPA deck stops trying to do everything
 
@@ -229,11 +229,11 @@ I would keep the order simple:
 
 If you want the scheduling side in more detail, this is the direct companion:
 
-- [How to Study for an Exam With FSRS in 2026](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/)
+- [How to Study for an Exam With FSRS in 2026](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)
 
 ## Where Flashcards fits in this CPA workflow
 
-If you want to run this inside [Nibomo](https://flashcards-open-source-app.com/), the useful part is not some vague promise that AI will magically pass the CPA exam for you.
+If you want to run this inside [Nibomo](https://nibomo.com/), the useful part is not some vague promise that AI will magically pass the CPA exam for you.
 
 The useful part is that the product already supports the messy middle of the workflow:
 

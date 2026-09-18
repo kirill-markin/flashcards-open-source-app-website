@@ -87,7 +87,7 @@ Exam में कठिन हिस्सा अक्सर यह नही�
 
 ये किसी बहुत बड़े glossary deck से बेहतर हैं, क्योंकि ये उसी हिस्से को train करते हैं जो दबाव में सबसे ज़्यादा टूटता है: पास के गलत idea से सही idea को अलग करना।
 
-अगर problem subject choice से ज़्यादा card quality की है, तो [2026 में बेहतर फ़्लैशकार्ड कैसे बनाएं](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/) इसके साथ पढ़ने के लिए सही article है।
+अगर problem subject choice से ज़्यादा card quality की है, तो [2026 में बेहतर फ़्लैशकार्ड कैसे बनाएं](https://nibomo.com/blog/how-to-make-better-flashcards/) इसके साथ पढ़ने के लिए सही article है।
 
 ## Famous studies के लिए researcher, finding, और exam use के अलग cards चाहिए
 
@@ -143,7 +143,7 @@ AP Psychology में वह पल बार-बार आता है ज�
 
 यह आखिरी बात students की उम्मीद से ज़्यादा महत्वपूर्ण है। Screen पर graph, table, या article excerpt सिर्फ इसलिए भी कठिन लग सकता है क्योंकि wording और layout नए लगते हैं। अच्छे cards उस स्थिर विचार को train करते हैं जो नई wording के नीचे भी वही रहता है।
 
-अगर practice sets बार-बार वही misses दिखा रहे हैं, तो [2026 में अभ्यास प्रश्नों को फ़्लैशकार्ड में कैसे बदलें](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/) सीधे यहीं फिट बैठता है।
+अगर practice sets बार-बार वही misses दिखा रहे हैं, तो [2026 में अभ्यास प्रश्नों को फ़्लैशकार्ड में कैसे बदलें](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/) सीधे यहीं फिट बैठता है।
 
 ## FRQ prep तब बेहतर काम करता है जब card reasoning move को store करे
 
@@ -215,7 +215,7 @@ AP Psychology में वह पल बार-बार आता है ज�
 
 यही boring हिस्सा late April और early May में deck को usable बनाता है, सिर्फ एक weekend के लिए impressive नहीं।
 
-अगर organization वाला हिस्सा बार-बार बिगड़ रहा है, तो [2026 में फ़्लैशकार्ड कैसे व्यवस्थित करें](https://flashcards-open-source-app.com/blog/how-to-organize-flashcards/) इस workflow के साथ अच्छी तरह बैठता है।
+अगर organization वाला हिस्सा बार-बार बिगड़ रहा है, तो [2026 में फ़्लैशकार्ड कैसे व्यवस्थित करें](https://nibomo.com/blog/how-to-organize-flashcards/) इस workflow के साथ अच्छी तरह बैठता है।
 
 ## जब AP Psychology review uneven हो जाए, तब FSRS उपयोगी होता है
 
@@ -238,12 +238,12 @@ AP Psychology prep शायद ही कभी smooth चलती है। �
 
 अगर scheduling वाले हिस्से को और detail में समझना है, तो ये दो articles सबसे सही हैं:
 
-- [2026 में FSRS के साथ exam की तैयारी कैसे करें](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/)
-- [2026 में FSRS बनाम SM-2](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [2026 में FSRS के साथ exam की तैयारी कैसे करें](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)
+- [2026 में FSRS बनाम SM-2](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
 ## AP Psychology workflow में Flashcards कहाँ fit बैठता है
 
-अगर आप इसे [Nibomo](https://flashcards-open-source-app.com/) के अंदर चलाना चाहते हैं, तो उपयोगी हिस्सा यह नहीं है कि AI किसी जादू से आपके लिए AP Psych पढ़ लेगा।
+अगर आप इसे [Nibomo](https://nibomo.com/) के अंदर चलाना चाहते हैं, तो उपयोगी हिस्सा यह नहीं है कि AI किसी जादू से आपके लिए AP Psych पढ़ लेगा।
 
 उपयोगी हिस्सा यह है कि product पहले से इस workflow के बीच वाले हिस्से में अच्छी तरह बैठता है:
 
@@ -257,7 +257,7 @@ AP Psychology prep शायद ही कभी smooth चलती है। �
 
 इसका मतलब है कि आप शब्दावली के ढेर, research-method explanation के screenshot, या किसी rough AAQ या EBQ correction note को candidate cards में बदल सकते हैं, कमजोर cards हटा सकते हैं, और बचे हुए cards को एक ही जगह review कर सकते हैं।
 
-अगर drafting step polished लेकिन खराब cards बना रहा है, तो [2026 में AI फ़्लैशकार्ड कैसे ठीक करें](https://flashcards-open-source-app.com/blog/how-to-fix-ai-flashcards/) अगला सही article है।
+अगर drafting step polished लेकिन खराब cards बना रहा है, तो [2026 में AI फ़्लैशकार्ड कैसे ठीक करें](https://nibomo.com/blog/how-to-fix-ai-flashcards/) अगला सही article है।
 
 ## AP Psychology flashcards का वही version जिस पर मैं सच में भरोसा करूँगा
 

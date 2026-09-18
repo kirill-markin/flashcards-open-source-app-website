@@ -226,11 +226,11 @@ Quizlet ですら図解専用の学習導線を持ち続けています。それ
 
 もしスクリーンショットが文字中心なら、こちらの関連記事のほうが合うかもしれません。
 
-- [2026年版 記事をフラッシュカード化する方法: 役立つ知識だけ残して、ハイライトの墓場を作らない](https://flashcards-open-source-app.com/blog/how-to-turn-an-article-into-flashcards/)
+- [2026年版 記事をフラッシュカード化する方法: 役立つ知識だけ残して、ハイライトの墓場を作らない](https://nibomo.com/blog/how-to-turn-an-article-into-flashcards/)
 
 構造化された図ではなく、ほぼノートのページならこちらのほうが近いです。
 
-- [2026年版: 手書きノートをフラッシュカードに変える方法 書き直さずに写真・OCR・AI の下書きを使う](https://flashcards-open-source-app.com/blog/how-to-turn-handwritten-notes-into-flashcards/)
+- [2026年版: 手書きノートをフラッシュカードに変える方法 書き直さずに写真・OCR・AI の下書きを使う](https://nibomo.com/blog/how-to-turn-handwritten-notes-into-flashcards/)
 
 ## カードは、毎回1つの視覚的な考えだけを問うべき
 
@@ -296,7 +296,7 @@ Quizlet ですら図解専用の学習導線を持ち続けています。それ
 
 ## Flashcards が合う理由
 
-[Nibomo](https://flashcards-open-source-app.com/) は、図解をフラッシュカードにする流れと相性が良いです。必要な要素が最初から揃っているからです。
+[Nibomo](https://nibomo.com/) は、図解をフラッシュカードにする流れと相性が良いです。必要な要素が最初から揃っているからです。
 
 - AI チャット
 - 画像とファイルの添付
@@ -316,11 +316,11 @@ Quizlet ですら図解専用の学習導線を持ち続けています。それ
 
 復習側の話をもっと見たいなら、こちらも参考になります。
 
-- [2026年の FSRS vs SM-2: どの間隔反復アルゴリズムがより多く覚えられるか](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [2026年の FSRS vs SM-2: どの間隔反復アルゴリズムがより多く覚えられるか](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
 元資料が図そのものより講義スライドや論文に近いなら、こちらから入るほうが合います。
 
-- [2026年版 PDFをフラッシュカード化する方法: 講義スライド・教科書・論文からFSRS向けカードを作る](https://flashcards-open-source-app.com/blog/how-to-turn-a-pdf-into-flashcards/)
+- [2026年版 PDFをフラッシュカード化する方法: 講義スライド・教科書・論文からFSRS向けカードを作る](https://nibomo.com/blog/how-to-turn-a-pdf-into-flashcards/)
 
 ## 役に立つ原則
 

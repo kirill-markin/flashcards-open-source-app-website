@@ -16,7 +16,7 @@ Si ya tienes tus tarjetas y tu historial de repasos en Anki, cambiar de aplicaci
 
 Ese límite determina la mayoría de las comparaciones entre **Anki y Flashcards**. Quédate con Anki si lo que más te importa es conservar la colección tal cual, o si dependes de sus plantillas, complementos, mazos compartidos o de un hábito de repaso ya consolidado. Prueba Flashcards si puedes empezar con un mazo nuevo o compuesto sobre todo por texto y valoras más el acceso al código fuente de toda la pila, la sincronización offline-first, la IA integrada o los flujos de trabajo con agentes.
 
-> **Aviso de transparencia:** Soy Kirill Markin y desarrollo [Nibomo](https://flashcards-open-source-app.com/). Tengo un interés evidente en el producto, así que esta comparación considera Anki la opción predeterminada para los flujos de trabajo que Flashcards todavía no puede reproducir.
+> **Aviso de transparencia:** Soy Kirill Markin y desarrollo [Nibomo](https://nibomo.com/). Tengo un interés evidente en el producto, así que esta comparación considera Anki la opción predeterminada para los flujos de trabajo que Flashcards todavía no puede reproducir.
 
 **Datos verificados:** 23 de agosto de 2026.
 

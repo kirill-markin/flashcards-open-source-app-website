@@ -118,7 +118,7 @@ keywords:
 
 ## أين يناسب Flashcards هذا المسار بصورة أفضل
 
-[Nibomo](https://flashcards-open-source-app.com/) مناسب جدًا لهذه الفجوة تحديدًا، لأنه ليس مجرد أداة توليد، وليس مجرد أداة مراجعة. بل يتيح لك تنفيذ خطوة التنقيح في المكان نفسه الذي ستتم فيه المراجعة لاحقًا.
+[Nibomo](https://nibomo.com/) مناسب جدًا لهذه الفجوة تحديدًا، لأنه ليس مجرد أداة توليد، وليس مجرد أداة مراجعة. بل يتيح لك تنفيذ خطوة التنقيح في المكان نفسه الذي ستتم فيه المراجعة لاحقًا.
 
 وهذا أهم مما يبدو.
 
@@ -152,7 +152,7 @@ keywords:
 
 إذا أردت فهم جانب الجدولة بمزيد من التفصيل، فهذه المقالة المرافقة تتوسع في ذلك:
 
-- [FSRS مقابل SM-2 في 2026: أي خوارزمية تكرار متباعد تساعدك على تذكر المزيد؟](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [FSRS مقابل SM-2 في 2026: أي خوارزمية تكرار متباعد تساعدك على تذكر المزيد؟](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
 ## هذا المسار ينجح أكثر عندما تكون المادة الأصلية فوضوية
 
@@ -170,9 +170,9 @@ keywords:
 
 إذا كانت مادّتك ما تزال في المرحلة السابقة لهذه الخطوة، فقد تساعدك هذه المقالات أيضًا:
 
-- [كيف تحوّل الملاحظات إلى Flashcards في 2026](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
-- [كيف تحوّل ملف PDF إلى Flashcards في 2026](https://flashcards-open-source-app.com/blog/how-to-turn-a-pdf-into-flashcards/)
-- [كيف تحوّل ملاحظات Notion إلى Flashcards في 2026](https://flashcards-open-source-app.com/blog/how-to-turn-notion-notes-into-flashcards/)
+- [كيف تحوّل الملاحظات إلى Flashcards في 2026](https://nibomo.com/blog/turn-notes-into-flashcards/)
+- [كيف تحوّل ملف PDF إلى Flashcards في 2026](https://nibomo.com/blog/how-to-turn-a-pdf-into-flashcards/)
+- [كيف تحوّل ملاحظات Notion إلى Flashcards في 2026](https://nibomo.com/blog/how-to-turn-notion-notes-into-flashcards/)
 
 ## المسار الذي سأستخدمه هذا الأسبوع
 
@@ -201,4 +201,4 @@ NotebookLM يتولى فهم المصدر.
 
 هذه هي نسخة **بطاقات NotebookLM** التي أجدها أكثر إقناعًا: استخدم NotebookLM للانتقال من مصادر فوضوية إلى بطاقات أولية، ثم انقل هذه البطاقات إلى مسار تكرار متباعد حقيقي حيث يمكنك تحريرها، واختصارها، ومراجعتها باستخدام نظام جدولة فعلي.
 
-إذا كان هذا هو ما تبحث عنه، فـ [Nibomo](https://flashcards-open-source-app.com/) مناسب جدًا. فهو يمنحك جسرًا عمليًا بين مواد دراسة مولدة بالذكاء الاصطناعي وبين مجموعة بطاقات قد تظل تراجعها حتى بعد شهر من الآن.
+إذا كان هذا هو ما تبحث عنه، فـ [Nibomo](https://nibomo.com/) مناسب جدًا. فهو يمنحك جسرًا عمليًا بين مواد دراسة مولدة بالذكاء الاصطناعي وبين مجموعة بطاقات قد تظل تراجعها حتى بعد شهر من الآن.

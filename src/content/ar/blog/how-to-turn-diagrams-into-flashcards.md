@@ -224,11 +224,11 @@ keywords:
 
 إذا كانت لقطة الشاشة ثقيلة بالنص، فقد يكون هذا المقال المرافق أنسب:
 
-- [كيفية تحويل مقال إلى Flashcards في 2026](https://flashcards-open-source-app.com/blog/how-to-turn-an-article-into-flashcards/)
+- [كيفية تحويل مقال إلى Flashcards في 2026](https://nibomo.com/blog/how-to-turn-an-article-into-flashcards/)
 
 وإذا كانت في الحقيقة صفحة ملاحظات أكثر من كونها رسمًا منظمًا، فهذه أقرب:
 
-- [كيفية تحويل الملاحظات المكتوبة بخط اليد إلى Flashcards في 2026](https://flashcards-open-source-app.com/blog/how-to-turn-handwritten-notes-into-flashcards/)
+- [كيفية تحويل الملاحظات المكتوبة بخط اليد إلى Flashcards في 2026](https://nibomo.com/blog/how-to-turn-handwritten-notes-into-flashcards/)
 
 ## يجب أن تختبر البطاقة فكرة بصرية واحدة في كل مرة
 
@@ -294,7 +294,7 @@ keywords:
 
 ## أين يناسب Flashcards هذا الاستخدام
 
-[Nibomo](https://flashcards-open-source-app.com/) مناسب جدًا لسير عمل **تحويل الرسوم التخطيطية إلى Flashcards** لأن المنتج يوفّر أصلًا العناصر التي تحتاجها هذه العملية:
+[Nibomo](https://nibomo.com/) مناسب جدًا لسير عمل **تحويل الرسوم التخطيطية إلى Flashcards** لأن المنتج يوفّر أصلًا العناصر التي تحتاجها هذه العملية:
 
 - دردشة ذكاء اصطناعي
 - مرفقات للصور والملفات
@@ -314,11 +314,11 @@ keywords:
 
 إذا كنت تريد التوسع أكثر في جانب الجدولة، فهذه المقالة المرافقة تستحق القراءة:
 
-- [FSRS vs SM-2 في عام 2026: ما خوارزمية التكرار المتباعد التي تساعدك على تذكّر المزيد؟](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [FSRS vs SM-2 في عام 2026: ما خوارزمية التكرار المتباعد التي تساعدك على تذكّر المزيد؟](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
 وإذا كان مصدرك أقرب إلى شرائح محاضرة أو ورقة بحثية منه إلى صورة رسم، فابدأ من هنا:
 
-- [كيفية تحويل PDF إلى Flashcards في 2026](https://flashcards-open-source-app.com/blog/how-to-turn-a-pdf-into-flashcards/)
+- [كيفية تحويل PDF إلى Flashcards في 2026](https://nibomo.com/blog/how-to-turn-a-pdf-into-flashcards/)
 
 ## القاعدة المفيدة التي تستحق الاحتفاظ بها
 
@@ -339,7 +339,7 @@ keywords:
 
 إذا كان هذا ما تريده، فابدأ من هنا:
 
-- [جرّب Flashcards](https://flashcards-open-source-app.com/)
+- [جرّب Flashcards](https://nibomo.com/)
 - [افتح التطبيق](https://app.flashcards-open-source-app.com/)
-- [اقرأ دليل البدء](https://flashcards-open-source-app.com/docs/getting-started/)
+- [اقرأ دليل البدء](https://nibomo.com/docs/getting-started/)
 - [اطّلع على الشيفرة على GitHub](https://github.com/kirill-markin/flashcards-open-source-app)

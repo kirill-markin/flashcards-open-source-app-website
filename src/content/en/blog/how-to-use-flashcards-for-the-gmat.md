@@ -41,7 +41,7 @@ That should change what goes into your deck. A useful 2026 GMAT deck usually lea
 
 It should lean away from giant vocab stacks and leftover idiom advice.
 
-If you want a starting point before your own error log grows, the [GMAT Quant, Verbal, and Data Insights flashcard deck](https://flashcards-open-source-app.com/catalog/packages/gmat-quant-verbal-data-insights-flashcards/) follows that current-format split. Add, rewrite, or delete cards as your official-practice misses show you what needs work.
+If you want a starting point before your own error log grows, the [GMAT Quant, Verbal, and Data Insights flashcard deck](https://nibomo.com/catalog/packages/gmat-quant-verbal-data-insights-flashcards/) follows that current-format split. Add, rewrite, or delete cards as your official-practice misses show you what needs work.
 
 ## Good GMAT flashcards store decisions, not chapters
 
@@ -64,7 +64,7 @@ Weak cards usually sound like topic labels:
 
 Those are notes. They are not strong retrieval prompts.
 
-If card quality is the bigger problem, [How to Make Better Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/) is the better companion article before you build more cards.
+If card quality is the bigger problem, [How to Make Better Flashcards in 2026](https://nibomo.com/blog/how-to-make-better-flashcards/) is the better companion article before you build more cards.
 
 ## GMAT quant flashcards should separate math knowledge from process mistakes
 
@@ -237,7 +237,7 @@ The trick is reducing each miss to the memory target that matters:
 - one interpretation rule
 - one scratch-work failure
 
-If your workflow already starts from explanations and misses, [How to Turn Practice Questions Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/) goes deeper on that step.
+If your workflow already starts from explanations and misses, [How to Turn Practice Questions Into Flashcards in 2026](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/) goes deeper on that step.
 
 ## Use lawful personal notes and summaries, not copied proprietary questions
 
@@ -261,7 +261,7 @@ I would keep it this narrow:
 6. Delete vague cards quickly.
 7. Review due cards daily instead of building a heroic weekend backlog.
 
-If your library already feels messy, [How to Organize Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-organize-flashcards/) is the better follow-up than adding more cards.
+If your library already feels messy, [How to Organize Flashcards in 2026](https://nibomo.com/blog/how-to-organize-flashcards/) is the better follow-up than adding more cards.
 
 ## FSRS helps after the deck gets smaller and sharper
 
@@ -277,11 +277,11 @@ What FSRS does not do is rescue bloated cards or outdated study assumptions. The
 4. let official-practice misses shape the deck
 5. review the survivors with FSRS
 
-If you want the scheduling side in more detail, [How to Study for an Exam With FSRS in 2026](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/) covers that directly.
+If you want the scheduling side in more detail, [How to Study for an Exam With FSRS in 2026](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/) covers that directly.
 
 ## Where Nibomo fits
 
-[Nibomo](https://flashcards-open-source-app.com/) is a good fit for this kind of GMAT prep because it covers the awkward middle between "I missed this question" and "I am reviewing the right memory target tomorrow."
+[Nibomo](https://nibomo.com/) is a good fit for this kind of GMAT prep because it covers the awkward middle between "I missed this question" and "I am reviewing the right memory target tomorrow."
 
 Useful parts for this workflow:
 

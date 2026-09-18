@@ -142,7 +142,7 @@ Transcript 里大多数内容其实都不是 flashcard 材料。
 
 如果你想看更广义的卡片质量规则，可以从这里开始：
 
-- [2026 年如何制作更好的 Flashcards](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [2026 年如何制作更好的 Flashcards](https://nibomo.com/blog/how-to-make-better-flashcards/)
 
 ## ChatGPT Voice 特别擅长暴露“主动产出失败”
 
@@ -173,7 +173,7 @@ Voice conversation 则是互动的。另一边会回应、改写、纠正，并�
 
 如果你的来源是你自己录下的原始音频，而不是互动式对话，那这篇指南会更适合：
 
-- [2026 年如何把 Voice Notes 变成 Flashcards](https://flashcards-open-source-app.com/blog/how-to-turn-voice-notes-into-flashcards/)
+- [2026 年如何把 Voice Notes 变成 Flashcards](https://nibomo.com/blog/how-to-turn-voice-notes-into-flashcards/)
 
 ## 语言学习卡应该尽量贴近你真实会发生的对话
 
@@ -224,8 +224,8 @@ Voice 让练习变得更容易，于是人们开始收集超出自己现实能�
 
 如果你现在更大的问题已经是复习负载，这两篇就正好紧贴着这篇：
 
-- [2026 年每天该加多少新 Flashcards？](https://flashcards-open-source-app.com/blog/how-many-new-flashcards-per-day/)
-- [2026 年落下 Flashcards 之后怎么追上进度](https://flashcards-open-source-app.com/blog/how-to-catch-up-on-flashcards-after-falling-behind/)
+- [2026 年每天该加多少新 Flashcards？](https://nibomo.com/blog/how-many-new-flashcards-per-day/)
+- [2026 年落下 Flashcards 之后怎么追上进度](https://nibomo.com/blog/how-to-catch-up-on-flashcards-after-falling-behind/)
 
 ## FSRS 很重要，因为口语短语的遗忘方式本来就很奇怪
 
@@ -248,11 +248,11 @@ Voice 让练习变得更容易，于是人们开始收集超出自己现实能�
 
 如果你想更深入看排程器部分，这篇会讲得更细：
 
-- [2026 年 FSRS vs SM-2](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [2026 年 FSRS vs SM-2](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
 ## 为什么 Nibomo 很适合
 
-[Nibomo](https://flashcards-open-source-app.com/) 很适合这套工作流，因为它本来就和 voice-based language practice 真正需要的东西对齐：
+[Nibomo](https://nibomo.com/) 很适合这套工作流，因为它本来就和 voice-based language practice 真正需要的东西对齐：
 
 - 干净的 front/back 卡片创建
 - 用于长期复习的 FSRS 排程
@@ -284,7 +284,7 @@ Flashcards 则保留那些你差一点就说出来、但还没真正掌握的语
 
 如果你想要的就是这种工作流，可以从这里开始：
 
-- [打开 Nibomo](https://flashcards-open-source-app.com/)
-- [阅读入门指南](https://flashcards-open-source-app.com/docs/getting-started/)
-- [阅读 API 文档](https://flashcards-open-source-app.com/docs/api/)
+- [打开 Nibomo](https://nibomo.com/)
+- [阅读入门指南](https://nibomo.com/docs/getting-started/)
+- [阅读 API 文档](https://nibomo.com/docs/api/)
 - [在 GitHub 上查看源码](https://github.com/kirill-markin/flashcards-open-source-app)

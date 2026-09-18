@@ -53,7 +53,7 @@ keywords:
 
 Это то же правило, которое делает лучше и обычные карточки:
 
-- [Как делать карточки лучше в 2026 году](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [Как делать карточки лучше в 2026 году](https://nibomo.com/blog/how-to-make-better-flashcards/)
 
 Просто в языковых колодах перегруженные карточки начинают мешать еще быстрее.
 
@@ -167,8 +167,8 @@ keywords:
 
 Если хотите подробнее разобраться именно с расписанием повторений, начните здесь:
 
-- [FSRS и SM-2 в 2026 году](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
-- [Сколько новых карточек в день в 2026 году?](https://flashcards-open-source-app.com/blog/how-many-new-flashcards-per-day/)
+- [FSRS и SM-2 в 2026 году](https://nibomo.com/blog/fsrs-vs-sm-2/)
+- [Сколько новых карточек в день в 2026 году?](https://nibomo.com/blog/how-many-new-flashcards-per-day/)
 
 ## Нагрузка повторения важнее размера колоды
 
@@ -211,9 +211,9 @@ keywords:
 
 Если исходный материал у вас начинается с заметок, расшифровки или ответа из чата, вот полезные статьи на шаг раньше:
 
-- [Как использовать ChatGPT для создания карточек в 2026 году](https://flashcards-open-source-app.com/blog/how-to-use-chatgpt-to-make-flashcards/)
-- [Как превращать голосовые заметки в карточки в 2026 году](https://flashcards-open-source-app.com/blog/how-to-turn-voice-notes-into-flashcards/)
-- [Как превращать видео с YouTube в карточки в 2026 году](https://flashcards-open-source-app.com/blog/youtube-to-flashcards/)
+- [Как использовать ChatGPT для создания карточек в 2026 году](https://nibomo.com/blog/how-to-use-chatgpt-to-make-flashcards/)
+- [Как превращать голосовые заметки в карточки в 2026 году](https://nibomo.com/blog/how-to-turn-voice-notes-into-flashcards/)
+- [Как превращать видео с YouTube в карточки в 2026 году](https://nibomo.com/blog/youtube-to-flashcards/)
 
 ## Стройте колоду вокруг своей реальной цели, а не вокруг абстрактного желания "выучить язык"
 
@@ -231,7 +231,7 @@ keywords:
 
 ## Почему Flashcards хорошо вписывается в такой процесс
 
-[Nibomo](https://flashcards-open-source-app.com/) хорошо подходит для **интервального повторения словаря**, потому что в продукте уже есть ключевые вещи, на которых держится такой подход:
+[Nibomo](https://nibomo.com/) хорошо подходит для **интервального повторения словаря**, потому что в продукте уже есть ключевые вещи, на которых держится такой подход:
 
 - простые карточки с лицевой и обратной сторонами
 - расписание повторений на базе FSRS
@@ -243,9 +243,9 @@ keywords:
 
 Если вы еще и сравниваете более широкие варианты продуктов, ближе всего сюда подходят такие материалы:
 
-- [Альтернатива Memrise в 2026 году](https://flashcards-open-source-app.com/blog/memrise-alternative/)
-- [Альтернатива Quizlet в 2026 году](https://flashcards-open-source-app.com/blog/quizlet-alternative/)
-- [Лучшее офлайн-приложение для карточек в 2026 году](https://flashcards-open-source-app.com/blog/best-offline-flashcards-app/)
+- [Альтернатива Memrise в 2026 году](https://nibomo.com/blog/memrise-alternative/)
+- [Альтернатива Quizlet в 2026 году](https://nibomo.com/blog/quizlet-alternative/)
+- [Лучшее офлайн-приложение для карточек в 2026 году](https://nibomo.com/blog/best-offline-flashcards-app/)
 
 ## Так как же использовать карточки для изучения языка в 2026 году?
 
@@ -260,4 +260,4 @@ keywords:
 
 Вот такой подход к **использованию карточек для изучения языка** я считаю действительно надежным.
 
-Если вам нужен инструмент, выстроенный вокруг такого процесса, [Nibomo](https://flashcards-open-source-app.com/) подойдет хорошо. В нем есть черновики с помощью ИИ, простые карточки с лицевой и обратной сторонами и повторение по FSRS в одном стеке с открытым исходным кодом - а именно это и нужно языковой колоде, когда вы перестаете путать сбор слов с реальным обучением.
+Если вам нужен инструмент, выстроенный вокруг такого процесса, [Nibomo](https://nibomo.com/) подойдет хорошо. В нем есть черновики с помощью ИИ, простые карточки с лицевой и обратной сторонами и повторение по FSRS в одном стеке с открытым исходным кодом - а именно это и нужно языковой колоде, когда вы перестаете путать сбор слов с реальным обучением.

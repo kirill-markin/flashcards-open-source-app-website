@@ -94,7 +94,7 @@ Yo normalmente la dividiría en tarjetas separadas:
 
 La misma regla vale para las tarjetas de definición más ejemplo, de fórmula más excepción y para cualquier tarjeta en la que la respuesta empiece a convertirse en un mini esquema.
 
-Si quieres una versión más profunda de esta idea centrada en cómo escribir tarjetas, [How to Make Better Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/) desarrolla esta idea con más detalle.
+Si quieres una versión más profunda de esta idea centrada en cómo escribir tarjetas, [How to Make Better Flashcards in 2026](https://nibomo.com/blog/how-to-make-better-flashcards/) desarrolla esta idea con más detalle.
 
 ## Reescribe el anverso para que tu yo cansado del futuro lo entienda al instante
 
@@ -153,7 +153,7 @@ Mantén el reverso simple:
 
 Casi cualquier cosa que vaya más allá suele pedir convertirse en otra tarjeta.
 
-Esto importa todavía más si te preocupa la velocidad de repaso más adelante. [How to Review Flashcards Faster in 2026](https://flashcards-open-source-app.com/blog/how-to-review-flashcards-faster/) es, en el fondo, la consecuencia directa de esta decisión de edición.
+Esto importa todavía más si te preocupa la velocidad de repaso más adelante. [How to Review Flashcards Faster in 2026](https://nibomo.com/blog/how-to-review-flashcards-faster/) es, en el fondo, la consecuencia directa de esta decisión de edición.
 
 ## Usa la IA para la segunda pasada de edición, no como autoridad final
 
@@ -189,8 +189,8 @@ Por eso yo usaría esas sesiones para detectar fallos y puntos débiles, no para
 
 Si tu flujo de trabajo empieza antes de la fase de limpieza, estos artículos complementarios encajan mejor:
 
-- [How to Use ChatGPT to Make Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-use-chatgpt-to-make-flashcards/)
-- [How to Turn ChatGPT Study Mode Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-turn-chatgpt-study-mode-into-flashcards/)
+- [How to Use ChatGPT to Make Flashcards in 2026](https://nibomo.com/blog/how-to-use-chatgpt-to-make-flashcards/)
+- [How to Turn ChatGPT Study Mode Into Flashcards in 2026](https://nibomo.com/blog/how-to-turn-chatgpt-study-mode-into-flashcards/)
 
 Este artículo empieza un paso más tarde: las tarjetas ya existen y ahora tienen que convertirse en algo realmente repasable.
 
@@ -215,7 +215,7 @@ Yo revisaría las tarjetas exportadas o copiadas y me preguntaría:
 
 Si no, reescríbela o bórrala.
 
-El puente entre fuente y repetición espaciada se cubre de forma más directa en [How to Turn NotebookLM Flashcards Into Real Spaced Repetition in 2026](https://flashcards-open-source-app.com/blog/notebooklm-flashcards-to-spaced-repetition/). Este artículo es la pasada de limpieza más estricta después de que ese puente ya haya empezado.
+El puente entre fuente y repetición espaciada se cubre de forma más directa en [How to Turn NotebookLM Flashcards Into Real Spaced Repetition in 2026](https://nibomo.com/blog/notebooklm-flashcards-to-spaced-repetition/). Este artículo es la pasada de limpieza más estricta después de que ese puente ya haya empezado.
 
 ## Un flujo de limpieza simple que de verdad funciona
 
@@ -246,11 +246,11 @@ Lo que FSRS sí hace bien es gestionar el calendario de repaso una vez que las t
 - las tarjetas difíciles reciben intervalos más creíbles
 - la cola de repaso se vuelve más tranquila con el tiempo
 
-Si quieres la comparación del planificador en sí, [FSRS vs SM-2 in 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/) cubre esa parte.
+Si quieres la comparación del planificador en sí, [FSRS vs SM-2 in 2026](https://nibomo.com/blog/fsrs-vs-sm-2/) cubre esa parte.
 
 ## Dónde encaja Flashcards en este flujo de trabajo
 
-[Nibomo](https://flashcards-open-source-app.com/) encaja bien en **cómo corregir flashcards de IA** porque el producto ya cubre ese punto intermedio incómodo que la mayoría de los generadores deja sin resolver:
+[Nibomo](https://nibomo.com/) encaja bien en **cómo corregir flashcards de IA** porque el producto ya cubre ese punto intermedio incómodo que la mayoría de los generadores deja sin resolver:
 
 - crear tarjetas de anverso y reverso en la app web alojada
 - usar chat con IA con datos del espacio de trabajo y archivos adjuntos, incluidas cargas de texto plano

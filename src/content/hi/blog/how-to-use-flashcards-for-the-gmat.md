@@ -65,7 +65,7 @@ GMAT prep बहुत सामान्य तरह का fake confidence �
 
 ये notes हैं। मजबूत retrieval prompts नहीं।
 
-अगर बड़ी दिक्कत card quality है, तो ज़्यादा cards बनाने से पहले [2026 में बेहतर फ़्लैशकार्ड कैसे बनाएं](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/) वाला लेख ज़्यादा काम आएगा।
+अगर बड़ी दिक्कत card quality है, तो ज़्यादा cards बनाने से पहले [2026 में बेहतर फ़्लैशकार्ड कैसे बनाएं](https://nibomo.com/blog/how-to-make-better-flashcards/) वाला लेख ज़्यादा काम आएगा।
 
 ## GMAT Quant फ्लैशकार्ड में math knowledge और process mistakes अलग होने चाहिए
 
@@ -238,7 +238,7 @@ official material आपको दिखाता है:
 - एक interpretation rule
 - एक scratch-work failure
 
-अगर आपका workflow पहले से explanations और misses से शुरू होता है, तो [2026 में अभ्यास प्रश्नों को फ़्लैशकार्ड में कैसे बदलें](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/) वाला लेख इस चरण को और गहराई से समझाता है।
+अगर आपका workflow पहले से explanations और misses से शुरू होता है, तो [2026 में अभ्यास प्रश्नों को फ़्लैशकार्ड में कैसे बदलें](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/) वाला लेख इस चरण को और गहराई से समझाता है।
 
 ## copied proprietary questions नहीं, lawful personal notes और summaries इस्तेमाल करें
 
@@ -262,7 +262,7 @@ Nibomo का GMAT या GMAC के साथ कोई official integration �
 6. vague cards को जल्दी हटा दीजिए।
 7. heroic weekend backlog बनाने के बजाय due cards रोज़ review कीजिए।
 
-अगर आपकी library पहले से बिखरी हुई लगती है, तो और cards जोड़ने से पहले [2026 में फ़्लैशकार्ड कैसे व्यवस्थित करें](https://flashcards-open-source-app.com/blog/how-to-organize-flashcards/) वाला लेख ज़्यादा उपयोगी follow-up है।
+अगर आपकी library पहले से बिखरी हुई लगती है, तो और cards जोड़ने से पहले [2026 में फ़्लैशकार्ड कैसे व्यवस्थित करें](https://nibomo.com/blog/how-to-organize-flashcards/) वाला लेख ज़्यादा उपयोगी follow-up है।
 
 ## FSRS तब मदद करता है जब deck छोटा और ज़्यादा साफ़ हो चुका हो
 
@@ -278,11 +278,11 @@ FSRS क्या नहीं करता: यह भरे हुए cards �
 4. official-practice misses को deck shape करने दीजिए
 5. जो cards बचे रहें, उनका FSRS से review कीजिए
 
-अगर आप scheduling वाले हिस्से को और detail में समझना चाहते हैं, तो [2026 में FSRS के साथ परीक्षा की तैयारी कैसे करें](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/) इसे सीधे समझाता है।
+अगर आप scheduling वाले हिस्से को और detail में समझना चाहते हैं, तो [2026 में FSRS के साथ परीक्षा की तैयारी कैसे करें](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/) इसे सीधे समझाता है।
 
 ## Nibomo कहाँ फिट बैठता है
 
-[Nibomo](https://flashcards-open-source-app.com/) इस तरह की GMAT prep के लिए अच्छा fit है, क्योंकि यह "मैंने यह question miss किया" और "मैं कल सही memory target review कर रहा हूँ" के बीच वाले मुश्किल हिस्से को संभालता है।
+[Nibomo](https://nibomo.com/) इस तरह की GMAT prep के लिए अच्छा fit है, क्योंकि यह "मैंने यह question miss किया" और "मैं कल सही memory target review कर रहा हूँ" के बीच वाले मुश्किल हिस्से को संभालता है।
 
 इस workflow के लिए उपयोगी हिस्से:
 

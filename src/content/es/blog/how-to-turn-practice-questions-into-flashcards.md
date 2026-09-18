@@ -180,11 +180,11 @@ El formato de origen no importa demasiado, siempre que puedas extraer la parte �
 
 Si el material es sobre todo texto, puede encajarte mejor un flujo de trabajo centrado en PDF:
 
-- [Cómo convertir un PDF en tarjetas didácticas en 2026](https://flashcards-open-source-app.com/blog/how-to-turn-a-pdf-into-flashcards/)
+- [Cómo convertir un PDF en tarjetas didácticas en 2026](https://nibomo.com/blog/how-to-turn-a-pdf-into-flashcards/)
 
 Si el material se parece más a una sesión de tutoría o a una revisión guiada de cuestionarios, este puede encajar mejor:
 
-- [Cómo convertir el modo de estudio ChatGPT en tarjetas didácticas en 2026](https://flashcards-open-source-app.com/blog/how-to-turn-chatgpt-study-mode-into-flashcards/)
+- [Cómo convertir el modo de estudio ChatGPT en tarjetas didácticas en 2026](https://nibomo.com/blog/how-to-turn-chatgpt-study-mode-into-flashcards/)
 
 ## Conserva el motivo del error, pero no lo metas en el anverso
 
@@ -228,7 +228,7 @@ Eso hace que el borrador salga más limpio y que sea más fácil confiar en la c
 
 ## Dónde encaja Flashcards
 
-[Nibomo](https://flashcards-open-source-app.com/) encaja bien para **convertir preguntas de práctica en tarjetas de estudio** porque el producto ya tiene las piezas que necesita este flujo de trabajo:
+[Nibomo](https://nibomo.com/) encaja bien para **convertir preguntas de práctica en tarjetas de estudio** porque el producto ya tiene las piezas que necesita este flujo de trabajo:
 
 - chat con IA
 - adjuntos de archivos e imágenes
@@ -246,11 +246,11 @@ Quieres un único lugar donde extraer la pregunta, limpiar la tarjeta, organizar
 
 Si quieres profundizar en la parte de programación, lee esto después:
 
-- [Cómo estudiar para un examen con FSRS en 2026](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/)
+- [Cómo estudiar para un examen con FSRS en 2026](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)
 
 Y si el problema principal es la calidad de la tarjeta más que el material de origen, este también ayuda:
 
-- [Cómo hacer mejores tarjetas didácticas en 2026](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [Cómo hacer mejores tarjetas didácticas en 2026](https://nibomo.com/blog/how-to-make-better-flashcards/)
 
 ## La regla útil
 
@@ -273,7 +273,7 @@ Errores más útiles.
 
 Si eso es lo que buscas, empieza aquí:
 
-- [Abrir el sitio de Nibomo](https://flashcards-open-source-app.com/)
+- [Abrir el sitio de Nibomo](https://nibomo.com/)
 - [Abrir la aplicación](https://app.flashcards-open-source-app.com/)
-- [Leer la guía de introducción](https://flashcards-open-source-app.com/docs/getting-started/)
+- [Leer la guía de introducción](https://nibomo.com/docs/getting-started/)
 - [Ver el código fuente en GitHub](https://github.com/kirill-markin/flashcards-open-source-app)

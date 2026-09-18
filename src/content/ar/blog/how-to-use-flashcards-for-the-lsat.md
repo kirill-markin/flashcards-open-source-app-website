@@ -64,7 +64,7 @@ keywords:
 
 هذه مجرد ملاحظات، وليست محفزات استرجاع جيدة.
 
-إذا كانت جودة البطاقة هي المشكلة الأساسية، فهذه المقالة هي المرافقة الأنسب قبل أن تضيف بطاقات أكثر: [How to Make Better Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/).
+إذا كانت جودة البطاقة هي المشكلة الأساسية، فهذه المقالة هي المرافقة الأنسب قبل أن تضيف بطاقات أكثر: [How to Make Better Flashcards in 2026](https://nibomo.com/blog/how-to-make-better-flashcards/).
 
 ## بطاقات LSAT لـ Logical Reasoning يجب أن تتابع مسار الحجة وإجابات الفخ
 
@@ -165,7 +165,7 @@ Reading Comprehension هو المكان الذي يميل فيه الناس إم
 
 هكذا يحصل سجل الإجابات الخاطئة على حياة ثانية كنظام مراجعة، بدل أن يبقى مقبرة للنوايا الحسنة.
 
-إذا كانت مراجعة التدريب أصلًا هي المصدر الأفضل لبطاقاتك، فهذه المقالة تتوسع أكثر في تلك الخطوة: [How to Turn Practice Questions Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/).
+إذا كانت مراجعة التدريب أصلًا هي المصدر الأفضل لبطاقاتك، فهذه المقالة تتوسع أكثر في تلك الخطوة: [How to Turn Practice Questions Into Flashcards in 2026](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/).
 
 ## سير عمل أسبوعي عملي لبطاقات LSAT التعليمية
 
@@ -207,11 +207,11 @@ Nibomo ليس أداة رسمية من LSAC، ولا يملك أي تكامل ر
 4. احذف البطاقات الضعيفة بسرعة
 5. دع FSRS يحدد مواعيد البطاقات التي تستحق البقاء
 
-إذا أردت جانب الجدولة بمزيد من التفصيل، فهاتان المقالتان هما الامتداد المباشر: [How to Study for an Exam With FSRS in 2026](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/) و[FSRS vs SM-2 in 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/).
+إذا أردت جانب الجدولة بمزيد من التفصيل، فهاتان المقالتان هما الامتداد المباشر: [How to Study for an Exam With FSRS in 2026](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/) و[FSRS vs SM-2 in 2026](https://nibomo.com/blog/fsrs-vs-sm-2/).
 
 ## أين يناسب Flashcards هذا السير
 
-إذا أردت تشغيل هذا السير داخل [Nibomo](https://flashcards-open-source-app.com/)، فالنقطة المفيدة ليست وعدًا ضبابيًا بأن الذكاء الاصطناعي سيذاكر بدلًا منك. بل إن المنتج الحالي يدعم أصلًا الجزء الأوسط من العمل:
+إذا أردت تشغيل هذا السير داخل [Nibomo](https://nibomo.com/)، فالنقطة المفيدة ليست وعدًا ضبابيًا بأن الذكاء الاصطناعي سيذاكر بدلًا منك. بل إن المنتج الحالي يدعم أصلًا الجزء الأوسط من العمل:
 
 - محادثة بالذكاء الاصطناعي مع مرفقات ملفات داخل التطبيق المستضاف على الويب
 - إنشاء بطاقات بوجه أمامي ووجه خلفي وتحريرها
@@ -221,7 +221,7 @@ Nibomo ليس أداة رسمية من LSAC، ولا يملك أي تكامل ر
 
 وهذا مهم لأن **بطاقات LSAT التعليمية** ليست مجرد مشكلة إنشاء. بل هي أيضًا مشكلة تحرير، ومشكلة تنظيم، ومشكلة مراجعة.
 
-إذا كانت مشكلتك الأكبر هي بنية المجموعة، فاقرأ [كيف تنظّم البطاقات التعليمية في 2026](https://flashcards-open-source-app.com/blog/how-to-organize-flashcards/). وإذا كنت تفكر بالفعل في سنة 1L لاحقًا، فمقالة [كيف تستخدم البطاقات التعليمية لكلية الحقوق في 2026](https://flashcards-open-source-app.com/blog/how-to-use-flashcards-for-law-school/) هي الخطوة الطبيعية التالية بعد مرحلة القبول.
+إذا كانت مشكلتك الأكبر هي بنية المجموعة، فاقرأ [كيف تنظّم البطاقات التعليمية في 2026](https://nibomo.com/blog/how-to-organize-flashcards/). وإذا كنت تفكر بالفعل في سنة 1L لاحقًا، فمقالة [كيف تستخدم البطاقات التعليمية لكلية الحقوق في 2026](https://nibomo.com/blog/how-to-use-flashcards-for-law-school/) هي الخطوة الطبيعية التالية بعد مرحلة القبول.
 
 ## ابنِ المجموعة التي تساعدك على رؤية الخطأ مبكرًا
 

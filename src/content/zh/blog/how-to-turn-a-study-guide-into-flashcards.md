@@ -252,15 +252,15 @@ AI 生成的提纲通常是：
 
 如果某一部分主要是错题或练习题，这篇更贴近：
 
-- [2026 年如何把练习题做成抽认卡](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/)
+- [2026 年如何把练习题做成抽认卡](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/)
 
 如果这份提纲主要是文档或导出的资料包，也可以一起看这篇：
 
-- [2026 年如何把 PDF 做成抽认卡](https://flashcards-open-source-app.com/blog/how-to-turn-a-pdf-into-flashcards/)
+- [2026 年如何把 PDF 做成抽认卡](https://nibomo.com/blog/how-to-turn-a-pdf-into-flashcards/)
 
 如果这份提纲一开始不是资料包，而是 AI 辅导过程中整理出来的内容，那么这篇会更接近：
 
-- [2026 年如何把 ChatGPT Study Mode 变成抽认卡](https://flashcards-open-source-app.com/blog/how-to-turn-chatgpt-study-mode-into-flashcards/)
+- [2026 年如何把 ChatGPT Study Mode 变成抽认卡](https://nibomo.com/blog/how-to-turn-chatgpt-study-mode-into-flashcards/)
 
 ## 做完后的卡组，应该比原始提纲更轻，而不是更重
 
@@ -281,7 +281,7 @@ AI 生成的提纲通常是：
 
 ## Flashcards 在这个流程里适合做什么
 
-[Nibomo](https://flashcards-open-source-app.com/) 很适合用来处理 **学习提纲转抽认卡**，因为这个产品已经具备这套流程真正需要的几个部分：
+[Nibomo](https://nibomo.com/) 很适合用来处理 **学习提纲转抽认卡**，因为这个产品已经具备这套流程真正需要的几个部分：
 
 - 用 AI 对话重组粗糙的提纲文字
 - 支持文件和图片附件
@@ -299,11 +299,11 @@ AI 生成的提纲通常是：
 
 如果你真正卡住的是卡片质量本身，下一篇建议读这个：
 
-- [2026 年如何制作更好的抽认卡](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [2026 年如何制作更好的抽认卡](https://nibomo.com/blog/how-to-make-better-flashcards/)
 
 如果你真正需要的是在考试日期前安排复习负荷，这篇也很适合：
 
-- [2026 年如何用 FSRS 备考](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/)
+- [2026 年如何用 FSRS 备考](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)
 
 ## 真正有用的一条规则
 
@@ -321,7 +321,7 @@ AI 生成的提纲通常是：
 
 如果这正是你想要的，可以从这里开始：
 
-- [打开 Flashcards 官网](https://flashcards-open-source-app.com/)
+- [打开 Flashcards 官网](https://nibomo.com/)
 - [打开应用](https://app.flashcards-open-source-app.com/)
-- [阅读入门指南](https://flashcards-open-source-app.com/docs/getting-started/)
+- [阅读入门指南](https://nibomo.com/docs/getting-started/)
 - [在 GitHub 上查看源码](https://github.com/kirill-markin/flashcards-open-source-app)

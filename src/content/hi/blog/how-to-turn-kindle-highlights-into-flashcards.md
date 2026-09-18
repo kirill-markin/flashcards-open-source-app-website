@@ -152,7 +152,7 @@ card को फिर भी simple होना चाहिए।
 
 अगर आप broader card-writing rules चाहते हैं, तो यहाँ से शुरू करें:
 
-- [2026 में बेहतर Flashcards कैसे बनाएं](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [2026 में बेहतर Flashcards कैसे बनाएं](https://nibomo.com/blog/how-to-make-better-flashcards/)
 
 ## Nonfiction, textbooks, और language books को एक जैसी card style नहीं चाहिए
 
@@ -188,7 +188,7 @@ highlights का उपयोग करें:
 
 अगर आपका लक्ष्य general reading के बजाय language practice है, तो यह companion piece ज़्यादा क़रीब है:
 
-- [2026 में भाषा सीखने के लिए Flashcards का उपयोग कैसे करें](https://flashcards-open-source-app.com/blog/how-to-use-flashcards-for-language-learning/)
+- [2026 में भाषा सीखने के लिए Flashcards का उपयोग कैसे करें](https://nibomo.com/blog/how-to-use-flashcards-for-language-learning/)
 
 ## Kindle highlights ख़ास तौर पर खतरनाक हैं क्योंकि वे जितनी organized लगती हैं, उतनी होती नहीं
 
@@ -225,11 +225,11 @@ FSRS fixed review rules की तुलना में इस वास्त�
 
 अगर आप scheduling part को detail में समझना चाहते हैं, तो यह article और गहराई में जाती है:
 
-- [2026 में FSRS बनाम SM-2](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [2026 में FSRS बनाम SM-2](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
 ## Nibomo कहाँ फिट बैठता है
 
-[Nibomo](https://flashcards-open-source-app.com/) **Kindle highlights से flashcards** के लिए अच्छा fit है क्योंकि product पहले से workflow के practical parts cover करता है:
+[Nibomo](https://nibomo.com/) **Kindle highlights से flashcards** के लिए अच्छा fit है क्योंकि product पहले से workflow के practical parts cover करता है:
 
 - exported highlights से text paste या upload करना
 - cards बनाने से पहले AI chat में material साफ़ करना
@@ -241,7 +241,7 @@ FSRS fixed review rules की तुलना में इस वास्त�
 
 अगर आपका source ebook highlights से ज़्यादा broad notes है, तो यह companion piece बेहतर है:
 
-- [2026 में Notes को Flashcards में कैसे बदलें](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
+- [2026 में Notes को Flashcards में कैसे बदलें](https://nibomo.com/blog/turn-notes-into-flashcards/)
 
 ## उपयोगी नियम
 

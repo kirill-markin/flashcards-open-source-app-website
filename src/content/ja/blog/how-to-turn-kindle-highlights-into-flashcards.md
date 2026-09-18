@@ -152,7 +152,7 @@ Kindle のノートブック全体をそのままデッキにすると、一見�
 
 カードの作り方をもう少し広く整理したいなら、こちらからどうぞ。
 
-- [2026年、より良いフラッシュカードを作る方法: FSRS と実際に噛み合う表裏カードのルール](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [2026年、より良いフラッシュカードを作る方法: FSRS と実際に噛み合う表裏カードのルール](https://nibomo.com/blog/how-to-make-better-flashcards/)
 
 ## 一般書、教科書、語学の本に同じカードの作り方を使うべきではない
 
@@ -188,7 +188,7 @@ Kindle のノートブック全体をそのままデッキにすると、一見�
 
 目的が一般的な読書ではなく語学練習なら、こちらの記事のほうが合います。
 
-- [2026年、語学学習にフラッシュカードを使う方法: 本当に定着する語彙、例文、復習](https://flashcards-open-source-app.com/blog/how-to-use-flashcards-for-language-learning/)
+- [2026年、語学学習にフラッシュカードを使う方法: 本当に定着する語彙、例文、復習](https://nibomo.com/blog/how-to-use-flashcards-for-language-learning/)
 
 ## Kindle のハイライトは、整理されて見えるぶん危険
 
@@ -225,11 +225,11 @@ FSRS は、その現実を固定的な復習ルールよりうまく扱えます
 
 スケジューリングの話をもう少し詳しく知りたいなら、こちらです。
 
-- [2026年の FSRS vs SM-2: どの間隔反復アルゴリズムがより多く覚えられるか](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [2026年の FSRS vs SM-2: どの間隔反復アルゴリズムがより多く覚えられるか](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
 ## Nibomo が向いている理由
 
-[Nibomo](https://flashcards-open-source-app.com/) は、Kindle のハイライトをフラッシュカード化したいときに相性が良いです。必要な作業の実務的な部分が、すでにそろっているからです。
+[Nibomo](https://nibomo.com/) は、Kindle のハイライトをフラッシュカード化したいときに相性が良いです。必要な作業の実務的な部分が、すでにそろっているからです。
 
 - 書き出したハイライトの本文を貼り付けるかアップロードできる
 - カードを作る前に AI チャットで内容を整えられる
@@ -241,7 +241,7 @@ FSRS は、その現実を固定的な復習ルールよりうまく扱えます
 
 電子書籍のハイライトより幅広いメモを元にしているなら、こちらの記事のほうが合います。
 
-- [2026年、メモをフラッシュカードに変える方法: 手作業のコピペの代わりにAIで下書きし、FSRSを使う](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
+- [2026年、メモをフラッシュカードに変える方法: 手作業のコピペの代わりにAIで下書きし、FSRSを使う](https://nibomo.com/blog/turn-notes-into-flashcards/)
 
 ## 覚えておきたいルール
 
@@ -261,7 +261,7 @@ FSRS は、その現実を固定的な復習ルールよりうまく扱えます
 
 それが欲しいなら、ここから始めてください。
 
-- [Nibomo を開く](https://flashcards-open-source-app.com/)
-- [スタートガイドを読む](https://flashcards-open-source-app.com/docs/getting-started/)
-- [API ドキュメントを読む](https://flashcards-open-source-app.com/docs/api/)
+- [Nibomo を開く](https://nibomo.com/)
+- [スタートガイドを読む](https://nibomo.com/docs/getting-started/)
+- [API ドキュメントを読む](https://nibomo.com/docs/api/)
 - [GitHub でソースを見る](https://github.com/kirill-markin/flashcards-open-source-app)

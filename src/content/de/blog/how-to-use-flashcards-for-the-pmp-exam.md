@@ -114,7 +114,7 @@ Beispiele:
 - Vorderseite: Wann verdient eine Formel eine dauerhafte Flashcard?
 - Rückseite: Wenn du sie unter Zeitdruck wiederholt abrufen oder interpretieren musst, nicht bloß weil sie einmal in einem Kapitel vorkam.
 
-Hier blähen sich auch KI-generierte Entwürfe schnell auf. Wenn eine Formelkarte mit einer Mini-Abhandlung daherkommt, kürze sie oder teile sie auf. [Wie du 2026 bessere Flashcards erstellst](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/) ist der richtige nächste Artikel, wenn deine Entwürfe ständig zu kleinen Aufsätzen werden.
+Hier blähen sich auch KI-generierte Entwürfe schnell auf. Wenn eine Formelkarte mit einer Mini-Abhandlung daherkommt, kürze sie oder teile sie auf. [Wie du 2026 bessere Flashcards erstellst](https://nibomo.com/blog/how-to-make-better-flashcards/) ist der richtige nächste Artikel, wenn deine Entwürfe ständig zu kleinen Aufsätzen werden.
 
 ## Business Environment ist kein winziges Nebenthema mehr
 
@@ -164,7 +164,7 @@ Zum Beispiel:
 - Vorderseite: Was solltest du aus einer verfehlten Formel-Frage behalten?
 - Rückseite: Den Setup- oder Interpretationsfehler, der den Fehler ausgelöst hat, nicht nur die finale Rechnung.
 
-Wenn deine Probeprüfungen und Quizze bereits das beste Rohmaterial liefern, geht [Wie du 2026 Übungsfragen in Flashcards verwandelst](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/) tiefer in genau diesen Workflow.
+Wenn deine Probeprüfungen und Quizze bereits das beste Rohmaterial liefern, geht [Wie du 2026 Übungsfragen in Flashcards verwandelst](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/) tiefer in genau diesen Workflow.
 
 ## Halte das PMP-Deck nach Funktion organisiert, nicht nur nach Kapiteln
 
@@ -190,7 +190,7 @@ Für PMP würde ich normalerweise ein zentrales Prüfungsdeck behalten und nach 
 
 Dann würde ich nur dann nach Quelle taggen, wenn es später wirklich hilft, etwa mit `mock-1` oder `chapter-8`.
 
-So bleibt die Wiederholungswarteschlange sauberer, ohne dass das Deck zu einem Ordnerverwaltungsprojekt wird. Wenn die Organisation der Teil ist, der dir ständig wegrutscht, ist [Wie du 2026 Flashcards organisierst](https://flashcards-open-source-app.com/blog/how-to-organize-flashcards/) die praktische nächste Lektüre.
+So bleibt die Wiederholungswarteschlange sauberer, ohne dass das Deck zu einem Ordnerverwaltungsprojekt wird. Wenn die Organisation der Teil ist, der dir ständig wegrutscht, ist [Wie du 2026 Flashcards organisierst](https://nibomo.com/blog/how-to-organize-flashcards/) die praktische nächste Lektüre.
 
 ## Ein wöchentlicher PMP-Flashcard-Workflow, der im echten Lernalltag funktioniert
 
@@ -225,11 +225,11 @@ Die Reihenfolge zählt:
 4. das Volumen neuer Karten realistisch halten
 5. FSRS die Planung überlassen, sobald das Deck es wert ist, geplant zu werden
 
-Wenn du die Planungsseite ausführlicher willst, ist [Wie du 2026 mit FSRS für eine Prüfung lernst](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/) der direkte Begleitartikel.
+Wenn du die Planungsseite ausführlicher willst, ist [Wie du 2026 mit FSRS für eine Prüfung lernst](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/) der direkte Begleitartikel.
 
 ## Wo Flashcards in diesen PMP-Workflow hineinpasst
 
-Wenn du das in [Nibomo](https://flashcards-open-source-app.com/) umsetzen willst, liegt der nützliche Teil nicht in dem vagen Versprechen, dass KI irgendwie für dich lernen wird.
+Wenn du das in [Nibomo](https://nibomo.com/) umsetzen willst, liegt der nützliche Teil nicht in dem vagen Versprechen, dass KI irgendwie für dich lernen wird.
 
 Der nützliche Teil ist, dass das Produkt schon den Mittelteil dieses Workflows abdeckt:
 
@@ -242,7 +242,7 @@ Der nützliche Teil ist, dass das Produkt schon den Mittelteil dieses Workflows 
 
 Das heißt, du kannst eine chaotische Erklärung aus einem PMP-Übungsset nehmen, mit KI mögliche Karten entwerfen, die schwachen streichen, die brauchbaren organisieren und sie im selben System weiter wiederholen.
 
-Wenn der KI-Entwurf glatt poliert, aber schlecht ist, überarbeite ihn konsequent. [Wie du 2026 KI-Flashcards reparierst](https://flashcards-open-source-app.com/blog/how-to-fix-ai-flashcards/) ist der richtige nächste Schritt, wenn das Problem nicht die Menge, sondern die Kartenqualität ist.
+Wenn der KI-Entwurf glatt poliert, aber schlecht ist, überarbeite ihn konsequent. [Wie du 2026 KI-Flashcards reparierst](https://nibomo.com/blog/how-to-fix-ai-flashcards/) ist der richtige nächste Schritt, wenn das Problem nicht die Menge, sondern die Kartenqualität ist.
 
 ## Die nützliche Regel für PMP-Flashcards im Jahr 2026
 

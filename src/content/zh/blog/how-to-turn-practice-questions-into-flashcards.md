@@ -175,11 +175,11 @@ Flashcards 则负责确保这个失误下周不会继续出现。
 
 如果材料以长文本为主，更适合参考偏 PDF 的工作流：
 
-- [2026 年如何把 PDF 变成 Flashcards](https://flashcards-open-source-app.com/blog/how-to-turn-a-pdf-into-flashcards/)
+- [2026 年如何把 PDF 变成 Flashcards](https://nibomo.com/blog/how-to-turn-a-pdf-into-flashcards/)
 
 如果材料更像辅导过程或带引导的测验复盘，这篇可能更接近你的场景：
 
-- [2026 年如何把 ChatGPT Study Mode 变成 Flashcards](https://flashcards-open-source-app.com/blog/how-to-turn-chatgpt-study-mode-into-flashcards/)
+- [2026 年如何把 ChatGPT Study Mode 变成 Flashcards](https://nibomo.com/blog/how-to-turn-chatgpt-study-mode-into-flashcards/)
 
 ## 保留“为什么会错”的信息，但不要把它全塞到正面
 
@@ -223,7 +223,7 @@ Flashcards 则负责确保这个失误下周不会继续出现。
 
 ## Flashcards 为什么适合这件事
 
-[Nibomo](https://flashcards-open-source-app.com/) 很适合 **练习题转卡片**，因为这个产品已经具备这套流程真正需要的关键组件：
+[Nibomo](https://nibomo.com/) 很适合 **练习题转卡片**，因为这个产品已经具备这套流程真正需要的关键组件：
 
 - AI 对话
 - 文件和图片附件
@@ -241,11 +241,11 @@ Flashcards 则负责确保这个失误下周不会继续出现。
 
 如果你想更详细了解排程这一侧，可以接着看：
 
-- [2026 年如何用 FSRS 备考](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/)
+- [2026 年如何用 FSRS 备考](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)
 
 如果你更大的问题其实是卡片质量，而不是素材来源，这篇也值得一起看：
 
-- [2026 年如何制作更好的 Flashcards](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [2026 年如何制作更好的 Flashcards](https://nibomo.com/blog/how-to-make-better-flashcards/)
 
 ## 真正有用的规则
 

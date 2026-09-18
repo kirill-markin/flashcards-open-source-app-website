@@ -248,7 +248,7 @@ TEAS deck को परेशान करने का सबसे आसा�
 
 एक stable deck और कुछ ईमानदार tags आम तौर पर बार-बार deck reorganization करने से बेहतर काम करते हैं।
 
-अगर असली bottleneck organization है, तो [2026 में फ्लैशकार्ड कैसे व्यवस्थित करें](https://flashcards-open-source-app.com/blog/how-to-organize-flashcards/) उस हिस्से में और गहराई से जाता है।
+अगर असली bottleneck organization है, तो [2026 में फ्लैशकार्ड कैसे व्यवस्थित करें](https://nibomo.com/blog/how-to-organize-flashcards/) उस हिस्से में और गहराई से जाता है।
 
 ## AI से rough first version बनवाइए, फिर सख़्ती से edit कीजिए
 
@@ -265,11 +265,11 @@ TEAS prep बहुत messy source material बनाती है। Copy क�
 
 अगर drafted back side workbook के paragraph जैसी लगती है, तो उसे छोटा कीजिए। अगर दो cards एक ही idea test कर रहे हैं, तो ज़्यादा साफ़ वाला रखिए। अगर prompt सिर्फ recognition check करता है, तो उसे active recall के लिए rewrite कीजिए।
 
-यह workflow [2026 में अभ्यास प्रश्नों को फ्लैशकार्ड में कैसे बदलें](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/) और [2026 में बेहतर फ्लैशकार्ड कैसे बनाएँ](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/) वाले तरीके से काफ़ी मिलता-जुलता है।
+यह workflow [2026 में अभ्यास प्रश्नों को फ्लैशकार्ड में कैसे बदलें](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/) और [2026 में बेहतर फ्लैशकार्ड कैसे बनाएँ](https://nibomo.com/blog/how-to-make-better-flashcards/) वाले तरीके से काफ़ी मिलता-जुलता है।
 
 ## इस ATI TEAS workflow में Flashcards कहाँ fit बैठता है
 
-अगर आप यह workflow [Nibomo](https://flashcards-open-source-app.com/) के अंदर चलाना चाहते हैं, तो इसका मेल व्यावहारिक है, आधिकारिक नहीं।
+अगर आप यह workflow [Nibomo](https://nibomo.com/) के अंदर चलाना चाहते हैं, तो इसका मेल व्यावहारिक है, आधिकारिक नहीं।
 
 कोई official ATI integration नहीं है, और कोई special TEAS mode भी नहीं है। काम की बात इससे कहीं ज़्यादा सीधी है।
 
@@ -286,7 +286,7 @@ TEAS prep के लिए यही असली value है। आप messy p
 
 अगर long-term ownership आपके लिए matter करती है, तो project open source भी है और self-hosted path भी देता है। ज़्यादातर TEAS students के लिए यह secondary है। मुख्य फ़ायदा यह है कि card creation, review, और cleanup एक ही जगह पर मिलते हैं, notes, screenshots, और browser tabs में बिखरे नहीं रहते।
 
-अगर सबसे तेज़ entry point चाहिए, तो [hosted web app](https://app.flashcards-open-source-app.com/) से शुरू कीजिए। अगर पहले product का broader overview देखना है, तो [features page](https://flashcards-open-source-app.com/features) देखिए।
+अगर सबसे तेज़ entry point चाहिए, तो [hosted web app](https://app.flashcards-open-source-app.com/) से शुरू कीजिए। अगर पहले product का broader overview देखना है, तो [features page](https://nibomo.com/features) देखिए।
 
 ## ATI TEAS से पहले के आख़िरी 10 दिनों में मैं क्या करूंगा
 

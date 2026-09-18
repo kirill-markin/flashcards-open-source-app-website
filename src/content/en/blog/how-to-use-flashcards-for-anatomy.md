@@ -95,7 +95,7 @@ Split it instead:
 
 The same rule works for foramina, vessels, ligaments, and plexus branches. Most anatomy misses come from one broken link, not complete ignorance.
 
-If your cards already feel bloated, [How to Make Better Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/) is the right cleanup guide.
+If your cards already feel bloated, [How to Make Better Flashcards in 2026](https://nibomo.com/blog/how-to-make-better-flashcards/) is the right cleanup guide.
 
 ## Spatial relationships deserve their own cards
 
@@ -110,7 +110,7 @@ Students remember the names, then miss the question because they cannot rebuild 
 
 Those are not label problems. They are map problems.
 
-The [31-card Anatomical Directional Terms deck](https://flashcards-open-source-app.com/catalog/packages/anatomical-directional-terms/) is a compact baseline for this work. It drills anterior/posterior, superior/inferior, lateral/medial, proximal/distal, and superficial/deep through direct definitions, reverse recall, and applied body-location examples, then leaves regional anatomy and course-specific relationships for your own cards.
+The [31-card Anatomical Directional Terms deck](https://nibomo.com/catalog/packages/anatomical-directional-terms/) is a compact baseline for this work. It drills anterior/posterior, superior/inferior, lateral/medial, proximal/distal, and superficial/deep through direct definitions, reverse recall, and applied body-location examples, then leaves regional anatomy and course-specific relationships for your own cards.
 
 So make direct map cards:
 
@@ -165,7 +165,7 @@ What tends to fail:
 - one card that tests region, structure, innervation, and action at the same time
 - a paragraph answer under a noisy image
 
-If the real pain point is converting diagrams and labeled visuals cleanly, [How to Turn Diagrams Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-turn-diagrams-into-flashcards/) covers that upstream workflow.
+If the real pain point is converting diagrams and labeled visuals cleanly, [How to Turn Diagrams Into Flashcards in 2026](https://nibomo.com/blog/how-to-turn-diagrams-into-flashcards/) covers that upstream workflow.
 
 ## AI is good for cleanup, not for doing the remembering
 
@@ -186,7 +186,7 @@ Where it does not help much:
 
 So use AI for preparation, not for outsourcing memory.
 
-If you want the broader tutor-to-retention version of that workflow, [How to Use AI to Study in 2026](https://flashcards-open-source-app.com/blog/how-to-use-ai-to-study/) and [How to Fix AI Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-fix-ai-flashcards/) are the two useful follow-ups.
+If you want the broader tutor-to-retention version of that workflow, [How to Use AI to Study in 2026](https://nibomo.com/blog/how-to-use-ai-to-study/) and [How to Fix AI Flashcards in 2026](https://nibomo.com/blog/how-to-fix-ai-flashcards/) are the two useful follow-ups.
 
 ## Your missed pins and reversed relationships are the best card source
 
@@ -212,7 +212,7 @@ What usually does not deserve a card:
 
 Those are real problems. They are just not flashcard problems.
 
-If your best source material is practical misses and spotter questions, [How to Turn Practice Questions Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/) fits well here.
+If your best source material is practical misses and spotter questions, [How to Turn Practice Questions Into Flashcards in 2026](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/) fits well here.
 
 ## A weekly anatomy workflow should stay boring
 
@@ -228,7 +228,7 @@ Keep the loop simple:
 
 Anatomy creates endless candidate cards. Your review queue still has to stay livable.
 
-If it is already getting out of hand, [How Many New Flashcards Per Day in 2026](https://flashcards-open-source-app.com/blog/how-many-new-flashcards-per-day/) and [How to Catch Up on Flashcards After Falling Behind in 2026](https://flashcards-open-source-app.com/blog/how-to-catch-up-on-flashcards-after-falling-behind/) are the right next reads.
+If it is already getting out of hand, [How Many New Flashcards Per Day in 2026](https://nibomo.com/blog/how-many-new-flashcards-per-day/) and [How to Catch Up on Flashcards After Falling Behind in 2026](https://nibomo.com/blog/how-to-catch-up-on-flashcards-after-falling-behind/) are the right next reads.
 
 ## FSRS helps once the cards get honest
 
@@ -244,11 +244,11 @@ What FSRS does not do is rescue bloated prompts. The order matters:
 2. keep the deck controlled
 3. let FSRS handle the timing
 
-If you want the scheduler side explained more directly, [How to Study for an Exam With FSRS in 2026](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/) and [FSRS vs SM-2 in 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/) are the two clean follow-ups.
+If you want the scheduler side explained more directly, [How to Study for an Exam With FSRS in 2026](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/) and [FSRS vs SM-2 in 2026](https://nibomo.com/blog/fsrs-vs-sm-2/) are the two clean follow-ups.
 
 ## Where Flashcards fits
 
-[Nibomo](https://flashcards-open-source-app.com/) fits anatomy best after you already know what needs to be remembered.
+[Nibomo](https://nibomo.com/) fits anatomy best after you already know what needs to be remembered.
 
 That is a good match for this subject because anatomy study tends to pull from several messy sources at once:
 
@@ -259,6 +259,6 @@ That is a good match for this subject because anatomy study tends to pull from s
 - practical misses
 - short AI cleanup sessions
 
-The useful part is not some promise that the app will magically memorize brachial plexus branches for you. It is that you can turn those sources into plain front/back cards, review them with FSRS, keep image-heavy material in one place, use AI chat when a source file or photo needs cleanup, and keep the deck available offline across devices. If you want the product overview first, start with the [features page](https://flashcards-open-source-app.com/features/) or the [getting started guide](https://flashcards-open-source-app.com/docs/getting-started/). If owning the stack matters, the [self-hosting guide](https://flashcards-open-source-app.com/docs/self-hosting/) is there too.
+The useful part is not some promise that the app will magically memorize brachial plexus branches for you. It is that you can turn those sources into plain front/back cards, review them with FSRS, keep image-heavy material in one place, use AI chat when a source file or photo needs cleanup, and keep the deck available offline across devices. If you want the product overview first, start with the [features page](https://nibomo.com/features/) or the [getting started guide](https://nibomo.com/docs/getting-started/). If owning the stack matters, the [self-hosting guide](https://nibomo.com/docs/self-hosting/) is there too.
 
 Anatomy usually does not need more information. It needs cleaner retrieval. If your deck helps you name the structure, place it in space, connect it to one useful fact, and see it again right before you would have forgotten it, that is usually enough to make the course feel much less slippery.

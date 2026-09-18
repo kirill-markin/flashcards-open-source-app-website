@@ -40,7 +40,7 @@ NCLEX 官方的 [NGN overview](https://www.nclex.com/next-generation-nclex) 也�
 
 ## 这正是 NCLEX 备考和护理学院学习分开的地方
 
-更宽泛的 [2026 年护理学院如何使用抽认卡](https://flashcards-open-source-app.com/blog/how-to-use-flashcards-for-nursing-school/) 依然值得看，尤其当你还在同时应付课堂内容、技能考核和课程考试的时候。
+更宽泛的 [2026 年护理学院如何使用抽认卡](https://nibomo.com/blog/how-to-use-flashcards-for-nursing-school/) 依然值得看，尤其当你还在同时应付课堂内容、技能考核和课程考试的时候。
 
 但这篇文章更聚焦。
 
@@ -107,7 +107,7 @@ NCLEX 官方的 [NGN overview](https://www.nclex.com/next-generation-nclex) 也�
 
 如果那次错题的本质只是“我读太快，漏了一个词”，那当然也是真的，但那不是抽认卡能解决的问题。
 
-这也是为什么 [2026 年如何把练习题转成抽认卡](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/) 会成为更合适的配套文章。大多数真正有用的 **NCLEX-RN 抽认卡**，都不是从复习书里抄内容，而是从你错题的结构里长出来的。
+这也是为什么 [2026 年如何把练习题转成抽认卡](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/) 会成为更合适的配套文章。大多数真正有用的 **NCLEX-RN 抽认卡**，都不是从复习书里抄内容，而是从你错题的结构里长出来的。
 
 ## 部分得分题，会改变你该怎么保存一次失误
 
@@ -225,7 +225,7 @@ FSRS 有用，是因为 NCLEX 所需的记忆并不均匀。有些化验值很�
 2. 再把牌组控制住
 3. 然后让 FSRS 处理节奏
 
-如果你想更细看调度这一层，可以直接接着读这篇：[2026 年如何用 FSRS 备考](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/)。
+如果你想更细看调度这一层，可以直接接着读这篇：[2026 年如何用 FSRS 备考](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)。
 
 ## NCLEX 考前最后 7 到 10 天，牌组应该更收紧
 
@@ -247,7 +247,7 @@ FSRS 有用，是因为 NCLEX 所需的记忆并不均匀。有些化验值很�
 
 ## Flashcards 在这里适合做什么
 
-[Nibomo](https://flashcards-open-source-app.com/) 很适合这套工作流，因为它提供的正是那些看起来很无聊、但实际上最重要的东西：简洁的正反面卡片、标签、筛选复习，以及当卡片已经足够干净时可用的 FSRS 调度。
+[Nibomo](https://nibomo.com/) 很适合这套工作流，因为它提供的正是那些看起来很无聊、但实际上最重要的东西：简洁的正反面卡片、标签、筛选复习，以及当卡片已经足够干净时可用的 FSRS 调度。
 
 这对 NCLEX 备考特别有用，因为你的素材很快就会变乱。题目解析开在一个标签页，手写笔记在另一个地方，化验值表又在别处，而真正薄弱的点通常散落在所有这些来源里。合适的工具，应该让你能把这些内容压缩成更小的卡片，而不是再额外造出一套需要全天维护的学习系统。
 

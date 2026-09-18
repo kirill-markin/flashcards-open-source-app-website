@@ -180,9 +180,9 @@ keywords:
 
 Поэтому этот процесс хорошо пересекается и с несколькими близкими типами исходников:
 
-- [Как превратить PDF в карточки в 2026 году](https://flashcards-open-source-app.com/blog/how-to-turn-a-pdf-into-flashcards/)
-- [Как превратить заметки в карточки в 2026 году](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
-- [Как превратить YouTube-видео в карточки в 2026 году](https://flashcards-open-source-app.com/blog/youtube-to-flashcards/)
+- [Как превратить PDF в карточки в 2026 году](https://nibomo.com/blog/how-to-turn-a-pdf-into-flashcards/)
+- [Как превратить заметки в карточки в 2026 году](https://nibomo.com/blog/turn-notes-into-flashcards/)
+- [Как превратить YouTube-видео в карточки в 2026 году](https://nibomo.com/blog/youtube-to-flashcards/)
 
 Источник другой, правило то же: начинайте с надежного материала, а потом делайте узкие карточки, вместо того чтобы просить ИИ изобрести за вас систему обучения.
 
@@ -222,7 +222,7 @@ keywords:
 
 ## Где здесь место Flashcards
 
-[Nibomo](https://flashcards-open-source-app.com/) хорошо подходит для сценария **учить записи лекций по карточкам**, потому что закрывает ту часть задачи, которую сами по себе не решают ни транскрипты, ни AI-черновики:
+[Nibomo](https://nibomo.com/) хорошо подходит для сценария **учить записи лекций по карточкам**, потому что закрывает ту часть задачи, которую сами по себе не решают ни транскрипты, ни AI-черновики:
 
 - полноценное приложение для карточек с лицевой и обратной стороной
 - колоды и теги
@@ -253,7 +253,7 @@ keywords:
 
 Если хотите подробнее разобраться именно в алгоритме, вот отдельная статья:
 
-- [FSRS vs SM-2 в 2026 году](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [FSRS vs SM-2 в 2026 году](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
 ## Простое правило: что вообще заслуживает карточки
 
@@ -287,9 +287,9 @@ keywords:
 
 Если вы выстраиваете процесс **транскрипт лекции в карточки**, начните отсюда:
 
-- [Открыть Flashcards](https://flashcards-open-source-app.com/)
+- [Открыть Flashcards](https://nibomo.com/)
 - [Открыть приложение](https://app.flashcards-open-source-app.com/)
-- [Прочитать руководство по self-hosting](https://flashcards-open-source-app.com/docs/self-hosting/)
+- [Прочитать руководство по self-hosting](https://nibomo.com/docs/self-hosting/)
 - [Посмотреть исходный код на GitHub](https://github.com/kirill-markin/flashcards-open-source-app)
 
 Записи лекций ценны.

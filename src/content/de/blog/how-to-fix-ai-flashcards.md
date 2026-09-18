@@ -89,7 +89,7 @@ Ich würde sie meistens in einzelne Karten aufteilen:
 
 Dieselbe Regel gilt für Karten mit Definition plus Beispiel, Formel plus Ausnahme und jede Karte, bei der die Antwort sich in eine Mini-Gliederung verwandelt.
 
-Wenn du die ausführlichere Version dieser Schreibregel willst, geht [Wie du 2026 bessere Flashcards erstellst: Regeln für Vorder- und Rückseiten, die mit FSRS wirklich funktionieren](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/) noch weiter.
+Wenn du die ausführlichere Version dieser Schreibregel willst, geht [Wie du 2026 bessere Flashcards erstellst: Regeln für Vorder- und Rückseiten, die mit FSRS wirklich funktionieren](https://nibomo.com/blog/how-to-make-better-flashcards/) noch weiter.
 
 ## Formuliere die Vorderseite so um, dass dein müdes Zukunfts-Ich sie sofort versteht
 
@@ -148,7 +148,7 @@ Halte die Rückseite schlicht:
 
 Alles darüber hinaus will meistens zu einer eigenen Karte werden.
 
-Das ist noch wichtiger, wenn dir späteres Wiederholungstempo wichtig ist. [Wie du 2026 Flashcards schneller wiederholst](https://flashcards-open-source-app.com/blog/how-to-review-flashcards-faster/) ist im Grunde die direkte Folge dieser Bearbeitung.
+Das ist noch wichtiger, wenn dir späteres Wiederholungstempo wichtig ist. [Wie du 2026 Flashcards schneller wiederholst](https://nibomo.com/blog/how-to-review-flashcards-faster/) ist im Grunde die direkte Folge dieser Bearbeitung.
 
 ## Nutze KI für die zweite Bearbeitungsrunde, nicht als letzte Autorität
 
@@ -184,8 +184,8 @@ Darum würde ich aus solchen Sitzungen eher Fehler und Schwachstellen herauszieh
 
 Wenn dein Workflow früher beginnt als bei der Bereinigung, passen diese Begleitartikel besser:
 
-- [Wie du 2026 mit ChatGPT bessere Lernkarten erstellst: klarere Prompts, bessere Karten, bessere Wiederholung mit FSRS](https://flashcards-open-source-app.com/blog/how-to-use-chatgpt-to-make-flashcards/)
-- [Wie du 2026 den ChatGPT Study Mode in Flashcards verwandelst](https://flashcards-open-source-app.com/blog/how-to-turn-chatgpt-study-mode-into-flashcards/)
+- [Wie du 2026 mit ChatGPT bessere Lernkarten erstellst: klarere Prompts, bessere Karten, bessere Wiederholung mit FSRS](https://nibomo.com/blog/how-to-use-chatgpt-to-make-flashcards/)
+- [Wie du 2026 den ChatGPT Study Mode in Flashcards verwandelst](https://nibomo.com/blog/how-to-turn-chatgpt-study-mode-into-flashcards/)
 
 Dieser Artikel beginnt einen Schritt später: Die Karten existieren bereits, und jetzt müssen sie wiederholungstauglich werden.
 
@@ -210,7 +210,7 @@ Ich würde bei exportierten oder kopierten Karten durchgehen und fragen:
 
 Wenn nicht, schreib sie um oder lösch sie.
 
-Die Brücke von der Quelle zur Spaced Repetition behandelt [Wie du 2026 NotebookLM-Flashcards in echte Spaced Repetition verwandelst: exportieren, bereinigen und mit FSRS wiederholen](https://flashcards-open-source-app.com/blog/notebooklm-flashcards-to-spaced-repetition/) direkter. Dieser Artikel ist die strengere Bereinigungsrunde, nachdem diese Brücke schon steht.
+Die Brücke von der Quelle zur Spaced Repetition behandelt [Wie du 2026 NotebookLM-Flashcards in echte Spaced Repetition verwandelst: exportieren, bereinigen und mit FSRS wiederholen](https://nibomo.com/blog/notebooklm-flashcards-to-spaced-repetition/) direkter. Dieser Artikel ist die strengere Bereinigungsrunde, nachdem diese Brücke schon steht.
 
 ## Ein einfacher Bereinigungs-Workflow, der tatsächlich standhält
 
@@ -241,11 +241,11 @@ Was FSRS gut kann, ist das Timing zu steuern, sobald die Karten klar genug sind,
 - schwierigere Karten bekommen glaubwürdigere Abstände
 - die Wiederholungswarteschlange fühlt sich mit der Zeit ruhiger an
 
-Wenn du den Vergleich der Scheduler selbst willst, deckt [FSRS vs SM-2 in 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/) genau diesen Teil ab.
+Wenn du den Vergleich der Scheduler selbst willst, deckt [FSRS vs SM-2 in 2026](https://nibomo.com/blog/fsrs-vs-sm-2/) genau diesen Teil ab.
 
 ## Wie Flashcards in diesen Workflow passt
 
-[Nibomo](https://flashcards-open-source-app.com/) passt gut zum Thema **wie man KI-Flashcards repariert**, weil das Produkt genau die unbequeme Mitte abdeckt, die die meisten Generatoren offenlassen:
+[Nibomo](https://nibomo.com/) passt gut zum Thema **wie man KI-Flashcards repariert**, weil das Produkt genau die unbequeme Mitte abdeckt, die die meisten Generatoren offenlassen:
 
 - Front/Back-Karten in der gehosteten Web-App erstellen
 - KI-Chat mit Workspace-Daten und Dateianhängen nutzen, auch mit Plain-Text-Uploads

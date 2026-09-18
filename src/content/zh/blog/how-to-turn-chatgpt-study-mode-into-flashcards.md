@@ -138,7 +138,7 @@ OpenAI 在 **2025 年 7 月 29 日** 推出了 ChatGPT Study Mode。Google 随�
 
 如果你想看更完整的卡片质量讨论，这篇配套文章会讲得更深入：
 
-- [2026 年如何制作更好的 Flashcards](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [2026 年如何制作更好的 Flashcards](https://nibomo.com/blog/how-to-make-better-flashcards/)
 
 ## 这套方法对 Gemini Guided Learning 也成立，不只适用于 ChatGPT
 
@@ -184,8 +184,8 @@ AI 负责帮你现在把这个概念学懂。
 
 如果你现在最大的问题已经是复习过载，那这两篇文章正好可以接着看：
 
-- [2026 年每天该新增多少张 Flashcards？](https://flashcards-open-source-app.com/blog/how-many-new-flashcards-per-day/)
-- [2026 年落下 Flashcards 之后怎么追上进度](https://flashcards-open-source-app.com/blog/how-to-catch-up-on-flashcards-after-falling-behind/)
+- [2026 年每天该新增多少张 Flashcards？](https://nibomo.com/blog/how-many-new-flashcards-per-day/)
+- [2026 年落下 Flashcards 之后怎么追上进度](https://nibomo.com/blog/how-to-catch-up-on-flashcards-after-falling-behind/)
 
 ## 更好的提示词，不是“从这段内容里生成闪卡”
 
@@ -203,11 +203,11 @@ AI 负责帮你现在把这个概念学懂。
 
 如果你的流程更早开始，甚至在 Study Mode 和辅导之前，这篇配套文章讲的是更直接的生成路线：
 
-- [2026 年如何用 ChatGPT 制作 Flashcards](https://flashcards-open-source-app.com/blog/how-to-use-chatgpt-to-make-flashcards/)
+- [2026 年如何用 ChatGPT 制作 Flashcards](https://nibomo.com/blog/how-to-use-chatgpt-to-make-flashcards/)
 
 如果你的素材来源不是辅导会话，而是笔记本或学习指南，那这篇也很适合：
 
-- [2026 年如何把 NotebookLM Flashcards 变成真正的间隔重复](https://flashcards-open-source-app.com/blog/notebooklm-flashcards-to-spaced-repetition/)
+- [2026 年如何把 NotebookLM Flashcards 变成真正的间隔重复](https://nibomo.com/blog/notebooklm-flashcards-to-spaced-repetition/)
 
 ## 把一次好会话变成长期记忆的，仍然是 FSRS
 
@@ -227,11 +227,11 @@ AI 负责帮你现在把这个概念学懂。
 
 如果你想看算法本身的比较，这篇会讲得更深入：
 
-- [2026 年 FSRS vs SM-2](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [2026 年 FSRS vs SM-2](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
 ## 为什么 Flashcards 更适合这套流程
 
-[Nibomo](https://flashcards-open-source-app.com/) 很适合 **如何把 ChatGPT Study Mode 变成闪卡**，因为它刚好补上了 AI 辅导自己还解决不了的那一层：
+[Nibomo](https://nibomo.com/) 很适合 **如何把 ChatGPT Study Mode 变成闪卡**，因为它刚好补上了 AI 辅导自己还解决不了的那一层：
 
 - 正经的正反面卡片，而不是只停留在聊天里的记忆
 - 可以用 AI chat 做清理和起草

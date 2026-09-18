@@ -82,7 +82,7 @@ keywords:
 
 अगर आपका स्रोत आपकी अपनी दोहराई नहीं बल्कि पूरी कक्षा की रिकॉर्डिंग है, तो यहाँ से शुरू करें:
 
-- [2026 में व्याख्यान-रिकॉर्डिंग को फ्लैशकार्ड में कैसे बदलें](https://flashcards-open-source-app.com/blog/how-to-turn-lecture-recordings-into-flashcards/)
+- [2026 में व्याख्यान-रिकॉर्डिंग को फ्लैशकार्ड में कैसे बदलें](https://nibomo.com/blog/how-to-turn-lecture-recordings-into-flashcards/)
 
 ## जिस तरीके पर मुझे भरोसा है, वह है छोटी रिकॉर्डिंग, प्रतिलेख, फिर कड़ी छँटाई
 
@@ -198,7 +198,7 @@ keywords:
 
 अगर कच्चा स्रोत बोला हुआ नहीं बल्कि हाथ से लिखा हुआ है, तो यह लेख ज़्यादा ठीक बैठेगा:
 
-- [2026 में हाथ से लिखे नोट्स को फ्लैशकार्ड में कैसे बदलें](https://flashcards-open-source-app.com/blog/how-to-turn-handwritten-notes-into-flashcards/)
+- [2026 में हाथ से लिखे नोट्स को फ्लैशकार्ड में कैसे बदलें](https://nibomo.com/blog/how-to-turn-handwritten-notes-into-flashcards/)
 
 ## खराब आवाज़-से-फ्लैशकार्ड तरीके ज़्यादातर तीन ही जगहों पर टूटते हैं
 
@@ -255,11 +255,11 @@ keywords:
 
 अगर आप समय-निर्धारण वाली तरफ़ को और विस्तार से समझना चाहते हैं, तो यह लेख आगे मदद करेगा:
 
-- [2026 में FSRS बनाम SM-2](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [2026 में FSRS बनाम SM-2](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
 ## इस तरीके में Flashcards कहाँ फिट बैठता है
 
-[Nibomo](https://flashcards-open-source-app.com/) **आवाज़ से फ्लैशकार्ड** के लिए इसलिए ठीक बैठता है क्योंकि इस तरीके के लिए ज़रूरी हिस्से पहले से एक ही जगह मौजूद हैं:
+[Nibomo](https://nibomo.com/) **आवाज़ से फ्लैशकार्ड** के लिए इसलिए ठीक बैठता है क्योंकि इस तरीके के लिए ज़रूरी हिस्से पहले से एक ही जगह मौजूद हैं:
 
 - AI बातचीत
 - फ़ाइलें जोड़ने की सुविधा

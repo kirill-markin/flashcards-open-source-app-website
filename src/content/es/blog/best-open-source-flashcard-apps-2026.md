@@ -22,7 +22,7 @@ Un cliente de escritorio abierto puede convivir con una app cerrada para iPhone.
 
 Seis proyectos pasaron el filtro. Comparé el código publicado y su licencia, la última versión estable, los datos locales, el planificador, la sincronización, la migración desde Anki, la exportación y qué permite autohospedar exactamente cada uno. Este último límite importa más de lo que suelen reconocer las listas de funciones.
 
-> **Declaración de intereses:** Soy Kirill Markin y desarrollo [Nibomo](https://flashcards-open-source-app.com/), una de las seis apps de esta comparativa. Su repositorio MIT abarca la app web, los clientes nativos, el backend, la sincronización y la infraestructura. No la he colocado en primer lugar. Anki sigue siendo la elección más segura para la mayoría, Mnemosyne ofrece una ruta de migración desde Anki más consolidada y varias alternativas de esta lista son mucho más fáciles de operar.
+> **Declaración de intereses:** Soy Kirill Markin y desarrollo [Nibomo](https://nibomo.com/), una de las seis apps de esta comparativa. Su repositorio MIT abarca la app web, los clientes nativos, el backend, la sincronización y la infraestructura. No la he colocado en primer lugar. Anki sigue siendo la elección más segura para la mayoría, Mnemosyne ofrece una ruta de migración desde Anki más consolidada y varias alternativas de esta lista son mucho más fáciles de operar.
 
 **Datos comprobados:** 5 de septiembre de 2026. Las versiones estables se distinguen del trabajo que solo existe en la rama predeterminada.
 

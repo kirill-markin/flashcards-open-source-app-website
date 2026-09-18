@@ -202,7 +202,7 @@ The short-term focus can still change fast.
 
 If you want the broader organization side, this article fits well next:
 
-- [How to Organize Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-organize-flashcards/)
+- [How to Organize Flashcards in 2026](https://nibomo.com/blog/how-to-organize-flashcards/)
 
 ## The card should be simpler than the explanation you read
 
@@ -259,7 +259,7 @@ The bottleneck is still judgment.
 
 If you want the broader AI drafting side, start here:
 
-- [How to Use ChatGPT to Make Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-use-chatgpt-to-make-flashcards/)
+- [How to Use ChatGPT to Make Flashcards in 2026](https://nibomo.com/blog/how-to-use-chatgpt-to-make-flashcards/)
 
 ## A coding interview flashcard workflow I would actually use
 
@@ -280,7 +280,7 @@ You need to stop forgetting the same fifteen lessons.
 
 ## Where Nibomo fits
 
-[Nibomo](https://flashcards-open-source-app.com/) is a good fit for **coding interview flashcards** because the product already supports the parts that matter:
+[Nibomo](https://nibomo.com/) is a good fit for **coding interview flashcards** because the product already supports the parts that matter:
 
 - FSRS scheduling for repeated review without manual interval tuning
 - decks, tags, search, and filtered decks by tag and effort level
@@ -294,11 +294,11 @@ That mix matters because **algorithm flashcards** work only if the daily review 
 
 If your bigger issue is card quality rather than interview-specific content, this article fits well:
 
-- [How to Make Better Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [How to Make Better Flashcards in 2026](https://nibomo.com/blog/how-to-make-better-flashcards/)
 
 If your review queue already feels dangerous, start here:
 
-- [How to Catch Up on Flashcards After Falling Behind in 2026](https://flashcards-open-source-app.com/blog/how-to-catch-up-on-flashcards-after-falling-behind/)
+- [How to Catch Up on Flashcards After Falling Behind in 2026](https://nibomo.com/blog/how-to-catch-up-on-flashcards-after-falling-behind/)
 
 ## The useful rule
 

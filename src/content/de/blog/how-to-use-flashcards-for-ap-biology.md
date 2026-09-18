@@ -88,7 +88,7 @@ Beispiele:
 
 Diese Karten funktionieren besser, weil sie genau die Entscheidung trainieren, die du unter Prüfungsdruck tatsächlich treffen musst.
 
-Wenn dein größeres Problem eher die Kartenqualität als die Themenauswahl ist, ist [Wie du 2026 bessere Flashcards erstellst](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/) der richtige nächste Artikel.
+Wenn dein größeres Problem eher die Kartenqualität als die Themenauswahl ist, ist [Wie du 2026 bessere Flashcards erstellst](https://nibomo.com/blog/how-to-make-better-flashcards/) der richtige nächste Artikel.
 
 ## Prozesse sollten in Kontrollpunkte zerlegt werden, nicht in einer einzigen Monsterkarte landen
 
@@ -145,7 +145,7 @@ Beispiele:
 - Was macht eine Kontrolle zu einer **negativen Kontrolle** statt zu einer positiven?
 - Wann stützt ein AP-Biology-Aufbau eine Behauptung über **Kausalität** statt nur über ein Muster?
 
-Wenn dein bestes Kartenmaterial aus Fehlern in Übungsaufgaben kommt, passt [Wie du 2026 Übungsfragen in Flashcards verwandelst](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/) hier direkt dazu.
+Wenn dein bestes Kartenmaterial aus Fehlern in Übungsaufgaben kommt, passt [Wie du 2026 Übungsfragen in Flashcards verwandelst](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/) hier direkt dazu.
 
 ## FRQ-Vorbereitung funktioniert besser, wenn die Karte den Denkschritt speichert
 
@@ -213,7 +213,7 @@ Ich würde die Routine so einfach halten:
 4. Vage Karten schnell löschen.
 5. Die Zahl neuer Karten niedriger halten, als dein Ehrgeiz gern hätte, besonders wenn die Prüfung näher rückt.
 
-Wenn die tägliche Kartenlast anfängt, absurd zu werden, ist [Wie viele neue Flashcards pro Tag im Jahr 2026?](https://flashcards-open-source-app.com/blog/how-many-new-flashcards-per-day/) die bessere nächste Lektüre.
+Wenn die tägliche Kartenlast anfängt, absurd zu werden, ist [Wie viele neue Flashcards pro Tag im Jahr 2026?](https://nibomo.com/blog/how-many-new-flashcards-per-day/) die bessere nächste Lektüre.
 
 ## FSRS hilft, sobald AP-Biology-Karten nicht mehr versuchen, alles gleichzeitig zu tun
 
@@ -232,11 +232,11 @@ Darum würde ich die Reihenfolge schlicht halten:
 3. schwache Karten früh löschen
 4. FSRS das Timing überlassen
 
-Wenn du die Planungsseite ausführlicher willst, ist [Wie du 2026 mit FSRS für eine Prüfung lernst](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/) der direkte Begleitartikel.
+Wenn du die Planungsseite ausführlicher willst, ist [Wie du 2026 mit FSRS für eine Prüfung lernst](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/) der direkte Begleitartikel.
 
 ## Wo Flashcards in diesen AP-Biology-Workflow passen
 
-Wenn du das innerhalb von [Nibomo](https://flashcards-open-source-app.com/) umsetzen willst, ist der nützliche Teil nicht irgendein vages Versprechen, dass KI dir Biologie schon irgendwie von allein beibringt.
+Wenn du das innerhalb von [Nibomo](https://nibomo.com/) umsetzen willst, ist der nützliche Teil nicht irgendein vages Versprechen, dass KI dir Biologie schon irgendwie von allein beibringt.
 
 Nützlich ist, dass das Produkt bereits den chaotischen Mittelteil des Workflows abdeckt:
 

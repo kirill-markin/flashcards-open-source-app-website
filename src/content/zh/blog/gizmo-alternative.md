@@ -18,7 +18,7 @@ keywords:
 
 这篇 Gizmo 闪卡评测以当前的官方帮助页面为依据。我没有亲自试用 Gizmo，因此只介绍 Gizmo 文档明确说明的功能，并清楚标出无法确定的部分。
 
-> **利益披露：** 我是 Kirill Markin，也是下文对比的替代产品 [Nibomo](https://flashcards-open-source-app.com/) 的开发者。根据现有文档，Gizmo 涵盖的工作流更广：支持更多源材料格式、五种卡片类型、AI Tutor 课程、多种测验形式和游戏化成长机制。Nibomo 则有意专注于更窄的范围。
+> **利益披露：** 我是 Kirill Markin，也是下文对比的替代产品 [Nibomo](https://nibomo.com/) 的开发者。根据现有文档，Gizmo 涵盖的工作流更广：支持更多源材料格式、五种卡片类型、AI Tutor 课程、多种测验形式和游戏化成长机制。Nibomo 则有意专注于更窄的范围。
 
 **信息核对日期：** 2026 年 9 月 1 日。
 

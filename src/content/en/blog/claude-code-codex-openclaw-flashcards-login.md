@@ -17,7 +17,7 @@ Open a login page. Wait for the code. Copy the token. Create an API key. Paste i
 
 That is exactly the kind of work a tool should handle for you.
 
-In [Nibomo](https://flashcards-open-source-app.com/), we now expose an open-source agent login flow that starts from one discovery URL:
+In [Nibomo](https://nibomo.com/), we now expose an open-source agent login flow that starts from one discovery URL:
 
 `https://api.flashcards-open-source-app.com/v1/`
 
@@ -132,7 +132,7 @@ And the response is shaped so terminal agents can follow it without guessing:
   "instructions": "Start with POST https://auth.flashcards-open-source-app.com/api/agent/send-code using the user's email, then POST https://auth.flashcards-open-source-app.com/api/agent/verify-code to obtain an API key. After login, call GET https://api.flashcards-open-source-app.com/v1/agent/me, then GET https://api.flashcards-open-source-app.com/v1/agent/workspaces?limit=100. If no workspace is selected for this API key, call POST https://api.flashcards-open-source-app.com/v1/agent/workspaces/{workspaceId}/select or create one with POST https://api.flashcards-open-source-app.com/v1/agent/workspaces using {\"name\":\"Personal\"}. After workspace bootstrap, use POST https://api.flashcards-open-source-app.com/v1/agent/sql/query for all shared card and deck reads (SHOW TABLES, DESCRIBE, SHOW COLUMNS, SELECT) and POST https://api.flashcards-open-source-app.com/v1/agent/sql/execute for card and deck authoring writes (INSERT, UPDATE, DELETE). Use docs.discoveryUrl for runtime discovery and docs.source.agentRoutesUrl for implementation details. The SQL surface is intentionally limited and is not full PostgreSQL.",
   "docs": {
     "discoveryUrl": "https://api.flashcards-open-source-app.com/v1/",
-    "docsUrl": "https://flashcards-open-source-app.com/docs/",
+    "docsUrl": "https://nibomo.com/docs/",
     "source": {
       "agentRoutesUrl": "https://github.com/kirill-markin/flashcards-open-source-app/tree/main/apps/backend/src/routes"
     }
@@ -309,9 +309,9 @@ Then let it handle the rest.
 
 Useful links:
 
-- [Nibomo website](https://flashcards-open-source-app.com/)
+- [Nibomo website](https://nibomo.com/)
 - [Hosted app](https://app.flashcards-open-source-app.com/)
-- [Getting started](https://flashcards-open-source-app.com/docs/getting-started/)
+- [Getting started](https://nibomo.com/docs/getting-started/)
 - [GitHub repository](https://github.com/kirill-markin/flashcards-open-source-app)
 
 If the product is open source and the auth flow is narrow enough, "let the agent handle it" should actually work. That is what this flow is for.

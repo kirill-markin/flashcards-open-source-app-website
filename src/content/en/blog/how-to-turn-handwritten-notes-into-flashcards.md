@@ -160,15 +160,15 @@ So I would not treat **flashcards from notes photos** as the same query as the t
 
 If your source is already clean text, this companion piece is the better match:
 
-- [How to Turn Notes Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
+- [How to Turn Notes Into Flashcards in 2026](https://nibomo.com/blog/turn-notes-into-flashcards/)
 
 And if your source is a document or lecture slides, this one is closer:
 
-- [How to Turn a PDF Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-turn-a-pdf-into-flashcards/)
+- [How to Turn a PDF Into Flashcards in 2026](https://nibomo.com/blog/how-to-turn-a-pdf-into-flashcards/)
 
 ## Where Flashcards fits this workflow
 
-[Nibomo](https://flashcards-open-source-app.com/) is a strong fit for **handwritten notes to flashcards** because the product already has the parts that matter together:
+[Nibomo](https://nibomo.com/) is a strong fit for **handwritten notes to flashcards** because the product already has the parts that matter together:
 
 - AI chat
 - image and file attachments
@@ -196,7 +196,7 @@ Draft from the photos. Clean the cards. Then let a real spaced repetition system
 
 If you want the scheduling side in more detail, this companion article goes deeper:
 
-- [FSRS vs SM-2 in 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [FSRS vs SM-2 in 2026](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
 ## The better rule
 
@@ -210,9 +210,9 @@ Less magic. Better cards.
 
 If that is what you want, start here:
 
-- [Open Nibomo](https://flashcards-open-source-app.com/)
+- [Open Nibomo](https://nibomo.com/)
 - [Open the app](https://app.flashcards-open-source-app.com/)
-- [Read the getting started guide](https://flashcards-open-source-app.com/docs/getting-started/)
+- [Read the getting started guide](https://nibomo.com/docs/getting-started/)
 - [View the source on GitHub](https://github.com/kirill-markin/flashcards-open-source-app)
 
 Your notes do not need to be beautiful.

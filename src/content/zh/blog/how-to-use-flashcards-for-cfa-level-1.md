@@ -169,7 +169,7 @@ Financial Statement Analysis 看起来很适合抽认卡，因为里面有比率
 
 如果练习题是你的主要素材来源，这套配套流程可以直接接上：
 
-- [2026 年如何把练习题做成 Flashcards](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/)
+- [2026 年如何把练习题做成 Flashcards](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/)
 
 ## 不要给每一道错题都做卡
 
@@ -217,7 +217,7 @@ Financial Statement Analysis 看起来很适合抽认卡，因为里面有比率
 
 如果整理本身开始变成问题，下一步更适合读这篇：
 
-- [2026 年如何整理抽认卡](https://flashcards-open-source-app.com/blog/how-to-organize-flashcards/)
+- [2026 年如何整理抽认卡](https://nibomo.com/blog/how-to-organize-flashcards/)
 
 ## 一套能扛住真实生活的每周 CFA 抽认卡工作流
 
@@ -255,8 +255,8 @@ FSRS 有用，是因为它能让容易的卡片间隔更长，让困难的卡片
 
 如果你对排程部分仍然觉得模糊，这些指南讲得更深入：
 
-- [2026 年 FSRS vs SM-2](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
-- [2026 年如何用 FSRS 备考](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/)
+- [2026 年 FSRS vs SM-2](https://nibomo.com/blog/fsrs-vs-sm-2/)
+- [2026 年如何用 FSRS 备考](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)
 
 ## 把有时效性的 CFA 信息单独放
 
@@ -275,7 +275,7 @@ CFA 细节会变。考试窗口、费用、报名截止日期、课程更新、�
 
 ## Flashcards 在这套 CFA 工作流里的位置
 
-[Nibomo](https://flashcards-open-source-app.com/) 适合这套工作流，因为它支持 CFA 卡组真正需要的具体环节，同时不会假装替代 CFA Institute 材料：
+[Nibomo](https://nibomo.com/) 适合这套工作流，因为它支持 CFA 卡组真正需要的具体环节，同时不会假装替代 CFA Institute 材料：
 
 - 创建和编辑正反面卡片
 - 用牌组和标签按科目及来源组织内容
@@ -291,9 +291,9 @@ CFA 细节会变。考试窗口、费用、报名截止日期、课程更新、�
 
 如果这正是你想要的，可以从这里开始：
 
-- [打开 Flashcards](https://flashcards-open-source-app.com/)
+- [打开 Flashcards](https://nibomo.com/)
 - [打开应用](https://app.flashcards-open-source-app.com/)
-- [阅读入门指南](https://flashcards-open-source-app.com/docs/getting-started/)
+- [阅读入门指南](https://nibomo.com/docs/getting-started/)
 - [在 GitHub 查看源码](https://github.com/kirill-markin/flashcards-open-source-app)
 
 这副卡组不需要让任何人印象深刻。它只需要帮你在 90 秒用完之前答出下一题。

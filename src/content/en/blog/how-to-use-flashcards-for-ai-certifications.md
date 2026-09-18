@@ -92,7 +92,7 @@ That is much better raw material for **AI certification flashcards** than copyin
 
 If practice questions are your main source, this companion article fits directly:
 
-- [How to Turn Practice Questions Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/)
+- [How to Turn Practice Questions Into Flashcards in 2026](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/)
 
 ## Four card types work especially well for AI exam prep
 
@@ -178,7 +178,7 @@ That keeps the long-term structure calm while still letting you pull out the sub
 
 If you want the organization side in more detail, read this next:
 
-- [How to Organize Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-organize-flashcards/)
+- [How to Organize Flashcards in 2026](https://nibomo.com/blog/how-to-organize-flashcards/)
 
 ## The weekly workflow should be boring on purpose
 
@@ -202,7 +202,7 @@ The good version of **FSRS certification study** is smaller than people want it 
 
 If the review-load side is the real problem, this article pairs well with certification prep:
 
-- [How to Study for an Exam With FSRS in 2026](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/)
+- [How to Study for an Exam With FSRS in 2026](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)
 
 ## Keep update-sensitive facts in a smaller temporary layer
 
@@ -242,11 +242,11 @@ That usually means:
 
 If the card quality itself is the weak point, this is the next article I would open:
 
-- [How to Make Better Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [How to Make Better Flashcards in 2026](https://nibomo.com/blog/how-to-make-better-flashcards/)
 
 ## Where Flashcards fits this workflow better
 
-[Nibomo](https://flashcards-open-source-app.com/) is a strong fit for this kind of certification prep because the product already supports the parts this workflow depends on:
+[Nibomo](https://nibomo.com/) is a strong fit for this kind of certification prep because the product already supports the parts this workflow depends on:
 
 - front/back cards for clean recall prompts
 - AI chat for drafting from notes, study guides, and question-review material
@@ -276,7 +276,7 @@ More recall that actually survives the exam timer.
 
 If you want to try that workflow:
 
-- [Open Nibomo](https://flashcards-open-source-app.com/)
+- [Open Nibomo](https://nibomo.com/)
 - [Open the app](https://app.flashcards-open-source-app.com/)
-- [Read the features page](https://flashcards-open-source-app.com/features/)
+- [Read the features page](https://nibomo.com/features/)
 - [View the source on GitHub](https://github.com/kirill-markin/flashcards-open-source-app)

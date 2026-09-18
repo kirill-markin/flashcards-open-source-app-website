@@ -100,7 +100,7 @@ keywords:
 
 إذا كانت جودة البطاقة هي المشكلة الأكبر عندك، أكثر من الاستراتيجية الخاصة باختبار SAT نفسه، فاقرأ هذه المقالة بعد ذلك:
 
-- [كيفية إنشاء بطاقات تعليمية أفضل في 2026](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [كيفية إنشاء بطاقات تعليمية أفضل في 2026](https://nibomo.com/blog/how-to-make-better-flashcards/)
 
 ## بطاقات رياضيات SAT التعليمية يجب أن تحفظ الصيغ والعمليات كلًّا على حدة
 
@@ -166,7 +166,7 @@ keywords:
 
 إذا كان هذا سير العمل هو الجزء الذي تحتاجه أكثر من غيره، فهذه هي المقالة المرافقة المباشرة:
 
-- [كيفية تحويل أسئلة التدريب إلى بطاقات تعليمية في 2026](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/)
+- [كيفية تحويل أسئلة التدريب إلى بطاقات تعليمية في 2026](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/)
 
 ## صيغة واحدة لبطاقات SAT لن تنجو مع الأنواع الأربعة كلها
 
@@ -202,7 +202,7 @@ keywords:
 
 إذا كانت مشكلتك الأكبر هي البنية لا كتابة البطاقات، فاقرأ هذه المقالة بعد ذلك:
 
-- [كيف تنظّم البطاقات التعليمية في 2026](https://flashcards-open-source-app.com/blog/how-to-organize-flashcards/)
+- [كيف تنظّم البطاقات التعليمية في 2026](https://nibomo.com/blog/how-to-organize-flashcards/)
 
 ## على الأرجح لا تحتاج إلى آلاف بطاقات SAT التعليمية
 
@@ -228,7 +228,7 @@ keywords:
 
 إذا كان عدد المراجعات يرتفع لديك بسرعة أصلًا، فهذه المقالة مناسبة جدًا مع سير عمل SAT:
 
-- [كم عدد البطاقات التعليمية الجديدة يوميًا في 2026؟](https://flashcards-open-source-app.com/blog/how-many-new-flashcards-per-day/)
+- [كم عدد البطاقات التعليمية الجديدة يوميًا في 2026؟](https://nibomo.com/blog/how-many-new-flashcards-per-day/)
 
 ## يساعد FSRS أكثر عندما يكون جدول مذاكرة SAT غير منتظم
 
@@ -255,12 +255,12 @@ keywords:
 
 إذا أردت تفصيلًا أكبر عن جانب الجدولة، فهاتان المقالتان هما الأنسب:
 
-- [كيفية الدراسة لامتحان باستخدام FSRS في 2026](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/)
-- [FSRS مقابل SM-2 في 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [كيفية الدراسة لامتحان باستخدام FSRS في 2026](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)
+- [FSRS مقابل SM-2 في 2026](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
 ## أين يناسب Flashcards هذا السير الخاص بـ Digital SAT
 
-[Nibomo](https://flashcards-open-source-app.com/) مناسب جدًا لـ **البطاقات التعليمية لاختبار Digital SAT** لأن المنتج الحالي يدعم فعلًا الأجزاء التي يعتمد عليها هذا الأسلوب:
+[Nibomo](https://nibomo.com/) مناسب جدًا لـ **البطاقات التعليمية لاختبار Digital SAT** لأن المنتج الحالي يدعم فعلًا الأجزاء التي يعتمد عليها هذا الأسلوب:
 
 - إنشاء بطاقات بوجه وظهر وتحريرها
 - دردشة بالذكاء الاصطناعي لصياغة بطاقات مرشحة انطلاقًا من الملاحظات أو الشروحات الملصقة أو مراجعة الاختبارات التجريبية
@@ -275,8 +275,8 @@ keywords:
 
 إذا كانت مواد تحضير SAT لديك ما تزال متوقفة خطوة قبل ذلك، فهذه المقالات تساعدك في جانب الإدخال:
 
-- [كيفية تحويل الملاحظات إلى بطاقات تعليمية في 2026](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
-- [كيفية تحويل PDF إلى بطاقات تعليمية في 2026](https://flashcards-open-source-app.com/blog/how-to-turn-a-pdf-into-flashcards/)
+- [كيفية تحويل الملاحظات إلى بطاقات تعليمية في 2026](https://nibomo.com/blog/turn-notes-into-flashcards/)
+- [كيفية تحويل PDF إلى بطاقات تعليمية في 2026](https://nibomo.com/blog/how-to-turn-a-pdf-into-flashcards/)
 
 ## ابنِ مجموعة SAT التي تصلح الأخطاء المتكررة
 

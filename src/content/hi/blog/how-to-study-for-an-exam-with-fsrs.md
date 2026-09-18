@@ -96,7 +96,7 @@ open-ended learning और deadline-driven exam prep एक जैसी ची�
 
 अगर आप algorithm की deeper explanation चाहते हैं, तो यह companion article सही है:
 
-- [2026 में FSRS बनाम SM-2](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [2026 में FSRS बनाम SM-2](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
 ## ऐसा daily load तय करें जिसे आप अपने सबसे खराब सामान्य दिन में भी पूरा कर सकें
 
@@ -117,7 +117,7 @@ open-ended learning और deadline-driven exam prep एक जैसी ची�
 
 अगर आप इस load का बेहतर estimate लगाना चाहते हैं, तो यह article इस exam workflow के साथ अच्छा बैठता है:
 
-- [2026 में प्रति दिन कितने नए फ़्लैशकार्ड?](https://flashcards-open-source-app.com/blog/how-many-new-flashcards-per-day/)
+- [2026 में प्रति दिन कितने नए फ़्लैशकार्ड?](https://nibomo.com/blog/how-many-new-flashcards-per-day/)
 
 ## आपका source workflow और memory workflow अलग रहने चाहिए
 
@@ -143,7 +143,7 @@ memory training वह जगह है जहाँ आप:
 
 ## इस workflow में Flashcards कहाँ बेहतर बैठता है
 
-[Nibomo](https://flashcards-open-source-app.com/) इस समस्या के लिए अच्छा fit है क्योंकि product दोनों हिस्सों को संभाल सकता है, बिना यह दिखावा किए कि वे एक ही काम हैं।
+[Nibomo](https://nibomo.com/) इस समस्या के लिए अच्छा fit है क्योंकि product दोनों हिस्सों को संभाल सकता है, बिना यह दिखावा किए कि वे एक ही काम हैं।
 
 मौजूदा stack पहले से यह देता है:
 
@@ -208,22 +208,22 @@ AI overproduction को आसान बना देता है।
 
 यही **परीक्षाओं के लिए spaced repetition** का वह रूप है जो सच में टिकाऊ लगता है।
 
-अगर आप ऐसा product चाहते हैं जो इस workflow को support करे, तो [Nibomo](https://flashcards-open-source-app.com/) अच्छा fit है। यह आपको AI-assisted drafting, front/back cards, और FSRS review एक ही open-source stack में देता है, पाँच study tools और exports के एक फ़ोल्डर में workflow बिखेरने के बजाय।
+अगर आप ऐसा product चाहते हैं जो इस workflow को support करे, तो [Nibomo](https://nibomo.com/) अच्छा fit है। यह आपको AI-assisted drafting, front/back cards, और FSRS review एक ही open-source stack में देता है, पाँच study tools और exports के एक फ़ोल्डर में workflow बिखेरने के बजाय।
 
 ## ऐसा exam deck बनाएं जिसे आप अब भी पूरा कर सकें
 
 अगर आप यह workflow आज़माना चाहते हैं:
 
-- [Open Nibomo](https://flashcards-open-source-app.com/)
+- [Open Nibomo](https://nibomo.com/)
 - [ऐप खोलें](https://app.flashcards-open-source-app.com/)
-- [features page पढ़ें](https://flashcards-open-source-app.com/features/)
+- [features page पढ़ें](https://nibomo.com/features/)
 - [GitHub पर source देखें](https://github.com/kirill-markin/flashcards-open-source-app)
 
 और अगर आपका source material अभी भी उससे एक कदम पहले अटका हुआ है, तो ये लेख मदद करेंगे:
 
-- [2026 में PDF को flashcards में कैसे बदलें](https://flashcards-open-source-app.com/blog/how-to-turn-a-pdf-into-flashcards/)
-- [2026 में ChatGPT से flashcards कैसे बनाएं](https://flashcards-open-source-app.com/blog/how-to-use-chatgpt-to-make-flashcards/)
-- [2026 में NotebookLM flashcards को असली spaced repetition में कैसे बदलें](https://flashcards-open-source-app.com/blog/notebooklm-flashcards-to-spaced-repetition/)
+- [2026 में PDF को flashcards में कैसे बदलें](https://nibomo.com/blog/how-to-turn-a-pdf-into-flashcards/)
+- [2026 में ChatGPT से flashcards कैसे बनाएं](https://nibomo.com/blog/how-to-use-chatgpt-to-make-flashcards/)
+- [2026 में NotebookLM flashcards को असली spaced repetition में कैसे बदलें](https://nibomo.com/blog/notebooklm-flashcards-to-spaced-repetition/)
 
 सबसे अच्छा exam deck आम तौर पर सबसे बड़ा नहीं होता।
 

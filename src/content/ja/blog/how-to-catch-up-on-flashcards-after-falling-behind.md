@@ -82,7 +82,7 @@ keywords:
 
 日々の追加枚数の考え方を入口側から見たいなら、こちらの記事がつながります。
 
-- [2026年、1日に何枚の新しいフラッシュカードを追加すべきか: 無理なく終えられるFSRSの復習量を作る](https://flashcards-open-source-app.com/blog/how-many-new-flashcards-per-day/)
+- [2026年、1日に何枚の新しいフラッシュカードを追加すべきか: 無理なく終えられるFSRSの復習量を作る](https://nibomo.com/blog/how-many-new-flashcards-per-day/)
 
 ## 次の一手: 本当に繰り返せる毎日の下限を決める
 
@@ -136,7 +136,7 @@ keywords:
 
 抜けた日数よりカードの質のほうが問題なら、こちらのほうが深く扱っています。
 
-- [2026年、より良いフラッシュカードの作り方: FSRSで機能する表裏カードのルール](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [2026年、より良いフラッシュカードの作り方: FSRSで機能する表裏カードのルール](https://nibomo.com/blog/how-to-make-better-flashcards/)
 
 ## デッキの中でも、得るものが大きい部分を先に守る
 
@@ -154,7 +154,7 @@ keywords:
 
 締切のある学習で復習待ちが膨らんでいるなら、こちらも合います。
 
-- [2026年、FSRSで試験勉強する方法: 試験日までに終えられるフラッシュカード計画を作る](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/)
+- [2026年、FSRSで試験勉強する方法: 試験日までに終えられるフラッシュカード計画を作る](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)
 
 ## 目標は、まず習慣の回復。その次に復習の山を減らすこと
 
@@ -214,7 +214,7 @@ AI は候補を下書きするのは得意です。でも、将来の復習予�
 
 ## Flashcards がこの状況に向いている理由
 
-[Nibomo](https://flashcards-open-source-app.com/) は、ワークフローを複数の別ツールへ分断せずに済むので、**間隔反復で復習がたまった状態の立て直し** と相性が良いです。
+[Nibomo](https://nibomo.com/) は、ワークフローを複数の別ツールへ分断せずに済むので、**間隔反復で復習がたまった状態の立て直し** と相性が良いです。
 
 - AI チャットでカード案を作りつつ、何を残すかは自分で決められる
 - 表裏編集で弱いカードを短くしたり分割したりしやすい

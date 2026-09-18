@@ -142,7 +142,7 @@ keywords:
 
 إذا أردت قواعد أوسع لتحسين جودة البطاقات، فابدأ من هنا:
 
-- [كيف تصنع بطاقات تعليمية أفضل في 2026: قواعد الوجهين التي تنجح فعلاً مع FSRS](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [كيف تصنع بطاقات تعليمية أفضل في 2026: قواعد الوجهين التي تنجح فعلاً مع FSRS](https://nibomo.com/blog/how-to-make-better-flashcards/)
 
 ## ChatGPT Voice ممتاز خصوصًا في كشف إخفاقات الاسترجاع النشط
 
@@ -173,7 +173,7 @@ keywords:
 
 إذا كان مصدرك تسجيلًا خامًا سجلته لنفسك بدلًا من محادثة تفاعلية، فهذه المقالة أنسب:
 
-- [كيف تحوّل الملاحظات الصوتية إلى بطاقات تعليمية في 2026: من الإملاء الصوتي إلى بطاقات FSRS من دون إعادة كتابة كل شيء](https://flashcards-open-source-app.com/blog/how-to-turn-voice-notes-into-flashcards/)
+- [كيف تحوّل الملاحظات الصوتية إلى بطاقات تعليمية في 2026: من الإملاء الصوتي إلى بطاقات FSRS من دون إعادة كتابة كل شيء](https://nibomo.com/blog/how-to-turn-voice-notes-into-flashcards/)
 
 ## بطاقات تعلّم اللغة ينبغي أن تبقى قريبة من محادثاتك الحقيقية
 
@@ -224,8 +224,8 @@ keywords:
 
 إذا كان عبء المراجعة هو مشكلتك الأكبر أصلًا، فهاتان المقالتان المكملتان مناسبتان مباشرة لهذا الموضوع:
 
-- [كم بطاقة تعليمية جديدة يوميًا في 2026؟ ابنِ عبء مراجعة مع FSRS يمكنك إنهاؤه فعلًا](https://flashcards-open-source-app.com/blog/how-many-new-flashcards-per-day/)
-- [كيف تلحق بالبطاقات التعليمية بعد أن تتأخر عنها في 2026: أصلح تراكم المراجعة من دون إعادة ضبط المجموعة](https://flashcards-open-source-app.com/blog/how-to-catch-up-on-flashcards-after-falling-behind/)
+- [كم بطاقة تعليمية جديدة يوميًا في 2026؟ ابنِ عبء مراجعة مع FSRS يمكنك إنهاؤه فعلًا](https://nibomo.com/blog/how-many-new-flashcards-per-day/)
+- [كيف تلحق بالبطاقات التعليمية بعد أن تتأخر عنها في 2026: أصلح تراكم المراجعة من دون إعادة ضبط المجموعة](https://nibomo.com/blog/how-to-catch-up-on-flashcards-after-falling-behind/)
 
 ## FSRS مهم لأن العبارات المنطوقة تتلاشى بطريقة غريبة
 
@@ -248,11 +248,11 @@ keywords:
 
 إذا أردت التعمق أكثر في جانب الجدولة، فهذه المقالة تشرح ذلك:
 
-- [FSRS مقابل SM-2 في 2026: أي خوارزمية تكرار متباعد تساعدك على تذكّر المزيد؟](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [FSRS مقابل SM-2 في 2026: أي خوارزمية تكرار متباعد تساعدك على تذكّر المزيد؟](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
 ## أين يناسب Flashcards هذا الأسلوب
 
-يناسب [Nibomo](https://flashcards-open-source-app.com/) هذا الأسلوب لأنه يوفّر أصلًا ما تحتاج إليه جلسات المحادثة الصوتية في تعلّم اللغات:
+يناسب [Nibomo](https://nibomo.com/) هذا الأسلوب لأنه يوفّر أصلًا ما تحتاج إليه جلسات المحادثة الصوتية في تعلّم اللغات:
 
 - إنشاء بطاقات واضحة بوجه أمامي ووجه خلفي
 - جدولة FSRS للمراجعة طويلة المدى
@@ -284,7 +284,7 @@ keywords:
 
 إذا كان هذا ما تريده، فابدأ من هنا:
 
-- [تعرّف إلى Flashcards](https://flashcards-open-source-app.com/)
-- [اقرأ دليل البدء](https://flashcards-open-source-app.com/docs/getting-started/)
-- [اطّلع على وثائق API](https://flashcards-open-source-app.com/docs/api/)
+- [تعرّف إلى Flashcards](https://nibomo.com/)
+- [اقرأ دليل البدء](https://nibomo.com/docs/getting-started/)
+- [اطّلع على وثائق API](https://nibomo.com/docs/api/)
 - [اعرض الشفرة المصدرية على GitHub](https://github.com/kirill-markin/flashcards-open-source-app)

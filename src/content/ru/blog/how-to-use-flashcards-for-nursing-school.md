@@ -125,8 +125,8 @@ keywords:
 
 Если источником для этого раздела у вас в основном служат лекционные слайды, раздатки или пакеты для повторения, то ближе всего к этой задаче подходят вот эти статьи:
 
-- [Как превратить PDF в карточки в 2026 году](https://flashcards-open-source-app.com/blog/how-to-turn-a-pdf-into-flashcards/)
-- [Как превращать заметки в карточки в 2026 году](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
+- [Как превратить PDF в карточки в 2026 году](https://nibomo.com/blog/how-to-turn-a-pdf-into-flashcards/)
+- [Как превращать заметки в карточки в 2026 году](https://nibomo.com/blog/turn-notes-into-flashcards/)
 
 ## Карточки по приоритизации и делегированию должны тренировать триггер, а не целый абзац с объяснением
 
@@ -195,7 +195,7 @@ keywords:
 
 Если именно эта часть процесса вам нужна больше всего, вот прямая парная статья:
 
-- [Как превращать тренировочные вопросы в карточки в 2026 году](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/)
+- [Как превращать тренировочные вопросы в карточки в 2026 году](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/)
 
 ## Еженедельный процесс с карточками для сестринского обучения должен переживать клинические смены
 
@@ -215,7 +215,7 @@ keywords:
 
 Если ваша главная проблема скорее в структуре, чем в написании карточек, читайте дальше вот это:
 
-- [Как организовать карточки в 2026 году](https://flashcards-open-source-app.com/blog/how-to-organize-flashcards/)
+- [Как организовать карточки в 2026 году](https://nibomo.com/blog/how-to-organize-flashcards/)
 
 ## FSRS особенно важен, когда ваш учебный график неровный
 
@@ -235,16 +235,16 @@ keywords:
 
 Если очередь уже становится слишком большой, к сестринскому процессу напрямую подходят вот эти две статьи:
 
-- [Сколько новых карточек в день в 2026 году?](https://flashcards-open-source-app.com/blog/how-many-new-flashcards-per-day/)
-- [Как готовиться к экзамену с FSRS в 2026 году](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/)
+- [Сколько новых карточек в день в 2026 году?](https://nibomo.com/blog/how-many-new-flashcards-per-day/)
+- [Как готовиться к экзамену с FSRS в 2026 году](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)
 
 А если вам нужно отдельно разобраться именно с моделью расписания:
 
-- [FSRS и SM-2 в 2026 году](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [FSRS и SM-2 в 2026 году](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
 ## Как Flashcards вписывается в этот сестринский процесс
 
-[Nibomo](https://flashcards-open-source-app.com/) хорошо подходит для **флешкарточек для сестринского дела**, потому что в продукте уже есть те части, от которых зависит такой рабочий процесс:
+[Nibomo](https://nibomo.com/) хорошо подходит для **флешкарточек для сестринского дела**, потому что в продукте уже есть те части, от которых зависит такой рабочий процесс:
 
 - карточки с лицевой и обратной стороной для узких запросов на воспроизведение
 - AI chat с данными рабочего пространства и вложениями файлов для черновиков из заметок, текста лекций или разборов вопросов
@@ -260,7 +260,7 @@ keywords:
 
 Если основная проблема у вас по-прежнему в качестве самих карточек, с этим процессом хорошо сочетается вот эта статья:
 
-- [Как делать карточки лучше в 2026 году](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [Как делать карточки лучше в 2026 году](https://nibomo.com/blog/how-to-make-better-flashcards/)
 
 ## Соберите сестринскую колоду, которой все еще удобно пользоваться во время финалов
 

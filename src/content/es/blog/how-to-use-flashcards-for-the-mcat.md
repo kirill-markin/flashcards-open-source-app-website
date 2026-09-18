@@ -169,8 +169,8 @@ Eso lleva a preguntas como:
 
 Si tu material fuente son sobre todo apuntes, diapositivas o fragmentos de manual, estos flujos relacionados encajan bien con la etapa previa de borrador:
 
-- [Cómo convertir apuntes en flashcards en 2026](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
-- [Cómo convertir un PDF en flashcards en 2026](https://flashcards-open-source-app.com/blog/how-to-turn-a-pdf-into-flashcards/)
+- [Cómo convertir apuntes en flashcards en 2026](https://nibomo.com/blog/turn-notes-into-flashcards/)
+- [Cómo convertir un PDF en flashcards en 2026](https://nibomo.com/blog/how-to-turn-a-pdf-into-flashcards/)
 
 ## Las preguntas de práctica que fallas deberían moldear la parte más valiosa del mazo
 
@@ -201,7 +201,7 @@ Lo que suele importar no es guardar para siempre la pregunta completa tal como a
 
 Este artículo complementario profundiza más en ese flujo:
 
-- [Cómo convertir preguntas de práctica en flashcards en 2026](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/)
+- [Cómo convertir preguntas de práctica en flashcards en 2026](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/)
 
 ## No conviertas cada fallo de práctica en una tarjeta
 
@@ -247,7 +247,7 @@ El MCAT ya tiene bastante complejidad con la práctica de pasajes, la planificac
 
 Si el problema mayor es la organización, este artículo combina bien con el flujo de MCAT:
 
-- [Cómo organizar flashcards en 2026](https://flashcards-open-source-app.com/blog/how-to-organize-flashcards/)
+- [Cómo organizar flashcards en 2026](https://nibomo.com/blog/how-to-organize-flashcards/)
 
 ## FSRS ayuda cuando tu horario del MCAT se vuelve irregular
 
@@ -274,12 +274,12 @@ Así que yo mantendría el orden simple:
 
 Si quieres profundizar más en la parte de la planificación, lee esto después:
 
-- [Cómo estudiar para un examen con FSRS en 2026](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/)
-- [FSRS vs SM-2 en 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [Cómo estudiar para un examen con FSRS en 2026](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)
+- [FSRS vs SM-2 en 2026](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
 ## Dónde encaja Flashcards en este flujo de trabajo para el MCAT
 
-[Nibomo](https://flashcards-open-source-app.com/) encaja bien en este tipo de flujo para el MCAT porque cubre las partes que muchos estudiantes suelen repartir entre demasiadas herramientas.
+[Nibomo](https://nibomo.com/) encaja bien en este tipo de flujo para el MCAT porque cubre las partes que muchos estudiantes suelen repartir entre demasiadas herramientas.
 
 El producto ya te da las piezas que este flujo necesita:
 
@@ -316,4 +316,4 @@ antes que un mazo gigante importado que poco a poco se convierta en culpa de fon
 
 Ésa es la versión de **flashcards para el MCAT** que suele aguantar en la preparación real: no como solución para cada parte del examen, y desde luego no como sustituto del trabajo con pasajes de CARS, sino como un sistema duradero para hechos, distinciones y errores que no quieres volver a aprender bajo presión.
 
-Si quieres ese flujo dentro de una sola solución de código abierto, [Nibomo](https://flashcards-open-source-app.com/) te da el camino práctico: redacta a partir de apuntes o archivos, quédate con las buenas tarjetas y deja que FSRS gestione el calendario de repaso mientras tú sigues centrado en la práctica real del MCAT.
+Si quieres ese flujo dentro de una sola solución de código abierto, [Nibomo](https://nibomo.com/) te da el camino práctico: redacta a partir de apuntes o archivos, quédate con las buenas tarjetas y deja que FSRS gestione el calendario de repaso mientras tú sigues centrado en la práctica real del MCAT.

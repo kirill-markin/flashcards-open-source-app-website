@@ -150,7 +150,7 @@ spoken sentence को उसी रूप में preserve करने स�
 
 अगर आप broader card-writing rules चाहते हैं, तो यहाँ से शुरू करें:
 
-- [2026 में बेहतर Flashcards कैसे बनाएं](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [2026 में बेहतर Flashcards कैसे बनाएं](https://nibomo.com/blog/how-to-make-better-flashcards/)
 
 ## अलग-अलग podcasts को अलग card styles चाहिए
 
@@ -188,7 +188,7 @@ spoken sentence को उसी रूप में preserve करने स�
 
 अगर source general learning की तुलना में language practice के ज़्यादा क़रीब है, तो यह companion article ज़्यादा उपयुक्त है:
 
-- [2026 में भाषा सीखने के लिए Flashcards का उपयोग कैसे करें](https://flashcards-open-source-app.com/blog/how-to-use-flashcards-for-language-learning/)
+- [2026 में भाषा सीखने के लिए Flashcards का उपयोग कैसे करें](https://nibomo.com/blog/how-to-use-flashcards-for-language-learning/)
 
 ## असली time-saver generation नहीं, replay कम करना है
 
@@ -219,11 +219,11 @@ FSRS इस uneven decay को fixed review rhythm से बेहतर स�
 
 अगर आप scheduling side को detail में समझना चाहते हैं, तो यह article और गहराई में जाता है:
 
-- [2026 में FSRS बनाम SM-2](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [2026 में FSRS बनाम SM-2](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
 ## Nibomo इसमें कहाँ फिट बैठता है
 
-[Nibomo](https://flashcards-open-source-app.com/) **podcast से flashcards** के लिए अच्छा fit है क्योंकि product पहले से उन practical steps को cover करता है जो इस workflow को usable बनाते हैं:
+[Nibomo](https://nibomo.com/) **podcast से flashcards** के लिए अच्छा fit है क्योंकि product पहले से उन practical steps को cover करता है जो इस workflow को usable बनाते हैं:
 
 - podcast transcripts से plain text paste या upload करना
 - cards बनाने से पहले AI chat के भीतर material साफ़ करना
@@ -235,8 +235,8 @@ FSRS इस uneven decay को fixed review rhythm से बेहतर स�
 
 अगर source podcasts की तुलना में lectures या YouTube के ज़्यादा क़रीब है, तो ये companion articles भी फिट बैठते हैं:
 
-- [2026 में Lecture Recordings को Flashcards में कैसे बदलें](https://flashcards-open-source-app.com/blog/how-to-turn-lecture-recordings-into-flashcards/)
-- [2026 में YouTube Video को Flashcards में कैसे बदलें](https://flashcards-open-source-app.com/blog/youtube-to-flashcards/)
+- [2026 में Lecture Recordings को Flashcards में कैसे बदलें](https://nibomo.com/blog/how-to-turn-lecture-recordings-into-flashcards/)
+- [2026 में YouTube Video को Flashcards में कैसे बदलें](https://nibomo.com/blog/youtube-to-flashcards/)
 
 ## उपयोगी नियम
 

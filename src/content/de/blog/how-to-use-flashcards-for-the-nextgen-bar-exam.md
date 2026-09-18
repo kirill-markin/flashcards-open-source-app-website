@@ -91,7 +91,7 @@ Das klingt offensichtlich, bis du 300 Karten tief im Deck steckst. Dann sieht **
 
 Wenn das Schreiben der Karten selbst die schwache Stelle ist, passt dieser Artikel direkt dazu:
 
-- [Wie du 2026 bessere Flashcards erstellst](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [Wie du 2026 bessere Flashcards erstellst](https://nibomo.com/blog/how-to-make-better-flashcards/)
 
 ## Issue-Spotting-Karten sollten den Auslöser trainieren, nicht das komplette Essay
 
@@ -123,7 +123,7 @@ Ohne Trigger-Karten kennst du die Regel, wenn dir jemand den Namen der Doktrin n
 
 Wenn du einen tieferen Workflow dafür willst, wie aus Fehlern Karten werden, ist dieser Begleitartikel der richtige:
 
-- [Wie du 2026 Übungsfragen in Flashcards verwandelst](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/)
+- [Wie du 2026 Übungsfragen in Flashcards verwandelst](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/)
 
 ## Fehler in eigenständigen Multiple-Choice-Fragen sind meistens bessere Kartenquellen als Outlines
 
@@ -199,7 +199,7 @@ Das ergibt ein saubereres Wiederholungserlebnis als ein einziges riesiges dogmat
 
 Wenn Organisation das größere Problem ist als Formulierung, lies als Nächstes diesen Artikel:
 
-- [Wie du 2026 Flashcards organisierst](https://flashcards-open-source-app.com/blog/how-to-organize-flashcards/)
+- [Wie du 2026 Flashcards organisierst](https://nibomo.com/blog/how-to-organize-flashcards/)
 
 ## Ein praktischer wöchentlicher Flashcard-Workflow für die NextGen Bar Exam
 
@@ -239,11 +239,11 @@ Ich würde die Reihenfolge einfach halten:
 
 Wenn du die Planungsseite ausführlicher willst, ist das hier der direkte Begleitartikel:
 
-- [Wie du 2026 mit FSRS für eine Prüfung lernst](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/)
+- [Wie du 2026 mit FSRS für eine Prüfung lernst](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)
 
 ## Wo Flashcards in diesen NextGen-Workflow hineinpassen
 
-Wenn du das in [Nibomo](https://flashcards-open-source-app.com/) umsetzen willst, liegt der nützliche Teil nicht in dem vagen Versprechen, dass KI das Lernen leichter macht. Der nützliche Teil ist, dass das Produkt bereits den eigentlichen Mittelteil dieses Workflows unterstützt:
+Wenn du das in [Nibomo](https://nibomo.com/) umsetzen willst, liegt der nützliche Teil nicht in dem vagen Versprechen, dass KI das Lernen leichter macht. Der nützliche Teil ist, dass das Produkt bereits den eigentlichen Mittelteil dieses Workflows unterstützt:
 
 - KI-Chat in der Web-App
 - Dateianhänge und Klartext-Uploads für Outlines, Übungsnotizen oder kopierte Erklärungen
@@ -256,7 +256,7 @@ Das ist wichtig, weil **Flashcards für die NextGen Bar Exam** nicht nur ein Gen
 
 Wenn dein Ausgangsmaterial eher aus rohen Notizen als aus fertigen Outlines besteht, passt dieser Artikel gut zu dem Workflow:
 
-- [Wie du 2026 Flashcards im Jurastudium nutzt: Fälle, Regeln und Issue Spotting, die wirklich hängen bleiben](https://flashcards-open-source-app.com/blog/how-to-use-flashcards-for-law-school/)
+- [Wie du 2026 Flashcards im Jurastudium nutzt: Fälle, Regeln und Issue Spotting, die wirklich hängen bleiben](https://nibomo.com/blog/how-to-use-flashcards-for-law-school/)
 
 ## Baue das Deck, das dir hilft, das Recht schneller zu erkennen und zu formulieren
 

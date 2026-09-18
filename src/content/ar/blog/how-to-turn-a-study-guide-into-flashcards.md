@@ -252,15 +252,15 @@ keywords:
 
 إذا كان أحد الأقسام قائمًا أساسًا على أسئلة تدريب، فهذه المقالة أنسب:
 
-- [كيف تحوّل أسئلة التدريب إلى بطاقات تعليمية في 2026](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/)
+- [كيف تحوّل أسئلة التدريب إلى بطاقات تعليمية في 2026](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/)
 
 أما إذا كان الدليل في الأصل مستندًا أو حزمة PDF مصدّرة، فاقرأ هذا أيضًا:
 
-- [كيف تحوّل ملف PDF إلى بطاقات تعليمية في 2026](https://flashcards-open-source-app.com/blog/how-to-turn-a-pdf-into-flashcards/)
+- [كيف تحوّل ملف PDF إلى بطاقات تعليمية في 2026](https://nibomo.com/blog/how-to-turn-a-pdf-into-flashcards/)
 
 وإذا بدأ الدليل أصلًا من جلسة تقوية بالذكاء الاصطناعي لا من حزمة صف، فهذه المقالة أقرب إلى حالتك:
 
-- [كيف تحوّل وضع الدراسة في ChatGPT إلى بطاقات تعليمية في 2026](https://flashcards-open-source-app.com/blog/how-to-turn-chatgpt-study-mode-into-flashcards/)
+- [كيف تحوّل وضع الدراسة في ChatGPT إلى بطاقات تعليمية في 2026](https://nibomo.com/blog/how-to-turn-chatgpt-study-mode-into-flashcards/)
 
 ## يجب أن تبدو المجموعة النهائية أخف من الدليل نفسه
 
@@ -281,7 +281,7 @@ keywords:
 
 ## أين يناسب Flashcards هذا الأسلوب
 
-[Nibomo](https://flashcards-open-source-app.com/) مناسب جدًا لفكرة **تحويل دليل الدراسة إلى بطاقات Flashcards** لأنه يجمع العناصر التي يحتاجها هذا الأسلوب في مكان واحد:
+[Nibomo](https://nibomo.com/) مناسب جدًا لفكرة **تحويل دليل الدراسة إلى بطاقات Flashcards** لأنه يجمع العناصر التي يحتاجها هذا الأسلوب في مكان واحد:
 
 - دردشة ذكاء اصطناعي لإعادة تنظيم نص دليل الدراسة الخام
 - إرفاق الملفات والصور
@@ -299,11 +299,11 @@ keywords:
 
 إذا كانت مشكلتك الأساسية هي جودة البطاقات نفسها، فاقرأ هذا بعده:
 
-- [كيفية إعداد بطاقات تعليمية أفضل في 2026](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [كيفية إعداد بطاقات تعليمية أفضل في 2026](https://nibomo.com/blog/how-to-make-better-flashcards/)
 
 وإذا كانت المشكلة الفعلية هي التخطيط لعبء المراجعة قبل موعد الامتحان، فهذا المقال مفيد أيضًا:
 
-- [كيفية الدراسة لامتحان باستخدام FSRS في 2026](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/)
+- [كيفية الدراسة لامتحان باستخدام FSRS في 2026](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)
 
 ## القاعدة العملية
 
@@ -321,7 +321,7 @@ keywords:
 
 إذا كان هذا ما تريده، فابدأ من هنا:
 
-- [ابدأ مع Flashcards](https://flashcards-open-source-app.com/)
+- [ابدأ مع Flashcards](https://nibomo.com/)
 - [افتح التطبيق](https://app.flashcards-open-source-app.com/)
-- [اقرأ دليل البدء](https://flashcards-open-source-app.com/docs/getting-started/)
+- [اقرأ دليل البدء](https://nibomo.com/docs/getting-started/)
 - [اطّلع على المشروع على GitHub](https://github.com/kirill-markin/flashcards-open-source-app)

@@ -171,8 +171,8 @@ keywords:
 
 إذا كنت تستخدم الذكاء الاصطناعي في المرحلة السابقة على ذلك، فهذان الدليلان يناسبان هذا الأسلوب أيضًا:
 
-- [كيفية استخدام ChatGPT لإنشاء Flashcards في عام 2026](https://flashcards-open-source-app.com/blog/how-to-use-chatgpt-to-make-flashcards/)
-- [كيفية تحويل الملاحظات إلى Flashcards في عام 2026](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
+- [كيفية استخدام ChatGPT لإنشاء Flashcards في عام 2026](https://nibomo.com/blog/how-to-use-chatgpt-to-make-flashcards/)
+- [كيفية تحويل الملاحظات إلى Flashcards في عام 2026](https://nibomo.com/blog/turn-notes-into-flashcards/)
 
 ## يجب أن تختبر البطاقة التذكر، لا وهم التعرّف
 
@@ -213,8 +213,8 @@ keywords:
 
 إذا أردت فهم جانب الجدولة بمزيد من التفصيل، فابدأ من هنا:
 
-- [FSRS مقابل SM-2 في عام 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
-- [كم عدد Flashcards الجديدة يوميًا في عام 2026](https://flashcards-open-source-app.com/blog/how-many-new-flashcards-per-day/)
+- [FSRS مقابل SM-2 في عام 2026](https://nibomo.com/blog/fsrs-vs-sm-2/)
+- [كم عدد Flashcards الجديدة يوميًا في عام 2026](https://nibomo.com/blog/how-many-new-flashcards-per-day/)
 
 ## أسرع تعديل هو الحذف
 
@@ -238,7 +238,7 @@ keywords:
 
 ## لماذا يناسب Flashcards سير العمل هذا
 
-يُعد [Nibomo](https://flashcards-open-source-app.com/) مناسبًا جدًا لمن يبحث عن **كيفية إعداد بطاقات تعليمية فعالة**، لأن المنتج مبني حول الأجزاء التي تهم بعد مرحلة المسودة:
+يُعد [Nibomo](https://nibomo.com/) مناسبًا جدًا لمن يبحث عن **كيفية إعداد بطاقات تعليمية فعالة**، لأن المنتج مبني حول الأجزاء التي تهم بعد مرحلة المسودة:
 
 - بطاقات حقيقية بوجه أمامي ووجه خلفي
 - مجموعات بطاقات ووسوم

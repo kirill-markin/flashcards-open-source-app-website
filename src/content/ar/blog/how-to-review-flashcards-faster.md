@@ -74,7 +74,7 @@ keywords:
 
 إذا أردت نسخة أعمق من هذه الفكرة، فابدأ من هنا:
 
-- [كيف تصنع بطاقات تعليمية أفضل في 2026](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [كيف تصنع بطاقات تعليمية أفضل في 2026](https://nibomo.com/blog/how-to-make-better-flashcards/)
 
 ## احسم أسرع، لا بقسوة أكبر
 
@@ -165,11 +165,11 @@ keywords:
 
 إذا كنت تحتاج إلى قاعدة أوضح لمعدل الإدخال، فهذه المقالة المرافقة تتوسع في ذلك:
 
-- [كم بطاقة تعليمية جديدة ينبغي إضافتها يوميًا في 2026؟](https://flashcards-open-source-app.com/blog/how-many-new-flashcards-per-day/)
+- [كم بطاقة تعليمية جديدة ينبغي إضافتها يوميًا في 2026؟](https://nibomo.com/blog/how-many-new-flashcards-per-day/)
 
 وإذا كنت قد تجاوزت فعلًا مرحلة "التصحيح الصغير" وصرت تحدّق في تكدس حقيقي للبطاقات المستحقة، فاقرأ هذه المقالة بعد ذلك بدلًا من هذا المقال:
 
-- [كيف تلحق بالبطاقات التعليمية بعد أن تتأخر عنها في 2026](https://flashcards-open-source-app.com/blog/how-to-catch-up-on-flashcards-after-falling-behind/)
+- [كيف تلحق بالبطاقات التعليمية بعد أن تتأخر عنها في 2026](https://nibomo.com/blog/how-to-catch-up-on-flashcards-after-falling-behind/)
 
 ## التنظيم يؤثر في السرعة أكثر مما يتوقع الناس
 
@@ -189,7 +189,7 @@ keywords:
 
 هذه المقالة تغطي ذلك المستوى:
 
-- [كيف تنظّم البطاقات التعليمية في 2026](https://flashcards-open-source-app.com/blog/how-to-organize-flashcards/)
+- [كيف تنظّم البطاقات التعليمية في 2026](https://nibomo.com/blog/how-to-organize-flashcards/)
 
 ## يساعد FSRS، لكنه لا يستطيع إنقاذ مجموعة مليئة بالضوضاء
 
@@ -240,7 +240,7 @@ keywords:
 
 ## أين يناسب Flashcards هذا الأسلوب بشكل أفضل
 
-[Nibomo](https://flashcards-open-source-app.com/) مناسب جدًا لهذه المشكلة تحديدًا لأن المنتج يدعم سير العمل الكامل القائم على "ولّد قدرًا أقل من البطاقات الرديئة، وراجع الجيد منها بسرعة أكبر" من دون أن يتظاهر بأن كل خطوة هي الوظيفة نفسها.
+[Nibomo](https://nibomo.com/) مناسب جدًا لهذه المشكلة تحديدًا لأن المنتج يدعم سير العمل الكامل القائم على "ولّد قدرًا أقل من البطاقات الرديئة، وراجع الجيد منها بسرعة أكبر" من دون أن يتظاهر بأن كل خطوة هي الوظيفة نفسها.
 
 القدرات الحالية للمنتج في هذا المستودع تنسجم مع ذلك جيدًا:
 
@@ -283,7 +283,7 @@ keywords:
 
 إذا أردت أن تجرّب هذا الأسلوب في مكان واحد:
 
-- [ابدأ مع Flashcards](https://flashcards-open-source-app.com/)
+- [ابدأ مع Flashcards](https://nibomo.com/)
 - [افتح التطبيق](https://app.flashcards-open-source-app.com/)
-- [اقرأ صفحة المزايا](https://flashcards-open-source-app.com/features/)
+- [اقرأ صفحة المزايا](https://nibomo.com/features/)
 - [اطّلع على المشروع في GitHub](https://github.com/kirill-markin/flashcards-open-source-app)

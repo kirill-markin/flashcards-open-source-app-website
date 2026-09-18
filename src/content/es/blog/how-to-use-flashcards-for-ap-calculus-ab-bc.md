@@ -113,7 +113,7 @@ Pero las **flashcards para AP Calculus** se vuelven mucho más útiles cuando la
 
 Esa división importa porque AP Calculus te obliga a moverte entre trabajo simbólico, gráficas, tablas y contexto. La derivada casi nunca es toda la tarea. Interpretarla bien es donde suelen escaparse los puntos.
 
-Si el estilo de tu mazo sigue siendo demasiado amplio, [Cómo usar flashcards para matemáticas en 2026](https://flashcards-open-source-app.com/blog/how-to-use-flashcards-for-math/) es el artículo complementario más cercano dentro de este blog.
+Si el estilo de tu mazo sigue siendo demasiado amplio, [Cómo usar flashcards para matemáticas en 2026](https://nibomo.com/blog/how-to-use-flashcards-for-math/) es el artículo complementario más cercano dentro de este blog.
 
 ## Las tarjetas de integrales deberían separar antiderivadas de acumulación
 
@@ -175,7 +175,7 @@ Ejemplos:
 
 Esa última importa. Algunos fallos son fallos de memoria. Otros son fallos de ejecución. Las flashcards ayudan con el primer grupo. La práctica con tiempo arregla el segundo.
 
-Si tu materia prima sale sobre todo de correcciones, [Cómo convertir preguntas de práctica en flashcards en 2026](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/) es la siguiente lectura más útil.
+Si tu materia prima sale sobre todo de correcciones, [Cómo convertir preguntas de práctica en flashcards en 2026](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/) es la siguiente lectura más útil.
 
 ## Bluebook cambia cómo deberías practicar aunque el cálculo siga escribiéndose a mano
 
@@ -244,11 +244,11 @@ Así que deja el orden simple:
 2. elimina rápido las tarjetas flojas
 3. deja que FSRS se encargue del momento
 
-[Cómo estudiar para un examen con FSRS en 2026](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/) entra más a fondo en la parte de planificación.
+[Cómo estudiar para un examen con FSRS en 2026](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/) entra más a fondo en la parte de planificación.
 
 ## Dónde encaja Flashcards en este flujo de AP Calculus
 
-[Nibomo](https://flashcards-open-source-app.com/) encaja bien en este flujo de AP Calculus si quieres un solo sitio donde mantener todo el ciclo ajustado sin convertir el artículo en un discurso de venta.
+[Nibomo](https://nibomo.com/) encaja bien en este flujo de AP Calculus si quieres un solo sitio donde mantener todo el ciclo ajustado sin convertir el artículo en un discurso de venta.
 
 Lo útil no es que sea "para estudiantes". Lo útil es que te permite guardar tarjetas de reglas, fallos de FRQ y tarjetas de series de BC dentro de un mismo sistema de repaso en vez de dispersarlo entre apuntes, capturas y correcciones viejas.
 
@@ -260,7 +260,7 @@ Las partes prácticas son las que importan:
 - planificación con FSRS una vez que las tarjetas ya merecen repasarse
 - repaso offline-first en web, iPhone y Android
 
-Si primero quieres ver el producto, la [página de funcionalidades](https://flashcards-open-source-app.com/features/) es el resumen más limpio. Si quieres empezar a usar la app o conectar más adelante un flujo más técnico, la [guía de inicio](https://flashcards-open-source-app.com/docs/getting-started/) y la [documentación de la API](https://flashcards-open-source-app.com/docs/api/) son los siguientes enlaces correctos.
+Si primero quieres ver el producto, la [página de funcionalidades](https://nibomo.com/features/) es el resumen más limpio. Si quieres empezar a usar la app o conectar más adelante un flujo más técnico, la [guía de inicio](https://nibomo.com/docs/getting-started/) y la [documentación de la API](https://nibomo.com/docs/api/) son los siguientes enlaces correctos.
 
 ## La regla de AP Calculus que de verdad aguanta la semana del examen
 

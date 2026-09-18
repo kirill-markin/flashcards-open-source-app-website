@@ -72,7 +72,7 @@ keywords:
 
 解剖学で図版が特に多いなら、前段の作業としてはこちらの記事がそのままつながります。
 
-- [2026年版 図をフラッシュカードに変える方法](https://flashcards-open-source-app.com/blog/how-to-turn-diagrams-into-flashcards/)
+- [2026年版 図をフラッシュカードに変える方法](https://nibomo.com/blog/how-to-turn-diagrams-into-flashcards/)
 
 ## 薬理学のカードは、暗唱ではなく選び分けを助けるべき
 
@@ -137,8 +137,8 @@ keywords:
 
 もとの資料がノートや長い配布資料中心なら、前段の作業にはこちらの記事が合います。
 
-- [2026年版 ノートをフラッシュカードに変える方法](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
-- [2026年版 PDFをフラッシュカードに変える方法](https://flashcards-open-source-app.com/blog/how-to-turn-a-pdf-into-flashcards/)
+- [2026年版 ノートをフラッシュカードに変える方法](https://nibomo.com/blog/turn-notes-into-flashcards/)
+- [2026年版 PDFをフラッシュカードに変える方法](https://nibomo.com/blog/how-to-turn-a-pdf-into-flashcards/)
 
 ## 問題演習で落とした点が、デッキ後半の形を決めるべき
 
@@ -159,7 +159,7 @@ keywords:
 
 この部分を特に強化したいなら、直接つながる記事はこちらです。
 
-- [2026年版 演習問題をフラッシュカードに変える方法](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/)
+- [2026年版 演習問題をフラッシュカードに変える方法](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/)
 
 ## 医学部向けフラッシュカードの週間運用は、たいてい意図的につまらない
 
@@ -199,7 +199,7 @@ keywords:
 
 整理面をもう少し詳しく見たいなら、次はこちらです。
 
-- [2026年版 フラッシュカードの整理術](https://flashcards-open-source-app.com/blog/how-to-organize-flashcards/)
+- [2026年版 フラッシュカードの整理術](https://nibomo.com/blog/how-to-organize-flashcards/)
 
 ## FSRSが最も効くのは、混乱を流し込むのをやめたとき
 
@@ -219,12 +219,12 @@ FSRS が得意なのは、まさにそういうばらついた記憶です。
 
 すでにキューが手に負えなくなりつつあるなら、医学部の運用にはこの2本がそのままつながります。
 
-- [2026年版 1日に何枚の新規フラッシュカードを追加すべきか](https://flashcards-open-source-app.com/blog/how-many-new-flashcards-per-day/)
-- [2026年版 FSRSで試験勉強する方法](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/)
+- [2026年版 1日に何枚の新規フラッシュカードを追加すべきか](https://nibomo.com/blog/how-many-new-flashcards-per-day/)
+- [2026年版 FSRSで試験勉強する方法](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)
 
 スケジューリングモデル自体を知りたいなら、こちらです。
 
-- [2026年版 FSRSとSM-2の違い](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [2026年版 FSRSとSM-2の違い](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
 ## 続けられる医学部ルーティンは、たいてい自分の意気込みより小さい
 
@@ -250,7 +250,7 @@ FSRS が得意なのは、まさにそういうばらついた記憶です。
 
 ## この運用では、Flashcards がより自然にはまる
 
-[Nibomo](https://flashcards-open-source-app.com/) が **医学生向けフラッシュカード** に向いているのは、この運用で必要になる要素をすでに備えているからです。
+[Nibomo](https://nibomo.com/) が **医学生向けフラッシュカード** に向いているのは、この運用で必要になる要素をすでに備えているからです。
 
 - 明確な想起プロンプトを作りやすい表裏カード
 - 講義テキスト、ノート、問題演習の振り返り材料から候補カードを下書きできるAIチャット
@@ -266,4 +266,4 @@ FSRS が得意なのは、まさにそういうばらついた記憶です。
 
 科目ごとの運用よりもカード品質そのものが問題なら、この記事にはこちらがよく合います。
 
-- [2026年版 より良いフラッシュカードの作り方](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [2026年版 より良いフラッシュカードの作り方](https://nibomo.com/blog/how-to-make-better-flashcards/)

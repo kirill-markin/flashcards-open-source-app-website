@@ -68,7 +68,7 @@ So entstehen klarere **Anatomie-Flashcards Medizinstudium**, die du auch noch be
 
 Wenn deine Anatomie-Arbeit besonders diagrammlastig ist, passt dieser Begleitartikel noch weiter vorne im Workflow:
 
-- [Wie du 2026 Diagramme in Flashcards verwandelst](https://flashcards-open-source-app.com/blog/how-to-turn-diagrams-into-flashcards/)
+- [Wie du 2026 Diagramme in Flashcards verwandelst](https://nibomo.com/blog/how-to-turn-diagrams-into-flashcards/)
 
 ## Pharmakologie-Karten sollten dir beim Entscheiden helfen, nicht nur beim Aufsagen
 
@@ -131,8 +131,8 @@ Das ist wichtig, weil **Flashcards für das Medizinstudium** nicht dafür da sin
 
 Wenn dein Quellenmaterial eher aus Notizen oder langen Handouts besteht, passen diese Artikel früher im Workflow:
 
-- [Wie du 2026 Notizen in Flashcards verwandelst](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
-- [Wie du 2026 ein PDF in Flashcards verwandelst](https://flashcards-open-source-app.com/blog/how-to-turn-a-pdf-into-flashcards/)
+- [Wie du 2026 Notizen in Flashcards verwandelst](https://nibomo.com/blog/turn-notes-into-flashcards/)
+- [Wie du 2026 ein PDF in Flashcards verwandelst](https://nibomo.com/blog/how-to-turn-a-pdf-into-flashcards/)
 
 ## Fehler aus Fragenbanken sollten die zweite Hälfte des Decks formen
 
@@ -153,7 +153,7 @@ So entsteht ein Deck, das von tatsächlichen Fehlern geformt ist und nicht nur d
 
 Wenn du dafür am meisten Hilfe brauchst, ist das der direkte Begleitartikel:
 
-- [Wie du 2026 Übungsfragen in Flashcards verwandelst](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/)
+- [Wie du 2026 Übungsfragen in Flashcards verwandelst](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/)
 
 ## Ein wöchentlicher Flashcard-Workflow im Medizinstudium ist meist absichtlich unspektakulär
 
@@ -189,7 +189,7 @@ Wenn all das in einer formlosen Warteschlange landet, fühlt sich das Deck irgen
 
 Wenn du die Organisationsseite ausführlicher willst, lies als Nächstes diesen Artikel:
 
-- [Wie du 2026 Flashcards organisierst](https://flashcards-open-source-app.com/blog/how-to-organize-flashcards/)
+- [Wie du 2026 Flashcards organisierst](https://nibomo.com/blog/how-to-organize-flashcards/)
 
 ## FSRS hilft am meisten, wenn du aufhörst, Chaos ins System zu kippen
 
@@ -209,12 +209,12 @@ Darum würde ich die Reihenfolge schlicht halten:
 
 Wenn deine Warteschlange schon aus dem Ruder läuft, passen diese beiden Artikel direkt zu diesem Workflow im Medizinstudium:
 
-- [Wie viele neue Flashcards pro Tag sind 2026 sinnvoll?](https://flashcards-open-source-app.com/blog/how-many-new-flashcards-per-day/)
-- [Wie du 2026 mit FSRS für eine Prüfung lernst](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/)
+- [Wie viele neue Flashcards pro Tag sind 2026 sinnvoll?](https://nibomo.com/blog/how-many-new-flashcards-per-day/)
+- [Wie du 2026 mit FSRS für eine Prüfung lernst](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)
 
 Und wenn du das Planungsmodell selbst erklärt haben willst:
 
-- [FSRS vs. SM-2 im Jahr 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [FSRS vs. SM-2 im Jahr 2026](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
 ## Eine tragfähige Routine im Medizinstudium ist meist kleiner als dein Ehrgeiz
 
@@ -240,7 +240,7 @@ Genau dort verdient sich das Deck seinen Platz.
 
 ## Wo Flashcards in diesen Workflow besonders gut passt
 
-[Nibomo](https://flashcards-open-source-app.com/) passt gut zu **Flashcards für das Medizinstudium**, weil das Produkt die Bausteine unterstützt, von denen dieser Workflow abhängt:
+[Nibomo](https://nibomo.com/) passt gut zu **Flashcards für das Medizinstudium**, weil das Produkt die Bausteine unterstützt, von denen dieser Workflow abhängt:
 
 - Karten im Vorder-/Rückseitenformat für klare Abrufprompts
 - KI-Chat, um aus Vorlesungstexten, Notizen oder Material aus der Nachbereitung von Fragen Kartenentwürfe zu erstellen
@@ -256,7 +256,7 @@ Diese Kombination ist wichtig, weil Decks im Medizinstudium oft an ausufernden W
 
 Wenn Kartenqualität eher das Hauptproblem ist als der fachliche Workflow, passt dieser Artikel gut dazu:
 
-- [Wie du 2026 bessere Flashcards erstellst](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [Wie du 2026 bessere Flashcards erstellst](https://nibomo.com/blog/how-to-make-better-flashcards/)
 
 ## So solltest du 2026 Flashcards im Medizinstudium nutzen
 
@@ -273,4 +273,4 @@ Das ist die Variante von **Spaced Repetition im Medizinstudium**, der ich vertra
 
 Kein riesiges Archiv und kein Ordner-Hobby. Sondern ein Deck, das auch dann noch sinnvoll bleibt, wenn der Block anzieht und die Fragetexte gemeiner werden.
 
-Wenn du ein Tool willst, das genau um diesen Workflow herum gebaut ist, passt [Nibomo](https://flashcards-open-source-app.com/) gut dazu. Du bekommst Vorder- und Rückseitenkarten, KI-gestützte Entwürfe, Tags, gefilterte Wiederholung und FSRS in einem Open-Source-Stack, der vom Anatomiesaal bis zur Examensvorbereitung nützlich bleiben kann.
+Wenn du ein Tool willst, das genau um diesen Workflow herum gebaut ist, passt [Nibomo](https://nibomo.com/) gut dazu. Du bekommst Vorder- und Rückseitenkarten, KI-gestützte Entwürfe, Tags, gefilterte Wiederholung und FSRS in einem Open-Source-Stack, der vom Anatomiesaal bis zur Examensvorbereitung nützlich bleiben kann.

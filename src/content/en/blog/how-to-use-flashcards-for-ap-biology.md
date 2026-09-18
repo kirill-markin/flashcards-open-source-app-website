@@ -61,7 +61,7 @@ If I were tightening a deck in late April, I would focus hard on:
 
 That kind of prioritization feels less fair. It is much more useful.
 
-For a ready-made starting point, [AP Biology Flashcards: Complete 8-Unit Course Review](https://flashcards-open-source-app.com/catalog/packages/ap-biology-flashcards-complete-course-review/) is an installable, independent, unofficial 540-card deck covering all eight units with original cards for concept and process recall, experimental design, data interpretation, and FRQ reasoning. It does not replace labs or full practice questions.
+For a ready-made starting point, [AP Biology Flashcards: Complete 8-Unit Course Review](https://nibomo.com/catalog/packages/ap-biology-flashcards-complete-course-review/) is an installable, independent, unofficial 540-card deck covering all eight units with original cards for concept and process recall, experimental design, data interpretation, and FRQ reasoning. It does not replace labs or full practice questions.
 
 ## Terms should be carded as decision points, not dictionary entries
 
@@ -90,9 +90,9 @@ Examples:
 
 Those cards work better because they train the choice you actually have to make under exam pressure.
 
-For a small baseline set, [these two-way cell-structure and function cards](https://flashcards-open-source-app.com/catalog/packages/cell-organelles-functions/) cover 24 common structures in text only. They do not cover diagrams, pathways, or the rest of AP Biology, so treat them as a narrow recall exercise rather than an AP Bio deck.
+For a small baseline set, [these two-way cell-structure and function cards](https://nibomo.com/catalog/packages/cell-organelles-functions/) cover 24 common structures in text only. They do not cover diagrams, pathways, or the rest of AP Biology, so treat them as a narrow recall exercise rather than an AP Bio deck.
 
-If your bigger problem is card quality instead of subject choice, [How to Make Better Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/) is the right follow-up.
+If your bigger problem is card quality instead of subject choice, [How to Make Better Flashcards in 2026](https://nibomo.com/blog/how-to-make-better-flashcards/) is the right follow-up.
 
 ## Processes should be broken into checkpoints, not stored as one heroic card
 
@@ -149,7 +149,7 @@ Examples:
 - What makes a control a **negative control** instead of a positive one?
 - When does an AP Biology setup support a claim about **cause** instead of only a pattern?
 
-If your best card source is what you missed in practice, [How to Turn Practice Questions Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/) fits directly here.
+If your best card source is what you missed in practice, [How to Turn Practice Questions Into Flashcards in 2026](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/) fits directly here.
 
 ## FRQ prep works better when the card stores the reasoning move
 
@@ -217,7 +217,7 @@ I would keep the loop this simple:
 4. Delete vague cards quickly.
 5. Keep new cards lower than your ambition wants, especially once the exam is close.
 
-If the daily load starts getting silly, [How Many New Flashcards Per Day in 2026?](https://flashcards-open-source-app.com/blog/how-many-new-flashcards-per-day/) is the better next read.
+If the daily load starts getting silly, [How Many New Flashcards Per Day in 2026?](https://nibomo.com/blog/how-many-new-flashcards-per-day/) is the better next read.
 
 ## FSRS helps once the AP Biology cards stop trying to do everything
 
@@ -236,11 +236,11 @@ So I would keep the order simple:
 3. delete weak cards early
 4. let FSRS handle the timing
 
-If you want the scheduling side in more detail, [How to Study for an Exam With FSRS in 2026](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/) is the direct companion.
+If you want the scheduling side in more detail, [How to Study for an Exam With FSRS in 2026](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/) is the direct companion.
 
 ## Where Flashcards fits in this AP Biology workflow
 
-If you want to run this inside [Nibomo](https://flashcards-open-source-app.com/), the useful part is not some vague promise that AI will magically learn biology for you.
+If you want to run this inside [Nibomo](https://nibomo.com/), the useful part is not some vague promise that AI will magically learn biology for you.
 
 The useful part is that the product already covers the messy middle of the workflow:
 

@@ -74,7 +74,7 @@ Eso normalmente no es un problema de memoria. Es un problema de diseño de tarje
 
 Si quieres una versión más a fondo de esa idea, empieza aquí:
 
-- [Cómo hacer mejores Flashcards en 2026](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [Cómo hacer mejores Flashcards en 2026](https://nibomo.com/blog/how-to-make-better-flashcards/)
 
 ## Decide más rápido, no con más dureza
 
@@ -165,11 +165,11 @@ Si el repaso diario ya se siente lento, no esperes a tener una cola de cuatro ci
 
 Si necesitas una regla más clara para el ritmo de entrada, este artículo complementario va más a fondo:
 
-- [¿Cuántas Flashcards nuevas por día en 2026?](https://flashcards-open-source-app.com/blog/how-many-new-flashcards-per-day/)
+- [¿Cuántas Flashcards nuevas por día en 2026?](https://nibomo.com/blog/how-many-new-flashcards-per-day/)
 
 Y si ya has pasado la fase de la "pequeña corrección" y estás mirando una pila real de pendientes, lee este después:
 
-- [Cómo ponerse al día con Flashcards después de quedarse atrás en 2026](https://flashcards-open-source-app.com/blog/how-to-catch-up-on-flashcards-after-falling-behind/)
+- [Cómo ponerse al día con Flashcards después de quedarse atrás en 2026](https://nibomo.com/blog/how-to-catch-up-on-flashcards-after-falling-behind/)
 
 ## La organización afecta a la velocidad más de lo que la gente espera
 
@@ -189,7 +189,7 @@ Si la estructura de la biblioteca está haciendo demasiado, simplifícala. Mant�
 
 Este artículo cubre esa capa:
 
-- [Cómo organizar Flashcards en 2026](https://flashcards-open-source-app.com/blog/how-to-organize-flashcards/)
+- [Cómo organizar Flashcards en 2026](https://nibomo.com/blog/how-to-organize-flashcards/)
 
 ## FSRS ayuda, pero no puede rescatar un mazo ruidoso
 
@@ -240,7 +240,7 @@ Eso resuelve más casos que la mayoría de consejos complicados de optimización
 
 ## Dónde encaja mejor Flashcards en este flujo
 
-[Nibomo](https://flashcards-open-source-app.com/) encaja bien con este problema concreto porque el producto soporta todo el flujo de "generar menos basura, repasar lo bueno más rápido" sin fingir que cada paso es el mismo trabajo.
+[Nibomo](https://nibomo.com/) encaja bien con este problema concreto porque el producto soporta todo el flujo de "generar menos basura, repasar lo bueno más rápido" sin fingir que cada paso es el mismo trabajo.
 
 Las capacidades actuales del producto en este repo encajan bien con eso:
 
@@ -283,7 +283,7 @@ Y si estás estudiando con IA en 2026, ésa es la habilidad de verdad ahora. No 
 
 Si quieres probar ese flujo en un solo sitio:
 
-- [Abrir Nibomo](https://flashcards-open-source-app.com/)
+- [Abrir Nibomo](https://nibomo.com/)
 - [Abrir la app](https://app.flashcards-open-source-app.com/)
-- [Leer la página de funcionalidades](https://flashcards-open-source-app.com/features/)
+- [Leer la página de funcionalidades](https://nibomo.com/features/)
 - [Ver el código fuente en GitHub](https://github.com/kirill-markin/flashcards-open-source-app)

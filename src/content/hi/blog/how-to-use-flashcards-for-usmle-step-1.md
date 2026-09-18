@@ -77,7 +77,7 @@ keywords:
 
 यह मिले-जुले Step 1 review के असली अनुभव के ज़्यादा करीब है।
 
-अगर आप इस topic का dedicated Step 1 version नहीं, बल्कि broader med-school version चाहते हैं, तो [2026 में मेडिकल स्कूल के लिए फ़्लैशकार्ड कैसे इस्तेमाल करें](https://flashcards-open-source-app.com/blog/how-to-use-flashcards-for-medical-school/) पढ़ें।
+अगर आप इस topic का dedicated Step 1 version नहीं, बल्कि broader med-school version चाहते हैं, तो [2026 में मेडिकल स्कूल के लिए फ़्लैशकार्ड कैसे इस्तेमाल करें](https://nibomo.com/blog/how-to-use-flashcards-for-medical-school/) पढ़ें।
 
 ## पैथोलॉजी कार्ड में पैटर्न पहचान और क्रियाविधि को अलग रखना चाहिए
 
@@ -125,7 +125,7 @@ keywords:
 
 **Step 1 पैथोलॉजी छवि फ़्लैशकार्ड** तब सबसे अच्छा काम करते हैं जब वे आपसे एक screenshot से पूरा pathology chapter दोबारा बनवाने के बजाय, एक बार में एक स्थिर pattern सिखाएँ।
 
-अगर आपकी कमजोरी images को cards में बदलने की प्रक्रिया है, तो [2026 में आरेखों को फ़्लैशकार्ड में कैसे बदलें](https://flashcards-open-source-app.com/blog/how-to-turn-diagrams-into-flashcards/) इसका सबसे नज़दीकी companion article है।
+अगर आपकी कमजोरी images को cards में बदलने की प्रक्रिया है, तो [2026 में आरेखों को फ़्लैशकार्ड में कैसे बदलें](https://nibomo.com/blog/how-to-turn-diagrams-into-flashcards/) इसका सबसे नज़दीकी companion article है।
 
 ## इमेज कार्ड को यह सिखाना चाहिए कि आप जल्दी क्या देख सकते हैं, यह नहीं कि आप धीरे-धीरे क्या फिर से पढ़ सकते हैं
 
@@ -220,7 +220,7 @@ Image cards को साफ़ रखें। अगर visual खुद ह�
 
 ये असली समस्याएँ हैं। बस ये flashcard problems नहीं हैं।
 
-अगर आपके सबसे अच्छे cards missed questions से आते हैं, तो [2026 में अभ्यास प्रश्नों को फ़्लैशकार्ड में कैसे बदलें](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/) conversion process को और गहराई से समझाता है।
+अगर आपके सबसे अच्छे cards missed questions से आते हैं, तो [2026 में अभ्यास प्रश्नों को फ़्लैशकार्ड में कैसे बदलें](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/) conversion process को और गहराई से समझाता है।
 
 ## फिज़ियोलॉजी कार्ड आम तौर पर direction of change के बारे में होने चाहिए
 
@@ -313,11 +313,11 @@ Step 1 review बहुत सामान्य तरीके से uneven �
 4. dedicated के दौरान new-card volume को realistic रखें
 5. डेक schedule करने लायक बन जाए, उसके बाद timing FSRS को संभालने दें
 
-अगर scheduling side को और detail में समझना है, तो [2026 में FSRS के साथ किसी परीक्षा की तैयारी कैसे करें](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/) इसका direct companion है। अगर आपकी queue पहले से ही हाथ से निकल रही है, तो [2026 में प्रति दिन कितने नए फ़्लैशकार्ड](https://flashcards-open-source-app.com/blog/how-many-new-flashcards-per-day/) अगला उपयोगी लेख है।
+अगर scheduling side को और detail में समझना है, तो [2026 में FSRS के साथ किसी परीक्षा की तैयारी कैसे करें](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/) इसका direct companion है। अगर आपकी queue पहले से ही हाथ से निकल रही है, तो [2026 में प्रति दिन कितने नए फ़्लैशकार्ड](https://nibomo.com/blog/how-many-new-flashcards-per-day/) अगला उपयोगी लेख है।
 
 ## Step 1 की तैयारी में Flashcards कहाँ फिट बैठता है
 
-अगर आप इसे [Nibomo](https://flashcards-open-source-app.com/) के भीतर चलाना चाहते हैं, तो value इस धुंधले वादे में नहीं है कि AI आपके लिए medicine सीख लेगा।
+अगर आप इसे [Nibomo](https://nibomo.com/) के भीतर चलाना चाहते हैं, तो value इस धुंधले वादे में नहीं है कि AI आपके लिए medicine सीख लेगा।
 
 असली value यह है कि product पहले से workflow के practical middle को cover करता है:
 
@@ -329,7 +329,7 @@ Step 1 review बहुत सामान्य तरीके से uneven �
 
 यह Step 1 के लिए अच्छा fit है, क्योंकि bottleneck आम तौर पर ज़्यादा information ढूँढ़ना नहीं होता। असली bottleneck सही information को इतना reviewable बनाए रखना होता है कि mixed exam day में वह टिक सके।
 
-अगर आपकी मुख्य समस्या यह है कि AI cards polished तो लगते हैं, लेकिन review में खराब निकलते हैं, तो [2026 में AI फ़्लैशकार्ड कैसे ठीक करें](https://flashcards-open-source-app.com/blog/how-to-fix-ai-flashcards/) सही अगला लेख है।
+अगर आपकी मुख्य समस्या यह है कि AI cards polished तो लगते हैं, लेकिन review में खराब निकलते हैं, तो [2026 में AI फ़्लैशकार्ड कैसे ठीक करें](https://nibomo.com/blog/how-to-fix-ai-flashcards/) सही अगला लेख है।
 
 ## 2026 में Step 1 फ़्लैशकार्ड के लिए उपयोगी नियम
 

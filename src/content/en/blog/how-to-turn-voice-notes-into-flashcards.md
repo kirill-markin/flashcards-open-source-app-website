@@ -82,7 +82,7 @@ You already have the concept in your head somewhere. The voice note is the messy
 
 If your source is a full class recording instead of your own recap, start here:
 
-- [How to Turn Lecture Recordings Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-turn-lecture-recordings-into-flashcards/)
+- [How to Turn Lecture Recordings Into Flashcards in 2026](https://nibomo.com/blog/how-to-turn-lecture-recordings-into-flashcards/)
 
 ## The workflow I trust is short recording, transcription, then ruthless cleanup
 
@@ -198,7 +198,7 @@ That often makes **study voice notes with flashcards** more useful than forcing 
 
 If the raw source is handwritten rather than spoken, this article fits better:
 
-- [How to Turn Handwritten Notes Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-turn-handwritten-notes-into-flashcards/)
+- [How to Turn Handwritten Notes Into Flashcards in 2026](https://nibomo.com/blog/how-to-turn-handwritten-notes-into-flashcards/)
 
 ## Bad audio-to-flashcards workflows usually fail in the same three ways
 
@@ -255,11 +255,11 @@ If the scheduler is solid, the whole audio workflow becomes believable. You capt
 
 If you want the scheduler side in more detail, this goes deeper:
 
-- [FSRS vs SM-2 in 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [FSRS vs SM-2 in 2026](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
 ## Where Flashcards fits this workflow
 
-[Nibomo](https://flashcards-open-source-app.com/) is a strong fit for **audio to flashcards** because the product already has the pieces this workflow needs in one place:
+[Nibomo](https://nibomo.com/) is a strong fit for **audio to flashcards** because the product already has the pieces this workflow needs in one place:
 
 - AI chat
 - file attachments

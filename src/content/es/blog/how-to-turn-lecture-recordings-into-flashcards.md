@@ -185,9 +185,9 @@ Si tiene la presentación de diapositivas, las notas o un folleto en PDF, utilí
 
 Esta es también la razón por la que el flujo de trabajo se superpone muy bien con algunos tipos de fuentes relacionadas:
 
-- [Cómo convertir un PDF en tarjetas didácticas en 2026](https://flashcards-open-source-app.com/blog/how-to-turn-a-pdf-into-flashcards/)
-- [Cómo convertir notas en tarjetas didácticas en 2026](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
-- [Cómo convertir un vídeo de YouTube en tarjetas didácticas en 2026](https://flashcards-open-source-app.com/blog/youtube-to-flashcards/)
+- [Cómo convertir un PDF en tarjetas didácticas en 2026](https://nibomo.com/blog/how-to-turn-a-pdf-into-flashcards/)
+- [Cómo convertir notas en tarjetas didácticas en 2026](https://nibomo.com/blog/turn-notes-into-flashcards/)
+- [Cómo convertir un vídeo de YouTube en tarjetas didácticas en 2026](https://nibomo.com/blog/youtube-to-flashcards/)
 
 Fuente diferente, misma regla subyacente: comience con material fundamentado, luego redacte tarjetas estrechas en lugar de pedirle a AI que invente un sistema de estudio para usted.
 
@@ -227,7 +227,7 @@ Es mucho mejor que convertir cada frase en una tarjeta y llamarla productividad.
 
 ## Dónde encajan las Flashcards
 
-[Nibomo](https://flashcards-open-source-app.com/) es una buena opción para **grabaciones de conferencias de estudio con tarjetas didácticas** porque cubre la parte que las transcripciones y los borradores de IA no resuelven por sí solos:
+[Nibomo](https://nibomo.com/) es una buena opción para **grabaciones de conferencias de estudio con tarjetas didácticas** porque cubre la parte que las transcripciones y los borradores de IA no resuelven por sí solos:
 
 - una aplicación de tarjetas didácticas reales con tarjetas frontales y posteriores
 - mazos y etiquetas
@@ -258,7 +258,7 @@ Si hiciste el trabajo de convertir una conferencia desordenada en potentes indic
 
 Si desea conocer el lado del algoritmo con más detalle, este artículo es más profundo:
 
-- [FSRS vs SM-2 en 2026: ¿Qué algoritmo de repetición espaciada le ayuda a recordar más?](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [FSRS vs SM-2 en 2026: ¿Qué algoritmo de repetición espaciada le ayuda a recordar más?](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
 ## Una regla práctica para decidir qué merece una tarjeta
 
@@ -292,9 +292,9 @@ Esa es la versión de **cómo convertir grabaciones de conferencias en tarjetas 
 
 Si está creando un flujo de trabajo de **transcripción de una conferencia en tarjetas didácticas**, comience aquí:
 
-- [Abrir tarjetas didácticas](https://flashcards-open-source-app.com/)
+- [Abrir tarjetas didácticas](https://nibomo.com/)
 - [Abre la aplicación](https://app.flashcards-open-source-app.com/)
-- [Lea la guía de autohospedaje](https://flashcards-open-source-app.com/docs/self-hosting/)
+- [Lea la guía de autohospedaje](https://nibomo.com/docs/self-hosting/)
 - [Ver la fuente en GitHub](https://github.com/kirill-markin/flashcards-open-source-app)
 
 Las grabaciones de conferencias son valiosas.

@@ -91,7 +91,7 @@ keywords:
 
 同样的规则也适用于孔、血管、韧带和神经丛分支。大多数解剖学失误，并不是“完全不会”，而是其中某一环掉了链子。
 
-如果你现在的卡片已经开始发胀，[2026 年如何做出更好的抽认卡](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/) 会是最合适的整理指南。
+如果你现在的卡片已经开始发胀，[2026 年如何做出更好的抽认卡](https://nibomo.com/blog/how-to-make-better-flashcards/) 会是最合适的整理指南。
 
 ## 空间关系，值得单独做卡
 
@@ -161,7 +161,7 @@ keywords:
 - 一张卡同时考区域、结构、神经支配和功能
 - 在一张信息很吵的图下面塞一整段答案
 
-如果你真正的痛点，是怎么把图示和带标注的视觉材料更干净地转成卡片，[2026 年如何把图示转成抽认卡](https://flashcards-open-source-app.com/blog/how-to-turn-diagrams-into-flashcards/) 讲的正是更前面的那一步工作流。
+如果你真正的痛点，是怎么把图示和带标注的视觉材料更干净地转成卡片，[2026 年如何把图示转成抽认卡](https://nibomo.com/blog/how-to-turn-diagrams-into-flashcards/) 讲的正是更前面的那一步工作流。
 
 ## AI 适合做整理，不适合替你完成记忆
 
@@ -182,7 +182,7 @@ keywords:
 
 所以，把 AI 用在整理和准备环节，而不是把记忆外包给它。
 
-如果你想看更完整的“从 AI 辅助到长期记忆”工作流，[2026 年如何使用 AI 学习](https://flashcards-open-source-app.com/blog/how-to-use-ai-to-study/) 和 [2026 年如何修复 AI 生成的抽认卡](https://flashcards-open-source-app.com/blog/how-to-fix-ai-flashcards/) 这两篇会是最有用的后续阅读。
+如果你想看更完整的“从 AI 辅助到长期记忆”工作流，[2026 年如何使用 AI 学习](https://nibomo.com/blog/how-to-use-ai-to-study/) 和 [2026 年如何修复 AI 生成的抽认卡](https://nibomo.com/blog/how-to-fix-ai-flashcards/) 这两篇会是最有用的后续阅读。
 
 ## 你错过的定位针和记反的结构关系，就是最好的卡片来源
 
@@ -210,7 +210,7 @@ keywords:
 
 它们只是通常不是抽认卡问题。
 
-如果你手上最好的素材，本来就是实验辨认失误和标本辨认题，[2026 年如何把练习题转成抽认卡](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/) 会很适合接着读。
+如果你手上最好的素材，本来就是实验辨认失误和标本辨认题，[2026 年如何把练习题转成抽认卡](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/) 会很适合接着读。
 
 ## 每周的解剖学工作流，最好有点无聊
 
@@ -228,7 +228,7 @@ keywords:
 
 但你的复习队列还是得维持在能过日子的范围内。
 
-如果现在已经开始失控，[2026 年每天该新增多少张抽认卡？](https://flashcards-open-source-app.com/blog/how-many-new-flashcards-per-day/) 和 [2026 年落下复习后如何追赶抽认卡](https://flashcards-open-source-app.com/blog/how-to-catch-up-on-flashcards-after-falling-behind/) 会是最合适的下一步阅读。
+如果现在已经开始失控，[2026 年每天该新增多少张抽认卡？](https://nibomo.com/blog/how-many-new-flashcards-per-day/) 和 [2026 年落下复习后如何追赶抽认卡](https://nibomo.com/blog/how-to-catch-up-on-flashcards-after-falling-behind/) 会是最合适的下一步阅读。
 
 ## 只有当卡片足够诚实时，FSRS 才真的有用
 
@@ -246,11 +246,11 @@ keywords:
 2. 把牌组控制住
 3. 再让 FSRS 处理时间安排
 
-如果你想更直接地了解排程这一层，[2026 年如何用 FSRS 备考](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/) 和 [2026 年 FSRS vs SM-2](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/) 是两篇很合适的后续阅读。
+如果你想更直接地了解排程这一层，[2026 年如何用 FSRS 备考](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/) 和 [2026 年 FSRS vs SM-2](https://nibomo.com/blog/fsrs-vs-sm-2/) 是两篇很合适的后续阅读。
 
 ## Flashcards 在这里扮演什么角色
 
-[Nibomo](https://flashcards-open-source-app.com/) 最适合在你已经知道“什么值得记”的前提下，用来学解剖学。
+[Nibomo](https://nibomo.com/) 最适合在你已经知道“什么值得记”的前提下，用来学解剖学。
 
 这和解剖学其实很匹配，因为这门课的素材往往本来就同时来自好几种有点凌乱的来源：
 
@@ -261,7 +261,7 @@ keywords:
 - 实操辨认里的错题
 - 简短的 AI 整理会话
 
-真正有用的点，不是什么“这个应用会神奇地替你记住臂丛分支”。而是你可以把这些来源整理成普通的正反面卡片，用 FSRS 复习，把以图像为主的材料集中在一起，在源文件或照片需要清理时用 AI 聊天辅助整理，并且让整副牌组在多台设备上离线可用。如果你想先看产品概览，可以从 [功能页](https://flashcards-open-source-app.com/features/) 或 [入门指南](https://flashcards-open-source-app.com/docs/getting-started/) 开始。如果你在意是否能自己掌控整套系统，[自托管指南](https://flashcards-open-source-app.com/docs/self-hosting/) 也已经在那里。
+真正有用的点，不是什么“这个应用会神奇地替你记住臂丛分支”。而是你可以把这些来源整理成普通的正反面卡片，用 FSRS 复习，把以图像为主的材料集中在一起，在源文件或照片需要清理时用 AI 聊天辅助整理，并且让整副牌组在多台设备上离线可用。如果你想先看产品概览，可以从 [功能页](https://nibomo.com/features/) 或 [入门指南](https://nibomo.com/docs/getting-started/) 开始。如果你在意是否能自己掌控整套系统，[自托管指南](https://nibomo.com/docs/self-hosting/) 也已经在那里。
 
 解剖学通常并不缺信息。
 

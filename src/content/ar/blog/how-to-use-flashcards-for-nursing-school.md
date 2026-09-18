@@ -125,8 +125,8 @@ keywords:
 
 إذا كانت موادك المصدرية لهذا القسم في الغالب شرائح محاضرات، أو أوراقًا مطبوعة، أو ملفات مراجعة، فهذان المساران السابقان في سير العمل هما الأقرب:
 
-- [كيف تحوّل ملف PDF إلى بطاقات تعليمية في 2026](https://flashcards-open-source-app.com/blog/how-to-turn-a-pdf-into-flashcards/)
-- [كيف تحوّل الملاحظات إلى بطاقات تعليمية في 2026](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
+- [كيف تحوّل ملف PDF إلى بطاقات تعليمية في 2026](https://nibomo.com/blog/how-to-turn-a-pdf-into-flashcards/)
+- [كيف تحوّل الملاحظات إلى بطاقات تعليمية في 2026](https://nibomo.com/blog/turn-notes-into-flashcards/)
 
 ## بطاقات تحديد الأولويات والتفويض يجب أن تدربك على الإشارة الحاسمة لا على فقرة التبرير كاملة
 
@@ -195,7 +195,7 @@ keywords:
 
 إذا كان هذا هو الجزء من سير العمل الذي تحتاج إليه أكثر من غيره، فهذه هي المقالة المرافقة المباشرة:
 
-- [كيف تحوّل أسئلة التدريب إلى بطاقات تعليمية في 2026](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/)
+- [كيف تحوّل أسئلة التدريب إلى بطاقات تعليمية في 2026](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/)
 
 ## سير عمل أسبوعي لبطاقات كلية التمريض يجب أن يصمد أمام التدريب السريري
 
@@ -215,7 +215,7 @@ keywords:
 
 إذا كانت مشكلتك الأكبر في البنية لا في كتابة البطاقات، فاقرأ هذا بعد ذلك:
 
-- [كيف تنظّم البطاقات التعليمية في 2026](https://flashcards-open-source-app.com/blog/how-to-organize-flashcards/)
+- [كيف تنظّم البطاقات التعليمية في 2026](https://nibomo.com/blog/how-to-organize-flashcards/)
 
 ## تزداد أهمية FSRS أكثر عندما يكون جدول مذاكرتك غير منتظم
 
@@ -235,16 +235,16 @@ keywords:
 
 إذا كانت قائمتك بدأت تكبر أكثر من اللازم أصلًا، فهاتان المقالتان ترتبطان مباشرة بسير عمل التمريض:
 
-- [كم بطاقة تعليمية جديدة يوميًا في 2026؟](https://flashcards-open-source-app.com/blog/how-many-new-flashcards-per-day/)
-- [كيف تذاكر لامتحان باستخدام FSRS في 2026](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/)
+- [كم بطاقة تعليمية جديدة يوميًا في 2026؟](https://nibomo.com/blog/how-many-new-flashcards-per-day/)
+- [كيف تذاكر لامتحان باستخدام FSRS في 2026](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)
 
 وإذا أردت شرح نموذج الجدولة نفسه:
 
-- [FSRS مقابل SM-2 في 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [FSRS مقابل SM-2 في 2026](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
 ## أين يناسب Flashcards هذا السير في التمريض
 
-[Nibomo](https://flashcards-open-source-app.com/) مناسب جدًا لـ **البطاقات التعليمية لكلية التمريض** لأن المنتج يدعم أصلًا العناصر التي يعتمد عليها هذا النوع من سير العمل:
+[Nibomo](https://nibomo.com/) مناسب جدًا لـ **البطاقات التعليمية لكلية التمريض** لأن المنتج يدعم أصلًا العناصر التي يعتمد عليها هذا النوع من سير العمل:
 
 - بطاقات بوجه أمامي ووجه خلفي لأسئلة استرجاع ضيقة
 - محادثة بالذكاء الاصطناعي مع بيانات مساحة العمل ومرفقات الملفات لصياغة بطاقات مرشحة من الملاحظات، أو نص المحاضرات، أو شروح الأسئلة
@@ -260,7 +260,7 @@ keywords:
 
 إذا كانت جودة البطاقة نفسها ما تزال المشكلة الأساسية، فهذه المقالة مناسبة جدًا مع سير عمل التمريض:
 
-- [كيف تصنع بطاقات تعليمية أفضل في 2026](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [كيف تصنع بطاقات تعليمية أفضل في 2026](https://nibomo.com/blog/how-to-make-better-flashcards/)
 
 ## ابنِ مجموعة التمريض التي تظل قابلة للاستخدام في فترة الامتحانات النهائية
 

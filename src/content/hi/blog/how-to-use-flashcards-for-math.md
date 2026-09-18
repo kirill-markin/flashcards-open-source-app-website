@@ -47,7 +47,7 @@ keywords:
 
 इसीलिए **फ़्लैशकार्ड से गणित कैसे पढ़ें** का बड़ा हिस्सा card design की समस्या है। एक अच्छा card अगला कदम याद से निकालना आसान बनाए। उसे पूरा अध्याय सहेजने की कोशिश नहीं करनी चाहिए।
 
-अगर आपके मौजूदा cards पहले से बहुत चौड़े या बहुत शब्द-भरे लग रहे हैं, तो और जोड़ने से पहले [2026 में बेहतर फ़्लैशकार्ड कैसे बनाएं](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/) अच्छा reset है।
+अगर आपके मौजूदा cards पहले से बहुत चौड़े या बहुत शब्द-भरे लग रहे हैं, तो और जोड़ने से पहले [2026 में बेहतर फ़्लैशकार्ड कैसे बनाएं](https://nibomo.com/blog/how-to-make-better-flashcards/) अच्छा reset है।
 
 ## फ़ॉर्मूलों से शुरू करें, लेकिन cards को अपनी formula sheet से छोटा रखें
 
@@ -93,7 +93,7 @@ keywords:
 
 ये अब भी **गणित समस्या-समाधान फ़्लैशकार्ड** हैं, लेकिन ये पूरा solution path याद करने की कोशिश नहीं कर रहे। ये पहचान को तेज़ करते हैं। यह इसलिए मायने रखता है क्योंकि explanation अब आसानी से मिल जाती है। कुछ ही मिनटों में tutor, video, या AI tool से walkthrough मिल सकता है। मुश्किल हिस्सा यह है कि कोई दिखाए उससे पहले सही कदम खुद दिखे।
 
-अगर आपकी कच्ची सामग्री ज़्यादातर corrected homework, quizzes, या mock tests से आती है, तो [2026 में अभ्यास प्रश्नों को फ़्लैशकार्ड में कैसे बदलें](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/) यह लेख इस workflow के साथ अच्छी तरह बैठता है।
+अगर आपकी कच्ची सामग्री ज़्यादातर corrected homework, quizzes, या mock tests से आती है, तो [2026 में अभ्यास प्रश्नों को फ़्लैशकार्ड में कैसे बदलें](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/) यह लेख इस workflow के साथ अच्छी तरह बैठता है।
 
 ## आपकी गलती-लॉग अक्सर किसी सामान्य math deck से बेहतर होती है
 
@@ -149,7 +149,7 @@ Homework, quiz, या practice set के बाद:
 
 आख़िरी step लोगों की सोच से ज़्यादा मायने रखता है। अगर नई practice में गलती गायब हो जाती है, तो card ने शायद अपना काम कर दिया। अगर गलती बची रहती है, तो अक्सर card बहुत अस्पष्ट है, बहुत चौड़ा है, या गलत memory target पर बना है।
 
-अगर deck की बनावट बिखरने लगे, तो हर वर्कशीट के लिए नया deck बनाने से बेहतर [2026 में फ़्लैशकार्ड को व्यवस्थित कैसे करें](https://flashcards-open-source-app.com/blog/how-to-organize-flashcards/) पढ़ना है।
+अगर deck की बनावट बिखरने लगे, तो हर वर्कशीट के लिए नया deck बनाने से बेहतर [2026 में फ़्लैशकार्ड को व्यवस्थित कैसे करें](https://nibomo.com/blog/how-to-organize-flashcards/) पढ़ना है।
 
 ## AI गणित के cards का मसौदा जल्दी बना सकता है, लेकिन edit pass अब भी ज़रूरी है
 
@@ -161,7 +161,7 @@ Homework, quiz, या practice set के बाद:
 
 तो हाँ, अगर boring हिस्सा तेज़ होता है, तो **गणित फ़्लैशकार्ड** के मसौदे के लिए AI इस्तेमाल कीजिए। फिर सख़्ती से edit कीजिए। overloaded cards को बाँटिए। vague fronts दोबारा लिखिए। जो cards अभी smart लगते हैं लेकिन अगले हफ्ते खराब review होंगे, उन्हें हटा दीजिए।
 
-अगर bottleneck साफ़-सफ़ाई वाला step ही है, तो [2026 में AI फ़्लैशकार्ड कैसे ठीक करें](https://flashcards-open-source-app.com/blog/how-to-fix-ai-flashcards/) उस editing pass पर और गहराई से जाता है।
+अगर bottleneck साफ़-सफ़ाई वाला step ही है, तो [2026 में AI फ़्लैशकार्ड कैसे ठीक करें](https://nibomo.com/blog/how-to-fix-ai-flashcards/) उस editing pass पर और गहराई से जाता है।
 
 ## FSRS गणित में तब मदद करता है जब cards काफ़ी संकरे हों
 
@@ -171,11 +171,11 @@ Homework, quiz, या practice set के बाद:
 
 लेकिन शेड्यूलर को साफ़ cards फिर भी चाहिए। अगर prompt अस्पष्ट है, तो self-grading शोर-भरी हो जाती है। अगर एक card बहुत-सी चीज़ें test करता है, तो difficulty rating धुंधली हो जाती है। अगर answer एक paragraph है, तो ईमानदार review की जगह आप खुद से मोलभाव करने लगते हैं।
 
-छोटे cards FSRS को बहुत ज़्यादा उपयोगी बना देते हैं। अगर card-writing वाला हिस्सा control में आने के बाद आप scheduling side को tune करना चाहते हैं, तो [2026 में FSRS settings: क्या बदलें और क्या वैसे ही छोड़ दें](https://flashcards-open-source-app.com/blog/fsrs-settings/) अगली सही पढ़ाई है।
+छोटे cards FSRS को बहुत ज़्यादा उपयोगी बना देते हैं। अगर card-writing वाला हिस्सा control में आने के बाद आप scheduling side को tune करना चाहते हैं, तो [2026 में FSRS settings: क्या बदलें और क्या वैसे ही छोड़ दें](https://nibomo.com/blog/fsrs-settings/) अगली सही पढ़ाई है।
 
 ## इस workflow में Flashcards कहाँ फिट बैठता है
 
-[Nibomo](https://flashcards-open-source-app.com/) इस तरह की math study के लिए अच्छा विकल्प है, क्योंकि यह product उन हिस्सों को support करता है जो memory target तय होने के बाद सबसे ज़्यादा मायने रखते हैं:
+[Nibomo](https://nibomo.com/) इस तरह की math study के लिए अच्छा विकल्प है, क्योंकि यह product उन हिस्सों को support करता है जो memory target तय होने के बाद सबसे ज़्यादा मायने रखते हैं:
 
 - formulas, recognition cues, और error patterns के लिए front/back cards
 - decks, tags, और filtering, ताकि main library तोड़े बिना एक topic review कर सकें
@@ -183,7 +183,7 @@ Homework, quiz, या practice set के बाद:
 - finished deck के लिए FSRS review scheduling
 - web, iPhone, और Android पर offline-first clients
 
-अगर आपकी अध्ययन सामग्री पहले से text files में रहती है, या आपको थोड़ा ज़्यादा technical workflow चाहिए, तो docs में [शुरुआत करने की गाइड](https://flashcards-open-source-app.com/docs/getting-started/) और [API / agent onboarding](https://flashcards-open-source-app.com/docs/api/) भी है। यह तब काम आता है जब आप यही math workflow आगे चलकर quick manual cards से थोड़ा ज़्यादा automated setup तक ले जाना चाहते हों।
+अगर आपकी अध्ययन सामग्री पहले से text files में रहती है, या आपको थोड़ा ज़्यादा technical workflow चाहिए, तो docs में [शुरुआत करने की गाइड](https://nibomo.com/docs/getting-started/) और [API / agent onboarding](https://nibomo.com/docs/api/) भी है। यह तब काम आता है जब आप यही math workflow आगे चलकर quick manual cards से थोड़ा ज़्यादा automated setup तक ले जाना चाहते हों।
 
 ## काम का नियम
 
@@ -196,5 +196,5 @@ Homework, quiz, या practice set के बाद:
 अगर आप इसे व्यवहार में आज़माना चाहते हैं:
 
 - [ऐप खोलें](https://app.flashcards-open-source-app.com/)
-- [फ़ीचर्स पेज पढ़ें](https://flashcards-open-source-app.com/features/)
-- [शुरुआत करने की गाइड पढ़ें](https://flashcards-open-source-app.com/docs/getting-started/)
+- [फ़ीचर्स पेज पढ़ें](https://nibomo.com/features/)
+- [शुरुआत करने की गाइड पढ़ें](https://nibomo.com/docs/getting-started/)

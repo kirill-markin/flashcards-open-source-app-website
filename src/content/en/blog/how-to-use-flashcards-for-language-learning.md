@@ -53,7 +53,7 @@ If one card is trying to teach the word, the gender, the plural form, the irregu
 
 That is the same rule that makes generic flashcards better too:
 
-- [How to Make Better Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [How to Make Better Flashcards in 2026](https://nibomo.com/blog/how-to-make-better-flashcards/)
 
 Language decks just punish overloaded cards even faster.
 
@@ -181,8 +181,8 @@ That is why I think the useful order is:
 
 If you want the scheduling side in more detail, start here:
 
-- [FSRS vs SM-2 in 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
-- [How Many New Flashcards Per Day in 2026?](https://flashcards-open-source-app.com/blog/how-many-new-flashcards-per-day/)
+- [FSRS vs SM-2 in 2026](https://nibomo.com/blog/fsrs-vs-sm-2/)
+- [How Many New Flashcards Per Day in 2026?](https://nibomo.com/blog/how-many-new-flashcards-per-day/)
 
 ## Review load matters more than deck size
 
@@ -225,9 +225,9 @@ Because only you know whether:
 
 If your source material starts as notes, transcript text, or chat output, these guides help upstream:
 
-- [How to Use ChatGPT to Make Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-use-chatgpt-to-make-flashcards/)
-- [How to Turn Voice Notes Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-turn-voice-notes-into-flashcards/)
-- [How to Turn YouTube Videos Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/youtube-to-flashcards/)
+- [How to Use ChatGPT to Make Flashcards in 2026](https://nibomo.com/blog/how-to-use-chatgpt-to-make-flashcards/)
+- [How to Turn Voice Notes Into Flashcards in 2026](https://nibomo.com/blog/how-to-turn-voice-notes-into-flashcards/)
+- [How to Turn YouTube Videos Into Flashcards in 2026](https://nibomo.com/blog/youtube-to-flashcards/)
 
 ## Build around your real goal, not generic language ambition
 
@@ -245,7 +245,7 @@ The deck gets cleaner immediately.
 
 ## Where Flashcards fits this workflow better
 
-[Nibomo](https://flashcards-open-source-app.com/) is a strong fit for **spaced repetition for vocabulary** because the product already supports the pieces this workflow depends on:
+[Nibomo](https://nibomo.com/) is a strong fit for **spaced repetition for vocabulary** because the product already supports the pieces this workflow depends on:
 
 - clean front/back cards
 - FSRS review scheduling
@@ -257,9 +257,9 @@ That makes it easier to move from "I found useful language in a source" to "I am
 
 If you are also comparing broader product options, these are the closest adjacent reads:
 
-- [Memrise Alternative in 2026](https://flashcards-open-source-app.com/blog/memrise-alternative/)
-- [Quizlet Alternative in 2026](https://flashcards-open-source-app.com/blog/quizlet-alternative/)
-- [Best Offline Flashcards App in 2026](https://flashcards-open-source-app.com/blog/best-offline-flashcards-app/)
+- [Memrise Alternative in 2026](https://nibomo.com/blog/memrise-alternative/)
+- [Quizlet Alternative in 2026](https://nibomo.com/blog/quizlet-alternative/)
+- [Best Offline Flashcards App in 2026](https://nibomo.com/blog/best-offline-flashcards-app/)
 
 ## So how should you use flashcards for language learning in 2026?
 
@@ -274,4 +274,4 @@ I would keep the system simple:
 
 That is the version of **how to use flashcards for language learning** I trust.
 
-If you want a tool built around that workflow, [Nibomo](https://flashcards-open-source-app.com/) is a strong fit. It gives you AI-assisted drafting, front/back cards, and FSRS review in one open-source stack, which is exactly what a language deck needs once you stop mistaking word collection for actual learning.
+If you want a tool built around that workflow, [Nibomo](https://nibomo.com/) is a strong fit. It gives you AI-assisted drafting, front/back cards, and FSRS review in one open-source stack, which is exactly what a language deck needs once you stop mistaking word collection for actual learning.

@@ -82,7 +82,7 @@ keywords:
 
 如果你的来源其实是一整段课堂录音，而不是自己的复述，请先看这篇：
 
-- [2026 年如何把课堂录音整理成抽认卡](https://flashcards-open-source-app.com/blog/how-to-turn-lecture-recordings-into-flashcards/)
+- [2026 年如何把课堂录音整理成抽认卡](https://nibomo.com/blog/how-to-turn-lecture-recordings-into-flashcards/)
 
 ## 我真正信任的流程是：短录音、先转写、再狠删
 
@@ -198,7 +198,7 @@ keywords:
 
 如果你的原始来源其实是手写内容，而不是语音，这篇会更适合：
 
-- [2026 年如何把手写笔记做成抽认卡](https://flashcards-open-source-app.com/blog/how-to-turn-handwritten-notes-into-flashcards/)
+- [2026 年如何把手写笔记做成抽认卡](https://nibomo.com/blog/how-to-turn-handwritten-notes-into-flashcards/)
 
 ## 糟糕的音频转抽认卡流程，通常都死在同样三个地方
 
@@ -255,11 +255,11 @@ keywords:
 
 如果你想更深入看排程这一侧，这篇会讲得更细：
 
-- [2026 年 FSRS vs SM-2](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [2026 年 FSRS vs SM-2](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
 ## 为什么 Flashcards 很适合这套流程
 
-[Nibomo](https://flashcards-open-source-app.com/) 很适合 **音频转抽认卡**，因为这个产品已经把这条流程真正需要的部件放在同一个地方：
+[Nibomo](https://nibomo.com/) 很适合 **音频转抽认卡**，因为这个产品已经把这条流程真正需要的部件放在同一个地方：
 
 - AI 对话
 - 文件附件

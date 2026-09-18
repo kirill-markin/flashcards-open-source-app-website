@@ -92,7 +92,7 @@ keywords:
 
 如果你写卡片本身就是薄弱环节，下一篇文章更直接：
 
-- [2026 年如何做出更好的抽认卡](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [2026 年如何做出更好的抽认卡](https://nibomo.com/blog/how-to-make-better-flashcards/)
 
 ## 法学院大纲是素材来源，不是最终牌组
 
@@ -113,7 +113,7 @@ keywords:
 
 如果你的材料目前还更接近课堂笔记，而不是一份成熟大纲，这篇配套文章更合适：
 
-- [2026 年如何把笔记转成抽认卡](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
+- [2026 年如何把笔记转成抽认卡](https://nibomo.com/blog/turn-notes-into-flashcards/)
 
 ## 争点识别抽认卡，应该训练触发信号，而不是整篇论述答案
 
@@ -152,7 +152,7 @@ keywords:
 
 如果这正是你最需要的工作流，先看这里：
 
-- [2026 年如何把练习题转成抽认卡](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/)
+- [2026 年如何把练习题转成抽认卡](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/)
 
 ## 一套适合法学院抽认卡的每周实用工作流
 
@@ -170,7 +170,7 @@ keywords:
 
 如果你更大的问题不是写卡，而是结构，这篇文章会直接接上：
 
-- [2026 年如何整理抽认卡](https://flashcards-open-source-app.com/blog/how-to-organize-flashcards/)
+- [2026 年如何整理抽认卡](https://nibomo.com/blog/how-to-organize-flashcards/)
 
 ## 律师资格考试抽认卡，只有在 1L 牌组一开始就够干净时才更有价值
 
@@ -217,12 +217,12 @@ keywords:
 
 如果你想更细看调度这一侧，这两篇最适合接着读：
 
-- [2026 年如何用 FSRS 为考试复习](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/)
-- [2026 年 FSRS vs SM-2](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [2026 年如何用 FSRS 为考试复习](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)
+- [2026 年 FSRS vs SM-2](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
 ## Flashcards 在这套法学院工作流里适合放在哪里
 
-如果你想在 [Nibomo](https://flashcards-open-source-app.com/) 里跑这套流程，真正有用的地方并不是抽象地说“AI 可以做卡”。而是这个产品目前已经覆盖了这项工作里最无聊、却又最关键的中段：
+如果你想在 [Nibomo](https://nibomo.com/) 里跑这套流程，真正有用的地方并不是抽象地说“AI 可以做卡”。而是这个产品目前已经覆盖了这项工作里最无聊、却又最关键的中段：
 
 - 用于起草和清理卡片的 AI chat
 - 包括纯文本上传在内的文件附件
@@ -247,9 +247,9 @@ keywords:
 
 如果你想在 Flashcards 里试试这套工作流：
 
-- [开始使用 Flashcards](https://flashcards-open-source-app.com/)
+- [开始使用 Flashcards](https://nibomo.com/)
 - [打开网页版应用](https://app.flashcards-open-source-app.com/)
-- [阅读入门指南](https://flashcards-open-source-app.com/docs/getting-started/)
+- [阅读入门指南](https://nibomo.com/docs/getting-started/)
 - [在 GitHub 上查看源码](https://github.com/kirill-markin/flashcards-open-source-app)
 
 目标不是把大纲换一种更好看的方式做成抽认卡。

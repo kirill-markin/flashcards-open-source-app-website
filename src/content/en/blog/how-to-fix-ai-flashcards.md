@@ -89,7 +89,7 @@ I would usually split it into separate cards:
 
 The same rule applies to definition-plus-example cards, formula-plus-exception cards, and any card where the answer starts turning into a mini outline.
 
-If you want the deeper card-writing version of this idea, [How to Make Better Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/) goes further.
+If you want the deeper card-writing version of this idea, [How to Make Better Flashcards in 2026](https://nibomo.com/blog/how-to-make-better-flashcards/) goes further.
 
 ## Rewrite the front so tired future-you can understand it instantly
 
@@ -148,7 +148,7 @@ Keep the back side plain:
 
 Anything beyond that usually wants to become another card.
 
-This matters even more if you care about review speed later. [How to Review Flashcards Faster in 2026](https://flashcards-open-source-app.com/blog/how-to-review-flashcards-faster/) is basically the downstream consequence of this editing decision.
+This matters even more if you care about review speed later. [How to Review Flashcards Faster in 2026](https://nibomo.com/blog/how-to-review-flashcards-faster/) is basically the downstream consequence of this editing decision.
 
 ## Use AI for second-pass editing, not as the final authority
 
@@ -184,8 +184,8 @@ That is why I would mine those sessions for misses and weak spots, not export th
 
 If your workflow begins earlier than cleanup, these companion pieces are the better fit:
 
-- [How to Use ChatGPT to Make Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-use-chatgpt-to-make-flashcards/)
-- [How to Turn ChatGPT Study Mode Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-turn-chatgpt-study-mode-into-flashcards/)
+- [How to Use ChatGPT to Make Flashcards in 2026](https://nibomo.com/blog/how-to-use-chatgpt-to-make-flashcards/)
+- [How to Turn ChatGPT Study Mode Into Flashcards in 2026](https://nibomo.com/blog/how-to-turn-chatgpt-study-mode-into-flashcards/)
 
 This article starts one step later: the cards already exist, and now they need to become reviewable.
 
@@ -210,7 +210,7 @@ I would go through exported or copied cards and ask:
 
 If not, rewrite or delete it.
 
-The source-to-spaced-repetition bridge is covered more directly in [How to Turn NotebookLM Flashcards Into Real Spaced Repetition in 2026](https://flashcards-open-source-app.com/blog/notebooklm-flashcards-to-spaced-repetition/). This article is the stricter cleanup pass after that bridge starts.
+The source-to-spaced-repetition bridge is covered more directly in [How to Turn NotebookLM Flashcards Into Real Spaced Repetition in 2026](https://nibomo.com/blog/notebooklm-flashcards-to-spaced-repetition/). This article is the stricter cleanup pass after that bridge starts.
 
 ## A simple cleanup workflow that actually holds up
 
@@ -241,11 +241,11 @@ What FSRS does well is handle timing once the cards are clear enough to trust:
 - harder cards get more believable spacing
 - the review queue feels calmer over time
 
-If you want the scheduler comparison itself, [FSRS vs SM-2 in 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/) covers that part.
+If you want the scheduler comparison itself, [FSRS vs SM-2 in 2026](https://nibomo.com/blog/fsrs-vs-sm-2/) covers that part.
 
 ## Where Flashcards fits this workflow
 
-[Nibomo](https://flashcards-open-source-app.com/) is a good fit for **how to fix AI flashcards** because the product already covers the awkward middle that most generators leave behind:
+[Nibomo](https://nibomo.com/) is a good fit for **how to fix AI flashcards** because the product already covers the awkward middle that most generators leave behind:
 
 - create front/back cards in the hosted web app
 - use AI chat with workspace data and file attachments, including plain text uploads

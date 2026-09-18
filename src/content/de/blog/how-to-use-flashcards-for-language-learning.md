@@ -53,7 +53,7 @@ Wenn eine Karte gleichzeitig Wort, Genus, Pluralform, unregelmäßige Vergangenh
 
 Das ist dieselbe Regel, die auch allgemeine Flashcards besser macht:
 
-- [Wie du 2026 bessere Flashcards machst: Front- und Back-Regeln, die mit FSRS wirklich funktionieren](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [Wie du 2026 bessere Flashcards machst: Front- und Back-Regeln, die mit FSRS wirklich funktionieren](https://nibomo.com/blog/how-to-make-better-flashcards/)
 
 Sprachdecks bestrafen überladene Karten nur noch schneller als andere Decks.
 
@@ -167,8 +167,8 @@ Darum ist für mich die sinnvolle Reihenfolge:
 
 Wenn du den Teil zur Wiederholungsplanung genauer verstehen willst, fang hier an:
 
-- [FSRS vs SM-2 in 2026: Welcher Spaced-Repetition-Algorithmus hilft dir, mehr zu behalten?](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
-- [Wie viele neue Flashcards pro Tag im Jahr 2026? Baue eine FSRS-Review-Last, die du wirklich fertig bekommst](https://flashcards-open-source-app.com/blog/how-many-new-flashcards-per-day/)
+- [FSRS vs SM-2 in 2026: Welcher Spaced-Repetition-Algorithmus hilft dir, mehr zu behalten?](https://nibomo.com/blog/fsrs-vs-sm-2/)
+- [Wie viele neue Flashcards pro Tag im Jahr 2026? Baue eine FSRS-Review-Last, die du wirklich fertig bekommst](https://nibomo.com/blog/how-many-new-flashcards-per-day/)
 
 ## Der Wiederholungsaufwand ist wichtiger als die Größe des Decks
 
@@ -211,9 +211,9 @@ Denn nur du weißt:
 
 Wenn dein Quellmaterial als Notiz, Transkript oder Chat-Ausgabe beginnt, helfen diese Guides vorher:
 
-- [Wie du 2026 ChatGPT nutzt, um Flashcards zu erstellen: bessere Prompts, bessere Karten, bessere Reviews mit FSRS](https://flashcards-open-source-app.com/blog/how-to-use-chatgpt-to-make-flashcards/)
-- [Wie du 2026 Voice Notes in Flashcards verwandelst: Von Audiodiktat zu FSRS-Karten, ohne alles neu zu schreiben](https://flashcards-open-source-app.com/blog/how-to-turn-voice-notes-into-flashcards/)
-- [Wie du 2026 ein YouTube-Video in Flashcards verwandelst: KI-Entwürfe für Vorlesungen, Tutorials und Sprachvideos](https://flashcards-open-source-app.com/blog/youtube-to-flashcards/)
+- [Wie du 2026 ChatGPT nutzt, um Flashcards zu erstellen: bessere Prompts, bessere Karten, bessere Reviews mit FSRS](https://nibomo.com/blog/how-to-use-chatgpt-to-make-flashcards/)
+- [Wie du 2026 Voice Notes in Flashcards verwandelst: Von Audiodiktat zu FSRS-Karten, ohne alles neu zu schreiben](https://nibomo.com/blog/how-to-turn-voice-notes-into-flashcards/)
+- [Wie du 2026 ein YouTube-Video in Flashcards verwandelst: KI-Entwürfe für Vorlesungen, Tutorials und Sprachvideos](https://nibomo.com/blog/youtube-to-flashcards/)
 
 ## Baue dein Deck um dein echtes Ziel herum, nicht um vagen Sprachlern-Ehrgeiz
 
@@ -231,7 +231,7 @@ Das Deck wird sofort sauberer.
 
 ## Warum Flashcards gut in diesen Workflow passt
 
-[Nibomo](https://flashcards-open-source-app.com/) passt gut zu diesem Workflow, weil das Produkt bereits die Bausteine mitbringt, auf die diese Art von Vokabellernen mit Spaced Repetition angewiesen ist:
+[Nibomo](https://nibomo.com/) passt gut zu diesem Workflow, weil das Produkt bereits die Bausteine mitbringt, auf die diese Art von Vokabellernen mit Spaced Repetition angewiesen ist:
 
 - saubere Vorder- und Rückseitenkarten
 - FSRS-gestützte Wiederholungsplanung
@@ -243,9 +243,9 @@ So wird der Weg von "Ich habe in einer Quelle brauchbare Sprache gefunden" zu "I
 
 Wenn du außerdem breitere Produktoptionen vergleichst, passen diese Artikel am ehesten dazu:
 
-- [Memrise Alternative 2026: Open-Source-Flashcards-App mit FSRS, Offline-Lernen und iPhone-first-Workflow](https://flashcards-open-source-app.com/blog/memrise-alternative/)
-- [Quizlet Alternative 2026: Open-Source-Flashcards-App mit FSRS, Offline-Lernen und vollständigem Dateneigentum](https://flashcards-open-source-app.com/blog/quizlet-alternative/)
-- [Die beste Offline-Flashcards-App 2026: Mit FSRS und Sync ohne Internet lernen](https://flashcards-open-source-app.com/blog/best-offline-flashcards-app/)
+- [Memrise Alternative 2026: Open-Source-Flashcards-App mit FSRS, Offline-Lernen und iPhone-first-Workflow](https://nibomo.com/blog/memrise-alternative/)
+- [Quizlet Alternative 2026: Open-Source-Flashcards-App mit FSRS, Offline-Lernen und vollständigem Dateneigentum](https://nibomo.com/blog/quizlet-alternative/)
+- [Die beste Offline-Flashcards-App 2026: Mit FSRS und Sync ohne Internet lernen](https://nibomo.com/blog/best-offline-flashcards-app/)
 
 ## Wie solltest du also 2026 Flashcards fürs Sprachenlernen nutzen?
 
@@ -260,4 +260,4 @@ Ich würde das System simpel halten:
 
 So ergibt der Einsatz von Flashcards fürs Sprachenlernen im Jahr 2026 für mich am meisten Sinn.
 
-Wenn du ein Tool willst, das genau für diesen Workflow gebaut ist, passt [Nibomo](https://flashcards-open-source-app.com/) gut. Es gibt dir KI-gestützte Entwürfe, klare Vorder- und Rückseitenkarten und FSRS-gestützte Wiederholungen in einem Open-Source-Stack, also genau das, was ein Sprachdeck braucht, sobald du aufhörst, Wortsammlung mit echtem Lernen zu verwechseln.
+Wenn du ein Tool willst, das genau für diesen Workflow gebaut ist, passt [Nibomo](https://nibomo.com/) gut. Es gibt dir KI-gestützte Entwürfe, klare Vorder- und Rückseitenkarten und FSRS-gestützte Wiederholungen in einem Open-Source-Stack, also genau das, was ein Sprachdeck braucht, sobald du aufhörst, Wortsammlung mit echtem Lernen zu verwechseln.

@@ -256,7 +256,7 @@ That matters because TEAS prep is usually short. You do not need a complicated k
 
 One stable deck plus a few honest tags usually works better than constant deck reorganization.
 
-If organization is the real bottleneck, [How to Organize Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-organize-flashcards/) goes deeper on that part.
+If organization is the real bottleneck, [How to Organize Flashcards in 2026](https://nibomo.com/blog/how-to-organize-flashcards/) goes deeper on that part.
 
 ## Let AI draft the rough first version, then edit hard
 
@@ -273,11 +273,11 @@ It is closer to this:
 
 If the draft back side looks like a paragraph from a workbook, cut it down. If two cards test the same idea, keep the clearer one. If the prompt only checks recognition, rewrite it for active recall.
 
-That is similar to the workflow in [How to Turn Practice Questions Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/) and [How to Make Better Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/).
+That is similar to the workflow in [How to Turn Practice Questions Into Flashcards in 2026](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/) and [How to Make Better Flashcards in 2026](https://nibomo.com/blog/how-to-make-better-flashcards/).
 
 ## Where Flashcards fits this ATI TEAS workflow
 
-If you want to run this inside [Nibomo](https://flashcards-open-source-app.com/), the fit is practical, not official.
+If you want to run this inside [Nibomo](https://nibomo.com/), the fit is practical, not official.
 
 There is no official ATI integration, and there is no special TEAS mode. The useful part is simpler than that.
 
@@ -294,7 +294,7 @@ That is the real value for TEAS prep. You can turn messy prep material into a re
 
 If long-term ownership matters to you, the project is also open source and has a self-hosted path. For most TEAS students, that is secondary. The main win is having card creation, review, and cleanup in one place instead of spread across notes, screenshots, and browser tabs.
 
-If you want the quickest entry point, start with the [hosted web app](https://app.flashcards-open-source-app.com/). If you want the broader product overview first, use the [features page](https://flashcards-open-source-app.com/features).
+If you want the quickest entry point, start with the [hosted web app](https://app.flashcards-open-source-app.com/). If you want the broader product overview first, use the [features page](https://nibomo.com/features).
 
 ## What I would do in the last 10 days before the ATI TEAS
 

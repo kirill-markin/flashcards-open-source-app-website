@@ -118,7 +118,7 @@ cards को फिर भी simple होना चाहिए।
 
 ## इस workflow में Flashcards कहाँ बेहतर फिट बैठता है
 
-[Nibomo](https://flashcards-open-source-app.com/) इस exact gap के लिए अच्छा fit है क्योंकि यह सिर्फ़ generator नहीं है और सिर्फ़ review tool भी नहीं। यह आपको उसी जगह cleanup step करने देती है जहाँ बाद में review होगी।
+[Nibomo](https://nibomo.com/) इस exact gap के लिए अच्छा fit है क्योंकि यह सिर्फ़ generator नहीं है और सिर्फ़ review tool भी नहीं। यह आपको उसी जगह cleanup step करने देती है जहाँ बाद में review होगी।
 
 यह लोगों के मानने से ज़्यादा मायने रखता है।
 
@@ -152,7 +152,7 @@ learning value उसके बाद शुरू होती है।
 
 अगर आप scheduling part detail में चाहते हैं, तो यह companion article और गहराई में जाती है:
 
-- [2026 में FSRS बनाम SM-2](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [2026 में FSRS बनाम SM-2](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
 ## यह खास तौर पर तब अच्छा काम करता है जब source शुरू से messy थी
 
@@ -170,9 +170,9 @@ workflow का एक underrated हिस्सा यह है कि Notebo
 
 अगर आपकी source अभी भी एक कदम पहले अटकी है, तो ये companion pieces मदद करेंगी:
 
-- [2026 में Notes को Flashcards में कैसे बदलें](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
-- [2026 में PDF को Flashcards में कैसे बदलें](https://flashcards-open-source-app.com/blog/how-to-turn-a-pdf-into-flashcards/)
-- [2026 में Notion Notes को Flashcards में कैसे बदलें](https://flashcards-open-source-app.com/blog/how-to-turn-notion-notes-into-flashcards/)
+- [2026 में Notes को Flashcards में कैसे बदलें](https://nibomo.com/blog/turn-notes-into-flashcards/)
+- [2026 में PDF को Flashcards में कैसे बदलें](https://nibomo.com/blog/how-to-turn-a-pdf-into-flashcards/)
+- [2026 में Notion Notes को Flashcards में कैसे बदलें](https://nibomo.com/blog/how-to-turn-notion-notes-into-flashcards/)
 
 ## वह workflow जिसे मैं इस हफ्ते इस्तेमाल करूँगा
 
@@ -201,4 +201,4 @@ Flashcards cleanup, card creation, और review system संभालती �
 
 यही **NotebookLM flashcards** का वह version है जिस पर मुझे सबसे ज़्यादा भरोसा है: messy sources से candidate cards तक पहुँचने के लिए NotebookLM का उपयोग करें, फिर उन cards को real spaced repetition workflow में ले जाएँ जहाँ आप उन्हें edit, shorten, और actual scheduler के साथ review कर सकें।
 
-अगर आप यही चाहते हैं, तो [Nibomo](https://flashcards-open-source-app.com/) एक मजबूत fit है। यह AI-generated study material और ऐसी deck के बीच practical bridge देती है जिसे आप शायद एक महीने बाद भी review कर रहे हों।
+अगर आप यही चाहते हैं, तो [Nibomo](https://nibomo.com/) एक मजबूत fit है। यह AI-generated study material और ऐसी deck के बीच practical bridge देती है जिसे आप शायद एक महीने बाद भी review कर रहे हों।

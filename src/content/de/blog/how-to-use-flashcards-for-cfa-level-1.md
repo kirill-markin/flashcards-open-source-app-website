@@ -169,7 +169,7 @@ Der Mock hat den Fehler sichtbar gemacht. Die Flashcard sollte die Korrektur bew
 
 Wenn Practice Questions dein wichtigstes Quellenmaterial sind, passt dieser Begleitworkflow direkt dazu:
 
-- [Wie du 2026 Übungsfragen in Flashcards verwandelst](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/)
+- [Wie du 2026 Übungsfragen in Flashcards verwandelst](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/)
 
 ## Mach nicht für jeden Fehler eine Karte
 
@@ -217,7 +217,7 @@ Ich würde Karten außerdem nach Quelle taggen, wenn es hilft: `mock-1`, `provid
 
 Wenn Organisation selbst zum Problem wird, ist dieser Artikel der bessere nächste Schritt:
 
-- [Wie du 2026 Flashcards organisierst](https://flashcards-open-source-app.com/blog/how-to-organize-flashcards/)
+- [Wie du 2026 Flashcards organisierst](https://nibomo.com/blog/how-to-organize-flashcards/)
 
 ## Ein wöchentlicher CFA-Flashcard-Workflow, der den Alltag überlebt
 
@@ -255,8 +255,8 @@ Du willst nicht, dass jede Karte nach demselben stumpfen Zeitplan zurückkommt. 
 
 Wenn die Scheduling-Seite noch unklar ist, gehen diese Leitfäden tiefer:
 
-- [FSRS vs SM-2 in 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
-- [Wie du 2026 mit FSRS für eine Prüfung lernst](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/)
+- [FSRS vs SM-2 in 2026](https://nibomo.com/blog/fsrs-vs-sm-2/)
+- [Wie du 2026 mit FSRS für eine Prüfung lernst](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)
 
 ## Halte datumsabhängige CFA-Fakten getrennt
 
@@ -275,7 +275,7 @@ Tagge diese Karten mit `needs-recheck` und verifiziere sie gegen die offiziellen
 
 ## Wo Flashcards in diesen CFA-Workflow passt
 
-[Nibomo](https://flashcards-open-source-app.com/) passt in diesen Workflow, weil es genau die Teile unterstützt, die ein CFA-Deck braucht, ohne so zu tun, als würde es CFA-Institute-Materialien ersetzen:
+[Nibomo](https://nibomo.com/) passt in diesen Workflow, weil es genau die Teile unterstützt, die ein CFA-Deck braucht, ohne so zu tun, als würde es CFA-Institute-Materialien ersetzen:
 
 - Erstellen und Bearbeiten von Front/Back-Karten
 - Decks und Tags für Organisation nach Thema und Quelle
@@ -291,9 +291,9 @@ Das ist die praktische Version von **Spaced Repetition CFA**: kein riesiges Deck
 
 Wenn du genau das willst, starte hier:
 
-- [Flashcards öffnen](https://flashcards-open-source-app.com/)
+- [Flashcards öffnen](https://nibomo.com/)
 - [Die App öffnen](https://app.flashcards-open-source-app.com/)
-- [Den Einstiegsleitfaden lesen](https://flashcards-open-source-app.com/docs/getting-started/)
+- [Den Einstiegsleitfaden lesen](https://nibomo.com/docs/getting-started/)
 - [Den Source Code auf GitHub ansehen](https://github.com/kirill-markin/flashcards-open-source-app)
 
 Das Deck muss niemanden beeindrucken. Es muss dir helfen, die nächste Frage zu beantworten, bevor die 90 Sekunden vorbei sind.

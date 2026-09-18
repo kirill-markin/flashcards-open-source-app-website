@@ -20,7 +20,7 @@ Anki 导入可以全程不报错，却依然毁掉一副牌组原本好用的地
 
 这篇对比就从这条边界讲起。下文会比较 7 款类似 Anki 的应用：它们能从现有集合中带走什么、导入后会发生哪些变化，以及什么时候继续使用 Anki 才是更稳妥的结论。
 
-> **利益披露：** 我是 Kirill Markin，也是下文产品之一 [Nibomo](https://flashcards-open-source-app.com/) 的开发者。我把它纳入比较，是因为它支持开源、自托管和智能体工作流。它不是默认赢家：它不能直接导入 `.apkg`，从 Anki 迁移会丢失数据，而且运行自托管技术栈确实是一项基础设施工作。
+> **利益披露：** 我是 Kirill Markin，也是下文产品之一 [Nibomo](https://nibomo.com/) 的开发者。我把它纳入比较，是因为它支持开源、自托管和智能体工作流。它不是默认赢家：它不能直接导入 `.apkg`，从 Anki 迁移会丢失数据，而且运行自托管技术栈确实是一项基础设施工作。
 
 **事实核查日期：** 2026 年 8 月 28 日。价格为当天可查到的美国公开价格或页面所列当地价格。税费、地区、教育优惠和应用商店计费方式都可能影响实际金额。
 
@@ -78,7 +78,7 @@ Anki 导入可以全程不报错，却依然毁掉一副牌组原本好用的地
 | [Quizlet](https://quizlet.com/) | [粘贴术语和定义](https://help.quizlet.com/hc/en-us/articles/360029977151-Creating-sets-by-importing-content) | 不保留任何 Anki 学习状态 | 笔记类型、模板、牌组、媒体结构和全部调度数据 |
 | [Brainscape](https://www.brainscape.com/) | [CSV、TXT、XLSX 或 ODS](https://brainscape.zendesk.com/hc/en-us/articles/115002369931-How-do-I-import-various-files-to-create-flashcards) | 不保留任何 Anki 学习状态 | 模板、插件、媒体规则和全部调度数据 |
 | [SuperMemo](https://www.supermemo.com/) | [粘贴用分隔符隔开的问答行](https://www.supermemo.com/en/blog/how-to-create-flashcards-for-learning)，每次最多 100 张 | 不保留任何 Anki 学习状态 | 集合结构、媒体、模板和全部调度数据 |
-| [Nibomo](https://flashcards-open-source-app.com/) | 根据 Anki TXT 或 CSV 生成需要人工检查的 AI 辅助草稿 | 不保留任何 Anki 学习状态 | 不支持 `.apkg`；模板、媒体保真度、牌组层级和全部调度数据都无法带走 |
+| [Nibomo](https://nibomo.com/) | 根据 Anki TXT 或 CSV 生成需要人工检查的 AI 辅助草稿 | 不保留任何 Anki 学习状态 | 不支持 `.apkg`；模板、媒体保真度、牌组层级和全部调度数据都无法带走 |
 
 ## 价格、离线使用、调度和所有权
 

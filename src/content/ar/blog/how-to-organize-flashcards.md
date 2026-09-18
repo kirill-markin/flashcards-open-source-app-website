@@ -262,7 +262,7 @@ keywords:
 
 ## أين يناسب Flashcards هذا الأسلوب
 
-يُعد [Nibomo](https://flashcards-open-source-app.com/) مناسبًا جدًا لسؤال **كيف تنظّم البطاقات التعليمية** لأن المنتج يوفّر أصلًا العناصر التي تحتاجها هذه الطريقة:
+يُعد [Nibomo](https://nibomo.com/) مناسبًا جدًا لسؤال **كيف تنظّم البطاقات التعليمية** لأن المنتج يوفّر أصلًا العناصر التي تحتاجها هذه الطريقة:
 
 - مجموعات ووسوم للبنية طويلة المدى
 - مجموعات مصفّاة تعتمد على الوسوم ومستوى الجهد
@@ -278,15 +278,15 @@ keywords:
 
 إذا كانت المشكلة التالية هي جودة البطاقات لا تنظيمها، فاقرأ هذا بعده:
 
-- [كيف تصنع بطاقات تعليمية أفضل في 2026](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [كيف تصنع بطاقات تعليمية أفضل في 2026](https://nibomo.com/blog/how-to-make-better-flashcards/)
 
 وإذا كانت مشكلتك الحقيقية هي عبء المراجعة، فهذا يناسبك أيضًا:
 
-- [كم بطاقة تعليمية جديدة ينبغي إضافتها يوميًا في 2026؟](https://flashcards-open-source-app.com/blog/how-many-new-flashcards-per-day/)
+- [كم بطاقة تعليمية جديدة ينبغي إضافتها يوميًا في 2026؟](https://nibomo.com/blog/how-many-new-flashcards-per-day/)
 
 وإذا كنت تبني قوائم امتحان مؤقتة انطلاقًا من الأخطاء، فابدأ من هنا:
 
-- [كيف تحوّل أسئلة التدريب إلى بطاقات تعليمية في 2026](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/)
+- [كيف تحوّل أسئلة التدريب إلى بطاقات تعليمية في 2026](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/)
 
 ## القاعدة المفيدة
 
@@ -304,7 +304,7 @@ keywords:
 
 إذا كان هذا ما تريده، فابدأ من هنا:
 
-- [ابدأ مع Flashcards](https://flashcards-open-source-app.com/)
+- [ابدأ مع Flashcards](https://nibomo.com/)
 - [افتح التطبيق](https://app.flashcards-open-source-app.com/)
-- [اقرأ دليل البدء](https://flashcards-open-source-app.com/docs/getting-started/)
+- [اقرأ دليل البدء](https://nibomo.com/docs/getting-started/)
 - [اطّلع على المشروع في GitHub](https://github.com/kirill-markin/flashcards-open-source-app)

@@ -102,7 +102,7 @@ The Digital SAT rewards quick recognition of the thing that is off. Your grammar
 
 If card quality is the bigger problem than SAT-specific strategy, read this next:
 
-- [How to Make Better Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [How to Make Better Flashcards in 2026](https://nibomo.com/blog/how-to-make-better-flashcards/)
 
 ## SAT math flashcards should store formulas and processes separately
 
@@ -168,7 +168,7 @@ I would not turn the whole question into one giant card. I would reduce it to th
 
 If that workflow is the part you need most, this is the direct companion article:
 
-- [How to Turn Practice Questions Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/)
+- [How to Turn Practice Questions Into Flashcards in 2026](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/)
 
 ## One SAT card format will not survive all four problem types
 
@@ -204,7 +204,7 @@ That works better than building a giant deck on Sunday and then avoiding it by W
 
 If your bigger problem is structure rather than card writing, read this next:
 
-- [How to Organize Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-organize-flashcards/)
+- [How to Organize Flashcards in 2026](https://nibomo.com/blog/how-to-organize-flashcards/)
 
 ## You probably do not need thousands of SAT flashcards
 
@@ -230,7 +230,7 @@ That gives you a cleaner **how to study for the digital SAT** workflow than one 
 
 If your review count is already climbing too fast, this article pairs well with the SAT workflow:
 
-- [How Many New Flashcards Per Day in 2026?](https://flashcards-open-source-app.com/blog/how-many-new-flashcards-per-day/)
+- [How Many New Flashcards Per Day in 2026?](https://nibomo.com/blog/how-many-new-flashcards-per-day/)
 
 ## FSRS helps most when your SAT study schedule is uneven
 
@@ -257,12 +257,12 @@ So I would keep the order simple:
 
 If you want the scheduling side in more detail, these two articles fit best:
 
-- [How to Study for an Exam With FSRS in 2026](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/)
-- [FSRS vs SM-2 in 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [How to Study for an Exam With FSRS in 2026](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)
+- [FSRS vs SM-2 in 2026](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
 ## Where Flashcards fits this Digital SAT workflow
 
-[Nibomo](https://flashcards-open-source-app.com/) is a strong fit for **digital SAT flashcards** because the current product already supports the parts this workflow depends on:
+[Nibomo](https://nibomo.com/) is a strong fit for **digital SAT flashcards** because the current product already supports the parts this workflow depends on:
 
 - front/back card creation and editing
 - AI chat for drafting candidate cards from notes, pasted explanations, or practice-test review
@@ -277,8 +277,8 @@ That combination matters because Digital SAT prep tends to scatter. Vocabulary l
 
 If your SAT prep material is still stuck one step earlier, these articles help with the input side:
 
-- [How to Turn Notes Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
-- [How to Turn a PDF Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-turn-a-pdf-into-flashcards/)
+- [How to Turn Notes Into Flashcards in 2026](https://nibomo.com/blog/turn-notes-into-flashcards/)
+- [How to Turn a PDF Into Flashcards in 2026](https://nibomo.com/blog/how-to-turn-a-pdf-into-flashcards/)
 
 ## Build the SAT deck that fixes repeat mistakes
 

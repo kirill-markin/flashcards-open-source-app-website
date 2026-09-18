@@ -60,7 +60,7 @@ Wenn du versuchst, **Wirkstoffnamen und Nebenwirkungen auswendig zu lernen**, er
 
 So wird aus einer 150-Karten-Session etwas, das du lieber vermeidest.
 
-Wenn dein größeres Problem eher die Kartenqualität im Allgemeinen ist, ist [How to Make Better Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/) der passende Begleitartikel.
+Wenn dein größeres Problem eher die Kartenqualität im Allgemeinen ist, ist [How to Make Better Flashcards in 2026](https://nibomo.com/blog/how-to-make-better-flashcards/) der passende Begleitartikel.
 
 ## Wirkstoffklassen-Flashcards sollten vor Detailwissen kommen
 
@@ -209,7 +209,7 @@ Nach einer falsch beantworteten Frage würde ich nicht automatisch die ganze Beg
 - War das ein Klassenproblem, ein Mechanismusproblem oder ein Verwechslungsproblem?
 - Was ist die kleinste Karte, die genau diesen Fehler nächste Woche verhindern würde?
 
-Wenn die meisten deiner besten Karten eher aus Fragen als aus Notizen stammen, ist [How to Turn Practice Questions Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/) der direkte Anschlussartikel.
+Wenn die meisten deiner besten Karten eher aus Fragen als aus Notizen stammen, ist [How to Turn Practice Questions Into Flashcards in 2026](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/) der direkte Anschlussartikel.
 
 ## Pharmakologie braucht Wiederholung eher als heroisches Pauken
 
@@ -228,7 +228,7 @@ Du vergisst Wirkstofffakten nicht auf einmal. Du vergisst sie schleichend:
 
 Darum passt **Pharmakologie Spaced Repetition** besser als Binge-Review. Das Fach zerfällt durch kleine Verwechslungen, also sollte das Wiederholungssystem kleine Verwechslungen reparieren.
 
-Wenn du eher die Seite der Prüfungsplanung brauchst als die Seite des Kartenschreibens, passt [How to Study for an Exam With FSRS in 2026](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/) direkt hierhin.
+Wenn du eher die Seite der Prüfungsplanung brauchst als die Seite des Kartenschreibens, passt [How to Study for an Exam With FSRS in 2026](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/) direkt hierhin.
 
 ## Das ist Lernhilfe, keine medizinische Beratung
 
@@ -252,12 +252,12 @@ So kannst du tatsächlich **Wirkstoffnamen und Nebenwirkungen auswendig lernen**
 
 Wenn deine Warteschlange schon schwerer wird, als sie sein sollte, lösen diese beiden Artikel meistens das nächste Problem:
 
-- [How Many New Flashcards Per Day in 2026?](https://flashcards-open-source-app.com/blog/how-many-new-flashcards-per-day/)
-- [How to Review Flashcards Faster in 2026](https://flashcards-open-source-app.com/blog/how-to-review-flashcards-faster/)
+- [How Many New Flashcards Per Day in 2026?](https://nibomo.com/blog/how-many-new-flashcards-per-day/)
+- [How to Review Flashcards Faster in 2026](https://nibomo.com/blog/how-to-review-flashcards-faster/)
 
 ## Wo Flashcards in diesen Ablauf passt
 
-[Nibomo](https://flashcards-open-source-app.com/) passt gut zu dieser Art des Pharmakologie-Lernens, weil der nützliche Teil nicht darin besteht, die Pharmakologie an KI abzugeben. So würde ich nicht lernen.
+[Nibomo](https://nibomo.com/) passt gut zu dieser Art des Pharmakologie-Lernens, weil der nützliche Teil nicht darin besteht, die Pharmakologie an KI abzugeben. So würde ich nicht lernen.
 
 Der nützliche Teil ist enger:
 

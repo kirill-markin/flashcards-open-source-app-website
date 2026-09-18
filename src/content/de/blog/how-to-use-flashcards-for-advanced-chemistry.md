@@ -64,7 +64,7 @@ Wenn eine Formelkarte immer wieder scheitert, testet sie meistens das Falsche. D
 
 Das sind deutlich bessere Kartenziele als ein riesiger Vorder-/Rückseitenblock aus einer Kapitelzusammenfassung.
 
-Wenn dein aktuelles Deck schon aufgebläht wirkt, ist [Wie du 2026 bessere Flashcards erstellst](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/) der beste Aufräumschritt, bevor du noch mehr hinzufügst.
+Wenn dein aktuelles Deck schon aufgebläht wirkt, ist [Wie du 2026 bessere Flashcards erstellst](https://nibomo.com/blog/how-to-make-better-flashcards/) der beste Aufräumschritt, bevor du noch mehr hinzufügst.
 
 ## Die besten Karten für fortgeschrittene Chemie entstehen aus Abgrenzungen
 
@@ -173,7 +173,7 @@ Beispiele:
 
 Diese letzte Frage ist wichtig. Manche Fehler sind Gedächtnisfehler. Manche sind Transferfehler. Flashcards helfen beim Abruf. Übungsaufgaben bauen Transfer auf. Du brauchst beides.
 
-Wenn dein bestes Ausgangsmaterial aus korrigierten Hausaufgaben, Quizzes und unabhängig formulierten Übungsaufgaben kommt, ist [Wie du 2026 Übungsfragen in Flashcards verwandelst](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/) der direkteste Begleitartikel. Für die Planungsseite passt [Wie du 2026 mit FSRS für eine Prüfung lernst](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs) hier genauso gut.
+Wenn dein bestes Ausgangsmaterial aus korrigierten Hausaufgaben, Quizzes und unabhängig formulierten Übungsaufgaben kommt, ist [Wie du 2026 Übungsfragen in Flashcards verwandelst](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/) der direkteste Begleitartikel. Für die Planungsseite passt [Wie du 2026 mit FSRS für eine Prüfung lernst](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs) hier genauso gut.
 
 ## Ein praktischer Wochenablauf für fortgeschrittene Chemie
 
@@ -192,7 +192,7 @@ Der letzte Schritt ist der eigentliche Test.
 
 Wenn derselbe Fehler in neuer Arbeit verschwindet, hat die Karte wahrscheinlich ihren Job gemacht. Wenn der Fehler bleibt, ist die Karte meistens zu vage oder auf das falsche Gedächtnisziel gerichtet.
 
-Das ist dasselbe Prinzip wie bei [Wie du 2026 mit Flashcards für Mathe lernst](https://flashcards-open-source-app.com/blog/how-to-use-flashcards-for-math/). Anderes Fach, gleiche Regel: Karten helfen dir, das schnell zurückzuholen, was schnell da sein sollte. Übung prüft, ob du es wirklich anwenden kannst.
+Das ist dasselbe Prinzip wie bei [Wie du 2026 mit Flashcards für Mathe lernst](https://nibomo.com/blog/how-to-use-flashcards-for-math/). Anderes Fach, gleiche Regel: Karten helfen dir, das schnell zurückzuholen, was schnell da sein sollte. Übung prüft, ob du es wirklich anwenden kannst.
 
 ## Was keine Flashcard werden sollte
 
@@ -219,7 +219,7 @@ Wenn du einen einfachen Test willst, frag dich: Wenn ich diese Karte verfehle, w
 
 ## Wo Flashcards in diesen Workflow passt
 
-[Nibomo](https://flashcards-open-source-app.com/) passt gut zu diesem Workflow für fortgeschrittene Chemie, weil das Produkt die praktischen Teile schon unterstützt, sobald du das Gedächtnisziel sauber erkannt hast:
+[Nibomo](https://nibomo.com/) passt gut zu diesem Workflow für fortgeschrittene Chemie, weil das Produkt die praktischen Teile schon unterstützt, sobald du das Gedächtnisziel sauber erkannt hast:
 
 - Karten mit Vorder- und Rückseite erstellen und bearbeiten
 - KI-gestützte Entwürfe im Chat
@@ -229,7 +229,7 @@ Wenn du einen einfachen Test willst, frag dich: Wenn ich diese Karte verfehle, w
 - Offline-first-Lernen auf Web, iOS und Android
 - Open-Source-Code und Self-Hosting, falls das für deine Lernumgebung wichtig ist
 
-Das ist das nützliche Versprechen. Nicht "Chemie wird plötzlich leicht", sondern ein sauberer Ort, um die richtigen Karten festzuhalten, die schlechten auszusortieren und sie in einem Plan zu wiederholen, der keine Zeit verschwendet. Wenn du lieber den Produktüberblick willst als noch einen Lernartikel, ist die [Feature-Seite](https://flashcards-open-source-app.com/features/) die knappste Zusammenfassung.
+Das ist das nützliche Versprechen. Nicht "Chemie wird plötzlich leicht", sondern ein sauberer Ort, um die richtigen Karten festzuhalten, die schlechten auszusortieren und sie in einem Plan zu wiederholen, der keine Zeit verschwendet. Wenn du lieber den Produktüberblick willst als noch einen Lernartikel, ist die [Feature-Seite](https://nibomo.com/features/) die knappste Zusammenfassung.
 
 ## Die Regel, die wirklich trägt
 

@@ -244,7 +244,7 @@ PBQ でミスしたあとなら、私はたいてい次の3つを書き出して
 
 誤答を主な材料にするなら、次の記事が自然な続きです。
 
-- [2026年版 演習問題をフラッシュカードに変える方法](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/)
+- [2026年版 演習問題をフラッシュカードに変える方法](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/)
 
 ## 形のない1つの Security+ デッキを作らない
 
@@ -279,7 +279,7 @@ PBQ でミスしたあとなら、私はたいてい次の3つを書き出して
 
 整理のほうがカード作成より大きな問題なら、次はこちらです。
 
-- [2026年版 フラッシュカードの整理術](https://flashcards-open-source-app.com/blog/how-to-organize-flashcards/)
+- [2026年版 フラッシュカードの整理術](https://nibomo.com/blog/how-to-organize-flashcards/)
 
 ## 毎週のワークフローは、地味なくらいでいい
 
@@ -300,7 +300,7 @@ Security+ のワークフローは、ごく普通の1週間でも続けられる
 
 AI が雑なカード下書きを出してくるなら、次の記事が役立ちます。
 
-- [2026年版 より良いフラッシュカードの作り方](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [2026年版 より良いフラッシュカードの作り方](https://nibomo.com/blog/how-to-make-better-flashcards/)
 
 ## FSRS が Security+ 対策で役立つのは、デッキを絞ったあと
 
@@ -321,7 +321,7 @@ FSRS がうまく機能するのは、カードが次の条件を満たすとき
 
 試験計画のほうまで含めて考えたいなら、次の記事のほうが深いです。
 
-- [2026年に FSRS で試験勉強する方法](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/)
+- [2026年に FSRS で試験勉強する方法](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)
 
 ## オフライン復習は、資格試験対策で思っている以上に重要
 
@@ -338,11 +338,11 @@ FSRS がうまく機能するのは、カードが次の条件を満たすとき
 
 ここが学習環境で大事なら、次の記事も相性がいいです。
 
-- [2026年版 ベストなオフライン対応フラッシュカードアプリ](https://flashcards-open-source-app.com/blog/best-offline-flashcards-app/)
+- [2026年版 ベストなオフライン対応フラッシュカードアプリ](https://nibomo.com/blog/best-offline-flashcards-app/)
 
 ## このワークフローで Flashcards が合う理由
 
-[Nibomo](https://flashcards-open-source-app.com/) は、**Security+ フラッシュカード** とかなり相性がいいです。5つの別ツールをつなぎ合わせなくても、すでにワークフローに合った形になっているからです。
+[Nibomo](https://nibomo.com/) は、**Security+ フラッシュカード** とかなり相性がいいです。5つの別ツールをつなぎ合わせなくても、すでにワークフローに合った形になっているからです。
 
 使えるのは、たとえば次の機能です。
 

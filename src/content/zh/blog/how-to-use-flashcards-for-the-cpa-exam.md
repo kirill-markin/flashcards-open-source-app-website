@@ -193,7 +193,7 @@ Core 部分是固定的：AUD、FAR 和 REG。Discipline 部分则要在 Busines
 
 如果 simulation 复盘本来就已经是你最好的出卡来源，这篇配套文章可以直接接上：
 
-- [2026 年如何把练习题转成抽认卡](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/)
+- [2026 年如何把练习题转成抽认卡](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/)
 
 ## 对 CPA 备考来说，从错题到卡片的工作流比抄大纲更合适
 
@@ -221,11 +221,11 @@ Core 部分是固定的：AUD、FAR 和 REG。Discipline 部分则要在 Busines
 
 如果你发现自己在“写卡片”这一步总是越写越糊，这篇更适合接着读：
 
-- [2026 年如何做出更好的抽认卡](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [2026 年如何做出更好的抽认卡](https://nibomo.com/blog/how-to-make-better-flashcards/)
 
 如果更大的问题是牌组越来越散，这篇会更适合作为下一步：
 
-- [2026 年如何整理抽认卡](https://flashcards-open-source-app.com/blog/how-to-organize-flashcards/)
+- [2026 年如何整理抽认卡](https://nibomo.com/blog/how-to-organize-flashcards/)
 
 ## 只有当 CPA 牌组不再试图做所有事时，FSRS 才真正有用
 
@@ -243,11 +243,11 @@ Core 部分是固定的：AUD、FAR 和 REG。Discipline 部分则要在 Busines
 
 如果你想更细看排程这一侧，这篇就是直接对应的配套文章：
 
-- [2026 年如何用 FSRS 为考试复习](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/)
+- [2026 年如何用 FSRS 为考试复习](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)
 
 ## Flashcards 在这套 CPA 工作流里适合放在哪里
 
-如果你想把这套流程跑在 [Nibomo](https://flashcards-open-source-app.com/) 里，真正有用的地方并不是那种模糊承诺，说 AI 会神奇地替你通过 CPA 考试。
+如果你想把这套流程跑在 [Nibomo](https://nibomo.com/) 里，真正有用的地方并不是那种模糊承诺，说 AI 会神奇地替你通过 CPA 考试。
 
 真正有用的是，这个产品已经覆盖了这套流程里最麻烦的中间地带：
 

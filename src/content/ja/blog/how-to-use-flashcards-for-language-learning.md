@@ -53,7 +53,7 @@ keywords:
 
 これは一般的なフラッシュカードでも同じです。
 
-- [2026年、より良いフラッシュカードの作り方: FSRSで機能する表裏カードのルール](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [2026年、より良いフラッシュカードの作り方: FSRSで機能する表裏カードのルール](https://nibomo.com/blog/how-to-make-better-flashcards/)
 
 語学デッキは、詰め込みすぎたカードの欠点が特に早く表に出ます。
 
@@ -165,8 +165,8 @@ keywords:
 
 復習設計の詳細を見たいなら、こちらから。
 
-- [2026年の FSRS vs SM-2: どの間隔反復アルゴリズムがより多く覚えられるか](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
-- [2026年、1日に何枚の新しいフラッシュカードを追加すべきか: 無理なく終えられるFSRSの復習量を作る](https://flashcards-open-source-app.com/blog/how-many-new-flashcards-per-day/)
+- [2026年の FSRS vs SM-2: どの間隔反復アルゴリズムがより多く覚えられるか](https://nibomo.com/blog/fsrs-vs-sm-2/)
+- [2026年、1日に何枚の新しいフラッシュカードを追加すべきか: 無理なく終えられるFSRSの復習量を作る](https://nibomo.com/blog/how-many-new-flashcards-per-day/)
 
 ## デッキ枚数より、復習量のほうが大事
 
@@ -209,9 +209,9 @@ keywords:
 
 元資料がノート、文字起こし、チャットの出力から始まるなら、その前段ではこちらも参考になります。
 
-- [2026年にChatGPTでフラッシュカードを作る方法: プロンプトを整え、カードを磨き、FSRSで復習を回す](https://flashcards-open-source-app.com/blog/how-to-use-chatgpt-to-make-flashcards/)
-- [2026年版 音声メモをフラッシュカードに変える方法: 全文を書き直さず、文字起こしからFSRSカードを作る](https://flashcards-open-source-app.com/blog/how-to-turn-voice-notes-into-flashcards/)
-- [2026年版 YouTube動画をフラッシュカードに変える方法: 講義・チュートリアル・語学動画をAIで下書きする](https://flashcards-open-source-app.com/blog/youtube-to-flashcards/)
+- [2026年にChatGPTでフラッシュカードを作る方法: プロンプトを整え、カードを磨き、FSRSで復習を回す](https://nibomo.com/blog/how-to-use-chatgpt-to-make-flashcards/)
+- [2026年版 音声メモをフラッシュカードに変える方法: 全文を書き直さず、文字起こしからFSRSカードを作る](https://nibomo.com/blog/how-to-turn-voice-notes-into-flashcards/)
+- [2026年版 YouTube動画をフラッシュカードに変える方法: 講義・チュートリアル・語学動画をAIで下書きする](https://nibomo.com/blog/youtube-to-flashcards/)
 
 ## 漠然とした語学力向上ではなく、現実の目的を軸に作る
 
@@ -230,7 +230,7 @@ keywords:
 
 ## Flashcards がこの流れに合う理由
 
-[Nibomo](https://flashcards-open-source-app.com/) は、語彙学習の間隔反復と相性が良いです。このやり方に必要な要素が、最初からそろっているからです。
+[Nibomo](https://nibomo.com/) は、語彙学習の間隔反復と相性が良いです。このやり方に必要な要素が、最初からそろっているからです。
 
 - わかりやすい表面と裏面のカード
 - FSRS による復習スケジューリング
@@ -242,9 +242,9 @@ keywords:
 
 より広く製品比較もしたいなら、近い記事はこちらです。
 
-- [2026年の Memrise Alternative: FSRS、オフライン学習、iPhone 重視の流れを備えたオープンソースのフラッシュカードアプリ](https://flashcards-open-source-app.com/blog/memrise-alternative/)
-- [2026年の Quizlet Alternative: FSRS、オフライン学習、完全なデータ所有を備えたオープンソースのフラッシュカードアプリ](https://flashcards-open-source-app.com/blog/quizlet-alternative/)
-- [2026年版 オフラインで使いやすいフラッシュカードアプリ: FSRS対応で、あとから同期できる学習環境](https://flashcards-open-source-app.com/blog/best-offline-flashcards-app/)
+- [2026年の Memrise Alternative: FSRS、オフライン学習、iPhone 重視の流れを備えたオープンソースのフラッシュカードアプリ](https://nibomo.com/blog/memrise-alternative/)
+- [2026年の Quizlet Alternative: FSRS、オフライン学習、完全なデータ所有を備えたオープンソースのフラッシュカードアプリ](https://nibomo.com/blog/quizlet-alternative/)
+- [2026年版 オフラインで使いやすいフラッシュカードアプリ: FSRS対応で、あとから同期できる学習環境](https://nibomo.com/blog/best-offline-flashcards-app/)
 
 ## では 2026 年、語学学習にフラッシュカードをどう使うべきか
 

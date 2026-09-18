@@ -248,7 +248,7 @@ TEAS デッキを面倒にする最短ルートは、初日から整理しすぎ
 
 安定した1つのデッキと、少数の正直なタグの組み合わせは、デッキ構成を毎週組み替えるよりたいていうまくいきます。
 
-もし本当のボトルネックが整理そのものなら、[2026年版 フラッシュカードの整理術](https://flashcards-open-source-app.com/blog/how-to-organize-flashcards/) のほうがこの部分を深く扱っています。
+もし本当のボトルネックが整理そのものなら、[2026年版 フラッシュカードの整理術](https://nibomo.com/blog/how-to-organize-flashcards/) のほうがこの部分を深く扱っています。
 
 ## AI には荒い下書きだけ作らせて、そのあと強く編集する
 
@@ -265,11 +265,11 @@ TEAS 対策では、元の材料がすぐ散らかります。解説のコピー
 
 裏面がワークブックの段落のように見えるなら削ります。2枚のカードが同じことを試しているなら、より明確なほうだけ残します。見れば分かるだけのプロンプトなら、能動想起になるように書き直します。
 
-この流れは、[2026年版 演習問題をフラッシュカードに変える方法](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/) や [2026年版 より良いフラッシュカードの作り方](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/) とかなり近いです。
+この流れは、[2026年版 演習問題をフラッシュカードに変える方法](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/) や [2026年版 より良いフラッシュカードの作り方](https://nibomo.com/blog/how-to-make-better-flashcards/) とかなり近いです。
 
 ## この ATI TEAS の流れの中で Flashcards がはまる場所
 
-[Nibomo](https://flashcards-open-source-app.com/) の中でこの運用を回したいなら、相性がいいのは公式連携ではなく実務面です。
+[Nibomo](https://nibomo.com/) の中でこの運用を回したいなら、相性がいいのは公式連携ではなく実務面です。
 
 公式の ATI 連携はありませんし、TEAS 専用モードもありません。役に立つ部分は、もっと単純です。
 
@@ -286,7 +286,7 @@ TEAS 対策では、元の材料がすぐ散らかります。解説のコピー
 
 長期的に自分で管理したいなら、このプロジェクトはオープンソースで、セルフホストの道もあります。ただ、多くの TEAS 受験者にとってはそこは二次的です。いちばん大きい利点は、カード作成、復習、整理が、ノートやスクリーンショットやブラウザのタブに分散せず、1か所で回ることです。
 
-一番早く始めるなら、[hosted web app](https://app.flashcards-open-source-app.com/) から入るのが近道です。先に製品全体を見たいなら、[features page](https://flashcards-open-source-app.com/features) を見てください。
+一番早く始めるなら、[hosted web app](https://app.flashcards-open-source-app.com/) から入るのが近道です。先に製品全体を見たいなら、[features page](https://nibomo.com/features) を見てください。
 
 ## ATI TEAS 前の最後の10日で私がやること
 

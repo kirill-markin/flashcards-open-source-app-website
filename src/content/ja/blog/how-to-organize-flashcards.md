@@ -262,7 +262,7 @@ keywords:
 
 ## Flashcards がこのやり方に向いている理由
 
-[Nibomo](https://flashcards-open-source-app.com/) が **フラッシュカードを整理する方法** という問いに合っているのは、この運用に必要な要素がすでにそろっているからです。
+[Nibomo](https://nibomo.com/) が **フラッシュカードを整理する方法** という問いに合っているのは、この運用に必要な要素がすでにそろっているからです。
 
 - 長期の構造を支えるデッキとタグ
 - タグと負荷レベルに基づく絞り込みデッキ
@@ -278,15 +278,15 @@ keywords:
 
 次に困っているのが整理ではなくカードの質なら、こちらを読んでください。
 
-- [2026年により良いフラッシュカードを作る方法](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [2026年により良いフラッシュカードを作る方法](https://nibomo.com/blog/how-to-make-better-flashcards/)
 
 本当の問題が復習量なら、こちらも合います。
 
-- [2026年、1日に何枚の新しいフラッシュカードを追加すべきか](https://flashcards-open-source-app.com/blog/how-many-new-flashcards-per-day/)
+- [2026年、1日に何枚の新しいフラッシュカードを追加すべきか](https://nibomo.com/blog/how-many-new-flashcards-per-day/)
 
 ミスから一時的な試験用キューを作っているなら、ここから始めてください。
 
-- [2026年に練習問題をフラッシュカードに変える方法](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/)
+- [2026年に練習問題をフラッシュカードに変える方法](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/)
 
 ## 役に立つルール
 
@@ -304,7 +304,7 @@ keywords:
 
 それが欲しいなら、ここから始めてください。
 
-- [Flashcards を開く](https://flashcards-open-source-app.com/)
+- [Flashcards を開く](https://nibomo.com/)
 - [アプリを開く](https://app.flashcards-open-source-app.com/)
-- [スタートガイドを読む](https://flashcards-open-source-app.com/docs/getting-started/)
+- [スタートガイドを読む](https://nibomo.com/docs/getting-started/)
 - [GitHub でソースを見る](https://github.com/kirill-markin/flashcards-open-source-app)

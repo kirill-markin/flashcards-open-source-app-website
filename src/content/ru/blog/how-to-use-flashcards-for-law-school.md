@@ -90,7 +90,7 @@ keywords:
 
 Если слабое место у вас в самом написании карточек, дальше лучше читать вот это:
 
-- [Как делать карточки лучше в 2026 году](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [Как делать карточки лучше в 2026 году](https://nibomo.com/blog/how-to-make-better-flashcards/)
 
 ## Outlines для юрфака - это исходный материал, а не готовый план колоды
 
@@ -111,7 +111,7 @@ Outline объясняет предмет в одном месте. Колода
 
 Если ваш материал пока больше похож на конспекты занятий, чем на готовый outline, лучше сразу перейти к этой статье:
 
-- [Как превращать заметки в карточки в 2026 году](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
+- [Как превращать заметки в карточки в 2026 году](https://nibomo.com/blog/turn-notes-into-flashcards/)
 
 ## Карточки для распознавания issues должны тренировать триггеры, а не полные essay answers
 
@@ -150,7 +150,7 @@ Outline объясняет предмет в одном месте. Колода
 
 Если вам больше всего нужен именно этот рабочий процесс, начните вот отсюда:
 
-- [Как превращать тренировочные вопросы в карточки в 2026 году](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/)
+- [Как превращать тренировочные вопросы в карточки в 2026 году](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/)
 
 ## Практичный еженедельный процесс для карточек на юрфаке
 
@@ -168,7 +168,7 @@ Outline объясняет предмет в одном месте. Колода
 
 Если ваша основная проблема скорее в структуре, чем в написании, сюда напрямую подходит вот эта статья:
 
-- [Как организовать карточки в 2026 году](https://flashcards-open-source-app.com/blog/how-to-organize-flashcards/)
+- [Как организовать карточки в 2026 году](https://nibomo.com/blog/how-to-organize-flashcards/)
 
 ## Карточки для bar exam работают лучше, если колода первого курса изначально была собрана чисто
 
@@ -215,12 +215,12 @@ Outline объясняет предмет в одном месте. Колода
 
 Если вы хотите подробнее именно про расписание, лучше всего сюда подходят вот эти две статьи:
 
-- [Как готовиться к экзамену с FSRS в 2026 году](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/)
-- [FSRS и SM-2 в 2026 году](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [Как готовиться к экзамену с FSRS в 2026 году](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)
+- [FSRS и SM-2 в 2026 году](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
 ## Как Flashcards вписывается в этот процесс на юрфаке
 
-Если вы хотите выстроить этот процесс внутри [Nibomo](https://flashcards-open-source-app.com/), полезная часть не в абстрактной идее "ИИ делает карточки". Полезная часть в том, что текущий продукт уже поддерживает скучную середину этой работы:
+Если вы хотите выстроить этот процесс внутри [Nibomo](https://nibomo.com/), полезная часть не в абстрактной идее "ИИ делает карточки". Полезная часть в том, что текущий продукт уже поддерживает скучную середину этой работы:
 
 - AI chat для черновиков и доработки карточек
 - вложения файлов, включая загрузку обычного текста
@@ -245,9 +245,9 @@ Outline объясняет предмет в одном месте. Колода
 
 Если хотите попробовать такой процесс в Flashcards:
 
-- [Начать с Flashcards](https://flashcards-open-source-app.com/)
+- [Начать с Flashcards](https://nibomo.com/)
 - [Открыть веб-приложение](https://app.flashcards-open-source-app.com/)
-- [Прочитать руководство по началу работы](https://flashcards-open-source-app.com/docs/getting-started/)
+- [Прочитать руководство по началу работы](https://nibomo.com/docs/getting-started/)
 - [Посмотреть исходный код на GitHub](https://github.com/kirill-markin/flashcards-open-source-app)
 
 Цель не в том, чтобы собрать более красивый outline в формате карточек. Цель в том, чтобы нормы, исключения и issue triggers всплывали быстрее в тот момент, когда фактический паттерн меняется, а время уже идет.

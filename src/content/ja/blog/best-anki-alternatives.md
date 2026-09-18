@@ -20,7 +20,7 @@ Anki代替アプリを比べるとき、本当に高くつくのはこの部分�
 
 そこで本記事では、移行時に何が残り、何が変わるのかを起点に比較します。Ankiの代わりになり得る7つのアプリが既存コレクションから何を引き継げるのか、どんな場合はAnkiを使い続けるほうが安全なのかを見ていきます。
 
-> **開示事項：** 私はKirill Markinです。以下で取り上げる製品のひとつ、[Nibomo](https://flashcards-open-source-app.com/)を開発しています。オープンソースで、セルフホストやAIエージェントを使ったワークフローに対応しているため、比較対象に含めました。ただし、最初から第一候補としているわけではありません。`.apkg`を直接インポートできず、Ankiからの移行では一部データが失われます。セルフホスト版の運用にも、本格的なインフラ作業が必要です。
+> **開示事項：** 私はKirill Markinです。以下で取り上げる製品のひとつ、[Nibomo](https://nibomo.com/)を開発しています。オープンソースで、セルフホストやAIエージェントを使ったワークフローに対応しているため、比較対象に含めました。ただし、最初から第一候補としているわけではありません。`.apkg`を直接インポートできず、Ankiからの移行では一部データが失われます。セルフホスト版の運用にも、本格的なインフラ作業が必要です。
 
 **情報確認日：** 2026年8月28日。料金は同日時点で公開されていた米国向け、または掲載地域の価格です。税金、地域、教育向けプラン、アプリストア経由の請求によって金額は変わることがあります。
 
@@ -78,7 +78,7 @@ Anki代替アプリを比べるとき、本当に高くつくのはこの部分�
 | [Quizlet](https://quizlet.com/) | [用語と定義を貼り付ける](https://help.quizlet.com/hc/en-us/articles/360029977151-Creating-sets-by-importing-content) | Ankiからは何も引き継がない | ノートタイプ、テンプレート、デッキ、メディア構造、すべてのスケジューリングデータ |
 | [Brainscape](https://www.brainscape.com/) | [CSV、TXT、XLSX、ODS](https://brainscape.zendesk.com/hc/en-us/articles/115002369931-How-do-I-import-various-files-to-create-flashcards) | Ankiからは何も引き継がない | テンプレート、アドオン、メディア規則、すべてのスケジューリングデータ |
 | [SuperMemo](https://www.supermemo.com/) | [区切り付きの質問・回答行を貼り付ける](https://www.supermemo.com/en/blog/how-to-create-flashcards-for-learning)。一度に最大100枚 | Ankiからは何も引き継がない | コレクション構造、メディア、テンプレート、すべてのスケジューリングデータ |
-| [Nibomo](https://flashcards-open-source-app.com/) | AnkiのTXTまたはCSVを使い、内容を確認しながらAI支援で下書きを作成 | Ankiからは何も引き継がない | `.apkg`非対応。テンプレート、メディアの正確な再現、デッキ階層、すべてのスケジューリングデータは引き継がれない |
+| [Nibomo](https://nibomo.com/) | AnkiのTXTまたはCSVを使い、内容を確認しながらAI支援で下書きを作成 | Ankiからは何も引き継がない | `.apkg`非対応。テンプレート、メディアの正確な再現、デッキ階層、すべてのスケジューリングデータは引き継がれない |
 
 ## 料金、オフライン利用、スケジューリング、所有権
 

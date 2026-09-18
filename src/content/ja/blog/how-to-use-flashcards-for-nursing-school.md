@@ -131,8 +131,8 @@ keywords:
 
 この部分の元資料が講義スライド、配布資料、復習プリント中心なら、前段の作業として最も近いのは次の2本です。
 
-- [2026年版 PDFをフラッシュカードに変える方法](https://flashcards-open-source-app.com/blog/how-to-turn-a-pdf-into-flashcards/)
-- [2026年版 ノートをフラッシュカードに変える方法](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
+- [2026年版 PDFをフラッシュカードに変える方法](https://nibomo.com/blog/how-to-turn-a-pdf-into-flashcards/)
+- [2026年版 ノートをフラッシュカードに変える方法](https://nibomo.com/blog/turn-notes-into-flashcards/)
 
 ## 優先順位付けと委任のカードは、解説全文ではなくトリガーを鍛えるべき
 
@@ -201,7 +201,7 @@ keywords:
 
 この流れを特に強めたいなら、直接つながる記事はこちらです。
 
-- [2026年版 演習問題をフラッシュカードに変える方法](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/)
+- [2026年版 演習問題をフラッシュカードに変える方法](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/)
 
 ## 看護学校のフラッシュカード運用は、臨地実習があっても生き残る形にするべき
 
@@ -223,7 +223,7 @@ keywords:
 
 問題がカードの書き方より構造にあるなら、次はこちらです。
 
-- [2026年版 フラッシュカードの整理術](https://flashcards-open-source-app.com/blog/how-to-organize-flashcards/)
+- [2026年版 フラッシュカードの整理術](https://nibomo.com/blog/how-to-organize-flashcards/)
 
 ## 学習スケジュールが不規則なほど、FSRS は重要になる
 
@@ -243,16 +243,16 @@ keywords:
 
 すでにキューが大きくなりすぎているなら、看護学校の運用にはこの2本がそのままつながります。
 
-- [2026年版 1日に何枚の新規フラッシュカードを追加すべきか](https://flashcards-open-source-app.com/blog/how-many-new-flashcards-per-day/)
-- [2026年版 FSRSで試験勉強する方法](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/)
+- [2026年版 1日に何枚の新規フラッシュカードを追加すべきか](https://nibomo.com/blog/how-many-new-flashcards-per-day/)
+- [2026年版 FSRSで試験勉強する方法](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)
 
 スケジューリングモデル自体を知りたいなら、こちらです。
 
-- [2026年版 FSRSとSM-2の違い](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [2026年版 FSRSとSM-2の違い](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
 ## この看護学校の学習フローの中で Flashcards がはまる場所
 
-[Nibomo](https://flashcards-open-source-app.com/) が **看護学校 フラッシュカード** に向いているのは、この運用で必要になる要素をすでに備えているからです。
+[Nibomo](https://nibomo.com/) が **看護学校 フラッシュカード** に向いているのは、この運用で必要になる要素をすでに備えているからです。
 
 - 細い想起プロンプトを作りやすい表裏カード
 - ノート、講義テキスト、問題の解説から下書きするための、ワークスペースデータとファイル添付に対応したAIチャット
@@ -268,7 +268,7 @@ keywords:
 
 カードの質そのものがまだ課題なら、この1本も看護の運用と相性が良いです。
 
-- [2026年版 より良いフラッシュカードの作り方](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [2026年版 より良いフラッシュカードの作り方](https://nibomo.com/blog/how-to-make-better-flashcards/)
 
 ## 試験期でもまだ使える看護学校デッキを作る
 

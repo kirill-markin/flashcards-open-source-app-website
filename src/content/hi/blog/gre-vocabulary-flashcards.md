@@ -61,7 +61,7 @@ GRE सिर्फ यह नहीं पूछता कि आपने defi
 
 अगर असली दिक्कत card writing है, तो यह companion article सबसे अच्छा है:
 
-- [2026 में बेहतर फ़्लैशकार्ड कैसे बनाएं](https://flashcards-open-source-app.com/hi/blog/how-to-make-better-flashcards/)
+- [2026 में बेहतर फ़्लैशकार्ड कैसे बनाएं](https://nibomo.com/hi/blog/how-to-make-better-flashcards/)
 
 ## GRE sentence equivalence flashcards को synonym contrast पर फोकस करना चाहिए
 
@@ -139,7 +139,7 @@ Text Completion isolated vocab को और भी ज़्यादा सज
 
 अगर workflow का यही हिस्सा आपको सबसे ज़्यादा चाहिए, तो इसे अगला पढ़ें:
 
-- [2026 में अभ्यास प्रश्नों को फ़्लैशकार्ड में कैसे बदलें](https://flashcards-open-source-app.com/hi/blog/how-to-turn-practice-questions-into-flashcards/)
+- [2026 में अभ्यास प्रश्नों को फ़्लैशकार्ड में कैसे बदलें](https://nibomo.com/hi/blog/how-to-turn-practice-questions-into-flashcards/)
 
 ## एक practical GRE vocabulary flashcards workflow
 
@@ -158,7 +158,7 @@ Text Completion isolated vocab को और भी ज़्यादा सज
 
 अगर बड़ी दिक्कत organization है, तो यह article सीधे fit बैठता है:
 
-- [2026 में फ़्लैशकार्ड कैसे व्यवस्थित करें](https://flashcards-open-source-app.com/hi/blog/how-to-organize-flashcards/)
+- [2026 में फ़्लैशकार्ड कैसे व्यवस्थित करें](https://nibomo.com/hi/blog/how-to-organize-flashcards/)
 
 ## हर दिन कितने नए GRE vocab cards realistic हैं?
 
@@ -176,8 +176,8 @@ Text Completion isolated vocab को और भी ज़्यादा सज
 
 यही समस्या और सामान्य रूप में यहाँ भी है:
 
-- [2026 में हर दिन कितने नए Flashcards बनाने चाहिए?](https://flashcards-open-source-app.com/hi/blog/how-many-new-flashcards-per-day/)
-- [2026 में Flashcards की review तेज़ कैसे करें](https://flashcards-open-source-app.com/hi/blog/how-to-review-flashcards-faster/)
+- [2026 में हर दिन कितने नए Flashcards बनाने चाहिए?](https://nibomo.com/hi/blog/how-many-new-flashcards-per-day/)
+- [2026 में Flashcards की review तेज़ कैसे करें](https://nibomo.com/hi/blog/how-to-review-flashcards-faster/)
 
 ## FSRS GRE vocabulary में मदद करता है क्योंकि words memory में अलग-अलग तरह से पुराने होते हैं
 
@@ -199,8 +199,8 @@ FSRS भारी-भरकम cards को नहीं बचाएगा।
 
 अगर scheduling वाले हिस्से को और detail में समझना है, तो ये दो articles सबसे अच्छे fit हैं:
 
-- [2026 में FSRS के साथ परीक्षा की तैयारी कैसे करें](https://flashcards-open-source-app.com/hi/blog/how-to-study-for-an-exam-with-fsrs/)
-- [2026 में FSRS Settings: क्या बदलें और क्या वैसे ही छोड़ दें](https://flashcards-open-source-app.com/hi/blog/fsrs-settings/)
+- [2026 में FSRS के साथ परीक्षा की तैयारी कैसे करें](https://nibomo.com/hi/blog/how-to-study-for-an-exam-with-fsrs/)
+- [2026 में FSRS Settings: क्या बदलें और क्या वैसे ही छोड़ दें](https://nibomo.com/hi/blog/fsrs-settings/)
 
 ## Mobile और offline review GRE में लोगों के अनुमान से ज़्यादा मायने रखते हैं
 
@@ -219,7 +219,7 @@ GRE vocabulary cumulative होती है। आम तौर पर आप 
 
 अगर आप पहले से किसी दूसरी language के लिए sentence cards के साथ vocabulary पढ़ते हैं, तो workflow हैरान करने वाली हद तक मिलता-जुलता है:
 
-- [2026 में language learning के लिए फ़्लैशकार्ड कैसे इस्तेमाल करें](https://flashcards-open-source-app.com/hi/blog/how-to-use-flashcards-for-language-learning/)
+- [2026 में language learning के लिए फ़्लैशकार्ड कैसे इस्तेमाल करें](https://nibomo.com/hi/blog/how-to-use-flashcards-for-language-learning/)
 
 ## AI GRE flashcards draft करने में मदद कर सकता है, लेकिन अक्सर ज़रूरत से ज़्यादा समझाता है
 
@@ -243,12 +243,12 @@ Fix सीधा है। AI को fast draft करने दें, फि�
 
 अगर आपका raw material notes, article excerpts, या question reviews से शुरू होता है, तो ये workflows upstream में मदद करते हैं:
 
-- [2026 में नोट्स को Flashcards में कैसे बदलें](https://flashcards-open-source-app.com/hi/blog/turn-notes-into-flashcards/)
-- [2026 में किसी article को Flashcards में कैसे बदलें](https://flashcards-open-source-app.com/hi/blog/how-to-turn-an-article-into-flashcards/)
+- [2026 में नोट्स को Flashcards में कैसे बदलें](https://nibomo.com/hi/blog/turn-notes-into-flashcards/)
+- [2026 में किसी article को Flashcards में कैसे बदलें](https://nibomo.com/hi/blog/how-to-turn-an-article-into-flashcards/)
 
 ## इस GRE workflow में Flashcards कहाँ fit बैठता है
 
-अगर आप इसे [Nibomo](https://flashcards-open-source-app.com/hi/) के भीतर चलाना चाहते हैं, तो उपयोगी बात यह नहीं है कि "AI पढ़ाई को आसान बना देता है।" असली बात यह है कि मौजूदा product पहले से workflow के इस practical middle को support करता है:
+अगर आप इसे [Nibomo](https://nibomo.com/hi/) के भीतर चलाना चाहते हैं, तो उपयोगी बात यह नहीं है कि "AI पढ़ाई को आसान बना देता है।" असली बात यह है कि मौजूदा product पहले से workflow के इस practical middle को support करता है:
 
 - front/back cards बनाना और edit करना
 - drafting और cleanup के लिए AI chat
@@ -274,9 +274,9 @@ Fix सीधा है। AI को fast draft करने दें, फि�
 
 अगर आप यह workflow Flashcards में आज़माना चाहते हैं:
 
-- [Nibomo से शुरू करें](https://flashcards-open-source-app.com/hi/)
+- [Nibomo से शुरू करें](https://nibomo.com/hi/)
 - [Web app खोलें](https://app.flashcards-open-source-app.com/)
-- [Getting started guide पढ़ें](https://flashcards-open-source-app.com/hi/docs/getting-started/)
+- [Getting started guide पढ़ें](https://nibomo.com/hi/docs/getting-started/)
 - [GitHub पर source code देखें](https://github.com/kirill-markin/flashcards-open-source-app)
 
 मकसद बस कठिन से कठिन words इकट्ठा करना नहीं है। मकसद यह है कि जब sentence अचानक turn ले, answer choices फिसलन भरे लगें, और घड़ी पहले से चल रही हो, तब सही meaning तेज़ी से सामने आए।
