@@ -68,6 +68,8 @@ That gives you cleaner **anatomy flashcards medical school** students can still 
 
 For a focused foundation inside that broader anatomy work, [Cranial Nerve Flashcards: Names, Numbers, Functions & Tests](https://nibomo.com/catalog/packages/cranial-nerves-names-functions-tests-flashcards/) has 84 English cards on all 12 nerves: names, numbers, classification as sensory, motor, or mixed, core functions, and high-level assessment cues. It stops before lesion localization, diagnosis, treatment, or clinical guidance.
 
+If movement names slow you down when recalling muscle actions, the [Anatomical Planes & Joint Movements Flashcards](/catalog/packages/anatomical-planes-movements-flashcards/) offer focused practice with planes and joint-movement terminology.
+
 If your anatomy work is especially diagram-heavy, this companion piece is the closer upstream workflow:
 
 - [How to Turn Diagrams Into Flashcards in 2026](https://nibomo.com/blog/how-to-turn-diagrams-into-flashcards/)
