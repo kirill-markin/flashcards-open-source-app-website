@@ -225,7 +225,7 @@ Order महत्वपूर्ण है:
 
 अगर आपको scheduling side पर और detail चाहिए, तो [2026 में FSRS के साथ किसी परीक्षा की तैयारी कैसे करें](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/) इसका सीधा companion है।
 
-## इस PMP workflow में Flashcards कहाँ fit बैठता है
+## इस PMP workflow में Nibomo कहाँ fit बैठता है
 
 अगर आप यह सब [Nibomo](https://nibomo.com/) के अंदर करना चाहते हैं, तो उपयोगी हिस्सा यह नहीं है कि AI किसी vague जादू से आपकी जगह पढ़ाई कर देगी।
 

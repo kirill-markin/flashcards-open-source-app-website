@@ -116,7 +116,7 @@ cards को फिर भी simple होना चाहिए।
 
 इसीलिए मैं किसी भी **AI study tool flashcards** workflow के raw exports पर पूरी तरह भरोसा नहीं करता। model drafting में शानदार है। फिर भी deck real बनने से पहले दूसरा pass रखना सही है।
 
-## इस workflow में Flashcards कहाँ बेहतर फिट बैठता है
+## इस workflow में Nibomo कहाँ बेहतर फिट बैठता है
 
 [Nibomo](https://nibomo.com/) इस exact gap के लिए अच्छा fit है क्योंकि यह सिर्फ़ generator नहीं है और सिर्फ़ review tool भी नहीं। यह आपको उसी जगह cleanup step करने देती है जहाँ बाद में review होगी।
 
@@ -133,7 +133,7 @@ product पहले से support करती है:
 इसलिए **NotebookLM से flashcards** तक का रास्ता straightforward है:
 
 1. NotebookLM cards copy या export करें
-2. उन्हें text के रूप में Flashcards AI chat में भेजें
+2. उन्हें text के रूप में Nibomo AI chat में भेजें
 3. छोटे और cleaner front/back cards माँगें
 4. wording सही लगने के बाद ही final cards बनाएँ
 5. source notebook में छोड़ने के बजाय FSRS के साथ review करें
@@ -181,7 +181,7 @@ workflow का एक underrated हिस्सा यह है कि Notebo
 1. NotebookLM में एक source set चुनें
 2. candidate flashcards generate करें
 3. text export या copy करें
-4. उसे Flashcards AI chat में paste करें
+4. उसे Nibomo AI chat में paste करें
 5. हर card में एक fact या concept माँगें
 6. vague या repetitive चीज़ें काट दें
 7. final deck बनाएं
@@ -191,7 +191,7 @@ workflow का एक underrated हिस्सा यह है कि Notebo
 
 NotebookLM source understanding संभालती है।
 
-Flashcards cleanup, card creation, और review system संभालती है।
+Nibomo cleanup, card creation, और review system संभालती है।
 
 ## तो 2026 में NotebookLM flashcards इस्तेमाल करने का सबसे अच्छा तरीका क्या है?
 

@@ -174,7 +174,7 @@ FSRS तब मदद करता है जब cards पहले से revie
 
 यह workflow किसी auto-generated giant deck जितना exciting नहीं होता। लेकिन इसे कल फिर से शुरू करना बहुत आसान होता है।
 
-## इस workflow में Flashcards कहाँ fit होता है
+## इस workflow में Nibomo कहाँ fit होता है
 
 [Nibomo](/hi/) इस तरह के workflow के लिए अच्छा fit है, क्योंकि product पहले से उन्हीं हिस्सों के आसपास बना है जो motivation उतर जाने के बाद भी मायने रखते हैं:
 

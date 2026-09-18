@@ -231,7 +231,7 @@ SAA-C03 की कुछ बातें जानने लायक हैं,
 
 मैं exam logistics को `exam-facts` या `needs-recheck` जैसे हल्के tagged subset में रखूँगा, और ज़्यादातर review time service choices, trade-offs, और repeated misses पर लगाऊँगा। इससे deck trivia की जगह architecture thinking के आसपास centered रहता है।
 
-## इस workflow में Flashcards कहाँ अच्छा fit बैठता है
+## इस workflow में Nibomo कहाँ अच्छा fit बैठता है
 
 [Nibomo](https://nibomo.com/) इस तरह की exam prep के लिए अच्छा fit है, क्योंकि product इस काम के दोनों हिस्सों को संभालता है, बिना यह दिखावा किए कि दोनों एक ही चीज़ हैं।
 

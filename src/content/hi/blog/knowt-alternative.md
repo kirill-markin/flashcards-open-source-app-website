@@ -108,7 +108,7 @@ Knowt में अपनी जरूरत के अनुसार बदल
 
 Knowt इसी शुरुआती चरण को ध्यान में रखकर बनाया गया है। इसकी AI documentation में PDFs, videos और PowerPoint files से notes या flashcards generate करना और फिर Learn Mode, practice tests, matching या spaced repetition पर जाना शामिल है। Native notes और अभ्यास के कई formats एक ही product में रहते हैं। Source से study session तक का यह छोटा रास्ता किसी focused flashcard tool के मुकाबले Knowt की सबसे साफ बढ़त है।
 
-इसके साथ quality control की जिम्मेदारी भी आती है। Generated cards context छोड़ सकते हैं, किसी claim को जरूरत से ज्यादा व्यापक बना सकते हैं या उपयोगी explanation को कमजोर recognition question में बदल सकते हैं। अहम cards को कई हफ्तों तक review करने से पहले original source से मिलाएँ। यही चेतावनी Flashcards समेत हर AI card generator पर लागू होती है।
+इसके साथ quality control की जिम्मेदारी भी आती है। Generated cards context छोड़ सकते हैं, किसी claim को जरूरत से ज्यादा व्यापक बना सकते हैं या उपयोगी explanation को कमजोर recognition question में बदल सकते हैं। अहम cards को कई हफ्तों तक review करने से पहले original source से मिलाएँ। यही चेतावनी Nibomo समेत हर AI card generator पर लागू होती है।
 
 ## Quizlet import आसान है, फिर भी manual तरीका तैयार रखें
 
@@ -129,7 +129,7 @@ PDF print करने, share करने और इंसानों के �
 
 लंबे समय तक काम आने वाले material के लिए Knowt चुनने से पहले कोई वास्तविक set export करके नतीजा देखें। एक व्यावहारिक सवाल पूछें: अगर Knowt कल आपके workflow से गायब हो जाए, तो क्या मिली हुई file से editable cards दोबारा बनाए जा सकेंगे, या आपके पास केवल पढ़ने के लिए document बचेगा?
 
-Flashcards भी portability की समस्या पूरी तरह हल नहीं करता। इसका package transfer अलग-अलग Flashcards installations के बीच cards, tags और उनसे जुड़ा media ले जाता है, लेकिन review history, FSRS scheduler state, workspace settings, पूरी deck structures या account data शामिल नहीं करता। [Open source होने भर से कोई export अपने-आप पूरा backup नहीं बन जाता](/docs/self-hosting/)।
+Nibomo भी portability की समस्या पूरी तरह हल नहीं करता। इसका package transfer अलग-अलग Nibomo installations के बीच cards, tags और उनसे जुड़ा media ले जाता है, लेकिन review history, FSRS scheduler state, workspace settings, पूरी deck structures या account data शामिल नहीं करता। [Open source होने भर से कोई export अपने-आप पूरा backup नहीं बन जाता](/docs/self-hosting/)।
 
 ## सीमित दायरे वाला विकल्प कब बेहतर है
 
@@ -139,7 +139,7 @@ Flashcards भी portability की समस्या पूरी तरह �
 
 Open-source repository में clients, backend services और वास्तविक AWS CDK production path शामिल हैं। Self-hosting के लिए फिर भी AWS infrastructure, email delivery, monitoring, secrets, migrations, backups और restore tests संभालने पड़ते हैं। यह desktop app में “deploy” पर click करने से कहीं ज्यादा, एक छोटा production system चलाने जैसा है। Infrastructure पर नियंत्रण को बिना लागत की सुविधा मानने से पहले [self-hosting guide](/docs/self-hosting/) पढ़ना उपयोगी है।
 
-Flashcards, Knowt का पूरा replacement नहीं है। इसमें Knowt का integrated notes workflow, broad source conversion, Learn Mode की question variety, generated practice-test experience, community study library या classroom features नहीं हैं। अगर आप Knowt इन्हीं कारणों से इस्तेमाल करते हैं, तो सीमित दायरे वाले app पर जाने से उसका उपयोगी हिस्सा ही छूट जाएगा।
+Nibomo, Knowt का पूरा replacement नहीं है। इसमें Knowt का integrated notes workflow, broad source conversion, Learn Mode की question variety, generated practice-test experience, community study library या classroom features नहीं हैं। अगर आप Knowt इन्हीं कारणों से इस्तेमाल करते हैं, तो सीमित दायरे वाले app पर जाने से उसका उपयोगी हिस्सा ही छूट जाएगा।
 
 ## आपको क्या चुनना चाहिए?
 
@@ -147,8 +147,8 @@ Flashcards, Knowt का पूरा replacement नहीं है। इस�
 
 अगर summaries, Kai chats, generated assessments और दूसरे metered AI actions आपकी साप्ताहिक पढ़ाई का अहम हिस्सा हैं, तो Knowt Ultra पर विचार करें। सालाना अग्रिम भुगतान की तुलना अपने एक महीने के वास्तविक usage से करें; unlimited capacity के लिए भुगतान तभी काम आता है, जब limit सच में आपके रास्ते में आ रही हो।
 
-अगर लंबे समय तक काम आने वाला नतीजा जाँचे हुए front/back cards का छोटा collection है और अलग-अलग quiz formats से ज्यादा documented FSRS, offline-first writes, export किया जा सकने वाला card content, open code, self-hosting या agent access मायने रखते हैं, तो Flashcards चुनें। AWS stack पर विचार करने से पहले [hosted app और getting-started guide](/docs/getting-started/) से शुरुआत करें।
+अगर लंबे समय तक काम आने वाला नतीजा जाँचे हुए front/back cards का छोटा collection है और अलग-अलग quiz formats से ज्यादा documented FSRS, offline-first writes, export किया जा सकने वाला card content, open code, self-hosting या agent access मायने रखते हैं, तो Nibomo चुनें। AWS stack पर विचार करने से पहले [hosted app और getting-started guide](/docs/getting-started/) से शुरुआत करें।
 
-दोनों का इस्तेमाल भी समझदारी भरा हो सकता है। बिखरे हुए source material को notes और अलग-अलग तरह के अभ्यास में बदलने के लिए Knowt इस्तेमाल करें, फिर केवल उन्हीं स्थायी facts को manually Flashcards में ले जाएँ जिन्हें आप महीनों तक याद रखना चाहते हैं। दोनों के बीच कोई documented lossless transfer नहीं है, इसलिए source संभालकर रखें, cards verify करें और मानकर चलें कि review history साथ नहीं जाएगी।
+दोनों का इस्तेमाल भी समझदारी भरा हो सकता है। बिखरे हुए source material को notes और अलग-अलग तरह के अभ्यास में बदलने के लिए Knowt इस्तेमाल करें, फिर केवल उन्हीं स्थायी facts को manually Nibomo में ले जाएँ जिन्हें आप महीनों तक याद रखना चाहते हैं। दोनों के बीच कोई documented lossless transfer नहीं है, इसलिए source संभालकर रखें, cards verify करें और मानकर चलें कि review history साथ नहीं जाएगी।
 
 अगर दोनों में से किसी का tradeoff ठीक न बैठे, तो [open-source flashcard apps](/blog/best-open-source-flashcard-apps-2026/) की व्यापक सूची देखें या अपनी shortlist में मौजूद tools पर [offline flashcard test](/blog/best-offline-flashcards-app/) चलाएँ। Knowt का सही विकल्प वह नहीं जिसकी feature table सबसे लंबी हो। सही विकल्प वह है जो आपके वास्तविक study session, वास्तविक internet connection और वास्तविक exit plan में टिक सके।

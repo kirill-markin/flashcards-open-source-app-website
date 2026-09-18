@@ -181,7 +181,7 @@ AI यहाँ भी उपयोगी है। बस इसका का�
 
 यह boring version ही काम करता है। accepted deck छोटा और साफ़ रहे, तो habit आम तौर पर बची रहती है। अगर AI पहला draft impressive लगने की वजह से deck को flood कर दे, तो आप सीखने के बजाय queue maintain करने लगते हैं।
 
-## इस workflow में Flashcards कहाँ fit बैठता है
+## इस workflow में Nibomo कहाँ fit बैठता है
 
 [Nibomo](/hi/features/) इस workflow में इसलिए ठीक बैठता है क्योंकि product पूरा रास्ता एक ही जगह कवर करता है:
 

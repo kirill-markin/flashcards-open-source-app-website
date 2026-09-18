@@ -232,7 +232,7 @@ Finals week में FSRS एक वजह से useful है: यह अच�
 
 इसी वजह से finals workflow को "AI के साथ पढ़ाई" workflow से अलग रहना चाहिए। Source processing हमेशा फैल सकता है। Finals review नहीं।
 
-## इस workflow में Flashcards कहाँ fit बैठता है
+## इस workflow में Nibomo कहाँ fit बैठता है
 
 [Nibomo](https://nibomo.com/) यहाँ इसलिए useful है क्योंकि product finals week की असली messy reality से मेल खाता है, यह मानकर नहीं चलता कि आपकी study inputs पहले से साफ़ आती हैं।
 

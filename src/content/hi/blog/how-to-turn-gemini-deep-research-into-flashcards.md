@@ -159,20 +159,20 @@ Raw notes बदसूरत लगते हैं, इसलिए लोग �
 
 यह बात साफ़-साफ़ कहने लायक है, क्योंकि इस क्षेत्र के product pages अक्सर जादुई shortcut का संकेत देते हैं।
 
-Flashcards सीधे Gemini Deep Research से connected नहीं है। Gemini research वाला हिस्सा संभालता है। Flashcards retention वाला हिस्सा संभालता है, जब आपके पास सामग्री पहले से मौजूद हो।
+Nibomo सीधे Gemini Deep Research से connected नहीं है। Gemini research वाला हिस्सा संभालता है। Nibomo retention वाला हिस्सा संभालता है, जब आपके पास सामग्री पहले से मौजूद हो।
 
 फिर भी practical path सीधा है:
 
 1. Gemini में research कीजिए
 2. उपयोगी section copy कीजिए या वह report text save कीजिए जिसे आप रखना चाहते हैं
-3. उस text या file को Flashcards में लाइए
+3. उस text या file को Nibomo में लाइए
 4. उसे साफ़ front/back cards में rewrite कीजिए
 5. cards को decks या tags के साथ organize कीजिए
 6. उन्हें FSRS के साथ review कीजिए
 
 यही ईमानदार रास्ता है, और यह नकली one-click pipeline से अक्सर बेहतर होता है। गुणवत्ता का ज़्यादातर हिस्सा transfer step से नहीं, selection और editing से आता है।
 
-## Flashcards इस workflow में क्यों fit बैठता है
+## Nibomo इस workflow में क्यों fit बैठता है
 
 [Nibomo](/) Gemini Deep Research को replace करने की कोशिश नहीं कर रहा।
 
@@ -200,7 +200,7 @@ Flashcards सीधे Gemini Deep Research से connected नहीं ह�
 
 इन सबको हमेशा एक ही tool-shaped ढेर में रहने की ज़रूरत नहीं है।
 
-Flashcards के भीतर मैं इन्हें subject के हिसाब से organize करूँगा। Report भले Gemini से आई हो, लेकिन long-term structure उस चीज़ का होना चाहिए जिसे आप सीख रहे हैं।
+Nibomo के भीतर मैं इन्हें subject के हिसाब से organize करूँगा। Report भले Gemini से आई हो, लेकिन long-term structure उस चीज़ का होना चाहिए जिसे आप सीख रहे हैं।
 
 यही बात **Gemini Deep Research spaced repetition** को practical बनाती है। आप किसी एक report की पूजा नहीं बना रहे। आप उससे reusable memory निकाल रहे हैं।
 

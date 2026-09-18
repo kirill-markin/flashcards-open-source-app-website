@@ -192,7 +192,7 @@ AP World के लिए मैं weekly rhythm जानबूझकर borin
 
 अगर scheduling side को और detail में देखना है, तो [2026 में FSRS के साथ परीक्षा की तैयारी कैसे करें](/blog/how-to-study-for-an-exam-with-fsrs/) इसका सबसे अच्छा companion article है।
 
-## इस AP World workflow में Flashcards कहाँ fit बैठता है
+## इस AP World workflow में Nibomo कहाँ fit बैठता है
 
 अगर आप यह system चलाने के लिए एक ही जगह चाहते हैं, तो [Nibomo](/) बिना किसी अजीब study stack के इस workflow में fit बैठता है।
 

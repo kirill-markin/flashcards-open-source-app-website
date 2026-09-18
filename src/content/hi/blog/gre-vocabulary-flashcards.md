@@ -246,7 +246,7 @@ Fix सीधा है। AI को fast draft करने दें, फि�
 - [2026 में नोट्स को Flashcards में कैसे बदलें](https://nibomo.com/hi/blog/turn-notes-into-flashcards/)
 - [2026 में किसी article को Flashcards में कैसे बदलें](https://nibomo.com/hi/blog/how-to-turn-an-article-into-flashcards/)
 
-## इस GRE workflow में Flashcards कहाँ fit बैठता है
+## इस GRE workflow में Nibomo कहाँ fit बैठता है
 
 अगर आप इसे [Nibomo](https://nibomo.com/hi/) के भीतर चलाना चाहते हैं, तो उपयोगी बात यह नहीं है कि "AI पढ़ाई को आसान बना देता है।" असली बात यह है कि मौजूदा product पहले से workflow के इस practical middle को support करता है:
 
@@ -272,7 +272,7 @@ Fix सीधा है। AI को fast draft करने दें, फि�
 
 मैं **GRE vocab deck** के उसी version पर भरोसा करूंगा।
 
-अगर आप यह workflow Flashcards में आज़माना चाहते हैं:
+अगर आप यह workflow Nibomo में आज़माना चाहते हैं:
 
 - [Nibomo से शुरू करें](https://nibomo.com/hi/)
 - [Web app खोलें](https://app.flashcards-open-source-app.com/)

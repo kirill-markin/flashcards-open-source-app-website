@@ -255,7 +255,7 @@ Pharmacology flashcards class structure, mechanisms, adverse effects, contraindi
 - [2026 में रोज़ कितने नए फ्लैशकार्ड?](https://nibomo.com/blog/how-many-new-flashcards-per-day/)
 - [2026 में फ्लैशकार्ड तेज़ी से review कैसे करें](https://nibomo.com/blog/how-to-review-flashcards-faster/)
 
-## इस workflow में Flashcards कहाँ fit बैठता है
+## इस workflow में Nibomo कहाँ fit बैठता है
 
 [Nibomo](https://nibomo.com/) इस तरह की pharmacology study के लिए ठीक बैठता है, क्योंकि उपयोगी हिस्सा यह नहीं है कि आप pharmacology को AI के हवाले कर दें। मैं उस तरह पढ़ाई नहीं करूँगा।
 

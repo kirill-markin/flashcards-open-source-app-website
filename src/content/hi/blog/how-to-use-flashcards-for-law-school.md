@@ -220,7 +220,7 @@ Outline विषय को एक जगह समझाती है। Deck �
 - [2026 में FSRS के साथ परीक्षा की तैयारी कैसे करें](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)
 - [2026 में FSRS बनाम SM-2](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
-## इस लॉ स्कूल workflow में Flashcards कहाँ फिट बैठता है
+## इस लॉ स्कूल workflow में Nibomo कहाँ फिट बैठता है
 
 अगर आप यह workflow [Nibomo](https://nibomo.com/) में चलाना चाहते हैं, तो उपयोगी बात सिर्फ़ यह अमूर्त दावा नहीं है कि "AI cards बना देता है।" उपयोगी बात यह है कि product अभी उस काम के सबसे उबाऊ लेकिन ज़रूरी हिस्से को पहले से support करता है:
 
@@ -245,7 +245,7 @@ Outline विषय को एक जगह समझाती है। Deck �
 
 यही **लॉ स्कूल फ्लैशकार्ड** का वह रूप है जिस पर मुझे भरोसा है।
 
-अगर आप यह workflow Flashcards में आज़माना चाहते हैं:
+अगर आप यह workflow Nibomo में आज़माना चाहते हैं:
 
 - [Nibomo से शुरुआत करें](https://nibomo.com/)
 - [वेब ऐप खोलें](https://app.flashcards-open-source-app.com/)

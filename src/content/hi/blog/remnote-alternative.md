@@ -31,7 +31,7 @@ RemNote अपने Anki export को **Flashcards Only** कहता है�
 - **कार्ड का ऐसा workflow जो नोट्स से जरूरत से ज्यादा बँधा लगता है:** Anki आज़माएँ। वहाँ cards, templates, imports और FSRS मुख्य system की भूमिका बेहतर ढंग से निभा सकते हैं।
 - **साधारण local note files:** काम को दो हिस्सों में बाँटें—Markdown notes के लिए Obsidian और review के लिए Anki। दोनों का तालमेल RemNote जितना सीधा नहीं है, लेकिन किस data का मालिक कौन है, यह कहीं साफ़ रहता है।
 - **PDFs और built-in cards के साथ open-source connected notes:** यहाँ Logseq सबसे करीब आता है, मगर 2026 में एक अहम शर्त के साथ। इसका नया database version beta में है, नया iOS app और real-time sync alpha में हैं, और नया Android app अभी testing के लिए उपलब्ध नहीं है।
-- **कार्ड पर केंद्रित stack के लिए source और self-hosting:** अगर front/back cards पर्याप्त हैं और आप नया schedule शुरू करने के साथ AWS infrastructure संभालने की बड़ी जिम्मेदारी लेने को तैयार हैं, तो Flashcards पर विचार करें।
+- **कार्ड पर केंद्रित stack के लिए source और self-hosting:** अगर front/back cards पर्याप्त हैं और आप नया schedule शुरू करने के साथ AWS infrastructure संभालने की बड़ी जिम्मेदारी लेने को तैयार हैं, तो Nibomo पर विचार करें।
 - **PDF पढ़ना, linked highlights और cards—सब एक ही जगह:** RemNote के साथ रहें। बाकी कोई भी विकल्प इस workflow को ठीक से दोहरा नहीं पाता।
 
 आखिरी जवाब आसानी से छूट जाता है। अगर कोई विकल्प license की पसंद तो पूरी करे, लेकिन अगली ही study session बिगाड़ दे, तो बदलना प्रगति नहीं है।
@@ -48,7 +48,7 @@ RemNote अपने Anki export को **Flashcards Only** कहता है�
 
 यह feature score नहीं है। PDFs पर बहुत निर्भर कोई छात्र “सबसे open” विकल्प अपनाकर license से जितना पाएगा, उससे अधिक खो सकता है। दूसरी ओर, simple vocabulary deck वाला व्यक्ति शायद ऐसे note system के पैसे दे रहा हो जिसका वह अब इस्तेमाल ही नहीं करता। पहले वह row चुनें जो आपकी असली बाधा बताती है, फिर उसकी migration सीमा को जाँचें।
 
-मुफ़्त और open source दो अलग कसौटियाँ हैं। RemNote Free और Obsidian के core apps मुफ़्त हैं, लेकिन दोनों proprietary हैं। Anki का desktop core, Logseq और Flashcards अपना source code सार्वजनिक रखते हैं। AnkiMobile फिर भी paid iOS app है, और Flashcards को self-host करने पर cloud costs आते ही हैं।
+मुफ़्त और open source दो अलग कसौटियाँ हैं। RemNote Free और Obsidian के core apps मुफ़्त हैं, लेकिन दोनों proprietary हैं। Anki का desktop core, Logseq और Nibomo अपना source code सार्वजनिक रखते हैं। AnkiMobile फिर भी paid iOS app है, और Nibomo को self-host करने पर cloud costs आते ही हैं।
 
 ## जब connected workflow ही असली product हो, तब RemNote के साथ रहें
 
@@ -90,15 +90,15 @@ Portability पर भी उतनी ही सावधानी चाहि
 
 इसलिए जब open source, linked notes, PDFs और built-in cards—चारों जरूरी हों, तब Logseq को जाँचना समझ में आता है। लेकिन अगस्त 2026 में medical school के किसी अहम knowledge base को एक ही दिन में migrate करने के लिए मैं इसे नहीं चुनूँगा। पहले इसे RemNote के साथ चलाएँ और देखें कि मौजूदा transition आपके असली devices पर कैसा काम करता है।
 
-## Flashcards: open full stack, सीमित study model
+## Nibomo: open full stack, सीमित study model
 
-Flashcards का समझौता RemNote से लगभग उलटा है। इसके [features](/hi/features/) front/back Markdown cards, decks, tags, media, FSRS review, offline-first clients और AI-assisted card drafting पर केंद्रित हैं। इसमें connected-note knowledge base, PDF reader, native desktop app या direct RemNote importer नहीं है।
+Nibomo का समझौता RemNote से लगभग उलटा है। इसके [features](/hi/features/) front/back Markdown cards, decks, tags, media, FSRS review, offline-first clients और AI-assisted card drafting पर केंद्रित हैं। इसमें connected-note knowledge base, PDF reader, native desktop app या direct RemNote importer नहीं है।
 
 इसका source केवल frontend तक सीमित नहीं है। MIT-licensed repository में web, iOS, Android, authentication, backend, sync और infrastructure शामिल हैं। Supported [production self-hosting guide](/hi/docs/self-hosting/) AWS CDK इस्तेमाल करती है। यह one-command local appliance नहीं है। इसे चलाने वाले व्यक्ति को cloud costs, secrets, migrations, monitoring, backups, restore tests और अलग से build किए mobile apps संभालने होंगे।
 
-मौजूदा RemNote user के लिए migration इससे भी बड़ी सीमा है। Flashcards अपने `flashcards.zip` packages import करता है, RemNote Markdown या Anki `.apkg` नहीं। उन packages में cards, tags और referenced media होते हैं, लेकिन review history, FSRS state, workspace settings, पूरा deck structure या accounts नहीं। AI chat export किए गए text को reviewed card drafts में बदल सकता है। यह content को फिर से बनाना है, पुराने collection को वहीं से आगे चलाना नहीं। [TXT migration guide](/hi/blog/migrate-from-anki-txt-export-open-source-flashcards/) इस lossy सीमा को step by step दिखाती है।
+मौजूदा RemNote user के लिए migration इससे भी बड़ी सीमा है। Nibomo अपने `flashcards.zip` packages import करता है, RemNote Markdown या Anki `.apkg` नहीं। उन packages में cards, tags और referenced media होते हैं, लेकिन review history, FSRS state, workspace settings, पूरा deck structure या accounts नहीं। AI chat export किए गए text को reviewed card drafts में बदल सकता है। यह content को फिर से बनाना है, पुराने collection को वहीं से आगे चलाना नहीं। [TXT migration guide](/hi/blog/migrate-from-anki-txt-export-open-source-flashcards/) इस lossy सीमा को step by step दिखाती है।
 
-जब पूरे stack के source तक पहुँच अहम हो, तब नए या simple card workspace के लिए Flashcards चुनें। Connected study के लिए RemNote रखें। Migration fidelity या advanced card structure चाहिए, तो Anki चुनें। अधिक केंद्रित card-system comparison के लिए [Anki बनाम Flashcards](/hi/blog/anki-vs-flashcards-open-source-app/) और [open-source flashcard apps guide](/hi/blog/best-open-source-flashcard-apps-2026/) देखें।
+जब पूरे stack के source तक पहुँच अहम हो, तब नए या simple card workspace के लिए Nibomo चुनें। Connected study के लिए RemNote रखें। Migration fidelity या advanced card structure चाहिए, तो Anki चुनें। अधिक केंद्रित card-system comparison के लिए [Anki बनाम Nibomo](/hi/blog/anki-vs-flashcards-open-source-app/) और [open-source flashcard apps guide](/hi/blog/best-open-source-flashcard-apps-2026/) देखें।
 
 ## RemNote से क्या ठीक से migrate नहीं होगा
 
@@ -136,6 +136,6 @@ RemNote कई उपयोगी export देता है, लेकिन �
 - अगर open-source connected notes और built-in cards चाहिए, तो **Logseq को जाँचें**, लेकिन इसका मौजूदा database और sync stack जब तक beta और alpha में है, test को non-critical रखें।
 - अगर simple fresh card system और पूरे stack के source तक पहुँच, notes, PDFs या schedule continuity से ज्यादा मायने रखते हैं, तो **Nibomo चुनें**।
 
-मैं Flashcards बनाता हूँ, फिर भी PDF-heavy connected notebook के लिए RemNote ही रखूँगा और किसी complex, established collection के लिए Anki चुनूँगा। Flashcards अधिक सीमित विकल्प है: front/back cards, open stack और नया schedule।
+मैं Nibomo बनाता हूँ, फिर भी PDF-heavy connected notebook के लिए RemNote ही रखूँगा और किसी complex, established collection के लिए Anki चुनूँगा। Nibomo अधिक सीमित विकल्प है: front/back cards, open stack और नया schedule।
 
-जब तय हो जाए कि कौन-सी सीमा आपको स्वीकार है, तो सिर्फ उसी रास्ते को test करें। अगर Flashcards सही बैठता है, तो [getting started guide](/hi/docs/getting-started/) hosted और self-hosted entry points दिखाती है। अगर नहीं, तो RemNote के साथ बने रहना भी बिल्कुल सही फैसला है।
+जब तय हो जाए कि कौन-सी सीमा आपको स्वीकार है, तो सिर्फ उसी रास्ते को test करें। अगर Nibomo सही बैठता है, तो [getting started guide](/hi/docs/getting-started/) hosted और self-hosted entry points दिखाती है। अगर नहीं, तो RemNote के साथ बने रहना भी बिल्कुल सही फैसला है।

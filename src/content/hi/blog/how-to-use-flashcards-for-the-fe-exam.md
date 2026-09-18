@@ -336,7 +336,7 @@ FSRS क्या नहीं करता: खराब deck को नही�
 - [2026 में FSRS के साथ परीक्षा की तैयारी कैसे करें](/hi/blog/how-to-study-for-an-exam-with-fsrs/)
 - [2026 में FSRS settings: क्या बदलें और क्या वैसे ही छोड़ दें](/hi/blog/fsrs-settings/)
 
-## इस workflow में Flashcards कहाँ fit बैठता है
+## इस workflow में Nibomo कहाँ fit बैठता है
 
 [Nibomo](/hi/) FE prep के इस style के लिए अच्छा fit है, क्योंकि product workflow के बीच वाले हिस्से को support करता है, सिर्फ़ first draft को नहीं:
 

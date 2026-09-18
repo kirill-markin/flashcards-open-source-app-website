@@ -266,7 +266,7 @@ FSRS ठीक इसी काम में अच्छा है।
 
 अगर scheduling side को और detail में समझना है, तो [2026 में FSRS के साथ exam की तैयारी कैसे करें](/blog/how-to-study-for-an-exam-with-fsrs/) इसका सीधा companion article है।
 
-## इस AP Physics 1 workflow में Flashcards कहाँ fit बैठता है
+## इस AP Physics 1 workflow में Nibomo कहाँ fit बैठता है
 
 [Nibomo](/) इस workflow में अच्छी तरह fit बैठता है, अगर आप graph cards, force mistakes, और FRQ repair cards को notes, screenshots, और old corrections में बिखेरने के बजाय एक जगह रखना चाहते हैं।
 

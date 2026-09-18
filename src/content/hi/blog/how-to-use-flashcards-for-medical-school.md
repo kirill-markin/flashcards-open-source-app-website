@@ -250,7 +250,7 @@ Scheduling का यही हिस्सा है जिस पर मुझ
 
 यहीं deck अपनी जगह कमाती है।
 
-## इस workflow में Flashcards कहाँ बेहतर fit बैठता है
+## इस workflow में Nibomo कहाँ बेहतर fit बैठता है
 
 [Nibomo](https://nibomo.com/) **मेडिकल स्कूल फ्लैशकार्ड** के लिए अच्छा fit है, क्योंकि product पहले से उन हिस्सों को support करता है जिन पर यह workflow depend करता है:
 

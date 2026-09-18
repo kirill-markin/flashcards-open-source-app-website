@@ -254,7 +254,7 @@ Adult learners के लिए **GED spaced repetition** खास तौर �
 
 अगर आप scheduling वाले हिस्से को और detail में समझना चाहते हैं, तो [2026 में FSRS के साथ exam की तैयारी कैसे करें](/blog/how-to-study-for-an-exam-with-fsrs/) सीधा follow-up है। अगर आपके cards की गिनती पहले ही बहुत तेज़ी से बढ़ रही है, तो [2026 में रोज़ कितने नए फ़्लैशकार्ड्स?](/blog/how-many-new-flashcards-per-day/) ज़्यादा urgent reading है।
 
-## Flashcards कहाँ fit बैठता है
+## Nibomo कहाँ fit बैठता है
 
 [Nibomo](/) इस GED workflow के लिए अच्छा fit है, क्योंकि product पहले से उन boring parts को संभालता है जिनकी वजह से system टिकता है:
 
