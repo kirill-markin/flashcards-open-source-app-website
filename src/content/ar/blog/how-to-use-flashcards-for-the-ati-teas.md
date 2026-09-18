@@ -267,7 +267,7 @@ keywords:
 
 وهذا يشبه سير العمل في [كيف تحوّل أسئلة التدريب إلى بطاقات تعليمية في 2026](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/) و[كيفية إنشاء بطاقات تعليمية أفضل في 2026](https://nibomo.com/blog/how-to-make-better-flashcards/).
 
-## أين يدخل Flashcards في سير عمل ATI TEAS هذا
+## أين يدخل Nibomo في سير عمل ATI TEAS هذا
 
 إذا أردت تنفيذ هذا داخل [Nibomo](https://nibomo.com/)، فالمواءمة هنا عملية وليست رسمية.
 

@@ -209,7 +209,7 @@ Nibomo ليس أداة رسمية من LSAC، ولا يملك أي تكامل ر
 
 إذا أردت جانب الجدولة بمزيد من التفصيل، فهاتان المقالتان هما الامتداد المباشر: [How to Study for an Exam With FSRS in 2026](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/) و[FSRS vs SM-2 in 2026](https://nibomo.com/blog/fsrs-vs-sm-2/).
 
-## أين يناسب Flashcards هذا السير
+## أين يناسب Nibomo هذا السير
 
 إذا أردت تشغيل هذا السير داخل [Nibomo](https://nibomo.com/)، فالنقطة المفيدة ليست وعدًا ضبابيًا بأن الذكاء الاصطناعي سيذاكر بدلًا منك. بل إن المنتج الحالي يدعم أصلًا الجزء الأوسط من العمل:
 

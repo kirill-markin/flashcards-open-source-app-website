@@ -261,7 +261,7 @@ keywords:
 
 - [FSRS مقابل SM-2 في 2026](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
-## أين يأتي دور Flashcards في هذا المسار
+## أين يأتي دور Nibomo في هذا المسار
 
 [Nibomo](https://nibomo.com/) مناسب جدًا لمسار **تحويل مقال إلى بطاقات تعليمية** لأنه يغطي الأجزاء التي تهم فعلًا:
 

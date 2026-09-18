@@ -211,7 +211,7 @@ FSRS أفضل من أنظمة التكرار المتباعد الأقدم في 
 
 - [كيفية استخدام ChatGPT لإنشاء Flashcards في عام 2026](https://nibomo.com/blog/how-to-use-chatgpt-to-make-flashcards/)
 
-## لماذا يناسب Flashcards هذا السيناريو أكثر
+## لماذا يناسب Nibomo هذا السيناريو أكثر
 
 [Nibomo](https://nibomo.com/) مناسب جدًا لهذا النوع من سير العمل لأن المنتج يغطي جانبي المشكلة:
 
