@@ -17,7 +17,7 @@ keywords:
 
 大多数 **Anki vs Flashcards** 对比，最终都取决于这条边界。如果你最看重集合保真度、模板、插件、共享牌组或已经稳定下来的复习习惯，就继续使用 Anki。如果你可以从全新牌组或以文本为主的牌组开始，而且更在意完整技术栈的源代码、离线优先同步、内置 AI 或 AI 智能体工作流，可以试试 Flashcards。
 
-> **披露：** 我是 Kirill Markin，也是 [Nibomo](https://flashcards-open-source-app.com/) 的开发者。我与这个产品有直接利益关系，因此凡是 Nibomo 暂时无法复现的工作流，本文都默认推荐 Anki。
+> **披露：** 我是 Kirill Markin，也是 [Nibomo](https://nibomo.com/) 的开发者。我与这个产品有直接利益关系，因此凡是 Nibomo 暂时无法复现的工作流，本文都默认推荐 Anki。
 
 **事实核实日期：** 2026 年 8 月 23 日。
 

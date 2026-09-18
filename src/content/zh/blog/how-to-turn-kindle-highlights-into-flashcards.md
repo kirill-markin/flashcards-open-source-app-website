@@ -152,7 +152,7 @@ keywords:
 
 如果你想看更完整的写卡规则，可以先读这篇：
 
-- [2026 年如何制作更好的 Flashcards](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [2026 年如何制作更好的 Flashcards](https://nibomo.com/blog/how-to-make-better-flashcards/)
 
 ## 非虚构作品、教材和语言读物，不该用同一种卡片风格
 
@@ -188,7 +188,7 @@ keywords:
 
 如果你的目标更偏向语言练习，而不是一般阅读，这篇配套文章会更贴近你的情况：
 
-- [2026 年如何用 Flashcards 学语言](https://flashcards-open-source-app.com/blog/how-to-use-flashcards-for-language-learning/)
+- [2026 年如何用 Flashcards 学语言](https://nibomo.com/blog/how-to-use-flashcards-for-language-learning/)
 
 ## Kindle 高亮真正危险的地方，在于它看起来比实际更有条理
 
@@ -225,11 +225,11 @@ keywords:
 
 如果你想更深入了解排程这件事，可以读这篇：
 
-- [2026 年 FSRS vs SM-2](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [2026 年 FSRS vs SM-2](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
 ## 为什么 Nibomo 很适合这个场景
 
-[Nibomo](https://flashcards-open-source-app.com/) 很适合 **Kindle 高亮转 Flashcards**，因为它已经覆盖了这套流程里真正实用的部分：
+[Nibomo](https://nibomo.com/) 很适合 **Kindle 高亮转 Flashcards**，因为它已经覆盖了这套流程里真正实用的部分：
 
 - 粘贴或上传导出的高亮文本
 - 先在 AI chat 里整理材料，再创建卡片
@@ -243,7 +243,7 @@ keywords:
 
 如果你的来源不是电子书高亮，而是更宽泛的笔记材料，这篇配套文章会更适合：
 
-- [2026 年如何把笔记变成 Flashcards](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
+- [2026 年如何把笔记变成 Flashcards](https://nibomo.com/blog/turn-notes-into-flashcards/)
 
 ## 真正有用的一条规则
 

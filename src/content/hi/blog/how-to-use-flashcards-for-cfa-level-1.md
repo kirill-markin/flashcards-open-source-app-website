@@ -169,7 +169,7 @@ Mock ने failure expose किया। Flashcard को correction preserve 
 
 अगर practice questions आपका main source material हैं, तो यह companion workflow सीधे fit बैठता है:
 
-- [2026 में अभ्यास प्रश्नों को फ़्लैशकार्ड में कैसे बदलें](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/)
+- [2026 में अभ्यास प्रश्नों को फ़्लैशकार्ड में कैसे बदलें](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/)
 
 ## हर miss के लिए card मत बनाइए
 
@@ -217,7 +217,7 @@ Useful tags:
 
 अगर organization ही problem बनने लगी है, तो अगला बेहतर step यह article है:
 
-- [2026 में फ्लैशकार्ड कैसे व्यवस्थित करें](https://flashcards-open-source-app.com/blog/how-to-organize-flashcards/)
+- [2026 में फ्लैशकार्ड कैसे व्यवस्थित करें](https://nibomo.com/blog/how-to-organize-flashcards/)
 
 ## एक weekly CFA flashcards workflow जो real life में टिक सके
 
@@ -255,8 +255,8 @@ FSRS useful है क्योंकि यह आसान cards को दू
 
 अगर scheduling वाला हिस्सा अभी भी धुंधला है, तो ये guides ज़्यादा detail में जाती हैं:
 
-- [2026 में FSRS बनाम SM-2](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
-- [2026 में FSRS के साथ परीक्षा की तैयारी कैसे करें](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/)
+- [2026 में FSRS बनाम SM-2](https://nibomo.com/blog/fsrs-vs-sm-2/)
+- [2026 में FSRS के साथ परीक्षा की तैयारी कैसे करें](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)
 
 ## Date-sensitive CFA facts को अलग रखें
 
@@ -275,7 +275,7 @@ CFA details बदलती हैं। Exam windows, fees, registration deadli
 
 ## इस CFA workflow में Flashcards कहाँ fit होता है
 
-[Nibomo](https://flashcards-open-source-app.com/) इस workflow में fit होता है, क्योंकि यह CFA deck के specific हिस्सों को support करता है, बिना यह दिखावा किए कि यह CFA Institute materials की जगह ले सकता है:
+[Nibomo](https://nibomo.com/) इस workflow में fit होता है, क्योंकि यह CFA deck के specific हिस्सों को support करता है, बिना यह दिखावा किए कि यह CFA Institute materials की जगह ले सकता है:
 
 - front/back card creation और editing
 - topic और source organization के लिए decks और tags
@@ -291,9 +291,9 @@ Weak spots ढूँढने के लिए official materials और practic
 
 अगर यही चाहिए, तो यहाँ से शुरू करें:
 
-- [Nibomo खोलें](https://flashcards-open-source-app.com/)
+- [Nibomo खोलें](https://nibomo.com/)
 - [ऐप खोलें](https://app.flashcards-open-source-app.com/)
-- [getting started guide पढ़ें](https://flashcards-open-source-app.com/docs/getting-started/)
+- [getting started guide पढ़ें](https://nibomo.com/docs/getting-started/)
 - [GitHub पर source देखें](https://github.com/kirill-markin/flashcards-open-source-app)
 
 Deck को किसी को impress करने की ज़रूरत नहीं। उसे बस 90 seconds खत्म होने से पहले अगले question का जवाब देने में मदद करनी है।

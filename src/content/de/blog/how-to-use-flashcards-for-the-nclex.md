@@ -40,7 +40,7 @@ Darum sollten **NCLEX-NGN-Flashcards** nicht aussehen wie ein Haufen Faktenkarte
 
 ## Hier trennt sich NCLEX-Vorbereitung von der Pflegeausbildung
 
-Der allgemeinere Beitrag [How to Use Flashcards for Nursing School in 2026](https://flashcards-open-source-app.com/blog/how-to-use-flashcards-for-nursing-school/) bleibt nützlich, wenn du gleichzeitig mit Vorlesungsstoff, Skills-Check-offs und Kursprüfungen jonglierst.
+Der allgemeinere Beitrag [How to Use Flashcards for Nursing School in 2026](https://nibomo.com/blog/how-to-use-flashcards-for-nursing-school/) bleibt nützlich, wenn du gleichzeitig mit Vorlesungsstoff, Skills-Check-offs und Kursprüfungen jonglierst.
 
 Dieser Artikel ist bewusst enger gefasst.
 
@@ -107,7 +107,7 @@ Wenn dasselbe Muster immer wieder auftaucht, dann verdient es Platz im Deck.
 
 Wenn der Fehler hauptsächlich war: "Ich habe zu schnell gelesen und ein Wort übersehen", dann ist das real, aber kein Flashcard-Problem.
 
-Hier ist [How to Turn Practice Questions Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/) der bessere Begleitartikel. Die nützlichsten **NCLEX-RN-Flashcards** entstehen aus der Struktur deiner Fehler, nicht daraus, dass du Inhalte aus einem Review-Buch abschreibst.
+Hier ist [How to Turn Practice Questions Into Flashcards in 2026](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/) der bessere Begleitartikel. Die nützlichsten **NCLEX-RN-Flashcards** entstehen aus der Struktur deiner Fehler, nicht daraus, dass du Inhalte aus einem Review-Buch abschreibst.
 
 ## Teilpunkte sollten ändern, wie du einen Fehler speicherst
 
@@ -225,7 +225,7 @@ Ich würde die Reihenfolge schlicht halten:
 2. das Deck kontrolliert halten
 3. FSRS das Timing überlassen
 
-Wenn du mehr zur Planungsebene willst, ist [How to Study for an Exam With FSRS in 2026](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/) der direkte Anschlussartikel.
+Wenn du mehr zur Planungsebene willst, ist [How to Study for an Exam With FSRS in 2026](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/) der direkte Anschlussartikel.
 
 ## Die letzten 7 bis 10 Tage vor dem NCLEX sollten sich straffer anfühlen
 
@@ -247,7 +247,7 @@ Hier wird auch der Unterschied zwischen einem Deck für die Pflegeausbildung und
 
 ## Wo Flashcards hineinpasst
 
-[Nibomo](https://flashcards-open-source-app.com/) passt gut zu diesem Workflow, weil es dir die langweiligen Dinge gibt, die hier zählen: kleine Vorderseiten-/Rückseiten-Karten, Tags, gefilterte Wiederholung und FSRS-Planung, sobald die Karten sauber genug sind, um ihr zu vertrauen.
+[Nibomo](https://nibomo.com/) passt gut zu diesem Workflow, weil es dir die langweiligen Dinge gibt, die hier zählen: kleine Vorderseiten-/Rückseiten-Karten, Tags, gefilterte Wiederholung und FSRS-Planung, sobald die Karten sauber genug sind, um ihr zu vertrauen.
 
 Das ist für die NCLEX-Vorbereitung nützlich, weil dein Quellenmaterial schnell chaotisch wird. Begründungen liegen in einem Tab, handschriftliche Notizen in einem anderen, irgendwo noch ein Blatt mit Laborwerten, und deine echten Schwachstellen verteilen sich meistens über all das. Das richtige Tool ist das, mit dem du daraus kleinere Karten machen kannst, ohne dir damit ein zweites Vollzeit-Lernsystem zu bauen.
 

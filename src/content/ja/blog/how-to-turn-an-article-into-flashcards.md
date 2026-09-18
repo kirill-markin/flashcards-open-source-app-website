@@ -199,8 +199,8 @@ AI に任せないのは、次のような部分です。
 
 AI で下書きを作る流れをもう少し広く見たいなら、次の記事も役立ちます。
 
-- [2026年に ChatGPT でフラッシュカードを作る方法: プロンプトを整え、カードの質を上げ、FSRS で復習する](https://flashcards-open-source-app.com/blog/how-to-use-chatgpt-to-make-flashcards/)
-- [2026年に ChatGPT Study Mode をフラッシュカード化する方法: チューター体験を保ったまま間隔反復を足す](https://flashcards-open-source-app.com/blog/how-to-turn-chatgpt-study-mode-into-flashcards/)
+- [2026年に ChatGPT でフラッシュカードを作る方法: プロンプトを整え、カードの質を上げ、FSRS で復習する](https://nibomo.com/blog/how-to-use-chatgpt-to-make-flashcards/)
+- [2026年に ChatGPT Study Mode をフラッシュカード化する方法: チューター体験を保ったまま間隔反復を足す](https://nibomo.com/blog/how-to-turn-chatgpt-study-mode-into-flashcards/)
 
 ## 技術記事では、答えを具体的に返せる形式が強い
 
@@ -220,8 +220,8 @@ AI で下書きを作る流れをもう少し広く見たいなら、次の記�
 
 元の素材が Web ページというより PDF の章や講義ノートに近いなら、こちらの関連記事も合います。
 
-- [2026年版 PDFをフラッシュカード化する方法: 講義スライド・教科書・論文からFSRS向けカードを作る](https://flashcards-open-source-app.com/blog/how-to-turn-a-pdf-into-flashcards/)
-- [2026年にノートをフラッシュカード化する方法: 手作業のコピペではなく、AIの下書きとFSRSを使う](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
+- [2026年版 PDFをフラッシュカード化する方法: 講義スライド・教科書・論文からFSRS向けカードを作る](https://nibomo.com/blog/how-to-turn-a-pdf-into-flashcards/)
+- [2026年にノートをフラッシュカード化する方法: 手作業のコピペではなく、AIの下書きとFSRSを使う](https://nibomo.com/blog/turn-notes-into-flashcards/)
 
 ## 良い記事 1 本から、優れたカード 5 枚できれば十分
 
@@ -259,11 +259,11 @@ FSRS があると、役に立つ情報がちょうどよい間隔で戻ってき
 
 復習スケジュール側をもう少し詳しく知りたいなら、こちらです。
 
-- [2026年の FSRS vs SM-2: より多く覚えやすいのはどちらの間隔反復アルゴリズムか](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [2026年の FSRS vs SM-2: より多く覚えやすいのはどちらの間隔反復アルゴリズムか](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
 ## Nibomo がこの流れに合う理由
 
-[Nibomo](https://flashcards-open-source-app.com/) は、**記事をフラッシュカード化する流れ** と相性が良いです。大事な部分が、すでにそろっているからです。
+[Nibomo](https://nibomo.com/) は、**記事をフラッシュカード化する流れ** と相性が良いです。大事な部分が、すでにそろっているからです。
 
 - 記事、ブログ記事、ニュースレター、ドキュメントページのプレーンテキストを貼り付けたりアップロードしたりできる
 - カードを作る前に、AI チャットの中で元の文章を整理できる
@@ -275,8 +275,8 @@ FSRS があると、役に立つ情報がちょうどよい間隔で戻ってき
 
 元の素材がテキストより会話や音声に近いなら、こちらも隣接しています。
 
-- [2026年版 ポッドキャストをフラッシュカード化する方法: エピソードを聞き直さず、文字起こしからFSRSカードを作る](https://flashcards-open-source-app.com/blog/how-to-turn-a-podcast-into-flashcards/)
-- [2026年版 講義録音をフラッシュカード化する方法: 全部を聞き直さず、文字起こしからFSRSカードを作る](https://flashcards-open-source-app.com/blog/how-to-turn-lecture-recordings-into-flashcards/)
+- [2026年版 ポッドキャストをフラッシュカード化する方法: エピソードを聞き直さず、文字起こしからFSRSカードを作る](https://nibomo.com/blog/how-to-turn-a-podcast-into-flashcards/)
+- [2026年版 講義録音をフラッシュカード化する方法: 全部を聞き直さず、文字起こしからFSRSカードを作る](https://nibomo.com/blog/how-to-turn-lecture-recordings-into-flashcards/)
 
 ## 実用的なルール
 

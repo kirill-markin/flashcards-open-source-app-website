@@ -17,7 +17,7 @@ Wenn deine Karten und dein Wiederholungsverlauf bereits in Anki stecken, ist ein
 
 Diese Einschränkung ist für die meisten Vergleiche von **Anki vs. Flashcards** ausschlaggebend. Bleib bei Anki, wenn dir eine originalgetreue Sammlung, Vorlagen, Add-ons, geteilte Decks oder deine eingespielte Wiederholungsroutine am wichtigsten sind. Probiere Flashcards aus, wenn du mit einem neuen oder überwiegend textbasierten Deck beginnen kannst und dir der Quellcode des gesamten Stacks, Offline-first-Synchronisierung, integrierte KI oder Agenten-Workflows wichtiger sind.
 
-> **Offenlegung:** Ich bin Kirill Markin und entwickle [Nibomo](https://flashcards-open-source-app.com/). Ich habe ein klares Interesse an dem Produkt. Deshalb ist Anki in diesem Vergleich die Standardempfehlung für alle Workflows, die Nibomo noch nicht abbilden kann.
+> **Offenlegung:** Ich bin Kirill Markin und entwickle [Nibomo](https://nibomo.com/). Ich habe ein klares Interesse an dem Produkt. Deshalb ist Anki in diesem Vergleich die Standardempfehlung für alle Workflows, die Nibomo noch nicht abbilden kann.
 
 **Fakten geprüft:** 23. August 2026.
 

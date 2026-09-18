@@ -98,7 +98,7 @@ Obsidian 笔记里经常会有一些在 vault 里很好用、但放进闪卡草�
 
 真正重要的是下一步：草稿还是要你来改。删掉那些泛泛而谈的卡。重写模糊的提问。把一张卡里同时考三个概念的内容拆开。如果一张卡必须在旁边打开整篇笔记时才看得懂，那它还没准备好。
 
-如果你想看这套流程更通用、但不专门围绕 Obsidian 的版本，可以读这篇配套文章：[2026 年如何把笔记整理成闪卡](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)。
+如果你想看这套流程更通用、但不专门围绕 Obsidian 的版本，可以读这篇配套文章：[2026 年如何把笔记整理成闪卡](https://nibomo.com/blog/turn-notes-into-flashcards/)。
 
 ## 好的 Obsidian 闪卡，依然必须能独立成立
 
@@ -113,11 +113,11 @@ Obsidian 笔记里经常会有一些在 vault 里很好用、但放进闪卡草�
 
 这正是编辑步骤真正产生价值的地方。AI 草稿带来速度，清理步骤带来让你下周依然觉得靠谱的卡片。
 
-如果你下一步想看更具体的写卡规则，可以读 [如何做出更好的闪卡](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)。
+如果你下一步想看更具体的写卡规则，可以读 [如何做出更好的闪卡](https://nibomo.com/blog/how-to-make-better-flashcards/)。
 
 ## Flashcards 很适合接住 Obsidian 工作流，但并不假装自己就是你的 vault
 
-[Nibomo](https://flashcards-open-source-app.com/) 之所以适合这个场景，是因为它能把学习这一侧处理得很干净：
+[Nibomo](https://nibomo.com/) 之所以适合这个场景，是因为它能把学习这一侧处理得很干净：
 
 - 创建正反面卡片
 - 用 AI 对话根据粘贴的文本起草卡片
@@ -126,7 +126,7 @@ Obsidian 笔记里经常会有一些在 vault 里很好用、但放进闪卡草�
 
 这比假装它是 Obsidian 的原生一层更合适。它不是你的笔记图谱、vault 浏览器，也不是插件替代品。它不需要扮演这些角色。真正有用的交接其实更简单：Obsidian 继续做笔记的家，而 Flashcards 在你开始需要主动回忆练习时接手。
 
-如果你想先看产品最基础的介绍，可以从[入门指南](https://flashcards-open-source-app.com/docs/getting-started/)开始。
+如果你想先看产品最基础的介绍，可以从[入门指南](https://nibomo.com/docs/getting-started/)开始。
 
 ## FSRS 才是让这套流程值得长期保留的地方
 
@@ -138,7 +138,7 @@ Obsidian 笔记里经常会有一些在 vault 里很好用、但放进闪卡草�
 
 如果排程器太弱，即使是一副还不错的卡组，也会慢慢变得重复又烦躁。如果排程器足够强，这套流程就会更容易坚持下去。简单的卡会慢慢退后，难的卡会更早回来，整个系统会显得平静很多。
 
-如果你想更详细比较排程机制，可以读 [2026 年 FSRS vs SM-2](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)。
+如果你想更详细比较排程机制，可以读 [2026 年 FSRS vs SM-2](https://nibomo.com/blog/fsrs-vs-sm-2/)。
 
 ## 一套实际可重复的 Obsidian 转闪卡流程
 
@@ -175,7 +175,7 @@ Obsidian 笔记里经常会有一些在 vault 里很好用、但放进闪卡草�
 
 这种分工，比试图直接在一张巨大的笔记图谱里学习要干净得多。它也让整个流程更诚实。没有假的同步承诺，没有插件迷宫。只是把干净的 Markdown 放进去，拿到卡片草稿，然后进入间隔重复。
 
-如果你的源材料更像一篇长文档导出，而不是一篇笔记，那么更适合读的是这篇：[2026 年如何把文章变成闪卡](https://flashcards-open-source-app.com/blog/how-to-turn-an-article-into-flashcards/)。
+如果你的源材料更像一篇长文档导出，而不是一篇笔记，那么更适合读的是这篇：[2026 年如何把文章变成闪卡](https://nibomo.com/blog/how-to-turn-an-article-into-flashcards/)。
 
 ## 2026 年真正有用的规则
 

@@ -102,8 +102,8 @@ NotebookLM يدفع البطاقات التعليمية والاختبارات �
 
 إذا كانت مادتك الأصلية ما تزال في هيئة مستندات، فهذه المسارات تساعدك في جانب الصياغة:
 
-- [كيفية تحويل PDF إلى Flashcards في عام 2026](https://flashcards-open-source-app.com/blog/how-to-turn-a-pdf-into-flashcards/)
-- [كيفية تحويل الملاحظات إلى Flashcards في عام 2026](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
+- [كيفية تحويل PDF إلى Flashcards في عام 2026](https://nibomo.com/blog/how-to-turn-a-pdf-into-flashcards/)
+- [كيفية تحويل الملاحظات إلى Flashcards في عام 2026](https://nibomo.com/blog/turn-notes-into-flashcards/)
 
 ## طريقة عملية لتحديد رقمك المناسب
 
@@ -151,7 +151,7 @@ FSRS أفضل من أنظمة التكرار المتباعد الأقدم في 
 
 إذا أردت مقارنة مباشرة بين أنظمة الجدولة، فهذه المقالة تتوسع أكثر:
 
-- [FSRS مقابل SM-2 في عام 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [FSRS مقابل SM-2 في عام 2026](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
 ## تراكم المراجعات يكون غالبًا مشكلة كتابة أيضًا
 
@@ -209,11 +209,11 @@ FSRS أفضل من أنظمة التكرار المتباعد الأقدم في 
 
 إذا كنت تبني البطاقات مباشرة من مطالبات الذكاء الاصطناعي، فهذه المقالة المرافقة مناسبة أيضًا:
 
-- [كيفية استخدام ChatGPT لإنشاء Flashcards في عام 2026](https://flashcards-open-source-app.com/blog/how-to-use-chatgpt-to-make-flashcards/)
+- [كيفية استخدام ChatGPT لإنشاء Flashcards في عام 2026](https://nibomo.com/blog/how-to-use-chatgpt-to-make-flashcards/)
 
 ## لماذا يناسب Flashcards هذا السيناريو أكثر
 
-[Nibomo](https://flashcards-open-source-app.com/) مناسب جدًا لهذا النوع من سير العمل لأن المنتج يغطي جانبي المشكلة:
+[Nibomo](https://nibomo.com/) مناسب جدًا لهذا النوع من سير العمل لأن المنتج يغطي جانبي المشكلة:
 
 - دردشة ذكاء اصطناعي لصياغة البطاقات من الملاحظات وملفات PDF ومصادر أخرى
 - تحرير البطاقة وجهًا وظهرًا قبل أن تصبح جزءًا دائمًا من مجموعتك
@@ -236,8 +236,8 @@ FSRS أفضل من أنظمة التكرار المتباعد الأقدم في 
 
 إذا كان هذا هو سير العمل الذي تريده، فابدأ من هنا:
 
-- [تعرّف على Flashcards](https://flashcards-open-source-app.com/)
+- [تعرّف على Flashcards](https://nibomo.com/)
 - [افتح التطبيق](https://app.flashcards-open-source-app.com/)
 - [اطّلع على الشيفرة المصدرية على GitHub](https://github.com/kirill-markin/flashcards-open-source-app)
 
-يمكن لـ [Nibomo](https://flashcards-open-source-app.com/) أن يمنحك الإعداد العملي: صِغ البطاقات من المادة الأصلية، وحررها بصرامة، ثم راجعها باستخدام FSRS بدلًا من أن تترك جلسة واحدة مثيرة لتوليد البطاقات تتحول بصمت إلى شهر كامل من التراكم.
+يمكن لـ [Nibomo](https://nibomo.com/) أن يمنحك الإعداد العملي: صِغ البطاقات من المادة الأصلية، وحررها بصرامة، ثم راجعها باستخدام FSRS بدلًا من أن تترك جلسة واحدة مثيرة لتوليد البطاقات تتحول بصمت إلى شهر كامل من التراكم.

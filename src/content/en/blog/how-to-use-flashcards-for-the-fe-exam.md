@@ -342,7 +342,7 @@ These two articles are the natural next reads for that part:
 
 ## Where Flashcards fits in this workflow
 
-[Nibomo](https://flashcards-open-source-app.com/) is a good fit for this style of FE prep because the product supports the middle of the workflow, not just the first draft:
+[Nibomo](https://nibomo.com/) is a good fit for this style of FE prep because the product supports the middle of the workflow, not just the first draft:
 
 - front/back cards for equations, unit checks, and trap patterns
 - decks and tags for common-engineering versus discipline-specific review

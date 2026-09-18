@@ -51,7 +51,7 @@ Die offiziellen Step-2-CK-Spezifikationen betonen ärztliche Aufgaben stärker a
 
 Genau hier verdienen sich **Step 2 CK Management-Flashcards** ihren Platz. Sie sollten sich wie schnelle Abrufübungen für klinische Entscheidungen anfühlen und nicht wie ein zweites Lehrbuch, das sich in einem Deck versteckt.
 
-Wenn du früher im Studium stehst und die breitere Version dieses Workflows brauchst, ist [Wie du 2026 Flashcards im Medizinstudium nutzt](https://flashcards-open-source-app.com/blog/how-to-use-flashcards-for-medical-school/) der passendere Ausgangsartikel. Wenn du noch stärker in der Step-1-Welt aus Mechanismen, Pathologiebildern und integrierten Systemen steckst, passt [Wie du 2026 Flashcards für USMLE Step 1 nutzt](https://flashcards-open-source-app.com/blog/how-to-use-flashcards-for-usmle-step-1/) besser.
+Wenn du früher im Studium stehst und die breitere Version dieses Workflows brauchst, ist [Wie du 2026 Flashcards im Medizinstudium nutzt](https://nibomo.com/blog/how-to-use-flashcards-for-medical-school/) der passendere Ausgangsartikel. Wenn du noch stärker in der Step-1-Welt aus Mechanismen, Pathologiebildern und integrierten Systemen steckst, passt [Wie du 2026 Flashcards für USMLE Step 1 nutzt](https://nibomo.com/blog/how-to-use-flashcards-for-usmle-step-1/) besser.
 
 ## Shelf-Fehler sollten mehr vom Deck steuern als dein Lesen
 
@@ -84,7 +84,7 @@ Was normalerweise **keine** Flashcard verdient:
 
 Das sind reale Probleme. Es sind nur keine Flashcard-Probleme.
 
-Wenn dein Rohmaterial überwiegend aus falsch beantworteten Fragen besteht, ist [Wie du 2026 Übungsfragen in Flashcards verwandelst](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/) der direkte Begleitworkflow.
+Wenn dein Rohmaterial überwiegend aus falsch beantworteten Fragen besteht, ist [Wie du 2026 Übungsfragen in Flashcards verwandelst](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/) der direkte Begleitworkflow.
 
 ## Baue Karten um den Entscheidungspunkt herum, nicht um das Krankheitslabel
 
@@ -229,7 +229,7 @@ Nützliche Tags könnten so aussehen:
 
 Das ergibt ein saubereres Lernmuster, als für jedes winzige Thema, das während einer einzelnen Rotation kurz auftaucht, ein eigenes dauerhaftes Deck zu bauen.
 
-Wenn Organisation schon zu einem eigenen Hobby wird, ist [Wie du 2026 Flashcards organisierst](https://flashcards-open-source-app.com/blog/how-to-organize-flashcards/) die richtige Korrektur.
+Wenn Organisation schon zu einem eigenen Hobby wird, ist [Wie du 2026 Flashcards organisierst](https://nibomo.com/blog/how-to-organize-flashcards/) die richtige Korrektur.
 
 ## Ein funktionierender Step-2-CK-Workflow ist absichtlich langweilig
 
@@ -263,7 +263,7 @@ Verschiebe das Deck weg von "alles, was ich dieses Jahr angefasst habe" und hin 
 
 So beginnen **Step 2 CK Shelf-Fehler** und die dedizierte Wiederholung zusammenzuarbeiten, statt zu zwei getrennten Lernsystemen zu werden.
 
-Wenn du die Planungsseite genauer willst, ist [Wie du 2026 mit FSRS für eine Prüfung lernst](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/) die direkte Fortsetzung.
+Wenn du die Planungsseite genauer willst, ist [Wie du 2026 mit FSRS für eine Prüfung lernst](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/) die direkte Fortsetzung.
 
 ## FSRS hilft, sobald die Karten nicht mehr versuchen, fünf Aufgaben gleichzeitig zu erledigen
 
@@ -290,7 +290,7 @@ Wenn du weiterhin vage Karten in den FSRS-Planer kippst, wiederholst du am Ende 
 
 ## Warum Flashcards gut zu diesem Step-2-CK-Workflow passt
 
-Wenn du das innerhalb von [Nibomo](https://flashcards-open-source-app.com/) umsetzen willst, ist der eigentliche Vorteil nicht, dass das Produkt klinisches Denken ersetzt. Es gibt dir nur einen schnelleren Weg von chaotischem Step-2-Ausgangsmaterial zu kleineren, wiederholbaren Karten.
+Wenn du das innerhalb von [Nibomo](https://nibomo.com/) umsetzen willst, ist der eigentliche Vorteil nicht, dass das Produkt klinisches Denken ersetzt. Es gibt dir nur einen schnelleren Weg von chaotischem Step-2-Ausgangsmaterial zu kleineren, wiederholbaren Karten.
 
 Worauf es ankommt, ist einfacher:
 
@@ -303,7 +303,7 @@ Worauf es ankommt, ist einfacher:
 
 Diese Kombination ist wichtig, weil Step-2-CK-Ausgangsmaterial standardmäßig verstreut ist. Shelf-Fragen, Stationsnotizen, Erklärungen und Review-Dokumente liegen alle an unterschiedlichen Orten. Das bessere System ist das, mit dem du daraus engere Karten machen kannst, ohne dass die Deck-Pflege zu einem eigenen Clerkship wird.
 
-Wenn das Kernproblem eher die Kartenqualität als der medizinische Inhalt ist, ist [Wie du 2026 bessere Flashcards erstellst](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/) die bessere nächste Lektüre.
+Wenn das Kernproblem eher die Kartenqualität als der medizinische Inhalt ist, ist [Wie du 2026 bessere Flashcards erstellst](https://nibomo.com/blog/how-to-make-better-flashcards/) die bessere nächste Lektüre.
 
 ## Die nützliche Regel
 

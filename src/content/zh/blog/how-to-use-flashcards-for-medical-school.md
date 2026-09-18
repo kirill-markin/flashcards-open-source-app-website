@@ -74,7 +74,7 @@ keywords:
 
 如果你的解剖学习本来就高度依赖图谱，这篇配套文章更接近前一步的工作流：
 
-- [2026 年如何把图示转成抽认卡](https://flashcards-open-source-app.com/blog/how-to-turn-diagrams-into-flashcards/)
+- [2026 年如何把图示转成抽认卡](https://nibomo.com/blog/how-to-turn-diagrams-into-flashcards/)
 
 ## 药理学卡片，应该帮你做判断，而不是背稿子
 
@@ -147,8 +147,8 @@ keywords:
 
 如果你的原始材料更多是笔记或长讲义，这两篇相关文章更适合前面的流程：
 
-- [2026 年如何把笔记转成抽认卡](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
-- [2026 年如何把 PDF 转成抽认卡](https://flashcards-open-source-app.com/blog/how-to-turn-a-pdf-into-flashcards/)
+- [2026 年如何把笔记转成抽认卡](https://nibomo.com/blog/turn-notes-into-flashcards/)
+- [2026 年如何把 PDF 转成抽认卡](https://nibomo.com/blog/how-to-turn-a-pdf-into-flashcards/)
 
 ## 题库错题，应该决定牌组的后半部分长什么样
 
@@ -180,7 +180,7 @@ keywords:
 
 如果你最需要补的正是这一块，这篇文章就是最直接的配套阅读：
 
-- [2026 年如何把练习题转成抽认卡](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/)
+- [2026 年如何把练习题转成抽认卡](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/)
 
 ## 每周的医学院抽认卡工作流，往往刻意地很无聊
 
@@ -220,7 +220,7 @@ keywords:
 
 如果你想更细一点看组织层面，可以接着读这篇：
 
-- [2026 年如何整理抽认卡](https://flashcards-open-source-app.com/blog/how-to-organize-flashcards/)
+- [2026 年如何整理抽认卡](https://nibomo.com/blog/how-to-organize-flashcards/)
 
 ## FSRS 真正最有用的时候，是你不再把混乱持续喂给它
 
@@ -240,12 +240,12 @@ keywords:
 
 如果你的复习队列已经开始失控，这两篇文章和医学院工作流衔接得最直接：
 
-- [2026 年每天应该新增多少张抽认卡？](https://flashcards-open-source-app.com/blog/how-many-new-flashcards-per-day/)
-- [2026 年如何用 FSRS 为考试复习](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/)
+- [2026 年每天应该新增多少张抽认卡？](https://nibomo.com/blog/how-many-new-flashcards-per-day/)
+- [2026 年如何用 FSRS 为考试复习](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)
 
 如果你想先把调度模型本身看明白，也可以读这篇：
 
-- [2026 年 FSRS vs SM-2](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [2026 年 FSRS vs SM-2](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
 ## 一套能长期运行的医学院流程，通常比你的雄心更小
 
@@ -271,7 +271,7 @@ keywords:
 
 ## 为什么 Flashcards 适合这套工作流
 
-[Nibomo](https://flashcards-open-source-app.com/) 很适合 **医学院抽认卡** 这类场景，因为这个产品本身已经支持这套工作流真正依赖的那些环节：
+[Nibomo](https://nibomo.com/) 很适合 **医学院抽认卡** 这类场景，因为这个产品本身已经支持这套工作流真正依赖的那些环节：
 
 - 用正反面卡片完成干净的提取式提示
 - 用 AI 对话从课程文字、笔记或题目复盘材料里起草候选卡片
@@ -287,4 +287,4 @@ keywords:
 
 如果你现在的核心问题更偏向“卡片质量不够好”，而不是学科工作流本身，这篇文章和医学院这篇最适合一起看：
 
-- [2026 年如何做出更好的抽认卡](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [2026 年如何做出更好的抽认卡](https://nibomo.com/blog/how-to-make-better-flashcards/)

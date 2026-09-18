@@ -17,7 +17,7 @@ Anmeldeseite öffnen. Auf den Code warten. Das Token kopieren. Einen API-Key ers
 
 Genau solche Arbeit sollte dir ein Tool abnehmen.
 
-In [Nibomo](https://flashcards-open-source-app.com/) gibt es jetzt einen Open-Source-Anmeldeablauf für Agenten, der mit genau einer Discovery-URL beginnt:
+In [Nibomo](https://nibomo.com/) gibt es jetzt einen Open-Source-Anmeldeablauf für Agenten, der mit genau einer Discovery-URL beginnt:
 
 `https://api.flashcards-open-source-app.com/v1/`
 
@@ -132,7 +132,7 @@ Die Antwort ist so aufgebaut, dass Terminal-Agenten ihr ohne Rätselraten folgen
   "instructions": "Start with POST https://auth.flashcards-open-source-app.com/api/agent/send-code using the user's email, then POST https://auth.flashcards-open-source-app.com/api/agent/verify-code to obtain an API key. After login, call GET https://api.flashcards-open-source-app.com/v1/agent/me, then GET https://api.flashcards-open-source-app.com/v1/agent/workspaces?limit=100. If no workspace is selected for this API key, call POST https://api.flashcards-open-source-app.com/v1/agent/workspaces/{workspaceId}/select or create one with POST https://api.flashcards-open-source-app.com/v1/agent/workspaces using {\"name\":\"Personal\"}. After workspace bootstrap, use POST https://api.flashcards-open-source-app.com/v1/agent/sql/query for all shared card and deck reads (SHOW TABLES, DESCRIBE, SHOW COLUMNS, SELECT) and POST https://api.flashcards-open-source-app.com/v1/agent/sql/execute for card and deck authoring writes (INSERT, UPDATE, DELETE). Use docs.discoveryUrl for runtime discovery and docs.source.agentRoutesUrl for implementation details. The SQL surface is intentionally limited and is not full PostgreSQL.",
   "docs": {
     "discoveryUrl": "https://api.flashcards-open-source-app.com/v1/",
-    "docsUrl": "https://flashcards-open-source-app.com/docs/",
+    "docsUrl": "https://nibomo.com/docs/",
     "source": {
       "agentRoutesUrl": "https://github.com/kirill-markin/flashcards-open-source-app/tree/main/apps/backend/src/routes"
     }
@@ -309,9 +309,9 @@ Danach kann er den Rest selbst übernehmen.
 
 Nützliche Links:
 
-- [Flashcards-Website](https://flashcards-open-source-app.com/)
+- [Flashcards-Website](https://nibomo.com/)
 - [Gehostete App](https://app.flashcards-open-source-app.com/)
-- [Erste Schritte](https://flashcards-open-source-app.com/docs/getting-started/)
+- [Erste Schritte](https://nibomo.com/docs/getting-started/)
 - [GitHub-Repository](https://github.com/kirill-markin/flashcards-open-source-app)
 
 Wenn ein Produkt Open Source ist und der Authentifizierungsablauf bewusst schmal gehalten wird, sollte "lass den Agenten das erledigen" tatsächlich funktionieren. Genau dafür ist dieser Ablauf da.

@@ -82,7 +82,7 @@ keywords:
 
 إذا كنت تريد فهمًا أعمق لمنطق الإضافة اليومية، فهذه المقالة المرافقة تناقش الوجه الآخر من المشكلة:
 
-- [كم عدد Flashcards الجديدة يوميًا في عام 2026؟](https://flashcards-open-source-app.com/blog/how-many-new-flashcards-per-day/)
+- [كم عدد Flashcards الجديدة يوميًا في عام 2026؟](https://nibomo.com/blog/how-many-new-flashcards-per-day/)
 
 ## الخطوة التالية: اختر حدًا يوميًا يمكنك الالتزام به فعلًا
 
@@ -136,7 +136,7 @@ keywords:
 
 إذا كانت مشكلتك الحقيقية هي جودة البطاقات لا الأيام التي فاتتك، فهذه المقالة تتوسع أكثر:
 
-- [كيفية إنشاء Flashcards أفضل في عام 2026](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [كيفية إنشاء Flashcards أفضل في عام 2026](https://nibomo.com/blog/how-to-make-better-flashcards/)
 
 ## أعط الأولوية أولًا للجزء الأعلى عائدًا من المجموعة
 
@@ -156,7 +156,7 @@ keywords:
 
 في هذه الحالة، تناسبك أيضًا هذه المقالة:
 
-- [كيفية الدراسة للامتحان مع FSRS في عام 2026](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/)
+- [كيفية الدراسة للامتحان مع FSRS في عام 2026](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)
 
 ## الهدف هو استعادة العادة أولًا، وتقليص التراكم ثانيًا
 
@@ -216,7 +216,7 @@ keywords:
 
 ## لماذا يناسب Flashcards هذا السيناريو بشكل أفضل
 
-[Nibomo](https://flashcards-open-source-app.com/) مناسب جدًا للتعامل مع **تراكم التكرار المتباعد** لأن سير العمل لا يحتاج إلى التشتت بين ثلاث أدوات مختلفة:
+[Nibomo](https://nibomo.com/) مناسب جدًا للتعامل مع **تراكم التكرار المتباعد** لأن سير العمل لا يحتاج إلى التشتت بين ثلاث أدوات مختلفة:
 
 - يمكن لمحادثة الذكاء الاصطناعي أن تساعدك في اقتراح بطاقات، لكن القرار النهائي يبقى لك
 - يسهّل تحرير وجهي البطاقة تقصير البطاقات الضعيفة أو تقسيمها

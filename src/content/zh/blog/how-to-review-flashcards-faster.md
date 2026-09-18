@@ -74,7 +74,7 @@ keywords:
 
 如果你想看这件事更深入的一版，可以先读这里：
 
-- [2026 年如何做出更好的 Flashcards](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [2026 年如何做出更好的 Flashcards](https://nibomo.com/blog/how-to-make-better-flashcards/)
 
 ## 要更快做决定，不是更苛刻地打分
 
@@ -167,11 +167,11 @@ keywords:
 
 如果你想要一个更清楚的新卡规则，这篇配套文章会讲得更深一点：
 
-- [2026 年每天该加多少张新 Flashcards？](https://flashcards-open-source-app.com/blog/how-many-new-flashcards-per-day/)
+- [2026 年每天该加多少张新 Flashcards？](https://nibomo.com/blog/how-many-new-flashcards-per-day/)
 
 如果你已经过了“小修正就够”的阶段，现在面对的是一整堆真正的到期积压，那下一篇更适合你：
 
-- [2026 年落下太多 Flashcards 之后，怎么重新追上进度](https://flashcards-open-source-app.com/blog/how-to-catch-up-on-flashcards-after-falling-behind/)
+- [2026 年落下太多 Flashcards 之后，怎么重新追上进度](https://nibomo.com/blog/how-to-catch-up-on-flashcards-after-falling-behind/)
 
 ## 组织方式对速度的影响，比很多人以为的更大
 
@@ -191,7 +191,7 @@ keywords:
 
 这一层可以接着看这里：
 
-- [2026 年如何整理 Flashcards](https://flashcards-open-source-app.com/blog/how-to-organize-flashcards/)
+- [2026 年如何整理 Flashcards](https://nibomo.com/blog/how-to-organize-flashcards/)
 
 ## FSRS 有帮助，但它救不了一副嘈杂的牌组
 
@@ -244,7 +244,7 @@ FSRS 最适合在这些条件下发挥作用：
 
 ## 为什么 Flashcards 更适合这套工作流
 
-[Nibomo](https://flashcards-open-source-app.com/) 很适合这类问题，因为产品支持的是整套“少生成垃圾卡，更快复习好卡”的流程，而不是假装每一步都是同一件事。
+[Nibomo](https://nibomo.com/) 很适合这类问题，因为产品支持的是整套“少生成垃圾卡，更快复习好卡”的流程，而不是假装每一步都是同一件事。
 
 目前这个仓库里对应的产品能力，和这套工作流是对得上的：
 
@@ -289,7 +289,7 @@ FSRS 最适合在这些条件下发挥作用：
 
 如果你想在一个地方把这套工作流跑通：
 
-- [打开 Flashcards](https://flashcards-open-source-app.com/)
+- [打开 Flashcards](https://nibomo.com/)
 - [打开应用](https://app.flashcards-open-source-app.com/)
-- [阅读功能页](https://flashcards-open-source-app.com/features/)
+- [阅读功能页](https://nibomo.com/features/)
 - [在 GitHub 查看源码](https://github.com/kirill-markin/flashcards-open-source-app)

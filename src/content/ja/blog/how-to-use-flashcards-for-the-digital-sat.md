@@ -102,7 +102,7 @@ keywords:
 
 SAT固有の戦略以前に、カードの質そのものが課題なら、次の記事が役立ちます。
 
-- [2026年版 より良いフラッシュカードの作り方](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [2026年版 より良いフラッシュカードの作り方](https://nibomo.com/blog/how-to-make-better-flashcards/)
 
 ## SAT数学カードは、公式と手順を分けて持つ
 
@@ -168,7 +168,7 @@ Bluebookで模試を解くなら、本当に資産になるのは点数そのも
 
 この運用こそ一番必要なら、次の記事が直接つながります。
 
-- [2026年版 演習問題をフラッシュカードに変える方法](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/)
+- [2026年版 演習問題をフラッシュカードに変える方法](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/)
 
 ## SATでは、1つのカード形式ですべての問題タイプには対応できない
 
@@ -204,7 +204,7 @@ Bluebookで模試を解くなら、本当に資産になるのは点数そのも
 
 カード作りより、全体の構造のほうが問題なら、次はこちらです。
 
-- [2026年版 フラッシュカードの整理術](https://flashcards-open-source-app.com/blog/how-to-organize-flashcards/)
+- [2026年版 フラッシュカードの整理術](https://nibomo.com/blog/how-to-organize-flashcards/)
 
 ## 何千枚ものSATカードは、おそらく必要ない
 
@@ -232,7 +232,7 @@ Bluebookで模試を解くなら、本当に資産になるのは点数そのも
 
 すでに復習件数が増えすぎているなら、このSAT運用には次の記事がよく合います。
 
-- [2026年、1日に何枚の新しいフラッシュカードを追加すべきか: 無理なく終えられるFSRSの復習量を作る](https://flashcards-open-source-app.com/blog/how-many-new-flashcards-per-day/)
+- [2026年、1日に何枚の新しいフラッシュカードを追加すべきか: 無理なく終えられるFSRSの復習量を作る](https://nibomo.com/blog/how-many-new-flashcards-per-day/)
 
 ## SAT勉強の予定が不規則なほど、FSRSは効きやすい
 
@@ -259,12 +259,12 @@ FSRSが助けてくれるのは、次のような点です。
 
 スケジューリング面をもう少し詳しく見たいなら、相性が良いのは次の2本です。
 
-- [2026年版 FSRSで試験勉強する方法](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/)
-- [2026年のFSRSとSM-2を比較: より覚えやすい間隔反復アルゴリズムはどちらか](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [2026年版 FSRSで試験勉強する方法](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)
+- [2026年のFSRSとSM-2を比較: より覚えやすい間隔反復アルゴリズムはどちらか](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
 ## Flashcards がデジタルSAT運用に向いている理由
 
-[Nibomo](https://flashcards-open-source-app.com/) が **デジタルSAT フラッシュカード** と相性が良いのは、この運用に必要な要素を、現行プロダクトがすでに備えているからです。
+[Nibomo](https://nibomo.com/) が **デジタルSAT フラッシュカード** と相性が良いのは、この運用に必要な要素を、現行プロダクトがすでに備えているからです。
 
 - 表裏カードの作成と編集
 - ノート、貼り付けた解説、模試の振り返りからカード候補を下書きするためのAIチャット
@@ -279,8 +279,8 @@ FSRSが助けてくれるのは、次のような点です。
 
 SAT対策の元資料がまだその1歩前にあるなら、入力側には次の記事が役立ちます。
 
-- [2026年版 ノートをフラッシュカードに変える方法](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
-- [2026年版 PDFをフラッシュカードに変える方法](https://flashcards-open-source-app.com/blog/how-to-turn-a-pdf-into-flashcards/)
+- [2026年版 ノートをフラッシュカードに変える方法](https://nibomo.com/blog/turn-notes-into-flashcards/)
+- [2026年版 PDFをフラッシュカードに変える方法](https://nibomo.com/blog/how-to-turn-a-pdf-into-flashcards/)
 
 ## 同じミスを繰り返さないSATデッキを作る
 

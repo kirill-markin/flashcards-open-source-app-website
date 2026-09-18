@@ -89,7 +89,7 @@ AI 模型擅长压缩、改写和模仿模式。它们并不天然擅长判断�
 
 同样的规则也适用于“定义加例子”的卡、“公式加例外”的卡，以及任何一种答案开始膨胀成小提纲的卡。
 
-如果你想看这类思路更偏写卡方法论的版本，可以读 [2026 年如何制作更好的抽认卡](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)，那里会讲得更深入。
+如果你想看这类思路更偏写卡方法论的版本，可以读 [2026 年如何制作更好的抽认卡](https://nibomo.com/blog/how-to-make-better-flashcards/)，那里会讲得更深入。
 
 ## 重写正面，让未来那个很累的你能一眼看懂
 
@@ -148,7 +148,7 @@ NotebookLM、ChatGPT 和其他学习工具，常常会产出一种比原始来�
 
 再多的内容，通常都更适合拆成另一张卡。
 
-如果你之后还在乎复习速度，这一点就更重要了。[2026 年如何更快复习抽认卡](https://flashcards-open-source-app.com/blog/how-to-review-flashcards-faster/) 基本上就是这类编辑决定在下游带来的结果。
+如果你之后还在乎复习速度，这一点就更重要了。[2026 年如何更快复习抽认卡](https://nibomo.com/blog/how-to-review-flashcards-faster/) 基本上就是这类编辑决定在下游带来的结果。
 
 ## 把 AI 用在第二轮编辑，不要让它当最终裁判
 
@@ -184,8 +184,8 @@ NotebookLM、ChatGPT 和其他学习工具，常常会产出一种比原始来�
 
 如果你的工作流开始得比“清理”更早，那更适合读这些配套文章：
 
-- [2026 年如何用 ChatGPT 制作抽认卡](https://flashcards-open-source-app.com/blog/how-to-use-chatgpt-to-make-flashcards/)
-- [2026 年如何把 ChatGPT Study Mode 变成抽认卡](https://flashcards-open-source-app.com/blog/how-to-turn-chatgpt-study-mode-into-flashcards/)
+- [2026 年如何用 ChatGPT 制作抽认卡](https://nibomo.com/blog/how-to-use-chatgpt-to-make-flashcards/)
+- [2026 年如何把 ChatGPT Study Mode 变成抽认卡](https://nibomo.com/blog/how-to-turn-chatgpt-study-mode-into-flashcards/)
 
 这篇文章是从后一步开始的：卡已经有了，现在要把它们修到适合复习。
 
@@ -210,7 +210,7 @@ NotebookLM 通常从真实来源材料开始，所以它的失败模式会稍微
 
 如果答案是否定的，就重写，或者删掉。
 
-如果你想更直接看“从来源到间隔重复”的那座桥，可以读 [2026 年如何把 NotebookLM Flashcards 变成真正的间隔重复](https://flashcards-open-source-app.com/blog/notebooklm-flashcards-to-spaced-repetition/)。而这篇文章讲的是那座桥开始之后，更严格的清理步骤。
+如果你想更直接看“从来源到间隔重复”的那座桥，可以读 [2026 年如何把 NotebookLM Flashcards 变成真正的间隔重复](https://nibomo.com/blog/notebooklm-flashcards-to-spaced-repetition/)。而这篇文章讲的是那座桥开始之后，更严格的清理步骤。
 
 ## 一套真的能用得住的简单清理流程
 
@@ -241,11 +241,11 @@ FSRS 真正擅长的，是在卡片已经清楚到足以信任之后，去处理
 - 更难的卡会得到更可信的间隔
 - 复习队列会随着时间推移变得更平稳
 
-如果你想看排程器本身的比较，[2026 年 FSRS vs SM-2](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/) 会专门讲这一部分。
+如果你想看排程器本身的比较，[2026 年 FSRS vs SM-2](https://nibomo.com/blog/fsrs-vs-sm-2/) 会专门讲这一部分。
 
 ## Flashcards 在这套工作流里的位置
 
-[Nibomo](https://flashcards-open-source-app.com/) 很适合 **如何修正 AI flashcards** 这类工作流，因为这个产品正好覆盖了大多数生成器留下来的那段尴尬中间地带：
+[Nibomo](https://nibomo.com/) 很适合 **如何修正 AI flashcards** 这类工作流，因为这个产品正好覆盖了大多数生成器留下来的那段尴尬中间地带：
 
 - 在托管 Web 应用里创建正反面卡片
 - 使用带工作区数据和文件附件的 AI 对话，包括纯文本上传

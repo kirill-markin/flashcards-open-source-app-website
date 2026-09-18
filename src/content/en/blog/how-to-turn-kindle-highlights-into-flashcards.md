@@ -152,7 +152,7 @@ That is much closer to a usable **kindle to anki** workflow than just dumping qu
 
 If you want the broader card-writing rules, start here:
 
-- [How to Make Better Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [How to Make Better Flashcards in 2026](https://nibomo.com/blog/how-to-make-better-flashcards/)
 
 ## Nonfiction, textbooks, and language books should not use the same card style
 
@@ -188,7 +188,7 @@ That is why **remember what you read** is not one workflow. The source material 
 
 If your goal is language practice rather than general reading, this companion piece is the closer fit:
 
-- [How to Use Flashcards for Language Learning in 2026](https://flashcards-open-source-app.com/blog/how-to-use-flashcards-for-language-learning/)
+- [How to Use Flashcards for Language Learning in 2026](https://nibomo.com/blog/how-to-use-flashcards-for-language-learning/)
 
 ## Kindle highlights are especially dangerous because they feel more organized than they are
 
@@ -225,11 +225,11 @@ FSRS handles that reality better than fixed review rules.
 
 If you want the scheduling part in more detail, this article goes deeper:
 
-- [FSRS vs SM-2 in 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [FSRS vs SM-2 in 2026](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
 ## Where Nibomo fits
 
-[Nibomo](https://flashcards-open-source-app.com/) is a strong fit for **kindle highlights to flashcards** because the product already covers the practical parts of the workflow:
+[Nibomo](https://nibomo.com/) is a strong fit for **kindle highlights to flashcards** because the product already covers the practical parts of the workflow:
 
 - paste or upload text from exported highlights
 - clean the material up in AI chat before creating cards
@@ -241,7 +241,7 @@ That combination matters because the hard part is not getting text out of Kindle
 
 If your source is broader notes rather than ebook highlights, this is the better companion piece:
 
-- [How to Turn Notes Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
+- [How to Turn Notes Into Flashcards in 2026](https://nibomo.com/blog/turn-notes-into-flashcards/)
 
 ## The useful rule
 
@@ -261,7 +261,7 @@ Then let spaced repetition do the quiet part afterward.
 
 If that is what you want, start here:
 
-- [Open Nibomo](https://flashcards-open-source-app.com/)
-- [Read the getting started guide](https://flashcards-open-source-app.com/docs/getting-started/)
-- [Read the API docs](https://flashcards-open-source-app.com/docs/api/)
+- [Open Nibomo](https://nibomo.com/)
+- [Read the getting started guide](https://nibomo.com/docs/getting-started/)
+- [Read the API docs](https://nibomo.com/docs/api/)
 - [View the source on GitHub](https://github.com/kirill-markin/flashcards-open-source-app)

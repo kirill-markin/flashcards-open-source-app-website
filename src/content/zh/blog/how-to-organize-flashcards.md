@@ -262,7 +262,7 @@ Anki 当前的文档依然提醒：如果一个人已经积压严重，却还不
 
 ## Flashcards 为什么适合这个工作流
 
-[Nibomo](https://flashcards-open-source-app.com/) 很适合解决 **如何整理抽认卡** 这个问题，因为产品本身已经具备这套工作流需要的关键部分：
+[Nibomo](https://nibomo.com/) 很适合解决 **如何整理抽认卡** 这个问题，因为产品本身已经具备这套工作流需要的关键部分：
 
 - 用于长期结构的牌组和标签
 - 基于标签和卡片费力程度的筛选牌组
@@ -278,15 +278,15 @@ Anki 当前的文档依然提醒：如果一个人已经积压严重，却还不
 
 如果你接下来的问题不是组织，而是卡片质量，下一篇可以看这个：
 
-- [2026 年如何做出更好的 Flashcards](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [2026 年如何做出更好的 Flashcards](https://nibomo.com/blog/how-to-make-better-flashcards/)
 
 如果你真正的问题是复习负担，这篇也很合适：
 
-- [2026 年每天该加多少张新 Flashcards？](https://flashcards-open-source-app.com/blog/how-many-new-flashcards-per-day/)
+- [2026 年每天该加多少张新 Flashcards？](https://nibomo.com/blog/how-many-new-flashcards-per-day/)
 
 如果你正在把错题变成临时考试队列，就从这里开始：
 
-- [2026 年如何把练习题变成 Flashcards](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/)
+- [2026 年如何把练习题变成 Flashcards](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/)
 
 ## 这条规则最实用
 
@@ -304,7 +304,7 @@ Anki 当前的文档依然提醒：如果一个人已经积压严重，却还不
 
 如果你想要的是这个，就从这里开始：
 
-- [打开 Flashcards](https://flashcards-open-source-app.com/)
+- [打开 Flashcards](https://nibomo.com/)
 - [打开应用](https://app.flashcards-open-source-app.com/)
-- [阅读入门指南](https://flashcards-open-source-app.com/docs/getting-started/)
+- [阅读入门指南](https://nibomo.com/docs/getting-started/)
 - [在 GitHub 查看源码](https://github.com/kirill-markin/flashcards-open-source-app)

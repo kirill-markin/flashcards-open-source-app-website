@@ -171,8 +171,8 @@ AI は事務的な作業を減らすのがとても得意です。
 
 AI を前段で使うなら、こちらもよく合います。
 
-- [2026年にChatGPTでフラッシュカードを作る方法: プロンプトを整え、カードを磨き、FSRSで復習を回す](https://flashcards-open-source-app.com/blog/how-to-use-chatgpt-to-make-flashcards/)
-- [2026年版 ノートをフラッシュカードに変える方法: 手作業のコピペではなく、AIの下書きとFSRSを使う](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
+- [2026年にChatGPTでフラッシュカードを作る方法: プロンプトを整え、カードを磨き、FSRSで復習を回す](https://nibomo.com/blog/how-to-use-chatgpt-to-make-flashcards/)
+- [2026年版 ノートをフラッシュカードに変える方法: 手作業のコピペではなく、AIの下書きとFSRSを使う](https://nibomo.com/blog/turn-notes-into-flashcards/)
 
 ## カードは見覚えではなく、記憶を試すべき
 
@@ -213,8 +213,8 @@ AI を前段で使うなら、こちらもよく合います。
 
 スケジューリング側を詳しく見たいなら、こちらから始めてください。
 
-- [2026年のFSRSとSM-2を比較: より覚えやすい間隔反復アルゴリズムはどちらか](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
-- [2026年、1日に何枚の新しいフラッシュカードを追加すべきか: 無理なく終えられるFSRSの復習量を作る](https://flashcards-open-source-app.com/blog/how-many-new-flashcards-per-day/)
+- [2026年のFSRSとSM-2を比較: より覚えやすい間隔反復アルゴリズムはどちらか](https://nibomo.com/blog/fsrs-vs-sm-2/)
+- [2026年、1日に何枚の新しいフラッシュカードを追加すべきか: 無理なく終えられるFSRSの復習量を作る](https://nibomo.com/blog/how-many-new-flashcards-per-day/)
 
 ## いちばん速い編集は、削除すること
 
@@ -238,7 +238,7 @@ AI を前段で使うなら、こちらもよく合います。
 
 ## Flashcards がこの流れに合う理由
 
-[Nibomo](https://flashcards-open-source-app.com/) は、**効果的なフラッシュカードを作る流れ** と相性が良いです。下書きのあと本当に大事になる部分を中心に作られているからです。
+[Nibomo](https://nibomo.com/) は、**効果的なフラッシュカードを作る流れ** と相性が良いです。下書きのあと本当に大事になる部分を中心に作られているからです。
 
 - 本物の表裏カード
 - デッキとタグ

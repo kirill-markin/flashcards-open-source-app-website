@@ -82,7 +82,7 @@ keywords:
 
 元の素材が自分の振り返りではなく授業の録音なら、先にこちらを読んだほうが合っています。
 
-- [2026年版 講義録音をフラッシュカードに変える方法: 全部を聞き直さず、文字起こしから FSRS カードを作る](https://flashcards-open-source-app.com/blog/how-to-turn-lecture-recordings-into-flashcards/)
+- [2026年版 講義録音をフラッシュカードに変える方法: 全部を聞き直さず、文字起こしから FSRS カードを作る](https://nibomo.com/blog/how-to-turn-lecture-recordings-into-flashcards/)
 
 ## 私が信頼しているのは、短く録って、文字起こしして、容赦なく削る流れ
 
@@ -198,7 +198,7 @@ keywords:
 
 元の素材が音声ではなく手書きノートなら、こちらの記事のほうが合います。
 
-- [2026年版 手書きノートをフラッシュカードに変える方法: 全部を書き直さず、写真・OCR・AI 下書きを使う](https://flashcards-open-source-app.com/blog/how-to-turn-handwritten-notes-into-flashcards/)
+- [2026年版 手書きノートをフラッシュカードに変える方法: 全部を書き直さず、写真・OCR・AI 下書きを使う](https://nibomo.com/blog/how-to-turn-handwritten-notes-into-flashcards/)
 
 ## 失敗する音声からフラッシュカード化の流れは、だいたい同じ3パターン
 
@@ -255,11 +255,11 @@ keywords:
 
 スケジューラ側をもう少し詳しく見たいなら、こちらです。
 
-- [2026年の FSRS vs SM-2: どの間隔反復アルゴリズムがより多く覚えられるか](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [2026年の FSRS vs SM-2: どの間隔反復アルゴリズムがより多く覚えられるか](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
 ## Flashcards がこの流れに合う理由
 
-[Nibomo](https://flashcards-open-source-app.com/) は、**音声からフラッシュカードを作る流れ** と相性が良いです。このワークフローに必要な部品が、すでに1か所にそろっているからです。
+[Nibomo](https://nibomo.com/) は、**音声からフラッシュカードを作る流れ** と相性が良いです。このワークフローに必要な部品が、すでに1か所にそろっているからです。
 
 - AI チャット
 - ファイル添付

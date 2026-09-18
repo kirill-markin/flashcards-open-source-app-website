@@ -173,11 +173,11 @@ keywords:
 
 إذا كانت المادة في معظمها نصية وكثيفة، فقد يكون هذا المقال أنسب:
 
-- [كيف تحوّل ملف PDF إلى بطاقات تعليمية في 2026](https://flashcards-open-source-app.com/blog/how-to-turn-a-pdf-into-flashcards/)
+- [كيف تحوّل ملف PDF إلى بطاقات تعليمية في 2026](https://nibomo.com/blog/how-to-turn-a-pdf-into-flashcards/)
 
 وإذا كانت أقرب إلى جلسة تعليم موجهة أو مراجعة اختبار بمساعدة الذكاء الاصطناعي، فقد يناسبك هذا أكثر:
 
-- [كيف تحوّل ChatGPT Study Mode إلى بطاقات تعليمية في 2026](https://flashcards-open-source-app.com/blog/how-to-turn-chatgpt-study-mode-into-flashcards/)
+- [كيف تحوّل ChatGPT Study Mode إلى بطاقات تعليمية في 2026](https://nibomo.com/blog/how-to-turn-chatgpt-study-mode-into-flashcards/)
 
 ## احتفِظ بسبب الخطأ، لكن لا تضعه كله في الوجه الأمامي
 
@@ -221,7 +221,7 @@ keywords:
 
 ## لماذا يناسب Flashcards هذا النوع من العمل
 
-[Nibomo](https://flashcards-open-source-app.com/) مناسب جدًا لسير عمل **تحويل أسئلة التدريب إلى بطاقات تعليمية** لأن المنتج يجمع المكوّنات التي تحتاجها هذه العملية في مكان واحد:
+[Nibomo](https://nibomo.com/) مناسب جدًا لسير عمل **تحويل أسئلة التدريب إلى بطاقات تعليمية** لأن المنتج يجمع المكوّنات التي تحتاجها هذه العملية في مكان واحد:
 
 - دردشة ذكاء اصطناعي
 - إرفاق ملفات وصور
@@ -239,11 +239,11 @@ keywords:
 
 إذا أردت التوسع أكثر في جانب الجدولة، فاقرأ هذا بعده:
 
-- [كيف تذاكر لاختبار باستخدام FSRS في 2026](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/)
+- [كيف تذاكر لاختبار باستخدام FSRS في 2026](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)
 
 وإذا كانت المشكلة الأكبر عندك هي جودة البطاقة لا مصدرها، فهذه المقالة مناسبة أيضًا:
 
-- [كيف تنشئ بطاقات تعليمية أفضل في 2026](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [كيف تنشئ بطاقات تعليمية أفضل في 2026](https://nibomo.com/blog/how-to-make-better-flashcards/)
 
 ## القاعدة الأهم
 
@@ -260,7 +260,7 @@ keywords:
 
 إذا كان هذا هو الأسلوب الذي تريده، فابدأ من هنا:
 
-- [افتح Flashcards](https://flashcards-open-source-app.com/)
+- [افتح Flashcards](https://nibomo.com/)
 - [افتح التطبيق](https://app.flashcards-open-source-app.com/)
-- [اقرأ دليل البدء](https://flashcards-open-source-app.com/docs/getting-started/)
+- [اقرأ دليل البدء](https://nibomo.com/docs/getting-started/)
 - [اعرض المصدر على GitHub](https://github.com/kirill-markin/flashcards-open-source-app)

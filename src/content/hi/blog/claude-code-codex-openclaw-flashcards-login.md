@@ -17,7 +17,7 @@ keywords:
 
 असल में यही वह काम है जो कोई टूल आपके लिए संभालना चाहिए।
 
-[Nibomo](https://flashcards-open-source-app.com/) में अब हम एजेंटों के लिए एक खुला लॉग-इन तरीका उपलब्ध कराते हैं, जो इस एक शुरुआती URL से शुरू होता है:
+[Nibomo](https://nibomo.com/) में अब हम एजेंटों के लिए एक खुला लॉग-इन तरीका उपलब्ध कराते हैं, जो इस एक शुरुआती URL से शुरू होता है:
 
 `https://api.flashcards-open-source-app.com/v1/`
 
@@ -132,7 +132,7 @@ curl https://api.flashcards-open-source-app.com/v1/
   "instructions": "Start with POST https://auth.flashcards-open-source-app.com/api/agent/send-code using the user's email, then POST https://auth.flashcards-open-source-app.com/api/agent/verify-code to obtain an API key. After login, call GET https://api.flashcards-open-source-app.com/v1/agent/me, then GET https://api.flashcards-open-source-app.com/v1/agent/workspaces?limit=100. If no workspace is selected for this API key, call POST https://api.flashcards-open-source-app.com/v1/agent/workspaces/{workspaceId}/select or create one with POST https://api.flashcards-open-source-app.com/v1/agent/workspaces using {\"name\":\"Personal\"}. After workspace bootstrap, use POST https://api.flashcards-open-source-app.com/v1/agent/sql/query for all shared card and deck reads (SHOW TABLES, DESCRIBE, SHOW COLUMNS, SELECT) and POST https://api.flashcards-open-source-app.com/v1/agent/sql/execute for card and deck authoring writes (INSERT, UPDATE, DELETE). Use docs.discoveryUrl for runtime discovery and docs.source.agentRoutesUrl for implementation details. The SQL surface is intentionally limited and is not full PostgreSQL.",
   "docs": {
     "discoveryUrl": "https://api.flashcards-open-source-app.com/v1/",
-    "docsUrl": "https://flashcards-open-source-app.com/docs/",
+    "docsUrl": "https://nibomo.com/docs/",
     "source": {
       "agentRoutesUrl": "https://github.com/kirill-markin/flashcards-open-source-app/tree/main/apps/backend/src/routes"
     }
@@ -309,9 +309,9 @@ Flashcards खुला स्रोत है, इसलिए आप पूर
 
 काम के लिंक:
 
-- [Nibomo website](https://flashcards-open-source-app.com/)
+- [Nibomo website](https://nibomo.com/)
 - [Hosted app](https://app.flashcards-open-source-app.com/)
-- [Getting started](https://flashcards-open-source-app.com/docs/getting-started/)
+- [Getting started](https://nibomo.com/docs/getting-started/)
 - [GitHub repository](https://github.com/kirill-markin/flashcards-open-source-app)
 
 अगर उत्पाद खुला स्रोत हो और प्रमाणीकरण का तरीका इतना सीमित और साफ़ हो, तो "एजेंट को संभालने दो" सचमुच काम करना चाहिए। यही इस पूरी प्रक्रिया का उद्देश्य है।

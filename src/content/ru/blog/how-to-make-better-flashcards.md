@@ -169,8 +169,8 @@ keywords:
 
 Если вы используете ИИ на этапе подготовки, вот еще две статьи по теме:
 
-- [Как использовать ChatGPT для создания карточек в 2026 году](https://flashcards-open-source-app.com/blog/how-to-use-chatgpt-to-make-flashcards/)
-- [Как превращать заметки в карточки в 2026 году](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
+- [Как использовать ChatGPT для создания карточек в 2026 году](https://nibomo.com/blog/how-to-use-chatgpt-to-make-flashcards/)
+- [Как превращать заметки в карточки в 2026 году](https://nibomo.com/blog/turn-notes-into-flashcards/)
 
 ## Карточка должна проверять память, а не создавать театр узнавания
 
@@ -211,8 +211,8 @@ keywords:
 
 Если хотите подробнее разобраться именно в планировщике, начните здесь:
 
-- [FSRS против SM-2 в 2026 году](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
-- [Сколько новых карточек в день в 2026 году](https://flashcards-open-source-app.com/blog/how-many-new-flashcards-per-day/)
+- [FSRS против SM-2 в 2026 году](https://nibomo.com/blog/fsrs-vs-sm-2/)
+- [Сколько новых карточек в день в 2026 году](https://nibomo.com/blog/how-many-new-flashcards-per-day/)
 
 ## Самая быстрая правка - удалить карточку
 
@@ -236,7 +236,7 @@ keywords:
 
 ## Почему Flashcards хорошо подходит для такого процесса
 
-[Nibomo](https://flashcards-open-source-app.com/) хорошо подходит тем, кто ищет, **как делать эффективные карточки**, потому что продукт построен вокруг вещей, которые важны уже после черновика:
+[Nibomo](https://nibomo.com/) хорошо подходит тем, кто ищет, **как делать эффективные карточки**, потому что продукт построен вокруг вещей, которые важны уже после черновика:
 
 - настоящие двусторонние карточки
 - колоды и теги
@@ -261,9 +261,9 @@ keywords:
 
 Если вам нужна практичная система **лицевой и обратной стороны карточки**, которая продолжит работать и после того, как эффект новизны от ИИ пройдет, начните здесь:
 
-- [Открыть сайт Flashcards](https://flashcards-open-source-app.com/)
+- [Открыть сайт Flashcards](https://nibomo.com/)
 - [Открыть приложение](https://app.flashcards-open-source-app.com/)
-- [Прочитать руководство по самостоятельному размещению](https://flashcards-open-source-app.com/docs/self-hosting/)
+- [Прочитать руководство по самостоятельному размещению](https://nibomo.com/docs/self-hosting/)
 - [Посмотреть исходный код на GitHub](https://github.com/kirill-markin/flashcards-open-source-app)
 
 Делать карточки теперь легко.

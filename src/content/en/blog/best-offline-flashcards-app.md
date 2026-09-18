@@ -18,7 +18,7 @@ Which study app works offline? **All five apps in this comparison can keep at le
 
 The browser versions are different products for this decision. A downloaded mobile set, a cached image, and a tab that happens to survive a connection loss are not the same as an installed app that can cold-open its local collection.
 
-> **Disclosure:** I am Kirill Markin, and I build [Nibomo](https://flashcards-open-source-app.com/), one of the products compared here. I do not treat it as the automatic winner. It is younger than Anki, its first login and workspace hydration need internet, and remote media is available offline only after the device has cached it.
+> **Disclosure:** I am Kirill Markin, and I build [Nibomo](https://nibomo.com/), one of the products compared here. I do not treat it as the automatic winner. It is younger than Anki, its first login and workspace hydration need internet, and remote media is available offline only after the device has cached it.
 
 **Facts checked:** August 22, 2026.
 

@@ -62,7 +62,7 @@ GMAT 复习很容易制造一种很常见的假自信。你看完解析，觉得
 
 这些更像笔记，不是高质量的提取提示。
 
-如果你更大的问题是卡片质量本身，那在继续做更多卡之前，先看这篇配套文章会更合适：[2026 年如何做出更好的 Flashcards](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)。
+如果你更大的问题是卡片质量本身，那在继续做更多卡之前，先看这篇配套文章会更合适：[2026 年如何做出更好的 Flashcards](https://nibomo.com/blog/how-to-make-better-flashcards/)。
 
 ## GMAT quant flashcards 要把数学知识和过程错误分开
 
@@ -235,7 +235,7 @@ Data Sufficiency 很能说明，为什么当前 GMAT 需要一套更现代的抽
 - 一条解读规则
 - 一个草稿错误
 
-如果你的工作流本来就是从解析和错题开始，这篇文章会把那一步讲得更细：[2026 年如何把练习题做成 Flashcards](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/)。
+如果你的工作流本来就是从解析和错题开始，这篇文章会把那一步讲得更细：[2026 年如何把练习题做成 Flashcards](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/)。
 
 ## 用合法的个人笔记和总结，不要复制受保护的专有题目
 
@@ -259,7 +259,7 @@ Nibomo 与 GMAT 或 GMAC 没有任何官方集成，也没有任何官方合作�
 6. 含糊的卡尽快删掉。
 7. 每天复习到期卡，而不是周末再堆一场英雄式补作业。
 
-如果你的资料库已经开始变乱，下一步更适合看的是这篇，而不是继续加卡：[2026 年如何整理 Flashcards](https://flashcards-open-source-app.com/blog/how-to-organize-flashcards/)。
+如果你的资料库已经开始变乱，下一步更适合看的是这篇，而不是继续加卡：[2026 年如何整理 Flashcards](https://nibomo.com/blog/how-to-organize-flashcards/)。
 
 ## FSRS 适合在卡组变小、变准之后上场
 
@@ -275,11 +275,11 @@ FSRS 很适合 GMAT 备考，因为遗忘本来就不均匀，而且这种不均
 4. 让官方练习错题来塑造卡组
 5. 再用 FSRS 复习那些留下来的卡
 
-如果你想更具体看排程这一层，这篇文章会直接展开：[2026 年如何用 FSRS 备考](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/)。
+如果你想更具体看排程这一层，这篇文章会直接展开：[2026 年如何用 FSRS 备考](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)。
 
 ## Nibomo 适合放在哪一段
 
-[Nibomo](https://flashcards-open-source-app.com/) 很适合这种 GMAT 备考流程，因为它刚好覆盖了“我做错了这题”和“我明天该复习哪一个记忆目标”之间那段最麻烦的空档。
+[Nibomo](https://nibomo.com/) 很适合这种 GMAT 备考流程，因为它刚好覆盖了“我做错了这题”和“我明天该复习哪一个记忆目标”之间那段最麻烦的空档。
 
 这套流程里真正有用的部分包括：
 

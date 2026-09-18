@@ -89,7 +89,7 @@ keywords:
 
 这些卡更有效，因为它们训练的是你在考试压力下真正必须做出的判断。
 
-如果你更大的问题是卡片质量，而不是学科内容本身，那么这篇配套文章更适合接着看：[2026 年如何做出更好的抽认卡](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)。
+如果你更大的问题是卡片质量，而不是学科内容本身，那么这篇配套文章更适合接着看：[2026 年如何做出更好的抽认卡](https://nibomo.com/blog/how-to-make-better-flashcards/)。
 
 ## 生物过程应该拆成多个检查点，而不是塞进一张包打天下的大卡
 
@@ -146,7 +146,7 @@ AP Biology 这门课很容易出现这样一种情况：你明明懂了不少生
 - 什么才会让一个对照成为 **negative control**，而不是 **positive control**？
 - 什么时候一个 AP Biology 实验设置支持的是关于 **cause** 的论断，而不只是某种模式？
 
-如果你最好的卡片来源本来就是练习里做错的东西，那么这篇文章正好可以接着看：[2026 年如何把练习题转成抽认卡](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/)。
+如果你最好的卡片来源本来就是练习里做错的东西，那么这篇文章正好可以接着看：[2026 年如何把练习题转成抽认卡](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/)。
 
 ## 准备 FRQ 时，更适合把“推理动作”存进卡片里
 
@@ -214,7 +214,7 @@ AP Biology 这门课很容易出现这样一种情况：你明明懂了不少生
 4. 模糊的卡尽快删掉。
 5. 新卡数量尽量压低，尤其是考试临近之后。
 
-如果每天的新卡负担开始变得离谱，那么这篇文章更适合接着看：[2026 年每天该新增多少张抽认卡？](https://flashcards-open-source-app.com/blog/how-many-new-flashcards-per-day/)。
+如果每天的新卡负担开始变得离谱，那么这篇文章更适合接着看：[2026 年每天该新增多少张抽认卡？](https://nibomo.com/blog/how-many-new-flashcards-per-day/)。
 
 ## 当 AP Biology 卡片不再试图“一副牌全包”时，FSRS 才真正有用
 
@@ -233,11 +233,11 @@ FSRS 最适合处理的，正是这种情况。
 3. 尽早删掉弱卡
 4. 再让 FSRS 处理时间安排
 
-如果你想更具体看排程这一层，这篇文章就是最直接的配套阅读：[2026 年如何用 FSRS 备考](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/)。
+如果你想更具体看排程这一层，这篇文章就是最直接的配套阅读：[2026 年如何用 FSRS 备考](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)。
 
 ## Flashcards 在这套 AP Biology 工作流里适合放在哪一段
 
-如果你想把这套流程放进 [Nibomo](https://flashcards-open-source-app.com/) 里，真正有用的地方，并不是某种模糊的承诺，说 AI 会神奇地帮你把生物全学会。
+如果你想把这套流程放进 [Nibomo](https://nibomo.com/) 里，真正有用的地方，并不是某种模糊的承诺，说 AI 会神奇地帮你把生物全学会。
 
 真正有用的是，这个产品已经覆盖了这套工作流里最混乱、却也最关键的中段：
 

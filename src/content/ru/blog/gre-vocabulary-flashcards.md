@@ -61,7 +61,7 @@ GRE проверяет не только, видели ли вы когда-то
 
 Если реальная проблема в самом написании карточек, вот лучшая парная статья:
 
-- [Как делать карточки лучше в 2026 году](https://flashcards-open-source-app.com/ru/blog/how-to-make-better-flashcards/)
+- [Как делать карточки лучше в 2026 году](https://nibomo.com/ru/blog/how-to-make-better-flashcards/)
 
 ## Карточки для GRE Sentence Equivalence должны фокусироваться на контрасте синонимов
 
@@ -139,7 +139,7 @@ Text Completion наказывает изолированную лексику �
 
 Если вам важнее всего именно такой процесс, читайте дальше:
 
-- [Как превращать тренировочные вопросы в карточки в 2026 году](https://flashcards-open-source-app.com/ru/blog/how-to-turn-practice-questions-into-flashcards/)
+- [Как превращать тренировочные вопросы в карточки в 2026 году](https://nibomo.com/ru/blog/how-to-turn-practice-questions-into-flashcards/)
 
 ## Практичный сценарий работы с карточками для GRE vocabulary
 
@@ -158,7 +158,7 @@ Text Completion наказывает изолированную лексику �
 
 Если более крупная проблема именно в организации, сюда хорошо подходит вот эта статья:
 
-- [Как организовать карточки в 2026 году](https://flashcards-open-source-app.com/ru/blog/how-to-organize-flashcards/)
+- [Как организовать карточки в 2026 году](https://nibomo.com/ru/blog/how-to-organize-flashcards/)
 
 ## Сколько новых карточек GRE vocab в день вообще реально?
 
@@ -176,8 +176,8 @@ Text Completion наказывает изолированную лексику �
 
 Вот та же проблема в более общем виде:
 
-- [Сколько новых карточек в день в 2026 году?](https://flashcards-open-source-app.com/ru/blog/how-many-new-flashcards-per-day/)
-- [Как повторять карточки быстрее в 2026 году](https://flashcards-open-source-app.com/ru/blog/how-to-review-flashcards-faster/)
+- [Сколько новых карточек в день в 2026 году?](https://nibomo.com/ru/blog/how-many-new-flashcards-per-day/)
+- [Как повторять карточки быстрее в 2026 году](https://nibomo.com/ru/blog/how-to-review-flashcards-faster/)
 
 ## FSRS помогает с GRE vocabulary, потому что слова ведут себя в памяти по-разному
 
@@ -199,8 +199,8 @@ Text Completion наказывает изолированную лексику �
 
 Если вам нужна более подробная версия именно про расписание, лучше всего сюда подходят две статьи:
 
-- [Как готовиться к экзамену с FSRS в 2026 году](https://flashcards-open-source-app.com/ru/blog/how-to-study-for-an-exam-with-fsrs/)
-- [Настройки FSRS в 2026 году: что менять, а что оставить в покое](https://flashcards-open-source-app.com/ru/blog/fsrs-settings/)
+- [Как готовиться к экзамену с FSRS в 2026 году](https://nibomo.com/ru/blog/how-to-study-for-an-exam-with-fsrs/)
+- [Настройки FSRS в 2026 году: что менять, а что оставить в покое](https://nibomo.com/ru/blog/fsrs-settings/)
 
 ## Мобильные и офлайн-повторения для GRE важнее, чем кажется
 
@@ -219,7 +219,7 @@ Text Completion наказывает изолированную лексику �
 
 Если вы уже учите лексику через карточки с предложениями для другого языка, сценарий удивительно похож:
 
-- [Как использовать флешкарточки для изучения языков в 2026 году](https://flashcards-open-source-app.com/ru/blog/how-to-use-flashcards-for-language-learning/)
+- [Как использовать флешкарточки для изучения языков в 2026 году](https://nibomo.com/ru/blog/how-to-use-flashcards-for-language-learning/)
 
 ## ИИ может помочь с черновиками карточек для GRE, но обычно слишком много объясняет
 
@@ -243,12 +243,12 @@ Text Completion наказывает изолированную лексику �
 
 Если ваш исходный материал начинается с заметок, фрагментов статей или разбора вопросов, на более раннем этапе помогут такие сценарии:
 
-- [Как превращать заметки в карточки в 2026 году](https://flashcards-open-source-app.com/ru/blog/turn-notes-into-flashcards/)
-- [Как превращать статью в карточки в 2026 году](https://flashcards-open-source-app.com/ru/blog/how-to-turn-an-article-into-flashcards/)
+- [Как превращать заметки в карточки в 2026 году](https://nibomo.com/ru/blog/turn-notes-into-flashcards/)
+- [Как превращать статью в карточки в 2026 году](https://nibomo.com/ru/blog/how-to-turn-an-article-into-flashcards/)
 
 ## Как Flashcards вписывается в эту подготовку к GRE
 
-Если вы хотите вести этот сценарий внутри [Nibomo](https://flashcards-open-source-app.com/ru/), полезная часть здесь не в расплывчатом обещании, что "ИИ упрощает учебу". Полезно то, что текущий продукт уже поддерживает практическую середину этого процесса:
+Если вы хотите вести этот сценарий внутри [Nibomo](https://nibomo.com/ru/), полезная часть здесь не в расплывчатом обещании, что "ИИ упрощает учебу". Полезно то, что текущий продукт уже поддерживает практическую середину этого процесса:
 
 - создание и редактирование карточек с лицевой и обратной стороной
 - чат с ИИ для черновиков и доводки
@@ -274,9 +274,9 @@ Text Completion наказывает изолированную лексику �
 
 Если хотите попробовать этот сценарий в Flashcards:
 
-- [Начните с Flashcards](https://flashcards-open-source-app.com/ru/)
+- [Начните с Flashcards](https://nibomo.com/ru/)
 - [Откройте веб-приложение](https://app.flashcards-open-source-app.com/)
-- [Прочитайте руководство по началу работы](https://flashcards-open-source-app.com/ru/docs/getting-started/)
+- [Прочитайте руководство по началу работы](https://nibomo.com/ru/docs/getting-started/)
 - [Посмотрите исходный код на GitHub](https://github.com/kirill-markin/flashcards-open-source-app)
 
 Цель не в том, чтобы собирать все более и более сложные слова. Цель в том, чтобы нужный смысл всплывал быстрее, когда предложение резко меняет направление, варианты ответа становятся скользкими, а таймер уже идет.

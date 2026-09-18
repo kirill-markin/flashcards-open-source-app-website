@@ -40,7 +40,7 @@ Por eso unas **flashcards NCLEX NGN** no deberían parecer un montón de tarjeta
 
 ## Aquí es donde preparar el NCLEX empieza a separarse de la carrera de enfermería
 
-El artículo más amplio [Cómo usar flashcards para la carrera de enfermería en 2026](https://flashcards-open-source-app.com/blog/how-to-use-flashcards-for-nursing-school/) sigue siendo útil si estás compaginando contenido de clase, evaluaciones de habilidades y exámenes de la asignatura.
+El artículo más amplio [Cómo usar flashcards para la carrera de enfermería en 2026](https://nibomo.com/blog/how-to-use-flashcards-for-nursing-school/) sigue siendo útil si estás compaginando contenido de clase, evaluaciones de habilidades y exámenes de la asignatura.
 
 Este artículo es más específico.
 
@@ -107,7 +107,7 @@ Si el mismo patrón sigue apareciendo, entonces sí merece espacio en el mazo.
 
 Si el fallo fue sobre todo "leí demasiado rápido y me salté una palabra", eso es real, pero no es un problema de flashcards.
 
-Aquí es donde [Cómo convertir preguntas de práctica en flashcards en 2026](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/) se vuelve el mejor artículo complementario. La mayoría de las **flashcards NCLEX RN** más útiles salen de la estructura de tus fallos, no de copiar contenido de un libro de repaso.
+Aquí es donde [Cómo convertir preguntas de práctica en flashcards en 2026](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/) se vuelve el mejor artículo complementario. La mayoría de las **flashcards NCLEX RN** más útiles salen de la estructura de tus fallos, no de copiar contenido de un libro de repaso.
 
 ## El crédito parcial debería cambiar cómo guardas un fallo
 
@@ -225,7 +225,7 @@ Yo mantendría el orden así de simple:
 2. mantén el mazo controlado
 3. deja que FSRS se encargue del momento
 
-Si quieres más detalle sobre la parte de planificación, [Cómo estudiar para un examen con FSRS en 2026](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/) es el siguiente artículo directo.
+Si quieres más detalle sobre la parte de planificación, [Cómo estudiar para un examen con FSRS en 2026](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/) es el siguiente artículo directo.
 
 ## Tus últimos 7 a 10 días antes del NCLEX deberían sentirse más ajustados
 
@@ -247,7 +247,7 @@ Aquí también es donde se vuelve obvia la diferencia entre un mazo de la carrer
 
 ## Dónde encaja Flashcards
 
-[Nibomo](https://flashcards-open-source-app.com/) encaja bien en este flujo porque te da esas cosas aburridas que de verdad importan: tarjetas pequeñas de anverso y reverso, etiquetas, repaso filtrado y programación con FSRS cuando las tarjetas ya están lo bastante limpias como para confiar en ellas.
+[Nibomo](https://nibomo.com/) encaja bien en este flujo porque te da esas cosas aburridas que de verdad importan: tarjetas pequeñas de anverso y reverso, etiquetas, repaso filtrado y programación con FSRS cuando las tarjetas ya están lo bastante limpias como para confiar en ellas.
 
 Eso es útil para preparar el NCLEX porque tu material fuente se desordena muy rápido. Los racionales viven en una pestaña, las notas escritas a mano en otra, una hoja de valores de laboratorio por algún lado más y tus verdaderos puntos débiles suelen quedar desperdigados entre todo eso. La herramienta correcta es la que te deja convertirlo en tarjetas más pequeñas sin crear un segundo sistema de estudio a tiempo completo.
 

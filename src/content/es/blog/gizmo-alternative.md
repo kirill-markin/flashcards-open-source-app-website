@@ -18,7 +18,7 @@ Si quieres importar de una vez en Gizmo los apuntes de toda una semana sin pagar
 
 Este análisis de Gizmo Flashcards se basa en las páginas de ayuda oficiales actuales. No he probado Gizmo directamente, así que limitaré las afirmaciones sobre el producto a lo que Gizmo documenta y dejaré claros los puntos inciertos.
 
-> **Aviso de transparencia:** Soy Kirill Markin y desarrollo [Nibomo](https://flashcards-open-source-app.com/), la alternativa que comparo más abajo. Según su documentación, Gizmo ofrece un flujo de trabajo más amplio: más formatos de origen, cinco tipos de tarjetas, lecciones de AI Tutor, cuestionarios variados y una progresión similar a un juego. Flashcards tiene un enfoque deliberadamente más acotado.
+> **Aviso de transparencia:** Soy Kirill Markin y desarrollo [Nibomo](https://nibomo.com/), la alternativa que comparo más abajo. Según su documentación, Gizmo ofrece un flujo de trabajo más amplio: más formatos de origen, cinco tipos de tarjetas, lecciones de AI Tutor, cuestionarios variados y una progresión similar a un juego. Flashcards tiene un enfoque deliberadamente más acotado.
 
 **Datos verificados:** 1 de septiembre de 2026.
 

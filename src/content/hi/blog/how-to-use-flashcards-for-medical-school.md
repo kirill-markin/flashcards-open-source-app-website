@@ -72,7 +72,7 @@ Anatomy में लोग अक्सर एक बहुत बड़े str
 
 अगर आपकी anatomy की पढ़ाई diagrams पर बहुत depend करती है, तो workflow के शुरुआती हिस्से के लिए यह companion article ज़्यादा काम का है:
 
-- [2026 में आरेखों से फ्लैशकार्ड कैसे बनाएँ](https://flashcards-open-source-app.com/blog/how-to-turn-diagrams-into-flashcards/)
+- [2026 में आरेखों से फ्लैशकार्ड कैसे बनाएँ](https://nibomo.com/blog/how-to-turn-diagrams-into-flashcards/)
 
 ## Pharmacology cards का काम रटवाना नहीं, सही फ़र्क पकड़ने में मदद करना होना चाहिए
 
@@ -139,8 +139,8 @@ Pathology फिसलन भरी होती है, क्योंकि r
 
 अगर आपका source material ज़्यादातर notes या लंबे handouts हैं, तो workflow के शुरुआती हिस्से के लिए ये related articles ठीक बैठते हैं:
 
-- [2026 में नोट्स से फ्लैशकार्ड कैसे बनाएँ](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
-- [2026 में PDF से फ्लैशकार्ड कैसे बनाएँ](https://flashcards-open-source-app.com/blog/how-to-turn-a-pdf-into-flashcards/)
+- [2026 में नोट्स से फ्लैशकार्ड कैसे बनाएँ](https://nibomo.com/blog/turn-notes-into-flashcards/)
+- [2026 में PDF से फ्लैशकार्ड कैसे बनाएँ](https://nibomo.com/blog/how-to-turn-a-pdf-into-flashcards/)
 
 ## Question-bank misses को deck के दूसरे हिस्से को आकार देना चाहिए
 
@@ -161,7 +161,7 @@ Pathology फिसलन भरी होती है, क्योंकि r
 
 अगर आपको workflow का यही हिस्सा सबसे ज़्यादा मुश्किल लगता है, तो यह उसका direct companion article है:
 
-- [2026 में अभ्यास प्रश्नों से फ्लैशकार्ड कैसे बनाएँ](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/)
+- [2026 में अभ्यास प्रश्नों से फ्लैशकार्ड कैसे बनाएँ](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/)
 
 ## मेडिकल स्कूल फ्लैशकार्ड का साप्ताहिक workflow जानबूझकर थोड़ा उबाऊ होता है
 
@@ -201,7 +201,7 @@ Pathology फिसलन भरी होती है, क्योंकि r
 
 अगर organization वाले हिस्से को और detail में समझना है, तो इसे आगे पढ़ें:
 
-- [2026 में फ्लैशकार्ड कैसे व्यवस्थित करें](https://flashcards-open-source-app.com/blog/how-to-organize-flashcards/)
+- [2026 में फ्लैशकार्ड कैसे व्यवस्थित करें](https://nibomo.com/blog/how-to-organize-flashcards/)
 
 ## FSRS तब सबसे ज़्यादा मदद करता है जब आप उसमें chaos डालना बंद करते हैं
 
@@ -221,12 +221,12 @@ Scheduling का यही हिस्सा है जिस पर मुझ
 
 अगर आपकी queue पहले ही हाथ से निकल रही है, तो ये दो articles सीधे मेडिकल स्कूल workflow से जुड़ते हैं:
 
-- [2026 में रोज़ कितने नए फ्लैशकार्ड?](https://flashcards-open-source-app.com/blog/how-many-new-flashcards-per-day/)
-- [2026 में FSRS के साथ परीक्षा की तैयारी कैसे करें](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/)
+- [2026 में रोज़ कितने नए फ्लैशकार्ड?](https://nibomo.com/blog/how-many-new-flashcards-per-day/)
+- [2026 में FSRS के साथ परीक्षा की तैयारी कैसे करें](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)
 
 और अगर आप scheduling model खुद समझना चाहते हैं:
 
-- [2026 में FSRS बनाम SM-2](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [2026 में FSRS बनाम SM-2](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
 ## काम की मेडिकल स्कूल दिनचर्या आपकी ambition से आम तौर पर छोटी होती है
 
@@ -252,7 +252,7 @@ Scheduling का यही हिस्सा है जिस पर मुझ
 
 ## इस workflow में Flashcards कहाँ बेहतर fit बैठता है
 
-[Nibomo](https://flashcards-open-source-app.com/) **मेडिकल स्कूल फ्लैशकार्ड** के लिए अच्छा fit है, क्योंकि product पहले से उन हिस्सों को support करता है जिन पर यह workflow depend करता है:
+[Nibomo](https://nibomo.com/) **मेडिकल स्कूल फ्लैशकार्ड** के लिए अच्छा fit है, क्योंकि product पहले से उन हिस्सों को support करता है जिन पर यह workflow depend करता है:
 
 - साफ़ recall prompts के लिए front/back cards
 - lecture text, notes, या question-review material से candidate cards draft करने के लिए AI chat
@@ -268,10 +268,10 @@ Scheduling का यही हिस्सा है जिस पर मुझ
 
 अगर subject workflow नहीं, बल्कि card quality ही मुख्य समस्या है, तो यह article इसके साथ अच्छी तरह pair होता है:
 
-- [2026 में बेहतर फ्लैशकार्ड कैसे बनाएँ](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [2026 में बेहतर फ्लैशकार्ड कैसे बनाएँ](https://nibomo.com/blog/how-to-make-better-flashcards/)
 
 यही **मेडिकल स्कूल के लिए spaced repetition** का वह रूप है जिस पर मुझे भरोसा है।
 
 न कोई बहुत बड़ा archive, न folders सँभालने का कोई अलग शौक। ऐसा deck जो तब भी समझ में आए, जब block व्यस्त हो जाए और question stems और मुश्किल होने लगें।
 
-अगर आप ऐसे workflow के लिए बना हुआ tool चाहते हैं, तो [Nibomo](https://flashcards-open-source-app.com/) एक मज़बूत विकल्प है। यह front/back cards, AI-assisted drafting, tags, filtered review, और FSRS को एक ही open-source stack में देता है, जो anatomy lab से लेकर board-style prep तक उपयोगी रह सकता है।
+अगर आप ऐसे workflow के लिए बना हुआ tool चाहते हैं, तो [Nibomo](https://nibomo.com/) एक मज़बूत विकल्प है। यह front/back cards, AI-assisted drafting, tags, filtered review, और FSRS को एक ही open-source stack में देता है, जो anatomy lab से लेकर board-style prep तक उपयोगी रह सकता है।

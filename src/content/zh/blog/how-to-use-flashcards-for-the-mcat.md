@@ -173,8 +173,8 @@ MCAT 不只是考你有没有见过这个术语。它考的是：你能不能把
 
 如果你的原始材料主要是笔记、讲义，或者教材段落，下面两篇文章更适合接在这个前期整理阶段阅读：
 
-- [2026 年如何把笔记转成抽认卡](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
-- [2026 年如何把 PDF 转成抽认卡](https://flashcards-open-source-app.com/blog/how-to-turn-a-pdf-into-flashcards/)
+- [2026 年如何把笔记转成抽认卡](https://nibomo.com/blog/turn-notes-into-flashcards/)
+- [2026 年如何把 PDF 转成抽认卡](https://nibomo.com/blog/how-to-turn-a-pdf-into-flashcards/)
 
 ## 练习错题，应该塑造你牌组里最有价值的那一部分
 
@@ -205,7 +205,7 @@ MCAT 不只是考你有没有见过这个术语。它考的是：你能不能把
 
 这篇配套文章会更深入讲这个流程：
 
-- [2026 年如何把练习题转成抽认卡](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/)
+- [2026 年如何把练习题转成抽认卡](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/)
 
 ## 不要把每一道错题都做成卡
 
@@ -253,7 +253,7 @@ MCAT 本身在篇章练习、日程安排和整套模考复盘上已经够复杂
 
 如果更大的问题其实是整理结构，这篇文章和 MCAT 工作流衔接得很好：
 
-- [2026 年如何整理抽认卡](https://flashcards-open-source-app.com/blog/how-to-organize-flashcards/)
+- [2026 年如何整理抽认卡](https://nibomo.com/blog/how-to-organize-flashcards/)
 
 ## 当你的 MCAT 节奏忽快忽慢时，FSRS 很有帮助
 
@@ -280,12 +280,12 @@ FSRS 在这里有用，是因为有些知识点记得很快，有些却会反复
 
 如果你想更细地看考试排程这一层，下一篇适合接着读：
 
-- [2026 年如何用 FSRS 备考](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/)
-- [2026 年 FSRS vs SM-2](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [2026 年如何用 FSRS 备考](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)
+- [2026 年 FSRS vs SM-2](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
 ## Flashcards 在这套 MCAT 流程里适合做什么
 
-[Nibomo](https://flashcards-open-source-app.com/) 很适合这种 MCAT 流程，因为它覆盖了学生最常被迫拆散到多个工具里的那些环节。
+[Nibomo](https://nibomo.com/) 很适合这种 MCAT 流程，因为它覆盖了学生最常被迫拆散到多个工具里的那些环节。
 
 这个产品已经具备这套流程真正需要的组件：
 
@@ -322,4 +322,4 @@ FSRS 在这里有用，是因为有些知识点记得很快，有些却会反复
 
 这才是通常能在真实备考中撑得住的 **MCAT flashcards** 版本：它不是整场考试的万能答案，也绝对不能替代 CARS 的篇章训练；但对那些你不想在高压环境下重新现学的事实、区别和错误模式来说，它是一套足够耐用的系统。
 
-如果你想把整套流程放进一个开源栈里，[Nibomo](https://flashcards-open-source-app.com/) 提供了一条很实际的路径：从笔记或上传内容起草卡片，保留真正有价值的卡，再让 FSRS 处理复习节奏，而你把注意力留给真正的 MCAT 练习。
+如果你想把整套流程放进一个开源栈里，[Nibomo](https://nibomo.com/) 提供了一条很实际的路径：从笔记或上传内容起草卡片，保留真正有价值的卡，再让 FSRS 处理复习节奏，而你把注意力留给真正的 MCAT 练习。

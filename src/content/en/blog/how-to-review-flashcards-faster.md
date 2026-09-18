@@ -74,7 +74,7 @@ That is usually not a memory problem. It is a card design problem pretending to 
 
 If you want the deeper version of that, start here:
 
-- [How to Make Better Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [How to Make Better Flashcards in 2026](https://nibomo.com/blog/how-to-make-better-flashcards/)
 
 ## Decide faster, not harsher
 
@@ -165,11 +165,11 @@ If daily reviews already feel slow, do not wait for a four-digit queue before ad
 
 If you need a cleaner rule for intake, this companion article goes deeper:
 
-- [How Many New Flashcards Per Day in 2026?](https://flashcards-open-source-app.com/blog/how-many-new-flashcards-per-day/)
+- [How Many New Flashcards Per Day in 2026?](https://nibomo.com/blog/how-many-new-flashcards-per-day/)
 
 And if you are already past the "small correction" stage and staring at a real due pile, read this one next instead:
 
-- [How to Catch Up on Flashcards After Falling Behind in 2026](https://flashcards-open-source-app.com/blog/how-to-catch-up-on-flashcards-after-falling-behind/)
+- [How to Catch Up on Flashcards After Falling Behind in 2026](https://nibomo.com/blog/how-to-catch-up-on-flashcards-after-falling-behind/)
 
 ## Organization affects speed more than people expect
 
@@ -189,7 +189,7 @@ If the library structure is doing too much, simplify it. Keep stable deck bounda
 
 This piece covers that layer:
 
-- [How to Organize Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-organize-flashcards/)
+- [How to Organize Flashcards in 2026](https://nibomo.com/blog/how-to-organize-flashcards/)
 
 ## FSRS helps, but it cannot rescue a noisy deck
 
@@ -240,7 +240,7 @@ That solves more cases than most complicated optimization advice.
 
 ## Where Flashcards fits this workflow better
 
-[Nibomo](https://flashcards-open-source-app.com/) is a good fit for this specific problem because the product supports the whole "generate less junk, review the good stuff faster" workflow without pretending every step is the same thing.
+[Nibomo](https://nibomo.com/) is a good fit for this specific problem because the product supports the whole "generate less junk, review the good stuff faster" workflow without pretending every step is the same thing.
 
 The current product capabilities in this repo line up well with that:
 
@@ -283,7 +283,7 @@ And if you are studying with AI in 2026, that is the real skill now. Not generat
 
 If you want to try that workflow in one place:
 
-- [Open Nibomo](https://flashcards-open-source-app.com/)
+- [Open Nibomo](https://nibomo.com/)
 - [Open the app](https://app.flashcards-open-source-app.com/)
-- [Read the features page](https://flashcards-open-source-app.com/features/)
+- [Read the features page](https://nibomo.com/features/)
 - [View the source on GitHub](https://github.com/kirill-markin/flashcards-open-source-app)

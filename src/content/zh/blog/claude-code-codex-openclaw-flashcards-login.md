@@ -17,7 +17,7 @@ keywords:
 
 这类工作，本来就应该交给工具处理。
 
-在 [Nibomo](https://flashcards-open-source-app.com/) 里，我们现在提供了一套开源的代理登录流程，起点就是一个发现入口 URL：
+在 [Nibomo](https://nibomo.com/) 里，我们现在提供了一套开源的代理登录流程，起点就是一个发现入口 URL：
 
 `https://api.flashcards-open-source-app.com/v1/`
 
@@ -132,7 +132,7 @@ curl https://api.flashcards-open-source-app.com/v1/
   "instructions": "Start with POST https://auth.flashcards-open-source-app.com/api/agent/send-code using the user's email, then POST https://auth.flashcards-open-source-app.com/api/agent/verify-code to obtain an API key. After login, call GET https://api.flashcards-open-source-app.com/v1/agent/me, then GET https://api.flashcards-open-source-app.com/v1/agent/workspaces?limit=100. If no workspace is selected for this API key, call POST https://api.flashcards-open-source-app.com/v1/agent/workspaces/{workspaceId}/select or create one with POST https://api.flashcards-open-source-app.com/v1/agent/workspaces using {\"name\":\"Personal\"}. After workspace bootstrap, use POST https://api.flashcards-open-source-app.com/v1/agent/sql/query for all shared card and deck reads (SHOW TABLES, DESCRIBE, SHOW COLUMNS, SELECT) and POST https://api.flashcards-open-source-app.com/v1/agent/sql/execute for card and deck authoring writes (INSERT, UPDATE, DELETE). Use docs.discoveryUrl for runtime discovery and docs.source.agentRoutesUrl for implementation details. The SQL surface is intentionally limited and is not full PostgreSQL.",
   "docs": {
     "discoveryUrl": "https://api.flashcards-open-source-app.com/v1/",
-    "docsUrl": "https://flashcards-open-source-app.com/docs/",
+    "docsUrl": "https://nibomo.com/docs/",
     "source": {
       "agentRoutesUrl": "https://github.com/kirill-markin/flashcards-open-source-app/tree/main/apps/backend/src/routes"
     }
@@ -309,9 +309,9 @@ Flashcards 是开源项目，所以你可以直接检查整个流程，而不是
 
 有用的链接：
 
-- [Flashcards 官网](https://flashcards-open-source-app.com/)
+- [Flashcards 官网](https://nibomo.com/)
 - [托管应用](https://app.flashcards-open-source-app.com/)
-- [快速开始](https://flashcards-open-source-app.com/docs/getting-started/)
+- [快速开始](https://nibomo.com/docs/getting-started/)
 - [GitHub 仓库](https://github.com/kirill-markin/flashcards-open-source-app)
 
 如果产品本身是开源的，认证流程又足够简洁，那么“让代理自己处理”这件事就应该真正可行。这正是这套流程存在的意义。

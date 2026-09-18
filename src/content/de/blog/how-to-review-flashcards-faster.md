@@ -74,7 +74,7 @@ Das ist meistens kein Gedächtnisproblem. Es ist ein Kartenproblem, das sich als
 
 Wenn du die ausführlichere Version davon willst, fang hier an:
 
-- [Wie man 2026 bessere Flashcards erstellt](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [Wie man 2026 bessere Flashcards erstellt](https://nibomo.com/blog/how-to-make-better-flashcards/)
 
 ## Entscheide schneller, nicht härter
 
@@ -165,11 +165,11 @@ Wenn sich deine täglichen Reviews schon langsam anfühlen, warte nicht auf eine
 
 Wenn du eine klarere Regel für neue Karten brauchst, geht dieser Begleitartikel tiefer:
 
-- [Wie viele neue Flashcards pro Tag im Jahr 2026?](https://flashcards-open-source-app.com/blog/how-many-new-flashcards-per-day/)
+- [Wie viele neue Flashcards pro Tag im Jahr 2026?](https://nibomo.com/blog/how-many-new-flashcards-per-day/)
 
 Und wenn du schon über das Stadium der "kleinen Korrektur" hinaus bist und auf einen echten Fälligkeitsberg starrst, lies als Nächstes lieber das hier:
 
-- [Wie du 2026 bei Flashcards wieder aufholst, nachdem du zurückgefallen bist](https://flashcards-open-source-app.com/blog/how-to-catch-up-on-flashcards-after-falling-behind/)
+- [Wie du 2026 bei Flashcards wieder aufholst, nachdem du zurückgefallen bist](https://nibomo.com/blog/how-to-catch-up-on-flashcards-after-falling-behind/)
 
 ## Organisation beeinflusst die Geschwindigkeit stärker, als viele erwarten
 
@@ -189,7 +189,7 @@ Wenn die Struktur deiner Bibliothek zu viel will, vereinfache sie. Behalte stabi
 
 Diesen Teil behandelt der folgende Artikel:
 
-- [Wie du 2026 Flashcards organisierst: Decks, Tags, Themen statt eines chaotischen Haufens](https://flashcards-open-source-app.com/blog/how-to-organize-flashcards/)
+- [Wie du 2026 Flashcards organisierst: Decks, Tags, Themen statt eines chaotischen Haufens](https://nibomo.com/blog/how-to-organize-flashcards/)
 
 ## FSRS hilft, aber es kann ein verrauschtes Deck nicht retten
 
@@ -240,7 +240,7 @@ Damit löst du mehr Fälle als mit den meisten komplizierten Optimierungsratschl
 
 ## Wo Flashcards in diesen Ablauf gut passt
 
-[Nibomo](https://flashcards-open-source-app.com/) passt für dieses konkrete Problem gut, weil das Produkt den gesamten Ablauf "weniger Müll erzeugen, die guten Karten schneller wiederholen" unterstützt, ohne so zu tun, als wäre jeder Schritt dieselbe Aufgabe.
+[Nibomo](https://nibomo.com/) passt für dieses konkrete Problem gut, weil das Produkt den gesamten Ablauf "weniger Müll erzeugen, die guten Karten schneller wiederholen" unterstützt, ohne so zu tun, als wäre jeder Schritt dieselbe Aufgabe.
 
 Die aktuellen Produktfähigkeiten in diesem Repo passen gut dazu:
 
@@ -283,7 +283,7 @@ Und wenn du 2026 mit KI lernst, ist genau das die eigentliche Fähigkeit. Nicht 
 
 Wenn du diesen Workflow an einem Ort ausprobieren willst:
 
-- [Flashcards öffnen](https://flashcards-open-source-app.com/)
+- [Flashcards öffnen](https://nibomo.com/)
 - [Die App öffnen](https://app.flashcards-open-source-app.com/)
-- [Die Feature-Seite lesen](https://flashcards-open-source-app.com/features/)
+- [Die Feature-Seite lesen](https://nibomo.com/features/)
 - [Den Quellcode auf GitHub ansehen](https://github.com/kirill-markin/flashcards-open-source-app)

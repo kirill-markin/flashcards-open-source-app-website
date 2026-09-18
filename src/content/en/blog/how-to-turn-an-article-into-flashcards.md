@@ -199,8 +199,8 @@ The bottleneck is usually selection, not generation.
 
 If you want the broader AI drafting side, these related articles help:
 
-- [How to Use ChatGPT to Make Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-use-chatgpt-to-make-flashcards/)
-- [How to Turn ChatGPT Study Mode Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-turn-chatgpt-study-mode-into-flashcards/)
+- [How to Use ChatGPT to Make Flashcards in 2026](https://nibomo.com/blog/how-to-use-chatgpt-to-make-flashcards/)
+- [How to Turn ChatGPT Study Mode Into Flashcards in 2026](https://nibomo.com/blog/how-to-turn-chatgpt-study-mode-into-flashcards/)
 
 ## Technical articles deserve concrete answer formats
 
@@ -220,8 +220,8 @@ That keeps the recall target clean while still giving you context after you answ
 
 If the source is closer to a PDF chapter or lecture notes than a webpage, these companion posts fit too:
 
-- [How to Turn a PDF Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-turn-a-pdf-into-flashcards/)
-- [How to Turn Notes Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
+- [How to Turn a PDF Into Flashcards in 2026](https://nibomo.com/blog/how-to-turn-a-pdf-into-flashcards/)
+- [How to Turn Notes Into Flashcards in 2026](https://nibomo.com/blog/turn-notes-into-flashcards/)
 
 ## One good article can become five excellent cards
 
@@ -259,11 +259,11 @@ That is why **turn reading into flashcards** becomes much more practical once th
 
 If you want the scheduling side in more detail, go here:
 
-- [FSRS vs SM-2 in 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [FSRS vs SM-2 in 2026](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
 ## Where Nibomo fits
 
-[Nibomo](https://flashcards-open-source-app.com/) is a good fit for an **article to flashcards** workflow because the product already covers the parts that matter most:
+[Nibomo](https://nibomo.com/) is a good fit for an **article to flashcards** workflow because the product already covers the parts that matter most:
 
 - paste or upload plain text from an article, blog post, newsletter, or docs page
 - clean up the source inside AI chat before making cards
@@ -275,8 +275,8 @@ That combination matters because the useful part is not "AI generated cards from
 
 If your source is more conversational or audio-based than text-based, these sit nearby:
 
-- [How to Turn a Podcast Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-turn-a-podcast-into-flashcards/)
-- [How to Turn Lecture Recordings Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-turn-lecture-recordings-into-flashcards/)
+- [How to Turn a Podcast Into Flashcards in 2026](https://nibomo.com/blog/how-to-turn-a-podcast-into-flashcards/)
+- [How to Turn Lecture Recordings Into Flashcards in 2026](https://nibomo.com/blog/how-to-turn-lecture-recordings-into-flashcards/)
 
 ## The useful rule
 

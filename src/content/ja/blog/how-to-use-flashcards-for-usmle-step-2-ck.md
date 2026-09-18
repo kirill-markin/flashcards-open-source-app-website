@@ -51,7 +51,7 @@ Step 2 CK の公式試験仕様は、疾患の丸暗記よりも医師として�
 
 ここで初めて **Step 2 CK マネジメント フラッシュカード** が本当に意味を持ちます。第二の教科書をデッキに隠すのではなく、臨床判断を素早く引き出すためのドリルのように感じられるべきです。
 
-まだ学習初期で、このワークフローのより広い版が必要なら、[2026年版 医学生のためのフラッシュカード活用法](https://flashcards-open-source-app.com/blog/how-to-use-flashcards-for-medical-school/) のほうが土台になる記事として適しています。まだ機序、病理画像、統合システムといった Step 1 的な記憶世界にいるなら、[2026年版 USMLE Step 1向けフラッシュカード活用法](https://flashcards-open-source-app.com/blog/how-to-use-flashcards-for-usmle-step-1/) のほうが近いです。
+まだ学習初期で、このワークフローのより広い版が必要なら、[2026年版 医学生のためのフラッシュカード活用法](https://nibomo.com/blog/how-to-use-flashcards-for-medical-school/) のほうが土台になる記事として適しています。まだ機序、病理画像、統合システムといった Step 1 的な記憶世界にいるなら、[2026年版 USMLE Step 1向けフラッシュカード活用法](https://nibomo.com/blog/how-to-use-flashcards-for-usmle-step-1/) のほうが近いです。
 
 ## 読書よりも shelf での取りこぼしがデッキを動かすべき
 
@@ -84,7 +84,7 @@ Step 2 CK の公式試験仕様は、疾患の丸暗記よりも医師として�
 
 どれも本物の問題です。ただし、フラッシュカードの問題ではありません。
 
-素材の中心が誤答問題なら、[2026年版 演習問題をフラッシュカードに変える方法](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/) がそのまま対応するワークフローです。
+素材の中心が誤答問題なら、[2026年版 演習問題をフラッシュカードに変える方法](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/) がそのまま対応するワークフローです。
 
 ## 疾患名ではなく、判断が切り替わる分岐点を中心にカードを作る
 
@@ -229,7 +229,7 @@ USMLE は新しいインターフェースに更新されたナビゲーショ�
 
 これなら、1週間だけ回ったサービスごとに小さなトピック単位の恒久デッキをいくつも作るより、ずっとすっきり学習できます。
 
-もし整理そのものが趣味になりかけているなら、[2026年版 フラッシュカードの整理術](https://flashcards-open-source-app.com/blog/how-to-organize-flashcards/) がちょうどよい立て直し記事です。
+もし整理そのものが趣味になりかけているなら、[2026年版 フラッシュカードの整理術](https://nibomo.com/blog/how-to-organize-flashcards/) がちょうどよい立て直し記事です。
 
 ## 実用的な Step 2 CK ワークフローは、意図的につまらない
 
@@ -263,7 +263,7 @@ USMLE は新しいインターフェースに更新されたナビゲーショ�
 
 こうして初めて **Step 2 CK shelf 取りこぼし** と専念期の復習が、別々の学習システムではなく、同じ流れの中でつながります。
 
-スケジューリング側をもう少し詳しく見たいなら、[2026年版 FSRSで試験勉強する方法](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/) が直接の次の記事です。
+スケジューリング側をもう少し詳しく見たいなら、[2026年版 FSRSで試験勉強する方法](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/) が直接の次の記事です。
 
 ## FSRS が効き始めるのは、カードが同時に5つの仕事をしなくなってから
 
@@ -290,7 +290,7 @@ FSRS がうまく扱えるのは、まさにそういう記憶パターンです
 
 ## この Step 2 CK ワークフローに Flashcards が合う理由
 
-[Nibomo](https://flashcards-open-source-app.com/) でこの運用を実践したいなら、重要なのは臨床思考を代替してくれることではありません。散らかった Step 2 の材料から、もっと小さく、復習可能なカードへ素早く変える経路を用意してくれることです。
+[Nibomo](https://nibomo.com/) でこの運用を実践したいなら、重要なのは臨床思考を代替してくれることではありません。散らかった Step 2 の材料から、もっと小さく、復習可能なカードへ素早く変える経路を用意してくれることです。
 
 重要なのは、もっと単純です。
 
@@ -303,7 +303,7 @@ FSRS がうまく扱えるのは、まさにそういう記憶パターンです
 
 この組み合わせが重要なのは、Step 2 CK の材料が最初から散在しているからです。shelf 問題、病棟メモ、解説、復習資料は全部別の場所にあります。より良いシステムとは、デッキ管理そのものをもう1つのクラークシップにせず、それらをより狭いカードへ変えられるシステムです。
 
-医学的内容よりカードの質が問題なら、次に読むべきなのは [2026年版 より良いフラッシュカードの作り方](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/) です。
+医学的内容よりカードの質が問題なら、次に読むべきなのは [2026年版 より良いフラッシュカードの作り方](https://nibomo.com/blog/how-to-make-better-flashcards/) です。
 
 ## 役に立つルール
 

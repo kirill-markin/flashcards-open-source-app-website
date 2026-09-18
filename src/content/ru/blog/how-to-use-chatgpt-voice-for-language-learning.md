@@ -142,7 +142,7 @@ keywords:
 
 Если вам нужны более общие правила качества карточек, начните здесь:
 
-- ['Как сделать карточки лучше в 2026 году: прямые и обратные правила, которые действительно](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- ['Как сделать карточки лучше в 2026 году: прямые и обратные правила, которые действительно](https://nibomo.com/blog/how-to-make-better-flashcards/)
 
 ## ChatGPT Voice особенно хорош там, где проваливается активное воспроизведение
 
@@ -173,7 +173,7 @@ keywords:
 
 Если ваш источник - это не интерактивный разговор, а сырое аудио, которое вы записали себе сами, лучше подойдет эта статья:
 
-- ['Как превратить голосовые заметки в карточки в 2026 году: аудиодиктовка на карточки](https://flashcards-open-source-app.com/blog/how-to-turn-voice-notes-into-flashcards/)
+- ['Как превратить голосовые заметки в карточки в 2026 году: аудиодиктовка на карточки](https://nibomo.com/blog/how-to-turn-voice-notes-into-flashcards/)
 
 ## Карточки для языкового обучения должны оставаться близко к вашим реальным разговорам
 
@@ -224,8 +224,8 @@ keywords:
 
 Если проблема уже не в материале, а в нагрузке повторения, рядом хорошо работают эти статьи:
 
-- [Сколько новых карточек в день в 2026 году? Создайте нагрузку по проверке FSRS, которую](https://flashcards-open-source-app.com/blog/how-many-new-flashcards-per-day/)
-- ['Как наверстать упущенное в работе с карточками после отставания в 2026 году: исправьте](https://flashcards-open-source-app.com/blog/how-to-catch-up-on-flashcards-after-falling-behind/)
+- [Сколько новых карточек в день в 2026 году? Создайте нагрузку по проверке FSRS, которую](https://nibomo.com/blog/how-many-new-flashcards-per-day/)
+- ['Как наверстать упущенное в работе с карточками после отставания в 2026 году: исправьте](https://nibomo.com/blog/how-to-catch-up-on-flashcards-after-falling-behind/)
 
 ## FSRS важен, потому что разговорные фразы забываются странно
 
@@ -248,11 +248,11 @@ keywords:
 
 Если хотите глубже в сторону планировщика, эта статья идет дальше:
 
-- ['FSRS против SM-2 в 2026 году: какой алгоритм интервального повторения поможет вам](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- ['FSRS против SM-2 в 2026 году: какой алгоритм интервального повторения поможет вам](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
 ## Где здесь подходит Nibomo
 
-[Nibomo](https://flashcards-open-source-app.com/) хорошо вписывается в этот сценарий, потому что продукт уже совпадает с тем, что нужно голосовой языковой практике:
+[Nibomo](https://nibomo.com/) хорошо вписывается в этот сценарий, потому что продукт уже совпадает с тем, что нужно голосовой языковой практике:
 
 - чистое создание карточек front/back
 - планирование FSRS для долгосрочного повторения
@@ -284,7 +284,7 @@ keywords:
 
 Если вам нужен именно такой сценарий, начните здесь:
 
-- [Open Nibomo](https://flashcards-open-source-app.com/)
-- [Начало работы](https://flashcards-open-source-app.com/docs/getting-started/)
-- [API-справка](https://flashcards-open-source-app.com/docs/api/)
+- [Open Nibomo](https://nibomo.com/)
+- [Начало работы](https://nibomo.com/docs/getting-started/)
+- [API-справка](https://nibomo.com/docs/api/)
 - [View the source on GitHub](https://github.com/kirill-markin/flashcards-open-source-app)

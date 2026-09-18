@@ -244,7 +244,7 @@ PBQ miss होने के बाद मैं आम तौर पर आग�
 
 अगर missed questions आपका main source हैं, तो यह article उसका natural companion है:
 
-- [How to Turn Practice Questions Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/)
+- [How to Turn Practice Questions Into Flashcards in 2026](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/)
 
 ## एक shapeless Security+ deck मत बनाइए
 
@@ -279,7 +279,7 @@ PBQ miss होने के बाद मैं आम तौर पर आग�
 
 अगर organization, card writing से बड़ा problem है, तो यह अगला पढ़िए:
 
-- [How to Organize Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-organize-flashcards/)
+- [How to Organize Flashcards in 2026](https://nibomo.com/blog/how-to-organize-flashcards/)
 
 ## आपका weekly workflow जान-बूझकर simple रहना चाहिए
 
@@ -300,7 +300,7 @@ PBQ miss होने के बाद मैं आम तौर पर आग�
 
 अगर AI से sloppy card drafts आ रहे हैं, तो यह companion piece मदद करेगी:
 
-- [How to Make Better Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [How to Make Better Flashcards in 2026](https://nibomo.com/blog/how-to-make-better-flashcards/)
 
 ## FSRS, Security+ prep में तभी मदद करता है जब deck पहले narrow हो चुका हो
 
@@ -321,7 +321,7 @@ FSRS यहाँ तब अच्छा काम करता है जब ca
 
 अगर आपको उस workflow के exam-planning हिस्से पर और detail चाहिए, तो यह article और गहराई में जाता है:
 
-- [How to Study for an Exam With FSRS in 2026](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/)
+- [How to Study for an Exam With FSRS in 2026](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)
 
 ## Offline review certification prep में लोगों के मानने से ज़्यादा मायने रखता है
 
@@ -338,11 +338,11 @@ Certification prep अक्सर छोटे-छोटे time scraps मे�
 
 अगर यह आपकी study setup के लिए मायने रखता है, तो यह भी पढ़ने लायक है:
 
-- [Best Offline Flashcards App in 2026](https://flashcards-open-source-app.com/blog/best-offline-flashcards-app/)
+- [Best Offline Flashcards App in 2026](https://nibomo.com/blog/best-offline-flashcards-app/)
 
 ## इस workflow में Flashcards कहाँ अच्छी तरह fit बैठता है
 
-[Nibomo](https://flashcards-open-source-app.com/) **Security+ flashcards** के लिए अच्छा fit है, क्योंकि product पहले से workflow के साथ match करता है, आपको पाँच अलग tools में improvise करने पर मजबूर नहीं करता।
+[Nibomo](https://nibomo.com/) **Security+ flashcards** के लिए अच्छा fit है, क्योंकि product पहले से workflow के साथ match करता है, आपको पाँच अलग tools में improvise करने पर मजबूर नहीं करता।
 
 आप इस्तेमाल कर सकते हैं:
 

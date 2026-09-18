@@ -173,11 +173,11 @@ keywords:
 
 Если материал в основном текстовый, лучше может подойти сценарий, заточенный именно под PDF:
 
-- [Как превратить PDF в карточки в 2026 году](https://flashcards-open-source-app.com/blog/how-to-turn-a-pdf-into-flashcards/)
+- [Как превратить PDF в карточки в 2026 году](https://nibomo.com/blog/how-to-turn-a-pdf-into-flashcards/)
 
 Если материал больше похож на разбор с тьютором или на структурированный разбор квиза, ближе может оказаться вот этот текст:
 
-- [Как превратить ChatGPT Study Mode в карточки в 2026 году](https://flashcards-open-source-app.com/blog/how-to-turn-chatgpt-study-mode-into-flashcards/)
+- [Как превратить ChatGPT Study Mode в карточки в 2026 году](https://nibomo.com/blog/how-to-turn-chatgpt-study-mode-into-flashcards/)
 
 ## Сохраняйте причину ошибки, но не тащите ее на лицевую сторону
 
@@ -221,7 +221,7 @@ keywords:
 
 ## Где здесь подходит Flashcards
 
-[Nibomo](https://flashcards-open-source-app.com/) хорошо подходит для сценария **практические вопросы в карточки**, потому что в продукте уже есть все основные части этого сценария:
+[Nibomo](https://nibomo.com/) хорошо подходит для сценария **практические вопросы в карточки**, потому что в продукте уже есть все основные части этого сценария:
 
 - чат с ИИ
 - вложения файлов и изображений
@@ -239,11 +239,11 @@ keywords:
 
 Если вам хочется подробнее про саму сторону расписания, начните отсюда:
 
-- [Как готовиться к экзамену с FSRS в 2026 году](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/)
+- [Как готовиться к экзамену с FSRS в 2026 году](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)
 
 А если главная проблема скорее в качестве карточек, чем в самом источнике, пригодится и этот текст:
 
-- [Как делать карточки лучше в 2026 году](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [Как делать карточки лучше в 2026 году](https://nibomo.com/blog/how-to-make-better-flashcards/)
 
 ## Полезное правило
 
@@ -266,7 +266,7 @@ keywords:
 
 Если вам нужен именно такой сценарий, начните здесь:
 
-- [Открыть Flashcards](https://flashcards-open-source-app.com/)
+- [Открыть Flashcards](https://nibomo.com/)
 - [Открыть приложение](https://app.flashcards-open-source-app.com/)
-- [Прочитать гайд по началу работы](https://flashcards-open-source-app.com/docs/getting-started/)
+- [Прочитать гайд по началу работы](https://nibomo.com/docs/getting-started/)
 - [Посмотреть исходный код на GitHub](https://github.com/kirill-markin/flashcards-open-source-app)

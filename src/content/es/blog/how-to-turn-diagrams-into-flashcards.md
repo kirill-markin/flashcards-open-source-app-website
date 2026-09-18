@@ -228,11 +228,11 @@ Se aplica la misma regla: primero convierte la imagen en una descripción clara 
 
 Si la captura de pantalla tiene mucho texto, este artículo complementario puede encajar mejor:
 
-- [Cómo convertir un artículo en tarjetas didácticas en 2026](https://flashcards-open-source-app.com/blog/how-to-turn-an-article-into-flashcards/)
+- [Cómo convertir un artículo en tarjetas didácticas en 2026](https://nibomo.com/blog/how-to-turn-an-article-into-flashcards/)
 
 Si realmente se trata de una página de cuaderno en lugar de un diagrama estructurado, este se acerca más:
 
-- [Cómo convertir notas escritas a mano en tarjetas didácticas en 2026](https://flashcards-open-source-app.com/blog/how-to-turn-handwritten-notes-into-flashcards/)
+- [Cómo convertir notas escritas a mano en tarjetas didácticas en 2026](https://nibomo.com/blog/how-to-turn-handwritten-notes-into-flashcards/)
 
 ## La tarjeta debe probar una idea visual a la vez.
 
@@ -298,7 +298,7 @@ Si subes diez diagramas a la vez, el modelo empieza a mezclarlos y el mazo pierd
 
 ## Dónde encaja Flashcards
 
-[Nibomo](https://flashcards-open-source-app.com/) encaja bien en un flujo de trabajo para **convertir diagramas en tarjetas didácticas** porque el producto ya tiene las piezas que este proceso necesita:
+[Nibomo](https://nibomo.com/) encaja bien en un flujo de trabajo para **convertir diagramas en tarjetas didácticas** porque el producto ya tiene las piezas que este proceso necesita:
 
 - chat con IA
 - adjuntos de imágenes y archivos
@@ -318,11 +318,11 @@ Ahí es donde una aplicación de tarjetas didácticas de verdad supera a un conv
 
 Si quieres profundizar más en la parte de planificación del repaso, merece la pena leer este artículo complementario:
 
-- [FSRS vs SM-2 en 2026: ¿Qué algoritmo de repetición espaciada le ayuda a recordar más?](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [FSRS vs SM-2 en 2026: ¿Qué algoritmo de repetición espaciada le ayuda a recordar más?](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
 Y si tu material se parece más a unas diapositivas de clase o a un artículo académico que a una imagen diagramada, empieza aquí:
 
-- [Cómo convertir un PDF en tarjetas didácticas en 2026](https://flashcards-open-source-app.com/blog/how-to-turn-a-pdf-into-flashcards/)
+- [Cómo convertir un PDF en tarjetas didácticas en 2026](https://nibomo.com/blog/how-to-turn-a-pdf-into-flashcards/)
 
 ## La regla útil
 
@@ -343,7 +343,7 @@ Mejor memoria.
 
 Si eso es lo que quieres, empieza aquí:
 
-- [Ir al sitio de Nibomo](https://flashcards-open-source-app.com/)
+- [Ir al sitio de Nibomo](https://nibomo.com/)
 - [Abrir la aplicación](https://app.flashcards-open-source-app.com/)
-- [Leer la guía de inicio](https://flashcards-open-source-app.com/docs/getting-started/)
+- [Leer la guía de inicio](https://nibomo.com/docs/getting-started/)
 - [Ver el código en GitHub](https://github.com/kirill-markin/flashcards-open-source-app)

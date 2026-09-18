@@ -82,7 +82,7 @@ keywords:
 
 إذا كان مصدر المادة تسجيلًا كاملًا للمحاضرة لا ملخصك الشخصي، فابدأ من هنا:
 
-- [كيفية تحويل تسجيلات المحاضرات إلى Flashcards في 2026](https://flashcards-open-source-app.com/blog/how-to-turn-lecture-recordings-into-flashcards/)
+- [كيفية تحويل تسجيلات المحاضرات إلى Flashcards في 2026](https://nibomo.com/blog/how-to-turn-lecture-recordings-into-flashcards/)
 
 ## سير العمل الذي أثق به هو: تسجيل قصير، ثم تفريغ، ثم تنظيف بلا رحمة
 
@@ -198,7 +198,7 @@ keywords:
 
 إذا كان المصدر الخام مكتوبًا بخط اليد لا منطوقًا، فهذه المقالة أنسب:
 
-- [كيفية تحويل الملاحظات المكتوبة بخط اليد إلى Flashcards في 2026](https://flashcards-open-source-app.com/blog/how-to-turn-handwritten-notes-into-flashcards/)
+- [كيفية تحويل الملاحظات المكتوبة بخط اليد إلى Flashcards في 2026](https://nibomo.com/blog/how-to-turn-handwritten-notes-into-flashcards/)
 
 ## غالبًا ما تفشل مسارات تحويل الصوت إلى بطاقات بالطريقة نفسها ثلاث مرات
 
@@ -255,11 +255,11 @@ keywords:
 
 إذا أردت التوسع أكثر في جانب الجدولة، فهذا المقال أعمق:
 
-- [FSRS vs SM-2 في عام 2026: ما هي خوارزمية التكرار المتباعد التي تساعدك على تذكر المزيد؟](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [FSRS vs SM-2 في عام 2026: ما هي خوارزمية التكرار المتباعد التي تساعدك على تذكر المزيد؟](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
 ## أين يناسب Flashcards هذا المسار
 
-[Nibomo](https://flashcards-open-source-app.com/) مناسب جدًا لمسار **تحويل الصوت إلى بطاقات تعليمية** لأن المنتج يجمع أصلًا العناصر التي يحتاجها هذا الأسلوب في مكان واحد:
+[Nibomo](https://nibomo.com/) مناسب جدًا لمسار **تحويل الصوت إلى بطاقات تعليمية** لأن المنتج يجمع أصلًا العناصر التي يحتاجها هذا الأسلوب في مكان واحد:
 
 - دردشة بالذكاء الاصطناعي
 - إرفاق الملفات

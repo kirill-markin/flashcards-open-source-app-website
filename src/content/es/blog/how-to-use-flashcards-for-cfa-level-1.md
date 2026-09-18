@@ -169,7 +169,7 @@ El simulacro expuso el fallo. La flashcard debería conservar la corrección.
 
 Si las preguntas de práctica son tu material fuente principal, este flujo complementario encaja directamente:
 
-- [Cómo convertir preguntas de práctica en flashcards en 2026](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/)
+- [Cómo convertir preguntas de práctica en flashcards en 2026](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/)
 
 ## No hagas una tarjeta por cada fallo
 
@@ -217,7 +217,7 @@ También etiquetaría las tarjetas por fuente cuando ayude: `mock-1`, `provider-
 
 Si la organización se está convirtiendo en el problema, este artículo es el mejor siguiente paso:
 
-- [Cómo organizar flashcards en 2026](https://flashcards-open-source-app.com/blog/how-to-organize-flashcards/)
+- [Cómo organizar flashcards en 2026](https://nibomo.com/blog/how-to-organize-flashcards/)
 
 ## Un flujo semanal de flashcards para CFA que sobrevive a la vida real
 
@@ -255,8 +255,8 @@ No quieres que todas las tarjetas vuelvan con el mismo calendario rígido. Quier
 
 Si la parte de programación todavía se siente borrosa, estas guías profundizan más:
 
-- [FSRS vs SM-2 en 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
-- [Cómo estudiar para un examen con FSRS en 2026](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/)
+- [FSRS vs SM-2 en 2026](https://nibomo.com/blog/fsrs-vs-sm-2/)
+- [Cómo estudiar para un examen con FSRS en 2026](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)
 
 ## Mantén separados los datos CFA sensibles a fechas
 
@@ -275,7 +275,7 @@ Etiquétalos con `needs-recheck` y verifícalos contra las páginas oficiales de
 
 ## Dónde encaja Flashcards en este flujo CFA
 
-[Nibomo](https://flashcards-open-source-app.com/) encaja en este flujo porque soporta las piezas concretas que necesita un mazo CFA sin fingir que reemplaza los materiales de CFA Institute:
+[Nibomo](https://nibomo.com/) encaja en este flujo porque soporta las piezas concretas que necesita un mazo CFA sin fingir que reemplaza los materiales de CFA Institute:
 
 - creación y edición de tarjetas anverso/reverso
 - mazos y etiquetas para organizar por tema y fuente
@@ -291,9 +291,9 @@ Usa materiales oficiales y preguntas de práctica para encontrar los puntos déb
 
 Si eso es lo que quieres, empieza aquí:
 
-- [Abrir Nibomo](https://flashcards-open-source-app.com/)
+- [Abrir Nibomo](https://nibomo.com/)
 - [Abrir la app](https://app.flashcards-open-source-app.com/)
-- [Leer la guía de primeros pasos](https://flashcards-open-source-app.com/docs/getting-started/)
+- [Leer la guía de primeros pasos](https://nibomo.com/docs/getting-started/)
 - [Ver el código fuente en GitHub](https://github.com/kirill-markin/flashcards-open-source-app)
 
 El mazo no necesita impresionar a nadie. Necesita ayudarte a responder la siguiente pregunta antes de que se acaben los 90 segundos.

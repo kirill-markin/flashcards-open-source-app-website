@@ -91,7 +91,7 @@ Teil es lieber auf:
 
 Dieselbe Regel gilt für Foramina, Gefäße, Bänder und Plexusäste. Die meisten Fehler in Anatomie entstehen durch ein kaputtes Glied in der Kette, nicht durch komplette Ahnungslosigkeit.
 
-Wenn deine Karten schon aufgebläht wirken, ist [Wie du 2026 bessere Flashcards erstellst](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/) der richtige Artikel zum Aufräumen.
+Wenn deine Karten schon aufgebläht wirken, ist [Wie du 2026 bessere Flashcards erstellst](https://nibomo.com/blog/how-to-make-better-flashcards/) der richtige Artikel zum Aufräumen.
 
 ## Räumliche Beziehungen verdienen eigene Karten
 
@@ -159,7 +159,7 @@ Was meistens scheitert:
 - eine Karte, die Region, Struktur, Innervation und Funktion gleichzeitig prüft
 - eine Absatzantwort unter einem unruhigen Bild
 
-Wenn dein eigentlicher Engpass darin liegt, Diagramme und beschriftete Visuals sauber in Karten zu verwandeln, erklärt [Wie du 2026 Diagramme in Flashcards verwandelst](https://flashcards-open-source-app.com/blog/how-to-turn-diagrams-into-flashcards/) den vorgelagerten Workflow.
+Wenn dein eigentlicher Engpass darin liegt, Diagramme und beschriftete Visuals sauber in Karten zu verwandeln, erklärt [Wie du 2026 Diagramme in Flashcards verwandelst](https://nibomo.com/blog/how-to-turn-diagrams-into-flashcards/) den vorgelagerten Workflow.
 
 ## KI eignet sich gut zum Bereinigen, nicht zum Erinnern an deiner Stelle
 
@@ -180,7 +180,7 @@ Wobei sie kaum hilft:
 
 Nutze KI also zur Vorbereitung und Bereinigung, nicht zum Auslagern deiner Erinnerung.
 
-Wenn du die breitere Version dieses Tutor-zu-Behalten-Workflows suchst, sind [Wie du 2026 KI zum Lernen nutzt](https://flashcards-open-source-app.com/blog/how-to-use-ai-to-study/) und [Wie du 2026 KI-Flashcards reparierst](https://flashcards-open-source-app.com/blog/how-to-fix-ai-flashcards/) die zwei sinnvollen Anschlussartikel.
+Wenn du die breitere Version dieses Tutor-zu-Behalten-Workflows suchst, sind [Wie du 2026 KI zum Lernen nutzt](https://nibomo.com/blog/how-to-use-ai-to-study/) und [Wie du 2026 KI-Flashcards reparierst](https://nibomo.com/blog/how-to-fix-ai-flashcards/) die zwei sinnvollen Anschlussartikel.
 
 ## Verpasste Pins und verdrehte Beziehungen sind deine beste Kartenquelle
 
@@ -206,7 +206,7 @@ Was meistens keine Karte verdient:
 
 Das sind echte Probleme. Es sind nur keine Flashcard-Probleme.
 
-Wenn dein bestes Ausgangsmaterial aus Fehlern in Testaten und Spottern kommt, passt [Wie du 2026 Übungsfragen in Flashcards verwandelst](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/) hier sehr gut.
+Wenn dein bestes Ausgangsmaterial aus Fehlern in Testaten und Spottern kommt, passt [Wie du 2026 Übungsfragen in Flashcards verwandelst](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/) hier sehr gut.
 
 ## Ein wöchentlicher Anatomie-Workflow sollte langweilig bleiben
 
@@ -222,7 +222,7 @@ Halte die Schleife schlicht:
 
 Anatomie produziert endlos viele mögliche Karten. Deine Wiederholungswarteschlange muss trotzdem bewohnbar bleiben.
 
-Wenn es schon aus dem Ruder läuft, sind [Wie viele neue Flashcards pro Tag sind 2026 sinnvoll?](https://flashcards-open-source-app.com/blog/how-many-new-flashcards-per-day/) und [Wie du 2026 bei Flashcards wieder aufholst, nachdem du zurückgefallen bist](https://flashcards-open-source-app.com/blog/how-to-catch-up-on-flashcards-after-falling-behind/) die richtigen nächsten Artikel.
+Wenn es schon aus dem Ruder läuft, sind [Wie viele neue Flashcards pro Tag sind 2026 sinnvoll?](https://nibomo.com/blog/how-many-new-flashcards-per-day/) und [Wie du 2026 bei Flashcards wieder aufholst, nachdem du zurückgefallen bist](https://nibomo.com/blog/how-to-catch-up-on-flashcards-after-falling-behind/) die richtigen nächsten Artikel.
 
 ## FSRS hilft, sobald die Karten ehrlich werden
 
@@ -238,11 +238,11 @@ Was FSRS nicht kann, ist aufgeblähte Prompts retten. Die Reihenfolge zählt:
 2. das Deck kontrolliert halten
 3. FSRS den Zeitpunkt entscheiden lassen
 
-Wenn du die Scheduling-Seite direkter erklärt haben willst, sind [Wie du 2026 mit FSRS für eine Prüfung lernst](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/) und [FSRS vs. SM-2 im Jahr 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/) die zwei klarsten Anschlussartikel.
+Wenn du die Scheduling-Seite direkter erklärt haben willst, sind [Wie du 2026 mit FSRS für eine Prüfung lernst](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/) und [FSRS vs. SM-2 im Jahr 2026](https://nibomo.com/blog/fsrs-vs-sm-2/) die zwei klarsten Anschlussartikel.
 
 ## Wo Flashcards gut hineinpasst
 
-[Nibomo](https://flashcards-open-source-app.com/) passt für Anatomie am besten dann, wenn du bereits weißt, was erinnert werden muss.
+[Nibomo](https://nibomo.com/) passt für Anatomie am besten dann, wenn du bereits weißt, was erinnert werden muss.
 
 Das passt zu diesem Fach gut, weil Anatomie-Lernen meist gleichzeitig aus mehreren unordentlichen Quellen kommt:
 
@@ -253,6 +253,6 @@ Das passt zu diesem Fach gut, weil Anatomie-Lernen meist gleichzeitig aus mehrer
 - Fehler aus Testaten
 - kurze KI-Bereinigungssitzungen
 
-Der nützliche Teil ist nicht irgendein Versprechen, dass dir die App magisch die Äste des Plexus brachialis einprägt. Nützlich ist, dass du diese Quellen in schlichte Vorderseiten- und Rückseitenkarten verwandeln, sie mit FSRS wiederholen, bildlastiges Material an einem Ort halten, KI-Chat nutzen kannst, wenn eine Quelldatei oder ein Foto bereinigt werden muss, und das Deck offline auf verschiedenen Geräten verfügbar bleibt. Wenn du zuerst den Produktüberblick willst, beginne mit der [Features-Seite](https://flashcards-open-source-app.com/features/) oder der [Einstiegsanleitung](https://flashcards-open-source-app.com/docs/getting-started/). Wenn es dir wichtig ist, den Stack selbst zu besitzen, findest du auch die [Self-Hosting-Anleitung](https://flashcards-open-source-app.com/docs/self-hosting/).
+Der nützliche Teil ist nicht irgendein Versprechen, dass dir die App magisch die Äste des Plexus brachialis einprägt. Nützlich ist, dass du diese Quellen in schlichte Vorderseiten- und Rückseitenkarten verwandeln, sie mit FSRS wiederholen, bildlastiges Material an einem Ort halten, KI-Chat nutzen kannst, wenn eine Quelldatei oder ein Foto bereinigt werden muss, und das Deck offline auf verschiedenen Geräten verfügbar bleibt. Wenn du zuerst den Produktüberblick willst, beginne mit der [Features-Seite](https://nibomo.com/features/) oder der [Einstiegsanleitung](https://nibomo.com/docs/getting-started/). Wenn es dir wichtig ist, den Stack selbst zu besitzen, findest du auch die [Self-Hosting-Anleitung](https://nibomo.com/docs/self-hosting/).
 
 Anatomie braucht meistens nicht mehr Information. Sie braucht saubereren Abruf. Wenn dein Deck dir hilft, die Struktur zu benennen, sie räumlich einzuordnen, mit einem nützlichen Fakt zu verknüpfen und sie kurz vor dem Vergessen noch einmal zu sehen, reicht das meistens schon, damit sich das Fach deutlich weniger diffus anfühlt.

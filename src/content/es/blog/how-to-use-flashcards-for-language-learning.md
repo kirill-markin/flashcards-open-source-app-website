@@ -58,7 +58,7 @@ Si una tarjeta intenta enseñarte la palabra, el género, el plural, el pasado i
 
 Es la misma regla que hace mejores a las tarjetas genéricas:
 
-- [Cómo hacer mejores tarjetas didácticas en 2026](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [Cómo hacer mejores tarjetas didácticas en 2026](https://nibomo.com/blog/how-to-make-better-flashcards/)
 
 Solo que los mazos de idiomas castigan las tarjetas sobrecargadas todavía más rápido.
 
@@ -172,8 +172,8 @@ Por eso creo que el orden útil es este:
 
 Si quieres profundizar más en la parte de programación, empieza aquí:
 
-- [FSRS vs SM-2 en 2026: ¿Qué algoritmo de repetición espaciada le ayuda a recordar más?](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
-- [¿Cuántas tarjetas didácticas nuevas por día en 2026?](https://flashcards-open-source-app.com/blog/how-many-new-flashcards-per-day/)
+- [FSRS vs SM-2 en 2026: ¿Qué algoritmo de repetición espaciada le ayuda a recordar más?](https://nibomo.com/blog/fsrs-vs-sm-2/)
+- [¿Cuántas tarjetas didácticas nuevas por día en 2026?](https://nibomo.com/blog/how-many-new-flashcards-per-day/)
 
 ## La carga de repaso importa más que el tamaño del mazo
 
@@ -216,9 +216,9 @@ Porque solo tú sabes si:
 
 Si tu material de partida son notas, una transcripción o la salida de un chat, estas guías te ayudan en el paso anterior:
 
-- [Cómo utilizar ChatGPT para crear tarjetas didácticas en 2026](https://flashcards-open-source-app.com/blog/how-to-use-chatgpt-to-make-flashcards/)
-- [Cómo convertir notas de voz en tarjetas didácticas en 2026](https://flashcards-open-source-app.com/blog/how-to-turn-voice-notes-into-flashcards/)
-- [Cómo convertir vídeos de YouTube en tarjetas didácticas en 2026](https://flashcards-open-source-app.com/blog/youtube-to-flashcards/)
+- [Cómo utilizar ChatGPT para crear tarjetas didácticas en 2026](https://nibomo.com/blog/how-to-use-chatgpt-to-make-flashcards/)
+- [Cómo convertir notas de voz en tarjetas didácticas en 2026](https://nibomo.com/blog/how-to-turn-voice-notes-into-flashcards/)
+- [Cómo convertir vídeos de YouTube en tarjetas didácticas en 2026](https://nibomo.com/blog/youtube-to-flashcards/)
 
 ## Construye el mazo alrededor de tu objetivo real, no de una ambición lingüística genérica
 
@@ -238,7 +238,7 @@ El mazo se limpia enseguida.
 
 ## Dónde encaja mejor Flashcards en este flujo de trabajo
 
-[Nibomo](https://flashcards-open-source-app.com/) encaja muy bien en **repetición espaciada para vocabulario** porque el producto ya incluye las piezas de las que depende este flujo de trabajo:
+[Nibomo](https://nibomo.com/) encaja muy bien en **repetición espaciada para vocabulario** porque el producto ya incluye las piezas de las que depende este flujo de trabajo:
 
 - tarjetas limpias de anverso y reverso
 - programación de repaso con FSRS
@@ -250,9 +250,9 @@ Eso hace más fácil pasar de "he encontrado lenguaje útil en una fuente" a "es
 
 Si además estás comparando opciones de producto más amplias, estas son las lecturas relacionadas más cercanas:
 
-- [Alternativa a Memrise en 2026: aplicación de tarjetas didácticas de código abierto con FSRS, estudio sin conexión y flujo de trabajo exclusivo del iPhone](https://flashcards-open-source-app.com/blog/memrise-alternative/)
-- [Alternativa a Quizlet en 2026: aplicación de tarjetas didácticas de código abierto con FSRS, estudio sin conexión y propiedad total de los datos](https://flashcards-open-source-app.com/blog/quizlet-alternative/)
-- [Mejor aplicación de tarjetas didácticas sin conexión en 2026](https://flashcards-open-source-app.com/blog/best-offline-flashcards-app/)
+- [Alternativa a Memrise en 2026: aplicación de tarjetas didácticas de código abierto con FSRS, estudio sin conexión y flujo de trabajo exclusivo del iPhone](https://nibomo.com/blog/memrise-alternative/)
+- [Alternativa a Quizlet en 2026: aplicación de tarjetas didácticas de código abierto con FSRS, estudio sin conexión y propiedad total de los datos](https://nibomo.com/blog/quizlet-alternative/)
+- [Mejor aplicación de tarjetas didácticas sin conexión en 2026](https://nibomo.com/blog/best-offline-flashcards-app/)
 
 ## Entonces, ¿cómo deberías usar tarjetas didácticas para aprender idiomas en 2026?
 
@@ -267,4 +267,4 @@ Yo mantendría el sistema simple:
 
 Esa es la versión de **cómo usar tarjetas didácticas para aprender idiomas** en la que confío.
 
-Si quieres una herramienta construida alrededor de ese flujo de trabajo, [Nibomo](https://flashcards-open-source-app.com/) encaja muy bien. Reúne borradores asistidos por IA, tarjetas de anverso y reverso y repasos con FSRS dentro de una misma base open source, que es justo lo que necesita un mazo de idiomas cuando dejas de confundir coleccionar palabras con aprenderlas de verdad.
+Si quieres una herramienta construida alrededor de ese flujo de trabajo, [Nibomo](https://nibomo.com/) encaja muy bien. Reúne borradores asistidos por IA, tarjetas de anverso y reverso y repasos con FSRS dentro de una misma base open source, que es justo lo que necesita un mazo de idiomas cuando dejas de confundir coleccionar palabras con aprenderlas de verdad.

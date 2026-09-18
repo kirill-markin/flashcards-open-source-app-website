@@ -18,7 +18,7 @@ keywords:
 
 Para esta decisión, las versiones web deben evaluarse por separado. Un conjunto descargado en el móvil, una imagen guardada en caché y una pestaña que sigue funcionando tras perder la conexión no equivalen a una app instalada capaz de arrancar desde cero y abrir su colección local.
 
-> **Aviso de transparencia:** Soy Kirill Markin y desarrollo [Nibomo](https://flashcards-open-source-app.com/), uno de los productos incluidos en esta comparativa. No lo considero el ganador por defecto. Es más reciente que Anki, el primer inicio de sesión y la carga inicial del espacio de trabajo requieren internet, y el contenido multimedia remoto solo está disponible sin conexión después de que el dispositivo lo haya guardado en caché.
+> **Aviso de transparencia:** Soy Kirill Markin y desarrollo [Nibomo](https://nibomo.com/), uno de los productos incluidos en esta comparativa. No lo considero el ganador por defecto. Es más reciente que Anki, el primer inicio de sesión y la carga inicial del espacio de trabajo requieren internet, y el contenido multimedia remoto solo está disponible sin conexión después de que el dispositivo lo haya guardado en caché.
 
 **Datos verificados:** 22 de agosto de 2026.
 

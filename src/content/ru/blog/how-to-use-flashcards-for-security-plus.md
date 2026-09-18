@@ -244,7 +244,7 @@ CompTIA пишет, что в Security+ есть performance-based questions, а
 
 Если вашим главным источником служат именно ошибки в вопросах, с этой статьей естественно сочетается вот эта:
 
-- [Как превращать тренировочные вопросы в карточки в 2026 году](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/)
+- [Как превращать тренировочные вопросы в карточки в 2026 году](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/)
 
 ## Не собирайте одну бесформенную колоду Security+
 
@@ -279,7 +279,7 @@ CompTIA пишет, что в Security+ есть performance-based questions, а
 
 Если проблема больше в организации, чем в написании карточек, следующим текстом стоит прочитать этот:
 
-- [Как организовать карточки в 2026 году](https://flashcards-open-source-app.com/blog/how-to-organize-flashcards/)
+- [Как организовать карточки в 2026 году](https://nibomo.com/blog/how-to-organize-flashcards/)
 
 ## Еженедельный процесс должен оставаться скучным
 
@@ -300,7 +300,7 @@ CompTIA пишет, что в Security+ есть performance-based questions, а
 
 Если AI выдает вам небрежные черновики карточек, с этим хорошо сочетается вот этот текст:
 
-- [Как делать карточки лучше в 2026 году](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [Как делать карточки лучше в 2026 году](https://nibomo.com/blog/how-to-make-better-flashcards/)
 
 ## FSRS помогает в подготовке к Security+ только после того, как колода становится уже
 
@@ -321,7 +321,7 @@ FSRS хорошо работает здесь, когда карточки:
 
 Если вам нужна статья именно про планирование подготовки к экзамену, этот текст разбирает тему глубже:
 
-- [Как готовиться к экзамену с FSRS в 2026 году](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/)
+- [Как готовиться к экзамену с FSRS в 2026 году](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)
 
 ## Для подготовки к сертификации офлайн-повторение важнее, чем многие готовы признать
 
@@ -338,11 +338,11 @@ FSRS хорошо работает здесь, когда карточки:
 
 Если это важно для вашей учебной схемы, стоит прочитать и вот это:
 
-- [Лучшее офлайн-приложение для карточек в 2026 году](https://flashcards-open-source-app.com/blog/best-offline-flashcards-app/)
+- [Лучшее офлайн-приложение для карточек в 2026 году](https://nibomo.com/blog/best-offline-flashcards-app/)
 
 ## Где Flashcards особенно хорошо вписывается в этот процесс
 
-[Nibomo](https://flashcards-open-source-app.com/) хорошо подходит для **карточек для Security+**, потому что сам продукт уже совпадает с этим сценарием, а не заставляет вас импровизировать между пятью разными инструментами.
+[Nibomo](https://nibomo.com/) хорошо подходит для **карточек для Security+**, потому что сам продукт уже совпадает с этим сценарием, а не заставляет вас импровизировать между пятью разными инструментами.
 
 Вы можете использовать:
 

@@ -61,7 +61,7 @@ GRE لا يسأل فقط إن كنت قد رأيت التعريف من قبل. �
 
 إذا كانت كتابة البطاقات نفسها هي المشكلة الحقيقية، فهذه أفضل مقالة مرافقة:
 
-- [كيفية إعداد بطاقات تعليمية أفضل في 2026](https://flashcards-open-source-app.com/ar/blog/how-to-make-better-flashcards/)
+- [كيفية إعداد بطاقات تعليمية أفضل في 2026](https://nibomo.com/ar/blog/how-to-make-better-flashcards/)
 
 ## يجب أن تركز بطاقات GRE الخاصة بـ Sentence Equivalence على التمييز بين المرادفات
 
@@ -139,7 +139,7 @@ GRE لا يسأل فقط إن كنت قد رأيت التعريف من قبل. �
 
 إذا كان هذا هو سير العمل الذي تحتاجه أصلًا، فاقرأ هذا بعده:
 
-- [كيف تحوّل أسئلة التدريب إلى بطاقات تعليمية في 2026](https://flashcards-open-source-app.com/ar/blog/how-to-turn-practice-questions-into-flashcards/)
+- [كيف تحوّل أسئلة التدريب إلى بطاقات تعليمية في 2026](https://nibomo.com/ar/blog/how-to-turn-practice-questions-into-flashcards/)
 
 ## سير عمل عملي لبطاقات GRE للمفردات
 
@@ -158,7 +158,7 @@ GRE لا يسأل فقط إن كنت قد رأيت التعريف من قبل. �
 
 إذا كانت المشكلة الأكبر هي التنظيم، فهذه المقالة مناسبة مباشرة:
 
-- [كيف تنظّم البطاقات التعليمية في 2026](https://flashcards-open-source-app.com/ar/blog/how-to-organize-flashcards/)
+- [كيف تنظّم البطاقات التعليمية في 2026](https://nibomo.com/ar/blog/how-to-organize-flashcards/)
 
 ## ما العدد الواقعي لبطاقات مفردات GRE الجديدة يوميًا؟
 
@@ -176,8 +176,8 @@ GRE لا يسأل فقط إن كنت قد رأيت التعريف من قبل. �
 
 هذه هي المشكلة نفسها بصيغة أكثر عمومية:
 
-- [كم عدد البطاقات التعليمية الجديدة يوميًا في 2026؟](https://flashcards-open-source-app.com/ar/blog/how-many-new-flashcards-per-day/)
-- [كيف تراجع البطاقات التعليمية بسرعة أكبر في 2026](https://flashcards-open-source-app.com/ar/blog/how-to-review-flashcards-faster/)
+- [كم عدد البطاقات التعليمية الجديدة يوميًا في 2026؟](https://nibomo.com/ar/blog/how-many-new-flashcards-per-day/)
+- [كيف تراجع البطاقات التعليمية بسرعة أكبر في 2026](https://nibomo.com/ar/blog/how-to-review-flashcards-faster/)
 
 ## يساعد FSRS في مفردات GRE لأن الكلمات تتقادم في الذاكرة بطرق مختلفة
 
@@ -199,8 +199,8 @@ GRE لا يسأل فقط إن كنت قد رأيت التعريف من قبل. �
 
 إذا أردت جانب الجدولة بتفصيل أكبر، فهاتان المقالتان هما الأنسب:
 
-- [كيف تذاكر لامتحان باستخدام FSRS في 2026](https://flashcards-open-source-app.com/ar/blog/how-to-study-for-an-exam-with-fsrs/)
-- [إعدادات FSRS في 2026: ما الذي تغيّره وما الذي تتركه كما هو](https://flashcards-open-source-app.com/ar/blog/fsrs-settings/)
+- [كيف تذاكر لامتحان باستخدام FSRS في 2026](https://nibomo.com/ar/blog/how-to-study-for-an-exam-with-fsrs/)
+- [إعدادات FSRS في 2026: ما الذي تغيّره وما الذي تتركه كما هو](https://nibomo.com/ar/blog/fsrs-settings/)
 
 ## المراجعة على الهاتف وخارج الإنترنت أهم لاختبار GRE مما يتوقعه الناس
 
@@ -219,7 +219,7 @@ GRE لا يسأل فقط إن كنت قد رأيت التعريف من قبل. �
 
 إذا كنت تذاكر بالفعل مفردات لغة أخرى باستخدام بطاقات مبنية على الجمل، فسير العمل هنا متشابه على نحو مفاجئ:
 
-- [كيف تستخدم البطاقات التعليمية لتعلم اللغات في 2026](https://flashcards-open-source-app.com/ar/blog/how-to-use-flashcards-for-language-learning/)
+- [كيف تستخدم البطاقات التعليمية لتعلم اللغات في 2026](https://nibomo.com/ar/blog/how-to-use-flashcards-for-language-learning/)
 
 ## يمكن للذكاء الاصطناعي أن يساعد في مسودة بطاقات GRE، لكنه يبالغ في الشرح غالبًا
 
@@ -243,12 +243,12 @@ GRE لا يسأل فقط إن كنت قد رأيت التعريف من قبل. �
 
 إذا كانت المادة الخام عندك تبدأ كملاحظات أو مقتطفات من مقالات أو مراجعات لأسئلة، فهذه السير تساعد في المرحلة السابقة:
 
-- [كيفية تحويل الملاحظات إلى بطاقات تعليمية في 2026](https://flashcards-open-source-app.com/ar/blog/turn-notes-into-flashcards/)
-- [كيف تحوّل مقالًا إلى بطاقات تعليمية في 2026](https://flashcards-open-source-app.com/ar/blog/how-to-turn-an-article-into-flashcards/)
+- [كيفية تحويل الملاحظات إلى بطاقات تعليمية في 2026](https://nibomo.com/ar/blog/turn-notes-into-flashcards/)
+- [كيف تحوّل مقالًا إلى بطاقات تعليمية في 2026](https://nibomo.com/ar/blog/how-to-turn-an-article-into-flashcards/)
 
 ## أين يناسب Flashcards هذا السير الخاص بـ GRE
 
-إذا كنت تريد تنفيذ هذا داخل [Nibomo](https://flashcards-open-source-app.com/ar/)، فالجزء المفيد ليس وعدًا ضبابيًا بأن "الذكاء الاصطناعي يجعل الدراسة أسهل". بل إن المنتج الحالي يدعم بالفعل منتصف سير العمل العملي:
+إذا كنت تريد تنفيذ هذا داخل [Nibomo](https://nibomo.com/ar/)، فالجزء المفيد ليس وعدًا ضبابيًا بأن "الذكاء الاصطناعي يجعل الدراسة أسهل". بل إن المنتج الحالي يدعم بالفعل منتصف سير العمل العملي:
 
 - إنشاء بطاقات بوجه أمامي وخلفي وتحريرها
 - دردشة AI للمسودة والتنظيف
@@ -274,9 +274,9 @@ GRE لا يسأل فقط إن كنت قد رأيت التعريف من قبل. �
 
 إذا كنت تريد تجربة هذا السير داخل Flashcards:
 
-- [ابدأ مع Flashcards](https://flashcards-open-source-app.com/ar/)
+- [ابدأ مع Flashcards](https://nibomo.com/ar/)
 - [افتح تطبيق الويب](https://app.flashcards-open-source-app.com/)
-- [اقرأ دليل البدء](https://flashcards-open-source-app.com/ar/docs/getting-started/)
+- [اقرأ دليل البدء](https://nibomo.com/ar/docs/getting-started/)
 - [اطّلع على الشفرة المصدرية في GitHub](https://github.com/kirill-markin/flashcards-open-source-app)
 
 الهدف ليس جمع كلمات أصعب فأصعب. الهدف هو أن يظهر المعنى الصحيح أسرع عندما تنعطف الجملة، وتصبح خيارات الإجابة زلقة، وتكون الساعة قد بدأت فعلًا في الجري.

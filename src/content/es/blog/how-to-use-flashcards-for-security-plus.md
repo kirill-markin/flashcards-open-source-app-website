@@ -244,7 +244,7 @@ Eso mantiene el mazo alineado con la recuperación real. Las flashcards no van a
 
 Si las preguntas falladas son tu fuente principal, este artículo es el complemento natural:
 
-- [Cómo convertir preguntas de práctica en flashcards en 2026](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/)
+- [Cómo convertir preguntas de práctica en flashcards en 2026](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/)
 
 ## No construyas un mazo informe de Security+
 
@@ -279,7 +279,7 @@ Eso te da algo mucho más utilizable que un montón plano. También hace más f�
 
 Si el problema de fondo es más de organización que de escritura de tarjetas, lee esto después:
 
-- [Cómo organizar Flashcards en 2026](https://flashcards-open-source-app.com/blog/how-to-organize-flashcards/)
+- [Cómo organizar Flashcards en 2026](https://nibomo.com/blog/how-to-organize-flashcards/)
 
 ## Tu flujo semanal debería seguir siendo aburrido
 
@@ -300,7 +300,7 @@ Yo también me mantendría lejos de la cultura de filtraciones y dumps de examen
 
 Si la IA te está devolviendo borradores de tarjetas descuidados, esta pieza complementaria ayuda:
 
-- [Cómo crear mejores flashcards en 2026](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [Cómo crear mejores flashcards en 2026](https://nibomo.com/blog/how-to-make-better-flashcards/)
 
 ## FSRS ayuda en la preparación de Security+ solo después de que el mazo se estrecha
 
@@ -321,7 +321,7 @@ Eso es lo que hace sostenibles **las flashcards para CompTIA Security+**. El pla
 
 Si quieres la parte de planificación del examen dentro de ese flujo, este artículo entra más a fondo:
 
-- [Cómo estudiar para un examen con FSRS en 2026](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/)
+- [Cómo estudiar para un examen con FSRS en 2026](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)
 
 ## El repaso sin conexión importa más para la preparación de certificaciones de lo que la gente admite
 
@@ -338,11 +338,11 @@ Esa es una de las razones por las que me gusta el repaso offline-first para este
 
 Si eso importa en tu configuración de estudio, esto también merece la pena:
 
-- [Best Offline Flashcards App in 2026](https://flashcards-open-source-app.com/blog/best-offline-flashcards-app/)
+- [Best Offline Flashcards App in 2026](https://nibomo.com/blog/best-offline-flashcards-app/)
 
 ## Dónde encaja bien Flashcards en este flujo
 
-[Nibomo](https://flashcards-open-source-app.com/) encaja muy bien con **las flashcards de Security+** porque el producto ya coincide con el flujo de trabajo en lugar de obligarte a improvisar entre cinco herramientas.
+[Nibomo](https://nibomo.com/) encaja muy bien con **las flashcards de Security+** porque el producto ya coincide con el flujo de trabajo en lugar de obligarte a improvisar entre cinco herramientas.
 
 Puedes usar:
 

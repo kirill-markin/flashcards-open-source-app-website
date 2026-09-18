@@ -92,7 +92,7 @@ Certification deck तब बिगड़ता है जब वह vendor docu
 
 अगर practice questions आपका मुख्य source हैं, तो यह companion article सीधे काम आएगा:
 
-- [2026 में अभ्यास प्रश्नों को फ़्लैशकार्ड में कैसे बदलें](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/)
+- [2026 में अभ्यास प्रश्नों को फ़्लैशकार्ड में कैसे बदलें](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/)
 
 ## AI exam prep के लिए चार तरह के cards खास तौर पर अच्छे काम करते हैं
 
@@ -178,7 +178,7 @@ Vendor study material अक्सर ऐसी polished phrasing इस्त�
 
 अगर आप organization वाले हिस्से को ज़्यादा विस्तार से देखना चाहते हैं, तो यह अगला पढ़िए:
 
-- [2026 में फ्लैशकार्ड कैसे व्यवस्थित करें](https://flashcards-open-source-app.com/blog/how-to-organize-flashcards/)
+- [2026 में फ्लैशकार्ड कैसे व्यवस्थित करें](https://nibomo.com/blog/how-to-organize-flashcards/)
 
 ## साप्ताहिक workflow जान-बूझकर उबाऊ होना चाहिए
 
@@ -202,7 +202,7 @@ Vendor study material अक्सर ऐसी polished phrasing इस्त�
 
 अगर असली समस्या review load है, तो certification prep के साथ यह लेख अच्छी तरह जुड़ता है:
 
-- [2026 में FSRS के साथ परीक्षा की तैयारी कैसे करें](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/)
+- [2026 में FSRS के साथ परीक्षा की तैयारी कैसे करें](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)
 
 ## update-sensitive facts को एक छोटी temporary layer में रखिए
 
@@ -242,11 +242,11 @@ Certification prep बार-बार आपको ज़रूरत से �
 
 अगर कमज़ोरी card quality में ही है, तो मैं अगला यही article खोलूँगा:
 
-- [2026 में बेहतर फ्लैशकार्ड कैसे बनाएँ](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [2026 में बेहतर फ्लैशकार्ड कैसे बनाएँ](https://nibomo.com/blog/how-to-make-better-flashcards/)
 
 ## इस workflow में Flashcards कहाँ बेहतर बैठता है
 
-[Nibomo](https://flashcards-open-source-app.com/) इस तरह की certification prep के लिए इसलिए अच्छा विकल्प है, क्योंकि product पहले से उन हिस्सों को support करता है जिन पर यह workflow टिका है:
+[Nibomo](https://nibomo.com/) इस तरह की certification prep के लिए इसलिए अच्छा विकल्प है, क्योंकि product पहले से उन हिस्सों को support करता है जिन पर यह workflow टिका है:
 
 - साफ़ recall prompts के लिए front/back cards
 - notes, study guides, और question-review material से draft बनाने के लिए AI chat
@@ -276,7 +276,7 @@ Certification prep बार-बार आपको ज़रूरत से �
 
 अगर आप यह workflow आज़माना चाहते हैं:
 
-- [Nibomo खोलें](https://flashcards-open-source-app.com/)
+- [Nibomo खोलें](https://nibomo.com/)
 - [ऐप खोलें](https://app.flashcards-open-source-app.com/)
-- [features पेज पढ़ें](https://flashcards-open-source-app.com/features/)
+- [features पेज पढ़ें](https://nibomo.com/features/)
 - [GitHub पर स्रोत देखें](https://github.com/kirill-markin/flashcards-open-source-app)

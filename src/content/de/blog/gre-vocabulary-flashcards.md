@@ -61,7 +61,7 @@ Diese Mischung ergibt bessere **GRE-Verbal-Flashcards** als ein einziges riesige
 
 Wenn das eigentliche Problem das Schreiben der Karten ist, dann ist das der beste Begleitartikel:
 
-- [Wie du 2026 bessere Flashcards erstellst: Regeln für Vorder- und Rückseiten, die mit FSRS wirklich funktionieren](https://flashcards-open-source-app.com/de/blog/how-to-make-better-flashcards/)
+- [Wie du 2026 bessere Flashcards erstellst: Regeln für Vorder- und Rückseiten, die mit FSRS wirklich funktionieren](https://nibomo.com/de/blog/how-to-make-better-flashcards/)
 
 ## GRE-Sentence-Equivalence-Flashcards sollten sich auf Synonym-Kontraste konzentrieren
 
@@ -139,7 +139,7 @@ Ich würde nicht die ganze Frage in eine aufgeblähte Karte kopieren. Ich würde
 
 Wenn genau dieser Workflow dein Hauptproblem ist, lies als Nächstes das hier:
 
-- [Wie du 2026 Übungsfragen in Flashcards verwandelst: Baue aus deinen Fehlern ein FSRS-Deck](https://flashcards-open-source-app.com/de/blog/how-to-turn-practice-questions-into-flashcards/)
+- [Wie du 2026 Übungsfragen in Flashcards verwandelst: Baue aus deinen Fehlern ein FSRS-Deck](https://nibomo.com/de/blog/how-to-turn-practice-questions-into-flashcards/)
 
 ## Ein praktischer Workflow für GRE-Vokabel-Flashcards
 
@@ -158,7 +158,7 @@ Das ist eine bessere Antwort auf **beste GRE-Vokabel-Flashcards** als einfach ei
 
 Wenn Organisation das größere Problem ist, passt dieser Artikel direkt dazu:
 
-- [Flashcards in 2026 organisieren: Decks, Tags und gefilterte Wiederholung, ohne das Lernen unnötig kompliziert zu machen](https://flashcards-open-source-app.com/de/blog/how-to-organize-flashcards/)
+- [Flashcards in 2026 organisieren: Decks, Tags und gefilterte Wiederholung, ohne das Lernen unnötig kompliziert zu machen](https://nibomo.com/de/blog/how-to-organize-flashcards/)
 
 ## Wie viele neue GRE-Vokabelkarten pro Tag sind realistisch?
 
@@ -176,8 +176,8 @@ Ich würde viel lieber ein kleineres Deck sehen, das du wirklich durchziehst, al
 
 Dasselbe Problem in allgemeinerer Form behandeln diese Artikel:
 
-- [Wie viele neue Flashcards pro Tag im Jahr 2026? So hältst du den FSRS-Wiederholungsaufwand beherrschbar](https://flashcards-open-source-app.com/de/blog/how-many-new-flashcards-per-day/)
-- [Wie du 2026 Flashcards schneller wiederholst: tägliche Reviews schaffen, ohne auszubrennen](https://flashcards-open-source-app.com/de/blog/how-to-review-flashcards-faster/)
+- [Wie viele neue Flashcards pro Tag im Jahr 2026? So hältst du den FSRS-Wiederholungsaufwand beherrschbar](https://nibomo.com/de/blog/how-many-new-flashcards-per-day/)
+- [Wie du 2026 Flashcards schneller wiederholst: tägliche Reviews schaffen, ohne auszubrennen](https://nibomo.com/de/blog/how-to-review-flashcards-faster/)
 
 ## FSRS hilft bei GRE-Vokabeln, weil Wörter im Gedächtnis unterschiedlich altern
 
@@ -199,8 +199,8 @@ Ich würde die Reihenfolge einfach halten:
 
 Wenn du die Planungsseite genauer verstehen willst, passen diese beiden Artikel am besten:
 
-- [Wie du 2026 mit FSRS für eine Prüfung lernst: Ein Flashcard-Plan, den du vor dem Prüfungstag wirklich schaffst](https://flashcards-open-source-app.com/de/blog/how-to-study-for-an-exam-with-fsrs/)
-- [FSRS-Einstellungen 2026: Desired Retention, Learning Steps und Wiederholungslast ohne Feintuning-Falle](https://flashcards-open-source-app.com/de/blog/fsrs-settings/)
+- [Wie du 2026 mit FSRS für eine Prüfung lernst: Ein Flashcard-Plan, den du vor dem Prüfungstag wirklich schaffst](https://nibomo.com/de/blog/how-to-study-for-an-exam-with-fsrs/)
+- [FSRS-Einstellungen 2026: Desired Retention, Learning Steps und Wiederholungslast ohne Feintuning-Falle](https://nibomo.com/de/blog/fsrs-settings/)
 
 ## Mobile und Offline-Reviews sind für den GRE wichtiger, als viele denken
 
@@ -219,7 +219,7 @@ Darum gefallen mir **GRE-Verbal-Flashcards** auch besser, wenn das Deck in einem
 
 Wenn du für eine andere Sprache bereits mit Satzkarten lernst, ist der Workflow erstaunlich ähnlich:
 
-- [Wie du 2026 Flashcards fürs Sprachenlernen nutzt: Vokabeln, Beispielsätze und Wiederholungen, die wirklich hängen bleiben](https://flashcards-open-source-app.com/de/blog/how-to-use-flashcards-for-language-learning/)
+- [Wie du 2026 Flashcards fürs Sprachenlernen nutzt: Vokabeln, Beispielsätze und Wiederholungen, die wirklich hängen bleiben](https://nibomo.com/de/blog/how-to-use-flashcards-for-language-learning/)
 
 ## KI kann beim Entwurf von GRE-Flashcards helfen, erklärt aber meistens zu viel
 
@@ -243,12 +243,12 @@ Die Korrektur ist einfach: Lass KI schnell entwerfen und kürze dann hart.
 
 Wenn dein Rohmaterial als Notizen, Artikelauszüge oder Fragen-Reviews beginnt, helfen diese Workflows schon weiter oben im Prozess:
 
-- [Wie du 2026 Notizen in Flashcards verwandelst: KI-Entwürfe mit FSRS statt manuellem Kopieren und Einfügen](https://flashcards-open-source-app.com/de/blog/turn-notes-into-flashcards/)
-- [Wie du 2026 einen Artikel in Flashcards verwandelst: Die wichtigen Ideen behalten statt Highlights zu horten](https://flashcards-open-source-app.com/de/blog/how-to-turn-an-article-into-flashcards/)
+- [Wie du 2026 Notizen in Flashcards verwandelst: KI-Entwürfe mit FSRS statt manuellem Kopieren und Einfügen](https://nibomo.com/de/blog/turn-notes-into-flashcards/)
+- [Wie du 2026 einen Artikel in Flashcards verwandelst: Die wichtigen Ideen behalten statt Highlights zu horten](https://nibomo.com/de/blog/how-to-turn-an-article-into-flashcards/)
 
 ## Wo Flashcards in diesem GRE-Workflow passt
 
-Wenn du das mit [Nibomo](https://flashcards-open-source-app.com/de/) umsetzen willst, ist der nützliche Teil nicht die vage Behauptung, dass "KI das Lernen einfacher macht". Der nützliche Teil ist, dass das aktuelle Produkt schon den praktischen Mittelteil dieses Workflows unterstützt:
+Wenn du das mit [Nibomo](https://nibomo.com/de/) umsetzen willst, ist der nützliche Teil nicht die vage Behauptung, dass "KI das Lernen einfacher macht". Der nützliche Teil ist, dass das aktuelle Produkt schon den praktischen Mittelteil dieses Workflows unterstützt:
 
 - Erstellung und Bearbeitung von Vorder-/Rückseiten-Karten
 - KI-Chat für Entwurf und Bereinigung
@@ -274,9 +274,9 @@ Das ist die Version eines **GRE-Vokabeldecks**, der ich trauen würde.
 
 Wenn du diesen Workflow in Flashcards ausprobieren willst:
 
-- [Starte mit Flashcards](https://flashcards-open-source-app.com/de/)
+- [Starte mit Flashcards](https://nibomo.com/de/)
 - [Öffne die Web-App](https://app.flashcards-open-source-app.com/)
-- [Lies die Getting-Started-Anleitung](https://flashcards-open-source-app.com/de/docs/getting-started/)
+- [Lies die Getting-Started-Anleitung](https://nibomo.com/de/docs/getting-started/)
 - [Sieh dir den Source Code auf GitHub an](https://github.com/kirill-markin/flashcards-open-source-app)
 
 Das Ziel ist nicht, immer schwierigere Wörter zu sammeln. Das Ziel ist, dass die richtige Bedeutung schneller auftaucht, wenn der Satz eine Wendung nimmt, die Antwortoptionen rutschig werden und die Uhr schon läuft.

@@ -100,7 +100,7 @@ El SAT Digital premia reconocer rápido qué es lo que está mal. Tu mazo de gra
 
 Si tu problema principal es más la calidad de las tarjetas que la estrategia específica para el SAT, lee esto después:
 
-- [Cómo hacer mejores flashcards en 2026](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [Cómo hacer mejores flashcards en 2026](https://nibomo.com/blog/how-to-make-better-flashcards/)
 
 ## Las flashcards de matemáticas SAT deberían guardar por separado fórmulas y procesos
 
@@ -166,7 +166,7 @@ Yo no convertiría la pregunta entera en una tarjeta gigante. La reduciría al p
 
 Si justo esa parte del flujo es la que más necesitas, éste es el artículo complementario directo:
 
-- [Cómo convertir preguntas de práctica en flashcards en 2026](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/)
+- [Cómo convertir preguntas de práctica en flashcards en 2026](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/)
 
 ## Un único formato de tarjeta SAT no sirve para los cuatro tipos de problema
 
@@ -202,7 +202,7 @@ Eso funciona mejor que construir un mazo gigantesco el domingo y empezar a evita
 
 Si tu mayor problema es la estructura y no tanto escribir tarjetas, lee esto después:
 
-- [Cómo organizar flashcards en 2026](https://flashcards-open-source-app.com/blog/how-to-organize-flashcards/)
+- [Cómo organizar flashcards en 2026](https://nibomo.com/blog/how-to-organize-flashcards/)
 
 ## Probablemente no necesitas miles de flashcards para el SAT
 
@@ -228,7 +228,7 @@ Eso te da un flujo más limpio de **cómo estudiar para el SAT Digital** que un 
 
 Si tu número de repasos ya está subiendo demasiado rápido, este artículo encaja bien con el flujo SAT:
 
-- [¿Cuántas flashcards nuevas por día en 2026?](https://flashcards-open-source-app.com/blog/how-many-new-flashcards-per-day/)
+- [¿Cuántas flashcards nuevas por día en 2026?](https://nibomo.com/blog/how-many-new-flashcards-per-day/)
 
 ## FSRS ayuda más cuando tu horario de estudio del SAT es irregular
 
@@ -255,12 +255,12 @@ Así que yo mantendría el orden simple:
 
 Si quieres más detalle sobre la parte de planificación, estos dos artículos encajan mejor:
 
-- [Cómo estudiar para un examen con FSRS en 2026](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/)
-- [FSRS vs SM-2 en 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [Cómo estudiar para un examen con FSRS en 2026](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)
+- [FSRS vs SM-2 en 2026](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
 ## Dónde encaja Flashcards en este flujo del SAT Digital
 
-[Nibomo](https://flashcards-open-source-app.com/) encaja bien para **flashcards para el SAT Digital** porque el producto actual ya soporta las partes de las que depende este flujo:
+[Nibomo](https://nibomo.com/) encaja bien para **flashcards para el SAT Digital** porque el producto actual ya soporta las partes de las que depende este flujo:
 
 - creación y edición de tarjetas anverso/reverso
 - chat con IA para redactar tarjetas candidatas a partir de apuntes, explicaciones pegadas o revisión de exámenes de práctica
@@ -275,8 +275,8 @@ Esa combinación importa porque la preparación del SAT Digital tiende a dispers
 
 Si tu material de preparación del SAT sigue atascado un paso antes, estos artículos ayudan con la parte de entrada:
 
-- [Cómo convertir apuntes en flashcards en 2026](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
-- [Cómo convertir un PDF en flashcards en 2026](https://flashcards-open-source-app.com/blog/how-to-turn-a-pdf-into-flashcards/)
+- [Cómo convertir apuntes en flashcards en 2026](https://nibomo.com/blog/turn-notes-into-flashcards/)
+- [Cómo convertir un PDF en flashcards en 2026](https://nibomo.com/blog/how-to-turn-a-pdf-into-flashcards/)
 
 ## Construye el mazo SAT que corrige errores repetidos
 

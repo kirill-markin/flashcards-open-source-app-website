@@ -149,11 +149,11 @@ If the scheduler is strong, the whole workflow becomes more believable. Draft fr
 
 If you want the scheduling side in more detail, this companion article goes deeper:
 
-- [FSRS vs SM-2 in 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [FSRS vs SM-2 in 2026](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
 ## Where Flashcards fits this workflow
 
-[Nibomo](https://flashcards-open-source-app.com/) works well for **turn pdf into flashcards** because the product already has the parts that matter in one place:
+[Nibomo](https://nibomo.com/) works well for **turn pdf into flashcards** because the product already has the parts that matter in one place:
 
 - AI chat
 - file attachments
@@ -194,7 +194,7 @@ That changes the editing burden. It also changes the search intent. People looki
 
 If your source is already plain text rather than a document, this companion piece is the better fit:
 
-- [How to Turn Notes Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
+- [How to Turn Notes Into Flashcards in 2026](https://nibomo.com/blog/turn-notes-into-flashcards/)
 
 ## The better rule
 
@@ -204,4 +204,4 @@ Ask it to become raw material for a better draft.
 
 That is the version of **how to turn a PDF into flashcards** I actually trust. It is less magical, a little more manual, and much more likely to produce cards you will still respect after three review sessions.
 
-If that is the workflow you want, [Nibomo](https://flashcards-open-source-app.com/) is a strong fit: upload the document, draft cards with AI, clean them up, and then study them inside a real spaced repetition system instead of leaving them stranded in a generation demo.
+If that is the workflow you want, [Nibomo](https://nibomo.com/) is a strong fit: upload the document, draft cards with AI, clean them up, and then study them inside a real spaced repetition system instead of leaving them stranded in a generation demo.

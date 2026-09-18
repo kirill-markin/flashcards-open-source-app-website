@@ -200,7 +200,7 @@ Der kurzfristige Fokus kann sich trotzdem schnell ändern.
 
 Wenn du die breitere Organisationsseite willst, passt dieser Artikel gut als Nächstes:
 
-- [Wie du 2026 Flashcards organisierst: Decks, Tags, Themen statt eines chaotischen Haufens](https://flashcards-open-source-app.com/blog/how-to-organize-flashcards/)
+- [Wie du 2026 Flashcards organisierst: Decks, Tags, Themen statt eines chaotischen Haufens](https://nibomo.com/blog/how-to-organize-flashcards/)
 
 ## Die Karte sollte einfacher sein als die Erklärung, die du gelesen hast
 
@@ -257,7 +257,7 @@ Der Engpass bleibt dein Urteilsvermögen.
 
 Wenn du tiefer in den KI-Teil einsteigen willst, fang hier an:
 
-- [Wie du 2026 mit ChatGPT bessere Lernkarten erstellst: klarere Prompts, bessere Karten, bessere Wiederholung mit FSRS](https://flashcards-open-source-app.com/blog/how-to-use-chatgpt-to-make-flashcards/)
+- [Wie du 2026 mit ChatGPT bessere Lernkarten erstellst: klarere Prompts, bessere Karten, bessere Wiederholung mit FSRS](https://nibomo.com/blog/how-to-use-chatgpt-to-make-flashcards/)
 
 ## Ein Flashcard-Workflow für Coding-Interviews, den ich wirklich nutzen würde
 
@@ -278,7 +278,7 @@ Du musst nur aufhören, dieselben fünfzehn Lektionen immer wieder zu vergessen.
 
 ## Wo Nibomo gut passt
 
-[Nibomo](https://flashcards-open-source-app.com/) passt gut zu **Flashcards für Coding-Interviews**, weil das Produkt die Teile bereits unterstützt, auf die es wirklich ankommt:
+[Nibomo](https://nibomo.com/) passt gut zu **Flashcards für Coding-Interviews**, weil das Produkt die Teile bereits unterstützt, auf die es wirklich ankommt:
 
 - FSRS-Planung für regelmäßige Wiederholungen ohne manuelles Intervall-Tuning
 - Decks, Tags, Suche und gefilterte Decks nach Tag und Aufwand
@@ -292,11 +292,11 @@ Diese Mischung ist wichtig, weil **Algorithmus-Flashcards** nur funktionieren, w
 
 Wenn dein größeres Problem eher die Kartenqualität als interview-spezifischer Inhalt ist, passt dieser Artikel gut:
 
-- [Wie du 2026 bessere Flashcards erstellst: Kartendesign, Formulierung und Beispiele, die wirklich hängen bleiben](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [Wie du 2026 bessere Flashcards erstellst: Kartendesign, Formulierung und Beispiele, die wirklich hängen bleiben](https://nibomo.com/blog/how-to-make-better-flashcards/)
 
 Wenn sich deine Review-Warteschlange bereits gefährlich anfühlt, fang hier an:
 
-- [Wie du 2026 bei Flashcards wieder aufholst, nachdem du zurückgefallen bist: FSRS-Rettungsplan statt Schuldgefühle](https://flashcards-open-source-app.com/blog/how-to-catch-up-on-flashcards-after-falling-behind/)
+- [Wie du 2026 bei Flashcards wieder aufholst, nachdem du zurückgefallen bist: FSRS-Rettungsplan statt Schuldgefühle](https://nibomo.com/blog/how-to-catch-up-on-flashcards-after-falling-behind/)
 
 ## Die nützliche Regel
 

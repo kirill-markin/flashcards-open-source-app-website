@@ -92,7 +92,7 @@ keywords:
 
 إذا كانت أسئلة التدريب هي مصدرك الأساسي، فهذه المقالة المرافقة مناسبة مباشرة:
 
-- [كيف تحوّل أسئلة التدريب إلى بطاقات تعليمية في 2026](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/)
+- [كيف تحوّل أسئلة التدريب إلى بطاقات تعليمية في 2026](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/)
 
 ## أربعة أنواع من البطاقات تعمل جيدًا جدًا في التحضير لاختبارات الذكاء الاصطناعي
 
@@ -178,7 +178,7 @@ keywords:
 
 إذا أردت جانب التنظيم بمزيد من التفصيل، فاقرأ هذا بعده:
 
-- [كيف تنظّم البطاقات التعليمية في 2026](https://flashcards-open-source-app.com/blog/how-to-organize-flashcards/)
+- [كيف تنظّم البطاقات التعليمية في 2026](https://nibomo.com/blog/how-to-organize-flashcards/)
 
 ## ينبغي أن يكون سير العمل الأسبوعي مملًا عن قصد
 
@@ -202,7 +202,7 @@ keywords:
 
 إذا كانت مشكلة عبء المراجعة هي المشكلة الحقيقية لديك، فهذه المقالة تناسب التحضير للشهادات أيضًا:
 
-- [كيف تذاكر لاختبار باستخدام FSRS في 2026](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/)
+- [كيف تذاكر لاختبار باستخدام FSRS في 2026](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)
 
 ## احتفظ بالحقائق الحساسة للتحديث في طبقة مؤقتة أصغر
 
@@ -242,11 +242,11 @@ keywords:
 
 إذا كانت المشكلة الأساسية هي جودة البطاقة نفسها، فهذه هي المقالة التالية التي سأفتحها:
 
-- [كيف تنشئ بطاقات تعليمية أفضل في 2026](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [كيف تنشئ بطاقات تعليمية أفضل في 2026](https://nibomo.com/blog/how-to-make-better-flashcards/)
 
 ## أين يبرز Flashcards في هذا الأسلوب
 
-[Nibomo](https://flashcards-open-source-app.com/) مناسب جدًا لهذا النوع من التحضير للشهادات، لأن المنتج يوفّر أصلًا الأجزاء التي يعتمد عليها هذا الأسلوب:
+[Nibomo](https://nibomo.com/) مناسب جدًا لهذا النوع من التحضير للشهادات، لأن المنتج يوفّر أصلًا الأجزاء التي يعتمد عليها هذا الأسلوب:
 
 - بطاقات أمام/خلف لصياغة أهداف استرجاع نظيفة
 - محادثة `AI` لصياغة المسودات انطلاقًا من الملاحظات، والأدلة الدراسية، ومواد مراجعة الأسئلة
@@ -276,7 +276,7 @@ keywords:
 
 إذا أردت تجربة هذا الأسلوب:
 
-- [افتح Flashcards](https://flashcards-open-source-app.com/)
+- [افتح Flashcards](https://nibomo.com/)
 - [افتح التطبيق](https://app.flashcards-open-source-app.com/)
-- [اطّلع على صفحة الميزات](https://flashcards-open-source-app.com/features/)
+- [اطّلع على صفحة الميزات](https://nibomo.com/features/)
 - [اعرض المصدر على GitHub](https://github.com/kirill-markin/flashcards-open-source-app)

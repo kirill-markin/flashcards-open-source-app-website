@@ -88,7 +88,7 @@ AP Biology के questions में कठिन हिस्सा अक्�
 
 ऐसे cards बेहतर काम करते हैं, क्योंकि वे उसी choice को train करते हैं जो आपको exam pressure में करनी होती है।
 
-अगर आपकी बड़ी दिक्कत subject choice नहीं, card quality है, तो [2026 में बेहतर फ़्लैशकार्ड कैसे बनाएँ](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/) अगला सही article है।
+अगर आपकी बड़ी दिक्कत subject choice नहीं, card quality है, तो [2026 में बेहतर फ़्लैशकार्ड कैसे बनाएँ](https://nibomo.com/blog/how-to-make-better-flashcards/) अगला सही article है।
 
 ## Processes को एक heroic card में न समेटें, checkpoints में तोड़ें
 
@@ -145,7 +145,7 @@ AP Biology उन subjects में से है जहाँ students को 
 - किसी control को **negative control** क्या बनाता है, positive control नहीं?
 - AP Biology का कोई setup कब सिर्फ pattern नहीं, **cause** वाला claim support करता है?
 
-अगर सबसे अच्छे cards वही हैं जो आपने practice में miss किए, तो [2026 में अभ्यास प्रश्नों को फ़्लैशकार्ड में कैसे बदलें](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/) यहीं सीधे बैठता है।
+अगर सबसे अच्छे cards वही हैं जो आपने practice में miss किए, तो [2026 में अभ्यास प्रश्नों को फ़्लैशकार्ड में कैसे बदलें](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/) यहीं सीधे बैठता है।
 
 ## FRQ prep तब बेहतर काम करता है जब card reasoning move को सहेजकर रखे
 
@@ -213,7 +213,7 @@ Students अक्सर save कर लेते हैं:
 4. Vague cards को जल्दी delete कर दीजिए।
 5. नए cards अपनी ambition से कम रखिए, खासकर जब exam पास आ जाए।
 
-अगर daily load बेवकूफ़ी भरा लगने लगे, तो [2026 में हर दिन कितने नए Flashcards बनाने चाहिए?](https://flashcards-open-source-app.com/blog/how-many-new-flashcards-per-day/) अगला बेहतर article है।
+अगर daily load बेवकूफ़ी भरा लगने लगे, तो [2026 में हर दिन कितने नए Flashcards बनाने चाहिए?](https://nibomo.com/blog/how-many-new-flashcards-per-day/) अगला बेहतर article है।
 
 ## FSRS तब मदद करता है जब AP Biology cards सब कुछ करने की कोशिश छोड़ दें
 
@@ -232,11 +232,11 @@ AP Biology review बहुत सामान्य तरीके से अ�
 3. weak cards को जल्दी delete कीजिए
 4. timing FSRS पर छोड़ दीजिए
 
-अगर scheduling side को और detail में समझना है, तो [2026 में FSRS के साथ exam की तैयारी कैसे करें](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/) इसका सीधा companion article है।
+अगर scheduling side को और detail में समझना है, तो [2026 में FSRS के साथ exam की तैयारी कैसे करें](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/) इसका सीधा companion article है।
 
 ## इस AP Biology workflow में Flashcards कहाँ बैठता है
 
-अगर आप इसे [Nibomo](https://flashcards-open-source-app.com/) के अंदर चलाना चाहते हैं, तो उपयोगी हिस्सा यह नहीं है कि AI किसी जादू से आपके लिए biology सीख लेगा।
+अगर आप इसे [Nibomo](https://nibomo.com/) के अंदर चलाना चाहते हैं, तो उपयोगी हिस्सा यह नहीं है कि AI किसी जादू से आपके लिए biology सीख लेगा।
 
 उपयोगी हिस्सा यह है कि product पहले से workflow के बीच वाले मुश्किल हिस्से को cover करता है:
 

@@ -160,15 +160,15 @@ notebook photo आम तौर पर ज़्यादा personal, ज़्
 
 अगर आपका source पहले से साफ़ text है, तो यह companion piece बेहतर match है:
 
-- [2026 में Notes को Flashcards में कैसे बदलें](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
+- [2026 में Notes को Flashcards में कैसे बदलें](https://nibomo.com/blog/turn-notes-into-flashcards/)
 
 और अगर source document या lecture slides है, तो यह ज़्यादा क़रीब है:
 
-- [2026 में PDF को Flashcards में कैसे बदलें](https://flashcards-open-source-app.com/blog/how-to-turn-a-pdf-into-flashcards/)
+- [2026 में PDF को Flashcards में कैसे बदलें](https://nibomo.com/blog/how-to-turn-a-pdf-into-flashcards/)
 
 ## इस workflow में Flashcards कहाँ फिट बैठता है
 
-[Nibomo](https://flashcards-open-source-app.com/) **handwritten notes से flashcards** के लिए अच्छा fit है क्योंकि product में पहले से वे हिस्से एक साथ हैं जो मायने रखते हैं:
+[Nibomo](https://nibomo.com/) **handwritten notes से flashcards** के लिए अच्छा fit है क्योंकि product में पहले से वे हिस्से एक साथ हैं जो मायने रखते हैं:
 
 - AI chat
 - image और file attachments
@@ -196,7 +196,7 @@ photos से draft करो। cards साफ़ करो। फिर timin
 
 अगर आप scheduling side को detail में समझना चाहते हैं, तो यह companion article और गहराई में जाती है:
 
-- [2026 में FSRS बनाम SM-2](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [2026 में FSRS बनाम SM-2](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
 ## बेहतर नियम
 
@@ -210,9 +210,9 @@ messy notebook photos से यह मत कहिए कि वे एक ह
 
 अगर आप यही चाहते हैं, तो यहाँ से शुरू करें:
 
-- [Open Nibomo](https://flashcards-open-source-app.com/)
+- [Open Nibomo](https://nibomo.com/)
 - [ऐप खोलें](https://app.flashcards-open-source-app.com/)
-- [getting started guide पढ़ें](https://flashcards-open-source-app.com/docs/getting-started/)
+- [getting started guide पढ़ें](https://nibomo.com/docs/getting-started/)
 - [GitHub पर source देखें](https://github.com/kirill-markin/flashcards-open-source-app)
 
 आपकी notes सुंदर होने की ज़रूरत नहीं है।

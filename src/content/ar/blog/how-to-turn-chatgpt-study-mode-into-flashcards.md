@@ -136,7 +136,7 @@ keywords:
 
 إذا كنت تريد نسخة أعمق من هذه الحجة من زاوية جودة البطاقات، فهذه المقالة المرافقة تذهب أبعد:
 
-- [كيفية إنشاء بطاقات تعليمية أفضل في 2026](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [كيفية إنشاء بطاقات تعليمية أفضل في 2026](https://nibomo.com/blog/how-to-make-better-flashcards/)
 
 ## هذا ينطبق أيضًا على Gemini Guided Learning، وليس على ChatGPT فقط
 
@@ -182,8 +182,8 @@ keywords:
 
 إذا كان إرهاق المراجعة هو مشكلتك أصلًا، فهاتان المقالتان تكملان هذه الفكرة مباشرة:
 
-- [كم عدد البطاقات التعليمية الجديدة يوميًا في 2026؟](https://flashcards-open-source-app.com/blog/how-many-new-flashcards-per-day/)
-- [كيف تلحق بالبطاقات التعليمية بعد أن تتأخر عنها في 2026](https://flashcards-open-source-app.com/blog/how-to-catch-up-on-flashcards-after-falling-behind/)
+- [كم عدد البطاقات التعليمية الجديدة يوميًا في 2026؟](https://nibomo.com/blog/how-many-new-flashcards-per-day/)
+- [كيف تلحق بالبطاقات التعليمية بعد أن تتأخر عنها في 2026](https://nibomo.com/blog/how-to-catch-up-on-flashcards-after-falling-behind/)
 
 ## الصياغة الأفضل ليست: "أنشئ بطاقات تعليمية من هذا"
 
@@ -201,11 +201,11 @@ keywords:
 
 إذا كان سير عملك يبدأ أبكر من ذلك، قبل Study Mode وقبل جلسة التعليم نفسها، فهذه المقالة المرافقة تغطي مسار الإنشاء الأكثر مباشرة:
 
-- [كيفية استخدام ChatGPT لإنشاء بطاقات تعليمية في 2026](https://flashcards-open-source-app.com/blog/how-to-use-chatgpt-to-make-flashcards/)
+- [كيفية استخدام ChatGPT لإنشاء بطاقات تعليمية في 2026](https://nibomo.com/blog/how-to-use-chatgpt-to-make-flashcards/)
 
 وإذا كان المصدر يبدأ كدليل دراسي أو دفتر ملاحظات بدلًا من جلسة تعليم، فهذه تناسب أيضًا:
 
-- [كيفية تحويل NotebookLM Flashcards إلى تكرار متباعد حقيقي في 2026](https://flashcards-open-source-app.com/blog/notebooklm-flashcards-to-spaced-repetition/)
+- [كيفية تحويل NotebookLM Flashcards إلى تكرار متباعد حقيقي في 2026](https://nibomo.com/blog/notebooklm-flashcards-to-spaced-repetition/)
 
 ## FSRS هو الجزء الذي يحوّل الجلسة الجيدة إلى احتفاظ طويل المدى
 
@@ -225,11 +225,11 @@ keywords:
 
 إذا أردت مقارنة الخوارزميات نفسها، فهذه المقالة أعمق:
 
-- [FSRS مقابل SM-2 في 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [FSRS مقابل SM-2 في 2026](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
 ## لماذا يناسب Flashcards هذا سير العمل أكثر
 
-[Nibomo](https://flashcards-open-source-app.com/) مناسب جدًا لسير عمل **تحويل ChatGPT Study Mode إلى بطاقات تعليمية**، لأن المنتج يغطي الجزء الذي لا يحله التعليم بالذكاء الاصطناعي بمفرده حتى الآن:
+[Nibomo](https://nibomo.com/) مناسب جدًا لسير عمل **تحويل ChatGPT Study Mode إلى بطاقات تعليمية**، لأن المنتج يغطي الجزء الذي لا يحله التعليم بالذكاء الاصطناعي بمفرده حتى الآن:
 
 - بطاقات بوجه أمامي ووجه خلفي بدلًا من الاكتفاء بذاكرة مبنية على الدردشة
 - دردشة AI للتشذيب والصياغة الأولية
@@ -262,9 +262,9 @@ keywords:
 
 إذا كان هذا ما تريده، فابدأ من هنا:
 
-- [افتح Flashcards](https://flashcards-open-source-app.com/)
+- [افتح Flashcards](https://nibomo.com/)
 - [افتح التطبيق](https://app.flashcards-open-source-app.com/)
-- [اطّلع على المزايا](https://flashcards-open-source-app.com/features/)
+- [اطّلع على المزايا](https://nibomo.com/features/)
 - [اعرض المصدر على GitHub](https://github.com/kirill-markin/flashcards-open-source-app)
 
 المعلّم يساعدك على فهم الفكرة اليوم.

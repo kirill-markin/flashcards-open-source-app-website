@@ -59,7 +59,7 @@ I would treat the exam guide as a boundary, not as a transcription project. Add 
 
 Skip cards that only prove you visited an AWS page once.
 
-The same general rule applies across certification prep. If you want the broader multi-certification version, [How to Use Flashcards for AI Certifications in 2026](https://flashcards-open-source-app.com/blog/how-to-use-flashcards-for-ai-certifications/) makes a similar point from a different angle.
+The same general rule applies across certification prep. If you want the broader multi-certification version, [How to Use Flashcards for AI Certifications in 2026](https://nibomo.com/blog/how-to-use-flashcards-for-ai-certifications/) makes a similar point from a different angle.
 
 ## The best SAA-C03 cards are about choices, not definitions
 
@@ -142,7 +142,7 @@ After every miss, I would write down three things before turning anything into a
 
 That turns practice material into something reviewable instead of something merely frustrating.
 
-If that workflow is your main bottleneck, [How to Fix AI Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-fix-ai-flashcards/) helps with the cleanup pass after you draft cards from misses.
+If that workflow is your main bottleneck, [How to Fix AI Flashcards in 2026](https://nibomo.com/blog/how-to-fix-ai-flashcards/) helps with the cleanup pass after you draft cards from misses.
 
 ## Service short names deserve a little extra attention
 
@@ -179,7 +179,7 @@ Useful tags might be:
 - `missed`
 - `needs-recheck`
 
-That structure stays calm while still letting you pull focused subsets before a study block. If you want the organization side in more detail, [How to Organize Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-organize-flashcards/) is the right companion piece.
+That structure stays calm while still letting you pull focused subsets before a study block. If you want the organization side in more detail, [How to Organize Flashcards in 2026](https://nibomo.com/blog/how-to-organize-flashcards/) is the right companion piece.
 
 ## Use AI to draft cards from reasoning, then edit them hard
 
@@ -196,7 +196,7 @@ I would use AI for things like:
 
 I would not export entire AI conversations into the deck.
 
-Certification decks get better when AI helps with compression and cleanup, not when it floods the queue with polished nonsense. [How to Make Better Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/) goes deeper on that editing standard.
+Certification decks get better when AI helps with compression and cleanup, not when it floods the queue with polished nonsense. [How to Make Better Flashcards in 2026](https://nibomo.com/blog/how-to-make-better-flashcards/) goes deeper on that editing standard.
 
 ## A boring weekly rhythm works better than heroic AWS binge sessions
 
@@ -216,7 +216,7 @@ Not:
 - one giant deck import from a study guide
 - one hundred new cards because the names looked important
 
-This is where [How to Study for an Exam With FSRS in 2026](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/) fits directly. The scheduler helps, but it still works best when the card load stays small enough to finish.
+This is where [How to Study for an Exam With FSRS in 2026](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/) fits directly. The scheduler helps, but it still works best when the card load stays small enough to finish.
 
 ## Keep exam logistics and volatile facts in a smaller temporary layer
 
@@ -235,7 +235,7 @@ I would keep exam logistics in a lighter tagged subset like `exam-facts` or `nee
 
 ## Where Flashcards fits this workflow well
 
-[Nibomo](https://flashcards-open-source-app.com/) is a good fit for this kind of exam prep because the product supports both halves of the job without pretending they are the same thing.
+[Nibomo](https://nibomo.com/) is a good fit for this kind of exam prep because the product supports both halves of the job without pretending they are the same thing.
 
 You can:
 
@@ -259,6 +259,6 @@ I would start with:
 
 That is the deck that actually changes your score.
 
-And if your current cards still feel too broad, [How to Turn Practice Questions Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/) is the better next read because SAA-C03 decks usually improve fastest when the raw material comes from misses instead of summaries.
+And if your current cards still feel too broad, [How to Turn Practice Questions Into Flashcards in 2026](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/) is the better next read because SAA-C03 decks usually improve fastest when the raw material comes from misses instead of summaries.
 
 For SAA-C03, the clean version is simple: study the official domains, mine practice misses aggressively, make smaller trade-off cards than you think you need, and let FSRS handle the review timing. That is usually enough to make the right AWS answer show up faster when the scenario wording gets slippery.

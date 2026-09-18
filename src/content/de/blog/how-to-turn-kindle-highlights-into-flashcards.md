@@ -152,7 +152,7 @@ Das ist viel näher an einem brauchbaren Kindle-zu-Anki-Workflow, als Zitate ein
 
 Wenn du die allgemeineren Regeln für gute Karten suchst, fang hier an:
 
-- [Wie du 2026 bessere Flashcards erstellst: Regeln für Vorder- und Rückseiten, die mit FSRS wirklich funktionieren](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [Wie du 2026 bessere Flashcards erstellst: Regeln für Vorder- und Rückseiten, die mit FSRS wirklich funktionieren](https://nibomo.com/blog/how-to-make-better-flashcards/)
 
 ## Sachbücher, Lehrbücher und Sprachbücher brauchen nicht denselben Kartentyp
 
@@ -188,7 +188,7 @@ Darum gibt es keinen einzigen Workflow, um mehr vom Gelesenen zu behalten. Das b
 
 Wenn dein Ziel eher Sprachpraxis als allgemeines Lesen ist, passt dieser Begleitartikel besser:
 
-- [Wie du 2026 Flashcards fürs Sprachenlernen nutzt: Vokabeln, Sätze und Reviews, die wirklich hängen bleiben](https://flashcards-open-source-app.com/blog/how-to-use-flashcards-for-language-learning/)
+- [Wie du 2026 Flashcards fürs Sprachenlernen nutzt: Vokabeln, Sätze und Reviews, die wirklich hängen bleiben](https://nibomo.com/blog/how-to-use-flashcards-for-language-learning/)
 
 ## Kindle-Highlights sind besonders tückisch, weil sie organisierter wirken, als sie sind
 
@@ -225,11 +225,11 @@ FSRS geht mit dieser Realität besser um als starre Wiederholungsregeln.
 
 Wenn du den Scheduling-Teil genauer verstehen willst, geht dieser Artikel tiefer:
 
-- [FSRS vs SM-2 in 2026: Welcher Spaced-Repetition-Algorithmus hilft dir, mehr zu behalten?](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [FSRS vs SM-2 in 2026: Welcher Spaced-Repetition-Algorithmus hilft dir, mehr zu behalten?](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
 ## Wo Flashcards in diesen Workflow passt
 
-[Nibomo](https://flashcards-open-source-app.com/) passt gut zu diesem Workflow, weil das Produkt die praktischen Teile bereits abdeckt:
+[Nibomo](https://nibomo.com/) passt gut zu diesem Workflow, weil das Produkt die praktischen Teile bereits abdeckt:
 
 - Text aus exportierten Highlights einfügen oder hochladen
 - das Material im KI-Chat bereinigen, bevor Karten entstehen
@@ -241,7 +241,7 @@ Diese Kombination ist wichtig, weil die eigentliche Schwierigkeit nicht darin li
 
 Wenn deine Quelle eher aus breiteren Notizen als aus E-Book-Highlights besteht, passt dieser Begleitartikel besser:
 
-- [Wie du 2026 Notizen in Flashcards verwandelst: KI-Entwürfe mit FSRS statt manuellem Copy-and-paste](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
+- [Wie du 2026 Notizen in Flashcards verwandelst: KI-Entwürfe mit FSRS statt manuellem Copy-and-paste](https://nibomo.com/blog/turn-notes-into-flashcards/)
 
 ## Die nützliche Regel
 

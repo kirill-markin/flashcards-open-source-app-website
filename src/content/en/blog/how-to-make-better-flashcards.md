@@ -171,8 +171,8 @@ That is much more effective than asking a model for "50 perfect flashcards" and 
 
 If you are using AI upstream, these guides fit well too:
 
-- [How to Use ChatGPT to Make Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-use-chatgpt-to-make-flashcards/)
-- [How to Turn Notes Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
+- [How to Use ChatGPT to Make Flashcards in 2026](https://nibomo.com/blog/how-to-use-chatgpt-to-make-flashcards/)
+- [How to Turn Notes Into Flashcards in 2026](https://nibomo.com/blog/turn-notes-into-flashcards/)
 
 ## The card should test memory, not recognition theater
 
@@ -213,8 +213,8 @@ That is not an algorithm problem. That is a card-writing problem pretending to b
 
 If you want the scheduling side in more detail, start here:
 
-- [FSRS vs SM-2 in 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
-- [How Many New Flashcards Per Day in 2026](https://flashcards-open-source-app.com/blog/how-many-new-flashcards-per-day/)
+- [FSRS vs SM-2 in 2026](https://nibomo.com/blog/fsrs-vs-sm-2/)
+- [How Many New Flashcards Per Day in 2026](https://nibomo.com/blog/how-many-new-flashcards-per-day/)
 
 ## The fastest edit is deletion
 
@@ -238,7 +238,7 @@ The deck gets better when the bad cards leave.
 
 ## Why Flashcards fits this workflow well
 
-[Nibomo](https://flashcards-open-source-app.com/) is a strong fit for **how to make effective flashcards** because the product is built around the parts that matter after drafting:
+[Nibomo](https://nibomo.com/) is a strong fit for **how to make effective flashcards** because the product is built around the parts that matter after drafting:
 
 - real front/back cards
 - decks and tags
@@ -263,9 +263,9 @@ That is the version of **what makes a good flashcard** I actually trust.
 
 If you want a practical **flashcard front and back** system that still works once the novelty of AI generation wears off, start here:
 
-- [Open Nibomo](https://flashcards-open-source-app.com/)
+- [Open Nibomo](https://nibomo.com/)
 - [Open the app](https://app.flashcards-open-source-app.com/)
-- [Read the self-hosting guide](https://flashcards-open-source-app.com/docs/self-hosting/)
+- [Read the self-hosting guide](https://nibomo.com/docs/self-hosting/)
 - [View the source on GitHub](https://github.com/kirill-markin/flashcards-open-source-app)
 
 Making flashcards is easy now.

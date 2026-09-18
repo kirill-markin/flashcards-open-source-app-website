@@ -246,7 +246,7 @@ That keeps the deck aligned with actual retrieval. Flashcards will not solve PBQ
 
 If missed questions are your main source, this article is the natural companion:
 
-- [How to Turn Practice Questions Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/)
+- [How to Turn Practice Questions Into Flashcards in 2026](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/)
 
 ## Do not build one shapeless Security+ deck
 
@@ -281,7 +281,7 @@ That gives you something much more usable than one flat pile. It also makes it e
 
 If organization is the bigger problem than card writing, read this next:
 
-- [How to Organize Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-organize-flashcards/)
+- [How to Organize Flashcards in 2026](https://nibomo.com/blog/how-to-organize-flashcards/)
 
 ## Your weekly workflow should stay boring
 
@@ -302,7 +302,7 @@ I would also stay away from leaked-question culture and exam dumps. They make th
 
 If you are getting sloppy card drafts from AI, this companion piece helps:
 
-- [How to Make Better Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [How to Make Better Flashcards in 2026](https://nibomo.com/blog/how-to-make-better-flashcards/)
 
 ## FSRS helps Security+ prep only after the deck gets narrower
 
@@ -323,7 +323,7 @@ That is what makes **CompTIA Security+ flashcards** sustainable. The scheduler h
 
 If you want the exam-planning side of that workflow, this article goes deeper:
 
-- [How to Study for an Exam With FSRS in 2026](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/)
+- [How to Study for an Exam With FSRS in 2026](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)
 
 ## Offline review matters more for certification prep than people admit
 
@@ -340,11 +340,11 @@ That is one reason I like offline-first review for this kind of exam. You should
 
 If that matters to your study setup, this one is worth reading too:
 
-- [Best Offline Flashcards App in 2026](https://flashcards-open-source-app.com/blog/best-offline-flashcards-app/)
+- [Best Offline Flashcards App in 2026](https://nibomo.com/blog/best-offline-flashcards-app/)
 
 ## Where Flashcards fits this workflow well
 
-[Nibomo](https://flashcards-open-source-app.com/) is a strong fit for **Security+ flashcards** because the product already matches the workflow instead of forcing you to improvise across five tools.
+[Nibomo](https://nibomo.com/) is a strong fit for **Security+ flashcards** because the product already matches the workflow instead of forcing you to improvise across five tools.
 
 [CompTIA Security+ SY0-701 Flashcards: Complete Objective Review](/catalog/packages/comptia-security-plus-sy0-701-flashcards/) contains 744 original open-response cards across all five current SY0-701 domains. It is not affiliated with or endorsed by CompTIA and excludes copied exam material, exam dumps, multiple-choice practice, and raw objective wording.
 

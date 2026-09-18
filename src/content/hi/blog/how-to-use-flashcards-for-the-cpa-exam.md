@@ -181,7 +181,7 @@ Core sections स्थिर हैं: AUD, FAR, और REG। Discipline sect
 
 अगर simulation review पहले से ही आपके cards का सबसे अच्छा source है, तो यह direct companion workflow है:
 
-- [How to Turn Practice Questions Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/)
+- [How to Turn Practice Questions Into Flashcards in 2026](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/)
 
 ## Misses-to-cards workflow, outline copying से CPA prep पर बेहतर बैठता है
 
@@ -207,11 +207,11 @@ Outlines साफ़ होती हैं। Misses ईमानदार ह
 
 अगर card-writing वाला हिस्सा बार-बार ढीला और धुंधला लगने लगे, तो यह लेख आगे पढ़ें:
 
-- [How to Make Better Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [How to Make Better Flashcards in 2026](https://nibomo.com/blog/how-to-make-better-flashcards/)
 
 अगर बड़ी समस्या deck sprawl है, तो यह वाला बेहतर follow-up है:
 
-- [How to Organize Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-organize-flashcards/)
+- [How to Organize Flashcards in 2026](https://nibomo.com/blog/how-to-organize-flashcards/)
 
 ## FSRS तब मदद करता है जब CPA deck सब कुछ करने की कोशिश बंद कर दे
 
@@ -229,11 +229,11 @@ FSRS क्या नहीं करता: फूले हुए deck को 
 
 अगर आप scheduling वाले हिस्से को और detail में समझना चाहते हैं, तो यह सीधा companion है:
 
-- [How to Study for an Exam With FSRS in 2026](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/)
+- [How to Study for an Exam With FSRS in 2026](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)
 
 ## इस CPA workflow में Flashcards कहाँ सबसे ठीक बैठता है
 
-अगर आप यह सब [Nibomo](https://flashcards-open-source-app.com/) के भीतर चलाना चाहते हैं, तो उपयोगी बात यह नहीं है कि AI किसी जादू से आपको CPA exam पास करा देगा।
+अगर आप यह सब [Nibomo](https://nibomo.com/) के भीतर चलाना चाहते हैं, तो उपयोगी बात यह नहीं है कि AI किसी जादू से आपको CPA exam पास करा देगा।
 
 उपयोगी बात यह है कि product पहले से workflow के इस messy middle को संभालता है:
 

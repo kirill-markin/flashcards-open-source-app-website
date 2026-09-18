@@ -199,8 +199,8 @@ AI का उपयोग मत कीजिए:
 
 अगर आप AI से मसौदा बनवाने वाले बड़े हिस्से पर और पढ़ना चाहते हैं, तो ये संबंधित लेख मदद करेंगे:
 
-- [2026 में ChatGPT से फ़्लैशकार्ड कैसे बनाएं](https://flashcards-open-source-app.com/blog/how-to-use-chatgpt-to-make-flashcards/)
-- [2026 में ChatGPT Study Mode को फ़्लैशकार्ड में कैसे बदलें](https://flashcards-open-source-app.com/blog/how-to-turn-chatgpt-study-mode-into-flashcards/)
+- [2026 में ChatGPT से फ़्लैशकार्ड कैसे बनाएं](https://nibomo.com/blog/how-to-use-chatgpt-to-make-flashcards/)
+- [2026 में ChatGPT Study Mode को फ़्लैशकार्ड में कैसे बदलें](https://nibomo.com/blog/how-to-turn-chatgpt-study-mode-into-flashcards/)
 
 ## तकनीकी लेखों में जवाब का रूप ठोस होना चाहिए
 
@@ -220,8 +220,8 @@ AI का उपयोग मत कीजिए:
 
 अगर आपका स्रोत किसी वेबपेज से ज़्यादा PDF अध्याय या लेक्चर नोट्स जैसा है, तो ये सहायक लेख भी काम आएँगे:
 
-- [2026 में PDF को फ़्लैशकार्ड में कैसे बदलें](https://flashcards-open-source-app.com/blog/how-to-turn-a-pdf-into-flashcards/)
-- [2026 में Notes को फ़्लैशकार्ड में कैसे बदलें](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
+- [2026 में PDF को फ़्लैशकार्ड में कैसे बदलें](https://nibomo.com/blog/how-to-turn-a-pdf-into-flashcards/)
+- [2026 में Notes को फ़्लैशकार्ड में कैसे बदलें](https://nibomo.com/blog/turn-notes-into-flashcards/)
 
 ## एक अच्छा लेख पाँच शानदार कार्ड में बदल सकता है
 
@@ -259,11 +259,11 @@ FSRS के साथ काम की बातें सही अंतरा
 
 अगर आप शेड्यूलिंग वाले हिस्से को विस्तार से समझना चाहते हैं, तो यहाँ जाएँ:
 
-- [2026 में FSRS बनाम SM-2](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [2026 में FSRS बनाम SM-2](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
 ## Nibomo कहाँ काम आता है
 
-[Nibomo](https://flashcards-open-source-app.com/) **लेख से फ़्लैशकार्ड** बनाने की प्रक्रिया में इसलिए ठीक बैठता है, क्योंकि यह पहले से उन हिस्सों को संभालता है जो सबसे ज़्यादा मायने रखते हैं:
+[Nibomo](https://nibomo.com/) **लेख से फ़्लैशकार्ड** बनाने की प्रक्रिया में इसलिए ठीक बैठता है, क्योंकि यह पहले से उन हिस्सों को संभालता है जो सबसे ज़्यादा मायने रखते हैं:
 
 - लेख, ब्लॉग पोस्ट, न्यूज़लेटर या दस्तावेज़ पेज से plain text चिपकाना या अपलोड करना
 - कार्ड बनाने से पहले AI चैट के अंदर स्रोत को साफ़ करना
@@ -275,8 +275,8 @@ FSRS के साथ काम की बातें सही अंतरा
 
 अगर आपका स्रोत लिखित पाठ से कम और बातचीत या ऑडियो से ज़्यादा जुड़ा है, तो ये पास के लेख भी देखिए:
 
-- [2026 में Podcast को फ़्लैशकार्ड में कैसे बदलें](https://flashcards-open-source-app.com/blog/how-to-turn-a-podcast-into-flashcards/)
-- [2026 में Lecture Recordings को फ़्लैशकार्ड में कैसे बदलें](https://flashcards-open-source-app.com/blog/how-to-turn-lecture-recordings-into-flashcards/)
+- [2026 में Podcast को फ़्लैशकार्ड में कैसे बदलें](https://nibomo.com/blog/how-to-turn-a-podcast-into-flashcards/)
+- [2026 में Lecture Recordings को फ़्लैशकार्ड में कैसे बदलें](https://nibomo.com/blog/how-to-turn-lecture-recordings-into-flashcards/)
 
 ## काम का नियम
 

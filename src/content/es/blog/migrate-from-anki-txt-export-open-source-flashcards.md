@@ -20,7 +20,7 @@ Cada archivo resuelve un problema distinto. El paquete de la colección es tu v�
 
 Este proceso está pensado para mazos basados en texto y aplicaciones capaces de trabajar con TXT o CSV. La exportación de texto no conserva el estado de programación de Anki, las plantillas, los complementos ni los archivos multimedia. Primero probarás un mazo representativo, revisarás todos los campos y mantendrás intacta la colección original hasta obtener un resultado que puedas usar con confianza.
 
-> **Aviso:** Soy Kirill Markin y desarrollo [Nibomo](https://flashcards-open-source-app.com/). Esta guía deja claro cuándo conviene seguir usando Anki o elegir una aplicación que importe archivos `.apkg`.
+> **Aviso:** Soy Kirill Markin y desarrollo [Nibomo](https://nibomo.com/). Esta guía deja claro cuándo conviene seguir usando Anki o elegir una aplicación que importe archivos `.apkg`.
 
 **Información comprobada:** 27 de agosto de 2026.
 

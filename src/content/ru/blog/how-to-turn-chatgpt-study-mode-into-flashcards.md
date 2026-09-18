@@ -136,7 +136,7 @@ OpenAI запустила ChatGPT Study Mode **29 июля 2025 года**. Goog
 
 Если нужен более подробный разбор качества карточек, вот материал в продолжение:
 
-- [Как делать карточки лучше в 2026 году](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [Как делать карточки лучше в 2026 году](https://nibomo.com/blog/how-to-make-better-flashcards/)
 
 ## Это работает не только для ChatGPT, но и для Guided Learning в Gemini
 
@@ -182,8 +182,8 @@ OpenAI запустила ChatGPT Study Mode **29 июля 2025 года**. Goog
 
 Если вас уже душит перегрузка повторениями, рядом хорошо ложатся и эти тексты:
 
-- [Сколько новых карточек в день стоит добавлять в 2026 году?](https://flashcards-open-source-app.com/blog/how-many-new-flashcards-per-day/)
-- [Как догнать карточки после отставания в 2026 году](https://flashcards-open-source-app.com/blog/how-to-catch-up-on-flashcards-after-falling-behind/)
+- [Сколько новых карточек в день стоит добавлять в 2026 году?](https://nibomo.com/blog/how-many-new-flashcards-per-day/)
+- [Как догнать карточки после отставания в 2026 году](https://nibomo.com/blog/how-to-catch-up-on-flashcards-after-falling-behind/)
 
 ## Лучший запрос к модели - не "сделай из этого карточки"
 
@@ -201,11 +201,11 @@ OpenAI запустила ChatGPT Study Mode **29 июля 2025 года**. Goog
 
 Если ваш процесс начинается раньше, еще до Study Mode и до ИИ-репетитора, вот статья про более прямой сценарий генерации:
 
-- [Как использовать ChatGPT для создания карточек в 2026 году](https://flashcards-open-source-app.com/blog/how-to-use-chatgpt-to-make-flashcards/)
+- [Как использовать ChatGPT для создания карточек в 2026 году](https://nibomo.com/blog/how-to-use-chatgpt-to-make-flashcards/)
 
 А если исходник у вас не чат с репетитором, а учебный материал или заметки, подойдет и этот текст:
 
-- [Как превратить карточки из NotebookLM в настоящее интервальное повторение в 2026 году](https://flashcards-open-source-app.com/blog/notebooklm-flashcards-to-spaced-repetition/)
+- [Как превратить карточки из NotebookLM в настоящее интервальное повторение в 2026 году](https://nibomo.com/blog/notebooklm-flashcards-to-spaced-repetition/)
 
 ## FSRS - это та часть, которая превращает хорошую сессию в долгосрочное запоминание
 
@@ -225,11 +225,11 @@ OpenAI запустила ChatGPT Study Mode **29 июля 2025 года**. Goog
 
 Если хотите углубиться в сравнение алгоритмов, вот отдельный разбор:
 
-- [FSRS vs SM-2 в 2026 году](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [FSRS vs SM-2 в 2026 году](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
 ## Где Flashcards особенно хорошо вписывается в этот сценарий
 
-[Nibomo](https://flashcards-open-source-app.com/) хорошо подходит для задачи **как превратить ChatGPT Study Mode в карточки**, потому что закрывает ту часть, которую работа с ИИ-репетитором сама по себе не решает:
+[Nibomo](https://nibomo.com/) хорошо подходит для задачи **как превратить ChatGPT Study Mode в карточки**, потому что закрывает ту часть, которую работа с ИИ-репетитором сама по себе не решает:
 
 - обычные карточки "вопрос/ответ", а не память, запертая в чате
 - чат с ИИ для чистки формулировок и черновиков
@@ -262,9 +262,9 @@ OpenAI запустила ChatGPT Study Mode **29 июля 2025 года**. Goog
 
 Если вам нужен именно такой сценарий, начать можно здесь:
 
-- [Открыть Flashcards](https://flashcards-open-source-app.com/)
+- [Открыть Flashcards](https://nibomo.com/)
 - [Открыть приложение](https://app.flashcards-open-source-app.com/)
-- [Посмотреть возможности](https://flashcards-open-source-app.com/features/)
+- [Посмотреть возможности](https://nibomo.com/features/)
 - [Посмотреть исходный код на GitHub](https://github.com/kirill-markin/flashcards-open-source-app)
 
 Репетитор помогает разобрать идею сегодня.

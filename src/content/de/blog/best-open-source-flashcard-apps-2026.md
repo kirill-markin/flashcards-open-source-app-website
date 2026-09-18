@@ -22,7 +22,7 @@ Zu einem quelloffenen Desktop-Client kann eine proprietäre iPhone-App gehören.
 
 Sechs Projekte haben diese Prüfung bestanden. Verglichen habe ich den lizenzierten Quellcode, die neueste stabile Version, lokale Daten, Scheduler, Synchronisierung, Anki-Migration, Export und den genauen Umfang des Selbsthostings. Gerade der letzte Punkt ist wichtiger, als die meisten Funktionslisten vermuten lassen.
 
-> **Offenlegung:** Ich bin Kirill Markin und entwickle [Nibomo](https://flashcards-open-source-app.com/), eine der sechs hier vorgestellten Apps. Das MIT-Repository umfasst Web-App, native Clients, Backend, Synchronisierung und Infrastruktur. Nibomo steht in diesem Vergleich nicht auf Platz eins. Anki ist die sicherere Standardwahl, Mnemosyne bietet einen etablierteren Weg für die Anki-Migration, und mehrere der anderen Optionen lassen sich deutlich einfacher betreiben.
+> **Offenlegung:** Ich bin Kirill Markin und entwickle [Nibomo](https://nibomo.com/), eine der sechs hier vorgestellten Apps. Das MIT-Repository umfasst Web-App, native Clients, Backend, Synchronisierung und Infrastruktur. Nibomo steht in diesem Vergleich nicht auf Platz eins. Anki ist die sicherere Standardwahl, Mnemosyne bietet einen etablierteren Weg für die Anki-Migration, und mehrere der anderen Optionen lassen sich deutlich einfacher betreiben.
 
 **Stand der Fakten:** 5. September 2026. Stabile Releases werden klar von Änderungen getrennt, die bislang nur im Standard-Branch vorliegen.
 

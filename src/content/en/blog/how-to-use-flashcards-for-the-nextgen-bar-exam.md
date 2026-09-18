@@ -91,7 +91,7 @@ That sounds obvious until you are 300 cards deep. Then **bar exam flashcards 202
 
 If card writing is the weak link, this article fits directly:
 
-- [How to Make Better Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [How to Make Better Flashcards in 2026](https://nibomo.com/blog/how-to-make-better-flashcards/)
 
 ## Issue spotting cards should train the trigger, not the full essay
 
@@ -123,7 +123,7 @@ Without trigger cards, you know the rule when someone names the doctrine for you
 
 If you want a deeper workflow for turning misses into cards, this companion article is the right one:
 
-- [How to Turn Practice Questions Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/)
+- [How to Turn Practice Questions Into Flashcards in 2026](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/)
 
 ## Standalone multiple-choice misses are usually better card sources than outlines
 
@@ -199,7 +199,7 @@ That gives you a cleaner review experience than one giant doctrinal warehouse.
 
 If organization is the bigger problem than drafting, read this next:
 
-- [How to Organize Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-organize-flashcards/)
+- [How to Organize Flashcards in 2026](https://nibomo.com/blog/how-to-organize-flashcards/)
 
 ## A practical weekly NextGen Bar Exam flashcards workflow
 
@@ -239,11 +239,11 @@ I would keep the order simple:
 
 If you want the scheduling side in more detail, this is the direct companion article:
 
-- [How to Study for an Exam With FSRS in 2026](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/)
+- [How to Study for an Exam With FSRS in 2026](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)
 
 ## Where Flashcards fits this NextGen workflow
 
-If you want to run this inside [Nibomo](https://flashcards-open-source-app.com/), the useful part is not a vague promise that AI makes studying easier. The useful part is that the product already supports the actual middle of this workflow:
+If you want to run this inside [Nibomo](https://nibomo.com/), the useful part is not a vague promise that AI makes studying easier. The useful part is that the product already supports the actual middle of this workflow:
 
 - AI chat in the web app
 - file attachments and plain text uploads for outlines, practice notes, or copied explanations
@@ -256,7 +256,7 @@ That matters because **flashcards for the NextGen Bar Exam** is not only a gener
 
 If your source material starts as rough notes instead of finished outlines, this article pairs well with the workflow:
 
-- [How to Use Flashcards for Law School in 2026: Cases, Rules, and Issue Spotting That Actually Stick](https://flashcards-open-source-app.com/blog/how-to-use-flashcards-for-law-school/)
+- [How to Use Flashcards for Law School in 2026: Cases, Rules, and Issue Spotting That Actually Stick](https://nibomo.com/blog/how-to-use-flashcards-for-law-school/)
 
 ## Build the deck that helps you see and state the law faster
 

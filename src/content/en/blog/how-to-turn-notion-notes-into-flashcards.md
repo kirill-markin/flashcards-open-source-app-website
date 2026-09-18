@@ -183,11 +183,11 @@ If the scheduler is strong, the workflow holds together. Draft from Notion, clea
 
 If you want that comparison in more detail, this companion article goes deeper:
 
-- [FSRS vs SM-2 in 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [FSRS vs SM-2 in 2026](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
 ## Where Flashcards fits this workflow
 
-[Nibomo](https://flashcards-open-source-app.com/) is a strong fit for **turn Notion notes into flashcards** because the product covers the parts people usually have to stitch together manually:
+[Nibomo](https://nibomo.com/) is a strong fit for **turn Notion notes into flashcards** because the product covers the parts people usually have to stitch together manually:
 
 - AI chat for drafting
 - file attachments for exported pages
@@ -212,11 +212,11 @@ That makes the export-and-draft workflow especially practical. It respects the f
 
 If your source material is plain text rather than a Notion workspace, this companion article is the better fit:
 
-- [How to Turn Notes Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
+- [How to Turn Notes Into Flashcards in 2026](https://nibomo.com/blog/turn-notes-into-flashcards/)
 
 And if your Notion export ends up working better as a document, this one is useful too:
 
-- [How to Turn a PDF Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-turn-a-pdf-into-flashcards/)
+- [How to Turn a PDF Into Flashcards in 2026](https://nibomo.com/blog/how-to-turn-a-pdf-into-flashcards/)
 
 ## A practical workflow I would actually use
 
@@ -246,4 +246,4 @@ Use the page as strong raw material for a better draft.
 
 That is the version of **Notion to flashcards** I actually trust. It is less magical than the one-click pitch, a little more manual in the right places, and much more likely to give you cards you still want to review next week.
 
-If that is the workflow you want, [Nibomo](https://flashcards-open-source-app.com/) is a solid fit: export the notes, draft cards with AI, clean the weak ones fast, and study the result in a real spaced repetition system instead of leaving it trapped inside your note tool.
+If that is the workflow you want, [Nibomo](https://nibomo.com/) is a solid fit: export the notes, draft cards with AI, clean the weak ones fast, and study the result in a real spaced repetition system instead of leaving it trapped inside your note tool.

@@ -34,7 +34,7 @@ So werden **Flashcards für Klausuren** von hilfreich zur Last. Das Deck ist dan
 
 Für die Klausurenphase sollte der Maßstab strenger sein. Das Ziel ist nicht, alles zu konservieren, was du in diesem Semester irgendwann angefasst hast. Das Ziel ist, das wertvollste Material in eine Wiederholungsroutine zu bekommen, die du vor der Prüfung auch wirklich noch beenden kannst.
 
-Wenn du die größere Planungsfrage suchst, behandelt [Wie du 2026 mit FSRS für eine Prüfung lernst](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs) diesen Teil gut. Dieser Artikel geht um das chaotischere Problem, das meistens früher auftaucht: zu viele Quellen und zu wenig Zeit für Wiederholungen.
+Wenn du die größere Planungsfrage suchst, behandelt [Wie du 2026 mit FSRS für eine Prüfung lernst](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs) diesen Teil gut. Dieser Artikel geht um das chaotischere Problem, das meistens früher auftaucht: zu viele Quellen und zu wenig Zeit für Wiederholungen.
 
 ## Starte mit Triage, nicht mit dem Erstellen von Flashcards
 
@@ -114,7 +114,7 @@ Nutze KI-Chats für:
 - Rückfragen, die Verwirrung offengelegt haben
 - kurze Listen mit wahrscheinlichen Fehlern, die du prüfen und behalten kannst
 
-Behandle nicht den ganzen Chat so, als wäre er deine verlässliche Primärquelle. KI-Nachhilfe ist nützlich fürs Verstehen, aber die Flashcards sollten aus der bereinigten Lektion kommen und nicht aus jedem glatt formulierten Satz der Unterhaltung. Wenn deine Entwürfe jetzt schon aufgebläht oder vage sind, ist [Wie du 2026 KI-Flashcards reparierst](https://flashcards-open-source-app.com/blog/how-to-fix-ai-flashcards/) der richtige Artikel zum Aufräumen.
+Behandle nicht den ganzen Chat so, als wäre er deine verlässliche Primärquelle. KI-Nachhilfe ist nützlich fürs Verstehen, aber die Flashcards sollten aus der bereinigten Lektion kommen und nicht aus jedem glatt formulierten Satz der Unterhaltung. Wenn deine Entwürfe jetzt schon aufgebläht oder vage sind, ist [Wie du 2026 KI-Flashcards reparierst](https://nibomo.com/blog/how-to-fix-ai-flashcards/) der richtige Artikel zum Aufräumen.
 
 ### Fehler aus Probeklausuren
 
@@ -129,7 +129,7 @@ Darum würde ich falsch beantwortete Fragen besonders behandeln:
 - teile lange Erklärungen in kleinere Abrufziele auf
 - tagge die Karten, damit du fehlerbasierte Karten später zusammen wiederholen kannst
 
-Der Begleitartikel für diesen engeren Workflow ist [Wie du 2026 Übungsfragen in Flashcards verwandelst](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/).
+Der Begleitartikel für diesen engeren Workflow ist [Wie du 2026 Übungsfragen in Flashcards verwandelst](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/).
 
 ## Baue ein Deck aus den Überschneidungen, nicht vier Decks aus vier Quellen
 
@@ -156,7 +156,7 @@ Führe die Quellen in ein Klausuren-Deck pro Kurs zusammen und nutze dann Tags d
 
 So bleibt die Wiederholungswarteschlange an einem Ort, während der Quellenkontext erhalten bleibt, wenn du ihn brauchst.
 
-Genau hier werden Decks, Tags, Filter und Suche praktisch statt dekorativ. Du kannst das ganze Klausuren-Deck normal wiederholen und dann bei näher rückender Prüfung auf `practice-miss` oder `must-know` eingrenzen. Wenn deine Organisation schon auseinanderläuft, ist [Flashcards in 2026 organisieren](https://flashcards-open-source-app.com/blog/how-to-organize-flashcards/) der bessere Begleitartikel als noch ein weiterer Guide zum Kartenerstellen.
+Genau hier werden Decks, Tags, Filter und Suche praktisch statt dekorativ. Du kannst das ganze Klausuren-Deck normal wiederholen und dann bei näher rückender Prüfung auf `practice-miss` oder `must-know` eingrenzen. Wenn deine Organisation schon auseinanderläuft, ist [Flashcards in 2026 organisieren](https://nibomo.com/blog/how-to-organize-flashcards/) der bessere Begleitartikel als noch ein weiterer Guide zum Kartenerstellen.
 
 ## Kürze den Umfang härter, als dir lieb ist
 
@@ -178,7 +178,7 @@ Am einfachsten kürzt du den Umfang so:
 - keine Karten für Material machen, das du ohnehin schon sicher kannst
 - aufhören so zu tun, als hätte jedes Kapitel gleich viel Gewicht
 
-Hier hilft [Wie du 2026 bessere Flashcards machst](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/). Bessere Karten sind meistens kleiner, klarer und deutlich weniger, als Studierende erwarten.
+Hier hilft [Wie du 2026 bessere Flashcards machst](https://nibomo.com/blog/how-to-make-better-flashcards/). Bessere Karten sind meistens kleiner, klarer und deutlich weniger, als Studierende erwarten.
 
 ## Nutze FSRS fürs Timing, aber stoppe neuen Input vor dem Prüfungstag
 
@@ -198,7 +198,7 @@ Ich würde einen einfachen Rhythmus nehmen:
 
 Je näher die Prüfung rückt, desto stärker verschiebt sich der Job vom Sammeln zum Abrufen.
 
-Wenn du mit den Reviews schon im Rückstand bist, löse dieses Problem direkt, statt so zu tun, als würde ein frischer Kartenstapel irgendwie helfen. [Wie du 2026 bei Flashcards wieder aufholst, nachdem du zurückgefallen bist](https://flashcards-open-source-app.com/blog/how-to-catch-up-on-flashcards-after-falling-behind/) ist der richtige Abstecher, wenn deine Warteschlange gerade der eigentliche Engpass ist.
+Wenn du mit den Reviews schon im Rückstand bist, löse dieses Problem direkt, statt so zu tun, als würde ein frischer Kartenstapel irgendwie helfen. [Wie du 2026 bei Flashcards wieder aufholst, nachdem du zurückgefallen bist](https://nibomo.com/blog/how-to-catch-up-on-flashcards-after-falling-behind/) ist der richtige Abstecher, wenn deine Warteschlange gerade der eigentliche Engpass ist.
 
 ## Eine Karte für die Klausurenphase sollte schneller sein als die Quelle, aus der sie entstanden ist
 
@@ -236,11 +236,11 @@ Genau deshalb sollte der Workflow für die Klausurenphase getrennt vom "mit KI l
 
 ## Wo Flashcards in diesen Workflow passt
 
-[Nibomo](https://flashcards-open-source-app.com/) ist hier nützlich, weil das Produkt zum echten Chaos der Klausurenphase passt, statt so zu tun, als würde dein Lernmaterial sauber sortiert ankommen.
+[Nibomo](https://nibomo.com/) ist hier nützlich, weil das Produkt zum echten Chaos der Klausurenphase passt, statt so zu tun, als würde dein Lernmaterial sauber sortiert ankommen.
 
 Du kannst die gehostete Web-App nutzen, Dateien hochladen, den KI-Chat mit Anhängen verwenden, wenn du eine Quelle erst aufräumen musst, daraus Front-/Back-Karten erstellen und bearbeiten und die finale Wiederholung mit Decks, Tags, Filtern, Suche und FSRS an einem Ort halten. Die offline-first Apps für Web, iOS und Android ergeben in der Klausurenphase ebenfalls mehr Sinn als noch ein weiterer Browser-Tab zum Lernen, den du verlierst, sobald du den Schreibtisch verlässt.
 
-Wenn du vor dem Ausprobieren erst die Produktdetails sehen willst, ist die [Feature-Seite](https://flashcards-open-source-app.com/features/) der sauberste Überblick. Wenn dir Kontrolle wichtig ist, ist das Projekt Open Source und bietet auch einen Weg zum Self-Hosting.
+Wenn du vor dem Ausprobieren erst die Produktdetails sehen willst, ist die [Feature-Seite](https://nibomo.com/features/) der sauberste Überblick. Wenn dir Kontrolle wichtig ist, ist das Projekt Open Source und bietet auch einen Weg zum Self-Hosting.
 
 ## Die nützliche Regel für die Klausurenphase
 

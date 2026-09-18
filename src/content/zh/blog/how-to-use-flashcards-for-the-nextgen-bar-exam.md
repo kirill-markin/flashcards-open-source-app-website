@@ -91,7 +91,7 @@ keywords:
 
 如果你最薄弱的环节正是写卡片，这篇文章可以直接接上：
 
-- [2026 年如何做出更好的抽认卡](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [2026 年如何做出更好的抽认卡](https://nibomo.com/blog/how-to-make-better-flashcards/)
 
 ## 争点识别卡应该训练触发信号，而不是整篇论文答案
 
@@ -123,7 +123,7 @@ keywords:
 
 如果你想更系统地看“怎样把错题变成卡片”，配套文章在这里：
 
-- [2026 年如何把练习题转成抽认卡](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/)
+- [2026 年如何把练习题转成抽认卡](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/)
 
 ## 独立选择题里的错题，通常比大纲更适合拿来做卡
 
@@ -199,7 +199,7 @@ Performance task 更像是在约束条件下执行：你要读案卷，从资料
 
 如果你现在更大的问题不是起草卡片，而是整理结构，下一篇更适合：
 
-- [2026 年如何整理抽认卡](https://flashcards-open-source-app.com/blog/how-to-organize-flashcards/)
+- [2026 年如何整理抽认卡](https://nibomo.com/blog/how-to-organize-flashcards/)
 
 ## 一套实用的每周 NextGen Bar Exam 抽认卡工作流
 
@@ -241,11 +241,11 @@ Performance task 更像是在约束条件下执行：你要读案卷，从资料
 
 如果你想更细看排程这一侧，这篇就是直接配套文章：
 
-- [2026 年如何用 FSRS 为考试复习](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/)
+- [2026 年如何用 FSRS 为考试复习](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)
 
 ## Flashcards 在这套 NextGen 工作流里适合放在哪里
 
-如果你想把这套流程跑在 [Nibomo](https://flashcards-open-source-app.com/) 里，真正有用的地方并不是那种空泛的承诺，说 AI 会让学习更轻松。真正有用的，是这个产品已经支持了这套工作流最关键的中段：
+如果你想把这套流程跑在 [Nibomo](https://nibomo.com/) 里，真正有用的地方并不是那种空泛的承诺，说 AI 会让学习更轻松。真正有用的，是这个产品已经支持了这套工作流最关键的中段：
 
 - Web app 里的 AI chat
 - 面向大纲、练习笔记或复制来的解析的文件附件和纯文本上传
@@ -260,7 +260,7 @@ Performance task 更像是在约束条件下执行：你要读案卷，从资料
 
 如果你的素材起点更接近粗糙笔记，而不是整理完成的大纲，这篇文章会和这套流程很搭：
 
-- [2026 年如何用抽认卡学法学院课程：真正记得住的案例、规则与争点识别](https://flashcards-open-source-app.com/blog/how-to-use-flashcards-for-law-school/)
+- [2026 年如何用抽认卡学法学院课程：真正记得住的案例、规则与争点识别](https://nibomo.com/blog/how-to-use-flashcards-for-law-school/)
 
 ## 做出一副能帮你更快看见并说出法律规则的牌组
 

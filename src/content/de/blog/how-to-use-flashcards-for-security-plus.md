@@ -244,7 +244,7 @@ So bleibt das Deck auf den echten Abruf ausgerichtet. Flashcards lösen keine PB
 
 Wenn falsch beantwortete Fragen deine Hauptquelle sind, ist dieser Artikel die natürliche Ergänzung:
 
-- [How to Turn Practice Questions Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/)
+- [How to Turn Practice Questions Into Flashcards in 2026](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/)
 
 ## Bau kein einziges formloses Security+-Deck
 
@@ -279,7 +279,7 @@ So bekommst du etwas deutlich Nutzbareres als einen flachen Haufen. Außerdem wi
 
 Wenn Organisation gerade eher das Problem ist als das Schreiben von Karten, lies als Nächstes das hier:
 
-- [How to Organize Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-organize-flashcards/)
+- [How to Organize Flashcards in 2026](https://nibomo.com/blog/how-to-organize-flashcards/)
 
 ## Dein wöchentlicher Workflow sollte bewusst langweilig bleiben
 
@@ -300,7 +300,7 @@ Ich würde mich auch von Leaks, fragwürdigen Fragensammlungen und Dumps fernhal
 
 Wenn KI dir schlampige Kartenentwürfe liefert, hilft dieses Begleitstück:
 
-- [How to Make Better Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [How to Make Better Flashcards in 2026](https://nibomo.com/blog/how-to-make-better-flashcards/)
 
 ## FSRS hilft bei der Security+-Vorbereitung erst dann, wenn das Deck schmaler wird
 
@@ -321,7 +321,7 @@ Genau das macht **CompTIA Security+ Flashcards** tragfähig. Der Scheduler über
 
 Wenn du den Prüfungsplanungs-Teil dieses Workflows genauer willst, geht dieser Artikel tiefer:
 
-- [How to Study for an Exam With FSRS in 2026](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/)
+- [How to Study for an Exam With FSRS in 2026](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)
 
 ## Offline-Wiederholung ist für die Zertifizierungsvorbereitung wichtiger, als viele zugeben
 
@@ -338,11 +338,11 @@ Das ist ein Grund, warum ich für diese Art von Prüfung Offline-first-Wiederhol
 
 Wenn das für dein Lernsetup wichtig ist, lohnt sich auch dieser Artikel:
 
-- [Best Offline Flashcards App in 2026](https://flashcards-open-source-app.com/blog/best-offline-flashcards-app/)
+- [Best Offline Flashcards App in 2026](https://nibomo.com/blog/best-offline-flashcards-app/)
 
 ## Wo Flashcards gut in diesen Workflow passt
 
-[Nibomo](https://flashcards-open-source-app.com/) passt gut zu **Security+ Flashcards**, weil das Produkt diesen Workflow bereits abbildet, statt dich zu zwingen, über fünf Tools zu improvisieren.
+[Nibomo](https://nibomo.com/) passt gut zu **Security+ Flashcards**, weil das Produkt diesen Workflow bereits abbildet, statt dich zu zwingen, über fünf Tools zu improvisieren.
 
 Du kannst nutzen:
 

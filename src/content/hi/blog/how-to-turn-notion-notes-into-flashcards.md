@@ -183,11 +183,11 @@ direct sync सुनने में अच्छा लगता है, ज�
 
 अगर आप यह तुलना विस्तार से पढ़ना चाहते हैं, तो यह साथ पढ़ने लायक लेख काम आएगा:
 
-- [2026 में FSRS बनाम SM-2](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [2026 में FSRS बनाम SM-2](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
 ## इस तरीके में Flashcards कहाँ सबसे अच्छी तरह फिट बैठता है
 
-[Nibomo](https://flashcards-open-source-app.com/) **Notion notes को flashcards में बदलें** वाले काम के लिए इसलिए अच्छा विकल्प है, क्योंकि यह product उन हिस्सों को एक साथ लाती है जिन्हें लोग अक्सर हाथ से जोड़ते हैं:
+[Nibomo](https://nibomo.com/) **Notion notes को flashcards में बदलें** वाले काम के लिए इसलिए अच्छा विकल्प है, क्योंकि यह product उन हिस्सों को एक साथ लाती है जिन्हें लोग अक्सर हाथ से जोड़ते हैं:
 
 - drafting के लिए AI chat
 - exported pages के लिए file attachments
@@ -212,11 +212,11 @@ direct sync सुनने में अच्छा लगता है, ज�
 
 अगर आपकी सामग्री Notion workspace के बजाय plain text में है, तो यह साथ पढ़ने लायक लेख ज़्यादा उपयुक्त है:
 
-- [2026 में notes को flashcards में कैसे बदलें](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
+- [2026 में notes को flashcards में कैसे बदलें](https://nibomo.com/blog/turn-notes-into-flashcards/)
 
 और अगर आपका Notion export दस्तावेज़ की तरह ज़्यादा अच्छी तरह काम करता है, तो यह लेख भी उपयोगी है:
 
-- [2026 में PDF को flashcards में कैसे बदलें](https://flashcards-open-source-app.com/blog/how-to-turn-a-pdf-into-flashcards/)
+- [2026 में PDF को flashcards में कैसे बदलें](https://nibomo.com/blog/how-to-turn-a-pdf-into-flashcards/)
 
 ## एक व्यावहारिक तरीका जिसे मैं सच में इस्तेमाल करूँगा
 
@@ -246,4 +246,4 @@ Flashcards दोहराव की व्यवस्था सँभालत
 
 **Notion से flashcards** का यही वह रूप है जिस पर मुझे सचमुच भरोसा है। इसमें one-click pitch वाला दिखावटी जादू कम है, सही जगहों पर थोड़ा-सा हाथ का काम ज़्यादा है, और इस बात की संभावना कहीं अधिक है कि अगले हफ्ते भी आप उन्हीं कार्डों को पढ़ना चाहेंगे।
 
-अगर आप यही workflow चाहते हैं, तो [Nibomo](https://flashcards-open-source-app.com/) अच्छा विकल्प है: नोट्स export करें, AI से कार्ड का मसौदा बनवाएँ, कमज़ोर कार्ड जल्दी हटाएँ, और नतीजे को किसी नोट्स वाले औज़ार के भीतर फँसाकर छोड़ने के बजाय एक असली spaced repetition system में पढ़ें।
+अगर आप यही workflow चाहते हैं, तो [Nibomo](https://nibomo.com/) अच्छा विकल्प है: नोट्स export करें, AI से कार्ड का मसौदा बनवाएँ, कमज़ोर कार्ड जल्दी हटाएँ, और नतीजे को किसी नोट्स वाले औज़ार के भीतर फँसाकर छोड़ने के बजाय एक असली spaced repetition system में पढ़ें।

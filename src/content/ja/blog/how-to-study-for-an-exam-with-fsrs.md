@@ -96,7 +96,7 @@ FSRSが好きなのは、古い方式より復習のリズムが落ち着きや�
 
 アルゴリズム自体をもう少し詳しく知りたいなら、こちらの記事が向いています。
 
-- [2026年のFSRSとSM-2を比較: より覚えやすい間隔反復アルゴリズムはどちらか](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [2026年のFSRSとSM-2を比較: より覚えやすい間隔反復アルゴリズムはどちらか](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
 ## いちばんしんどい普通の日でも終わる量に合わせる
 
@@ -117,7 +117,7 @@ FSRSが好きなのは、古い方式より復習のリズムが落ち着きや�
 
 その負荷をもう少しきれいに見積もりたいなら、次の記事も相性がいいです。
 
-- [2026年、1日に何枚の新しいフラッシュカードを追加すべきか: 無理なく終えられるFSRSの復習量を作る](https://flashcards-open-source-app.com/blog/how-many-new-flashcards-per-day/)
+- [2026年、1日に何枚の新しいフラッシュカードを追加すべきか: 無理なく終えられるFSRSの復習量を作る](https://nibomo.com/blog/how-many-new-flashcards-per-day/)
 
 ## 資料を処理する作業と、記憶を鍛える作業は分けておく
 
@@ -143,7 +143,7 @@ FSRSが好きなのは、古い方式より復習のリズムが落ち着きや�
 
 ## Flashcardsはこの流れにかなり合っている
 
-[Nibomo](https://flashcards-open-source-app.com/) がこの用途に向いているのは、カード作成と復習を同じ作業だとごまかさず、両方を1つの流れで扱えるからです。
+[Nibomo](https://nibomo.com/) がこの用途に向いているのは、カード作成と復習を同じ作業だとごまかさず、両方を1つの流れで扱えるからです。
 
 現時点の構成で、すでに次のことができます。
 
@@ -208,22 +208,22 @@ AIは「作りすぎ」をとても簡単にしてしまいます。
 
 これが、実際に続けやすい **試験向けの間隔反復** です。
 
-この流れを支える製品が欲しいなら、[Nibomo](https://flashcards-open-source-app.com/) はかなり相性がいいです。AIによる下書き、表裏カード、FSRS復習を1つのオープンソーススタックにまとめられるので、5つの学習ツールと書き出しファイルの山に作業を分散させずに済みます。
+この流れを支える製品が欲しいなら、[Nibomo](https://nibomo.com/) はかなり相性がいいです。AIによる下書き、表裏カード、FSRS復習を1つのオープンソーススタックにまとめられるので、5つの学習ツールと書き出しファイルの山に作業を分散させずに済みます。
 
 ## 試験日までに回し切れるデッキを作る
 
 この流れを試したいなら:
 
-- [Flashcardsを試す](https://flashcards-open-source-app.com/)
+- [Flashcardsを試す](https://nibomo.com/)
 - [アプリを開く](https://app.flashcards-open-source-app.com/)
-- [機能ページを見る](https://flashcards-open-source-app.com/features/)
+- [機能ページを見る](https://nibomo.com/features/)
 - [GitHubでソースコードを見る](https://github.com/kirill-markin/flashcards-open-source-app)
 
 元の資料がまだその一歩手前で止まっているなら、次の記事も役立ちます。
 
-- [2026年版 PDFをフラッシュカード化する方法: 講義スライド・教科書・論文からFSRS向けカードを作る](https://flashcards-open-source-app.com/blog/how-to-turn-a-pdf-into-flashcards/)
-- [2026年にChatGPTでフラッシュカードを作る方法: プロンプトを整え、カードを磨き、FSRSで復習を回す](https://flashcards-open-source-app.com/blog/how-to-use-chatgpt-to-make-flashcards/)
-- [2026年版: NotebookLMのフラッシュカードを本物の間隔反復に変える方法 書き出して整え、FSRSで復習する](https://flashcards-open-source-app.com/blog/notebooklm-flashcards-to-spaced-repetition/)
+- [2026年版 PDFをフラッシュカード化する方法: 講義スライド・教科書・論文からFSRS向けカードを作る](https://nibomo.com/blog/how-to-turn-a-pdf-into-flashcards/)
+- [2026年にChatGPTでフラッシュカードを作る方法: プロンプトを整え、カードを磨き、FSRSで復習を回す](https://nibomo.com/blog/how-to-use-chatgpt-to-make-flashcards/)
+- [2026年版: NotebookLMのフラッシュカードを本物の間隔反復に変える方法 書き出して整え、FSRSで復習する](https://nibomo.com/blog/notebooklm-flashcards-to-spaced-repetition/)
 
 良い試験デッキは、たいてい一番大きいデッキではありません。
 

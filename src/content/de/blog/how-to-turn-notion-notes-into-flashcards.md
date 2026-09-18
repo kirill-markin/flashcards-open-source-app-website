@@ -183,11 +183,11 @@ Wenn der Wiederholungsplaner stark ist, hält der ganze Workflow zusammen. Du en
 
 Wenn du diesen Vergleich genauer sehen willst, geht dieser Begleitartikel tiefer:
 
-- [FSRS vs SM-2 in 2026: Welcher Spaced-Repetition-Algorithmus hilft dir, mehr zu behalten?](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [FSRS vs SM-2 in 2026: Welcher Spaced-Repetition-Algorithmus hilft dir, mehr zu behalten?](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
 ## Wo Flashcards in diesen Workflow passt
 
-[Nibomo](https://flashcards-open-source-app.com/) passt gut zu **Notion-Notizen in Flashcards verwandeln**, weil das Produkt die Teile abdeckt, die Menschen sonst mühsam von Hand zusammenbauen müssen:
+[Nibomo](https://nibomo.com/) passt gut zu **Notion-Notizen in Flashcards verwandeln**, weil das Produkt die Teile abdeckt, die Menschen sonst mühsam von Hand zusammenbauen müssen:
 
 - KI-Chat für Kartenentwürfe
 - Dateianhänge für exportierte Seiten
@@ -212,11 +212,11 @@ Deshalb ist der Workflow aus Export und Entwurf hier besonders praktisch. Er res
 
 Wenn dein Ausgangsmaterial einfacher Text statt eines Notion-Arbeitsbereichs ist, passt dieser Begleitartikel besser:
 
-- [Wie du 2026 Notizen in Flashcards verwandelst: KI-Entwürfe mit FSRS statt manuellem Kopieren und Einfügen](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
+- [Wie du 2026 Notizen in Flashcards verwandelst: KI-Entwürfe mit FSRS statt manuellem Kopieren und Einfügen](https://nibomo.com/blog/turn-notes-into-flashcards/)
 
 Und wenn dein Notion-Export am Ende eher wie ein Dokument funktioniert, ist auch dieser Artikel hilfreich:
 
-- [Wie du 2026 eine PDF in Flashcards verwandelst: Vorlesungsfolien, Lehrbücher und Papers zu FSRS-Karten](https://flashcards-open-source-app.com/blog/how-to-turn-a-pdf-into-flashcards/)
+- [Wie du 2026 eine PDF in Flashcards verwandelst: Vorlesungsfolien, Lehrbücher und Papers zu FSRS-Karten](https://nibomo.com/blog/how-to-turn-a-pdf-into-flashcards/)
 
 ## Ein praktischer Workflow, den ich tatsächlich nutzen würde
 
@@ -246,4 +246,4 @@ Nutze die Seite lieber als starkes Rohmaterial für einen besseren Entwurf.
 
 Genau diese Variante von **Notion zu Flashcards** halte ich für überzeugend. Sie ist weniger magisch als das Ein-Klick-Versprechen, an den richtigen Stellen etwas manueller und deutlich wahrscheinlicher, dir Karten zu liefern, die du auch nächste Woche noch lernen willst.
 
-Wenn du genau diesen Workflow suchst, ist [Nibomo](https://flashcards-open-source-app.com/) eine gute Wahl: Notizen exportieren, mit KI Karten entwerfen, die schwachen schnell aussortieren und das Ergebnis in einem echten Spaced-Repetition-System lernen, statt es in deinem Notiztool eingeschlossen zu lassen.
+Wenn du genau diesen Workflow suchst, ist [Nibomo](https://nibomo.com/) eine gute Wahl: Notizen exportieren, mit KI Karten entwerfen, die schwachen schnell aussortieren und das Ergebnis in einem echten Spaced-Repetition-System lernen, statt es in deinem Notiztool eingeschlossen zu lassen.

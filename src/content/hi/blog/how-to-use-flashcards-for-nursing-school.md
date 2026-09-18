@@ -127,8 +127,8 @@ Lab values एक classic उदाहरण हैं कि deck अपनी 
 
 अगर इस section का source material ज़्यादातर lecture slides, handouts, या review packets हैं, तो ये upstream workflows सबसे क़रीबी match हैं:
 
-- [2026 में PDF से फ्लैशकार्ड कैसे बनाएँ](https://flashcards-open-source-app.com/blog/how-to-turn-a-pdf-into-flashcards/)
-- [2026 में नोट्स से फ्लैशकार्ड कैसे बनाएँ](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
+- [2026 में PDF से फ्लैशकार्ड कैसे बनाएँ](https://nibomo.com/blog/how-to-turn-a-pdf-into-flashcards/)
+- [2026 में नोट्स से फ्लैशकार्ड कैसे बनाएँ](https://nibomo.com/blog/turn-notes-into-flashcards/)
 
 ## Prioritization और delegation cards को पूरे rationale paragraph नहीं, trigger train करना चाहिए
 
@@ -197,7 +197,7 @@ Lecture से निकले cards knowledge की पहली layer बन�
 
 अगर workflow का यही हिस्सा आपकी सबसे बड़ी ज़रूरत है, तो यह इसका direct companion piece है:
 
-- [2026 में अभ्यास प्रश्नों से फ्लैशकार्ड कैसे बनाएँ](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/)
+- [2026 में अभ्यास प्रश्नों से फ्लैशकार्ड कैसे बनाएँ](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/)
 
 ## नर्सिंग स्कूल फ्लैशकार्ड का साप्ताहिक workflow clinicals झेल सकना चाहिए
 
@@ -217,7 +217,7 @@ Lecture से निकले cards knowledge की पहली layer बन�
 
 अगर आपकी बड़ी समस्या card writing नहीं, structure है, तो इसे आगे पढ़ें:
 
-- [2026 में फ्लैशकार्ड कैसे व्यवस्थित करें](https://flashcards-open-source-app.com/blog/how-to-organize-flashcards/)
+- [2026 में फ्लैशकार्ड कैसे व्यवस्थित करें](https://nibomo.com/blog/how-to-organize-flashcards/)
 
 ## FSRS तब और भी ज़्यादा मायने रखता है जब आपका study schedule uneven हो
 
@@ -237,16 +237,16 @@ FSRS क्या नहीं करता: overloaded deck को बचान
 
 अगर आपकी queue पहले से बहुत बड़ी हो रही है, तो ये दो articles सीधे नर्सिंग workflow से fit बैठते हैं:
 
-- [2026 में रोज़ कितने नए फ्लैशकार्ड?](https://flashcards-open-source-app.com/blog/how-many-new-flashcards-per-day/)
-- [2026 में FSRS के साथ परीक्षा की तैयारी कैसे करें](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/)
+- [2026 में रोज़ कितने नए फ्लैशकार्ड?](https://nibomo.com/blog/how-many-new-flashcards-per-day/)
+- [2026 में FSRS के साथ परीक्षा की तैयारी कैसे करें](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)
 
 और अगर आप scheduling model खुद समझना चाहते हैं:
 
-- [2026 में FSRS बनाम SM-2](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [2026 में FSRS बनाम SM-2](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
 ## इस नर्सिंग workflow में Flashcards कहाँ fit बैठता है
 
-[Nibomo](https://flashcards-open-source-app.com/) **नर्सिंग स्कूल फ्लैशकार्ड** के लिए अच्छा fit है, क्योंकि product पहले से उन हिस्सों को support करता है जिन पर यह workflow depend करता है:
+[Nibomo](https://nibomo.com/) **नर्सिंग स्कूल फ्लैशकार्ड** के लिए अच्छा fit है, क्योंकि product पहले से उन हिस्सों को support करता है जिन पर यह workflow depend करता है:
 
 - संकरे recall prompts के लिए front/back cards
 - notes, lecture text, या question rationales से drafting के लिए workspace data और file attachments के साथ AI chat
@@ -260,7 +260,7 @@ FSRS क्या नहीं करता: overloaded deck को बचान
 
 अगर card quality अभी भी सबसे बड़ी दिक्कत है, तो यह article इस nursing workflow के साथ अच्छी तरह fit बैठता है:
 
-- [2026 में बेहतर फ्लैशकार्ड कैसे बनाएँ](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [2026 में बेहतर फ्लैशकार्ड कैसे बनाएँ](https://nibomo.com/blog/how-to-make-better-flashcards/)
 
 ## ऐसा nursing deck बनाएँ जो finals के दौरान भी इस्तेमाल लायक लगे
 

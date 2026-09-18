@@ -100,7 +100,7 @@ keywords:
 
 ## Flashcards 已经具备这条工作流需要的形态
 
-[Nibomo](https://flashcards-open-source-app.com/) 在这方面很有意思，因为它已经把这条流程真正需要的几个关键部分放在一起了：
+[Nibomo](https://nibomo.com/) 在这方面很有意思，因为它已经把这条流程真正需要的几个关键部分放在一起了：
 
 - 正反面卡片创建
 - AI 对话
@@ -130,7 +130,7 @@ keywords:
 
 如果你想更详细了解排程这部分，可以接着读这篇：
 
-- [2026 年 FSRS vs SM-2](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [2026 年 FSRS vs SM-2](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
 ## 纯文本，比很多笔记应用愿意承认的更有用
 
@@ -177,11 +177,11 @@ keywords:
 
 如果你更大的问题是迁移已有卡片，可以先看这里：
 
-- [2026 年如何从 Anki 迁移](https://flashcards-open-source-app.com/blog/migrate-from-anki-txt-export-open-source-flashcards/)
+- [2026 年如何从 Anki 迁移](https://nibomo.com/blog/migrate-from-anki-txt-export-open-source-flashcards/)
 
 如果你是在比较更大范围的同类工具，这篇更适合作为总览：
 
-- [2026 年最佳 Anki 替代品](https://flashcards-open-source-app.com/blog/best-anki-alternatives/)
+- [2026 年最佳 Anki 替代品](https://nibomo.com/blog/best-anki-alternatives/)
 
 ## 所以，2026 年把笔记做成闪卡的最佳方式是什么？
 
@@ -195,15 +195,15 @@ keywords:
 
 这样可以把最无聊的部分拿走，又不会假装人应该彻底从整个流程里消失。
 
-这也是为什么 [Nibomo](https://flashcards-open-source-app.com/) 很适合那些搜索怎么 **把笔记做成闪卡** 的人。它现在已经有了这条路线真正需要的形态：卡片创建、AI 对话、文件附件、纯文本支持，以及后续认真可靠的间隔重复复习。
+这也是为什么 [Nibomo](https://nibomo.com/) 很适合那些搜索怎么 **把笔记做成闪卡** 的人。它现在已经有了这条路线真正需要的形态：卡片创建、AI 对话、文件附件、纯文本支持，以及后续认真可靠的间隔重复复习。
 
 ## 试试这条不会把学习做成第二份工作的“笔记转闪卡”流程
 
 如果你想找一条真正实用的方式来 **把笔记做成闪卡**，可以从这里开始：
 
-- [打开 Flashcards 网站](https://flashcards-open-source-app.com/)
+- [打开 Flashcards 网站](https://nibomo.com/)
 - [打开应用](https://app.flashcards-open-source-app.com/)
-- [阅读入门指南](https://flashcards-open-source-app.com/docs/getting-started/)
+- [阅读入门指南](https://nibomo.com/docs/getting-started/)
 - [在 GitHub 上查看源码](https://github.com/kirill-markin/flashcards-open-source-app)
 
 如果一条好的起草流程能更快把你带到同样的复习队列里，那花一个小时手工重写笔记，本身并没有什么值得歌颂的地方。

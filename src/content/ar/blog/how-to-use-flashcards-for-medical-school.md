@@ -68,7 +68,7 @@ keywords:
 
 إذا كان عملك في التشريح يعتمد كثيرًا على الرسومات، فهذه المقالة المرافقة أقرب إلى المرحلة السابقة في سير العمل:
 
-- [كيف تحوّل الرسومات إلى بطاقات تعليمية في 2026](https://flashcards-open-source-app.com/blog/how-to-turn-diagrams-into-flashcards/)
+- [كيف تحوّل الرسومات إلى بطاقات تعليمية في 2026](https://nibomo.com/blog/how-to-turn-diagrams-into-flashcards/)
 
 ## بطاقات علم الأدوية يجب أن تساعدك على الاختيار لا على التلاوة
 
@@ -131,8 +131,8 @@ keywords:
 
 إذا كانت موادك المصدرية عبارة أساسًا عن ملاحظات أو ملفات طويلة، فهاتان المقالتان مناسبتان لتلك المرحلة الأسبق من سير العمل:
 
-- [كيف تحوّل الملاحظات إلى بطاقات تعليمية في 2026](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
-- [كيف تحوّل ملف PDF إلى بطاقات تعليمية في 2026](https://flashcards-open-source-app.com/blog/how-to-turn-a-pdf-into-flashcards/)
+- [كيف تحوّل الملاحظات إلى بطاقات تعليمية في 2026](https://nibomo.com/blog/turn-notes-into-flashcards/)
+- [كيف تحوّل ملف PDF إلى بطاقات تعليمية في 2026](https://nibomo.com/blog/how-to-turn-a-pdf-into-flashcards/)
 
 ## أخطاء بنوك الأسئلة يجب أن تعيد تشكيل النصف الثاني من المجموعة
 
@@ -153,7 +153,7 @@ keywords:
 
 إذا كانت هذه هي المرحلة التي تحتاج فيها إلى أكبر قدر من المساعدة، فهذه هي المقالة المرافقة المباشرة:
 
-- [كيف تحوّل أسئلة التدريب إلى بطاقات تعليمية في 2026](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/)
+- [كيف تحوّل أسئلة التدريب إلى بطاقات تعليمية في 2026](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/)
 
 ## سير عمل أسبوعي لبطاقات كلية الطب يكون مملًا عن قصد في العادة
 
@@ -189,7 +189,7 @@ keywords:
 
 إذا أردت جانب التنظيم بمزيد من التفصيل، فاقرأ هذه المقالة بعد ذلك:
 
-- [كيف تنظّم البطاقات التعليمية في 2026](https://flashcards-open-source-app.com/blog/how-to-organize-flashcards/)
+- [كيف تنظّم البطاقات التعليمية في 2026](https://nibomo.com/blog/how-to-organize-flashcards/)
 
 ## يفيد FSRS أكثر عندما تتوقف عن إدخال الفوضى إليه
 
@@ -209,12 +209,12 @@ keywords:
 
 إذا كانت قائمتك بدأت أصلًا تخرج عن السيطرة، فهاتان المقالتان ترتبطان مباشرة بسير عمل كلية الطب:
 
-- [كم بطاقة تعليمية جديدة يوميًا في 2026؟](https://flashcards-open-source-app.com/blog/how-many-new-flashcards-per-day/)
-- [كيف تذاكر لامتحان باستخدام FSRS في 2026](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/)
+- [كم بطاقة تعليمية جديدة يوميًا في 2026؟](https://nibomo.com/blog/how-many-new-flashcards-per-day/)
+- [كيف تذاكر لامتحان باستخدام FSRS في 2026](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)
 
 وإذا أردت شرح نموذج الجدولة نفسه:
 
-- [FSRS مقابل SM-2 في 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [FSRS مقابل SM-2 في 2026](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
 ## الروتين القابل للاستمرار في كلية الطب يكون غالبًا أصغر من طموحك
 
@@ -240,7 +240,7 @@ keywords:
 
 ## أين يناسب Flashcards هذا السير بصورة أفضل
 
-[Nibomo](https://flashcards-open-source-app.com/) مناسب جدًا لـ **البطاقات التعليمية لكلية الطب** لأن المنتج يدعم أصلًا العناصر التي يعتمد عليها هذا النوع من سير العمل:
+[Nibomo](https://nibomo.com/) مناسب جدًا لـ **البطاقات التعليمية لكلية الطب** لأن المنتج يدعم أصلًا العناصر التي يعتمد عليها هذا النوع من سير العمل:
 
 - بطاقات بوجه أمامي ووجه خلفي لأسئلة استرجاع واضحة
 - محادثة بالذكاء الاصطناعي لصياغة بطاقات مرشحة من نص المحاضرات أو الملاحظات أو مواد مراجعة الأسئلة
@@ -256,4 +256,4 @@ keywords:
 
 إذا كانت مشكلة جودة البطاقة هي الأساس أكثر من مشكلة سير العمل حسب المادة، فهذه المقالة مناسبة جدًا مع مقال كلية الطب:
 
-- [كيف تصنع بطاقات تعليمية أفضل في 2026](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [كيف تصنع بطاقات تعليمية أفضل في 2026](https://nibomo.com/blog/how-to-make-better-flashcards/)

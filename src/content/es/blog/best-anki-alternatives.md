@@ -20,7 +20,7 @@ Ahí está el coste oculto de comparar alternativas a Anki. Un editor más limpi
 
 Esta comparación empieza justo en ese límite. Analiza siete apps similares a Anki, qué puede trasladar cada una de una colección existente, qué cambia después de la importación y cuándo seguir con Anki resulta más seguro.
 
-> **Declaración de intereses:** Soy Kirill Markin y desarrollo [Nibomo](https://flashcards-open-source-app.com/), uno de los productos incluidos a continuación. Lo he añadido por su código abierto, su opción de autohospedaje y sus flujos de trabajo con agentes. No es el ganador por defecto: carece de importador directo de `.apkg`, su migración desde Anki pierde información y mantener en funcionamiento el sistema autohospedado exige un trabajo de infraestructura real.
+> **Declaración de intereses:** Soy Kirill Markin y desarrollo [Nibomo](https://nibomo.com/), uno de los productos incluidos a continuación. Lo he añadido por su código abierto, su opción de autohospedaje y sus flujos de trabajo con agentes. No es el ganador por defecto: carece de importador directo de `.apkg`, su migración desde Anki pierde información y mantener en funcionamiento el sistema autohospedado exige un trabajo de infraestructura real.
 
 **Datos comprobados:** 28 de agosto de 2026. Los precios corresponden a las tarifas públicas de Estados Unidos o a los precios locales indicados que estaban disponibles en esa fecha. Los impuestos, la región, las ofertas educativas y la facturación de las tiendas de aplicaciones pueden cambiar el importe.
 
@@ -78,7 +78,7 @@ Un importador puede superar la primera prueba y fallar en las otras dos.
 | [Quizlet](https://quizlet.com/) | [Pegar términos y definiciones](https://help.quizlet.com/hc/en-us/articles/360029977151-Creating-sets-by-importing-content) | Ninguno procedente de Anki | Tipos de nota, plantillas, mazos, estructura de archivos multimedia y todos los datos de planificación |
 | [Brainscape](https://www.brainscape.com/) | [CSV, TXT, XLSX u ODS](https://brainscape.zendesk.com/hc/en-us/articles/115002369931-How-do-I-import-various-files-to-create-flashcards) | Ninguno procedente de Anki | Plantillas, complementos, reglas de archivos multimedia y todos los datos de planificación |
 | [SuperMemo](https://www.supermemo.com/) | [Pegar filas delimitadas con preguntas y respuestas](https://www.supermemo.com/en/blog/how-to-create-flashcards-for-learning), hasta 100 por importación | Ninguno procedente de Anki | Estructura de la colección, archivos multimedia, plantillas y todos los datos de planificación |
-| [Nibomo](https://flashcards-open-source-app.com/) | Creación de borradores asistida por IA y revisada a partir de un TXT o CSV de Anki | Ninguno procedente de Anki | No admite `.apkg`; quedan fuera las plantillas, la fidelidad de los archivos multimedia, la jerarquía de los mazos y todos los datos de planificación |
+| [Nibomo](https://nibomo.com/) | Creación de borradores asistida por IA y revisada a partir de un TXT o CSV de Anki | Ninguno procedente de Anki | No admite `.apkg`; quedan fuera las plantillas, la fidelidad de los archivos multimedia, la jerarquía de los mazos y todos los datos de planificación |
 
 ## Precio, uso sin conexión, planificación y propiedad
 

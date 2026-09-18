@@ -100,7 +100,7 @@ card quality की समस्या शायद ही कभी सिर�
 
 ## Flashcards के पास इस workflow के लिए पहले से सही shape है
 
-[Nibomo](https://flashcards-open-source-app.com/) यहाँ दिलचस्प है क्योंकि product पहले से वे pieces combine करती है जो मायने रखते हैं:
+[Nibomo](https://nibomo.com/) यहाँ दिलचस्प है क्योंकि product पहले से वे pieces combine करती है जो मायने रखते हैं:
 
 - front/back card creation
 - AI chat
@@ -130,7 +130,7 @@ card quality की समस्या शायद ही कभी सिर�
 
 अगर आप scheduling side detail में समझना चाहते हैं, तो यह companion article है:
 
-- [2026 में FSRS बनाम SM-2](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [2026 में FSRS बनाम SM-2](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
 ## Plain text उतनी ही उपयोगी है जितनी बहुत-सी note apps मानना नहीं चाहतीं
 
@@ -175,11 +175,11 @@ card quality की समस्या शायद ही कभी सिर�
 
 अगर आपकी समस्या existing collections move करने से ज़्यादा जुड़ी है, तो यहाँ से शुरू करें:
 
-- [2026 में Anki से कैसे माइग्रेट करें](https://flashcards-open-source-app.com/blog/migrate-from-anki-txt-export-open-source-flashcards/)
+- [2026 में Anki से कैसे माइग्रेट करें](https://nibomo.com/blog/migrate-from-anki-txt-export-open-source-flashcards/)
 
 और अगर आप wider category compare कर रहे हैं, तो यह बेहतर overview है:
 
-- [2026 में Best Anki Alternatives](https://flashcards-open-source-app.com/blog/best-anki-alternatives/)
+- [2026 में Best Anki Alternatives](https://nibomo.com/blog/best-anki-alternatives/)
 
 ## तो 2026 में notes को flashcards में बदलने का सबसे अच्छा तरीका क्या है?
 
@@ -193,15 +193,15 @@ card quality की समस्या शायद ही कभी सिर�
 
 इससे boring part हट जाती है, बिना यह नाटक किए कि human loop से गायब हो जानी चाहिए।
 
-इसीलिए [Nibomo](https://flashcards-open-source-app.com/) उन लोगों के लिए अच्छा fit है जो **notes को flashcards में बदलें** खोज रहे हैं। current product में इसके लिए useful shape पहले से मौजूद है: card creation, AI chat, file attachments, plain text support, और उसके बाद serious spaced repetition।
+इसीलिए [Nibomo](https://nibomo.com/) उन लोगों के लिए अच्छा fit है जो **notes को flashcards में बदलें** खोज रहे हैं। current product में इसके लिए useful shape पहले से मौजूद है: card creation, AI chat, file attachments, plain text support, और उसके बाद serious spaced repetition।
 
 ## वह notes-to-flashcards workflow आज़माएँ जो second job न बन जाए
 
 अगर आप **notes को flashcards में बदलने** का practical तरीका चाहते हैं, तो यहाँ से शुरू करें:
 
-- [Open Nibomo](https://flashcards-open-source-app.com/)
+- [Open Nibomo](https://nibomo.com/)
 - [ऐप खोलें](https://app.flashcards-open-source-app.com/)
-- [getting started guide पढ़ें](https://flashcards-open-source-app.com/docs/getting-started/)
+- [getting started guide पढ़ें](https://nibomo.com/docs/getting-started/)
 - [GitHub पर source देखें](https://github.com/kirill-markin/flashcards-open-source-app)
 
 अगर अच्छी draft workflow आपको उसी review queue तक जल्दी पहुँचा सकती है, तो notes को हाथ से फिर से phrase करने में एक घंटा बर्बाद करने में कुछ भी noble नहीं है।

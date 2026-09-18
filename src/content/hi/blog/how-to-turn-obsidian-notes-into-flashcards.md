@@ -98,7 +98,7 @@ clean की हुई note लें और plain front/back cards माँग
 
 असली हिस्सा इसके बाद आता है: आप draft को अब भी edit करते हैं। बहुत सामान्य cards delete करें। fuzzy prompts दोबारा लिखें। जो भी एक साथ तीन ideas test कर रहा हो, उसे split करें। अगर कोई card तभी समझ आती है जब पूरी note उसके साथ खुली हो, तो वह अभी तैयार नहीं है।
 
-अगर आप यही workflow Obsidian angle के बिना, थोड़ा broader रूप में पढ़ना चाहते हैं, तो [2026 में notes को flashcards में कैसे बदलें](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/) बेहतर companion article है।
+अगर आप यही workflow Obsidian angle के बिना, थोड़ा broader रूप में पढ़ना चाहते हैं, तो [2026 में notes को flashcards में कैसे बदलें](https://nibomo.com/blog/turn-notes-into-flashcards/) बेहतर companion article है।
 
 ## अच्छी Obsidian cards को अपने दम पर खड़ा होना चाहिए
 
@@ -113,11 +113,11 @@ clean की हुई note लें और plain front/back cards माँग
 
 यहीं editing pass अपनी कीमत साबित करता है। AI draft आपको speed देती है। cleanup step आपको ऐसी cards देता है जिन पर आप अगले हफ़्ते भी भरोसा करेंगे।
 
-अगर अगला कदम बेहतर card-writing rules है, तो [बेहतर flashcards कैसे बनाएं](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/) पढ़ें।
+अगर अगला कदम बेहतर card-writing rules है, तो [बेहतर flashcards कैसे बनाएं](https://nibomo.com/blog/how-to-make-better-flashcards/) पढ़ें।
 
 ## Flashcards, Obsidian workflow में ठीक बैठता है, बिना यह दिखावा किए कि वही आपका vault है
 
-[Nibomo](https://flashcards-open-source-app.com/) यहाँ इसलिए समझ आता है क्योंकि यह workflow के पढ़ाई वाले हिस्से को साफ़ तरीके से संभालता है:
+[Nibomo](https://nibomo.com/) यहाँ इसलिए समझ आता है क्योंकि यह workflow के पढ़ाई वाले हिस्से को साफ़ तरीके से संभालता है:
 
 - front/back cards बनाना
 - pasted text से draft तैयार करने के लिए AI chat
@@ -126,7 +126,7 @@ clean की हुई note लें और plain front/back cards माँग
 
 यह उससे बेहतर fit है जहाँ कोई app खुद को native Obsidian layer बताने की कोशिश करे। यह आपका note graph, vault browser, या plugin replacement नहीं है। इसे वैसा होने की ज़रूरत भी नहीं है। उपयोगी handoff इससे ज़्यादा simple है: notes का home Obsidian ही रहे, और जब आपको retrieval practice चाहिए तब Flashcards आगे का काम संभाल ले।
 
-अगर पहले product basics देखना चाहते हैं, तो [Getting Started](https://flashcards-open-source-app.com/docs/getting-started/) से शुरू करें।
+अगर पहले product basics देखना चाहते हैं, तो [Getting Started](https://nibomo.com/docs/getting-started/) से शुरू करें।
 
 ## FSRS वह जगह है जहाँ यह workflow सच में रखने लायक बनता है
 
@@ -138,7 +138,7 @@ clean की हुई note लें और plain front/back cards माँग
 
 अगर scheduler कमजोर है, तो ठीक-ठाक deck भी repetitive लगने लगता है। अगर scheduler मजबूत है, तो workflow पर टिके रहना आसान हो जाता है। easy cards पीछे हटती हैं। hard cards जल्दी लौटती हैं। पूरा system ज़्यादा शांत लगता है।
 
-अगर scheduling comparison को थोड़ा और detail में पढ़ना है, तो [2026 में FSRS बनाम SM-2](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/) पढ़ें।
+अगर scheduling comparison को थोड़ा और detail में पढ़ना है, तो [2026 में FSRS बनाम SM-2](https://nibomo.com/blog/fsrs-vs-sm-2/) पढ़ें।
 
 ## Obsidian-to-flashcards का एक practical workflow
 
@@ -175,7 +175,7 @@ vault को वही करते रहने दें जो वह अच�
 
 यह काम का बँटवारा किसी बड़े note graph से सीधे पढ़ने की कोशिश करने से कहीं साफ़ है। यह process को ईमानदार भी रखता है। कोई fake sync promises नहीं। कोई plugin maze नहीं। बस clean Markdown in, card draft out, और उसके बाद spaced repetition।
 
-अगर आपका source material note से ज़्यादा किसी लंबे exported document जैसा है, तो [2026 में किसी लेख को flashcards में कैसे बदलें](https://flashcards-open-source-app.com/blog/how-to-turn-an-article-into-flashcards/) बेहतर related guide है।
+अगर आपका source material note से ज़्यादा किसी लंबे exported document जैसा है, तो [2026 में किसी लेख को flashcards में कैसे बदलें](https://nibomo.com/blog/how-to-turn-an-article-into-flashcards/) बेहतर related guide है।
 
 ## 2026 के लिए उपयोगी नियम
 

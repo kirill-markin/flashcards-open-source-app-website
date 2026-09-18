@@ -118,7 +118,7 @@ This is why I do not fully trust raw exports from any **AI study tool flashcards
 
 ## Where Flashcards fits this workflow better
 
-[Nibomo](https://flashcards-open-source-app.com/) is a strong fit for this exact gap because the product is not only a generator and not only a review tool. It lets you do the cleanup step in the same place where the review will happen.
+[Nibomo](https://nibomo.com/) is a strong fit for this exact gap because the product is not only a generator and not only a review tool. It lets you do the cleanup step in the same place where the review will happen.
 
 That matters more than people admit.
 
@@ -152,7 +152,7 @@ That is why **FSRS flashcards** matter so much in this conversation. Once the ca
 
 If you want the scheduling part in more detail, this companion article goes deeper:
 
-- [FSRS vs SM-2 in 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [FSRS vs SM-2 in 2026](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
 ## This works especially well when the source started messy
 
@@ -170,9 +170,9 @@ That means the generated cards are already one transformation away from the sour
 
 If your source is still stuck one step earlier, these companion pieces help:
 
-- [How to Turn Notes Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
-- [How to Turn a PDF Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-turn-a-pdf-into-flashcards/)
-- [How to Turn Notion Notes Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-turn-notion-notes-into-flashcards/)
+- [How to Turn Notes Into Flashcards in 2026](https://nibomo.com/blog/turn-notes-into-flashcards/)
+- [How to Turn a PDF Into Flashcards in 2026](https://nibomo.com/blog/how-to-turn-a-pdf-into-flashcards/)
+- [How to Turn Notion Notes Into Flashcards in 2026](https://nibomo.com/blog/how-to-turn-notion-notes-into-flashcards/)
 
 ## The workflow I would use this week
 
@@ -201,4 +201,4 @@ I would treat them as a draft.
 
 That is the version of **NotebookLM flashcards** I trust most: use NotebookLM to get from messy sources to candidate cards, then move those cards into a real spaced repetition workflow where you can edit them, shorten them, and review them with an actual scheduler.
 
-If that is what you want, [Nibomo](https://flashcards-open-source-app.com/) is a strong fit. It gives you a practical bridge from AI-generated study material to a deck you might still be reviewing a month from now.
+If that is what you want, [Nibomo](https://nibomo.com/) is a strong fit. It gives you a practical bridge from AI-generated study material to a deck you might still be reviewing a month from now.

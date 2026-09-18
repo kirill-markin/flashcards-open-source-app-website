@@ -92,7 +92,7 @@ keywords:
 
 カードの作り方そのものが弱点なら、次はこちらです。
 
-- [2026年版 より良いフラッシュカードの作り方](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [2026年版 より良いフラッシュカードの作り方](https://nibomo.com/blog/how-to-make-better-flashcards/)
 
 ## ロースクールのアウトラインは素材であって、そのまま最終デッキではない
 
@@ -113,7 +113,7 @@ keywords:
 
 まだ素材が完成したアウトラインというより授業ノート寄りなら、こちらのほうが合います。
 
-- [2026年版 ノートをフラッシュカードに変える方法](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
+- [2026年版 ノートをフラッシュカードに変える方法](https://nibomo.com/blog/turn-notes-into-flashcards/)
 
 ## 論点発見のカードは、完成した答案ではなくトリガーを鍛えるべき
 
@@ -152,7 +152,7 @@ keywords:
 
 この流れを特に重視したいなら、まずはこちらです。
 
-- [2026年版 演習問題をフラッシュカードに変える方法](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/)
+- [2026年版 演習問題をフラッシュカードに変える方法](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/)
 
 ## ロースクール向けフラッシュカードの現実的な週間運用
 
@@ -170,7 +170,7 @@ keywords:
 
 もし問題がカードの書き方より構造のほうにあるなら、次はこちらがそのままつながります。
 
-- [2026年版 フラッシュカードの整理術](https://flashcards-open-source-app.com/blog/how-to-organize-flashcards/)
+- [2026年版 フラッシュカードの整理術](https://nibomo.com/blog/how-to-organize-flashcards/)
 
 ## 1Lのデッキがきれいなら、司法試験向けカードにもつながりやすい
 
@@ -217,12 +217,12 @@ keywords:
 
 スケジューリング面をもう少し詳しく見るなら、相性が良いのはこの2本です。
 
-- [2026年版 FSRSで試験勉強する方法](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/)
-- [2026年版 FSRSとSM-2の違い](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [2026年版 FSRSで試験勉強する方法](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)
+- [2026年版 FSRSとSM-2の違い](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
 ## このロースクール運用の中で Flashcards がはまる場所
 
-[Nibomo](https://flashcards-open-source-app.com/) の中でこの運用を回すなら、便利なのは抽象的な意味で「AIがカードを作る」ことではありません。今の製品が、面倒だけれど実際には必要な中間作業をすでに支えていることです。
+[Nibomo](https://nibomo.com/) の中でこの運用を回すなら、便利なのは抽象的な意味で「AIがカードを作る」ことではありません。今の製品が、面倒だけれど実際には必要な中間作業をすでに支えていることです。
 
 - 下書きと整理に使える AI チャット
 - プレーンテキストのアップロードを含むファイル添付
@@ -247,9 +247,9 @@ keywords:
 
 この運用を Flashcards で試したいなら、次から始められます。
 
-- [Flashcards を始める](https://flashcards-open-source-app.com/)
+- [Flashcards を始める](https://nibomo.com/)
 - [Web アプリを開く](https://app.flashcards-open-source-app.com/)
-- [使い方ガイドを読む](https://flashcards-open-source-app.com/docs/getting-started/)
+- [使い方ガイドを読む](https://nibomo.com/docs/getting-started/)
 - [GitHub でソースを見る](https://github.com/kirill-markin/flashcards-open-source-app)
 
 目標は、アウトラインをフラッシュカードの形へきれいに写し替えることではありません。事実パターンが少し変わって時間が減っても、ルール、例外、論点トリガーがより速く出てくるようにすることです。

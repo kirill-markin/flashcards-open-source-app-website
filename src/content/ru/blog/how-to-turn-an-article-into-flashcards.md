@@ -199,8 +199,8 @@ keywords:
 
 Если вам интересна более широкая тема AI-черновиков, посмотрите также:
 
-- [Как использовать ChatGPT для создания карточек в 2026 году](https://flashcards-open-source-app.com/blog/how-to-use-chatgpt-to-make-flashcards/)
-- [Как превратить ChatGPT Study Mode в карточки в 2026 году](https://flashcards-open-source-app.com/blog/how-to-turn-chatgpt-study-mode-into-flashcards/)
+- [Как использовать ChatGPT для создания карточек в 2026 году](https://nibomo.com/blog/how-to-use-chatgpt-to-make-flashcards/)
+- [Как превратить ChatGPT Study Mode в карточки в 2026 году](https://nibomo.com/blog/how-to-turn-chatgpt-study-mode-into-flashcards/)
 
 ## Для технических статей лучше работают конкретные форматы ответов
 
@@ -220,8 +220,8 @@ keywords:
 
 Если источник больше похож на PDF-главу или конспект лекции, чем на веб-страницу, пригодятся и эти материалы:
 
-- [Как превратить PDF в карточки в 2026 году](https://flashcards-open-source-app.com/blog/how-to-turn-a-pdf-into-flashcards/)
-- [Как превратить заметки в карточки в 2026 году](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
+- [Как превратить PDF в карточки в 2026 году](https://nibomo.com/blog/how-to-turn-a-pdf-into-flashcards/)
+- [Как превратить заметки в карточки в 2026 году](https://nibomo.com/blog/turn-notes-into-flashcards/)
 
 ## Одна хорошая статья может дать пять отличных карточек
 
@@ -259,11 +259,11 @@ keywords:
 
 Если хотите подробнее разобраться именно с расписанием повторений, начните отсюда:
 
-- [FSRS vs SM-2 in 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [FSRS vs SM-2 in 2026](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
 ## Где здесь подходит Nibomo
 
-[Nibomo](https://flashcards-open-source-app.com/) хорошо подходит для сценария **статья в карточки**, потому что уже закрывает самые важные части процесса:
+[Nibomo](https://nibomo.com/) хорошо подходит для сценария **статья в карточки**, потому что уже закрывает самые важные части процесса:
 
 - можно вставить или загрузить обычный текст из статьи, поста в блоге, рассылки или страницы документации
 - можно почистить исходник прямо в AI-чате перед созданием карточек
@@ -275,8 +275,8 @@ keywords:
 
 Если ваш источник ближе к разговорному формату или аудио, чем к тексту, рядом есть и такие материалы:
 
-- [Как превратить подкаст в карточки в 2026 году](https://flashcards-open-source-app.com/blog/how-to-turn-a-podcast-into-flashcards/)
-- [Как превратить запись лекции в карточки в 2026 году](https://flashcards-open-source-app.com/blog/how-to-turn-lecture-recordings-into-flashcards/)
+- [Как превратить подкаст в карточки в 2026 году](https://nibomo.com/blog/how-to-turn-a-podcast-into-flashcards/)
+- [Как превратить запись лекции в карточки в 2026 году](https://nibomo.com/blog/how-to-turn-lecture-recordings-into-flashcards/)
 
 ## Полезное правило
 

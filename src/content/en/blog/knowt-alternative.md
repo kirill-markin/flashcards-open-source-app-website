@@ -21,7 +21,7 @@ That small conflict is why a useful **Knowt review** needs more than a feature l
 
 The short verdict: Knowt is a strong fit if you want notes, source conversion, and several ways to practice in one product. A narrower flashcard app makes more sense when you mainly want durable, checked front/back cards, documented scheduling, offline-first writes, or control over the software and infrastructure.
 
-> **Disclosure:** I am Kirill Markin, and I build [Nibomo](https://flashcards-open-source-app.com/), one of the alternatives discussed here. Knowt is broader and likely the better choice for integrated notes, automatic source conversion, varied practice, community material, and classroom workflows.
+> **Disclosure:** I am Kirill Markin, and I build [Nibomo](https://nibomo.com/), one of the alternatives discussed here. Knowt is broader and likely the better choice for integrated notes, automatic source conversion, varied practice, community material, and classroom workflows.
 
 **Facts checked: September 2, 2026.** This comparison is based on the linked product pages and help documentation. Where those sources are silent, I say so instead of treating silence as proof that a feature is absent. Prices and product behavior can change, so verify the checkout and test your own offline workflow before relying on either one.
 

@@ -98,7 +98,7 @@ Damit verschwindet bereits der größte Teil der lästigen Arbeit bei **Obsidian
 
 Der wichtige Teil kommt danach: Du bearbeitest den Entwurf trotzdem noch. Lösche generische Karten. Schreibe unscharfe Prompts um. Teile alles auf, was drei Ideen gleichzeitig abfragt. Wenn eine Karte nur Sinn ergibt, solange die ganze Notiz daneben geöffnet ist, ist sie noch nicht fertig.
 
-Wenn du die breitere Version dieses Workflows ohne den direkten Obsidian-Bezug willst, ist [Wie du 2026 Notizen in Flashcards verwandelst](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/) der bessere Begleitartikel.
+Wenn du die breitere Version dieses Workflows ohne den direkten Obsidian-Bezug willst, ist [Wie du 2026 Notizen in Flashcards verwandelst](https://nibomo.com/blog/turn-notes-into-flashcards/) der bessere Begleitartikel.
 
 ## Gute Obsidian-Karten müssen trotzdem für sich selbst funktionieren
 
@@ -113,11 +113,11 @@ Eine gute Flashcard sollte immer noch funktionieren, wenn dein Zukunfts-Ich sie 
 
 Hier verdient sich der Bearbeitungsdurchgang seinen Platz. Der KI-Entwurf gibt dir Geschwindigkeit. Die Bereinigung sorgt dafür, dass du Karten bekommst, mit denen du auch nächste Woche noch gern arbeitest.
 
-Wenn du als Nächstes bessere Regeln fürs Schreiben von Karten willst, lies [Wie du 2026 bessere Flashcards erstellst](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/).
+Wenn du als Nächstes bessere Regeln fürs Schreiben von Karten willst, lies [Wie du 2026 bessere Flashcards erstellst](https://nibomo.com/blog/how-to-make-better-flashcards/).
 
 ## Flashcards passt in den Obsidian-Workflow, ohne so zu tun, als wäre es dein Vault
 
-[Nibomo](https://flashcards-open-source-app.com/) passt hier gut, weil die App den Lernteil des Workflows sauber übernimmt:
+[Nibomo](https://nibomo.com/) passt hier gut, weil die App den Lernteil des Workflows sauber übernimmt:
 
 - Vorderseiten-/Rückseiten-Karten erstellen
 - KI-Chat zum Entwerfen aus eingefügtem Text nutzen
@@ -126,7 +126,7 @@ Wenn du als Nächstes bessere Regeln fürs Schreiben von Karten willst, lies [Wi
 
 Das passt besser, als so zu tun, als wäre die App eine native Obsidian-Schicht. Sie ist weder dein Notizgraph noch ein Vault-Browser noch ein Plugin-Ersatz. Das muss sie auch nicht sein. Die nützliche Übergabe ist einfacher: Obsidian bleibt das Zuhause für Notizen, und Flashcards übernimmt, sobald du Abruftraining willst.
 
-Wenn du erst die Produktgrundlagen sehen willst, starte mit [Erste Schritte](https://flashcards-open-source-app.com/docs/getting-started/).
+Wenn du erst die Produktgrundlagen sehen willst, starte mit [Erste Schritte](https://nibomo.com/docs/getting-started/).
 
 ## FSRS ist der Punkt, an dem sich der Workflow wirklich lohnt
 
@@ -138,7 +138,7 @@ Darum ist FSRS wichtig.
 
 Wenn der Scheduler schwach ist, fühlt sich selbst ein ordentliches Deck irgendwann repetitiv an. Wenn der Scheduler stark ist, lässt sich der Workflow viel leichter beibehalten. Leichte Karten treten in den Hintergrund. Schwierige Karten kommen früher zurück. Das ganze System wirkt ruhiger.
 
-Wenn du den Vergleich der Planungsalgorithmen genauer sehen willst, lies [FSRS vs SM-2 im Jahr 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/).
+Wenn du den Vergleich der Planungsalgorithmen genauer sehen willst, lies [FSRS vs SM-2 im Jahr 2026](https://nibomo.com/blog/fsrs-vs-sm-2/).
 
 ## Ein praktischer Obsidian-zu-Flashcards-Workflow
 
@@ -175,7 +175,7 @@ Dann verschiebst du nur den kleinen Teil, der aktives Abrufen verdient, in ein e
 
 Diese Arbeitsteilung ist deutlich sauberer, als direkt aus einem riesigen Notizgraphen lernen zu wollen. Sie hält den Prozess auch ehrlich. Keine falschen Sync-Versprechen. Kein Plugin-Labyrinth. Nur sauberes Markdown rein, Kartenentwurf raus und danach Spaced Repetition.
 
-Wenn dein Ausgangsmaterial eher einem langen exportierten Dokument als einer Notiz entspricht, ist [Wie du 2026 einen Artikel in Flashcards verwandelst](https://flashcards-open-source-app.com/blog/how-to-turn-an-article-into-flashcards/) der passendere verwandte Leitfaden.
+Wenn dein Ausgangsmaterial eher einem langen exportierten Dokument als einer Notiz entspricht, ist [Wie du 2026 einen Artikel in Flashcards verwandelst](https://nibomo.com/blog/how-to-turn-an-article-into-flashcards/) der passendere verwandte Leitfaden.
 
 ## Die nützliche Regel für 2026
 

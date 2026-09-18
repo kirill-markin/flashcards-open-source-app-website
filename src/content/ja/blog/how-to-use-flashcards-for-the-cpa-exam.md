@@ -183,7 +183,7 @@ BAR の演習で浮かび上がっている弱点が、公式の丸暗記では�
 
 もし simulation の見直しがすでに一番良いカード源になっているなら、この関連記事がそのまま相方になります。
 
-- [2026年版 演習問題をフラッシュカードに変える方法](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/)
+- [2026年版 演習問題をフラッシュカードに変える方法](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/)
 
 ## アウトラインを書き写すより、ミスからカードを作るほうがCPA対策に合っている
 
@@ -209,11 +209,11 @@ FAR、AUD、REG、BAR、ISC、TCP のどれでも、問題を落としたとき�
 
 カード作成の段階が毎回ぼやけるなら、次に読むべきなのはこれです。
 
-- [2026年版 より良いフラッシュカードの作り方](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [2026年版 より良いフラッシュカードの作り方](https://nibomo.com/blog/how-to-make-better-flashcards/)
 
 より大きな問題がデッキの肥大化なら、次はこちらです。
 
-- [2026年版 フラッシュカードの整理術](https://flashcards-open-source-app.com/blog/how-to-organize-flashcards/)
+- [2026年版 フラッシュカードの整理術](https://nibomo.com/blog/how-to-organize-flashcards/)
 
 ## FSRSが効くのは、CPAデッキが全部を背負おうとしなくなってから
 
@@ -231,11 +231,11 @@ FAR、AUD、REG、BAR、ISC、TCP のどれでも、問題を落としたとき�
 
 スケジューリング側をもう少し詳しく見たいなら、直接つながるのは次の記事です。
 
-- [2026年版 FSRSで試験勉強する方法](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/)
+- [2026年版 FSRSで試験勉強する方法](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)
 
 ## このCPAワークフローの中でFlashcardsがはまる場所
 
-[Nibomo](https://flashcards-open-source-app.com/) の中でこの流れを回すなら、便利なのは「AI が魔法みたいに CPA 試験に受からせてくれる」という曖昧な約束ではありません。
+[Nibomo](https://nibomo.com/) の中でこの流れを回すなら、便利なのは「AI が魔法みたいに CPA 試験に受からせてくれる」という曖昧な約束ではありません。
 
 本当に便利なのは、製品がすでにこのワークフローの雑で面倒な中間工程を支えていることです。
 

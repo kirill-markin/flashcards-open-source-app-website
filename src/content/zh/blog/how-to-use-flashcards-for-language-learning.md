@@ -53,7 +53,7 @@ keywords:
 
 这和通用抽认卡的原则其实是一样的：
 
-- [2026 年如何制作更好的抽认卡](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [2026 年如何制作更好的抽认卡](https://nibomo.com/blog/how-to-make-better-flashcards/)
 
 只是语言学习对过载卡片的惩罚会来得更快。
 
@@ -165,8 +165,8 @@ keywords:
 
 如果你想更深入了解调度这一侧，可以先看这里：
 
-- [2026 年 FSRS vs SM-2](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
-- [2026 年每天该加多少新抽认卡？](https://flashcards-open-source-app.com/blog/how-many-new-flashcards-per-day/)
+- [2026 年 FSRS vs SM-2](https://nibomo.com/blog/fsrs-vs-sm-2/)
+- [2026 年每天该加多少新抽认卡？](https://nibomo.com/blog/how-many-new-flashcards-per-day/)
 
 ## 复习负担往往比卡组大小更重要
 
@@ -209,9 +209,9 @@ keywords:
 
 如果你的素材原本是笔记、转录文本，或者聊天记录，这几篇前置文章会更有帮助：
 
-- [2026 年如何用 ChatGPT 制作抽认卡](https://flashcards-open-source-app.com/blog/how-to-use-chatgpt-to-make-flashcards/)
-- [2026 年如何把语音笔记变成抽认卡](https://flashcards-open-source-app.com/blog/how-to-turn-voice-notes-into-flashcards/)
-- [2026 年如何把 YouTube 视频变成抽认卡](https://flashcards-open-source-app.com/blog/youtube-to-flashcards/)
+- [2026 年如何用 ChatGPT 制作抽认卡](https://nibomo.com/blog/how-to-use-chatgpt-to-make-flashcards/)
+- [2026 年如何把语音笔记变成抽认卡](https://nibomo.com/blog/how-to-turn-voice-notes-into-flashcards/)
+- [2026 年如何把 YouTube 视频变成抽认卡](https://nibomo.com/blog/youtube-to-flashcards/)
 
 ## 围绕真实目标建卡，而不是围绕空泛的“我要学语言”
 
@@ -235,7 +235,7 @@ keywords:
 
 ## 为什么 Flashcards 更适合这套工作流
 
-[Nibomo](https://flashcards-open-source-app.com/) 很适合 **词汇间隔重复**，因为这个产品已经支持这种工作流真正依赖的部分：
+[Nibomo](https://nibomo.com/) 很适合 **词汇间隔重复**，因为这个产品已经支持这种工作流真正依赖的部分：
 
 - 干净的正反面卡
 - FSRS 复习调度
@@ -247,9 +247,9 @@ keywords:
 
 如果你也在比较更宽泛的产品选择，这几篇会最接近这个话题：
 
-- [2026 年 Memrise 替代品](https://flashcards-open-source-app.com/blog/memrise-alternative/)
-- [2026 年 Quizlet 替代品](https://flashcards-open-source-app.com/blog/quizlet-alternative/)
-- [2026 年最佳离线抽认卡应用](https://flashcards-open-source-app.com/blog/best-offline-flashcards-app/)
+- [2026 年 Memrise 替代品](https://nibomo.com/blog/memrise-alternative/)
+- [2026 年 Quizlet 替代品](https://nibomo.com/blog/quizlet-alternative/)
+- [2026 年最佳离线抽认卡应用](https://nibomo.com/blog/best-offline-flashcards-app/)
 
 ## 所以，2026 年到底该怎么用抽认卡学语言？
 
@@ -264,4 +264,4 @@ keywords:
 
 这才是我真正信任的 **如何用抽认卡学语言**。
 
-如果你想找一个围绕这种工作流来构建的工具，[Nibomo](https://flashcards-open-source-app.com/) 很适合。它把 AI 辅助起草、正反面卡片和 FSRS 复习放在同一个开源栈里，而这正是当你不再把“收集单词”误认为“真的学会语言”之后，一副语言卡组真正需要的东西。
+如果你想找一个围绕这种工作流来构建的工具，[Nibomo](https://nibomo.com/) 很适合。它把 AI 辅助起草、正反面卡片和 FSRS 复习放在同一个开源栈里，而这正是当你不再把“收集单词”误认为“真的学会语言”之后，一副语言卡组真正需要的东西。

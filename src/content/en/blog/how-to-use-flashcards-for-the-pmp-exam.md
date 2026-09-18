@@ -112,7 +112,7 @@ Examples:
 - Front: When does a formula deserve a permanent flashcard?
 - Back: When you repeatedly need to retrieve or interpret it under time pressure, not just because it appeared once in a chapter.
 
-This is also where AI-generated drafts get bloated fast. If a formula card arrives with a mini-lecture attached, trim it or split it. [How to Make Better Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/) is the right follow-up if your drafts keep turning into little essays.
+This is also where AI-generated drafts get bloated fast. If a formula card arrives with a mini-lecture attached, trim it or split it. [How to Make Better Flashcards in 2026](https://nibomo.com/blog/how-to-make-better-flashcards/) is the right follow-up if your drafts keep turning into little essays.
 
 ## Business Environment is no longer the tiny side topic
 
@@ -162,7 +162,7 @@ For example:
 - Front: What should you keep from a missed formula question?
 - Back: The setup or interpretation error that caused the miss, not just the final arithmetic.
 
-If your mocks and quizzes are already generating the best raw material, [How to Turn Practice Questions Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/) goes deeper on that workflow.
+If your mocks and quizzes are already generating the best raw material, [How to Turn Practice Questions Into Flashcards in 2026](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/) goes deeper on that workflow.
 
 ## Keep the PMP deck organized by function, not just by chapter
 
@@ -188,7 +188,7 @@ For PMP, I would usually keep one main exam deck and tag by function:
 
 Then tag by source only when it helps later, such as `mock-1` or `chapter-8`.
 
-This keeps the review queue cleaner without turning the deck into a folder-management project. If organization is the part that keeps slipping, [How to Organize Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-organize-flashcards/) is the practical next read.
+This keeps the review queue cleaner without turning the deck into a folder-management project. If organization is the part that keeps slipping, [How to Organize Flashcards in 2026](https://nibomo.com/blog/how-to-organize-flashcards/) is the practical next read.
 
 ## A weekly PMP flashcards workflow that survives real study life
 
@@ -223,11 +223,11 @@ The order matters:
 4. keep new-card volume realistic
 5. let FSRS handle scheduling once the deck is worth scheduling
 
-If you want the scheduling side in more detail, [How to Study for an Exam With FSRS in 2026](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/) is the direct companion.
+If you want the scheduling side in more detail, [How to Study for an Exam With FSRS in 2026](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/) is the direct companion.
 
 ## Where Flashcards fits in this PMP workflow
 
-If you want to run this inside [Nibomo](https://flashcards-open-source-app.com/), the useful part is not a vague promise that AI will somehow study for you.
+If you want to run this inside [Nibomo](https://nibomo.com/), the useful part is not a vague promise that AI will somehow study for you.
 
 The useful part is that the product already covers the middle of this workflow:
 
@@ -240,7 +240,7 @@ The useful part is that the product already covers the middle of this workflow:
 
 For a ready-made starting point, [Flashcards for the 2026 PMP® Exam: People, Process & Business Environment](/catalog/packages/pmp-2026-exam-flashcards/) is an unofficial English study deck with original cards built for the July 2026 exam. You can also take a messy explanation from a PMP practice set, draft candidate cards with AI, cut the weak ones, organize the survivors, and keep reviewing them in the same system.
 
-If the AI drafting step creates polished-but-bad cards, clean them aggressively. [How to Fix AI Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-fix-ai-flashcards/) is the right next step when the problem is not quantity but card quality.
+If the AI drafting step creates polished-but-bad cards, clean them aggressively. [How to Fix AI Flashcards in 2026](https://nibomo.com/blog/how-to-fix-ai-flashcards/) is the right next step when the problem is not quantity but card quality.
 
 ## The useful rule for PMP flashcards in 2026
 
