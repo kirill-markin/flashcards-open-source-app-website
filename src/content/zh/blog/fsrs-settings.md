@@ -189,7 +189,7 @@ FSRS 可以把复习任务分散开，却无法让无限加入新卡这件事变
 
 如果结果太高，就减少新卡数量，再模拟一次。这样既能保留回忆目标，也不用让调度算法容忍更多遗忘。
 
-## Anki 与 Flashcards 提供的 FSRS 控制项不同
+## Anki 与 Nibomo 提供的 FSRS 控制项不同
 
 两款产品都使用 FSRS-6，但 Anki 的 FSRS 设置无法与 Nibomo 逐项对应。
 
@@ -203,9 +203,9 @@ FSRS 可以把复习任务分散开，却无法让无限加入新卡这件事变
 | 设置更改 | 默认只影响后续复习；可选择追溯并重新排期 | 只影响后续复习；不会重建现有到期日 |
 | 工作量工具 | **Help Me Decide (Experimental)** 和 **FSRS Simulator (Experimental)** | v1 没有同等的工作量模拟器 |
 
-Flashcards 使用标准的 Again、Hard、Good 和 Easy 评分，并为每张卡片保存 FSRS 记忆状态。后端、iOS 和 Android 调度器分别独立实现，但行为保持一致；Web 复习流程直接复用后端调度器，没有再增加第四套实现。
+Nibomo 使用标准的 Again、Hard、Good 和 Easy 评分，并为每张卡片保存 FSRS 记忆状态。后端、iOS 和 Android 调度器分别独立实现，但行为保持一致；Web 复习流程直接复用后端调度器，没有再增加第四套实现。
 
-这些边界和默认值都记录在公开的 [Flashcards FSRS 排期规范](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/docs/fsrs-scheduling-logic.md)中。两者的取舍很明确：Flashcards 提供实用的工作区级 FSRS-6 设置，Anki 则提供更细的配置范围、个性化拟合和模拟功能。如果这些控制项不可或缺，Anki 更适合你。
+这些边界和默认值都记录在公开的 [Nibomo FSRS 排期规范](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/docs/fsrs-scheduling-logic.md)中。两者的取舍很明确：Nibomo 提供实用的工作区级 FSRS-6 设置，Anki 则提供更细的配置范围、个性化拟合和模拟功能。如果这些控制项不可或缺，Anki 更适合你。
 
 ## 成熟卡片库的更安全调整流程
 
@@ -249,9 +249,9 @@ Flashcards 使用标准的 Again、Hard、Good 和 Easy 评分，并为每张卡
 
 没有。Anki 已在 25.07 版本中移除 Compute Minimum Recommended Retention。在 Anki 26.08 中，请使用 **Help Me Decide (Experimental)** 和 **FSRS Simulator (Experimental)** 来比较记忆率与预估工作量。
 
-### Flashcards 使用和 Anki 相同的设置吗？
+### Nibomo 使用和 Anki 相同的设置吗？
 
-Flashcards 使用 FSRS-6，并按工作区提供目标记忆率、学习步骤、重新学习步骤、最长间隔和 fuzz（模糊化）设置。但它并没有照搬 Anki 的整套设置模型：v1 中权重固定，设置更改只对后续复习生效，也没有个性化参数优化或工作量模拟器。
+Nibomo 使用 FSRS-6，并按工作区提供目标记忆率、学习步骤、重新学习步骤、最长间隔和 fuzz（模糊化）设置。但它并没有照搬 Anki 的整套设置模型：v1 中权重固定，设置更改只对后续复习生效，也没有个性化参数优化或工作量模拟器。
 
 ## 先确定工作量，再确定百分比
 

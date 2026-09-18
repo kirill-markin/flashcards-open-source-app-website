@@ -193,7 +193,7 @@ Quizlet 导出是有用的，但它不是你整个学习环境的完整克隆。
 
 - [适用于间隔重复的自托管开源抽认卡应用](/blog/self-hosted-open-source-flashcards-app-for-spaced-repetition/)
 
-## 如果你希望下一副卡组更容易真正归自己，Flashcards 适合放在哪
+## 如果你希望下一副卡组更容易真正归自己，Nibomo 适合放在哪
 
 如果是我从头开始做一副新卡组，而且把“所有权”放在心上，我最先会看的是这些产品特性：
 

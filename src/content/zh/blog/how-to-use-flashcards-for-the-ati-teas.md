@@ -275,7 +275,7 @@ TEAS 备考会制造出很多很乱的素材。你手里会堆着复制下来的
 
 这套流程和 [2026 年如何把练习题做成 Flashcards](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/) 以及 [2026 年如何做出更好的 Flashcards](https://nibomo.com/blog/how-to-make-better-flashcards/) 很接近。
 
-## Flashcards 在这套 ATI TEAS 流程里能帮上什么
+## Nibomo 在这套 ATI TEAS 流程里能帮上什么
 
 如果你想把这套流程放进 [Nibomo](https://nibomo.com/) 里跑，它的价值是实用层面的，不是什么官方集成。
 

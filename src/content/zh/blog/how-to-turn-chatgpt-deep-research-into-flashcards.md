@@ -196,7 +196,7 @@ AI 这一层确实变聪明了。
 
 如果你想继续看“卡片质量”这一层，[2026 年如何制作更好的 Flashcards](/zh/blog/how-to-make-better-flashcards/) 和 [2026 年如何更快复习 Flashcards](/zh/blog/how-to-review-flashcards-faster/) 正好都接在这套流程后面。
 
-## Flashcards 真正适合插入的位置
+## Nibomo 真正适合插入的位置
 
 [Nibomo](/zh/features/) 适合放在研究流程之后，而不是之前。
 
@@ -204,7 +204,7 @@ AI 这一层确实变聪明了。
 
 1. 在 ChatGPT 里完成报告
 2. 复制有用的那一段，或者导出整份报告
-3. 把相关文本粘贴进 Flashcards 的 AI chat，或者直接附上导出的文件
+3. 把相关文本粘贴进 Nibomo 的 AI chat，或者直接附上导出的文件
 4. 用 AI chat 把这些内容收紧成干净的正反面卡
 5. 编辑最终卡片，按卡组或标签整理，再用 FSRS 复习
 

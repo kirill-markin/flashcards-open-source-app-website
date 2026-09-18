@@ -1,6 +1,6 @@
 ---
-title: "2026 年 Anki vs Quizlet vs Flashcards 对比：闪卡应用怎么选？"
-description: "2026 年 Anki vs Quizlet vs Flashcards 实用对比：涵盖调度器、离线学习、AI、导入导出、价格、开源与数据所有权，帮你选择最适合的闪卡应用。"
+title: "2026 年 Anki vs Quizlet vs Nibomo 对比：闪卡应用怎么选？"
+description: "2026 年 Anki vs Quizlet vs Nibomo 实用对比：涵盖调度器、离线学习、AI、导入导出、价格、开源与数据所有权，帮你选择最适合的闪卡应用。"
 image: "/blog/anki-vs-quizlet-vs-open-source-flashcards-app.png"
 date: "2026-03-09"
 updated: "2026-08-02"
@@ -29,7 +29,7 @@ keywords:
 
 ![温暖的学习书桌上并列展示成熟的本地闪卡库、课堂共享学习环境，以及开源 AI 学习技术栈](/blog/anki-vs-quizlet-vs-open-source-flashcards-app.png)
 
-## Anki vs Quizlet vs Flashcards：实用对比
+## Anki vs Quizlet vs Nibomo：实用对比
 
 下表依据截至 2026 年 8 月 2 日核对过的产品信息。价格和功能可用性可能因地区而异。
 
@@ -75,15 +75,15 @@ keywords:
 - 很快要参加测试，希望使用游戏、练习测试和多种练习形式
 - 相比长期间隔调度，你更常使用内置 AI 学习指南或 PDF 工具
 
-Quizlet Learn 会根据你的目标和对材料的熟悉程度，利用机器学习生成个性化学习路径。这种个性化确实有用，但与 Anki 或 Flashcards 的 FSRS 复习系统不是一回事。如果你的主要目标是让知识保留数年，Anki 的机制更成熟。
+Quizlet Learn 会根据你的目标和对材料的熟悉程度，利用机器学习生成个性化学习路径。这种个性化确实有用，但与 Anki 或 Nibomo 的 FSRS 复习系统不是一回事。如果你的主要目标是让知识保留数年，Anki 的机制更成熟。
 
 它的可迁移性也更有限。Quizlet 允许你在网站上导出自己创建的学习集中的术语和定义，但不包括复制的学习集或图片。如果只使用一个学期，这项限制未必是问题；如果要建立一套希望保留十年的个人知识库，就没那么让人放心了。
 
-## 想同时拥有 AI、FSRS 和自托管时，选择 Flashcards
+## 想同时拥有 AI、FSRS 和自托管时，选择 Nibomo
 
 [Nibomo](/features/) 提供了另一种组合：FSRS 调度、可读取工作区上下文的 AI 聊天、卡片创建与编辑、文件附件、支持离线的原生应用，以及面向 AI 智能体的 API。
 
-如果你符合以下情况，适合使用 Flashcards：
+如果你符合以下情况，适合使用 Nibomo：
 
 - 正在寻找一款应用代码和基础设施代码都公开的**开源闪卡应用**
 - 愿意自托管，因为掌控整个技术栈对你很重要
@@ -95,9 +95,9 @@ Quizlet Learn 会根据你的目标和对材料的熟悉程度，利用机器学
 
 ### 产品成熟度的限制不能忽略
 
-Flashcards 仍处于早期开发阶段。它的生态、导入格式支持、高级复习工具和数据恢复能力都不如 Anki 成熟。目前没有直接导入 `.apkg` 的工具。原生 `flashcards.zip` 包可以转移仍在使用的卡片、标签和被引用的媒体，但不会转移复习历史、FSRS 调度器状态、工作区设置、完整牌组结构或账号数据。
+Nibomo 仍处于早期开发阶段。它的生态、导入格式支持、高级复习工具和数据恢复能力都不如 Anki 成熟。目前没有直接导入 `.apkg` 的工具。原生 `flashcards.zip` 包可以转移仍在使用的卡片、标签和被引用的媒体，但不会转移复习历史、FSRS 调度器状态、工作区设置、完整牌组结构或账号数据。
 
-实际使用中，这会带来两点影响。迁移一套高度定制的 Anki 卡片库时，除非继续保留 Anki 作为主数据源，否则会丢失重要结构。Flashcards 工作区包也不能当作完整的灾难恢复备份。详细的[闪卡备份指南](/blog/how-to-back-up-flashcards/)说明了还需要单独保存哪些内容。
+实际使用中，这会带来两点影响。迁移一套高度定制的 Anki 卡片库时，除非继续保留 Anki 作为主数据源，否则会丢失重要结构。Nibomo 工作区包也不能当作完整的灾难恢复备份。详细的[闪卡备份指南](/blog/how-to-back-up-flashcards/)说明了还需要单独保存哪些内容。
 
 目前，托管版 Cloud Beta 免费，包括 AI 和同步。这只是 Beta 阶段的方案，并不代表托管版 AI 的无限使用会永远免费。定价页面已经说明，较高的 AI 用量日后可能需要服务商 API key 或付费选项。
 

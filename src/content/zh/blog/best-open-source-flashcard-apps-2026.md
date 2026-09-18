@@ -111,19 +111,19 @@ Docker 运行的是真正的浏览器应用，但它不会变成已安装应用�
 
 如果知识库才是主产品，而闪卡应该放在其中，就选 SiYuan。如果你想直接替换 Anki，Mnemosyne 和 Anki 的迁移边界更清楚。
 
-## 4. Flashcards 开放了更多技术栈，也需要你自己运维
+## 4. Nibomo 开放了更多技术栈，也需要你自己运维
 
-在这次对比里，Flashcards 的开源代码覆盖面最广。MIT monorepo 包含 Web 应用、iOS 和 Android 客户端、后端、认证服务、同步、管理应用、数据库迁移和 AWS 基础设施。这里采用的稳定版本是 [v1.23.0](https://github.com/kirill-markin/flashcards-open-source-app/releases/tag/v1.23.0)。默认分支上后续的开发成果不计入已发布功能。
+在这次对比里，Nibomo 的开源代码覆盖面最广。MIT monorepo 包含 Web 应用、iOS 和 Android 客户端、后端、认证服务、同步、管理应用、数据库迁移和 AWS 基础设施。这里采用的稳定版本是 [v1.23.0](https://github.com/kirill-markin/flashcards-open-source-app/releases/tag/v1.23.0)。默认分支上后续的开发成果不计入已发布功能。
 
 [架构](/docs/architecture/)采用 offline-first，但“离线”在每个客户端上略有不同。Web 应用把 IndexedDB 中的本地数据作为事实来源。iOS 使用 SQLite，Android 使用基于 SQLite 的 Room。变更先写入本地，再进入 outbox 队列等待同步。这个设计能应对连接中断，但不会让浏览器存储变成永久存储，也不能取代对每台设备冷启动的测试。
 
-Flashcards 自有的 ZIP 软件包用于迁移内容，不是账号备份。在 v1.23.0 中，它的[软件包结构定义](https://github.com/kirill-markin/flashcards-open-source-app/blob/v1.23.0/apps/backend/src/workspacePackages/types.ts)包含正面和背面内容、标签、卡片类型、来源元数据和软件包元数据；引用的媒体文件另行打包。它不包含牌组结构、复习历史、FSRS 状态、工作空间设置或账号。
+Nibomo 自有的 ZIP 软件包用于迁移内容，不是账号备份。在 v1.23.0 中，它的[软件包结构定义](https://github.com/kirill-markin/flashcards-open-source-app/blob/v1.23.0/apps/backend/src/workspacePackages/types.ts)包含正面和背面内容、标签、卡片类型、来源元数据和软件包元数据；引用的媒体文件另行打包。它不包含牌组结构、复习历史、FSRS 状态、工作空间设置或账号。
 
 v1.23.0 没有 APKG 导入器。文档中的[从 Anki TXT/CSV 迁移流程](/blog/migrate-from-anki-txt-export-open-source-flashcards/)使用导出的文本重建卡片，并且需要人工检查。模板、调度状态、牌组结构和打包媒体不会通过这条路径自动保留。它适合简单的纯文本牌组，不适合高度定制的收藏。
 
 [自托管指南](/docs/self-hosting/)也同样明确。生产环境使用 AWS CDK 技术栈，包括 RDS、Cognito、API Gateway 和 Lambda、S3 和 CloudFront、机密信息、告警与备份。Cloudflare DNS、Resend 邮件和 Sentry 配置位于 AWS 之外。Docker Compose 用于本地开发，不是官方支持的生产软件包。需要私有 iOS 或 Android 二进制文件的运营者，要单独构建和分发。
 
-如果完整掌控 Web、原生客户端和后端源码值得付出这些运维成本，就选 Flashcards。如果保存现有收藏才是更难的要求，就选 Anki 或 Mnemosyne。
+如果完整掌控 Web、原生客户端和后端源码值得付出这些运维成本，就选 Nibomo。如果保存现有收藏才是更难的要求，就选 Anki 或 Mnemosyne。
 
 ## 5. Recall 很现代，但要仔细看导入器
 
@@ -197,7 +197,7 @@ Markdown 覆盖的内容也比第一眼看起来少。卡片文本在可见文�
 - Anki 和 Mnemosyne 运行的是**同步服务**，已安装的客户端仍是学习界面。
 - SiYuan Docker 运行的是**浏览器应用**，原生客户端不能把它当作同步服务器。
 - Recall 运行的是**加密快照中继**，不是 PWA 本身。
-- Flashcards 部署的是**完整的 Web 和后端栈**，原生应用仍需要单独构建。
+- Nibomo 部署的是**完整的 Web 和后端栈**，原生应用仍需要单独构建。
 - Essentialist **没有服务器**，所有权边界就是本地文件。
 
 明确这些形态的边界后，再测试运维者最容易拖延的那一部分：

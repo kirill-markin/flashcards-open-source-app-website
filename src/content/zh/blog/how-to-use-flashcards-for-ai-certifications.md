@@ -244,7 +244,7 @@ keywords:
 
 - [2026 年如何制作更好的 Flashcards](https://nibomo.com/blog/how-to-make-better-flashcards/)
 
-## Flashcards 为什么特别适合这套工作流
+## Nibomo 为什么特别适合这套工作流
 
 [Nibomo](https://nibomo.com/) 很适合这类认证备考，因为这个产品已经支持了这套流程真正依赖的几个环节：
 

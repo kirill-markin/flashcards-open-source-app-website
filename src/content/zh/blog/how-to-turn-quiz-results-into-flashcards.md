@@ -212,7 +212,7 @@ AI 真正有用的地方，是清理这一步：
 
 如果你的流程本来就包含导师式测验或辅导式复盘，那 [2026 年如何用 AI 做主动回忆](/zh/blog/how-to-use-ai-for-active-recall/) 和 [2026 年如何把 ChatGPT Study Mode 变成闪卡](/zh/blog/how-to-turn-chatgpt-study-mode-into-flashcards/) 会很自然地接在这篇后面。
 
-## Flashcards 适合放在哪一步
+## Nibomo 适合放在哪一步
 
 [Nibomo](/zh/) 很适合这套流程，因为真正有用的步骤本来就都很小、很实用：起草简单的正反面卡片，把它们清干净，再用 FSRS 去复习那些确实值得保留的卡。托管版 Web 应用也支持 AI 聊天和文件附件，包括纯文本上传，所以当测验反馈一开始只是复制出来的 LMS 文本，或者一份不太规整的导出内容，而不是一份整洁的学习提纲时，它会更顺手。
 

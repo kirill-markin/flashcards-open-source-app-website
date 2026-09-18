@@ -1,6 +1,6 @@
 ---
 title: "2026 年哪些闪卡应用能离线使用？5 款应用对比"
-description: "对比 Anki、Quizlet、RemNote、Mochi 和 Flashcards 的离线卡片访问、编辑、媒体、复习记录与同步能力，并附飞行模式实测方法。"
+description: "对比 Anki、Quizlet、RemNote、Mochi 和 Nibomo 的离线卡片访问、编辑、媒体、复习记录与同步能力，并附飞行模式实测方法。"
 date: "2026-03-16"
 updated: "2026-08-22"
 image: "/blog/best-offline-flashcards-app.png"
@@ -14,7 +14,7 @@ keywords:
   - "离线间隔重复应用"
 ---
 
-哪些学习应用可以离线使用？**本次对比的五款应用都能在断网时维持至少一部分学习流程，但具体能做什么，取决于你使用的客户端。**如果希望完整的本地卡片库始终可用，Anki 的安装版客户端是最稳妥的通用选择。如果不想注册账户，Mochi 的安装版应用是边界最明确的选择。RemNote 安装版的离线体验也不错，不过移动端只能使用部分媒体。Quizlet 必须使用 iOS 或 Android 应用，并提前准备好所需的学习集。Flashcards 原生应用采用本地优先存储，但首次登录和初次下载工作区数据仍需联网。
+哪些学习应用可以离线使用？**本次对比的五款应用都能在断网时维持至少一部分学习流程，但具体能做什么，取决于你使用的客户端。**如果希望完整的本地卡片库始终可用，Anki 的安装版客户端是最稳妥的通用选择。如果不想注册账户，Mochi 的安装版应用是边界最明确的选择。RemNote 安装版的离线体验也不错，不过移动端只能使用部分媒体。Quizlet 必须使用 iOS 或 Android 应用，并提前准备好所需的学习集。Nibomo 原生应用采用本地优先存储，但首次登录和初次下载工作区数据仍需联网。
 
 判断离线能力时，浏览器版应当视为另一种产品。下载到手机的学习集、缓存过的图片，以及断网后碰巧还能用的浏览器标签页，都不等于一款能在离线状态下冷启动并打开本地卡片库的安装版应用。
 
@@ -37,7 +37,7 @@ keywords:
 
 本文把“离线可用”拆成五项彼此独立的承诺：能否访问卡片、编辑卡片、保存复习记录、使用媒体，以及恢复联网后同步。应用必须满足你的实际卡片库所需的每一项；单凭一个“离线”标签远远不够。
 
-如果只能使用浏览器，情况就没那么理想。RemNote 明确说明了“保留已打开标签页”的模式；Quizlet 的离线指南只涵盖移动应用；AnkiWeb 则是一项在线服务。Mochi 表示，未订阅 Pro 时，网页版会使用浏览器的离线存储，但也提醒浏览器可能清除其中的数据。Flashcards 将学习数据保存在 IndexedDB 中，但网页版并不具备与安装版原生应用同等可靠的离线冷启动能力。
+如果只能使用浏览器，情况就没那么理想。RemNote 明确说明了“保留已打开标签页”的模式；Quizlet 的离线指南只涵盖移动应用；AnkiWeb 则是一项在线服务。Mochi 表示，未订阅 Pro 时，网页版会使用浏览器的离线存储，但也提醒浏览器可能清除其中的数据。Nibomo 将学习数据保存在 IndexedDB 中，但网页版并不具备与安装版原生应用同等可靠的离线冷启动能力。
 
 ## 先确定离线使用的边界
 
@@ -87,13 +87,13 @@ Mochi 的[安装指南](https://mochi.cards/docs/getting-started/download-and-in
 
 [Mochi 备份指南](https://mochi.cards/docs/getting-started/backing-up/)为这种本地模式提供了一条实用的恢复路径：复制桌面应用的完整用户目录，可以保留卡片、模板、复习记录、附件、设置和登录状态；导出 `.mochi` 文件，则可以在设备之间转移学习数据。如果准备在一台设备上长期离线使用，这比单纯依赖同步提供了更明确的保障。
 
-### Flashcards：原生客户端本地优先，但初次设置需要联网
+### Nibomo：原生客户端本地优先，但初次设置需要联网
 
-Flashcards 的[离线优先架构](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/docs/architecture.md#offline-first-sync)会先在本地写入卡片、牌组、设置和复习记录，再将更改推送出去。网页版使用 IndexedDB，iOS 使用 SQLite，Android 使用基于 SQLite 的 Room。复习记录以只追加事件的形式传输；卡片和牌组的可变状态则通过待发送队列处理。
+Nibomo 的[离线优先架构](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/docs/architecture.md#offline-first-sync)会先在本地写入卡片、牌组、设置和复习记录，再将更改推送出去。网页版使用 IndexedDB，iOS 使用 SQLite，Android 使用基于 SQLite 的 Room。复习记录以只追加事件的形式传输；卡片和牌组的可变状态则通过待发送队列处理。
 
 [媒体传输使用单独的通道](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/docs/architecture.md#client-media-transfer)。新附件可以留在本地上传队列中等待，但已有的远端附件只有在该设备缓存其数据后才能离线使用。因此，原生 iOS 和 Android 应用是更稳妥的旅行选择。网页版虽然保存了本地数据，但已加载的浏览器页面并不等于能够离线冷启动的安装版应用。
 
-这种方式适合先在本地完成复习和编辑，之后再同步。但 Flashcards 与 Anki 之间的成熟度差距仍然存在，依赖服务器的 AI 功能也无法在断网时运行。
+这种方式适合先在本地完成复习和编辑，之后再同步。但 Nibomo 与 Anki 之间的成熟度差距仍然存在，依赖服务器的 AI 功能也无法在断网时运行。
 
 ## 真正依赖一款应用前，先做飞行模式测试
 
@@ -110,6 +110,6 @@ Flashcards 的[离线优先架构](https://github.com/kirill-markin/flashcards-o
 
 整个过程大约需要十分钟，却能发现真正重要的问题：选错客户端、下载不完整、媒体缺失、重启后更改消失，或进度始终没有同步到另一台设备。
 
-对于大多数学生、通勤者和旅行者，Anki 仍然是最佳离线闪卡应用，因为它的安装版客户端需要做出的妥协最少。不过，符合特定需求的其他选择可能更实用：无需账户即可在本地学习，可选 Mochi；需要桌面端笔记和媒体，可选 RemNote；只需要提前准备好的移动端学习集，可选 Quizlet；希望在原生应用中先本地操作、之后再同步，可选 Flashcards。
+对于大多数学生、通勤者和旅行者，Anki 仍然是最佳离线闪卡应用，因为它的安装版客户端需要做出的妥协最少。不过，符合特定需求的其他选择可能更实用：无需账户即可在本地学习，可选 Mochi；需要桌面端笔记和媒体，可选 RemNote；只需要提前准备好的移动端学习集，可选 Quizlet；希望在原生应用中先本地操作、之后再同步，可选 Nibomo。
 
 如果离线访问只是你考虑的一部分，可以继续对比 [2026 年最佳开源闪卡应用](/blog/best-open-source-flashcard-apps-2026/)，或阅读更全面的 [Anki、Quizlet 与 Nibomo 对比](/blog/anki-vs-quizlet-vs-open-source-flashcards-app/)。无论选择哪款应用，都要提前准备好实际使用的设备，并在真正断网之前完成飞行模式测试。

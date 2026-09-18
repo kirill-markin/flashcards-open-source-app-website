@@ -260,7 +260,7 @@ FSRS 有帮助，是因为：
 - [2026 年如何用 FSRS 备考](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)
 - [2026 年 FSRS vs SM-2](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
-## Flashcards 在这套 Digital SAT 工作流里适合做什么
+## Nibomo 在这套 Digital SAT 工作流里适合做什么
 
 [Nibomo](https://nibomo.com/) 很适合承接这类 **Digital SAT flashcards** 工作流，因为当前产品已经支持这套流程真正依赖的那些部分：
 

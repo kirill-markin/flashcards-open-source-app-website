@@ -171,17 +171,17 @@ FSRS 可以把糟糕的输入安排得非常精确，但再先进的间隔也不
 
 分清这条边界，也更容易诊断学习问题。长期复习时间异常，通常应该检查设置、评分历史或具体实现。如果你总在为卡片背面的内容和自己的回答较劲，问题往往出在卡片质量上。队列过于庞大，原因也可能是新增卡片太多，而不是 FSRS 算法本身。
 
-## Flashcards 如何实现 FSRS
+## Nibomo 如何实现 FSRS
 
 > **披露：** 我是 Kirill Markin，也是 [Nibomo](/zh/features/) 的开发者。本节描述的是已经发布的产品行为，并不是说每位学习者都应该离开自己正在使用的其他应用。
 
-Flashcards 目前实现的是 **FSRS-6**，并与官方 `ts-fsrs` 5.2.3 的调度流程保持一致。它采用标准的 Again、Hard、Good 和 Easy 评分。后端、iOS 和 Android 调度器保持相同行为，Web 端的复习流程则复用后端调度器。
+Nibomo 目前实现的是 **FSRS-6**，并与官方 `ts-fsrs` 5.2.3 的调度流程保持一致。它采用标准的 Again、Hard、Good 和 Easy 评分。后端、iOS 和 Android 调度器保持相同行为，Web 端的复习流程则复用后端调度器。
 
 当前默认设置为：期望记忆保持率 `0.90`，学习步骤 1 分钟和 10 分钟，重新学习步骤 10 分钟，最大间隔 36,500 天，并启用模糊处理。工作区所有者可以调整这些设置。修改只会影响未来的复习，不会悄悄重算已有卡片的到期时间。
 
-Flashcards v1 固定采用官方的 FSRS-6 默认权重。用户无法配置这些权重，产品目前也不会根据每位用户的复习历史拟合个性化 FSRS 参数。与 Anki 的优化器比较时，这项限制很重要。
+Nibomo v1 固定采用官方的 FSRS-6 默认权重。用户无法配置这些权重，产品目前也不会根据每位用户的复习历史拟合个性化 FSRS 参数。与 Anki 的优化器比较时，这项限制很重要。
 
-公开的 [Flashcards FSRS 调度规范](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/docs/fsrs-scheduling-logic.md)记录了当前的状态模型、默认设置、设置边界和跨平台一致性规则。更完整的[功能页面](/zh/features/)则说明了调度器如何融入产品，而不是把 FSRS 本身说成一款应用。
+公开的 [Nibomo FSRS 调度规范](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/docs/fsrs-scheduling-logic.md)记录了当前的状态模型、默认设置、设置边界和跨平台一致性规则。更完整的[功能页面](/zh/features/)则说明了调度器如何融入产品，而不是把 FSRS 本身说成一款应用。
 
 ## FSRS 常见问题
 

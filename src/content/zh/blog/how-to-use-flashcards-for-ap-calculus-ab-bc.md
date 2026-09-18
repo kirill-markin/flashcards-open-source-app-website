@@ -248,7 +248,7 @@ BC 在 parametric、polar 和 vector-valued questions 上也有足够多的额�
 
 [2026 年如何用 FSRS 备考](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/) 这篇会更详细讲排程这一层。
 
-## Flashcards 在这套 AP Calculus 工作流里适合放在哪
+## Nibomo 在这套 AP Calculus 工作流里适合放在哪
 
 [Nibomo](https://nibomo.com/) 很适合这套 AP Calculus 工作流，前提是你想把整条链路收在一个地方，而不是把这篇文章写成产品宣传。
 
