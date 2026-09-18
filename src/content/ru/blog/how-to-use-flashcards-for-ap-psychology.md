@@ -241,7 +241,7 @@ keywords:
 - [Как готовиться к экзамену с FSRS в 2026 году](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)
 - [FSRS против SM-2 в 2026 году](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
-## Где Flashcards вписывается в процесс подготовки к AP Psychology
+## Где Nibomo вписывается в процесс подготовки к AP Psychology
 
 Если вы хотите выстроить этот процесс внутри [Nibomo](https://nibomo.com/), ценность не в расплывчатом обещании, что ИИ магически выучит AP Psych вместо вас.
 

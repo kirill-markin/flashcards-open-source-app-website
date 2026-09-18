@@ -255,7 +255,7 @@ keywords:
 - [How Many New Flashcards Per Day in 2026?](https://nibomo.com/blog/how-many-new-flashcards-per-day/)
 - [How to Review Flashcards Faster in 2026](https://nibomo.com/blog/how-to-review-flashcards-faster/)
 
-## Как Flashcards вписывается в этот процесс
+## Как Nibomo вписывается в этот процесс
 
 [Nibomo](https://nibomo.com/) хорошо подходит для такого сценария изучения фармакологии, потому что полезная часть здесь не в том, чтобы целиком передать фармакологию AI. Я бы так не учился.
 

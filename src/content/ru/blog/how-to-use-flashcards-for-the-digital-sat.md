@@ -258,7 +258,7 @@ FSRS помогает, потому что:
 - [Как готовиться к экзамену с FSRS в 2026 году](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)
 - [FSRS и SM-2 в 2026 году](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
-## Как Flashcards вписывается в этот процесс подготовки к Digital SAT
+## Как Nibomo вписывается в этот процесс подготовки к Digital SAT
 
 [Nibomo](https://nibomo.com/) хорошо подходит для **флешкарточек для Digital SAT**, потому что текущий продукт уже поддерживает те части процесса, от которых этот сценарий зависит:
 

@@ -237,7 +237,7 @@ Outlines аккуратные.
 
 - [How to Study for an Exam With FSRS in 2026](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)
 
-## Как Flashcards вписывается в этот CPA-сценарий
+## Как Nibomo вписывается в этот CPA-сценарий
 
 Если вы хотите выстроить это внутри [Nibomo](https://nibomo.com/), полезная часть не в каком-то расплывчатом обещании, что ИИ магическим образом сдаст за вас экзамен CPA.
 
