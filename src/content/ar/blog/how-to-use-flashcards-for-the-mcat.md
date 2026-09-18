@@ -277,7 +277,7 @@ MCAT لا يسأل فقط عمّا إذا كنت قد رأيت المصطلح م
 - [كيف تذاكر لامتحان باستخدام FSRS في 2026](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)
 - [FSRS مقابل SM-2 في 2026](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
-## أين يناسب Flashcards سير عمل MCAT هذا
+## أين يناسب Nibomo سير عمل MCAT هذا
 
 [Nibomo](https://nibomo.com/) مناسب جدًا لهذا النوع من سير العمل في MCAT لأنه يغطي الأجزاء التي يوزعها الطلاب عادةً على عدد كبير جدًا من الأدوات.
 

@@ -157,7 +157,7 @@ keywords:
 
 إذا أردت قواعد أكثر صرامة لكتابة البطاقات بعد هذه المرحلة، فمقالة [كيفية إعداد بطاقات تعليمية أفضل في 2026](/ar/blog/how-to-make-better-flashcards/) تشرح خطوة التنظيف هذه بتفصيل أكبر.
 
-## Flashcards هو طبقة الذاكرة بعد Copilot
+## Nibomo هو طبقة الذاكرة بعد Copilot
 
 [Nibomo](/ar/features/) لا يحاول أن يحل محل Study and Learn.
 

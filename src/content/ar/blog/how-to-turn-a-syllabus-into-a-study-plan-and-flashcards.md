@@ -240,7 +240,7 @@ keywords:
 - [كيفية الدراسة لامتحان باستخدام FSRS في 2026](/ar/blog/how-to-study-for-an-exam-with-fsrs/)
 - [كيفية استخدام الذكاء الاصطناعي للدراسة في 2026](/ar/blog/how-to-use-ai-to-study/)
 
-## أين يأتي دور Flashcards في هذا المسار
+## أين يأتي دور Nibomo في هذا المسار
 
 [Nibomo](/ar/features/) يأتي دوره هنا بعد أن تكون خطة المقرر قد تحولت بالفعل إلى بنية واضحة.
 
