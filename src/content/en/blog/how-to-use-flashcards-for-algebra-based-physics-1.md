@@ -231,7 +231,7 @@ Keep the order simple:
 
 For more on scheduling, [How to Study for an Exam With FSRS in 2026](/blog/how-to-study-for-an-exam-with-fsrs/) is the direct companion.
 
-## Where Flashcards fits in the workflow
+## Where Nibomo fits in the workflow
 
 [Nibomo](/) gives you one place for graph cues, formula conditions, force-selection mistakes, experiment decisions, and reasoning repairs instead of scattering them across screenshots and old corrections.
 

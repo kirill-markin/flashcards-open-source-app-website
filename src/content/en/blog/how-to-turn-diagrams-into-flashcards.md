@@ -292,7 +292,7 @@ That might mean:
 
 If you upload ten diagrams at once, the model starts flattening them together and the deck loses precision fast.
 
-## Where Flashcards fits
+## Where Nibomo fits
 
 [Nibomo](https://nibomo.com/) is a good fit for a **diagram to flashcards** workflow because the product already has the pieces this process needs:
 

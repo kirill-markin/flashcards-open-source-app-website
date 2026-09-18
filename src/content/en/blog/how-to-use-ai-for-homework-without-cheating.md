@@ -214,7 +214,7 @@ Those are not flashcards. They are tiny homework assignments wearing flashcard c
 
 If your AI-generated cards already feel bloated, [How to Fix AI Flashcards in 2026](/blog/how-to-fix-ai-flashcards/) is the next useful read.
 
-## Where Flashcards fits
+## Where Nibomo fits
 
 [Nibomo](/) fits best after the assignment, when the real studying starts again.
 
@@ -226,7 +226,7 @@ That handoff is grounded in the current product surface:
 - keep studying in the web app now, with the offline-first iOS client in the repository and the Android app available on Google Play
 - move to the self-hosted path later if long-term control matters to you
 
-That keeps the workflow honest. AI helps with explanation. Homework reveals where you were weak. Flashcards keeps those weak spots alive long enough to stop repeating them.
+That keeps the workflow honest. AI helps with explanation. Homework reveals where you were weak. Nibomo keeps those weak spots alive long enough to stop repeating them.
 
 If you are starting from notes, quizzes, or a tutor session instead of homework, these are the best next reads:
 

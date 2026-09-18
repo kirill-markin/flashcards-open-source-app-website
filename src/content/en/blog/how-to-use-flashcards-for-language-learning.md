@@ -243,7 +243,7 @@ One of the fastest ways to make **how to make language flashcards** easier is ch
 
 The deck gets cleaner immediately.
 
-## Where Flashcards fits this workflow better
+## Where Nibomo fits this workflow better
 
 [Nibomo](https://nibomo.com/) is a strong fit for **spaced repetition for vocabulary** because the product already supports the pieces this workflow depends on:
 

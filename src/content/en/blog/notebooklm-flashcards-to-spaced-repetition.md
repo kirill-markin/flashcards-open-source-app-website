@@ -116,7 +116,7 @@ Good cards usually do a few repetitive things right:
 
 This is why I do not fully trust raw exports from any **AI study tool flashcards** workflow. The model is great at drafting. It is still worth having a second pass before the deck becomes real.
 
-## Where Flashcards fits this workflow better
+## Where Nibomo fits this workflow better
 
 [Nibomo](https://nibomo.com/) is a strong fit for this exact gap because the product is not only a generator and not only a review tool. It lets you do the cleanup step in the same place where the review will happen.
 
@@ -133,7 +133,7 @@ The product already supports:
 So the path from **NotebookLM to flashcards** is straightforward:
 
 1. copy or export the NotebookLM cards
-2. send them into Flashcards AI chat as text
+2. send them into Nibomo AI chat as text
 3. ask for shorter, cleaner front/back cards
 4. create the final cards only after the wording looks right
 5. review them with FSRS instead of leaving them inside a source notebook
@@ -181,7 +181,7 @@ I would keep it intentionally boring:
 1. choose one source set in NotebookLM
 2. generate candidate flashcards
 3. export or copy the text
-4. paste it into Flashcards AI chat
+4. paste it into Nibomo AI chat
 5. ask for one fact or concept per card
 6. cut anything vague or repetitive
 7. create the final deck
@@ -191,7 +191,7 @@ That works because each tool does the part it is actually good at.
 
 NotebookLM handles source understanding.
 
-Flashcards handles cleanup, card creation, and the review system.
+Nibomo handles cleanup, card creation, and the review system.
 
 ## So what is the best way to use NotebookLM flashcards in 2026?
 

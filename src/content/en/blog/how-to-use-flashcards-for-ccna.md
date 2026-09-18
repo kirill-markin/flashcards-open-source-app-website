@@ -271,7 +271,7 @@ Not:
 
 If the review-load side is what usually breaks your plan, [How Many New Flashcards Per Day in 2026?](/blog/how-many-new-flashcards-per-day/) and [How to Study for an Exam With FSRS in 2026](/blog/how-to-study-for-an-exam-with-fsrs/) fit directly here.
 
-## Where Flashcards fits this workflow well
+## Where Nibomo fits this workflow well
 
 [Nibomo](/) is a good fit for CCNA prep because this exam creates messy source material: lab notes, pasted CLI output, short miss logs, and small troubleshooting summaries. The app can handle the cleanup step and the review step without pretending they are the same job.
 

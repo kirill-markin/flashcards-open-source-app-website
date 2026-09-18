@@ -111,19 +111,19 @@ I found no official APKG importer. SiYuan can move Markdown and its own data for
 
 Choose SiYuan when the knowledge base is the primary product and flashcards belong inside it. If you want a direct Anki replacement, Mnemosyne and Anki have clearer migration boundaries.
 
-## 4. Flashcards exposes more of the stack—and asks you to run it
+## 4. Nibomo exposes more of the stack—and asks you to run it
 
-Flashcards publishes the widest product boundary in this comparison. The MIT monorepo includes the web app, iOS and Android clients, backend, authentication service, synchronization, admin application, database migrations, and AWS infrastructure. The stable release used here is [v1.23.0](https://github.com/kirill-markin/flashcards-open-source-app/releases/tag/v1.23.0). Later work on the default branch is not counted as released behavior.
+Nibomo publishes the widest product boundary in this comparison. The MIT monorepo includes the web app, iOS and Android clients, backend, authentication service, synchronization, admin application, database migrations, and AWS infrastructure. The stable release used here is [v1.23.0](https://github.com/kirill-markin/flashcards-open-source-app/releases/tag/v1.23.0). Later work on the default branch is not counted as released behavior.
 
 The [architecture](/docs/architecture/) is offline-first, but “offline” means something slightly different on each client. The web app keeps its local source of truth in IndexedDB. iOS uses SQLite, and Android uses Room over SQLite. Changes are written locally and queued in an outbox before sync. That design handles an interrupted connection; it does not make browser storage permanent or remove the need to test a cold start on each device.
 
-Flashcards’ own ZIP package is a content-transfer format, not an account backup. In v1.23.0, its [package schema](https://github.com/kirill-markin/flashcards-open-source-app/blob/v1.23.0/apps/backend/src/workspacePackages/types.ts) carries front and back content, tags, card type, source metadata, and package metadata; referenced media is bundled separately. It does not carry deck structure, review history, FSRS state, workspace settings, or accounts.
+Nibomo’s own ZIP package is a content-transfer format, not an account backup. In v1.23.0, its [package schema](https://github.com/kirill-markin/flashcards-open-source-app/blob/v1.23.0/apps/backend/src/workspacePackages/types.ts) carries front and back content, tags, card type, source metadata, and package metadata; referenced media is bundled separately. It does not carry deck structure, review history, FSRS state, workspace settings, or accounts.
 
 There is no APKG importer in v1.23.0. The documented [Anki TXT/CSV migration workflow](/blog/migrate-from-anki-txt-export-open-source-flashcards/) uses exported text to rebuild cards and requires a human review. Templates, scheduling state, deck structure, and bundled media do not survive that route automatically. It is reasonable for a simple text deck and a poor choice for a heavily customized collection.
 
 The [self-hosting guide](/docs/self-hosting/) is equally explicit. Production uses an AWS CDK stack with RDS, Cognito, API Gateway and Lambda, S3 and CloudFront, secrets, alarms, and backups. Cloudflare DNS, Resend email, and Sentry configuration sit outside AWS. Docker Compose runs local development; it is not the supported production package. Operators who want private iOS or Android binaries build and distribute those separately.
 
-Choose Flashcards when owning the complete web/native/backend source boundary justifies that operating work. Choose Anki or Mnemosyne when preserving an existing collection is the harder requirement.
+Choose Nibomo when owning the complete web/native/backend source boundary justifies that operating work. Choose Anki or Mnemosyne when preserving an existing collection is the harder requirement.
 
 ## 5. Recall is modern, but read the importer closely
 
@@ -197,7 +197,7 @@ The products above use “self-hosted” for very different shapes:
 - Anki and Mnemosyne run **sync services** while installed clients remain the study interface.
 - SiYuan Docker runs a **browser application** that native clients cannot use as their sync server.
 - Recall runs an **encrypted snapshot relay**, not the PWA itself.
-- Flashcards deploys a **full web and backend stack**, while native apps remain separate builds.
+- Nibomo deploys a **full web and backend stack**, while native apps remain separate builds.
 - Essentialist has **no server**; the ownership boundary is the local files.
 
 Once that surface is clear, test the part operators tend to postpone:

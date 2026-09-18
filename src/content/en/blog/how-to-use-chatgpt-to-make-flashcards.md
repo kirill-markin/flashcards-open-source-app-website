@@ -220,7 +220,7 @@ Separate cards with one blank line. Add no introduction or conclusion.
 
 Plain front/back blocks are easy to inspect and copy into most card editors, though each app has its own import rules. If you need tabs, CSV, or another format, ask for that only after checking the destination's current requirements. Keep one unchanged text copy until you have verified the saved cards.
 
-Flashcards' hosted app has AI chat with file attachments, and stored cards use explicit front and back fields. You review the proposed content and decide what gets saved. You can do the whole source-checking loop there, or copy approved ChatGPT output into the card editor. The [features page](/features/) shows the current product surfaces.
+Nibomo's hosted app has AI chat with file attachments, and stored cards use explicit front and back fields. You review the proposed content and decide what gets saved. You can do the whole source-checking loop there, or copy approved ChatGPT output into the card editor. The [features page](/features/) shows the current product surfaces.
 
 If you want Codex or another MCP client to write approved cards directly, use the separate [ChatGPT and Codex study workflow](/blog/how-to-use-chatgpt-codex-for-studying/) and [MCP connector documentation](/docs/mcp-connector/). That setup deserves its own security and approval checks; there is no need to reproduce it here. A normal ChatGPT conversation should not be assumed to have direct access to your flashcard collection.
 
@@ -228,7 +228,7 @@ If you want Codex or another MCP client to write approved cards directly, use th
 
 ChatGPT can quiz you in a conversation or produce flashcard-style review. Neither action schedules your cards over time. Once the approved cards are in a flashcard app, do the real reviews there: recall the answer, reveal the back, grade the result, and let the scheduler decide when the card returns.
 
-Flashcards uses FSRS for that scheduling. [FSRS vs SM-2](/blog/fsrs-vs-sm-2/) explains the difference if you want the algorithm details. The important boundary is simpler: ChatGPT drafts and helps you test candidates; the flashcard app stores review history and runs the schedule.
+Nibomo uses FSRS for that scheduling. [FSRS vs SM-2](/blog/fsrs-vs-sm-2/) explains the difference if you want the algorithm details. The important boundary is simpler: ChatGPT drafts and helps you test candidates; the flashcard app stores review history and runs the schedule.
 
 That boundary also keeps corrections manageable. If you later find a source error or hate the wording, fix or delete the stored card. Do not leave a questionable answer in the deck because the generation step took time.
 

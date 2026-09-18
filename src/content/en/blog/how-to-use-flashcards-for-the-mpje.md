@@ -242,7 +242,7 @@ So I would keep the order plain:
 
 If you want the scheduler-specific side, [FSRS Settings in 2026](/blog/fsrs-settings/) and [FSRS vs SM-2 in 2026](/blog/fsrs-vs-sm-2/) are the direct follow-ups.
 
-## Where Flashcards fits this workflow
+## Where Nibomo fits this workflow
 
 [Nibomo](/) fits best after you know what deserves review.
 

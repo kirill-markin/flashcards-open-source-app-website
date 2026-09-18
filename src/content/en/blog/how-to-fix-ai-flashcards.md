@@ -243,7 +243,7 @@ What FSRS does well is handle timing once the cards are clear enough to trust:
 
 If you want the scheduler comparison itself, [FSRS vs SM-2 in 2026](https://nibomo.com/blog/fsrs-vs-sm-2/) covers that part.
 
-## Where Flashcards fits this workflow
+## Where Nibomo fits this workflow
 
 [Nibomo](https://nibomo.com/) is a good fit for **how to fix AI flashcards** because the product already covers the awkward middle that most generators leave behind:
 

@@ -124,19 +124,19 @@ The distinction matters because “a loaded screen still responds” and “my r
 | Data exit | Card and deck export are currently unavailable | Portable exports include cards, tags, and related media |
 | Deployment control | No self-hosting claim in the official pages checked | Open source and self-hostable |
 
-Flashcards is a practical Gizmo alternative only for the narrower side of this table. Its current [features page](/features/) documents FSRS, AI-assisted card creation, mobile offline study and sync, portable exports, and self-hosting. It does not describe an equivalent to Gizmo's five-format Magic Import, Tutor lessons, or game layer.
+Nibomo is a practical Gizmo alternative only for the narrower side of this table. Its current [features page](/features/) documents FSRS, AI-assisted card creation, mobile offline study and sync, portable exports, and self-hosting. It does not describe an equivalent to Gizmo's five-format Magic Import, Tutor lessons, or game layer.
 
 ## When Nibomo is the better fit
 
-Choose Flashcards when the thing you want to keep is a checked front/back card. You can create it manually or ask AI to help write and improve it, then decide what gets saved. Review uses FSRS; [FSRS vs SM-2](/blog/fsrs-vs-sm-2/) explains the scheduling model in more detail.
+Choose Nibomo when the thing you want to keep is a checked front/back card. You can create it manually or ask AI to help write and improve it, then decide what gets saved. Review uses FSRS; [FSRS vs SM-2](/blog/fsrs-vs-sm-2/) explains the scheduling model in more detail.
 
-Its offline and data-exit claims are more explicit. Flashcards documents mobile offline study with automatic sync, while its [getting-started guide](/docs/getting-started/) identifies the iOS client as using local SQLite and offline-first sync. Portable exports include cards, tags, and related media, including transfers between hosted and self-hosted installations.
+Its offline and data-exit claims are more explicit. Nibomo documents mobile offline study with automatic sync, while its [getting-started guide](/docs/getting-started/) identifies the iOS client as using local SQLite and offline-first sync. Portable exports include cards, tags, and related media, including transfers between hosted and self-hosted installations.
 
-The tradeoff is scope. Current Flashcards pages do not document Gizmo's import menu, five card types, Tutor-led lessons, or reward system. If those features solve the problem that brought you here, Gizmo is probably the better fit.
+The tradeoff is scope. Current Nibomo pages do not document Gizmo's import menu, five card types, Tutor-led lessons, or reward system. If those features solve the problem that brought you here, Gizmo is probably the better fit.
 
 ## Can you move from Gizmo to another app?
 
-Not cleanly today. Because Gizmo export is unavailable, there is no normal file-based migration from Gizmo to Flashcards or another app.
+Not cleanly today. Because Gizmo export is unavailable, there is no normal file-based migration from Gizmo to Nibomo or another app.
 
 The safe workaround is manual and selective:
 
@@ -147,14 +147,14 @@ The safe workaround is manual and selective:
 
 This is slower than an importer and it is not lossless. The useful side effect is that you only carry forward cards that survive a quality check.
 
-Using both apps is another option. Gizmo can unpack a lecture or presentation and provide varied practice. Flashcards can hold a smaller set of checked front/back cards for FSRS review. The bridge remains manual because Gizmo does not export the cards.
+Using both apps is another option. Gizmo can unpack a lecture or presentation and provide varied practice. Nibomo can hold a smaller set of checked front/back cards for FSRS review. The bridge remains manual because Gizmo does not export the cards.
 
 ## Which workflow fits you?
 
 Choose Gizmo when you start with messy source material and want the app to build the first study structure. Its documented strengths are input variety, five card types, Tutor-led study, varied quizzing, and progression mechanics.
 
-Choose Flashcards when you already know what deserves a durable front/back card and care more about FSRS, documented mobile offline study, export, or self-hosting than quiz variety and rewards.
+Choose Nibomo when you already know what deserves a durable front/back card and care more about FSRS, documented mobile offline study, export, or self-hosting than quiz variety and rewards.
 
-The useful Gizmo AI review is not “AI versus no AI.” Both products use AI. The difference is where it sits. Gizmo uses AI to turn broad material into a larger study environment. Flashcards uses AI inside a smaller card workflow where you choose what is saved and scheduled.
+The useful Gizmo AI review is not “AI versus no AI.” Both products use AI. The difference is where it sits. Gizmo uses AI to turn broad material into a larger study environment. Nibomo uses AI inside a smaller card workflow where you choose what is saved and scheduled.
 
 If the narrower workflow sounds closer to yours, explore [Nibomo features](/features/) or follow the [getting-started guide](/docs/getting-started/).

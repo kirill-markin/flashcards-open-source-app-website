@@ -221,7 +221,7 @@ The simplest handoff works with any flashcard app. Ask Claude to return only the
 
 If you use Nibomo, Claude can also save approved cards through its remote custom connector. Anthropic's [current custom connector guide](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp) says remote connectors are available on Free, Pro, Max, Team, and Enterprise plans; Free users can add one. Connect only servers you trust and review write actions before approval.
 
-The Flashcards MCP URL is:
+The Nibomo MCP URL is:
 
 ```text
 https://mcp.nibomo.com/mcp
@@ -230,7 +230,7 @@ https://mcp.nibomo.com/mcp
 For saving cards, the connector exposes `list_workspaces`, read-only `sql_query`, and `get_guide` for the card-writing rules, plus the write tool `sql_execute`. Keep the handoff narrow:
 
 ```text
-Use the Flashcards connector for only the cards I approved. First list my
+Use the Nibomo connector for only the cards I approved. First list my
 workspaces and ask which one to use. Show the exact fronts, backs, and destination
 before writing. Create nothing until I approve the preview. After the write,
 read the saved cards back so I can verify them.
@@ -238,7 +238,7 @@ read the saved cards back so I can verify them.
 
 The [step-by-step Claude connector guide](/blog/how-to-connect-flashcards-to-claude-with-mcp/) covers setup and permissions; there is no need to duplicate that setup inside a study session. The [MCP connector reference](/docs/mcp-connector/) documents the current tools and authentication.
 
-Claude can create the approved cards, but FSRS scheduling stays in Flashcards. Open the [web app](https://app.flashcards-open-source-app.com/) when cards are due, recall the answer, reveal it, and record the review there. If you would rather avoid connector access, manual copy remains a complete workflow.
+Claude can create the approved cards, but FSRS scheduling stays in Nibomo. Open the [web app](https://app.flashcards-open-source-app.com/) when cards are due, recall the answer, reveal it, and record the review there. If you would rather avoid connector access, manual copy remains a complete workflow.
 
 ## Where Claude still needs supervision
 

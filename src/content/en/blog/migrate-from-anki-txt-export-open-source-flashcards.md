@@ -168,7 +168,7 @@ If the test fails, remove the temporary cards using the destination's own cleanu
 
 ## Using the TXT file with Nibomo
 
-Flashcards does not have a direct Anki importer. It cannot read `.apkg` or `.colpkg` and reconstruct Anki templates, media, or review history.
+Nibomo does not have a direct Anki importer. It cannot read `.apkg` or `.colpkg` and reconstruct Anki templates, media, or review history.
 
 The current hosted path is AI-assisted drafting from file attachments. Open the [hosted app using the getting-started guide](/docs/getting-started/), attach the TXT or a carefully prepared CSV file in AI chat, and explicitly ask for a small draft without saving anything. Review the proposed cards in chat; only then ask the assistant to save the approved batch.
 

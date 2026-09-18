@@ -191,7 +191,7 @@ Rewrite, split, relearn, or remove the card instead of protecting it with Hard. 
 
 FSRS schedules the signal you give it. It cannot repair an unclear prompt, decide which missing detail mattered, or fact-check your spoken answer.
 
-## How the four FSRS ratings fit Flashcards
+## How the four FSRS ratings fit Nibomo
 
 [Nibomo features](/features/) include front/back review with FSRS. You submit Again, Hard, Good, or Easy, and the backend uses that review to calculate the next due time.
 

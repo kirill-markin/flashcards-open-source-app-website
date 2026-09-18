@@ -238,7 +238,7 @@ I would do this in order:
 
 That solves more cases than most complicated optimization advice.
 
-## Where Flashcards fits this workflow better
+## Where Nibomo fits this workflow better
 
 [Nibomo](https://nibomo.com/) is a good fit for this specific problem because the product supports the whole "generate less junk, review the good stuff faster" workflow without pretending every step is the same thing.
 

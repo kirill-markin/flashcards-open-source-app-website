@@ -248,7 +248,7 @@ If your raw material starts as notes, article excerpts, or question reviews, the
 - [How to Turn Notes Into Flashcards in 2026](https://nibomo.com/blog/turn-notes-into-flashcards/)
 - [How to Turn an Article Into Flashcards in 2026](https://nibomo.com/blog/how-to-turn-an-article-into-flashcards/)
 
-## Where Flashcards fits this GRE workflow
+## Where Nibomo fits this GRE workflow
 
 If you want to run this inside [Nibomo](https://nibomo.com/), the useful part is not a vague promise that "AI makes study easier." It is that the current product already supports the practical middle of the workflow:
 
@@ -274,7 +274,7 @@ If you want **GRE vocabulary flashcards** that actually move your Verbal score:
 
 That is the version of a **GRE vocab deck** I would trust.
 
-If you want to try that workflow in Flashcards:
+If you want to try that workflow in Nibomo:
 
 - [Start with Nibomo](https://nibomo.com/)
 - [Open the web app](https://app.flashcards-open-source-app.com/)

@@ -159,20 +159,20 @@ If you want the card-writing side in more detail, this companion piece goes deep
 
 This part is worth saying clearly because product pages in this space love to imply magic.
 
-Flashcards is not directly connected to Gemini Deep Research. Gemini handles the research side. Flashcards handles the retention side after you already have the material.
+Nibomo is not directly connected to Gemini Deep Research. Gemini handles the research side. Nibomo handles the retention side after you already have the material.
 
 The practical path is still straightforward:
 
 1. do the research in Gemini
 2. copy the useful section or save the report text you want to keep
-3. bring that text or file into Flashcards
+3. bring that text or file into Nibomo
 4. rewrite it into clean front/back cards
 5. organize the cards with decks or tags
 6. review them with FSRS
 
 That is honest, and it is usually better than a fake one-click pipeline anyway. Most of the quality comes from selection and editing, not from the transfer step.
 
-## Why Flashcards fits this workflow
+## Why Nibomo fits this workflow
 
 [Nibomo](/) is not trying to replace Gemini Deep Research.
 
@@ -200,7 +200,7 @@ A single report often contains several different types of memory:
 
 Those do not need to live in one tool-shaped pile forever.
 
-Inside Flashcards, I would organize by subject instead. The report may come from Gemini, but the long-term structure should still belong to the thing you are learning.
+Inside Nibomo, I would organize by subject instead. The report may come from Gemini, but the long-term structure should still belong to the thing you are learning.
 
 That keeps Gemini Deep Research spaced repetition practical. You are not building a shrine to one report. You are extracting reusable memory from it.
 

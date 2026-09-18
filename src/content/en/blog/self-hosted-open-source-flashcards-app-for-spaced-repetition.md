@@ -1,6 +1,6 @@
 ---
 title: "Self-Hosted Open-Source Flashcard App for Spaced Repetition"
-description: "Self-host the open-source Flashcards stack locally for development or deploy its documented AWS CDK infrastructure for a production spaced-repetition app."
+description: "Self-host the open-source Nibomo stack locally for development or deploy its documented AWS CDK infrastructure for a production spaced-repetition app."
 date: "2026-03-08"
 updated: "2026-07-30"
 image: "/home/app-screens-showcase-en.png"
@@ -13,13 +13,13 @@ keywords:
   - "ai flashcards"
 ---
 
-Yes, Flashcards can be self-hosted. The full application and infrastructure code is open source under the MIT license. You can run the services locally for development or deploy the repository's documented production stack on AWS. If you do not want to operate infrastructure, the [hosted app](https://app.flashcards-open-source-app.com/) remains available.
+Yes, Nibomo can be self-hosted. The full application and infrastructure code is open source under the MIT license. You can run the services locally for development or deploy the repository's documented production stack on AWS. If you do not want to operate infrastructure, the [hosted app](https://app.flashcards-open-source-app.com/) remains available.
 
 ![Nibomo mobile screens for review, progress, AI chat, and cards](/home/app-screens-showcase-en.png)
 
 ## What can be self-hosted
 
-The repository contains the services and infrastructure used for the core Flashcards system:
+The repository contains the services and infrastructure used for the core Nibomo system:
 
 - the web app and admin app
 - the backend API and passwordless authentication service
@@ -119,7 +119,7 @@ The explicit auth install is currently required from a clean checkout because th
 
 ## Data portability is useful but deliberately limited
 
-Flashcards package import and export covers cards, their tags, and related media. It does **not** transfer review history, FSRS scheduler state, workspace settings, full deck structures, or account data.
+Nibomo package import and export covers cards, their tags, and related media. It does **not** transfer review history, FSRS scheduler state, workspace settings, full deck structures, or account data.
 
 That distinction matters if you are moving between the hosted service and your own deployment. The portable package is a content transfer path, not a complete database or account migration. For a full operational backup, a self-hosted operator must also manage the PostgreSQL database and media storage created by the AWS stack.
 
@@ -138,7 +138,7 @@ AI is optional in the AWS deployment. The CDK stack deploys the asynchronous cha
 
 ## Honest beta and operational limits
 
-Flashcards is still an early product. The repository is active, migrations and deployment configuration can change, and self-hosting assumes that you are comfortable operating an AWS application.
+Nibomo is still an early product. The repository is active, migrations and deployment configuration can change, and self-hosting assumes that you are comfortable operating an AWS application.
 
 The CDK stack includes backups, alarms, secrets, and deployment automation, but those components still need an operator. You should expect to:
 
@@ -155,7 +155,7 @@ If that operational work is not useful to you, the hosted app is the simpler pat
 
 Anki is a mature open-source choice with a large ecosystem and strong desktop workflows. Quizlet is a managed consumer service with a low-setup study experience. Both can be the right choice depending on whether you value an established local tool or a fully managed platform.
 
-Flashcards takes a different path: an open web, mobile, API, and infrastructure repository built around FSRS, sync, AI workflows, MCP, and an AWS self-hosting option. It is younger than Anki and requires substantially more operational work than Quizlet when self-hosted. The reason to choose it is that this combination matches your needs, not that every learner should operate a cloud stack.
+Nibomo takes a different path: an open web, mobile, API, and infrastructure repository built around FSRS, sync, AI workflows, MCP, and an AWS self-hosting option. It is younger than Anki and requires substantially more operational work than Quizlet when self-hosted. The reason to choose it is that this combination matches your needs, not that every learner should operate a cloud stack.
 
 ## Try the hosted app or run your own stack
 

@@ -43,7 +43,7 @@ There is no automatic winner. The deciding question is where the authoritative c
 | Pricing checked August 12, 2026 | Free entry points with paid features; US iPhone listing showed Pro at US$17.99 and Elite at US$19.99 | Hosted core free during beta; MIT-licensed software is free, but self-hosted infrastructure and providers cost money | Desktop, AnkiWeb, and AnkiDroid are free; US AnkiMobile was a US$24.99 one-time purchase |
 | Open source / self-hosting | No official core source or self-hosting distribution found | MIT-licensed application and AWS infrastructure with a documented production path | Open-source desktop clients and an official self-hosted sync server; not a self-hosted AnkiWeb |
 
-The table is intentionally about workflow, not feature totals. Flashcard Lab lets the spreadsheet stay useful as an ordinary spreadsheet. Flashcards and Anki store a richer learning state inside the study system, at the cost of leaving the Sheet-centered model.
+The table is intentionally about workflow, not feature totals. Flashcard Lab lets the spreadsheet stay useful as an ordinary spreadsheet. Nibomo and Anki store a richer learning state inside the study system, at the cost of leaving the Sheet-centered model.
 
 ## The Google Sheet stays at the center
 
@@ -88,7 +88,7 @@ Flashcard Lab advertises a spaced repetition study mode. Its official listings a
 
 The sources checked do not name FSRS, SM-2, or another algorithm. They do not publish the interval formula, show how each response changes a due date, or say whether review history is stored in the Google Sheet. A responsible **Flashcard Lab review** cannot fill those gaps by inference.
 
-Flashcards publishes a different contract. Its [FSRS-6 documentation](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/docs/fsrs-scheduling-logic.md) describes the ratings, stored state, defaults, and current limits. It uses the official default weights rather than optimizing personal weights from each learner's history.
+Nibomo publishes a different contract. Its [FSRS-6 documentation](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/docs/fsrs-scheduling-logic.md) describes the ratings, stored state, defaults, and current limits. It uses the official default weights rather than optimizing personal weights from each learner's history.
 
 Anki goes further for people who want to tune the system. Its [FSRS settings](https://docs.ankiweb.net/deck-options.html#fsrs) include desired retention, parameter optimization, presets, and simulation tools. That makes Anki the mature scheduler choice, not an automatic winner for someone who mainly wants to review a Sheet without much setup.
 
@@ -102,7 +102,7 @@ What the public pages do not provide is a complete offline contract. I found no 
 
 This is an unknown, not proof that offline use fails. Still, someone planning to study on flights or with unreliable internet should not depend on behavior the vendor has not documented.
 
-Flashcards documents [offline-first local writes](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/docs/architecture.md#offline-first-sync) for cards, edits, and reviews on web and mobile, followed by sync after reconnection. Initial authentication and workspace hydration still need a connection; AI and uncached media also have online limits. Anki's installed clients keep their working collections locally. The [offline flashcards comparison](/blog/best-offline-flashcards-app/) covers these distinctions in more detail.
+Nibomo documents [offline-first local writes](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/docs/architecture.md#offline-first-sync) for cards, edits, and reviews on web and mobile, followed by sync after reconnection. Initial authentication and workspace hydration still need a connection; AI and uncached media also have online limits. Anki's installed clients keep their working collections locally. The [offline flashcards comparison](/blog/best-offline-flashcards-app/) covers these distinctions in more detail.
 
 ## Flashcard Lab pricing depends on the surface
 
@@ -119,7 +119,7 @@ On August 12, 2026, the US iPhone listing showed the app as free with these purc
 
 The public listing does not explain the duration or cross-surface entitlement well enough to map either purchase to the add-on's lifetime-access wording. Check the upgrade screen on the surface you plan to use; do not assume an iPhone purchase unlocks Google Sheets, Android, Chrome, or browser features.
 
-For comparison, Flashcards' [hosted core is free during beta](/pricing/). Its MIT-licensed software can be self-hosted, but AWS infrastructure, email, monitoring, AI providers, backups, and maintenance still cost money or time. Anki's desktop app, AnkiWeb, and AnkiDroid are free; the official US AnkiMobile app was US$24.99 as a one-time purchase when checked.
+For comparison, Nibomo's [hosted core is free during beta](/pricing/). Its MIT-licensed software can be self-hosted, but AWS infrastructure, email, monitoring, AI providers, backups, and maintenance still cost money or time. Anki's desktop app, AnkiWeb, and AnkiDroid are free; the official US AnkiMobile app was US$24.99 as a one-time purchase when checked.
 
 ## Check the Google access and the vendor's privacy claims
 
@@ -154,7 +154,7 @@ Before moving a large Sheet:
 4. Compare the resulting fronts, backs, and supporting text before scaling up.
 5. Assume review history and scheduling state stay behind unless both products document a transfer path.
 
-Flashcards' own `flashcards.zip` export has a similar boundary: it moves active cards, tags, and referenced media, not review history, FSRS state, workspace settings, full deck structure, or account data. Open source does not turn a content export into a complete backup.
+Nibomo's own `flashcards.zip` export has a similar boundary: it moves active cards, tags, and referenced media, not review history, FSRS state, workspace settings, full deck structure, or account data. Open source does not turn a content export into a complete backup.
 
 ## Which workflow should you choose?
 
@@ -166,7 +166,7 @@ Accept the tradeoffs before committing: meaningful Google permissions, a schedul
 
 ### Choose Nibomo for an open, non-Google workspace
 
-Flashcards is the stronger **Flashcard Lab alternative** when the goal is to move the source of truth out of Google Sheets. It provides dedicated front/back cards, documented FSRS-6, offline-first writes across web and mobile, agent access, MIT-licensed code, and a supported whole-stack deployment.
+Nibomo is the stronger **Flashcard Lab alternative** when the goal is to move the source of truth out of Google Sheets. It provides dedicated front/back cards, documented FSRS-6, offline-first writes across web and mobile, agent access, MIT-licensed code, and a supported whole-stack deployment.
 
 It is not a shortcut for the existing Sheet workflow. There is no live Sheets sync, direct Flashcard Lab importer, native desktop client, or lossless scheduling migration. The [getting-started guide](/docs/getting-started/) covers the hosted route. The [self-hosting guide](/docs/self-hosting/) explains the AWS-centered production path and the operator work it requires.
 
@@ -184,4 +184,4 @@ Flashcard Lab has a clear job: turn Google Sheet rows into reviewable and printa
 
 The limits are equally clear. “Simple spaced repetition” does not disclose the algorithm. Mobile listings do not establish complete offline behavior. A readable Sheet does not prove that review history is portable. Public prices on one surface do not establish a universal entitlement.
 
-Choose Flashcard Lab for the complete Google Sheets workflow. Choose Flashcards for a dedicated open workspace with documented FSRS-6 and offline-first writes. Choose Anki for mature local control and power-user depth. The best choice is the one that puts the source of truth where you actually want to maintain it.
+Choose Flashcard Lab for the complete Google Sheets workflow. Choose Nibomo for a dedicated open workspace with documented FSRS-6 and offline-first writes. Choose Anki for mature local control and power-user depth. The best choice is the one that puts the source of truth where you actually want to maintain it.

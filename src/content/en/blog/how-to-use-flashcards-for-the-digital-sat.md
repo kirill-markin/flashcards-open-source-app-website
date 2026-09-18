@@ -260,7 +260,7 @@ If you want the scheduling side in more detail, these two articles fit best:
 - [How to Study for an Exam With FSRS in 2026](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)
 - [FSRS vs SM-2 in 2026](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
-## Where Flashcards fits this Digital SAT workflow
+## Where Nibomo fits this Digital SAT workflow
 
 [Nibomo](https://nibomo.com/) is a strong fit for **digital SAT flashcards** because the current product already supports the parts this workflow depends on:
 

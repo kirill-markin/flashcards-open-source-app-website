@@ -75,7 +75,7 @@ Use Quizlet if you are:
 - studying for a test soon and want games, practice tests, and varied practice
 - using built-in AI study guides or tools for PDFs more than long-term scheduling controls
 
-Quizlet Learn uses machine learning to personalize a study path around your goals and familiarity with the material. That is meaningful personalization, but it is not the same model as Anki's or Flashcards' FSRS review system. If your main goal is to maintain knowledge for several years, Anki has the more mature machinery.
+Quizlet Learn uses machine learning to personalize a study path around your goals and familiarity with the material. That is meaningful personalization, but it is not the same model as Anki's or Nibomo's FSRS review system. If your main goal is to maintain knowledge for several years, Anki has the more mature machinery.
 
 Portability is also narrower. Quizlet lets you export terms and definitions from sets you created on the website, but not copied sets or images. That may be a perfectly reasonable trade for a semester. It is less comfortable for a personal knowledge collection you expect to keep for a decade.
 
@@ -83,7 +83,7 @@ Portability is also narrower. Quizlet lets you export terms and definitions from
 
 [Nibomo](/features/) puts a different combination in one product: FSRS scheduling, workspace-aware AI chat, card creation and editing, file attachments, offline-capable native apps, and an API path for AI agents.
 
-Use Flashcards if you are:
+Use Nibomo if you are:
 
 - looking for an **open source flashcards app** whose application and infrastructure code are public
 - willing to self-host because control over the full stack matters
@@ -95,9 +95,9 @@ The hosted app is the easiest place to begin; the [getting-started guide](/docs/
 
 ### The maturity caveat is important
 
-Flashcards is in early development. Its ecosystem, import coverage, advanced review tooling, and recovery story are not as mature as Anki's. There is no direct `.apkg` importer. Native `flashcards.zip` packages move active cards, tags, and referenced media, but they do not move review history, FSRS scheduler state, workspace settings, full deck structures, or account data.
+Nibomo is in early development. Its ecosystem, import coverage, advanced review tooling, and recovery story are not as mature as Anki's. There is no direct `.apkg` importer. Native `flashcards.zip` packages move active cards, tags, and referenced media, but they do not move review history, FSRS scheduler state, workspace settings, full deck structures, or account data.
 
-That means two things in practice. Moving a heavily customized Anki collection will lose important structure unless you keep Anki as the source of truth. And a Flashcards package should not be treated as a full disaster-recovery backup. The detailed [flashcard backup guide](/blog/how-to-back-up-flashcards/) explains what to keep separately.
+That means two things in practice. Moving a heavily customized Anki collection will lose important structure unless you keep Anki as the source of truth. And a Nibomo package should not be treated as a full disaster-recovery backup. The detailed [flashcard backup guide](/blog/how-to-back-up-flashcards/) explains what to keep separately.
 
 The hosted Cloud Beta is free today, including AI and sync. That is a beta offer, not a promise that unlimited hosted AI will stay free forever. The pricing page already notes that higher AI usage may later require a provider API key or a paid option.
 

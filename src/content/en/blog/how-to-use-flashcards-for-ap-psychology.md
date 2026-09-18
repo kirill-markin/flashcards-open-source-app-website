@@ -241,7 +241,7 @@ If you want the scheduling side in more detail, these two articles fit best:
 - [How to Study for an Exam With FSRS in 2026](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)
 - [FSRS vs SM-2 in 2026](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
-## Where Flashcards fits an AP Psychology workflow
+## Where Nibomo fits an AP Psychology workflow
 
 If you want to run this inside [Nibomo](https://nibomo.com/), the useful part is not a vague promise that AI will magically study AP Psych for you.
 

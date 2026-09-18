@@ -14,7 +14,7 @@ keywords:
   - "offline spaced repetition app"
 ---
 
-Which study app works offline? **All five apps in this comparison can keep at least part of your study workflow going without internet, but only on the right surface.** Anki's installed apps are the safest general choice for a complete local collection. Mochi's installed apps are the clearest no-account option. RemNote works well offline in its installed apps, although mobile media is partial. Quizlet requires its iOS or Android app and prepared sets. Flashcards uses local-first storage in its native apps, but it needs an online login and initial workspace download first.
+Which study app works offline? **All five apps in this comparison can keep at least part of your study workflow going without internet, but only on the right surface.** Anki's installed apps are the safest general choice for a complete local collection. Mochi's installed apps are the clearest no-account option. RemNote works well offline in its installed apps, although mobile media is partial. Quizlet requires its iOS or Android app and prepared sets. Nibomo uses local-first storage in its native apps, but it needs an online login and initial workspace download first.
 
 The browser versions are different products for this decision. A downloaded mobile set, a cached image, and a tab that happens to survive a connection loss are not the same as an installed app that can cold-open its local collection.
 
@@ -33,11 +33,11 @@ The other apps win under narrower constraints:
 - Choose **Mochi's installed app** if you want to create and review locally without an account.
 - Choose **RemNote desktop** if your cards live inside notes and you need local images and PDFs.
 - Choose **Quizlet mobile** if you know the exact sets you need and Flashcards or Match covers the trip.
-- Choose **Flashcards on iOS or Android** if you want local-first edits and review history with later sync, and you accept the initial online setup and younger product.
+- Choose **Nibomo on iOS or Android** if you want local-first edits and review history with later sync, and you accept the initial online setup and younger product.
 
 This comparison checks five separate promises: card access, card editing, saved review history, media, and later sync. An app has to pass the parts your real collection uses; an “offline” badge by itself is not enough.
 
-If you are limited to a browser, the answer is less comfortable. RemNote documents a surviving-tab mode, Quizlet's offline guide covers only mobile apps, and AnkiWeb is an online service. Mochi says its web version without Pro uses browser offline storage, but warns that the browser may clear it. Flashcards keeps study data in IndexedDB, yet its web client does not offer the same dependable cold-start boundary as an installed native app.
+If you are limited to a browser, the answer is less comfortable. RemNote documents a surviving-tab mode, Quizlet's offline guide covers only mobile apps, and AnkiWeb is an online service. Mochi says its web version without Pro uses browser offline storage, but warns that the browser may clear it. Nibomo keeps study data in IndexedDB, yet its web client does not offer the same dependable cold-start boundary as an installed native app.
 
 ## First, identify the offline boundary
 
@@ -87,9 +87,9 @@ Mochi's [installation guide](https://mochi.cards/docs/getting-started/download-a
 
 The [Mochi backup guide](https://mochi.cards/docs/getting-started/backing-up/) gives that local model a useful recovery path: a copy of the desktop user directory preserves cards, templates, review history, attachments, settings, and login state, while a `.mochi` export can move the study data between devices. For extended offline use on one device, that is a more concrete safety story than sync alone.
 
-### Flashcards: local-first native clients, with setup limits
+### Nibomo: local-first native clients, with setup limits
 
-Flashcards' [offline-first architecture](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/docs/architecture.md#offline-first-sync) writes cards, decks, settings, and reviews locally before pushing them. Web uses IndexedDB, iOS uses SQLite, and Android uses Room on SQLite. Reviews travel as append-only events; mutable card and deck state goes through the outbox.
+Nibomo's [offline-first architecture](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/docs/architecture.md#offline-first-sync) writes cards, decks, settings, and reviews locally before pushing them. Web uses IndexedDB, iOS uses SQLite, and Android uses Room on SQLite. Reviews travel as append-only events; mutable card and deck state goes through the outbox.
 
 [Media transfer is a separate lane](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/docs/architecture.md#client-media-transfer). New attachments can wait in a local upload queue, but an older remote attachment is offline only after that device has cached its bytes. Native iOS and Android are therefore the safer travel surfaces. The web client has local data, but a loaded browser page should not be confused with an installed app that can cold-start offline.
 
@@ -110,6 +110,6 @@ Official documentation tells you the product boundary. This repeatable test tell
 
 This takes about ten minutes and catches the failures that matter: the wrong surface, an incomplete download, missing media, work that disappears after a restart, or progress that never reaches the next device.
 
-For most students, commuters, and travelers, Anki remains the best offline flashcards app because its installed clients make the fewest compromises. The right exception can still be more useful: Mochi for account-free local study, RemNote for desktop notes and media, Quizlet for prepared mobile sets, or Flashcards for local-first native work with later sync.
+For most students, commuters, and travelers, Anki remains the best offline flashcards app because its installed clients make the fewest compromises. The right exception can still be more useful: Mochi for account-free local study, RemNote for desktop notes and media, Quizlet for prepared mobile sets, or Nibomo for local-first native work with later sync.
 
 If offline access is only one part of your decision, compare the [best open-source flashcard apps in 2026](/blog/best-open-source-flashcard-apps-2026/) or the broader [Anki vs Quizlet vs Nibomo comparison](/blog/anki-vs-quizlet-vs-open-source-flashcards-app/). Whichever app you choose, prepare the exact device and run the airplane-mode test before the connection matters.

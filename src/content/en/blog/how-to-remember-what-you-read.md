@@ -193,7 +193,7 @@ Ask, "What did I fail to retrieve cleanly enough that I want another shot at it 
 
 That smaller question produces much better cards.
 
-In practice, that usually means one small deck or tag for one reading unit inside Flashcards, not one giant chapter dump.
+In practice, that usually means one small deck or tag for one reading unit inside Nibomo, not one giant chapter dump.
 
 Say you read a biology section and your recall check says:
 
@@ -333,7 +333,7 @@ This is the version I would actually repeat during a normal week:
 
 That is a much stronger answer to **remember what you read** than rereading until the page feels familiar.
 
-## Where Flashcards fits
+## Where Nibomo fits
 
 [Nibomo](/) fits after the reading chunk has already shown you what matters.
 

@@ -211,7 +211,7 @@ If you are building cards directly from AI prompts, this companion piece fits to
 
 - [How to Use ChatGPT to Make Flashcards in 2026](https://nibomo.com/blog/how-to-use-chatgpt-to-make-flashcards/)
 
-## Where Flashcards fits this better
+## Where Nibomo fits this better
 
 [Nibomo](https://nibomo.com/) is a strong fit for this workflow because the product covers both sides of the problem:
 

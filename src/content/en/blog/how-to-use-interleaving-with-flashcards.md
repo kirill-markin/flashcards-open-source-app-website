@@ -201,7 +201,7 @@ Be skeptical of claims that an adaptive or AI-generated sequence must be better.
 
 Keep the scheduler out of the sequencing experiment. Interleaving with spaced repetition should preserve the FSRS review history and due timing. Add deliberate mixed practice around the review system; do not keep resetting or rescheduling mature cards just to maintain an attractive pattern.
 
-## How Flashcards fits the workflow
+## How Nibomo fits the workflow
 
 [Nibomo](/features/) gives this workflow a clear retention layer: explicit front/back cards, four review ratings, and FSRS scheduling for due cards. Its published feature contract does not promise automatic interleaving across decks or workspaces, so do not assume that a normal due queue is constructing deliberate contrast pairs for you.
 

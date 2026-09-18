@@ -220,7 +220,7 @@ If the lecturer spent four minutes explaining a concept with three examples, you
 
 That is a much better deal than turning every sentence into a card and calling it productivity.
 
-## Where Flashcards fits
+## Where Nibomo fits
 
 [Nibomo](https://nibomo.com/) is a strong fit for **study lecture recordings with flashcards** because it covers the part that transcripts and AI drafting do not solve on their own:
 

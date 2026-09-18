@@ -119,11 +119,11 @@ For self-hosters, test with one account before moving a real collection. Confirm
 
 For contributors, choose the surface first. Desktop and Android have public contribution paths. AnkiMobile and AnkiWeb do not expose their complete source for the same workflow.
 
-## A note about Flashcards and whole-stack control
+## A note about Nibomo and whole-stack control
 
 > **Disclosure:** I am Kirill Markin, and I build [Nibomo](https://nibomo.com/). Its [MIT-licensed repository](https://github.com/kirill-markin/flashcards-open-source-app) includes the web app, iOS and Android clients, authentication, backend, sync, and AWS infrastructure. That is a broader source and self-hosting boundary than Anki's sync-only server. Nibomo is also much younger and weaker in maturity, add-ons, and Anki migration fidelity, so it is not the default winner.
 
-Nibomo has [documented whole-stack AWS self-hosting](/docs/self-hosting/), but it is not a one-command generic deployment. The operator owns AWS, Cloudflare, authentication, email delivery, database recovery, monitoring, upgrades, and the separate build and distribution of native apps. The [self-hosted Flashcards guide](/blog/self-hosted-open-source-flashcards-app-for-spaced-repetition/) gives the shorter product view, while [Anki vs Nibomo](/blog/anki-vs-flashcards-open-source-app/) covers the maturity and workflow tradeoffs.
+Nibomo has [documented whole-stack AWS self-hosting](/docs/self-hosting/), but it is not a one-command generic deployment. The operator owns AWS, Cloudflare, authentication, email delivery, database recovery, monitoring, upgrades, and the separate build and distribution of native apps. The [self-hosted Nibomo guide](/blog/self-hosted-open-source-flashcards-app-for-spaced-repetition/) gives the shorter product view, while [Anki vs Nibomo](/blog/anki-vs-flashcards-open-source-app/) covers the maturity and workflow tradeoffs.
 
 If you want to compare more projects, the [open-source flashcard apps guide](/blog/best-open-source-flashcard-apps-2026/) applies the same license, offline, sync, migration, and self-hosting questions across several tools.
 

@@ -174,7 +174,7 @@ In practice, that can mean finishing a short biology section, making six cards f
 
 That workflow is less exciting than a giant auto-generated deck. It is also much easier to start again tomorrow.
 
-## Where Flashcards fits
+## Where Nibomo fits
 
 [Nibomo](/) fits this kind of workflow well because the product is already built around the parts that matter after motivation wears off:
 

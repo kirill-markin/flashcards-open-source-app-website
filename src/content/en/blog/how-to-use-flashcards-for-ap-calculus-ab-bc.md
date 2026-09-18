@@ -248,7 +248,7 @@ So keep the order simple:
 
 [How to Study for an Exam With FSRS in 2026](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/) goes deeper on the scheduling side.
 
-## Where Flashcards fits in this AP Calculus workflow
+## Where Nibomo fits in this AP Calculus workflow
 
 [Nibomo](https://nibomo.com/) fits this AP Calculus workflow well if you want one place to keep the whole loop tight without turning the article into a sales pitch.
 
