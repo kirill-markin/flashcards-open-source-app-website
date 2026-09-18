@@ -83,7 +83,7 @@ keywords:
 3. سمّ الخادم `Flashcards`، واختر **Streamable HTTP**، ثم أدخل هذا الرابط:
 
 ```text
-https://mcp.flashcards-open-source-app.com/mcp
+https://mcp.nibomo.com/mcp
 ```
 
 4. احفظ الخادم، ثم اختر **Restart**.
@@ -157,7 +157,7 @@ https://mcp.flashcards-open-source-app.com/mcp
 أضف الخادم البعيد بهذه الأوامر:
 
 ```bash
-codex mcp add flashcards --url https://mcp.flashcards-open-source-app.com/mcp
+codex mcp add flashcards --url https://mcp.nibomo.com/mcp
 codex mcp login flashcards
 ```
 
@@ -167,7 +167,7 @@ codex mcp login flashcards
 
 ```bash
 codex mcp add flashcards \
-  --url https://mcp.flashcards-open-source-app.com/mcp \
+  --url https://mcp.nibomo.com/mcp \
   --bearer-token-env-var FLASHCARDS_MCP_TOKEN
 ```
 

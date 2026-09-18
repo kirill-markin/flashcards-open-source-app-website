@@ -224,7 +224,7 @@ Claude से उम्मीदवार माँगें, तैयार �
 Flashcards MCP URL है:
 
 ```text
-https://mcp.flashcards-open-source-app.com/mcp
+https://mcp.nibomo.com/mcp
 ```
 
 कार्ड सेव करने के लिए connector में `list_workspaces`, read-only `sql_query`, कार्ड लिखने के नियमों वाला `get_guide` और write tool `sql_execute` उपलब्ध हैं। कार्ड भेजने का दायरा छोटा रखें:

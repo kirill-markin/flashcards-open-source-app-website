@@ -32,9 +32,9 @@ keywords:
 
 Точный URL коннектора Flashcards:
 
-`https://mcp.flashcards-open-source-app.com/mcp`
+`https://mcp.nibomo.com/mcp`
 
-Прямая ссылка: [mcp.flashcards-open-source-app.com/mcp](https://mcp.flashcards-open-source-app.com/mcp)
+Прямая ссылка: [mcp.nibomo.com/mcp](https://mcp.nibomo.com/mcp)
 
 ## Что важно до подключения
 
@@ -51,7 +51,7 @@ keywords:
 1. Откройте [Customize > Connectors](https://claude.ai/customize/connectors).
 2. Нажмите `+`.
 3. Выберите **Add custom connector**.
-4. Введите название коннектора и вставьте `https://mcp.flashcards-open-source-app.com/mcp`.
+4. Введите название коннектора и вставьте `https://mcp.nibomo.com/mcp`.
 5. Добавьте коннектор.
 6. Нажмите **Connect** и пройдите вход, если Claude это запросит.
 7. Перед использованием в чатах проверьте разрешения инструментов.
@@ -172,7 +172,7 @@ Claude может помочь создать карточки внутри Flas
 Если вы искали **как подключить Flashcards к Claude**, то рабочий путь выглядит так:
 
 1. откройте [настройки кастомных коннекторов Claude](https://claude.ai/customize/connectors)
-2. добавьте `https://mcp.flashcards-open-source-app.com/mcp`
+2. добавьте `https://mcp.nibomo.com/mcp`
 3. подключите коннектор и проверьте права
 4. сначала оставьте инструменты чтения открытыми, а запись - через подтверждение
 5. включите коннектор в нужном чате

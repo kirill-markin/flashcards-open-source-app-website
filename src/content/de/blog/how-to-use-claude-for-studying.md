@@ -231,7 +231,7 @@ Wenn du Nibomo nutzt, kann Claude freigegebene Karten auch über seinen Remote C
 Die Flashcards-MCP-URL lautet:
 
 ```text
-https://mcp.flashcards-open-source-app.com/mcp
+https://mcp.nibomo.com/mcp
 ```
 
 Zum Speichern von Karten stellt der Connector `list_workspaces`, das Nur-Lese-Tool `sql_query`, `get_guide` für die Regeln zum Schreiben von Karten sowie das Schreib-Tool `sql_execute` bereit. Halte die Übertragung eng begrenzt:

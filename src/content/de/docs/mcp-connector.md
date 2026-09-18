@@ -18,7 +18,7 @@ dieselbe Datenoberflaeche pro Nutzer; diese Seite behandelt den MCP-Server.
 Verbinde dich damit unter:
 
 ```text
-https://mcp.flashcards-open-source-app.com/mcp
+https://mcp.nibomo.com/mcp
 ```
 
 Der Transport ist Streamable HTTP, und der Server stellt sieben Tools bereit: zwei
@@ -34,7 +34,7 @@ Die meisten Clients fuegen einen entfernten MCP-Server als benutzerdefinierten
 Connector hinzu:
 
 1. Oeffne die Connector- oder MCP-Server-Einstellungen deines Clients.
-2. Fuege einen benutzerdefinierten Connector hinzu und fuege die Server-URL `https://mcp.flashcards-open-source-app.com/mcp` ein.
+2. Fuege einen benutzerdefinierten Connector hinzu und fuege die Server-URL `https://mcp.nibomo.com/mcp` ein.
 3. Autorisiere bei interaktiven Clients im Browser, wenn du dazu aufgefordert
    wirst. Der Server nutzt OAuth 2.1 mit Dynamic Client Registration, daher gibt
    es kein Client-Secret zum Einfuegen und keine App, die du zuerst registrieren
@@ -133,7 +133,7 @@ autorisiere im Browser; es wird kein Client-Secret vorab geteilt. Die Discovery
 ist standardisiert:
 
 - Protected-Resource-Metadaten:
-  `https://mcp.flashcards-open-source-app.com/.well-known/oauth-protected-resource`
+  `https://mcp.nibomo.com/.well-known/oauth-protected-resource`
 - Authorization-Server-Metadaten:
   `https://auth.flashcards-open-source-app.com/.well-known/oauth-authorization-server`
 

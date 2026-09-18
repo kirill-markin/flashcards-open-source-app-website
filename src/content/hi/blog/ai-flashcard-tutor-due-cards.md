@@ -45,7 +45,7 @@ Grading के नियम Flashcards से आते हैं, इसलि�
 
 हर MCP client एक ही server URL इस्तेमाल करता है:
 
-`https://mcp.flashcards-open-source-app.com/mcp`
+`https://mcp.nibomo.com/mcp`
 
 Interactive clients OAuth 2.1 से sign in करते हैं, जिसमें PKCE और Dynamic Client Registration शामिल हैं। आप browser में access approve करते हैं; पहले कोई key paste करने या app register करने की ज़रूरत नहीं पड़ती। Headless setups इसकी जगह `fca_` agent API key को Bearer token की तरह भेज सकते हैं। [MCP connector के दस्तावेज़](/hi/docs/mcp-connector/) दोनों रास्ते और पूरा tool contract बताते हैं।
 
@@ -53,7 +53,7 @@ URL कहाँ जोड़ना है, यह client पर निर्भ
 
 - Claude में **Customize > Connectors** में जाकर Flashcards को custom connector के रूप में जोड़ें। Anthropic की [custom connector guide](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp) के अनुसार Free plans पर सिर्फ़ एक custom connector जोड़ा जा सकता है, और Team व Enterprise plans पर पहले कोई owner organization के लिए connector जोड़ता है। [Claude MCP setup guide](/hi/blog/how-to-connect-flashcards-to-claude-with-mcp/) हर screen एक-एक करके दिखाती है।
 - ChatGPT में Flashcards एक custom MCP app के रूप में जुड़ता है। रिव्यू सेव करना एक write action है, और आप write access वाला app जोड़ सकते हैं या नहीं, और कैसे, यह आपके plan और workspace पर निर्भर करता है। कुछ plans पर admin app सेट करता है या उसे members के लिए publish करता है। अपने plan के मौजूदा steps OpenAI के [developer mode और MCP apps वाले help article](https://help.openai.com/en/articles/12584461-developer-mode-and-mcp-apps-in-chatgpt) में देखें।
-- Codex में ChatGPT desktop app की **Settings > MCP servers** में Streamable HTTP server जोड़ें, या `codex mcp add flashcards --url https://mcp.flashcards-open-source-app.com/mcp` चलाएँ और उसके बाद `codex mcp login flashcards`। OpenAI के [Codex MCP docs](https://learn.chatgpt.com/docs/extend/mcp) बताते हैं कि desktop app, Codex CLI और IDE extension यही configuration साझा करते हैं। ज़्यादा जानकारी [ChatGPT और Codex से पढ़ाई वाली guide](/hi/blog/how-to-use-chatgpt-codex-for-studying/) में है।
+- Codex में ChatGPT desktop app की **Settings > MCP servers** में Streamable HTTP server जोड़ें, या `codex mcp add flashcards --url https://mcp.nibomo.com/mcp` चलाएँ और उसके बाद `codex mcp login flashcards`। OpenAI के [Codex MCP docs](https://learn.chatgpt.com/docs/extend/mcp) बताते हैं कि desktop app, Codex CLI और IDE extension यही configuration साझा करते हैं। ज़्यादा जानकारी [ChatGPT और Codex से पढ़ाई वाली guide](/hi/blog/how-to-use-chatgpt-codex-for-studying/) में है।
 
 चाहें तो connection जोड़ने का step पूरी तरह छोड़ भी सकते हैं। Flashcards के अंदर वाले AI chat में वही रिव्यू tools हैं, इसलिए यह loop वहाँ भी चलता है। जो terminal agents MCP नहीं समझते, वे यही रिव्यू actions HTTP routes के रूप में call कर सकते हैं; इनका ब्योरा [Agent API reference](/hi/docs/api/) में है।
 

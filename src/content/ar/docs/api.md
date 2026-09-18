@@ -183,7 +183,7 @@ curl -X POST https://api.flashcards-open-source-app.com/v1/agent/sql/execute \
   }'
 ```
 
-يتوفر أيضًا خادم MCP بعيد على `https://mcp.flashcards-open-source-app.com/mcp` باستخدام OAuth 2.1 (Dynamic Client Registration + PKCE). يكشف تقسيم SQL نفسه عبر `sql_query` (للقراءة فقط بشكل صارم) و`sql_execute` (للكتابة)، بالإضافة إلى `list_workspaces` و`get_guide` وأدوات المراجعة `next_review_card` و`reveal_answer` و`submit_review`؛ راجع [موصّل MCP](/docs/mcp-connector/).
+يتوفر أيضًا خادم MCP بعيد على `https://mcp.nibomo.com/mcp` باستخدام OAuth 2.1 (Dynamic Client Registration + PKCE). يكشف تقسيم SQL نفسه عبر `sql_query` (للقراءة فقط بشكل صارم) و`sql_execute` (للكتابة)، بالإضافة إلى `list_workspaces` و`get_guide` وأدوات المراجعة `next_review_card` و`reveal_answer` و`submit_review`؛ راجع [موصّل MCP](/docs/mcp-connector/).
 
 ### الأمان والنطاق
 

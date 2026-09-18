@@ -73,7 +73,7 @@ That is why keeping the move reversible matters. If a multiline definition becom
 
 Nibomo publishes a remote MCP endpoint at:
 
-`https://mcp.flashcards-open-source-app.com/mcp`
+`https://mcp.nibomo.com/mcp`
 
 Its [MCP connector documentation](/docs/mcp-connector/) defines seven tools: `list_workspaces`, `sql_query` for reads, `sql_execute` for writes, `get_guide` for reference guides, plus `next_review_card`, `reveal_answer`, and `submit_review` for reviews. Interactive MCP clients can authorize with OAuth. Terminal agents can instead start from the [Agent API documentation](/docs/api/) and use the published HTTP flow.
 

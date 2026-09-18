@@ -224,7 +224,7 @@ keywords:
 عنوان Flashcards MCP:
 
 ```text
-https://mcp.flashcards-open-source-app.com/mcp
+https://mcp.nibomo.com/mcp
 ```
 
 لحفظ البطاقات، يوفّر الموصل أداتي `list_workspaces` و`sql_query` للقراءة فقط، وأداة `get_guide` لقواعد كتابة البطاقات، إلى جانب أداة الكتابة `sql_execute`. اجعل عملية النقل محددة النطاق:

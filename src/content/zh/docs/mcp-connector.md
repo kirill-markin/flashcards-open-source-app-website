@@ -16,7 +16,7 @@ AI 智能代理能够读取你的待复习卡片、与你一起逐题复习这�
 连接地址如下：
 
 ```text
-https://mcp.flashcards-open-source-app.com/mcp
+https://mcp.nibomo.com/mcp
 ```
 
 传输方式为 Streamable HTTP，服务器公开七个工具：基于一个小而有意受限的 SQL 接口的两个
@@ -29,7 +29,7 @@ SQL 工具、一个工作区列表、一份参考指南，以及三个复习工�
 大多数客户端会将远程 MCP 服务器添加为自定义连接器：
 
 1. 打开客户端的连接器或 MCP 服务器设置。
-2. 添加一个自定义连接器，并粘贴服务器 URL `https://mcp.flashcards-open-source-app.com/mcp`。
+2. 添加一个自定义连接器，并粘贴服务器 URL `https://mcp.nibomo.com/mcp`。
 3. 对于交互式客户端，在出现提示时在浏览器中完成授权。服务器使用带 Dynamic Client
    Registration 的 OAuth 2.1，因此无需粘贴客户端密钥，也无需先注册应用。
 4. 对于无界面或 CLI 场景，改为设置 `Authorization: Bearer fca_…` 请求头并使用你的
@@ -110,7 +110,7 @@ SQL 工具、一个工作区列表、一份参考指南，以及三个复习工�
 自定义连接器并在浏览器中完成授权；不会预先共享任何客户端密钥。发现流程是标准的：
 
 - 受保护资源元数据：
-  `https://mcp.flashcards-open-source-app.com/.well-known/oauth-protected-resource`
+  `https://mcp.nibomo.com/.well-known/oauth-protected-resource`
 - 授权服务器元数据：
   `https://auth.flashcards-open-source-app.com/.well-known/oauth-authorization-server`
 

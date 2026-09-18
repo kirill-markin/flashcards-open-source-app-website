@@ -30,8 +30,8 @@ export const HOME_PAGE_CONTENT: PageContent = {
         {
           caption: "この MCP サーバーを AI クライアントに追加してください:",
           link: {
-            label: "https://mcp.flashcards-open-source-app.com/mcp",
-            href: "https://mcp.flashcards-open-source-app.com/mcp",
+            label: "https://mcp.nibomo.com/mcp",
+            href: "https://mcp.nibomo.com/mcp",
           },
         },
       ],

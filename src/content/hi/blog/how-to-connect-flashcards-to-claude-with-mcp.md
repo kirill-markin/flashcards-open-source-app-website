@@ -34,9 +34,9 @@ Flashcards, Claude से **custom connector** के रूप में **remo
 
 Flashcards connector का exact URL यह है:
 
-`https://mcp.flashcards-open-source-app.com/mcp`
+`https://mcp.nibomo.com/mcp`
 
-सीधा लिंक: [mcp.flashcards-open-source-app.com/mcp](https://mcp.flashcards-open-source-app.com/mcp)
+सीधा लिंक: [mcp.nibomo.com/mcp](https://mcp.nibomo.com/mcp)
 
 ## Connect करने से पहले
 
@@ -53,7 +53,7 @@ Individual Claude account के लिए setup flow यह है:
 1. [Customize > Connectors](https://claude.ai/customize/connectors) खोलें।
 2. `+` पर click करें।
 3. **Add custom connector** चुनें।
-4. Connector के लिए एक नाम लिखें और `https://mcp.flashcards-open-source-app.com/mcp` paste करें।
+4. Connector के लिए एक नाम लिखें और `https://mcp.nibomo.com/mcp` paste करें।
 5. Connector जोड़ें।
 6. **Connect** पर click करें, और अगर Claude कहे तो login flow पूरा करें।
 7. Chats में इस्तेमाल करने से पहले tool permissions review करें।
@@ -174,7 +174,7 @@ Claude, Flashcards के अंदर cards बनाने में मदद
 अगर आपने **Flashcards को Claude से जोड़ें** खोजा है, तो असली flow यह है:
 
 1. Claude की [custom connector settings](https://claude.ai/customize/connectors) खोलें
-2. `https://mcp.flashcards-open-source-app.com/mcp` जोड़ें
+2. `https://mcp.nibomo.com/mcp` जोड़ें
 3. connect करें और permissions review करें
 4. शुरुआत में read tools खुले रखें और write tools को approval पर रखें
 5. अपनी chat में connector enable करें

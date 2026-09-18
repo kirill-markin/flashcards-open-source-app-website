@@ -45,7 +45,7 @@ Weil zuerst nur die Vorderseite zu sehen ist, wird jede Karte zu einem Abrufvers
 
 Alle MCP-Clients verwenden dieselbe Server-URL:
 
-`https://mcp.flashcards-open-source-app.com/mcp`
+`https://mcp.nibomo.com/mcp`
 
 Interaktive Clients melden sich über OAuth 2.1 mit PKCE und Dynamic Client Registration an. Du bestätigst den Zugriff im Browser und musst vorher weder einen Key einfügen noch eine App registrieren. Headless-Setups können stattdessen einen `fca_`-Agent-API-Key als Bearer-Token senden. Die [Dokumentation zum MCP-Connector](/de/docs/mcp-connector/) beschreibt beide Wege und die genaue Schnittstelle aller Tools.
 
@@ -53,7 +53,7 @@ Wo du die URL einträgst, hängt vom Client ab:
 
 - In Claude fügst du Flashcards unter **Customize > Connectors** als Custom Connector hinzu. Laut Anthropics [Anleitung zu Custom Connectors](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp) ist im Free-Tarif nur ein Custom Connector möglich, und in Team- und Enterprise-Tarifen muss zuerst ein Owner den Connector für die Organisation hinzufügen. Die [Anleitung zur Einrichtung von Claude mit MCP](/de/blog/how-to-connect-flashcards-to-claude-with-mcp/) geht die einzelnen Bildschirme mit dir durch.
 - In ChatGPT verbindest du Flashcards als eigene MCP-App. Eine Wiederholung zu speichern ist eine Schreibaktion, und ob und wie du eine App mit Schreibzugriff hinzufügen kannst, hängt von Tarif und Workspace ab. In manchen Tarifen richtet ein Admin die App ein oder veröffentlicht sie für die Mitglieder. Die aktuellen Schritte für deinen Tarif findest du in OpenAIs [Hilfeartikel zu Entwicklermodus und MCP-Apps](https://help.openai.com/en/articles/12584461-developer-mode-and-mcp-apps-in-chatgpt).
-- Für Codex fügst du in der ChatGPT-Desktop-App unter **Settings > MCP servers** einen Streamable-HTTP-Server hinzu oder führst `codex mcp add flashcards --url https://mcp.flashcards-open-source-app.com/mcp` und danach `codex mcp login flashcards` aus. Laut OpenAIs [Codex-Dokumentation zu MCP](https://learn.chatgpt.com/docs/extend/mcp) teilen sich Desktop-App, Codex CLI und IDE-Erweiterung diese Konfiguration. Mehr Details stehen in der [Anleitung zum Lernen mit ChatGPT und Codex](/de/blog/how-to-use-chatgpt-codex-for-studying/).
+- Für Codex fügst du in der ChatGPT-Desktop-App unter **Settings > MCP servers** einen Streamable-HTTP-Server hinzu oder führst `codex mcp add flashcards --url https://mcp.nibomo.com/mcp` und danach `codex mcp login flashcards` aus. Laut OpenAIs [Codex-Dokumentation zu MCP](https://learn.chatgpt.com/docs/extend/mcp) teilen sich Desktop-App, Codex CLI und IDE-Erweiterung diese Konfiguration. Mehr Details stehen in der [Anleitung zum Lernen mit ChatGPT und Codex](/de/blog/how-to-use-chatgpt-codex-for-studying/).
 
 Du kannst dir die Verbindung auch ganz sparen. Der KI-Chat in Flashcards hat dieselben Wiederholungs-Tools, der Ablauf klappt also auch dort. Terminal-Agenten ohne MCP-Unterstützung können dieselben Wiederholungsaktionen als HTTP-Routen aufrufen. Die [Agent-API-Referenz](/de/docs/api/) dokumentiert sie.
 

@@ -33,9 +33,9 @@ keywords:
 
 رابط موصل Flashcards الدقيق هو:
 
-`https://mcp.flashcards-open-source-app.com/mcp`
+`https://mcp.nibomo.com/mcp`
 
-الرابط المباشر: [mcp.flashcards-open-source-app.com/mcp](https://mcp.flashcards-open-source-app.com/mcp)
+الرابط المباشر: [mcp.nibomo.com/mcp](https://mcp.nibomo.com/mcp)
 
 ## قبل أن تربطه
 
@@ -52,7 +52,7 @@ keywords:
 1. افتح [Customize > Connectors](https://claude.ai/customize/connectors).
 2. اضغط `+`.
 3. اختر **Add custom connector**.
-4. أدخل اسمًا للموصل ثم الصق `https://mcp.flashcards-open-source-app.com/mcp`.
+4. أدخل اسمًا للموصل ثم الصق `https://mcp.nibomo.com/mcp`.
 5. أضف الموصل.
 6. اضغط **Connect** وأكمل تسجيل الدخول إذا طلب Claude ذلك.
 7. راجع أذونات الأدوات قبل أن تبدأ باستخدامه داخل المحادثات.
@@ -173,7 +173,7 @@ keywords:
 إذا كنت قد بحثت عن **ربط Flashcards بـ Claude**، فهذا هو المسار الحقيقي:
 
 1. افتح [إعدادات الموصلات المخصصة في Claude](https://claude.ai/customize/connectors)
-2. أضف `https://mcp.flashcards-open-source-app.com/mcp`
+2. أضف `https://mcp.nibomo.com/mcp`
 3. اربط الموصل وراجع الأذونات
 4. اترك أدوات القراءة مفتوحة، وأبقِ أدوات الكتابة على الموافقة في البداية
 5. فعّل الموصل داخل محادثتك

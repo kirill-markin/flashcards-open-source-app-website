@@ -18,7 +18,7 @@ MCP.
 Conéctese a él en:
 
 ```text
-https://mcp.flashcards-open-source-app.com/mcp
+https://mcp.nibomo.com/mcp
 ```
 
 El transporte es Streamable HTTP, y el servidor expone siete herramientas: dos
@@ -33,7 +33,7 @@ La mayoría de los clientes añaden un servidor MCP remoto como un conector
 personalizado:
 
 1. Abra la configuración de conectores o de servidor MCP de su cliente.
-2. Añada un conector personalizado y pegue la URL del servidor `https://mcp.flashcards-open-source-app.com/mcp`.
+2. Añada un conector personalizado y pegue la URL del servidor `https://mcp.nibomo.com/mcp`.
 3. Para clientes interactivos, autorice en el navegador cuando se le solicite. El
    servidor usa OAuth 2.1 con Dynamic Client Registration, por lo que no hay
    ningún client secret que pegar ni ninguna aplicación que registrar primero.
@@ -130,7 +130,7 @@ en el navegador; ningún client secret se comparte previamente. El descubrimient
 es estándar:
 
 - Metadatos de recurso protegido:
-  `https://mcp.flashcards-open-source-app.com/.well-known/oauth-protected-resource`
+  `https://mcp.nibomo.com/.well-known/oauth-protected-resource`
 - Metadatos del servidor de autorización:
   `https://auth.flashcards-open-source-app.com/.well-known/oauth-authorization-server`
 
