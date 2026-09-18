@@ -102,8 +102,8 @@ NotebookLM は web とモバイルの学習導線でフラッシュカードや�
 
 元の資料がまだ文書のままなら、下書き側には次の記事も役立ちます。
 
-- [2026年版 PDFをフラッシュカード化する方法: 講義スライド・教科書・論文からFSRS向けカードを作る](https://flashcards-open-source-app.com/blog/how-to-turn-a-pdf-into-flashcards/)
-- [2026年版 ノートをフラッシュカードに変える方法: 手作業のコピペではなく、AIの下書きとFSRSを使う](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
+- [2026年版 PDFをフラッシュカード化する方法: 講義スライド・教科書・論文からFSRS向けカードを作る](https://nibomo.com/blog/how-to-turn-a-pdf-into-flashcards/)
+- [2026年版 ノートをフラッシュカードに変える方法: 手作業のコピペではなく、AIの下書きとFSRSを使う](https://nibomo.com/blog/turn-notes-into-flashcards/)
 
 ## 自分の上限を見つける実践的なやり方
 
@@ -151,7 +151,7 @@ FSRS は、復習タイミングを自然に感じさせる点で、古い間隔
 
 スケジューリングの比較を直接見たいなら、こちらの記事がより詳しいです。
 
-- [2026年のFSRSとSM-2を比較: より覚えやすい間隔反復アルゴリズムはどちらか](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [2026年のFSRSとSM-2を比較: より覚えやすい間隔反復アルゴリズムはどちらか](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
 ## 復習がたまる原因は、カードの書き方にもある
 
@@ -209,11 +209,11 @@ AI が思いつけるカードを全部学ぶ必要はありません。
 
 AI プロンプトから直接カードを作っているなら、こちらも相性が良いです。
 
-- [2026年にChatGPTでフラッシュカードを作る方法: プロンプトを整え、カードを磨き、FSRSで復習を回す](https://flashcards-open-source-app.com/blog/how-to-use-chatgpt-to-make-flashcards/)
+- [2026年にChatGPTでフラッシュカードを作る方法: プロンプトを整え、カードを磨き、FSRSで復習を回す](https://nibomo.com/blog/how-to-use-chatgpt-to-make-flashcards/)
 
 ## Flashcards がこの流れに向いている理由
 
-[Nibomo](https://flashcards-open-source-app.com/) は、このワークフローと相性が良いです。問題の両側を 1 つの製品で扱えるからです。
+[Nibomo](https://nibomo.com/) は、このワークフローと相性が良いです。問題の両側を 1 つの製品で扱えるからです。
 
 - ノート、PDF、その他の資料から下書きを作るための AI チャット
 - 本採用する前に表裏を整えるカード編集
@@ -234,4 +234,4 @@ AI プロンプトから直接カードを作っているなら、こちらも�
 
 これが、2026 年の「**1日に何枚のフラッシュカードを増やすべきか**」に対して私がいちばん信頼している答えです。気分が盛り上がっているときに思うより少なく始め、カードの質を保ち、復習待ちを正直に観察し、システムがまだ落ち着いていると確認できるときだけ増やす。
 
-そういう流れを求めているなら、[Nibomo](https://flashcards-open-source-app.com/) は実用的です。資料から下書きを作り、しっかり編集し、1 回の盛り上がったカード生成セッションを 1 か月分の復習地獄に変えないよう、FSRS で学習を回せます。
+そういう流れを求めているなら、[Nibomo](https://nibomo.com/) は実用的です。資料から下書きを作り、しっかり編集し、1 回の盛り上がったカード生成セッションを 1 か月分の復習地獄に変えないよう、FSRS で学習を回せます。

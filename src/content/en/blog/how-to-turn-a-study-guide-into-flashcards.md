@@ -252,15 +252,15 @@ The source inside the guide changes the card style that makes sense.
 
 If one section is mostly missed questions, this workflow fits better:
 
-- [How to Turn Practice Questions Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/)
+- [How to Turn Practice Questions Into Flashcards in 2026](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/)
 
 If the guide is mostly a document or exported packet, use this one too:
 
-- [How to Turn a PDF Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-turn-a-pdf-into-flashcards/)
+- [How to Turn a PDF Into Flashcards in 2026](https://nibomo.com/blog/how-to-turn-a-pdf-into-flashcards/)
 
 And if the guide started as AI tutoring rather than a packet, this companion article is closer:
 
-- [How to Turn ChatGPT Study Mode Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-turn-chatgpt-study-mode-into-flashcards/)
+- [How to Turn ChatGPT Study Mode Into Flashcards in 2026](https://nibomo.com/blog/how-to-turn-chatgpt-study-mode-into-flashcards/)
 
 ## The finished deck should feel smaller than the guide
 
@@ -281,7 +281,7 @@ You just turned one format of homework into another.
 
 ## Where Flashcards fits
 
-[Nibomo](https://flashcards-open-source-app.com/) is a good fit for **study guide to flashcards** because the product already has the pieces this workflow needs:
+[Nibomo](https://nibomo.com/) is a good fit for **study guide to flashcards** because the product already has the pieces this workflow needs:
 
 - AI chat for restructuring rough study-guide text
 - file and image attachments
@@ -299,11 +299,11 @@ You want one place where you can clean up the guide, create the cards, organize 
 
 If the bigger issue is card quality itself, read this next:
 
-- [How to Make Better Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [How to Make Better Flashcards in 2026](https://nibomo.com/blog/how-to-make-better-flashcards/)
 
 And if the real problem is planning the review load before the exam date, this one helps too:
 
-- [How to Study for an Exam With FSRS in 2026](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/)
+- [How to Study for an Exam With FSRS in 2026](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)
 
 ## The useful rule
 
@@ -321,7 +321,7 @@ More recall from less material.
 
 If that is what you want, start here:
 
-- [Open Nibomo](https://flashcards-open-source-app.com/)
+- [Open Nibomo](https://nibomo.com/)
 - [Open the app](https://app.flashcards-open-source-app.com/)
-- [Read the getting started guide](https://flashcards-open-source-app.com/docs/getting-started/)
+- [Read the getting started guide](https://nibomo.com/docs/getting-started/)
 - [View the source on GitHub](https://github.com/kirill-markin/flashcards-open-source-app)

@@ -102,8 +102,8 @@ That is why I would be careful with any workflow that makes card creation feel f
 
 If your source material is still in document form, these workflows help with the drafting side:
 
-- [How to Turn a PDF Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-turn-a-pdf-into-flashcards/)
-- [How to Turn Notes Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
+- [How to Turn a PDF Into Flashcards in 2026](https://nibomo.com/blog/how-to-turn-a-pdf-into-flashcards/)
+- [How to Turn Notes Into Flashcards in 2026](https://nibomo.com/blog/turn-notes-into-flashcards/)
 
 ## A practical way to find your number
 
@@ -151,7 +151,7 @@ No, the scheduler does not make unlimited card intake a serious plan.
 
 If you want the scheduling comparison directly, this article goes deeper:
 
-- [FSRS vs SM-2 in 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [FSRS vs SM-2 in 2026](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
 ## Review backlog is usually a writing problem too
 
@@ -209,11 +209,11 @@ You need the smallest deck that still teaches the material well.
 
 If you are building cards directly from AI prompts, this companion piece fits too:
 
-- [How to Use ChatGPT to Make Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-use-chatgpt-to-make-flashcards/)
+- [How to Use ChatGPT to Make Flashcards in 2026](https://nibomo.com/blog/how-to-use-chatgpt-to-make-flashcards/)
 
 ## Where Flashcards fits this better
 
-[Nibomo](https://flashcards-open-source-app.com/) is a strong fit for this workflow because the product covers both sides of the problem:
+[Nibomo](https://nibomo.com/) is a strong fit for this workflow because the product covers both sides of the problem:
 
 - AI chat for drafting from notes, PDFs, and other sources
 - front/back card editing before the cards become permanent
@@ -234,4 +234,4 @@ Choose it based on the review load your normal life can carry.
 
 That is the version of **how many flashcards a day** I trust in 2026: start smaller than your excitement wants, keep the cards clean, watch the due queue honestly, and increase only when the system still feels calm.
 
-If that is the workflow you want, [Nibomo](https://flashcards-open-source-app.com/) gives you the practical setup: draft from source material, edit aggressively, and review with FSRS instead of letting one exciting card-generation session quietly turn into a month of backlog.
+If that is the workflow you want, [Nibomo](https://nibomo.com/) gives you the practical setup: draft from source material, edit aggressively, and review with FSRS instead of letting one exciting card-generation session quietly turn into a month of backlog.

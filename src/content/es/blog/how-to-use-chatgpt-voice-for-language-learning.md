@@ -147,7 +147,7 @@ Eso encaja mucho mejor que intentar meter un diálogo entero en miniatura.
 
 Si quieres ver reglas más generales sobre calidad de tarjetas, empieza aquí:
 
-- [Cómo hacer mejores tarjetas didácticas en 2026](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [Cómo hacer mejores tarjetas didácticas en 2026](https://nibomo.com/blog/how-to-make-better-flashcards/)
 
 ## ChatGPT Voice es especialmente útil para detectar fallos de recuerdo activo
 
@@ -178,7 +178,7 @@ Eso hace que **usar ChatGPT Voice para aprender idiomas** sea algo distinto de d
 
 Si tu punto de partida es audio en bruto grabado por ti, y no una conversación interactiva, te encaja mejor esta guía:
 
-- [Cómo convertir notas de voz en tarjetas didácticas en 2026](https://flashcards-open-source-app.com/blog/how-to-turn-voice-notes-into-flashcards/)
+- [Cómo convertir notas de voz en tarjetas didácticas en 2026](https://nibomo.com/blog/how-to-turn-voice-notes-into-flashcards/)
 
 ## Las tarjetas para aprender idiomas deberían parecerse a tus conversaciones reales
 
@@ -229,8 +229,8 @@ Si no cumple eso, deja que se quede en la sesión y muera ahí.
 
 Si tu problema principal ya es la carga de repaso, estos artículos encajan muy bien con este:
 
-- [Cuántas tarjetas nuevas al día en 2026](https://flashcards-open-source-app.com/blog/how-many-new-flashcards-per-day/)
-- [Cómo ponerse al día con las tarjetas didácticas después de quedarse atrás en 2026](https://flashcards-open-source-app.com/blog/how-to-catch-up-on-flashcards-after-falling-behind/)
+- [Cuántas tarjetas nuevas al día en 2026](https://nibomo.com/blog/how-many-new-flashcards-per-day/)
+- [Cómo ponerse al día con las tarjetas didácticas después de quedarse atrás en 2026](https://nibomo.com/blog/how-to-catch-up-on-flashcards-after-falling-behind/)
 
 ## FSRS importa porque las frases habladas se olvidan de formas muy raras
 
@@ -253,11 +253,11 @@ La secuencia en la que confío sigue siendo:
 
 Si quieres profundizar en la parte de la programación, este artículo entra más al detalle:
 
-- [FSRS vs SM-2 en 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [FSRS vs SM-2 en 2026](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
 ## Dónde encaja Flashcards
 
-[Nibomo](https://flashcards-open-source-app.com/) encaja bien en este flujo de trabajo porque el producto ya cubre justo lo que necesita la práctica oral con IA:
+[Nibomo](https://nibomo.com/) encaja bien en este flujo de trabajo porque el producto ya cubre justo lo que necesita la práctica oral con IA:
 
 - creación sencilla de tarjetas de anverso y reverso
 - repaso a largo plazo con FSRS
@@ -289,7 +289,7 @@ Y luego deja que la repetición espaciada haga su trabajo silencioso.
 
 Si eso es lo que buscas, empieza aquí:
 
-- [Abrir Nibomo](https://flashcards-open-source-app.com/)
-- [Leer la guía de inicio](https://flashcards-open-source-app.com/docs/getting-started/)
-- [Leer la documentación de la API](https://flashcards-open-source-app.com/docs/api/)
+- [Abrir Nibomo](https://nibomo.com/)
+- [Leer la guía de inicio](https://nibomo.com/docs/getting-started/)
+- [Leer la documentación de la API](https://nibomo.com/docs/api/)
 - [Ver el código fuente en GitHub](https://github.com/kirill-markin/flashcards-open-source-app)

@@ -90,7 +90,7 @@ Das ist wichtig, weil **Spaced Repetition im Jurastudium** nicht den ganzen Kurs
 
 Wenn das Schreiben deiner Karten selbst die schwache Stelle ist, lies als Nächstes:
 
-- [Wie du 2026 bessere Flashcards erstellst](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [Wie du 2026 bessere Flashcards erstellst](https://nibomo.com/blog/how-to-make-better-flashcards/)
 
 ## Juristische Outlines sind Quellenmaterial, nicht das fertige Deck
 
@@ -111,7 +111,7 @@ Das Outline erklärt das Fach an einem Ort. Das Deck prüft, ob du einzelne Teil
 
 Wenn dein Material noch näher an Vorlesungsnotizen als an einem fertigen Outline ist, ist dieser Artikel die bessere Ergänzung:
 
-- [Wie du 2026 Notizen in Flashcards verwandelst](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
+- [Wie du 2026 Notizen in Flashcards verwandelst](https://nibomo.com/blog/turn-notes-into-flashcards/)
 
 ## Issue-Spotting-Flashcards sollten Auslöser trainieren, nicht komplette Gutachten
 
@@ -150,7 +150,7 @@ Ich würde über das Semester hinweg einen kleinen Strom fallbasierter Karten pf
 
 Wenn du vor allem genau diesen Workflow brauchst, fang hier an:
 
-- [Wie du 2026 Übungsfragen in Flashcards verwandelst](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/)
+- [Wie du 2026 Übungsfragen in Flashcards verwandelst](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/)
 
 ## Ein praktischer Wochen-Workflow für Flashcards im Jurastudium
 
@@ -168,7 +168,7 @@ Das ist ein deutlich gesünderer Workflow für **Flashcards für das Jurastudium
 
 Wenn dein größeres Problem eher Struktur als Formulierung ist, passt dieser Artikel direkt dazu:
 
-- [Wie du 2026 Flashcards organisierst](https://flashcards-open-source-app.com/blog/how-to-organize-flashcards/)
+- [Wie du 2026 Flashcards organisierst](https://nibomo.com/blog/how-to-organize-flashcards/)
 
 ## Flashcards fürs Staatsexamen funktionieren besser, wenn das 1L-Deck sauber aufgebaut wurde
 
@@ -215,12 +215,12 @@ Darum würde ich die Reihenfolge schlicht halten:
 
 Wenn du die Planungsseite ausführlicher willst, passen diese beiden Artikel am besten:
 
-- [Wie du 2026 mit FSRS für eine Prüfung lernst](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/)
-- [FSRS vs. SM-2 im Jahr 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [Wie du 2026 mit FSRS für eine Prüfung lernst](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)
+- [FSRS vs. SM-2 im Jahr 2026](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
 ## Wo Flashcards in diesen Jura-Workflow hineinpasst
 
-Wenn du diesen Workflow in [Nibomo](https://flashcards-open-source-app.com/) umsetzen willst, ist der nützliche Teil nicht einfach nur abstrakt gesagt "KI erstellt Karten". Entscheidend ist, dass das aktuelle Produkt schon den unspektakulären Mittelteil der Arbeit unterstützt:
+Wenn du diesen Workflow in [Nibomo](https://nibomo.com/) umsetzen willst, ist der nützliche Teil nicht einfach nur abstrakt gesagt "KI erstellt Karten". Entscheidend ist, dass das aktuelle Produkt schon den unspektakulären Mittelteil der Arbeit unterstützt:
 
 - KI-Chat für Entwürfe und Überarbeitung
 - Dateianhänge einschließlich Uploads von Klartextdateien
@@ -245,9 +245,9 @@ Das ist die Variante von **Flashcards im Jurastudium**, der ich vertrauen würde
 
 Wenn du diesen Workflow in Flashcards ausprobieren willst:
 
-- [Mit Flashcards starten](https://flashcards-open-source-app.com/)
+- [Mit Flashcards starten](https://nibomo.com/)
 - [Die Web-App öffnen](https://app.flashcards-open-source-app.com/)
-- [Den Einstiegsleitfaden lesen](https://flashcards-open-source-app.com/docs/getting-started/)
+- [Den Einstiegsleitfaden lesen](https://nibomo.com/docs/getting-started/)
 - [Den Quellcode auf GitHub ansehen](https://github.com/kirill-markin/flashcards-open-source-app)
 
 Das Ziel ist nicht, ein hübscheres Outline in Flashcard-Form zu bauen. Das Ziel ist, dass Regeln, Ausnahmen und Issue-Trigger schneller auftauchen, wenn sich der Sachverhalt verschiebt und die Zeit knapp wird.

@@ -129,8 +129,8 @@ If cranial nerve basics are part of your current unit, the [84-card Cranial Nerv
 
 If your source material for this section is mostly lecture slides, handouts, or review packets, these upstream workflows are the closest match:
 
-- [How to Turn a PDF Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-turn-a-pdf-into-flashcards/)
-- [How to Turn Notes Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
+- [How to Turn a PDF Into Flashcards in 2026](https://nibomo.com/blog/how-to-turn-a-pdf-into-flashcards/)
+- [How to Turn Notes Into Flashcards in 2026](https://nibomo.com/blog/turn-notes-into-flashcards/)
 
 ## Prioritization and delegation cards should train the trigger, not the full rationale paragraph
 
@@ -199,7 +199,7 @@ The key is not to card every question. Keep the recurring misses, the common con
 
 If that is the part of the workflow you need most, this is the direct companion piece:
 
-- [How to Turn Practice Questions Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/)
+- [How to Turn Practice Questions Into Flashcards in 2026](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/)
 
 ## A weekly nursing-school flashcards workflow should survive clinicals
 
@@ -219,7 +219,7 @@ That is a better **nursing student spaced repetition** workflow than one giant S
 
 If the bigger problem is structure rather than card writing, read this next:
 
-- [How to Organize Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-organize-flashcards/)
+- [How to Organize Flashcards in 2026](https://nibomo.com/blog/how-to-organize-flashcards/)
 
 ## FSRS matters even more when your study schedule is uneven
 
@@ -239,16 +239,16 @@ So I would keep the order simple:
 
 If your queue is already getting too large, these two articles fit directly with the nursing workflow:
 
-- [How Many New Flashcards Per Day in 2026?](https://flashcards-open-source-app.com/blog/how-many-new-flashcards-per-day/)
-- [How to Study for an Exam With FSRS in 2026](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/)
+- [How Many New Flashcards Per Day in 2026?](https://nibomo.com/blog/how-many-new-flashcards-per-day/)
+- [How to Study for an Exam With FSRS in 2026](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)
 
 And if you want the scheduling model itself explained:
 
-- [FSRS vs SM-2 in 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [FSRS vs SM-2 in 2026](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
 ## Where Flashcards fits this nursing workflow
 
-[Nibomo](https://flashcards-open-source-app.com/) is a strong fit for **nursing school flashcards** because the product already supports the pieces this workflow depends on:
+[Nibomo](https://nibomo.com/) is a strong fit for **nursing school flashcards** because the product already supports the pieces this workflow depends on:
 
 - front/back cards for narrow recall prompts
 - AI chat with workspace data and file attachments for drafting from notes, lecture text, or question rationales
@@ -264,7 +264,7 @@ If you want a nursing-school deck that still feels useful when exams and clinica
 
 If card quality is still the main issue, this one pairs well with the nursing workflow:
 
-- [How to Make Better Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [How to Make Better Flashcards in 2026](https://nibomo.com/blog/how-to-make-better-flashcards/)
 
 ## Build the nursing deck that still feels usable during finals
 

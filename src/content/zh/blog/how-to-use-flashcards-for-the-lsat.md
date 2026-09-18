@@ -64,7 +64,7 @@ LSAT 复习很容易制造一种很特定的假自信。你读完一道题的解
 
 这些是笔记，不是高质量的提取提示。
 
-如果你眼下最大的瓶颈是卡片质量本身，那在继续加卡之前，更值得先看这篇配套文章：[2026 年如何做出更好的抽认卡](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)。
+如果你眼下最大的瓶颈是卡片质量本身，那在继续加卡之前，更值得先看这篇配套文章：[2026 年如何做出更好的抽认卡](https://nibomo.com/blog/how-to-make-better-flashcards/)。
 
 ## LSAT Logical Reasoning 抽认卡应该跟踪论证动作和陷阱选项
 
@@ -165,7 +165,7 @@ conditional logic 是 LSAT 上最适合用抽认卡处理的部分之一，因�
 
 这样一来，你的错题本就有了第二次生命，不再只是“存放好意图”的坟场，而是一个真正的复习系统。
 
-如果你现在最好的卡片本来就主要来自练习复盘，这篇文章会把那一步讲得更细：[2026 年如何把练习题变成抽认卡](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/)。
+如果你现在最好的卡片本来就主要来自练习复盘，这篇文章会把那一步讲得更细：[2026 年如何把练习题变成抽认卡](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/)。
 
 ## 一套实用的 LSAT 每周抽认卡工作流
 
@@ -209,12 +209,12 @@ Nibomo 不是 LSAC 的官方工具，也没有任何官方 LSAT 集成。请只�
 
 如果你想更细看调度这一侧，这两篇是最直接的下一步：
 
-- [2026 年如何用 FSRS 为考试复习](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/)
-- [2026 年 FSRS vs SM-2](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [2026 年如何用 FSRS 为考试复习](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)
+- [2026 年 FSRS vs SM-2](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
 ## Nibomo 在这套 LSAT 工作流里适合放在哪里
 
-如果你想在 [Nibomo](https://flashcards-open-source-app.com/) 里跑这套工作流，真正有用的地方并不是一句模糊的“AI 会替你学习”。真正有用的，是目前这个产品已经覆盖了这项工作里最核心的中段：
+如果你想在 [Nibomo](https://nibomo.com/) 里跑这套工作流，真正有用的地方并不是一句模糊的“AI 会替你学习”。真正有用的，是目前这个产品已经覆盖了这项工作里最核心的中段：
 
 - 托管网页版应用里的 AI chat 和文件附件
 - 正反面卡片的创建与编辑
@@ -224,7 +224,7 @@ Nibomo 不是 LSAC 的官方工具，也没有任何官方 LSAT 集成。请只�
 
 这很重要，因为 **LSAT flashcards** 不只是一个“生成”问题。它同样也是“编辑”问题、“整理”问题和“复习”问题。
 
-如果你更大的问题是牌组结构，接着读 [2026 年如何整理抽认卡](https://flashcards-open-source-app.com/blog/how-to-organize-flashcards/)。如果你已经开始往 1L 想，那在申请季备考之后，很自然的下一步就是 [2026 年法学院如何使用抽认卡](https://flashcards-open-source-app.com/blog/how-to-use-flashcards-for-law-school/)。
+如果你更大的问题是牌组结构，接着读 [2026 年如何整理抽认卡](https://nibomo.com/blog/how-to-organize-flashcards/)。如果你已经开始往 1L 想，那在申请季备考之后，很自然的下一步就是 [2026 年法学院如何使用抽认卡](https://nibomo.com/blog/how-to-use-flashcards-for-law-school/)。
 
 ## 建一副能帮你更早看见错误的牌组
 

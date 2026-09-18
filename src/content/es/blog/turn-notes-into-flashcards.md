@@ -105,7 +105,7 @@ Eso se parece menos a teatro de automatización y más a ayuda real.
 
 ## Flashcards ya tiene la forma adecuada para este flujo
 
-[Nibomo](https://flashcards-open-source-app.com/) resulta interesante aquí porque el producto ya reúne las piezas que importan:
+[Nibomo](https://nibomo.com/) resulta interesante aquí porque el producto ya reúne las piezas que importan:
 
 - creación de tarjetas con frente y reverso
 - chat con IA
@@ -135,7 +135,7 @@ Esa es la diferencia entre "he generado unas cuantas tarjetas" y "he montado un 
 
 Si quieres profundizar más en la parte del planificador, este es el artículo complementario:
 
-- [FSRS vs SM-2 en 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [FSRS vs SM-2 en 2026](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
 ## El texto plano es más útil de lo que muchas apps de notas quieren admitir
 
@@ -180,11 +180,11 @@ Ahí es donde Flashcards parece apuntar en la dirección correcta. Es una **app 
 
 Si tu problema tiene más que ver con mover colecciones que ya existen, empieza aquí:
 
-- [Cómo migrar desde Anki en 2026](https://flashcards-open-source-app.com/blog/migrate-from-anki-txt-export-open-source-flashcards/)
+- [Cómo migrar desde Anki en 2026](https://nibomo.com/blog/migrate-from-anki-txt-export-open-source-flashcards/)
 
 Y si estás comparando la categoría en general, este es el mejor resumen:
 
-- [Las mejores alternativas a Anki en 2026](https://flashcards-open-source-app.com/blog/best-anki-alternatives/)
+- [Las mejores alternativas a Anki en 2026](https://nibomo.com/blog/best-anki-alternatives/)
 
 ## Entonces, ¿cuál es la mejor forma de convertir apuntes en flashcards en 2026?
 
@@ -198,15 +198,15 @@ Creo que la mejor respuesta es una división del trabajo más limpia:
 
 Eso quita la parte aburrida sin fingir que el humano deba desaparecer del proceso.
 
-Por eso [Nibomo](https://flashcards-open-source-app.com/) encaja tan bien para quien está buscando cómo **convertir apuntes en flashcards**. El producto ya tiene la forma adecuada para eso: creación de tarjetas, chat con IA, archivos adjuntos, soporte para texto plano y repetición espaciada seria después.
+Por eso [Nibomo](https://nibomo.com/) encaja tan bien para quien está buscando cómo **convertir apuntes en flashcards**. El producto ya tiene la forma adecuada para eso: creación de tarjetas, chat con IA, archivos adjuntos, soporte para texto plano y repetición espaciada seria después.
 
 ## Prueba un flujo de apuntes a flashcards que no se convierta en un segundo trabajo
 
 Si quieres una forma práctica de **convertir apuntes en flashcards**, empieza aquí:
 
-- [Abrir Nibomo](https://flashcards-open-source-app.com/)
+- [Abrir Nibomo](https://nibomo.com/)
 - [Abrir la app](https://app.flashcards-open-source-app.com/)
-- [Leer la guía de inicio](https://flashcards-open-source-app.com/docs/getting-started/)
+- [Leer la guía de inicio](https://nibomo.com/docs/getting-started/)
 - [Ver el código fuente en GitHub](https://github.com/kirill-markin/flashcards-open-source-app)
 
 No tiene nada de noble pasarte una hora reformulando apuntes a mano si un buen flujo de borrador puede llevarte a la misma cola de repaso más rápido.

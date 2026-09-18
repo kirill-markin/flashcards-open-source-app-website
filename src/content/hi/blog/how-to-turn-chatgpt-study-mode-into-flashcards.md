@@ -136,7 +136,7 @@ card rules ज़्यादा नहीं बदले।
 
 अगर आप इस तर्क का card quality वाला गहरा रूप चाहते हैं, तो यह companion piece और आगे जाती है:
 
-- [2026 में बेहतर Flashcards कैसे बनाएं](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [2026 में बेहतर Flashcards कैसे बनाएं](https://nibomo.com/blog/how-to-make-better-flashcards/)
 
 ## यह सिर्फ़ ChatGPT के लिए नहीं, Gemini Guided Learning के लिए भी काम करता है
 
@@ -182,8 +182,8 @@ flashcards बाद में भी उसे याद रखने में
 
 अगर review overload पहले से आपकी समस्या है, तो ये लेख इसी विषय से जुड़े हैं:
 
-- [2026 में प्रति दिन कितने नए फ़्लैशकार्ड?](https://flashcards-open-source-app.com/blog/how-many-new-flashcards-per-day/)
-- [2026 में पीछे छूट जाने के बाद Flashcards में फिर से कैसे पकड़ बनाएं](https://flashcards-open-source-app.com/blog/how-to-catch-up-on-flashcards-after-falling-behind/)
+- [2026 में प्रति दिन कितने नए फ़्लैशकार्ड?](https://nibomo.com/blog/how-many-new-flashcards-per-day/)
+- [2026 में पीछे छूट जाने के बाद Flashcards में फिर से कैसे पकड़ बनाएं](https://nibomo.com/blog/how-to-catch-up-on-flashcards-after-falling-behind/)
 
 ## बेहतर prompt यह नहीं है कि "इससे flashcards बना दो"
 
@@ -201,11 +201,11 @@ flashcards बाद में भी उसे याद रखने में
 
 अगर आपका workflow इससे पहले शुरू होता है, यानी Study Mode और tutoring से भी पहले, तो यह companion article ज़्यादा direct generation route cover करती है:
 
-- [2026 में ChatGPT से Flashcards कैसे बनाएं](https://flashcards-open-source-app.com/blog/how-to-use-chatgpt-to-make-flashcards/)
+- [2026 में ChatGPT से Flashcards कैसे बनाएं](https://nibomo.com/blog/how-to-use-chatgpt-to-make-flashcards/)
 
 और अगर source tutoring session के बजाय study guide या notebook से शुरू होती है, तो यह भी fit बैठती है:
 
-- [2026 में NotebookLM Flashcards को असली Spaced Repetition में कैसे बदलें](https://flashcards-open-source-app.com/blog/notebooklm-flashcards-to-spaced-repetition/)
+- [2026 में NotebookLM Flashcards को असली Spaced Repetition में कैसे बदलें](https://nibomo.com/blog/notebooklm-flashcards-to-spaced-repetition/)
 
 ## FSRS वही हिस्सा है जो अच्छे session को long-term retention में बदलता है
 
@@ -225,11 +225,11 @@ review system ज़्यादा मायने रखता है।
 
 अगर आप algorithm comparison चाहते हैं, तो यह article और गहराई में जाती है:
 
-- [2026 में FSRS बनाम SM-2](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [2026 में FSRS बनाम SM-2](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
 ## इस workflow में Flashcards कहाँ बेहतर बैठता है
 
-[Nibomo](https://flashcards-open-source-app.com/) **ChatGPT Study Mode को flashcards में कैसे बदलें** वाले workflow के लिए मज़बूत fit है, क्योंकि यह product उस हिस्से को cover करता है जिसे AI tutoring अपने आप हल नहीं करती:
+[Nibomo](https://nibomo.com/) **ChatGPT Study Mode को flashcards में कैसे बदलें** वाले workflow के लिए मज़बूत fit है, क्योंकि यह product उस हिस्से को cover करता है जिसे AI tutoring अपने आप हल नहीं करती:
 
 - chat-only memory के बजाय front/back cards
 - cleanup और drafting के लिए AI chat

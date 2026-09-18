@@ -113,7 +113,7 @@ BC には、もう1つ知っておく価値のある採点上の特徴があり�
 
 この分け方が大事なのは、AP Calculus が symbolic work、graphs、tables、context を行き来させる科目だからです。微分値そのものがタスクの全部であることは少なく、正しく解釈できるかどうかで点が抜けていきます。
 
-今のデッキがまだ広すぎるなら、このブログでは [How to Use Flashcards for Math in 2026](https://flashcards-open-source-app.com/blog/how-to-use-flashcards-for-math/) がいちばん近い補助記事です。
+今のデッキがまだ広すぎるなら、このブログでは [How to Use Flashcards for Math in 2026](https://nibomo.com/blog/how-to-use-flashcards-for-math/) がいちばん近い補助記事です。
 
 ## 積分カードは、不定積分と蓄積を分けておく
 
@@ -175,7 +175,7 @@ FRQ を落とすと責任感が出てきて、次の3つを全部保存します
 
 最後のカードは大事です。ミスには記憶ミスもあれば、実行ミスもあります。フラッシュカードが助けるのは前者で、時間を測った演習が直すのは後者です。
 
-素材の大半が解き直しから来るなら、次に読むべきなのは [How to Turn Practice Questions Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/) です。
+素材の大半が解き直しから来るなら、次に読むべきなのは [How to Turn Practice Questions Into Flashcards in 2026](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/) です。
 
 ## Calculusは手書きのままでも、Bluebook対応で練習の仕方は変わる
 
@@ -244,11 +244,11 @@ FSRS が得意なのは、まさにそこです。
 2. 弱いカードは早めに消す
 3. タイミング管理は FSRS に任せる
 
-[How to Study for an Exam With FSRS in 2026](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/) は、スケジューリング側をもっと詳しく扱っています。
+[How to Study for an Exam With FSRS in 2026](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/) は、スケジューリング側をもっと詳しく扱っています。
 
 ## このAP CalculusワークフローでFlashcardsが合う場所
 
-[Nibomo](https://flashcards-open-source-app.com/) は、この AP Calculus の流れと相性がいいです。ただし、この記事を売り込みにしたいわけではありません。
+[Nibomo](https://nibomo.com/) は、この AP Calculus の流れと相性がいいです。ただし、この記事を売り込みにしたいわけではありません。
 
 役に立つのは、「学生向けアプリ」だからではありません。ルールカード、FRQ の失点、BC の級数カードを、ノート、スクリーンショット、昔の解き直しに散らさず、1つの復習システムで管理できるところです。
 
@@ -260,7 +260,7 @@ FSRS が得意なのは、まさにそこです。
 - 復習する価値のあるカードになってからの FSRS scheduling
 - web、iPhone、Android をまたいだ offline-first review
 
-先に製品全体を見たいなら、[features page](https://flashcards-open-source-app.com/features/) がいちばん短いまとめです。すぐに使い始めたい、あるいはあとで少し技術寄りのワークフローにつなげたいなら、[getting started guide](https://flashcards-open-source-app.com/docs/getting-started/) と [API docs](https://flashcards-open-source-app.com/docs/api/) が次の入口になります。
+先に製品全体を見たいなら、[features page](https://nibomo.com/features/) がいちばん短いまとめです。すぐに使い始めたい、あるいはあとで少し技術寄りのワークフローにつなげたいなら、[getting started guide](https://nibomo.com/docs/getting-started/) と [API docs](https://nibomo.com/docs/api/) が次の入口になります。
 
 ## テスト週まで残るAP Calculusのルール
 

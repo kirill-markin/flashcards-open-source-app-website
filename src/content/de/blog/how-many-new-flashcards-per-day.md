@@ -102,8 +102,8 @@ Darum wäre ich vorsichtig mit jedem Workflow, bei dem sich das Erstellen von Ka
 
 Wenn dein Ausgangsmaterial noch als Dokument vorliegt, helfen diese Workflows bei der Entwurfsseite:
 
-- [Wie du 2026 eine PDF in Flashcards verwandelst: Vorlesungsfolien, Lehrbücher und Papers zu FSRS-Karten](https://flashcards-open-source-app.com/blog/how-to-turn-a-pdf-into-flashcards/)
-- [Wie du 2026 Notizen in Flashcards verwandelst: KI-Entwürfe mit FSRS statt manuellem Kopieren und Einfügen](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
+- [Wie du 2026 eine PDF in Flashcards verwandelst: Vorlesungsfolien, Lehrbücher und Papers zu FSRS-Karten](https://nibomo.com/blog/how-to-turn-a-pdf-into-flashcards/)
+- [Wie du 2026 Notizen in Flashcards verwandelst: KI-Entwürfe mit FSRS statt manuellem Kopieren und Einfügen](https://nibomo.com/blog/turn-notes-into-flashcards/)
 
 ## So findest du eine Zahl, die zu dir passt
 
@@ -151,7 +151,7 @@ Nein, er macht aus unbegrenztem Karten-Nachschub noch lange keinen vernünftigen
 
 Wenn du den Vergleich der Planungslogik direkt lesen willst, geht dieser Artikel tiefer:
 
-- [FSRS vs SM-2 in 2026: Welcher Spaced-Repetition-Algorithmus hilft dir, mehr zu behalten?](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [FSRS vs SM-2 in 2026: Welcher Spaced-Repetition-Algorithmus hilft dir, mehr zu behalten?](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
 ## Ein Rückstand bei Wiederholungen ist oft auch ein Schreibproblem
 
@@ -209,11 +209,11 @@ Du brauchst das kleinste Deck, das dir den Stoff trotzdem zuverlässig beibringt
 
 Wenn du Karten direkt aus KI-Prompts baust, passt dieser Begleitartikel ebenfalls:
 
-- [Wie du 2026 mit ChatGPT bessere Lernkarten erstellst: klarere Prompts, bessere Karten, bessere Wiederholung mit FSRS](https://flashcards-open-source-app.com/blog/how-to-use-chatgpt-to-make-flashcards/)
+- [Wie du 2026 mit ChatGPT bessere Lernkarten erstellst: klarere Prompts, bessere Karten, bessere Wiederholung mit FSRS](https://nibomo.com/blog/how-to-use-chatgpt-to-make-flashcards/)
 
 ## Warum Flashcards hier gut passt
 
-[Nibomo](https://flashcards-open-source-app.com/) passt gut zu diesem Workflow, weil das Produkt beide Seiten des Problems abdeckt:
+[Nibomo](https://nibomo.com/) passt gut zu diesem Workflow, weil das Produkt beide Seiten des Problems abdeckt:
 
 - KI-Chat für Entwürfe aus Notizen, PDFs und anderen Quellen
 - Bearbeitung von Vorder- und Rückseite, bevor Karten dauerhaft ins Deck wandern
@@ -234,4 +234,4 @@ Lege es danach fest, welchen Wiederholungsaufwand dein normales Leben tatsächli
 
 Genau das ist für mich die sinnvolle Antwort auf **wie viele Flashcards pro Tag** im Jahr 2026: Fang kleiner an, als deine Begeisterung gern würde, halte die Karten sauber, beobachte die fälligen Wiederholungen ehrlich und erhöhe nur dann, wenn sich das System weiterhin ruhig anfühlt.
 
-Wenn du genau diesen Workflow willst, gibt dir [Nibomo](https://flashcards-open-source-app.com/) die praktische Grundlage: aus Quellmaterial Karten entwerfen, konsequent aussortieren und anschließend mit FSRS wiederholen, statt eine euphorische Generierungssitzung stillschweigend in einen Monat Rückstand kippen zu lassen.
+Wenn du genau diesen Workflow willst, gibt dir [Nibomo](https://nibomo.com/) die praktische Grundlage: aus Quellmaterial Karten entwerfen, konsequent aussortieren und anschließend mit FSRS wiederholen, statt eine euphorische Generierungssitzung stillschweigend in einen Monat Rückstand kippen zu lassen.

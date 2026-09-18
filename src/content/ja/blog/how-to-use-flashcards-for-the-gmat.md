@@ -62,7 +62,7 @@ GMAT 対策では、よくある種類の偽の自信が生まれます。解説
 
 それはノートです。強い想起プロンプトではありません。
 
-もし問題が教材選びではなくカードの質そのものにあるなら、[2026年版 より良いフラッシュカードの作り方](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/) を先に読むほうが効果的です。
+もし問題が教材選びではなくカードの質そのものにあるなら、[2026年版 より良いフラッシュカードの作り方](https://nibomo.com/blog/how-to-make-better-flashcards/) を先に読むほうが効果的です。
 
 ## GMAT Quantのフラッシュカードでは、数学知識とプロセスのミスを分けるべき
 
@@ -235,7 +235,7 @@ Data Sufficiency は、現行 GMAT に今風のフラッシュカード運用が
 - 1つの解釈ルール
 - 1つの途中処理ミス
 
-もし、そもそもの流れが「解説と誤答からカードを作る」ことに寄っているなら、[2026年版 演習問題をフラッシュカードに変える方法](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/) がその工程をもっと詳しく扱っています。
+もし、そもそもの流れが「解説と誤答からカードを作る」ことに寄っているなら、[2026年版 演習問題をフラッシュカードに変える方法](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/) がその工程をもっと詳しく扱っています。
 
 ## コピーした著作権保護問題ではなく、適法な個人メモと要約を使う
 
@@ -259,7 +259,7 @@ Nibomo には、GMAT や GMAC との公式連携はありません。使うの�
 6. 曖昧なカードは早めに消す。
 7. 週末に英雄的な未処理山を作るのではなく、毎日期限カードを回す。
 
-もしライブラリがすでに散らかっているなら、カードを増やす前に [2026年版 フラッシュカードの整理方法](https://flashcards-open-source-app.com/blog/how-to-organize-flashcards/) を読むほうが先です。
+もしライブラリがすでに散らかっているなら、カードを増やす前に [2026年版 フラッシュカードの整理方法](https://nibomo.com/blog/how-to-organize-flashcards/) を読むほうが先です。
 
 ## FSRSが効き始めるのは、デッキが小さく鋭くなってから
 
@@ -275,11 +275,11 @@ FSRS が GMAT 対策に合うのは、忘れ方にかなり普通のムラがあ
 4. 公式演習の取りこぼしでデッキを形作る
 5. 残ったカードを FSRS で復習する
 
-スケジューリングの側面をもう少し詳しく見たいなら、[2026年版 FSRSで試験勉強する方法](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/) がそのまま次につながります。
+スケジューリングの側面をもう少し詳しく見たいなら、[2026年版 FSRSで試験勉強する方法](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/) がそのまま次につながります。
 
 ## Nibomoがこの流れのどこにはまるか
 
-[Nibomo](https://flashcards-open-source-app.com/) がこのタイプの GMAT 対策に合うのは、「この問題を落とした」から「明日、正しい記憶対象を復習している」までの、いちばん面倒な中間部分を埋めてくれるからです。
+[Nibomo](https://nibomo.com/) がこのタイプの GMAT 対策に合うのは、「この問題を落とした」から「明日、正しい記憶対象を復習している」までの、いちばん面倒な中間部分を埋めてくれるからです。
 
 このワークフローで役立つ部分:
 

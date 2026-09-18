@@ -47,7 +47,7 @@ The better middle is a card that captures the decision you keep needing:
 
 That is why **how to study math with flashcards** is mostly a card-design problem. A good card should make the next move easier to retrieve. It should not try to store the entire chapter.
 
-If your current cards already feel too broad or too wordy, [How to Make Better Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/) is a good reset before you add more.
+If your current cards already feel too broad or too wordy, [How to Make Better Flashcards in 2026](https://nibomo.com/blog/how-to-make-better-flashcards/) is a good reset before you add more.
 
 ## Start with formulas, but make the cards smaller than your formula sheet
 
@@ -99,7 +99,7 @@ That is why I like cards that connect a cue to a method:
 
 These are still **math problem solving flashcards**, but they are not trying to memorize a whole solution path. They train recognition. That matters because explanations are cheap now. You can get a walkthrough from a tutor, a video, or an AI tool in minutes. The harder part is seeing the right move before someone shows it to you.
 
-If your raw material mostly comes from corrected homework, quizzes, or mock tests, [How to Turn Practice Questions Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/) fits this workflow well.
+If your raw material mostly comes from corrected homework, quizzes, or mock tests, [How to Turn Practice Questions Into Flashcards in 2026](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/) fits this workflow well.
 
 ## Your mistake log is usually better than a generic math deck
 
@@ -157,7 +157,7 @@ After homework, a quiz, or a practice set:
 
 That last step matters more than people think. If the error disappears in fresh work, the card probably did its job. If it survives, the card is often too vague, too broad, or aimed at the wrong memory target.
 
-If the deck structure starts getting messy, [How to Organize Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-organize-flashcards/) is a better fix than creating a new deck for every worksheet.
+If the deck structure starts getting messy, [How to Organize Flashcards in 2026](https://nibomo.com/blog/how-to-organize-flashcards/) is a better fix than creating a new deck for every worksheet.
 
 ## AI can draft math cards quickly, but the edit pass still matters
 
@@ -169,7 +169,7 @@ But math cards still need editing. AI-generated cards often test three ideas at 
 
 So yes, use AI to draft **math flashcards** if it speeds up the boring part. Then edit hard. Split overloaded cards. Rewrite vague fronts. Delete the ones that look smart but will review badly next week.
 
-If the cleanup step is the actual bottleneck, [How to Fix AI Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-fix-ai-flashcards/) goes deeper on that editing pass.
+If the cleanup step is the actual bottleneck, [How to Fix AI Flashcards in 2026](https://nibomo.com/blog/how-to-fix-ai-flashcards/) goes deeper on that editing pass.
 
 ## FSRS helps math when the cards are narrow enough
 
@@ -179,11 +179,11 @@ That is why **spaced repetition math** works well with FSRS. Easy cards move out
 
 The catch is that the scheduler still needs clean cards. If a prompt is vague, your self-grading gets noisy. If a card tests too many things, the difficulty rating becomes muddy. If the answer is a paragraph, you start negotiating with yourself instead of reviewing honestly.
 
-Smaller cards make FSRS much more useful. If you want to tune the scheduling side after the card-writing side is under control, [FSRS Settings in 2026: What to Change and What to Leave Alone](https://flashcards-open-source-app.com/blog/fsrs-settings/) is the right next read.
+Smaller cards make FSRS much more useful. If you want to tune the scheduling side after the card-writing side is under control, [FSRS Settings in 2026: What to Change and What to Leave Alone](https://nibomo.com/blog/fsrs-settings/) is the right next read.
 
 ## Where Flashcards fits in this workflow
 
-[Nibomo](https://flashcards-open-source-app.com/) is a good fit for this kind of math study because the product supports the parts that matter after you identify the memory target:
+[Nibomo](https://nibomo.com/) is a good fit for this kind of math study because the product supports the parts that matter after you identify the memory target:
 
 - front/back cards for formulas, recognition cues, and error patterns
 - decks, tags, and filtering when you want to review one topic without breaking your main library
@@ -191,7 +191,7 @@ Smaller cards make FSRS much more useful. If you want to tune the scheduling sid
 - FSRS review scheduling for the finished deck
 - offline-first clients across web, iPhone, and Android
 
-If your study material already lives in text files or you want a more technical workflow, the docs also cover [getting started](https://flashcards-open-source-app.com/docs/getting-started/) and [API / agent onboarding](https://flashcards-open-source-app.com/docs/api/). That is useful if you want the same math workflow to scale from quick manual cards to a more automated setup later.
+If your study material already lives in text files or you want a more technical workflow, the docs also cover [getting started](https://nibomo.com/docs/getting-started/) and [API / agent onboarding](https://nibomo.com/docs/api/). That is useful if you want the same math workflow to scale from quick manual cards to a more automated setup later.
 
 ## The useful rule
 
@@ -204,5 +204,5 @@ That is enough to make **how to use flashcards for math** a real workflow instea
 If you want to try it in practice:
 
 - [Open the app](https://app.flashcards-open-source-app.com/)
-- [Read the features page](https://flashcards-open-source-app.com/features/)
-- [Read the getting started guide](https://flashcards-open-source-app.com/docs/getting-started/)
+- [Read the features page](https://nibomo.com/features/)
+- [Read the getting started guide](https://nibomo.com/docs/getting-started/)

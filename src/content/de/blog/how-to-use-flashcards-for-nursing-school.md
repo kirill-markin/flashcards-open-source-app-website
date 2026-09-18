@@ -125,8 +125,8 @@ Dasselbe Prinzip gilt für Fakten zur Patientenversorgung. Wenn eine einzige Kar
 
 Wenn dein Quellenmaterial in diesem Bereich vor allem aus Vorlesungsfolien, Handouts oder Review-Paketen besteht, passen diese vorgelagerten Workflows am besten:
 
-- [Wie du 2026 ein PDF in Flashcards verwandelst](https://flashcards-open-source-app.com/blog/how-to-turn-a-pdf-into-flashcards/)
-- [Wie du 2026 Notizen in Flashcards verwandelst](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
+- [Wie du 2026 ein PDF in Flashcards verwandelst](https://nibomo.com/blog/how-to-turn-a-pdf-into-flashcards/)
+- [Wie du 2026 Notizen in Flashcards verwandelst](https://nibomo.com/blog/turn-notes-into-flashcards/)
 
 ## Karten zu Priorisierung und Delegation sollten den Auslöser trainieren, nicht den ganzen Begründungsabsatz
 
@@ -195,7 +195,7 @@ Entscheidend ist nicht, jede Frage in Karten zu verwandeln. Behalte die wiederke
 
 Wenn du vor allem genau diesen Teil des Workflows brauchst, ist das der direkte Begleitartikel:
 
-- [Wie du 2026 Übungsfragen in Flashcards verwandelst](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/)
+- [Wie du 2026 Übungsfragen in Flashcards verwandelst](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/)
 
 ## Ein wöchentlicher Flashcard-Workflow in der Pflegeausbildung sollte Praxisphasen überleben
 
@@ -215,7 +215,7 @@ Das ist ein deutlich besserer Workflow für **Spaced Repetition Pflegeausbildung
 
 Wenn dein größeres Problem eher Struktur als das Schreiben der Karten ist, lies als Nächstes diesen Artikel:
 
-- [Wie du 2026 Flashcards organisierst](https://flashcards-open-source-app.com/blog/how-to-organize-flashcards/)
+- [Wie du 2026 Flashcards organisierst](https://nibomo.com/blog/how-to-organize-flashcards/)
 
 ## FSRS ist noch wichtiger, wenn dein Lernplan ungleichmäßig ist
 
@@ -235,16 +235,16 @@ Darum würde ich die Reihenfolge schlicht halten:
 
 Wenn deine Warteschlange bereits zu groß wird, passen diese beiden Artikel direkt zu diesem Pflege-Workflow:
 
-- [Wie viele neue Flashcards pro Tag sind 2026 sinnvoll?](https://flashcards-open-source-app.com/blog/how-many-new-flashcards-per-day/)
-- [Wie du 2026 mit FSRS für eine Prüfung lernst](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/)
+- [Wie viele neue Flashcards pro Tag sind 2026 sinnvoll?](https://nibomo.com/blog/how-many-new-flashcards-per-day/)
+- [Wie du 2026 mit FSRS für eine Prüfung lernst](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)
 
 Und wenn du das Planungsmodell selbst erklärt haben willst:
 
-- [FSRS vs. SM-2 im Jahr 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [FSRS vs. SM-2 im Jahr 2026](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
 ## Wo Flashcards in diesen Pflege-Workflow passt
 
-[Nibomo](https://flashcards-open-source-app.com/) passt gut zu **Flashcards Pflegeausbildung**, weil das Produkt die Bausteine unterstützt, von denen dieser Workflow abhängt:
+[Nibomo](https://nibomo.com/) passt gut zu **Flashcards Pflegeausbildung**, weil das Produkt die Bausteine unterstützt, von denen dieser Workflow abhängt:
 
 - Vorder-/Rückseitenkarten für enge Abrufprompts
 - KI-Chat mit Workspace-Daten und Dateianhängen, um aus Notizen, Vorlesungstexten oder Begründungen aus Fragen Kartenentwürfe zu erstellen
@@ -260,7 +260,7 @@ Wenn du ein Pflege-Deck willst, das sich auch dann noch nützlich anfühlt, wenn
 
 Wenn die Kartenqualität immer noch dein Hauptproblem ist, passt dieser Artikel besonders gut zu diesem Pflege-Workflow:
 
-- [Wie du 2026 bessere Flashcards erstellst](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [Wie du 2026 bessere Flashcards erstellst](https://nibomo.com/blog/how-to-make-better-flashcards/)
 
 ## Baue das Pflege-Deck, das sich auch in der Prüfungsphase noch gut nutzen lässt
 

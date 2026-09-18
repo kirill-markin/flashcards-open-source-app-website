@@ -165,15 +165,15 @@ Por eso yo no trataría **flashcards a partir de fotos de apuntes** como la mism
 
 Si tu fuente ya es texto limpio, este artículo complementario encaja mejor:
 
-- [Cómo convertir notas en tarjetas didácticas en 2026](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
+- [Cómo convertir notas en tarjetas didácticas en 2026](https://nibomo.com/blog/turn-notes-into-flashcards/)
 
 Y si tu fuente es un documento o unas diapositivas, este se parece más a lo que necesitas:
 
-- [Cómo convertir un PDF en tarjetas didácticas en 2026](https://flashcards-open-source-app.com/blog/how-to-turn-a-pdf-into-flashcards/)
+- [Cómo convertir un PDF en tarjetas didácticas en 2026](https://nibomo.com/blog/how-to-turn-a-pdf-into-flashcards/)
 
 ## Dónde encaja Flashcards en este flujo
 
-[Nibomo](https://flashcards-open-source-app.com/) encaja bien en **apuntes manuscritos a flashcards** porque el producto ya reúne las piezas que de verdad importan:
+[Nibomo](https://nibomo.com/) encaja bien en **apuntes manuscritos a flashcards** porque el producto ya reúne las piezas que de verdad importan:
 
 - chat con IA
 - adjuntos de imagen y archivo
@@ -201,7 +201,7 @@ Haz el borrador a partir de las fotos. Limpia las tarjetas. Y luego deja que un 
 
 Si quieres profundizar más en la parte de la programación, este artículo complementario entra más al detalle:
 
-- [FSRS vs SM-2 en 2026: ¿Qué algoritmo de repetición espaciada le ayuda a recordar más?](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [FSRS vs SM-2 en 2026: ¿Qué algoritmo de repetición espaciada le ayuda a recordar más?](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
 ## La mejor regla
 
@@ -215,9 +215,9 @@ Menos magia. Mejores tarjetas.
 
 Si eso es lo que buscas, empieza aquí:
 
-- [Abrir Nibomo](https://flashcards-open-source-app.com/)
+- [Abrir Nibomo](https://nibomo.com/)
 - [Abrir la aplicación](https://app.flashcards-open-source-app.com/)
-- [Leer la guía de introducción](https://flashcards-open-source-app.com/docs/getting-started/)
+- [Leer la guía de introducción](https://nibomo.com/docs/getting-started/)
 - [Ver el código fuente en GitHub](https://github.com/kirill-markin/flashcards-open-source-app)
 
 Tus apuntes no tienen que ser bonitos.

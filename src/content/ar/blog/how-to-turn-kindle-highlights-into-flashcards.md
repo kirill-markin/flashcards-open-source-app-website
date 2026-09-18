@@ -152,7 +152,7 @@ keywords:
 
 إذا أردت قواعد أوسع لكتابة البطاقات، فابدأ بهذه المقالة:
 
-- [كيف تصنع بطاقات تعليمية أفضل في 2026: قواعد الوجه الأمامي والخلفي التي تنجح فعلًا مع FSRS](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [كيف تصنع بطاقات تعليمية أفضل في 2026: قواعد الوجه الأمامي والخلفي التي تنجح فعلًا مع FSRS](https://nibomo.com/blog/how-to-make-better-flashcards/)
 
 ## الكتب غير الروائية والكتب الدراسية وكتب اللغات لا يناسبها النوع نفسه من البطاقات
 
@@ -188,7 +188,7 @@ keywords:
 
 إذا كان هدفك هو تعلّم اللغة أكثر من القراءة العامة، فهذه المقالة المرافقة أقرب إلى ما تحتاجه:
 
-- [كيف تستخدم البطاقات التعليمية لتعلّم اللغات في 2026: مفردات وجمل ومراجعات تثبت فعلًا](https://flashcards-open-source-app.com/blog/how-to-use-flashcards-for-language-learning/)
+- [كيف تستخدم البطاقات التعليمية لتعلّم اللغات في 2026: مفردات وجمل ومراجعات تثبت فعلًا](https://nibomo.com/blog/how-to-use-flashcards-for-language-learning/)
 
 ## خطورة مقاطع Kindle المظللة أنها تبدو أكثر تنظيمًا مما هي عليه
 
@@ -225,11 +225,11 @@ keywords:
 
 إذا أردت التعمق أكثر في جانب الجدولة، فهذه المقالة المرافقة تشرح ذلك:
 
-- [FSRS أم SM-2 في 2026: أي خوارزمية للتكرار المتباعد تساعدك على التذكر أكثر؟](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [FSRS أم SM-2 في 2026: أي خوارزمية للتكرار المتباعد تساعدك على التذكر أكثر؟](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
 ## أين يناسب Flashcards هذا المسار
 
-[Nibomo](https://flashcards-open-source-app.com/) مناسب جدًا لمسار **تحويل مقاطع Kindle المظللة إلى بطاقات تعليمية** لأنه يغطي أصلًا الأجزاء العملية التي تجعل هذا المسار عمليًا فعلًا:
+[Nibomo](https://nibomo.com/) مناسب جدًا لمسار **تحويل مقاطع Kindle المظللة إلى بطاقات تعليمية** لأنه يغطي أصلًا الأجزاء العملية التي تجعل هذا المسار عمليًا فعلًا:
 
 - نسخ النص أو رفعه من المقاطع المصدّرة
 - تنقيح المادة داخل دردشة الذكاء الاصطناعي قبل إنشاء البطاقات
@@ -241,7 +241,7 @@ keywords:
 
 إذا كان مصدرك ملاحظات أوسع، لا مجرد مقاطع مظللة من كتاب إلكتروني، فهذه المقالة المرافقة أنسب:
 
-- [كيفية تحويل الملاحظات إلى بطاقات تعليمية في 2026: مسودة بالذكاء الاصطناعي مع FSRS بدل النسخ واللصق يدويًا](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
+- [كيفية تحويل الملاحظات إلى بطاقات تعليمية في 2026: مسودة بالذكاء الاصطناعي مع FSRS بدل النسخ واللصق يدويًا](https://nibomo.com/blog/turn-notes-into-flashcards/)
 
 ## القاعدة المفيدة
 
@@ -261,7 +261,7 @@ keywords:
 
 إذا أردت تجربة هذا الأسلوب، فابدأ من هنا:
 
-- [تعرّف إلى Flashcards](https://flashcards-open-source-app.com/)
-- [اقرأ دليل البدء](https://flashcards-open-source-app.com/docs/getting-started/)
-- [اطّلع على توثيق API](https://flashcards-open-source-app.com/docs/api/)
+- [تعرّف إلى Flashcards](https://nibomo.com/)
+- [اقرأ دليل البدء](https://nibomo.com/docs/getting-started/)
+- [اطّلع على توثيق API](https://nibomo.com/docs/api/)
 - [استعرض المشروع على GitHub](https://github.com/kirill-markin/flashcards-open-source-app)

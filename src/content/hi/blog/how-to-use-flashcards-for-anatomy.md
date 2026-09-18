@@ -91,7 +91,7 @@ Anatomy cards एक बहुत सामान्य वजह से खर�
 
 यही नियम foramina, vessels, ligaments, और plexus branches पर भी लागू होता है। Anatomy में ज़्यादातर misses complete ignorance से नहीं, एक broken link से आती हैं।
 
-अगर आपके cards पहले से bloated लग रहे हैं, तो [2026 में बेहतर फ्लैशकार्ड कैसे बनाएँ](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/) सही cleanup guide है।
+अगर आपके cards पहले से bloated लग रहे हैं, तो [2026 में बेहतर फ्लैशकार्ड कैसे बनाएँ](https://nibomo.com/blog/how-to-make-better-flashcards/) सही cleanup guide है।
 
 ## Spatial relationships के लिए अलग cards बनाइए
 
@@ -159,7 +159,7 @@ Anatomy उन कुछ subjects में से है जहाँ source ma
 - एक card जो region, structure, innervation, और action सब कुछ एक साथ test करे
 - noisy image के नीचे paragraph जैसा answer
 
-अगर असली pain point diagrams और labeled visuals को साफ़ तरीके से cards में बदलना है, तो [2026 में diagrams को फ़्लैशकार्ड में कैसे बदलें](https://flashcards-open-source-app.com/blog/how-to-turn-diagrams-into-flashcards/) उस upstream workflow को cover करता है।
+अगर असली pain point diagrams और labeled visuals को साफ़ तरीके से cards में बदलना है, तो [2026 में diagrams को फ़्लैशकार्ड में कैसे बदलें](https://nibomo.com/blog/how-to-turn-diagrams-into-flashcards/) उस upstream workflow को cover करता है।
 
 ## AI cleanup के लिए अच्छा है, याद रखने का काम करने के लिए नहीं
 
@@ -180,7 +180,7 @@ Anatomy उन कुछ subjects में से है जहाँ source ma
 
 इसलिए AI को preparation के लिए इस्तेमाल करें, memory outsource करने के लिए नहीं।
 
-अगर tutor-to-retention वाला broader workflow चाहिए, तो [2026 में AI के साथ पढ़ाई कैसे करें](https://flashcards-open-source-app.com/blog/how-to-use-ai-to-study/) और [2026 में AI Flashcards को कैसे ठीक करें](https://flashcards-open-source-app.com/blog/how-to-fix-ai-flashcards/) इसके दो अच्छे follow-ups हैं।
+अगर tutor-to-retention वाला broader workflow चाहिए, तो [2026 में AI के साथ पढ़ाई कैसे करें](https://nibomo.com/blog/how-to-use-ai-to-study/) और [2026 में AI Flashcards को कैसे ठीक करें](https://nibomo.com/blog/how-to-fix-ai-flashcards/) इसके दो अच्छे follow-ups हैं।
 
 ## आपके missed pins और उल्टे relationships ही सबसे अच्छे card source हैं
 
@@ -206,7 +206,7 @@ Lab session या quiz के बाद यह मत पूछिए, "मै�
 
 ये real problems हैं। बस ये flashcard problems नहीं हैं।
 
-अगर आपका सबसे अच्छा source material practical misses और spotter questions हैं, तो [2026 में अभ्यास प्रश्नों को फ़्लैशकार्ड में कैसे बदलें](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/) यहाँ अच्छा fit बैठता है।
+अगर आपका सबसे अच्छा source material practical misses और spotter questions हैं, तो [2026 में अभ्यास प्रश्नों को फ़्लैशकार्ड में कैसे बदलें](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/) यहाँ अच्छा fit बैठता है।
 
 ## साप्ताहिक anatomy workflow थोड़ा boring ही होना चाहिए
 
@@ -222,7 +222,7 @@ Loop को simple रखें:
 
 Anatomy आपको endless candidate cards देती है। आपकी review queue को फिर भी livable रहना चाहिए।
 
-अगर चीजें पहले ही control से बाहर जा रही हैं, तो [2026 में रोज़ कितने नए फ़्लैशकार्ड?](https://flashcards-open-source-app.com/blog/how-many-new-flashcards-per-day/) और [2026 में पीछे रह जाने के बाद फ़्लैशकार्ड में फिर से पकड़ कैसे बनाएँ](https://flashcards-open-source-app.com/blog/how-to-catch-up-on-flashcards-after-falling-behind/) अगले सही reads हैं।
+अगर चीजें पहले ही control से बाहर जा रही हैं, तो [2026 में रोज़ कितने नए फ़्लैशकार्ड?](https://nibomo.com/blog/how-many-new-flashcards-per-day/) और [2026 में पीछे रह जाने के बाद फ़्लैशकार्ड में फिर से पकड़ कैसे बनाएँ](https://nibomo.com/blog/how-to-catch-up-on-flashcards-after-falling-behind/) अगले सही reads हैं।
 
 ## FSRS तब मदद करता है जब cards ईमानदार हो जाते हैं
 
@@ -238,11 +238,11 @@ Anatomy आपको endless candidate cards देती है। आपकी
 2. deck को control में रखें
 3. timing FSRS को संभालने दें
 
-अगर scheduler वाला हिस्सा और सीधे समझना है, तो [2026 में FSRS के साथ परीक्षा की तैयारी कैसे करें](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/) और [2026 में FSRS बनाम SM-2](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/) इसके दो साफ़ follow-ups हैं।
+अगर scheduler वाला हिस्सा और सीधे समझना है, तो [2026 में FSRS के साथ परीक्षा की तैयारी कैसे करें](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/) और [2026 में FSRS बनाम SM-2](https://nibomo.com/blog/fsrs-vs-sm-2/) इसके दो साफ़ follow-ups हैं।
 
 ## Flashcards कहाँ fit होता है
 
-[Nibomo](https://flashcards-open-source-app.com/) anatomy में तब सबसे अच्छा fit होता है जब आपको पहले से पता हो कि क्या याद रखना है।
+[Nibomo](https://nibomo.com/) anatomy में तब सबसे अच्छा fit होता है जब आपको पहले से पता हो कि क्या याद रखना है।
 
 यह इस subject के लिए अच्छा match है, क्योंकि anatomy की पढ़ाई अक्सर एक साथ कई messy sources से आती है:
 
@@ -253,6 +253,6 @@ Anatomy आपको endless candidate cards देती है। आपकी
 - practical misses
 - छोटी AI cleanup sessions
 
-काम की बात यह नहीं है कि app जादू से आपके लिए brachial plexus branches याद कर देगा। असली फायदा यह है कि आप इन sources को plain front/back cards में बदल सकते हैं, उन्हें FSRS के साथ review कर सकते हैं, image-heavy material को एक जगह रख सकते हैं, source file या photo cleanup के लिए AI chat इस्तेमाल कर सकते हैं, और पूरे deck को devices पर offline available रख सकते हैं। अगर पहले product overview देखना है, तो [features page](https://flashcards-open-source-app.com/features/) या [getting started guide](https://flashcards-open-source-app.com/docs/getting-started/) से शुरू करें। अगर stack own करना important है, तो [self-hosting guide](https://flashcards-open-source-app.com/docs/self-hosting/) भी मौजूद है।
+काम की बात यह नहीं है कि app जादू से आपके लिए brachial plexus branches याद कर देगा। असली फायदा यह है कि आप इन sources को plain front/back cards में बदल सकते हैं, उन्हें FSRS के साथ review कर सकते हैं, image-heavy material को एक जगह रख सकते हैं, source file या photo cleanup के लिए AI chat इस्तेमाल कर सकते हैं, और पूरे deck को devices पर offline available रख सकते हैं। अगर पहले product overview देखना है, तो [features page](https://nibomo.com/features/) या [getting started guide](https://nibomo.com/docs/getting-started/) से शुरू करें। अगर stack own करना important है, तो [self-hosting guide](https://nibomo.com/docs/self-hosting/) भी मौजूद है।
 
 Anatomy को आम तौर पर और information नहीं चाहिए। उसे cleaner retrieval चाहिए। अगर आपका deck आपको structure का नाम बताने, उसे space में सही जगह रखने, उसे एक useful fact से जोड़ने, और ठीक उससे पहले फिर दिखाने में मदद करता है जब आप उसे भूलने वाले होते हैं, तो इतना ही आम तौर पर course को काफ़ी कम slippery बना देता है।

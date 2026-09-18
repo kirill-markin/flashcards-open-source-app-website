@@ -100,7 +100,7 @@ Das fühlt sich weniger nach Automatisierungstheater und mehr nach echter Hilfe 
 
 ## Flashcards hat bereits die richtige Form für diesen Workflow
 
-[Nibomo](https://flashcards-open-source-app.com/) ist hier interessant, weil das Produkt die Teile, die zählen, bereits kombiniert:
+[Nibomo](https://nibomo.com/) ist hier interessant, weil das Produkt die Teile, die zählen, bereits kombiniert:
 
 - Erstellung von Vorder- und Rückseitenkarten
 - KI-Chat
@@ -130,7 +130,7 @@ Das ist der Unterschied zwischen "Ich habe ein paar Karten generiert" und "Ich h
 
 Wenn du die Scheduling-Seite genauer sehen willst, lies diesen Begleitartikel:
 
-- [FSRS vs SM-2 in 2026: Welcher Spaced-Repetition-Algorithmus hilft dir, mehr zu behalten?](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [FSRS vs SM-2 in 2026: Welcher Spaced-Repetition-Algorithmus hilft dir, mehr zu behalten?](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
 ## Klartext ist nützlicher, als viele Notiz-Apps zugeben wollen
 
@@ -175,11 +175,11 @@ Genau dort zeigt Flashcards in die richtige Richtung. Es ist eine **quelloffene 
 
 Wenn dein Problem eher darin liegt, vorhandene Sammlungen umzuziehen, starte hier:
 
-- [Wie du 2026 von Anki migrierst: Exportiere deine Karten als TXT und sende sie an eine Open-Source-Flashcards-App](https://flashcards-open-source-app.com/blog/migrate-from-anki-txt-export-open-source-flashcards/)
+- [Wie du 2026 von Anki migrierst: Exportiere deine Karten als TXT und sende sie an eine Open-Source-Flashcards-App](https://nibomo.com/blog/migrate-from-anki-txt-export-open-source-flashcards/)
 
 Und wenn du die breitere Kategorie vergleichst, ist dieser Überblick besser:
 
-- [Die besten Anki-Alternativen 2026: Welche Karteikarten-App lohnt sich wirklich?](https://flashcards-open-source-app.com/blog/best-anki-alternatives/)
+- [Die besten Anki-Alternativen 2026: Welche Karteikarten-App lohnt sich wirklich?](https://nibomo.com/blog/best-anki-alternatives/)
 
 ## Was ist also 2026 der beste Weg, Notizen in Flashcards zu verwandeln?
 
@@ -193,15 +193,15 @@ Ich glaube, die beste Antwort ist eine sauberere Arbeitsteilung:
 
 So verschwindet der langweilige Teil, ohne so zu tun, als sollte der Mensch aus der Schleife verschwinden.
 
-Darum ist [Nibomo](https://flashcards-open-source-app.com/) eine starke Wahl für Menschen, die **Notizen in Flashcards verwandeln** wollen. Das aktuelle Produkt hat dafür bereits die richtige Form: Kartenerstellung, KI-Chat, Dateianhänge, Unterstützung für Klartext und ernsthafte Spaced Repetition im Anschluss.
+Darum ist [Nibomo](https://nibomo.com/) eine starke Wahl für Menschen, die **Notizen in Flashcards verwandeln** wollen. Das aktuelle Produkt hat dafür bereits die richtige Form: Kartenerstellung, KI-Chat, Dateianhänge, Unterstützung für Klartext und ernsthafte Spaced Repetition im Anschluss.
 
 ## Probiere den Workflow aus, mit dem aus Notizen Flashcards werden
 
 Wenn du einen praktischen Weg suchst, **Notizen in Flashcards zu verwandeln**, starte hier:
 
-- [Flashcards öffnen](https://flashcards-open-source-app.com/)
+- [Flashcards öffnen](https://nibomo.com/)
 - [Die App öffnen](https://app.flashcards-open-source-app.com/)
-- [Erste Schritte](https://flashcards-open-source-app.com/docs/getting-started/)
+- [Erste Schritte](https://nibomo.com/docs/getting-started/)
 - [Den Quellcode auf GitHub ansehen](https://github.com/kirill-markin/flashcards-open-source-app)
 
 Es ist nichts Nobles daran, eine Stunde lang Notizen manuell umzuschreiben, wenn dich ein guter Entwurfs-Workflow schneller in dieselbe Warteschlange für Wiederholungen bringt.

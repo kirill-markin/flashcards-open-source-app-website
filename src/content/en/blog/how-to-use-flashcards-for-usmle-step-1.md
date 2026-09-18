@@ -77,7 +77,7 @@ For example, a renal card should usually not ask you to explain the whole nephro
 
 That is closer to what mixed Step 1 review actually feels like.
 
-If you want the broader med-school version of this topic rather than the dedicated Step 1 version, read [How to Use Flashcards for Medical School in 2026](https://flashcards-open-source-app.com/blog/how-to-use-flashcards-for-medical-school/).
+If you want the broader med-school version of this topic rather than the dedicated Step 1 version, read [How to Use Flashcards for Medical School in 2026](https://nibomo.com/blog/how-to-use-flashcards-for-medical-school/).
 
 ## Pathology cards should separate pattern recognition from mechanism
 
@@ -125,7 +125,7 @@ Examples:
 
 **Step 1 pathology image flashcards** work best when they teach one stable pattern at a time instead of asking you to reconstruct an entire pathology chapter from one screenshot.
 
-If your image workflow is the weak point, [How to Turn Diagrams Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-turn-diagrams-into-flashcards/) is the closest companion article.
+If your image workflow is the weak point, [How to Turn Diagrams Into Flashcards in 2026](https://nibomo.com/blog/how-to-turn-diagrams-into-flashcards/) is the closest companion article.
 
 ## Image cards should train what you can see quickly, not what you can reread slowly
 
@@ -220,7 +220,7 @@ What usually does **not** deserve a card:
 
 Those are real problems. They are just not flashcard problems.
 
-If the source of your best cards is missed questions, [How to Turn Practice Questions Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/) goes deeper on the conversion workflow.
+If the source of your best cards is missed questions, [How to Turn Practice Questions Into Flashcards in 2026](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/) goes deeper on the conversion workflow.
 
 ## Physiology cards should usually be about direction of change
 
@@ -269,7 +269,7 @@ For anatomy and embryology, I would bias toward:
 - defect and consequence
 - structure tied to one classic clinical presentation
 
-If cranial nerve basics are one of those weak spots, the [84-card Cranial Nerve Flashcards deck](https://flashcards-open-source-app.com/catalog/packages/cranial-nerves-names-functions-tests-flashcards/) covers names, numbers, classification as sensory, motor, or mixed, core functions, and high-level assessment cues. It does not cover lesion localization, diagnosis, treatment, or board-style clinical reasoning.
+If cranial nerve basics are one of those weak spots, the [84-card Cranial Nerve Flashcards deck](https://nibomo.com/catalog/packages/cranial-nerves-names-functions-tests-flashcards/) covers names, numbers, classification as sensory, motor, or mixed, core functions, and high-level assessment cues. It does not cover lesion localization, diagnosis, treatment, or board-style clinical reasoning.
 
 For behavioral science and biostats, I would bias toward:
 
@@ -315,11 +315,11 @@ So I would keep the order simple:
 4. keep new-card volume realistic during dedicated
 5. let FSRS handle the timing after the deck is worth scheduling
 
-If you want the scheduling side in more detail, [How to Study for an Exam With FSRS in 2026](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/) is the direct companion. If your queue is already getting out of hand, [How Many New Flashcards Per Day in 2026](https://flashcards-open-source-app.com/blog/how-many-new-flashcards-per-day/) is the next useful read.
+If you want the scheduling side in more detail, [How to Study for an Exam With FSRS in 2026](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/) is the direct companion. If your queue is already getting out of hand, [How Many New Flashcards Per Day in 2026](https://nibomo.com/blog/how-many-new-flashcards-per-day/) is the next useful read.
 
 ## Where Flashcards fits in a Step 1 workflow
 
-If you want to run this inside [Nibomo](https://flashcards-open-source-app.com/), the value is not a vague promise that AI will learn medicine for you.
+If you want to run this inside [Nibomo](https://nibomo.com/), the value is not a vague promise that AI will learn medicine for you.
 
 The value is that the product already covers the practical middle of the workflow:
 
@@ -331,7 +331,7 @@ The value is that the product already covers the practical middle of the workflo
 
 That is a good fit for Step 1 because the bottleneck usually is not finding more information. It is keeping the right information reviewable long enough to survive a mixed exam day.
 
-If your main problem is that AI keeps drafting cards that look polished but review badly, [How to Fix AI Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-fix-ai-flashcards/) is the right follow-up.
+If your main problem is that AI keeps drafting cards that look polished but review badly, [How to Fix AI Flashcards in 2026](https://nibomo.com/blog/how-to-fix-ai-flashcards/) is the right follow-up.
 
 ## The useful rule for Step 1 flashcards in 2026
 

@@ -199,8 +199,8 @@ keywords:
 
 如果你想看更广义的 AI 起草思路，这几篇相关文章也会有帮助：
 
-- [2026 年如何用 ChatGPT 制作抽认卡](https://flashcards-open-source-app.com/blog/how-to-use-chatgpt-to-make-flashcards/)
-- [2026 年如何把 ChatGPT Study Mode 变成抽认卡](https://flashcards-open-source-app.com/blog/how-to-turn-chatgpt-study-mode-into-flashcards/)
+- [2026 年如何用 ChatGPT 制作抽认卡](https://nibomo.com/blog/how-to-use-chatgpt-to-make-flashcards/)
+- [2026 年如何把 ChatGPT Study Mode 变成抽认卡](https://nibomo.com/blog/how-to-turn-chatgpt-study-mode-into-flashcards/)
 
 ## 技术文章更适合具体、可输出的答案形式
 
@@ -220,8 +220,8 @@ keywords:
 
 如果你的来源更像 PDF 章节或课堂讲义，而不是普通网页，这两篇配套文章也会更适合：
 
-- [2026 年如何把 PDF 变成抽认卡](https://flashcards-open-source-app.com/blog/how-to-turn-a-pdf-into-flashcards/)
-- [2026 年如何把笔记变成抽认卡](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
+- [2026 年如何把 PDF 变成抽认卡](https://nibomo.com/blog/how-to-turn-a-pdf-into-flashcards/)
+- [2026 年如何把笔记变成抽认卡](https://nibomo.com/blog/turn-notes-into-flashcards/)
 
 ## 一篇好文章，做成五张很强的卡就已经够了
 
@@ -261,11 +261,11 @@ keywords:
 
 如果你想更详细了解排程这部分，可以看这里：
 
-- [2026 年 FSRS vs SM-2](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [2026 年 FSRS vs SM-2](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
 ## Nibomo 在这套流程里的位置
 
-[Nibomo](https://flashcards-open-source-app.com/) 很适合 **文章转抽认卡** 这类流程，因为产品本身已经覆盖了最关键的环节：
+[Nibomo](https://nibomo.com/) 很适合 **文章转抽认卡** 这类流程，因为产品本身已经覆盖了最关键的环节：
 
 - 粘贴或上传来自文章、博客、电子报或文档页面的纯文本
 - 在制作卡片前，先在 AI 聊天里清理原文
@@ -279,8 +279,8 @@ keywords:
 
 如果你的来源比纯文本更偏对话或音频，这两篇也很接近：
 
-- [2026 年如何把播客变成抽认卡](https://flashcards-open-source-app.com/blog/how-to-turn-a-podcast-into-flashcards/)
-- [2026 年如何把课程录音变成抽认卡](https://flashcards-open-source-app.com/blog/how-to-turn-lecture-recordings-into-flashcards/)
+- [2026 年如何把播客变成抽认卡](https://nibomo.com/blog/how-to-turn-a-podcast-into-flashcards/)
+- [2026 年如何把课程录音变成抽认卡](https://nibomo.com/blog/how-to-turn-lecture-recordings-into-flashcards/)
 
 ## 真正有用的规则
 

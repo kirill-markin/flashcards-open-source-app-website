@@ -138,7 +138,7 @@ ChatGPT Study Mode をフラッシュカードにするとき、より良い材�
 
 カードの質についてもっと深く見たいなら、こちらです。
 
-- [2026年、より良いフラッシュカードの作り方: FSRSで機能する表裏カードのルール](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [2026年、より良いフラッシュカードの作り方: FSRSで機能する表裏カードのルール](https://nibomo.com/blog/how-to-make-better-flashcards/)
 
 ## これは ChatGPT だけでなく Gemini Guided Learning にも当てはまる
 
@@ -184,8 +184,8 @@ AI は「いま理解する」ことを助ける。
 
 すでに復習量が重いなら、こちらも合わせて役立ちます。
 
-- [2026年、1日に何枚の新しいフラッシュカードを追加すべきか: 無理なく終えられるFSRSの復習量を作る](https://flashcards-open-source-app.com/blog/how-many-new-flashcards-per-day/)
-- [2026年、遅れたフラッシュカード学習にどう追いつくか: デッキをリセットせず復習の山を立て直す](https://flashcards-open-source-app.com/blog/how-to-catch-up-on-flashcards-after-falling-behind/)
+- [2026年、1日に何枚の新しいフラッシュカードを追加すべきか: 無理なく終えられるFSRSの復習量を作る](https://nibomo.com/blog/how-many-new-flashcards-per-day/)
+- [2026年、遅れたフラッシュカード学習にどう追いつくか: デッキをリセットせず復習の山を立て直す](https://nibomo.com/blog/how-to-catch-up-on-flashcards-after-falling-behind/)
 
 ## 良い指示文は「これをカードにして」だけではない
 
@@ -203,11 +203,11 @@ AI は「いま理解する」ことを助ける。
 
 もし Study Mode や家庭教師の前段階、つまり最初から直接カードを作るほうの流れを知りたいなら、こちらです。
 
-- [2026年にChatGPTでフラッシュカードを作る方法: プロンプトを整え、カードを磨き、FSRSで復習を回す](https://flashcards-open-source-app.com/blog/how-to-use-chatgpt-to-make-flashcards/)
+- [2026年にChatGPTでフラッシュカードを作る方法: プロンプトを整え、カードを磨き、FSRSで復習を回す](https://nibomo.com/blog/how-to-use-chatgpt-to-make-flashcards/)
 
 元資料が学習ガイドやノートから始まるなら、こちらも合います。
 
-- [2026年、NotebookLM のフラッシュカードを本物の間隔反復に変える方法: 書き出して整え、FSRS で復習する](https://flashcards-open-source-app.com/blog/notebooklm-flashcards-to-spaced-repetition/)
+- [2026年、NotebookLM のフラッシュカードを本物の間隔反復に変える方法: 書き出して整え、FSRS で復習する](https://nibomo.com/blog/notebooklm-flashcards-to-spaced-repetition/)
 
 ## 良い学習セッションを長期記憶に変えるのは FSRS
 
@@ -227,11 +227,11 @@ FSRS のフラッシュカードが、この流れを長続きさせます。
 
 アルゴリズム比較そのものを見たいなら、こちらです。
 
-- [2026年の FSRS vs SM-2: どの間隔反復アルゴリズムがより多く覚えられるか](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [2026年の FSRS vs SM-2: どの間隔反復アルゴリズムがより多く覚えられるか](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
 ## Flashcards がこの流れに合う理由
 
-[Nibomo](https://flashcards-open-source-app.com/) は、ChatGPT Study Mode をフラッシュカードに変える用途と相性が良いです。AI 家庭教師だけでは埋まらない部分を、製品側が埋めているからです。
+[Nibomo](https://nibomo.com/) は、ChatGPT Study Mode をフラッシュカードに変える用途と相性が良いです。AI 家庭教師だけでは埋まらない部分を、製品側が埋めているからです。
 
 - チャットの記憶ではなく表面と裏面のカード
 - 整理と下書きのための AI チャット

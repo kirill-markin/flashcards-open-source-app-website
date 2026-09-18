@@ -199,8 +199,8 @@ Der Engpass ist meistens die Auswahl, nicht die Generierung.
 
 Wenn du tiefer in den KI-Teil einsteigen willst, passen diese Begleitartikel:
 
-- [Wie du 2026 mit ChatGPT bessere Lernkarten erstellst: klarere Prompts, bessere Karten, bessere Wiederholung mit FSRS](https://flashcards-open-source-app.com/blog/how-to-use-chatgpt-to-make-flashcards/)
-- [Wie du 2026 den ChatGPT Study Mode in Flashcards verwandelst: Den Tutor behalten, Spaced Repetition ergänzen](https://flashcards-open-source-app.com/blog/how-to-turn-chatgpt-study-mode-into-flashcards/)
+- [Wie du 2026 mit ChatGPT bessere Lernkarten erstellst: klarere Prompts, bessere Karten, bessere Wiederholung mit FSRS](https://nibomo.com/blog/how-to-use-chatgpt-to-make-flashcards/)
+- [Wie du 2026 den ChatGPT Study Mode in Flashcards verwandelst: Den Tutor behalten, Spaced Repetition ergänzen](https://nibomo.com/blog/how-to-turn-chatgpt-study-mode-into-flashcards/)
 
 ## Technische Artikel profitieren von konkreten Antwortformaten
 
@@ -220,8 +220,8 @@ So bleibt der eigentliche Abruf sauber, und du bekommst nach der Antwort trotzde
 
 Wenn deine Quelle eher einem PDF-Kapitel oder Vorlesungsnotizen ähnelt als einer Webseite, passen diese Artikel besser:
 
-- [Wie du 2026 eine PDF in Flashcards verwandelst: Vorlesungsfolien, Lehrbücher und Papers zu FSRS-Karten](https://flashcards-open-source-app.com/blog/how-to-turn-a-pdf-into-flashcards/)
-- [Wie du 2026 Notizen in Flashcards verwandelst: KI-Entwürfe mit FSRS statt manuellem Copy-and-paste](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
+- [Wie du 2026 eine PDF in Flashcards verwandelst: Vorlesungsfolien, Lehrbücher und Papers zu FSRS-Karten](https://nibomo.com/blog/how-to-turn-a-pdf-into-flashcards/)
+- [Wie du 2026 Notizen in Flashcards verwandelst: KI-Entwürfe mit FSRS statt manuellem Copy-and-paste](https://nibomo.com/blog/turn-notes-into-flashcards/)
 
 ## Ein guter Artikel kann fünf ausgezeichnete Karten ergeben
 
@@ -259,11 +259,11 @@ Darum wird es viel praktischer, **Gelesenes in Flashcards zu verwandeln**, sobal
 
 Wenn du die Planungsseite genauer verstehen willst, lies hier weiter:
 
-- [FSRS vs SM-2 in 2026: Welcher Spaced-Repetition-Algorithmus hilft dir, mehr zu behalten?](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [FSRS vs SM-2 in 2026: Welcher Spaced-Repetition-Algorithmus hilft dir, mehr zu behalten?](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
 ## Wo Flashcards in diesen Workflow passt
 
-[Nibomo](https://flashcards-open-source-app.com/) passt gut zu diesem Workflow, weil das Produkt genau die Teile abdeckt, auf die es ankommt:
+[Nibomo](https://nibomo.com/) passt gut zu diesem Workflow, weil das Produkt genau die Teile abdeckt, auf die es ankommt:
 
 - Klartext aus einem Artikel, Blogartikel, Newsletter oder einer Dokumentationsseite einfügen oder hochladen
 - die Quelle im KI-Chat bereinigen, bevor Karten entstehen
@@ -275,8 +275,8 @@ Genau diese Kombination ist wichtig. Der nützliche Teil ist nicht einfach "KI e
 
 Wenn deine Quelle eher gesprächsbasiert oder audioorientiert ist als textbasiert, passen diese Artikel dazu:
 
-- [Wie du 2026 einen Podcast in Flashcards verwandelst: Vom Transkript zu FSRS-Karten ohne die ganze Folge erneut zu hören](https://flashcards-open-source-app.com/blog/how-to-turn-a-podcast-into-flashcards/)
-- [Wie du 2026 Vorlesungsaufzeichnungen in Flashcards verwandelst: Vom Transkript zu FSRS-Karten, ohne alles noch einmal anzusehen](https://flashcards-open-source-app.com/blog/how-to-turn-lecture-recordings-into-flashcards/)
+- [Wie du 2026 einen Podcast in Flashcards verwandelst: Vom Transkript zu FSRS-Karten ohne die ganze Folge erneut zu hören](https://nibomo.com/blog/how-to-turn-a-podcast-into-flashcards/)
+- [Wie du 2026 Vorlesungsaufzeichnungen in Flashcards verwandelst: Vom Transkript zu FSRS-Karten, ohne alles noch einmal anzusehen](https://nibomo.com/blog/how-to-turn-lecture-recordings-into-flashcards/)
 
 ## Die nützliche Regel
 

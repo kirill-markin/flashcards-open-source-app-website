@@ -200,7 +200,7 @@ while left < right:
 
 整理全体の考え方まで見たいなら、次はこの記事が自然につながります。
 
-- [2026年版 フラッシュカードの整理術](https://flashcards-open-source-app.com/blog/how-to-organize-flashcards/)
+- [2026年版 フラッシュカードの整理術](https://nibomo.com/blog/how-to-organize-flashcards/)
 
 ## カードは、読んだ解説よりシンプルであるべき
 
@@ -257,7 +257,7 @@ AIに任せたいのは、次のような仕事です。
 
 AIを使ったカード作成全体の話から入りたいなら、まずはこちらです。
 
-- [2026年版 ChatGPTでフラッシュカードを作る方法](https://flashcards-open-source-app.com/blog/how-to-use-chatgpt-to-make-flashcards/)
+- [2026年版 ChatGPTでフラッシュカードを作る方法](https://nibomo.com/blog/how-to-use-chatgpt-to-make-flashcards/)
 
 ## 私ならこう回す、コーディング面接用フラッシュカードの運用
 
@@ -278,7 +278,7 @@ AIを使ったカード作成全体の話から入りたいなら、まずはこ
 
 ## Nibomo が向いている理由
 
-[Nibomo](https://flashcards-open-source-app.com/) が **コーディング面接用フラッシュカード** に向いているのは、この用途で重要な要素をすでに押さえているからです。
+[Nibomo](https://nibomo.com/) が **コーディング面接用フラッシュカード** に向いているのは、この用途で重要な要素をすでに押さえているからです。
 
 - 手動で間隔を調整しなくても繰り返し復習できる FSRS スケジューリング
 - デッキ、タグ、検索、タグや負荷レベルで絞り込める filtered deck 機能
@@ -292,11 +292,11 @@ AIを使ったカード作成全体の話から入りたいなら、まずはこ
 
 面接特化の内容より、そもそものカード品質に課題があるなら、次はこの記事が合います。
 
-- [2026年版 より良いフラッシュカードの作り方](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [2026年版 より良いフラッシュカードの作り方](https://nibomo.com/blog/how-to-make-better-flashcards/)
 
 すでに復習キューが危険な状態なら、先にこちらを見てください。
 
-- [2026年版 フラッシュカードの復習が溜まったときの立て直し方](https://flashcards-open-source-app.com/blog/how-to-catch-up-on-flashcards-after-falling-behind/)
+- [2026年版 フラッシュカードの復習が溜まったときの立て直し方](https://nibomo.com/blog/how-to-catch-up-on-flashcards-after-falling-behind/)
 
 ## 役に立つルール
 

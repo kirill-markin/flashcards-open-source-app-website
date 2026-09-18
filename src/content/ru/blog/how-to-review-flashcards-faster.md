@@ -74,7 +74,7 @@ keywords:
 
 Если хотите глубже разобрать именно этот слой, начните здесь:
 
-- [Как делать карточки лучше в 2026 году](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [Как делать карточки лучше в 2026 году](https://nibomo.com/blog/how-to-make-better-flashcards/)
 
 ## Решайте быстрее, а не строже
 
@@ -165,11 +165,11 @@ keywords:
 
 Если вам нужно более четкое правило для входящего потока, этот материал разбирает тему глубже:
 
-- [Сколько новых карточек в день в 2026 году?](https://flashcards-open-source-app.com/blog/how-many-new-flashcards-per-day/)
+- [Сколько новых карточек в день в 2026 году?](https://nibomo.com/blog/how-many-new-flashcards-per-day/)
 
 А если этап "небольшой поправки" уже позади и перед вами настоящая очередь просроченных карточек, дальше лучше читать вот это:
 
-- [Как догнать повторение карточек после отставания в 2026 году](https://flashcards-open-source-app.com/blog/how-to-catch-up-on-flashcards-after-falling-behind/)
+- [Как догнать повторение карточек после отставания в 2026 году](https://nibomo.com/blog/how-to-catch-up-on-flashcards-after-falling-behind/)
 
 ## Организация влияет на скорость сильнее, чем многие ожидают
 
@@ -189,7 +189,7 @@ keywords:
 
 Этот материал как раз об этом:
 
-- [Как организовать карточки в 2026 году](https://flashcards-open-source-app.com/blog/how-to-organize-flashcards/)
+- [Как организовать карточки в 2026 году](https://nibomo.com/blog/how-to-organize-flashcards/)
 
 ## FSRS помогает, но не может спасти шумную колоду
 
@@ -240,7 +240,7 @@ FSRS лучше всего работает, когда:
 
 ## Почему Flashcards хорошо подходит для такого сценария
 
-[Nibomo](https://flashcards-open-source-app.com/) хорошо подходит для этой конкретной задачи, потому что продукт поддерживает весь сценарий "генерировать меньше мусора и быстрее повторять хорошие карточки" и не делает вид, будто все этапы здесь одинаковы.
+[Nibomo](https://nibomo.com/) хорошо подходит для этой конкретной задачи, потому что продукт поддерживает весь сценарий "генерировать меньше мусора и быстрее повторять хорошие карточки" и не делает вид, будто все этапы здесь одинаковы.
 
 Текущие возможности продукта в этом репозитории хорошо поддерживают такой подход:
 
@@ -283,7 +283,7 @@ FSRS лучше всего работает, когда:
 
 Если хотите попробовать такой процесс в одном месте:
 
-- [Открыть Flashcards](https://flashcards-open-source-app.com/)
+- [Открыть Flashcards](https://nibomo.com/)
 - [Открыть приложение](https://app.flashcards-open-source-app.com/)
-- [Прочитать страницу возможностей](https://flashcards-open-source-app.com/features/)
+- [Прочитать страницу возможностей](https://nibomo.com/features/)
 - [Посмотреть исходный код на GitHub](https://github.com/kirill-markin/flashcards-open-source-app)

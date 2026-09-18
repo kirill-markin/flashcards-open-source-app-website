@@ -252,15 +252,15 @@ Was im Lernzettel steckt, bestimmt auch, welcher Kartentyp sinnvoll ist.
 
 Wenn ein Abschnitt hauptsächlich aus falsch beantworteten Fragen besteht, passt dieser Workflow besser:
 
-- [Wie du 2026 Übungsfragen in Flashcards verwandelst: Ein FSRS-Deck aus dem bauen, was du falsch hattest](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/)
+- [Wie du 2026 Übungsfragen in Flashcards verwandelst: Ein FSRS-Deck aus dem bauen, was du falsch hattest](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/)
 
 Wenn der Lernzettel vor allem ein Dokument oder exportiertes Paket ist, passt auch dieser:
 
-- [Wie du 2026 eine PDF in Flashcards verwandelst: Vorlesungsfolien, Lehrbücher und Papers zu FSRS-Karten](https://flashcards-open-source-app.com/blog/how-to-turn-a-pdf-into-flashcards/)
+- [Wie du 2026 eine PDF in Flashcards verwandelst: Vorlesungsfolien, Lehrbücher und Papers zu FSRS-Karten](https://nibomo.com/blog/how-to-turn-a-pdf-into-flashcards/)
 
 Und wenn der Lernzettel eher aus KI-Tutoring als aus einem Unterlagenpaket entstanden ist, liegt dieser Begleitartikel näher:
 
-- [Wie du 2026 den ChatGPT Study Mode in Flashcards verwandelst: Den Tutor behalten, Spaced Repetition ergänzen](https://flashcards-open-source-app.com/blog/how-to-turn-chatgpt-study-mode-into-flashcards/)
+- [Wie du 2026 den ChatGPT Study Mode in Flashcards verwandelst: Den Tutor behalten, Spaced Repetition ergänzen](https://nibomo.com/blog/how-to-turn-chatgpt-study-mode-into-flashcards/)
 
 ## Das fertige Deck sollte sich schlanker anfühlen als der Lernzettel
 
@@ -281,7 +281,7 @@ Dann hast du nur eine Form von Hausaufgabe in eine andere verwandelt.
 
 ## Wo Flashcards hineinpasst
 
-[Nibomo](https://flashcards-open-source-app.com/) passt gut zu **Lernzettel in Flashcards umwandeln**, weil das Produkt die Bausteine für diesen Workflow bereits mitbringt:
+[Nibomo](https://nibomo.com/) passt gut zu **Lernzettel in Flashcards umwandeln**, weil das Produkt die Bausteine für diesen Workflow bereits mitbringt:
 
 - KI-Chat, um rohen Text aus Lernzetteln neu zu strukturieren
 - Datei- und Bildanhänge
@@ -299,11 +299,11 @@ Du willst einen Ort, an dem du den Lernzettel aufräumen, Karten erstellen, das 
 
 Wenn das größere Problem eher die Kartenqualität selbst ist, lies als Nächstes das hier:
 
-- [Wie du 2026 bessere Flashcards machst: Front- und Back-Regeln, die mit FSRS wirklich funktionieren](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [Wie du 2026 bessere Flashcards machst: Front- und Back-Regeln, die mit FSRS wirklich funktionieren](https://nibomo.com/blog/how-to-make-better-flashcards/)
 
 Und wenn dein eigentliches Problem die Planung der Wiederholungslast vor dem Prüfungstermin ist, hilft auch dieser:
 
-- [Wie du 2026 mit FSRS für eine Prüfung lernst: Ein Flashcard-Plan, den du vor dem Prüfungstag wirklich schaffst](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/)
+- [Wie du 2026 mit FSRS für eine Prüfung lernst: Ein Flashcard-Plan, den du vor dem Prüfungstag wirklich schaffst](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)
 
 ## Die Faustregel
 
@@ -321,7 +321,7 @@ Mehr Abruf mit weniger Material.
 
 Wenn du genau das willst, starte hier:
 
-- [Flashcards öffnen](https://flashcards-open-source-app.com/)
+- [Flashcards öffnen](https://nibomo.com/)
 - [Die App öffnen](https://app.flashcards-open-source-app.com/)
-- [Erste Schritte](https://flashcards-open-source-app.com/docs/getting-started/)
+- [Erste Schritte](https://nibomo.com/docs/getting-started/)
 - [Den Sourcecode auf GitHub ansehen](https://github.com/kirill-markin/flashcards-open-source-app)

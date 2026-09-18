@@ -204,8 +204,8 @@ El cuello de botella suele estar en la selección, no en la generación.
 
 Si quieres profundizar en la parte de borradores con IA, estos artículos relacionados te ayudan:
 
-- [Cómo usar ChatGPT para hacer tarjetas didácticas en 2026](https://flashcards-open-source-app.com/blog/how-to-use-chatgpt-to-make-flashcards/)
-- [Cómo convertir el modo de estudio de ChatGPT en tarjetas didácticas en 2026](https://flashcards-open-source-app.com/blog/how-to-turn-chatgpt-study-mode-into-flashcards/)
+- [Cómo usar ChatGPT para hacer tarjetas didácticas en 2026](https://nibomo.com/blog/how-to-use-chatgpt-to-make-flashcards/)
+- [Cómo convertir el modo de estudio de ChatGPT en tarjetas didácticas en 2026](https://nibomo.com/blog/how-to-turn-chatgpt-study-mode-into-flashcards/)
 
 ## Los artículos técnicos merecen formatos de respuesta concretos
 
@@ -225,8 +225,8 @@ Así mantienes limpio el objetivo de recuerdo sin perder contexto una vez respon
 
 Si la fuente se parece más a un capítulo en PDF o a unos apuntes de clase que a una página web, estos artículos complementarios también encajan:
 
-- [Cómo convertir un PDF en tarjetas didácticas en 2026](https://flashcards-open-source-app.com/blog/how-to-turn-a-pdf-into-flashcards/)
-- [Cómo convertir apuntes en tarjetas didácticas en 2026](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
+- [Cómo convertir un PDF en tarjetas didácticas en 2026](https://nibomo.com/blog/how-to-turn-a-pdf-into-flashcards/)
+- [Cómo convertir apuntes en tarjetas didácticas en 2026](https://nibomo.com/blog/turn-notes-into-flashcards/)
 
 ## Un buen artículo puede convertirse en cinco tarjetas excelentes
 
@@ -264,11 +264,11 @@ Por eso **convertir la lectura en tarjetas didácticas** se vuelve mucho más pr
 
 Si quieres ver con más detalle la parte de la programación, ve aquí:
 
-- [FSRS vs SM-2 en 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [FSRS vs SM-2 en 2026](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
 ## Dónde encaja Nibomo
 
-[Nibomo](https://flashcards-open-source-app.com/) encaja bien en un flujo de trabajo para **convertir un artículo en tarjetas didácticas** porque el producto ya cubre las partes que más importan:
+[Nibomo](https://nibomo.com/) encaja bien en un flujo de trabajo para **convertir un artículo en tarjetas didácticas** porque el producto ya cubre las partes que más importan:
 
 - pegar o subir texto sin formato desde un artículo, una entrada de blog, un boletín o una página de documentación
 - limpiar el texto fuente dentro del chat con IA antes de crear las tarjetas
@@ -280,8 +280,8 @@ Esa combinación importa porque lo útil no es "tarjetas generadas por IA a part
 
 Si tu fuente es más conversacional o más de audio que de texto, estos artículos también te pueden servir:
 
-- [Cómo convertir un podcast en tarjetas didácticas en 2026](https://flashcards-open-source-app.com/blog/how-to-turn-a-podcast-into-flashcards/)
-- [Cómo convertir grabaciones de conferencias en tarjetas didácticas en 2026](https://flashcards-open-source-app.com/blog/how-to-turn-lecture-recordings-into-flashcards/)
+- [Cómo convertir un podcast en tarjetas didácticas en 2026](https://nibomo.com/blog/how-to-turn-a-podcast-into-flashcards/)
+- [Cómo convertir grabaciones de conferencias en tarjetas didácticas en 2026](https://nibomo.com/blog/how-to-turn-lecture-recordings-into-flashcards/)
 
 ## La regla útil
 

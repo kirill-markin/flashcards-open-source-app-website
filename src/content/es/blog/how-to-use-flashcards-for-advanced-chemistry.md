@@ -64,7 +64,7 @@ Si una tarjeta de fórmulas sigue fallando, casi siempre significa que está eva
 
 Ésos son objetivos mucho mejores para una tarjeta que un volcado gigante de anverso y reverso sacado de un resumen de capítulo.
 
-Si tu mazo ya se siente hinchado, [Cómo hacer mejores flashcards en 2026](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/) es la mejor limpieza antes de añadir más.
+Si tu mazo ya se siente hinchado, [Cómo hacer mejores flashcards en 2026](https://nibomo.com/blog/how-to-make-better-flashcards/) es la mejor limpieza antes de añadir más.
 
 ## Las mejores tarjetas de química avanzada suelen salir de las distinciones
 
@@ -173,7 +173,7 @@ Ejemplos:
 
 Esa última importa. Algunos fallos son fallos de memoria. Otros son fallos de transferencia. Las flashcards ayudan con el recuerdo activo. Los problemas prácticos construyen transferencia. Necesitas ambas cosas.
 
-Si tu mejor material fuente son tareas corregidas, quizzes y problemas de práctica escritos de forma independiente, [Cómo convertir preguntas de práctica en flashcards en 2026](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/) es el complemento más directo. Y para la parte de planificación, [Cómo estudiar para un examen con FSRS en 2026](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs) encaja muy bien aquí.
+Si tu mejor material fuente son tareas corregidas, quizzes y problemas de práctica escritos de forma independiente, [Cómo convertir preguntas de práctica en flashcards en 2026](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/) es el complemento más directo. Y para la parte de planificación, [Cómo estudiar para un examen con FSRS en 2026](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs) encaja muy bien aquí.
 
 ## Un flujo semanal práctico para química avanzada de secundaria
 
@@ -192,7 +192,7 @@ Después de apuntes de clase, deberes, un quiz o práctica de respuesta desarrol
 
 Si el mismo error desaparece en trabajo nuevo, la tarjeta probablemente hizo su trabajo. Si el error sigue ahí, la tarjeta suele ser demasiado vaga o está apuntando al objetivo de memoria equivocado.
 
-Es el mismo principio que hay detrás de [Cómo usar flashcards para matemáticas en 2026](https://flashcards-open-source-app.com/blog/how-to-use-flashcards-for-math/). Distinta asignatura, misma regla: las tarjetas te ayudan a recordar lo que debería volver rápido, y luego la práctica comprueba si realmente sabes usarlo.
+Es el mismo principio que hay detrás de [Cómo usar flashcards para matemáticas en 2026](https://nibomo.com/blog/how-to-use-flashcards-for-math/). Distinta asignatura, misma regla: las tarjetas te ayudan a recordar lo que debería volver rápido, y luego la práctica comprueba si realmente sabes usarlo.
 
 ## Qué no debería convertirse en una flashcard
 
@@ -219,7 +219,7 @@ Si quieres una prueba sencilla, pregúntate esto: cuando fallo esta tarjeta, ¿c
 
 ## Dónde encaja Flashcards si quieres llevar todo el flujo en un solo sitio
 
-[Nibomo](https://flashcards-open-source-app.com/) encaja bien con este flujo de química avanzada de secundaria porque el producto ya cubre la parte práctica después de detectar el objetivo de memoria:
+[Nibomo](https://nibomo.com/) encaja bien con este flujo de química avanzada de secundaria porque el producto ya cubre la parte práctica después de detectar el objetivo de memoria:
 
 - creación y edición de tarjetas de anverso y reverso
 - redacción asistida por IA a través del chat
@@ -229,7 +229,7 @@ Si quieres una prueba sencilla, pregúntate esto: cuando fallo esta tarjeta, ¿c
 - estudio offline-first en web, iOS y Android
 - código abierto y autoalojamiento si eso importa para tu forma de estudiar
 
-Ésa es la promesa útil. No "la química se vuelve fácil". Más bien un sitio más limpio para capturar las tarjetas correctas, cortar las malas y repasarlas con una planificación que no te haga perder tiempo. Si lo que buscas es una vista general del producto y no otro artículo de estudio, la [página de funcionalidades](https://flashcards-open-source-app.com/features/) es el mejor resumen.
+Ésa es la promesa útil. No "la química se vuelve fácil". Más bien un sitio más limpio para capturar las tarjetas correctas, cortar las malas y repasarlas con una planificación que no te haga perder tiempo. Si lo que buscas es una vista general del producto y no otro artículo de estudio, la [página de funcionalidades](https://nibomo.com/features/) es el mejor resumen.
 
 ## La regla que de verdad aguanta
 

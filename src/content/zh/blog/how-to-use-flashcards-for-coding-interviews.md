@@ -202,7 +202,7 @@ while left < right:
 
 如果你想继续看更广义的组织方式，这篇文章正好可以接着读：
 
-- [2026 年如何整理 Flashcards](https://flashcards-open-source-app.com/blog/how-to-organize-flashcards/)
+- [2026 年如何整理 Flashcards](https://nibomo.com/blog/how-to-organize-flashcards/)
 
 ## 卡片本身应该比你读过的解释更简单
 
@@ -259,7 +259,7 @@ while left < right:
 
 如果你想看更广一点的 AI 制卡方向，可以先读这里：
 
-- [2026 年如何用 ChatGPT 制作 Flashcards](https://flashcards-open-source-app.com/blog/how-to-use-chatgpt-to-make-flashcards/)
+- [2026 年如何用 ChatGPT 制作 Flashcards](https://nibomo.com/blog/how-to-use-chatgpt-to-make-flashcards/)
 
 ## 一套我自己真的会用的编程面试 flashcard 工作流
 
@@ -280,7 +280,7 @@ while left < right:
 
 ## Nibomo 在这里适合做什么
 
-[Nibomo](https://flashcards-open-source-app.com/) 很适合拿来做 **编程面试 flashcards**，因为它已经支持那些真正关键的部分：
+[Nibomo](https://nibomo.com/) 很适合拿来做 **编程面试 flashcards**，因为它已经支持那些真正关键的部分：
 
 - FSRS 调度，不用你手动调复习间隔也能稳定复习
 - decks、tags、搜索，以及按 tag 和 effort level 筛选的 filtered decks
@@ -294,11 +294,11 @@ while left < right:
 
 如果你更大的问题不是面试内容，而是卡片质量，这篇文章会更合适：
 
-- [2026 年如何做出更好的 Flashcards](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [2026 年如何做出更好的 Flashcards](https://nibomo.com/blog/how-to-make-better-flashcards/)
 
 如果你现在的复习队列已经有点失控了，可以先看这里：
 
-- [2026 年落下太多 Flashcards 之后，怎么重新追上进度](https://flashcards-open-source-app.com/blog/how-to-catch-up-on-flashcards-after-falling-behind/)
+- [2026 年落下太多 Flashcards 之后，怎么重新追上进度](https://nibomo.com/blog/how-to-catch-up-on-flashcards-after-falling-behind/)
 
 ## 最后这条规则最有用
 

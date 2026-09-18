@@ -18,7 +18,7 @@ Welche Lern-App funktioniert offline? **Alle fünf Apps in diesem Vergleich halt
 
 Für diese Entscheidung müssen die Browser-Versionen gesondert betrachtet werden. Ein heruntergeladenes mobiles Lernset, ein Bild im Cache und ein Browser-Tab, der einen Verbindungsabbruch zufällig übersteht, sind nicht dasselbe wie eine installierte App, die ihre lokale Sammlung auch nach vollständigem Schließen ohne Netz wieder öffnen kann.
 
-> **Transparenzhinweis:** Ich bin Kirill Markin und entwickle [Nibomo](https://flashcards-open-source-app.com/), eines der Produkte in diesem Vergleich. Ich behandle es deshalb nicht automatisch als Sieger. Nibomo ist jünger als Anki, die erste Anmeldung und das erstmalige Laden des Arbeitsbereichs benötigen Internet, und Medien vom Server sind erst offline verfügbar, nachdem das Gerät sie zwischengespeichert hat.
+> **Transparenzhinweis:** Ich bin Kirill Markin und entwickle [Nibomo](https://nibomo.com/), eines der Produkte in diesem Vergleich. Ich behandle es deshalb nicht automatisch als Sieger. Nibomo ist jünger als Anki, die erste Anmeldung und das erstmalige Laden des Arbeitsbereichs benötigen Internet, und Medien vom Server sind erst offline verfügbar, nachdem das Gerät sie zwischengespeichert hat.
 
 **Fakten geprüft:** 22. August 2026.
 

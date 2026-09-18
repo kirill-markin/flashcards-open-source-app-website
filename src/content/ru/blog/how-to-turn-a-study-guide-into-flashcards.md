@@ -252,15 +252,15 @@ keywords:
 
 Если один из разделов в основном состоит из вопросов, на которые вы раньше отвечали неверно, лучше подойдет этот подход:
 
-- [Как превратить тренировочные вопросы в карточки в 2026 году](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/)
+- [Как превратить тренировочные вопросы в карточки в 2026 году](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/)
 
 Если материалы в основном представляют собой документ или экспортированный пакет, пригодится и этот:
 
-- [Как превратить PDF в карточки в 2026 году](https://flashcards-open-source-app.com/blog/how-to-turn-a-pdf-into-flashcards/)
+- [Как превратить PDF в карточки в 2026 году](https://nibomo.com/blog/how-to-turn-a-pdf-into-flashcards/)
 
 А если материал вырос скорее из занятий с ИИ-репетитором, чем из пакета раздаток, ближе будет эта статья:
 
-- [Как превратить режим обучения ChatGPT в карточки в 2026 году](https://flashcards-open-source-app.com/blog/how-to-turn-chatgpt-study-mode-into-flashcards/)
+- [Как превратить режим обучения ChatGPT в карточки в 2026 году](https://nibomo.com/blog/how-to-turn-chatgpt-study-mode-into-flashcards/)
 
 ## Готовая колода должна ощущаться компактнее, чем исходные материалы
 
@@ -281,7 +281,7 @@ keywords:
 
 ## Где здесь уместен Flashcards
 
-[Nibomo](https://flashcards-open-source-app.com/) хорошо подходит для сценария **превратить материалы для подготовки в карточки**, потому что в продукте уже есть все основные части этого процесса:
+[Nibomo](https://nibomo.com/) хорошо подходит для сценария **превратить материалы для подготовки в карточки**, потому что в продукте уже есть все основные части этого процесса:
 
 - чат с ИИ для перестройки сырого текста
 - вложения файлов и изображений
@@ -299,11 +299,11 @@ keywords:
 
 Если главная проблема - само качество карточек, прочитайте дальше вот это:
 
-- [Как сделать карточки лучше в 2026 году](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [Как сделать карточки лучше в 2026 году](https://nibomo.com/blog/how-to-make-better-flashcards/)
 
 А если настоящая проблема в том, как распланировать нагрузку на повторение до даты экзамена, поможет и этот материал:
 
-- [Как готовиться к экзамену с помощью FSRS в 2026 году](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/)
+- [Как готовиться к экзамену с помощью FSRS в 2026 году](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)
 
 ## Полезное правило
 
@@ -321,7 +321,7 @@ keywords:
 
 Если вам нужен именно такой результат, начните отсюда:
 
-- [Открыть Flashcards](https://flashcards-open-source-app.com/)
+- [Открыть Flashcards](https://nibomo.com/)
 - [Открыть приложение](https://app.flashcards-open-source-app.com/)
-- [Прочитать руководство по началу работы](https://flashcards-open-source-app.com/docs/getting-started/)
+- [Прочитать руководство по началу работы](https://nibomo.com/docs/getting-started/)
 - [Посмотреть исходный код на GitHub](https://github.com/kirill-markin/flashcards-open-source-app)

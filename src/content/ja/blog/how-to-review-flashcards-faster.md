@@ -74,7 +74,7 @@ keywords:
 
 この話をもう少し深く掘りたいなら、まずはこちらから入るのが自然です。
 
-- [2026年版 より良いフラッシュカードの作り方](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [2026年版 より良いフラッシュカードの作り方](https://nibomo.com/blog/how-to-make-better-flashcards/)
 
 ## 厳しく採点するより、速く判断する
 
@@ -167,11 +167,11 @@ AIカードは義務ではなく、候補として扱ってください。
 
 取り込み量の考え方をもう少しはっきり決めたいなら、次の記事が自然につながります。
 
-- [2026年版 1日に追加する新規フラッシュカード枚数の目安](https://flashcards-open-source-app.com/blog/how-many-new-flashcards-per-day/)
+- [2026年版 1日に追加する新規フラッシュカード枚数の目安](https://nibomo.com/blog/how-many-new-flashcards-per-day/)
 
 そして、もしもう「小さな調整」で済む段階を過ぎ、本当に期限切れカードの山が見えているなら、次に読むべきなのはこちらです。
 
-- [2026年版 フラッシュカードの遅れを取り戻す方法](https://flashcards-open-source-app.com/blog/how-to-catch-up-on-flashcards-after-falling-behind/)
+- [2026年版 フラッシュカードの遅れを取り戻す方法](https://nibomo.com/blog/how-to-catch-up-on-flashcards-after-falling-behind/)
 
 ## 整理のしかたは、思っている以上に復習速度へ影響する
 
@@ -191,7 +191,7 @@ AIカードは義務ではなく、候補として扱ってください。
 
 この層の話は、こちらで詳しく扱っています。
 
-- [2026年版 フラッシュカードの整理術](https://flashcards-open-source-app.com/blog/how-to-organize-flashcards/)
+- [2026年版 フラッシュカードの整理術](https://nibomo.com/blog/how-to-organize-flashcards/)
 
 ## FSRSは助けになるが、ノイズだらけのデッキまでは救えない
 
@@ -242,7 +242,7 @@ FSRSが本当に力を発揮するのは、次の条件がそろっていると�
 
 ## このワークフローでFlashcardsが合う理由
 
-[Nibomo](https://flashcards-open-source-app.com/) がこの問題に向いているのは、「不要なカードを増やしすぎず、残す価値のあるカードを速く復習する」という流れ全体を、すべて同じ作業だとごまかさず支えられるからです。
+[Nibomo](https://nibomo.com/) がこの問題に向いているのは、「不要なカードを増やしすぎず、残す価値のあるカードを速く復習する」という流れ全体を、すべて同じ作業だとごまかさず支えられるからです。
 
 このリポジトリで確認できる現在の製品機能も、その流れときれいに噛み合っています。
 
@@ -285,7 +285,7 @@ FSRSが本当に力を発揮するのは、次の条件がそろっていると�
 
 このワークフローを1か所で試したいなら、こちらから始められます。
 
-- [Flashcardsを開く](https://flashcards-open-source-app.com/)
+- [Flashcardsを開く](https://nibomo.com/)
 - [アプリを開く](https://app.flashcards-open-source-app.com/)
-- [機能ページを読む](https://flashcards-open-source-app.com/features/)
+- [機能ページを読む](https://nibomo.com/features/)
 - [GitHubでソースを見る](https://github.com/kirill-markin/flashcards-open-source-app)

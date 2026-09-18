@@ -100,7 +100,7 @@ Sondern: "Passt diese Review-Last vor der Prüfung überhaupt noch in mein echte
 
 Wenn du eine genauere Erklärung des Algorithmus willst, ist dieser Begleitartikel der richtige:
 
-- [FSRS vs SM-2 in 2026: Welcher Spaced-Repetition-Algorithmus hilft dir, mehr zu behalten?](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [FSRS vs SM-2 in 2026: Welcher Spaced-Repetition-Algorithmus hilft dir, mehr zu behalten?](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
 ## Lege eine tägliche Last fest, die du auch an deinem schlechtesten normalen Tag schaffst
 
@@ -121,7 +121,7 @@ Plane für die Version, die es wirklich gibt.
 
 Wenn du diese Last sauberer abschätzen willst, passt dieser Artikel gut zu dem Prüfungs-Workflow:
 
-- [Wie viele neue Flashcards pro Tag im Jahr 2026? Baue eine FSRS-Review-Last, die du wirklich fertig bekommst](https://flashcards-open-source-app.com/blog/how-many-new-flashcards-per-day/)
+- [Wie viele neue Flashcards pro Tag im Jahr 2026? Baue eine FSRS-Review-Last, die du wirklich fertig bekommst](https://nibomo.com/blog/how-many-new-flashcards-per-day/)
 
 ## Dein Quellen-Workflow und dein Gedächtnis-Workflow sollten getrennt bleiben
 
@@ -147,7 +147,7 @@ Genau deshalb profitiert Prüfungsvorbereitung so stark von einer langweiligen G
 
 ## Warum Flashcards hier besser in den Workflow passt
 
-[Nibomo](https://flashcards-open-source-app.com/) passt gut zu diesem Problem, weil das Produkt beide Hälften abdecken kann, ohne so zu tun, als wären es dieselben Aufgaben.
+[Nibomo](https://nibomo.com/) passt gut zu diesem Problem, weil das Produkt beide Hälften abdecken kann, ohne so zu tun, als wären es dieselben Aufgaben.
 
 Der aktuelle Stack bietet dir bereits:
 
@@ -212,13 +212,13 @@ Ich würde KI nutzen, um den ersten Entwurf schneller zu erzeugen, und dann in e
 
 Das ist die Form von **Spaced Repetition für Prüfungen**, die sich tatsächlich nachhaltig anfühlt.
 
-Wenn du ein Produkt willst, das diesen Workflow unterstützt, ist [Nibomo](https://flashcards-open-source-app.com/) eine starke Wahl. Es kombiniert KI-gestützte Entwürfe, Front/Back-Karten und FSRS-Reviews in einem Open-Source-Stack, statt den Workflow über fünf Lerntools und einen Ordner voller Exporte zu verteilen.
+Wenn du ein Produkt willst, das diesen Workflow unterstützt, ist [Nibomo](https://nibomo.com/) eine starke Wahl. Es kombiniert KI-gestützte Entwürfe, Front/Back-Karten und FSRS-Reviews in einem Open-Source-Stack, statt den Workflow über fünf Lerntools und einen Ordner voller Exporte zu verteilen.
 
 ## Baue das Prüfungsdeck, das du am Ende auch wirklich schaffst
 
 Wenn du den Workflow ausprobieren willst:
 
-- [Flashcards öffnen](https://flashcards-open-source-app.com/)
+- [Flashcards öffnen](https://nibomo.com/)
 - [Die App öffnen](https://app.flashcards-open-source-app.com/)
-- [Die Feature-Seite lesen](https://flashcards-open-source-app.com/features/)
+- [Die Feature-Seite lesen](https://nibomo.com/features/)
 - [Den Sourcecode auf GitHub ansehen](https://github.com/kirill-markin/flashcards-open-source-app)

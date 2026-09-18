@@ -154,11 +154,11 @@ Si el programador es sólido, todo el flujo de trabajo se vuelve más creíble. 
 
 Si desea conocer la programación con más detalle, este artículo complementario es más profundo:
 
-- [FSRS vs SM-2 en 2026: ¿Qué algoritmo de repetición espaciada le ayuda a recordar más?](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [FSRS vs SM-2 en 2026: ¿Qué algoritmo de repetición espaciada le ayuda a recordar más?](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
 ## Dónde encaja Flashcards en este flujo de trabajo
 
-[Nibomo](https://flashcards-open-source-app.com/) funciona bien para **convertir pdf en tarjetas didácticas** porque el producto ya tiene las partes importantes en un solo lugar:
+[Nibomo](https://nibomo.com/) funciona bien para **convertir pdf en tarjetas didácticas** porque el producto ya tiene las partes importantes en un solo lugar:
 
 - Chat de IA
 - archivos adjuntos
@@ -199,7 +199,7 @@ Eso cambia la carga de edición. También cambia la intención de búsqueda. Las
 
 Si su fuente ya es texto sin formato en lugar de un documento, este artículo complementario es la mejor opción:
 
-- [Cómo convertir notas en tarjetas didácticas en 2026](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
+- [Cómo convertir notas en tarjetas didácticas en 2026](https://nibomo.com/blog/turn-notes-into-flashcards/)
 
 ## La mejor regla
 
@@ -209,4 +209,4 @@ Pídele que se convierta en materia prima para un mejor calado.
 
 Esa es la versión de **cómo convertir un PDF en tarjetas didácticas** en la que realmente confío. Es menos mágico, un poco más manual y es mucho más probable que produzcas cartas que seguirás respetando después de tres sesiones de revisión.
 
-Si ese es el flujo de trabajo que desea, [Nibomo](https://flashcards-open-source-app.com/) es una buena opción: cargue el documento, redacte las tarjetas con IA, límpielas y luego estúdielas dentro de un sistema de repetición espaciada real en lugar de dejarlas varadas en una demostración de generación.
+Si ese es el flujo de trabajo que desea, [Nibomo](https://nibomo.com/) es una buena opción: cargue el documento, redacte las tarjetas con IA, límpielas y luego estúdielas dentro de un sistema de repetición espaciada real en lugar de dejarlas varadas en una demostración de generación.

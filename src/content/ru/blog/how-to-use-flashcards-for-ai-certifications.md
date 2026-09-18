@@ -92,7 +92,7 @@ keywords:
 
 Если тренировочные вопросы - ваш основной источник, сюда хорошо подходит и этот текст:
 
-- [Как превратить практические вопросы в карточки в 2026 году](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/)
+- [Как превратить практические вопросы в карточки в 2026 году](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/)
 
 ## Четыре типа карточек особенно хорошо работают для подготовки к AI-экзаменам
 
@@ -178,7 +178,7 @@ keywords:
 
 Если хотите подробнее о стороне организации, логично продолжить отсюда:
 
-- [Как организовать карточки в 2026 году](https://flashcards-open-source-app.com/blog/how-to-organize-flashcards/)
+- [Как организовать карточки в 2026 году](https://nibomo.com/blog/how-to-organize-flashcards/)
 
 ## Еженедельный процесс должен быть намеренно скучным
 
@@ -202,7 +202,7 @@ keywords:
 
 Если настоящая проблема скорее в нагрузке повторения, с подготовкой к сертификации хорошо сочетается этот текст:
 
-- [Как готовиться к экзамену с FSRS в 2026 году](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/)
+- [Как готовиться к экзамену с FSRS в 2026 году](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)
 
 ## Чувствительные к обновлениям факты держите в меньшем временном слое
 
@@ -242,11 +242,11 @@ keywords:
 
 Если слабое место у вас именно в качестве карточек, я бы следующим открыл вот этот текст:
 
-- [Как делать карточки лучше в 2026 году](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [Как делать карточки лучше в 2026 году](https://nibomo.com/blog/how-to-make-better-flashcards/)
 
 ## Почему Flashcards хорошо подходит для такого сценария
 
-[Nibomo](https://flashcards-open-source-app.com/) хорошо подходит для такой подготовки к сертификации, потому что в продукте уже есть все, на чем держится этот сценарий:
+[Nibomo](https://nibomo.com/) хорошо подходит для такой подготовки к сертификации, потому что в продукте уже есть все, на чем держится этот сценарий:
 
 - карточки с лицевой и обратной стороной для чистых подсказок на воспроизведение
 - AI chat для черновиков по заметкам, учебным гайдам и разбору вопросов
@@ -276,7 +276,7 @@ keywords:
 
 Если хотите попробовать такой сценарий:
 
-- [Открыть Flashcards](https://flashcards-open-source-app.com/)
+- [Открыть Flashcards](https://nibomo.com/)
 - [Открыть приложение](https://app.flashcards-open-source-app.com/)
-- [Посмотреть страницу возможностей](https://flashcards-open-source-app.com/features/)
+- [Посмотреть страницу возможностей](https://nibomo.com/features/)
 - [Открыть исходный код на GitHub](https://github.com/kirill-markin/flashcards-open-source-app)

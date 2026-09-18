@@ -182,9 +182,9 @@ keywords:
 
 这也是为什么，这条流程和几种相近来源天然是相通的：
 
-- [2026 年如何把 PDF 变成 Flashcards](https://flashcards-open-source-app.com/blog/how-to-turn-a-pdf-into-flashcards/)
-- [2026 年如何把笔记变成 Flashcards](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
-- [2026 年如何把 YouTube 视频变成 Flashcards](https://flashcards-open-source-app.com/blog/youtube-to-flashcards/)
+- [2026 年如何把 PDF 变成 Flashcards](https://nibomo.com/blog/how-to-turn-a-pdf-into-flashcards/)
+- [2026 年如何把笔记变成 Flashcards](https://nibomo.com/blog/turn-notes-into-flashcards/)
+- [2026 年如何把 YouTube 视频变成 Flashcards](https://nibomo.com/blog/youtube-to-flashcards/)
 
 来源不同，但底层规则是一样的：先从可靠材料出发，再把卡片收窄到具体、可提取的程度，而不是让 AI 临时替你发明一套学习系统。
 
@@ -224,7 +224,7 @@ keywords:
 
 ## Flashcards 在这套流程里适合做什么
 
-[Nibomo](https://flashcards-open-source-app.com/) 很适合 **用抽认卡复习课堂录音**，因为它补上了文字稿和 AI 起草都解决不了的那一层：
+[Nibomo](https://nibomo.com/) 很适合 **用抽认卡复习课堂录音**，因为它补上了文字稿和 AI 起草都解决不了的那一层：
 
 - 真正的抽认卡应用，支持正反面卡片
 - 卡组和标签
@@ -255,7 +255,7 @@ keywords:
 
 如果你想更深入了解算法部分，这篇文章会讲得更细：
 
-- [2026 年 FSRS vs SM-2](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [2026 年 FSRS vs SM-2](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
 ## 一个判断什么内容值得做卡的实用问题
 
@@ -289,9 +289,9 @@ keywords:
 
 如果你正在搭建一条 **课堂文字稿转抽认卡** 的流程，可以从这里开始：
 
-- [打开 Flashcards](https://flashcards-open-source-app.com/)
+- [打开 Flashcards](https://nibomo.com/)
 - [打开应用](https://app.flashcards-open-source-app.com/)
-- [阅读自托管指南](https://flashcards-open-source-app.com/docs/self-hosting/)
+- [阅读自托管指南](https://nibomo.com/docs/self-hosting/)
 - [在 GitHub 上查看源码](https://github.com/kirill-markin/flashcards-open-source-app)
 
 课堂录音当然有价值。

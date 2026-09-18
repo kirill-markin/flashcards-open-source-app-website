@@ -64,7 +64,7 @@ LSAT prep एक बहुत खास तरह का झूठा आत्�
 
 ये notes हैं, अच्छे retrieval prompts नहीं।
 
-अगर सबसे बड़ी दिक्कत card quality है, तो ज़्यादा cards जोड़ने से पहले [2026 में बेहतर फ़्लैशकार्ड कैसे बनाएं](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/) वाला लेख सही companion piece है।
+अगर सबसे बड़ी दिक्कत card quality है, तो ज़्यादा cards जोड़ने से पहले [2026 में बेहतर फ़्लैशकार्ड कैसे बनाएं](https://nibomo.com/blog/how-to-make-better-flashcards/) वाला लेख सही companion piece है।
 
 ## LSAT Logical Reasoning फ़्लैशकार्ड argument moves और trap answers पर नज़र रखें
 
@@ -165,7 +165,7 @@ flashcards इसलिए मदद करते हैं क्योंक�
 
 इससे आपके wrong-answer journal को दूसरी ज़िंदगी मिलती है: good intentions के कब्रिस्तान की जगह एक review system।
 
-अगर practice review पहले से ही आपके सबसे अच्छे cards का source है, तो [2026 में अभ्यास प्रश्नों से फ्लैशकार्ड कैसे बनाएँ](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/) इस step पर और गहराई से जाता है।
+अगर practice review पहले से ही आपके सबसे अच्छे cards का source है, तो [2026 में अभ्यास प्रश्नों से फ्लैशकार्ड कैसे बनाएँ](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/) इस step पर और गहराई से जाता है।
 
 ## LSAT फ़्लैशकार्ड के लिए एक व्यावहारिक साप्ताहिक वर्कफ़्लो
 
@@ -207,11 +207,11 @@ Nibomo कोई official LSAC tool नहीं है और इसकी क�
 4. weak cards जल्दी delete कीजिए
 5. जो cards बचें, उनकी scheduling FSRS पर छोड़ दीजिए
 
-अगर scheduling वाले हिस्से को और detail में समझना है, तो [2026 में FSRS के साथ परीक्षा की तैयारी कैसे करें](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/) और [2026 में FSRS बनाम SM-2](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/) इसके सीधे follow-ups हैं।
+अगर scheduling वाले हिस्से को और detail में समझना है, तो [2026 में FSRS के साथ परीक्षा की तैयारी कैसे करें](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/) और [2026 में FSRS बनाम SM-2](https://nibomo.com/blog/fsrs-vs-sm-2/) इसके सीधे follow-ups हैं।
 
 ## Nibomo यहाँ कहाँ फिट बैठता है
 
-अगर आप यह workflow [Nibomo](https://flashcards-open-source-app.com/) के अंदर चलाना चाहते हैं, तो उपयोगी बात यह नहीं है कि AI आपके लिए पढ़ाई कर देगा। उपयोगी बात यह है कि मौजूदा product पहले से इस काम के बीच वाले हिस्से को support करता है:
+अगर आप यह workflow [Nibomo](https://nibomo.com/) के अंदर चलाना चाहते हैं, तो उपयोगी बात यह नहीं है कि AI आपके लिए पढ़ाई कर देगा। उपयोगी बात यह है कि मौजूदा product पहले से इस काम के बीच वाले हिस्से को support करता है:
 
 - hosted web app में file attachments के साथ AI chat
 - front/back card creation और editing
@@ -221,7 +221,7 @@ Nibomo कोई official LSAC tool नहीं है और इसकी क�
 
 यह इसलिए मायने रखता है क्योंकि **LSAT फ़्लैशकार्ड** सिर्फ़ generation problem नहीं हैं। वे editing problem, organization problem, और review problem भी हैं।
 
-अगर आपकी बड़ी दिक्कत deck structure है, तो [2026 में फ़्लैशकार्ड कैसे व्यवस्थित करें](https://flashcards-open-source-app.com/blog/how-to-organize-flashcards/) पढ़िए। अगर आप पहले से 1L की तरफ़ सोच रहे हैं, तो admissions prep के बाद [2026 में लॉ स्कूल के लिए फ़्लैशकार्ड कैसे इस्तेमाल करें](https://flashcards-open-source-app.com/blog/how-to-use-flashcards-for-law-school/) अगला स्वाभाविक कदम है।
+अगर आपकी बड़ी दिक्कत deck structure है, तो [2026 में फ़्लैशकार्ड कैसे व्यवस्थित करें](https://nibomo.com/blog/how-to-organize-flashcards/) पढ़िए। अगर आप पहले से 1L की तरफ़ सोच रहे हैं, तो admissions prep के बाद [2026 में लॉ स्कूल के लिए फ़्लैशकार्ड कैसे इस्तेमाल करें](https://nibomo.com/blog/how-to-use-flashcards-for-law-school/) अगला स्वाभाविक कदम है।
 
 ## ऐसा deck बनाइए जो गलती आपको पहले दिखा दे
 

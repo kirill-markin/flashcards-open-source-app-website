@@ -62,7 +62,7 @@ keywords:
 
 这就是为什么一场 150 张卡的复习，最后会变成你想躲开的东西。
 
-如果你更大的问题其实是整体卡片质量，那篇 [2026 年如何制作更好的抽认卡](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/) 会是更直接的配套文章。
+如果你更大的问题其实是整体卡片质量，那篇 [2026 年如何制作更好的抽认卡](https://nibomo.com/blog/how-to-make-better-flashcards/) 会是更直接的配套文章。
 
 ## 药物分类抽认卡，应该先于琐碎细节
 
@@ -217,7 +217,7 @@ keywords:
 - 这是分类问题、机制问题，还是混淆问题？
 - 什么样的最小卡片，能阻止我下周再犯同样的错？
 
-如果你最好的卡，大多都是从题目里长出来的，而不是从笔记里抄出来的，那篇 [2026 年如何把练习题转成抽认卡](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/) 会是最直接的下一步。
+如果你最好的卡，大多都是从题目里长出来的，而不是从笔记里抄出来的，那篇 [2026 年如何把练习题转成抽认卡](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/) 会是最直接的下一步。
 
 ## 药理学更需要反复回访，而不是一场英雄式突击
 
@@ -238,7 +238,7 @@ keywords:
 
 这就是为什么**药理学间隔重复**比猛刷式复习更合适。这个学科是通过很多小混淆慢慢衰减的，所以复习系统也应该修复这些小混淆。
 
-如果你更关心考试排期和复习节奏，而不是卡片写法，那篇 [2026 年如何用 FSRS 备考](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/) 会直接接上这里。
+如果你更关心考试排期和复习节奏，而不是卡片写法，那篇 [2026 年如何用 FSRS 备考](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/) 会直接接上这里。
 
 ## 这是学习建议，不是医疗建议
 
@@ -262,12 +262,12 @@ keywords:
 
 如果你的复习队列已经比该有的更重，下面这两篇通常就是接下来的解法：
 
-- [2026 年每天该新增多少张抽认卡？](https://flashcards-open-source-app.com/blog/how-many-new-flashcards-per-day/)
-- [2026 年如何更快复习抽认卡](https://flashcards-open-source-app.com/blog/how-to-review-flashcards-faster/)
+- [2026 年每天该新增多少张抽认卡？](https://nibomo.com/blog/how-many-new-flashcards-per-day/)
+- [2026 年如何更快复习抽认卡](https://nibomo.com/blog/how-to-review-flashcards-faster/)
 
 ## Flashcards 在这套工作流里的位置
 
-[Nibomo](https://flashcards-open-source-app.com/) 比较适合这种药理学学习方式，因为真正有用的部分，不是把药理学直接丢给 AI。我不会那样学。
+[Nibomo](https://nibomo.com/) 比较适合这种药理学学习方式，因为真正有用的部分，不是把药理学直接丢给 AI。我不会那样学。
 
 真正有用的部分更窄一些：
 

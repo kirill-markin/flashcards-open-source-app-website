@@ -169,7 +169,7 @@ The mock exposed the failure. The flashcard should preserve the correction.
 
 If practice questions are your main source material, this companion workflow fits directly:
 
-- [How to Turn Practice Questions Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/)
+- [How to Turn Practice Questions Into Flashcards in 2026](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/)
 
 ## Do not make a card for every miss
 
@@ -217,7 +217,7 @@ I would also tag cards by source when it helps: `mock-1`, `provider-qbank`, `end
 
 If organization is becoming the problem, this article is the better next step:
 
-- [How to Organize Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-organize-flashcards/)
+- [How to Organize Flashcards in 2026](https://nibomo.com/blog/how-to-organize-flashcards/)
 
 ## A weekly CFA flashcards workflow that survives real life
 
@@ -255,8 +255,8 @@ You do not want every card coming back on the same blunt schedule. You want revi
 
 If the scheduling side is still fuzzy, these guides go deeper:
 
-- [FSRS vs SM-2 in 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
-- [How to Study for an Exam With FSRS in 2026](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/)
+- [FSRS vs SM-2 in 2026](https://nibomo.com/blog/fsrs-vs-sm-2/)
+- [How to Study for an Exam With FSRS in 2026](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)
 
 ## Keep date-sensitive CFA facts separate
 
@@ -275,7 +275,7 @@ Tag those with `needs-recheck` and verify them against the official CFA Institut
 
 ## Where Flashcards fits this CFA workflow
 
-[Nibomo](https://flashcards-open-source-app.com/) fits this workflow because it supports the specific parts a CFA deck needs without pretending to replace CFA Institute materials:
+[Nibomo](https://nibomo.com/) fits this workflow because it supports the specific parts a CFA deck needs without pretending to replace CFA Institute materials:
 
 - front/back card creation and editing
 - decks and tags for topic and source organization
@@ -291,9 +291,9 @@ That is the practical version of **spaced repetition CFA** studying: not a giant
 
 If that is what you want, start here:
 
-- [Open Nibomo](https://flashcards-open-source-app.com/)
+- [Open Nibomo](https://nibomo.com/)
 - [Open the app](https://app.flashcards-open-source-app.com/)
-- [Read the getting started guide](https://flashcards-open-source-app.com/docs/getting-started/)
+- [Read the getting started guide](https://nibomo.com/docs/getting-started/)
 - [View the source on GitHub](https://github.com/kirill-markin/flashcards-open-source-app)
 
 The deck does not need to impress anyone. It needs to help you answer the next question before the 90 seconds are gone.

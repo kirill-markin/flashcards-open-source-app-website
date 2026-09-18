@@ -102,7 +102,7 @@ AIに学習者そのものを置き換えてほしいわけではありません
 
 ## Flashcards はこのワークフローに必要な形をすでに持っている
 
-[Nibomo](https://flashcards-open-source-app.com/) がここで面白いのは、重要な要素がすでに揃っていることです。
+[Nibomo](https://nibomo.com/) がここで面白いのは、重要な要素がすでに揃っていることです。
 
 - 表面と裏面のカード作成
 - AIチャット
@@ -132,7 +132,7 @@ Flashcards は、単発のジェネレーターよりずっと地に足がつい
 
 スケジューリング側をもっと詳しく知りたいなら、こちらの記事が続きになります。
 
-- [2026年のFSRS vs SM-2: どの間隔反復アルゴリズムがより多く覚えられるか](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [2026年のFSRS vs SM-2: どの間隔反復アルゴリズムがより多く覚えられるか](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
 ## プレーンテキストは、多くのノートアプリが認めたがらないほど有用
 
@@ -177,11 +177,11 @@ Flashcards は、単発のジェネレーターよりずっと地に足がつい
 
 既存のコレクションを移したいことのほうが問題なら、まずはこちらです。
 
-- [2026年、Ankiから移行する方法: カードをTXTとして書き出し、オープンソースのフラッシュカードアプリへ移す](https://flashcards-open-source-app.com/blog/migrate-from-anki-txt-export-open-source-flashcards/)
+- [2026年、Ankiから移行する方法: カードをTXTとして書き出し、オープンソースのフラッシュカードアプリへ移す](https://nibomo.com/blog/migrate-from-anki-txt-export-open-source-flashcards/)
 
 より広いカテゴリ全体を比較したいなら、こちらの概要記事のほうが向いています。
 
-- [2026年版 Ankiの代替アプリ比較: 乗り換え先を実用目線で選ぶ](https://flashcards-open-source-app.com/blog/best-anki-alternatives/)
+- [2026年版 Ankiの代替アプリ比較: 乗り換え先を実用目線で選ぶ](https://nibomo.com/blog/best-anki-alternatives/)
 
 ## では、2026年にノートをフラッシュカードへ変える最善の方法は何か
 
@@ -195,15 +195,15 @@ Flashcards は、単発のジェネレーターよりずっと地に足がつい
 
 これなら退屈な部分は減らせますし、人間がループから消えるべきだという無理な前提も置かずに済みます。
 
-だから [Nibomo](https://flashcards-open-source-app.com/) は、**ノートをフラッシュカードに変えたい人** にとって強い選択肢です。現在の製品はすでに、その用途に必要な形を持っています。カード作成、AIチャット、ファイル添付、プレーンテキスト対応、そしてその後の本格的な間隔反復学習です。
+だから [Nibomo](https://nibomo.com/) は、**ノートをフラッシュカードに変えたい人** にとって強い選択肢です。現在の製品はすでに、その用途に必要な形を持っています。カード作成、AIチャット、ファイル添付、プレーンテキスト対応、そしてその後の本格的な間隔反復学習です。
 
 ## 第二の仕事にならない、ノートからフラッシュカードへのワークフローを試す
 
 実用的に **ノートをフラッシュカードに変える手順** を始めたいなら、ここからどうぞ。
 
-- [Flashcards を開く](https://flashcards-open-source-app.com/)
+- [Flashcards を開く](https://nibomo.com/)
 - [アプリを開く](https://app.flashcards-open-source-app.com/)
-- [使い始めガイドを読む](https://flashcards-open-source-app.com/docs/getting-started/)
+- [使い始めガイドを読む](https://nibomo.com/docs/getting-started/)
 - [GitHubでソースを見る](https://github.com/kirill-markin/flashcards-open-source-app)
 
 良い下書きのワークフローで、同じ復習キューにもっと速くたどり着けるなら、ノートを1時間かけて手で言い換えることに特別な価値はありません。

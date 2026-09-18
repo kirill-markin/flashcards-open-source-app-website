@@ -230,7 +230,7 @@ If you are moving from a large premade deck or an older **APUSH Anki** setup, [H
 
 ## Where Flashcards fits in an APUSH workflow
 
-If you want to run this inside [Nibomo](https://flashcards-open-source-app.com/), the useful part is not some grand promise that the app will somehow do APUSH for you.
+If you want to run this inside [Nibomo](https://nibomo.com/), the useful part is not some grand promise that the app will somehow do APUSH for you.
 
 The useful part is that the product already fits the messy middle of the workflow:
 

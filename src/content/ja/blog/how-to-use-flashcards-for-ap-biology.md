@@ -88,7 +88,7 @@ AP Biology の問題で難しいのは、語句そのものを思い出すこと
 
 こうしたカードのほうが、試験本番で実際に必要な判断を練習できます。
 
-科目の選び方よりカードの質そのものに問題があるなら、[2026年版 より良いフラッシュカードの作り方](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/) がそのまま次の一歩になります。
+科目の選び方よりカードの質そのものに問題があるなら、[2026年版 より良いフラッシュカードの作り方](https://nibomo.com/blog/how-to-make-better-flashcards/) がそのまま次の一歩になります。
 
 ## プロセスは1枚の巨大カードにせず、チェックポイントに分ける
 
@@ -145,7 +145,7 @@ AP Biology は、生物をそれなりに分かっていても、データに押
 - **negative control** が positive control ではなく negative control だといえるのはどんな条件か。
 - AP Biology の設定で、単なるパターンではなく **因果** の主張を支えられるのはどんなときか。
 
-演習で落とした問題がいちばん良いカード材料なら、[2026年版 演習問題をフラッシュカードに変える方法](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/) がここにそのままつながります。
+演習で落とした問題がいちばん良いカード材料なら、[2026年版 演習問題をフラッシュカードに変える方法](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/) がここにそのままつながります。
 
 ## FRQ対策は、答え全体ではなく推論の動きを残したほうがうまくいく
 
@@ -213,7 +213,7 @@ FRQで失点したあと、私はもっと小さな問いに変えます。こ�
 4. 曖昧なカードは早く消す。
 5. 試験が近づくほど、新規カードは自分の意欲が望む量より少なめに保つ。
 
-毎日の負荷が多すぎると感じ始めたら、[2026年版 1日に何枚の新規フラッシュカードを作るべきか](https://flashcards-open-source-app.com/blog/how-many-new-flashcards-per-day/) を先に読むほうが役立ちます。
+毎日の負荷が多すぎると感じ始めたら、[2026年版 1日に何枚の新規フラッシュカードを作るべきか](https://nibomo.com/blog/how-many-new-flashcards-per-day/) を先に読むほうが役立ちます。
 
 ## AP Biologyのカードが全部を背負わなくなってから、FSRSが効き始める
 
@@ -232,11 +232,11 @@ AP Biology の復習には、ごく普通の形でムラがあります。安定
 3. 弱いカードは早めに消す
 4. タイミングはFSRSに任せる
 
-スケジューリング面をもう少し詳しく知りたいなら、[2026年版 FSRSで試験勉強する方法](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/) が直接の相方です。
+スケジューリング面をもう少し詳しく知りたいなら、[2026年版 FSRSで試験勉強する方法](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/) が直接の相方です。
 
 ## このAP Biologyの学習フローで、Flashcardsはどこにはまるのか
 
-[Nibomo](https://flashcards-open-source-app.com/) でこの流れを回したいなら、役に立つのは「AIが魔法みたいに生物を学習してくれる」という曖昧な約束ではありません。
+[Nibomo](https://nibomo.com/) でこの流れを回したいなら、役に立つのは「AIが魔法みたいに生物を学習してくれる」という曖昧な約束ではありません。
 
 役に立つのは、製品がすでにワークフローのいちばん厄介な中間部分をカバーしていることです。
 

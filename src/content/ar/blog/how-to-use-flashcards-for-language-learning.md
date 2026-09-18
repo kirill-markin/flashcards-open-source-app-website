@@ -53,7 +53,7 @@ keywords:
 
 وهذه هي القاعدة نفسها التي تجعل البطاقات التعليمية عمومًا أفضل:
 
-- [كيفية إعداد بطاقات تعليمية أفضل في 2026: قواعد الوجه الأمامي والخلفي التي تنجح فعلًا مع FSRS](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [كيفية إعداد بطاقات تعليمية أفضل في 2026: قواعد الوجه الأمامي والخلفي التي تنجح فعلًا مع FSRS](https://nibomo.com/blog/how-to-make-better-flashcards/)
 
 لكن مجموعات اللغات تعاقب البطاقات المحمّلة فوق طاقتها بسرعة أكبر.
 
@@ -167,8 +167,8 @@ keywords:
 
 إذا أردت التوسع في جانب الجدولة، فابدأ من هنا:
 
-- [FSRS أم SM-2 في 2026: أي خوارزمية للتكرار المتباعد تساعدك على التذكر أكثر؟](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
-- [كم بطاقة تعليمية جديدة يوميًا في 2026؟ ابنِ عبء مراجعة في FSRS يمكنك إنهاؤه فعلًا](https://flashcards-open-source-app.com/blog/how-many-new-flashcards-per-day/)
+- [FSRS أم SM-2 في 2026: أي خوارزمية للتكرار المتباعد تساعدك على التذكر أكثر؟](https://nibomo.com/blog/fsrs-vs-sm-2/)
+- [كم بطاقة تعليمية جديدة يوميًا في 2026؟ ابنِ عبء مراجعة في FSRS يمكنك إنهاؤه فعلًا](https://nibomo.com/blog/how-many-new-flashcards-per-day/)
 
 ## عبء المراجعة أهم من حجم المجموعة
 
@@ -211,9 +211,9 @@ keywords:
 
 إذا كانت المادة الأصلية تبدأ كملاحظات، أو تفريغ، أو مخرجات دردشة، فهذه الأدلة مفيدة قبل هذه المرحلة:
 
-- [كيفية استخدام ChatGPT لإنشاء Flashcards في 2026: مطالبات أفضل، وبطاقات أفضل، ومراجعة أفضل مع FSRS](https://flashcards-open-source-app.com/blog/how-to-use-chatgpt-to-make-flashcards/)
-- [كيف تحوّل الملاحظات الصوتية إلى بطاقات تعليمية في 2026: من الإملاء الصوتي إلى بطاقات FSRS من دون إعادة كتابة كل شيء](https://flashcards-open-source-app.com/blog/how-to-turn-voice-notes-into-flashcards/)
-- [كيفية تحويل فيديو YouTube إلى Flashcards في 2026: صياغة بالذكاء الاصطناعي للمحاضرات والشروحات ومقاطع اللغات](https://flashcards-open-source-app.com/blog/youtube-to-flashcards/)
+- [كيفية استخدام ChatGPT لإنشاء Flashcards في 2026: مطالبات أفضل، وبطاقات أفضل، ومراجعة أفضل مع FSRS](https://nibomo.com/blog/how-to-use-chatgpt-to-make-flashcards/)
+- [كيف تحوّل الملاحظات الصوتية إلى بطاقات تعليمية في 2026: من الإملاء الصوتي إلى بطاقات FSRS من دون إعادة كتابة كل شيء](https://nibomo.com/blog/how-to-turn-voice-notes-into-flashcards/)
+- [كيفية تحويل فيديو YouTube إلى Flashcards في 2026: صياغة بالذكاء الاصطناعي للمحاضرات والشروحات ومقاطع اللغات](https://nibomo.com/blog/youtube-to-flashcards/)
 
 ## ابنِ المجموعة حول هدفك الحقيقي، لا حول طموح لغوي عام
 
@@ -233,7 +233,7 @@ keywords:
 
 ## أين يناسب Flashcards هذا الأسلوب
 
-يُعد [Nibomo](https://flashcards-open-source-app.com/) مناسبًا جدًا لـ **التكرار المتباعد للمفردات** لأنه يدعم أصلًا العناصر التي يعتمد عليها هذا الأسلوب:
+يُعد [Nibomo](https://nibomo.com/) مناسبًا جدًا لـ **التكرار المتباعد للمفردات** لأنه يدعم أصلًا العناصر التي يعتمد عليها هذا الأسلوب:
 
 - بطاقات نظيفة بوجه أمامي ووجه خلفي
 - جدولة مراجعة باستخدام FSRS
@@ -245,9 +245,9 @@ keywords:
 
 إذا كنت تقارن أيضًا بين خيارات منتجات أوسع، فهذه أقرب المقالات المرتبطة:
 
-- [بديل Memrise في 2026: تطبيق Flashcards مفتوح المصدر مع FSRS، ودراسة دون اتصال، وسير عمل يضع iPhone أولًا](https://flashcards-open-source-app.com/blog/memrise-alternative/)
-- [بديل Quizlet في 2026: تطبيق Flashcards مفتوح المصدر مع FSRS، ودراسة بلا اتصال، وملكية كاملة للبيانات](https://flashcards-open-source-app.com/blog/quizlet-alternative/)
-- [أفضل تطبيق للبطاقات التعليمية بدون إنترنت في 2026: مذاكرة بلا اتصال مع FSRS ومزامنة موثوقة](https://flashcards-open-source-app.com/blog/best-offline-flashcards-app/)
+- [بديل Memrise في 2026: تطبيق Flashcards مفتوح المصدر مع FSRS، ودراسة دون اتصال، وسير عمل يضع iPhone أولًا](https://nibomo.com/blog/memrise-alternative/)
+- [بديل Quizlet في 2026: تطبيق Flashcards مفتوح المصدر مع FSRS، ودراسة بلا اتصال، وملكية كاملة للبيانات](https://nibomo.com/blog/quizlet-alternative/)
+- [أفضل تطبيق للبطاقات التعليمية بدون إنترنت في 2026: مذاكرة بلا اتصال مع FSRS ومزامنة موثوقة](https://nibomo.com/blog/best-offline-flashcards-app/)
 
 ## إذًا كيف ينبغي أن تستخدم البطاقات التعليمية لتعلّم اللغات في 2026؟
 

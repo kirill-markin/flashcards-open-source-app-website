@@ -199,8 +199,8 @@ keywords:
 
 إذا كنت تريد التوسع أكثر في جانب الصياغة بالذكاء الاصطناعي، فهذه المقالات ذات صلة:
 
-- [كيفية استخدام ChatGPT لإنشاء بطاقات تعليمية في 2026](https://flashcards-open-source-app.com/blog/how-to-use-chatgpt-to-make-flashcards/)
-- [كيفية تحويل وضع الدراسة في ChatGPT إلى بطاقات تعليمية في 2026](https://flashcards-open-source-app.com/blog/how-to-turn-chatgpt-study-mode-into-flashcards/)
+- [كيفية استخدام ChatGPT لإنشاء بطاقات تعليمية في 2026](https://nibomo.com/blog/how-to-use-chatgpt-to-make-flashcards/)
+- [كيفية تحويل وضع الدراسة في ChatGPT إلى بطاقات تعليمية في 2026](https://nibomo.com/blog/how-to-turn-chatgpt-study-mode-into-flashcards/)
 
 ## المقالات التقنية تستحق صيغ إجابة ملموسة
 
@@ -220,8 +220,8 @@ keywords:
 
 وإذا كان المصدر أقرب إلى ملف PDF أو ملاحظات محاضرة منه إلى صفحة ويب، فهذه المقالات المرافقة مناسبة أيضًا:
 
-- [كيفية تحويل ملف PDF إلى بطاقات تعليمية في 2026](https://flashcards-open-source-app.com/blog/how-to-turn-a-pdf-into-flashcards/)
-- [كيفية تحويل الملاحظات إلى بطاقات تعليمية في 2026](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
+- [كيفية تحويل ملف PDF إلى بطاقات تعليمية في 2026](https://nibomo.com/blog/how-to-turn-a-pdf-into-flashcards/)
+- [كيفية تحويل الملاحظات إلى بطاقات تعليمية في 2026](https://nibomo.com/blog/turn-notes-into-flashcards/)
 
 ## مقال واحد جيد قد يتحول إلى خمس بطاقات ممتازة
 
@@ -259,11 +259,11 @@ keywords:
 
 إذا كنت تريد تفاصيل أكثر عن جانب الجدولة، فابدأ من هنا:
 
-- [FSRS مقابل SM-2 في 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [FSRS مقابل SM-2 في 2026](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
 ## أين يأتي دور Flashcards في هذا المسار
 
-[Nibomo](https://flashcards-open-source-app.com/) مناسب جدًا لمسار **تحويل مقال إلى بطاقات تعليمية** لأنه يغطي الأجزاء التي تهم فعلًا:
+[Nibomo](https://nibomo.com/) مناسب جدًا لمسار **تحويل مقال إلى بطاقات تعليمية** لأنه يغطي الأجزاء التي تهم فعلًا:
 
 - لصق نص عادي أو تحميله من مقال أو تدوينة أو نشرة بريدية أو صفحة توثيق
 - تنظيف المصدر داخل دردشة الذكاء الاصطناعي قبل إنشاء البطاقات
@@ -275,8 +275,8 @@ keywords:
 
 وإذا كان مصدرك أقرب إلى المحادثة أو الصوت منه إلى النص، فهذه المقالات المرتبطة مناسبة أيضًا:
 
-- [كيفية تحويل بودكاست إلى بطاقات تعليمية في 2026](https://flashcards-open-source-app.com/blog/how-to-turn-a-podcast-into-flashcards/)
-- [كيفية تحويل تسجيلات المحاضرات إلى بطاقات تعليمية في 2026](https://flashcards-open-source-app.com/blog/how-to-turn-lecture-recordings-into-flashcards/)
+- [كيفية تحويل بودكاست إلى بطاقات تعليمية في 2026](https://nibomo.com/blog/how-to-turn-a-podcast-into-flashcards/)
+- [كيفية تحويل تسجيلات المحاضرات إلى بطاقات تعليمية في 2026](https://nibomo.com/blog/how-to-turn-lecture-recordings-into-flashcards/)
 
 ## القاعدة المفيدة
 

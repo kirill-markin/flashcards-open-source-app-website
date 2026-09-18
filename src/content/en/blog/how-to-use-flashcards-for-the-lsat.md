@@ -64,7 +64,7 @@ Weak cards usually sound like topic labels:
 
 Those are notes. They are not good retrieval prompts.
 
-If card quality is the main problem, [How to Make Better Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/) is the right companion article before you add more cards.
+If card quality is the main problem, [How to Make Better Flashcards in 2026](https://nibomo.com/blog/how-to-make-better-flashcards/) is the right companion article before you add more cards.
 
 ## LSAT logical reasoning flashcards should track argument moves and trap answers
 
@@ -167,7 +167,7 @@ I would tag these cards by function, not only by section:
 
 That gives your wrong-answer journal a second life as a review system instead of a graveyard of good intentions.
 
-If practice review is already the source of your best cards, [How to Turn Practice Questions Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/) goes deeper on that step.
+If practice review is already the source of your best cards, [How to Turn Practice Questions Into Flashcards in 2026](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/) goes deeper on that step.
 
 ## A practical weekly workflow for LSAT flashcards
 
@@ -209,11 +209,11 @@ What FSRS does not do is rescue vague cards or outdated decks. I would keep the 
 4. delete weak cards fast
 5. let FSRS schedule the survivors
 
-If you want the scheduling side in more detail, [How to Study for an Exam With FSRS in 2026](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/) and [FSRS vs SM-2 in 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/) are the direct follow-ups.
+If you want the scheduling side in more detail, [How to Study for an Exam With FSRS in 2026](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/) and [FSRS vs SM-2 in 2026](https://nibomo.com/blog/fsrs-vs-sm-2/) are the direct follow-ups.
 
 ## Where Nibomo fits
 
-If you want to run this workflow inside [Nibomo](https://flashcards-open-source-app.com/), the useful part is not a vague promise that AI will study for you. The useful part is that the current product already supports the middle of the job:
+If you want to run this workflow inside [Nibomo](https://nibomo.com/), the useful part is not a vague promise that AI will study for you. The useful part is that the current product already supports the middle of the job:
 
 - AI chat with file attachments in the hosted web app
 - front/back card creation and editing
@@ -223,7 +223,7 @@ If you want to run this workflow inside [Nibomo](https://flashcards-open-source-
 
 That matters because **LSAT flashcards** are not only a generation problem. They are also an editing problem, an organization problem, and a review problem.
 
-If your bigger issue is deck structure, read [How to Organize Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-organize-flashcards/). If you are already thinking ahead to 1L, [How to Use Flashcards for Law School in 2026](https://flashcards-open-source-app.com/blog/how-to-use-flashcards-for-law-school/) is the natural next step after admissions prep.
+If your bigger issue is deck structure, read [How to Organize Flashcards in 2026](https://nibomo.com/blog/how-to-organize-flashcards/). If you are already thinking ahead to 1L, [How to Use Flashcards for Law School in 2026](https://nibomo.com/blog/how-to-use-flashcards-for-law-school/) is the natural next step after admissions prep.
 
 ## Build the deck that helps you see the mistake earlier
 

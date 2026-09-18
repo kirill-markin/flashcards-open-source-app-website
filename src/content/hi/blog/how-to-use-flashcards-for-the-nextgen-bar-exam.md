@@ -91,7 +91,7 @@ Format इसलिए महत्वपूर्ण है क्योंक�
 
 अगर card writing ही आपकी कमजोर कड़ी है, तो यह लेख सीधे काम आएगा:
 
-- [2026 में बेहतर फ्लैशकार्ड कैसे बनाएँ](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [2026 में बेहतर फ्लैशकार्ड कैसे बनाएँ](https://nibomo.com/blog/how-to-make-better-flashcards/)
 
 ## Issue spotting cards पूरे essay नहीं, trigger को train करने चाहिए
 
@@ -123,7 +123,7 @@ Trigger cards के बिना आपको rule तब आता है ज�
 
 अगर आप misses को cards में बदलने का और गहरा तरीका चाहते हैं, तो यह companion article सही है:
 
-- [2026 में अभ्यास प्रश्नों को फ्लैशकार्ड में कैसे बदलें](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/)
+- [2026 में अभ्यास प्रश्नों को फ्लैशकार्ड में कैसे बदलें](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/)
 
 ## Standalone multiple-choice misses अक्सर outlines से बेहतर card sources होते हैं
 
@@ -199,7 +199,7 @@ Performance tasks constraints के भीतर execution के ज़्य�
 
 अगर organization drafting से बड़ी समस्या है, तो यह आगे पढ़ें:
 
-- [2026 में फ्लैशकार्ड कैसे व्यवस्थित करें](https://flashcards-open-source-app.com/blog/how-to-organize-flashcards/)
+- [2026 में फ्लैशकार्ड कैसे व्यवस्थित करें](https://nibomo.com/blog/how-to-organize-flashcards/)
 
 ## NextGen Bar Exam फ़्लैशकार्ड के लिए एक व्यावहारिक साप्ताहिक workflow
 
@@ -239,11 +239,11 @@ FSRS क्या नहीं करता: वह फूले हुए deck 
 
 अगर आप scheduling side को और detail में समझना चाहते हैं, तो यह सीधा companion article है:
 
-- [2026 में FSRS के साथ परीक्षा की तैयारी कैसे करें](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/)
+- [2026 में FSRS के साथ परीक्षा की तैयारी कैसे करें](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)
 
 ## इस NextGen workflow में Flashcards कहाँ फिट बैठता है
 
-अगर आप इसे [Nibomo](https://flashcards-open-source-app.com/) में चलाना चाहते हैं, तो उपयोगी बात यह धुंधला वादा नहीं है कि AI पढ़ाई आसान बना देता है। उपयोगी बात यह है कि product इस workflow के असली बीच वाले हिस्से को पहले से संभालता है:
+अगर आप इसे [Nibomo](https://nibomo.com/) में चलाना चाहते हैं, तो उपयोगी बात यह धुंधला वादा नहीं है कि AI पढ़ाई आसान बना देता है। उपयोगी बात यह है कि product इस workflow के असली बीच वाले हिस्से को पहले से संभालता है:
 
 - web app में AI chat
 - outlines, practice notes, या copied explanations के लिए file attachments और plain text uploads
@@ -256,7 +256,7 @@ FSRS क्या नहीं करता: वह फूले हुए deck 
 
 अगर आपका source material finished outlines की बजाय rough notes के रूप में शुरू होता है, तो यह लेख इस workflow के साथ अच्छी तरह फिट बैठता है:
 
-- [2026 में लॉ स्कूल के लिए फ्लैशकार्ड कैसे इस्तेमाल करें: केस, नियम और issue spotting जो सच में टिके](https://flashcards-open-source-app.com/blog/how-to-use-flashcards-for-law-school/)
+- [2026 में लॉ स्कूल के लिए फ्लैशकार्ड कैसे इस्तेमाल करें: केस, नियम और issue spotting जो सच में टिके](https://nibomo.com/blog/how-to-use-flashcards-for-law-school/)
 
 ## ऐसा deck बनाइए जो आपको law जल्दी पहचानने और जल्दी कहने में मदद करे
 

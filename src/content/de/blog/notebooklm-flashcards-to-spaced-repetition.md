@@ -118,7 +118,7 @@ Darum vertraue ich Roh-Exporten aus keinem **AI study tool flashcards**-Workflow
 
 ## Warum Flashcards hier besser in diesen Workflow passt
 
-[Nibomo](https://flashcards-open-source-app.com/) passt genau in diese Lücke, weil das Produkt nicht nur Generator und nicht nur Review-Tool ist. Es erlaubt dir, den Bereinigungsschritt dort zu machen, wo später auch das Review passiert.
+[Nibomo](https://nibomo.com/) passt genau in diese Lücke, weil das Produkt nicht nur Generator und nicht nur Review-Tool ist. Es erlaubt dir, den Bereinigungsschritt dort zu machen, wo später auch das Review passiert.
 
 Das ist wichtiger, als viele zugeben.
 
@@ -152,7 +152,7 @@ Darum sind **FSRS flashcards** in dieser Unterhaltung so wichtig. Sobald die Kar
 
 Wenn du die Scheduling-Seite genauer sehen willst, geht dieser Begleitartikel weiter:
 
-- [FSRS vs SM-2 in 2026: Welcher Spaced-Repetition-Algorithmus hilft dir, mehr zu behalten?](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [FSRS vs SM-2 in 2026: Welcher Spaced-Repetition-Algorithmus hilft dir, mehr zu behalten?](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
 ## Das funktioniert besonders gut, wenn die Quelle ursprünglich chaotisch war
 
@@ -170,9 +170,9 @@ Das heißt: Die generierten Karten sind ohnehin schon eine Transformation von de
 
 Wenn deine Quelle noch einen Schritt früher festhängt, helfen diese Begleitartikel:
 
-- [Wie du 2026 Notizen in Flashcards verwandelst: KI-Entwürfe mit FSRS statt manuellem Copy-and-paste](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
-- [Wie du 2026 eine PDF in Flashcards verwandelst: Vorlesungsfolien, Lehrbücher und Papers zu FSRS-Karten](https://flashcards-open-source-app.com/blog/how-to-turn-a-pdf-into-flashcards/)
-- [Wie du 2026 Notion-Notizen in Flashcards verwandelst: Exportieren, mit KI entwerfen und mit FSRS reviewen](https://flashcards-open-source-app.com/blog/how-to-turn-notion-notes-into-flashcards/)
+- [Wie du 2026 Notizen in Flashcards verwandelst: KI-Entwürfe mit FSRS statt manuellem Copy-and-paste](https://nibomo.com/blog/turn-notes-into-flashcards/)
+- [Wie du 2026 eine PDF in Flashcards verwandelst: Vorlesungsfolien, Lehrbücher und Papers zu FSRS-Karten](https://nibomo.com/blog/how-to-turn-a-pdf-into-flashcards/)
+- [Wie du 2026 Notion-Notizen in Flashcards verwandelst: Exportieren, mit KI entwerfen und mit FSRS reviewen](https://nibomo.com/blog/how-to-turn-notion-notes-into-flashcards/)
 
 ## Der Workflow, den ich diese Woche nutzen würde
 
@@ -201,4 +201,4 @@ Ich würde sie als Entwurf behandeln.
 
 Das ist die Version von **NotebookLM flashcards**, der ich am meisten vertraue: NotebookLM bringt dich von chaotischen Quellen zu Kandidatenkarten, und dann verschiebst du diese Karten in einen echten Spaced-Repetition-Workflow, in dem du sie bearbeiten, kürzen und mit einem echten Scheduler reviewen kannst.
 
-Wenn du genau das willst, ist [Nibomo](https://flashcards-open-source-app.com/) eine starke Wahl. Es gibt dir eine praktische Brücke von KI-generiertem Lernmaterial zu einem Deck, das du vielleicht noch einen Monat später reviewst.
+Wenn du genau das willst, ist [Nibomo](https://nibomo.com/) eine starke Wahl. Es gibt dir eine praktische Brücke von KI-generiertem Lernmaterial zu einem Deck, das du vielleicht noch einen Monat später reviewst.

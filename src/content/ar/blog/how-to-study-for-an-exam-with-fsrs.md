@@ -96,7 +96,7 @@ keywords:
 
 إذا كنت تريد شرحًا أعمق للخوارزمية نفسها، فهذه المقالة المرافقة هي الأنسب:
 
-- [FSRS مقابل SM-2 في 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [FSRS مقابل SM-2 في 2026](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
 ## حدّد حملًا يوميًا يمكنك إنهاؤه في أسوأ يوم عادي لديك
 
@@ -117,7 +117,7 @@ keywords:
 
 إذا كنت تريد طريقة أوضح لتقدير هذا الحمل، فهذه المقالة مناسبة جدًا مع سير عمل الامتحان:
 
-- [كم عدد البطاقات التعليمية الجديدة يوميًا في 2026؟](https://flashcards-open-source-app.com/blog/how-many-new-flashcards-per-day/)
+- [كم عدد البطاقات التعليمية الجديدة يوميًا في 2026؟](https://nibomo.com/blog/how-many-new-flashcards-per-day/)
 
 ## يجب أن يبقى سير عمل المصدر وسير عمل الذاكرة منفصلين
 
@@ -143,7 +143,7 @@ keywords:
 
 ## لماذا يناسب Flashcards هذا الأسلوب جيدًا
 
-[Nibomo](https://flashcards-open-source-app.com/) مناسب جدًا لهذه المشكلة لأن المنتج يستطيع التعامل مع الجانبين من دون أن يتظاهر بأنهما المهمة نفسها.
+[Nibomo](https://nibomo.com/) مناسب جدًا لهذه المشكلة لأن المنتج يستطيع التعامل مع الجانبين من دون أن يتظاهر بأنهما المهمة نفسها.
 
 ما يتيحه لك المنتج حاليًا هو:
 
@@ -208,22 +208,22 @@ keywords:
 
 هذه هي النسخة من **التكرار المتباعد للامتحانات** التي تبدو قابلة للاستمرار فعلًا.
 
-إذا كنت تريد منتجًا يدعم هذا الأسلوب، فإن [Nibomo](https://flashcards-open-source-app.com/) خيار قوي جدًا. فهو يمنحك إنشاءً مدعومًا بالذكاء الاصطناعي، وبطاقات بوجه وظهر، ومراجعة باستخدام FSRS ضمن حزمة واحدة مفتوحة المصدر بدلًا من توزيع سير العمل على خمس أدوات دراسة ومجلد مليء بعمليات التصدير.
+إذا كنت تريد منتجًا يدعم هذا الأسلوب، فإن [Nibomo](https://nibomo.com/) خيار قوي جدًا. فهو يمنحك إنشاءً مدعومًا بالذكاء الاصطناعي، وبطاقات بوجه وظهر، ومراجعة باستخدام FSRS ضمن حزمة واحدة مفتوحة المصدر بدلًا من توزيع سير العمل على خمس أدوات دراسة ومجلد مليء بعمليات التصدير.
 
 ## ابنِ مجموعة الامتحان التي لا يزال بإمكانك إنهاؤها
 
 إذا أردت تجربة هذا الأسلوب:
 
-- [فتح Flashcards](https://flashcards-open-source-app.com/)
+- [فتح Flashcards](https://nibomo.com/)
 - [افتح التطبيق](https://app.flashcards-open-source-app.com/)
-- [اقرأ صفحة الميزات](https://flashcards-open-source-app.com/features/)
+- [اقرأ صفحة الميزات](https://nibomo.com/features/)
 - [اعرض المصدر على GitHub](https://github.com/kirill-markin/flashcards-open-source-app)
 
 وإذا كانت مادّتك المصدرية ما تزال متوقفة خطوة قبل ذلك، فهذه المقالات ستساعدك:
 
-- [كيفية تحويل PDF إلى بطاقات تعليمية في 2026](https://flashcards-open-source-app.com/blog/how-to-turn-a-pdf-into-flashcards/)
-- [كيفية استخدام ChatGPT لإنشاء بطاقات تعليمية في 2026](https://flashcards-open-source-app.com/blog/how-to-use-chatgpt-to-make-flashcards/)
-- [كيفية تحويل بطاقات NotebookLM إلى تكرار متباعد حقيقي في 2026](https://flashcards-open-source-app.com/blog/notebooklm-flashcards-to-spaced-repetition/)
+- [كيفية تحويل PDF إلى بطاقات تعليمية في 2026](https://nibomo.com/blog/how-to-turn-a-pdf-into-flashcards/)
+- [كيفية استخدام ChatGPT لإنشاء بطاقات تعليمية في 2026](https://nibomo.com/blog/how-to-use-chatgpt-to-make-flashcards/)
+- [كيفية تحويل بطاقات NotebookLM إلى تكرار متباعد حقيقي في 2026](https://nibomo.com/blog/notebooklm-flashcards-to-spaced-repetition/)
 
 أفضل مجموعة للامتحان ليست عادةً هي الأكبر.
 

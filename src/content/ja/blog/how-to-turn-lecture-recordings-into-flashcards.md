@@ -180,9 +180,9 @@ keywords:
 
 だからこの流れは、次のような近い資料タイプとも自然につながります。
 
-- [2026年版 PDFをフラッシュカード化する方法: 講義スライド・教科書・論文からFSRS向けカードを作る](https://flashcards-open-source-app.com/blog/how-to-turn-a-pdf-into-flashcards/)
-- [2026年、ノートをフラッシュカードに変える方法: 手作業のコピペの代わりにAIの下書きとFSRSを使う](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
-- [2026年、YouTube動画をフラッシュカードに変える方法: 講義、チュートリアル、語学動画をAIでカード化する](https://flashcards-open-source-app.com/blog/youtube-to-flashcards/)
+- [2026年版 PDFをフラッシュカード化する方法: 講義スライド・教科書・論文からFSRS向けカードを作る](https://nibomo.com/blog/how-to-turn-a-pdf-into-flashcards/)
+- [2026年、ノートをフラッシュカードに変える方法: 手作業のコピペの代わりにAIの下書きとFSRSを使う](https://nibomo.com/blog/turn-notes-into-flashcards/)
+- [2026年、YouTube動画をフラッシュカードに変える方法: 講義、チュートリアル、語学動画をAIでカード化する](https://nibomo.com/blog/youtube-to-flashcards/)
 
 素材が違っても、根本のルールは同じです。根拠のある資料から始めて、AI に勉強法そのものを発明させるのではなく、焦点の絞られたカードを下書きする。
 
@@ -222,7 +222,7 @@ keywords:
 
 ## Nibomo が合う理由
 
-[Nibomo](https://flashcards-open-source-app.com/) は、**講義録音をフラッシュカードで勉強するやり方** と相性が良い選択肢です。文字起こしや AI による下書きだけでは解決しない部分を埋めてくれるからです。
+[Nibomo](https://nibomo.com/) は、**講義録音をフラッシュカードで勉強するやり方** と相性が良い選択肢です。文字起こしや AI による下書きだけでは解決しない部分を埋めてくれるからです。
 
 - 表と裏を持つ本物のフラッシュカードアプリ
 - デッキとタグ
@@ -253,7 +253,7 @@ keywords:
 
 アルゴリズム側をもう少し詳しく知りたいなら、こちらの記事があります。
 
-- [2026年の FSRS vs SM-2: どの間隔反復アルゴリズムがより多く覚えられるか](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [2026年の FSRS vs SM-2: どの間隔反復アルゴリズムがより多く覚えられるか](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
 ## カードにする価値があるかを見分ける、実用的な基準
 
@@ -287,9 +287,9 @@ keywords:
 
 **講義の文字起こしからフラッシュカードを作る流れ** を組みたいなら、まずはここから始めてください。
 
-- [Nibomo を開く](https://flashcards-open-source-app.com/)
+- [Nibomo を開く](https://nibomo.com/)
 - [アプリを開く](https://app.flashcards-open-source-app.com/)
-- [セルフホスティングガイドを読む](https://flashcards-open-source-app.com/docs/self-hosting/)
+- [セルフホスティングガイドを読む](https://nibomo.com/docs/self-hosting/)
 - [GitHub でソースを見る](https://github.com/kirill-markin/flashcards-open-source-app)
 
 講義録音には価値があります。

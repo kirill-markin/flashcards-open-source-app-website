@@ -40,7 +40,7 @@ That is why **NCLEX NGN flashcards** should not look like a pile of nursing-scho
 
 ## This is where NCLEX prep splits from nursing school
 
-The broader [How to Use Flashcards for Nursing School in 2026](https://flashcards-open-source-app.com/blog/how-to-use-flashcards-for-nursing-school/) post is still useful if you are juggling lecture content, skills checkoffs, and course exams.
+The broader [How to Use Flashcards for Nursing School in 2026](https://nibomo.com/blog/how-to-use-flashcards-for-nursing-school/) post is still useful if you are juggling lecture content, skills checkoffs, and course exams.
 
 This article is narrower.
 
@@ -107,7 +107,7 @@ If the same pattern keeps showing up, then it deserves card space.
 
 If the miss was mostly, "I read too fast and skipped one word," that is real, but it is not a flashcard problem.
 
-This is where [How to Turn Practice Questions Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/) becomes the better companion article. Most useful **NCLEX RN flashcards** come from the structure of your misses, not from copying content out of a review book.
+This is where [How to Turn Practice Questions Into Flashcards in 2026](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/) becomes the better companion article. Most useful **NCLEX RN flashcards** come from the structure of your misses, not from copying content out of a review book.
 
 ## Partial credit should change how you store a miss
 
@@ -225,7 +225,7 @@ I would keep the order simple:
 2. keep the deck controlled
 3. let FSRS handle the timing
 
-If you want the scheduling side in more detail, [How to Study for an Exam With FSRS in 2026](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/) is the direct follow-up.
+If you want the scheduling side in more detail, [How to Study for an Exam With FSRS in 2026](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/) is the direct follow-up.
 
 ## Your last 7 to 10 days before the NCLEX should feel tighter
 
@@ -247,7 +247,7 @@ This is also where the difference between a nursing-school deck and an NCLEX dec
 
 ## Where Flashcards fits
 
-[Nibomo](https://flashcards-open-source-app.com/) fits this workflow well because it gives you the boring things that matter: small front/back cards, tags, filtered review, and FSRS scheduling once the cards are clean enough to trust.
+[Nibomo](https://nibomo.com/) fits this workflow well because it gives you the boring things that matter: small front/back cards, tags, filtered review, and FSRS scheduling once the cards are clean enough to trust.
 
 That is useful for NCLEX prep because your source material gets messy fast. Rationales live in one tab, handwritten notes in another, a lab-values sheet somewhere else, and your real weak spots are usually scattered across all of them. The right tool is the one that lets you turn those into smaller cards without creating a second full-time study system.
 

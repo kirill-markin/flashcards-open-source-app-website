@@ -51,7 +51,7 @@ keywords:
 
 यहीं **Step 2 CK management फ़्लैशकार्ड** अपनी जगह कमाते हैं। उन्हें clinical decisions के लिए तेज़ retrieval drills जैसा महसूस होना चाहिए, deck में छिपे दूसरे textbook जैसा नहीं।
 
-अगर आप training के पहले के चरण में हैं और इस workflow का broader version चाहते हैं, तो [2026 में मेडिकल स्कूल के लिए फ्लैशकार्ड कैसे इस्तेमाल करें](https://flashcards-open-source-app.com/blog/how-to-use-flashcards-for-medical-school/) ज़्यादा सही शुरुआती लेख है। अगर आप अब भी mechanisms, pathology images, और integrated systems वाली Step 1 memory world में हैं, तो [2026 में USMLE Step 1 के लिए फ़्लैशकार्ड कैसे इस्तेमाल करें](https://flashcards-open-source-app.com/blog/how-to-use-flashcards-for-usmle-step-1/) इससे ज़्यादा क़रीबी match है।
+अगर आप training के पहले के चरण में हैं और इस workflow का broader version चाहते हैं, तो [2026 में मेडिकल स्कूल के लिए फ्लैशकार्ड कैसे इस्तेमाल करें](https://nibomo.com/blog/how-to-use-flashcards-for-medical-school/) ज़्यादा सही शुरुआती लेख है। अगर आप अब भी mechanisms, pathology images, और integrated systems वाली Step 1 memory world में हैं, तो [2026 में USMLE Step 1 के लिए फ़्लैशकार्ड कैसे इस्तेमाल करें](https://nibomo.com/blog/how-to-use-flashcards-for-usmle-step-1/) इससे ज़्यादा क़रीबी match है।
 
 ## आपकी reading की तुलना में shelf misses को deck को ज़्यादा दिशा देनी चाहिए
 
@@ -84,7 +84,7 @@ Reading, lectures, review videos, और ward notes सभी आपको क�
 
 ये असली समस्याएँ हैं। बस ये flashcard problems नहीं हैं।
 
-अगर आपका raw material ज़्यादातर missed questions हैं, तो [2026 में अभ्यास प्रश्नों को फ़्लैशकार्ड में कैसे बदलें](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/) इसका सीधा companion workflow है।
+अगर आपका raw material ज़्यादातर missed questions हैं, तो [2026 में अभ्यास प्रश्नों को फ़्लैशकार्ड में कैसे बदलें](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/) इसका सीधा companion workflow है।
 
 ## Cards को disease label के आसपास नहीं, decision hinge के आसपास बनाइए
 
@@ -229,7 +229,7 @@ USMLE यह भी कहता है कि नई interface में update
 
 यह हर छोटे topic के लिए अलग permanent deck बनाने से कहीं साफ़ study pattern देता है, जो बस एक हफ़्ते के लिए आपकी service से गुज़रता है।
 
-अगर organization खुद ही अलग hobby बनने लगी है, तो [2026 में फ्लैशकार्ड कैसे व्यवस्थित करें](https://flashcards-open-source-app.com/blog/how-to-organize-flashcards/) सही सुधार है।
+अगर organization खुद ही अलग hobby बनने लगी है, तो [2026 में फ्लैशकार्ड कैसे व्यवस्थित करें](https://nibomo.com/blog/how-to-organize-flashcards/) सही सुधार है।
 
 ## काम करने लायक Step 2 CK workflow जानबूझकर थोड़ा उबाऊ होता है
 
@@ -263,7 +263,7 @@ Deck को "इस साल मैंने जो कुछ भी छुआ"
 
 यही वह तरीका है जिससे **Step 2 CK shelf misses** और dedicated review दो अलग study systems बनने के बजाय साथ काम करने लगते हैं।
 
-अगर scheduling वाले हिस्से को और detail में देखना है, तो [2026 में FSRS के साथ परीक्षा की तैयारी कैसे करें](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/) इसका सीधा follow-up है।
+अगर scheduling वाले हिस्से को और detail में देखना है, तो [2026 में FSRS के साथ परीक्षा की तैयारी कैसे करें](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/) इसका सीधा follow-up है।
 
 ## FSRS तब मदद करता है जब cards एक साथ पाँच काम करना बंद करें
 
@@ -290,7 +290,7 @@ Step 2 CK memory बहुत सामान्य तरीके से uneve
 
 ## इस Step 2 CK workflow में Flashcards क्यों ठीक बैठता है
 
-अगर आप यह workflow [Nibomo](https://flashcards-open-source-app.com/) के भीतर चलाना चाहते हैं, तो उपयोगी बात यह नहीं कि product clinical thinking की जगह लेता है। उपयोगी बात यह है कि यह बिखरे हुए Step 2 source material से छोटे, reviewable cards तक पहुँचने का तेज़ रास्ता देता है।
+अगर आप यह workflow [Nibomo](https://nibomo.com/) के भीतर चलाना चाहते हैं, तो उपयोगी बात यह नहीं कि product clinical thinking की जगह लेता है। उपयोगी बात यह है कि यह बिखरे हुए Step 2 source material से छोटे, reviewable cards तक पहुँचने का तेज़ रास्ता देता है।
 
 असल में मायने रखने वाली चीज़ें सीधी हैं:
 
@@ -303,7 +303,7 @@ Step 2 CK memory बहुत सामान्य तरीके से uneve
 
 यह मेल इसलिए मायने रखता है क्योंकि Step 2 CK source material डिफ़ॉल्ट रूप से बिखरा हुआ होता है। Shelf questions, ward notes, explanations, और review docs सब अलग-अलग जगह रहते हैं। बेहतर system वही है जो आपको इन सबको ज़्यादा संकरे cards में बदलने दे, बिना deck maintenance को अलग clerkship बनाए।
 
-अगर असली समस्या medical content नहीं, बल्कि card quality है, तो [2026 में बेहतर फ्लैशकार्ड कैसे बनाएँ](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/) अगला बेहतर लेख है।
+अगर असली समस्या medical content नहीं, बल्कि card quality है, तो [2026 में बेहतर फ्लैशकार्ड कैसे बनाएँ](https://nibomo.com/blog/how-to-make-better-flashcards/) अगला बेहतर लेख है।
 
 ## काम की बात
 

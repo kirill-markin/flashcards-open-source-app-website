@@ -142,7 +142,7 @@ That fits much better than preserving an entire dialogue in miniature.
 
 If you want the broader card-quality rules, start here:
 
-- [How to Make Better Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [How to Make Better Flashcards in 2026](https://nibomo.com/blog/how-to-make-better-flashcards/)
 
 ## ChatGPT Voice is especially good for active recall failures
 
@@ -173,7 +173,7 @@ That makes **ChatGPT voice language learning** a different workflow from dictati
 
 If your source is raw audio you recorded for yourself instead of an interactive conversation, this guide is the better match:
 
-- [How to Turn Voice Notes Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-turn-voice-notes-into-flashcards/)
+- [How to Turn Voice Notes Into Flashcards in 2026](https://nibomo.com/blog/how-to-turn-voice-notes-into-flashcards/)
 
 ## Language learning cards should stay close to your real conversations
 
@@ -224,8 +224,8 @@ If not, let the phrase stay inside the session and die there.
 
 If review load is already your bigger problem, these companion pieces fit right next to this one:
 
-- [How Many New Flashcards Per Day in 2026?](https://flashcards-open-source-app.com/blog/how-many-new-flashcards-per-day/)
-- [How to Catch Up on Flashcards After Falling Behind in 2026](https://flashcards-open-source-app.com/blog/how-to-catch-up-on-flashcards-after-falling-behind/)
+- [How Many New Flashcards Per Day in 2026?](https://nibomo.com/blog/how-many-new-flashcards-per-day/)
+- [How to Catch Up on Flashcards After Falling Behind in 2026](https://nibomo.com/blog/how-to-catch-up-on-flashcards-after-falling-behind/)
 
 ## FSRS matters because spoken phrases decay strangely
 
@@ -248,11 +248,11 @@ The sequence I trust is still:
 
 If you want the scheduling side in more detail, this piece goes deeper:
 
-- [FSRS vs SM-2 in 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [FSRS vs SM-2 in 2026](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
 ## Where Nibomo fits
 
-[Nibomo](https://flashcards-open-source-app.com/) is a good fit for this workflow because the product already lines up with what voice-based language practice needs:
+[Nibomo](https://nibomo.com/) is a good fit for this workflow because the product already lines up with what voice-based language practice needs:
 
 - clean front/back card creation
 - FSRS scheduling for long-term review
@@ -284,7 +284,7 @@ Then let spaced repetition do the quiet work afterward.
 
 If that is what you want, start here:
 
-- [Open Nibomo](https://flashcards-open-source-app.com/)
-- [Read the getting started guide](https://flashcards-open-source-app.com/docs/getting-started/)
-- [Read the API docs](https://flashcards-open-source-app.com/docs/api/)
+- [Open Nibomo](https://nibomo.com/)
+- [Read the getting started guide](https://nibomo.com/docs/getting-started/)
+- [Read the API docs](https://nibomo.com/docs/api/)
 - [View the source on GitHub](https://github.com/kirill-markin/flashcards-open-source-app)

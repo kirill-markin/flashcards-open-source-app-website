@@ -77,7 +77,7 @@ Step 1 の混合ブロックを1つ解き終えると、落とした問題がま
 
 こちらのほうが、実際の混合 Step 1 復習の感覚に近いです。
 
-専念期向け Step 1 版ではなく、もう少し広い「医学部向け」の版を読みたいなら、[2026年版 医学生のためのフラッシュカード活用法](https://flashcards-open-source-app.com/blog/how-to-use-flashcards-for-medical-school/) を読んでください。
+専念期向け Step 1 版ではなく、もう少し広い「医学部向け」の版を読みたいなら、[2026年版 医学生のためのフラッシュカード活用法](https://nibomo.com/blog/how-to-use-flashcards-for-medical-school/) を読んでください。
 
 ## 病理カードでは、パターン認識と機序を分けるべき
 
@@ -125,7 +125,7 @@ Step 1 の混合ブロックを1つ解き終えると、落とした問題がま
 
 **Step 1 病理画像フラッシュカード** は、1枚のスクリーンショットから病理学の章全体を再構築させるより、安定した1つのパターンを1つずつ教えるときに最も機能します。
 
-画像運用が弱点なら、いちばん近い関連記事は [2026年版 図をフラッシュカードに変える方法](https://flashcards-open-source-app.com/blog/how-to-turn-diagrams-into-flashcards/) です。
+画像運用が弱点なら、いちばん近い関連記事は [2026年版 図をフラッシュカードに変える方法](https://nibomo.com/blog/how-to-turn-diagrams-into-flashcards/) です。
 
 ## 画像カードは、ゆっくり読み直せることではなく、素早く見抜けることを鍛えるべき
 
@@ -218,7 +218,7 @@ Step 1 の取りこぼしは、たいてい次のような型に収まります�
 
 これらは本物の問題です。ただし、フラッシュカードで解決する問題ではありません。
 
-最良のカード源が誤答なら、[2026年版 演習問題をフラッシュカードに変える方法](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/) のほうで変換ワークフローをさらに詳しく扱っています。
+最良のカード源が誤答なら、[2026年版 演習問題をフラッシュカードに変える方法](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/) のほうで変換ワークフローをさらに詳しく扱っています。
 
 ## 生理カードは、たいてい変化の向きを問うべき
 
@@ -311,11 +311,11 @@ FSRS が助けてくれるのは、まさにそこです。
 4. 専念期の新規カード量を現実的に保つ
 5. スケジュールする価値のあるデッキになってから、タイミングは FSRS に任せる
 
-スケジューリング面をもう少し詳しく見たいなら、直接つながる記事は [2026年版 FSRSで試験勉強する方法](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/) です。すでにキューが手に負えなくなりつつあるなら、次に役立つのは [2026年版 1日に何枚の新規フラッシュカードを追加すべきか](https://flashcards-open-source-app.com/blog/how-many-new-flashcards-per-day/) です。
+スケジューリング面をもう少し詳しく見たいなら、直接つながる記事は [2026年版 FSRSで試験勉強する方法](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/) です。すでにキューが手に負えなくなりつつあるなら、次に役立つのは [2026年版 1日に何枚の新規フラッシュカードを追加すべきか](https://nibomo.com/blog/how-many-new-flashcards-per-day/) です。
 
 ## Flashcards が Step 1 ワークフローにはまる場所
 
-[Nibomo](https://flashcards-open-source-app.com/) の中でこの運用を回したいなら、価値は「AI があなたの代わりに医学を学んでくれる」という曖昧な約束にはありません。
+[Nibomo](https://nibomo.com/) の中でこの運用を回したいなら、価値は「AI があなたの代わりに医学を学んでくれる」という曖昧な約束にはありません。
 
 価値があるのは、製品がすでにこのワークフローの実務的な中間部分をカバーしていることです。
 
@@ -327,7 +327,7 @@ FSRS が助けてくれるのは、まさにそこです。
 
 これが Step 1 と相性が良いのは、たいていのボトルネックが「もっと多くの情報を探すこと」ではないからです。本当に必要なのは、混合試験日に耐えられるよう、正しい情報を十分長く復習可能な状態に保つことです。
 
-AI が見た目は整っていても復習しづらいカードを作り続けるのが主な問題なら、次に読むべきは [2026年版 AIフラッシュカードを改善する方法](https://flashcards-open-source-app.com/blog/how-to-fix-ai-flashcards/) です。
+AI が見た目は整っていても復習しづらいカードを作り続けるのが主な問題なら、次に読むべきは [2026年版 AIフラッシュカードを改善する方法](https://nibomo.com/blog/how-to-fix-ai-flashcards/) です。
 
 ## 2026年の Step 1 フラッシュカードで有効なルール
 

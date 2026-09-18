@@ -22,7 +22,7 @@ An open desktop client can sit beside a closed iPhone app. A Docker container ca
 
 Six projects passed this review. I compared their licensed source, latest stable release, local data, scheduler, sync, Anki migration, export, and exact self-hosted surface. That last boundary matters more than most feature lists admit.
 
-> **Disclosure:** I am Kirill Markin, and I build [Nibomo](https://flashcards-open-source-app.com/), one of the six apps below. Its MIT repository covers the web app, native clients, backend, sync, and infrastructure. I have not ranked it first. Anki is the safer default, Mnemosyne has a more established Anki migration path, and several choices here are much easier to operate.
+> **Disclosure:** I am Kirill Markin, and I build [Nibomo](https://nibomo.com/), one of the six apps below. Its MIT repository covers the web app, native clients, backend, sync, and infrastructure. I have not ranked it first. Anki is the safer default, Mnemosyne has a more established Anki migration path, and several choices here are much easier to operate.
 
 **Facts checked:** September 5, 2026. Stable releases are separated from work that exists only on a default branch.
 

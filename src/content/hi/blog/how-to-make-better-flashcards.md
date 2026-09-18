@@ -171,8 +171,8 @@ AI दोहराए जाने वाले मेहनत वाले क
 
 अगर आप शुरुआती मसौदे के लिए AI का इस्तेमाल कर रहे हैं, तो ये गाइड भी काम आएँगे:
 
-- [2026 में फ़्लैशकार्ड बनाने के लिए ChatGPT का इस्तेमाल कैसे करें](https://flashcards-open-source-app.com/blog/how-to-use-chatgpt-to-make-flashcards/)
-- [2026 में नोट्स को फ़्लैशकार्ड में कैसे बदलें](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
+- [2026 में फ़्लैशकार्ड बनाने के लिए ChatGPT का इस्तेमाल कैसे करें](https://nibomo.com/blog/how-to-use-chatgpt-to-make-flashcards/)
+- [2026 में नोट्स को फ़्लैशकार्ड में कैसे बदलें](https://nibomo.com/blog/turn-notes-into-flashcards/)
 
 ## कार्ड को याददाश्त परखनी चाहिए, सिर्फ पहचान नहीं
 
@@ -213,8 +213,8 @@ AI दोहराए जाने वाले मेहनत वाले क
 
 अगर आप शेड्यूलिंग वाले हिस्से को और विस्तार से समझना चाहते हैं, तो यहाँ से शुरू करें:
 
-- [2026 में FSRS बनाम SM-2](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
-- [2026 में रोज़ कितने नए फ़्लैशकार्ड जोड़ें](https://flashcards-open-source-app.com/blog/how-many-new-flashcards-per-day/)
+- [2026 में FSRS बनाम SM-2](https://nibomo.com/blog/fsrs-vs-sm-2/)
+- [2026 में रोज़ कितने नए फ़्लैशकार्ड जोड़ें](https://nibomo.com/blog/how-many-new-flashcards-per-day/)
 
 ## सबसे तेज़ सुधार कभी-कभी हटाना होता है
 
@@ -238,7 +238,7 @@ AI दोहराए जाने वाले मेहनत वाले क
 
 ## Flashcards इस तरीके के लिए उपयुक्त क्यों है
 
-[Nibomo](https://flashcards-open-source-app.com/) **प्रभावी फ़्लैशकार्ड कैसे बनाएं** के लिए उपयुक्त है, क्योंकि यह उत्पाद उन चीज़ों के आसपास बना है जो ड्राफ्टिंग के बाद सचमुच मायने रखती हैं:
+[Nibomo](https://nibomo.com/) **प्रभावी फ़्लैशकार्ड कैसे बनाएं** के लिए उपयुक्त है, क्योंकि यह उत्पाद उन चीज़ों के आसपास बना है जो ड्राफ्टिंग के बाद सचमुच मायने रखती हैं:
 
 - असली फ्रंट और बैक वाले कार्ड
 - डेक और टैग
@@ -263,9 +263,9 @@ AI दोहराए जाने वाले मेहनत वाले क
 
 अगर आप **फ़्लैशकार्ड के फ्रंट और बैक** के लिए एक व्यावहारिक सिस्टम चाहते हैं, जो AI से कार्ड बनवाने का शुरुआती उत्साह उतर जाने के बाद भी काम करे, तो यहाँ से शुरू करें:
 
-- [Nibomo खोलें](https://flashcards-open-source-app.com/)
+- [Nibomo खोलें](https://nibomo.com/)
 - [ऐप खोलें](https://app.flashcards-open-source-app.com/)
-- [स्वयं होस्ट करने की गाइड पढ़ें](https://flashcards-open-source-app.com/docs/self-hosting/)
+- [स्वयं होस्ट करने की गाइड पढ़ें](https://nibomo.com/docs/self-hosting/)
 - [GitHub पर स्रोत कोड देखें](https://github.com/kirill-markin/flashcards-open-source-app)
 
 फ़्लैशकार्ड बनाना अब आसान है।

@@ -64,7 +64,7 @@ Las tarjetas flojas suelen sonar como etiquetas de tema:
 
 Eso son apuntes. No son buenos prompts de recuerdo.
 
-Si el problema principal es la calidad de las tarjetas, [Cómo hacer mejores flashcards en 2026](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/) es el artículo complementario adecuado antes de añadir más.
+Si el problema principal es la calidad de las tarjetas, [Cómo hacer mejores flashcards en 2026](https://nibomo.com/blog/how-to-make-better-flashcards/) es el artículo complementario adecuado antes de añadir más.
 
 ## Las flashcards de LSAT Logical Reasoning deberían seguir movimientos argumentativos y respuestas trampa
 
@@ -165,7 +165,7 @@ Yo etiquetaría estas tarjetas por función, no solo por sección:
 
 Eso le da a tu registro de respuestas incorrectas una segunda vida como sistema de repaso en vez de como cementerio de buenas intenciones.
 
-Si la revisión de práctica ya es la fuente de tus mejores tarjetas, [Cómo convertir preguntas de práctica en flashcards en 2026](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/) profundiza más en ese paso.
+Si la revisión de práctica ya es la fuente de tus mejores tarjetas, [Cómo convertir preguntas de práctica en flashcards en 2026](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/) profundiza más en ese paso.
 
 ## Un flujo semanal práctico para las flashcards de LSAT
 
@@ -207,11 +207,11 @@ Lo que FSRS no hace es rescatar tarjetas vagas ni mazos anticuados. Yo mantendr�
 4. borra rápido las tarjetas flojas
 5. deja que FSRS programe las supervivientes
 
-Si quieres más detalle sobre la parte de programación, [Cómo estudiar para un examen con FSRS en 2026](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/) y [FSRS vs SM-2 en 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/) son las continuaciones directas.
+Si quieres más detalle sobre la parte de programación, [Cómo estudiar para un examen con FSRS en 2026](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/) y [FSRS vs SM-2 en 2026](https://nibomo.com/blog/fsrs-vs-sm-2/) son las continuaciones directas.
 
 ## Dónde encaja Nibomo
 
-Si quieres llevar este flujo dentro de [Nibomo](https://flashcards-open-source-app.com/), la parte útil no es una promesa vaga de que la IA estudiará por ti. La parte útil es que el producto actual ya cubre la parte intermedia del trabajo:
+Si quieres llevar este flujo dentro de [Nibomo](https://nibomo.com/), la parte útil no es una promesa vaga de que la IA estudiará por ti. La parte útil es que el producto actual ya cubre la parte intermedia del trabajo:
 
 - chat con IA y adjuntos de archivos en la app web alojada
 - creación y edición de tarjetas anverso/reverso
@@ -221,7 +221,7 @@ Si quieres llevar este flujo dentro de [Nibomo](https://flashcards-open-source-a
 
 Eso importa porque las **LSAT flashcards** no son solo un problema de generación. También son un problema de edición, de organización y de repaso.
 
-Si tu problema más grande es la estructura del mazo, lee [Cómo organizar flashcards en 2026](https://flashcards-open-source-app.com/blog/how-to-organize-flashcards/). Si ya estás pensando en 1L, [Cómo usar flashcards para la carrera de Derecho en 2026](https://flashcards-open-source-app.com/blog/how-to-use-flashcards-for-law-school/) es el siguiente paso natural después de la preparación para admisiones.
+Si tu problema más grande es la estructura del mazo, lee [Cómo organizar flashcards en 2026](https://nibomo.com/blog/how-to-organize-flashcards/). Si ya estás pensando en 1L, [Cómo usar flashcards para la carrera de Derecho en 2026](https://nibomo.com/blog/how-to-use-flashcards-for-law-school/) es el siguiente paso natural después de la preparación para admisiones.
 
 ## Construye el mazo que te ayude a ver antes el error
 

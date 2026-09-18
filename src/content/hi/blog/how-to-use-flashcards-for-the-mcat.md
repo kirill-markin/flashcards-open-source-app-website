@@ -169,8 +169,8 @@ MCAT का बहुत-सा science content "pure fact" और "full reasoni
 
 अगर आपका source material ज़्यादातर notes, slides, या textbook chunks है, तो drafting के शुरुआती stage के लिए ये companion workflows काम आते हैं:
 
-- [2026 में नोट्स को फ़्लैशकार्ड में कैसे बदलें](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
-- [2026 में PDF को फ़्लैशकार्ड में कैसे बदलें](https://flashcards-open-source-app.com/blog/how-to-turn-a-pdf-into-flashcards/)
+- [2026 में नोट्स को फ़्लैशकार्ड में कैसे बदलें](https://nibomo.com/blog/turn-notes-into-flashcards/)
+- [2026 में PDF को फ़्लैशकार्ड में कैसे बदलें](https://nibomo.com/blog/how-to-turn-a-pdf-into-flashcards/)
 
 ## गलत हुए practice questions आपके डेक के सबसे कीमती हिस्से को आकार देने चाहिए
 
@@ -201,7 +201,7 @@ MCAT का बहुत-सा science content "pure fact" और "full reasoni
 
 यह companion article उसी workflow को और detail में समझाता है:
 
-- [2026 में अभ्यास प्रश्नों को फ़्लैशकार्ड में कैसे बदलें](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/)
+- [2026 में अभ्यास प्रश्नों को फ़्लैशकार्ड में कैसे बदलें](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/)
 
 ## हर practice miss को card में मत बदलें
 
@@ -247,7 +247,7 @@ MCAT में passage practice, schedule planning, और full-length review �
 
 अगर बड़ी समस्या organization है, तो यह article MCAT workflow के साथ अच्छी तरह pair होता है:
 
-- [2026 में फ़्लैशकार्ड कैसे व्यवस्थित करें](https://flashcards-open-source-app.com/blog/how-to-organize-flashcards/)
+- [2026 में फ़्लैशकार्ड कैसे व्यवस्थित करें](https://nibomo.com/blog/how-to-organize-flashcards/)
 
 ## जब MCAT schedule uneven हो जाए, तब FSRS मदद करता है
 
@@ -274,12 +274,12 @@ FSRS वह डेक नहीं बचा सकता जो bloated cards �
 
 अगर exam-timing वाले हिस्से को और detail में समझना है, तो इसे आगे पढ़ें:
 
-- [2026 में FSRS के साथ परीक्षा की तैयारी कैसे करें](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/)
-- [2026 में FSRS बनाम SM-2](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [2026 में FSRS के साथ परीक्षा की तैयारी कैसे करें](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)
+- [2026 में FSRS बनाम SM-2](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
 ## इस MCAT workflow में Flashcards कहाँ फिट बैठता है
 
-[Nibomo](https://flashcards-open-source-app.com/) इस तरह के MCAT workflow के लिए अच्छा fit है, क्योंकि यह उन हिस्सों को एक जगह लाता है जिन्हें छात्र अक्सर बहुत-से tools में बाँट देते हैं।
+[Nibomo](https://nibomo.com/) इस तरह के MCAT workflow के लिए अच्छा fit है, क्योंकि यह उन हिस्सों को एक जगह लाता है जिन्हें छात्र अक्सर बहुत-से tools में बाँट देते हैं।
 
 Product में पहले से वे सुविधाएँ हैं जिनकी इस workflow को ज़रूरत होती है:
 
@@ -316,4 +316,4 @@ Product में पहले से वे सुविधाएँ हैं 
 
 असल तैयारी के दौरान **MCAT flashcards** का यही version टिकता है: exam के हर हिस्से का solution बनकर नहीं, और CARS passage work का substitute तो बिल्कुल नहीं, बल्कि facts, distinctions, और उन गलतियों के लिए एक durable system बनकर जिन्हें आप pressure में फिर से नहीं सीखना चाहते।
 
-अगर आप यह workflow एक open-source stack में चाहते हैं, तो [Nibomo](https://flashcards-open-source-app.com/) एक practical path देता है: notes या uploads से draft करें, अच्छे cards रखें, और review timing FSRS को सँभालने दें, जबकि आपका ध्यान actual MCAT practice पर बना रहे।
+अगर आप यह workflow एक open-source stack में चाहते हैं, तो [Nibomo](https://nibomo.com/) एक practical path देता है: notes या uploads से draft करें, अच्छे cards रखें, और review timing FSRS को सँभालने दें, जबकि आपका ध्यान actual MCAT practice पर बना रहे।

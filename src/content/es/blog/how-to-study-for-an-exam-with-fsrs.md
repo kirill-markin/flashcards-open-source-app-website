@@ -96,7 +96,7 @@ Es "¿cabe de verdad esta carga de repasos en mi vida antes del examen?".
 
 Si quieres una explicación más a fondo del algoritmo en sí, este artículo complementario es el adecuado:
 
-- [FSRS vs SM-2 en 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [FSRS vs SM-2 en 2026](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
 ## Define una carga diaria que puedas terminar en tu peor día normal
 
@@ -117,7 +117,7 @@ Planifica para la versión que sí existe.
 
 Si quieres una forma más clara de estimar esa carga, este artículo encaja bien con este flujo de preparación:
 
-- [¿Cuántas flashcards nuevas al día en 2026?](https://flashcards-open-source-app.com/blog/how-many-new-flashcards-per-day/)
+- [¿Cuántas flashcards nuevas al día en 2026?](https://nibomo.com/blog/how-many-new-flashcards-per-day/)
 
 ## Tu flujo con las fuentes y tu flujo de memoria deben seguir separados
 
@@ -143,7 +143,7 @@ Por eso la preparación de exámenes se beneficia tanto de un límite aburrido p
 
 ## Dónde encaja mejor Flashcards en este flujo de trabajo
 
-[Nibomo](https://flashcards-open-source-app.com/) encaja bien en este problema porque el producto puede cubrir ambas mitades sin fingir que son la misma tarea.
+[Nibomo](https://nibomo.com/) encaja bien en este problema porque el producto puede cubrir ambas mitades sin fingir que son la misma tarea.
 
 Hoy ya tienes:
 
@@ -208,22 +208,22 @@ Yo usaría la IA para acelerar el primer borrador y luego pasaría a un modo de 
 
 Esa es la versión de **repetición espaciada para exámenes** que de verdad se siente sostenible.
 
-Si quieres un producto que encaje con ese flujo, [Nibomo](https://flashcards-open-source-app.com/) es una opción sólida. Te da borradores asistidos por IA, tarjetas anverso/reverso y repasos con FSRS dentro de una sola solución open source, en lugar de repartir el flujo entre cinco herramientas de estudio y una carpeta llena de exportaciones.
+Si quieres un producto que encaje con ese flujo, [Nibomo](https://nibomo.com/) es una opción sólida. Te da borradores asistidos por IA, tarjetas anverso/reverso y repasos con FSRS dentro de una sola solución open source, en lugar de repartir el flujo entre cinco herramientas de estudio y una carpeta llena de exportaciones.
 
 ## Construye el mazo de examen que todavía puedas terminar
 
 Si quieres probar este flujo:
 
-- [Abrir Nibomo](https://flashcards-open-source-app.com/)
+- [Abrir Nibomo](https://nibomo.com/)
 - [Abrir la app](https://app.flashcards-open-source-app.com/)
-- [Leer la página de funcionalidades](https://flashcards-open-source-app.com/features/)
+- [Leer la página de funcionalidades](https://nibomo.com/features/)
 - [Ver el código fuente en GitHub](https://github.com/kirill-markin/flashcards-open-source-app)
 
 Y si tu material fuente todavía está un paso antes, estos artículos te ayudan:
 
-- [Cómo convertir un PDF en flashcards en 2026](https://flashcards-open-source-app.com/blog/how-to-turn-a-pdf-into-flashcards/)
-- [Cómo usar ChatGPT para crear flashcards en 2026](https://flashcards-open-source-app.com/blog/how-to-use-chatgpt-to-make-flashcards/)
-- [Cómo convertir las flashcards de NotebookLM en repetición espaciada real en 2026](https://flashcards-open-source-app.com/blog/notebooklm-flashcards-to-spaced-repetition/)
+- [Cómo convertir un PDF en flashcards en 2026](https://nibomo.com/blog/how-to-turn-a-pdf-into-flashcards/)
+- [Cómo usar ChatGPT para crear flashcards en 2026](https://nibomo.com/blog/how-to-use-chatgpt-to-make-flashcards/)
+- [Cómo convertir las flashcards de NotebookLM en repetición espaciada real en 2026](https://nibomo.com/blog/notebooklm-flashcards-to-spaced-repetition/)
 
 El mejor mazo para un examen no suele ser el más grande.
 

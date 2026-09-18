@@ -181,7 +181,7 @@ keywords:
 
 هذا هو سير العمل المرافق مباشرة إذا كانت مراجعة المحاكاة لديك هي أفضل مصدر للبطاقات أصلًا:
 
-- [كيف تحوّل أسئلة التدريب إلى بطاقات تعليمية في 2026](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/)
+- [كيف تحوّل أسئلة التدريب إلى بطاقات تعليمية في 2026](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/)
 
 ## يناسب سير العمل من الأخطاء إلى البطاقات تحضير CPA أكثر من نسخ المخططات
 
@@ -207,11 +207,11 @@ keywords:
 
 إذا استمرت خطوة كتابة البطاقات في أن تصبح رخوة وغير محددة، فاقرأ هذا بعد ذلك:
 
-- [كيف تصنع بطاقات تعليمية أفضل في 2026](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [كيف تصنع بطاقات تعليمية أفضل في 2026](https://nibomo.com/blog/how-to-make-better-flashcards/)
 
 إذا كانت المشكلة الأكبر هي تضخم المجموعة، فهذه هي المتابعة الأفضل:
 
-- [كيف تنظّم البطاقات التعليمية في 2026](https://flashcards-open-source-app.com/blog/how-to-organize-flashcards/)
+- [كيف تنظّم البطاقات التعليمية في 2026](https://nibomo.com/blog/how-to-organize-flashcards/)
 
 ## يساعد FSRS بعد أن تتوقف مجموعة CPA عن محاولة فعل كل شيء
 
@@ -229,11 +229,11 @@ keywords:
 
 إذا كنت تريد جانب الجدولة بمزيد من التفصيل، فهذه هي المقالة المرافقة مباشرة:
 
-- [كيف تذاكر لامتحان باستخدام FSRS في 2026](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/)
+- [كيف تذاكر لامتحان باستخدام FSRS في 2026](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)
 
 ## أين يندرج Flashcards في سير العمل هذا الخاص بـ CPA
 
-إذا أردت تنفيذ هذا داخل [Nibomo](https://flashcards-open-source-app.com/)، فالقيمة المفيدة ليست وعدًا ضبابيًا بأن الذكاء الاصطناعي سيمررك في اختبار CPA بطريقة سحرية.
+إذا أردت تنفيذ هذا داخل [Nibomo](https://nibomo.com/)، فالقيمة المفيدة ليست وعدًا ضبابيًا بأن الذكاء الاصطناعي سيمررك في اختبار CPA بطريقة سحرية.
 
 الجزء المفيد هو أن المنتج يدعم أصلًا الجزء الفوضوي الأوسط من سير العمل:
 

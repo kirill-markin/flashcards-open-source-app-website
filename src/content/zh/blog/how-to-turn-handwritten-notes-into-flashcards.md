@@ -160,15 +160,15 @@ PDF 通常一开始就更完整、更规整。
 
 如果你的原始材料已经是干净文本，这篇配套文章会更适合你：
 
-- [2026 年如何把笔记做成抽认卡](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
+- [2026 年如何把笔记做成抽认卡](https://nibomo.com/blog/turn-notes-into-flashcards/)
 
 如果你的来源是文档或课件，这篇更接近：
 
-- [2026 年如何把 PDF 做成抽认卡](https://flashcards-open-source-app.com/blog/how-to-turn-a-pdf-into-flashcards/)
+- [2026 年如何把 PDF 做成抽认卡](https://nibomo.com/blog/how-to-turn-a-pdf-into-flashcards/)
 
 ## Flashcards 在这套流程里适合做什么
 
-[Nibomo](https://flashcards-open-source-app.com/) 很适合“**把手写笔记做成抽认卡**”这类流程，因为这个产品已经把真正重要的部分放在一起了：
+[Nibomo](https://nibomo.com/) 很适合“**把手写笔记做成抽认卡**”这类流程，因为这个产品已经把真正重要的部分放在一起了：
 
 - AI 对话
 - 图片和文件附件
@@ -200,7 +200,7 @@ PDF 通常一开始就更完整、更规整。
 
 如果你想更详细地看排程这一侧，这篇配套文章会讲得更深一些：
 
-- [2026 年 FSRS vs SM-2](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [2026 年 FSRS vs SM-2](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
 ## 更好的规则
 
@@ -216,9 +216,9 @@ PDF 通常一开始就更完整、更规整。
 
 如果你要的正是这种流程，可以从这里开始：
 
-- [打开 Flashcards](https://flashcards-open-source-app.com/)
+- [打开 Flashcards](https://nibomo.com/)
 - [打开应用](https://app.flashcards-open-source-app.com/)
-- [阅读入门指南](https://flashcards-open-source-app.com/docs/getting-started/)
+- [阅读入门指南](https://nibomo.com/docs/getting-started/)
 - [在 GitHub 上查看源码](https://github.com/kirill-markin/flashcards-open-source-app)
 
 你的笔记不需要写得很漂亮。

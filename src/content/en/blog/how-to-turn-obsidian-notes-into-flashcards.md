@@ -98,7 +98,7 @@ That already removes most of the annoying labor from **Obsidian notes to flashca
 
 The important part comes next: you still edit the draft. Delete generic cards. Rewrite fuzzy prompts. Split anything that tests three ideas at once. If a card only makes sense when the whole note is open beside it, it is not ready yet.
 
-If you want the broader version of this workflow without the Obsidian angle, [How to Turn Notes Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/) is the better companion article.
+If you want the broader version of this workflow without the Obsidian angle, [How to Turn Notes Into Flashcards in 2026](https://nibomo.com/blog/turn-notes-into-flashcards/) is the better companion article.
 
 ## Good Obsidian cards still need to stand on their own
 
@@ -113,11 +113,11 @@ A good flashcard should still work when future-you sees it with zero note contex
 
 This is where the editing pass earns its keep. The AI draft gets you speed. The cleanup step gets you cards you will still respect next week.
 
-If you want better card-writing rules next, read [How to Make Better Flashcards](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/).
+If you want better card-writing rules next, read [How to Make Better Flashcards](https://nibomo.com/blog/how-to-make-better-flashcards/).
 
 ## Flashcards fits the Obsidian workflow without pretending to be your vault
 
-[Nibomo](https://flashcards-open-source-app.com/) makes sense here because it handles the study side of the workflow cleanly:
+[Nibomo](https://nibomo.com/) makes sense here because it handles the study side of the workflow cleanly:
 
 - create front/back cards
 - use AI chat to draft from pasted text
@@ -126,7 +126,7 @@ If you want better card-writing rules next, read [How to Make Better Flashcards]
 
 That is a better fit than pretending the app is a native Obsidian layer. It is not your note graph, vault browser, or plugin replacement. It does not need to be. The useful handoff is simpler: Obsidian stays the notes home, and Flashcards takes over once you want retrieval practice.
 
-If you want the product basics first, start with [Getting Started](https://flashcards-open-source-app.com/docs/getting-started/).
+If you want the product basics first, start with [Getting Started](https://nibomo.com/docs/getting-started/).
 
 ## FSRS is where the workflow becomes worth keeping
 
@@ -138,7 +138,7 @@ That is why FSRS matters.
 
 If the scheduler is weak, even a decent deck starts to feel repetitive. If the scheduler is strong, the workflow becomes much easier to stick with. Easy cards fade back. Hard cards return sooner. The whole system feels calmer.
 
-If you want the scheduling comparison in more detail, read [FSRS vs SM-2 in 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/).
+If you want the scheduling comparison in more detail, read [FSRS vs SM-2 in 2026](https://nibomo.com/blog/fsrs-vs-sm-2/).
 
 ## A practical Obsidian-to-flashcards workflow
 
@@ -175,7 +175,7 @@ Then move the small part that deserves active recall into a proper review system
 
 That division of labor is much cleaner than trying to study directly from a giant note graph. It also keeps the process honest. No fake sync promises. No plugin maze. Just clean Markdown in, card draft out, and spaced repetition after that.
 
-If your source material is closer to a long exported document than a note, [How to Turn an Article Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-turn-an-article-into-flashcards/) is the better related guide.
+If your source material is closer to a long exported document than a note, [How to Turn an Article Into Flashcards in 2026](https://nibomo.com/blog/how-to-turn-an-article-into-flashcards/) is the better related guide.
 
 ## The useful rule for 2026
 

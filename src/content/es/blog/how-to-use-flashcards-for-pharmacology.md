@@ -60,7 +60,7 @@ Si estás intentando **memorizar nombres de fármacos y efectos adversos**, las 
 
 Así es como una sesión de 150 tarjetas se convierte en algo que empiezas a evitar.
 
-Si tu problema más grande es la calidad de las tarjetas en general, [How to Make Better Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/) es el complemento adecuado.
+Si tu problema más grande es la calidad de las tarjetas en general, [How to Make Better Flashcards in 2026](https://nibomo.com/blog/how-to-make-better-flashcards/) es el complemento adecuado.
 
 ## Las flashcards de clases de fármacos deberían ir antes que la trivia
 
@@ -209,7 +209,7 @@ Después de una pregunta fallada, yo no guardaría toda la explicación por defe
 - ¿Era un problema de clase, de mecanismo o de confusión?
 - ¿Cuál es la tarjeta más pequeña que evitaría este mismo fallo la próxima semana?
 
-Si la mayoría de tus mejores tarjetas salen de preguntas y no de apuntes, [How to Turn Practice Questions Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/) es el siguiente artículo que encaja de forma directa.
+Si la mayoría de tus mejores tarjetas salen de preguntas y no de apuntes, [How to Turn Practice Questions Into Flashcards in 2026](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/) es el siguiente artículo que encaja de forma directa.
 
 ## Farmacología necesita volver sobre el material más que sesiones heroicas de empollar
 
@@ -228,7 +228,7 @@ No olvidas los datos de fármacos de golpe. Los olvidas por erosión:
 
 Por eso la **repetición espaciada farmacología** encaja mejor que los atracones de repaso. La materia se deteriora mediante pequeñas confusiones, así que el sistema de repaso debería reparar pequeñas confusiones.
 
-Si te interesa más la parte de programar el estudio para el examen que la parte de redactar tarjetas, [How to Study for an Exam With FSRS in 2026](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/) encaja directamente aquí.
+Si te interesa más la parte de programar el estudio para el examen que la parte de redactar tarjetas, [How to Study for an Exam With FSRS in 2026](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/) encaja directamente aquí.
 
 ## Esto es orientación de estudio, no consejo médico
 
@@ -252,12 +252,12 @@ Así es como realmente consigues **memorizar nombres de fármacos y efectos adve
 
 Si tu cola ya está creciendo más de la cuenta, estos dos artículos suelen resolver el siguiente problema:
 
-- [How Many New Flashcards Per Day in 2026?](https://flashcards-open-source-app.com/blog/how-many-new-flashcards-per-day/)
-- [How to Review Flashcards Faster in 2026](https://flashcards-open-source-app.com/blog/how-to-review-flashcards-faster/)
+- [How Many New Flashcards Per Day in 2026?](https://nibomo.com/blog/how-many-new-flashcards-per-day/)
+- [How to Review Flashcards Faster in 2026](https://nibomo.com/blog/how-to-review-flashcards-faster/)
 
 ## Dónde encaja Flashcards en este flujo
 
-[Nibomo](https://flashcards-open-source-app.com/) encaja razonablemente bien en este tipo de estudio de farmacología porque la parte útil no es delegarle la farmacología a la IA. Yo no estudiaría así.
+[Nibomo](https://nibomo.com/) encaja razonablemente bien en este tipo de estudio de farmacología porque la parte útil no es delegarle la farmacología a la IA. Yo no estudiaría así.
 
 La parte útil es más estrecha:
 

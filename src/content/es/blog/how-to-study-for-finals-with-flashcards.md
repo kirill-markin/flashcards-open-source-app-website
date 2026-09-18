@@ -36,7 +36,7 @@ Así es como las **flashcards para exámenes finales** pasan de ser útiles a co
 
 En semana de finales, el criterio tiene que ser más duro. La meta no es conservar todo lo que tocaste este semestre. La meta es meter el material de más valor en un ciclo de repaso que todavía puedas terminar antes del examen.
 
-Si quieres la parte más amplia de la planificación, [Cómo estudiar para un examen con FSRS en 2026](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs) cubre muy bien ese tema. Este artículo va del problema más desordenado que suele aparecer antes: demasiadas fuentes y muy poco tiempo de repaso.
+Si quieres la parte más amplia de la planificación, [Cómo estudiar para un examen con FSRS en 2026](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs) cubre muy bien ese tema. Este artículo va del problema más desordenado que suele aparecer antes: demasiadas fuentes y muy poco tiempo de repaso.
 
 ## Empieza por priorizar, no por generar flashcards
 
@@ -114,7 +114,7 @@ Usa los chats de IA para:
 - preguntas de seguimiento que dejaron ver una confusión
 - listas cortas de fallos probables que puedas verificar y conservar
 
-No trates todo el chat como si fuera contenido fuente definitivo. La tutoría con IA sirve para entender, pero las flashcards deberían salir de la lección ya limpia, no de cada frase bien redactada de la conversación. Si tus borradores ya están hinchados o vagos, [Cómo arreglar flashcards creadas con IA en 2026](https://flashcards-open-source-app.com/blog/how-to-fix-ai-flashcards/) es la guía adecuada para limpiarlos.
+No trates todo el chat como si fuera contenido fuente definitivo. La tutoría con IA sirve para entender, pero las flashcards deberían salir de la lección ya limpia, no de cada frase bien redactada de la conversación. Si tus borradores ya están hinchados o vagos, [Cómo arreglar flashcards creadas con IA en 2026](https://nibomo.com/blog/how-to-fix-ai-flashcards/) es la guía adecuada para limpiarlos.
 
 ### Fallos en exámenes de práctica
 
@@ -129,7 +129,7 @@ Por eso yo trataría las preguntas falladas con especial cuidado:
 - divide las explicaciones largas en objetivos de recuerdo más pequeños
 - etiqueta las tarjetas para poder repasar juntas más tarde las que vienen de errores
 
-El artículo compañero para ese flujo más específico es [Cómo convertir preguntas de práctica en flashcards en 2026](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/).
+El artículo compañero para ese flujo más específico es [Cómo convertir preguntas de práctica en flashcards en 2026](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/).
 
 ## Construye un mazo desde la intersección, no cuatro mazos desde cuatro fuentes
 
@@ -156,7 +156,7 @@ Mezcla las fuentes en un solo mazo de finales por asignatura y usa etiquetas par
 
 Eso mantiene unificada la cola de repaso y, al mismo tiempo, conserva el contexto de origen cuando lo necesitas.
 
-Aquí es también donde mazos, etiquetas, filtros y búsqueda dejan de ser adornos y se vuelven útiles de verdad. Puedes repasar el mazo completo de finales con normalidad y después acotarlo a `practice-miss` o `must-know` cuando el examen esté muy cerca. Si tu organización ya se está desordenando, [Cómo organizar Flashcards en 2026](https://flashcards-open-source-app.com/blog/how-to-organize-flashcards/) es mejor artículo compañero que otra guía más para generar tarjetas.
+Aquí es también donde mazos, etiquetas, filtros y búsqueda dejan de ser adornos y se vuelven útiles de verdad. Puedes repasar el mazo completo de finales con normalidad y después acotarlo a `practice-miss` o `must-know` cuando el examen esté muy cerca. Si tu organización ya se está desordenando, [Cómo organizar Flashcards en 2026](https://nibomo.com/blog/how-to-organize-flashcards/) es mejor artículo compañero que otra guía más para generar tarjetas.
 
 ## Recorta el alcance más de lo que te pide el cuerpo
 
@@ -178,7 +178,7 @@ Los recortes más fáciles de alcance son:
 - dejar de crear tarjetas para material que ya sabes de memoria
 - dejar de fingir que cada tema merece el mismo peso
 
-Aquí ayuda [Cómo hacer mejores flashcards en 2026](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/). Las buenas tarjetas suelen ser más pequeñas, más claras y menos numerosas de lo que la gente espera.
+Aquí ayuda [Cómo hacer mejores flashcards en 2026](https://nibomo.com/blog/how-to-make-better-flashcards/). Las buenas tarjetas suelen ser más pequeñas, más claras y menos numerosas de lo que la gente espera.
 
 ## Usa FSRS para el timing, pero corta la entrada antes del examen
 
@@ -198,7 +198,7 @@ Yo usaría un ritmo simple:
 
 Cuanto más cerca esté el examen, más cambia el trabajo: menos recopilar y más recordar.
 
-Si ya vas atrasado con los repasos, resuelve ese problema de frente en vez de fingir que una tanda nueva de tarjetas te va a salvar. [Cómo ponerse al día con las flashcards después de quedarse atrás en 2026](https://flashcards-open-source-app.com/blog/how-to-catch-up-on-flashcards-after-falling-behind/) es el desvío correcto si tu cuello de botella real es la cola de repaso.
+Si ya vas atrasado con los repasos, resuelve ese problema de frente en vez de fingir que una tanda nueva de tarjetas te va a salvar. [Cómo ponerse al día con las flashcards después de quedarse atrás en 2026](https://nibomo.com/blog/how-to-catch-up-on-flashcards-after-falling-behind/) es el desvío correcto si tu cuello de botella real es la cola de repaso.
 
 ## Una tarjeta de finales debería ser más rápida que la fuente de la que salió
 
@@ -236,6 +236,6 @@ Y por eso también conviene separar el flujo de finales del flujo de "estudiar c
 
 ## Dónde encaja Flashcards en este flujo
 
-[Nibomo](https://flashcards-open-source-app.com/) encaja bien aquí porque el producto se ajusta al caos real de la semana de finales en lugar de asumir que tus materiales de estudio llegan limpios.
+[Nibomo](https://nibomo.com/) encaja bien aquí porque el producto se ajusta al caos real de la semana de finales en lugar de asumir que tus materiales de estudio llegan limpios.
 
-Puedes usar la aplicación web alojada para subir archivos, usar el chat con IA y adjuntos cuando necesites limpiar una fuente, convertir lo que sobreviva en tarjetas de anverso y reverso, editar esas tarjetas y mantener el ciclo final de repaso en un solo sitio con mazos, etiquetas, filtros, búsqueda y planificación con FSRS. Las apps offline-first para web, iOS y Android también tienen mucho más sentido en finales que otra pestaña de navegador que pierdes en cuanto te alejas del escritorio. Si quieres ver el producto con más detalle antes de probarlo, el resumen más limpio está en la [página de funcionalidades](https://flashcards-open-source-app.com/features/). Y, si te importa el control, el proyecto es open source y también admite self-hosting.
+Puedes usar la aplicación web alojada para subir archivos, usar el chat con IA y adjuntos cuando necesites limpiar una fuente, convertir lo que sobreviva en tarjetas de anverso y reverso, editar esas tarjetas y mantener el ciclo final de repaso en un solo sitio con mazos, etiquetas, filtros, búsqueda y planificación con FSRS. Las apps offline-first para web, iOS y Android también tienen mucho más sentido en finales que otra pestaña de navegador que pierdes en cuanto te alejas del escritorio. Si quieres ver el producto con más detalle antes de probarlo, el resumen más limpio está en la [página de funcionalidades](https://nibomo.com/features/). Y, si te importa el control, el proyecto es open source y también admite self-hosting.

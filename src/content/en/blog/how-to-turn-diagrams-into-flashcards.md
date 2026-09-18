@@ -224,11 +224,11 @@ The same rule applies: turn the image into a clean description first, then draft
 
 If the screenshot is text-heavy, this companion article may fit better:
 
-- [How to Turn an Article Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-turn-an-article-into-flashcards/)
+- [How to Turn an Article Into Flashcards in 2026](https://nibomo.com/blog/how-to-turn-an-article-into-flashcards/)
 
 If it is really a notebook page rather than a structured diagram, this one is closer:
 
-- [How to Turn Handwritten Notes Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-turn-handwritten-notes-into-flashcards/)
+- [How to Turn Handwritten Notes Into Flashcards in 2026](https://nibomo.com/blog/how-to-turn-handwritten-notes-into-flashcards/)
 
 ## The card should test one visual idea at a time
 
@@ -294,7 +294,7 @@ If you upload ten diagrams at once, the model starts flattening them together an
 
 ## Where Flashcards fits
 
-[Nibomo](https://flashcards-open-source-app.com/) is a good fit for a **diagram to flashcards** workflow because the product already has the pieces this process needs:
+[Nibomo](https://nibomo.com/) is a good fit for a **diagram to flashcards** workflow because the product already has the pieces this process needs:
 
 - AI chat
 - image and file attachments
@@ -314,11 +314,11 @@ That is where a real flashcards app beats a one-off diagram parser.
 
 If you want the scheduling side in more detail, this companion article is worth reading:
 
-- [FSRS vs SM-2 in 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [FSRS vs SM-2 in 2026](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
 And if your source is closer to lecture slides or a research paper than a diagram image, start here:
 
-- [How to Turn a PDF Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-turn-a-pdf-into-flashcards/)
+- [How to Turn a PDF Into Flashcards in 2026](https://nibomo.com/blog/how-to-turn-a-pdf-into-flashcards/)
 
 ## The useful rule
 
@@ -339,7 +339,7 @@ Better memory.
 
 If that is what you want, start here:
 
-- [Open Nibomo](https://flashcards-open-source-app.com/)
+- [Open Nibomo](https://nibomo.com/)
 - [Open the app](https://app.flashcards-open-source-app.com/)
-- [Read the getting started guide](https://flashcards-open-source-app.com/docs/getting-started/)
+- [Read the getting started guide](https://nibomo.com/docs/getting-started/)
 - [View the source on GitHub](https://github.com/kirill-markin/flashcards-open-source-app)

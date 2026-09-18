@@ -131,8 +131,8 @@ keywords:
 
 如果你这一部分的原始材料主要来自课堂幻灯片、讲义或复习资料，这两篇上游工作流最贴近：
 
-- [2026 年如何把 PDF 转成抽认卡](https://flashcards-open-source-app.com/blog/how-to-turn-a-pdf-into-flashcards/)
-- [2026 年如何把笔记转成抽认卡](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
+- [2026 年如何把 PDF 转成抽认卡](https://nibomo.com/blog/how-to-turn-a-pdf-into-flashcards/)
+- [2026 年如何把笔记转成抽认卡](https://nibomo.com/blog/turn-notes-into-flashcards/)
 
 ## 优先级判断和任务委派卡片，应该训练触发点，而不是整段解析
 
@@ -201,7 +201,7 @@ keywords:
 
 如果你最需要的正是这一部分工作流，这篇文章就是最直接的配套阅读：
 
-- [2026 年如何把练习题转成抽认卡](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/)
+- [2026 年如何把练习题转成抽认卡](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/)
 
 ## 每周的护理学院抽认卡工作流，应该撑得过临床轮转
 
@@ -223,7 +223,7 @@ keywords:
 
 如果你更大的问题不是写卡，而是结构，这篇文章会直接接上：
 
-- [2026 年如何整理抽认卡](https://flashcards-open-source-app.com/blog/how-to-organize-flashcards/)
+- [2026 年如何整理抽认卡](https://nibomo.com/blog/how-to-organize-flashcards/)
 
 ## 当你的学习节奏很不均匀时，FSRS 反而更重要
 
@@ -243,16 +243,16 @@ keywords:
 
 如果你的复习队列已经开始变大到难以控制，这两篇文章和护理工作流衔接得最直接：
 
-- [2026 年每天应该新增多少张抽认卡？](https://flashcards-open-source-app.com/blog/how-many-new-flashcards-per-day/)
-- [2026 年如何用 FSRS 为考试复习](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/)
+- [2026 年每天应该新增多少张抽认卡？](https://nibomo.com/blog/how-many-new-flashcards-per-day/)
+- [2026 年如何用 FSRS 为考试复习](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)
 
 如果你想先把调度模型本身看明白，也可以读这篇：
 
-- [2026 年 FSRS vs SM-2](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [2026 年 FSRS vs SM-2](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
 ## Flashcards 在这套护理工作流里适合放在哪里
 
-[Nibomo](https://flashcards-open-source-app.com/) 很适合用来跑这套 **护理学院抽认卡** 工作流，因为这个产品已经覆盖了这套方法最依赖的那些部分：
+[Nibomo](https://nibomo.com/) 很适合用来跑这套 **护理学院抽认卡** 工作流，因为这个产品已经覆盖了这套方法最依赖的那些部分：
 
 - 用于窄提示正反面卡片的前后卡结构
 - 带有工作区数据和文件附件的 AI chat，可用于根据笔记、课堂文本或题目解析起草卡片
@@ -268,7 +268,7 @@ keywords:
 
 如果你觉得目前最大的短板仍然是卡片质量，这篇文章和护理工作流也很适合一起看：
 
-- [2026 年如何做出更好的抽认卡](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [2026 年如何做出更好的抽认卡](https://nibomo.com/blog/how-to-make-better-flashcards/)
 
 ## 做出一套到了期末阶段依然顺手的护理牌组
 

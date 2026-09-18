@@ -150,7 +150,7 @@ Das kommt einem brauchbaren **Podcast zu Anki**-Workflow viel näher, als jeden 
 
 Wenn du die allgemeineren Regeln für gute Karten willst, starte hier:
 
-- [Wie du 2026 bessere Flashcards machst: Front- und Back-Regeln, die mit FSRS wirklich funktionieren](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [Wie du 2026 bessere Flashcards machst: Front- und Back-Regeln, die mit FSRS wirklich funktionieren](https://nibomo.com/blog/how-to-make-better-flashcards/)
 
 ## Verschiedene Podcasts brauchen verschiedene Kartenstile
 
@@ -188,7 +188,7 @@ Darum ist **Podcast-Notizen zu Flashcards** keine starre Formel. Die Quelle ver�
 
 Wenn die Quelle eher Sprachpraxis als allgemeines Lernen ist, passt dieser Begleitartikel besser:
 
-- [Wie du 2026 Flashcards fürs Sprachenlernen nutzt: Vokabeln, Sätze und Reviews, die wirklich hängen bleiben](https://flashcards-open-source-app.com/blog/how-to-use-flashcards-for-language-learning/)
+- [Wie du 2026 Flashcards fürs Sprachenlernen nutzt: Vokabeln, Sätze und Reviews, die wirklich hängen bleiben](https://nibomo.com/blog/how-to-use-flashcards-for-language-learning/)
 
 ## Die eigentliche Zeitersparnis ist nicht die Generierung, sondern das Wegfallen des erneuten Hörens
 
@@ -219,11 +219,11 @@ FSRS geht mit diesem ungleichmäßigen Vergessen besser um als ein fixer Review-
 
 Wenn du die Scheduling-Seite genauer verstehen willst, geht dieser Artikel tiefer:
 
-- [FSRS vs SM-2 in 2026: Welcher Spaced-Repetition-Algorithmus hilft dir, mehr zu behalten?](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [FSRS vs SM-2 in 2026: Welcher Spaced-Repetition-Algorithmus hilft dir, mehr zu behalten?](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
 ## Wo Nibomo hineinpasst
 
-[Nibomo](https://flashcards-open-source-app.com/) passt gut zu **Podcast zu Flashcards**, weil das Produkt bereits die praktischen Schritte abdeckt, die den Workflow nutzbar machen:
+[Nibomo](https://nibomo.com/) passt gut zu **Podcast zu Flashcards**, weil das Produkt bereits die praktischen Schritte abdeckt, die den Workflow nutzbar machen:
 
 - Klartext aus Podcast-Transkripten einfügen oder hochladen
 - das Material im KI-Chat bereinigen, bevor Karten erstellt werden
@@ -235,8 +235,8 @@ Diese Kombination ist wichtig, weil die schwierige Aufgabe nicht darin besteht, 
 
 Wenn deine Quelle eher Vorlesungen oder YouTube als Podcasts ähnelt, passen diese Begleitartikel ebenfalls:
 
-- [Wie du 2026 Vorlesungsaufzeichnungen in Flashcards verwandelst: Vom Transkript zu FSRS-Karten, ohne alles noch einmal anzusehen](https://flashcards-open-source-app.com/blog/how-to-turn-lecture-recordings-into-flashcards/)
-- [Wie du 2026 ein YouTube-Video in Flashcards verwandelst: KI-Entwürfe für Vorlesungen, Tutorials und Sprachvideos](https://flashcards-open-source-app.com/blog/youtube-to-flashcards/)
+- [Wie du 2026 Vorlesungsaufzeichnungen in Flashcards verwandelst: Vom Transkript zu FSRS-Karten, ohne alles noch einmal anzusehen](https://nibomo.com/blog/how-to-turn-lecture-recordings-into-flashcards/)
+- [Wie du 2026 ein YouTube-Video in Flashcards verwandelst: KI-Entwürfe für Vorlesungen, Tutorials und Sprachvideos](https://nibomo.com/blog/youtube-to-flashcards/)
 
 ## Die nützliche Regel
 

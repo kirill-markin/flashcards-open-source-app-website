@@ -100,7 +100,7 @@ Digital SAT उस चीज़ को जल्दी पहचानने प
 
 अगर card quality की दिक्कत SAT-specific strategy से बड़ी है, तो यह अगला लेख पढ़ें:
 
-- [2026 में बेहतर फ़्लैशकार्ड कैसे बनाएं](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [2026 में बेहतर फ़्लैशकार्ड कैसे बनाएं](https://nibomo.com/blog/how-to-make-better-flashcards/)
 
 ## SAT math flashcards में formulas और प्रक्रिया को अलग-अलग रखना चाहिए
 
@@ -166,7 +166,7 @@ Digital SAT में math misses अक्सर knowledge misses नहीं,
 
 अगर workflow का यही हिस्सा आपको सबसे ज़्यादा चाहिए, तो यह सीधा companion article है:
 
-- [2026 में अभ्यास प्रश्नों को फ़्लैशकार्ड में कैसे बदलें](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/)
+- [2026 में अभ्यास प्रश्नों को फ़्लैशकार्ड में कैसे बदलें](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/)
 
 ## एक ही SAT card format चारों problem types को नहीं सँभाल पाएगा
 
@@ -202,7 +202,7 @@ Digital SAT में math misses अक्सर knowledge misses नहीं,
 
 अगर आपकी बड़ी समस्या card writing नहीं, बल्कि structure है, तो यह अगला लेख पढ़ें:
 
-- [2026 में फ़्लैशकार्ड कैसे व्यवस्थित करें](https://flashcards-open-source-app.com/blog/how-to-organize-flashcards/)
+- [2026 में फ़्लैशकार्ड कैसे व्यवस्थित करें](https://nibomo.com/blog/how-to-organize-flashcards/)
 
 ## आपको शायद हज़ारों SAT flashcards की ज़रूरत नहीं है
 
@@ -228,7 +228,7 @@ Digital SAT में math misses अक्सर knowledge misses नहीं,
 
 अगर आपकी review count पहले ही बहुत तेज़ बढ़ रही है, तो यह लेख SAT workflow के साथ अच्छी तरह बैठता है:
 
-- [2026 में हर दिन कितने नए Flashcards बनाने चाहिए?](https://flashcards-open-source-app.com/blog/how-many-new-flashcards-per-day/)
+- [2026 में हर दिन कितने नए Flashcards बनाने चाहिए?](https://nibomo.com/blog/how-many-new-flashcards-per-day/)
 
 ## जब आपका SAT study schedule uneven होता है, तब FSRS सबसे ज़्यादा मदद करता है
 
@@ -255,12 +255,12 @@ FSRS क्या नहीं करता: वह बहुत ज़्या
 
 अगर आप scheduling वाले हिस्से को और विस्तार से समझना चाहते हैं, तो ये दो लेख सबसे अच्छे हैं:
 
-- [2026 में FSRS के साथ परीक्षा की तैयारी कैसे करें](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/)
-- [2026 में FSRS बनाम SM-2](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [2026 में FSRS के साथ परीक्षा की तैयारी कैसे करें](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)
+- [2026 में FSRS बनाम SM-2](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
 ## इस Digital SAT workflow में Flashcards कहाँ फिट बैठता है
 
-[Nibomo](https://flashcards-open-source-app.com/) **Digital SAT फ़्लैशकार्ड** के लिए अच्छा विकल्प है, क्योंकि मौजूदा product पहले से उन हिस्सों को support करता है जिन पर यह workflow टिका है:
+[Nibomo](https://nibomo.com/) **Digital SAT फ़्लैशकार्ड** के लिए अच्छा विकल्प है, क्योंकि मौजूदा product पहले से उन हिस्सों को support करता है जिन पर यह workflow टिका है:
 
 - front/back cards बनाना और उन्हें edit करना
 - notes, pasted explanations, या practice-test review से candidate cards draft करने के लिए AI chat
@@ -275,8 +275,8 @@ FSRS क्या नहीं करता: वह बहुत ज़्या
 
 अगर आपकी SAT prep material अभी इससे एक कदम पहले वाली अवस्था में है, तो ये लेख input side पर मदद करेंगे:
 
-- [2026 में नोट्स को Flashcards में कैसे बदलें](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
-- [2026 में PDF को Flashcards में कैसे बदलें](https://flashcards-open-source-app.com/blog/how-to-turn-a-pdf-into-flashcards/)
+- [2026 में नोट्स को Flashcards में कैसे बदलें](https://nibomo.com/blog/turn-notes-into-flashcards/)
+- [2026 में PDF को Flashcards में कैसे बदलें](https://nibomo.com/blog/how-to-turn-a-pdf-into-flashcards/)
 
 ## ऐसा SAT डेक बनाइए जो बार-बार होने वाली गलतियों को ठीक करे
 

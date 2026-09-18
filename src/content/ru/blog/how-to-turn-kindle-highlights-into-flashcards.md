@@ -152,7 +152,7 @@ keywords:
 
 Если вам нужны более общие правила составления карточек, начните отсюда:
 
-- [Как делать карточки лучше в 2026 году](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [Как делать карточки лучше в 2026 году](https://nibomo.com/blog/how-to-make-better-flashcards/)
 
 ## Для нон-фикшна, учебников и книг для изучения языка карточки не должны выглядеть одинаково
 
@@ -188,7 +188,7 @@ keywords:
 
 Если ваша цель скорее языковая практика, а не просто работа с чтением, то эта статья подойдёт лучше:
 
-- [Как использовать карточки для изучения языка в 2026 году](https://flashcards-open-source-app.com/blog/how-to-use-flashcards-for-language-learning/)
+- [Как использовать карточки для изучения языка в 2026 году](https://nibomo.com/blog/how-to-use-flashcards-for-language-learning/)
 
 ## Выделения Kindle особенно коварны тем, что кажутся более организованными, чем есть на самом деле
 
@@ -225,11 +225,11 @@ FSRS учитывает эту реальность лучше, чем фикс�
 
 Если хотите подробнее разобраться именно с расписанием, вот статья глубже по теме:
 
-- [FSRS vs SM-2 в 2026 году](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [FSRS vs SM-2 в 2026 году](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
 ## Где здесь полезен Nibomo
 
-[Nibomo](https://flashcards-open-source-app.com/) хорошо подходит для сценария **выделения Kindle в карточки**, потому что продукт уже закрывает практические части этого процесса:
+[Nibomo](https://nibomo.com/) хорошо подходит для сценария **выделения Kindle в карточки**, потому что продукт уже закрывает практические части этого процесса:
 
 - можно вставить или загрузить текст из экспортированных выделений
 - можно очистить материал в AI-чате перед созданием карточек
@@ -241,7 +241,7 @@ FSRS учитывает эту реальность лучше, чем фикс�
 
 Если ваш источник — не выделения из электронной книги, а более общие заметки, то лучше подойдёт эта статья:
 
-- [Как превратить заметки в карточки в 2026 году](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
+- [Как превратить заметки в карточки в 2026 году](https://nibomo.com/blog/turn-notes-into-flashcards/)
 
 ## Полезное правило
 
@@ -261,7 +261,7 @@ FSRS учитывает эту реальность лучше, чем фикс�
 
 Если это именно то, что вам нужно, начните отсюда:
 
-- [Открыть Nibomo](https://flashcards-open-source-app.com/)
-- [Прочитать руководство по началу работы](https://flashcards-open-source-app.com/docs/getting-started/)
-- [Прочитать документацию API](https://flashcards-open-source-app.com/docs/api/)
+- [Открыть Nibomo](https://nibomo.com/)
+- [Прочитать руководство по началу работы](https://nibomo.com/docs/getting-started/)
+- [Прочитать документацию API](https://nibomo.com/docs/api/)
 - [Посмотреть исходный код на GitHub](https://github.com/kirill-markin/flashcards-open-source-app)

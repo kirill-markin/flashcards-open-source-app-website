@@ -136,7 +136,7 @@ That is why I would not turn one Study Mode session into twenty complex cards th
 
 If you want the deeper card-quality version of this argument, this companion piece goes further:
 
-- [How to Make Better Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [How to Make Better Flashcards in 2026](https://nibomo.com/blog/how-to-make-better-flashcards/)
 
 ## This also works for Gemini Guided Learning, not only ChatGPT
 
@@ -182,8 +182,8 @@ If not, let the tutoring session stay a tutoring session.
 
 If review overload is already your problem, these pieces fit right next to this one:
 
-- [How Many New Flashcards Per Day in 2026?](https://flashcards-open-source-app.com/blog/how-many-new-flashcards-per-day/)
-- [How to Catch Up on Flashcards After Falling Behind in 2026](https://flashcards-open-source-app.com/blog/how-to-catch-up-on-flashcards-after-falling-behind/)
+- [How Many New Flashcards Per Day in 2026?](https://nibomo.com/blog/how-many-new-flashcards-per-day/)
+- [How to Catch Up on Flashcards After Falling Behind in 2026](https://nibomo.com/blog/how-to-catch-up-on-flashcards-after-falling-behind/)
 
 ## The better prompt is not "make flashcards from this"
 
@@ -201,11 +201,11 @@ That works much better than dumping a full transcript into the model and asking 
 
 If your workflow starts earlier, before Study Mode and before tutoring, this companion article covers the more direct generation route:
 
-- [How to Use ChatGPT to Make Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-use-chatgpt-to-make-flashcards/)
+- [How to Use ChatGPT to Make Flashcards in 2026](https://nibomo.com/blog/how-to-use-chatgpt-to-make-flashcards/)
 
 And if the source begins as a study guide or notebook instead of a tutoring session, this one fits too:
 
-- [How to Turn NotebookLM Flashcards Into Real Spaced Repetition in 2026](https://flashcards-open-source-app.com/blog/notebooklm-flashcards-to-spaced-repetition/)
+- [How to Turn NotebookLM Flashcards Into Real Spaced Repetition in 2026](https://nibomo.com/blog/notebooklm-flashcards-to-spaced-repetition/)
 
 ## FSRS is the part that turns a good session into long-term retention
 
@@ -225,11 +225,11 @@ Even excellent cards become annoying if they return at bad times, pile up too fa
 
 If you want the algorithm comparison itself, this goes deeper:
 
-- [FSRS vs SM-2 in 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [FSRS vs SM-2 in 2026](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
 ## Where Flashcards fits this workflow better
 
-[Nibomo](https://flashcards-open-source-app.com/) is a strong fit for **how to turn ChatGPT Study Mode into flashcards** because the product covers the part AI tutoring still does not solve by itself:
+[Nibomo](https://nibomo.com/) is a strong fit for **how to turn ChatGPT Study Mode into flashcards** because the product covers the part AI tutoring still does not solve by itself:
 
 - front/back cards instead of chat-only memory
 - AI chat for cleanup and drafting
@@ -262,9 +262,9 @@ That is the version of **ChatGPT Study Mode flashcards** that makes sense to me 
 
 If that is what you want, start here:
 
-- [Open Nibomo](https://flashcards-open-source-app.com/)
+- [Open Nibomo](https://nibomo.com/)
 - [Open the app](https://app.flashcards-open-source-app.com/)
-- [See the features](https://flashcards-open-source-app.com/features/)
+- [See the features](https://nibomo.com/features/)
 - [View the source on GitHub](https://github.com/kirill-markin/flashcards-open-source-app)
 
 The tutor helps you think through the idea today.

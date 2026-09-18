@@ -169,7 +169,7 @@ FSA向けの良い **CFA Level I フラッシュカード** は、たとえば�
 
 演習問題を主な材料にするなら、次のワークフローがそのままつながります。
 
-- [2026年版 演習問題をフラッシュカードに変える方法](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/)
+- [2026年版 演習問題をフラッシュカードに変える方法](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/)
 
 ## すべてのミスをカード化しない
 
@@ -217,7 +217,7 @@ CFA Level Iなら、通常は1つのデッキで十分です。タグが細部�
 
 整理そのものが問題になっているなら、次に読むべきはこちらです。
 
-- [2026年版 フラッシュカードの整理術](https://flashcards-open-source-app.com/blog/how-to-organize-flashcards/)
+- [2026年版 フラッシュカードの整理術](https://nibomo.com/blog/how-to-organize-flashcards/)
 
 ## 現実の生活に耐える週次CFAフラッシュカード運用
 
@@ -255,8 +255,8 @@ FSRSが役立つのは、簡単なカードを遠くへ送り、難しいカー�
 
 スケジューリングの考え方がまだ曖昧なら、次の記事でさらに詳しく扱っています。
 
-- [2026年版 FSRS vs SM-2](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
-- [2026年に FSRS で試験勉強する方法](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/)
+- [2026年版 FSRS vs SM-2](https://nibomo.com/blog/fsrs-vs-sm-2/)
+- [2026年に FSRS で試験勉強する方法](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)
 
 ## 日付に左右されるCFA情報は分けておく
 
@@ -275,7 +275,7 @@ CFA関連の細部は変わります。試験ウィンドウ、受験料、登�
 
 ## このCFAワークフローでFlashcardsが合う場所
 
-[Nibomo](https://flashcards-open-source-app.com/) は、CFA Instituteの教材を置き換えるふりをせず、CFAデッキで本当に必要な部分を支えられるので、このワークフローに合います。
+[Nibomo](https://nibomo.com/) は、CFA Instituteの教材を置き換えるふりをせず、CFAデッキで本当に必要な部分を支えられるので、このワークフローに合います。
 
 - 表/裏カードの作成と編集
 - トピックと出典を整理するためのデッキとタグ
@@ -291,9 +291,9 @@ CFA関連の細部は変わります。試験ウィンドウ、受験料、登�
 
 それを始めたいなら、こちらからどうぞ。
 
-- [Flashcardsを開く](https://flashcards-open-source-app.com/)
+- [Flashcardsを開く](https://nibomo.com/)
 - [アプリを開く](https://app.flashcards-open-source-app.com/)
-- [はじめ方ガイドを読む](https://flashcards-open-source-app.com/docs/getting-started/)
+- [はじめ方ガイドを読む](https://nibomo.com/docs/getting-started/)
 - [GitHubでソースを見る](https://github.com/kirill-markin/flashcards-open-source-app)
 
 デッキは誰かに見せて感心される必要はありません。90秒が尽きる前に、次の問題に答えられるよう助けてくれれば十分です。

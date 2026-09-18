@@ -16,7 +16,7 @@ If Anki already holds your cards and review history, switching apps is a data-mi
 
 That boundary decides most **Anki vs Nibomo** comparisons. Stay with Anki when collection fidelity, templates, add-ons, shared decks, or an established review habit matter most. Try Nibomo when you can start with a new or mostly text-based deck and care more about whole-stack source access, offline-first sync, built-in AI, or agent workflows.
 
-> **Disclosure:** I am Kirill Markin, and I build [Nibomo](https://flashcards-open-source-app.com/). I have a clear interest in the product, so this comparison treats Anki as the default for workflows that Nibomo cannot yet reproduce.
+> **Disclosure:** I am Kirill Markin, and I build [Nibomo](https://nibomo.com/). I have a clear interest in the product, so this comparison treats Anki as the default for workflows that Nibomo cannot yet reproduce.
 
 **Facts checked:** August 23, 2026.
 

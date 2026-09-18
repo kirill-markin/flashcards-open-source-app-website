@@ -150,7 +150,7 @@ keywords:
 
 إذا كنت تريد قواعد أوسع لكتابة البطاقات، فابدأ من هنا:
 
-- [كيفية إنشاء Flashcards أفضل في عام 2026](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [كيفية إنشاء Flashcards أفضل في عام 2026](https://nibomo.com/blog/how-to-make-better-flashcards/)
 
 ## أنواع البودكاست المختلفة تحتاج إلى أنماط بطاقات مختلفة
 
@@ -188,7 +188,7 @@ keywords:
 
 إذا كان المصدر أقرب إلى ممارسة اللغة منه إلى التعلّم العام، فهذه المقالة المصاحبة أنسب:
 
-- [كيفية استخدام Flashcards لتعلم اللغة في عام 2026](https://flashcards-open-source-app.com/blog/how-to-use-flashcards-for-language-learning/)
+- [كيفية استخدام Flashcards لتعلم اللغة في عام 2026](https://nibomo.com/blog/how-to-use-flashcards-for-language-learning/)
 
 ## التوفير الحقيقي للوقت ليس في التوليد، بل في تقليل إعادة الاستماع
 
@@ -219,11 +219,11 @@ keywords:
 
 إذا كنت تريد التعمق أكثر في جانب الجدولة، فهذه المقالة تشرح ذلك بتفصيل أكبر:
 
-- [FSRS مقابل SM-2 في عام 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [FSRS مقابل SM-2 في عام 2026](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
 ## أين يناسب Nibomo هذا المسار
 
-يُعد [Nibomo](https://flashcards-open-source-app.com/) مناسبًا جدًا لمسار **تحويل البودكاست إلى Flashcards** لأن المنتج يغطي بالفعل الخطوات العملية التي تجعل هذا الأسلوب قابلًا للاستخدام:
+يُعد [Nibomo](https://nibomo.com/) مناسبًا جدًا لمسار **تحويل البودكاست إلى Flashcards** لأن المنتج يغطي بالفعل الخطوات العملية التي تجعل هذا الأسلوب قابلًا للاستخدام:
 
 - لصق نصوص البودكاست أو رفعها كنص عادي
 - تنظيف المادة داخل دردشة الذكاء الاصطناعي قبل إنشاء البطاقات
@@ -235,8 +235,8 @@ keywords:
 
 إذا كان المصدر أقرب إلى المحاضرات أو YouTube منه إلى البودكاست، فهذه المقالات المصاحبة مناسبة أيضًا:
 
-- [كيفية تحويل تسجيلات المحاضرات إلى Flashcards في عام 2026](https://flashcards-open-source-app.com/blog/how-to-turn-lecture-recordings-into-flashcards/)
-- [كيفية تحويل فيديو YouTube إلى Flashcards في عام 2026](https://flashcards-open-source-app.com/blog/youtube-to-flashcards/)
+- [كيفية تحويل تسجيلات المحاضرات إلى Flashcards في عام 2026](https://nibomo.com/blog/how-to-turn-lecture-recordings-into-flashcards/)
+- [كيفية تحويل فيديو YouTube إلى Flashcards في عام 2026](https://nibomo.com/blog/youtube-to-flashcards/)
 
 ## القاعدة المفيدة
 

@@ -60,7 +60,7 @@ If you are trying to **memorize drug names and side effects**, big summary cards
 
 That is how a 150-card session turns into something you avoid.
 
-If your bigger issue is card quality in general, [How to Make Better Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/) is the right companion piece.
+If your bigger issue is card quality in general, [How to Make Better Flashcards in 2026](https://nibomo.com/blog/how-to-make-better-flashcards/) is the right companion piece.
 
 ## Drug class flashcards should come before trivia
 
@@ -209,7 +209,7 @@ After a missed question, I would not save the whole rationale by default. I woul
 - Was this a class problem, mechanism problem, or confusion problem?
 - What is the smallest card that would stop this same miss next week?
 
-If most of your best cards come from questions rather than notes, [How to Turn Practice Questions Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/) is the direct follow-up.
+If most of your best cards come from questions rather than notes, [How to Turn Practice Questions Into Flashcards in 2026](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/) is the direct follow-up.
 
 ## Pharmacology needs revisitation more than heroic cramming
 
@@ -228,7 +228,7 @@ You do not forget drug facts all at once. You forget them by erosion:
 
 That is why **pharmacology spaced repetition** is a better fit than binge review. The subject decays through small confusions, so the review system should repair small confusions.
 
-If you want the exam-scheduling side rather than the card-writing side, [How to Study for an Exam With FSRS in 2026](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/) fits directly here.
+If you want the exam-scheduling side rather than the card-writing side, [How to Study for an Exam With FSRS in 2026](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/) fits directly here.
 
 ## This is study guidance, not medical advice
 
@@ -252,12 +252,12 @@ That is how you actually **memorize drug names and side effects** without turnin
 
 If your queue is already getting heavier than it should, these two articles usually solve the next problem:
 
-- [How Many New Flashcards Per Day in 2026?](https://flashcards-open-source-app.com/blog/how-many-new-flashcards-per-day/)
-- [How to Review Flashcards Faster in 2026](https://flashcards-open-source-app.com/blog/how-to-review-flashcards-faster/)
+- [How Many New Flashcards Per Day in 2026?](https://nibomo.com/blog/how-many-new-flashcards-per-day/)
+- [How to Review Flashcards Faster in 2026](https://nibomo.com/blog/how-to-review-flashcards-faster/)
 
 ## Where Flashcards fits in this workflow
 
-[Nibomo](https://flashcards-open-source-app.com/) is a reasonable fit for this kind of pharmacology study because the useful part is not handing the pharmacology over to AI. I would not study that way.
+[Nibomo](https://nibomo.com/) is a reasonable fit for this kind of pharmacology study because the useful part is not handing the pharmacology over to AI. I would not study that way.
 
 The useful part is narrower:
 

@@ -173,11 +173,11 @@ history का कोई गलत हुआ प्रश्न वास्त�
 
 अगर सामग्री ज़्यादातर text-heavy है, तो PDF-focused तरीका ज़्यादा उपयुक्त हो सकता है:
 
-- [2026 में PDF को Flashcards में कैसे बदलें](https://flashcards-open-source-app.com/blog/how-to-turn-a-pdf-into-flashcards/)
+- [2026 में PDF को Flashcards में कैसे बदलें](https://nibomo.com/blog/how-to-turn-a-pdf-into-flashcards/)
 
 अगर सामग्री किसी मार्गदर्शित अध्ययन-सत्र या निर्देशित प्रश्नोत्तरी-समीक्षा जैसी है, तो यह लेख ज़्यादा क़रीब होगा:
 
-- [2026 में ChatGPT Study Mode को Flashcards में कैसे बदलें](https://flashcards-open-source-app.com/blog/how-to-turn-chatgpt-study-mode-into-flashcards/)
+- [2026 में ChatGPT Study Mode को Flashcards में कैसे बदलें](https://nibomo.com/blog/how-to-turn-chatgpt-study-mode-into-flashcards/)
 
 ## गलती की वजह सँभालकर रखें, लेकिन उसे front पर मत ठूँसें
 
@@ -221,7 +221,7 @@ history का कोई गलत हुआ प्रश्न वास्त�
 
 ## Flashcards यहाँ कहाँ काम आता है
 
-[Nibomo](https://flashcards-open-source-app.com/) **अभ्यास प्रश्नों से फ़्लैशकार्ड** बनाने के लिए अच्छा विकल्प है, क्योंकि इसमें पहले से वे हिस्से मौजूद हैं जिनकी इस प्रक्रिया को ज़रूरत होती है:
+[Nibomo](https://nibomo.com/) **अभ्यास प्रश्नों से फ़्लैशकार्ड** बनाने के लिए अच्छा विकल्प है, क्योंकि इसमें पहले से वे हिस्से मौजूद हैं जिनकी इस प्रक्रिया को ज़रूरत होती है:
 
 - AI chat
 - फ़ाइल और चित्र संलग्नक
@@ -239,11 +239,11 @@ history का कोई गलत हुआ प्रश्न वास्त�
 
 अगर आप scheduling वाले हिस्से को विस्तार से समझना चाहते हैं, तो इसे अगला पढ़ें:
 
-- [2026 में FSRS के साथ परीक्षा की तैयारी कैसे करें](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/)
+- [2026 में FSRS के साथ परीक्षा की तैयारी कैसे करें](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)
 
 और अगर बड़ी समस्या स्रोत सामग्री से ज़्यादा कार्ड की गुणवत्ता है, तो यह भी मदद करेगा:
 
-- [2026 में बेहतर Flashcards कैसे बनाएं](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [2026 में बेहतर Flashcards कैसे बनाएं](https://nibomo.com/blog/how-to-make-better-flashcards/)
 
 ## उपयोगी नियम
 
@@ -266,7 +266,7 @@ history का कोई गलत हुआ प्रश्न वास्त�
 
 अगर आप यही चाहते हैं, तो यहाँ से शुरू करें:
 
-- [Nibomo खोलें](https://flashcards-open-source-app.com/)
+- [Nibomo खोलें](https://nibomo.com/)
 - [ऐप खोलें](https://app.flashcards-open-source-app.com/)
-- [शुरुआती मार्गदर्शिका पढ़ें](https://flashcards-open-source-app.com/docs/getting-started/)
+- [शुरुआती मार्गदर्शिका पढ़ें](https://nibomo.com/docs/getting-started/)
 - [GitHub पर स्रोत कोड देखें](https://github.com/kirill-markin/flashcards-open-source-app)

@@ -89,7 +89,7 @@ model आपको ऐसा कार्ड देता है:
 
 यही नियम definition-plus-example cards, formula-plus-exception cards, और हर उस कार्ड पर लागू होता है जिसमें answer mini outline बनने लगे।
 
-अगर आप इस विचार का कार्ड-लेखन वाला गहरा version चाहते हैं, तो [2026 में बेहतर Flashcards कैसे बनाएं](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/) इसे और आगे ले जाता है।
+अगर आप इस विचार का कार्ड-लेखन वाला गहरा version चाहते हैं, तो [2026 में बेहतर Flashcards कैसे बनाएं](https://nibomo.com/blog/how-to-make-better-flashcards/) इसे और आगे ले जाता है।
 
 ## फ्रंट को ऐसे दोबारा लिखें कि थकान में भी आप उसे तुरंत समझ सकें
 
@@ -148,7 +148,7 @@ back side को सादा रखें:
 
 इसके आगे जो भी है, वह आम तौर पर किसी दूसरे कार्ड में बदलना चाहता है।
 
-अगर आप बाद में review speed की परवाह करते हैं, तो यह और भी ज़्यादा मायने रखता है। [2026 में Flashcards को तेज़ी से review कैसे करें](https://flashcards-open-source-app.com/blog/how-to-review-flashcards-faster/) मूल रूप से इसी editing decision का downstream consequence है।
+अगर आप बाद में review speed की परवाह करते हैं, तो यह और भी ज़्यादा मायने रखता है। [2026 में Flashcards को तेज़ी से review कैसे करें](https://nibomo.com/blog/how-to-review-flashcards-faster/) मूल रूप से इसी editing decision का downstream consequence है।
 
 ## AI को second-pass editing के लिए इस्तेमाल करें, final authority की तरह नहीं
 
@@ -184,8 +184,8 @@ back side को सादा रखें:
 
 अगर आपका workflow cleanup से पहले शुरू होता है, तो ये companion pieces ज़्यादा उपयुक्त हैं:
 
-- [2026 में फ़्लैशकार्ड बनाने के लिए ChatGPT का इस्तेमाल कैसे करें](https://flashcards-open-source-app.com/blog/how-to-use-chatgpt-to-make-flashcards/)
-- [2026 में ChatGPT Study Mode को फ़्लैशकार्ड्स में कैसे बदलें](https://flashcards-open-source-app.com/blog/how-to-turn-chatgpt-study-mode-into-flashcards/)
+- [2026 में फ़्लैशकार्ड बनाने के लिए ChatGPT का इस्तेमाल कैसे करें](https://nibomo.com/blog/how-to-use-chatgpt-to-make-flashcards/)
+- [2026 में ChatGPT Study Mode को फ़्लैशकार्ड्स में कैसे बदलें](https://nibomo.com/blog/how-to-turn-chatgpt-study-mode-into-flashcards/)
 
 यह article एक कदम बाद से शुरू होता है: cards पहले से मौजूद हैं, और अब उन्हें reviewable बनाना है।
 
@@ -210,7 +210,7 @@ NotebookLM आम तौर पर real sources से शुरू होता
 
 अगर नहीं, तो उसे rewrite करें या delete कर दें।
 
-source-to-spaced-repetition bridge को [2026 में NotebookLM Flashcards को असली Spaced Repetition में कैसे बदलें](https://flashcards-open-source-app.com/blog/notebooklm-flashcards-to-spaced-repetition/) ज़्यादा सीधे तौर पर cover करता है। यह article उस bridge के शुरू होने के बाद वाला ज़्यादा सख़्त cleanup pass है।
+source-to-spaced-repetition bridge को [2026 में NotebookLM Flashcards को असली Spaced Repetition में कैसे बदलें](https://nibomo.com/blog/notebooklm-flashcards-to-spaced-repetition/) ज़्यादा सीधे तौर पर cover करता है। यह article उस bridge के शुरू होने के बाद वाला ज़्यादा सख़्त cleanup pass है।
 
 ## एक सरल cleanup workflow जो सच में टिकता है
 
@@ -241,11 +241,11 @@ FSRS जो चीज़ अच्छी तरह करता है, वह t
 - कठिन cards को ज़्यादा भरोसेमंद spacing मिलती है
 - समय के साथ review queue ज़्यादा शांत लगने लगती है
 
-अगर आप scheduler comparison खुद देखना चाहते हैं, तो [2026 में FSRS बनाम SM-2](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/) वही हिस्सा cover करता है।
+अगर आप scheduler comparison खुद देखना चाहते हैं, तो [2026 में FSRS बनाम SM-2](https://nibomo.com/blog/fsrs-vs-sm-2/) वही हिस्सा cover करता है।
 
 ## इस workflow में Flashcards कहाँ फिट बैठता है
 
-[Nibomo](https://flashcards-open-source-app.com/) **AI फ़्लैशकार्ड्स कैसे ठीक करें** के लिए अच्छा fit है क्योंकि product पहले से ही उस असहज बीच वाले हिस्से को संभालता है जिसे ज़्यादातर generators अधूरा छोड़ देते हैं:
+[Nibomo](https://nibomo.com/) **AI फ़्लैशकार्ड्स कैसे ठीक करें** के लिए अच्छा fit है क्योंकि product पहले से ही उस असहज बीच वाले हिस्से को संभालता है जिसे ज़्यादातर generators अधूरा छोड़ देते हैं:
 
 - hosted web app में front/back cards बनाइए
 - workspace data और file attachments के साथ AI chat इस्तेमाल कीजिए, जिनमें plain text uploads भी शामिल हैं

@@ -100,7 +100,7 @@ Digital SAT вознаграждает быстрое распознавание
 
 Если у вас проблема скорее в качестве самих карточек, чем в SAT-специфической стратегии, дальше стоит прочитать вот это:
 
-- [Как делать карточки лучше в 2026 году](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [Как делать карточки лучше в 2026 году](https://nibomo.com/blog/how-to-make-better-flashcards/)
 
 ## Карточки по математике для SAT должны хранить формулы и процессы по отдельности
 
@@ -166,7 +166,7 @@ Digital SAT вознаграждает быстрое распознавание
 
 Если вам больше всего нужен именно этот процесс, вот прямая парная статья:
 
-- [Как превращать тренировочные вопросы в карточки в 2026 году](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/)
+- [Как превращать тренировочные вопросы в карточки в 2026 году](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/)
 
 ## Один формат карточки для SAT не переживет все четыре типа задач
 
@@ -202,7 +202,7 @@ Digital SAT вознаграждает быстрое распознавание
 
 Если ваша более крупная проблема не в написании карточек, а в структуре, дальше логично прочитать вот это:
 
-- [Как организовать карточки в 2026 году](https://flashcards-open-source-app.com/blog/how-to-organize-flashcards/)
+- [Как организовать карточки в 2026 году](https://nibomo.com/blog/how-to-organize-flashcards/)
 
 ## Скорее всего, вам не нужны тысячи карточек для SAT
 
@@ -228,7 +228,7 @@ Digital SAT вознаграждает быстрое распознавание
 
 Если счетчик повторений уже растет слишком быстро, к этому SAT-процессу хорошо подходит вот эта статья:
 
-- [Сколько новых карточек в день в 2026 году?](https://flashcards-open-source-app.com/blog/how-many-new-flashcards-per-day/)
+- [Сколько новых карточек в день в 2026 году?](https://nibomo.com/blog/how-many-new-flashcards-per-day/)
 
 ## FSRS помогает сильнее всего, когда ваш график подготовки к SAT неровный
 
@@ -255,12 +255,12 @@ FSRS помогает, потому что:
 
 Если вам нужна более подробная версия именно про расписание, лучше всего сюда подходят две статьи:
 
-- [Как готовиться к экзамену с FSRS в 2026 году](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/)
-- [FSRS и SM-2 в 2026 году](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [Как готовиться к экзамену с FSRS в 2026 году](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)
+- [FSRS и SM-2 в 2026 году](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
 ## Как Flashcards вписывается в этот процесс подготовки к Digital SAT
 
-[Nibomo](https://flashcards-open-source-app.com/) хорошо подходит для **флешкарточек для Digital SAT**, потому что текущий продукт уже поддерживает те части процесса, от которых этот сценарий зависит:
+[Nibomo](https://nibomo.com/) хорошо подходит для **флешкарточек для Digital SAT**, потому что текущий продукт уже поддерживает те части процесса, от которых этот сценарий зависит:
 
 - создание и редактирование карточек с лицевой и обратной стороной
 - AI chat для подготовки черновиков карточек по заметкам, вставленным разборам или обзору пробных тестов
@@ -275,8 +275,8 @@ FSRS помогает, потому что:
 
 Если ваши материалы для SAT пока застряли на еще более раннем этапе, с входной стороной помогут вот эти статьи:
 
-- [Как превращать заметки в карточки в 2026 году](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
-- [Как превращать PDF в карточки в 2026 году](https://flashcards-open-source-app.com/blog/how-to-turn-a-pdf-into-flashcards/)
+- [Как превращать заметки в карточки в 2026 году](https://nibomo.com/blog/turn-notes-into-flashcards/)
+- [Как превращать PDF в карточки в 2026 году](https://nibomo.com/blog/how-to-turn-a-pdf-into-flashcards/)
 
 ## Соберите колоду для SAT, которая исправляет повторяющиеся ошибки
 

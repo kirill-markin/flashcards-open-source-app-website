@@ -113,7 +113,7 @@ keywords:
 
 هذا التقسيم مهم لأن AP Calculus يطلب منك باستمرار أن تنتقل بين الرموز، والرسوم، والجداول، والسياق. فالمشتقة نفسها نادرًا ما تكون المهمة كلها. وتفسيرها بشكل صحيح هو المكان الذي تتسرب منه الدرجات.
 
-إذا كان أسلوب مجموعتك ما يزال واسعًا أكثر من اللازم، فمقالة [How to Use Flashcards for Math in 2026](https://flashcards-open-source-app.com/blog/how-to-use-flashcards-for-math/) هي أقرب رفيق لها داخل هذه المدونة.
+إذا كان أسلوب مجموعتك ما يزال واسعًا أكثر من اللازم، فمقالة [How to Use Flashcards for Math in 2026](https://nibomo.com/blog/how-to-use-flashcards-for-math/) هي أقرب رفيق لها داخل هذه المدونة.
 
 ## بطاقات التكامل يجب أن تفصل بين الدوال الأصلية والتراكم
 
@@ -175,7 +175,7 @@ keywords:
 
 هذا السؤال الأخير مهم. بعض الأخطاء أخطاء ذاكرة. وبعضها أخطاء تنفيذ. البطاقات التعليمية تساعد في المجموعة الأولى. والتدريب المؤقت يصلح المجموعة الثانية.
 
-إذا كانت مادتك الخام تأتي أساسًا من التصحيحات، فمقالة [How to Turn Practice Questions Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/) هي أفضل قراءة تالية.
+إذا كانت مادتك الخام تأتي أساسًا من التصحيحات، فمقالة [How to Turn Practice Questions Into Flashcards in 2026](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/) هي أفضل قراءة تالية.
 
 ## Bluebook يغيّر شكل التدريب رغم أن الحل ما يزال بخط اليد
 
@@ -244,11 +244,11 @@ keywords:
 2. احذف البطاقات الضعيفة بسرعة
 3. دع FSRS يتولى التوقيت
 
-ومقالة [How to Study for an Exam With FSRS in 2026](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/) تتوسع أكثر في جانب الجدولة.
+ومقالة [How to Study for an Exam With FSRS in 2026](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/) تتوسع أكثر في جانب الجدولة.
 
 ## أين يناسب Flashcards هذا السير في AP Calculus
 
-يناسب [Nibomo](https://flashcards-open-source-app.com/) سير العمل هذا في AP Calculus جيدًا إذا كنت تريد مكانًا واحدًا يبقي الحلقة كلها متماسكة من دون أن يتحول المقال إلى عرض مبيعات.
+يناسب [Nibomo](https://nibomo.com/) سير العمل هذا في AP Calculus جيدًا إذا كنت تريد مكانًا واحدًا يبقي الحلقة كلها متماسكة من دون أن يتحول المقال إلى عرض مبيعات.
 
 الجزء المفيد ليس أنه "للطلبة". الجزء المفيد هو أنه يتيح لك أن تحتفظ ببطاقات القواعد، وأخطاء FRQ، وبطاقات متسلسلات BC داخل نظام مراجعة واحد بدل أن تتوزع بين الملاحظات، ولقطات الشاشة، والتصحيحات القديمة.
 
@@ -260,7 +260,7 @@ keywords:
 - جدولة FSRS بعد أن تصبح البطاقات جديرة بالمراجعة
 - مراجعة `offline-first` عبر الويب وiPhone وAndroid
 
-إذا كنت تريد نظرة عامة على المنتج أولًا، فـ [صفحة المزايا](https://flashcards-open-source-app.com/features/) هي الملخص الأنظف. وإذا كنت تريد أن تبدأ استخدام التطبيق أو تربط سير عمل أكثر تقنية لاحقًا، فـ [دليل البدء](https://flashcards-open-source-app.com/docs/getting-started/) و[توثيق API](https://flashcards-open-source-app.com/docs/api/) هما الروابط المناسبة التالية.
+إذا كنت تريد نظرة عامة على المنتج أولًا، فـ [صفحة المزايا](https://nibomo.com/features/) هي الملخص الأنظف. وإذا كنت تريد أن تبدأ استخدام التطبيق أو تربط سير عمل أكثر تقنية لاحقًا، فـ [دليل البدء](https://nibomo.com/docs/getting-started/) و[توثيق API](https://nibomo.com/docs/api/) هما الروابط المناسبة التالية.
 
 ## القاعدة التي تصمد فعلًا في أسبوع الاختبار
 

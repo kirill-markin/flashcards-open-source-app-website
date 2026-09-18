@@ -160,15 +160,15 @@ Darum würde ich **Notizfotos in Flashcards** nicht als dieselbe Suchanfrage beh
 
 Wenn deine Quelle bereits sauberer Text ist, passt dieser Begleitartikel besser:
 
-- [Wie du 2026 Notizen in Flashcards verwandelst: KI-Entwürfe mit FSRS statt manuellem Kopieren und Einfügen](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
+- [Wie du 2026 Notizen in Flashcards verwandelst: KI-Entwürfe mit FSRS statt manuellem Kopieren und Einfügen](https://nibomo.com/blog/turn-notes-into-flashcards/)
 
 Und wenn deine Quelle ein Dokument oder Vorlesungsfolien sind, ist dieser Artikel näher dran:
 
-- [Wie du 2026 eine PDF in Flashcards verwandelst: Vorlesungsfolien, Lehrbücher und Papers zu FSRS-Karten](https://flashcards-open-source-app.com/blog/how-to-turn-a-pdf-into-flashcards/)
+- [Wie du 2026 eine PDF in Flashcards verwandelst: Vorlesungsfolien, Lehrbücher und Papers zu FSRS-Karten](https://nibomo.com/blog/how-to-turn-a-pdf-into-flashcards/)
 
 ## Wo Flashcards in diesen Workflow passt
 
-[Nibomo](https://flashcards-open-source-app.com/) passt gut, wenn du **handschriftliche Notizen in Flashcards verwandeln** willst, weil das Produkt genau die Bausteine zusammenbringt, die hier zählen:
+[Nibomo](https://nibomo.com/) passt gut, wenn du **handschriftliche Notizen in Flashcards verwandeln** willst, weil das Produkt genau die Bausteine zusammenbringt, die hier zählen:
 
 - KI-Chat
 - Bild- und Dateianhänge
@@ -196,7 +196,7 @@ Erst aus den Fotos einen Rohentwurf machen. Dann die Karten bereinigen. Und dana
 
 Wenn du die Scheduling-Seite genauer verstehen willst, lies diesen Begleitartikel:
 
-- [FSRS vs SM-2 in 2026: Welcher Spaced-Repetition-Algorithmus hilft dir, mehr zu behalten?](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [FSRS vs SM-2 in 2026: Welcher Spaced-Repetition-Algorithmus hilft dir, mehr zu behalten?](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
 ## Die bessere Regel
 
@@ -210,9 +210,9 @@ Weniger Magie. Bessere Karten.
 
 Wenn du genau das willst, starte hier:
 
-- [Flashcards öffnen](https://flashcards-open-source-app.com/)
+- [Flashcards öffnen](https://nibomo.com/)
 - [Die App öffnen](https://app.flashcards-open-source-app.com/)
-- [Erste Schritte](https://flashcards-open-source-app.com/docs/getting-started/)
+- [Erste Schritte](https://nibomo.com/docs/getting-started/)
 - [Den Quellcode auf GitHub ansehen](https://github.com/kirill-markin/flashcards-open-source-app)
 
 Deine Notizen müssen nicht schön sein.

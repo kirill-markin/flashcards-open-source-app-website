@@ -92,7 +92,7 @@ Das ist viel besseres Rohmaterial für **Flashcards für KI-Zertifizierungen** a
 
 Wenn Übungsfragen deine Hauptquelle sind, passt dieser Begleitartikel direkt dazu:
 
-- [Wie du 2026 Übungsfragen in Flashcards verwandelst: Baue aus deinen Fehlern ein FSRS-Deck](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/)
+- [Wie du 2026 Übungsfragen in Flashcards verwandelst: Baue aus deinen Fehlern ein FSRS-Deck](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/)
 
 ## Vier Kartentypen funktionieren für KI-Prüfungsvorbereitung besonders gut
 
@@ -178,7 +178,7 @@ So bleibt die langfristige Struktur ruhig, und du kannst trotzdem die Teilmenge 
 
 Wenn du die Organisationsseite ausführlicher willst, lies als Nächstes diesen Artikel:
 
-- [Flashcards in 2026 organisieren: Decks, Tags und gefilterte Wiederholung, ohne das Lernen unnötig kompliziert zu machen](https://flashcards-open-source-app.com/blog/how-to-organize-flashcards/)
+- [Flashcards in 2026 organisieren: Decks, Tags und gefilterte Wiederholung, ohne das Lernen unnötig kompliziert zu machen](https://nibomo.com/blog/how-to-organize-flashcards/)
 
 ## Der wöchentliche Workflow sollte absichtlich langweilig sein
 
@@ -202,7 +202,7 @@ Die gute Version von **FSRS für Zertifizierungen** ist anfangs kleiner, als vie
 
 Wenn eher die Review-Last dein eigentliches Problem ist, passt dieser Artikel gut zur Prüfungsvorbereitung:
 
-- [Wie du 2026 mit FSRS für eine Prüfung lernst: Ein Flashcard-Plan, den du vor dem Prüfungstag wirklich schaffst](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/)
+- [Wie du 2026 mit FSRS für eine Prüfung lernst: Ein Flashcard-Plan, den du vor dem Prüfungstag wirklich schaffst](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)
 
 ## Halte änderungsanfällige Fakten in einer kleineren temporären Ebene
 
@@ -242,11 +242,11 @@ Das bedeutet meistens:
 
 Wenn eher die Kartenqualität selbst der Schwachpunkt ist, würde ich als Nächstes diesen Artikel öffnen:
 
-- [Wie du 2026 bessere Flashcards machst: Front- und Back-Regeln, die mit FSRS wirklich funktionieren](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [Wie du 2026 bessere Flashcards machst: Front- und Back-Regeln, die mit FSRS wirklich funktionieren](https://nibomo.com/blog/how-to-make-better-flashcards/)
 
 ## Wo Flashcards besser in diesen Workflow hineinpasst
 
-[Nibomo](https://flashcards-open-source-app.com/) passt gut zu dieser Art von Zertifizierungsvorbereitung, weil das Produkt die Teile bereits unterstützt, auf die dieser Workflow angewiesen ist:
+[Nibomo](https://nibomo.com/) passt gut zu dieser Art von Zertifizierungsvorbereitung, weil das Produkt die Teile bereits unterstützt, auf die dieser Workflow angewiesen ist:
 
 - Karten mit Vorder- und Rückseite für saubere Abrufprompts
 - KI-Chat für Entwürfe aus Notizen, Lernleitfäden und Material aus der Nachbereitung von Übungsfragen
@@ -278,7 +278,7 @@ Mehr Abruf, der den Prüfungstimer tatsächlich überlebt.
 
 Wenn du diesen Workflow ausprobieren willst:
 
-- [Flashcards öffnen](https://flashcards-open-source-app.com/)
+- [Flashcards öffnen](https://nibomo.com/)
 - [Die App öffnen](https://app.flashcards-open-source-app.com/)
-- [Die Features-Seite lesen](https://flashcards-open-source-app.com/features/)
+- [Die Features-Seite lesen](https://nibomo.com/features/)
 - [Den Quellcode auf GitHub ansehen](https://github.com/kirill-markin/flashcards-open-source-app)

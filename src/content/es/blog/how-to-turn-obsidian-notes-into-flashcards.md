@@ -98,7 +98,7 @@ Eso ya elimina la mayor parte del trabajo molesto de **pasar notas de Obsidian a
 
 La parte importante viene después: aun así editas el borrador. Borra las tarjetas genéricas. Reescribe las preguntas borrosas. Divide todo lo que intente evaluar tres ideas a la vez. Si una tarjeta solo tiene sentido cuando la nota completa está abierta al lado, todavía no está lista.
 
-Si quieres una versión más general de este flujo sin el ángulo de Obsidian, el mejor artículo complementario es [Cómo convertir notas en tarjetas didácticas en 2026](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/).
+Si quieres una versión más general de este flujo sin el ángulo de Obsidian, el mejor artículo complementario es [Cómo convertir notas en tarjetas didácticas en 2026](https://nibomo.com/blog/turn-notes-into-flashcards/).
 
 ## Las buenas tarjetas que salen de Obsidian aún tienen que funcionar por sí solas
 
@@ -113,11 +113,11 @@ Una buena tarjeta debería seguir funcionando cuando tu yo del futuro la vea sin
 
 Aquí es donde la fase de edición se gana su lugar. El borrador de IA te da velocidad. La limpieza te da tarjetas que seguirás queriendo usar la semana que viene.
 
-Si quieres reglas mejores para redactar tarjetas, sigue con [Cómo crear mejores tarjetas didácticas](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/).
+Si quieres reglas mejores para redactar tarjetas, sigue con [Cómo crear mejores tarjetas didácticas](https://nibomo.com/blog/how-to-make-better-flashcards/).
 
 ## Flashcards encaja en el flujo de Obsidian sin fingir que es tu vault
 
-[Nibomo](https://flashcards-open-source-app.com/) encaja bien aquí porque resuelve con limpieza la parte de estudio del flujo:
+[Nibomo](https://nibomo.com/) encaja bien aquí porque resuelve con limpieza la parte de estudio del flujo:
 
 - crear tarjetas de anverso y reverso
 - usar el chat con IA para redactar a partir de texto pegado
@@ -126,7 +126,7 @@ Si quieres reglas mejores para redactar tarjetas, sigue con [Cómo crear mejores
 
 Esto encaja mejor que fingir que la app es una capa nativa de Obsidian. No es tu grafo de notas, ni tu navegador del vault, ni un reemplazo de plugins. Tampoco necesita serlo. El traspaso útil es más simple: Obsidian sigue siendo el hogar de las notas y Flashcards toma el relevo cuando quieres practicar recuperación activa.
 
-Si primero quieres ver lo básico del producto, empieza por [Primeros pasos](https://flashcards-open-source-app.com/docs/getting-started/).
+Si primero quieres ver lo básico del producto, empieza por [Primeros pasos](https://nibomo.com/docs/getting-started/).
 
 ## FSRS es donde este flujo de trabajo pasa a merecer la pena
 
@@ -138,7 +138,7 @@ Por eso importa FSRS.
 
 Si el planificador es flojo, incluso un mazo decente acaba pareciendo repetitivo. Las tarjetas fáciles se espacian más. Las difíciles vuelven antes. Todo el sistema se siente más llevadero.
 
-Si quieres una comparación más detallada de la programación de repaso, lee [FSRS vs SM-2 en 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/).
+Si quieres una comparación más detallada de la programación de repaso, lee [FSRS vs SM-2 en 2026](https://nibomo.com/blog/fsrs-vs-sm-2/).
 
 ## Un flujo práctico de Obsidian a tarjetas didácticas
 
@@ -175,7 +175,7 @@ Luego mueve la pequeña parte que merece recuerdo activo a un sistema de repaso 
 
 Esa división del trabajo es mucho más limpia que intentar estudiar directamente desde un grafo enorme de notas. También mantiene el proceso honesto. Sin promesas falsas de sincronización. Sin laberintos de plugins. Solo Markdown limpio como entrada, un borrador de tarjetas como salida y repetición espaciada después.
 
-Si tu material fuente se parece más a un documento largo exportado que a una nota, la mejor guía relacionada es [Cómo convertir un artículo en tarjetas didácticas en 2026](https://flashcards-open-source-app.com/blog/how-to-turn-an-article-into-flashcards/).
+Si tu material fuente se parece más a un documento largo exportado que a una nota, la mejor guía relacionada es [Cómo convertir un artículo en tarjetas didácticas en 2026](https://nibomo.com/blog/how-to-turn-an-article-into-flashcards/).
 
 ## La regla útil para 2026
 

@@ -180,9 +180,9 @@ keywords:
 
 ولهذا أيضًا يتقاطع هذا المسار مع أنواع مصادر أخرى قريبة:
 
-- [كيفية تحويل ملف PDF إلى بطاقات Flashcards في 2026](https://flashcards-open-source-app.com/blog/how-to-turn-a-pdf-into-flashcards/)
-- [كيفية تحويل الملاحظات إلى بطاقات تعليمية في 2026](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
-- [كيفية تحويل فيديو YouTube إلى بطاقات Flashcards في 2026](https://flashcards-open-source-app.com/blog/youtube-to-flashcards/)
+- [كيفية تحويل ملف PDF إلى بطاقات Flashcards في 2026](https://nibomo.com/blog/how-to-turn-a-pdf-into-flashcards/)
+- [كيفية تحويل الملاحظات إلى بطاقات تعليمية في 2026](https://nibomo.com/blog/turn-notes-into-flashcards/)
+- [كيفية تحويل فيديو YouTube إلى بطاقات Flashcards في 2026](https://nibomo.com/blog/youtube-to-flashcards/)
 
 المصدر يختلف، لكن القاعدة الأساسية واحدة: ابدأ من مادة واضحة، ثم صُغ بطاقات ضيقة ومحددة بدل أن تطلب من الذكاء الاصطناعي أن يخترع لك نظام مذاكرة كاملًا.
 
@@ -222,7 +222,7 @@ keywords:
 
 ## أين يناسب Flashcards هذا المسار
 
-[Nibomo](https://flashcards-open-source-app.com/) مناسب جدًا لمسار **مذاكرة المحاضرات بالبطاقات التعليمية** لأنه يغطي الجزء الذي لا تحله النصوص المفرغة وصياغة البطاقات بالذكاء الاصطناعي وحدهما:
+[Nibomo](https://nibomo.com/) مناسب جدًا لمسار **مذاكرة المحاضرات بالبطاقات التعليمية** لأنه يغطي الجزء الذي لا تحله النصوص المفرغة وصياغة البطاقات بالذكاء الاصطناعي وحدهما:
 
 - تطبيق بطاقات تعليمية حقيقي يعتمد على وجه السؤال ووجه الجواب
 - مجموعات ووسوم
@@ -253,7 +253,7 @@ keywords:
 
 إذا أردت التعمق أكثر في جانب الخوارزمية، فهذه المقالة تشرح الموضوع بتفصيل أكبر:
 
-- [FSRS مقابل SM-2 في عام 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [FSRS مقابل SM-2 في عام 2026](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
 ## قاعدة عملية لتقرير ما الذي يستحق بطاقة
 
@@ -287,9 +287,9 @@ keywords:
 
 إذا كنت تبني مسار **النص المفرغ من المحاضرة إلى بطاقات**، فابدأ من هنا:
 
-- [تعرّف إلى Flashcards](https://flashcards-open-source-app.com/)
+- [تعرّف إلى Flashcards](https://nibomo.com/)
 - [افتح التطبيق](https://app.flashcards-open-source-app.com/)
-- [اقرأ دليل الاستضافة الذاتية](https://flashcards-open-source-app.com/docs/self-hosting/)
+- [اقرأ دليل الاستضافة الذاتية](https://nibomo.com/docs/self-hosting/)
 - [اطّلع على الشيفرة المصدرية على GitHub](https://github.com/kirill-markin/flashcards-open-source-app)
 
 تسجيلات المحاضرات مفيدة فعلًا.

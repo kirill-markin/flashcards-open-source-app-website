@@ -92,7 +92,7 @@ Cases, black-letter rules और exceptions अलग-अलग तरीको�
 
 अगर card लिखना ही आपकी कमजोर कड़ी है, तो यह आगे पढ़ें:
 
-- [2026 में बेहतर फ्लैशकार्ड कैसे बनाएँ](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [2026 में बेहतर फ्लैशकार्ड कैसे बनाएँ](https://nibomo.com/blog/how-to-make-better-flashcards/)
 
 ## लॉ स्कूल outlines source material हैं, final deck नहीं
 
@@ -113,7 +113,7 @@ Outline विषय को एक जगह समझाती है। Deck �
 
 अगर आपका material अभी finished outline से ज़्यादा class notes जैसा है, तो यह companion article ज़्यादा ठीक बैठेगा:
 
-- [2026 में नोट्स से फ्लैशकार्ड कैसे बनाएँ](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
+- [2026 में नोट्स से फ्लैशकार्ड कैसे बनाएँ](https://nibomo.com/blog/turn-notes-into-flashcards/)
 
 ## Issue spotting फ्लैशकार्ड पूरे essay answer नहीं, triggers सिखाने चाहिए
 
@@ -152,7 +152,7 @@ Outline विषय को एक जगह समझाती है। Deck �
 
 अगर workflow का यही हिस्सा आपकी मुख्य ज़रूरत है, तो यहाँ से शुरू करें:
 
-- [2026 में अभ्यास प्रश्नों से फ्लैशकार्ड कैसे बनाएँ](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/)
+- [2026 में अभ्यास प्रश्नों से फ्लैशकार्ड कैसे बनाएँ](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/)
 
 ## लॉ स्कूल फ्लैशकार्ड के लिए एक व्यावहारिक साप्ताहिक workflow
 
@@ -170,7 +170,7 @@ Outline विषय को एक जगह समझाती है। Deck �
 
 अगर आपकी बड़ी दिक्कत writing नहीं, structure है, तो यह सीधे fit बैठेगा:
 
-- [2026 में फ्लैशकार्ड कैसे व्यवस्थित करें](https://flashcards-open-source-app.com/blog/how-to-organize-flashcards/)
+- [2026 में फ्लैशकार्ड कैसे व्यवस्थित करें](https://nibomo.com/blog/how-to-organize-flashcards/)
 
 ## Bar exam फ्लैशकार्ड तब बेहतर काम करते हैं जब 1L deck शुरू से साफ़ बना हो
 
@@ -217,12 +217,12 @@ Outline विषय को एक जगह समझाती है। Deck �
 
 अगर scheduling वाले हिस्से को और detail में समझना है, तो ये दो articles सबसे ठीक बैठते हैं:
 
-- [2026 में FSRS के साथ परीक्षा की तैयारी कैसे करें](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/)
-- [2026 में FSRS बनाम SM-2](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [2026 में FSRS के साथ परीक्षा की तैयारी कैसे करें](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)
+- [2026 में FSRS बनाम SM-2](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
 ## इस लॉ स्कूल workflow में Flashcards कहाँ फिट बैठता है
 
-अगर आप यह workflow [Nibomo](https://flashcards-open-source-app.com/) में चलाना चाहते हैं, तो उपयोगी बात सिर्फ़ यह अमूर्त दावा नहीं है कि "AI cards बना देता है।" उपयोगी बात यह है कि product अभी उस काम के सबसे उबाऊ लेकिन ज़रूरी हिस्से को पहले से support करता है:
+अगर आप यह workflow [Nibomo](https://nibomo.com/) में चलाना चाहते हैं, तो उपयोगी बात सिर्फ़ यह अमूर्त दावा नहीं है कि "AI cards बना देता है।" उपयोगी बात यह है कि product अभी उस काम के सबसे उबाऊ लेकिन ज़रूरी हिस्से को पहले से support करता है:
 
 - drafting और cleanup के लिए AI chat
 - plain text uploads सहित file attachments
@@ -247,9 +247,9 @@ Outline विषय को एक जगह समझाती है। Deck �
 
 अगर आप यह workflow Flashcards में आज़माना चाहते हैं:
 
-- [Nibomo से शुरुआत करें](https://flashcards-open-source-app.com/)
+- [Nibomo से शुरुआत करें](https://nibomo.com/)
 - [वेब ऐप खोलें](https://app.flashcards-open-source-app.com/)
-- [Getting Started मार्गदर्शिका पढ़ें](https://flashcards-open-source-app.com/docs/getting-started/)
+- [Getting Started मार्गदर्शिका पढ़ें](https://nibomo.com/docs/getting-started/)
 - [GitHub पर स्रोत देखें](https://github.com/kirill-markin/flashcards-open-source-app)
 
 मकसद flashcard के रूप में कोई और सुंदर outline बनाना नहीं है। मकसद यह है कि जब fact pattern बदले और घड़ी चल रही हो, तब rules, exceptions और issue triggers आपकी याद में जल्दी उभरें।

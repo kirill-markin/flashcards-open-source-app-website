@@ -115,7 +115,7 @@ But **AP Calculus flashcards** become much more useful when derivative cards do 
 
 That split matters because AP Calculus keeps asking you to move between symbolic work, graphs, tables, and context. The derivative itself is rarely the whole task. Interpreting it correctly is where points leak away.
 
-If your deck style is still too broad, [How to Use Flashcards for Math in 2026](https://flashcards-open-source-app.com/blog/how-to-use-flashcards-for-math/) is the closest companion article in this blog.
+If your deck style is still too broad, [How to Use Flashcards for Math in 2026](https://nibomo.com/blog/how-to-use-flashcards-for-math/) is the closest companion article in this blog.
 
 ## Integral cards should separate antiderivatives from accumulation
 
@@ -177,7 +177,7 @@ Examples:
 
 That last card matters. Some misses are memory misses. Some are execution misses. Flashcards help with the first group. Timed practice fixes the second.
 
-If your raw material mostly comes from corrections, [How to Turn Practice Questions Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/) is the best next read.
+If your raw material mostly comes from corrections, [How to Turn Practice Questions Into Flashcards in 2026](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/) is the best next read.
 
 ## Bluebook changes how you should practice even though calculus is still handwritten
 
@@ -246,11 +246,11 @@ So keep the order simple:
 2. delete weak cards quickly
 3. let FSRS handle timing
 
-[How to Study for an Exam With FSRS in 2026](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/) goes deeper on the scheduling side.
+[How to Study for an Exam With FSRS in 2026](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/) goes deeper on the scheduling side.
 
 ## Where Flashcards fits in this AP Calculus workflow
 
-[Nibomo](https://flashcards-open-source-app.com/) fits this AP Calculus workflow well if you want one place to keep the whole loop tight without turning the article into a sales pitch.
+[Nibomo](https://nibomo.com/) fits this AP Calculus workflow well if you want one place to keep the whole loop tight without turning the article into a sales pitch.
 
 The useful part is not that it is "for students." The useful part is that it lets you keep rule cards, FRQ misses, and BC series cards in one review system instead of scattering them across notes, screenshots, and old corrections.
 
@@ -262,7 +262,7 @@ The practical parts are the ones that matter:
 - FSRS scheduling once the cards are worth reviewing
 - offline-first review across web, iPhone, and Android
 
-If you want the product overview first, the [features page](https://flashcards-open-source-app.com/features/) is the clean summary. If you want to start using the app or connect a more technical workflow later, the [getting started guide](https://flashcards-open-source-app.com/docs/getting-started/) and [API docs](https://flashcards-open-source-app.com/docs/api/) are the right next links.
+If you want the product overview first, the [features page](https://nibomo.com/features/) is the clean summary. If you want to start using the app or connect a more technical workflow later, the [getting started guide](https://nibomo.com/docs/getting-started/) and [API docs](https://nibomo.com/docs/api/) are the right next links.
 
 ## The AP Calculus rule that actually survives test week
 

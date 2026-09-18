@@ -248,7 +248,7 @@ Outline дает покрытие. Ошибки дают релевантнос�
 
 Одна стабильная колода плюс несколько честных тегов обычно работают лучше, чем постоянная реорганизация структуры колод.
 
-Если узкое место именно в организации, [Как организовать карточки в 2026 году](https://flashcards-open-source-app.com/blog/how-to-organize-flashcards/) разбирает эту часть глубже.
+Если узкое место именно в организации, [Как организовать карточки в 2026 году](https://nibomo.com/blog/how-to-organize-flashcards/) разбирает эту часть глубже.
 
 ## Дайте ИИ сделать грубый первый черновик, а потом жестко его редактируйте
 
@@ -265,11 +265,11 @@ Outline дает покрытие. Ошибки дают релевантнос�
 
 Если черновик на обратной стороне начинает выглядеть как абзац из workbook, урезайте его. Если две карточки проверяют одну и ту же идею, оставляйте более ясную. Если промпт проверяет только узнавание, перепишите его под active recall.
 
-Это очень похоже на сценарий из [How to Turn Practice Questions Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/) и [How to Make Better Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/).
+Это очень похоже на сценарий из [How to Turn Practice Questions Into Flashcards in 2026](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/) и [How to Make Better Flashcards in 2026](https://nibomo.com/blog/how-to-make-better-flashcards/).
 
 ## Где Flashcards вписывается в этот сценарий ATI TEAS
 
-Если вы хотите вести этот процесс внутри [Nibomo](https://flashcards-open-source-app.com/), совпадение здесь практическое, а не официальное.
+Если вы хотите вести этот процесс внутри [Nibomo](https://nibomo.com/), совпадение здесь практическое, а не официальное.
 
 Никакой официальной интеграции с ATI нет, и специального TEAS mode тоже нет. Полезная часть устроена проще.
 
@@ -286,7 +286,7 @@ Outline дает покрытие. Ошибки дают релевантнос�
 
 Если для вас важны долгосрочное владение и контроль, проект еще и open source, плюс у него есть путь к self-hosting. Для большинства студентов TEAS это вторично. Главное преимущество в том, что создание карточек, повторение и чистка живут в одном месте, а не размазаны по заметкам, скриншотам и вкладкам браузера.
 
-Если нужен самый быстрый вход, начните с [hosted web app](https://app.flashcards-open-source-app.com/). Если сначала нужен более широкий обзор продукта, откройте [страницу с возможностями](https://flashcards-open-source-app.com/features).
+Если нужен самый быстрый вход, начните с [hosted web app](https://app.flashcards-open-source-app.com/). Если сначала нужен более широкий обзор продукта, откройте [страницу с возможностями](https://nibomo.com/features).
 
 ## Что бы я делал в последние 10 дней перед ATI TEAS
 

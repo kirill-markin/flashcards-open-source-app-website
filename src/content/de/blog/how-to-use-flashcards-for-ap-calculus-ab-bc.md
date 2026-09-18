@@ -113,7 +113,7 @@ Aber **AP Calculus Flashcards** werden deutlich nützlicher, wenn Karten zu Able
 
 Diese Aufteilung ist wichtig, weil AP Calculus ständig verlangt, dass du zwischen Symbolik, Graphen, Tabellen und Kontext wechselst. Die Ableitung selbst ist selten die ganze Aufgabe. Punkte gehen meist dort verloren, wo du sie falsch interpretierst.
 
-Wenn dein Deckstil noch zu breit ist, ist [Wie du 2026 mit Flashcards für Mathe lernst](https://flashcards-open-source-app.com/blog/how-to-use-flashcards-for-math/) der naheliegendste Begleitartikel in diesem Blog.
+Wenn dein Deckstil noch zu breit ist, ist [Wie du 2026 mit Flashcards für Mathe lernst](https://nibomo.com/blog/how-to-use-flashcards-for-math/) der naheliegendste Begleitartikel in diesem Blog.
 
 ## Karten zu Integralen sollten Stammfunktionen von Akkumulation trennen
 
@@ -175,7 +175,7 @@ Beispiele:
 
 Diese letzte Karte ist wichtig. Manche Fehler sind Gedächtnisfehler. Manche sind Ausführungsfehler. Flashcards helfen bei der ersten Gruppe. Zeitgebundene Übung behebt die zweite.
 
-Wenn dein Rohmaterial vor allem aus Korrekturen stammt, ist [Wie du 2026 Übungsfragen in Flashcards verwandelst](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/) der beste nächste Artikel.
+Wenn dein Rohmaterial vor allem aus Korrekturen stammt, ist [Wie du 2026 Übungsfragen in Flashcards verwandelst](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/) der beste nächste Artikel.
 
 ## Bluebook verändert dein Üben, obwohl Calculus weiter handschriftlich bleibt
 
@@ -244,11 +244,11 @@ Halte die Reihenfolge deshalb einfach:
 2. schwache Karten schnell löschen
 3. FSRS das Timing überlassen
 
-[Wie du 2026 mit FSRS für eine Prüfung lernst](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/) geht tiefer auf die Scheduling-Seite ein.
+[Wie du 2026 mit FSRS für eine Prüfung lernst](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/) geht tiefer auf die Scheduling-Seite ein.
 
 ## Wo Flashcards in diesen AP-Calculus-Workflow passt
 
-[Nibomo](https://flashcards-open-source-app.com/) passt gut zu diesem AP-Calculus-Workflow, wenn du den ganzen Kreislauf an einem Ort zusammenhalten willst, ohne aus dem Artikel einen Verkaufstext zu machen.
+[Nibomo](https://nibomo.com/) passt gut zu diesem AP-Calculus-Workflow, wenn du den ganzen Kreislauf an einem Ort zusammenhalten willst, ohne aus dem Artikel einen Verkaufstext zu machen.
 
 Der nützliche Teil ist nicht, dass die App "für Schüler" ist. Der nützliche Teil ist, dass du Regelkarten, FRQ-Fehler und BC-Reihenkarten in einem Wiederholungssystem halten kannst, statt sie über Notizen, Screenshots und alte Korrekturen zu verteilen.
 
@@ -260,7 +260,7 @@ Die praktischen Punkte sind die, die zählen:
 - FSRS-Planung, sobald die Karten das Wiederholen überhaupt wert sind
 - offline-first-Wiederholung auf Web, iPhone und Android
 
-Wenn du erst den Produktüberblick willst, ist die [Feature-Seite](https://flashcards-open-source-app.com/features/) die knappste Zusammenfassung. Wenn du die App direkt nutzen oder später einen technischeren Workflow anschließen willst, sind der [Einstiegsleitfaden](https://flashcards-open-source-app.com/docs/getting-started/) und die [API-Doku](https://flashcards-open-source-app.com/docs/api/) die richtigen nächsten Links.
+Wenn du erst den Produktüberblick willst, ist die [Feature-Seite](https://nibomo.com/features/) die knappste Zusammenfassung. Wenn du die App direkt nutzen oder später einen technischeren Workflow anschließen willst, sind der [Einstiegsleitfaden](https://nibomo.com/docs/getting-started/) und die [API-Doku](https://nibomo.com/docs/api/) die richtigen nächsten Links.
 
 ## Die AP-Calculus-Regel, die in der Prüfungswoche wirklich trägt
 

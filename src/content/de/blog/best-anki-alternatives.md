@@ -20,7 +20,7 @@ Das ist der teure Teil beim Vergleich von Anki-Alternativen. Einen aufgeräumter
 
 Genau dort setzt dieser Vergleich an. Er behandelt sieben Apps wie Anki, zeigt, was sie aus einer bestehenden Sammlung übernehmen, was sich nach dem Import ändert und wann du besser bei Anki bleibst.
 
-> **Offenlegung:** Ich bin Kirill Markin und entwickle [Nibomo](https://flashcards-open-source-app.com/), eines der Produkte in diesem Vergleich. Ich habe es wegen des offenen Quellcodes, der Self-Hosting-Option und der Workflows für KI-Agenten aufgenommen. Es ist hier nicht automatisch die beste Wahl: Es hat keinen direkten `.apkg`-Importer, die Migration aus Anki ist verlustbehaftet, und der Betrieb des selbst gehosteten Stacks ist eine echte Infrastrukturaufgabe.
+> **Offenlegung:** Ich bin Kirill Markin und entwickle [Nibomo](https://nibomo.com/), eines der Produkte in diesem Vergleich. Ich habe es wegen des offenen Quellcodes, der Self-Hosting-Option und der Workflows für KI-Agenten aufgenommen. Es ist hier nicht automatisch die beste Wahl: Es hat keinen direkten `.apkg`-Importer, die Migration aus Anki ist verlustbehaftet, und der Betrieb des selbst gehosteten Stacks ist eine echte Infrastrukturaufgabe.
 
 **Fakten geprüft:** 28. August 2026. Die Preise sind die an diesem Tag verfügbaren öffentlichen US-Preise oder angegebenen lokalen Preise. Steuern, Regionen, Bildungsangebote und die Abrechnung über App-Stores können den Betrag verändern.
 
@@ -78,7 +78,7 @@ Ein Importer kann die erste Frage bestehen und bei den anderen beiden scheitern.
 | [Quizlet](https://quizlet.com/) | [Begriffe und Definitionen einfügen](https://help.quizlet.com/hc/en-us/articles/360029977151-Creating-sets-by-importing-content) | Kein Anki-Lernstatus | Notiztypen, Vorlagen, Decks, Medienstruktur und sämtliche Planungsdaten |
 | [Brainscape](https://www.brainscape.com/) | [CSV, TXT, XLSX oder ODS](https://brainscape.zendesk.com/hc/en-us/articles/115002369931-How-do-I-import-various-files-to-create-flashcards) | Kein Anki-Lernstatus | Vorlagen, Add-ons, Medienregeln und sämtliche Planungsdaten |
 | [SuperMemo](https://www.supermemo.com/) | [Frage-und-Antwort-Zeilen mit Trennzeichen einfügen](https://www.supermemo.com/en/blog/how-to-create-flashcards-for-learning), bis zu 100 auf einmal | Kein Anki-Lernstatus | Sammlungsstruktur, Medien, Vorlagen und sämtliche Planungsdaten |
-| [Nibomo](https://flashcards-open-source-app.com/) | Geprüfter, KI-gestützter Entwurfsworkflow mit Anki-TXT oder -CSV | Kein Anki-Lernstatus | Keine `.apkg`-Unterstützung; Vorlagen, Medientreue, Deck-Hierarchie und sämtliche Planungsdaten bleiben zurück |
+| [Nibomo](https://nibomo.com/) | Geprüfter, KI-gestützter Entwurfsworkflow mit Anki-TXT oder -CSV | Kein Anki-Lernstatus | Keine `.apkg`-Unterstützung; Vorlagen, Medientreue, Deck-Hierarchie und sämtliche Planungsdaten bleiben zurück |
 
 ## Preis, Offline-Nutzung, Lernplanung und Kontrolle
 

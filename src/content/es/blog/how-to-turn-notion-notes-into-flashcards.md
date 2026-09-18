@@ -188,11 +188,11 @@ Si el programador es sólido, el flujo de trabajo se mantiene unido. Borre de No
 
 Si desea esa comparación con más detalle, este artículo complementario va más allá:
 
-- [FSRS vs SM-2 en 2026: ¿Qué algoritmo de repetición espaciada le ayuda a recordar más?](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [FSRS vs SM-2 en 2026: ¿Qué algoritmo de repetición espaciada le ayuda a recordar más?](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
 ## Dónde encaja Flashcards en este flujo de trabajo
 
-[Nibomo](https://flashcards-open-source-app.com/) es una buena opción para **convertir notas de Notion en tarjetas didácticas** porque el producto cubre las partes que las personas normalmente tienen que unir manualmente:
+[Nibomo](https://nibomo.com/) es una buena opción para **convertir notas de Notion en tarjetas didácticas** porque el producto cubre las partes que las personas normalmente tienen que unir manualmente:
 
 - Chat AI para redacción
 - archivos adjuntos para páginas exportadas
@@ -217,11 +217,11 @@ Eso hace que el flujo de trabajo de exportación y borrador sea especialmente pr
 
 Si su material fuente es texto sin formato en lugar de un espacio de trabajo de Notion, este artículo complementario es la mejor opción:
 
-- [Cómo convertir notas en tarjetas didácticas en 2026](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
+- [Cómo convertir notas en tarjetas didácticas en 2026](https://nibomo.com/blog/turn-notes-into-flashcards/)
 
 Y si tu exportación de Notion termina funcionando mejor como documento, este también es útil:
 
-- [Cómo convertir un PDF en tarjetas didácticas en 2026](https://flashcards-open-source-app.com/blog/how-to-turn-a-pdf-into-flashcards/)
+- [Cómo convertir un PDF en tarjetas didácticas en 2026](https://nibomo.com/blog/how-to-turn-a-pdf-into-flashcards/)
 
 ## Un flujo de trabajo práctico que realmente usaría
 
@@ -251,4 +251,4 @@ Utilice la página como materia prima sólida para un mejor borrador.
 
 Esa es la versión de **Notion to flashcards** en la que realmente confío. Es menos mágico que la presentación con un solo clic, un poco más manual en los lugares correctos y es mucho más probable que le proporcione tarjetas que aún desee revisar la próxima semana.
 
-Si ese es el flujo de trabajo que desea, [Nibomo](https://flashcards-open-source-app.com/) es una opción sólida: exporte las notas, redacte tarjetas con IA, limpie las débiles rápidamente y estudie el resultado en un sistema de repetición espaciada real en lugar de dejarlo atrapado dentro de su herramienta de notas.
+Si ese es el flujo de trabajo que desea, [Nibomo](https://nibomo.com/) es una opción sólida: exporte las notas, redacte tarjetas con IA, limpie las débiles rápidamente y estudie el resultado en un sistema de repetición espaciada real en lugar de dejarlo atrapado dentro de su herramienta de notas.

@@ -176,8 +176,8 @@ Eso funciona mucho mejor que pedirle a un modelo "50 flashcards perfectas" y fin
 
 Si estás usando IA al principio del proceso, estas guías también encajan bien:
 
-- [Cómo utilizar ChatGPT para crear tarjetas didácticas en 2026](https://flashcards-open-source-app.com/blog/how-to-use-chatgpt-to-make-flashcards/)
-- [Cómo convertir notas en tarjetas didácticas en 2026](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
+- [Cómo utilizar ChatGPT para crear tarjetas didácticas en 2026](https://nibomo.com/blog/how-to-use-chatgpt-to-make-flashcards/)
+- [Cómo convertir notas en tarjetas didácticas en 2026](https://nibomo.com/blog/turn-notes-into-flashcards/)
 
 ## La tarjeta debe poner a prueba la memoria, no el teatro del reconocimiento
 
@@ -218,8 +218,8 @@ Eso no es un problema del algoritmo. Es un problema de redacción disfrazado de 
 
 Si quieres profundizar en la parte de la programación, empieza aquí:
 
-- [FSRS vs SM-2 en 2026: ¿Qué algoritmo de repetición espaciada le ayuda a recordar más?](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
-- [Cuántas tarjetas didácticas nuevas por día en 2026](https://flashcards-open-source-app.com/blog/how-many-new-flashcards-per-day/)
+- [FSRS vs SM-2 en 2026: ¿Qué algoritmo de repetición espaciada le ayuda a recordar más?](https://nibomo.com/blog/fsrs-vs-sm-2/)
+- [Cuántas tarjetas didácticas nuevas por día en 2026](https://nibomo.com/blog/how-many-new-flashcards-per-day/)
 
 ## La edición más rápida es borrar
 
@@ -243,7 +243,7 @@ El mazo mejora cuando salen las malas.
 
 ## Por qué Flashcards encaja bien con este flujo de trabajo
 
-[Nibomo](https://flashcards-open-source-app.com/) encaja muy bien con **cómo hacer flashcards efectivas** porque el producto está pensado en torno a lo que importa después del borrador:
+[Nibomo](https://nibomo.com/) encaja muy bien con **cómo hacer flashcards efectivas** porque el producto está pensado en torno a lo que importa después del borrador:
 
 - tarjetas reales de anverso y reverso
 - mazos y etiquetas
@@ -268,9 +268,9 @@ Esa es la versión de **qué hace buena a una flashcard** en la que de verdad co
 
 Si quieres un sistema práctico de **anverso y reverso de una flashcard** que siga funcionando cuando se pase la novedad de generar tarjetas con IA, empieza aquí:
 
-- [Abrir Nibomo](https://flashcards-open-source-app.com/)
+- [Abrir Nibomo](https://nibomo.com/)
 - [Abrir la app](https://app.flashcards-open-source-app.com/)
-- [Leer la guía de autoalojamiento](https://flashcards-open-source-app.com/docs/self-hosting/)
+- [Leer la guía de autoalojamiento](https://nibomo.com/docs/self-hosting/)
 - [Ver el código en GitHub](https://github.com/kirill-markin/flashcards-open-source-app)
 
 Hacer flashcards ahora es fácil.

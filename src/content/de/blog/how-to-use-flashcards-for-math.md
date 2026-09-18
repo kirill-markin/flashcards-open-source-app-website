@@ -47,7 +47,7 @@ Der bessere Mittelweg ist eine Karte, die genau die Entscheidung festhält, die 
 
 Darum ist **wie du Mathe mit Flashcards lernst** vor allem eine Frage des Kartendesigns. Eine gute Karte sollte den nächsten Schritt leichter abrufbar machen. Sie sollte nicht versuchen, das ganze Kapitel zu speichern.
 
-Wenn sich deine aktuellen Karten schon zu breit oder zu wortreich anfühlen, ist [Wie du 2026 bessere Flashcards erstellst: Regeln für Vorder- und Rückseiten, die mit FSRS wirklich funktionieren](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/) ein guter Neustart, bevor du noch mehr hinzufügst.
+Wenn sich deine aktuellen Karten schon zu breit oder zu wortreich anfühlen, ist [Wie du 2026 bessere Flashcards erstellst: Regeln für Vorder- und Rückseiten, die mit FSRS wirklich funktionieren](https://nibomo.com/blog/how-to-make-better-flashcards/) ein guter Neustart, bevor du noch mehr hinzufügst.
 
 ## Fang mit Formeln an, aber mach die Karten kleiner als dein Formelblatt
 
@@ -93,7 +93,7 @@ Darum mag ich Karten, die einen Hinweis direkt mit einer Methode verbinden:
 
 Das sind weiterhin **Flashcards fürs mathematische Problemlösen**, aber sie versuchen nicht, einen kompletten Lösungsweg auswendig zu machen. Sie trainieren Mustererkennung. Das ist wichtig, weil Erklärungen heute billig geworden sind. Du bekommst in wenigen Minuten einen Lösungsweg von Nachhilfe, Video oder KI-Tool. Schwieriger ist, den richtigen nächsten Schritt zu sehen, bevor ihn dir jemand zeigt.
 
-Wenn dein Rohmaterial hauptsächlich aus korrigierten Hausaufgaben, Quizzen oder Übungssets kommt, passt [Wie du 2026 Übungsfragen in Flashcards verwandelst: Baue aus deinen Fehlern ein FSRS-Deck](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/) sehr gut zu diesem Workflow.
+Wenn dein Rohmaterial hauptsächlich aus korrigierten Hausaufgaben, Quizzen oder Übungssets kommt, passt [Wie du 2026 Übungsfragen in Flashcards verwandelst: Baue aus deinen Fehlern ein FSRS-Deck](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/) sehr gut zu diesem Workflow.
 
 ## Dein Fehlerprotokoll ist meistens besser als ein generisches Mathe-Deck
 
@@ -149,7 +149,7 @@ Nach Hausaufgaben, einem Quiz oder einem Übungsset:
 
 Dieser letzte Schritt ist wichtiger, als viele denken. Wenn der Fehler in frischer Arbeit verschwindet, hat die Karte ihren Job wahrscheinlich erledigt. Wenn er bleibt, ist die Karte oft zu vage, zu breit oder auf das falsche Gedächtnisziel gerichtet.
 
-Wenn die Deck-Struktur unübersichtlich wird, ist [Flashcards in 2026 organisieren: Decks, Tags und gefilterte Wiederholung, ohne das Lernen unnötig kompliziert zu machen](https://flashcards-open-source-app.com/blog/how-to-organize-flashcards/) die bessere Reparatur, als für jedes Aufgabenblatt ein neues Deck anzulegen.
+Wenn die Deck-Struktur unübersichtlich wird, ist [Flashcards in 2026 organisieren: Decks, Tags und gefilterte Wiederholung, ohne das Lernen unnötig kompliziert zu machen](https://nibomo.com/blog/how-to-organize-flashcards/) die bessere Reparatur, als für jedes Aufgabenblatt ein neues Deck anzulegen.
 
 ## KI kann Mathe-Karten schnell entwerfen, aber die Bearbeitung bleibt wichtig
 
@@ -161,7 +161,7 @@ Aber Mathe-Karten brauchen weiterhin Bearbeitung. KI-generierte Karten prüfen o
 
 Ja, nutze KI also gern für Entwürfe von **Mathe-Flashcards**, wenn sie dir den langweiligen Teil beschleunigt. Aber bearbeite dann hart. Teile überladene Karten auf. Schreibe vage Vorderseiten um. Lösche die Karten, die beim Lesen clever wirken, sich nächste Woche in der Wiederholung aber schlecht anfühlen werden.
 
-Wenn genau diese Bereinigungsrunde dein Engpass ist, geht [So reparierst du 2026 KI-Flashcards: Überarbeite ChatGPT- und NotebookLM-Entwürfe, bevor du mit FSRS wiederholst](https://flashcards-open-source-app.com/blog/how-to-fix-ai-flashcards/) tiefer in diesen Bearbeitungsschritt.
+Wenn genau diese Bereinigungsrunde dein Engpass ist, geht [So reparierst du 2026 KI-Flashcards: Überarbeite ChatGPT- und NotebookLM-Entwürfe, bevor du mit FSRS wiederholst](https://nibomo.com/blog/how-to-fix-ai-flashcards/) tiefer in diesen Bearbeitungsschritt.
 
 ## FSRS hilft bei Mathe, wenn die Karten schmal genug sind
 
@@ -171,11 +171,11 @@ Genau deshalb funktioniert **Spaced Repetition in Mathe** gut mit FSRS. Leichte 
 
 Der Haken ist, dass auch der Scheduler saubere Karten braucht. Wenn ein Prompt vage ist, wird deine Selbsteinschätzung verrauscht. Wenn eine Karte zu viele Dinge abfragt, wird die Schwierigkeit unscharf. Wenn die Antwort aus einem Absatz besteht, verhandelst du mit dir selbst, statt ehrlich zu wiederholen.
 
-Kleinere Karten machen FSRS viel nützlicher. Wenn du an der Scheduling-Seite feilen willst, nachdem die Kartenseite unter Kontrolle ist, ist [FSRS-Einstellungen 2026: Desired Retention, Learning Steps und Wiederholungslast ohne Feintuning-Falle](https://flashcards-open-source-app.com/blog/fsrs-settings/) der richtige nächste Text.
+Kleinere Karten machen FSRS viel nützlicher. Wenn du an der Scheduling-Seite feilen willst, nachdem die Kartenseite unter Kontrolle ist, ist [FSRS-Einstellungen 2026: Desired Retention, Learning Steps und Wiederholungslast ohne Feintuning-Falle](https://nibomo.com/blog/fsrs-settings/) der richtige nächste Text.
 
 ## Wo Flashcards in diesen Workflow passt
 
-[Nibomo](https://flashcards-open-source-app.com/) passt gut zu dieser Art des Mathelernens, weil das Produkt genau die Teile unterstützt, die nach der Identifikation des Gedächtnisziels zählen:
+[Nibomo](https://nibomo.com/) passt gut zu dieser Art des Mathelernens, weil das Produkt genau die Teile unterstützt, die nach der Identifikation des Gedächtnisziels zählen:
 
 - Vorder-/Rückseiten-Karten für Formeln, Erkennungshinweise und Fehlermuster
 - Decks, Tags und Filter, wenn du ein Thema gezielt wiederholen willst, ohne deine Hauptbibliothek zu zerlegen
@@ -183,7 +183,7 @@ Kleinere Karten machen FSRS viel nützlicher. Wenn du an der Scheduling-Seite fe
 - FSRS-Wiederholungsplanung für das fertige Deck
 - offline-first Clients auf Web, iPhone und Android
 
-Wenn dein Lernmaterial ohnehin in Textdateien liegt oder du einen technischeren Workflow willst, behandeln die Docs auch den [Einstieg](https://flashcards-open-source-app.com/docs/getting-started/) und das [API- und Agenten-Onboarding](https://flashcards-open-source-app.com/docs/api/). Das ist nützlich, wenn derselbe Mathe-Workflow später von schnellen manuellen Karten zu einer stärker automatisierten Einrichtung wachsen soll.
+Wenn dein Lernmaterial ohnehin in Textdateien liegt oder du einen technischeren Workflow willst, behandeln die Docs auch den [Einstieg](https://nibomo.com/docs/getting-started/) und das [API- und Agenten-Onboarding](https://nibomo.com/docs/api/). Das ist nützlich, wenn derselbe Mathe-Workflow später von schnellen manuellen Karten zu einer stärker automatisierten Einrichtung wachsen soll.
 
 ## Die nützliche Regel
 
@@ -196,5 +196,5 @@ Das reicht völlig, damit **wie du Flashcards für Mathe nutzt** zu einem echten
 Wenn du es praktisch ausprobieren willst:
 
 - [App öffnen](https://app.flashcards-open-source-app.com/)
-- [Feature-Seite lesen](https://flashcards-open-source-app.com/features/)
-- [Einstiegsleitfaden lesen](https://flashcards-open-source-app.com/docs/getting-started/)
+- [Feature-Seite lesen](https://nibomo.com/features/)
+- [Einstiegsleitfaden lesen](https://nibomo.com/docs/getting-started/)

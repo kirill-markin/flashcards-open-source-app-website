@@ -154,7 +154,7 @@ RemNote 的[内置 MCP 服务器](https://help.remnote.com/en/articles/16424066-
 
 ## 披露：我在开发 Flashcards
 
-> **披露：** 我是 Kirill Markin，也是 [Nibomo](https://flashcards-open-source-app.com/) 的开发者。它采用 MIT 许可证的仓库包含 Web 应用、iOS 和 Android 客户端、身份验证、后端、同步、MCP 服务以及 AWS 基础设施。目前，这套源码的开放范围比 RemNote 更广，但这并不意味着 Nibomo 适合所有学习流程。
+> **披露：** 我是 Kirill Markin，也是 [Nibomo](https://nibomo.com/) 的开发者。它采用 MIT 许可证的仓库包含 Web 应用、iOS 和 Android 客户端、身份验证、后端、同步、MCP 服务以及 AWS 基础设施。目前，这套源码的开放范围比 RemNote 更广，但这并不意味着 Nibomo 适合所有学习流程。
 
 Flashcards 专注的学习流程更窄：它没有关联笔记知识库、PDF 阅读器、原生桌面应用，也不能直接导入 RemNote。当笔记、引用和原始文档处于学习流程的核心时，RemNote 更成熟，优势也明显得多。只为许可证而迁移，可能会丢掉原本让卡片集合发挥作用的整套流程。
 

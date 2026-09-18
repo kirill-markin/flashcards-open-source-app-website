@@ -57,7 +57,7 @@ AWS 还说明，这场考试包含 **50 道 scored questions** 和 **15 道 unsc
 
 跳过那些只能证明你曾经打开过某个 AWS 页面一次的卡。
 
-这个原则其实也适用于更广泛的认证备考。如果你想看更通用的多认证版本，可以接着读这篇：[2026 年如何用 Flashcards 准备 AI 认证](https://flashcards-open-source-app.com/blog/how-to-use-flashcards-for-ai-certifications/)。它从另一个角度讲的是同一个问题。
+这个原则其实也适用于更广泛的认证备考。如果你想看更通用的多认证版本，可以接着读这篇：[2026 年如何用 Flashcards 准备 AI 认证](https://nibomo.com/blog/how-to-use-flashcards-for-ai-certifications/)。它从另一个角度讲的是同一个问题。
 
 ## 最好的 SAA-C03 卡片，考的是选择，不是定义
 
@@ -142,7 +142,7 @@ AWS 还说明，这场考试包含 **50 道 scored questions** 和 **15 道 unsc
 
 这样一来，练习材料就会变成可以复习的内容，而不只是令人沮丧的记录。
 
-如果你真正卡住的是这个从错题到卡片的清洗流程，那么这篇配套文章会更直接：[2026 年如何修好 AI 生成的 Flashcards](https://flashcards-open-source-app.com/blog/how-to-fix-ai-flashcards/)。
+如果你真正卡住的是这个从错题到卡片的清洗流程，那么这篇配套文章会更直接：[2026 年如何修好 AI 生成的 Flashcards](https://nibomo.com/blog/how-to-fix-ai-flashcards/)。
 
 ## AWS 服务简称，值得额外分一点注意力
 
@@ -179,7 +179,7 @@ AWS 说明这场考试会对部分服务使用简称，而且考试期间会提�
 - `missed`
 - `needs-recheck`
 
-这样一来，整体结构会保持稳定，但你仍然可以在某个学习时段之前，快速拉出聚焦的小集合。如果你想更细看整理这一侧，可以接着读这篇：[2026 年如何整理 Flashcards](https://flashcards-open-source-app.com/blog/how-to-organize-flashcards/)。
+这样一来，整体结构会保持稳定，但你仍然可以在某个学习时段之前，快速拉出聚焦的小集合。如果你想更细看整理这一侧，可以接着读这篇：[2026 年如何整理 Flashcards](https://nibomo.com/blog/how-to-organize-flashcards/)。
 
 ## 用 AI 从推理过程里起草卡片，但一定要狠一点编辑
 
@@ -196,7 +196,7 @@ OpenAI 在 **2025 年 7 月 29 日** 推出了 **Study Mode**，它是一种围�
 
 我不会把整段 AI 对话直接导出进卡组。
 
-认证卡组会在 AI 帮你做压缩和清洗时变得更好，而不是在它用“打磨过的空话”把待复习队列灌满时变好。[2026 年如何做出更好的 Flashcards](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/) 这篇对“编辑标准”讲得更深。
+认证卡组会在 AI 帮你做压缩和清洗时变得更好，而不是在它用“打磨过的空话”把待复习队列灌满时变好。[2026 年如何做出更好的 Flashcards](https://nibomo.com/blog/how-to-make-better-flashcards/) 这篇对“编辑标准”讲得更深。
 
 ## 一套有点无聊的每周节奏，比英雄式 AWS 冲刺更有效
 
@@ -216,7 +216,7 @@ OpenAI 在 **2025 年 7 月 29 日** 推出了 **Study Mode**，它是一种围�
 - 从某份学习指南里一次性导入一大副卡组
 - 因为服务名“看起来重要”，就一口气新增一百张卡
 
-这也正是这篇文章能直接接上的地方：[2026 年如何用 FSRS 备考](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/)。调度器当然有帮助，但前提仍然是卡组要小到你真的复习得完。
+这也正是这篇文章能直接接上的地方：[2026 年如何用 FSRS 备考](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)。调度器当然有帮助，但前提仍然是卡组要小到你真的复习得完。
 
 ## 把考试后勤信息和易变事实放进一个更小的临时层
 
@@ -237,7 +237,7 @@ OpenAI 在 **2025 年 7 月 29 日** 推出了 **Study Mode**，它是一种围�
 
 ## Flashcards 很适合放进这套工作流里
 
-[Nibomo](https://flashcards-open-source-app.com/) 很适合这类考试备考，因为它能同时覆盖这项工作里最重要的两部分，而且不会假装它们是同一件事。
+[Nibomo](https://nibomo.com/) 很适合这类考试备考，因为它能同时覆盖这项工作里最重要的两部分，而且不会假装它们是同一件事。
 
 你可以：
 
@@ -261,6 +261,6 @@ OpenAI 在 **2025 年 7 月 29 日** 推出了 **Study Mode**，它是一种围�
 
 真正能改变分数的，是这样的卡组。
 
-如果你现在的卡片仍然显得太宽泛，下一篇更适合读的是：[2026 年如何把练习题转成 Flashcards](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/)。SAA-C03 卡组通常在原始素材来自错题、而不是来自摘要时，进步得最快。
+如果你现在的卡片仍然显得太宽泛，下一篇更适合读的是：[2026 年如何把练习题转成 Flashcards](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/)。SAA-C03 卡组通常在原始素材来自错题、而不是来自摘要时，进步得最快。
 
 对于 SAA-C03，最干净的版本其实很简单：围绕官方 domain 学习，狠狠挖练习题错题，把权衡取舍卡做得比你以为还要小，然后让 FSRS 负责复习节奏。通常这样就够了，足以让正确的 AWS 答案在题干措辞开始变滑时，更快浮出来。

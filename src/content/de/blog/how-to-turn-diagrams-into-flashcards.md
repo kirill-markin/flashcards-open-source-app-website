@@ -224,11 +224,11 @@ Dieselbe Regel gilt: Verwandle das Bild zuerst in eine saubere Beschreibung und 
 
 Wenn der Screenshot textlastig ist, passt dieser Begleitartikel vielleicht besser:
 
-- [Wie du 2026 einen Artikel in Flashcards verwandelst: Die nützlichen Ideen behalten, den Highlight-Friedhof überspringen](https://flashcards-open-source-app.com/blog/how-to-turn-an-article-into-flashcards/)
+- [Wie du 2026 einen Artikel in Flashcards verwandelst: Die nützlichen Ideen behalten, den Highlight-Friedhof überspringen](https://nibomo.com/blog/how-to-turn-an-article-into-flashcards/)
 
 Wenn es eher eine Notizbuchseite als ein strukturiertes Diagramm ist, ist dieser näher dran:
 
-- [Wie du 2026 handschriftliche Notizen in Flashcards verwandelst: Fotos, OCR und KI-Entwürfe, ohne alles neu abzuschreiben](https://flashcards-open-source-app.com/blog/how-to-turn-handwritten-notes-into-flashcards/)
+- [Wie du 2026 handschriftliche Notizen in Flashcards verwandelst: Fotos, OCR und KI-Entwürfe, ohne alles neu abzuschreiben](https://nibomo.com/blog/how-to-turn-handwritten-notes-into-flashcards/)
 
 ## Die Karte sollte jeweils eine visuelle Idee testen
 
@@ -294,7 +294,7 @@ Wenn du zehn Diagramme gleichzeitig hochlädst, wirft das Modell schnell alles i
 
 ## Wo Flashcards gut passt
 
-[Nibomo](https://flashcards-open-source-app.com/) passt gut zu einem Vorgehen, bei dem du **Diagramme in Flashcards umwandelst**, weil das Produkt die Bausteine bereits mitbringt, die du dafür brauchst:
+[Nibomo](https://nibomo.com/) passt gut zu einem Vorgehen, bei dem du **Diagramme in Flashcards umwandelst**, weil das Produkt die Bausteine bereits mitbringt, die du dafür brauchst:
 
 - KI-Chat
 - Bild- und Datei-Anhänge
@@ -314,11 +314,11 @@ Genau an dieser Stelle ist eine echte Flashcards-App einem simplen Diagramm-Konv
 
 Wenn du den Wiederholungsrhythmus genauer verstehen willst, lohnt sich dieser Begleitartikel:
 
-- [FSRS vs SM-2 in 2026: Welcher Spaced-Repetition-Algorithmus hilft dir, mehr zu behalten?](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [FSRS vs SM-2 in 2026: Welcher Spaced-Repetition-Algorithmus hilft dir, mehr zu behalten?](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
 Und wenn deine Quelle eher Vorlesungsfolien oder ein Fachartikel als ein Diagrammbild ist, starte hier:
 
-- [Wie du 2026 eine PDF in Flashcards verwandelst: Vorlesungsfolien, Lehrbücher und Fachartikel zu FSRS-Karten](https://flashcards-open-source-app.com/blog/how-to-turn-a-pdf-into-flashcards/)
+- [Wie du 2026 eine PDF in Flashcards verwandelst: Vorlesungsfolien, Lehrbücher und Fachartikel zu FSRS-Karten](https://nibomo.com/blog/how-to-turn-a-pdf-into-flashcards/)
 
 ## Die nützliche Regel
 
@@ -339,7 +339,7 @@ Mehr behalten.
 
 Wenn du genau das willst, starte hier:
 
-- [Flashcards öffnen](https://flashcards-open-source-app.com/)
+- [Flashcards öffnen](https://nibomo.com/)
 - [Die App öffnen](https://app.flashcards-open-source-app.com/)
-- [Erste Schritte](https://flashcards-open-source-app.com/docs/getting-started/)
+- [Erste Schritte](https://nibomo.com/docs/getting-started/)
 - [Den Quellcode auf GitHub ansehen](https://github.com/kirill-markin/flashcards-open-source-app)

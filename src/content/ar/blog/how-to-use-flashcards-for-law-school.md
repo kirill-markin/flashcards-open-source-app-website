@@ -89,7 +89,7 @@ keywords:
 
 إذا كانت كتابة البطاقات نفسها هي الحلقة الأضعف عندك، فاقرأ هذا بعد ذلك:
 
-- [كيف تصنع بطاقات تعليمية أفضل في 2026](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [كيف تصنع بطاقات تعليمية أفضل في 2026](https://nibomo.com/blog/how-to-make-better-flashcards/)
 
 ## الملخصات القانونية مادة مصدر وليست المجموعة النهائية
 
@@ -110,7 +110,7 @@ keywords:
 
 إذا كانت مادتك لا تزال أقرب إلى ملاحظات المحاضرات منها إلى ملخص مكتمل، فهذه المقالة أنسب لك:
 
-- [كيف تحوّل الملاحظات إلى بطاقات تعليمية في 2026](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
+- [كيف تحوّل الملاحظات إلى بطاقات تعليمية في 2026](https://nibomo.com/blog/turn-notes-into-flashcards/)
 
 ## بطاقات رصد المسائل ينبغي أن تدرب الإشارات لا الإجابات المقالية الكاملة
 
@@ -149,7 +149,7 @@ keywords:
 
 إذا كان هذا هو سير العمل الأساسي الذي تحتاجه، فابدأ من هنا:
 
-- [كيف تحوّل أسئلة التدريب إلى بطاقات تعليمية في 2026](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/)
+- [كيف تحوّل أسئلة التدريب إلى بطاقات تعليمية في 2026](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/)
 
 ## سير عمل أسبوعي عملي لبطاقات كلية الحقوق
 
@@ -167,7 +167,7 @@ keywords:
 
 إذا كانت مشكلتك الأكبر هي البنية لا الصياغة، فهذه المقالة تناسبك مباشرة:
 
-- [كيف تنظّم البطاقات التعليمية في 2026](https://flashcards-open-source-app.com/blog/how-to-organize-flashcards/)
+- [كيف تنظّم البطاقات التعليمية في 2026](https://nibomo.com/blog/how-to-organize-flashcards/)
 
 ## تعمل بطاقات امتحان البار بصورة أفضل عندما تكون مجموعة كلية الحقوق مبنية بإحكام من البداية
 
@@ -214,12 +214,12 @@ keywords:
 
 إذا أردت جانب الجدولة بمزيد من التفصيل، فهاتان المقالتان الأنسب:
 
-- [كيف تذاكر لامتحان باستخدام FSRS في 2026](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/)
-- [FSRS مقابل SM-2 في 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [كيف تذاكر لامتحان باستخدام FSRS في 2026](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)
+- [FSRS مقابل SM-2 في 2026](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
 ## أين يناسب Flashcards هذا السير في كلية الحقوق
 
-إذا أردت تشغيل هذا السير داخل [Nibomo](https://flashcards-open-source-app.com/)، فالنقطة المهمة ليست مجرد أن "الذكاء الاصطناعي يصنع بطاقات" بصورة عامة. بل إن المنتج الحالي يدعم أصلًا الجزء المرهق في منتصف العمل:
+إذا أردت تشغيل هذا السير داخل [Nibomo](https://nibomo.com/)، فالنقطة المهمة ليست مجرد أن "الذكاء الاصطناعي يصنع بطاقات" بصورة عامة. بل إن المنتج الحالي يدعم أصلًا الجزء المرهق في منتصف العمل:
 
 - محادثة بالذكاء الاصطناعي للصياغة والتنظيف
 - مرفقات ملفات، بما في ذلك رفع النصوص العادية
@@ -244,9 +244,9 @@ keywords:
 
 إذا أردت تجربة هذا السير داخل Flashcards:
 
-- [ابدأ مع Flashcards](https://flashcards-open-source-app.com/)
+- [ابدأ مع Flashcards](https://nibomo.com/)
 - [افتح تطبيق الويب](https://app.flashcards-open-source-app.com/)
-- [اقرأ دليل البدء](https://flashcards-open-source-app.com/docs/getting-started/)
+- [اقرأ دليل البدء](https://nibomo.com/docs/getting-started/)
 - [اطّلع على الشيفرة المصدرية على GitHub](https://github.com/kirill-markin/flashcards-open-source-app)
 
 الهدف ليس بناء ملخص أجمل على هيئة بطاقات تعليمية. بل جعل القواعد والاستثناءات وإشارات المسائل تظهر أسرع عندما يتغير النمط الوقائعي ويبدأ الوقت بالنفاد.

@@ -118,7 +118,7 @@ PMP 公式的重要性，没有有些人担心的那么夸张，也没有另一�
 - 正面：什么情况下，一个公式值得做成长期保留的抽认卡？
 - 背面：当你在时间压力下反复需要提取或解释它，而不是因为它只在某一章里出现过一次。
 
-这也是 AI 起草最容易失控变臃肿的地方。如果一张公式卡后面跟着一段迷你讲座，就把它删掉，或者拆成几张。[2026 年如何做出更好的抽认卡](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/) 这篇更适合继续处理那种“卡片开始长成小作文”的问题。
+这也是 AI 起草最容易失控变臃肿的地方。如果一张公式卡后面跟着一段迷你讲座，就把它删掉，或者拆成几张。[2026 年如何做出更好的抽认卡](https://nibomo.com/blog/how-to-make-better-flashcards/) 这篇更适合继续处理那种“卡片开始长成小作文”的问题。
 
 ## Business Environment 不再是那个很小的边角主题
 
@@ -170,7 +170,7 @@ PMI 在 2026 年 4 月 20 日发布的考试变更说明已经很明确：Busine
 - 正面：从一道做错的公式题里，你应该保留什么？
 - 背面：导致出错的题目设置或解读错误，而不只是最后那一步算术。
 
-如果你的模考和小测已经在持续产出最好的原始素材，[2026 年如何把练习题转成抽认卡](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/) 会把这套工作流讲得更深一点。
+如果你的模考和小测已经在持续产出最好的原始素材，[2026 年如何把练习题转成抽认卡](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/) 会把这套工作流讲得更深一点。
 
 ## 组织 PMP 牌组时，按功能分，比按章节分更有用
 
@@ -196,7 +196,7 @@ PMI 在 2026 年 4 月 20 日发布的考试变更说明已经很明确：Busine
 
 然后只在确实有帮助时，再按来源补标签，比如 `mock-1` 或 `chapter-8`。
 
-这样能让复习队列更干净，又不会把牌组本身变成一个文件夹管理工程。如果你最容易失手的地方是整理结构，[2026 年如何整理抽认卡](https://flashcards-open-source-app.com/blog/how-to-organize-flashcards/) 会是更实用的下一篇。
+这样能让复习队列更干净，又不会把牌组本身变成一个文件夹管理工程。如果你最容易失手的地方是整理结构，[2026 年如何整理抽认卡](https://nibomo.com/blog/how-to-organize-flashcards/) 会是更实用的下一篇。
 
 ## 一套能撑住真实备考生活的每周 PMP 抽认卡工作流
 
@@ -231,11 +231,11 @@ FSRS 对 PMP 很有用，因为这类记忆负荷本来就不均匀。
 4. 把新卡数量控制在现实范围内
 5. 等牌组值得被排程时，再让 FSRS 负责调度
 
-如果你想更细看排程这一侧，[2026 年如何用 FSRS 为考试复习](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/) 就是直接对应的配套文章。
+如果你想更细看排程这一侧，[2026 年如何用 FSRS 为考试复习](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/) 就是直接对应的配套文章。
 
 ## Flashcards 在这套 PMP 工作流里适合放在哪里
 
-如果你想把这套流程跑在 [Nibomo](https://flashcards-open-source-app.com/) 里，真正有用的地方并不是那种模糊承诺，说 AI 会替你把学习这件事做掉。
+如果你想把这套流程跑在 [Nibomo](https://nibomo.com/) 里，真正有用的地方并不是那种模糊承诺，说 AI 会替你把学习这件事做掉。
 
 真正有用的是，这个产品已经覆盖了这套流程里最中间、也最麻烦的那一段：
 
@@ -248,7 +248,7 @@ FSRS 对 PMP 很有用，因为这类记忆负荷本来就不均匀。
 
 这意味着，你可以把一段很乱的 PMP 练习题解析交给 AI 起草候选卡片，删掉弱卡，整理留下来的内容，再在同一个系统里持续复习。
 
-如果 AI 起草这一步生成的是那种“看起来很精致，但实际上很差”的卡片，就果断删掉。[2026 年如何修正 AI 生成的抽认卡](https://flashcards-open-source-app.com/blog/how-to-fix-ai-flashcards/) 会是更合适的下一步，尤其是在问题不在于数量、而在于卡片质量的时候。
+如果 AI 起草这一步生成的是那种“看起来很精致，但实际上很差”的卡片，就果断删掉。[2026 年如何修正 AI 生成的抽认卡](https://nibomo.com/blog/how-to-fix-ai-flashcards/) 会是更合适的下一步，尤其是在问题不在于数量、而在于卡片质量的时候。
 
 ## 2026 年做 PMP 抽认卡时最有用的一条规则
 

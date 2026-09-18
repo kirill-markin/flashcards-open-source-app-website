@@ -224,11 +224,11 @@ Quizlet 至今仍保留专门的图示学习流程，这本身就说明需求是
 
 如果截图主要是文字，而不是图示，这篇配套文章可能更适合：
 
-- [2026 年如何把文章做成抽认卡](https://flashcards-open-source-app.com/blog/how-to-turn-an-article-into-flashcards/)
+- [2026 年如何把文章做成抽认卡](https://nibomo.com/blog/how-to-turn-an-article-into-flashcards/)
 
 如果它更像一页笔记，而不是结构化图示，这篇会更接近：
 
-- [2026 年如何把手写笔记做成抽认卡](https://flashcards-open-source-app.com/blog/how-to-turn-handwritten-notes-into-flashcards/)
+- [2026 年如何把手写笔记做成抽认卡](https://nibomo.com/blog/how-to-turn-handwritten-notes-into-flashcards/)
 
 ## 一张卡一次只测试一个视觉概念
 
@@ -294,7 +294,7 @@ Quizlet 至今仍保留专门的图示学习流程，这本身就说明需求是
 
 ## Flashcards 为什么适合这件事
 
-[Nibomo](https://flashcards-open-source-app.com/) 很适合 **把图示做成抽认卡** 这种工作流，因为这个产品已经具备了这套流程真正需要的要素：
+[Nibomo](https://nibomo.com/) 很适合 **把图示做成抽认卡** 这种工作流，因为这个产品已经具备了这套流程真正需要的要素：
 
 - AI 聊天
 - 图片和文件附件
@@ -314,11 +314,11 @@ Quizlet 至今仍保留专门的图示学习流程，这本身就说明需求是
 
 如果你想更具体地看看排程这一侧，这篇配套文章值得一读：
 
-- [2026 年 FSRS 与 SM-2 对比](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [2026 年 FSRS 与 SM-2 对比](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
 如果你的来源更像课件或论文，而不是一张图，也可以先看这篇：
 
-- [2026 年如何把 PDF 做成抽认卡](https://flashcards-open-source-app.com/blog/how-to-turn-a-pdf-into-flashcards/)
+- [2026 年如何把 PDF 做成抽认卡](https://nibomo.com/blog/how-to-turn-a-pdf-into-flashcards/)
 
 ## 真正有用的规则
 
@@ -339,7 +339,7 @@ Quizlet 至今仍保留专门的图示学习流程，这本身就说明需求是
 
 如果你想要的正是这种工作流，可以从这里开始：
 
-- [打开 Flashcards](https://flashcards-open-source-app.com/)
+- [打开 Flashcards](https://nibomo.com/)
 - [打开应用](https://app.flashcards-open-source-app.com/)
-- [阅读入门指南](https://flashcards-open-source-app.com/docs/getting-started/)
+- [阅读入门指南](https://nibomo.com/docs/getting-started/)
 - [在 GitHub 上查看源码](https://github.com/kirill-markin/flashcards-open-source-app)

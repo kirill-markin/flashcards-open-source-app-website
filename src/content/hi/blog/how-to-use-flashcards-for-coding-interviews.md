@@ -200,7 +200,7 @@ while left < right:
 
 अगर आपको organization वाली बड़ी तस्वीर चाहिए, तो यह लेख इसके बाद ठीक बैठेगा:
 
-- [How to Organize Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-organize-flashcards/)
+- [How to Organize Flashcards in 2026](https://nibomo.com/blog/how-to-organize-flashcards/)
 
 ## कार्ड उस explanation से भी सरल होना चाहिए जो आपने पढ़ी थी
 
@@ -257,7 +257,7 @@ AI का इस्तेमाल इन कामों के लिए म�
 
 अगर आपको AI drafting वाली बड़ी तस्वीर चाहिए, तो यहाँ से शुरू करें:
 
-- [How to Use ChatGPT to Make Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-use-chatgpt-to-make-flashcards/)
+- [How to Use ChatGPT to Make Flashcards in 2026](https://nibomo.com/blog/how-to-use-chatgpt-to-make-flashcards/)
 
 ## कोडिंग इंटरव्यू फ्लैशकार्ड का वर्कफ़्लो जिसे मैं सच में इस्तेमाल करूँगा
 
@@ -278,7 +278,7 @@ AI का इस्तेमाल इन कामों के लिए म�
 
 ## Nibomo कहाँ फिट बैठता है
 
-[Nibomo](https://flashcards-open-source-app.com/) **कोडिंग इंटरव्यू फ्लैशकार्ड** के लिए अच्छा विकल्प है, क्योंकि यह प्रॉडक्ट पहले से वही चीज़ें सपोर्ट करता है जो सच में मायने रखती हैं:
+[Nibomo](https://nibomo.com/) **कोडिंग इंटरव्यू फ्लैशकार्ड** के लिए अच्छा विकल्प है, क्योंकि यह प्रॉडक्ट पहले से वही चीज़ें सपोर्ट करता है जो सच में मायने रखती हैं:
 
 - manual interval tuning के बिना बार-बार रिव्यू के लिए FSRS scheduling
 - tag और effort level के आधार पर decks, tags, search और filtered decks
@@ -292,11 +292,11 @@ AI का इस्तेमाल इन कामों के लिए म�
 
 अगर आपकी बड़ी समस्या interview-specific content नहीं, बल्कि card quality है, तो यह लेख ठीक बैठेगा:
 
-- [How to Make Better Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [How to Make Better Flashcards in 2026](https://nibomo.com/blog/how-to-make-better-flashcards/)
 
 अगर आपकी review queue पहले से खतरनाक लग रही है, तो यहाँ से शुरू करें:
 
-- [How to Catch Up on Flashcards After Falling Behind in 2026](https://flashcards-open-source-app.com/blog/how-to-catch-up-on-flashcards-after-falling-behind/)
+- [How to Catch Up on Flashcards After Falling Behind in 2026](https://nibomo.com/blog/how-to-catch-up-on-flashcards-after-falling-behind/)
 
 ## काम का नियम
 

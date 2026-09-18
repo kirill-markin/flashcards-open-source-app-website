@@ -87,7 +87,7 @@ Ejemplos de buenos prompts de términos para AP Psychology:
 
 Son mejores que un mazo-glosario gigantesco porque entrenan la parte que suele fallar bajo presión: distinguir la idea correcta de otra equivocada pero parecida.
 
-Si el problema principal es la calidad de las tarjetas más que la asignatura, [Cómo hacer mejores flashcards en 2026](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/) es el mejor complemento.
+Si el problema principal es la calidad de las tarjetas más que la asignatura, [Cómo hacer mejores flashcards en 2026](https://nibomo.com/blog/how-to-make-better-flashcards/) es el mejor complemento.
 
 ## Los estudios famosos necesitan tarjetas separadas para el investigador, el hallazgo y su uso en el examen
 
@@ -143,7 +143,7 @@ Yo construiría prompts como:
 
 Esa última importa más en un examen digital de lo que muchos estudiantes esperan. Un gráfico, una tabla o un fragmento breve de artículo puede sentirse más difícil en pantalla simplemente porque la redacción y el diseño te resultan menos familiares. Las buenas tarjetas entrenan la idea estable que hay debajo de esa redacción nueva.
 
-Si tus bloques de práctica siguen dejando al descubierto fallos que se repiten, [Cómo convertir preguntas de práctica en flashcards en 2026](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/) encaja directamente aquí.
+Si tus bloques de práctica siguen dejando al descubierto fallos que se repiten, [Cómo convertir preguntas de práctica en flashcards en 2026](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/) encaja directamente aquí.
 
 ## La preparación para FRQ funciona mejor cuando la tarjeta guarda el movimiento de razonamiento
 
@@ -215,7 +215,7 @@ Yo mantendría la rutina así de simple:
 
 La parte aburrida es lo que hace que el mazo siga siendo usable a finales de abril y principios de mayo en lugar de parecer impresionante durante un solo fin de semana.
 
-Si lo que más se te escapa es la organización, [Cómo organizar flashcards en 2026](https://flashcards-open-source-app.com/blog/how-to-organize-flashcards/) combina muy bien con este flujo.
+Si lo que más se te escapa es la organización, [Cómo organizar flashcards en 2026](https://nibomo.com/blog/how-to-organize-flashcards/) combina muy bien con este flujo.
 
 ## FSRS resulta útil cuando el repaso de AP Psychology se vuelve irregular
 
@@ -238,12 +238,12 @@ Así que yo mantendría el orden así de simple:
 
 Si quieres más detalle sobre la parte de planificación, estos dos artículos encajan mejor:
 
-- [Cómo estudiar para un examen con FSRS en 2026](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/)
-- [FSRS vs SM-2 en 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [Cómo estudiar para un examen con FSRS en 2026](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)
+- [FSRS vs SM-2 en 2026](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
 ## Dónde encaja Flashcards en un flujo de AP Psychology
 
-Si quieres hacer esto dentro de [Nibomo](https://flashcards-open-source-app.com/), la parte útil no es una promesa vaga de que la IA va a estudiar AP Psych mágicamente por ti.
+Si quieres hacer esto dentro de [Nibomo](https://nibomo.com/), la parte útil no es una promesa vaga de que la IA va a estudiar AP Psych mágicamente por ti.
 
 La parte útil es que el producto ya encaja justo en el centro de este flujo:
 
@@ -257,7 +257,7 @@ La parte útil es que el producto ya encaja justo en el centro de este flujo:
 
 Eso significa que puedes coger un montón de vocabulario, una captura de una explicación de métodos de investigación o una nota corregida pero todavía desordenada de una AAQ o EBQ, convertirlo en tarjetas candidatas, cortar las flojas y seguir repasando las que sobreviven en un solo lugar.
 
-Si la fase de borrador te produce tarjetas pulidas pero malas, [Cómo arreglar flashcards creadas con IA en 2026](https://flashcards-open-source-app.com/blog/how-to-fix-ai-flashcards/) es el siguiente paso correcto.
+Si la fase de borrador te produce tarjetas pulidas pero malas, [Cómo arreglar flashcards creadas con IA en 2026](https://nibomo.com/blog/how-to-fix-ai-flashcards/) es el siguiente paso correcto.
 
 ## La versión de flashcards para AP Psychology en la que yo sí confiaría
 

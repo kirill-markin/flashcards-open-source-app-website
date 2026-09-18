@@ -224,11 +224,11 @@ keywords:
 
 Если скриншот в основном текстовый, полезнее будет вот эта статья-компаньон:
 
-- [Как превратить статью в карточки в 2026 году](https://flashcards-open-source-app.com/blog/how-to-turn-an-article-into-flashcards/)
+- [Как превратить статью в карточки в 2026 году](https://nibomo.com/blog/how-to-turn-an-article-into-flashcards/)
 
 Если это скорее страница конспекта, чем структурированная диаграмма, ближе будет вот эта:
 
-- [Как превратить рукописные заметки в карточки в 2026 году](https://flashcards-open-source-app.com/blog/how-to-turn-handwritten-notes-into-flashcards/)
+- [Как превратить рукописные заметки в карточки в 2026 году](https://nibomo.com/blog/how-to-turn-handwritten-notes-into-flashcards/)
 
 ## Одна карточка должна проверять одну визуальную идею
 
@@ -294,7 +294,7 @@ keywords:
 
 ## Где здесь хорошо вписывается Flashcards
 
-[Nibomo](https://flashcards-open-source-app.com/) хорошо подходит для сценария **диаграммы в карточки**, потому что в продукте уже есть все основные части этого процесса:
+[Nibomo](https://nibomo.com/) хорошо подходит для сценария **диаграммы в карточки**, потому что в продукте уже есть все основные части этого процесса:
 
 - AI chat
 - вложения изображений и файлов
@@ -314,11 +314,11 @@ keywords:
 
 Если вам отдельно интересна сторона интервального планировщика, начните с этой статьи-компаньона:
 
-- [FSRS против SM-2 в 2026 году](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [FSRS против SM-2 в 2026 году](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
 А если ваш исходник больше похож на слайды лекции или исследовательскую статью, чем на диаграмму, полезнее будет вот это:
 
-- [Как превратить PDF в карточки в 2026 году](https://flashcards-open-source-app.com/blog/how-to-turn-a-pdf-into-flashcards/)
+- [Как превратить PDF в карточки в 2026 году](https://nibomo.com/blog/how-to-turn-a-pdf-into-flashcards/)
 
 ## Полезное правило
 
@@ -339,7 +339,7 @@ keywords:
 
 Если вам нужен именно такой подход, начните здесь:
 
-- [Открыть Flashcards](https://flashcards-open-source-app.com/)
+- [Открыть Flashcards](https://nibomo.com/)
 - [Открыть приложение](https://app.flashcards-open-source-app.com/)
-- [Прочитать руководство по началу работы](https://flashcards-open-source-app.com/docs/getting-started/)
+- [Прочитать руководство по началу работы](https://nibomo.com/docs/getting-started/)
 - [Посмотреть исходный код на GitHub](https://github.com/kirill-markin/flashcards-open-source-app)

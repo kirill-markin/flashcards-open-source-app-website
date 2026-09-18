@@ -38,7 +38,7 @@ keywords:
 
 到了期末周，标准应该更严格。目标不是保存你这学期碰过的所有内容。目标是把价值最高的材料放进一套你在考试前仍然能完成的复习循环。
 
-如果你更想看复习排程这部分，可以读 [How to Study for an Exam With FSRS in 2026](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs)。那篇更适合讲时间安排。本文先处理更早出现、也更混乱的问题：来源太多，复习时间太少。
+如果你更想看复习排程这部分，可以读 [How to Study for an Exam With FSRS in 2026](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs)。那篇更适合讲时间安排。本文先处理更早出现、也更混乱的问题：来源太多，复习时间太少。
 
 ## 不要一上来就做卡，先做筛选
 
@@ -118,7 +118,7 @@ AI 对话适合拿来提取：
 - 暴露出你混淆点的追问
 - 经过核实之后，能留下来的简短易错点清单
 
-不要把整段对话当成权威内容直接搬进牌组。AI 辅导很适合理解概念，但抽认卡应该建立在整理过的知识点上，而不是对话里每一句看起来很顺的句子。如果你现在的草稿已经开始又胖又空，可以读 [How to Fix AI Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-fix-ai-flashcards/)。
+不要把整段对话当成权威内容直接搬进牌组。AI 辅导很适合理解概念，但抽认卡应该建立在整理过的知识点上，而不是对话里每一句看起来很顺的句子。如果你现在的草稿已经开始又胖又空，可以读 [How to Fix AI Flashcards in 2026](https://nibomo.com/blog/how-to-fix-ai-flashcards/)。
 
 ### 练习题错题
 
@@ -133,7 +133,7 @@ AI 对话适合拿来提取：
 - 把长解释拆成更小的回忆目标
 - 给这些卡加标签，方便你之后集中复习错题驱动的内容
 
-更专门讲这套流程的配套文章是 [How to Turn Practice Questions Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/)。
+更专门讲这套流程的配套文章是 [How to Turn Practice Questions Into Flashcards in 2026](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/)。
 
 ## 不要按四个来源做四副牌组，要从重叠内容里做出一副牌组
 
@@ -162,7 +162,7 @@ AI 对话适合拿来提取：
 
 这样一来，复习队列会保持统一，同时你又能在需要时保留来源语境。
 
-这也是 decks、tags、filtering 和 search 真正开始变得实用，而不是只是摆设的地方。你可以平时按整副期末牌组复习，等考试非常近了，再专门筛 `practice-miss` 或 `must-know`。如果你现在的组织方式已经开始发散，比起再找一篇“怎么生成更多卡片”的文章，更适合读的是 [How to Organize Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-organize-flashcards/)。
+这也是 decks、tags、filtering 和 search 真正开始变得实用，而不是只是摆设的地方。你可以平时按整副期末牌组复习，等考试非常近了，再专门筛 `practice-miss` 或 `must-know`。如果你现在的组织方式已经开始发散，比起再找一篇“怎么生成更多卡片”的文章，更适合读的是 [How to Organize Flashcards in 2026](https://nibomo.com/blog/how-to-organize-flashcards/)。
 
 ## 砍范围时，要比你直觉里更狠一点
 
@@ -184,7 +184,7 @@ AI 对话适合拿来提取：
 - 已经滚瓜烂熟的内容就别再继续做卡
 - 不要假装每一章都应该占同样权重
 
-这一点上，[How to Make Better Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/) 会很有帮助。更好的卡通常比学生预期的更小、更清楚，也更少。
+这一点上，[How to Make Better Flashcards in 2026](https://nibomo.com/blog/how-to-make-better-flashcards/) 会很有帮助。更好的卡通常比学生预期的更小、更清楚，也更少。
 
 ## 用 FSRS 决定复习时机，但要在考试前停止持续加料
 
@@ -204,7 +204,7 @@ FSRS 在期末周有用，主要是因为它比固定节奏更像真实记忆那
 
 离考试越近，工作的重点就越应该从“收集”转向“回忆”。
 
-如果你现在真正的问题已经是复习积压，那就直接处理这个瓶颈，而不是假装再做一批新卡会有帮助。[How to Catch Up on Flashcards After Falling Behind in 2026](https://flashcards-open-source-app.com/blog/how-to-catch-up-on-flashcards-after-falling-behind/) 更适合这种情况。
+如果你现在真正的问题已经是复习积压，那就直接处理这个瓶颈，而不是假装再做一批新卡会有帮助。[How to Catch Up on Flashcards After Falling Behind in 2026](https://nibomo.com/blog/how-to-catch-up-on-flashcards-after-falling-behind/) 更适合这种情况。
 
 ## 期末周里，一张卡的复习速度应该快过它的原始资料
 
@@ -244,11 +244,11 @@ FSRS 在期末周有用，主要是因为它比固定节奏更像真实记忆那
 
 ## Flashcards 在这套流程里适合做什么
 
-[Nibomo](https://flashcards-open-source-app.com/) 在这里好用，是因为这个产品更贴近期末周真实会出现的混乱，而不是假设你的学习输入一开始就很干净。
+[Nibomo](https://nibomo.com/) 在这里好用，是因为这个产品更贴近期末周真实会出现的混乱，而不是假设你的学习输入一开始就很干净。
 
 你可以在托管版 Web 应用里上传文件，需要整理来源时用支持附件的 AI chat 帮你清理材料，把真正留下来的内容创建并编辑成正反面卡片，再用牌组、标签、筛选、搜索和 FSRS 排程把最后这轮复习放在一个地方。离线优先的 Web、iOS 和 Android 应用，在期末周也比另一个只能开在浏览器里的学习标签页更靠谱，你一离开书桌就找不到了。
 
-如果你想先看产品细节，再决定要不要试，最干净的入口是 [features page](https://flashcards-open-source-app.com/features/)。如果你更在意控制权，这个项目也是 open source，并且支持 self-hosting。
+如果你想先看产品细节，再决定要不要试，最干净的入口是 [features page](https://nibomo.com/features/)。如果你更在意控制权，这个项目也是 open source，并且支持 self-hosting。
 
 ## 期末阶段真正有用的一条规则
 

@@ -162,15 +162,15 @@ PDF は、たいていもっと整っています。
 
 元資料がすでに整った文章なら、こちらの関連記事のほうが合います。
 
-- [2026年版 ノートをフラッシュカードに変える方法: 手作業のコピペではなく、AIの下書きとFSRSを使う](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
+- [2026年版 ノートをフラッシュカードに変える方法: 手作業のコピペではなく、AIの下書きとFSRSを使う](https://nibomo.com/blog/turn-notes-into-flashcards/)
 
 文書や講義スライドなら、こちらが近いです。
 
-- [2026年版 PDFをフラッシュカード化する方法: 講義スライド・教科書・論文からFSRS向けカードを作る](https://flashcards-open-source-app.com/blog/how-to-turn-a-pdf-into-flashcards/)
+- [2026年版 PDFをフラッシュカード化する方法: 講義スライド・教科書・論文からFSRS向けカードを作る](https://nibomo.com/blog/how-to-turn-a-pdf-into-flashcards/)
 
 ## Flashcards がこの流れに合う理由
 
-[Nibomo](https://flashcards-open-source-app.com/) は、手書きノートをフラッシュカードにしたいときに相性が良いです。大事な部品がすでに同じ場所に揃っているからです。
+[Nibomo](https://nibomo.com/) は、手書きノートをフラッシュカードにしたいときに相性が良いです。大事な部品がすでに同じ場所に揃っているからです。
 
 - AI チャット
 - 画像とファイルの添付
@@ -198,7 +198,7 @@ PDF は、たいていもっと整っています。
 
 復習設計の詳細は、こちらです。
 
-- [2026年の FSRS vs SM-2: どの間隔反復アルゴリズムがより多く覚えられるか](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [2026年の FSRS vs SM-2: どの間隔反復アルゴリズムがより多く覚えられるか](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
 ## もっと良い原則
 
@@ -214,9 +214,9 @@ PDF は、たいていもっと整っています。
 
 それが欲しいなら、ここから始めてください。
 
-- [Flashcards を開く](https://flashcards-open-source-app.com/)
+- [Flashcards を開く](https://nibomo.com/)
 - [アプリを開く](https://app.flashcards-open-source-app.com/)
-- [使い始めガイドを読む](https://flashcards-open-source-app.com/docs/getting-started/)
+- [使い始めガイドを読む](https://nibomo.com/docs/getting-started/)
 - [GitHub でソースコードを見る](https://github.com/kirill-markin/flashcards-open-source-app)
 
 ノートがきれいである必要はありません。

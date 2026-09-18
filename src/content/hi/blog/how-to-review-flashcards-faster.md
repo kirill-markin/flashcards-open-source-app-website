@@ -76,7 +76,7 @@ Slow cards वे होते हैं जिनसे आपको मोल�
 
 अगर उसका deeper version चाहिए, तो यहाँ से शुरू कीजिए:
 
-- [2026 में बेहतर फ्लैशकार्ड कैसे बनाएं](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [2026 में बेहतर फ्लैशकार्ड कैसे बनाएं](https://nibomo.com/blog/how-to-make-better-flashcards/)
 
 ## ज़्यादा कठोर नहीं, ज़्यादा तेज़ फैसला कीजिए
 
@@ -167,11 +167,11 @@ Review mode में आप:
 
 अगर intake के लिए आपको कोई साफ़ नियम चाहिए, तो यह companion article थोड़ा और गहराई में जाता है:
 
-- [2026 में रोज़ कितने नए फ्लैशकार्ड बनाने चाहिए?](https://flashcards-open-source-app.com/blog/how-many-new-flashcards-per-day/)
+- [2026 में रोज़ कितने नए फ्लैशकार्ड बनाने चाहिए?](https://nibomo.com/blog/how-many-new-flashcards-per-day/)
 
 और अगर आप "छोटी correction" वाले stage से आगे निकल चुके हैं और अब सचमुच due pile को घूर रहे हैं, तो इसके बाद यह पढ़िए:
 
-- [2026 में पीछे छूटने के बाद फ्लैशकार्ड में कैसे पकड़ बनाएँ](https://flashcards-open-source-app.com/blog/how-to-catch-up-on-flashcards-after-falling-behind/)
+- [2026 में पीछे छूटने के बाद फ्लैशकार्ड में कैसे पकड़ बनाएँ](https://nibomo.com/blog/how-to-catch-up-on-flashcards-after-falling-behind/)
 
 ## organization speed को लोगों की उम्मीद से ज़्यादा प्रभावित करती है
 
@@ -191,7 +191,7 @@ Slow review हमेशा cards की wording की वजह से नह�
 
 यह लेख उसी layer को cover करता है:
 
-- [2026 में फ्लैशकार्ड कैसे व्यवस्थित करें](https://flashcards-open-source-app.com/blog/how-to-organize-flashcards/)
+- [2026 में फ्लैशकार्ड कैसे व्यवस्थित करें](https://nibomo.com/blog/how-to-organize-flashcards/)
 
 ## FSRS मदद करता है, लेकिन noisy deck को बचा नहीं सकता
 
@@ -242,7 +242,7 @@ FSRS तब सबसे अच्छा काम करता है जब:
 
 ## इस workflow में Flashcards कहाँ बेहतर fit बैठता है
 
-[Nibomo](https://flashcards-open-source-app.com/) इस खास समस्या के लिए अच्छा fit है, क्योंकि यह product पूरे "कम junk बनाओ, अच्छे cards को तेज़ review करो" workflow को support करता है, बिना यह दिखावा किए कि हर step एक ही काम है।
+[Nibomo](https://nibomo.com/) इस खास समस्या के लिए अच्छा fit है, क्योंकि यह product पूरे "कम junk बनाओ, अच्छे cards को तेज़ review करो" workflow को support करता है, बिना यह दिखावा किए कि हर step एक ही काम है।
 
 इस repo में मौजूद मौजूदा product capabilities इससे अच्छी तरह मेल खाती हैं:
 
@@ -285,7 +285,7 @@ FSRS तब सबसे अच्छा काम करता है जब:
 
 अगर आप यह workflow एक ही जगह आज़माना चाहते हैं:
 
-- [Nibomo खोलें](https://flashcards-open-source-app.com/)
+- [Nibomo खोलें](https://nibomo.com/)
 - [ऐप खोलें](https://app.flashcards-open-source-app.com/)
-- [features page पढ़ें](https://flashcards-open-source-app.com/features/)
+- [features page पढ़ें](https://nibomo.com/features/)
 - [GitHub पर source देखें](https://github.com/kirill-markin/flashcards-open-source-app)
