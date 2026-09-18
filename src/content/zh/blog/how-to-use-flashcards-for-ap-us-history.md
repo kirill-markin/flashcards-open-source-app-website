@@ -224,7 +224,7 @@ LEQ 恰好是那种“只背日期”的牌组会很快失效的地方。你不�
 
 如果你现在正从一副很大的预制牌组，或者较老的 **APUSH Anki** 流程迁移出来，那 [2026 年如何从 Anki 迁移到开源抽认卡应用](/blog/migrate-from-anki-txt-export-open-source-flashcards/) 会是最顺手的迁移指南。至于排程这一层，[2026 年如何用 FSRS 备考](/blog/how-to-study-for-an-exam-with-fsrs/) 最值得配着看。
 
-## Flashcards 在 APUSH 工作流里适合放在哪
+## Nibomo 在 APUSH 工作流里适合放在哪
 
 如果你想把这套流程放进 [Nibomo](https://nibomo.com/) 里，真正有用的部分，不是什么宏大的承诺，说这个 app 会替你自动学完 APUSH。
 

@@ -340,7 +340,7 @@ FSRS 在这里之所以有效，是因为卡片本身已经满足这些条件：
 
 - [2026 年最佳离线 Flashcards 应用](https://nibomo.com/blog/best-offline-flashcards-app/)
 
-## Flashcards 很适合承接这套流程
+## Nibomo 很适合承接这套流程
 
 [Nibomo](https://nibomo.com/) 很适合用来做 **Security+ flashcards**，因为这个产品本身已经符合这套流程，而不需要你在 5 个工具之间临时拼接。
 

@@ -30,7 +30,7 @@ Flashcard Lab 从一张熟悉的表格开始：第一列写问题，第二列写
 
 没有哪款产品天然胜出。真正决定选择的是：学习资料的主版本应该放在哪里——Google Sheet、专用的开放工作区，还是成熟的本地集合。
 
-## Flashcard Lab、Flashcards 与 Anki 对比
+## Flashcard Lab、Nibomo 与 Anki 对比
 
 | 决策项 | Flashcard Lab | Nibomo | Anki |
 | --- | --- | --- | --- |
@@ -43,7 +43,7 @@ Flashcard Lab 从一张熟悉的表格开始：第一列写问题，第二列写
 | 2026 年 8 月 12 日核查的价格 | 可免费开始使用，部分功能付费；美国 iPhone 商店页面显示 Pro 为 US$17.99，Elite 为 US$19.99 | 托管版核心功能在测试期间免费；MIT 许可软件免费，但自托管基础设施和服务提供商需要成本 | 桌面版、AnkiWeb 和 AnkiDroid 免费；美国 AnkiMobile 当时为一次性付费 US$24.99 |
 | 开源与自托管 | 未找到官方核心源代码或自托管发行版 | 应用和 AWS 基础设施采用 MIT 许可，并提供有文档说明的生产部署路径 | 开源桌面客户端和官方自托管同步服务器；并不是可自托管的 AnkiWeb |
 
-这张表有意比较工作流，而不是功能数量。使用 Flashcard Lab 时，电子表格仍是一张普通的电子表格。Flashcards 和 Anki 则把更丰富的学习状态保存在学习系统内，但也因此脱离了以 Sheet 为中心的模式。
+这张表有意比较工作流，而不是功能数量。使用 Flashcard Lab 时，电子表格仍是一张普通的电子表格。Nibomo 和 Anki 则把更丰富的学习状态保存在学习系统内，但也因此脱离了以 Sheet 为中心的模式。
 
 ## Google Sheet 始终是工作流的中心
 
@@ -88,7 +88,7 @@ Flashcard Lab 宣传了一种间隔重复学习模式。其官方商店页面还
 
 本文核查的资料没有提到 FSRS、SM-2 或其他算法，也没有公开间隔公式、展示每次回答会怎样改变下次到期日期，或说明复习历史是否保存在 Google Sheet 中。一篇负责任的 **Flashcard Lab 评测**不能靠推测填补这些空白。
 
-Flashcards 对外说明的是另一套机制。它的 [FSRS-6 文档](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/docs/fsrs-scheduling-logic.md)介绍了评分、保存的状态、默认值和当前限制。它使用官方默认权重，而不是根据每位学习者的历史优化个性化权重。
+Nibomo 对外说明的是另一套机制。它的 [FSRS-6 文档](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/docs/fsrs-scheduling-logic.md)介绍了评分、保存的状态、默认值和当前限制。它使用官方默认权重，而不是根据每位学习者的历史优化个性化权重。
 
 对于希望进一步调整系统的用户，Anki 提供了更多选项。它的 [FSRS 设置](https://docs.ankiweb.net/deck-options.html#fsrs)包括期望记忆率、参数优化、预设和模拟工具。这使 Anki 成为调度功能成熟的选择，但对于只想少做设置、直接复习 Sheet 的人来说，它并不一定更合适。
 
@@ -102,7 +102,7 @@ Flashcards 对外说明的是另一套机制。它的 [FSRS-6 文档](https://gi
 
 这只是文档中的未知项，并不代表离线使用一定会失败。不过，计划在飞机上或网络不稳定时学习的人，不应依赖厂商尚未写入文档的行为。
 
-Flashcards 的文档说明，Web 和移动端会把卡片、编辑和复习[优先写入本地](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/docs/architecture.md#offline-first-sync)，恢复网络后再同步。首次身份验证和加载工作区数据仍然需要网络连接；AI 功能和未缓存的媒体也受网络限制。已安装的 Anki 客户端会把使用中的集合保存在本地。[离线闪卡对比](/zh/blog/best-offline-flashcards-app/)更详细地说明了这些区别。
+Nibomo 的文档说明，Web 和移动端会把卡片、编辑和复习[优先写入本地](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/docs/architecture.md#offline-first-sync)，恢复网络后再同步。首次身份验证和加载工作区数据仍然需要网络连接；AI 功能和未缓存的媒体也受网络限制。已安装的 Anki 客户端会把使用中的集合保存在本地。[离线闪卡对比](/zh/blog/best-offline-flashcards-app/)更详细地说明了这些区别。
 
 ## Flashcard Lab 的价格取决于使用端
 
@@ -119,7 +119,7 @@ Google Play 表示，该插件免费，但高级插件功能需要一次性付�
 
 公开商店页面没有充分说明使用期限或跨端权益，因此无法判断任一购买项目是否对应插件所称的终身使用权。请在你打算使用的端内查看升级页面；不要假设购买 iPhone 版本就会解锁 Google Sheets、Android、Chrome 或浏览器功能。
 
-作为对比，Flashcards 的[托管版核心功能在测试期间免费](/zh/pricing/)。采用 MIT 许可的软件可以自托管，但 AWS 基础设施、电子邮件、监控、AI 服务提供商、备份和维护仍需要投入金钱或时间。Anki 桌面版、AnkiWeb 和 AnkiDroid 免费；核查时，美国官方 AnkiMobile 应用的一次性购买价格为 US$24.99。
+作为对比，Nibomo 的[托管版核心功能在测试期间免费](/zh/pricing/)。采用 MIT 许可的软件可以自托管，但 AWS 基础设施、电子邮件、监控、AI 服务提供商、备份和维护仍需要投入金钱或时间。Anki 桌面版、AnkiWeb 和 AnkiDroid 免费；核查时，美国官方 AnkiMobile 应用的一次性购买价格为 US$24.99。
 
 ## 核对 Google 权限与厂商的隐私声明
 
@@ -154,7 +154,7 @@ Anki 提供了更传统的迁移方式，它可以[把分隔符文本导入笔�
 4. 在扩大迁移规模前，对比生成的正面、背面和补充文字。
 5. 除非两个产品都用文档说明了转移路径，否则应假定复习历史和调度状态会留在原系统中。
 
-Flashcards 自己的 `flashcards.zip` 导出也有类似边界：它会转移活跃卡片、标签和引用的媒体，但不会转移复习历史、FSRS 状态、工作区设置、完整牌组结构或账号数据。开源也不会让一份内容导出自动变成完整备份。
+Nibomo 自己的 `flashcards.zip` 导出也有类似边界：它会转移活跃卡片、标签和引用的媒体，但不会转移复习历史、FSRS 状态、工作区设置、完整牌组结构或账号数据。开源也不会让一份内容导出自动变成完整备份。
 
 ## 该选择哪种工作流？
 
@@ -164,9 +164,9 @@ Flashcards 自己的 `flashcards.zip` 导出也有类似边界：它会转移活
 
 决定使用前，需要接受这些取舍：范围不小的 Google 权限、公式未公开的调度器、没有明确说明的完整离线行为、缺少文档的精确跨端同步规则，以及必须在计划使用的端内核实的价格。
 
-### 选择 Flashcards，使用开放且不依赖 Google 的工作区
+### 选择 Nibomo，使用开放且不依赖 Google 的工作区
 
-如果目标是把学习资料的主版本移出 Google Sheets，Flashcards 是更有优势的 **Flashcard Lab 替代方案**。它提供专用的正反面卡片、有文档说明的 FSRS-6、Web 和移动端的离线优先写入、Agent 访问、MIT 许可代码，以及受支持的全栈部署方案。
+如果目标是把学习资料的主版本移出 Google Sheets，Nibomo 是更有优势的 **Flashcard Lab 替代方案**。它提供专用的正反面卡片、有文档说明的 FSRS-6、Web 和移动端的离线优先写入、Agent 访问、MIT 许可代码，以及受支持的全栈部署方案。
 
 它并不是沿用现有 Sheet 工作流的捷径。它没有实时 Sheets 同步、直接的 Flashcard Lab 导入工具、原生桌面客户端，也无法无损迁移调度状态。[入门指南](/zh/docs/getting-started/)介绍了托管版的使用路径。[自托管指南](/zh/docs/self-hosting/)则解释了以 AWS 为中心的生产部署路径及其对运维者的要求。
 
@@ -184,4 +184,4 @@ Flashcard Lab 的定位很明确：把 Google Sheet 中的行变成可复习、�
 
 它的局限同样清楚。“简单间隔重复”没有披露算法。移动应用的商店页面不能证明其具备完整的离线能力。Sheet 中的内容可读，并不能证明复习历史也可以迁移。某一端的公开价格，也不能证明购买权益可以在所有端通用。
 
-想要完整的 Google Sheets 工作流，就选择 Flashcard Lab。需要带有文档说明的 FSRS-6 和离线优先写入的专用开放工作区，就选择 Flashcards。需要成熟的本地控制和高级用户功能，就选择 Anki。最合适的产品，应该把学习资料的主版本放在你真正愿意长期维护的地方。
+想要完整的 Google Sheets 工作流，就选择 Flashcard Lab。需要带有文档说明的 FSRS-6 和离线优先写入的专用开放工作区，就选择 Nibomo。需要成熟的本地控制和高级用户功能，就选择 Anki。最合适的产品，应该把学习资料的主版本放在你真正愿意长期维护的地方。

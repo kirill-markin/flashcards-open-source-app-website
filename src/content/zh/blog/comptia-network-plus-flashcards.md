@@ -255,7 +255,7 @@ CompTIA 将[实操题](https://www.comptia.org/en-us/resources/test-policies/exa
 
 [Nibomo](/zh/features/)负责这套流程中的记忆复习：创建正反面卡片，用卡组和标签整理内容，通过 FSRS 复习到期卡片，离线学习与同步，导出数据，以及选择自托管。适合放进应用里的，是你希望在动手实践前能够随时想起的小知识点和判断。
 
-本文并不暗示这里有官方或预制的 N10-009 卡组。请从当前的 CompTIA 考试目标，以及你在正规学习中真正暴露出的薄弱点开始制卡。如果想在 Flashcards 中自己建立卡组，[入门指南](/zh/docs/getting-started/)介绍了托管版和自托管版的使用方式。
+本文并不暗示这里有官方或预制的 N10-009 卡组。请从当前的 CompTIA 考试目标，以及你在正规学习中真正暴露出的薄弱点开始制卡。如果想在 Nibomo 中自己建立卡组，[入门指南](/zh/docs/getting-started/)介绍了托管版和自托管版的使用方式。
 
 如果你还在准备相近的认证，[CompTIA A+ 闪卡指南](/zh/blog/comptia-a-plus-flashcards/)同样会区分记忆与动手实践；[CCNA 闪卡指南](/zh/blog/how-to-use-flashcards-for-ccna/)则进一步讨论路由、交换和命令练习。
 

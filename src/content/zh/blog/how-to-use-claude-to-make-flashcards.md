@@ -1,6 +1,6 @@
 ---
 title: "2026 年如何用 Claude 制作闪卡：Projects、文件上传，以及配合 FSRS 的复习"
-description: "这是一套适用于 2026 年的实用 Claude 闪卡流程：用 Projects 和文件上传先起草更小、更干净的卡片，再把真正值得保留的内容放进 Flashcards，用 FSRS 认真复习。"
+description: "这是一套适用于 2026 年的实用 Claude 闪卡流程：用 Projects 和文件上传先起草更小、更干净的卡片，再把真正值得保留的内容放进 Nibomo，用 FSRS 认真复习。"
 date: "2026-06-11"
 image: "/blog/how-to-use-claude-to-make-flashcards.png"
 keywords:
@@ -236,15 +236,15 @@ FSRS 负责处理遗忘。
 
 如果你想更细看排程这一侧，那篇 [2026 年 FSRS vs SM-2](/zh/blog/fsrs-vs-sm-2/) 就是最直接的下一篇。
 
-## 把值得保留的内容移进 Flashcards，不要假装存在什么神奇的 Claude 集成
+## 把值得保留的内容移进 Nibomo，不要假装存在什么神奇的 Claude 集成
 
 这里必须说得诚实一点。
 
-这里并没有什么特殊的 Claude-to-Flashcards 按钮，我也不会假装有。真正有用的交接方式更简单：
+这里并没有什么特殊的 Claude-to-Nibomo 按钮，我也不会假装有。真正有用的交接方式更简单：
 
 1. 在 Claude 里起草候选卡
 2. 把弱卡删掉或重写
-3. 把活下来的内容复制进 Flashcards 的 AI chat，或者直接在应用里创建卡片
+3. 把活下来的内容复制进 Nibomo 的 AI chat，或者直接在应用里创建卡片
 4. 用牌组和标签把它们整理好
 5. 用 FSRS 复习最终牌组
 

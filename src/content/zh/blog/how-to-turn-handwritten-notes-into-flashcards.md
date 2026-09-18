@@ -166,7 +166,7 @@ PDF 通常一开始就更完整、更规整。
 
 - [2026 年如何把 PDF 做成抽认卡](https://nibomo.com/blog/how-to-turn-a-pdf-into-flashcards/)
 
-## Flashcards 在这套流程里适合做什么
+## Nibomo 在这套流程里适合做什么
 
 [Nibomo](https://nibomo.com/) 很适合“**把手写笔记做成抽认卡**”这类流程，因为这个产品已经把真正重要的部分放在一起了：
 

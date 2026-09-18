@@ -137,7 +137,7 @@ FSRS 无法看到你在想什么，也不会核查答案是否符合事实。它
 
 这些额外练习是在原有调度之外，为赶截止日期而做的突击学习。这样做完全可能很合理，但请把它和操纵评分分开：即使你不喜欢短间隔，答题失败仍然应该选 Again；也不要只因为明天想再看一次，就把轻松答对的卡片评为 Hard。
 
-期望记忆保持率也会影响工作量，但临近考试才修改设置并不是时光机。按照 Flashcards 的[设置仅向前生效的产品契约](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/docs/fsrs-scheduling-logic.md)，工作区设置变更只影响未来的复习；修改期望记忆保持率，不会重新计算已有的到期日期。完整的 [FSRS 备考指南](/blog/how-to-study-for-an-exam-with-fsrs/)会介绍新卡引入、队列稳定和最终复习三个阶段，而不需要把这篇文章变成第二份考试指南。
+期望记忆保持率也会影响工作量，但临近考试才修改设置并不是时光机。按照 Nibomo 的[设置仅向前生效的产品契约](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/docs/fsrs-scheduling-logic.md)，工作区设置变更只影响未来的复习；修改期望记忆保持率，不会重新计算已有的到期日期。完整的 [FSRS 备考指南](/blog/how-to-study-for-an-exam-with-fsrs/)会介绍新卡引入、队列稳定和最终复习三个阶段，而不需要把这篇文章变成第二份考试指南。
 
 ## 纸质闪卡需要手动近似
 
@@ -159,7 +159,7 @@ FSRS 无法看到你在想什么，也不会核查答案是否符合事实。它
 
 **最佳闪卡复习计划**在一定程度上也是一种工作量选择。期望记忆保持率告诉 FSRS 调度器：你希望一张卡到期时，自己有多大概率还能想起来。正如官方 [Anki FSRS 手册](https://docs.ankiweb.net/deck-options.html#fsrs)所解释的，更高的目标通常会带来更短的间隔和更多复习。
 
-手册称 `0.90` 是 Anki 的默认值，并提醒说，当期望记忆保持率接近 `1.0` 时，工作量会迅速上升。这是有用的通用 FSRS 背景，不代表 Anki 的每个选项都存在于 Flashcards 中。这款产品的默认值和边界，请以 [Flashcards 调度器文档](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/docs/fsrs-scheduling-logic.md)为准。
+手册称 `0.90` 是 Anki 的默认值，并提醒说，当期望记忆保持率接近 `1.0` 时，工作量会迅速上升。这是有用的通用 FSRS 背景，不代表 Anki 的每个选项都存在于 Nibomo 中。这款产品的默认值和边界，请以 [Nibomo 调度器文档](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/docs/fsrs-scheduling-logic.md)为准。
 
 `0.90` 的目标并不表示“每张卡每十天复习一次”，也不保证每次短复习中都恰好答对 90%。它会根据卡片当前的记忆估计，指导间隔计算。
 

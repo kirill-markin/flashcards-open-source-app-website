@@ -1,6 +1,6 @@
 ---
 title: "2026 年最佳免费 Quizlet 替代品：5 款应用对比"
-description: "从免费抽认卡学习、同步、离线使用、Quizlet 导入和 AI 限额等方面，对比 Anki、Knowt、RemNote、Mochi 和 Flashcards，以及各款零元套餐的主要限制。"
+description: "从免费抽认卡学习、同步、离线使用、Quizlet 导入和 AI 限额等方面，对比 Anki、Knowt、RemNote、Mochi 和 Nibomo，以及各款零元套餐的主要限制。"
 image: "/blog/free-quizlet-alternative-v2.png"
 date: "2026-06-20"
 updated: "2026-09-10"
@@ -21,9 +21,9 @@ Quizlet 免费账户依然能用来学习抽认卡、做练习题、查看图表
 
 因此，单看“免费”很难选对产品。有的免费 Quizlet 替代品可以离线使用，却单独收取 iPhone 应用费；有的提供多种学习模式，但导出的文件不利于以后迁移；还有的能同步笔记和卡片，却对高级 PDF、图片或 AI 功能设有限额。
 
-真正适合你的免费 Quizlet 替代品，是限制不会打乱日常学习流程的那一款。本文只比较五个选项——Anki、Knowt、RemNote、Mochi 和 Flashcards——并以 Quizlet 免费套餐为基准，不会把所有标价 0 美元的方案当成同一回事。
+真正适合你的免费 Quizlet 替代品，是限制不会打乱日常学习流程的那一款。本文只比较五个选项——Anki、Knowt、RemNote、Mochi 和 Nibomo——并以 Quizlet 免费套餐为基准，不会把所有标价 0 美元的方案当成同一回事。
 
-> **利益披露：** 我是 Kirill Markin，也是本文所比较的五款应用之一 Flashcards 的开发者。我把它列入对比，是因为它开源，并支持 FSRS 和智能体工作流。它并非适合所有人的赢家：它没有直接的 Quizlet 导入工具，原生迁移包不保留复习状态，托管版目前的免费方案也仍处于测试期。本文依据官方定价页、帮助页面和代码仓库文档逐项核对，并不代表我对这五款应用都做过长期的亲自测试。
+> **利益披露：** 我是 Kirill Markin，也是本文所比较的五款应用之一 Nibomo 的开发者。我把它列入对比，是因为它开源，并支持 FSRS 和智能体工作流。它并非适合所有人的赢家：它没有直接的 Quizlet 导入工具，原生迁移包不保留复习状态，托管版目前的免费方案也仍处于测试期。本文依据官方定价页、帮助页面和代码仓库文档逐项核对，并不代表我对这五款应用都做过长期的亲自测试。
 
 **事实核查日期：** 2026 年 9 月 10 日。
 
@@ -108,17 +108,17 @@ Mochi 的迁出选项也很清楚。它的原生 `.mochi` 导出包含卡片、�
 
 如果无需账户的离线学习和 Markdown 可移植性比自动同步或充足的 AI 额度更重要，可以选 Mochi。[Mochi 替代品指南](/blog/mochi-alternative/)提供了更完整的产品对比。
 
-## Flashcards：开源且适合智能体，但仍处于测试期
+## Nibomo：开源且适合智能体，但仍处于测试期
 
-Flashcards 是这份清单中定位最专一的产品。托管版在[测试期间免费](/pricing/)，包含 AI 以及网页版、iOS 和 Android 之间的同步，套餐层面也不限制卡片、文件或总存储空间。不过，常规的请求、文件和传输限制依然存在。[功能页面](/features/)介绍了离线学习、FSRS 复习，以及通过 MCP 和 Agent API 访问同一工作区的能力。
+Nibomo 是这份清单中定位最专一的产品。托管版在[测试期间免费](/pricing/)，包含 AI 以及网页版、iOS 和 Android 之间的同步，套餐层面也不限制卡片、文件或总存储空间。不过，常规的请求、文件和传输限制依然存在。[功能页面](/features/)介绍了离线学习、FSRS 复习，以及通过 MCP 和 Agent API 访问同一工作区的能力。
 
 长期承诺的免费范围比测试期方案更窄。核心的卡片创建和复习会保持免费。以后 AI 用量较高时，可能需要你自己的 AI 服务商密钥或付费方案，官方也没有承诺所有托管功能都会永久免费。
 
-Quizlet 迁移是它最明显的短板。Flashcards 没有直接的 Quizlet、CSV、TSV、Anki 或通用文本导入工具。符合条件的 Quizlet 文本可以作为手动重建或生成经人工审核的 AI 草稿的素材，但这并不是无损导入。[Quizlet 导出流程](/blog/how-to-export-quizlet-sets-and-turn-them-into-fsrs-flashcards/)介绍了如何清理数据，同时明确说明缺失的媒体和学习状态无法恢复。
+Quizlet 迁移是它最明显的短板。Nibomo 没有直接的 Quizlet、CSV、TSV、Anki 或通用文本导入工具。符合条件的 Quizlet 文本可以作为手动重建或生成经人工审核的 AI 草稿的素材，但这并不是无损导入。[Quizlet 导出流程](/blog/how-to-export-quizlet-sets-and-turn-them-into-fsrs-flashcards/)介绍了如何清理数据，同时明确说明缺失的媒体和学习状态无法恢复。
 
-原生 `flashcards.zip` 包可以在不同 Flashcards 工作区之间迁移卡片、标签和相关媒体，但不会迁移复习历史、FSRS 调度状态、设置、完整牌组结构或账户数据。自托管能让你获得采用 MIT 许可证的软件并掌控部署，但文档中的生产环境方案使用 AWS，因此仍然会产生基础设施、服务商、维护、备份和运维成本。[自托管指南](/docs/self-hosting/)详细说明了这条边界。
+原生 `flashcards.zip` 包可以在不同 Nibomo 工作区之间迁移卡片、标签和相关媒体，但不会迁移复习历史、FSRS 调度状态、设置、完整牌组结构或账户数据。自托管能让你获得采用 MIT 许可证的软件并掌控部署，但文档中的生产环境方案使用 AWS，因此仍然会产生基础设施、服务商、维护、备份和运维成本。[自托管指南](/docs/self-hosting/)详细说明了这条边界。
 
-如果你离开 Quizlet 的原因是需要开源、明确的 FSRS 支持或 AI 智能体访问，可以选择 Flashcards。如果你更在意直接迁移、成熟的导入格式或永久包含所有功能的托管免费套餐，请选其他产品。单独的[开源 Quizlet 替代品对比](/blog/quizlet-alternative/)更深入地比较了 Quizlet 和 Flashcards；本文这份五款应用指南只聚焦零成本边界。
+如果你离开 Quizlet 的原因是需要开源、明确的 FSRS 支持或 AI 智能体访问，可以选择 Nibomo。如果你更在意直接迁移、成熟的导入格式或永久包含所有功能的托管免费套餐，请选其他产品。单独的[开源 Quizlet 替代品对比](/blog/quizlet-alternative/)更深入地比较了 Quizlet 和 Nibomo；本文这份五款应用指南只聚焦零成本边界。
 
 ## 全部迁走前，先跑一遍迁移测试
 

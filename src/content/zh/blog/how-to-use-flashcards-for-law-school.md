@@ -220,7 +220,7 @@ keywords:
 - [2026 年如何用 FSRS 为考试复习](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)
 - [2026 年 FSRS vs SM-2](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
-## Flashcards 在这套法学院工作流里适合放在哪里
+## Nibomo 在这套法学院工作流里适合放在哪里
 
 如果你想在 [Nibomo](https://nibomo.com/) 里跑这套流程，真正有用的地方并不是抽象地说“AI 可以做卡”。而是这个产品目前已经覆盖了这项工作里最无聊、却又最关键的中段：
 
@@ -245,7 +245,7 @@ keywords:
 
 这才是我会信任的 **法学院抽认卡** 版本。
 
-如果你想在 Flashcards 里试试这套工作流：
+如果你想在 Nibomo 里试试这套工作流：
 
 - [开始使用 Nibomo](https://nibomo.com/)
 - [打开网页版应用](https://app.flashcards-open-source-app.com/)

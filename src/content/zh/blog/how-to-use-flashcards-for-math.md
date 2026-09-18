@@ -175,7 +175,7 @@ keywords:
 
 卡越小，FSRS 越有用。如果等你把写卡这一侧先控制住了，想再调排程这一侧，那下一篇该看的是：[2026 年 FSRS 设置：该改什么，不该改什么](https://nibomo.com/blog/fsrs-settings/)。
 
-## Flashcards 在这套工作流里为什么合适
+## Nibomo 在这套工作流里为什么合适
 
 [Nibomo](https://nibomo.com/) 很适合这种数学学习方式，因为一旦你明确了记忆目标，它正好支持后面真正重要的那几部分：
 

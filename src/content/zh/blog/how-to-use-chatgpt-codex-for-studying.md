@@ -1,6 +1,6 @@
 ---
 title: "2026 年如何用 ChatGPT 和 Codex 学习：通过 MCP 保存闪卡"
-description: "用 ChatGPT Study Mode 找出薄弱点，在 ChatGPT 桌面应用中让 Codex 通过 Flashcards MCP 保存选中的卡片，再用 FSRS 复习。"
+description: "用 ChatGPT Study Mode 找出薄弱点，在 ChatGPT 桌面应用中让 Codex 通过 Nibomo MCP 保存选中的卡片，再用 FSRS 复习。"
 date: "2026-08-02"
 image: "/blog/how-to-use-chatgpt-codex-for-studying.png"
 keywords:
@@ -14,24 +14,24 @@ keywords:
 
 昨天，ChatGPT 问我，为什么样本量越大，置信区间通常越窄。我很有把握地说了三句话，却硬是没提到“标准误”。这个知识缺口值得记下来。至于那次统计学对话里的其他内容，留在聊天里就够了。
 
-如果你想知道**如何用 ChatGPT 和 Codex 学习**，我推荐这套流程：让 ChatGPT 找出真正的知识缺口，由你决定要不要做成卡，再让 Codex 通过 Flashcards MCP（Model Context Protocol，模型上下文协议）连接器保存。卡片会进入你的 Flashcards 卡片库，之后由间隔重复算法 FSRS 在合适的时间安排复习。
+如果你想知道**如何用 ChatGPT 和 Codex 学习**，我推荐这套流程：让 ChatGPT 找出真正的知识缺口，由你决定要不要做成卡，再让 Codex 通过 Nibomo MCP（Model Context Protocol，模型上下文协议）连接器保存。卡片会进入你的 Nibomo 卡片库，之后由间隔重复算法 FSRS 在合适的时间安排复习。
 
 这和让 ChatGPT 根据整章内容生成一整套卡片不是一回事。它只是把辅导过程中发现的少量薄弱点，交给长期复习系统。连接器省掉的是复制粘贴，不会替你决定该记什么。
 
 ![ChatGPT 和 Codex 学习流程：把选中的薄弱点通过 MCP 变成由 FSRS 安排复习的闪卡](/blog/how-to-use-chatgpt-codex-for-studying.png)
 
-## 最实用的分工：ChatGPT 辅导，Codex 保存，Flashcards 安排复习
+## 最实用的分工：ChatGPT 辅导，Codex 保存，Nibomo 安排复习
 
 每一部分只负责一件事：
 
 1. **ChatGPT Study Mode** 负责提问、给提示，陪你一步步弄懂材料。
 2. **你**决定哪些错误值得做成卡片，留到以后复习。
-3. **ChatGPT 桌面应用中的 Codex 或 Codex CLI** 通过 Flashcards MCP 创建或整理你已经批准的卡片。
+3. **ChatGPT 桌面应用中的 Codex 或 Codex CLI** 通过 Nibomo MCP 创建或整理你已经批准的卡片。
 4. **Nibomo** 记录你的复习，并用 FSRS 安排下一次复习时间。
 
 OpenAI 目前的 [Study Mode 指南](https://help.openai.com/en/articles/11780217-chatgpt-study-mode-faq)说明，这项功能会像导师一样逐步辅导、一次只问一道题，还能使用你上传的笔记、图片或 PDF。它很适合帮你发现：哪些内容看起来眼熟，自己却还无法凭记忆解释。
 
-只有第三步需要 MCP。你可以把 MCP 简单理解为一座桥，让 Codex 调用少量经过授权的 Flashcards 工具。这些工具能列出工作区、读取允许访问的学习数据，并在你批准写入后修改卡片或牌组。
+只有第三步需要 MCP。你可以把 MCP 简单理解为一座桥，让 Codex 调用少量经过授权的 Nibomo 工具。这些工具能列出工作区、读取允许访问的学习数据，并在你批准写入后修改卡片或牌组。
 
 ## 先用 ChatGPT 找出真正的薄弱点
 
@@ -74,23 +74,23 @@ OpenAI 目前的 [Study Mode 指南](https://help.openai.com/en/articles/1178021
 
 如果笔记已经存放在电脑本地文件中，也可以一直留在 Codex，使用同一段“一次只问一个问题”的辅导提示词。记得要求它先展示预览，未经批准不要写入卡片。对大多数学习者来说，ChatGPT Study Mode 更适合当导师；涉及本地文件或 MCP 工具时，再交给 Codex 更方便。
 
-## 把 Codex 连接到 Flashcards MCP 服务器
+## 把 Codex 连接到 Nibomo MCP 服务器
 
 桌面端只需设置几步：
 
 1. 在 ChatGPT 桌面应用中打开 **Settings > MCP servers**。
 2. 选择 **Add server**。
-3. 名称填写 `Flashcards`，类型选择 **Streamable HTTP**，再输入下面的 URL：
+3. 名称填写 `nibomo`，类型选择 **Streamable HTTP**，再输入下面的 URL：
 
 ```text
 https://mcp.nibomo.com/mcp
 ```
 
 4. 保存服务器，然后选择 **Restart**。
-5. 应用重启后，选择 **Authenticate**，并在浏览器中完成 Flashcards OAuth 登录。
+5. 应用重启后，选择 **Authenticate**，并在浏览器中完成 Nibomo OAuth 登录。
 6. 在 Codex 中输入 `/mcp`，确认服务器已连接。
 
-这些步骤来自 OpenAI 目前的 [ChatGPT 桌面应用与 Codex MCP 设置指南](https://learn.chatgpt.com/docs/extend/mcp)。Flashcards 在交互式登录中使用 OAuth 授权，因此普通桌面会话不需要粘贴 API 密钥。如果连接遇到问题，[Nibomo MCP 文档](/zh/docs/mcp-connector/)列出了完整的认证方式和工具规则。
+这些步骤来自 OpenAI 目前的 [ChatGPT 桌面应用与 Codex MCP 设置指南](https://learn.chatgpt.com/docs/extend/mcp)。Nibomo 在交互式登录中使用 OAuth 授权，因此普通桌面会话不需要粘贴 API 密钥。如果连接遇到问题，[Nibomo MCP 文档](/zh/docs/mcp-connector/)列出了完整的认证方式和工具规则。
 
 每次写入前都要检查并批准。列出工作区是只读操作；创建、改写、整理或删除已保存的卡片都会修改数据。如果你的 ChatGPT 账户由学校或单位管理，管理员也可能限制你能启用哪些 MCP 服务器或工具。
 
@@ -99,7 +99,7 @@ https://mcp.nibomo.com/mcp
 切换到桌面应用中的 Codex，把最终候选清单交给它。我会这样写提示词：
 
 ```text
-使用 Flashcards MCP 服务器。先列出我的工作区，并询问这些卡片应该
+使用 Nibomo MCP 服务器。先列出我的工作区，并询问这些卡片应该
 保存在哪里。写入任何内容前，先展示拟定的正面、背面、标签和牌组
 改动。只创建我批准的卡片。写入完成后，再读取已保存的卡片供我核对。
 ```
@@ -139,13 +139,13 @@ Codex 应该先调用只读的工作区工具。等你选好工作区和整理�
 已保存的卡片供我核对。
 ```
 
-在 Flashcards 中，牌组其实是保存下来的筛选条件。把卡片放到另一个牌组，可能意味着修改标签，所以标签也要一起检查。你也可以用同样的“先检查，再批准”方式创建牌组、整理少量卡片，或删除你明确指定的卡片。对于任何拥有真实写入权限的工具，“删掉所有看起来不好的卡片”都是一句危险的提示词。
+在 Nibomo 中，牌组其实是保存下来的筛选条件。把卡片放到另一个牌组，可能意味着修改标签，所以标签也要一起检查。你也可以用同样的“先检查，再批准”方式创建牌组、整理少量卡片，或删除你明确指定的卡片。对于任何拥有真实写入权限的工具，“删掉所有看起来不好的卡片”都是一句危险的提示词。
 
-## 由 Flashcards 记录的，才是正式的 FSRS 复习
+## 由 Nibomo 记录的，才是正式的 FSRS 复习
 
 MCP 连接器可以读取允许访问的 `review_events`（复习记录）和复习安排相关字段。它的 SQL 写入工具不能创建 `review_events`，不能提交 Again、Hard、Good 或 Easy 评分，也不能修改已经保存的 FSRS 状态或复习安排。连接器只能通过单独的 `submit_review` 工具记录评分，所以复习既可以在应用里完成，也可以交给 Codex 来进行。
 
-卡片到期后，打开 [Nibomo 网页版](https://app.flashcards-open-source-app.com/)或移动端客户端。先回忆答案，再显示背面，并在那里选择评分。Flashcards 会记录这次正式复习，再由 FSRS 决定卡片何时重新出现。
+卡片到期后，打开 [Nibomo 网页版](https://app.flashcards-open-source-app.com/)或移动端客户端。先回忆答案，再显示背面，并在那里选择评分。Nibomo 会记录这次正式复习，再由 FSRS 决定卡片何时重新出现。
 
 Codex 也可以根据你授权的卡片数据进行非正式测验，把它当成额外练习即可：单纯的测验不会记录复习，也不会改变复习安排。想做正式复习时，请让 Codex 用复习工具来进行。它会用 `next_review_card` 只显示正面，在你作答后用 `reveal_answer` 显示背面，再用 `submit_review` 记录评分，让 FSRS 重新安排这张卡。除非你要求自己选择每次评分，否则由 Codex 为你的回答评分。[AI 闪卡导师指南](/zh/blog/ai-flashcard-tutor-due-cards/)更详细地介绍了这个复习流程。
 
@@ -156,16 +156,16 @@ Codex 也可以根据你授权的卡片数据进行非正式测验，把它当�
 用下面两条命令添加远程服务器：
 
 ```bash
-codex mcp add flashcards --url https://mcp.nibomo.com/mcp
-codex mcp login flashcards
+codex mcp add nibomo --url https://mcp.nibomo.com/mcp
+codex mcp login nibomo
 ```
 
 运行 `codex mcp list` 检查已保存的服务器，再在 Codex CLI 中输入 `/mcp` 查看当前启用的工具。同一台电脑上的桌面 Codex 视图、Codex CLI 和 IDE（集成开发环境）扩展共用 `config.toml`。只需配置一次；必要时重启另一个本地客户端，服务器就会出现在那里。ChatGPT 网页版不会读取这个文件。
 
-如果当前环境不方便打开浏览器完成 OAuth，Flashcards 也接受长期有效的 `fca_` Agent 密钥，并将其用作 Bearer token（身份验证令牌）。把密钥放进环境变量，注册的只是环境变量名称，不是密钥本身：
+如果当前环境不方便打开浏览器完成 OAuth，Nibomo 也接受长期有效的 `fca_` Agent 密钥，并将其用作 Bearer token（身份验证令牌）。把密钥放进环境变量，注册的只是环境变量名称，不是密钥本身：
 
 ```bash
-codex mcp add flashcards \
+codex mcp add nibomo \
   --url https://mcp.nibomo.com/mcp \
   --bearer-token-env-var FLASHCARDS_MCP_TOKEN
 ```
@@ -176,7 +176,7 @@ codex mcp add flashcards \
 
 ChatGPT 网页版不会读取本地 Codex `config.toml` 中保存的 MCP 服务器。在网页端，由远程 MCP 支持的工具会通过 **ChatGPT Work** 中的插件接入，工作区管理员可以控制哪些插件和工具可用。
 
-自定义 MCP app 是另一套网页端设置方式。它们使用 ChatGPT Developer mode，具体是否可用、是否允许写入，取决于你的账户和工作区。如果工作区允许添加或发布自定义 MCP app，请按照 OpenAI 目前的 [Developer mode 与 MCP apps 指南](https://help.openai.com/en/articles/12584461-developer-mode-apps-and-full-mcp-connectors-in-chatgpt-beta)设置，并检查已经启用的操作，不要默认 Flashcards 写入工具一定能运行。
+自定义 MCP app 是另一套网页端设置方式。它们使用 ChatGPT Developer mode，具体是否可用、是否允许写入，取决于你的账户和工作区。如果工作区允许添加或发布自定义 MCP app，请按照 OpenAI 目前的 [Developer mode 与 MCP apps 指南](https://help.openai.com/en/articles/12584461-developer-mode-apps-and-full-mcp-connectors-in-chatgpt-beta)设置，并检查已经启用的操作，不要默认 Nibomo 写入工具一定能运行。
 
 因此，你可以从下面四条路线中选择：
 
@@ -194,7 +194,7 @@ ChatGPT 网页版不会读取本地 Codex `config.toml` 中保存的 MCP 服务�
 背面，并标明目标牌组或标签。不要添加新卡片或新事实。
 ```
 
-通读一遍，把保留下来的卡片复制进 Flashcards，再照常复习。对于涉及隐私的材料、由学校管理的账户，或者不想让 AI 客户端读取已保存卡片数据的人，手动录入很合理。
+通读一遍，把保留下来的卡片复制进 Nibomo，再照常复习。对于涉及隐私的材料、由学校管理的账户，或者不想让 AI 客户端读取已保存卡片数据的人，手动录入很合理。
 
 配套文章[如何把 ChatGPT Study Mode 变成闪卡](/zh/blog/how-to-turn-chatgpt-study-mode-into-flashcards/)专门介绍不使用连接器的辅导流程。[如何用 ChatGPT 制作闪卡](/zh/blog/how-to-use-chatgpt-to-make-flashcards/)讲的是从笔记起草卡片的更通用方法。如果你也用 Anthropic 的工具学习，[如何用 Claude 学习](/zh/blog/how-to-use-claude-for-studying/)介绍了类似的“导师到 MCP”流程，不过 Claude 的连接器需要单独设置。
 
@@ -202,4 +202,4 @@ ChatGPT 网页版不会读取本地 Codex `config.toml` 中保存的 MCP 服务�
 
 一次 ChatGPT 学习会话可能有二十分钟都很有帮助，最后却只做出三张卡。没问题。对话帮你理解主题；卡片只负责保留那些以后还值得复习的薄弱点。
 
-我偏爱的 **ChatGPT 和 Codex 学习流程** 很简单：先回答问题，找出自己哪里答不上来，批准几张重点明确的卡，通过 Flashcards MCP 保存，再回到 Flashcards 完成正式的 FSRS 复习。连接器省掉了复制粘贴。哪些内容值得你以后再花时间，仍然由你决定。
+我偏爱的 **ChatGPT 和 Codex 学习流程** 很简单：先回答问题，找出自己哪里答不上来，批准几张重点明确的卡，通过 Nibomo MCP 保存，再回到 Nibomo 完成正式的 FSRS 复习。连接器省掉了复制粘贴。哪些内容值得你以后再花时间，仍然由你决定。

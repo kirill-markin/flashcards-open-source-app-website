@@ -151,7 +151,7 @@ keywords:
 
 - [2026 年 FSRS vs SM-2](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
-## 为什么 Flashcards 很适合这个工作流
+## 为什么 Nibomo 很适合这个工作流
 
 [Nibomo](https://nibomo.com/) 对 **把 pdf 变成 flashcards** 这个流程很合适，因为真正重要的环节已经在一个产品里：
 
@@ -165,7 +165,7 @@ keywords:
 
 很多产品都很会处理“看，卡片出现了”的那一刻。然后工作流就开始变模糊。草稿放在哪里？怎么编辑？当你不是想欣赏生成 demo，而是想认真学习它们时，接下来怎么办？
 
-这也是 Flashcards 比单独的生成器显得更踏实的地方。
+这也是 Nibomo 比单独的生成器显得更踏实的地方。
 
 ## 我会故意把流程做得很无聊
 

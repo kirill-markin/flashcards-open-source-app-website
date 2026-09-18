@@ -222,7 +222,7 @@ keywords:
 
 如果 AI 已经把你的牌组做得比你的耐心还大，那篇 [2026 年如何修正 AI 生成的抽认卡](/zh/blog/how-to-fix-ai-flashcards/) 就是最该先读的清理指南。
 
-## Flashcards 很适合接手这类场景
+## Nibomo 很适合接手这类场景
 
 [Nibomo](/zh/) 很适合这种暑假复习，因为真正难的部分不是新鲜感。
 

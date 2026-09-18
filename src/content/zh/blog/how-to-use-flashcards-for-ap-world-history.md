@@ -192,7 +192,7 @@ AI 确实能明显加快 AP World 建卡速度。但它不该拥有最后决定�
 
 如果你想更具体看调度这一层，那篇最直接的配套文章就是 [2026 年如何用 FSRS 备考](/blog/how-to-study-for-an-exam-with-fsrs/)。
 
-## Flashcards 在这套 AP World 工作流里适合放在哪里
+## Nibomo 在这套 AP World 工作流里适合放在哪里
 
 如果你想找一个地方把这套流程真正跑起来，[Nibomo](/) 很适合承接这套工作流，而且不需要你再拼出一套奇怪的学习工具链。
 

@@ -255,7 +255,7 @@ OpenAI 的 [Study Mode](https://openai.com/index/chatgpt-study-mode/) 更强调�
 
 很多时候，就是这样才会从“我第二天又全忘了”变成“我还是会错几处，但我现在很清楚到底是哪几处”。
 
-## Flashcards 在这里最诚实的位置
+## Nibomo 在这里最诚实的位置
 
 [Nibomo](/zh/) 并不是我会描述成“完整模拟考试平台”的产品。
 
@@ -274,7 +274,7 @@ OpenAI 的 [Study Mode](https://openai.com/index/chatgpt-study-mode/) 更强调�
 
 先用模拟测试找出问题。
 
-再用 Flashcards 把那个以后还值得继续修正的部分留下来。
+再用 Nibomo 把那个以后还值得继续修正的部分留下来。
 
 ## 一种现实里真的能坚持的每周节奏
 

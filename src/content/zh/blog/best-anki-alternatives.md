@@ -166,23 +166,23 @@ Brainscape 当前的帮助中心称，网站和移动应用现在都具备相同
 
 只有当你足够想要 SuperMemo 自己的方法或课程目录，并愿意从新的调度开始时，才选择它。如果保留现有调度才是首要目标，它解决的就不是你的问题。
 
-## Flashcards：全栈源代码开放，但 Anki 导入能力最弱
+## Nibomo：全栈源代码开放，但 Anki 导入能力最弱
 
-Flashcards 允许你掌控的范围很广。[采用 MIT 许可的仓库](https://github.com/kirill-markin/flashcards-open-source-app)包含网页应用、iOS 和 Android 客户端、后端、离线同步、基础设施、[公共 API](/docs/api/) 和 [MCP 服务器](/docs/mcp-connector/)。复习使用 [FSRS](/docs/architecture/#scheduling)。网页端、iOS 和 Android 都会先写入本地，把更改加入待发送队列，再在恢复连接后同步。
+Nibomo 允许你掌控的范围很广。[采用 MIT 许可的仓库](https://github.com/kirill-markin/flashcards-open-source-app)包含网页应用、iOS 和 Android 客户端、后端、离线同步、基础设施、[公共 API](/docs/api/) 和 [MCP 服务器](/docs/mcp-connector/)。复习使用 [FSRS](/docs/architecture/#scheduling)。网页端、iOS 和 Android 都会先写入本地，把更改加入待发送队列，再在恢复连接后同步。
 
-但这不代表它兼容 Anki。Flashcards 无法读取 `.apkg` 或 `.colpkg`。受支持的 [Anki TXT 迁移](/blog/migrate-from-anki-txt-export-open-source-flashcards/)是一套需要人工检查、由 AI 辅助起草的流程，主要适合以文字为主的卡片。它不会保留模板、插件、牌组层级、到期时间、间隔或复习记录。TXT 文件中的媒体引用并不是媒体文件，因此媒体较多的牌组需要单独重建和验证。
+但这不代表它兼容 Anki。Nibomo 无法读取 `.apkg` 或 `.colpkg`。受支持的 [Anki TXT 迁移](/blog/migrate-from-anki-txt-export-open-source-flashcards/)是一套需要人工检查、由 AI 辅助起草的流程，主要适合以文字为主的卡片。它不会保留模板、插件、牌组层级、到期时间、间隔或复习记录。TXT 文件中的媒体引用并不是媒体文件，因此媒体较多的牌组需要单独重建和验证。
 
-Flashcards 自己的 `flashcards.zip` 包也达不到完整备份的范围。它可以在 Flashcards 工作区之间迁移卡片、标签和相关媒体，但不会迁移复习历史、FSRS 状态、完整牌组结构、工作区设置或账户。
+Nibomo 自己的 `flashcards.zip` 包也达不到完整备份的范围。它可以在 Nibomo 工作区之间迁移卡片、标签和相关媒体，但不会迁移复习历史、FSRS 状态、完整牌组结构、工作区设置或账户。
 
 托管版核心功能在[测试期间免费](/pricing/)。自托管生产技术栈并不是运行一条命令就能完成的 Docker 安装：[自托管指南](/docs/self-hosting/)使用 AWS CDK，并需要 AWS 服务、Cloudflare、Resend、Sentry、密钥、迁移、备份、恢复和升级。Docker Compose 用于开发环境，不是受支持的生产部署方式。
 
-如果切换的理由正是获得完整源代码和由自己掌控的后端，而且卡片足够简单，可以安全重建，那么可以选择 Flashcards。[打开托管应用](https://app.flashcards-open-source-app.com/)试用一副小型临时牌组。如果学习状态的保真度最重要，请继续使用 Anki，或测试 RemNote、Mochi 或 Mnemosyne。
+如果切换的理由正是获得完整源代码和由自己掌控的后端，而且卡片足够简单，可以安全重建，那么可以选择 Nibomo。[打开托管应用](https://app.flashcards-open-source-app.com/)试用一副小型临时牌组。如果学习状态的保真度最重要，请继续使用 Anki，或测试 RemNote、Mochi 或 Mnemosyne。
 
 ## 哪款 iOS 版 Anki 替代品不会埋下迁移隐患？
 
 “iOS 上的 Anki 替代品”可能指两件事：一款原生 iPhone 应用，或者一款不用支付 [AnkiMobile 24.99 美元一次性买断费用](https://apps.apple.com/us/app/ankimobile-flashcards/id373493387)的应用。
 
-RemNote、Mochi、Quizlet、Brainscape、SuperMemo 和 Flashcards 都有 iOS 应用，Mnemosyne 没有。但迁移问题依然存在：
+RemNote、Mochi、Quizlet、Brainscape、SuperMemo 和 Nibomo 都有 iOS 应用，Mnemosyne 没有。但迁移问题依然存在：
 
 - **Mochi** 保留的内容比只支持文本导入的 iOS 产品更多：它能导入 `.apkg` 中的复习历史，但会把内容转成 Markdown，并改用两档评分。
 - **RemNote** 也能导入 `.apkg` 复习历史，但要测试它的 **待学习（Need to Learn）** 队列，不要直接假设今天的 Anki 调度会保留下来。
@@ -235,7 +235,7 @@ Anki 依然拥有成熟的插件生态、灵活的笔记与卡片模板、FSRS �
 3. 如果本地 Markdown 和便于检查的导出格式比 Anki 渲染更重要，请测试 Mochi。
 4. 如果你想要一款专注、开源并能直接导入 Anki 的桌面应用，请测试 Mnemosyne，同时确认它的移动端限制符合你的日常习惯。
 5. 如果真正的问题是课堂分发或需要更简单的共同复习方式，请在 Quizlet 或 Brainscape 中重建一个小型学习集。
-6. 如果你明确想要 SuperMemo 的方法，就接受全新的调度。如果你明确想要完整技术栈的源代码、自托管、API 和 MCP 访问，就接受 Flashcards 会丢失数据的内容重建流程，以及随之而来的运维工作。
+6. 如果你明确想要 SuperMemo 的方法，就接受全新的调度。如果你明确想要完整技术栈的源代码、自托管、API 和 MCP 访问，就接受 Nibomo 会丢失数据的内容重建流程，以及随之而来的运维工作。
 
 如需逐项比较 3 种差异很大的模式，请阅读 [Anki、Quizlet 与 Nibomo 对比](/blog/anki-vs-quizlet-vs-open-source-flashcards-app/)。
 

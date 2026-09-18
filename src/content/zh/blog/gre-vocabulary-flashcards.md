@@ -248,7 +248,7 @@ AI 在这里确实有用，只是不值得无脑放行。
 - [2026 年如何把笔记变成抽认卡](https://nibomo.com/zh/blog/turn-notes-into-flashcards)
 - [2026 年如何把文章变成抽认卡](https://nibomo.com/zh/blog/how-to-turn-an-article-into-flashcards)
 
-## Flashcards 在这套 GRE 工作流里真正适合做什么
+## Nibomo 在这套 GRE 工作流里真正适合做什么
 
 如果你想把这套流程放进 [Nibomo](https://nibomo.com/zh)，真正有用的点，不是什么“AI 让学习更简单”的空话，而是当前产品已经覆盖了这套流程中间最实际的部分：
 
@@ -274,7 +274,7 @@ AI 在这里确实有用，只是不值得无脑放行。
 
 这才是我会信任的 **GRE vocab deck** 版本。
 
-如果你想在 Flashcards 里试试这套流程：
+如果你想在 Nibomo 里试试这套流程：
 
 - [从 Nibomo 开始](https://nibomo.com/zh)
 - [打开 Web 应用](https://app.flashcards-open-source-app.com/)

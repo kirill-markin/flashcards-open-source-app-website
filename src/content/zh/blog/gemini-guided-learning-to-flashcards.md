@@ -203,7 +203,7 @@ FSRS 才是把“我发现这里有个漏洞”真正变成“我下周更不容
 
 如果你想单独比较排程器，[2026 年 FSRS vs SM-2](/blog/fsrs-vs-sm-2/) 更适合看那部分。这篇文章更聚焦一点：Gemini 已经帮你找出了薄弱点，现在它们需要一个真正的复习归宿。
 
-## Flashcards 在哪里适合接手
+## Nibomo 在哪里适合接手
 
 [Nibomo](/) 并不是想取代 Gemini Guided Learning。
 

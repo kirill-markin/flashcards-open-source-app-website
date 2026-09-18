@@ -243,7 +243,7 @@ FSRS 真正擅长的，是在卡片已经清楚到足以信任之后，去处理
 
 如果你想看排程器本身的比较，[2026 年 FSRS vs SM-2](https://nibomo.com/blog/fsrs-vs-sm-2/) 会专门讲这一部分。
 
-## Flashcards 在这套工作流里的位置
+## Nibomo 在这套工作流里的位置
 
 [Nibomo](https://nibomo.com/) 很适合 **如何修正 AI flashcards** 这类工作流，因为这个产品正好覆盖了大多数生成器留下来的那段尴尬中间地带：
 

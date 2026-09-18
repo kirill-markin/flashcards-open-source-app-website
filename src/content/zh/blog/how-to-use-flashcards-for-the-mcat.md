@@ -283,7 +283,7 @@ FSRS 在这里有用，是因为有些知识点记得很快，有些却会反复
 - [2026 年如何用 FSRS 备考](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)
 - [2026 年 FSRS vs SM-2](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
-## Flashcards 在这套 MCAT 流程里适合做什么
+## Nibomo 在这套 MCAT 流程里适合做什么
 
 [Nibomo](https://nibomo.com/) 很适合这种 MCAT 流程，因为它覆盖了学生最常被迫拆散到多个工具里的那些环节。
 

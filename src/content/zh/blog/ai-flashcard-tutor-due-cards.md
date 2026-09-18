@@ -1,6 +1,6 @@
 ---
 title: "2026 年 AI 闪卡导师：通过 MCP 测验到期卡片，评分保存为 FSRS 复习"
-description: "通过 MCP 把 Claude、ChatGPT 或 Codex 接入 Flashcards。AI 导师拿你的到期卡片测验你，给每次作答评分，再把评分保存为一次 FSRS 复习。"
+description: "通过 MCP 把 Claude、ChatGPT 或 Codex 接入 Nibomo。AI 导师拿你的到期卡片测验你，给每次作答评分，再把评分保存为一次 FSRS 复习。"
 date: "2026-07-15"
 updated: "2026-09-16"
 image: "/blog/ai-flashcard-tutor-due-cards.png"
@@ -15,9 +15,9 @@ keywords:
   - "用 AI 进行 FSRS 复习"
 ---
 
-让 Claude 拿你的到期卡片考考你，Flashcards 连接器只交给它一道题：一个卡片 ID 加上正面文字，背面并不在这次返回的内容里。等你答完，导师才去取卡片里保存的答案，告诉你漏了什么，再把 Again、Hard、Good 或 Easy 记成一次真正的 FSRS 复习。手机同步之后，这张卡片的下次到期时间已经排好了。
+让 Claude 拿你的到期卡片考考你，Nibomo 连接器只交给它一道题：一个卡片 ID 加上正面文字，背面并不在这次返回的内容里。等你答完，导师才去取卡片里保存的答案，告诉你漏了什么，再把 Again、Hard、Good 或 Easy 记成一次真正的 FSRS 复习。手机同步之后，这张卡片的下次到期时间已经排好了。
 
-如今通过 MCP 接入 Flashcards，**AI 闪卡导师** 就能做到这些。连接器提供三个复习工具：`next_review_card`、`reveal_answer` 和 `submit_review`，所以在聊天里复习一次，和在应用里复习一次同样算数。这篇指南的早期版本讲的是只读测验，测完还得回到应用里再复习一遍。有了复习工具，这个权宜之计就用不着了。
+如今通过 MCP 接入 Nibomo，**AI 闪卡导师** 就能做到这些。连接器提供三个复习工具：`next_review_card`、`reveal_answer` 和 `submit_review`，所以在聊天里复习一次，和在应用里复习一次同样算数。这篇指南的早期版本讲的是只读测验，测完还得回到应用里再复习一遍。有了复习工具，这个权宜之计就用不着了。
 
 有一点要特别留意：评分是导师打的。默认情况下，它会给出评分并附上简短理由，然后不等你确认就直接保存；已经保存的复习，也没法通过这些工具修改。不过每个评分仍然可以由你把关，下文介绍三种做法。
 
@@ -37,7 +37,7 @@ keywords:
 
 这几步之间，系统不会替你占住任何卡片。如果聊天中途重连，`next_review_card` 会重新返回队列里排第一的卡片，可能还是刚才那张。写入复习也只有一条路：SQL 工具能读取 `review_events`，但写不了复习历史，也写不了 FSRS 排期状态，所以 `submit_review` 是改动你排期的唯一入口。
 
-评分规则由 Flashcards 给出，导师不用自己编。用主题 `review_flow` 调用 `get_guide`，就能拿到完整的复习循环和评分规则。在 MCP 上，每个复习工具的返回结果里都会再附一遍这些规则，所以会话再长，也不用指望导师还记得二十分钟前读过的指南。
+评分规则由 Nibomo 给出，导师不用自己编。用主题 `review_flow` 调用 `get_guide`，就能拿到完整的复习循环和评分规则。在 MCP 上，每个复习工具的返回结果里都会再附一遍这些规则，所以会话再长，也不用指望导师还记得二十分钟前读过的指南。
 
 只显示正面，每张卡片就成了一次提取尝试。在一项随机试验中，儿科和急诊医学住院医师在一个主题上反复做带反馈的简答测验，在另一个主题上则反复学习一份信息相同的复习讲义。根据[已发表的摘要](https://pubmed.ncbi.nlm.nih.gov/19930508/)，六个多月后，完成研究的 40 名住院医师在测验过的主题上平均得分 39%，在学习讲义的主题上是 26%。这只是一项小型医学教育研究，测的也不是 AI 导师。不过它仍然支持这里的基本思路：先自己试，再看答案。从更大的视角看，[主动回忆和间隔重复各有分工](/zh/blog/active-recall-vs-spaced-repetition/)，而这个循环两者兼顾。
 
@@ -51,24 +51,24 @@ keywords:
 
 这个 URL 加在哪里，要看你用的客户端：
 
-- 在 Claude 里，到 **Customize > Connectors** 把 Flashcards 添加为自定义连接器。根据 Anthropic 的[自定义连接器指南](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp)，Free 套餐只能用一个自定义连接器；Team 和 Enterprise 套餐则要先由 Owner 为组织添加连接器。[Claude MCP 设置指南](/zh/blog/how-to-connect-flashcards-to-claude-with-mcp/)会带你一屏一屏走一遍。
-- 在 ChatGPT 里，Flashcards 以自定义 MCP 应用的形式接入。保存复习属于写入操作，而你能不能添加带写入权限的应用、该怎么添加，取决于你的套餐和工作区。在有些套餐里，由管理员来设置应用，或把它发布给成员使用。你的套餐当前的操作步骤，请到 OpenAI 的[开发者模式与 MCP 应用帮助文章](https://help.openai.com/en/articles/12584461-developer-mode-and-mcp-apps-in-chatgpt)里查看。
-- 在 Codex 里，可以在 ChatGPT 桌面应用的 **Settings > MCP servers** 中添加一个 Streamable HTTP 服务器，也可以先运行 `codex mcp add flashcards --url https://mcp.nibomo.com/mcp`，再运行 `codex mcp login flashcards`。OpenAI 的 [Codex MCP 文档](https://learn.chatgpt.com/docs/extend/mcp)提到，桌面应用、Codex CLI 和 IDE 扩展共用这份配置。更多细节见 [ChatGPT 与 Codex 学习指南](/zh/blog/how-to-use-chatgpt-codex-for-studying/)。
+- 在 Claude 里，到 **Customize > Connectors** 把 Nibomo 添加为自定义连接器。根据 Anthropic 的[自定义连接器指南](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp)，Free 套餐只能用一个自定义连接器；Team 和 Enterprise 套餐则要先由 Owner 为组织添加连接器。[Claude MCP 设置指南](/zh/blog/how-to-connect-flashcards-to-claude-with-mcp/)会带你一屏一屏走一遍。
+- 在 ChatGPT 里，Nibomo 以自定义 MCP 应用的形式接入。保存复习属于写入操作，而你能不能添加带写入权限的应用、该怎么添加，取决于你的套餐和工作区。在有些套餐里，由管理员来设置应用，或把它发布给成员使用。你的套餐当前的操作步骤，请到 OpenAI 的[开发者模式与 MCP 应用帮助文章](https://help.openai.com/en/articles/12584461-developer-mode-and-mcp-apps-in-chatgpt)里查看。
+- 在 Codex 里，可以在 ChatGPT 桌面应用的 **Settings > MCP servers** 中添加一个 Streamable HTTP 服务器，也可以先运行 `codex mcp add nibomo --url https://mcp.nibomo.com/mcp`，再运行 `codex mcp login nibomo`。OpenAI 的 [Codex MCP 文档](https://learn.chatgpt.com/docs/extend/mcp)提到，桌面应用、Codex CLI 和 IDE 扩展共用这份配置。更多细节见 [ChatGPT 与 Codex 学习指南](/zh/blog/how-to-use-chatgpt-codex-for-studying/)。
 
-也可以干脆省掉连接这一步。Flashcards 内置的 AI 聊天也有同一套复习工具，这个循环在里面照样能用。不支持 MCP 的终端智能体，则可以通过 HTTP 路由调用同样的复习操作，具体见 [Agent API 参考](/zh/docs/api/)。
+也可以干脆省掉连接这一步。Nibomo 内置的 AI 聊天也有同一套复习工具，这个循环在里面照样能用。不支持 MCP 的终端智能体，则可以通过 HTTP 路由调用同样的复习操作，具体见 [Agent API 参考](/zh/docs/api/)。
 
 ## 只开启复习需要的工具
 
 连接器一共有七个工具，复习会话用得上其中五个：`list_workspaces`、`get_guide`、`next_review_card`、`reveal_answer` 和 `submit_review`。想让导师帮你查牌组名或标签名时，`sql_query` 能派上用场。`sql_execute` 负责创建、编辑和删除卡片与牌组，复习时根本用不到，所以如果客户端支持，这次会话就把它禁用。
 
-`submit_review` 必须保持开启，它是整个循环里唯一的写入操作。因为它会覆盖卡片的到期时间、复习次数和 FSRS 状态，Flashcards 把它标记为破坏性、非只读的工具。有些客户端会根据这个标记决定什么时候请你批准，想核对评分时，这一点正好用得上。
+`submit_review` 必须保持开启，它是整个循环里唯一的写入操作。因为它会覆盖卡片的到期时间、复习次数和 FSRS 状态，Nibomo 把它标记为破坏性、非只读的工具。有些客户端会根据这个标记决定什么时候请你批准，想核对评分时，这一点正好用得上。
 
 ## 复制这段导师提示词
 
 开口一句“用我的闪卡考考我”就能开始。不过多交代几条具体要求，会话会更可预期，所以建议把时区换成你自己的，再粘贴下面这段：
 
 ```text
-请用 Flashcards MCP 工具当我的闪卡导师。
+请用 Nibomo MCP 工具当我的闪卡导师。
 
 开始第一张卡片之前：
 1. 用主题 review_flow 调用 get_guide，并遵守里面的规则。
@@ -122,14 +122,14 @@ keywords:
 
 - 作答时顺便说出评分。规则要求导师采用你在提交前说出的评分，所以“堪培拉。想了好一会儿，算 Hard 吧”应该会被存成 Hard。
 - 用上面换过的第 5 步，要求手动评分。导师揭晓答案后会等你来选。
-- 用一个可以设置成在写入工具运行前先征求你同意的客户端。你拒绝的调用根本到不了 Flashcards，所以什么都不会保存。如果工具输入里的评分你不认同，就拒绝这次调用，再告诉导师该发哪个评分。
+- 用一个可以设置成在写入工具运行前先征求你同意的客户端。你拒绝的调用根本到不了 Nibomo，所以什么都不会保存。如果工具输入里的评分你不认同，就拒绝这次调用，再告诉导师该发哪个评分。
 
 各个客户端的审批方式不太一样：
 
 - 在 Claude 里，到连接器的工具权限中把 `submit_review` 设为 **Needs approval**。Anthropic 的[连接器帮助页面](https://support.claude.com/en/articles/11176164-use-connectors-to-extend-claude-s-capabilities)写明，每个工具都可以设为 **Always allow**、**Needs approval** 或 **Blocked**；在 Team 和 Enterprise 套餐中，Owner 还可以为整个组织限制工具。[Claude 设置指南](/zh/blog/how-to-connect-flashcards-to-claude-with-mcp/)标出了这些权限的位置。
 - 在 ChatGPT 里，不能保证 `submit_review` 运行前一定会问你。ChatGPT 可能会在写入操作前请求确认，具体取决于应用的权限和你的工作区。在回答里说出评分和使用手动评分在任何客户端都管用，所以在 ChatGPT 里就靠这两种办法。
 
-在 Codex 里，`writes` 审批模式会对没有标记为只读的工具弹出确认。Codex 把 MCP 服务器配置保存在 `~/.codex/config.toml` 里；如果你把服务器限定在某个项目中，则保存在该项目的 `.codex/config.toml` 里。在那里找到 Flashcards 已有的 `[mcp_servers.<name>]` 表，`<name>` 就是你给服务器起的名字（如果用的是上面的 `codex mcp add` 命令，就是 `flashcards`），在它下面加上这一行，保存文件，再重启 Codex。之后 Codex 会在每次调用 `submit_review` 和 `sql_execute` 之前先问你：
+在 Codex 里，`writes` 审批模式会对没有标记为只读的工具弹出确认。Codex 把 MCP 服务器配置保存在 `~/.codex/config.toml` 里；如果你把服务器限定在某个项目中，则保存在该项目的 `.codex/config.toml` 里。在那里找到 Nibomo 已有的 `[mcp_servers.<name>]` 表，`<name>` 就是你给服务器起的名字（如果用的是上面的 `codex mcp add` 命令，就是 `nibomo`），在它下面加上这一行，保存文件，再重启 Codex。之后 Codex 会在每次调用 `submit_review` 和 `sql_execute` 之前先问你：
 
 ```toml
 default_tools_approval_mode = "writes"
@@ -145,7 +145,7 @@ default_tools_approval_mode = "writes"
 
 没答上的卡片可能在同一次会话里又冒出来。按默认步骤，它几分钟后就会再次到期，而 `next_review_card` 会把最近复习过的到期卡片排在其他到期卡片前面。所以会话只要够长，按过 Again 的卡片多半还会再遇到。
 
-复习时间由服务器自己记下，所以通过导师复习必须在线。这是在线操作，没法把你在别处做过的复习导入进来。离线复习还是在 Flashcards 应用里进行，应用会照常同步。
+复习时间由服务器自己记下，所以通过导师复习必须在线。这是在线操作，没法把你在别处做过的复习导入进来。离线复习还是在 Nibomo 应用里进行，应用会照常同步。
 
 ## 提交失败或聊天断线怎么办
 
@@ -159,7 +159,7 @@ default_tools_approval_mode = "writes"
 
 ## 只复习一个牌组或几个标签
 
-`next_review_card` 可以带一个可选的筛选条件。`tags` 把队列限定为带有其中任一标签的卡片，匹配时不区分大小写。如果写了一个工作区里没用过的标签，会直接报错，而不是返回空队列，所以拼错了很容易发现。`deckId` 把队列限定在某个已保存的牌组内；在 Flashcards 里，牌组就是一个存下来的标签筛选条件，不带任何标签的牌组会匹配所有卡片。
+`next_review_card` 可以带一个可选的筛选条件。`tags` 把队列限定为带有其中任一标签的卡片，匹配时不区分大小写。如果写了一个工作区里没用过的标签，会直接报错，而不是返回空队列，所以拼错了很容易发现。`deckId` 把队列限定在某个已保存的牌组内；在 Nibomo 里，牌组就是一个存下来的标签筛选条件，不带任何标签的牌组会匹配所有卡片。
 
 两种筛选只能选一种，不能同时用。在提示词里加上类似这样的一行：
 
@@ -171,17 +171,17 @@ default_tools_approval_mode = "writes"
 
 ## 开始之前，先了解这些限制
 
-评分出自模型的判断。导师发什么评分，`submit_review` 就存什么，Flashcards 没办法核实你的回答配不配得上这个评分。默认情况下，从揭晓答案到保存之间，没有任何一步会问你，所以在你信得过导师的评分之前，先用上面的某一种检查方式。
+评分出自模型的判断。导师发什么评分，`submit_review` 就存什么，Nibomo 没办法核实你的回答配不配得上这个评分。默认情况下，从揭晓答案到保存之间，没有任何一步会问你，所以在你信得过导师的评分之前，先用上面的某一种检查方式。
 
 隐藏背面只是这个循环的约定。`sql_query` 能读到卡片的正反两面，不按循环来的导师就可能提前看到背面。在能逐个控制工具权限的客户端里，禁用 `sql_query` 就能堵上这条路，代价是没法再查牌组和标签。
 
-卡片内容会离开 Flashcards。正面、背面和你的回答都会发给 AI 客户端以及它所用的模型提供商，适用该提供商的数据保留和训练设置。[通过 MCP 连接 Flashcards 安全吗？](/zh/blog/is-mcp-safe-for-flashcards/)详细讲了数据流向、权限和提示词注入。一套词汇牌组，和用机密工作笔记做成的卡片，该做的决定自然不一样。
+卡片内容会离开 Nibomo。正面、背面和你的回答都会发给 AI 客户端以及它所用的模型提供商，适用该提供商的数据保留和训练设置。[通过 MCP 连接 Nibomo 安全吗？](/zh/blog/is-mcp-safe-for-flashcards/)详细讲了数据流向、权限和提示词注入。一套词汇牌组，和用机密工作笔记做成的卡片，该做的决定自然不一样。
 
 ## AI 闪卡导师常见问题
 
 ### Claude 或 ChatGPT 能用我自己的闪卡测验我吗？
 
-可以。把 Flashcards MCP 服务器接进来就行：在 Claude 里添加为自定义连接器，在 ChatGPT 里添加为自定义 MCP 应用（前提是你的套餐和工作区允许带写入权限的应用），在 Codex 里添加为 MCP 服务器。之后导师会用 `next_review_card` 从你的复习队列里一次取一张卡片。
+可以。把 Nibomo MCP 服务器接进来就行：在 Claude 里添加为自定义连接器，在 ChatGPT 里添加为自定义 MCP 应用（前提是你的套餐和工作区允许带写入权限的应用），在 Codex 里添加为 MCP 服务器。之后导师会用 `next_review_card` 从你的复习队列里一次取一张卡片。
 
 ### 导师保存每个评分前会先问我吗？
 
@@ -201,7 +201,7 @@ default_tools_approval_mode = "writes"
 
 ### 不连接外部客户端，也能用 AI 导师吗？
 
-可以。Flashcards 内置的 AI 聊天也有这三个复习工具，不用设置 MCP，在应用里就能跑这个循环。
+可以。Nibomo 内置的 AI 聊天也有这三个复习工具，不用设置 MCP，在应用里就能跑这个循环。
 
 ### 我需要 API 密钥吗？
 

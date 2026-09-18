@@ -45,7 +45,7 @@ Anki 是闪卡产品和生态。SuperMemo 既可能指两款现行产品，也�
 | [FSRS](https://github.com/open-spaced-repetition/fsrs4anki) | 开放的调度器和相关项目 | 由宿主产品或库实现 | 希望检查调度逻辑的开发者和用户 | 本身不提供卡片、编辑器、同步或学习界面 |
 | [Nibomo](/zh/features/) | 围绕 FSRS 构建的较年轻开源闪卡产品 | FSRS-6，固定采用官方默认权重，并可配置 workspace 调度设置 | Web、iOS、Android、自托管、API 和 AI agent 工作流 | 生态规模小于 Anki，尚不支持个性化 FSRS 权重 |
 
-这些比较项并非刻意写得完全对称。Anki 和 Flashcards 提供完整的闪卡工作流；SuperMemo 20 把调度融入更广泛的阅读和知识工作流；SuperMemo.com 提供托管语言学习体验；FSRS 则为其他软件提供调度逻辑。
+这些比较项并非刻意写得完全对称。Anki 和 Nibomo 提供完整的闪卡工作流；SuperMemo 20 把调度融入更广泛的阅读和知识工作流；SuperMemo.com 提供托管语言学习体验；FSRS 则为其他软件提供调度逻辑。
 
 ## Anki 实际提供了什么
 
@@ -112,9 +112,9 @@ Desired retention 会把模型转化为复习计划。调度器估算可提取�
 
 对 FSRS 而言，最关键的界线在 Again 与 Hard 之间。[Anki 手册](https://docs.ankiweb.net/deck-options.html#fsrs)明确指出，FSRS 将 Hard 视为回忆成功，将 Again 视为失败。如果只是因为下次间隔看起来更合意而选择 Hard，就会记录一件并未发生的事。实用的 [Again vs Hard 指南](/zh/blog/again-vs-hard-fsrs-flashcards/)详细讨论了部分答对和其他边界情况。
 
-## Flashcards 目前如何实现 FSRS
+## Nibomo 目前如何实现 FSRS
 
-Flashcards 将 FSRS 作为明确的产品组件，而不是含糊地贴上“智能重复”标签。该实现已于 2026 年 8 月 3 日对照源码仓库的 commit `9cb013f78767c081f5385a53daa5e4b9fe69d3b6` 核实。
+Nibomo 将 FSRS 作为明确的产品组件，而不是含糊地贴上“智能重复”标签。该实现已于 2026 年 8 月 3 日对照源码仓库的 commit `9cb013f78767c081f5385a53daa5e4b9fe69d3b6` 核实。
 
 后端调度器遵循官方 `ts-fsrs` 5.2.3 的流程，并固定采用官方 FSRS-6 默认权重。后端、iOS 和 Android 各自包含一套独立的调度器实现；Web 应用复用后端模块，没有维护第四套实现。共享的 golden test vectors 用于保证这些实现的调度行为一致。
 
@@ -129,9 +129,9 @@ Workspace 的默认设置如下：
 - maximum interval 为 `36,500` 天
 - 启用 fuzz
 
-Workspace 可以调整 desired retention、steps、maximum interval 和 fuzz，并将新设置用于之后的复习。Flashcards 目前**不会**为每位用户个性化 FSRS 权重，也不向用户开放这些权重；v1 固定采用默认权重。这一点与支持根据个人复习历史拟合参数的产品存在重要区别。[FSRS 设置指南](/zh/blog/fsrs-settings/)解释了这些设置对工作量的影响，也不会假定每个选项都必须调整。
+Workspace 可以调整 desired retention、steps、maximum interval 和 fuzz，并将新设置用于之后的复习。Nibomo 目前**不会**为每位用户个性化 FSRS 权重，也不向用户开放这些权重；v1 固定采用默认权重。这一点与支持根据个人复习历史拟合参数的产品存在重要区别。[FSRS 设置指南](/zh/blog/fsrs-settings/)解释了这些设置对工作量的影响，也不会假定每个选项都必须调整。
 
-在 Web 复习界面中，Flashcards 会预览 Again、Hard、Good 和 Easy 各自对应的下次间隔。用户/API 评分 `0`、`1`、`2` 和 `3` 会在内部映射为 FSRS 的 `1` 至 `4` 级。Again 记录回忆失败；Hard、Good 和 Easy 记录回忆成功，费力程度依次降低。所有客户端都会在用户频繁选择 Hard 时提醒：没有回忆出的答案应该选择 Again。
+在 Web 复习界面中，Nibomo 会预览 Again、Hard、Good 和 Easy 各自对应的下次间隔。用户/API 评分 `0`、`1`、`2` 和 `3` 会在内部映射为 FSRS 的 `1` 至 `4` 级。Again 记录回忆失败；Hard、Good 和 Easy 记录回忆成功，费力程度依次降低。所有客户端都会在用户频繁选择 Hard 时提醒：没有回忆出的答案应该选择 Again。
 
 这样可以让调度逻辑保持可核查，并在各平台上保持一致。但卡片质量、如实评分和按时完成复习依然不可或缺。
 
@@ -179,6 +179,6 @@ Workspace 可以调整 desired retention、steps、maximum interval 和 fuzz，�
 
 如果你既想保留 Anki 的成熟生态，又想使用现行的 FSRS 调度器，就选择 **Anki with FSRS**。如果渐进阅读和深入的 Windows 知识工作流是核心需求，可以评估 **SuperMemo 20 for Windows**；FSRS 已经是其 Algorithm Arena 中的参与者之一。如果真正需要的是托管语言课程，应单独评估 **SuperMemo.com**。如果你正在开发或审查调度层本身，则应该评估 **FSRS 实现**。
 
-Flashcards 适合较新的开源 Web、移动端、自托管和 agent 使用场景。它采用固定权重、经过跨实现一致性测试的 FSRS-6，同时产品生态也更年轻。
+Nibomo 适合较新的开源 Web、移动端、自托管和 agent 使用场景。它采用固定权重、经过跨实现一致性测试的 FSRS-6，同时产品生态也更年轻。
 
 先选择你能长期坚持的工作流，再配置其中的间隔重复算法。产品把你带到复习环节，调度器给出一个基于模型的日期；真正提供学习信号的，仍然是你的卡片、评分和持续复习。
