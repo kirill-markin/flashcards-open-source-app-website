@@ -2011,7 +2011,7 @@ test("renders useful localized catalog Markdown from the public read model", () 
   assert.match(packageDocument.markdown, /First \*\*front\*\*/);
   assert.match(
     packageDocument.markdown,
-    /https:\/\/flashcards-open-source-app\.com\/es\/catalog\/authors\/author-one\//,
+    /https:\/\/nibomo\.com\/es\/catalog\/authors\/author-one\//,
   );
   assert.ok(rootDocument);
   assert.equal(rootDocument.markdown.includes("/catalog/import/"), false);
@@ -2025,11 +2025,11 @@ test("renders useful localized catalog Markdown from the public read model", () 
   assert.equal(additionalLocalizedPackageDocument?.locale, "ja");
   assert.match(
     localizedRootDocument.markdown,
-    /https:\/\/flashcards-open-source-app\.com\/ar\/catalog\/packages\/canonical-package\//,
+    /https:\/\/nibomo\.com\/ar\/catalog\/packages\/canonical-package\//,
   );
   assert.doesNotMatch(
     localizedRootDocument.markdown,
-    /https:\/\/flashcards-open-source-app\.com\/catalog\/packages\/canonical-package\//,
+    /https:\/\/nibomo\.com\/catalog\/packages\/canonical-package\//,
   );
   assert.equal(
     listMarkdownAstNodes(parseMarkdownAst(localizedRootDocument.markdown)).some(
@@ -3160,7 +3160,7 @@ test("renders eligible catalog card math inline and as static display blocks", a
   assert.match(referenceLiteralHtml, /\$reference\$/u);
   assert.match(
     referenceLiteralHtml,
-    /href="https:\/\/flashcards-open-source-app\.com\/docs\/"/u,
+    /href="https:\/\/nibomo\.com\/docs\/"/u,
   );
 
   await assert.rejects(
