@@ -255,7 +255,7 @@ keywords:
 - [كم بطاقة تعليمية جديدة يوميًا في 2026؟](https://nibomo.com/blog/how-many-new-flashcards-per-day/)
 - [كيف تراجع البطاقات التعليمية أسرع في 2026](https://nibomo.com/blog/how-to-review-flashcards-faster/)
 
-## أين يناسب Flashcards هذا المسار
+## أين يناسب Nibomo هذا المسار
 
 [Nibomo](https://nibomo.com/) مناسب لهذا النوع من مذاكرة علم الأدوية لأن الجزء المفيد ليس تسليم علم الأدوية إلى AI. أنا لا أنصح بالمذاكرة بهذه الطريقة.
 

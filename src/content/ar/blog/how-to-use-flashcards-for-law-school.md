@@ -217,7 +217,7 @@ keywords:
 - [كيف تذاكر لامتحان باستخدام FSRS في 2026](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)
 - [FSRS مقابل SM-2 في 2026](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
-## أين يناسب Flashcards هذا السير في كلية الحقوق
+## أين يناسب Nibomo هذا السير في كلية الحقوق
 
 إذا أردت تشغيل هذا السير داخل [Nibomo](https://nibomo.com/)، فالنقطة المهمة ليست مجرد أن "الذكاء الاصطناعي يصنع بطاقات" بصورة عامة. بل إن المنتج الحالي يدعم أصلًا الجزء المرهق في منتصف العمل:
 
@@ -242,7 +242,7 @@ keywords:
 
 هذه هي النسخة من **البطاقات التعليمية لكلية الحقوق** التي سأثق بها.
 
-إذا أردت تجربة هذا السير داخل Flashcards:
+إذا أردت تجربة هذا السير داخل Nibomo:
 
 - [ابدأ مع Nibomo](https://nibomo.com/)
 - [افتح تطبيق الويب](https://app.flashcards-open-source-app.com/)

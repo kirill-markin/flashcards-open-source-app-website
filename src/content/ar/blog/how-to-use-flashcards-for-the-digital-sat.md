@@ -258,7 +258,7 @@ keywords:
 - [كيفية الدراسة لامتحان باستخدام FSRS في 2026](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)
 - [FSRS مقابل SM-2 في 2026](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
-## أين يناسب Flashcards هذا السير الخاص بـ Digital SAT
+## أين يناسب Nibomo هذا السير الخاص بـ Digital SAT
 
 [Nibomo](https://nibomo.com/) مناسب جدًا لـ **البطاقات التعليمية لاختبار Digital SAT** لأن المنتج الحالي يدعم فعلًا الأجزاء التي يعتمد عليها هذا الأسلوب:
 

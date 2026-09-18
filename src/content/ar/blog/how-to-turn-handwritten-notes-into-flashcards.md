@@ -166,7 +166,7 @@ keywords:
 
 - [كيفية تحويل ملف PDF إلى بطاقات Flashcards في 2026: من شرائح المحاضرات والكتب الدراسية والأوراق البحثية إلى بطاقات FSRS](https://nibomo.com/blog/how-to-turn-a-pdf-into-flashcards/)
 
-## أين يأتي دور Flashcards في هذا السير
+## أين يأتي دور Nibomo في هذا السير
 
 [Nibomo](https://nibomo.com/) مناسب جدًا لسير **تحويل الملاحظات المكتوبة بخط اليد إلى بطاقات Flashcards** لأنه يجمع الأجزاء المهمة كلها في مكان واحد:
 

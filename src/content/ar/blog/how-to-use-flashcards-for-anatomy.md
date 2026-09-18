@@ -255,7 +255,7 @@ keywords:
 - [كيف تذاكر لامتحان باستخدام FSRS في 2026](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)
 - [FSRS مقابل SM-2 في 2026](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
-## أين يناسب Flashcards هذا المسار
+## أين يناسب Nibomo هذا المسار
 
 [Nibomo](https://nibomo.com/) يناسب التشريح بأفضل صورة بعد أن تكون قد عرفت أصلًا ما الذي يجب تذكّره.
 

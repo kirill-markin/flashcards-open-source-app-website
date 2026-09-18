@@ -241,7 +241,7 @@ keywords:
 - [كيف تذاكر لامتحان باستخدام FSRS في 2026](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)
 - [FSRS مقابل SM-2 في 2026](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
-## أين يناسب Flashcards سير عمل AP Psychology هذا
+## أين يناسب Nibomo سير عمل AP Psychology هذا
 
 إذا كنت تريد تطبيق هذا داخل [Nibomo](https://nibomo.com/)، فالقيمة المفيدة ليست وعدًا ضبابيًا بأن الذكاء الاصطناعي سيدرس AP Psych بدلًا عنك بطريقة سحرية.
 

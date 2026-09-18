@@ -246,7 +246,7 @@ keywords:
 
 ومقالة [How to Study for an Exam With FSRS in 2026](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/) تتوسع أكثر في جانب الجدولة.
 
-## أين يناسب Flashcards هذا السير في AP Calculus
+## أين يناسب Nibomo هذا السير في AP Calculus
 
 يناسب [Nibomo](https://nibomo.com/) سير العمل هذا في AP Calculus جيدًا إذا كنت تريد مكانًا واحدًا يبقي الحلقة كلها متماسكة من دون أن يتحول المقال إلى عرض مبيعات.
 

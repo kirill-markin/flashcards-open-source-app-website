@@ -231,7 +231,7 @@ keywords:
 
 - [كيف تذاكر لامتحان باستخدام FSRS في 2026](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)
 
-## أين يندرج Flashcards في سير العمل هذا الخاص بـ CPA
+## أين يندرج Nibomo في سير العمل هذا الخاص بـ CPA
 
 إذا أردت تنفيذ هذا داخل [Nibomo](https://nibomo.com/)، فالقيمة المفيدة ليست وعدًا ضبابيًا بأن الذكاء الاصطناعي سيمررك في اختبار CPA بطريقة سحرية.
 
