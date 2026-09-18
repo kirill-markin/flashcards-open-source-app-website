@@ -116,4 +116,6 @@ Use your reason for each quiz answer to decide what needs practice. If you forgo
 
 For a ready-made option, the [31-card Anatomical Directional Terms deck](/catalog/packages/anatomical-directional-terms/) covers these 10 terms in English. It's optional practice for definitions, reverse recall, and basic comparisons.
 
+Once these location terms are familiar, the [Anatomical Planes & Joint Movements Flashcards](/catalog/packages/anatomical-planes-movements-flashcards/) give you a next step: identifying body planes and naming joint movements.
+
 Text recall is only part of the work. Use an unlabeled course diagram or model, point to two structures, and describe their relationship before checking. If words come easily but locating structures doesn't, spend the next session on that spatial task. The broader [anatomy flashcard guide](/blog/how-to-use-flashcards-for-anatomy/) covers labels and lab-practical preparation.
