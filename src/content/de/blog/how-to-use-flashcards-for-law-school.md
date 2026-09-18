@@ -245,7 +245,7 @@ Das ist die Variante von **Flashcards im Jurastudium**, der ich vertrauen würde
 
 Wenn du diesen Workflow in Flashcards ausprobieren willst:
 
-- [Mit Flashcards starten](https://nibomo.com/)
+- [Mit Nibomo starten](https://nibomo.com/)
 - [Die Web-App öffnen](https://app.flashcards-open-source-app.com/)
 - [Den Einstiegsleitfaden lesen](https://nibomo.com/docs/getting-started/)
 - [Den Quellcode auf GitHub ansehen](https://github.com/kirill-markin/flashcards-open-source-app)

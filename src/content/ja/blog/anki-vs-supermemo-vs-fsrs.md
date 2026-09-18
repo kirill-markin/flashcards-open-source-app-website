@@ -55,7 +55,7 @@ Ankiは、単なる間隔反復アルゴリズムではありません。その�
 
 このマニュアルの表現には、歴史的な補足が必要です。**SM-2はSuperMemoの系譜にある初期のアルゴリズムであり、現在のSuperMemoと同義ではありません。** Ankiの旧スケジューラを「従来のSM-2」と呼ぶのは、Ankiのドキュメントに沿って、その基礎となったアルゴリズムの系統を示すためです。数十年前に公開された当初のSM-2と、実装の細部まですべて同一だとするものではありません。技術面に絞った比較は、[FSRS vs SM-2](/blog/fsrs-vs-sm-2/)を参照してください。
 
-長年使ってきたコレクションが、カスタムテンプレート、アドオン、メディア、何年分もの復習履歴に依存しているなら、別の製品への乗り換えには相応の移行作業が伴います。Ankiを離れるより、Anki内でスケジューラだけを切り替えるほうが、はるかに負担が小さいかもしれません。製品としての違いは、より広い[AnkiとFlashcardsの比較](/blog/anki-vs-flashcards-open-source-app/)で扱っています。
+長年使ってきたコレクションが、カスタムテンプレート、アドオン、メディア、何年分もの復習履歴に依存しているなら、別の製品への乗り換えには相応の移行作業が伴います。Ankiを離れるより、Anki内でスケジューラだけを切り替えるほうが、はるかに負担が小さいかもしれません。製品としての違いは、より広い[AnkiとNibomoの比較](/blog/anki-vs-flashcards-open-source-app/)で扱っています。
 
 ## 「SuperMemo」には、いまや補足が必要
 
@@ -106,7 +106,7 @@ Desired retentionを設定すると、このモデルからスケジュールが
 | システム | 表示される評価 | ラベルが示す意味 |
 | --- | --- | --- |
 | FSRSを使うAnki | Again, Hard, Good, Easy | Againは想起失敗。Hard、Good、Easyは想起成功で、この順に思い出すための労力が小さくなる。 |
-| Flashcards | Again, Hard, Good, Easy | 失敗と成功の境界はAnkiと同じ。APIでは0〜3を使い、内部でFSRSの評価1〜4に対応付ける。 |
+| Nibomo | Again, Hard, Good, Easy | 失敗と成功の境界はAnkiと同じ。APIでは0〜3を使い、内部でFSRSの評価1〜4に対応付ける。 |
 | ホスト型SuperMemo.com | Don't know, Almost, Know | [SuperMemoメソッドのページ](https://www.supermemo.com/en/supermemo-method)に記載された、その製品独自の3段階評価。FSRSの4段階評価へ機械的に対応付けるべきではない。 |
 | SuperMemo 20 for Windows | デスクトップ版SuperMemoの評価フロー | Algorithm Arena内の複数のアルゴリズムに入力を渡す、別製品の操作体系。ホスト型サービスの3つのラベルから意味を推測してはならない。 |
 

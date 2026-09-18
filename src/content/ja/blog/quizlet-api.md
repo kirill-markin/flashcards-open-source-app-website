@@ -35,7 +35,7 @@ Quizlet自体を自動化したくて「QuizletにAPIはある？」と検索し
 | ChatGPTでの会話をQuizletセットにする | [ChatGPTのQuizletアプリ](https://quizlet.com/blog/quizlet-comes-to-chat-gpt) | `@Quizlet`を使ってセットを作成し、プレビューする | 自分のアプリで使う認証情報やエンドポイント |
 | Google ClassroomでQuizletの課題を出す | [Quizlet Google Classroomアドオン](https://quizlet.com/blog/quizlet-google-classroom-add-on) | Classroom内でアクティビティを探し、割り当て、進捗を追跡する | 独自の教育ソフトウェア向け汎用API |
 | 独自のQuizlet連携を構築する | 現在、セルフサービスで利用できる方法は案内されていない | 個別のパートナー契約が存在する可能性はある | 公開された登録手続き、APIキー、ドキュメント化されたカードの仕様 |
-| 自分のフラッシュカードワークスペースを自動化する | [Flashcards Agent API](/docs/api/)または[MCPコネクター](/docs/mcp-connector/) | ワークスペース単位でカードやデッキを繰り返し読み書きする | Quizletとの互換性やQuizletからの自動インポート |
+| 自分のフラッシュカードワークスペースを自動化する | [Nibomo Agent API](/docs/api/)または[MCPコネクター](/docs/mcp-connector/) | ワークスペース単位でカードやデッキを繰り返し読み書きする | Quizletとの互換性やQuizletからの自動インポート |
 
 違いは単純です。自分のカードのテキストを一度だけコピーするなら、必要なのはエクスポートです。別のページにQuizletを表示するなら、埋め込みです。個別連携は、その製品の決められたフロー内でのみ機能します。カードの作成、読み取り、編集を繰り返すソフトウェアには、ドキュメント化された読み書き可能なAPIが必要です。
 

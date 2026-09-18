@@ -33,7 +33,7 @@ Por eso, al buscar una **alternativa a StudyFetch**, la pregunta ya no es «¿Qu
 
 ## StudyFetch vs Anki vs Flashcards
 
-| Pregunta | StudyFetch | Anki | Flashcards |
+| Pregunta | StudyFetch | Anki | Nibomo |
 |---|---|---|---|
 | Para quién encaja mejor | Quien quiere un amplio entorno de estudio con IA que parta de sus fuentes | Quien quiere una colección madura y configurable de tarjetas para conservar a largo plazo | Quien quiere centrarse en repasar tarjetas de anverso y reverso dentro de un stack abierto para web y móvil |
 | De la fuente al material de estudio | Genera apuntes, flashcards, cuestionarios, exámenes, tutoría, audio, vídeo y otras actividades | La aplicación principal no ofrece un flujo integral equivalente que parta de una fuente | El chat con IA puede usar los datos del espacio de trabajo y los archivos adjuntos para proponer tarjetas; tú decides cuáles se guardan |

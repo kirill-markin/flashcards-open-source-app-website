@@ -113,7 +113,7 @@ Gizmoの[カード管理ガイド](https://help.gizmo.ai/en/articles/13761411-ho
 
 ## GizmoとFlashcardsの早見表
 
-| 判断ポイント | Gizmo | Flashcards |
+| 判断ポイント | Gizmo | Nibomo |
 | --- | --- | --- |
 | 主な始め方 | 手動でカードを作るか、多様な学習資料からMagic Importで取り込む | 内容を絞った表裏カードを手動またはAIの支援で作る |
 | カード形式 | Card text、Multiple choice、Matching、Ordering、True/False | 表裏カード |
@@ -157,4 +157,4 @@ Flashcardsが実用的なGizmoの代替になるのは、この表のうち、�
 
 GizmoのAIを評価するときに見るべきなのは、「AIがあるか、ないか」ではありません。どちらの製品もAIを使います。違いは、学習フローのどこにAIを置くかです。GizmoはAIを使い、幅広い資料をカードだけにとどまらない学習環境へ変えます。Flashcardsは、機能を絞ったカード作成フローの中でAIを使い、何を保存して復習予定に入れるかは利用者自身が決めます。
 
-機能を絞った後者の学習フローが自分に合いそうなら、[Flashcardsの機能](/features/)を確認するか、[使い始めガイド](/docs/getting-started/)に沿って始めてください。
+機能を絞った後者の学習フローが自分に合いそうなら、[Nibomoの機能](/features/)を確認するか、[使い始めガイド](/docs/getting-started/)に沿って始めてください。

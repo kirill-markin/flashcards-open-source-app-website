@@ -15,7 +15,7 @@ keywords:
 
 是的，Flashcards 可以自托管。完整的应用和基础设施代码均以 MIT 许可证开源。你可以在本地运行各项服务用于开发，也可以在 AWS 上部署仓库中已有文档说明的生产环境技术栈。如果你不想自己运维基础设施，仍可使用[托管版应用](https://app.flashcards-open-source-app.com/)。
 
-![展示复习、进度、AI 对话和闪卡的 Flashcards 开源应用移动端界面](/home/app-screens-showcase-zh.png)
+![展示复习、进度、AI 对话和闪卡的 Nibomo 开源应用移动端界面](/home/app-screens-showcase-zh.png)
 
 ## 可以自托管哪些内容
 
@@ -56,7 +56,7 @@ Docker Compose 不是一条命令即可完成的生产部署方案。生产路�
 | 方面 | 托管版应用 | 自托管部署 |
 | --- | --- | --- |
 | 初始设置 | 打开应用并登录 | 配置账号、密钥和域名，然后部署 AWS 技术栈 |
-| 基础设施 | 由 Flashcards 项目运维 | 在你自己的 AWS 和 Cloudflare 账号中运维 |
+| 基础设施 | 由 Nibomo 项目运维 | 在你自己的 AWS 和 Cloudflare 账号中运维 |
 | 数据库和备份 | 已为你管理 | RDS、备份策略、迁移和恢复由你负责 |
 | 认证和邮件 | 已为你管理 | Cognito，以及你自己的邮件投递凭据和 DNS |
 | AI | 使用托管服务配置 | 使用已部署的工作进程和你的模型凭据；访客访问有单独的配额 |

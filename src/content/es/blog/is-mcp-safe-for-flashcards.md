@@ -20,7 +20,7 @@ OAuth protege la autorización y el intercambio de tokens. El servidor de Flashc
 
 Los límites que de verdad importan son concretos: hasta dónde llega cada herramienta, qué reglas impone Flashcards y qué protecciones dependen solo de tu cliente.
 
-![Escritorio cálido con zonas separadas para permisos de lectura y escritura en MCP de Flashcards](/blog/is-mcp-safe-for-flashcards.png)
+![Escritorio cálido con zonas separadas para permisos de lectura y escritura en MCP de Nibomo](/blog/is-mcp-safe-for-flashcards.png)
 
 ## ¿Es seguro usar MCP con Flashcards? Sigue la ruta real de los datos
 

@@ -278,7 +278,7 @@ keywords:
 
 如果你想试试这套工作流：
 
-- [打开 Flashcards](https://nibomo.com/)
+- [打开 Nibomo](https://nibomo.com/)
 - [打开应用](https://app.flashcards-open-source-app.com/)
 - [查看功能页面](https://nibomo.com/features/)
 - [在 GitHub 上查看源码](https://github.com/kirill-markin/flashcards-open-source-app)

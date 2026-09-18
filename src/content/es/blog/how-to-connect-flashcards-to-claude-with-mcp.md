@@ -22,7 +22,7 @@ Esa es la razón práctica para buscar ahora mismo **Claude MCP flashcards**.
 
 Si quieres que Claude cree tarjetas directamente en tu workspace de Flashcards, la configuración es corta: añade el conector personalizado de Flashcards, revisa los permisos de las herramientas, actívalo dentro del chat y aprueba la llamada de escritura cuando Claude esté listo para guardar una tarjeta.
 
-![Claude conectado al servidor MCP de Flashcards para crear flashcards desde el chat](/blog/how-to-connect-flashcards-to-claude-with-mcp.png)
+![Claude conectado al servidor MCP de Nibomo para crear flashcards desde el chat](/blog/how-to-connect-flashcards-to-claude-with-mcp.png)
 
 ## Esto es un conector personalizado, no una app listada en ningún directorio
 
@@ -73,7 +73,7 @@ Para una primera configuración, yo dejaría las herramientas de solo lectura en
 
 Eso mismo muestra la captura de configuración del conector: `list_workspaces` y `sql_query` están permitidas, mientras que `sql_execute` sigue necesitando tu aprobación.
 
-![Configuración del conector de Claude con los permisos del MCP de Flashcards, con las herramientas de lectura siempre permitidas y las de escritura sujetas a aprobación](/blog/claude-mcp-flashcards-connector-settings.png)
+![Configuración del conector de Claude con los permisos del MCP de Nibomo, con las herramientas de lectura siempre permitidas y las de escritura sujetas a aprobación](/blog/claude-mcp-flashcards-connector-settings.png)
 
 Puedes relajar eso más adelante si de verdad quieres hacerlo. Yo no empezaría por ahí.
 
@@ -127,7 +127,7 @@ Ese comportamiento es el correcto.
 
 Conviene revisar la solicitud de escritura, aprobarla y dejar que Claude termine. En la captura de abajo, Claude preguntó qué workspace usar, ejecutó la acción de escritura de Flashcards y confirmó que la tarjeta de prueba se había añadido correctamente.
 
-![Chat de Claude creando una flashcard de prueba a través del conector MCP de Flashcards después de preguntar qué workspace usar](/blog/claude-mcp-flashcards-create-card.png)
+![Chat de Claude creando una flashcard de prueba a través del conector MCP de Nibomo después de preguntar qué workspace usar](/blog/claude-mcp-flashcards-create-card.png)
 
 No necesitas preocuparte por el SQL en bruto salvo que quieras inspeccionar la llamada de la herramienta de cerca. Lo importante es el flujo:
 

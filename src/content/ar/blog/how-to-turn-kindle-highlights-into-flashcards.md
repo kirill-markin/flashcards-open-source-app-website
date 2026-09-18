@@ -261,7 +261,7 @@ keywords:
 
 إذا أردت تجربة هذا الأسلوب، فابدأ من هنا:
 
-- [تعرّف إلى Flashcards](https://nibomo.com/)
+- [تعرّف إلى Nibomo](https://nibomo.com/)
 - [اقرأ دليل البدء](https://nibomo.com/docs/getting-started/)
 - [اطّلع على توثيق API](https://nibomo.com/docs/api/)
 - [استعرض المشروع على GitHub](https://github.com/kirill-markin/flashcards-open-source-app)

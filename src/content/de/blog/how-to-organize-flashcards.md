@@ -304,7 +304,7 @@ Weniger strukturelles Schuldgefühl.
 
 Wenn du genau das willst, fang hier an:
 
-- [Flashcards öffnen](https://nibomo.com/)
+- [Nibomo öffnen](https://nibomo.com/)
 - [Die App öffnen](https://app.flashcards-open-source-app.com/)
 - [Den Einstiegsleitfaden lesen](https://nibomo.com/docs/getting-started/)
 - [Den Quellcode auf GitHub ansehen](https://github.com/kirill-markin/flashcards-open-source-app)

@@ -23,7 +23,7 @@ Quizlet 在引导式学习模式、模拟测试、AI 学习工具和共享内容
 
 **事实核查于：** 2026 年 8 月 2 日。
 
-![暖色书桌上并排展示的 Quizlet 与开源 Flashcards 学习流程](/blog/quizlet-alternative.png)
+![暖色书桌上并排展示的 Quizlet 与开源 Nibomo 学习流程](/blog/quizlet-alternative.png)
 
 ## 简短结论
 
@@ -35,16 +35,16 @@ Quizlet 在引导式学习模式、模拟测试、AI 学习工具和共享内容
 
 ## 开源 Quizlet 替代方案对比
 
-| 维度 | Quizlet | Flashcards | 实际胜出者 |
+| 维度 | Quizlet | Nibomo | 实际胜出者 |
 |---|---|---|---|
 | Learn 与 Test 工作流 | 独立的自适应 Learn 模式，以及可配置、带评分和答案回顾的 Test 模式 | 常规正反面复习队列；没有独立的 Learn 或 Test 模式，也不会生成选择题测试 | Quizlet |
-| 调度与 FSRS | 个性化定时复习与 Memory Score；公开文档没有说明其调度器采用 FSRS | 明确采用 FSRS-6，以 Again、Hard、Good 和 Easy 评分 | 视需求而定：Quizlet 胜在定时复习体验；Flashcards 胜在有明确文档的 FSRS-6 调度器 |
-| 离线使用 | 支持 iOS 和 Android；最近使用的学习集会自动保存，其他学习集可下载 | 网页端、iOS 和 Android 均采用离线优先的本地写入，重新联网后再同步 | Flashcards |
-| AI | 模拟测试、学习指南、内容摘要、抽认卡生成、作业帮助和 Ask Quizlet | 支持文件附件的 AI 对话，以及 MCP 和 Agent API | 现成学习工具选 Quizlet；工作区与智能体访问选 Flashcards |
+| 调度与 FSRS | 个性化定时复习与 Memory Score；公开文档没有说明其调度器采用 FSRS | 明确采用 FSRS-6，以 Again、Hard、Good 和 Easy 评分 | 视需求而定：Quizlet 胜在定时复习体验；Nibomo 胜在有明确文档的 FSRS-6 调度器 |
+| 离线使用 | 支持 iOS 和 Android；最近使用的学习集会自动保存，其他学习集可下载 | 网页端、iOS 和 Android 均采用离线优先的本地写入，重新联网后再同步 | Nibomo |
+| AI | 模拟测试、学习指南、内容摘要、抽认卡生成、作业帮助和 Ask Quizlet | 支持文件附件的 AI 对话，以及 MCP 和 Agent API | 现成学习工具选 Quizlet；工作区与智能体访问选 Nibomo |
 | 共享内容 | 公共学习集与文件夹，并拥有大量教师创建的内容库 | 没有规模相当的用户共享内容库 | Quizlet |
 | 导入 | 在网站粘贴带分隔符的文本，每一行生成一张卡片 | 只能导入自己的 `flashcards.zip` 包 | Quizlet |
-| 导出 | 创建者可在网站导出自己学习集中的术语和定义；不含图片，也不能导出复制的学习集 | `flashcards.zip` 可在 Flashcards 工作区之间传输卡片、标签和相关媒体 | 取决于你需要迁移的内容 |
-| 数据所有权与控制 | 受 Quizlet 产品和条款约束的闭源托管服务 | 采用 MIT 许可证；提供托管应用；通过 AWS CDK 自托管可让运维者控制基础设施和数据库 | 代码访问选 Flashcards；基础设施与数据库控制选自托管 |
+| 导出 | 创建者可在网站导出自己学习集中的术语和定义；不含图片，也不能导出复制的学习集 | `flashcards.zip` 可在 Nibomo 工作区之间传输卡片、标签和相关媒体 | 取决于你需要迁移的内容 |
+| 数据所有权与控制 | 受 Quizlet 产品和条款约束的闭源托管服务 | 采用 MIT 许可证；提供托管应用；通过 AWS CDK 自托管可让运维者控制基础设施和数据库 | 代码访问选 Nibomo；基础设施与数据库控制选自托管 |
 
 最后一列故意没有给出整齐划一的答案。一款产品可能更适合准备周五的考试，另一款则让运维者对软件和基础设施拥有更多控制权。哪项优势更重要，取决于你的工作流。
 
@@ -149,4 +149,4 @@ Flashcards 采用 MIT 许可证，并提供托管的网页、iOS 和 Android 产
 
 它并不是“没有缺点的 Quizlet”。它有自己的短板：没有独立的 Learn 或 Test 模式，没有同类的共享学习集库，没有直接的 Quizlet 导入器，也不能通过 `flashcards.zip` 完成可移植的完整备份。
 
-如果这些缺口恰好移除了你最常用的 Quizlet 功能，那就继续使用 Quizlet。如果调度器透明度、离线优先学习和基础设施控制正是你开始搜索替代方案的原因，可以先[打开 Flashcards](https://app.flashcards-open-source-app.com/)或[查看源代码](https://github.com/kirill-markin/flashcards-open-source-app)，再作决定。真正合适的学习系统，是新鲜感消退后，其取舍依然合理的那一个。
+如果这些缺口恰好移除了你最常用的 Quizlet 功能，那就继续使用 Quizlet。如果调度器透明度、离线优先学习和基础设施控制正是你开始搜索替代方案的原因，可以先[打开 Nibomo](https://app.flashcards-open-source-app.com/)或[查看源代码](https://github.com/kirill-markin/flashcards-open-source-app)，再作决定。真正合适的学习系统，是新鲜感消退后，其取舍依然合理的那一个。

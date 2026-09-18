@@ -245,8 +245,8 @@ keywords:
 
 إذا كنت تقارن أيضًا بين خيارات منتجات أوسع، فهذه أقرب المقالات المرتبطة:
 
-- [بديل Memrise في 2026: تطبيق Flashcards مفتوح المصدر مع FSRS، ودراسة دون اتصال، وسير عمل يضع iPhone أولًا](https://nibomo.com/blog/memrise-alternative/)
-- [بديل Quizlet في 2026: تطبيق Flashcards مفتوح المصدر مع FSRS، ودراسة بلا اتصال، وملكية كاملة للبيانات](https://nibomo.com/blog/quizlet-alternative/)
+- [بديل Memrise في 2026: تطبيق Nibomo مفتوح المصدر مع FSRS، ودراسة دون اتصال، وسير عمل يضع iPhone أولًا](https://nibomo.com/blog/memrise-alternative/)
+- [بديل Quizlet في 2026: تطبيق Nibomo مفتوح المصدر مع FSRS، ودراسة بلا اتصال، وملكية كاملة للبيانات](https://nibomo.com/blog/quizlet-alternative/)
 - [أفضل تطبيق للبطاقات التعليمية بدون إنترنت في 2026: مذاكرة بلا اتصال مع FSRS ومزامنة موثوقة](https://nibomo.com/blog/best-offline-flashcards-app/)
 
 ## إذًا كيف ينبغي أن تستخدم البطاقات التعليمية لتعلّم اللغات في 2026؟

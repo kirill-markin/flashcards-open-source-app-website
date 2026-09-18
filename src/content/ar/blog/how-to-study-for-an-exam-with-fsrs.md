@@ -214,7 +214,7 @@ keywords:
 
 إذا أردت تجربة هذا الأسلوب:
 
-- [فتح Flashcards](https://nibomo.com/)
+- [فتح Nibomo](https://nibomo.com/)
 - [افتح التطبيق](https://app.flashcards-open-source-app.com/)
 - [اقرأ صفحة الميزات](https://nibomo.com/features/)
 - [اعرض المصدر على GitHub](https://github.com/kirill-markin/flashcards-open-source-app)

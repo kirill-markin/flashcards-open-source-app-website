@@ -20,7 +20,7 @@ OAuth 保护授权流程和令牌交换，Flashcards 服务器则限定工具能
 
 判断风险时，需要看清三个具体边界：每个工具能访问什么、哪些规则由 Flashcards 强制执行，以及哪些保护措施只存在于客户端。
 
-![暖色书桌上分开的 Flashcards MCP 读取与写入权限区域](/blog/is-mcp-safe-for-flashcards.png)
+![暖色书桌上分开的 Nibomo MCP 读取与写入权限区域](/blog/is-mcp-safe-for-flashcards.png)
 
 ## 通过 MCP 连接 Flashcards 安全吗？先看真实数据流
 
@@ -39,7 +39,7 @@ OAuth 保护授权流程和令牌交换，Flashcards 服务器则限定工具能
 
 ## Flashcards OAuth 保护哪些环节
 
-交互式 MCP 客户端通过 Flashcards 连接时，会使用支持 PKCE 与 Dynamic Client Registration 的授权码流程。你在浏览器中批准连接，PKCE 会把授权码交换绑定到发起流程的客户端。服务器还会确认访问令牌确实签发给 Flashcards MCP 资源。[Flashcards MCP 连接器指南](/zh/docs/mcp-connector/)列出了端点和发现元数据。
+交互式 MCP 客户端通过 Flashcards 连接时，会使用支持 PKCE 与 Dynamic Client Registration 的授权码流程。你在浏览器中批准连接，PKCE 会把授权码交换绑定到发起流程的客户端。服务器还会确认访问令牌确实签发给 Flashcards MCP 资源。[Nibomo MCP 连接器指南](/zh/docs/mcp-connector/)列出了端点和发现元数据。
 
 这套机制保护登录和令牌交换。2025 年 11 月 25 日的稳定版 [MCP 授权规范](https://modelcontextprotocol.io/specification/2025-11-25/basic/authorization)要求此流程使用 PKCE 和资源专用令牌。规范也指出，MCP 实现不一定都支持授权。因此，某个连接器使用 OAuth，不能证明另一个服务器也有同样的保护。
 
@@ -77,7 +77,7 @@ Flashcards 目前只声明一个 OAuth scope：`flashcards`。它不会分别签
 
 返回的数据仍会离开 Flashcards 后端。查询薄弱知识点时，结果可能包含卡片文本和复习事件。即使卡片很短，也可能写有患者信息、内部系统名称、私人语言示例或面试笔记。
 
-[Flashcards 隐私政策](/zh/privacy/)涵盖通过 MCP 和 Agent API 请求的数据。从协议层面看，Flashcards 会把结果发送给 MCP 客户端。之后是否交给独立的模型提供商、由任何一方保留多久、能否用于训练，都取决于客户端设置和提供商条款。请核实这些细节，不要把“只读”当成隐私标签。
+[Nibomo 隐私政策](/zh/privacy/)涵盖通过 MCP 和 Agent API 请求的数据。从协议层面看，Flashcards 会把结果发送给 MCP 客户端。之后是否交给独立的模型提供商、由任何一方保留多久、能否用于训练，都取决于客户端设置和提供商条款。请核实这些细节，不要把“只读”当成隐私标签。
 
 ### 写入权限比完整的数据库访问更有限
 
@@ -134,7 +134,7 @@ OpenAI 提供了一个具体例子。其当前的 [Apps in ChatGPT 文档](https
 
 请核实你将使用的具体客户端、账户类型、工作区政策、地区和设置，重点查看保留期限、训练、记忆、管理员访问、子处理商和删除规则。如果文档没有说清机密源材料是否可能离开客户端，就不要用真实牌组来测试。
 
-删除 Flashcards 托管账户、断开连接器和删除下游副本是三件不同的事。[Flashcards 隐私政策](/zh/privacy/)介绍了托管数据的删除方式。Flashcards 无法删除客户端或模型提供商已经保留的数据；你还需要使用该提供商的控制功能。
+删除 Flashcards 托管账户、断开连接器和删除下游副本是三件不同的事。[Nibomo 隐私政策](/zh/privacy/)介绍了托管数据的删除方式。Flashcards 无法删除客户端或模型提供商已经保留的数据；你还需要使用该提供商的控制功能。
 
 ## 断开连接与撤销凭据是两个不同步骤
 
@@ -148,7 +148,7 @@ Flashcards 当前的 OAuth 实现会签发有效期为一小时的访问令牌�
 
 1. 先给源材料分类。公开学习笔记、个人信息、雇主机密内容和受监管数据不应共用一套访问策略。如果你无权把材料发送给客户端及其处理方，就不要通过 MCP 暴露它。
 2. 核对服务器 URL。文档中的端点是 `https://mcp.flashcards-open-source-app.com/mcp`。避开仿冒域名和从未知来源复制的连接器定义。
-3. 阅读双方政策。先看 [Flashcards 隐私政策](/zh/privacy/)，再核实具体 AI 客户端关于数据保留、训练、记忆、日志和删除的规则。
+3. 阅读双方政策。先看 [Nibomo 隐私政策](/zh/privacy/)，再核实具体 AI 客户端关于数据保留、训练、记忆、日志和删除的规则。
 4. 判断备用工作区是否足够。它适合演练，但同一账户上的连接仍可以指定其他有权访问的工作区。需要严格隔离时，请使用不同账户或单独部署。
 5. 一开始就在客户端禁用 `sql_execute` 和 `submit_review`。如果客户端无法禁用它们，请在连接前明确：OAuth 凭据仍具备写入能力。
 6. 只请求最少的数据。仅选择回答问题所需的列和行，不要把无关机密放进对话。

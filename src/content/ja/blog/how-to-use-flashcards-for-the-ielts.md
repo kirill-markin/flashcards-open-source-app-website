@@ -260,7 +260,7 @@ British Council の対策ガイドは、弱点に集中し、模擬試験で練�
 
 この流れを実際の製品内で試したいなら:
 
-- [Flashcards を開く](/ja/)
+- [Nibomo を開く](/ja/)
 - [アプリを開く](https://app.flashcards-open-source-app.com/)
 - [はじめ方ガイドを読む](/ja/docs/getting-started/)
 - [GitHub でソースを見る](https://github.com/kirill-markin/flashcards-open-source-app)

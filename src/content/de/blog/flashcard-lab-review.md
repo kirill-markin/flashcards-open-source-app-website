@@ -119,7 +119,7 @@ Am 12. August 2026 zeigte der US-iPhone-Eintrag die App als kostenlos mit diesen
 
 Der öffentliche Eintrag erläutert weder die Laufzeit noch die Freischaltung zwischen den Nutzungsformen genau genug, um einen der Käufe eindeutig der Formulierung zum lebenslangen Zugriff des Add-ons zuzuordnen. Prüfe den Upgrade-Bildschirm in der Nutzungsform, die du verwenden möchtest. Gehe nicht davon aus, dass ein iPhone-Kauf Funktionen in Google Sheets, Android, Chrome oder im Browser freischaltet.
 
-Zum Vergleich: Das [gehostete Kernangebot von Flashcards ist während der Beta kostenlos](/de/pricing/). Die MIT-lizenzierte Software kann selbst gehostet werden, aber AWS-Infrastruktur, E-Mail, Monitoring, KI-Anbieter, Backups und Wartung kosten weiterhin Geld oder Zeit. Ankis Desktop-App, AnkiWeb und AnkiDroid sind kostenlos; die offizielle US-AnkiMobile-App kostete bei der Prüfung einmalig US$24.99.
+Zum Vergleich: Das [gehostete Kernangebot von Nibomo ist während der Beta kostenlos](/de/pricing/). Die MIT-lizenzierte Software kann selbst gehostet werden, aber AWS-Infrastruktur, E-Mail, Monitoring, KI-Anbieter, Backups und Wartung kosten weiterhin Geld oder Zeit. Ankis Desktop-App, AnkiWeb und AnkiDroid sind kostenlos; die offizielle US-AnkiMobile-App kostete bei der Prüfung einmalig US$24.99.
 
 ## Prüfe die Google-Berechtigungen und die Datenschutzaussagen des Anbieters
 

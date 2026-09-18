@@ -309,7 +309,7 @@ Danach kann er den Rest selbst übernehmen.
 
 Nützliche Links:
 
-- [Flashcards-Website](https://nibomo.com/)
+- [Nibomo-Website](https://nibomo.com/)
 - [Gehostete App](https://app.flashcards-open-source-app.com/)
 - [Erste Schritte](https://nibomo.com/docs/getting-started/)
 - [GitHub-Repository](https://github.com/kirill-markin/flashcards-open-source-app)

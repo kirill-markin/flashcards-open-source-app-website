@@ -266,7 +266,7 @@ keywords:
 
 Если вам нужен именно такой сценарий, начните здесь:
 
-- [Открыть Flashcards](https://nibomo.com/)
+- [Открыть Nibomo](https://nibomo.com/)
 - [Открыть приложение](https://app.flashcards-open-source-app.com/)
 - [Прочитать гайд по началу работы](https://nibomo.com/docs/getting-started/)
 - [Посмотреть исходный код на GitHub](https://github.com/kirill-markin/flashcards-open-source-app)

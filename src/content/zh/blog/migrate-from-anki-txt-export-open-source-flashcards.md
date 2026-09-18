@@ -211,7 +211,7 @@ Flashcards 目前没有直接导入 Anki 的功能。它无法读取 `.apkg` 或
 - 必须原样迁移的牌组预设和组织结构；
 - 不能承受重置的复习历史或当前调度。
 
-Anki 很适合这些工作流程。TXT 迁移不是对 Anki 的评价；它只是一种用途明确而有限的工具，适合那些主要资产就是笔记内容的用户。更全面的 [Anki 与 Flashcards 对比](/zh/blog/anki-vs-flashcards-open-source-app/)介绍了两款产品的取舍，也不预设每个人都应该切换。
+Anki 很适合这些工作流程。TXT 迁移不是对 Anki 的评价；它只是一种用途明确而有限的工具，适合那些主要资产就是笔记内容的用户。更全面的 [Anki 与 Nibomo 对比](/zh/blog/anki-vs-flashcards-open-source-app/)介绍了两款产品的取舍，也不预设每个人都应该切换。
 
 ## 安全方案就是要刻意保持简单
 

@@ -175,7 +175,7 @@ keywords:
 
 إذا كانت مشكلتك أقرب إلى نقل مجموعات موجودة، فابدأ من هنا:
 
-- [كيفية الانتقال من Anki في 2026: صدّر بطاقاتك كملف TXT وانقلها إلى تطبيق Flashcards مفتوح المصدر](https://nibomo.com/blog/migrate-from-anki-txt-export-open-source-flashcards/)
+- [كيفية الانتقال من Anki في 2026: صدّر بطاقاتك كملف TXT وانقلها إلى تطبيق Nibomo مفتوح المصدر](https://nibomo.com/blog/migrate-from-anki-txt-export-open-source-flashcards/)
 
 وإذا كنت تقارن الفئة الأوسع، فهذا هو المقال الأنسب:
 
@@ -199,7 +199,7 @@ keywords:
 
 إذا كنت تريد طريقة عملية لتحويل الملاحظات إلى بطاقات تعليمية، فابدأ من هنا:
 
-- [تعرّف إلى Flashcards](https://nibomo.com/)
+- [تعرّف إلى Nibomo](https://nibomo.com/)
 - [افتح التطبيق](https://app.flashcards-open-source-app.com/)
 - [اقرأ دليل البدء](https://nibomo.com/docs/getting-started/)
 - [اطّلع على الشيفرة المصدرية على GitHub](https://github.com/kirill-markin/flashcards-open-source-app)

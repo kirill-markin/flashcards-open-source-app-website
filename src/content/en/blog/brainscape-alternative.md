@@ -44,7 +44,7 @@ Stay with Brainscape if its classes or analytics are part of your real workflow.
 | Collaboration | Classes, share links, editor permissions, and detailed analytics on school/group plans | No equivalent link-shared classes, card-editor permissions, or teacher progress analytics | Brainscape |
 | AI | Basic can make “100s” of AI flashcards; Pro lists unlimited AI; source-to-card and import-cleanup workflows | AI chat, supported file attachments, workspace read/write actions, MCP, and Agent API | Brainscape for guided bulk authoring; Nibomo for agent access |
 | Import | Paste a list or upload CSV, TXT, XLSX, or ODS; mobile also accepts files, images, and camera capture | Direct import only for its own `flashcards.zip`; other supported files can be source material for reviewed AI drafting | Brainscape for general import |
-| Export | Pro deck export produces spreadsheet files that open in Excel | `flashcards.zip` carries active cards, tags, and referenced media between Flashcards workspaces or instances | Depends: Brainscape for spreadsheets; Nibomo for its own workspace transfer |
+| Export | Pro deck export produces spreadsheet files that open in Excel | `flashcards.zip` carries active cards, tags, and referenced media between Nibomo workspaces or instances | Depends: Brainscape for spreadsheets; Nibomo for its own workspace transfer |
 | Price checked August 3, 2026 | Basic free; Pro shown at US$7.99/month on annual billing; Enterprise by quote | Hosted app free during beta; self-hosted software free plus infrastructure and provider costs | Depends on usage and hosting choice |
 | Ownership | Proprietary hosted service; export exists on Pro | Full application and infrastructure MIT licensed; documented AWS self-hosting | Nibomo |
 

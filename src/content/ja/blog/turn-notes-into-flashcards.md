@@ -201,7 +201,7 @@ Flashcards は、単発のジェネレーターよりずっと地に足がつい
 
 実用的に **ノートをフラッシュカードに変える手順** を始めたいなら、ここからどうぞ。
 
-- [Flashcards を開く](https://nibomo.com/)
+- [Nibomo を開く](https://nibomo.com/)
 - [アプリを開く](https://app.flashcards-open-source-app.com/)
 - [使い始めガイドを読む](https://nibomo.com/docs/getting-started/)
 - [GitHubでソースを見る](https://github.com/kirill-markin/flashcards-open-source-app)

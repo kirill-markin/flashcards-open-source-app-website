@@ -274,7 +274,7 @@ Das ist die Version eines **GRE-Vokabeldecks**, der ich trauen würde.
 
 Wenn du diesen Workflow in Flashcards ausprobieren willst:
 
-- [Starte mit Flashcards](https://nibomo.com/de/)
+- [Starte mit Nibomo](https://nibomo.com/de/)
 - [Öffne die Web-App](https://app.flashcards-open-source-app.com/)
 - [Lies die Getting-Started-Anleitung](https://nibomo.com/de/docs/getting-started/)
 - [Sieh dir den Source Code auf GitHub an](https://github.com/kirill-markin/flashcards-open-source-app)

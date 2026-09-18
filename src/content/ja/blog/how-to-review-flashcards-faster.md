@@ -285,7 +285,7 @@ FSRSが本当に力を発揮するのは、次の条件がそろっていると�
 
 このワークフローを1か所で試したいなら、こちらから始められます。
 
-- [Flashcardsを開く](https://nibomo.com/)
+- [Nibomoを開く](https://nibomo.com/)
 - [アプリを開く](https://app.flashcards-open-source-app.com/)
 - [機能ページを読む](https://nibomo.com/features/)
 - [GitHubでソースを見る](https://github.com/kirill-markin/flashcards-open-source-app)
