@@ -196,7 +196,7 @@ Research report से बना अच्छा flashcard आम तौर प�
 
 Card quality वाले बड़े हिस्से के लिए [2026 में बेहतर फ़्लैशकार्ड्स कैसे बनाएं](/hi/blog/how-to-make-better-flashcards/) और [2026 में फ़्लैशकार्ड्स को तेज़ी से कैसे review करें](/hi/blog/how-to-review-flashcards-faster/) इस workflow के साथ सीधा मेल खाते हैं।
 
-## Flashcards असल में कहाँ fit बैठता है
+## Nibomo असल में कहाँ fit बैठता है
 
 [Nibomo](/hi/features/) research pass के बाद काम आता है, पहले नहीं।
 
@@ -204,7 +204,7 @@ Product, ChatGPT Deep Research के साथ किसी direct one-click in
 
 1. ChatGPT में report पूरी कीजिए
 2. काम का section copy कीजिए या report export कीजिए
-3. relevant text को Flashcards AI chat में paste कीजिए या exported file attach कीजिए
+3. relevant text को Nibomo AI chat में paste कीजिए या exported file attach कीजिए
 4. AI chat से wording को साफ़ front/back cards में tighten कीजिए
 5. final cards edit कीजिए, उन्हें deck या tag के हिसाब से organize कीजिए, और FSRS के साथ review कीजिए
 

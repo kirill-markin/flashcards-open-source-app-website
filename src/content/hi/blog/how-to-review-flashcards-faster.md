@@ -240,7 +240,7 @@ FSRS तब सबसे अच्छा काम करता है जब:
 
 यह ज़्यादातर जटिल optimization advice से ज़्यादा मामलों को हल कर देता है।
 
-## इस workflow में Flashcards कहाँ बेहतर fit बैठता है
+## इस workflow में Nibomo कहाँ बेहतर fit बैठता है
 
 [Nibomo](https://nibomo.com/) इस खास समस्या के लिए अच्छा fit है, क्योंकि यह product पूरे "कम junk बनाओ, अच्छे cards को तेज़ review करो" workflow को support करता है, बिना यह दिखावा किए कि हर step एक ही काम है।
 

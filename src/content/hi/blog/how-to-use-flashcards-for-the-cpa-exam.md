@@ -231,7 +231,7 @@ FSRS क्या नहीं करता: फूले हुए deck को 
 
 - [How to Study for an Exam With FSRS in 2026](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)
 
-## इस CPA workflow में Flashcards कहाँ सबसे ठीक बैठता है
+## इस CPA workflow में Nibomo कहाँ सबसे ठीक बैठता है
 
 अगर आप यह सब [Nibomo](https://nibomo.com/) के भीतर चलाना चाहते हैं, तो उपयोगी बात यह नहीं है कि AI किसी जादू से आपको CPA exam पास करा देगा।
 

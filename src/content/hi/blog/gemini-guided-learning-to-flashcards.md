@@ -203,7 +203,7 @@ FSRS वही हिस्सा है जो "मैंने यह gap प�
 
 अगर आप scheduler comparison ही चाहते हैं, तो [2026 में FSRS बनाम SM-2](/blog/fsrs-vs-sm-2/) उसके लिए बेहतर जगह है। यह article ज़्यादा सीमित है। Gemini ने weak spots पहले ही ढूँढ़ लिए। अब उन्हें review के लिए सच में कोई जगह चाहिए।
 
-## Flashcards इसमें कहाँ fit बैठता है
+## Nibomo इसमें कहाँ fit बैठता है
 
 [Nibomo](/) Gemini Guided Learning को replace करने की कोशिश नहीं कर रहा।
 

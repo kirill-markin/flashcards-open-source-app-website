@@ -286,7 +286,7 @@ Flashcards इसलिए मदद करता है क्योंकि �
 
 अगर आपके exam workflow को इससे ज़्यादा structure चाहिए, तो [2026 में FSRS के साथ परीक्षा की तैयारी कैसे करें](/hi/blog/how-to-study-for-an-exam-with-fsrs/) अगला सही लेख है।
 
-## Flashcards यहाँ कहाँ fit बैठता है
+## Nibomo यहाँ कहाँ fit बैठता है
 
 [Nibomo](/hi/) इस workflow में इसलिए fit बैठता है, क्योंकि product उस हिस्से को संभालता है जो blurting अपने आप नहीं कर पाता:
 

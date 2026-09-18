@@ -242,7 +242,7 @@ Practice misses अक्सर ये चीज़ें सामने ला
 
 अगर scheduler-specific हिस्सा चाहिए, तो [2026 में FSRS settings](/hi/blog/fsrs-settings/) और [2026 में FSRS बनाम SM-2](/hi/blog/fsrs-vs-sm-2/) सीधे follow-up articles हैं।
 
-## इस workflow में Flashcards कहाँ फिट बैठता है
+## इस workflow में Nibomo कहाँ फिट बैठता है
 
 [Nibomo](/hi/) तब सबसे अच्छा fit बैठता है, जब आपको पहले से पता हो कि review के लायक क्या है।
 

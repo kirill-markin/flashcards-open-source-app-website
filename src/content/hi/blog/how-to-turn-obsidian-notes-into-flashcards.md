@@ -115,7 +115,7 @@ clean की हुई note लें और plain front/back cards माँग
 
 अगर अगला कदम बेहतर card-writing rules है, तो [बेहतर flashcards कैसे बनाएं](https://nibomo.com/blog/how-to-make-better-flashcards/) पढ़ें।
 
-## Flashcards, Obsidian workflow में ठीक बैठता है, बिना यह दिखावा किए कि वही आपका vault है
+## Nibomo, Obsidian workflow में ठीक बैठता है, बिना यह दिखावा किए कि वही आपका vault है
 
 [Nibomo](https://nibomo.com/) यहाँ इसलिए समझ आता है क्योंकि यह workflow के पढ़ाई वाले हिस्से को साफ़ तरीके से संभालता है:
 
@@ -124,7 +124,7 @@ clean की हुई note लें और plain front/back cards माँग
 - जब paste करना अटपटा लगे तो files attach करना
 - final cards को FSRS के साथ review करना
 
-यह उससे बेहतर fit है जहाँ कोई app खुद को native Obsidian layer बताने की कोशिश करे। यह आपका note graph, vault browser, या plugin replacement नहीं है। इसे वैसा होने की ज़रूरत भी नहीं है। उपयोगी handoff इससे ज़्यादा simple है: notes का home Obsidian ही रहे, और जब आपको retrieval practice चाहिए तब Flashcards आगे का काम संभाल ले।
+यह उससे बेहतर fit है जहाँ कोई app खुद को native Obsidian layer बताने की कोशिश करे। यह आपका note graph, vault browser, या plugin replacement नहीं है। इसे वैसा होने की ज़रूरत भी नहीं है। उपयोगी handoff इससे ज़्यादा simple है: notes का home Obsidian ही रहे, और जब आपको retrieval practice चाहिए तब Nibomo आगे का काम संभाल ले।
 
 अगर पहले product basics देखना चाहते हैं, तो [Getting Started](https://nibomo.com/docs/getting-started/) से शुरू करें।
 

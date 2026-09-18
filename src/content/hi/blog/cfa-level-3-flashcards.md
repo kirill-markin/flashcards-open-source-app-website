@@ -178,7 +178,7 @@ Level III की एक व्यावहारिक अध्ययन प्
 
 प्रशासनिक तथ्य भी कहीं और रखें। परीक्षा का ढाँचा, curriculum, registration के नियम, तारीखें और नीतियाँ बदल सकते हैं। इस लेख में परीक्षा के प्रारूप से जुड़े दावों को 21 जुलाई 2026 को CFA Institute से जाँचा गया था। कोई कदम उठाने से पहले CFA Institute से अपने pathway, परीक्षा अवधि, अंतिम तारीखों, अनुमति वाले उपकरण और मौजूदा नीतियों की पुष्टि करें।
 
-## इस प्रक्रिया में Flashcards की भूमिका
+## इस प्रक्रिया में Nibomo की भूमिका
 
 [Nibomo](/) curriculum, item sets, constructed responses या मॉक टेस्ट की जगह लिए बिना याद करने वाला हिस्सा सँभालता है। Hosted web app में front/back cards, tags, FSRS से तय रिव्यू और workspace data व file attachments के साथ AI chat उपलब्ध हैं। यह project open source है; इसकी repository में iOS client भी है और Android app Google Play पर प्रकाशित है।
 

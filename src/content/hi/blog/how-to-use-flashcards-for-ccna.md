@@ -269,7 +269,7 @@ Deck का stable हिस्सा उन चीज़ों पर होन
 
 अगर review load ही वह चीज़ है जो आपकी plan बार-बार तोड़ती है, तो [2026 में हर दिन कितने नए फ़्लैशकार्ड?](/blog/how-many-new-flashcards-per-day/) और [2026 में FSRS के साथ परीक्षा की तैयारी कैसे करें](/blog/how-to-study-for-an-exam-with-fsrs/) यहाँ सीधे fit बैठते हैं।
 
-## इस workflow में Flashcards कहाँ अच्छा बैठता है
+## इस workflow में Nibomo कहाँ अच्छा बैठता है
 
 [Nibomo](/) CCNA prep के लिए अच्छा fit है, क्योंकि यह exam messy source material पैदा करता है: lab notes, pasted CLI output, short miss logs, और छोटे troubleshooting summaries। App cleanup step और review step दोनों संभाल सकता है, बिना यह दिखावा किए कि दोनों एक ही काम हैं।
 

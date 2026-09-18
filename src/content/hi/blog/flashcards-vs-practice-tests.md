@@ -234,7 +234,7 @@ Fix glamorous नहीं है:
 
 आमतौर पर यहीं "मैं अगले दिन सब भूल जाता हूँ" बदलकर "कुछ चीज़ें अब भी छूटती हैं, लेकिन अब मुझे साफ़ पता है कौन-सी चीज़ें" बनता है।
 
-## Flashcards यहाँ ईमानदारी से कहाँ fit बैठता है
+## Nibomo यहाँ ईमानदारी से कहाँ fit बैठता है
 
 [Nibomo](/hi/) ऐसा product नहीं है जिसे मैं full practice-test platform कहूँगा।
 
@@ -253,7 +253,7 @@ Fix glamorous नहीं है:
 
 Practice test से problem ढूँढिए।
 
-Flashcards से problem का वह हिस्सा संभालिए जिसे बाद में भी ठीक रखना है।
+Nibomo से problem का वह हिस्सा संभालिए जिसे बाद में भी ठीक रखना है।
 
 ## एक realistic weekly rhythm
 

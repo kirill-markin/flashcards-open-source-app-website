@@ -45,7 +45,7 @@ Anki एक flashcard product और ecosystem है। SuperMemo नाम द
 | [FSRS](https://github.com/open-spaced-repetition/fsrs4anki) | Open scheduler और project | इसे कोई host product या library लागू करती है | ऐसे developers और users जो scheduling logic को जाँच-परख सकना चाहते हैं | यह अपने-आप cards, editor, sync या study interface नहीं देता |
 | [Nibomo](/hi/features/) | FSRS पर बना नया open-source flashcard product | FSRS-6, जिसके official default weights तय रखे गए हैं, और बदल सकने वाली workspace scheduling settings | Web, iOS, Android, self-hosting, API और AI-agent workflows | Anki के मुकाबले छोटा ecosystem और अभी personalized FSRS weights नहीं |
 
-इन पंक्तियों का एक जैसा न होना जानबूझकर है। Anki और Flashcards पूरा flashcard workflow देते हैं। SuperMemo 20 scheduling को कहीं व्यापक reading और knowledge workflow के साथ जोड़ता है। SuperMemo.com एक hosted language-learning experience बेचता है। FSRS दूसरे software को scheduling logic देता है।
+इन पंक्तियों का एक जैसा न होना जानबूझकर है। Anki और Nibomo पूरा flashcard workflow देते हैं। SuperMemo 20 scheduling को कहीं व्यापक reading और knowledge workflow के साथ जोड़ता है। SuperMemo.com एक hosted language-learning experience बेचता है। FSRS दूसरे software को scheduling logic देता है।
 
 ## Anki वास्तव में क्या देता है
 
@@ -55,7 +55,7 @@ Anki केवल spaced repetition algorithm नहीं है। उसक�
 
 Manual में इस्तेमाल शब्दों के साथ एक ऐतिहासिक बात समझना ज़रूरी है। **SM-2, SuperMemo algorithm की शुरुआती पीढ़ियों में से एक है; यह आज के SuperMemo का दूसरा नाम नहीं है।** Anki के पुराने scheduler को “legacy SM-2” कहना Anki की documentation के मुताबिक है और उसके पीछे की algorithm family बताता है। इससे यह साबित नहीं होता कि implementation की हर बारीकी दशकों पहले प्रकाशित original SM-2 जैसी ही है। अधिक केंद्रित technical comparison के लिए [FSRS बनाम SM-2](/hi/blog/fsrs-vs-sm-2/) देखें।
 
-अगर आपकी पुरानी और बड़ी collection custom templates, add-ons, media या वर्षों की review history पर निर्भर है, तो product बदलने में सचमुच मेहनत लगेगी। Anki छोड़ने के बजाय केवल उसका scheduler बदलना कहीं आसान पड़ सकता है। Product के स्तर पर दोनों के अंतर [Anki बनाम Flashcards की विस्तृत तुलना](/hi/blog/anki-vs-flashcards-open-source-app/) में दिए गए हैं।
+अगर आपकी पुरानी और बड़ी collection custom templates, add-ons, media या वर्षों की review history पर निर्भर है, तो product बदलने में सचमुच मेहनत लगेगी। Anki छोड़ने के बजाय केवल उसका scheduler बदलना कहीं आसान पड़ सकता है। Product के स्तर पर दोनों के अंतर [Anki बनाम Nibomo की विस्तृत तुलना](/hi/blog/anki-vs-flashcards-open-source-app/) में दिए गए हैं।
 
 ## “SuperMemo” के साथ अब यह बताना ज़रूरी है कि किसकी बात हो रही है
 
@@ -112,9 +112,9 @@ Review ratings किसी scheduling system को दिए जाने व�
 
 FSRS में सबसे अहम अंतर Again और Hard के बीच है। [Anki manual](https://docs.ankiweb.net/deck-options.html#fsrs) के मुताबिक FSRS में Hard का मतलब successful recall और Again का मतलब failure है। केवल इसलिए Hard चुनना कि अगला interval बेहतर दिखता है, ऐसे event को दर्ज करता है जो वास्तव में हुआ ही नहीं। [Again बनाम Hard की practical guide](/hi/blog/again-vs-hard-fsrs-flashcards/) partial answers और मुश्किल cases को विस्तार से समझाती है।
 
-## Flashcards आज FSRS को कैसे लागू करता है
+## Nibomo आज FSRS को कैसे लागू करता है
 
-Flashcards में FSRS एक वास्तविक product component है, केवल “smart repetition” जैसा अस्पष्ट label नहीं। इस implementation को 3 अगस्त, 2026 को source repository के commit `9cb013f78767c081f5385a53daa5e4b9fe69d3b6` के आधार पर verify किया गया था।
+Nibomo में FSRS एक वास्तविक product component है, केवल “smart repetition” जैसा अस्पष्ट label नहीं। इस implementation को 3 अगस्त, 2026 को source repository के commit `9cb013f78767c081f5385a53daa5e4b9fe69d3b6` के आधार पर verify किया गया था।
 
 Backend scheduler official `ts-fsrs` 5.2.3 flow के अनुरूप है और official FSRS-6 default weights को तय रखता है। Backend, iOS और Android में scheduler के तीन स्वतंत्र implementations हैं। Web app चौथी copy रखने के बजाय backend module को दोबारा इस्तेमाल करता है। Shared golden test vectors यह पक्का करते हैं कि इन सभी implementations का scheduling behavior एक जैसा रहे।
 
@@ -129,9 +129,9 @@ Workspace की default settings ये हैं:
 - maximum interval `36,500` days
 - fuzz enabled
 
-Workspaces आगे होने वाली reviews के लिए desired retention, steps, maximum interval और fuzz बदल सकते हैं। Flashcards अभी किसी user के FSRS weights को personalize नहीं करता और न ही users को ये weights बदलने देता है; v1 में official default weights तय हैं। यह उन products से एक अहम अंतर है जो किसी व्यक्ति की history से parameters fit करते हैं। [FSRS settings guide](/hi/blog/fsrs-settings/) workload पर इन settings का असर समझाती है, बिना यह दावा किए कि हर setting को बदलना ज़रूरी है।
+Workspaces आगे होने वाली reviews के लिए desired retention, steps, maximum interval और fuzz बदल सकते हैं। Nibomo अभी किसी user के FSRS weights को personalize नहीं करता और न ही users को ये weights बदलने देता है; v1 में official default weights तय हैं। यह उन products से एक अहम अंतर है जो किसी व्यक्ति की history से parameters fit करते हैं। [FSRS settings guide](/hi/blog/fsrs-settings/) workload पर इन settings का असर समझाती है, बिना यह दावा किए कि हर setting को बदलना ज़रूरी है।
 
-Web review screen पर Flashcards, Again, Hard, Good और Easy में से हर विकल्प के लिए अगला calculated interval पहले ही दिखाता है। User/API ratings `0`, `1`, `2` और `3` को अंदरूनी तौर पर FSRS grades `1` से `4` से map किया जाता है। Again failed recall दर्ज करता है; Hard, Good और Easy successful recall दर्ज करते हैं, जिनमें क्रमशः कम effort लगा। सभी clients बार-बार Hard चुनने पर याद दिलाते हैं: जो answer आपको याद नहीं आया, उसे Again के तौर पर दर्ज करना चाहिए।
+Web review screen पर Nibomo, Again, Hard, Good और Easy में से हर विकल्प के लिए अगला calculated interval पहले ही दिखाता है। User/API ratings `0`, `1`, `2` और `3` को अंदरूनी तौर पर FSRS grades `1` से `4` से map किया जाता है। Again failed recall दर्ज करता है; Hard, Good और Easy successful recall दर्ज करते हैं, जिनमें क्रमशः कम effort लगा। सभी clients बार-बार Hard चुनने पर याद दिलाते हैं: जो answer आपको याद नहीं आया, उसे Again के तौर पर दर्ज करना चाहिए।
 
 इस व्यवस्था में scheduler को जाँचा जा सकता है और अलग-अलग platforms पर उसका behavior एक जैसा रहता है। फिर भी अच्छे cards बनाना, ईमानदारी से rating देना और reviews सच में पूरा करना ज़रूरी है।
 
@@ -179,6 +179,6 @@ Vendor documentation किसी product का behavior समझाती ह
 
 Anki का mature ecosystem और मौजूदा FSRS scheduler दोनों चाहिए, तो **Anki with FSRS** इस्तेमाल करें। Incremental reading और Windows का गहरा knowledge workflow आपकी प्राथमिकता है, तो **SuperMemo 20 for Windows** को परखें; FSRS पहले से उसके Algorithm Arena में शामिल है। आपका असली लक्ष्य hosted language courses है, तो **SuperMemo.com** को अलग product मानकर देखें। अगर आप scheduling layer बना रहे हैं या उसे audit करना चाहते हैं, तो **FSRS implementations** की तुलना करें।
 
-Flashcards नया open-source web, mobile, self-hosting और agent use case पूरा करता है। इसमें तय official default weights और cross-platform parity tests वाला FSRS-6 implementation है, लेकिन इसका product ecosystem अभी नया है।
+Nibomo नया open-source web, mobile, self-hosting और agent use case पूरा करता है। इसमें तय official default weights और cross-platform parity tests वाला FSRS-6 implementation है, लेकिन इसका product ecosystem अभी नया है।
 
 वह workflow चुनें जिसे आप लगातार इस्तेमाल कर सकें, फिर उसके अंदर spaced repetition algorithm configure करें। Product आपको review तक पहुँचाता है। Scheduler model के आधार पर तारीख चुनता है। सीखने का signal फिर भी आपके cards, ratings और नियमितता से आता है।

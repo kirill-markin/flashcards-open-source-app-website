@@ -205,7 +205,7 @@ Perplexity आपको समझने और misses पकड़ने मे�
 1. Learn Mode session खत्म करें।
 2. Weak spots, cleaned-up card draft, या दोनों copy करें।
 3. Edit करते समय हर candidate card के पास source note snippet या citation रखें।
-4. उसे Flashcards AI chat में paste करें या cards सीधे बना लें।
+4. उसे Nibomo AI chat में paste करें या cards सीधे बना लें।
 5. Wording को simple front/back cards में edit करें।
 6. उन्हें deck या tag के हिसाब से organize करें।
 7. FSRS के साथ review करें।

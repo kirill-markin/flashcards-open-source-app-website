@@ -79,7 +79,7 @@ AI सबसे ज़्यादा तब काम आती है जब �
 
 यह उस झूठे चुनाव से ज़्यादा स्वस्थ setup है जिसमें एक तरफ़ पुराना desktop software हो और दूसरी तरफ़ study tab वाला closed SaaS।
 
-## Flashcards अभी क्या-क्या साफ़ तौर पर बताता है
+## Nibomo अभी क्या-क्या साफ़ तौर पर बताता है
 
 [Nibomo](/hi/) उस middle path में इसलिए फिट बैठता है, क्योंकि control के विकल्प पहले से ही repo, [features page](/hi/features/), docs, और public pages में साफ़ दिखाई देते हैं।
 
@@ -120,7 +120,7 @@ AI सबसे ज़्यादा तब काम आती है जब �
 
 यह anti-AI नहीं है। बस ज़्यादा साफ़ है।
 
-Flashcards की hosted docs और pages पहले से इन capabilities को अलग-अलग दिखाती हैं, AI को product के भीतर इकलौता रास्ता बनाकर नहीं। [getting started guide](/hi/docs/getting-started/) hosted app के अलग हिस्सों के रूप में card creation, due-card review, और AI chat को सूचीबद्ध करती है। [terms](/hi/terms/) भी साफ़ कहती है कि AI chat optional है और अगर आप यह feature इस्तेमाल करते हैं, तो hosted AI requests third-party AI providers द्वारा process की जा सकती हैं।
+Nibomo की hosted docs और pages पहले से इन capabilities को अलग-अलग दिखाती हैं, AI को product के भीतर इकलौता रास्ता बनाकर नहीं। [getting started guide](/hi/docs/getting-started/) hosted app के अलग हिस्सों के रूप में card creation, due-card review, और AI chat को सूचीबद्ध करती है। [terms](/hi/terms/) भी साफ़ कहती है कि AI chat optional है और अगर आप यह feature इस्तेमाल करते हैं, तो hosted AI requests third-party AI providers द्वारा process की जा सकती हैं।
 
 किसी privacy-sensitive study tool से मुझे इसी तरह की clarity चाहिए। पूर्णता नहीं, साफ़ boundaries।
 
@@ -146,7 +146,7 @@ AI की मदद से raw notes को **प्राइवेट फ्ल
 
 इसीलिए **ऑफलाइन फ्लैशकार्ड्स** और privacy को एक ही बातचीत में होना चाहिए।
 
-Flashcards में मौजूदा architecture docs पहले से iOS client को local SQLite plus backend के through sync push और pull के रूप में describe करती हैं। यह उस browser-only tool से मज़बूत स्थिति है जो modern तो लगता है, लेकिन connection गिरते ही साथ छोड़ देता है।
+Nibomo में मौजूदा architecture docs पहले से iOS client को local SQLite plus backend के through sync push और pull के रूप में describe करती हैं। यह उस browser-only tool से मज़बूत स्थिति है जो modern तो लगता है, लेकिन connection गिरते ही साथ छोड़ देता है।
 
 अगर offline side आपकी मुख्य requirement है, तो [offline-first flashcards](/hi/blog/best-offline-flashcards-app/) पर companion article इसमें और गहराई से जाती है।
 
@@ -158,7 +158,7 @@ Flashcards में मौजूदा architecture docs पहले से iO
 
 इसीलिए self-hosted path मायने रखता है।
 
-Flashcards की self-hosting docs पहले से Postgres, auth, backend, और web के लिए local setup बताती हैं, और local use के लिए `AUTH_MODE=none` भी document करती हैं। सीधी भाषा में कहें तो project पहले से **बिना अकाउंट वाला स्टडी ऐप** path support करता है, जब आप hosted service इस्तेमाल करने के बजाय अपना local stack चलाते हैं।
+Nibomo की self-hosting docs पहले से Postgres, auth, backend, और web के लिए local setup बताती हैं, और local use के लिए `AUTH_MODE=none` भी document करती हैं। सीधी भाषा में कहें तो project पहले से **बिना अकाउंट वाला स्टडी ऐप** path support करता है, जब आप hosted service इस्तेमाल करने के बजाय अपना local stack चलाते हैं।
 
 यह सबके लिए सही choice नहीं होगी। ज़्यादातर लोगों को शायद hosted version से शुरू करना चाहिए और ज़रूरत होने पर ही आगे जाना चाहिए। लेकिन अगर आपका material इतना sensitive है कि third-party account boundaries गलत fit लगती हैं, तो यह विकल्प पूरी बातचीत बदल देता है।
 
@@ -168,12 +168,12 @@ Flashcards की self-hosting docs पहले से Postgres, auth, backend,
 
 यहीं पर कई tools privacy को all-or-nothing जैसा महसूस कराते हैं।
 
-Flashcards पहले से documented external agent surface और MCP path expose करता है, automation को किसी एक sealed interface में बंद करके नहीं रखता। API docs यह भी साफ़ कहती हैं कि external agent contract selection के बाद workspace-scoped हो जाता है, जो vague "AI integration" marketing से कहीं स्वस्थ shape है।
+Nibomo पहले से documented external agent surface और MCP path expose करता है, automation को किसी एक sealed interface में बंद करके नहीं रखता। API docs यह भी साफ़ कहती हैं कि external agent contract selection के बाद workspace-scoped हो जाता है, जो vague "AI integration" marketing से कहीं स्वस्थ shape है।
 
 अगर आपके लिए agent side मायने रखती है, तो ये अगले पढ़ने लायक articles हैं:
 
-- [Claude Code, Codex, या OpenClaw को Flashcards में आपके लिए लॉग इन कैसे करने दें](/hi/blog/claude-code-codex-openclaw-flashcards-login/)
-- [Flashcards को Claude से MCP के साथ कैसे जोड़ें](/hi/blog/how-to-connect-flashcards-to-claude-with-mcp/)
+- [Claude Code, Codex, या OpenClaw को Nibomo में आपके लिए लॉग इन कैसे करने दें](/hi/blog/claude-code-codex-openclaw-flashcards-login/)
+- [Nibomo को Claude से MCP के साथ कैसे जोड़ें](/hi/blog/how-to-connect-flashcards-to-claude-with-mcp/)
 
 यह setup उस study product से ज़्यादा inspectable है जहाँ AI सिर्फ़ एक vendor के interface और उसी vendor के rules के भीतर ही मौजूद हो।
 

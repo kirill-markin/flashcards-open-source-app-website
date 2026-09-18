@@ -171,17 +171,17 @@ FSRS खराब input को भी बहुत सावधानी से 
 
 यह सीमा पढ़ाई की समस्याओं की वजह पहचानने में मदद करती है। अजीब long-term timing, settings, rating history या implementation की ओर इशारा करती है। कार्ड के back से बार-बार असहमति हो, तो समस्या कार्ड की गुणवत्ता में है। बहुत बड़ी queue की वजह FSRS algorithm नहीं, बल्कि लगातार जोड़े जा रहे नए कार्ड भी हो सकते हैं।
 
-## Flashcards में FSRS कैसे लागू किया गया है
+## Nibomo में FSRS कैसे लागू किया गया है
 
 > **Disclosure:** मैं Kirill Markin हूँ और [Nibomo](/features/) बनाता हूँ। यह हिस्सा जारी हो चुके product के व्यवहार का वर्णन करता है; यह दावा नहीं करता कि हर विद्यार्थी को कोई दूसरा ऐप छोड़ देना चाहिए।
 
-Flashcards इस समय आधिकारिक `ts-fsrs` 5.2.3 scheduling flow के अनुरूप **FSRS-6** लागू करता है। इसमें standard Again, Hard, Good और Easy ratings इस्तेमाल होती हैं। Backend, iOS और Android के शेड्यूलर एक जैसा व्यवहार करते हैं, जबकि web review flow backend शेड्यूलर का ही दोबारा इस्तेमाल करता है।
+Nibomo इस समय आधिकारिक `ts-fsrs` 5.2.3 scheduling flow के अनुरूप **FSRS-6** लागू करता है। इसमें standard Again, Hard, Good और Easy ratings इस्तेमाल होती हैं। Backend, iOS और Android के शेड्यूलर एक जैसा व्यवहार करते हैं, जबकि web review flow backend शेड्यूलर का ही दोबारा इस्तेमाल करता है।
 
 मौजूदा defaults हैं: desired retention `0.90`, learning steps 1 और 10 मिनट, relearning step 10 मिनट, maximum interval 36,500 दिन और fuzz चालू। Workspace owners इन settings को बदल सकते हैं। बदलाव केवल आगे होने वाले reviews पर लागू होते हैं; पहले से तय due dates को बिना बताए दोबारा नहीं बनाया जाता।
 
-Flashcards v1 में आधिकारिक FSRS-6 default weights तय करके रखता है। Users उन्हें configure नहीं कर सकते और product इस समय हर user की history से personalized FSRS parameters fit नहीं करता। Anki के optimizer से तुलना करते समय यह सीमा महत्वपूर्ण है।
+Nibomo v1 में आधिकारिक FSRS-6 default weights तय करके रखता है। Users उन्हें configure नहीं कर सकते और product इस समय हर user की history से personalized FSRS parameters fit नहीं करता। Anki के optimizer से तुलना करते समय यह सीमा महत्वपूर्ण है।
 
-सार्वजनिक [Flashcards FSRS scheduling specification](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/docs/fsrs-scheduling-logic.md) मौजूदा state model, defaults, settings की सीमाओं और सभी platforms पर एक-जैसे व्यवहार के नियमों का दस्तावेज़ है। विस्तृत [features page](/features/) दिखाती है कि शेड्यूलर पूरे product में कहाँ आता है; वह FSRS को अपने आप में एक ऐप की तरह पेश नहीं करती।
+सार्वजनिक [Nibomo FSRS scheduling specification](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/docs/fsrs-scheduling-logic.md) मौजूदा state model, defaults, settings की सीमाओं और सभी platforms पर एक-जैसे व्यवहार के नियमों का दस्तावेज़ है। विस्तृत [features page](/features/) दिखाती है कि शेड्यूलर पूरे product में कहाँ आता है; वह FSRS को अपने आप में एक ऐप की तरह पेश नहीं करती।
 
 ## FSRS के बारे में FAQ
 

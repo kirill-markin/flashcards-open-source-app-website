@@ -173,7 +173,7 @@ Homework, quiz, या practice set के बाद:
 
 छोटे cards FSRS को बहुत ज़्यादा उपयोगी बना देते हैं। अगर card-writing वाला हिस्सा control में आने के बाद आप scheduling side को tune करना चाहते हैं, तो [2026 में FSRS settings: क्या बदलें और क्या वैसे ही छोड़ दें](https://nibomo.com/blog/fsrs-settings/) अगली सही पढ़ाई है।
 
-## इस workflow में Flashcards कहाँ फिट बैठता है
+## इस workflow में Nibomo कहाँ फिट बैठता है
 
 [Nibomo](https://nibomo.com/) इस तरह की math study के लिए अच्छा विकल्प है, क्योंकि यह product उन हिस्सों को support करता है जो memory target तय होने के बाद सबसे ज़्यादा मायने रखते हैं:
 

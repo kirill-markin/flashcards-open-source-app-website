@@ -290,7 +290,7 @@ source material जितना बड़ा होगा, फ़िल्टर
 
 कुछ fancy नहीं। यही उसकी ताकत का हिस्सा है।
 
-## यहाँ Flashcards कहाँ काम आता है
+## यहाँ Nibomo कहाँ काम आता है
 
 [Nibomo](/hi/features/) तब सबसे अच्छा काम करता है जब आप source के हर sentence को future card मानना बंद कर देते हैं।
 

@@ -241,7 +241,7 @@ FSRS क्या नहीं करता: वह फूले हुए deck 
 
 - [2026 में FSRS के साथ परीक्षा की तैयारी कैसे करें](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)
 
-## इस NextGen workflow में Flashcards कहाँ फिट बैठता है
+## इस NextGen workflow में Nibomo कहाँ फिट बैठता है
 
 अगर आप इसे [Nibomo](https://nibomo.com/) में चलाना चाहते हैं, तो उपयोगी बात यह धुंधला वादा नहीं है कि AI पढ़ाई आसान बना देता है। उपयोगी बात यह है कि product इस workflow के असली बीच वाले हिस्से को पहले से संभालता है:
 

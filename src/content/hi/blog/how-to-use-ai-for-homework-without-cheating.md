@@ -214,7 +214,7 @@ AI का misuse करने का सबसे आसान तरीका �
 
 अगर AI से बने आपके cards पहले से फूले हुए लग रहे हैं, तो [2026 में AI फ़्लैशकार्ड्स कैसे ठीक करें](/hi/blog/how-to-fix-ai-flashcards/) अगला काम का article है।
 
-## Flashcards कहाँ fit बैठता है
+## Nibomo कहाँ fit बैठता है
 
 [Nibomo](/hi/) assignment के बाद सबसे अच्छा fit बैठता है, जब असली पढ़ाई फिर से शुरू होती है।
 
@@ -226,7 +226,7 @@ AI का misuse करने का सबसे आसान तरीका �
 - अभी web app में पढ़ना, जबकि repository में offline-first iOS client मौजूद है और Android app Google Play पर available है
 - अगर long-term control आपके लिए मायने रखता हो, तो बाद में self-hosted path पर जाना
 
-इससे workflow ईमानदार रहता है। AI explanation में मदद करता है। Homework बताता है कि आप कहाँ weak थे। Flashcards उन weak spots को इतना देर तक ज़िंदा रखता है कि आप उन्हें दोहराना बंद कर दें।
+इससे workflow ईमानदार रहता है। AI explanation में मदद करता है। Homework बताता है कि आप कहाँ weak थे। Nibomo उन weak spots को इतना देर तक ज़िंदा रखता है कि आप उन्हें दोहराना बंद कर दें।
 
 अगर आप homework की जगह notes, quizzes, या tutor session से शुरू कर रहे हैं, तो ये अगले पढ़ने लायक सबसे अच्छे articles हैं:
 

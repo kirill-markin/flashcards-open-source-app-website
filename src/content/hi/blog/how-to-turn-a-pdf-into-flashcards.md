@@ -151,7 +151,7 @@ file format बदल सकता है।
 
 - [2026 में FSRS बनाम SM-2](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
-## इस workflow में Flashcards कहाँ फिट बैठता है
+## इस workflow में Nibomo कहाँ फिट बैठता है
 
 [Nibomo](https://nibomo.com/) **pdf को flashcards में बदलने** के लिए इसलिए अच्छा fit है, क्योंकि इसमें पहले से वही हिस्से एक साथ मौजूद हैं जो वास्तव में मायने रखते हैं:
 
@@ -165,7 +165,7 @@ file format बदल सकता है।
 
 बहुत-से products "देखो, कार्ड बन गए" वाले पल तक ठीक चलते हैं। उसके बाद workflow धुँधला पड़ जाता है। drafts कहाँ रखे जाते हैं? उन्हें edit कैसे किया जाता है? और जब आप generation demo की तारीफ़ करने के बजाय सच में पढ़ना चाहते हैं, तब क्या होता है?
 
-यहीं Flashcards किसी standalone generator की तुलना में ज़्यादा ज़मीन से जुड़ा हुआ लगता है।
+यहीं Nibomo किसी standalone generator की तुलना में ज़्यादा ज़मीन से जुड़ा हुआ लगता है।
 
 ## मैं इस workflow को जानबूझकर साधारण रखूँगा
 

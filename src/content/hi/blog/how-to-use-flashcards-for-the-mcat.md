@@ -277,7 +277,7 @@ FSRS वह डेक नहीं बचा सकता जो bloated cards �
 - [2026 में FSRS के साथ परीक्षा की तैयारी कैसे करें](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)
 - [2026 में FSRS बनाम SM-2](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
-## इस MCAT workflow में Flashcards कहाँ फिट बैठता है
+## इस MCAT workflow में Nibomo कहाँ फिट बैठता है
 
 [Nibomo](https://nibomo.com/) इस तरह के MCAT workflow के लिए अच्छा fit है, क्योंकि यह उन हिस्सों को एक जगह लाता है जिन्हें छात्र अक्सर बहुत-से tools में बाँट देते हैं।
 

@@ -258,7 +258,7 @@ FSRS क्या नहीं करता: वह बहुत ज़्या
 - [2026 में FSRS के साथ परीक्षा की तैयारी कैसे करें](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)
 - [2026 में FSRS बनाम SM-2](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
-## इस Digital SAT workflow में Flashcards कहाँ फिट बैठता है
+## इस Digital SAT workflow में Nibomo कहाँ फिट बैठता है
 
 [Nibomo](https://nibomo.com/) **Digital SAT फ़्लैशकार्ड** के लिए अच्छा विकल्प है, क्योंकि मौजूदा product पहले से उन हिस्सों को support करता है जिन पर यह workflow टिका है:
 

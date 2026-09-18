@@ -81,7 +81,7 @@ Quizlet की 30 जून 2026 की Google Classroom घोषणा भी 
 
 सुरक्षित रास्ता ऐसा flashcard system चुनना है जो साफ़-साफ़ बताता हो कि बाहरी software authenticate कैसे करेगा और कौन-से read और write operations कर सकेगा। Automated workflow के लिए इसका मतलब Quizlet API का कोई विकल्प चुनना हो सकता है, जबकि Quizlet को उन्हीं study tasks के लिए रखा जाए जिन्हें उसका public product support करता है।
 
-## Flashcards API वाला विकल्प असल में क्या देता है
+## Nibomo API वाला विकल्प असल में क्या देता है
 
 Nibomo, एक ही सीमित per-user data surface तक पहुँचने के दो documented रास्ते देता है:
 

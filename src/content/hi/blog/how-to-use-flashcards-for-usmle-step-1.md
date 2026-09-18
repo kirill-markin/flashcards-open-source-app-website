@@ -315,7 +315,7 @@ Step 1 review बहुत सामान्य तरीके से uneven �
 
 अगर scheduling side को और detail में समझना है, तो [2026 में FSRS के साथ किसी परीक्षा की तैयारी कैसे करें](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/) इसका direct companion है। अगर आपकी queue पहले से ही हाथ से निकल रही है, तो [2026 में प्रति दिन कितने नए फ़्लैशकार्ड](https://nibomo.com/blog/how-many-new-flashcards-per-day/) अगला उपयोगी लेख है।
 
-## Step 1 की तैयारी में Flashcards कहाँ फिट बैठता है
+## Step 1 की तैयारी में Nibomo कहाँ फिट बैठता है
 
 अगर आप इसे [Nibomo](https://nibomo.com/) के भीतर चलाना चाहते हैं, तो value इस धुंधले वादे में नहीं है कि AI आपके लिए medicine सीख लेगा।
 

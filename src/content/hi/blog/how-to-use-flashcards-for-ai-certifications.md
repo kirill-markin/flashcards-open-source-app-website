@@ -244,7 +244,7 @@ Certification prep बार-बार आपको ज़रूरत से �
 
 - [2026 में बेहतर फ्लैशकार्ड कैसे बनाएँ](https://nibomo.com/blog/how-to-make-better-flashcards/)
 
-## इस workflow में Flashcards कहाँ बेहतर बैठता है
+## इस workflow में Nibomo कहाँ बेहतर बैठता है
 
 [Nibomo](https://nibomo.com/) इस तरह की certification prep के लिए इसलिए अच्छा विकल्प है, क्योंकि product पहले से उन हिस्सों को support करता है जिन पर यह workflow टिका है:
 

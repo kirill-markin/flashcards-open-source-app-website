@@ -166,7 +166,7 @@ notebook photo आम तौर पर ज़्यादा personal, ज़्
 
 - [2026 में PDF को Flashcards में कैसे बदलें](https://nibomo.com/blog/how-to-turn-a-pdf-into-flashcards/)
 
-## इस workflow में Flashcards कहाँ फिट बैठता है
+## इस workflow में Nibomo कहाँ फिट बैठता है
 
 [Nibomo](https://nibomo.com/) **handwritten notes से flashcards** के लिए अच्छा fit है क्योंकि product में पहले से वे हिस्से एक साथ हैं जो मायने रखते हैं:
 

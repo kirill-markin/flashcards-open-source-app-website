@@ -98,7 +98,7 @@ card quality की समस्या शायद ही कभी सिर�
 
 यह automation theater से कम और actual help से ज़्यादा जुड़ा है।
 
-## Flashcards के पास इस workflow के लिए पहले से सही shape है
+## Nibomo के पास इस workflow के लिए पहले से सही shape है
 
 [Nibomo](https://nibomo.com/) यहाँ दिलचस्प है क्योंकि product पहले से वे pieces combine करती है जो मायने रखते हैं:
 
@@ -114,7 +114,7 @@ card quality की समस्या शायद ही कभी सिर�
 - क्या आप उन्हें serious system में review कर सकते हैं?
 - क्या generated cards आपकी बाकी real study material के बगल में रह सकती हैं?
 
-यहीं Flashcards one-off generator की तुलना में ज़्यादा grounded लगती है।
+यहीं Nibomo one-off generator की तुलना में ज़्यादा grounded लगती है।
 
 ## Generation trick से ज़्यादा मायने FSRS का है
 
@@ -171,7 +171,7 @@ card quality की समस्या शायद ही कभी सिर�
 
 **notes से बने flashcards** खोजने वाले कुछ लोग zero से शुरू नहीं कर रहे। वे पहले से spaced repetition use करते हैं। basic idea काम करती है, यह जानते हैं। वे बस notes, exports, card creation, और actual review के बीच के glue code से थक चुके हैं।
 
-यहीं Flashcards सही दिशा में pointed लगती है। यह **open source flashcards app** है जहाँ AI workflows actual study product के भीतर रहती हैं, disconnected demo की तरह float नहीं करतीं।
+यहीं Nibomo सही दिशा में pointed लगती है। यह **open source flashcards app** है जहाँ AI workflows actual study product के भीतर रहती हैं, disconnected demo की तरह float नहीं करतीं।
 
 अगर आपकी समस्या existing collections move करने से ज़्यादा जुड़ी है, तो यहाँ से शुरू करें:
 
