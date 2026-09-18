@@ -18,7 +18,7 @@ MCP-клиенты и агенты ИИ могли читать ваши кар�
 Подключайтесь по адресу:
 
 ```text
-https://mcp.flashcards-open-source-app.com/mcp
+https://mcp.nibomo.com/mcp
 ```
 
 Транспорт — Streamable HTTP, и сервер предоставляет семь инструментов: два
@@ -32,7 +32,7 @@ workspace, справочное руководство и три инструм�
 Большинство клиентов добавляют удалённый MCP-сервер как пользовательский коннектор:
 
 1. Откройте в вашем клиенте настройки коннекторов или MCP-серверов.
-2. Добавьте пользовательский коннектор и вставьте URL сервера `https://mcp.flashcards-open-source-app.com/mcp`.
+2. Добавьте пользовательский коннектор и вставьте URL сервера `https://mcp.nibomo.com/mcp`.
 3. Для интерактивных клиентов авторизуйтесь в браузере, когда появится запрос. Сервер
    использует OAuth 2.1 с Dynamic Client Registration, поэтому нет client secret,
    который нужно было бы вставлять, и нет приложения, которое нужно регистрировать заранее.
@@ -123,7 +123,7 @@ SQL-интерфейс — это намеренно ограниченный д
 secret заранее не передаётся. Discovery выполняется стандартно:
 
 - Метаданные защищённого ресурса (protected-resource):
-  `https://mcp.flashcards-open-source-app.com/.well-known/oauth-protected-resource`
+  `https://mcp.nibomo.com/.well-known/oauth-protected-resource`
 - Метаданные сервера авторизации (authorization-server):
   `https://auth.flashcards-open-source-app.com/.well-known/oauth-authorization-server`
 

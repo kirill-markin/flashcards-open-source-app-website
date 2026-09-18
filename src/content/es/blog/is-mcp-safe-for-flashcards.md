@@ -147,7 +147,7 @@ Si tu modelo de amenazas exige una revocación OAuth inmediata en el servidor, e
 ## Una lista práctica antes de conectarte
 
 1. Clasifica el material de origen. Los apuntes públicos, la información personal, el contenido confidencial del empleador y los datos regulados no deberían compartir una misma política de acceso. Si no tienes autorización para enviar el material al cliente y a sus procesadores, no lo expongas mediante MCP.
-2. Verifica la URL del servidor. El endpoint documentado es `https://mcp.flashcards-open-source-app.com/mcp`. Evita dominios que se le parezcan y definiciones de conectores copiadas de fuentes desconocidas.
+2. Verifica la URL del servidor. El endpoint documentado es `https://mcp.nibomo.com/mcp`. Evita dominios que se le parezcan y definiciones de conectores copiadas de fuentes desconocidas.
 3. Lee las políticas de ambas partes. Empieza por la [política de privacidad de Nibomo](/es/privacy/) y comprueba después las reglas de conservación, entrenamiento, memoria, registro de actividad y eliminación del cliente de IA concreto.
 4. Decide si basta con un espacio de trabajo aparte. Sirve para ensayar, pero la conexión todavía puede dirigirse a otros espacios de trabajo de la misma cuenta. Usa otra cuenta o despliegue cuando necesites un aislamiento estricto.
 5. Empieza con `sql_execute` y `submit_review` bloqueadas en el cliente. Si el cliente no permite bloquearlas, reconoce antes de conectarte que la credencial OAuth conserva la capacidad de escritura.

@@ -86,7 +86,7 @@ La vía segura consiste en utilizar un sistema de flashcards que documente cómo
 Nibomo publica dos vías de acceso al mismo conjunto limitado de datos de cada usuario:
 
 - La [Agent API externa](/docs/api/) empieza en `GET https://api.flashcards-open-source-app.com/v1/`. Su respuesta de descubrimiento guía al agente durante el inicio de sesión mediante OTP por correo electrónico, la creación de una clave de API y la selección del espacio de trabajo. Las lecturas utilizan una ruta de consultas de estilo SQL; las escrituras, una ruta de ejecución independiente.
-- El [servidor MCP remoto](/docs/mcp-connector/) está disponible en `https://mcp.flashcards-open-source-app.com/mcp`. Los clientes MCP disponen de siete herramientas: `list_workspaces`, `sql_query`, `sql_execute`, `get_guide` y las herramientas de repaso `next_review_card`, `reveal_answer` y `submit_review`.
+- El [servidor MCP remoto](/docs/mcp-connector/) está disponible en `https://mcp.nibomo.com/mcp`. Los clientes MCP disponen de siete herramientas: `list_workspaces`, `sql_query`, `sql_execute`, `get_guide` y las herramientas de repaso `next_review_card`, `reveal_answer` y `submit_review`.
 
 Ambas vías están limitadas al espacio de trabajo. Los recursos publicados son `workspace`, `cards`, `decks` y `review_events`, y los resultados tienen un límite de 100 filas por sentencia. La interfaz de estilo SQL utiliza un dialecto limitado; no proporciona acceso directo a PostgreSQL. Tampoco hay un esquema OpenAPI, así que los flujos que dependan de clientes generados a partir de OpenAPI necesitarán otra interfaz.
 

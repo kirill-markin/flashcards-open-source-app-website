@@ -73,7 +73,7 @@ Quizletの[公式エクスポート手順](https://help.quizlet.com/hc/en-us/art
 
 NibomoのリモートMCPエンドポイントは、次のとおりです。
 
-`https://mcp.flashcards-open-source-app.com/mcp`
+`https://mcp.nibomo.com/mcp`
 
 [MCPコネクターのドキュメント](/docs/mcp-connector/)では、`list_workspaces`、読み取り用の`sql_query`、書き込み用の`sql_execute`、リファレンスガイド用の`get_guide`に加え、復習用の`next_review_card`、`reveal_answer`、`submit_review`という7つのツールを定義しています。対話型MCPクライアントではOAuthで認証できます。ターミナルで動くエージェントは、代わりに[Agent APIのドキュメント](/docs/api/)から始め、公開されているHTTPフローを利用できます。
 

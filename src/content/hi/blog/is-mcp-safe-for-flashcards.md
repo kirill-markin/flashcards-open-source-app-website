@@ -147,7 +147,7 @@ Headless `fca_` Agent API keys अलग तरह के credentials हैं�
 ## Connect करने से पहले एक व्यावहारिक checklist
 
 1. Source material की श्रेणी तय करें। Public study notes, निजी जानकारी, employer-confidential content और regulated data को एक ही access policy के तहत नहीं रखना चाहिए। अगर आपको material client और उसके processors को भेजने की अनुमति नहीं है, तो उसे MCP के जरिए expose न करें।
-2. Server URL जाँचें। दस्तावेज़ों में दिया endpoint `https://mcp.flashcards-open-source-app.com/mcp` है। उससे मिलते-जुलते domains और unknown sources से copy की गई connector definitions से बचें।
+2. Server URL जाँचें। दस्तावेज़ों में दिया endpoint `https://mcp.nibomo.com/mcp` है। उससे मिलते-जुलते domains और unknown sources से copy की गई connector definitions से बचें।
 3. दोनों पक्षों की policies पढ़ें। [Nibomo privacy](/hi/privacy/) से शुरू करें, फिर इस्तेमाल होने वाले AI client की retention, training, memory, logging और deletion rules जाँचें।
 4. तय करें कि spare workspace काफ़ी है या नहीं। अभ्यास के लिए वह उपयोगी है, लेकिन connection उसी account के दूसरे workspaces को भी target कर सकता है। सख़्त isolation चाहिए तो अलग account या deployment इस्तेमाल करें।
 5. Client में `sql_execute` और `submit_review` block करके शुरू करें। अगर client उन्हें block नहीं कर सकता, तो connect करने से पहले मानें कि OAuth credential में लिखने की क्षमता बनी रहती है।

@@ -83,7 +83,7 @@ Desktop पर इसे ऐसे जोड़ें:
 3. नाम `Flashcards` रखें, **Streamable HTTP** चुनें और यह URL डालें:
 
 ```text
-https://mcp.flashcards-open-source-app.com/mcp
+https://mcp.nibomo.com/mcp
 ```
 
 4. Server सेव करें, फिर **Restart** चुनें।
@@ -157,7 +157,7 @@ Codex आपकी अनुमति वाले कार्ड डेटा 
 Remote server जोड़ने के लिए चलाएँ:
 
 ```bash
-codex mcp add flashcards --url https://mcp.flashcards-open-source-app.com/mcp
+codex mcp add flashcards --url https://mcp.nibomo.com/mcp
 codex mcp login flashcards
 ```
 
@@ -167,7 +167,7 @@ codex mcp login flashcards
 
 ```bash
 codex mcp add flashcards \
-  --url https://mcp.flashcards-open-source-app.com/mcp \
+  --url https://mcp.nibomo.com/mcp \
   --bearer-token-env-var FLASHCARDS_MCP_TOKEN
 ```
 

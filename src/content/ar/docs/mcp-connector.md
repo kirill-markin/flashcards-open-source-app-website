@@ -16,7 +16,7 @@ Claude أو Cursor)، أو عبر [عنوان اكتشاف واجهة API للو
 اتصل به على:
 
 ```text
-https://mcp.flashcards-open-source-app.com/mcp
+https://mcp.nibomo.com/mcp
 ```
 
 آلية النقل هي Streamable HTTP، ويكشف الخادم سبع أدوات: أداتان لـ SQL عبر سطح SQL
@@ -30,7 +30,7 @@ https://mcp.flashcards-open-source-app.com/mcp
 تضيف معظم العملاء خادم MCP بعيدًا كموصّل مخصّص:
 
 1. افتح إعدادات الموصّل أو خادم MCP في عميلك.
-2. أضف موصّلًا مخصّصًا والصق عنوان الخادم `https://mcp.flashcards-open-source-app.com/mcp`.
+2. أضف موصّلًا مخصّصًا والصق عنوان الخادم `https://mcp.nibomo.com/mcp`.
 3. بالنسبة للعملاء التفاعليين، صرّح بالوصول في المتصفح عند المطالبة. يستخدم الخادم
    OAuth 2.1 مع Dynamic Client Registration، لذا لا يوجد client secret
    تلصقه ولا تطبيق تسجّله أولًا.
@@ -117,7 +117,7 @@ Registration. أضف عنوان MCP كموصّل مخصّص وصرّح بالو�
 لا يُشارك أي client secret مسبقًا. الاكتشاف قياسي:
 
 - بيانات وصفية للمورد المحمي (Protected-resource metadata):
-  `https://mcp.flashcards-open-source-app.com/.well-known/oauth-protected-resource`
+  `https://mcp.nibomo.com/.well-known/oauth-protected-resource`
 - بيانات وصفية لخادم التصريح (Authorization-server metadata):
   `https://auth.flashcards-open-source-app.com/.well-known/oauth-authorization-server`
 

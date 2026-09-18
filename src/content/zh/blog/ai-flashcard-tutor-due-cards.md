@@ -45,7 +45,7 @@ keywords:
 
 所有 MCP 客户端都用同一个服务器 URL：
 
-`https://mcp.flashcards-open-source-app.com/mcp`
+`https://mcp.nibomo.com/mcp`
 
 交互式客户端通过 OAuth 2.1 登录，使用 PKCE 和动态客户端注册（Dynamic Client Registration）。你只需在浏览器里批准访问，不用粘贴密钥，也不用事先注册应用。无界面环境则可以改用 `fca_` 智能体 API 密钥，作为 Bearer 令牌发送。[MCP 连接器文档](/zh/docs/mcp-connector/)把这两种方式和完整的工具约定都写清楚了。
 
@@ -53,7 +53,7 @@ keywords:
 
 - 在 Claude 里，到 **Customize > Connectors** 把 Flashcards 添加为自定义连接器。根据 Anthropic 的[自定义连接器指南](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp)，Free 套餐只能用一个自定义连接器；Team 和 Enterprise 套餐则要先由 Owner 为组织添加连接器。[Claude MCP 设置指南](/zh/blog/how-to-connect-flashcards-to-claude-with-mcp/)会带你一屏一屏走一遍。
 - 在 ChatGPT 里，Flashcards 以自定义 MCP 应用的形式接入。保存复习属于写入操作，而你能不能添加带写入权限的应用、该怎么添加，取决于你的套餐和工作区。在有些套餐里，由管理员来设置应用，或把它发布给成员使用。你的套餐当前的操作步骤，请到 OpenAI 的[开发者模式与 MCP 应用帮助文章](https://help.openai.com/en/articles/12584461-developer-mode-and-mcp-apps-in-chatgpt)里查看。
-- 在 Codex 里，可以在 ChatGPT 桌面应用的 **Settings > MCP servers** 中添加一个 Streamable HTTP 服务器，也可以先运行 `codex mcp add flashcards --url https://mcp.flashcards-open-source-app.com/mcp`，再运行 `codex mcp login flashcards`。OpenAI 的 [Codex MCP 文档](https://learn.chatgpt.com/docs/extend/mcp)提到，桌面应用、Codex CLI 和 IDE 扩展共用这份配置。更多细节见 [ChatGPT 与 Codex 学习指南](/zh/blog/how-to-use-chatgpt-codex-for-studying/)。
+- 在 Codex 里，可以在 ChatGPT 桌面应用的 **Settings > MCP servers** 中添加一个 Streamable HTTP 服务器，也可以先运行 `codex mcp add flashcards --url https://mcp.nibomo.com/mcp`，再运行 `codex mcp login flashcards`。OpenAI 的 [Codex MCP 文档](https://learn.chatgpt.com/docs/extend/mcp)提到，桌面应用、Codex CLI 和 IDE 扩展共用这份配置。更多细节见 [ChatGPT 与 Codex 学习指南](/zh/blog/how-to-use-chatgpt-codex-for-studying/)。
 
 也可以干脆省掉连接这一步。Flashcards 内置的 AI 聊天也有同一套复习工具，这个循环在里面照样能用。不支持 MCP 的终端智能体，则可以通过 HTTP 路由调用同样的复习操作，具体见 [Agent API 参考](/zh/docs/api/)。
 

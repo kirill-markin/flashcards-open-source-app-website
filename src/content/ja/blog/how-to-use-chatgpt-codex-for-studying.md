@@ -84,7 +84,7 @@ MCPが必要なのは3番目だけです。Codexが、許可された少数のFl
 3. 名前を`Flashcards`にし、**Streamable HTTP**を選んで、次のURLを入力する。
 
 ```text
-https://mcp.flashcards-open-source-app.com/mcp
+https://mcp.nibomo.com/mcp
 ```
 
 4. サーバーを保存し、**Restart**を選ぶ。
@@ -159,7 +159,7 @@ MCPコネクタは、許可された復習履歴とスケジュール項目を�
 次のコマンドでリモートサーバーを追加します。
 
 ```bash
-codex mcp add flashcards --url https://mcp.flashcards-open-source-app.com/mcp
+codex mcp add flashcards --url https://mcp.nibomo.com/mcp
 codex mcp login flashcards
 ```
 
@@ -169,7 +169,7 @@ codex mcp login flashcards
 
 ```bash
 codex mcp add flashcards \
-  --url https://mcp.flashcards-open-source-app.com/mcp \
+  --url https://mcp.nibomo.com/mcp \
   --bearer-token-env-var FLASHCARDS_MCP_TOKEN
 ```
 

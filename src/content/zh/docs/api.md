@@ -182,7 +182,7 @@ curl -X POST https://api.flashcards-open-source-app.com/v1/agent/sql/execute \
   }'
 ```
 
-此外还提供远程 MCP 服务器，地址为 `https://mcp.flashcards-open-source-app.com/mcp`，使用 OAuth 2.1（Dynamic Client Registration + PKCE）。它以 `sql_query`（严格只读）和 `sql_execute`（写入）提供相同的 SQL 拆分，另外还提供 `list_workspaces`、`get_guide`，以及复习工具 `next_review_card`、`reveal_answer` 和 `submit_review`；详见 [MCP 连接器](/docs/mcp-connector/)。
+此外还提供远程 MCP 服务器，地址为 `https://mcp.nibomo.com/mcp`，使用 OAuth 2.1（Dynamic Client Registration + PKCE）。它以 `sql_query`（严格只读）和 `sql_execute`（写入）提供相同的 SQL 拆分，另外还提供 `list_workspaces`、`get_guide`，以及复习工具 `next_review_card`、`reveal_answer` 和 `submit_review`；详见 [MCP 连接器](/docs/mcp-connector/)。
 
 ### 安全与作用域
 

@@ -54,7 +54,7 @@ const SITE_CONTEXT: MarkdownSiteContext = {
   githubUrl: "https://github.com/kirill-markin/flashcards-open-source-app",
 };
 const DISCOVERY_URL = "https://api.flashcards-open-source-app.com/v1/";
-const MCP_URL = "https://mcp.flashcards-open-source-app.com/mcp";
+const MCP_URL = "https://mcp.nibomo.com/mcp";
 const DASHBOARDS_NORMALIZED_ROUTE_PATHNAME =
   DASHBOARDS_ROUTE_PATHNAME.replace(/\/+$/, "");
 type MarkdownResult = {

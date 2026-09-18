@@ -32,9 +32,9 @@ So do not go hunting for a prelisted Flashcards app inside Claude's official con
 
 The exact Flashcards connector URL is:
 
-`https://mcp.flashcards-open-source-app.com/mcp`
+`https://mcp.nibomo.com/mcp`
 
-Direct link: [mcp.flashcards-open-source-app.com/mcp](https://mcp.flashcards-open-source-app.com/mcp)
+Direct link: [mcp.nibomo.com/mcp](https://mcp.nibomo.com/mcp)
 
 ## Before you connect it
 
@@ -51,7 +51,7 @@ For an individual Claude account, the setup path is:
 1. Open [Customize > Connectors](https://claude.ai/customize/connectors).
 2. Click `+`.
 3. Choose **Add custom connector**.
-4. Enter a name for the connector and paste `https://mcp.flashcards-open-source-app.com/mcp`.
+4. Enter a name for the connector and paste `https://mcp.nibomo.com/mcp`.
 5. Add the connector.
 6. Click **Connect** and complete the login flow if Claude prompts for it.
 7. Review the tool permissions before you start using it in chats.
@@ -174,7 +174,7 @@ If you have not used the product yet, [Getting Started](/docs/getting-started/) 
 If you searched for **connect Flashcards to Claude**, this is the real flow:
 
 1. open Claude's [custom connector settings](https://claude.ai/customize/connectors)
-2. add `https://mcp.flashcards-open-source-app.com/mcp`
+2. add `https://mcp.nibomo.com/mcp`
 3. connect and review permissions
 4. keep read tools open and write tools on approval at first
 5. enable the connector in your chat

@@ -83,7 +83,7 @@ MCP нужен только на третьем шаге. Это мост, че�
 3. Назовите сервер `Flashcards`, выберите **Streamable HTTP** и укажите этот URL:
 
 ```text
-https://mcp.flashcards-open-source-app.com/mcp
+https://mcp.nibomo.com/mcp
 ```
 
 4. Сохраните сервер и выберите **Restart**.
@@ -159,7 +159,7 @@ Codex также может неформально проверить вас п�
 Добавьте удалённый сервер:
 
 ```bash
-codex mcp add flashcards --url https://mcp.flashcards-open-source-app.com/mcp
+codex mcp add flashcards --url https://mcp.nibomo.com/mcp
 codex mcp login flashcards
 ```
 
@@ -169,7 +169,7 @@ codex mcp login flashcards
 
 ```bash
 codex mcp add flashcards \
-  --url https://mcp.flashcards-open-source-app.com/mcp \
+  --url https://mcp.nibomo.com/mcp \
   --bearer-token-env-var FLASHCARDS_MCP_TOKEN
 ```
 

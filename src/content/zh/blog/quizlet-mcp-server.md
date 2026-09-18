@@ -73,7 +73,7 @@ Quizlet 的[官方导出说明](https://help.quizlet.com/hc/en-us/articles/36003
 
 Nibomo 公布的远程 MCP 端点是：
 
-`https://mcp.flashcards-open-source-app.com/mcp`
+`https://mcp.nibomo.com/mcp`
 
 [MCP 连接器文档](/docs/mcp-connector/)定义了七个工具：`list_workspaces`、用于读取的 `sql_query`、用于写入的 `sql_execute`、用于获取参考指南的 `get_guide`，以及用于复习的 `next_review_card`、`reveal_answer` 和 `submit_review`。交互式 MCP 客户端可以通过 OAuth 授权。终端中的智能体则可以从 [Agent API 文档](/docs/api/)入手，使用文档中的 HTTP 流程。
 

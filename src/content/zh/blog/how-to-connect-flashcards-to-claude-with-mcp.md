@@ -32,9 +32,9 @@ keywords:
 
 Flashcards 连接器的准确 URL 是：
 
-`https://mcp.flashcards-open-source-app.com/mcp`
+`https://mcp.nibomo.com/mcp`
 
-直接链接：[mcp.flashcards-open-source-app.com/mcp](https://mcp.flashcards-open-source-app.com/mcp)
+直接链接：[mcp.nibomo.com/mcp](https://mcp.nibomo.com/mcp)
 
 ## 连接之前，先知道两件事
 
@@ -51,7 +51,7 @@ Flashcards 连接器的准确 URL 是：
 1. 打开 [Customize > Connectors](https://claude.ai/customize/connectors)。
 2. 点击 `+`。
 3. 选择 **Add custom connector**。
-4. 给连接器起个名字，并粘贴 `https://mcp.flashcards-open-source-app.com/mcp`。
+4. 给连接器起个名字，并粘贴 `https://mcp.nibomo.com/mcp`。
 5. 添加这个连接器。
 6. 点击 **Connect**，如果 Claude 提示登录，就完成登录流程。
 7. 在开始聊天使用前，先检查工具权限。
@@ -172,7 +172,7 @@ Claude 可以帮你在 Flashcards 里创建卡片，也可以通过只读工具�
 如果你搜索的是 **把 Flashcards 连接到 Claude**，真正的流程就是这样：
 
 1. 打开 Claude 的[自定义连接器设置](https://claude.ai/customize/connectors)
-2. 添加 `https://mcp.flashcards-open-source-app.com/mcp`
+2. 添加 `https://mcp.nibomo.com/mcp`
 3. 完成连接并检查权限
 4. 一开始先把读权限放开，把写权限设为需要批准
 5. 在聊天里启用这个连接器

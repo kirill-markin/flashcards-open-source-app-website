@@ -16,7 +16,7 @@ MCP क्लाइंट के लिए सबसे अच्छा), या
 इससे यहाँ कनेक्ट करें:
 
 ```text
-https://mcp.flashcards-open-source-app.com/mcp
+https://mcp.nibomo.com/mcp
 ```
 
 ट्रांसपोर्ट Streamable HTTP है, और सर्वर सात टूल उपलब्ध कराता है: एक छोटी, जानबूझकर
@@ -29,7 +29,7 @@ https://mcp.flashcards-open-source-app.com/mcp
 ज्यादातर क्लाइंट रिमोट MCP सर्वर को एक कस्टम कनेक्टर के रूप में जोड़ते हैं:
 
 1. अपने क्लाइंट की कनेक्टर या MCP सर्वर सेटिंग्स खोलें।
-2. एक कस्टम कनेक्टर जोड़ें और सर्वर URL `https://mcp.flashcards-open-source-app.com/mcp` पेस्ट करें।
+2. एक कस्टम कनेक्टर जोड़ें और सर्वर URL `https://mcp.nibomo.com/mcp` पेस्ट करें।
 3. इंटरैक्टिव क्लाइंट के लिए, संकेत मिलने पर ब्राउज़र में अधिकृत करें। सर्वर
    Dynamic Client Registration के साथ OAuth 2.1 का उपयोग करता है, इसलिए पेस्ट करने के लिए
    कोई client secret नहीं है और न ही पहले कोई ऐप रजिस्टर करना पड़ता है।
@@ -117,7 +117,7 @@ MCP URL को एक कस्टम कनेक्टर के रूप म
 कोई client secret पहले से साझा नहीं किया जाता। Discovery मानक है:
 
 - Protected-resource metadata:
-  `https://mcp.flashcards-open-source-app.com/.well-known/oauth-protected-resource`
+  `https://mcp.nibomo.com/.well-known/oauth-protected-resource`
 - Authorization-server metadata:
   `https://auth.flashcards-open-source-app.com/.well-known/oauth-authorization-server`
 

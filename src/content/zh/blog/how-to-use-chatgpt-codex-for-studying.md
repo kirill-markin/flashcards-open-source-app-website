@@ -83,7 +83,7 @@ OpenAI 目前的 [Study Mode 指南](https://help.openai.com/en/articles/1178021
 3. 名称填写 `Flashcards`，类型选择 **Streamable HTTP**，再输入下面的 URL：
 
 ```text
-https://mcp.flashcards-open-source-app.com/mcp
+https://mcp.nibomo.com/mcp
 ```
 
 4. 保存服务器，然后选择 **Restart**。
@@ -156,7 +156,7 @@ Codex 也可以根据你授权的卡片数据进行非正式测验，把它当�
 用下面两条命令添加远程服务器：
 
 ```bash
-codex mcp add flashcards --url https://mcp.flashcards-open-source-app.com/mcp
+codex mcp add flashcards --url https://mcp.nibomo.com/mcp
 codex mcp login flashcards
 ```
 
@@ -166,7 +166,7 @@ codex mcp login flashcards
 
 ```bash
 codex mcp add flashcards \
-  --url https://mcp.flashcards-open-source-app.com/mcp \
+  --url https://mcp.nibomo.com/mcp \
   --bearer-token-env-var FLASHCARDS_MCP_TOKEN
 ```
 

@@ -32,9 +32,9 @@ Claudeから直接Flashcardsのワークスペースにカードを作りたい�
 
 Flashcardsコネクタの正確なURLはこれです。
 
-`https://mcp.flashcards-open-source-app.com/mcp`
+`https://mcp.nibomo.com/mcp`
 
-直接リンク: [mcp.flashcards-open-source-app.com/mcp](https://mcp.flashcards-open-source-app.com/mcp)
+直接リンク: [mcp.nibomo.com/mcp](https://mcp.nibomo.com/mcp)
 
 ## 接続前に知っておきたいこと
 
@@ -51,7 +51,7 @@ Flashcardsコネクタの正確なURLはこれです。
 1. [Customize > Connectors](https://claude.ai/customize/connectors) を開く。
 2. `+` をクリックする。
 3. **Add custom connector** を選ぶ。
-4. コネクタ名を入力し、`https://mcp.flashcards-open-source-app.com/mcp` を貼り付ける。
+4. コネクタ名を入力し、`https://mcp.nibomo.com/mcp` を貼り付ける。
 5. コネクタを追加する。
 6. **Connect** をクリックし、Claudeに求められたらログインフローを完了する。
 7. チャットで使い始める前に、ツール権限を確認する。
@@ -172,7 +172,7 @@ ClaudeはFlashcards内でカードを作る手伝いができます。読み取�
 **FlashcardsをClaudeに接続したい** なら、実際の流れはこれです。
 
 1. Claudeの [custom connector settings](https://claude.ai/customize/connectors) を開く
-2. `https://mcp.flashcards-open-source-app.com/mcp` を追加する
+2. `https://mcp.nibomo.com/mcp` を追加する
 3. 接続し、権限を確認する
 4. 最初は読み取りツールを開け、書き込みツールは承認制にしておく
 5. 使いたいチャットでコネクタを有効にする

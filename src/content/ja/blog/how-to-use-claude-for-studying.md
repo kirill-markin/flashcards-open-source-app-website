@@ -221,7 +221,7 @@ Nibomoを使っている場合は、Claudeのリモートカスタムコネク�
 FlashcardsのMCP URLは次のとおりです。
 
 ```text
-https://mcp.flashcards-open-source-app.com/mcp
+https://mcp.nibomo.com/mcp
 ```
 
 カードを保存するためのツールとして、このコネクタには`list_workspaces`、読み取り専用の`sql_query`、カード作成ルールを返す`get_guide`に加え、書き込み用の`sql_execute`があります。移行する範囲は、承認したカードだけに絞ります。

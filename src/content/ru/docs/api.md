@@ -185,7 +185,7 @@ curl -X POST https://api.flashcards-open-source-app.com/v1/agent/sql/execute \
   }'
 ```
 
-Также доступен удалённый MCP-сервер по адресу `https://mcp.flashcards-open-source-app.com/mcp`, использующий OAuth 2.1 (Dynamic Client Registration + PKCE). Он предоставляет то же разделение SQL в виде `sql_query` (строго только чтение) и `sql_execute` (запись), а также `list_workspaces`, `get_guide` и инструменты повторения `next_review_card`, `reveal_answer` и `submit_review`; см. [MCP-коннектор](/docs/mcp-connector/).
+Также доступен удалённый MCP-сервер по адресу `https://mcp.nibomo.com/mcp`, использующий OAuth 2.1 (Dynamic Client Registration + PKCE). Он предоставляет то же разделение SQL в виде `sql_query` (строго только чтение) и `sql_execute` (запись), а также `list_workspaces`, `get_guide` и инструменты повторения `next_review_card`, `reveal_answer` и `submit_review`; см. [MCP-коннектор](/docs/mcp-connector/).
 
 ### Безопасность и область действия
 

@@ -226,7 +226,7 @@ Claude может подать ответ как однозначный, хот�
 URL сервера Flashcards MCP:
 
 ```text
-https://mcp.flashcards-open-source-app.com/mcp
+https://mcp.nibomo.com/mcp
 ```
 
 Для сохранения карточек в коннекторе есть `list_workspaces`, доступный только для чтения `sql_query`, `get_guide` с правилами написания карточек и инструмент записи `sql_execute`. Не выходите за рамки отобранных карточек:
