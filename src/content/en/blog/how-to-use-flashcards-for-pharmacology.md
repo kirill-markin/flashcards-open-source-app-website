@@ -255,7 +255,7 @@ If your queue is already getting heavier than it should, these two articles usua
 - [How Many New Flashcards Per Day in 2026?](https://nibomo.com/blog/how-many-new-flashcards-per-day/)
 - [How to Review Flashcards Faster in 2026](https://nibomo.com/blog/how-to-review-flashcards-faster/)
 
-## Where Flashcards fits in this workflow
+## Where Nibomo fits in this workflow
 
 [Nibomo](https://nibomo.com/) is a reasonable fit for this kind of pharmacology study because the useful part is not handing the pharmacology over to AI. I would not study that way.
 

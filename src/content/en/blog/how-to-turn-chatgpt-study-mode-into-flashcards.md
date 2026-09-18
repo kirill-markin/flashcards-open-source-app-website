@@ -227,7 +227,7 @@ If you want the algorithm comparison itself, this goes deeper:
 
 - [FSRS vs SM-2 in 2026](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
-## Where Flashcards fits this workflow better
+## Where Nibomo fits this workflow better
 
 [Nibomo](https://nibomo.com/) is a strong fit for **how to turn ChatGPT Study Mode into flashcards** because the product covers the part AI tutoring still does not solve by itself:
 
@@ -241,7 +241,7 @@ That means the workflow can stay simple:
 
 1. use the AI tutor to understand the topic
 2. copy the missed points
-3. clean them into cards inside Flashcards
+3. clean them into cards inside Nibomo
 4. review them later with FSRS
 
 That is much more believable than expecting one chat session to become durable memory by accident.

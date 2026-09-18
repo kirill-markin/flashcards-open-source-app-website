@@ -166,23 +166,23 @@ Downloaded courses can be studied offline in the mobile apps. The [offline guide
 
 Choose SuperMemo because you want SuperMemo's own method or course catalog enough to start a new schedule. If preserving your existing schedule is the priority, it solves the wrong problem.
 
-## Flashcards: source access across the full stack, with the weakest Anki import
+## Nibomo: source access across the full stack, with the weakest Anki import
 
-Flashcards exposes a broad ownership boundary. The [MIT-licensed repository](https://github.com/kirill-markin/flashcards-open-source-app) contains the web app, iOS and Android clients, backend, offline sync, infrastructure, [public API](/docs/api/), and [MCP server](/docs/mcp-connector/). Reviews use [FSRS](/docs/architecture/#scheduling). Web, iOS, and Android write locally first, add changes to an outbox, and sync after reconnection.
+Nibomo exposes a broad ownership boundary. The [MIT-licensed repository](https://github.com/kirill-markin/flashcards-open-source-app) contains the web app, iOS and Android clients, backend, offline sync, infrastructure, [public API](/docs/api/), and [MCP server](/docs/mcp-connector/). Reviews use [FSRS](/docs/architecture/#scheduling). Web, iOS, and Android write locally first, add changes to an outbox, and sync after reconnection.
 
-That does not make it Anki-compatible. Flashcards cannot read `.apkg` or `.colpkg`. The supported [Anki TXT migration](/blog/migrate-from-anki-txt-export-open-source-flashcards/) is a reviewed, AI-assisted drafting workflow for mostly text-based cards. It does not preserve templates, add-ons, deck hierarchy, due dates, intervals, or review events. Media references in a TXT file are not media files, so media-heavy decks need separate rebuilding and verification.
+That does not make it Anki-compatible. Nibomo cannot read `.apkg` or `.colpkg`. The supported [Anki TXT migration](/blog/migrate-from-anki-txt-export-open-source-flashcards/) is a reviewed, AI-assisted drafting workflow for mostly text-based cards. It does not preserve templates, add-ons, deck hierarchy, due dates, intervals, or review events. Media references in a TXT file are not media files, so media-heavy decks need separate rebuilding and verification.
 
-Flashcards' own `flashcards.zip` package is also narrower than a backup. It moves cards, tags, and related media between Flashcards workspaces. It does not move review history, FSRS state, full deck structures, workspace settings, or accounts.
+Nibomo's own `flashcards.zip` package is also narrower than a backup. It moves cards, tags, and related media between Nibomo workspaces. It does not move review history, FSRS state, full deck structures, workspace settings, or accounts.
 
 The hosted core is [free during beta](/pricing/). Self-hosting the production stack is not a one-command Docker install: the [self-hosting guide](/docs/self-hosting/) uses AWS CDK and requires AWS services plus Cloudflare, Resend, Sentry, secrets, migrations, backups, restores, and upgrades. Docker Compose is the development path, not the supported production deployment.
 
-Use Flashcards when the full source and operator-controlled backend are the reason for switching, and your cards are simple enough to rebuild safely. [Open the hosted app](https://app.flashcards-open-source-app.com/) to try a small temporary deck. Keep Anki—or test RemNote, Mochi, or Mnemosyne—when learning-state fidelity comes first.
+Use Nibomo when the full source and operator-controlled backend are the reason for switching, and your cards are simple enough to rebuild safely. [Open the hosted app](https://app.flashcards-open-source-app.com/) to try a small temporary deck. Keep Anki—or test RemNote, Mochi, or Mnemosyne—when learning-state fidelity comes first.
 
 ## Which Anki alternative works on iOS without a bad migration surprise?
 
 An “Anki alternative for iOS” can mean two different things: a native iPhone app, or a replacement for [AnkiMobile's $24.99 one-time purchase](https://apps.apple.com/us/app/ankimobile-flashcards/id373493387).
 
-RemNote, Mochi, Quizlet, Brainscape, SuperMemo, and Flashcards all have iOS apps. Mnemosyne does not. That still leaves the migration question:
+RemNote, Mochi, Quizlet, Brainscape, SuperMemo, and Nibomo all have iOS apps. Mnemosyne does not. That still leaves the migration question:
 
 - **Mochi** preserves more than the text-only iOS options: it imports `.apkg` review history, with Markdown conversion and binary grading.
 - **RemNote** also imports `.apkg` review history, but test its **Need to Learn** queue rather than assuming today's Anki schedule survives.
@@ -235,7 +235,7 @@ Start with the part you cannot afford to lose:
 3. If local Markdown and inspectable exports matter more than Anki rendering, test Mochi.
 4. If you want a focused open-source desktop app with direct Anki import, test Mnemosyne—and confirm that its mobile limits fit your routine.
 5. If classroom distribution or a simpler shared review loop is the actual problem, rebuild a small set in Quizlet or Brainscape.
-6. If you specifically want SuperMemo's method, accept a fresh schedule. If you specifically want full-stack source, self-hosting, API, and MCP access, accept Flashcards' lossy content rebuild and operator work.
+6. If you specifically want SuperMemo's method, accept a fresh schedule. If you specifically want full-stack source, self-hosting, API, and MCP access, accept Nibomo's lossy content rebuild and operator work.
 
 For a feature-by-feature view of three very different models, see [Anki vs Quizlet vs Nibomo](/blog/anki-vs-quizlet-vs-open-source-flashcards-app/).
 

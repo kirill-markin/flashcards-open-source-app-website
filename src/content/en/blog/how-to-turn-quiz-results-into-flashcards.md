@@ -212,7 +212,7 @@ Blind conversion is still the wrong move. If the model turns every sentence into
 
 If your workflow already includes tutor-style quiz sessions, [How to Use AI for Active Recall in 2026](/blog/how-to-use-ai-for-active-recall/) and [How to Turn ChatGPT Study Mode Into Flashcards in 2026](/blog/how-to-turn-chatgpt-study-mode-into-flashcards/) fit naturally next to this one.
 
-## Where Flashcards fits
+## Where Nibomo fits
 
 [Nibomo](/) is a good fit for this workflow because the useful steps are small and practical: draft plain front/back cards, clean them up, and review the ones worth keeping with FSRS. The hosted web app also supports AI chat plus file attachments, including plain text uploads, which helps when quiz feedback starts as copied LMS text or a rough export instead of a neat study guide.
 

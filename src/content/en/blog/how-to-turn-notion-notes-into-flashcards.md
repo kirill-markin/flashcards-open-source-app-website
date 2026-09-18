@@ -95,7 +95,7 @@ That is enough.
 
 You do not need to over-engineer the first step. You just need the material in a form where AI can read it and suggest candidate cards.
 
-This is one reason the workflow pairs naturally with Flashcards. The app already supports AI chat, file attachments, and plain text uploads, so the path from exported Notion material to card draft is straightforward instead of theatrical.
+This is one reason the workflow pairs naturally with Nibomo. The app already supports AI chat, file attachments, and plain text uploads, so the path from exported Notion material to card draft is straightforward instead of theatrical.
 
 ## Notion toggles are useful, but they are not automatically good flashcards
 
@@ -185,7 +185,7 @@ If you want that comparison in more detail, this companion article goes deeper:
 
 - [FSRS vs SM-2 in 2026](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
-## Where Flashcards fits this workflow
+## Where Nibomo fits this workflow
 
 [Nibomo](https://nibomo.com/) is a strong fit for **turn Notion notes into flashcards** because the product covers the parts people usually have to stitch together manually:
 
@@ -200,7 +200,7 @@ That combination matters more than people admit.
 
 A lot of tools are good at the transfer moment and weak at everything after it. The cards appear. Great. Then you still need somewhere reliable to edit them, study them, and keep them inside a real review loop.
 
-That is where Flashcards feels more like a workflow and less like a trick.
+That is where Nibomo feels more like a workflow and less like a trick.
 
 ## This is different from generic notes-to-flashcards
 
@@ -208,7 +208,7 @@ There is overlap, but the search intent is not identical.
 
 People looking for **turn Notion notes into flashcards** already chose a note environment. They usually want help bridging from that environment into active recall without rebuilding everything from scratch.
 
-That makes the export-and-draft workflow especially practical. It respects the fact that Notion is still doing its job as the notes home, while Flashcards takes over the part Notion is not really built for: spaced repetition review.
+That makes the export-and-draft workflow especially practical. It respects the fact that Notion is still doing its job as the notes home, while Nibomo takes over the part Notion is not really built for: spaced repetition review.
 
 If your source material is plain text rather than a Notion workspace, this companion article is the better fit:
 
@@ -236,7 +236,7 @@ Notion stays the notes tool.
 
 AI handles the clerical drafting.
 
-Flashcards handles the review system.
+Nibomo handles the review system.
 
 ## The better rule
 

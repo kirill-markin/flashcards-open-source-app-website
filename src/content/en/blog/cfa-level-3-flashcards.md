@@ -178,7 +178,7 @@ Keep card volume low enough to protect question practice. When reviews crowd out
 
 Keep administrative facts elsewhere too. Exam structure, curriculum, registration rules, dates, and policies can change. This article's exam-format claims were checked against CFA Institute on July 21, 2026. Before acting, verify your pathway, exam window, deadlines, permitted equipment, and current policies with CFA Institute.
 
-## Where Flashcards fits
+## Where Nibomo fits
 
 [Nibomo](/) covers the recall layer without replacing the curriculum, item sets, constructed responses, or mocks. The hosted web app supports front/back cards, tags, due-card review with FSRS, and AI chat with workspace data and file attachments. The project is open source; its repository also includes an iOS client, and the Android app is published on Google Play.
 

@@ -317,7 +317,7 @@ So I would keep the order simple:
 
 If you want the scheduling side in more detail, [How to Study for an Exam With FSRS in 2026](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/) is the direct companion. If your queue is already getting out of hand, [How Many New Flashcards Per Day in 2026](https://nibomo.com/blog/how-many-new-flashcards-per-day/) is the next useful read.
 
-## Where Flashcards fits in a Step 1 workflow
+## Where Nibomo fits in a Step 1 workflow
 
 If you want to run this inside [Nibomo](https://nibomo.com/), the value is not a vague promise that AI will learn medicine for you.
 

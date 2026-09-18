@@ -224,13 +224,13 @@ If the painful number is:
 
 That last case is common. Some people do not actually have too many reviews. They have reviews that are too slow and too annoying. If that is you, [How to Review Flashcards Faster in 2026](/blog/how-to-review-flashcards-faster/) will help more than another round of scheduler tweaks.
 
-## Where Flashcards fits without pretending to be magic
+## Where Nibomo fits without pretending to be magic
 
 [Nibomo features](/features/) are useful here for one practical reason: the product covers the part before review and the part during review.
 
 That matters because a lot of review spikes start before the first review day. They start when too many cards enter the live deck, or when AI-generated drafts are accepted without enough editing.
 
-Flashcards can help with the boring parts that matter:
+Nibomo can help with the boring parts that matter:
 
 - draft cards from source material
 - edit front/back cards before they become permanent review debt

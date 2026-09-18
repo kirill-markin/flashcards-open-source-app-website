@@ -221,7 +221,7 @@ The deck should get smaller as your judgment gets better.
 
 If you want a simple test, ask this: when I miss this card, will fixing it make the next chemistry problem easier? If the answer is no, it probably should not stay.
 
-## Where Flashcards fits if you want one place for the workflow
+## Where Nibomo fits if you want one place for the workflow
 
 [Nibomo](https://nibomo.com/) fits this advanced chemistry workflow well because the product already supports the practical parts after you identify the memory target:
 

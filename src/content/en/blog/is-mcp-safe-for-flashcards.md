@@ -14,11 +14,11 @@ keywords:
   - "MCP prompt injection"
 ---
 
-On May 20, 2026, the NSA published 17 pages of security guidance about Model Context Protocol. That matters if a deck contains more than public vocabulary: a Flashcards MCP connection can return cards, workspace metadata, and review history to an AI client. The same full-access credential can also call a tool that changes cards or marks them deleted. For anyone asking **is MCP safe for flashcards**, two checks decide it: whether that data may reach the chosen client and whether the client can use the write tools.
+On May 20, 2026, the NSA published 17 pages of security guidance about Model Context Protocol. That matters if a deck contains more than public vocabulary: a Nibomo MCP connection can return cards, workspace metadata, and review history to an AI client. The same full-access credential can also call a tool that changes cards or marks them deleted. For anyone asking **is MCP safe for flashcards**, two checks decide it: whether that data may reach the chosen client and whether the client can use the write tools.
 
-OAuth protects authorization and token exchange, and the Flashcards server narrows what its tools can do. Neither control can tell whether a proposed edit is wise, keep retrieved data inside Flashcards, or guarantee that an AI client will ask before a write.
+OAuth protects authorization and token exchange, and the Nibomo server narrows what its tools can do. Neither control can tell whether a proposed edit is wise, keep retrieved data inside Nibomo, or guarantee that an AI client will ask before a write.
 
-The useful boundaries are concrete: what each tool can reach, which rules Flashcards enforces, and which safeguards exist only in your client.
+The useful boundaries are concrete: what each tool can reach, which rules Nibomo enforces, and which safeguards exist only in your client.
 
 ![Warm desk with separate read and write permission bays for Nibomo MCP](/blog/is-mcp-safe-for-flashcards.png)
 
@@ -29,25 +29,25 @@ A remote MCP session can involve four roles:
 1. you
 2. the AI application or MCP client where you make the request
 3. a model provider, when model processing runs outside that client
-4. the Flashcards MCP server and backend
+4. the Nibomo MCP server and backend
 
-Some products combine the client and model-provider roles. Others route tool results to a separate service. The guaranteed hop is simpler: Flashcards returns the requested data to the authenticated MCP client. What happens next depends on the client's architecture, plan, and settings. The result may enter a model's context, stay within one provider's infrastructure, or pass to another processor.
+Some products combine the client and model-provider roles. Others route tool results to a separate service. The guaranteed hop is simpler: Nibomo returns the requested data to the authenticated MCP client. What happens next depends on the client's architecture, plan, and settings. The result may enter a model's context, stay within one provider's infrastructure, or pass to another processor.
 
 The practical risks land in three places. A read can disclose card text, deck structure, workspace settings, or review events. A write can create unwanted cards, change content, mark cards and decks deleted, or record a review that reschedules a card. The agent can also misunderstand your request or treat instructions found in imported material as commands.
 
 The [NSA's May 2026 MCP guidance](https://www.nsa.gov/Press-Room/Press-Releases-Statements/Press-Release-View/Article/4496698/nsa-releases-security-design-considerations-for-ai-driven-automation-leveraging/) makes a useful distinction. Authentication, authorization, and validation remain necessary, while dynamic tool calls, shared context, and implicit trust create risks those controls do not settle. A public language deck and a deck built from confidential client notes deserve different decisions.
 
-## What Flashcards OAuth secures
+## What Nibomo OAuth secures
 
-Flashcards uses an authorization-code flow with PKCE and Dynamic Client Registration for interactive MCP clients. You approve the connection in a browser, and PKCE binds the code exchange to the client that started it. The server also checks that an access token was issued for the Flashcards MCP resource. The [Nibomo MCP connector guide](/docs/mcp-connector/) lists the endpoint and discovery metadata.
+Nibomo uses an authorization-code flow with PKCE and Dynamic Client Registration for interactive MCP clients. You approve the connection in a browser, and PKCE binds the code exchange to the client that started it. The server also checks that an access token was issued for the Nibomo MCP resource. The [Nibomo MCP connector guide](/docs/mcp-connector/) lists the endpoint and discovery metadata.
 
 These measures protect the login and token exchange. The stable [MCP authorization specification dated November 25, 2025](https://modelcontextprotocol.io/specification/2025-11-25/basic/authorization) requires PKCE for this flow and resource-specific tokens. It also says authorization is optional across MCP implementations generally, so the existence of OAuth in one connector says nothing about another server.
 
-Flashcards currently advertises one OAuth scope: `flashcards`. It does not issue separate read-only and read-write OAuth permissions, and its credentials authorize the full connector surface. Calling a setup "read-only" therefore means the AI client has disabled or blocked both `sql_execute` and `submit_review`. The server enforces that `sql_query` itself cannot write. The same credential can authorize either write tool if the client sends that call.
+Nibomo currently advertises one OAuth scope: `flashcards`. It does not issue separate read-only and read-write OAuth permissions, and its credentials authorize the full connector surface. Calling a setup "read-only" therefore means the AI client has disabled or blocked both `sql_execute` and `submit_review`. The server enforces that `sql_query` itself cannot write. The same credential can authorize either write tool if the client sends that call.
 
 Client-side tool blocking is a useful operational control. The OAuth grant remains unchanged, and a malicious or compromised client that still holds the credential is not constrained by that setting.
 
-## What the Flashcards MCP tools can actually do
+## What the Nibomo MCP tools can actually do
 
 The connector exposes a parser-enforced SQL dialect rather than arbitrary PostgreSQL. Its seven tools have distinct surfaces:
 
@@ -65,7 +65,7 @@ The [MCP guide](/docs/mcp-connector/) and [API reference](/docs/api/) describe t
 
 ### How workspace selection really works
 
-Every SQL call targets exactly one workspace, and Flashcards revalidates that the user still has access before the statement runs. This prevents a caller from supplying the ID of someone else's workspace.
+Every SQL call targets exactly one workspace, and Nibomo revalidates that the user still has access before the statement runs. This prevents a caller from supplying the ID of someone else's workspace.
 
 The selected workspace is only a default. When `workspaceId` is omitted, the tool uses that default; when an ID is supplied, the connection can target any workspace the user can access. `list_workspaces` exposes IDs for the workspaces it returns; the 100-result cap is not an isolation boundary, because an explicit `workspaceId` can still target any workspace the user can access.
 
@@ -75,9 +75,9 @@ A test workspace is still useful for learning how a client presents tool calls. 
 
 `list_workspaces` and `sql_query` cannot change card state. They also cannot repair data or recalculate scheduling. This server-enforced split makes an accidental database change much less likely when `sql_execute` and `submit_review` are unavailable to the client.
 
-The returned data still leaves the Flashcards backend. A query about weak topics may include card text and review events. Even a short card can contain a patient detail, an internal system name, a private language example, or notes for an interview.
+The returned data still leaves the Nibomo backend. A query about weak topics may include card text and review events. Even a short card can contain a patient detail, an internal system name, a private language example, or notes for an interview.
 
-The [Nibomo privacy policy](/privacy/) covers data requested through MCP and the Agent API. At the protocol boundary, Flashcards sends the result to the MCP client. Whether a separate model provider receives it, how long anyone retains it, and whether it can be used for training depend on the client setup and provider terms. Check those details instead of treating "read-only" as a privacy label.
+The [Nibomo privacy policy](/privacy/) covers data requested through MCP and the Agent API. At the protocol boundary, Nibomo sends the result to the MCP client. Whether a separate model provider receives it, how long anyone retains it, and whether it can be used for training depend on the client setup and provider terms. Check those details instead of treating "read-only" as a privacy label.
 
 ### Write access has narrower powers than full database access
 
@@ -87,13 +87,13 @@ Both `UPDATE` and `DELETE` require a `WHERE` clause. That prevents a statement w
 
 For cards and decks, `DELETE` sets a deletion timestamp used by sync; it does not immediately erase the database row. Deleted items disappear from the active data surface, and the MCP connector has no undo or restore tool. From the user's point of view, a mistaken delete still needs recovery from another route or a backup.
 
-The [Terms of Service](/terms/) asks users to review AI-generated output before applying changes. That is especially relevant here: Flashcards can validate the statement family, resource, columns, and row cap. It cannot validate the reason you wanted the edit.
+The [Terms of Service](/terms/) asks users to review AI-generated output before applying changes. That is especially relevant here: Nibomo can validate the statement family, resource, columns, and row cap. It cannot validate the reason you wanted the edit.
 
 ## Approvals belong to the client
 
-Flashcards marks `sql_query` and the other read tools with `readOnlyHint`, and `sql_execute` and `submit_review` with `destructiveHint`. In the stable [MCP schema from November 25, 2025](https://modelcontextprotocol.io/specification/2025-11-25/schema), tool annotations are explicitly hints. They help a compatible client choose an approval policy; they do not enforce one.
+Nibomo marks `sql_query` and the other read tools with `readOnlyHint`, and `sql_execute` and `submit_review` with `destructiveHint`. In the stable [MCP schema from November 25, 2025](https://modelcontextprotocol.io/specification/2025-11-25/schema), tool annotations are explicitly hints. They help a compatible client choose an approval policy; they do not enforce one.
 
-Once Flashcards receives a valid, authenticated `sql_execute` or `submit_review` call, it executes it immediately. There is no second Flashcards confirmation screen. Any pause for human approval happens in the AI client before the request reaches the server.
+Once Nibomo receives a valid, authenticated `sql_execute` or `submit_review` call, it executes it immediately. There is no second Nibomo confirmation screen. Any pause for human approval happens in the AI client before the request reaches the server.
 
 Client behavior varies. OpenAI's [developer-mode documentation](https://developers.openai.com/api/docs/guides/developer-mode), for example, says write actions require confirmation by default and lets users remember a decision for a conversation. Its [MCP apps help page](https://help.openai.com/en/articles/12584461-developer-mode-and-mcp-apps-in-chatgpt-beta) explains that prompts depend on app permissions, context, and workspace controls. Other clients may expose different controls or none at all.
 
@@ -122,25 +122,25 @@ OAuth does not need to fail for this to cause trouble. The authorized client is 
 
 The NSA's [full MCP security report](https://www.nsa.gov/Portals/75/documents/Cybersecurity/CSI_MCP_SECURITY.pdf) describes tool and model output as untrusted input for the next step in a pipeline. It recommends strict resource boundaries, parameter validation, output scrutiny, and least privilege. Those measures lower risk without making prompt injection impossible.
 
-Flashcards contributes useful server guardrails. Its parser rejects unsupported statement families and resources, and the MCP tool cannot become a shell or unrestricted database connection. An injected instruction can still ask for a syntactically valid change to accessible cards. The server sees the permitted request without the conversation that persuaded the model to make it.
+Nibomo contributes useful server guardrails. Its parser rejects unsupported statement families and resources, and the MCP tool cannot become a shell or unrestricted database connection. An injected instruction can still ask for a syntactically valid change to accessible cards. The server sees the permitted request without the conversation that persuaded the model to make it.
 
-For sensitive work, keep the session small: one trusted source, one requested workspace, and only the tools required for the job. Avoid combining an untrusted import, unrelated connectors, and unattended Flashcards writes in the same agent run. A smaller session makes suspicious calls easier to notice, although it provides no isolation boundary.
+For sensitive work, keep the session small: one trusted source, one requested workspace, and only the tools required for the job. Avoid combining an untrusted import, unrelated connectors, and unattended Nibomo writes in the same agent run. A smaller session makes suspicious calls easier to notice, although it provides no isolation boundary.
 
 ## Your client and model setup define the downstream privacy boundary
 
-Flashcards remains the source of truth, while requested content travels to the MCP client. From there, the handling differs by product. The client may run the model itself, call a separate provider, retain tool results in conversation history, expose them to workspace administrators, or use them with memory. Each architecture creates a different privacy boundary.
+Nibomo remains the source of truth, while requested content travels to the MCP client. From there, the handling differs by product. The client may run the model itself, call a separate provider, retain tool results in conversation history, expose them to workspace administrators, or use them with memory. Each architecture creates a different privacy boundary.
 
 OpenAI offers one concrete example. Its current [Apps in ChatGPT documentation](https://help.openai.com/en/articles/11487775-connector) says retrieved app data can be used as response context and may interact with memory or web search. It also describes different training defaults for Business, Enterprise, and Edu accounts versus personal plans with "Improve the model for everyone" enabled. These are OpenAI-specific rules, not general MCP behavior.
 
 Check the exact client, account type, workspace policy, region, and settings you will use. Look for retention, training, memory, administrator access, subprocessors, and deletion. If the documentation does not answer whether confidential source material may leave the client, do not test the question with a real deck.
 
-Deleting the hosted account, disconnecting the connector, and deleting downstream copies are separate operations. [Nibomo privacy](/privacy/) describes hosted-data deletion. Flashcards cannot delete data already retained by a client or model provider; use that provider's controls as well.
+Deleting the hosted account, disconnecting the connector, and deleting downstream copies are separate operations. [Nibomo privacy](/privacy/) describes hosted-data deletion. Nibomo cannot delete data already retained by a client or model provider; use that provider's controls as well.
 
 ## Disconnecting and credential revocation are different steps
 
-The current Flashcards OAuth implementation issues one-hour access tokens and rotating refresh tokens with no fixed expiry. Flashcards does not currently expose a user-facing OAuth connection revocation UI or public revocation endpoint. Removing the connector may cause a client to discard its credentials. That client-side action does not guarantee server-side token invalidation.
+The current Nibomo OAuth implementation issues one-hour access tokens and rotating refresh tokens with no fixed expiry. Nibomo does not currently expose a user-facing OAuth connection revocation UI or public revocation endpoint. Removing the connector may cause a client to discard its credentials. That client-side action does not guarantee server-side token invalidation.
 
-Headless `fca_` Agent API keys are a separate credential type. Those keys can be revoked through **Agent Connections** in Flashcards. Keep the two authentication paths distinct when documenting or closing access.
+Headless `fca_` Agent API keys are a separate credential type. Those keys can be revoked through **Agent Connections** in Nibomo. Keep the two authentication paths distinct when documenting or closing access.
 
 If immediate server-side OAuth revocation is a requirement for your threat model, the present OAuth connector does not provide that user control. That limitation matters more for a sensitive long-lived connection than for a disposable public deck.
 
@@ -157,18 +157,18 @@ If immediate server-side OAuth revocation is a requirement for your threat model
 9. Use client approvals when they exist. Confirm the workspace and full payload each time; do not rely on the destructive hint to force a prompt.
 10. Close access deliberately. Disconnect the OAuth connector and remove its stored credentials from the client, while recognizing the current server-side revocation limitation. Revoke `fca_` keys in Agent Connections, and handle downstream deletion separately.
 
-For the setup steps after making these choices, see [How to Connect Flashcards to Claude with MCP](/blog/how-to-connect-flashcards-to-claude-with-mcp/). The connection guide explains the clicks; this checklist decides whether the connection belongs near a particular deck.
+For the setup steps after making these choices, see [How to Connect Nibomo to Claude with MCP](/blog/how-to-connect-flashcards-to-claude-with-mcp/). The connection guide explains the clicks; this checklist decides whether the connection belongs near a particular deck.
 
 ## Where open source and self-hosting help
 
-The Flashcards connector has several useful properties: separate read and write tools, a closed statement allowlist, per-call workspace membership checks, scheduling fields that SQL cannot write, and public source code. These controls make the surface easier to inspect and constrain. They reduce risk; they cannot guarantee a safe client or correct model decision.
+The Nibomo connector has several useful properties: separate read and write tools, a closed statement allowlist, per-call workspace membership checks, scheduling fields that SQL cannot write, and public source code. These controls make the surface easier to inspect and constrain. They reduce risk; they cannot guarantee a safe client or correct model decision.
 
-A [self-hosted deployment](/docs/self-hosting/) can move Flashcards storage and operations onto infrastructure you control. Queries sent to an external AI service still carry card data outside that deployment. The model and client path must meet the same privacy standard as the database.
+A [self-hosted deployment](/docs/self-hosting/) can move Nibomo storage and operations onto infrastructure you control. Queries sent to an external AI service still carry card data outside that deployment. The model and client path must meet the same privacy standard as the database.
 
 ## A simple decision rule
 
-Use MCP read tools when the requested data may leave Flashcards for the chosen client path, the provider terms are acceptable, and the task justifies that disclosure. Treat the connection as full-access unless your client has actually blocked `sql_execute` and `submit_review`.
+Use MCP read tools when the requested data may leave Nibomo for the chosen client path, the provider terms are acceptable, and the task justifies that disclosure. Treat the connection as full-access unless your client has actually blocked `sql_execute` and `submit_review`.
 
 Enable a write tool only for a narrow job when the client can pause before each important call, you have previewed the target rows, and a usable backup exists. Remember that one batch can touch far more than 100 records and that a delete has no MCP undo.
 
-Skip the connection when the deck cannot be shared with the client or its processors, the downstream policy is unclear, strict workspace isolation is required on the same account, immediate OAuth revocation is mandatory, or the workflow needs unattended destructive writes. In those cases, use Flashcards without MCP or choose a deployment and model path whose full data flow meets your requirements.
+Skip the connection when the deck cannot be shared with the client or its processors, the downstream policy is unclear, strict workspace isolation is required on the same account, immediate OAuth revocation is mandatory, or the workflow needs unattended destructive writes. In those cases, use Nibomo without MCP or choose a deployment and model path whose full data flow meets your requirements.

@@ -166,7 +166,7 @@ And if your source is a document or lecture slides, this one is closer:
 
 - [How to Turn a PDF Into Flashcards in 2026](https://nibomo.com/blog/how-to-turn-a-pdf-into-flashcards/)
 
-## Where Flashcards fits this workflow
+## Where Nibomo fits this workflow
 
 [Nibomo](https://nibomo.com/) is a strong fit for **handwritten notes to flashcards** because the product already has the parts that matter together:
 

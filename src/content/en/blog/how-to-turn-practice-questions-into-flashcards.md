@@ -221,7 +221,7 @@ I would rather do this in short batches:
 
 That makes the drafting cleaner and the review queue easier to trust.
 
-## Where Flashcards fits
+## Where Nibomo fits
 
 [Nibomo](https://nibomo.com/) is a good fit for **practice questions to flashcards** because the product already has the pieces this workflow needs:
 

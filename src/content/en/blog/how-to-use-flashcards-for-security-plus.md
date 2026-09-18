@@ -342,7 +342,7 @@ If that matters to your study setup, this one is worth reading too:
 
 - [Best Offline Flashcards App in 2026](https://nibomo.com/blog/best-offline-flashcards-app/)
 
-## Where Flashcards fits this workflow well
+## Where Nibomo fits this workflow well
 
 [Nibomo](https://nibomo.com/) is a strong fit for **Security+ flashcards** because the product already matches the workflow instead of forcing you to improvise across five tools.
 

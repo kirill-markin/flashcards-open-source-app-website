@@ -1,6 +1,6 @@
 ---
 title: "How to Use Claude to Make Flashcards in 2026: Projects, File Uploads, and FSRS Review"
-description: "A practical 2026 Claude flashcard workflow: use Projects and file uploads to draft smaller, cleaner cards, then move the keepers into Flashcards for real FSRS review."
+description: "A practical 2026 Claude flashcard workflow: use Projects and file uploads to draft smaller, cleaner cards, then move the keepers into Nibomo for real FSRS review."
 date: "2026-06-11"
 image: "/blog/how-to-use-claude-to-make-flashcards.png"
 keywords:
@@ -236,15 +236,15 @@ Those are different jobs.
 
 If you want the scheduler side in more detail, [FSRS vs SM-2 in 2026](/blog/fsrs-vs-sm-2/) is the direct follow-up.
 
-## Move the keepers into Flashcards without pretending there is a magic Claude integration
+## Move the keepers into Nibomo without pretending there is a magic Claude integration
 
 This part needs to stay honest.
 
-There is no special Claude-to-Flashcards button here, and I would not pretend otherwise. The useful handoff is simpler:
+There is no special Claude-to-Nibomo button here, and I would not pretend otherwise. The useful handoff is simpler:
 
 1. draft candidate cards in Claude
 2. delete or rewrite the weak ones
-3. copy the survivors into Flashcards AI chat or create the cards directly in the app
+3. copy the survivors into Nibomo AI chat or create the cards directly in the app
 4. organize them into decks and tags
 5. review the final deck with FSRS
 
@@ -270,7 +270,7 @@ This is the version I would keep:
 3. Upload one small batch: a lecture, a reading section, or corrected practice questions.
 4. Ask Claude for plain front/back candidates.
 5. Delete or rewrite weak cards immediately.
-6. Move the survivors into Flashcards AI chat or create them directly in the app.
+6. Move the survivors into Nibomo AI chat or create them directly in the app.
 7. Review the final deck with FSRS.
 
 That is a more believable workflow than pretending Claude itself is the place where memory should live.
@@ -293,4 +293,4 @@ That is the version of **how to use Claude to make flashcards** that actually ho
 
 Claude is good at getting you from messy source material to candidate cards faster.
 
-Flashcards plus FSRS is what turns those candidates into something you might still remember a month from now.
+Nibomo plus FSRS is what turns those candidates into something you might still remember a month from now.

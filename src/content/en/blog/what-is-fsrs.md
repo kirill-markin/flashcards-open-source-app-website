@@ -171,17 +171,17 @@ Suppose a card asks, “Explain the immune system.” Repeated Again ratings may
 
 This boundary helps diagnose study problems. Strange long-term timing points toward settings, rating history, or implementation. Constant arguments with the back of the card point toward card quality. A huge queue may come from new-card intake rather than the FSRS algorithm itself.
 
-## How Flashcards implements FSRS
+## How Nibomo implements FSRS
 
 > **Disclosure:** I am Kirill Markin, and I build [Nibomo](/features/). This section describes released product behavior; it is not a claim that every learner should leave another app.
 
-Flashcards currently implements **FSRS-6** by mirroring the official `ts-fsrs` 5.2.3 scheduling flow. It uses the standard Again, Hard, Good, and Easy ratings. The backend, iOS, and Android schedulers follow the same behavior, while the web review flow reuses the backend scheduler.
+Nibomo currently implements **FSRS-6** by mirroring the official `ts-fsrs` 5.2.3 scheduling flow. It uses the standard Again, Hard, Good, and Easy ratings. The backend, iOS, and Android schedulers follow the same behavior, while the web review flow reuses the backend scheduler.
 
 The current defaults are desired retention of `0.90`, learning steps of 1 and 10 minutes, a 10-minute relearning step, a 36,500-day maximum interval, and fuzz enabled. Workspace owners can adjust those settings. Changes affect future reviews only; existing due dates are not silently rebuilt.
 
-Flashcards pins the official FSRS-6 default weights in v1. They are not user-configurable, and the product does not currently fit personalized FSRS parameters from each user's history. That limitation matters when comparing it with Anki's optimizer.
+Nibomo pins the official FSRS-6 default weights in v1. They are not user-configurable, and the product does not currently fit personalized FSRS parameters from each user's history. That limitation matters when comparing it with Anki's optimizer.
 
-The public [Flashcards FSRS scheduling specification](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/docs/fsrs-scheduling-logic.md) documents the current state model, defaults, settings boundary, and cross-platform parity rules. The broader [features page](/features/) shows how the scheduler fits into the product rather than presenting FSRS as an app by itself.
+The public [Nibomo FSRS scheduling specification](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/docs/fsrs-scheduling-logic.md) documents the current state model, defaults, settings boundary, and cross-platform parity rules. The broader [features page](/features/) shows how the scheduler fits into the product rather than presenting FSRS as an app by itself.
 
 ## FAQ about FSRS
 

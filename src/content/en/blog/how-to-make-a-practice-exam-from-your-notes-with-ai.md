@@ -193,13 +193,13 @@ That is the clean handoff:
 
 Keep the card small. Let the exam stay bigger.
 
-## Where Flashcards fits
+## Where Nibomo fits
 
 [Nibomo](/features/) is a good fit after the practice-exam step.
 
-The product should not be described as a magic practice-exam generator. The more accurate workflow is: use the AI tool you prefer to generate the exam from your notes, then keep the survivors in Flashcards.
+The product should not be described as a magic practice-exam generator. The more accurate workflow is: use the AI tool you prefer to generate the exam from your notes, then keep the survivors in Nibomo.
 
-That handoff works well because Flashcards already gives you the practical next layer:
+That handoff works well because Nibomo already gives you the practical next layer:
 
 - AI chat with workspace data, file attachments, and pasted text for drafting or cleaning cards
 - plain front/back cards instead of bloated study artifacts
@@ -213,7 +213,7 @@ So the workflow stays honest:
 
 1. generate the practice exam in the external AI tool you like
 2. review the misses and slow answers
-3. move only the useful weak spots into Flashcards
+3. move only the useful weak spots into Nibomo
 4. clean them into simple front/back cards
 5. review the final set with FSRS
 

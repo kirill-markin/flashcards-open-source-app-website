@@ -296,7 +296,7 @@ I would not use AI to generate one giant "essay exam deck" from the whole class 
 
 If that is the part you want to sharpen, [How to Use AI for Active Recall in 2026](/blog/how-to-use-ai-for-active-recall/) and [How to Fix AI Flashcards in 2026](/blog/how-to-fix-ai-flashcards/) are the better follow-ups.
 
-## Where Flashcards fits
+## Where Nibomo fits
 
 [Nibomo](/) is a practical fit for **how to use flashcards for essay exams** because essay prep is usually not only a generation problem. It is an editing, storage, and review problem.
 

@@ -218,7 +218,7 @@ If you want the scheduling side in more detail, these two articles fit best:
 - [How to Study for an Exam With FSRS in 2026](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)
 - [FSRS vs SM-2 in 2026](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
-## Where Flashcards fits this law-school workflow
+## Where Nibomo fits this law-school workflow
 
 If you want to run this workflow inside [Nibomo](https://nibomo.com/), the useful part is not "AI makes cards" in the abstract. It is that the current product already supports the boring middle of the job:
 
@@ -243,7 +243,7 @@ If you want **flashcards for law school** that actually help:
 
 That is the version of **law school flashcards** I would trust.
 
-If you want to try that workflow in Flashcards:
+If you want to try that workflow in Nibomo:
 
 - [Start with Nibomo](https://nibomo.com/)
 - [Open the web app](https://app.flashcards-open-source-app.com/)

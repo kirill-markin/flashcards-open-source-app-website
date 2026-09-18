@@ -1,6 +1,6 @@
 ---
-title: "How to Let Claude Code, Codex, or OpenClaw Log In to Flashcards for You"
-description: "Flashcards exposes an open-source agent login flow built around one discovery URL, email OTP, and a long-lived API key. Give your agent one link, send back the 8-digit email code, and let it finish account and workspace setup."
+title: "How to Let Claude Code, Codex, or OpenClaw Log In to Nibomo for You"
+description: "Nibomo exposes an open-source agent login flow built around one discovery URL, email OTP, and a long-lived API key. Give your agent one link, send back the 8-digit email code, and let it finish account and workspace setup."
 date: "2026-03-10"
 keywords:
   - "claude code login"
@@ -44,7 +44,7 @@ GET https://api.flashcards-open-source-app.com/v1/
 
 At a high level, the agent learns four things immediately:
 
-- this is the Flashcards service
+- this is the Nibomo service
 - login and registration both use email OTP
 - successful verification returns a long-lived API key
 - after login, the next step is account and workspace bootstrap
@@ -55,7 +55,7 @@ The sequence is intentionally small.
 
 1. The agent calls the discovery endpoint.
 2. The agent sends the user's email to `send-code`.
-3. Flashcards emails the 8-digit code and returns an `otpSessionToken`.
+3. Nibomo emails the 8-digit code and returns an `otpSessionToken`.
 4. The agent asks the user for that latest code.
 5. The agent verifies the code and receives a long-lived API key.
 6. The agent calls `/v1/agent/me` and `/v1/agent/workspaces`.
@@ -68,10 +68,10 @@ That matters because the agent is not stopping at "login succeeded". It can keep
 This is enough:
 
 ```text
-Use this Flashcards discovery URL:
+Use this Nibomo discovery URL:
 https://api.flashcards-open-source-app.com/v1/
 
-Log in to my Flashcards account, load account context, and select or create the correct workspace.
+Log in to my Nibomo account, load account context, and select or create the correct workspace.
 Ask me only for the latest 8-digit email code when the flow requires it.
 ```
 
@@ -82,7 +82,7 @@ You do not need to manually explain the auth sequence after that. The endpoint a
 Same idea, slightly more explicit:
 
 ```text
-Connect my Flashcards account using this URL:
+Connect my Nibomo account using this URL:
 https://api.flashcards-open-source-app.com/v1/
 
 Follow the returned instructions, keep the API key secure, load my account, then continue to workspace setup.
@@ -289,7 +289,7 @@ That is simpler for the user and easier to automate.
 
 ## This is open source
 
-Flashcards is open source, so you can inspect the whole flow instead of treating it like a black box.
+Nibomo is open source, so you can inspect the whole flow instead of treating it like a black box.
 
 - Repository: [github.com/kirill-markin/flashcards-open-source-app](https://github.com/kirill-markin/flashcards-open-source-app)
 - Agent discovery route: [apps/backend/src/agent/discovery.ts](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/apps/backend/src/agent/discovery.ts)

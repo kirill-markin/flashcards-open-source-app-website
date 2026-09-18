@@ -181,7 +181,7 @@ That is the whole system. No heroic consistency plan. No giant prompt template. 
 
 The boring version works. If the accepted deck stays small and clean, the habit usually survives. If AI floods the deck because the first draft looked impressive, you end up maintaining a queue instead of learning from one.
 
-## Where Flashcards fits this workflow
+## Where Nibomo fits this workflow
 
 [Nibomo](/features/) fits this workflow well because the product covers the full path in one place:
 

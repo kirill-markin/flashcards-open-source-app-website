@@ -290,7 +290,7 @@ That is the whole workflow.
 
 Nothing fancy. That is part of why it works.
 
-## Where Flashcards fits
+## Where Nibomo fits
 
 [Nibomo](/features/) works best after you stop treating every source sentence as a future card.
 

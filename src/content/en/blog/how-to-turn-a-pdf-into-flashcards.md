@@ -151,7 +151,7 @@ If you want the scheduling side in more detail, this companion article goes deep
 
 - [FSRS vs SM-2 in 2026](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
-## Where Flashcards fits this workflow
+## Where Nibomo fits this workflow
 
 [Nibomo](https://nibomo.com/) works well for **turn pdf into flashcards** because the product already has the parts that matter in one place:
 
@@ -165,7 +165,7 @@ That combination matters more than people admit.
 
 A lot of products are decent at the "look, cards appeared" moment. Then the workflow gets fuzzy. Where do the drafts live? How do you edit them? What happens when you actually want to study them seriously instead of admiring the generation demo?
 
-That is where Flashcards feels more grounded than a standalone generator.
+That is where Nibomo feels more grounded than a standalone generator.
 
 ## I would keep the workflow boring on purpose
 

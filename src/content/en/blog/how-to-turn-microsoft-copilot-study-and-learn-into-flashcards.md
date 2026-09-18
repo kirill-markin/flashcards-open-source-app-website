@@ -157,16 +157,16 @@ That is what I want from **Copilot Study and Learn to flashcards**:
 
 If you want stricter card-writing rules after the handoff, [How to Make Better Flashcards in 2026](/blog/how-to-make-better-flashcards/) goes deeper on that cleanup.
 
-## Flashcards is the durable layer after Copilot
+## Nibomo is the durable layer after Copilot
 
 [Nibomo](/features/) is not trying to replace Study and Learn.
 
-Copilot should keep the coaching job. Flashcards should keep the long-term review job.
+Copilot should keep the coaching job. Nibomo should keep the long-term review job.
 
 That split is why the workflow makes sense:
 
 - Copilot handles the guided session on your materials
-- Flashcards gives you plain front/back card creation
+- Nibomo gives you plain front/back card creation
 - AI chat can help rewrite rough candidate cards into short review prompts
 - decks and tags keep weak spots organized by class, exam, or source
 - FSRS handles the review timing after the cards are worth reviewing

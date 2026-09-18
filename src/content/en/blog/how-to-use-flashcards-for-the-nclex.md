@@ -245,7 +245,7 @@ Because the NCLEX is a five-hour CAT exam and the official bulletin says breaks 
 
 This is also where the difference between a nursing-school deck and an NCLEX deck becomes obvious. The nursing-school version can tolerate more content sprawl. The **flashcards for NCLEX** version should feel tighter, more selective, and a little less sentimental.
 
-## Where Flashcards fits
+## Where Nibomo fits
 
 [Nibomo](https://nibomo.com/) fits this workflow well because it gives you the boring things that matter: small front/back cards, tags, filtered review, and FSRS scheduling once the cards are clean enough to trust.
 

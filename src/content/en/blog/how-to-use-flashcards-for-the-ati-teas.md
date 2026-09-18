@@ -275,7 +275,7 @@ If the draft back side looks like a paragraph from a workbook, cut it down. If t
 
 That is similar to the workflow in [How to Turn Practice Questions Into Flashcards in 2026](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/) and [How to Make Better Flashcards in 2026](https://nibomo.com/blog/how-to-make-better-flashcards/).
 
-## Where Flashcards fits this ATI TEAS workflow
+## Where Nibomo fits this ATI TEAS workflow
 
 If you want to run this inside [Nibomo](https://nibomo.com/), the fit is practical, not official.
 
