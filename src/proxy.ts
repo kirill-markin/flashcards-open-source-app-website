@@ -18,6 +18,17 @@ const markdownManifest = parseMarkdownAssetManifest(
 const markdownCacheControl =
   "public, max-age=3600, s-maxage=3600, stale-while-revalidate=86400";
 
+const canonicalHost = new URL(SITE_URL).host;
+
+// The former product domain and both `www` hosts are permanently redirected to the
+// canonical marketing host. Every other host, including Vercel preview hosts, is served
+// as-is.
+const redirectedHosts: ReadonlySet<string> = new Set([
+  `www.${canonicalHost}`,
+  "flashcards-open-source-app.com",
+  "www.flashcards-open-source-app.com",
+]);
+
 function createEmptyNotFoundResponse(): NextResponse {
   return new NextResponse(null, { status: 404 });
 }
@@ -85,9 +96,9 @@ export function proxy(request: NextRequest): NextResponse {
   const { pathname } = request.nextUrl;
   const host = request.headers.get("host") ?? "";
 
-  if (host === "www.flashcards-open-source-app.com") {
+  if (redirectedHosts.has(host)) {
     const redirectUrl = request.nextUrl.clone();
-    redirectUrl.host = "flashcards-open-source-app.com";
+    redirectUrl.host = canonicalHost;
     return NextResponse.redirect(redirectUrl, 308);
   }
 
