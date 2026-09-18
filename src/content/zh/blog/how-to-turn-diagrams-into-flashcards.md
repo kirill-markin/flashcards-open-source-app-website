@@ -339,7 +339,7 @@ Quizlet 至今仍保留专门的图示学习流程，这本身就说明需求是
 
 如果你想要的正是这种工作流，可以从这里开始：
 
-- [打开 Flashcards](https://nibomo.com/)
+- [打开 Nibomo](https://nibomo.com/)
 - [打开应用](https://app.flashcards-open-source-app.com/)
 - [阅读入门指南](https://nibomo.com/docs/getting-started/)
 - [在 GitHub 上查看源码](https://github.com/kirill-markin/flashcards-open-source-app)

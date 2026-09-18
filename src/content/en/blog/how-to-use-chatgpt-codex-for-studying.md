@@ -90,7 +90,7 @@ https://mcp.flashcards-open-source-app.com/mcp
 5. After the app restarts, select **Authenticate** and complete the Flashcards OAuth sign-in in your browser.
 6. Type `/mcp` in Codex to confirm that the server is connected.
 
-Those steps follow OpenAI's current [MCP setup for the ChatGPT desktop app and Codex](https://learn.chatgpt.com/docs/extend/mcp). Flashcards uses OAuth for an interactive login, so you do not need to paste an API key into a normal desktop session. The [Flashcards MCP documentation](/docs/mcp-connector/) has the full authentication and tool contract if you need to troubleshoot the connection.
+Those steps follow OpenAI's current [MCP setup for the ChatGPT desktop app and Codex](https://learn.chatgpt.com/docs/extend/mcp). Flashcards uses OAuth for an interactive login, so you do not need to paste an API key into a normal desktop session. The [Nibomo MCP documentation](/docs/mcp-connector/) has the full authentication and tool contract if you need to troubleshoot the connection.
 
 Review every write before it runs. Listing workspaces is read-only; creating, rewriting, reorganizing, or deleting stored cards is not. If your school or employer manages ChatGPT, its administrator may also restrict which MCP servers or tools you can enable.
 
@@ -111,7 +111,7 @@ The connector exposes seven tools:
 
 | Tool | What it can do | Writes data? |
 | --- | --- | --- |
-| `list_workspaces` | List Flashcards workspaces you can access | No |
+| `list_workspaces` | List Nibomo workspaces you can access | No |
 | `sql_query` | Read allowed workspace, card, deck, and review data | No |
 | `sql_execute` | Create, edit, or delete allowed cards and decks | Yes |
 | `get_guide` | Return a reference guide for SQL, card writing, bulk writes, or reviews | No |
@@ -171,7 +171,7 @@ codex mcp add flashcards \
   --bearer-token-env-var FLASHCARDS_MCP_TOKEN
 ```
 
-The [Flashcards API guide](/docs/api/) explains how to obtain the agent key. Treat it like a password and keep it out of prompts, screenshots, shell history, and version control. OAuth is the easier choice for an interactive computer.
+The [Nibomo API guide](/docs/api/) explains how to obtain the agent key. Treat it like a password and keep it out of prompts, screenshots, shell history, and version control. OAuth is the easier choice for an interactive computer.
 
 ## ChatGPT web has a different connector path
 

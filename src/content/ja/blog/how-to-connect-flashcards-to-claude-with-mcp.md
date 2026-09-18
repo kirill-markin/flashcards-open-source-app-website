@@ -22,7 +22,7 @@ keywords:
 
 Claudeから直接Flashcardsのワークスペースにカードを作りたいなら、セットアップは短いです。Flashcardsのカスタムコネクタを追加し、ツール権限を確認し、チャットで有効にして、Claudeが保存しようとしたタイミングで書き込みを承認する。それで動きます。
 
-![ClaudeがFlashcardsのMCPサーバーに接続され、チャットからフラッシュカードを作成している画面](/blog/how-to-connect-flashcards-to-claude-with-mcp.png)
+![ClaudeがNibomoのMCPサーバーに接続され、チャットからフラッシュカードを作成している画面](/blog/how-to-connect-flashcards-to-claude-with-mcp.png)
 
 ## これはディレクトリ掲載ではなく、カスタムコネクタです
 
@@ -73,7 +73,7 @@ Claudeでは各ツールごとに **Always allow**、**Needs approval**、**Bloc
 
 このページにあるコネクタ設定のスクリーンショットも、その形です。`list_workspaces` と `sql_query` は許可済みで、`sql_execute` はまだあなたの承認が必要です。
 
-![Claudeのコネクタ設定で、Flashcards MCPの読み取りツールが常時許可、書き込みツールが承認待ちになっている画面](/blog/claude-mcp-flashcards-connector-settings.png)
+![Claudeのコネクタ設定で、Nibomo MCPの読み取りツールが常時許可、書き込みツールが承認待ちになっている画面](/blog/claude-mcp-flashcards-connector-settings.png)
 
 あとで緩めたくなれば変えられます。最初からそこまで開ける必要はありません。
 
@@ -127,7 +127,7 @@ Claudeに、Flashcardsへカードを作ってほしいと頼みます。ワー�
 
 書き込みリクエストを確認し、承認して、そのあとClaudeに最後まで進めさせます。下のスクリーンショットでは、Claudeがどのワークスペースを使うか確認し、Flashcardsへの書き込み操作を実行し、テストカードの追加成功まで報告しています。
 
-![Claudeがワークスペースを確認したうえで、Flashcards MCPコネクタ経由でテスト用フラッシュカードを作成しているチャット画面](/blog/claude-mcp-flashcards-create-card.png)
+![Claudeがワークスペースを確認したうえで、Nibomo MCPコネクタ経由でテスト用フラッシュカードを作成しているチャット画面](/blog/claude-mcp-flashcards-create-card.png)
 
 ツール呼び出しを細かく見たいのでなければ、生のSQLそのものを気にする必要はありません。重要なのは流れです。
 
@@ -159,7 +159,7 @@ ClaudeはFlashcards内でカードを作る手伝いができます。読み取�
 
 ホスト版のWebアプリを開いてもいいし、スマホでカードを確認してもいいし、そのままいつもの学習フローへ進めます。
 
-- [Flashcards web app](https://app.flashcards-open-source-app.com/)
+- [Nibomo web app](https://app.flashcards-open-source-app.com/)
 - [App StoreのFlashcards for iPhone and iPad](https://apps.apple.com/app/apple-store/id6760538964?pt=128797295&ct=marketing_site&mt=8)
 - [Google PlayのFlashcards for Android](https://play.google.com/store/apps/details?id=com.flashcardsopensourceapp.app&utm_source=flashcards_website&utm_medium=referral&utm_campaign=marketing_site)
 

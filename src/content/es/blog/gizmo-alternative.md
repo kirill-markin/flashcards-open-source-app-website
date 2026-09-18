@@ -113,7 +113,7 @@ La distinción importa porque «una pantalla ya cargada sigue respondiendo» y �
 
 ## Gizmo frente a Flashcards de un vistazo
 
-| Criterio de decisión | Gizmo | Flashcards |
+| Criterio de decisión | Gizmo | Nibomo |
 | --- | --- | --- |
 | Punto de partida principal | Tarjetas manuales o Magic Import desde distintas fuentes de estudio | Creación manual o asistida por IA de tarjetas concretas con anverso y reverso |
 | Formatos de tarjeta | Tarjeta de texto, Opción múltiple, Emparejamiento, Ordenación y Verdadero/Falso | Tarjetas con anverso y reverso |

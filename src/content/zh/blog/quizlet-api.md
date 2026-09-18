@@ -35,7 +35,7 @@ Quizlet 有几项官方功能，从外部看很像 API 入口，但它们解决�
 | 把 ChatGPT 对话变成 Quizlet 学习集 | [ChatGPT 中的 Quizlet 应用](https://quizlet.com/blog/quizlet-comes-to-chat-gpt) | 通过 `@Quizlet` 创建并预览学习集 | 可供自己的应用使用的凭据或端点 |
 | 在 Google Classroom 中布置 Quizlet 作业 | [Quizlet Google Classroom 插件](https://quizlet.com/blog/quizlet-google-classroom-add-on) | 在 Classroom 中查找、布置和跟踪活动 | 面向自建教育软件的通用 API |
 | 构建自己的 Quizlet 集成 | 目前没有公开文档所述的自助接入途径 | 可能存在面向特定合作伙伴的安排 | 公开注册、API 密钥或有文档的卡片数据接口契约 |
-| 自动化自己的闪卡工作区 | [Flashcards Agent API](/docs/api/) 或 [MCP 连接器](/docs/mcp-connector/) | 反复读写工作区范围内的卡片和牌组 | Quizlet 兼容性或自动导入 Quizlet |
+| 自动化自己的闪卡工作区 | [Nibomo Agent API](/docs/api/) 或 [MCP 连接器](/docs/mcp-connector/) | 反复读写工作区范围内的卡片和牌组 | Quizlet 兼容性或自动导入 Quizlet |
 
 关键区别很简单：一次性复制自己的卡片文本，属于导出；在其他页面上展示 Quizlet，属于嵌入；特定产品集成只在对应的产品流程里有效。软件如果要反复创建、读取和编辑卡片，就需要有公开文档的读写 API。
 

@@ -291,7 +291,7 @@ CFA関連の細部は変わります。試験ウィンドウ、受験料、登�
 
 それを始めたいなら、こちらからどうぞ。
 
-- [Flashcardsを開く](https://nibomo.com/)
+- [Nibomoを開く](https://nibomo.com/)
 - [アプリを開く](https://app.flashcards-open-source-app.com/)
 - [はじめ方ガイドを読む](https://nibomo.com/docs/getting-started/)
 - [GitHubでソースを見る](https://github.com/kirill-markin/flashcards-open-source-app)

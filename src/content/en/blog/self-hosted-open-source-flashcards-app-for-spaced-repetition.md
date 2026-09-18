@@ -56,7 +56,7 @@ The [architecture documentation](https://github.com/kirill-markin/flashcards-ope
 | Area | Hosted app | Self-hosted deployment |
 | --- | --- | --- |
 | Initial setup | Open the app and sign in | Configure accounts, secrets, domains, and deploy the AWS stack |
-| Infrastructure | Operated by the Flashcards project | Operated in your AWS and Cloudflare accounts |
+| Infrastructure | Operated by the Nibomo project | Operated in your AWS and Cloudflare accounts |
 | Database and backups | Managed for you | RDS, backup policy, migrations, and recovery are your responsibility |
 | Auth and email | Managed for you | Cognito plus your email delivery credentials and DNS |
 | AI | Uses the hosted service configuration | Uses the deployed worker and your model credentials; guest access has a separate quota |

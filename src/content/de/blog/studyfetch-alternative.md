@@ -33,7 +33,7 @@ Bei der Suche nach einer **StudyFetch-Alternative** lautet die entscheidende Fra
 
 ## StudyFetch vs Anki vs Flashcards
 
-| Frage | StudyFetch | Anki | Flashcards |
+| Frage | StudyFetch | Anki | Nibomo |
 |---|---|---|---|
 | Am besten geeignet für | Breite KI-Lernumgebung rund um Quellmaterial | Ausgereifte, konfigurierbare Kartensammlung für langfristiges Lernen | Gezielte Wiederholungen mit Karten aus Vorder- und Rückseite in einem offenen Web- und Mobil-Stack |
 | Von der Quelle zum Lernmaterial | Erstellt Notizen, Lernkarten, Quiz, Tests, Tutoring, Audio, Video und weitere Aktivitäten | Kein vergleichbarer All-in-one-Workflow für Quellen in der Kernanwendung | Der KI-Chat kann Workspace-Daten und Anhänge nutzen, um Karten vorzuschlagen; du entscheidest, was gespeichert wird |
@@ -129,7 +129,7 @@ Dieselben aktuellen Seiten erklären, dass die Bedingungen für Privatnutzer nic
 
 Anki zieht die Grenze anders. Die Clients speichern lokale Sammlungen, und die gehostete Synchronisierung ist optional. Wenn du AnkiWeb nutzt, wird eine Kopie an den Dienst gesendet. Bleibst du vollständig lokal oder betreibst deinen eigenen Sync-Server, ändert sich, wer diese Kopie erhält. Gleichzeitig übernimmst du mehr Verantwortung für Backups und Betrieb.
 
-Die [Nutzungsbedingungen der gehosteten Flashcards-App](/terms/) besagen, dass du deine Rechte an eingereichten Inhalten behältst und die zum Betrieb des Dienstes erforderlichen Rechte einräumst. Die gehostete KI ist optional und verwendet OpenAI; die zugehörige Telemetrie wird über Langfuse verarbeitet. Ein selbst gehostetes Deployment wird von seinem Betreiber kontrolliert. Damit verlagern sich Datenschutz- und Sicherheitsaufgaben auf den Betreiber, verschwinden aber nicht.
+Die [Nutzungsbedingungen der gehosteten Nibomo-App](/terms/) besagen, dass du deine Rechte an eingereichten Inhalten behältst und die zum Betrieb des Dienstes erforderlichen Rechte einräumst. Die gehostete KI ist optional und verwendet OpenAI; die zugehörige Telemetrie wird über Langfuse verarbeitet. Ein selbst gehostetes Deployment wird von seinem Betreiber kontrolliert. Damit verlagern sich Datenschutz- und Sicherheitsaufgaben auf den Betreiber, verschwinden aber nicht.
 
 Wenn du wegen der Datenkontrolle eine **Open-Source-KI-Lernapp** suchst, lies den [Self-Hosting-Leitfaden](/docs/self-hosting/), bevor du Open Source mit einer einfachen Lösung gleichsetzt. Das unterstützte produktive Deployment von Flashcards verwendet AWS CDK und externe Dienste. Der Betreiber kümmert sich um Cloud-Kosten, Zugangsdaten, Upgrades, Migrationen, Warnmeldungen, Backups, Wiederherstellungstests und eine mögliche eigene Distribution der mobilen Apps.
 

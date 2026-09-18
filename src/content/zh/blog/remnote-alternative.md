@@ -98,7 +98,7 @@ Flashcards 的取舍几乎与 RemNote 相反。它的[功能](/zh/features/)围�
 
 对现有 RemNote 用户来说，迁移才是更大的限制。Flashcards 只能导入自己的 `flashcards.zip` 包，不能导入 RemNote Markdown 或 Anki `.apkg`。这些包会带上卡片、标签和引用的媒体，但不包括复习历史、FSRS 状态、工作区设置、完整牌组结构或账户。AI 聊天可以把导出的文本转换成卡片草稿，再由你审核；这是在重建内容，不是在延续原来的卡片集合。[TXT 迁移指南](/zh/blog/migrate-from-anki-txt-export-open-source-flashcards/)逐步展示了这条有损迁移的边界。
 
-如果你准备建立一个全新或简单的卡片工作区，而且想拿到整套技术栈的源码，可以选择 Flashcards。需要关联式学习工作流就继续用 RemNote；如果迁移完整性或高级卡片结构更重要，则选择 Anki。更聚焦的卡片系统对比可参阅 [Anki 与 Flashcards](/zh/blog/anki-vs-flashcards-open-source-app/)和[开源闪卡应用指南](/zh/blog/best-open-source-flashcard-apps-2026/)。
+如果你准备建立一个全新或简单的卡片工作区，而且想拿到整套技术栈的源码，可以选择 Flashcards。需要关联式学习工作流就继续用 RemNote；如果迁移完整性或高级卡片结构更重要，则选择 Anki。更聚焦的卡片系统对比可参阅 [Anki 与 Nibomo](/zh/blog/anki-vs-flashcards-open-source-app/)和[开源闪卡应用指南](/zh/blog/best-open-source-flashcard-apps-2026/)。
 
 ## 哪些内容无法从 RemNote 完整迁移
 

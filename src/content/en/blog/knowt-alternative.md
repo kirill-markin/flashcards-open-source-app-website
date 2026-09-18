@@ -29,7 +29,7 @@ The short verdict: Knowt is a strong fit if you want notes, source conversion, a
 
 ## The decision in one table
 
-| Question | Knowt Basic | Knowt Ultra | Flashcards |
+| Question | Knowt Basic | Knowt Ultra | Nibomo |
 |---|---|---|---|
 | Current price | Free | $12.49/month billed $149.99 annually, or $24.99 monthly | Hosted product is free during beta; self-hosted software is free, but you pay infrastructure and provider costs |
 | Main strength | Notes, flashcards, free study modes, and a large material library | Knowt's broader workflow with unlimited AI summaries, Kai chats, and auto-graded assessments on the current plans page | Focused front/back cards with documented FSRS, offline-first clients, open source, and agent access |

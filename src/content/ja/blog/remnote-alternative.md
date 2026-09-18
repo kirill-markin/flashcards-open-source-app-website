@@ -98,7 +98,7 @@ Flashcardsの設計は、RemNoteとほぼ正反対のトレードオフを選ん
 
 既存のRemNote利用者にとって、より大きな制約は移行です。Flashcardsがインポートできるのは独自の`flashcards.zip`パッケージで、RemNoteのMarkdownやAnkiの`.apkg`には対応していません。このパッケージに含まれるのはカード、タグ、参照されるメディアで、復習履歴、FSRSの状態、ワークスペース設定、完全なデッキ構造、アカウントは含まれません。AIチャットを使えば、エクスポートしたテキストからカードの下書きを作り、内容を確認できます。これは内容の再構築であり、以前のコレクションをそのまま引き継ぐものではありません。[TXT移行ガイド](/ja/blog/migrate-from-anki-txt-export-open-source-flashcards/)では、この情報が失われる境界を手順ごとに説明しています。
 
-スタック全体のソースコードにアクセスできることが重要で、新規またはシンプルなカード環境を作るなら、Flashcardsが候補になります。ノートと資料を結び付けた学習にはRemNoteを使い続け、移行の再現性や高度なカード構造が大切ならAnkiを選びましょう。カードシステムに絞った比較は、[Anki vs Flashcards](/ja/blog/anki-vs-flashcards-open-source-app/)と[オープンソース単語カードアプリのガイド](/ja/blog/best-open-source-flashcard-apps-2026/)で確認できます。
+スタック全体のソースコードにアクセスできることが重要で、新規またはシンプルなカード環境を作るなら、Flashcardsが候補になります。ノートと資料を結び付けた学習にはRemNoteを使い続け、移行の再現性や高度なカード構造が大切ならAnkiを選びましょう。カードシステムに絞った比較は、[Anki vs Nibomo](/ja/blog/anki-vs-flashcards-open-source-app/)と[オープンソース単語カードアプリのガイド](/ja/blog/best-open-source-flashcard-apps-2026/)で確認できます。
 
 ## RemNoteからきれいに移行できないもの
 

@@ -106,7 +106,7 @@ Review ratings are signals fed into a scheduling system. Their names and scales 
 | System | Visible ratings | What the labels establish |
 | --- | --- | --- |
 | Anki with FSRS | Again, Hard, Good, Easy | Again is failed recall. Hard, Good, and Easy are successful recall with decreasing effort. |
-| Flashcards | Again, Hard, Good, Easy | Same failure/success boundary. The API uses 0–3 and maps those values internally to FSRS grades 1–4. |
+| Nibomo | Again, Hard, Good, Easy | Same failure/success boundary. The API uses 0–3 and maps those values internally to FSRS grades 1–4. |
 | Hosted SuperMemo.com | Don't know, Almost, Know | A three-choice product scale documented by the [SuperMemo method page](https://www.supermemo.com/en/supermemo-method). It should not be mapped mechanically to the four FSRS grades. |
 | SuperMemo 20 for Windows | Desktop SuperMemo grading flow | A separate product surface that feeds several algorithms in Algorithm Arena. Do not infer its meanings from the hosted service's three labels. |
 

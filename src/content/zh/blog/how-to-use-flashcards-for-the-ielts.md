@@ -260,7 +260,7 @@ AI 在这里确实有用，但真正有用的那份工作，比很多人想的�
 
 如果你想在产品里直接试这套流程：
 
-- [打开 Flashcards](/zh/)
+- [打开 Nibomo](/zh/)
 - [打开应用](https://app.flashcards-open-source-app.com/)
 - [阅读入门指南](/zh/docs/getting-started/)
 - [在 GitHub 上查看源码](https://github.com/kirill-markin/flashcards-open-source-app)

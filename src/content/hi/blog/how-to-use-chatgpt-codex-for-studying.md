@@ -90,7 +90,7 @@ https://mcp.flashcards-open-source-app.com/mcp
 5. App दोबारा खुलने पर **Authenticate** चुनें और ब्राउज़र में Flashcards OAuth sign-in पूरा करें।
 6. कनेक्शन जाँचने के लिए Codex में `/mcp` लिखें।
 
-ये चरण OpenAI के मौजूदा [ChatGPT desktop app और Codex के MCP setup](https://learn.chatgpt.com/docs/extend/mcp) के अनुसार हैं। Flashcards ब्राउज़र में sign-in के लिए OAuth इस्तेमाल करता है, इसलिए सामान्य desktop session में API key पेस्ट करने की ज़रूरत नहीं है। कनेक्शन में दिक्कत आए तो [Flashcards MCP documentation](/hi/docs/mcp-connector/) में sign-in का पूरा तरीका और tools का contract दिया गया है।
+ये चरण OpenAI के मौजूदा [ChatGPT desktop app और Codex के MCP setup](https://learn.chatgpt.com/docs/extend/mcp) के अनुसार हैं। Flashcards ब्राउज़र में sign-in के लिए OAuth इस्तेमाल करता है, इसलिए सामान्य desktop session में API key पेस्ट करने की ज़रूरत नहीं है। कनेक्शन में दिक्कत आए तो [Nibomo MCP documentation](/hi/docs/mcp-connector/) में sign-in का पूरा तरीका और tools का contract दिया गया है।
 
 डेटा बदलने वाला हर काम चलने से पहले जाँचें। Workspaces की सूची देखना read-only है; सेव किए गए कार्ड बनाना, दोबारा लिखना, व्यवस्थित करना या मिटाना नहीं। अगर आपका ChatGPT account स्कूल या दफ़्तर के ज़रिए manage होता है, तो administrator यह भी सीमित कर सकता है कि आप कौन-से MCP servers या tools चालू कर सकते हैं।
 
@@ -111,7 +111,7 @@ Connector सात tools देता है:
 
 | Tool | यह क्या कर सकता है | क्या डेटा लिखता है? |
 | --- | --- | --- |
-| `list_workspaces` | आपकी पहुँच वाले Flashcards workspaces की सूची दिखाता है | नहीं |
+| `list_workspaces` | आपकी पहुँच वाले Nibomo workspaces की सूची दिखाता है | नहीं |
 | `sql_query` | अनुमति वाला workspace, card, deck और review data पढ़ता है | नहीं |
 | `sql_execute` | अनुमति वाले कार्ड और डेक बनाता, बदलता या मिटाता है | हाँ |
 | `get_guide` | SQL, कार्ड लिखने, bulk writes या रिव्यू के लिए reference guide देता है | नहीं |
@@ -171,7 +171,7 @@ codex mcp add flashcards \
   --bearer-token-env-var FLASHCARDS_MCP_TOKEN
 ```
 
-[Flashcards API guide](/hi/docs/api/) बताती है कि agent key कैसे मिलेगी। इसे password की तरह रखें और prompts, screenshots, shell history तथा version control से दूर रखें। जिस कंप्यूटर को आप सीधे इस्तेमाल कर रहे हों, वहाँ OAuth आसान विकल्प है।
+[Nibomo API guide](/hi/docs/api/) बताती है कि agent key कैसे मिलेगी। इसे password की तरह रखें और prompts, screenshots, shell history तथा version control से दूर रखें। जिस कंप्यूटर को आप सीधे इस्तेमाल कर रहे हों, वहाँ OAuth आसान विकल्प है।
 
 ## ChatGPT web पर connector का रास्ता अलग है
 

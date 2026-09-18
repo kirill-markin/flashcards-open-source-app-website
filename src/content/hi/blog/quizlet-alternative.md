@@ -23,7 +23,7 @@ keywords:
 
 **तथ्यों की जाँच:** 2 अगस्त, 2026।
 
-![गर्म रोशनी वाली मेज़ पर साथ रखे Quizlet और ओपन सोर्स Flashcards के पढ़ाई वर्कफ़्लो](/blog/quizlet-alternative.png)
+![गर्म रोशनी वाली मेज़ पर साथ रखे Quizlet और ओपन सोर्स Nibomo के पढ़ाई वर्कफ़्लो](/blog/quizlet-alternative.png)
 
 ## संक्षिप्त जवाब
 
@@ -38,13 +38,13 @@ keywords:
 | पहलू | Quizlet | Nibomo | व्यावहारिक विजेता |
 |---|---|---|---|
 | Learn और Test workflows | अलग adaptive Learn mode और scoring व review वाला configurable Test mode | पारंपरिक front/back queue; अलग Learn या Test mode नहीं, multiple-choice test generation भी नहीं | Quizlet |
-| Scheduling और FSRS | Personalized scheduled review और Memory Score; सार्वजनिक दस्तावेज़ यह नहीं बताते कि scheduler FSRS है | Again, Hard, Good और Easy के साथ स्पष्ट FSRS-6 | निर्भर करता है: scheduled-review अनुभव के लिए Quizlet, स्पष्ट रूप से दर्ज FSRS-6 scheduler के लिए Flashcards |
+| Scheduling और FSRS | Personalized scheduled review और Memory Score; सार्वजनिक दस्तावेज़ यह नहीं बताते कि scheduler FSRS है | Again, Hard, Good और Easy के साथ स्पष्ट FSRS-6 | निर्भर करता है: scheduled-review अनुभव के लिए Quizlet, स्पष्ट रूप से दर्ज FSRS-6 scheduler के लिए Nibomo |
 | Offline | iOS और Android; हाल में इस्तेमाल किए गए sets अपने-आप save होते हैं, बाकी download किए जा सकते हैं | Web, iOS और Android पर ऑफ़लाइन-फर्स्ट local writes, फिर connection लौटने पर sync | Nibomo |
-| AI | Practice tests, study guides, summarization, flashcard creation, homework help और Ask Quizlet | File attachments के साथ AI chat, साथ में MCP और Agent API | तैयार study tools के लिए Quizlet; workspace और agent access के लिए Flashcards |
+| AI | Practice tests, study guides, summarization, flashcard creation, homework help और Ask Quizlet | File attachments के साथ AI chat, साथ में MCP और Agent API | तैयार study tools के लिए Quizlet; workspace और agent access के लिए Nibomo |
 | साझा सामग्री | Public sets और folders, साथ में teachers की बनाई बड़ी लाइब्रेरी | इसके बराबर कोई end-user shared-content library नहीं | Quizlet |
 | इम्पोर्ट | Website पर delimited text paste करें; हर पंक्ति एक card बनती है | केवल अपना `flashcards.zip` package इम्पोर्ट करता है | Quizlet |
-| एक्सपोर्ट | Website पर बनाने वाले के अपने terms और definitions; images नहीं, copied sets भी export नहीं होते | `flashcards.zip` cards, tags और उनसे जुड़े media को Flashcards workspaces के बीच transfer करता है | यह इस पर निर्भर है कि आपको क्या ले जाना है |
-| डेटा पर मालिकाना हक और नियंत्रण | Quizlet के product और terms से चलने वाली बंद, hosted service | MIT-licensed; hosted app उपलब्ध; AWS CDK self-hosting से operators को infrastructure और database पर नियंत्रण मिलता है | Code access के लिए Flashcards; infrastructure और database control के लिए self-hosting |
+| एक्सपोर्ट | Website पर बनाने वाले के अपने terms और definitions; images नहीं, copied sets भी export नहीं होते | `flashcards.zip` cards, tags और उनसे जुड़े media को Nibomo workspaces के बीच transfer करता है | यह इस पर निर्भर है कि आपको क्या ले जाना है |
+| डेटा पर मालिकाना हक और नियंत्रण | Quizlet के product और terms से चलने वाली बंद, hosted service | MIT-licensed; hosted app उपलब्ध; AWS CDK self-hosting से operators को infrastructure और database पर नियंत्रण मिलता है | Code access के लिए Nibomo; infrastructure और database control के लिए self-hosting |
 
 आखिरी कॉलम का जवाब जानबूझकर एकतरफा नहीं है। एक app शुक्रवार की परीक्षा की तैयारी के लिए बेहतर हो सकता है, तो दूसरा software और infrastructure पर operators को ज़्यादा नियंत्रण दे सकता है। आपके काम करने और पढ़ने का तरीका तय करेगा कि कौन-सा फायदा ज़्यादा मायने रखता है।
 

@@ -23,7 +23,7 @@ Quizlet bleibt die stärkere Wahl für geführte Lernmodi, Übungstests, fertige
 
 **Fakten geprüft:** 2. August 2026.
 
-![Lernabläufe von Quizlet und Open-Source-Flashcards nebeneinander auf einem warm beleuchteten Schreibtisch](/blog/quizlet-alternative.png)
+![Lernabläufe von Quizlet und Open-Source-Nibomo nebeneinander auf einem warm beleuchteten Schreibtisch](/blog/quizlet-alternative.png)
 
 ## Die kurze Antwort
 
@@ -35,16 +35,16 @@ Ein Wechsel kostet Zeit. Flashcards hat keinen direkten Quizlet-Importer, und de
 
 ## Open-Source-Quizlet-Alternative: der Vergleich
 
-| Kategorie | Quizlet | Flashcards | In der Praxis besser |
+| Kategorie | Quizlet | Nibomo | In der Praxis besser |
 |---|---|---|---|
 | Lernen- und Test-Workflows | Eigener adaptiver Lernen-Modus und konfigurierbarer Test-Modus mit Bewertung und Auswertung | Klassische Wiederholung mit Vorder- und Rückseite; keine eigenen Lernen- oder Test-Modi und keine Erstellung von Multiple-Choice-Tests | Quizlet |
-| Planung und FSRS | Personalisierte Wiederholungsplanung und Memory Score; in der öffentlichen Dokumentation wird der Algorithmus nicht als FSRS bezeichnet | Dokumentiertes FSRS-6 mit Nochmal, Schwer, Gut und Einfach | Kommt darauf an: Quizlet für sein System geplanter Wiederholungen, Flashcards für einen dokumentierten FSRS-6-Algorithmus |
-| Offline | iOS und Android; zuletzt verwendete Sets werden gespeichert, weitere lassen sich herunterladen | Änderungen werden im Web sowie auf iOS und Android zuerst lokal gespeichert und nach der erneuten Verbindung synchronisiert | Flashcards |
-| KI | Übungstests, Lernleitfäden, Zusammenfassungen, Karteikartenerstellung, Hausaufgabenhilfe und Ask Quizlet | KI-Chat mit Dateianhängen sowie MCP und eine Agent API | Quizlet für fertige Lerntools; Flashcards für Arbeitsbereichs- und Agentenzugriff |
+| Planung und FSRS | Personalisierte Wiederholungsplanung und Memory Score; in der öffentlichen Dokumentation wird der Algorithmus nicht als FSRS bezeichnet | Dokumentiertes FSRS-6 mit Nochmal, Schwer, Gut und Einfach | Kommt darauf an: Quizlet für sein System geplanter Wiederholungen, Nibomo für einen dokumentierten FSRS-6-Algorithmus |
+| Offline | iOS und Android; zuletzt verwendete Sets werden gespeichert, weitere lassen sich herunterladen | Änderungen werden im Web sowie auf iOS und Android zuerst lokal gespeichert und nach der erneuten Verbindung synchronisiert | Nibomo |
+| KI | Übungstests, Lernleitfäden, Zusammenfassungen, Karteikartenerstellung, Hausaufgabenhilfe und Ask Quizlet | KI-Chat mit Dateianhängen sowie MCP und eine Agent API | Quizlet für fertige Lerntools; Nibomo für Arbeitsbereichs- und Agentenzugriff |
 | Geteilte Inhalte | Öffentliche Sets und Ordner sowie eine große Bibliothek mit Inhalten von Lehrkräften | Keine vergleichbare Bibliothek geteilter Inhalte für Endnutzer | Quizlet |
 | Import | Text mit Trennzeichen auf der Website einfügen; jede Zeile wird zu einer Karte | Importiert nur das eigene `flashcards.zip`-Paket | Quizlet |
-| Export | Eigene Begriffe und Definitionen des Erstellers auf der Website; keine Bilder und kein Export kopierter Sets | `flashcards.zip` überträgt Karten, Tags und zugehörige Medien zwischen Flashcards-Arbeitsbereichen | Hängt davon ab, was du übertragen willst |
-| Dateneigentum und Kontrolle | Geschlossener, gehosteter Dienst, dessen Möglichkeiten von Quizlets Produktentscheidungen und Nutzungsbedingungen abhängen | MIT-lizenziert; gehostete App verfügbar; Self-Hosting mit AWS CDK gibt Betreibern Kontrolle über Infrastruktur und Datenbank | Flashcards für den Zugriff auf den Code; Self-Hosting für die Kontrolle über Infrastruktur und Datenbank |
+| Export | Eigene Begriffe und Definitionen des Erstellers auf der Website; keine Bilder und kein Export kopierter Sets | `flashcards.zip` überträgt Karten, Tags und zugehörige Medien zwischen Nibomo-Arbeitsbereichen | Hängt davon ab, was du übertragen willst |
+| Dateneigentum und Kontrolle | Geschlossener, gehosteter Dienst, dessen Möglichkeiten von Quizlets Produktentscheidungen und Nutzungsbedingungen abhängen | MIT-lizenziert; gehostete App verfügbar; Self-Hosting mit AWS CDK gibt Betreibern Kontrolle über Infrastruktur und Datenbank | Nibomo für den Zugriff auf den Code; Self-Hosting für die Kontrolle über Infrastruktur und Datenbank |
 
 Die letzte Spalte ist bewusst nicht überall eindeutig. Das eine Produkt bereitet dich vielleicht besser auf den Test am Freitag vor, das andere gibt Betreibern mehr Kontrolle über Software und Infrastruktur. Welcher Vorteil mehr zählt, hängt von deinem Lernalltag ab.
 
@@ -149,4 +149,4 @@ Flashcards ist 2026 eine **Open-Source-Alternative zu Quizlet** für einen besti
 
 Flashcards ist nicht „Quizlet ohne die Nachteile“. Die App hat eigene Lücken: keine speziellen Lernen- oder Test-Modi, keine vergleichbare Bibliothek geteilter Sets, keinen direkten Quizlet-Importer und keine vollständige portable Sicherung über `flashcards.zip`.
 
-Wenn dir dadurch genau die Teile von Quizlet fehlen würden, die du am häufigsten nutzt, bleib bei Quizlet. Falls du vor allem wegen eines transparenten Planungsalgorithmus, Offline-First-Lernens und der Kontrolle über die Infrastruktur nach einer Quizlet-Alternative suchst, [öffne Flashcards](https://app.flashcards-open-source-app.com/) oder [sieh dir den Quellcode an](https://github.com/kirill-markin/flashcards-open-source-app), bevor du dich entscheidest. Ein gutes Lernsystem ist eines, dessen Kompromisse auch dann noch vernünftig wirken, wenn der Reiz des Neuen verflogen ist.
+Wenn dir dadurch genau die Teile von Quizlet fehlen würden, die du am häufigsten nutzt, bleib bei Quizlet. Falls du vor allem wegen eines transparenten Planungsalgorithmus, Offline-First-Lernens und der Kontrolle über die Infrastruktur nach einer Quizlet-Alternative suchst, [öffne Nibomo](https://app.flashcards-open-source-app.com/) oder [sieh dir den Quellcode an](https://github.com/kirill-markin/flashcards-open-source-app), bevor du dich entscheidest. Ein gutes Lernsystem ist eines, dessen Kompromisse auch dann noch vernünftig wirken, wenn der Reiz des Neuen verflogen ist.

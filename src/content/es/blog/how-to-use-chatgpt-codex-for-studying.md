@@ -113,7 +113,7 @@ El conector ofrece siete herramientas:
 
 | Herramienta | Qué puede hacer | ¿Escribe datos? |
 | --- | --- | --- |
-| `list_workspaces` | Lista los workspaces de Flashcards a los que puedes acceder | No |
+| `list_workspaces` | Lista los workspaces de Nibomo a los que puedes acceder | No |
 | `sql_query` | Lee datos permitidos de workspaces, tarjetas, mazos y repasos | No |
 | `sql_execute` | Crea, edita o elimina tarjetas y mazos permitidos | Sí |
 | `get_guide` | Devuelve una guía de referencia sobre SQL, redacción de tarjetas, escrituras masivas o repasos | No |

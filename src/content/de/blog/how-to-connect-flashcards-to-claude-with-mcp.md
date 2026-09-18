@@ -22,7 +22,7 @@ Genau deshalb lohnt sich die Suche nach **Claude MCP Lernkarten** gerade.
 
 Wenn du möchtest, dass Claude Karten direkt in deinem Flashcards-Workspace erstellt, ist das Setup kurz: den Flashcards-Custom-Connector hinzufügen, die Tool-Berechtigungen prüfen, den Connector im Chat aktivieren und den Schreibzugriff freigeben, sobald Claude eine Karte speichern will.
 
-![Claude ist mit dem Flashcards-MCP-Server verbunden, um Lernkarten direkt aus dem Chat zu erstellen](/blog/how-to-connect-flashcards-to-claude-with-mcp.png)
+![Claude ist mit dem Nibomo-MCP-Server verbunden, um Lernkarten direkt aus dem Chat zu erstellen](/blog/how-to-connect-flashcards-to-claude-with-mcp.png)
 
 ## Das ist ein Custom Connector, kein Eintrag im Verzeichnis
 
@@ -73,7 +73,7 @@ Für die erste Einrichtung würde ich die reinen Lese-Tools auf **Always allow**
 
 Genau das zeigt auch der Screenshot der Connector-Einstellungen hier: `list_workspaces` und `sql_query` sind erlaubt, während `sql_execute` weiter deine Freigabe braucht.
 
-![Claude-Connector-Einstellungen mit Flashcards-MCP-Berechtigungen: Lesetools sind immer erlaubt, Schreibtools brauchen Freigabe](/blog/claude-mcp-flashcards-connector-settings.png)
+![Claude-Connector-Einstellungen mit Nibomo-MCP-Berechtigungen: Lesetools sind immer erlaubt, Schreibtools brauchen Freigabe](/blog/claude-mcp-flashcards-connector-settings.png)
 
 Später kannst du das immer noch lockerer einstellen. Ich würde nur nicht so anfangen.
 
@@ -127,7 +127,7 @@ Genau so sollte es sein.
 
 Prüfe die Schreibanfrage, gib sie frei und lass Claude dann den Vorgang beenden. Im Screenshot unten hat Claude gefragt, welcher Workspace verwendet werden soll, die Flashcards-Schreibaktion ausgeführt und anschließend gemeldet, dass die Testkarte erfolgreich hinzugefügt wurde.
 
-![Claude-Chat erstellt eine Test-Lernkarte über den Flashcards-MCP-Connector, nachdem nach dem richtigen Workspace gefragt wurde](/blog/claude-mcp-flashcards-create-card.png)
+![Claude-Chat erstellt eine Test-Lernkarte über den Nibomo-MCP-Connector, nachdem nach dem richtigen Workspace gefragt wurde](/blog/claude-mcp-flashcards-create-card.png)
 
 Du musst dich nicht um das rohe SQL kümmern, außer du willst dir den Tool-Call genauer ansehen. Entscheidend ist der Ablauf:
 
@@ -159,7 +159,7 @@ Das ist mein Lieblingsteil an diesem Setup. Die Karte bleibt nicht in einem hüb
 
 Du kannst die gehostete Web-App öffnen, die Karte auf dem Smartphone prüfen oder einfach in deinem normalen Lernablauf weitermachen:
 
-- [Flashcards-Web-App](https://app.flashcards-open-source-app.com/)
+- [Nibomo-Web-App](https://app.flashcards-open-source-app.com/)
 - [Flashcards für iPhone und iPad im App Store](https://apps.apple.com/app/apple-store/id6760538964?pt=128797295&ct=marketing_site&mt=8)
 - [Flashcards für Android bei Google Play](https://play.google.com/store/apps/details?id=com.flashcardsopensourceapp.app&utm_source=flashcards_website&utm_medium=referral&utm_campaign=marketing_site)
 

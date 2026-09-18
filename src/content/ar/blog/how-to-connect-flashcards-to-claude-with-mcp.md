@@ -23,7 +23,7 @@ keywords:
 
 إذا كنت تريد من Claude أن ينشئ بطاقات مباشرة داخل مساحة العمل الخاصة بك في Flashcards، فالإعداد قصير: أضف موصل Flashcards المخصص، وراجع أذونات الأدوات، وفعّله داخل المحادثة، ثم وافق على عملية الكتابة عندما يصبح Claude جاهزًا لحفظ البطاقة.
 
-![Claude متصل بخادم Flashcards MCP لإنشاء بطاقات تعليمية مباشرة من الدردشة](/blog/how-to-connect-flashcards-to-claude-with-mcp.png)
+![Claude متصل بخادم Nibomo MCP لإنشاء بطاقات تعليمية مباشرة من الدردشة](/blog/how-to-connect-flashcards-to-claude-with-mcp.png)
 
 ## هذا موصل مخصص، وليس تطبيقًا مدرجًا في الدليل
 
@@ -74,7 +74,7 @@ keywords:
 
 وهذا بالضبط ما تظهره لقطة إعدادات الموصل هنا: أداتا `list_workspaces` و`sql_query` مسموح لهما، بينما `sql_execute` ما زالت تحتاج إلى موافقتك.
 
-![إعدادات موصل Claude التي تعرض أذونات Flashcards MCP مع السماح الدائم لأدوات القراءة واشتراط الموافقة على أدوات الكتابة](/blog/claude-mcp-flashcards-connector-settings.png)
+![إعدادات موصل Claude التي تعرض أذونات Nibomo MCP مع السماح الدائم لأدوات القراءة واشتراط الموافقة على أدوات الكتابة](/blog/claude-mcp-flashcards-connector-settings.png)
 
 يمكنك تخفيف هذا لاحقًا إذا أردت فعلًا. لكني لا أنصح أن تبدأ من هناك.
 
@@ -128,7 +128,7 @@ keywords:
 
 راجع طلب الكتابة، ووافق عليه، ثم اترك Claude يكمل. في لقطة الشاشة أدناه، سأل Claude عن مساحة العمل التي ينبغي أن يستخدمها، ثم نفّذ عملية الكتابة في Flashcards، ثم أخبرني أن البطاقة التجريبية أُضيفت بنجاح.
 
-![محادثة Claude تنشئ بطاقة تعليمية تجريبية عبر موصل Flashcards MCP بعد السؤال عن مساحة العمل التي يجب استخدامها](/blog/claude-mcp-flashcards-create-card.png)
+![محادثة Claude تنشئ بطاقة تعليمية تجريبية عبر موصل Nibomo MCP بعد السؤال عن مساحة العمل التي يجب استخدامها](/blog/claude-mcp-flashcards-create-card.png)
 
 لا تحتاج إلى الاهتمام بالـ SQL الخام إلا إذا كنت تريد مراجعة استدعاء الأداة بنفسك. ما يهم هو سير العمل:
 
@@ -160,7 +160,7 @@ keywords:
 
 يمكنك فتح تطبيق الويب المستضاف، أو فحص البطاقة على الهاتف، أو ببساطة أن تتابع ضمن سير دراستك المعتاد:
 
-- [تطبيق Flashcards على الويب](https://app.flashcards-open-source-app.com/)
+- [تطبيق Nibomo على الويب](https://app.flashcards-open-source-app.com/)
 - [Flashcards لأجهزة iPhone وiPad على App Store](https://apps.apple.com/app/apple-store/id6760538964?pt=128797295&ct=marketing_site&mt=8)
 - [Flashcards لأجهزة Android على Google Play](https://play.google.com/store/apps/details?id=com.flashcardsopensourceapp.app&utm_source=flashcards_website&utm_medium=referral&utm_campaign=marketing_site)
 

@@ -236,7 +236,7 @@ FSRS أفضل من أنظمة التكرار المتباعد الأقدم في 
 
 إذا كان هذا هو سير العمل الذي تريده، فابدأ من هنا:
 
-- [تعرّف على Flashcards](https://nibomo.com/)
+- [تعرّف على Nibomo](https://nibomo.com/)
 - [افتح التطبيق](https://app.flashcards-open-source-app.com/)
 - [اطّلع على الشيفرة المصدرية على GitHub](https://github.com/kirill-markin/flashcards-open-source-app)
 

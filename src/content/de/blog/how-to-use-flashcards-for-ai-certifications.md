@@ -278,7 +278,7 @@ Mehr Abruf, der den Prüfungstimer tatsächlich überlebt.
 
 Wenn du diesen Workflow ausprobieren willst:
 
-- [Flashcards öffnen](https://nibomo.com/)
+- [Nibomo öffnen](https://nibomo.com/)
 - [Die App öffnen](https://app.flashcards-open-source-app.com/)
 - [Die Features-Seite lesen](https://nibomo.com/features/)
 - [Den Quellcode auf GitHub ansehen](https://github.com/kirill-markin/flashcards-open-source-app)
