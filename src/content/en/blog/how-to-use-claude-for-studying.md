@@ -224,7 +224,7 @@ If you use Nibomo, Claude can also save approved cards through its remote custom
 The Flashcards MCP URL is:
 
 ```text
-https://mcp.flashcards-open-source-app.com/mcp
+https://mcp.nibomo.com/mcp
 ```
 
 For saving cards, the connector exposes `list_workspaces`, read-only `sql_query`, and `get_guide` for the card-writing rules, plus the write tool `sql_execute`. Keep the handoff narrow:

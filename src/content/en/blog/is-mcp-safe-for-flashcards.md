@@ -147,7 +147,7 @@ If immediate server-side OAuth revocation is a requirement for your threat model
 ## A practical checklist before connecting
 
 1. Classify the source material. Public study notes, personal information, employer-confidential content, and regulated data should not share one access policy. If you are not authorized to send the material to the client and its processors, do not expose it through MCP.
-2. Verify the server URL. The documented endpoint is `https://mcp.flashcards-open-source-app.com/mcp`. Avoid lookalike domains and connector definitions copied from unknown sources.
+2. Verify the server URL. The documented endpoint is `https://mcp.nibomo.com/mcp`. Avoid lookalike domains and connector definitions copied from unknown sources.
 3. Read both sides' policies. Start with [Nibomo privacy](/privacy/), then check the exact AI client's retention, training, memory, logging, and deletion rules.
 4. Decide whether a spare workspace is enough. It is useful for a rehearsal, but the connection can still target other workspaces on the same account. Use a separate account or deployment when you need strict isolation.
 5. Start with `sql_execute` and `submit_review` blocked in the client. If the client cannot block them, acknowledge that the OAuth credential remains write-capable before connecting.

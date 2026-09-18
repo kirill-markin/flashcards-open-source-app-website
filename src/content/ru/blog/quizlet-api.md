@@ -86,7 +86,7 @@ keywords:
 Nibomo публикует два способа доступа к одному и тому же ограниченному набору пользовательских данных:
 
 - [Внешний Agent API](/docs/api/) начинается с `GET https://api.flashcards-open-source-app.com/v1/`. Его discovery-ответ проводит агента через вход по email с одноразовым кодом (OTP), создание API-ключа и выбор рабочего пространства. Для чтения используется маршрут запросов в стиле SQL, для записи — отдельный маршрут выполнения.
-- [Удалённый MCP-сервер](/docs/mcp-connector/) доступен по адресу `https://mcp.flashcards-open-source-app.com/mcp`. MCP-клиенты получают семь инструментов: `list_workspaces`, `sql_query`, `sql_execute`, `get_guide` и инструменты повторения `next_review_card`, `reveal_answer` и `submit_review`.
+- [Удалённый MCP-сервер](/docs/mcp-connector/) доступен по адресу `https://mcp.nibomo.com/mcp`. MCP-клиенты получают семь инструментов: `list_workspaces`, `sql_query`, `sql_execute`, `get_guide` и инструменты повторения `next_review_card`, `reveal_answer` и `submit_review`.
 
 Оба способа ограничены рабочим пространством. Опубликованные ресурсы — `workspace`, `cards`, `decks` и `review_events`, а результат каждого SQL-выражения ограничен 100 строками. Интерфейс в стиле SQL использует ограниченный диалект, а не даёт прямой доступ к PostgreSQL. Схемы OpenAPI нет, поэтому для процессов, которым нужны сгенерированные OpenAPI-клиенты, потребуется другой интерфейс.
 

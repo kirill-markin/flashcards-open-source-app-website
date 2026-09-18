@@ -16,7 +16,7 @@ agents. Both reach the same per-user data surface; this page covers the MCP serv
 Connect to it at:
 
 ```text
-https://mcp.flashcards-open-source-app.com/mcp
+https://mcp.nibomo.com/mcp
 ```
 
 The transport is Streamable HTTP, and the server exposes seven tools: two SQL
@@ -30,7 +30,7 @@ to reach it from clients that speak MCP.
 Most clients add a remote MCP server as a custom connector:
 
 1. Open your client's connector or MCP server settings.
-2. Add a custom connector and paste the server URL `https://mcp.flashcards-open-source-app.com/mcp`.
+2. Add a custom connector and paste the server URL `https://mcp.nibomo.com/mcp`.
 3. For interactive clients, authorize in the browser when prompted. The server
    uses OAuth 2.1 with Dynamic Client Registration, so there is no client secret
    to paste and no app to register first.
@@ -118,7 +118,7 @@ Registration. Add the MCP URL as a custom connector and authorize in the browser
 no client secret is pre-shared. Discovery is standard:
 
 - Protected-resource metadata:
-  `https://mcp.flashcards-open-source-app.com/.well-known/oauth-protected-resource`
+  `https://mcp.nibomo.com/.well-known/oauth-protected-resource`
 - Authorization-server metadata:
   `https://auth.flashcards-open-source-app.com/.well-known/oauth-authorization-server`
 

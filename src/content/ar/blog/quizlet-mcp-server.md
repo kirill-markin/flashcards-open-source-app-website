@@ -73,7 +73,7 @@ keywords:
 
 يوفّر Nibomo نقطة نهاية MCP بعيدة على العنوان:
 
-`https://mcp.flashcards-open-source-app.com/mcp`
+`https://mcp.nibomo.com/mcp`
 
 تحدّد [وثائق موصل MCP](/docs/mcp-connector/) سبع أدوات: `list_workspaces`، و`sql_query` للقراءة، و`sql_execute` للكتابة، و`get_guide` للأدلة المرجعية، إضافةً إلى `next_review_card` و`reveal_answer` و`submit_review` للمراجعات. ويمكن لعملاء MCP التفاعليين إجراء التفويض عبر OAuth. أما وكلاء الطرفية، فيمكنهم البدء بدلًا من ذلك من [وثائق Agent API](/docs/api/) واستخدام مسار HTTP المنشور.
 

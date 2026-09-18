@@ -73,7 +73,7 @@ Por eso conviene que el traslado sea reversible. Si una definición con varias l
 
 Nibomo ofrece este endpoint MCP remoto:
 
-`https://mcp.flashcards-open-source-app.com/mcp`
+`https://mcp.nibomo.com/mcp`
 
 Su [documentación del conector MCP](/docs/mcp-connector/) define siete herramientas: `list_workspaces`, `sql_query` para leer, `sql_execute` para escribir, `get_guide` para consultar guías de referencia, además de `next_review_card`, `reveal_answer` y `submit_review` para repasar. Los clientes MCP interactivos pueden autorizar la conexión mediante OAuth. Los agentes que funcionan desde un terminal pueden consultar la [documentación de Agent API](/docs/api/) y utilizar el flujo HTTP publicado.
 

@@ -83,7 +83,7 @@ The desktop setup is short:
 3. Name it `Flashcards`, choose **Streamable HTTP**, and enter this URL:
 
 ```text
-https://mcp.flashcards-open-source-app.com/mcp
+https://mcp.nibomo.com/mcp
 ```
 
 4. Save the server, then select **Restart**.
@@ -157,7 +157,7 @@ Most students can skip the terminal. It is handy when your study material alread
 Add the remote server with:
 
 ```bash
-codex mcp add flashcards --url https://mcp.flashcards-open-source-app.com/mcp
+codex mcp add flashcards --url https://mcp.nibomo.com/mcp
 codex mcp login flashcards
 ```
 
@@ -167,7 +167,7 @@ For a headless session where browser OAuth is impractical, Flashcards accepts a 
 
 ```bash
 codex mcp add flashcards \
-  --url https://mcp.flashcards-open-source-app.com/mcp \
+  --url https://mcp.nibomo.com/mcp \
   --bearer-token-env-var FLASHCARDS_MCP_TOKEN
 ```
 
