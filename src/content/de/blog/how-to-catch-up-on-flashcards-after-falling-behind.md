@@ -214,7 +214,7 @@ Kein dramatischer Reset.
 
 Kein So-tun-als-wäre-noch-mehr-Überlastung die richtige Antwort auf Überlastung.
 
-## Warum Flashcards hier besser hineinpasst
+## Warum Nibomo hier besser hineinpasst
 
 [Nibomo](https://nibomo.com/) passt gut zur Erholung von **spaced repetition backlog**, weil der Workflow nicht über drei verschiedene Tools aufgespalten werden muss:
 

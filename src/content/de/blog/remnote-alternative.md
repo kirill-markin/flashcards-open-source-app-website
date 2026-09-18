@@ -31,7 +31,7 @@ Die beste **RemNote-Alternative** löst den konkreten Grund für deinen Wechsel,
 - **Ein Karten-Workflow, der zu stark an Notizen gebunden ist:** Probiere Anki. Dort stehen Karten, Vorlagen, Importe und FSRS stärker im Mittelpunkt.
 - **Einfache lokale Notizdateien:** Teile die Aufgaben auf: Obsidian für Markdown-Notizen, Anki für Wiederholungen. Das ist weniger eng verzahnt, dafür ist viel klarer, welche Daten dir wo gehören.
 - **Eine Open-Source-Lösung für verknüpfte Notizen, PDFs und integrierte Karten:** Logseq kommt diesem Ziel am nächsten – allerdings mit einer wichtigen Einschränkung im Jahr 2026: Die neue Datenbankversion ist in der Beta, die neue iOS-App und die Echtzeit-Synchronisierung sind im Alpha-Stadium, und die neue Android-App ist noch nicht zum Testen freigegeben.
-- **Quellcode und Self-Hosting für ein fokussiertes Kartensystem:** Ziehe Flashcards in Betracht, wenn dir Karten mit Vorder- und Rückseite genügen und du einen Neustart des Lernplans sowie erheblichen Betriebsaufwand auf AWS akzeptierst.
+- **Quellcode und Self-Hosting für ein fokussiertes Kartensystem:** Ziehe Nibomo in Betracht, wenn dir Karten mit Vorder- und Rückseite genügen und du einen Neustart des Lernplans sowie erheblichen Betriebsaufwand auf AWS akzeptierst.
 - **PDFs lesen, verknüpfte Markierungen nutzen und Karten an einem Ort erstellen:** Bleibe bei RemNote. Keine der anderen Optionen bildet diesen Workflow sauber nach.
 
 Gerade die letzte Antwort wird leicht übersehen. Ein Wechsel ist kein Fortschritt, wenn die Alternative zwar deinen Wunsch nach einer anderen Lizenz erfüllt, aber schon die nächste Lerneinheit erschwert.
@@ -48,7 +48,7 @@ Gerade die letzte Antwort wird leicht übersehen. Ein Wechsel ist kein Fortschri
 
 Die Tabelle ist keine Punktewertung. Wer intensiv mit PDFs lernt, kann durch den Wechsel zur „offensten“ Option mehr verlieren, als die Lizenz bringt. Wer nur ein einfaches Vokabeldeck nutzt, bezahlt womöglich für ein Notizsystem, das gar nicht mehr gebraucht wird. Beginne mit der Zeile, die deine wichtigste Einschränkung beschreibt, und teste dann die jeweilige Migrationsgrenze.
 
-Kostenlos und Open Source sind zwei verschiedene Kriterien. RemNote Free und Obsidian kosten in der Grundversion nichts, sind aber proprietär. Ankis Desktop-Kern, Logseq und Flashcards veröffentlichen ihren Quellcode. AnkiMobile bleibt eine kostenpflichtige iOS-App, und beim Self-Hosting von Flashcards fallen weiterhin Cloud-Kosten an.
+Kostenlos und Open Source sind zwei verschiedene Kriterien. RemNote Free und Obsidian kosten in der Grundversion nichts, sind aber proprietär. Ankis Desktop-Kern, Logseq und Nibomo veröffentlichen ihren Quellcode. AnkiMobile bleibt eine kostenpflichtige iOS-App, und beim Self-Hosting von Nibomo fallen weiterhin Cloud-Kosten an.
 
 ## Bleibe bei RemNote, wenn der verknüpfte Workflow den eigentlichen Wert ausmacht
 
@@ -90,15 +90,15 @@ Auch bei der Portabilität lohnt sich ein genauer Blick. Die aktuelle [Exportdok
 
 Logseq ist damit die Option, die du prüfen solltest, wenn Open Source, verknüpfte Notizen, PDFs und integrierte Karten gleichermaßen wichtig sind. Für den Umzug einer kritischen Wissensdatenbank aus dem Medizinstudium an einem einzigen Tag würde ich es im August 2026 nicht wählen. Lass Logseq zunächst parallel zu RemNote laufen und prüfe, wie sich die laufende Umstellung auf den Geräten verhält, die du tatsächlich nutzt.
 
-## Flashcards: offener Full Stack, bewusst schmales Lernmodell
+## Nibomo: offener Full Stack, bewusst schmales Lernmodell
 
-Flashcards setzt fast den entgegengesetzten Schwerpunkt zu RemNote. Die [Funktionen](/de/features/) konzentrieren sich auf Markdown-Karten mit Vorder- und Rückseite, Decks, Tags, Medien, FSRS-Wiederholungen, Offline-first-Clients und KI-gestützte Kartenentwürfe. Es gibt keine Wissensdatenbank für verknüpfte Notizen, keinen PDF-Reader, keine native Desktop-App und keinen direkten RemNote-Importer.
+Nibomo setzt fast den entgegengesetzten Schwerpunkt zu RemNote. Die [Funktionen](/de/features/) konzentrieren sich auf Markdown-Karten mit Vorder- und Rückseite, Decks, Tags, Medien, FSRS-Wiederholungen, Offline-first-Clients und KI-gestützte Kartenentwürfe. Es gibt keine Wissensdatenbank für verknüpfte Notizen, keinen PDF-Reader, keine native Desktop-App und keinen direkten RemNote-Importer.
 
 Der Zugriff auf den Quellcode reicht weit: Das MIT-lizenzierte Repository umfasst Web, iOS, Android, Authentifizierung, Backend, Synchronisierung und Infrastruktur. Die unterstützte [Anleitung für Self-Hosting in Produktion](/de/docs/self-hosting/) nutzt AWS CDK. Das ist keine lokale Lösung, die mit einem einzigen Befehl läuft. Betreiber kümmern sich selbst um Cloud-Kosten, Secrets, Migrationen, Monitoring, Backups, Wiederherstellungstests und separat gebaute Mobile-Apps.
 
-Für bestehende RemNote-Nutzer ist die Migration die größere Einschränkung. Flashcards importiert eigene `flashcards.zip`-Pakete, aber weder RemNote-Markdown noch Anki-Dateien im Format `.apkg`. Diese Pakete enthalten Karten, Tags und referenzierte Medien, aber keinen Wiederholungsverlauf, keinen FSRS-Stand, keine Workspace-Einstellungen, keine vollständige Deckstruktur und keine Konten. Der KI-Chat kann exportierten Text in überprüfte Kartenentwürfe verwandeln. Dabei werden Inhalte neu aufgebaut; die bisherige Sammlung wird nicht fortgesetzt. Die [Anleitung zur Migration aus einem Anki-TXT-Export](/de/blog/migrate-from-anki-txt-export-open-source-flashcards/) zeigt diese verlustbehaftete Grenze Schritt für Schritt.
+Für bestehende RemNote-Nutzer ist die Migration die größere Einschränkung. Nibomo importiert eigene `flashcards.zip`-Pakete, aber weder RemNote-Markdown noch Anki-Dateien im Format `.apkg`. Diese Pakete enthalten Karten, Tags und referenzierte Medien, aber keinen Wiederholungsverlauf, keinen FSRS-Stand, keine Workspace-Einstellungen, keine vollständige Deckstruktur und keine Konten. Der KI-Chat kann exportierten Text in überprüfte Kartenentwürfe verwandeln. Dabei werden Inhalte neu aufgebaut; die bisherige Sammlung wird nicht fortgesetzt. Die [Anleitung zur Migration aus einem Anki-TXT-Export](/de/blog/migrate-from-anki-txt-export-open-source-flashcards/) zeigt diese verlustbehaftete Grenze Schritt für Schritt.
 
-Wähle Flashcards für ein neues oder einfaches Kartensystem, wenn dir der Zugriff auf den gesamten Quellcode wichtig ist. Bleibe für vernetztes Lernen bei RemNote, und wähle Anki, wenn eine originalgetreue Migration oder eine anspruchsvollere Kartenstruktur entscheidend ist. Für den engeren Vergleich der Kartensysteme findest du weitere Details unter [Anki vs. Nibomo](/de/blog/anki-vs-flashcards-open-source-app/) und im [Leitfaden zu Open-Source-Lernkarten-Apps](/de/blog/best-open-source-flashcard-apps-2026/).
+Wähle Nibomo für ein neues oder einfaches Kartensystem, wenn dir der Zugriff auf den gesamten Quellcode wichtig ist. Bleibe für vernetztes Lernen bei RemNote, und wähle Anki, wenn eine originalgetreue Migration oder eine anspruchsvollere Kartenstruktur entscheidend ist. Für den engeren Vergleich der Kartensysteme findest du weitere Details unter [Anki vs. Nibomo](/de/blog/anki-vs-flashcards-open-source-app/) und im [Leitfaden zu Open-Source-Lernkarten-Apps](/de/blog/best-open-source-flashcard-apps-2026/).
 
 ## Was sich aus RemNote nicht sauber übertragen lässt
 
@@ -134,8 +134,8 @@ Bewahre die Quellexporte auch nach dem Wechsel auf. Ein erfolgreicher Import bel
 - **Wähle Anki**, wenn Karten, Vorlagen, FSRS-Einstellungen und eine originalgetreue Migration an erster Stelle stehen.
 - **Wähle Obsidian plus Anki**, wenn dir einfache lokale Notizdateien den Aufwand mit zwei Tools wert sind.
 - **Prüfe Logseq**, wenn du eine Open-Source-Lösung für verknüpfte Notizen und integrierte Karten brauchst. Nutze dabei nur unkritische Testdaten, solange die aktuelle Datenbank und die Synchronisierung noch im Beta- beziehungsweise Alpha-Stadium sind.
-- **Wähle Flashcards**, wenn dir ein einfaches neues Kartensystem und der Zugriff auf den gesamten Quellcode wichtiger sind als Notizen, PDFs oder die Fortführung deines Lernplans.
+- **Wähle Nibomo**, wenn dir ein einfaches neues Kartensystem und der Zugriff auf den gesamten Quellcode wichtiger sind als Notizen, PDFs oder die Fortführung deines Lernplans.
 
-Ich entwickle Flashcards und würde für ein PDF-lastiges, verknüpftes Notizbuch trotzdem bei RemNote bleiben oder für eine komplexe, über Jahre gewachsene Sammlung Anki wählen. Flashcards ist die schmalere Lösung: Karten mit Vorder- und Rückseite, ein offener Stack und ein neuer Lernplan.
+Ich entwickle Nibomo und würde für ein PDF-lastiges, verknüpftes Notizbuch trotzdem bei RemNote bleiben oder für eine komplexe, über Jahre gewachsene Sammlung Anki wählen. Nibomo ist die schmalere Lösung: Karten mit Vorder- und Rückseite, ein offener Stack und ein neuer Lernplan.
 
-Sobald du weißt, welche Grenze du akzeptieren kannst, teste nur diese Option. Wenn Flashcards passt, zeigt dir die [Anleitung für den Einstieg](/de/docs/getting-started/) die Einstiegspunkte für die gehostete und die selbst gehostete Variante. Wenn es nicht passt, ist es genauso legitim, bei RemNote zu bleiben.
+Sobald du weißt, welche Grenze du akzeptieren kannst, teste nur diese Option. Wenn Nibomo passt, zeigt dir die [Anleitung für den Einstieg](/de/docs/getting-started/) die Einstiegspunkte für die gehostete und die selbst gehostete Variante. Wenn es nicht passt, ist es genauso legitim, bei RemNote zu bleiben.

@@ -1,6 +1,6 @@
 ---
 title: "So erstellst du 2026 mit Claude Lernkarten: Projects, Datei-Uploads und FSRS-Wiederholung"
-description: "Ein praktischer Claude-Flashcards-Workflow für 2026: Nutze Projects und Datei-Uploads für kleinere, sauberere Kartenentwürfe und verschiebe dann nur die brauchbaren Karten in Flashcards für echte FSRS-Wiederholung."
+description: "Ein praktischer Claude-Flashcards-Workflow für 2026: Nutze Projects und Datei-Uploads für kleinere, sauberere Kartenentwürfe und verschiebe dann nur die brauchbaren Karten in Nibomo für echte FSRS-Wiederholung."
 date: "2026-06-11"
 image: "/blog/how-to-use-claude-to-make-flashcards.png"
 keywords:
@@ -234,15 +234,15 @@ Das sind unterschiedliche Aufgaben.
 
 Wenn du die Scheduling-Seite ausführlicher willst, ist [FSRS vs SM-2 im Jahr 2026](/de/blog/fsrs-vs-sm-2/) der direkte Begleitartikel.
 
-## Verschiebe die guten Karten in Flashcards, ohne so zu tun, als gäbe es eine magische Claude-Integration
+## Verschiebe die guten Karten in Nibomo, ohne so zu tun, als gäbe es eine magische Claude-Integration
 
 Dieser Teil muss ehrlich bleiben.
 
-Es gibt hier keinen besonderen Claude-zu-Flashcards-Button, und ich würde auch nicht so tun, als gäbe es ihn. Die nützliche Übergabe ist einfacher:
+Es gibt hier keinen besonderen Claude-zu-Nibomo-Button, und ich würde auch nicht so tun, als gäbe es ihn. Die nützliche Übergabe ist einfacher:
 
 1. Entwirf Kartenkandidaten in Claude.
 2. Lösche oder überarbeite die schwachen Karten.
-3. Kopiere die Überlebenden in den Flashcards-KI-Chat oder erstelle sie direkt in der App.
+3. Kopiere die Überlebenden in den Nibomo-KI-Chat oder erstelle sie direkt in der App.
 4. Organisiere sie in Decks und Tags.
 5. Wiederhole das fertige Deck mit FSRS.
 
@@ -268,7 +268,7 @@ Diese Version würde ich behalten:
 3. Lade einen kleinen Batch hoch: eine Vorlesung, einen Lektüreabschnitt oder korrigierte Übungsfragen.
 4. Bitte Claude um schlichte Vorder-/Rückseiten-Kandidaten.
 5. Lösche oder überarbeite schwache Karten sofort.
-6. Verschiebe die Überlebenden in den Flashcards-KI-Chat oder erstelle sie direkt in der App.
+6. Verschiebe die Überlebenden in den Nibomo-KI-Chat oder erstelle sie direkt in der App.
 7. Wiederhole das fertige Deck mit FSRS.
 
 Das ist ein glaubwürdigerer Workflow, als so zu tun, als wäre Claude selbst der Ort für langfristiges Behalten.
@@ -291,4 +291,4 @@ Das ist die Version von **Lernkarten mit Claude erstellen**, die 2026 wirklich t
 
 Claude ist gut darin, dich schneller von chaotischem Quellmaterial zu Kartenkandidaten zu bringen.
 
-Flashcards plus FSRS macht aus diesen Kandidaten etwas, an das du dich einen Monat später vielleicht immer noch erinnerst.
+Nibomo plus FSRS macht aus diesen Kandidaten etwas, an das du dich einen Monat später vielleicht immer noch erinnerst.

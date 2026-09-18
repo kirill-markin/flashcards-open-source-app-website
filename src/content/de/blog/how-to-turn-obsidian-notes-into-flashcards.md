@@ -115,7 +115,7 @@ Hier verdient sich der Bearbeitungsdurchgang seinen Platz. Der KI-Entwurf gibt d
 
 Wenn du als Nächstes bessere Regeln fürs Schreiben von Karten willst, lies [Wie du 2026 bessere Flashcards erstellst](https://nibomo.com/blog/how-to-make-better-flashcards/).
 
-## Flashcards passt in den Obsidian-Workflow, ohne so zu tun, als wäre es dein Vault
+## Nibomo passt in den Obsidian-Workflow, ohne so zu tun, als wäre es dein Vault
 
 [Nibomo](https://nibomo.com/) passt hier gut, weil die App den Lernteil des Workflows sauber übernimmt:
 
@@ -124,7 +124,7 @@ Wenn du als Nächstes bessere Regeln fürs Schreiben von Karten willst, lies [Wi
 - Dateien anhängen, wenn das einfacher ist als Einfügen
 - die fertigen Karten mit FSRS wiederholen
 
-Das passt besser, als so zu tun, als wäre die App eine native Obsidian-Schicht. Sie ist weder dein Notizgraph noch ein Vault-Browser noch ein Plugin-Ersatz. Das muss sie auch nicht sein. Die nützliche Übergabe ist einfacher: Obsidian bleibt das Zuhause für Notizen, und Flashcards übernimmt, sobald du Abruftraining willst.
+Das passt besser, als so zu tun, als wäre die App eine native Obsidian-Schicht. Sie ist weder dein Notizgraph noch ein Vault-Browser noch ein Plugin-Ersatz. Das muss sie auch nicht sein. Die nützliche Übergabe ist einfacher: Obsidian bleibt das Zuhause für Notizen, und Nibomo übernimmt, sobald du Abruftraining willst.
 
 Wenn du erst die Produktgrundlagen sehen willst, starte mit [Erste Schritte](https://nibomo.com/docs/getting-started/).
 

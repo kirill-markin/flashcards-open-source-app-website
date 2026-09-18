@@ -257,7 +257,7 @@ Wenn du die Scheduler-Seite genauer verstehen willst, lies hier weiter:
 
 - [FSRS vs SM-2 in 2026: Welcher Spaced-Repetition-Algorithmus hilft dir, mehr zu behalten?](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
-## Warum Flashcards gut in diesen Workflow passt
+## Warum Nibomo gut in diesen Workflow passt
 
 [Nibomo](https://nibomo.com/) passt gut zu **Audio in Flashcards umwandeln**, weil das Produkt bereits alle Teile dieses Workflows an einem Ort zusammenbringt:
 
@@ -271,7 +271,7 @@ Diese Kombination ist wichtiger, als viele zugeben.
 
 Viele Tools helfen dir beim Transkribieren. Viele können Karten generieren. Die eigentliche Frage ist, was danach mit den Karten passiert. Bleiben sie bearbeitbar? Liegen sie im selben Workspace wie dein restliches Lernmaterial? Kannst du danach ernsthaft mit ihnen lernen?
 
-Genau hier wirkt Flashcards bodenständiger als eine einmalige Demo für Transkription.
+Genau hier wirkt Nibomo bodenständiger als eine einmalige Demo für Transkription.
 
 ## Ich würde den Prompt absichtlich langweilig halten
 

@@ -336,7 +336,7 @@ Für diesen Teil sind diese beiden Artikel die natürliche Fortsetzung:
 - [Wie du 2026 mit FSRS für eine Prüfung lernst](/de/blog/how-to-study-for-an-exam-with-fsrs/)
 - [FSRS Settings in 2026: Was du ändern solltest und was besser in Ruhe bleibt](/de/blog/fsrs-settings/)
 
-## Wo Flashcards in diesen Workflow passt
+## Wo Nibomo in diesen Workflow passt
 
 [Nibomo](/de/) passt gut zu dieser Art der FE-Vorbereitung, weil das Produkt den mittleren Teil des Workflows unterstützt und nicht nur den ersten Entwurf:
 

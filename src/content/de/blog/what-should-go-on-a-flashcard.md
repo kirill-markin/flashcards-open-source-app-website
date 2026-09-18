@@ -290,7 +290,7 @@ Das ist schon der ganze Workflow.
 
 Nichts Raffiniertes daran. Genau deshalb funktioniert er.
 
-## Wo Flashcards hineinpasst
+## Wo Nibomo hineinpasst
 
 [Nibomo](/de/features/) funktioniert am besten, nachdem du aufgehört hast, jeden Satz aus der Quelle als zukünftige Karte zu behandeln.
 

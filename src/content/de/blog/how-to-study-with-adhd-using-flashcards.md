@@ -174,7 +174,7 @@ In der Praxis kann das heißen: Du beendest einen kurzen Biologie-Abschnitt, mac
 
 Dieser Workflow ist weniger aufregend als ein riesiges automatisch erzeugtes Deck. Er ist aber deutlich leichter, morgen wieder zu starten.
 
-## Wo Flashcards in diesen Ablauf passt
+## Wo Nibomo in diesen Ablauf passt
 
 [Nibomo](/de/) passt gut zu diesem Workflow, weil das Produkt schon um die Teile herum gebaut ist, die wichtig werden, sobald die Motivation nachlässt:
 

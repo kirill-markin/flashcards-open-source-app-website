@@ -238,7 +238,7 @@ Ich würde das in dieser Reihenfolge tun:
 
 Damit löst du mehr Fälle als mit den meisten komplizierten Optimierungsratschlägen.
 
-## Wo Flashcards in diesen Ablauf gut passt
+## Wo Nibomo in diesen Ablauf gut passt
 
 [Nibomo](https://nibomo.com/) passt für dieses konkrete Problem gut, weil das Produkt den gesamten Ablauf "weniger Müll erzeugen, die guten Karten schneller wiederholen" unterstützt, ohne so zu tun, als wäre jeder Schritt dieselbe Aufgabe.
 

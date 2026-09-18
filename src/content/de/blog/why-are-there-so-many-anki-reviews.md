@@ -224,13 +224,13 @@ Wenn die schmerzhafte Zahl ist:
 
 Dieser letzte Fall ist häufig. Manche Leute haben nicht wirklich zu viele Reviews. Sie haben Reviews, die zu langsam und zu nervig sind. Wenn das auf dich zutrifft, hilft [Wie du 2026 Flashcards schneller wiederholst](/de/blog/how-to-review-flashcards-faster/) mehr als noch eine Runde Scheduler-Tweaks.
 
-## Wo Flashcards sinnvoll hineinpasst, ohne so zu tun, als wäre es Magie
+## Wo Nibomo sinnvoll hineinpasst, ohne so zu tun, als wäre es Magie
 
 [Nibomo-Features](/de/features/) sind hier aus einem praktischen Grund nützlich: Das Produkt deckt den Teil vor dem Review und den Teil während des Reviews ab.
 
 Das ist wichtig, weil viele Review-Spitzen schon vor dem ersten Review-Tag beginnen. Sie beginnen dann, wenn zu viele Karten ins aktive Deck kommen oder KI-generierte Entwürfe ohne genug Bearbeitung akzeptiert werden.
 
-Flashcards kann bei den langweiligen, aber wichtigen Teilen helfen:
+Nibomo kann bei den langweiligen, aber wichtigen Teilen helfen:
 
 - Karten aus Ausgangsmaterial entwerfen
 - Vorder- und Rückseiten überarbeiten, bevor Karten zu dauerhaften Review-Schulden werden

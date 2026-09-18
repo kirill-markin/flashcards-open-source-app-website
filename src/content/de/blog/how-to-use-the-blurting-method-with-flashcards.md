@@ -286,7 +286,7 @@ Diese Kombination ist in den letzten zwei Wochen vor einer Pr체fung besonders n�
 
 Wenn dein Pr체fungs-Workflow mehr Struktur braucht, ist [Wie du 2026 mit FSRS f체r eine Pr체fung lernst](/de/blog/how-to-study-for-an-exam-with-fsrs/) das richtige Begleitst체ck.
 
-## Wo Flashcards hineinpasst
+## Wo Nibomo hineinpasst
 
 [Nibomo](/de/) passt gut in diesen Workflow, weil das Produkt genau den Teil abdeckt, den Blurting nicht 체bernimmt:
 

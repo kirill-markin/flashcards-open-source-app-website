@@ -269,7 +269,7 @@ Nicht:
 
 Wenn dir sonst vor allem die Review-Last den Plan kaputtmacht, passen [Wie viele neue Flashcards pro Tag im Jahr 2026?](/blog/how-many-new-flashcards-per-day/) und [Wie du 2026 mit FSRS für eine Prüfung lernst](/blog/how-to-study-for-an-exam-with-fsrs/) hier direkt dazu.
 
-## Wo Flashcards in diesem Workflow gut hineinpasst
+## Wo Nibomo in diesem Workflow gut hineinpasst
 
 [Nibomo](/) passt gut zur CCNA-Vorbereitung, weil diese Prüfung chaotisches Ausgangsmaterial produziert: Lab-Notizen, eingefügter CLI-Output, kurze Fehlerprotokolle und kleine Troubleshooting-Zusammenfassungen. Die App kann den Aufbereitungsschritt und den Review-Schritt abbilden, ohne so zu tun, als wären das dieselben Aufgaben.
 

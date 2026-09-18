@@ -243,7 +243,7 @@ Was FSRS gut kann, ist das Timing zu steuern, sobald die Karten klar genug sind,
 
 Wenn du den Vergleich der Scheduler selbst willst, deckt [FSRS vs SM-2 in 2026](https://nibomo.com/blog/fsrs-vs-sm-2/) genau diesen Teil ab.
 
-## Wie Flashcards in diesen Workflow passt
+## Wie Nibomo in diesen Workflow passt
 
 [Nibomo](https://nibomo.com/) passt gut zum Thema **wie man KI-Flashcards repariert**, weil das Produkt genau die unbequeme Mitte abdeckt, die die meisten Generatoren offenlassen:
 

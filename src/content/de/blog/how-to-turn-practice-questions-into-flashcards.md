@@ -221,7 +221,7 @@ Ich würde lieber in kleinen Batches arbeiten:
 
 Das macht den Entwurf sauberer und die Review-Warteschlange verlässlicher.
 
-## Wo Flashcards in diesen Workflow passt
+## Wo Nibomo in diesen Workflow passt
 
 [Nibomo](https://nibomo.com/) passt gut dazu, **Übungsfragen in Flashcards umzuwandeln**, weil das Produkt die Bausteine dieses Workflows schon mitbringt:
 

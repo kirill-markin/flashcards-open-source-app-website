@@ -201,7 +201,7 @@ Sei skeptisch gegenüber Behauptungen, eine adaptive oder KI-generierte Reihenfo
 
 Halte die FSRS-Planung aus dem Experiment mit der Kartenfolge heraus. **Interleaving mit Spaced Repetition** sollte den FSRS-Wiederholungsverlauf und die bestehenden Fälligkeiten unverändert lassen. Ergänze das Wiederholungssystem um bewusst gemischte Übungen. Setze bereits gefestigte Karten nicht ständig zurück oder plane sie neu, nur um ein attraktives Muster beizubehalten.
 
-## So passt Flashcards in diesen Workflow
+## So passt Nibomo in diesen Workflow
 
 [Nibomo](/de/features/) übernimmt in diesem Workflow klar abgegrenzt die langfristige Wiederholung: mit eindeutigen Vorder-/Rückseitenkarten, vier Bewertungsoptionen pro Wiederholung und FSRS-Planung für fällige Karten. Die veröffentlichte Funktionsbeschreibung verspricht kein automatisches Interleaving über Decks oder Workspaces hinweg. Gehe daher nicht davon aus, dass eine normale Warteschlange fälliger Karten bewusst Kontrastpaare für dich zusammenstellt.
 

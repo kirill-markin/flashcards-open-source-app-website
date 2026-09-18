@@ -255,7 +255,7 @@ Wenn deine Warteschlange schon schwerer wird, als sie sein sollte, lösen diese 
 - [How Many New Flashcards Per Day in 2026?](https://nibomo.com/blog/how-many-new-flashcards-per-day/)
 - [How to Review Flashcards Faster in 2026](https://nibomo.com/blog/how-to-review-flashcards-faster/)
 
-## Wo Flashcards in diesen Ablauf passt
+## Wo Nibomo in diesen Ablauf passt
 
 [Nibomo](https://nibomo.com/) passt gut zu dieser Art des Pharmakologie-Lernens, weil der nützliche Teil nicht darin besteht, die Pharmakologie an KI abzugeben. So würde ich nicht lernen.
 

@@ -159,7 +159,7 @@ Papier hat echte Vorteile: Du brauchst kein Gerät und kein Konto, und du kannst
 
 Der **beste Wiederholungsplan für Flashcards** ist zum Teil eine Entscheidung über die Arbeitslast. Die Desired Retention gibt einem FSRS-Scheduler vor, mit welcher Wahrscheinlichkeit du dich an eine Karte erinnern möchtest, wenn sie fällig wird. Ein höherer Zielwert führt in der Regel zu kürzeren Intervallen und mehr Wiederholungen, wie das offizielle [Anki-Handbuch zu FSRS](https://docs.ankiweb.net/deck-options.html#fsrs) erklärt.
 
-Das Handbuch nennt `0.90` als Ankis Standardwert und warnt davor, dass die Arbeitslast schnell steigt, wenn sich die Desired Retention `1.0` nähert. Das ist nützlicher allgemeiner Kontext zu FSRS, aber keine Behauptung, dass jede Anki-Option auch in Flashcards vorhanden ist. Die Standardwerte und Grenzen dieses Produkts findest du im [Scheduler-Dokument von Flashcards](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/docs/fsrs-scheduling-logic.md).
+Das Handbuch nennt `0.90` als Ankis Standardwert und warnt davor, dass die Arbeitslast schnell steigt, wenn sich die Desired Retention `1.0` nähert. Das ist nützlicher allgemeiner Kontext zu FSRS, aber keine Behauptung, dass jede Anki-Option auch in Nibomo vorhanden ist. Die Standardwerte und Grenzen dieses Produkts findest du im [Scheduler-Dokument von Nibomo](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/docs/fsrs-scheduling-logic.md).
 
 Ein Zielwert von `0.90` bedeutet weder „Wiederhole jede Karte alle zehn Tage“ noch garantiert er, dass du in jeder kleinen Sitzung exakt 90 Prozent richtig beantwortest. Er steuert die Berechnung des Intervalls auf Basis der aktuellen Schätzung für den Gedächtniszustand der Karte.
 

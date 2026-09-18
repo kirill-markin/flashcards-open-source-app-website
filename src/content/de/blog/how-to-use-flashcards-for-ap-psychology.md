@@ -241,7 +241,7 @@ Wenn du die Planungsseite ausführlicher willst, passen diese beiden Artikel am 
 - [Wie du 2026 mit FSRS für eine Prüfung lernst](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)
 - [FSRS vs. SM-2 im Jahr 2026](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
-## Wo Flashcards in einen AP-Psychology-Workflow passen
+## Wo Nibomo in einen AP-Psychology-Workflow passt
 
 Wenn du das innerhalb von [Nibomo](https://nibomo.com/) umsetzen willst, ist der nützliche Teil nicht irgendein vages Versprechen, dass KI AP Psych schon irgendwie für dich übernehmen wird.
 

@@ -214,7 +214,7 @@ Das sind keine Flashcards. Das sind winzige Hausaufgaben in Flashcard-Verkleidun
 
 Wenn sich deine KI-generierten Karten jetzt schon aufgebläht anfühlen, ist [So reparierst du 2026 KI-Flashcards](/de/blog/how-to-fix-ai-flashcards/) die nächste sinnvolle Lektüre.
 
-## Wo Flashcards in diesen Ablauf passt
+## Wo Nibomo in diesen Ablauf passt
 
 [Nibomo](/de/) passt am besten nach der Hausaufgabe, wenn das eigentliche Lernen wieder beginnt.
 
@@ -226,7 +226,7 @@ Diese Übergabe passt auch gut zur aktuellen Produktoberfläche:
 - jetzt in der Web-App weiterlernen, mit dem Offline-First-iOS-Client im Repository und der Android-App bei Google Play
 - später zum Self-Hosting wechseln, wenn dir langfristige Kontrolle wichtig ist
 
-So bleibt der Workflow ehrlich. KI hilft beim Verstehen. Hausaufgaben zeigen, wo du schwach warst. Flashcards hält genau diese Schwachstellen lange genug präsent, damit sie nicht wieder dieselben Fehler werden.
+So bleibt der Workflow ehrlich. KI hilft beim Verstehen. Hausaufgaben zeigen, wo du schwach warst. Nibomo hält genau diese Schwachstellen lange genug präsent, damit sie nicht wieder dieselben Fehler werden.
 
 Wenn du statt mit Hausaufgaben eher mit Notizen, Quizzen oder einer Tutor-Sitzung startest, sind das die sinnvollsten nächsten Artikel:
 

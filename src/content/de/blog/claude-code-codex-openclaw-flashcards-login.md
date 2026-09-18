@@ -1,6 +1,6 @@
 ---
-title: "So lässt du Claude Code, Codex oder OpenClaw die Anmeldung bei Flashcards für dich übernehmen"
-description: "Flashcards bietet einen Open-Source-Anmeldeablauf für Agenten: eine Discovery-URL, E-Mail-OTP und ein langlebiger API-Key. Gib deinem Agenten den Link, schick den aktuellen 8-stelligen Code zurück und lass ihn Konto- und Workspace-Einrichtung selbst abschließen."
+title: "So lässt du Claude Code, Codex oder OpenClaw die Anmeldung bei Nibomo für dich übernehmen"
+description: "Nibomo bietet einen Open-Source-Anmeldeablauf für Agenten: eine Discovery-URL, E-Mail-OTP und ein langlebiger API-Key. Gib deinem Agenten den Link, schick den aktuellen 8-stelligen Code zurück und lass ihn Konto- und Workspace-Einrichtung selbst abschließen."
 date: "2026-03-10"
 keywords:
   - "claude code anmeldung"
@@ -44,7 +44,7 @@ GET https://api.flashcards-open-source-app.com/v1/
 
 Auf einen Blick erfährt der Agent vier Dinge:
 
-- dass es sich um den Flashcards-Dienst handelt
+- dass es sich um den Nibomo-Dienst handelt
 - dass Anmeldung und Registrierung beide per E-Mail-OTP laufen
 - dass eine erfolgreiche Verifizierung einen langlebigen API-Key liefert
 - dass danach die Einrichtung von Konto und Workspace folgt
@@ -55,7 +55,7 @@ Der Ablauf ist bewusst schlank.
 
 1. Der Agent ruft den Discovery-Endpunkt auf.
 2. Der Agent sendet die E-Mail-Adresse des Nutzers an `send-code`.
-3. Flashcards verschickt den 8-stelligen Code und gibt ein `otpSessionToken` zurück.
+3. Nibomo verschickt den 8-stelligen Code und gibt ein `otpSessionToken` zurück.
 4. Der Agent fragt den Nutzer nach dem aktuellen Code.
 5. Der Agent verifiziert den Code und erhält einen langlebigen API-Key.
 6. Der Agent ruft `/v1/agent/me` und `/v1/agent/workspaces` auf.
@@ -68,10 +68,10 @@ Das ist wichtig, weil der Agent nicht bei "Login erfolgreich" stehen bleibt. Er 
 Das genügt:
 
 ```text
-Nutze diese Flashcards-Discovery-URL:
+Nutze diese Nibomo-Discovery-URL:
 https://api.flashcards-open-source-app.com/v1/
 
-Melde dich bei meinem Flashcards-Konto an, lade den Kontokontext und wähle den richtigen Workspace aus oder lege ihn an.
+Melde dich bei meinem Nibomo-Konto an, lade den Kontokontext und wähle den richtigen Workspace aus oder lege ihn an.
 Frag mich nur dann nach dem aktuellen 8-stelligen Code aus der E-Mail, wenn der Ablauf ihn benötigt.
 ```
 
@@ -82,7 +82,7 @@ Danach musst du die Authentifizierungsabfolge nicht mehr selbst erklären. Der E
 Gleiche Idee, nur etwas expliziter:
 
 ```text
-Verbinde mein Flashcards-Konto über diese URL:
+Verbinde mein Nibomo-Konto über diese URL:
 https://api.flashcards-open-source-app.com/v1/
 
 Folge den zurückgegebenen Anweisungen, behandle den API-Key sicher, lade mein Konto und fahre dann mit der Workspace-Einrichtung fort.
@@ -289,7 +289,7 @@ Das ist für Nutzer einfacher und deutlich leichter zu automatisieren.
 
 ## Das Ganze ist Open Source
 
-Flashcards ist Open Source. Du kannst also den gesamten Ablauf prüfen, statt ihn als Blackbox hinzunehmen.
+Nibomo ist Open Source. Du kannst also den gesamten Ablauf prüfen, statt ihn als Blackbox hinzunehmen.
 
 - Repository: [github.com/kirill-markin/flashcards-open-source-app](https://github.com/kirill-markin/flashcards-open-source-app)
 - Agent-Discovery-Route: [apps/backend/src/agent/discovery.ts](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/apps/backend/src/agent/discovery.ts)

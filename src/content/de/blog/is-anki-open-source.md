@@ -119,11 +119,11 @@ Wenn du selbst hostest, teste zunächst mit einem Konto, bevor du eine echte Sam
 
 Wenn du mitarbeiten möchtest, entscheide dich zuerst für den Produktbereich. Desktop und Android bieten öffentliche Wege für Beiträge. AnkiMobile und AnkiWeb veröffentlichen für einen solchen Ablauf nicht ihren vollständigen Quellcode.
 
-## Ein Hinweis zu Flashcards und der Kontrolle über den gesamten Stack
+## Ein Hinweis zu Nibomo und der Kontrolle über den gesamten Stack
 
 > **Offenlegung:** Ich bin Kirill Markin und entwickle [Nibomo](https://nibomo.com/). Das [MIT-lizenzierte Repository](https://github.com/kirill-markin/flashcards-open-source-app) enthält die Web-App, iOS- und Android-Clients, Authentifizierung, Backend, Synchronisierung und AWS-Infrastruktur. Damit lassen sich mehr Teile des Systems im Quellcode prüfen und selbst hosten als bei Ankis reinem Sync-Server. Nibomo ist allerdings deutlich jünger und weniger ausgereift. Auch bei Add-ons und der originalgetreuen Migration aus Anki ist es schwächer. Deshalb ist Nibomo nicht automatisch die beste Wahl.
 
-Für Flashcards ist das [Self-Hosting des gesamten Stacks auf AWS dokumentiert](/de/docs/self-hosting/). Eine universelle Bereitstellung mit einem einzigen Befehl ist es jedoch nicht. Betreiber sind selbst für AWS, Cloudflare, Authentifizierung, E-Mail-Versand, Datenbankwiederherstellung, Monitoring und Upgrades verantwortlich. Hinzu kommen der separate Build und die Verteilung der nativen Apps. Der [Self-Hosting-Leitfaden für Flashcards](/de/blog/self-hosted-open-source-flashcards-app-for-spaced-repetition/) bietet den kürzeren Produktüberblick, während [Anki im Vergleich mit Nibomo](/de/blog/anki-vs-flashcards-open-source-app/) die Unterschiede bei Reifegrad und Arbeitsabläufen behandelt.
+Für Nibomo ist das [Self-Hosting des gesamten Stacks auf AWS dokumentiert](/de/docs/self-hosting/). Eine universelle Bereitstellung mit einem einzigen Befehl ist es jedoch nicht. Betreiber sind selbst für AWS, Cloudflare, Authentifizierung, E-Mail-Versand, Datenbankwiederherstellung, Monitoring und Upgrades verantwortlich. Hinzu kommen der separate Build und die Verteilung der nativen Apps. Der [Self-Hosting-Leitfaden für Nibomo](/de/blog/self-hosted-open-source-flashcards-app-for-spaced-repetition/) bietet den kürzeren Produktüberblick, während [Anki im Vergleich mit Nibomo](/de/blog/anki-vs-flashcards-open-source-app/) die Unterschiede bei Reifegrad und Arbeitsabläufen behandelt.
 
 Wenn du weitere Projekte vergleichen möchtest, wendet der [Leitfaden zu Open-Source-Karteikarten-Apps](/de/blog/best-open-source-flashcard-apps-2026/) dieselben Fragen zu Lizenz, Offline-Nutzung, Synchronisierung, Migration und Self-Hosting auf mehrere Werkzeuge an.
 

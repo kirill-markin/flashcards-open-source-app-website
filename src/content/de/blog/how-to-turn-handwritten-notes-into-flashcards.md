@@ -166,7 +166,7 @@ Und wenn deine Quelle ein Dokument oder Vorlesungsfolien sind, ist dieser Artike
 
 - [Wie du 2026 eine PDF in Flashcards verwandelst: Vorlesungsfolien, Lehrbücher und Papers zu FSRS-Karten](https://nibomo.com/blog/how-to-turn-a-pdf-into-flashcards/)
 
-## Wo Flashcards in diesen Workflow passt
+## Wo Nibomo in diesen Workflow passt
 
 [Nibomo](https://nibomo.com/) passt gut, wenn du **handschriftliche Notizen in Flashcards verwandeln** willst, weil das Produkt genau die Bausteine zusammenbringt, die hier zählen:
 

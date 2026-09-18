@@ -210,7 +210,7 @@ Sommerdecks blähen sich auf, wenn Menschen "das kam im Kurs vor" mit "das verdi
 
 Wenn KI dein Deck schon größer gemacht hat als deine Geduld, ist [Wie du 2026 KI-Flashcards reparierst](/de/blog/how-to-fix-ai-flashcards/) der Aufräumartikel, den ich zuerst lesen würde.
 
-## Wo Flashcards gut hineinpasst
+## Wo Nibomo gut hineinpasst
 
 [Nibomo](/de/) passt gut zu dieser Art von Sommer-Wiederholung, weil das Schwierige nicht Neuheit ist. Es geht darum, lange genug reibungsarm zu bleiben, damit du dranbleibst.
 

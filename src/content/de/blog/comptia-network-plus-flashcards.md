@@ -268,7 +268,7 @@ Eine einfache Struktur ist ein Deck namens `N10-009` mit Tags wie `ports`, `subn
 
 [Nibomo](/de/features/) übernimmt den Teil des Ablaufs, der das Abrufen trainiert: Karten mit Vorder- und Rückseite, Decks und Tags, die Wiederholung fälliger Karten mit FSRS, Offline-Lernen und Synchronisierung, portable Exporte und eine Self-Hosting-Option. In der App sollten die einzelnen Fakten und Entscheidungen liegen, die du vor der praktischen Arbeit abrufen möchtest.
 
-Hier gibt es weder ein offizielles noch ein vorgefertigtes N10-009-Deck. Beginne mit den aktuellen CompTIA-Prüfungszielen und deinen eigenen Fehlern aus legitimen Lernmaterialien. [Erste Schritte](/de/docs/getting-started/) erklärt die gehostete und die selbst gehostete Nutzung, falls du dein Deck in Flashcards erstellen möchtest.
+Hier gibt es weder ein offizielles noch ein vorgefertigtes N10-009-Deck. Beginne mit den aktuellen CompTIA-Prüfungszielen und deinen eigenen Fehlern aus legitimen Lernmaterialien. [Erste Schritte](/de/docs/getting-started/) erklärt die gehostete und die selbst gehostete Nutzung, falls du dein Deck in Nibomo erstellen möchtest.
 
 Wenn du für eine verwandte Zertifizierung lernst, wendet der [Leitfaden zu CompTIA-A+-Lernkarten](/de/blog/comptia-a-plus-flashcards/) dieselbe Abgrenzung zwischen Abruf und Übung auf die Arbeit von IT-Technikern an. Der [Leitfaden zu CCNA-Lernkarten](/de/blog/how-to-use-flashcards-for-ccna/) geht ausführlicher auf Routing, Switching und das Üben von Befehlen ein.
 

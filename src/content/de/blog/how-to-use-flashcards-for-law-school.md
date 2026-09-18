@@ -218,7 +218,7 @@ Wenn du die Planungsseite ausführlicher willst, passen diese beiden Artikel am 
 - [Wie du 2026 mit FSRS für eine Prüfung lernst](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)
 - [FSRS vs. SM-2 im Jahr 2026](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
-## Wo Flashcards in diesen Jura-Workflow hineinpasst
+## Wo Nibomo in diesen Jura-Workflow hineinpasst
 
 Wenn du diesen Workflow in [Nibomo](https://nibomo.com/) umsetzen willst, ist der nützliche Teil nicht einfach nur abstrakt gesagt "KI erstellt Karten". Entscheidend ist, dass das aktuelle Produkt schon den unspektakulären Mittelteil der Arbeit unterstützt:
 
@@ -243,7 +243,7 @@ Wenn du **Flashcards für das Jurastudium** willst, die wirklich helfen:
 
 Das ist die Variante von **Flashcards im Jurastudium**, der ich vertrauen würde.
 
-Wenn du diesen Workflow in Flashcards ausprobieren willst:
+Wenn du diesen Workflow in Nibomo ausprobieren willst:
 
 - [Mit Nibomo starten](https://nibomo.com/)
 - [Die Web-App öffnen](https://app.flashcards-open-source-app.com/)

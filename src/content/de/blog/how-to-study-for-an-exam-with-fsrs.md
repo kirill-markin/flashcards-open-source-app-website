@@ -145,7 +145,7 @@ Wenn diese beiden Workflows verschwimmen, fühlt sich Lernen produktiv an, ohne 
 
 Genau deshalb profitiert Prüfungsvorbereitung so stark von einer langweiligen Grenze: früher Karten entwerfen, später Karten wiederholen.
 
-## Warum Flashcards hier besser in den Workflow passt
+## Warum Nibomo hier besser in den Workflow passt
 
 [Nibomo](https://nibomo.com/) passt gut zu diesem Problem, weil das Produkt beide Hälften abdecken kann, ohne so zu tun, als wären es dieselben Aufgaben.
 

@@ -50,7 +50,7 @@ Wenn du nach **pptx in flashcards umwandeln** suchst, hoffst du vielleicht auf e
 
 So funktioniert es nicht.
 
-Flashcards ist nützlich, nachdem du die inhaltlich wichtigen Teile der Folien zuerst extrahiert hast. Du kannst Text einfügen, unterstützendes Material hochladen, mit KI-Chat Karten entwerfen, Vorder- und Rückseiten bearbeiten, alles in Decks und Tags organisieren und mit FSRS wiederholen. Was das Produkt nicht macht, ist, ein rohes PowerPoint- oder Google-Slides-Deck nativ einzulesen und ganz allein in gute Karten zu verwandeln.
+Nibomo ist nützlich, nachdem du die inhaltlich wichtigen Teile der Folien zuerst extrahiert hast. Du kannst Text einfügen, unterstützendes Material hochladen, mit KI-Chat Karten entwerfen, Vorder- und Rückseiten bearbeiten, alles in Decks und Tags organisieren und mit FSRS wiederholen. Was das Produkt nicht macht, ist, ein rohes PowerPoint- oder Google-Slides-Deck nativ einzulesen und ganz allein in gute Karten zu verwandeln.
 
 Das klingt weniger magisch, ist aber ehrlicher. Der eigentliche Engpass war nie der Dateiimport. Der Engpass war immer, zu entscheiden, was die Folie überhaupt aussagen soll.
 
@@ -216,7 +216,7 @@ Dieser Ablauf hält im echten Alltag, weil der Entwurfsschritt klein bleibt und 
 
 Die flashy Variante scheitert meist aus demselben Grund: zu viele Karten, zu schnell, mit zu viel Vorlesungskurzschrift darin.
 
-## Wo Flashcards nach dem Extraktionsschritt hineinpasst
+## Wo Nibomo nach dem Extraktionsschritt hineinpasst
 
 Sobald der nützliche Folieninhalt als Text vorliegt, deckt [Nibomo](/de/features/) den Teil ab, der wirklich zählt:
 

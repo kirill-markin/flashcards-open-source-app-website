@@ -244,7 +244,7 @@ Wenn eher die Kartenqualität selbst der Schwachpunkt ist, würde ich als Nächs
 
 - [Wie du 2026 bessere Flashcards machst: Front- und Back-Regeln, die mit FSRS wirklich funktionieren](https://nibomo.com/blog/how-to-make-better-flashcards/)
 
-## Wo Flashcards besser in diesen Workflow hineinpasst
+## Wo Nibomo besser in diesen Workflow hineinpasst
 
 [Nibomo](https://nibomo.com/) passt gut zu dieser Art von Zertifizierungsvorbereitung, weil das Produkt die Teile bereits unterstützt, auf die dieser Workflow angewiesen ist:
 
