@@ -1,11 +1,10 @@
-import { SITE_URL } from "@/lib/site";
+import { PRODUCT_ROOT_HOSTNAMES } from "@/lib/site";
 
 export type ExternalLinkAttributes = Readonly<{
   rel?: "noopener noreferrer";
   target?: "_blank";
 }>;
 
-const internalRootHostname = new URL(SITE_URL).hostname;
 const websiteUrlPattern = /^(?:https?:)?\/\//i;
 
 function getWebsiteUrl(href: string): URL | null {
@@ -27,9 +26,11 @@ function getWebsiteUrl(href: string): URL | null {
 function isInternalHostname(hostname: string): boolean {
   const normalizedHostname = hostname.toLowerCase();
 
-  return (
-    normalizedHostname === internalRootHostname ||
-    normalizedHostname.endsWith(`.${internalRootHostname}`)
+  // Both product host families count as internal and open in the same tab.
+  return PRODUCT_ROOT_HOSTNAMES.some(
+    (rootHostname) =>
+      normalizedHostname === rootHostname ||
+      normalizedHostname.endsWith(`.${rootHostname}`),
   );
 }
 

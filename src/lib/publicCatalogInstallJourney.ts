@@ -1,6 +1,6 @@
 import type { AppLocale } from "./i18n";
 import type { PublicCatalogInstallPlacement } from "./publicCatalogAnalytics";
-import { SITE_URL } from "./site";
+import { PRODUCT_ROOT_HOSTNAMES } from "./site";
 
 type CatalogInstallSource =
   | "direct"
@@ -34,7 +34,6 @@ const CATALOG_INSTALL_EVENT_URL =
   "https://api.flashcards-open-source-app.com/v1/analytics/catalog-install-events";
 const CATALOG_APP_HOSTNAME = "app.flashcards-open-source-app.com";
 const INSTALL_JOURNEY_QUERY_PARAMETER = "install_journey_id";
-const PRODUCT_HOSTNAME = new URL(SITE_URL).hostname;
 const UUID_PATTERN =
   /^[0-9a-f]{8}-[0-9a-f]{4}-[1-8][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i;
 const PACKAGE_VERSION_PATH_PATTERN =
@@ -119,7 +118,8 @@ function classifyCatalogInstallSource(
   const hostname = referrerUrl.hostname.toLowerCase();
   if (
     hostnameMatches(hostname, currentHostname.toLowerCase())
-    || hostnameMatches(hostname, PRODUCT_HOSTNAME)
+    || PRODUCT_ROOT_HOSTNAMES.some((productHostname) =>
+      hostnameMatches(hostname, productHostname))
   ) {
     return "internal";
   }

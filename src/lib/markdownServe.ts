@@ -22,6 +22,7 @@ import {
   type MarkdownSiteContext,
 } from "@/lib/content/renderMarkdown";
 import { renderMarkdownLink } from "@/lib/markdownLinks";
+import { SITE_URL } from "@/lib/site";
 import {
   globalActivitySnapshotUrl,
   type GlobalActivitySnapshot,
@@ -48,7 +49,7 @@ import {
 import type { PublicCatalogReadModel } from "@/lib/publicCatalogReadModel";
 
 const SITE_CONTEXT: MarkdownSiteContext = {
-  siteUrl: "https://flashcards-open-source-app.com",
+  siteUrl: SITE_URL,
   appUrl: "https://app.flashcards-open-source-app.com",
   githubUrl: "https://github.com/kirill-markin/flashcards-open-source-app",
 };
