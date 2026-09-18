@@ -142,7 +142,7 @@ keywords:
 
 カードの質に関するより広い原則は、こちらです。
 
-- [2026年、より良いフラッシュカードを作る方法: FSRS と噛み合う表裏カードの原則](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [2026年、より良いフラッシュカードを作る方法: FSRS と噛み合う表裏カードの原則](https://nibomo.com/blog/how-to-make-better-flashcards/)
 
 ## ChatGPT Voice は、能動的に思い出せない箇所を見つけるのに特に向いている
 
@@ -171,7 +171,7 @@ keywords:
 
 もし材料が双方向の会話ではなく、自分で録音した生の音声なら、こちらの記事のほうが合います。
 
-- [2026年、音声メモをフラッシュカードに変える方法: 音声の書き起こしを全部やり直さずに FSRS 用カードにする](https://flashcards-open-source-app.com/blog/how-to-turn-voice-notes-into-flashcards/)
+- [2026年、音声メモをフラッシュカードに変える方法: 音声の書き起こしを全部やり直さずに FSRS 用カードにする](https://nibomo.com/blog/how-to-turn-voice-notes-into-flashcards/)
 
 ## 語学学習のカードは、自分の実際の会話に近いままであるべき
 
@@ -222,8 +222,8 @@ keywords:
 
 すでに問題が復習負荷のほうにあるなら、こちらの記事もそのままつながります。
 
-- [2026年、1日に何枚の新しいフラッシュカードを追加すべきか: 本当に終えられる FSRS の復習負荷を作る](https://flashcards-open-source-app.com/blog/how-many-new-flashcards-per-day/)
-- [2026年、遅れたフラッシュカードにどう追いつくか: デッキをリセットせずに復習の滞留を立て直す](https://flashcards-open-source-app.com/blog/how-to-catch-up-on-flashcards-after-falling-behind/)
+- [2026年、1日に何枚の新しいフラッシュカードを追加すべきか: 本当に終えられる FSRS の復習負荷を作る](https://nibomo.com/blog/how-many-new-flashcards-per-day/)
+- [2026年、遅れたフラッシュカードにどう追いつくか: デッキをリセットせずに復習の滞留を立て直す](https://nibomo.com/blog/how-to-catch-up-on-flashcards-after-falling-behind/)
 
 ## 話し言葉のフレーズは忘れ方に偏りがあるから、FSRS が効く
 
@@ -246,11 +246,11 @@ keywords:
 
 スケジューリングの話をもう少し詳しく知りたいなら、こちらです。
 
-- [2026年の FSRS vs SM-2: どの間隔反復アルゴリズムがより多く覚えられるか](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [2026年の FSRS vs SM-2: どの間隔反復アルゴリズムがより多く覚えられるか](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
 ## Flashcards がこの用途に合う理由
 
-[Nibomo](https://flashcards-open-source-app.com/) がこのワークフローに向いているのは、音声ベースの語学練習に必要なものが、すでにきれいにそろっているからです。
+[Nibomo](https://nibomo.com/) がこのワークフローに向いているのは、音声ベースの語学練習に必要なものが、すでにきれいにそろっているからです。
 
 - シンプルな表裏形式のカード作成
 - 長期復習のための FSRS スケジューリング
@@ -282,7 +282,7 @@ keywords:
 
 それをやりたいなら、ここから始めてください。
 
-- [Flashcards を開く](https://flashcards-open-source-app.com/)
-- [スタートガイドを読む](https://flashcards-open-source-app.com/docs/getting-started/)
-- [API ドキュメントを読む](https://flashcards-open-source-app.com/docs/api/)
+- [Flashcards を開く](https://nibomo.com/)
+- [スタートガイドを読む](https://nibomo.com/docs/getting-started/)
+- [API ドキュメントを読む](https://nibomo.com/docs/api/)
 - [GitHub でソースコードを見る](https://github.com/kirill-markin/flashcards-open-source-app)

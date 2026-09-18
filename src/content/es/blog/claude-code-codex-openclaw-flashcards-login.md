@@ -17,7 +17,7 @@ Abre la página de inicio de sesión. Espera el código. Copia el token. Crea un
 
 Ese es exactamente el tipo de trabajo que una herramienta debería hacer por ti.
 
-En [Nibomo](https://flashcards-open-source-app.com/), ahora ofrecemos un flujo abierto de inicio de sesión para agentes que arranca desde una única URL de descubrimiento:
+En [Nibomo](https://nibomo.com/), ahora ofrecemos un flujo abierto de inicio de sesión para agentes que arranca desde una única URL de descubrimiento:
 
 `https://api.flashcards-open-source-app.com/v1/`
 
@@ -134,7 +134,7 @@ Y la respuesta está estructurada para que los agentes que trabajan en terminal 
   "instructions": "Start with POST https://auth.flashcards-open-source-app.com/api/agent/send-code using the user's email, then POST https://auth.flashcards-open-source-app.com/api/agent/verify-code to obtain an API key. After login, call GET https://api.flashcards-open-source-app.com/v1/agent/me, then GET https://api.flashcards-open-source-app.com/v1/agent/workspaces?limit=100. If no workspace is selected for this API key, call POST https://api.flashcards-open-source-app.com/v1/agent/workspaces/{workspaceId}/select or create one with POST https://api.flashcards-open-source-app.com/v1/agent/workspaces using {\"name\":\"Personal\"}. After workspace bootstrap, use POST https://api.flashcards-open-source-app.com/v1/agent/sql/query for all shared card and deck reads (SHOW TABLES, DESCRIBE, SHOW COLUMNS, SELECT) and POST https://api.flashcards-open-source-app.com/v1/agent/sql/execute for card and deck authoring writes (INSERT, UPDATE, DELETE). Use docs.discoveryUrl for runtime discovery and docs.source.agentRoutesUrl for implementation details. The SQL surface is intentionally limited and is not full PostgreSQL.",
   "docs": {
     "discoveryUrl": "https://api.flashcards-open-source-app.com/v1/",
-    "docsUrl": "https://flashcards-open-source-app.com/docs/",
+    "docsUrl": "https://nibomo.com/docs/",
     "source": {
       "agentRoutesUrl": "https://github.com/kirill-markin/flashcards-open-source-app/tree/main/apps/backend/src/routes"
     }
@@ -311,9 +311,9 @@ Y deja que se encargue del resto.
 
 Enlaces útiles:
 
-- [Sitio web de Nibomo](https://flashcards-open-source-app.com/)
+- [Sitio web de Nibomo](https://nibomo.com/)
 - [Aplicación alojada](https://app.flashcards-open-source-app.com/)
-- [Primeros pasos](https://flashcards-open-source-app.com/docs/getting-started/)
+- [Primeros pasos](https://nibomo.com/docs/getting-started/)
 - [Repositorio en GitHub](https://github.com/kirill-markin/flashcards-open-source-app)
 
 Si el producto es de código abierto y el flujo de autenticación está lo bastante acotado, "deja que lo gestione el agente" debería funcionar de verdad. Para eso existe este flujo.

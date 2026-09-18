@@ -177,8 +177,8 @@ MCATの理科系内容の多くは、「純粋な事実」と「本格的な推�
 
 元の教材がノート、スライド、教科書のかたまり中心なら、前段の下書きには次の記事もつながります。
 
-- [2026年版 ノートをフラッシュカードに変える方法](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
-- [2026年版 PDFをフラッシュカードに変える方法](https://flashcards-open-source-app.com/blog/how-to-turn-a-pdf-into-flashcards/)
+- [2026年版 ノートをフラッシュカードに変える方法](https://nibomo.com/blog/turn-notes-into-flashcards/)
+- [2026年版 PDFをフラッシュカードに変える方法](https://nibomo.com/blog/how-to-turn-a-pdf-into-flashcards/)
 
 ## 演習で間違えた問題こそ、デッキのいちばん価値ある部分を形作る
 
@@ -209,7 +209,7 @@ MCATの理科系内容の多くは、「純粋な事実」と「本格的な推�
 
 この流れをより詳しく扱っている関連記事はこちらです。
 
-- [2026年版 演習問題をフラッシュカードに変える方法](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/)
+- [2026年版 演習問題をフラッシュカードに変える方法](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/)
 
 ## すべての誤答をカード化してはいけない
 
@@ -257,7 +257,7 @@ MCATは、パッセージ演習、日程管理、フルレングスの復習だ�
 
 整理そのものが課題なら、次の記事がこのMCAT運用によく合います。
 
-- [2026年版 フラッシュカードの整理術](https://flashcards-open-source-app.com/blog/how-to-organize-flashcards/)
+- [2026年版 フラッシュカードの整理術](https://nibomo.com/blog/how-to-organize-flashcards/)
 
 ## MCATの予定が不規則になるほど、FSRSは効きやすい
 
@@ -284,12 +284,12 @@ FSRSが役立つのは、定着の速さが内容ごとにばらつくからで�
 
 試験日程に合わせた運用をもう少し詳しく見たいなら、次の記事も相性が良いです。
 
-- [2026年版 FSRSで試験勉強する方法](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/)
-- [2026年のFSRSとSM-2を比較: より覚えやすい間隔反復アルゴリズムはどちらか](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [2026年版 FSRSで試験勉強する方法](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)
+- [2026年のFSRSとSM-2を比較: より覚えやすい間隔反復アルゴリズムはどちらか](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
 ## このMCAT運用での Flashcards の位置づけ
 
-[Nibomo](https://flashcards-open-source-app.com/) は、MCAT向けのこの運用とかなり相性が良いです。多くの受験生が複数のツールに分散させがちな部分を、まとめて扱えるからです。
+[Nibomo](https://nibomo.com/) は、MCAT向けのこの運用とかなり相性が良いです。多くの受験生が複数のツールに分散させがちな部分を、まとめて扱えるからです。
 
 この運用に必要な要素として、プロダクトにはすでに次があります。
 
@@ -326,4 +326,4 @@ FSRSが役立つのは、定着の速さが内容ごとにばらつくからで�
 
 私が信頼する **MCAT フラッシュカード** はこの形です。試験全体の万能解ではなく、CARSのパッセージ推論の代わりにもなりません。でも、事実、区別、そして圧のかかる場面で繰り返したくないミスを、長く支えてくれる仕組みにはなります。
 
-この流れをオープンソースの1つのスタックで回したいなら、[Nibomo](https://flashcards-open-source-app.com/) はかなり実用的です。ノートやアップロードした素材から下書きを作り、残す価値のあるカードだけを残し、復習タイミングはFSRSに任せながら、実際のMCAT演習に集中できます。
+この流れをオープンソースの1つのスタックで回したいなら、[Nibomo](https://nibomo.com/) はかなり実用的です。ノートやアップロードした素材から下書きを作り、残す価値のあるカードだけを残し、復習タイミングはFSRSに任せながら、実際のMCAT演習に集中できます。

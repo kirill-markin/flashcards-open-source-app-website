@@ -262,7 +262,7 @@ Elimina una.
 
 ## Dónde encaja Flashcards
 
-[Nibomo](https://flashcards-open-source-app.com/) encaja muy bien en **cómo organizar flashcards** porque el producto ya tiene las piezas que este flujo necesita:
+[Nibomo](https://nibomo.com/) encaja muy bien en **cómo organizar flashcards** porque el producto ya tiene las piezas que este flujo necesita:
 
 - mazos y etiquetas para estructura a largo plazo
 - mazos filtrados basados en etiquetas y nivel de esfuerzo
@@ -278,15 +278,15 @@ Se vuelve práctica en cuanto tu biblioteca deja de ser pequeña.
 
 Si tu siguiente problema es la calidad de las tarjetas y no la organización, lee esto después:
 
-- [Cómo hacer mejores Flashcards en 2026](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [Cómo hacer mejores Flashcards en 2026](https://nibomo.com/blog/how-to-make-better-flashcards/)
 
 Si tu problema real es la carga de repaso, éste también encaja:
 
-- [¿Cuántas Flashcards nuevas por día en 2026?](https://flashcards-open-source-app.com/blog/how-many-new-flashcards-per-day/)
+- [¿Cuántas Flashcards nuevas por día en 2026?](https://nibomo.com/blog/how-many-new-flashcards-per-day/)
 
 Y si estás construyendo colas temporales de examen a partir de errores, empieza aquí:
 
-- [Cómo convertir preguntas de práctica en Flashcards en 2026](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/)
+- [Cómo convertir preguntas de práctica en Flashcards en 2026](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/)
 
 ## La regla útil
 
@@ -304,7 +304,7 @@ Menos culpa estructural.
 
 Si eso es lo que quieres, empieza aquí:
 
-- [Abrir Nibomo](https://flashcards-open-source-app.com/)
+- [Abrir Nibomo](https://nibomo.com/)
 - [Abrir la app](https://app.flashcards-open-source-app.com/)
-- [Leer la guía de inicio](https://flashcards-open-source-app.com/docs/getting-started/)
+- [Leer la guía de inicio](https://nibomo.com/docs/getting-started/)
 - [Ver el código fuente en GitHub](https://github.com/kirill-markin/flashcards-open-source-app)

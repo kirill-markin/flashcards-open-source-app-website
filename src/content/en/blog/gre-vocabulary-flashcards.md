@@ -63,7 +63,7 @@ That mix gives you better **GRE verbal flashcards** than one giant deck of alpha
 
 If card writing is the real problem, this is the best companion article:
 
-- [How to Make Better Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [How to Make Better Flashcards in 2026](https://nibomo.com/blog/how-to-make-better-flashcards/)
 
 ## GRE sentence equivalence flashcards should focus on synonym contrast
 
@@ -141,7 +141,7 @@ I would not copy the whole question into one bloated card. I would reduce it to 
 
 If that workflow is the main thing you need, read this next:
 
-- [How to Turn Practice Questions Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/)
+- [How to Turn Practice Questions Into Flashcards in 2026](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/)
 
 ## A practical GRE vocabulary flashcards workflow
 
@@ -160,7 +160,7 @@ That gives you a better answer to **best GRE vocabulary flashcards** than downlo
 
 If organization is the bigger issue, this article fits directly:
 
-- [How to Organize Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-organize-flashcards/)
+- [How to Organize Flashcards in 2026](https://nibomo.com/blog/how-to-organize-flashcards/)
 
 ## How many new GRE vocab cards per day is realistic?
 
@@ -178,8 +178,8 @@ I would rather see a smaller deck you finish than a heroic deck you stop opening
 
 This is the same problem in more general form:
 
-- [How Many New Flashcards Per Day in 2026?](https://flashcards-open-source-app.com/blog/how-many-new-flashcards-per-day/)
-- [How to Review Flashcards Faster in 2026](https://flashcards-open-source-app.com/blog/how-to-review-flashcards-faster/)
+- [How Many New Flashcards Per Day in 2026?](https://nibomo.com/blog/how-many-new-flashcards-per-day/)
+- [How to Review Flashcards Faster in 2026](https://nibomo.com/blog/how-to-review-flashcards-faster/)
 
 ## FSRS helps GRE vocabulary because words age differently in memory
 
@@ -201,8 +201,8 @@ I would keep the order simple:
 
 If you want the scheduling side in more detail, these two articles fit best:
 
-- [How to Study for an Exam With FSRS in 2026](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/)
-- [FSRS Settings in 2026: What to Change and What to Leave Alone](https://flashcards-open-source-app.com/blog/fsrs-settings/)
+- [How to Study for an Exam With FSRS in 2026](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)
+- [FSRS Settings in 2026: What to Change and What to Leave Alone](https://nibomo.com/blog/fsrs-settings/)
 
 ## Mobile and offline review matter more for GRE than people expect
 
@@ -221,7 +221,7 @@ This is also why I like **GRE verbal flashcards** better when the deck lives in 
 
 If you already study vocabulary with sentence cards for another language, the workflow is surprisingly similar:
 
-- [How to Use Flashcards for Language Learning in 2026](https://flashcards-open-source-app.com/blog/how-to-use-flashcards-for-language-learning/)
+- [How to Use Flashcards for Language Learning in 2026](https://nibomo.com/blog/how-to-use-flashcards-for-language-learning/)
 
 ## AI can help draft GRE flashcards, but it usually overexplains
 
@@ -245,12 +245,12 @@ The fix is simple. Let AI draft fast, then cut hard.
 
 If your raw material starts as notes, article excerpts, or question reviews, these workflows help upstream:
 
-- [How to Turn Notes Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
-- [How to Turn an Article Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-turn-an-article-into-flashcards/)
+- [How to Turn Notes Into Flashcards in 2026](https://nibomo.com/blog/turn-notes-into-flashcards/)
+- [How to Turn an Article Into Flashcards in 2026](https://nibomo.com/blog/how-to-turn-an-article-into-flashcards/)
 
 ## Where Flashcards fits this GRE workflow
 
-If you want to run this inside [Nibomo](https://flashcards-open-source-app.com/), the useful part is not a vague promise that "AI makes study easier." It is that the current product already supports the practical middle of the workflow:
+If you want to run this inside [Nibomo](https://nibomo.com/), the useful part is not a vague promise that "AI makes study easier." It is that the current product already supports the practical middle of the workflow:
 
 - front/back card creation and editing
 - AI chat for drafting and cleanup
@@ -276,9 +276,9 @@ That is the version of a **GRE vocab deck** I would trust.
 
 If you want to try that workflow in Flashcards:
 
-- [Start with Nibomo](https://flashcards-open-source-app.com/)
+- [Start with Nibomo](https://nibomo.com/)
 - [Open the web app](https://app.flashcards-open-source-app.com/)
-- [Read the getting started guide](https://flashcards-open-source-app.com/docs/getting-started/)
+- [Read the getting started guide](https://nibomo.com/docs/getting-started/)
 - [View the source on GitHub](https://github.com/kirill-markin/flashcards-open-source-app)
 
 The goal is not to collect harder and harder words. It is to make the right meaning show up faster when the sentence turns, the answer choices get slippery, and the clock is already moving.

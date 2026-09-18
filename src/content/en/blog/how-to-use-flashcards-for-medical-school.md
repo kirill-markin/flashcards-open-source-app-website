@@ -66,11 +66,11 @@ I would rather split it into prompts such as:
 
 That gives you cleaner **anatomy flashcards medical school** students can still answer when they are tired and moving fast.
 
-For a focused foundation inside that broader anatomy work, [Cranial Nerve Flashcards: Names, Numbers, Functions & Tests](https://flashcards-open-source-app.com/catalog/packages/cranial-nerves-names-functions-tests-flashcards/) has 84 English cards on all 12 nerves: names, numbers, classification as sensory, motor, or mixed, core functions, and high-level assessment cues. It stops before lesion localization, diagnosis, treatment, or clinical guidance.
+For a focused foundation inside that broader anatomy work, [Cranial Nerve Flashcards: Names, Numbers, Functions & Tests](https://nibomo.com/catalog/packages/cranial-nerves-names-functions-tests-flashcards/) has 84 English cards on all 12 nerves: names, numbers, classification as sensory, motor, or mixed, core functions, and high-level assessment cues. It stops before lesion localization, diagnosis, treatment, or clinical guidance.
 
 If your anatomy work is especially diagram-heavy, this companion piece is the closer upstream workflow:
 
-- [How to Turn Diagrams Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-turn-diagrams-into-flashcards/)
+- [How to Turn Diagrams Into Flashcards in 2026](https://nibomo.com/blog/how-to-turn-diagrams-into-flashcards/)
 
 ## Pharmacology cards should help you choose, not recite
 
@@ -133,8 +133,8 @@ This matters because **medical school flashcards** are not supposed to preserve 
 
 If your source material is mostly notes or long handouts, these related articles fit that earlier part of the workflow:
 
-- [How to Turn Notes Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
-- [How to Turn a PDF Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-turn-a-pdf-into-flashcards/)
+- [How to Turn Notes Into Flashcards in 2026](https://nibomo.com/blog/turn-notes-into-flashcards/)
+- [How to Turn a PDF Into Flashcards in 2026](https://nibomo.com/blog/how-to-turn-a-pdf-into-flashcards/)
 
 ## Question-bank misses should shape the second half of the deck
 
@@ -155,7 +155,7 @@ That gives you a deck shaped by actual failure, not only by what the lecture emp
 
 If that is the part you need help with most, this is the direct companion article:
 
-- [How to Turn Practice Questions Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/)
+- [How to Turn Practice Questions Into Flashcards in 2026](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/)
 
 ## A weekly med school flashcards workflow is usually boring on purpose
 
@@ -191,7 +191,7 @@ If all of that lives in one shapeless queue, the deck stops feeling trustworthy.
 
 If you want the organization side in more detail, read this next:
 
-- [How to Organize Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-organize-flashcards/)
+- [How to Organize Flashcards in 2026](https://nibomo.com/blog/how-to-organize-flashcards/)
 
 ## FSRS helps most when you stop feeding chaos into it
 
@@ -211,12 +211,12 @@ So I would keep the order simple:
 
 If your queue is already getting out of hand, these two articles fit directly with the med school workflow:
 
-- [How Many New Flashcards Per Day in 2026?](https://flashcards-open-source-app.com/blog/how-many-new-flashcards-per-day/)
-- [How to Study for an Exam With FSRS in 2026](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/)
+- [How Many New Flashcards Per Day in 2026?](https://nibomo.com/blog/how-many-new-flashcards-per-day/)
+- [How to Study for an Exam With FSRS in 2026](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)
 
 And if you want the scheduling model itself explained:
 
-- [FSRS vs SM-2 in 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [FSRS vs SM-2 in 2026](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
 ## A workable med school routine is usually smaller than your ambition
 
@@ -242,7 +242,7 @@ That is where the deck earns its space.
 
 ## Where Flashcards fits this workflow better
 
-[Nibomo](https://flashcards-open-source-app.com/) is a strong fit for **medical school flashcards** because the product already supports the pieces this kind of workflow depends on:
+[Nibomo](https://nibomo.com/) is a strong fit for **medical school flashcards** because the product already supports the pieces this kind of workflow depends on:
 
 - front/back cards for clean recall prompts
 - AI chat for drafting candidate cards from lecture text, notes, or question-review material
@@ -258,7 +258,7 @@ That combination matters because med school decks usually fail from workflow spr
 
 If card quality is the main issue rather than subject workflow, this one pairs well with the med school article:
 
-- [How to Make Better Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [How to Make Better Flashcards in 2026](https://nibomo.com/blog/how-to-make-better-flashcards/)
 
 ## So how should you use flashcards for medical school in 2026?
 
@@ -275,4 +275,4 @@ That is the version of **spaced repetition for medical school** I trust.
 
 Not a giant archive or a folder hobby. A deck that still makes sense when the block gets busy and the question stems get mean.
 
-If you want a tool built around that workflow, [Nibomo](https://flashcards-open-source-app.com/) is a strong fit. It gives you front/back cards, AI-assisted drafting, tags, filtered review, and FSRS in one open-source stack that can stay useful from anatomy lab through board-style prep.
+If you want a tool built around that workflow, [Nibomo](https://nibomo.com/) is a strong fit. It gives you front/back cards, AI-assisted drafting, tags, filtered review, and FSRS in one open-source stack that can stay useful from anatomy lab through board-style prep.

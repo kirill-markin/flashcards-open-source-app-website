@@ -77,7 +77,7 @@ keywords:
 
 这才更接近真实的混合式 Step 1 复习体验。
 
-如果你想看的是更宽泛的医学院版本，而不是专门面向 Step 1 冲刺期的版本，可以读这篇：[2026 年医学院如何使用抽认卡](https://flashcards-open-source-app.com/blog/how-to-use-flashcards-for-medical-school/)。
+如果你想看的是更宽泛的医学院版本，而不是专门面向 Step 1 冲刺期的版本，可以读这篇：[2026 年医学院如何使用抽认卡](https://nibomo.com/blog/how-to-use-flashcards-for-medical-school/)。
 
 ## 病理学卡片应该把模式识别和机制拆开
 
@@ -125,7 +125,7 @@ keywords:
 
 **Step 1 病理图像抽认卡** 最有效的做法，是一次只训练你识别一个稳定模式，而不是让你从一张截图里反向重建整整一章病理学。
 
-如果你在图像工作流上最薄弱，最适合配套读的是这篇：[2026 年如何把图示转成抽认卡](https://flashcards-open-source-app.com/blog/how-to-turn-diagrams-into-flashcards/)。
+如果你在图像工作流上最薄弱，最适合配套读的是这篇：[2026 年如何把图示转成抽认卡](https://nibomo.com/blog/how-to-turn-diagrams-into-flashcards/)。
 
 ## 图像卡应该训练你能快速看出来的东西，而不是慢慢重读出来的东西
 
@@ -220,7 +220,7 @@ keywords:
 
 这些当然都是真问题，只是它们不是抽认卡问题。
 
-如果你最好的卡片来源就是做错的题，这篇文章会更深入讲这种转化流程：[2026 年如何把练习题转成抽认卡](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/)。
+如果你最好的卡片来源就是做错的题，这篇文章会更深入讲这种转化流程：[2026 年如何把练习题转成抽认卡](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/)。
 
 ## 生理学卡片通常应该围绕“变化方向”来做
 
@@ -313,11 +313,11 @@ Step 1 复习本来就会呈现出一种很正常的不均匀状态。有些药�
 4. 在冲刺期，把新卡数量控制在现实范围内
 5. 先把牌组整理到值得调度，再让 FSRS 处理时间安排
 
-如果你想更细看调度这一层，这篇文章是最直接的配套阅读：[2026 年如何用 FSRS 为考试复习](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/)。如果你的队列已经开始失控，下一篇更有用的是：[2026 年每天应该新增多少张抽认卡？](https://flashcards-open-source-app.com/blog/how-many-new-flashcards-per-day/)。
+如果你想更细看调度这一层，这篇文章是最直接的配套阅读：[2026 年如何用 FSRS 为考试复习](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)。如果你的队列已经开始失控，下一篇更有用的是：[2026 年每天应该新增多少张抽认卡？](https://nibomo.com/blog/how-many-new-flashcards-per-day/)。
 
 ## Flashcards 在 Step 1 工作流里的位置
 
-如果你想在 [Nibomo](https://flashcards-open-source-app.com/) 里用这套流程，它的价值并不是某种模糊的承诺，说 AI 会替你学会医学。
+如果你想在 [Nibomo](https://nibomo.com/) 里用这套流程，它的价值并不是某种模糊的承诺，说 AI 会替你学会医学。
 
 真正的价值在于，这个产品已经覆盖了流程里最实用的中间层：
 
@@ -329,7 +329,7 @@ Step 1 复习本来就会呈现出一种很正常的不均匀状态。有些药�
 
 这对 Step 1 很合适，因为真正的瓶颈通常不是找不到更多信息，而是能不能把正确的信息保留在一个足够可复习的形态里，直到你撑过混合考试的那一天。
 
-如果你现在最主要的问题，是 AI 总在起草那些看起来很漂亮、复习起来却很糟的卡片，那么接下来最适合读的是这篇：[2026 年如何修好 AI 抽认卡](https://flashcards-open-source-app.com/blog/how-to-fix-ai-flashcards/)。
+如果你现在最主要的问题，是 AI 总在起草那些看起来很漂亮、复习起来却很糟的卡片，那么接下来最适合读的是这篇：[2026 年如何修好 AI 抽认卡](https://nibomo.com/blog/how-to-fix-ai-flashcards/)。
 
 ## 2026 年做 Step 1 抽认卡时，最有用的一条规则
 

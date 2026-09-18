@@ -141,7 +141,7 @@ Por eso yo no convertiría una sesión de Study Mode en veinte tarjetas compleja
 
 Si quieres la versión más profunda de este argumento sobre calidad de tarjeta, este artículo complementario va más allá:
 
-- [Cómo hacer mejores tarjetas didácticas en 2026](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [Cómo hacer mejores tarjetas didácticas en 2026](https://nibomo.com/blog/how-to-make-better-flashcards/)
 
 ## Esto también funciona con Gemini Guided Learning, no solo con ChatGPT
 
@@ -187,8 +187,8 @@ Si no, deja que la sesión de tutoría siga siendo una sesión de tutoría.
 
 Si el exceso de repaso ya es tu problema, estos artículos encajan justo al lado de este:
 
-- [¿Cuántas tarjetas didácticas nuevas por día en 2026?](https://flashcards-open-source-app.com/blog/how-many-new-flashcards-per-day/)
-- [Cómo ponerse al día con las tarjetas didácticas después de quedarse atrás en 2026](https://flashcards-open-source-app.com/blog/how-to-catch-up-on-flashcards-after-falling-behind/)
+- [¿Cuántas tarjetas didácticas nuevas por día en 2026?](https://nibomo.com/blog/how-many-new-flashcards-per-day/)
+- [Cómo ponerse al día con las tarjetas didácticas después de quedarse atrás en 2026](https://nibomo.com/blog/how-to-catch-up-on-flashcards-after-falling-behind/)
 
 ## El mejor prompt no es "haz flashcards a partir de esto"
 
@@ -206,11 +206,11 @@ Eso funciona mucho mejor que volcar una transcripción entera en el modelo y ped
 
 Si tu flujo de trabajo empieza antes, antes de Study Mode y antes de la tutoría, este artículo complementario cubre la ruta más directa de generación:
 
-- [Cómo utilizar ChatGPT para crear tarjetas didácticas en 2026](https://flashcards-open-source-app.com/blog/how-to-use-chatgpt-to-make-flashcards/)
+- [Cómo utilizar ChatGPT para crear tarjetas didácticas en 2026](https://nibomo.com/blog/how-to-use-chatgpt-to-make-flashcards/)
 
 Y si la fuente es una guía de estudio o un cuaderno en lugar de una sesión de tutoría, este también encaja:
 
-- [Cómo convertir las tarjetas didácticas de NotebookLM en repetición espaciada real en 2026](https://flashcards-open-source-app.com/blog/notebooklm-flashcards-to-spaced-repetition/)
+- [Cómo convertir las tarjetas didácticas de NotebookLM en repetición espaciada real en 2026](https://nibomo.com/blog/notebooklm-flashcards-to-spaced-repetition/)
 
 ## FSRS es la parte que convierte una buena sesión en retención a largo plazo
 
@@ -230,11 +230,11 @@ Las **tarjetas didácticas FSRS** son lo que hace que este flujo de trabajo agua
 
 Si quieres la comparación entre algoritmos, aquí se desarrolla más:
 
-- [FSRS vs SM-2 en 2026: ¿Qué algoritmo de repetición espaciada le ayuda a recordar más?](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [FSRS vs SM-2 en 2026: ¿Qué algoritmo de repetición espaciada le ayuda a recordar más?](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
 ## Aquí es donde Flashcards encaja mejor en este flujo de trabajo
 
-[Nibomo](https://flashcards-open-source-app.com/) encaja bien en **cómo convertir ChatGPT Study Mode en tarjetas didácticas** porque cubre justo la parte que la tutoría con IA todavía no resuelve por sí sola:
+[Nibomo](https://nibomo.com/) encaja bien en **cómo convertir ChatGPT Study Mode en tarjetas didácticas** porque cubre justo la parte que la tutoría con IA todavía no resuelve por sí sola:
 
 - tarjetas de anverso y reverso en lugar de una memoria que vive solo en el chat
 - chat con IA para limpiar y redactar
@@ -267,9 +267,9 @@ Esa es la versión de **flashcards de ChatGPT Study Mode** que tiene sentido par
 
 Si eso es lo que buscas, empieza aquí:
 
-- [Abrir Nibomo](https://flashcards-open-source-app.com/)
+- [Abrir Nibomo](https://nibomo.com/)
 - [Abrir la app](https://app.flashcards-open-source-app.com/)
-- [Ver las funcionalidades](https://flashcards-open-source-app.com/features/)
+- [Ver las funcionalidades](https://nibomo.com/features/)
 - [Ver el código fuente en GitHub](https://github.com/kirill-markin/flashcards-open-source-app)
 
 El tutor te ayuda hoy a trabajar la idea.

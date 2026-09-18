@@ -136,7 +136,7 @@ Deshalb würde ich eine Study-Mode-Sitzung nicht in zwanzig komplizierte Karten 
 
 Wenn du das Argument für bessere Kartenqualität noch ausführlicher lesen willst, geht dieser Begleitartikel tiefer:
 
-- [Wie du 2026 bessere Flashcards machst: Regeln für Vorder- und Rückseite, die mit FSRS wirklich funktionieren](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [Wie du 2026 bessere Flashcards machst: Regeln für Vorder- und Rückseite, die mit FSRS wirklich funktionieren](https://nibomo.com/blog/how-to-make-better-flashcards/)
 
 ## Das funktioniert auch für Gemini Guided Learning, nicht nur für ChatGPT
 
@@ -182,8 +182,8 @@ Wenn das nicht zutrifft, dann darf die Tutor-Sitzung einfach eine Tutor-Sitzung 
 
 Wenn dich ohnehin schon ein Wiederholungsstau ausbremst, passen diese Artikel direkt dazu:
 
-- [Wie viele neue Flashcards pro Tag im Jahr 2026? So planst du mit FSRS eine Wiederholungsmenge, die du wirklich schaffst](https://flashcards-open-source-app.com/blog/how-many-new-flashcards-per-day/)
-- [Wie du 2026 bei Flashcards wieder aufholst, nachdem du zurückgefallen bist: Wiederholungsstau abbauen, ohne das Deck zurückzusetzen](https://flashcards-open-source-app.com/blog/how-to-catch-up-on-flashcards-after-falling-behind/)
+- [Wie viele neue Flashcards pro Tag im Jahr 2026? So planst du mit FSRS eine Wiederholungsmenge, die du wirklich schaffst](https://nibomo.com/blog/how-many-new-flashcards-per-day/)
+- [Wie du 2026 bei Flashcards wieder aufholst, nachdem du zurückgefallen bist: Wiederholungsstau abbauen, ohne das Deck zurückzusetzen](https://nibomo.com/blog/how-to-catch-up-on-flashcards-after-falling-behind/)
 
 ## Der bessere Prompt ist nicht "mach daraus Flashcards"
 
@@ -201,11 +201,11 @@ Das funktioniert deutlich besser, als ein komplettes Transkript ins Modell zu ki
 
 Wenn dein Workflow noch früher ansetzt, also vor dem Study Mode und vor dem eigentlichen Tutoring, dann behandelt dieser Begleitartikel die direktere Route:
 
-- [Wie du 2026 ChatGPT nutzt, um Flashcards zu erstellen: bessere Prompts, bessere Karten, bessere Wiederholungen mit FSRS](https://flashcards-open-source-app.com/blog/how-to-use-chatgpt-to-make-flashcards/)
+- [Wie du 2026 ChatGPT nutzt, um Flashcards zu erstellen: bessere Prompts, bessere Karten, bessere Wiederholungen mit FSRS](https://nibomo.com/blog/how-to-use-chatgpt-to-make-flashcards/)
 
 Und wenn die Quelle eher eine Lernhilfe oder ein Notebook ist als eine Tutor-Sitzung, passt dieser Artikel ebenfalls:
 
-- [Wie du 2026 NotebookLM-Flashcards in echte Spaced Repetition verwandelst: exportieren, bereinigen und mit FSRS wiederholen](https://flashcards-open-source-app.com/blog/notebooklm-flashcards-to-spaced-repetition/)
+- [Wie du 2026 NotebookLM-Flashcards in echte Spaced Repetition verwandelst: exportieren, bereinigen und mit FSRS wiederholen](https://nibomo.com/blog/notebooklm-flashcards-to-spaced-repetition/)
 
 ## FSRS ist der Teil, der aus einer guten Sitzung langfristiges Erinnern macht
 
@@ -225,11 +225,11 @@ Selbst sehr gute Karten werden lästig, wenn sie zum falschen Zeitpunkt wieder a
 
 Wenn du den eigentlichen Algorithmusvergleich lesen willst, geht dieser Artikel tiefer:
 
-- [FSRS vs SM-2 in 2026: Welcher Spaced-Repetition-Algorithmus hilft dir, mehr zu behalten?](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [FSRS vs SM-2 in 2026: Welcher Spaced-Repetition-Algorithmus hilft dir, mehr zu behalten?](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
 ## Warum Flashcards gut in diesen Workflow passt
 
-[Nibomo](https://flashcards-open-source-app.com/) passt gut zu **Lernkarten aus dem ChatGPT Study Mode**, weil das Produkt genau den Teil abdeckt, den KI-Tutoring allein noch nicht löst:
+[Nibomo](https://nibomo.com/) passt gut zu **Lernkarten aus dem ChatGPT Study Mode**, weil das Produkt genau den Teil abdeckt, den KI-Tutoring allein noch nicht löst:
 
 - klassische Vorderseite-Rückseite-Karten statt eines Gedächtnisses, das nur im Chat existiert
 - KI-Chat zum Bereinigen und Ausformulieren
@@ -262,9 +262,9 @@ Genau so ergeben **Lernkarten aus dem ChatGPT Study Mode** für mich im Jahr 202
 
 Wenn du genau das willst, starte hier:
 
-- [Flashcards öffnen](https://flashcards-open-source-app.com/)
+- [Flashcards öffnen](https://nibomo.com/)
 - [Die App öffnen](https://app.flashcards-open-source-app.com/)
-- [Die Funktionen ansehen](https://flashcards-open-source-app.com/features/)
+- [Die Funktionen ansehen](https://nibomo.com/features/)
 - [Den Quellcode auf GitHub ansehen](https://github.com/kirill-markin/flashcards-open-source-app)
 
 Der Tutor hilft dir, das Thema heute zu durchdenken.

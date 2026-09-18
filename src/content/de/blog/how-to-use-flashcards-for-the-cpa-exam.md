@@ -181,7 +181,7 @@ Beispiele:
 
 Das ist der direkte Begleit-Workflow, wenn die Nachbereitung von Simulationsaufgaben schon jetzt deine beste Kartenquelle ist:
 
-- [Wie du 2026 Übungsfragen in Flashcards verwandelst](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/)
+- [Wie du 2026 Übungsfragen in Flashcards verwandelst](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/)
 
 ## Ein Misses-to-Cards-Workflow passt besser zur CPA-Vorbereitung als Outline-Abschreiben
 
@@ -207,11 +207,11 @@ Ich würde den Wochenablauf einfach halten:
 
 Wenn der Teil mit dem Kartenschreiben immer wieder unscharf wird, lies als Nächstes das hier:
 
-- [Wie du 2026 bessere Flashcards erstellst](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [Wie du 2026 bessere Flashcards erstellst](https://nibomo.com/blog/how-to-make-better-flashcards/)
 
 Wenn das größere Problem eher ausufernde Decks sind, ist dieser Artikel der bessere nächste Schritt:
 
-- [Wie du 2026 Flashcards organisierst](https://flashcards-open-source-app.com/blog/how-to-organize-flashcards/)
+- [Wie du 2026 Flashcards organisierst](https://nibomo.com/blog/how-to-organize-flashcards/)
 
 ## FSRS hilft erst dann, wenn das CPA-Deck nicht mehr versucht, alles gleichzeitig zu leisten
 
@@ -229,11 +229,11 @@ Ich würde die Reihenfolge einfach halten:
 
 Wenn du die Planungsseite ausführlicher willst, ist dies der direkte Begleitartikel:
 
-- [Wie du 2026 mit FSRS für eine Prüfung lernst](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/)
+- [Wie du 2026 mit FSRS für eine Prüfung lernst](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)
 
 ## Wo Flashcards in diesen CPA-Workflow hineinpassen
 
-Wenn du das in [Nibomo](https://flashcards-open-source-app.com/) umsetzen willst, liegt der nützliche Teil nicht in dem vagen Versprechen, dass KI dich schon irgendwie durch die CPA-Prüfung bringen wird.
+Wenn du das in [Nibomo](https://nibomo.com/) umsetzen willst, liegt der nützliche Teil nicht in dem vagen Versprechen, dass KI dich schon irgendwie durch die CPA-Prüfung bringen wird.
 
 Der nützliche Teil ist, dass das Produkt bereits den chaotischen Mittelteil dieses Workflows unterstützt:
 

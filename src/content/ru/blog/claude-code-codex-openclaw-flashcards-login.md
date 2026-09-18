@@ -17,7 +17,7 @@ keywords:
 
 Именно такую работу инструмент и должен брать на себя.
 
-В [Nibomo](https://flashcards-open-source-app.com/) мы открыли для агентов сценарий входа с открытым исходным кодом, который начинается с одной discovery-ссылки:
+В [Nibomo](https://nibomo.com/) мы открыли для агентов сценарий входа с открытым исходным кодом, который начинается с одной discovery-ссылки:
 
 `https://api.flashcards-open-source-app.com/v1/`
 
@@ -132,7 +132,7 @@ curl https://api.flashcards-open-source-app.com/v1/
   "instructions": "Start with POST https://auth.flashcards-open-source-app.com/api/agent/send-code using the user's email, then POST https://auth.flashcards-open-source-app.com/api/agent/verify-code to obtain an API key. After login, call GET https://api.flashcards-open-source-app.com/v1/agent/me, then GET https://api.flashcards-open-source-app.com/v1/agent/workspaces?limit=100. If no workspace is selected for this API key, call POST https://api.flashcards-open-source-app.com/v1/agent/workspaces/{workspaceId}/select or create one with POST https://api.flashcards-open-source-app.com/v1/agent/workspaces using {\"name\":\"Personal\"}. After workspace bootstrap, use POST https://api.flashcards-open-source-app.com/v1/agent/sql/query for all shared card and deck reads (SHOW TABLES, DESCRIBE, SHOW COLUMNS, SELECT) and POST https://api.flashcards-open-source-app.com/v1/agent/sql/execute for card and deck authoring writes (INSERT, UPDATE, DELETE). Use docs.discoveryUrl for runtime discovery and docs.source.agentRoutesUrl for implementation details. The SQL surface is intentionally limited and is not full PostgreSQL.",
   "docs": {
     "discoveryUrl": "https://api.flashcards-open-source-app.com/v1/",
-    "docsUrl": "https://flashcards-open-source-app.com/docs/",
+    "docsUrl": "https://nibomo.com/docs/",
     "source": {
       "agentRoutesUrl": "https://github.com/kirill-markin/flashcards-open-source-app/tree/main/apps/backend/src/routes"
     }
@@ -309,9 +309,9 @@ Flashcards - проект с открытым исходным кодом, по�
 
 Полезные ссылки:
 
-- [Flashcards website](https://flashcards-open-source-app.com/)
+- [Flashcards website](https://nibomo.com/)
 - [Hosted app](https://app.flashcards-open-source-app.com/)
-- [Getting started](https://flashcards-open-source-app.com/docs/getting-started/)
+- [Getting started](https://nibomo.com/docs/getting-started/)
 - [GitHub repository](https://github.com/kirill-markin/flashcards-open-source-app)
 
 Если продукт с открытым исходным кодом, а сценарий авторизации достаточно узкий и понятный, фраза "пусть агент сделает это сам" должна действительно работать. Именно для этого этот поток и был сделан.

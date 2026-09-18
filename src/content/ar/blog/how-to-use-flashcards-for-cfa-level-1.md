@@ -169,7 +169,7 @@ keywords:
 
 إذا كانت أسئلة التدريب هي مادة المصدر الأساسية لديك، فسير العمل المرافق هذا يناسبك مباشرة:
 
-- [كيف تحوّل أسئلة التدريب إلى بطاقات تعليمية في 2026](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/)
+- [كيف تحوّل أسئلة التدريب إلى بطاقات تعليمية في 2026](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/)
 
 ## لا تصنع بطاقة لكل خطأ
 
@@ -217,7 +217,7 @@ keywords:
 
 إذا كان التنظيم نفسه يصبح المشكلة، فهذه المقالة هي الخطوة الأفضل بعدها:
 
-- [كيف تنظّم البطاقات التعليمية في 2026](https://flashcards-open-source-app.com/blog/how-to-organize-flashcards/)
+- [كيف تنظّم البطاقات التعليمية في 2026](https://nibomo.com/blog/how-to-organize-flashcards/)
 
 ## سير عمل أسبوعي لبطاقات CFA التعليمية يصمد أمام الحياة الفعلية
 
@@ -255,8 +255,8 @@ FSRS مفيد لأنه يترك البطاقات الأسهل تبتعد أكث�
 
 إذا كان جانب الجدولة ما يزال غير واضح، فهذه الأدلة تتعمق أكثر:
 
-- [FSRS مقابل SM-2 في 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
-- [كيف تذاكر لامتحان باستخدام FSRS في 2026](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/)
+- [FSRS مقابل SM-2 في 2026](https://nibomo.com/blog/fsrs-vs-sm-2/)
+- [كيف تذاكر لامتحان باستخدام FSRS في 2026](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)
 
 ## أبقِ حقائق CFA المرتبطة بالتاريخ منفصلة
 
@@ -275,7 +275,7 @@ FSRS مفيد لأنه يترك البطاقات الأسهل تبتعد أكث�
 
 ## أين يناسب Flashcards سير عمل CFA هذا
 
-[Nibomo](https://flashcards-open-source-app.com/) يناسب سير العمل هذا لأنه يدعم الأجزاء المحددة التي تحتاجها مجموعة CFA من دون أن يتظاهر بأنه يستبدل مواد CFA Institute:
+[Nibomo](https://nibomo.com/) يناسب سير العمل هذا لأنه يدعم الأجزاء المحددة التي تحتاجها مجموعة CFA من دون أن يتظاهر بأنه يستبدل مواد CFA Institute:
 
 - إنشاء بطاقات بوجه وظهر وتحريرها
 - مجموعات ووسوم لتنظيم الموضوع والمصدر
@@ -291,9 +291,9 @@ FSRS مفيد لأنه يترك البطاقات الأسهل تبتعد أكث�
 
 إذا كان هذا ما تريده، فابدأ هنا:
 
-- [افتح Flashcards](https://flashcards-open-source-app.com/)
+- [افتح Flashcards](https://nibomo.com/)
 - [افتح التطبيق](https://app.flashcards-open-source-app.com/)
-- [اقرأ دليل البدء](https://flashcards-open-source-app.com/docs/getting-started/)
+- [اقرأ دليل البدء](https://nibomo.com/docs/getting-started/)
 - [اعرض المصدر على GitHub](https://github.com/kirill-markin/flashcards-open-source-app)
 
 لا تحتاج المجموعة إلى إثارة إعجاب أحد. يجب فقط أن تساعدك على إجابة السؤال التالي قبل أن تنتهي الثواني التسعون.

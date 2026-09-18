@@ -100,7 +100,7 @@ That feels less like automation theater and more like actual help.
 
 ## Flashcards already has the right shape for this workflow
 
-[Nibomo](https://flashcards-open-source-app.com/) is interesting here because the product already combines the pieces that matter:
+[Nibomo](https://nibomo.com/) is interesting here because the product already combines the pieces that matter:
 
 - front/back card creation
 - AI chat
@@ -130,7 +130,7 @@ That is the difference between "I generated some cards" and "I built a study sys
 
 If you want the scheduling side in more detail, this is the companion article:
 
-- [FSRS vs SM-2 in 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [FSRS vs SM-2 in 2026](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
 ## Plain text is more useful than a lot of note apps want to admit
 
@@ -175,11 +175,11 @@ That is where Flashcards feels pointed in the right direction. It is an **open s
 
 If your problem is more about moving existing collections, start here:
 
-- [How to Migrate from Anki in 2026](https://flashcards-open-source-app.com/blog/migrate-from-anki-txt-export-open-source-flashcards/)
+- [How to Migrate from Anki in 2026](https://nibomo.com/blog/migrate-from-anki-txt-export-open-source-flashcards/)
 
 And if you are comparing the wider category, this is the better overview:
 
-- [Best Anki Alternatives in 2026](https://flashcards-open-source-app.com/blog/best-anki-alternatives/)
+- [Best Anki Alternatives in 2026](https://nibomo.com/blog/best-anki-alternatives/)
 
 ## So what is the best way to turn notes into flashcards in 2026?
 
@@ -193,15 +193,15 @@ I think the best answer is a cleaner division of labor:
 
 That removes the boring part without pretending the human should disappear from the loop.
 
-That is why [Nibomo](https://flashcards-open-source-app.com/) is a strong fit for people searching how to **turn notes into flashcards**. The current product already has the useful shape for it: card creation, AI chat, file attachments, plain text support, and serious spaced repetition afterward.
+That is why [Nibomo](https://nibomo.com/) is a strong fit for people searching how to **turn notes into flashcards**. The current product already has the useful shape for it: card creation, AI chat, file attachments, plain text support, and serious spaced repetition afterward.
 
 ## Try the notes-to-flashcards workflow that does not become a second job
 
 If you want a practical way to **turn notes into flashcards**, start here:
 
-- [Open Nibomo](https://flashcards-open-source-app.com/)
+- [Open Nibomo](https://nibomo.com/)
 - [Open the app](https://app.flashcards-open-source-app.com/)
-- [Read the getting started guide](https://flashcards-open-source-app.com/docs/getting-started/)
+- [Read the getting started guide](https://nibomo.com/docs/getting-started/)
 - [View the source on GitHub](https://github.com/kirill-markin/flashcards-open-source-app)
 
 There is nothing noble about spending an hour manually rewording notes if a good draft workflow can get you to the same review queue faster.

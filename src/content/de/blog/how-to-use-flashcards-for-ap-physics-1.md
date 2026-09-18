@@ -268,7 +268,7 @@ Wenn du die Scheduling-Seite ausführlicher willst, ist [Wie du 2026 mit FSRS f�
 
 ## Wo Flashcards in diesen AP-Physics-1-Workflow passt
 
-[Nibomo](https://flashcards-open-source-app.com/) passt gut zu diesem Workflow, wenn du Karten zu Diagrammen, Kraftfehlern und FRQ-Reparaturen an einem Ort halten willst, statt sie über Notizen, Screenshots und alte Korrekturen zu verteilen.
+[Nibomo](https://nibomo.com/) passt gut zu diesem Workflow, wenn du Karten zu Diagrammen, Kraftfehlern und FRQ-Reparaturen an einem Ort halten willst, statt sie über Notizen, Screenshots und alte Korrekturen zu verteilen.
 
 Die nützlichen Teile sind praktisch:
 

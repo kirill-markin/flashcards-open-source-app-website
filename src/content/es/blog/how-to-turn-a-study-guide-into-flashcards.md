@@ -252,15 +252,15 @@ El tipo de material que hay dentro de la guía cambia el estilo de tarjeta que t
 
 Si una sección consiste sobre todo en preguntas falladas, este flujo de trabajo encaja mejor:
 
-- [Cómo convertir preguntas de práctica en tarjetas de estudio en 2026](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/)
+- [Cómo convertir preguntas de práctica en tarjetas de estudio en 2026](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/)
 
 Si la guía es sobre todo un documento o un paquete exportado, este también te sirve:
 
-- [Cómo convertir un PDF en tarjetas de estudio en 2026](https://flashcards-open-source-app.com/blog/how-to-turn-a-pdf-into-flashcards/)
+- [Cómo convertir un PDF en tarjetas de estudio en 2026](https://nibomo.com/blog/how-to-turn-a-pdf-into-flashcards/)
 
 Y si la guía empezó como una tutoría con IA en lugar de un paquete, este artículo complementario encaja más:
 
-- [Cómo convertir el modo de estudio de ChatGPT en tarjetas de estudio en 2026](https://flashcards-open-source-app.com/blog/how-to-turn-chatgpt-study-mode-into-flashcards/)
+- [Cómo convertir el modo de estudio de ChatGPT en tarjetas de estudio en 2026](https://nibomo.com/blog/how-to-turn-chatgpt-study-mode-into-flashcards/)
 
 ## El mazo final debería sentirse más pequeño que la guía
 
@@ -281,7 +281,7 @@ Solo convertiste un formato de deberes en otro.
 
 ## Dónde encaja Flashcards
 
-[Nibomo](https://flashcards-open-source-app.com/) encaja bien para **pasar una guía de estudio a tarjetas de estudio** porque el producto ya tiene las piezas que necesita este flujo de trabajo:
+[Nibomo](https://nibomo.com/) encaja bien para **pasar una guía de estudio a tarjetas de estudio** porque el producto ya tiene las piezas que necesita este flujo de trabajo:
 
 - chat con IA para reestructurar texto en bruto de una guía de estudio
 - adjuntos de archivos e imágenes
@@ -299,11 +299,11 @@ Quieres un único lugar donde limpiar la guía, crear las tarjetas, organizar el
 
 Si el problema más grande es la calidad de las tarjetas en sí, lee esto después:
 
-- [Cómo crear mejores tarjetas de estudio en 2026](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [Cómo crear mejores tarjetas de estudio en 2026](https://nibomo.com/blog/how-to-make-better-flashcards/)
 
 Y si el problema real es planificar la carga de repaso antes de la fecha del examen, este también ayuda:
 
-- [Cómo estudiar para un examen con FSRS en 2026](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/)
+- [Cómo estudiar para un examen con FSRS en 2026](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)
 
 ## La regla útil
 
@@ -321,7 +321,7 @@ Más recuerdo con menos material.
 
 Si eso es lo que buscas, empieza aquí:
 
-- [Ir a Nibomo](https://flashcards-open-source-app.com/)
+- [Ir a Nibomo](https://nibomo.com/)
 - [Abrir la aplicación](https://app.flashcards-open-source-app.com/)
-- [Leer la guía de introducción](https://flashcards-open-source-app.com/docs/getting-started/)
+- [Leer la guía de introducción](https://nibomo.com/docs/getting-started/)
 - [Ver el código fuente en GitHub](https://github.com/kirill-markin/flashcards-open-source-app)

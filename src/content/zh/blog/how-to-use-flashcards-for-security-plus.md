@@ -244,7 +244,7 @@ PBQ 做错后，我通常会先记下 3 件事，再继续往下：
 
 如果你的主要来源就是错题，这篇文章正好可以接着看：
 
-- [2026 年如何把练习题做成 Flashcards](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/)
+- [2026 年如何把练习题做成 Flashcards](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/)
 
 ## 不要做一副没有形状的 Security+ 大卡组
 
@@ -279,7 +279,7 @@ PBQ 做错后，我通常会先记下 3 件事，再继续往下：
 
 如果你最大的问题不是制卡，而是整理方式，这篇可以接着读：
 
-- [2026 年如何整理 Flashcards](https://flashcards-open-source-app.com/blog/how-to-organize-flashcards/)
+- [2026 年如何整理 Flashcards](https://nibomo.com/blog/how-to-organize-flashcards/)
 
 ## 你的每周流程最好保持无聊
 
@@ -300,7 +300,7 @@ PBQ 做错后，我通常会先记下 3 件事，再继续往下：
 
 如果 AI 起草出来的卡总是很松散，这篇配套文章会有帮助：
 
-- [2026 年如何制作更好的 Flashcards](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [2026 年如何制作更好的 Flashcards](https://nibomo.com/blog/how-to-make-better-flashcards/)
 
 ## 只有当卡组足够收窄时，FSRS 才真的能帮上 Security+ 的备考
 
@@ -321,7 +321,7 @@ FSRS 在这里之所以有效，是因为卡片本身已经满足这些条件：
 
 如果你更关心这套流程里的备考排程部分，这篇会讲得更深：
 
-- [2026 年如何用 FSRS 备考](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/)
+- [2026 年如何用 FSRS 备考](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)
 
 ## 离线复习对认证备考的重要性，比很多人愿意承认的还高
 
@@ -338,11 +338,11 @@ FSRS 在这里之所以有效，是因为卡片本身已经满足这些条件：
 
 如果这点对你的学习环境很重要，这篇也值得看看：
 
-- [2026 年最佳离线 Flashcards 应用](https://flashcards-open-source-app.com/blog/best-offline-flashcards-app/)
+- [2026 年最佳离线 Flashcards 应用](https://nibomo.com/blog/best-offline-flashcards-app/)
 
 ## Flashcards 很适合承接这套流程
 
-[Nibomo](https://flashcards-open-source-app.com/) 很适合用来做 **Security+ flashcards**，因为这个产品本身已经符合这套流程，而不需要你在 5 个工具之间临时拼接。
+[Nibomo](https://nibomo.com/) 很适合用来做 **Security+ flashcards**，因为这个产品本身已经符合这套流程，而不需要你在 5 个工具之间临时拼接。
 
 你可以用到：
 

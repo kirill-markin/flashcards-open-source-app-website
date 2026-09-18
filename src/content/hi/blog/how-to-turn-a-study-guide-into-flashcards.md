@@ -252,15 +252,15 @@ AI गाइड के साथ आप अक्सर चमकदार द�
 
 अगर कोई भाग ज़्यादातर छूटे हुए प्रश्नों का है, तो यह तरीका ज़्यादा उपयुक्त है:
 
-- [2026 में अभ्यास प्रश्नों को Flashcards में कैसे बदलें](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/)
+- [2026 में अभ्यास प्रश्नों को Flashcards में कैसे बदलें](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/)
 
 अगर गाइड ज़्यादातर दस्तावेज़ या एक्सपोर्ट किए गए पैकेट के रूप में है, तो यह भी उपयोगी है:
 
-- [2026 में PDF को Flashcards में कैसे बदलें](https://flashcards-open-source-app.com/blog/how-to-turn-a-pdf-into-flashcards/)
+- [2026 में PDF को Flashcards में कैसे बदलें](https://nibomo.com/blog/how-to-turn-a-pdf-into-flashcards/)
 
 और अगर गाइड की शुरुआत पैकेट से नहीं, बल्कि AI ट्यूटरिंग से हुई है, तो यह संबंधित लेख ज़्यादा करीब पड़ेगा:
 
-- [2026 में ChatGPT Study Mode को Flashcards में कैसे बदलें](https://flashcards-open-source-app.com/blog/how-to-turn-chatgpt-study-mode-into-flashcards/)
+- [2026 में ChatGPT Study Mode को Flashcards में कैसे बदलें](https://nibomo.com/blog/how-to-turn-chatgpt-study-mode-into-flashcards/)
 
 ## तैयार डेक, गाइड से हल्का महसूस होना चाहिए
 
@@ -281,7 +281,7 @@ AI गाइड के साथ आप अक्सर चमकदार द�
 
 ## Flashcards इसमें कहाँ काम आता है
 
-[Nibomo](https://flashcards-open-source-app.com/) **स्टडी गाइड से Flashcards** के लिए अच्छा विकल्प है, क्योंकि प्रोडक्ट में पहले से वे हिस्से मौजूद हैं जिनकी इस तरीके को ज़रूरत होती है:
+[Nibomo](https://nibomo.com/) **स्टडी गाइड से Flashcards** के लिए अच्छा विकल्प है, क्योंकि प्रोडक्ट में पहले से वे हिस्से मौजूद हैं जिनकी इस तरीके को ज़रूरत होती है:
 
 - बिखरे हुए स्टडी-गाइड पाठ को फिर से व्यवस्थित करने के लिए AI चैट
 - फ़ाइल और इमेज अटैचमेंट
@@ -299,11 +299,11 @@ AI गाइड के साथ आप अक्सर चमकदार द�
 
 अगर असली समस्या कार्ड की गुणवत्ता है, तो यह अगला लेख पढ़ें:
 
-- [2026 में बेहतर Flashcards कैसे बनाएं](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [2026 में बेहतर Flashcards कैसे बनाएं](https://nibomo.com/blog/how-to-make-better-flashcards/)
 
 और अगर असली समस्या परीक्षा की तारीख से पहले रिव्यू लोड की योजना बनाना है, तो यह भी मदद करेगा:
 
-- [2026 में FSRS के साथ परीक्षा की तैयारी कैसे करें](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/)
+- [2026 में FSRS के साथ परीक्षा की तैयारी कैसे करें](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)
 
 ## सबसे उपयोगी नियम
 
@@ -321,7 +321,7 @@ AI गाइड के साथ आप अक्सर चमकदार द�
 
 अगर आप यही चाहते हैं, तो यहाँ से शुरू करें:
 
-- [Nibomo खोलें](https://flashcards-open-source-app.com/)
+- [Nibomo खोलें](https://nibomo.com/)
 - [ऐप खोलें](https://app.flashcards-open-source-app.com/)
-- [शुरुआत करने की गाइड पढ़ें](https://flashcards-open-source-app.com/docs/getting-started/)
+- [शुरुआत करने की गाइड पढ़ें](https://nibomo.com/docs/getting-started/)
 - [GitHub पर सोर्स कोड देखें](https://github.com/kirill-markin/flashcards-open-source-app)

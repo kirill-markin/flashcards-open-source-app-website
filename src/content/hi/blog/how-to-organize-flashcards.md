@@ -262,7 +262,7 @@ keywords:
 
 ## Flashcards इसमें कहाँ फिट बैठता है
 
-[Nibomo](https://flashcards-open-source-app.com/) **फ्लैशकार्ड कैसे व्यवस्थित करें** जैसे सवाल के लिए इसलिए उपयुक्त है, क्योंकि इस तरीके को चलाने के लिए जो हिस्से चाहिए, वे उत्पाद में पहले से मौजूद हैं:
+[Nibomo](https://nibomo.com/) **फ्लैशकार्ड कैसे व्यवस्थित करें** जैसे सवाल के लिए इसलिए उपयुक्त है, क्योंकि इस तरीके को चलाने के लिए जो हिस्से चाहिए, वे उत्पाद में पहले से मौजूद हैं:
 
 - लंबे समय की संरचना के लिए डेक और टैग
 - टैग और मेहनत के स्तर के आधार पर फ़िल्टर्ड डेक
@@ -278,15 +278,15 @@ keywords:
 
 अगर अगली समस्या संगठन नहीं बल्कि कार्ड की गुणवत्ता है, तो यह आगे पढ़िए:
 
-- [2026 में बेहतर फ्लैशकार्ड कैसे बनाएँ](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [2026 में बेहतर फ्लैशकार्ड कैसे बनाएँ](https://nibomo.com/blog/how-to-make-better-flashcards/)
 
 अगर असली समस्या दोहराई का बोझ है, तो यह भी काम आएगा:
 
-- [2026 में प्रतिदिन कितने नए फ्लैशकार्ड जोड़ने चाहिए?](https://flashcards-open-source-app.com/blog/how-many-new-flashcards-per-day/)
+- [2026 में प्रतिदिन कितने नए फ्लैशकार्ड जोड़ने चाहिए?](https://nibomo.com/blog/how-many-new-flashcards-per-day/)
 
 और अगर आप गलतियों से अस्थायी परीक्षा-सूचियाँ बना रहे हैं, तो यहाँ से शुरू करें:
 
-- [2026 में अभ्यास प्रश्नों को फ्लैशकार्ड में कैसे बदलें](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/)
+- [2026 में अभ्यास प्रश्नों को फ्लैशकार्ड में कैसे बदलें](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/)
 
 ## काम की बात
 
@@ -304,7 +304,7 @@ keywords:
 
 अगर आपको यही चाहिए, तो यहाँ से शुरू कीजिए:
 
-- [Nibomo खोलें](https://flashcards-open-source-app.com/)
+- [Nibomo खोलें](https://nibomo.com/)
 - [ऐप खोलें](https://app.flashcards-open-source-app.com/)
-- [Getting Started मार्गदर्शिका पढ़ें](https://flashcards-open-source-app.com/docs/getting-started/)
+- [Getting Started मार्गदर्शिका पढ़ें](https://nibomo.com/docs/getting-started/)
 - [GitHub पर स्रोत देखें](https://github.com/kirill-markin/flashcards-open-source-app)

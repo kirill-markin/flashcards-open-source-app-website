@@ -96,7 +96,7 @@ keywords:
 
 Если вам нужна более подробная статья именно про сам алгоритм, вот хороший материал в пару к этой теме:
 
-- [FSRS vs SM-2 in 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [FSRS vs SM-2 in 2026](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
 ## Задайте такую дневную нагрузку, которую можно пройти даже в самый обычный плохой день
 
@@ -117,7 +117,7 @@ keywords:
 
 Если вам нужен более понятный способ прикинуть такую нагрузку, эта статья хорошо дополняет экзаменационный сценарий:
 
-- [How Many New Flashcards Per Day in 2026?](https://flashcards-open-source-app.com/blog/how-many-new-flashcards-per-day/)
+- [How Many New Flashcards Per Day in 2026?](https://nibomo.com/blog/how-many-new-flashcards-per-day/)
 
 ## Работа с источниками и работа на запоминание должны быть разделены
 
@@ -143,7 +143,7 @@ keywords:
 
 ## Почему Flashcards хорошо ложится на такой сценарий
 
-[Nibomo](https://flashcards-open-source-app.com/) хорошо подходит для этой задачи, потому что продукт умеет поддерживать обе части процесса, не притворяясь, будто это одна и та же работа.
+[Nibomo](https://nibomo.com/) хорошо подходит для этой задачи, потому что продукт умеет поддерживать обе части процесса, не притворяясь, будто это одна и та же работа.
 
 Сейчас в стеке уже есть:
 
@@ -208,22 +208,22 @@ keywords:
 
 Именно такая версия **интервального повторения для экзаменов** действительно выглядит устойчивой в реальной жизни.
 
-Если вам нужен продукт, который поддерживает такой сценарий, [Nibomo](https://flashcards-open-source-app.com/) подходит очень хорошо. В одном стеке с открытым исходным кодом вы получаете помощь ИИ для черновиков, карточки с лицевой и обратной стороной и повторения на FSRS, вместо того чтобы размазывать весь процесс по пяти учебным инструментам и папке с экспортами.
+Если вам нужен продукт, который поддерживает такой сценарий, [Nibomo](https://nibomo.com/) подходит очень хорошо. В одном стеке с открытым исходным кодом вы получаете помощь ИИ для черновиков, карточки с лицевой и обратной стороной и повторения на FSRS, вместо того чтобы размазывать весь процесс по пяти учебным инструментам и папке с экспортами.
 
 ## Соберите экзаменационную колоду, которую вы еще успеете пройти
 
 Если хотите попробовать такой сценарий:
 
-- [Открыть Flashcards](https://flashcards-open-source-app.com/)
+- [Открыть Flashcards](https://nibomo.com/)
 - [Открыть приложение](https://app.flashcards-open-source-app.com/)
-- [Посмотреть страницу возможностей](https://flashcards-open-source-app.com/features/)
+- [Посмотреть страницу возможностей](https://nibomo.com/features/)
 - [Открыть исходный код на GitHub](https://github.com/kirill-markin/flashcards-open-source-app)
 
 А если ваши исходные материалы пока еще застряли на шаг раньше, пригодятся вот эти статьи:
 
-- [Как превратить PDF в карточки в 2026 году](https://flashcards-open-source-app.com/blog/how-to-turn-a-pdf-into-flashcards/)
-- [Как использовать ChatGPT для создания карточек в 2026 году](https://flashcards-open-source-app.com/blog/how-to-use-chatgpt-to-make-flashcards/)
-- [Как превратить карточки из NotebookLM в настоящее интервальное повторение в 2026 году](https://flashcards-open-source-app.com/blog/notebooklm-flashcards-to-spaced-repetition/)
+- [Как превратить PDF в карточки в 2026 году](https://nibomo.com/blog/how-to-turn-a-pdf-into-flashcards/)
+- [Как использовать ChatGPT для создания карточек в 2026 году](https://nibomo.com/blog/how-to-use-chatgpt-to-make-flashcards/)
+- [Как превратить карточки из NotebookLM в настоящее интервальное повторение в 2026 году](https://nibomo.com/blog/notebooklm-flashcards-to-spaced-repetition/)
 
 Лучшая экзаменационная колода обычно не самая большая.
 

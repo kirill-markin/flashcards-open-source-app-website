@@ -60,7 +60,7 @@ keywords:
 
 Именно так сессия на 150 карточек превращается в то, чего хочется избегать.
 
-Если у вас в целом проблема с качеством карточек, то [How to Make Better Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/) - хорошая парная статья.
+Если у вас в целом проблема с качеством карточек, то [How to Make Better Flashcards in 2026](https://nibomo.com/blog/how-to-make-better-flashcards/) - хорошая парная статья.
 
 ## Карточки по классам препаратов должны появляться раньше, чем мелкие детали
 
@@ -209,7 +209,7 @@ keywords:
 - Это проблема класса, механизма или путаницы?
 - Какая самая маленькая карточка помешает этой же ошибке повториться на следующей неделе?
 
-Если ваши лучшие карточки чаще рождаются из вопросов, а не из конспектов, то [How to Turn Practice Questions Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/) - прямое продолжение этой темы.
+Если ваши лучшие карточки чаще рождаются из вопросов, а не из конспектов, то [How to Turn Practice Questions Into Flashcards in 2026](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/) - прямое продолжение этой темы.
 
 ## Фармакологии больше подходит регулярное возвращение к материалу, чем героическая зубрежка
 
@@ -228,7 +228,7 @@ keywords:
 
 Вот почему **интервальное повторение по фармакологии** подходит лучше, чем авральное повторение. Предмет распадается через маленькие путаницы, значит и система повторения должна чинить именно маленькие путаницы.
 
-Если вам сейчас важнее не написание карточек, а планирование под экзамен, то [How to Study for an Exam With FSRS in 2026](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/) здесь ложится очень прямо.
+Если вам сейчас важнее не написание карточек, а планирование под экзамен, то [How to Study for an Exam With FSRS in 2026](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/) здесь ложится очень прямо.
 
 ## Это рекомендации по учебе, а не медицинский совет
 
@@ -252,12 +252,12 @@ keywords:
 
 Если очередь у вас уже становится тяжелее, чем должна быть, эти две статьи обычно решают следующую проблему:
 
-- [How Many New Flashcards Per Day in 2026?](https://flashcards-open-source-app.com/blog/how-many-new-flashcards-per-day/)
-- [How to Review Flashcards Faster in 2026](https://flashcards-open-source-app.com/blog/how-to-review-flashcards-faster/)
+- [How Many New Flashcards Per Day in 2026?](https://nibomo.com/blog/how-many-new-flashcards-per-day/)
+- [How to Review Flashcards Faster in 2026](https://nibomo.com/blog/how-to-review-flashcards-faster/)
 
 ## Как Flashcards вписывается в этот процесс
 
-[Nibomo](https://flashcards-open-source-app.com/) хорошо подходит для такого сценария изучения фармакологии, потому что полезная часть здесь не в том, чтобы целиком передать фармакологию AI. Я бы так не учился.
+[Nibomo](https://nibomo.com/) хорошо подходит для такого сценария изучения фармакологии, потому что полезная часть здесь не в том, чтобы целиком передать фармакологию AI. Я бы так не учился.
 
 Полезная часть уже в другом:
 

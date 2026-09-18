@@ -175,11 +175,11 @@ The source format does not matter very much as long as you can extract the usefu
 
 If the material is mostly text-heavy, a PDF-focused workflow may fit better:
 
-- [How to Turn a PDF Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-turn-a-pdf-into-flashcards/)
+- [How to Turn a PDF Into Flashcards in 2026](https://nibomo.com/blog/how-to-turn-a-pdf-into-flashcards/)
 
 If the material is more like a tutoring session or guided quiz review, this one may be closer:
 
-- [How to Turn ChatGPT Study Mode Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-turn-chatgpt-study-mode-into-flashcards/)
+- [How to Turn ChatGPT Study Mode Into Flashcards in 2026](https://nibomo.com/blog/how-to-turn-chatgpt-study-mode-into-flashcards/)
 
 ## Keep the reason for the miss, but do not stuff it onto the front
 
@@ -223,7 +223,7 @@ That makes the drafting cleaner and the review queue easier to trust.
 
 ## Where Flashcards fits
 
-[Nibomo](https://flashcards-open-source-app.com/) is a good fit for **practice questions to flashcards** because the product already has the pieces this workflow needs:
+[Nibomo](https://nibomo.com/) is a good fit for **practice questions to flashcards** because the product already has the pieces this workflow needs:
 
 - AI chat
 - file and image attachments
@@ -241,11 +241,11 @@ You want one place where you can extract the question, clean the card, organize 
 
 If you want the scheduling side in more detail, read this next:
 
-- [How to Study for an Exam With FSRS in 2026](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/)
+- [How to Study for an Exam With FSRS in 2026](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)
 
 And if the bigger issue is card quality rather than source material, this one helps too:
 
-- [How to Make Better Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [How to Make Better Flashcards in 2026](https://nibomo.com/blog/how-to-make-better-flashcards/)
 
 ## The useful rule
 
@@ -268,7 +268,7 @@ More useful mistakes.
 
 If that is what you want, start here:
 
-- [Open Nibomo](https://flashcards-open-source-app.com/)
+- [Open Nibomo](https://nibomo.com/)
 - [Open the app](https://app.flashcards-open-source-app.com/)
-- [Read the getting started guide](https://flashcards-open-source-app.com/docs/getting-started/)
+- [Read the getting started guide](https://nibomo.com/docs/getting-started/)
 - [View the source on GitHub](https://github.com/kirill-markin/flashcards-open-source-app)

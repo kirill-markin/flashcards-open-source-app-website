@@ -64,7 +64,7 @@ keywords:
 
 这些都比从章节总结里直接复制一张超大正反面卡，更适合拿来做抽认卡。
 
-如果你现在的牌组已经明显发胖，[2026 年如何做出更好的抽认卡](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/) 会是你继续加卡之前最值得先做的一轮清理。
+如果你现在的牌组已经明显发胖，[2026 年如何做出更好的抽认卡](https://nibomo.com/blog/how-to-make-better-flashcards/) 会是你继续加卡之前最值得先做的一轮清理。
 
 ## 最好用的进阶化学卡片，通常都来自“容易混淆的区别”
 
@@ -173,7 +173,7 @@ keywords:
 
 最后这个问题很重要。有些错误是记忆问题，有些错误是迁移问题。抽认卡负责提取，练习题负责迁移。两者都要有。
 
-如果你现在最好的素材来源是订正后的作业、小测和练习题，[2026 年如何把练习题转成抽认卡](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/) 会是最直接的配套阅读。排程这一层，则可以搭配看 [2026 年如何用 FSRS 备考](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs)。
+如果你现在最好的素材来源是订正后的作业、小测和练习题，[2026 年如何把练习题转成抽认卡](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/) 会是最直接的配套阅读。排程这一层，则可以搭配看 [2026 年如何用 FSRS 备考](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs)。
 
 ## 一套实用的高中进阶化学每周学习流程
 
@@ -192,7 +192,7 @@ keywords:
 
 如果同一种错误在新题里消失了，那张卡大概率就真的完成了它的工作。如果错误还在，通常说明卡片写得太模糊，或者压根打错了记忆目标。
 
-这和 [2026 年如何用抽认卡学数学](https://flashcards-open-source-app.com/blog/how-to-use-flashcards-for-math/) 背后的原则其实是一样的。学科不同，规则一样：卡片帮你记住那些本该很快想起来的东西，练习再负责检验你能不能真的用出来。
+这和 [2026 年如何用抽认卡学数学](https://nibomo.com/blog/how-to-use-flashcards-for-math/) 背后的原则其实是一样的。学科不同，规则一样：卡片帮你记住那些本该很快想起来的东西，练习再负责检验你能不能真的用出来。
 
 ## 哪些内容不该做成抽认卡
 
@@ -219,7 +219,7 @@ keywords:
 
 ## 如果你想把整个流程放在同一个地方，Flashcards 适合放在哪
 
-[Nibomo](https://flashcards-open-source-app.com/) 很适合这套高中进阶化学学习流程，因为当你已经找准记忆目标之后，产品本身刚好支持后面的那些实操步骤：
+[Nibomo](https://nibomo.com/) 很适合这套高中进阶化学学习流程，因为当你已经找准记忆目标之后，产品本身刚好支持后面的那些实操步骤：
 
 - 正反面卡片的创建和编辑
 - 通过聊天进行 AI 辅助起草
@@ -229,7 +229,7 @@ keywords:
 - 在 Web、iOS 和 Android 上进行离线优先学习
 - 如果你在意这一点，还可以用开源代码和自托管
 
-真正有用的承诺不是“化学会突然变简单”，而是给你一个更干净的地方：把对的卡留下，把差的卡砍掉，再按不会浪费时间的节奏去复习。你如果想看产品层面的概览，而不是继续读学习方法文章，[功能页](https://flashcards-open-source-app.com/features/) 会更直接。
+真正有用的承诺不是“化学会突然变简单”，而是给你一个更干净的地方：把对的卡留下，把差的卡砍掉，再按不会浪费时间的节奏去复习。你如果想看产品层面的概览，而不是继续读学习方法文章，[功能页](https://nibomo.com/features/) 会更直接。
 
 ## 真正经得住用的那条规则
 

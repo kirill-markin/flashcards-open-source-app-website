@@ -20,7 +20,7 @@ Anki के विकल्पों की तुलना में यही 
 
 यह तुलना उसी सीमा से शुरू होती है। इसमें Anki जैसे सात ऐप शामिल हैं: हर ऐप मौजूदा कलेक्शन से क्या ले जा सकता है, इंपोर्ट के बाद क्या बदलता है और कब Anki पर टिके रहना अधिक सुरक्षित है।
 
-> **खुलासा:** मैं Kirill Markin हूँ और नीचे दिए गए प्रोडक्ट में से एक, [Nibomo](https://flashcards-open-source-app.com/), बनाता हूँ। मैंने इसे open-source, self-hosting और agent workflows के कारण शामिल किया है। यह अपने-आप पहला विकल्प नहीं बन जाता: इसमें सीधे `.apkg` इंपोर्ट करने की सुविधा नहीं है, Anki माइग्रेशन में डेटा छूटता है और self-hosted stack चलाना सचमुच infrastructure का काम है।
+> **खुलासा:** मैं Kirill Markin हूँ और नीचे दिए गए प्रोडक्ट में से एक, [Nibomo](https://nibomo.com/), बनाता हूँ। मैंने इसे open-source, self-hosting और agent workflows के कारण शामिल किया है। यह अपने-आप पहला विकल्प नहीं बन जाता: इसमें सीधे `.apkg` इंपोर्ट करने की सुविधा नहीं है, Anki माइग्रेशन में डेटा छूटता है और self-hosted stack चलाना सचमुच infrastructure का काम है।
 
 **तथ्यों की जाँच:** 28 अगस्त 2026। कीमतें उस तारीख को उपलब्ध सार्वजनिक अमेरिकी या बताई गई स्थानीय कीमतें हैं। टैक्स, क्षेत्र, शिक्षा संबंधी ऑफ़र और app-store billing से रकम बदल सकती है।
 
@@ -78,7 +78,7 @@ Anki के विकल्पों की तुलना में यही 
 | [Quizlet](https://quizlet.com/) | [Terms और definitions paste करें](https://help.quizlet.com/hc/en-us/articles/360029977151-Creating-sets-by-importing-content) | Anki से कुछ नहीं | Note types, templates, डेक, मीडिया की बनावट और पूरा scheduling data |
 | [Brainscape](https://www.brainscape.com/) | [CSV, TXT, XLSX या ODS](https://brainscape.zendesk.com/hc/en-us/articles/115002369931-How-do-I-import-various-files-to-create-flashcards) | Anki से कुछ नहीं | Templates, add-ons, मीडिया के नियम और पूरा scheduling data |
 | [SuperMemo](https://www.supermemo.com/) | एक बार में अधिकतम 100 [delimiter से अलग की गई सवाल-जवाब की पंक्तियाँ paste करें](https://www.supermemo.com/en/blog/how-to-create-flashcards-for-learning) | Anki से कुछ नहीं | कलेक्शन की बनावट, मीडिया, templates और पूरा scheduling data |
-| [Nibomo](https://flashcards-open-source-app.com/) | Anki TXT या CSV से जाँची हुई AI-assisted drafting | Anki से कुछ नहीं | `.apkg` support नहीं; templates, मीडिया की fidelity, deck hierarchy और पूरा scheduling data पीछे छूट जाता है |
+| [Nibomo](https://nibomo.com/) | Anki TXT या CSV से जाँची हुई AI-assisted drafting | Anki से कुछ नहीं | `.apkg` support नहीं; templates, मीडिया की fidelity, deck hierarchy और पूरा scheduling data पीछे छूट जाता है |
 
 ## कीमत, ऑफ़लाइन उपयोग, शेड्यूलिंग और मालिकाना हक़
 

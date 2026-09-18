@@ -262,7 +262,7 @@ Lösch eine.
 
 ## Wo Flashcards dazu passt
 
-[Nibomo](https://flashcards-open-source-app.com/) passt sehr gut zu **wie organisiert man Flashcards**, weil das Produkt bereits die Bausteine hat, die dieser Workflow braucht:
+[Nibomo](https://nibomo.com/) passt sehr gut zu **wie organisiert man Flashcards**, weil das Produkt bereits die Bausteine hat, die dieser Workflow braucht:
 
 - Decks und Tags für die langfristige Struktur
 - gefilterte Decks auf Basis von Tags und Aufwandsniveau
@@ -278,15 +278,15 @@ Sie wird praktisch, sobald deine Bibliothek nicht mehr klein ist.
 
 Wenn dein nächstes Problem eher Kartenqualität als Organisation ist, lies als Nächstes das hier:
 
-- [Wie man 2026 bessere Flashcards erstellt](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [Wie man 2026 bessere Flashcards erstellt](https://nibomo.com/blog/how-to-make-better-flashcards/)
 
 Wenn dein eigentliches Problem die Wiederholungslast ist, passt auch dieser Artikel:
 
-- [Wie viele neue Flashcards pro Tag im Jahr 2026?](https://flashcards-open-source-app.com/blog/how-many-new-flashcards-per-day/)
+- [Wie viele neue Flashcards pro Tag im Jahr 2026?](https://nibomo.com/blog/how-many-new-flashcards-per-day/)
 
 Und wenn du aus Fehlern temporäre Prüfungs-Queues aufbaust, fang hier an:
 
-- [Wie man Übungsfragen 2026 in Flashcards umwandelt](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/)
+- [Wie man Übungsfragen 2026 in Flashcards umwandelt](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/)
 
 ## Die nützliche Regel
 
@@ -304,7 +304,7 @@ Weniger strukturelles Schuldgefühl.
 
 Wenn du genau das willst, fang hier an:
 
-- [Flashcards öffnen](https://flashcards-open-source-app.com/)
+- [Flashcards öffnen](https://nibomo.com/)
 - [Die App öffnen](https://app.flashcards-open-source-app.com/)
-- [Den Einstiegsleitfaden lesen](https://flashcards-open-source-app.com/docs/getting-started/)
+- [Den Einstiegsleitfaden lesen](https://nibomo.com/docs/getting-started/)
 - [Den Quellcode auf GitHub ansehen](https://github.com/kirill-markin/flashcards-open-source-app)

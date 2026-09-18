@@ -185,7 +185,7 @@ Core sections фиксированы: AUD, FAR и REG. Discipline section выб
 
 Это прямая парная статья, если разбор simulations уже сейчас дает вам лучший материал для карточек:
 
-- [How to Turn Practice Questions Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/)
+- [How to Turn Practice Questions Into Flashcards in 2026](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/)
 
 ## Сценарий misses-to-cards подходит для CPA лучше, чем копирование outline
 
@@ -213,11 +213,11 @@ Outlines аккуратные.
 
 Если именно на этапе написания карточек все начинает расплываться, дальше читайте вот это:
 
-- [How to Make Better Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [How to Make Better Flashcards in 2026](https://nibomo.com/blog/how-to-make-better-flashcards/)
 
 Если проблема шире и больше связана с разрастанием колоды, полезнее будет вот эта статья:
 
-- [How to Organize Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-organize-flashcards/)
+- [How to Organize Flashcards in 2026](https://nibomo.com/blog/how-to-organize-flashcards/)
 
 ## FSRS помогает после того, как колода по CPA перестает пытаться делать все сразу
 
@@ -235,11 +235,11 @@ Outlines аккуратные.
 
 Если вам нужна более подробная статья именно про планирование, вот прямая парная ссылка:
 
-- [How to Study for an Exam With FSRS in 2026](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/)
+- [How to Study for an Exam With FSRS in 2026](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)
 
 ## Как Flashcards вписывается в этот CPA-сценарий
 
-Если вы хотите выстроить это внутри [Nibomo](https://flashcards-open-source-app.com/), полезная часть не в каком-то расплывчатом обещании, что ИИ магическим образом сдаст за вас экзамен CPA.
+Если вы хотите выстроить это внутри [Nibomo](https://nibomo.com/), полезная часть не в каком-то расплывчатом обещании, что ИИ магическим образом сдаст за вас экзамен CPA.
 
 Полезная часть в том, что продукт уже поддерживает неаккуратную середину этого процесса:
 

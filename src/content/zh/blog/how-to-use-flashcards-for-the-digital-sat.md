@@ -100,7 +100,7 @@ Digital SAT 奖励的是你能不能迅速识别出真正有问题的地方。�
 
 如果你更大的问题其实不是 SAT 策略，而是卡片质量本身，可以接着读这篇：
 
-- [2026 年如何做出更好的 Flashcards](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [2026 年如何做出更好的 Flashcards](https://nibomo.com/blog/how-to-make-better-flashcards/)
 
 ## SAT 数学抽认卡应该把公式和过程分开保存
 
@@ -166,7 +166,7 @@ Digital SAT 里的数学错题，很多其实不是知识错误，而是过程�
 
 如果你最需要的正是这条工作流，这篇就是最直接的配套文章：
 
-- [2026 年如何把练习题变成 Flashcards](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/)
+- [2026 年如何把练习题变成 Flashcards](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/)
 
 ## 一种 SAT 卡片模板，不可能扛住这四种不同题型
 
@@ -204,7 +204,7 @@ Digital SAT 里的数学错题，很多其实不是知识错误，而是过程�
 
 如果你更大的问题是结构，而不是写卡本身，这篇更适合接着看：
 
-- [2026 年如何整理 Flashcards](https://flashcards-open-source-app.com/blog/how-to-organize-flashcards/)
+- [2026 年如何整理 Flashcards](https://nibomo.com/blog/how-to-organize-flashcards/)
 
 ## 你大概率并不需要几千张 SAT 抽认卡
 
@@ -230,7 +230,7 @@ Digital SAT 里的数学错题，很多其实不是知识错误，而是过程�
 
 如果你的复习量已经涨得太快，这篇文章和 SAT 工作流很适合一起看：
 
-- [2026 年每天该加多少新 Flashcards？](https://flashcards-open-source-app.com/blog/how-many-new-flashcards-per-day/)
+- [2026 年每天该加多少新 Flashcards？](https://nibomo.com/blog/how-many-new-flashcards-per-day/)
 
 ## 当你的 SAT 学习节奏忽快忽慢时，FSRS 的帮助最大
 
@@ -257,12 +257,12 @@ FSRS 有帮助，是因为：
 
 如果你想更细地看排程这一层，这两篇最适合继续读：
 
-- [2026 年如何用 FSRS 备考](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/)
-- [2026 年 FSRS vs SM-2](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [2026 年如何用 FSRS 备考](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)
+- [2026 年 FSRS vs SM-2](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
 ## Flashcards 在这套 Digital SAT 工作流里适合做什么
 
-[Nibomo](https://flashcards-open-source-app.com/) 很适合承接这类 **Digital SAT flashcards** 工作流，因为当前产品已经支持这套流程真正依赖的那些部分：
+[Nibomo](https://nibomo.com/) 很适合承接这类 **Digital SAT flashcards** 工作流，因为当前产品已经支持这套流程真正依赖的那些部分：
 
 - 正反面卡片的创建和编辑
 - AI 对话，可根据笔记、粘贴的解析内容或模考复盘起草候选卡片
@@ -277,8 +277,8 @@ FSRS 有帮助，是因为：
 
 如果你的 SAT 备考材料还停在更前一步，下面两篇更适合解决输入端的问题：
 
-- [2026 年如何把笔记变成 Flashcards](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
-- [2026 年如何把 PDF 变成 Flashcards](https://flashcards-open-source-app.com/blog/how-to-turn-a-pdf-into-flashcards/)
+- [2026 年如何把笔记变成 Flashcards](https://nibomo.com/blog/turn-notes-into-flashcards/)
+- [2026 年如何把 PDF 变成 Flashcards](https://nibomo.com/blog/how-to-turn-a-pdf-into-flashcards/)
 
 ## 建立一副能修复重复失误的 SAT 卡组
 

@@ -66,7 +66,7 @@ If a formula card keeps failing, it usually means the card is testing the wrong 
 
 Those are much better card targets than one giant front/back dump from a chapter summary.
 
-If your current deck already feels bloated, [How to Make Better Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/) is the best cleanup pass before you add more.
+If your current deck already feels bloated, [How to Make Better Flashcards in 2026](https://nibomo.com/blog/how-to-make-better-flashcards/) is the best cleanup pass before you add more.
 
 ## The best advanced chemistry cards usually come from distinctions
 
@@ -177,7 +177,7 @@ Examples:
 
 That last one matters because memory and transfer fail in different ways. Flashcards support recall, while practice problems build the ability to use what you know, so both belong in the workflow.
 
-If your best source material is corrected homework, quizzes, and independently written practice problems, [How to Turn Practice Questions Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/) is the most direct companion. For the scheduling side, [How to Study for an Exam With FSRS in 2026](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs) fits well here too.
+If your best source material is corrected homework, quizzes, and independently written practice problems, [How to Turn Practice Questions Into Flashcards in 2026](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/) is the most direct companion. For the scheduling side, [How to Study for an Exam With FSRS in 2026](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs) fits well here too.
 
 ## A practical weekly workflow for advanced chemistry
 
@@ -196,7 +196,7 @@ That last step is the test.
 
 If the same mistake disappears in new work, the card probably did its job. If the mistake stays, the card is usually too vague or aimed at the wrong memory target.
 
-This is the same principle behind [How to Use Flashcards for Math in 2026](https://flashcards-open-source-app.com/blog/how-to-use-flashcards-for-math/). The subject changes, but the split holds up: cards help you remember what should come back quickly, then practice checks whether you can actually use it.
+This is the same principle behind [How to Use Flashcards for Math in 2026](https://nibomo.com/blog/how-to-use-flashcards-for-math/). The subject changes, but the split holds up: cards help you remember what should come back quickly, then practice checks whether you can actually use it.
 
 ## What should not become a flashcard
 
@@ -223,7 +223,7 @@ If you want a simple test, ask this: when I miss this card, will fixing it make 
 
 ## Where Flashcards fits if you want one place for the workflow
 
-[Nibomo](https://flashcards-open-source-app.com/) fits this advanced chemistry workflow well because the product already supports the practical parts after you identify the memory target:
+[Nibomo](https://nibomo.com/) fits this advanced chemistry workflow well because the product already supports the practical parts after you identify the memory target:
 
 - front/back card creation and editing
 - AI-assisted drafting through chat
@@ -233,7 +233,7 @@ If you want a simple test, ask this: when I miss this card, will fixing it make 
 - offline-first study across web, iOS, and Android
 - open source code and self-hosting if that matters to how you study
 
-The practical benefit is a cleaner place to capture the right cards, cut the bad ones, and review them on a schedule that does not waste time; it does not make the chemistry itself easier. If you want the product overview rather than another study article, the [features page](https://flashcards-open-source-app.com/features/) is the clean summary.
+The practical benefit is a cleaner place to capture the right cards, cut the bad ones, and review them on a schedule that does not waste time; it does not make the chemistry itself easier. If you want the product overview rather than another study article, the [features page](https://nibomo.com/features/) is the clean summary.
 
 ## The rule that actually holds up
 

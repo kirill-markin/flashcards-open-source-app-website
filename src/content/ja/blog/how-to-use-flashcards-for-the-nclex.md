@@ -40,7 +40,7 @@ NCLEX 公式の [NGN overview](https://www.nclex.com/next-generation-nclex) も�
 
 ## ここが NCLEX 対策と看護学校の学習が分かれるところ
 
-より広い文脈での [2026年版 看護学校でのフラッシュカード活用法](https://flashcards-open-source-app.com/blog/how-to-use-flashcards-for-nursing-school/) は、講義内容、スキルチェック、コース試験を並行してこなしているなら今でも役立ちます。
+より広い文脈での [2026年版 看護学校でのフラッシュカード活用法](https://nibomo.com/blog/how-to-use-flashcards-for-nursing-school/) は、講義内容、スキルチェック、コース試験を並行してこなしているなら今でも役立ちます。
 
 ただ、このページはもっと絞った話です。
 
@@ -107,7 +107,7 @@ RN の test plan では、各ケーススタディが6つの臨床判断ステ�
 
 ミスの本質が「急いで読んで1語飛ばした」だけなら、それは現実の問題ではありますが、フラッシュカードの問題ではありません。
 
-ここでは、[2026年版 演習問題をフラッシュカードに変える方法](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/) のほうが良い補助記事になります。役立つ **NCLEX RN フラッシュカード** の大半は、参考書から内容を書き写すことではなく、自分の取りこぼしの構造から生まれます。
+ここでは、[2026年版 演習問題をフラッシュカードに変える方法](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/) のほうが良い補助記事になります。役立つ **NCLEX RN フラッシュカード** の大半は、参考書から内容を書き写すことではなく、自分の取りこぼしの構造から生まれます。
 
 ## 部分点があるなら、ミスの保存方法も変えるべき
 
@@ -225,7 +225,7 @@ FSRS が有用なのは、NCLEX で必要な記憶が均一ではないからで
 2. デッキを制御できる大きさに保つ
 3. タイミングは FSRS に任せる
 
-スケジューリングの側面をもっと詳しく見たいなら、[2026年版 FSRS を使って試験勉強する方法](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/) がそのまま次の記事になります。
+スケジューリングの側面をもっと詳しく見たいなら、[2026年版 FSRS を使って試験勉強する方法](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/) がそのまま次の記事になります。
 
 ## NCLEX 前の最後の7日から10日は、もっと引き締まっているべき
 
@@ -247,7 +247,7 @@ NCLEX は5時間の CAT 試験で、公式 bulletin では休憩時間もその�
 
 ## Flashcards が合う理由
 
-[Nibomo](https://flashcards-open-source-app.com/) は、このワークフローと相性がいいです。理由は派手な機能ではなく、地味だけど重要なものがそろっているからです。小さな表裏カード、タグ、フィルタ復習、そしてカードが十分きれいになったあとに使える FSRS スケジューリング。
+[Nibomo](https://nibomo.com/) は、このワークフローと相性がいいです。理由は派手な機能ではなく、地味だけど重要なものがそろっているからです。小さな表裏カード、タグ、フィルタ復習、そしてカードが十分きれいになったあとに使える FSRS スケジューリング。
 
 NCLEX 対策でこれが役立つのは、元になる情報がすぐ散らかるからです。解説は1つのタブ、手書きノートは別の場所、検査値の一覧はまた別の場所にあり、本当の弱点はたいていその全部に散らばっています。必要なのは、それらを第二のフルタイム学習システムにせず、小さなカードへ変えていける道具です。
 

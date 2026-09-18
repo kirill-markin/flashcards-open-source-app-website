@@ -154,7 +154,7 @@ Si necesitas una **alternativa a RemNote de código abierto**, decide qué es in
 
 ## Aviso de transparencia: desarrollo Flashcards
 
-> **Aviso de transparencia:** Soy Kirill Markin y desarrollo [Nibomo](https://flashcards-open-source-app.com/). Su repositorio con licencia MIT incluye la aplicación web, los clientes para iOS y Android, la autenticación, el backend, la sincronización, el servicio MCP y la infraestructura de AWS. El código que Flashcards publica hoy abarca más que el de RemNote, pero eso no convierte Flashcards en el mejor producto para todos los flujos de estudio.
+> **Aviso de transparencia:** Soy Kirill Markin y desarrollo [Nibomo](https://nibomo.com/). Su repositorio con licencia MIT incluye la aplicación web, los clientes para iOS y Android, la autenticación, el backend, la sincronización, el servicio MCP y la infraestructura de AWS. El código que Flashcards publica hoy abarca más que el de RemNote, pero eso no convierte Flashcards en el mejor producto para todos los flujos de estudio.
 
 Flashcards cubre un flujo de aprendizaje más limitado. No tiene una base de conocimientos de notas conectadas, lector de PDF, aplicación nativa de escritorio ni importador directo de RemNote. RemNote es más maduro y mucho más completo cuando las notas, las referencias y los documentos fuente ocupan el centro del estudio. Cambiar solo por la licencia puede suponer la pérdida del flujo de trabajo que daba utilidad a la colección.
 

@@ -262,7 +262,7 @@ Delete one.
 
 ## Where Flashcards fits
 
-[Nibomo](https://flashcards-open-source-app.com/) is a strong fit for **how to organize flashcards** because the product already has the parts this workflow needs:
+[Nibomo](https://nibomo.com/) is a strong fit for **how to organize flashcards** because the product already has the parts this workflow needs:
 
 - decks and tags for long-term structure
 - filtered decks based on tags and effort level
@@ -278,15 +278,15 @@ It becomes practical the moment your library stops being small.
 
 If the next problem is card quality rather than organization, read this next:
 
-- [How to Make Better Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [How to Make Better Flashcards in 2026](https://nibomo.com/blog/how-to-make-better-flashcards/)
 
 If your real issue is review load, this one fits well too:
 
-- [How Many New Flashcards Per Day in 2026?](https://flashcards-open-source-app.com/blog/how-many-new-flashcards-per-day/)
+- [How Many New Flashcards Per Day in 2026?](https://nibomo.com/blog/how-many-new-flashcards-per-day/)
 
 And if you are building temporary exam queues from mistakes, start here:
 
-- [How to Turn Practice Questions Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/)
+- [How to Turn Practice Questions Into Flashcards in 2026](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/)
 
 ## The useful rule
 
@@ -304,7 +304,7 @@ Less structural guilt.
 
 If that is what you want, start here:
 
-- [Open Nibomo](https://flashcards-open-source-app.com/)
+- [Open Nibomo](https://nibomo.com/)
 - [Open the app](https://app.flashcards-open-source-app.com/)
-- [Read the getting started guide](https://flashcards-open-source-app.com/docs/getting-started/)
+- [Read the getting started guide](https://nibomo.com/docs/getting-started/)
 - [View the source on GitHub](https://github.com/kirill-markin/flashcards-open-source-app)

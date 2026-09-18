@@ -91,7 +91,7 @@ Eso parece obvio hasta que ya llevas 300 tarjetas. Ahí es cuando **las flashcar
 
 Si el punto débil es cómo redactas las tarjetas, este artículo encaja directamente:
 
-- [Cómo hacer mejores flashcards en 2026](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [Cómo hacer mejores flashcards en 2026](https://nibomo.com/blog/how-to-make-better-flashcards/)
 
 ## Las tarjetas de issue spotting deberían entrenar el disparador, no el ensayo completo
 
@@ -123,7 +123,7 @@ Sin tarjetas de disparadores, conoces la regla cuando alguien te nombra la doctr
 
 Si quieres un flujo más profundo para convertir errores en tarjetas, este artículo complementario es el adecuado:
 
-- [Cómo convertir preguntas de práctica en flashcards en 2026](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/)
+- [Cómo convertir preguntas de práctica en flashcards en 2026](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/)
 
 ## Los errores en multiple choice independientes suelen dar mejores tarjetas que los outlines
 
@@ -199,7 +199,7 @@ Eso te da una experiencia de repaso mucho más limpia que un único almacén doc
 
 Si el problema principal es más la organización que la redacción, lee esto a continuación:
 
-- [Cómo organizar flashcards en 2026](https://flashcards-open-source-app.com/blog/how-to-organize-flashcards/)
+- [Cómo organizar flashcards en 2026](https://nibomo.com/blog/how-to-organize-flashcards/)
 
 ## Un flujo semanal práctico de flashcards para el NextGen Bar Exam
 
@@ -239,11 +239,11 @@ Yo mantendría el orden así de simple:
 
 Si quieres más detalle sobre la parte de programación, éste es el artículo complementario directo:
 
-- [Cómo estudiar para un examen con FSRS en 2026](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/)
+- [Cómo estudiar para un examen con FSRS en 2026](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)
 
 ## Dónde encaja Flashcards en este flujo NextGen
 
-Si quieres llevar este flujo dentro de [Nibomo](https://flashcards-open-source-app.com/), la parte útil no es una promesa vaga de que la IA hace que estudiar sea más fácil. La parte útil es que el producto ya soporta la parte intermedia real de este flujo:
+Si quieres llevar este flujo dentro de [Nibomo](https://nibomo.com/), la parte útil no es una promesa vaga de que la IA hace que estudiar sea más fácil. La parte útil es que el producto ya soporta la parte intermedia real de este flujo:
 
 - chat con IA en la app web
 - adjuntos de archivos y subidas de texto plano para outlines, apuntes de práctica o explicaciones copiadas
@@ -256,7 +256,7 @@ Eso importa porque **las flashcards para el NextGen Bar Exam** no son solo un pr
 
 Si tu material de origen empieza como apuntes desordenados en vez de como outlines terminados, este artículo encaja bien con el flujo:
 
-- [Cómo usar flashcards para la carrera de Derecho en 2026: casos, reglas e identificación de cuestiones que de verdad se quedan](https://flashcards-open-source-app.com/blog/how-to-use-flashcards-for-law-school/)
+- [Cómo usar flashcards para la carrera de Derecho en 2026: casos, reglas e identificación de cuestiones que de verdad se quedan](https://nibomo.com/blog/how-to-use-flashcards-for-law-school/)
 
 ## Construye el mazo que te ayude a ver y formular la ley más rápido
 

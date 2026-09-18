@@ -169,8 +169,8 @@ Das ist viel effektiver, als ein Modell nach "50 perfekten Flashcards" zu fragen
 
 Wenn du KI schon beim Erstellen einsetzt, passen diese Guides ebenfalls gut:
 
-- [Wie du 2026 ChatGPT nutzt, um Flashcards zu erstellen: bessere Prompts, bessere Karten, bessere Reviews mit FSRS](https://flashcards-open-source-app.com/blog/how-to-use-chatgpt-to-make-flashcards/)
-- [Wie du 2026 Notizen in Flashcards verwandelst: KI-Entwürfe mit FSRS statt manuellem Copy-and-paste](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
+- [Wie du 2026 ChatGPT nutzt, um Flashcards zu erstellen: bessere Prompts, bessere Karten, bessere Reviews mit FSRS](https://nibomo.com/blog/how-to-use-chatgpt-to-make-flashcards/)
+- [Wie du 2026 Notizen in Flashcards verwandelst: KI-Entwürfe mit FSRS statt manuellem Copy-and-paste](https://nibomo.com/blog/turn-notes-into-flashcards/)
 
 ## Die Karte sollte Abruf testen, nicht bloßes Wiedererkennen
 
@@ -211,8 +211,8 @@ Das ist kein Algorithmusproblem. Das ist ein Problem beim Schreiben von Karten, 
 
 Wenn du die Scheduling-Seite genauer verstehen willst, fang hier an:
 
-- [FSRS vs SM-2 in 2026: Welcher Spaced-Repetition-Algorithmus hilft dir, mehr zu behalten?](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
-- [Wie viele neue Flashcards pro Tag im Jahr 2026? Baue eine FSRS-Review-Last, die du wirklich fertig bekommst](https://flashcards-open-source-app.com/blog/how-many-new-flashcards-per-day/)
+- [FSRS vs SM-2 in 2026: Welcher Spaced-Repetition-Algorithmus hilft dir, mehr zu behalten?](https://nibomo.com/blog/fsrs-vs-sm-2/)
+- [Wie viele neue Flashcards pro Tag im Jahr 2026? Baue eine FSRS-Review-Last, die du wirklich fertig bekommst](https://nibomo.com/blog/how-many-new-flashcards-per-day/)
 
 ## Die schnellste Bearbeitung ist Löschen
 
@@ -236,7 +236,7 @@ Ein Deck wird besser, wenn die schlechten Karten verschwinden.
 
 ## Warum Flashcards gut zu diesem Workflow passt
 
-[Nibomo](https://flashcards-open-source-app.com/) passt gut dazu, **effektive Flashcards** zu erstellen, weil das Produkt um die Teile herum gebaut ist, die nach dem Entwurf wirklich zählen:
+[Nibomo](https://nibomo.com/) passt gut dazu, **effektive Flashcards** zu erstellen, weil das Produkt um die Teile herum gebaut ist, die nach dem Entwurf wirklich zählen:
 
 - echte Karten mit Vorder- und Rückseite
 - Decks und Tags

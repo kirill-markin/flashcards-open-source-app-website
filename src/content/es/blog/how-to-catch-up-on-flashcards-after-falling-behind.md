@@ -88,7 +88,7 @@ Estás en modo de recuperación ahora. El trabajo consiste en estabilizar la col
 
 Si desea conocer la lógica más profunda detrás de la ingesta diaria, este artículo complementario aborda el mismo problema desde el principio:
 
-- [¿Cuántas tarjetas didácticas nuevas por día en 2026?](https://flashcards-open-source-app.com/blog/how-many-new-flashcards-per-day/)
+- [¿Cuántas tarjetas didácticas nuevas por día en 2026?](https://nibomo.com/blog/how-many-new-flashcards-per-day/)
 
 ## Siguiente paso: elige un piso diario que realmente puedas repetir
 
@@ -142,7 +142,7 @@ Un minuto dedicado a limpiar una tarjeta defectuosa puede ahorrarle varias crít
 
 Si su verdadero problema es la calidad de la tarjeta y no los días perdidos, este artículo es más profundo:
 
-- [Cómo hacer mejores tarjetas didácticas en 2026](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [Cómo hacer mejores tarjetas didácticas en 2026](https://nibomo.com/blog/how-to-make-better-flashcards/)
 
 ## Prioriza primero la parte de mayor rendimiento del mazo
 
@@ -162,7 +162,7 @@ Esto es aún más importante si la cola de entrega se acumuló alrededor de una 
 
 En ese caso este artículo también encaja:
 
-- [Cómo estudiar para un examen con FSRS en 2026](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/)
+- [Cómo estudiar para un examen con FSRS en 2026](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)
 
 ## El objetivo es, en primer lugar, recuperar los hábitos y, en segundo lugar, reducir los retrasos.
 
@@ -222,7 +222,7 @@ No pretender que la respuesta correcta a la sobrecarga sea aún más sobrecarga.
 
 ## Dónde se adapta mejor Flashcards a esto
 
-[Nibomo](https://flashcards-open-source-app.com/) es una buena opción para la recuperación de **repeticiones pendientes espaciadas** porque el flujo de trabajo no tiene que dividirse en tres herramientas diferentes:
+[Nibomo](https://nibomo.com/) es una buena opción para la recuperación de **repeticiones pendientes espaciadas** porque el flujo de trabajo no tiene que dividirse en tres herramientas diferentes:
 
 - El chat de IA puede ayudar a seleccionar cartas, pero aún así decides qué sobrevive.
 - La edición frontal/posterior facilita acortar o dividir tarjetas débiles
@@ -264,4 +264,4 @@ Esa es la versión de **cómo solucionar el trabajo pendiente de Anki** en la qu
 
 No fue una sesión de rescate heroica. No es un reinicio total. Simplemente un sistema más tranquilo que podrás reabrir mañana.
 
-Si desea un producto que se ajuste a ese flujo de trabajo, [Nibomo](https://flashcards-open-source-app.com/) es una buena opción. Le brinda redacción asistida por IA, edición frontal y posterior y revisión FSRS en una pila de código abierto, que es exactamente lo que ayuda cuando el problema real no es solo la cantidad de cartas vencidas sino también la calidad del mazo que está intentando guardar.
+Si desea un producto que se ajuste a ese flujo de trabajo, [Nibomo](https://nibomo.com/) es una buena opción. Le brinda redacción asistida por IA, edición frontal y posterior y revisión FSRS en una pila de código abierto, que es exactamente lo que ayuda cuando el problema real no es solo la cantidad de cartas vencidas sino también la calidad del mazo que está intentando guardar.

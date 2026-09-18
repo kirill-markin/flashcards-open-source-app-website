@@ -254,15 +254,15 @@ AI のガイドでは、整いすぎた文章を、本当に覚えたいとこ�
 
 ある節が「間違えた問題」中心なら、こちらの手順のほうが合います。
 
-- [2026年版 演習問題をフラッシュカードに変える方法: 間違えた問題からFSRSデッキを作る](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/)
+- [2026年版 演習問題をフラッシュカードに変える方法: 間違えた問題からFSRSデッキを作る](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/)
 
 資料が文書や書き出したパケット中心なら、こちらも役立ちます。
 
-- [2026年版 PDFをフラッシュカード化する方法: 講義スライド・教科書・論文からFSRS向けカードを作る](https://flashcards-open-source-app.com/blog/how-to-turn-a-pdf-into-flashcards/)
+- [2026年版 PDFをフラッシュカード化する方法: 講義スライド・教科書・論文からFSRS向けカードを作る](https://nibomo.com/blog/how-to-turn-a-pdf-into-flashcards/)
 
 配布資料ではなく AI 家庭教師のやり取りから始まっているなら、こちらの関連記事のほうが近いです。
 
-- [2026年版: ChatGPT Study Mode をフラッシュカードに変える方法 AI家庭教師はそのままに、間隔反復を足す](https://flashcards-open-source-app.com/blog/how-to-turn-chatgpt-study-mode-into-flashcards/)
+- [2026年版: ChatGPT Study Mode をフラッシュカードに変える方法 AI家庭教師はそのままに、間隔反復を足す](https://nibomo.com/blog/how-to-turn-chatgpt-study-mode-into-flashcards/)
 
 ## 完成したデッキは、元のガイドより軽く感じるべき
 
@@ -283,7 +283,7 @@ AI のガイドでは、整いすぎた文章を、本当に覚えたいとこ�
 
 ## Flashcards が合う理由
 
-[Nibomo](https://flashcards-open-source-app.com/) は、勉強ガイドをフラッシュカードにする流れと相性が良いです。必要な要素がすでに揃っているからです。
+[Nibomo](https://nibomo.com/) は、勉強ガイドをフラッシュカードにする流れと相性が良いです。必要な要素がすでに揃っているからです。
 
 - 荒い勉強ガイドの文章を組み替えるための AI チャット
 - ファイルと画像の添付
@@ -301,11 +301,11 @@ AI のガイドでは、整いすぎた文章を、本当に覚えたいとこ�
 
 カードそのものの質が気になるなら、次はこちらです。
 
-- [2026年、より良いフラッシュカードの作り方: FSRSで機能する表裏カードのルール](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [2026年、より良いフラッシュカードの作り方: FSRSで機能する表裏カードのルール](https://nibomo.com/blog/how-to-make-better-flashcards/)
 
 本当の問題が試験日までの復習量の設計なら、こちらも役立ちます。
 
-- [2026年、FSRSで試験勉強する方法: 試験日までに終えられるフラッシュカード計画を作る](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/)
+- [2026年、FSRSで試験勉強する方法: 試験日までに終えられるフラッシュカード計画を作る](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)
 
 ## 役に立つ原則
 

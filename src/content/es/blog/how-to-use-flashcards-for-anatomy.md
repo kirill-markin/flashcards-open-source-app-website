@@ -93,7 +93,7 @@ Mejor divídelo:
 
 La misma regla funciona con forámenes, vasos, ligamentos y ramas del plexo. La mayoría de los fallos en anatomía vienen de un enlace roto, no de una ignorancia total.
 
-Si tus tarjetas ya se sienten infladas, [Cómo hacer mejores flashcards en 2026](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/) es la guía adecuada para limpiar el mazo.
+Si tus tarjetas ya se sienten infladas, [Cómo hacer mejores flashcards en 2026](https://nibomo.com/blog/how-to-make-better-flashcards/) es la guía adecuada para limpiar el mazo.
 
 ## Las relaciones espaciales merecen sus propias tarjetas
 
@@ -161,7 +161,7 @@ Lo que suele fallar:
 - una tarjeta que evalúa región, estructura, inervación y acción al mismo tiempo
 - una respuesta en forma de párrafo debajo de una imagen ruidosa
 
-Si el cuello de botella real está en convertir diagramas y visuales etiquetados de forma limpia, [Cómo convertir diagramas en flashcards en 2026](https://flashcards-open-source-app.com/blog/how-to-turn-diagrams-into-flashcards/) cubre bien esa parte inicial del flujo.
+Si el cuello de botella real está en convertir diagramas y visuales etiquetados de forma limpia, [Cómo convertir diagramas en flashcards en 2026](https://nibomo.com/blog/how-to-turn-diagrams-into-flashcards/) cubre bien esa parte inicial del flujo.
 
 ## La IA sirve para limpiar material, no para recordar por ti
 
@@ -182,7 +182,7 @@ Dónde ayuda poco:
 
 Así que usa la IA para preparar el material, no para externalizar la memoria.
 
-Si quieres la versión más amplia de ese flujo, desde tutor hasta retención, [Cómo usar IA para estudiar en 2026](https://flashcards-open-source-app.com/blog/how-to-use-ai-to-study/) y [Cómo arreglar flashcards hechas con IA en 2026](https://flashcards-open-source-app.com/blog/how-to-fix-ai-flashcards/) son los dos seguimientos útiles.
+Si quieres la versión más amplia de ese flujo, desde tutor hasta retención, [Cómo usar IA para estudiar en 2026](https://nibomo.com/blog/how-to-use-ai-to-study/) y [Cómo arreglar flashcards hechas con IA en 2026](https://nibomo.com/blog/how-to-fix-ai-flashcards/) son los dos seguimientos útiles.
 
 ## Los pines que fallas y las relaciones que inviertes son tu mejor fuente de tarjetas
 
@@ -208,7 +208,7 @@ Lo que normalmente no merece tarjeta:
 
 Esos son problemas reales. Simplemente no son problemas de flashcards.
 
-Si tu mejor material fuente son los fallos de prácticos y de spotters, [Cómo convertir preguntas de práctica en flashcards en 2026](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/) encaja muy bien aquí.
+Si tu mejor material fuente son los fallos de prácticos y de spotters, [Cómo convertir preguntas de práctica en flashcards en 2026](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/) encaja muy bien aquí.
 
 ## Un flujo semanal de anatomía debería ser aburrido
 
@@ -224,7 +224,7 @@ Mantén el bucle simple:
 
 Anatomía genera material infinito para nuevas tarjetas. Tu cola de repaso sigue teniendo que ser vivible.
 
-Si ya se te está yendo de las manos, [¿Cuántas flashcards nuevas al día en 2026?](https://flashcards-open-source-app.com/blog/how-many-new-flashcards-per-day/) y [Cómo ponerse al día con flashcards después de quedarse atrás en 2026](https://flashcards-open-source-app.com/blog/how-to-catch-up-on-flashcards-after-falling-behind/) son las siguientes lecturas lógicas.
+Si ya se te está yendo de las manos, [¿Cuántas flashcards nuevas al día en 2026?](https://nibomo.com/blog/how-many-new-flashcards-per-day/) y [Cómo ponerse al día con flashcards después de quedarse atrás en 2026](https://nibomo.com/blog/how-to-catch-up-on-flashcards-after-falling-behind/) son las siguientes lecturas lógicas.
 
 ## FSRS ayuda cuando las tarjetas por fin son honestas
 
@@ -240,11 +240,11 @@ Lo que FSRS no hace es rescatar tarjetas infladas. El orden importa:
 2. mantén el mazo bajo control
 3. deja que FSRS se encargue del momento
 
-Si quieres una explicación más directa de la parte del planificador, [Cómo estudiar para un examen con FSRS en 2026](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/) y [FSRS vs. SM-2 en 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/) son los dos seguimientos más limpios.
+Si quieres una explicación más directa de la parte del planificador, [Cómo estudiar para un examen con FSRS en 2026](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/) y [FSRS vs. SM-2 en 2026](https://nibomo.com/blog/fsrs-vs-sm-2/) son los dos seguimientos más limpios.
 
 ## Dónde encaja Flashcards
 
-[Nibomo](https://flashcards-open-source-app.com/) encaja especialmente bien en anatomía cuando ya sabes qué merece la pena recordar.
+[Nibomo](https://nibomo.com/) encaja especialmente bien en anatomía cuando ya sabes qué merece la pena recordar.
 
 Eso encaja muy bien con esta asignatura porque el estudio de anatomía suele alimentarse de varias fuentes desordenadas a la vez:
 
@@ -255,6 +255,6 @@ Eso encaja muy bien con esta asignatura porque el estudio de anatomía suele ali
 - fallos de prácticos
 - pequeñas sesiones de limpieza con IA
 
-Lo útil no es prometer que la app memorizará por ti las ramas del plexo braquial. Lo útil es que puedes convertir esas fuentes en tarjetas simples de anverso y reverso, repasarlas con FSRS, mantener el material con carga visual en un solo sitio, usar el chat con IA cuando una foto o un archivo fuente necesite limpieza y tener el mazo disponible sin conexión en distintos dispositivos. Si prefieres ver primero la visión general del producto, empieza por la [página de funcionalidades](https://flashcards-open-source-app.com/features/) o por la [guía de primeros pasos](https://flashcards-open-source-app.com/docs/getting-started/). Si para ti importa controlar toda la infraestructura, también tienes la [guía de self-hosting](https://flashcards-open-source-app.com/docs/self-hosting/).
+Lo útil no es prometer que la app memorizará por ti las ramas del plexo braquial. Lo útil es que puedes convertir esas fuentes en tarjetas simples de anverso y reverso, repasarlas con FSRS, mantener el material con carga visual en un solo sitio, usar el chat con IA cuando una foto o un archivo fuente necesite limpieza y tener el mazo disponible sin conexión en distintos dispositivos. Si prefieres ver primero la visión general del producto, empieza por la [página de funcionalidades](https://nibomo.com/features/) o por la [guía de primeros pasos](https://nibomo.com/docs/getting-started/). Si para ti importa controlar toda la infraestructura, también tienes la [guía de self-hosting](https://nibomo.com/docs/self-hosting/).
 
 Anatomía normalmente no necesita más información. Necesita una recuperación más limpia. Si tu mazo te ayuda a nombrar la estructura, ubicarla en el espacio, conectarla con un dato útil y volver a verla justo antes de que la fueras a olvidar, eso suele bastar para que la asignatura deje de sentirse tan escurridiza.

@@ -77,7 +77,7 @@ keywords:
 
 Это намного ближе к тому, как на самом деле ощущается смешанное повторение Step 1.
 
-Если вам нужна более широкая версия этой темы для медвуза, а не вариант под интенсивную подготовку к Step 1, прочитайте [How to Use Flashcards for Medical School in 2026](https://flashcards-open-source-app.com/blog/how-to-use-flashcards-for-medical-school/).
+Если вам нужна более широкая версия этой темы для медвуза, а не вариант под интенсивную подготовку к Step 1, прочитайте [How to Use Flashcards for Medical School in 2026](https://nibomo.com/blog/how-to-use-flashcards-for-medical-school/).
 
 ## Карточки по патологии должны разделять распознавание паттерна и механизм
 
@@ -125,7 +125,7 @@ keywords:
 
 **Карточки по патологическим изображениям для Step 1** работают лучше всего, когда учат одному устойчивому паттерну за раз, а не заставляют восстанавливать целую главу по патологии по одному скриншоту.
 
-Если слабое место у вас именно работа с изображениями, то ближайшая парная статья - [How to Turn Diagrams Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-turn-diagrams-into-flashcards/).
+Если слабое место у вас именно работа с изображениями, то ближайшая парная статья - [How to Turn Diagrams Into Flashcards in 2026](https://nibomo.com/blog/how-to-turn-diagrams-into-flashcards/).
 
 ## Карточки с изображениями должны тренировать то, что вы можете быстро увидеть, а не то, что можно медленно перечитать
 
@@ -220,7 +220,7 @@ keywords:
 
 Это реальные проблемы. Просто это не проблемы флешкарточек.
 
-Если лучшие карточки у вас рождаются из ошибок в вопросах, то [How to Turn Practice Questions Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/) подробнее разбирает именно этот процесс.
+Если лучшие карточки у вас рождаются из ошибок в вопросах, то [How to Turn Practice Questions Into Flashcards in 2026](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/) подробнее разбирает именно этот процесс.
 
 ## Карточки по физиологии чаще всего должны быть про направление изменения
 
@@ -313,11 +313,11 @@ FSRS - это тот слой расписания, которому я бы д�
 4. держать реалистичный объем новых карточек во время интенсивной подготовки
 5. и только потом позволять FSRS управлять таймингом, когда колода уже стоит того, чтобы ее планировать
 
-Если хотите подробнее разобраться именно с частью про расписание, то [How to Study for an Exam With FSRS in 2026](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/) - прямая парная статья. Если очередь у вас уже выходит из-под контроля, то следующим полезным чтением будет [How Many New Flashcards Per Day in 2026](https://flashcards-open-source-app.com/blog/how-many-new-flashcards-per-day/).
+Если хотите подробнее разобраться именно с частью про расписание, то [How to Study for an Exam With FSRS in 2026](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/) - прямая парная статья. Если очередь у вас уже выходит из-под контроля, то следующим полезным чтением будет [How Many New Flashcards Per Day in 2026](https://nibomo.com/blog/how-many-new-flashcards-per-day/).
 
 ## Как Flashcards вписывается в процесс подготовки к Step 1
 
-Если вы хотите выстроить все это внутри [Nibomo](https://flashcards-open-source-app.com/), ценность не в расплывчатом обещании, что AI "выучит за вас медицину".
+Если вы хотите выстроить все это внутри [Nibomo](https://nibomo.com/), ценность не в расплывчатом обещании, что AI "выучит за вас медицину".
 
 Ценность в том, что продукт уже закрывает практическую середину процесса:
 
@@ -329,7 +329,7 @@ FSRS - это тот слой расписания, которому я бы д�
 
 Это хорошо подходит для Step 1, потому что узкое место обычно не в том, чтобы найти еще больше информации. Узкое место - удерживать нужную информацию в пригодном для повторения виде достаточно долго, чтобы пережить смешанный экзаменационный день.
 
-Если ваша главная проблема в том, что AI снова и снова предлагает карточки, которые выглядят отполированными, но плохо работают на повторении, правильная следующая статья - [How to Fix AI Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-fix-ai-flashcards/).
+Если ваша главная проблема в том, что AI снова и снова предлагает карточки, которые выглядят отполированными, но плохо работают на повторении, правильная следующая статья - [How to Fix AI Flashcards in 2026](https://nibomo.com/blog/how-to-fix-ai-flashcards/).
 
 ## Полезное правило для флешкарточек по Step 1 в 2026 году
 

@@ -160,15 +160,15 @@ PDF обычно начинается с более отполированног
 
 Если у вас уже есть чистый текст, лучше подойдет вот эта статья-компаньон:
 
-- [Как превратить заметки в карточки в 2026 году](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
+- [Как превратить заметки в карточки в 2026 году](https://nibomo.com/blog/turn-notes-into-flashcards/)
 
 А если исходник у вас - документ или слайды лекции, ближе будет вот эта:
 
-- [Как превратить PDF в карточки в 2026 году](https://flashcards-open-source-app.com/blog/how-to-turn-a-pdf-into-flashcards/)
+- [Как превратить PDF в карточки в 2026 году](https://nibomo.com/blog/how-to-turn-a-pdf-into-flashcards/)
 
 ## Где Flashcards хорошо вписывается в этот процесс
 
-[Nibomo](https://flashcards-open-source-app.com/) хорошо подходит для сценария **рукописные заметки в карточки**, потому что в продукте уже собраны важные части:
+[Nibomo](https://nibomo.com/) хорошо подходит для сценария **рукописные заметки в карточки**, потому что в продукте уже собраны важные части:
 
 - AI chat
 - прикрепление изображений и файлов
@@ -196,7 +196,7 @@ PDF обычно начинается с более отполированног
 
 Если хотите глубже разобраться именно в стороне планировщика, вот статья-компаньон:
 
-- [FSRS против SM-2 в 2026 году](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [FSRS против SM-2 в 2026 году](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
 ## Правило получше
 
@@ -210,9 +210,9 @@ PDF обычно начинается с более отполированног
 
 Если вам нужен именно такой подход, начните здесь:
 
-- [Открыть Flashcards](https://flashcards-open-source-app.com/)
+- [Открыть Flashcards](https://nibomo.com/)
 - [Открыть приложение](https://app.flashcards-open-source-app.com/)
-- [Прочитать руководство по началу работы](https://flashcards-open-source-app.com/docs/getting-started/)
+- [Прочитать руководство по началу работы](https://nibomo.com/docs/getting-started/)
 - [Посмотреть исходный код на GitHub](https://github.com/kirill-markin/flashcards-open-source-app)
 
 Вашим заметкам не обязательно быть красивыми.

@@ -68,7 +68,7 @@ Eso te da **flashcards de anatomía para medicina** más limpias, que siguen sie
 
 Si en anatomía dependes mucho de diagramas, este artículo complementario encaja mejor en la parte inicial del flujo:
 
-- [Cómo convertir diagramas en flashcards en 2026](https://flashcards-open-source-app.com/blog/how-to-turn-diagrams-into-flashcards/)
+- [Cómo convertir diagramas en flashcards en 2026](https://nibomo.com/blog/how-to-turn-diagrams-into-flashcards/)
 
 ## Las tarjetas de farmacología deberían ayudarte a elegir, no a recitar
 
@@ -131,8 +131,8 @@ Esto importa porque **las flashcards para medicina** no están para preservar la
 
 Si tu material fuente son sobre todo apuntes o documentos largos, estos artículos relacionados encajan con esa parte inicial del flujo:
 
-- [Cómo convertir apuntes en flashcards en 2026](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
-- [Cómo convertir un PDF en flashcards en 2026](https://flashcards-open-source-app.com/blog/how-to-turn-a-pdf-into-flashcards/)
+- [Cómo convertir apuntes en flashcards en 2026](https://nibomo.com/blog/turn-notes-into-flashcards/)
+- [Cómo convertir un PDF en flashcards en 2026](https://nibomo.com/blog/how-to-turn-a-pdf-into-flashcards/)
 
 ## Los errores del banco de preguntas deberían moldear la segunda mitad del mazo
 
@@ -153,7 +153,7 @@ Eso te da un mazo moldeado por fallos reales, no solo por lo que la clase enfati
 
 Si ésa es la parte en la que más ayuda necesitas, éste es el artículo complementario directo:
 
-- [Cómo convertir preguntas de práctica en flashcards en 2026](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/)
+- [Cómo convertir preguntas de práctica en flashcards en 2026](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/)
 
 ## Un flujo semanal de flashcards para medicina suele ser aburrido a propósito
 
@@ -189,7 +189,7 @@ Si todo eso vive en una sola cola sin forma, el mazo deja de parecer fiable.
 
 Si quieres más detalle sobre la parte de organización, lee este artículo después:
 
-- [Cómo organizar flashcards en 2026](https://flashcards-open-source-app.com/blog/how-to-organize-flashcards/)
+- [Cómo organizar flashcards en 2026](https://nibomo.com/blog/how-to-organize-flashcards/)
 
 ## FSRS ayuda más cuando dejas de meterle caos
 
@@ -209,12 +209,12 @@ Así que yo mantendría el orden así de simple:
 
 Si tu cola ya se está yendo de las manos, estos dos artículos encajan directamente con el flujo de medicina:
 
-- [¿Cuántas flashcards nuevas al día en 2026?](https://flashcards-open-source-app.com/blog/how-many-new-flashcards-per-day/)
-- [Cómo estudiar para un examen con FSRS en 2026](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/)
+- [¿Cuántas flashcards nuevas al día en 2026?](https://nibomo.com/blog/how-many-new-flashcards-per-day/)
+- [Cómo estudiar para un examen con FSRS en 2026](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)
 
 Y si quieres que te expliquen el propio modelo de planificación:
 
-- [FSRS vs. SM-2 en 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [FSRS vs. SM-2 en 2026](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
 ## Una rutina de medicina que funciona suele ser más pequeña que tu ambición
 
@@ -240,7 +240,7 @@ Ahí es donde el mazo se gana su espacio.
 
 ## Dónde encaja mejor Flashcards en este flujo
 
-[Nibomo](https://flashcards-open-source-app.com/) encaja bien para **flashcards de medicina** porque el producto ya soporta las piezas de las que depende este tipo de flujo:
+[Nibomo](https://nibomo.com/) encaja bien para **flashcards de medicina** porque el producto ya soporta las piezas de las que depende este tipo de flujo:
 
 - tarjetas anverso/reverso para preguntas de recuperación limpias
 - chat con IA para redactar tarjetas candidatas a partir de texto de clase, apuntes o material de revisión de preguntas
@@ -256,4 +256,4 @@ Esa combinación importa porque los mazos de medicina suelen fracasar cuando el 
 
 Si el problema principal es la calidad de las tarjetas más que el flujo por materia, este artículo combina bien con el de medicina:
 
-- [Cómo crear mejores flashcards en 2026](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [Cómo crear mejores flashcards en 2026](https://nibomo.com/blog/how-to-make-better-flashcards/)

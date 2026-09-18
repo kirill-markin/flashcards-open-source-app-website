@@ -51,7 +51,7 @@ keywords:
 
 这正是 **Step 2 CK 临床管理抽认卡** 真正值得占空间的地方。它们应该像是面向临床决策的快速提取训练，而不是藏在牌组里的一本第二教材。
 
-如果你还处在训练早期，需要的是这个流程的更宽泛版本，那么更适合先读的是 [2026 年医学院如何使用抽认卡](https://flashcards-open-source-app.com/blog/how-to-use-flashcards-for-medical-school/)。如果你还更接近 Step 1 的记忆世界，主要处理的是机制、病理图像和系统整合，那么更对应的是 [2026 年如何用抽认卡备考 USMLE Step 1](https://flashcards-open-source-app.com/blog/how-to-use-flashcards-for-usmle-step-1/)。
+如果你还处在训练早期，需要的是这个流程的更宽泛版本，那么更适合先读的是 [2026 年医学院如何使用抽认卡](https://nibomo.com/blog/how-to-use-flashcards-for-medical-school/)。如果你还更接近 Step 1 的记忆世界，主要处理的是机制、病理图像和系统整合，那么更对应的是 [2026 年如何用抽认卡备考 USMLE Step 1](https://nibomo.com/blog/how-to-use-flashcards-for-usmle-step-1/)。
 
 ## 比起你读过什么，shelf 错题更应该决定这副牌组长什么样
 
@@ -84,7 +84,7 @@ keywords:
 
 这些当然都是真问题，只是它们不是抽认卡问题。
 
-如果你的原始材料主要就是做错的题，这篇文章会是最直接的配套流程：[2026 年如何把练习题转成抽认卡](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/)。
+如果你的原始材料主要就是做错的题，这篇文章会是最直接的配套流程：[2026 年如何把练习题转成抽认卡](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/)。
 
 ## 卡片应该围绕决策转折点来做，而不是围绕疾病标签来做
 
@@ -229,7 +229,7 @@ USMLE 还说明，新界面加入了更新后的导航和图像对比度控制�
 
 这会比给每一个在某个轮转里只短暂出现一周的小主题都单独建一副永久牌组，更适合长期学习。
 
-如果整理方式本身已经快变成一种副业爱好，那么这篇文章会是比较及时的纠偏：[2026 年如何整理抽认卡](https://flashcards-open-source-app.com/blog/how-to-organize-flashcards/)。
+如果整理方式本身已经快变成一种副业爱好，那么这篇文章会是比较及时的纠偏：[2026 年如何整理抽认卡](https://nibomo.com/blog/how-to-organize-flashcards/)。
 
 ## 一套能跑起来的 Step 2 CK 流程，本来就应该刻意地无聊
 
@@ -263,7 +263,7 @@ USMLE 还说明，新界面加入了更新后的导航和图像对比度控制�
 
 这就是为什么 **Step 2 CK shelf 错题** 和专项冲刺复习可以互相配合，而不是变成两套彼此分离的学习系统。
 
-如果你想把调度部分看得更细，这篇文章就是最直接的下一步：[2026 年如何用 FSRS 为考试复习](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/)。
+如果你想把调度部分看得更细，这篇文章就是最直接的下一步：[2026 年如何用 FSRS 为考试复习](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)。
 
 ## 只有当卡片不再试图同时做五件事时，FSRS 才真正有用
 
@@ -290,7 +290,7 @@ Step 2 CK 的记忆起伏，其实非常正常：
 
 ## 为什么 Flashcards 适合这套 Step 2 CK 工作流
 
-如果你想在 [Nibomo](https://flashcards-open-source-app.com/) 里跑这套流程，真正有用的地方并不是它替你完成了临床思考，而是它能更快地把混乱的 Step 2 原材料变成更小、更能复习的卡片。
+如果你想在 [Nibomo](https://nibomo.com/) 里跑这套流程，真正有用的地方并不是它替你完成了临床思考，而是它能更快地把混乱的 Step 2 原材料变成更小、更能复习的卡片。
 
 更重要的是这些更直接的能力：
 
@@ -303,7 +303,7 @@ Step 2 CK 的记忆起伏，其实非常正常：
 
 这一整套组合之所以重要，是因为 Step 2 CK 的原始材料天生就是分散的。shelf 题、病房笔记、题目解析和复习文档，本来就散落在不同地方。更好的系统，是那个能让你把这些材料压缩成更窄的卡片，而不会把牌组维护本身变成另一场临床轮转。
 
-如果真正的问题是卡片质量，而不是医学内容，那么更适合接着读的是 [2026 年如何制作更好的抽认卡](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)。
+如果真正的问题是卡片质量，而不是医学内容，那么更适合接着读的是 [2026 年如何制作更好的抽认卡](https://nibomo.com/blog/how-to-make-better-flashcards/)。
 
 ## 最有用的规则
 

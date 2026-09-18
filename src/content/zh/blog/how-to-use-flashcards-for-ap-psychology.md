@@ -87,7 +87,7 @@ AP Psychology 这门课会以一种很具体的方式让人越学越乱。前一
 
 这会比一整副巨大的术语表卡组更强，因为它训练的是考试压力下最容易失手的那一部分：从几个相近但错误的概念里，区分出真正正确的那个。
 
-如果问题更多出在卡片质量，而不是学科本身，那么这篇配套文章更适合一起看：[2026 年如何做出更好的抽认卡](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)。
+如果问题更多出在卡片质量，而不是学科本身，那么这篇配套文章更适合一起看：[2026 年如何做出更好的抽认卡](https://nibomo.com/blog/how-to-make-better-flashcards/)。
 
 ## 经典研究最好拆成“研究者”“研究发现”和“考试用途”几类卡
 
@@ -143,7 +143,7 @@ AP Psychology 很喜欢制造一种时刻：你对某个经典研究似乎有印
 
 最后这一点比很多学生想的更重要，尤其是在数字化考试里。一张图、一张表，或者一段短文章摘录，在屏幕上看起来更难，往往只是因为措辞和排版让人不熟悉。好的卡片训练的是那些在新表述之下依然稳定不变的概念。
 
-如果你在练习题组里总是暴露出可以重复描述的失误模式，那么这篇文章和这里直接衔接：[2026 年如何把练习题转成抽认卡](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/)。
+如果你在练习题组里总是暴露出可以重复描述的失误模式，那么这篇文章和这里直接衔接：[2026 年如何把练习题转成抽认卡](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/)。
 
 ## 准备 FRQ 时，更适合把“推理动作”存进卡片里
 
@@ -215,7 +215,7 @@ AP Psychology 很喜欢制造一种时刻：你对某个经典研究似乎有印
 
 正是这种“有点无聊”的部分，才会让这套牌组在四月底和五月初依然能用，而不是只在某个周末看起来很努力。
 
-如果真正总是出问题的是整理结构，那么这篇文章和这套流程很配：[2026 年如何整理抽认卡](https://flashcards-open-source-app.com/blog/how-to-organize-flashcards/)。
+如果真正总是出问题的是整理结构，那么这篇文章和这套流程很配：[2026 年如何整理抽认卡](https://nibomo.com/blog/how-to-organize-flashcards/)。
 
 ## 当 AP Psychology 复习节奏变得很不均匀时，FSRS 会很有帮助
 
@@ -238,12 +238,12 @@ AP Psychology 的备考通常不会很平滑。有些天你能完整做完一个
 
 如果你想更具体看排程这一层，这两篇文章最适合接着读：
 
-- [2026 年如何用 FSRS 备考](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/)
-- [2026 年 FSRS vs SM-2](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [2026 年如何用 FSRS 备考](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)
+- [2026 年 FSRS vs SM-2](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
 ## Flashcards 在 AP Psychology 工作流里适合放在哪一段
 
-如果你想把这套流程放进 [Nibomo](https://flashcards-open-source-app.com/) 里，真正有用的地方，不是某种模糊的承诺，说 AI 会神奇地帮你把 AP Psych 全都学完。
+如果你想把这套流程放进 [Nibomo](https://nibomo.com/) 里，真正有用的地方，不是某种模糊的承诺，说 AI 会神奇地帮你把 AP Psych 全都学完。
 
 真正有用的是，这个产品已经能承接这套工作流中间最关键的那一段：
 
@@ -257,7 +257,7 @@ AP Psychology 的备考通常不会很平滑。有些天你能完整做完一个
 
 这意味着你可以把一堆术语、一张研究方法讲解截图，或者一份很粗糙的 AAQ 或 EBQ 订正笔记，先变成候选卡，再删掉弱卡，把保留下来的那部分放到同一个地方持续复习。
 
-如果起草步骤产出了那种“看起来很完整但其实很差”的卡，那么这篇文章正好是下一步：[2026 年如何修正 AI 生成的抽认卡](https://flashcards-open-source-app.com/blog/how-to-fix-ai-flashcards/)。
+如果起草步骤产出了那种“看起来很完整但其实很差”的卡，那么这篇文章正好是下一步：[2026 年如何修正 AI 生成的抽认卡](https://nibomo.com/blog/how-to-fix-ai-flashcards/)。
 
 ## 这才是我真正会信任的 AP Psychology 抽认卡
 

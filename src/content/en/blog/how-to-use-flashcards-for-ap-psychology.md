@@ -87,7 +87,7 @@ Examples of strong AP Psychology term prompts:
 
 Those are stronger than a giant glossary deck because they train the part that usually fails under pressure: distinguishing the right idea from a nearby wrong one.
 
-If card quality is the bigger issue than subject choice, [How to Make Better Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/) is the right companion.
+If card quality is the bigger issue than subject choice, [How to Make Better Flashcards in 2026](https://nibomo.com/blog/how-to-make-better-flashcards/) is the right companion.
 
 ## Famous studies need separate cards for the researcher, the finding, and the exam use
 
@@ -143,7 +143,7 @@ I would build prompts such as:
 
 That last one matters more on a digital exam than students expect. A graph, table, or short article excerpt can feel harder on-screen simply because the wording and layout are unfamiliar. Good cards train the stable idea underneath the new wording.
 
-If your practice sets keep exposing repeatable misses, [How to Turn Practice Questions Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/) fits directly here.
+If your practice sets keep exposing repeatable misses, [How to Turn Practice Questions Into Flashcards in 2026](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/) fits directly here.
 
 ## FRQ prep works better when the card stores the reasoning move
 
@@ -215,7 +215,7 @@ I would keep the routine this simple:
 
 The boring part is what makes the deck usable in late April and early May instead of impressive for one weekend.
 
-If organization is the part that keeps slipping, [How to Organize Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-organize-flashcards/) pairs well with this workflow.
+If organization is the part that keeps slipping, [How to Organize Flashcards in 2026](https://nibomo.com/blog/how-to-organize-flashcards/) pairs well with this workflow.
 
 ## FSRS is useful when AP Psychology review gets uneven
 
@@ -238,12 +238,12 @@ So I would keep the order simple:
 
 If you want the scheduling side in more detail, these two articles fit best:
 
-- [How to Study for an Exam With FSRS in 2026](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/)
-- [FSRS vs SM-2 in 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [How to Study for an Exam With FSRS in 2026](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)
+- [FSRS vs SM-2 in 2026](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
 ## Where Flashcards fits an AP Psychology workflow
 
-If you want to run this inside [Nibomo](https://flashcards-open-source-app.com/), the useful part is not a vague promise that AI will magically study AP Psych for you.
+If you want to run this inside [Nibomo](https://nibomo.com/), the useful part is not a vague promise that AI will magically study AP Psych for you.
 
 The useful part is that the product already fits the middle of this workflow:
 
@@ -259,7 +259,7 @@ For a ready-made starting point, you can install the [independently authored AP 
 
 That means you can take a pile of vocabulary, a screenshot of a research-method explanation, or a rough AAQ or EBQ correction note, turn it into candidate cards, cut the weak ones, and keep reviewing the survivors in one place.
 
-If the drafting step creates polished but bad cards, [How to Fix AI Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-fix-ai-flashcards/) is the right follow-up.
+If the drafting step creates polished but bad cards, [How to Fix AI Flashcards in 2026](https://nibomo.com/blog/how-to-fix-ai-flashcards/) is the right follow-up.
 
 ## The version of AP Psychology flashcards I would actually trust
 

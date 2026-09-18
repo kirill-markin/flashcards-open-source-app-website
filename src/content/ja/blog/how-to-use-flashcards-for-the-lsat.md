@@ -64,7 +64,7 @@ LSAT 対策では、独特の「分かった気になる感覚」が生まれや
 
 それはノートです。良い想起プロンプトではありません。
 
-もし問題の中心がカード枚数ではなくカードの質なら、[2026年版 より良いフラッシュカードの作り方](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/) を先に読むほうが合っています。
+もし問題の中心がカード枚数ではなくカードの質なら、[2026年版 より良いフラッシュカードの作り方](https://nibomo.com/blog/how-to-make-better-flashcards/) を先に読むほうが合っています。
 
 ## LSAT Logical Reasoningのフラッシュカードでは、論証の動きと罠の選択肢を追うべき
 
@@ -165,7 +165,7 @@ conditional logic は、LSAT でフラッシュカードが特に機能しやす
 
 こうすると、誤答ノートが「善意だけ残った墓場」ではなく、見返せるレビューシステムに変わります。
 
-すでに良いカードの多くが演習復習から生まれているなら、[2026年版 演習問題をフラッシュカードに変える方法](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/) がこの工程をさらに深掘りしています。
+すでに良いカードの多くが演習復習から生まれているなら、[2026年版 演習問題をフラッシュカードに変える方法](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/) がこの工程をさらに深掘りしています。
 
 ## LSATフラッシュカードの現実的な週間運用
 
@@ -207,11 +207,11 @@ Nibomo は LSAC の公式ツールではなく、LSAT との公式連携もあ�
 4. 弱いカードは早めに消す
 5. 残ったカードのスケジューリングを FSRS に任せる
 
-スケジューリング面をもう少し詳しく見たいなら、[2026年版 FSRSで試験勉強する方法](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/) と [2026年版 FSRSとSM-2の違い](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/) がそのまま次につながります。
+スケジューリング面をもう少し詳しく見たいなら、[2026年版 FSRSで試験勉強する方法](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/) と [2026年版 FSRSとSM-2の違い](https://nibomo.com/blog/fsrs-vs-sm-2/) がそのまま次につながります。
 
 ## Nibomoがはまる場所
 
-[Nibomo](https://flashcards-open-source-app.com/) の中でこの運用を回したいなら、役立つのは「AI が勝手に勉強してくれる」という曖昧な約束ではありません。今の製品が、実際に必要な途中作業をすでに支えていることです。
+[Nibomo](https://nibomo.com/) の中でこの運用を回したいなら、役立つのは「AI が勝手に勉強してくれる」という曖昧な約束ではありません。今の製品が、実際に必要な途中作業をすでに支えていることです。
 
 - hosted web app 内の AI チャットとファイル添付
 - 表裏カードの作成と編集
@@ -221,7 +221,7 @@ Nibomo は LSAC の公式ツールではなく、LSAT との公式連携もあ�
 
 重要なのは、**LSAT フラッシュカード** が単なる生成の問題ではないからです。編集の問題であり、整理の問題であり、復習の問題でもあります。
 
-もし大きな課題がデッキ構成そのものなら、[2026年版 フラッシュカードの整理術](https://flashcards-open-source-app.com/blog/how-to-organize-flashcards/) が次の読み物になります。すでに 1L を見据えているなら、[2026年版 ロースクールでのフラッシュカード活用法](https://flashcards-open-source-app.com/blog/how-to-use-flashcards-for-law-school/) がロースクール受験対策の次に自然につながります。
+もし大きな課題がデッキ構成そのものなら、[2026年版 フラッシュカードの整理術](https://nibomo.com/blog/how-to-organize-flashcards/) が次の読み物になります。すでに 1L を見据えているなら、[2026年版 ロースクールでのフラッシュカード活用法](https://nibomo.com/blog/how-to-use-flashcards-for-law-school/) がロースクール受験対策の次に自然につながります。
 
 ## ミスをもっと早く見抜けるデッキを作る
 

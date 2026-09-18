@@ -180,9 +180,9 @@ keywords:
 
 इसीलिए यह प्रक्रिया कुछ जुड़े हुए स्रोतों से भी अच्छी तरह मेल खाती है:
 
-- [2026 में PDF को फ़्लैशकार्ड्स में कैसे बदलें](https://flashcards-open-source-app.com/blog/how-to-turn-a-pdf-into-flashcards/)
-- [2026 में नोट्स को फ़्लैशकार्ड्स में कैसे बदलें](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
-- [2026 में YouTube वीडियो को फ़्लैशकार्ड्स में कैसे बदलें](https://flashcards-open-source-app.com/blog/youtube-to-flashcards/)
+- [2026 में PDF को फ़्लैशकार्ड्स में कैसे बदलें](https://nibomo.com/blog/how-to-turn-a-pdf-into-flashcards/)
+- [2026 में नोट्स को फ़्लैशकार्ड्स में कैसे बदलें](https://nibomo.com/blog/turn-notes-into-flashcards/)
+- [2026 में YouTube वीडियो को फ़्लैशकार्ड्स में कैसे बदलें](https://nibomo.com/blog/youtube-to-flashcards/)
 
 स्रोत अलग हो सकता है, लेकिन मूल नियम वही है: ठोस सामग्री से शुरू करें, फिर AI से पूरा अध्ययन तंत्र गढ़वाने के बजाय संकरे कार्ड्स बनवाएँ।
 
@@ -222,7 +222,7 @@ keywords:
 
 ## यहाँ Flashcards कहाँ फिट बैठता है
 
-[Nibomo](https://flashcards-open-source-app.com/) **लेक्चर रिकॉर्डिंग्स को फ़्लैशकार्ड्स में बदलने** की प्रक्रिया के लिए अच्छा विकल्प है, क्योंकि यह उस हिस्से को संभालता है जिसे ट्रांसक्रिप्ट और AI से मसौदा बनवाना अपने दम पर हल नहीं करते:
+[Nibomo](https://nibomo.com/) **लेक्चर रिकॉर्डिंग्स को फ़्लैशकार्ड्स में बदलने** की प्रक्रिया के लिए अच्छा विकल्प है, क्योंकि यह उस हिस्से को संभालता है जिसे ट्रांसक्रिप्ट और AI से मसौदा बनवाना अपने दम पर हल नहीं करते:
 
 - सामने-पीछे वाले कार्ड्स बनाने वाला वास्तविक ऐप
 - डेक और टैग
@@ -253,7 +253,7 @@ keywords:
 
 अगर आप एल्गोरिद्म वाले हिस्से को और विस्तार से समझना चाहते हैं, तो यह लेख आगे जाता है:
 
-- [2026 में FSRS बनाम SM-2](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [2026 में FSRS बनाम SM-2](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
 ## किस बात को कार्ड मिलना चाहिए, इसका एक व्यावहारिक नियम
 
@@ -287,9 +287,9 @@ keywords:
 
 अगर आप **लेक्चर ट्रांसक्रिप्ट से फ़्लैशकार्ड्स** का तरीका बना रहे हैं, तो यहाँ से शुरू करें:
 
-- [Nibomo खोलें](https://flashcards-open-source-app.com/)
+- [Nibomo खोलें](https://nibomo.com/)
 - [ऐप खोलें](https://app.flashcards-open-source-app.com/)
-- [स्वयं-होस्टिंग मार्गदर्शिका पढ़ें](https://flashcards-open-source-app.com/docs/self-hosting/)
+- [स्वयं-होस्टिंग मार्गदर्शिका पढ़ें](https://nibomo.com/docs/self-hosting/)
 - [GitHub पर स्रोत कोड देखें](https://github.com/kirill-markin/flashcards-open-source-app)
 
 लेक्चर रिकॉर्डिंग्स उपयोगी होती हैं।

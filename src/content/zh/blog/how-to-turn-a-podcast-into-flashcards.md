@@ -150,7 +150,7 @@ keywords:
 
 如果你想看更通用的写卡规则，可以先从这里开始：
 
-- [2026 年如何制作更好的闪卡](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [2026 年如何制作更好的闪卡](https://nibomo.com/blog/how-to-make-better-flashcards/)
 
 ## 不同类型的播客，需要不同风格的卡片
 
@@ -188,7 +188,7 @@ keywords:
 
 如果你的素材更偏语言练习，而不是一般性的知识学习，那么这篇配套文章会更贴近：
 
-- [2026 年如何用闪卡学语言](https://flashcards-open-source-app.com/blog/how-to-use-flashcards-for-language-learning/)
+- [2026 年如何用闪卡学语言](https://nibomo.com/blog/how-to-use-flashcards-for-language-learning/)
 
 ## 真正省时间的，不是生成卡片，而是减少重听
 
@@ -219,11 +219,11 @@ FSRS 比固定的复习节奏更擅长处理这种参差不齐的遗忘速度。
 
 如果你想更深入了解排程这一部分，这篇文章会讲得更细：
 
-- [2026 年 FSRS vs SM-2](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [2026 年 FSRS vs SM-2](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
 ## Nibomo 在这个流程里适合做什么
 
-[Nibomo](https://flashcards-open-source-app.com/) 很适合 **podcast to flashcards**，因为它已经覆盖了让这套流程真正能用起来的那些关键步骤：
+[Nibomo](https://nibomo.com/) 很适合 **podcast to flashcards**，因为它已经覆盖了让这套流程真正能用起来的那些关键步骤：
 
 - 粘贴或上传播客转录稿的纯文本
 - 在创建卡片之前，先在 AI chat 里清理素材
@@ -235,8 +235,8 @@ FSRS 比固定的复习节奏更擅长处理这种参差不齐的遗忘速度。
 
 如果你的素材更接近讲座录音或 YouTube 视频，而不是播客，那么这两篇配套文章也适合一起看：
 
-- [2026 年如何把讲座录音变成闪卡](https://flashcards-open-source-app.com/blog/how-to-turn-lecture-recordings-into-flashcards/)
-- [2026 年如何把 YouTube 视频变成闪卡](https://flashcards-open-source-app.com/blog/youtube-to-flashcards/)
+- [2026 年如何把讲座录音变成闪卡](https://nibomo.com/blog/how-to-turn-lecture-recordings-into-flashcards/)
+- [2026 年如何把 YouTube 视频变成闪卡](https://nibomo.com/blog/youtube-to-flashcards/)
 
 ## 真正有用的规则
 

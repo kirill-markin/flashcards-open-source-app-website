@@ -181,7 +181,7 @@ Ejemplos:
 
 Éste es el complemento más directo si revisar simulaciones ya es tu mejor fuente de tarjetas:
 
-- [Cómo convertir preguntas de práctica en tarjetas de estudio en 2026: crea un mazo FSRS a partir de lo que fallaste](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/)
+- [Cómo convertir preguntas de práctica en tarjetas de estudio en 2026: crea un mazo FSRS a partir de lo que fallaste](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/)
 
 ## Un flujo de errores-a-tarjetas encaja mejor con la preparación del CPA que copiar outlines
 
@@ -207,11 +207,11 @@ Yo mantendría el bucle semanal así de simple:
 
 Si al redactar tarjetas todo se te sigue quedando demasiado vago, lee esto después:
 
-- [Cómo hacer mejores flashcards en 2026: reglas de anverso y reverso que sí funcionan con FSRS](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [Cómo hacer mejores flashcards en 2026: reglas de anverso y reverso que sí funcionan con FSRS](https://nibomo.com/blog/how-to-make-better-flashcards/)
 
 Si el problema mayor es el crecimiento descontrolado del mazo, ésta es la mejor lectura complementaria:
 
-- [Cómo organizar Flashcards en 2026: mazos, etiquetas y repaso filtrado sin hacer que estudiar sea más difícil](https://flashcards-open-source-app.com/blog/how-to-organize-flashcards/)
+- [Cómo organizar Flashcards en 2026: mazos, etiquetas y repaso filtrado sin hacer que estudiar sea más difícil](https://nibomo.com/blog/how-to-organize-flashcards/)
 
 ## FSRS ayuda una vez que el mazo del CPA deja de intentar hacerlo todo
 
@@ -229,11 +229,11 @@ Yo mantendría el orden así de simple:
 
 Si quieres más detalle sobre la parte de programación, éste es el complemento directo:
 
-- [Cómo estudiar para un examen con FSRS en 2026: crea un plan de flashcards que puedas terminar antes del día del examen](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/)
+- [Cómo estudiar para un examen con FSRS en 2026: crea un plan de flashcards que puedas terminar antes del día del examen](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)
 
 ## Dónde encaja Flashcards en este flujo de trabajo del CPA
 
-Si quieres llevar esto dentro de [Nibomo](https://flashcards-open-source-app.com/), la parte útil no es una promesa vaga de que la IA va a hacerte aprobar el examen CPA por arte de magia.
+Si quieres llevar esto dentro de [Nibomo](https://nibomo.com/), la parte útil no es una promesa vaga de que la IA va a hacerte aprobar el examen CPA por arte de magia.
 
 La parte útil es que el producto ya soporta la parte intermedia real del flujo:
 

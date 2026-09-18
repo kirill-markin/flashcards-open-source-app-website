@@ -89,7 +89,7 @@ FSRSに弱いカードを1枚ずつあぶり出させるまで待つのは、お
 
 このルールは、定義と例を一緒にしたカード、式と例外を一緒にしたカード、答えが小さな箇条書きになり始めるカード全般にも当てはまります。
 
-この考え方を、より深いカード設計の観点から見たいなら、[2026年版 より良いフラッシュカードの作り方](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/) のほうでさらに踏み込んでいます。
+この考え方を、より深いカード設計の観点から見たいなら、[2026年版 より良いフラッシュカードの作り方](https://nibomo.com/blog/how-to-make-better-flashcards/) のほうでさらに踏み込んでいます。
 
 ## 疲れた未来の自分でも一瞬で分かるように表面を書き直す
 
@@ -148,7 +148,7 @@ NotebookLM、ChatGPT、そのほかの学習ツールは、元のソースより
 
 それ以上の内容は、たいてい別のカードに分けたほうがよくなります。
 
-特に後で復習速度を気にするなら、ここは重要です。[2026年版 フラッシュカードをもっと速く復習する方法](https://flashcards-open-source-app.com/blog/how-to-review-flashcards-faster/) は、ほぼこの編集判断の下流にある話です。
+特に後で復習速度を気にするなら、ここは重要です。[2026年版 フラッシュカードをもっと速く復習する方法](https://nibomo.com/blog/how-to-review-flashcards-faster/) は、ほぼこの編集判断の下流にある話です。
 
 ## AIは最終権威ではなく、2回目の編集役として使う
 
@@ -184,8 +184,8 @@ NotebookLM、ChatGPT、そのほかの学習ツールは、元のソースより
 
 ワークフローが整理より前の段階から始まるなら、相性がいいのは次の記事です。
 
-- [2026年版 ChatGPTでフラッシュカードを作る方法](https://flashcards-open-source-app.com/blog/how-to-use-chatgpt-to-make-flashcards/)
-- [2026年版 ChatGPT Study Modeをフラッシュカード化する方法](https://flashcards-open-source-app.com/blog/how-to-turn-chatgpt-study-mode-into-flashcards/)
+- [2026年版 ChatGPTでフラッシュカードを作る方法](https://nibomo.com/blog/how-to-use-chatgpt-to-make-flashcards/)
+- [2026年版 ChatGPT Study Modeをフラッシュカード化する方法](https://nibomo.com/blog/how-to-turn-chatgpt-study-mode-into-flashcards/)
 
 この記事が扱うのはその一歩後です。カードはすでに存在していて、これから復習できる形に整えなければならない、という段階です。
 
@@ -210,7 +210,7 @@ NotebookLMは実際のソースから出発することが多いので、壊れ�
 
 そうでなければ、書き直すか削除します。
 
-ソースから間隔反復へ橋を渡す話は、[2026年版 NotebookLMのフラッシュカードを本物の間隔反復に変える方法](https://flashcards-open-source-app.com/blog/notebooklm-flashcards-to-spaced-repetition/) のほうがより直接的です。この記事は、その橋を渡り始めたあとに行う、より厳しめの整理工程です。
+ソースから間隔反復へ橋を渡す話は、[2026年版 NotebookLMのフラッシュカードを本物の間隔反復に変える方法](https://nibomo.com/blog/notebooklm-flashcards-to-spaced-repetition/) のほうがより直接的です。この記事は、その橋を渡り始めたあとに行う、より厳しめの整理工程です。
 
 ## 実際に持ちこたえるシンプルな整理手順
 
@@ -241,11 +241,11 @@ FSRSがうまくやるのは、カードが信頼できる程度に明確にな�
 - 難しいカードには、より納得感のある間隔がつく
 - 復習キューは時間とともに穏やかになる
 
-スケジューラ自体の比較を見たいなら、[2026年版 FSRS vs SM-2](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/) がその部分を扱っています。
+スケジューラ自体の比較を見たいなら、[2026年版 FSRS vs SM-2](https://nibomo.com/blog/fsrs-vs-sm-2/) がその部分を扱っています。
 
 ## このワークフローでのFlashcardsの役割
 
-[Nibomo](https://flashcards-open-source-app.com/) が **AIフラッシュカードの直し方** に向いているのは、多くの生成ツールが置き去りにしがちな中間工程を、すでに製品側がカバーしているからです。
+[Nibomo](https://nibomo.com/) が **AIフラッシュカードの直し方** に向いているのは、多くの生成ツールが置き去りにしがちな中間工程を、すでに製品側がカバーしているからです。
 
 - ホスト型Webアプリで表裏カードを作成する
 - workspaceデータやファイル添付を使ってAIチャットを利用する。プレーンテキストのアップロードにも対応している

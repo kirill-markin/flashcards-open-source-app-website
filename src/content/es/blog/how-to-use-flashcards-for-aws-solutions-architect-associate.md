@@ -57,7 +57,7 @@ Yo trataría la guía del examen como un límite, no como un proyecto de transcr
 
 Sáltate las tarjetas que solo demuestran que visitaste una página de AWS una vez.
 
-La misma regla general vale para la preparación de certificaciones en general. Si quieres la versión más amplia para varias certificaciones, [Cómo usar flashcards para certificaciones de IA en 2026](https://flashcards-open-source-app.com/blog/how-to-use-flashcards-for-ai-certifications/) desarrolla una idea parecida desde otro ángulo.
+La misma regla general vale para la preparación de certificaciones en general. Si quieres la versión más amplia para varias certificaciones, [Cómo usar flashcards para certificaciones de IA en 2026](https://nibomo.com/blog/how-to-use-flashcards-for-ai-certifications/) desarrolla una idea parecida desde otro ángulo.
 
 ## Las mejores tarjetas de SAA-C03 van de decisiones, no de definiciones
 
@@ -140,7 +140,7 @@ Después de cada error, yo anotaría tres cosas antes de convertir nada en tarje
 
 Eso convierte el material de práctica en algo repasable en vez de algo simplemente frustrante.
 
-Si ese flujo es justo tu cuello de botella, [Cómo arreglar flashcards creadas con IA en 2026](https://flashcards-open-source-app.com/blog/how-to-fix-ai-flashcards/) ayuda con la fase de limpieza después de redactar tarjetas a partir de errores.
+Si ese flujo es justo tu cuello de botella, [Cómo arreglar flashcards creadas con IA en 2026](https://nibomo.com/blog/how-to-fix-ai-flashcards/) ayuda con la fase de limpieza después de redactar tarjetas a partir de errores.
 
 ## Los nombres cortos de servicios merecen un poco más de atención
 
@@ -177,7 +177,7 @@ Unas etiquetas útiles podrían ser:
 - `missed`
 - `needs-recheck`
 
-Esa estructura se mantiene tranquila y aun así te permite sacar subconjuntos enfocados antes de un bloque de estudio. Si quieres más detalle sobre la parte de organización, [Cómo organizar Flashcards en 2026](https://flashcards-open-source-app.com/blog/how-to-organize-flashcards/) es el artículo complementario correcto.
+Esa estructura se mantiene tranquila y aun así te permite sacar subconjuntos enfocados antes de un bloque de estudio. Si quieres más detalle sobre la parte de organización, [Cómo organizar Flashcards en 2026](https://nibomo.com/blog/how-to-organize-flashcards/) es el artículo complementario correcto.
 
 ## Usa IA para redactar tarjetas a partir del razonamiento y luego edítalas a fondo
 
@@ -194,7 +194,7 @@ Yo usaría IA para cosas como:
 
 Yo no exportaría conversaciones enteras de IA dentro del mazo.
 
-Los mazos de certificación mejoran cuando la IA ayuda a comprimir y limpiar, no cuando inunda la cola con tonterías pulidas. [Cómo hacer mejores flashcards en 2026](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/) profundiza en ese estándar de edición.
+Los mazos de certificación mejoran cuando la IA ayuda a comprimir y limpiar, no cuando inunda la cola con tonterías pulidas. [Cómo hacer mejores flashcards en 2026](https://nibomo.com/blog/how-to-make-better-flashcards/) profundiza en ese estándar de edición.
 
 ## Un ritmo semanal aburrido funciona mejor que las sesiones heroicas de AWS
 
@@ -214,7 +214,7 @@ No esto:
 - una importación gigante desde una guía de estudio
 - cien tarjetas nuevas porque los nombres parecían importantes
 
-Aquí encaja directamente [Cómo estudiar para un examen con FSRS en 2026](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/). El sistema de repaso ayuda, pero sigue funcionando mejor cuando la carga de tarjetas se mantiene lo bastante pequeña como para terminarla.
+Aquí encaja directamente [Cómo estudiar para un examen con FSRS en 2026](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/). El sistema de repaso ayuda, pero sigue funcionando mejor cuando la carga de tarjetas se mantiene lo bastante pequeña como para terminarla.
 
 ## Deja la logística del examen y los datos más volátiles en una capa temporal más pequeña
 
@@ -233,7 +233,7 @@ Yo mantendría la logística del examen en un subconjunto más ligero etiquetado
 
 ## Dónde encaja bien Flashcards en este flujo
 
-[Nibomo](https://flashcards-open-source-app.com/) encaja bien en este tipo de preparación porque el producto cubre las dos mitades del trabajo sin fingir que son lo mismo.
+[Nibomo](https://nibomo.com/) encaja bien en este tipo de preparación porque el producto cubre las dos mitades del trabajo sin fingir que son lo mismo.
 
 Puedes:
 
@@ -257,6 +257,6 @@ Empezaría con:
 
 Ese es el mazo que de verdad cambia tu puntuación.
 
-Y si tus tarjetas actuales todavía te parecen demasiado amplias, [Cómo convertir preguntas de práctica en flashcards en 2026](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/) es la mejor lectura siguiente porque los mazos de SAA-C03 suelen mejorar más rápido cuando la materia prima sale de los errores y no de los resúmenes.
+Y si tus tarjetas actuales todavía te parecen demasiado amplias, [Cómo convertir preguntas de práctica en flashcards en 2026](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/) es la mejor lectura siguiente porque los mazos de SAA-C03 suelen mejorar más rápido cuando la materia prima sale de los errores y no de los resúmenes.
 
 Para SAA-C03, la versión limpia es simple: estudia los dominios oficiales, exprime a fondo los errores de práctica, crea tarjetas de trade-offs más pequeñas de lo que crees que necesitas y deja que FSRS se encargue del momento de repaso. Suele ser suficiente para que la respuesta correcta de AWS aparezca más rápido cuando la redacción del escenario se vuelve resbaladiza.

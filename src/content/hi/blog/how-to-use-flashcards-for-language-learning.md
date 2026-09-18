@@ -53,7 +53,7 @@ keywords:
 
 यही नियम सामान्य फ्लैशकार्ड को बेहतर बनाता है:
 
-- [2026 में बेहतर Flashcards कैसे बनाएं](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [2026 में बेहतर Flashcards कैसे बनाएं](https://nibomo.com/blog/how-to-make-better-flashcards/)
 
 भाषा सीखने वाली डेक में जरूरत से ज़्यादा भरे हुए कार्ड की सज़ा और भी जल्दी मिलती है।
 
@@ -165,8 +165,8 @@ keywords:
 
 अगर आप समय-निर्धारण वाले हिस्से को और विस्तार से समझना चाहते हैं, तो यहाँ से शुरू करें:
 
-- [2026 में FSRS बनाम SM-2](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
-- [2026 में प्रति दिन कितने नए फ़्लैशकार्ड?](https://flashcards-open-source-app.com/blog/how-many-new-flashcards-per-day/)
+- [2026 में FSRS बनाम SM-2](https://nibomo.com/blog/fsrs-vs-sm-2/)
+- [2026 में प्रति दिन कितने नए फ़्लैशकार्ड?](https://nibomo.com/blog/how-many-new-flashcards-per-day/)
 
 ## डेक का आकार नहीं, रिव्यू का बोझ ज़्यादा मायने रखता है
 
@@ -209,9 +209,9 @@ keywords:
 
 अगर आपकी सामग्री नोट्स, प्रतिलेख, या chat output से शुरू हो रही है, तो ये मार्गदर्शिकाएँ शुरुआती चरण में मदद करेंगी:
 
-- [2026 में ChatGPT से Flashcards कैसे बनाएं](https://flashcards-open-source-app.com/blog/how-to-use-chatgpt-to-make-flashcards/)
-- [2026 में Voice Notes को Flashcards में कैसे बदलें](https://flashcards-open-source-app.com/blog/how-to-turn-voice-notes-into-flashcards/)
-- [2026 में YouTube Videos को Flashcards में कैसे बदलें](https://flashcards-open-source-app.com/blog/youtube-to-flashcards/)
+- [2026 में ChatGPT से Flashcards कैसे बनाएं](https://nibomo.com/blog/how-to-use-chatgpt-to-make-flashcards/)
+- [2026 में Voice Notes को Flashcards में कैसे बदलें](https://nibomo.com/blog/how-to-turn-voice-notes-into-flashcards/)
+- [2026 में YouTube Videos को Flashcards में कैसे बदलें](https://nibomo.com/blog/youtube-to-flashcards/)
 
 ## अपनी डेक को किसी धुँधले भाषा-लक्ष्य पर नहीं, अपने असली उद्देश्य पर बनाइए
 
@@ -229,7 +229,7 @@ keywords:
 
 ## इस कार्यप्रवाह में Flashcards कहाँ बेहतर बैठता है
 
-[Nibomo](https://flashcards-open-source-app.com/) **शब्दावली के लिए spaced repetition** के लिए अच्छा विकल्प है, क्योंकि इस कार्यप्रवाह की जिन चीज़ों पर निर्भरता है, वे यह उत्पाद पहले से दे देता है:
+[Nibomo](https://nibomo.com/) **शब्दावली के लिए spaced repetition** के लिए अच्छा विकल्प है, क्योंकि इस कार्यप्रवाह की जिन चीज़ों पर निर्भरता है, वे यह उत्पाद पहले से दे देता है:
 
 - साफ़ सामने/पीछे वाले कार्ड
 - FSRS के साथ रिव्यू का समय तय करना
@@ -241,9 +241,9 @@ keywords:
 
 अगर आप दूसरे उत्पाद विकल्प भी देख रहे हैं, तो ये सबसे नज़दीकी संबंधित लेख हैं:
 
-- [2026 में Memrise Alternative](https://flashcards-open-source-app.com/blog/memrise-alternative/)
-- [2026 में Quizlet Alternative](https://flashcards-open-source-app.com/blog/quizlet-alternative/)
-- [2026 में Best Offline Flashcards App](https://flashcards-open-source-app.com/blog/best-offline-flashcards-app/)
+- [2026 में Memrise Alternative](https://nibomo.com/blog/memrise-alternative/)
+- [2026 में Quizlet Alternative](https://nibomo.com/blog/quizlet-alternative/)
+- [2026 में Best Offline Flashcards App](https://nibomo.com/blog/best-offline-flashcards-app/)
 
 ## तो 2026 में भाषा सीखने के लिए फ्लैशकार्ड का इस्तेमाल कैसे करना चाहिए?
 

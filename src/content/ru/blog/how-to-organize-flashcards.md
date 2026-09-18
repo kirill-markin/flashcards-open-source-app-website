@@ -262,7 +262,7 @@ keywords:
 
 ## Где здесь уместен Flashcards
 
-[Nibomo](https://flashcards-open-source-app.com/) отлично подходит для запроса **как организовать flashcards**, потому что в продукте уже есть части, которые нужны этому подходу:
+[Nibomo](https://nibomo.com/) отлично подходит для запроса **как организовать flashcards**, потому что в продукте уже есть части, которые нужны этому подходу:
 
 - колоды и теги для долгосрочной структуры
 - фильтрованные колоды на основе тегов и уровня усилия
@@ -278,15 +278,15 @@ keywords:
 
 Если следующая проблема - качество карточек, а не организация, читайте дальше вот это:
 
-- [Как делать более качественные Flashcards в 2026 году](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [Как делать более качественные Flashcards в 2026 году](https://nibomo.com/blog/how-to-make-better-flashcards/)
 
 Если ваша настоящая проблема - объем повторения, вам подойдет и этот материал:
 
-- [Сколько новых Flashcards в день в 2026 году?](https://flashcards-open-source-app.com/blog/how-many-new-flashcards-per-day/)
+- [Сколько новых Flashcards в день в 2026 году?](https://nibomo.com/blog/how-many-new-flashcards-per-day/)
 
 А если вы строите временные экзаменационные очереди из ошибок, начните отсюда:
 
-- [Как превращать practice questions в Flashcards в 2026 году](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/)
+- [Как превращать practice questions в Flashcards в 2026 году](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/)
 
 ## Полезное правило
 
@@ -304,7 +304,7 @@ keywords:
 
 Если вам нужно именно это, начните здесь:
 
-- [Открыть Flashcards](https://flashcards-open-source-app.com/)
+- [Открыть Flashcards](https://nibomo.com/)
 - [Открыть приложение](https://app.flashcards-open-source-app.com/)
-- [Прочитать руководство по началу работы](https://flashcards-open-source-app.com/docs/getting-started/)
+- [Прочитать руководство по началу работы](https://nibomo.com/docs/getting-started/)
 - [Посмотреть исходный код на GitHub](https://github.com/kirill-markin/flashcards-open-source-app)

@@ -63,7 +63,7 @@ GRE 不只是问你有没有见过这个定义。它问的是：
 
 如果你真正卡住的地方是不会写卡，这篇配套文章最值得先看：
 
-- [2026 年如何做出更好的抽认卡](https://flashcards-open-source-app.com/zh/blog/how-to-make-better-flashcards)
+- [2026 年如何做出更好的抽认卡](https://nibomo.com/zh/blog/how-to-make-better-flashcards)
 
 ## GRE sentence equivalence flashcards 应该盯住同义词对比
 
@@ -141,7 +141,7 @@ Text Completion 对孤立词汇的惩罚更重。
 
 如果你最需要的正是这套流程，下一篇最值得接着看：
 
-- [2026 年如何把练习题变成抽认卡](https://flashcards-open-source-app.com/zh/blog/how-to-turn-practice-questions-into-flashcards)
+- [2026 年如何把练习题变成抽认卡](https://nibomo.com/zh/blog/how-to-turn-practice-questions-into-flashcards)
 
 ## 一套实用的 GRE vocabulary flashcards 流程
 
@@ -160,7 +160,7 @@ Text Completion 对孤立词汇的惩罚更重。
 
 如果你更大的问题其实是整理方式，那这篇会非常对路：
 
-- [2026 年如何整理抽认卡](https://flashcards-open-source-app.com/zh/blog/how-to-organize-flashcards)
+- [2026 年如何整理抽认卡](https://nibomo.com/zh/blog/how-to-organize-flashcards)
 
 ## 每天新增多少 GRE 单词卡才算现实？
 
@@ -178,8 +178,8 @@ Text Completion 对孤立词汇的惩罚更重。
 
 这个问题在更一般的层面上，其实是同一件事：
 
-- [2026 年每天该加多少张新抽认卡？](https://flashcards-open-source-app.com/zh/blog/how-many-new-flashcards-per-day)
-- [2026 年如何更快复习抽认卡](https://flashcards-open-source-app.com/zh/blog/how-to-review-flashcards-faster)
+- [2026 年每天该加多少张新抽认卡？](https://nibomo.com/zh/blog/how-many-new-flashcards-per-day)
+- [2026 年如何更快复习抽认卡](https://nibomo.com/zh/blog/how-to-review-flashcards-faster)
 
 ## FSRS 为什么特别适合 GRE 词汇：有些词在记忆里老得更快
 
@@ -201,8 +201,8 @@ Text Completion 对孤立词汇的惩罚更重。
 
 如果你想更细看排程这一侧，这两篇最合适：
 
-- [2026 年如何用 FSRS 备考](https://flashcards-open-source-app.com/zh/blog/how-to-study-for-an-exam-with-fsrs)
-- [2026 年 FSRS 设置：哪些该改，哪些别动](https://flashcards-open-source-app.com/zh/blog/fsrs-settings)
+- [2026 年如何用 FSRS 备考](https://nibomo.com/zh/blog/how-to-study-for-an-exam-with-fsrs)
+- [2026 年 FSRS 设置：哪些该改，哪些别动](https://nibomo.com/zh/blog/fsrs-settings)
 
 ## 移动端和离线复习，对 GRE 的重要性比很多人以为的更高
 
@@ -221,7 +221,7 @@ GRE 词汇是累积型的。你通常不会靠周日来一场戏剧化的八小�
 
 如果你本来就会用句子卡学另一门语言，这套工作流其实非常像：
 
-- [2026 年如何用抽认卡学语言](https://flashcards-open-source-app.com/zh/blog/how-to-use-flashcards-for-language-learning)
+- [2026 年如何用抽认卡学语言](https://nibomo.com/zh/blog/how-to-use-flashcards-for-language-learning)
 
 ## AI 可以帮你起草 GRE 抽认卡，但它通常解释得太多
 
@@ -245,12 +245,12 @@ AI 在这里确实有用，只是不值得无脑放行。
 
 如果你的原始材料来自笔记、文章摘录或题目复盘，这几条上游流程会更有帮助：
 
-- [2026 年如何把笔记变成抽认卡](https://flashcards-open-source-app.com/zh/blog/turn-notes-into-flashcards)
-- [2026 年如何把文章变成抽认卡](https://flashcards-open-source-app.com/zh/blog/how-to-turn-an-article-into-flashcards)
+- [2026 年如何把笔记变成抽认卡](https://nibomo.com/zh/blog/turn-notes-into-flashcards)
+- [2026 年如何把文章变成抽认卡](https://nibomo.com/zh/blog/how-to-turn-an-article-into-flashcards)
 
 ## Flashcards 在这套 GRE 工作流里真正适合做什么
 
-如果你想把这套流程放进 [Nibomo](https://flashcards-open-source-app.com/zh)，真正有用的点，不是什么“AI 让学习更简单”的空话，而是当前产品已经覆盖了这套流程中间最实际的部分：
+如果你想把这套流程放进 [Nibomo](https://nibomo.com/zh)，真正有用的点，不是什么“AI 让学习更简单”的空话，而是当前产品已经覆盖了这套流程中间最实际的部分：
 
 - 正反面卡片的创建和编辑
 - 用于起草和清理的 AI 对话
@@ -276,9 +276,9 @@ AI 在这里确实有用，只是不值得无脑放行。
 
 如果你想在 Flashcards 里试试这套流程：
 
-- [从 Flashcards 开始](https://flashcards-open-source-app.com/zh)
+- [从 Flashcards 开始](https://nibomo.com/zh)
 - [打开 Web 应用](https://app.flashcards-open-source-app.com/)
-- [阅读入门指南](https://flashcards-open-source-app.com/zh/docs/getting-started)
+- [阅读入门指南](https://nibomo.com/zh/docs/getting-started)
 - [在 GitHub 上查看源码](https://github.com/kirill-markin/flashcards-open-source-app)
 
 目标不是收集越来越难的生词。

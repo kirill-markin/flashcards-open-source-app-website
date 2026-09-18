@@ -96,7 +96,7 @@ It is "Can this review load still fit inside my actual life before the exam?"
 
 If you need a deeper explanation of the algorithm itself, this companion article is the right one:
 
-- [FSRS vs SM-2 in 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [FSRS vs SM-2 in 2026](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
 ## Set a daily load you can finish on your worst normal day
 
@@ -117,7 +117,7 @@ Build for the version that actually exists.
 
 If you want a cleaner way to estimate that load, this article pairs well with the exam workflow:
 
-- [How Many New Flashcards Per Day in 2026?](https://flashcards-open-source-app.com/blog/how-many-new-flashcards-per-day/)
+- [How Many New Flashcards Per Day in 2026?](https://nibomo.com/blog/how-many-new-flashcards-per-day/)
 
 ## Your source workflow and your memory workflow should stay separate
 
@@ -143,7 +143,7 @@ That is why exam prep benefits so much from a boring boundary: card drafting ear
 
 ## Where Flashcards fits this workflow better
 
-[Nibomo](https://flashcards-open-source-app.com/) is a strong fit for this problem because the product can handle both halves without pretending they are the same job.
+[Nibomo](https://nibomo.com/) is a strong fit for this problem because the product can handle both halves without pretending they are the same job.
 
 The current stack already gives you:
 
@@ -208,22 +208,22 @@ I would use AI to make the first draft faster, then switch into a stricter exam 
 
 That is the version of **spaced repetition for exams** that actually feels sustainable.
 
-If you want a product that supports that workflow, [Nibomo](https://flashcards-open-source-app.com/) is a strong fit. It gives you AI-assisted drafting, front/back cards, and FSRS review in one open-source stack instead of scattering the workflow across five study tools and a folder of exports.
+If you want a product that supports that workflow, [Nibomo](https://nibomo.com/) is a strong fit. It gives you AI-assisted drafting, front/back cards, and FSRS review in one open-source stack instead of scattering the workflow across five study tools and a folder of exports.
 
 ## Build the exam deck you can still finish
 
 If you want to try the workflow:
 
-- [Open Nibomo](https://flashcards-open-source-app.com/)
+- [Open Nibomo](https://nibomo.com/)
 - [Open the app](https://app.flashcards-open-source-app.com/)
-- [Read the features page](https://flashcards-open-source-app.com/features/)
+- [Read the features page](https://nibomo.com/features/)
 - [View the source on GitHub](https://github.com/kirill-markin/flashcards-open-source-app)
 
 And if your source material is still stuck one step earlier, these articles help:
 
-- [How to Turn a PDF Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-turn-a-pdf-into-flashcards/)
-- [How to Use ChatGPT to Make Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-use-chatgpt-to-make-flashcards/)
-- [How to Turn NotebookLM Flashcards Into Real Spaced Repetition in 2026](https://flashcards-open-source-app.com/blog/notebooklm-flashcards-to-spaced-repetition/)
+- [How to Turn a PDF Into Flashcards in 2026](https://nibomo.com/blog/how-to-turn-a-pdf-into-flashcards/)
+- [How to Use ChatGPT to Make Flashcards in 2026](https://nibomo.com/blog/how-to-use-chatgpt-to-make-flashcards/)
+- [How to Turn NotebookLM Flashcards Into Real Spaced Repetition in 2026](https://nibomo.com/blog/notebooklm-flashcards-to-spaced-repetition/)
 
 The best exam deck is usually not the biggest one.
 

@@ -34,7 +34,7 @@ That is how **final exam flashcards** turn from helpful into heavy. The deck sto
 
 For finals week, the standard should be stricter. The goal is not to preserve everything you touched this semester. The goal is to get the highest-value material into a review loop you can still finish before the exam.
 
-If you want the broader scheduling side, [How to Study for an Exam With FSRS in 2026](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs) covers that part well. This article is about the messier problem that shows up first: too many sources and not enough review time.
+If you want the broader scheduling side, [How to Study for an Exam With FSRS in 2026](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs) covers that part well. This article is about the messier problem that shows up first: too many sources and not enough review time.
 
 ## Start with triage, not flashcard generation
 
@@ -112,7 +112,7 @@ Use AI chats for:
 - follow-up questions that exposed confusion
 - short lists of likely misses you can verify and keep
 
-Do not treat the entire chat as source-of-truth content. AI tutoring is useful for understanding, but the flashcards should come from the cleaned lesson, not from every polished sentence in the conversation. If your drafts are already bloated or vague, [How to Fix AI Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-fix-ai-flashcards/) is the right cleanup guide.
+Do not treat the entire chat as source-of-truth content. AI tutoring is useful for understanding, but the flashcards should come from the cleaned lesson, not from every polished sentence in the conversation. If your drafts are already bloated or vague, [How to Fix AI Flashcards in 2026](https://nibomo.com/blog/how-to-fix-ai-flashcards/) is the right cleanup guide.
 
 ### Practice-test misses
 
@@ -127,7 +127,7 @@ That is why I would give missed questions special treatment:
 - split long explanations into smaller recall targets
 - tag the cards so you can review mistake-driven material together later
 
-The companion article for that narrower workflow is [How to Turn Practice Questions Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/).
+The companion article for that narrower workflow is [How to Turn Practice Questions Into Flashcards in 2026](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/).
 
 ## Build one deck from the overlap, not four decks from four sources
 
@@ -154,7 +154,7 @@ Merge the sources into one finals deck per course, then use tags for where the c
 
 That keeps the review queue unified while preserving the source context when you need it.
 
-This is also where decks, tags, filtering, and search become practical rather than decorative. You can review the full finals deck normally, then narrow to `practice-miss` or `must-know` when the exam gets very close. If your organization is already drifting, [How to Organize Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-organize-flashcards/) is the better companion article than another card-generation guide.
+This is also where decks, tags, filtering, and search become practical rather than decorative. You can review the full finals deck normally, then narrow to `practice-miss` or `must-know` when the exam gets very close. If your organization is already drifting, [How to Organize Flashcards in 2026](https://nibomo.com/blog/how-to-organize-flashcards/) is the better companion article than another card-generation guide.
 
 ## Cut scope harder than you want to
 
@@ -176,7 +176,7 @@ The easiest scope cuts are:
 - stop making cards for material you already know cold
 - stop pretending every chapter deserves equal weight
 
-This is where [How to Make Better Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/) helps. Better cards are usually smaller, clearer, and fewer than students expect.
+This is where [How to Make Better Flashcards in 2026](https://nibomo.com/blog/how-to-make-better-flashcards/) helps. Better cards are usually smaller, clearer, and fewer than students expect.
 
 ## Use FSRS for timing, but freeze intake before exam day
 
@@ -196,7 +196,7 @@ I would use a simple rhythm:
 
 The closer the exam gets, the more the job shifts from collecting to recalling.
 
-If you are already behind on reviews, solve that problem directly instead of pretending a fresh batch of cards will somehow help. [How to Catch Up on Flashcards After Falling Behind in 2026](https://flashcards-open-source-app.com/blog/how-to-catch-up-on-flashcards-after-falling-behind/) is the right detour if your queue is the real bottleneck.
+If you are already behind on reviews, solve that problem directly instead of pretending a fresh batch of cards will somehow help. [How to Catch Up on Flashcards After Falling Behind in 2026](https://nibomo.com/blog/how-to-catch-up-on-flashcards-after-falling-behind/) is the right detour if your queue is the real bottleneck.
 
 ## A finals-week card should be faster than the source it came from
 
@@ -234,11 +234,11 @@ This is also why the finals workflow should stay separate from the "study with A
 
 ## Where Flashcards fits this workflow
 
-[Nibomo](https://flashcards-open-source-app.com/) is useful here because the product matches the actual finals-week mess instead of assuming your study inputs arrive clean.
+[Nibomo](https://nibomo.com/) is useful here because the product matches the actual finals-week mess instead of assuming your study inputs arrive clean.
 
 You can use the hosted web app to drop in files, use AI chat with attachments when you need help cleaning up a source, turn the survivors into front/back cards, and keep the final review loop in one place with decks, tags, filtering, search, and FSRS scheduling. The offline-first web, iOS, and Android apps also make more sense during finals than another browser-only study tab you lose as soon as you leave your desk.
 
-If you care about the product details before trying it, the clean overview is on the [features page](https://flashcards-open-source-app.com/features/). If you care about control, the project is open source and has a self-hosting path as well.
+If you care about the product details before trying it, the clean overview is on the [features page](https://nibomo.com/features/). If you care about control, the project is open source and has a self-hosting path as well.
 
 ## The useful finals rule
 

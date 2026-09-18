@@ -149,11 +149,11 @@ Wenn der Scheduler stark ist, wirkt der ganze Workflow glaubwürdiger. Aus der P
 
 Wenn du die Scheduling-Seite genauer verstehen willst, geht dieser Begleitartikel tiefer:
 
-- [FSRS vs SM-2 in 2026: Welcher Spaced-Repetition-Algorithmus hilft dir, mehr zu behalten?](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [FSRS vs SM-2 in 2026: Welcher Spaced-Repetition-Algorithmus hilft dir, mehr zu behalten?](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
 ## Wo Flashcards in diesen Workflow passt
 
-[Nibomo](https://flashcards-open-source-app.com/) funktioniert gut für **PDF in Flashcards umwandeln**, weil das Produkt die entscheidenden Bausteine bereits an einem Ort vereint:
+[Nibomo](https://nibomo.com/) funktioniert gut für **PDF in Flashcards umwandeln**, weil das Produkt die entscheidenden Bausteine bereits an einem Ort vereint:
 
 - KI-Chat
 - Datei-Anhänge
@@ -194,7 +194,7 @@ Das verändert den Bearbeitungsaufwand. Es verändert auch die Suchintention. We
 
 Wenn deine Quelle bereits Klartext statt Dokument ist, passt dieser Begleitartikel besser:
 
-- [Wie du 2026 Notizen in Flashcards verwandelst: KI-Entwürfe mit FSRS statt manuellem Copy-and-paste](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
+- [Wie du 2026 Notizen in Flashcards verwandelst: KI-Entwürfe mit FSRS statt manuellem Copy-and-paste](https://nibomo.com/blog/turn-notes-into-flashcards/)
 
 ## Die bessere Regel
 
@@ -204,4 +204,4 @@ Verlange, dass sie zum Rohmaterial für einen besseren Entwurf wird.
 
 Das ist die Version von **wie man eine PDF in Flashcards umwandelt**, der ich tatsächlich vertraue. Weniger magisch, etwas manueller und deutlich wahrscheinlicher, Karten hervorzubringen, die du nach drei Review-Sitzungen immer noch respektierst.
 
-Wenn du genau diesen Workflow willst, ist [Nibomo](https://flashcards-open-source-app.com/) eine starke Wahl: Dokument hochladen, Karten mit KI entwerfen, bereinigen und dann in einem echten Spaced-Repetition-System lernen, statt sie in einer Generierungsdemo stranden zu lassen.
+Wenn du genau diesen Workflow willst, ist [Nibomo](https://nibomo.com/) eine starke Wahl: Dokument hochladen, Karten mit KI entwerfen, bereinigen und dann in einem echten Spaced-Repetition-System lernen, statt sie in einer Generierungsdemo stranden zu lassen.

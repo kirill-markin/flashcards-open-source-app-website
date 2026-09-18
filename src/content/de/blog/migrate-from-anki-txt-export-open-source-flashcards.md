@@ -20,7 +20,7 @@ Die beiden Dateien erfüllen unterschiedliche Aufgaben. Das Sammlungspaket siche
 
 Dieser Ablauf eignet sich für textbasierte Decks und Zielsysteme, die mit TXT- oder CSV-Dateien arbeiten können. Der Textexport enthält weder den Status des Anki-Schedulers noch Vorlagen, Add-ons oder Mediendateien. Teste deshalb zuerst ein repräsentatives Deck, prüfe jedes Feld und lass die ursprüngliche Sammlung unverändert, bis das Ergebnis im Alltag überzeugt.
 
-> **Offenlegung:** Ich bin Kirill Markin und entwickle [Nibomo](https://flashcards-open-source-app.com/). Dieser Leitfaden sagt klar, wann du besser bei Anki bleibst oder ein Zielsystem wählst, das `.apkg` importieren kann.
+> **Offenlegung:** Ich bin Kirill Markin und entwickle [Nibomo](https://nibomo.com/). Dieser Leitfaden sagt klar, wann du besser bei Anki bleibst oder ein Zielsystem wählst, das `.apkg` importieren kann.
 
 **Fakten geprüft:** 27. August 2026.
 

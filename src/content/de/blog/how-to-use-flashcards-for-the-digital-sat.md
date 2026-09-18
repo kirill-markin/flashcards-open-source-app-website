@@ -100,7 +100,7 @@ Der Digital SAT belohnt es, schnell zu erkennen, was genau nicht stimmt. Dein Gr
 
 Wenn Kartenqualität eher das Problem ist als SAT-spezifische Strategie, lies als Nächstes diesen Artikel:
 
-- [Wie du 2026 bessere Flashcards erstellst](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [Wie du 2026 bessere Flashcards erstellst](https://nibomo.com/blog/how-to-make-better-flashcards/)
 
 ## SAT-Mathe-Flashcards sollten Formeln und Lösungswege getrennt speichern
 
@@ -166,7 +166,7 @@ Ich würde nicht die ganze Aufgabe in eine riesige Karte verwandeln. Ich würde 
 
 Wenn genau dieser Workflow der Teil ist, den du am meisten brauchst, ist das hier der direkte Begleitartikel:
 
-- [Wie du 2026 Übungsfragen in Flashcards verwandelst](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/)
+- [Wie du 2026 Übungsfragen in Flashcards verwandelst](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/)
 
 ## Ein einziges SAT-Kartenformat überlebt nicht alle vier Aufgabentypen
 
@@ -202,7 +202,7 @@ Das funktioniert besser, als sonntags ein riesiges Deck zu bauen und es bis Mitt
 
 Wenn dein größeres Problem eher Struktur als Kartenschreiben ist, lies als Nächstes diesen Artikel:
 
-- [Wie du 2026 Flashcards organisierst](https://flashcards-open-source-app.com/blog/how-to-organize-flashcards/)
+- [Wie du 2026 Flashcards organisierst](https://nibomo.com/blog/how-to-organize-flashcards/)
 
 ## Du brauchst wahrscheinlich keine Tausenden von SAT-Flashcards
 
@@ -228,7 +228,7 @@ Das ergibt einen saubereren Workflow dafür, **für den Digital SAT zu lernen**,
 
 Wenn deine Wiederholungszahl schon zu schnell steigt, passt dieser Artikel gut zu diesem SAT-Workflow:
 
-- [Wie viele neue Flashcards pro Tag sind 2026 sinnvoll?](https://flashcards-open-source-app.com/blog/how-many-new-flashcards-per-day/)
+- [Wie viele neue Flashcards pro Tag sind 2026 sinnvoll?](https://nibomo.com/blog/how-many-new-flashcards-per-day/)
 
 ## FSRS hilft am meisten, wenn dein SAT-Lernplan ungleichmäßig ist
 
@@ -255,12 +255,12 @@ Darum würde ich die Reihenfolge schlicht halten:
 
 Wenn du die Planungsseite ausführlicher willst, passen diese beiden Artikel am besten:
 
-- [Wie du 2026 mit FSRS für eine Prüfung lernst](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/)
-- [FSRS vs. SM-2 im Jahr 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [Wie du 2026 mit FSRS für eine Prüfung lernst](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)
+- [FSRS vs. SM-2 im Jahr 2026](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
 ## Wie Flashcards in diesen Digital-SAT-Workflow passt
 
-[Nibomo](https://flashcards-open-source-app.com/) passt gut zu **Digital SAT Flashcards**, weil das aktuelle Produkt die Teile bereits unterstützt, von denen dieser Workflow abhängt:
+[Nibomo](https://nibomo.com/) passt gut zu **Digital SAT Flashcards**, weil das aktuelle Produkt die Teile bereits unterstützt, von denen dieser Workflow abhängt:
 
 - Karten im Vorder-/Rückseitenformat erstellen und bearbeiten
 - KI-Chat, um aus Notizen, eingefügten Erklärungen oder der Nachbereitung von Übungstests Kartenentwürfe zu erstellen
@@ -275,8 +275,8 @@ Diese Kombination ist wichtig, weil sich Digital-SAT-Vorbereitung schnell verstr
 
 Wenn dein SAT-Material noch einen Schritt früher festhängt, helfen diese Artikel bei der Eingabeseite:
 
-- [Wie du 2026 Notizen in Flashcards verwandelst](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
-- [Wie du 2026 ein PDF in Flashcards verwandelst](https://flashcards-open-source-app.com/blog/how-to-turn-a-pdf-into-flashcards/)
+- [Wie du 2026 Notizen in Flashcards verwandelst](https://nibomo.com/blog/turn-notes-into-flashcards/)
+- [Wie du 2026 ein PDF in Flashcards verwandelst](https://nibomo.com/blog/how-to-turn-a-pdf-into-flashcards/)
 
 ## Bau das SAT-Deck, das wiederkehrende Fehler repariert
 

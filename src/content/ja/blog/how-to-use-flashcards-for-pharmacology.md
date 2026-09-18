@@ -62,7 +62,7 @@ keywords:
 
 そうして、150枚の復習セッションがだんだん避けたいものになります。
 
-そもそもの問題がカードの質にあるなら、[2026年版 より良いフラッシュカードの作り方](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/) がいちばん近い補助記事です。
+そもそもの問題がカードの質にあるなら、[2026年版 より良いフラッシュカードの作り方](https://nibomo.com/blog/how-to-make-better-flashcards/) がいちばん近い補助記事です。
 
 ## 薬効分類のカードは、細かな知識より先に入れる
 
@@ -211,7 +211,7 @@ keywords:
 - これはクラスの問題か、機序の問題か、それとも取り違えの問題か。
 - 来週に同じミスを止める最小のカードは何か。
 
-良いカードの多くがノートより問題から生まれているなら、[2026年版 演習問題をフラッシュカードに変える方法](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/) がそのまま続きになります。
+良いカードの多くがノートより問題から生まれているなら、[2026年版 演習問題をフラッシュカードに変える方法](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/) がそのまま続きになります。
 
 ## 薬理学には、根性の詰め込みより、時間を空けた再訪のほうが合う
 
@@ -230,7 +230,7 @@ keywords:
 
 だから **薬理学 間隔反復** は、一気に詰め込む復習より相性がいいのです。この科目は小さな取り違えから崩れるので、復習システムも小さな取り違えを修復できる形のほうが合います。
 
-カードの書き方ではなく、試験日までのスケジューリング側を見たいなら、[2026年版 FSRS を使って試験勉強する方法](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/) がそのままつながります。
+カードの書き方ではなく、試験日までのスケジューリング側を見たいなら、[2026年版 FSRS を使って試験勉強する方法](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/) がそのままつながります。
 
 ## これは学習のためのガイドであって、医療アドバイスではない
 
@@ -254,12 +254,12 @@ keywords:
 
 すでに復習キューが重くなりすぎているなら、次の2本がだいたい次の問題を解いてくれます。
 
-- [2026年、1日に何枚の新しいフラッシュカードを追加すべきか](https://flashcards-open-source-app.com/blog/how-many-new-flashcards-per-day/)
-- [2026年版 フラッシュカードを速く復習する方法](https://flashcards-open-source-app.com/blog/how-to-review-flashcards-faster/)
+- [2026年、1日に何枚の新しいフラッシュカードを追加すべきか](https://nibomo.com/blog/how-many-new-flashcards-per-day/)
+- [2026年版 フラッシュカードを速く復習する方法](https://nibomo.com/blog/how-to-review-flashcards-faster/)
 
 ## このワークフローで Flashcards が合う場所
 
-[Nibomo](https://flashcards-open-source-app.com/) がこの種の薬理学学習に合うのは、薬理学そのものを AI に丸投げするからではありません。私はそのやり方では勉強しません。
+[Nibomo](https://nibomo.com/) がこの種の薬理学学習に合うのは、薬理学そのものを AI に丸投げするからではありません。私はそのやり方では勉強しません。
 
 役に立つ部分は、もっと限定的です。
 

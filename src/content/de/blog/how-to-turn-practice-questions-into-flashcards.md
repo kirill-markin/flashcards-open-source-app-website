@@ -175,11 +175,11 @@ Das Format der Quelle ist nicht besonders wichtig, solange du den nützlichen Te
 
 Wenn das Material vor allem textlastig ist, passt vielleicht eher ein PDF-zentrierter Workflow:
 
-- [Wie du 2026 eine PDF in Flashcards verwandelst: Vorlesungsfolien, Lehrbücher und Papers zu FSRS-Karten](https://flashcards-open-source-app.com/blog/how-to-turn-a-pdf-into-flashcards/)
+- [Wie du 2026 eine PDF in Flashcards verwandelst: Vorlesungsfolien, Lehrbücher und Papers zu FSRS-Karten](https://nibomo.com/blog/how-to-turn-a-pdf-into-flashcards/)
 
 Wenn das Material eher wie eine Tutor-Sitzung oder eine geführte Quiz-Nachbereitung aussieht, passt dieser Artikel besser:
 
-- [So machst du 2026 aus dem ChatGPT Study Mode sinnvolle Flashcards: Tutor behalten, Spaced Repetition ergänzen](https://flashcards-open-source-app.com/blog/how-to-turn-chatgpt-study-mode-into-flashcards/)
+- [So machst du 2026 aus dem ChatGPT Study Mode sinnvolle Flashcards: Tutor behalten, Spaced Repetition ergänzen](https://nibomo.com/blog/how-to-turn-chatgpt-study-mode-into-flashcards/)
 
 ## Behalte den Grund für den Fehler, aber pack ihn nicht auf die Vorderseite
 
@@ -223,7 +223,7 @@ Das macht den Entwurf sauberer und die Review-Warteschlange verlässlicher.
 
 ## Wo Flashcards in diesen Workflow passt
 
-[Nibomo](https://flashcards-open-source-app.com/) passt gut dazu, **Übungsfragen in Flashcards umzuwandeln**, weil das Produkt die Bausteine dieses Workflows schon mitbringt:
+[Nibomo](https://nibomo.com/) passt gut dazu, **Übungsfragen in Flashcards umzuwandeln**, weil das Produkt die Bausteine dieses Workflows schon mitbringt:
 
 - KI-Chat
 - Datei- und Bildanhänge
@@ -241,11 +241,11 @@ Du willst einen Ort, an dem du die Frage extrahieren, die Karte bereinigen, den 
 
 Wenn du den Scheduling-Teil genauer verstehen willst, lies als Nächstes:
 
-- [Wie du 2026 mit FSRS für eine Prüfung lernst: Ein Flashcard-Plan, den du vor dem Prüfungstag wirklich schaffst](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/)
+- [Wie du 2026 mit FSRS für eine Prüfung lernst: Ein Flashcard-Plan, den du vor dem Prüfungstag wirklich schaffst](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)
 
 Und wenn eher die Kartenqualität als das Ausgangsmaterial dein Problem ist, hilft dieser Artikel:
 
-- [Wie du 2026 bessere Flashcards machst: Front- und Back-Regeln, die mit FSRS wirklich funktionieren](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [Wie du 2026 bessere Flashcards machst: Front- und Back-Regeln, die mit FSRS wirklich funktionieren](https://nibomo.com/blog/how-to-make-better-flashcards/)
 
 ## Die nützliche Regel
 

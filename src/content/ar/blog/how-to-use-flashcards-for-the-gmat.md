@@ -62,7 +62,7 @@ keywords:
 
 هذه ملاحظات، لا محفزات استرجاع قوية.
 
-إذا كانت المشكلة الأكبر أصلًا هي جودة البطاقة، فهذه المقالة أنسب قبل أن تبني بطاقات أكثر: [How to Make Better Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/).
+إذا كانت المشكلة الأكبر أصلًا هي جودة البطاقة، فهذه المقالة أنسب قبل أن تبني بطاقات أكثر: [How to Make Better Flashcards in 2026](https://nibomo.com/blog/how-to-make-better-flashcards/).
 
 ## بطاقات GMAT لـ Quant يجب أن تفصل بين المعرفة الرياضية وأخطاء التنفيذ
 
@@ -235,7 +235,7 @@ Critical Reasoning من أفضل الأماكن لاستخدام البطاقا�
 - قاعدة تفسير واحدة
 - تعثّر واحد في الحل على الورقة
 
-إذا كان سير عملك يبدأ أصلًا من الشروحات والأخطاء، فهذه المقالة تتوسع في تلك الخطوة: [How to Turn Practice Questions Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/).
+إذا كان سير عملك يبدأ أصلًا من الشروحات والأخطاء، فهذه المقالة تتوسع في تلك الخطوة: [How to Turn Practice Questions Into Flashcards in 2026](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/).
 
 ## استخدم ملاحظاتك وملخصاتك الشخصية القانونية، لا أسئلة مملوكة منسوخة
 
@@ -259,7 +259,7 @@ Critical Reasoning من أفضل الأماكن لاستخدام البطاقا�
 6. احذف البطاقات الضبابية بسرعة.
 7. راجع البطاقات المستحقة يوميًا بدل بناء تراكم بطولي في عطلة نهاية الأسبوع.
 
-إذا كانت مكتبتك تبدو فوضوية أصلًا، فهذه المتابعة أنسب من إضافة بطاقات أكثر: [How to Organize Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-organize-flashcards/).
+إذا كانت مكتبتك تبدو فوضوية أصلًا، فهذه المتابعة أنسب من إضافة بطاقات أكثر: [How to Organize Flashcards in 2026](https://nibomo.com/blog/how-to-organize-flashcards/).
 
 ## يساعد FSRS بعد أن تصبح المجموعة أصغر وأحدّ
 
@@ -275,11 +275,11 @@ FSRS مناسب لتحضير GMAT لأن النسيان غير متساوٍ بط
 4. دع أخطاء التدريب الرسمي تشكّل المجموعة
 5. راجع البطاقات التي بقيت باستخدام FSRS
 
-إذا كنت تريد جانب الجدولة بتفصيل أكبر، فهذه المقالة تغطيه مباشرة: [How to Study for an Exam With FSRS in 2026](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/).
+إذا كنت تريد جانب الجدولة بتفصيل أكبر، فهذه المقالة تغطيه مباشرة: [How to Study for an Exam With FSRS in 2026](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/).
 
 ## أين يدخل Nibomo في هذا المسار
 
-[Nibomo](https://flashcards-open-source-app.com/) مناسب لهذا النوع من تحضير GMAT لأنه يغطي المنطقة المزعجة بين "لقد أخطأت في هذا السؤال" و"غدًا سأراجع هدف الذاكرة الصحيح".
+[Nibomo](https://nibomo.com/) مناسب لهذا النوع من تحضير GMAT لأنه يغطي المنطقة المزعجة بين "لقد أخطأت في هذا السؤال" و"غدًا سأراجع هدف الذاكرة الصحيح".
 
 الأجزاء المفيدة في هذا المسار:
 

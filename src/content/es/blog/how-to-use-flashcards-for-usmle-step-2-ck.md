@@ -51,7 +51,7 @@ Las especificaciones oficiales de Step 2 CK ponen más énfasis en las tareas de
 
 Ahí es donde las **flashcards de manejo Step 2 CK** de verdad se ganan su espacio. Deberían sentirse como ejercicios rápidos de recuperación para decisiones clínicas, no como un segundo manual escondido dentro del mazo.
 
-Si estás en una fase más temprana de la carrera y necesitas la versión más amplia de este flujo, [Cómo usar flashcards para la carrera de medicina en 2026](https://flashcards-open-source-app.com/blog/how-to-use-flashcards-for-medical-school/) es el artículo de base más adecuado. Si todavía estás en el tipo de memoria de Step 1, con mecanismos, imágenes de patología y sistemas integrados, [Cómo usar flashcards para USMLE Step 1 en 2026](https://flashcards-open-source-app.com/blog/how-to-use-flashcards-for-usmle-step-1/) es la referencia más cercana.
+Si estás en una fase más temprana de la carrera y necesitas la versión más amplia de este flujo, [Cómo usar flashcards para la carrera de medicina en 2026](https://nibomo.com/blog/how-to-use-flashcards-for-medical-school/) es el artículo de base más adecuado. Si todavía estás en el tipo de memoria de Step 1, con mecanismos, imágenes de patología y sistemas integrados, [Cómo usar flashcards para USMLE Step 1 en 2026](https://nibomo.com/blog/how-to-use-flashcards-for-usmle-step-1/) es la referencia más cercana.
 
 ## Los fallos de shelf deberían definir más del mazo que tus lecturas
 
@@ -84,7 +84,7 @@ Lo que normalmente **no** merece una flashcard:
 
 Ésos son problemas reales. Simplemente no son problemas de flashcards.
 
-Si la materia prima son sobre todo preguntas falladas, [Cómo convertir preguntas de práctica en flashcards en 2026](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/) es el flujo complementario directo.
+Si la materia prima son sobre todo preguntas falladas, [Cómo convertir preguntas de práctica en flashcards en 2026](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/) es el flujo complementario directo.
 
 ## Construye las tarjetas alrededor del punto de decisión, no de la etiqueta de la enfermedad
 
@@ -229,7 +229,7 @@ Las etiquetas útiles podrían verse así:
 
 Eso te da un patrón de estudio más limpio que construir un mazo permanente distinto para cada tema diminuto que pasa por tu servicio durante una semana.
 
-Si la organización ya se está convirtiendo en un hobby en sí mismo, [Cómo organizar flashcards en 2026](https://flashcards-open-source-app.com/blog/how-to-organize-flashcards/) es el correctivo adecuado.
+Si la organización ya se está convirtiendo en un hobby en sí mismo, [Cómo organizar flashcards en 2026](https://nibomo.com/blog/how-to-organize-flashcards/) es el correctivo adecuado.
 
 ## Un flujo de trabajo que puedas sostener para Step 2 CK es aburrido a propósito
 
@@ -263,7 +263,7 @@ Desplaza el mazo desde "todo lo que toqué este año" hacia:
 
 Así es como los **fallos de shelf Step 2 CK** y el repaso de la fase intensiva empiezan a funcionar juntos en vez de convertirse en dos sistemas de estudio separados.
 
-Si quieres más detalle sobre la parte de planificación, [Cómo estudiar para un examen con FSRS en 2026](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/) es la continuación directa.
+Si quieres más detalle sobre la parte de planificación, [Cómo estudiar para un examen con FSRS en 2026](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/) es la continuación directa.
 
 ## FSRS ayuda una vez que las tarjetas dejan de intentar hacer cinco trabajos a la vez
 
@@ -290,7 +290,7 @@ Si sigues alimentando el planificador con tarjetas vagas, seguirás repasando ta
 
 ## Por qué Flashcards encaja en este flujo de Step 2 CK
 
-Si quieres hacer esto dentro de [Nibomo](https://flashcards-open-source-app.com/), lo útil no es que sustituya el razonamiento clínico. Te da una vía más rápida para pasar de material desordenado de Step 2 a tarjetas más pequeñas y repasables.
+Si quieres hacer esto dentro de [Nibomo](https://nibomo.com/), lo útil no es que sustituya el razonamiento clínico. Te da una vía más rápida para pasar de material desordenado de Step 2 a tarjetas más pequeñas y repasables.
 
 Lo que importa es más simple:
 
@@ -303,7 +303,7 @@ Lo que importa es más simple:
 
 Esa combinación importa porque el material fuente de Step 2 CK está disperso por naturaleza. Las preguntas de shelf, los apuntes de sala, las explicaciones y los documentos de repaso viven en lugares distintos. El mejor sistema es el que te permite convertir todo eso en tarjetas más acotadas sin convertir el mantenimiento del mazo en otra rotación clínica.
 
-Si el problema central es la calidad de las tarjetas más que el contenido médico, [Cómo crear mejores flashcards en 2026](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/) es la siguiente lectura más útil.
+Si el problema central es la calidad de las tarjetas más que el contenido médico, [Cómo crear mejores flashcards en 2026](https://nibomo.com/blog/how-to-make-better-flashcards/) es la siguiente lectura más útil.
 
 ## La regla útil
 

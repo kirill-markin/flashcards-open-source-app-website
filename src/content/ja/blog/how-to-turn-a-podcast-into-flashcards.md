@@ -150,7 +150,7 @@ keywords:
 
 カードの作り方そのものを詳しく見たいなら、まずはこちらです。
 
-- [2026年、より良いフラッシュカードを作る方法: FSRS と相性の良い表裏カードの基本](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [2026年、より良いフラッシュカードを作る方法: FSRS と相性の良い表裏カードの基本](https://nibomo.com/blog/how-to-make-better-flashcards/)
 
 ## ポッドキャストの種類によって、向くカードの形は変わる
 
@@ -188,7 +188,7 @@ keywords:
 
 もし素材が一般的な学習より語学練習に近いなら、相性がいいのは次の記事です。
 
-- [2026年、語学学習にフラッシュカードを使う方法: 本当に定着する語彙・例文・復習](https://flashcards-open-source-app.com/blog/how-to-use-flashcards-for-language-learning/)
+- [2026年、語学学習にフラッシュカードを使う方法: 本当に定着する語彙・例文・復習](https://nibomo.com/blog/how-to-use-flashcards-for-language-learning/)
 
 ## 本当の時間短縮は、生成そのものではなく聞き直しを減らすこと
 
@@ -219,11 +219,11 @@ FSRS は、そうした不揃いな忘れ方を、固定的な復習間隔より
 
 復習設計の話をもう少し詳しく知りたいなら、こちらです。
 
-- [2026年のFSRSとSM-2比較: どの間隔反復アルゴリズムがより多く覚えられるか](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [2026年のFSRSとSM-2比較: どの間隔反復アルゴリズムがより多く覚えられるか](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
 ## Nibomo がこの流れに合う理由
 
-[Nibomo](https://flashcards-open-source-app.com/) は、**ポッドキャストをフラッシュカード化する流れ** とかなり相性が良いです。実際にこの手順を回すために必要な要素が、すでにひと通りそろっているからです。
+[Nibomo](https://nibomo.com/) は、**ポッドキャストをフラッシュカード化する流れ** とかなり相性が良いです。実際にこの手順を回すために必要な要素が、すでにひと通りそろっているからです。
 
 - ポッドキャストの文字起こしをプレーンテキストで貼り付けたりアップロードしたりできる
 - カードを作る前に、AIチャットの中で素材を整理できる
@@ -235,8 +235,8 @@ FSRS は、そうした不揃いな忘れ方を、固定的な復習間隔より
 
 素材がポッドキャストより講義音声やYouTubeに近いなら、こちらの記事も合います。
 
-- [2026年版 講義録音をフラッシュカード化する方法: 全部を聞き直さず、文字起こしからFSRSカードを作る](https://flashcards-open-source-app.com/blog/how-to-turn-lecture-recordings-into-flashcards/)
-- [2026年、YouTube動画をフラッシュカードに変える方法: 講義・チュートリアル・語学動画をAI下書きでカード化する](https://flashcards-open-source-app.com/blog/youtube-to-flashcards/)
+- [2026年版 講義録音をフラッシュカード化する方法: 全部を聞き直さず、文字起こしからFSRSカードを作る](https://nibomo.com/blog/how-to-turn-lecture-recordings-into-flashcards/)
+- [2026年、YouTube動画をフラッシュカードに変える方法: 講義・チュートリアル・語学動画をAI下書きでカード化する](https://nibomo.com/blog/youtube-to-flashcards/)
 
 ## 覚えておきたいルール
 

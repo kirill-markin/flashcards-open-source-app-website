@@ -90,7 +90,7 @@ This matters because **spaced repetition law school** is not supposed to preserv
 
 If your card-writing itself is the weak link, read this next:
 
-- [How to Make Better Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [How to Make Better Flashcards in 2026](https://nibomo.com/blog/how-to-make-better-flashcards/)
 
 ## Law school outlines are source material, not the final deck
 
@@ -111,7 +111,7 @@ The outline explains the subject in one place. The deck tests whether you can pu
 
 If your material is still closer to class notes than a finished outline, this is the better companion article:
 
-- [How to Turn Notes Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
+- [How to Turn Notes Into Flashcards in 2026](https://nibomo.com/blog/turn-notes-into-flashcards/)
 
 ## Issue spotting flashcards should train triggers, not full essay answers
 
@@ -150,7 +150,7 @@ I would keep a small stream of hypo-derived cards through the semester instead o
 
 If that workflow is the main thing you need, start here:
 
-- [How to Turn Practice Questions Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/)
+- [How to Turn Practice Questions Into Flashcards in 2026](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/)
 
 ## A practical weekly workflow for law school flashcards
 
@@ -168,7 +168,7 @@ That is a much healthier workflow for **flashcards for law school** than trying 
 
 If your bigger problem is structure rather than writing, this one fits directly:
 
-- [How to Organize Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-organize-flashcards/)
+- [How to Organize Flashcards in 2026](https://nibomo.com/blog/how-to-organize-flashcards/)
 
 ## Bar exam flashcards work better when the 1L deck was built cleanly
 
@@ -215,12 +215,12 @@ So I would keep the order simple:
 
 If you want the scheduling side in more detail, these two articles fit best:
 
-- [How to Study for an Exam With FSRS in 2026](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/)
-- [FSRS vs SM-2 in 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [How to Study for an Exam With FSRS in 2026](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)
+- [FSRS vs SM-2 in 2026](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
 ## Where Flashcards fits this law-school workflow
 
-If you want to run this workflow inside [Nibomo](https://flashcards-open-source-app.com/), the useful part is not "AI makes cards" in the abstract. It is that the current product already supports the boring middle of the job:
+If you want to run this workflow inside [Nibomo](https://nibomo.com/), the useful part is not "AI makes cards" in the abstract. It is that the current product already supports the boring middle of the job:
 
 - AI chat for drafting and cleanup
 - file attachments including plain text uploads
@@ -245,9 +245,9 @@ That is the version of **law school flashcards** I would trust.
 
 If you want to try that workflow in Flashcards:
 
-- [Start with Nibomo](https://flashcards-open-source-app.com/)
+- [Start with Nibomo](https://nibomo.com/)
 - [Open the web app](https://app.flashcards-open-source-app.com/)
-- [Read the getting started guide](https://flashcards-open-source-app.com/docs/getting-started/)
+- [Read the getting started guide](https://nibomo.com/docs/getting-started/)
 - [View the source on GitHub](https://github.com/kirill-markin/flashcards-open-source-app)
 
 The goal is not to build a prettier outline in flashcard form. It is to make rules, exceptions, and issue triggers show up faster when the fact pattern shifts and the clock is running.

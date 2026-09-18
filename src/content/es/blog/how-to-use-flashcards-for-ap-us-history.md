@@ -226,7 +226,7 @@ Si vienes de un mazo grande ya hecho o de una configuración antigua de **APUSH 
 
 ## Dónde encaja Flashcards en un flujo de APUSH
 
-Si quieres llevar esto dentro de [Nibomo](https://flashcards-open-source-app.com/), la parte útil no es una gran promesa de que la app de algún modo vaya a hacer APUSH por ti.
+Si quieres llevar esto dentro de [Nibomo](https://nibomo.com/), la parte útil no es una gran promesa de que la app de algún modo vaya a hacer APUSH por ti.
 
 La parte útil es que el producto ya encaja con la zona intermedia y desordenada del flujo:
 

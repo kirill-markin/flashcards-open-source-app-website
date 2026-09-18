@@ -89,7 +89,7 @@ AP Psychologyでフラッシュカードが強いのは、次のような仕事�
 
 こうしたカードは、巨大な用語集デッキより強力です。プレッシャーの中で崩れやすい部分、つまり「近いけれど違う誤答」から正しい概念を選び分ける力を鍛えられるからです。
 
-科目選びよりカードの質に問題があるなら、[2026年版 より良いフラッシュカードの作り方](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/) がちょうどよい補助線になります。
+科目選びよりカードの質に問題があるなら、[2026年版 より良いフラッシュカードの作り方](https://nibomo.com/blog/how-to-make-better-flashcards/) がちょうどよい補助線になります。
 
 ## 有名研究は、研究者・発見・試験での使いどころを分けてカード化する
 
@@ -145,7 +145,7 @@ AP Psychologyでは、「有名研究を半分だけ覚えていて、実際に�
 
 最後の問いは、受験生が思う以上にデジタル試験で重要です。グラフ、表、短い記事抜粋は、単に言い回しやレイアウトが見慣れないというだけで、画面上では難しく感じられることがあります。良いカードは、そうした新しい見せ方の下にある、変わらない考え方を鍛えます。
 
-演習セットで何度も同じタイプのミスが出るなら、[2026年版 演習問題をフラッシュカードに変える方法](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/) がここにそのままつながります。
+演習セットで何度も同じタイプのミスが出るなら、[2026年版 演習問題をフラッシュカードに変える方法](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/) がここにそのままつながります。
 
 ## FRQ対策は、「答え全体」より「思考の動き」を保存したほうがうまくいく
 
@@ -217,7 +217,7 @@ APの受験生は、記録を残しすぎがちなので、ここは大事です
 
 退屈な部分こそが、4月下旬から5月上旬にかけて、そのデッキを「週末だけ立派だったもの」ではなく、本当に使えるものにします。
 
-整理の部分がいつも崩れるなら、[2026年版 フラッシュカードの整理術](https://flashcards-open-source-app.com/blog/how-to-organize-flashcards/) と相性がいいです。
+整理の部分がいつも崩れるなら、[2026年版 フラッシュカードの整理術](https://nibomo.com/blog/how-to-organize-flashcards/) と相性がいいです。
 
 ## AP Psychologyの復習にムラが出てきたら、FSRSは役に立つ
 
@@ -240,12 +240,12 @@ AP Psychologyの対策は、めったにきれいには進みません。ある�
 
 スケジューリング面をもう少し詳しく見たいなら、相性がよいのは次の2本です。
 
-- [2026年版 FSRSで試験勉強する方法](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/)
-- [2026年版 FSRS vs SM-2](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [2026年版 FSRSで試験勉強する方法](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)
+- [2026年版 FSRS vs SM-2](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
 ## AP Psychologyの学習フローの中で、Flashcardsはどこにはまるのか
 
-[Nibomo](https://flashcards-open-source-app.com/) の中でこれを回したいなら、役に立つのは「AIが魔法のようにAP Psychを勉強してくれる」という曖昧な約束ではありません。
+[Nibomo](https://nibomo.com/) の中でこれを回したいなら、役に立つのは「AIが魔法のようにAP Psychを勉強してくれる」という曖昧な約束ではありません。
 
 役に立つのは、製品がすでにこのワークフローの真ん中に合っていることです。
 
@@ -259,7 +259,7 @@ AP Psychologyの対策は、めったにきれいには進みません。ある�
 
 つまり、語彙の山、研究法の説明のスクリーンショット、あるいはAAQやEBQの粗い修正メモを取り込み、カード候補に変え、弱いものを切り、残ったものを1か所で復習し続けられるということです。
 
-もし下書きの段階で「見た目は整っているけれど弱いカード」が出てくるなら、次に読むべきなのは [2026年版 AIフラッシュカードの直し方](https://flashcards-open-source-app.com/blog/how-to-fix-ai-flashcards/) です。
+もし下書きの段階で「見た目は整っているけれど弱いカード」が出てくるなら、次に読むべきなのは [2026年版 AIフラッシュカードの直し方](https://nibomo.com/blog/how-to-fix-ai-flashcards/) です。
 
 ## 私が実際に信頼できる AP Psychology フラッシュカードの形
 

@@ -47,7 +47,7 @@ keywords:
 
 所以，**如何用闪卡学数学**，本质上多半是个卡片设计问题。好卡片应该让“下一步该怎么走”更容易被想起来，而不是试图把整章内容都塞进去。
 
-如果你现在的卡已经开始显得太大、太啰嗦，那在继续加卡之前，先看这篇文章会更合适：[2026 年如何做出更好的闪卡](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)。
+如果你现在的卡已经开始显得太大、太啰嗦，那在继续加卡之前，先看这篇文章会更合适：[2026 年如何做出更好的闪卡](https://nibomo.com/blog/how-to-make-better-flashcards/)。
 
 ## 可以从公式开始，但卡片要比公式表更小
 
@@ -95,7 +95,7 @@ keywords:
 
 这些仍然算 **数学解题闪卡**，但它们并不是在强行记整条解题路径。它们训练的是识别能力。现在要拿到讲解并不难。你可以很快从老师、视频或者 AI 工具那里拿到一步步解析。更难的部分，是在别人提示你之前，自己先看见该走哪一步。
 
-如果你的原始素材主要来自订正过的作业、小测或模拟题，那这篇文章和这个工作流很搭：[2026 年如何把练习题变成闪卡](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/)。
+如果你的原始素材主要来自订正过的作业、小测或模拟题，那这篇文章和这个工作流很搭：[2026 年如何把练习题变成闪卡](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/)。
 
 ## 你的错题记录，通常比一副通用数学卡组更有价值
 
@@ -151,7 +151,7 @@ keywords:
 
 最后这一步比很多人想的更重要。如果新题里这个错误消失了，那卡片多半已经起作用了。如果它还在，通常说明卡写得太模糊、太宽，或者压根打错了记忆目标。
 
-如果你的卡组结构开始变乱了，比起每张练习纸都新建一个 deck，先看这篇文章更靠谱：[2026 年如何整理闪卡](https://flashcards-open-source-app.com/blog/how-to-organize-flashcards/)。
+如果你的卡组结构开始变乱了，比起每张练习纸都新建一个 deck，先看这篇文章更靠谱：[2026 年如何整理闪卡](https://nibomo.com/blog/how-to-organize-flashcards/)。
 
 ## AI 可以很快起草数学卡，但人工编辑这一步仍然重要
 
@@ -163,7 +163,7 @@ keywords:
 
 所以，可以用 AI 来起草 **数学闪卡**，前提是它确实帮你省下了枯燥劳动。然后要认真编辑。把过载卡拆开。把模糊的正面重写掉。把那些看起来聪明、但下周复习时一定会很难用的卡删掉。
 
-如果真正卡住你的是后期清理，这篇文章可以接着看：[2026 年如何修好 AI 闪卡](https://flashcards-open-source-app.com/blog/how-to-fix-ai-flashcards/)。
+如果真正卡住你的是后期清理，这篇文章可以接着看：[2026 年如何修好 AI 闪卡](https://nibomo.com/blog/how-to-fix-ai-flashcards/)。
 
 ## 只要卡片够窄，FSRS 就很适合数学
 
@@ -173,11 +173,11 @@ keywords:
 
 但前提仍然是，排程器需要干净的卡。如果提示太模糊，你的自评分就会很吵。如果一张卡同时在测很多东西，难度判断就会变浑。如果答案是一整段话，复习时你就会开始和自己讨价还价，而不是诚实判断有没有想起来。
 
-卡越小，FSRS 越有用。如果等你把写卡这一侧先控制住了，想再调排程这一侧，那下一篇该看的是：[2026 年 FSRS 设置：该改什么，不该改什么](https://flashcards-open-source-app.com/blog/fsrs-settings/)。
+卡越小，FSRS 越有用。如果等你把写卡这一侧先控制住了，想再调排程这一侧，那下一篇该看的是：[2026 年 FSRS 设置：该改什么，不该改什么](https://nibomo.com/blog/fsrs-settings/)。
 
 ## Flashcards 在这套工作流里为什么合适
 
-[Nibomo](https://flashcards-open-source-app.com/) 很适合这种数学学习方式，因为一旦你明确了记忆目标，它正好支持后面真正重要的那几部分：
+[Nibomo](https://nibomo.com/) 很适合这种数学学习方式，因为一旦你明确了记忆目标，它正好支持后面真正重要的那几部分：
 
 - 用正反面卡片承载公式、识别线索和错误模式
 - 用牌组、标签和筛选在不打乱主库的前提下定向复习某个主题
@@ -185,7 +185,7 @@ keywords:
 - 用 FSRS 安排完成后卡组的复习节奏
 - 提供 Web、iPhone 和 Android 的离线优先客户端
 
-如果你的学习资料本来就放在文本文件里，或者你想走更偏技术一点的工作流，文档里也有 [入门指南](https://flashcards-open-source-app.com/docs/getting-started/) 和 [API / Agent 接入说明](https://flashcards-open-source-app.com/docs/api/)。如果你之后想把这套数学流程从手动做几张卡，扩展到更自动化的方式，它们会很有用。
+如果你的学习资料本来就放在文本文件里，或者你想走更偏技术一点的工作流，文档里也有 [入门指南](https://nibomo.com/docs/getting-started/) 和 [API / Agent 接入说明](https://nibomo.com/docs/api/)。如果你之后想把这套数学流程从手动做几张卡，扩展到更自动化的方式，它们会很有用。
 
 ## 最有用的一条规则
 
@@ -198,5 +198,5 @@ keywords:
 如果你想实际试一试：
 
 - [打开应用](https://app.flashcards-open-source-app.com/)
-- [查看功能页](https://flashcards-open-source-app.com/features/)
-- [阅读入门指南](https://flashcards-open-source-app.com/docs/getting-started/)
+- [查看功能页](https://nibomo.com/features/)
+- [阅读入门指南](https://nibomo.com/docs/getting-started/)

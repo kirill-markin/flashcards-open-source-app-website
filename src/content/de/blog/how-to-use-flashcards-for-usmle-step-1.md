@@ -77,7 +77,7 @@ Eine Nierenkarte sollte dich zum Beispiel meistens nicht darum bitten, das ganze
 
 Das kommt dem näher, wie sich gemischte Step-1-Wiederholung tatsächlich anfühlt.
 
-Wenn du eher die breitere Version dieses Themas fürs Medizinstudium suchst statt die dedizierte Step-1-Version, lies [Wie du 2026 Flashcards im Medizinstudium nutzt](https://flashcards-open-source-app.com/blog/how-to-use-flashcards-for-medical-school/).
+Wenn du eher die breitere Version dieses Themas fürs Medizinstudium suchst statt die dedizierte Step-1-Version, lies [Wie du 2026 Flashcards im Medizinstudium nutzt](https://nibomo.com/blog/how-to-use-flashcards-for-medical-school/).
 
 ## Pathologie-Karten sollten Mustererkennung und Mechanismus trennen
 
@@ -125,7 +125,7 @@ Beispiele:
 
 **Step 1 Pathologie-Bild-Flashcards** funktionieren am besten, wenn sie jeweils ein stabiles Muster lehren, statt dich aus einem Screenshot ein ganzes Pathologie-Kapitel rekonstruieren zu lassen.
 
-Wenn dein Bild-Workflow die Schwachstelle ist, passt [Wie du 2026 Diagramme in Flashcards verwandelst](https://flashcards-open-source-app.com/blog/how-to-turn-diagrams-into-flashcards/) am besten als Begleitartikel.
+Wenn dein Bild-Workflow die Schwachstelle ist, passt [Wie du 2026 Diagramme in Flashcards verwandelst](https://nibomo.com/blog/how-to-turn-diagrams-into-flashcards/) am besten als Begleitartikel.
 
 ## Bildkarten sollten trainieren, was du schnell sehen kannst, nicht was du langsam noch einmal lesen kannst
 
@@ -220,7 +220,7 @@ Was meistens **keine** Karte verdient:
 
 Das sind reale Probleme. Es sind nur keine Flashcard-Probleme.
 
-Wenn deine besten Karten aus falsch beantworteten Fragen entstehen, geht [Wie du 2026 Übungsfragen in Flashcards verwandelst](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/) tiefer auf diesen Umwandlungsprozess ein.
+Wenn deine besten Karten aus falsch beantworteten Fragen entstehen, geht [Wie du 2026 Übungsfragen in Flashcards verwandelst](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/) tiefer auf diesen Umwandlungsprozess ein.
 
 ## Physiologie-Karten sollten meist um die Richtung einer Veränderung gehen
 
@@ -313,11 +313,11 @@ Ich würde die Reihenfolge deshalb schlicht halten:
 4. das Volumen neuer Karten in der dedizierten Lernphase realistisch halten
 5. FSRS erst dann das Timing überlassen, wenn das Deck überhaupt planbar ist
 
-Wenn du die Planungslogik genauer verstehen willst, ist [Wie du 2026 mit FSRS für eine Prüfung lernst](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/) der direkte Begleitartikel. Wenn deine Warteschlange bereits aus dem Ruder läuft, ist [Wie viele neue Flashcards pro Tag sind 2026 sinnvoll?](https://flashcards-open-source-app.com/blog/how-many-new-flashcards-per-day/) der nächste sinnvolle Text.
+Wenn du die Planungslogik genauer verstehen willst, ist [Wie du 2026 mit FSRS für eine Prüfung lernst](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/) der direkte Begleitartikel. Wenn deine Warteschlange bereits aus dem Ruder läuft, ist [Wie viele neue Flashcards pro Tag sind 2026 sinnvoll?](https://nibomo.com/blog/how-many-new-flashcards-per-day/) der nächste sinnvolle Text.
 
 ## Wo Flashcards in einen Step-1-Workflow passen
 
-Wenn du das innerhalb von [Nibomo](https://flashcards-open-source-app.com/) umsetzen willst, liegt der Wert nicht in einem vagen Versprechen, dass KI Medizin für dich lernen wird.
+Wenn du das innerhalb von [Nibomo](https://nibomo.com/) umsetzen willst, liegt der Wert nicht in einem vagen Versprechen, dass KI Medizin für dich lernen wird.
 
 Der Wert liegt darin, dass das Produkt bereits die praktische Mitte des Workflows abdeckt:
 
@@ -329,7 +329,7 @@ Der Wert liegt darin, dass das Produkt bereits die praktische Mitte des Workflow
 
 Das passt gut zu Step 1, weil der Engpass meist nicht darin liegt, noch mehr Informationen zu finden. Der Engpass besteht darin, die richtigen Informationen lange genug wiederholbar zu halten, um einen gemischten Prüfungstag zu überstehen.
 
-Wenn dein Hauptproblem darin besteht, dass KI immer wieder Karten entwirft, die poliert aussehen, sich aber schlecht wiederholen lassen, ist [Wie du 2026 KI-Flashcards reparierst](https://flashcards-open-source-app.com/blog/how-to-fix-ai-flashcards/) der richtige nächste Artikel.
+Wenn dein Hauptproblem darin besteht, dass KI immer wieder Karten entwirft, die poliert aussehen, sich aber schlecht wiederholen lassen, ist [Wie du 2026 KI-Flashcards reparierst](https://nibomo.com/blog/how-to-fix-ai-flashcards/) der richtige nächste Artikel.
 
 ## Die nützliche Regel für Step-1-Flashcards im Jahr 2026
 

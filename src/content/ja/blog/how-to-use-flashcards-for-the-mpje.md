@@ -84,7 +84,7 @@ NABP の **2026年4月1日** 付サポートページでは、今も大半の州
 - `federal: DEA form trigger`
 - `uniform-law: counseling principle`
 
-これだけでも、「分かったつもり」の自信をかなり減らせます。整理の話をもう少し詳しく見たいなら、[2026年版 フラッシュカードの整理術](https://flashcards-open-source-app.com/blog/how-to-organize-flashcards/) がそのまま相性の良い関連記事です。
+これだけでも、「分かったつもり」の自信をかなり減らせます。整理の話をもう少し詳しく見たいなら、[2026年版 フラッシュカードの整理術](https://nibomo.com/blog/how-to-organize-flashcards/) がそのまま相性の良い関連記事です。
 
 ## 第三者のデッキを信用する前に、必ず公式の NABP blueprint を確認する
 
@@ -172,7 +172,7 @@ NABP の受験準備ページでは、時期がはっきり示されています
 
 裏面の正確性を保つために段落が必要になるなら、たいていそれは2枚か3枚に分けるべきカードです。
 
-この考え方は、[2026年版 より良いフラッシュカードの作り方](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/) ともそのままつながります。
+この考え方は、[2026年版 より良いフラッシュカードの作り方](https://nibomo.com/blog/how-to-make-better-flashcards/) ともそのままつながります。
 
 ## きれいな要約より、間違えた問題のほうがカード材料として強い
 
@@ -209,7 +209,7 @@ practice misses がよく暴くのは次のような弱さです。
 - 州法と連邦法の混同
 - 小さいのに高頻度な細部でのペース配分の弱さ
 
-この流れは、[2026年版 演習問題をフラッシュカードに変える方法](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/) とかなり相性が良いです。
+この流れは、[2026年版 演習問題をフラッシュカードに変える方法](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/) とかなり相性が良いです。
 
 ## 実用的な毎週の MPJE フラッシュカード運用
 
@@ -224,7 +224,7 @@ practice misses がよく暴くのは次のような弱さです。
 
 この最後の点は、多くの人が思う以上に重要です。薬事法は、小さな事実カードをかなり速く量産できます。巨大デッキは2日間は生産的に見えても、そのあとすぐ反撃してきます。
 
-すでに workload control が問題になり始めているなら、[2026年版 1日に何枚の新規フラッシュカードを追加すべきか](https://flashcards-open-source-app.com/blog/how-many-new-flashcards-per-day/) と [2026年版 FSRSで試験勉強する方法](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/) がそのまま役立ちます。
+すでに workload control が問題になり始めているなら、[2026年版 1日に何枚の新規フラッシュカードを追加すべきか](https://nibomo.com/blog/how-many-new-flashcards-per-day/) と [2026年版 FSRSで試験勉強する方法](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/) がそのまま役立ちます。
 
 ## 法律カードがきれいになってから、FSRS が効く
 
@@ -240,11 +240,11 @@ practice misses がよく暴くのは次のような弱さです。
 4. 間違えた問題からカードを作る
 5. 残ったカードを FSRS で回す
 
-スケジューラ側の話をもっと詳しく見たいなら、[2026年版 FSRS Settings](https://flashcards-open-source-app.com/blog/fsrs-settings/) と [2026年版 FSRS vs SM-2](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/) が直接つながる記事です。
+スケジューラ側の話をもっと詳しく見たいなら、[2026年版 FSRS Settings](https://nibomo.com/blog/fsrs-settings/) と [2026年版 FSRS vs SM-2](https://nibomo.com/blog/fsrs-vs-sm-2/) が直接つながる記事です。
 
 ## このワークフローの中で Flashcards がはまる場所
 
-[Nibomo](https://flashcards-open-source-app.com/) が最も役立つのは、「何を復習すべきか」が分かったあとです。
+[Nibomo](https://nibomo.com/) が最も役立つのは、「何を復習すべきか」が分かったあとです。
 
 この製品は、ワークフローの真ん中をすでに支えています。
 
@@ -253,9 +253,9 @@ practice misses がよく暴くのは次のような弱さです。
 - 州・地域や内容領域を分けるための decks と tags
 - 復習ループのための FSRS スケジューリング
 - すぐ始めたい人向けの hosted app
-- もっとコントロールしたい人向けの [オープンソースのセルフホスト経路](https://flashcards-open-source-app.com/docs/self-hosting/)
+- もっとコントロールしたい人向けの [オープンソースのセルフホスト経路](https://nibomo.com/docs/self-hosting/)
 
-まず製品の全体像を見たいなら、[機能ページ](https://flashcards-open-source-app.com/features/) と [getting started guide](https://flashcards-open-source-app.com/docs/getting-started/) がいちばん分かりやすい入口です。
+まず製品の全体像を見たいなら、[機能ページ](https://nibomo.com/features/) と [getting started guide](https://nibomo.com/docs/getting-started/) がいちばん分かりやすい入口です。
 
 ## 試験当日でも信頼できるデッキを作る
 

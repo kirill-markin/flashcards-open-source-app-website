@@ -91,7 +91,7 @@ keywords:
 
 このルールは、孔、血管、靱帯、神経叢の枝でも同じように使えます。解剖学の失点は、何も知らないことより、1本だけつながりが切れていることで起きるほうが多いからです。
 
-すでにカードが膨らみすぎているなら、[2026年版 より良いフラッシュカードを作る方法](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/) が整理の入口になります。
+すでにカードが膨らみすぎているなら、[2026年版 より良いフラッシュカードを作る方法](https://nibomo.com/blog/how-to-make-better-flashcards/) が整理の入口になります。
 
 ## 位置関係には、位置関係専用のカードが必要
 
@@ -159,7 +159,7 @@ keywords:
 - 部位、構造、神経支配、作用を同時に問う1枚
 - ノイズの多い画像の下に段落の答えがある
 
-本当の痛点が、図やラベル付き画像をきれいにカード化することなら、[2026年版 図をフラッシュカードに変える方法](https://flashcards-open-source-app.com/blog/how-to-turn-diagrams-into-flashcards/) が前段のワークフローとしてよくつながります。
+本当の痛点が、図やラベル付き画像をきれいにカード化することなら、[2026年版 図をフラッシュカードに変える方法](https://nibomo.com/blog/how-to-turn-diagrams-into-flashcards/) が前段のワークフローとしてよくつながります。
 
 ## AI は、覚える作業の代行ではなく整理に使うと役立つ
 
@@ -180,7 +180,7 @@ keywords:
 
 だから AI は準備に使い、記憶の外注には使わないほうがいいです。
 
-チューター的な使い方から定着まで含めた流れを見たいなら、[2026年版 AIを使って勉強する方法](https://flashcards-open-source-app.com/blog/how-to-use-ai-to-study/) と [2026年版 AIが作ったフラッシュカードを修正する方法](https://flashcards-open-source-app.com/blog/how-to-fix-ai-flashcards/) が次の読み物になります。
+チューター的な使い方から定着まで含めた流れを見たいなら、[2026年版 AIを使って勉強する方法](https://nibomo.com/blog/how-to-use-ai-to-study/) と [2026年版 AIが作ったフラッシュカードを修正する方法](https://nibomo.com/blog/how-to-fix-ai-flashcards/) が次の読み物になります。
 
 ## 実習で外したピンと逆に覚えた位置関係こそ、最高のカード材料
 
@@ -206,7 +206,7 @@ keywords:
 
 どれも本物の問題です。ただし、フラッシュカードの問題ではありません。
 
-最良の材料が実習試験やスポッターの失点なら、[2026年版 演習問題をフラッシュカードに変える方法](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/) がここによくつながります。
+最良の材料が実習試験やスポッターの失点なら、[2026年版 演習問題をフラッシュカードに変える方法](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/) がここによくつながります。
 
 ## 週間の解剖学ルーティンは、退屈なくらいでちょうどいい
 
@@ -222,7 +222,7 @@ keywords:
 
 解剖学は、候補カードをいくらでも作れてしまいます。それでも復習キューは、ちゃんと回せる量に保たなければいけません。
 
-すでに増えすぎているなら、[2026年版 1日に何枚の新規フラッシュカードを追加すべきか](https://flashcards-open-source-app.com/blog/how-many-new-flashcards-per-day/) と [2026年版 フラッシュカードが溜まりすぎたときの立て直し方](https://flashcards-open-source-app.com/blog/how-to-catch-up-on-flashcards-after-falling-behind/) が次に読む記事です。
+すでに増えすぎているなら、[2026年版 1日に何枚の新規フラッシュカードを追加すべきか](https://nibomo.com/blog/how-many-new-flashcards-per-day/) と [2026年版 フラッシュカードが溜まりすぎたときの立て直し方](https://nibomo.com/blog/how-to-catch-up-on-flashcards-after-falling-behind/) が次に読む記事です。
 
 ## FSRS は、カードが正直になってから効く
 
@@ -238,11 +238,11 @@ keywords:
 2. デッキを制御できる大きさに保つ
 3. タイミングは FSRS に任せる
 
-スケジューラ側をもう少し素直に知りたいなら、[2026年版 FSRSで試験勉強する方法](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/) と [2026年版 FSRSとSM-2の違い](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/) がそのまま続きとして読めます。
+スケジューラ側をもう少し素直に知りたいなら、[2026年版 FSRSで試験勉強する方法](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/) と [2026年版 FSRSとSM-2の違い](https://nibomo.com/blog/fsrs-vs-sm-2/) がそのまま続きとして読めます。
 
 ## Flashcards が向いている場所
 
-[Nibomo](https://flashcards-open-source-app.com/) が解剖学にいちばん合うのは、何を覚えるべきかがすでに見えている段階です。
+[Nibomo](https://nibomo.com/) が解剖学にいちばん合うのは、何を覚えるべきかがすでに見えている段階です。
 
 これは解剖学とかなり相性がいいです。解剖学の勉強は、複数の雑多な素材を同時にまたぎがちだからです。
 
@@ -253,6 +253,6 @@ keywords:
 - 実習試験での失点
 - 短い AI 整理セッション
 
-役立つのは、「アプリが腕神経叢の枝を勝手に覚えさせてくれる」という話ではありません。こうした素材を素直な表裏カードに変え、FSRS で復習し、画像の多い材料を1か所にまとめ、元資料や写真の整理が必要なときは AI チャットを使い、さらにデバイスをまたいでオフラインでもデッキを持ち歩けることです。まず製品全体を見たいなら、[機能ページ](https://flashcards-open-source-app.com/features/) か [使い方ガイド](https://flashcards-open-source-app.com/docs/getting-started/) から入ってください。スタックを自分で持ちたいなら、[セルフホスティングガイド](https://flashcards-open-source-app.com/docs/self-hosting/) もあります。
+役立つのは、「アプリが腕神経叢の枝を勝手に覚えさせてくれる」という話ではありません。こうした素材を素直な表裏カードに変え、FSRS で復習し、画像の多い材料を1か所にまとめ、元資料や写真の整理が必要なときは AI チャットを使い、さらにデバイスをまたいでオフラインでもデッキを持ち歩けることです。まず製品全体を見たいなら、[機能ページ](https://nibomo.com/features/) か [使い方ガイド](https://nibomo.com/docs/getting-started/) から入ってください。スタックを自分で持ちたいなら、[セルフホスティングガイド](https://nibomo.com/docs/self-hosting/) もあります。
 
 解剖学に必要なのは、たいてい情報を増やすことではありません。想起をきれいにすることです。デッキが、構造の名前を言えるようにし、空間の中で位置を思い出させ、役立つ事実を1つ結びつけ、忘れる直前でもう一度見せてくれるなら、それだけでこの科目の滑りやすさはかなり減ります。

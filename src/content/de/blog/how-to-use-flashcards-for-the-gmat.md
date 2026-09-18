@@ -62,7 +62,7 @@ Schwache Karten klingen meistens wie Themenüberschriften:
 
 Das sind Notizen. Keine starken Abrufreize.
 
-Wenn eher die Kartenqualität das Problem ist, ist [Wie du 2026 bessere Flashcards erstellst](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/) der bessere Begleitartikel, bevor du noch mehr Karten baust.
+Wenn eher die Kartenqualität das Problem ist, ist [Wie du 2026 bessere Flashcards erstellst](https://nibomo.com/blog/how-to-make-better-flashcards/) der bessere Begleitartikel, bevor du noch mehr Karten baust.
 
 ## GMAT-Quant-Flashcards sollten Mathewissen von Prozessfehlern trennen
 
@@ -235,7 +235,7 @@ Der Trick ist, jeden Fehler auf das Gedächtnisziel zu reduzieren, das wirklich 
 - eine Interpretationsregel
 - ein Fehler auf dem Schmierpapier
 
-Wenn dein Workflow ohnehin von Erklärungen und Fehlern ausgeht, geht [Wie du 2026 Übungsfragen in Flashcards verwandelst](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/) bei diesem Schritt tiefer.
+Wenn dein Workflow ohnehin von Erklärungen und Fehlern ausgeht, geht [Wie du 2026 Übungsfragen in Flashcards verwandelst](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/) bei diesem Schritt tiefer.
 
 ## Nutze rechtmäßige persönliche Notizen und Zusammenfassungen, keine kopierten geschützten Fragen
 
@@ -259,7 +259,7 @@ Ich würde ihn so eng halten:
 6. Lösche vage Karten schnell.
 7. Wiederhole täglich die fälligen Karten, statt am Wochenende einen heroischen Rückstand aufzubauen.
 
-Wenn sich deine Sammlung schon jetzt unordentlich anfühlt, ist [Wie du 2026 Flashcards organisierst](https://flashcards-open-source-app.com/blog/how-to-organize-flashcards/) der bessere nächste Schritt, statt einfach noch mehr Karten hinzuzufügen.
+Wenn sich deine Sammlung schon jetzt unordentlich anfühlt, ist [Wie du 2026 Flashcards organisierst](https://nibomo.com/blog/how-to-organize-flashcards/) der bessere nächste Schritt, statt einfach noch mehr Karten hinzuzufügen.
 
 ## FSRS hilft, nachdem das Deck kleiner und schärfer geworden ist
 
@@ -275,11 +275,11 @@ Was FSRS nicht kann, ist aufgeblähte Karten oder veraltete Lernannahmen retten.
 4. das Deck von Fehlern aus offiziellen Übungsfragen formen lassen
 5. die überlebenden Karten mit FSRS wiederholen
 
-Wenn du die Scheduling-Seite genauer verstehen willst, behandelt [Wie du 2026 mit FSRS für eine Prüfung lernst](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/) das direkt.
+Wenn du die Scheduling-Seite genauer verstehen willst, behandelt [Wie du 2026 mit FSRS für eine Prüfung lernst](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/) das direkt.
 
 ## Wo Nibomo hineinpasst
 
-[Nibomo](https://flashcards-open-source-app.com/) passt gut zu dieser Art von GMAT-Vorbereitung, weil die App den etwas unangenehmen Zwischenschritt zwischen "Ich habe diese Frage falsch gemacht" und "Ich wiederhole morgen genau das richtige Gedächtnisziel" abdeckt.
+[Nibomo](https://nibomo.com/) passt gut zu dieser Art von GMAT-Vorbereitung, weil die App den etwas unangenehmen Zwischenschritt zwischen "Ich habe diese Frage falsch gemacht" und "Ich wiederhole morgen genau das richtige Gedächtnisziel" abdeckt.
 
 Nützliche Teile für diesen Workflow:
 

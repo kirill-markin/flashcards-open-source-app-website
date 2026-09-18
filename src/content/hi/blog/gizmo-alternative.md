@@ -18,7 +18,7 @@ keywords:
 
 यह Gizmo flashcards रिव्यू मौजूदा आधिकारिक help pages पर आधारित है। मैंने Gizmo को खुद चलाकर नहीं परखा है, इसलिए product से जुड़े दावे उन्हीं बातों तक सीमित हैं जिन्हें Gizmo ने अपने दस्तावेज़ों में दर्ज किया है। जहाँ जानकारी साफ़ नहीं है, वहाँ मैंने इसे स्पष्ट रूप से बताया है।
 
-> **खुलासा:** मैं Kirill Markin हूँ और नीचे तुलना में शामिल [Nibomo](https://flashcards-open-source-app.com/) को मैं बनाता हूँ। Gizmo के दस्तावेज़ों में बताया गया workflow ज़्यादा व्यापक है: इसमें ज़्यादा source formats, पाँच card types, AI Tutor lessons, कई तरह के quizzes और game जैसी progression मिलती है। Nibomo को जानबूझकर सीमित दायरे में रखा गया है।
+> **खुलासा:** मैं Kirill Markin हूँ और नीचे तुलना में शामिल [Nibomo](https://nibomo.com/) को मैं बनाता हूँ। Gizmo के दस्तावेज़ों में बताया गया workflow ज़्यादा व्यापक है: इसमें ज़्यादा source formats, पाँच card types, AI Tutor lessons, कई तरह के quizzes और game जैसी progression मिलती है। Nibomo को जानबूझकर सीमित दायरे में रखा गया है।
 
 **तथ्यों की जाँच:** 1 सितंबर 2026।
 

@@ -268,7 +268,7 @@ Si quieres más detalle sobre la parte de planificación, [Cómo estudiar para u
 
 ## Dónde encaja Flashcards en este flujo de AP Physics 1
 
-[Nibomo](https://flashcards-open-source-app.com/) encaja bien en este flujo si quieres un solo sitio donde guardar tarjetas de gráficas, errores de fuerzas y correcciones de FRQ sin repartirlas entre apuntes, capturas y correcciones viejas.
+[Nibomo](https://nibomo.com/) encaja bien en este flujo si quieres un solo sitio donde guardar tarjetas de gráficas, errores de fuerzas y correcciones de FRQ sin repartirlas entre apuntes, capturas y correcciones viejas.
 
 Las partes útiles son prácticas:
 

@@ -160,15 +160,15 @@ keywords:
 
 إذا كان مصدرك نصًا نظيفًا أصلًا، فهذه المقالة المرافقة أنسب:
 
-- [كيفية تحويل الملاحظات إلى بطاقات Flashcards في 2026: مسودة بالذكاء الاصطناعي مع FSRS بدل النسخ واللصق يدويًا](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
+- [كيفية تحويل الملاحظات إلى بطاقات Flashcards في 2026: مسودة بالذكاء الاصطناعي مع FSRS بدل النسخ واللصق يدويًا](https://nibomo.com/blog/turn-notes-into-flashcards/)
 
 وإذا كان مصدرك مستندًا أو شرائح محاضرة، فهذه أقرب:
 
-- [كيفية تحويل ملف PDF إلى بطاقات Flashcards في 2026: من شرائح المحاضرات والكتب الدراسية والأوراق البحثية إلى بطاقات FSRS](https://flashcards-open-source-app.com/blog/how-to-turn-a-pdf-into-flashcards/)
+- [كيفية تحويل ملف PDF إلى بطاقات Flashcards في 2026: من شرائح المحاضرات والكتب الدراسية والأوراق البحثية إلى بطاقات FSRS](https://nibomo.com/blog/how-to-turn-a-pdf-into-flashcards/)
 
 ## أين يأتي دور Flashcards في هذا السير
 
-[Nibomo](https://flashcards-open-source-app.com/) مناسب جدًا لسير **تحويل الملاحظات المكتوبة بخط اليد إلى بطاقات Flashcards** لأنه يجمع الأجزاء المهمة كلها في مكان واحد:
+[Nibomo](https://nibomo.com/) مناسب جدًا لسير **تحويل الملاحظات المكتوبة بخط اليد إلى بطاقات Flashcards** لأنه يجمع الأجزاء المهمة كلها في مكان واحد:
 
 - دردشة ذكاء اصطناعي
 - إرفاق الصور والملفات
@@ -196,7 +196,7 @@ keywords:
 
 إذا أردت التعمق أكثر في جانب الجدولة، فهذه المقالة المرافقة أنسب:
 
-- [FSRS أم SM-2 في 2026: أي خوارزمية للتكرار المتباعد تساعدك على التذكر أكثر؟](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [FSRS أم SM-2 في 2026: أي خوارزمية للتكرار المتباعد تساعدك على التذكر أكثر؟](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
 ## القاعدة الأفضل
 
@@ -210,9 +210,9 @@ keywords:
 
 إذا كان هذا ما تريده، فابدأ من هنا:
 
-- [جرّب Flashcards](https://flashcards-open-source-app.com/)
+- [جرّب Flashcards](https://nibomo.com/)
 - [افتح التطبيق](https://app.flashcards-open-source-app.com/)
-- [اقرأ دليل البدء](https://flashcards-open-source-app.com/docs/getting-started/)
+- [اقرأ دليل البدء](https://nibomo.com/docs/getting-started/)
 - [تصفّح الشفرة على GitHub](https://github.com/kirill-markin/flashcards-open-source-app)
 
 لا تحتاج ملاحظاتك إلى أن تكون جميلة.

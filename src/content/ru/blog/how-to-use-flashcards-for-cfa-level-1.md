@@ -171,7 +171,7 @@ Financial Statement Analysis кажется идеальной темой для
 
 Если практические вопросы - ваш основной исходный материал, этот связанный процесс подойдет напрямую:
 
-- [Как превратить практические вопросы в карточки в 2026 году](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/)
+- [Как превратить практические вопросы в карточки в 2026 году](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/)
 
 ## Не делайте карточку на каждую ошибку
 
@@ -219,7 +219,7 @@ Financial Statement Analysis кажется идеальной темой для
 
 Если организация сама становится проблемой, лучше открыть следующим этот текст:
 
-- [Как организовать карточки в 2026 году](https://flashcards-open-source-app.com/blog/how-to-organize-flashcards/)
+- [Как организовать карточки в 2026 году](https://nibomo.com/blog/how-to-organize-flashcards/)
 
 ## Еженедельный процесс с карточками для CFA, который переживет реальную жизнь
 
@@ -257,8 +257,8 @@ FSRS полезен, потому что более легкие карточк�
 
 Если с расписанием повторений пока неясно, эти гайды разбирают тему глубже:
 
-- [FSRS и SM-2 в 2026 году](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
-- [Как готовиться к экзамену с FSRS в 2026 году](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/)
+- [FSRS и SM-2 в 2026 году](https://nibomo.com/blog/fsrs-vs-sm-2/)
+- [Как готовиться к экзамену с FSRS в 2026 году](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)
 
 ## Держите чувствительные к датам факты CFA отдельно
 
@@ -277,7 +277,7 @@ FSRS полезен, потому что более легкие карточк�
 
 ## Где Flashcards вписывается в этот CFA-процесс
 
-[Nibomo](https://flashcards-open-source-app.com/) подходит для этого процесса, потому что поддерживает именно те части, которые нужны CFA-колоде, и не притворяется заменой материалов CFA Institute:
+[Nibomo](https://nibomo.com/) подходит для этого процесса, потому что поддерживает именно те части, которые нужны CFA-колоде, и не притворяется заменой материалов CFA Institute:
 
 - создание и редактирование карточек с лицевой и обратной стороной
 - колоды и теги для организации по теме и источнику
@@ -293,9 +293,9 @@ FSRS полезен, потому что более легкие карточк�
 
 Если это то, что вам нужно, начните здесь:
 
-- [Открыть Flashcards](https://flashcards-open-source-app.com/)
+- [Открыть Flashcards](https://nibomo.com/)
 - [Открыть приложение](https://app.flashcards-open-source-app.com/)
-- [Прочитать руководство по началу работы](https://flashcards-open-source-app.com/docs/getting-started/)
+- [Прочитать руководство по началу работы](https://nibomo.com/docs/getting-started/)
 - [Посмотреть исходный код на GitHub](https://github.com/kirill-markin/flashcards-open-source-app)
 
 Колода не должна впечатлять кого-то. Она должна помочь вам ответить на следующий вопрос до того, как 90 секунд закончатся.

@@ -20,7 +20,7 @@ That is the expensive part of comparing Anki alternatives. A cleaner editor or a
 
 This comparison starts at that boundary. It covers seven apps like Anki, what each one can take from an existing collection, what changes after import, and when keeping Anki is the safer result.
 
-> **Disclosure:** I am Kirill Markin, and I build [Nibomo](https://flashcards-open-source-app.com/), one of the products below. I included it for its open-source, self-hosting, and agent workflows. It is not the default winner: it has no direct `.apkg` importer, its Anki migration is lossy, and operating the self-hosted stack is a real infrastructure job.
+> **Disclosure:** I am Kirill Markin, and I build [Nibomo](https://nibomo.com/), one of the products below. I included it for its open-source, self-hosting, and agent workflows. It is not the default winner: it has no direct `.apkg` importer, its Anki migration is lossy, and operating the self-hosted stack is a real infrastructure job.
 
 **Facts checked:** August 28, 2026. Prices are the public US or listed local prices available on that date. Taxes, regions, education offers, and app-store billing can change the amount.
 
@@ -78,7 +78,7 @@ An importer may pass the first question and fail the other two.
 | [Quizlet](https://quizlet.com/) | [Paste terms and definitions](https://help.quizlet.com/hc/en-us/articles/360029977151-Creating-sets-by-importing-content) | None from Anki | Note types, templates, decks, media structure, and all scheduling data |
 | [Brainscape](https://www.brainscape.com/) | [CSV, TXT, XLSX, or ODS](https://brainscape.zendesk.com/hc/en-us/articles/115002369931-How-do-I-import-various-files-to-create-flashcards) | None from Anki | Templates, add-ons, media rules, and all scheduling data |
 | [SuperMemo](https://www.supermemo.com/) | [Paste delimited question-and-answer rows](https://www.supermemo.com/en/blog/how-to-create-flashcards-for-learning), up to 100 at once | None from Anki | Collection structure, media, templates, and all scheduling data |
-| [Nibomo](https://flashcards-open-source-app.com/) | Reviewed AI-assisted drafting from Anki TXT or CSV | None from Anki | No `.apkg` support; templates, media fidelity, deck hierarchy, and all scheduling data stay behind |
+| [Nibomo](https://nibomo.com/) | Reviewed AI-assisted drafting from Anki TXT or CSV | None from Anki | No `.apkg` support; templates, media fidelity, deck hierarchy, and all scheduling data stay behind |
 
 ## Price, offline use, scheduling, and ownership
 

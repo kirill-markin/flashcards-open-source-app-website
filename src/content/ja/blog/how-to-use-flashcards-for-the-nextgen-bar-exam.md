@@ -91,7 +91,7 @@ keywords:
 
 カードの書き方そのものが弱点なら、次の記事がそのままつながります。
 
-- [2026年版 より良いフラッシュカードの作り方](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [2026年版 より良いフラッシュカードの作り方](https://nibomo.com/blog/how-to-make-better-flashcards/)
 
 ## 論点発見のカードは、完成答案ではなくトリガーを鍛えるべき
 
@@ -123,7 +123,7 @@ keywords:
 
 ミスをカードへ落とし込む流れをもっと詳しく知りたいなら、この関連記事がそのまま合います。
 
-- [2026年版 演習問題をフラッシュカードに変える方法](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/)
+- [2026年版 演習問題をフラッシュカードに変える方法](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/)
 
 ## アウトラインより、単独の多肢選択で落とした問題のほうが、たいてい良いカード材料になる
 
@@ -199,7 +199,7 @@ keywords:
 
 作成より整理のほうが問題なら、次はこちらです。
 
-- [2026年版 フラッシュカードの整理術](https://flashcards-open-source-app.com/blog/how-to-organize-flashcards/)
+- [2026年版 フラッシュカードの整理術](https://nibomo.com/blog/how-to-organize-flashcards/)
 
 ## 実践的な毎週の NextGen Bar Exam フラッシュカード運用
 
@@ -241,11 +241,11 @@ keywords:
 
 スケジューリング面をもう少し詳しく見たいなら、この関連記事が直接つながります。
 
-- [2026年版 FSRSで試験勉強する方法](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/)
+- [2026年版 FSRSで試験勉強する方法](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)
 
 ## この NextGen の運用の中で Flashcards がはまる場所
 
-[Nibomo](https://flashcards-open-source-app.com/) の中でこの流れを回すなら、便利なのは「AIが勉強を楽にしてくれる」という曖昧な約束ではありません。今の製品が、実際に必要なワークフローの真ん中をすでに支えていることです。
+[Nibomo](https://nibomo.com/) の中でこの流れを回すなら、便利なのは「AIが勉強を楽にしてくれる」という曖昧な約束ではありません。今の製品が、実際に必要なワークフローの真ん中をすでに支えていることです。
 
 - Webアプリ内の AI チャット
 - アウトライン、演習ノート、貼り付けた解説を扱えるファイル添付とプレーンテキストのアップロード
@@ -258,7 +258,7 @@ keywords:
 
 素材が完成済みのアウトラインではなく、粗いノートから始まるなら、この関連記事も相性が良いです。
 
-- [2026年版 ロースクールでのフラッシュカード活用法: 判例・ルール・論点発見をしっかり定着させる](https://flashcards-open-source-app.com/blog/how-to-use-flashcards-for-law-school/)
+- [2026年版 ロースクールでのフラッシュカード活用法: 判例・ルール・論点発見をしっかり定着させる](https://nibomo.com/blog/how-to-use-flashcards-for-law-school/)
 
 ## 法をより速く見抜き、より速く言えるデッキを作る
 

@@ -248,7 +248,7 @@ Das ist wichtig, weil die TEAS-Vorbereitung meistens kurz ist. Du brauchst kein 
 
 Ein stabiles Deck plus ein paar ehrliche Tags funktioniert meistens besser als ständige Reorganisation der Decks.
 
-Wenn Organisation der eigentliche Engpass ist, geht [How to Organize Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-organize-flashcards/) auf diesen Teil tiefer ein.
+Wenn Organisation der eigentliche Engpass ist, geht [How to Organize Flashcards in 2026](https://nibomo.com/blog/how-to-organize-flashcards/) auf diesen Teil tiefer ein.
 
 ## Lass die KI die erste grobe Fassung schreiben und bearbeite sie dann hart
 
@@ -265,11 +265,11 @@ Eher so:
 
 Wenn die Rückseite im ersten Entwurf wie ein Absatz aus einem Arbeitsbuch aussieht, kürze sie. Wenn zwei Karten dieselbe Idee prüfen, behalte die klarere. Wenn der Prompt nur Wiedererkennen testet, schreibe ihn für aktiven Abruf um.
 
-Das ähnelt dem Workflow in [How to Turn Practice Questions Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/) und [How to Make Better Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/).
+Das ähnelt dem Workflow in [How to Turn Practice Questions Into Flashcards in 2026](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/) und [How to Make Better Flashcards in 2026](https://nibomo.com/blog/how-to-make-better-flashcards/).
 
 ## Wo Flashcards in diesen ATI-TEAS-Workflow passen
 
-Wenn du das in [Nibomo](https://flashcards-open-source-app.com/) umsetzen willst, passt das praktisch, nicht offiziell.
+Wenn du das in [Nibomo](https://nibomo.com/) umsetzen willst, passt das praktisch, nicht offiziell.
 
 Es gibt keine offizielle ATI-Integration, und es gibt keinen speziellen TEAS-Modus. Der nützliche Teil ist einfacher.
 
@@ -286,7 +286,7 @@ Das ist der eigentliche Wert für die TEAS-Vorbereitung. Du kannst unordentliche
 
 Wenn dir langfristige Kontrolle wichtig ist, ist das Projekt außerdem open source und hat einen Self-Hosting-Pfad. Für die meisten TEAS-Lernenden ist das zweitrangig. Der Hauptgewinn liegt darin, Kartenerstellung, Wiederholung und Bereinigung an einem Ort zu haben, statt verteilt auf Notizen, Screenshots und Browser-Tabs.
 
-Wenn du den schnellsten Einstieg willst, starte mit der [gehosteten Web-App](https://app.flashcards-open-source-app.com/). Wenn du zuerst den breiteren Produktüberblick willst, schau auf die [Features-Seite](https://flashcards-open-source-app.com/features).
+Wenn du den schnellsten Einstieg willst, starte mit der [gehosteten Web-App](https://app.flashcards-open-source-app.com/). Wenn du zuerst den breiteren Produktüberblick willst, schau auf die [Features-Seite](https://nibomo.com/features).
 
 ## Was ich in den letzten 10 Tagen vor dem ATI TEAS tun würde
 

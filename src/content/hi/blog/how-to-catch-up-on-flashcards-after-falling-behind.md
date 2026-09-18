@@ -82,7 +82,7 @@ keywords:
 
 अगर आप रोज़ कितने नए कार्ड जोड़ने चाहिए, उसके पीछे की गहरी सोच समझना चाहते हैं, तो यह साथी लेख उसी समस्या के शुरुआती हिस्से को समझाता है:
 
-- [How Many New Flashcards Per Day in 2026?](https://flashcards-open-source-app.com/blog/how-many-new-flashcards-per-day/)
+- [How Many New Flashcards Per Day in 2026?](https://nibomo.com/blog/how-many-new-flashcards-per-day/)
 
 ## अगला कदम: रोज़ का ऐसा न्यूनतम लक्ष्य चुनें जिसे आप सच में दोहरा सकें
 
@@ -136,7 +136,7 @@ keywords:
 
 अगर आपकी असली समस्या छूटे हुए दिन नहीं बल्कि कार्ड की गुणवत्ता है, तो यह लेख उस विषय में और गहराई से जाता है:
 
-- [How to Make Better Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [How to Make Better Flashcards in 2026](https://nibomo.com/blog/how-to-make-better-flashcards/)
 
 ## पहले डेक के सबसे ज़्यादा फ़ायदा देने वाले हिस्से को प्राथमिकता दें
 
@@ -156,7 +156,7 @@ keywords:
 
 उस स्थिति में यह लेख भी काम आएगा:
 
-- [How to Study for an Exam With FSRS in 2026](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/)
+- [How to Study for an Exam With FSRS in 2026](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)
 
 ## पहला लक्ष्य आदत को वापस लाना है, बैकलॉग घटाना उसके बाद आता है
 
@@ -216,7 +216,7 @@ AI संभावित कार्डों का ड्राफ्ट ब�
 
 ## Flashcards यहाँ बेहतर क्यों काम करता है
 
-[Nibomo](https://flashcards-open-source-app.com/) **spaced repetition बैकलॉग** से उबरने के लिए अच्छा विकल्प है, क्योंकि इसमें काम करने की प्रक्रिया को तीन अलग-अलग टूल में बाँटना नहीं पड़ता:
+[Nibomo](https://nibomo.com/) **spaced repetition बैकलॉग** से उबरने के लिए अच्छा विकल्प है, क्योंकि इसमें काम करने की प्रक्रिया को तीन अलग-अलग टूल में बाँटना नहीं पड़ता:
 
 - AI चैट कार्ड का ड्राफ्ट बनाने में मदद कर सकती है, लेकिन कौन-सा कार्ड बचेगा यह आप तय करते हैं
 - फ्रंट/बैक एडिटिंग की वजह से कमजोर कार्डों को छोटा करना या अलग-अलग कार्डों में बाँटना आसान होता है

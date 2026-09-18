@@ -171,11 +171,11 @@ keywords:
 
 素材が文字中心なら、PDF 寄りの手順のほうが合うこともあります。
 
-- [2026年に PDF をフラッシュカード化する方法: 講義スライド、教科書、論文を FSRS カードにする](https://flashcards-open-source-app.com/blog/how-to-turn-a-pdf-into-flashcards/)
+- [2026年に PDF をフラッシュカード化する方法: 講義スライド、教科書、論文を FSRS カードにする](https://nibomo.com/blog/how-to-turn-a-pdf-into-flashcards/)
 
 家庭教師との復習やガイド付きのクイズ見直しに近いなら、こちらのほうが合います。
 
-- [2026年に ChatGPT Study Mode をフラッシュカード化する方法: チューター体験を保ったまま間隔反復を足す](https://flashcards-open-source-app.com/blog/how-to-turn-chatgpt-study-mode-into-flashcards/)
+- [2026年に ChatGPT Study Mode をフラッシュカード化する方法: チューター体験を保ったまま間隔反復を足す](https://nibomo.com/blog/how-to-turn-chatgpt-study-mode-into-flashcards/)
 
 ## 間違えた理由は残す。でも表面に全部載せない
 
@@ -219,7 +219,7 @@ keywords:
 
 ## Flashcards がこの流れに合う理由
 
-[Nibomo](https://flashcards-open-source-app.com/) は、**演習問題をフラッシュカードに変える用途** と相性の良いプロダクトです。この流れに必要な部品が、すでに揃っているからです。
+[Nibomo](https://nibomo.com/) は、**演習問題をフラッシュカードに変える用途** と相性の良いプロダクトです。この流れに必要な部品が、すでに揃っているからです。
 
 - AI チャット
 - ファイルと画像の添付
@@ -237,11 +237,11 @@ keywords:
 
 スケジューリング側をもう少し詳しく見たいなら、次の記事が役立ちます。
 
-- [2026年に FSRS で試験勉強する方法: 試験日までに終えられるフラッシュカード計画を作る](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/)
+- [2026年に FSRS で試験勉強する方法: 試験日までに終えられるフラッシュカード計画を作る](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)
 
 元の素材よりカードの質そのものが課題なら、こちらも参考になります。
 
-- [2026年に、より良いフラッシュカードを作る方法: FSRS と噛み合う表裏カードのルール](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [2026年に、より良いフラッシュカードを作る方法: FSRS と噛み合う表裏カードのルール](https://nibomo.com/blog/how-to-make-better-flashcards/)
 
 ## 覚えておきたいルール
 

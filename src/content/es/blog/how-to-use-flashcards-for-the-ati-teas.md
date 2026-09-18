@@ -248,7 +248,7 @@ Eso importa porque la preparación del TEAS suele ser corta. No necesitas un sis
 
 Un mazo estable y unas pocas etiquetas honestas suele funcionar mejor que reorganizar mazos todo el tiempo.
 
-Si el verdadero cuello de botella es la organización, [Cómo organizar flashcards en 2026](https://flashcards-open-source-app.com/blog/how-to-organize-flashcards/) profundiza más en esa parte.
+Si el verdadero cuello de botella es la organización, [Cómo organizar flashcards en 2026](https://nibomo.com/blog/how-to-organize-flashcards/) profundiza más en esa parte.
 
 ## Deja que la IA redacte una primera versión tosca y luego edítala con mano dura
 
@@ -265,11 +265,11 @@ Se parece más a esto:
 
 Si el reverso del borrador parece un párrafo de un cuaderno de ejercicios, recórtalo. Si dos tarjetas prueban la misma idea, quédate con la más clara. Si el enunciado solo comprueba reconocimiento, reescríbelo para recuerdo activo.
 
-Eso se parece bastante al flujo de [Cómo convertir preguntas de práctica en flashcards en 2026](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/) y [Cómo hacer mejores flashcards en 2026](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/).
+Eso se parece bastante al flujo de [Cómo convertir preguntas de práctica en flashcards en 2026](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/) y [Cómo hacer mejores flashcards en 2026](https://nibomo.com/blog/how-to-make-better-flashcards/).
 
 ## Dónde encaja Flashcards en este flujo de trabajo para ATI TEAS
 
-Si quieres hacer esto dentro de [Nibomo](https://flashcards-open-source-app.com/), el encaje es práctico, no oficial.
+Si quieres hacer esto dentro de [Nibomo](https://nibomo.com/), el encaje es práctico, no oficial.
 
 No hay integración oficial con ATI, y no hay un modo especial para TEAS. La parte útil es más simple que eso.
 
@@ -286,7 +286,7 @@ El producto actual cubre la parte intermedia del flujo que aquí sí importa:
 
 Si para ti importa la propiedad a largo plazo, el proyecto también es de código abierto y tiene una opción autohospedada. Para la mayoría de los estudiantes de TEAS, eso es secundario. La ventaja principal es tener creación de tarjetas, repaso y limpieza en un solo sitio en vez de repartirlo entre apuntes, capturas y pestañas del navegador.
 
-Si quieres la entrada más rápida, empieza con la [app web alojada](https://app.flashcards-open-source-app.com/). Si prefieres ver antes una visión general del producto, usa la [página de funcionalidades](https://flashcards-open-source-app.com/features).
+Si quieres la entrada más rápida, empieza con la [app web alojada](https://app.flashcards-open-source-app.com/). Si prefieres ver antes una visión general del producto, usa la [página de funcionalidades](https://nibomo.com/features).
 
 ## Lo que yo haría en los últimos 10 días antes del ATI TEAS
 

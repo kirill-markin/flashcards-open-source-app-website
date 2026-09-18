@@ -244,7 +244,7 @@ Security+ ليس اختبار shell كاملًا، لكن التعرّف على 
 
 إذا كانت الأسئلة التي أخطأت فيها هي مصدرك الأساسي، فهذه المقالة هي الرفيق الطبيعي:
 
-- [كيف تحوّل أسئلة التدريب إلى بطاقات تعليمية في 2026](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/)
+- [كيف تحوّل أسئلة التدريب إلى بطاقات تعليمية في 2026](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/)
 
 ## لا تبنِ مجموعة Security+ واحدة بلا ملامح
 
@@ -279,7 +279,7 @@ Security+ ليس اختبار shell كاملًا، لكن التعرّف على 
 
 إذا كانت المشكلة الأكبر عندك هي التنظيم أكثر من كتابة البطاقات، فاقرأ هذا بعده:
 
-- [كيف تنظّم البطاقات التعليمية في 2026](https://flashcards-open-source-app.com/blog/how-to-organize-flashcards/)
+- [كيف تنظّم البطاقات التعليمية في 2026](https://nibomo.com/blog/how-to-organize-flashcards/)
 
 ## ينبغي أن يبقى سير عملك الأسبوعي مملًا
 
@@ -300,7 +300,7 @@ Security+ ليس اختبار shell كاملًا، لكن التعرّف على 
 
 إذا كانت `AI` تعطيك مسودات بطاقات ركيكة، فهذه المقالة المرافقة تساعد:
 
-- [كيف تنشئ بطاقات تعليمية أفضل في 2026](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [كيف تنشئ بطاقات تعليمية أفضل في 2026](https://nibomo.com/blog/how-to-make-better-flashcards/)
 
 ## FSRS يفيد التحضير لاختبار Security+ فقط بعد أن تصبح المجموعة أضيق
 
@@ -321,7 +321,7 @@ Security+ ليس اختبار shell كاملًا، لكن التعرّف على 
 
 إذا كنت تريد جانب تخطيط الاختبار في هذا الأسلوب، فهذه المقالة تتوسع أكثر:
 
-- [كيف تذاكر لاختبار باستخدام FSRS في 2026](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/)
+- [كيف تذاكر لاختبار باستخدام FSRS في 2026](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)
 
 ## المراجعة دون اتصال بالإنترنت أهم في التحضير للشهادات مما يعترف به الناس
 
@@ -338,11 +338,11 @@ Security+ ليس اختبار shell كاملًا، لكن التعرّف على 
 
 إذا كان هذا مهمًا في إعدادك الدراسي، فهذه تستحق القراءة أيضًا:
 
-- [أفضل تطبيق بطاقات تعليمية يعمل دون اتصال بالإنترنت في 2026](https://flashcards-open-source-app.com/blog/best-offline-flashcards-app/)
+- [أفضل تطبيق بطاقات تعليمية يعمل دون اتصال بالإنترنت في 2026](https://nibomo.com/blog/best-offline-flashcards-app/)
 
 ## أين يناسب Flashcards هذا الأسلوب جيدًا
 
-[Nibomo](https://flashcards-open-source-app.com/) مناسب جدًا لـ **بطاقات Security+** لأن المنتج يطابق سير العمل أصلًا بدلًا من أن يجبرك على الارتجال عبر خمس أدوات مختلفة.
+[Nibomo](https://nibomo.com/) مناسب جدًا لـ **بطاقات Security+** لأن المنتج يطابق سير العمل أصلًا بدلًا من أن يجبرك على الارتجال عبر خمس أدوات مختلفة.
 
 يمكنك استخدام:
 

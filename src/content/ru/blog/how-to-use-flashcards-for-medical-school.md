@@ -68,7 +68,7 @@ keywords:
 
 Если в анатомии у вас особенно много схем и изображений, то ближе всего к этому этапу подойдет вот эта статья:
 
-- [Как превращать схемы в карточки в 2026 году](https://flashcards-open-source-app.com/blog/how-to-turn-diagrams-into-flashcards/)
+- [Как превращать схемы в карточки в 2026 году](https://nibomo.com/blog/how-to-turn-diagrams-into-flashcards/)
 
 ## Карточки по фармакологии должны помогать выбирать, а не декламировать
 
@@ -131,8 +131,8 @@ keywords:
 
 Если ваш исходный материал чаще состоит из заметок или длинных раздаточных материалов, то к более ранней части этого процесса подходят вот эти статьи:
 
-- [Как превращать заметки в карточки в 2026 году](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
-- [Как превратить PDF в карточки в 2026 году](https://flashcards-open-source-app.com/blog/how-to-turn-a-pdf-into-flashcards/)
+- [Как превращать заметки в карточки в 2026 году](https://nibomo.com/blog/turn-notes-into-flashcards/)
+- [Как превратить PDF в карточки в 2026 году](https://nibomo.com/blog/how-to-turn-a-pdf-into-flashcards/)
 
 ## Ошибки из банка вопросов должны формировать вторую половину колоды
 
@@ -153,7 +153,7 @@ keywords:
 
 Если именно этот этап процесса нужен вам больше всего, вот прямая парная статья:
 
-- [Как превращать тренировочные вопросы в карточки в 2026 году](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/)
+- [Как превращать тренировочные вопросы в карточки в 2026 году](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/)
 
 ## Еженедельный процесс с карточками в медвузе обычно нарочно скучный
 
@@ -189,7 +189,7 @@ keywords:
 
 Если вы хотите подробнее разобраться именно с организацией, дальше логично читать вот это:
 
-- [Как организовать карточки в 2026 году](https://flashcards-open-source-app.com/blog/how-to-organize-flashcards/)
+- [Как организовать карточки в 2026 году](https://nibomo.com/blog/how-to-organize-flashcards/)
 
 ## FSRS помогает сильнее всего, когда вы перестаете скармливать ему хаос
 
@@ -209,12 +209,12 @@ keywords:
 
 Если очередь уже начинает выходить из-под контроля, то к медвузовскому процессу напрямую подходят вот эти две статьи:
 
-- [Сколько новых карточек в день в 2026 году?](https://flashcards-open-source-app.com/blog/how-many-new-flashcards-per-day/)
-- [Как готовиться к экзамену с FSRS в 2026 году](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/)
+- [Сколько новых карточек в день в 2026 году?](https://nibomo.com/blog/how-many-new-flashcards-per-day/)
+- [Как готовиться к экзамену с FSRS в 2026 году](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)
 
 А если вам нужно отдельно разобраться именно с моделью расписания:
 
-- [FSRS и SM-2 в 2026 году](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [FSRS и SM-2 в 2026 году](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
 ## Рабочая рутина в медвузе обычно меньше ваших амбиций
 
@@ -240,7 +240,7 @@ keywords:
 
 ## Где Flashcards особенно хорошо вписывается в этот процесс
 
-[Nibomo](https://flashcards-open-source-app.com/) хорошо подходит для **флешкарточек для медицинского вуза**, потому что в продукте уже есть те элементы, от которых зависит такой рабочий процесс:
+[Nibomo](https://nibomo.com/) хорошо подходит для **флешкарточек для медицинского вуза**, потому что в продукте уже есть те элементы, от которых зависит такой рабочий процесс:
 
 - карточки с лицевой и обратной стороной для четких запросов на извлечение из памяти
 - AI chat для черновиков карточек из текста лекций, заметок или материалов разбора вопросов
@@ -256,4 +256,4 @@ keywords:
 
 Если основная проблема у вас не в предметной специфике, а в качестве самих карточек, хорошо сочетается вот эта статья:
 
-- [Как делать карточки лучше в 2026 году](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [Как делать карточки лучше в 2026 году](https://nibomo.com/blog/how-to-make-better-flashcards/)

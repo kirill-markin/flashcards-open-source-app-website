@@ -18,7 +18,7 @@ If you want to batch-import a week of notes into Gizmo for free, the number to r
 
 This Gizmo flashcards review is based on current official help pages. I have not tested Gizmo hands-on, so I will keep product claims to what Gizmo documents and make the uncertain parts explicit.
 
-> **Disclosure:** I am Kirill Markin, and I build [Nibomo](https://flashcards-open-source-app.com/), the alternative compared below. Gizmo offers a broader documented workflow: more source formats, five card types, AI Tutor lessons, varied quizzes, and game-like progression. Nibomo is deliberately narrower.
+> **Disclosure:** I am Kirill Markin, and I build [Nibomo](https://nibomo.com/), the alternative compared below. Gizmo offers a broader documented workflow: more source formats, five card types, AI Tutor lessons, varied quizzes, and game-like progression. Nibomo is deliberately narrower.
 
 **Facts checked:** September 1, 2026.
 

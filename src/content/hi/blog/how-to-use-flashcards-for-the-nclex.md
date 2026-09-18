@@ -40,7 +40,7 @@ Content structure के हिसाब से RN और PN candidates वह�
 
 ## यहीं NCLEX prep, nursing school से अलग होने लगती है
 
-विस्तृत [How to Use Flashcards for Nursing School in 2026](https://flashcards-open-source-app.com/blog/how-to-use-flashcards-for-nursing-school/) पोस्ट तब भी उपयोगी है, अगर आप lecture content, skills checkoffs, और course exams एक साथ संभाल रहे हैं।
+विस्तृत [How to Use Flashcards for Nursing School in 2026](https://nibomo.com/blog/how-to-use-flashcards-for-nursing-school/) पोस्ट तब भी उपयोगी है, अगर आप lecture content, skills checkoffs, और course exams एक साथ संभाल रहे हैं।
 
 यह article उससे काफ़ी ज़्यादा संकरा है।
 
@@ -107,7 +107,7 @@ RN test plan कहता है कि हर case study clinical judgment क�
 
 अगर miss ज़्यादातर बस इतना था कि "मैंने बहुत तेज़ पढ़ा और एक शब्द छोड़ दिया," तो वह बात real है, लेकिन वह flashcard problem नहीं है।
 
-यहीं [How to Turn Practice Questions Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/) बेहतर companion article बनती है। ज़्यादातर उपयोगी **NCLEX RN फ्लैशकार्ड** review book से content copy करने से नहीं, बल्कि आपकी misses की structure से निकलते हैं।
+यहीं [How to Turn Practice Questions Into Flashcards in 2026](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/) बेहतर companion article बनती है। ज़्यादातर उपयोगी **NCLEX RN फ्लैशकार्ड** review book से content copy करने से नहीं, बल्कि आपकी misses की structure से निकलते हैं।
 
 ## Partial credit से यह बदलना चाहिए कि आप miss को कैसे सहेजते हैं
 
@@ -225,7 +225,7 @@ FSRS उपयोगी है, क्योंकि NCLEX memory uneven हो
 2. deck को नियंत्रित रखिए
 3. timing FSRS पर छोड़ दीजिए
 
-अगर आप scheduling side को और detail में समझना चाहते हैं, तो [How to Study for an Exam With FSRS in 2026](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/) इसका सीधा follow-up है।
+अगर आप scheduling side को और detail में समझना चाहते हैं, तो [How to Study for an Exam With FSRS in 2026](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/) इसका सीधा follow-up है।
 
 ## NCLEX से पहले के आख़िरी 7 से 10 दिन ज़्यादा चुस्त लगने चाहिए
 
@@ -247,7 +247,7 @@ FSRS उपयोगी है, क्योंकि NCLEX memory uneven हो
 
 ## Flashcards यहाँ कहाँ काम आता है
 
-[Nibomo](https://flashcards-open-source-app.com/) इस workflow में अच्छी तरह काम आता है, क्योंकि यह वे boring चीज़ें देता है जो सच में मायने रखती हैं: छोटे front/back cards, tags, filtered review, और cards काफ़ी साफ़ हो जाने के बाद FSRS scheduling।
+[Nibomo](https://nibomo.com/) इस workflow में अच्छी तरह काम आता है, क्योंकि यह वे boring चीज़ें देता है जो सच में मायने रखती हैं: छोटे front/back cards, tags, filtered review, और cards काफ़ी साफ़ हो जाने के बाद FSRS scheduling।
 
 NCLEX prep में यह इसलिए उपयोगी है, क्योंकि source material बहुत जल्दी messy हो जाता है। Rationales एक tab में हैं, handwritten notes दूसरे में, lab-values sheet कहीं और पड़ी है, और आपकी असली weak spots आम तौर पर उन सबमें बिखरी होती हैं। सही tool वही है जो आपको उन्हें छोटे cards में बदलने दे, बिना दूसरी full-time study system बनाए।
 

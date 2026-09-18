@@ -82,7 +82,7 @@ Das Konzept ist bei dir schon irgendwo vorhanden. Die Sprachnotiz ist nur die un
 
 Wenn deine Quelle eine komplette Unterrichtsaufnahme statt deiner eigenen Zusammenfassung ist, dann starte hier:
 
-- [Wie du 2026 Vorlesungsaufzeichnungen in Flashcards verwandelst: Vom Transkript zu FSRS-Karten, ohne alles noch einmal anzusehen](https://flashcards-open-source-app.com/blog/how-to-turn-lecture-recordings-into-flashcards/)
+- [Wie du 2026 Vorlesungsaufzeichnungen in Flashcards verwandelst: Vom Transkript zu FSRS-Karten, ohne alles noch einmal anzusehen](https://nibomo.com/blog/how-to-turn-lecture-recordings-into-flashcards/)
 
 ## Der Workflow, auf den ich setze, ist simpel: kurz aufnehmen, transkribieren, kompromisslos kürzen
 
@@ -198,7 +198,7 @@ Darum kann **Sprachnotizen mit Flashcards lernen** nützlicher sein, als eine sc
 
 Wenn deine Rohquelle handschriftlich und nicht gesprochen ist, passt dieser Artikel besser:
 
-- [Wie du 2026 handschriftliche Notizen in Flashcards verwandelst: Fotos, OCR und KI-Entwürfe, ohne alles neu abzuschreiben](https://flashcards-open-source-app.com/blog/how-to-turn-handwritten-notes-into-flashcards/)
+- [Wie du 2026 handschriftliche Notizen in Flashcards verwandelst: Fotos, OCR und KI-Entwürfe, ohne alles neu abzuschreiben](https://nibomo.com/blog/how-to-turn-handwritten-notes-into-flashcards/)
 
 ## Schlechte Audio-zu-Flashcards-Workflows scheitern fast immer auf dieselbe Weise
 
@@ -255,11 +255,11 @@ Wenn der Scheduler solide ist, wirkt der ganze Audio-Workflow deutlich glaubwür
 
 Wenn du die Scheduler-Seite genauer verstehen willst, lies hier weiter:
 
-- [FSRS vs SM-2 in 2026: Welcher Spaced-Repetition-Algorithmus hilft dir, mehr zu behalten?](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [FSRS vs SM-2 in 2026: Welcher Spaced-Repetition-Algorithmus hilft dir, mehr zu behalten?](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
 ## Warum Flashcards gut in diesen Workflow passt
 
-[Nibomo](https://flashcards-open-source-app.com/) passt gut zu **Audio in Flashcards umwandeln**, weil das Produkt bereits alle Teile dieses Workflows an einem Ort zusammenbringt:
+[Nibomo](https://nibomo.com/) passt gut zu **Audio in Flashcards umwandeln**, weil das Produkt bereits alle Teile dieses Workflows an einem Ort zusammenbringt:
 
 - KI-Chat
 - Dateianhänge

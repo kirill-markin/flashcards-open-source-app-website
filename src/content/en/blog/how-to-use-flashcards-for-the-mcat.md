@@ -177,8 +177,8 @@ That means questions like:
 
 If your source material is mostly notes, slides, or textbook chunks, these related workflows fit the earlier drafting stage:
 
-- [How to Turn Notes Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
-- [How to Turn a PDF Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-turn-a-pdf-into-flashcards/)
+- [How to Turn Notes Into Flashcards in 2026](https://nibomo.com/blog/turn-notes-into-flashcards/)
+- [How to Turn a PDF Into Flashcards in 2026](https://nibomo.com/blog/how-to-turn-a-pdf-into-flashcards/)
 
 ## Your missed practice questions should shape the most valuable part of the deck
 
@@ -209,7 +209,7 @@ What usually matters is not preserving the whole practice interface forever. It 
 
 This companion article goes deeper on that workflow:
 
-- [How to Turn Practice Questions Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/)
+- [How to Turn Practice Questions Into Flashcards in 2026](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/)
 
 ## Do not turn every practice miss into a card
 
@@ -255,7 +255,7 @@ The MCAT already has enough complexity in passage practice, schedule planning, a
 
 If organization is the bigger issue, this article pairs well with the MCAT workflow:
 
-- [How to Organize Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-organize-flashcards/)
+- [How to Organize Flashcards in 2026](https://nibomo.com/blog/how-to-organize-flashcards/)
 
 ## FSRS helps when your MCAT schedule gets uneven
 
@@ -282,12 +282,12 @@ So I would keep the order simple:
 
 If you want the exam-timing side in more detail, read this next:
 
-- [How to Study for an Exam With FSRS in 2026](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/)
-- [FSRS vs SM-2 in 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [How to Study for an Exam With FSRS in 2026](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)
+- [FSRS vs SM-2 in 2026](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
 ## Where Flashcards fits this MCAT workflow
 
-[Nibomo](https://flashcards-open-source-app.com/) is a strong fit for this kind of MCAT workflow because it covers the parts students usually split across too many tools.
+[Nibomo](https://nibomo.com/) is a strong fit for this kind of MCAT workflow because it covers the parts students usually split across too many tools.
 
 The product already gives you the pieces this workflow needs:
 
@@ -324,4 +324,4 @@ than one giant imported deck that quietly turns into background guilt.
 
 That is the version of **MCAT flashcards** that usually holds up in real prep: not as a solution for every part of the exam, and definitely not as a substitute for CARS passage work, but as a durable system for facts, distinctions, and mistakes you do not want to relearn under pressure.
 
-If you want the workflow in one open-source stack, [Nibomo](https://flashcards-open-source-app.com/) gives you the practical path: draft from notes or uploads, keep the good cards, and let FSRS handle the review timing while you stay focused on actual MCAT practice.
+If you want the workflow in one open-source stack, [Nibomo](https://nibomo.com/) gives you the practical path: draft from notes or uploads, keep the good cards, and let FSRS handle the review timing while you stay focused on actual MCAT practice.

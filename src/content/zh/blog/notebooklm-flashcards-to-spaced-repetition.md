@@ -118,7 +118,7 @@ Anki 通常是这场对话最后会落去的地方，因为缺失的那一层从
 
 ## 为什么 Flashcards 更适合填补这个缺口
 
-[Nibomo](https://flashcards-open-source-app.com/) 很适合填补这个确切的缝隙，因为这个产品不是“只会生成”的工具，也不是“只有复习”的工具。它让你能在真正复习会发生的那个地方，顺手完成清理步骤。
+[Nibomo](https://nibomo.com/) 很适合填补这个确切的缝隙，因为这个产品不是“只会生成”的工具，也不是“只有复习”的工具。它让你能在真正复习会发生的那个地方，顺手完成清理步骤。
 
 这一点比很多人承认的重要。
 
@@ -152,7 +152,7 @@ Anki 通常是这场对话最后会落去的地方，因为缺失的那一层从
 
 如果你想更深入看排程部分，这篇配套文章会更详细：
 
-- [2026 年 FSRS vs SM-2](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [2026 年 FSRS vs SM-2](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
 ## 当来源本身很乱时，这个工作流尤其有用
 
@@ -172,9 +172,9 @@ NotebookLM 很多时候本来就是从那些一开始并不干净的材料起步
 
 如果你的来源还停在更前一步，这几篇配套文章会有帮助：
 
-- [2026 年如何把笔记变成 Flashcards](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
-- [2026 年如何把 PDF 变成 Flashcards](https://flashcards-open-source-app.com/blog/how-to-turn-a-pdf-into-flashcards/)
-- [2026 年如何把 Notion Notes 变成 Flashcards](https://flashcards-open-source-app.com/blog/how-to-turn-notion-notes-into-flashcards/)
+- [2026 年如何把笔记变成 Flashcards](https://nibomo.com/blog/turn-notes-into-flashcards/)
+- [2026 年如何把 PDF 变成 Flashcards](https://nibomo.com/blog/how-to-turn-a-pdf-into-flashcards/)
+- [2026 年如何把 Notion Notes 变成 Flashcards](https://nibomo.com/blog/how-to-turn-notion-notes-into-flashcards/)
 
 ## 如果是这周就要做，我会怎么做
 
@@ -203,4 +203,4 @@ Flashcards 负责清理、建卡和复习系统。
 
 这才是我最信任的 **NotebookLM flashcards** 用法：用 NotebookLM 帮你从混乱来源走到候选卡，再把这些卡移进真正的间隔重复工作流里，在那里继续编辑、缩短，并用真正的 scheduler 去复习。
 
-如果这正是你想要的，[Nibomo](https://flashcards-open-source-app.com/) 很适合。它给了你一座现实可用的桥，从 AI 生成学习材料，走到一副你一个月后可能仍在认真复习的卡组。
+如果这正是你想要的，[Nibomo](https://nibomo.com/) 很适合。它给了你一座现实可用的桥，从 AI 生成学习材料，走到一副你一个月后可能仍在认真复习的卡组。

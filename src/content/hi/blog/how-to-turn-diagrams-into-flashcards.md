@@ -224,11 +224,11 @@ image upload से सीधे final cards पर मत जाएँ।
 
 अगर screenshot text-heavy है, तो यह companion article ज़्यादा fit बैठ सकती है:
 
-- [2026 में Article को Flashcards में कैसे बदलें](https://flashcards-open-source-app.com/blog/how-to-turn-an-article-into-flashcards/)
+- [2026 में Article को Flashcards में कैसे बदलें](https://nibomo.com/blog/how-to-turn-an-article-into-flashcards/)
 
 अगर वह structured diagram के बजाय notebook page है, तो यह ज़्यादा क़रीब है:
 
-- [2026 में Handwritten Notes को Flashcards में कैसे बदलें](https://flashcards-open-source-app.com/blog/how-to-turn-handwritten-notes-into-flashcards/)
+- [2026 में Handwritten Notes को Flashcards में कैसे बदलें](https://nibomo.com/blog/how-to-turn-handwritten-notes-into-flashcards/)
 
 ## Card को एक बार में एक visual idea test करना चाहिए
 
@@ -294,7 +294,7 @@ visual study करने वाले लोग अक्सर मान ल�
 
 ## Flashcards कहाँ फिट बैठता है
 
-[Nibomo](https://flashcards-open-source-app.com/) **diagram से flashcards** workflow के लिए अच्छा fit है क्योंकि product में पहले से इस process के लिए ज़रूरी हिस्से हैं:
+[Nibomo](https://nibomo.com/) **diagram से flashcards** workflow के लिए अच्छा fit है क्योंकि product में पहले से इस process के लिए ज़रूरी हिस्से हैं:
 
 - AI chat
 - image और file attachments
@@ -314,11 +314,11 @@ visual upload करो, उपयोगी structure निकालो, cards 
 
 अगर आप scheduling side को detail में समझना चाहते हैं, तो यह companion article पढ़ने लायक है:
 
-- [2026 में FSRS बनाम SM-2](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [2026 में FSRS बनाम SM-2](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
 और अगर आपका source diagram image से ज़्यादा lecture slides या research paper के क़रीब है, तो यहाँ से शुरू करें:
 
-- [2026 में PDF को Flashcards में कैसे बदलें](https://flashcards-open-source-app.com/blog/how-to-turn-a-pdf-into-flashcards/)
+- [2026 में PDF को Flashcards में कैसे बदलें](https://nibomo.com/blog/how-to-turn-a-pdf-into-flashcards/)
 
 ## उपयोगी नियम
 
@@ -339,7 +339,7 @@ visual upload करो, उपयोगी structure निकालो, cards 
 
 अगर आप यही चाहते हैं, तो यहाँ से शुरू करें:
 
-- [Open Nibomo](https://flashcards-open-source-app.com/)
+- [Open Nibomo](https://nibomo.com/)
 - [ऐप खोलें](https://app.flashcards-open-source-app.com/)
-- [getting started guide पढ़ें](https://flashcards-open-source-app.com/docs/getting-started/)
+- [getting started guide पढ़ें](https://nibomo.com/docs/getting-started/)
 - [GitHub पर source देखें](https://github.com/kirill-markin/flashcards-open-source-app)

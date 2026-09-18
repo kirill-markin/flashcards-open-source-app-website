@@ -102,8 +102,8 @@ Por eso yo iría con cuidado con cualquier flujo de trabajo que haga que crear t
 
 Si tu material de origen sigue estando en formato documento, estos flujos de trabajo ayudan con la parte de borrador:
 
-- [Cómo convertir un PDF en tarjetas didácticas en 2026](https://flashcards-open-source-app.com/blog/how-to-turn-a-pdf-into-flashcards/)
-- [Cómo convertir apuntes en tarjetas didácticas en 2026](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
+- [Cómo convertir un PDF en tarjetas didácticas en 2026](https://nibomo.com/blog/how-to-turn-a-pdf-into-flashcards/)
+- [Cómo convertir apuntes en tarjetas didácticas en 2026](https://nibomo.com/blog/turn-notes-into-flashcards/)
 
 ## Una forma práctica de encontrar tu número
 
@@ -151,7 +151,7 @@ No, el planificador no convierte una entrada ilimitada de tarjetas en un plan se
 
 Si quieres una comparación directa sobre la planificación, este artículo entra más a fondo:
 
-- [FSRS vs SM-2 en 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [FSRS vs SM-2 en 2026](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
 ## El atasco de repasos también suele ser un problema de redacción
 
@@ -209,11 +209,11 @@ Necesitas el mazo más pequeño que siga enseñando bien el material.
 
 Si estás creando tarjetas directamente a partir de prompts de IA, esta pieza complementaria también encaja:
 
-- [Cómo usar ChatGPT para crear tarjetas didácticas en 2026](https://flashcards-open-source-app.com/blog/how-to-use-chatgpt-to-make-flashcards/)
+- [Cómo usar ChatGPT para crear tarjetas didácticas en 2026](https://nibomo.com/blog/how-to-use-chatgpt-to-make-flashcards/)
 
 ## Por qué Flashcards encaja mejor aquí
 
-[Nibomo](https://flashcards-open-source-app.com/) encaja bien en este flujo de trabajo porque el producto cubre ambos lados del problema:
+[Nibomo](https://nibomo.com/) encaja bien en este flujo de trabajo porque el producto cubre ambos lados del problema:
 
 - chat con IA para crear borradores a partir de apuntes, PDFs y otras fuentes
 - edición del anverso y reverso de las tarjetas antes de que se queden como definitivas
@@ -234,4 +234,4 @@ Elígelo según la carga de repaso que tu vida normal pueda sostener.
 
 Esa es la versión de **cuántas tarjetas al día** en la que confío en 2026: empieza por debajo de lo que te pide la emoción del momento, mantén las tarjetas limpias, observa con honestidad la cola de pendientes y sube solo cuando el sistema siga sintiéndose tranquilo.
 
-Si ese es el flujo de trabajo que buscas, [Nibomo](https://flashcards-open-source-app.com/) te da la configuración práctica: crear borradores desde el material fuente, editar con criterio y repasar con FSRS en lugar de dejar que una sesión entusiasmada de generación de tarjetas se convierta, sin darte cuenta, en un mes de retraso acumulado.
+Si ese es el flujo de trabajo que buscas, [Nibomo](https://nibomo.com/) te da la configuración práctica: crear borradores desde el material fuente, editar con criterio y repasar con FSRS en lugar de dejar que una sesión entusiasmada de generación de tarjetas se convierta, sin darte cuenta, en un mes de retraso acumulado.

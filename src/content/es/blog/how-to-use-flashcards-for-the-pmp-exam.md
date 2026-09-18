@@ -112,7 +112,7 @@ Ejemplos:
 - Anverso: ¿Cuándo merece una fórmula una flashcard permanente?
 - Reverso: Cuando necesitas recuperarla o interpretarla repetidamente bajo presión de tiempo, no solo porque apareció una vez en un capítulo.
 
-Aquí también es donde los borradores generados por IA se inflan muy rápido. Si una tarjeta de fórmula llega con una mini clase añadida, recórtala o divídela. [How to Make Better Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/) es la lectura correcta a continuación si tus borradores siguen convirtiéndose en pequeños ensayos.
+Aquí también es donde los borradores generados por IA se inflan muy rápido. Si una tarjeta de fórmula llega con una mini clase añadida, recórtala o divídela. [How to Make Better Flashcards in 2026](https://nibomo.com/blog/how-to-make-better-flashcards/) es la lectura correcta a continuación si tus borradores siguen convirtiéndose en pequeños ensayos.
 
 ## Business Environment ya no es ese pequeño tema secundario
 
@@ -162,7 +162,7 @@ Por ejemplo:
 - Anverso: ¿Qué deberías conservar de una pregunta de fórmulas fallada?
 - Reverso: El error de planteamiento o de interpretación que causó el fallo, no solo la aritmética final.
 
-Si tus simulacros y cuestionarios ya te están dando la mejor materia prima, [How to Turn Practice Questions Into Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/) profundiza justo en ese flujo.
+Si tus simulacros y cuestionarios ya te están dando la mejor materia prima, [How to Turn Practice Questions Into Flashcards in 2026](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/) profundiza justo en ese flujo.
 
 ## Mantén el mazo del PMP organizado por función, no solo por capítulo
 
@@ -188,7 +188,7 @@ Para el PMP, yo normalmente mantendría un mazo principal del examen y etiquetar
 
 Y luego etiquetaría por fuente solo cuando ayude más adelante, como `mock-1` o `chapter-8`.
 
-Eso mantiene la cola de repaso más limpia sin convertir el mazo en un proyecto de gestión de carpetas. Si la organización es la parte que siempre se te escapa, [How to Organize Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-organize-flashcards/) es la siguiente lectura práctica.
+Eso mantiene la cola de repaso más limpia sin convertir el mazo en un proyecto de gestión de carpetas. Si la organización es la parte que siempre se te escapa, [How to Organize Flashcards in 2026](https://nibomo.com/blog/how-to-organize-flashcards/) es la siguiente lectura práctica.
 
 ## Un flujo semanal de flashcards para el PMP que sobrevive a la vida real de estudio
 
@@ -223,11 +223,11 @@ El orden importa:
 4. mantén realista el volumen de tarjetas nuevas
 5. deja que FSRS se encargue de la programación cuando el mazo ya merezca esa programación
 
-Si quieres más detalle sobre la parte de programación, [How to Study for an Exam With FSRS in 2026](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/) es el complemento directo.
+Si quieres más detalle sobre la parte de programación, [How to Study for an Exam With FSRS in 2026](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/) es el complemento directo.
 
 ## Dónde encaja Flashcards en este flujo de trabajo del PMP
 
-Si quieres llevar esto dentro de [Nibomo](https://flashcards-open-source-app.com/), la parte útil no es una promesa vaga de que la IA de algún modo va a estudiar por ti.
+Si quieres llevar esto dentro de [Nibomo](https://nibomo.com/), la parte útil no es una promesa vaga de que la IA de algún modo va a estudiar por ti.
 
 La parte útil es que el producto ya cubre la parte central de este flujo:
 
@@ -240,7 +240,7 @@ La parte útil es que el producto ya cubre la parte central de este flujo:
 
 Eso significa que puedes tomar una explicación caótica de una tanda de práctica del PMP, redactar tarjetas candidatas con IA, cortar las flojas, organizar las que sobreviven y seguir repasándolas en el mismo sistema.
 
-Si el paso de borrador con IA produce tarjetas pulidas pero malas, límpialas sin piedad. [How to Fix AI Flashcards in 2026](https://flashcards-open-source-app.com/blog/how-to-fix-ai-flashcards/) es la lectura correcta a continuación cuando el problema no es la cantidad sino la calidad de las tarjetas.
+Si el paso de borrador con IA produce tarjetas pulidas pero malas, límpialas sin piedad. [How to Fix AI Flashcards in 2026](https://nibomo.com/blog/how-to-fix-ai-flashcards/) es la lectura correcta a continuación cuando el problema no es la cantidad sino la calidad de las tarjetas.
 
 ## La regla útil para las flashcards del PMP en 2026
 

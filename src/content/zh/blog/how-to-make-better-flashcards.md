@@ -169,8 +169,8 @@ AI 很擅长消除文书劳动。
 
 如果你上游就已经在用 AI，这两篇指南也很适合一起看：
 
-- [2026 年如何用 ChatGPT 制作抽认卡](https://flashcards-open-source-app.com/blog/how-to-use-chatgpt-to-make-flashcards/)
-- [2026 年如何把笔记变成抽认卡](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
+- [2026 年如何用 ChatGPT 制作抽认卡](https://nibomo.com/blog/how-to-use-chatgpt-to-make-flashcards/)
+- [2026 年如何把笔记变成抽认卡](https://nibomo.com/blog/turn-notes-into-flashcards/)
 
 ## 卡片应该考查回忆，而不是制造“我好像认得”的错觉
 
@@ -211,8 +211,8 @@ AI 很擅长消除文书劳动。
 
 如果你想看更详细的排程部分，可以从这里开始：
 
-- [2026 年 FSRS vs SM-2](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
-- [2026 年每天该加多少新抽认卡？](https://flashcards-open-source-app.com/blog/how-many-new-flashcards-per-day/)
+- [2026 年 FSRS vs SM-2](https://nibomo.com/blog/fsrs-vs-sm-2/)
+- [2026 年每天该加多少新抽认卡？](https://nibomo.com/blog/how-many-new-flashcards-per-day/)
 
 ## 最快的编辑方式就是删除
 
@@ -236,7 +236,7 @@ AI 很擅长消除文书劳动。
 
 ## 为什么 Flashcards 很适合这种工作流
 
-[Nibomo](https://flashcards-open-source-app.com/) 很适合 **如何制作高效抽认卡** 这种需求，因为这个产品围绕的是起草之后真正重要的那部分：
+[Nibomo](https://nibomo.com/) 很适合 **如何制作高效抽认卡** 这种需求，因为这个产品围绕的是起草之后真正重要的那部分：
 
 - 真正的正反面卡片
 - 卡组和标签

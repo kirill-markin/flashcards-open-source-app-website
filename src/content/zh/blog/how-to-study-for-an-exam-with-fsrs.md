@@ -98,7 +98,7 @@ keywords:
 
 如果你想更深入了解算法本身，这篇配套文章更合适：
 
-- [2026 年 FSRS vs SM-2](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [2026 年 FSRS vs SM-2](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
 ## 按你最差的普通日来设定每日负载
 
@@ -119,7 +119,7 @@ keywords:
 
 如果你想更准确地估算这个负载，这篇文章和备考工作流很配：
 
-- [2026 年每天该加多少新 Flashcards？](https://flashcards-open-source-app.com/blog/how-many-new-flashcards-per-day/)
+- [2026 年每天该加多少新 Flashcards？](https://nibomo.com/blog/how-many-new-flashcards-per-day/)
 
 ## “处理资料的工作流”和“训练记忆的工作流”应该分开
 
@@ -145,7 +145,7 @@ keywords:
 
 ## 为什么 Flashcards 更适合这个工作流
 
-[Nibomo](https://flashcards-open-source-app.com/) 很适合这个问题，因为它可以同时承接两半工作，而且不会假装它们其实是同一件事。
+[Nibomo](https://nibomo.com/) 很适合这个问题，因为它可以同时承接两半工作，而且不会假装它们其实是同一件事。
 
 当前栈已经提供：
 
@@ -210,22 +210,22 @@ AI 让过量生产变得非常容易。
 
 这才是那种真正可持续的 **考试用间隔重复**。
 
-如果你想要一个支持这种工作流的产品，[Nibomo](https://flashcards-open-source-app.com/) 很适合。它把 AI 辅助起草、正反面卡片和 FSRS 复习放在同一个开源栈里，而不是把工作流分散到五个学习工具和一堆导出文件中间。
+如果你想要一个支持这种工作流的产品，[Nibomo](https://nibomo.com/) 很适合。它把 AI 辅助起草、正反面卡片和 FSRS 复习放在同一个开源栈里，而不是把工作流分散到五个学习工具和一堆导出文件中间。
 
 ## 建立一副你到最后还能做完的考试卡组
 
 如果你想试试这个工作流：
 
-- [打开 Flashcards 网站](https://flashcards-open-source-app.com/)
+- [打开 Flashcards 网站](https://nibomo.com/)
 - [打开应用](https://app.flashcards-open-source-app.com/)
-- [阅读功能页面](https://flashcards-open-source-app.com/features/)
+- [阅读功能页面](https://nibomo.com/features/)
 - [在 GitHub 上查看源码](https://github.com/kirill-markin/flashcards-open-source-app)
 
 如果你的源材料还停在更前一步，这几篇也会有帮助：
 
-- [2026 年如何把 PDF 变成 Flashcards](https://flashcards-open-source-app.com/blog/how-to-turn-a-pdf-into-flashcards/)
-- [2026 年如何用 ChatGPT 制作 Flashcards](https://flashcards-open-source-app.com/blog/how-to-use-chatgpt-to-make-flashcards/)
-- [2026 年如何把 NotebookLM Flashcards 变成真正的间隔重复](https://flashcards-open-source-app.com/blog/notebooklm-flashcards-to-spaced-repetition/)
+- [2026 年如何把 PDF 变成 Flashcards](https://nibomo.com/blog/how-to-turn-a-pdf-into-flashcards/)
+- [2026 年如何用 ChatGPT 制作 Flashcards](https://nibomo.com/blog/how-to-use-chatgpt-to-make-flashcards/)
+- [2026 年如何把 NotebookLM Flashcards 变成真正的间隔重复](https://nibomo.com/blog/notebooklm-flashcards-to-spaced-repetition/)
 
 最好的考试卡组，通常不是最大的那副。
 

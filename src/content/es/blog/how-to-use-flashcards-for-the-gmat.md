@@ -62,7 +62,7 @@ Las tarjetas flojas suelen sonar como etiquetas de tema:
 
 Eso son apuntes. No son buenos prompts de recuerdo.
 
-Si tu problema principal es la calidad de las tarjetas, [Cómo hacer mejores flashcards en 2026](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/) es mejor artículo complementario antes de crear más.
+Si tu problema principal es la calidad de las tarjetas, [Cómo hacer mejores flashcards en 2026](https://nibomo.com/blog/how-to-make-better-flashcards/) es mejor artículo complementario antes de crear más.
 
 ## Las flashcards de Quant del GMAT deberían separar el conocimiento matemático de los errores de proceso
 
@@ -235,7 +235,7 @@ La clave está en reducir cada error al objetivo de memoria que de verdad import
 - una regla de interpretación
 - un fallo de resolución
 
-Si tu flujo de trabajo ya parte de explicaciones y errores, [Cómo convertir preguntas de práctica en flashcards en 2026](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/) desarrolla más esa parte.
+Si tu flujo de trabajo ya parte de explicaciones y errores, [Cómo convertir preguntas de práctica en flashcards en 2026](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/) desarrolla más esa parte.
 
 ## Usa apuntes y resúmenes personales lícitos, no preguntas propietarias copiadas
 
@@ -259,7 +259,7 @@ Yo lo mantendría así de estrecho:
 6. Borra rápido las tarjetas vagas.
 7. Repasa cada día las tarjetas que te toquen, en vez de construir una cola heroica para el fin de semana.
 
-Si tu biblioteca ya se siente desordenada, [Cómo organizar flashcards en 2026](https://flashcards-open-source-app.com/blog/how-to-organize-flashcards/) es mejor siguiente paso que añadir más tarjetas.
+Si tu biblioteca ya se siente desordenada, [Cómo organizar flashcards en 2026](https://nibomo.com/blog/how-to-organize-flashcards/) es mejor siguiente paso que añadir más tarjetas.
 
 ## FSRS ayuda después de que el mazo se vuelve más pequeño y más preciso
 
@@ -275,11 +275,11 @@ Lo que FSRS no hace es rescatar tarjetas hinchadas ni supuestos de estudio desac
 4. deja que los errores de práctica oficial den forma al mazo
 5. repasa las supervivientes con FSRS
 
-Si quieres más detalle sobre la parte de programación, [Cómo estudiar para un examen con FSRS en 2026](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/) lo cubre de forma directa.
+Si quieres más detalle sobre la parte de programación, [Cómo estudiar para un examen con FSRS en 2026](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/) lo cubre de forma directa.
 
 ## Dónde encaja Nibomo
 
-[Nibomo](https://flashcards-open-source-app.com/) encaja bien en este tipo de preparación para el GMAT porque cubre ese punto incómodo entre "fallé esta pregunta" y "mañana estoy repasando el objetivo de memoria correcto".
+[Nibomo](https://nibomo.com/) encaja bien en este tipo de preparación para el GMAT porque cubre ese punto incómodo entre "fallé esta pregunta" y "mañana estoy repasando el objetivo de memoria correcto".
 
 Partes útiles para este flujo de trabajo:
 

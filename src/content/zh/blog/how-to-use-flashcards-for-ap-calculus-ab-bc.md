@@ -115,7 +115,7 @@ BC 学生还有一个值得知道的评分细节：College Board 说明 [Calculu
 
 如果你想先把高中范围内的求导条件、切线、导数符号表、单调性和极值练成短提示，可以用这套[独立编写的高考数学导数闪卡](/catalog/packages/gaokao-derivatives-flashcards-chinese/)；它不按 AP 课程对纲，也不包含 AP 真题、积分或级数内容。
 
-如果你现在的牌组还是太宽，可以顺着这篇博客继续看 [2026 年如何用闪卡学数学](https://flashcards-open-source-app.com/blog/how-to-use-flashcards-for-math/)。它是这篇文章最接近的通用配套。
+如果你现在的牌组还是太宽，可以顺着这篇博客继续看 [2026 年如何用闪卡学数学](https://nibomo.com/blog/how-to-use-flashcards-for-math/)。它是这篇文章最接近的通用配套。
 
 ## 积分卡应该把 antiderivative 和 accumulation 分开
 
@@ -177,7 +177,7 @@ BC 学生还有一个值得知道的评分细节：College Board 说明 [Calculu
 
 最后这个问题很重要。有些错误是记忆错误，有些是执行错误。抽认卡帮的是前者。限时练习修的是后者。
 
-如果你现在最主要的素材来源就是订正后的题目，可以接着看 [2026 年如何把练习题转成抽认卡](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/)。
+如果你现在最主要的素材来源就是订正后的题目，可以接着看 [2026 年如何把练习题转成抽认卡](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/)。
 
 ## Bluebook 会改变你的练法，哪怕微积分答案还是手写
 
@@ -246,11 +246,11 @@ BC 在 parametric、polar 和 vector-valued questions 上也有足够多的额�
 2. 很快删掉弱卡
 3. 再让 FSRS 处理时间安排
 
-[2026 年如何用 FSRS 备考](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/) 这篇会更详细讲排程这一层。
+[2026 年如何用 FSRS 备考](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/) 这篇会更详细讲排程这一层。
 
 ## Flashcards 在这套 AP Calculus 工作流里适合放在哪
 
-[Nibomo](https://flashcards-open-source-app.com/) 很适合这套 AP Calculus 工作流，前提是你想把整条链路收在一个地方，而不是把这篇文章写成产品宣传。
+[Nibomo](https://nibomo.com/) 很适合这套 AP Calculus 工作流，前提是你想把整条链路收在一个地方，而不是把这篇文章写成产品宣传。
 
 真正有用的点，不是它“面向学生”。真正有用的点是：它能让你把法则卡、FRQ 错因卡和 BC series 卡都放在同一个复习系统里，而不是散落在笔记、截图和旧订正里。
 
@@ -262,7 +262,7 @@ BC 在 parametric、polar 和 vector-valued questions 上也有足够多的额�
 - 当卡片本身真的值得复习时，再交给 FSRS 排程
 - 在 Web、iPhone 和 Android 上做离线优先复习
 
-如果你想先看产品概览，[功能页](https://flashcards-open-source-app.com/features/) 是最干净的入口。如果你之后想开始用应用，或者把工作流接得更技术一点，[入门指南](https://flashcards-open-source-app.com/docs/getting-started/) 和 [API 文档](https://flashcards-open-source-app.com/docs/api/) 会更合适。
+如果你想先看产品概览，[功能页](https://nibomo.com/features/) 是最干净的入口。如果你之后想开始用应用，或者把工作流接得更技术一点，[入门指南](https://nibomo.com/docs/getting-started/) 和 [API 文档](https://nibomo.com/docs/api/) 会更合适。
 
 ## 真正能撑过考试周的那条 AP Calculus 规则
 

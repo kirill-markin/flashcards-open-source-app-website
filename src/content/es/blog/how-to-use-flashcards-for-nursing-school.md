@@ -125,8 +125,8 @@ El mismo principio vale para los datos de atención al paciente. Si una sola tar
 
 Si tu material fuente en esta sección son sobre todo diapositivas, handouts o paquetes de repaso, estos flujos previos son los que más encajan:
 
-- [Cómo convertir un PDF en flashcards en 2026](https://flashcards-open-source-app.com/blog/how-to-turn-a-pdf-into-flashcards/)
-- [Cómo convertir apuntes en flashcards en 2026](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
+- [Cómo convertir un PDF en flashcards en 2026](https://nibomo.com/blog/how-to-turn-a-pdf-into-flashcards/)
+- [Cómo convertir apuntes en flashcards en 2026](https://nibomo.com/blog/turn-notes-into-flashcards/)
 
 ## Las tarjetas de priorización y delegación deberían entrenar el disparador, no el racional entero
 
@@ -195,7 +195,7 @@ La clave no es hacer tarjetas de cada pregunta. Quédate con los fallos recurren
 
 Si ésa es justo la parte del flujo que más necesitas, éste es el artículo complementario directo:
 
-- [Cómo convertir preguntas de práctica en flashcards en 2026](https://flashcards-open-source-app.com/blog/how-to-turn-practice-questions-into-flashcards/)
+- [Cómo convertir preguntas de práctica en flashcards en 2026](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/)
 
 ## Un flujo semanal de flashcards para enfermería debería sobrevivir a las prácticas clínicas
 
@@ -215,7 +215,7 @@ Yo mantendría el flujo semanal así de simple:
 
 Si el problema más grande es la estructura y no la redacción de tarjetas, lee esto después:
 
-- [Cómo organizar Flashcards en 2026](https://flashcards-open-source-app.com/blog/how-to-organize-flashcards/)
+- [Cómo organizar Flashcards en 2026](https://nibomo.com/blog/how-to-organize-flashcards/)
 
 ## FSRS importa todavía más cuando tu horario de estudio es irregular
 
@@ -235,16 +235,16 @@ Así que yo mantendría el orden así de simple:
 
 Si tu cola ya se está haciendo demasiado grande, estos dos artículos encajan directamente con el flujo de enfermería:
 
-- [¿Cuántas flashcards nuevas al día en 2026?](https://flashcards-open-source-app.com/blog/how-many-new-flashcards-per-day/)
-- [Cómo estudiar para un examen con FSRS en 2026](https://flashcards-open-source-app.com/blog/how-to-study-for-an-exam-with-fsrs/)
+- [¿Cuántas flashcards nuevas al día en 2026?](https://nibomo.com/blog/how-many-new-flashcards-per-day/)
+- [Cómo estudiar para un examen con FSRS en 2026](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)
 
 Y si quieres que te expliquen el propio modelo de planificación:
 
-- [FSRS vs SM-2 en 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [FSRS vs SM-2 en 2026](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
 ## Dónde encaja Flashcards en este flujo de enfermería
 
-[Nibomo](https://flashcards-open-source-app.com/) encaja bien para **flashcards para enfermería** porque el producto ya soporta las piezas de las que depende este flujo:
+[Nibomo](https://nibomo.com/) encaja bien para **flashcards para enfermería** porque el producto ya soporta las piezas de las que depende este flujo:
 
 - tarjetas anverso/reverso para prompts de recuerdo estrechos
 - chat con IA con datos del workspace y adjuntos de archivos para redactar a partir de apuntes, texto de clase o racionales de preguntas
@@ -260,7 +260,7 @@ Si quieres un mazo para enfermería que siga sintiéndose útil cuando se acumul
 
 Si la calidad de las tarjetas sigue siendo el problema principal, este artículo combina bien con el flujo de enfermería:
 
-- [Cómo crear mejores flashcards en 2026](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [Cómo crear mejores flashcards en 2026](https://nibomo.com/blog/how-to-make-better-flashcards/)
 
 ## Construye el mazo de enfermería que siga sintiéndose útil en época de exámenes finales
 

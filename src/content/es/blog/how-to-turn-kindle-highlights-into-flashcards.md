@@ -157,7 +157,7 @@ Eso se parece mucho más a un flujo de trabajo útil de **kindle a anki** que a 
 
 Si quieres las reglas más generales para redactar mejores tarjetas, empieza aquí:
 
-- [Cómo crear mejores tarjetas didácticas en 2026](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [Cómo crear mejores tarjetas didácticas en 2026](https://nibomo.com/blog/how-to-make-better-flashcards/)
 
 ## Los libros de no ficción, los libros de texto y los libros para aprender idiomas no deberían usar el mismo tipo de tarjeta
 
@@ -193,7 +193,7 @@ Por eso **recordar lo que lees** no es un único flujo de trabajo. El material d
 
 Si tu objetivo es practicar un idioma en lugar de mejorar la retención de lectura en general, este artículo complementario encaja mejor:
 
-- [Cómo usar tarjetas didácticas para aprender idiomas en 2026](https://flashcards-open-source-app.com/blog/how-to-use-flashcards-for-language-learning/)
+- [Cómo usar tarjetas didácticas para aprender idiomas en 2026](https://nibomo.com/blog/how-to-use-flashcards-for-language-learning/)
 
 ## Los subrayados de Kindle son especialmente peligrosos porque parecen más organizados de lo que están
 
@@ -230,11 +230,11 @@ FSRS gestiona mejor esa realidad que unas reglas de repaso fijas.
 
 Si quieres profundizar más en la parte de la programación de repasos, este artículo entra en más detalle:
 
-- [FSRS vs SM-2 en 2026](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [FSRS vs SM-2 en 2026](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
 ## Dónde encaja Nibomo
 
-[Nibomo](https://flashcards-open-source-app.com/) encaja muy bien para **subrayados de Kindle a tarjetas didácticas** porque el producto ya cubre las partes prácticas del flujo de trabajo:
+[Nibomo](https://nibomo.com/) encaja muy bien para **subrayados de Kindle a tarjetas didácticas** porque el producto ya cubre las partes prácticas del flujo de trabajo:
 
 - pegar o subir texto a partir de subrayados exportados
 - limpiar el material en el chat con IA antes de crear tarjetas
@@ -246,7 +246,7 @@ Esa combinación importa porque lo difícil no es sacar texto de Kindle. Lo dif�
 
 Si tu fuente son notas más amplias en lugar de subrayados de ebooks, este es el mejor artículo complementario:
 
-- [Cómo convertir notas en tarjetas didácticas en 2026](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
+- [Cómo convertir notas en tarjetas didácticas en 2026](https://nibomo.com/blog/turn-notes-into-flashcards/)
 
 ## La regla útil
 

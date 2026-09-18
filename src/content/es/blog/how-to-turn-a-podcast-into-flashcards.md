@@ -155,7 +155,7 @@ Eso se parece mucho más a un flujo de trabajo útil de **podcast a Anki** que i
 
 Si quieres reglas más amplias para redactar buenas tarjetas, empieza aquí:
 
-- [Cómo hacer mejores tarjetas didácticas en 2026](https://flashcards-open-source-app.com/blog/how-to-make-better-flashcards/)
+- [Cómo hacer mejores tarjetas didácticas en 2026](https://nibomo.com/blog/how-to-make-better-flashcards/)
 
 ## Distintos podcasts necesitan distintos estilos de tarjetas
 
@@ -193,7 +193,7 @@ Por eso **notas de podcast a tarjetas didácticas** no es una fórmula fija. La 
 
 Si la fuente se parece más a la práctica de idiomas que al aprendizaje general, este artículo complementario encaja mejor:
 
-- [Cómo utilizar tarjetas didácticas para el aprendizaje de idiomas en 2026](https://flashcards-open-source-app.com/blog/how-to-use-flashcards-for-language-learning/)
+- [Cómo utilizar tarjetas didácticas para el aprendizaje de idiomas en 2026](https://nibomo.com/blog/how-to-use-flashcards-for-language-learning/)
 
 ## El verdadero ahorro de tiempo no está en la generación, sino en dejar de repetir
 
@@ -224,11 +224,11 @@ FSRS gestiona ese olvido desigual mucho mejor que un ritmo fijo de repaso.
 
 Si quieres profundizar más en la parte de la programación, este artículo entra en más detalle:
 
-- [FSRS vs SM-2 en 2026: ¿Qué algoritmo de repetición espaciada le ayuda a recordar más?](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [FSRS vs SM-2 en 2026: ¿Qué algoritmo de repetición espaciada le ayuda a recordar más?](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
 ## Dónde encaja Nibomo
 
-[Nibomo](https://flashcards-open-source-app.com/) encaja muy bien en **podcast a tarjetas didácticas** porque el producto ya cubre los pasos prácticos que hacen utilizable este flujo de trabajo:
+[Nibomo](https://nibomo.com/) encaja muy bien en **podcast a tarjetas didácticas** porque el producto ya cubre los pasos prácticos que hacen utilizable este flujo de trabajo:
 
 - pegar o subir texto sin formato procedente de transcripciones de podcasts
 - limpiar el material dentro del chat de IA antes de crear tarjetas
@@ -240,8 +240,8 @@ Esa combinación importa porque lo difícil no es encontrar audio. Lo difícil e
 
 Si la fuente se parece más a clases grabadas o a YouTube que a podcasts, estos artículos complementarios también encajan:
 
-- [Cómo convertir grabaciones de conferencias en tarjetas didácticas en 2026](https://flashcards-open-source-app.com/blog/how-to-turn-lecture-recordings-into-flashcards/)
-- [Cómo convertir un vídeo de YouTube en tarjetas didácticas en 2026](https://flashcards-open-source-app.com/blog/youtube-to-flashcards/)
+- [Cómo convertir grabaciones de conferencias en tarjetas didácticas en 2026](https://nibomo.com/blog/how-to-turn-lecture-recordings-into-flashcards/)
+- [Cómo convertir un vídeo de YouTube en tarjetas didácticas en 2026](https://nibomo.com/blog/youtube-to-flashcards/)
 
 ## La regla útil
 

@@ -123,7 +123,7 @@ Es por eso que no confío plenamente en las exportaciones sin procesar de ningú
 
 ## Dónde se adapta mejor Flashcards a este flujo de trabajo
 
-[Nibomo](https://flashcards-open-source-app.com/) encaja perfectamente en esta brecha exacta porque el producto no es solo un generador ni solo una herramienta de revisión. Le permite realizar el paso de limpieza en el mismo lugar donde se realizará la revisión.
+[Nibomo](https://nibomo.com/) encaja perfectamente en esta brecha exacta porque el producto no es solo un generador ni solo una herramienta de revisión. Le permite realizar el paso de limpieza en el mismo lugar donde se realizará la revisión.
 
 Eso importa más de lo que la gente admite.
 
@@ -157,7 +157,7 @@ Es por eso que las **tarjetas didácticas FSRS** son tan importantes en esta con
 
 Si desea conocer la parte de programación con más detalle, este artículo complementario es más profundo:
 
-- [FSRS vs SM-2 en 2026: ¿Qué algoritmo de repetición espaciada le ayuda a recordar más?](https://flashcards-open-source-app.com/blog/fsrs-vs-sm-2/)
+- [FSRS vs SM-2 en 2026: ¿Qué algoritmo de repetición espaciada le ayuda a recordar más?](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
 ## Esto funciona especialmente bien cuando la fuente comenzó confusa
 
@@ -175,9 +175,9 @@ Eso significa que las tarjetas generadas ya están a una transformación de la f
 
 Si su fuente todavía está atascada un paso antes, estos artículos complementarios le ayudarán:
 
-- [Cómo convertir notas en tarjetas didácticas en 2026](https://flashcards-open-source-app.com/blog/turn-notes-into-flashcards/)
-- [Cómo convertir un PDF en tarjetas didácticas en 2026](https://flashcards-open-source-app.com/blog/how-to-turn-a-pdf-into-flashcards/)
-- [Cómo convertir notas de Notion en tarjetas didácticas en 2026](https://flashcards-open-source-app.com/blog/how-to-turn-notion-notes-into-flashcards/)
+- [Cómo convertir notas en tarjetas didácticas en 2026](https://nibomo.com/blog/turn-notes-into-flashcards/)
+- [Cómo convertir un PDF en tarjetas didácticas en 2026](https://nibomo.com/blog/how-to-turn-a-pdf-into-flashcards/)
+- [Cómo convertir notas de Notion en tarjetas didácticas en 2026](https://nibomo.com/blog/how-to-turn-notion-notes-into-flashcards/)
 
 ## El flujo de trabajo que usaría esta semana
 
@@ -206,4 +206,4 @@ Los trataría como un borrador.
 
 Esa es la versión de **tarjetas didácticas de NotebookLM** en la que más confío: utilice NotebookLM para pasar de fuentes confusas a tarjetas candidatas, luego mueva esas tarjetas a un flujo de trabajo de repetición espaciada real donde pueda editarlas, acortarlas y revisarlas con un programador real.
 
-Si eso es lo que quieres, [Nibomo](https://flashcards-open-source-app.com/) es una buena opción. Le brinda un puente práctico entre el material de estudio generado por IA y un mazo que quizás todavía esté revisando dentro de un mes.
+Si eso es lo que quieres, [Nibomo](https://nibomo.com/) es una buena opción. Le brinda un puente práctico entre el material de estudio generado por IA y un mazo que quizás todavía esté revisando dentro de un mes.
