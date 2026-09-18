@@ -254,7 +254,7 @@ FSRS helps a lot once the cards are small and honest. Easy cards back off. Slipp
 
 If you want the scheduling side in more detail, [How to Study for an Exam With FSRS in 2026](/blog/how-to-study-for-an-exam-with-fsrs/) is the direct follow-up. If your card count is already growing too fast, [How Many New Flashcards Per Day in 2026](/blog/how-many-new-flashcards-per-day/) is the more urgent read.
 
-## Where Flashcards fits
+## Where Nibomo fits
 
 [Nibomo](/) is a good fit for this GED workflow because the product already covers the boring parts that make the system stick:
 

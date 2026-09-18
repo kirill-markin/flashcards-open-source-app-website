@@ -176,7 +176,7 @@ At least some rehearsals need the real conditions:
 
 Toastmasters recommends rehearsing in the physical manner you expect to deliver, including standing and moving if that is how you will speak ([Toastmasters, 2024](https://www.toastmasters.org/Magazine/Magazine%20Issues/2024/Feb/Memorizing%20Speeches)). The deck helps you remember what comes next. Delivery rehearsal teaches your voice and body what to do with it.
 
-## Where Flashcards fits—and where it does not
+## Where Nibomo fits—and where it does not
 
 [Nibomo](/) is useful during the memory-training part of speech preparation:
 

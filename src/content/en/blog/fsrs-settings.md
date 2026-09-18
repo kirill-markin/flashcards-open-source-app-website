@@ -203,9 +203,9 @@ Both products use FSRS-6, but Anki FSRS settings do not map one-for-one onto Nib
 | Settings changes | Future reviews by default; optional retroactive rescheduling | Future reviews only; existing due dates are not rebuilt |
 | Workload tools | **Help Me Decide (Experimental)** and **FSRS Simulator (Experimental)** | No equivalent workload simulator in v1 |
 
-Flashcards uses the standard Again, Hard, Good, and Easy ratings and keeps card-level FSRS memory state. Its backend, iOS, and Android schedulers are independent implementations kept on the same behavior; the web review flow reuses the backend scheduler rather than adding a fourth copy.
+Nibomo uses the standard Again, Hard, Good, and Easy ratings and keeps card-level FSRS memory state. Its backend, iOS, and Android schedulers are independent implementations kept on the same behavior; the web review flow reuses the backend scheduler rather than adding a fourth copy.
 
-These boundaries and defaults are documented in the public [Flashcards FSRS scheduling specification](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/docs/fsrs-scheduling-logic.md). The tradeoff is straightforward: Flashcards provides a practical workspace-level FSRS-6 setup, while Anki provides finer scope, personalized fitting, and simulation. If those controls are essential, Anki is the stronger fit.
+These boundaries and defaults are documented in the public [Nibomo FSRS scheduling specification](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/docs/fsrs-scheduling-logic.md). The tradeoff is straightforward: Nibomo provides a practical workspace-level FSRS-6 setup, while Anki provides finer scope, personalized fitting, and simulation. If those controls are essential, Anki is the stronger fit.
 
 ## A safer workflow for a mature collection
 

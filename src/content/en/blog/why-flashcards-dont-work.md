@@ -229,7 +229,7 @@ That is enough to tell you whether the problem is the method or the deck.
 
 Usually it is the deck.
 
-## Where Flashcards helps
+## Where Nibomo helps
 
 [Nibomo](/features/) is useful here after the diagnosis, not instead of it. Keep the survivors as plain front/back cards, organize them by deck or tag, and let FSRS handle the timing once the cards are actually worth reviewing. If you want AI help, use it for drafting and cleanup, not as permission to dump every candidate card into your live queue.
 

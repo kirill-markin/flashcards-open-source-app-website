@@ -286,7 +286,7 @@ That combination is especially useful in the last two weeks before an exam:
 
 If your exam workflow needs more structure than that, [How to Study for an Exam With FSRS in 2026](/blog/how-to-study-for-an-exam-with-fsrs/) is the right companion piece.
 
-## Where Flashcards fits
+## Where Nibomo fits
 
 [Nibomo](/) fits this workflow because the product covers the part blurting does not:
 

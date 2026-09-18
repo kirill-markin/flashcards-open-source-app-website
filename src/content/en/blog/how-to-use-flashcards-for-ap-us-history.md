@@ -228,7 +228,7 @@ That is the practical version of **AP US History spaced repetition**. Smaller de
 
 If you are moving from a large premade deck or an older **APUSH Anki** setup, [How to Migrate from Anki to an Open Source Flashcards App in 2026](/blog/migrate-from-anki-txt-export-open-source-flashcards/) is the clean handoff guide. For the scheduling side, [How to Study for an Exam With FSRS in 2026](/blog/how-to-study-for-an-exam-with-fsrs/) is the best companion.
 
-## Where Flashcards fits in an APUSH workflow
+## Where Nibomo fits in an APUSH workflow
 
 If you want to run this inside [Nibomo](https://nibomo.com/), the useful part is not some grand promise that the app will somehow do APUSH for you.
 

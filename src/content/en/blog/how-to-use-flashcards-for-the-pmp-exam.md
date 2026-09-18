@@ -225,7 +225,7 @@ The order matters:
 
 If you want the scheduling side in more detail, [How to Study for an Exam With FSRS in 2026](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/) is the direct companion.
 
-## Where Flashcards fits in this PMP workflow
+## Where Nibomo fits in this PMP workflow
 
 If you want to run this inside [Nibomo](https://nibomo.com/), the useful part is not a vague promise that AI will somehow study for you.
 

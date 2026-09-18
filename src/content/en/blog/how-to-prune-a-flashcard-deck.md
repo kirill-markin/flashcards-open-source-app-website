@@ -220,7 +220,7 @@ That workflow is much more useful than pretending the answer to **too many flash
 
 Usually the deck is asking for curation.
 
-## Where Flashcards fits
+## Where Nibomo fits
 
 [Nibomo](/features/) fits this cleanup style because the maintenance steps live close together instead of across three tabs and a spreadsheet:
 

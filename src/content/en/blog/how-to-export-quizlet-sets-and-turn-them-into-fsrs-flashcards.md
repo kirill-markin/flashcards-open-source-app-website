@@ -104,12 +104,12 @@ To make a Quizlet to CSV file safely:
 
 A spreadsheet can add the quoting CSV needs. A global tab-to-comma replacement cannot do that reliably.
 
-## Move the text into Flashcards as reviewed draft material
+## Move the text into Nibomo as reviewed draft material
 
 [Nibomo](/features/) has no direct Quizlet importer. The hosted route for TXT or CSV is AI-assisted drafting from a file attachment, not a lossless migration.
 
 1. Keep the raw Quizlet file outside the app.
-2. Attach the cleaned TXT or deliberately prepared CSV in Flashcards AI chat.
+2. Attach the cleaned TXT or deliberately prepared CSV in Nibomo AI chat.
 3. Tell the assistant which separator and fields the file uses.
 4. Ask for a small preview and explicitly say not to save cards yet.
 5. Compare the proposed card count, fronts, and backs with the working file.
@@ -121,7 +121,7 @@ The [Getting Started guide](/docs/getting-started/) documents AI chat with works
 
 This can be useful when the old cards also need cleanup. It does not prove that every row transferred correctly. Use the checklist in [How to Fix AI Flashcards](/blog/how-to-fix-ai-flashcards/), then test a small deck before creating the rest.
 
-Cards created in Flashcards start with new learning history. The Quizlet text does not contain the review events or scheduling state needed to continue the old queue.
+Cards created in Nibomo start with new learning history. The Quizlet text does not contain the review events or scheduling state needed to continue the old queue.
 
 > **Disclosure:** I build Nibomo. This workflow states the product's current limits; it is not a claim of complete Quizlet compatibility.
 

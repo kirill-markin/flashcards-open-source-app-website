@@ -244,7 +244,7 @@ If the card quality itself is the weak point, this is the next article I would o
 
 - [How to Make Better Flashcards in 2026](https://nibomo.com/blog/how-to-make-better-flashcards/)
 
-## Where Flashcards fits this workflow better
+## Where Nibomo fits this workflow better
 
 [Nibomo](https://nibomo.com/) is a strong fit for this kind of certification prep because the product already supports the parts this workflow depends on:
 

@@ -195,7 +195,7 @@ I think that is why **ai flashcards spaced repetition** is such an important fra
 
 If you care about the scheduler side specifically, [FSRS vs SM-2 in 2026](/blog/fsrs-vs-sm-2/) explains why I would rather put the final cards into FSRS than leave them inside a chat transcript or a static export.
 
-## Where Flashcards fits
+## Where Nibomo fits
 
 [Nibomo](/) is not the AI tutor for everything.
 
@@ -213,7 +213,7 @@ That is a good fit because the product already covers the practical next step:
 So the workflow stays honest:
 
 1. use your AI tutor or study assistant to understand the material
-2. bring the useful weak spots into Flashcards
+2. bring the useful weak spots into Nibomo
 3. clean them into simple cards
 4. review them with FSRS until they actually stick
 

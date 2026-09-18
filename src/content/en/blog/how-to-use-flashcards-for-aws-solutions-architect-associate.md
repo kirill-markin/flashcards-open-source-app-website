@@ -233,7 +233,7 @@ Those are useful. They are not the main memory challenge.
 
 I would keep exam logistics in a lighter tagged subset like `exam-facts` or `needs-recheck`, then spend most review time on service choices, trade-offs, and repeated misses. That keeps the deck centered on architecture thinking instead of trivia.
 
-## Where Flashcards fits this workflow well
+## Where Nibomo fits this workflow well
 
 [Nibomo](https://nibomo.com/) is a good fit for this kind of exam prep because the product supports both halves of the job without pretending they are the same thing.
 

@@ -98,7 +98,7 @@ That is a much better fit for **study notes to flashcards**. If your notes are t
 
 That feels less like automation theater and more like actual help.
 
-## Flashcards already has the right shape for this workflow
+## Nibomo already has the right shape for this workflow
 
 [Nibomo](https://nibomo.com/) is interesting here because the product already combines the pieces that matter:
 
@@ -114,7 +114,7 @@ That combination matters. A lot of **ai flashcard generator** tools are basicall
 - can you review them in a serious system?
 - can the generated cards live next to the rest of your real study material?
 
-That is where Flashcards feels more grounded than a one-off generator.
+That is where Nibomo feels more grounded than a one-off generator.
 
 ## FSRS matters more than the generation trick
 
@@ -171,7 +171,7 @@ Reduce that labor and the habit becomes much easier to keep.
 
 Some people searching for **flashcards from notes** are not starting from zero. They already use spaced repetition. They already know the basic idea works. They are just tired of the glue code between notes, exports, card creation, and actual review.
 
-That is where Flashcards feels pointed in the right direction. It is an **open source flashcards app** where AI workflows live inside the actual study product instead of floating around as a disconnected demo.
+That is where Nibomo feels pointed in the right direction. It is an **open source flashcards app** where AI workflows live inside the actual study product instead of floating around as a disconnected demo.
 
 If your problem is more about moving existing collections, start here:
 

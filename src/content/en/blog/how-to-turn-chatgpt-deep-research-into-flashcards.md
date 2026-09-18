@@ -196,7 +196,7 @@ That is the kind of rewrite I want from **deep research to flashcards**. Split t
 
 For the general card-quality side, [How to Make Better Flashcards in 2026](/blog/how-to-make-better-flashcards/) and [How to Review Flashcards Faster in 2026](/blog/how-to-review-flashcards-faster/) fit right next to this workflow.
 
-## Where Flashcards actually fits
+## Where Nibomo actually fits
 
 [Nibomo](/features/) fits after the research pass, not before it.
 
@@ -204,7 +204,7 @@ The product does not claim a direct one-click integration with ChatGPT Deep Rese
 
 1. finish the report in ChatGPT
 2. copy the useful section or export the report
-3. paste the relevant text into Flashcards AI chat or attach the exported file
+3. paste the relevant text into Nibomo AI chat or attach the exported file
 4. use AI chat to tighten the wording into clean front/back cards
 5. edit the final cards, organize them by deck or tag, and review them with FSRS
 

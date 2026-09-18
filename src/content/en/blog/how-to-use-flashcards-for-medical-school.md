@@ -240,7 +240,7 @@ That is also why **flashcards for med school** should stay close to the places w
 
 That is where the deck earns its space.
 
-## Where Flashcards fits this workflow better
+## Where Nibomo fits this workflow better
 
 [Nibomo](https://nibomo.com/) is a strong fit for **medical school flashcards** because the product already supports the pieces this kind of workflow depends on:
 

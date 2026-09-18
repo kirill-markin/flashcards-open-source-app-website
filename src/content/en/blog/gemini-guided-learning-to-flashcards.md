@@ -199,7 +199,7 @@ FSRS is the part that turns "I noticed this gap" into "I am less likely to miss 
 
 If you want the scheduler comparison itself, [FSRS vs SM-2 in 2026](/blog/fsrs-vs-sm-2/) is the better place for that argument. This article is narrower. Gemini already found the weak spots. Now they need a real review home.
 
-## Where Flashcards fits
+## Where Nibomo fits
 
 [Nibomo](/) is not trying to replace Gemini Guided Learning.
 

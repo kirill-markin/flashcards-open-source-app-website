@@ -137,7 +137,7 @@ Work backward from test day. Introduce important cards early enough to produce u
 
 That extra practice is deadline-driven cramming layered on top of the schedule. It may be entirely sensible. Keep it separate from rating manipulation: a failed answer remains Again even when you dislike the short interval, and an easy answer does not become Hard because you want another look tomorrow.
 
-Desired retention can also affect workload, but changing a setting late is not a time machine. Under Flashcards' [forward-only settings contract](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/docs/fsrs-scheduling-logic.md), workspace changes affect future reviews only; changing desired retention does not recalculate existing due dates. The full [FSRS exam-planning guide](/blog/how-to-study-for-an-exam-with-fsrs/) covers the intake, stabilization, and final-review phases without turning this article into a second exam guide.
+Desired retention can also affect workload, but changing a setting late is not a time machine. Under Nibomo's [forward-only settings contract](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/docs/fsrs-scheduling-logic.md), workspace changes affect future reviews only; changing desired retention does not recalculate existing due dates. The full [FSRS exam-planning guide](/blog/how-to-study-for-an-exam-with-fsrs/) covers the intake, stabilization, and final-review phases without turning this article into a second exam guide.
 
 ## Paper flashcards need a manual approximation
 
@@ -159,7 +159,7 @@ Paper has useful qualities: no device, no account, and easy sketching. The trade
 
 The **best flashcard review schedule** is partly a workload choice. Desired retention tells an FSRS scheduler how likely you want a card to be recalled when it comes due. A higher target generally creates shorter intervals and more reviews, as the official [Anki FSRS manual](https://docs.ankiweb.net/deck-options.html#fsrs) explains.
 
-The manual describes `0.90` as Anki's default and warns that workload rises quickly as desired retention approaches `1.0`. That is useful general FSRS context, not a claim that every Anki option exists in Flashcards. For this product's defaults and boundaries, use the [Flashcards scheduler document](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/docs/fsrs-scheduling-logic.md).
+The manual describes `0.90` as Anki's default and warns that workload rises quickly as desired retention approaches `1.0`. That is useful general FSRS context, not a claim that every Anki option exists in Nibomo. For this product's defaults and boundaries, use the [Nibomo scheduler document](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/docs/fsrs-scheduling-logic.md).
 
 A `0.90` target does not mean “review each card every ten days,” and it does not guarantee that exactly 90% of every small session will be correct. It guides interval calculation from the card’s current memory estimate.
 

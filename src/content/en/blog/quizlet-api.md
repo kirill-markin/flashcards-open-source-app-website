@@ -81,7 +81,7 @@ Ongoing automation means your software must do the same work reliably more than 
 
 The safe route is a flashcard system that explicitly publishes how outside software authenticates and which reads and writes it supports. That may mean choosing a Quizlet API alternative for the automated workflow, while keeping Quizlet for the study tasks its public product supports.
 
-## What the Flashcards API alternative actually provides
+## What the Nibomo API alternative actually provides
 
 Nibomo publishes two routes to the same limited, per-user data surface:
 

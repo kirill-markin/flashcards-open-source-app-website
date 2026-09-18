@@ -231,7 +231,7 @@ That matters because:
 - muddy grading makes intervals less trustworthy
 - repeated "almost" ratings can keep a weak card in an annoying middle state
 
-This matters in Flashcards too, because the app uses FSRS review with `Again`, `Hard`, `Good`, and `Easy`. Repeated `Again` presses are not embarrassing. They are data. The card is asking for edits.
+This matters in Nibomo too, because the app uses FSRS review with `Again`, `Hard`, `Good`, and `Easy`. Repeated `Again` presses are not embarrassing. They are data. The card is asking for edits.
 
 ## A simple weekly leech-cleanup loop
 
@@ -246,9 +246,9 @@ Once or twice a week:
 
 That is enough for most decks. You do not need a grand taxonomy, a leech dashboard, or a weekend lost to deck management. You need a habit of refusing to keep bad cards in circulation.
 
-## How to handle repeated-failure cards in Flashcards
+## How to handle repeated-failure cards in Nibomo
 
-If you are using Flashcards specifically, the workflow is pretty direct:
+If you are using Nibomo specifically, the workflow is pretty direct:
 
 1. Review normally with honest FSRS ratings.
 2. When the same card keeps failing, edit the front/back card instead of hoping one more pass will fix it.

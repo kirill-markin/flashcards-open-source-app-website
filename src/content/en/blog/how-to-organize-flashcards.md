@@ -260,7 +260,7 @@ If no, do not add another structural layer.
 
 Delete one.
 
-## Where Flashcards fits
+## Where Nibomo fits
 
 [Nibomo](https://nibomo.com/) is a strong fit for **how to organize flashcards** because the product already has the parts this workflow needs:
 

@@ -288,7 +288,7 @@ So the order matters:
 
 If you keep feeding vague cards into the scheduler, you still end up reviewing vague cards.
 
-## Why Flashcards fits this Step 2 CK workflow
+## Why Nibomo fits this Step 2 CK workflow
 
 If you want to run this inside [Nibomo](https://nibomo.com/), the useful part is not that it replaces the clinical thinking. It gives you a faster path from messy Step 2 source material to smaller, reviewable cards.
 

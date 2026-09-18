@@ -181,7 +181,7 @@ The catch is that the scheduler still needs clean cards. If a prompt is vague, y
 
 Smaller cards make FSRS much more useful. If you want to tune the scheduling side after the card-writing side is under control, [FSRS Settings in 2026: What to Change and What to Leave Alone](https://nibomo.com/blog/fsrs-settings/) is the right next read.
 
-## Where Flashcards fits in this workflow
+## Where Nibomo fits in this workflow
 
 [Nibomo](https://nibomo.com/) is a good fit for this kind of math study because the product supports the parts that matter after you identify the memory target:
 

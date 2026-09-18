@@ -231,7 +231,7 @@ That keeps AI in the drafting role instead of letting it quietly bloat the deck.
 
 If that is the part you want to tighten, [How to Make Better Flashcards in 2026](/blog/how-to-make-better-flashcards/) and [How to Use AI for Active Recall in 2026](/blog/how-to-use-ai-for-active-recall/) pair well with the COMLEX workflow.
 
-## Where Flashcards fits
+## Where Nibomo fits
 
 [Nibomo](/) fits best once you know what deserves retention.
 

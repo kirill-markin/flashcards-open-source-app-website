@@ -279,7 +279,7 @@ If every card still requires reconstructing the whole packet, you did not conver
 
 You just turned one format of homework into another.
 
-## Where Flashcards fits
+## Where Nibomo fits
 
 [Nibomo](https://nibomo.com/) is a good fit for **study guide to flashcards** because the product already has the pieces this workflow needs:
 

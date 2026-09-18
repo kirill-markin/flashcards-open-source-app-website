@@ -45,7 +45,7 @@ So “Anki FSRS” is not a contradiction. It means Anki is the product and FSRS
 | [FSRS](https://github.com/open-spaced-repetition/fsrs4anki) | Open scheduler and project | Implemented by a host product or library | Developers and users who want inspectable scheduling logic | It provides no cards, editor, sync, or study interface by itself |
 | [Nibomo](/features/) | Younger open-source flashcard product built around FSRS | FSRS-6 with pinned official default weights and configurable workspace scheduling settings | Web, iOS, Android, self-hosting, API, and AI-agent workflows | Smaller ecosystem than Anki and no personalized FSRS weights yet |
 
-The rows are deliberately not symmetrical. Anki and Flashcards give you full flashcard workflows. SuperMemo 20 combines scheduling with a much broader reading and knowledge workflow. SuperMemo.com sells a hosted language-learning experience. FSRS supplies scheduling logic to other software.
+The rows are deliberately not symmetrical. Anki and Nibomo give you full flashcard workflows. SuperMemo 20 combines scheduling with a much broader reading and knowledge workflow. SuperMemo.com sells a hosted language-learning experience. FSRS supplies scheduling logic to other software.
 
 ## What Anki actually gives you
 
@@ -112,9 +112,9 @@ Review ratings are signals fed into a scheduling system. Their names and scales 
 
 The most consequential FSRS distinction is Again versus Hard. The [Anki manual](https://docs.ankiweb.net/deck-options.html#fsrs) says FSRS treats Hard as successful recall and Again as failure. Choosing Hard because the next interval looks nicer records an event that did not happen. The practical [Again vs Hard guide](/blog/again-vs-hard-fsrs-flashcards/) handles partial answers and edge cases in detail.
 
-## How Flashcards implements FSRS today
+## How Nibomo implements FSRS today
 
-Flashcards uses FSRS as a product component, not as a vague “smart repetition” label. The implementation was verified against the source repository at commit `9cb013f78767c081f5385a53daa5e4b9fe69d3b6` on August 3, 2026.
+Nibomo uses FSRS as a product component, not as a vague “smart repetition” label. The implementation was verified against the source repository at commit `9cb013f78767c081f5385a53daa5e4b9fe69d3b6` on August 3, 2026.
 
 The backend scheduler mirrors the official `ts-fsrs` 5.2.3 flow and pins the official FSRS-6 default weights. Backend, iOS, and Android contain three independent scheduler implementations, while the web app reuses the backend module instead of maintaining a fourth copy. Shared golden test vectors enforce the same scheduling behavior across those implementations.
 
@@ -129,9 +129,9 @@ Workspace defaults are:
 - a maximum interval of `36,500` days
 - fuzz enabled
 
-Workspaces can change desired retention, steps, maximum interval, and fuzz for future reviews. Flashcards does **not** currently personalize or expose FSRS weights per user; the v1 weights are pinned defaults. That is an important difference from products that offer parameter fitting from an individual's history. The [FSRS settings guide](/blog/fsrs-settings/) explains the workload implications without pretending every knob needs adjustment.
+Workspaces can change desired retention, steps, maximum interval, and fuzz for future reviews. Nibomo does **not** currently personalize or expose FSRS weights per user; the v1 weights are pinned defaults. That is an important difference from products that offer parameter fitting from an individual's history. The [FSRS settings guide](/blog/fsrs-settings/) explains the workload implications without pretending every knob needs adjustment.
 
-On the web review screen, Flashcards previews the computed next interval for Again, Hard, Good, and Easy. The user/API ratings `0`, `1`, `2`, and `3` map internally to FSRS grades `1` through `4`. Again records failed recall; Hard, Good, and Easy record successful recall with decreasing effort. All clients include a frequent-Hard reminder: an answer you did not recall belongs under Again.
+On the web review screen, Nibomo previews the computed next interval for Again, Hard, Good, and Easy. The user/API ratings `0`, `1`, `2`, and `3` map internally to FSRS grades `1` through `4`. Again records failed recall; Hard, Good, and Easy record successful recall with decreasing effort. All clients include a frequent-Hard reminder: an answer you did not recall belongs under Again.
 
 This makes the scheduler inspectable and consistent across platforms. It does not make card quality, honest grading, or actually completing reviews optional.
 
@@ -179,6 +179,6 @@ The practical answer to **Anki vs SuperMemo vs FSRS** starts by dropping the fal
 
 Use **Anki with FSRS** when you want Anki's mature ecosystem and a current FSRS scheduler. Evaluate **SuperMemo 20 for Windows** when incremental reading and a deep Windows knowledge workflow are central; FSRS is already one participant in its Algorithm Arena. Evaluate **SuperMemo.com** separately when hosted language courses are the real goal. Evaluate **FSRS implementations** when you are building or auditing the scheduling layer itself.
 
-Flashcards fits the newer open-source web, mobile, self-hosting, and agent use case, with a pinned and parity-tested FSRS-6 implementation and a younger product ecosystem.
+Nibomo fits the newer open-source web, mobile, self-hosting, and agent use case, with a pinned and parity-tested FSRS-6 implementation and a younger product ecosystem.
 
 Choose the workflow you can maintain, then configure the spaced repetition algorithm inside it. The product gets you to the review. The scheduler chooses a model-based date. Your cards, ratings, and consistency still provide the learning signal.

@@ -210,7 +210,7 @@ Bad uses:
 
 If you want the AI side in more detail, [How to Use AI for Active Recall in 2026](/blog/how-to-use-ai-for-active-recall/) is the right companion article.
 
-## Where Flashcards fits
+## Where Nibomo fits
 
 The Feynman technique produces rough material. You often end up with some mix of:
 

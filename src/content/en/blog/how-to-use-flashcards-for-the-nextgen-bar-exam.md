@@ -241,7 +241,7 @@ If you want the scheduling side in more detail, this is the direct companion art
 
 - [How to Study for an Exam With FSRS in 2026](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)
 
-## Where Flashcards fits this NextGen workflow
+## Where Nibomo fits this NextGen workflow
 
 If you want to run this inside [Nibomo](https://nibomo.com/), the useful part is not a vague promise that AI makes studying easier. The useful part is that the product already supports the actual middle of this workflow:
 

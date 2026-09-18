@@ -31,7 +31,7 @@ The best **RemNote alternative** is the route that fixes your reason for leaving
 - **A card workflow that feels too tied to notes:** Try Anki. It gives cards, templates, imports, and FSRS more room to be the main system.
 - **Plain local note files:** Split the job between Obsidian for Markdown notes and Anki for review. This is less integrated, but the ownership boundary is much clearer.
 - **Open-source connected notes with PDFs and built-in cards:** Logseq is the closest route here, with a serious 2026 qualification: its new database version is beta, its new iOS app and real-time sync are alpha, and its new Android app is not yet open for testing.
-- **Source and self-hosting for a focused card stack:** Consider Flashcards if front/back cards are enough and you accept a fresh schedule plus a substantial AWS operator job.
+- **Source and self-hosting for a focused card stack:** Consider Nibomo if front/back cards are enough and you accept a fresh schedule plus a substantial AWS operator job.
 - **PDF reading, linked highlights, and cards in one place:** Stay with RemNote. None of the other routes reproduces that workflow cleanly.
 
 That last answer is easy to overlook. Switching is not progress when the alternative fixes a licensing preference but breaks tomorrow's study session.
@@ -48,7 +48,7 @@ That last answer is easy to overlook. Switching is not progress when the alterna
 
 This is not a feature score. A PDF-heavy student can lose more by moving to the “most open” option than they gain from its license. Someone with a simple vocabulary deck may be paying for a note system they no longer use. Start with the row that describes your constraint, then test its migration boundary.
 
-Free and open source are separate filters. RemNote Free and Obsidian cost nothing for the core app but are proprietary. Anki's desktop core, Logseq, and Flashcards publish source; AnkiMobile is still a paid iOS app, and self-hosting Flashcards still creates cloud costs.
+Free and open source are separate filters. RemNote Free and Obsidian cost nothing for the core app but are proprietary. Anki's desktop core, Logseq, and Nibomo publish source; AnkiMobile is still a paid iOS app, and self-hosting Nibomo still creates cloud costs.
 
 ## Stay with RemNote when the connected workflow is the product
 
@@ -90,13 +90,13 @@ Portability needs equally careful wording. Current [database-version export docu
 
 So Logseq is the route to evaluate when open source, linked notes, PDFs, and built-in cards all matter. It is not the route I would use for a one-day move of a critical medical-school knowledge base in August 2026. Run it beside RemNote first and let the current transition settle around your actual devices.
 
-## Flashcards: open full stack, narrow study model
+## Nibomo: open full stack, narrow study model
 
-Flashcards makes almost the opposite trade from RemNote. Its [features](/features/) center on front/back Markdown cards, decks, tags, media, FSRS review, offline-first clients, and AI-assisted card drafting. It has no connected-note knowledge base, PDF reader, native desktop app, or direct RemNote importer.
+Nibomo makes almost the opposite trade from RemNote. Its [features](/features/) center on front/back Markdown cards, decks, tags, media, FSRS review, offline-first clients, and AI-assisted card drafting. It has no connected-note knowledge base, PDF reader, native desktop app, or direct RemNote importer.
 
 The source boundary is broad: the MIT-licensed repository includes web, iOS, Android, authentication, backend, sync, and infrastructure. The supported [production self-hosting guide](/docs/self-hosting/) uses AWS CDK. It is not a one-command local appliance. Operators own cloud costs, secrets, migrations, monitoring, backups, restore tests, and separately built mobile apps.
 
-Migration is the larger limitation for an existing RemNote user. Flashcards imports its own `flashcards.zip` packages, not RemNote Markdown or Anki `.apkg`. Those packages carry cards, tags, and referenced media, but not review history, FSRS state, workspace settings, full deck structure, or accounts. AI chat can turn exported text into reviewed card drafts; that is rebuilding content, not continuing the old collection. The [TXT migration guide](/blog/migrate-from-anki-txt-export-open-source-flashcards/) shows that lossy boundary step by step.
+Migration is the larger limitation for an existing RemNote user. Nibomo imports its own `flashcards.zip` packages, not RemNote Markdown or Anki `.apkg`. Those packages carry cards, tags, and referenced media, but not review history, FSRS state, workspace settings, full deck structure, or accounts. AI chat can turn exported text into reviewed card drafts; that is rebuilding content, not continuing the old collection. The [TXT migration guide](/blog/migrate-from-anki-txt-export-open-source-flashcards/) shows that lossy boundary step by step.
 
 Choose Nibomo for a fresh or simple card workspace when whole-stack source access matters. Keep RemNote for connected study, and choose Anki when migration fidelity or advanced card structure matters. For the narrower card-system comparison, see [Anki vs Nibomo](/blog/anki-vs-flashcards-open-source-app/) and the [open-source flashcard apps guide](/blog/best-open-source-flashcard-apps-2026/).
 
@@ -136,6 +136,6 @@ Keep the source exports even after the move. A successful import proves compatib
 - **Evaluate Logseq** if you need open-source connected notes and built-in cards, but keep the test non-critical while its current database and sync stack are still beta and alpha.
 - **Choose Nibomo** if a simple fresh card system and whole-stack source access matter more than notes, PDFs, or schedule continuity.
 
-I build Flashcards, and I would still keep RemNote for a PDF-heavy connected notebook or choose Anki for a complex established collection. Flashcards is the narrower choice: front/back cards, an open stack, and a new schedule.
+I build Nibomo, and I would still keep RemNote for a PDF-heavy connected notebook or choose Anki for a complex established collection. Nibomo is the narrower choice: front/back cards, an open stack, and a new schedule.
 
-Once you know which boundary you can accept, test only that route. If Flashcards fits, the [getting started guide](/docs/getting-started/) shows the hosted and self-hosted entry points. If it does not, keeping RemNote is a valid decision too.
+Once you know which boundary you can accept, test only that route. If Nibomo fits, the [getting started guide](/docs/getting-started/) shows the hosted and self-hosted entry points. If it does not, keeping RemNote is a valid decision too.

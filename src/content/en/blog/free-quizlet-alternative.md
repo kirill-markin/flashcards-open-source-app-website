@@ -21,9 +21,9 @@ A free Quizlet account still lets you study flashcards, practice questions, diag
 
 That makes “free” a poor filter on its own. One free Quizlet replacement works offline but charges for iPhone. Another gives you several study modes but a less useful exit file. A third syncs notes and cards, then caps advanced PDF, image, or AI features.
 
-The best free Quizlet alternative is the one whose catch does not break your actual study routine. This comparison covers exactly five options—Anki, Knowt, RemNote, Mochi, and Flashcards—and treats Quizlet's free plan as the baseline rather than pretending every $0 offer includes the same thing.
+The best free Quizlet alternative is the one whose catch does not break your actual study routine. This comparison covers exactly five options—Anki, Knowt, RemNote, Mochi, and Nibomo—and treats Quizlet's free plan as the baseline rather than pretending every $0 offer includes the same thing.
 
-> **Disclosure:** I am Kirill Markin, and I build Flashcards, one of the five apps compared here. I included it for its open-source, FSRS, and agent workflows. It is not the universal winner: there is no direct Quizlet importer, its native transfer package does not preserve review state, and the hosted app's current free offer is a beta. This is a source-checked comparison of official pricing, help pages, and repository documentation—not a claim that I ran long-term hands-on tests with all five apps.
+> **Disclosure:** I am Kirill Markin, and I build Nibomo, one of the five apps compared here. I included it for its open-source, FSRS, and agent workflows. It is not the universal winner: there is no direct Quizlet importer, its native transfer package does not preserve review state, and the hosted app's current free offer is a beta. This is a source-checked comparison of official pricing, help pages, and repository documentation—not a claim that I ran long-term hands-on tests with all five apps.
 
 **Facts checked:** September 10, 2026.
 
@@ -108,17 +108,17 @@ Mochi's exit options are unusually clear. Its native `.mochi` export includes ca
 
 Choose Mochi when account-free offline study and Markdown portability matter more than automatic sync or generous AI limits. The [Mochi alternative guide](/blog/mochi-alternative/) covers the broader product decision.
 
-## Flashcards: open source and agent-friendly, but still a beta
+## Nibomo: open source and agent-friendly, but still a beta
 
-Flashcards is the narrow specialist in this list. The hosted app is [free during beta](/pricing/), with AI and sync across web, iOS, and Android included and no plan-based quota on cards, files, or total storage. Normal request, file, and transfer limits still apply. The [features page](/features/) documents offline study, FSRS review, and access to the same workspace through MCP and the Agent API.
+Nibomo is the narrow specialist in this list. The hosted app is [free during beta](/pricing/), with AI and sync across web, iOS, and Android included and no plan-based quota on cards, files, or total storage. Normal request, file, and transfer limits still apply. The [features page](/features/) documents offline study, FSRS review, and access to the same workspace through MCP and the Agent API.
 
 The lasting promise is smaller than the beta offer. Core card creation and review will remain free. Higher AI usage may later require your own provider key or a paid option, and there is no promise that every hosted feature will remain free forever.
 
-Quizlet migration is also the weakest part of the fit. Flashcards has no direct Quizlet, CSV, TSV, Anki, or general text importer. Eligible Quizlet text can serve as source material for manual rebuilding or reviewed AI drafts, but that is not a lossless import. The [Quizlet export workflow](/blog/how-to-export-quizlet-sets-and-turn-them-into-fsrs-flashcards/) explains the cleanup without pretending the missing media and study state can be recovered.
+Quizlet migration is also the weakest part of the fit. Nibomo has no direct Quizlet, CSV, TSV, Anki, or general text importer. Eligible Quizlet text can serve as source material for manual rebuilding or reviewed AI drafts, but that is not a lossless import. The [Quizlet export workflow](/blog/how-to-export-quizlet-sets-and-turn-them-into-fsrs-flashcards/) explains the cleanup without pretending the missing media and study state can be recovered.
 
-The native `flashcards.zip` package moves cards, tags, and related media between Flashcards workspaces. It does not move review history, FSRS scheduler state, settings, full deck structures, or account data. Self-hosting gives you the MIT-licensed software and control of the deployment, but the documented production path uses AWS and still creates infrastructure, provider, maintenance, backup, and operator costs. The [self-hosting guide](/docs/self-hosting/) spells out that boundary.
+The native `flashcards.zip` package moves cards, tags, and related media between Nibomo workspaces. It does not move review history, FSRS scheduler state, settings, full deck structures, or account data. Self-hosting gives you the MIT-licensed software and control of the deployment, but the documented production path uses AWS and still creates infrastructure, provider, maintenance, backup, and operator costs. The [self-hosting guide](/docs/self-hosting/) spells out that boundary.
 
-Choose Flashcards when open source, explicit FSRS, or AI-agent access is the reason you are leaving Quizlet. Choose something else when direct migration, mature import formats, or a permanent all-inclusive hosted free tier matters more. The separate [open-source Quizlet comparison](/blog/quizlet-alternative/) goes deeper on Quizlet versus Flashcards; this five-app guide stays focused on no-cost boundaries.
+Choose Nibomo when open source, explicit FSRS, or AI-agent access is the reason you are leaving Quizlet. Choose something else when direct migration, mature import formats, or a permanent all-inclusive hosted free tier matters more. The separate [open-source Quizlet comparison](/blog/quizlet-alternative/) goes deeper on Quizlet versus Nibomo; this five-app guide stays focused on no-cost boundaries.
 
 ## Run this migration test before moving everything
 

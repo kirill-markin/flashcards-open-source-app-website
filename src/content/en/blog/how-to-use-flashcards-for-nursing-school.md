@@ -246,7 +246,7 @@ And if you want the scheduling model itself explained:
 
 - [FSRS vs SM-2 in 2026](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
-## Where Flashcards fits this nursing workflow
+## Where Nibomo fits this nursing workflow
 
 [Nibomo](https://nibomo.com/) is a strong fit for **nursing school flashcards** because the product already supports the pieces this workflow depends on:
 
