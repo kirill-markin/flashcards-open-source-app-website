@@ -224,13 +224,13 @@ Low-value cards delete कीजिए। Non-priority material suspend की�
 
 तीसरा case बहुत common है। कुछ लोगों के पास असल में बहुत ज़्यादा reviews नहीं होते। उनके reviews बस बहुत slow और बहुत annoying होते हैं। अगर आपकी problem यह है, तो [2026 में फ्लैशकार्ड review तेज़ कैसे करें](/hi/blog/how-to-review-flashcards-faster/) किसी और scheduler tweak से ज़्यादा मदद करेगा।
 
-## Flashcards कहाँ fit होता है, बिना magic होने का नाटक किए
+## Nibomo कहाँ fit होता है, बिना magic होने का नाटक किए
 
 [Nibomo features](/hi/features/) यहाँ एक practical वजह से useful हैं: product review से पहले वाले हिस्से और review के दौरान वाले हिस्से, दोनों को cover करता है।
 
 यह इसलिए मायने रखता है क्योंकि बहुत-से review spikes पहले review day से पहले ही शुरू हो जाते हैं। वे तब शुरू होते हैं जब बहुत-से cards live deck में घुस जाते हैं, या जब AI-generated drafts को बिना काफ़ी editing के accept कर लिया जाता है।
 
-Flashcards इन boring लेकिन important हिस्सों में मदद कर सकता है:
+Nibomo इन boring लेकिन important हिस्सों में मदद कर सकता है:
 
 - source material से draft cards बनाना
 - front/back cards को permanent review debt बनने से पहले edit करना

@@ -243,7 +243,7 @@ FSRS जो चीज़ अच्छी तरह करता है, वह t
 
 अगर आप scheduler comparison खुद देखना चाहते हैं, तो [2026 में FSRS बनाम SM-2](https://nibomo.com/blog/fsrs-vs-sm-2/) वही हिस्सा cover करता है।
 
-## इस workflow में Flashcards कहाँ फिट बैठता है
+## इस workflow में Nibomo कहाँ फिट बैठता है
 
 [Nibomo](https://nibomo.com/) **AI फ़्लैशकार्ड्स कैसे ठीक करें** के लिए अच्छा fit है क्योंकि product पहले से ही उस असहज बीच वाले हिस्से को संभालता है जिसे ज़्यादातर generators अधूरा छोड़ देते हैं:
 

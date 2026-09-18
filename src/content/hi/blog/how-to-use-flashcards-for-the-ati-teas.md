@@ -267,7 +267,7 @@ TEAS prep बहुत messy source material बनाती है। Copy क�
 
 यह workflow [2026 में अभ्यास प्रश्नों को फ्लैशकार्ड में कैसे बदलें](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/) और [2026 में बेहतर फ्लैशकार्ड कैसे बनाएँ](https://nibomo.com/blog/how-to-make-better-flashcards/) वाले तरीके से काफ़ी मिलता-जुलता है।
 
-## इस ATI TEAS workflow में Flashcards कहाँ fit बैठता है
+## इस ATI TEAS workflow में Nibomo कहाँ fit बैठता है
 
 अगर आप यह workflow [Nibomo](https://nibomo.com/) के अंदर चलाना चाहते हैं, तो इसका मेल व्यावहारिक है, आधिकारिक नहीं।
 

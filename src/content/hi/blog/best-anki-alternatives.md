@@ -166,23 +166,23 @@ Personal deck export अब भी [Pro feature](https://brainscape.zendesk.com/
 
 SuperMemo तब चुनें, जब आप उसकी अपनी method या course catalog को इतना चाहते हों कि नया schedule शुरू करना मंज़ूर हो। अगर मौजूदा schedule बचाना प्राथमिकता है, तो यह आपकी समस्या का सही हल नहीं है।
 
-## Flashcards: पूरे stack का सोर्स एक्सेस, लेकिन सबसे कमज़ोर Anki इंपोर्ट
+## Nibomo: पूरे stack का सोर्स एक्सेस, लेकिन सबसे कमज़ोर Anki इंपोर्ट
 
-Flashcards आपको पूरे stack पर व्यापक मालिकाना नियंत्रण देता है। [MIT-licensed repository](https://github.com/kirill-markin/flashcards-open-source-app) में web ऐप, iOS और Android clients, backend, offline sync, infrastructure, [public API](/docs/api/) और [MCP server](/docs/mcp-connector/) शामिल हैं। रिव्यू में [FSRS](/docs/architecture/#scheduling) इस्तेमाल होता है। Web, iOS और Android पहले local data में लिखते हैं, changes को outbox में जोड़ते हैं और connection लौटने पर sync करते हैं।
+Nibomo आपको पूरे stack पर व्यापक मालिकाना नियंत्रण देता है। [MIT-licensed repository](https://github.com/kirill-markin/flashcards-open-source-app) में web ऐप, iOS और Android clients, backend, offline sync, infrastructure, [public API](/docs/api/) और [MCP server](/docs/mcp-connector/) शामिल हैं। रिव्यू में [FSRS](/docs/architecture/#scheduling) इस्तेमाल होता है। Web, iOS और Android पहले local data में लिखते हैं, changes को outbox में जोड़ते हैं और connection लौटने पर sync करते हैं।
 
-इससे यह Anki-compatible नहीं हो जाता। Flashcards `.apkg` या `.colpkg` नहीं पढ़ सकता। Supported [Anki TXT migration](/blog/migrate-from-anki-txt-export-open-source-flashcards/) अधिकतर text-based कार्ड के लिए जाँचा हुआ AI-assisted drafting workflow है। यह templates, add-ons, deck hierarchy, देय तारीखें, intervals या review events सुरक्षित नहीं रखता। TXT फ़ाइल में media references होते हैं, media files नहीं; इसलिए media-heavy डेक को अलग से दोबारा बनाकर verify करना पड़ता है।
+इससे यह Anki-compatible नहीं हो जाता। Nibomo `.apkg` या `.colpkg` नहीं पढ़ सकता। Supported [Anki TXT migration](/blog/migrate-from-anki-txt-export-open-source-flashcards/) अधिकतर text-based कार्ड के लिए जाँचा हुआ AI-assisted drafting workflow है। यह templates, add-ons, deck hierarchy, देय तारीखें, intervals या review events सुरक्षित नहीं रखता। TXT फ़ाइल में media references होते हैं, media files नहीं; इसलिए media-heavy डेक को अलग से दोबारा बनाकर verify करना पड़ता है।
 
-Flashcards का अपना `flashcards.zip` package भी backup से सीमित है। यह Flashcards workspaces के बीच कार्ड, tags और संबंधित मीडिया ले जाता है। यह review history, FSRS state, पूरा deck structure, workspace settings या accounts नहीं ले जाता।
+Nibomo का अपना `flashcards.zip` package भी backup से सीमित है। यह Nibomo workspaces के बीच कार्ड, tags और संबंधित मीडिया ले जाता है। यह review history, FSRS state, पूरा deck structure, workspace settings या accounts नहीं ले जाता।
 
 Hosted core [beta के दौरान मुफ़्त](/pricing/) है। Production stack की self-hosting कोई one-command Docker install नहीं है: [self-hosting guide](/docs/self-hosting/) AWS CDK इस्तेमाल करती है और इसके लिए AWS services के साथ Cloudflare, Resend, Sentry, secrets, migrations, backups, restores और upgrades चाहिए। Docker Compose केवल development का रास्ता है, supported production deployment नहीं।
 
-Flashcards तब इस्तेमाल करें, जब पूरा सोर्स और operator-controlled backend ही बदलने की वजह हों और आपके कार्ड इतने सरल हों कि उन्हें सुरक्षित तरीके से दोबारा बनाया जा सके। छोटा अस्थायी डेक आज़माने के लिए [hosted app खोलें](https://app.flashcards-open-source-app.com/)। Learning-state fidelity सबसे महत्वपूर्ण हो, तो Anki पर टिके रहें—या RemNote, Mochi अथवा Mnemosyne को टेस्ट करें।
+Nibomo तब इस्तेमाल करें, जब पूरा सोर्स और operator-controlled backend ही बदलने की वजह हों और आपके कार्ड इतने सरल हों कि उन्हें सुरक्षित तरीके से दोबारा बनाया जा सके। छोटा अस्थायी डेक आज़माने के लिए [hosted app खोलें](https://app.flashcards-open-source-app.com/)। Learning-state fidelity सबसे महत्वपूर्ण हो, तो Anki पर टिके रहें—या RemNote, Mochi अथवा Mnemosyne को टेस्ट करें।
 
 ## कौन-सा Anki विकल्प iOS पर माइग्रेशन में चौंकाने वाले नुकसान से बचाता है?
 
 “iOS के लिए Anki विकल्प” के दो अलग अर्थ हो सकते हैं: native iPhone ऐप या [AnkiMobile की $24.99 की one-time purchase](https://apps.apple.com/us/app/ankimobile-flashcards/id373493387) का विकल्प।
 
-RemNote, Mochi, Quizlet, Brainscape, SuperMemo और Flashcards—सभी के iOS ऐप हैं। Mnemosyne का नहीं है। फिर भी माइग्रेशन का सवाल बचा रहता है:
+RemNote, Mochi, Quizlet, Brainscape, SuperMemo और Nibomo—सभी के iOS ऐप हैं। Mnemosyne का नहीं है। फिर भी माइग्रेशन का सवाल बचा रहता है:
 
 - **Mochi** text-only iOS विकल्पों से अधिक डेटा बचाता है: यह Markdown conversion और binary grading के साथ `.apkg` review history इंपोर्ट करता है।
 - **RemNote** भी `.apkg` review history इंपोर्ट करता है, लेकिन यह मानने के बजाय कि आज का Anki schedule बच गया है, इसकी **Need to Learn** queue टेस्ट करें।
@@ -235,8 +235,8 @@ Anki अब भी mature add-on ecosystem, flexible note और card templates,
 3. अगर local Markdown और जाँचे जा सकने वाले exports, Anki rendering से अधिक महत्वपूर्ण हैं, तो Mochi टेस्ट करें।
 4. अगर सीधे Anki इंपोर्ट वाला focused open-source desktop ऐप चाहिए, तो Mnemosyne टेस्ट करें—और पक्का करें कि इसकी mobile सीमाएँ आपकी routine के अनुकूल हैं।
 5. अगर असली समस्या classroom distribution या सरल shared review loop है, तो Quizlet या Brainscape में छोटा set दोबारा बनाएँ।
-6. अगर खास तौर पर SuperMemo की method चाहिए, तो नया schedule स्वीकार करें। अगर खास तौर पर पूरे stack का सोर्स, self-hosting, API और MCP access चाहिए, तो Flashcards का डेटा छोड़ने वाला content rebuild और operator work स्वीकार करें।
+6. अगर खास तौर पर SuperMemo की method चाहिए, तो नया schedule स्वीकार करें। अगर खास तौर पर पूरे stack का सोर्स, self-hosting, API और MCP access चाहिए, तो Nibomo का डेटा छोड़ने वाला content rebuild और operator work स्वीकार करें।
 
-एक-दूसरे से बहुत अलग तीन मॉडल को सुविधा-दर-सुविधा देखने के लिए [Anki vs Quizlet vs Flashcards](/blog/anki-vs-quizlet-vs-open-source-flashcards-app/) पढ़ें।
+एक-दूसरे से बहुत अलग तीन मॉडल को सुविधा-दर-सुविधा देखने के लिए [Anki vs Quizlet vs Nibomo](/blog/anki-vs-quizlet-vs-open-source-flashcards-app/) पढ़ें।
 
 काम का नियम सरल है: तभी बदलें, जब फायदा स्पष्ट हो और नुकसान असली टेस्ट में स्वीकार्य साबित हो चुका हो। अगर आपका representative डेक उस सीमा को साफ़-साफ़ पार नहीं कर सकता, तो Anki पर टिके रहना केवल सुरक्षित fallback नहीं है। यही तुलना का नतीजा है।

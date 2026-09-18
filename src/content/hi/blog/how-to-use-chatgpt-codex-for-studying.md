@@ -1,6 +1,6 @@
 ---
 title: "2026 में ChatGPT और Codex से पढ़ाई कैसे करें: MCP से फ़्लैशकार्ड सेव करें"
-description: "ChatGPT Study Mode से अपनी असली कमज़ोरियाँ पहचानें, ChatGPT desktop app में Codex और Flashcards MCP से चुने हुए फ़्लैशकार्ड सेव करें और FSRS से उन्हें दोहराएँ।"
+description: "ChatGPT Study Mode से अपनी असली कमज़ोरियाँ पहचानें, ChatGPT desktop app में Codex और Nibomo MCP से चुने हुए फ़्लैशकार्ड सेव करें और FSRS से उन्हें दोहराएँ।"
 date: "2026-08-02"
 image: "/blog/how-to-use-chatgpt-codex-for-studying.png"
 keywords:
@@ -14,24 +14,24 @@ keywords:
 
 कल ChatGPT ने मुझसे पूछा कि बड़ा sample आम तौर पर confidence interval को संकरा क्यों कर देता है। मैंने पूरे भरोसे के साथ तीन वाक्य बोल दिए और किसी तरह “standard error” का नाम तक नहीं लिया। मेरी समझ की यही कमी सेव करने लायक थी। आँकड़ों पर हुई बाकी बातचीत चैट में ही रह सकती थी।
 
-अगर आप समझना चाहते हैं कि **ChatGPT और Codex से पढ़ाई कैसे करें**, तो मैं यही तरीका अपनाऊँगा: ChatGPT की मदद से अपनी समझ की असली कमी पकड़ें, कार्ड खुद चुनें और Codex से उसे Flashcards MCP connector के ज़रिए सेव करवाएँ। कार्ड आपके Flashcards कलेक्शन में पहुँच जाता है, जहाँ FSRS उसे बाद में सही समय पर फिर दिखा सकता है।
+अगर आप समझना चाहते हैं कि **ChatGPT और Codex से पढ़ाई कैसे करें**, तो मैं यही तरीका अपनाऊँगा: ChatGPT की मदद से अपनी समझ की असली कमी पकड़ें, कार्ड खुद चुनें और Codex से उसे Nibomo MCP connector के ज़रिए सेव करवाएँ। कार्ड आपके Nibomo कलेक्शन में पहुँच जाता है, जहाँ FSRS उसे बाद में सही समय पर फिर दिखा सकता है।
 
 यह किसी पूरे chapter से एक साथ पूरा डेक बनवाने से अलग है। यहाँ ट्यूटर के साथ पढ़ाई से लंबे समय की रिव्यू तक बस एक छोटा-सा अगला कदम है। Connector कॉपी-पेस्ट का काम बचाता है; क्या याद रखना चाहिए, यह फैसला वह नहीं करता।
 
 ![ChatGPT और Codex से पढ़ाई में चुनी हुई कमज़ोरियाँ MCP के ज़रिए FSRS फ़्लैशकार्ड्स तक पहुँचती हुई](/blog/how-to-use-chatgpt-codex-for-studying.png)
 
-## साफ़ बँटवारा: ChatGPT पढ़ाता है, Codex सेव करता है, Flashcards समय तय करता है
+## साफ़ बँटवारा: ChatGPT पढ़ाता है, Codex सेव करता है, Nibomo समय तय करता है
 
 हर हिस्से का एक छोटा और साफ़ काम है:
 
 1. **ChatGPT Study Mode** सवाल पूछता है, संकेत देता है और विषय को समझने में आपकी मदद करता है।
 2. **आप** तय करते हैं कि कौन-सी गलतियाँ लंबे समय के लिए कार्ड बनने लायक हैं।
-3. **ChatGPT desktop app या CLI में Codex** मंज़ूर किए हुए कार्ड बनाने या ठीक करने के लिए Flashcards MCP इस्तेमाल करता है।
+3. **ChatGPT desktop app या CLI में Codex** मंज़ूर किए हुए कार्ड बनाने या ठीक करने के लिए Nibomo MCP इस्तेमाल करता है।
 4. **Nibomo** आपके रिव्यू दर्ज करता है और FSRS से अगले रिव्यू का समय तय करता है।
 
 OpenAI की मौजूदा [Study Mode guide](https://help.openai.com/en/articles/11780217-chatgpt-study-mode-faq) ऐसे ट्यूटर के बारे में बताती है जो कदम-दर-कदम आपके साथ काम कर सकता है, एक बार में एक सवाल पूछ सकता है और अपलोड किए गए नोट्स, तस्वीरें या PDFs इस्तेमाल कर सकता है। इसलिए यहाँ आसानी से पता चलता है कि आप अभी कौन-सी बात बिना मदद के नहीं समझा पा रहे हैं।
 
-सिर्फ़ तीसरे चरण में MCP चाहिए। इसे एक पुल समझें, जिसके ज़रिए Codex मंज़ूर किए गए कुछ Flashcards tools इस्तेमाल कर सकता है। ये tools आपके workspaces की सूची दिखा सकते हैं, पढ़ाई का वह डेटा पढ़ सकते हैं जिसकी आपने अनुमति दी है और आपकी मंज़ूरी के बाद कार्ड या डेक बदल सकते हैं।
+सिर्फ़ तीसरे चरण में MCP चाहिए। इसे एक पुल समझें, जिसके ज़रिए Codex मंज़ूर किए गए कुछ Nibomo tools इस्तेमाल कर सकता है। ये tools आपके workspaces की सूची दिखा सकते हैं, पढ़ाई का वह डेटा पढ़ सकते हैं जिसकी आपने अनुमति दी है और आपकी मंज़ूरी के बाद कार्ड या डेक बदल सकते हैं।
 
 ## पहले ChatGPT से अपनी असली कमज़ोरी पकड़ें
 
@@ -74,23 +74,23 @@ Confidence intervals पर तीन paragraphs ट्यूटर के स�
 
 अगर आपके नोट्स पहले से कंप्यूटर की फ़ाइलों में हैं, तो आप Codex में रहकर वही एक बार में एक सवाल वाला ट्यूटर प्रॉम्प्ट इस्तेमाल कर सकते हैं। उसे साफ़ कहें कि पहले कार्ड दिखाए और आपकी मंज़ूरी मिलने तक उन्हें सेव न करे। ज़्यादातर छात्रों के लिए ChatGPT Study Mode आसान ट्यूटर है; कंप्यूटर की फ़ाइलें या MCP tools शामिल हों, तब Codex अगले कदम को आसान बनाता है।
 
-## Codex को Flashcards MCP server से जोड़ें
+## Codex को Nibomo MCP server से जोड़ें
 
 Desktop पर इसे ऐसे जोड़ें:
 
 1. ChatGPT desktop app में **Settings > MCP servers** खोलें।
 2. **Add server** चुनें।
-3. नाम `Flashcards` रखें, **Streamable HTTP** चुनें और यह URL डालें:
+3. नाम `nibomo` रखें, **Streamable HTTP** चुनें और यह URL डालें:
 
 ```text
 https://mcp.nibomo.com/mcp
 ```
 
 4. Server सेव करें, फिर **Restart** चुनें।
-5. App दोबारा खुलने पर **Authenticate** चुनें और ब्राउज़र में Flashcards OAuth sign-in पूरा करें।
+5. App दोबारा खुलने पर **Authenticate** चुनें और ब्राउज़र में Nibomo OAuth sign-in पूरा करें।
 6. कनेक्शन जाँचने के लिए Codex में `/mcp` लिखें।
 
-ये चरण OpenAI के मौजूदा [ChatGPT desktop app और Codex के MCP setup](https://learn.chatgpt.com/docs/extend/mcp) के अनुसार हैं। Flashcards ब्राउज़र में sign-in के लिए OAuth इस्तेमाल करता है, इसलिए सामान्य desktop session में API key पेस्ट करने की ज़रूरत नहीं है। कनेक्शन में दिक्कत आए तो [Nibomo MCP documentation](/hi/docs/mcp-connector/) में sign-in का पूरा तरीका और tools का contract दिया गया है।
+ये चरण OpenAI के मौजूदा [ChatGPT desktop app और Codex के MCP setup](https://learn.chatgpt.com/docs/extend/mcp) के अनुसार हैं। Nibomo ब्राउज़र में sign-in के लिए OAuth इस्तेमाल करता है, इसलिए सामान्य desktop session में API key पेस्ट करने की ज़रूरत नहीं है। कनेक्शन में दिक्कत आए तो [Nibomo MCP documentation](/hi/docs/mcp-connector/) में sign-in का पूरा तरीका और tools का contract दिया गया है।
 
 डेटा बदलने वाला हर काम चलने से पहले जाँचें। Workspaces की सूची देखना read-only है; सेव किए गए कार्ड बनाना, दोबारा लिखना, व्यवस्थित करना या मिटाना नहीं। अगर आपका ChatGPT account स्कूल या दफ़्तर के ज़रिए manage होता है, तो administrator यह भी सीमित कर सकता है कि आप कौन-से MCP servers या tools चालू कर सकते हैं।
 
@@ -99,7 +99,7 @@ https://mcp.nibomo.com/mcp
 Desktop app में Codex पर जाएँ और उसे अपनी अंतिम सूची दें। मैं ऐसा prompt इस्तेमाल करूँगा:
 
 ```text
-Flashcards MCP server इस्तेमाल करो। पहले मेरे workspaces की सूची दिखाओ और
+Nibomo MCP server इस्तेमाल करो। पहले मेरे workspaces की सूची दिखाओ और
 पूछो कि ये कार्ड कहाँ रखने हैं। कुछ भी लिखने से पहले प्रस्तावित fronts, backs,
 tags और डेक में होने वाले बदलाव दिखाओ। सिर्फ़ उन्हीं कार्डों को बनाओ जिन्हें मैं
 मंज़ूरी दूँ। बदलाव के बाद सेव हुए कार्ड पढ़कर दिखाओ, ताकि मैं उन्हें जाँच सकूँ।
@@ -140,13 +140,13 @@ Connector सात tools देता है:
 अंतिम values दिखाओ और बाद में सेव हुए कार्ड फिर पढ़कर दिखाओ।
 ```
 
-Flashcards में decks सेव किए गए filters होते हैं। किसी कार्ड को दूसरे deck के नीचे रखने का मतलब उसके tags बदलना हो सकता है, इसलिए उन्हें भी जाँचें। इसी पहले जाँच और फिर मंज़ूरी वाले तरीके से आप deck बना सकते हैं, कुछ कार्ड व्यवस्थित कर सकते हैं या साफ़ तौर पर चुने हुए कार्ड मिटा सकते हैं। असली write access वाले किसी भी tool में “जो कुछ खराब लगे, सब delete कर दो” जोखिम भरा prompt है।
+Nibomo में decks सेव किए गए filters होते हैं। किसी कार्ड को दूसरे deck के नीचे रखने का मतलब उसके tags बदलना हो सकता है, इसलिए उन्हें भी जाँचें। इसी पहले जाँच और फिर मंज़ूरी वाले तरीके से आप deck बना सकते हैं, कुछ कार्ड व्यवस्थित कर सकते हैं या साफ़ तौर पर चुने हुए कार्ड मिटा सकते हैं। असली write access वाले किसी भी tool में “जो कुछ खराब लगे, सब delete कर दो” जोखिम भरा prompt है।
 
-## असली FSRS रिव्यू वही है जिसे Flashcards दर्ज करता है
+## असली FSRS रिव्यू वही है जिसे Nibomo दर्ज करता है
 
 MCP connector अनुमति वाली review history के साथ FSRS state और scheduling fields पढ़ सकता है। उसका SQL write tool `review_events` नहीं बना सकता, Again, Hard, Good या Easy rating दर्ज नहीं कर सकता और FSRS state या schedule नहीं बदल सकता। Connector rating सिर्फ़ अपने अलग `submit_review` tool से दर्ज कर सकता है, इसलिए आप रिव्यू app में कर सकते हैं या Codex से करवा सकते हैं।
 
-कार्डों के रिव्यू का समय आने पर [Nibomo web app](https://app.flashcards-open-source-app.com/) या mobile app खोलें। जवाब याद करें, back दिखाएँ और वहीं अपनी rating चुनें। Flashcards रिव्यू दर्ज करता है और FSRS तय करता है कि कार्ड अगली बार कब लौटेगा।
+कार्डों के रिव्यू का समय आने पर [Nibomo web app](https://app.flashcards-open-source-app.com/) या mobile app खोलें। जवाब याद करें, back दिखाएँ और वहीं अपनी rating चुनें। Nibomo रिव्यू दर्ज करता है और FSRS तय करता है कि कार्ड अगली बार कब लौटेगा।
 
 Codex आपकी अनुमति वाले कार्ड डेटा से अनौपचारिक quiz भी ले सकता है। उसे अतिरिक्त अभ्यास मानें: सिर्फ़ quiz से कोई रिव्यू दर्ज नहीं होता और आपका schedule नहीं बदलता। जब आपको आधिकारिक रिव्यू चाहिए, तो Codex से review tools के साथ रिव्यू करवाएँ। वह `next_review_card` से सिर्फ़ front दिखाता है, आपके जवाब के बाद `reveal_answer` से back दिखाता है और `submit_review` से rating दर्ज करता है, ताकि FSRS कार्ड को फिर से schedule कर सके। जब तक आप हर rating खुद चुनने के लिए न कहें, Codex आपके जवाब की rating खुद तय करता है। [AI flashcard tutor guide](/hi/blog/ai-flashcard-tutor-due-cards/) में यह review flow विस्तार से समझाया गया है।
 
@@ -157,16 +157,16 @@ Codex आपकी अनुमति वाले कार्ड डेटा 
 Remote server जोड़ने के लिए चलाएँ:
 
 ```bash
-codex mcp add flashcards --url https://mcp.nibomo.com/mcp
-codex mcp login flashcards
+codex mcp add nibomo --url https://mcp.nibomo.com/mcp
+codex mcp login nibomo
 ```
 
 सेव किया हुआ server जाँचने के लिए `codex mcp list` चलाएँ, फिर active tools देखने के लिए Codex CLI में `/mcp` इस्तेमाल करें। एक ही Codex host पर desktop Codex view, Codex CLI और IDE extension वही `config.toml` साझा करते हैं। Server को एक बार configure करें, ज़रूरत हो तो दूसरे local client को restart करें और server वहाँ भी दिखना चाहिए। ChatGPT web इस फ़ाइल को इस्तेमाल नहीं करता।
 
-ऐसे headless session में जहाँ browser OAuth आसान नहीं है, Flashcards लंबे समय तक चलने वाली `fca_` agent key को Bearer token की तरह स्वीकार करता है। Key को environment variable में रखें और key की जगह उस variable का नाम register करें:
+ऐसे headless session में जहाँ browser OAuth आसान नहीं है, Nibomo लंबे समय तक चलने वाली `fca_` agent key को Bearer token की तरह स्वीकार करता है। Key को environment variable में रखें और key की जगह उस variable का नाम register करें:
 
 ```bash
-codex mcp add flashcards \
+codex mcp add nibomo \
   --url https://mcp.nibomo.com/mcp \
   --bearer-token-env-var FLASHCARDS_MCP_TOKEN
 ```
@@ -177,7 +177,7 @@ codex mcp add flashcards \
 
 ChatGPT web आपके local Codex `config.toml` में सेव MCP servers को नहीं पढ़ता। Web पर remote MCP-backed tools, **ChatGPT Work** में plugins के ज़रिए मिलते हैं और workspace administrators तय कर सकते हैं कि कौन-से plugins और tools उपलब्ध होंगे।
 
-Custom MCP apps के लिए web पर अलग setup करना पड़ता है। वे ChatGPT Developer mode इस्तेमाल करते हैं और उनकी उपलब्धता व write permissions account और workspace पर निर्भर करती हैं। अगर आपका workspace उन्हें जोड़ने या publish करने देता है, तो OpenAI की मौजूदा [Developer mode और MCP apps guide](https://help.openai.com/en/articles/12584461-developer-mode-apps-and-full-mcp-connectors-in-chatgpt-beta) देखें। Flashcards का write tool चलाने से पहले यह ज़रूर जाँचें कि कौन-से actions चालू हैं।
+Custom MCP apps के लिए web पर अलग setup करना पड़ता है। वे ChatGPT Developer mode इस्तेमाल करते हैं और उनकी उपलब्धता व write permissions account और workspace पर निर्भर करती हैं। अगर आपका workspace उन्हें जोड़ने या publish करने देता है, तो OpenAI की मौजूदा [Developer mode और MCP apps guide](https://help.openai.com/en/articles/12584461-developer-mode-apps-and-full-mcp-connectors-in-chatgpt-beta) देखें। Nibomo का write tool चलाने से पहले यह ज़रूर जाँचें कि कौन-से actions चालू हैं।
 
 इस तरह चार साफ़ रास्ते बचते हैं:
 
@@ -196,7 +196,7 @@ Connector छोड़ने पर आप बहुत कुछ नहीं �
 कार्ड या नई जानकारी मत जोड़ना।
 ```
 
-उन्हें एक बार पढ़ें, बचे हुए अच्छे कार्ड Flashcards में कॉपी करें और सामान्य रिव्यू जारी रखें। निजी सामग्री, स्कूल के नियंत्रण वाले account या अपने सेव किए कार्ड का डेटा किसी AI client से न पढ़वाने वाले व्यक्ति के लिए हाथ से कार्ड जोड़ना समझदारी का विकल्प है।
+उन्हें एक बार पढ़ें, बचे हुए अच्छे कार्ड Nibomo में कॉपी करें और सामान्य रिव्यू जारी रखें। निजी सामग्री, स्कूल के नियंत्रण वाले account या अपने सेव किए कार्ड का डेटा किसी AI client से न पढ़वाने वाले व्यक्ति के लिए हाथ से कार्ड जोड़ना समझदारी का विकल्प है।
 
 साथ वाली guide [ChatGPT Study Mode को फ़्लैशकार्ड्स में कैसे बदलें](/hi/blog/how-to-turn-chatgpt-study-mode-into-flashcards/) connector के बिना ट्यूटर वाले तरीके पर केंद्रित है। [ChatGPT से फ़्लैशकार्ड्स कैसे बनाएं](/hi/blog/how-to-use-chatgpt-to-make-flashcards/) नोट्स से कार्ड का मसौदा बनाने का व्यापक तरीका समझाती है। अगर आप Anthropic के tools से भी पढ़ते हैं, तो [Claude से पढ़ाई कैसे करें](/hi/blog/how-to-use-claude-for-studying/) Claude के अलग connector setup के साथ ट्यूटर से MCP तक का वैसा ही तरीका दिखाती है।
 
@@ -204,4 +204,4 @@ Connector छोड़ने पर आप बहुत कुछ नहीं �
 
 ChatGPT के साथ पढ़ाई का एक अच्छा session बीस मिनट चल सकता है और उससे सिर्फ़ तीन कार्ड निकल सकते हैं। इसमें कोई दिक्कत नहीं है। बातचीत ने विषय समझने में मदद की; कार्डों का काम सिर्फ़ उन कमियों को बचाकर रखना है जो बाद में मायने रखेंगी।
 
-मेरा पसंदीदा **ChatGPT और Codex study workflow** सीधा है: सवालों के जवाब दें, देखें कि याद कहाँ साथ छोड़ती है, कुछ साफ़ कार्ड मंज़ूर करें, उन्हें Flashcards MCP से सेव करें और असली FSRS रिव्यू Flashcards में करें। Connector कॉपी-पेस्ट का काम हटाता है। भविष्य में किस चीज़ पर ध्यान देना है, यह चुनाव अब भी आपका है।
+मेरा पसंदीदा **ChatGPT और Codex study workflow** सीधा है: सवालों के जवाब दें, देखें कि याद कहाँ साथ छोड़ती है, कुछ साफ़ कार्ड मंज़ूर करें, उन्हें Nibomo MCP से सेव करें और असली FSRS रिव्यू Nibomo में करें। Connector कॉपी-पेस्ट का काम हटाता है। भविष्य में किस चीज़ पर ध्यान देना है, यह चुनाव अब भी आपका है।

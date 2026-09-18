@@ -193,13 +193,13 @@ Recognition चालाक होती है। आप चार options द�
 
 Card छोटा रखिए। Exam को बड़ा रहने दीजिए।
 
-## Flashcards कहाँ fit बैठता है
+## Nibomo कहाँ fit बैठता है
 
 [Nibomo](/hi/features/) practice-exam step के बाद अच्छा fit है।
 
-Product को किसी magic practice-exam generator की तरह describe नहीं करना चाहिए। ज़्यादा सही workflow यह है: जिस AI tool को आप पसंद करते हैं उससे अपने notes से exam बनाइए, फिर जो useful weak spots बचें उन्हें Flashcards में रखिए।
+Product को किसी magic practice-exam generator की तरह describe नहीं करना चाहिए। ज़्यादा सही workflow यह है: जिस AI tool को आप पसंद करते हैं उससे अपने notes से exam बनाइए, फिर जो useful weak spots बचें उन्हें Nibomo में रखिए।
 
-यह handoff इसलिए अच्छा काम करता है क्योंकि Flashcards पहले से अगली practical layer देता है:
+यह handoff इसलिए अच्छा काम करता है क्योंकि Nibomo पहले से अगली practical layer देता है:
 
 - cards draft या cleanup करने के लिए workspace data, file attachments, और pasted text के साथ AI chat
 - bloated study artifacts की जगह plain front/back cards
@@ -213,7 +213,7 @@ Product को किसी magic practice-exam generator की तरह descr
 
 1. अपनी पसंद के external AI tool में practice exam generate कीजिए
 2. misses और slow answers review कीजिए
-3. सिर्फ़ useful weak spots को Flashcards में लाइए
+3. सिर्फ़ useful weak spots को Nibomo में लाइए
 4. उन्हें simple front/back cards में साफ़ कीजिए
 5. final set को FSRS के साथ review कीजिए
 

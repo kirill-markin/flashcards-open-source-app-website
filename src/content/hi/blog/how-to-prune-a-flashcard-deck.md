@@ -220,7 +220,7 @@ Deck cleanup dramatic rescue mission की जगह छोटी recurring hab
 
 अक्सर deck आपसे curation माँग रहा होता है।
 
-## Flashcards इसमें कहाँ fit बैठता है
+## Nibomo इसमें कहाँ fit बैठता है
 
 [Nibomo](/hi/features/) इस cleanup style के साथ ठीक बैठता है, क्योंकि maintenance के steps तीन tabs और एक spreadsheet में बिखरे हुए नहीं रहते:
 

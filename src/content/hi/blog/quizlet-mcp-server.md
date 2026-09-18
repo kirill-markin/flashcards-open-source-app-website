@@ -77,16 +77,16 @@ Nibomo का remote MCP endpoint यह है:
 
 उसके [MCP connector के दस्तावेज़ों](/docs/mcp-connector/) में सात tools बताए गए हैं: `list_workspaces`, पढ़ने के लिए `sql_query`, लिखने के लिए `sql_execute`, reference guides के लिए `get_guide`, और reviews के लिए `next_review_card`, `reveal_answer` तथा `submit_review`। Interactive MCP clients OAuth से अनुमति ले सकते हैं। Terminal agents इसके बजाय [Agent API के दस्तावेज़ों](/docs/api/) से शुरुआत करके प्रकाशित HTTP flow इस्तेमाल कर सकते हैं।
 
-इससे Flashcards कोई Quizlet connector नहीं बन जाता। समर्थित workflow यह है:
+इससे Nibomo कोई Quizlet connector नहीं बन जाता। समर्थित workflow यह है:
 
 1. अपने बनाए Quizlet set का text export करें;
 2. मूल file सुरक्षित रखें और working copy की जाँच करें;
-3. Flashcards में save करने से पहले mapped cards की समीक्षा करें; और
-4. आगे पढ़ने और लिखने के लिए उस Flashcards workspace को किसी compatible client से जोड़ें।
+3. Nibomo में save करने से पहले mapped cards की समीक्षा करें; और
+4. आगे पढ़ने और लिखने के लिए उस Nibomo workspace को किसी compatible client से जोड़ें।
 
-Claude के लिए connector के चरण [Flashcards को MCP से Claude के साथ कैसे जोड़ें](/blog/how-to-connect-flashcards-to-claude-with-mcp/) में हैं। Codex और दूसरे agents उस documented MCP या Agent API route का इस्तेमाल कर सकते हैं जिसे उनका environment support करता है।
+Claude के लिए connector के चरण [Nibomo को MCP से Claude के साथ कैसे जोड़ें](/blog/how-to-connect-flashcards-to-claude-with-mcp/) में हैं। Codex और दूसरे agents उस documented MCP या Agent API route का इस्तेमाल कर सकते हैं जिसे उनका environment support करता है।
 
-Flashcards कोई Quizlet URL नहीं पढ़ सकता, Quizlet account की copy नहीं बना सकता, बाद में Quizlet में हुए बदलाव sync नहीं कर सकता और export से छूटी images या study history वापस नहीं ला सकता। आप जो सामग्री वहाँ ले जाते हैं, उससे वह अपने cards और नई scheduling state बनाता है।
+Nibomo कोई Quizlet URL नहीं पढ़ सकता, Quizlet account की copy नहीं बना सकता, बाद में Quizlet में हुए बदलाव sync नहीं कर सकता और export से छूटी images या study history वापस नहीं ला सकता। आप जो सामग्री वहाँ ले जाते हैं, उससे वह अपने cards और नई scheduling state बनाता है।
 
 अगर agent access के अलावा बाकी फ़ायदे और नुकसान भी तौलने हैं, तो [open source Quizlet alternative की तुलना](/blog/quizlet-alternative/) देखें।
 
@@ -94,7 +94,7 @@ Flashcards कोई Quizlet URL नहीं पढ़ सकता, Quizlet ac
 
 सार्वजनिक contract से integration से जुड़ी कुछ अनिश्चितता दूर होती है, लेकिन इससे हर MCP action सुरक्षित नहीं हो जाता। OAuth connection को authenticate करता है। वह यह गारंटी नहीं देता कि AI से बना card सही है, यह पक्का नहीं करता कि वापस मिला card data flashcard service के भीतर ही रहे और न यह तय करता है कि कोई बदलाव आपकी मंशा से मेल खाता है।
 
-Flashcards पढ़ने वाले operations को अपने write tools से अलग रखता है: cards और decks के लिए `sql_execute`, reviews के लिए `submit_review`। फिर भी OAuth credential पूरे connector surface पर लागू होता है, इसलिए tools को block करने और approvals का व्यवहार client पर निर्भर करता है। शुरुआत छोटे और non-sensitive workspace से करें। Agent को केवल वही data पढ़ने दें जो काम के लिए ज़रूरी है। Client में सुविधा हो तो हर write के लिए approval रखें, और बदलाव स्वीकार करने से पहले workspace तथा प्रस्तावित बदलाव की जाँच करें।
+Nibomo पढ़ने वाले operations को अपने write tools से अलग रखता है: cards और decks के लिए `sql_execute`, reviews के लिए `submit_review`। फिर भी OAuth credential पूरे connector surface पर लागू होता है, इसलिए tools को block करने और approvals का व्यवहार client पर निर्भर करता है। शुरुआत छोटे और non-sensitive workspace से करें। Agent को केवल वही data पढ़ने दें जो काम के लिए ज़रूरी है। Client में सुविधा हो तो हर write के लिए approval रखें, और बदलाव स्वीकार करने से पहले workspace तथा प्रस्तावित बदलाव की जाँच करें।
 
 निजी study material तब तक न जोड़ें, जब तक आप AI client की retention और data-handling terms न देख लें। विस्तृत threat model [क्या MCP Flashcards के लिए सुरक्षित है?](/blog/is-mcp-safe-for-flashcards/) में है। पहले transfer के लिए एक आसान नियम काफ़ी है: मूल export रखें, कुछ cards का preview देखें, सीमित write को मंज़ूरी दें और आगे बढ़ने से पहले destination app में नतीजे की जाँच करें।
 

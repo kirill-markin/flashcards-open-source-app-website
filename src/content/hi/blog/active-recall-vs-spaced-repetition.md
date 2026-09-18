@@ -220,7 +220,7 @@ Sequence थोड़ा boring है। शायद इसी वजह स�
 
 अगर retrieval practice करते हैं, लेकिन useful misses को किसी असली review system में नहीं ले जाते, तो आप memory से memory organize करवाने की उम्मीद कर रहे हैं। यह आम तौर पर ठीक नहीं चलता।
 
-## Flashcards कहाँ fit बैठता है
+## Nibomo कहाँ fit बैठता है
 
 [Nibomo](/hi/) explanation के बाद, tutor के बाद, quiz के बाद, और practice session के बाद अच्छी तरह fit बैठता है।
 

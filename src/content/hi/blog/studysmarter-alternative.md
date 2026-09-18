@@ -17,7 +17,7 @@ keywords:
 
 StudySmarter में flashcards अकेले नहीं रहते। एक study set के साथ notes, upload की गई सामग्री, shared content, quizzes, mock exams और पूरे course की योजना भी हो सकती है। Nibomo जानबूझकर दायरा छोटा रखता है: front/back cards और उन्हें दोहराने की queue। **StudySmarter का विकल्प** खोजते समय सबसे पहले इसी फर्क को समझना जरूरी है।
 
-Flashcards, StudySmarter का छोटा version नहीं है। यह उन लोगों के लिए है जिनके notes और source material पहले से किसी दूसरी जगह हैं और जिन्हें अब सिर्फ एक सरल, focused flashcard app चाहिए। अगर आपका पूरा course StudySmarter में चलता है, तो बदलने पर आप कुछ अतिरिक्त features से कहीं ज्यादा खो देंगे।
+Nibomo, StudySmarter का छोटा version नहीं है। यह उन लोगों के लिए है जिनके notes और source material पहले से किसी दूसरी जगह हैं और जिन्हें अब सिर्फ एक सरल, focused flashcard app चाहिए। अगर आपका पूरा course StudySmarter में चलता है, तो बदलने पर आप कुछ अतिरिक्त features से कहीं ज्यादा खो देंगे।
 
 > **खुलासा:** मैं Kirill Markin हूँ और इस तुलना में शामिल products में से एक, [Nibomo](/features/), बनाता हूँ। Native notes, source material, ready-made और community content, quizzes, mock exams और study planning के लिए StudySmarter बेहतर है।
 
@@ -29,9 +29,9 @@ Flashcards, StudySmarter का छोटा version नहीं है। य�
 
 - Notes, upload की गई learning material, shared sets, explanations, quizzes, mock exams और planning एक ही product में चाहिए, तो **StudySmarter** चुनें।
 - Documented FSRS-6 scheduling, offline-first local writes और sync, MIT-licensed code, AI-agent access और supported whole-stack AWS CDK deployment के साथ front/back cards संभालने हैं, तो **Nibomo** चुनें।
-- StudySmarter से शिकायत छोटी है, तो **StudySmarter** के साथ रहें। दोनों products के बीच कोई documented lossless migration नहीं है, और Flashcards पर जाने का मतलब course-level tools छोड़ना होगा।
+- StudySmarter से शिकायत छोटी है, तो **StudySmarter** के साथ रहें। दोनों products के बीच कोई documented lossless migration नहीं है, और Nibomo पर जाने का मतलब course-level tools छोड़ना होगा।
 
-कोई एक app चुनने से आपकी पढ़ाई अपने-आप ज्यादा गंभीर नहीं हो जाती। StudySmarter course material से exam की तैयारी तक का बड़ा हिस्सा संभालता है। Flashcards का काम cards के छोटे collection को लंबे समय तक दोहराने लायक बनाए रखना है।
+कोई एक app चुनने से आपकी पढ़ाई अपने-आप ज्यादा गंभीर नहीं हो जाती। StudySmarter course material से exam की तैयारी तक का बड़ा हिस्सा संभालता है। Nibomo का काम cards के छोटे collection को लंबे समय तक दोहराने लायक बनाए रखना है।
 
 ## StudySmarter vs Nibomo: एक नज़र में
 
@@ -49,7 +49,7 @@ Flashcards, StudySmarter का छोटा version नहीं है। य�
 | Ownership और hosting | Users अपने uploads के अधिकार रखते हैं, लेकिन platform को usage rights देते हैं; product proprietary है और पूरी service को self-host करने का official रास्ता नहीं है | MIT-licensed application और infrastructure; AWS CDK के जरिए supported production deployment |
 | Portability | यहाँ complete migration का कोई दावा नहीं किया गया है | Package export सिर्फ cards, tags और referenced media transfer करता है; यह full backup नहीं है |
 
-यह table जानबूझकर एक जैसी खूबियों वाली तुलना नहीं है। StudySmarter पढ़ाई से जुड़े ज्यादा काम संभालता है, इसलिए उसमें native tools भी ज्यादा हैं। Flashcards तभी भरोसेमंद विकल्प है जब उसका छोटा दायरा, scheduler की पारदर्शिता, offline-first card workflow या infrastructure पर control आपकी किसी असली समस्या को हल करता हो।
+यह table जानबूझकर एक जैसी खूबियों वाली तुलना नहीं है। StudySmarter पढ़ाई से जुड़े ज्यादा काम संभालता है, इसलिए उसमें native tools भी ज्यादा हैं। Nibomo तभी भरोसेमंद विकल्प है जब उसका छोटा दायरा, scheduler की पारदर्शिता, offline-first card workflow या infrastructure पर control आपकी किसी असली समस्या को हल करता हो।
 
 ## सबसे पहले तय करें कि आप किस चीज की जगह लेना चाहते हैं
 
@@ -57,13 +57,13 @@ Flashcards, StudySmarter का छोटा version नहीं है। य�
 
 इससे अलग-अलग apps को जोड़कर workflow बनाने की जरूरत कम हो सकती है। आप course material को study set में रख सकते हैं, notes बना सकते हैं, quizzes से practice कर सकते हैं, exam date track कर सकते हैं और असली assessment से पहले mock exams दे सकते हैं। Cards इस system का सिर्फ एक हिस्सा हैं, पूरा system नहीं।
 
-Flashcards में course shell, public study library, textbook catalogue, revision calendar या exam activities का menu नहीं है। इसका model front, back, deck, tags, media और review state के आसपास रहता है। अगर आपको सिर्फ यही काम करना है और StudySmarter जरूरत से ज्यादा बड़ा लगता है, तो यह सीमित दायरा उपयोगी है। लेकिन अगर उसी बड़े workflow से आपका subject व्यवस्थित रहता है, तो Flashcards पर जाने में बड़ा नुकसान होगा।
+Nibomo में course shell, public study library, textbook catalogue, revision calendar या exam activities का menu नहीं है। इसका model front, back, deck, tags, media और review state के आसपास रहता है। अगर आपको सिर्फ यही काम करना है और StudySmarter जरूरत से ज्यादा बड़ा लगता है, तो यह सीमित दायरा उपयोगी है। लेकिन अगर उसी बड़े workflow से आपका subject व्यवस्थित रहता है, तो Nibomo पर जाने में बड़ा नुकसान होगा।
 
 ## Native notes की सीमा साफ है
 
 StudySmarter का [notes feature](https://www.studysmarter.co.uk/features/notes/) notes और documents को बाकी learning material के साथ रखता है। उसके official product page पर templates, highlighting और annotation tools का भी जिक्र है। ये notes उसी study environment में रहते हैं जिसमें sets और flashcards हैं।
 
-Flashcards में native notes editor, linked notebook या document knowledge base नहीं है। उसका online AI chat supported attachments पढ़कर चुनी हुई सामग्री को cards में बदलने में मदद कर सकता है, लेकिन save होने वाला नतीजा फिर भी front/back cards का collection है। यहाँ आप lecture outline संभालने या कई हफ्तों तक किसी chapter पर annotations करने नहीं आएँगे।
+Nibomo में native notes editor, linked notebook या document knowledge base नहीं है। उसका online AI chat supported attachments पढ़कर चुनी हुई सामग्री को cards में बदलने में मदद कर सकता है, लेकिन save होने वाला नतीजा फिर भी front/back cards का collection है। यहाँ आप lecture outline संभालने या कई हफ्तों तक किसी chapter पर annotations करने नहीं आएँगे।
 
 अगर विस्तार से notes लिखना और बाद में उन्हें दोबारा पढ़ना आपकी learning का हिस्सा है, तो StudySmarter चुनें। Focused flashcard app तब ज्यादा सही बैठता है जब notes की अपनी जगह पहले से तय हो और आपको सिर्फ याद रखने लायक facts को review के लिए रखना हो।
 
@@ -73,15 +73,15 @@ Official [StudySmarter flashcards page](https://www.studysmarter.co.uk/features/
 
 ये tools अलग-अलग तरह की तैयारी जाँचते हैं। Ready-made material शुरुआत के लिए content देता है। Multiple-choice quizzes से coverage जल्दी जाँची जा सकती है। Mock exams written reasoning, timing और exam technique की ऐसी कमियाँ दिखा सकते हैं जिन्हें card queue दोहरा नहीं सकती।
 
-Flashcards एक prompt दिखाता है, फिर answer खोलता है और Again, Hard, Good या Easy दर्ज करता है। इसमें native community library, multiple-choice quiz builder, timed exam mode, mock-exam generator या study-game layer नहीं है। चार choices सामने न होने पर answer याद करना उपयोगी practice है, लेकिन यह exam rehearsal की जगह नहीं लेता। [Flashcards और practice tests अलग समस्याएँ हल करते हैं](/blog/flashcards-vs-practice-tests/); StudySmarter दोनों को एक ही product में रखता है।
+Nibomo एक prompt दिखाता है, फिर answer खोलता है और Again, Hard, Good या Easy दर्ज करता है। इसमें native community library, multiple-choice quiz builder, timed exam mode, mock-exam generator या study-game layer नहीं है। चार choices सामने न होने पर answer याद करना उपयोगी practice है, लेकिन यह exam rehearsal की जगह नहीं लेता। [Flashcards और practice tests अलग समस्याएँ हल करते हैं](/blog/flashcards-vs-practice-tests/); StudySmarter दोनों को एक ही product में रखता है।
 
 ## दोनों reviews schedule करते हैं, पर FSRS-6 सिर्फ एक में documented है
 
 StudySmarter के मुताबिक उसका flashcard trainer ऐसा spaced-repetition algorithm इस्तेमाल करता है जो आपकी study performance के हिसाब से बदलता है। इतना दावा साफ तौर पर किया जा सकता है: वह cards को adaptively schedule करता है। इस लेख के लिए देखे गए official StudySmarter pages scheduler को FSRS नहीं कहते, इसलिए इस तुलना में उसे वह नाम नहीं दिया गया है।
 
-Flashcards अपने product और source repository, दोनों में FSRS-6 को साफ तौर पर दर्ज करता है। Again, Hard, Good या Easy चुनने पर card की memory state और अगली due date update होती है। केवल product description से अनुमान लगाने के बजाय implementation और pinned parameters देखे जा सकते हैं।
+Nibomo अपने product और source repository, दोनों में FSRS-6 को साफ तौर पर दर्ज करता है। Again, Hard, Good या Easy चुनने पर card की memory state और अगली due date update होती है। केवल product description से अनुमान लगाने के बजाय implementation और pinned parameters देखे जा सकते हैं।
 
-अगर आप समझना चाहते हैं कि कल की queue कौन तय करता है, तो यह पारदर्शिता काम की है। इससे Flashcards notes, planning या exam practice में बेहतर नहीं हो जाता। Scheduler इसे चुनने की एक खास वजह हो सकता है, बाकी तुलना को दरकिनार करने की वजह नहीं। [FSRS vs SM-2 guide](/blog/fsrs-vs-sm-2/) model और उसके tradeoffs समझाती है।
+अगर आप समझना चाहते हैं कि कल की queue कौन तय करता है, तो यह पारदर्शिता काम की है। इससे Nibomo notes, planning या exam practice में बेहतर नहीं हो जाता। Scheduler इसे चुनने की एक खास वजह हो सकता है, बाकी तुलना को दरकिनार करने की वजह नहीं। [FSRS vs SM-2 guide](/blog/fsrs-vs-sm-2/) model और उसके tradeoffs समझाती है।
 
 ## StudySmarter का offline mode उपयोगी है, लेकिन सीमित है
 
@@ -89,15 +89,15 @@ StudySmarter पूरी तरह online-only नहीं है। उसक
 
 इस सीमा को समझना जरूरी है। Documented mode आपके download किए हुए sets के flashcards पर लागू होता है; यह वादा नहीं करता कि notes, community material, quizzes, AI और StudySmarter का हर दूसरा feature बिना connection चलेगा।
 
-Flashcards अपने card workflow में local-first writes इस्तेमाल करता है। Web client data को IndexedDB में रखता है, जबकि mobile clients local SQLite storage इस्तेमाल करते हैं। Edits और reviews device पर save होते हैं, sync queue में इंतजार करते हैं और connection लौटने पर server तक पहुँचते हैं। [Offline flashcards guide](/blog/best-offline-flashcards-app/) बताती है कि यह सिर्फ mobile app खोल पाने से कैसे अलग है।
+Nibomo अपने card workflow में local-first writes इस्तेमाल करता है। Web client data को IndexedDB में रखता है, जबकि mobile clients local SQLite storage इस्तेमाल करते हैं। Edits और reviews device पर save होते हैं, sync queue में इंतजार करते हैं और connection लौटने पर server तक पहुँचते हैं। [Offline flashcards guide](/blog/best-offline-flashcards-app/) बताती है कि यह सिर्फ mobile app खोल पाने से कैसे अलग है।
 
-Flashcards AI के लिए फिर भी network connection चाहिए। Offline-first का दावा cards, edits, reviews और बाद में होने वाले sync पर लागू होता है, on-device AI पर नहीं।
+Nibomo AI के लिए फिर भी network connection चाहिए। Offline-first का दावा cards, edits, reviews और बाद में होने वाले sync पर लागू होता है, on-device AI पर नहीं।
 
 ## AI में भी all-in-one और focused workflow का फर्क है
 
 [StudySmarter AI](https://www.studysmarter.co.uk/ai/) पूरे study workflow में फैला है। उसके official pages personalised explanations, lecture slides से flashcards बनाना, learning material तैयार करना, mock exams और exam answers पर feedback जैसे features बताते हैं। इसका काम course inputs को पढ़ाई की कई तरह की सामग्री में बदलने में मदद करना है।
 
-Flashcards AI card workspace के भीतर काम करता है। उसका online chat supported attachments और workspace data की मदद से cards का draft बना सकता है, उन्हें बेहतर या व्यवस्थित कर सकता है और edit कर सकता है; क्या save होगा, इसका control आपके पास रहता है। Codex, Claude Code और दूसरे external tools MCP या Agent API के जरिए connect कर सकते हैं। [Getting-started guide](/docs/getting-started/) में यह तरीका documented है।
+Nibomo AI card workspace के भीतर काम करता है। उसका online chat supported attachments और workspace data की मदद से cards का draft बना सकता है, उन्हें बेहतर या व्यवस्थित कर सकता है और edit कर सकता है; क्या save होगा, इसका control आपके पास रहता है। Codex, Claude Code और दूसरे external tools MCP या Agent API के जरिए connect कर सकते हैं। [Getting-started guide](/docs/getting-started/) में यह तरीका documented है।
 
 Technical workflows में agent access उपयोगी है, लेकिन यह StudySmarter के lecture material से notes, quizzes और exam feedback तक जाने वाले polished workflow को दोबारा नहीं बनाता। असली चुनाव output का है: अलग-अलग तरह की study material चाहिए या front/back card collection पर नियंत्रित तरीके से काम करना है।
 
@@ -107,11 +107,11 @@ StudySmarter की English [terms](https://www.studysmarter.co.uk/terms/), ज�
 
 इसका मतलब यह नहीं है कि StudySmarter हर upload का मालिक बन जाता है। Copyright ownership और platform पर operational control अलग बातें हैं। StudySmarter proprietary है, और यहाँ देखी गई official material पूरी StudySmarter service को self-host करने का रास्ता नहीं देती।
 
-Flashcards application और infrastructure को MIT license के तहत publish करता है। Production के लिए इसका supported रास्ता whole-stack AWS CDK deployment है, जिसमें web app, backend, authentication, database, storage और related services शामिल हैं। इस control के साथ असली काम भी आता है: cloud accounts और costs, domains, email delivery, monitoring, secrets, upgrades, migrations, backups और restore testing। इसे झटपट होने वाला install समझने से पहले [self-hosting guide](/docs/self-hosting/) पढ़ें।
+Nibomo application और infrastructure को MIT license के तहत publish करता है। Production के लिए इसका supported रास्ता whole-stack AWS CDK deployment है, जिसमें web app, backend, authentication, database, storage और related services शामिल हैं। इस control के साथ असली काम भी आता है: cloud accounts और costs, domains, email delivery, monitoring, secrets, upgrades, migrations, backups और restore testing। इसे झटपट होने वाला install समझने से पहले [self-hosting guide](/docs/self-hosting/) पढ़ें।
 
-Open source होने से Flashcards का built-in export अपने-आप complete नहीं हो जाता। Workspace package cards, tags और referenced media transfer करता है। उसमें review history, FSRS state, workspace settings, पूरा deck structure और account data शामिल नहीं होते। यह content transfer करने का package है, full backup या hosted app से self-hosted setup तक lossless migration नहीं।
+Open source होने से Nibomo का built-in export अपने-आप complete नहीं हो जाता। Workspace package cards, tags और referenced media transfer करता है। उसमें review history, FSRS state, workspace settings, पूरा deck structure और account data शामिल नहीं होते। यह content transfer करने का package है, full backup या hosted app से self-hosted setup तक lossless migration नहीं।
 
-Complete StudySmarter export या Flashcards में direct migration का वादा करने लायक official जानकारी मुझे नहीं मिली। Original source files अपने पास रखें और ज्यादा content move करने से पहले अलग-अलग तरह की सामग्री वाला एक छोटा sample आजमाएँ।
+Complete StudySmarter export या Nibomo में direct migration का वादा करने लायक official जानकारी मुझे नहीं मिली। Original source files अपने पास रखें और ज्यादा content move करने से पहले अलग-अलग तरह की सामग्री वाला एक छोटा sample आजमाएँ।
 
 ## आपके workflow के लिए कौन-सा StudySmarter alternative सही है?
 
@@ -121,15 +121,15 @@ Notes, uploaded source material, community sets, quizzes, mock exams और plan
 
 StudySmarter तभी छोड़ें जब दूसरा product आपकी कोई साफ समस्या हल करता हो। सिर्फ साफ-सुथरी card screen के लिए पहले से काम कर रहे course workflow को खोना शायद ही सही सौदा हो।
 
-### Focused card collection के लिए Flashcards चुनें
+### Focused card collection के लिए Nibomo चुनें
 
-Flashcards तब सही है जब notes और source material पहले से कहीं और हों और study app को सिर्फ front/back cards संभालने हों। Documented FSRS-6, offline-first local writes, open code, agent access और whole-stack control इसे चुनने की वजहें हैं।
+Nibomo तब सही है जब notes और source material पहले से कहीं और हों और study app को सिर्फ front/back cards संभालने हों। Documented FSRS-6, offline-first local writes, open code, agent access और whole-stack control इसे चुनने की वजहें हैं।
 
 समझौता साफ है: community library, native notes system, quiz suite, mock exams या course planner नहीं मिलता। Hosted app [beta के दौरान मुफ्त](/pricing/) है, जबकि self-hosting में infrastructure costs और लगातार maintenance जुड़ती है।
 
 ### अलग-अलग stages में दोनों इस्तेमाल करें
 
-StudySmarter notes, shared material, quiz practice, mock exams और planning संभाल सकता है। Course या exam के बाद Flashcards जाँचे हुए facts का काफी छोटा set ongoing FSRS review के लिए रख सकता है।
+StudySmarter notes, shared material, quiz practice, mock exams और planning संभाल सकता है। Course या exam के बाद Nibomo जाँचे हुए facts का काफी छोटा set ongoing FSRS review के लिए रख सकता है।
 
 यह manual workflow है, automatic migration नहीं। Cards चुनकर copy करें, हर card को source से मिलाएँ और मानकर चलें कि review history और scheduler state पीछे रह जाएँगी।
 
@@ -137,6 +137,6 @@ StudySmarter notes, shared material, quiz practice, mock exams और planning �
 
 अगर आपका workflow lecture slides, notes, community resources, quizzes और exam calendar से शुरू होता है, तो StudySmarter बेहतर विकल्प है। इसे cards के आसपास का पूरा course संभालने के लिए बनाया गया है।
 
-अगर शुरुआत जाँचे हुए facts के साफ set से होती है और लक्ष्य उन्हें लंबे समय तक front/back recall से याद रखना है, तो Flashcards ज्यादा focused **StudySmarter का विकल्प** है। बड़े suite के बदले आपको documented FSRS-6, offline-first sync, MIT-licensed code, agent access और supported whole-stack self-hosting मिलता है।
+अगर शुरुआत जाँचे हुए facts के साफ set से होती है और लक्ष्य उन्हें लंबे समय तक front/back recall से याद रखना है, तो Nibomo ज्यादा focused **StudySmarter का विकल्प** है। बड़े suite के बदले आपको documented FSRS-6, offline-first sync, MIT-licensed code, agent access और supported whole-stack self-hosting मिलता है।
 
-मैं Flashcards बनाता हूँ, फिर भी StudySmarter की आम जगह लेने के लिए इसकी सलाह नहीं दूँगा। जब सीमित workflow ही **StudySmarter alternative** खोजने की वजह हो, तभी इसे चुनने की सलाह दूँगा। अगर आपकी जरूरत यही है, तो [Nibomo features](/features/) पढ़ें या [getting-started guide](/docs/getting-started/) से शुरुआत करें।
+मैं Nibomo बनाता हूँ, फिर भी StudySmarter की आम जगह लेने के लिए इसकी सलाह नहीं दूँगा। जब सीमित workflow ही **StudySmarter alternative** खोजने की वजह हो, तभी इसे चुनने की सलाह दूँगा। अगर आपकी जरूरत यही है, तो [Nibomo features](/features/) पढ़ें या [getting-started guide](/docs/getting-started/) से शुरुआत करें।

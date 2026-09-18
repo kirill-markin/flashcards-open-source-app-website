@@ -229,7 +229,7 @@ AI explanation को candidate flashcards में बदलने में �
 
 अगर आप इसी हिस्से को tighten करना चाहते हैं, तो [2026 में बेहतर flashcards कैसे बनाएं](/hi/blog/how-to-make-better-flashcards/) और [2026 में AI से active recall कैसे करें](/hi/blog/how-to-use-ai-for-active-recall/) COMLEX workflow के साथ अच्छी तरह pair होते हैं।
 
-## Flashcards कहाँ fit बैठता है
+## Nibomo कहाँ fit बैठता है
 
 [Nibomo](/hi/) तब सबसे useful होता है जब आपको साफ दिखने लगे कि किस चीज को retention में जाना चाहिए।
 

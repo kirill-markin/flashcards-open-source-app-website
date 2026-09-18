@@ -231,7 +231,7 @@ Official [FSRS tutorial](https://github.com/open-spaced-repetition/fsrs4anki/blo
 - muddy grading intervals को कम trustworthy बनाती है
 - बार-बार दिए गए "almost" ratings weak card को एक irritating middle state में फँसाए रख सकते हैं
 
-यह Flashcards में भी मायने रखता है, क्योंकि app `Again`, `Hard`, `Good`, और `Easy` के साथ FSRS review इस्तेमाल करता है। बार-बार `Again` दबाना शर्म की बात नहीं है। वह data है। Card edit माँग रहा है।
+यह Nibomo में भी मायने रखता है, क्योंकि app `Again`, `Hard`, `Good`, और `Easy` के साथ FSRS review इस्तेमाल करता है। बार-बार `Again` दबाना शर्म की बात नहीं है। वह data है। Card edit माँग रहा है।
 
 ## Weekly leech-cleanup के लिए एक simple loop
 
@@ -246,9 +246,9 @@ Official [FSRS tutorial](https://github.com/open-spaced-repetition/fsrs4anki/blo
 
 ज़्यादातर decks के लिए इतना काफ़ी है। आपको कोई grand taxonomy, leech dashboard, या पूरा weekend deck management में खोने की ज़रूरत नहीं है। आपको बस यह आदत चाहिए कि खराब cards को circulation में बनाए रखने से इनकार करें।
 
-## Flashcards में repeated-failure cards को कैसे handle करें
+## Nibomo में repeated-failure cards को कैसे handle करें
 
-अगर आप खास तौर पर Flashcards इस्तेमाल कर रहे हैं, तो workflow काफ़ी सीधा है:
+अगर आप खास तौर पर Nibomo इस्तेमाल कर रहे हैं, तो workflow काफ़ी सीधा है:
 
 1. Honest FSRS ratings के साथ normal review करें।
 2. जब वही card बार-बार fail हो, तो यह उम्मीद करने के बजाय कि अगली बार ठीक हो जाएगा, card के front या back को edit करें।

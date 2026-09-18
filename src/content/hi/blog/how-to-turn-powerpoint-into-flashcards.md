@@ -50,7 +50,7 @@ keywords:
 
 यहाँ ऐसा नहीं होता।
 
-Flashcards तब useful होता है जब आप पहले meaningful slide content निकाल लें। आप text paste कर सकते हैं, supporting material upload कर सकते हैं, AI chat से draft cards बनवा सकते हैं, front/back cards edit कर सकते हैं, उन्हें decks और tags में organize कर सकते हैं, और FSRS के साथ review कर सकते हैं। लेकिन यह raw PowerPoint या Google Slides deck को अपने आप ingest करके अच्छे cards में नहीं बदलता।
+Nibomo तब useful होता है जब आप पहले meaningful slide content निकाल लें। आप text paste कर सकते हैं, supporting material upload कर सकते हैं, AI chat से draft cards बनवा सकते हैं, front/back cards edit कर सकते हैं, उन्हें decks और tags में organize कर सकते हैं, और FSRS के साथ review कर सकते हैं। लेकिन यह raw PowerPoint या Google Slides deck को अपने आप ingest करके अच्छे cards में नहीं बदलता।
 
 यह कम magical लगता है, लेकिन यही honest version है। असली bottleneck कभी file upload नहीं था। असली काम हमेशा यह समझना था कि slide कहना क्या चाहती है।
 
@@ -216,7 +216,7 @@ Class के दौरान speaker verbs, examples, warnings, और transitio
 
 Flashy version हर बार लगभग एक ही वजह से fail होती है: बहुत सारी cards, बहुत जल्दी, और उनमें lecture shorthand अब भी भरी रहती है।
 
-## Extraction step के बाद Flashcards कहाँ fit बैठती है
+## Extraction step के बाद Nibomo कहाँ fit बैठती है
 
 जब उपयोगी slide content text form में आ जाती है, तब [Nibomo](/hi/features/) वही हिस्सा संभालती है जो सच में मायने रखता है:
 

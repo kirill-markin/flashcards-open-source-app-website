@@ -221,7 +221,7 @@ Claude से उम्मीदवार माँगें, तैयार �
 
 अगर आप Nibomo इस्तेमाल करते हैं, तो Claude अपने remote custom connector के ज़रिए मंज़ूर किए गए कार्ड सेव भी कर सकता है। Anthropic की [मौजूदा custom connector मार्गदर्शिका](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp) के अनुसार remote connectors Free, Pro, Max, Team और Enterprise प्लान पर उपलब्ध हैं; Free उपयोगकर्ता एक connector जोड़ सकते हैं। केवल भरोसेमंद server जोड़ें और मंज़ूरी देने से पहले हर write action की समीक्षा करें।
 
-Flashcards MCP URL है:
+Nibomo MCP URL है:
 
 ```text
 https://mcp.nibomo.com/mcp
@@ -230,7 +230,7 @@ https://mcp.nibomo.com/mcp
 कार्ड सेव करने के लिए connector में `list_workspaces`, read-only `sql_query`, कार्ड लिखने के नियमों वाला `get_guide` और write tool `sql_execute` उपलब्ध हैं। कार्ड भेजने का दायरा छोटा रखें:
 
 ```text
-Flashcards connector का इस्तेमाल केवल उन्हीं कार्ड के लिए करो जिन्हें मैंने
+Nibomo connector का इस्तेमाल केवल उन्हीं कार्ड के लिए करो जिन्हें मैंने
 मंज़ूरी दी है। पहले मेरे workspaces की सूची दिखाओ और पूछो कि कौन-सा इस्तेमाल
 करना है। लिखने से पहले कार्ड के सामने और पीछे का सटीक टेक्स्ट और destination
 दिखाओ। जब तक मैं preview मंज़ूर न करूँ, कुछ मत बनाओ। लिखने के बाद सेव किए गए
@@ -239,7 +239,7 @@ Flashcards connector का इस्तेमाल केवल उन्ह�
 
 [Claude connector की चरण-दर-चरण मार्गदर्शिका](/blog/how-to-connect-flashcards-to-claude-with-mcp/) setup और permissions समझाती है; पढ़ाई के सत्र में वही setup दोहराने की ज़रूरत नहीं है। [MCP connector संदर्भ](/docs/mcp-connector/) मौजूदा tools और authentication का विवरण देता है।
 
-Claude मंज़ूर किए गए कार्ड बना सकता है, लेकिन FSRS scheduling Flashcards में ही रहती है। जब किसी कार्ड के रिव्यू का समय आए, तो [वेब ऐप](https://app.flashcards-open-source-app.com/) खोलें, जवाब याद करें, सही जवाब सामने लाएँ और वहीं अपना रिव्यू दर्ज करें। Connector access न देना चाहें, तो हाथ से कॉपी करना भी अपने आप में पूरा वर्कफ़्लो है।
+Claude मंज़ूर किए गए कार्ड बना सकता है, लेकिन FSRS scheduling Nibomo में ही रहती है। जब किसी कार्ड के रिव्यू का समय आए, तो [वेब ऐप](https://app.flashcards-open-source-app.com/) खोलें, जवाब याद करें, सही जवाब सामने लाएँ और वहीं अपना रिव्यू दर्ज करें। Connector access न देना चाहें, तो हाथ से कॉपी करना भी अपने आप में पूरा वर्कफ़्लो है।
 
 ## Claude को कहाँ अब भी आपकी निगरानी चाहिए
 

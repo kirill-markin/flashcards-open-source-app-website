@@ -157,16 +157,16 @@ Microsoft की usage guide session के अंदर remediation और miss
 
 अगर handoff के बाद card-writing rules को और सख़्त करना है, तो [2026 में बेहतर Flashcards कैसे बनाएं](/hi/blog/how-to-make-better-flashcards/) इस cleanup को और गहराई से समझाता है।
 
-## Copilot के बाद durable layer Flashcards है
+## Copilot के बाद durable layer Nibomo है
 
 [Nibomo](/hi/features/) Study and Learn को replace करने की कोशिश नहीं कर रही।
 
-coaching का काम Copilot को ही रखना चाहिए। long-term review का काम Flashcards को।
+coaching का काम Copilot को ही रखना चाहिए। long-term review का काम Nibomo को।
 
 यही split इस workflow को सच में काम का बनाता है:
 
 - Copilot आपके material पर guided session संभालता है
-- Flashcards आपको plain front/back card creation देता है
+- Nibomo आपको plain front/back card creation देता है
 - AI chat rough candidate cards को छोटे review prompts में rewrite करने में मदद कर सकती है
 - decks और tags weak spots को class, exam, या source के हिसाब से organize रखते हैं
 - FSRS वही review timing संभालता है जब cards सच में review करने लायक बन चुकी हों

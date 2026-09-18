@@ -238,7 +238,7 @@ Course बड़ा दिखता है, इसलिए लोग उसक�
 - [2026 में किसी Exam के लिए FSRS के साथ कैसे पढ़ें](/hi/blog/how-to-study-for-an-exam-with-fsrs/)
 - [2026 में AI से पढ़ाई कैसे करें](/hi/blog/how-to-use-ai-to-study/)
 
-## इस workflow में Flashcards कहाँ फिट बैठता है
+## इस workflow में Nibomo कहाँ फिट बैठता है
 
 [Nibomo](/hi/features/) तब सबसे अच्छा फिट बैठता है जब सिलेबस को पहले ही usable structure में बदला जा चुका हो।
 

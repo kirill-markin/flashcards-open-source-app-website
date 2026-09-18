@@ -141,7 +141,7 @@ memory training वह जगह है जहाँ आप:
 
 इसीलिए exam prep को एक साधारण-सी सीमा बहुत फायदा देती है: पहले card drafting, बाद में card reviewing।
 
-## इस workflow में Flashcards कहाँ बेहतर बैठता है
+## इस workflow में Nibomo कहाँ बेहतर बैठता है
 
 [Nibomo](https://nibomo.com/) इस समस्या के लिए अच्छा fit है क्योंकि product दोनों हिस्सों को संभाल सकता है, बिना यह दिखावा किए कि वे एक ही काम हैं।
 

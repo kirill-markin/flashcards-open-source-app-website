@@ -1,6 +1,6 @@
 ---
 title: "2026 में AI Flashcard Tutor: MCP से due कार्ड पर quiz करवाएँ और FSRS रिव्यू सेव करें"
-description: "Claude, ChatGPT या Codex को MCP के ज़रिए Flashcards से जोड़ें। AI tutor आपके due कार्ड पर quiz लेता है, हर जवाब grade करता है और rating को FSRS रिव्यू के रूप में सेव कर देता है।"
+description: "Claude, ChatGPT या Codex को MCP के ज़रिए Nibomo से जोड़ें। AI tutor आपके due कार्ड पर quiz लेता है, हर जवाब grade करता है और rating को FSRS रिव्यू के रूप में सेव कर देता है।"
 date: "2026-07-15"
 updated: "2026-09-16"
 image: "/blog/ai-flashcard-tutor-due-cards.png"
@@ -15,9 +15,9 @@ keywords:
   - "AI के साथ FSRS रिव्यू"
 ---
 
-Claude से कहें कि आपके due कार्ड पर आपका quiz ले, और Flashcards connector उसे बस एक सवाल देता है: कार्ड की ID और front text। उस response में back होता ही नहीं। आप जवाब दे दें, तो tutor सेव किया हुआ जवाब लाता है, बताता है कि आपसे क्या छूट गया, और Again, Hard, Good या Easy को असली FSRS रिव्यू के रूप में दर्ज कर देता है। आपके phone के sync होने के बाद उस कार्ड की अगली due date पहले से तय मिलती है।
+Claude से कहें कि आपके due कार्ड पर आपका quiz ले, और Nibomo connector उसे बस एक सवाल देता है: कार्ड की ID और front text। उस response में back होता ही नहीं। आप जवाब दे दें, तो tutor सेव किया हुआ जवाब लाता है, बताता है कि आपसे क्या छूट गया, और Again, Hard, Good या Easy को असली FSRS रिव्यू के रूप में दर्ज कर देता है। आपके phone के sync होने के बाद उस कार्ड की अगली due date पहले से तय मिलती है।
 
-MCP के ज़रिए Flashcards से जुड़ा **AI flashcard tutor** अब यही कर सकता है। Connector में रिव्यू के तीन tools हैं, `next_review_card`, `reveal_answer` और `submit_review`, इसलिए chat में किया गया रिव्यू भी app वाले रिव्यू की तरह ही गिना जाता है। इस guide के पुराने versions में read-only quiz का तरीका बताया गया था, जिसे बाद में app में दोहराना पड़ता था। रिव्यू tools ने अब उस जुगाड़ की जगह ले ली है।
+MCP के ज़रिए Nibomo से जुड़ा **AI flashcard tutor** अब यही कर सकता है। Connector में रिव्यू के तीन tools हैं, `next_review_card`, `reveal_answer` और `submit_review`, इसलिए chat में किया गया रिव्यू भी app वाले रिव्यू की तरह ही गिना जाता है। इस guide के पुराने versions में read-only quiz का तरीका बताया गया था, जिसे बाद में app में दोहराना पड़ता था। रिव्यू tools ने अब उस जुगाड़ की जगह ले ली है।
 
 एक बात पर ध्यान दें: grading tutor खुद करता है। Default रूप से वह छोटी-सी वजह के साथ rating बताता है और आपसे confirm करवाए बिना उसे सेव कर देता है। सेव हुआ रिव्यू इन tools से edit भी नहीं हो सकता। फिर भी हर grade पर आप अपनी बात रख सकते हैं, और यह guide इसके तीन तरीके बताती है।
 
@@ -37,7 +37,7 @@ Default नियमों में चरण 4 और 5 लगातार, �
 
 इन चरणों के बीच कुछ भी reserve नहीं होता। अगर chat बीच में टूटकर फिर से जुड़ जाए, तो `next_review_card` फिर वही लौटाता है जो उस समय queue में सबसे आगे है, और वह वही कार्ड भी हो सकता है। रिव्यू दर्ज करने का रास्ता भी एक ही है। SQL tools `review_events` पढ़ सकते हैं, लेकिन review history या FSRS scheduling state में कुछ नहीं लिख सकते, इसलिए आपके schedule तक पहुँचने का इकलौता रास्ता `submit_review` है।
 
-Grading के नियम Flashcards से आते हैं, इसलिए tutor को उन्हें खुद गढ़ना नहीं पड़ता। `get_guide` को topic `review_flow` के साथ call करने पर पूरा review loop और rating के नियम मिलते हैं। MCP पर हर रिव्यू tool अपने result में ये नियम दोहराता है, इसलिए लंबा session इस बात पर नहीं टिका रहता कि tutor को बीस मिनट पहले पढ़ी guide याद है या नहीं।
+Grading के नियम Nibomo से आते हैं, इसलिए tutor को उन्हें खुद गढ़ना नहीं पड़ता। `get_guide` को topic `review_flow` के साथ call करने पर पूरा review loop और rating के नियम मिलते हैं। MCP पर हर रिव्यू tool अपने result में ये नियम दोहराता है, इसलिए लंबा session इस बात पर नहीं टिका रहता कि tutor को बीस मिनट पहले पढ़ी guide याद है या नहीं।
 
 सिर्फ़ front दिखाने से हर कार्ड याद से जवाब निकालने की एक कोशिश बन जाता है। एक randomized trial में pediatric और emergency medicine के resident डॉक्टरों ने एक topic पर बार-बार short-answer tests दिए, जिनके साथ feedback मिलता था, और दूसरे topic पर उसी जानकारी वाली review sheet बार-बार पढ़ी। [प्रकाशित abstract](https://pubmed.ncbi.nlm.nih.gov/19930508/) के मुताबिक, छह महीने से ज़्यादा समय बाद study पूरी करने वाले 40 resident डॉक्टरों का औसत score test वाले topic पर 39% और पढ़ाई वाले topic पर 26% रहा। यह medical education की एक छोटी study थी, AI tutors की जाँच नहीं। फिर भी यह यहाँ के बुनियादी design के पक्ष में जाती है: पहले खुद कोशिश करें, फिर जवाब देखें। बड़ी तस्वीर देखनी हो, तो [active recall और spaced repetition अलग-अलग काम करते हैं](/hi/blog/active-recall-vs-spaced-repetition/), और यह loop दोनों काम करता है।
 
@@ -51,24 +51,24 @@ Interactive clients OAuth 2.1 से sign in करते हैं, जिस�
 
 URL कहाँ जोड़ना है, यह client पर निर्भर करता है:
 
-- Claude में **Customize > Connectors** में जाकर Flashcards को custom connector के रूप में जोड़ें। Anthropic की [custom connector guide](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp) के अनुसार Free plans पर सिर्फ़ एक custom connector जोड़ा जा सकता है, और Team व Enterprise plans पर पहले कोई owner organization के लिए connector जोड़ता है। [Claude MCP setup guide](/hi/blog/how-to-connect-flashcards-to-claude-with-mcp/) हर screen एक-एक करके दिखाती है।
-- ChatGPT में Flashcards एक custom MCP app के रूप में जुड़ता है। रिव्यू सेव करना एक write action है, और आप write access वाला app जोड़ सकते हैं या नहीं, और कैसे, यह आपके plan और workspace पर निर्भर करता है। कुछ plans पर admin app सेट करता है या उसे members के लिए publish करता है। अपने plan के मौजूदा steps OpenAI के [developer mode और MCP apps वाले help article](https://help.openai.com/en/articles/12584461-developer-mode-and-mcp-apps-in-chatgpt) में देखें।
-- Codex में ChatGPT desktop app की **Settings > MCP servers** में Streamable HTTP server जोड़ें, या `codex mcp add flashcards --url https://mcp.nibomo.com/mcp` चलाएँ और उसके बाद `codex mcp login flashcards`। OpenAI के [Codex MCP docs](https://learn.chatgpt.com/docs/extend/mcp) बताते हैं कि desktop app, Codex CLI और IDE extension यही configuration साझा करते हैं। ज़्यादा जानकारी [ChatGPT और Codex से पढ़ाई वाली guide](/hi/blog/how-to-use-chatgpt-codex-for-studying/) में है।
+- Claude में **Customize > Connectors** में जाकर Nibomo को custom connector के रूप में जोड़ें। Anthropic की [custom connector guide](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp) के अनुसार Free plans पर सिर्फ़ एक custom connector जोड़ा जा सकता है, और Team व Enterprise plans पर पहले कोई owner organization के लिए connector जोड़ता है। [Claude MCP setup guide](/hi/blog/how-to-connect-flashcards-to-claude-with-mcp/) हर screen एक-एक करके दिखाती है।
+- ChatGPT में Nibomo एक custom MCP app के रूप में जुड़ता है। रिव्यू सेव करना एक write action है, और आप write access वाला app जोड़ सकते हैं या नहीं, और कैसे, यह आपके plan और workspace पर निर्भर करता है। कुछ plans पर admin app सेट करता है या उसे members के लिए publish करता है। अपने plan के मौजूदा steps OpenAI के [developer mode और MCP apps वाले help article](https://help.openai.com/en/articles/12584461-developer-mode-and-mcp-apps-in-chatgpt) में देखें।
+- Codex में ChatGPT desktop app की **Settings > MCP servers** में Streamable HTTP server जोड़ें, या `codex mcp add nibomo --url https://mcp.nibomo.com/mcp` चलाएँ और उसके बाद `codex mcp login nibomo`। OpenAI के [Codex MCP docs](https://learn.chatgpt.com/docs/extend/mcp) बताते हैं कि desktop app, Codex CLI और IDE extension यही configuration साझा करते हैं। ज़्यादा जानकारी [ChatGPT और Codex से पढ़ाई वाली guide](/hi/blog/how-to-use-chatgpt-codex-for-studying/) में है।
 
-चाहें तो connection जोड़ने का step पूरी तरह छोड़ भी सकते हैं। Flashcards के अंदर वाले AI chat में वही रिव्यू tools हैं, इसलिए यह loop वहाँ भी चलता है। जो terminal agents MCP नहीं समझते, वे यही रिव्यू actions HTTP routes के रूप में call कर सकते हैं; इनका ब्योरा [Agent API reference](/hi/docs/api/) में है।
+चाहें तो connection जोड़ने का step पूरी तरह छोड़ भी सकते हैं। Nibomo के अंदर वाले AI chat में वही रिव्यू tools हैं, इसलिए यह loop वहाँ भी चलता है। जो terminal agents MCP नहीं समझते, वे यही रिव्यू actions HTTP routes के रूप में call कर सकते हैं; इनका ब्योरा [Agent API reference](/hi/docs/api/) में है।
 
 ## रिव्यू के लिए ज़रूरी tools ही चालू करें
 
 Connector में सात tools हैं। रिव्यू session इनमें से पाँच इस्तेमाल करता है: `list_workspaces`, `get_guide`, `next_review_card`, `reveal_answer` और `submit_review`। Tutor से किसी डेक या tag का नाम ढुँढवाना हो, तो `sql_query` काम आता है। `sql_execute` कार्ड और डेक बनाता, बदलता और delete करता है। रिव्यू में इसकी कभी ज़रूरत नहीं पड़ती, इसलिए आपका client इजाज़त दे, तो इस session के लिए इसे block कर दें।
 
-`submit_review` को चालू रखना ही होगा, क्योंकि loop में सिर्फ़ यही कुछ लिखता है। Flashcards इसे destructive mark करता है, read-only नहीं, क्योंकि यह कार्ड की due date, review counts और FSRS state को overwrite कर देता है। कुछ clients इसी marking से तय करते हैं कि आपसे approval कब माँगना है, और grades जाँचने हों तो यही बात काम आती है।
+`submit_review` को चालू रखना ही होगा, क्योंकि loop में सिर्फ़ यही कुछ लिखता है। Nibomo इसे destructive mark करता है, read-only नहीं, क्योंकि यह कार्ड की due date, review counts और FSRS state को overwrite कर देता है। कुछ clients इसी marking से तय करते हैं कि आपसे approval कब माँगना है, और grades जाँचने हों तो यही बात काम आती है।
 
 ## यह tutor prompt copy करें
 
 शुरुआत के लिए “मेरे flashcards से मेरा quiz लो” भी चल जाता है। कुछ बातें साफ़ लिख देने से session ज़्यादा predictable रहता है, इसलिए time zone की जगह अपना time zone डालें और इसके बजाय यह paste करें:
 
 ```text
-Flashcards MCP tools इस्तेमाल करके मेरा flashcard tutor बनो।
+Nibomo MCP tools इस्तेमाल करके मेरा flashcard tutor बनो।
 
 पहला कार्ड शुरू करने से पहले:
 1. get_guide को topic review_flow के साथ call करो और उन नियमों का पालन करो।
@@ -122,14 +122,14 @@ Hint वाला नियम आप `review_flow` के ऊपर अपन�
 
 - जवाब के साथ ही rating बता दें। नियम tutor से कहते हैं कि submission से पहले आप जो rating बताएँ, वही माने, इसलिए “Canberra. थोड़ा टाइम लगा, Hard मान लो” Hard के रूप में ही सेव होना चाहिए।
 - ऊपर बदले हुए चरण 5 से manual ratings माँगें। Tutor जवाब खोलकर दिखाता है और आपके चुनने का इंतज़ार करता है।
-- ऐसा client इस्तेमाल करें जिसे आप write tools चलने से पहले पूछने के लिए set कर सकें। जिस call को आप deny करते हैं, वह Flashcards तक पहुँचती ही नहीं, इसलिए कुछ सेव नहीं होता। अगर tool input में ऐसी rating दिखे जिससे आप सहमत नहीं हैं, तो call deny करें और tutor को बताएँ कि कौन-सी rating भेजनी है।
+- ऐसा client इस्तेमाल करें जिसे आप write tools चलने से पहले पूछने के लिए set कर सकें। जिस call को आप deny करते हैं, वह Nibomo तक पहुँचती ही नहीं, इसलिए कुछ सेव नहीं होता। अगर tool input में ऐसी rating दिखे जिससे आप सहमत नहीं हैं, तो call deny करें और tutor को बताएँ कि कौन-सी rating भेजनी है।
 
 हर client यह approval step अपने तरीके से संभालता है:
 
 - Claude में connector की tool permissions में `submit_review` को **Needs approval** पर set करें। Anthropic के [connector help page](https://support.claude.com/en/articles/11176164-use-connectors-to-extend-claude-s-capabilities) पर हर tool के लिए **Always allow**, **Needs approval** और **Blocked** विकल्प दिए गए हैं, और Team व Enterprise plans पर owner पूरी organization के लिए tools सीमित भी कर सकता है। [Claude setup guide](/hi/blog/how-to-connect-flashcards-to-claude-with-mcp/) दिखाती है कि ये permissions कहाँ मिलती हैं।
 - ChatGPT में `submit_review` से पहले पूछे जाने की कोई गारंटी नहीं है। App की permissions और आपके workspace के हिसाब से ChatGPT किसी write action से पहले confirmation माँग सकता है। जवाब में rating बताना और manual ratings हर client में काम करते हैं, इसलिए ChatGPT में इन्हीं पर भरोसा करें।
 
-Codex में `writes` approval mode उन tools के लिए पूछता है जो read-only mark नहीं हैं। Codex MCP servers को `~/.codex/config.toml` में रखता है, या अगर आपने server को किसी project तक सीमित किया है, तो उस project की `.codex/config.toml` में। वहाँ Flashcards के लिए पहले से मौजूद `[mcp_servers.<name>]` table ढूँढें, जहाँ `<name>` वह नाम है जो आपने server को दिया था (ऊपर वाला `codex mcp add` command इस्तेमाल किया हो, तो `flashcards`), उसके नीचे यह line जोड़ें, file सेव करें और Codex restart करें। इसके बाद Codex हर `submit_review` और `sql_execute` call से पहले पूछेगा:
+Codex में `writes` approval mode उन tools के लिए पूछता है जो read-only mark नहीं हैं। Codex MCP servers को `~/.codex/config.toml` में रखता है, या अगर आपने server को किसी project तक सीमित किया है, तो उस project की `.codex/config.toml` में। वहाँ Nibomo के लिए पहले से मौजूद `[mcp_servers.<name>]` table ढूँढें, जहाँ `<name>` वह नाम है जो आपने server को दिया था (ऊपर वाला `codex mcp add` command इस्तेमाल किया हो, तो `nibomo`), उसके नीचे यह line जोड़ें, file सेव करें और Codex restart करें। इसके बाद Codex हर `submit_review` और `sql_execute` call से पहले पूछेगा:
 
 ```toml
 default_tools_approval_mode = "writes"
@@ -145,7 +145,7 @@ Result में नया `dueAt`, interval, कार्ड की state, औ�
 
 जो कार्ड याद नहीं आया, वह उसी session में लौट सकता है। Default steps के साथ वह कुछ ही मिनटों में फिर due हो जाता है, और `next_review_card` हाल में रिव्यू हुए due कार्ड को बाकी due कार्ड से आगे रखता है। इसलिए session काफ़ी देर चले, तो Again के बाद उस कार्ड के दोबारा आने की उम्मीद रखें।
 
-रिव्यू का समय server खुद दर्ज करता है, इसलिए tutor वाले रिव्यू के लिए live connection चाहिए। ये online actions हैं, और कहीं और किए गए रिव्यू इनसे import नहीं हो सकते। Offline रिव्यू Flashcards apps में ही होता है, और apps हमेशा की तरह sync होते हैं।
+रिव्यू का समय server खुद दर्ज करता है, इसलिए tutor वाले रिव्यू के लिए live connection चाहिए। ये online actions हैं, और कहीं और किए गए रिव्यू इनसे import नहीं हो सकते। Offline रिव्यू Nibomo apps में ही होता है, और apps हमेशा की तरह sync होते हैं।
 
 ## अगर submission fail हो जाए या chat टूट जाए
 
@@ -159,7 +159,7 @@ Result में नया `dueAt`, interval, कार्ड की state, औ�
 
 ## एक डेक या कुछ tags का रिव्यू करें
 
-`next_review_card` एक optional filter लेता है। `tags` queue को उन कार्ड तक सीमित करता है जिन पर दिए गए tags में से कोई भी tag लगा हो; छोटे-बड़े अक्षरों से फ़र्क नहीं पड़ता। जो tag आपके workspace में इस्तेमाल ही नहीं होता, उस पर खाली queue की जगह error लौटता है, इसलिए typo आसानी से पकड़ में आ जाता है। `deckId` queue को किसी saved डेक तक सीमित करता है, और Flashcards में डेक असल में एक saved tag filter होता है; बिना tags वाला डेक हर कार्ड से match करता है।
+`next_review_card` एक optional filter लेता है। `tags` queue को उन कार्ड तक सीमित करता है जिन पर दिए गए tags में से कोई भी tag लगा हो; छोटे-बड़े अक्षरों से फ़र्क नहीं पड़ता। जो tag आपके workspace में इस्तेमाल ही नहीं होता, उस पर खाली queue की जगह error लौटता है, इसलिए typo आसानी से पकड़ में आ जाता है। `deckId` queue को किसी saved डेक तक सीमित करता है, और Nibomo में डेक असल में एक saved tag filter होता है; बिना tags वाला डेक हर कार्ड से match करता है।
 
 दोनों में से कोई एक filter इस्तेमाल कर सकते हैं, दोनों एक साथ नहीं। Prompt में ऐसी line जोड़ें:
 
@@ -171,17 +171,17 @@ Result में नया `dueAt`, interval, कार्ड की state, औ�
 
 ## शुरू करने से पहले ये सीमाएँ जान लें
 
-Grade असल में model का आकलन है। Tutor जो भी rating भेजे, `submit_review` उसे सेव कर लेता है, और Flashcards के पास यह जाँचने का कोई तरीका नहीं कि आपका जवाब उस rating के लायक था या नहीं। Default रूप से जवाब खुलने और सेव होने के बीच आपसे कुछ नहीं पूछा जाता, इसलिए जब तक tutor की grading पर भरोसा न हो जाए, ऊपर दी गई जाँचों में से कोई एक चुन लें।
+Grade असल में model का आकलन है। Tutor जो भी rating भेजे, `submit_review` उसे सेव कर लेता है, और Nibomo के पास यह जाँचने का कोई तरीका नहीं कि आपका जवाब उस rating के लायक था या नहीं। Default रूप से जवाब खुलने और सेव होने के बीच आपसे कुछ नहीं पूछा जाता, इसलिए जब तक tutor की grading पर भरोसा न हो जाए, ऊपर दी गई जाँचों में से कोई एक चुन लें।
 
 Back छिपाना इस loop का तौर-तरीका भर है। `sql_query` कार्ड के दोनों sides पढ़ सकता है, इसलिए loop को नज़रअंदाज़ करने वाला tutor back पहले ही देख सकता है। जिन clients में हर tool के लिए अलग control है, उनमें `sql_query` block करने से यह रास्ता बंद हो जाता है, लेकिन तब डेक और tags खोजने की सुविधा भी चली जाती है।
 
-कार्ड का text Flashcards से बाहर जाता है। Fronts, backs और आपके जवाब AI client तक और वह जिस भी model provider को इस्तेमाल करता है, उस तक पहुँचते हैं, और वहाँ उसी provider की retention और training settings लागू होती हैं। [क्या Flashcards के लिए MCP सुरक्षित है?](/hi/blog/is-mcp-safe-for-flashcards/) data path, permissions और prompt injection को विस्तार से समझाता है। Vocabulary डेक और काम के गोपनीय notes से बने कार्ड, दोनों के लिए फ़ैसला अलग होना चाहिए।
+कार्ड का text Nibomo से बाहर जाता है। Fronts, backs और आपके जवाब AI client तक और वह जिस भी model provider को इस्तेमाल करता है, उस तक पहुँचते हैं, और वहाँ उसी provider की retention और training settings लागू होती हैं। [क्या Flashcards के लिए MCP सुरक्षित है?](/hi/blog/is-mcp-safe-for-flashcards/) data path, permissions और prompt injection को विस्तार से समझाता है। Vocabulary डेक और काम के गोपनीय notes से बने कार्ड, दोनों के लिए फ़ैसला अलग होना चाहिए।
 
 ## AI flashcard tutor के बारे में आम सवाल
 
 ### क्या Claude या ChatGPT मेरे अपने flashcards से मेरा quiz ले सकता है?
 
-हाँ। Flashcards MCP server को Claude में custom connector के रूप में, ChatGPT में custom MCP app के रूप में (अगर आपका plan और workspace write access वाले apps की अनुमति देते हैं), या Codex में MCP server के रूप में जोड़ें। इसके बाद tutor `next_review_card` से आपकी review queue से एक बार में एक कार्ड लाता है।
+हाँ। Nibomo MCP server को Claude में custom connector के रूप में, ChatGPT में custom MCP app के रूप में (अगर आपका plan और workspace write access वाले apps की अनुमति देते हैं), या Codex में MCP server के रूप में जोड़ें। इसके बाद tutor `next_review_card` से आपकी review queue से एक बार में एक कार्ड लाता है।
 
 ### क्या tutor हर rating सेव करने से पहले पूछता है?
 
@@ -201,7 +201,7 @@ MCP tools से नहीं। वहाँ सेव हुआ रिव्�
 
 ### क्या बाहरी client जोड़े बिना AI tutor इस्तेमाल किया जा सकता है?
 
-हाँ। Flashcards के अंदर वाले AI chat में वही तीन रिव्यू tools हैं, इसलिए MCP setup किए बिना आप app में ही यह loop चला सकते हैं।
+हाँ। Nibomo के अंदर वाले AI chat में वही तीन रिव्यू tools हैं, इसलिए MCP setup किए बिना आप app में ही यह loop चला सकते हैं।
 
 ### क्या मुझे API key चाहिए?
 

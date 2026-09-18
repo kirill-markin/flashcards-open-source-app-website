@@ -229,7 +229,7 @@ FSRS पुराने systems की तुलना में repetitions क
 
 आम तौर पर समस्या deck में होती है।
 
-## जहाँ Flashcards काम आता है
+## जहाँ Nibomo काम आता है
 
 [Nibomo](/hi/features/) diagnosis के बाद यहाँ काम आता है, diagnosis की जगह नहीं। बचे हुए cards को plain front/back cards की तरह रखें, उन्हें deck या tag से organize करें, और जब cards सचमुच review के लायक हो जाएँ तब timing FSRS को संभालने दें। अगर AI की मदद चाहिए, तो उसे drafting और cleanup के लिए इस्तेमाल करें, हर candidate card को live queue में फेंकने की permission की तरह नहीं।
 

@@ -185,7 +185,7 @@ image workflows को clever prompting की ज़रूरत नहीं �
 
 अगर cards पहले से मौजूद हैं और पहले से vague लग रहे हैं, तो [2026 में AI Flashcards कैसे ठीक करें](/hi/blog/how-to-fix-ai-flashcards/) अगला step है।
 
-## Cleanup pass के बाद Flashcards कहाँ fit बैठता है
+## Cleanup pass के बाद Nibomo कहाँ fit बैठता है
 
 जब image content readable हो जाए, तब [Nibomo](/hi/features/) workflow के practical हिस्से में fit बैठता है:
 

@@ -227,7 +227,7 @@ review system ज़्यादा मायने रखता है।
 
 - [2026 में FSRS बनाम SM-2](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
-## इस workflow में Flashcards कहाँ बेहतर बैठता है
+## इस workflow में Nibomo कहाँ बेहतर बैठता है
 
 [Nibomo](https://nibomo.com/) **ChatGPT Study Mode को flashcards में कैसे बदलें** वाले workflow के लिए मज़बूत fit है, क्योंकि यह product उस हिस्से को cover करता है जिसे AI tutoring अपने आप हल नहीं करती:
 
@@ -241,7 +241,7 @@ review system ज़्यादा मायने रखता है।
 
 1. topic समझने के लिए AI tutor इस्तेमाल करें
 2. missed points copy करें
-3. उन्हें Flashcards के भीतर cards के रूप में साफ़ करें
+3. उन्हें Nibomo के भीतर cards के रूप में साफ़ करें
 4. बाद में FSRS के साथ review करें
 
 यह उस उम्मीद से कहीं ज़्यादा भरोसेमंद लगता है कि एक chat session अपने आप टिकाऊ memory बन जाएगी।

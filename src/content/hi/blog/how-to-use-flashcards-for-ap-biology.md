@@ -234,7 +234,7 @@ AP Biology review बहुत सामान्य तरीके से अ�
 
 अगर scheduling side को और detail में समझना है, तो [2026 में FSRS के साथ exam की तैयारी कैसे करें](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/) इसका सीधा companion article है।
 
-## इस AP Biology workflow में Flashcards कहाँ बैठता है
+## इस AP Biology workflow में Nibomo कहाँ बैठता है
 
 अगर आप इसे [Nibomo](https://nibomo.com/) के अंदर चलाना चाहते हैं, तो उपयोगी हिस्सा यह नहीं है कि AI किसी जादू से आपके लिए biology सीख लेगा।
 

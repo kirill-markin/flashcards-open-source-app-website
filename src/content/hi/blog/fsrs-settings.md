@@ -189,7 +189,7 @@ FSRS reviews को बाँट सकता है; नए कार्डो�
 
 नतीजा बहुत बड़ा हो, तो नए कार्डों की रफ़्तार घटाकर दोबारा simulate करें। इससे scheduler को ज़्यादा भूलना स्वीकार करने के लिए कहे बिना recall target कायम रहता है।
 
-## Anki और Flashcards में FSRS controls अलग हैं
+## Anki और Nibomo में FSRS controls अलग हैं
 
 दोनों products FSRS-6 इस्तेमाल करते हैं, मगर Anki की FSRS सेटिंग्स और Nibomo की सेटिंग्स एक-दूसरे से हूबहू नहीं मिलतीं।
 
@@ -203,9 +203,9 @@ FSRS reviews को बाँट सकता है; नए कार्डो�
 | Settings changes | Default रूप से आगे के reviews पर; retroactive rescheduling वैकल्पिक है | केवल आगे के reviews पर; मौजूदा due dates दोबारा नहीं बनतीं |
 | Workload tools | **Help Me Decide (Experimental)** और **FSRS Simulator (Experimental)** | v1 में इसके बराबर कोई workload simulator नहीं है |
 
-Flashcards में standard Again, Hard, Good और Easy ratings हैं और यह हर कार्ड की FSRS memory state सँभालकर रखता है। इसके backend, iOS और Android schedulers अलग-अलग implementations हैं, जिनका व्यवहार एक जैसा रखा जाता है; web review flow चौथी copy बनाने के बजाय backend scheduler को फिर से इस्तेमाल करता है।
+Nibomo में standard Again, Hard, Good और Easy ratings हैं और यह हर कार्ड की FSRS memory state सँभालकर रखता है। इसके backend, iOS और Android schedulers अलग-अलग implementations हैं, जिनका व्यवहार एक जैसा रखा जाता है; web review flow चौथी copy बनाने के बजाय backend scheduler को फिर से इस्तेमाल करता है।
 
-इन सीमाओं और defaults को सार्वजनिक [Flashcards FSRS scheduling specification](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/docs/fsrs-scheduling-logic.md) में दर्ज किया गया है। समझौता सीधा है: Flashcards एक व्यावहारिक workspace-level FSRS-6 setup देता है, जबकि Anki में ज़्यादा बारीक scope, व्यक्तिगत fitting और simulation मिलते हैं। अगर ये controls आपके लिए ज़रूरी हैं, तो Anki बेहतर विकल्प है।
+इन सीमाओं और defaults को सार्वजनिक [Nibomo FSRS scheduling specification](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/docs/fsrs-scheduling-logic.md) में दर्ज किया गया है। समझौता सीधा है: Nibomo एक व्यावहारिक workspace-level FSRS-6 setup देता है, जबकि Anki में ज़्यादा बारीक scope, व्यक्तिगत fitting और simulation मिलते हैं। अगर ये controls आपके लिए ज़रूरी हैं, तो Anki बेहतर विकल्प है।
 
 ## पुराने कलेक्शन के लिए ज़्यादा सुरक्षित workflow
 
@@ -249,7 +249,7 @@ Default रूप से नहीं। **Reschedule cards on change** बं�
 
 नहीं। Anki ने version 25.07 में Compute Minimum Recommended Retention हटा दिया था। Anki 26.08 में retention और अनुमानित workload की तुलना के लिए **Help Me Decide (Experimental)** और **FSRS Simulator (Experimental)** इस्तेमाल करें।
 
-### क्या Flashcards भी Anki वाली सेटिंग्स इस्तेमाल करता है?
+### क्या Nibomo भी Anki वाली सेटिंग्स इस्तेमाल करता है?
 
 यह FSRS-6 इस्तेमाल करता है और हर workspace के लिए Desired retention, learning steps, relearning steps, maximum interval और fuzz देता है। यह Anki का पूरा settings model copy नहीं करता: v1 में weights तय हैं, बदलाव केवल आगे के reviews पर लागू होते हैं और व्यक्तिगत parameter optimization या workload simulator नहीं मिलता।
 
