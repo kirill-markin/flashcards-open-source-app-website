@@ -1,6 +1,6 @@
 ---
 title: "2026 年 FSRS vs SM-2：哪种间隔重复算法更能帮你记住内容？"
-description: "从实用角度比较 2026 年 Flashcards 里的 FSRS 和 SM-2。了解为什么 FSRS 往往比更旧的 SM-2 式排程带来更好的复习时机、更低的工作量和更强的间隔重复体验。"
+description: "从实用角度比较 2026 年闪卡应用里的 FSRS 和 SM-2。了解为什么 FSRS 往往比更旧的 SM-2 式排程带来更好的复习时机、更低的工作量和更强的间隔重复体验。"
 date: "2026-03-12"
 keywords:
   - "fsrs vs sm2"

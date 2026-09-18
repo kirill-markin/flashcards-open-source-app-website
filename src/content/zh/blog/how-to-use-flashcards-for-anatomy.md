@@ -248,7 +248,7 @@ keywords:
 
 如果你想更直接地了解排程这一层，[2026 年如何用 FSRS 备考](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/) 和 [2026 年 FSRS vs SM-2](https://nibomo.com/blog/fsrs-vs-sm-2/) 是两篇很合适的后续阅读。
 
-## Flashcards 在这里扮演什么角色
+## Nibomo 在这里扮演什么角色
 
 [Nibomo](https://nibomo.com/) 最适合在你已经知道“什么值得记”的前提下，用来学解剖学。
 

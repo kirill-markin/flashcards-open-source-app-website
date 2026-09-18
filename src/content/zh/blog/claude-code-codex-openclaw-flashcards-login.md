@@ -1,6 +1,6 @@
 ---
-title: "如何让 Claude Code、Codex 或 OpenClaw 帮你登录 Flashcards"
-description: "Flashcards 提供了一套开源的代理登录流程：一个 discovery URL、邮箱 OTP，以及长期有效的 API key。你只要把链接交给代理，再把邮件里的最新 8 位验证码发给它，它就能自己完成账户和工作区的初始化。"
+title: "如何让 Claude Code、Codex 或 OpenClaw 帮你登录 Nibomo"
+description: "Nibomo 提供了一套开源的代理登录流程：一个 discovery URL、邮箱 OTP，以及长期有效的 API key。你只要把链接交给代理，再把邮件里的最新 8 位验证码发给它，它就能自己完成账户和工作区的初始化。"
 date: "2026-03-10"
 keywords:
   - "claude code login"
@@ -44,7 +44,7 @@ GET https://api.flashcards-open-source-app.com/v1/
 
 代理拿到这个响应后，立刻就会知道四件事：
 
-- 这是 Flashcards 服务
+- 这是 Nibomo 服务
 - 登录和注册都使用邮箱一次性验证码
 - 验证成功后会返回一个长期有效的 API 密钥
 - 登录之后要继续完成账户和工作区初始化
@@ -55,7 +55,7 @@ GET https://api.flashcards-open-source-app.com/v1/
 
 1. 代理调用发现接口。
 2. 代理把用户邮箱发送到 `send-code`。
-3. Flashcards 把 8 位验证码发到邮箱，并返回 `otpSessionToken`。
+3. Nibomo 把 8 位验证码发到邮箱，并返回 `otpSessionToken`。
 4. 代理向用户索取最新的验证码。
 5. 代理验证验证码，并拿到长期有效的 API 密钥。
 6. 代理调用 `/v1/agent/me` 和 `/v1/agent/workspaces`。
@@ -68,10 +68,10 @@ GET https://api.flashcards-open-source-app.com/v1/
 下面这段提示词就够了：
 
 ```text
-Use this Flashcards discovery URL:
+Use this Nibomo discovery URL:
 https://api.flashcards-open-source-app.com/v1/
 
-Log in to my Flashcards account, load account context, and select or create the correct workspace.
+Log in to my Nibomo account, load account context, and select or create the correct workspace.
 Ask me only for the latest 8-digit email code when the flow requires it.
 ```
 
@@ -82,7 +82,7 @@ Ask me only for the latest 8-digit email code when the flow requires it.
 思路完全一样，只是写得更明确一些：
 
 ```text
-Connect my Flashcards account using this URL:
+Connect my Nibomo account using this URL:
 https://api.flashcards-open-source-app.com/v1/
 
 Follow the returned instructions, keep the API key secure, load my account, then continue to workspace setup.
@@ -289,7 +289,7 @@ OpenAPI 已不可用，`/v1/` 是运行时发现入口。四个旧规范路径 `
 
 ## 这是开源的
 
-Flashcards 是开源项目，所以你可以直接检查整个流程，而不是把它当成黑盒来用。
+Nibomo 是开源项目，所以你可以直接检查整个流程，而不是把它当成黑盒来用。
 
 - 仓库： [github.com/kirill-markin/flashcards-open-source-app](https://github.com/kirill-markin/flashcards-open-source-app)
 - 代理发现路由： [apps/backend/src/agent/discovery.ts](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/apps/backend/src/agent/discovery.ts)

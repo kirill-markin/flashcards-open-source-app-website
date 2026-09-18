@@ -266,7 +266,7 @@ RAND 在 [2026 年 3 月 17 日](https://www.rand.org/news/press/2026/03/student
 
 如果你想更细看排程这部分，这篇 [2026 年如何用 FSRS 备考](/zh/blog/how-to-study-for-an-exam-with-fsrs/) 就是最直接的配套文章。
 
-## Flashcards 在这套 AP Physics 1 工作流里适合放在哪一段
+## Nibomo 在这套 AP Physics 1 工作流里适合放在哪一段
 
 [Nibomo](/zh/) 很适合放进这套流程里，前提是你想把图像卡、受力错误和 FRQ 修正卡都收在同一个地方，而不是散落在笔记、截图和旧订正里。
 

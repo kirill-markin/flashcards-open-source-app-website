@@ -115,7 +115,7 @@ Obsidian 笔记里经常会有一些在 vault 里很好用、但放进闪卡草�
 
 如果你下一步想看更具体的写卡规则，可以读 [如何做出更好的闪卡](https://nibomo.com/blog/how-to-make-better-flashcards/)。
 
-## Flashcards 很适合接住 Obsidian 工作流，但并不假装自己就是你的 vault
+## Nibomo 很适合接住 Obsidian 工作流，但并不假装自己就是你的 vault
 
 [Nibomo](https://nibomo.com/) 之所以适合这个场景，是因为它能把学习这一侧处理得很干净：
 
@@ -124,7 +124,7 @@ Obsidian 笔记里经常会有一些在 vault 里很好用、但放进闪卡草�
 - 在比直接粘贴更方便时附加文件
 - 用 FSRS 复习最终留下来的卡片
 
-这比假装它是 Obsidian 的原生一层更合适。它不是你的笔记图谱、vault 浏览器，也不是插件替代品。它不需要扮演这些角色。真正有用的交接其实更简单：Obsidian 继续做笔记的家，而 Flashcards 在你开始需要主动回忆练习时接手。
+这比假装它是 Obsidian 的原生一层更合适。它不是你的笔记图谱、vault 浏览器，也不是插件替代品。它不需要扮演这些角色。真正有用的交接其实更简单：Obsidian 继续做笔记的家，而 Nibomo 在你开始需要主动回忆练习时接手。
 
 如果你想先看产品最基础的介绍，可以从[入门指南](https://nibomo.com/docs/getting-started/)开始。
 

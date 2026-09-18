@@ -176,7 +176,7 @@ Hamilton College 的 Oral Communication Center 建议，实体提示卡上只写
 
 Toastmasters 建议按正式演讲时的方式排练。如果你上台时会站立和走动，排练时也应如此（[Toastmasters，2024](https://www.toastmasters.org/Magazine/Magazine%20Issues/2024/Feb/Memorizing%20Speeches)）。卡组帮助你记住接下来要说什么，完整排练则让声音和身体也熟悉该怎样把内容讲出来。
 
-## Flashcards 能做什么，又不能做什么
+## Nibomo 能做什么，又不能做什么
 
 [Nibomo](/zh/) 适合演讲准备中的记忆训练环节：
 

@@ -116,7 +116,7 @@ Anki 通常是这场对话最后会落去的地方，因为缺失的那一层从
 
 这也是为什么我不会完全信任任何 **AI 学习工具 flashcards** 工作流的原始导出。模型很擅长起草，但在一副卡真正变成“真实卡组”之前，做第二轮人工检查依旧是值得的。
 
-## 为什么 Flashcards 更适合填补这个缺口
+## 为什么 Nibomo 更适合填补这个缺口
 
 [Nibomo](https://nibomo.com/) 很适合填补这个确切的缝隙，因为这个产品不是“只会生成”的工具，也不是“只有复习”的工具。它让你能在真正复习会发生的那个地方，顺手完成清理步骤。
 
@@ -133,7 +133,7 @@ Anki 通常是这场对话最后会落去的地方，因为缺失的那一层从
 所以从 **NotebookLM 转 flashcards** 的路径其实很直接：
 
 1. 复制或导出 NotebookLM 生成的卡
-2. 把文本发进 Flashcards AI chat
+2. 把文本发进 Nibomo AI chat
 3. 要求它改写成更短、更干净的 front/back 卡
 4. 等到措辞真的像样之后，再创建最终卡
 5. 用 FSRS 复习，而不是继续把它们留在一个 source notebook 里
@@ -183,7 +183,7 @@ NotebookLM 很多时候本来就是从那些一开始并不干净的材料起步
 1. 在 NotebookLM 里选一组来源
 2. 生成候选 flashcards
 3. 导出或复制文本
-4. 粘贴进 Flashcards AI chat
+4. 粘贴进 Nibomo AI chat
 5. 要求一张卡只保留一个事实或概念
 6. 删掉任何模糊或重复内容
 7. 创建最终卡组
@@ -193,7 +193,7 @@ NotebookLM 很多时候本来就是从那些一开始并不干净的材料起步
 
 NotebookLM 负责理解来源。
 
-Flashcards 负责清理、建卡和复习系统。
+Nibomo 负责清理、建卡和复习系统。
 
 ## 所以，2026 年使用 NotebookLM flashcards 的最佳方式是什么？
 

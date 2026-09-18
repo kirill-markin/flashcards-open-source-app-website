@@ -229,7 +229,7 @@ AI 很擅长把一段解析变成候选抽认卡。但它还没有强到可以�
 
 如果你最想收紧的是这一段流程，这两篇文章和 COMLEX 工作流很搭：[2026 年如何做出更好的抽认卡](/zh/blog/how-to-make-better-flashcards/) 和 [2026 年如何用 AI 做主动回忆](/zh/blog/how-to-use-ai-for-active-recall/)。
 
-## Flashcards 最适合在哪个阶段接进来
+## Nibomo 最适合在哪个阶段接进来
 
 [Nibomo](/zh/) 最适合接入的时点，是你已经知道哪些内容值得保留之后。
 

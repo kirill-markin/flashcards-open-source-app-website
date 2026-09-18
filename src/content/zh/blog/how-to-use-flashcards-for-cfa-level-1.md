@@ -273,7 +273,7 @@ CFA 细节会变。考试窗口、费用、报名截止日期、课程更新、�
 
 给这些内容打上 `needs-recheck` 标签，并在做决定前拿 CFA Institute 官方页面核实。你的长期卡组应该保存稳定的回忆目标。备考行政提醒应该保持容易审计。
 
-## Flashcards 在这套 CFA 工作流里的位置
+## Nibomo 在这套 CFA 工作流里的位置
 
 [Nibomo](https://nibomo.com/) 适合这套工作流，因为它支持 CFA 卡组真正需要的具体环节，同时不会假装替代 CFA Institute 材料：
 

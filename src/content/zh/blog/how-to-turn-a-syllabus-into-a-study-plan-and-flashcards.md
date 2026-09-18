@@ -238,7 +238,7 @@ keywords:
 - [2026 年如何用 FSRS 备考](/zh/blog/how-to-study-for-an-exam-with-fsrs/)
 - [2026 年如何用 AI 学习](/zh/blog/how-to-use-ai-to-study/)
 
-## Flashcards 在这套流程里处于什么位置
+## Nibomo 在这套流程里处于什么位置
 
 [Nibomo](/zh/features/) 适合放在课程大纲已经被整理成结构之后。
 

@@ -315,7 +315,7 @@ Step 1 复习本来就会呈现出一种很正常的不均匀状态。有些药�
 
 如果你想更细看调度这一层，这篇文章是最直接的配套阅读：[2026 年如何用 FSRS 为考试复习](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)。如果你的队列已经开始失控，下一篇更有用的是：[2026 年每天应该新增多少张抽认卡？](https://nibomo.com/blog/how-many-new-flashcards-per-day/)。
 
-## Flashcards 在 Step 1 工作流里的位置
+## Nibomo 在 Step 1 工作流里的位置
 
 如果你想在 [Nibomo](https://nibomo.com/) 里用这套流程，它的价值并不是某种模糊的承诺，说 AI 会替你学会医学。
 

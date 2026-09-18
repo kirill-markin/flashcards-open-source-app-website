@@ -159,20 +159,20 @@ Gemini Deep Research 最有价值的部分之一，不是它写得多顺，而�
 
 这一点值得直接说清楚，因为这一类产品页面总爱暗示自己有某种魔法式流程。
 
-Flashcards 并没有直接连接 Gemini Deep Research。Gemini 负责研究这一层。Flashcards 负责在你已经拿到材料之后，处理长期记忆这一层。
+Nibomo 并没有直接连接 Gemini Deep Research。Gemini 负责研究这一层。Nibomo 负责在你已经拿到材料之后，处理长期记忆这一层。
 
 实际路径依然很直接：
 
 1. 在 Gemini 里完成研究
 2. 复制有用的片段，或保存你想留下的报告文本
-3. 把这些文本或文件带进 Flashcards
+3. 把这些文本或文件带进 Nibomo
 4. 把它们改写成干净的正反面卡
 5. 用卡组或标签来组织这些卡
 6. 用 FSRS 复习
 
 这才是诚实的说法，而且通常也比假装“一键打通”的流程更好。大部分质量都来自筛选和编辑，而不是搬运这一步本身。
 
-## 为什么 Flashcards 适合这套流程
+## 为什么 Nibomo 适合这套流程
 
 [Nibomo](/) 不是用来取代 Gemini Deep Research 的。
 
@@ -200,7 +200,7 @@ Flashcards 并没有直接连接 Gemini Deep Research。Gemini 负责研究这�
 
 这些内容没必要永远按“它来自哪个工具”来堆在一起。
 
-在 Flashcards 里，我会按主题来组织。报告也许是 Gemini 生成的，但长期结构应该属于你正在学的那件事本身。
+在 Nibomo 里，我会按主题来组织。报告也许是 Gemini 生成的，但长期结构应该属于你正在学的那件事本身。
 
 这样 **Gemini Deep Research 间隔重复** 才会真正可行。你不是在给某一份报告建纪念馆，而是在从里面提取可复用的长期记忆单元。
 

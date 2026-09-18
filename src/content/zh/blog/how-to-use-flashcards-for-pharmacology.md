@@ -265,7 +265,7 @@ keywords:
 - [2026 年每天该新增多少张抽认卡？](https://nibomo.com/blog/how-many-new-flashcards-per-day/)
 - [2026 年如何更快复习抽认卡](https://nibomo.com/blog/how-to-review-flashcards-faster/)
 
-## Flashcards 在这套工作流里的位置
+## Nibomo 在这套工作流里的位置
 
 [Nibomo](https://nibomo.com/) 比较适合这种药理学学习方式，因为真正有用的部分，不是把药理学直接丢给 AI。我不会那样学。
 

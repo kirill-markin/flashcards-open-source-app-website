@@ -217,7 +217,7 @@ Anthropic 的[网页搜索指南](https://support.claude.com/en/articles/1068462
 
 如果你使用 Nibomo，Claude 也可以通过远程自定义连接器保存已经批准的卡片。Anthropic 的[当前自定义连接器指南](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp)说明，Free、Pro、Max、Team 和 Enterprise 套餐都能使用远程连接器；Free 用户可以添加一个。只连接你信任的服务器，并在批准前仔细查看写入操作。
 
-Flashcards MCP URL 是：
+Nibomo MCP URL 是：
 
 ```text
 https://mcp.nibomo.com/mcp
@@ -226,14 +226,14 @@ https://mcp.nibomo.com/mcp
 保存卡片时会用到该连接器的 `list_workspaces`、只读的 `sql_query`、提供写卡规则的 `get_guide`，以及写入工具 `sql_execute`。提示词要把交接范围说清楚：
 
 ```text
-Flashcards 连接器只能用于我已经批准的卡片。先列出我的工作区，再问我
+Nibomo 连接器只能用于我已经批准的卡片。先列出我的工作区，再问我
 要使用哪一个。写入前，展示完整准确的卡片正面、背面和目标位置。在我
 批准预览之前，不要创建任何内容。写入后，重新读取保存的卡片供我核对。
 ```
 
 [Claude 连接器分步指南](/blog/how-to-connect-flashcards-to-claude-with-mcp/)介绍了设置步骤和权限；无需在学习对话中重复整套设置。[MCP 连接器参考文档](/docs/mcp-connector/)记录了当前可用的工具和身份验证方式。
 
-Claude 可以创建已经批准的卡片，但 FSRS 复习安排仍由 Flashcards 负责。卡片到期后，打开 [Web 应用](https://app.flashcards-open-source-app.com/)，先回忆答案，再显示答案，并在那里记录复习结果。如果你不想授予连接器访问权限，手动复制同样是一套完整流程。
+Claude 可以创建已经批准的卡片，但 FSRS 复习安排仍由 Nibomo 负责。卡片到期后，打开 [Web 应用](https://app.flashcards-open-source-app.com/)，先回忆答案，再显示答案，并在那里记录复习结果。如果你不想授予连接器访问权限，手动复制同样是一套完整流程。
 
 ## 这些地方仍然要由你把关
 

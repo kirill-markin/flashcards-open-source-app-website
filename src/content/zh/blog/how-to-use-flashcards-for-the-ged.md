@@ -254,7 +254,7 @@ GED 官方备考材料本身就很强调练习题、答案解析和 GED Ready �
 
 如果你想更具体看排程这一层，那篇 [2026 年如何用 FSRS 备考](/blog/how-to-study-for-an-exam-with-fsrs/) 就是最直接的下一步。如果你现在的卡量已经长得太快，那篇 [2026 年每天该加多少张新抽认卡？](/blog/how-many-new-flashcards-per-day/) 反而更应该先读。
 
-## Flashcards 在这套 GED 工作流里的位置
+## Nibomo 在这套 GED 工作流里的位置
 
 [Nibomo](/) 很适合这套 GED 工作流，因为产品本身已经覆盖了这套系统里最无聊、但也最决定你能不能坚持下去的部分：
 

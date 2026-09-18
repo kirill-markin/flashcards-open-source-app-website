@@ -245,7 +245,7 @@ Core 部分是固定的：AUD、FAR 和 REG。Discipline 部分则要在 Busines
 
 - [2026 年如何用 FSRS 为考试复习](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)
 
-## Flashcards 在这套 CPA 工作流里适合放在哪里
+## Nibomo 在这套 CPA 工作流里适合放在哪里
 
 如果你想把这套流程跑在 [Nibomo](https://nibomo.com/) 里，真正有用的地方并不是那种模糊承诺，说 AI 会神奇地替你通过 CPA 考试。
 

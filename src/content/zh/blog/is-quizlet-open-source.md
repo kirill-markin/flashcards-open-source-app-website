@@ -130,11 +130,11 @@ Quizlet 的官方 GitHub 组织和公开文档都没有提供受支持的完整 
 
 > **披露：** 我是 Kirill Markin，也是 [Nibomo](/zh/features/) 的开发者。它采用 [MIT 许可证的仓库](https://github.com/kirill-markin/flashcards-open-source-app)，包含完整的 Web、iOS、Android、身份验证、后端、同步和基础设施技术栈。它公开源码的范围与 Quizlet 不同，但并不因此成为可以直接替换 Quizlet 的产品。
 
-Flashcards 提供了一套以 AWS 为核心的[自托管指南](/zh/docs/self-hosting/)，而不是一键运行的本地安装程序。部署者需要自行负责云账户、身份验证、邮件发送、监控、备份、升级和原生应用构建。
+Nibomo 提供了一套以 AWS 为核心的[自托管指南](/zh/docs/self-hosting/)，而不是一键运行的本地安装程序。部署者需要自行负责云账户、身份验证、邮件发送、监控、备份、升级和原生应用构建。
 
 它与 Quizlet 并不兼容：没有一键式 Quizlet 导入器，也没有复刻 Quizlet 的全部游戏和课堂生态。经过检查的 Quizlet 文本导出可以作为新卡片的素材，但这只是一套迁移流程，不代表它兼容 Quizlet 学习集或学习历史。
 
-如果你看重全栈源码、MIT 许可证、API 和由运营者掌控的部署，并且愿意接受上述限制，可以考虑 Flashcards。如果你更需要成熟的桌面生态、直接导入能力，或更轻量的自托管工作，则可以比较其他[开源闪卡应用](/zh/blog/best-open-source-flashcard-apps-2026/)。
+如果你看重全栈源码、MIT 许可证、API 和由运营者掌控的部署，并且愿意接受上述限制，可以考虑 Nibomo。如果你更需要成熟的桌面生态、直接导入能力，或更轻量的自托管工作，则可以比较其他[开源闪卡应用](/zh/blog/best-open-source-flashcard-apps-2026/)。
 
 ## 简短答案
 

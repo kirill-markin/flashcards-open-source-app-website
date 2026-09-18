@@ -241,7 +241,7 @@ AP Psychology 的备考通常不会很平滑。有些天你能完整做完一个
 - [2026 年如何用 FSRS 备考](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)
 - [2026 年 FSRS vs SM-2](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
-## Flashcards 在 AP Psychology 工作流里适合放在哪一段
+## Nibomo 在 AP Psychology 工作流里适合放在哪一段
 
 如果你想把这套流程放进 [Nibomo](https://nibomo.com/) 里，真正有用的地方，不是某种模糊的承诺，说 AI 会神奇地帮你把 AP Psych 全都学完。
 
