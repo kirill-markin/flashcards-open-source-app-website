@@ -246,7 +246,7 @@ What FSRS does not do is rescue bloated prompts. The order matters:
 
 If you want the scheduler side explained more directly, [How to Study for an Exam With FSRS in 2026](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/) and [FSRS vs SM-2 in 2026](https://nibomo.com/blog/fsrs-vs-sm-2/) are the two clean follow-ups.
 
-## Where Flashcards fits
+## Where Nibomo fits
 
 [Nibomo](https://nibomo.com/) fits anatomy best after you already know what needs to be remembered.
 

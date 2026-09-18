@@ -196,7 +196,7 @@ If you want the scheduling side in more detail, [FSRS Settings in 2026](/blog/fs
 
 This article is narrower. Perplexity found the hole. FSRS helps you close it over time.
 
-## Where Flashcards fits
+## Where Nibomo fits
 
 [Nibomo](/) fits after Learn Mode, once you know what is worth keeping.
 
@@ -205,7 +205,7 @@ There is no magic Perplexity import button I need to pretend exists. The useful 
 1. finish the Learn Mode session
 2. copy the weak spots, the cleaned-up card draft, or both
 3. keep the source note snippet or citation beside each candidate card while you edit
-4. paste that into Flashcards AI chat or create the cards directly
+4. paste that into Nibomo AI chat or create the cards directly
 5. edit the wording into simple front/back cards
 6. organize them by deck or tag
 7. review them with FSRS

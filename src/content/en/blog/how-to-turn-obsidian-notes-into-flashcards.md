@@ -115,7 +115,7 @@ This is where the editing pass earns its keep. The AI draft gets you speed. The 
 
 If you want better card-writing rules next, read [How to Make Better Flashcards](https://nibomo.com/blog/how-to-make-better-flashcards/).
 
-## Flashcards fits the Obsidian workflow without pretending to be your vault
+## Nibomo fits the Obsidian workflow without pretending to be your vault
 
 [Nibomo](https://nibomo.com/) makes sense here because it handles the study side of the workflow cleanly:
 
@@ -124,7 +124,7 @@ If you want better card-writing rules next, read [How to Make Better Flashcards]
 - attach files when that is easier than pasting
 - review the final cards with FSRS
 
-That is a better fit than pretending the app is a native Obsidian layer. It is not your note graph, vault browser, or plugin replacement. It does not need to be. The useful handoff is simpler: Obsidian stays the notes home, and Flashcards takes over once you want retrieval practice.
+That is a better fit than pretending the app is a native Obsidian layer. It is not your note graph, vault browser, or plugin replacement. It does not need to be. The useful handoff is simpler: Obsidian stays the notes home, and Nibomo takes over once you want retrieval practice.
 
 If you want the product basics first, start with [Getting Started](https://nibomo.com/docs/getting-started/).
 

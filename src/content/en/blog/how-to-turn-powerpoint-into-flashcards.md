@@ -50,7 +50,7 @@ If you are searching **pptx to flashcards**, you may be hoping for a one-click w
 
 That is not how this works.
 
-Flashcards is useful after you extract the meaningful slide content first. You can paste text, upload supporting material, use AI chat to draft cards, edit front/back cards, organize them into decks and tags, and review with FSRS. What it does not do is natively ingest a raw PowerPoint or Google Slides deck and turn it into good cards by itself.
+Nibomo is useful after you extract the meaningful slide content first. You can paste text, upload supporting material, use AI chat to draft cards, edit front/back cards, organize them into decks and tags, and review with FSRS. What it does not do is natively ingest a raw PowerPoint or Google Slides deck and turn it into good cards by itself.
 
 That sounds less magical, but it is more honest. The real bottleneck was never file upload. It was deciding what the slide actually meant.
 
@@ -216,7 +216,7 @@ That workflow survives real use because it keeps the drafting step small and the
 
 The flashy version usually fails for the same reason every time: too many cards, too quickly, with too much lecture shorthand still inside them.
 
-## Where Flashcards fits after the extraction step
+## Where Nibomo fits after the extraction step
 
 Once the useful slide content is in text form, [Nibomo](/features/) covers the part that matters:
 

@@ -34,7 +34,7 @@ That boundary decides most **Anki vs Nibomo** comparisons. Stay with Anki when c
 | You want to control the server | Official self-hosted server replaces collection and media sync | Documented AWS deployment covers web, auth, backend, sync, AI worker, and infrastructure | Depends whether you need **sync only** or the **whole stack** |
 | You want source for the complete client-and-service stack | Desktop Anki and the sync server are public; AnkiDroid is a separate public project; the complete AnkiMobile and AnkiWeb source is not public | Web, iOS, Android, auth, backend, sync, agent surfaces, and infrastructure are MIT-licensed in one repository | **Nibomo** |
 
-The safest answer for a serious existing Anki user is usually to stay. Flashcards becomes a sensible trial when one of its different boundaries solves a real problem—not merely because its interface is newer.
+The safest answer for a serious existing Anki user is usually to stay. Nibomo becomes a sensible trial when one of its different boundaries solves a real problem—not merely because its interface is newer.
 
 ## Anki's maturity is part of the product
 
@@ -50,21 +50,21 @@ More important than the release number is everything accumulated around the coll
 
 Its [packaged exports](https://docs.ankiweb.net/exporting.html) also carry more structure than a plain card list. A `.colpkg` can contain the entire collection, including all decks and scheduling information, with media as an export option. An `.apkg` can contain a deck's cards, notes, and note types, plus optional scheduling information, deck presets, and media. That is useful for backup, device transfer, and migration to software that understands Anki packages.
 
-Flashcards does not match this depth. It has [released web, iOS, and Android clients](https://github.com/kirill-markin/flashcards-open-source-app#available-on), but no native Windows, macOS, or Linux client, comparable add-on catalog, shared-deck ecosystem, template engine, or direct Anki package importer. If any of those holds your study workflow together, changing apps would remove working capability.
+Nibomo does not match this depth. It has [released web, iOS, and Android clients](https://github.com/kirill-markin/flashcards-open-source-app#available-on), but no native Windows, macOS, or Linux client, comparable add-on catalog, shared-deck ecosystem, template engine, or direct Anki package importer. If any of those holds your study workflow together, changing apps would remove working capability.
 
 ## Both use FSRS, but your scheduler state will not move
 
 FSRS is not a reason by itself to leave Anki. Anki's [FSRS settings](https://docs.ankiweb.net/deck-options.html#fsrs) can optimize parameters from your review history, set desired retention, and apply different presets to different decks. It is a mature, configurable FSRS implementation.
 
-Flashcards also uses FSRS rather than a fixed interval or ease-factor scheduler. The current implementation keeps the familiar Again, Hard, Good, and Easy ratings and mirrors FSRS-6 behavior across its backend, iOS, and Android clients; the web review flow reuses the backend scheduler module. Workspace settings cover desired retention, learning and relearning steps, maximum interval, and fuzz, but the FSRS weights are pinned rather than optimized from your review history. Those settings are forward-only: a change affects future reviews without recomputing existing card state. The [scheduling documentation](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/docs/fsrs-scheduling-logic.md) describes the exact state and cross-platform parity rules.
+Nibomo also uses FSRS rather than a fixed interval or ease-factor scheduler. The current implementation keeps the familiar Again, Hard, Good, and Easy ratings and mirrors FSRS-6 behavior across its backend, iOS, and Android clients; the web review flow reuses the backend scheduler module. Workspace settings cover desired retention, learning and relearning steps, maximum interval, and fuzz, but the FSRS weights are pinned rather than optimized from your review history. Those settings are forward-only: a change affects future reviews without recomputing existing card state. The [scheduling documentation](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/docs/fsrs-scheduling-logic.md) describes the exact state and cross-platform parity rules.
 
-These are two capable FSRS implementations, not one shared schedule. Flashcards cannot ingest Anki review events, stability, difficulty, due dates, or optimized parameters. Imported card content starts a new scheduling history. If your current Anki queue has years of useful signal, that loss matters more than the fact that both apps say “FSRS.”
+These are two capable FSRS implementations, not one shared schedule. Nibomo cannot ingest Anki review events, stability, difficulty, due dates, or optimized parameters. Imported card content starts a new scheduling history. If your current Anki queue has years of useful signal, that loss matters more than the fact that both apps say “FSRS.”
 
 ## Offline behavior has two different shapes
 
 Anki's installed clients keep a collection on the device. You can review and make ordinary edits offline, then use [AnkiWeb sync](https://docs.ankiweb.net/syncing.html) after reconnecting. Reviews and note edits normally merge across devices; note-type and template changes can require a one-way sync. AnkiWeb itself is an online browser service, not an offline web app. The detailed [Anki offline guide](/blog/does-anki-work-offline/) covers media preparation and conflict handling.
 
-Flashcards is offline-first across its clients. The [architecture](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/docs/architecture.md#offline-first-sync) uses IndexedDB on the web and SQLite on iOS; the [Android app uses Room over SQLite](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/apps/android/README.md#platform-baseline). A card edit or review is written locally, queued in an outbox, and pushed when the network returns. Review events are append-only, while current card, deck, and workspace-settings state uses last-writer-wins metadata. Media metadata syncs separately from the file bytes, which move through client upload and download queues.
+Nibomo is offline-first across its clients. The [architecture](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/docs/architecture.md#offline-first-sync) uses IndexedDB on the web and SQLite on iOS; the [Android app uses Room over SQLite](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/apps/android/README.md#platform-baseline). A card edit or review is written locally, queued in an outbox, and pushed when the network returns. Review events are append-only, while current card, deck, and workspace-settings state uses last-writer-wins metadata. Media metadata syncs separately from the file bytes, which move through client upload and download queues.
 
 Offline-first does not mean that every feature is offline. AI calls, sign-in, initial hydration, and synchronization need network services. Each client needs the relevant workspace data before it disconnects, and media works offline only after that client has cached the file bytes. Whichever app you choose, rehearse the exact phone or laptop in airplane mode before relying on it for travel.
 
@@ -72,9 +72,9 @@ Offline-first does not mean that every feature is offline. AI calls, sign-in, in
 
 Anki gives you control close to the card format. Fields, note types, templates, imports, and add-ons can support highly specific workflows. That flexibility is difficult to replace if you use cloze variants, custom styling, language tooling, media-heavy notes, or automation built around the Anki collection.
 
-Flashcards keeps a narrower card model and puts more automation inside the product. The [hosted app](/docs/getting-started/) includes AI chat with workspace context and file attachments. You can ask it to draft or rewrite cards, inspect the proposal, and decide what gets saved. That is useful for turning text or CSV source material into editable front/back cards, but AI review is not format-preserving import.
+Nibomo keeps a narrower card model and puts more automation inside the product. The [hosted app](/docs/getting-started/) includes AI chat with workspace context and file attachments. You can ask it to draft or rewrite cards, inspect the proposal, and decide what gets saved. That is useful for turning text or CSV source material into editable front/back cards, but AI review is not format-preserving import.
 
-The other released difference is machine access. Flashcards exposes an [Agent API](/docs/api/) and an MCP connector for tools such as Claude Code and Codex. Agents can authenticate, select a workspace, query the published data surface, and create or edit cards. If your workflow starts in a terminal or an AI agent, this is a first-class path rather than an add-on layered onto the desktop app.
+The other released difference is machine access. Nibomo exposes an [Agent API](/docs/api/) and an MCP connector for tools such as Claude Code and Codex. Agents can authenticate, select a workspace, query the published data surface, and create or edit cards. If your workflow starts in a terminal or an AI agent, this is a first-class path rather than an add-on layered onto the desktop app.
 
 That convenience has a network boundary too. Hosted AI depends on the hosted services, and a self-hosted operator must configure the model provider and run the production chat worker. The quick local Docker setup does not provide the complete AI path.
 
@@ -86,22 +86,22 @@ Anki's official [self-hosted sync server](https://docs.ankiweb.net/sync-server.h
 
 The shorter [Anki open-source boundary guide](/blog/is-anki-open-source/) covers each client without repeating the full license map here.
 
-Flashcards publishes a broader boundary. Its [MIT-licensed repository](https://github.com/kirill-markin/flashcards-open-source-app) contains the web app, iOS and Android clients, auth, backend, sync, MCP and agent surfaces, and AWS infrastructure. You can inspect and change the system as a whole.
+Nibomo publishes a broader boundary. Its [MIT-licensed repository](https://github.com/kirill-markin/flashcards-open-source-app) contains the web app, iOS and Android clients, auth, backend, sync, MCP and agent surfaces, and AWS infrastructure. You can inspect and change the system as a whole.
 
 Whole-stack self-hosting also means whole-stack operations. The supported [production self-hosting path](/docs/self-hosting/) uses AWS CDK with RDS, Cognito, API Gateway, Lambda, S3, CloudFront, Cloudflare configuration, email delivery, monitoring, and backups. It is not a vendor-neutral one-command deployment. You maintain cloud costs, secrets, upgrades, migrations, restore tests, and any native apps you build and distribute. Docker Compose is for local development, not production.
 
-So the self-hosting decision is not simply “Flashcards can, Anki cannot.” Anki offers a smaller self-hosted sync component around mature local clients. Flashcards offers a larger deployable product stack with a much larger operator surface.
+So the self-hosting decision is not simply “Nibomo can, Anki cannot.” Anki offers a smaller self-hosted sync component around mature local clients. Nibomo offers a larger deployable product stack with a much larger operator surface.
 
 ## Data control is not the same as migration fidelity
 
-Flashcards can export and import its own [portable `flashcards.zip` workspace package](https://github.com/kirill-markin/flashcards-open-source-app/tree/main/apps/backend/src/workspacePackages). Its `cards.json` contains the selected cards' front and back text, card type, tags, and package or card-source metadata; the ZIP also contains media referenced by those cards. It does **not** preserve the original card IDs, review history, FSRS state, workspace settings, deck structures, or account data. A self-hosted operator needs database and media backups for disaster recovery.
+Nibomo can export and import its own [portable `flashcards.zip` workspace package](https://github.com/kirill-markin/flashcards-open-source-app/tree/main/apps/backend/src/workspacePackages). Its `cards.json` contains the selected cards' front and back text, card type, tags, and package or card-source metadata; the ZIP also contains media referenced by those cards. It does **not** preserve the original card IDs, review history, FSRS state, workspace settings, deck structures, or account data. A self-hosted operator needs database and media backups for disaster recovery.
 
-Anki's full collection export is more complete at the user level. This is an important counterweight to Flashcards' broader source repository: readable source and deployable infrastructure do not automatically produce a more faithful personal-data export.
+Anki's full collection export is more complete at the user level. This is an important counterweight to Nibomo's broader source repository: readable source and deployable infrastructure do not automatically produce a more faithful personal-data export.
 
-Moving from Anki to Flashcards is currently a content-redrafting workflow:
+Moving from Anki to Nibomo is currently a content-redrafting workflow:
 
 1. Export mostly text-based notes with Anki's **Notes in Plain Text** option, which produces a tab-separated text file.
-2. Attach that TXT file in Flashcards AI chat. CSV is also accepted if you deliberately convert the export.
+2. Attach that TXT file in Nibomo AI chat. CSV is also accepted if you deliberately convert the export.
 3. Ask for front/back card drafts and any tag cleanup you need.
 4. Inspect every draft before saving it.
 5. Recreate or verify media separately.
@@ -114,13 +114,13 @@ Do not migrate your whole profile to find out whether the new review screen feel
 
 1. **Back up Anki first.** Export a full `.colpkg` with scheduling information and media, then keep it somewhere outside the active profile.
 2. **Choose one representative deck.** Include the card types, tags, cloze behavior, images, audio, formulas, and review history that would expose a bad migration.
-3. **Keep an Anki-native copy.** Export that deck as `.apkg` before creating the TXT or CSV copy for Flashcards.
-4. **Draft, do not blindly import.** Ask Flashcards to produce a preview, then compare card counts, fronts, backs, tags, formatting, and media references with Anki.
+3. **Keep an Anki-native copy.** Export that deck as `.apkg` before creating the TXT or CSV copy for Nibomo.
+4. **Draft, do not blindly import.** Ask Nibomo to produce a preview, then compare card counts, fronts, backs, tags, formatting, and media references with Anki.
 5. **Assume the queue restarts.** Check that a fresh FSRS history is acceptable for this material. Do not expect answers in one app to update the other.
 6. **Test the released surfaces you will use.** Review and edit on web, iOS, or Android, take a device offline, reconnect, and confirm the changes and media arrive where expected.
 7. **Keep both systems until the constraint is proven.** A successful content draft is not proof that the daily review, sync, export, and recovery workflow fits you.
 
-The trial may end with two tools: established decks stay in Anki, while a new subject starts in Flashcards. That is a cleaner result than forcing a complete switch.
+The trial may end with two tools: established decks stay in Anki, while a new subject starts in Nibomo. That is a cleaner result than forcing a complete switch.
 
 ## Who should use Anki?
 
@@ -136,7 +136,7 @@ For an exam or another high-stakes workflow already running well, staying with A
 
 ## Who should try Nibomo?
 
-Try Flashcards if you:
+Try Nibomo if you:
 
 - are starting a new deck or have mostly simple front/back material;
 - want one MIT-licensed repository covering web, iOS, Android, backend, auth, sync, and infrastructure;
@@ -151,4 +151,4 @@ You can start with the [hosted app](https://app.flashcards-open-source-app.com/)
 
 For most established users comparing **Anki vs Nibomo**, Anki should remain the main app. It has the stronger collection model, migration fidelity, customization surface, and ecosystem, while already offering FSRS and reliable offline clients.
 
-Flashcards is a credible open source Anki alternative for a narrower group: people willing to start a fresh schedule in exchange for whole-stack source access, released web and native apps, offline-first sync, built-in AI, and agent workflows. Test that trade with one representative deck. If the limitation you wanted to escape actually disappears, expand from there.
+Nibomo is a credible open source Anki alternative for a narrower group: people willing to start a fresh schedule in exchange for whole-stack source access, released web and native apps, offline-first sync, built-in AI, and agent workflows. Test that trade with one representative deck. If the limitation you wanted to escape actually disappears, expand from there.

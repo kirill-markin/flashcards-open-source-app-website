@@ -133,7 +133,7 @@ Direct-link convenience matters once. Editing, reviewing, and moving the deck ma
 Use this order when choosing:
 
 1. **Decide whether you need cards at all.** Choose Gizmo's documented route when a guided lesson is the goal. Choose a card generator when you already understand the material and want retrieval practice.
-2. **Decide where you will review.** StudyFetch and Knowt make sense when their own study environment is the destination. AnkiDecks is the clearest fit when Anki is the destination. Flashcards fits when you want FSRS plus control of what is saved and exported.
+2. **Decide where you will review.** StudyFetch and Knowt make sense when their own study environment is the destination. AnkiDecks is the clearest fit when Anki is the destination. Nibomo fits when you want FSRS plus control of what is saved and exported.
 3. **Check the source type.** A clean, captioned lecture is friendly to transcript-based generation. A math derivation, coding demo, art tutorial, or diagram-heavy lesson needs manual visual checks.
 4. **Test editing and source references.** Confirm that you can fix the question and answer, preserve the context you need, and trace a doubtful card back to the video. The cited product pages do not describe these controls consistently, so test them instead of assuming.
 5. **Check portability before volume.** A documented `.apkg` or portable export is an exit path. “You can create cards” is not the same promise.
@@ -155,4 +155,4 @@ That extra transcript step is the cost. The benefit is what happens after genera
 
 It is a good fit when the video is only today's source and the deck needs to remain useful next month. It is not the best fit when one-click YouTube ingestion is your main requirement.
 
-The practical verdict is simple: pick StudyFetch for varied in-product card formats, Knowt for its Chrome-extension route, AnkiDecks for a documented `.apkg` exit, or Gizmo for a transcript-grounded tutor lesson. Pick the manual Flashcards route when verification, editing, FSRS review, and ownership matter more than saving the transcript-copying step. Whichever route looks best, run the five-card test before giving it an hour-long lecture.
+The practical verdict is simple: pick StudyFetch for varied in-product card formats, Knowt for its Chrome-extension route, AnkiDecks for a documented `.apkg` exit, or Gizmo for a transcript-grounded tutor lesson. Pick the manual Nibomo route when verification, editing, FSRS review, and ownership matter more than saving the transcript-copying step. Whichever route looks best, run the five-card test before giving it an hour-long lecture.

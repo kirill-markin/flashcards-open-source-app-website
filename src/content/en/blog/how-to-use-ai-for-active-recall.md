@@ -18,7 +18,7 @@ Tuesday night I let an AI tutor walk me through a stats concept I thought I knew
 
 That is the problem with most "AI for studying" workflows. AI is now very good at explaining, coaching, and quizzing. It is also very good at making you feel ready a little earlier than you actually are.
 
-The version that holds up is simpler: let the AI ask first, answer in your own words, keep only the misses and slow spots, then turn those weak spots into small flashcards and review them with FSRS. The AI tutor exposes the gap. Flashcards stores, organizes, and schedules the follow-up.
+The version that holds up is simpler: let the AI ask first, answer in your own words, keep only the misses and slow spots, then turn those weak spots into small flashcards and review them with FSRS. The AI tutor exposes the gap. Nibomo stores, organizes, and schedules the follow-up.
 
 ![Warm desk scene showing AI active recall with flashcards and a study notebook](/blog/how-to-use-ai-for-active-recall.png)
 
@@ -203,7 +203,7 @@ The deck should answer one question only:
 
 What did I fail to retrieve cleanly enough that I want another shot at it later?
 
-## Where Flashcards fits
+## Where Nibomo fits
 
 [Nibomo](/) fits after the tutoring session, once you know what deserves retention.
 
@@ -214,7 +214,7 @@ There is no magic button that turns a good chat into long-term memory. The usefu
 3. clean those into straightforward cards
 4. review them with FSRS over time
 
-That is where Flashcards becomes useful:
+That is where Nibomo becomes useful:
 
 - front/back cards for the weak spots you actually found
 - decks and tags so the cards stay organized by class, exam, or topic

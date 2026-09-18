@@ -130,11 +130,11 @@ The [broader Quizlet alternatives guide](/blog/quizlet-alternative/) covers prod
 
 > **Disclosure:** I am Kirill Markin, and I build [Nibomo](/features/). Its [MIT-licensed repository](https://github.com/kirill-markin/flashcards-open-source-app) contains the full web, iOS, Android, authentication, backend, sync, and infrastructure stack. That provides a different source boundary from Quizlet, but it does not make Nibomo a drop-in Quizlet replacement.
 
-Flashcards has an [AWS-centered self-hosting guide](/docs/self-hosting/), not a one-click local installer. The operator owns the cloud accounts, authentication, email delivery, monitoring, backups, upgrades, and native app builds.
+Nibomo has an [AWS-centered self-hosting guide](/docs/self-hosting/), not a one-click local installer. The operator owns the cloud accounts, authentication, email delivery, monitoring, backups, upgrades, and native app builds.
 
-It is not Quizlet-compatible. There is no one-click Quizlet importer, and Flashcards does not reproduce Quizlet's complete games and classroom ecosystem. You can use a reviewed Quizlet text export as source material for new cards, but that is a migration workflow—not compatibility with Quizlet sets or study history.
+It is not Quizlet-compatible. There is no one-click Quizlet importer, and Nibomo does not reproduce Quizlet's complete games and classroom ecosystem. You can use a reviewed Quizlet text export as source material for new cards, but that is a migration workflow—not compatibility with Quizlet sets or study history.
 
-Consider Flashcards when full-stack source, MIT licensing, an API, and operator-controlled deployment matter enough to accept those limits. Consider other [open-source flashcard apps](/blog/best-open-source-flashcard-apps-2026/) when a mature desktop ecosystem, direct import, or a smaller self-hosting job matters more.
+Consider Nibomo when full-stack source, MIT licensing, an API, and operator-controlled deployment matter enough to accept those limits. Consider other [open-source flashcard apps](/blog/best-open-source-flashcard-apps-2026/) when a mature desktop ecosystem, direct import, or a smaller self-hosting job matters more.
 
 ## The short answer
 

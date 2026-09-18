@@ -39,7 +39,7 @@ That makes this topic overlap with both [How to Turn Notes Into Flashcards](/blo
 
 I would not treat native sync as the main goal here.
 
-Flashcards is useful after you pull the relevant text out of the doc. The current product gives you AI chat, file attachments, plain text uploads, front/back card creation, and FSRS review. It does not promise a special Google Docs integration that reads a live shared document and silently turns it into a clean deck for you. That is the more honest workflow. You can see the current product surface on the [features page](/features/).
+Nibomo is useful after you pull the relevant text out of the doc. The current product gives you AI chat, file attachments, plain text uploads, front/back card creation, and FSRS review. It does not promise a special Google Docs integration that reads a live shared document and silently turns it into a clean deck for you. That is the more honest workflow. You can see the current product surface on the [features page](/features/).
 
 For a Google Docs workflow, that is usually enough:
 
@@ -141,7 +141,7 @@ This is the version I would trust on a Wednesday night when I do not want a seco
 1. Freeze one small section of the Google Doc.
 2. Keep the heading, the final text, and the comments that reveal real confusion.
 3. Delete admin chatter, duplicates, suggestion debris, and owner ambiguity.
-4. Copy that cleaned section into Flashcards AI chat, or attach an exported file if that is easier to inspect.
+4. Copy that cleaned section into Nibomo AI chat, or attach an exported file if that is easier to inspect.
 5. Ask for plain front/back cards with one fact, distinction, or step per card.
 6. Delete weak or repeated cards before they ever reach review.
 7. Rewrite long answers and split overloaded cards.

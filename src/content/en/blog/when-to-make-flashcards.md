@@ -236,7 +236,7 @@ Nothing fancy there.
 
 That is the point.
 
-## Where Flashcards fits this workflow
+## Where Nibomo fits this workflow
 
 [Nibomo](/) works well for this timing because the app covers the narrow moment between "I understood this" and "now I need clean cards before the details drift."
 

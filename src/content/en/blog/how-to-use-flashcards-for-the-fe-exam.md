@@ -340,7 +340,7 @@ These two articles are the natural next reads for that part:
 - [How to Study for an Exam With FSRS in 2026](/blog/how-to-study-for-an-exam-with-fsrs/)
 - [FSRS Settings in 2026: What to Change and What to Leave Alone](/blog/fsrs-settings/)
 
-## Where Flashcards fits in this workflow
+## Where Nibomo fits in this workflow
 
 [Nibomo](https://nibomo.com/) is a good fit for this style of FE prep because the product supports the middle of the workflow, not just the first draft:
 

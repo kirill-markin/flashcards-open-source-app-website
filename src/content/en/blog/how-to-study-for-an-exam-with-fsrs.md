@@ -141,7 +141,7 @@ When those two workflows blur together, studying starts to feel productive witho
 
 That is why exam prep benefits so much from a boring boundary: card drafting earlier, card reviewing later.
 
-## Where Flashcards fits this workflow better
+## Where Nibomo fits this workflow better
 
 [Nibomo](https://nibomo.com/) is a strong fit for this problem because the product can handle both halves without pretending they are the same job.
 

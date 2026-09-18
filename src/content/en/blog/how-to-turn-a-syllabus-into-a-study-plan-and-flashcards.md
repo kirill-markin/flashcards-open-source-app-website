@@ -238,7 +238,7 @@ If your goal is exam prep from a broader course pile, these companion pieces fit
 - [How to Study for an Exam With FSRS in 2026](/blog/how-to-study-for-an-exam-with-fsrs/)
 - [How to Use AI to Study in 2026](/blog/how-to-use-ai-to-study/)
 
-## Where Flashcards fits in this workflow
+## Where Nibomo fits in this workflow
 
 [Nibomo](/features/) fits after the syllabus has already been turned into structure.
 

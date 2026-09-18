@@ -79,7 +79,7 @@ What they usually want is a sane middle path:
 
 That is a healthier setup than the fake choice between old desktop software and closed SaaS with a study tab.
 
-## What Flashcards already documents
+## What Nibomo already documents
 
 [Nibomo](/) fits that middle path because the control choices are already visible in the repo, [features page](/features/), docs, and public pages.
 
@@ -120,7 +120,7 @@ A better **private flashcard app** keeps AI in a smaller role:
 
 That is not anti-AI. It is just cleaner.
 
-The hosted Flashcards docs and pages already separate those capabilities instead of presenting AI as the only path through the product. The [getting started guide](/docs/getting-started/) lists card creation, due-card review, and AI chat as distinct parts of the hosted app. The [terms](/terms/) are also explicit that AI chat is optional and that hosted AI requests may be processed by third-party AI providers if you choose to use that feature.
+The hosted Nibomo docs and pages already separate those capabilities instead of presenting AI as the only path through the product. The [getting started guide](/docs/getting-started/) lists card creation, due-card review, and AI chat as distinct parts of the hosted app. The [terms](/terms/) are also explicit that AI chat is optional and that hosted AI requests may be processed by third-party AI providers if you choose to use that feature.
 
 That is the kind of clarity I want from a privacy-sensitive study tool. Not perfection. Clear boundaries.
 
@@ -146,7 +146,7 @@ An app that stores cards locally, lets you review locally, and syncs later gives
 
 That is one reason **offline flashcards** and privacy belong in the same conversation.
 
-In Flashcards, the current architecture docs already describe the iOS client as local SQLite plus sync push and pull through the backend. That is a stronger position than a browser-only tool that feels modern until the connection drops.
+In Nibomo, the current architecture docs already describe the iOS client as local SQLite plus sync push and pull through the backend. That is a stronger position than a browser-only tool that feels modern until the connection drops.
 
 If the offline side is your main requirement, the companion piece on [offline-first flashcards](/blog/best-offline-flashcards-app/) goes deeper.
 
@@ -158,7 +158,7 @@ You usually will not get that from a hosted product, because hosted products nee
 
 That is exactly why the self-hosted path matters.
 
-The Flashcards self-hosting docs already describe a local setup for Postgres, auth, backend, and web, and they document `AUTH_MODE=none` for local use. In plain English, the project already supports a **study app no account** path when you run your own local stack instead of using the hosted service.
+The Nibomo self-hosting docs already describe a local setup for Postgres, auth, backend, and web, and they document `AUTH_MODE=none` for local use. In plain English, the project already supports a **study app no account** path when you run your own local stack instead of using the hosted service.
 
 That will not be the right choice for everyone. Most people should probably start with the hosted version and only go further if they need the extra control. But if your material is sensitive enough that third-party account boundaries are the wrong fit, this option changes the conversation.
 
@@ -168,12 +168,12 @@ If that is your priority, [Self-Hosted Open Source Flashcards App for Spaced Rep
 
 This is where many tools make privacy feel all-or-nothing.
 
-Flashcards already exposes a documented external agent surface and an MCP path instead of forcing automation through one sealed interface. The API docs are also explicit that the external agent contract is workspace-scoped after selection, which is a healthier shape than vague "AI integration" marketing.
+Nibomo already exposes a documented external agent surface and an MCP path instead of forcing automation through one sealed interface. The API docs are also explicit that the external agent contract is workspace-scoped after selection, which is a healthier shape than vague "AI integration" marketing.
 
 If the agent side matters to you, these are the useful next reads:
 
-- [How to Let Claude Code, Codex, or OpenClaw Log In to Flashcards for You](/blog/claude-code-codex-openclaw-flashcards-login/)
-- [How to Connect Flashcards to Claude with MCP](/blog/how-to-connect-flashcards-to-claude-with-mcp/)
+- [How to Let Claude Code, Codex, or OpenClaw Log In to Nibomo for You](/blog/claude-code-codex-openclaw-flashcards-login/)
+- [How to Connect Nibomo to Claude with MCP](/blog/how-to-connect-flashcards-to-claude-with-mcp/)
 
 That gives you a more inspectable setup than a study product where AI exists only inside one vendor's interface and one vendor's rules.
 

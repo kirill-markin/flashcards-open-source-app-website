@@ -261,7 +261,7 @@ That last review is more important than it looks. If your topic mix or miss patt
 
 If your daily queue starts getting sticky, [How to Review Flashcards Faster in 2026](/blog/how-to-review-flashcards-faster/) is a useful cleanup pass before you add more cards.
 
-## Where Flashcards fits
+## Where Nibomo fits
 
 [Nibomo](/) is a good fit for this workflow because it already supports the pieces that Level II candidates tend to need in one place:
 

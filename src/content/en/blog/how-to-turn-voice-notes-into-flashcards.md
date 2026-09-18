@@ -257,7 +257,7 @@ If you want the scheduler side in more detail, this goes deeper:
 
 - [FSRS vs SM-2 in 2026](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
-## Where Flashcards fits this workflow
+## Where Nibomo fits this workflow
 
 [Nibomo](https://nibomo.com/) is a strong fit for **audio to flashcards** because the product already has the pieces this workflow needs in one place:
 
@@ -271,7 +271,7 @@ That combination matters more than people admit.
 
 A lot of tools can help with transcription. A lot of tools can generate cards. The real question is where the cards go next. Do they stay editable? Do they live in the same workspace as the rest of your study material? Can you actually review them seriously afterward?
 
-That is where Flashcards feels more grounded than a one-shot transcription demo.
+That is where Nibomo feels more grounded than a one-shot transcription demo.
 
 ## I would keep the prompt boring on purpose
 

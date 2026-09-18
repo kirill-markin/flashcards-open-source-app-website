@@ -218,7 +218,7 @@ If you generate cards before you know what you actually missed, you usually crea
 
 If you do retrieval practice and never move the useful misses into a real review system, you are counting on memory to organize memory. That tends to go badly.
 
-## Where Flashcards fits
+## Where Nibomo fits
 
 [Nibomo](/) fits after the explanation, after the tutor, after the quiz, and after the practice session.
 

@@ -193,7 +193,7 @@ If the issue is broader ownership and inspectability, this one fits next:
 
 - [Self-Hosted Open Source Flashcards App for Spaced Repetition](/blog/self-hosted-open-source-flashcards-app-for-spaced-repetition/)
 
-## Where Flashcards fits if you want the next deck to be easier to own
+## Where Nibomo fits if you want the next deck to be easier to own
 
 If I were setting up a new deck with ownership in mind, I would care about a few product qualities first:
 

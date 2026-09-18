@@ -285,7 +285,7 @@ If you want the exam-timing side in more detail, read this next:
 - [How to Study for an Exam With FSRS in 2026](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)
 - [FSRS vs SM-2 in 2026](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
-## Where Flashcards fits this MCAT workflow
+## Where Nibomo fits this MCAT workflow
 
 [Nibomo](https://nibomo.com/) is a strong fit for this kind of MCAT workflow because it covers the parts students usually split across too many tools.
 

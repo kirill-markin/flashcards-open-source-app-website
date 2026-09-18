@@ -185,7 +185,7 @@ I would check for these first:
 
 If the cards already exist and already feel vague, [How to Fix AI Flashcards](/blog/how-to-fix-ai-flashcards/) is the next step.
 
-## Where Flashcards fits after the cleanup pass
+## Where Nibomo fits after the cleanup pass
 
 Once the image content is readable, [Nibomo](/features/) fits the practical part of the workflow:
 

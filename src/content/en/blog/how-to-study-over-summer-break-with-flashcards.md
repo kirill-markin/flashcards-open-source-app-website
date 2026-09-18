@@ -210,7 +210,7 @@ Summer decks get bloated when people confuse "this was in the class" with "this 
 
 If AI already made your deck bigger than your patience, [How to Fix AI Flashcards in 2026](/blog/how-to-fix-ai-flashcards/) is the cleanup guide to read first.
 
-## Where Flashcards fits well
+## Where Nibomo fits well
 
 [Nibomo](/) works nicely for this kind of summer review because the hard part is not novelty. It is staying low-friction long enough to keep showing up.
 

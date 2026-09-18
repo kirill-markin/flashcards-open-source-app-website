@@ -152,13 +152,13 @@ Look for another product when your hard requirement is one of these:
 
 If you need an **open-source RemNote alternative**, decide whether the notes-and-PDF workspace or the flashcard system is the non-negotiable part. [Anki's source boundary](/blog/is-anki-open-source/) includes open desktop and Android clients plus a self-hosted sync server, but not every Anki surface is open. The [open-source flashcard apps guide](/blog/best-open-source-flashcard-apps-2026/) compares several other license and hosting boundaries. Neither automatically replaces RemNote's connected knowledge base.
 
-## Disclosure: I build Flashcards
+## Disclosure: I build Nibomo
 
 > **Disclosure:** I am Kirill Markin, and I build [Nibomo](https://nibomo.com/). Its MIT-licensed repository includes the web app, iOS and Android clients, authentication, backend, sync, MCP service, and AWS infrastructure. That is a broader current source boundary than RemNote provides, but it does not make Nibomo the better product for every study workflow.
 
-Flashcards covers a narrower learning workflow. It has no connected note knowledge base, PDF reader, native desktop app, or direct RemNote importer. RemNote is more mature and much stronger when notes, references, and source documents are the center of study. Moving for the license alone can mean losing the workflow that made the collection useful.
+Nibomo covers a narrower learning workflow. It has no connected note knowledge base, PDF reader, native desktop app, or direct RemNote importer. RemNote is more mature and much stronger when notes, references, and source documents are the center of study. Moving for the license alone can mean losing the workflow that made the collection useful.
 
-Flashcards has a documented [whole-stack AWS self-hosting path](/docs/self-hosting/), but it is not a one-command local appliance. An operator owns AWS, Cloudflare, authentication, email delivery, monitoring, upgrades, database recovery, and separate native-app builds. Its [remote MCP connector](/docs/mcp-connector/) can reach cards and decks without keeping a desktop app open; RemNote's local connector reaches the current knowledge base but not the review queue. These are different product shapes, not a simple better-or-worse ladder.
+Nibomo has a documented [whole-stack AWS self-hosting path](/docs/self-hosting/), but it is not a one-command local appliance. An operator owns AWS, Cloudflare, authentication, email delivery, monitoring, upgrades, database recovery, and separate native-app builds. Its [remote MCP connector](/docs/mcp-connector/) can reach cards and decks without keeping a desktop app open; RemNote's local connector reaches the current knowledge base but not the review queue. These are different product shapes, not a simple better-or-worse ladder.
 
 If privacy matters more than branding, [private flashcards with AI](/blog/private-flashcards-with-ai/) offers a checklist for separating local storage, sync, AI-provider access, and self-hosting across a study workflow.
 

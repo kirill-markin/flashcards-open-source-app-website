@@ -228,7 +228,7 @@ The fix is not glamorous:
 
 That is usually how "I forget everything the next day" turns into "I still missed a few things, but now I know exactly which few things."
 
-## Where Flashcards fits honestly
+## Where Nibomo fits honestly
 
 [Nibomo](/) is not the product I would describe as a full practice-test platform.
 
@@ -247,7 +247,7 @@ The honest pitch is smaller than a lot of study-software marketing:
 
 Use the practice test to find the problem.
 
-Use Flashcards to keep the part of the problem that should still be fixed later.
+Use Nibomo to keep the part of the problem that should still be fixed later.
 
 ## A realistic weekly rhythm
 

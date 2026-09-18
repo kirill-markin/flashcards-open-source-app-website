@@ -214,7 +214,7 @@ No dramatic reset.
 
 No pretending the correct response to overload is even more overload.
 
-## Where Flashcards fits this better
+## Where Nibomo fits this better
 
 [Nibomo](https://nibomo.com/) is a strong fit for **spaced repetition backlog** recovery because the workflow does not have to split across three different tools:
 

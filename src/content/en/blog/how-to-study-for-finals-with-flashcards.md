@@ -232,7 +232,7 @@ I would not spend that evening feeding new material into the system unless there
 
 This is also why the finals workflow should stay separate from the "study with AI" workflow. Source processing can sprawl forever. Finals review cannot.
 
-## Where Flashcards fits this workflow
+## Where Nibomo fits this workflow
 
 [Nibomo](https://nibomo.com/) is useful here because the product matches the actual finals-week mess instead of assuming your study inputs arrive clean.
 

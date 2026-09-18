@@ -236,7 +236,7 @@ It is part of **how to make better flashcards**.
 
 The deck gets better when the bad cards leave.
 
-## Why Flashcards fits this workflow well
+## Why Nibomo fits this workflow well
 
 [Nibomo](https://nibomo.com/) is a strong fit for **how to make effective flashcards** because the product is built around the parts that matter after drafting:
 

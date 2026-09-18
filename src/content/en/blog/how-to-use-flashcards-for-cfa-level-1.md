@@ -273,7 +273,7 @@ I would keep those out of the permanent memory deck. Use a small temporary layer
 
 Tag those with `needs-recheck` and verify them against the official CFA Institute pages before making decisions. Your long-term deck should hold stable recall targets. Your admin reminders should stay easy to audit.
 
-## Where Flashcards fits this CFA workflow
+## Where Nibomo fits this CFA workflow
 
 [Nibomo](https://nibomo.com/) fits this workflow because it supports the specific parts a CFA deck needs without pretending to replace CFA Institute materials:
 

@@ -1,6 +1,6 @@
 ---
 title: "How to Use ChatGPT and Codex for Studying in 2026: Save Flashcards With MCP"
-description: "Use ChatGPT Study Mode to find weak spots, save selected cards with Codex and Flashcards MCP in the ChatGPT desktop app, then review with FSRS."
+description: "Use ChatGPT Study Mode to find weak spots, save selected cards with Codex and Nibomo MCP in the ChatGPT desktop app, then review with FSRS."
 date: "2026-08-02"
 image: "/blog/how-to-use-chatgpt-codex-for-studying.png"
 keywords:
@@ -14,24 +14,24 @@ keywords:
 
 Yesterday, ChatGPT asked me why a larger sample usually gives a narrower confidence interval. I produced three confident sentences and somehow avoided the words “standard error.” That gap was worth saving. The rest of our statistics conversation could stay in the chat.
 
-If you are figuring out **how to use ChatGPT and Codex for studying**, this is the version I would keep: let ChatGPT expose a real gap, choose the card yourself, and let Codex save it through the Flashcards MCP connector. The card lands in your Flashcards collection, where FSRS can bring it back later.
+If you are figuring out **how to use ChatGPT and Codex for studying**, this is the version I would keep: let ChatGPT expose a real gap, choose the card yourself, and let Codex save it through the Nibomo MCP connector. The card lands in your Nibomo collection, where FSRS can bring it back later.
 
 This is a different job from asking ChatGPT to generate a whole deck from a chapter. It is a small handoff from tutoring to long-term review. The connector saves the copy-and-paste work; it does not decide what you should memorize.
 
 ![ChatGPT and Codex study workflow moving selected weak spots through MCP into FSRS flashcards](/blog/how-to-use-chatgpt-codex-for-studying.png)
 
-## The useful split: ChatGPT tutors, Codex saves, Flashcards schedules
+## The useful split: ChatGPT tutors, Codex saves, Nibomo schedules
 
 Each part has a narrow job:
 
 1. **ChatGPT Study Mode** asks questions, gives hints, and helps you work through the material.
 2. **You** decide which mistakes deserve a permanent card.
-3. **Codex in the ChatGPT desktop app or CLI** uses Flashcards MCP to create or clean up the approved cards.
+3. **Codex in the ChatGPT desktop app or CLI** uses Nibomo MCP to create or clean up the approved cards.
 4. **Nibomo** records your reviews and schedules the next one with FSRS.
 
 OpenAI's current [Study Mode guide](https://help.openai.com/en/articles/11780217-chatgpt-study-mode-faq) describes a tutor that can work step by step, quiz you one question at a time, and use uploaded notes, images, or PDFs. That makes it a good place to discover what you cannot yet explain from memory.
 
-Only the third step needs MCP. Think of it as a bridge that lets Codex use a small set of approved Flashcards tools. Those tools can list your workspaces, read allowed study data, and change cards or decks after you approve the write.
+Only the third step needs MCP. Think of it as a bridge that lets Codex use a small set of approved Nibomo tools. Those tools can list your workspaces, read allowed study data, and change cards or decks after you approve the write.
 
 ## First, use ChatGPT to find a real weak spot
 
@@ -74,23 +74,23 @@ Download or update the [ChatGPT desktop app](https://learn.chatgpt.com/docs/app)
 
 If your notes already live in files on your computer, you can stay in Codex and use the same one-question-at-a-time tutoring prompt. Tell it not to write cards until you approve a preview. For most learners, ChatGPT Study Mode is the simpler tutor; Codex is the useful handoff when local files or MCP tools are involved.
 
-## Connect Codex to the Flashcards MCP server
+## Connect Codex to the Nibomo MCP server
 
 The desktop setup is short:
 
 1. Open **Settings > MCP servers** in the ChatGPT desktop app.
 2. Select **Add server**.
-3. Name it `Flashcards`, choose **Streamable HTTP**, and enter this URL:
+3. Name it `nibomo`, choose **Streamable HTTP**, and enter this URL:
 
 ```text
 https://mcp.nibomo.com/mcp
 ```
 
 4. Save the server, then select **Restart**.
-5. After the app restarts, select **Authenticate** and complete the Flashcards OAuth sign-in in your browser.
+5. After the app restarts, select **Authenticate** and complete the Nibomo OAuth sign-in in your browser.
 6. Type `/mcp` in Codex to confirm that the server is connected.
 
-Those steps follow OpenAI's current [MCP setup for the ChatGPT desktop app and Codex](https://learn.chatgpt.com/docs/extend/mcp). Flashcards uses OAuth for an interactive login, so you do not need to paste an API key into a normal desktop session. The [Nibomo MCP documentation](/docs/mcp-connector/) has the full authentication and tool contract if you need to troubleshoot the connection.
+Those steps follow OpenAI's current [MCP setup for the ChatGPT desktop app and Codex](https://learn.chatgpt.com/docs/extend/mcp). Nibomo uses OAuth for an interactive login, so you do not need to paste an API key into a normal desktop session. The [Nibomo MCP documentation](/docs/mcp-connector/) has the full authentication and tool contract if you need to troubleshoot the connection.
 
 Review every write before it runs. Listing workspaces is read-only; creating, rewriting, reorganizing, or deleting stored cards is not. If your school or employer manages ChatGPT, its administrator may also restrict which MCP servers or tools you can enable.
 
@@ -99,7 +99,7 @@ Review every write before it runs. Listing workspaces is read-only; creating, re
 Switch to Codex in the desktop app and give it the final candidate list. I would use a prompt like this:
 
 ```text
-Use the Flashcards MCP server. First list my workspaces and ask where these
+Use the Nibomo MCP server. First list my workspaces and ask where these
 cards should live. Show the proposed fronts, backs, tags, and any deck changes
 before writing anything. Create only the cards I approve. After the write,
 read the saved cards back so I can check them.
@@ -140,9 +140,9 @@ reviewed. Organize them so they appear in the Inference deck. Show the final
 values before the write and read the saved cards back afterward.
 ```
 
-In Flashcards, decks are saved filters. Putting a card under a different deck may mean changing its tags, so review those too. You can use the same inspect-then-approve pattern to create a deck, reorganize a small set, or delete cards you explicitly identify. “Delete everything that looks bad” is a risky prompt in any tool with real write access.
+In Nibomo, decks are saved filters. Putting a card under a different deck may mean changing its tags, so review those too. You can use the same inspect-then-approve pattern to create a deck, reorganize a small set, or delete cards you explicitly identify. “Delete everything that looks bad” is a risky prompt in any tool with real write access.
 
-## The real FSRS review is the one Flashcards records
+## The real FSRS review is the one Nibomo records
 
 The MCP connector can read allowed review history in `review_events` and FSRS state and scheduling fields. Its SQL write tool cannot create review events, submit an Again, Hard, Good, or Easy rating, or change the FSRS state or schedule. The connector can record a rating only through its separate `submit_review` tool, so you can do a review in the app or let Codex run it.
 
@@ -157,16 +157,16 @@ Most students can skip the terminal. It is handy when your study material alread
 Add the remote server with:
 
 ```bash
-codex mcp add flashcards --url https://mcp.nibomo.com/mcp
-codex mcp login flashcards
+codex mcp add nibomo --url https://mcp.nibomo.com/mcp
+codex mcp login nibomo
 ```
 
 Use `codex mcp list` to check the saved server, then `/mcp` inside Codex CLI to inspect the active tools. The desktop Codex view, Codex CLI, and IDE extension share `config.toml` on the same Codex host. Configure the server once, restart the other local client if needed, and it should appear there too. ChatGPT web does not use that file.
 
-For a headless session where browser OAuth is impractical, Flashcards accepts a long-lived `fca_` agent key as a Bearer token. Keep the key in an environment variable and register its name, not the key itself:
+For a headless session where browser OAuth is impractical, Nibomo accepts a long-lived `fca_` agent key as a Bearer token. Keep the key in an environment variable and register its name, not the key itself:
 
 ```bash
-codex mcp add flashcards \
+codex mcp add nibomo \
   --url https://mcp.nibomo.com/mcp \
   --bearer-token-env-var FLASHCARDS_MCP_TOKEN
 ```
@@ -177,7 +177,7 @@ The [Nibomo API guide](/docs/api/) explains how to obtain the agent key. Treat i
 
 ChatGPT web does not read the MCP servers stored in your local Codex `config.toml`. On the web, remote MCP-backed tools arrive through plugins in **ChatGPT Work**, and workspace administrators can control which plugins and tools are available.
 
-Custom MCP apps are a separate web setup path. They use ChatGPT Developer mode, and their availability and write permissions depend on the account and workspace. If your workspace lets you add or publish one, follow OpenAI's current [Developer mode and MCP apps guide](https://help.openai.com/en/articles/12584461-developer-mode-apps-and-full-mcp-connectors-in-chatgpt-beta) and check the enabled actions before assuming the Flashcards write tool will run.
+Custom MCP apps are a separate web setup path. They use ChatGPT Developer mode, and their availability and write permissions depend on the account and workspace. If your workspace lets you add or publish one, follow OpenAI's current [Developer mode and MCP apps guide](https://help.openai.com/en/articles/12584461-developer-mode-apps-and-full-mcp-connectors-in-chatgpt-beta) and check the enabled actions before assuming the Nibomo write tool will run.
 
 That leaves four clear paths:
 
@@ -196,7 +196,7 @@ each block. Include the intended deck or tags as a label. Do not add new cards
 or new facts.
 ```
 
-Read them once, copy the survivors into Flashcards, and continue with normal review. Manual entry is a sensible choice for private material, a managed school account, or anyone who does not want an AI client to read stored card data.
+Read them once, copy the survivors into Nibomo, and continue with normal review. Manual entry is a sensible choice for private material, a managed school account, or anyone who does not want an AI client to read stored card data.
 
 The companion guide [How to Turn ChatGPT Study Mode Into Flashcards](/blog/how-to-turn-chatgpt-study-mode-into-flashcards/) focuses on that connector-free tutoring workflow. [How to Use ChatGPT to Make Flashcards](/blog/how-to-use-chatgpt-to-make-flashcards/) covers broader card drafting from notes. If you study with Anthropic's tools too, [How to Use Claude for Studying](/blog/how-to-use-claude-for-studying/) shows the parallel tutor-to-MCP loop with Claude's separate connector setup.
 
@@ -204,4 +204,4 @@ The companion guide [How to Turn ChatGPT Study Mode Into Flashcards](/blog/how-t
 
 A good ChatGPT study session might contain twenty useful minutes and produce three cards. That is fine. The conversation helped you understand the topic; the cards only need to preserve the gaps that matter later.
 
-My preferred **ChatGPT and Codex study workflow** is simple: get questioned, notice where recall breaks, approve a few clean cards, save them through Flashcards MCP, and do the real FSRS review in Flashcards. The connector removes copy-and-paste work. You still choose what deserves your future attention.
+My preferred **ChatGPT and Codex study workflow** is simple: get questioned, notice where recall breaks, approve a few clean cards, save them through Nibomo MCP, and do the real FSRS review in Nibomo. The connector removes copy-and-paste work. You still choose what deserves your future attention.

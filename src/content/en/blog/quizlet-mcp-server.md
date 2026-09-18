@@ -77,16 +77,16 @@ Nibomo publishes a remote MCP endpoint at:
 
 Its [MCP connector documentation](/docs/mcp-connector/) defines seven tools: `list_workspaces`, `sql_query` for reads, `sql_execute` for writes, `get_guide` for reference guides, plus `next_review_card`, `reveal_answer`, and `submit_review` for reviews. Interactive MCP clients can authorize with OAuth. Terminal agents can instead start from the [Agent API documentation](/docs/api/) and use the published HTTP flow.
 
-This does not turn Flashcards into a Quizlet connector. The supported workflow is:
+This does not turn Nibomo into a Quizlet connector. The supported workflow is:
 
 1. export text from a creator-owned Quizlet set;
 2. preserve the raw file and inspect a working copy;
-3. review the mapped cards before saving them in Flashcards; and
-4. connect the resulting Flashcards workspace to a compatible client for future reads and writes.
+3. review the mapped cards before saving them in Nibomo; and
+4. connect the resulting Nibomo workspace to a compatible client for future reads and writes.
 
-For Claude, the connector steps are in [How to Connect Flashcards to Claude with MCP](/blog/how-to-connect-flashcards-to-claude-with-mcp/). Codex and other agents can use the documented MCP or Agent API route their environment supports.
+For Claude, the connector steps are in [How to Connect Nibomo to Claude with MCP](/blog/how-to-connect-flashcards-to-claude-with-mcp/). Codex and other agents can use the documented MCP or Agent API route their environment supports.
 
-Flashcards cannot read a Quizlet URL, mirror a Quizlet account, synchronize later Quizlet changes, or recover images and study history omitted from the export. It creates its own cards and new scheduling state from material you choose to bring over.
+Nibomo cannot read a Quizlet URL, mirror a Quizlet account, synchronize later Quizlet changes, or recover images and study history omitted from the export. It creates its own cards and new scheduling state from material you choose to bring over.
 
 If you are deciding whether that trade is worthwhile beyond agent access, see the [open source Quizlet alternative comparison](/blog/quizlet-alternative/).
 
@@ -94,7 +94,7 @@ If you are deciding whether that trade is worthwhile beyond agent access, see th
 
 A public contract removes some integration guesswork, but it does not make every MCP action safe. OAuth authenticates the connection. It does not guarantee that an AI-generated card is correct, keep returned card data inside the flashcard service, or decide whether an edit matches your intent.
 
-Flashcards separates read operations from its write tools: `sql_execute` for cards and decks, `submit_review` for reviews. The OAuth credential still covers the connector surface, so tool blocking and approval behavior depend on the client. Start with a small, non-sensitive workspace. Let the agent read only the data needed for the task, keep writes on per-call approval when the client supports it, and inspect the workspace and proposed change before accepting it.
+Nibomo separates read operations from its write tools: `sql_execute` for cards and decks, `submit_review` for reviews. The OAuth credential still covers the connector surface, so tool blocking and approval behavior depend on the client. Start with a small, non-sensitive workspace. Let the agent read only the data needed for the task, keep writes on per-call approval when the client supports it, and inspect the workspace and proposed change before accepting it.
 
 Do not connect private study material until you have checked the AI client's retention and data-handling terms. The detailed threat model is in [Is MCP Safe for Flashcards?](/blog/is-mcp-safe-for-flashcards/). For a first transfer, a simple rule is enough: keep the raw export, preview a few cards, approve a narrow write, and verify the result in the destination app before doing more.
 
