@@ -296,7 +296,7 @@ Ich würde KI nicht den ganzen Kurs in ein riesiges "Essay-Prüfungs-Deck" verwa
 
 Wenn du genau diesen Teil schärfer machen willst, sind [How to Use AI for Active Recall in 2026](/blog/how-to-use-ai-for-active-recall/) und [How to Fix AI Flashcards in 2026](/blog/how-to-fix-ai-flashcards/) die besseren Anschlussartikel.
 
-## Wo Flashcards hineinpasst
+## Wo Nibomo hineinpasst
 
 [Nibomo](/) passt praktisch zu **wie man Flashcards für Essay-Prüfungen nutzt**, weil Essay-Vorbereitung meist nicht nur ein Generierungsproblem ist. Sie ist auch ein Bearbeitungs-, Organisations- und Wiederholungsproblem.
 

@@ -16,7 +16,7 @@ keywords:
 
 StudyFetch hat seinen Spaced Learning Hub am 13. Juli 2026 veröffentlicht. Allein diese Neuerung lässt viele ältere Vergleiche alt aussehen: StudyFetch ist nicht mehr nur ein KI-Werkzeug, das Lernmaterial erstellt und die langfristige Wiederholung einer anderen App überlässt. Der Hub bündelt alle Lernkartensets, zeigt neue und fällige Karten, kombiniert mehrere Sets in einer Lernsitzung und hält Spark.E auch während der Wiederholung griffbereit.
 
-Bei der Suche nach einer **StudyFetch-Alternative** lautet die entscheidende Frage deshalb nicht: „Welche App kann KI-Lernkarten erstellen?“ Entscheidend ist, was im Mittelpunkt deines Lernsystems stehen soll: StudyFetchs breite, auf deinen Quellen basierende KI-Suite, Ankis ausgereifte lokale Sammlung oder der jüngere Open-Source-Workflow von Flashcards rund um FSRS und KI-Agenten.
+Bei der Suche nach einer **StudyFetch-Alternative** lautet die entscheidende Frage deshalb nicht: „Welche App kann KI-Lernkarten erstellen?“ Entscheidend ist, was im Mittelpunkt deines Lernsystems stehen soll: StudyFetchs breite, auf deinen Quellen basierende KI-Suite, Ankis ausgereifte lokale Sammlung oder der jüngere Open-Source-Workflow von Nibomo rund um FSRS und KI-Agenten.
 
 > **Offenlegung:** Ich bin Kirill Markin und entwickle [Nibomo](/), eines der hier verglichenen Produkte. Nibomo gewinnt nicht automatisch. StudyFetch bietet in diesem Vergleich die umfangreichste integrierte Suite für KI-Tutoring und Übungen. Anki ist bei Offline-Ökosystem, Vorlagen, Add-ons, Migrationsformaten und Scheduler-Einstellungen am ausgereiftesten.
 
@@ -29,9 +29,9 @@ Bei der Suche nach einer **StudyFetch-Alternative** lautet die entscheidende Fra
 - Wähle **StudyFetch**, wenn du Kursmaterial in einem Workspace in Notizen, Lernkarten, Quiz, Übungstests, Tutoring, Audio, Video und weitere Lernaktivitäten verwandeln möchtest. Der Spaced Learning Hub gibt den Lernkarten jetzt auch eine gemeinsame Warteschlange für fällige Wiederholungen.
 - Wähle **Anki**, wenn die Sammlung selbst langfristig den eigentlichen Wert darstellt. Du bekommst lokale Desktop- und Mobil-Apps, flexible Notiztypen und Vorlagen, Add-ons, etablierte Paketformate und die umfangreichsten FSRS-Einstellungen in diesem Vergleich.
 - Wähle **Nibomo**, wenn du geprüfte Karten mit Vorder- und Rückseite, dokumentiertes FSRS-6, Offline-first-Clients für Web und Mobilgeräte, MIT-lizenzierten Quellcode, einen Weg zum Self-Hosting des gesamten Stacks und direkten Zugriff für KI-Agenten möchtest.
-- Nutze **zwei Werkzeuge**, wenn sie unterschiedliche Aufgaben lösen. StudyFetch kann dir helfen, einen Kurs zu erschließen und den Stoff zu üben. Anki oder Flashcards können die kleinere Auswahl geprüfter Abruffragen verwalten, die du auch im nächsten Jahr noch behalten möchtest.
+- Nutze **zwei Werkzeuge**, wenn sie unterschiedliche Aufgaben lösen. StudyFetch kann dir helfen, einen Kurs zu erschließen und den Stoff zu üben. Anki oder Nibomo können die kleinere Auswahl geprüfter Abruffragen verwalten, die du auch im nächsten Jahr noch behalten möchtest.
 
-## StudyFetch vs Anki vs Flashcards
+## StudyFetch vs Anki vs Nibomo
 
 | Frage | StudyFetch | Anki | Nibomo |
 |---|---|---|---|
@@ -45,7 +45,7 @@ Bei der Suche nach einer **StudyFetch-Alternative** lautet die entscheidende Fra
 | Open Source / Self-Hosting | Proprietär; kein offizieller Weg zum Self-Hosting des gesamten Dienstes gefunden | Open-Source-Clients und ein offizieller selbst gehosteter Sync-Server, aber kein vollständiges AnkiWeb-Deployment | MIT-lizenzierte Anwendung und AWS-CDK-Infrastruktur für ein produktives Deployment des gesamten Stacks |
 | Preis, geprüft am 17. August 2026 | Kostenloser Einstieg und kostenpflichtige Abonnementfunktionen; hier wird kein konkreter Preis genannt | Desktop, AnkiWeb und AnkiDroid kostenlos; AnkiMobile in den USA einmalig 24,99 US-Dollar | Gehostete App während der Beta kostenlos; selbst gehostete Software kostenlos, dazu kommen Infrastruktur- und Anbieterkosten |
 
-Diese Übersicht zeigt Kompromisse und ist keine Punktetabelle. StudyFetch deckt den größten Teil des Lernprozesses ab. Anki bietet das umfangreichste Kartenökosystem und die höchste Migrationstreue. Flashcards legt mehr vom Anwendungs-Stack offen und bietet Agenten einen direkten Weg in die Sammlung, ist aber jünger und fokussierter.
+Diese Übersicht zeigt Kompromisse und ist keine Punktetabelle. StudyFetch deckt den größten Teil des Lernprozesses ab. Anki bietet das umfangreichste Kartenökosystem und die höchste Migrationstreue. Nibomo legt mehr vom Anwendungs-Stack offen und bietet Agenten einen direkten Weg in die Sammlung, ist aber jünger und fokussierter.
 
 ## StudyFetch ist in erster Linie eine KI-Lernsuite
 
@@ -55,7 +55,7 @@ Diese Bandbreite ist besonders nützlich, solange du einen Kurs noch erschließt
 
 Anki versucht gar nicht, diesen Ablauf zu ersetzen. Es ist ein Kartensystem rund um Notizen, Felder, Vorlagen, Medien, Stapel, Lernplanung und Add-ons. Darauf lassen sich anspruchsvolle Workflows aufbauen. Die Kernanwendung verwandelt eine aufgezeichnete Vorlesung jedoch nicht in Notizen, einen Tutor, ein Quiz und ein Video.
 
-Flashcards ist noch stärker fokussiert. Im Mittelpunkt steht eine dauerhaft gespeicherte Markdown-Karte mit Vorder- und Rückseite. Der KI-Chat kann einen Workspace und Anhänge prüfen, mögliche Karten besprechen und Änderungen auf Wunsch speichern. Es gibt weder einen nativen Vorlesungsrekorder noch eine generierte Quiz-Suite, ein Werkzeug für Erklärvideos, eine Spielebene oder einen Lernplan wie bei StudyFetch. Wenn dir diese Funktionen den Einstieg erleichtern, verlierst du beim Wechsel zu einer fokussierten Karten-App einen nützlichen Teil des Lernablaufs.
+Nibomo ist noch stärker fokussiert. Im Mittelpunkt steht eine dauerhaft gespeicherte Markdown-Karte mit Vorder- und Rückseite. Der KI-Chat kann einen Workspace und Anhänge prüfen, mögliche Karten besprechen und Änderungen auf Wunsch speichern. Es gibt weder einen nativen Vorlesungsrekorder noch eine generierte Quiz-Suite, ein Werkzeug für Erklärvideos, eine Spielebene oder einen Lernplan wie bei StudyFetch. Wenn dir diese Funktionen den Einstieg erleichtern, verlierst du beim Wechsel zu einer fokussierten Karten-App einen nützlichen Teil des Lernablaufs.
 
 ## StudyFetch bündelt Spaced Repetition jetzt an einem zentralen Ort
 
@@ -67,9 +67,9 @@ Die öffentliche Dokumentation bezeichnet den Scheduler jedoch weder als FSRS no
 
 Ankis [FSRS-Einstellungen](https://docs.ankiweb.net/deck-options.html#fsrs) gehen deutlich tiefer. Du kannst die gewünschte Behaltensquote festlegen, Parameter an deinen eigenen Wiederholungsverlauf anpassen, verschiedene Voreinstellungen verwenden, die Auslastung schätzen und bestimmen, ob eine geänderte Einstellung vorhandene Karten neu terminiert. Wenn du bereits über Jahre hinweg konsistente Wiederholungsdaten gesammelt hast, lässt sich der Scheduler damit personalisieren, statt anhand des Verlaufs lediglich nachzuweisen, dass du gelernt hast.
 
-Flashcards veröffentlicht seine [Regeln für die Lernplanung mit FSRS-6](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/docs/fsrs-scheduling-logic.md). Zu den Workspace-Einstellungen gehören die gewünschte Behaltensquote, Lern- und Wiedererlernschritte, das maximale Intervall und Fuzz. Die Implementierung verwendet fest vorgegebene Standardgewichte statt eines Optimierers, der mit dem Verlauf jedes einzelnen Lernenden trainiert wurde. Sie ist leichter nachzuvollziehen als die öffentliche Scheduler-Beschreibung von StudyFetch und weniger personalisiert als Anki.
+Nibomo veröffentlicht seine [Regeln für die Lernplanung mit FSRS-6](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/docs/fsrs-scheduling-logic.md). Zu den Workspace-Einstellungen gehören die gewünschte Behaltensquote, Lern- und Wiedererlernschritte, das maximale Intervall und Fuzz. Die Implementierung verwendet fest vorgegebene Standardgewichte statt eines Optimierers, der mit dem Verlauf jedes einzelnen Lernenden trainiert wurde. Sie ist leichter nachzuvollziehen als die öffentliche Scheduler-Beschreibung von StudyFetch und weniger personalisiert als Anki.
 
-Das ehrliche Ergebnis für **StudyFetch vs Anki** ist deshalb interessanter als „KI gegen Spaced Repetition“. Beide verwalten inzwischen fällige Wiederholungen. StudyFetch umgibt die Warteschlange mit einer deutlich größeren KI-Umgebung, während Anki ihr ein ausgereiftes, konfigurierbares System für langfristiges Behalten gibt. Bei **StudyFetch vs Flashcards** gilt dieselbe Trennung: Flashcards stellt der Tiefe des Ökosystems offene Infrastruktur und Agentenzugriff gegenüber.
+Das ehrliche Ergebnis für **StudyFetch vs Anki** ist deshalb interessanter als „KI gegen Spaced Repetition“. Beide verwalten inzwischen fällige Wiederholungen. StudyFetch umgibt die Warteschlange mit einer deutlich größeren KI-Umgebung, während Anki ihr ein ausgereiftes, konfigurierbares System für langfristiges Behalten gibt. Bei **StudyFetch vs Nibomo** gilt dieselbe Trennung: Nibomo stellt der Tiefe des Ökosystems offene Infrastruktur und Agentenzugriff gegenüber.
 
 ## Quellenlinks helfen beim Prüfen von KI-Karten – freigeben musst du sie selbst
 
@@ -99,7 +99,7 @@ Der Weg hinaus ist weniger eindeutig dokumentiert. Ich habe Anleitungen zum Teil
 
 Anki bietet hier die größte Datenportabilität. Das [Handbuch zum Import](https://docs.ankiweb.net/importing/intro.html) behandelt Text, gepackte Anki-Stapel und Mnemosyne-Daten. Das [Handbuch zum Export](https://docs.ankiweb.net/exporting.html) unterscheidet zwischen lesbarem Text, einer `.apkg` für einen einzelnen Stapel und einer `.colpkg` für die gesamte Sammlung. Ein Sammlungspaket enthält Stapel und Planungsdaten. Die Einstellungen eines Stapelpakets bestimmen, ob Medien, Voreinstellungen und Informationen zur Lernplanung mit übertragen werden.
 
-Flashcards bietet die schwächsten direkten Migrationswege von konkurrierenden Produkten. Es kann weder eine Anki-`.apkg` noch ein StudyFetch-Set importieren. Der direkte Paketimport akzeptiert nur `flashcards.zip`. Text-, CSV-, Markdown-, Dokument-, Tabellen-, Bild- und PDF-Dateien lassen sich an den Online-KI-Chat anhängen und als Grundlage für geprüfte Kartenentwürfe verwenden. Das ist eine Rekonstruktion, kein Import.
+Nibomo bietet die schwächsten direkten Migrationswege von konkurrierenden Produkten. Es kann weder eine Anki-`.apkg` noch ein StudyFetch-Set importieren. Der direkte Paketimport akzeptiert nur `flashcards.zip`. Text-, CSV-, Markdown-, Dokument-, Tabellen-, Bild- und PDF-Dateien lassen sich an den Online-KI-Chat anhängen und als Grundlage für geprüfte Kartenentwürfe verwenden. Das ist eine Rekonstruktion, kein Import.
 
 Auch das eigene Paket hat bewusst gesetzte Grenzen. Laut der [Dokumentation zur Datenportabilität](/docs/self-hosting/#data-portability) überträgt es aktive Karten, Tags und zugehörige Medien – nicht jedoch Wiederholungsverlauf, FSRS-Zustand, Workspace-Einstellungen, vollständige Stapelstrukturen oder Kontodaten. Betrachte es als Inhaltsübertragung, nicht als Wiederherstellung im Notfall.
 
@@ -111,7 +111,7 @@ Anki ist hier die sicherste Wahl, wenn eine verlässliche lokale Sammlung unverz
 
 [AnkiWeb](https://docs.ankiweb.net/syncing.html) ist der optionale gehostete Dienst zum Synchronisieren und Lernen im Browser. Fortgeschrittene Nutzer können stattdessen Ankis offiziellen [selbst gehosteten Sync-Server](https://docs.ankiweb.net/sync-server.html) betreiben. Dieser Server speichert eine Kopie der Sammlung und der Medien für Anki-Clients. Er ist kein vollständiges selbst gehostetes AnkiWeb-Produkt.
 
-Flashcards speichert Karten, Änderungen und Wiederholungen im Web sowie auf iOS und Android zuerst lokal und synchronisiert sie, sobald wieder eine Verbindung besteht. Der Web-Client verwendet IndexedDB, die mobilen Clients SQLite. Auf einem Computer nutzt du die Web-App, weil es keinen nativen Desktop-Client gibt.
+Nibomo speichert Karten, Änderungen und Wiederholungen im Web sowie auf iOS und Android zuerst lokal und synchronisiert sie, sobald wieder eine Verbindung besteht. Der Web-Client verwendet IndexedDB, die mobilen Clients SQLite. Auf einem Computer nutzt du die Web-App, weil es keinen nativen Desktop-Client gibt.
 
 Ebenso wichtig ist die Offline-Grenze: Der gehostete KI-Chat, Aufrufe externer Agenten und Paketübertragungen über die Cloud benötigen eine Verbindung. Dass Wiederholungen offline funktionieren, macht noch nicht das gesamte Produkt offline nutzbar.
 
@@ -131,7 +131,7 @@ Anki zieht die Grenze anders. Die Clients speichern lokale Sammlungen, und die g
 
 Die [Nutzungsbedingungen der gehosteten Nibomo-App](/terms/) besagen, dass du deine Rechte an eingereichten Inhalten behältst und die zum Betrieb des Dienstes erforderlichen Rechte einräumst. Die gehostete KI ist optional und verwendet OpenAI; die zugehörige Telemetrie wird über Langfuse verarbeitet. Ein selbst gehostetes Deployment wird von seinem Betreiber kontrolliert. Damit verlagern sich Datenschutz- und Sicherheitsaufgaben auf den Betreiber, verschwinden aber nicht.
 
-Wenn du wegen der Datenkontrolle eine **Open-Source-KI-Lernapp** suchst, lies den [Self-Hosting-Leitfaden](/docs/self-hosting/), bevor du Open Source mit einer einfachen Lösung gleichsetzt. Das unterstützte produktive Deployment von Flashcards verwendet AWS CDK und externe Dienste. Der Betreiber kümmert sich um Cloud-Kosten, Zugangsdaten, Upgrades, Migrationen, Warnmeldungen, Backups, Wiederherstellungstests und eine mögliche eigene Distribution der mobilen Apps.
+Wenn du wegen der Datenkontrolle eine **Open-Source-KI-Lernapp** suchst, lies den [Self-Hosting-Leitfaden](/docs/self-hosting/), bevor du Open Source mit einer einfachen Lösung gleichsetzt. Das unterstützte produktive Deployment von Nibomo verwendet AWS CDK und externe Dienste. Der Betreiber kümmert sich um Cloud-Kosten, Zugangsdaten, Upgrades, Migrationen, Warnmeldungen, Backups, Wiederherstellungstests und eine mögliche eigene Distribution der mobilen Apps.
 
 ## „Kostenlose StudyFetch-Alternative“ kann drei verschiedene Dinge bedeuten
 
@@ -139,9 +139,9 @@ StudyFetch bietet einen kostenlosen Einstieg und verlangt für bestimmte Funktio
 
 Anki Desktop, AnkiWeb und AnkiDroid sind kostenlos. Im offiziellen US App Store kostet [AnkiMobile einmalig 24,99 US-Dollar](https://apps.apple.com/us/app/ankimobile-flashcards/id373493387).
 
-Die gehostete Flashcards-App ist [während der Beta kostenlos](/pricing/); KI und Synchronisierung sind im aktuellen Beta-Angebot enthalten. Der grundlegende Karten- und Wiederholungsworkflow soll kostenlos bleiben, während für eine intensivere KI-Nutzung später möglicherweise ein Anbieterschlüssel oder eine kostenpflichtige Option erforderlich ist. Die selbst gehostete Software ist unter der MIT-Lizenz kostenlos. Infrastruktur, Domains, E-Mail, Monitoring, KI-Anbieter, Backups und die Arbeitszeit des Betreibers sind es nicht.
+Die gehostete Nibomo-App ist [während der Beta kostenlos](/pricing/); KI und Synchronisierung sind im aktuellen Beta-Angebot enthalten. Der grundlegende Karten- und Wiederholungsworkflow soll kostenlos bleiben, während für eine intensivere KI-Nutzung später möglicherweise ein Anbieterschlüssel oder eine kostenpflichtige Option erforderlich ist. Die selbst gehostete Software ist unter der MIT-Lizenz kostenlos. Infrastruktur, Domains, E-Mail, Monitoring, KI-Anbieter, Backups und die Arbeitszeit des Betreibers sind es nicht.
 
-Anki und Flashcards können also beide eine **kostenlose StudyFetch-Alternative** für die langfristige Wiederholung von Karten sein. Den vollständigen Workflow von StudyFetch aus Tutor, Notizen, Tests, Quiz, Audio, Video und Lernplan ersetzt jedoch keines der beiden Produkte – weder kostenlos noch als Gesamtpaket.
+Anki und Nibomo können also beide eine **kostenlose StudyFetch-Alternative** für die langfristige Wiederholung von Karten sein. Den vollständigen Workflow von StudyFetch aus Tutor, Notizen, Tests, Quiz, Audio, Video und Lernplan ersetzt jedoch keines der beiden Produkte – weder kostenlos noch als Gesamtpaket.
 
 ## Teste zuerst ein anspruchsvolles Set, nicht gleich ein ganzes Semester
 
@@ -150,13 +150,13 @@ Produktseiten werden viel aussagekräftiger, wenn ein kleines Deck einen echten 
 Führe dann diesen Test durch:
 
 1. **Schreibe das eigentliche Ziel auf.** Geht es um das Erschließen von Quellen, Prüfungsvorbereitung, dauerhaftes Erinnern, Datenschutz, Offline-Zugriff oder Portabilität? Mit einem vagen Ziel sieht jede Demo gut aus.
-2. **Erstelle 15 bis 25 Kandidaten aus derselben Quelle.** Prüfe in StudyFetch die Quellenlinks. Notiere in Anki die erforderlichen Einstellungen oder Add-ons. Prüfe in Flashcards die vorgeschlagenen Karten, bevor du sie speicherst.
+2. **Erstelle 15 bis 25 Kandidaten aus derselben Quelle.** Prüfe in StudyFetch die Quellenlinks. Notiere in Anki die erforderlichen Einstellungen oder Add-ons. Prüfe in Nibomo die vorgeschlagenen Karten, bevor du sie speicherst.
 3. **Lösche die schwachen Karten.** Behalte nur Fragen, die du bewerten kannst, ohne die Quelle erneut zu öffnen.
 4. **Teste die Offline-Nutzung auf dem Gerät, das du mitnimmst.** Leite die Unterstützung nicht aus der Existenz einer mobilen App ab.
 5. **Exportiere und stelle wieder her.** Prüfe Text, Medien, Tags, Kartentypen, Stapelstruktur und Wiederholungsverlauf getrennt. Ein erfolgreicher Download ist noch kein Wiederherstellungstest.
 6. **Lass das alte System unverändert.** Lösche weder das ursprüngliche Set noch das Profil oder Quellenarchiv, bevor der neue Workflow echte Wiederholungen überstanden hat.
 
-Ein hybrider Aufbau verursacht oft weniger Migrationsarbeit. Nutze StudyFetch weiterhin, um einen Kurs umfassend zu erschließen und abwechslungsreich zu üben. Pflege anschließend einen kleineren Anki- oder Flashcards-Stapel für Wissen, das wiederholten Abruf verdient. Keine sinnvolle Regel verlangt, dass ein einziges Produkt jede Phase übernimmt.
+Ein hybrider Aufbau verursacht oft weniger Migrationsarbeit. Nutze StudyFetch weiterhin, um einen Kurs umfassend zu erschließen und abwechslungsreich zu üben. Pflege anschließend einen kleineren Anki- oder Nibomo-Stapel für Wissen, das wiederholten Abruf verdient. Keine sinnvolle Regel verlangt, dass ein einziges Produkt jede Phase übernimmt.
 
 ## Welche StudyFetch-Alternative solltest du wählen?
 
@@ -172,16 +172,16 @@ Anki ist die praktische Wahl, wenn verlässlicher Offline-Zugriff, benutzerdefin
 
 Du verzichtest auf StudyFetchs nativen Tutor und die Werkzeuge, die aus Quellen verschiedene Lernformate erzeugen. Für einen breiteren Vergleich stellt [7 beste Anki-Alternativen](/blog/best-anki-alternatives/) weitere Karten- und Lernworkflows vor, ohne so zu tun, als seien sie austauschbar.
 
-### Wähle Flashcards für einen offenen FSRS- und Agenten-Workflow
+### Wähle Nibomo für einen offenen FSRS- und Agenten-Workflow
 
-Flashcards passt zu einer neuen oder überwiegend einfachen Sammlung aus Karten mit Vorder- und Rückseite, wenn die KI Kartenentwürfe liefern, FSRS-6 das geprüfte Ergebnis planen und Local-first-Clients die alltägliche Arbeit an Karten offline verfügbar halten sollen. Die [Funktionsübersicht](/features/) zeigt den aktuellen Umfang des Produkts.
+Nibomo passt zu einer neuen oder überwiegend einfachen Sammlung aus Karten mit Vorder- und Rückseite, wenn die KI Kartenentwürfe liefern, FSRS-6 das geprüfte Ergebnis planen und Local-first-Clients die alltägliche Arbeit an Karten offline verfügbar halten sollen. Die [Funktionsübersicht](/features/) zeigt den aktuellen Umfang des Produkts.
 
 Auch wenn dir der Quellcode des gesamten Stacks, Self-Hosting, MCP oder die [Agent API](/docs/api/) wichtig sind, lohnt sich ein Blick. Die Einschränkungen sind real: ein jüngeres Ökosystem, keine native Desktop-App, kein direkter Import von `.apkg` oder StudyFetch, kein personalisierter FSRS-Optimierer und ein Paket, das kein vollständiges Backup ist. Gehostete KI und Agenten-Workflows bleiben auf eine Internetverbindung angewiesen, während Self-Hosting echte Betriebsarbeit verursacht.
 
 ## Wähle das System danach, was du langfristig behalten möchtest
 
-StudyFetch ist am stärksten, wenn aus einer umfangreichen Quelle mehrere nützliche Lernformen entstehen sollen. Anki ist am stärksten, wenn eine ausgereifte lokale Sammlung und ihr Wiederholungsverlauf den eigentlichen Wert ausmachen. Flashcards ist am stärksten, wenn eine kleinere, geprüfte Sammlung in einem nachvollziehbaren FSRS-Stack liegen soll, auf den KI-Agenten direkt zugreifen können.
+StudyFetch ist am stärksten, wenn aus einer umfangreichen Quelle mehrere nützliche Lernformen entstehen sollen. Anki ist am stärksten, wenn eine ausgereifte lokale Sammlung und ihr Wiederholungsverlauf den eigentlichen Wert ausmachen. Nibomo ist am stärksten, wenn eine kleinere, geprüfte Sammlung in einem nachvollziehbaren FSRS-Stack liegen soll, auf den KI-Agenten direkt zugreifen können.
 
-Wenn du StudyFetch verlässt, weil es mehr Material erstellt hat, als du pflegen kannst, führt die Übernahme jeder Karte an anderer Stelle zur gleichen Warteschlange. Bleib bei StudyFetch, wenn dir seine Bandbreite Zeit spart. Wähle Anki, wenn Offline-Reife und Sammlungstreue am wichtigsten sind. Wähle Flashcards, wenn offene Infrastruktur und Agentenzugriff wichtig genug sind, um die Nachteile des jüngeren Produkts in Kauf zu nehmen.
+Wenn du StudyFetch verlässt, weil es mehr Material erstellt hat, als du pflegen kannst, führt die Übernahme jeder Karte an anderer Stelle zur gleichen Warteschlange. Bleib bei StudyFetch, wenn dir seine Bandbreite Zeit spart. Wähle Anki, wenn Offline-Reife und Sammlungstreue am wichtigsten sind. Wähle Nibomo, wenn offene Infrastruktur und Agentenzugriff wichtig genug sind, um die Nachteile des jüngeren Produkts in Kauf zu nehmen.
 
 Die langfristig richtige Wahl ist nicht die App, die die meisten Karten erzeugt. Es ist das System, mit dem du das richtige Wissen behalten, zum passenden Zeitpunkt wiederholen und später trotzdem wieder exportieren kannst.

@@ -292,7 +292,7 @@ Das kann bedeuten:
 
 Wenn du zehn Diagramme gleichzeitig hochlädst, wirft das Modell schnell alles in einen Topf und das Deck verliert an Präzision.
 
-## Wo Flashcards gut passt
+## Wo Nibomo gut passt
 
 [Nibomo](https://nibomo.com/) passt gut zu einem Vorgehen, bei dem du **Diagramme in Flashcards umwandelst**, weil das Produkt die Bausteine bereits mitbringt, die du dafür brauchst:
 

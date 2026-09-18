@@ -229,7 +229,7 @@ So bleibt AI im Entwurfsmodus, statt dein Deck still und leise aufzublähen.
 
 Wenn du genau diesen Teil schärfer machen willst, passen [Wie du 2026 bessere Flashcards erstellst](/de/blog/how-to-make-better-flashcards/) und [So nutzt du 2026 AI für Active Recall](/de/blog/how-to-use-ai-for-active-recall/) gut zu diesem COMLEX-Workflow.
 
-## Wo Flashcards hineinpasst
+## Wo Nibomo hineinpasst
 
 [Nibomo](/de/) passt am besten ab dem Punkt, an dem du weißt, was sich überhaupt zu behalten lohnt.
 

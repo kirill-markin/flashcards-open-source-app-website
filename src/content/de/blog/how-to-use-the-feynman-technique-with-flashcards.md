@@ -210,7 +210,7 @@ Schlechte Einsatzfelder:
 
 Wenn du die KI-Seite ausführlicher willst, ist [So nutzt du 2026 KI für Active Recall](/de/blog/how-to-use-ai-for-active-recall/) der richtige Begleitartikel.
 
-## Wo Flashcards in den Ablauf passt
+## Wo Nibomo in den Ablauf passt
 
 Die Feynman-Technik erzeugt Rohmaterial. Am Ende hast du oft irgendeine Mischung aus:
 

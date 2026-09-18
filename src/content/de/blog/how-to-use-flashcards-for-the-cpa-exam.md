@@ -231,7 +231,7 @@ Wenn du die Planungsseite ausführlicher willst, ist dies der direkte Begleitart
 
 - [Wie du 2026 mit FSRS für eine Prüfung lernst](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)
 
-## Wo Flashcards in diesen CPA-Workflow hineinpassen
+## Wo Nibomo in diesen CPA-Workflow hineinpasst
 
 Wenn du das in [Nibomo](https://nibomo.com/) umsetzen willst, liegt der nützliche Teil nicht in dem vagen Versprechen, dass KI dich schon irgendwie durch die CPA-Prüfung bringen wird.
 

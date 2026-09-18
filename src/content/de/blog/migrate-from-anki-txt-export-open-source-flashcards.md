@@ -168,7 +168,7 @@ Falls der Test scheitert, entfernst du die temporären Karten über die dafür v
 
 ## Die TXT-Datei mit Nibomo verwenden
 
-Flashcards bietet keinen direkten Anki-Importer. Die App kann `.apkg` oder `.colpkg` nicht lesen und daraus Anki-Vorlagen, Medien oder den Wiederholungsverlauf rekonstruieren.
+Nibomo bietet keinen direkten Anki-Importer. Die App kann `.apkg` oder `.colpkg` nicht lesen und daraus Anki-Vorlagen, Medien oder den Wiederholungsverlauf rekonstruieren.
 
 Der derzeit verfügbare gehostete Weg führt über KI-gestützte Entwürfe aus Dateianhängen. Öffne die [gehostete App mithilfe des Leitfadens für die ersten Schritte](/de/docs/getting-started/), hänge die TXT-Datei oder eine sorgfältig vorbereitete CSV-Datei im KI-Chat an und fordere ausdrücklich einen kleinen Entwurf an, ohne etwas speichern zu lassen. Prüfe die vorgeschlagenen Karten im Chat. Erst danach bittest du den Assistenten, den freigegebenen Stapel zu speichern.
 

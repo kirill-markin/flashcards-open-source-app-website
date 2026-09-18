@@ -228,7 +228,7 @@ Die einfachste Übertragung funktioniert mit jeder Karteikarten-App. Lass Claude
 
 Wenn du Nibomo nutzt, kann Claude freigegebene Karten auch über seinen Remote Custom Connector speichern. Laut Anthropics [aktueller Anleitung für Custom Connectors](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp) sind Remote Connectors in den Tarifen Free, Pro, Max, Team und Enterprise verfügbar; Nutzer des Tarifs Free können einen hinzufügen. Verbinde nur Server, denen du vertraust, und prüfe Schreibaktionen vor der Freigabe.
 
-Die Flashcards-MCP-URL lautet:
+Die Nibomo-MCP-URL lautet:
 
 ```text
 https://mcp.nibomo.com/mcp
@@ -237,7 +237,7 @@ https://mcp.nibomo.com/mcp
 Zum Speichern von Karten stellt der Connector `list_workspaces`, das Nur-Lese-Tool `sql_query`, `get_guide` für die Regeln zum Schreiben von Karten sowie das Schreib-Tool `sql_execute` bereit. Halte die Übertragung eng begrenzt:
 
 ```text
-Verwende den Flashcards-Connector ausschließlich für die von mir freigegebenen
+Verwende den Nibomo-Connector ausschließlich für die von mir freigegebenen
 Karten. Liste zuerst meine Workspaces auf und frage, welchen du verwenden sollst.
 Zeige vor dem Schreiben die genauen Vorderseiten, Rückseiten und das Ziel. Lege
 nichts an, bevor ich die Vorschau freigegeben habe. Lies die gespeicherten
@@ -246,7 +246,7 @@ Karten nach dem Schreibvorgang wieder aus, damit ich sie überprüfen kann.
 
 Die [Schritt-für-Schritt-Anleitung zum Claude-Connector](/blog/how-to-connect-flashcards-to-claude-with-mcp/) erklärt Einrichtung und Berechtigungen; du musst diesen Vorgang in einer Lernsitzung nicht wiederholen. Die [MCP-Connector-Referenz](/docs/mcp-connector/) dokumentiert die aktuellen Tools und die Authentifizierung.
 
-Claude kann die freigegebenen Karten anlegen, doch die Terminplanung nach FSRS bleibt in Flashcards. Öffne die [Web-App](https://app.flashcards-open-source-app.com/), wenn Karten fällig sind, rufe die Antwort aus dem Gedächtnis ab, decke sie auf und erfasse dort die Wiederholung. Wenn du keinen Connector-Zugriff möchtest, bleibt das manuelle Kopieren ein vollständiger Ablauf.
+Claude kann die freigegebenen Karten anlegen, doch die Terminplanung nach FSRS bleibt in Nibomo. Öffne die [Web-App](https://app.flashcards-open-source-app.com/), wenn Karten fällig sind, rufe die Antwort aus dem Gedächtnis ab, decke sie auf und erfasse dort die Wiederholung. Wenn du keinen Connector-Zugriff möchtest, bleibt das manuelle Kopieren ein vollständiger Ablauf.
 
 ## Wo Claude weiter Aufsicht braucht
 

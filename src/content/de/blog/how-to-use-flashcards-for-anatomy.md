@@ -240,7 +240,7 @@ Was FSRS nicht kann, ist aufgeblähte Prompts retten. Die Reihenfolge zählt:
 
 Wenn du die Scheduling-Seite direkter erklärt haben willst, sind [Wie du 2026 mit FSRS für eine Prüfung lernst](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/) und [FSRS vs. SM-2 im Jahr 2026](https://nibomo.com/blog/fsrs-vs-sm-2/) die zwei klarsten Anschlussartikel.
 
-## Wo Flashcards gut hineinpasst
+## Wo Nibomo gut hineinpasst
 
 [Nibomo](https://nibomo.com/) passt für Anatomie am besten dann, wenn du bereits weißt, was erinnert werden muss.
 

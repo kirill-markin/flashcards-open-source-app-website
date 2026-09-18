@@ -130,11 +130,11 @@ Der [ausführlichere Leitfaden zu Quizlet-Alternativen](/de/blog/quizlet-alterna
 
 > **Offenlegung:** Ich bin Kirill Markin und entwickle [Nibomo](/de/features/). Das [MIT-lizenzierte Repository](https://github.com/kirill-markin/flashcards-open-source-app) enthält den vollständigen Stack für Web, iOS, Android, Authentifizierung, Backend, Synchronisierung und Infrastruktur. Damit verläuft die Grenze des veröffentlichten Quellcodes bei Nibomo anders als bei Quizlet. Ein direkter Ersatz für Quizlet ist die App trotzdem nicht.
 
-Für Flashcards gibt es eine [Self-Hosting-Anleitung mit Schwerpunkt auf AWS](/de/docs/self-hosting/), aber keinen lokalen Ein-Klick-Installer. Wer die App betreibt, ist selbst für Cloud-Konten, Authentifizierung, E-Mail-Versand, Monitoring, Backups, Upgrades und Builds der nativen Apps verantwortlich.
+Für Nibomo gibt es eine [Self-Hosting-Anleitung mit Schwerpunkt auf AWS](/de/docs/self-hosting/), aber keinen lokalen Ein-Klick-Installer. Wer die App betreibt, ist selbst für Cloud-Konten, Authentifizierung, E-Mail-Versand, Monitoring, Backups, Upgrades und Builds der nativen Apps verantwortlich.
 
-Die App ist nicht mit Quizlet kompatibel. Es gibt keinen Quizlet-Importer mit einem Klick, und Flashcards bildet weder alle Quizlet-Spiele noch das gesamte Angebot für den Unterricht nach. Du kannst einen geprüften Quizlet-Textexport als Ausgangsmaterial für neue Karten verwenden. Das ist ein Migrationsweg, keine Kompatibilität mit Quizlet-Sets oder dem Lernverlauf.
+Die App ist nicht mit Quizlet kompatibel. Es gibt keinen Quizlet-Importer mit einem Klick, und Nibomo bildet weder alle Quizlet-Spiele noch das gesamte Angebot für den Unterricht nach. Du kannst einen geprüften Quizlet-Textexport als Ausgangsmaterial für neue Karten verwenden. Das ist ein Migrationsweg, keine Kompatibilität mit Quizlet-Sets oder dem Lernverlauf.
 
-Flashcards kommt infrage, wenn dir der Quellcode des vollständigen Stacks, die MIT-Lizenz, eine API und ein vom Betreiber kontrolliertes Deployment wichtig genug sind, um diese Grenzen zu akzeptieren. Andere [Open-Source-Karteikarten-Apps](/de/blog/best-open-source-flashcard-apps-2026/) passen besser, wenn du mehr Wert auf ein ausgereiftes Desktop-Ökosystem, einen direkten Import oder eine kleinere Self-Hosting-Aufgabe legst.
+Nibomo kommt infrage, wenn dir der Quellcode des vollständigen Stacks, die MIT-Lizenz, eine API und ein vom Betreiber kontrolliertes Deployment wichtig genug sind, um diese Grenzen zu akzeptieren. Andere [Open-Source-Karteikarten-Apps](/de/blog/best-open-source-flashcard-apps-2026/) passen besser, wenn du mehr Wert auf ein ausgereiftes Desktop-Ökosystem, einen direkten Import oder eine kleinere Self-Hosting-Aufgabe legst.
 
 ## Die kurze Antwort
 

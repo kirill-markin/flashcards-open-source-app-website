@@ -193,7 +193,7 @@ Wenn es dir allgemeiner um Eigentum und Prüfbarkeit geht, passt als Nächstes d
 
 - [Self-Hosted Open Source Flashcards App for Spaced Repetition](/blog/self-hosted-open-source-flashcards-app-for-spaced-repetition/)
 
-## Wo Flashcards hineinpasst, wenn dir dein nächstes Deck leichter gehören soll
+## Wo Nibomo hineinpasst, wenn dir dein nächstes Deck leichter gehören soll
 
 Wenn ich ein neues Deck mit Blick auf Eigentum aufsetzen würde, wären mir zuerst ein paar Produkteigenschaften wichtig:
 

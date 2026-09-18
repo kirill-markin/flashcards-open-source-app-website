@@ -196,7 +196,7 @@ Genau diese Art von Umschreiben will ich von **Deep Research zu Flashcards**. Ze
 
 Für die allgemeinere Seite der Kartenqualität passen [Wie du 2026 bessere Flashcards erstellst](/de/blog/how-to-make-better-flashcards/) und [Wie du 2026 Flashcards schneller wiederholst](/de/blog/how-to-review-flashcards-faster/) direkt neben diesen Workflow.
 
-## Wo Flashcards tatsächlich hineinpasst
+## Wo Nibomo tatsächlich hineinpasst
 
 [Nibomo](/de/features/) passt nach dem Rechercheteil hinein, nicht davor.
 
@@ -204,7 +204,7 @@ Das Produkt behauptet keine direkte One-Click-Integration mit ChatGPT Deep Resea
 
 1. Beende den Bericht in ChatGPT.
 2. Kopiere den nützlichen Abschnitt oder exportiere den Bericht.
-3. Füge den relevanten Text in den Flashcards-KI-Chat ein oder hänge die exportierte Datei an.
+3. Füge den relevanten Text in den Nibomo-KI-Chat ein oder hänge die exportierte Datei an.
 4. Nutze den KI-Chat, um die Formulierung in saubere Vorder-/Rückseite-Karten zu straffen.
 5. Bearbeite die finalen Karten, organisiere sie per Deck oder Tag und wiederhole sie mit FSRS.
 

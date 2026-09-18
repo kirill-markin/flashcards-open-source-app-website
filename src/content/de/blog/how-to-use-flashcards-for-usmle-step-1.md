@@ -315,7 +315,7 @@ Ich würde die Reihenfolge deshalb schlicht halten:
 
 Wenn du die Planungslogik genauer verstehen willst, ist [Wie du 2026 mit FSRS für eine Prüfung lernst](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/) der direkte Begleitartikel. Wenn deine Warteschlange bereits aus dem Ruder läuft, ist [Wie viele neue Flashcards pro Tag sind 2026 sinnvoll?](https://nibomo.com/blog/how-many-new-flashcards-per-day/) der nächste sinnvolle Text.
 
-## Wo Flashcards in einen Step-1-Workflow passen
+## Wo Nibomo in einen Step-1-Workflow passt
 
 Wenn du das innerhalb von [Nibomo](https://nibomo.com/) umsetzen willst, liegt der Wert nicht in einem vagen Versprechen, dass KI Medizin für dich lernen wird.
 

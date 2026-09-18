@@ -151,7 +151,7 @@ Wenn du die Scheduling-Seite genauer verstehen willst, geht dieser Begleitartike
 
 - [FSRS vs SM-2 in 2026: Welcher Spaced-Repetition-Algorithmus hilft dir, mehr zu behalten?](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
-## Wo Flashcards in diesen Workflow passt
+## Wo Nibomo in diesen Workflow passt
 
 [Nibomo](https://nibomo.com/) funktioniert gut für **PDF in Flashcards umwandeln**, weil das Produkt die entscheidenden Bausteine bereits an einem Ort vereint:
 
@@ -165,7 +165,7 @@ Diese Kombination ist wichtiger, als viele zugeben.
 
 Viele Produkte sind gut im Moment "Schau, da sind Karten". Danach wird der Workflow unscharf. Wo liegen die Entwürfe? Wie bearbeitest du sie? Was passiert, wenn du sie wirklich ernsthaft lernen willst, statt nur die Generierungsdemo zu bewundern?
 
-Genau dort wirkt Flashcards geerdeter als ein isolierter Generator.
+Genau dort wirkt Nibomo geerdeter als ein isolierter Generator.
 
 ## Ich würde den Workflow absichtlich langweilig halten
 

@@ -242,7 +242,7 @@ Darum würde ich die Reihenfolge schlicht halten:
 
 Wenn du tiefer in die Scheduler-Seite einsteigen willst, sind [FSRS-Einstellungen 2026](/de/blog/fsrs-settings/) und [FSRS vs. SM-2 im Jahr 2026](/de/blog/fsrs-vs-sm-2/) die direkten Anschlussartikel.
 
-## Wo Flashcards in diesen Workflow hineinpasst
+## Wo Nibomo in diesen Workflow hineinpasst
 
 Am besten passt [Nibomo](/de/), sobald du weißt, was überhaupt wiederholt werden sollte.
 

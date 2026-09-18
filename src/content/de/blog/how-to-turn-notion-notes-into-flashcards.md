@@ -95,7 +95,7 @@ Das reicht bereits.
 
 Du musst den ersten Schritt nicht unnötig verkomplizieren. Du brauchst das Material nur in einer Form, die KI lesen kann, um daraus sinnvolle Kartenentwürfe vorzuschlagen.
 
-Genau deshalb passt dieser Workflow so gut zu Flashcards. Die App unterstützt bereits KI-Chat, Dateianhänge und Klartext-Uploads. Der Weg von exportiertem Notion-Material zum Kartenentwurf ist damit direkt statt unnötig umständlich.
+Genau deshalb passt dieser Workflow so gut zu Nibomo. Die App unterstützt bereits KI-Chat, Dateianhänge und Klartext-Uploads. Der Weg von exportiertem Notion-Material zum Kartenentwurf ist damit direkt statt unnötig umständlich.
 
 ## Notion-Toggles sind nützlich, aber nicht automatisch gute Flashcards
 
@@ -185,7 +185,7 @@ Wenn du diesen Vergleich genauer sehen willst, geht dieser Begleitartikel tiefer
 
 - [FSRS vs SM-2 in 2026: Welcher Spaced-Repetition-Algorithmus hilft dir, mehr zu behalten?](https://nibomo.com/blog/fsrs-vs-sm-2/)
 
-## Wo Flashcards in diesen Workflow passt
+## Wo Nibomo in diesen Workflow passt
 
 [Nibomo](https://nibomo.com/) passt gut zu **Notion-Notizen in Flashcards verwandeln**, weil das Produkt die Teile abdeckt, die Menschen sonst mühsam von Hand zusammenbauen müssen:
 
@@ -200,7 +200,7 @@ Diese Kombination ist wichtiger, als viele zugeben.
 
 Viele Tools sind im Moment der Umwandlung gut und bei allem danach schwach. Die Karten tauchen auf. Schön. Danach brauchst du trotzdem einen verlässlichen Ort, an dem du sie bearbeiten, lernen und in einem echten Wiederholungsrhythmus behalten kannst.
 
-Genau an diesem Punkt fühlt sich Flashcards eher wie ein vollständiger Workflow und weniger wie ein Trick an.
+Genau an diesem Punkt fühlt sich Nibomo eher wie ein vollständiger Workflow und weniger wie ein Trick an.
 
 ## Das ist etwas anderes als allgemeine Workflows von Notizen zu Flashcards
 
@@ -208,7 +208,7 @@ Es gibt Überschneidungen, aber die Suchintention ist nicht dieselbe.
 
 Menschen, die nach **Notion-Notizen in Flashcards verwandeln** suchen, haben sich bereits für eine Notizumgebung entschieden. Sie wollen meist einen Weg von dieser Umgebung zum aktiven Abrufen finden, ohne alles von Grund auf neu aufzubauen.
 
-Deshalb ist der Workflow aus Export und Entwurf hier besonders praktisch. Er respektiert, dass Notion weiterhin die Aufgabe als Zuhause für Notizen erfüllt, während Flashcards den Teil übernimmt, für den Notion eigentlich nicht gebaut ist: das Lernen mit Spaced Repetition.
+Deshalb ist der Workflow aus Export und Entwurf hier besonders praktisch. Er respektiert, dass Notion weiterhin die Aufgabe als Zuhause für Notizen erfüllt, während Nibomo den Teil übernimmt, für den Notion eigentlich nicht gebaut ist: das Lernen mit Spaced Repetition.
 
 Wenn dein Ausgangsmaterial einfacher Text statt eines Notion-Arbeitsbereichs ist, passt dieser Begleitartikel besser:
 
@@ -236,7 +236,7 @@ Notion bleibt das Werkzeug für Notizen.
 
 KI übernimmt die mechanische Entwurfsarbeit.
 
-Flashcards übernimmt das Wiederholungssystem.
+Nibomo übernimmt das Wiederholungssystem.
 
 ## Die bessere Regel
 

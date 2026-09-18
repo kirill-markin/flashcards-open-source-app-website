@@ -159,20 +159,20 @@ Wenn du die Seite des Kartenschreibens ausführlicher sehen willst, geht dieses 
 
 Diesen Teil sollte man klar aussprechen, weil Produktseiten in diesem Bereich gern Magie andeuten.
 
-Flashcards ist nicht direkt mit Gemini Deep Research verbunden. Gemini übernimmt die Recherche. Flashcards übernimmt den Teil fürs Behalten, nachdem du das Material bereits hast.
+Nibomo ist nicht direkt mit Gemini Deep Research verbunden. Gemini übernimmt die Recherche. Nibomo übernimmt den Teil fürs Behalten, nachdem du das Material bereits hast.
 
 Der praktische Weg ist trotzdem unkompliziert:
 
 1. recherchiere in Gemini
 2. kopiere den nützlichen Abschnitt oder speichere den Berichtstext, den du behalten willst
-3. bringe diesen Text oder diese Datei in Flashcards
+3. bringe diesen Text oder diese Datei in Nibomo
 4. formuliere daraus saubere Vorderseite-Rückseite-Karten
 5. organisiere die Karten mit Decks oder Tags
 6. reviewe sie mit FSRS
 
 Das ist ehrlich, und meistens ist es ohnehin besser als eine falsche One-Click-Pipeline. Der Großteil der Qualität entsteht bei Auswahl und Bearbeitung, nicht beim Transfer.
 
-## Warum Flashcards zu diesem Workflow passt
+## Warum Nibomo zu diesem Workflow passt
 
 [Nibomo](/) versucht nicht, Gemini Deep Research zu ersetzen.
 
@@ -200,7 +200,7 @@ Ein einzelner Bericht enthält oft mehrere verschiedene Arten von Gedächtnismat
 
 Die müssen nicht dauerhaft in einem einzigen, nach dem Tool benannten Haufen landen.
 
-Innerhalb von Flashcards würde ich stattdessen nach Fachthema organisieren. Der Bericht mag aus Gemini stammen, aber die langfristige Struktur sollte trotzdem der Sache gehören, die du tatsächlich lernst.
+Innerhalb von Nibomo würde ich stattdessen nach Fachthema organisieren. Der Bericht mag aus Gemini stammen, aber die langfristige Struktur sollte trotzdem der Sache gehören, die du tatsächlich lernst.
 
 So bleibt **Gemini Deep Research spaced repetition** praktisch. Du baust keinen Schrein für einen Bericht. Du extrahierst daraus wiederverwendbares Wissen.
 

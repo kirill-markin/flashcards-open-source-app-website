@@ -14,7 +14,7 @@ keywords:
   - "Offline-Spaced-Repetition-App"
 ---
 
-Welche Lern-App funktioniert offline? **Alle fünf Apps in diesem Vergleich halten zumindest einen Teil deines Lernalltags ohne Internet am Laufen – allerdings nur auf der richtigen Plattform.** Die installierten Anki-Apps sind die zuverlässigste Allround-Wahl für eine vollständig lokale Sammlung. Die installierten Mochi-Apps bieten die eindeutigste Option ohne Benutzerkonto. RemNote funktioniert in seinen installierten Apps gut offline, wobei Medien auf Mobilgeräten nur teilweise verfügbar sind. Quizlet setzt die iOS- oder Android-App und vorbereitete Lernsets voraus. Flashcards speichert in seinen nativen Apps nach dem Local-first-Prinzip, benötigt dafür aber zunächst eine Online-Anmeldung und den ersten Download des Arbeitsbereichs.
+Welche Lern-App funktioniert offline? **Alle fünf Apps in diesem Vergleich halten zumindest einen Teil deines Lernalltags ohne Internet am Laufen – allerdings nur auf der richtigen Plattform.** Die installierten Anki-Apps sind die zuverlässigste Allround-Wahl für eine vollständig lokale Sammlung. Die installierten Mochi-Apps bieten die eindeutigste Option ohne Benutzerkonto. RemNote funktioniert in seinen installierten Apps gut offline, wobei Medien auf Mobilgeräten nur teilweise verfügbar sind. Quizlet setzt die iOS- oder Android-App und vorbereitete Lernsets voraus. Nibomo speichert in seinen nativen Apps nach dem Local-first-Prinzip, benötigt dafür aber zunächst eine Online-Anmeldung und den ersten Download des Arbeitsbereichs.
 
 Für diese Entscheidung müssen die Browser-Versionen gesondert betrachtet werden. Ein heruntergeladenes mobiles Lernset, ein Bild im Cache und ein Browser-Tab, der einen Verbindungsabbruch zufällig übersteht, sind nicht dasselbe wie eine installierte App, die ihre lokale Sammlung auch nach vollständigem Schließen ohne Netz wieder öffnen kann.
 
@@ -33,11 +33,11 @@ Unter engeren Voraussetzungen können die anderen Apps besser passen:
 - Wähle **eine installierte Mochi-App**, wenn du ohne Konto lokal Karten erstellen und wiederholen möchtest.
 - Wähle **RemNote für Desktop**, wenn deine Karten in Notizen eingebettet sind und du Bilder und PDFs lokal brauchst.
 - Wähle **Quizlet für Mobilgeräte**, wenn du genau weißt, welche Lernsets du benötigst, und dir Flashcards oder Match für die Reise genügen.
-- Wähle **Flashcards auf iOS oder Android**, wenn du Änderungen und Wiederholungsverlauf zuerst lokal speichern und später synchronisieren möchtest – und du mit der anfänglichen Online-Einrichtung und dem jüngeren Produkt leben kannst.
+- Wähle **Nibomo auf iOS oder Android**, wenn du Änderungen und Wiederholungsverlauf zuerst lokal speichern und später synchronisieren möchtest – und du mit der anfänglichen Online-Einrichtung und dem jüngeren Produkt leben kannst.
 
 Dieser Vergleich trennt fünf Aspekte: Kartenzugriff, Kartenbearbeitung, gespeicherter Wiederholungsverlauf, Medien und spätere Synchronisierung. Eine App muss genau die Teile zuverlässig offline abdecken, die deine tatsächliche Sammlung nutzt; eine „Offline“-Kennzeichnung allein reicht nicht.
 
-Wenn dir nur ein Browser zur Verfügung steht, ist die Lage weniger eindeutig. RemNote beschreibt einen Modus, der nur in einem bereits geöffneten Tab weiterläuft, Quizlets Offline-Anleitung gilt ausschließlich für mobile Apps, und AnkiWeb ist ein Onlinedienst. Mochi zufolge nutzt die Web-Version ohne Pro den Offline-Speicher des Browsers; das Unternehmen warnt jedoch, dass der Browser diese Daten löschen kann. Flashcards speichert Lerndaten in IndexedDB, doch der Webclient bietet keinen ebenso verlässlichen Offline-Neustart wie eine installierte native App.
+Wenn dir nur ein Browser zur Verfügung steht, ist die Lage weniger eindeutig. RemNote beschreibt einen Modus, der nur in einem bereits geöffneten Tab weiterläuft, Quizlets Offline-Anleitung gilt ausschließlich für mobile Apps, und AnkiWeb ist ein Onlinedienst. Mochi zufolge nutzt die Web-Version ohne Pro den Offline-Speicher des Browsers; das Unternehmen warnt jedoch, dass der Browser diese Daten löschen kann. Nibomo speichert Lerndaten in IndexedDB, doch der Webclient bietet keinen ebenso verlässlichen Offline-Neustart wie eine installierte native App.
 
 ## Kläre zuerst, was „offline“ konkret bedeutet
 
@@ -87,7 +87,7 @@ Laut Mochis [Installationsanleitung](https://mochi.cards/docs/getting-started/do
 
 Die [Mochi-Anleitung zu Backups](https://mochi.cards/docs/getting-started/backing-up/) ergänzt dieses lokale Modell um einen nützlichen Weg zur Wiederherstellung: Eine Kopie des Benutzerverzeichnisses der Desktop-App bewahrt Karten, Vorlagen, Wiederholungsverlauf, Anhänge, Einstellungen und Anmeldestatus. Mit einem `.mochi`-Export lassen sich die Lerndaten zwischen Geräten übertragen. Für eine längere Offline-Nutzung auf einem Gerät ist das eine greifbarere Absicherung als die Synchronisierung allein.
 
-### Flashcards: native Local-first-Clients mit Grenzen bei der Einrichtung
+### Nibomo: native Local-first-Clients mit Grenzen bei der Einrichtung
 
 Die [Offline-first-Architektur von Nibomo](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/docs/architecture.md#offline-first-sync) speichert Karten, Decks, Einstellungen und Wiederholungen lokal, bevor sie an den Server übertragen werden. Im Web kommt IndexedDB zum Einsatz, auf iOS SQLite und auf Android Room auf Basis von SQLite. Wiederholungen werden als Append-only-Ereignisse übertragen; der veränderliche Zustand von Karten und Decks läuft über die Outbox.
 
@@ -110,6 +110,6 @@ Die offizielle Dokumentation beschreibt die Produktgrenzen. Mit diesem wiederhol
 
 Dieser Test dauert etwa zehn Minuten und deckt die Fehler auf, auf die es ankommt: die falsche Plattform, ein unvollständiger Download, fehlende Medien, Arbeit, die nach einem Neustart verschwindet, oder Lernfortschritt, der das nächste Gerät nie erreicht.
 
-Für die meisten Studierenden, Pendelnden und Reisenden bleibt Anki die beste Offline-Karteikarten-App, weil seine installierten Clients die wenigsten Kompromisse verlangen. Je nach Anforderungen kann eine andere App dennoch nützlicher sein: Mochi für lokales Lernen ohne Konto, RemNote für Notizen und Medien auf dem Desktop, Quizlet für vorbereitete mobile Lernsets oder Flashcards für native Local-first-Nutzung mit späterer Synchronisierung.
+Für die meisten Studierenden, Pendelnden und Reisenden bleibt Anki die beste Offline-Karteikarten-App, weil seine installierten Clients die wenigsten Kompromisse verlangen. Je nach Anforderungen kann eine andere App dennoch nützlicher sein: Mochi für lokales Lernen ohne Konto, RemNote für Notizen und Medien auf dem Desktop, Quizlet für vorbereitete mobile Lernsets oder Nibomo für native Local-first-Nutzung mit späterer Synchronisierung.
 
 Wenn Offline-Zugriff nur ein Teil deiner Entscheidung ist, vergleiche die [besten Open-Source-Karteikarten-Apps 2026](/blog/best-open-source-flashcard-apps-2026/) oder lies den umfassenderen Vergleich von [Anki, Quizlet und Nibomo](/blog/anki-vs-quizlet-vs-open-source-flashcards-app/). Für welche App du dich auch entscheidest: Bereite genau das Gerät vor, das du verwenden wirst, und führe den Flugmodus-Test durch, bevor du auf die Verbindung angewiesen bist.

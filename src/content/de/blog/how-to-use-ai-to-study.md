@@ -195,7 +195,7 @@ Ich glaube, genau deshalb ist **KI-Flashcards mit Spaced Repetition** so ein wic
 
 Wenn dich speziell die Scheduler-Seite interessiert, erklärt [FSRS vs SM-2 in 2026](/blog/fsrs-vs-sm-2/) genauer, warum ich die finalen Karten lieber in FSRS habe als in einem Chat-Transkript oder einem statischen Export.
 
-## Wo Flashcards in diesen Workflow passt
+## Wo Nibomo in diesen Workflow passt
 
 [Nibomo](/) ist nicht der KI-Tutor für alles.
 
@@ -213,7 +213,7 @@ Das passt gut, weil das Produkt den praktischen nächsten Schritt schon abdeckt:
 So bleibt der Workflow ehrlich:
 
 1. Nutze deinen KI-Tutor oder Lernassistenten, um den Stoff zu verstehen.
-2. Übernimm die nützlichen Schwachstellen in Flashcards.
+2. Übernimm die nützlichen Schwachstellen in Nibomo.
 3. Bereinige sie zu einfachen Karten.
 4. Wiederhole sie mit FSRS, bis sie wirklich sitzen.
 

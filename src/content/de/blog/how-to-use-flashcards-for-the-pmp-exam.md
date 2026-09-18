@@ -227,7 +227,7 @@ Die Reihenfolge zählt:
 
 Wenn du die Planungsseite ausführlicher willst, ist [Wie du 2026 mit FSRS für eine Prüfung lernst](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/) der direkte Begleitartikel.
 
-## Wo Flashcards in diesen PMP-Workflow hineinpasst
+## Wo Nibomo in diesen PMP-Workflow hineinpasst
 
 Wenn du das in [Nibomo](https://nibomo.com/) umsetzen willst, liegt der nützliche Teil nicht in dem vagen Versprechen, dass KI irgendwie für dich lernen wird.
 

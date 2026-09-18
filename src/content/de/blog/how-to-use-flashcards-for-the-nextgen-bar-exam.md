@@ -241,7 +241,7 @@ Wenn du die Planungsseite ausführlicher willst, ist das hier der direkte Beglei
 
 - [Wie du 2026 mit FSRS für eine Prüfung lernst](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)
 
-## Wo Flashcards in diesen NextGen-Workflow hineinpassen
+## Wo Nibomo in diesen NextGen-Workflow hineinpasst
 
 Wenn du das in [Nibomo](https://nibomo.com/) umsetzen willst, liegt der nützliche Teil nicht in dem vagen Versprechen, dass KI das Lernen leichter macht. Der nützliche Teil ist, dass das Produkt bereits den eigentlichen Mittelteil dieses Workflows unterstützt:
 

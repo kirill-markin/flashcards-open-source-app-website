@@ -238,7 +238,7 @@ Darum sollten **Flashcards im Medizinstudium** auch nah an den Stellen bleiben, 
 
 Genau dort verdient sich das Deck seinen Platz.
 
-## Wo Flashcards in diesen Workflow besonders gut passt
+## Wo Nibomo in diesen Workflow besonders gut passt
 
 [Nibomo](https://nibomo.com/) passt gut zu **Flashcards für das Medizinstudium**, weil das Produkt die Bausteine unterstützt, von denen dieser Workflow abhängt:
 

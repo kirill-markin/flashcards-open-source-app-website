@@ -231,7 +231,7 @@ Das ist wichtig, weil:
 - unsauberes Bewerten Intervalle weniger verlässlich macht
 - wiederholte "fast"-Ratings eine schwache Karte in einem lästigen Zwischenzustand halten können
 
-Das zählt auch in Flashcards, weil die App FSRS-Reviews mit `Again`, `Hard`, `Good` und `Easy` nutzt. Wiederholte `Again`-Klicks sind nicht peinlich. Sie sind Daten. Die Karte verlangt nach Überarbeitung.
+Das zählt auch in Nibomo, weil die App FSRS-Reviews mit `Again`, `Hard`, `Good` und `Easy` nutzt. Wiederholte `Again`-Klicks sind nicht peinlich. Sie sind Daten. Die Karte verlangt nach Überarbeitung.
 
 ## Eine einfache wöchentliche Leech-Bereinigungsrunde
 
@@ -246,9 +246,9 @@ Ein- oder zweimal pro Woche:
 
 Das reicht für die meisten Decks. Du brauchst keine große Taxonomie, kein Leech-Dashboard und kein Wochenende, das du an Deck-Management verlierst. Du brauchst die Gewohnheit, schlechte Karten nicht weiter in Umlauf zu halten.
 
-## So gehst du in Flashcards mit Karten um, die wiederholt scheitern
+## So gehst du in Nibomo mit Karten um, die wiederholt scheitern
 
-Wenn du Flashcards konkret nutzt, ist der Workflow ziemlich direkt:
+Wenn du Nibomo konkret nutzt, ist der Workflow ziemlich direkt:
 
 1. Wiederhole normal mit ehrlichen FSRS-Ratings.
 2. Wenn dieselbe Karte immer wieder scheitert, bearbeite die Vorder-/Rückseiten-Karte, statt zu hoffen, dass ein weiterer Durchgang das Problem löst.

@@ -246,7 +246,7 @@ Halte die Reihenfolge deshalb einfach:
 
 [Wie du 2026 mit FSRS für eine Prüfung lernst](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/) geht tiefer auf die Scheduling-Seite ein.
 
-## Wo Flashcards in diesen AP-Calculus-Workflow passt
+## Wo Nibomo in diesen AP-Calculus-Workflow passt
 
 [Nibomo](https://nibomo.com/) passt gut zu diesem AP-Calculus-Workflow, wenn du den ganzen Kreislauf an einem Ort zusammenhalten willst, ohne aus dem Artikel einen Verkaufstext zu machen.
 

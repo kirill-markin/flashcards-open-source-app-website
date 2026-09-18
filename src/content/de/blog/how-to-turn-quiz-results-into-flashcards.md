@@ -212,7 +212,7 @@ Die blinde Umwandlung ist immer noch der falsche Schritt. Wenn das Modell aus je
 
 Wenn dein Workflow ohnehin tutorartige Quiz-Sitzungen enthält, passen [So nutzt du 2026 KI für Active Recall: Erst fragen lassen, dann nur die Schwachstellen behalten](/de/blog/how-to-use-ai-for-active-recall/) und [So machst du 2026 aus dem ChatGPT Study Mode sinnvolle Flashcards: Tutor behalten, Spaced Repetition ergänzen](/de/blog/how-to-turn-chatgpt-study-mode-into-flashcards/) direkt daneben.
 
-## Wo Flashcards hineinpasst
+## Wo Nibomo hineinpasst
 
 [Nibomo](/de/) passt gut zu diesem Workflow, weil die nützlichen Schritte klein und praktisch sind: schlichte Vorderseiten-/Rückseiten-Karten entwerfen, sie bereinigen und die Karten, die übrig bleiben, mit FSRS wiederholen. Die gehostete Web-App unterstützt außerdem KI-Chat plus Dateianhänge, darunter auch Klartext-Uploads. Das hilft, wenn Quiz-Feedback zuerst als kopierter LMS-Text oder als roher Export vorliegt statt als sauberer Lernzettel.
 

@@ -203,7 +203,7 @@ FSRS ist der Teil, der aus "Ich habe diese Lücke bemerkt" ein "Ich werde nächs
 
 Wenn du den Vergleich der Scheduler selbst willst, ist [FSRS vs SM-2 in 2026](/blog/fsrs-vs-sm-2/) der bessere Ort dafür. Dieser Artikel ist enger gefasst. Gemini hat die Schwachstellen bereits gefunden. Jetzt brauchen sie ein echtes Zuhause für die Wiederholung.
 
-## Wo Flashcards hineinpasst
+## Wo Nibomo hineinpasst
 
 [Nibomo](/) versucht nicht, Gemini Guided Learning zu ersetzen.
 

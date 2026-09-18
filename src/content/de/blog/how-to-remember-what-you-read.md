@@ -195,7 +195,7 @@ Frag dich:
 
 Diese kleinere Frage erzeugt viel bessere Karten.
 
-In der Praxis heißt das meist: ein kleines Deck oder ein Tag für eine Leseeinheit in Flashcards, nicht ein riesiger Kapiteldump.
+In der Praxis heißt das meist: ein kleines Deck oder ein Tag für eine Leseeinheit in Nibomo, nicht ein riesiger Kapiteldump.
 
 Angenommen, du liest einen Biologieabschnitt und dein Abrufcheck sagt:
 
@@ -335,7 +335,7 @@ Das ist die Version, die ich in einer normalen Woche tatsächlich wiederholen w�
 
 Das ist eine viel stärkere Antwort auf **behalten, was du liest** als so lange wiederzulesen, bis sich die Seite vertraut anfühlt.
 
-## Wo Flashcards hineinpasst
+## Wo Nibomo hineinpasst
 
 [Nibomo](/de/) passt genau an die Stelle, an der der Leseabschnitt dir schon gezeigt hat, was wirklich zählt.
 
