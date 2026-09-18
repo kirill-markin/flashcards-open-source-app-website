@@ -227,7 +227,7 @@ PMP で FSRS が役立つのは、記憶負荷にムラがあるからです。
 
 スケジューリング面をもう少し詳しく見たいなら、直接つながるのは次の記事です。[2026年版 FSRSで試験勉強する方法](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/)
 
-## この PMP ワークフローの中で Flashcards がはまる場所
+## この PMP ワークフローの中で Nibomo がはまる場所
 
 [Nibomo](https://nibomo.com/) の中でこの流れを回すなら、便利なのは「AI がなんとなく代わりに勉強してくれる」という曖昧な約束ではありません。
 

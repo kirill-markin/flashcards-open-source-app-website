@@ -238,7 +238,7 @@ AI を使って、シラバスから締切、週次課題、試験の比重、�
 - [2026年版 FSRSで試験勉強する方法](/ja/blog/how-to-study-for-an-exam-with-fsrs/)
 - [2026年にAIで勉強する方法](/ja/blog/how-to-use-ai-to-study/)
 
-## この流れの中で Flashcards が入る場所
+## この流れの中で Nibomo が入る場所
 
 [Nibomo](/ja/features/) が効くのは、シラバスがすでに構造へ変わったあとです。
 

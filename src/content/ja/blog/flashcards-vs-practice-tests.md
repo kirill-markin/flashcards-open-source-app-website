@@ -243,7 +243,7 @@ OpenAI の [Study Mode](https://openai.com/index/chatgpt-study-mode/) は、ガ�
 
 こうやって、「翌日には全部抜ける」が、「まだ少し外すけれど、どこを外しているかはかなり正確に分かる」に変わっていきます。
 
-## Flashcards がいちばんしっくりくる役割
+## Nibomo がいちばんしっくりくる役割
 
 [Nibomo](/ja/) を、私は本格的な模擬試験プラットフォームとは呼びません。
 
@@ -262,7 +262,7 @@ OpenAI の [Study Mode](https://openai.com/index/chatgpt-study-mode/) は、ガ�
 
 模擬試験で問題を見つける。
 
-あとでも直しておくべき部分だけを Flashcards に残す。
+あとでも直しておくべき部分だけを Nibomo に残す。
 
 ## 現実的な1週間の回し方
 

@@ -240,7 +240,7 @@ keywords:
 
 スケジューラ側をもう少し素直に知りたいなら、[2026年版 FSRSで試験勉強する方法](https://nibomo.com/blog/how-to-study-for-an-exam-with-fsrs/) と [2026年版 FSRSとSM-2の違い](https://nibomo.com/blog/fsrs-vs-sm-2/) がそのまま続きとして読めます。
 
-## Flashcards が向いている場所
+## Nibomo が向いている場所
 
 [Nibomo](https://nibomo.com/) が解剖学にいちばん合うのは、何を覚えるべきかがすでに見えている段階です。
 

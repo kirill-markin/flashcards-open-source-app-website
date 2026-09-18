@@ -257,7 +257,7 @@ keywords:
 - [2026年、1日に何枚の新しいフラッシュカードを追加すべきか](https://nibomo.com/blog/how-many-new-flashcards-per-day/)
 - [2026年版 フラッシュカードを速く復習する方法](https://nibomo.com/blog/how-to-review-flashcards-faster/)
 
-## このワークフローで Flashcards が合う場所
+## このワークフローで Nibomo が合う場所
 
 [Nibomo](https://nibomo.com/) がこの種の薬理学学習に合うのは、薬理学そのものを AI に丸投げするからではありません。私はそのやり方では勉強しません。
 

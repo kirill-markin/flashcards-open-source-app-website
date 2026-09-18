@@ -302,7 +302,7 @@ blue book を開く。最初の設問には "Compare" や "Assess" とある。�
 
 ここを磨きたいなら、[2026年版 AIでアクティブリコールする方法](/blog/how-to-use-ai-for-active-recall/) と [2026年版 AIフラッシュカードの直し方](/blog/how-to-fix-ai-flashcards/) のほうが次の一歩になります。
 
-## Flashcards がはまる場所
+## Nibomo がはまる場所
 
 [Nibomo](/) は、**論述試験でフラッシュカードを使う方法** の実用的な置き場所です。論述試験の準備は、答えをひねり出す問題だけでなく、編集、保管、復習の問題でもあるからです。
 
