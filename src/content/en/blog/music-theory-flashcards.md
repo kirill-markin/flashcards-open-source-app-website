@@ -35,6 +35,8 @@ Flashcards work well for written symbols and compact relationships that should b
 
 Treat that list as a menu. Making every possible interval above every possible note will give you a large deck long before it gives you better musicianship. Start with the material in your current lesson and the distinctions you actually need to retrieve.
 
+For common tempo and dynamic terms, the [music tempo and dynamics flashcards](/catalog/packages/music-tempo-dynamics-flashcards/) combine meaning recall with short written scenarios about changes in speed and loudness.
+
 Written cards also have a hard limit. They do not replace ear training, continuous sight-reading, playing or singing, rhythm performance, full-piece analysis, composition, teacher feedback, or a structured course. The [College Board AP Music Theory overview](https://apstudents.collegeboard.org/courses/ap-music-theory) makes the wider scope easy to see: study includes listening, reading scores, writing, singing, and identifying music from both performance and notation. That balance matters even if you are nowhere near an AP course.
 
 Use those larger activities to find gaps. If you repeatedly miss a seventh-chord spelling during analysis or hesitate over the same ledger-line note while sight-reading, verify the underlying rule and add one small repair card. Then go back to the score, instrument, voice, or recording. A written card can repair quick retrieval; it cannot turn itself into listening or performance practice.
