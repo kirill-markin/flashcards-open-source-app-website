@@ -2,7 +2,7 @@
 
 Marketing website for Nibomo. Static Next.js site deployed on Vercel.
 
-**Git Workflow**: commit directly to `main`; deploy is automatic after push.
+**Git Workflow**: work through a pull request; deploy is automatic after merge. The required check neither typechecks nor renders pages, so a green check is not a working build: merge only after the Vercel preview deployment succeeds.
 
 **CI**: `.github/workflows/pr-checks.yml` runs `npm run test:catalog` on pull requests and on pushes to `main`. Its `Catalog test suite` job is a required status check for merging a pull request into `main`; the branch need not be up to date. A direct push to `main` by an admin bypasses the check: the run reports after the commit has landed and Vercel has started deploying it, so it detects a broken commit rather than blocking one.
 
