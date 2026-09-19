@@ -10,12 +10,18 @@ import { PRICING_PAGE_CONTENT as EN_PRICING_PAGE_CONTENT } from "@/content/en/pa
 import { FEATURES_PAGE_CONTENT as ES_FEATURES_PAGE_CONTENT } from "@/content/es/pages/features";
 import { HOME_PAGE_CONTENT as ES_HOME_PAGE_CONTENT } from "@/content/es/pages/home";
 import { PRICING_PAGE_CONTENT as ES_PRICING_PAGE_CONTENT } from "@/content/es/pages/pricing";
+import { FEATURES_PAGE_CONTENT as FR_FEATURES_PAGE_CONTENT } from "@/content/fr/pages/features";
+import { HOME_PAGE_CONTENT as FR_HOME_PAGE_CONTENT } from "@/content/fr/pages/home";
+import { PRICING_PAGE_CONTENT as FR_PRICING_PAGE_CONTENT } from "@/content/fr/pages/pricing";
 import { FEATURES_PAGE_CONTENT as HI_FEATURES_PAGE_CONTENT } from "@/content/hi/pages/features";
 import { HOME_PAGE_CONTENT as HI_HOME_PAGE_CONTENT } from "@/content/hi/pages/home";
 import { PRICING_PAGE_CONTENT as HI_PRICING_PAGE_CONTENT } from "@/content/hi/pages/pricing";
 import { FEATURES_PAGE_CONTENT as JA_FEATURES_PAGE_CONTENT } from "@/content/ja/pages/features";
 import { HOME_PAGE_CONTENT as JA_HOME_PAGE_CONTENT } from "@/content/ja/pages/home";
 import { PRICING_PAGE_CONTENT as JA_PRICING_PAGE_CONTENT } from "@/content/ja/pages/pricing";
+import { FEATURES_PAGE_CONTENT as PT_FEATURES_PAGE_CONTENT } from "@/content/pt/pages/features";
+import { HOME_PAGE_CONTENT as PT_HOME_PAGE_CONTENT } from "@/content/pt/pages/home";
+import { PRICING_PAGE_CONTENT as PT_PRICING_PAGE_CONTENT } from "@/content/pt/pages/pricing";
 import { FEATURES_PAGE_CONTENT as RU_FEATURES_PAGE_CONTENT } from "@/content/ru/pages/features";
 import { HOME_PAGE_CONTENT as RU_HOME_PAGE_CONTENT } from "@/content/ru/pages/home";
 import { PRICING_PAGE_CONTENT as RU_PRICING_PAGE_CONTENT } from "@/content/ru/pages/pricing";
@@ -59,6 +65,16 @@ export const STRUCTURED_PAGE_CONTENT_BY_LOCALE: Readonly<
     home: JA_HOME_PAGE_CONTENT,
     features: JA_FEATURES_PAGE_CONTENT,
     pricing: JA_PRICING_PAGE_CONTENT,
+  },
+  fr: {
+    home: FR_HOME_PAGE_CONTENT,
+    features: FR_FEATURES_PAGE_CONTENT,
+    pricing: FR_PRICING_PAGE_CONTENT,
+  },
+  pt: {
+    home: PT_HOME_PAGE_CONTENT,
+    features: PT_FEATURES_PAGE_CONTENT,
+    pricing: PT_PRICING_PAGE_CONTENT,
   },
   ru: {
     home: RU_HOME_PAGE_CONTENT,

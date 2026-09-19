@@ -9,6 +9,7 @@ import {
   parseMarkdownAssetManifest,
   serializeMarkdownAssetManifest,
 } from "./src/lib/markdownAssetManifest";
+import { DEFAULT_LOCALE, SUPPORTED_LOCALES } from "./src/lib/localeConfig";
 
 type CatalogPackageSlugRedirect = Readonly<{
   retiredSlug: string;
@@ -36,16 +37,13 @@ const catalogPackageSlugRedirects: ReadonlyArray<CatalogPackageSlugRedirect> = [
   },
 ];
 
-const catalogUiPathPrefixes: ReadonlyArray<string> = [
-  "",
-  "/es",
-  "/ar",
-  "/de",
-  "/hi",
-  "/ja",
-  "/ru",
-  "/zh",
-];
+// Derived from SUPPORTED_LOCALES so a new locale never silently loses its
+// catalog redirects. This mirrors getLocalizedPathname from src/lib/i18n.ts,
+// which cannot be imported here because it resolves "@/" path aliases that
+// next.config.ts does not support.
+const catalogUiPathPrefixes: ReadonlyArray<string> = SUPPORTED_LOCALES.map(
+  (locale) => (locale === DEFAULT_LOCALE ? "" : `/${locale}`),
+);
 
 function createPermanentCatalogPackageRedirects(): Array<PermanentRedirect> {
   return catalogPackageSlugRedirects.flatMap(({ retiredSlug, replacementSlug }) =>

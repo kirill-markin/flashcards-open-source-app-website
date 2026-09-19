@@ -896,6 +896,264 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       webApp: "ウェブアプリ",
     },
   },
+  fr: {
+    auth: {
+      logIn: "Se connecter",
+      openApp: "Ouvrir l'app",
+      signUpFree: "S'inscrire gratuitement",
+      startStudyingFree: "Commencer gratuitement",
+    },
+    blog: {
+      breadcrumbLabel: "Blog",
+      byPrefix: "Par",
+      empty: "Les articles arrivent bientôt.",
+      metaDescription: "Actualités, tutoriels et analyses sur Nibomo.",
+      notFoundDescription: "Cet article de blog n'existe pas.",
+      notFoundTitle: "Introuvable",
+      readNextHeading: "À lire ensuite",
+      title: "Blog",
+    },
+    breadcrumbs: {
+      ariaLabel: "Fil d'Ariane",
+      homeLabel: "Accueil",
+    },
+    copyCodeField: {
+      copied: "Copié",
+      copy: "Copier",
+      copyFailed: "Échec de la copie",
+    },
+    cta: {
+      activityHeading: "Prêt à réviser vos propres cartes ?",
+      heading:
+        "Apprenez plus et oubliez moins avec des flashcards gratuites à répétition espacée",
+      buttonLabel: "Commencer gratuitement",
+      featuresHeading:
+        "Créez de meilleures cartes et révisez-les au bon moment.",
+    },
+    docs: {
+      breadcrumbLabel: "Documentation",
+      comingSoonDescription: "Cette page de documentation est en cours de rédaction.",
+      comingSoonTitle: "Bientôt disponible",
+      metaDescription:
+        "Premiers pas, guide d'auto-hébergement, référence de l'API et aperçu de l'architecture.",
+      title: "Documentation",
+    },
+    footer: {
+      appsHeading: "Applications",
+      blogLabel: "Blog",
+      builtByLabel: "Créé par Kirill Markin",
+      copyrightLabel: "Nibomo",
+      documentationLabel: "Documentation",
+      featuresLabel: "Fonctionnalités",
+      inDevelopmentLabel: "En développement",
+      legalHeading: "Mentions légales",
+      openSourceHeading: "Open source",
+      operatedByLabel: "Exploité par SAMO DANNI EOOD",
+      pricingLabel: "Tarifs",
+      privacyPolicyLabel: "Politique de confidentialité",
+      productHeading: "Produit",
+      selfHostingGuideLabel: "Guide d'auto-hébergement",
+      supportLabel: "Assistance",
+      termsOfServiceLabel: "Conditions d'utilisation",
+    },
+    home: {
+      activity: {
+        dailyUniqueUsersChartDescription:
+          "Les personnes sont comptées comme nouvelles le jour de leur première révision, puis comme récurrentes. Une révision est comptée quand quelqu'un choisit À revoir, Difficile, Correct ou Facile sur une carte.",
+        dailyUniqueUsersChartTitle: "Personnes qui révisent chaque jour : nouvelles et récurrentes",
+        dateRangeLabel: "Période",
+        daysInRangeLabel: "Jours dans la période",
+        description:
+          "Consultez l'activité de révision quotidienne agrégée sur le web, iOS et Android. Les chiffres publiés sont des totaux agrégés et ne révèlent ni le contenu des cartes, ni les adresses e-mail, ni les historiques d'étude individuels.",
+        eyebrow: "Activité",
+        lastUpdatedLabel: "Dernière mise à jour",
+        peakDailyUniqueUsersLabel: "Pic quotidien d'utilisateurs uniques",
+        peakDailyVolumeLabel: "Pic quotidien de volume",
+        platformActivityChartDescription:
+          "Une révision est comptée quand quelqu'un choisit À revoir, Difficile, Correct ou Facile sur une carte. Les totaux sont groupés par plateforme.",
+        platformActivityChartTitle: "Révisions quotidiennes par plateforme",
+        platformLabels: {
+          android: "Android",
+          ios: "iOS",
+          web: "Web",
+        },
+        reviewUserCohortLabels: {
+          new: "Nouvelles",
+          returning: "Récurrentes",
+        },
+        reviewDateAxisLabel: "Date de révision",
+        reviewEventsAxisLabel: "Révisions",
+        rawSnapshotLabel: "Données brutes (JSON)",
+        sourceLabel: "Voir les données brutes (JSON)",
+        title: "Activité de Nibomo",
+        totalReviewEventsLabel: "Total des révisions",
+        uniqueUsersAxisLabel: "Personnes",
+        usersWithReviewEventsLabel: "Personnes ayant révisé",
+      },
+      agentHintDescription:
+        "Connectez votre agent IA via MCP : ajoutez le serveur Nibomo à Claude, Cursor ou n'importe quel client MCP, et il pourra lire, créer et modifier vos cartes.",
+      aiAgentSectionLabel: "POUR LES AGENTS IA",
+      appPreviewAlt:
+        "Écrans de Nibomo avec la révision, les résultats, la progression, le brouillon IA et la liste des cartes.",
+      appPreviewAriaLabel: "Aperçu de l'app",
+      appPreviewLabel: "APERÇU DE L'APP",
+      humanSectionLabel: "POUR LES HUMAINS",
+    },
+    legal: {
+      lastUpdatedLabel: "Dernière mise à jour",
+    },
+    locale: {
+      switcherAriaLabel: "Sélecteur de langue",
+    },
+    localeSuggestion: {
+      actionLabel: "Ouvrir la version française",
+      dismissLabel: "Fermer la suggestion de langue",
+      message: "Cette page est disponible en français.",
+    },
+    menuToggleLabel: "Ouvrir le menu",
+    navigation: {
+      blog: "Blog",
+      dashboards: "Activité",
+      docs: "Docs",
+      features: "Fonctionnalités",
+      pricing: "Tarifs",
+    },
+    platforms: {
+      appStore: "App Store",
+      googlePlay: "Google Play",
+      scanQrHint: "Scannez-le depuis votre téléphone",
+      webApp: "App web",
+    },
+  },
+  pt: {
+    auth: {
+      logIn: "Entrar",
+      openApp: "Abrir o app",
+      signUpFree: "Criar conta grátis",
+      startStudyingFree: "Comece a estudar grátis",
+    },
+    blog: {
+      breadcrumbLabel: "Blog",
+      byPrefix: "Por",
+      empty: "Os posts chegam em breve.",
+      metaDescription: "Novidades, tutoriais e análises sobre o Nibomo.",
+      notFoundDescription: "Este post do blog não existe.",
+      notFoundTitle: "Não encontrado",
+      readNextHeading: "Leia a seguir",
+      title: "Blog",
+    },
+    breadcrumbs: {
+      ariaLabel: "Trilha de navegação",
+      homeLabel: "Início",
+    },
+    copyCodeField: {
+      copied: "Copiado",
+      copy: "Copiar",
+      copyFailed: "Falha ao copiar",
+    },
+    cta: {
+      activityHeading: "Pronto para revisar seus próprios cartões?",
+      heading:
+        "Aprenda mais e esqueça menos com flashcards gratuitos de repetição espaçada",
+      buttonLabel: "Comece a estudar grátis",
+      featuresHeading:
+        "Crie cartões melhores e revise cada um na hora certa.",
+    },
+    docs: {
+      breadcrumbLabel: "Documentação",
+      comingSoonDescription: "Esta página de documentação está sendo escrita.",
+      comingSoonTitle: "Em breve",
+      metaDescription:
+        "Primeiros passos, guia de auto-hospedagem, referência da API e visão geral da arquitetura.",
+      title: "Documentação",
+    },
+    footer: {
+      appsHeading: "Apps",
+      blogLabel: "Blog",
+      builtByLabel: "Criado por Kirill Markin",
+      copyrightLabel: "Nibomo",
+      documentationLabel: "Documentação",
+      featuresLabel: "Recursos",
+      inDevelopmentLabel: "Em desenvolvimento",
+      legalHeading: "Jurídico",
+      openSourceHeading: "Código aberto",
+      operatedByLabel: "Operado por SAMO DANNI EOOD",
+      pricingLabel: "Preços",
+      privacyPolicyLabel: "Política de Privacidade",
+      productHeading: "Produto",
+      selfHostingGuideLabel: "Guia de auto-hospedagem",
+      supportLabel: "Suporte",
+      termsOfServiceLabel: "Termos de Serviço",
+    },
+    home: {
+      activity: {
+        dailyUniqueUsersChartDescription:
+          "As pessoas contam como novas no primeiro dia em que revisam e como recorrentes se já tinham revisado antes. Uma revisão é contada quando alguém escolhe De novo, Difícil, Bom ou Fácil em um cartão.",
+        dailyUniqueUsersChartTitle: "Pessoas que revisam por dia: novas e recorrentes",
+        dateRangeLabel: "Período",
+        daysInRangeLabel: "Dias no período",
+        description:
+          "Veja a atividade diária agregada de revisões na web, no iOS e no Android. Os números publicados são contagens agregadas e não expõem o conteúdo dos cartões, endereços de e-mail nem históricos de estudo individuais.",
+        eyebrow: "Atividade",
+        lastUpdatedLabel: "Última atualização",
+        peakDailyUniqueUsersLabel: "Pico diário de usuários únicos",
+        peakDailyVolumeLabel: "Pico diário de volume",
+        platformActivityChartDescription:
+          "Uma revisão é contada quando alguém escolhe De novo, Difícil, Bom ou Fácil em um cartão. As contagens são agrupadas por plataforma.",
+        platformActivityChartTitle: "Revisões diárias por plataforma",
+        platformLabels: {
+          android: "Android",
+          ios: "iOS",
+          web: "Web",
+        },
+        reviewUserCohortLabels: {
+          new: "Novas",
+          returning: "Recorrentes",
+        },
+        reviewDateAxisLabel: "Data da revisão",
+        reviewEventsAxisLabel: "Revisões",
+        rawSnapshotLabel: "Dados brutos (JSON)",
+        sourceLabel: "Ver dados brutos (JSON)",
+        title: "Atividade do Nibomo",
+        totalReviewEventsLabel: "Total de revisões",
+        uniqueUsersAxisLabel: "Pessoas",
+        usersWithReviewEventsLabel: "Pessoas que revisaram",
+      },
+      agentHintDescription:
+        "Conecte seu agente de IA via MCP: adicione o servidor do Nibomo ao Claude, ao Cursor ou a qualquer cliente MCP e ele poderá ler, criar e editar seus cartões.",
+      aiAgentSectionLabel: "PARA AGENTES DE IA",
+      appPreviewAlt:
+        "Telas do Nibomo com revisão, resultados, progresso, rascunho com IA e lista de cartões.",
+      appPreviewAriaLabel: "Prévia do app",
+      appPreviewLabel: "PRÉVIA DO APP",
+      humanSectionLabel: "PARA PESSOAS",
+    },
+    legal: {
+      lastUpdatedLabel: "Última atualização",
+    },
+    locale: {
+      switcherAriaLabel: "Seletor de idioma",
+    },
+    localeSuggestion: {
+      actionLabel: "Abrir a versão em português",
+      dismissLabel: "Fechar sugestão de idioma",
+      message: "Esta página está disponível em português.",
+    },
+    menuToggleLabel: "Abrir menu",
+    navigation: {
+      blog: "Blog",
+      dashboards: "Atividade",
+      docs: "Docs",
+      features: "Recursos",
+      pricing: "Preços",
+    },
+    platforms: {
+      appStore: "App Store",
+      googlePlay: "Google Play",
+      scanQrHint: "Escaneie com o celular",
+      webApp: "App web",
+    },
+  },
   ru: {
     auth: {
       logIn: "Войти",

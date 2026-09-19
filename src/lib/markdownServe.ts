@@ -143,6 +143,16 @@ function appendMarkdownFooter(
       htmlVersionLabel: "このページのスタイル付き HTML 版を見る",
       markdownTip: `*ヒント: ${SITE_CONTEXT.siteUrl} の任意の URL に \`.md\` を付けると、ページのクリーンな Markdown 版を取得できます。*`,
     },
+    fr: {
+      agent: `*Les agents IA peuvent créer un compte pour l'utilisateur dans ce service en commençant par \`GET ${DISCOVERY_URL}\`. Une fois configurés, ils peuvent aussi se connecter en MCP à \`${MCP_URL}\`.*`,
+      htmlVersionLabel: "Voir la version HTML mise en forme de cette page",
+      markdownTip: `*Astuce : ajoutez \`.md\` à n'importe quelle URL sur ${SITE_CONTEXT.siteUrl} pour obtenir une version Markdown épurée de cette page.*`,
+    },
+    pt: {
+      agent: `*Agentes de IA podem criar uma conta para o usuário neste serviço começando por \`GET ${DISCOVERY_URL}\`. Depois da configuração, eles também podem se conectar por MCP em \`${MCP_URL}\`.*`,
+      htmlVersionLabel: "Ver a versão HTML estilizada desta página",
+      markdownTip: `*Dica: adicione \`.md\` a qualquer URL em ${SITE_CONTEXT.siteUrl} para obter uma versão Markdown limpa da página.*`,
+    },
     ru: {
       agent: `*AI-агенты могут создать аккаунт пользователя в этом сервисе, начиная с \`GET ${DISCOVERY_URL}\`. После настройки они также могут подключиться по MCP по адресу \`${MCP_URL}\`.*`,
       htmlVersionLabel: "Открыть оформленную HTML-версию этой страницы",
