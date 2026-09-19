@@ -3,7 +3,7 @@ title: "Application de cartes mémoire open source et auto-hébergée pour la r�
 description: "Hébergez vous-même la pile open source de Nibomo en local pour le développement, ou déployez son infrastructure AWS CDK documentée pour une application de répétition espacée en production."
 date: "2026-03-08"
 updated: "2026-07-30"
-image: "/home/app-screens-showcase-en.png"
+image: "/home/app-screens-showcase-fr.png"
 keywords:
   - "application de cartes mémoire open source"
   - "application de cartes mémoire auto-hébergée"
@@ -15,7 +15,7 @@ keywords:
 
 Oui, Nibomo peut être auto-hébergé. Tout le code de l'application et de l'infrastructure est open source sous licence MIT. Vous pouvez exécuter les services en local pour le développement, ou déployer sur AWS la pile de production documentée du dépôt. Si vous ne voulez pas gérer d'infrastructure, l'[application hébergée](https://app.flashcards-open-source-app.com/) reste disponible.
 
-![Écrans mobiles de Nibomo pour la révision, la progression, le chat IA et les cartes](/home/app-screens-showcase-en.png)
+![Écrans mobiles de Nibomo pour la révision, la progression, le chat IA et les cartes](/home/app-screens-showcase-fr.png)
 
 ## Ce qui peut être auto-hébergé
 
