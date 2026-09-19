@@ -1,136 +1,101 @@
 ---
-title: "FSRS vs SM-2 in 2026: Which Spaced Repetition Algorithm Helps You Remember More?"
-description: "A practical comparison of FSRS and SM-2 for flashcards in 2026. Learn why FSRS usually gives better review timing, lower workload, and a stronger spaced repetition experience than older SM-2-style scheduling."
+title: "FSRS vs SM-2: Differences, Review Load, and Switching in Anki"
+description: "Compare FSRS with SM-2, understand what retention benchmarks can tell you, and switch Anki scheduling without rescheduling your whole collection at once."
 date: "2026-03-12"
+updated: "2026-09-19"
+image: "/blog/fsrs-vs-sm-2.png"
 keywords:
-  - "fsrs vs sm2"
+  - "FSRS vs SM-2"
+  - "sm-2 vs fsrs"
+  - "FSRS vs SM2 Anki"
+  - "is FSRS better than SM2"
+  - "switch Anki to FSRS"
   - "spaced repetition algorithm"
-  - "anki fsrs"
-  - "best flashcard algorithm"
-  - "how fsrs works"
-  - "open source flashcards app"
 ---
 
-A flashcards app can feel smart for about a week. Then the easy cards start coming back too often, the hard ones disappear for weird stretches, and the whole thing starts feeling like admin instead of learning.
+Anki lets you switch schedulers while keeping your cards and review history. The useful **FSRS vs SM-2** comparison is therefore quite practical: how will the next review date be chosen, and will the resulting routine suit you?
 
-That is usually not a design problem.
+For most Anki learners with compatible clients, **FSRS is a sensible choice for long-term scheduling**. Its memory model gives you an explicit recall target and can learn from your review history. Those are useful reasons to switch. A smaller queue tomorrow, or a particular percentage of time saved, isn't guaranteed.
 
-It is a scheduler problem.
+**Facts checked:** September 19, 2026.
 
-For years, the default answer in this category was some flavor of **SM-2**. It was simple, well known, and good enough to prove that spaced repetition works.
+![A baker checks a round of dough by pressing it with one fingertip while two more rounds rest under a cloth](/blog/fsrs-vs-sm-2.png)
 
-I do not think SM-2 is bad.
+## First, which SM-2 are we comparing?
 
-I think it is old.
+The [original SM-2 algorithm](https://super-memory.com/english/ol/sm2.htm) grades answers from zero to five. Successful repetitions begin with intervals of one and six days. Later intervals multiply the previous interval by an ease factor, which changes with answer ratings.
 
-That is why the more useful question in 2026 is not "does spaced repetition work?" It obviously does. The question is whether your flashcards app uses a scheduler that still deserves to be the default.
+Anki's legacy scheduler modifies that design. It uses four answer buttons, configurable learning steps, and adjustments for late reviews, among other differences. “SM-2” is common shorthand for this scheduler, but the original formula and Anki's implementation aren't interchangeable. The [Anki algorithm FAQ](https://faqs.ankiweb.net/what-spaced-repetition-algorithm.html) explains the distinction.
 
-## Why SM-2 lasted this long
+FSRS, short for Free Spaced Repetition Scheduler, models each card's memory state. Difficulty describes how hard it is to strengthen the memory; stability describes how slowly it fades; retrievability estimates the chance of recalling it now. An optimizer fits model parameters to review history, while defaults let the scheduler work without that history. The official [ABC of FSRS](https://github.com/open-spaced-repetition/awesome-fsrs/wiki/ABC-of-FSRS) and our [FSRS explanation](/blog/what-is-fsrs/) cover the model in more detail.
 
-SM-2 earned its place.
+| Question | Original SM-2 | Anki's legacy scheduler | FSRS |
+| --- | --- | --- | --- |
+| What drives interval growth? | Previous interval and ease factor | Ease-based rules with Anki's adjustments | Updated memory estimates and a recall target |
+| Does it adapt to individual cards? | Yes | Yes | Yes |
+| Can you choose a recall target directly? | No | No | Yes, through desired retention |
+| Can it fit model parameters to review history? | No | No | Yes, when the app supplies an optimizer |
 
-It is simple enough to understand, simple enough to implement, and famous enough that a lot of flashcards products inherited it without needing to rethink much. For a long time, that was enough.
+Both approaches respond to your answers. The useful difference is how FSRS connects those answers to a model of forgetting and a chosen recall target. SM-2's age alone is no reason to dismiss it, and a longer interval alone doesn't demonstrate better scheduling.
 
-And to be fair, it still works better than random review timing or fixed intervals.
+## What the evidence can actually tell you
 
-The problem is that "better than random" is not a very high standard for a serious learning tool.
+Claims about FSRS tend to mix three questions: how accurately it predicts recall, how efficiently it schedules in a simulation, and what happens during someone's actual studying.
 
-If a product is built around the idea that the exact timing of a card matters, then the scheduler is not some backend detail. It is the product.
+**Recall prediction** compares estimated chances of remembering with later review outcomes. The public [spaced-repetition benchmark](https://github.com/open-spaced-repetition/srs-benchmark) evaluates models on recorded reviews. Read its results alongside the model version and evaluation conditions, including treatment of same-day reviews. A research version in a benchmark table may differ from the version your app runs. The table isn't a direct experiment comparing your study time under Anki's two schedulers.
 
-## What FSRS changes
+The metrics need interpretation too. Log loss scores probability predictions, penalizing confident mistakes; calibration checks whether predicted success rates match observed ones. The [FSRS metric explanation](https://github.com/open-spaced-repetition/awesome-fsrs/wiki/The-Metric) describes these measures. Neither directly measures minutes spent studying or exam performance.
 
-FSRS takes the same basic goal and handles it with a better memory model.
+**Workload simulation** estimates what could happen under a model and specified assumptions. The efficiency claims in the [FSRS overview](https://github.com/open-spaced-repetition/awesome-fsrs/wiki/ABC-of-FSRS) include simulation results. These help explain the case for FSRS, but they don't establish how much less work your collection will require.
 
-Instead of leaning on a rougher ease-style approach, it tracks things like:
+**Your actual outcome** includes recall, review time, and whether you can keep up. A lighter queue with more forgetting may represent a different tradeoff. To decide whether the change helped you, observe both workload and recall while keeping material and habits reasonably comparable.
 
-- stability
-- difficulty
-- review history
-- target retention
+## Should you switch now?
 
-That gives the scheduler more context about what is actually happening with the card.
+| Your situation | Reasonable next move |
+| --- | --- |
+| Your clients support FSRS and you want scheduling with a recall target | Enable FSRS with a gradual transition |
+| Your routine works and an exam is days away | Wait until afterward to introduce an unfamiliar variable |
+| A device uses an incompatible client | Update that client before switching |
+| You press Hard when you've forgotten the answer | Correct the rating habit before judging either scheduler |
+| You're behind after a large import or missed sessions | Address intake and backlog alongside the scheduler decision |
+| You're building a small educational scheduler | Original SM-2 is useful for teaching ease-based interval rules |
 
-In practical terms, that usually means:
+The exam and backlog advice is practical judgment, not a finding from a scheduler trial. Your immediate constraint may be how much material you've taken on. For that problem, start with [why Anki reviews pile up](/blog/why-are-there-so-many-anki-reviews/).
 
-- cards you know well stop wasting your time
-- cards you do not know well get adjusted more sensibly
-- the review queue feels less arbitrary
+## Switch without rebuilding the whole queue
 
-That is the part learners notice, even if they never want to read a single formula.
+Use the [Anki FSRS manual](https://docs.ankiweb.net/deck-options.html#fsrs) for current controls:
 
-## The difference you actually feel
+1. Sync, make a backup, and check client and scheduling add-on compatibility.
+2. Enable FSRS in deck options. This applies across presets, rather than to one deck alone.
+3. Optimize using your own history. Defaults are usable if history is insufficient; don't copy someone else's parameters.
+4. Start with the default 90% desired retention unless you have a reason to change it. Higher targets mean more reviews.
+5. Leave **Reschedule cards on change** off. New scheduling then takes effect as cards are reviewed, without immediately changing all due dates.
 
-Most people do not compare **FSRS vs SM-2** by looking at equations.
+Our [FSRS settings guide](/blog/fsrs-settings/) covers learning steps, retention choices, and optimization in detail.
 
-They feel it after a couple of weeks.
+Keep ratings consistent: **Again means failed recall; Hard means successful but difficult recall**. Grade the answer you produced, rather than selecting the interval you prefer. See [Anki's rating guidance](https://docs.ankiweb.net/studying.html) and our [Again versus Hard guide](/blog/again-vs-hard-fsrs-flashcards/) for partial answers.
 
-With a weaker scheduler, easy cards keep showing up often enough to become annoying. Hard cards come back at awkward times. The queue starts feeling slightly off all the time, which is a very efficient way to make daily review less pleasant.
+## Keep a small observation sheet
 
-That friction matters more than people admit.
+Before switching, record a typical week; use more weeks if your schedule varies. Repeat the same observations afterward. This is a practical log for making decisions, not a controlled experiment. Copy the sheet and fill in the last two columns:
 
-Flashcards are a habit product. If the review flow feels heavier than it should, you do not just lose efficiency. You start wanting to open the app less.
+| Measure | What to record consistently | Before: dates ___ | After: dates ___ |
+| --- | --- | --- | --- |
+| Review attempts | All attempts, including repeated cards | ___ | ___ |
+| Review time | Minutes, using the same timing method | ___ | ___ |
+| Scheduled recall | Successful answers / attempts for the same card group; exclude immediate relearning | ___ / ___ | ___ / ___ |
+| New cards | Actual intake, including imports | ___ | ___ |
+| Overdue work | Missed days and backlog at week's end | ___ | ___ |
+| Other changes | Retention target, card edits, outside study, rating habits, interruptions | ___ | ___ |
 
-That is why this is not a niche implementation detail for study nerds. It changes whether the product feels worth returning to tomorrow.
+Choose what counts as acceptable recall before looking at the outcome. For example, record the minimum recall level you would accept and the weekly review time you can sustain. These are your working limits, not a promise that a scheduler will meet them.
 
-## Where FSRS is stronger
+If new-card intake halves, a smaller queue doesn't establish that FSRS caused the reduction. If you rewrite ambiguous prompts, better recall has another plausible explanation. Recording these changes is more useful than trying to make the numbers look better.
 
-For most serious learners, FSRS is better at the things that actually matter:
+A gradual switch also mixes intervals created under both schedulers. Cards with long intervals may take months to return, so early observations mostly describe the transition. Avoid declaring a winner after a quiet weekend.
 
-- keeping review workload under control
-- aiming for a specific retention target
-- adjusting more realistically to recall difficulty
-- avoiding extra repetitions on cards you already know
+If review time falls and recall stays acceptable across comparable weeks, you have a practical reason to keep the setup. If recall becomes unacceptable, inspect missed days, card quality, ratings, and your target before attributing the change to the algorithm. If time stays high, check whether new material or overdue work accounts for it.
 
-This is also where a lot of modern **Anki FSRS** interest comes from. People are not switching because the acronym is new. They are switching because the scheduling feels better once the queue gets large enough for bad timing to become obvious.
-
-## The one reason SM-2 still survives
-
-SM-2 is easier to explain.
-
-If you are building a tiny prototype, teaching the concept of spaced repetition, or making a very lightweight flashcards toy, simpler logic has a real appeal.
-
-That is a reasonable argument for keeping it around in simple systems.
-
-It is not a very strong argument for shipping it as the long-term default in a serious flashcards app if a better scheduler is available.
-
-## The boring implementation details matter more than the acronym
-
-This is the part comparison posts often skip.
-
-Saying "we use FSRS" does not automatically make a flashcards product good.
-
-What matters is whether the implementation is actually careful.
-
-In [Nibomo](https://nibomo.com/), FSRS is treated as a product contract, not just a marketing label. The scheduler behavior is mirrored between the backend and the iOS app. The web app mirrors the scheduler data contract, but does not ship a third independent FSRS implementation. The system stores hidden memory state on each card, keeps explicit learning and relearning steps, supports workspace-level settings like desired retention, learning steps, relearning steps, maximum interval, and fuzz, and uses the real client review timestamp through `reviewedAtClient` during scheduling.
-
-That sounds like backend detail, but it is exactly the kind of detail that decides whether two clients schedule the same card the same way or drift apart.
-
-And once scheduling drifts, users feel it quickly even if they cannot explain why.
-
-## What learners should care about
-
-If you are choosing a flashcards tool, I would care less about the feature checklist and more about one boring question:
-
-When exactly does the card come back, and does that timing keep feeling sensible once I have hundreds or thousands of reviews behind me?
-
-That is where the best flashcard algorithm actually matters.
-
-Not in theory.
-
-In workload.
-
-In retention.
-
-In whether the queue feels like help or punishment.
-
-## So which spaced repetition algorithm is better in 2026?
-
-For most real study workflows, **FSRS is the better spaced repetition algorithm**.
-
-SM-2 deserves credit for helping define the category. But if you are building a modern app, or choosing one, FSRS is the more defensible default now.
-
-It gives the scheduler better information, better control, and better odds of matching review timing to actual memory instead of a rougher approximation.
-
-That is the whole point of spaced repetition.
-
-If you want an **open source flashcards app** that treats scheduling quality like a core product decision instead of a checkbox, [Nibomo](https://nibomo.com/) is built in that direction.
+You can make this decision entirely within Anki. [Nibomo](/features/) also uses FSRS; choosing it is a separate decision about authoring, review, and sync workflows. You don't need to migrate your collection to use FSRS.
