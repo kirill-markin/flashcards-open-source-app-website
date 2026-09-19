@@ -5,8 +5,10 @@ const PRIMARY_LANGUAGE_LOCALES = [
   "de",
   "en",
   "es",
+  "fr",
   "hi",
   "ja",
+  "pt",
   "ru",
 ] as const;
 
