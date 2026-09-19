@@ -3,7 +3,7 @@ title: "App de flashcards auto-hospedado e de código aberto para repetição es
 description: "Rode a stack de código aberto do Nibomo localmente para desenvolvimento ou implante sua infraestrutura documentada com AWS CDK para um app de repetição espaçada em produção."
 date: "2026-03-08"
 updated: "2026-07-30"
-image: "/home/app-screens-showcase-en.png"
+image: "/home/app-screens-showcase-pt.png"
 keywords:
   - "app de flashcards de código aberto"
   - "app de flashcards auto-hospedado"
@@ -15,7 +15,7 @@ keywords:
 
 Sim, o Nibomo pode ser auto-hospedado. Todo o código da aplicação e da infraestrutura é de código aberto sob a licença MIT. Você pode rodar os serviços localmente para desenvolvimento ou implantar na AWS a stack de produção documentada do repositório. Se você não quer operar infraestrutura, o [app hospedado](https://app.flashcards-open-source-app.com/) continua disponível.
 
-![Telas do Nibomo no celular para revisão, progresso, chat de IA e cartões](/home/app-screens-showcase-en.png)
+![Telas do Nibomo no celular para revisão, progresso, chat de IA e cartões](/home/app-screens-showcase-pt.png)
 
 ## O que dá para auto-hospedar
 
