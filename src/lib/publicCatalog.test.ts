@@ -1983,7 +1983,7 @@ test("renders useful localized catalog Markdown from the public read model", () 
     model,
   );
 
-  assert.equal(pagePaths.length, 64);
+  assert.equal(pagePaths.length, 80);
   assert.ok(pagePaths.includes("catalog/packages/canonical-package"));
   assert.ok(pagePaths.includes("es/catalog/packages/canonical-package"));
   assert.ok(pagePaths.includes("ja/catalog/packages/canonical-package"));

@@ -167,7 +167,12 @@ function listTranslatedRoutePathnames(locale: AppLocale): ReadonlyArray<string> 
     ...listTranslatedMarketingRoutePathnames(locale),
     ...STATIC_ROUTE_PATHNAMES,
     ...listTranslatedContentRoutePathnames("/docs/", translatedDocSlugs),
-    ...listTranslatedContentRoutePathnames("/blog/", translatedBlogPostSlugs),
+    // The blog listing page is surrounding UI copy rather than article content,
+    // so it counts as translated in every locale and renders a localized empty
+    // state where no posts exist. Individual articles stay translated only in
+    // the locales whose article file exists.
+    "/blog/",
+    ...translatedBlogPostSlugs.map((slug) => `/blog/${slug}/`),
   ];
 }
 

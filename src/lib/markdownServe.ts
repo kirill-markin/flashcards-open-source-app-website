@@ -307,17 +307,14 @@ export function renderBlogListingMarkdown(locale: AppLocale): MarkdownResult {
   const posts = getBlogPosts(locale);
   const uiCopy = getUiCopy(locale);
 
-  if (posts.length === 0) {
-    return {
-      markdown: `# ${uiCopy.blog.title}\n\n${uiCopy.blog.empty}`,
-      status: 200,
-    };
-  }
-
   const lines: string[] = [
     `# ${uiCopy.blog.title}`,
     "",
   ];
+
+  if (posts.length === 0) {
+    lines.push(uiCopy.blog.empty);
+  }
 
   for (const post of posts) {
     const postPath = getLocalizedPathname(locale, `/blog/${post.slug}/`);
