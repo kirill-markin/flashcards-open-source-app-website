@@ -1353,7 +1353,7 @@ test("aligns package JSON-LD to the deck subject, level and canonical route", ()
         ...packageView,
         latestVersion: {
           ...packageView.latestVersion,
-          languageTags: ["fr"],
+          languageTags: ["it"],
         },
       }),
     /package canonical-package has no supported audience locale/,
@@ -1479,8 +1479,8 @@ test("creates deterministic localized catalog sitemap entries from real timestam
   const latestVersionUpdatedAt = "2026-08-03T09:00:00.000Z";
 
   // Three audience languages mean three canonical package routes; every other
-  // route in the fixture is emitted for all eight interface locales.
-  assert.equal(entries.length, 67);
+  // route in the fixture is emitted for all ten interface locales.
+  assert.equal(entries.length, 83);
   assert.equal(entryByUrl.get(rootUrl)?.lastModified, latestVersionUpdatedAt);
   assert.equal(entryByUrl.get(packageUrl)?.lastModified, latestVersionUpdatedAt);
   assert.equal(
@@ -1663,7 +1663,7 @@ test("accepts every supported interface locale as a package and collection langu
 
 test("rejects package and collection language tags outside the supported locales", () => {
   const rejectedTags = [
-    "fr",
+    "it",
     "en-US",
     "EN",
     "",
@@ -1876,7 +1876,7 @@ test("builds canonical catalog destinations and identifies current catalog pages
   );
   assert.deepEqual(
     getPublicCatalogPackagePageLocales(),
-    ["en", "es", "ar", "de", "hi", "ja", "ru", "zh"],
+    ["en", "es", "ar", "de", "hi", "ja", "fr", "pt", "ru", "zh"],
   );
   assert.equal(
     getPublicCatalogPackageLocalizedPathname(
@@ -1983,7 +1983,7 @@ test("renders useful localized catalog Markdown from the public read model", () 
     model,
   );
 
-  assert.equal(pagePaths.length, 64);
+  assert.equal(pagePaths.length, 80);
   assert.ok(pagePaths.includes("catalog/packages/canonical-package"));
   assert.ok(pagePaths.includes("es/catalog/packages/canonical-package"));
   assert.ok(pagePaths.includes("ja/catalog/packages/canonical-package"));
@@ -3924,13 +3924,13 @@ test("canonicalizes every package route into the deck audience locales", () => {
     "https://nibomo.com/es/catalog/packages/canonical-package/";
 
   assert.deepEqual(
-    getPublicCatalogPackageCanonicalLocales("canonical-package", ["ja", "de", "fr"]),
+    getPublicCatalogPackageCanonicalLocales("canonical-package", ["ja", "de", "it"]),
     ["de", "ja"],
   );
   assert.equal(
     resolvePublicCatalogPackageCanonicalLocale(
       "canonical-package",
-      ["ja", "de", "fr"],
+      ["ja", "de", "it"],
       "ja",
     ),
     "ja",
@@ -3938,7 +3938,7 @@ test("canonicalizes every package route into the deck audience locales", () => {
   assert.equal(
     resolvePublicCatalogPackageCanonicalLocale(
       "canonical-package",
-      ["ja", "de", "fr"],
+      ["ja", "de", "it"],
       "ru",
     ),
     "de",
@@ -3966,7 +3966,8 @@ test("canonicalizes every package route into the deck audience locales", () => {
   );
   assert.equal(spanishMetadata.alternates?.languages?.ja, undefined);
 
-  // Single-audience deck: all eight routes canonicalize to the audience route.
+  // Single-audience deck: the route of every interface locale canonicalizes to
+  // the audience route.
   const spanishOnlyPackageView = {
     ...packageView,
     latestVersion: {
@@ -3983,7 +3984,7 @@ test("canonicalizes every package route into the deck audience locales", () => {
 
     assert.equal(localeMetadata.alternates?.canonical, spanishPackageUrl);
     // The OpenGraph block describes the canonical object, so neither og:url nor
-    // og:locale may contradict rel=canonical on the seven non-audience routes.
+    // og:locale may contradict rel=canonical on any non-audience locale route.
     assert.equal(localeMetadata.openGraph?.url, spanishPackageUrl);
     assert.equal(localeMetadata.openGraph?.locale, "es_ES");
   });
@@ -4028,7 +4029,7 @@ test("canonicalizes every package route into the deck audience locales", () => {
         ...packageView,
         latestVersion: {
           ...packageView.latestVersion,
-          languageTags: ["fr"],
+          languageTags: ["it"],
         },
       }),
     /package canonical-package has no supported audience locale/,
