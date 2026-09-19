@@ -6,6 +6,8 @@ export const SUPPORTED_LOCALES = [
   "de",
   "hi",
   "ja",
+  "fr",
+  "pt",
   "ru",
   "zh",
 ] as const;
@@ -15,6 +17,8 @@ export const NON_DEFAULT_LOCALES = [
   "de",
   "hi",
   "ja",
+  "fr",
+  "pt",
   "ru",
   "zh",
 ] as const;
@@ -66,6 +70,18 @@ const LOCALE_DEFINITIONS: Readonly<Record<AppLocale, LocaleDefinition>> = {
     nativeName: "日本語",
     openGraphLocale: "ja_JP",
     shortLabel: "JA",
+  },
+  fr: {
+    direction: "ltr",
+    nativeName: "Français",
+    openGraphLocale: "fr_FR",
+    shortLabel: "FR",
+  },
+  pt: {
+    direction: "ltr",
+    nativeName: "Português (Brasil)",
+    openGraphLocale: "pt_BR",
+    shortLabel: "PT",
   },
   ru: {
     direction: "ltr",
