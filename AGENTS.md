@@ -25,9 +25,13 @@ Marketing website for Nibomo. Static Next.js site deployed on Vercel.
 - `npm run lint`: ESLint
 - `npm run test:catalog`: catalog test suite
 
-## BigQuery Analytics
+## Data Sources for Analysis
 
-- BigQuery contains the Google Search Console bulk export, enabled on 2026-08-09 for `flashcards-open-source-app.com`; rows from before the move to `nibomo.com` carry the old domain. Use it for page and query clicks, search impressions, CTR, and average position; do not expect exported data from before this date.
+- Internal admin reports on product events, audience, and catalog-install funnels: [admin documentation](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/docs/admin-app.md) in the separate `kirill-markin/flashcards-open-source-app` repository. Its [Data Sources for Analysis](https://github.com/kirill-markin/flashcards-open-source-app/blob/main/AGENTS.md#data-sources-for-analysis) lists direct SQL access, logs, and other product data sources. It is usually checked out on the same machine in a neighboring directory; verify its local path.
+
+### BigQuery Analytics
+
+- Google Search Console bulk exports use two BigQuery datasets for the former marketing domain `flashcards-open-source-app.com` and the current domain `nibomo.com`. Discover and query both with the configured service account when analyzing search traffic across the move; access to both is configured. The old-domain export started on 2026-08-09; do not expect earlier exported data. Use these exports for page and query clicks, search impressions, CTR, and average position.
 - Use `npm run bigquery:query` with GoogleSQL on stdin for Search Console and SEO analysis; the implementation is `scripts/queryBigQuery.ts`.
 - The ignored `.env.bigquery.local` stores the local key path, project ID, location, and per-query byte limit. The service-account JSON stays outside the repository.
 - Never use or modify `gcloud` authentication for this integration, and never commit local configuration or credentials. If the configuration, key, or API access is unavailable, ask the user to provision or restore it instead of falling back to another Google identity.
