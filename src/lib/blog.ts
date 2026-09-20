@@ -8,6 +8,7 @@ import { renderMarkdownToHtml } from "@/lib/content/renderMarkdownToHtml";
 import { getBlogDirectory, getBlogFilePath } from "@/lib/content/paths";
 import { getAbsoluteUrl, type AppLocale } from "@/lib/i18n";
 import { OPEN_GRAPH_IMAGE_URL } from "@/lib/site";
+import { RECOMMENDATION_ANALYSIS_SLUG_BY_LOCALIZED_SLUG } from "./blogSlugs";
 
 const DEFAULT_BLOG_LOCALE: AppLocale = "en";
 const TITLE_TOKEN_WEIGHT = 3;
@@ -15,12 +16,6 @@ const DESCRIPTION_TOKEN_WEIGHT = 2;
 const BODY_TOKEN_WEIGHT = 1;
 const MINIMUM_TOKEN_LENGTH = 3;
 const MAX_DOCUMENT_FREQUENCY_RATIO = 0.6;
-const RECOMMENDATION_ANALYSIS_SLUG_BY_LOCALIZED_SLUG: Readonly<
-  Record<string, string>
-> = {
-  "how-to-use-flashcards-for-ap-physics-1":
-    "how-to-use-flashcards-for-algebra-based-physics-1",
-};
 const NEUTRAL_RECOMMENDATION_SLUGS_WITH_PUBLIC_BRAND_EXCLUSIONS = new Set<string>([
   "how-to-use-flashcards-for-advanced-chemistry",
 ]);
