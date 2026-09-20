@@ -1,183 +1,83 @@
 ---
-title: "如何通过 MCP 将 Nibomo 接入 Claude，并直接在聊天中创建闪卡"
-description: "这是一份实操指南：如何在 Claude 中添加 Nibomo MCP 自定义连接器、设置合适的工具权限，并让 Claude 直接把学习卡片写入你的 Nibomo workspace。"
+title: "如何通过 MCP 将 Nibomo 闪卡连接到 Claude"
+description: "通过远程 MCP 连接器，将 Nibomo 连接到 Claude 桌面版或网页版。按照已验证的步骤完成连接、设置工具权限，并尝试保存第一张闪卡。"
 date: "2026-06-23"
-image: "/blog/how-to-connect-flashcards-to-claude-with-mcp.png"
+updated: "2026-09-20"
+image: "/blog/how-to-connect-nibomo-to-claude-mcp.png"
 keywords:
-  - "Claude MCP flashcards"
-  - "Nibomo 连接 Claude"
-  - "Claude 自定义连接器闪卡"
+  - "Nibomo Claude 连接器"
+  - "Claude MCP 闪卡"
+  - "将 Nibomo 连接到 Claude"
   - "在 Claude 中创建闪卡"
-  - "Nibomo MCP 连接器"
-  - "Claude browser flashcards"
-  - "Nibomo Claude connector"
-  - "Claude 创建 Nibomo 卡片"
-  - "Nibomo remote MCP"
-  - "Claude connector Nibomo workspace"
 ---
 
-昨天我在 Claude 里大概花了一分钟，就往 Nibomo 里加进了一张测试卡。真正有用的，不是演示本身。真正有用的是，我看见 Claude 先问该用哪个 workspace，再请求写入权限，最后把卡片放进真实应用里，而不是把内容困在聊天记录里。
+Claude 可以通过自定义 MCP 连接器，将闪卡直接保存到你的 Nibomo 工作区。添加一个服务器 URL，登录 Nibomo，再选择哪些操作可以让 Claude 直接执行，无需每次询问。
 
-这就是现在值得搜索 **Claude MCP 闪卡** 的实际原因。
+以下设置步骤已于 2026 年 9 月 20 日在 Claude 桌面版中验证。这种远程连接器适用于 Claude 桌面版和网页版中的普通对话。如果你使用 Claude Code、Codex 或其他终端智能体，请参阅单独的[智能体登录指南](/blog/claude-code-codex-openclaw-flashcards-login/)。
 
-如果你想让 Claude 直接在 Nibomo workspace 里创建卡片，整个设置其实很短：添加 Nibomo 自定义连接器，检查工具权限，在对话里启用它，然后在 Claude 准备保存卡片时批准写入调用。
+![通过图书馆交接场景说明：可以读取资料，但修改前需要批准](/blog/how-to-connect-nibomo-to-claude-mcp.png)
 
-![Claude 已连接到 Nibomo MCP 服务器，可直接从聊天中创建闪卡](/blog/how-to-connect-flashcards-to-claude-with-mcp.png)
+## 在 Claude 的连接器设置中添加 Nibomo
 
-## 这是自定义连接器，不是目录里的现成条目
+你需要一个 Nibomo 账号，以及 Claude 的自定义连接器使用权限。Nibomo 使用远程 MCP 服务器，因此无需在本地安装任何软件。Anthropic 的[自定义连接器指南](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp)介绍了这种连接方式。
 
-先说一个关键细节：Nibomo 连接到 Claude 的方式，是通过 **自定义连接器** 加上 **remote MCP**。
+1. 在 Claude 桌面版中打开 **Settings > Connectors**（设置 > 连接器），或打开[网页版的连接器页面](https://claude.ai/customize/connectors)。
+2. 选择 **Add custom connector**（添加自定义连接器）。
+3. 名称填写 **Nibomo**，并粘贴以下服务器 URL：
 
-所以别去 Claude 官方连接器目录里找一个已经上架的 Nibomo 应用。正常流程是打开 Claude 的[连接器设置页面](https://claude.ai/customize/connectors)，点击加号，选择 **Add custom connector**，然后手动粘贴 Nibomo 的 MCP URL。
+   ```text
+   https://mcp.nibomo.com/mcp
+   ```
 
-Nibomo 连接器的准确 URL 是：
+4. 点击 **Continue**（继续）。
+5. 在身份验证页面，保持选中 **Sign in now**（立即登录）和 **Register automatically (DCR)**（自动注册）。自定义请求头和高级设置保留默认值。
+6. 点击 **Add**（添加），然后点击 **Connect**（连接）。
 
-`https://mcp.nibomo.com/mcp`
+![Claude 的 Add custom connector 对话框，已填写 Nibomo 和 MCP 服务器 URL](/blog/claude-mcp-nibomo-add-connector.png)
 
-直接链接：[mcp.nibomo.com/mcp](https://mcp.nibomo.com/mcp)
+## 登录并授权访问
 
-## 连接之前，先知道两件事
+Claude 会打开浏览器来完成连接。如果先出现确认提示，选择 **Continue connecting**（继续连接）。
 
-有两点比很多人想的更重要。
+Nibomo 的身份验证页面使用 `auth.flashcards-open-source-app.com` 域名。如果你已经登录 Nibomo，页面可能会识别现有会话；否则，请登录你的账号。授权页面会显示 **Claude wants to connect to your Nibomo account**（Claude 希望连接到你的 Nibomo 账号），并说明它将获得读写闪卡和复习数据的权限。
 
-第一，Claude 访问远程 MCP 服务器时，走的是 Anthropic 的云基础设施，不是你的笔记本电脑。这意味着服务器必须能从公共互联网访问。Nibomo 已经满足这个条件，所以上面的公共 MCP 端点就是你该填的地址。
+确认连接的是你想使用的账号，然后点击 **Allow access**（允许访问）。页面显示 **Connected**（已连接）后，如果你使用的是 Claude 桌面版，选择 **Open desktop app**（打开桌面应用）。回到连接器设置，你应该能看到 **Nibomo**，以及 URL `https://mcp.nibomo.com/mcp`。
 
-第二，把连接器权限当成真正的工具权限来看。只连接你信任的服务器，先看清每个工具能做什么，再认真阅读每一次写入审批请求，然后再决定是否放行。
+## 写入操作仍需你确认
 
-## 如何在 Claude 里添加 Nibomo MCP 连接器
+连接器提供读取学习资料、修改资料和记录复习结果的工具。在 **Settings > Connectors** 中打开 Nibomo，查看各工具的权限。按照本文的设置，将五个读取工具设为 **Always allow**（始终允许），将两个写入工具保留为 **Needs approval**（需要批准）：
 
-如果你用的是个人 Claude 账户，设置路径是这样的：
+| 权限 | 工具 |
+| --- | --- |
+| **Always allow**（始终允许） | Get flashcards usage guide（获取闪卡使用指南）；List flashcards workspaces（列出闪卡工作区）；Next flashcard question（获取下一张闪卡的问题）；Reveal flashcard answer（显示闪卡答案）；Nibomo SQL query (read-only)（只读 SQL 查询） |
+| **Needs approval**（需要批准） | Nibomo SQL execute (write)（执行 SQL 写入）；Submit flashcard review（提交闪卡复习结果） |
 
-1. 打开 [Customize > Connectors](https://claude.ai/customize/connectors)。
-2. 点击 `+`。
-3. 选择 **Add custom connector**。
-4. 给连接器起个名字，并粘贴 `https://mcp.nibomo.com/mcp`。
-5. 添加这个连接器。
-6. 点击 **Connect**，如果 Claude 提示登录，就完成登录流程。
-7. 在开始聊天使用前，先检查工具权限。
+这样，Claude 就能查找工作区并读取卡片，但修改数据或提交复习结果前仍需询问你。如果你希望读取操作也先经过批准，可以选择更严格的权限。
 
-如果你在 Team 或 Enterprise workspace 里，Owner 或 Primary Owner 可以在 **Organization settings > Connectors > Add > Custom > Web** 下添加这个自定义连接器。之后每个用户仍然需要自己完成连接和认证。
+![Claude 中已连接的 Nibomo：允许读取工具，写入工具需要批准](/blog/claude-mcp-flashcards-connector-settings.png)
 
-## 第一次设置权限时，先保守一点
+## 试着创建一张卡片，并确认它已保存
 
-创建卡片时，需要关注 Nibomo 连接器中的这四个工具：
-
-- `list_workspaces`：列出可用 workspace
-- `sql_query`：只读查询
-- `get_guide`：获取 Claude 在第一次写入前要读的写卡规则
-- `sql_execute`：执行写入操作，比如创建卡片
-
-Claude 允许你把每个工具分别设成 `Always allow`、`Needs approval` 或 `Blocked`。
-
-第一次配置时，我会把只读工具放在 `Always allow`，把写入工具放在 `Needs approval`。这样 Claude 就能查看你的 workspace、读取数据，但不会在你没看过的情况下，直接把建卡动作变成后台写入。
-
-这也是下面这张连接器设置截图展示的状态：`list_workspaces` 和 `sql_query` 已允许，`sql_execute` 仍然需要你手动批准。
-
-![Claude 连接器设置页中，Nibomo MCP 的读权限已设为始终允许，写权限仍需批准](/blog/claude-mcp-flashcards-connector-settings.png)
-
-以后如果你非常确定，也可以再放宽。刚开始我不会这么做。
-
-## 在你要使用的那段对话里，把连接器打开
-
-设置完成后，打开一个 Claude 对话，并确认这个连接器在当前聊天里可用。当前流程下，你可以在对话里的 `+` 按钮或者 `/` 菜单里启用连接器，然后按需要调整这段聊天的工具访问权限。
-
-如果 Claude 明明该用连接器，却没有调用，先检查这几个最常见的问题：
-
-- Nibomo 连接器是否已经在设置里连上
-- 这个连接器是否已经为当前聊天启用
-- 写入工具是否没有被设成 `Blocked`
-
-大多数“为什么 Claude 只给我一段文本，却不真的创建卡片”的问题，最后都卡在这里。
-
-## 你可以怎么对 Claude 说
-
-这里的提示词不用写得太隆重。Claude 不需要那一套。
-
-下面这些是不错的起步示例：
+打开一个对话，确认已在该对话的连接器菜单中启用 Nibomo。先提出一个简单请求，明确保存位置和卡片内容：
 
 ```text
-在 Nibomo 中创建一张新闪卡。
+使用 Nibomo 列出我的工作区，并询问我要使用哪一个。
+然后创建一张闪卡：
 正面：HTTP 404 是什么意思？
-背面：服务器上找不到所请求的资源。
+背面：服务器上未找到请求的资源。
 标签：web-basics
-如果你不确定该用哪个 workspace，就先问我。
 ```
 
-```text
-在创建任何内容之前，先列出我在 Nibomo 里的 workspaces，并告诉我哪个最适合放语言学习卡片。
-```
+选择工作区，查看 Claude 的写入请求，确认内容和保存位置正确后再批准。然后打开 [Nibomo](https://app.flashcards-open-source-app.com/)，检查已保存卡片的正面是否为问题、背面是否为答案。本指南的验证范围包括连接成功和权限设置已保存，不包括创建卡片。你可以通过这次小测试，确认 Claude 也能将卡片保存到你选择的工作区。
 
-```text
-在 Nibomo 中创建一张新的西班牙语闪卡。
-正面：西班牙语里“我想要一杯咖啡”怎么说？
-背面：Me gustaría un café.
-标签：spanish, travel
-使用我的 Personal workspace。
-```
+如果 Claude 只是在对话中写出卡片内容，请检查设置中 Nibomo 是否已连接、当前对话是否已启用它，以及 **Nibomo SQL execute (write)** 是否被禁用。明确要求 Claude 通过 Nibomo 保存卡片。
 
-我会先从一两张卡开始，而不是一口气做五十张。重点是先确认连接器流程、workspace 选择，以及审批模式都对，再去批量处理更大的内容。
+如果需要批量制作卡片，可以阅读[如何用 Claude 制作闪卡](/blog/how-to-use-claude-to-make-flashcards/)，了解怎样拟定实用的问题和答案。如果你正在学习 HTTP 状态码，也可以直接使用现有的 [HTTP 状态码闪卡牌组](/catalog/packages/http-status-code-flashcards/)。
 
-## 实际创建卡片时，流程大概长这样
+## 如果你已在使用旧版连接器 URL
 
-这部分其实很普通。
+旧端点 `https://mcp.flashcards-open-source-app.com/mcp` 仍然可用。新建连接时请使用 `https://mcp.nibomo.com/mcp`；切换 URL 时，需要重新授权 Nibomo。
 
-你让 Claude 在 Nibomo 里创建一张卡。如果你有多个 workspace，而且默认目标并不明显，Claude 可能会先问你该放到哪里。接着，如果 `sql_execute` 还设成 `Needs approval`，Claude 就会调用写入工具并等待你的批准。
+如果要按照本指南已验证的顺序操作，请在 **Settings > Connectors** 中打开旧连接器，选择 **Disconnect**（断开连接），再选择 **More options > Remove**（更多选项 > 移除）。按照上面的步骤添加 Nibomo，确认显示的是新 URL 和预期的工具。
 
-这正是你想看到的行为。
-
-你应该先检查写入请求，再批准，然后让 Claude 完成剩下的动作。下面这张截图里，Claude 先问了该用哪个 workspace，接着执行了 Nibomo 写入操作，最后报告测试卡已经成功添加。
-
-![Claude 在询问使用哪个 workspace 后，通过 Nibomo MCP 连接器创建测试闪卡](/blog/claude-mcp-flashcards-create-card.png)
-
-除非你想非常仔细地检查工具调用，否则不需要关心底层原始 SQL。真正重要的是这个工作流：
-
-1. 让 Claude 创建卡片
-2. 如果 Claude 询问，就选择 workspace
-3. 检查并批准写入操作
-4. 确认保存下来的卡片内容没问题
-
-做到这一步，你就已经可以开始在 **Claude 中创建闪卡** 了，同时又不需要假装 Claude 本身就是复习应用。
-
-## 几个需要诚实面对的限制
-
-这个设置确实有用，但它不是魔法。
-
-Claude 可以帮你在 Nibomo 里创建卡片，也可以通过只读工具读取连接器里的数据、查看 workspace、执行查询。但这并不意味着 Claude 起草出来的每一张卡都够好，也不意味着你应该闭着眼批准每一次写入请求。
-
-我还是会把 Claude 当成起草和录入层，然后把真正重要的部分留给 Nibomo：
-
-- 清理掉质量一般的卡
-- 整理牌组和标签
-- 用间隔重复来复习
-- 在你本来就在用的设备上继续学习
-
-如果你还没接上工具层，只是想先把写卡提示词打磨好，那篇[如何用 Claude 制作闪卡](/blog/how-to-use-claude-to-make-flashcards/)更适合先读。如果你的目标不只是建卡，而是更完整的学习流程，那篇[如何用 Claude 学习](/blog/how-to-use-claude-for-studying/)会更全面。
-
-## Claude 创建完卡片后，还是要去真实应用里看一眼
-
-这其实是我最喜欢这套流程的一点。卡片不会停留在一段看起来很漂亮的 AI 对话里。它会落进 Nibomo 里，而你之后真的可以在那里复习它。
-
-你可以打开托管版 web app，在手机上检查卡片，或者继续按你原本的学习流程往下走：
-
-- [Nibomo 网页版](https://app.flashcards-open-source-app.com/)
-- [适用于 iPhone 和 iPad 的 Nibomo App Store 页面](https://apps.apple.com/app/apple-store/id6760538964?pt=128797295&ct=marketing_site&mt=8)
-- [适用于 Android 的 Nibomo Google Play 页面](https://play.google.com/store/apps/details?id=com.flashcardsopensourceapp.app&utm_source=flashcards_website&utm_medium=referral&utm_campaign=marketing_site)
-
-![Nibomo 在托管网页版和移动应用中的复习体验](/home/app-screens-showcase-en.png)
-
-如果你还没真正用过这个产品，[入门指南](/docs/getting-started/)是最快的开始方式。
-
-## 简短版
-
-如果你搜索的是 **把 Nibomo 连接到 Claude**，真正的流程就是这样：
-
-1. 打开 Claude 的[自定义连接器设置](https://claude.ai/customize/connectors)
-2. 添加 `https://mcp.nibomo.com/mcp`
-3. 完成连接并检查权限
-4. 一开始先把读权限放开，把写权限设为需要批准
-5. 在聊天里启用这个连接器
-6. 让 Claude 创建一张卡
-7. 批准写入调用
-8. 回到 Nibomo 里检查保存后的卡片
-
-这样你就能从 Claude 对话直接走到真实的 Nibomo workspace，中间不需要假装有官方集成，不需要手动复制粘贴，也不会在第一天就失去对写入操作的控制。
+如果你刚开始使用 Nibomo，保存第一张卡片后，可以参阅[入门指南](/docs/getting-started/)，了解工作区的用法和学习流程。
