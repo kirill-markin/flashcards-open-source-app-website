@@ -17,6 +17,7 @@ Marketing website for Nibomo. Static Next.js site deployed on Vercel.
 - Keep changes minimal and scoped to the current request.
 - Prefer non-interactive terminal commands.
 - RTL support: use CSS logical properties such as `inset-inline-start`/`end`, `margin-inline-start`/`end`, `padding-inline-start`/`end`, and `text-align: start`/`end`; do not use physical directional properties.
+- Analytics records facts; funnels, cohorts, and groupings are built by queries over those facts, and no event is created to serve one report.
 
 ## Development
 
