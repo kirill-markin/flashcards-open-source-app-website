@@ -1,183 +1,83 @@
 ---
-title: "ClaudeにNibomoをMCPで接続して、チャットからカードを作る方法"
-description: "ClaudeにNibomoのMCPカスタムコネクタを追加し、ツール権限を確認しながら、ClaudeのチャットからNibomoワークスペースへ直接カードを作成する実践ガイドです。"
+title: "NibomoのフラッシュカードをMCPでClaudeに接続する方法"
+description: "リモートMCPコネクタでNibomoをClaude Desktopやブラウザ版に接続します。確認済みの接続手順に沿ってツール権限を設定し、最初のフラッシュカードを保存してみましょう。"
 date: "2026-06-23"
-image: "/blog/how-to-connect-flashcards-to-claude-with-mcp.png"
+updated: "2026-09-20"
+image: "/blog/how-to-connect-nibomo-to-claude-mcp.png"
 keywords:
-  - "Claude MCP フラッシュカード"
-  - "ClaudeにNibomoを接続"
-  - "Claude カスタムコネクタ Nibomo"
-  - "Claudeでフラッシュカードを作る"
-  - "Nibomo MCP コネクタ"
-  - "Claude コネクタ フラッシュカード"
   - "Nibomo Claude コネクタ"
-  - "Claude MCP カード作成"
-  - "Nibomo remote MCP"
-  - "Claude Nibomo ワークスペース"
+  - "Claude MCP フラッシュカード"
+  - "NibomoをClaudeに接続"
+  - "Claudeでフラッシュカードを作成"
 ---
 
-昨日、Claudeの中からNibomoにテスト用カードを1枚追加しました。1分もかかりませんでした。良かったのは、見せるためのデモっぽさではありません。Claudeがどのワークスペースを使うか確認し、書き込み操作の承認を求め、そのまま実際のアプリにカードを保存してくれたことです。きれいなチャット画面の中に置きっぱなしにならなかった。
+ClaudeはカスタムMCPコネクタを使って、Nibomoのワークスペースにフラッシュカードを直接保存できます。サーバーURLを1つ追加してNibomoにログインし、Claudeが毎回確認せずに実行できる操作を選びます。
 
-今 **Claude MCP フラッシュカード** を調べる意味は、そこにあります。
+以下の設定手順は、2026年9月20日にClaude Desktopで確認しました。対象は、Desktop版とブラウザ版の通常のClaudeチャットで使うリモートコネクタです。Claude Code、Codexなどのターミナルエージェントを使う場合は、別記事の[エージェント用ログインガイド](/blog/claude-code-codex-openclaw-flashcards-login/)を参照してください。
 
-Claudeから直接Nibomoのワークスペースにカードを作りたいなら、セットアップは短いです。Nibomoのカスタムコネクタを追加し、ツール権限を確認し、チャットで有効にして、Claudeが保存しようとしたタイミングで書き込みを承認する。それで動きます。
+![資料の閲覧権限と変更前の承認を、図書館での受け渡しで表したイラスト](/blog/how-to-connect-nibomo-to-claude-mcp.png)
 
-![ClaudeがNibomoのMCPサーバーに接続され、チャットからフラッシュカードを作成している画面](/blog/how-to-connect-flashcards-to-claude-with-mcp.png)
+## Claudeのコネクタ設定にNibomoを追加する
 
-## これはディレクトリ掲載ではなく、カスタムコネクタです
+Nibomoのアカウントと、Claudeのカスタムコネクタを利用できる環境が必要です。NibomoはリモートMCPサーバーを使うため、端末へのインストールは不要です。この接続方法は、Anthropicの[カスタムコネクタガイド](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp)にも記載されています。
 
-最初に1つ大事な点があります。NibomoはClaudeに **custom connector** として、**remote MCP** で接続します。
+1. Claude Desktopの **Settings > Connectors** を開くか、[ブラウザのConnectors設定](https://claude.ai/customize/connectors)を開きます。
+2. **Add custom connector**（カスタムコネクタを追加）を選びます。
+3. 名前に **Nibomo** と入力し、次のサーバーURLを貼り付けます。
 
-なので、Claudeの公式コネクタディレクトリに、最初からNibomoアプリが載っている前提で探し回る必要はありません。通常の流れは、Claudeの [connector settings page](https://claude.ai/customize/connectors) を開き、プラスボタンを押して **Add custom connector** を選び、自分でNibomoのMCP URLを貼り付けます。
+   ```text
+   https://mcp.nibomo.com/mcp
+   ```
 
-Nibomoコネクタの正確なURLはこれです。
+4. **Continue** をクリックします。
+5. 認証画面では、**Sign in now**（今すぐサインイン）と **Register automatically (DCR)**（自動登録）を選択したままにします。カスタムヘッダーと詳細設定は既定のままにしてください。
+6. **Add**、続いて **Connect** をクリックします。
 
-`https://mcp.nibomo.com/mcp`
+![ClaudeのAdd custom connector画面に入力されたNibomoの名前とMCPサーバーURL](/blog/claude-mcp-nibomo-add-connector.png)
 
-直接リンク: [mcp.nibomo.com/mcp](https://mcp.nibomo.com/mcp)
+## ログインしてアクセスを許可する
 
-## 接続前に知っておきたいこと
+接続を完了するため、Claudeがブラウザを開きます。先に確認画面が表示されたら、**Continue connecting** を選んでください。
 
-思っている以上に大事なのは2点です。
+Nibomoの認証ページのドメインは `auth.flashcards-open-source-app.com` です。すでにNibomoにログインしていれば、そのセッションが認識される場合があります。そうでなければ、アカウントにログインしてください。同意画面には **Claude wants to connect to your Nibomo account** と表示され、フラッシュカードと復習データの読み取り・書き込み権限について説明されています。
 
-1つ目。Claudeはremote MCPサーバーに、あなたのノートPCからではなくAnthropicのクラウド基盤から接続します。つまり、そのサーバーは公開インターネットから到達できる必要があります。Nibomoはすでにその条件を満たしているので、使うべきなのは上の公開MCPエンドポイントです。
+接続先が意図したアカウントであることを確認し、**Allow access** をクリックします。**Connected** と表示されたら、Claude Desktopを使っている場合は **Open desktop app** を選んでください。コネクタ設定に戻ると、**Nibomo** と `https://mcp.nibomo.com/mcp` が表示されているはずです。
 
-2つ目。コネクタ権限は、本物のツール権限として扱ったほうがいいです。信頼できるサーバーだけに接続し、各ツールで何ができるのかを確認し、書き込み操作を許可する前に承認リクエストをきちんと読みます。
+## 書き込みは承認制にしておく
 
-## ClaudeにNibomo MCPコネクタを追加する方法
+このコネクタには、学習教材の読み取り、変更、復習結果の記録に使うツールがあります。**Settings > Connectors** でNibomoを開き、ツールの権限を確認してください。ここで紹介する設定では、5つの読み取りツールを **Always allow**（常に許可）にし、2つの書き込みツールは **Needs approval**（承認が必要）のままにします。
 
-個人のClaudeアカウントなら、設定手順は次のとおりです。
+| 権限 | ツール |
+| --- | --- |
+| **Always allow** | Get flashcards usage guide; List flashcards workspaces; Next flashcard question; Reveal flashcard answer; Nibomo SQL query (read-only) |
+| **Needs approval** | Nibomo SQL execute (write); Submit flashcard review |
 
-1. [Customize > Connectors](https://claude.ai/customize/connectors) を開く。
-2. `+` をクリックする。
-3. **Add custom connector** を選ぶ。
-4. コネクタ名を入力し、`https://mcp.nibomo.com/mcp` を貼り付ける。
-5. コネクタを追加する。
-6. **Connect** をクリックし、Claudeに求められたらログインフローを完了する。
-7. チャットで使い始める前に、ツール権限を確認する。
+これでClaudeはワークスペースを探したりカードを読んだりできますが、データの変更や復習結果の送信には承認を求めます。読み取りにも承認を求めたい場合は、読み取りツールも承認が必要な設定にできます。
 
-TeamまたはEnterpriseワークスペースを使っている場合は、OwnerかPrimary Ownerが **Organization settings > Connectors > Add > Custom > Web** からカスタムコネクタを追加できます。ただし、そのあと各ユーザー側でも接続と認証は必要です。
+![Claudeに接続されたNibomo。読み取りツールは許可され、書き込みツールは承認が必要な設定](/blog/claude-mcp-flashcards-connector-settings.png)
 
-## 最初の権限設定は控えめでいい
+## カードを1枚作り、保存されたことを確認する
 
-カードを作るときに関係するのは、Nibomoコネクタのツールのうち次の4つです。
-
-- `list_workspaces` は利用可能なワークスペース一覧の取得
-- `sql_query` は読み取り専用アクセス
-- `get_guide` はClaudeが最初の書き込みの前に読むカード作成ルールの取得
-- `sql_execute` はカード作成のような書き込み操作
-
-Claudeでは各ツールごとに **Always allow**、**Needs approval**、**Blocked** を設定できます。
-
-最初の設定としては、読み取り専用ツールは **Always allow**、書き込みツールは **Needs approval** のままにしておくのが無難です。これならClaudeはワークスペースを確認したり、データを読んだりできます。一方で、カード作成が見えない裏側の処理になりません。
-
-このページにあるコネクタ設定のスクリーンショットも、その形です。`list_workspaces` と `sql_query` は許可済みで、`sql_execute` はまだあなたの承認が必要です。
-
-![Claudeのコネクタ設定で、Nibomo MCPの読み取りツールが常時許可、書き込みツールが承認待ちになっている画面](/blog/claude-mcp-flashcards-connector-settings.png)
-
-あとで緩めたくなれば変えられます。最初からそこまで開ける必要はありません。
-
-## 使いたいチャットでコネクタを有効にする
-
-セットアップ後はClaudeの会話を開き、そのチャットでコネクタが使える状態か確認します。今の流れでは、会話内の `+` ボタンか `/` メニューからコネクタを有効にし、必要ならそのチャット専用のツールアクセスも調整できます。
-
-Claudeがコネクタを使うべき場面で使っていないなら、先に見るべきなのは次です。
-
-- Nibomoコネクタが設定画面で接続済みか
-- 今のチャットでコネクタが有効か
-- 書き込みツールが **Blocked** になっていないか
-
-「Claudeがテキストしか返さず、カードを作ってくれない」というときは、だいたいこれで直ります。
-
-## Claudeに何と頼めばいいか
-
-ここは素直なプロンプトで十分です。変に構える必要はありません。
-
-最初の例として使いやすいのは、こんな感じです。
+会話を開き、チャットのコネクタメニューでNibomoが有効になっていることを確認します。最初は、保存先とカードの内容を明確にして、まずは1枚だけ作成を頼んでみましょう。
 
 ```text
-Nibomoに新しいフラッシュカードを作成してください。
-Front: What does HTTP 404 mean?
-Back: The requested resource was not found on the server.
-Tag: web-basics
-どのワークスペースを使うべきか分からなければ、確認してください。
+Nibomoで私のワークスペースを一覧表示し、どれを使うか私に確認してください。
+その後、フラッシュカードを1枚作成してください。
+表面: HTTP 404は何を意味しますか？
+裏面: リクエストされたリソースがサーバー上に見つからなかったことを意味します。
+タグ: web-basics
 ```
 
-```text
-何かを作成する前に、私のNibomoワークスペースを一覧で見せてください。語学学習用カードにいちばん合いそうなものも教えてください。
-```
+ワークスペースを選び、Claudeの書き込みリクエストを確認します。内容と保存先が正しければ承認してください。その後、[Nibomo](https://app.flashcards-open-source-app.com/)を開き、保存されたカードの表面に質問、裏面に答えがあることを確認します。このガイドの動作確認では、接続と権限設定の保存までを確認しており、カードの作成は行っていません。この最初のテストで、選んだワークスペースにClaudeがカードを保存できることも確かめられます。
 
-```text
-Nibomoに新しいスペイン語のフラッシュカードを作成してください。
-Front: How do you say "I would like a coffee" in Spanish?
-Back: Me gustaría un café.
-Tags: spanish, travel
-Personalワークスペースを使ってください。
-```
+Claudeがチャットにカードの文章を書くだけの場合は、設定でNibomoが接続済みか、その会話で有効か、**Nibomo SQL execute (write)** がブロックされていないかを確認してください。そのうえで、Nibomoを使ってカードを保存するよう、はっきりと依頼してください。
 
-いきなり50枚ではなく、まず1枚か2枚で始めるのがいいです。確かめたいのは、大量投入そのものではなく、コネクタの流れ、ワークスペースの選択、承認の出方だからです。
+まとめて多くのカードを作る場合は、[Claudeでフラッシュカードを作る方法](/blog/how-to-use-claude-to-make-flashcards/)で、役立つ質問と答えの作り方を紹介しています。HTTPコードを学んでいるなら、既存の[HTTPステータスコードのフラッシュカードデッキ](/catalog/packages/http-status-code-flashcards/)から始めることもできます。
 
-## 実際のカード作成フローはかなり普通です
+## 以前のコネクタURLを使っている場合
 
-この部分は拍子抜けするくらい普通です。
+以前のエンドポイント `https://mcp.flashcards-open-source-app.com/mcp` も引き続き使えます。新しく接続する場合は `https://mcp.nibomo.com/mcp` を使ってください。URLを切り替える際は、Nibomoへのアクセスを再度許可する必要があります。
 
-Claudeに、Nibomoへカードを作ってほしいと頼みます。ワークスペースが複数あり、どれが既定か明確でなければ、Claudeが保存先を聞いてきます。そのあと、`sql_execute` がまだ **Needs approval** のままなら、Claudeは書き込みツールを使い、あなたの承認を待ちます。
+このガイドで確認した手順に沿う場合は、**Settings > Connectors** で以前のコネクタを開き、**Disconnect**、続いて **More options > Remove** を選びます。上記の手順でNibomoを追加し、新しいURLと、このガイドで紹介したツールが表示されることを確認してください。
 
-この挙動で正しいです。
-
-書き込みリクエストを確認し、承認して、そのあとClaudeに最後まで進めさせます。下のスクリーンショットでは、Claudeがどのワークスペースを使うか確認し、Nibomoへの書き込み操作を実行し、テストカードの追加成功まで報告しています。
-
-![Claudeがワークスペースを確認したうえで、Nibomo MCPコネクタ経由でテスト用フラッシュカードを作成しているチャット画面](/blog/claude-mcp-flashcards-create-card.png)
-
-ツール呼び出しを細かく見たいのでなければ、生のSQLそのものを気にする必要はありません。重要なのは流れです。
-
-1. Claudeにカード作成を依頼する
-2. 聞かれたらワークスペースを選ぶ
-3. 書き込み操作を確認して承認する
-4. 保存されたカードの内容を確認する
-
-これで、Claude自体をレビュー用アプリだと思い込まずに、**Claudeでフラッシュカードを作る** 流れを始められます。
-
-## いくつか正直な限界
-
-この設定は便利ですが、魔法ではありません。
-
-ClaudeはNibomo内でカードを作る手伝いができます。読み取りツール経由でワークスペースを見たり、データを確認したりもできます。ただし、それはClaudeが作るすべてのカードが良いという意味ではありませんし、すべての書き込みリクエストを無条件で承認していいという意味でもありません。
-
-私ならClaudeは下書きと入力の層として使い、その後で重要な部分はNibomo側で見ます。
-
-- 弱いカードの手直し
-- デッキやタグの整理
-- 間隔反復でのレビュー
-- 普段使っている端末上の本物のワークスペースでの学習
-
-ツール接続の前に、まずカード作成プロンプト自体を整えたいなら、[2026年にClaudeでフラッシュカードを作る方法](/ja/blog/how-to-use-claude-to-make-flashcards/) のほうが先です。カード作成より広い勉強フローを見たいなら、[2026年にClaudeで勉強する方法](/ja/blog/how-to-use-claude-for-studying/) がつながります。
-
-## Claudeがカードを作ったら、実際のアプリで見直す
-
-このセットアップでいちばん良いのは、ここです。カードが見栄えのいいAI会話の中に残りません。あとで本当に復習できるNibomoへ着地します。
-
-ホスト版のWebアプリを開いてもいいし、スマホでカードを確認してもいいし、そのままいつもの学習フローへ進めます。
-
-- [Nibomo web app](https://app.flashcards-open-source-app.com/)
-- [App StoreのNibomo for iPhone and iPad](https://apps.apple.com/app/apple-store/id6760538964?pt=128797295&ct=marketing_site&mt=8)
-- [Google PlayのNibomo for Android](https://play.google.com/store/apps/details?id=com.flashcardsopensourceapp.app&utm_source=flashcards_website&utm_medium=referral&utm_campaign=marketing_site)
-
-![Nibomoの復習体験を、ホスト版Webアプリとモバイルアプリで見せる画面](/home/app-screens-showcase-en.png)
-
-まだ製品を触っていないなら、[使い始めガイド](/ja/docs/getting-started/) が最短です。
-
-## 要点だけならこうです
-
-**NibomoをClaudeに接続したい** なら、実際の流れはこれです。
-
-1. Claudeの [custom connector settings](https://claude.ai/customize/connectors) を開く
-2. `https://mcp.nibomo.com/mcp` を追加する
-3. 接続し、権限を確認する
-4. 最初は読み取りツールを開け、書き込みツールは承認制にしておく
-5. 使いたいチャットでコネクタを有効にする
-6. Claudeにカード作成を頼む
-7. 書き込みリクエストを承認する
-8. Nibomoで保存済みカードを確認する
-
-これで、見せかけの統合でも、手作業のコピペでもなく、初日から書き込み操作を自分で管理しながら、Claudeのチャットから実際のNibomoワークスペースまでつなげられます。
+アプリを初めて使う方は、[使い始めガイド](/docs/getting-started/)で、最初のカードを保存した後のワークスペースの使い方と学習の流れを確認できます。
