@@ -1,185 +1,83 @@
 ---
-title: "MCP के साथ Nibomo को Claude से कैसे जोड़ें और chat से cards कैसे बनाएं"
-description: "Claude में Nibomo MCP custom connector जोड़ने, सही tool permissions review करने, और सीधे अपने Nibomo workspace में study cards बनवाने की practical guide."
+title: "MCP के ज़रिए Nibomo Flashcards को Claude से कैसे जोड़ें"
+description: "रिमोट MCP कनेक्टर से Nibomo को Claude Desktop या ब्राउज़र से जोड़ें। जाँचे गए चरण अपनाएँ, टूल की अनुमतियाँ तय करें और अपना पहला फ़्लैशकार्ड सहेजकर देखें।"
 date: "2026-06-23"
-image: "/blog/how-to-connect-flashcards-to-claude-with-mcp.png"
+updated: "2026-09-20"
+image: "/blog/how-to-connect-nibomo-to-claude-mcp.png"
 keywords:
-  - "Claude MCP flashcards"
-  - "Nibomo को Claude से connect करें"
-  - "Claude custom connector flashcards"
-  - "Claude में cards बनाएं"
-  - "Nibomo MCP connector"
-  - "Claude browser flashcards"
-  - "Nibomo Claude connector"
-  - "Claude MCP cards"
-  - "Nibomo remote MCP"
-  - "Claude connector Nibomo workspace"
+  - "Nibomo Claude कनेक्टर"
+  - "Claude MCP फ़्लैशकार्ड"
+  - "Nibomo को Claude से जोड़ें"
+  - "Claude में फ़्लैशकार्ड बनाएँ"
 ---
 
-कल मैंने Claude के अंदर से लगभग एक मिनट में Nibomo में एक test card बनाकर save कर दिया। दिलचस्प हिस्सा demo नहीं था। काम की बात यह थी कि Claude ने पूछा कौन-सा workspace इस्तेमाल करना है, write action के लिए approval माँगा, और card को chat में अटका छोड़ने के बजाय सीधे असली app में डाल दिया।
+Claude एक कस्टम MCP कनेक्टर के ज़रिए सीधे आपके Nibomo वर्कस्पेस में फ़्लैशकार्ड सहेज सकता है। इसके लिए आप एक सर्वर URL जोड़ते हैं, Nibomo में साइन इन करते हैं और तय करते हैं कि Claude कौन-से काम हर बार पूछे बिना कर सकता है।
 
-यही practical वजह है कि अभी **Claude MCP flashcards** खोजना वाजिब है।
+नीचे दिया गया सेटअप 20 सितंबर 2026 को Claude Desktop में जाँचा गया था। ये निर्देश Desktop और ब्राउज़र में सामान्य Claude चैट के लिए इस्तेमाल होने वाले रिमोट कनेक्टर के हैं। Claude Code, Codex या किसी दूसरे टर्मिनल एजेंट के लिए अलग [एजेंट लॉगिन गाइड](/blog/claude-code-codex-openclaw-flashcards-login/) देखें।
 
-अगर आप चाहते हैं कि Claude सीधे आपके Nibomo workspace में cards बनाए, तो setup छोटा है: Nibomo custom connector जोड़िए, tool permissions review कीजिए, chat में उसे enable कीजिए, और जब Claude card save करने के लिए तैयार हो तब write call approve कीजिए।
+![लाइब्रेरी में सामग्री का आदान-प्रदान, जो पढ़ने की अनुमति और बदलाव से पहले मंज़ूरी को दर्शाता है](/blog/how-to-connect-nibomo-to-claude-mcp.png)
 
-![Claude chat से flashcards बनाने के लिए Nibomo MCP server से जुड़ा हुआ](/blog/how-to-connect-flashcards-to-claude-with-mcp.png)
+## Claude की कनेक्टर सेटिंग में Nibomo जोड़ें
 
-## यह custom connector है, directory listing नहीं
+आपको Nibomo अकाउंट और Claude में कस्टम कनेक्टर इस्तेमाल करने की सुविधा चाहिए। Nibomo रिमोट MCP सर्वर का उपयोग करता है, इसलिए अपने कंप्यूटर पर कुछ इंस्टॉल करने की ज़रूरत नहीं है। Anthropic की [कस्टम कनेक्टर गाइड](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp) में कनेक्शन के इस तरीके की जानकारी है।
 
-पहले एक बात साफ़ कर लें।
+1. Claude Desktop में **Settings > Connectors** खोलें या [ब्राउज़र में Connectors](https://claude.ai/customize/connectors) खोलें।
+2. **Add custom connector** चुनें।
+3. नाम में **Nibomo** लिखें और यह सर्वर URL पेस्ट करें:
 
-Nibomo, Claude से **custom connector** के रूप में **remote MCP** के जरिए connect होता है।
+   ```text
+   https://mcp.nibomo.com/mcp
+   ```
 
-इसलिए Claude की official connector directory में पहले से listed Nibomo app मत ढूँढिए। सामान्य flow यह है कि Claude का [connector settings page](https://claude.ai/customize/connectors) खोलें, plus button पर click करें, **Add custom connector** चुनें, और Nibomo MCP URL खुद paste करें।
+4. **Continue** पर क्लिक करें।
+5. पहचान की पुष्टि वाली स्क्रीन पर **Sign in now** और **Register automatically (DCR)** चुने रहने दें। कस्टम हेडर और एडवांस्ड सेटिंग को डिफ़ॉल्ट पर छोड़ दें।
+6. **Add** और फिर **Connect** पर क्लिक करें।
 
-Nibomo connector का exact URL यह है:
+![Claude का Add custom connector डायलॉग, जिसमें Nibomo और MCP सर्वर URL भरे हैं](/blog/claude-mcp-nibomo-add-connector.png)
 
-`https://mcp.nibomo.com/mcp`
+## साइन इन करें और पहुँच की अनुमति दें
 
-सीधा लिंक: [mcp.nibomo.com/mcp](https://mcp.nibomo.com/mcp)
+कनेक्शन पूरा करने के लिए Claude ब्राउज़र खोलता है। अगर पहले पुष्टि माँगी जाए, तो **Continue connecting** चुनें।
 
-## Connect करने से पहले
+Nibomo का लॉगिन पेज `auth.flashcards-open-source-app.com` पर है। अगर आप पहले से Nibomo में साइन इन हैं, तो यह आपको पहचान सकता है; अगर ऐसा न हो, तो अपने अकाउंट में साइन इन करें। अनुमति वाली स्क्रीन पर **Claude wants to connect to your Nibomo account** लिखा होता है। वहीं फ़्लैशकार्ड और रिव्यू डेटा पढ़ने और बदलने की अनुमति का विवरण मिलता है।
 
-दो बातें उम्मीद से ज़्यादा मायने रखती हैं।
+जाँच लें कि आप सही अकाउंट जोड़ रहे हैं, फिर **Allow access** पर क्लिक करें। पेज पर **Connected** दिखने के बाद, अगर आप Claude Desktop इस्तेमाल कर रहे हैं तो **Open desktop app** चुनें। वापस कनेक्टर सेटिंग में आपको **Nibomo** और उसके साथ `https://mcp.nibomo.com/mcp` दिखना चाहिए।
 
-पहली, Claude remote MCP servers तक आपके laptop से नहीं बल्कि Anthropic की cloud infrastructure से पहुँचता है। इसका मतलब है कि server public internet पर reachable होना चाहिए। Nibomo का MCP server पहले से public internet पर available है, इसलिए ऊपर दिया गया endpoint वही है जो आपको चाहिए।
+## डेटा बदलने वाले कामों के लिए मंज़ूरी ज़रूरी रखें
 
-दूसरी, connector permissions को असली tool permissions की तरह treat कीजिए। सिर्फ़ उन्हीं servers से connect करें जिन पर भरोसा हो, हर tool क्या कर सकता है यह review करें, और write actions allow करने से पहले approval request ध्यान से पढ़ें।
+कनेक्टर में पढ़ाई की सामग्री पढ़ने, उसे बदलने और रिव्यू दर्ज करने के टूल हैं। उनकी अनुमतियाँ देखने के लिए **Settings > Connectors** में Nibomo खोलें। यहाँ दिखाए गए सेटअप में पढ़ने वाले पाँच टूल को **Always allow** पर और डेटा लिखने वाले दो टूल को **Needs approval** पर रखें:
 
-## Claude में Nibomo MCP connector कैसे जोड़ें
+| अनुमति | टूल |
+| --- | --- |
+| **Always allow** — हमेशा अनुमति दें | Get flashcards usage guide; List flashcards workspaces; Next flashcard question; Reveal flashcard answer; Nibomo SQL query (read-only) |
+| **Needs approval** — मंज़ूरी ज़रूरी है | Nibomo SQL execute (write); Submit flashcard review |
 
-Individual Claude account के लिए setup flow यह है:
+इससे Claude वर्कस्पेस ढूँढ सकता है और कार्ड पढ़ सकता है, लेकिन डेटा बदलने या रिव्यू दर्ज करने से पहले आपसे पूछेगा। अगर आप चाहते हैं कि Claude डेटा पढ़ने से पहले भी आपकी मंज़ूरी ले, तो अनुमतियाँ उसी हिसाब से सीमित कर सकते हैं।
 
-1. [Customize > Connectors](https://claude.ai/customize/connectors) खोलें।
-2. `+` पर click करें।
-3. **Add custom connector** चुनें।
-4. Connector के लिए एक नाम लिखें और `https://mcp.nibomo.com/mcp` paste करें।
-5. Connector जोड़ें।
-6. **Connect** पर click करें, और अगर Claude कहे तो login flow पूरा करें।
-7. Chats में इस्तेमाल करने से पहले tool permissions review करें।
+![Claude में जुड़ा Nibomo, जहाँ पढ़ने वाले टूल को अनुमति है और डेटा बदलने वाले टूल के लिए मंज़ूरी ज़रूरी है](/blog/claude-mcp-flashcards-connector-settings.png)
 
-अगर आप Team या Enterprise workspace पर हैं, तो कोई Owner या Primary Owner **Organization settings > Connectors > Add > Custom > Web** के तहत custom connector जोड़ सकता है। उसके बाद भी individual users को अपनी तरफ़ से उसे connect और authenticate करना पड़ता है।
+## एक कार्ड बनवाएँ और जाँचें कि वह सहेजा गया है
 
-## शुरुआत में permissions को conservative रखें
-
-Cards बनाने के लिए connector के चार tools काम आते हैं:
-
-- `list_workspaces` available workspaces की सूची के लिए
-- `sql_query` read access के लिए
-- `get_guide` card writing rules के लिए, जिन्हें Claude पहली बार लिखने से पहले पढ़ता है
-- `sql_execute` write actions के लिए, जैसे cards बनाना
-
-Claude हर tool के लिए **Always allow**, **Needs approval**, या **Blocked** set करने देता है।
-
-पहली बार setup करते समय मैं read-only tools को **Always allow** पर रखूँगा और write tool को **Needs approval** पर। इससे Claude को आपके workspaces inspect करने और data पढ़ने की जगह मिलती है, लेकिन card creation बिना review के background action नहीं बनता।
-
-यही connector settings वाले screenshot में भी दिख रहा है: `list_workspaces` और `sql_query` allowed हैं, जबकि `sql_execute` अभी भी आपके approval का इंतज़ार करता है।
-
-![Claude connector settings में Nibomo MCP permissions, जहाँ read tools हमेशा allowed हैं और write tools approval माँगते हैं](/blog/claude-mcp-flashcards-connector-settings.png)
-
-बाद में चाहें तो इसे ढीला कर सकते हैं। मैं शुरुआत वहीं से नहीं करूँगा।
-
-## जिस chat में इस्तेमाल करना है, उसमें connector चालू करें
-
-Setup के बाद Claude conversation खोलें और पक्का करें कि connector वहाँ available है। मौजूदा flow में आप conversation के अंदर `+` button या `/` menu से connectors enable कर सकते हैं, और ज़रूरत हो तो उसी chat के लिए tool access भी adjust कर सकते हैं।
-
-अगर Claude वहाँ connector use नहीं कर रहा जहाँ करना चाहिए, तो पहले ये सीधी बातें check करें:
-
-- Nibomo connector settings में connected है
-- connector current chat के लिए enabled है
-- write tool blocked नहीं है
-
-आमतौर पर यही उस problem को ठीक कर देता है जहाँ Claude सिर्फ़ text दे रहा होता है, card बना नहीं रहा होता।
-
-## Claude से क्या कहें
-
-Prompt को plain रखें। यहाँ Claude को किसी ceremony की ज़रूरत नहीं है।
-
-शुरुआत के लिए ये prompts अच्छे हैं:
+एक बातचीत खोलें और पक्का करें कि चैट के कनेक्टर मेन्यू में Nibomo चालू है। शुरुआत एक छोटे अनुरोध से करें जिसमें साफ़ हो कि कार्ड में क्या होना चाहिए और उसे कहाँ सहेजना है:
 
 ```text
-Nibomo में एक नया flashcard बनाओ।
-Front: HTTP 404 का क्या मतलब होता है?
-Back: Server पर requested resource नहीं मिला।
-Tag: web-basics
-अगर तुम्हें यक़ीन न हो तो मुझसे पूछो कि कौन-सा workspace इस्तेमाल करना है।
+Nibomo से मेरे वर्कस्पेस की सूची दिखाओ और मुझसे पूछो कि कौन-सा इस्तेमाल करना है।
+फिर एक फ़्लैशकार्ड बनाओ:
+सामने: HTTP 404 का क्या मतलब है?
+पीछे: माँगा गया संसाधन सर्वर पर नहीं मिला।
+टैग: web-basics
 ```
 
-```text
-कुछ भी बनाने से पहले, मेरे Nibomo workspaces की list दिखाओ और बताओ कि language study cards के लिए कौन-सा सबसे सही लगता है।
-```
+वर्कस्पेस चुनें, Claude के डेटा लिखने वाले अनुरोध को पढ़ें और सामग्री व वर्कस्पेस सही होने पर मंज़ूरी दें। फिर [Nibomo](https://app.flashcards-open-source-app.com/) खोलकर जाँचें कि सहेजे गए कार्ड में सवाल सामने और जवाब पीछे है। ऊपर दिए गए चरणों की जाँच में कनेक्शन और सहेजी गई अनुमतियों की पुष्टि हुई थी; कोई कार्ड नहीं बनाया गया था। यह पहला कार्ड बनवाकर आप जाँच सकते हैं कि Claude आपके चुने हुए वर्कस्पेस में कार्ड सहेज भी सकता है।
 
-```text
-Nibomo में Spanish सीखने के लिए एक नया flashcard बनाओ।
-Front: Spanish में "I would like a coffee" कैसे कहते हैं?
-Back: Me gustaría un café.
-Tags: spanish, travel
-मेरा Personal workspace इस्तेमाल करो।
-```
+अगर Claude कार्ड सिर्फ़ चैट में लिखता है, तो जाँचें कि Nibomo सेटिंग में जुड़ा है, उस बातचीत के लिए चालू है और **Nibomo SQL execute (write)** ब्लॉक नहीं है। उससे साफ़ तौर पर कहें कि कार्ड Nibomo के ज़रिए सहेजे।
 
-मैं एक या दो cards से शुरू करूँगा, पचास से नहीं। पहले connector flow, workspace choice, और approval pattern confirm करना ज़्यादा समझदारी है। उसके बाद ही कोई बड़ा batch चलाइए।
+एक साथ ज़्यादा कार्ड बनाने के लिए [Claude से फ़्लैशकार्ड कैसे बनाएँ](/blog/how-to-use-claude-to-make-flashcards/) में उपयोगी सवाल-जवाब तैयार करने का तरीका बताया गया है। अगर आप HTTP कोड पढ़ रहे हैं, तो पहले से मौजूद [HTTP स्टेटस कोड फ़्लैशकार्ड डेक](/catalog/packages/http-status-code-flashcards/) से भी शुरुआत कर सकते हैं।
 
-## असल में create-card flow कैसा दिखता है
+## अगर आप पहले से पुराना कनेक्टर URL इस्तेमाल कर रहे हैं
 
-यह हिस्सा काफ़ी सीधा है।
+पुराना `https://mcp.flashcards-open-source-app.com/mcp` एंडपॉइंट अभी भी काम करता है। नया कनेक्शन बनाते समय `https://mcp.nibomo.com/mcp` इस्तेमाल करें। URL बदलने पर Nibomo को दोबारा अनुमति देनी होगी।
 
-आप Claude से कहते हैं कि Nibomo में card बनाए। अगर आपके पास एक से ज़्यादा workspace हैं और कोई default साफ़ नहीं है, तो Claude पूछ सकता है card कहाँ डालना है। उसके बाद Claude write tool इस्तेमाल करता है, और अगर `sql_execute` अभी भी **Needs approval** पर है तो approval का इंतज़ार करता है।
+इस गाइड में बताए गए जाँचे हुए तरीके से कनेक्टर बदलने के लिए **Settings > Connectors** में पुराना कनेक्टर खोलें, **Disconnect** चुनें, फिर **More options > Remove** चुनें। ऊपर दिए गए चरणों से Nibomo जोड़ें और पुष्टि करें कि नया URL और अपेक्षित टूल दिख रहे हैं।
 
-यही सही behavior है।
-
-आपको write request review करनी चाहिए, उसे approve करना चाहिए, और फिर Claude को finish करने देना चाहिए। नीचे वाले screenshot में Claude ने पूछा कौन-सा workspace इस्तेमाल करना है, Nibomo write action चलाया, और बताया कि test card सफलतापूर्वक add हो गया।
-
-![Claude chat, जिसने workspace पूछने के बाद Nibomo MCP connector के जरिए एक test flashcard बनाया](/blog/claude-mcp-flashcards-create-card.png)
-
-अगर आप tool call को बहुत करीब से inspect नहीं करना चाहते, तो raw SQL की परवाह करने की ज़रूरत नहीं है। असली workflow यह है:
-
-1. Claude से card बनाने को कहें
-2. अगर Claude पूछे तो workspace चुनें
-3. write action review करके approve करें
-4. confirm करें कि saved card सही दिख रहा है
-
-इतना काफ़ी है कि आप **Claude में cards बनाएं** वाला flow इस्तेमाल कर सकें, बिना यह दिखावा किए कि Claude खुद review app है।
-
-## कुछ ईमानदार सीमाएँ
-
-यह setup काम का है, लेकिन जादू नहीं है।
-
-Claude, Nibomo के अंदर cards बनाने में मदद कर सकता है। वह connector से पढ़ सकता है, workspaces inspect कर सकता है, और read tools के जरिए data query कर सकता है। इसका मतलब यह नहीं कि Claude का हर drafted card अच्छा होगा, और यह भी नहीं कि आपको हर write request आँख बंद करके approve कर देनी चाहिए।
-
-मैं फिर भी Claude को drafting और entry layer की तरह ही treat करूँगा, और बाद में अहम काम Nibomo में करूँगा:
-
-- कमज़ोर cards को साफ़ करना
-- decks और tags को organize करना
-- spaced repetition के साथ review करना
-- उन्हीं devices पर अपने असली workspace से पढ़ना जिन्हें आप पहले से इस्तेमाल करते हैं
-
-अगर tool layer जोड़ने से पहले आपको बेहतर card-writing prompts चाहिए, तो [2026 में Claude से फ़्लैशकार्ड्स कैसे बनाएं](/hi/blog/how-to-use-claude-to-make-flashcards/) बेहतर starting point है। अगर आपका goal card creation से बड़ा है, तो [2026 में Claude से पढ़ाई कैसे करें](/hi/blog/how-to-use-claude-for-studying/) बड़ा workflow cover करता है।
-
-## Claude card बना दे, उसके बाद उसे असली app में review करें
-
-मुझे setup का यही हिस्सा सबसे ज़्यादा पसंद है। Card किसी अच्छी दिखने वाली AI transcript में नहीं अटका रहता। वह Nibomo में पहुँच जाता है, जहाँ आप उसे बाद में सच में review कर सकते हैं।
-
-आप hosted web app खोल सकते हैं, mobile पर card check कर सकते हैं, या अपने सामान्य study flow में आगे बढ़ सकते हैं:
-
-- [Nibomo web app](https://app.flashcards-open-source-app.com/)
-- [App Store पर iPhone और iPad के लिए Nibomo](https://apps.apple.com/app/apple-store/id6760538964?pt=128797295&ct=marketing_site&mt=8)
-- [Google Play पर Android के लिए Nibomo](https://play.google.com/store/apps/details?id=com.flashcardsopensourceapp.app&utm_source=flashcards_website&utm_medium=referral&utm_campaign=marketing_site)
-
-![Nibomo का review अनुभव, hosted web app और mobile apps के across](/home/app-screens-showcase-en.png)
-
-अगर आपने अभी तक product इस्तेमाल नहीं किया है, तो [Getting Started](/hi/docs/getting-started/) सबसे तेज़ रास्ता है।
-
-## Short version
-
-अगर आपने **Nibomo को Claude से जोड़ें** खोजा है, तो असली flow यह है:
-
-1. Claude की [custom connector settings](https://claude.ai/customize/connectors) खोलें
-2. `https://mcp.nibomo.com/mcp` जोड़ें
-3. connect करें और permissions review करें
-4. शुरुआत में read tools खुले रखें और write tools को approval पर रखें
-5. अपनी chat में connector enable करें
-6. Claude से card बनाने को कहें
-7. write call approve करें
-8. Nibomo में saved card review करें
-
-इससे आप Claude chat से सीधे असली Nibomo workspace तक पहुँच जाते हैं, बिना किसी fake integration के, बिना manual copy-paste के, और पहले ही दिन write actions पर अपना control खोए बिना।
+अगर आप पहली बार ऐप इस्तेमाल कर रहे हैं, तो पहला कार्ड सहेजने के बाद [शुरुआत करने की गाइड](/docs/getting-started/) में वर्कस्पेस और पढ़ाई की प्रक्रिया समझ सकते हैं।
