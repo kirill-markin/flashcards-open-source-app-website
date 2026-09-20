@@ -86,6 +86,8 @@ So I would write a lot of cards around distinctions:
 - endpoint versus equivalence point
 - precision versus accuracy in lab interpretation
 
+Electron geometry versus molecular shape is another useful distinction. The [VSEPR and molecular geometry flashcards](/catalog/packages/vsepr-molecular-geometry-flashcards/) practice that split alongside AXE notation and ideal bond-angle benchmarks.
+
 These cards work because they train the fork in the road where points disappear.
 
 This is also why **how to study advanced chemistry** with flashcards gets better once you stop asking every card to explain a whole topic. One clean distinction card is often more valuable than one heroic card that tries to summarize half a unit.
