@@ -46,6 +46,8 @@ Por separado, los enlaces de instalación del catálogo envían un evento de cli
 
 La aplicación web alojada usa cookies estrictamente necesarias, como `otp_session`, `session`, `refresh` y `logged_in`, para completar la autenticación, mantener y renovar la sesión y mostrar el estado de acceso. Si las desactivas, el inicio de sesión en el navegador no funciona.
 
+La aplicación web alojada también instala una cookie de analítica propia llamada `analytics_visitor` en el dominio del producto. Guarda un identificador aleatorio de visitante, nuestros scripts pueden leerla en el navegador y caduca a los 13 meses. La usamos para reconocer el mismo navegador entre visitas, de modo que los eventos de uso del producto muestren a un visitante que vuelve y no a uno nuevo cada vez. Esta cookie no es estrictamente necesaria. Donde se exige consentimiento, incluidos la UE/EEE y el Reino Unido, solo la instalamos después de que lo des, y puedes retirarlo más adelante en los ajustes de la aplicación web; a partir de ahí la cookie deja de usarse. Los eventos se conservan mientras los necesitemos para los fines descritos en esta política.
+
 ## Analítica del producto
 
 Las aplicaciones alojadas de web, iOS y Android nos envían eventos de uso del producto. Esos eventos llegan a nuestra propia infraestructura y se guardan en nuestra propia base de datos; para ellos no usamos ningún proveedor externo de analítica.
@@ -60,7 +62,7 @@ El historial de países consiste en observaciones espaciadas: un periodo se ampl
 
 Este producto incluye datos GeoLite creados por MaxMind, disponibles en [MaxMind](https://www.maxmind.com).
 
-No existe un ajuste independiente para desactivar la analítica del producto en la aplicación. Eliminar la cuenta borra los perfiles de instalación asociados y modifica los identificadores y el contexto de los eventos conservados, como se describe en Conservación y eliminación.
+Retirar el consentimiento para la cookie de analítica descrito arriba detiene el identificador de visitante; los eventos en sí se siguen recopilando y, mientras tengas la sesión iniciada, permanecen vinculados a tu cuenta. No existe un ajuste independiente que desactive los eventos de uso del producto en la aplicación. Eliminar la cuenta borra los perfiles de instalación asociados y modifica los identificadores y el contexto de los eventos conservados, como se describe en Conservación y eliminación.
 
 ## IA alojada y clientes externos de IA
 

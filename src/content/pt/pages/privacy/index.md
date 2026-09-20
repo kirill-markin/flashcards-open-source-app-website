@@ -46,6 +46,8 @@ Separadamente, os links de instalação do catálogo enviam um evento de clique 
 
 O aplicativo web hospedado usa cookies estritamente necessários, como `otp_session`, `session`, `refresh` e `logged_in`, para concluir a autenticação, manter uma sessão, renovar o acesso e mostrar o estado de conectado. Desativar esses cookies impede que o fluxo de login no navegador funcione.
 
+O aplicativo web hospedado também grava um cookie de análise próprio chamado `analytics_visitor` no domínio do produto. Ele guarda um identificador aleatório de visitante, pode ser lido pelos nossos scripts no navegador e expira depois de 13 meses. Usamos esse cookie para reconhecer o mesmo navegador entre visitas, de modo que os eventos de uso do produto mostrem um visitante que volta, e não um visitante novo a cada vez. Ele não é estritamente necessário. Onde o consentimento é exigido, incluindo a UE/EEE e o Reino Unido, só gravamos o cookie depois que você concorda, e você pode retirar esse consentimento mais tarde nas configurações do aplicativo web; a partir daí o cookie deixa de ser usado. Os eventos em si ficam guardados enquanto forem necessários para as finalidades descritas nesta política.
+
 ## Análise de produto
 
 Os aplicativos web, iOS e Android hospedados nos enviam eventos de uso do produto. Esses eventos vão para a nossa própria infraestrutura e ficam guardados no nosso próprio banco de dados; não usamos um provedor de análise terceiro para eles.
@@ -60,7 +62,7 @@ O histórico de país é formado por observações esparsas, que estendem um per
 
 Este produto inclui dados GeoLite criados pela MaxMind, disponíveis em [MaxMind](https://www.maxmind.com).
 
-Não existe uma configuração separada que desligue a análise de produto dentro do aplicativo. A exclusão da conta remove os perfis de instalação associados e altera os identificadores e o contexto dos eventos guardados conforme descrito na seção Retenção e exclusão.
+Retirar o consentimento para o cookie de análise descrito acima interrompe o identificador de visitante; os eventos em si continuam a ser coletados e, enquanto você estiver conectado, permanecem vinculados à sua conta. Não existe uma configuração separada que desligue os eventos de uso do produto dentro do aplicativo. A exclusão da conta remove os perfis de instalação associados e altera os identificadores e o contexto dos eventos guardados conforme descrito na seção Retenção e exclusão.
 
 ## IA hospedada e clientes de IA externos
 
