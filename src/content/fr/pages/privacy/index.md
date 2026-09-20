@@ -46,6 +46,8 @@ Par ailleurs, les liens d'installation du catalogue envoient un événement de c
 
 L'application web hébergée utilise des cookies strictement nécessaires tels que `otp_session`, `session`, `refresh` et `logged_in` pour réaliser l'authentification, maintenir une session, renouveler l'accès et afficher l'état de connexion. Désactiver ces cookies empêche la connexion dans le navigateur de fonctionner.
 
+L'application web hébergée dépose aussi un cookie d'analyse interne (première partie) nommé `analytics_visitor` sur le domaine du produit. Il contient un identifiant de visiteur aléatoire, reste lisible par nos scripts dans le navigateur et expire au bout de 13 mois. Il nous sert à reconnaître le même navigateur d'une visite à l'autre, afin que les événements d'usage produit indiquent un visiteur qui revient plutôt qu'un nouveau visiteur à chaque fois. Ce cookie n'est pas strictement nécessaire. Là où le consentement est requis, notamment dans l'UE/EEE et au Royaume-Uni, nous ne le déposons qu'après votre accord, et vous pouvez retirer ce consentement plus tard dans les paramètres de l'application web ; le cookie cesse alors d'être utilisé. Les événements eux-mêmes sont conservés tant que nous en avons besoin pour les finalités décrites dans cette politique.
+
 ## Analyse produit
 
 Les applications web, iOS et Android hébergées nous envoient des événements d'usage du produit. Ces événements arrivent sur notre propre infrastructure et sont stockés dans notre propre base de données ; nous n'utilisons pas de fournisseur d'analyse tiers pour cela.
@@ -60,7 +62,7 @@ L'historique de pays est constitué d'observations éparses : une période est p
 
 Ce produit inclut des données GeoLite créées par MaxMind, disponibles auprès de [MaxMind](https://www.maxmind.com).
 
-Il n'existe pas de réglage distinct pour désactiver l'analyse produit dans l'application. La suppression du compte supprime les profils d'installation associés et modifie les identifiants et le contexte conservés dans les événements, comme décrit dans la section Conservation et suppression.
+Le retrait du consentement au cookie d'analyse décrit ci-dessus met fin à l'usage de l'identifiant de visiteur ; les événements eux-mêmes continuent d'être collectés et, tant que vous êtes connecté, restent liés à votre compte. Il n'existe pas de réglage distinct qui désactive les événements d'usage produit dans l'application. La suppression du compte supprime les profils d'installation associés et modifie les identifiants et le contexte conservés dans les événements, comme décrit dans la section Conservation et suppression.
 
 ## IA hébergée et clients IA externes
 
