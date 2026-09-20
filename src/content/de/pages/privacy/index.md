@@ -46,6 +46,8 @@ Unabhängig davon senden Installationslinks im Katalog ein Klickereignis an unse
 
 Die gehostete Web-App verwendet technisch notwendige Cookies wie `otp_session`, `session`, `refresh` und `logged_in`, um die Authentifizierung abzuschließen, die Sitzung aufrechtzuerhalten und zu erneuern und den Anmeldestatus anzuzeigen. Ohne diese Cookies funktioniert die Anmeldung im Browser nicht.
 
+Die gehostete Web-App setzt außerdem ein eigenes Analyse-Cookie namens `analytics_visitor` auf der Produktdomain. Es enthält eine zufällige Besucherkennung, ist für unsere Skripte im Browser lesbar und läuft nach 13 Monaten ab. Damit erkennen wir denselben Browser über mehrere Besuche hinweg, sodass Produktnutzungsereignisse einen wiederkehrenden Besucher zeigen und nicht jedes Mal einen neuen. Dieses Cookie ist nicht technisch notwendig. Wo eine Einwilligung erforderlich ist, darunter in der EU/im EWR und im Vereinigten Königreich, setzen wir es erst nach Ihrer Zustimmung; Sie können diese Einwilligung später in den Einstellungen der Web-App widerrufen, danach wird das Cookie nicht mehr verwendet. Die Ereignisse selbst bewahren wir so lange auf, wie wir sie für die hier beschriebenen Zwecke benötigen.
+
 ## Produktanalyse
 
 Die gehosteten Web-, iOS- und Android-Apps senden uns Ereignisse zur Produktnutzung. Diese Ereignisse gelangen in unsere eigene Infrastruktur und werden in unserer eigenen Datenbank gespeichert; ein externer Analyseanbieter wird dafür nicht eingesetzt.
@@ -60,7 +62,7 @@ Der Länderverlauf besteht aus einzelnen Beobachtungen: Bei unverändertem Land 
 
 Dieses Produkt enthält GeoLite-Daten von MaxMind, verfügbar bei [MaxMind](https://www.maxmind.com).
 
-Es gibt keine gesonderte Einstellung zum Abschalten der Produktanalyse in der App. Die Kontolöschung entfernt zugehörige Installationsprofile und ändert Kennungen und Kontext aufbewahrter Ereignisse wie im Abschnitt Aufbewahrung und Löschung beschrieben.
+Der Widerruf der oben beschriebenen Einwilligung in das Analyse-Cookie beendet die Verwendung der Besucherkennung; die Ereignisse selbst werden weiterhin erfasst und bleiben, solange Sie angemeldet sind, mit Ihrem Konto verknüpft. Es gibt keine gesonderte Einstellung, die die Produktnutzungsereignisse in der App abschaltet. Die Kontolöschung entfernt zugehörige Installationsprofile und ändert Kennungen und Kontext aufbewahrter Ereignisse wie im Abschnitt Aufbewahrung und Löschung beschrieben.
 
 ## Gehostete KI und externe KI-Clients
 

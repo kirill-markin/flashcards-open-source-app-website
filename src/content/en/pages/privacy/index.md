@@ -46,6 +46,8 @@ Separately, catalog install links send a click event to our own product analytic
 
 The hosted web app uses strictly necessary cookies such as `otp_session`, `session`, `refresh`, and `logged_in` to complete authentication, maintain a session, refresh access, and show signed-in state. Disabling these cookies prevents the browser login flow from working.
 
+The hosted web app also sets one first-party analytics cookie, `analytics_visitor`, on the product domain. It holds a random visitor identifier, can be read by our own scripts in the browser, and expires after 13 months. We use it to recognize the same browser across visits, so product-usage events show a returning visitor instead of a new one every time. It is not strictly necessary. Where consent is required, including the EU/EEA and the UK, we set it only after you agree, and you can withdraw that consent later in the web app settings, after which the cookie is no longer used. The events themselves are kept while we need them for the purposes described in this policy.
+
 ## Product Analytics
 
 The hosted web, iOS, and Android apps send us product-usage events. Those events go to our own infrastructure and are stored in our own database; we do not use a third-party analytics provider for them.
@@ -60,7 +62,7 @@ Country history consists of sparse observations, extending a period when the sam
 
 This product includes GeoLite data created by MaxMind, available from [MaxMind](https://www.maxmind.com).
 
-There is no separate setting that turns in-app product analytics off. Account deletion removes associated installation profiles and changes retained event identifiers and context as described in the Retention and Deletion section.
+Withdrawing the analytics cookie consent described above stops the visitor identifier; the events themselves are still collected, and while you are signed in they remain linked to your account. There is no separate setting that turns in-app product-usage events off. Account deletion removes associated installation profiles and changes retained event identifiers and context as described in the Retention and Deletion section.
 
 ## Hosted AI and External AI Clients
 
