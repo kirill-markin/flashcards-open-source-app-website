@@ -36,6 +36,8 @@ Most DAT students do not need four separate permanent decks. One main DAT deck i
 
 That `gen-chem` tag still matters even though this article leans harder into biology and organic chemistry. General chemistry cards usually work best when they store the deciding setup step, trend, or lab cue, not a full derivation you could just practice on paper.
 
+For molecular-shape recall, [these VSEPR flashcards](/catalog/packages/vsepr-molecular-geometry-flashcards/) connect electron-domain and lone-pair counts to molecular geometry, with separate practice on ideal bond angles.
+
 ## Biology cards should be smaller than your notes
 
 The ADA guide breaks Biology into five broad buckets: cell and molecular biology, diversity of life, structure and function of systems, genetics, and evolution and ecology. That is useful for coverage. It is a bad card-writing template if you take it too literally.
