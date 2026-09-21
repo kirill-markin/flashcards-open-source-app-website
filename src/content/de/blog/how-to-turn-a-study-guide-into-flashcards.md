@@ -322,6 +322,6 @@ Mehr Abruf mit weniger Material.
 Wenn du genau das willst, starte hier:
 
 - [Nibomo öffnen](https://nibomo.com/)
-- [Die App öffnen](https://app.flashcards-open-source-app.com/)
+- [Die App öffnen](https://app.nibomo.com/)
 - [Erste Schritte](https://nibomo.com/docs/getting-started/)
 - [Den Sourcecode auf GitHub ansehen](https://github.com/kirill-markin/flashcards-open-source-app)

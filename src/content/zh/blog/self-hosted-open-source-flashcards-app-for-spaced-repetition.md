@@ -13,7 +13,7 @@ keywords:
   - "AI 闪卡"
 ---
 
-是的，Nibomo 可以自托管。完整的应用和基础设施代码均以 MIT 许可证开源。你可以在本地运行各项服务用于开发，也可以在 AWS 上部署仓库中已有文档说明的生产环境技术栈。如果你不想自己运维基础设施，仍可使用[托管版应用](https://app.flashcards-open-source-app.com/)。
+是的，Nibomo 可以自托管。完整的应用和基础设施代码均以 MIT 许可证开源。你可以在本地运行各项服务用于开发，也可以在 AWS 上部署仓库中已有文档说明的生产环境技术栈。如果你不想自己运维基础设施，仍可使用[托管版应用](https://app.nibomo.com/)。
 
 ![展示复习、进度、AI 对话和闪卡的 Nibomo 开源应用移动端界面](/home/app-screens-showcase-zh.png)
 
@@ -159,7 +159,7 @@ Nibomo 选择了不同的方向：围绕 FSRS、同步、AI 工作流、MCP 和 
 
 ## 试用托管版应用，或运行自己的技术栈
 
-- [打开托管版应用](https://app.flashcards-open-source-app.com/)
+- [打开托管版应用](https://app.nibomo.com/)
 - [阅读自托管指南](/docs/self-hosting/)
 - [在 GitHub 上查看源码](https://github.com/kirill-markin/flashcards-open-source-app)
 

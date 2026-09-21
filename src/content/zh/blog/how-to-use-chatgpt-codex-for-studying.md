@@ -145,7 +145,7 @@ Codex 应该先调用只读的工作区工具。等你选好工作区和整理�
 
 MCP 连接器可以读取允许访问的 `review_events`（复习记录）和复习安排相关字段。它的 SQL 写入工具不能创建 `review_events`，不能提交 Again、Hard、Good 或 Easy 评分，也不能修改已经保存的 FSRS 状态或复习安排。连接器只能通过单独的 `submit_review` 工具记录评分，所以复习既可以在应用里完成，也可以交给 Codex 来进行。
 
-卡片到期后，打开 [Nibomo 网页版](https://app.flashcards-open-source-app.com/)或移动端客户端。先回忆答案，再显示背面，并在那里选择评分。Nibomo 会记录这次正式复习，再由 FSRS 决定卡片何时重新出现。
+卡片到期后，打开 [Nibomo 网页版](https://app.nibomo.com/)或移动端客户端。先回忆答案，再显示背面，并在那里选择评分。Nibomo 会记录这次正式复习，再由 FSRS 决定卡片何时重新出现。
 
 Codex 也可以根据你授权的卡片数据进行非正式测验，把它当成额外练习即可：单纯的测验不会记录复习，也不会改变复习安排。想做正式复习时，请让 Codex 用复习工具来进行。它会用 `next_review_card` 只显示正面，在你作答后用 `reveal_answer` 显示背面，再用 `submit_review` 记录评分，让 FSRS 重新安排这张卡。除非你要求自己选择每次评分，否则由 Codex 为你的回答评分。[AI 闪卡导师指南](/zh/blog/ai-flashcard-tutor-due-cards/)更详细地介绍了这个复习流程。
 

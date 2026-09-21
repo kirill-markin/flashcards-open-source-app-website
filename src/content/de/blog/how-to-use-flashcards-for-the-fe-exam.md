@@ -360,6 +360,6 @@ Das reicht völlig aus, um Flashcards für die FE im Jahr 2026 nützlich zu mach
 
 Wenn du diesen Workflow praktisch ausprobieren willst:
 
-- [App öffnen](https://app.flashcards-open-source-app.com/)
+- [App öffnen](https://app.nibomo.com/)
 - [Features ansehen](/de/features/)
 - [Erste Schritte lesen](/de/docs/getting-started/)

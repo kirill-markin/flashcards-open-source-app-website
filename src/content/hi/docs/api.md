@@ -14,7 +14,7 @@ description: खोज, OTP की शुरुआती प्रक्रि�
 शुरुआत मानक खोज प्रवेश बिंदु से करें:
 
 ```text
-GET https://api.flashcards-open-source-app.com/v1/
+GET https://api.nibomo.com/v1/
 ```
 
 यही जानकारी `GET /v1/agent` पर भी उपलब्ध है, लेकिन `/v1/` ही मुख्य सार्वजनिक प्रवेश बिंदु है।
@@ -32,19 +32,19 @@ GET https://api.flashcards-open-source-app.com/v1/
 
 OpenAPI उपलब्ध नहीं है। नीचे दिए गए चार पुराने specification URLs अब schema के बजाय `"openapiAvailable": false` वाला एक ही JSON discovery notice लौटाते हैं:
 
-- `https://api.flashcards-open-source-app.com/v1/agent/openapi.json`
-- `https://api.flashcards-open-source-app.com/v1/agent/swagger.json`
-- `https://api.flashcards-open-source-app.com/v1/openapi.json`
-- `https://api.flashcards-open-source-app.com/v1/swagger.json`
+- `https://api.nibomo.com/v1/agent/openapi.json`
+- `https://api.nibomo.com/v1/agent/swagger.json`
+- `https://api.nibomo.com/v1/openapi.json`
+- `https://api.nibomo.com/v1/swagger.json`
 
-वर्तमान runtime discovery के लिए `GET https://api.flashcards-open-source-app.com/v1/` का उपयोग करें। runtime routes के लिए लौटाए गए `docs.discoveryUrl` और implementation details के लिए `docs.source.agentRoutesUrl` का पालन करें।
+वर्तमान runtime discovery के लिए `GET https://api.nibomo.com/v1/` का उपयोग करें। runtime routes के लिए लौटाए गए `docs.discoveryUrl` और implementation details के लिए `docs.source.agentRoutesUrl` का पालन करें।
 
 ## प्रमाणीकरण की शुरुआती प्रक्रिया
 
 OTP की शुरुआती प्रक्रिया auth सेवा पर चलती है:
 
-- `POST https://auth.flashcards-open-source-app.com/api/agent/send-code`
-- `POST https://auth.flashcards-open-source-app.com/api/agent/verify-code`
+- `POST https://auth.nibomo.com/api/agent/send-code`
+- `POST https://auth.nibomo.com/api/agent/verify-code`
 
 यह क्रम इस प्रकार है:
 
@@ -70,17 +70,17 @@ Authorization: ApiKey <key>
 उदाहरण क्रम:
 
 ```bash
-curl https://api.flashcards-open-source-app.com/v1/
+curl https://api.nibomo.com/v1/
 ```
 
 ```bash
-curl -X POST https://auth.flashcards-open-source-app.com/api/agent/send-code \
+curl -X POST https://auth.nibomo.com/api/agent/send-code \
   -H "Content-Type: application/json" \
   -d '{"email":"you@example.com"}'
 ```
 
 ```bash
-curl -X POST https://auth.flashcards-open-source-app.com/api/agent/verify-code \
+curl -X POST https://auth.nibomo.com/api/agent/verify-code \
   -H "Content-Type: application/json" \
   -d '{
     "code":"12345678",
@@ -155,7 +155,7 @@ SQL और समीक्षा routes JSON body में एक वैकल�
 उदाहरण अनुरोध:
 
 ```bash
-curl -X POST https://api.flashcards-open-source-app.com/v1/agent/sql/query \
+curl -X POST https://api.nibomo.com/v1/agent/sql/query \
   -H "Content-Type: application/json" \
   -H "Authorization: ApiKey $FLASHCARDS_OPEN_SOURCE_API_KEY" \
   -d '{"sql":"SHOW TABLES"}'
@@ -164,7 +164,7 @@ curl -X POST https://api.flashcards-open-source-app.com/v1/agent/sql/query \
 उदाहरण कार्ड क्वेरी:
 
 ```bash
-curl -X POST https://api.flashcards-open-source-app.com/v1/agent/sql/query \
+curl -X POST https://api.nibomo.com/v1/agent/sql/query \
   -H "Content-Type: application/json" \
   -H "Authorization: ApiKey $FLASHCARDS_OPEN_SOURCE_API_KEY" \
   -d '{
@@ -175,7 +175,7 @@ curl -X POST https://api.flashcards-open-source-app.com/v1/agent/sql/query \
 उदाहरण बदलाव अनुरोध:
 
 ```bash
-curl -X POST https://api.flashcards-open-source-app.com/v1/agent/sql/execute \
+curl -X POST https://api.nibomo.com/v1/agent/sql/execute \
   -H "Content-Type: application/json" \
   -H "Authorization: ApiKey $FLASHCARDS_OPEN_SOURCE_API_KEY" \
   -d '{
@@ -208,7 +208,7 @@ SQL सतह कच्चे PostgreSQL के बजाय एक सीमि
 अज्ञात विषय पर समर्थित विषयों की सूची के साथ `400` उत्तर मिलता है। कार्ड लिखने, बड़ी मात्रा में लिखने, या समीक्षा चलाने से पहले संबंधित गाइड प्राप्त करें, और किसी स्टेटमेंट के अस्वीकार होने के बाद `sql_dialect` फिर से पढ़ें।
 
 ```bash
-curl https://api.flashcards-open-source-app.com/v1/agent/guide/sql_dialect \
+curl https://api.nibomo.com/v1/agent/guide/sql_dialect \
   -H "Authorization: ApiKey $FLASHCARDS_OPEN_SOURCE_API_KEY"
 ```
 
@@ -230,7 +230,7 @@ curl https://api.flashcards-open-source-app.com/v1/agent/guide/sql_dialect \
 उदाहरण सबमिशन:
 
 ```bash
-curl -X POST https://api.flashcards-open-source-app.com/v1/agent/reviews/submit \
+curl -X POST https://api.nibomo.com/v1/agent/reviews/submit \
   -H "Content-Type: application/json" \
   -H "Authorization: ApiKey $FLASHCARDS_OPEN_SOURCE_API_KEY" \
   -d '{

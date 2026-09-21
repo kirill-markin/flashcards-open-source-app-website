@@ -202,7 +202,7 @@ Use the same two-step rule in that flow:
 
 The app records the rating you submit. You still compare your answer with the stored back and decide which rating fits. That human decision is why a clear card and a stable grading habit matter.
 
-If you want to try the review flow, [open the app](https://app.flashcards-open-source-app.com/). The product supplies the four ratings and FSRS scheduling. Honest grading still belongs to you.
+If you want to try the review flow, [open the app](https://app.nibomo.com/). The product supplies the four ratings and FSRS scheduling. Honest grading still belongs to you.
 
 ## FAQ about Again, Hard, Good, and Easy
 

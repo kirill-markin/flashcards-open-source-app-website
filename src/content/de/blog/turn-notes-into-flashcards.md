@@ -200,7 +200,7 @@ Darum ist [Nibomo](https://nibomo.com/) eine starke Wahl für Menschen, die **No
 Wenn du einen praktischen Weg suchst, **Notizen in Flashcards zu verwandeln**, starte hier:
 
 - [Nibomo öffnen](https://nibomo.com/)
-- [Die App öffnen](https://app.flashcards-open-source-app.com/)
+- [Die App öffnen](https://app.nibomo.com/)
 - [Erste Schritte](https://nibomo.com/docs/getting-started/)
 - [Den Quellcode auf GitHub ansehen](https://github.com/kirill-markin/flashcards-open-source-app)
 

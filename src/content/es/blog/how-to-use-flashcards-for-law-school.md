@@ -246,7 +246,7 @@ Si quieres **flashcards para la carrera de derecho** que de verdad ayuden:
 Si quieres probar ese flujo en Nibomo:
 
 - [Empieza con Nibomo](https://nibomo.com/)
-- [Abre la app web](https://app.flashcards-open-source-app.com/)
+- [Abre la app web](https://app.nibomo.com/)
 - [Lee la guía de primeros pasos](https://nibomo.com/docs/getting-started/)
 - [Ver el código fuente en GitHub](https://github.com/kirill-markin/flashcards-open-source-app)
 

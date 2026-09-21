@@ -85,7 +85,7 @@ Quizlet 在 2026 年 6 月 30 日发布的 Google Classroom 公告同样只针�
 
 Nibomo 为同一套受限且按用户隔离的数据接口提供两种访问方式：
 
-- [外部 Agent API](/docs/api/) 从 `GET https://api.flashcards-open-source-app.com/v1/` 开始。它的发现响应会引导智能体完成邮件 OTP 登录、创建 API 密钥和选择工作区。读取走 SQL 风格的查询路由，写入走独立的执行路由。
+- [外部 Agent API](/docs/api/) 从 `GET https://api.nibomo.com/v1/` 开始。它的发现响应会引导智能体完成邮件 OTP 登录、创建 API 密钥和选择工作区。读取走 SQL 风格的查询路由，写入走独立的执行路由。
 - [远程 MCP 服务器](/docs/mcp-connector/)位于 `https://mcp.nibomo.com/mcp`。MCP 客户端可以使用七个工具：`list_workspaces`、`sql_query`、`sql_execute`、`get_guide`，以及复习工具 `next_review_card`、`reveal_answer` 和 `submit_review`。
 
 两种方式都限定在工作区范围内。公开的资源包括 `workspace`、`cards`、`decks` 和 `review_events`，每条语句最多返回 100 行结果。SQL 风格接口采用的是受限方言，并非原始 PostgreSQL。它没有 OpenAPI schema，因此依赖自动生成 OpenAPI 客户端的工作流需要改用其他接口。

@@ -290,7 +290,7 @@ keywords:
 如果你正在搭建一条 **课堂文字稿转抽认卡** 的流程，可以从这里开始：
 
 - [打开 Nibomo](https://nibomo.com/)
-- [打开应用](https://app.flashcards-open-source-app.com/)
+- [打开应用](https://app.nibomo.com/)
 - [阅读自托管指南](https://nibomo.com/docs/self-hosting/)
 - [在 GitHub 上查看源码](https://github.com/kirill-markin/flashcards-open-source-app)
 

@@ -286,7 +286,7 @@ TEAS prep के लिए यही असली value है। आप messy p
 
 अगर long-term ownership आपके लिए matter करती है, तो project open source भी है और self-hosted path भी देता है। ज़्यादातर TEAS students के लिए यह secondary है। मुख्य फ़ायदा यह है कि card creation, review, और cleanup एक ही जगह पर मिलते हैं, notes, screenshots, और browser tabs में बिखरे नहीं रहते।
 
-अगर सबसे तेज़ entry point चाहिए, तो [hosted web app](https://app.flashcards-open-source-app.com/) से शुरू कीजिए। अगर पहले product का broader overview देखना है, तो [features page](https://nibomo.com/features) देखिए।
+अगर सबसे तेज़ entry point चाहिए, तो [hosted web app](https://app.nibomo.com/) से शुरू कीजिए। अगर पहले product का broader overview देखना है, तो [features page](https://nibomo.com/features) देखिए।
 
 ## ATI TEAS से पहले के आख़िरी 10 दिनों में मैं क्या करूंगा
 

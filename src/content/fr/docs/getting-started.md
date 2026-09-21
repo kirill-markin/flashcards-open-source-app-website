@@ -7,7 +7,7 @@ description: Commencez avec l'application web hébergée, connectez un agent via
 
 Le moyen le plus rapide de commencer est l'application web hébergée :
 
-1. Ouvrez [app.flashcards-open-source-app.com](https://app.flashcards-open-source-app.com)
+1. Ouvrez [app.nibomo.com](https://app.nibomo.com)
 2. Connectez-vous avec votre adresse e-mail via un code OTP, sans mot de passe
 3. Créez des cartes, révisez les éléments dus et utilisez le chat IA avec les données de l'espace de travail et des pièces jointes
 
@@ -18,7 +18,7 @@ Aucune installation ni configuration de serveur n'est nécessaire pour la voie h
 Si vous voulez connecter directement Claude Code, Codex ou OpenClaw, partez de :
 
 ```text
-GET https://api.flashcards-open-source-app.com/v1/
+GET https://api.nibomo.com/v1/
 ```
 
 Cette réponse de découverte guide l'agent à travers la connexion par OTP envoyé par e-mail, la création d'une clé API de longue durée, le chargement du compte, l'initialisation de l'espace de travail et la surface SQL publiée.

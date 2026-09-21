@@ -19,7 +19,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
       trustLine: "Không cần thẻ tín dụng. Không quảng cáo. Không đếm ngược dùng thử.",
       primaryLink: {
         label: "Bắt đầu",
-        href: "https://app.flashcards-open-source-app.com",
+        href: "https://app.nibomo.com",
       },
       secondaryLink: {
         label: "Xem trên GitHub",

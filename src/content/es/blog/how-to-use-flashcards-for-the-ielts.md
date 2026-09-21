@@ -261,6 +261,6 @@ Esa es una respuesta mucho mejor a **cómo estudiar para el IELTS** que construi
 Si quieres probar este flujo dentro del producto real:
 
 - [Abrir Nibomo](/es/)
-- [Abrir la app](https://app.flashcards-open-source-app.com/)
+- [Abrir la app](https://app.nibomo.com/)
 - [Leer la guía de primeros pasos](/es/docs/getting-started/)
 - [Ver el código fuente en GitHub](https://github.com/kirill-markin/flashcards-open-source-app)

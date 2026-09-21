@@ -284,6 +284,6 @@ Y si estás estudiando con IA en 2026, ésa es la habilidad de verdad ahora. No 
 Si quieres probar ese flujo en un solo sitio:
 
 - [Abrir Nibomo](https://nibomo.com/)
-- [Abrir la app](https://app.flashcards-open-source-app.com/)
+- [Abrir la app](https://app.nibomo.com/)
 - [Leer la página de funcionalidades](https://nibomo.com/features/)
 - [Ver el código fuente en GitHub](https://github.com/kirill-markin/flashcards-open-source-app)

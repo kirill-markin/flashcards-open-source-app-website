@@ -195,6 +195,6 @@ keywords:
 
 実際に試すなら、ここから始められます。
 
-- [アプリを開く](https://app.flashcards-open-source-app.com/)
+- [アプリを開く](https://app.nibomo.com/)
 - [機能ページを読む](https://nibomo.com/features/)
 - [使い始めガイドを読む](https://nibomo.com/docs/getting-started/)

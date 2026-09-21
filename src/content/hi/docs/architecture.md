@@ -18,11 +18,11 @@ Apex fallback                   -> <domain>      -> CloudFront redirect -> app.<
 2. Postgres ही अंतिम डेटा स्रोत है
 3. iOS क्लाइंट local SQLite और sync के सहारे offline-first ढंग से काम करता है
 4. वेब ऐप, iOS ऐप, और बाहरी एजेंट इंटरफ़ेस एक ही workspace मॉडल साझा करते हैं
-5. बाहरी एजेंट `GET https://api.flashcards-open-source-app.com/v1/` से शुरू होते हैं
+5. बाहरी एजेंट `GET https://api.nibomo.com/v1/` से शुरू होते हैं
 
 ## समर्थित क्लाइंट
 
-- `app.flashcards-open-source-app.com` पर चलने वाला वेब ऐप
+- `app.nibomo.com` पर चलने वाला वेब ऐप
 - मुख्य रिपॉज़िटरी में local SQLite storage वाला iOS ऐप
 - Google Play पर उपलब्ध Android ऐप
 - डिस्कवरी, OTP bootstrap, और `Authorization: ApiKey` के ज़रिए जुड़ने वाले बाहरी एजेंट क्लाइंट

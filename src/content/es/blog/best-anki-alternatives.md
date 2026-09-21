@@ -176,7 +176,7 @@ El formato propio `flashcards.zip` también tiene un alcance menor que una copia
 
 El núcleo alojado es [gratis durante la beta](/pricing/). Autohospedar el sistema de producción no consiste en ejecutar Docker con un solo comando: la [guía de autohospedaje](/docs/self-hosting/) usa AWS CDK y requiere servicios de AWS, además de Cloudflare, Resend, Sentry, secretos, migraciones, copias de seguridad, restauraciones y actualizaciones. Docker Compose sirve para desarrollo; no es la vía de despliegue de producción admitida.
 
-Elige Nibomo cuando el acceso a todo el código y un backend bajo tu control sean la razón para cambiar, y tus tarjetas sean lo bastante sencillas como para reconstruirlas de forma segura. [Abre la app alojada](https://app.flashcards-open-source-app.com/) para probar un pequeño mazo temporal. Quédate con Anki —o prueba RemNote, Mochi o Mnemosyne— si lo primero es conservar fielmente el estado de aprendizaje.
+Elige Nibomo cuando el acceso a todo el código y un backend bajo tu control sean la razón para cambiar, y tus tarjetas sean lo bastante sencillas como para reconstruirlas de forma segura. [Abre la app alojada](https://app.nibomo.com/) para probar un pequeño mazo temporal. Quédate con Anki —o prueba RemNote, Mochi o Mnemosyne— si lo primero es conservar fielmente el estado de aprendizaje.
 
 ## ¿Qué alternativa a Anki funciona en iOS sin sorpresas al migrar?
 

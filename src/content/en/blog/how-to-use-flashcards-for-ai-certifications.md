@@ -277,6 +277,6 @@ More recall that actually survives the exam timer.
 If you want to try that workflow:
 
 - [Open Nibomo](https://nibomo.com/)
-- [Open the app](https://app.flashcards-open-source-app.com/)
+- [Open the app](https://app.nibomo.com/)
 - [Read the features page](https://nibomo.com/features/)
 - [View the source on GitHub](https://github.com/kirill-markin/flashcards-open-source-app)

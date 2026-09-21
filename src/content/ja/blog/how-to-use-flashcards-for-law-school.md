@@ -248,7 +248,7 @@ keywords:
 この運用を Nibomo で試したいなら、次から始められます。
 
 - [Nibomo を始める](https://nibomo.com/)
-- [Web アプリを開く](https://app.flashcards-open-source-app.com/)
+- [Web アプリを開く](https://app.nibomo.com/)
 - [使い方ガイドを読む](https://nibomo.com/docs/getting-started/)
 - [GitHub でソースを見る](https://github.com/kirill-markin/flashcards-open-source-app)
 

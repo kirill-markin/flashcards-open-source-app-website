@@ -19,9 +19,9 @@ keywords:
 
 [Nibomo](https://nibomo.com/) では、1 つのディスカバリー URL から始められる、オープンソースのエージェント向けログインフローを公開しています。
 
-`https://api.flashcards-open-source-app.com/v1/`
+`https://api.nibomo.com/v1/`
 
-これが正式な入口です。同じディスカバリー応答は `https://api.flashcards-open-source-app.com/v1/agent` でも取得できますが、現行の仕様では `/v1/` を起点にします。
+これが正式な入口です。同じディスカバリー応答は `https://api.nibomo.com/v1/agent` でも取得できますが、現行の仕様では `/v1/` を起点にします。
 
 この URL を Claude Code、Codex、OpenClaw に渡せば、エージェントはフローを確認し、メールコードの送信を始め、コードを検証し、API キーを保存し、アカウント情報を読み込み、そのままワークスペースの準備まで自力で進められます。
 
@@ -39,7 +39,7 @@ keywords:
 そのため、ツールごとに専用の案内文を書く代わりに、エージェントへ URL を渡し、返ってきた指示どおりに進めさせれば済みます。
 
 ```text
-GET https://api.flashcards-open-source-app.com/v1/
+GET https://api.nibomo.com/v1/
 ```
 
 大まかに言うと、エージェントはここで次の 4 点をすぐ把握できます。
@@ -69,7 +69,7 @@ GET https://api.flashcards-open-source-app.com/v1/
 
 ```text
 次の Nibomo のディスカバリー URL を使ってください:
-https://api.flashcards-open-source-app.com/v1/
+https://api.nibomo.com/v1/
 
 Nibomo アカウントにログインして、アカウント情報を読み込み、適切なワークスペースを選ぶか作成してください。
 フロー上で必要になったときだけ、メールに届いた最新の 8 桁コードを私に聞いてください。
@@ -83,7 +83,7 @@ Nibomo アカウントにログインして、アカウント情報を読み込�
 
 ```text
 次の URL を使って私の Nibomo アカウントに接続してください:
-https://api.flashcards-open-source-app.com/v1/
+https://api.nibomo.com/v1/
 
 返ってきた指示に従い、API キーは安全に扱い、私のアカウント情報を読み込んでからワークスペースの準備に進んでください。
 認証が必要になったら、メールに届いた最新の 8 桁コードを聞いてください。
@@ -94,7 +94,7 @@ https://api.flashcards-open-source-app.com/v1/
 最初のリクエストはこれです。
 
 ```bash
-curl https://api.flashcards-open-source-app.com/v1/
+curl https://api.nibomo.com/v1/
 ```
 
 レスポンスは、ターミナルで動くエージェントが推測せずに辿れる形になっています。
@@ -140,12 +140,14 @@ curl https://api.flashcards-open-source-app.com/v1/
 }
 ```
 
+これらの URL は現在も旧ホストの `flashcards-open-source-app.com` を指しています。ここでも以下のレスポンスでも、API が実際に返すのはこの値です。どちらのホストも同じ API を提供するため、いずれを使っても動作します。
+
 ## 例: メールコードを送る
 
 エージェントがユーザーのメールアドレスを受け取ったら、OTP の手順を始めます。
 
 ```bash
-curl -X POST https://auth.flashcards-open-source-app.com/api/agent/send-code \
+curl -X POST https://auth.nibomo.com/api/agent/send-code \
   -H "Content-Type: application/json" \
   -d '{
     "email": "you@example.com"
@@ -181,7 +183,7 @@ curl -X POST https://auth.flashcards-open-source-app.com/api/agent/send-code \
 ユーザーがメールコードを返したら、エージェントはログインを最後まで完了できます。
 
 ```bash
-curl -X POST https://auth.flashcards-open-source-app.com/api/agent/verify-code \
+curl -X POST https://auth.nibomo.com/api/agent/verify-code \
   -H "Content-Type: application/json" \
   -d '{
     "code": "12345678",
@@ -230,7 +232,7 @@ export FLASHCARDS_OPEN_SOURCE_API_KEY="fca_ABCDEFGH_0123456789ABCDEFGHJKMNPQRS"
 次のリクエストは、通常の認証付き API 呼び出しです。
 
 ```bash
-curl https://api.flashcards-open-source-app.com/v1/agent/me \
+curl https://api.nibomo.com/v1/agent/me \
   -H "Authorization: ApiKey YOUR_API_KEY"
 ```
 
@@ -303,14 +305,14 @@ Nibomo はオープンソースなので、ブラックボックスとして扱�
 
 このフローを試すなら、エージェントに次の URL を渡してください。
 
-`https://api.flashcards-open-source-app.com/v1/`
+`https://api.nibomo.com/v1/`
 
 あとはエージェントに任せれば済みます。
 
 参考リンク:
 
 - [Nibomo 公式サイト](https://nibomo.com/)
-- [ホスト版アプリ](https://app.flashcards-open-source-app.com/)
+- [ホスト版アプリ](https://app.nibomo.com/)
 - [スタートガイド](https://nibomo.com/docs/getting-started/)
 - [GitHub リポジトリ](https://github.com/kirill-markin/flashcards-open-source-app)
 

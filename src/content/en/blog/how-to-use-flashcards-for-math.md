@@ -203,6 +203,6 @@ That is enough to make **how to use flashcards for math** a real workflow instea
 
 If you want to try it in practice:
 
-- [Open the app](https://app.flashcards-open-source-app.com/)
+- [Open the app](https://app.nibomo.com/)
 - [Read the features page](https://nibomo.com/features/)
 - [Read the getting started guide](https://nibomo.com/docs/getting-started/)

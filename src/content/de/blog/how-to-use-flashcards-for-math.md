@@ -195,6 +195,6 @@ Das reicht völlig, damit **wie du Flashcards für Mathe nutzt** zu einem echten
 
 Wenn du es praktisch ausprobieren willst:
 
-- [App öffnen](https://app.flashcards-open-source-app.com/)
+- [App öffnen](https://app.nibomo.com/)
 - [Feature-Seite lesen](https://nibomo.com/features/)
 - [Einstiegsleitfaden lesen](https://nibomo.com/docs/getting-started/)

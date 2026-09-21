@@ -284,6 +284,6 @@ keywords:
 إذا أردت أن تجرّب هذا الأسلوب في مكان واحد:
 
 - [ابدأ مع Nibomo](https://nibomo.com/)
-- [افتح التطبيق](https://app.flashcards-open-source-app.com/)
+- [افتح التطبيق](https://app.nibomo.com/)
 - [اقرأ صفحة المزايا](https://nibomo.com/features/)
 - [اطّلع على المشروع في GitHub](https://github.com/kirill-markin/flashcards-open-source-app)

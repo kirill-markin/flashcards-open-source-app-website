@@ -360,6 +360,6 @@ Eso basta para que las flashcards sean útiles para el FE en 2026 sin convertir 
 
 Si quieres probar este flujo en la práctica:
 
-- [Abrir la app](https://app.flashcards-open-source-app.com/)
+- [Abrir la app](https://app.nibomo.com/)
 - [Ver la página de funciones](/es/features/)
 - [Leer la guía de primeros pasos](/es/docs/getting-started/)

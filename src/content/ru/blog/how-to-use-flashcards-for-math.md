@@ -195,6 +195,6 @@ keywords:
 
 Если хотите попробовать это на практике:
 
-- [Открыть приложение](https://app.flashcards-open-source-app.com/)
+- [Открыть приложение](https://app.nibomo.com/)
 - [Посмотреть страницу возможностей](https://nibomo.com/features/)
 - [Прочитать руководство по началу работы](https://nibomo.com/docs/getting-started/)

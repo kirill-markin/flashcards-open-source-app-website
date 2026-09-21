@@ -149,4 +149,4 @@ Nibomo 采用 MIT 许可证，并提供托管的网页、iOS 和 Android 产品�
 
 它并不是“没有缺点的 Quizlet”。它有自己的短板：没有独立的 Learn 或 Test 模式，没有同类的共享学习集库，没有直接的 Quizlet 导入器，也不能通过 `flashcards.zip` 完成可移植的完整备份。
 
-如果这些缺口恰好移除了你最常用的 Quizlet 功能，那就继续使用 Quizlet。如果调度器透明度、离线优先学习和基础设施控制正是你开始搜索替代方案的原因，可以先[打开 Nibomo](https://app.flashcards-open-source-app.com/)或[查看源代码](https://github.com/kirill-markin/flashcards-open-source-app)，再作决定。真正合适的学习系统，是新鲜感消退后，其取舍依然合理的那一个。
+如果这些缺口恰好移除了你最常用的 Quizlet 功能，那就继续使用 Quizlet。如果调度器透明度、离线优先学习和基础设施控制正是你开始搜索替代方案的原因，可以先[打开 Nibomo](https://app.nibomo.com/)或[查看源代码](https://github.com/kirill-markin/flashcards-open-source-app)，再作决定。真正合适的学习系统，是新鲜感消退后，其取舍依然合理的那一个。

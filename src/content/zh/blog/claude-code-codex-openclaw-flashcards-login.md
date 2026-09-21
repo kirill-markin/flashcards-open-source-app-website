@@ -19,9 +19,9 @@ keywords:
 
 在 [Nibomo](https://nibomo.com/) 里，我们现在提供了一套开源的代理登录流程，起点就是一个发现入口 URL：
 
-`https://api.flashcards-open-source-app.com/v1/`
+`https://api.nibomo.com/v1/`
 
-这就是规范约定的标准入口。相同的发现响应也可以通过 `https://api.flashcards-open-source-app.com/v1/agent` 获取，但当前约定的起点是 `/v1/`。
+这就是规范约定的标准入口。相同的发现响应也可以通过 `https://api.nibomo.com/v1/agent` 获取，但当前约定的起点是 `/v1/`。
 
 把这个 URL 交给 Claude Code、Codex 或 OpenClaw，代理就能自行理解流程、请求邮件验证码、完成校验、保存 API 密钥、读取账户信息，并继续处理工作区初始化。
 
@@ -39,7 +39,7 @@ keywords:
 所以你不需要再为每个工具单独写一份接入说明。把这个 URL 交给代理，让它按照返回结果继续往下执行就够了。
 
 ```text
-GET https://api.flashcards-open-source-app.com/v1/
+GET https://api.nibomo.com/v1/
 ```
 
 代理拿到这个响应后，立刻就会知道四件事：
@@ -69,7 +69,7 @@ GET https://api.flashcards-open-source-app.com/v1/
 
 ```text
 Use this Nibomo discovery URL:
-https://api.flashcards-open-source-app.com/v1/
+https://api.nibomo.com/v1/
 
 Log in to my Nibomo account, load account context, and select or create the correct workspace.
 Ask me only for the latest 8-digit email code when the flow requires it.
@@ -83,7 +83,7 @@ Ask me only for the latest 8-digit email code when the flow requires it.
 
 ```text
 Connect my Nibomo account using this URL:
-https://api.flashcards-open-source-app.com/v1/
+https://api.nibomo.com/v1/
 
 Follow the returned instructions, keep the API key secure, load my account, then continue to workspace setup.
 If verification is needed, ask me for the latest 8-digit code from the email.
@@ -94,7 +94,7 @@ If verification is needed, ask me for the latest 8-digit code from the email.
 第一条请求如下：
 
 ```bash
-curl https://api.flashcards-open-source-app.com/v1/
+curl https://api.nibomo.com/v1/
 ```
 
 返回结果的结构就是为了让终端代理无需猜测，就能直接继续往下执行：
@@ -140,12 +140,14 @@ curl https://api.flashcards-open-source-app.com/v1/
 }
 ```
 
+这些 URL 仍然指向旧的 `flashcards-open-source-app.com` 主机——这正是 API 目前返回的内容，这里和下面的响应中都是如此。两组主机服务于同一个 API，因此使用哪一组都可以。
+
 ## 示例：发送邮件验证码
 
 代理拿到用户邮箱之后，就会进入邮箱验证码这一步：
 
 ```bash
-curl -X POST https://auth.flashcards-open-source-app.com/api/agent/send-code \
+curl -X POST https://auth.nibomo.com/api/agent/send-code \
   -H "Content-Type: application/json" \
   -d '{
     "email": "you@example.com"
@@ -181,7 +183,7 @@ curl -X POST https://auth.flashcards-open-source-app.com/api/agent/send-code \
 用户把邮件里的验证码发回来之后，代理就可以完成登录：
 
 ```bash
-curl -X POST https://auth.flashcards-open-source-app.com/api/agent/verify-code \
+curl -X POST https://auth.nibomo.com/api/agent/verify-code \
   -H "Content-Type: application/json" \
   -d '{
     "code": "12345678",
@@ -230,7 +232,7 @@ export FLASHCARDS_OPEN_SOURCE_API_KEY="fca_ABCDEFGH_0123456789ABCDEFGHJKMNPQRS"
 下一条请求就是一次普通的带认证 API 调用：
 
 ```bash
-curl https://api.flashcards-open-source-app.com/v1/agent/me \
+curl https://api.nibomo.com/v1/agent/me \
   -H "Authorization: ApiKey YOUR_API_KEY"
 ```
 
@@ -303,14 +305,14 @@ Nibomo 是开源项目，所以你可以直接检查整个流程，而不是把�
 
 如果你想亲自试试这套流程，把这个 URL 交给你的代理：
 
-`https://api.flashcards-open-source-app.com/v1/`
+`https://api.nibomo.com/v1/`
 
 然后让它处理剩下的步骤。
 
 有用的链接：
 
 - [Nibomo 官网](https://nibomo.com/)
-- [托管应用](https://app.flashcards-open-source-app.com/)
+- [托管应用](https://app.nibomo.com/)
 - [快速开始](https://nibomo.com/docs/getting-started/)
 - [GitHub 仓库](https://github.com/kirill-markin/flashcards-open-source-app)
 

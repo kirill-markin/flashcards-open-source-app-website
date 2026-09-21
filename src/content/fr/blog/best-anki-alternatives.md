@@ -176,7 +176,7 @@ L'archive `flashcards.zip` de Nibomo est elle aussi plus étroite qu'une sauvega
 
 Le cœur hébergé est [gratuit pendant la bêta](/pricing/). Auto-héberger la pile de production n'est pas une installation Docker en une commande : le [guide d'auto-hébergement](/docs/self-hosting/) utilise AWS CDK et demande des services AWS, plus Cloudflare, Resend, Sentry, des secrets, des migrations, des sauvegardes, des restaurations et des mises à niveau. Docker Compose est la voie de développement, pas le déploiement de production pris en charge.
 
-Prenez Nibomo quand le code complet et un backend contrôlé par l'opérateur sont la raison du changement, et que vos cartes sont assez simples pour être reconstruites sans risque. [Ouvrez l'application hébergée](https://app.flashcards-open-source-app.com/) pour essayer un petit paquet temporaire. Gardez Anki — ou testez RemNote, Mochi ou Mnemosyne — quand la fidélité de l'état d'apprentissage passe en premier.
+Prenez Nibomo quand le code complet et un backend contrôlé par l'opérateur sont la raison du changement, et que vos cartes sont assez simples pour être reconstruites sans risque. [Ouvrez l'application hébergée](https://app.nibomo.com/) pour essayer un petit paquet temporaire. Gardez Anki — ou testez RemNote, Mochi ou Mnemosyne — quand la fidélité de l'état d'apprentissage passe en premier.
 
 ## Quelle alternative à Anki marche sur iOS sans mauvaise surprise à la migration ?
 

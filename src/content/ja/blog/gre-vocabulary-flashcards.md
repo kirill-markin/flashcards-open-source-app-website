@@ -277,7 +277,7 @@ GRE の語彙は積み上げ式です。日曜に8時間だけ語彙漬けにな
 Nibomo でこの運用を試すなら、ここから始めてください。
 
 - [Nibomo を始める](/ja/)
-- [Web アプリを開く](https://app.flashcards-open-source-app.com/)
+- [Web アプリを開く](https://app.nibomo.com/)
 - [スタートガイドを読む](/ja/docs/getting-started/)
 - [GitHub でソースを見る](https://github.com/kirill-markin/flashcards-open-source-app)
 

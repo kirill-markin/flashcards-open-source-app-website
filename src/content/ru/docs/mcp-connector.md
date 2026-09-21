@@ -140,7 +140,7 @@ Authorization: Bearer fca_ABCDEFGH_0123456789ABCDEFGHJKMNPQRS
 браузер, ни round-trip через OAuth.
 
 Каноническое машиночитаемое описание обоих путей — это полезная нагрузка discovery
-по адресу `https://api.flashcards-open-source-app.com/v1/` (с зеркалом на `/v1/agent`).
+по адресу `https://api.nibomo.com/v1/` (с зеркалом на `/v1/agent`).
 
 ## Безопасность и область действия
 

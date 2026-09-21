@@ -68,7 +68,7 @@ Verso : La ressource demandée n’a pas été trouvée sur le serveur.
 Étiquette : web-basics
 ```
 
-Choisissez l’espace de travail, examinez la demande d’écriture de Claude et approuvez-la si le contenu et la destination sont corrects. Ouvrez ensuite [Nibomo](https://app.flashcards-open-source-app.com/) et vérifiez que la carte enregistrée contient la question au recto et la réponse au verso. La procédure ci-dessus a permis de vérifier la connexion et l’enregistrement des autorisations ; aucune carte n’a été créée lors de cette vérification. Ce premier essai sert à vérifier que Claude peut aussi enregistrer une carte dans l’espace de travail choisi.
+Choisissez l’espace de travail, examinez la demande d’écriture de Claude et approuvez-la si le contenu et la destination sont corrects. Ouvrez ensuite [Nibomo](https://app.nibomo.com/) et vérifiez que la carte enregistrée contient la question au recto et la réponse au verso. La procédure ci-dessus a permis de vérifier la connexion et l’enregistrement des autorisations ; aucune carte n’a été créée lors de cette vérification. Ce premier essai sert à vérifier que Claude peut aussi enregistrer une carte dans l’espace de travail choisi.
 
 Si Claude se contente d’écrire la carte dans la conversation, vérifiez que Nibomo est connecté dans les paramètres, activé pour cette conversation et que **Nibomo SQL execute (write)** n’est pas bloqué. Demandez-lui explicitement d’enregistrer la carte via Nibomo.
 

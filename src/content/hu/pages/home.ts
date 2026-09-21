@@ -19,7 +19,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
       trustLine: "Nincs bankkártya. Nincsenek hirdetések. Nincs lejáró próbaidő.",
       primaryLink: {
         label: "Kezdés",
-        href: "https://app.flashcards-open-source-app.com",
+        href: "https://app.nibomo.com",
       },
       secondaryLink: {
         label: "Megtekintés a GitHubon",

@@ -294,7 +294,7 @@ That is the real value for TEAS prep. You can turn messy prep material into a re
 
 If long-term ownership matters to you, the project is also open source and has a self-hosted path. For most TEAS students, that is secondary. The main win is having card creation, review, and cleanup in one place instead of spread across notes, screenshots, and browser tabs.
 
-If you want the quickest entry point, start with the [hosted web app](https://app.flashcards-open-source-app.com/). If you want the broader product overview first, use the [features page](https://nibomo.com/features).
+If you want the quickest entry point, start with the [hosted web app](https://app.nibomo.com/). If you want the broader product overview first, use the [features page](https://nibomo.com/features).
 
 ## What I would do in the last 10 days before the ATI TEAS
 

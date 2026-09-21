@@ -277,6 +277,6 @@ Certification prep बार-बार आपको ज़रूरत से �
 अगर आप यह workflow आज़माना चाहते हैं:
 
 - [Nibomo खोलें](https://nibomo.com/)
-- [ऐप खोलें](https://app.flashcards-open-source-app.com/)
+- [ऐप खोलें](https://app.nibomo.com/)
 - [features पेज पढ़ें](https://nibomo.com/features/)
 - [GitHub पर स्रोत देखें](https://github.com/kirill-markin/flashcards-open-source-app)

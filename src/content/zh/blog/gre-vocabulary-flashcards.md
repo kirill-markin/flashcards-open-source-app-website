@@ -277,7 +277,7 @@ AI 在这里确实有用，只是不值得无脑放行。
 如果你想在 Nibomo 里试试这套流程：
 
 - [从 Nibomo 开始](https://nibomo.com/zh)
-- [打开 Web 应用](https://app.flashcards-open-source-app.com/)
+- [打开 Web 应用](https://app.nibomo.com/)
 - [阅读入门指南](https://nibomo.com/zh/docs/getting-started)
 - [在 GitHub 上查看源码](https://github.com/kirill-markin/flashcards-open-source-app)
 

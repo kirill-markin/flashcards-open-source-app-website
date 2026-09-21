@@ -20,7 +20,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
         "لا حاجة إلى بطاقة ائتمان. بلا إعلانات. بلا عدّ تنازلي لفترة تجريبية.",
       primaryLink: {
         label: "ابدأ الآن",
-        href: "https://app.flashcards-open-source-app.com",
+        href: "https://app.nibomo.com",
       },
       secondaryLink: {
         label: "عرض على GitHub",

@@ -275,7 +275,7 @@ GRE لا يسأل فقط إن كنت قد رأيت التعريف من قبل. �
 إذا كنت تريد تجربة هذا السير داخل Nibomo:
 
 - [ابدأ مع Nibomo](https://nibomo.com/ar/)
-- [افتح تطبيق الويب](https://app.flashcards-open-source-app.com/)
+- [افتح تطبيق الويب](https://app.nibomo.com/)
 - [اقرأ دليل البدء](https://nibomo.com/ar/docs/getting-started/)
 - [اطّلع على الشفرة المصدرية في GitHub](https://github.com/kirill-markin/flashcards-open-source-app)
 

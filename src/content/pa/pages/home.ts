@@ -19,7 +19,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
       trustLine: "ਕ੍ਰੈਡਿਟ ਕਾਰਡ ਨਹੀਂ ਚਾਹੀਦਾ। ਇਸ਼ਤਿਹਾਰ ਨਹੀਂ। ਟ੍ਰਾਇਲ ਦੀ ਗਿਣਤੀ ਨਹੀਂ।",
       primaryLink: {
         label: "ਸ਼ੁਰੂ ਕਰੋ",
-        href: "https://app.flashcards-open-source-app.com",
+        href: "https://app.nibomo.com",
       },
       secondaryLink: {
         label: "GitHub ਉੱਤੇ ਵੇਖੋ",

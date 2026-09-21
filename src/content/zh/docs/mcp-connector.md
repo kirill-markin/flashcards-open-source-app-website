@@ -125,7 +125,7 @@ Authorization: Bearer fca_ABCDEFGH_0123456789ABCDEFGHJKMNPQRS
 
 这与 REST 智能代理接口所接受的密钥相同，且无需浏览器或 OAuth 往返。
 
-对这两条路径的规范机器可读描述，是位于 `https://api.flashcards-open-source-app.com/v1/`
+对这两条路径的规范机器可读描述，是位于 `https://api.nibomo.com/v1/`
 的发现负载（在 `/v1/agent` 上有镜像）。
 
 ## 安全与作用域

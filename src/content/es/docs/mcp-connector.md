@@ -148,7 +148,7 @@ Esta es la misma clave que acepta la superficie REST del agente, y no necesita
 ningún navegador ni ida y vuelta de OAuth.
 
 La descripción canónica legible por máquina de ambas rutas es la carga útil de
-descubrimiento en `https://api.flashcards-open-source-app.com/v1/` (reflejada en
+descubrimiento en `https://api.nibomo.com/v1/` (reflejada en
 `/v1/agent`).
 
 ## Seguridad y alcance

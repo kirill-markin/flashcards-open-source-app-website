@@ -20,11 +20,11 @@ Apex fallback                   -> <domain>      -> CloudFront redirect -> app.<
 2. O Postgres é a fonte da verdade
 3. O cliente iOS é offline-first, com SQLite local e sincronização
 4. O app web, o app iOS e a superfície de agentes externos compartilham o mesmo modelo de espaço de trabalho
-5. Agentes externos começam em `GET https://api.flashcards-open-source-app.com/v1/`
+5. Agentes externos começam em `GET https://api.nibomo.com/v1/`
 
 ## Clientes suportados
 
-- App web em `app.flashcards-open-source-app.com`
+- App web em `app.nibomo.com`
 - App iOS no repositório principal, com armazenamento local em SQLite
 - App Android no Google Play
 - Clientes de agentes externos por descoberta, bootstrap por OTP e `Authorization: ApiKey`

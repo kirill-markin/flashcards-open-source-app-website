@@ -215,7 +215,7 @@ AIは「作りすぎ」をとても簡単にしてしまいます。
 この流れを試したいなら:
 
 - [Nibomoを試す](https://nibomo.com/)
-- [アプリを開く](https://app.flashcards-open-source-app.com/)
+- [アプリを開く](https://app.nibomo.com/)
 - [機能ページを見る](https://nibomo.com/features/)
 - [GitHubでソースコードを見る](https://github.com/kirill-markin/flashcards-open-source-app)
 

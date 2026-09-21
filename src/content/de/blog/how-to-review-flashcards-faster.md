@@ -284,6 +284,6 @@ Und wenn du 2026 mit KI lernst, ist genau das die eigentliche Fähigkeit. Nicht 
 Wenn du diesen Workflow an einem Ort ausprobieren willst:
 
 - [Nibomo öffnen](https://nibomo.com/)
-- [Die App öffnen](https://app.flashcards-open-source-app.com/)
+- [Die App öffnen](https://app.nibomo.com/)
 - [Die Feature-Seite lesen](https://nibomo.com/features/)
 - [Den Quellcode auf GitHub ansehen](https://github.com/kirill-markin/flashcards-open-source-app)

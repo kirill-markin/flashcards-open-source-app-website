@@ -19,7 +19,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
       trustLine: "Tanpa kartu kredit. Tanpa iklan. Tanpa hitung mundur uji coba.",
       primaryLink: {
         label: "Mulai Sekarang",
-        href: "https://app.flashcards-open-source-app.com",
+        href: "https://app.nibomo.com",
       },
       secondaryLink: {
         label: "Lihat di GitHub",

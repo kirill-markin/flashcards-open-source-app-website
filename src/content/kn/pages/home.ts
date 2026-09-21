@@ -19,7 +19,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
       trustLine: "ಕ್ರೆಡಿಟ್ ಕಾರ್ಡ್ ಬೇಡ. ಜಾಹೀರಾತು ಇಲ್ಲ. ಟ್ರಯಲ್ ಎಣಿಕೆ ಇಲ್ಲ.",
       primaryLink: {
         label: "ಪ್ರಾರಂಭಿಸಿ",
-        href: "https://app.flashcards-open-source-app.com",
+        href: "https://app.nibomo.com",
       },
       secondaryLink: {
         label: "GitHub ನಲ್ಲಿ ನೋಡಿ",

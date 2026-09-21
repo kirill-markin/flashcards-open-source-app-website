@@ -261,6 +261,6 @@ keywords:
 إذا كان هذا هو الأسلوب الذي تريده، فابدأ من هنا:
 
 - [افتح Nibomo](https://nibomo.com/)
-- [افتح التطبيق](https://app.flashcards-open-source-app.com/)
+- [افتح التطبيق](https://app.nibomo.com/)
 - [اقرأ دليل البدء](https://nibomo.com/docs/getting-started/)
 - [اعرض المصدر على GitHub](https://github.com/kirill-markin/flashcards-open-source-app)

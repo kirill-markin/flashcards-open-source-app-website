@@ -13,7 +13,7 @@ keywords:
   - "AI フラッシュカード"
 ---
 
-Nibomoはセルフホストできます。アプリケーションとインフラの全コードがMITライセンスでオープンソースとして公開されています。開発用に各サービスをローカルで動かすことも、リポジトリで文書化された本番スタックをAWSへデプロイすることもできます。インフラを自分で運用したくない場合は、引き続き[ホスト版アプリ](https://app.flashcards-open-source-app.com/)を利用できます。
+Nibomoはセルフホストできます。アプリケーションとインフラの全コードがMITライセンスでオープンソースとして公開されています。開発用に各サービスをローカルで動かすことも、リポジトリで文書化された本番スタックをAWSへデプロイすることもできます。インフラを自分で運用したくない場合は、引き続き[ホスト版アプリ](https://app.nibomo.com/)を利用できます。
 
 ![復習、進捗、AIチャット、カードを表示したオープンソースNibomoアプリのモバイル画面](/home/app-screens-showcase-ja.png)
 
@@ -159,7 +159,7 @@ Nibomoは別の道を選んでいます。FSRS、同期、AIワークフロー�
 
 ## ホスト版を試すか、自分のスタックを動かす
 
-- [ホスト版アプリを開く](https://app.flashcards-open-source-app.com/)
+- [ホスト版アプリを開く](https://app.nibomo.com/)
 - [セルフホスティングガイドを読む](/docs/self-hosting/)
 - [GitHubでソースを見る](https://github.com/kirill-markin/flashcards-open-source-app)
 

@@ -305,6 +305,6 @@ Anki 当前的文档依然提醒：如果一个人已经积压严重，却还不
 如果你想要的是这个，就从这里开始：
 
 - [打开 Nibomo](https://nibomo.com/)
-- [打开应用](https://app.flashcards-open-source-app.com/)
+- [打开应用](https://app.nibomo.com/)
 - [阅读入门指南](https://nibomo.com/docs/getting-started/)
 - [在 GitHub 查看源码](https://github.com/kirill-markin/flashcards-open-source-app)

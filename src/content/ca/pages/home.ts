@@ -19,7 +19,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
       trustLine: "Sense targeta de crèdit. Sense anuncis. Sense compte enrere de prova.",
       primaryLink: {
         label: "Comença ara",
-        href: "https://app.flashcards-open-source-app.com",
+        href: "https://app.nibomo.com",
       },
       secondaryLink: {
         label: "Mira-ho a GitHub",

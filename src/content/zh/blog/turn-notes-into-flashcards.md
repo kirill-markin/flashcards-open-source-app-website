@@ -202,7 +202,7 @@ keywords:
 如果你想找一条真正实用的方式来 **把笔记做成闪卡**，可以从这里开始：
 
 - [打开 Nibomo 网站](https://nibomo.com/)
-- [打开应用](https://app.flashcards-open-source-app.com/)
+- [打开应用](https://app.nibomo.com/)
 - [阅读入门指南](https://nibomo.com/docs/getting-started/)
 - [在 GitHub 上查看源码](https://github.com/kirill-markin/flashcards-open-source-app)
 

@@ -7,7 +7,7 @@ description: Starte mit der gehosteten Web-App, verbinde einen Agenten ueber die
 
 Der schnellste Einstieg ist die gehostete Web-App:
 
-1. Oeffne [app.flashcards-open-source-app.com](https://app.flashcards-open-source-app.com)
+1. Oeffne [app.nibomo.com](https://app.nibomo.com)
 2. Melde dich mit deiner E-Mail ueber passwortloses OTP an
 3. Erstelle Karten, wiederhole faellige Elemente und nutze KI-Chat mit Workspace-Daten und Dateianhaengen
 
@@ -18,7 +18,7 @@ Fuer den gehosteten Weg sind keine Installation und kein Server-Setup noetig.
 Wenn du Claude Code, Codex oder OpenClaw direkt verbinden willst, starte hier:
 
 ```text
-GET https://api.flashcards-open-source-app.com/v1/
+GET https://api.nibomo.com/v1/
 ```
 
 Diese Discovery-Antwort fuehrt den Agenten durch E-Mail-OTP-Login, Erstellung eines langlebigen API-Keys, Account-Laden, Workspace-Bootstrap und die veroeffentlichte SQL-Oberflaeche.
