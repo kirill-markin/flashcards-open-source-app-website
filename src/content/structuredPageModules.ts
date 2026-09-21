@@ -13,18 +13,48 @@ import { PRICING_PAGE_CONTENT as ES_PRICING_PAGE_CONTENT } from "@/content/es/pa
 import { FEATURES_PAGE_CONTENT as FR_FEATURES_PAGE_CONTENT } from "@/content/fr/pages/features";
 import { HOME_PAGE_CONTENT as FR_HOME_PAGE_CONTENT } from "@/content/fr/pages/home";
 import { PRICING_PAGE_CONTENT as FR_PRICING_PAGE_CONTENT } from "@/content/fr/pages/pricing";
+import { FEATURES_PAGE_CONTENT as HE_FEATURES_PAGE_CONTENT } from "@/content/he/pages/features";
+import { HOME_PAGE_CONTENT as HE_HOME_PAGE_CONTENT } from "@/content/he/pages/home";
+import { PRICING_PAGE_CONTENT as HE_PRICING_PAGE_CONTENT } from "@/content/he/pages/pricing";
 import { FEATURES_PAGE_CONTENT as HI_FEATURES_PAGE_CONTENT } from "@/content/hi/pages/features";
 import { HOME_PAGE_CONTENT as HI_HOME_PAGE_CONTENT } from "@/content/hi/pages/home";
 import { PRICING_PAGE_CONTENT as HI_PRICING_PAGE_CONTENT } from "@/content/hi/pages/pricing";
+import { FEATURES_PAGE_CONTENT as ID_FEATURES_PAGE_CONTENT } from "@/content/id/pages/features";
+import { HOME_PAGE_CONTENT as ID_HOME_PAGE_CONTENT } from "@/content/id/pages/home";
+import { PRICING_PAGE_CONTENT as ID_PRICING_PAGE_CONTENT } from "@/content/id/pages/pricing";
+import { FEATURES_PAGE_CONTENT as IT_FEATURES_PAGE_CONTENT } from "@/content/it/pages/features";
+import { HOME_PAGE_CONTENT as IT_HOME_PAGE_CONTENT } from "@/content/it/pages/home";
+import { PRICING_PAGE_CONTENT as IT_PRICING_PAGE_CONTENT } from "@/content/it/pages/pricing";
 import { FEATURES_PAGE_CONTENT as JA_FEATURES_PAGE_CONTENT } from "@/content/ja/pages/features";
 import { HOME_PAGE_CONTENT as JA_HOME_PAGE_CONTENT } from "@/content/ja/pages/home";
 import { PRICING_PAGE_CONTENT as JA_PRICING_PAGE_CONTENT } from "@/content/ja/pages/pricing";
+import { FEATURES_PAGE_CONTENT as KO_FEATURES_PAGE_CONTENT } from "@/content/ko/pages/features";
+import { HOME_PAGE_CONTENT as KO_HOME_PAGE_CONTENT } from "@/content/ko/pages/home";
+import { PRICING_PAGE_CONTENT as KO_PRICING_PAGE_CONTENT } from "@/content/ko/pages/pricing";
+import { FEATURES_PAGE_CONTENT as NL_FEATURES_PAGE_CONTENT } from "@/content/nl/pages/features";
+import { HOME_PAGE_CONTENT as NL_HOME_PAGE_CONTENT } from "@/content/nl/pages/home";
+import { PRICING_PAGE_CONTENT as NL_PRICING_PAGE_CONTENT } from "@/content/nl/pages/pricing";
+import { FEATURES_PAGE_CONTENT as PL_FEATURES_PAGE_CONTENT } from "@/content/pl/pages/features";
+import { HOME_PAGE_CONTENT as PL_HOME_PAGE_CONTENT } from "@/content/pl/pages/home";
+import { PRICING_PAGE_CONTENT as PL_PRICING_PAGE_CONTENT } from "@/content/pl/pages/pricing";
 import { FEATURES_PAGE_CONTENT as PT_FEATURES_PAGE_CONTENT } from "@/content/pt/pages/features";
 import { HOME_PAGE_CONTENT as PT_HOME_PAGE_CONTENT } from "@/content/pt/pages/home";
 import { PRICING_PAGE_CONTENT as PT_PRICING_PAGE_CONTENT } from "@/content/pt/pages/pricing";
 import { FEATURES_PAGE_CONTENT as RU_FEATURES_PAGE_CONTENT } from "@/content/ru/pages/features";
 import { HOME_PAGE_CONTENT as RU_HOME_PAGE_CONTENT } from "@/content/ru/pages/home";
 import { PRICING_PAGE_CONTENT as RU_PRICING_PAGE_CONTENT } from "@/content/ru/pages/pricing";
+import { FEATURES_PAGE_CONTENT as TH_FEATURES_PAGE_CONTENT } from "@/content/th/pages/features";
+import { HOME_PAGE_CONTENT as TH_HOME_PAGE_CONTENT } from "@/content/th/pages/home";
+import { PRICING_PAGE_CONTENT as TH_PRICING_PAGE_CONTENT } from "@/content/th/pages/pricing";
+import { FEATURES_PAGE_CONTENT as TR_FEATURES_PAGE_CONTENT } from "@/content/tr/pages/features";
+import { HOME_PAGE_CONTENT as TR_HOME_PAGE_CONTENT } from "@/content/tr/pages/home";
+import { PRICING_PAGE_CONTENT as TR_PRICING_PAGE_CONTENT } from "@/content/tr/pages/pricing";
+import { FEATURES_PAGE_CONTENT as UK_FEATURES_PAGE_CONTENT } from "@/content/uk/pages/features";
+import { HOME_PAGE_CONTENT as UK_HOME_PAGE_CONTENT } from "@/content/uk/pages/home";
+import { PRICING_PAGE_CONTENT as UK_PRICING_PAGE_CONTENT } from "@/content/uk/pages/pricing";
+import { FEATURES_PAGE_CONTENT as VI_FEATURES_PAGE_CONTENT } from "@/content/vi/pages/features";
+import { HOME_PAGE_CONTENT as VI_HOME_PAGE_CONTENT } from "@/content/vi/pages/home";
+import { PRICING_PAGE_CONTENT as VI_PRICING_PAGE_CONTENT } from "@/content/vi/pages/pricing";
 import { FEATURES_PAGE_CONTENT as ZH_FEATURES_PAGE_CONTENT } from "@/content/zh/pages/features";
 import { HOME_PAGE_CONTENT as ZH_HOME_PAGE_CONTENT } from "@/content/zh/pages/home";
 import { PRICING_PAGE_CONTENT as ZH_PRICING_PAGE_CONTENT } from "@/content/zh/pages/pricing";
@@ -36,16 +66,6 @@ type StructuredMarketingPageSlug = "home" | "features" | "pricing";
 export const STRUCTURED_PAGE_CONTENT_BY_LOCALE: Readonly<
   Record<AppLocale, Readonly<Record<StructuredMarketingPageSlug, PageContent>>>
 > = {
-  en: {
-    home: EN_HOME_PAGE_CONTENT,
-    features: EN_FEATURES_PAGE_CONTENT,
-    pricing: EN_PRICING_PAGE_CONTENT,
-  },
-  es: {
-    home: ES_HOME_PAGE_CONTENT,
-    features: ES_FEATURES_PAGE_CONTENT,
-    pricing: ES_PRICING_PAGE_CONTENT,
-  },
   ar: {
     home: AR_HOME_PAGE_CONTENT,
     features: AR_FEATURES_PAGE_CONTENT,
@@ -56,6 +76,21 @@ export const STRUCTURED_PAGE_CONTENT_BY_LOCALE: Readonly<
     features: DE_FEATURES_PAGE_CONTENT,
     pricing: DE_PRICING_PAGE_CONTENT,
   },
+  en: {
+    home: EN_HOME_PAGE_CONTENT,
+    features: EN_FEATURES_PAGE_CONTENT,
+    pricing: EN_PRICING_PAGE_CONTENT,
+  },
+  es: {
+    home: ES_HOME_PAGE_CONTENT,
+    features: ES_FEATURES_PAGE_CONTENT,
+    pricing: ES_PRICING_PAGE_CONTENT,
+  },
+  fr: {
+    home: FR_HOME_PAGE_CONTENT,
+    features: FR_FEATURES_PAGE_CONTENT,
+    pricing: FR_PRICING_PAGE_CONTENT,
+  },
   hi: {
     home: HI_HOME_PAGE_CONTENT,
     features: HI_FEATURES_PAGE_CONTENT,
@@ -65,11 +100,6 @@ export const STRUCTURED_PAGE_CONTENT_BY_LOCALE: Readonly<
     home: JA_HOME_PAGE_CONTENT,
     features: JA_FEATURES_PAGE_CONTENT,
     pricing: JA_PRICING_PAGE_CONTENT,
-  },
-  fr: {
-    home: FR_HOME_PAGE_CONTENT,
-    features: FR_FEATURES_PAGE_CONTENT,
-    pricing: FR_PRICING_PAGE_CONTENT,
   },
   pt: {
     home: PT_HOME_PAGE_CONTENT,
@@ -85,5 +115,55 @@ export const STRUCTURED_PAGE_CONTENT_BY_LOCALE: Readonly<
     home: ZH_HOME_PAGE_CONTENT,
     features: ZH_FEATURES_PAGE_CONTENT,
     pricing: ZH_PRICING_PAGE_CONTENT,
+  },
+  it: {
+    home: IT_HOME_PAGE_CONTENT,
+    features: IT_FEATURES_PAGE_CONTENT,
+    pricing: IT_PRICING_PAGE_CONTENT,
+  },
+  ko: {
+    home: KO_HOME_PAGE_CONTENT,
+    features: KO_FEATURES_PAGE_CONTENT,
+    pricing: KO_PRICING_PAGE_CONTENT,
+  },
+  id: {
+    home: ID_HOME_PAGE_CONTENT,
+    features: ID_FEATURES_PAGE_CONTENT,
+    pricing: ID_PRICING_PAGE_CONTENT,
+  },
+  tr: {
+    home: TR_HOME_PAGE_CONTENT,
+    features: TR_FEATURES_PAGE_CONTENT,
+    pricing: TR_PRICING_PAGE_CONTENT,
+  },
+  nl: {
+    home: NL_HOME_PAGE_CONTENT,
+    features: NL_FEATURES_PAGE_CONTENT,
+    pricing: NL_PRICING_PAGE_CONTENT,
+  },
+  pl: {
+    home: PL_HOME_PAGE_CONTENT,
+    features: PL_FEATURES_PAGE_CONTENT,
+    pricing: PL_PRICING_PAGE_CONTENT,
+  },
+  vi: {
+    home: VI_HOME_PAGE_CONTENT,
+    features: VI_FEATURES_PAGE_CONTENT,
+    pricing: VI_PRICING_PAGE_CONTENT,
+  },
+  th: {
+    home: TH_HOME_PAGE_CONTENT,
+    features: TH_FEATURES_PAGE_CONTENT,
+    pricing: TH_PRICING_PAGE_CONTENT,
+  },
+  uk: {
+    home: UK_HOME_PAGE_CONTENT,
+    features: UK_FEATURES_PAGE_CONTENT,
+    pricing: UK_PRICING_PAGE_CONTENT,
+  },
+  he: {
+    home: HE_HOME_PAGE_CONTENT,
+    features: HE_FEATURES_PAGE_CONTENT,
+    pricing: HE_PRICING_PAGE_CONTENT,
   },
 } as const;
