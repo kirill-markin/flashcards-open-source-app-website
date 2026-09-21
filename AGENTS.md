@@ -105,3 +105,4 @@ Keep typed content models mirrored with the other marketing website repository. 
 
 - Keep every catalog route localized, including package pages. Locale selects UI language; package content language comes only from `languageTags`, and locale catalog roots expose `?language=<locale>`.
 - Collections are the only curated package grouping; do not add catalog topics.
+- Localization and adding a locale: [docs/localization.md](docs/localization.md).
