@@ -20,6 +20,16 @@ export const SUPPORTED_LOCALES = [
   "th",
   "uk",
   "he",
+  "sv",
+  "da",
+  "nb",
+  "fi",
+  "cs",
+  "el",
+  "ro",
+  "hu",
+  "fa",
+  "ca",
 ] as const;
 export const NON_DEFAULT_LOCALES = [
   "es",
@@ -41,6 +51,16 @@ export const NON_DEFAULT_LOCALES = [
   "th",
   "uk",
   "he",
+  "sv",
+  "da",
+  "nb",
+  "fi",
+  "cs",
+  "el",
+  "ro",
+  "hu",
+  "fa",
+  "ca",
 ] as const;
 
 export type AppLocale = (typeof SUPPORTED_LOCALES)[number];
@@ -174,6 +194,66 @@ const LOCALE_DEFINITIONS: Readonly<Record<AppLocale, LocaleDefinition>> = {
     nativeName: "עברית",
     openGraphLocale: "he_IL",
     shortLabel: "HE",
+  },
+  sv: {
+    direction: "ltr",
+    nativeName: "Svenska",
+    openGraphLocale: "sv_SE",
+    shortLabel: "SV",
+  },
+  da: {
+    direction: "ltr",
+    nativeName: "Dansk",
+    openGraphLocale: "da_DK",
+    shortLabel: "DA",
+  },
+  nb: {
+    direction: "ltr",
+    nativeName: "Norsk bokmål",
+    openGraphLocale: "nb_NO",
+    shortLabel: "NB",
+  },
+  fi: {
+    direction: "ltr",
+    nativeName: "Suomi",
+    openGraphLocale: "fi_FI",
+    shortLabel: "FI",
+  },
+  cs: {
+    direction: "ltr",
+    nativeName: "Čeština",
+    openGraphLocale: "cs_CZ",
+    shortLabel: "CS",
+  },
+  el: {
+    direction: "ltr",
+    nativeName: "Ελληνικά",
+    openGraphLocale: "el_GR",
+    shortLabel: "EL",
+  },
+  ro: {
+    direction: "ltr",
+    nativeName: "Română",
+    openGraphLocale: "ro_RO",
+    shortLabel: "RO",
+  },
+  hu: {
+    direction: "ltr",
+    nativeName: "Magyar",
+    openGraphLocale: "hu_HU",
+    shortLabel: "HU",
+  },
+  fa: {
+    direction: "rtl",
+    nativeName: "فارسی",
+    openGraphLocale: "fa_IR",
+    shortLabel: "FA",
+  },
+  ca: {
+    direction: "ltr",
+    nativeName: "Català",
+    openGraphLocale: "ca_ES",
+    shortLabel: "CA",
   },
 };
 
