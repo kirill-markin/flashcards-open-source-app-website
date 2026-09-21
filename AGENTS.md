@@ -17,6 +17,7 @@ Marketing website for Nibomo. Static Next.js site deployed on Vercel.
 - Keep changes minimal and scoped to the current request.
 - Prefer non-interactive terminal commands.
 - RTL support: use CSS logical properties such as `inset-inline-start`/`end`, `margin-inline-start`/`end`, `padding-inline-start`/`end`, and `text-align: start`/`end`; do not use physical directional properties.
+- Translate "spaced repetition" only where the language has an attested native term for it, and transliterate it where none exists; the phrase sits in the page title and meta description, so it has to match what people in that language actually search for rather than a coined compound nobody types. Of the locales shipped so far, Bengali is the only one that has an attested term and still ships the transliteration.
 - Analytics records facts; funnels, cohorts, and groupings are built by queries over those facts, and no event is created to serve one report.
 
 ## Development
