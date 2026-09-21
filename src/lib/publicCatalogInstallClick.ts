@@ -33,7 +33,6 @@ const CATALOG_INSTALL_EVENT_NAME = "catalog_install_clicked";
 const CATALOG_INSTALL_EVENT_URL =
   "https://api.flashcards-open-source-app.com/v1/analytics/catalog-install-events";
 const CATALOG_APP_HOSTNAME = "app.flashcards-open-source-app.com";
-const INSTALL_JOURNEY_QUERY_PARAMETER = "install_journey_id";
 const UUID_PATTERN =
   /^[0-9a-f]{8}-[0-9a-f]{4}-[1-8][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i;
 const PACKAGE_VERSION_PATH_PATTERN =
@@ -209,7 +208,6 @@ async function warnAboutRejectedCatalogInstallEvent(
 }
 
 function emitCatalogInstallClick(
-  installJourneyId: string,
   packageVersionId: string,
   locale: AppLocale,
   placement: PublicCatalogInstallPlacement,
@@ -223,7 +221,6 @@ function emitCatalogInstallClick(
     uiLocale: locale,
     deviceLocale: navigator.language,
     properties: {
-      install_journey_id: installJourneyId,
       package_version_id: packageVersionId,
       placement,
       source: classifyCatalogInstallSource(
@@ -271,27 +268,18 @@ function getPackageVersionId(installUrl: URL): string {
   return packageVersionId.toLowerCase();
 }
 
-export function activatePublicCatalogInstallJourney(
+export function reportPublicCatalogInstallClick(
   href: string,
   locale: AppLocale,
   placement: PublicCatalogInstallPlacement,
-): string {
+): void {
   if (hasCatalogInstallPrivacySignal()) {
-    return href;
+    return;
   }
 
   try {
-    const installUrl = new URL(href);
-    const packageVersionId = getPackageVersionId(installUrl);
-    const installJourneyId = createUuidV7();
-    installUrl.searchParams.set(INSTALL_JOURNEY_QUERY_PARAMETER, installJourneyId);
-    emitCatalogInstallClick(
-      installJourneyId,
-      packageVersionId,
-      locale,
-      placement,
-    );
-    return installUrl.toString();
+    const packageVersionId = getPackageVersionId(new URL(href));
+    emitCatalogInstallClick(packageVersionId, locale, placement);
   } catch {
     console.warn("catalog_install_analytics_error", {
       code: "CLIENT_SETUP_ERROR",
@@ -299,6 +287,5 @@ export function activatePublicCatalogInstallJourney(
       requestId: null,
       responseStatus: null,
     });
-    return href;
   }
 }

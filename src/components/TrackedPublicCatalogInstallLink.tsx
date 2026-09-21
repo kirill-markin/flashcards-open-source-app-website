@@ -6,7 +6,7 @@ import {
   createPublicCatalogInstallAnalytics,
   type PublicCatalogInstallPlacement,
 } from "@/lib/publicCatalogAnalytics";
-import { activatePublicCatalogInstallJourney } from "@/lib/publicCatalogInstallJourney";
+import { reportPublicCatalogInstallClick } from "@/lib/publicCatalogInstallClick";
 import { trackPublicCatalogEvent } from "@/lib/publicCatalogTracking";
 
 interface TrackedPublicCatalogInstallLinkProps {
@@ -26,35 +26,20 @@ export function TrackedPublicCatalogInstallLink({
   packageId,
   placement,
 }: TrackedPublicCatalogInstallLinkProps): React.JSX.Element {
-  const activateInstall = (
-    event: React.MouseEvent<HTMLAnchorElement>,
-  ): void => {
+  const activateInstall = (): void => {
     trackPublicCatalogEvent(
       "public_catalog_install",
       createPublicCatalogInstallAnalytics(packageId, placement),
     );
 
-    const activatedHref = activatePublicCatalogInstallJourney(
-      href,
-      locale,
-      placement,
-    );
-    if (activatedHref === href) {
-      return;
-    }
-
-    const link = event.currentTarget;
-    link.href = activatedHref;
-    window.setTimeout(() => {
-      link.href = href;
-    }, 0);
+    reportPublicCatalogInstallClick(href, locale, placement);
   };
 
   const activatePrimaryInstall = (
     event: React.MouseEvent<HTMLAnchorElement>,
   ): void => {
     if (event.button === 0) {
-      activateInstall(event);
+      activateInstall();
     }
   };
 
@@ -62,7 +47,7 @@ export function TrackedPublicCatalogInstallLink({
     event: React.MouseEvent<HTMLAnchorElement>,
   ): void => {
     if (event.button === 1) {
-      activateInstall(event);
+      activateInstall();
     }
   };
 
