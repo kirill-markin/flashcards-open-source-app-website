@@ -50,7 +50,15 @@ html {
   background: var(--bg);
 }
 
+/* Room for whichever analytics consent surface is fixed to the bottom edge, so the end of the
+   page - the footer, and the call to action above it - is lifted clear of it rather than left
+   underneath. Both heights are published by the surfaces themselves while they are up, because both
+   wrap and neither has a height a constant could state. */
 body {
+  padding-block-end: calc(
+    var(--analytics-consent-banner-height, 0px) +
+      var(--analytics-consent-withdrawal-height, 0px)
+  );
   background: transparent;
   color: var(--text);
   font-family: var(--ui-font-family);

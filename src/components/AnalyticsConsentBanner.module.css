@@ -1,0 +1,119 @@
+.wrapper {
+  position: fixed;
+  inset-inline: 0;
+  inset-block-end: 0;
+  z-index: 90;
+  padding-inline: 20px;
+  padding-block-end: 20px;
+  pointer-events: none;
+}
+
+.banner {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 14px 18px;
+  inline-size: min(100%, var(--content-width));
+  margin-inline: auto;
+  padding-block: 18px;
+  padding-inline: 22px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  background: var(--surface-glass);
+  box-shadow: var(--shadow-soft);
+  backdrop-filter: var(--blur);
+  pointer-events: auto;
+}
+
+.copy {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 6px 12px;
+}
+
+.message {
+  color: var(--text-secondary);
+  font-size: 15px;
+  line-height: 1.45;
+  text-align: start;
+}
+
+.privacyLink {
+  color: var(--text);
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Both answers on one layer, with the same weight: neither is the easy one. */
+.action {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-block-size: 42px;
+  padding-inline: 18px;
+  border: 1px solid var(--border-strong);
+  border-radius: var(--radius-pill);
+  background: var(--surface-elevated);
+  color: var(--text);
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.2;
+  white-space: nowrap;
+  transition:
+    background 140ms ease,
+    transform 140ms ease;
+}
+
+.action:disabled {
+  cursor: default;
+  opacity: 0.6;
+}
+
+.error {
+  grid-column: 1 / -1;
+  color: var(--warning);
+  font-size: 14px;
+  line-height: 1.45;
+  text-align: start;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .action:hover:not(:disabled) {
+    background: var(--surface-hover);
+    transform: translateY(-1px);
+  }
+}
+
+@media (max-width: 640px) {
+  .wrapper {
+    padding-inline: 12px;
+    padding-block-end: 12px;
+  }
+
+  .banner {
+    grid-template-columns: 1fr;
+    align-items: stretch;
+    gap: 14px;
+    padding-block: 16px;
+    padding-inline: 16px;
+  }
+
+  .actions {
+    justify-content: stretch;
+  }
+
+  .action {
+    flex: 1;
+    white-space: normal;
+  }
+}
