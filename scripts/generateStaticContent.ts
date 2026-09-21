@@ -1,4 +1,6 @@
+import { fork, type ChildProcess } from "child_process";
 import { mkdirSync, renameSync, rmSync, writeFileSync } from "fs";
+import { availableParallelism } from "os";
 import { basename, dirname, join } from "path";
 import QRCode from "qrcode";
 import { APP_STORE_URL, GOOGLE_PLAY_URL } from "../src/lib/humanPlatforms";
@@ -49,13 +51,25 @@ import { getPublicCatalogLanguageRoutePathname } from "../src/lib/publicCatalogU
 import {
   listMarkdownPagePaths,
   renderLlmsText,
-  renderMarkdownDocument,
 } from "../src/lib/markdownServe";
+import type {
+  MarkdownPageRenderJob,
+  MarkdownRenderTask,
+} from "./renderMarkdownAssetsWorker";
 
-interface GeneratedAsset {
+interface MarkdownAssetLocation {
   readonly assetPathname: string;
   readonly canonicalPagePathname?: string;
+}
+
+interface GeneratedAsset extends MarkdownAssetLocation {
   readonly content: string;
+}
+
+interface MarkdownPageAsset {
+  readonly assetPathname: string;
+  readonly canonicalPagePathname: string;
+  readonly pagePath: string;
 }
 
 // Single source of truth for the rendered QR size: qrcode emits width/height attributes
@@ -125,11 +139,15 @@ function getStagingDirectory(): string {
   return join(process.cwd(), "public", "__markdown-staging");
 }
 
+function getStagedAssetFilePath(stagingDirectory: string, assetPathname: string): string {
+  return join(stagingDirectory, basename(assetPathname));
+}
+
 function writeGeneratedAsset(
   stagingDirectory: string,
   asset: GeneratedAsset,
 ): void {
-  const outputFilePath = join(stagingDirectory, basename(asset.assetPathname));
+  const outputFilePath = getStagedAssetFilePath(stagingDirectory, asset.assetPathname);
 
   mkdirSync(dirname(outputFilePath), { recursive: true });
   writeFileSync(outputFilePath, asset.content, "utf-8");
@@ -156,20 +174,10 @@ function writeGeneratedPublicCatalogDump(dump: PublicCatalogDump): void {
   writeFileSync(outputFilePath, serializePublicCatalogDump(dump), "utf-8");
 }
 
-function generateMarkdownAssets(
-  snapshot: GlobalActivitySnapshot,
+function listMarkdownPageAssets(
   publicCatalog: PublicCatalogReadModel | null,
-): ReadonlyArray<GeneratedAsset> {
-  return listMarkdownPagePaths(publicCatalog).map((pagePath): GeneratedAsset => {
-    const result = renderMarkdownDocument(pagePath, {
-      globalActivitySnapshot: snapshot,
-      publicCatalog,
-    });
-
-    if (result.status !== 200) {
-      throw new Error(`Failed to render Markdown asset for page path: ${pagePath}`);
-    }
-
+): ReadonlyArray<MarkdownPageAsset> {
+  return listMarkdownPagePaths(publicCatalog).map((pagePath): MarkdownPageAsset => {
     const canonicalPagePathname = getCanonicalPagePathname(pagePath);
 
     return {
@@ -177,9 +185,97 @@ function generateMarkdownAssets(
         getMarkdownAssetDigest(canonicalPagePathname),
       ),
       canonicalPagePathname,
-      content: result.markdown,
+      pagePath,
     };
   });
+}
+
+function runMarkdownRenderWorker(
+  task: MarkdownRenderTask,
+  runningWorkers: Set<ChildProcess>,
+): Promise<void> {
+  return new Promise((resolve, reject) => {
+    const worker = fork(join(__dirname, "renderMarkdownAssetsWorker.ts"), {
+      serialization: "advanced",
+    });
+    runningWorkers.add(worker);
+
+    worker.once("error", (error) => {
+      runningWorkers.delete(worker);
+      reject(error);
+    });
+    worker.once("exit", (exitCode, signal) => {
+      runningWorkers.delete(worker);
+      if (exitCode === 0) {
+        resolve();
+        return;
+      }
+
+      reject(new Error(
+        `Markdown render worker failed. exitCode=${exitCode}, signal=${signal}, pageCount=${task.pages.length}, firstPagePath=${JSON.stringify(task.pages[0]?.pagePath)}`,
+      ));
+    });
+    worker.send(task, (sendError) => {
+      if (sendError !== null) {
+        worker.kill();
+        reject(sendError);
+      }
+    });
+  });
+}
+
+// Each locale copy of a page repeats the same card work, which the per-process caches
+// share, so a slice of one locale count keeps a package's pages in at most two workers.
+// Dealing slices round-robin spreads the uneven package sizes evenly across workers.
+function dealPagesToWorkers(
+  pages: ReadonlyArray<MarkdownPageRenderJob>,
+  workerCount: number,
+): ReadonlyArray<ReadonlyArray<MarkdownPageRenderJob>> {
+  const pagesByWorker = Array.from(
+    { length: workerCount },
+    (): Array<MarkdownPageRenderJob> => [],
+  );
+
+  pages.forEach((page, pageIndex) => {
+    pagesByWorker[Math.floor(pageIndex / SUPPORTED_LOCALES.length) % workerCount]?.push(page);
+  });
+
+  return pagesByWorker.filter((workerPages) => workerPages.length > 0);
+}
+
+// Rendering is CPU-bound, so it runs in one process per available core. Processes rather
+// than worker threads, because ICU serializes Intl formatter construction across the
+// threads of one process. Each worker writes its own assets instead of sending hundreds
+// of megabytes back.
+async function writeMarkdownPageAssets(
+  pages: ReadonlyArray<MarkdownPageAsset>,
+  snapshot: GlobalActivitySnapshot,
+  catalogDump: PublicCatalogDump | null,
+  stagingDirectory: string,
+): Promise<void> {
+  const renderJobs = pages.map((page): MarkdownPageRenderJob => ({
+    outputFilePath: getStagedAssetFilePath(stagingDirectory, page.assetPathname),
+    pagePath: page.pagePath,
+  }));
+
+  const workerCount = availableParallelism();
+  console.log(`Rendering ${renderJobs.length} markdown page assets in ${workerCount} worker processes.`);
+
+  // One failed worker fails the build, so the rest are stopped rather than left to finish
+  // work that will be thrown away - or, if one never received its task, to hold the build
+  // open until the platform's time limit.
+  const runningWorkers = new Set<ChildProcess>();
+  try {
+    await Promise.all(
+      dealPagesToWorkers(renderJobs, workerCount).map((workerPages) =>
+        runMarkdownRenderWorker({ catalogDump, pages: workerPages, snapshot }, runningWorkers)),
+    );
+  } catch (error) {
+    for (const worker of runningWorkers) {
+      worker.kill();
+    }
+    throw error;
+  }
 }
 
 function generateLlmsAsset(
@@ -224,7 +320,7 @@ function createFacetManifestEntries(
 }
 
 function createMarkdownAssetManifest(
-  assets: ReadonlyArray<GeneratedAsset>,
+  assets: ReadonlyArray<MarkdownAssetLocation>,
   publicCatalog: PublicCatalogReadModel | null,
 ): MarkdownAssetManifest {
   const pagePathnameByAsset = new Map<string, string>();
@@ -273,11 +369,12 @@ async function main(): Promise<void> {
   const publicCatalog = catalogDump === null
     ? null
     : createPublicCatalogReadModel(catalogDump);
-  const assets = [
-    ...generateMarkdownAssets(snapshot, publicCatalog),
-    generateLlmsAsset(snapshot, publicCatalog),
-  ];
-  const manifest = createMarkdownAssetManifest(assets, publicCatalog);
+  const markdownPageAssets = listMarkdownPageAssets(publicCatalog);
+  const llmsAsset = generateLlmsAsset(snapshot, publicCatalog);
+  const manifest = createMarkdownAssetManifest(
+    [...markdownPageAssets, llmsAsset],
+    publicCatalog,
+  );
 
   writeGeneratedGlobalActivitySnapshot(snapshot);
   writeGeneratedStoreQrCodes(storeQrCodes);
@@ -288,7 +385,8 @@ async function main(): Promise<void> {
   }
   rmSync(stagingDirectory, { recursive: true, force: true });
   mkdirSync(stagingDirectory, { recursive: true });
-  assets.forEach((asset) => writeGeneratedAsset(stagingDirectory, asset));
+  await writeMarkdownPageAssets(markdownPageAssets, snapshot, catalogDump, stagingDirectory);
+  writeGeneratedAsset(stagingDirectory, llmsAsset);
   mkdirSync(dirname(manifestFilePath), { recursive: true });
   writeFileSync(
     manifestStagingFilePath,
