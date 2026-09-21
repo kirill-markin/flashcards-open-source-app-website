@@ -263,6 +263,6 @@ image: "/blog/how-to-use-flashcards-for-the-ielts.png"
 إذا أردت تجربة هذا الأسلوب داخل المنتج نفسه:
 
 - [افتح Nibomo](/ar/)
-- [افتح التطبيق](https://app.flashcards-open-source-app.com/)
+- [افتح التطبيق](https://app.nibomo.com/)
 - [اقرأ دليل البدء](/ar/docs/getting-started/)
 - [اعرض الشيفرة المصدرية على GitHub](https://github.com/kirill-markin/flashcards-open-source-app)

@@ -7,7 +7,7 @@ description: होस्टेड वेब ऐप से शुरुआत �
 
 शुरुआत करने का सबसे तेज़ तरीका होस्टेड वेब ऐप है:
 
-1. [app.flashcards-open-source-app.com](https://app.flashcards-open-source-app.com) खोलें
+1. [app.nibomo.com](https://app.nibomo.com) खोलें
 2. अपने ईमेल पर मिलने वाले passwordless OTP से साइन इन करें
 3. कार्ड बनाएँ, देय कार्डों की समीक्षा करें, और अपने कार्यक्षेत्र के डेटा तथा संलग्न फ़ाइलों के साथ AI चैट का उपयोग करें
 
@@ -18,7 +18,7 @@ description: होस्टेड वेब ऐप से शुरुआत �
 अगर आप Claude Code, Codex, या OpenClaw को सीधे जोड़ना चाहते हैं, तो यहाँ से शुरू करें:
 
 ```text
-GET https://api.flashcards-open-source-app.com/v1/
+GET https://api.nibomo.com/v1/
 ```
 
 इस पते से मिलने वाला जवाब एजेंट को email OTP login, लंबे समय तक चलने वाली API key बनाने, खाता लोड करने, workspace तैयार करने, और उपलब्ध SQL surface तक पहुँचने की प्रक्रिया समझाता है।

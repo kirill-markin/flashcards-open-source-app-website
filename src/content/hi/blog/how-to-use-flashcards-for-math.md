@@ -195,6 +195,6 @@ Homework, quiz, या practice set के बाद:
 
 अगर आप इसे व्यवहार में आज़माना चाहते हैं:
 
-- [ऐप खोलें](https://app.flashcards-open-source-app.com/)
+- [ऐप खोलें](https://app.nibomo.com/)
 - [फ़ीचर्स पेज पढ़ें](https://nibomo.com/features/)
 - [शुरुआत करने की गाइड पढ़ें](https://nibomo.com/docs/getting-started/)

@@ -19,9 +19,9 @@ That is exactly the kind of work a tool should handle for you.
 
 In [Nibomo](https://nibomo.com/), we now expose an open-source agent login flow that starts from one discovery URL:
 
-`https://api.flashcards-open-source-app.com/v1/`
+`https://api.nibomo.com/v1/`
 
-That is the canonical entrypoint. The same discovery payload is also available at `https://api.flashcards-open-source-app.com/v1/agent`, but the current contract starts from `/v1/`.
+That is the canonical entrypoint. The same discovery payload is also available at `https://api.nibomo.com/v1/agent`, but the current contract starts from `/v1/`.
 
 Give that URL to Claude Code, Codex, or OpenClaw. The agent can inspect the flow, request the email code, verify it, store the API key, load the account, and continue to workspace setup on its own.
 
@@ -39,7 +39,7 @@ The discovery endpoint returns the service description, the auth model, the firs
 So instead of writing custom onboarding text for every tool, you can just point the agent to the URL and let it follow the returned instructions.
 
 ```text
-GET https://api.flashcards-open-source-app.com/v1/
+GET https://api.nibomo.com/v1/
 ```
 
 At a high level, the agent learns four things immediately:
@@ -69,7 +69,7 @@ This is enough:
 
 ```text
 Use this Nibomo discovery URL:
-https://api.flashcards-open-source-app.com/v1/
+https://api.nibomo.com/v1/
 
 Log in to my Nibomo account, load account context, and select or create the correct workspace.
 Ask me only for the latest 8-digit email code when the flow requires it.
@@ -83,7 +83,7 @@ Same idea, slightly more explicit:
 
 ```text
 Connect my Nibomo account using this URL:
-https://api.flashcards-open-source-app.com/v1/
+https://api.nibomo.com/v1/
 
 Follow the returned instructions, keep the API key secure, load my account, then continue to workspace setup.
 If verification is needed, ask me for the latest 8-digit code from the email.
@@ -94,7 +94,7 @@ If verification is needed, ask me for the latest 8-digit code from the email.
 This is the first request:
 
 ```bash
-curl https://api.flashcards-open-source-app.com/v1/
+curl https://api.nibomo.com/v1/
 ```
 
 And the response is shaped so terminal agents can follow it without guessing:
@@ -140,12 +140,14 @@ And the response is shaped so terminal agents can follow it without guessing:
 }
 ```
 
+Those URLs still name the former `flashcards-open-source-app.com` hosts, which is what the API returns today, here and in the responses below. Both host sets answer the same API, so either one works.
+
 ## Example: send the email code
 
 Once the agent has the user's email, it starts the OTP step:
 
 ```bash
-curl -X POST https://auth.flashcards-open-source-app.com/api/agent/send-code \
+curl -X POST https://auth.nibomo.com/api/agent/send-code \
   -H "Content-Type: application/json" \
   -d '{
     "email": "you@example.com"
@@ -181,7 +183,7 @@ At this point the agent pauses only long enough to ask the user for the latest c
 After the user sends back the email code, the agent can finish the login:
 
 ```bash
-curl -X POST https://auth.flashcards-open-source-app.com/api/agent/verify-code \
+curl -X POST https://auth.nibomo.com/api/agent/verify-code \
   -H "Content-Type: application/json" \
   -d '{
     "code": "12345678",
@@ -230,7 +232,7 @@ export FLASHCARDS_OPEN_SOURCE_API_KEY="fca_ABCDEFGH_0123456789ABCDEFGHJKMNPQRS"
 The next request is a normal authenticated API call:
 
 ```bash
-curl https://api.flashcards-open-source-app.com/v1/agent/me \
+curl https://api.nibomo.com/v1/agent/me \
   -H "Authorization: ApiKey YOUR_API_KEY"
 ```
 
@@ -303,14 +305,14 @@ If you care about open-source API authentication, email OTP login, or agent onbo
 
 If you want to test the flow, give your agent this URL:
 
-`https://api.flashcards-open-source-app.com/v1/`
+`https://api.nibomo.com/v1/`
 
 Then let it handle the rest.
 
 Useful links:
 
 - [Nibomo website](https://nibomo.com/)
-- [Hosted app](https://app.flashcards-open-source-app.com/)
+- [Hosted app](https://app.nibomo.com/)
 - [Getting started](https://nibomo.com/docs/getting-started/)
 - [GitHub repository](https://github.com/kirill-markin/flashcards-open-source-app)
 

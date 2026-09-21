@@ -145,7 +145,7 @@ Nibomo आज़माएँ अगर आप:
 - टर्मिनल और AI टूल से MCP या Agent API एक्सेस चाहते हैं;
 - AWS-आधारित स्वयं होस्टिंग का काम और माइग्रेशन व एक्सपोर्ट की सटीकता में मौजूदा कमियाँ स्वीकार करते हैं।
 
-आप [होस्ट किए गए ऐप](https://app.flashcards-open-source-app.com/) से शुरू कर सकते हैं, [शुरुआती गाइड](/docs/getting-started/) पढ़ सकते हैं या [सोर्स](https://github.com/kirill-markin/flashcards-open-source-app) देख सकते हैं। इनमें से किसी के लिए भी मौजूदा Anki कलेक्शन को स्थानांतरित करना ज़रूरी नहीं है।
+आप [होस्ट किए गए ऐप](https://app.nibomo.com/) से शुरू कर सकते हैं, [शुरुआती गाइड](/docs/getting-started/) पढ़ सकते हैं या [सोर्स](https://github.com/kirill-markin/flashcards-open-source-app) देख सकते हैं। इनमें से किसी के लिए भी मौजूदा Anki कलेक्शन को स्थानांतरित करना ज़रूरी नहीं है।
 
 ## व्यावहारिक जवाब
 

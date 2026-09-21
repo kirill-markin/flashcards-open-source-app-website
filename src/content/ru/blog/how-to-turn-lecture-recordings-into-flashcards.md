@@ -288,7 +288,7 @@ keywords:
 Если вы выстраиваете процесс **транскрипт лекции в карточки**, начните отсюда:
 
 - [Открыть Nibomo](https://nibomo.com/)
-- [Открыть приложение](https://app.flashcards-open-source-app.com/)
+- [Открыть приложение](https://app.nibomo.com/)
 - [Прочитать руководство по self-hosting](https://nibomo.com/docs/self-hosting/)
 - [Посмотреть исходный код на GitHub](https://github.com/kirill-markin/flashcards-open-source-app)
 

@@ -176,7 +176,7 @@ Auch das eigene `flashcards.zip`-Paket von Nibomo sichert weniger als ein vollst
 
 Der gehostete Kern ist [während der Beta kostenlos](/pricing/). Das Selbsthosting des Produktiv-Stacks ist keine Docker-Installation mit einem einzigen Befehl: Der [Self-Hosting-Leitfaden](/docs/self-hosting/) verwendet AWS CDK und erfordert AWS-Dienste sowie Cloudflare, Resend, Sentry, Secrets, Migrationen, Backups, Wiederherstellungen und Upgrades. Docker Compose ist für die Entwicklung gedacht, nicht als unterstütztes Produktiv-Deployment.
 
-Nutze Nibomo, wenn der vollständige Zugriff auf den Quellcode und ein vom Betreiber kontrolliertes Backend der Grund für den Wechsel sind und deine Karten einfach genug für einen sicheren Neuaufbau sind. [Öffne die gehostete App](https://app.flashcards-open-source-app.com/), um ein kleines temporäres Deck auszuprobieren. Bleib bei Anki – oder teste RemNote, Mochi oder Mnemosyne –, wenn die originalgetreue Übernahme des Lernstatus Vorrang hat.
+Nutze Nibomo, wenn der vollständige Zugriff auf den Quellcode und ein vom Betreiber kontrolliertes Backend der Grund für den Wechsel sind und deine Karten einfach genug für einen sicheren Neuaufbau sind. [Öffne die gehostete App](https://app.nibomo.com/), um ein kleines temporäres Deck auszuprobieren. Bleib bei Anki – oder teste RemNote, Mochi oder Mnemosyne –, wenn die originalgetreue Übernahme des Lernstatus Vorrang hat.
 
 ## Welche Anki-Alternative funktioniert unter iOS ohne böse Überraschungen bei der Migration?
 

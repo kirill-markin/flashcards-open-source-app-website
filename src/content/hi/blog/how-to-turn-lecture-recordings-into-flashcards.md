@@ -288,7 +288,7 @@ keywords:
 अगर आप **लेक्चर ट्रांसक्रिप्ट से फ़्लैशकार्ड्स** का तरीका बना रहे हैं, तो यहाँ से शुरू करें:
 
 - [Nibomo खोलें](https://nibomo.com/)
-- [ऐप खोलें](https://app.flashcards-open-source-app.com/)
+- [ऐप खोलें](https://app.nibomo.com/)
 - [स्वयं-होस्टिंग मार्गदर्शिका पढ़ें](https://nibomo.com/docs/self-hosting/)
 - [GitHub पर स्रोत कोड देखें](https://github.com/kirill-markin/flashcards-open-source-app)
 

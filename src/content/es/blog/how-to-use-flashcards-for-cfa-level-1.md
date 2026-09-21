@@ -292,7 +292,7 @@ Usa materiales oficiales y preguntas de práctica para encontrar los puntos déb
 Si eso es lo que quieres, empieza aquí:
 
 - [Abrir Nibomo](https://nibomo.com/)
-- [Abrir la app](https://app.flashcards-open-source-app.com/)
+- [Abrir la app](https://app.nibomo.com/)
 - [Leer la guía de primeros pasos](https://nibomo.com/docs/getting-started/)
 - [Ver el código fuente en GitHub](https://github.com/kirill-markin/flashcards-open-source-app)
 

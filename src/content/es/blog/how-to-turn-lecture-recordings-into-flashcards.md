@@ -293,7 +293,7 @@ Esa es la versión de **cómo convertir grabaciones de conferencias en tarjetas 
 Si está creando un flujo de trabajo de **transcripción de una conferencia en tarjetas didácticas**, comience aquí:
 
 - [Abrir tarjetas didácticas](https://nibomo.com/)
-- [Abre la aplicación](https://app.flashcards-open-source-app.com/)
+- [Abre la aplicación](https://app.nibomo.com/)
 - [Lea la guía de autohospedaje](https://nibomo.com/docs/self-hosting/)
 - [Ver la fuente en GitHub](https://github.com/kirill-markin/flashcards-open-source-app)
 

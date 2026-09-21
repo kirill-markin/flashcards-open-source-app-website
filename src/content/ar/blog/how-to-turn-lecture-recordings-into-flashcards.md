@@ -288,7 +288,7 @@ keywords:
 إذا كنت تبني مسار **النص المفرغ من المحاضرة إلى بطاقات**، فابدأ من هنا:
 
 - [تعرّف إلى Nibomo](https://nibomo.com/)
-- [افتح التطبيق](https://app.flashcards-open-source-app.com/)
+- [افتح التطبيق](https://app.nibomo.com/)
 - [اقرأ دليل الاستضافة الذاتية](https://nibomo.com/docs/self-hosting/)
 - [اطّلع على الشيفرة المصدرية على GitHub](https://github.com/kirill-markin/flashcards-open-source-app)
 

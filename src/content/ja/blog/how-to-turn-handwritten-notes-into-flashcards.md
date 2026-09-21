@@ -215,7 +215,7 @@ PDF は、たいていもっと整っています。
 それが欲しいなら、ここから始めてください。
 
 - [Nibomo を開く](https://nibomo.com/)
-- [アプリを開く](https://app.flashcards-open-source-app.com/)
+- [アプリを開く](https://app.nibomo.com/)
 - [使い始めガイドを読む](https://nibomo.com/docs/getting-started/)
 - [GitHub でソースコードを見る](https://github.com/kirill-markin/flashcards-open-source-app)
 

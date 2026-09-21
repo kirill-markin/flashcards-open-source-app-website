@@ -19,7 +19,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
       trustLine: "Inget kreditkort. Inga annonser. Ingen provperiod som tickar ner.",
       primaryLink: {
         label: "Kom igång",
-        href: "https://app.flashcards-open-source-app.com",
+        href: "https://app.nibomo.com",
       },
       secondaryLink: {
         label: "Visa på GitHub",

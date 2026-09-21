@@ -145,7 +145,7 @@ Try Nibomo if you:
 - want MCP or Agent API access from terminal and AI tools;
 - accept AWS-based self-hosting work and the current gaps in migration and export fidelity.
 
-You can start with the [hosted app](https://app.flashcards-open-source-app.com/), read [getting started](/docs/getting-started/), or inspect the [source](https://github.com/kirill-markin/flashcards-open-source-app). None of those requires moving an existing Anki collection.
+You can start with the [hosted app](https://app.nibomo.com/), read [getting started](/docs/getting-started/), or inspect the [source](https://github.com/kirill-markin/flashcards-open-source-app). None of those requires moving an existing Anki collection.
 
 ## The practical answer
 

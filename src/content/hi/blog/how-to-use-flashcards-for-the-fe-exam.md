@@ -360,6 +360,6 @@ Equation जल्दी याद आए। Unit mismatch पहले पक�
 
 अगर आप इस workflow को practice में आज़माना चाहते हैं:
 
-- [App खोलें](https://app.flashcards-open-source-app.com/)
+- [App खोलें](https://app.nibomo.com/)
 - [Features page पढ़ें](/hi/features/)
 - [Getting Started guide पढ़ें](/hi/docs/getting-started/)

@@ -4,12 +4,11 @@ export const SITE_NAME = "Nibomo";
  * The product hosts, under this site's own registrable domain. The single place the site names any
  * of them, so the cutover to `nibomo.com` is one edit rather than one per caller.
  *
- * Analytics is the one caller for which the domain is load-bearing rather than cosmetic. The shared
- * `analytics_visitor` cookie is scoped to the backend's single `COOKIE_DOMAIN`, stated once in
- * AGENTS.md under "Auth Integration" and today still the former product domain. A browser drops a
- * `Set-Cookie` naming a domain the responding host is not under, so this site shares no visitor with
- * the app yet; it starts sharing one only once the app repository scopes that cookie to the domain
- * the request arrived on and puts this origin on the backend's browser origin allowlist.
+ * Analytics is the one caller for which the domain is load-bearing rather than cosmetic. The backend
+ * scopes each cookie to the domain of the host the request arrived on, stated once in AGENTS.md
+ * under "Auth Integration", so the `analytics_visitor` cookie written by `PRODUCT_API_ORIGIN` is
+ * readable here and this site shares a visitor with the app. That is also why an identity may be
+ * requested only from that host: a call to the legacy API host is cross-site from here and refused.
  */
 export const PRODUCT_API_ORIGIN = "https://api.nibomo.com";
 export const PRODUCT_APP_ORIGIN = "https://app.nibomo.com";

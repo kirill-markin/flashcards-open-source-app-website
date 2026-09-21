@@ -20,7 +20,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
         "क्रेडिट कार्ड की ज़रूरत नहीं। कोई विज्ञापन नहीं। ट्रायल की कोई उलटी गिनती नहीं।",
       primaryLink: {
         label: "शुरू करें",
-        href: "https://app.flashcards-open-source-app.com",
+        href: "https://app.nibomo.com",
       },
       secondaryLink: {
         label: "GitHub पर देखें",

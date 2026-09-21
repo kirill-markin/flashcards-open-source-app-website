@@ -215,7 +215,7 @@ Si quieres un producto que encaje con ese flujo, [Nibomo](https://nibomo.com/) e
 Si quieres probar este flujo:
 
 - [Abrir Nibomo](https://nibomo.com/)
-- [Abrir la app](https://app.flashcards-open-source-app.com/)
+- [Abrir la app](https://app.nibomo.com/)
 - [Leer la página de funcionalidades](https://nibomo.com/features/)
 - [Ver el código fuente en GitHub](https://github.com/kirill-markin/flashcards-open-source-app)
 

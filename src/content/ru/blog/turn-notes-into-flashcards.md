@@ -200,7 +200,7 @@ keywords:
 Если вам нужен практичный способ **превращать заметки в карточки**, начните здесь:
 
 - [Открыть сайт Nibomo](https://nibomo.com/)
-- [Открыть приложение](https://app.flashcards-open-source-app.com/)
+- [Открыть приложение](https://app.nibomo.com/)
 - [Начало работы](https://nibomo.com/docs/getting-started/)
 - [Исходный код на GitHub](https://github.com/kirill-markin/flashcards-open-source-app)
 

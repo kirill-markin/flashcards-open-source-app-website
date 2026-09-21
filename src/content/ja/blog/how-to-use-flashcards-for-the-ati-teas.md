@@ -286,7 +286,7 @@ TEAS 対策では、元の材料がすぐ散らかります。解説のコピー
 
 長期的に自分で管理したいなら、このプロジェクトはオープンソースで、セルフホストの道もあります。ただ、多くの TEAS 受験者にとってはそこは二次的です。いちばん大きい利点は、カード作成、復習、整理が、ノートやスクリーンショットやブラウザのタブに分散せず、1か所で回ることです。
 
-一番早く始めるなら、[hosted web app](https://app.flashcards-open-source-app.com/) から入るのが近道です。先に製品全体を見たいなら、[features page](https://nibomo.com/features) を見てください。
+一番早く始めるなら、[hosted web app](https://app.nibomo.com/) から入るのが近道です。先に製品全体を見たいなら、[features page](https://nibomo.com/features) を見てください。
 
 ## ATI TEAS 前の最後の10日で私がやること
 

@@ -151,7 +151,7 @@ Das ist derselbe Key, den die REST-Agent-Oberflaeche akzeptiert, und er benoetig
 weder einen Browser noch einen OAuth-Roundtrip.
 
 Die kanonische maschinenlesbare Beschreibung beider Wege ist die
-Discovery-Nutzlast unter `https://api.flashcards-open-source-app.com/v1/`
+Discovery-Nutzlast unter `https://api.nibomo.com/v1/`
 (gespiegelt unter `/v1/agent`).
 
 ## Sicherheit und Geltungsbereich

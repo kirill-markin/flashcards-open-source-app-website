@@ -85,7 +85,7 @@ Der sichere Weg ist ein Karteikartensystem, das ausdrücklich dokumentiert, wie 
 
 Nibomo veröffentlicht zwei Zugangswege zu derselben begrenzten Schnittstelle für die Daten des jeweiligen Nutzers:
 
-- Die [externe Agent API](/docs/api/) beginnt bei `GET https://api.flashcards-open-source-app.com/v1/`. Ihre Discovery-Antwort führt einen Agenten durch die Anmeldung per E-Mail-OTP, das Erstellen eines API-Keys und die Auswahl eines Arbeitsbereichs. Für Lesezugriffe gibt es eine SQL-ähnliche Abfrageroute, für Schreibzugriffe eine separate Ausführungsroute.
+- Die [externe Agent API](/docs/api/) beginnt bei `GET https://api.nibomo.com/v1/`. Ihre Discovery-Antwort führt einen Agenten durch die Anmeldung per E-Mail-OTP, das Erstellen eines API-Keys und die Auswahl eines Arbeitsbereichs. Für Lesezugriffe gibt es eine SQL-ähnliche Abfrageroute, für Schreibzugriffe eine separate Ausführungsroute.
 - Der [Remote-MCP-Server](/docs/mcp-connector/) ist unter `https://mcp.nibomo.com/mcp` verfügbar. MCP-Clients erhalten sieben Tools: `list_workspaces`, `sql_query`, `sql_execute`, `get_guide` sowie die Wiederholungs-Tools `next_review_card`, `reveal_answer` und `submit_review`.
 
 Beide Zugangswege sind auf einen Arbeitsbereich begrenzt. Die veröffentlichten Ressourcen sind `workspace`, `cards`, `decks` und `review_events`. Die Ergebnisse sind pro SQL-Anweisung auf 100 Zeilen begrenzt. Die SQL-ähnliche Schnittstelle ist ein eingeschränkter Dialekt und kein direkter PostgreSQL-Zugriff. Es gibt kein OpenAPI-Schema. Arbeitsabläufe, die auf generierte OpenAPI-Clients angewiesen sind, benötigen daher eine andere Schnittstelle.

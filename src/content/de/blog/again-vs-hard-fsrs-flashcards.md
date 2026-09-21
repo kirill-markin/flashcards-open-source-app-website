@@ -200,7 +200,7 @@ Nutze dabei dieselbe Regel in zwei Schritten:
 
 Die App speichert die Bewertung, die du sendest. Den Vergleich mit der gespeicherten Rückseite und die Entscheidung für den passenden Button übernimmst du selbst. Genau deshalb sind eine klare Karte und eine stabile Bewertungsgewohnheit wichtig.
 
-Wenn du den Wiederholungsablauf ausprobieren möchtest, [öffne die App](https://app.flashcards-open-source-app.com/). Sie stellt die vier Bewertungen und das FSRS-Scheduling bereit; ehrlich bewerten musst du weiterhin selbst.
+Wenn du den Wiederholungsablauf ausprobieren möchtest, [öffne die App](https://app.nibomo.com/). Sie stellt die vier Bewertungen und das FSRS-Scheduling bereit; ehrlich bewerten musst du weiterhin selbst.
 
 ## FAQ zu Again, Hard, Good und Easy
 

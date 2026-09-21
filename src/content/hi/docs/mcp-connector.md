@@ -134,7 +134,7 @@ Authorization: Bearer fca_ABCDEFGH_0123456789ABCDEFGHJKMNPQRS
 OAuth राउंड-ट्रिप की जरूरत नहीं होती।
 
 दोनों पथों का प्रामाणिक मशीन-पठनीय विवरण
-`https://api.flashcards-open-source-app.com/v1/` पर discovery payload है (`/v1/agent` पर भी मिरर किया गया)।
+`https://api.nibomo.com/v1/` पर discovery payload है (`/v1/agent` पर भी मिरर किया गया)।
 
 ## सुरक्षा और दायरा
 

@@ -90,7 +90,7 @@ Authorization: Bearer fca_ABCDEFGH_0123456789ABCDEFGHJKMNPQRS
 
 これは REST エージェントサーフェスが受け付けるものと同じキーであり、ブラウザや OAuth のラウンドトリップは不要です。
 
-両方のパスについて、正規かつ機械可読な記述は `https://api.flashcards-open-source-app.com/v1/`（`/v1/agent` にもミラーされています）のディスカバリーペイロードです。
+両方のパスについて、正規かつ機械可読な記述は `https://api.nibomo.com/v1/`（`/v1/agent` にもミラーされています）のディスカバリーペイロードです。
 
 ## 安全性と範囲
 

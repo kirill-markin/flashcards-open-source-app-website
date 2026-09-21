@@ -12,7 +12,7 @@ description: 外部エージェント向けAPIのディスカバリー、OTP認�
 最初に参照する正規のディスカバリー用エントリポイントは次のとおりです。
 
 ```text
-GET https://api.flashcards-open-source-app.com/v1/
+GET https://api.nibomo.com/v1/
 ```
 
 同じ内容のディスカバリーレスポンスは `GET /v1/agent` からも取得できますが、主要な公開エントリポイントは `/v1/` です。
@@ -30,19 +30,19 @@ GET https://api.flashcards-open-source-app.com/v1/
 
 OpenAPI は利用できません。次の 4 つの旧仕様 URL は、スキーマではなく `"openapiAvailable": false` を含む同じ JSON ディスカバリ通知を返すようになりました。
 
-- `https://api.flashcards-open-source-app.com/v1/agent/openapi.json`
-- `https://api.flashcards-open-source-app.com/v1/agent/swagger.json`
-- `https://api.flashcards-open-source-app.com/v1/openapi.json`
-- `https://api.flashcards-open-source-app.com/v1/swagger.json`
+- `https://api.nibomo.com/v1/agent/openapi.json`
+- `https://api.nibomo.com/v1/agent/swagger.json`
+- `https://api.nibomo.com/v1/openapi.json`
+- `https://api.nibomo.com/v1/swagger.json`
 
-現在のランタイムディスカバリには `GET https://api.flashcards-open-source-app.com/v1/` を使用してください。返された `docs.discoveryUrl` でランタイムルートを確認し、`docs.source.agentRoutesUrl` で実装の詳細を確認してください。
+現在のランタイムディスカバリには `GET https://api.nibomo.com/v1/` を使用してください。返された `docs.discoveryUrl` でランタイムルートを確認し、`docs.source.agentRoutesUrl` で実装の詳細を確認してください。
 
 ## 認証の開始手順
 
 OTP を使った認証開始フローは auth サービスで実行します。
 
-- `POST https://auth.flashcards-open-source-app.com/api/agent/send-code`
-- `POST https://auth.flashcards-open-source-app.com/api/agent/verify-code`
+- `POST https://auth.nibomo.com/api/agent/send-code`
+- `POST https://auth.nibomo.com/api/agent/verify-code`
 
 手順は次のとおりです。
 
@@ -68,17 +68,17 @@ Authorization: ApiKey <key>
 認証開始フローの例:
 
 ```bash
-curl https://api.flashcards-open-source-app.com/v1/
+curl https://api.nibomo.com/v1/
 ```
 
 ```bash
-curl -X POST https://auth.flashcards-open-source-app.com/api/agent/send-code \
+curl -X POST https://auth.nibomo.com/api/agent/send-code \
   -H "Content-Type: application/json" \
   -d '{"email":"you@example.com"}'
 ```
 
 ```bash
-curl -X POST https://auth.flashcards-open-source-app.com/api/agent/verify-code \
+curl -X POST https://auth.nibomo.com/api/agent/verify-code \
   -H "Content-Type: application/json" \
   -d '{
     "code":"12345678",
@@ -149,7 +149,7 @@ SQL ルートと復習ルートは、JSON ボディ内のオプションの `wor
 リクエスト例:
 
 ```bash
-curl -X POST https://api.flashcards-open-source-app.com/v1/agent/sql/query \
+curl -X POST https://api.nibomo.com/v1/agent/sql/query \
   -H "Content-Type: application/json" \
   -H "Authorization: ApiKey $FLASHCARDS_OPEN_SOURCE_API_KEY" \
   -d '{"sql":"SHOW TABLES"}'
@@ -158,7 +158,7 @@ curl -X POST https://api.flashcards-open-source-app.com/v1/agent/sql/query \
 カード取得の例:
 
 ```bash
-curl -X POST https://api.flashcards-open-source-app.com/v1/agent/sql/query \
+curl -X POST https://api.nibomo.com/v1/agent/sql/query \
   -H "Content-Type: application/json" \
   -H "Authorization: ApiKey $FLASHCARDS_OPEN_SOURCE_API_KEY" \
   -d '{
@@ -169,7 +169,7 @@ curl -X POST https://api.flashcards-open-source-app.com/v1/agent/sql/query \
 更新の例:
 
 ```bash
-curl -X POST https://api.flashcards-open-source-app.com/v1/agent/sql/execute \
+curl -X POST https://api.nibomo.com/v1/agent/sql/execute \
   -H "Content-Type: application/json" \
   -H "Authorization: ApiKey $FLASHCARDS_OPEN_SOURCE_API_KEY" \
   -d '{
@@ -202,7 +202,7 @@ SQL サーフェスは生の PostgreSQL ではなく、パーサーで強制さ�
 未知のトピックを指定すると、サポートされているトピックの一覧とともに `400` が返されます。カードを作成する前、一括で書き込む前、または復習を実行する前には対応するガイドを取得し、文が拒否された後は `sql_dialect` を読み直してください。
 
 ```bash
-curl https://api.flashcards-open-source-app.com/v1/agent/guide/sql_dialect \
+curl https://api.nibomo.com/v1/agent/guide/sql_dialect \
   -H "Authorization: ApiKey $FLASHCARDS_OPEN_SOURCE_API_KEY"
 ```
 
@@ -224,7 +224,7 @@ curl https://api.flashcards-open-source-app.com/v1/agent/guide/sql_dialect \
 送信の例:
 
 ```bash
-curl -X POST https://api.flashcards-open-source-app.com/v1/agent/reviews/submit \
+curl -X POST https://api.nibomo.com/v1/agent/reviews/submit \
   -H "Content-Type: application/json" \
   -H "Authorization: ApiKey $FLASHCARDS_OPEN_SOURCE_API_KEY" \
   -d '{

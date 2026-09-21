@@ -27,7 +27,7 @@ export const PRICING_PAGE_CONTENT: PageContent = {
           ],
           cta: {
             label: "Käytä isännöityä sovellusta ilmaiseksi",
-            href: "https://app.flashcards-open-source-app.com",
+            href: "https://app.nibomo.com",
           },
         },
         {

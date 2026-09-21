@@ -9,7 +9,7 @@ description: >-
 
 O jeito mais rápido de começar é o app web hospedado:
 
-1. Abra [app.flashcards-open-source-app.com](https://app.flashcards-open-source-app.com)
+1. Abra [app.nibomo.com](https://app.nibomo.com)
 2. Entre com seu e-mail usando OTP sem senha
 3. Crie cartões, revise os itens pendentes e use o chat de IA com dados do espaço de trabalho e arquivos anexados
 
@@ -20,7 +20,7 @@ Nenhuma instalação ou configuração de servidor é necessária no caminho hos
 Se você quiser conectar o Claude Code, o Codex ou o OpenClaw diretamente, comece por:
 
 ```text
-GET https://api.flashcards-open-source-app.com/v1/
+GET https://api.nibomo.com/v1/
 ```
 
 Essa resposta de descoberta conduz o agente pelo login por OTP no e-mail, pela criação da chave de API de longa duração, pelo carregamento da conta, pela preparação do espaço de trabalho e pela superfície SQL publicada.

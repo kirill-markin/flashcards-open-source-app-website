@@ -245,7 +245,7 @@ keywords:
 إذا أردت تجربة هذا السير داخل Nibomo:
 
 - [ابدأ مع Nibomo](https://nibomo.com/)
-- [افتح تطبيق الويب](https://app.flashcards-open-source-app.com/)
+- [افتح تطبيق الويب](https://app.nibomo.com/)
 - [اقرأ دليل البدء](https://nibomo.com/docs/getting-started/)
 - [اطّلع على الشيفرة المصدرية على GitHub](https://github.com/kirill-markin/flashcards-open-source-app)
 

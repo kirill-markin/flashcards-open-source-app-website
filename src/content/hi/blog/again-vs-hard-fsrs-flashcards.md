@@ -200,7 +200,7 @@ FSRS आपके दिए संकेत के आधार पर schedule 
 
 ऐप आपकी चुनी rating दर्ज करता है। कार्ड के पीछे लिखे जवाब से अपना जवाब मिलाकर सही rating आपको ही तय करनी है। इस इंसानी फैसले के कारण साफ़ कार्ड और rating देने की स्थिर आदत मायने रखती है।
 
-अगर review का तरीका आज़माना चाहते हैं, तो [ऐप खोलिए](https://app.flashcards-open-source-app.com/)। इसमें चारों ratings और FSRS scheduling मिलती है। ईमानदार rating देना अब भी आपकी ज़िम्मेदारी है।
+अगर review का तरीका आज़माना चाहते हैं, तो [ऐप खोलिए](https://app.nibomo.com/)। इसमें चारों ratings और FSRS scheduling मिलती है। ईमानदार rating देना अब भी आपकी ज़िम्मेदारी है।
 
 ## Again, Hard, Good और Easy के बारे में FAQ
 

@@ -27,7 +27,7 @@ export const PRICING_PAGE_CONTENT: PageContent = {
           ],
           cta: {
             label: "میزبان ایپ مفت استعمال کریں",
-            href: "https://app.flashcards-open-source-app.com",
+            href: "https://app.nibomo.com",
           },
         },
         {

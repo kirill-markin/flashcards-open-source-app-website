@@ -195,6 +195,6 @@ Eso basta para que **cómo usar flashcards para matemáticas** se convierta en u
 
 Si quieres probarlo en la práctica:
 
-- [Abrir la app](https://app.flashcards-open-source-app.com/)
+- [Abrir la app](https://app.nibomo.com/)
 - [Ver la página de funciones](https://nibomo.com/features/)
 - [Leer la guía de inicio](https://nibomo.com/docs/getting-started/)

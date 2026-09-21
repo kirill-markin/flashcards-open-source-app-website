@@ -215,7 +215,7 @@ keywords:
 Если хотите попробовать такой сценарий:
 
 - [Открыть Nibomo](https://nibomo.com/)
-- [Открыть приложение](https://app.flashcards-open-source-app.com/)
+- [Открыть приложение](https://app.nibomo.com/)
 - [Посмотреть страницу возможностей](https://nibomo.com/features/)
 - [Открыть исходный код на GitHub](https://github.com/kirill-markin/flashcards-open-source-app)
 

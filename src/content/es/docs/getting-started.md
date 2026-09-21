@@ -8,7 +8,7 @@ description: >-
 
 La forma más rápida de comenzar es la aplicación web alojada:
 
-1. Abra [app.flashcards-open-source-app.com](https://app.flashcards-open-source-app.com)
+1. Abra [app.nibomo.com](https://app.nibomo.com)
 2. Inicie sesión con su correo electrónico utilizando OTP sin contraseña
 3. Cree tarjetas, revise los elementos pendientes y utilice el chat de IA con datos del espacio de trabajo y archivos adjuntos.
 
@@ -19,7 +19,7 @@ No se requiere instalación ni configuración del servidor para la ruta alojada.
 Si desea que Claude Code, Codex u OpenClaw se conecten directamente, comience desde:
 
 ```text
-GET https://api.flashcards-open-source-app.com/v1/
+GET https://api.nibomo.com/v1/
 ```
 
 Esa respuesta de descubrimiento guía al agente a través del inicio de sesión OTP por correo electrónico, la creación de claves API de larga duración, la carga de cuentas, el arranque del espacio de trabajo y la superficie SQL publicada.

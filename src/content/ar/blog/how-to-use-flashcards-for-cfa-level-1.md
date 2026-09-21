@@ -292,7 +292,7 @@ FSRS مفيد لأنه يترك البطاقات الأسهل تبتعد أكث�
 إذا كان هذا ما تريده، فابدأ هنا:
 
 - [افتح Nibomo](https://nibomo.com/)
-- [افتح التطبيق](https://app.flashcards-open-source-app.com/)
+- [افتح التطبيق](https://app.nibomo.com/)
 - [اقرأ دليل البدء](https://nibomo.com/docs/getting-started/)
 - [اعرض المصدر على GitHub](https://github.com/kirill-markin/flashcards-open-source-app)
 

@@ -146,7 +146,7 @@ In Nibomo, decks are saved filters. Putting a card under a different deck may me
 
 The MCP connector can read allowed review history in `review_events` and FSRS state and scheduling fields. Its SQL write tool cannot create review events, submit an Again, Hard, Good, or Easy rating, or change the FSRS state or schedule. The connector can record a rating only through its separate `submit_review` tool, so you can do a review in the app or let Codex run it.
 
-Open the [Nibomo web app](https://app.flashcards-open-source-app.com/) or a mobile client when the cards are due. Recall the answer, reveal the back, and choose your rating there. Nibomo records the review, and FSRS decides when the card should return.
+Open the [Nibomo web app](https://app.nibomo.com/) or a mobile client when the cards are due. Recall the answer, reveal the back, and choose your rating there. Nibomo records the review, and FSRS decides when the card should return.
 
 Codex can also quiz you informally from card data you authorize. Treat that as extra practice: a quiz on its own records no review and leaves your schedule alone. When you want an official review, ask Codex to run one with the review tools. It calls `next_review_card` to show only the front, `reveal_answer` to show the back after you answer, and `submit_review` to record the rating so FSRS can reschedule the card. Codex grades your answer unless you ask to choose each rating yourself. The [AI flashcard tutor guide](/blog/ai-flashcard-tutor-due-cards/) walks through that review loop in more detail.
 

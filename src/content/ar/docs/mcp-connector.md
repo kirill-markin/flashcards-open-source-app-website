@@ -134,7 +134,7 @@ Authorization: Bearer fca_ABCDEFGH_0123456789ABCDEFGHJKMNPQRS
 جولة OAuth.
 
 الوصف القانوني القابل للقراءة آليًا لكلا المسارين هو حمولة الاكتشاف
-على `https://api.flashcards-open-source-app.com/v1/` (المنعكسة على `/v1/agent`).
+على `https://api.nibomo.com/v1/` (المنعكسة على `/v1/agent`).
 
 ## الأمان والنطاق
 

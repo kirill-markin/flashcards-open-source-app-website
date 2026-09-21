@@ -14,7 +14,7 @@ HTTP 发现、SQL、指南和复习约定。
 请从标准发现入口开始：
 
 ```text
-GET https://api.flashcards-open-source-app.com/v1/
+GET https://api.nibomo.com/v1/
 ```
 
 同一份发现响应也可以通过 `GET /v1/agent` 获取，但 `/v1/` 才是首选的公开入口。
@@ -32,19 +32,19 @@ GET https://api.flashcards-open-source-app.com/v1/
 
 OpenAPI 已不可用。以下四个旧规范 URL 现在不会返回架构，而是返回同一份包含 `"openapiAvailable": false` 的 JSON 发现通知：
 
-- `https://api.flashcards-open-source-app.com/v1/agent/openapi.json`
-- `https://api.flashcards-open-source-app.com/v1/agent/swagger.json`
-- `https://api.flashcards-open-source-app.com/v1/openapi.json`
-- `https://api.flashcards-open-source-app.com/v1/swagger.json`
+- `https://api.nibomo.com/v1/agent/openapi.json`
+- `https://api.nibomo.com/v1/agent/swagger.json`
+- `https://api.nibomo.com/v1/openapi.json`
+- `https://api.nibomo.com/v1/swagger.json`
 
-请使用 `GET https://api.flashcards-open-source-app.com/v1/` 获取当前运行时发现信息。请根据返回的 `docs.discoveryUrl` 查找运行时路由，并通过 `docs.source.agentRoutesUrl` 查看实现细节。
+请使用 `GET https://api.nibomo.com/v1/` 获取当前运行时发现信息。请根据返回的 `docs.discoveryUrl` 查找运行时路由，并通过 `docs.source.agentRoutesUrl` 查看实现细节。
 
 ## 认证准备流程
 
 OTP 登录准备流程运行在认证服务上：
 
-- `POST https://auth.flashcards-open-source-app.com/api/agent/send-code`
-- `POST https://auth.flashcards-open-source-app.com/api/agent/verify-code`
+- `POST https://auth.nibomo.com/api/agent/send-code`
+- `POST https://auth.nibomo.com/api/agent/verify-code`
 
 流程如下：
 
@@ -70,17 +70,17 @@ Authorization: ApiKey <key>
 登录准备流程示例：
 
 ```bash
-curl https://api.flashcards-open-source-app.com/v1/
+curl https://api.nibomo.com/v1/
 ```
 
 ```bash
-curl -X POST https://auth.flashcards-open-source-app.com/api/agent/send-code \
+curl -X POST https://auth.nibomo.com/api/agent/send-code \
   -H "Content-Type: application/json" \
   -d '{"email":"you@example.com"}'
 ```
 
 ```bash
-curl -X POST https://auth.flashcards-open-source-app.com/api/agent/verify-code \
+curl -X POST https://auth.nibomo.com/api/agent/verify-code \
   -H "Content-Type: application/json" \
   -d '{
     "code":"12345678",
@@ -154,7 +154,7 @@ PostgreSQL 兼容性参考。
 示例请求：
 
 ```bash
-curl -X POST https://api.flashcards-open-source-app.com/v1/agent/sql/query \
+curl -X POST https://api.nibomo.com/v1/agent/sql/query \
   -H "Content-Type: application/json" \
   -H "Authorization: ApiKey $FLASHCARDS_OPEN_SOURCE_API_KEY" \
   -d '{"sql":"SHOW TABLES"}'
@@ -163,7 +163,7 @@ curl -X POST https://api.flashcards-open-source-app.com/v1/agent/sql/query \
 卡片查询示例：
 
 ```bash
-curl -X POST https://api.flashcards-open-source-app.com/v1/agent/sql/query \
+curl -X POST https://api.nibomo.com/v1/agent/sql/query \
   -H "Content-Type: application/json" \
   -H "Authorization: ApiKey $FLASHCARDS_OPEN_SOURCE_API_KEY" \
   -d '{
@@ -174,7 +174,7 @@ curl -X POST https://api.flashcards-open-source-app.com/v1/agent/sql/query \
 更新示例：
 
 ```bash
-curl -X POST https://api.flashcards-open-source-app.com/v1/agent/sql/execute \
+curl -X POST https://api.nibomo.com/v1/agent/sql/execute \
   -H "Content-Type: application/json" \
   -H "Authorization: ApiKey $FLASHCARDS_OPEN_SOURCE_API_KEY" \
   -d '{
@@ -207,7 +207,7 @@ SQL 接口是一个受限的、由解析器强制约束的方言，而非原生 
 未知主题会返回 `400`，并附带受支持的主题列表。在编写卡片、批量写入或进行复习之前，请先获取对应的指南；语句被拒绝后，请重新阅读 `sql_dialect`。
 
 ```bash
-curl https://api.flashcards-open-source-app.com/v1/agent/guide/sql_dialect \
+curl https://api.nibomo.com/v1/agent/guide/sql_dialect \
   -H "Authorization: ApiKey $FLASHCARDS_OPEN_SOURCE_API_KEY"
 ```
 
@@ -229,7 +229,7 @@ curl https://api.flashcards-open-source-app.com/v1/agent/guide/sql_dialect \
 提交示例：
 
 ```bash
-curl -X POST https://api.flashcards-open-source-app.com/v1/agent/reviews/submit \
+curl -X POST https://api.nibomo.com/v1/agent/reviews/submit \
   -H "Content-Type: application/json" \
   -H "Authorization: ApiKey $FLASHCARDS_OPEN_SOURCE_API_KEY" \
   -d '{

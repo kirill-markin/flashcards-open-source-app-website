@@ -13,7 +13,7 @@ keywords:
   - "flashcards IA"
 ---
 
-Oui, Nibomo peut être auto-hébergé. Tout le code de l'application et de l'infrastructure est open source sous licence MIT. Vous pouvez exécuter les services en local pour le développement, ou déployer sur AWS la pile de production documentée du dépôt. Si vous ne voulez pas gérer d'infrastructure, l'[application hébergée](https://app.flashcards-open-source-app.com/) reste disponible.
+Oui, Nibomo peut être auto-hébergé. Tout le code de l'application et de l'infrastructure est open source sous licence MIT. Vous pouvez exécuter les services en local pour le développement, ou déployer sur AWS la pile de production documentée du dépôt. Si vous ne voulez pas gérer d'infrastructure, l'[application hébergée](https://app.nibomo.com/) reste disponible.
 
 ![Écrans mobiles de Nibomo pour la révision, la progression, le chat IA et les cartes](/home/app-screens-showcase-fr.png)
 
@@ -159,7 +159,7 @@ Nibomo prend un autre chemin : un dépôt ouvert pour le web, le mobile, l'API e
 
 ## Essayez l'application hébergée ou faites tourner votre propre pile
 
-- [Ouvrir l'application hébergée](https://app.flashcards-open-source-app.com/)
+- [Ouvrir l'application hébergée](https://app.nibomo.com/)
 - [Lire le Guide d'auto-hébergement](/docs/self-hosting/)
 - [Voir le code source sur GitHub](https://github.com/kirill-markin/flashcards-open-source-app)
 

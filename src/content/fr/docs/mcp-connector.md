@@ -143,7 +143,7 @@ C'est la même clé que celle acceptée par la surface d'agent REST, et elle ne
 nécessite ni navigateur ni aller-retour OAuth.
 
 La description canonique lisible par machine des deux voies est la charge utile de
-découverte sur `https://api.flashcards-open-source-app.com/v1/` (répliquée sur `/v1/agent`).
+découverte sur `https://api.nibomo.com/v1/` (répliquée sur `/v1/agent`).
 
 ## Sécurité et portée
 
