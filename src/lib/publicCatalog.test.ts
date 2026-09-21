@@ -194,6 +194,9 @@ const missingMediaId = "00000000-0000-4000-a005-000000000099";
 const missingPackageId = "00000000-0000-4000-a002-000000000099";
 const orphanAuthorId = "00000000-0000-4000-a001-000000000099";
 const orphanCollectionId = "00000000-0000-4000-a006-000000000099";
+// Welsh is outside the product's language set, so it stays unsupported as
+// interface locales keep being added.
+const unsupportedLanguageTag = "cy";
 
 function parseMarkdownAst(markdown: string): MarkdownAstNode {
   return remark().parse(markdown) as MarkdownAstNode;
@@ -1353,7 +1356,7 @@ test("aligns package JSON-LD to the deck subject, level and canonical route", ()
         ...packageView,
         latestVersion: {
           ...packageView.latestVersion,
-          languageTags: ["it"],
+          languageTags: [unsupportedLanguageTag],
         },
       }),
     /package canonical-package has no supported audience locale/,
@@ -1478,9 +1481,17 @@ test("creates deterministic localized catalog sitemap entries from real timestam
     "https://nibomo.com/ja/catalog/languages/ru/";
   const latestVersionUpdatedAt = "2026-08-03T09:00:00.000Z";
 
-  // Three audience languages mean three canonical package routes; every other
-  // route in the fixture is emitted for all ten interface locales.
-  assert.equal(entries.length, 83);
+  // Three audience languages mean three canonical package routes. Every other
+  // fixture route is emitted once per interface locale: the catalog root, the
+  // authors index, one author, the collections index, one collection, and the
+  // three language facets.
+  const canonicalPackageRouteCount = 3;
+  const perLocaleRouteCount = 8;
+
+  assert.equal(
+    entries.length,
+    canonicalPackageRouteCount + SUPPORTED_LOCALES.length * perLocaleRouteCount,
+  );
   assert.equal(entryByUrl.get(rootUrl)?.lastModified, latestVersionUpdatedAt);
   assert.equal(entryByUrl.get(packageUrl)?.lastModified, latestVersionUpdatedAt);
   assert.equal(
@@ -1663,7 +1674,7 @@ test("accepts every supported interface locale as a package and collection langu
 
 test("rejects package and collection language tags outside the supported locales", () => {
   const rejectedTags = [
-    "it",
+    unsupportedLanguageTag,
     "en-US",
     "EN",
     "",
@@ -1874,10 +1885,7 @@ test("builds canonical catalog destinations and identifies current catalog pages
     getPublicCatalogPackageAudienceLocales(["es", "en", "world history"]),
     ["en", "es"],
   );
-  assert.deepEqual(
-    getPublicCatalogPackagePageLocales(),
-    ["en", "es", "ar", "de", "hi", "ja", "fr", "pt", "ru", "zh"],
-  );
+  assert.deepEqual(getPublicCatalogPackagePageLocales(), SUPPORTED_LOCALES);
   assert.equal(
     getPublicCatalogPackageLocalizedPathname(
       "es",
@@ -1983,7 +1991,18 @@ test("renders useful localized catalog Markdown from the public read model", () 
     model,
   );
 
-  assert.equal(pagePaths.length, 80);
+  // Seven fixture catalog routes (the catalog root, the authors index, one
+  // author, the collections index, one collection, and two language facets)
+  // are emitted once per interface locale, and the single package adds one
+  // page per package page locale.
+  const perLocaleRoutePathnameCount = 7;
+  const fixturePackageCount = 1;
+
+  assert.equal(
+    pagePaths.length,
+    SUPPORTED_LOCALES.length * perLocaleRoutePathnameCount
+      + fixturePackageCount * getPublicCatalogPackagePageLocales().length,
+  );
   assert.ok(pagePaths.includes("catalog/packages/canonical-package"));
   assert.ok(pagePaths.includes("es/catalog/packages/canonical-package"));
   assert.ok(pagePaths.includes("ja/catalog/packages/canonical-package"));
@@ -3924,13 +3943,16 @@ test("canonicalizes every package route into the deck audience locales", () => {
     "https://nibomo.com/es/catalog/packages/canonical-package/";
 
   assert.deepEqual(
-    getPublicCatalogPackageCanonicalLocales("canonical-package", ["ja", "de", "it"]),
+    getPublicCatalogPackageCanonicalLocales(
+      "canonical-package",
+      ["ja", "de", unsupportedLanguageTag],
+    ),
     ["de", "ja"],
   );
   assert.equal(
     resolvePublicCatalogPackageCanonicalLocale(
       "canonical-package",
-      ["ja", "de", "it"],
+      ["ja", "de", unsupportedLanguageTag],
       "ja",
     ),
     "ja",
@@ -3938,7 +3960,7 @@ test("canonicalizes every package route into the deck audience locales", () => {
   assert.equal(
     resolvePublicCatalogPackageCanonicalLocale(
       "canonical-package",
-      ["ja", "de", "it"],
+      ["ja", "de", unsupportedLanguageTag],
       "ru",
     ),
     "de",
@@ -4029,7 +4051,7 @@ test("canonicalizes every package route into the deck audience locales", () => {
         ...packageView,
         latestVersion: {
           ...packageView.latestVersion,
-          languageTags: ["it"],
+          languageTags: [unsupportedLanguageTag],
         },
       }),
     /package canonical-package has no supported audience locale/,
