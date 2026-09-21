@@ -88,6 +88,16 @@ const nextConfig: NextConfig = {
   images: {
     formats: ["image/webp", "image/avif"],
     remotePatterns: [
+      // Both API host families. A media `downloadUrl` comes straight off the backend payload, so a
+      // package version minted before the cutover still names the old host, and a pattern list
+      // naming only one of them makes `next/image` throw on every image from the other side.
+      {
+        protocol: "https",
+        hostname: "api.nibomo.com",
+        port: "",
+        pathname: "/v1/catalog/package-versions/*/media-assets/*/download",
+        search: "",
+      },
       {
         protocol: "https",
         hostname: "api.flashcards-open-source-app.com",
@@ -109,8 +119,6 @@ const nextConfig: NextConfig = {
   poweredByHeader: false,
   env: {
     SITE_NAME: "Nibomo",
-    APP_URL: "https://app.flashcards-open-source-app.com",
-    AUTH_URL: "https://auth.flashcards-open-source-app.com",
     [MARKDOWN_MANIFEST_ENVIRONMENT_VARIABLE]: readMarkdownAssetManifest(),
   },
   compiler: {

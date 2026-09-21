@@ -22,7 +22,7 @@ import {
   type MarkdownSiteContext,
 } from "@/lib/content/renderMarkdown";
 import { renderMarkdownLink } from "@/lib/markdownLinks";
-import { SITE_URL } from "@/lib/site";
+import { PRODUCT_API_ORIGIN, PRODUCT_APP_ORIGIN, SITE_URL } from "@/lib/site";
 import {
   globalActivitySnapshotUrl,
   type GlobalActivitySnapshot,
@@ -50,10 +50,10 @@ import type { PublicCatalogReadModel } from "@/lib/publicCatalogReadModel";
 
 const SITE_CONTEXT: MarkdownSiteContext = {
   siteUrl: SITE_URL,
-  appUrl: "https://app.flashcards-open-source-app.com",
+  appUrl: PRODUCT_APP_ORIGIN,
   githubUrl: "https://github.com/kirill-markin/flashcards-open-source-app",
 };
-const DISCOVERY_URL = "https://api.flashcards-open-source-app.com/v1/";
+const DISCOVERY_URL = `${PRODUCT_API_ORIGIN}/v1/`;
 const MCP_URL = "https://mcp.nibomo.com/mcp";
 const DASHBOARDS_NORMALIZED_ROUTE_PATHNAME =
   DASHBOARDS_ROUTE_PATHNAME.replace(/\/+$/, "");
