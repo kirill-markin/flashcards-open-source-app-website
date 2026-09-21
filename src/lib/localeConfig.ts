@@ -30,6 +30,16 @@ export const SUPPORTED_LOCALES = [
   "hu",
   "fa",
   "ca",
+  "bn",
+  "gu",
+  "kn",
+  "ml",
+  "mr",
+  "pa",
+  "ta",
+  "te",
+  "ur",
+  "sw",
 ] as const;
 export const NON_DEFAULT_LOCALES = [
   "es",
@@ -61,6 +71,16 @@ export const NON_DEFAULT_LOCALES = [
   "hu",
   "fa",
   "ca",
+  "bn",
+  "gu",
+  "kn",
+  "ml",
+  "mr",
+  "pa",
+  "ta",
+  "te",
+  "ur",
+  "sw",
 ] as const;
 
 export type AppLocale = (typeof SUPPORTED_LOCALES)[number];
@@ -254,6 +274,66 @@ const LOCALE_DEFINITIONS: Readonly<Record<AppLocale, LocaleDefinition>> = {
     nativeName: "Català",
     openGraphLocale: "ca_ES",
     shortLabel: "CA",
+  },
+  bn: {
+    direction: "ltr",
+    nativeName: "বাংলা",
+    openGraphLocale: "bn_IN",
+    shortLabel: "BN",
+  },
+  gu: {
+    direction: "ltr",
+    nativeName: "ગુજરાતી",
+    openGraphLocale: "gu_IN",
+    shortLabel: "GU",
+  },
+  kn: {
+    direction: "ltr",
+    nativeName: "ಕನ್ನಡ",
+    openGraphLocale: "kn_IN",
+    shortLabel: "KN",
+  },
+  ml: {
+    direction: "ltr",
+    nativeName: "മലയാളം",
+    openGraphLocale: "ml_IN",
+    shortLabel: "ML",
+  },
+  mr: {
+    direction: "ltr",
+    nativeName: "मराठी",
+    openGraphLocale: "mr_IN",
+    shortLabel: "MR",
+  },
+  pa: {
+    direction: "ltr",
+    nativeName: "ਪੰਜਾਬੀ",
+    openGraphLocale: "pa_IN",
+    shortLabel: "PA",
+  },
+  ta: {
+    direction: "ltr",
+    nativeName: "தமிழ்",
+    openGraphLocale: "ta_IN",
+    shortLabel: "TA",
+  },
+  te: {
+    direction: "ltr",
+    nativeName: "తెలుగు",
+    openGraphLocale: "te_IN",
+    shortLabel: "TE",
+  },
+  ur: {
+    direction: "rtl",
+    nativeName: "اردو",
+    openGraphLocale: "ur_PK",
+    shortLabel: "UR",
+  },
+  sw: {
+    direction: "ltr",
+    nativeName: "Kiswahili",
+    openGraphLocale: "sw_KE",
+    shortLabel: "SW",
   },
 };
 
