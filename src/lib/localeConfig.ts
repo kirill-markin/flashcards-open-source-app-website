@@ -40,6 +40,15 @@ export const SUPPORTED_LOCALES = [
   "te",
   "ur",
   "sw",
+  "bg",
+  "et",
+  "hr",
+  "is",
+  "lt",
+  "lv",
+  "sk",
+  "sl",
+  "zu",
 ] as const;
 export const NON_DEFAULT_LOCALES = [
   "es",
@@ -81,6 +90,15 @@ export const NON_DEFAULT_LOCALES = [
   "te",
   "ur",
   "sw",
+  "bg",
+  "et",
+  "hr",
+  "is",
+  "lt",
+  "lv",
+  "sk",
+  "sl",
+  "zu",
 ] as const;
 
 export type AppLocale = (typeof SUPPORTED_LOCALES)[number];
@@ -334,6 +352,60 @@ const LOCALE_DEFINITIONS: Readonly<Record<AppLocale, LocaleDefinition>> = {
     nativeName: "Kiswahili",
     openGraphLocale: "sw_KE",
     shortLabel: "SW",
+  },
+  bg: {
+    direction: "ltr",
+    nativeName: "Български",
+    openGraphLocale: "bg_BG",
+    shortLabel: "BG",
+  },
+  et: {
+    direction: "ltr",
+    nativeName: "Eesti",
+    openGraphLocale: "et_EE",
+    shortLabel: "ET",
+  },
+  hr: {
+    direction: "ltr",
+    nativeName: "Hrvatski",
+    openGraphLocale: "hr_HR",
+    shortLabel: "HR",
+  },
+  is: {
+    direction: "ltr",
+    nativeName: "Íslenska",
+    openGraphLocale: "is_IS",
+    shortLabel: "IS",
+  },
+  lt: {
+    direction: "ltr",
+    nativeName: "Lietuvių",
+    openGraphLocale: "lt_LT",
+    shortLabel: "LT",
+  },
+  lv: {
+    direction: "ltr",
+    nativeName: "Latviešu",
+    openGraphLocale: "lv_LV",
+    shortLabel: "LV",
+  },
+  sk: {
+    direction: "ltr",
+    nativeName: "Slovenčina",
+    openGraphLocale: "sk_SK",
+    shortLabel: "SK",
+  },
+  sl: {
+    direction: "ltr",
+    nativeName: "Slovenščina",
+    openGraphLocale: "sl_SI",
+    shortLabel: "SL",
+  },
+  zu: {
+    direction: "ltr",
+    nativeName: "isiZulu",
+    openGraphLocale: "zu_ZA",
+    shortLabel: "ZU",
   },
 };
 
