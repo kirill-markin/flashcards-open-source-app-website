@@ -90,6 +90,11 @@ function isSimplifiedChineseLanguage(canonicalLanguage: string): boolean {
   );
 }
 
+/** Browsers send the macrolanguage `no` or Nynorsk `nn`; the site serves Norwegian only as `nb`. */
+function isNorwegianLanguage(primaryLanguage: string): boolean {
+  return primaryLanguage === "no" || primaryLanguage === "nn";
+}
+
 function getMatchedLocale(canonicalLanguage: string): AppLocale | null {
   const primaryLanguage = canonicalLanguage.split("-", 1)[0] ?? "";
 
@@ -99,6 +104,10 @@ function getMatchedLocale(canonicalLanguage: string): AppLocale | null {
 
   if (isSimplifiedChineseLanguage(canonicalLanguage)) {
     return "zh";
+  }
+
+  if (isNorwegianLanguage(primaryLanguage)) {
+    return "nb";
   }
 
   return null;
