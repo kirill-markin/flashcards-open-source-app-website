@@ -366,7 +366,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     home: {
       activity: {
         dailyUniqueUsersChartDescription:
-          "Las personas se agrupan como nuevas en su primer día de repaso o recurrentes si ya habían repasado antes. Un repaso se cuenta cuando alguien elige Again, Hard, Good o Easy en una tarjeta.",
+          "Las personas se agrupan como nuevas en su primer día de repaso o recurrentes si ya habían repasado antes. Un repaso se cuenta cuando alguien elige De nuevo, Difícil, Bien o Fácil en una tarjeta.",
         dailyUniqueUsersChartTitle: "Personas que repasan cada día: nuevas y recurrentes",
         dateRangeLabel: "Rango de fechas",
         daysInRangeLabel: "Días en el rango",
@@ -377,7 +377,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
         peakDailyUniqueUsersLabel: "Pico diario de usuarios únicos",
         peakDailyVolumeLabel: "Pico diario de volumen",
         platformActivityChartDescription:
-          "Un repaso se cuenta cuando alguien elige Again, Hard, Good o Easy en una tarjeta. Los recuentos se agrupan por plataforma.",
+          "Un repaso se cuenta cuando alguien elige De nuevo, Difícil, Bien o Fácil en una tarjeta. Los recuentos se agrupan por plataforma.",
         platformActivityChartTitle: "Repasos diarios por plataforma",
         platformLabels: {
           android: "Android",
@@ -511,7 +511,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     home: {
       activity: {
         dailyUniqueUsersChartDescription:
-          "يُصنّف المراجعون إلى جدد في أول يوم مراجعة لهم أو عائدين إذا سبق لهم أن راجعوا. تُحتسب المراجعة عند اختيار Again أو Hard أو Good أو Easy على بطاقة.",
+          "يُصنّف المراجعون إلى جدد في أول يوم مراجعة لهم أو عائدين إذا سبق لهم أن راجعوا. تُحتسب المراجعة عند اختيار «مرة أخرى» أو «صعب» أو «جيد» أو «سهل» على بطاقة.",
         dailyUniqueUsersChartTitle: "المراجعون يوميًا: الجدد والعائدون",
         dateRangeLabel: "النطاق الزمني",
         daysInRangeLabel: "الأيام في النطاق",
@@ -522,7 +522,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
         peakDailyUniqueUsersLabel: "أعلى عدد يومي للمستخدمين الفريدين",
         peakDailyVolumeLabel: "أعلى حجم يومي",
         platformActivityChartDescription:
-          "تُحتسب المراجعة عند اختيار Again أو Hard أو Good أو Easy على بطاقة. تُجمع الأعداد حسب المنصة.",
+          "تُحتسب المراجعة عند اختيار «مرة أخرى» أو «صعب» أو «جيد» أو «سهل» على بطاقة. تُجمع الأعداد حسب المنصة.",
         platformActivityChartTitle: "المراجعات اليومية حسب المنصة",
         platformLabels: {
           android: "Android",
@@ -657,7 +657,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     home: {
       activity: {
         dailyUniqueUsersChartDescription:
-          "Lernende gelten am ersten Wiederholungstag als neu und danach als wiederkehrend. Eine Wiederholung wird gezählt, wenn auf einer Karte Again, Hard, Good oder Easy gewählt wird.",
+          "Lernende gelten am ersten Wiederholungstag als neu und danach als wiederkehrend. Eine Wiederholung wird gezählt, wenn auf einer Karte Nochmal, Schwer, Gut oder Leicht gewählt wird.",
         dailyUniqueUsersChartTitle: "Tägliche Lernende: neu vs. wiederkehrend",
         dateRangeLabel: "Zeitraum",
         daysInRangeLabel: "Tage im Zeitraum",
@@ -668,7 +668,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
         peakDailyUniqueUsersLabel: "Höchste tägliche eindeutige Nutzer",
         peakDailyVolumeLabel: "Höchstes tägliches Volumen",
         platformActivityChartDescription:
-          "Eine Wiederholung wird gezählt, wenn auf einer Karte Again, Hard, Good oder Easy gewählt wird. Die Zählwerte sind nach Plattform gruppiert.",
+          "Eine Wiederholung wird gezählt, wenn auf einer Karte Nochmal, Schwer, Gut oder Leicht gewählt wird. Die Zählwerte sind nach Plattform gruppiert.",
         platformActivityChartTitle: "Tägliche Wiederholungen nach Plattform",
         platformLabels: {
           android: "Android",
@@ -803,7 +803,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     home: {
       activity: {
         dailyUniqueUsersChartDescription:
-          "पहले रिव्यू के दिन लोगों को नया और उसके बाद वापस आने वाला माना जाता है। कार्ड पर Again, Hard, Good या Easy चुनने पर एक रिव्यू गिना जाता है।",
+          "पहले रिव्यू के दिन लोगों को नया और उसके बाद वापस आने वाला माना जाता है। कार्ड पर ‘फिर से’, ‘कठिन’, ‘अच्छा’ या ‘आसान’ चुनने पर एक रिव्यू गिना जाता है।",
         dailyUniqueUsersChartTitle: "रोज़ाना रिव्यू करने वाले: नए और वापस आने वाले",
         dateRangeLabel: "तारीख़ की सीमा",
         daysInRangeLabel: "सीमा में दिन",
@@ -814,7 +814,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
         peakDailyUniqueUsersLabel: "रोज़ाना रिव्यू करने वालों का शिखर",
         peakDailyVolumeLabel: "रोज़ाना रिव्यू का शिखर",
         platformActivityChartDescription:
-          "कार्ड पर Again, Hard, Good या Easy चुनने पर एक रिव्यू गिना जाता है। गिनती को प्लैटफ़ॉर्म के हिसाब से समूहित किया गया है।",
+          "कार्ड पर ‘फिर से’, ‘कठिन’, ‘अच्छा’ या ‘आसान’ चुनने पर एक रिव्यू गिना जाता है। गिनती को प्लैटफ़ॉर्म के हिसाब से समूहित किया गया है।",
         platformActivityChartTitle: "प्लैटफ़ॉर्म के हिसाब से रोज़ाना रिव्यू",
         platformLabels: {
           android: "Android",
@@ -949,7 +949,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     home: {
       activity: {
         dailyUniqueUsersChartDescription:
-          "初めてレビューした日は新規、それ以降はリピーターとして集計します。カードで Again、Hard、Good、Easy のいずれかを選ぶと、レビュー 1 回として数えられます。",
+          "初めてレビューした日は新規、それ以降はリピーターとして集計します。カードで「もう一度」「難しい」「良い」「簡単」のいずれかを選ぶと、レビュー 1 回として数えられます。",
         dailyUniqueUsersChartTitle: "日別レビューユーザー：新規とリピーター",
         dateRangeLabel: "対象期間",
         daysInRangeLabel: "期間内の日数",
@@ -960,7 +960,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
         peakDailyUniqueUsersLabel: "日別ユニークユーザーの最大値",
         peakDailyVolumeLabel: "日別ボリュームの最大値",
         platformActivityChartDescription:
-          "カードで Again、Hard、Good、Easy のいずれかを選ぶと、レビュー 1 回として数えられます。集計値はプラットフォーム別に表示します。",
+          "カードで「もう一度」「難しい」「良い」「簡単」のいずれかを選ぶと、レビュー 1 回として数えられます。集計値はプラットフォーム別に表示します。",
         platformActivityChartTitle: "プラットフォーム別の日別レビュー",
         platformLabels: {
           android: "Android",
@@ -1387,7 +1387,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     home: {
       activity: {
         dailyUniqueUsersChartDescription:
-          "В первый день повторений пользователи считаются новыми, а затем — вернувшимися. Повторение засчитывается при выборе Again, Hard, Good или Easy на карточке.",
+          "В первый день повторений пользователи считаются новыми, а затем — вернувшимися. Повторение засчитывается при выборе «Снова», «Трудно», «Хорошо» или «Легко» на карточке.",
         dailyUniqueUsersChartTitle: "Пользователи с повторениями по дням: новые и вернувшиеся",
         dateRangeLabel: "Период",
         daysInRangeLabel: "Дней в периоде",
@@ -1398,7 +1398,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
         peakDailyUniqueUsersLabel: "Пик дневных уникальных пользователей",
         peakDailyVolumeLabel: "Пиковый дневной объём",
         platformActivityChartDescription:
-          "Повторение засчитывается при выборе Again, Hard, Good или Easy на карточке. Показатели сгруппированы по платформам.",
+          "Повторение засчитывается при выборе «Снова», «Трудно», «Хорошо» или «Легко» на карточке. Показатели сгруппированы по платформам.",
         platformActivityChartTitle: "Ежедневные повторения по платформам",
         platformLabels: {
           android: "Android",
@@ -1419,10 +1419,10 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
         usersWithReviewEventsLabel: "Пользователи с повторениями",
       },
       agentHintDescription:
-        "Подключите своего AI-агента по MCP: добавьте сервер Nibomo в Claude, Cursor или любой MCP-клиент, и он сможет читать, создавать и редактировать ваши карточки.",
-      aiAgentSectionLabel: "ДЛЯ AI-АГЕНТОВ",
+        "Подключите своего ИИ-агента по MCP: добавьте сервер Nibomo в Claude, Cursor или любой MCP-клиент, и он сможет читать, создавать и редактировать ваши карточки.",
+      aiAgentSectionLabel: "ДЛЯ ИИ-АГЕНТОВ",
       appPreviewAlt:
-        "Экраны Nibomo с повторением, результатами, прогрессом, AI-черновиком и списком карточек.",
+        "Экраны Nibomo с повторением, результатами, прогрессом, ИИ-черновиком и списком карточек.",
       appPreviewAriaLabel: "Предпросмотр приложения",
       appPreviewLabel: "ПРЕДПРОСМОТР ПРИЛОЖЕНИЯ",
       humanSectionLabel: "ДЛЯ ЛЮДЕЙ",
@@ -1530,7 +1530,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     home: {
       activity: {
         dailyUniqueUsersChartDescription:
-          "用户首次复习当天计为新用户，之后计为回访用户。在卡片上选择 Again、Hard、Good 或 Easy 时，会计为一次复习。",
+          "用户首次复习当天计为新用户，之后计为回访用户。在卡片上选择“重来”、“困难”、“良好”或“简单”时，会计为一次复习。",
         dailyUniqueUsersChartTitle: "每日复习用户：新用户与回访用户",
         dateRangeLabel: "日期范围",
         daysInRangeLabel: "范围内天数",
@@ -1541,7 +1541,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
         peakDailyUniqueUsersLabel: "每日独立用户峰值",
         peakDailyVolumeLabel: "每日复习量峰值",
         platformActivityChartDescription:
-          "在卡片上选择 Again、Hard、Good 或 Easy 时，会计为一次复习。计数按平台分组。",
+          "在卡片上选择“重来”、“困难”、“良好”或“简单”时，会计为一次复习。计数按平台分组。",
         platformActivityChartTitle: "各平台每日复习次数",
         platformLabels: {
           android: "Android",
