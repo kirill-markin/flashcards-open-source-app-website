@@ -7,8 +7,9 @@ import {
 } from "@/app/rootLayoutShared";
 import { SiteLayoutDocument } from "@/components/SiteLayoutDocument";
 
-export const dynamicParams = false;
-
+// Each page sets dynamicParams itself: Next.js returns 404 for unlisted params
+// when any segment on the route sets it to false, which would disable the
+// on-demand locale copies of package pages.
 export const generateStaticParams = getLocalizedRouteStaticParams;
 
 interface LayoutProps {
