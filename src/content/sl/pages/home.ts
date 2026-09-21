@@ -3,7 +3,7 @@ import type { PageContent } from "@/lib/content/types";
 export const HOME_PAGE_CONTENT: PageContent = {
   title: "Nibomo - brezplačne odprtokodne učne kartice s ponavljanjem v časovnih razmikih",
   description:
-    "Brezplačne odprtokodne učne kartice s ponavljanjem v časovnih razmikih po algoritmu FSRS, ustvarjanjem kartic s pomočjo umetne inteligence, učenjem brez povezave in sinhronizacijo, prenosljivimi izvozi in lastnim gostovanjem.",
+    "Brezplačne odprtokodne učne kartice s ponavljanjem v časovnih razmikih po algoritmu FSRS, ustvarjanjem kartic s pomočjo AI, učenjem brez povezave in sinhronizacijo, prenosljivimi izvozi in lastnim gostovanjem.",
   slug: "home",
   sections: [
     {

@@ -6093,7 +6093,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
         usersWithReviewEventsLabel: "Потребители с преговори",
       },
       agentHintDescription:
-        "Свържете своя агент с изкуствен интелект през MCP: добавете сървъра на Nibomo в Claude, Cursor или друг MCP клиент и той ще може да чете, създава и редактира картите ви.",
+        "Свържете своя ИИ агент през MCP: добавете сървъра на Nibomo в Claude, Cursor или друг MCP клиент и той ще може да чете, създава и редактира картите ви.",
       aiAgentSectionLabel: "ЗА ИИ АГЕНТИ",
       appPreviewAlt:
         "Екрани на Nibomo с преговор, резултати от отговорите, напредък, чернова от ИИ и списък с карти.",
