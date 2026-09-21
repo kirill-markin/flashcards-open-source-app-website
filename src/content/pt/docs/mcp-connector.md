@@ -141,7 +141,7 @@ Authorization: Bearer fca_ABCDEFGH_0123456789ABCDEFGHJKMNPQRS
 navegador nem de ida e volta com OAuth.
 
 A descrição canônica legível por máquina dos dois caminhos é o payload de
-descoberta em `https://api.flashcards-open-source-app.com/v1/` (espelhado em `/v1/agent`).
+descoberta em `https://api.nibomo.com/v1/` (espelhado em `/v1/agent`).
 
 ## Segurança e escopo
 

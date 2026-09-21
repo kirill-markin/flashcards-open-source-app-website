@@ -176,7 +176,7 @@ O pacote `flashcards.zip` do próprio Nibomo também é mais estreito do que um 
 
 O núcleo hospedado é [grátis durante o beta](/pricing/). Auto-hospedar a stack de produção não é uma instalação Docker de um comando só: o [guia de auto-hospedagem](/docs/self-hosting/) usa AWS CDK e exige serviços da AWS mais Cloudflare, Resend, Sentry, segredos, migrações, backups, restaurações e atualizações. O Docker Compose é o caminho de desenvolvimento, não a implantação de produção suportada.
 
-Use o Nibomo quando o código completo e um backend sob o controle do operador forem o motivo da troca, e os seus cartões forem simples o bastante para reconstruir com segurança. [Abra o app hospedado](https://app.flashcards-open-source-app.com/) para testar um baralho temporário pequeno. Fique no Anki — ou teste RemNote, Mochi ou Mnemosyne — quando a fidelidade do estado de aprendizado vier primeiro.
+Use o Nibomo quando o código completo e um backend sob o controle do operador forem o motivo da troca, e os seus cartões forem simples o bastante para reconstruir com segurança. [Abra o app hospedado](https://app.nibomo.com/) para testar um baralho temporário pequeno. Fique no Anki — ou teste RemNote, Mochi ou Mnemosyne — quando a fidelidade do estado de aprendizado vier primeiro.
 
 ## Qual alternativa ao Anki funciona no iOS sem surpresa ruim na migração?
 

@@ -158,4 +158,4 @@ Before choosing **cramming vs spaced repetition**, check five things:
 
 Several days give you time to distribute retrieval. One evening calls for a narrow list of repairable, high-value items. Keep practice questions in either plan, and continue spaced reviews after the test for knowledge that still matters.
 
-You can follow every step here with paper, a notes file, and practice questions. If you want FSRS to manage card dates, review the [Nibomo features](/features/) or [open the hosted app](https://app.flashcards-open-source-app.com). Choose the study pattern from the deadline and from how long the knowledge must last.
+You can follow every step here with paper, a notes file, and practice questions. If you want FSRS to manage card dates, review the [Nibomo features](/features/) or [open the hosted app](https://app.nibomo.com). Choose the study pattern from the deadline and from how long the knowledge must last.

@@ -288,7 +288,7 @@ Das ist die Version von **how to turn lecture recordings into flashcards**, die 
 Wenn du einen **lecture transcript to flashcards**-Workflow aufbauen willst, starte hier:
 
 - [Nibomo öffnen](https://nibomo.com/)
-- [Die App öffnen](https://app.flashcards-open-source-app.com/)
+- [Die App öffnen](https://app.nibomo.com/)
 - [Self-Hosting-Leitfaden](https://nibomo.com/docs/self-hosting/)
 - [Den Sourcecode auf GitHub ansehen](https://github.com/kirill-markin/flashcards-open-source-app)
 

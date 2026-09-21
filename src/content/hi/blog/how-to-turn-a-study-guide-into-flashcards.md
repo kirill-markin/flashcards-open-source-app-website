@@ -322,6 +322,6 @@ AI गाइड के साथ आप अक्सर चमकदार द�
 अगर आप यही चाहते हैं, तो यहाँ से शुरू करें:
 
 - [Nibomo खोलें](https://nibomo.com/)
-- [ऐप खोलें](https://app.flashcards-open-source-app.com/)
+- [ऐप खोलें](https://app.nibomo.com/)
 - [शुरुआत करने की गाइड पढ़ें](https://nibomo.com/docs/getting-started/)
 - [GitHub पर सोर्स कोड देखें](https://github.com/kirill-markin/flashcards-open-source-app)

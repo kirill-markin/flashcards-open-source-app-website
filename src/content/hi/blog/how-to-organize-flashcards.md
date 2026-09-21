@@ -305,6 +305,6 @@ keywords:
 अगर आपको यही चाहिए, तो यहाँ से शुरू कीजिए:
 
 - [Nibomo खोलें](https://nibomo.com/)
-- [ऐप खोलें](https://app.flashcards-open-source-app.com/)
+- [ऐप खोलें](https://app.nibomo.com/)
 - [Getting Started मार्गदर्शिका पढ़ें](https://nibomo.com/docs/getting-started/)
 - [GitHub पर स्रोत देखें](https://github.com/kirill-markin/flashcards-open-source-app)

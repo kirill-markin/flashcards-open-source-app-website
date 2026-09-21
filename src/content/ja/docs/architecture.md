@@ -18,11 +18,11 @@ Web アプリ                               -> app.<domain>  -> CloudFront -> SP
 2. Postgres を正本データストアとする
 3. iOS クライアントは、ローカル SQLite と同期を組み合わせたオフラインファーストを前提とする
 4. Web アプリ、iOS アプリ、外部エージェント向けインターフェースは、同じワークスペースのデータモデルを共有する
-5. 外部エージェントは `GET https://api.flashcards-open-source-app.com/v1/` を起点にする
+5. 外部エージェントは `GET https://api.nibomo.com/v1/` を起点にする
 
 ## 対応クライアント
 
-- `app.flashcards-open-source-app.com` で提供する Web アプリ
+- `app.nibomo.com` で提供する Web アプリ
 - メインリポジトリに含まれる、ローカル SQLite ストレージを使う iOS アプリ
 - Google Play で配布している Android アプリ
 - 接続案内用エンドポイント、OTP による初期認証、`Authorization: ApiKey` に対応した外部エージェントクライアント

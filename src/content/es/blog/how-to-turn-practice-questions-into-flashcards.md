@@ -274,6 +274,6 @@ Errores más útiles.
 Si eso es lo que buscas, empieza aquí:
 
 - [Abrir el sitio de Nibomo](https://nibomo.com/)
-- [Abrir la aplicación](https://app.flashcards-open-source-app.com/)
+- [Abrir la aplicación](https://app.nibomo.com/)
 - [Leer la guía de introducción](https://nibomo.com/docs/getting-started/)
 - [Ver el código fuente en GitHub](https://github.com/kirill-markin/flashcards-open-source-app)

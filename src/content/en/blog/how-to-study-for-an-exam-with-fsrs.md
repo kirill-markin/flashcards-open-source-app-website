@@ -215,7 +215,7 @@ If you want a product that supports that workflow, [Nibomo](https://nibomo.com/)
 If you want to try the workflow:
 
 - [Open Nibomo](https://nibomo.com/)
-- [Open the app](https://app.flashcards-open-source-app.com/)
+- [Open the app](https://app.nibomo.com/)
 - [Read the features page](https://nibomo.com/features/)
 - [View the source on GitHub](https://github.com/kirill-markin/flashcards-open-source-app)
 

@@ -160,4 +160,4 @@ Nibomo is a focused **Brainscape alternative** for a different priority set: exp
 
 Keep Brainscape when relative prioritization, classroom workflows, and low-friction bulk authoring solve the problem you have. Try Nibomo when a target-retention due queue, offline editing across web and mobile, agent access, or control of the application stack matters more.
 
-If the Nibomo tradeoff fits, [open the app](https://app.flashcards-open-source-app.com/) or read the [getting-started guide](/docs/getting-started/). If collaboration or cram-anytime review is central, staying with Brainscape is the better decision.
+If the Nibomo tradeoff fits, [open the app](https://app.nibomo.com/) or read the [getting-started guide](/docs/getting-started/). If collaboration or cram-anytime review is central, staying with Brainscape is the better decision.

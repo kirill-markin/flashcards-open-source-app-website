@@ -364,6 +364,6 @@ FSRS が助かるのは、すべてのカードに同じ予定を与えなくて
 
 この流れを実際に試すなら:
 
-- [アプリを開く](https://app.flashcards-open-source-app.com/)
+- [アプリを開く](https://app.nibomo.com/)
 - [機能ページを見る](/ja/features/)
 - [使い始めガイドを読む](/ja/docs/getting-started/)

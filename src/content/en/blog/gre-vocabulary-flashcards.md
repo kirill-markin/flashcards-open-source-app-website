@@ -277,7 +277,7 @@ That is the version of a **GRE vocab deck** I would trust.
 If you want to try that workflow in Nibomo:
 
 - [Start with Nibomo](https://nibomo.com/)
-- [Open the web app](https://app.flashcards-open-source-app.com/)
+- [Open the web app](https://app.nibomo.com/)
 - [Read the getting started guide](https://nibomo.com/docs/getting-started/)
 - [View the source on GitHub](https://github.com/kirill-markin/flashcards-open-source-app)
 

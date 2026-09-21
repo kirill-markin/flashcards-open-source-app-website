@@ -290,6 +290,6 @@ FSRS 最适合在这些条件下发挥作用：
 如果你想在一个地方把这套工作流跑通：
 
 - [打开 Nibomo](https://nibomo.com/)
-- [打开应用](https://app.flashcards-open-source-app.com/)
+- [打开应用](https://app.nibomo.com/)
 - [阅读功能页](https://nibomo.com/features/)
 - [在 GitHub 查看源码](https://github.com/kirill-markin/flashcards-open-source-app)

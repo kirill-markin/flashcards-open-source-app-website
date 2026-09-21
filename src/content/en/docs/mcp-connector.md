@@ -135,7 +135,7 @@ This is the same key the REST agent surface accepts, and it needs no browser or
 OAuth round-trip.
 
 The canonical machine-readable description of both paths is the discovery payload
-at `https://api.flashcards-open-source-app.com/v1/` (mirrored at `/v1/agent`).
+at `https://api.nibomo.com/v1/` (mirrored at `/v1/agent`).
 
 ## Safety And Scope
 

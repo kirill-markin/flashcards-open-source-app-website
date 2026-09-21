@@ -13,7 +13,7 @@ keywords:
   - "flashcards com IA"
 ---
 
-Sim, o Nibomo pode ser auto-hospedado. Todo o código da aplicação e da infraestrutura é de código aberto sob a licença MIT. Você pode rodar os serviços localmente para desenvolvimento ou implantar na AWS a stack de produção documentada do repositório. Se você não quer operar infraestrutura, o [app hospedado](https://app.flashcards-open-source-app.com/) continua disponível.
+Sim, o Nibomo pode ser auto-hospedado. Todo o código da aplicação e da infraestrutura é de código aberto sob a licença MIT. Você pode rodar os serviços localmente para desenvolvimento ou implantar na AWS a stack de produção documentada do repositório. Se você não quer operar infraestrutura, o [app hospedado](https://app.nibomo.com/) continua disponível.
 
 ![Telas do Nibomo no celular para revisão, progresso, chat de IA e cartões](/home/app-screens-showcase-pt.png)
 
@@ -159,7 +159,7 @@ O Nibomo segue outro caminho: um repositório aberto de web, mobile, API e infra
 
 ## Teste o app hospedado ou rode sua própria stack
 
-- [Abrir o app hospedado](https://app.flashcards-open-source-app.com/)
+- [Abrir o app hospedado](https://app.nibomo.com/)
 - [Ler o Guia de auto-hospedagem](/docs/self-hosting/)
 - [Ver o código-fonte no GitHub](https://github.com/kirill-markin/flashcards-open-source-app)
 

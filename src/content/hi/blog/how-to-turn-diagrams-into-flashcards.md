@@ -340,6 +340,6 @@ visual upload करो, उपयोगी structure निकालो, cards 
 अगर आप यही चाहते हैं, तो यहाँ से शुरू करें:
 
 - [Open Nibomo](https://nibomo.com/)
-- [ऐप खोलें](https://app.flashcards-open-source-app.com/)
+- [ऐप खोलें](https://app.nibomo.com/)
 - [getting started guide पढ़ें](https://nibomo.com/docs/getting-started/)
 - [GitHub पर source देखें](https://github.com/kirill-markin/flashcards-open-source-app)

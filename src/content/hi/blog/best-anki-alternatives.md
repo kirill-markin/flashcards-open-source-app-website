@@ -176,7 +176,7 @@ Nibomo का अपना `flashcards.zip` package भी backup से सी�
 
 Hosted core [beta के दौरान मुफ़्त](/pricing/) है। Production stack की self-hosting कोई one-command Docker install नहीं है: [self-hosting guide](/docs/self-hosting/) AWS CDK इस्तेमाल करती है और इसके लिए AWS services के साथ Cloudflare, Resend, Sentry, secrets, migrations, backups, restores और upgrades चाहिए। Docker Compose केवल development का रास्ता है, supported production deployment नहीं।
 
-Nibomo तब इस्तेमाल करें, जब पूरा सोर्स और operator-controlled backend ही बदलने की वजह हों और आपके कार्ड इतने सरल हों कि उन्हें सुरक्षित तरीके से दोबारा बनाया जा सके। छोटा अस्थायी डेक आज़माने के लिए [hosted app खोलें](https://app.flashcards-open-source-app.com/)। Learning-state fidelity सबसे महत्वपूर्ण हो, तो Anki पर टिके रहें—या RemNote, Mochi अथवा Mnemosyne को टेस्ट करें।
+Nibomo तब इस्तेमाल करें, जब पूरा सोर्स और operator-controlled backend ही बदलने की वजह हों और आपके कार्ड इतने सरल हों कि उन्हें सुरक्षित तरीके से दोबारा बनाया जा सके। छोटा अस्थायी डेक आज़माने के लिए [hosted app खोलें](https://app.nibomo.com/)। Learning-state fidelity सबसे महत्वपूर्ण हो, तो Anki पर टिके रहें—या RemNote, Mochi अथवा Mnemosyne को टेस्ट करें।
 
 ## कौन-सा Anki विकल्प iOS पर माइग्रेशन में चौंकाने वाले नुकसान से बचाता है?
 

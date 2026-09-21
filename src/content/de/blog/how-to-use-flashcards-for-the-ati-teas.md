@@ -286,7 +286,7 @@ Das ist der eigentliche Wert für die TEAS-Vorbereitung. Du kannst unordentliche
 
 Wenn dir langfristige Kontrolle wichtig ist, ist das Projekt außerdem open source und hat einen Self-Hosting-Pfad. Für die meisten TEAS-Lernenden ist das zweitrangig. Der Hauptgewinn liegt darin, Kartenerstellung, Wiederholung und Bereinigung an einem Ort zu haben, statt verteilt auf Notizen, Screenshots und Browser-Tabs.
 
-Wenn du den schnellsten Einstieg willst, starte mit der [gehosteten Web-App](https://app.flashcards-open-source-app.com/). Wenn du zuerst den breiteren Produktüberblick willst, schau auf die [Features-Seite](https://nibomo.com/features).
+Wenn du den schnellsten Einstieg willst, starte mit der [gehosteten Web-App](https://app.nibomo.com/). Wenn du zuerst den breiteren Produktüberblick willst, schau auf die [Features-Seite](https://nibomo.com/features).
 
 ## Was ich in den letzten 10 Tagen vor dem ATI TEAS tun würde
 

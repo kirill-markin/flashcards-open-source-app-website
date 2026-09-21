@@ -68,7 +68,7 @@ Verso: O recurso solicitado não foi encontrado no servidor.
 Tag: web-basics
 ```
 
-Escolha o espaço de trabalho, confira o pedido de gravação do Claude e aprove se o conteúdo e o destino estiverem corretos. Depois abra o [Nibomo](https://app.flashcards-open-source-app.com/) e confira se o cartão salvo tem a pergunta na frente e a resposta no verso. A verificação do passo a passo acima cobriu a conexão e as permissões salvas; nenhum cartão foi criado. Este primeiro teste serve para conferir se o Claude também consegue salvar um cartão no espaço de trabalho que você escolheu.
+Escolha o espaço de trabalho, confira o pedido de gravação do Claude e aprove se o conteúdo e o destino estiverem corretos. Depois abra o [Nibomo](https://app.nibomo.com/) e confira se o cartão salvo tem a pergunta na frente e a resposta no verso. A verificação do passo a passo acima cobriu a conexão e as permissões salvas; nenhum cartão foi criado. Este primeiro teste serve para conferir se o Claude também consegue salvar um cartão no espaço de trabalho que você escolheu.
 
 Se o Claude só escrever o cartão no chat, confira se o Nibomo está conectado nas configurações, ativado nessa conversa e se **Nibomo SQL execute (write)** não está bloqueado. Peça explicitamente para salvar o cartão pelo Nibomo.
 

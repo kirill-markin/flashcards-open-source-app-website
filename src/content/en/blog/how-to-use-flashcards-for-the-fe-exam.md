@@ -364,6 +364,6 @@ That is enough to make flashcards useful for the FE in 2026 without turning your
 
 If you want to try that workflow in practice:
 
-- [Open the app](https://app.flashcards-open-source-app.com/)
+- [Open the app](https://app.nibomo.com/)
 - [Read the features page](/features/)
 - [Read the getting started guide](/docs/getting-started/)

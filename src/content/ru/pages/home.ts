@@ -21,7 +21,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
         "Без банковской карты. Без рекламы. Без обратного отсчёта пробного периода.",
       primaryLink: {
         label: "Начать",
-        href: "https://app.flashcards-open-source-app.com",
+        href: "https://app.nibomo.com",
       },
       secondaryLink: {
         label: "Открыть на GitHub",

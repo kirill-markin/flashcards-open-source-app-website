@@ -239,7 +239,7 @@ Nibomo connector का इस्तेमाल केवल उन्हीं
 
 [Claude connector की चरण-दर-चरण मार्गदर्शिका](/blog/how-to-connect-flashcards-to-claude-with-mcp/) setup और permissions समझाती है; पढ़ाई के सत्र में वही setup दोहराने की ज़रूरत नहीं है। [MCP connector संदर्भ](/docs/mcp-connector/) मौजूदा tools और authentication का विवरण देता है।
 
-Claude मंज़ूर किए गए कार्ड बना सकता है, लेकिन FSRS scheduling Nibomo में ही रहती है। जब किसी कार्ड के रिव्यू का समय आए, तो [वेब ऐप](https://app.flashcards-open-source-app.com/) खोलें, जवाब याद करें, सही जवाब सामने लाएँ और वहीं अपना रिव्यू दर्ज करें। Connector access न देना चाहें, तो हाथ से कॉपी करना भी अपने आप में पूरा वर्कफ़्लो है।
+Claude मंज़ूर किए गए कार्ड बना सकता है, लेकिन FSRS scheduling Nibomo में ही रहती है। जब किसी कार्ड के रिव्यू का समय आए, तो [वेब ऐप](https://app.nibomo.com/) खोलें, जवाब याद करें, सही जवाब सामने लाएँ और वहीं अपना रिव्यू दर्ज करें। Connector access न देना चाहें, तो हाथ से कॉपी करना भी अपने आप में पूरा वर्कफ़्लो है।
 
 ## Claude को कहाँ अब भी आपकी निगरानी चाहिए
 

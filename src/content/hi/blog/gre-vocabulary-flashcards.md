@@ -275,7 +275,7 @@ Fix सीधा है। AI को fast draft करने दें, फि�
 अगर आप यह workflow Nibomo में आज़माना चाहते हैं:
 
 - [Nibomo से शुरू करें](https://nibomo.com/hi/)
-- [Web app खोलें](https://app.flashcards-open-source-app.com/)
+- [Web app खोलें](https://app.nibomo.com/)
 - [Getting started guide पढ़ें](https://nibomo.com/hi/docs/getting-started/)
 - [GitHub पर source code देखें](https://github.com/kirill-markin/flashcards-open-source-app)
 

@@ -19,7 +19,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
       trustLine: "ક્રેડિટ કાર્ડ નહીં. જાહેરાત નહીં. ટ્રાયલની ગણતરી નહીં.",
       primaryLink: {
         label: "શરૂ કરો",
-        href: "https://app.flashcards-open-source-app.com",
+        href: "https://app.nibomo.com",
       },
       secondaryLink: {
         label: "GitHub પર જુઓ",

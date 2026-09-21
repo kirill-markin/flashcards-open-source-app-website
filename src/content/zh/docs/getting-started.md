@@ -7,7 +7,7 @@ description: 从托管版 Web 应用开始，或通过发现入口 URL 连接智
 
 最快的上手方式是直接使用托管版 Web 应用：
 
-1. 打开 [app.flashcards-open-source-app.com](https://app.flashcards-open-source-app.com)
+1. 打开 [app.nibomo.com](https://app.nibomo.com)
 2. 使用无密码邮箱 OTP 登录
 3. 创建卡片、复习到期内容，并结合工作区数据和文件附件使用 AI 对话功能
 
@@ -18,7 +18,7 @@ description: 从托管版 Web 应用开始，或通过发现入口 URL 连接智
 如果你希望让 Claude Code、Codex 或 OpenClaw 直接接入，请从以下入口开始：
 
 ```text
-GET https://api.flashcards-open-source-app.com/v1/
+GET https://api.nibomo.com/v1/
 ```
 
 该发现接口的响应会引导智能代理完成邮箱 OTP 登录、创建长期有效的 API key、加载账户信息、初始化工作区，并继续使用已公开的 SQL 接口。

@@ -248,7 +248,7 @@ Outline विषय को एक जगह समझाती है। Deck �
 अगर आप यह workflow Nibomo में आज़माना चाहते हैं:
 
 - [Nibomo से शुरुआत करें](https://nibomo.com/)
-- [वेब ऐप खोलें](https://app.flashcards-open-source-app.com/)
+- [वेब ऐप खोलें](https://app.nibomo.com/)
 - [Getting Started मार्गदर्शिका पढ़ें](https://nibomo.com/docs/getting-started/)
 - [GitHub पर स्रोत देखें](https://github.com/kirill-markin/flashcards-open-source-app)
 

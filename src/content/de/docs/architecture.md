@@ -18,11 +18,11 @@ Apex-Weiterleitung             -> <domain>      -> CloudFront redirect -> app.<d
 2. Postgres ist die Source of Truth
 3. Der iOS-Client ist Offline-First mit lokalem SQLite und Sync
 4. Web-App, iOS-App und externe Agent-Oberflaeche teilen dasselbe Workspace-Modell
-5. Externe Agenten starten bei `GET https://api.flashcards-open-source-app.com/v1/`
+5. Externe Agenten starten bei `GET https://api.nibomo.com/v1/`
 
 ## Unterstuetzte Clients
 
-- Web-App auf `app.flashcards-open-source-app.com`
+- Web-App auf `app.nibomo.com`
 - iOS-App im Haupt-Repository mit lokalem SQLite-Speicher
 - Android-App bei Google Play
 - Externe Agent-Clients ueber Discovery, OTP-Bootstrap und `Authorization: ApiKey`

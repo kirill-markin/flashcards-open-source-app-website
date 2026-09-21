@@ -19,9 +19,9 @@ keywords:
 
 В [Nibomo](https://nibomo.com/) мы открыли для агентов сценарий входа с открытым исходным кодом, который начинается с одной discovery-ссылки:
 
-`https://api.flashcards-open-source-app.com/v1/`
+`https://api.nibomo.com/v1/`
 
-Это каноническая точка входа. Тот же ответ discovery доступен и по адресу `https://api.flashcards-open-source-app.com/v1/agent`, но текущий контракт начинается именно с `/v1/`.
+Это каноническая точка входа. Тот же ответ discovery доступен и по адресу `https://api.nibomo.com/v1/agent`, но текущий контракт начинается именно с `/v1/`.
 
 Передайте этот URL Claude Code, Codex или OpenClaw. Агент сам сможет разобрать сценарий, запросить код из письма, подтвердить его, сохранить API-ключ, загрузить данные аккаунта и продолжить настройку рабочего пространства.
 
@@ -39,7 +39,7 @@ Discovery endpoint в одном ответе возвращает описан�
 Поэтому вместо отдельной инструкции по подключению для каждого инструмента можно просто дать агенту URL и позволить ему следовать инструкциям из ответа.
 
 ```text
-GET https://api.flashcards-open-source-app.com/v1/
+GET https://api.nibomo.com/v1/
 ```
 
 На высоком уровне агент сразу узнает четыре вещи:
@@ -69,7 +69,7 @@ GET https://api.flashcards-open-source-app.com/v1/
 
 ```text
 Используй этот discovery URL Nibomo:
-https://api.flashcards-open-source-app.com/v1/
+https://api.nibomo.com/v1/
 
 Войди в мой аккаунт Nibomo, загрузи контекст аккаунта и выбери или создай нужное рабочее пространство.
 Спрашивай меня только о последнем 8-значном коде из письма, когда это потребуется по сценарию.
@@ -83,7 +83,7 @@ https://api.flashcards-open-source-app.com/v1/
 
 ```text
 Подключи мой аккаунт Nibomo по этому URL:
-https://api.flashcards-open-source-app.com/v1/
+https://api.nibomo.com/v1/
 
 Следуй инструкциям из ответа, храни API-ключ безопасно, загрузи мой аккаунт и затем продолжи настройку рабочего пространства.
 Если потребуется подтверждение, попроси у меня последний 8-значный код из письма.
@@ -94,7 +94,7 @@ https://api.flashcards-open-source-app.com/v1/
 Первый запрос выглядит так:
 
 ```bash
-curl https://api.flashcards-open-source-app.com/v1/
+curl https://api.nibomo.com/v1/
 ```
 
 А ответ специально устроен так, чтобы терминальные агенты могли следовать ему без догадок:
@@ -140,12 +140,14 @@ curl https://api.flashcards-open-source-app.com/v1/
 }
 ```
 
+Эти URL по-прежнему называют прежние хосты на `flashcards-open-source-app.com` — именно это API возвращает сегодня, и здесь, и в ответах ниже. Оба набора хостов обслуживают один и тот же API, так что работает любой из них.
+
 ## Пример: отправка кода на email
 
 Как только у агента появляется email пользователя, он запускает этап OTP:
 
 ```bash
-curl -X POST https://auth.flashcards-open-source-app.com/api/agent/send-code \
+curl -X POST https://auth.nibomo.com/api/agent/send-code \
   -H "Content-Type: application/json" \
   -d '{
     "email": "you@example.com"
@@ -181,7 +183,7 @@ curl -X POST https://auth.flashcards-open-source-app.com/api/agent/send-code \
 Когда пользователь отправляет код из письма, агент может завершить вход:
 
 ```bash
-curl -X POST https://auth.flashcards-open-source-app.com/api/agent/verify-code \
+curl -X POST https://auth.nibomo.com/api/agent/verify-code \
   -H "Content-Type: application/json" \
   -d '{
     "code": "12345678",
@@ -230,7 +232,7 @@ export FLASHCARDS_OPEN_SOURCE_API_KEY="fca_ABCDEFGH_0123456789ABCDEFGHJKMNPQRS"
 Следующий запрос уже выглядит как обычный аутентифицированный вызов API:
 
 ```bash
-curl https://api.flashcards-open-source-app.com/v1/agent/me \
+curl https://api.nibomo.com/v1/agent/me \
   -H "Authorization: ApiKey YOUR_API_KEY"
 ```
 
@@ -303,14 +305,14 @@ Nibomo - проект с открытым исходным кодом, поэт�
 
 Если хотите протестировать сценарий, просто дайте своему агенту этот URL:
 
-`https://api.flashcards-open-source-app.com/v1/`
+`https://api.nibomo.com/v1/`
 
 А дальше позвольте ему сделать остальное.
 
 Полезные ссылки:
 
 - [Nibomo website](https://nibomo.com/)
-- [Hosted app](https://app.flashcards-open-source-app.com/)
+- [Hosted app](https://app.nibomo.com/)
 - [Getting started](https://nibomo.com/docs/getting-started/)
 - [GitHub repository](https://github.com/kirill-markin/flashcards-open-source-app)
 

@@ -197,6 +197,6 @@ keywords:
 
 إذا أردت أن تجرّب ذلك عمليًا:
 
-- [افتح التطبيق](https://app.flashcards-open-source-app.com/)
+- [افتح التطبيق](https://app.nibomo.com/)
 - [اطّلع على صفحة الميزات](https://nibomo.com/features/)
 - [اقرأ دليل البدء](https://nibomo.com/docs/getting-started/)

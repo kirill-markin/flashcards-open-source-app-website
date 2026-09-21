@@ -269,6 +269,6 @@ More useful mistakes.
 If that is what you want, start here:
 
 - [Open Nibomo](https://nibomo.com/)
-- [Open the app](https://app.flashcards-open-source-app.com/)
+- [Open the app](https://app.nibomo.com/)
 - [Read the getting started guide](https://nibomo.com/docs/getting-started/)
 - [View the source on GitHub](https://github.com/kirill-markin/flashcards-open-source-app)

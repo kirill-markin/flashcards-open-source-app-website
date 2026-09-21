@@ -19,9 +19,9 @@ keywords:
 
 في [Nibomo](https://nibomo.com/) نتيح الآن مسار تسجيل دخول مفتوح المصدر للوكلاء يبدأ من رابط اكتشاف واحد:
 
-`https://api.flashcards-open-source-app.com/v1/`
+`https://api.nibomo.com/v1/`
 
-هذه هي نقطة الدخول الأساسية. والحمولة نفسها متاحة أيضًا على `https://api.flashcards-open-source-app.com/v1/agent`، لكن المسار المعتمد حاليًا يبدأ من `/v1/`.
+هذه هي نقطة الدخول الأساسية. والحمولة نفسها متاحة أيضًا على `https://api.nibomo.com/v1/agent`، لكن المسار المعتمد حاليًا يبدأ من `/v1/`.
 
 أعطِ هذا الرابط إلى Claude Code أو Codex أو OpenClaw. يستطيع الوكيل فحص المسار، وطلب رمز البريد الإلكتروني، والتحقق منه، وتخزين مفتاح API، وتحميل بيانات الحساب، ثم متابعة إعداد مساحة العمل بنفسه.
 
@@ -39,7 +39,7 @@ keywords:
 لذلك، بدلًا من كتابة نص إعداد مخصص لكل أداة، يمكنك ببساطة توجيه الوكيل إلى هذا الرابط وتركه يتبع التعليمات التي تعود بها الخدمة.
 
 ```text
-GET https://api.flashcards-open-source-app.com/v1/
+GET https://api.nibomo.com/v1/
 ```
 
 وعلى مستوى عام، يتعرّف الوكيل فورًا إلى أربع نقاط:
@@ -69,7 +69,7 @@ GET https://api.flashcards-open-source-app.com/v1/
 
 ```text
 استخدم رابط الاكتشاف هذا الخاص بـ Nibomo:
-https://api.flashcards-open-source-app.com/v1/
+https://api.nibomo.com/v1/
 
 سجّل الدخول إلى حسابي في Nibomo، وحمّل سياق الحساب، ثم اختر مساحة العمل الصحيحة أو أنشئها.
 لا تطلب مني إلا أحدث رمز بريد إلكتروني مكوّن من 8 أرقام عندما يحتاج التدفق إليه.
@@ -83,7 +83,7 @@ https://api.flashcards-open-source-app.com/v1/
 
 ```text
 اربط حسابي في Nibomo باستخدام هذا الرابط:
-https://api.flashcards-open-source-app.com/v1/
+https://api.nibomo.com/v1/
 
 اتبع التعليمات التي تعود من الخدمة، واحفظ مفتاح API بأمان، وحمّل حسابي، ثم تابع إلى إعداد مساحة العمل.
 إذا احتجت إلى التحقق، فاطلب مني أحدث رمز مكوّن من 8 أرقام من البريد الإلكتروني.
@@ -94,7 +94,7 @@ https://api.flashcards-open-source-app.com/v1/
 هذا هو أول طلب:
 
 ```bash
-curl https://api.flashcards-open-source-app.com/v1/
+curl https://api.nibomo.com/v1/
 ```
 
 وصُممت الاستجابة بحيث تتمكن الوكلاء العاملة في الطرفية من اتباعها من دون حاجة إلى التخمين:
@@ -140,12 +140,14 @@ curl https://api.flashcards-open-source-app.com/v1/
 }
 ```
 
+لا تزال هذه العناوين تشير إلى المضيفات السابقة على `flashcards-open-source-app.com`، وهذا ما تُعيده واجهة البرمجة اليوم، هنا وفي الاستجابات أدناه. وكلتا مجموعتي المضيفات تخدمان الواجهة نفسها، فأيٌّ منهما يعمل.
+
 ## مثال: إرسال رمز التحقق عبر البريد الإلكتروني
 
 بمجرد أن يحصل الوكيل على بريد المستخدم، يبدأ خطوة رمز التحقق:
 
 ```bash
-curl -X POST https://auth.flashcards-open-source-app.com/api/agent/send-code \
+curl -X POST https://auth.nibomo.com/api/agent/send-code \
   -H "Content-Type: application/json" \
   -d '{
     "email": "you@example.com"
@@ -181,7 +183,7 @@ curl -X POST https://auth.flashcards-open-source-app.com/api/agent/send-code \
 بعد أن يرسل المستخدم رمز البريد، يستطيع الوكيل إكمال تسجيل الدخول:
 
 ```bash
-curl -X POST https://auth.flashcards-open-source-app.com/api/agent/verify-code \
+curl -X POST https://auth.nibomo.com/api/agent/verify-code \
   -H "Content-Type: application/json" \
   -d '{
     "code": "12345678",
@@ -230,7 +232,7 @@ export FLASHCARDS_OPEN_SOURCE_API_KEY="fca_ABCDEFGH_0123456789ABCDEFGHJKMNPQRS"
 الطلب التالي هو استدعاء API موثّق اعتيادي:
 
 ```bash
-curl https://api.flashcards-open-source-app.com/v1/agent/me \
+curl https://api.nibomo.com/v1/agent/me \
   -H "Authorization: ApiKey YOUR_API_KEY"
 ```
 
@@ -303,14 +305,14 @@ Nibomo مشروع مفتوح المصدر، لذلك يمكنك فحص هذا ا
 
 إذا أردت اختبار هذا المسار، فأعطِ وكيلك هذا الرابط:
 
-`https://api.flashcards-open-source-app.com/v1/`
+`https://api.nibomo.com/v1/`
 
 ثم دعه يتولى الباقي.
 
 روابط مفيدة:
 
 - [موقع Nibomo](https://nibomo.com/)
-- [التطبيق المستضاف](https://app.flashcards-open-source-app.com/)
+- [التطبيق المستضاف](https://app.nibomo.com/)
 - [البدء](https://nibomo.com/docs/getting-started/)
 - [مستودع GitHub](https://github.com/kirill-markin/flashcards-open-source-app)
 

@@ -176,7 +176,7 @@ Nibomo 自己的 `flashcards.zip` 包也达不到完整备份的范围。它可�
 
 托管版核心功能在[测试期间免费](/pricing/)。自托管生产技术栈并不是运行一条命令就能完成的 Docker 安装：[自托管指南](/docs/self-hosting/)使用 AWS CDK，并需要 AWS 服务、Cloudflare、Resend、Sentry、密钥、迁移、备份、恢复和升级。Docker Compose 用于开发环境，不是受支持的生产部署方式。
 
-如果切换的理由正是获得完整源代码和由自己掌控的后端，而且卡片足够简单，可以安全重建，那么可以选择 Nibomo。[打开托管应用](https://app.flashcards-open-source-app.com/)试用一副小型临时牌组。如果学习状态的保真度最重要，请继续使用 Anki，或测试 RemNote、Mochi 或 Mnemosyne。
+如果切换的理由正是获得完整源代码和由自己掌控的后端，而且卡片足够简单，可以安全重建，那么可以选择 Nibomo。[打开托管应用](https://app.nibomo.com/)试用一副小型临时牌组。如果学习状态的保真度最重要，请继续使用 Anki，或测试 RemNote、Mochi 或 Mnemosyne。
 
 ## 哪款 iOS 版 Anki 替代品不会埋下迁移隐患？
 

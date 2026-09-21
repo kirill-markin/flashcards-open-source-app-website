@@ -14,7 +14,7 @@ HTTP discovery, SQL, guide, and review contract used by CLI agents.
 Start from the canonical discovery entrypoint:
 
 ```text
-GET https://api.flashcards-open-source-app.com/v1/
+GET https://api.nibomo.com/v1/
 ```
 
 The same discovery payload is also available at `GET /v1/agent`, but `/v1/` is the primary public entrypoint.
@@ -32,19 +32,19 @@ The discovery response tells an agent how to:
 
 OpenAPI is unavailable. The four former specification URLs below now return the same JSON discovery notice with `"openapiAvailable": false` instead of a schema:
 
-- `https://api.flashcards-open-source-app.com/v1/agent/openapi.json`
-- `https://api.flashcards-open-source-app.com/v1/agent/swagger.json`
-- `https://api.flashcards-open-source-app.com/v1/openapi.json`
-- `https://api.flashcards-open-source-app.com/v1/swagger.json`
+- `https://api.nibomo.com/v1/agent/openapi.json`
+- `https://api.nibomo.com/v1/agent/swagger.json`
+- `https://api.nibomo.com/v1/openapi.json`
+- `https://api.nibomo.com/v1/swagger.json`
 
-Use `GET https://api.flashcards-open-source-app.com/v1/` for current runtime discovery. Follow the returned `docs.discoveryUrl` for runtime routes and `docs.source.agentRoutesUrl` for implementation details.
+Use `GET https://api.nibomo.com/v1/` for current runtime discovery. Follow the returned `docs.discoveryUrl` for runtime routes and `docs.source.agentRoutesUrl` for implementation details.
 
 ## Authentication Bootstrap
 
 OTP bootstrap runs on the auth service:
 
-- `POST https://auth.flashcards-open-source-app.com/api/agent/send-code`
-- `POST https://auth.flashcards-open-source-app.com/api/agent/verify-code`
+- `POST https://auth.nibomo.com/api/agent/send-code`
+- `POST https://auth.nibomo.com/api/agent/verify-code`
 
 The flow is:
 
@@ -70,17 +70,17 @@ Authorization: ApiKey <key>
 Example bootstrap sequence:
 
 ```bash
-curl https://api.flashcards-open-source-app.com/v1/
+curl https://api.nibomo.com/v1/
 ```
 
 ```bash
-curl -X POST https://auth.flashcards-open-source-app.com/api/agent/send-code \
+curl -X POST https://auth.nibomo.com/api/agent/send-code \
   -H "Content-Type: application/json" \
   -d '{"email":"you@example.com"}'
 ```
 
 ```bash
-curl -X POST https://auth.flashcards-open-source-app.com/api/agent/verify-code \
+curl -X POST https://auth.nibomo.com/api/agent/verify-code \
   -H "Content-Type: application/json" \
   -d '{
     "code":"12345678",
@@ -155,7 +155,7 @@ Notes:
 Example request:
 
 ```bash
-curl -X POST https://api.flashcards-open-source-app.com/v1/agent/sql/query \
+curl -X POST https://api.nibomo.com/v1/agent/sql/query \
   -H "Content-Type: application/json" \
   -H "Authorization: ApiKey $FLASHCARDS_OPEN_SOURCE_API_KEY" \
   -d '{"sql":"SHOW TABLES"}'
@@ -164,7 +164,7 @@ curl -X POST https://api.flashcards-open-source-app.com/v1/agent/sql/query \
 Example card query:
 
 ```bash
-curl -X POST https://api.flashcards-open-source-app.com/v1/agent/sql/query \
+curl -X POST https://api.nibomo.com/v1/agent/sql/query \
   -H "Content-Type: application/json" \
   -H "Authorization: ApiKey $FLASHCARDS_OPEN_SOURCE_API_KEY" \
   -d '{
@@ -175,7 +175,7 @@ curl -X POST https://api.flashcards-open-source-app.com/v1/agent/sql/query \
 Example mutation:
 
 ```bash
-curl -X POST https://api.flashcards-open-source-app.com/v1/agent/sql/execute \
+curl -X POST https://api.nibomo.com/v1/agent/sql/execute \
   -H "Content-Type: application/json" \
   -H "Authorization: ApiKey $FLASHCARDS_OPEN_SOURCE_API_KEY" \
   -d '{
@@ -208,7 +208,7 @@ The SQL surface is a contained, parser-enforced dialect rather than raw PostgreS
 An unknown topic answers `400` with the list of supported topics. Fetch the matching guide before authoring cards, writing in bulk, or running a review, and re-read `sql_dialect` after a rejected statement.
 
 ```bash
-curl https://api.flashcards-open-source-app.com/v1/agent/guide/sql_dialect \
+curl https://api.nibomo.com/v1/agent/guide/sql_dialect \
   -H "Authorization: ApiKey $FLASHCARDS_OPEN_SOURCE_API_KEY"
 ```
 
@@ -230,7 +230,7 @@ All three routes accept the optional `workspaceId`. Persist the `reviewId` befor
 Example submission:
 
 ```bash
-curl -X POST https://api.flashcards-open-source-app.com/v1/agent/reviews/submit \
+curl -X POST https://api.nibomo.com/v1/agent/reviews/submit \
   -H "Content-Type: application/json" \
   -H "Authorization: ApiKey $FLASHCARDS_OPEN_SOURCE_API_KEY" \
   -d '{

@@ -268,7 +268,7 @@ Esa es la versión de **flashcards de ChatGPT Study Mode** que tiene sentido par
 Si eso es lo que buscas, empieza aquí:
 
 - [Abrir Nibomo](https://nibomo.com/)
-- [Abrir la app](https://app.flashcards-open-source-app.com/)
+- [Abrir la app](https://app.nibomo.com/)
 - [Ver las funcionalidades](https://nibomo.com/features/)
 - [Ver el código fuente en GitHub](https://github.com/kirill-markin/flashcards-open-source-app)
 

@@ -286,7 +286,7 @@ El producto actual cubre la parte intermedia del flujo que aquí sí importa:
 
 Si para ti importa la propiedad a largo plazo, el proyecto también es de código abierto y tiene una opción autohospedada. Para la mayoría de los estudiantes de TEAS, eso es secundario. La ventaja principal es tener creación de tarjetas, repaso y limpieza en un solo sitio en vez de repartirlo entre apuntes, capturas y pestañas del navegador.
 
-Si quieres la entrada más rápida, empieza con la [app web alojada](https://app.flashcards-open-source-app.com/). Si prefieres ver antes una visión general del producto, usa la [página de funcionalidades](https://nibomo.com/features).
+Si quieres la entrada más rápida, empieza con la [app web alojada](https://app.nibomo.com/). Si prefieres ver antes una visión general del producto, usa la [página de funcionalidades](https://nibomo.com/features).
 
 ## Lo que yo haría en los últimos 10 días antes del ATI TEAS
 

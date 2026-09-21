@@ -20,7 +20,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
       trustLine: "Kredi kartı yok. Reklam yok. Deneme süresi geri sayımı yok.",
       primaryLink: {
         label: "Başlayın",
-        href: "https://app.flashcards-open-source-app.com",
+        href: "https://app.nibomo.com",
       },
       secondaryLink: {
         label: "GitHub'da görüntüleyin",

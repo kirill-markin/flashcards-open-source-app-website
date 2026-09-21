@@ -68,7 +68,7 @@ Nibomo 的身份验证页面使用 `auth.flashcards-open-source-app.com` 域名�
 标签：web-basics
 ```
 
-选择工作区，查看 Claude 的写入请求，确认内容和保存位置正确后再批准。然后打开 [Nibomo](https://app.flashcards-open-source-app.com/)，检查已保存卡片的正面是否为问题、背面是否为答案。本指南的验证范围包括连接成功和权限设置已保存，不包括创建卡片。你可以通过这次小测试，确认 Claude 也能将卡片保存到你选择的工作区。
+选择工作区，查看 Claude 的写入请求，确认内容和保存位置正确后再批准。然后打开 [Nibomo](https://app.nibomo.com/)，检查已保存卡片的正面是否为问题、背面是否为答案。本指南的验证范围包括连接成功和权限设置已保存，不包括创建卡片。你可以通过这次小测试，确认 Claude 也能将卡片保存到你选择的工作区。
 
 如果 Claude 只是在对话中写出卡片内容，请检查设置中 Nibomo 是否已连接、当前对话是否已启用它，以及 **Nibomo SQL execute (write)** 是否被禁用。明确要求 Claude 通过 Nibomo 保存卡片。
 

@@ -197,6 +197,6 @@ keywords:
 
 如果你想实际试一试：
 
-- [打开应用](https://app.flashcards-open-source-app.com/)
+- [打开应用](https://app.nibomo.com/)
 - [查看功能页](https://nibomo.com/features/)
 - [阅读入门指南](https://nibomo.com/docs/getting-started/)

@@ -286,6 +286,6 @@ FSRS तब सबसे अच्छा काम करता है जब:
 अगर आप यह workflow एक ही जगह आज़माना चाहते हैं:
 
 - [Nibomo खोलें](https://nibomo.com/)
-- [ऐप खोलें](https://app.flashcards-open-source-app.com/)
+- [ऐप खोलें](https://app.nibomo.com/)
 - [features page पढ़ें](https://nibomo.com/features/)
 - [GitHub पर source देखें](https://github.com/kirill-markin/flashcards-open-source-app)

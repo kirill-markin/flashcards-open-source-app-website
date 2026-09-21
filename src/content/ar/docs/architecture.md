@@ -18,11 +18,11 @@ description: نظرة عامة على النظام، والنطاقات العا
 2. Postgres هو مصدر الحقيقة
 3. عميل iOS يعمل دون اتصال أولًا مع SQLite محلي ومزامنة
 4. يشترك تطبيق الويب وعميل iOS وسطح الوكلاء الخارجيين في نموذج مساحة العمل نفسه
-5. يبدأ الوكلاء الخارجيون من `GET https://api.flashcards-open-source-app.com/v1/`
+5. يبدأ الوكلاء الخارجيون من `GET https://api.nibomo.com/v1/`
 
 ## العملاء المدعومون
 
-- تطبيق ويب على `app.flashcards-open-source-app.com`
+- تطبيق ويب على `app.nibomo.com`
 - تطبيق iOS في المستودع الرئيسي مع تخزين SQLite محلي
 - تطبيق Android على Google Play
 - عملاء وكلاء خارجيون عبر الاكتشاف وتهيئة OTP ومصادقة `Authorization: ApiKey`

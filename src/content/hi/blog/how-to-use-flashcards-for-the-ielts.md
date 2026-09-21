@@ -261,6 +261,6 @@ AI यहां उपयोगी है, लेकिन उतने बड�
 अगर आप यही workflow actual product के अंदर आजमाना चाहते हैं:
 
 - [Nibomo खोलें](/hi/)
-- [ऐप खोलें](https://app.flashcards-open-source-app.com/)
+- [ऐप खोलें](https://app.nibomo.com/)
 - [शुरुआत गाइड पढ़ें](/hi/docs/getting-started/)
 - [GitHub पर source देखें](https://github.com/kirill-markin/flashcards-open-source-app)

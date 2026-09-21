@@ -202,7 +202,7 @@ Nibomo は、単発のジェネレーターよりずっと地に足がついて�
 実用的に **ノートをフラッシュカードに変える手順** を始めたいなら、ここからどうぞ。
 
 - [Nibomo を開く](https://nibomo.com/)
-- [アプリを開く](https://app.flashcards-open-source-app.com/)
+- [アプリを開く](https://app.nibomo.com/)
 - [使い始めガイドを読む](https://nibomo.com/docs/getting-started/)
 - [GitHubでソースを見る](https://github.com/kirill-markin/flashcards-open-source-app)
 

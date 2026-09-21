@@ -261,6 +261,6 @@ Das ist eine deutlich bessere Antwort auf die Frage, **wie man für den IELTS le
 Wenn du diesen Workflow im eigentlichen Produkt ausprobieren willst:
 
 - [Nibomo öffnen](/de/)
-- [Die App öffnen](https://app.flashcards-open-source-app.com/)
+- [Die App öffnen](https://app.nibomo.com/)
 - [Den Einstiegsleitfaden lesen](/de/docs/getting-started/)
 - [Den Quellcode auf GitHub ansehen](https://github.com/kirill-markin/flashcards-open-source-app)

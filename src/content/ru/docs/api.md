@@ -14,7 +14,7 @@ description: "Внешний API для агентов ИИ: discovery, перв
 Начинайте с канонической точки входа discovery:
 
 ```text
-GET https://api.flashcards-open-source-app.com/v1/
+GET https://api.nibomo.com/v1/
 ```
 
 Тот же ответ discovery доступен и по `GET /v1/agent`, но основная публичная точка входа — именно `/v1/`.
@@ -32,19 +32,19 @@ GET https://api.flashcards-open-source-app.com/v1/
 
 OpenAPI недоступен. Четыре прежних URL спецификаций ниже теперь возвращают одно и то же JSON-уведомление discovery с `"openapiAvailable": false` вместо схемы:
 
-- `https://api.flashcards-open-source-app.com/v1/agent/openapi.json`
-- `https://api.flashcards-open-source-app.com/v1/agent/swagger.json`
-- `https://api.flashcards-open-source-app.com/v1/openapi.json`
-- `https://api.flashcards-open-source-app.com/v1/swagger.json`
+- `https://api.nibomo.com/v1/agent/openapi.json`
+- `https://api.nibomo.com/v1/agent/swagger.json`
+- `https://api.nibomo.com/v1/openapi.json`
+- `https://api.nibomo.com/v1/swagger.json`
 
-Для актуального runtime discovery используйте `GET https://api.flashcards-open-source-app.com/v1/`. В ответе `docs.discoveryUrl` указывает на runtime-маршруты, а `docs.source.agentRoutesUrl` — на детали реализации.
+Для актуального runtime discovery используйте `GET https://api.nibomo.com/v1/`. В ответе `docs.discoveryUrl` указывает на runtime-маршруты, а `docs.source.agentRoutesUrl` — на детали реализации.
 
 ## Первичная аутентификация
 
 Первичный OTP-поток выполняется через сервис аутентификации:
 
-- `POST https://auth.flashcards-open-source-app.com/api/agent/send-code`
-- `POST https://auth.flashcards-open-source-app.com/api/agent/verify-code`
+- `POST https://auth.nibomo.com/api/agent/send-code`
+- `POST https://auth.nibomo.com/api/agent/verify-code`
 
 Последовательность выглядит так:
 
@@ -70,17 +70,17 @@ Authorization: ApiKey <key>
 Пример первичной последовательности:
 
 ```bash
-curl https://api.flashcards-open-source-app.com/v1/
+curl https://api.nibomo.com/v1/
 ```
 
 ```bash
-curl -X POST https://auth.flashcards-open-source-app.com/api/agent/send-code \
+curl -X POST https://auth.nibomo.com/api/agent/send-code \
   -H "Content-Type: application/json" \
   -d '{"email":"you@example.com"}'
 ```
 
 ```bash
-curl -X POST https://auth.flashcards-open-source-app.com/api/agent/verify-code \
+curl -X POST https://auth.nibomo.com/api/agent/verify-code \
   -H "Content-Type: application/json" \
   -d '{
     "code":"12345678",
@@ -157,7 +157,7 @@ PostgreSQL.
 Пример запроса:
 
 ```bash
-curl -X POST https://api.flashcards-open-source-app.com/v1/agent/sql/query \
+curl -X POST https://api.nibomo.com/v1/agent/sql/query \
   -H "Content-Type: application/json" \
   -H "Authorization: ApiKey $FLASHCARDS_OPEN_SOURCE_API_KEY" \
   -d '{"sql":"SHOW TABLES"}'
@@ -166,7 +166,7 @@ curl -X POST https://api.flashcards-open-source-app.com/v1/agent/sql/query \
 Пример запроса карточек:
 
 ```bash
-curl -X POST https://api.flashcards-open-source-app.com/v1/agent/sql/query \
+curl -X POST https://api.nibomo.com/v1/agent/sql/query \
   -H "Content-Type: application/json" \
   -H "Authorization: ApiKey $FLASHCARDS_OPEN_SOURCE_API_KEY" \
   -d '{
@@ -177,7 +177,7 @@ curl -X POST https://api.flashcards-open-source-app.com/v1/agent/sql/query \
 Пример изменения данных:
 
 ```bash
-curl -X POST https://api.flashcards-open-source-app.com/v1/agent/sql/execute \
+curl -X POST https://api.nibomo.com/v1/agent/sql/execute \
   -H "Content-Type: application/json" \
   -H "Authorization: ApiKey $FLASHCARDS_OPEN_SOURCE_API_KEY" \
   -d '{
@@ -210,7 +210,7 @@ SQL-интерфейс — это изолированный диалект с �
 На неизвестную тему маршрут отвечает `400` со списком поддерживаемых тем. Загрузите подходящее руководство перед созданием карточек, массовой записью или запуском повторения и перечитайте `sql_dialect` после отклонённого выражения.
 
 ```bash
-curl https://api.flashcards-open-source-app.com/v1/agent/guide/sql_dialect \
+curl https://api.nibomo.com/v1/agent/guide/sql_dialect \
   -H "Authorization: ApiKey $FLASHCARDS_OPEN_SOURCE_API_KEY"
 ```
 
@@ -232,7 +232,7 @@ curl https://api.flashcards-open-source-app.com/v1/agent/guide/sql_dialect \
 Пример отправки:
 
 ```bash
-curl -X POST https://api.flashcards-open-source-app.com/v1/agent/reviews/submit \
+curl -X POST https://api.nibomo.com/v1/agent/reviews/submit \
   -H "Content-Type: application/json" \
   -H "Authorization: ApiKey $FLASHCARDS_OPEN_SOURCE_API_KEY" \
   -d '{

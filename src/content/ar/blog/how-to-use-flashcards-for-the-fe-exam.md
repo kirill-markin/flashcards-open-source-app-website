@@ -360,6 +360,6 @@ keywords:
 
 إذا أردت تجربة هذا السير عمليًا:
 
-- [افتح التطبيق](https://app.flashcards-open-source-app.com/)
+- [افتح التطبيق](https://app.nibomo.com/)
 - [اطّلع على صفحة المزايا](/ar/features/)
 - [اقرأ دليل البدء](/ar/docs/getting-started/)

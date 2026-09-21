@@ -200,7 +200,7 @@ keywords:
 إذا كنت تريد طريقة عملية لتحويل الملاحظات إلى بطاقات تعليمية، فابدأ من هنا:
 
 - [تعرّف إلى Nibomo](https://nibomo.com/)
-- [افتح التطبيق](https://app.flashcards-open-source-app.com/)
+- [افتح التطبيق](https://app.nibomo.com/)
 - [اقرأ دليل البدء](https://nibomo.com/docs/getting-started/)
 - [اطّلع على الشيفرة المصدرية على GitHub](https://github.com/kirill-markin/flashcards-open-source-app)
 
