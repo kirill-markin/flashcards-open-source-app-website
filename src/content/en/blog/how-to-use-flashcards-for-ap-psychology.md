@@ -87,6 +87,8 @@ Examples of strong AP Psychology term prompts:
 
 Those are stronger than a giant glossary deck because they train the part that usually fails under pressure: distinguishing the right idea from a nearby wrong one.
 
+For focused practice with reinforcement and punishment, [these operant conditioning flashcards](/catalog/packages/operant-conditioning-flashcards/) use original scenarios to separate what is added or removed from whether the target behavior increases or decreases. They also ask when a scenario lacks enough information to classify the consequence.
+
 If card quality is the bigger issue than subject choice, [How to Make Better Flashcards in 2026](https://nibomo.com/blog/how-to-make-better-flashcards/) is the right companion.
 
 ## Famous studies need separate cards for the researcher, the finding, and the exam use
