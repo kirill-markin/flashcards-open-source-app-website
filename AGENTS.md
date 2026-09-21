@@ -48,6 +48,7 @@ Marketing website for Nibomo. Static Next.js site deployed on Vercel.
 ## Core Principles
 
 - Static generation first: pre-render all content at build time; no request-time server computation.
+- Exception: package pages in a locale that is not the deck's audience locale are rendered once on first request and cached until the next deployment; see the package route's `generateStaticParams`.
 - Server Components first: use client components only where interactivity is required (`AuthButton`, header mobile menu).
 - Public content only: no secret pages, private data, or server-side personalization.
 - No request-time HTML rendering: do not add SSR, server-side cookie checks, or similar HTML personalization; if a UI detail depends on browser state, handle it after load in a small client component.
