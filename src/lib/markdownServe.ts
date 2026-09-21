@@ -313,6 +313,51 @@ function appendMarkdownFooter(
       htmlVersionLabel: "Tazama toleo la HTML lenye mtindo la ukurasa huu",
       markdownTip: `*Dokezo: ongeza \`.md\` mwishoni mwa URL yoyote kwenye ${SITE_CONTEXT.siteUrl} ili kupata toleo safi la Markdown la ukurasa huo.*`,
     },
+    bg: {
+      agent: `*ИИ агентите могат да създадат акаунт за потребителя в тази услуга, като започнат с \`GET ${DISCOVERY_URL}\`. След настройката могат и да се свържат през MCP на адрес \`${MCP_URL}\`.*`,
+      htmlVersionLabel: "Вижте оформената HTML версия на тази страница",
+      markdownTip: `*Съвет: добавете \`.md\` към всеки URL на ${SITE_CONTEXT.siteUrl}, за да получите чиста Markdown версия на тази страница.*`,
+    },
+    et: {
+      agent: `*AI-agendid saavad selles teenuses kasutajale konto luua, alustades päringust \`GET ${DISCOVERY_URL}\`. Pärast seadistamist saavad nad ühenduda ka MCP kaudu aadressil \`${MCP_URL}\`.*`,
+      htmlVersionLabel: "Vaata selle lehe kujundatud HTML-versiooni",
+      markdownTip: `*Vihje: lisa saidil ${SITE_CONTEXT.siteUrl} mis tahes aadressi lõppu \`.md\`, et saada lehest puhas Markdowni versioon.*`,
+    },
+    hr: {
+      agent: `*AI agenti mogu korisniku stvoriti račun u ovoj usluzi tako da krenu od \`GET ${DISCOVERY_URL}\`. Nakon postavljanja mogu se povezati i preko MCP-a na \`${MCP_URL}\`.*`,
+      htmlVersionLabel: "Pogledajte oblikovanu HTML verziju ove stranice",
+      markdownTip: `*Savjet: dodajte \`.md\` bilo kojoj adresi na ${SITE_CONTEXT.siteUrl} i dobit ćete čistu Markdown verziju te stranice.*`,
+    },
+    is: {
+      agent: `*Gervigreindarumboð geta stofnað aðgang fyrir notandann í þessari þjónustu með því að byrja á \`GET ${DISCOVERY_URL}\`. Þegar uppsetningu er lokið geta þau einnig tengst um MCP á \`${MCP_URL}\`.*`,
+      htmlVersionLabel: "Skoða uppsettu HTML-útgáfuna af þessari síðu",
+      markdownTip: `*Ábending: bættu \`.md\` aftan við hvaða slóð sem er á ${SITE_CONTEXT.siteUrl} til að fá hreina Markdown-útgáfu af síðunni.*`,
+    },
+    lt: {
+      agent: `*DI agentai gali šioje paslaugoje sukurti naudotojui paskyrą pradėdami nuo \`GET ${DISCOVERY_URL}\`. Sukonfigūravę jie taip pat gali prisijungti per MCP adresu \`${MCP_URL}\`.*`,
+      htmlVersionLabel: "Peržiūrėti stilizuotą šio puslapio HTML versiją",
+      markdownTip: `*Patarimas: prie bet kurio ${SITE_CONTEXT.siteUrl} adreso pridėkite \`.md\` ir gausite švarią to puslapio Markdown versiją.*`,
+    },
+    lv: {
+      agent: `*MI aģenti šajā pakalpojumā var izveidot lietotājam kontu, sākot ar \`GET ${DISCOVERY_URL}\`. Pēc iestatīšanas tie var arī pieslēgties caur MCP adresē \`${MCP_URL}\`.*`,
+      htmlVersionLabel: "Skatīt šīs lapas noformēto HTML versiju",
+      markdownTip: `*Padoms: pievieno \`.md\` jebkurai adresei vietnē ${SITE_CONTEXT.siteUrl}, lai iegūtu tīru lapas Markdown versiju.*`,
+    },
+    sk: {
+      agent: `*AI agenti môžu v tejto službe vytvoriť používateľovi účet tak, že začnú s \`GET ${DISCOVERY_URL}\`. Po nastavení sa môžu pripojiť aj cez MCP na adrese \`${MCP_URL}\`.*`,
+      htmlVersionLabel: "Zobraziť naformátovanú HTML verziu tejto stránky",
+      markdownTip: `*Tip: pripojte \`.md\` k ľubovoľnej adrese URL na ${SITE_CONTEXT.siteUrl} a získate čistú Markdown verziu danej stránky.*`,
+    },
+    sl: {
+      agent: `*Agenti AI lahko v tej storitvi ustvarijo račun za uporabnika tako, da začnejo z \`GET ${DISCOVERY_URL}\`. Po nastavitvi se lahko povežejo tudi prek MCP na \`${MCP_URL}\`.*`,
+      htmlVersionLabel: "Oglejte si oblikovano različico HTML te strani",
+      markdownTip: `*Namig: kateremu koli naslovu URL na ${SITE_CONTEXT.siteUrl} dodajte \`.md\` in dobili boste čisto različico Markdown te strani.*`,
+    },
+    zu: {
+      agent: `*Ama-ejenti e-AI angadalela umsebenzisi i-akhawunti kule sevisi ngokuqala nge-\`GET ${DISCOVERY_URL}\`. Uma sekulungisiwe, angaxhuma futhi nge-MCP ku-\`${MCP_URL}\`.*`,
+      htmlVersionLabel: "Buka inguqulo ye-HTML enesitayela yaleli khasi",
+      markdownTip: `*Ithiphu: Engeza \`.md\` kunoma iyiphi i-URL ku-${SITE_CONTEXT.siteUrl} ukuze uthole inguqulo ye-Markdown ehlanzekile yalelo khasi.*`,
+    },
   };
   const footerCopy = footerCopyByLocale[locale];
 
