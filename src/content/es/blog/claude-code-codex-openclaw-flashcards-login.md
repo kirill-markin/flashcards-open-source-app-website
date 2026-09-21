@@ -19,9 +19,9 @@ Ese es exactamente el tipo de trabajo que una herramienta debería hacer por ti.
 
 En [Nibomo](https://nibomo.com/), ahora ofrecemos un flujo abierto de inicio de sesión para agentes que arranca desde una única URL de descubrimiento:
 
-`https://api.flashcards-open-source-app.com/v1/`
+`https://api.nibomo.com/v1/`
 
-Ese es el punto de entrada canónico. La misma respuesta de descubrimiento también está disponible en `https://api.flashcards-open-source-app.com/v1/agent`, pero el contrato actual arranca en `/v1/`.
+Ese es el punto de entrada canónico. La misma respuesta de descubrimiento también está disponible en `https://api.nibomo.com/v1/agent`, pero el contrato actual arranca en `/v1/`.
 
 Dale esa URL a Claude Code, Codex u OpenClaw. El agente puede inspeccionar el flujo, pedir el código por correo, validarlo, guardar la clave API, cargar la cuenta y continuar por su cuenta con la preparación inicial del espacio de trabajo.
 
@@ -39,7 +39,7 @@ El endpoint de descubrimiento devuelve en una sola respuesta la descripción del
 Así que, en vez de redactar unas instrucciones de puesta en marcha distintas para cada herramienta, puedes limitarte a darle la URL al agente y dejar que siga las instrucciones que reciba.
 
 ```text
-GET https://api.flashcards-open-source-app.com/v1/
+GET https://api.nibomo.com/v1/
 ```
 
 A grandes rasgos, el agente aprende de inmediato cuatro cosas:
@@ -71,7 +71,7 @@ Los siguientes prompts están en inglés a propósito, para que puedas copiarlos
 
 ```text
 Use this Nibomo discovery URL:
-https://api.flashcards-open-source-app.com/v1/
+https://api.nibomo.com/v1/
 
 Log in to my Nibomo account, load account context, and select or create the correct workspace.
 Ask me only for the latest 8-digit email code when the flow requires it.
@@ -85,7 +85,7 @@ La idea es la misma, con algo más de contexto:
 
 ```text
 Connect my Nibomo account using this URL:
-https://api.flashcards-open-source-app.com/v1/
+https://api.nibomo.com/v1/
 
 Follow the returned instructions, keep the API key secure, load my account, then continue to workspace setup.
 If verification is needed, ask me for the latest 8-digit code from the email.
@@ -96,7 +96,7 @@ If verification is needed, ask me for the latest 8-digit code from the email.
 Esta es la primera petición:
 
 ```bash
-curl https://api.flashcards-open-source-app.com/v1/
+curl https://api.nibomo.com/v1/
 ```
 
 Y la respuesta está estructurada para que los agentes que trabajan en terminal puedan seguir el flujo sin tener que adivinar nada:
@@ -142,12 +142,14 @@ Y la respuesta está estructurada para que los agentes que trabajan en terminal 
 }
 ```
 
+Esas URL siguen nombrando los antiguos hosts de `flashcards-open-source-app.com`, que es lo que la API devuelve hoy, tanto aquí como en las respuestas siguientes. Ambos conjuntos de hosts atienden la misma API, así que cualquiera de los dos funciona.
+
 ## Ejemplo: solicitar el código por correo
 
 Una vez que el agente tiene el correo electrónico del usuario, arranca el paso de OTP:
 
 ```bash
-curl -X POST https://auth.flashcards-open-source-app.com/api/agent/send-code \
+curl -X POST https://auth.nibomo.com/api/agent/send-code \
   -H "Content-Type: application/json" \
   -d '{
     "email": "you@example.com"
@@ -183,7 +185,7 @@ En este punto, el agente solo se detiene el tiempo imprescindible para pedirle a
 Cuando el usuario reenvía el código recibido por correo, el agente ya puede terminar el inicio de sesión:
 
 ```bash
-curl -X POST https://auth.flashcards-open-source-app.com/api/agent/verify-code \
+curl -X POST https://auth.nibomo.com/api/agent/verify-code \
   -H "Content-Type: application/json" \
   -d '{
     "code": "12345678",
@@ -232,7 +234,7 @@ export FLASHCARDS_OPEN_SOURCE_API_KEY="fca_ABCDEFGH_0123456789ABCDEFGHJKMNPQRS"
 La siguiente petición ya es una llamada autenticada normal a la API:
 
 ```bash
-curl https://api.flashcards-open-source-app.com/v1/agent/me \
+curl https://api.nibomo.com/v1/agent/me \
   -H "Authorization: ApiKey YOUR_API_KEY"
 ```
 
@@ -305,14 +307,14 @@ Si te interesa la autenticación de APIs de código abierto, el inicio de sesió
 
 Si quieres probar el flujo, dale a tu agente esta URL:
 
-`https://api.flashcards-open-source-app.com/v1/`
+`https://api.nibomo.com/v1/`
 
 Y deja que se encargue del resto.
 
 Enlaces útiles:
 
 - [Sitio web de Nibomo](https://nibomo.com/)
-- [Aplicación alojada](https://app.flashcards-open-source-app.com/)
+- [Aplicación alojada](https://app.nibomo.com/)
 - [Primeros pasos](https://nibomo.com/docs/getting-started/)
 - [Repositorio en GitHub](https://github.com/kirill-markin/flashcards-open-source-app)
 

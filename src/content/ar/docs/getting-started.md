@@ -7,7 +7,7 @@ description: ابدأ من تطبيق الويب المستضاف، أو صِل 
 
 أسرع طريقة للبدء هي تطبيق الويب المستضاف:
 
-1. افتح [app.flashcards-open-source-app.com](https://app.flashcards-open-source-app.com)
+1. افتح [app.nibomo.com](https://app.nibomo.com)
 2. سجّل الدخول ببريدك باستخدام OTP بلا كلمة مرور
 3. أنشئ بطاقات وراجع العناصر المستحقة واستخدم دردشة الذكاء الاصطناعي مع بيانات مساحة العمل والملفات المرفقة
 
@@ -18,7 +18,7 @@ description: ابدأ من تطبيق الويب المستضاف، أو صِل 
 إذا كنت تريد أن يتصل Claude Code أو Codex أو OpenClaw مباشرة، فابدأ من:
 
 ```text
-GET https://api.flashcards-open-source-app.com/v1/
+GET https://api.nibomo.com/v1/
 ```
 
 تشرح استجابة الاكتشاف هذه للوكيل كيفية تسجيل الدخول عبر OTP بالبريد، وإنشاء مفتاح API طويل العمر، وتحميل الحساب، وتهيئة مساحة العمل، ثم متابعة سطح SQL المنشور.

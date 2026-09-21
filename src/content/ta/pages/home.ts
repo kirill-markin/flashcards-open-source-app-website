@@ -19,7 +19,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
       trustLine: "கிரெடிட் கார்டு தேவையில்லை. விளம்பரம் இல்லை. சோதனைக் கால எண்ணிக்கை இல்லை.",
       primaryLink: {
         label: "தொடங்குங்கள்",
-        href: "https://app.flashcards-open-source-app.com",
+        href: "https://app.nibomo.com",
       },
       secondaryLink: {
         label: "GitHub இல் பாருங்கள்",

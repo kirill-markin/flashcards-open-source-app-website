@@ -288,7 +288,7 @@ keywords:
 **講義の文字起こしからフラッシュカードを作る流れ** を組みたいなら、まずはここから始めてください。
 
 - [Nibomo を開く](https://nibomo.com/)
-- [アプリを開く](https://app.flashcards-open-source-app.com/)
+- [アプリを開く](https://app.nibomo.com/)
 - [セルフホスティングガイドを読む](https://nibomo.com/docs/self-hosting/)
 - [GitHub でソースを見る](https://github.com/kirill-markin/flashcards-open-source-app)
 

@@ -18,11 +18,11 @@ iOS 应用 / 代理客户端            -> api.<domain>  -> API Gateway -> Lambd
 2. Postgres 是唯一的真实数据源。
 3. iOS 客户端采用离线优先模式，本地使用 SQLite，并通过同步与服务端保持一致。
 4. 网页应用、iOS 应用和外部代理接口共享同一套工作区数据模型。
-5. 外部代理从 `GET https://api.flashcards-open-source-app.com/v1/` 开始接入。
+5. 外部代理从 `GET https://api.nibomo.com/v1/` 开始接入。
 
 ## 支持的客户端
 
-- 运行在 `app.flashcards-open-source-app.com` 的网页应用
+- 运行在 `app.nibomo.com` 的网页应用
 - 主仓库中的 iOS 应用，本地使用 SQLite 存储
 - 发布在 Google Play 上的 Android 应用
 - 通过发现流程、OTP 引导和 `Authorization: ApiKey` 接入的外部代理客户端

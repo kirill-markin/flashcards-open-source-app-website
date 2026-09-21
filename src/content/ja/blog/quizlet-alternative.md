@@ -149,4 +149,4 @@ NibomoはMITライセンスで、ホスティング版のWeb、iOS、Androidア�
 
 「Quizletから欠点だけを取り除いた製品」ではありません。Nibomoには、専用のLearnモードとTestモード、Quizletに匹敵する共有セットライブラリ、Quizletから直接取り込むインポーター、`flashcards.zip`による完全なポータブルバックアップがありません。
 
-その不足によってQuizletでよく使う機能を失うなら、Quizletを使い続けるのが賢明です。スケジューラーの透明性、オフラインファースト学習、インフラを自分で管理できることを求めて検索を始めたのなら、決める前に[Nibomoを開く](https://app.flashcards-open-source-app.com/)か、[ソースコードを確認](https://github.com/kirill-markin/flashcards-open-source-app)してみてください。よい学習システムとは、目新しさが薄れたあとも、そのトレードオフに納得できるものです。
+その不足によってQuizletでよく使う機能を失うなら、Quizletを使い続けるのが賢明です。スケジューラーの透明性、オフラインファースト学習、インフラを自分で管理できることを求めて検索を始めたのなら、決める前に[Nibomoを開く](https://app.nibomo.com/)か、[ソースコードを確認](https://github.com/kirill-markin/flashcards-open-source-app)してみてください。よい学習システムとは、目新しさが薄れたあとも、そのトレードオフに納得できるものです。

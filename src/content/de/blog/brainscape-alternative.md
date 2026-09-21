@@ -160,4 +160,4 @@ Nibomo ist eine fokussierte **Brainscape-Alternative** für andere Prioritäten:
 
 Bleib bei Brainscape, wenn relative Priorisierung, Unterrichtsabläufe und unkomplizierte Massenerstellung dein Problem lösen. Probiere Nibomo aus, wenn dir eine an der Behaltensrate ausgerichtete Fälligkeitswarteschlange, Offline-Bearbeitung im Web und auf Mobilgeräten, Agentenzugriff oder Kontrolle über den Anwendungs-Stack wichtiger sind.
 
-Wenn die Abwägung für Nibomo zu deinem Bedarf passt, [öffne die App](https://app.flashcards-open-source-app.com/) oder lies den [Leitfaden für die ersten Schritte](/docs/getting-started/). Wenn Zusammenarbeit oder jederzeitiges Pauken zentral sind, ist es besser, bei Brainscape zu bleiben.
+Wenn die Abwägung für Nibomo zu deinem Bedarf passt, [öffne die App](https://app.nibomo.com/) oder lies den [Leitfaden für die ersten Schritte](/docs/getting-started/). Wenn Zusammenarbeit oder jederzeitiges Pauken zentral sind, ist es besser, bei Brainscape zu bleiben.

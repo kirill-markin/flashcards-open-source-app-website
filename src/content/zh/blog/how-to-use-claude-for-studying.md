@@ -233,7 +233,7 @@ Nibomo 连接器只能用于我已经批准的卡片。先列出我的工作区�
 
 [Claude 连接器分步指南](/blog/how-to-connect-flashcards-to-claude-with-mcp/)介绍了设置步骤和权限；无需在学习对话中重复整套设置。[MCP 连接器参考文档](/docs/mcp-connector/)记录了当前可用的工具和身份验证方式。
 
-Claude 可以创建已经批准的卡片，但 FSRS 复习安排仍由 Nibomo 负责。卡片到期后，打开 [Web 应用](https://app.flashcards-open-source-app.com/)，先回忆答案，再显示答案，并在那里记录复习结果。如果你不想授予连接器访问权限，手动复制同样是一套完整流程。
+Claude 可以创建已经批准的卡片，但 FSRS 复习安排仍由 Nibomo 负责。卡片到期后，打开 [Web 应用](https://app.nibomo.com/)，先回忆答案，再显示答案，并在那里记录复习结果。如果你不想授予连接器访问权限，手动复制同样是一套完整流程。
 
 ## 这些地方仍然要由你把关
 

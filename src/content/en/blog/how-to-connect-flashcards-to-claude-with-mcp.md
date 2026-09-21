@@ -68,7 +68,7 @@ Back: The requested resource was not found on the server.
 Tag: web-basics
 ```
 
-Choose the workspace, review Claude's write request, and approve it if the content and destination are correct. Then open [Nibomo](https://app.flashcards-open-source-app.com/) and check that the saved card has the question on the front and the answer on the back. The walkthrough above verified the connection and saved permissions; it did not create a card. This first test checks that Claude can also save a card to your chosen workspace.
+Choose the workspace, review Claude's write request, and approve it if the content and destination are correct. Then open [Nibomo](https://app.nibomo.com/) and check that the saved card has the question on the front and the answer on the back. The walkthrough above verified the connection and saved permissions; it did not create a card. This first test checks that Claude can also save a card to your chosen workspace.
 
 If Claude only writes the card in chat, check that Nibomo is connected in settings, enabled for that conversation, and that **Nibomo SQL execute (write)** isn't blocked. Ask it explicitly to save the card through Nibomo.
 

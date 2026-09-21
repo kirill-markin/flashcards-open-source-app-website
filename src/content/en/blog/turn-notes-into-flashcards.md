@@ -200,7 +200,7 @@ That is why [Nibomo](https://nibomo.com/) is a strong fit for people searching h
 If you want a practical way to **turn notes into flashcards**, start here:
 
 - [Open Nibomo](https://nibomo.com/)
-- [Open the app](https://app.flashcards-open-source-app.com/)
+- [Open the app](https://app.nibomo.com/)
 - [Read the getting started guide](https://nibomo.com/docs/getting-started/)
 - [View the source on GitHub](https://github.com/kirill-markin/flashcards-open-source-app)
 

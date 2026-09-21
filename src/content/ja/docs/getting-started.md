@@ -7,7 +7,7 @@ description: ホスト版Webアプリから始める方法、ディスカバリ�
 
 最も手軽に始めるなら、ホスト版Webアプリがおすすめです。
 
-1. [app.flashcards-open-source-app.com](https://app.flashcards-open-source-app.com) を開きます
+1. [app.nibomo.com](https://app.nibomo.com) を開きます
 2. パスワードレスのメール OTP でサインインします
 3. カードを作成し、復習期限が来た項目をこなし、ワークスペースのデータやファイル添付を使って AI チャットを利用します
 
@@ -18,7 +18,7 @@ description: ホスト版Webアプリから始める方法、ディスカバリ�
 Claude Code、Codex、OpenClaw を直接接続する場合は、まず次のURLから始めます。
 
 ```text
-GET https://api.flashcards-open-source-app.com/v1/
+GET https://api.nibomo.com/v1/
 ```
 
 このディスカバリーレスポンスには、メール OTP によるログイン、長期利用向け API key の作成、アカウント情報の取得、ワークスペースの初期化、公開されている SQL インターフェースの利用開始までに必要な情報が含まれています。

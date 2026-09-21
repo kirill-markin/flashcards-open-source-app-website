@@ -10,8 +10,8 @@
  * Two facts decide everything: the decision this browser has stored, and whether the jurisdiction
  * it is in requires one at all. The second is the backend's answer to `GET /v1/analytics/visitor`
  * and is unknown until that call returns, so a browser that has stored no decision starts out
- * treated exactly as one that has to be asked - nothing may be written to it and nothing it
- * collects may leave it while the question is open.
+ * treated exactly as one that has to be asked - no identity may be written to it or requested for
+ * it while the question is open.
  *
  * The stored decision cannot be the app's: `localStorage` is origin-scoped, so `nibomo.com` and
  * `app.nibomo.com` keep separate copies of it. The `analytics_visitor` cookie is the only record
@@ -88,7 +88,8 @@ export function publishAnalyticsConsentJurisdiction(
 /**
  * Whether this browser is still waiting to be told what it may do - because it has not been asked
  * yet where it has to be, or because it does not know yet whether it has to be asked at all.
- * Nothing this site collects may be written to the device or sent while this holds.
+ * No identity may be written to the device or requested for it while this holds. Events are not
+ * held back: `sendCatalogInstallEvent` reports a click with no identifier attached, and says why.
  */
 export function isAwaitingAnalyticsConsentDecision(): boolean {
   return (

@@ -68,7 +68,7 @@ Rückseite: Die angeforderte Ressource wurde auf dem Server nicht gefunden.
 Tag: web-basics
 ```
 
-Wähle den Workspace, prüfe Claudes Schreibanfrage und gib sie frei, wenn Inhalt und Ziel stimmen. Öffne danach [Nibomo](https://app.flashcards-open-source-app.com/) und kontrolliere, ob die gespeicherte Karte die Frage auf der Vorderseite und die Antwort auf der Rückseite hat. Für diese Anleitung wurden die Verbindung und die gespeicherten Berechtigungen überprüft, dabei aber keine Karte erstellt. Mit diesem ersten Test prüfst du, ob Claude auch eine Karte in deinem gewählten Workspace speichern kann.
+Wähle den Workspace, prüfe Claudes Schreibanfrage und gib sie frei, wenn Inhalt und Ziel stimmen. Öffne danach [Nibomo](https://app.nibomo.com/) und kontrolliere, ob die gespeicherte Karte die Frage auf der Vorderseite und die Antwort auf der Rückseite hat. Für diese Anleitung wurden die Verbindung und die gespeicherten Berechtigungen überprüft, dabei aber keine Karte erstellt. Mit diesem ersten Test prüfst du, ob Claude auch eine Karte in deinem gewählten Workspace speichern kann.
 
 Wenn Claude die Karte nur im Chat ausgibt, prüfe, ob Nibomo in den Einstellungen verbunden und für diesen Chat aktiviert ist und ob **Nibomo SQL execute (write)** nicht blockiert ist. Bitte Claude ausdrücklich, die Karte über Nibomo zu speichern.
 

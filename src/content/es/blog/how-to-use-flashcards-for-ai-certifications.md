@@ -277,6 +277,6 @@ Más recuerdo que de verdad sobrevive al cronómetro del examen.
 Si quieres probar ese flujo de trabajo:
 
 - [Abrir Nibomo](https://nibomo.com/)
-- [Abrir la app](https://app.flashcards-open-source-app.com/)
+- [Abrir la app](https://app.nibomo.com/)
 - [Leer la página de funcionalidades](https://nibomo.com/features/)
 - [Ver el código fuente en GitHub](https://github.com/kirill-markin/flashcards-open-source-app)

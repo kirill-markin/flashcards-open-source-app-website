@@ -145,7 +145,7 @@ Prueba Nibomo si:
 - quieres acceder mediante MCP o la API para agentes desde el terminal y otras herramientas de IA;
 - aceptas el trabajo que exige el autoalojamiento en AWS y las limitaciones actuales de fidelidad en la migración y la exportación.
 
-Puedes empezar con la [aplicación alojada](https://app.flashcards-open-source-app.com/), leer la [guía de inicio](/docs/getting-started/) o consultar el [código fuente](https://github.com/kirill-markin/flashcards-open-source-app). Ninguna de esas opciones exige trasladar una colección existente de Anki.
+Puedes empezar con la [aplicación alojada](https://app.nibomo.com/), leer la [guía de inicio](/docs/getting-started/) o consultar el [código fuente](https://github.com/kirill-markin/flashcards-open-source-app). Ninguna de esas opciones exige trasladar una colección existente de Anki.
 
 ## La respuesta práctica
 

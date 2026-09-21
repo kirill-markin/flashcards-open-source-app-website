@@ -360,6 +360,6 @@ FSRS 有用，是因为它不会假装每张卡都该用同样的时间表。简
 
 如果你想直接试试这套流程：
 
-- [打开应用](https://app.flashcards-open-source-app.com/)
+- [打开应用](https://app.nibomo.com/)
 - [查看功能页](/zh/features/)
 - [阅读入门指南](/zh/docs/getting-started/)

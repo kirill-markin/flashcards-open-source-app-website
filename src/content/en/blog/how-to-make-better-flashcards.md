@@ -264,7 +264,7 @@ That is the version of **what makes a good flashcard** I actually trust.
 If you want a practical **flashcard front and back** system that still works once the novelty of AI generation wears off, start here:
 
 - [Open Nibomo](https://nibomo.com/)
-- [Open the app](https://app.flashcards-open-source-app.com/)
+- [Open the app](https://app.nibomo.com/)
 - [Read the self-hosting guide](https://nibomo.com/docs/self-hosting/)
 - [View the source on GitHub](https://github.com/kirill-markin/flashcards-open-source-app)
 

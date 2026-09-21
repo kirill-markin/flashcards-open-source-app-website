@@ -20,7 +20,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
         "クレジットカード不要。広告なし。トライアルのカウントダウンなし。",
       primaryLink: {
         label: "始める",
-        href: "https://app.flashcards-open-source-app.com",
+        href: "https://app.nibomo.com",
       },
       secondaryLink: {
         label: "GitHubで見る",

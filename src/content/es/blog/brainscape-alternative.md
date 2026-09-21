@@ -160,4 +160,4 @@ Nibomo es una **alternativa a Brainscape** centrada en otras prioridades: fechas
 
 Quédate con Brainscape si la priorización relativa, los flujos de trabajo para el aula y la creación masiva con poca fricción resuelven tu problema. Prueba Nibomo si para ti pesan más una cola de tarjetas pendientes basada en un objetivo de retención, la edición sin conexión en web y móvil, el acceso para agentes o el control del sistema de la aplicación.
 
-Si las contrapartidas de Nibomo encajan contigo, [abre la app](https://app.flashcards-open-source-app.com/) o consulta la [guía de introducción](/docs/getting-started/). Si la colaboración o la posibilidad de hacer un repaso intensivo en cualquier momento son esenciales, lo mejor es quedarse con Brainscape.
+Si las contrapartidas de Nibomo encajan contigo, [abre la app](https://app.nibomo.com/) o consulta la [guía de introducción](/docs/getting-started/). Si la colaboración o la posibilidad de hacer un repaso intensivo en cualquier momento son esenciales, lo mejor es quedarse con Brainscape.

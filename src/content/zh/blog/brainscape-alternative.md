@@ -160,4 +160,4 @@ Nibomo 面向的是另一组需求：明确的 FSRS-6 到期时间、离线优�
 
 如果相对优先级排序、课堂工作流和低门槛批量制卡正好解决你的问题，继续使用 Brainscape。如果你更在意按目标记忆保留率建立到期队列、在 Web 和移动端离线编辑、让智能体接入，或掌控应用技术栈，可以试试 Nibomo。
 
-如果 Nibomo 的取舍适合你，可以[打开应用](https://app.flashcards-open-source-app.com/)或阅读[入门指南](/docs/getting-started/)。如果协作或随时突击复习是核心需求，继续使用 Brainscape 更合适。
+如果 Nibomo 的取舍适合你，可以[打开应用](https://app.nibomo.com/)或阅读[入门指南](/docs/getting-started/)。如果协作或随时突击复习是核心需求，继续使用 Brainscape 更合适。

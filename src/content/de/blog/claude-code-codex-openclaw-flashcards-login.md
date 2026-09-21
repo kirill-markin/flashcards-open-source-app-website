@@ -19,9 +19,9 @@ Genau solche Arbeit sollte dir ein Tool abnehmen.
 
 In [Nibomo](https://nibomo.com/) gibt es jetzt einen Open-Source-Anmeldeablauf für Agenten, der mit genau einer Discovery-URL beginnt:
 
-`https://api.flashcards-open-source-app.com/v1/`
+`https://api.nibomo.com/v1/`
 
-Das ist der maßgebliche Einstiegspunkt. Dieselbe Discovery-Antwort ist auch unter `https://api.flashcards-open-source-app.com/v1/agent` verfügbar, aber der aktuelle Vertrag beginnt bei `/v1/`.
+Das ist der maßgebliche Einstiegspunkt. Dieselbe Discovery-Antwort ist auch unter `https://api.nibomo.com/v1/agent` verfügbar, aber der aktuelle Vertrag beginnt bei `/v1/`.
 
 Gib diese URL an Claude Code, Codex oder OpenClaw weiter. Der Agent kann den Ablauf selbst nachvollziehen, den E-Mail-Code anfordern, ihn verifizieren, den API-Key speichern, das Konto laden und danach eigenständig mit der Workspace-Einrichtung weitermachen.
 
@@ -39,7 +39,7 @@ Der Discovery-Endpunkt liefert in derselben Antwort die Service-Beschreibung, da
 Anstatt für jedes Tool eigene Einführungstexte zu schreiben, gibst du dem Agenten einfach diese URL und lässt ihn den Anweisungen aus der Antwort folgen.
 
 ```text
-GET https://api.flashcards-open-source-app.com/v1/
+GET https://api.nibomo.com/v1/
 ```
 
 Auf einen Blick erfährt der Agent vier Dinge:
@@ -69,7 +69,7 @@ Das genügt:
 
 ```text
 Nutze diese Nibomo-Discovery-URL:
-https://api.flashcards-open-source-app.com/v1/
+https://api.nibomo.com/v1/
 
 Melde dich bei meinem Nibomo-Konto an, lade den Kontokontext und wähle den richtigen Workspace aus oder lege ihn an.
 Frag mich nur dann nach dem aktuellen 8-stelligen Code aus der E-Mail, wenn der Ablauf ihn benötigt.
@@ -83,7 +83,7 @@ Gleiche Idee, nur etwas expliziter:
 
 ```text
 Verbinde mein Nibomo-Konto über diese URL:
-https://api.flashcards-open-source-app.com/v1/
+https://api.nibomo.com/v1/
 
 Folge den zurückgegebenen Anweisungen, behandle den API-Key sicher, lade mein Konto und fahre dann mit der Workspace-Einrichtung fort.
 Falls zur Verifizierung nötig, frage mich nach dem aktuellen 8-stelligen Code aus der E-Mail.
@@ -94,7 +94,7 @@ Falls zur Verifizierung nötig, frage mich nach dem aktuellen 8-stelligen Code a
 Das ist die erste Anfrage:
 
 ```bash
-curl https://api.flashcards-open-source-app.com/v1/
+curl https://api.nibomo.com/v1/
 ```
 
 Die Antwort ist so aufgebaut, dass Terminal-Agenten ihr ohne Rätselraten folgen können:
@@ -140,12 +140,14 @@ Die Antwort ist so aufgebaut, dass Terminal-Agenten ihr ohne Rätselraten folgen
 }
 ```
 
+Diese URLs nennen weiterhin die früheren Hosts unter `flashcards-open-source-app.com`; genau das gibt die API heute zurück, hier wie in den folgenden Antworten. Beide Host-Gruppen bedienen dieselbe API, es funktioniert also jede von beiden.
+
 ## Beispiel: Den E-Mail-Code anfordern
 
 Sobald der Agent die E-Mail-Adresse des Nutzers kennt, startet er den OTP-Schritt:
 
 ```bash
-curl -X POST https://auth.flashcards-open-source-app.com/api/agent/send-code \
+curl -X POST https://auth.nibomo.com/api/agent/send-code \
   -H "Content-Type: application/json" \
   -d '{
     "email": "you@example.com"
@@ -181,7 +183,7 @@ An dieser Stelle pausiert der Agent nur kurz, um nach dem aktuellen Code aus dem
 Sobald der Nutzer den E-Mail-Code zurückgeschickt hat, kann der Agent die Anmeldung abschließen:
 
 ```bash
-curl -X POST https://auth.flashcards-open-source-app.com/api/agent/verify-code \
+curl -X POST https://auth.nibomo.com/api/agent/verify-code \
   -H "Content-Type: application/json" \
   -d '{
     "code": "12345678",
@@ -230,7 +232,7 @@ export FLASHCARDS_OPEN_SOURCE_API_KEY="fca_ABCDEFGH_0123456789ABCDEFGHJKMNPQRS"
 Die nächste Anfrage ist ein normaler authentifizierter API-Aufruf:
 
 ```bash
-curl https://api.flashcards-open-source-app.com/v1/agent/me \
+curl https://api.nibomo.com/v1/agent/me \
   -H "Authorization: ApiKey YOUR_API_KEY"
 ```
 
@@ -303,14 +305,14 @@ Wenn dich Open-Source-API-Authentifizierung, Anmeldung per E-Mail-OTP oder das O
 
 Wenn du den Ablauf testen möchtest, gib deinem Agenten diese URL:
 
-`https://api.flashcards-open-source-app.com/v1/`
+`https://api.nibomo.com/v1/`
 
 Danach kann er den Rest selbst übernehmen.
 
 Nützliche Links:
 
 - [Nibomo-Website](https://nibomo.com/)
-- [Gehostete App](https://app.flashcards-open-source-app.com/)
+- [Gehostete App](https://app.nibomo.com/)
 - [Erste Schritte](https://nibomo.com/docs/getting-started/)
 - [GitHub-Repository](https://github.com/kirill-markin/flashcards-open-source-app)
 

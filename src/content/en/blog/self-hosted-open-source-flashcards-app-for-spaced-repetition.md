@@ -13,7 +13,7 @@ keywords:
   - "ai flashcards"
 ---
 
-Yes, Nibomo can be self-hosted. The full application and infrastructure code is open source under the MIT license. You can run the services locally for development or deploy the repository's documented production stack on AWS. If you do not want to operate infrastructure, the [hosted app](https://app.flashcards-open-source-app.com/) remains available.
+Yes, Nibomo can be self-hosted. The full application and infrastructure code is open source under the MIT license. You can run the services locally for development or deploy the repository's documented production stack on AWS. If you do not want to operate infrastructure, the [hosted app](https://app.nibomo.com/) remains available.
 
 ![Nibomo mobile screens for review, progress, AI chat, and cards](/home/app-screens-showcase-en.png)
 
@@ -159,7 +159,7 @@ Nibomo takes a different path: an open web, mobile, API, and infrastructure repo
 
 ## Try the hosted app or run your own stack
 
-- [Open the hosted app](https://app.flashcards-open-source-app.com/)
+- [Open the hosted app](https://app.nibomo.com/)
 - [Read the Self-Hosting Guide](/docs/self-hosting/)
 - [View the source on GitHub](https://github.com/kirill-markin/flashcards-open-source-app)
 

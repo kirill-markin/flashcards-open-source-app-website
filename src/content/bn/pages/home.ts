@@ -19,7 +19,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
       trustLine: "ক্রেডিট কার্ড লাগবে না। বিজ্ঞাপন নেই। ট্রায়ালের সময় গোনা নেই।",
       primaryLink: {
         label: "শুরু করুন",
-        href: "https://app.flashcards-open-source-app.com",
+        href: "https://app.nibomo.com",
       },
       secondaryLink: {
         label: "GitHub-এ দেখুন",

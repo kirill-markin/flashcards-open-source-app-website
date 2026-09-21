@@ -13,7 +13,7 @@ keywords:
   - "tarjetas con IA"
 ---
 
-Sí, Nibomo se puede autoalojar. Todo el código de la aplicación y de la infraestructura es de código abierto y se distribuye bajo la licencia MIT. Puedes ejecutar los servicios en local para desarrollo o desplegar en AWS la pila de producción documentada del repositorio. Si no quieres gestionar infraestructura, la [aplicación alojada](https://app.flashcards-open-source-app.com/) sigue estando disponible.
+Sí, Nibomo se puede autoalojar. Todo el código de la aplicación y de la infraestructura es de código abierto y se distribuye bajo la licencia MIT. Puedes ejecutar los servicios en local para desarrollo o desplegar en AWS la pila de producción documentada del repositorio. Si no quieres gestionar infraestructura, la [aplicación alojada](https://app.nibomo.com/) sigue estando disponible.
 
 ![Pantallas móviles de Nibomo para repaso, progreso, chat con IA y tarjetas](/home/app-screens-showcase-es.png)
 
@@ -159,7 +159,7 @@ Nibomo sigue otro camino: un repositorio abierto para web, aplicaciones móviles
 
 ## Prueba la aplicación alojada o ejecuta tu propia pila
 
-- [Abrir la aplicación alojada](https://app.flashcards-open-source-app.com/)
+- [Abrir la aplicación alojada](https://app.nibomo.com/)
 - [Leer la Guía de autoalojamiento](/docs/self-hosting/)
 - [Ver el código fuente en GitHub](https://github.com/kirill-markin/flashcards-open-source-app)
 

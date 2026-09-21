@@ -121,4 +121,4 @@ Für Lernende, die ausdrücklich KI-gestützte Kartenarbeit, FSRS und die Mögli
 
 Das ist die ehrliche Entscheidung im Jahr 2026: Wähle das stärkste Werkzeug für das Lernsystem, das du tatsächlich nutzt, und prüfe, wie du deine Daten wieder herausbekommst, bevor deine Sammlung für einen Umzug zu wertvoll wird.
 
-Du kannst die [gehostete Nibomo-App ausprobieren](https://app.flashcards-open-source-app.com/), dich über [Preise und Beta-Limits informieren](/pricing/) oder vor deiner Entscheidung die [Anforderungen für das Self-Hosting](/docs/self-hosting/) lesen.
+Du kannst die [gehostete Nibomo-App ausprobieren](https://app.nibomo.com/), dich über [Preise und Beta-Limits informieren](/pricing/) oder vor deiner Entscheidung die [Anforderungen für das Self-Hosting](/docs/self-hosting/) lesen.

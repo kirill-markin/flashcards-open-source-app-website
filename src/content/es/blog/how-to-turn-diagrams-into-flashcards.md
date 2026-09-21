@@ -344,6 +344,6 @@ Mejor memoria.
 Si eso es lo que quieres, empieza aquí:
 
 - [Ir al sitio de Nibomo](https://nibomo.com/)
-- [Abrir la aplicación](https://app.flashcards-open-source-app.com/)
+- [Abrir la aplicación](https://app.nibomo.com/)
 - [Leer la guía de inicio](https://nibomo.com/docs/getting-started/)
 - [Ver el código en GitHub](https://github.com/kirill-markin/flashcards-open-source-app)

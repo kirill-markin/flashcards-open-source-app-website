@@ -200,7 +200,7 @@ Aplica la misma regla de dos pasos en ese flujo:
 
 La aplicación registra la valoración que envías. Tú sigues comparando tu respuesta con el reverso guardado y decidiendo qué opción encaja. Esa decisión humana explica por qué importan una tarjeta clara y un hábito de valoración estable.
 
-Si quieres probar el flujo de repaso, [abre la aplicación](https://app.flashcards-open-source-app.com/). La aplicación ofrece los cuatro botones y la programación con FSRS; valorar con honestidad sigue siendo cosa tuya.
+Si quieres probar el flujo de repaso, [abre la aplicación](https://app.nibomo.com/). La aplicación ofrece los cuatro botones y la programación con FSRS; valorar con honestidad sigue siendo cosa tuya.
 
 ## Preguntas frecuentes sobre Again, Hard, Good y Easy
 

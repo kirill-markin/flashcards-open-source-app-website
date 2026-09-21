@@ -85,7 +85,7 @@ The safe route is a flashcard system that explicitly publishes how outside softw
 
 Nibomo publishes two routes to the same limited, per-user data surface:
 
-- The [external Agent API](/docs/api/) starts at `GET https://api.flashcards-open-source-app.com/v1/`. Its discovery response guides an agent through email OTP login, API-key creation, and workspace selection. Reads use a SQL-style query route; writes use a separate execute route.
+- The [external Agent API](/docs/api/) starts at `GET https://api.nibomo.com/v1/`. Its discovery response guides an agent through email OTP login, API-key creation, and workspace selection. Reads use a SQL-style query route; writes use a separate execute route.
 - The [remote MCP server](/docs/mcp-connector/) is available at `https://mcp.nibomo.com/mcp`. MCP clients get seven tools: `list_workspaces`, `sql_query`, `sql_execute`, `get_guide`, and the review tools `next_review_card`, `reveal_answer`, and `submit_review`.
 
 Both routes are workspace-scoped. The published resources are `workspace`, `cards`, `decks`, and `review_events`, and results are capped at 100 rows per statement. The SQL-style interface is a limited dialect, not raw PostgreSQL. There is no OpenAPI schema, so workflows that depend on generated OpenAPI clients will need a different interface.

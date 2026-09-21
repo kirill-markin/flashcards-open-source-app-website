@@ -7,8 +7,7 @@
  * This mirrors the app's `apps/web/src/analytics/visitorIdentity.ts` and the two calls behind it;
  * `docs/analytics-visitor-identity.md` in the app repository owns the contract. Sharing one cookie
  * with the app is what counts a person from their first site visit rather than from their first app
- * open; `src/lib/site.ts` states the domain that cookie is scoped to and what has yet to ship before
- * this site is under it.
+ * open; `src/lib/site.ts` states the domain that cookie is scoped to.
  */
 
 import {
@@ -180,7 +179,7 @@ async function runVisitorIdentityResolution(): Promise<void> {
 export function resolveAnalyticsVisitorIdentity(): Promise<void> {
   if (hasAnalyticsPrivacySignal()) {
     // The signal opts out of measurement entirely, so the jurisdiction is never published: the gate
-    // stays shut for the whole load, no banner is shown and nothing is asked for or reported.
+    // stays shut for the whole load, no banner is shown, and no identity is asked for or attached.
     return Promise.resolve();
   }
 

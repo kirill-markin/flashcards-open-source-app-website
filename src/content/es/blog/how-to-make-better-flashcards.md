@@ -269,7 +269,7 @@ Esa es la versión de **qué hace buena a una flashcard** en la que de verdad co
 Si quieres un sistema práctico de **anverso y reverso de una flashcard** que siga funcionando cuando se pase la novedad de generar tarjetas con IA, empieza aquí:
 
 - [Abrir Nibomo](https://nibomo.com/)
-- [Abrir la app](https://app.flashcards-open-source-app.com/)
+- [Abrir la app](https://app.nibomo.com/)
 - [Leer la guía de autoalojamiento](https://nibomo.com/docs/self-hosting/)
 - [Ver el código en GitHub](https://github.com/kirill-markin/flashcards-open-source-app)
 

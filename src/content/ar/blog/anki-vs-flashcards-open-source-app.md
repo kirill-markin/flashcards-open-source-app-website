@@ -145,7 +145,7 @@ Anki مفتوح المصدر، لكن مكوناته ليست كلها متاح�
 - تريد الوصول عبر MCP أو Agent API من الطرفية وأدوات الذكاء الاصطناعي؛
 - تقبل العمل اللازم للاستضافة الذاتية على AWS وأوجه القصور الحالية في دقة النقل والتصدير.
 
-يمكنك البدء من [التطبيق المستضاف](https://app.flashcards-open-source-app.com/)، أو قراءة [دليل البدء](/docs/getting-started/)، أو فحص [الشفرة المصدرية](https://github.com/kirill-markin/flashcards-open-source-app). ولا يتطلب أي من ذلك نقل مجموعة Anki قائمة.
+يمكنك البدء من [التطبيق المستضاف](https://app.nibomo.com/)، أو قراءة [دليل البدء](/docs/getting-started/)، أو فحص [الشفرة المصدرية](https://github.com/kirill-markin/flashcards-open-source-app). ولا يتطلب أي من ذلك نقل مجموعة Anki قائمة.
 
 ## الإجابة العملية
 

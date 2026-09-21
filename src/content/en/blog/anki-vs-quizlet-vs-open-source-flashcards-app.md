@@ -121,4 +121,4 @@ For learners who specifically want AI-assisted card work, FSRS, and the option t
 
 That is the honest 2026 decision: choose the strongest tool for the study system you actually have, then verify how you will get your data out before the collection becomes too valuable to move.
 
-You can [try the hosted Nibomo app](https://app.flashcards-open-source-app.com/), review [pricing and beta limits](/pricing/), or read the [self-hosting requirements](/docs/self-hosting/) before deciding.
+You can [try the hosted Nibomo app](https://app.nibomo.com/), review [pricing and beta limits](/pricing/), or read the [self-hosting requirements](/docs/self-hosting/) before deciding.

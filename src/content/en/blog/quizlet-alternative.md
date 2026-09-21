@@ -149,4 +149,4 @@ Nibomo is an **open source Quizlet alternative** in 2026 for one specific kind o
 
 It is not “Quizlet without the drawbacks.” It has its own gaps: no dedicated Learn or Test modes, no comparable shared-set library, no direct Quizlet importer, and no complete portable backup through `flashcards.zip`.
 
-If those gaps remove the parts of Quizlet you use most, stay with Quizlet. If scheduler transparency, offline-first study, and infrastructure control are the reason you started searching, [open Nibomo](https://app.flashcards-open-source-app.com/) or [inspect the source](https://github.com/kirill-markin/flashcards-open-source-app) before deciding. A good study system is the one whose tradeoffs still look reasonable after the novelty wears off.
+If those gaps remove the parts of Quizlet you use most, stay with Quizlet. If scheduler transparency, offline-first study, and infrastructure control are the reason you started searching, [open Nibomo](https://app.nibomo.com/) or [inspect the source](https://github.com/kirill-markin/flashcards-open-source-app) before deciding. A good study system is the one whose tradeoffs still look reasonable after the novelty wears off.

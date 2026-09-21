@@ -284,6 +284,6 @@ And if you are studying with AI in 2026, that is the real skill now. Not generat
 If you want to try that workflow in one place:
 
 - [Open Nibomo](https://nibomo.com/)
-- [Open the app](https://app.flashcards-open-source-app.com/)
+- [Open the app](https://app.nibomo.com/)
 - [Read the features page](https://nibomo.com/features/)
 - [View the source on GitHub](https://github.com/kirill-markin/flashcards-open-source-app)

@@ -121,4 +121,4 @@ Hosted Cloud Beta अभी मुफ़्त है और इसमें AI 
 
 2026 में ईमानदार जवाब यही है: अपनी मौजूदा अध्ययन-व्यवस्था के लिए सबसे मज़बूत टूल चुनें और collection के इतना मूल्यवान हो जाने से पहले जाँच लें कि आप अपना डेटा बाहर कैसे निकालेंगे।
 
-फैसला करने से पहले आप [hosted Nibomo ऐप आज़मा सकते हैं](https://app.flashcards-open-source-app.com/), [कीमत और beta limits](/pricing/) देख सकते हैं या [self-hosting requirements](/docs/self-hosting/) पढ़ सकते हैं।
+फैसला करने से पहले आप [hosted Nibomo ऐप आज़मा सकते हैं](https://app.nibomo.com/), [कीमत और beta limits](/pricing/) देख सकते हैं या [self-hosting requirements](/docs/self-hosting/) पढ़ सकते हैं।

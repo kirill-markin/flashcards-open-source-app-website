@@ -121,4 +121,4 @@ Nibomo 仍处于早期开发阶段。它的生态、导入格式支持、高级�
 
 这就是 2026 年的实际选择逻辑：根据你现有的学习系统，选择优势最匹配的工具；再趁卡片库还没珍贵到难以迁移之前，确认以后如何把数据导出来。
 
-做决定前，你可以[试用托管版 Nibomo 应用](https://app.flashcards-open-source-app.com/)、查看[价格与 Beta 限制](/pricing/)，或阅读[自托管要求](/docs/self-hosting/)。
+做决定前，你可以[试用托管版 Nibomo 应用](https://app.nibomo.com/)、查看[价格与 Beta 限制](/pricing/)，或阅读[自托管要求](/docs/self-hosting/)。

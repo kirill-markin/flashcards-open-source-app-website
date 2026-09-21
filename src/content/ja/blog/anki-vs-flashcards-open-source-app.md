@@ -146,7 +146,7 @@ AnkiからNibomoへの移行は、現時点ではカード内容を下書きし�
 - ターミナルやAIツールからMCPまたはAgent APIを使いたい
 - AWSベースのセルフホスティング作業と、現時点で移行・エクスポートの再現性に不足があることを受け入れられる
 
-[ホスト型アプリ](https://app.flashcards-open-source-app.com/)を使う、[getting started](/docs/getting-started/)を読む、[ソース](https://github.com/kirill-markin/flashcards-open-source-app)を確認する、という始め方があります。どこから始めても、既存のAnkiコレクションを移行する必要はありません。
+[ホスト型アプリ](https://app.nibomo.com/)を使う、[getting started](/docs/getting-started/)を読む、[ソース](https://github.com/kirill-markin/flashcards-open-source-app)を確認する、という始め方があります。どこから始めても、既存のAnkiコレクションを移行する必要はありません。
 
 ## 結局、どちらを選ぶべきか
 

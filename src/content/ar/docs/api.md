@@ -14,7 +14,7 @@ description: واجهة API خارجية للوكلاء للاكتشاف وبد�
 ابدأ من نقطة الاكتشاف الأساسية:
 
 ```text
-GET https://api.flashcards-open-source-app.com/v1/
+GET https://api.nibomo.com/v1/
 ```
 
 الحمولة نفسها متاحة أيضًا عبر `GET /v1/agent`، لكن `/v1/` هو نقطة الدخول العامة الأساسية.
@@ -32,19 +32,19 @@ GET https://api.flashcards-open-source-app.com/v1/
 
 OpenAPI غير متاح. تعيد عناوين المواصفات الأربعة السابقة أدناه إشعار اكتشاف JSON نفسه مع `"openapiAvailable": false` بدلًا من مخطط:
 
-- `https://api.flashcards-open-source-app.com/v1/agent/openapi.json`
-- `https://api.flashcards-open-source-app.com/v1/agent/swagger.json`
-- `https://api.flashcards-open-source-app.com/v1/openapi.json`
-- `https://api.flashcards-open-source-app.com/v1/swagger.json`
+- `https://api.nibomo.com/v1/agent/openapi.json`
+- `https://api.nibomo.com/v1/agent/swagger.json`
+- `https://api.nibomo.com/v1/openapi.json`
+- `https://api.nibomo.com/v1/swagger.json`
 
-استخدم `GET https://api.flashcards-open-source-app.com/v1/` للاكتشاف الحالي في وقت التشغيل. اتبع `docs.discoveryUrl` المُعاد لمسارات التشغيل و`docs.source.agentRoutesUrl` لتفاصيل التنفيذ.
+استخدم `GET https://api.nibomo.com/v1/` للاكتشاف الحالي في وقت التشغيل. اتبع `docs.discoveryUrl` المُعاد لمسارات التشغيل و`docs.source.agentRoutesUrl` لتفاصيل التنفيذ.
 
 ## تهيئة المصادقة
 
 تعمل مرحلة OTP الأولى على خدمة auth:
 
-- `POST https://auth.flashcards-open-source-app.com/api/agent/send-code`
-- `POST https://auth.flashcards-open-source-app.com/api/agent/verify-code`
+- `POST https://auth.nibomo.com/api/agent/send-code`
+- `POST https://auth.nibomo.com/api/agent/verify-code`
 
 التدفق هو:
 
@@ -70,17 +70,17 @@ Authorization: ApiKey <key>
 مثال تسلسل التهيئة:
 
 ```bash
-curl https://api.flashcards-open-source-app.com/v1/
+curl https://api.nibomo.com/v1/
 ```
 
 ```bash
-curl -X POST https://auth.flashcards-open-source-app.com/api/agent/send-code \
+curl -X POST https://auth.nibomo.com/api/agent/send-code \
   -H "Content-Type: application/json" \
   -d '{"email":"you@example.com"}'
 ```
 
 ```bash
-curl -X POST https://auth.flashcards-open-source-app.com/api/agent/verify-code \
+curl -X POST https://auth.nibomo.com/api/agent/verify-code \
   -H "Content-Type: application/json" \
   -d '{
     "code":"12345678",
@@ -155,7 +155,7 @@ curl -X POST https://auth.flashcards-open-source-app.com/api/agent/verify-code \
 مثال طلب:
 
 ```bash
-curl -X POST https://api.flashcards-open-source-app.com/v1/agent/sql/query \
+curl -X POST https://api.nibomo.com/v1/agent/sql/query \
   -H "Content-Type: application/json" \
   -H "Authorization: ApiKey $FLASHCARDS_OPEN_SOURCE_API_KEY" \
   -d '{"sql":"SHOW TABLES"}'
@@ -164,7 +164,7 @@ curl -X POST https://api.flashcards-open-source-app.com/v1/agent/sql/query \
 مثال استعلام بطاقات:
 
 ```bash
-curl -X POST https://api.flashcards-open-source-app.com/v1/agent/sql/query \
+curl -X POST https://api.nibomo.com/v1/agent/sql/query \
   -H "Content-Type: application/json" \
   -H "Authorization: ApiKey $FLASHCARDS_OPEN_SOURCE_API_KEY" \
   -d '{
@@ -175,7 +175,7 @@ curl -X POST https://api.flashcards-open-source-app.com/v1/agent/sql/query \
 مثال تعديل:
 
 ```bash
-curl -X POST https://api.flashcards-open-source-app.com/v1/agent/sql/execute \
+curl -X POST https://api.nibomo.com/v1/agent/sql/execute \
   -H "Content-Type: application/json" \
   -H "Authorization: ApiKey $FLASHCARDS_OPEN_SOURCE_API_KEY" \
   -d '{
@@ -208,7 +208,7 @@ curl -X POST https://api.flashcards-open-source-app.com/v1/agent/sql/execute \
 يؤدي الموضوع غير المعروف إلى استجابة `400` مع قائمة المواضيع المدعومة. اجلب الدليل المناسب قبل إنشاء البطاقات أو الكتابة بالجملة أو تشغيل مراجعة، وأعد قراءة `sql_dialect` بعد رفض أي عبارة.
 
 ```bash
-curl https://api.flashcards-open-source-app.com/v1/agent/guide/sql_dialect \
+curl https://api.nibomo.com/v1/agent/guide/sql_dialect \
   -H "Authorization: ApiKey $FLASHCARDS_OPEN_SOURCE_API_KEY"
 ```
 
@@ -230,7 +230,7 @@ curl https://api.flashcards-open-source-app.com/v1/agent/guide/sql_dialect \
 مثال إرسال:
 
 ```bash
-curl -X POST https://api.flashcards-open-source-app.com/v1/agent/reviews/submit \
+curl -X POST https://api.nibomo.com/v1/agent/reviews/submit \
   -H "Content-Type: application/json" \
   -H "Authorization: ApiKey $FLASHCARDS_OPEN_SOURCE_API_KEY" \
   -d '{

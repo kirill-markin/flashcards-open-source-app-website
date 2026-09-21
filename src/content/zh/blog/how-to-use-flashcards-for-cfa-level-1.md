@@ -292,7 +292,7 @@ CFA 细节会变。考试窗口、费用、报名截止日期、课程更新、�
 如果这正是你想要的，可以从这里开始：
 
 - [打开 Nibomo](https://nibomo.com/)
-- [打开应用](https://app.flashcards-open-source-app.com/)
+- [打开应用](https://app.nibomo.com/)
 - [阅读入门指南](https://nibomo.com/docs/getting-started/)
 - [在 GitHub 查看源码](https://github.com/kirill-markin/flashcards-open-source-app)
 

@@ -16,7 +16,7 @@ documenta o contrato HTTP de descoberta, SQL, guias e revisão usado por agentes
 Comece pelo ponto de entrada canônico de descoberta:
 
 ```text
-GET https://api.flashcards-open-source-app.com/v1/
+GET https://api.nibomo.com/v1/
 ```
 
 O mesmo payload de descoberta também está disponível em `GET /v1/agent`, mas `/v1/` é o ponto de entrada público principal.
@@ -34,19 +34,19 @@ A resposta de descoberta diz ao agente como:
 
 O OpenAPI não está disponível. As quatro URLs de especificação antigas abaixo agora retornam o mesmo aviso JSON de descoberta, com `"openapiAvailable": false` no lugar de um schema:
 
-- `https://api.flashcards-open-source-app.com/v1/agent/openapi.json`
-- `https://api.flashcards-open-source-app.com/v1/agent/swagger.json`
-- `https://api.flashcards-open-source-app.com/v1/openapi.json`
-- `https://api.flashcards-open-source-app.com/v1/swagger.json`
+- `https://api.nibomo.com/v1/agent/openapi.json`
+- `https://api.nibomo.com/v1/agent/swagger.json`
+- `https://api.nibomo.com/v1/openapi.json`
+- `https://api.nibomo.com/v1/swagger.json`
 
-Use `GET https://api.flashcards-open-source-app.com/v1/` para a descoberta atual em tempo de execução. Siga o `docs.discoveryUrl` retornado para as rotas em tempo de execução e o `docs.source.agentRoutesUrl` para detalhes de implementação.
+Use `GET https://api.nibomo.com/v1/` para a descoberta atual em tempo de execução. Siga o `docs.discoveryUrl` retornado para as rotas em tempo de execução e o `docs.source.agentRoutesUrl` para detalhes de implementação.
 
 ## Bootstrap de autenticação
 
 O bootstrap por OTP roda no serviço de autenticação:
 
-- `POST https://auth.flashcards-open-source-app.com/api/agent/send-code`
-- `POST https://auth.flashcards-open-source-app.com/api/agent/verify-code`
+- `POST https://auth.nibomo.com/api/agent/send-code`
+- `POST https://auth.nibomo.com/api/agent/verify-code`
 
 O fluxo é:
 
@@ -72,17 +72,17 @@ Authorization: ApiKey <key>
 Exemplo de sequência de bootstrap:
 
 ```bash
-curl https://api.flashcards-open-source-app.com/v1/
+curl https://api.nibomo.com/v1/
 ```
 
 ```bash
-curl -X POST https://auth.flashcards-open-source-app.com/api/agent/send-code \
+curl -X POST https://auth.nibomo.com/api/agent/send-code \
   -H "Content-Type: application/json" \
   -d '{"email":"you@example.com"}'
 ```
 
 ```bash
-curl -X POST https://auth.flashcards-open-source-app.com/api/agent/verify-code \
+curl -X POST https://auth.nibomo.com/api/agent/verify-code \
   -H "Content-Type: application/json" \
   -d '{
     "code":"12345678",
@@ -157,7 +157,7 @@ Observações:
 Exemplo de requisição:
 
 ```bash
-curl -X POST https://api.flashcards-open-source-app.com/v1/agent/sql/query \
+curl -X POST https://api.nibomo.com/v1/agent/sql/query \
   -H "Content-Type: application/json" \
   -H "Authorization: ApiKey $FLASHCARDS_OPEN_SOURCE_API_KEY" \
   -d '{"sql":"SHOW TABLES"}'
@@ -166,7 +166,7 @@ curl -X POST https://api.flashcards-open-source-app.com/v1/agent/sql/query \
 Exemplo de consulta de cartões:
 
 ```bash
-curl -X POST https://api.flashcards-open-source-app.com/v1/agent/sql/query \
+curl -X POST https://api.nibomo.com/v1/agent/sql/query \
   -H "Content-Type: application/json" \
   -H "Authorization: ApiKey $FLASHCARDS_OPEN_SOURCE_API_KEY" \
   -d '{
@@ -177,7 +177,7 @@ curl -X POST https://api.flashcards-open-source-app.com/v1/agent/sql/query \
 Exemplo de alteração:
 
 ```bash
-curl -X POST https://api.flashcards-open-source-app.com/v1/agent/sql/execute \
+curl -X POST https://api.nibomo.com/v1/agent/sql/execute \
   -H "Content-Type: application/json" \
   -H "Authorization: ApiKey $FLASHCARDS_OPEN_SOURCE_API_KEY" \
   -d '{
@@ -210,7 +210,7 @@ A superfície SQL é um dialeto contido e validado por parser, e não PostgreSQL
 Um tópico desconhecido responde `400` com a lista de tópicos suportados. Busque o guia correspondente antes de criar cartões, escrever em lote ou conduzir uma revisão, e releia `sql_dialect` depois de um comando rejeitado.
 
 ```bash
-curl https://api.flashcards-open-source-app.com/v1/agent/guide/sql_dialect \
+curl https://api.nibomo.com/v1/agent/guide/sql_dialect \
   -H "Authorization: ApiKey $FLASHCARDS_OPEN_SOURCE_API_KEY"
 ```
 
@@ -232,7 +232,7 @@ As três rotas aceitam o `workspaceId` opcional. Guarde o `reviewId` antes de en
 Exemplo de envio:
 
 ```bash
-curl -X POST https://api.flashcards-open-source-app.com/v1/agent/reviews/submit \
+curl -X POST https://api.nibomo.com/v1/agent/reviews/submit \
   -H "Content-Type: application/json" \
   -H "Authorization: ApiKey $FLASHCARDS_OPEN_SOURCE_API_KEY" \
   -d '{

@@ -18,11 +18,11 @@ Apex fallback                   -> <domain>      -> CloudFront redirect -> app.<
 2. Postgres остаётся источником истины
 3. iOS-приложение работает по модели offline-first: локальная SQLite плюс синхронизация
 4. Веб-приложение, iOS-приложение и внешний агентский интерфейс используют одну и ту же модель рабочих пространств
-5. Внешние агенты начинают работу с `GET https://api.flashcards-open-source-app.com/v1/`
+5. Внешние агенты начинают работу с `GET https://api.nibomo.com/v1/`
 
 ## Поддерживаемые клиенты
 
-- Веб-приложение на `app.flashcards-open-source-app.com`
+- Веб-приложение на `app.nibomo.com`
 - iOS-приложение в основном репозитории с локальным хранилищем SQLite
 - Android-приложение в Google Play
 - Внешние агенты через discovery, OTP bootstrap и `Authorization: ApiKey`

@@ -146,7 +146,7 @@ Nibomo में decks सेव किए गए filters होते हैं
 
 MCP connector अनुमति वाली review history के साथ FSRS state और scheduling fields पढ़ सकता है। उसका SQL write tool `review_events` नहीं बना सकता, Again, Hard, Good या Easy rating दर्ज नहीं कर सकता और FSRS state या schedule नहीं बदल सकता। Connector rating सिर्फ़ अपने अलग `submit_review` tool से दर्ज कर सकता है, इसलिए आप रिव्यू app में कर सकते हैं या Codex से करवा सकते हैं।
 
-कार्डों के रिव्यू का समय आने पर [Nibomo web app](https://app.flashcards-open-source-app.com/) या mobile app खोलें। जवाब याद करें, back दिखाएँ और वहीं अपनी rating चुनें। Nibomo रिव्यू दर्ज करता है और FSRS तय करता है कि कार्ड अगली बार कब लौटेगा।
+कार्डों के रिव्यू का समय आने पर [Nibomo web app](https://app.nibomo.com/) या mobile app खोलें। जवाब याद करें, back दिखाएँ और वहीं अपनी rating चुनें। Nibomo रिव्यू दर्ज करता है और FSRS तय करता है कि कार्ड अगली बार कब लौटेगा।
 
 Codex आपकी अनुमति वाले कार्ड डेटा से अनौपचारिक quiz भी ले सकता है। उसे अतिरिक्त अभ्यास मानें: सिर्फ़ quiz से कोई रिव्यू दर्ज नहीं होता और आपका schedule नहीं बदलता। जब आपको आधिकारिक रिव्यू चाहिए, तो Codex से review tools के साथ रिव्यू करवाएँ। वह `next_review_card` से सिर्फ़ front दिखाता है, आपके जवाब के बाद `reveal_answer` से back दिखाता है और `submit_review` से rating दर्ज करता है, ताकि FSRS कार्ड को फिर से schedule कर सके। जब तक आप हर rating खुद चुनने के लिए न कहें, Codex आपके जवाब की rating खुद तय करता है। [AI flashcard tutor guide](/hi/blog/ai-flashcard-tutor-due-cards/) में यह review flow विस्तार से समझाया गया है।
 

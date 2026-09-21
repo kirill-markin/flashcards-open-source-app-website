@@ -19,9 +19,9 @@ keywords:
 
 [Nibomo](https://nibomo.com/) में अब हम एजेंटों के लिए एक खुला लॉग-इन तरीका उपलब्ध कराते हैं, जो इस एक शुरुआती URL से शुरू होता है:
 
-`https://api.flashcards-open-source-app.com/v1/`
+`https://api.nibomo.com/v1/`
 
-यही आधिकारिक शुरुआती URL है। वही जानकारी `https://api.flashcards-open-source-app.com/v1/agent` पर भी उपलब्ध है, लेकिन मौजूदा API अनुबंध `/v1/` से शुरू होता है।
+यही आधिकारिक शुरुआती URL है। वही जानकारी `https://api.nibomo.com/v1/agent` पर भी उपलब्ध है, लेकिन मौजूदा API अनुबंध `/v1/` से शुरू होता है।
 
 यह URL Claude Code, Codex, या OpenClaw को दे दीजिए। एजेंट खुद पूरी प्रक्रिया समझ सकता है, ईमेल वाला कोड मांग सकता है, उसे सत्यापित कर सकता है, API कुंजी सुरक्षित रख सकता है, खाते की जानकारी ले सकता है, और कार्य-क्षेत्र के शुरुआती सेटअप तक आगे बढ़ सकता है।
 
@@ -39,7 +39,7 @@ Discovery endpoint एक ही जवाब में सेवा का प�
 इसलिए हर टूल के लिए अलग शुरुआती निर्देश लिखने के बजाय, आप एजेंट को सिर्फ़ यह URL दे सकते हैं और उसे लौटाए गए निर्देशों का पालन करने दे सकते हैं।
 
 ```text
-GET https://api.flashcards-open-source-app.com/v1/
+GET https://api.nibomo.com/v1/
 ```
 
 सारांश रूप में एजेंट तुरंत चार बातें समझ लेता है:
@@ -69,7 +69,7 @@ GET https://api.flashcards-open-source-app.com/v1/
 
 ```text
 Use this Nibomo discovery URL:
-https://api.flashcards-open-source-app.com/v1/
+https://api.nibomo.com/v1/
 
 Log in to my Nibomo account, load account context, and select or create the correct workspace.
 Ask me only for the latest 8-digit email code when the flow requires it.
@@ -83,7 +83,7 @@ Ask me only for the latest 8-digit email code when the flow requires it.
 
 ```text
 Connect my Nibomo account using this URL:
-https://api.flashcards-open-source-app.com/v1/
+https://api.nibomo.com/v1/
 
 Follow the returned instructions, keep the API key secure, load my account, then continue to workspace setup.
 If verification is needed, ask me for the latest 8-digit code from the email.
@@ -94,7 +94,7 @@ If verification is needed, ask me for the latest 8-digit code from the email.
 यह पहला अनुरोध है:
 
 ```bash
-curl https://api.flashcards-open-source-app.com/v1/
+curl https://api.nibomo.com/v1/
 ```
 
 और जवाब इस तरह बनाया गया है कि टर्मिनल एजेंट बिना अनुमान लगाए आगे बढ़ सकें:
@@ -140,12 +140,14 @@ curl https://api.flashcards-open-source-app.com/v1/
 }
 ```
 
+ये URL अब भी पुराने `flashcards-open-source-app.com` होस्ट का नाम लेते हैं — यहाँ और नीचे दी गई प्रतिक्रियाओं में, API आज यही लौटाता है। दोनों होस्ट समूह एक ही API देते हैं, इसलिए इनमें से कोई भी काम करता है।
+
 ## उदाहरण: ईमेल कोड भेजना
 
 जब एजेंट के पास उपयोगकर्ता का ईमेल आ जाता है, तो वह OTP चरण शुरू करता है:
 
 ```bash
-curl -X POST https://auth.flashcards-open-source-app.com/api/agent/send-code \
+curl -X POST https://auth.nibomo.com/api/agent/send-code \
   -H "Content-Type: application/json" \
   -d '{
     "email": "you@example.com"
@@ -181,7 +183,7 @@ Server ईमेल भेजता है और कम समय के लि
 जब उपयोगकर्ता ईमेल कोड भेज देता है, तो एजेंट लॉग-इन पूरा कर सकता है:
 
 ```bash
-curl -X POST https://auth.flashcards-open-source-app.com/api/agent/verify-code \
+curl -X POST https://auth.nibomo.com/api/agent/verify-code \
   -H "Content-Type: application/json" \
   -d '{
     "code": "12345678",
@@ -230,7 +232,7 @@ export FLASHCARDS_OPEN_SOURCE_API_KEY="fca_ABCDEFGH_0123456789ABCDEFGHJKMNPQRS"
 अगला अनुरोध एक सामान्य authenticated API कॉल होता है:
 
 ```bash
-curl https://api.flashcards-open-source-app.com/v1/agent/me \
+curl https://api.nibomo.com/v1/agent/me \
   -H "Authorization: ApiKey YOUR_API_KEY"
 ```
 
@@ -303,14 +305,14 @@ Nibomo खुला स्रोत है, इसलिए आप पूरे 
 
 अगर आप इस तरीके को परखना चाहते हैं, तो अपने एजेंट को यह URL दें:
 
-`https://api.flashcards-open-source-app.com/v1/`
+`https://api.nibomo.com/v1/`
 
 फिर बाकी काम उसे करने दें।
 
 काम के लिंक:
 
 - [Nibomo website](https://nibomo.com/)
-- [Hosted app](https://app.flashcards-open-source-app.com/)
+- [Hosted app](https://app.nibomo.com/)
 - [Getting started](https://nibomo.com/docs/getting-started/)
 - [GitHub repository](https://github.com/kirill-markin/flashcards-open-source-app)
 

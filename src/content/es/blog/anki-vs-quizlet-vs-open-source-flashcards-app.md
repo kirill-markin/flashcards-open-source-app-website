@@ -121,4 +121,4 @@ Para quienes buscan específicamente crear y editar tarjetas con IA, usar FSRS y
 
 Esa es la decisión sincera en 2026: elige la herramienta más sólida para el sistema de estudio que realmente tienes y, antes de que tu colección adquiera demasiado valor como para moverla, comprueba cómo podrás sacar tus datos.
 
-Puedes [probar la aplicación alojada de Nibomo](https://app.flashcards-open-source-app.com/), consultar los [precios y límites de la beta](/pricing/) o leer los [requisitos de autoalojamiento](/docs/self-hosting/) antes de decidirte.
+Puedes [probar la aplicación alojada de Nibomo](https://app.nibomo.com/), consultar los [precios y límites de la beta](/pricing/) o leer los [requisitos de autoalojamiento](/docs/self-hosting/) antes de decidirte.

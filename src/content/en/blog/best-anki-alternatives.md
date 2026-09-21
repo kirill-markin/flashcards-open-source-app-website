@@ -176,7 +176,7 @@ Nibomo's own `flashcards.zip` package is also narrower than a backup. It moves c
 
 The hosted core is [free during beta](/pricing/). Self-hosting the production stack is not a one-command Docker install: the [self-hosting guide](/docs/self-hosting/) uses AWS CDK and requires AWS services plus Cloudflare, Resend, Sentry, secrets, migrations, backups, restores, and upgrades. Docker Compose is the development path, not the supported production deployment.
 
-Use Nibomo when the full source and operator-controlled backend are the reason for switching, and your cards are simple enough to rebuild safely. [Open the hosted app](https://app.flashcards-open-source-app.com/) to try a small temporary deck. Keep Anki—or test RemNote, Mochi, or Mnemosyne—when learning-state fidelity comes first.
+Use Nibomo when the full source and operator-controlled backend are the reason for switching, and your cards are simple enough to rebuild safely. [Open the hosted app](https://app.nibomo.com/) to try a small temporary deck. Keep Anki—or test RemNote, Mochi, or Mnemosyne—when learning-state fidelity comes first.
 
 ## Which Anki alternative works on iOS without a bad migration surprise?
 

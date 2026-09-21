@@ -205,7 +205,7 @@ Por eso [Nibomo](https://nibomo.com/) encaja tan bien para quien está buscando 
 Si quieres una forma práctica de **convertir apuntes en flashcards**, empieza aquí:
 
 - [Abrir Nibomo](https://nibomo.com/)
-- [Abrir la app](https://app.flashcards-open-source-app.com/)
+- [Abrir la app](https://app.nibomo.com/)
 - [Leer la guía de inicio](https://nibomo.com/docs/getting-started/)
 - [Ver el código fuente en GitHub](https://github.com/kirill-markin/flashcards-open-source-app)
 

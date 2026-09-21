@@ -275,7 +275,7 @@ Text Completion наказывает изолированную лексику �
 Если хотите попробовать этот сценарий в Nibomo:
 
 - [Начните с Nibomo](https://nibomo.com/ru/)
-- [Откройте веб-приложение](https://app.flashcards-open-source-app.com/)
+- [Откройте веб-приложение](https://app.nibomo.com/)
 - [Прочитайте руководство по началу работы](https://nibomo.com/ru/docs/getting-started/)
 - [Посмотрите исходный код на GitHub](https://github.com/kirill-markin/flashcards-open-source-app)
 

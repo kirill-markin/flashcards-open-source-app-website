@@ -215,7 +215,7 @@ AI overproduction को आसान बना देता है।
 अगर आप यह workflow आज़माना चाहते हैं:
 
 - [Open Nibomo](https://nibomo.com/)
-- [ऐप खोलें](https://app.flashcards-open-source-app.com/)
+- [ऐप खोलें](https://app.nibomo.com/)
 - [features page पढ़ें](https://nibomo.com/features/)
 - [GitHub पर source देखें](https://github.com/kirill-markin/flashcards-open-source-app)
 

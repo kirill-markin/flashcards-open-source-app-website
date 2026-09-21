@@ -27,7 +27,7 @@ export const PRICING_PAGE_CONTENT: PageContent = {
           ],
           cta: {
             label: "ഹോസ്റ്റ് ചെയ്ത ആപ്പ് സൗജന്യമായി ഉപയോഗിക്കുക",
-            href: "https://app.flashcards-open-source-app.com",
+            href: "https://app.nibomo.com",
           },
         },
         {

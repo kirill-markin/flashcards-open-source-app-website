@@ -263,7 +263,7 @@ That is the version of **ChatGPT Study Mode flashcards** that makes sense to me 
 If that is what you want, start here:
 
 - [Open Nibomo](https://nibomo.com/)
-- [Open the app](https://app.flashcards-open-source-app.com/)
+- [Open the app](https://app.nibomo.com/)
 - [See the features](https://nibomo.com/features/)
 - [View the source on GitHub](https://github.com/kirill-markin/flashcards-open-source-app)
 

@@ -68,7 +68,7 @@ Reverso: El recurso solicitado no se encontró en el servidor.
 Etiqueta: web-basics
 ```
 
-Elige el espacio de trabajo, revisa la solicitud de escritura de Claude y apruébala si el contenido y el destino son correctos. Después, abre [Nibomo](https://app.flashcards-open-source-app.com/) y comprueba que la tarjeta guardada tiene la pregunta en el anverso y la respuesta en el reverso. Al verificar los pasos anteriores se comprobaron la conexión y los permisos guardados; no se creó ninguna tarjeta. Esta primera prueba te permite comprobar que Claude también puede guardar una tarjeta en el espacio de trabajo que has elegido.
+Elige el espacio de trabajo, revisa la solicitud de escritura de Claude y apruébala si el contenido y el destino son correctos. Después, abre [Nibomo](https://app.nibomo.com/) y comprueba que la tarjeta guardada tiene la pregunta en el anverso y la respuesta en el reverso. Al verificar los pasos anteriores se comprobaron la conexión y los permisos guardados; no se creó ninguna tarjeta. Esta primera prueba te permite comprobar que Claude también puede guardar una tarjeta en el espacio de trabajo que has elegido.
 
 Si Claude solo escribe la tarjeta en el chat, comprueba que Nibomo está conectado en los ajustes, activado para esa conversación y que la herramienta **Nibomo SQL execute (write)** no está bloqueada. Pídele explícitamente que guarde la tarjeta a través de Nibomo.
 

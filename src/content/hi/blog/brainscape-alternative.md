@@ -160,4 +160,4 @@ Nibomo अलग प्राथमिकताओं वाले उपयो�
 
 अगर relative prioritization, classroom workflows और कम झंझट वाला bulk authoring आपकी जरूरत पूरी करते हैं, तो Brainscape पर बने रहें। Target-retention due queue, web और mobile पर offline editing, agent access या application stack पर control ज्यादा अहम हो, तो Nibomo आजमाएँ।
 
-अगर Nibomo की ये सीमाएँ आपके लिए ठीक हैं, तो [app खोलें](https://app.flashcards-open-source-app.com/) या [getting-started guide](/docs/getting-started/) पढ़ें। Collaboration या कभी भी cram करने की सुविधा सबसे अहम हो, तो Brainscape पर बने रहना बेहतर फैसला है।
+अगर Nibomo की ये सीमाएँ आपके लिए ठीक हैं, तो [app खोलें](https://app.nibomo.com/) या [getting-started guide](/docs/getting-started/) पढ़ें। Collaboration या कभी भी cram करने की सुविधा सबसे अहम हो, तो Brainscape पर बने रहना बेहतर फैसला है।

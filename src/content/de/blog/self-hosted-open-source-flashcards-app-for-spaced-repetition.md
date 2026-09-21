@@ -13,7 +13,7 @@ keywords:
   - "KI-Lernkarten"
 ---
 
-Ja, Nibomo kann selbst gehostet werden. Der vollständige Anwendungs- und Infrastrukturcode steht unter der MIT-Lizenz als Open Source zur Verfügung. Du kannst die Dienste zur Entwicklung lokal ausführen oder den dokumentierten Produktions-Stack des Repositorys auf AWS bereitstellen. Wenn du keine Infrastruktur betreiben möchtest, steht weiterhin die [gehostete App](https://app.flashcards-open-source-app.com/) zur Verfügung.
+Ja, Nibomo kann selbst gehostet werden. Der vollständige Anwendungs- und Infrastrukturcode steht unter der MIT-Lizenz als Open Source zur Verfügung. Du kannst die Dienste zur Entwicklung lokal ausführen oder den dokumentierten Produktions-Stack des Repositorys auf AWS bereitstellen. Wenn du keine Infrastruktur betreiben möchtest, steht weiterhin die [gehostete App](https://app.nibomo.com/) zur Verfügung.
 
 ![Mobile Ansichten von Nibomo für Wiederholungen, Fortschritt, KI-Chat und Karten](/home/app-screens-showcase-de.png)
 
@@ -159,7 +159,7 @@ Nibomo verfolgt einen anderen Weg: ein offenes Repository für Web, mobile Apps,
 
 ## Probiere die gehostete App aus oder betreibe deinen eigenen Stack
 
-- [Die gehostete App öffnen](https://app.flashcards-open-source-app.com/)
+- [Die gehostete App öffnen](https://app.nibomo.com/)
 - [Den Self-Hosting-Leitfaden lesen](/docs/self-hosting/)
 - [Den Quellcode auf GitHub ansehen](https://github.com/kirill-markin/flashcards-open-source-app)
 

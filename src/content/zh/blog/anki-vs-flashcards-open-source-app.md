@@ -146,7 +146,7 @@ Nibomo 可以导入和导出自己的[便携式 `flashcards.zip` 工作区包](h
 - 希望从终端和 AI 工具中通过 MCP 或 Agent API 接入；
 - 接受基于 AWS 的自托管工作，以及当前迁移和导出保真度方面的不足。
 
-你可以先使用[托管应用](https://app.flashcards-open-source-app.com/)，阅读[入门指南](/docs/getting-started/)，或查看[源代码](https://github.com/kirill-markin/flashcards-open-source-app)。无论选择哪一种，都不必先迁移现有的 Anki 集合。
+你可以先使用[托管应用](https://app.nibomo.com/)，阅读[入门指南](/docs/getting-started/)，或查看[源代码](https://github.com/kirill-markin/flashcards-open-source-app)。无论选择哪一种，都不必先迁移现有的 Anki 集合。
 
 ## 实际结论
 

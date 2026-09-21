@@ -263,6 +263,6 @@ That is a much better answer to **how to study for IELTS** than building a giant
 If you want to try this workflow inside the actual product:
 
 - [Open Nibomo](/)
-- [Open the app](https://app.flashcards-open-source-app.com/)
+- [Open the app](https://app.nibomo.com/)
 - [Read the getting started guide](/docs/getting-started/)
 - [View the source on GitHub](https://github.com/kirill-markin/flashcards-open-source-app)

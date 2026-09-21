@@ -145,7 +145,7 @@ Probiere Nibomo aus, wenn du:
 - MCP- oder Agent-API-Zugriff über das Terminal und KI-Werkzeuge möchtest;
 - den Aufwand für AWS-basiertes Self-Hosting und die aktuellen Lücken bei Migration und Exporttreue akzeptierst.
 
-Du kannst mit der [gehosteten App](https://app.flashcards-open-source-app.com/) beginnen, den [Leitfaden für den Einstieg](/docs/getting-started/) lesen oder den [Quellcode](https://github.com/kirill-markin/flashcards-open-source-app) ansehen. Dafür musst du keine bestehende Anki-Sammlung verschieben.
+Du kannst mit der [gehosteten App](https://app.nibomo.com/) beginnen, den [Leitfaden für den Einstieg](/docs/getting-started/) lesen oder den [Quellcode](https://github.com/kirill-markin/flashcards-open-source-app) ansehen. Dafür musst du keine bestehende Anki-Sammlung verschieben.
 
 ## Die praktische Antwort
 

@@ -275,7 +275,7 @@ Si quieres **flashcards de vocabulario para el GRE** que de verdad mejoren tu pu
 Si quieres probar ese flujo en Nibomo:
 
 - [Empieza con Nibomo](/es/)
-- [Abre la app web](https://app.flashcards-open-source-app.com/)
+- [Abre la app web](https://app.nibomo.com/)
 - [Lee la guía de primeros pasos](/es/docs/getting-started)
 - [Mira el código fuente en GitHub](https://github.com/kirill-markin/flashcards-open-source-app)
 

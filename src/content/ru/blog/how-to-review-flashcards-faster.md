@@ -284,6 +284,6 @@ FSRS лучше всего работает, когда:
 Если хотите попробовать такой процесс в одном месте:
 
 - [Открыть Nibomo](https://nibomo.com/)
-- [Открыть приложение](https://app.flashcards-open-source-app.com/)
+- [Открыть приложение](https://app.nibomo.com/)
 - [Прочитать страницу возможностей](https://nibomo.com/features/)
 - [Посмотреть исходный код на GitHub](https://github.com/kirill-markin/flashcards-open-source-app)

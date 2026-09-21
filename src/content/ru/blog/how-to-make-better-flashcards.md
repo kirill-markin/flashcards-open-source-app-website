@@ -262,7 +262,7 @@ keywords:
 Если вам нужна практичная система **лицевой и обратной стороны карточки**, которая продолжит работать и после того, как эффект новизны от ИИ пройдет, начните здесь:
 
 - [Открыть сайт Nibomo](https://nibomo.com/)
-- [Открыть приложение](https://app.flashcards-open-source-app.com/)
+- [Открыть приложение](https://app.nibomo.com/)
 - [Прочитать руководство по самостоятельному размещению](https://nibomo.com/docs/self-hosting/)
 - [Посмотреть исходный код на GitHub](https://github.com/kirill-markin/flashcards-open-source-app)
 

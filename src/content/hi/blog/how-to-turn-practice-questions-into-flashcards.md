@@ -267,6 +267,6 @@ history का कोई गलत हुआ प्रश्न वास्त�
 अगर आप यही चाहते हैं, तो यहाँ से शुरू करें:
 
 - [Nibomo खोलें](https://nibomo.com/)
-- [ऐप खोलें](https://app.flashcards-open-source-app.com/)
+- [ऐप खोलें](https://app.nibomo.com/)
 - [शुरुआती मार्गदर्शिका पढ़ें](https://nibomo.com/docs/getting-started/)
 - [GitHub पर स्रोत कोड देखें](https://github.com/kirill-markin/flashcards-open-source-app)
