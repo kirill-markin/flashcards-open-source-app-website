@@ -1,5 +1,7 @@
 import { JsonLdSchema } from "@/components/JsonLdSchema";
+import { SiteAnalytics } from "@/components/SiteAnalytics";
 import type { AppLocale } from "@/lib/i18n";
+import { getAvailableLocalizedPathname } from "@/lib/routeTranslations";
 
 interface SiteLayoutDocumentProps {
   readonly children: React.ReactNode;
@@ -14,6 +16,10 @@ export function SiteLayoutDocument({
     <>
       <JsonLdSchema locale={locale} />
       {children}
+      <SiteAnalytics
+        locale={locale}
+        privacyPolicyPathname={getAvailableLocalizedPathname(locale, "/privacy/")}
+      />
     </>
   );
 }

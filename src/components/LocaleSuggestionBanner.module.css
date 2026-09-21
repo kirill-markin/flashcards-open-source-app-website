@@ -4,7 +4,12 @@
   inset-block-end: 0;
   z-index: 80;
   padding-inline: 20px;
-  padding-block-end: 20px;
+  /* Clears whichever analytics consent surface is up; each publishes its own measured height,
+     and the two never appear together, so only one term is ever non-zero. */
+  padding-block-end: calc(
+    20px + var(--analytics-consent-banner-height, 0px) +
+      var(--analytics-consent-withdrawal-height, 0px)
+  );
   pointer-events: none;
 }
 
@@ -113,7 +118,10 @@
 @media (max-width: 640px) {
   .wrapper {
     padding-inline: 12px;
-    padding-block-end: 12px;
+    padding-block-end: calc(
+      12px + var(--analytics-consent-banner-height, 0px) +
+        var(--analytics-consent-withdrawal-height, 0px)
+    );
   }
 
   .banner {

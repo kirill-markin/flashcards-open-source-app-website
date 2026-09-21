@@ -1,8 +1,8 @@
 import { existsSync, readFileSync } from "fs";
 import { join } from "path";
+import { PRODUCT_API_ORIGIN } from "@/lib/site";
 
-export const globalActivitySnapshotUrl =
-  "https://api.flashcards-open-source-app.com/v1/global/snapshot";
+export const globalActivitySnapshotUrl = `${PRODUCT_API_ORIGIN}/v1/global/snapshot`;
 export const globalActivitySnapshotGeneratedFileName = "global-activity-snapshot.json";
 export const globalActivitySnapshotSchemaVersion = 2;
 

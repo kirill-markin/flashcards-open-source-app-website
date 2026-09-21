@@ -1,28 +1,23 @@
 /**
  * Auth utilities for the marketing site.
  *
- * The marketing site checks for the `logged_in` cookie — a non-HttpOnly
- * UI indicator set by auth.flashcards-open-source-app.com on the shared
- * .flashcards-open-source-app.com domain. It carries no security value;
- * the real JWT verification happens on app.flashcards-open-source-app.com.
+ * The marketing site checks for the `logged_in` cookie — a non-HttpOnly UI indicator set by the
+ * auth host on the shared `nibomo.com` domain. It carries no security value; the real JWT
+ * verification happens in the app.
  */
 
-const APP_URL =
-  process.env.NEXT_PUBLIC_APP_URL ?? "https://app.flashcards-open-source-app.com";
-const AUTH_URL =
-  process.env.NEXT_PUBLIC_AUTH_URL ??
-  "https://auth.flashcards-open-source-app.com";
+import { PRODUCT_APP_ORIGIN, PRODUCT_AUTH_ORIGIN } from "@/lib/site";
 
 export const getLoginUrl = (redirectPath: string): string => {
-  const redirectUri = `${APP_URL}${redirectPath}`;
-  return `${AUTH_URL}/login?redirect_uri=${encodeURIComponent(redirectUri)}`;
+  const redirectUri = `${PRODUCT_APP_ORIGIN}${redirectPath}`;
+  return `${PRODUCT_AUTH_ORIGIN}/login?redirect_uri=${encodeURIComponent(redirectUri)}`;
 };
 
 export const getSignupUrl = (): string => {
-  const redirectUri = APP_URL;
-  return `${AUTH_URL}/login?redirect_uri=${encodeURIComponent(redirectUri)}`;
+  const redirectUri = PRODUCT_APP_ORIGIN;
+  return `${PRODUCT_AUTH_ORIGIN}/login?redirect_uri=${encodeURIComponent(redirectUri)}`;
 };
 
-export const getAppUrl = (): string => APP_URL;
+export const getAppUrl = (): string => PRODUCT_APP_ORIGIN;
 
 export const LOGGED_IN_COOKIE_NAME = "logged_in";

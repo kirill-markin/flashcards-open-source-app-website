@@ -3,7 +3,7 @@ import {
   CANONICAL_GOOGLE_PLAY_URL,
 } from "@/lib/humanPlatforms";
 import type { AppLocale } from "@/lib/i18n";
-import { SITE_NAME, SITE_URL } from "@/lib/site";
+import { PRODUCT_APP_ORIGIN, SITE_NAME, SITE_URL } from "@/lib/site";
 
 export const STRUCTURED_DATA_ENTITY_IDS = {
   website: `${SITE_URL}/#website`,
@@ -17,8 +17,6 @@ export const STRUCTURED_DATA_AUTHOR_URL = "https://kirill-markin.com/";
 export const FLASHCARDS_REPOSITORY_URL =
   "https://github.com/kirill-markin/flashcards-open-source-app";
 export const FLASHCARDS_LOGO_URL = `${SITE_URL}/logo-512.png`;
-export const FLASHCARDS_WEB_APP_URL =
-  "https://app.flashcards-open-source-app.com";
 
 export function serializeStructuredData(value: object): string {
   return JSON.stringify(value).replace(/</g, "\\u003c");
@@ -76,7 +74,7 @@ export interface SoftwareApplicationStructuredData {
     typeof CANONICAL_APP_STORE_URL,
     typeof CANONICAL_GOOGLE_PLAY_URL,
   ];
-  readonly url: typeof FLASHCARDS_WEB_APP_URL;
+  readonly url: typeof PRODUCT_APP_ORIGIN;
 }
 
 export interface SoftwareSourceCodeStructuredData {
@@ -158,7 +156,7 @@ function createSoftwareApplicationStructuredData(
     },
     image: FLASHCARDS_LOGO_URL,
     creator: CREATOR_REFERENCE,
-    url: FLASHCARDS_WEB_APP_URL,
+    url: PRODUCT_APP_ORIGIN,
     installUrl: [CANONICAL_APP_STORE_URL, CANONICAL_GOOGLE_PLAY_URL],
     sameAs: [CANONICAL_APP_STORE_URL, CANONICAL_GOOGLE_PLAY_URL],
   };
