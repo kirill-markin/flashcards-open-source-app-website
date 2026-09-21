@@ -66,7 +66,7 @@ Marketing website for Nibomo. Static Next.js site deployed on Vercel.
 
 ## Auth Integration
 
-The site has zero auth logic. It only checks whether the `logged_in` cookie is present (set by `auth.flashcards-open-source-app.com` on `.flashcards-open-source-app.com`) to switch between "Log In / Sign Up" and "Open App" buttons. There is no JWT verification. The site is served from `nibomo.com`, which cannot read a cookie scoped to the old domain, so signed-in visitors keep seeing the signed-out buttons; both still land in the app. This degradation is accepted and no cross-domain session check is added.
+The site has zero auth logic. It only checks whether the `logged_in` cookie is present to switch between "Log In / Sign Up" and "Open App" buttons. There is no JWT verification. The auth host writes that cookie with the backend's single `COOKIE_DOMAIN`, which is still `flashcards-open-source-app.com`, so `nibomo.com` cannot read it and signed-in visitors keep seeing the signed-out buttons; both still land in the app. Once the backend scopes the cookie to the domain the request arrived on, a session established through `auth.nibomo.com` becomes readable here, while one established on the legacy domain stays invisible until it is re-established. This degradation is accepted and no cross-domain session check is added. That one variable scopes every cookie the backend writes, the shared `analytics_visitor` analytics cookie included, so its current value is stated here and nowhere else; code that depends on it points back to this paragraph instead of naming a domain of its own.
 
 ## Domain Layout
 
@@ -74,16 +74,17 @@ The site has zero auth logic. It only checks whether the `logged_in` cookie is p
 | --- | --- | --- |
 | `nibomo.com` | This marketing site | Vercel |
 | `flashcards-open-source-app.com` | Former marketing domain, redirects here | Vercel |
-| `app.flashcards-open-source-app.com` | Main app | AWS CloudFront + S3 |
-| `auth.flashcards-open-source-app.com` | Cognito auth UI/API | AWS API Gateway + Lambda |
-| `api.flashcards-open-source-app.com` | Backend API | AWS API Gateway + Lambda |
+| `app.nibomo.com` | Main app | AWS CloudFront + S3 |
+| `auth.nibomo.com` | Cognito auth UI/API | AWS API Gateway + Lambda |
+| `api.nibomo.com` | Backend API | AWS API Gateway + Lambda |
+| `mcp.nibomo.com` | MCP server | AWS API Gateway + Lambda |
 
-`flashcards-open-source-app.com` and both `www` hosts issue one path-preserving 308 redirect to `nibomo.com` and stay alive permanently; the app, auth and API hosts keep the old domain.
+`flashcards-open-source-app.com` and both `www` hosts issue one path-preserving 308 redirect to `nibomo.com` and stay alive permanently. `src/lib/site.ts` is the single place the site names a product host; the old app host also stays in `CATALOG_APP_HOSTNAMES` so install links minted on either side of the cutover keep reporting.
 
 ## Client Entry Points
 
-- Hosted web app for humans starts at `https://app.flashcards-open-source-app.com`
-- Terminal / AI-agent onboarding starts at `GET https://api.flashcards-open-source-app.com/v1/agent`
+- Hosted web app for humans starts at `https://app.nibomo.com`
+- Terminal / AI-agent onboarding starts at `GET https://api.nibomo.com/v1/agent`
 - Start here for instructions: `src/content/en/docs/getting-started.md`, `src/content/en/docs/api.md`, and `src/content/en/blog/claude-code-codex-openclaw-flashcards-login.md`
 
 ## Content

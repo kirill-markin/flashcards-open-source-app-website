@@ -1,6 +1,23 @@
 import type { AppLocale } from "@/lib/localeConfig";
 
 interface AppUiCopy {
+  readonly analyticsConsentBanner: {
+    readonly allow: string;
+    readonly decline: string;
+    readonly error: string;
+    readonly label: string;
+    readonly message: string;
+    readonly privacyPolicy: string;
+  };
+  readonly analyticsConsentWithdrawal: {
+    readonly close: string;
+    readonly link: string;
+    readonly off: string;
+    readonly on: string;
+    readonly title: string;
+    readonly toggleDescription: string;
+    readonly toggleTitle: string;
+  };
   readonly auth: {
     readonly logIn: string;
     readonly openApp: string;
@@ -124,6 +141,23 @@ interface AppUiCopy {
 
 const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
   en: {
+    analyticsConsentBanner: {
+      allow: "Allow",
+      decline: "Decline",
+      error: "That did not go through. Please try again.",
+      label: "Analytics cookies",
+      message: "We use a cookie and other browser storage to measure how the site gets used. Until you choose, this site stores nothing on this device and sends nothing that identifies you.",
+      privacyPolicy: "Privacy Policy",
+    },
+    analyticsConsentWithdrawal: {
+      close: "Close",
+      link: "Analytics cookies",
+      off: "Off",
+      on: "On",
+      title: "Analytics",
+      toggleDescription: "When this is off, this site gives this browser no identifier and stores nothing for analytics.",
+      toggleTitle: "Allow analytics cookies",
+    },
     auth: {
       logIn: "Log In",
       openApp: "Open App",
@@ -253,6 +287,23 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     },
   },
   es: {
+    analyticsConsentBanner: {
+      allow: "Permitir",
+      decline: "Rechazar",
+      error: "No ha funcionado. Inténtalo de nuevo.",
+      label: "Cookies de analítica",
+      message: "Usamos una cookie y otro almacenamiento del navegador para medir cómo se usa el sitio. Hasta que elijas, este sitio no guarda nada en este dispositivo ni envía nada que te identifique.",
+      privacyPolicy: "Política de privacidad",
+    },
+    analyticsConsentWithdrawal: {
+      close: "Cerrar",
+      link: "Cookies de analítica",
+      off: "Desactivado",
+      on: "Activado",
+      title: "Analítica",
+      toggleDescription: "Cuando está desactivado, este sitio no da ningún identificador a este navegador y no guarda nada para analítica.",
+      toggleTitle: "Permitir cookies de analítica",
+    },
     auth: {
       logIn: "Iniciar sesión",
       openApp: "Abrir app",
@@ -382,6 +433,23 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     },
   },
   ar: {
+    analyticsConsentBanner: {
+      allow: "السماح",
+      decline: "الرفض",
+      error: "لم تنجح العملية. حاول مرة أخرى.",
+      label: "ملفات تعريف الارتباط للتحليلات",
+      message: "نستخدم ملف تعريف ارتباط ووسائل تخزين أخرى في المتصفح لقياس كيفية استخدام الموقع. قبل اختيارك، لا يُخزِّن هذا الموقع شيئًا على هذا الجهاز ولا يُرسِل أي شيء يعرّف بك.",
+      privacyPolicy: "سياسة الخصوصية",
+    },
+    analyticsConsentWithdrawal: {
+      close: "إغلاق",
+      link: "ملفات تعريف الارتباط للتحليلات",
+      off: "متوقف",
+      on: "مفعّل",
+      title: "التحليلات",
+      toggleDescription: "عند إيقافه، لا يمنح هذا الموقع هذا المتصفح أي معرّف ولا يخزّن شيئًا لأغراض التحليلات.",
+      toggleTitle: "السماح بملفات تعريف الارتباط للتحليلات",
+    },
     auth: {
       logIn: "تسجيل الدخول",
       openApp: "فتح التطبيق",
@@ -510,6 +578,23 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     },
   },
   de: {
+    analyticsConsentBanner: {
+      allow: "Erlauben",
+      decline: "Ablehnen",
+      error: "Das hat nicht geklappt. Bitte versuche es erneut.",
+      label: "Analyse-Cookies",
+      message: "Wir nutzen ein Cookie und weiteren Browser-Speicher, um zu messen, wie die Website genutzt wird. Bis zu deiner Wahl speichert diese Website nichts auf diesem Gerät und sendet nichts, was dich identifiziert.",
+      privacyPolicy: "Datenschutzerklärung",
+    },
+    analyticsConsentWithdrawal: {
+      close: "Schließen",
+      link: "Analyse-Cookies",
+      off: "Aus",
+      on: "An",
+      title: "Analyse",
+      toggleDescription: "Wenn dies aus ist, gibt diese Website diesem Browser keine Kennung und speichert nichts für Analysen.",
+      toggleTitle: "Analyse-Cookies erlauben",
+    },
     auth: {
       logIn: "Anmelden",
       openApp: "App öffnen",
@@ -639,6 +724,23 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     },
   },
   hi: {
+    analyticsConsentBanner: {
+      allow: "अनुमति दें",
+      decline: "मना करें",
+      error: "यह नहीं हो पाया। फिर से कोशिश करें।",
+      label: "एनालिटिक्स कुकीज़",
+      message: "साइट कैसे इस्तेमाल होती है यह मापने के लिए हम एक कुकी और ब्राउज़र का कुछ और स्टोरेज इस्तेमाल करते हैं। आपके चुनने तक यह साइट इस डिवाइस पर कुछ भी सेव नहीं करती और आपकी पहचान बताने वाला कुछ भी नहीं भेजती।",
+      privacyPolicy: "गोपनीयता नीति",
+    },
+    analyticsConsentWithdrawal: {
+      close: "बंद करें",
+      link: "एनालिटिक्स कुकीज़",
+      off: "बंद",
+      on: "चालू",
+      title: "एनालिटिक्स",
+      toggleDescription: "बंद होने पर यह साइट इस ब्राउज़र को कोई पहचानकर्ता नहीं देती और एनालिटिक्स के लिए कुछ भी सेव नहीं करती।",
+      toggleTitle: "एनालिटिक्स कुकीज़ की अनुमति दें",
+    },
     auth: {
       logIn: "लॉग इन",
       openApp: "ऐप खोलें",
@@ -768,6 +870,23 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     },
   },
   ja: {
+    analyticsConsentBanner: {
+      allow: "許可",
+      decline: "拒否",
+      error: "うまくいきませんでした。もう一度お試しください。",
+      label: "分析用Cookie",
+      message: "サイトの使われ方を把握するために、Cookieとブラウザーのその他の保存領域を使います。選ぶまで、このサイトはこの端末に何も保存せず、あなたを特定できるものも送信しません。",
+      privacyPolicy: "プライバシーポリシー",
+    },
+    analyticsConsentWithdrawal: {
+      close: "閉じる",
+      link: "分析用Cookie",
+      off: "オフ",
+      on: "オン",
+      title: "分析",
+      toggleDescription: "オフのとき、このサイトはこのブラウザーに識別子を与えず、分析のために何も保存しません。",
+      toggleTitle: "分析用Cookieを許可",
+    },
     auth: {
       logIn: "ログイン",
       openApp: "アプリを開く",
@@ -897,6 +1016,23 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     },
   },
   fr: {
+    analyticsConsentBanner: {
+      allow: "Autoriser",
+      decline: "Refuser",
+      error: "Ça n'a pas marché. Réessayez.",
+      label: "Cookies de mesure",
+      message: "Nous utilisons un cookie et d'autres stockages du navigateur pour mesurer l'usage du site. Avant votre choix, ce site ne stocke rien sur cet appareil et n'envoie rien qui vous identifie.",
+      privacyPolicy: "Politique de confidentialité",
+    },
+    analyticsConsentWithdrawal: {
+      close: "Fermer",
+      link: "Cookies de mesure",
+      off: "Désactivé",
+      on: "Activé",
+      title: "Mesure d'audience",
+      toggleDescription: "Quand c'est désactivé, ce site ne donne aucun identifiant à ce navigateur et ne stocke rien à des fins de mesure.",
+      toggleTitle: "Autoriser les cookies de mesure",
+    },
     auth: {
       logIn: "Se connecter",
       openApp: "Ouvrir l'app",
@@ -1026,6 +1162,23 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     },
   },
   pt: {
+    analyticsConsentBanner: {
+      allow: "Permitir",
+      decline: "Recusar",
+      error: "Não deu certo. Tente de novo.",
+      label: "Cookies de análise",
+      message: "Usamos um cookie e outros armazenamentos do navegador para medir como o site é usado. Até você escolher, este site não guarda nada neste dispositivo e não envia nada que identifique você.",
+      privacyPolicy: "Política de Privacidade",
+    },
+    analyticsConsentWithdrawal: {
+      close: "Fechar",
+      link: "Cookies de análise",
+      off: "Desligado",
+      on: "Ligado",
+      title: "Análise",
+      toggleDescription: "Quando está desligado, este site não dá nenhum identificador a este navegador e não guarda nada para análise.",
+      toggleTitle: "Permitir cookies de análise",
+    },
     auth: {
       logIn: "Entrar",
       openApp: "Abrir o app",
@@ -1155,6 +1308,23 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     },
   },
   ru: {
+    analyticsConsentBanner: {
+      allow: "Разрешить",
+      decline: "Отклонить",
+      error: "Не получилось. Попробуйте ещё раз.",
+      label: "Аналитические cookie",
+      message: "Мы используем cookie и другое хранилище браузера, чтобы понимать, как пользуются сайтом. До вашего выбора этот сайт ничего не сохраняет на этом устройстве и не отправляет ничего, что вас идентифицирует.",
+      privacyPolicy: "Политика конфиденциальности",
+    },
+    analyticsConsentWithdrawal: {
+      close: "Закрыть",
+      link: "Аналитические cookie",
+      off: "Выкл.",
+      on: "Вкл.",
+      title: "Аналитика",
+      toggleDescription: "Когда выключено, сайт не выдаёт этому браузеру идентификатор и ничего не сохраняет для аналитики.",
+      toggleTitle: "Разрешить аналитические cookie",
+    },
     auth: {
       logIn: "Войти",
       openApp: "Открыть приложение",
@@ -1284,6 +1454,23 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     },
   },
   zh: {
+    analyticsConsentBanner: {
+      allow: "允许",
+      decline: "拒绝",
+      error: "没有成功，请再试一次。",
+      label: "分析 Cookie",
+      message: "我们使用一个 Cookie 和浏览器的其他存储来了解网站的使用情况。在你做出选择之前，本网站不会在此设备上存储任何内容，也不会发送任何能识别你的信息。",
+      privacyPolicy: "隐私政策",
+    },
+    analyticsConsentWithdrawal: {
+      close: "关闭",
+      link: "分析 Cookie",
+      off: "关闭",
+      on: "开启",
+      title: "分析",
+      toggleDescription: "关闭后，本网站不会给此浏览器任何标识符，也不会为分析存储任何内容。",
+      toggleTitle: "允许分析 Cookie",
+    },
     auth: {
       logIn: "登录",
       openApp: "打开应用",
@@ -1410,6 +1597,23 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     },
   },
   it: {
+    analyticsConsentBanner: {
+      allow: "Consenti",
+      decline: "Rifiuta",
+      error: "Non ha funzionato. Riprova.",
+      label: "Cookie di analisi",
+      message: "Usiamo un cookie e altra archiviazione del browser per misurare come viene usato il sito. Finché non scegli, questo sito non memorizza nulla su questo dispositivo e non invia nulla che ti identifichi.",
+      privacyPolicy: "Informativa sulla privacy",
+    },
+    analyticsConsentWithdrawal: {
+      close: "Chiudi",
+      link: "Cookie di analisi",
+      off: "Disattivo",
+      on: "Attivo",
+      title: "Analisi",
+      toggleDescription: "Quando è disattivato, questo sito non assegna alcun identificatore a questo browser e non memorizza nulla per le analisi.",
+      toggleTitle: "Consenti i cookie di analisi",
+    },
     auth: {
       logIn: "Accedi",
       openApp: "Apri l'app",
@@ -1539,6 +1743,23 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     },
   },
   ko: {
+    analyticsConsentBanner: {
+      allow: "허용",
+      decline: "거부",
+      error: "처리하지 못했습니다. 다시 시도해 주세요.",
+      label: "분석 쿠키",
+      message: "사이트가 어떻게 사용되는지 측정하기 위해 쿠키와 브라우저 저장소를 사용합니다. 선택하기 전까지는 이 기기에 아무것도 저장하지 않고, 신원을 알 수 있는 정보도 보내지 않습니다.",
+      privacyPolicy: "개인정보 처리방침",
+    },
+    analyticsConsentWithdrawal: {
+      close: "닫기",
+      link: "분석 쿠키",
+      off: "끔",
+      on: "켬",
+      title: "분석",
+      toggleDescription: "꺼져 있으면 이 사이트는 이 브라우저에 식별자를 부여하지 않고 분석을 위해 아무것도 저장하지 않습니다.",
+      toggleTitle: "분석 쿠키 허용",
+    },
     auth: {
       logIn: "로그인",
       openApp: "앱 열기",
@@ -1668,6 +1889,23 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     },
   },
   id: {
+    analyticsConsentBanner: {
+      allow: "Izinkan",
+      decline: "Tolak",
+      error: "Tindakan itu tidak berhasil. Silakan coba lagi.",
+      label: "Cookie analitik",
+      message: "Kami memakai cookie dan penyimpanan peramban lain untuk mengukur cara situs ini dipakai. Sebelum Anda memilih, situs ini tidak menyimpan apa pun di perangkat ini dan tidak mengirim apa pun yang mengidentifikasi Anda.",
+      privacyPolicy: "Kebijakan Privasi",
+    },
+    analyticsConsentWithdrawal: {
+      close: "Tutup",
+      link: "Cookie analitik",
+      off: "Nonaktif",
+      on: "Aktif",
+      title: "Analitik",
+      toggleDescription: "Saat nonaktif, situs ini tidak memberi pengenal apa pun pada peramban ini dan tidak menyimpan apa pun untuk analitik.",
+      toggleTitle: "Izinkan cookie analitik",
+    },
     auth: {
       logIn: "Masuk",
       openApp: "Buka Aplikasi",
@@ -1797,6 +2035,23 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     },
   },
   tr: {
+    analyticsConsentBanner: {
+      allow: "İzin ver",
+      decline: "Reddet",
+      error: "Bu işlem tamamlanamadı. Lütfen tekrar deneyin.",
+      label: "Analiz çerezleri",
+      message: "Sitenin nasıl kullanıldığını ölçmek için bir çerez ve diğer tarayıcı depolamasını kullanıyoruz. Siz seçim yapana kadar bu site bu cihaza hiçbir şey kaydetmez ve sizi tanımlayan hiçbir şey göndermez.",
+      privacyPolicy: "Gizlilik Politikası",
+    },
+    analyticsConsentWithdrawal: {
+      close: "Kapat",
+      link: "Analiz çerezleri",
+      off: "Kapalı",
+      on: "Açık",
+      title: "Analiz",
+      toggleDescription: "Kapalıyken bu site bu tarayıcıya hiçbir tanımlayıcı vermez ve analiz için hiçbir şey saklamaz.",
+      toggleTitle: "Analiz çerezlerine izin ver",
+    },
     auth: {
       logIn: "Giriş Yap",
       openApp: "Uygulamayı Aç",
@@ -1926,6 +2181,23 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     },
   },
   nl: {
+    analyticsConsentBanner: {
+      allow: "Toestaan",
+      decline: "Weigeren",
+      error: "Dat is niet gelukt. Probeer het opnieuw.",
+      label: "Analytische cookies",
+      message: "We gebruiken een cookie en andere browseropslag om te meten hoe de site wordt gebruikt. Tot je een keuze maakt, slaat deze site niets op dit apparaat op en stuurt hij niets waarmee je te herkennen bent.",
+      privacyPolicy: "Privacybeleid",
+    },
+    analyticsConsentWithdrawal: {
+      close: "Sluiten",
+      link: "Analytische cookies",
+      off: "Uit",
+      on: "Aan",
+      title: "Analyse",
+      toggleDescription: "Als dit uit staat, geeft deze site deze browser geen identificatie en slaat hij niets op voor analyse.",
+      toggleTitle: "Analytische cookies toestaan",
+    },
     auth: {
       logIn: "Aanmelden",
       openApp: "App openen",
@@ -2055,6 +2327,23 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     },
   },
   pl: {
+    analyticsConsentBanner: {
+      allow: "Zezwól",
+      decline: "Odrzuć",
+      error: "Nie udało się. Spróbuj ponownie.",
+      label: "Pliki cookie analityczne",
+      message: "Używamy pliku cookie i innej pamięci przeglądarki, aby mierzyć, jak korzysta się z witryny. Do czasu Twojego wyboru witryna nic nie zapisuje na tym urządzeniu i nie wysyła niczego, co Cię identyfikuje.",
+      privacyPolicy: "Polityka prywatności",
+    },
+    analyticsConsentWithdrawal: {
+      close: "Zamknij",
+      link: "Analityczne pliki cookie",
+      off: "Wył.",
+      on: "Wł.",
+      title: "Analityka",
+      toggleDescription: "Gdy jest wyłączone, witryna nie nadaje tej przeglądarce żadnego identyfikatora i nic nie zapisuje na potrzeby analityki.",
+      toggleTitle: "Zezwalaj na analityczne pliki cookie",
+    },
     auth: {
       logIn: "Zaloguj się",
       openApp: "Otwórz aplikację",
@@ -2184,6 +2473,23 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     },
   },
   vi: {
+    analyticsConsentBanner: {
+      allow: "Cho phép",
+      decline: "Từ chối",
+      error: "Thao tác không thành công. Vui lòng thử lại.",
+      label: "Cookie phân tích",
+      message: "Chúng tôi dùng cookie và bộ nhớ trình duyệt khác để đo cách trang web được sử dụng. Cho đến khi bạn chọn, trang web không lưu gì trên thiết bị này và không gửi bất kỳ thông tin nào nhận dạng bạn.",
+      privacyPolicy: "Chính sách quyền riêng tư",
+    },
+    analyticsConsentWithdrawal: {
+      close: "Đóng",
+      link: "Cookie phân tích",
+      off: "Tắt",
+      on: "Bật",
+      title: "Phân tích",
+      toggleDescription: "Khi tắt, trang web không cấp cho trình duyệt này bất kỳ mã nhận dạng nào và không lưu gì cho việc phân tích.",
+      toggleTitle: "Cho phép cookie phân tích",
+    },
     auth: {
       logIn: "Đăng nhập",
       openApp: "Mở ứng dụng",
@@ -2313,6 +2619,23 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     },
   },
   th: {
+    analyticsConsentBanner: {
+      allow: "อนุญาต",
+      decline: "ไม่อนุญาต",
+      error: "ดำเนินการไม่สำเร็จ โปรดลองอีกครั้ง",
+      label: "คุกกี้วิเคราะห์",
+      message: "เราใช้คุกกี้และพื้นที่จัดเก็บอื่นในเบราว์เซอร์เพื่อวัดการใช้งานเว็บไซต์ จนกว่าคุณจะเลือก เว็บไซต์นี้จะไม่เก็บอะไรไว้บนอุปกรณ์นี้และไม่ส่งข้อมูลที่ระบุตัวคุณ",
+      privacyPolicy: "นโยบายความเป็นส่วนตัว",
+    },
+    analyticsConsentWithdrawal: {
+      close: "ปิด",
+      link: "คุกกี้วิเคราะห์",
+      off: "ปิด",
+      on: "เปิด",
+      title: "การวิเคราะห์",
+      toggleDescription: "เมื่อปิดอยู่ เว็บไซต์นี้จะไม่ให้ตัวระบุใดแก่เบราว์เซอร์นี้ และไม่เก็บข้อมูลใดเพื่อการวิเคราะห์",
+      toggleTitle: "อนุญาตคุกกี้วิเคราะห์",
+    },
     auth: {
       logIn: "เข้าสู่ระบบ",
       openApp: "เปิดแอป",
@@ -2442,6 +2765,23 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     },
   },
   uk: {
+    analyticsConsentBanner: {
+      allow: "Дозволити",
+      decline: "Відхилити",
+      error: "Не вдалося. Спробуйте ще раз.",
+      label: "Аналітичні cookie",
+      message: "Ми використовуємо cookie та інше сховище браузера, щоб вимірювати, як користуються сайтом. Доки ви не зробите вибір, сайт нічого не зберігає на цьому пристрої й не надсилає даних, які вас ідентифікують.",
+      privacyPolicy: "Політика конфіденційності",
+    },
+    analyticsConsentWithdrawal: {
+      close: "Закрити",
+      link: "Аналітичні cookie",
+      off: "Вимк.",
+      on: "Увімк.",
+      title: "Аналітика",
+      toggleDescription: "Коли вимкнено, сайт не надає цьому браузеру ідентифікатора й нічого не зберігає для аналітики.",
+      toggleTitle: "Дозволити аналітичні cookie",
+    },
     auth: {
       logIn: "Увійти",
       openApp: "Відкрити застосунок",
@@ -2571,6 +2911,23 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     },
   },
   he: {
+    analyticsConsentBanner: {
+      allow: "אישור",
+      decline: "דחייה",
+      error: "זה לא עבר. נסה שוב.",
+      label: "עוגיות אנליטיקה",
+      message: "אנחנו משתמשים בעוגייה ובאחסון דפדפן נוסף כדי למדוד את השימוש באתר. עד שתבחר, האתר לא שומר דבר במכשיר הזה ולא שולח מידע שמזהה אותך.",
+      privacyPolicy: "מדיניות הפרטיות",
+    },
+    analyticsConsentWithdrawal: {
+      close: "סגירה",
+      link: "עוגיות ניתוח",
+      off: "כבוי",
+      on: "פעיל",
+      title: "ניתוח",
+      toggleDescription: "כשזה כבוי, האתר לא נותן לדפדפן הזה שום מזהה ולא שומר דבר לצורכי ניתוח.",
+      toggleTitle: "לאפשר עוגיות ניתוח",
+    },
     auth: {
       logIn: "התחברות",
       openApp: "פתיחת האפליקציה",

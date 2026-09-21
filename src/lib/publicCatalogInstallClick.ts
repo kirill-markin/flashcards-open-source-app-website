@@ -1,6 +1,8 @@
+import { hasAnalyticsPrivacySignal } from "./analyticsPrivacySignal";
+import { readAnalyticsAnonymousId } from "./analyticsVisitor";
 import type { AppLocale } from "./i18n";
 import type { PublicCatalogInstallPlacement } from "./publicCatalogAnalytics";
-import { PRODUCT_ROOT_HOSTNAMES } from "./site";
+import { PRODUCT_API_ORIGIN, PRODUCT_ROOT_HOSTNAMES } from "./site";
 
 type CatalogInstallSource =
   | "direct"
@@ -16,23 +18,38 @@ type CatalogInstallDeviceCategory =
   | "tablet"
   | "unknown";
 
-interface NavigatorPrivacySignals {
-  readonly globalPrivacyControl?: boolean;
-  readonly msDoNotTrack?: string | null;
-}
-
-interface WindowPrivacySignals {
-  readonly doNotTrack?: string | null;
-}
-
 interface CatalogInstallErrorBody {
   readonly code: string | null;
 }
 
+interface CatalogInstallEventProperties {
+  readonly package_version_id: string;
+  readonly placement: PublicCatalogInstallPlacement;
+  readonly source: CatalogInstallSource;
+  readonly device_category: CatalogInstallDeviceCategory;
+}
+
+/**
+ * Everything about one click that is read off the page, kept apart from the two fields the send
+ * decides: the visitor identifier, which depends on the consent answer, and `clientSentAt`.
+ */
+interface CatalogInstallEventDraft {
+  readonly eventId: string;
+  readonly clientOccurredAt: string;
+  readonly uiLocale: AppLocale;
+  readonly deviceLocale: string;
+  readonly properties: CatalogInstallEventProperties;
+}
+
 const CATALOG_INSTALL_EVENT_NAME = "catalog_install_clicked";
-const CATALOG_INSTALL_EVENT_URL =
-  "https://api.flashcards-open-source-app.com/v1/analytics/catalog-install-events";
-const CATALOG_APP_HOSTNAME = "app.flashcards-open-source-app.com";
+const CATALOG_INSTALL_EVENT_URL = `${PRODUCT_API_ORIGIN}/v1/analytics/catalog-install-events`;
+// Both app host families. The catalog install links the backend renders move to the new host at the
+// web cutover, and a validator naming only one of them would reject every link on one side of that
+// day and silently stop reporting the funnel step this whole path exists for.
+const CATALOG_APP_HOSTNAMES: ReadonlyArray<string> = [
+  "app.nibomo.com",
+  "app.flashcards-open-source-app.com",
+];
 const UUID_PATTERN =
   /^[0-9a-f]{8}-[0-9a-f]{4}-[1-8][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i;
 const PACKAGE_VERSION_PATH_PATTERN =
@@ -167,16 +184,6 @@ function getCatalogInstallDeviceCategory(): CatalogInstallDeviceCategory {
   return "desktop";
 }
 
-function hasCatalogInstallPrivacySignal(): boolean {
-  const privacyNavigator = navigator as Navigator & NavigatorPrivacySignals;
-  const privacyWindow = window as Window & WindowPrivacySignals;
-
-  return privacyNavigator.globalPrivacyControl === true
-    || privacyNavigator.doNotTrack === "1"
-    || privacyNavigator.msDoNotTrack === "1"
-    || privacyWindow.doNotTrack === "1";
-}
-
 function parseCatalogInstallErrorBody(value: unknown): CatalogInstallErrorBody {
   if (typeof value !== "object" || value === null || !("code" in value)) {
     return { code: null };
@@ -207,28 +214,29 @@ async function warnAboutRejectedCatalogInstallEvent(
   });
 }
 
-function emitCatalogInstallClick(
-  packageVersionId: string,
-  locale: AppLocale,
-  placement: PublicCatalogInstallPlacement,
-): void {
-  const occurredAt = new Date().toISOString();
+/**
+ * `credentials: "omit"` stays. The collector reads no credential at all, and its CORS allowlist
+ * carries no `Access-Control-Allow-Credentials`, so a credentialed request here would be refused by
+ * the browser rather than carry anything useful. The identity travels in `anonymousId` instead, read
+ * from the cookie the visitor identity route minted on this same registrable domain.
+ *
+ * `readAnalyticsAnonymousId` answers null for every browser that may not carry one - one that
+ * refused, and one whose consent question is still open - so a click that happens before an answer
+ * exists is reported here and now with no identifier attached, exactly as a declining browser's is.
+ * Holding it instead would lose it: this site has no durable queue, and the top of the funnel is
+ * precisely where a first-time visitor clicks before reading a banner.
+ */
+function sendCatalogInstallEvent(draft: CatalogInstallEventDraft): void {
+  const anonymousId = readAnalyticsAnonymousId();
   const body = {
-    eventId: createUuidV7(),
+    eventId: draft.eventId,
     eventName: CATALOG_INSTALL_EVENT_NAME,
-    clientOccurredAt: occurredAt,
-    clientSentAt: occurredAt,
-    uiLocale: locale,
-    deviceLocale: navigator.language,
-    properties: {
-      package_version_id: packageVersionId,
-      placement,
-      source: classifyCatalogInstallSource(
-        document.referrer,
-        window.location.hostname,
-      ),
-      device_category: getCatalogInstallDeviceCategory(),
-    },
+    clientOccurredAt: draft.clientOccurredAt,
+    clientSentAt: new Date().toISOString(),
+    ...(anonymousId === null ? {} : { anonymousId }),
+    uiLocale: draft.uiLocale,
+    deviceLocale: draft.deviceLocale,
+    properties: draft.properties,
   };
 
   void fetch(CATALOG_INSTALL_EVENT_URL, {
@@ -254,9 +262,9 @@ function emitCatalogInstallClick(
 function getPackageVersionId(installUrl: URL): string {
   if (
     installUrl.protocol !== "https:"
-    || installUrl.hostname.toLowerCase() !== CATALOG_APP_HOSTNAME
+    || CATALOG_APP_HOSTNAMES.includes(installUrl.hostname.toLowerCase()) === false
   ) {
-    throw new TypeError("Catalog install URL must use the canonical app origin.");
+    throw new TypeError("Catalog install URL must use a canonical app origin.");
   }
 
   const pathMatch = PACKAGE_VERSION_PATH_PATTERN.exec(installUrl.pathname);
@@ -273,13 +281,28 @@ export function reportPublicCatalogInstallClick(
   locale: AppLocale,
   placement: PublicCatalogInstallPlacement,
 ): void {
-  if (hasCatalogInstallPrivacySignal()) {
+  if (hasAnalyticsPrivacySignal()) {
     return;
   }
 
   try {
-    const packageVersionId = getPackageVersionId(new URL(href));
-    emitCatalogInstallClick(packageVersionId, locale, placement);
+    const draft: CatalogInstallEventDraft = {
+      eventId: createUuidV7(),
+      clientOccurredAt: new Date().toISOString(),
+      uiLocale: locale,
+      deviceLocale: navigator.language,
+      properties: {
+        package_version_id: getPackageVersionId(new URL(href)),
+        placement,
+        source: classifyCatalogInstallSource(
+          document.referrer,
+          window.location.hostname,
+        ),
+        device_category: getCatalogInstallDeviceCategory(),
+      },
+    };
+
+    sendCatalogInstallEvent(draft);
   } catch {
     console.warn("catalog_install_analytics_error", {
       code: "CLIENT_SETUP_ERROR",
