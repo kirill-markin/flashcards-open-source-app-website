@@ -154,7 +154,7 @@ function appendMarkdownFooter(
       markdownTip: `*Dica: adicione \`.md\` a qualquer URL em ${SITE_CONTEXT.siteUrl} para obter uma versão Markdown limpa da página.*`,
     },
     ru: {
-      agent: `*AI-агенты могут создать аккаунт пользователя в этом сервисе, начиная с \`GET ${DISCOVERY_URL}\`. После настройки они также могут подключиться по MCP по адресу \`${MCP_URL}\`.*`,
+      agent: `*ИИ-агенты могут создать аккаунт пользователя в этом сервисе, начиная с \`GET ${DISCOVERY_URL}\`. После настройки они также могут подключиться по MCP по адресу \`${MCP_URL}\`.*`,
       htmlVersionLabel: "Открыть оформленную HTML-версию этой страницы",
       markdownTip: `*Совет: добавьте \`.md\` к любому URL на ${SITE_CONTEXT.siteUrl}, чтобы получить чистую Markdown-версию страницы.*`,
     },

@@ -29,7 +29,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
       },
       agentConnectors: [
         {
-          caption: "Добавьте этот MCP-сервер в свой AI-клиент:",
+          caption: "Добавьте этот MCP-сервер в свой ИИ-клиент:",
           link: {
             label: "https://mcp.nibomo.com/mcp",
             href: "https://mcp.nibomo.com/mcp",
