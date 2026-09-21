@@ -115,6 +115,16 @@ const nextConfig: NextConfig = {
     ],
     unoptimized: false,
   },
+  // Non-canonical package pages render on first request and read two generated
+  // files from process.cwd() at runtime: the catalog dump
+  // (readGeneratedPublicCatalogDump) and the footer's store QR codes
+  // (readGeneratedStoreQrCodes). Neither is traced automatically, so list both.
+  outputFileTracingIncludes: {
+    "/\\[locale\\]/catalog/packages/\\[packageSlug\\]": [
+      "./.generated/public-catalog.json",
+      "./.generated/store-qr-codes.json",
+    ],
+  },
   reactStrictMode: true,
   poweredByHeader: false,
   env: {
