@@ -49,6 +49,9 @@ interface MarkdownDestinationResolution {
   readonly isAuthorizedImage: boolean;
 }
 
+// Built once: constructing and freezing a processor costs more than stringifying one card.
+const gfmMarkdownProcessor = remark().use(gfm).freeze();
+const gfmMathMarkdownProcessor = remark().use(gfm).use(math).freeze();
 const packageRelativeMediaFileNamePattern = /^[A-Za-z0-9][A-Za-z0-9._-]*$/u;
 const siteOrigin = new URL(SITE_URL).origin;
 
@@ -835,17 +838,16 @@ export function normalizePublicCatalogDescriptionMarkdownFragment(
   locale: AppLocale,
   sourceContext: string,
 ): string {
-  const processor = remark().use(gfm);
   const normalizedRoot = createNormalizedPublicCatalogMarkdownRoot(
     markdown,
-    processor.parse(markdown) as Root,
+    gfmMarkdownProcessor.parse(markdown) as Root,
     3,
     locale,
     (destination) => ({ destination, isAuthorizedImage: false }),
     sourceContext,
   );
 
-  return processor.stringify(normalizedRoot).trim();
+  return gfmMarkdownProcessor.stringify(normalizedRoot).trim();
 }
 
 function createCardMediaDestinationResolver(
@@ -955,22 +957,57 @@ function escapeStandaloneNumericCardText(markdown: string, parsedRoot: Root): st
   return `${markdown.slice(0, periodOffset)}\\${markdown.slice(periodOffset)}`;
 }
 
+interface ParsedPublicCatalogCard {
+  readonly markdown: string;
+  readonly root: Root;
+}
+
+// Every card renders once per locale, and this parse is locale-independent, so one parse
+// per source serves all locales. `sourceContext` only names the card in errors, and a
+// failed parse is never cached.
+const parsedPublicCatalogCardByMarkdown = new Map<string, ParsedPublicCatalogCard>();
+
+// The cached tree is shared across renders, so any in-place mutation must fail loudly.
+function deepFreeze<T>(value: T): T {
+  if (typeof value === "object" && value !== null && Object.isFrozen(value) === false) {
+    Object.freeze(value);
+    Object.values(value).forEach(deepFreeze);
+  }
+
+  return value;
+}
+
+function parsePublicCatalogCardMathRoot(
+  markdown: string,
+  sourceContext: string,
+): ParsedPublicCatalogCard {
+  const cachedCard = parsedPublicCatalogCardByMarkdown.get(markdown);
+
+  if (cachedCard !== undefined) {
+    return cachedCard;
+  }
+
+  const parsedCard = deepFreeze(parseUncachedPublicCatalogCardMathRoot(markdown, sourceContext));
+
+  parsedPublicCatalogCardByMarkdown.set(markdown, parsedCard);
+  return parsedCard;
+}
+
 /**
  * Escapes the dollar signs the card math contract leaves literal, then parses
  * the escaped source so `remark-math` segments the card the way the contract
  * does before the math transform confirms each node.
  */
-function parsePublicCatalogCardMathRoot(
+function parseUncachedPublicCatalogCardMathRoot(
   markdown: string,
   sourceContext: string,
-): { readonly markdown: string; readonly root: Root } {
-  const processor = remark().use(gfm).use(math);
-  const parsedRoot = processor.parse(markdown) as Root;
+): ParsedPublicCatalogCard {
+  const parsedRoot = gfmMathMarkdownProcessor.parse(markdown) as Root;
   const parseableMarkdown = escapeStandaloneNumericCardText(markdown, parsedRoot);
   const mathNormalizedMarkdown = escapeRejectedPublicCatalogCardMath(
     parseableMarkdown === markdown
       ? parsedRoot
-      : processor.parse(parseableMarkdown) as Root,
+      : gfmMathMarkdownProcessor.parse(parseableMarkdown) as Root,
     parseableMarkdown,
     sourceContext,
   );
@@ -978,7 +1015,7 @@ function parsePublicCatalogCardMathRoot(
   return {
     markdown: mathNormalizedMarkdown,
     root: transformPublicCatalogCardMathBlocks(
-      processor.parse(mathNormalizedMarkdown) as Root,
+      gfmMathMarkdownProcessor.parse(mathNormalizedMarkdown) as Root,
       mathNormalizedMarkdown,
       sourceContext,
     ),
@@ -991,7 +1028,6 @@ export function normalizePublicCatalogCardMarkdownFragment(
   mediaDownloadUrlByKey: ReadonlyMap<string, string>,
   sourceContext: string,
 ): string {
-  const processor = remark().use(gfm).use(math);
   const parsedCard = parsePublicCatalogCardMathRoot(markdown, sourceContext);
   const normalizedRoot = createNormalizedPublicCatalogMarkdownRoot(
     parsedCard.markdown,
@@ -1006,7 +1042,7 @@ export function normalizePublicCatalogCardMarkdownFragment(
     sourceContext,
   );
 
-  return processor.stringify(normalizedRoot).trim();
+  return gfmMathMarkdownProcessor.stringify(normalizedRoot).trim();
 }
 
 export function projectPublicCatalogCardMarkdownToPlainText(
