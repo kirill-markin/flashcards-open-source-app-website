@@ -1,11 +1,12 @@
 import type { Metadata } from "next";
 import { MarketingPageView } from "@/components/MarketingPageView";
-import { getLocalizedRouteStaticParams, resolveNonDefaultLocaleOrNotFound } from "@/app/localizedRouteHelpers";
+import { getTranslatedRouteStaticParams, resolveNonDefaultLocaleOrNotFound } from "@/app/localizedRouteHelpers";
 import { createMarketingPageMetadata } from "@/lib/seo/createMarketingPageMetadata";
 
 export const dynamicParams = false;
 
-export const generateStaticParams = getLocalizedRouteStaticParams;
+export const generateStaticParams = (): Array<{ locale: string }> =>
+  getTranslatedRouteStaticParams("/support/");
 
 interface PageProps {
   readonly params: Promise<{ locale: string }>;
