@@ -2,6 +2,7 @@ import type { AppLocale } from "@/lib/localeConfig";
 
 const PRIMARY_LANGUAGE_LOCALES = [
   "ar",
+  "bg",
   "bn",
   "ca",
   "cs",
@@ -10,18 +11,23 @@ const PRIMARY_LANGUAGE_LOCALES = [
   "el",
   "en",
   "es",
+  "et",
   "fa",
   "fi",
   "fr",
   "gu",
   "he",
   "hi",
+  "hr",
   "hu",
   "id",
+  "is",
   "it",
   "ja",
   "kn",
   "ko",
+  "lt",
+  "lv",
   "ml",
   "mr",
   "nb",
@@ -31,6 +37,8 @@ const PRIMARY_LANGUAGE_LOCALES = [
   "pt",
   "ro",
   "ru",
+  "sk",
+  "sl",
   "sv",
   "sw",
   "ta",
@@ -40,6 +48,7 @@ const PRIMARY_LANGUAGE_LOCALES = [
   "uk",
   "ur",
   "vi",
+  "zu",
 ] as const;
 
 type PrimaryLanguageLocale = (typeof PRIMARY_LANGUAGE_LOCALES)[number];
