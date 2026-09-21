@@ -3,7 +3,7 @@ import { notFound } from "next/navigation";
 import { resolveNonDefaultLocaleOrNotFound } from "@/app/localizedRouteHelpers";
 import { PublicCatalogPackagePageView } from "@/components/PublicCatalogPackagePageView";
 import {
-  listPublicCatalogPackagePageLocaleParams,
+  listPublicCatalogCanonicalPackagePageLocaleParams,
   readPublicCatalog,
 } from "@/lib/publicCatalogData";
 import {
@@ -13,13 +13,19 @@ import {
 } from "@/lib/publicCatalogReadModel";
 import { createPublicCatalogPackageMetadata } from "@/lib/seo/createPublicCatalogMetadata";
 
-export const dynamicParams = false;
+// Only each deck's audience-locale pages are prerendered: every locale copy of
+// every deck multiplied the build to ~8.5k pages and exceeded Vercel's 45-minute
+// build limit. The other copies canonicalize to the audience-locale page and stay
+// out of the sitemap, so they are rendered on first request and cached until the
+// next deployment, which is the only way the catalog data changes.
+export const dynamicParams = true;
+export const revalidate = false;
 
 export function generateStaticParams(): Array<{
   locale: string;
   packageSlug: string;
 }> {
-  return listPublicCatalogPackagePageLocaleParams();
+  return listPublicCatalogCanonicalPackagePageLocaleParams();
 }
 
 interface PageProps {
