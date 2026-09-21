@@ -21,6 +21,16 @@ const HOME_SHOWCASE_IMAGE_BY_LOCALE: Readonly<Record<AppLocale, string>> = {
   th: "/home/app-screens-showcase-th.png",
   uk: "/home/app-screens-showcase-uk.png",
   he: "/home/app-screens-showcase-he.png",
+  sv: "/home/app-screens-showcase-sv.png",
+  da: "/home/app-screens-showcase-da.png",
+  nb: "/home/app-screens-showcase-nb.png",
+  fi: "/home/app-screens-showcase-fi.png",
+  cs: "/home/app-screens-showcase-cs.png",
+  el: "/home/app-screens-showcase-el.png",
+  ro: "/home/app-screens-showcase-ro.png",
+  hu: "/home/app-screens-showcase-hu.png",
+  fa: "/home/app-screens-showcase-fa.png",
+  ca: "/home/app-screens-showcase-ca.png",
 };
 
 export function getHomeShowcaseImagePath(locale: AppLocale): string {

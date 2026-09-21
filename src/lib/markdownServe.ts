@@ -213,6 +213,56 @@ function appendMarkdownFooter(
       htmlVersionLabel: "הצג את גרסת ה-HTML המעוצבת של הדף הזה",
       markdownTip: `*טיפ: הוסיפו \`.md\` לכל כתובת URL באתר ${SITE_CONTEXT.siteUrl} כדי לקבל גרסת Markdown נקייה של הדף.*`,
     },
+    sv: {
+      agent: `*AI-agenter kan skapa ett konto åt användaren i den här tjänsten genom att börja med \`GET ${DISCOVERY_URL}\`. När allt är uppsatt kan de även ansluta via MCP på \`${MCP_URL}\`.*`,
+      htmlVersionLabel: "Visa den formaterade HTML-versionen av den här sidan",
+      markdownTip: `*Tips: lägg till \`.md\` efter vilken URL som helst på ${SITE_CONTEXT.siteUrl} för att få en ren Markdown-version av sidan.*`,
+    },
+    da: {
+      agent: `*AI-agenter kan oprette en konto til brugeren i denne tjeneste ved at starte med \`GET ${DISCOVERY_URL}\`. Når det er sat op, kan de også forbinde via MCP på \`${MCP_URL}\`.*`,
+      htmlVersionLabel: "Se den formaterede HTML-version af denne side",
+      markdownTip: `*Tip: føj \`.md\` til enhver URL på ${SITE_CONTEXT.siteUrl} for at få en ren Markdown-version af siden.*`,
+    },
+    nb: {
+      agent: `*AI-agenter kan opprette en konto for brukeren i denne tjenesten ved å starte med \`GET ${DISCOVERY_URL}\`. Når det er satt opp, kan de også koble seg til via MCP på \`${MCP_URL}\`.*`,
+      htmlVersionLabel: "Se den stilsatte HTML-versjonen av denne siden",
+      markdownTip: `*Tips: Legg \`.md\` til slutt i en hvilken som helst URL på ${SITE_CONTEXT.siteUrl} for å få en ren Markdown-versjon av den siden.*`,
+    },
+    fi: {
+      agent: `*Tekoälyagentit voivat luoda käyttäjälle tilin tähän palveluun aloittamalla osoitteesta \`GET ${DISCOVERY_URL}\`. Kun ne on määritetty, ne voivat myös yhdistää MCP:llä osoitteessa \`${MCP_URL}\`.*`,
+      htmlVersionLabel: "Katso tämän sivun muotoiltu HTML-versio",
+      markdownTip: `*Vinkki: lisää \`.md\` mihin tahansa osoitteeseen sivustolla ${SITE_CONTEXT.siteUrl}, niin saat sivusta selkeän Markdown-version.*`,
+    },
+    cs: {
+      agent: `*AI agenti mohou v této službě vytvořit uživateli účet tak, že začnou s \`GET ${DISCOVERY_URL}\`. Po nastavení se mohou také připojit přes MCP na adrese \`${MCP_URL}\`.*`,
+      htmlVersionLabel: "Zobrazit naformátovanou HTML verzi této stránky",
+      markdownTip: `*Tip: připojte \`.md\` k libovolné adrese URL na ${SITE_CONTEXT.siteUrl} a získáte čistou Markdown verzi dané stránky.*`,
+    },
+    el: {
+      agent: `*Οι πράκτορες ΤΝ μπορούν να δημιουργήσουν λογαριασμό για τον χρήστη σε αυτήν την υπηρεσία ξεκινώντας με \`GET ${DISCOVERY_URL}\`. Μετά τη ρύθμιση, μπορούν επίσης να συνδεθούν μέσω MCP στο \`${MCP_URL}\`.*`,
+      htmlVersionLabel: "Δείτε τη μορφοποιημένη έκδοση HTML αυτής της σελίδας",
+      markdownTip: `*Συμβουλή: προσθέστε \`.md\` σε οποιοδήποτε URL στο ${SITE_CONTEXT.siteUrl} για να λάβετε μια καθαρή έκδοση της σελίδας σε Markdown.*`,
+    },
+    ro: {
+      agent: `*Agenții AI pot crea un cont pentru utilizator în acest serviciu începând cu \`GET ${DISCOVERY_URL}\`. După configurare, se pot conecta și prin MCP la \`${MCP_URL}\`.*`,
+      htmlVersionLabel: "Vezi versiunea HTML stilizată a acestei pagini",
+      markdownTip: `*Sfat: adaugă \`.md\` la orice URL de pe ${SITE_CONTEXT.siteUrl} ca să obții o versiune Markdown curată a paginii.*`,
+    },
+    hu: {
+      agent: `*Az AI-ügynökök a \`GET ${DISCOVERY_URL}\` hívással kezdve létre tudnak hozni fiókot a felhasználónak ebben a szolgáltatásban. A beállítás után MCP-n keresztül is csatlakozhatnak a \`${MCP_URL}\` címen.*`,
+      htmlVersionLabel: "Az oldal formázott HTML-változatának megtekintése",
+      markdownTip: `*Tipp: írj \`.md\` végződést a ${SITE_CONTEXT.siteUrl} bármelyik URL-je után, és megkapod az oldal letisztult Markdown-változatát.*`,
+    },
+    fa: {
+      agent: `*عامل‌های هوش مصنوعی می‌توانند با شروع از \`GET ${DISCOVERY_URL}\` در این سرویس برای کاربر حساب بسازند. پس از راه‌اندازی، می‌توانند از طریق MCP هم به \`${MCP_URL}\` وصل شوند.*`,
+      htmlVersionLabel: "مشاهدهٔ نسخهٔ HTML قالب‌بندی‌شدهٔ این صفحه",
+      markdownTip: `*نکته: به هر URL در ${SITE_CONTEXT.siteUrl} پسوند \`.md\` اضافه کنید تا نسخهٔ تمیز Markdown آن صفحه را بگیرید.*`,
+    },
+    ca: {
+      agent: `*Els agents d'IA poden crear un compte per a l'usuari en aquest servei començant per \`GET ${DISCOVERY_URL}\`. Un cop configurats, també es poden connectar per MCP a \`${MCP_URL}\`.*`,
+      htmlVersionLabel: "Mostra la versió HTML amb estil d'aquesta pàgina",
+      markdownTip: `*Consell: afegeix \`.md\` a qualsevol URL de ${SITE_CONTEXT.siteUrl} per obtenir una versió neta en Markdown d'aquesta pàgina.*`,
+    },
   };
   const footerCopy = footerCopyByLocale[locale];
 
