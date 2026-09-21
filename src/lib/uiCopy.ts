@@ -3057,6 +3057,23 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     },
   },
   sv: {
+    analyticsConsentBanner: {
+      allow: "Tillåt",
+      decline: "Neka",
+      error: "Det gick inte. Försök igen.",
+      label: "Analyscookies",
+      message: "Vi använder en cookie och annan lagring i webbläsaren för att mäta hur webbplatsen används. Tills du väljer sparar den här webbplatsen ingenting på den här enheten och skickar ingenting som identifierar dig.",
+      privacyPolicy: "Integritetspolicy",
+    },
+    analyticsConsentWithdrawal: {
+      close: "Stäng",
+      link: "Analyscookies",
+      off: "Av",
+      on: "På",
+      title: "Analys",
+      toggleDescription: "När det här är av ger den här webbplatsen ingen identifierare till den här webbläsaren och sparar ingenting för analys.",
+      toggleTitle: "Tillåt analyscookies",
+    },
     auth: {
       logIn: "Logga in",
       openApp: "Öppna appen",
@@ -3186,6 +3203,23 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     },
   },
   da: {
+    analyticsConsentBanner: {
+      allow: "Tillad",
+      decline: "Afvis",
+      error: "Det gik ikke igennem. Prøv igen.",
+      label: "Analysecookies",
+      message: "Vi bruger en cookie og anden lagring i browseren til at måle, hvordan sitet bliver brugt. Indtil du vælger, gemmer dette site intet på denne enhed og sender intet, der identificerer dig.",
+      privacyPolicy: "Privatlivspolitik",
+    },
+    analyticsConsentWithdrawal: {
+      close: "Luk",
+      link: "Analysecookies",
+      off: "Fra",
+      on: "Til",
+      title: "Analyse",
+      toggleDescription: "Når det her er slået fra, giver dette site ikke denne browser nogen identifikator og gemmer intet til analyse.",
+      toggleTitle: "Tillad analysecookies",
+    },
     auth: {
       logIn: "Log ind",
       openApp: "Åbn app",
@@ -3315,6 +3349,23 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     },
   },
   nb: {
+    analyticsConsentBanner: {
+      allow: "Tillat",
+      decline: "Avslå",
+      error: "Det gikk ikke. Prøv igjen.",
+      label: "Informasjonskapsler for analyse",
+      message: "Vi bruker en informasjonskapsel og annen lagring i nettleseren for å måle hvordan nettstedet blir brukt. Inntil du velger, lagrer dette nettstedet ingenting på denne enheten og sender ingenting som identifiserer deg.",
+      privacyPolicy: "Personvernerklæring",
+    },
+    analyticsConsentWithdrawal: {
+      close: "Lukk",
+      link: "Informasjonskapsler for analyse",
+      off: "Av",
+      on: "På",
+      title: "Analyse",
+      toggleDescription: "Når dette er av, gir ikke dette nettstedet denne nettleseren noen identifikator og lagrer ingenting for analyse.",
+      toggleTitle: "Tillat informasjonskapsler for analyse",
+    },
     auth: {
       logIn: "Logg inn",
       openApp: "Åpne appen",
@@ -3444,6 +3495,23 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     },
   },
   fi: {
+    analyticsConsentBanner: {
+      allow: "Salli",
+      decline: "Kiellä",
+      error: "Se ei mennyt läpi. Yritä uudelleen.",
+      label: "Analytiikkaevästeet",
+      message: "Käytämme evästettä ja muuta selaimen tallennustilaa mitataksemme, miten sivustoa käytetään. Ennen kuin teet valintasi, tämä sivusto ei tallenna mitään tälle laitteelle eikä lähetä mitään, mikä tunnistaa sinut.",
+      privacyPolicy: "Tietosuojaseloste",
+    },
+    analyticsConsentWithdrawal: {
+      close: "Sulje",
+      link: "Analytiikkaevästeet",
+      off: "Pois",
+      on: "Päällä",
+      title: "Analytiikka",
+      toggleDescription: "Kun tämä on pois päältä, tämä sivusto ei anna tälle selaimelle tunnistetta eikä tallenna mitään analytiikkaa varten.",
+      toggleTitle: "Salli analytiikkaevästeet",
+    },
     auth: {
       logIn: "Kirjaudu sisään",
       openApp: "Avaa sovellus",
@@ -3573,6 +3641,23 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     },
   },
   cs: {
+    analyticsConsentBanner: {
+      allow: "Povolit",
+      decline: "Odmítnout",
+      error: "Nepovedlo se to. Zkuste to znovu.",
+      label: "Analytické cookies",
+      message: "Používáme cookie a další úložiště prohlížeče, abychom měřili, jak se web používá. Dokud se nerozhodnete, tento web nic neukládá do tohoto zařízení a neodesílá nic, co by vás identifikovalo.",
+      privacyPolicy: "Zásady ochrany osobních údajů",
+    },
+    analyticsConsentWithdrawal: {
+      close: "Zavřít",
+      link: "Analytické cookies",
+      off: "Vypnuto",
+      on: "Zapnuto",
+      title: "Analytika",
+      toggleDescription: "Když je tohle vypnuté, tento web nedává tomuto prohlížeči žádný identifikátor a nic pro analytiku neukládá.",
+      toggleTitle: "Povolit analytické cookies",
+    },
     auth: {
       logIn: "Přihlásit se",
       openApp: "Otevřít aplikaci",
@@ -3702,6 +3787,23 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     },
   },
   el: {
+    analyticsConsentBanner: {
+      allow: "Αποδοχή",
+      decline: "Απόρριψη",
+      error: "Δεν ολοκληρώθηκε. Δοκιμάστε ξανά.",
+      label: "Cookies ανάλυσης",
+      message: "Χρησιμοποιούμε ένα cookie και άλλη αποθήκευση του προγράμματος περιήγησης για να μετράμε πώς χρησιμοποιείται ο ιστότοπος. Μέχρι να επιλέξετε, αυτός ο ιστότοπος δεν αποθηκεύει τίποτα σε αυτή τη συσκευή και δεν στέλνει τίποτα που να σας ταυτοποιεί.",
+      privacyPolicy: "Πολιτική απορρήτου",
+    },
+    analyticsConsentWithdrawal: {
+      close: "Κλείσιμο",
+      link: "Cookies ανάλυσης",
+      off: "Ανενεργό",
+      on: "Ενεργό",
+      title: "Ανάλυση",
+      toggleDescription: "Όταν αυτό είναι ανενεργό, αυτός ο ιστότοπος δεν δίνει κανένα αναγνωριστικό σε αυτό το πρόγραμμα περιήγησης και δεν αποθηκεύει τίποτα για ανάλυση.",
+      toggleTitle: "Να επιτρέπονται τα cookies ανάλυσης",
+    },
     auth: {
       logIn: "Σύνδεση",
       openApp: "Άνοιγμα εφαρμογής",
@@ -3831,6 +3933,23 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     },
   },
   ro: {
+    analyticsConsentBanner: {
+      allow: "Permite",
+      decline: "Refuză",
+      error: "Nu a mers. Încearcă din nou.",
+      label: "Cookie-uri de analiză",
+      message: "Folosim un cookie și alte spații de stocare ale browserului ca să măsurăm cum este folosit site-ul. Până când alegi, acest site nu stochează nimic pe acest dispozitiv și nu trimite nimic care să te identifice.",
+      privacyPolicy: "Politica de confidențialitate",
+    },
+    analyticsConsentWithdrawal: {
+      close: "Închide",
+      link: "Cookie-uri de analiză",
+      off: "Dezactivat",
+      on: "Activat",
+      title: "Analiză",
+      toggleDescription: "Când este dezactivat, acest site nu dă niciun identificator acestui browser și nu stochează nimic pentru analiză.",
+      toggleTitle: "Permite cookie-urile de analiză",
+    },
     auth: {
       logIn: "Autentificare",
       openApp: "Deschide aplicația",
@@ -3960,6 +4079,23 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     },
   },
   hu: {
+    analyticsConsentBanner: {
+      allow: "Engedélyezés",
+      decline: "Elutasítás",
+      error: "Nem sikerült. Próbáld újra.",
+      label: "Analitikai sütik",
+      message: "Egy sütit és a böngésző más tárhelyét használjuk annak mérésére, hogyan használják az oldalt. Amíg nem választasz, ez az oldal semmit nem tárol ezen az eszközön, és semmi olyat nem küld, ami azonosít téged.",
+      privacyPolicy: "Adatvédelmi tájékoztató",
+    },
+    analyticsConsentWithdrawal: {
+      close: "Bezárás",
+      link: "Analitikai sütik",
+      off: "Ki",
+      on: "Be",
+      title: "Analitika",
+      toggleDescription: "Ha ez ki van kapcsolva, ez az oldal nem ad azonosítót ennek a böngészőnek, és semmit nem tárol analitika céljából.",
+      toggleTitle: "Analitikai sütik engedélyezése",
+    },
     auth: {
       logIn: "Bejelentkezés",
       openApp: "Alkalmazás megnyitása",
@@ -4089,6 +4225,23 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     },
   },
   fa: {
+    analyticsConsentBanner: {
+      allow: "اجازه دادن",
+      decline: "رد کردن",
+      error: "انجام نشد. دوباره تلاش کنید.",
+      label: "کوکی‌های تحلیلی",
+      message: "برای اندازه‌گیری نحوهٔ استفاده از سایت از یک کوکی و فضای ذخیره‌سازی دیگر مرورگر استفاده می‌کنیم. تا وقتی انتخاب نکنید، این سایت چیزی روی این دستگاه ذخیره نمی‌کند و چیزی که شما را شناسایی کند نمی‌فرستد.",
+      privacyPolicy: "سیاست حریم خصوصی",
+    },
+    analyticsConsentWithdrawal: {
+      close: "بستن",
+      link: "کوکی‌های تحلیلی",
+      off: "خاموش",
+      on: "روشن",
+      title: "تحلیل",
+      toggleDescription: "وقتی این خاموش باشد، این سایت هیچ شناسه‌ای به این مرورگر نمی‌دهد و چیزی برای تحلیل ذخیره نمی‌کند.",
+      toggleTitle: "اجازهٔ کوکی‌های تحلیلی",
+    },
     auth: {
       logIn: "ورود",
       openApp: "باز کردن برنامه",
@@ -4218,6 +4371,23 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     },
   },
   ca: {
+    analyticsConsentBanner: {
+      allow: "Permet",
+      decline: "Rebutja",
+      error: "No ha funcionat. Torna-ho a provar.",
+      label: "Galetes d'analítica",
+      message: "Fem servir una galeta i altres emmagatzematges del navegador per mesurar com es fa servir el lloc. Fins que no triïs, aquest lloc no desa res en aquest dispositiu ni envia res que t'identifiqui.",
+      privacyPolicy: "Política de privadesa",
+    },
+    analyticsConsentWithdrawal: {
+      close: "Tanca",
+      link: "Galetes d'analítica",
+      off: "Desactivat",
+      on: "Activat",
+      title: "Analítica",
+      toggleDescription: "Quan això està desactivat, aquest lloc no dona cap identificador a aquest navegador i no desa res per a analítica.",
+      toggleTitle: "Permet les galetes d'analítica",
+    },
     auth: {
       logIn: "Inicia la sessió",
       openApp: "Obre l'app",
@@ -4347,6 +4517,23 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     },
   },
   bn: {
+    analyticsConsentBanner: {
+      allow: "অনুমতি দিন",
+      decline: "প্রত্যাখ্যান করুন",
+      error: "এটা হয়নি। আবার চেষ্টা করুন।",
+      label: "অ্যানালিটিক্স কুকি",
+      message: "সাইট কীভাবে ব্যবহার হয় তা মাপতে আমরা একটি কুকি ও ব্রাউজারের অন্য স্টোরেজ ব্যবহার করি। আপনি বেছে না নেওয়া পর্যন্ত এই সাইট এই ডিভাইসে কিছুই সেভ করে না এবং আপনার পরিচয় জানায় এমন কিছুই পাঠায় না।",
+      privacyPolicy: "প্রাইভেসি পলিসি",
+    },
+    analyticsConsentWithdrawal: {
+      close: "বন্ধ করুন",
+      link: "অ্যানালিটিক্স কুকি",
+      off: "বন্ধ",
+      on: "চালু",
+      title: "অ্যানালিটিক্স",
+      toggleDescription: "এটি বন্ধ থাকলে এই সাইট এই ব্রাউজারকে কোনো শনাক্তকারী দেয় না এবং অ্যানালিটিক্সের জন্য কিছুই সেভ করে না।",
+      toggleTitle: "অ্যানালিটিক্স কুকির অনুমতি দিন",
+    },
     auth: {
       logIn: "লগ ইন",
       openApp: "অ্যাপ খুলুন",
@@ -4475,6 +4662,23 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     },
   },
   gu: {
+    analyticsConsentBanner: {
+      allow: "મંજૂરી આપો",
+      decline: "નકારો",
+      error: "આ થઈ શક્યું નહીં. ફરી પ્રયાસ કરો.",
+      label: "એનાલિટિક્સ કૂકીઝ",
+      message: "સાઇટ કેવી રીતે વપરાય છે તે માપવા માટે અમે એક કૂકી અને બ્રાઉઝરનું બીજું સ્ટોરેજ વાપરીએ છીએ. તમે પસંદ કરો ત્યાં સુધી આ સાઇટ આ ડિવાઇસ પર કંઈ સાચવતી નથી અને તમારી ઓળખ આપે એવું કંઈ મોકલતી નથી.",
+      privacyPolicy: "ગોપનીયતા નીતિ",
+    },
+    analyticsConsentWithdrawal: {
+      close: "બંધ કરો",
+      link: "એનાલિટિક્સ કૂકીઝ",
+      off: "બંધ",
+      on: "ચાલુ",
+      title: "એનાલિટિક્સ",
+      toggleDescription: "આ બંધ હોય ત્યારે આ સાઇટ આ બ્રાઉઝરને કોઈ ઓળખકર્તા આપતી નથી અને એનાલિટિક્સ માટે કંઈ સાચવતી નથી.",
+      toggleTitle: "એનાલિટિક્સ કૂકીઝને મંજૂરી આપો",
+    },
     auth: {
       logIn: "લૉગ ઇન",
       openApp: "ઍપ ખોલો",
@@ -4604,6 +4808,23 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     },
   },
   kn: {
+    analyticsConsentBanner: {
+      allow: "ಅನುಮತಿಸಿ",
+      decline: "ನಿರಾಕರಿಸಿ",
+      error: "ಇದು ಆಗಲಿಲ್ಲ. ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ.",
+      label: "ಅನಾಲಿಟಿಕ್ಸ್ ಕುಕೀಗಳು",
+      message: "ಸೈಟ್ ಅನ್ನು ಹೇಗೆ ಬಳಸಲಾಗುತ್ತದೆ ಎಂಬುದನ್ನು ಅಳೆಯಲು ನಾವು ಒಂದು ಕುಕೀ ಮತ್ತು ಬ್ರೌಸರ್‌ನ ಇತರ ಸಂಗ್ರಹಣೆಯನ್ನು ಬಳಸುತ್ತೇವೆ. ನೀವು ಆಯ್ಕೆ ಮಾಡುವವರೆಗೆ ಈ ಸೈಟ್ ಈ ಸಾಧನದಲ್ಲಿ ಏನನ್ನೂ ಉಳಿಸುವುದಿಲ್ಲ ಮತ್ತು ನಿಮ್ಮನ್ನು ಗುರುತಿಸುವ ಯಾವುದನ್ನೂ ಕಳುಹಿಸುವುದಿಲ್ಲ.",
+      privacyPolicy: "ಗೌಪ್ಯತಾ ನೀತಿ",
+    },
+    analyticsConsentWithdrawal: {
+      close: "ಮುಚ್ಚಿ",
+      link: "ಅನಾಲಿಟಿಕ್ಸ್ ಕುಕೀಗಳು",
+      off: "ಆಫ್",
+      on: "ಆನ್",
+      title: "ಅನಾಲಿಟಿಕ್ಸ್",
+      toggleDescription: "ಇದು ಆಫ್ ಆಗಿದ್ದಾಗ ಈ ಸೈಟ್ ಈ ಬ್ರೌಸರ್‌ಗೆ ಯಾವುದೇ ಗುರುತಿಸುವಿಕೆಯನ್ನು ನೀಡುವುದಿಲ್ಲ ಮತ್ತು ಅನಾಲಿಟಿಕ್ಸ್‌ಗಾಗಿ ಏನನ್ನೂ ಉಳಿಸುವುದಿಲ್ಲ.",
+      toggleTitle: "ಅನಾಲಿಟಿಕ್ಸ್ ಕುಕೀಗಳನ್ನು ಅನುಮತಿಸಿ",
+    },
     auth: {
       logIn: "ಲಾಗ್ ಇನ್",
       openApp: "ಆ್ಯಪ್ ತೆರೆಯಿರಿ",
@@ -4733,6 +4954,23 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     },
   },
   ml: {
+    analyticsConsentBanner: {
+      allow: "അനുവദിക്കുക",
+      decline: "നിരസിക്കുക",
+      error: "ഇത് നടന്നില്ല. വീണ്ടും ശ്രമിക്കുക.",
+      label: "അനലിറ്റിക്സ് കുക്കികൾ",
+      message: "സൈറ്റ് എങ്ങനെ ഉപയോഗിക്കുന്നു എന്ന് അളക്കാൻ ഞങ്ങൾ ഒരു കുക്കിയും ബ്രൗസറിലെ മറ്റ് സ്റ്റോറേജും ഉപയോഗിക്കുന്നു. നിങ്ങൾ തിരഞ്ഞെടുക്കുന്നതുവരെ ഈ സൈറ്റ് ഈ ഉപകരണത്തിൽ ഒന്നും സൂക്ഷിക്കുന്നില്ല, നിങ്ങളെ തിരിച്ചറിയുന്ന ഒന്നും അയയ്ക്കുന്നില്ല.",
+      privacyPolicy: "സ്വകാര്യതാ നയം",
+    },
+    analyticsConsentWithdrawal: {
+      close: "അടയ്ക്കുക",
+      link: "അനലിറ്റിക്സ് കുക്കികൾ",
+      off: "ഓഫ്",
+      on: "ഓൺ",
+      title: "അനലിറ്റിക്സ്",
+      toggleDescription: "ഇത് ഓഫ് ആയിരിക്കുമ്പോൾ ഈ സൈറ്റ് ഈ ബ്രൗസറിന് ഒരു ഐഡന്റിഫയറും നൽകുന്നില്ല, അനലിറ്റിക്സിനായി ഒന്നും സൂക്ഷിക്കുന്നില്ല.",
+      toggleTitle: "അനലിറ്റിക്സ് കുക്കികൾ അനുവദിക്കുക",
+    },
     auth: {
       logIn: "ലോഗ് ഇൻ",
       openApp: "ആപ്പ് തുറക്കുക",
@@ -4866,6 +5104,23 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     },
   },
   mr: {
+    analyticsConsentBanner: {
+      allow: "परवानगी द्या",
+      decline: "नकार द्या",
+      error: "हे झाले नाही. पुन्हा प्रयत्न करा.",
+      label: "ॲनालिटिक्स कुकीज",
+      message: "साइट कशी वापरली जाते हे मोजण्यासाठी आम्ही एक कुकी आणि ब्राउझरचे इतर स्टोरेज वापरतो. तुम्ही निवड करेपर्यंत ही साइट या डिव्हाइसवर काहीही साठवत नाही आणि तुमची ओळख सांगणारे काहीही पाठवत नाही.",
+      privacyPolicy: "गोपनीयता धोरण",
+    },
+    analyticsConsentWithdrawal: {
+      close: "बंद करा",
+      link: "ॲनालिटिक्स कुकीज",
+      off: "बंद",
+      on: "सुरू",
+      title: "ॲनालिटिक्स",
+      toggleDescription: "हे बंद असताना ही साइट या ब्राउझरला कोणताही ओळखकर्ता देत नाही आणि ॲनालिटिक्ससाठी काहीही साठवत नाही.",
+      toggleTitle: "ॲनालिटिक्स कुकीजना परवानगी द्या",
+    },
     auth: {
       logIn: "लॉग इन",
       openApp: "ॲप उघडा",
@@ -4994,6 +5249,23 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     },
   },
   pa: {
+    analyticsConsentBanner: {
+      allow: "ਇਜਾਜ਼ਤ ਦਿਓ",
+      decline: "ਇਨਕਾਰ ਕਰੋ",
+      error: "ਇਹ ਨਹੀਂ ਹੋ ਸਕਿਆ। ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।",
+      label: "ਐਨਾਲਿਟਿਕਸ ਕੂਕੀਜ਼",
+      message: "ਸਾਈਟ ਕਿਵੇਂ ਵਰਤੀ ਜਾਂਦੀ ਹੈ, ਇਹ ਮਾਪਣ ਲਈ ਅਸੀਂ ਇੱਕ ਕੂਕੀ ਅਤੇ ਬ੍ਰਾਊਜ਼ਰ ਦਾ ਹੋਰ ਸਟੋਰੇਜ ਵਰਤਦੇ ਹਾਂ। ਜਦੋਂ ਤੱਕ ਤੁਸੀਂ ਨਹੀਂ ਚੁਣਦੇ, ਇਹ ਸਾਈਟ ਇਸ ਡਿਵਾਈਸ ਉੱਤੇ ਕੁਝ ਵੀ ਨਹੀਂ ਸੰਭਾਲਦੀ ਅਤੇ ਤੁਹਾਡੀ ਪਛਾਣ ਦੱਸਣ ਵਾਲਾ ਕੁਝ ਵੀ ਨਹੀਂ ਭੇਜਦੀ।",
+      privacyPolicy: "ਪਰਾਈਵੇਸੀ ਨੀਤੀ",
+    },
+    analyticsConsentWithdrawal: {
+      close: "ਬੰਦ ਕਰੋ",
+      link: "ਐਨਾਲਿਟਿਕਸ ਕੂਕੀਜ਼",
+      off: "ਬੰਦ",
+      on: "ਚਾਲੂ",
+      title: "ਐਨਾਲਿਟਿਕਸ",
+      toggleDescription: "ਜਦੋਂ ਇਹ ਬੰਦ ਹੁੰਦਾ ਹੈ, ਇਹ ਸਾਈਟ ਇਸ ਬ੍ਰਾਊਜ਼ਰ ਨੂੰ ਕੋਈ ਪਛਾਣਕਰਤਾ ਨਹੀਂ ਦਿੰਦੀ ਅਤੇ ਐਨਾਲਿਟਿਕਸ ਲਈ ਕੁਝ ਵੀ ਨਹੀਂ ਸੰਭਾਲਦੀ।",
+      toggleTitle: "ਐਨਾਲਿਟਿਕਸ ਕੂਕੀਜ਼ ਦੀ ਇਜਾਜ਼ਤ ਦਿਓ",
+    },
     auth: {
       logIn: "ਲੌਗ ਇਨ",
       openApp: "ਐਪ ਖੋਲ੍ਹੋ",
@@ -5122,6 +5394,23 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     },
   },
   ta: {
+    analyticsConsentBanner: {
+      allow: "அனுமதி",
+      decline: "நிராகரி",
+      error: "இது நடக்கவில்லை. மீண்டும் முயற்சிக்கவும்.",
+      label: "பகுப்பாய்வு குக்கீகள்",
+      message: "தளம் எப்படிப் பயன்படுத்தப்படுகிறது என்பதை அளவிட ஒரு குக்கீயையும் உலாவியின் பிற சேமிப்பையும் பயன்படுத்துகிறோம். நீங்கள் தேர்வு செய்யும் வரை இந்தத் தளம் இந்தச் சாதனத்தில் எதையும் சேமிப்பதில்லை, உங்களை அடையாளம் காட்டும் எதையும் அனுப்புவதில்லை.",
+      privacyPolicy: "தனியுரிமைக் கொள்கை",
+    },
+    analyticsConsentWithdrawal: {
+      close: "மூடு",
+      link: "பகுப்பாய்வு குக்கீகள்",
+      off: "அணைப்பு",
+      on: "இயக்கம்",
+      title: "பகுப்பாய்வு",
+      toggleDescription: "இது அணைக்கப்பட்டிருக்கும்போது இந்தத் தளம் இந்த உலாவிக்கு எந்த அடையாளங்காட்டியையும் தருவதில்லை, பகுப்பாய்வுக்காக எதையும் சேமிப்பதில்லை.",
+      toggleTitle: "பகுப்பாய்வு குக்கீகளை அனுமதி",
+    },
     auth: {
       logIn: "உள்நுழை",
       openApp: "செயலியைத் திற",
@@ -5253,6 +5542,23 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     },
   },
   te: {
+    analyticsConsentBanner: {
+      allow: "అనుమతించండి",
+      decline: "తిరస్కరించండి",
+      error: "ఇది జరగలేదు. మళ్లీ ప్రయత్నించండి.",
+      label: "అనలిటిక్స్ కుకీలు",
+      message: "సైట్ ఎలా ఉపయోగించబడుతుందో కొలవడానికి మేము ఒక కుకీని, బ్రౌజర్‌లోని ఇతర స్టోరేజ్‌ని ఉపయోగిస్తాము. మీరు ఎంచుకునే వరకు ఈ సైట్ ఈ పరికరంలో ఏదీ సేవ్ చేయదు, మిమ్మల్ని గుర్తించే దేన్నీ పంపదు.",
+      privacyPolicy: "గోప్యతా విధానం",
+    },
+    analyticsConsentWithdrawal: {
+      close: "మూసివేయండి",
+      link: "అనలిటిక్స్ కుకీలు",
+      off: "ఆఫ్",
+      on: "ఆన్",
+      title: "అనలిటిక్స్",
+      toggleDescription: "ఇది ఆఫ్‌లో ఉన్నప్పుడు ఈ సైట్ ఈ బ్రౌజర్‌కు ఎలాంటి ఐడెంటిఫైయర్ ఇవ్వదు, అనలిటిక్స్ కోసం ఏదీ సేవ్ చేయదు.",
+      toggleTitle: "అనలిటిక్స్ కుకీలను అనుమతించండి",
+    },
     auth: {
       logIn: "లాగ్ ఇన్",
       openApp: "యాప్ తెరువు",
@@ -5383,6 +5689,23 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     },
   },
   ur: {
+    analyticsConsentBanner: {
+      allow: "اجازت دیں",
+      decline: "انکار کریں",
+      error: "یہ نہیں ہو سکا۔ دوبارہ کوشش کریں۔",
+      label: "اینالیٹکس کوکیز",
+      message: "ہم ایک کوکی اور براؤزر کی دوسری اسٹوریج استعمال کرتے ہیں تاکہ ماپ سکیں کہ سائٹ کیسے استعمال ہوتی ہے۔ جب تک آپ انتخاب نہیں کرتے، یہ سائٹ اس ڈیوائس پر کچھ محفوظ نہیں کرتی اور ایسا کچھ نہیں بھیجتی جو آپ کی شناخت ظاہر کرے۔",
+      privacyPolicy: "رازداری کی پالیسی",
+    },
+    analyticsConsentWithdrawal: {
+      close: "بند کریں",
+      link: "اینالیٹکس کوکیز",
+      off: "بند",
+      on: "چالو",
+      title: "اینالیٹکس",
+      toggleDescription: "جب یہ بند ہو تو یہ سائٹ اس براؤزر کو کوئی شناخت کنندہ نہیں دیتی اور اینالیٹکس کے لیے کچھ محفوظ نہیں کرتی۔",
+      toggleTitle: "اینالیٹکس کوکیز کی اجازت دیں",
+    },
     auth: {
       logIn: "لاگ اِن",
       openApp: "ایپ کھولیں",
@@ -5512,6 +5835,23 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     },
   },
   sw: {
+    analyticsConsentBanner: {
+      allow: "Ruhusu",
+      decline: "Kataa",
+      error: "Haikufanikiwa. Jaribu tena.",
+      label: "Vidakuzi vya uchanganuzi",
+      message: "Tunatumia kidakuzi na hifadhi nyingine ya kivinjari kupima jinsi tovuti inavyotumika. Hadi uchague, tovuti hii haihifadhi chochote kwenye kifaa hiki na haitumi chochote kinachokutambulisha.",
+      privacyPolicy: "Sera ya faragha",
+    },
+    analyticsConsentWithdrawal: {
+      close: "Funga",
+      link: "Vidakuzi vya uchanganuzi",
+      off: "Imezimwa",
+      on: "Imewashwa",
+      title: "Uchanganuzi",
+      toggleDescription: "Inapozimwa, tovuti hii haitoi kitambulisho chochote kwa kivinjari hiki na haihifadhi chochote kwa ajili ya uchanganuzi.",
+      toggleTitle: "Ruhusu vidakuzi vya uchanganuzi",
+    },
     auth: {
       logIn: "Ingia",
       openApp: "Fungua programu",
