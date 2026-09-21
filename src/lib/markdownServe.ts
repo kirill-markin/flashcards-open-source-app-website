@@ -263,6 +263,56 @@ function appendMarkdownFooter(
       htmlVersionLabel: "Mostra la versió HTML amb estil d'aquesta pàgina",
       markdownTip: `*Consell: afegeix \`.md\` a qualsevol URL de ${SITE_CONTEXT.siteUrl} per obtenir una versió neta en Markdown d'aquesta pàgina.*`,
     },
+    bn: {
+      agent: `*AI এজেন্ট \`GET ${DISCOVERY_URL}\` দিয়ে শুরু করে এই সার্ভিসে ব্যবহারকারীর অ্যাকাউন্ট তৈরি করতে পারে। সেটআপ হয়ে গেলে তারা \`${MCP_URL}\`-এ MCP দিয়েও যুক্ত হতে পারে।*`,
+      htmlVersionLabel: "এই পেজের স্টাইল করা HTML সংস্করণ দেখুন",
+      markdownTip: `*টিপ: ${SITE_CONTEXT.siteUrl}-এর যেকোনো URL-এর শেষে \`.md\` যোগ করলে সেই পেজের পরিষ্কার Markdown সংস্করণ পাবেন।*`,
+    },
+    gu: {
+      agent: `*AI એજન્ટ \`GET ${DISCOVERY_URL}\` થી શરૂ કરીને આ સેવામાં વપરાશકર્તા માટે ખાતું બનાવી શકે છે. સેટઅપ પછી તેઓ \`${MCP_URL}\` પર MCP દ્વારા પણ જોડાઈ શકે છે.*`,
+      htmlVersionLabel: "આ પેજની સ્ટાઇલવાળી HTML આવૃત્તિ જુઓ",
+      markdownTip: `*ટીપ: ${SITE_CONTEXT.siteUrl} પરની કોઈ પણ URL ના અંતે \`.md\` ઉમેરો, જેથી તે પેજની સ્વચ્છ Markdown આવૃત્તિ મળે.*`,
+    },
+    kn: {
+      agent: `*AI ಏಜೆಂಟ್‌ಗಳು \`GET ${DISCOVERY_URL}\` ನಿಂದ ಆರಂಭಿಸಿ ಈ ಸೇವೆಯಲ್ಲಿ ಬಳಕೆದಾರರಿಗೆ ಖಾತೆ ರಚಿಸಬಹುದು. ಸೆಟಪ್ ಆದ ಮೇಲೆ ಅವು \`${MCP_URL}\` ನಲ್ಲಿ MCP ಮೂಲಕವೂ ಸಂಪರ್ಕಿಸಬಹುದು.*`,
+      htmlVersionLabel: "ಈ ಪುಟದ ಶೈಲಿಯುಕ್ತ HTML ಆವೃತ್ತಿಯನ್ನು ನೋಡಿ",
+      markdownTip: `*ಸಲಹೆ: ${SITE_CONTEXT.siteUrl} ನಲ್ಲಿನ ಯಾವುದೇ URL ಕೊನೆಗೆ \`.md\` ಸೇರಿಸಿದರೆ ಆ ಪುಟದ ಸ್ವಚ್ಛ Markdown ಆವೃತ್ತಿ ಸಿಗುತ್ತದೆ.*`,
+    },
+    ml: {
+      agent: `*AI ഏജന്റുകൾക്ക് \`GET ${DISCOVERY_URL}\` ൽ തുടങ്ങി ഈ സേവനത്തിൽ ഉപയോക്താവിന് അക്കൗണ്ട് ഉണ്ടാക്കാം. സജ്ജീകരണത്തിനു ശേഷം അവയ്ക്ക് \`${MCP_URL}\` ൽ MCP വഴിയും ബന്ധിപ്പിക്കാം.*`,
+      htmlVersionLabel: "ഈ പേജിന്റെ ശൈലിയുള്ള HTML പതിപ്പ് കാണുക",
+      markdownTip: `*സൂചന: ${SITE_CONTEXT.siteUrl} ലെ ഏത് URL ന്റെ അവസാനവും \`.md\` ചേർത്താൽ ആ പേജിന്റെ വൃത്തിയുള്ള Markdown പതിപ്പ് ലഭിക്കും.*`,
+    },
+    mr: {
+      agent: `*AI एजंट \`GET ${DISCOVERY_URL}\` ने सुरुवात करून या सेवेत वापरकर्त्याचे खाते तयार करू शकतात. सेटअपनंतर ते \`${MCP_URL}\` वर MCP द्वारेही जोडू शकतात.*`,
+      htmlVersionLabel: "या पानाची शैलीबद्ध HTML आवृत्ती पाहा",
+      markdownTip: `*टीप: ${SITE_CONTEXT.siteUrl} वरील कोणत्याही URL च्या शेवटी \`.md\` जोडा, म्हणजे त्या पानाची स्वच्छ Markdown आवृत्ती मिळेल.*`,
+    },
+    pa: {
+      agent: `*AI ਏਜੰਟ \`GET ${DISCOVERY_URL}\` ਤੋਂ ਸ਼ੁਰੂ ਕਰ ਕੇ ਇਸ ਸੇਵਾ ਵਿੱਚ ਵਰਤੋਂਕਾਰ ਦਾ ਖਾਤਾ ਬਣਾ ਸਕਦੇ ਹਨ। ਸੈੱਟਅੱਪ ਤੋਂ ਬਾਅਦ ਉਹ \`${MCP_URL}\` ਉੱਤੇ MCP ਰਾਹੀਂ ਵੀ ਜੁੜ ਸਕਦੇ ਹਨ।*`,
+      htmlVersionLabel: "ਇਸ ਸਫ਼ੇ ਦਾ ਸਟਾਈਲ ਵਾਲਾ HTML ਰੂਪ ਵੇਖੋ",
+      markdownTip: `*ਸੁਝਾਅ: ${SITE_CONTEXT.siteUrl} ਉੱਤੇ ਕਿਸੇ ਵੀ URL ਦੇ ਅੰਤ ਵਿੱਚ \`.md\` ਜੋੜੋ, ਤਾਂ ਉਸ ਸਫ਼ੇ ਦਾ ਸਾਫ਼ Markdown ਰੂਪ ਮਿਲੇਗਾ।*`,
+    },
+    ta: {
+      agent: `*AI முகவர்கள் \`GET ${DISCOVERY_URL}\` இல் தொடங்கி இந்தச் சேவையில் பயனருக்குக் கணக்கை உருவாக்க முடியும். அமைத்த பிறகு \`${MCP_URL}\` இல் MCP வழியாகவும் இணைய முடியும்.*`,
+      htmlVersionLabel: "இந்தப் பக்கத்தின் வடிவமைக்கப்பட்ட HTML பதிப்பைப் பாருங்கள்",
+      markdownTip: `*குறிப்பு: ${SITE_CONTEXT.siteUrl} இல் உள்ள எந்த URL இன் இறுதியிலும் \`.md\` சேர்த்தால் அந்தப் பக்கத்தின் சுத்தமான Markdown பதிப்பு கிடைக்கும்.*`,
+    },
+    te: {
+      agent: `*AI ఏజెంట్లు \`GET ${DISCOVERY_URL}\` తో మొదలుపెట్టి ఈ సేవలో వినియోగదారుకు ఖాతా సృష్టించగలవు. సెటప్ అయ్యాక అవి \`${MCP_URL}\` వద్ద MCP ద్వారా కూడా అనుసంధానం కాగలవు.*`,
+      htmlVersionLabel: "ఈ పేజీ యొక్క శైలితో కూడిన HTML వెర్షన్ చూడండి",
+      markdownTip: `*చిట్కా: ${SITE_CONTEXT.siteUrl} లోని ఏ URL చివరన అయినా \`.md\` జోడిస్తే ఆ పేజీ యొక్క శుభ్రమైన Markdown వెర్షన్ వస్తుంది.*`,
+    },
+    ur: {
+      agent: `*AI ایجنٹس \`GET ${DISCOVERY_URL}\` سے شروع کر کے اس سروس میں صارف کا اکاؤنٹ بنا سکتے ہیں۔ سیٹ اپ کے بعد وہ \`${MCP_URL}\` پر MCP کے ذریعے بھی جُڑ سکتے ہیں۔*`,
+      htmlVersionLabel: "اس صفحے کا طرز شدہ HTML ورژن دیکھیں",
+      markdownTip: `*مشورہ: ${SITE_CONTEXT.siteUrl} پر کسی بھی URL کے آخر میں \`.md\` لگائیں تاکہ اس صفحے کا صاف Markdown ورژن مل جائے۔*`,
+    },
+    sw: {
+      agent: `*Mawakala wa AI wanaweza kumfungulia mtumiaji akaunti katika huduma hii wakianza na \`GET ${DISCOVERY_URL}\`. Baada ya kusanidiwa, wanaweza pia kuunganisha kupitia MCP kwenye \`${MCP_URL}\`.*`,
+      htmlVersionLabel: "Tazama toleo la HTML lenye mtindo la ukurasa huu",
+      markdownTip: `*Dokezo: ongeza \`.md\` mwishoni mwa URL yoyote kwenye ${SITE_CONTEXT.siteUrl} ili kupata toleo safi la Markdown la ukurasa huo.*`,
+    },
   };
   const footerCopy = footerCopyByLocale[locale];
 
