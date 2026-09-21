@@ -314,7 +314,7 @@ function appendMarkdownFooter(
       markdownTip: `*Dokezo: ongeza \`.md\` mwishoni mwa URL yoyote kwenye ${SITE_CONTEXT.siteUrl} ili kupata toleo safi la Markdown la ukurasa huo.*`,
     },
     bg: {
-      agent: `*Агентите с изкуствен интелект могат да създадат акаунт за потребителя в тази услуга, като започнат с \`GET ${DISCOVERY_URL}\`. След настройката могат и да се свържат през MCP на адрес \`${MCP_URL}\`.*`,
+      agent: `*ИИ агентите могат да създадат акаунт за потребителя в тази услуга, като започнат с \`GET ${DISCOVERY_URL}\`. След настройката могат и да се свържат през MCP на адрес \`${MCP_URL}\`.*`,
       htmlVersionLabel: "Вижте оформената HTML версия на тази страница",
       markdownTip: `*Съвет: добавете \`.md\` към всеки URL на ${SITE_CONTEXT.siteUrl}, за да получите чиста Markdown версия на тази страница.*`,
     },
