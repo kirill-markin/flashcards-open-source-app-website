@@ -81,20 +81,33 @@ function restrictKatexToAcceptedMath(): (tree: Root) => Root {
   };
 }
 
+const publicCatalogCardHtmlProcessor = remark()
+  .use(gfm)
+  .use(math)
+  .use(remarkRehype, { handlers: markdownHandlers })
+  .use(sanitizeMarkdownHtml)
+  .use(restrictKatexToAcceptedMath)
+  .use(rehypeKatex, publicCatalogKatexOptions)
+  .use(rehypeStringify)
+  .freeze();
+
+// The normalized Markdown fully determines the HTML, and every card renders once per
+// locale, so each distinct card side is converted once per process.
+const publicCatalogCardHtmlByMarkdown = new Map<string, string>();
+
 async function renderNormalizedPublicCatalogCardMarkdownToHtml(
   markdown: string,
 ): Promise<string> {
-  const result = await remark()
-    .use(gfm)
-    .use(math)
-    .use(remarkRehype, { handlers: markdownHandlers })
-    .use(sanitizeMarkdownHtml)
-    .use(restrictKatexToAcceptedMath)
-    .use(rehypeKatex, publicCatalogKatexOptions)
-    .use(rehypeStringify)
-    .process(markdown);
+  const cachedHtml = publicCatalogCardHtmlByMarkdown.get(markdown);
 
-  return result.toString();
+  if (cachedHtml !== undefined) {
+    return cachedHtml;
+  }
+
+  const html = (await publicCatalogCardHtmlProcessor.process(markdown)).toString();
+
+  publicCatalogCardHtmlByMarkdown.set(markdown, html);
+  return html;
 }
 
 export async function renderPublicCatalogDescriptionMarkdownToHtml(
