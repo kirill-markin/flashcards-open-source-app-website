@@ -17,6 +17,7 @@ Marketing website for Nibomo. Static Next.js site deployed on Vercel.
 - Keep changes minimal and scoped to the current request.
 - Prefer non-interactive terminal commands.
 - RTL support: use CSS logical properties such as `inset-inline-start`/`end`, `margin-inline-start`/`end`, `padding-inline-start`/`end`, and `text-align: start`/`end`; do not use physical directional properties.
+- Translate "spaced repetition" only where the language has an attested native term for it, and transliterate it where none exists; the phrase sits in the page title and meta description, so it has to match what people in that language actually search for rather than a coined compound nobody types. Anki's own localizations leave the English term in place across the Indic set, which is the strongest signal that no settled native term exists there. Three shipped locales do have an attested term and still ship the transliteration: Bengali, Telugu and Gujarati. Whether to switch them, and whether to carry the English in parentheses alongside the native term as those languages normally do for imported technical concepts, is an open question rather than an oversight.
 - Analytics records facts; funnels, cohorts, and groupings are built by queries over those facts, and no event is created to serve one report.
 
 ## Development
