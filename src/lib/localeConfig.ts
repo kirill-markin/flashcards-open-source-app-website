@@ -10,6 +10,16 @@ export const SUPPORTED_LOCALES = [
   "pt",
   "ru",
   "zh",
+  "it",
+  "ko",
+  "id",
+  "tr",
+  "nl",
+  "pl",
+  "vi",
+  "th",
+  "uk",
+  "he",
 ] as const;
 export const NON_DEFAULT_LOCALES = [
   "es",
@@ -21,6 +31,16 @@ export const NON_DEFAULT_LOCALES = [
   "pt",
   "ru",
   "zh",
+  "it",
+  "ko",
+  "id",
+  "tr",
+  "nl",
+  "pl",
+  "vi",
+  "th",
+  "uk",
+  "he",
 ] as const;
 
 export type AppLocale = (typeof SUPPORTED_LOCALES)[number];
@@ -94,6 +114,66 @@ const LOCALE_DEFINITIONS: Readonly<Record<AppLocale, LocaleDefinition>> = {
     nativeName: "简体中文",
     openGraphLocale: "zh_CN",
     shortLabel: "ZH",
+  },
+  it: {
+    direction: "ltr",
+    nativeName: "Italiano",
+    openGraphLocale: "it_IT",
+    shortLabel: "IT",
+  },
+  ko: {
+    direction: "ltr",
+    nativeName: "한국어",
+    openGraphLocale: "ko_KR",
+    shortLabel: "KO",
+  },
+  id: {
+    direction: "ltr",
+    nativeName: "Bahasa Indonesia",
+    openGraphLocale: "id_ID",
+    shortLabel: "ID",
+  },
+  tr: {
+    direction: "ltr",
+    nativeName: "Türkçe",
+    openGraphLocale: "tr_TR",
+    shortLabel: "TR",
+  },
+  nl: {
+    direction: "ltr",
+    nativeName: "Nederlands",
+    openGraphLocale: "nl_NL",
+    shortLabel: "NL",
+  },
+  pl: {
+    direction: "ltr",
+    nativeName: "Polski",
+    openGraphLocale: "pl_PL",
+    shortLabel: "PL",
+  },
+  vi: {
+    direction: "ltr",
+    nativeName: "Tiếng Việt",
+    openGraphLocale: "vi_VN",
+    shortLabel: "VI",
+  },
+  th: {
+    direction: "ltr",
+    nativeName: "ไทย",
+    openGraphLocale: "th_TH",
+    shortLabel: "TH",
+  },
+  uk: {
+    direction: "ltr",
+    nativeName: "Українська",
+    openGraphLocale: "uk_UA",
+    shortLabel: "UK",
+  },
+  he: {
+    direction: "rtl",
+    nativeName: "עברית",
+    openGraphLocale: "he_IL",
+    shortLabel: "HE",
   },
 };
 

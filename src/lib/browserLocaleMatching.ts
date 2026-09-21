@@ -6,10 +6,20 @@ const PRIMARY_LANGUAGE_LOCALES = [
   "en",
   "es",
   "fr",
+  "he",
   "hi",
+  "id",
+  "it",
   "ja",
+  "ko",
+  "nl",
+  "pl",
   "pt",
   "ru",
+  "th",
+  "tr",
+  "uk",
+  "vi",
 ] as const;
 
 type PrimaryLanguageLocale = (typeof PRIMARY_LANGUAGE_LOCALES)[number];

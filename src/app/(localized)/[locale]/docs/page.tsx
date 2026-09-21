@@ -1,12 +1,13 @@
 import type { Metadata } from "next";
 import { DocsPageView } from "@/components/DocsPageView";
-import { getLocalizedRouteStaticParams, resolveNonDefaultLocaleOrNotFound } from "@/app/localizedRouteHelpers";
+import { getTranslatedRouteStaticParams, resolveNonDefaultLocaleOrNotFound } from "@/app/localizedRouteHelpers";
 import { createPageMetadata } from "@/lib/seo/createPageMetadata";
 import { getUiCopy } from "@/lib/uiCopy";
 
 export const dynamicParams = false;
 
-export const generateStaticParams = getLocalizedRouteStaticParams;
+export const generateStaticParams = (): Array<{ locale: string }> =>
+  getTranslatedRouteStaticParams("/docs/");
 
 interface PageProps {
   readonly params: Promise<{ locale: string }>;
