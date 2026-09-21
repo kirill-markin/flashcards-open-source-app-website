@@ -145,6 +145,8 @@ Examples of stronger prompts:
 
 Psych/soc feels light until several similar terms start colliding in one passage. That is where flashcards help most: not by storing the whole chapter, but by separating the exact ideas that keep collapsing into each other.
 
+If reinforcement and punishment keep blurring together, [Operant Conditioning Flashcards: Reinforcement & Punishment](/catalog/packages/operant-conditioning-flashcards/) gives you original classification scenarios. Use them to practice tracking the target behavior, what is added or removed, and the observed change in behavior, including cases where the evidence is incomplete.
+
 ## Biology and biochemistry facts should be carded at the level of the mistake
 
 A lot of MCAT science content sits between "pure fact" and "full reasoning." That is where people get sloppy.
