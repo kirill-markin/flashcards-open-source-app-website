@@ -99,36 +99,38 @@ export function LocaleSwitcher({
           emptyLabel={uiCopy.locale.searchEmptyLabel}
           placeholder={uiCopy.locale.searchPlaceholder}
         />
-        <ul className={styles.menu} aria-label={uiCopy.locale.switcherAriaLabel}>
-          {availableEntries.map((entry) => (
-            <li
-              key={entry.locale}
-              data-locale-search={getLocaleSearchText(
-                entry.locale,
-                entry.nativeName,
-                entry.englishName,
-              )}
-            >
-              {entry.locale === locale ? (
-                <span className={styles.currentOption} aria-current="true">
-                  <LocaleOptionLabel
-                    englishName={entry.englishName}
-                    locale={entry.locale}
-                    nativeName={entry.nativeName}
-                  />
-                </span>
-              ) : (
-                <Link href={entry.href}>
-                  <LocaleOptionLabel
-                    englishName={entry.englishName}
-                    locale={entry.locale}
-                    nativeName={entry.nativeName}
-                  />
-                </Link>
-              )}
-            </li>
-          ))}
-        </ul>
+        <div className={styles.menuScroll}>
+          <ul className={styles.menu} aria-label={uiCopy.locale.switcherAriaLabel}>
+            {availableEntries.map((entry) => (
+              <li
+                key={entry.locale}
+                data-locale-search={getLocaleSearchText(
+                  entry.locale,
+                  entry.nativeName,
+                  entry.englishName,
+                )}
+              >
+                {entry.locale === locale ? (
+                  <span className={styles.currentOption} aria-current="true">
+                    <LocaleOptionLabel
+                      englishName={entry.englishName}
+                      locale={entry.locale}
+                      nativeName={entry.nativeName}
+                    />
+                  </span>
+                ) : (
+                  <Link href={entry.href}>
+                    <LocaleOptionLabel
+                      englishName={entry.englishName}
+                      locale={entry.locale}
+                      nativeName={entry.nativeName}
+                    />
+                  </Link>
+                )}
+              </li>
+            ))}
+          </ul>
+        </div>
       </div>
     </details>
   );
