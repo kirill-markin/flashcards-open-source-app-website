@@ -116,6 +116,8 @@ interface AppUiCopy {
     readonly lastUpdatedLabel: string;
   };
   readonly locale: {
+    readonly searchEmptyLabel: string;
+    readonly searchPlaceholder: string;
     readonly switcherAriaLabel: string;
   };
   readonly localeSuggestion: {
@@ -264,6 +266,8 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       lastUpdatedLabel: "Last updated",
     },
     locale: {
+      searchEmptyLabel: "No languages found",
+      searchPlaceholder: "Search languages",
       switcherAriaLabel: "Language switcher",
     },
     localeSuggestion: {
@@ -410,6 +414,8 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       lastUpdatedLabel: "Última actualización",
     },
     locale: {
+      searchEmptyLabel: "No se encontraron idiomas",
+      searchPlaceholder: "Buscar idiomas",
       switcherAriaLabel: "Selector de idioma",
     },
     localeSuggestion: {
@@ -555,6 +561,8 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       lastUpdatedLabel: "آخر تحديث",
     },
     locale: {
+      searchEmptyLabel: "لم يتم العثور على أي لغة",
+      searchPlaceholder: "ابحث عن لغة",
       switcherAriaLabel: "مبدّل اللغة",
     },
     localeSuggestion: {
@@ -701,6 +709,8 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       lastUpdatedLabel: "Zuletzt aktualisiert",
     },
     locale: {
+      searchEmptyLabel: "Keine Sprachen gefunden",
+      searchPlaceholder: "Sprachen suchen",
       switcherAriaLabel: "Sprachauswahl",
     },
     localeSuggestion: {
@@ -847,6 +857,8 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       lastUpdatedLabel: "आख़िरी अपडेट",
     },
     locale: {
+      searchEmptyLabel: "कोई भाषा नहीं मिली",
+      searchPlaceholder: "भाषाएँ खोजें",
       switcherAriaLabel: "भाषा चयन",
     },
     localeSuggestion: {
@@ -993,6 +1005,8 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       lastUpdatedLabel: "最終更新",
     },
     locale: {
+      searchEmptyLabel: "該当する言語はありません",
+      searchPlaceholder: "言語を検索",
       switcherAriaLabel: "言語切替",
     },
     localeSuggestion: {
@@ -1139,6 +1153,8 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       lastUpdatedLabel: "Dernière mise à jour",
     },
     locale: {
+      searchEmptyLabel: "Aucune langue trouvée",
+      searchPlaceholder: "Rechercher une langue",
       switcherAriaLabel: "Sélecteur de langue",
     },
     localeSuggestion: {
@@ -1285,6 +1301,8 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       lastUpdatedLabel: "Última atualização",
     },
     locale: {
+      searchEmptyLabel: "Nenhum idioma encontrado",
+      searchPlaceholder: "Buscar idiomas",
       switcherAriaLabel: "Seletor de idioma",
     },
     localeSuggestion: {
@@ -1431,6 +1449,8 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       lastUpdatedLabel: "Последнее обновление",
     },
     locale: {
+      searchEmptyLabel: "Языки не найдены",
+      searchPlaceholder: "Поиск языка",
       switcherAriaLabel: "Переключатель языка",
     },
     localeSuggestion: {
@@ -1574,6 +1594,8 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       lastUpdatedLabel: "最后更新",
     },
     locale: {
+      searchEmptyLabel: "未找到语言",
+      searchPlaceholder: "搜索语言",
       switcherAriaLabel: "语言切换",
     },
     localeSuggestion: {
@@ -1720,6 +1742,8 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       lastUpdatedLabel: "Ultimo aggiornamento",
     },
     locale: {
+      searchEmptyLabel: "Nessuna lingua trovata",
+      searchPlaceholder: "Cerca lingue",
       switcherAriaLabel: "Selettore della lingua",
     },
     localeSuggestion: {
@@ -1866,6 +1890,8 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       lastUpdatedLabel: "마지막 업데이트",
     },
     locale: {
+      searchEmptyLabel: "일치하는 언어가 없습니다",
+      searchPlaceholder: "언어 검색",
       switcherAriaLabel: "언어 전환",
     },
     localeSuggestion: {
@@ -2012,6 +2038,8 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       lastUpdatedLabel: "Terakhir diperbarui",
     },
     locale: {
+      searchEmptyLabel: "Bahasa tidak ditemukan",
+      searchPlaceholder: "Cari bahasa",
       switcherAriaLabel: "Pengalih bahasa",
     },
     localeSuggestion: {
@@ -2158,6 +2186,8 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       lastUpdatedLabel: "Son güncelleme",
     },
     locale: {
+      searchEmptyLabel: "Dil bulunamadı",
+      searchPlaceholder: "Dil ara",
       switcherAriaLabel: "Dil seçici",
     },
     localeSuggestion: {
@@ -2304,6 +2334,8 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       lastUpdatedLabel: "Laatst bijgewerkt",
     },
     locale: {
+      searchEmptyLabel: "Geen talen gevonden",
+      searchPlaceholder: "Talen zoeken",
       switcherAriaLabel: "Taalkeuze",
     },
     localeSuggestion: {
@@ -2450,6 +2482,8 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       lastUpdatedLabel: "Ostatnia aktualizacja",
     },
     locale: {
+      searchEmptyLabel: "Nie znaleziono języków",
+      searchPlaceholder: "Szukaj języka",
       switcherAriaLabel: "Przełącznik języka",
     },
     localeSuggestion: {
@@ -2596,6 +2630,8 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       lastUpdatedLabel: "Cập nhật lần cuối",
     },
     locale: {
+      searchEmptyLabel: "Không tìm thấy ngôn ngữ",
+      searchPlaceholder: "Tìm ngôn ngữ",
       switcherAriaLabel: "Bộ chọn ngôn ngữ",
     },
     localeSuggestion: {
@@ -2742,6 +2778,8 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       lastUpdatedLabel: "อัปเดตล่าสุด",
     },
     locale: {
+      searchEmptyLabel: "ไม่พบภาษา",
+      searchPlaceholder: "ค้นหาภาษา",
       switcherAriaLabel: "ตัวเลือกภาษา",
     },
     localeSuggestion: {
@@ -2888,6 +2926,8 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       lastUpdatedLabel: "Останнє оновлення",
     },
     locale: {
+      searchEmptyLabel: "Мов не знайдено",
+      searchPlaceholder: "Пошук мови",
       switcherAriaLabel: "Перемикач мови",
     },
     localeSuggestion: {
@@ -3034,6 +3074,8 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       lastUpdatedLabel: "עודכן לאחרונה",
     },
     locale: {
+      searchEmptyLabel: "לא נמצאו שפות",
+      searchPlaceholder: "חיפוש שפה",
       switcherAriaLabel: "בחירת שפה",
     },
     localeSuggestion: {
@@ -3180,6 +3222,8 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       lastUpdatedLabel: "Senast uppdaterad",
     },
     locale: {
+      searchEmptyLabel: "Inga språk hittades",
+      searchPlaceholder: "Sök språk",
       switcherAriaLabel: "Språkväljare",
     },
     localeSuggestion: {
@@ -3326,6 +3370,8 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       lastUpdatedLabel: "Sidst opdateret",
     },
     locale: {
+      searchEmptyLabel: "Ingen sprog fundet",
+      searchPlaceholder: "Søg efter sprog",
       switcherAriaLabel: "Sprogvælger",
     },
     localeSuggestion: {
@@ -3472,6 +3518,8 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       lastUpdatedLabel: "Sist oppdatert",
     },
     locale: {
+      searchEmptyLabel: "Fant ingen språk",
+      searchPlaceholder: "Søk etter språk",
       switcherAriaLabel: "Språkvelger",
     },
     localeSuggestion: {
@@ -3618,6 +3666,8 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       lastUpdatedLabel: "Päivitetty viimeksi",
     },
     locale: {
+      searchEmptyLabel: "Kieliä ei löytynyt",
+      searchPlaceholder: "Hae kieliä",
       switcherAriaLabel: "Kielenvalitsin",
     },
     localeSuggestion: {
@@ -3764,6 +3814,8 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       lastUpdatedLabel: "Naposledy aktualizováno",
     },
     locale: {
+      searchEmptyLabel: "Nenalezen žádný jazyk",
+      searchPlaceholder: "Hledat jazyk",
       switcherAriaLabel: "Přepínač jazyka",
     },
     localeSuggestion: {
@@ -3910,6 +3962,8 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       lastUpdatedLabel: "Τελευταία ενημέρωση",
     },
     locale: {
+      searchEmptyLabel: "Δεν βρέθηκαν γλώσσες",
+      searchPlaceholder: "Αναζήτηση γλώσσας",
       switcherAriaLabel: "Επιλογή γλώσσας",
     },
     localeSuggestion: {
@@ -4056,6 +4110,8 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       lastUpdatedLabel: "Ultima actualizare",
     },
     locale: {
+      searchEmptyLabel: "Nu a fost găsită nicio limbă",
+      searchPlaceholder: "Caută o limbă",
       switcherAriaLabel: "Selector de limbă",
     },
     localeSuggestion: {
@@ -4202,6 +4258,8 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       lastUpdatedLabel: "Utoljára frissítve",
     },
     locale: {
+      searchEmptyLabel: "Nincs ilyen nyelv",
+      searchPlaceholder: "Nyelv keresése",
       switcherAriaLabel: "Nyelvválasztó",
     },
     localeSuggestion: {
@@ -4348,6 +4406,8 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       lastUpdatedLabel: "آخرین به‌روزرسانی",
     },
     locale: {
+      searchEmptyLabel: "هیچ زبانی پیدا نشد",
+      searchPlaceholder: "جستجوی زبان",
       switcherAriaLabel: "انتخاب زبان",
     },
     localeSuggestion: {
@@ -4494,6 +4554,8 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       lastUpdatedLabel: "Última actualització",
     },
     locale: {
+      searchEmptyLabel: "No s'ha trobat cap idioma",
+      searchPlaceholder: "Cerca idiomes",
       switcherAriaLabel: "Selector d'idioma",
     },
     localeSuggestion: {
@@ -4639,6 +4701,8 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       lastUpdatedLabel: "সর্বশেষ আপডেট",
     },
     locale: {
+      searchEmptyLabel: "কোনো ভাষা পাওয়া যায়নি",
+      searchPlaceholder: "ভাষা খুঁজুন",
       switcherAriaLabel: "ভাষা নির্বাচক",
     },
     localeSuggestion: {
@@ -4785,6 +4849,8 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       lastUpdatedLabel: "છેલ્લે અપડેટ થયું",
     },
     locale: {
+      searchEmptyLabel: "કોઈ ભાષા મળી નથી",
+      searchPlaceholder: "ભાષા શોધો",
       switcherAriaLabel: "ભાષા પસંદગી",
     },
     localeSuggestion: {
@@ -4931,6 +4997,8 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       lastUpdatedLabel: "ಕೊನೆಯ ಬಾರಿ ನವೀಕರಿಸಿದ್ದು",
     },
     locale: {
+      searchEmptyLabel: "ಯಾವುದೇ ಭಾಷೆ ಸಿಗಲಿಲ್ಲ",
+      searchPlaceholder: "ಭಾಷೆಗಳನ್ನು ಹುಡುಕಿ",
       switcherAriaLabel: "ಭಾಷಾ ಆಯ್ಕೆ",
     },
     localeSuggestion: {
@@ -5081,6 +5149,8 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       lastUpdatedLabel: "അവസാനം പുതുക്കിയത്",
     },
     locale: {
+      searchEmptyLabel: "ഭാഷകളൊന്നും കണ്ടെത്തിയില്ല",
+      searchPlaceholder: "ഭാഷകൾ തിരയുക",
       switcherAriaLabel: "ഭാഷാ തിരഞ്ഞെടുപ്പ്",
     },
     localeSuggestion: {
@@ -5226,6 +5296,8 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       lastUpdatedLabel: "शेवटचे अद्यतन",
     },
     locale: {
+      searchEmptyLabel: "कोणतीही भाषा सापडली नाही",
+      searchPlaceholder: "भाषा शोधा",
       switcherAriaLabel: "भाषा निवड",
     },
     localeSuggestion: {
@@ -5371,6 +5443,8 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       lastUpdatedLabel: "ਆਖ਼ਰੀ ਵਾਰ ਅੱਪਡੇਟ ਹੋਇਆ",
     },
     locale: {
+      searchEmptyLabel: "ਕੋਈ ਭਾਸ਼ਾ ਨਹੀਂ ਮਿਲੀ",
+      searchPlaceholder: "ਭਾਸ਼ਾਵਾਂ ਖੋਜੋ",
       switcherAriaLabel: "ਭਾਸ਼ਾ ਚੋਣਕਾਰ",
     },
     localeSuggestion: {
@@ -5519,6 +5593,8 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       lastUpdatedLabel: "கடைசியாகப் புதுப்பிக்கப்பட்டது",
     },
     locale: {
+      searchEmptyLabel: "மொழிகள் எதுவும் கிடைக்கவில்லை",
+      searchPlaceholder: "மொழிகளைத் தேடுக",
       switcherAriaLabel: "மொழி மாற்றி",
     },
     localeSuggestion: {
@@ -5666,6 +5742,8 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       lastUpdatedLabel: "చివరిగా అప్‌డేట్ అయింది",
     },
     locale: {
+      searchEmptyLabel: "భాషలు ఏవీ దొరకలేదు",
+      searchPlaceholder: "భాషలను వెతకండి",
       switcherAriaLabel: "భాషా ఎంపిక",
     },
     localeSuggestion: {
@@ -5812,6 +5890,8 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       lastUpdatedLabel: "آخری بار اپ ڈیٹ ہوا",
     },
     locale: {
+      searchEmptyLabel: "کوئی زبان نہیں ملی",
+      searchPlaceholder: "زبانیں تلاش کریں",
       switcherAriaLabel: "زبان کا انتخاب",
     },
     localeSuggestion: {
@@ -5959,6 +6039,8 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       lastUpdatedLabel: "Ilisasishwa mwisho",
     },
     locale: {
+      searchEmptyLabel: "Hakuna lugha iliyopatikana",
+      searchPlaceholder: "Tafuta lugha",
       switcherAriaLabel: "Kibadilishaji lugha",
     },
     localeSuggestion: {
@@ -6105,6 +6187,8 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       lastUpdatedLabel: "Последна актуализация",
     },
     locale: {
+      searchEmptyLabel: "Няма намерени езици",
+      searchPlaceholder: "Търсене на език",
       switcherAriaLabel: "Превключвател на езика",
     },
     localeSuggestion: {
@@ -6251,6 +6335,8 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       lastUpdatedLabel: "Viimati uuendatud",
     },
     locale: {
+      searchEmptyLabel: "Keeli ei leitud",
+      searchPlaceholder: "Otsi keelt",
       switcherAriaLabel: "Keelevalija",
     },
     localeSuggestion: {
@@ -6397,6 +6483,8 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       lastUpdatedLabel: "Zadnje ažuriranje",
     },
     locale: {
+      searchEmptyLabel: "Nije pronađen nijedan jezik",
+      searchPlaceholder: "Pretraži jezike",
       switcherAriaLabel: "Prebacivanje jezika",
     },
     localeSuggestion: {
@@ -6543,6 +6631,8 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       lastUpdatedLabel: "Síðast uppfært",
     },
     locale: {
+      searchEmptyLabel: "Engin tungumál fundust",
+      searchPlaceholder: "Leita að tungumáli",
       switcherAriaLabel: "Tungumálaval",
     },
     localeSuggestion: {
@@ -6689,6 +6779,8 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       lastUpdatedLabel: "Atnaujinta",
     },
     locale: {
+      searchEmptyLabel: "Kalbų nerasta",
+      searchPlaceholder: "Ieškoti kalbos",
       switcherAriaLabel: "Kalbos perjungiklis",
     },
     localeSuggestion: {
@@ -6835,6 +6927,8 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       lastUpdatedLabel: "Pēdējoreiz atjaunināts",
     },
     locale: {
+      searchEmptyLabel: "Neviena valoda nav atrasta",
+      searchPlaceholder: "Meklēt valodu",
       switcherAriaLabel: "Valodas pārslēdzējs",
     },
     localeSuggestion: {
@@ -6981,6 +7075,8 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       lastUpdatedLabel: "Naposledy aktualizované",
     },
     locale: {
+      searchEmptyLabel: "Nenašiel sa žiadny jazyk",
+      searchPlaceholder: "Hľadať jazyk",
       switcherAriaLabel: "Prepínač jazyka",
     },
     localeSuggestion: {
@@ -7127,6 +7223,8 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       lastUpdatedLabel: "Zadnja posodobitev",
     },
     locale: {
+      searchEmptyLabel: "Ni najdenih jezikov",
+      searchPlaceholder: "Iskanje jezika",
       switcherAriaLabel: "Preklopnik jezika",
     },
     localeSuggestion: {
@@ -7273,6 +7371,8 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       lastUpdatedLabel: "Kubuyekezwe okokugcina",
     },
     locale: {
+      searchEmptyLabel: "Azikho izilimi ezitholakele",
+      searchPlaceholder: "Sesha izilimi",
       switcherAriaLabel: "Isishintshi solimi",
     },
     localeSuggestion: {

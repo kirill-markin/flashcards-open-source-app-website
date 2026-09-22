@@ -1,8 +1,13 @@
 import Link from "next/link";
 import type { AppLocale } from "@/lib/i18n";
-import { getLocaleNativeName } from "@/lib/localeConfig";
+import {
+  getLocaleNativeName,
+  getLocaleSearchAliases,
+} from "@/lib/localeConfig";
+import { normalizeLocaleSearchText } from "@/lib/localeSearch";
 import { getLocaleSwitcherEntriesForLocales } from "@/lib/routeTranslations";
 import { getUiCopy } from "@/lib/uiCopy";
+import { LocaleSwitcherSearch } from "./LocaleSwitcherSearch";
 import styles from "./LocaleSwitcher.module.css";
 
 interface LocaleSwitcherProps {
@@ -25,6 +30,17 @@ function GlobeIcon(): React.JSX.Element {
       <path d="M10 2.5c2 2.1 3 4.6 3 7.5s-1 5.4-3 7.5c-2-2.1-3-4.6-3-7.5s1-5.4 3-7.5Z" />
     </svg>
   );
+}
+
+/** Newline-separated so a query cannot match across two names. */
+function getLocaleSearchText(
+  locale: AppLocale,
+  nativeName: string,
+  englishName: string,
+): string {
+  return [nativeName, englishName, locale, ...getLocaleSearchAliases(locale)]
+    .map(normalizeLocaleSearchText)
+    .join("\n");
 }
 
 /**
@@ -79,9 +95,20 @@ export function LocaleSwitcher({
         </span>
       </summary>
       <div className={styles.menuWrapper}>
+        <LocaleSwitcherSearch
+          emptyLabel={uiCopy.locale.searchEmptyLabel}
+          placeholder={uiCopy.locale.searchPlaceholder}
+        />
         <ul className={styles.menu} aria-label={uiCopy.locale.switcherAriaLabel}>
           {availableEntries.map((entry) => (
-            <li key={entry.locale}>
+            <li
+              key={entry.locale}
+              data-locale-search={getLocaleSearchText(
+                entry.locale,
+                entry.nativeName,
+                entry.englishName,
+              )}
+            >
               {entry.locale === locale ? (
                 <span className={styles.currentOption} aria-current="true">
                   <LocaleOptionLabel
