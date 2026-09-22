@@ -118,11 +118,40 @@ export function LocaleSwitcherSearch({
       setIsEmpty(filterLocaleEntries(elements, ""));
     };
 
+    const isInsideSwitcher = (target: EventTarget | null): boolean =>
+      target instanceof Node && details.contains(target);
+
+    const handleDocumentPointerDown = (event: PointerEvent): void => {
+      if (!isInsideSwitcher(event.target)) {
+        details.open = false;
+      }
+    };
+
+    // Escape inside the switcher belongs to handleKeyDown.
+    const handleDocumentKeyDown = (event: KeyboardEvent): void => {
+      if (event.key !== "Escape" || event.isComposing || isInsideSwitcher(event.target)) {
+        return;
+      }
+
+      event.preventDefault();
+      details.open = false;
+      summary.focus();
+    };
+
+    const removeDocumentListeners = (): void => {
+      document.removeEventListener("pointerdown", handleDocumentPointerDown);
+      document.removeEventListener("keydown", handleDocumentKeyDown);
+    };
+
     const handleToggle = (): void => {
       if (!details.open) {
+        removeDocumentListeners();
         clearFilter();
         return;
       }
+
+      document.addEventListener("pointerdown", handleDocumentPointerDown);
+      document.addEventListener("keydown", handleDocumentKeyDown);
 
       if (window.matchMedia(AUTOFOCUS_MEDIA_QUERY).matches) {
         input.focus();
@@ -206,6 +235,7 @@ export function LocaleSwitcherSearch({
     return () => {
       details.removeEventListener("toggle", handleToggle);
       details.removeEventListener("keydown", handleKeyDown);
+      removeDocumentListeners();
     };
   }, [isHydrated]);
 
