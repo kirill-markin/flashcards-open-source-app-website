@@ -28,7 +28,8 @@
   background: rgba(255, 255, 255, 0.07);
 }
 
-.globe {
+.globe,
+.searchIcon {
   flex: none;
   inline-size: 16px;
   block-size: 16px;
@@ -53,6 +54,61 @@
   border-radius: 18px;
   background: var(--surface);
   box-shadow: var(--shadow-soft);
+}
+
+/* Sticks flush to the scrollport top; the negative margin cancels the
+   wrapper padding so resting and stuck positions match. */
+.search {
+  position: sticky;
+  inset-block-start: 0;
+  z-index: 1;
+  margin-block: -8px 0;
+  padding-block: 8px;
+  background: var(--surface);
+}
+
+.searchField {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-block-size: 38px;
+  padding-inline: 14px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-pill);
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.searchField:focus-within {
+  border-color: var(--border-strong);
+  background: rgba(255, 255, 255, 0.07);
+}
+
+.searchField:has(.searchInput:focus-visible) {
+  outline: 2px solid rgba(255, 214, 201, 0.62);
+  outline-offset: 2px;
+}
+
+.searchInput {
+  flex: 1;
+  min-inline-size: 0;
+  border: 0;
+  background: transparent;
+  color: var(--text);
+  font-size: 14px;
+  outline: none;
+  appearance: none;
+}
+
+.searchInput::placeholder {
+  color: var(--text-tertiary);
+}
+
+.searchEmpty:not(:empty) {
+  padding-block: 10px 2px;
+  padding-inline: 12px;
+  color: var(--text-tertiary);
+  font-size: 13px;
+  text-align: start;
 }
 
 .menu {
@@ -112,6 +168,13 @@
 
 .switcher[open] .chevron {
   transform: rotate(180deg);
+}
+
+/* Below 16px iOS zooms the page when the field gains focus. */
+@media (pointer: coarse) {
+  .searchInput {
+    font-size: 16px;
+  }
 }
 
 @media (max-width: 1024px) {
