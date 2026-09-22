@@ -1,5 +1,7 @@
+/* The popover is positioned against the footer's bottom row (the full-width
+   locale picker on mobile), not the switcher, so its width is bounded by the
+   footer and it cannot leave the viewport. */
 .switcher {
-  position: relative;
   display: inline-grid;
 }
 
@@ -9,7 +11,7 @@
   justify-content: center;
   gap: 10px;
   min-block-size: 42px;
-  padding-inline: 16px 14px;
+  padding-inline: 14px;
   border: 1px solid var(--border);
   border-radius: var(--radius-pill);
   background: rgba(255, 255, 255, 0.04);
@@ -26,45 +28,61 @@
   background: rgba(255, 255, 255, 0.07);
 }
 
+.globe {
+  flex: none;
+  inline-size: 16px;
+  block-size: 16px;
+  fill: none;
+  stroke: var(--text-secondary);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 1.5;
+}
+
 .menuWrapper {
   position: absolute;
   inset-block-end: calc(100% + 10px);
   inset-inline-end: 0;
   z-index: 20;
-}
-
-.menu {
-  display: grid;
-  min-inline-size: 100%;
+  inline-size: min(100%, 64rem);
+  max-block-size: calc(100dvh - 140px);
+  overflow-y: auto;
+  overscroll-behavior: contain;
   padding: 8px;
   border: 1px solid var(--border);
   border-radius: 18px;
   background: var(--surface);
   box-shadow: var(--shadow-soft);
+}
+
+.menu {
+  columns: 4;
+  column-gap: 4px;
   list-style: none;
 }
 
 .menu li {
   display: grid;
+  break-inside: avoid;
 }
 
 .trigger,
-.menu a,
-.current,
-.currentOption {
-  font-size: 12px;
-  font-weight: 700;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
+.current {
+  font-size: 14px;
+  font-weight: 600;
 }
 
 .menu a,
 .currentOption {
-  display: inline-flex;
+  display: flex;
   align-items: center;
-  min-block-size: 38px;
+  min-block-size: 34px;
+  padding-block: 6px;
   padding-inline: 12px;
   border-radius: 12px;
+  font-size: 13px;
+  line-height: 1.3;
+  text-align: start;
 }
 
 .menu a {
@@ -82,6 +100,7 @@
 
 .currentOption {
   color: var(--text);
+  font-weight: 600;
   background: rgba(255, 255, 255, 0.09);
 }
 
@@ -95,15 +114,27 @@
   transform: rotate(180deg);
 }
 
-@media (max-width: 768px) {
-  .switcher,
-  .menuWrapper,
+@media (max-width: 1024px) {
   .menu {
+    columns: 3;
+  }
+}
+
+@media (max-width: 768px) {
+  .switcher {
     min-inline-size: 100%;
   }
 
   .trigger {
-    justify-content: space-between;
+    justify-content: flex-start;
     inline-size: 100%;
+  }
+
+  .chevron {
+    margin-inline-start: auto;
+  }
+
+  .menu {
+    columns: 2;
   }
 }

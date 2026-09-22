@@ -2,8 +2,8 @@ import { TRANSLATED_ROUTE_PATHNAMES_BY_LOCALE } from "@/data/contentRegistry";
 import {
   DEFAULT_LOCALE,
   SUPPORTED_LOCALES,
+  getLocaleEnglishName,
   getLocaleNativeName,
-  getLocaleShortLabel,
   type AppLocale,
 } from "@/lib/localeConfig";
 import {
@@ -21,9 +21,10 @@ import {
 
 interface LocaleSwitcherEntry {
   readonly available: boolean;
+  readonly englishName: string;
   readonly href: string;
-  readonly label: string;
   readonly locale: AppLocale;
+  readonly nativeName: string;
 }
 
 export interface LocaleSuggestionTarget {
@@ -31,6 +32,8 @@ export interface LocaleSuggestionTarget {
   readonly languageName: string;
   readonly locale: AppLocale;
 }
+
+const ENGLISH_NAME_COLLATOR = new Intl.Collator("en");
 
 const TRANSLATED_ROUTE_PATH_SET_BY_LOCALE: Readonly<
   Record<AppLocale, ReadonlySet<string>>
@@ -143,6 +146,7 @@ export function getLocaleSwitcherEntries(
   );
 }
 
+/** Entries are sorted by English name, independent of the page locale. */
 export function getLocaleSwitcherEntriesForLocales(
   pathname: string,
   routeLocales: ReadonlyArray<AppLocale>,
@@ -151,10 +155,13 @@ export function getLocaleSwitcherEntriesForLocales(
 
   return SUPPORTED_LOCALES.map((locale) => ({
     available: routeLocales.includes(locale),
+    englishName: getLocaleEnglishName(locale),
     href: routePathname === PUBLIC_CATALOG_ROUTE_PATHNAME
       ? getPublicCatalogRootUrl(locale)
       : getLocalizedPathname(locale, routePathname),
-    label: getLocaleShortLabel(locale),
     locale,
-  }));
+    nativeName: getLocaleNativeName(locale),
+  })).sort((left, right) =>
+    ENGLISH_NAME_COLLATOR.compare(left.englishName, right.englishName)
+  );
 }
