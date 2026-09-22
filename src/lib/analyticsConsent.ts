@@ -89,7 +89,7 @@ export function publishAnalyticsConsentJurisdiction(
  * Whether this browser is still waiting to be told what it may do - because it has not been asked
  * yet where it has to be, or because it does not know yet whether it has to be asked at all.
  * No identity may be written to the device or requested for it while this holds. Events are not
- * held back: `sendCatalogInstallEvent` reports a click with no identifier attached, and says why.
+ * held back for it: `sendSiteAnalyticsEvent` reports one with no identifier attached, and says why.
  */
 export function isAwaitingAnalyticsConsentDecision(): boolean {
   return (

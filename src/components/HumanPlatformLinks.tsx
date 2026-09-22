@@ -2,7 +2,11 @@
 
 import { track } from "@vercel/analytics";
 import Image from "next/image";
-import { trackAppEntryClick } from "@/lib/appEntryTracking";
+import {
+  getStoreAppEntryTarget,
+  reportSiteAppEntryClick,
+  trackAppEntryClick,
+} from "@/lib/appEntryTracking";
 import {
   getHumanPlatforms,
   type StoreAnalyticsPlatform,
@@ -19,11 +23,19 @@ import styles from "./HumanPlatformLinks.module.css";
 
 const STORE_LINK_PLACEMENT = "home_human_access";
 
-function trackStoreLinkClick(platform: StoreAnalyticsPlatform): void {
+function trackStoreLinkClick(
+  platform: StoreAnalyticsPlatform,
+  locale: AppLocale,
+): void {
   track("store_link_click", {
     platform,
     placement: STORE_LINK_PLACEMENT,
   });
+  reportSiteAppEntryClick(
+    getStoreAppEntryTarget(platform),
+    locale,
+    STORE_LINK_PLACEMENT,
+  );
 }
 
 function WebIcon() {
@@ -69,7 +81,7 @@ export const HumanPlatformLinks: React.FC<HumanPlatformLinksProps> = ({
           const externalLinkAttributes = getExternalLinkAttributes(platform.href);
           const trackPlatformClick = (): void => {
             if (platform.analytics.kind === "store") {
-              trackStoreLinkClick(platform.analytics.platform);
+              trackStoreLinkClick(platform.analytics.platform, locale);
               return;
             }
 

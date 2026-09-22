@@ -171,10 +171,10 @@ async function runVisitorIdentityResolution(): Promise<void> {
 }
 
 /**
- * Asks the backend for the identity when this browser has none. Never gates rendering or an event:
- * a first visit can pay a country-database download inside the request, so the page renders and
- * events are held while it runs. One attempt per page load - a navigation is the retry, and the
- * static site gives every visitor plenty of them.
+ * Asks the backend for the identity when this browser has none. Never gates rendering: a first
+ * visit can pay a country-database download inside the request, so the page renders while it runs.
+ * Page views wait for it; clicks do not. One attempt per page load - a navigation is the retry, and
+ * the static site gives every visitor plenty of them.
  */
 export function resolveAnalyticsVisitorIdentity(): Promise<void> {
   if (hasAnalyticsPrivacySignal()) {
