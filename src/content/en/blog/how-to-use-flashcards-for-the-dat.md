@@ -36,6 +36,8 @@ Most DAT students do not need four separate permanent decks. One main DAT deck i
 
 That `gen-chem` tag still matters even though this article leans harder into biology and organic chemistry. General chemistry cards usually work best when they store the deciding setup step, trend, or lab cue, not a full derivation you could just practice on paper.
 
+If ionic names and formulas still slow you down, the [ionic compound naming flashcards](/catalog/packages/ionic-compound-naming-flashcards/) offer focused practice with charge balance, Roman numerals, and polyatomic-ion grouping. Use them for that prerequisite, then return to your general chemistry problems.
+
 For molecular-shape recall, [these VSEPR flashcards](/catalog/packages/vsepr-molecular-geometry-flashcards/) connect electron-domain and lone-pair counts to molecular geometry, with separate practice on ideal bond angles.
 
 ## Biology cards should be smaller than your notes
