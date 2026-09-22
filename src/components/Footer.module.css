@@ -51,7 +51,9 @@
   line-height: 1.4;
 }
 
+/* Containing block for the LocaleSwitcher popover. */
 .bottom {
+  position: relative;
   border-top: 1px solid var(--border);
   padding-top: 16px;
   display: grid;
@@ -119,7 +121,9 @@
     align-items: stretch;
   }
 
+  /* Anchors the popover right above the trigger, not above the meta block. */
   .localePicker {
+    position: relative;
     justify-content: stretch;
   }
 }
