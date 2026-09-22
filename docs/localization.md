@@ -1,6 +1,6 @@
 # Localization
 
-The site carries one generic tag per language: a single `es`, and `nb` for Norwegian where the Android app and the stores use `no`. The locale set, its order, and each locale's direction, native name, Open Graph locale, and switcher label live in [src/lib/localeConfig.ts](../src/lib/localeConfig.ts). Read counts from `SUPPORTED_LOCALES`; do not copy the list anywhere else.
+The site carries one generic tag per language: a single `es`, and `nb` for Norwegian where the Android app and the stores use `no`. The locale set, its order, and each locale's direction, native and English names, and Open Graph locale live in [src/lib/localeConfig.ts](../src/lib/localeConfig.ts). Read counts from `SUPPORTED_LOCALES`; do not copy the list anywhere else.
 
 ## What is translated
 

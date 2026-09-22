@@ -107,305 +107,305 @@ export type LocaleDirection = "ltr" | "rtl";
 
 interface LocaleDefinition {
   readonly direction: LocaleDirection;
+  readonly englishName: string;
   readonly nativeName: string;
   readonly openGraphLocale: string;
-  readonly shortLabel: string;
 }
 
 const LOCALE_DEFINITIONS: Readonly<Record<AppLocale, LocaleDefinition>> = {
   en: {
     direction: "ltr",
+    englishName: "English",
     nativeName: "English",
     openGraphLocale: "en_US",
-    shortLabel: "EN",
   },
   es: {
     direction: "ltr",
+    englishName: "Spanish",
     nativeName: "Español",
     openGraphLocale: "es_ES",
-    shortLabel: "ES",
   },
   ar: {
     direction: "rtl",
+    englishName: "Arabic",
     nativeName: "العربية",
     openGraphLocale: "ar_SA",
-    shortLabel: "AR",
   },
   de: {
     direction: "ltr",
+    englishName: "German",
     nativeName: "Deutsch",
     openGraphLocale: "de_DE",
-    shortLabel: "DE",
   },
   hi: {
     direction: "ltr",
+    englishName: "Hindi",
     nativeName: "हिन्दी",
     openGraphLocale: "hi_IN",
-    shortLabel: "HI",
   },
   ja: {
     direction: "ltr",
+    englishName: "Japanese",
     nativeName: "日本語",
     openGraphLocale: "ja_JP",
-    shortLabel: "JA",
   },
   fr: {
     direction: "ltr",
+    englishName: "French",
     nativeName: "Français",
     openGraphLocale: "fr_FR",
-    shortLabel: "FR",
   },
   pt: {
     direction: "ltr",
+    englishName: "Portuguese (Brazil)",
     nativeName: "Português (Brasil)",
     openGraphLocale: "pt_BR",
-    shortLabel: "PT",
   },
   ru: {
     direction: "ltr",
+    englishName: "Russian",
     nativeName: "Русский",
     openGraphLocale: "ru_RU",
-    shortLabel: "RU",
   },
   zh: {
     direction: "ltr",
+    englishName: "Chinese (Simplified)",
     nativeName: "简体中文",
     openGraphLocale: "zh_CN",
-    shortLabel: "ZH",
   },
   it: {
     direction: "ltr",
+    englishName: "Italian",
     nativeName: "Italiano",
     openGraphLocale: "it_IT",
-    shortLabel: "IT",
   },
   ko: {
     direction: "ltr",
+    englishName: "Korean",
     nativeName: "한국어",
     openGraphLocale: "ko_KR",
-    shortLabel: "KO",
   },
   id: {
     direction: "ltr",
+    englishName: "Indonesian",
     nativeName: "Bahasa Indonesia",
     openGraphLocale: "id_ID",
-    shortLabel: "ID",
   },
   tr: {
     direction: "ltr",
+    englishName: "Turkish",
     nativeName: "Türkçe",
     openGraphLocale: "tr_TR",
-    shortLabel: "TR",
   },
   nl: {
     direction: "ltr",
+    englishName: "Dutch",
     nativeName: "Nederlands",
     openGraphLocale: "nl_NL",
-    shortLabel: "NL",
   },
   pl: {
     direction: "ltr",
+    englishName: "Polish",
     nativeName: "Polski",
     openGraphLocale: "pl_PL",
-    shortLabel: "PL",
   },
   vi: {
     direction: "ltr",
+    englishName: "Vietnamese",
     nativeName: "Tiếng Việt",
     openGraphLocale: "vi_VN",
-    shortLabel: "VI",
   },
   th: {
     direction: "ltr",
+    englishName: "Thai",
     nativeName: "ไทย",
     openGraphLocale: "th_TH",
-    shortLabel: "TH",
   },
   uk: {
     direction: "ltr",
+    englishName: "Ukrainian",
     nativeName: "Українська",
     openGraphLocale: "uk_UA",
-    shortLabel: "UK",
   },
   he: {
     direction: "rtl",
+    englishName: "Hebrew",
     nativeName: "עברית",
     openGraphLocale: "he_IL",
-    shortLabel: "HE",
   },
   sv: {
     direction: "ltr",
+    englishName: "Swedish",
     nativeName: "Svenska",
     openGraphLocale: "sv_SE",
-    shortLabel: "SV",
   },
   da: {
     direction: "ltr",
+    englishName: "Danish",
     nativeName: "Dansk",
     openGraphLocale: "da_DK",
-    shortLabel: "DA",
   },
   nb: {
     direction: "ltr",
+    englishName: "Norwegian Bokmål",
     nativeName: "Norsk bokmål",
     openGraphLocale: "nb_NO",
-    shortLabel: "NB",
   },
   fi: {
     direction: "ltr",
+    englishName: "Finnish",
     nativeName: "Suomi",
     openGraphLocale: "fi_FI",
-    shortLabel: "FI",
   },
   cs: {
     direction: "ltr",
+    englishName: "Czech",
     nativeName: "Čeština",
     openGraphLocale: "cs_CZ",
-    shortLabel: "CS",
   },
   el: {
     direction: "ltr",
+    englishName: "Greek",
     nativeName: "Ελληνικά",
     openGraphLocale: "el_GR",
-    shortLabel: "EL",
   },
   ro: {
     direction: "ltr",
+    englishName: "Romanian",
     nativeName: "Română",
     openGraphLocale: "ro_RO",
-    shortLabel: "RO",
   },
   hu: {
     direction: "ltr",
+    englishName: "Hungarian",
     nativeName: "Magyar",
     openGraphLocale: "hu_HU",
-    shortLabel: "HU",
   },
   fa: {
     direction: "rtl",
+    englishName: "Persian",
     nativeName: "فارسی",
     openGraphLocale: "fa_IR",
-    shortLabel: "FA",
   },
   ca: {
     direction: "ltr",
+    englishName: "Catalan",
     nativeName: "Català",
     openGraphLocale: "ca_ES",
-    shortLabel: "CA",
   },
   bn: {
     direction: "ltr",
+    englishName: "Bengali",
     nativeName: "বাংলা",
     openGraphLocale: "bn_IN",
-    shortLabel: "BN",
   },
   gu: {
     direction: "ltr",
+    englishName: "Gujarati",
     nativeName: "ગુજરાતી",
     openGraphLocale: "gu_IN",
-    shortLabel: "GU",
   },
   kn: {
     direction: "ltr",
+    englishName: "Kannada",
     nativeName: "ಕನ್ನಡ",
     openGraphLocale: "kn_IN",
-    shortLabel: "KN",
   },
   ml: {
     direction: "ltr",
+    englishName: "Malayalam",
     nativeName: "മലയാളം",
     openGraphLocale: "ml_IN",
-    shortLabel: "ML",
   },
   mr: {
     direction: "ltr",
+    englishName: "Marathi",
     nativeName: "मराठी",
     openGraphLocale: "mr_IN",
-    shortLabel: "MR",
   },
   pa: {
     direction: "ltr",
+    englishName: "Punjabi",
     nativeName: "ਪੰਜਾਬੀ",
     openGraphLocale: "pa_IN",
-    shortLabel: "PA",
   },
   ta: {
     direction: "ltr",
+    englishName: "Tamil",
     nativeName: "தமிழ்",
     openGraphLocale: "ta_IN",
-    shortLabel: "TA",
   },
   te: {
     direction: "ltr",
+    englishName: "Telugu",
     nativeName: "తెలుగు",
     openGraphLocale: "te_IN",
-    shortLabel: "TE",
   },
   ur: {
     direction: "rtl",
+    englishName: "Urdu",
     nativeName: "اردو",
     openGraphLocale: "ur_PK",
-    shortLabel: "UR",
   },
   sw: {
     direction: "ltr",
+    englishName: "Swahili",
     nativeName: "Kiswahili",
     openGraphLocale: "sw_KE",
-    shortLabel: "SW",
   },
   bg: {
     direction: "ltr",
+    englishName: "Bulgarian",
     nativeName: "Български",
     openGraphLocale: "bg_BG",
-    shortLabel: "BG",
   },
   et: {
     direction: "ltr",
+    englishName: "Estonian",
     nativeName: "Eesti",
     openGraphLocale: "et_EE",
-    shortLabel: "ET",
   },
   hr: {
     direction: "ltr",
+    englishName: "Croatian",
     nativeName: "Hrvatski",
     openGraphLocale: "hr_HR",
-    shortLabel: "HR",
   },
   is: {
     direction: "ltr",
+    englishName: "Icelandic",
     nativeName: "Íslenska",
     openGraphLocale: "is_IS",
-    shortLabel: "IS",
   },
   lt: {
     direction: "ltr",
+    englishName: "Lithuanian",
     nativeName: "Lietuvių",
     openGraphLocale: "lt_LT",
-    shortLabel: "LT",
   },
   lv: {
     direction: "ltr",
+    englishName: "Latvian",
     nativeName: "Latviešu",
     openGraphLocale: "lv_LV",
-    shortLabel: "LV",
   },
   sk: {
     direction: "ltr",
+    englishName: "Slovak",
     nativeName: "Slovenčina",
     openGraphLocale: "sk_SK",
-    shortLabel: "SK",
   },
   sl: {
     direction: "ltr",
+    englishName: "Slovenian",
     nativeName: "Slovenščina",
     openGraphLocale: "sl_SI",
-    shortLabel: "SL",
   },
   zu: {
     direction: "ltr",
+    englishName: "Zulu",
     nativeName: "isiZulu",
     openGraphLocale: "zu_ZA",
-    shortLabel: "ZU",
   },
 };
 
@@ -433,10 +433,10 @@ export function getIntlLocale(locale: AppLocale): string {
   return LOCALE_DEFINITIONS[locale].openGraphLocale.replace("_", "-");
 }
 
-export function getLocaleShortLabel(locale: AppLocale): string {
-  return LOCALE_DEFINITIONS[locale].shortLabel;
-}
-
 export function getLocaleNativeName(locale: AppLocale): string {
   return LOCALE_DEFINITIONS[locale].nativeName;
+}
+
+export function getLocaleEnglishName(locale: AppLocale): string {
+  return LOCALE_DEFINITIONS[locale].englishName;
 }
