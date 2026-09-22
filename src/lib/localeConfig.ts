@@ -409,6 +409,20 @@ const LOCALE_DEFINITIONS: Readonly<Record<AppLocale, LocaleDefinition>> = {
   },
 };
 
+/** Common alternative names the locale switcher search also matches. */
+const LOCALE_SEARCH_ALIASES: Readonly<Partial<Record<AppLocale, ReadonlyArray<string>>>> = {
+  bn: ["Bangla"],
+  ca: ["Valencian"],
+  el: ["Hellenic"],
+  es: ["Castilian", "Castellano"],
+  fa: ["Farsi"],
+  nl: ["Flemish"],
+  pa: ["Panjabi"],
+  pt: ["Brazilian"],
+  sl: ["Slovene"],
+  zh: ["Mandarin"],
+};
+
 export function isSupportedLocale(value: string): value is AppLocale {
   return SUPPORTED_LOCALES.includes(value as AppLocale);
 }
@@ -439,4 +453,8 @@ export function getLocaleNativeName(locale: AppLocale): string {
 
 export function getLocaleEnglishName(locale: AppLocale): string {
   return LOCALE_DEFINITIONS[locale].englishName;
+}
+
+export function getLocaleSearchAliases(locale: AppLocale): ReadonlyArray<string> {
+  return LOCALE_SEARCH_ALIASES[locale] ?? [];
 }
