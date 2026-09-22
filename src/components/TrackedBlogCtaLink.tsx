@@ -1,6 +1,7 @@
 "use client";
 
 import { track } from "@vercel/analytics";
+import { reportSiteAppEntryClick } from "@/lib/appEntryTracking";
 import type { AppLocale } from "@/lib/i18n";
 import { getExternalLinkAttributes } from "@/lib/linkTargets";
 
@@ -27,6 +28,7 @@ export function TrackedBlogCtaLink({
       placement,
       locale,
     });
+    reportSiteAppEntryClick("web_app", locale, placement);
   };
 
   return (

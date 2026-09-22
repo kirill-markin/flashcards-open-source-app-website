@@ -1,7 +1,12 @@
 "use client";
 
 import { track } from "@vercel/analytics";
+import {
+  getStoreAppEntryTarget,
+  reportSiteAppEntryClick,
+} from "@/lib/appEntryTracking";
 import type { StoreAnalyticsPlatform } from "@/lib/humanPlatforms";
+import type { AppLocale } from "@/lib/i18n";
 import { StoreQrHoverLink } from "./StoreQrHoverLink";
 
 const STORE_LINK_PLACEMENT = "footer";
@@ -10,6 +15,7 @@ interface TrackedStoreLinkProps {
   readonly hint: string;
   readonly href: string;
   readonly label: string;
+  readonly locale: AppLocale;
   readonly platform: StoreAnalyticsPlatform;
   readonly qrSvgMarkup: string;
 }
@@ -18,6 +24,7 @@ export const TrackedStoreLink: React.FC<TrackedStoreLinkProps> = ({
   hint,
   href,
   label,
+  locale,
   platform,
   qrSvgMarkup,
 }) => {
@@ -26,6 +33,11 @@ export const TrackedStoreLink: React.FC<TrackedStoreLinkProps> = ({
       platform,
       placement: STORE_LINK_PLACEMENT,
     });
+    reportSiteAppEntryClick(
+      getStoreAppEntryTarget(platform),
+      locale,
+      STORE_LINK_PLACEMENT,
+    );
   };
 
   return (
