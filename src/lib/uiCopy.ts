@@ -4258,7 +4258,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       lastUpdatedLabel: "Utoljára frissítve",
     },
     locale: {
-      searchEmptyLabel: "Nincs ilyen nyelv",
+      searchEmptyLabel: "Nem található nyelv",
       searchPlaceholder: "Nyelv keresése",
       switcherAriaLabel: "Nyelvválasztó",
     },
