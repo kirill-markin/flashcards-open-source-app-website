@@ -95,6 +95,7 @@ export const Footer: React.FC<FooterProps> = ({
                       hint={uiCopy.platforms.scanQrHint}
                       href={platform.href}
                       label={platform.label}
+                      locale={locale}
                       platform={platform.analytics.platform}
                       qrSvgMarkup={storeQrCodes[platform.analytics.platform]}
                     />
