@@ -29,7 +29,9 @@ interface AnalyticsConsentBannerProps {
  * A strip along the bottom rather than a modal. The page underneath stays readable, because a banner
  * that blocks the page is one people click through to get rid of, and an answer given to make
  * something go away is not much of an answer. Nothing is pre-selected, dismissing it is not offered
- * at all, and the two buttons sit side by side on one layer so neither is the easy one.
+ * at all, and the two buttons sit side by side on one layer at the same size. Allow wears the site's
+ * accent like every primary action here; Decline stays a full, legible button, so refusing is never
+ * harder to find or to press than agreeing.
  */
 export function AnalyticsConsentBanner({
   locale,
@@ -135,7 +137,7 @@ export function AnalyticsConsentBanner({
         </div>
         <div className={styles.actions}>
           <button
-            className={styles.action}
+            className={`${styles.action} ${styles.allowAction}`}
             data-testid="analytics-consent-allow"
             disabled={isSubmitting}
             onClick={() => void allowAnalytics()}
