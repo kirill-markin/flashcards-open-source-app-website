@@ -49,6 +49,9 @@
   max-block-size: calc(100dvh - 140px);
   overflow-y: auto;
   overscroll-behavior: contain;
+  /* Keeps focused links below the sticky search bar (8px + 38px + 8px). The
+     empty-state line never shows alongside links, so it is not counted. */
+  scroll-padding-block-start: 54px;
   padding: 8px;
   border: 1px solid var(--border);
   border-radius: 18px;
