@@ -1,7 +1,10 @@
 /* The popover is positioned against the footer's bottom row (the full-width
    locale picker on mobile), not the switcher, so its width is bounded by the
-   footer and it cannot leave the viewport. */
+   footer and it cannot leave the viewport. The trigger is bottom-aligned in
+   that row, so the popover offset clears the single-line trigger height. */
 .switcher {
+  --trigger-block-size: 42px;
+  --menu-gap: 8px;
   display: inline-grid;
 }
 
@@ -10,7 +13,7 @@
   align-items: center;
   justify-content: center;
   gap: 10px;
-  min-block-size: 42px;
+  min-block-size: var(--trigger-block-size);
   padding-inline: 14px;
   border: 1px solid var(--border);
   border-radius: var(--radius-pill);
@@ -42,7 +45,7 @@
 
 .menuWrapper {
   position: absolute;
-  inset-block-end: calc(100% + 10px);
+  inset-block-end: calc(var(--trigger-block-size) + var(--menu-gap));
   inset-inline-end: 0;
   z-index: 20;
   display: flex;
@@ -201,6 +204,10 @@
 
   .chevron {
     margin-inline-start: auto;
+  }
+
+  .menuWrapper {
+    inset-block-end: calc(100% + var(--menu-gap));
   }
 
   .menu {
