@@ -130,7 +130,8 @@ export function LocaleSwitcherSearch({
     };
 
     const handleKeyDown = (event: KeyboardEvent): void => {
-      if (!details.open || event.isComposing) {
+      // Safari fires compositionend before the confirming keydown, which then has keyCode 229.
+      if (!details.open || event.isComposing || event.keyCode === 229) {
         return;
       }
 
