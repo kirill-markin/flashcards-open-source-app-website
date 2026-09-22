@@ -44,6 +44,7 @@ import {
   getPublicCatalogRootUrl,
 } from "@/lib/publicCatalogUrls";
 import { createPublicCatalogPackageJsonLd } from "@/lib/seo/publicCatalogStructuredData";
+import { SITE_PACKAGE_VERSION_ID_ATTRIBUTE } from "@/lib/siteAnalyticsCollector";
 import styles from "@/app/catalog/packages/[packageSlug]/page.module.css";
 
 interface PublicCatalogPackagePageViewProps {
@@ -277,7 +278,10 @@ export async function PublicCatalogPackagePageView({
       routeLocales={getPublicCatalogPackagePageLocales()}
       routePathname={packageRoutePathname}
     >
-      <article className={styles.container}>
+      <article
+        className={styles.container}
+        {...{ [SITE_PACKAGE_VERSION_ID_ATTRIBUTE]: latestVersion.packageVersionId }}
+      >
         <StructuredDataScript
           value={createPublicCatalogPackageJsonLd(collections, locale, packageView)}
         />
