@@ -45,13 +45,11 @@
   inset-block-end: calc(100% + 10px);
   inset-inline-end: 0;
   z-index: 20;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
   inline-size: min(100%, 64rem);
   max-block-size: calc(100dvh - 140px);
-  overflow-y: auto;
-  overscroll-behavior: contain;
-  /* Keeps focused links below the sticky search bar (8px + 38px + 8px). The
-     empty-state line never shows alongside links, so it is not counted. */
-  scroll-padding-block-start: 54px;
   padding: 8px;
   border: 1px solid var(--border);
   border-radius: 18px;
@@ -59,15 +57,20 @@
   box-shadow: var(--shadow-soft);
 }
 
-/* Sticks flush to the scrollport top; the negative margin cancels the
-   wrapper padding so resting and stuck positions match. */
+/* The search bar sits above the list instead of floating over it; only the
+   list scrolls. The padding leaves room for the field's focus outline. */
 .search {
-  position: sticky;
-  inset-block-start: 0;
-  z-index: 1;
-  margin-block: -8px 0;
-  padding-block: 8px;
-  background: var(--surface);
+  flex: none;
+  padding: 4px;
+}
+
+/* Scrolls the list on short viewports. The height cap lives here rather than
+   on the columned list, which would otherwise add columns sideways. */
+.menuScroll {
+  flex: 1 1 auto;
+  min-block-size: 0;
+  overflow-y: auto;
+  overscroll-behavior: contain;
 }
 
 .searchField {
