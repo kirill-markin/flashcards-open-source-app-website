@@ -53,7 +53,11 @@
   gap: 10px;
 }
 
-/* Both answers on one layer, with the same weight: neither is the easy one. */
+/*
+ * Both answers on one layer, the same size and the same shape. Allow carries the site's accent,
+ * the way every primary action here does; Decline stays a full, legible button beside it, so
+ * refusing is never harder to find or to press than agreeing.
+ */
 .action {
   display: inline-flex;
   align-items: center;
@@ -74,6 +78,13 @@
     transform 140ms ease;
 }
 
+.allowAction {
+  border-color: var(--accent);
+  background: var(--accent);
+  color: var(--accent-foreground);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.14);
+}
+
 .action:disabled {
   cursor: default;
   opacity: 0.6;
@@ -91,6 +102,11 @@
   .action:hover:not(:disabled) {
     background: var(--surface-hover);
     transform: translateY(-1px);
+  }
+
+  .allowAction:hover:not(:disabled) {
+    border-color: var(--accent-strong);
+    background: var(--accent-strong);
   }
 }
 
