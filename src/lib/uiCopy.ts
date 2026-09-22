@@ -155,7 +155,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       off: "Off",
       on: "On",
       title: "Analytics",
-      toggleDescription: "When this is off, this site gives this browser no identifier and stores nothing for analytics.",
+      toggleDescription: "When this is off, this site gives this browser no identifier and keeps nothing on it for analytics. Visits and clicks are still counted anonymously, with nothing that identifies you.",
       toggleTitle: "Allow analytics cookies",
     },
     auth: {
@@ -301,7 +301,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       off: "Desactivado",
       on: "Activado",
       title: "Analítica",
-      toggleDescription: "Cuando está desactivado, este sitio no da ningún identificador a este navegador y no guarda nada para analítica.",
+      toggleDescription: "Cuando está desactivado, este sitio no da ningún identificador a este navegador y no guarda nada en él para analítica. Las visitas y los clics se siguen contando de forma anónima, sin nada que te identifique.",
       toggleTitle: "Permitir cookies de analítica",
     },
     auth: {
@@ -447,7 +447,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       off: "متوقف",
       on: "مفعّل",
       title: "التحليلات",
-      toggleDescription: "عند إيقافه، لا يمنح هذا الموقع هذا المتصفح أي معرّف ولا يخزّن شيئًا لأغراض التحليلات.",
+      toggleDescription: "عند إيقافه، لا يمنح هذا الموقع هذا المتصفح أي معرّف ولا يخزّن فيه شيئًا لأغراض التحليلات. تظل الزيارات والنقرات تُحتسب بشكل مجهول الهوية، دون أي شيء يعرّف بك.",
       toggleTitle: "السماح بملفات تعريف الارتباط للتحليلات",
     },
     auth: {
@@ -592,7 +592,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       off: "Aus",
       on: "An",
       title: "Analyse",
-      toggleDescription: "Wenn dies aus ist, gibt diese Website diesem Browser keine Kennung und speichert nichts für Analysen.",
+      toggleDescription: "Wenn dies aus ist, gibt diese Website diesem Browser keine Kennung und speichert darin nichts für Analysen. Besuche und Klicks werden weiterhin anonym gezählt, ohne etwas, was dich identifiziert.",
       toggleTitle: "Analyse-Cookies erlauben",
     },
     auth: {
@@ -738,7 +738,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       off: "बंद",
       on: "चालू",
       title: "एनालिटिक्स",
-      toggleDescription: "बंद होने पर यह साइट इस ब्राउज़र को कोई पहचानकर्ता नहीं देती और एनालिटिक्स के लिए कुछ भी सेव नहीं करती।",
+      toggleDescription: "बंद होने पर यह साइट इस ब्राउज़र को कोई पहचानकर्ता नहीं देती और एनालिटिक्स के लिए इसमें कुछ भी सेव नहीं करती। विज़िट और क्लिक अब भी गुमनाम रूप से गिने जाते हैं, आपकी पहचान बताने वाली किसी भी चीज़ के बिना।",
       toggleTitle: "एनालिटिक्स कुकीज़ की अनुमति दें",
     },
     auth: {
@@ -884,7 +884,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       off: "オフ",
       on: "オン",
       title: "分析",
-      toggleDescription: "オフのとき、このサイトはこのブラウザーに識別子を与えず、分析のために何も保存しません。",
+      toggleDescription: "オフのとき、このサイトはこのブラウザーに識別子を与えず、分析のためにブラウザーに何も保存しません。訪問とクリックは引き続き匿名で集計され、あなたを特定できるものは含まれません。",
       toggleTitle: "分析用Cookieを許可",
     },
     auth: {
@@ -1030,7 +1030,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       off: "Désactivé",
       on: "Activé",
       title: "Mesure d'audience",
-      toggleDescription: "Quand c'est désactivé, ce site ne donne aucun identifiant à ce navigateur et ne stocke rien à des fins de mesure.",
+      toggleDescription: "Quand c'est désactivé, ce site ne donne aucun identifiant à ce navigateur et n'y stocke rien à des fins de mesure. Les visites et les clics restent comptés de façon anonyme, sans rien qui vous identifie.",
       toggleTitle: "Autoriser les cookies de mesure",
     },
     auth: {
@@ -1176,7 +1176,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       off: "Desligado",
       on: "Ligado",
       title: "Análise",
-      toggleDescription: "Quando está desligado, este site não dá nenhum identificador a este navegador e não guarda nada para análise.",
+      toggleDescription: "Quando está desligado, este site não dá nenhum identificador a este navegador e não guarda nada nele para análise. Visitas e cliques continuam sendo contados de forma anônima, sem nada que identifique você.",
       toggleTitle: "Permitir cookies de análise",
     },
     auth: {
@@ -1322,7 +1322,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       off: "Выкл.",
       on: "Вкл.",
       title: "Аналитика",
-      toggleDescription: "Когда выключено, сайт не выдаёт этому браузеру идентификатор и ничего не сохраняет для аналитики.",
+      toggleDescription: "Когда выключено, сайт не выдаёт этому браузеру идентификатор и ничего не сохраняет в нём для аналитики. Посещения и клики по-прежнему считаются анонимно, без данных, по которым можно узнать вас.",
       toggleTitle: "Разрешить аналитические cookie",
     },
     auth: {
@@ -1468,7 +1468,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       off: "关闭",
       on: "开启",
       title: "分析",
-      toggleDescription: "关闭后，本网站不会给此浏览器任何标识符，也不会为分析存储任何内容。",
+      toggleDescription: "关闭后，本网站不会给此浏览器任何标识符，也不会为分析在其中存储任何内容。访问和点击仍会以匿名方式统计，不含任何能识别你的信息。",
       toggleTitle: "允许分析 Cookie",
     },
     auth: {
@@ -1611,7 +1611,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       off: "Disattivo",
       on: "Attivo",
       title: "Analisi",
-      toggleDescription: "Quando è disattivato, questo sito non assegna alcun identificatore a questo browser e non memorizza nulla per le analisi.",
+      toggleDescription: "Quando è disattivato, questo sito non assegna alcun identificatore a questo browser e non vi memorizza nulla per le analisi. Visite e clic vengono comunque conteggiati in forma anonima, senza nulla che ti identifichi.",
       toggleTitle: "Consenti i cookie di analisi",
     },
     auth: {
@@ -1757,7 +1757,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       off: "끔",
       on: "켬",
       title: "분석",
-      toggleDescription: "꺼져 있으면 이 사이트는 이 브라우저에 식별자를 부여하지 않고 분석을 위해 아무것도 저장하지 않습니다.",
+      toggleDescription: "꺼져 있으면 이 사이트는 이 브라우저에 식별자를 부여하지 않고 분석을 위해 브라우저에 아무것도 저장하지 않습니다. 방문과 클릭은 계속 익명으로 집계되며, 신원을 알 수 있는 정보는 포함되지 않습니다.",
       toggleTitle: "분석 쿠키 허용",
     },
     auth: {
@@ -1903,7 +1903,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       off: "Nonaktif",
       on: "Aktif",
       title: "Analitik",
-      toggleDescription: "Saat nonaktif, situs ini tidak memberi pengenal apa pun pada peramban ini dan tidak menyimpan apa pun untuk analitik.",
+      toggleDescription: "Saat nonaktif, situs ini tidak memberi pengenal apa pun pada peramban ini dan tidak menyimpan apa pun di dalamnya untuk analitik. Kunjungan dan klik tetap dihitung secara anonim, tanpa apa pun yang mengidentifikasi Anda.",
       toggleTitle: "Izinkan cookie analitik",
     },
     auth: {
@@ -2049,7 +2049,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       off: "Kapalı",
       on: "Açık",
       title: "Analiz",
-      toggleDescription: "Kapalıyken bu site bu tarayıcıya hiçbir tanımlayıcı vermez ve analiz için hiçbir şey saklamaz.",
+      toggleDescription: "Kapalıyken bu site bu tarayıcıya hiçbir tanımlayıcı vermez ve analiz için tarayıcıda hiçbir şey saklamaz. Ziyaretler ve tıklamalar, sizi tanımlayan hiçbir şey olmadan yine de anonim olarak sayılır.",
       toggleTitle: "Analiz çerezlerine izin ver",
     },
     auth: {
@@ -2195,7 +2195,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       off: "Uit",
       on: "Aan",
       title: "Analyse",
-      toggleDescription: "Als dit uit staat, geeft deze site deze browser geen identificatie en slaat hij niets op voor analyse.",
+      toggleDescription: "Als dit uit staat, geeft deze site deze browser geen identificatie en slaat hij er niets in op voor analyse. Bezoeken en klikken worden nog steeds anoniem geteld, zonder iets waarmee je te herkennen bent.",
       toggleTitle: "Analytische cookies toestaan",
     },
     auth: {
@@ -2341,7 +2341,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       off: "Wył.",
       on: "Wł.",
       title: "Analityka",
-      toggleDescription: "Gdy jest wyłączone, witryna nie nadaje tej przeglądarce żadnego identyfikatora i nic nie zapisuje na potrzeby analityki.",
+      toggleDescription: "Gdy jest wyłączone, witryna nie nadaje tej przeglądarce żadnego identyfikatora i nic w niej nie zapisuje na potrzeby analityki. Wizyty i kliknięcia są nadal liczone anonimowo, bez niczego, co Cię identyfikuje.",
       toggleTitle: "Zezwalaj na analityczne pliki cookie",
     },
     auth: {
@@ -2487,7 +2487,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       off: "Tắt",
       on: "Bật",
       title: "Phân tích",
-      toggleDescription: "Khi tắt, trang web không cấp cho trình duyệt này bất kỳ mã nhận dạng nào và không lưu gì cho việc phân tích.",
+      toggleDescription: "Khi tắt, trang web không cấp cho trình duyệt này bất kỳ mã nhận dạng nào và không lưu gì trên đó cho việc phân tích. Lượt truy cập và lượt nhấp vẫn được đếm ẩn danh, không kèm thông tin nào nhận dạng bạn.",
       toggleTitle: "Cho phép cookie phân tích",
     },
     auth: {
@@ -2633,7 +2633,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       off: "ปิด",
       on: "เปิด",
       title: "การวิเคราะห์",
-      toggleDescription: "เมื่อปิดอยู่ เว็บไซต์นี้จะไม่ให้ตัวระบุใดแก่เบราว์เซอร์นี้ และไม่เก็บข้อมูลใดเพื่อการวิเคราะห์",
+      toggleDescription: "เมื่อปิดอยู่ เว็บไซต์นี้จะไม่ให้ตัวระบุใดแก่เบราว์เซอร์นี้ และไม่เก็บข้อมูลใดไว้ในเบราว์เซอร์เพื่อการวิเคราะห์ การเข้าชมและการคลิกยังคงถูกนับแบบไม่ระบุตัวตน โดยไม่มีข้อมูลที่ระบุตัวคุณ",
       toggleTitle: "อนุญาตคุกกี้วิเคราะห์",
     },
     auth: {
@@ -2779,7 +2779,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       off: "Вимк.",
       on: "Увімк.",
       title: "Аналітика",
-      toggleDescription: "Коли вимкнено, сайт не надає цьому браузеру ідентифікатора й нічого не зберігає для аналітики.",
+      toggleDescription: "Коли вимкнено, сайт не надає цьому браузеру ідентифікатора й нічого не зберігає в ньому для аналітики. Відвідування та кліки все одно враховуються анонімно, без даних, які вас ідентифікують.",
       toggleTitle: "Дозволити аналітичні cookie",
     },
     auth: {
@@ -2925,7 +2925,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       off: "כבוי",
       on: "פעיל",
       title: "ניתוח",
-      toggleDescription: "כשזה כבוי, האתר לא נותן לדפדפן הזה שום מזהה ולא שומר דבר לצורכי ניתוח.",
+      toggleDescription: "כשזה כבוי, האתר לא נותן לדפדפן הזה שום מזהה ולא שומר בו דבר לצורכי ניתוח. ביקורים והקלקות עדיין נספרים באופן אנונימי, בלי שום מידע שמזהה אותך.",
       toggleTitle: "לאפשר עוגיות ניתוח",
     },
     auth: {
@@ -3071,7 +3071,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       off: "Av",
       on: "På",
       title: "Analys",
-      toggleDescription: "När det här är av ger den här webbplatsen ingen identifierare till den här webbläsaren och sparar ingenting för analys.",
+      toggleDescription: "När det här är av ger den här webbplatsen ingen identifierare till den här webbläsaren och sparar ingenting i den för analys. Besök och klick räknas fortfarande anonymt, utan något som identifierar dig.",
       toggleTitle: "Tillåt analyscookies",
     },
     auth: {
@@ -3217,7 +3217,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       off: "Fra",
       on: "Til",
       title: "Analyse",
-      toggleDescription: "Når det her er slået fra, giver dette site ikke denne browser nogen identifikator og gemmer intet til analyse.",
+      toggleDescription: "Når det her er slået fra, giver dette site ikke denne browser nogen identifikator og gemmer intet i den til analyse. Besøg og klik tælles stadig anonymt, uden noget, der identificerer dig.",
       toggleTitle: "Tillad analysecookies",
     },
     auth: {
@@ -3363,7 +3363,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       off: "Av",
       on: "På",
       title: "Analyse",
-      toggleDescription: "Når dette er av, gir ikke dette nettstedet denne nettleseren noen identifikator og lagrer ingenting for analyse.",
+      toggleDescription: "Når dette er av, gir ikke dette nettstedet denne nettleseren noen identifikator og lagrer ingenting i den for analyse. Besøk og klikk telles fortsatt anonymt, uten noe som identifiserer deg.",
       toggleTitle: "Tillat informasjonskapsler for analyse",
     },
     auth: {
@@ -3509,7 +3509,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       off: "Pois",
       on: "Päällä",
       title: "Analytiikka",
-      toggleDescription: "Kun tämä on pois päältä, tämä sivusto ei anna tälle selaimelle tunnistetta eikä tallenna mitään analytiikkaa varten.",
+      toggleDescription: "Kun tämä on pois päältä, tämä sivusto ei anna tälle selaimelle tunnistetta eikä tallenna siihen mitään analytiikkaa varten. Käynnit ja klikkaukset lasketaan silti nimettömästi, ilman mitään, mikä tunnistaa sinut.",
       toggleTitle: "Salli analytiikkaevästeet",
     },
     auth: {
@@ -3655,7 +3655,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       off: "Vypnuto",
       on: "Zapnuto",
       title: "Analytika",
-      toggleDescription: "Když je tohle vypnuté, tento web nedává tomuto prohlížeči žádný identifikátor a nic pro analytiku neukládá.",
+      toggleDescription: "Když je tohle vypnuté, tento web nedává tomuto prohlížeči žádný identifikátor a nic do něj pro analytiku neukládá. Návštěvy a kliknutí se dál počítají anonymně, bez čehokoli, co by vás identifikovalo.",
       toggleTitle: "Povolit analytické cookies",
     },
     auth: {
@@ -3801,7 +3801,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       off: "Ανενεργό",
       on: "Ενεργό",
       title: "Ανάλυση",
-      toggleDescription: "Όταν αυτό είναι ανενεργό, αυτός ο ιστότοπος δεν δίνει κανένα αναγνωριστικό σε αυτό το πρόγραμμα περιήγησης και δεν αποθηκεύει τίποτα για ανάλυση.",
+      toggleDescription: "Όταν αυτό είναι ανενεργό, αυτός ο ιστότοπος δεν δίνει κανένα αναγνωριστικό σε αυτό το πρόγραμμα περιήγησης και δεν αποθηκεύει τίποτα σε αυτό για ανάλυση. Οι επισκέψεις και τα κλικ εξακολουθούν να μετρώνται ανώνυμα, χωρίς τίποτα που να σας ταυτοποιεί.",
       toggleTitle: "Να επιτρέπονται τα cookies ανάλυσης",
     },
     auth: {
@@ -3947,7 +3947,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       off: "Dezactivat",
       on: "Activat",
       title: "Analiză",
-      toggleDescription: "Când este dezactivat, acest site nu dă niciun identificator acestui browser și nu stochează nimic pentru analiză.",
+      toggleDescription: "Când este dezactivat, acest site nu dă niciun identificator acestui browser și nu stochează nimic în el pentru analiză. Vizitele și clicurile sunt în continuare numărate anonim, fără nimic care să te identifice.",
       toggleTitle: "Permite cookie-urile de analiză",
     },
     auth: {
@@ -4093,7 +4093,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       off: "Ki",
       on: "Be",
       title: "Analitika",
-      toggleDescription: "Ha ez ki van kapcsolva, ez az oldal nem ad azonosítót ennek a böngészőnek, és semmit nem tárol analitika céljából.",
+      toggleDescription: "Ha ez ki van kapcsolva, ez az oldal nem ad azonosítót ennek a böngészőnek, és semmit nem tárol benne analitika céljából. A látogatásokat és a kattintásokat továbbra is névtelenül számoljuk, anélkül, hogy bármi azonosítana téged.",
       toggleTitle: "Analitikai sütik engedélyezése",
     },
     auth: {
@@ -4239,7 +4239,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       off: "خاموش",
       on: "روشن",
       title: "تحلیل",
-      toggleDescription: "وقتی این خاموش باشد، این سایت هیچ شناسه‌ای به این مرورگر نمی‌دهد و چیزی برای تحلیل ذخیره نمی‌کند.",
+      toggleDescription: "وقتی این خاموش باشد، این سایت هیچ شناسه‌ای به این مرورگر نمی‌دهد و چیزی برای تحلیل در آن ذخیره نمی‌کند. بازدیدها و کلیک‌ها همچنان به‌صورت ناشناس شمرده می‌شوند، بدون هیچ چیزی که شما را شناسایی کند.",
       toggleTitle: "اجازهٔ کوکی‌های تحلیلی",
     },
     auth: {
@@ -4385,7 +4385,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       off: "Desactivat",
       on: "Activat",
       title: "Analítica",
-      toggleDescription: "Quan això està desactivat, aquest lloc no dona cap identificador a aquest navegador i no desa res per a analítica.",
+      toggleDescription: "Quan això està desactivat, aquest lloc no dona cap identificador a aquest navegador i no hi desa res per a analítica. Les visites i els clics es continuen comptant de manera anònima, sense res que t'identifiqui.",
       toggleTitle: "Permet les galetes d'analítica",
     },
     auth: {
@@ -4531,7 +4531,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       off: "বন্ধ",
       on: "চালু",
       title: "অ্যানালিটিক্স",
-      toggleDescription: "এটি বন্ধ থাকলে এই সাইট এই ব্রাউজারকে কোনো শনাক্তকারী দেয় না এবং অ্যানালিটিক্সের জন্য কিছুই সেভ করে না।",
+      toggleDescription: "এটি বন্ধ থাকলে এই সাইট এই ব্রাউজারকে কোনো শনাক্তকারী দেয় না এবং অ্যানালিটিক্সের জন্য এতে কিছুই সেভ করে না। ভিজিট ও ক্লিক তবুও বেনামে গোনা হয়, আপনার পরিচয় জানায় এমন কিছু ছাড়াই।",
       toggleTitle: "অ্যানালিটিক্স কুকির অনুমতি দিন",
     },
     auth: {
@@ -4676,7 +4676,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       off: "બંધ",
       on: "ચાલુ",
       title: "એનાલિટિક્સ",
-      toggleDescription: "આ બંધ હોય ત્યારે આ સાઇટ આ બ્રાઉઝરને કોઈ ઓળખકર્તા આપતી નથી અને એનાલિટિક્સ માટે કંઈ સાચવતી નથી.",
+      toggleDescription: "આ બંધ હોય ત્યારે આ સાઇટ આ બ્રાઉઝરને કોઈ ઓળખકર્તા આપતી નથી અને એનાલિટિક્સ માટે તેમાં કંઈ સાચવતી નથી. મુલાકાતો અને ક્લિક્સ હજુ પણ અનામી રીતે ગણાય છે, તમારી ઓળખ આપે એવી કોઈ માહિતી વિના.",
       toggleTitle: "એનાલિટિક્સ કૂકીઝને મંજૂરી આપો",
     },
     auth: {
@@ -4822,7 +4822,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       off: "ಆಫ್",
       on: "ಆನ್",
       title: "ಅನಾಲಿಟಿಕ್ಸ್",
-      toggleDescription: "ಇದು ಆಫ್ ಆಗಿದ್ದಾಗ ಈ ಸೈಟ್ ಈ ಬ್ರೌಸರ್‌ಗೆ ಯಾವುದೇ ಗುರುತಿಸುವಿಕೆಯನ್ನು ನೀಡುವುದಿಲ್ಲ ಮತ್ತು ಅನಾಲಿಟಿಕ್ಸ್‌ಗಾಗಿ ಏನನ್ನೂ ಉಳಿಸುವುದಿಲ್ಲ.",
+      toggleDescription: "ಇದು ಆಫ್ ಆಗಿದ್ದಾಗ ಈ ಸೈಟ್ ಈ ಬ್ರೌಸರ್‌ಗೆ ಯಾವುದೇ ಗುರುತಿಸುವಿಕೆಯನ್ನು ನೀಡುವುದಿಲ್ಲ ಮತ್ತು ಅನಾಲಿಟಿಕ್ಸ್‌ಗಾಗಿ ಅದರಲ್ಲಿ ಏನನ್ನೂ ಉಳಿಸುವುದಿಲ್ಲ. ಭೇಟಿಗಳು ಮತ್ತು ಕ್ಲಿಕ್‌ಗಳನ್ನು ಈಗಲೂ ಅನಾಮಧೇಯವಾಗಿ ಎಣಿಸಲಾಗುತ್ತದೆ, ನಿಮ್ಮನ್ನು ಗುರುತಿಸುವ ಯಾವುದೂ ಇಲ್ಲದೆ.",
       toggleTitle: "ಅನಾಲಿಟಿಕ್ಸ್ ಕುಕೀಗಳನ್ನು ಅನುಮತಿಸಿ",
     },
     auth: {
@@ -4968,7 +4968,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       off: "ഓഫ്",
       on: "ഓൺ",
       title: "അനലിറ്റിക്സ്",
-      toggleDescription: "ഇത് ഓഫ് ആയിരിക്കുമ്പോൾ ഈ സൈറ്റ് ഈ ബ്രൗസറിന് ഒരു ഐഡന്റിഫയറും നൽകുന്നില്ല, അനലിറ്റിക്സിനായി ഒന്നും സൂക്ഷിക്കുന്നില്ല.",
+      toggleDescription: "ഇത് ഓഫ് ആയിരിക്കുമ്പോൾ ഈ സൈറ്റ് ഈ ബ്രൗസറിന് ഒരു ഐഡന്റിഫയറും നൽകുന്നില്ല, അനലിറ്റിക്സിനായി അതിൽ ഒന്നും സൂക്ഷിക്കുന്നില്ല. സന്ദർശനങ്ങളും ക്ലിക്കുകളും ഇപ്പോഴും അജ്ഞാതമായി എണ്ണുന്നുണ്ട്, നിങ്ങളെ തിരിച്ചറിയുന്ന ഒന്നുമില്ലാതെ.",
       toggleTitle: "അനലിറ്റിക്സ് കുക്കികൾ അനുവദിക്കുക",
     },
     auth: {
@@ -5118,7 +5118,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       off: "बंद",
       on: "सुरू",
       title: "ॲनालिटिक्स",
-      toggleDescription: "हे बंद असताना ही साइट या ब्राउझरला कोणताही ओळखकर्ता देत नाही आणि ॲनालिटिक्ससाठी काहीही साठवत नाही.",
+      toggleDescription: "हे बंद असताना ही साइट या ब्राउझरला कोणताही ओळखकर्ता देत नाही आणि ॲनालिटिक्ससाठी त्यात काहीही साठवत नाही. भेटी आणि क्लिक तरीही अनामिकपणे मोजले जातात, तुमची ओळख सांगणारी कोणतीही माहिती न घेता.",
       toggleTitle: "ॲनालिटिक्स कुकीजना परवानगी द्या",
     },
     auth: {
@@ -5263,7 +5263,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       off: "ਬੰਦ",
       on: "ਚਾਲੂ",
       title: "ਐਨਾਲਿਟਿਕਸ",
-      toggleDescription: "ਜਦੋਂ ਇਹ ਬੰਦ ਹੁੰਦਾ ਹੈ, ਇਹ ਸਾਈਟ ਇਸ ਬ੍ਰਾਊਜ਼ਰ ਨੂੰ ਕੋਈ ਪਛਾਣਕਰਤਾ ਨਹੀਂ ਦਿੰਦੀ ਅਤੇ ਐਨਾਲਿਟਿਕਸ ਲਈ ਕੁਝ ਵੀ ਨਹੀਂ ਸੰਭਾਲਦੀ।",
+      toggleDescription: "ਜਦੋਂ ਇਹ ਬੰਦ ਹੁੰਦਾ ਹੈ, ਇਹ ਸਾਈਟ ਇਸ ਬ੍ਰਾਊਜ਼ਰ ਨੂੰ ਕੋਈ ਪਛਾਣਕਰਤਾ ਨਹੀਂ ਦਿੰਦੀ ਅਤੇ ਐਨਾਲਿਟਿਕਸ ਲਈ ਇਸ ਵਿੱਚ ਕੁਝ ਵੀ ਨਹੀਂ ਸੰਭਾਲਦੀ। ਵਿਜ਼ਿਟਾਂ ਅਤੇ ਕਲਿੱਕਾਂ ਦੀ ਗਿਣਤੀ ਫਿਰ ਵੀ ਗੁਮਨਾਮ ਤਰੀਕੇ ਨਾਲ ਹੁੰਦੀ ਹੈ, ਤੁਹਾਡੀ ਪਛਾਣ ਦੱਸਣ ਵਾਲੀ ਕਿਸੇ ਵੀ ਚੀਜ਼ ਤੋਂ ਬਿਨਾਂ।",
       toggleTitle: "ਐਨਾਲਿਟਿਕਸ ਕੂਕੀਜ਼ ਦੀ ਇਜਾਜ਼ਤ ਦਿਓ",
     },
     auth: {
@@ -5408,7 +5408,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       off: "அணைப்பு",
       on: "இயக்கம்",
       title: "பகுப்பாய்வு",
-      toggleDescription: "இது அணைக்கப்பட்டிருக்கும்போது இந்தத் தளம் இந்த உலாவிக்கு எந்த அடையாளங்காட்டியையும் தருவதில்லை, பகுப்பாய்வுக்காக எதையும் சேமிப்பதில்லை.",
+      toggleDescription: "இது அணைக்கப்பட்டிருக்கும்போது இந்தத் தளம் இந்த உலாவிக்கு எந்த அடையாளங்காட்டியையும் தருவதில்லை, பகுப்பாய்வுக்காக அதில் எதையும் சேமிப்பதில்லை. வருகைகளும் கிளிக்குகளும் இப்போதும் அநாமதேயமாக எண்ணப்படுகின்றன, உங்களை அடையாளம் காட்டும் எதுவும் இல்லாமல்.",
       toggleTitle: "பகுப்பாய்வு குக்கீகளை அனுமதி",
     },
     auth: {
@@ -5556,7 +5556,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       off: "ఆఫ్",
       on: "ఆన్",
       title: "అనలిటిక్స్",
-      toggleDescription: "ఇది ఆఫ్‌లో ఉన్నప్పుడు ఈ సైట్ ఈ బ్రౌజర్‌కు ఎలాంటి ఐడెంటిఫైయర్ ఇవ్వదు, అనలిటిక్స్ కోసం ఏదీ సేవ్ చేయదు.",
+      toggleDescription: "ఇది ఆఫ్‌లో ఉన్నప్పుడు ఈ సైట్ ఈ బ్రౌజర్‌కు ఎలాంటి ఐడెంటిఫైయర్ ఇవ్వదు, అనలిటిక్స్ కోసం అందులో ఏదీ సేవ్ చేయదు. సందర్శనలు, క్లిక్‌లు ఇప్పటికీ అనామకంగా లెక్కించబడతాయి, మిమ్మల్ని గుర్తించే ఏదీ లేకుండా.",
       toggleTitle: "అనలిటిక్స్ కుకీలను అనుమతించండి",
     },
     auth: {
@@ -5703,7 +5703,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       off: "بند",
       on: "چالو",
       title: "اینالیٹکس",
-      toggleDescription: "جب یہ بند ہو تو یہ سائٹ اس براؤزر کو کوئی شناخت کنندہ نہیں دیتی اور اینالیٹکس کے لیے کچھ محفوظ نہیں کرتی۔",
+      toggleDescription: "جب یہ بند ہو تو یہ سائٹ اس براؤزر کو کوئی شناخت کنندہ نہیں دیتی اور اینالیٹکس کے لیے اس میں کچھ محفوظ نہیں کرتی۔ وزٹس اور کلکس پھر بھی گمنام طور پر گنے جاتے ہیں، ایسی کسی چیز کے بغیر جو آپ کی شناخت ظاہر کرے۔",
       toggleTitle: "اینالیٹکس کوکیز کی اجازت دیں",
     },
     auth: {
@@ -5849,7 +5849,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       off: "Imezimwa",
       on: "Imewashwa",
       title: "Uchanganuzi",
-      toggleDescription: "Inapozimwa, tovuti hii haitoi kitambulisho chochote kwa kivinjari hiki na haihifadhi chochote kwa ajili ya uchanganuzi.",
+      toggleDescription: "Inapozimwa, tovuti hii haitoi kitambulisho chochote kwa kivinjari hiki na haihifadhi chochote ndani yake kwa ajili ya uchanganuzi. Ziara na mibofyo bado huhesabiwa bila kujulikana, bila chochote kinachokutambulisha.",
       toggleTitle: "Ruhusu vidakuzi vya uchanganuzi",
     },
     auth: {
@@ -5996,7 +5996,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       off: "Изкл.",
       on: "Вкл.",
       title: "Анализи",
-      toggleDescription: "Когато е изключено, сайтът не дава идентификатор на този браузър и не запазва нищо за анализи.",
+      toggleDescription: "Когато е изключено, сайтът не дава идентификатор на този браузър и не запазва нищо в него за анализи. Посещенията и кликванията пак се отчитат анонимно, без нищо, което ви идентифицира.",
       toggleTitle: "Разрешаване на аналитични бисквитки",
     },
     auth: {
@@ -6142,7 +6142,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       off: "Väljas",
       on: "Sees",
       title: "Analüütika",
-      toggleDescription: "Kui see on väljas, ei anna see sait sellele brauserile identifikaatorit ega salvesta analüütika jaoks midagi.",
+      toggleDescription: "Kui see on väljas, ei anna see sait sellele brauserile identifikaatorit ega salvesta sinna analüütika jaoks midagi. Külastusi ja klikke loetakse siiski anonüümselt, ilma millegita, mis sind tuvastaks.",
       toggleTitle: "Luba analüütikaküpsised",
     },
     auth: {
@@ -6288,7 +6288,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       off: "Isklj.",
       on: "Uklj.",
       title: "Analitika",
-      toggleDescription: "Kad je ovo isključeno, stranica ovom pregledniku ne dodjeljuje identifikator i ne sprema ništa za analitiku.",
+      toggleDescription: "Kad je ovo isključeno, stranica ovom pregledniku ne dodjeljuje identifikator i u njega ne sprema ništa za analitiku. Posjeti i klikovi i dalje se broje anonimno, bez ičega što vas identificira.",
       toggleTitle: "Dopusti kolačiće za analitiku",
     },
     auth: {
@@ -6434,7 +6434,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       off: "Slökkt",
       on: "Kveikt",
       title: "Greining",
-      toggleDescription: "Þegar slökkt er á þessu gefur vefurinn þessum vafra ekkert auðkenni og geymir ekkert vegna greiningar.",
+      toggleDescription: "Þegar slökkt er á þessu gefur vefurinn þessum vafra ekkert auðkenni og geymir ekkert í honum vegna greiningar. Heimsóknir og smellir eru samt taldir nafnlaust, án nokkurs sem auðkennir þig.",
       toggleTitle: "Leyfa greiningarvafrakökur",
     },
     auth: {
@@ -6580,7 +6580,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       off: "Išjungta",
       on: "Įjungta",
       title: "Analitika",
-      toggleDescription: "Kai tai išjungta, svetainė nesuteikia šiai naršyklei jokio identifikatoriaus ir nieko nesaugo analitikai.",
+      toggleDescription: "Kai tai išjungta, svetainė nesuteikia šiai naršyklei jokio identifikatoriaus ir nieko joje nesaugo analitikai. Apsilankymai ir paspaudimai vis tiek skaičiuojami anonimiškai, be jokių jus identifikuojančių duomenų.",
       toggleTitle: "Leisti analitikos slapukus",
     },
     auth: {
@@ -6726,7 +6726,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       off: "Izslēgts",
       on: "Ieslēgts",
       title: "Analītika",
-      toggleDescription: "Kad tas ir izslēgts, vietne šim pārlūkam nepiešķir identifikatoru un analītikas vajadzībām neko nesaglabā.",
+      toggleDescription: "Kad tas ir izslēgts, vietne šim pārlūkam nepiešķir identifikatoru un analītikas vajadzībām tajā neko nesaglabā. Apmeklējumi un klikšķi joprojām tiek skaitīti anonīmi, bez nekā, kas tevi identificē.",
       toggleTitle: "Atļaut analītikas sīkdatnes",
     },
     auth: {
@@ -6872,7 +6872,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       off: "Vyp.",
       on: "Zap.",
       title: "Analytika",
-      toggleDescription: "Keď je toto vypnuté, stránka tomuto prehliadaču nedáva žiadny identifikátor a na analytiku nič neukladá.",
+      toggleDescription: "Keď je toto vypnuté, stránka tomuto prehliadaču nedáva žiadny identifikátor a na analytiku doň nič neukladá. Návštevy a kliknutia sa naďalej počítajú anonymne, bez čohokoľvek, čo by vás identifikovalo.",
       toggleTitle: "Povoliť analytické cookies",
     },
     auth: {
@@ -7018,7 +7018,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       off: "Izklopljeno",
       on: "Vklopljeno",
       title: "Analitika",
-      toggleDescription: "Ko je to izklopljeno, ta stran temu brskalniku ne dodeli identifikatorja in za analitiko ne shrani ničesar.",
+      toggleDescription: "Ko je to izklopljeno, ta stran temu brskalniku ne dodeli identifikatorja in vanj za analitiko ne shrani ničesar. Obiski in kliki se še vedno štejejo anonimno, brez česar koli, kar bi vas identificiralo.",
       toggleTitle: "Dovoli analitične piškotke",
     },
     auth: {
@@ -7164,7 +7164,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       off: "Kuvaliwe",
       on: "Kuvuliwe",
       title: "Ukuhlaziya",
-      toggleDescription: "Uma lokhu kuvaliwe, leli sayithi alinikezi lesi siphequluli isichazi futhi aligcini lutho lokuhlaziya.",
+      toggleDescription: "Uma lokhu kuvaliwe, leli sayithi alinikezi lesi siphequluli isichazi futhi aligcini lutho kuso lokuhlaziya. Ukuvakasha nokuchofoza kusabalwa ngokungaziwa, kungekho lutho olukuveza.",
       toggleTitle: "Vumela amakhukhi okuhlaziya",
     },
     auth: {
