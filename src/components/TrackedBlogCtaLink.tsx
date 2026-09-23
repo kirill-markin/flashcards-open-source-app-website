@@ -1,9 +1,9 @@
 "use client";
 
-import { track } from "@vercel/analytics";
 import { reportSiteAppEntryClick } from "@/lib/appEntryTracking";
 import type { AppLocale } from "@/lib/i18n";
 import { getExternalLinkAttributes } from "@/lib/linkTargets";
+import { trackVercelAnalyticsEvent } from "@/lib/vercelAnalytics";
 
 export type BlogCtaPlacement =
   | "article_start_side"
@@ -24,7 +24,7 @@ export function TrackedBlogCtaLink({
   placement,
 }: TrackedBlogCtaLinkProps): React.JSX.Element {
   const trackBlogCtaClick = (): void => {
-    track("blog_try_app_cta_click", {
+    trackVercelAnalyticsEvent("blog_try_app_cta_click", {
       placement,
       locale,
     });

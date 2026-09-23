@@ -1,6 +1,5 @@
 "use client";
 
-import { track } from "@vercel/analytics";
 import type { StoreAnalyticsPlatform } from "@/lib/humanPlatforms";
 import type { AppLocale } from "@/lib/i18n";
 import {
@@ -10,6 +9,7 @@ import {
   sendSiteAnalyticsEvent,
   type SiteAppEntryTarget,
 } from "@/lib/siteAnalyticsCollector";
+import { trackVercelAnalyticsEvent } from "@/lib/vercelAnalytics";
 
 export type AppEntryAction = "login" | "open_app" | "signup";
 
@@ -54,7 +54,7 @@ export function trackAppEntryClick(
   locale: AppLocale,
   placement: AppEntryPlacement
 ): void {
-  track("app_entry_click", {
+  trackVercelAnalyticsEvent("app_entry_click", {
     action,
     locale,
     platform: "web",

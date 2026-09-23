@@ -4,8 +4,9 @@
   inset-block-end: 0;
   z-index: 80;
   padding-inline: 20px;
-  /* Clears whichever analytics consent surface is up; each publishes its own measured height,
-     and the two never appear together, so only one term is ever non-zero. */
+  /* Clears the analytics consent surfaces below; each publishes its own measured height, and the
+     corner control stands on top of the strip when both are up, so the two are added rather than
+     overlapping. */
   padding-block-end: calc(
     20px + var(--analytics-consent-banner-height, 0px) +
       var(--analytics-consent-withdrawal-height, 0px)

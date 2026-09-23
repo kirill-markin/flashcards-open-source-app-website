@@ -12,6 +12,7 @@
 
 import {
   isAnalyticsIdentityConsented,
+  isSiteAnalyticsCollectionEnabled,
   publishAnalyticsConsentJurisdiction,
   readAnalyticsConsentDecision,
   recordAnalyticsConsentDecision,
@@ -103,6 +104,29 @@ function clearAnalyticsVisitorCookie(): void {
   document.cookie = `${ANALYTICS_VISITOR_COOKIE_NAME}=; Domain=${readSharedVisitorCookieDomain()}; Path=/; Max-Age=0; Secure; SameSite=Lax`;
 }
 
+/**
+ * Whether the identifier this browser holds right now is the one this answer minted, and therefore
+ * ours to take away. Each caller holds only the id its own request was answered with, and
+ * `analytics_visitor` is scoped to the parent domain and shared with the app, so the cookie stored
+ * now can have been written by another tab inside that request's flight window - and then it belongs
+ * to the document that owns it.
+ *
+ * The stored value is compared as the backend wrote it rather than through `readAnalyticsVisitorId`,
+ * which answers null for every shape it does not recognise: an id outside that shape is still a
+ * cookie this answer put on this browser, and matching through the reader would silently leave
+ * exactly that one in place.
+ */
+function isMintedVisitorCookieStored(mintedVisitorId: string | null): boolean {
+  if (mintedVisitorId === null) {
+    return false;
+  }
+
+  return (
+    readBrowserCookie(ANALYTICS_VISITOR_COOKIE_NAME)?.toLowerCase() ===
+    mintedVisitorId.toLowerCase()
+  );
+}
+
 // An unreadable body is read as consent-required and no identity, the same way the route itself
 // fails closed when it cannot place the caller.
 function parseAnalyticsVisitorEnvelope(value: unknown): AnalyticsVisitorEnvelope {
@@ -155,13 +179,46 @@ async function runVisitorIdentityResolution(): Promise<void> {
       return;
     }
 
-    // The answer's own `visitorId` is deliberately not read: it carries a fresh id whether or not
-    // the browser stored the cookie that came with it, so the cookie is the only evidence that this
-    // browser has an identity at all.
+    // The answer's own `visitorId` is deliberately not read as evidence of identity: it carries a
+    // fresh id whether or not the browser stored the cookie that came with it, so the cookie is the
+    // only evidence that this browser has an identity at all. It is kept for the one narrower
+    // purpose below - recognising the cookie this very answer minted.
     const visitor = await requestAnalyticsVisitor({ method: "GET" });
+
+    if (isSiteAnalyticsCollectionEnabled() === false) {
+      // The switch was turned off while this request was open, and a browser that has declared it
+      // reports nothing must not walk away holding an identifier for events it will never send -
+      // the rule the grant path applies after its own answer lands. The jurisdiction stays
+      // unpublished for the same reason it is never asked for while collection is off: it only
+      // decides whether this browser is asked about an identifier, and this one is being asked
+      // nothing.
+      //
+      // Only the cookie this answer minted is cleared. A value that does not match was minted by
+      // another document and is left for it; this one reports nothing either way.
+      if (isMintedVisitorCookieStored(visitor.visitorId)) {
+        clearAnalyticsVisitorCookie();
+      }
+
+      // Dropped rather than left resolved. This runs after the `await` above, so the memo at the
+      // call site already holds this task; leaving it there would make turning collection back on
+      // reuse an answer that published no jurisdiction, and this browser would then wait on one for
+      // the rest of the document - no banner where one is owed, no cookie block in the corner panel,
+      // and every page view identity-free. Nulling it makes the re-enable resolve again.
+      visitorIdentityTask = null;
+
+      return;
+    }
 
     publishAnalyticsConsentJurisdiction(visitor.consentRequired);
   } catch {
+    if (isSiteAnalyticsCollectionEnabled() === false) {
+      // Dropped for the same reason the branch above drops it. The request has settled either way,
+      // so there is nothing left to wait on, and leaving the memo resolved would make turning
+      // collection back on reuse an answer that never published a real jurisdiction - no second
+      // `GET` for the rest of the document.
+      visitorIdentityTask = null;
+    }
+
     // This load will never be told what the country requires, and not knowing is not permission -
     // the same rule the route itself applies when it cannot place a caller. Published as "must be
     // asked", so the gate stays shut and the visitor is given the question rather than measured
@@ -183,6 +240,14 @@ export function resolveAnalyticsVisitorIdentity(): Promise<void> {
     return Promise.resolve();
   }
 
+  if (isSiteAnalyticsCollectionEnabled() === false) {
+    // Nothing will be reported from this browser, so nothing is asked for on its behalf: no identity
+    // is minted for events that will never be sent, and the banner stays away while it would be
+    // asking about an identifier with nothing to travel on. Any cookie this browser already holds is
+    // left alone - that is the other decision, and it is the app's record too.
+    return Promise.resolve();
+  }
+
   if (readAnalyticsConsentDecision() === "declined") {
     // A browser that refused is never asked again. The refusal cleared the cookie, so the next
     // navigation finds none, and the route mints for any country that requires no consent: one more
@@ -201,8 +266,19 @@ export function resolveAnalyticsVisitorIdentity(): Promise<void> {
  * may hold. The grant succeeded exactly when the answer carries a `visitorId`: the envelope's
  * `consentRequired` reports the jurisdiction on `POST`, not whether this browser still has to be
  * asked, so a granting European browser is answered `true` beside the id it was just given.
+ *
+ * The collection switch is checked here rather than only where identity is resolved, because this
+ * is the call that actually asks the backend to mint the 13-month shared cookie: a browser that has
+ * declared it reports nothing must not walk away holding an identifier for events it will never
+ * send. Checked again after the answer lands, because the banner and the corner panel are separate
+ * surfaces and one can be answered while the other is open - the switch wins, and the identity that
+ * was just minted goes straight back out.
  */
 export async function grantAnalyticsConsent(): Promise<boolean> {
+  if (isSiteAnalyticsCollectionEnabled() === false) {
+    return false;
+  }
+
   const visitor = await requestAnalyticsVisitor({
     method: "POST",
     headers: { "Content-Type": "application/json" },
@@ -210,6 +286,17 @@ export async function grantAnalyticsConsent(): Promise<boolean> {
   });
 
   if (visitor.visitorId === null) {
+    return false;
+  }
+
+  if (isSiteAnalyticsCollectionEnabled() === false) {
+    // Ownership-matched exactly as the `GET` path is: the flight window of this `POST` is open to
+    // another tab on the shared parent domain too, and a cookie that document minted is not this
+    // one's to take away. Nothing is recorded as granted either way.
+    if (isMintedVisitorCookieStored(visitor.visitorId)) {
+      clearAnalyticsVisitorCookie();
+    }
+
     return false;
   }
 
@@ -244,7 +331,12 @@ export async function declineAnalyticsConsent(): Promise<void> {
     // load started - and without the wait a refusal there could end with a freshly minted 13-month
     // identity still in place. Null on a load whose stored refusal returned early and started no
     // `GET`; the rejection is swallowed so a failed resolution cannot stand in for the `POST`'s own
-    // error. In `finally`, so a refusal the network swallowed still ends with the identifier gone.
+    // error, and null too on a load that returned early because collection is off - a browser that
+    // refuses from there starts no `GET` afterwards either, because the stored refusal is checked
+    // before the request on every later call. Null once more once a `GET` that settled after the
+    // switch went off dropped its own memo: that request has finished by then and its cookie has
+    // already been dealt with, so there is nothing left to wait for. In `finally`, so a refusal the
+    // network swallowed still ends with the identifier gone.
     await visitorIdentityTask?.catch(() => {});
     clearAnalyticsVisitorCookie();
   }

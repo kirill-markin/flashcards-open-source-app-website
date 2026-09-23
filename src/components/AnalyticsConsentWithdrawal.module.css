@@ -1,6 +1,8 @@
-/* The corner the consent strip used to occupy. The link never shares the screen with the strip -
-   it appears only once a decision exists, and the strip only while none does - so the two cannot
-   compete for this edge.
+/* The bottom-start corner, on every page and in every region. The link now does share the screen
+   with the consent strip - the off switch it opens has to be reachable while the strip is still
+   asking about the cookie - so it stands on top of the strip rather than beside it, lifted by the
+   height the strip publishes for exactly this. Zero when no strip is up, and the page below adds
+   both reserves, so neither edge is counted twice.
 
    The container is what the published reserve measures, so the panel is taken out of its flow
    below: an open panel must not inflate the space the page beneath is asked to keep clear. Dropping
@@ -9,7 +11,7 @@
 .container {
   position: fixed;
   inset-inline-start: 0;
-  inset-block-end: 0;
+  inset-block-end: var(--analytics-consent-banner-height, 0px);
   z-index: 90;
   padding-inline: 20px;
   padding-block: 8px calc(8px + env(safe-area-inset-bottom));
@@ -47,6 +49,19 @@
   box-shadow: var(--shadow-soft);
   backdrop-filter: var(--blur);
   pointer-events: auto;
+}
+
+/* One decision and its switch. The second is ruled off from the first so neither switch can be read
+   as belonging to the other's text. */
+.decision {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.decision + .decision {
+  padding-block-start: 12px;
+  border-block-start: 1px solid var(--border);
 }
 
 .copy {
