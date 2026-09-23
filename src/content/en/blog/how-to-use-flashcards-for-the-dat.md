@@ -54,6 +54,8 @@ Better biology cards isolate the thing you are likely to miss under time pressur
 
 Examples: Which phase separates sister chromatids? What hormone raises blood calcium? Which immune cell matures in the thymus? What happens to allele frequency under this selection pattern?
 
+For a focused cell-biology review, try [Cytoskeleton Flashcards: Fibers, Motors & Functions](/catalog/packages/cytoskeleton-flashcards/) alongside your DAT practice questions.
+
 If a biology card starts looking like half a lecture slide, it is too big. Biology punishes fake familiarity. You can recognize a term on a page and still fail to produce it cold. That is why short production-style prompts work better than summary cards. If you keep missing physiology relationships, build cards around the actual relationship. If genetics keeps slipping, card the inheritance pattern or gene-expression step that is costing you points.
 
 ## Organic chemistry needs a 2026-specific cleanup layer
