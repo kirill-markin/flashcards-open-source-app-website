@@ -12,6 +12,7 @@ import {
   classifySiteSource,
   getSiteDeviceCategory,
   getSitePageKind,
+  getSitePagePath,
   sendSiteAnalyticsEvent,
   SITE_PACKAGE_VERSION_ID_ATTRIBUTE,
   type SiteDeviceCategory,
@@ -34,6 +35,7 @@ interface SitePageViewDraft {
   readonly locale: AppLocale;
   readonly clientOccurredAt: string;
   readonly pageKind: SitePageKind;
+  readonly pagePath: string | null;
   readonly packageVersionId: string | null;
   readonly source: SiteSource;
   readonly deviceCategory: SiteDeviceCategory;
@@ -78,6 +80,7 @@ function sendPendingSitePageView(): void {
 
   sendSiteAnalyticsEvent("site_page_viewed", draft.clientOccurredAt, draft.locale, {
     page_kind: draft.pageKind,
+    ...(draft.pagePath === null ? {} : { page_path: draft.pagePath }),
     ...(draft.packageVersionId === null ? {} : { package_version_id: draft.packageVersionId }),
     source: draft.source,
     device_category: draft.deviceCategory,
@@ -108,6 +111,7 @@ function reportSitePageView(locale: AppLocale, pageUrl: string): void {
   lastReportedPageUrl = pageUrl;
 
   let pageKind = getSitePageKind(window.location.pathname);
+  const pagePath = getSitePagePath(window.location.pathname);
   let packageVersionId: string | null = null;
 
   if (pageKind === "catalog_package") {
@@ -134,6 +138,7 @@ function reportSitePageView(locale: AppLocale, pageUrl: string): void {
     locale,
     clientOccurredAt,
     pageKind,
+    pagePath,
     packageVersionId,
     source: classifySiteSource(referrer, window.location.hostname),
     deviceCategory: getSiteDeviceCategory(),

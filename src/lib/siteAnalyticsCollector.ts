@@ -33,6 +33,8 @@ export type SitePageKind =
 
 export type SiteAppEntryTarget = "web_app" | "app_store" | "google_play";
 
+export type SiteInternalCtaTarget = "home";
+
 interface SiteAnalyticsEventPropertiesByName {
   readonly catalog_install_clicked: Readonly<{
     package_version_id: string;
@@ -42,12 +44,20 @@ interface SiteAnalyticsEventPropertiesByName {
   }>;
   readonly site_page_viewed: Readonly<{
     page_kind: SitePageKind;
+    page_path?: string;
     package_version_id?: string;
     source: SiteSource;
     device_category: SiteDeviceCategory;
   }>;
   readonly site_app_entry_clicked: Readonly<{
     target: SiteAppEntryTarget;
+    page_kind: SitePageKind;
+    placement: string;
+    source: SiteSource;
+    device_category: SiteDeviceCategory;
+  }>;
+  readonly site_internal_cta_clicked: Readonly<{
+    target: SiteInternalCtaTarget;
     page_kind: SitePageKind;
     placement: string;
     source: SiteSource;
@@ -236,6 +246,30 @@ export function getSitePageKind(pathname: string): SitePageKind {
   }
 
   return "other";
+}
+
+// The shape the collector accepts for `page_path`, plus its own cap on every string property.
+const SITE_PAGE_PATH_PATTERN = /^\/(?:[a-z0-9][a-z0-9._-]{0,78}\/){0,6}$/u;
+const SITE_PAGE_PATH_MAX_LENGTH = 200;
+
+/**
+ * The locale-stripped route of a page, as the collector accepts it. A route outside that shape
+ * answers null so the page view still goes out without the property: an explicit null or empty
+ * string would fail the collector's strict parse and refuse the whole event.
+ */
+export function getSitePagePath(pathname: string): string | null {
+  const { routePathname } = resolveLocaleFromPathname(pathname);
+  const pagePath = routePathname.toLowerCase();
+
+  if (
+    pagePath.length > SITE_PAGE_PATH_MAX_LENGTH
+    || SITE_PAGE_PATH_PATTERN.test(pagePath) === false
+  ) {
+    console.warn("site_page_path_unsupported", { pathname });
+    return null;
+  }
+
+  return pagePath;
 }
 
 function parseSiteAnalyticsErrorBody(value: unknown): SiteAnalyticsErrorBody {
