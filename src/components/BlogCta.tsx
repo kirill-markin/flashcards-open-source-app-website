@@ -6,8 +6,7 @@ import {
   TrackedBlogCtaLink,
   type BlogCtaPlacement,
 } from "@/components/TrackedBlogCtaLink";
-import { getSignupUrl } from "@/lib/auth";
-import type { AppLocale } from "@/lib/i18n";
+import { getLocalizedPathname, type AppLocale } from "@/lib/i18n";
 import { getUiCopy } from "@/lib/uiCopy";
 import styles from "./BlogCta.module.css";
 
@@ -26,7 +25,7 @@ export function BlogCta({
     <FullAppCtaPanel
       action={
         <TrackedBlogCtaLink
-          href={getSignupUrl()}
+          href={getLocalizedPathname(locale, "/")}
           label={uiCopy.cta.buttonLabel}
           locale={locale}
           placement={placement}
@@ -48,7 +47,7 @@ export function BlogStartSideCta({
     <CompactSideAppCtaPanel
       action={
         <TrackedBlogCtaLink
-          href={getSignupUrl()}
+          href={getLocalizedPathname(locale, "/")}
           label={uiCopy.cta.buttonLabel}
           locale={locale}
           placement="article_start_side"
