@@ -1,5 +1,6 @@
 "use client";
 
+import { getSiteAppEntryImpressionAttributes } from "@/lib/appEntryImpressionAttributes";
 import {
   getStoreAppEntryTarget,
   reportSiteAppEntryClick,
@@ -46,6 +47,10 @@ export const TrackedStoreLink: React.FC<TrackedStoreLinkProps> = ({
       className={undefined}
       hint={hint}
       href={href}
+      impressionAttributes={getSiteAppEntryImpressionAttributes(
+        getStoreAppEntryTarget(platform),
+        STORE_LINK_PLACEMENT,
+      )}
       onClick={trackStoreLinkClick}
       qrSvgMarkup={qrSvgMarkup}
     >

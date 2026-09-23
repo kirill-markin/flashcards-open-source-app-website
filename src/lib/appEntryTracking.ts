@@ -13,15 +13,24 @@ import { trackVercelAnalyticsEvent } from "@/lib/vercelAnalytics";
 
 export type AppEntryAction = "login" | "open_app" | "signup";
 
-export type AppEntryPlacement =
-  | "header_desktop"
-  | "header_mobile"
-  | "home_human_access"
-  | "home_hero"
-  | "footer"
-  | "pricing"
-  | "features_end"
-  | "activity_end";
+/**
+ * Every place a CTA into the product can sit. A runtime list rather than a bare union, because the
+ * impression observer reads the placement back out of the DOM and has to be able to refuse a value
+ * the collector's own pattern would refuse; deriving the type from the list keeps the two from
+ * drifting apart.
+ */
+export const APP_ENTRY_PLACEMENTS = [
+  "header_desktop",
+  "header_mobile",
+  "home_human_access",
+  "home_hero",
+  "footer",
+  "pricing",
+  "features_end",
+  "activity_end",
+] as const;
+
+export type AppEntryPlacement = typeof APP_ENTRY_PLACEMENTS[number];
 
 const STORE_APP_ENTRY_TARGETS: Readonly<Record<StoreAnalyticsPlatform, SiteAppEntryTarget>> = {
   android: "google_play",

@@ -35,6 +35,19 @@ export type SiteAppEntryTarget = "web_app" | "app_store" | "google_play";
 
 export type SiteInternalCtaTarget = "home";
 
+/**
+ * What an app-entry CTA is and where it leads. The click and the impression below share this one
+ * type rather than repeating two equal literals, mirroring the single property map the catalog
+ * gives the pair, so neither half can drift and stop the two joining by equality.
+ */
+type SiteAppEntryEventProperties = Readonly<{
+  target: SiteAppEntryTarget;
+  page_kind: SitePageKind;
+  placement: string;
+  source: SiteSource;
+  device_category: SiteDeviceCategory;
+}>;
+
 interface SiteAnalyticsEventPropertiesByName {
   readonly catalog_install_clicked: Readonly<{
     package_version_id: string;
@@ -49,13 +62,8 @@ interface SiteAnalyticsEventPropertiesByName {
     source: SiteSource;
     device_category: SiteDeviceCategory;
   }>;
-  readonly site_app_entry_clicked: Readonly<{
-    target: SiteAppEntryTarget;
-    page_kind: SitePageKind;
-    placement: string;
-    source: SiteSource;
-    device_category: SiteDeviceCategory;
-  }>;
+  readonly site_app_entry_clicked: SiteAppEntryEventProperties;
+  readonly site_app_entry_shown: SiteAppEntryEventProperties;
   readonly site_internal_cta_clicked: Readonly<{
     target: SiteInternalCtaTarget;
     page_kind: SitePageKind;
