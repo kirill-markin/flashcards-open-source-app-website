@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import { getSiteAppEntryImpressionAttributes } from "@/lib/appEntryImpressionAttributes";
 import {
   getStoreAppEntryTarget,
   reportSiteAppEntryClick,
@@ -114,6 +115,10 @@ export const HumanPlatformLinks: React.FC<HumanPlatformLinksProps> = ({
                 className={styles.platformLink}
                 hint={uiCopy.platforms.scanQrHint}
                 href={platform.href}
+                impressionAttributes={getSiteAppEntryImpressionAttributes(
+                  getStoreAppEntryTarget(platform.analytics.platform),
+                  STORE_LINK_PLACEMENT,
+                )}
                 onClick={trackPlatformClick}
                 qrSvgMarkup={storeQrCodes[platform.analytics.platform]}
               >
@@ -129,6 +134,7 @@ export const HumanPlatformLinks: React.FC<HumanPlatformLinksProps> = ({
               {...externalLinkAttributes}
               className={styles.platformLink}
               aria-label={platform.label}
+              {...getSiteAppEntryImpressionAttributes("web_app", "home_human_access")}
               onClick={trackPlatformClick}
             >
               {platformContent}
