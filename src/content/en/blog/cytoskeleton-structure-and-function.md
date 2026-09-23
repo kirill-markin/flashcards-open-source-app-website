@@ -119,4 +119,6 @@ Use a short review sequence: answer a question without notes, identify the misse
 
 The [guide to turning practice questions into flashcards](/blog/how-to-turn-practice-questions-into-flashcards/) develops this approach. Keep the missing knowledge small enough to review, then return to a complete question.
 
+For focused review after these questions, open [Cytoskeleton Flashcards: Fibers, Motors & Functions](/catalog/packages/cytoskeleton-flashcards/).
+
 If you also need a broader cell-structure refresher, the [Cell Organelles and Functions deck](/catalog/packages/cell-organelles-functions/) contains 48 text-only cards covering 24 structures. It supports basic name-and-function recall; it doesn't supply diagrams, ultrastructure practice, or a full set of cytoskeleton questions. Use the scenarios above to practice making the distinction that a short definition can hide.
