@@ -1,6 +1,5 @@
 "use client";
 
-import { track } from "@vercel/analytics";
 import Image from "next/image";
 import {
   getStoreAppEntryTarget,
@@ -18,6 +17,7 @@ import { getExternalLinkAttributes } from "@/lib/linkTargets";
 import type { StoreQrCodes } from "@/lib/storeQrCodes";
 import { getUiCopy } from "@/lib/uiCopy";
 import { useLoggedInCookie } from "@/lib/useLoggedInCookie";
+import { trackVercelAnalyticsEvent } from "@/lib/vercelAnalytics";
 import { StoreQrHoverLink } from "./StoreQrHoverLink";
 import styles from "./HumanPlatformLinks.module.css";
 
@@ -27,7 +27,7 @@ function trackStoreLinkClick(
   platform: StoreAnalyticsPlatform,
   locale: AppLocale,
 ): void {
-  track("store_link_click", {
+  trackVercelAnalyticsEvent("store_link_click", {
     platform,
     placement: STORE_LINK_PLACEMENT,
   });

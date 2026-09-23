@@ -1,7 +1,11 @@
 "use client";
 
 import { usePathname } from "next/navigation";
-import { useEffect } from "react";
+import { useEffect, useSyncExternalStore } from "react";
+import {
+  isSiteAnalyticsCollectionEnabled,
+  subscribeToAnalyticsConsent,
+} from "./analyticsConsent";
 import { resolveAnalyticsVisitorIdentity } from "./analyticsVisitor";
 import type { AppLocale } from "./i18n";
 import {
@@ -48,18 +52,31 @@ function readPackageVersionId(): string | null {
 }
 
 /**
- * Sends the pending draft exactly once. `sendSiteAnalyticsEvent` reads the visitor cookie at this
- * moment, so a draft sent before identity resolution settles goes out identity-free.
+ * Takes the parked draft off this page's listeners and answers it, so a draft is either sent or
+ * dropped exactly once and never leaves behind a listener that could send it afterwards.
  */
-function sendPendingSitePageView(): void {
+function takePendingSitePageView(): SitePageViewDraft | null {
   const draft = pendingSitePageView;
   if (draft === null) {
-    return;
+    return null;
   }
 
   pendingSitePageView = null;
   window.removeEventListener("pagehide", sendPendingSitePageView);
   document.removeEventListener("visibilitychange", sendPendingSitePageViewWhenHidden);
+
+  return draft;
+}
+
+/**
+ * Sends the pending draft exactly once. `sendSiteAnalyticsEvent` reads the visitor cookie at this
+ * moment, so a draft sent before identity resolution settles goes out identity-free.
+ */
+function sendPendingSitePageView(): void {
+  const draft = takePendingSitePageView();
+  if (draft === null) {
+    return;
+  }
 
   sendSiteAnalyticsEvent("site_page_viewed", draft.clientOccurredAt, draft.locale, {
     page_kind: draft.pageKind,
@@ -135,16 +152,45 @@ function reportSitePageView(locale: AppLocale, pageUrl: string): void {
 /**
  * Reports `site_page_viewed` once for the first page of a load and once per client-side navigation
  * to a new pathname. Query-only changes, such as catalog filters, are not page views.
+ *
+ * The collection switch is read here as well as inside the collector so that switching it off takes
+ * effect at once: nothing is reported while it is off, and the draft waiting for this load's
+ * identity resolution is dropped rather than parked, so a visit made with the switch off sends
+ * nothing then or later. Off is read before hydration, the same direction the Vercel island reads it
+ * in: the first answer a browser gives must never be one that reports a visit it turned off.
+ *
+ * Turning the switch back on replays nothing. The plain same-URL guard below is all that decides
+ * what happens next, so a visitor standing on the page that was already reported gets no second
+ * report for it, and a page whose URL differs from the last reported one is reported as the current
+ * view it is rather than as a retroactive record of anything that happened while the switch was off.
  */
 export function useSitePageViewTracking(locale: AppLocale): void {
   const pathname = usePathname();
+  const isCollectionEnabled = useSyncExternalStore(
+    subscribeToAnalyticsConsent,
+    isSiteAnalyticsCollectionEnabled,
+    () => false,
+  );
 
   useEffect(() => {
+    if (isCollectionEnabled === false) {
+      // A draft parked before the switch went off is dropped here, listeners and all, so that
+      // nothing about this visit can leave afterwards.
+      //
+      // `getServerSnapshot` answers off, so this branch also runs once on the first post-hydration
+      // pass of every load, before the real value arrives. It stays cheap on purpose: with no draft
+      // parked yet it reads one module variable and returns, touching neither the DOM nor the
+      // network.
+      takePendingSitePageView();
+
+      return;
+    }
+
     const pageUrl = `${window.location.origin}${window.location.pathname}`;
     if (pageUrl === lastReportedPageUrl) {
       return;
     }
 
     reportSitePageView(locale, pageUrl);
-  }, [locale, pathname]);
+  }, [isCollectionEnabled, locale, pathname]);
 }
