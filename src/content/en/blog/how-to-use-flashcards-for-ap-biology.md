@@ -92,6 +92,8 @@ Those cards work better because they train the choice you actually have to make 
 
 For a small baseline set, [these two-way cell-structure and function cards](https://nibomo.com/catalog/packages/cell-organelles-functions/) cover 24 common structures in text only. They do not cover diagrams, pathways, or the rest of AP Biology, so treat them as a narrow recall exercise rather than an AP Bio deck.
 
+For a focused cell-biology follow-up, try [Cytoskeleton Flashcards: Fibers, Motors & Functions](/catalog/packages/cytoskeleton-flashcards/). Use this topic deck alongside your AP Biology course questions.
+
 If your bigger problem is card quality instead of subject choice, [How to Make Better Flashcards in 2026](https://nibomo.com/blog/how-to-make-better-flashcards/) is the right follow-up.
 
 ## Processes should be broken into checkpoints, not stored as one heroic card
