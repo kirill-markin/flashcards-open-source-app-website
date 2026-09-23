@@ -50,10 +50,12 @@ html {
   background: var(--bg);
 }
 
-/* Room for whichever analytics consent surface is fixed to the bottom edge, so the end of the
-   page - the footer, and the call to action above it - is lifted clear of it rather than left
-   underneath. Both heights are published by the surfaces themselves while they are up, because both
-   wrap and neither has a height a constant could state. */
+/* Room for the analytics consent surfaces fixed to the bottom edge, so the end of the page - the
+   footer, and the call to action above it - is lifted clear of them rather than left underneath.
+   Both heights are published by the surfaces themselves while they are up, because both wrap and
+   neither has a height a constant could state. They are summed rather than maximised: the corner
+   control is always up, the strip only while a first-time visitor is being asked, and the control
+   stands on top of the strip whenever both are, so the two heights never overlap. */
 body {
   padding-block-end: calc(
     var(--analytics-consent-banner-height, 0px) +

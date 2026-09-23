@@ -1,11 +1,11 @@
 "use client";
 
-import { track } from "@vercel/analytics";
 import {
   CopyCodeField,
   type CopyCodeFieldLabels,
 } from "@/components/CopyCodeField";
 import type { AppLocale } from "@/lib/i18n";
+import { trackVercelAnalyticsEvent } from "@/lib/vercelAnalytics";
 
 interface TrackedMcpEndpointCopyFieldProps {
   readonly caption: string;
@@ -21,7 +21,7 @@ export function TrackedMcpEndpointCopyField({
   value,
 }: TrackedMcpEndpointCopyFieldProps): React.JSX.Element {
   const trackCopySuccess = (): void => {
-    track("mcp_endpoint_copy", {
+    trackVercelAnalyticsEvent("mcp_endpoint_copy", {
       locale,
       placement: "home_agent_access",
     });

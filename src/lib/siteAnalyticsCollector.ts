@@ -1,3 +1,4 @@
+import { isSiteAnalyticsCollectionEnabled } from "./analyticsConsent";
 import { hasAnalyticsPrivacySignal } from "./analyticsPrivacySignal";
 import { readAnalyticsAnonymousId } from "./analyticsVisitor";
 import { resolveLocaleFromPathname, type AppLocale } from "./i18n";
@@ -318,7 +319,9 @@ async function warnAboutRejectedSiteAnalyticsEvent(
 
 /**
  * Reports one fact to the product's anonymous collector without blocking the caller. Nothing is sent
- * when the browser raises Global Privacy Control or Do Not Track.
+ * when the browser raises Global Privacy Control or Do Not Track, and nothing when this browser has
+ * turned collection off - that switch is an off switch, not a demotion to identity-free reporting,
+ * which is what refusing the cookie already gives.
  *
  * `credentials: "omit"` stays. The collector reads no credential at all, and its CORS allowlist
  * carries no `Access-Control-Allow-Credentials`, so a credentialed request here would be refused by
@@ -337,7 +340,7 @@ export function sendSiteAnalyticsEvent<EventName extends SiteAnalyticsEventName>
   uiLocale: AppLocale,
   properties: SiteAnalyticsEventPropertiesByName[EventName],
 ): void {
-  if (hasAnalyticsPrivacySignal()) {
+  if (hasAnalyticsPrivacySignal() || isSiteAnalyticsCollectionEnabled() === false) {
     return;
   }
 

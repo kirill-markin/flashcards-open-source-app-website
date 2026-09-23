@@ -1,6 +1,5 @@
 "use client";
 
-import { track } from "@vercel/analytics";
 import type {
   PublicCatalogFilterAnalytics,
   PublicCatalogInstallAnalytics,
@@ -9,6 +8,7 @@ import type {
   PublicCatalogSearchAnalytics,
   PublicCatalogSortAnalytics,
 } from "./publicCatalogAnalytics";
+import { trackVercelAnalyticsEvent } from "./vercelAnalytics";
 
 interface PublicCatalogAnalyticsByEventName {
   readonly public_catalog_filter: PublicCatalogFilterAnalytics;
@@ -34,7 +34,7 @@ export function trackPublicCatalogEvent<EventName extends PublicCatalogAnalytics
   };
 
   try {
-    track(eventName, analyticsProperties);
+    trackVercelAnalyticsEvent(eventName, analyticsProperties);
   } catch (error: unknown) {
     console.warn("public_catalog_analytics_error", {
       errorMessage: getErrorMessage(error),

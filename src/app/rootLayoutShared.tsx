@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Source_Serif_4 } from "next/font/google";
-import { Analytics } from "@vercel/analytics/next";
+import { SiteVercelAnalytics } from "@/components/SiteVercelAnalytics";
 import { readPageContent } from "@/lib/content/readPageContent";
 import { getLanguageAlternates } from "@/lib/routeTranslations";
 import {
@@ -68,7 +68,7 @@ export function RootDocument({
     >
       <body>
         {children}
-        <Analytics />
+        <SiteVercelAnalytics />
       </body>
     </html>
   );

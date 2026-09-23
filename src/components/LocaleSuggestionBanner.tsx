@@ -1,6 +1,5 @@
 "use client";
 
-import { track } from "@vercel/analytics";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { getBrowserPreferredLocale } from "@/lib/browserLocaleMatching";
@@ -8,6 +7,7 @@ import type { AppLocale } from "@/lib/i18n";
 import { getLocaleDirection } from "@/lib/localeConfig";
 import type { LocaleSuggestionTarget } from "@/lib/routeTranslations";
 import { getUiCopy } from "@/lib/uiCopy";
+import { trackVercelAnalyticsEvent } from "@/lib/vercelAnalytics";
 import styles from "./LocaleSuggestionBanner.module.css";
 
 const DISMISSAL_STORAGE_KEY = "flashcards.localeSuggestion.dismissedUntil";
@@ -98,7 +98,7 @@ function trackLocaleSuggestionInteraction(
   currentLocale: AppLocale,
   targetLocale: AppLocale
 ): void {
-  track(LOCALE_SUGGESTION_INTERACTION_EVENT, {
+  trackVercelAnalyticsEvent(LOCALE_SUGGESTION_INTERACTION_EVENT, {
     action,
     locale_pair: `${currentLocale}_${targetLocale}`,
   });

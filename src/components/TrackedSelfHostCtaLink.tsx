@@ -1,8 +1,8 @@
 "use client";
 
-import { track } from "@vercel/analytics";
 import type { AppLocale } from "@/lib/i18n";
 import { getExternalLinkAttributes } from "@/lib/linkTargets";
+import { trackVercelAnalyticsEvent } from "@/lib/vercelAnalytics";
 
 interface TrackedSelfHostCtaLinkProps {
   readonly className: string;
@@ -18,7 +18,7 @@ export function TrackedSelfHostCtaLink({
   locale,
 }: TrackedSelfHostCtaLinkProps): React.JSX.Element {
   const trackSelfHostCtaClick = (): void => {
-    track("self_host_cta_click", {
+    trackVercelAnalyticsEvent("self_host_cta_click", {
       locale,
       placement: "pricing",
     });
