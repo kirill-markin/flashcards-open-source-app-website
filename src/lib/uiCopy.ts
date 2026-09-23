@@ -189,7 +189,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       activityHeading: "Ready to start reviewing your own cards?",
       heading:
         "Learn more and forget less with free spaced-repetition flashcards",
-      buttonLabel: "Start studying free",
+      buttonLabel: "See how it works",
       featuresHeading:
         "Create better cards and review them at the right time.",
     },
@@ -337,7 +337,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       activityHeading: "¿Listo para empezar a repasar tus propias tarjetas?",
       heading:
         "Aprende más y olvida menos con flashcards gratis de repetición espaciada",
-      buttonLabel: "Empieza a estudiar gratis",
+      buttonLabel: "Mira cómo funciona",
       featuresHeading:
         "Crea mejores tarjetas y repásalas en el momento adecuado.",
     },
@@ -485,7 +485,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       activityHeading: "هل أنت مستعد لبدء مراجعة بطاقاتك؟",
       heading:
         "تعلّم أكثر وانسَ أقل مع بطاقات مجانية بالتكرار المتباعد",
-      buttonLabel: "ابدأ الدراسة مجانًا",
+      buttonLabel: "شاهد كيف يعمل",
       featuresHeading: "أنشئ بطاقات أفضل وراجعها في الوقت المناسب.",
     },
     docs: {
@@ -632,7 +632,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       activityHeading: "Bereit, deine eigenen Karten zu wiederholen?",
       heading:
         "Lerne mehr und vergiss weniger mit kostenlosen Spaced-Repetition-Flashcards",
-      buttonLabel: "Kostenlos lernen",
+      buttonLabel: "So funktioniert es",
       featuresHeading:
         "Erstelle bessere Karten und wiederhole sie zum richtigen Zeitpunkt.",
     },
@@ -780,7 +780,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       activityHeading: "अपने कार्ड दोहराना शुरू करने के लिए तैयार हैं?",
       heading:
         "मुफ़्त स्पेस्ड रिपिटीशन फ़्लैशकार्ड से बेहतर सीखें और कम भूलें",
-      buttonLabel: "मुफ़्त पढ़ाई शुरू करें",
+      buttonLabel: "देखें यह कैसे काम करता है",
       featuresHeading:
         "बेहतर कार्ड बनाएँ और उन्हें सही समय पर दोहराएँ।",
     },
@@ -928,7 +928,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       activityHeading: "自分のカードの復習を始めませんか？",
       heading:
         "無料の間隔反復フラッシュカードで、より深く学び、忘れにくくする",
-      buttonLabel: "無料で学習を始める",
+      buttonLabel: "使い方を見る",
       featuresHeading:
         "より良いカードを作り、最適なタイミングで復習しましょう。",
     },
@@ -1076,7 +1076,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       activityHeading: "Prêt à réviser vos propres cartes ?",
       heading:
         "Apprenez plus et oubliez moins avec des flashcards gratuites à répétition espacée",
-      buttonLabel: "Commencer gratuitement",
+      buttonLabel: "Voir comment ça marche",
       featuresHeading:
         "Créez de meilleures cartes et révisez-les au bon moment.",
     },
@@ -1224,7 +1224,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       activityHeading: "Pronto para revisar seus próprios cartões?",
       heading:
         "Aprenda mais e esqueça menos com flashcards gratuitos de repetição espaçada",
-      buttonLabel: "Comece a estudar grátis",
+      buttonLabel: "Veja como funciona",
       featuresHeading:
         "Crie cartões melhores e revise cada um na hora certa.",
     },
@@ -1372,7 +1372,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       activityHeading: "Готовы начать повторять свои карточки?",
       heading:
         "Учитесь больше и забывайте меньше с бесплатными карточками для интервального повторения",
-      buttonLabel: "Начать учиться бесплатно",
+      buttonLabel: "Посмотреть, как это работает",
       featuresHeading:
         "Создавайте качественные карточки и повторяйте их в нужное время.",
     },
@@ -1519,7 +1519,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     cta: {
       activityHeading: "准备好开始复习自己的卡片了吗？",
       heading: "用免费的间隔重复闪卡学得更多，忘得更少",
-      buttonLabel: "免费开始学习",
+      buttonLabel: "看看它如何运作",
       featuresHeading: "创建更好的卡片，并在合适的时间复习。",
     },
     docs: {
@@ -1665,7 +1665,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       activityHeading: "Pronto a iniziare a ripassare le tue carte?",
       heading:
         "Impara di più e dimentica di meno con flashcard gratuite a ripetizione dilazionata",
-      buttonLabel: "Inizia a studiare gratis",
+      buttonLabel: "Guarda come funziona",
       featuresHeading:
         "Crea carte migliori e ripassale al momento giusto.",
     },
@@ -1813,7 +1813,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       activityHeading: "내 카드로 복습을 시작해 볼까요?",
       heading:
         "무료 간격 반복 플래시카드로 더 많이 배우고 덜 잊어버리세요",
-      buttonLabel: "무료로 학습 시작",
+      buttonLabel: "작동 방식 보기",
       featuresHeading:
         "더 좋은 카드를 만들고 알맞은 때에 복습하세요.",
     },
@@ -1961,7 +1961,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       activityHeading: "Siap mulai meninjau kartu Anda sendiri?",
       heading:
         "Belajar lebih banyak, lupa lebih sedikit dengan kartu pengulangan berjarak gratis",
-      buttonLabel: "Mulai belajar gratis",
+      buttonLabel: "Lihat cara kerjanya",
       featuresHeading:
         "Buat kartu yang lebih baik dan tinjau pada waktu yang tepat.",
     },
@@ -2109,7 +2109,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       activityHeading: "Kendi kartlarınızı tekrar etmeye hazır mısınız?",
       heading:
         "Ücretsiz aralıklı tekrar bilgi kartlarıyla daha çok öğrenin, daha az unutun",
-      buttonLabel: "Ücretsiz çalışmaya başla",
+      buttonLabel: "Nasıl çalıştığını gör",
       featuresHeading:
         "Daha iyi kartlar oluşturun ve onları doğru zamanda tekrar edin.",
     },
@@ -2257,7 +2257,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       activityHeading: "Klaar om je eigen kaarten te herhalen?",
       heading:
         "Leer meer en vergeet minder met gratis flashcards met gespreide herhaling",
-      buttonLabel: "Gratis beginnen met leren",
+      buttonLabel: "Bekijk hoe het werkt",
       featuresHeading:
         "Maak betere kaarten en herhaal ze op het juiste moment.",
     },
@@ -2405,7 +2405,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       activityHeading: "Gotowy, aby zacząć powtarzać własne karty?",
       heading:
         "Ucz się więcej i zapominaj mniej dzięki darmowym fiszkom z powtórkami rozłożonymi w czasie",
-      buttonLabel: "Zacznij się uczyć za darmo",
+      buttonLabel: "Zobacz, jak to działa",
       featuresHeading:
         "Twórz lepsze karty i powtarzaj je w odpowiednim momencie.",
     },
@@ -2553,7 +2553,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       activityHeading: "Sẵn sàng ôn tập thẻ của chính bạn chưa?",
       heading:
         "Học nhiều hơn và quên ít hơn với thẻ ghi nhớ lặp lại ngắt quãng miễn phí",
-      buttonLabel: "Học miễn phí ngay",
+      buttonLabel: "Xem cách hoạt động",
       featuresHeading:
         "Tạo thẻ tốt hơn và ôn tập đúng lúc.",
     },
@@ -2701,7 +2701,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       activityHeading: "พร้อมเริ่มทบทวนการ์ดของคุณเองแล้วหรือยัง",
       heading:
         "เรียนรู้ได้มากขึ้นและลืมน้อยลงด้วยการ์ดคำถามคำตอบแบบทบทวนเว้นระยะที่ใช้ได้ฟรี",
-      buttonLabel: "เริ่มเรียนฟรี",
+      buttonLabel: "ดูวิธีการทำงาน",
       featuresHeading:
         "สร้างการ์ดที่ดีขึ้นและทบทวนในเวลาที่เหมาะสม",
     },
@@ -2849,7 +2849,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       activityHeading: "Готові почати повторювати власні картки?",
       heading:
         "Вивчайте більше й забувайте менше з безкоштовними картками для інтервального повторення",
-      buttonLabel: "Почати навчання безкоштовно",
+      buttonLabel: "Подивитися, як це працює",
       featuresHeading:
         "Створюйте кращі картки й повторюйте їх у потрібний час.",
     },
@@ -2997,7 +2997,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       activityHeading: "רוצה להתחיל לחזור על הכרטיסים שלך?",
       heading:
         "ללמוד יותר ולשכוח פחות עם כרטיסי לימוד חינמיים בחזרה מרווחת",
-      buttonLabel: "להתחיל ללמוד בחינם",
+      buttonLabel: "לראות איך זה עובד",
       featuresHeading:
         "ליצור כרטיסים טובים יותר ולחזור עליהם בזמן הנכון.",
     },
@@ -3145,7 +3145,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       activityHeading: "Redo att börja repetera dina egna kort?",
       heading:
         "Lär dig mer och glöm mindre med gratis flashcards och intervallrepetition",
-      buttonLabel: "Börja plugga gratis",
+      buttonLabel: "Se hur det funkar",
       featuresHeading:
         "Skapa bättre kort och repetera dem vid rätt tidpunkt.",
     },
@@ -3293,7 +3293,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       activityHeading: "Klar til at begynde at repetere dine egne kort?",
       heading:
         "Lær mere og glem mindre med gratis flashcards til spaced repetition",
-      buttonLabel: "Begynd at lære gratis",
+      buttonLabel: "Se, hvordan det virker",
       featuresHeading:
         "Lav bedre kort, og repeter dem på det rigtige tidspunkt.",
     },
@@ -3441,7 +3441,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       activityHeading: "Klar til å begynne å repetere dine egne kort?",
       heading:
         "Lær mer og glem mindre med gratis læringskort og intervallrepetisjon",
-      buttonLabel: "Begynn å studere gratis",
+      buttonLabel: "Se hvordan det fungerer",
       featuresHeading:
         "Lag bedre kort, og repeter dem til rett tid.",
     },
@@ -3589,7 +3589,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       activityHeading: "Valmis aloittamaan omien korttiesi kertaamisen?",
       heading:
         "Opi enemmän ja unohda vähemmän ilmaisilla välistetyn kertauksen muistikorteilla",
-      buttonLabel: "Aloita opiskelu ilmaiseksi",
+      buttonLabel: "Katso, miten se toimii",
       featuresHeading:
         "Luo parempia kortteja ja kertaa ne oikeaan aikaan.",
     },
@@ -3737,7 +3737,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       activityHeading: "Chcete začít opakovat vlastní kartičky?",
       heading:
         "Naučte se víc a zapomeňte míň díky bezplatným kartičkám s rozloženým opakováním",
-      buttonLabel: "Začít se učit zdarma",
+      buttonLabel: "Podívat se, jak to funguje",
       featuresHeading:
         "Vytvářejte lepší kartičky a opakujte je ve správný čas.",
     },
@@ -3885,7 +3885,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       activityHeading: "Έτοιμοι να ξεκινήσετε επαναλήψεις με τις δικές σας κάρτες;",
       heading:
         "Μάθετε περισσότερα και ξεχνάτε λιγότερα με δωρεάν κάρτες και επανάληψη σε διαστήματα",
-      buttonLabel: "Ξεκινήστε να μελετάτε δωρεάν",
+      buttonLabel: "Δείτε πώς λειτουργεί",
       featuresHeading:
         "Φτιάξτε καλύτερες κάρτες και επαναλάβετέ τις τη σωστή στιγμή.",
     },
@@ -4033,7 +4033,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       activityHeading: "Ești gata să începi să recapitulezi propriile fișe?",
       heading:
         "Învață mai mult și uită mai puțin cu fișe gratuite cu repetiție spațiată",
-      buttonLabel: "Începe să studiezi gratuit",
+      buttonLabel: "Vezi cum funcționează",
       featuresHeading:
         "Creează fișe mai bune și recapitulează-le la momentul potrivit.",
     },
@@ -4181,7 +4181,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       activityHeading: "Készen állsz, hogy a saját kártyáidat ismételd?",
       heading:
         "Tanulj többet és felejts kevesebbet ingyenes, szakaszos ismétléses tanulókártyákkal",
-      buttonLabel: "Kezdj el tanulni ingyen",
+      buttonLabel: "Nézd meg, hogyan működik",
       featuresHeading:
         "Készíts jobb kártyákat, és ismételd őket a megfelelő időben.",
     },
@@ -4329,7 +4329,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       activityHeading: "آماده‌اید مرور کارت‌های خودتان را شروع کنید؟",
       heading:
         "با کارت‌های آموزشی رایگان و تکرار فاصله‌دار بیشتر یاد بگیرید و کمتر فراموش کنید",
-      buttonLabel: "رایگان شروع به مطالعه کنید",
+      buttonLabel: "ببینید چطور کار می‌کند",
       featuresHeading:
         "کارت‌های بهتری بسازید و آن‌ها را در زمان مناسب مرور کنید.",
     },
@@ -4477,7 +4477,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       activityHeading: "Vols començar a repassar les teves pròpies targetes?",
       heading:
         "Aprèn més i oblida menys amb targetes d'estudi gratuïtes de repetició espaiada",
-      buttonLabel: "Comença a estudiar gratis",
+      buttonLabel: "Mira com funciona",
       featuresHeading:
         "Crea targetes millors i repassa-les en el moment adequat.",
     },
@@ -4624,7 +4624,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     cta: {
       activityHeading: "নিজের কার্ড পুনরালোচনা শুরু করতে প্রস্তুত?",
       heading: "ফ্রি স্পেসড রিপিটিশন ফ্ল্যাশকার্ড দিয়ে বেশি শিখুন, কম ভুলুন",
-      buttonLabel: "ফ্রিতে পড়া শুরু করুন",
+      buttonLabel: "দেখুন এটি কীভাবে কাজ করে",
       featuresHeading:
         "ভালো কার্ড তৈরি করুন আর ঠিক সময়ে সেগুলো পুনরালোচনা করুন।",
     },
@@ -4771,7 +4771,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     cta: {
       activityHeading: "તમારાં પોતાનાં કાર્ડનું પુનરાવર્તન શરૂ કરવા તૈયાર છો?",
       heading: "મફત સ્પેસ્ડ રિપિટિશન ફ્લૅશકાર્ડથી વધુ શીખો અને ઓછું ભૂલો",
-      buttonLabel: "મફત અભ્યાસ શરૂ કરો",
+      buttonLabel: "જુઓ તે કેવી રીતે કામ કરે છે",
       featuresHeading:
         "સારાં કાર્ડ બનાવો અને તેમનું યોગ્ય સમયે પુનરાવર્તન કરો.",
     },
@@ -4920,7 +4920,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       activityHeading: "ನಿಮ್ಮದೇ ಕಾರ್ಡ್‌ಗಳ ಪುನರಾವರ್ತನೆ ಆರಂಭಿಸಲು ಸಿದ್ಧರಿದ್ದೀರಾ?",
       heading:
         "ಉಚಿತ ಸ್ಪೇಸ್ಡ್ ರಿಪಿಟಿಶನ್ ಫ್ಲ್ಯಾಶ್‌ಕಾರ್ಡ್‌ಗಳಿಂದ ಹೆಚ್ಚು ಕಲಿಯಿರಿ, ಕಡಿಮೆ ಮರೆಯಿರಿ",
-      buttonLabel: "ಉಚಿತವಾಗಿ ಅಧ್ಯಯನ ಆರಂಭಿಸಿ",
+      buttonLabel: "ಇದು ಹೇಗೆ ಕೆಲಸ ಮಾಡುತ್ತದೆ ಎಂದು ನೋಡಿ",
       featuresHeading:
         "ಉತ್ತಮ ಕಾರ್ಡ್ ರಚಿಸಿ ಮತ್ತು ಸರಿಯಾದ ಸಮಯಕ್ಕೆ ಅವುಗಳನ್ನು ಪುನರಾವರ್ತಿಸಿ.",
     },
@@ -5069,7 +5069,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       activityHeading: "സ്വന്തം കാർഡുകൾ ആവർത്തിക്കാൻ തയ്യാറാണോ?",
       heading:
         "സൗജന്യ സ്പേസ്ഡ് റിപ്പറ്റീഷൻ ഫ്ലാഷ്കാർഡുകൾ കൊണ്ട് കൂടുതൽ പഠിക്കൂ, കുറവ് മറക്കൂ",
-      buttonLabel: "സൗജന്യമായി പഠനം തുടങ്ങുക",
+      buttonLabel: "ഇത് എങ്ങനെ പ്രവർത്തിക്കുന്നു എന്ന് കാണുക",
       featuresHeading:
         "മികച്ച കാർഡുകൾ ഉണ്ടാക്കുക, ശരിയായ സമയത്ത് അവ ആവർത്തിക്കുക.",
     },
@@ -5219,7 +5219,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     cta: {
       activityHeading: "स्वतःच्या कार्डांची उजळणी सुरू करायला तयार आहात?",
       heading: "मोफत स्पेस्ड रिपिटिशन फ्लॅशकार्डांनी अधिक शिका आणि कमी विसरा",
-      buttonLabel: "मोफत अभ्यास सुरू करा",
+      buttonLabel: "हे कसे काम करते ते पाहा",
       featuresHeading:
         "चांगली कार्डे तयार करा आणि त्यांची योग्य वेळी उजळणी करा.",
     },
@@ -5366,7 +5366,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     cta: {
       activityHeading: "ਆਪਣੇ ਕਾਰਡਾਂ ਦੀ ਦੁਹਰਾਈ ਸ਼ੁਰੂ ਕਰਨ ਲਈ ਤਿਆਰ ਹੋ?",
       heading: "ਮੁਫ਼ਤ ਸਪੇਸਡ ਰਿਪੀਟੀਸ਼ਨ ਫਲੈਸ਼ਕਾਰਡਾਂ ਨਾਲ ਵੱਧ ਸਿੱਖੋ ਅਤੇ ਘੱਟ ਭੁੱਲੋ",
-      buttonLabel: "ਮੁਫ਼ਤ ਪੜ੍ਹਾਈ ਸ਼ੁਰੂ ਕਰੋ",
+      buttonLabel: "ਵੇਖੋ ਇਹ ਕਿਵੇਂ ਕੰਮ ਕਰਦਾ ਹੈ",
       featuresHeading: "ਬਿਹਤਰ ਕਾਰਡ ਬਣਾਓ ਅਤੇ ਸਹੀ ਵੇਲੇ ਉਨ੍ਹਾਂ ਦੀ ਦੁਹਰਾਈ ਕਰੋ।",
     },
     docs: {
@@ -5515,7 +5515,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       activityHeading: "உங்கள் சொந்த அட்டைகளை மீள்பயிற்சி செய்யத் தயாரா?",
       heading:
         "இலவச இடைவெளி மீள்பயிற்சி ஃபிளாஷ் கார்டுகளால் அதிகம் கற்று, குறைவாக மறவுங்கள்",
-      buttonLabel: "இலவசமாகப் படிக்கத் தொடங்கு",
+      buttonLabel: "இது எப்படி வேலை செய்கிறது என்று பாருங்கள்",
       featuresHeading:
         "சிறந்த அட்டைகளை உருவாக்கி, சரியான நேரத்தில் அவற்றை மீள்பயிற்சி செய்யுங்கள்.",
     },
@@ -5664,7 +5664,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       activityHeading: "మీ సొంత కార్డుల పునశ్చరణ మొదలుపెట్టడానికి సిద్ధమా?",
       heading:
         "ఉచిత స్పేస్‌డ్ రిపిటిషన్ ఫ్లాష్ కార్డులతో ఎక్కువ నేర్చుకోండి, తక్కువ మరచిపోండి",
-      buttonLabel: "ఉచితంగా అధ్యయనం మొదలుపెట్టండి",
+      buttonLabel: "ఇది ఎలా పనిచేస్తుందో చూడండి",
       featuresHeading:
         "మంచి కార్డులు తయారు చేసి, సరైన సమయంలో వాటిని పునశ్చరణ చేయండి.",
     },
@@ -5813,7 +5813,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       activityHeading: "اپنے کارڈز کی دہرائی شروع کرنے کے لیے تیار ہیں؟",
       heading:
         "مفت وقفہ وار دہرائی والے فلیش کارڈز سے زیادہ سیکھیں اور کم بھولیں",
-      buttonLabel: "مفت مطالعہ شروع کریں",
+      buttonLabel: "دیکھیں یہ کیسے کام کرتا ہے",
       featuresHeading: "بہتر کارڈ بنائیں اور صحیح وقت پر ان کی دہرائی کریں۔",
     },
     docs: {
@@ -5961,7 +5961,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       activityHeading: "Uko tayari kuanza marudio ya kadi zako mwenyewe?",
       heading:
         "Jifunze zaidi na usahau kidogo kwa kadi za kujifunzia za bure zenye marudio ya vipindi",
-      buttonLabel: "Anza kusoma bila malipo",
+      buttonLabel: "Tazama jinsi inavyofanya kazi",
       featuresHeading:
         "Tengeneza kadi bora na uzifanyie marudio kwa wakati unaofaa.",
     },
@@ -6110,7 +6110,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       activityHeading: "Готови ли сте да преговаряте собствените си карти?",
       heading:
         "Учете повече и забравяйте по-малко с безплатни флашкарти с интервално повторение",
-      buttonLabel: "Започнете да учите безплатно",
+      buttonLabel: "Вижте как работи",
       featuresHeading:
         "Създавайте по-добри карти и ги преговаряйте в подходящия момент.",
     },
@@ -6258,7 +6258,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       activityHeading: "Valmis alustama oma kaartide kordamist?",
       heading:
         "Õpi rohkem ja unusta vähem tasuta hajutatud kordamise õpikaartidega",
-      buttonLabel: "Alusta tasuta õppimist",
+      buttonLabel: "Vaata, kuidas see toimib",
       featuresHeading:
         "Loo paremaid kaarte ja korda neid õigel ajal.",
     },
@@ -6406,7 +6406,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       activityHeading: "Spremni za ponavljanje vlastitih kartica?",
       heading:
         "Naučite više i zaboravite manje uz besplatne kartice s razmaknutim ponavljanjem",
-      buttonLabel: "Počnite učiti besplatno",
+      buttonLabel: "Pogledajte kako funkcionira",
       featuresHeading:
         "Izradite bolje kartice i ponavljajte ih u pravo vrijeme.",
     },
@@ -6554,7 +6554,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       activityHeading: "Tilbúin(n) að rifja upp þín eigin spjöld?",
       heading:
         "Lærðu meira og gleymdu minna með ókeypis námskortum og spaced repetition",
-      buttonLabel: "Byrja að læra ókeypis",
+      buttonLabel: "Sjá hvernig það virkar",
       featuresHeading:
         "Búðu til betri spjöld og rifjaðu þau upp á réttum tíma.",
     },
@@ -6702,7 +6702,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       activityHeading: "Norite pradėti kartoti savo korteles?",
       heading:
         "Išmokite daugiau ir pamirškite mažiau su nemokamomis kortelėmis ir kartojimu intervalais",
-      buttonLabel: "Pradėti mokytis nemokamai",
+      buttonLabel: "Pažiūrėti, kaip tai veikia",
       featuresHeading:
         "Kurkite geresnes korteles ir kartokite jas tinkamu metu.",
     },
@@ -6850,7 +6850,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       activityHeading: "Gatavs sākt atkārtot savas kartītes?",
       heading:
         "Mācies vairāk un aizmirsti mazāk ar bezmaksas kartītēm un spaced repetition",
-      buttonLabel: "Sāc mācīties bez maksas",
+      buttonLabel: "Paskaties, kā tas darbojas",
       featuresHeading:
         "Veido labākas kartītes un atkārto tās īstajā laikā.",
     },
@@ -6998,7 +6998,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       activityHeading: "Chcete začať opakovať vlastné kartičky?",
       heading:
         "Naučte sa viac a zabudnite menej vďaka bezplatným kartičkám s opakovaním v rozostupoch",
-      buttonLabel: "Začať sa učiť zadarmo",
+      buttonLabel: "Pozrieť sa, ako to funguje",
       featuresHeading:
         "Vytvárajte lepšie kartičky a opakujte si ich v správnom čase.",
     },
@@ -7146,7 +7146,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       activityHeading: "Ste pripravljeni na ponavljanje svojih kartic?",
       heading:
         "Naučite se več in pozabite manj z brezplačnimi učnimi karticami in ponavljanjem v časovnih razmikih",
-      buttonLabel: "Začnite se učiti brezplačno",
+      buttonLabel: "Poglejte, kako deluje",
       featuresHeading:
         "Ustvarjajte boljše kartice in jih ponavljajte ob pravem času.",
     },
@@ -7294,7 +7294,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       activityHeading: "Usukulungele ukuqala ukubuyekeza amakhadi akho?",
       heading:
         "Funda okwengeziwe ukhohlwe okuncane ngamakhadi okufunda amahhala ne-spaced repetition",
-      buttonLabel: "Qala ukufunda mahhala",
+      buttonLabel: "Bona ukuthi kusebenza kanjani",
       featuresHeading:
         "Dala amakhadi angcono uwabuyekeze ngesikhathi esifanele.",
     },
