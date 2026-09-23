@@ -1,8 +1,8 @@
 "use client";
 
-import { reportSiteAppEntryClick } from "@/lib/appEntryTracking";
+import Link from "next/link";
 import type { AppLocale } from "@/lib/i18n";
-import { getExternalLinkAttributes } from "@/lib/linkTargets";
+import { reportSiteInternalCtaClick } from "@/lib/internalCtaTracking";
 import { trackVercelAnalyticsEvent } from "@/lib/vercelAnalytics";
 
 export type BlogCtaPlacement =
@@ -28,16 +28,12 @@ export function TrackedBlogCtaLink({
       placement,
       locale,
     });
-    reportSiteAppEntryClick("web_app", locale, placement);
+    reportSiteInternalCtaClick("home", locale, placement);
   };
 
   return (
-    <a
-      href={href}
-      {...getExternalLinkAttributes(href)}
-      onClick={trackBlogCtaClick}
-    >
+    <Link href={href} onClick={trackBlogCtaClick}>
       {label}
-    </a>
+    </Link>
   );
 }
