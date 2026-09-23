@@ -1,5 +1,6 @@
 "use client";
 
+import { getSiteAppEntryImpressionAttributes } from "@/lib/appEntryImpressionAttributes";
 import {
   trackAppEntryClick,
   type AppEntryAction,
@@ -31,6 +32,7 @@ export function TrackedAppEntryLink({
     <a
       href={href}
       {...getExternalLinkAttributes(href)}
+      {...getSiteAppEntryImpressionAttributes("web_app", placement)}
       onClick={handleClick}
     >
       {label}

@@ -11,6 +11,7 @@ import {
   type PointerEvent as ReactPointerEvent,
 } from "react";
 import { createPortal } from "react-dom";
+import type { SiteAppEntryImpressionAttributes } from "@/lib/appEntryImpressionAttributes";
 import { getExternalLinkAttributes } from "@/lib/linkTargets";
 import styles from "./StoreQrHoverLink.module.css";
 
@@ -22,6 +23,8 @@ interface StoreQrHoverLinkProps {
   readonly className: string | undefined;
   readonly hint: string;
   readonly href: string;
+  /** Marks the anchor for the document-scoped app-entry impression observer. */
+  readonly impressionAttributes: SiteAppEntryImpressionAttributes;
   readonly onClick: () => void;
   readonly qrSvgMarkup: string;
 }
@@ -32,6 +35,7 @@ export const StoreQrHoverLink: React.FC<StoreQrHoverLinkProps> = ({
   className,
   hint,
   href,
+  impressionAttributes,
   onClick,
   qrSvgMarkup,
 }) => {
@@ -112,6 +116,7 @@ export const StoreQrHoverLink: React.FC<StoreQrHoverLinkProps> = ({
         {...getExternalLinkAttributes(href)}
         aria-label={ariaLabel}
         className={className}
+        {...impressionAttributes}
         onBlur={hideCard}
         onClick={handleClick}
         onFocus={handleFocus}

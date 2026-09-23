@@ -1,6 +1,7 @@
 "use client";
 
 import { getAppUrl, getSignupUrl } from "@/lib/auth";
+import { getSiteAppEntryImpressionAttributes } from "@/lib/appEntryImpressionAttributes";
 import {
   trackAppEntryClick,
   type AppEntryAction,
@@ -31,7 +32,11 @@ export function AuthAwareAppCtaLink({
   };
 
   return (
-    <a href={href} onClick={handleClick}>
+    <a
+      href={href}
+      {...getSiteAppEntryImpressionAttributes("web_app", placement)}
+      onClick={handleClick}
+    >
       {label}
     </a>
   );
