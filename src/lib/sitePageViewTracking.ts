@@ -9,14 +9,18 @@ import {
 import { resolveAnalyticsVisitorIdentity } from "./analyticsVisitor";
 import type { AppLocale } from "./i18n";
 import {
+  classifySiteReferrerHost,
   classifySiteSource,
   getSiteDeviceCategory,
   getSitePageKind,
   getSitePagePath,
+  readSiteCampaignParameters,
   sendSiteAnalyticsEvent,
   SITE_PACKAGE_VERSION_ID_ATTRIBUTE,
+  type SiteCampaignParameters,
   type SiteDeviceCategory,
   type SitePageKind,
+  type SiteReferrerHost,
   type SiteSource,
   warnAboutSiteAnalyticsFailure,
 } from "./siteAnalyticsCollector";
@@ -39,6 +43,8 @@ interface SitePageViewDraft {
   readonly packageVersionId: string | null;
   readonly source: SiteSource;
   readonly deviceCategory: SiteDeviceCategory;
+  readonly referrerHost: SiteReferrerHost | null;
+  readonly campaign: SiteCampaignParameters;
 }
 
 // The page view still waiting for this load's identity resolution. At most one exists: a newer
@@ -84,6 +90,10 @@ function sendPendingSitePageView(): void {
     ...(draft.packageVersionId === null ? {} : { package_version_id: draft.packageVersionId }),
     source: draft.source,
     device_category: draft.deviceCategory,
+    ...(draft.referrerHost === null ? {} : { referrer_host: draft.referrerHost }),
+    ...(draft.campaign.utmSource === null ? {} : { utm_source: draft.campaign.utmSource }),
+    ...(draft.campaign.utmMedium === null ? {} : { utm_medium: draft.campaign.utmMedium }),
+    ...(draft.campaign.utmCampaign === null ? {} : { utm_campaign: draft.campaign.utmCampaign }),
   });
 }
 
@@ -96,7 +106,10 @@ function sendPendingSitePageViewWhenHidden(): void {
 /**
  * The document's own referrer describes only the first page of a load. After a client-side
  * navigation, `document.referrer` still names that first page's referrer, so the page the visitor
- * actually came from - the previously reported one on this site - is classified instead.
+ * actually came from - the previously reported one on this site - is classified instead. Both the
+ * source and the referrer host are read from it, so a client-side navigation reports no host: it
+ * came from this site. The campaign is the one on the address being viewed, which after the first
+ * page is normally none.
  *
  * Everything is read now, and the event is sent once this load's identity resolution settles: a
  * first visit outside a consent jurisdiction is minted its visitor cookie by that request, and a
@@ -142,6 +155,8 @@ function reportSitePageView(locale: AppLocale, pageUrl: string): void {
     packageVersionId,
     source: classifySiteSource(referrer, window.location.hostname),
     deviceCategory: getSiteDeviceCategory(),
+    referrerHost: classifySiteReferrerHost(referrer, window.location.hostname),
+    campaign: readSiteCampaignParameters(window.location.search),
   };
   window.addEventListener("pagehide", sendPendingSitePageView);
   document.addEventListener("visibilitychange", sendPendingSitePageViewWhenHidden);
