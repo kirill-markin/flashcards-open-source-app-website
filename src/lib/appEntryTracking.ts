@@ -7,12 +7,19 @@ import {
   getSiteDeviceCategory,
   getSitePageKind,
   sendSiteAnalyticsEvent,
+  type SiteAppEntryAction,
   type SiteAppEntryStoreTarget,
   type SiteAppEntryTarget,
 } from "@/lib/siteAnalyticsCollector";
 import { trackVercelAnalyticsEvent } from "@/lib/vercelAnalytics";
 
-export type AppEntryAction = "login" | "open_app" | "signup";
+/**
+ * The same union the contract already holds, under the name this module's callers use. It aliases
+ * the contract type rather than repeating its literals, so the action a CTA reports and the action
+ * `site_app_entry_clicked` accepts cannot drift apart; the collector cannot reach the other way,
+ * because this module imports it.
+ */
+export type AppEntryAction = SiteAppEntryAction;
 
 /**
  * Every place a CTA into the product can sit. A runtime list rather than a bare union, because the
