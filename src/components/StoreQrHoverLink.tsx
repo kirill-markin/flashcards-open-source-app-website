@@ -11,11 +11,67 @@ import {
   type PointerEvent as ReactPointerEvent,
 } from "react";
 import { createPortal } from "react-dom";
+import { isSiteAnalyticsCollectionEnabled } from "@/lib/analyticsConsent";
 import type { SiteAppEntryImpressionAttributes } from "@/lib/appEntryImpressionAttributes";
+import type { AppEntryPlacement } from "@/lib/appEntryTracking";
+import type { AppLocale } from "@/lib/i18n";
 import { getExternalLinkAttributes } from "@/lib/linkTargets";
+import {
+  classifySiteSource,
+  getSiteDeviceCategory,
+  getSitePageKind,
+  sendSiteAnalyticsEvent,
+  type SiteAppEntryStoreTarget,
+} from "@/lib/siteAnalyticsCollector";
 import styles from "./StoreQrHoverLink.module.css";
 
 const hoverIntentDelayMs = 120;
+
+/**
+ * The QR shows already reported by this document, keyed by target, placement and page kind,
+ * exactly as `reportedImpressionKeys` in `src/lib/appEntryImpressionTracking.ts` is keyed and for
+ * the same reason: `analytics.product_events` is append-only, this component remounts on
+ * navigation and under React strict mode, and a show reported twice can never be taken back.
+ */
+const reportedQrShowKeys = new Set<string>();
+
+/**
+ * Reports that the QR card opened. Nothing waits for a dwell on top of it: the card is already
+ * worth 120 ms of deliberate hover, or a `:focus-visible` landing on the link. `page_kind`,
+ * `source` and `device_category` are read exactly as `reportSiteAppEntryClick` reads them, so a
+ * show and the click it may precede agree property for property and join by equality.
+ *
+ * The collection switch is read here as well as inside the collector, the way the impression
+ * tracker reads it, so that turning it off leaves the key unburned: the corner control notifies
+ * listeners rather than reloading the page, so a key spent on a send the collector dropped could
+ * never be reported in this document again. The key is still taken before the send itself, because
+ * a request that fails is not retried and a show reported twice can never be taken back.
+ */
+function reportStoreQrShown(
+  target: SiteAppEntryStoreTarget,
+  locale: AppLocale,
+  placement: AppEntryPlacement,
+): void {
+  if (isSiteAnalyticsCollectionEnabled() === false) {
+    return;
+  }
+
+  const pageKind = getSitePageKind(window.location.pathname);
+  const qrShowKey = `${target}|${placement}|${pageKind}`;
+  if (reportedQrShowKeys.has(qrShowKey)) {
+    return;
+  }
+
+  reportedQrShowKeys.add(qrShowKey);
+
+  sendSiteAnalyticsEvent("site_store_qr_shown", new Date().toISOString(), locale, {
+    target,
+    page_kind: pageKind,
+    placement,
+    source: classifySiteSource(document.referrer, window.location.hostname),
+    device_category: getSiteDeviceCategory(),
+  });
+}
 
 interface StoreQrHoverLinkProps {
   readonly ariaLabel: string;
@@ -25,8 +81,11 @@ interface StoreQrHoverLinkProps {
   readonly href: string;
   /** Marks the anchor for the document-scoped app-entry impression observer. */
   readonly impressionAttributes: SiteAppEntryImpressionAttributes;
+  readonly locale: AppLocale;
   readonly onClick: () => void;
+  readonly placement: AppEntryPlacement;
   readonly qrSvgMarkup: string;
+  readonly target: SiteAppEntryStoreTarget;
 }
 
 export const StoreQrHoverLink: React.FC<StoreQrHoverLinkProps> = ({
@@ -36,8 +95,11 @@ export const StoreQrHoverLink: React.FC<StoreQrHoverLinkProps> = ({
   hint,
   href,
   impressionAttributes,
+  locale,
   onClick,
+  placement,
   qrSvgMarkup,
+  target,
 }) => {
   const [isCardVisible, setIsCardVisible] = useState<boolean>(false);
   const hoverIntentTimeoutRef = useRef<number | null>(null);
@@ -59,6 +121,10 @@ export const StoreQrHoverLink: React.FC<StoreQrHoverLinkProps> = ({
     clearHoverIntent();
     setIsCardVisible(false);
   }, [clearHoverIntent]);
+  const showCard = useCallback((): void => {
+    setIsCardVisible(true);
+    reportStoreQrShown(target, locale, placement);
+  }, [locale, placement, target]);
 
   useEffect(() => clearHoverIntent, [clearHoverIntent]);
 
@@ -90,7 +156,7 @@ export const StoreQrHoverLink: React.FC<StoreQrHoverLinkProps> = ({
     clearHoverIntent();
     hoverIntentTimeoutRef.current = window.setTimeout(() => {
       hoverIntentTimeoutRef.current = null;
-      setIsCardVisible(true);
+      showCard();
     }, hoverIntentDelayMs);
   };
   const handleFocus = (event: ReactFocusEvent<HTMLAnchorElement>): void => {
@@ -99,7 +165,7 @@ export const StoreQrHoverLink: React.FC<StoreQrHoverLinkProps> = ({
     }
 
     clearHoverIntent();
-    setIsCardVisible(true);
+    showCard();
   };
   // The store link opens a new tab, and no pointerleave arrives while this tab is in the
   // background, so the card has to be hidden at click time.

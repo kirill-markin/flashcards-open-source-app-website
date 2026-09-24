@@ -108,6 +108,8 @@ export const HumanPlatformLinks: React.FC<HumanPlatformLinksProps> = ({
           );
 
           if (platform.analytics.kind === "store") {
+            const storeTarget = getStoreAppEntryTarget(platform.analytics.platform);
+
             return (
               <StoreQrHoverLink
                 key={platform.label}
@@ -116,11 +118,14 @@ export const HumanPlatformLinks: React.FC<HumanPlatformLinksProps> = ({
                 hint={uiCopy.platforms.scanQrHint}
                 href={platform.href}
                 impressionAttributes={getSiteAppEntryImpressionAttributes(
-                  getStoreAppEntryTarget(platform.analytics.platform),
+                  storeTarget,
                   STORE_LINK_PLACEMENT,
                 )}
+                locale={locale}
                 onClick={trackPlatformClick}
+                placement={STORE_LINK_PLACEMENT}
                 qrSvgMarkup={storeQrCodes[platform.analytics.platform]}
+                target={storeTarget}
               >
                 {platformContent}
               </StoreQrHoverLink>
