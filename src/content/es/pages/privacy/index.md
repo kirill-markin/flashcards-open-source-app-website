@@ -80,6 +80,8 @@ OpenAI es el proveedor configurado para las funciones alojadas de chat, transcri
 
 Las solicitudes de IA alojada también se observan mediante Langfuse Cloud para depuración y análisis de calidad. Sus trazas pueden incluir prompts, respuestas del modelo, actividad de herramientas, identificadores de usuario, espacio de trabajo y sesión, y metadatos operativos. La implementación oculta correos y campos con apariencia de secreto; las trazas personalizadas de transcripción excluyen el audio y los datos de archivos adjuntos.
 
+Nuestros administradores pueden leer el contenido de los chats de IA alojados guardado en nuestra propia base de datos, incluidos tus prompts, las respuestas del modelo y las sugerencias de prompts del campo de entrada del chat, para analizar cómo se usan las funciones de IA y mejorarlas. El acceso a ese contenido se limita a los administradores del operador.
+
 Si conectas Nibomo a un cliente externo de IA mediante el servicio MCP remoto o la Agent API, el cliente y su proveedor de IA también tratan los datos que le pidas recuperar. Ese tratamiento independiente está controlado por el operador del cliente y se rige por sus propias condiciones y política de privacidad.
 
 ## Encargados y destinatarios
@@ -111,7 +113,7 @@ La aplicación alojada principal funciona en infraestructura de AWS en la UE. La
 - La base de datos tiene 7 días de copias automatizadas de RDS y un plan diario separado de AWS Backup con 35 días de conservación. Los registros eliminados del servicio activo pueden permanecer en copias cifradas hasta que caduquen; esas copias se usan para recuperación ante desastres, no para el acceso normal.
 - Los registros de acceso de API Gateway caducan a los 7 días. Los demás registros de aplicación de CloudWatch no tienen actualmente una caducidad automática configurada y permanecen hasta su eliminación manual. Limitamos su uso a operaciones, seguridad y depuración, y eliminamos las entradas pertinentes cuando sea necesario para atender un derecho de protección de datos aplicable.
 - El plan Developer actual de Sentry ofrece 30 días de consulta de eventos. Resend conserva los datos de correos enviados durante 30 días con su configuración estándar actual.
-- La conservación de OpenAI se describe en la sección de IA. El proyecto actual de Langfuse no tiene un periodo de eliminación automática, por lo que las trazas permanecen hasta que se borran manualmente, se elimina el proyecto o se aplica un límite de acceso del proveedor. Eliminamos trazas identificables cuando sea necesario para atender una solicitud de eliminación válida.
+- La conservación de OpenAI se describe en la sección de IA. Langfuse Cloud elimina las trazas de IA a los 30 días: el límite de acceso del proveedor aplicado a nuestro proyecto borra cada noche las trazas más antiguas, y esa eliminación es irreversible. Eliminamos trazas identificables cuando sea necesario para atender una solicitud de eliminación válida.
 - La correspondencia de soporte y los registros necesarios para asuntos legales o de seguridad se conservan solo mientras sean necesarios. El hash de visitante de Vercel caduca a las 24 horas; las estadísticas agregadas se conservan según la configuración del proyecto de Vercel.
 
 Eliminar una cuenta no borra de inmediato las copias ya incluidas en una copia programada o registro de proveedor. Esas copias caducan o se eliminan según los plazos anteriores, salvo obligación legal de conservarlas más tiempo.
