@@ -33,6 +33,9 @@ export type SitePageKind =
 
 export type SiteAppEntryTarget = "web_app" | "app_store" | "google_play";
 
+/** The app-entry targets a store QR card can stand behind; the web app CTA has no card. */
+export type SiteAppEntryStoreTarget = Exclude<SiteAppEntryTarget, "web_app">;
+
 export type SiteInternalCtaTarget = "home";
 
 /**
@@ -47,6 +50,19 @@ type SiteAppEntryEventProperties = Readonly<{
   source: SiteSource;
   device_category: SiteDeviceCategory;
 }>;
+
+/**
+ * A store QR card carries the app-entry click's own properties with the target narrowed to the two
+ * that can have a card, so a QR show and the click it may precede join by equality on the rest.
+ *
+ * The shape is shared, but the backend catalog declares this event's properties independently and
+ * refuses anything else, so a property added for the app-entry pair has to be declared there before
+ * it can be sent here.
+ */
+type SiteStoreQrEventProperties = Readonly<
+  Omit<SiteAppEntryEventProperties, "target">
+  & { target: SiteAppEntryStoreTarget }
+>;
 
 interface SiteAnalyticsEventPropertiesByName {
   readonly catalog_install_clicked: Readonly<{
@@ -64,6 +80,7 @@ interface SiteAnalyticsEventPropertiesByName {
   }>;
   readonly site_app_entry_clicked: SiteAppEntryEventProperties;
   readonly site_app_entry_shown: SiteAppEntryEventProperties;
+  readonly site_store_qr_shown: SiteStoreQrEventProperties;
   readonly site_internal_cta_clicked: Readonly<{
     target: SiteInternalCtaTarget;
     page_kind: SitePageKind;
