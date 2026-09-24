@@ -7,6 +7,7 @@ import {
   getSiteDeviceCategory,
   getSitePageKind,
   sendSiteAnalyticsEvent,
+  type SiteAppEntryStoreTarget,
   type SiteAppEntryTarget,
 } from "@/lib/siteAnalyticsCollector";
 import { trackVercelAnalyticsEvent } from "@/lib/vercelAnalytics";
@@ -32,7 +33,9 @@ export const APP_ENTRY_PLACEMENTS = [
 
 export type AppEntryPlacement = typeof APP_ENTRY_PLACEMENTS[number];
 
-const STORE_APP_ENTRY_TARGETS: Readonly<Record<StoreAnalyticsPlatform, SiteAppEntryTarget>> = {
+const STORE_APP_ENTRY_TARGETS: Readonly<
+  Record<StoreAnalyticsPlatform, SiteAppEntryStoreTarget>
+> = {
   android: "google_play",
   ios: "app_store",
 };
@@ -54,7 +57,7 @@ export function reportSiteAppEntryClick(
 
 export function getStoreAppEntryTarget(
   platform: StoreAnalyticsPlatform,
-): SiteAppEntryTarget {
+): SiteAppEntryStoreTarget {
   return STORE_APP_ENTRY_TARGETS[platform];
 }
 

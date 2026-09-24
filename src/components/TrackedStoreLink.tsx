@@ -29,16 +29,13 @@ export const TrackedStoreLink: React.FC<TrackedStoreLinkProps> = ({
   platform,
   qrSvgMarkup,
 }) => {
+  const storeTarget = getStoreAppEntryTarget(platform);
   const trackStoreLinkClick = (): void => {
     trackVercelAnalyticsEvent("store_link_click", {
       platform,
       placement: STORE_LINK_PLACEMENT,
     });
-    reportSiteAppEntryClick(
-      getStoreAppEntryTarget(platform),
-      locale,
-      STORE_LINK_PLACEMENT,
-    );
+    reportSiteAppEntryClick(storeTarget, locale, STORE_LINK_PLACEMENT);
   };
 
   return (
@@ -48,11 +45,14 @@ export const TrackedStoreLink: React.FC<TrackedStoreLinkProps> = ({
       hint={hint}
       href={href}
       impressionAttributes={getSiteAppEntryImpressionAttributes(
-        getStoreAppEntryTarget(platform),
+        storeTarget,
         STORE_LINK_PLACEMENT,
       )}
+      locale={locale}
       onClick={trackStoreLinkClick}
+      placement={STORE_LINK_PLACEMENT}
       qrSvgMarkup={qrSvgMarkup}
+      target={storeTarget}
     >
       {label}
     </StoreQrHoverLink>
