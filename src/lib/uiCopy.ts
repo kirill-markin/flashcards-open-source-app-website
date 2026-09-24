@@ -155,7 +155,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     },
     analyticsConsentWithdrawal: {
       close: "Close",
-      collectionDescription: "When this is off, this site sends nothing about your visits at all, with or without the cookie. This site has no accounts, so the choice is kept in this browser and applies only here. Once you have answered the banner, the analytics cookie choice is available here while collection is on.",
+      collectionDescription: "When this is off, this site sends nothing about your visits at all, with or without the cookie. This site has no accounts, so the choice is kept in this browser and applies only here. Once you have answered the banner, the analytics cookie choice is available here while collection is on. If your browser sends a Global Privacy Control signal, this site gives it no analytics cookie at all, so there is no cookie choice to make.",
       collectionStorageError: "This browser will not remember this choice, so it applies only until you leave this page.",
       collectionTitle: "Allow analytics collection",
       off: "Off",
@@ -305,7 +305,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     },
     analyticsConsentWithdrawal: {
       close: "Cerrar",
-      collectionDescription: "Cuando está desactivado, este sitio no envía nada sobre tus visitas, con cookie o sin ella. Este sitio no tiene cuentas, así que la elección se guarda en este navegador y solo se aplica aquí. Una vez que has respondido al aviso, la elección sobre las cookies de analítica está disponible aquí mientras la recopilación está activada.",
+      collectionDescription: "Cuando está desactivado, este sitio no envía nada sobre tus visitas, con cookie o sin ella. Este sitio no tiene cuentas, así que la elección se guarda en este navegador y solo se aplica aquí. Una vez que has respondido al aviso, la elección sobre las cookies de analítica está disponible aquí mientras la recopilación está activada. Si tu navegador envía una señal de Global Privacy Control, este sitio no le da ninguna cookie de analítica, así que no hay ninguna elección de cookie que hacer.",
       collectionStorageError: "Este navegador no recordará esta elección, así que solo se aplica hasta que salgas de esta página.",
       collectionTitle: "Permitir la recopilación de analítica",
       off: "Desactivado",
@@ -455,7 +455,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     },
     analyticsConsentWithdrawal: {
       close: "إغلاق",
-      collectionDescription: "عند إيقافه، لا يرسل هذا الموقع أي شيء عن زياراتك إطلاقًا، سواء بوجود ملف تعريف الارتباط أو بدونه. لا توجد حسابات في هذا الموقع، لذلك يُحفظ هذا الاختيار في هذا المتصفح ويسري هنا فقط. وبعد أن تجيب عن الشريط، يتوفر هنا الاختيار الخاص بملفات تعريف الارتباط التحليلية ما دام الجمع مفعّلًا.",
+      collectionDescription: "عند إيقافه، لا يرسل هذا الموقع أي شيء عن زياراتك إطلاقًا، سواء بوجود ملف تعريف الارتباط أو بدونه. لا توجد حسابات في هذا الموقع، لذلك يُحفظ هذا الاختيار في هذا المتصفح ويسري هنا فقط. وبعد أن تجيب عن الشريط، يتوفر هنا الاختيار الخاص بملفات تعريف الارتباط التحليلية ما دام الجمع مفعّلًا. وإذا أرسل متصفحك إشارة Global Privacy Control، فإن هذا الموقع لا يمنحه أي ملف تعريف ارتباط للتحليلات إطلاقًا، ولذلك لا يوجد هنا خيار بشأن ملفات تعريف الارتباط.",
       collectionStorageError: "لن يتذكر هذا المتصفح هذا الاختيار، لذلك يسري فقط حتى تغادر هذه الصفحة.",
       collectionTitle: "السماح بجمع بيانات التحليلات",
       off: "متوقف",
@@ -604,7 +604,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     },
     analyticsConsentWithdrawal: {
       close: "Schließen",
-      collectionDescription: "Wenn dies aus ist, sendet diese Website gar nichts über deine Besuche, mit oder ohne Cookie. Diese Website hat keine Konten, also bleibt die Entscheidung in diesem Browser und gilt nur hier. Sobald du das Banner beantwortet hast, steht die Entscheidung über Analyse-Cookies hier zur Verfügung, solange die Erfassung an ist.",
+      collectionDescription: "Wenn dies aus ist, sendet diese Website gar nichts über deine Besuche, mit oder ohne Cookie. Diese Website hat keine Konten, also bleibt die Entscheidung in diesem Browser und gilt nur hier. Sobald du das Banner beantwortet hast, steht die Entscheidung über Analyse-Cookies hier zur Verfügung, solange die Erfassung an ist. Wenn dein Browser ein Global-Privacy-Control-Signal sendet, gibt ihm diese Website gar kein Analyse-Cookie, also gibt es auch keine Cookie-Entscheidung zu treffen.",
       collectionStorageError: "Dieser Browser merkt sich diese Entscheidung nicht, sie gilt also nur, bis du diese Seite verlässt.",
       collectionTitle: "Analyse-Erfassung erlauben",
       off: "Aus",
@@ -754,7 +754,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     },
     analyticsConsentWithdrawal: {
       close: "बंद करें",
-      collectionDescription: "बंद होने पर यह साइट आपकी विज़िट के बारे में कुछ भी नहीं भेजती, कुकी के साथ हो या बिना। इस साइट पर कोई खाता नहीं है, इसलिए यह चुनाव इसी ब्राउज़र में रहता है और सिर्फ़ यहीं लागू होता है। बैनर का उत्तर दे देने के बाद, एनालिटिक्स कुकी का विकल्प यहाँ उपलब्ध रहता है, जब तक संग्रह चालू है।",
+      collectionDescription: "बंद होने पर यह साइट आपकी विज़िट के बारे में कुछ भी नहीं भेजती, कुकी के साथ हो या बिना। इस साइट पर कोई खाता नहीं है, इसलिए यह चुनाव इसी ब्राउज़र में रहता है और सिर्फ़ यहीं लागू होता है। बैनर का उत्तर दे देने के बाद, एनालिटिक्स कुकी का विकल्प यहाँ उपलब्ध रहता है, जब तक संग्रह चालू है। अगर आपका ब्राउज़र Global Privacy Control संकेत भेजता है, तो यह साइट उसे कोई भी एनालिटिक्स कुकी नहीं देती, इसलिए कुकी को लेकर यहाँ कोई विकल्प नहीं होता।",
       collectionStorageError: "यह ब्राउज़र इस चुनाव को याद नहीं रखेगा, इसलिए यह सिर्फ़ तब तक लागू है जब तक आप इस पेज पर हैं।",
       collectionTitle: "एनालिटिक्स संग्रह की अनुमति दें",
       off: "बंद",
@@ -904,7 +904,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     },
     analyticsConsentWithdrawal: {
       close: "閉じる",
-      collectionDescription: "オフのとき、このサイトは Cookie の有無にかかわらず、あなたの訪問について何も送信しません。このサイトにはアカウントがないため、この選択はこのブラウザーに保存され、ここでのみ適用されます。 バナーに回答したあとは、収集がオンのあいだ、分析 Cookie の選択をここで行えます。",
+      collectionDescription: "オフのとき、このサイトは Cookie の有無にかかわらず、あなたの訪問について何も送信しません。このサイトにはアカウントがないため、この選択はこのブラウザーに保存され、ここでのみ適用されます。 バナーに回答したあとは、収集がオンのあいだ、分析 Cookie の選択をここで行えます。 お使いのブラウザが Global Privacy Control を通知する場合、このサイトはそのブラウザに分析 Cookie を一切付与しないため、Cookie について選ぶことはありません。",
       collectionStorageError: "このブラウザーはこの選択を記憶しないため、このページを離れるまでの間だけ有効です。",
       collectionTitle: "分析データの収集を許可",
       off: "オフ",
@@ -1054,7 +1054,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     },
     analyticsConsentWithdrawal: {
       close: "Fermer",
-      collectionDescription: "Quand c'est désactivé, ce site n'envoie rien du tout sur vos visites, avec ou sans cookie. Ce site n'a pas de comptes, donc le choix reste dans ce navigateur et ne s'applique qu'ici. Une fois que vous avez répondu à la bannière, le choix concernant les cookies d'analyse est disponible ici tant que la collecte est activée.",
+      collectionDescription: "Quand c'est désactivé, ce site n'envoie rien du tout sur vos visites, avec ou sans cookie. Ce site n'a pas de comptes, donc le choix reste dans ce navigateur et ne s'applique qu'ici. Une fois que vous avez répondu à la bannière, le choix concernant les cookies d'analyse est disponible ici tant que la collecte est activée. Si votre navigateur envoie un signal Global Privacy Control, ce site ne lui dépose aucun cookie d'analyse, il n'y a donc aucun choix de cookie à faire.",
       collectionStorageError: "Ce navigateur ne retiendra pas ce choix, il ne s'applique donc que jusqu'à ce que vous quittiez cette page.",
       collectionTitle: "Autoriser la collecte de mesure",
       off: "Désactivé",
@@ -1204,7 +1204,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     },
     analyticsConsentWithdrawal: {
       close: "Fechar",
-      collectionDescription: "Quando está desligado, este site não envia nada sobre as suas visitas, com ou sem cookie. Este site não tem contas, então a escolha fica neste navegador e vale apenas aqui. Depois de responder ao aviso, a escolha sobre os cookies de analítica fica disponível aqui enquanto a recolha estiver ligada.",
+      collectionDescription: "Quando está desligado, este site não envia nada sobre as suas visitas, com ou sem cookie. Este site não tem contas, então a escolha fica neste navegador e vale apenas aqui. Depois de responder ao aviso, a escolha sobre os cookies de analítica fica disponível aqui enquanto a recolha estiver ligada. Se o seu navegador enviar um sinal Global Privacy Control, este site não lhe dá nenhum cookie de analítica, por isso não há nenhuma escolha de cookie a fazer.",
       collectionStorageError: "Este navegador não vai lembrar desta escolha, então ela vale apenas até você sair desta página.",
       collectionTitle: "Permitir a coleta de análise",
       off: "Desligado",
@@ -1354,7 +1354,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     },
     analyticsConsentWithdrawal: {
       close: "Закрыть",
-      collectionDescription: "Когда выключено, сайт вообще ничего не отправляет о ваших посещениях — с cookie или без. На сайте нет аккаунтов, поэтому выбор хранится в этом браузере и действует только здесь. После того как вы ответите на баннер, выбор по аналитическим cookie доступен здесь, пока сбор включён.",
+      collectionDescription: "Когда выключено, сайт вообще ничего не отправляет о ваших посещениях — с cookie или без. На сайте нет аккаунтов, поэтому выбор хранится в этом браузере и действует только здесь. После того как вы ответите на баннер, выбор по аналитическим cookie доступен здесь, пока сбор включён. Если ваш браузер отправляет сигнал Global Privacy Control, сайт вообще не выдаёт ему аналитический cookie, поэтому и выбора про cookie здесь нет.",
       collectionStorageError: "Этот браузер не запомнит выбор, поэтому он действует только пока вы не уйдёте с этой страницы.",
       collectionTitle: "Разрешить сбор аналитики",
       off: "Выкл.",
@@ -1504,7 +1504,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     },
     analyticsConsentWithdrawal: {
       close: "关闭",
-      collectionDescription: "关闭后，无论有没有 Cookie，本网站都不会发送任何关于你的访问的信息。本网站没有账号，因此该选择保存在此浏览器中，仅在这里生效。 在你回应横幅之后，只要收集处于开启状态，就可以在这里选择是否允许分析 Cookie。",
+      collectionDescription: "关闭后，无论有没有 Cookie，本网站都不会发送任何关于你的访问的信息。本网站没有账号，因此该选择保存在此浏览器中，仅在这里生效。 在你回应横幅之后，只要收集处于开启状态，就可以在这里选择是否允许分析 Cookie。 如果你的浏览器发出 Global Privacy Control 信号，本网站不会给它任何分析 Cookie，因此这里没有 Cookie 选择可做。",
       collectionStorageError: "此浏览器不会记住该选择，因此它只在你离开本页之前有效。",
       collectionTitle: "允许分析数据收集",
       off: "关闭",
@@ -1651,7 +1651,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     },
     analyticsConsentWithdrawal: {
       close: "Chiudi",
-      collectionDescription: "Quando è disattivato, questo sito non invia nulla sulle tue visite, con o senza cookie. Questo sito non ha account, quindi la scelta resta in questo browser e vale solo qui. Dopo che hai risposto al banner, la scelta sui cookie di analisi è disponibile qui finché la raccolta è attiva.",
+      collectionDescription: "Quando è disattivato, questo sito non invia nulla sulle tue visite, con o senza cookie. Questo sito non ha account, quindi la scelta resta in questo browser e vale solo qui. Dopo che hai risposto al banner, la scelta sui cookie di analisi è disponibile qui finché la raccolta è attiva. Se il tuo browser invia un segnale Global Privacy Control, questo sito non gli dà alcun cookie di analisi, quindi non c'è nessuna scelta sui cookie da fare.",
       collectionStorageError: "Questo browser non ricorderà questa scelta, quindi vale solo finché non lasci questa pagina.",
       collectionTitle: "Consenti la raccolta di dati di analisi",
       off: "Disattivo",
@@ -1801,7 +1801,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     },
     analyticsConsentWithdrawal: {
       close: "닫기",
-      collectionDescription: "꺼져 있으면 이 사이트는 쿠키가 있든 없든 방문에 대해 아무것도 전송하지 않습니다. 이 사이트에는 계정이 없으므로 이 선택은 이 브라우저에 저장되며 여기에서만 적용됩니다. 배너에 답한 뒤에는 수집이 켜져 있는 동안 여기에서 분석 쿠키 선택을 이용할 수 있습니다.",
+      collectionDescription: "꺼져 있으면 이 사이트는 쿠키가 있든 없든 방문에 대해 아무것도 전송하지 않습니다. 이 사이트에는 계정이 없으므로 이 선택은 이 브라우저에 저장되며 여기에서만 적용됩니다. 배너에 답한 뒤에는 수집이 켜져 있는 동안 여기에서 분석 쿠키 선택을 이용할 수 있습니다. 브라우저가 Global Privacy Control 신호를 보내면 이 사이트는 그 브라우저에 분석 쿠키를 전혀 주지 않으므로, 여기에서 선택할 쿠키 항목도 없습니다.",
       collectionStorageError: "이 브라우저는 이 선택을 기억하지 못하므로, 이 페이지를 떠나기 전까지만 적용됩니다.",
       collectionTitle: "분석 데이터 수집 허용",
       off: "끔",
@@ -1951,7 +1951,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     },
     analyticsConsentWithdrawal: {
       close: "Tutup",
-      collectionDescription: "Saat nonaktif, situs ini tidak mengirim apa pun tentang kunjungan Anda, dengan atau tanpa cookie. Situs ini tidak memiliki akun, jadi pilihan ini disimpan di peramban ini dan hanya berlaku di sini. Setelah Anda menjawab banner, pilihan cookie analitik tersedia di sini selama pengumpulan aktif.",
+      collectionDescription: "Saat nonaktif, situs ini tidak mengirim apa pun tentang kunjungan Anda, dengan atau tanpa cookie. Situs ini tidak memiliki akun, jadi pilihan ini disimpan di peramban ini dan hanya berlaku di sini. Setelah Anda menjawab banner, pilihan cookie analitik tersedia di sini selama pengumpulan aktif. Jika peramban Anda mengirim sinyal Global Privacy Control, situs ini sama sekali tidak memberinya cookie analitik, jadi tidak ada pilihan cookie yang perlu dibuat.",
       collectionStorageError: "Peramban ini tidak akan mengingat pilihan ini, jadi pilihan ini hanya berlaku sampai Anda meninggalkan halaman ini.",
       collectionTitle: "Izinkan pengumpulan data analitik",
       off: "Nonaktif",
@@ -2101,7 +2101,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     },
     analyticsConsentWithdrawal: {
       close: "Kapat",
-      collectionDescription: "Kapalıyken bu site, çerez olsun olmasın, ziyaretleriniz hakkında hiçbir şey göndermez. Bu sitede hesap yoktur, bu nedenle seçim bu tarayıcıda saklanır ve yalnızca burada geçerlidir. Banner'ı yanıtladıktan sonra analiz çerezi seçimi, toplama açıkken burada kullanılabilir.",
+      collectionDescription: "Kapalıyken bu site, çerez olsun olmasın, ziyaretleriniz hakkında hiçbir şey göndermez. Bu sitede hesap yoktur, bu nedenle seçim bu tarayıcıda saklanır ve yalnızca burada geçerlidir. Banner'ı yanıtladıktan sonra analiz çerezi seçimi, toplama açıkken burada kullanılabilir. Tarayıcınız Global Privacy Control sinyali gönderiyorsa bu site ona hiç analiz çerezi vermez, bu yüzden yapılacak bir çerez seçimi de olmaz.",
       collectionStorageError: "Bu tarayıcı bu seçimi hatırlamayacak, bu nedenle yalnızca bu sayfadan ayrılana kadar geçerlidir.",
       collectionTitle: "Analiz verisi toplamaya izin ver",
       off: "Kapalı",
@@ -2251,7 +2251,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     },
     analyticsConsentWithdrawal: {
       close: "Sluiten",
-      collectionDescription: "Als dit uit staat, stuurt deze site helemaal niets over je bezoeken, met of zonder cookie. Deze site heeft geen accounts, dus de keuze blijft in deze browser en geldt alleen hier. Zodra je de banner hebt beantwoord, is de keuze over analytische cookies hier beschikbaar zolang het verzamelen aan staat.",
+      collectionDescription: "Als dit uit staat, stuurt deze site helemaal niets over je bezoeken, met of zonder cookie. Deze site heeft geen accounts, dus de keuze blijft in deze browser en geldt alleen hier. Zodra je de banner hebt beantwoord, is de keuze over analytische cookies hier beschikbaar zolang het verzamelen aan staat. Als je browser een Global Privacy Control-signaal stuurt, geeft deze site hem helemaal geen analytische cookie, dus is er geen cookiekeuze te maken.",
       collectionStorageError: "Deze browser onthoudt deze keuze niet, dus hij geldt alleen totdat je deze pagina verlaat.",
       collectionTitle: "Verzamelen voor analyse toestaan",
       off: "Uit",
@@ -2401,7 +2401,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     },
     analyticsConsentWithdrawal: {
       close: "Zamknij",
-      collectionDescription: "Gdy jest wyłączone, witryna nie wysyła niczego o Twoich wizytach — z plikiem cookie czy bez niego. Ta witryna nie ma kont, więc wybór zostaje w tej przeglądarce i działa tylko tutaj. Po odpowiedzi na baner wybór dotyczący analitycznych plików cookie jest dostępny tutaj, dopóki zbieranie jest włączone.",
+      collectionDescription: "Gdy jest wyłączone, witryna nie wysyła niczego o Twoich wizytach — z plikiem cookie czy bez niego. Ta witryna nie ma kont, więc wybór zostaje w tej przeglądarce i działa tylko tutaj. Po odpowiedzi na baner wybór dotyczący analitycznych plików cookie jest dostępny tutaj, dopóki zbieranie jest włączone. Jeśli Twoja przeglądarka wysyła sygnał Global Privacy Control, witryna w ogóle nie zapisuje w niej analitycznego pliku cookie, więc nie ma tu żadnego wyboru dotyczącego plików cookie.",
       collectionStorageError: "Ta przeglądarka nie zapamięta tego wyboru, więc działa on tylko do opuszczenia tej strony.",
       collectionTitle: "Zezwalaj na zbieranie danych analitycznych",
       off: "Wył.",
@@ -2551,7 +2551,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     },
     analyticsConsentWithdrawal: {
       close: "Đóng",
-      collectionDescription: "Khi tắt, trang web không gửi bất kỳ thông tin nào về lượt truy cập của bạn, dù có cookie hay không. Trang web này không có tài khoản, nên lựa chọn được lưu trong trình duyệt này và chỉ áp dụng ở đây. Sau khi bạn trả lời biểu ngữ, lựa chọn về cookie phân tích khả dụng ở đây khi việc thu thập đang bật.",
+      collectionDescription: "Khi tắt, trang web không gửi bất kỳ thông tin nào về lượt truy cập của bạn, dù có cookie hay không. Trang web này không có tài khoản, nên lựa chọn được lưu trong trình duyệt này và chỉ áp dụng ở đây. Sau khi bạn trả lời biểu ngữ, lựa chọn về cookie phân tích khả dụng ở đây khi việc thu thập đang bật. Nếu trình duyệt của bạn gửi tín hiệu Global Privacy Control, trang web này hoàn toàn không đặt cookie phân tích nào cho nó, nên không có lựa chọn cookie nào để thực hiện.",
       collectionStorageError: "Trình duyệt này sẽ không ghi nhớ lựa chọn, nên nó chỉ có hiệu lực cho đến khi bạn rời khỏi trang này.",
       collectionTitle: "Cho phép thu thập dữ liệu phân tích",
       off: "Tắt",
@@ -2701,7 +2701,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     },
     analyticsConsentWithdrawal: {
       close: "ปิด",
-      collectionDescription: "เมื่อปิดอยู่ เว็บไซต์นี้จะไม่ส่งข้อมูลใดเกี่ยวกับการเข้าชมของคุณเลย ไม่ว่าจะมีคุกกี้หรือไม่ก็ตาม เว็บไซต์นี้ไม่มีบัญชีผู้ใช้ ตัวเลือกนี้จึงถูกเก็บไว้ในเบราว์เซอร์นี้และมีผลที่นี่เท่านั้น หลังจากคุณตอบแบนเนอร์แล้ว ตัวเลือกคุกกี้สำหรับการวิเคราะห์จะใช้ได้ที่นี่เมื่อการเก็บข้อมูลเปิดอยู่",
+      collectionDescription: "เมื่อปิดอยู่ เว็บไซต์นี้จะไม่ส่งข้อมูลใดเกี่ยวกับการเข้าชมของคุณเลย ไม่ว่าจะมีคุกกี้หรือไม่ก็ตาม เว็บไซต์นี้ไม่มีบัญชีผู้ใช้ ตัวเลือกนี้จึงถูกเก็บไว้ในเบราว์เซอร์นี้และมีผลที่นี่เท่านั้น หลังจากคุณตอบแบนเนอร์แล้ว ตัวเลือกคุกกี้สำหรับการวิเคราะห์จะใช้ได้ที่นี่เมื่อการเก็บข้อมูลเปิดอยู่ หากเบราว์เซอร์ของคุณส่งสัญญาณ Global Privacy Control เว็บไซต์นี้จะไม่ให้คุกกี้สำหรับการวิเคราะห์แก่เบราว์เซอร์นั้นเลย จึงไม่มีตัวเลือกเกี่ยวกับคุกกี้ให้เลือกที่นี่",
       collectionStorageError: "เบราว์เซอร์นี้จะไม่จดจำตัวเลือกนี้ จึงมีผลเฉพาะจนกว่าคุณจะออกจากหน้านี้",
       collectionTitle: "อนุญาตการเก็บข้อมูลเพื่อการวิเคราะห์",
       off: "ปิด",
@@ -2851,7 +2851,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     },
     analyticsConsentWithdrawal: {
       close: "Закрити",
-      collectionDescription: "Коли вимкнено, сайт не надсилає взагалі нічого про ваші відвідування — з cookie чи без. На сайті немає облікових записів, тож вибір зберігається в цьому браузері й діє лише тут. Після того як ви відповісте на банер, вибір щодо аналітичних cookie доступний тут, поки збір увімкнено.",
+      collectionDescription: "Коли вимкнено, сайт не надсилає взагалі нічого про ваші відвідування — з cookie чи без. На сайті немає облікових записів, тож вибір зберігається в цьому браузері й діє лише тут. Після того як ви відповісте на банер, вибір щодо аналітичних cookie доступний тут, поки збір увімкнено. Якщо ваш браузер надсилає сигнал Global Privacy Control, сайт взагалі не видає йому аналітичного cookie, тож і вибору щодо cookie тут немає.",
       collectionStorageError: "Цей браузер не запам'ятає вибір, тож він діє лише доки ви не залишите цю сторінку.",
       collectionTitle: "Дозволити збір аналітики",
       off: "Вимк.",
@@ -3001,7 +3001,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     },
     analyticsConsentWithdrawal: {
       close: "סגירה",
-      collectionDescription: "כשזה כבוי, האתר לא שולח שום דבר על הביקורים שלך, עם עוגייה או בלעדיה. באתר הזה אין חשבונות, ולכן הבחירה נשמרת בדפדפן הזה וחלה רק כאן. אחרי שתענה על הבאנר, הבחירה בעוגיות אנליטיקה זמינה כאן כל עוד האיסוף פעיל.",
+      collectionDescription: "כשזה כבוי, האתר לא שולח שום דבר על הביקורים שלך, עם עוגייה או בלעדיה. באתר הזה אין חשבונות, ולכן הבחירה נשמרת בדפדפן הזה וחלה רק כאן. אחרי שתענה על הבאנר, הבחירה בעוגיות אנליטיקה זמינה כאן כל עוד האיסוף פעיל. אם הדפדפן שלך שולח אות Global Privacy Control, האתר לא נותן לו שום עוגיית אנליטיקה, ולכן אין כאן בחירה בעוגיות.",
       collectionStorageError: "הדפדפן הזה לא יזכור את הבחירה, ולכן היא חלה רק עד שתעזוב את הדף הזה.",
       collectionTitle: "לאפשר איסוף נתוני ניתוח",
       off: "כבוי",
@@ -3151,7 +3151,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     },
     analyticsConsentWithdrawal: {
       close: "Stäng",
-      collectionDescription: "När det här är av skickar den här webbplatsen ingenting alls om dina besök, med eller utan cookie. Den här webbplatsen har inga konton, så valet stannar i den här webbläsaren och gäller bara här. När du har svarat på bannern är valet om analyscookies tillgängligt här så länge insamlingen är på.",
+      collectionDescription: "När det här är av skickar den här webbplatsen ingenting alls om dina besök, med eller utan cookie. Den här webbplatsen har inga konton, så valet stannar i den här webbläsaren och gäller bara här. När du har svarat på bannern är valet om analyscookies tillgängligt här så länge insamlingen är på. Om din webbläsare skickar en Global Privacy Control-signal ger den här webbplatsen den ingen analyscookie alls, så det finns inget cookieval att göra.",
       collectionStorageError: "Den här webbläsaren kommer inte ihåg valet, så det gäller bara tills du lämnar sidan.",
       collectionTitle: "Tillåt insamling för analys",
       off: "Av",
@@ -3301,7 +3301,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     },
     analyticsConsentWithdrawal: {
       close: "Luk",
-      collectionDescription: "Når det her er slået fra, sender dette site slet ikke noget om dine besøg, med eller uden cookie. Dette site har ingen konti, så valget bliver i denne browser og gælder kun her. Når du har svaret på banneret, er valget om analysecookies tilgængeligt her, så længe indsamlingen er slået til.",
+      collectionDescription: "Når det her er slået fra, sender dette site slet ikke noget om dine besøg, med eller uden cookie. Dette site har ingen konti, så valget bliver i denne browser og gælder kun her. Når du har svaret på banneret, er valget om analysecookies tilgængeligt her, så længe indsamlingen er slået til. Hvis din browser sender et Global Privacy Control-signal, giver dette site den slet ingen analysecookie, så der er intet cookievalg at træffe.",
       collectionStorageError: "Denne browser husker ikke valget, så det gælder kun, indtil du forlader siden.",
       collectionTitle: "Tillad indsamling til analyse",
       off: "Fra",
@@ -3451,7 +3451,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     },
     analyticsConsentWithdrawal: {
       close: "Lukk",
-      collectionDescription: "Når dette er av, sender ikke dette nettstedet noe som helst om besøkene dine, med eller uten informasjonskapsel. Dette nettstedet har ingen kontoer, så valget blir i denne nettleseren og gjelder bare her. Når du har svart på banneret, er valget om informasjonskapsler for analyse tilgjengelig her så lenge innsamlingen er på.",
+      collectionDescription: "Når dette er av, sender ikke dette nettstedet noe som helst om besøkene dine, med eller uten informasjonskapsel. Dette nettstedet har ingen kontoer, så valget blir i denne nettleseren og gjelder bare her. Når du har svart på banneret, er valget om informasjonskapsler for analyse tilgjengelig her så lenge innsamlingen er på. Hvis nettleseren din sender et Global Privacy Control-signal, gir dette nettstedet den ingen informasjonskapsel for analyse i det hele tatt, så det finnes ikke noe valg om informasjonskapsler å ta.",
       collectionStorageError: "Denne nettleseren husker ikke valget, så det gjelder bare til du forlater siden.",
       collectionTitle: "Tillat innsamling til analyse",
       off: "Av",
@@ -3601,7 +3601,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     },
     analyticsConsentWithdrawal: {
       close: "Sulje",
-      collectionDescription: "Kun tämä on pois päältä, tämä sivusto ei lähetä käynneistäsi yhtään mitään, evästeen kanssa tai ilman. Tällä sivustolla ei ole tilejä, joten valinta jää tähän selaimeen ja on voimassa vain täällä. Kun olet vastannut banneriin, analytiikkaevästeitä koskeva valinta on käytettävissä täällä, kun keruu on päällä.",
+      collectionDescription: "Kun tämä on pois päältä, tämä sivusto ei lähetä käynneistäsi yhtään mitään, evästeen kanssa tai ilman. Tällä sivustolla ei ole tilejä, joten valinta jää tähän selaimeen ja on voimassa vain täällä. Kun olet vastannut banneriin, analytiikkaevästeitä koskeva valinta on käytettävissä täällä, kun keruu on päällä. Jos selaimesi lähettää Global Privacy Control -signaalin, tämä sivusto ei anna sille lainkaan analytiikkaevästettä, joten evästeistä ei ole mitään valittavaa.",
       collectionStorageError: "Tämä selain ei muista valintaa, joten se on voimassa vain, kunnes poistut tältä sivulta.",
       collectionTitle: "Salli analytiikkatietojen keruu",
       off: "Pois",
@@ -3751,7 +3751,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     },
     analyticsConsentWithdrawal: {
       close: "Zavřít",
-      collectionDescription: "Když je tohle vypnuté, tento web neodesílá o vašich návštěvách vůbec nic, s cookie i bez ní. Tento web nemá účty, takže volba zůstává v tomto prohlížeči a platí jen tady. Jakmile odpovíte na banner, je volba analytických cookie dostupná tady, dokud je sběr zapnutý.",
+      collectionDescription: "Když je tohle vypnuté, tento web neodesílá o vašich návštěvách vůbec nic, s cookie i bez ní. Tento web nemá účty, takže volba zůstává v tomto prohlížeči a platí jen tady. Jakmile odpovíte na banner, je volba analytických cookie dostupná tady, dokud je sběr zapnutý. Pokud váš prohlížeč posílá signál Global Privacy Control, tento web mu žádnou analytickou cookie nedává, takže tu není žádná volba ohledně cookie.",
       collectionStorageError: "Tento prohlížeč si tuto volbu nezapamatuje, takže platí jen do chvíle, než tuto stránku opustíte.",
       collectionTitle: "Povolit sběr analytiky",
       off: "Vypnuto",
@@ -3901,7 +3901,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     },
     analyticsConsentWithdrawal: {
       close: "Κλείσιμο",
-      collectionDescription: "Όταν αυτό είναι ανενεργό, ο ιστότοπος δεν στέλνει απολύτως τίποτα για τις επισκέψεις σας, με ή χωρίς cookie. Αυτός ο ιστότοπος δεν έχει λογαριασμούς, οπότε η επιλογή μένει σε αυτό το πρόγραμμα περιήγησης και ισχύει μόνο εδώ. Αφού απαντήσετε στο banner, η επιλογή για τα cookie ανάλυσης είναι διαθέσιμη εδώ όσο η συλλογή είναι ενεργή.",
+      collectionDescription: "Όταν αυτό είναι ανενεργό, ο ιστότοπος δεν στέλνει απολύτως τίποτα για τις επισκέψεις σας, με ή χωρίς cookie. Αυτός ο ιστότοπος δεν έχει λογαριασμούς, οπότε η επιλογή μένει σε αυτό το πρόγραμμα περιήγησης και ισχύει μόνο εδώ. Αφού απαντήσετε στο banner, η επιλογή για τα cookie ανάλυσης είναι διαθέσιμη εδώ όσο η συλλογή είναι ενεργή. Αν το πρόγραμμα περιήγησής σας στέλνει σήμα Global Privacy Control, ο ιστότοπος δεν του δίνει κανένα cookie ανάλυσης, οπότε δεν υπάρχει καμία επιλογή για cookie εδώ.",
       collectionStorageError: "Αυτό το πρόγραμμα περιήγησης δεν θα θυμάται την επιλογή, οπότε ισχύει μόνο μέχρι να φύγετε από αυτή τη σελίδα.",
       collectionTitle: "Να επιτρέπεται η συλλογή για ανάλυση",
       off: "Ανενεργό",
@@ -4051,7 +4051,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     },
     analyticsConsentWithdrawal: {
       close: "Închide",
-      collectionDescription: "Când este dezactivat, acest site nu trimite nimic despre vizitele tale, cu sau fără cookie. Acest site nu are conturi, așa că alegerea rămâne în acest browser și se aplică doar aici. După ce răspunzi bannerului, alegerea privind cookie-urile de analiză este disponibilă aici cât timp colectarea este activată.",
+      collectionDescription: "Când este dezactivat, acest site nu trimite nimic despre vizitele tale, cu sau fără cookie. Acest site nu are conturi, așa că alegerea rămâne în acest browser și se aplică doar aici. După ce răspunzi bannerului, alegerea privind cookie-urile de analiză este disponibilă aici cât timp colectarea este activată. Dacă browserul tău trimite un semnal Global Privacy Control, acest site nu îi dă niciun cookie de analiză, așa că nu există nicio alegere privind cookie-urile.",
       collectionStorageError: "Acest browser nu va reține alegerea, așa că se aplică doar până părăsești această pagină.",
       collectionTitle: "Permite colectarea pentru analiză",
       off: "Dezactivat",
@@ -4201,7 +4201,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     },
     analyticsConsentWithdrawal: {
       close: "Bezárás",
-      collectionDescription: "Ha ez ki van kapcsolva, ez az oldal semmit sem küld a látogatásaidról, sütivel vagy anélkül. Ezen az oldalon nincsenek fiókok, ezért a döntés ebben a böngészőben marad, és csak itt érvényes. Miután válaszoltál a bannerre, az analitikai sütikre vonatkozó döntés itt érhető el, amíg a gyűjtés be van kapcsolva.",
+      collectionDescription: "Ha ez ki van kapcsolva, ez az oldal semmit sem küld a látogatásaidról, sütivel vagy anélkül. Ezen az oldalon nincsenek fiókok, ezért a döntés ebben a böngészőben marad, és csak itt érvényes. Miután válaszoltál a bannerre, az analitikai sütikre vonatkozó döntés itt érhető el, amíg a gyűjtés be van kapcsolva. Ha a böngésződ Global Privacy Control jelzést küld, ez az oldal egyáltalán nem ad neki analitikai sütit, így nincs is süti-döntés, amit meg kellene hozni.",
       collectionStorageError: "Ez a böngésző nem jegyzi meg ezt a választást, ezért csak addig érvényes, amíg el nem hagyod ezt az oldalt.",
       collectionTitle: "Analitikai adatgyűjtés engedélyezése",
       off: "Ki",
@@ -4351,7 +4351,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     },
     analyticsConsentWithdrawal: {
       close: "بستن",
-      collectionDescription: "وقتی این خاموش باشد، این سایت هیچ چیزی دربارهٔ بازدیدهای شما نمی‌فرستد، با کوکی یا بدون آن. این سایت حساب کاربری ندارد، بنابراین این انتخاب در همین مرورگر ذخیره می‌شود و فقط اینجا اعمال می‌شود. پس از اینکه به بنر پاسخ دادید، انتخاب مربوط به کوکی‌های تحلیلی تا زمانی که جمع‌آوری روشن باشد اینجا در دسترس است.",
+      collectionDescription: "وقتی این خاموش باشد، این سایت هیچ چیزی دربارهٔ بازدیدهای شما نمی‌فرستد، با کوکی یا بدون آن. این سایت حساب کاربری ندارد، بنابراین این انتخاب در همین مرورگر ذخیره می‌شود و فقط اینجا اعمال می‌شود. پس از اینکه به بنر پاسخ دادید، انتخاب مربوط به کوکی‌های تحلیلی تا زمانی که جمع‌آوری روشن باشد اینجا در دسترس است. اگر مرورگر شما سیگنال Global Privacy Control بفرستد، این سایت هیچ کوکی تحلیلی به آن نمی‌دهد، بنابراین اینجا هیچ انتخابی دربارهٔ کوکی وجود ندارد.",
       collectionStorageError: "این مرورگر این انتخاب را به خاطر نمی‌سپارد، بنابراین فقط تا زمانی که این صفحه را ترک کنید اعمال می‌شود.",
       collectionTitle: "اجازهٔ جمع‌آوری داده‌های تحلیلی",
       off: "خاموش",
@@ -4501,7 +4501,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     },
     analyticsConsentWithdrawal: {
       close: "Tanca",
-      collectionDescription: "Quan això està desactivat, aquest lloc no envia res sobre les teves visites, amb galeta o sense. Aquest lloc no té comptes, així que l'elecció es desa en aquest navegador i només s'aplica aquí. Un cop hagis respost al bàner, l'elecció sobre les galetes d'analítica està disponible aquí mentre la recollida estigui activada.",
+      collectionDescription: "Quan això està desactivat, aquest lloc no envia res sobre les teves visites, amb galeta o sense. Aquest lloc no té comptes, així que l'elecció es desa en aquest navegador i només s'aplica aquí. Un cop hagis respost al bàner, l'elecció sobre les galetes d'analítica està disponible aquí mentre la recollida estigui activada. Si el teu navegador envia un senyal de Global Privacy Control, aquest lloc no li dona cap galeta d'analítica, així que no hi ha cap elecció sobre galetes a fer.",
       collectionStorageError: "Aquest navegador no recordarà aquesta tria, així que només s'aplica fins que surtis d'aquesta pàgina.",
       collectionTitle: "Permet la recollida d'analítica",
       off: "Desactivat",
@@ -4651,7 +4651,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     },
     analyticsConsentWithdrawal: {
       close: "বন্ধ করুন",
-      collectionDescription: "এটি বন্ধ থাকলে এই সাইট আপনার ভিজিট সম্পর্কে কিছুই পাঠায় না, কুকি থাকুক বা না থাকুক। এই সাইটে কোনো অ্যাকাউন্ট নেই, তাই এই পছন্দ এই ব্রাউজারেই থাকে এবং কেবল এখানেই প্রযোজ্য। ব্যানারের উত্তর দেওয়ার পর, সংগ্রহ চালু থাকা অবস্থায় বিশ্লেষণ কুকির পছন্দটি এখানে পাওয়া যায়।",
+      collectionDescription: "এটি বন্ধ থাকলে এই সাইট আপনার ভিজিট সম্পর্কে কিছুই পাঠায় না, কুকি থাকুক বা না থাকুক। এই সাইটে কোনো অ্যাকাউন্ট নেই, তাই এই পছন্দ এই ব্রাউজারেই থাকে এবং কেবল এখানেই প্রযোজ্য। ব্যানারের উত্তর দেওয়ার পর, সংগ্রহ চালু থাকা অবস্থায় বিশ্লেষণ কুকির পছন্দটি এখানে পাওয়া যায়। আপনার ব্রাউজার যদি Global Privacy Control সংকেত পাঠায়, তবে এই সাইট তাকে কোনো বিশ্লেষণ কুকিই দেয় না, তাই এখানে কুকি নিয়ে কোনো পছন্দ করার থাকে না।",
       collectionStorageError: "এই ব্রাউজার এই পছন্দ মনে রাখবে না, তাই এটি শুধু এই পৃষ্ঠা ছেড়ে যাওয়া পর্যন্ত প্রযোজ্য।",
       collectionTitle: "অ্যানালিটিক্স সংগ্রহের অনুমতি দিন",
       off: "বন্ধ",
@@ -4800,7 +4800,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     },
     analyticsConsentWithdrawal: {
       close: "બંધ કરો",
-      collectionDescription: "આ બંધ હોય ત્યારે આ સાઇટ તમારી મુલાકાતો વિશે કંઈ જ મોકલતી નથી, કૂકી હોય કે ન હોય. આ સાઇટ પર કોઈ ખાતાં નથી, તેથી આ પસંદગી આ બ્રાઉઝરમાં જ રહે છે અને ફક્ત અહીં જ લાગુ પડે છે. બેનરનો જવાબ આપ્યા પછી, સંગ્રહ ચાલુ હોય ત્યારે વિશ્લેષણ કૂકીની પસંદગી અહીં ઉપલબ્ધ હોય છે.",
+      collectionDescription: "આ બંધ હોય ત્યારે આ સાઇટ તમારી મુલાકાતો વિશે કંઈ જ મોકલતી નથી, કૂકી હોય કે ન હોય. આ સાઇટ પર કોઈ ખાતાં નથી, તેથી આ પસંદગી આ બ્રાઉઝરમાં જ રહે છે અને ફક્ત અહીં જ લાગુ પડે છે. બેનરનો જવાબ આપ્યા પછી, સંગ્રહ ચાલુ હોય ત્યારે વિશ્લેષણ કૂકીની પસંદગી અહીં ઉપલબ્ધ હોય છે. જો તમારું બ્રાઉઝર Global Privacy Control સંકેત મોકલે, તો આ સાઇટ તેને કોઈ પણ વિશ્લેષણ કૂકી આપતી નથી, તેથી અહીં કૂકી અંગે કોઈ પસંદગી કરવાની રહેતી નથી.",
       collectionStorageError: "આ બ્રાઉઝર આ પસંદગી યાદ રાખશે નહીં, તેથી તે ફક્ત તમે આ પેજ છોડો ત્યાં સુધી લાગુ પડે છે.",
       collectionTitle: "એનાલિટિક્સ સંગ્રહને મંજૂરી આપો",
       off: "બંધ",
@@ -4950,7 +4950,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     },
     analyticsConsentWithdrawal: {
       close: "ಮುಚ್ಚಿ",
-      collectionDescription: "ಇದು ಆಫ್ ಆಗಿದ್ದಾಗ ಈ ಸೈಟ್ ನಿಮ್ಮ ಭೇಟಿಗಳ ಬಗ್ಗೆ ಏನನ್ನೂ ಕಳುಹಿಸುವುದಿಲ್ಲ, ಕುಕೀ ಇದ್ದರೂ ಇಲ್ಲದಿದ್ದರೂ. ಈ ಸೈಟ್‌ನಲ್ಲಿ ಖಾತೆಗಳಿಲ್ಲ, ಆದ್ದರಿಂದ ಈ ಆಯ್ಕೆ ಈ ಬ್ರೌಸರ್‌ನಲ್ಲಿಯೇ ಉಳಿಯುತ್ತದೆ ಮತ್ತು ಇಲ್ಲಿ ಮಾತ್ರ ಅನ್ವಯಿಸುತ್ತದೆ. ಬ್ಯಾನರ್‌ಗೆ ಉತ್ತರಿಸಿದ ನಂತರ, ಸಂಗ್ರಹಣೆ ಆನ್ ಆಗಿರುವಾಗ ವಿಶ್ಲೇಷಣಾ ಕುಕೀ ಆಯ್ಕೆ ಇಲ್ಲಿ ಲಭ್ಯವಿರುತ್ತದೆ.",
+      collectionDescription: "ಇದು ಆಫ್ ಆಗಿದ್ದಾಗ ಈ ಸೈಟ್ ನಿಮ್ಮ ಭೇಟಿಗಳ ಬಗ್ಗೆ ಏನನ್ನೂ ಕಳುಹಿಸುವುದಿಲ್ಲ, ಕುಕೀ ಇದ್ದರೂ ಇಲ್ಲದಿದ್ದರೂ. ಈ ಸೈಟ್‌ನಲ್ಲಿ ಖಾತೆಗಳಿಲ್ಲ, ಆದ್ದರಿಂದ ಈ ಆಯ್ಕೆ ಈ ಬ್ರೌಸರ್‌ನಲ್ಲಿಯೇ ಉಳಿಯುತ್ತದೆ ಮತ್ತು ಇಲ್ಲಿ ಮಾತ್ರ ಅನ್ವಯಿಸುತ್ತದೆ. ಬ್ಯಾನರ್‌ಗೆ ಉತ್ತರಿಸಿದ ನಂತರ, ಸಂಗ್ರಹಣೆ ಆನ್ ಆಗಿರುವಾಗ ವಿಶ್ಲೇಷಣಾ ಕುಕೀ ಆಯ್ಕೆ ಇಲ್ಲಿ ಲಭ್ಯವಿರುತ್ತದೆ. ನಿಮ್ಮ ಬ್ರೌಸರ್ Global Privacy Control ಸಂಕೇತವನ್ನು ಕಳುಹಿಸಿದರೆ, ಈ ಸೈಟ್ ಅದಕ್ಕೆ ಯಾವುದೇ ವಿಶ್ಲೇಷಣಾ ಕುಕೀ ನೀಡುವುದಿಲ್ಲ, ಆದ್ದರಿಂದ ಇಲ್ಲಿ ಕುಕೀ ಬಗ್ಗೆ ಆಯ್ಕೆ ಮಾಡುವುದೇನೂ ಇರುವುದಿಲ್ಲ.",
       collectionStorageError: "ಈ ಬ್ರೌಸರ್ ಈ ಆಯ್ಕೆಯನ್ನು ನೆನಪಿಡುವುದಿಲ್ಲ, ಆದ್ದರಿಂದ ಇದು ನೀವು ಈ ಪುಟವನ್ನು ಬಿಡುವವರೆಗೆ ಮಾತ್ರ ಅನ್ವಯಿಸುತ್ತದೆ.",
       collectionTitle: "ಅನಾಲಿಟಿಕ್ಸ್ ಸಂಗ್ರಹಣೆಯನ್ನು ಅನುಮತಿಸಿ",
       off: "ಆಫ್",
@@ -5100,7 +5100,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     },
     analyticsConsentWithdrawal: {
       close: "അടയ്ക്കുക",
-      collectionDescription: "ഇത് ഓഫ് ആയിരിക്കുമ്പോൾ, കുക്കി ഉണ്ടെങ്കിലും ഇല്ലെങ്കിലും, ഈ സൈറ്റ് നിങ്ങളുടെ സന്ദർശനങ്ങളെക്കുറിച്ച് ഒന്നും അയയ്ക്കുന്നില്ല. ഈ സൈറ്റിൽ അക്കൗണ്ടുകളില്ല, അതിനാൽ ഈ തിരഞ്ഞെടുപ്പ് ഈ ബ്രൗസറിൽ തന്നെ സൂക്ഷിക്കുന്നു, ഇവിടെ മാത്രം ബാധകമാകുന്നു. ബാനറിന് മറുപടി നൽകിയ ശേഷം, ശേഖരണം ഓൺ ആയിരിക്കുമ്പോൾ അനലിറ്റിക്സ് കുക്കി സംബന്ധിച്ച തിരഞ്ഞെടുപ്പ് ഇവിടെ ലഭ്യമാണ്.",
+      collectionDescription: "ഇത് ഓഫ് ആയിരിക്കുമ്പോൾ, കുക്കി ഉണ്ടെങ്കിലും ഇല്ലെങ്കിലും, ഈ സൈറ്റ് നിങ്ങളുടെ സന്ദർശനങ്ങളെക്കുറിച്ച് ഒന്നും അയയ്ക്കുന്നില്ല. ഈ സൈറ്റിൽ അക്കൗണ്ടുകളില്ല, അതിനാൽ ഈ തിരഞ്ഞെടുപ്പ് ഈ ബ്രൗസറിൽ തന്നെ സൂക്ഷിക്കുന്നു, ഇവിടെ മാത്രം ബാധകമാകുന്നു. ബാനറിന് മറുപടി നൽകിയ ശേഷം, ശേഖരണം ഓൺ ആയിരിക്കുമ്പോൾ അനലിറ്റിക്സ് കുക്കി സംബന്ധിച്ച തിരഞ്ഞെടുപ്പ് ഇവിടെ ലഭ്യമാണ്. നിങ്ങളുടെ ബ്രൗസർ Global Privacy Control സിഗ്നൽ അയയ്ക്കുന്നെങ്കിൽ, ഈ സൈറ്റ് അതിന് അനലിറ്റിക്സ് കുക്കി ഒന്നും നൽകുന്നില്ല, അതിനാൽ ഇവിടെ കുക്കിയെക്കുറിച്ച് തിരഞ്ഞെടുക്കാൻ ഒന്നുമില്ല.",
       collectionStorageError: "ഈ ബ്രൗസർ ഈ തിരഞ്ഞെടുപ്പ് ഓർക്കില്ല, അതിനാൽ നിങ്ങൾ ഈ പേജ് വിടുന്നതുവരെ മാത്രമേ ഇത് ബാധകമാകൂ.",
       collectionTitle: "അനലിറ്റിക്സ് ശേഖരണം അനുവദിക്കുക",
       off: "ഓഫ്",
@@ -5254,7 +5254,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     },
     analyticsConsentWithdrawal: {
       close: "बंद करा",
-      collectionDescription: "हे बंद असताना ही साइट तुमच्या भेटींबद्दल काहीही पाठवत नाही, कुकी असो वा नसो. या साइटवर खाती नाहीत, त्यामुळे ही निवड याच ब्राउझरमध्ये राहते आणि फक्त इथेच लागू होते. बॅनरला उत्तर दिल्यानंतर, संकलन चालू असताना विश्लेषण कुकीची निवड इथे उपलब्ध असते.",
+      collectionDescription: "हे बंद असताना ही साइट तुमच्या भेटींबद्दल काहीही पाठवत नाही, कुकी असो वा नसो. या साइटवर खाती नाहीत, त्यामुळे ही निवड याच ब्राउझरमध्ये राहते आणि फक्त इथेच लागू होते. बॅनरला उत्तर दिल्यानंतर, संकलन चालू असताना विश्लेषण कुकीची निवड इथे उपलब्ध असते. तुमचा ब्राउझर Global Privacy Control संकेत पाठवत असेल, तर ही साइट त्याला कोणतीही विश्लेषण कुकी देत नाही, त्यामुळे इथे कुकीबाबत कोणताही पर्याय निवडायचा नसतो.",
       collectionStorageError: "हा ब्राउझर ही निवड लक्षात ठेवणार नाही, त्यामुळे तुम्ही हे पान सोडेपर्यंतच ती लागू राहते.",
       collectionTitle: "ॲनालिटिक्स संकलनाला परवानगी द्या",
       off: "बंद",
@@ -5403,7 +5403,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     },
     analyticsConsentWithdrawal: {
       close: "ਬੰਦ ਕਰੋ",
-      collectionDescription: "ਜਦੋਂ ਇਹ ਬੰਦ ਹੁੰਦਾ ਹੈ, ਇਹ ਸਾਈਟ ਤੁਹਾਡੀਆਂ ਵਿਜ਼ਿਟਾਂ ਬਾਰੇ ਕੁਝ ਵੀ ਨਹੀਂ ਭੇਜਦੀ, ਕੂਕੀ ਹੋਵੇ ਜਾਂ ਨਾ ਹੋਵੇ। ਇਸ ਸਾਈਟ ਉੱਤੇ ਕੋਈ ਖਾਤੇ ਨਹੀਂ ਹਨ, ਇਸ ਲਈ ਇਹ ਚੋਣ ਇਸੇ ਬ੍ਰਾਊਜ਼ਰ ਵਿੱਚ ਰਹਿੰਦੀ ਹੈ ਅਤੇ ਸਿਰਫ਼ ਇੱਥੇ ਹੀ ਲਾਗੂ ਹੁੰਦੀ ਹੈ। ਬੈਨਰ ਦਾ ਜਵਾਬ ਦੇਣ ਤੋਂ ਬਾਅਦ, ਵਿਸ਼ਲੇਸ਼ਣ ਕੂਕੀ ਦੀ ਚੋਣ ਇੱਥੇ ਉਪਲਬਧ ਹੁੰਦੀ ਹੈ, ਜਦੋਂ ਤੱਕ ਇਕੱਤਰ ਕਰਨਾ ਚਾਲੂ ਹੈ।",
+      collectionDescription: "ਜਦੋਂ ਇਹ ਬੰਦ ਹੁੰਦਾ ਹੈ, ਇਹ ਸਾਈਟ ਤੁਹਾਡੀਆਂ ਵਿਜ਼ਿਟਾਂ ਬਾਰੇ ਕੁਝ ਵੀ ਨਹੀਂ ਭੇਜਦੀ, ਕੂਕੀ ਹੋਵੇ ਜਾਂ ਨਾ ਹੋਵੇ। ਇਸ ਸਾਈਟ ਉੱਤੇ ਕੋਈ ਖਾਤੇ ਨਹੀਂ ਹਨ, ਇਸ ਲਈ ਇਹ ਚੋਣ ਇਸੇ ਬ੍ਰਾਊਜ਼ਰ ਵਿੱਚ ਰਹਿੰਦੀ ਹੈ ਅਤੇ ਸਿਰਫ਼ ਇੱਥੇ ਹੀ ਲਾਗੂ ਹੁੰਦੀ ਹੈ। ਬੈਨਰ ਦਾ ਜਵਾਬ ਦੇਣ ਤੋਂ ਬਾਅਦ, ਵਿਸ਼ਲੇਸ਼ਣ ਕੂਕੀ ਦੀ ਚੋਣ ਇੱਥੇ ਉਪਲਬਧ ਹੁੰਦੀ ਹੈ, ਜਦੋਂ ਤੱਕ ਇਕੱਤਰ ਕਰਨਾ ਚਾਲੂ ਹੈ। ਜੇ ਤੁਹਾਡਾ ਬ੍ਰਾਊਜ਼ਰ Global Privacy Control ਸੰਕੇਤ ਭੇਜਦਾ ਹੈ, ਤਾਂ ਇਹ ਸਾਈਟ ਉਸ ਨੂੰ ਕੋਈ ਵੀ ਵਿਸ਼ਲੇਸ਼ਣ ਕੂਕੀ ਨਹੀਂ ਦਿੰਦੀ, ਇਸ ਲਈ ਇੱਥੇ ਕੂਕੀ ਬਾਰੇ ਕੋਈ ਚੋਣ ਕਰਨ ਲਈ ਨਹੀਂ ਹੁੰਦੀ।",
       collectionStorageError: "ਇਹ ਬ੍ਰਾਊਜ਼ਰ ਇਸ ਚੋਣ ਨੂੰ ਯਾਦ ਨਹੀਂ ਰੱਖੇਗਾ, ਇਸ ਲਈ ਇਹ ਸਿਰਫ਼ ਉਦੋਂ ਤੱਕ ਲਾਗੂ ਹੈ ਜਦੋਂ ਤੱਕ ਤੁਸੀਂ ਇਹ ਪੰਨਾ ਨਹੀਂ ਛੱਡਦੇ।",
       collectionTitle: "ਐਨਾਲਿਟਿਕਸ ਇਕੱਤਰਨ ਦੀ ਇਜਾਜ਼ਤ ਦਿਓ",
       off: "ਬੰਦ",
@@ -5552,7 +5552,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     },
     analyticsConsentWithdrawal: {
       close: "மூடு",
-      collectionDescription: "இது அணைக்கப்பட்டிருக்கும்போது, குக்கீ இருந்தாலும் இல்லாவிட்டாலும், இந்தத் தளம் உங்கள் வருகைகள் குறித்து எதையும் அனுப்புவதில்லை. இந்தத் தளத்தில் கணக்குகள் இல்லை, எனவே இந்தத் தேர்வு இந்த உலாவியில் மட்டுமே சேமிக்கப்பட்டு இங்கு மட்டும் பொருந்தும். பேனருக்குப் பதிலளித்த பிறகு, சேகரிப்பு இயக்கத்தில் இருக்கும்போது பகுப்பாய்வு குக்கீ தேர்வு இங்கே கிடைக்கும்.",
+      collectionDescription: "இது அணைக்கப்பட்டிருக்கும்போது, குக்கீ இருந்தாலும் இல்லாவிட்டாலும், இந்தத் தளம் உங்கள் வருகைகள் குறித்து எதையும் அனுப்புவதில்லை. இந்தத் தளத்தில் கணக்குகள் இல்லை, எனவே இந்தத் தேர்வு இந்த உலாவியில் மட்டுமே சேமிக்கப்பட்டு இங்கு மட்டும் பொருந்தும். பேனருக்குப் பதிலளித்த பிறகு, சேகரிப்பு இயக்கத்தில் இருக்கும்போது பகுப்பாய்வு குக்கீ தேர்வு இங்கே கிடைக்கும். உங்கள் உலாவி Global Privacy Control சமிக்ஞையை அனுப்பினால், இந்தத் தளம் அதற்கு எந்தப் பகுப்பாய்வு குக்கீயையும் வழங்குவதில்லை, எனவே இங்கே குக்கீ குறித்து தேர்வு செய்ய எதுவும் இல்லை.",
       collectionStorageError: "இந்த உலாவி இந்தத் தேர்வை நினைவில் வைக்காது, எனவே நீங்கள் இந்தப் பக்கத்தை விட்டு வெளியேறும் வரை மட்டுமே இது பொருந்தும்.",
       collectionTitle: "பகுப்பாய்வுத் தரவு சேகரிப்பை அனுமதி",
       off: "அணைப்பு",
@@ -5704,7 +5704,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     },
     analyticsConsentWithdrawal: {
       close: "మూసివేయండి",
-      collectionDescription: "ఇది ఆఫ్‌లో ఉన్నప్పుడు, కుకీ ఉన్నా లేకున్నా, ఈ సైట్ మీ సందర్శనల గురించి ఏదీ పంపదు. ఈ సైట్‌లో ఖాతాలు లేవు, కాబట్టి ఈ ఎంపిక ఈ బ్రౌజర్‌లోనే ఉంటుంది, ఇక్కడ మాత్రమే వర్తిస్తుంది. బ్యానర్‌కు సమాధానం ఇచ్చిన తర్వాత, సేకరణ ఆన్‌లో ఉన్నప్పుడు విశ్లేషణ కుకీ ఎంపిక ఇక్కడ అందుబాటులో ఉంటుంది.",
+      collectionDescription: "ఇది ఆఫ్‌లో ఉన్నప్పుడు, కుకీ ఉన్నా లేకున్నా, ఈ సైట్ మీ సందర్శనల గురించి ఏదీ పంపదు. ఈ సైట్‌లో ఖాతాలు లేవు, కాబట్టి ఈ ఎంపిక ఈ బ్రౌజర్‌లోనే ఉంటుంది, ఇక్కడ మాత్రమే వర్తిస్తుంది. బ్యానర్‌కు సమాధానం ఇచ్చిన తర్వాత, సేకరణ ఆన్‌లో ఉన్నప్పుడు విశ్లేషణ కుకీ ఎంపిక ఇక్కడ అందుబాటులో ఉంటుంది. మీ బ్రౌజర్ Global Privacy Control సంకేతాన్ని పంపితే, ఈ సైట్ దానికి ఏ విశ్లేషణ కుకీని ఇవ్వదు, కాబట్టి ఇక్కడ కుకీ గురించి ఎంచుకోవడానికి ఏమీ ఉండదు.",
       collectionStorageError: "ఈ బ్రౌజర్ ఈ ఎంపికను గుర్తుంచుకోదు, కాబట్టి మీరు ఈ పేజీని వదిలే వరకు మాత్రమే ఇది వర్తిస్తుంది.",
       collectionTitle: "అనలిటిక్స్ సేకరణను అనుమతించండి",
       off: "ఆఫ్",
@@ -5855,7 +5855,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     },
     analyticsConsentWithdrawal: {
       close: "بند کریں",
-      collectionDescription: "جب یہ بند ہو تو یہ سائٹ آپ کے وزٹس کے بارے میں کچھ بھی نہیں بھیجتی، کوکی ہو یا نہ ہو۔ اس سائٹ پر کوئی اکاؤنٹ نہیں ہے، اس لیے یہ انتخاب اسی براؤزر میں رہتا ہے اور صرف یہیں لاگو ہوتا ہے۔ بینر کا جواب دینے کے بعد، تجزیاتی کوکی کا انتخاب یہاں دستیاب ہوتا ہے، جب تک جمع کرنا آن ہو۔",
+      collectionDescription: "جب یہ بند ہو تو یہ سائٹ آپ کے وزٹس کے بارے میں کچھ بھی نہیں بھیجتی، کوکی ہو یا نہ ہو۔ اس سائٹ پر کوئی اکاؤنٹ نہیں ہے، اس لیے یہ انتخاب اسی براؤزر میں رہتا ہے اور صرف یہیں لاگو ہوتا ہے۔ بینر کا جواب دینے کے بعد، تجزیاتی کوکی کا انتخاب یہاں دستیاب ہوتا ہے، جب تک جمع کرنا آن ہو۔ اگر آپ کا براؤزر Global Privacy Control سگنل بھیجتا ہے تو یہ سائٹ اسے کوئی تجزیاتی کوکی نہیں دیتی، اس لیے یہاں کوکی کے بارے میں کوئی انتخاب کرنے کو نہیں ہوتا۔",
       collectionStorageError: "یہ براؤزر اس انتخاب کو یاد نہیں رکھے گا، اس لیے یہ صرف اُس وقت تک لاگو ہے جب تک آپ یہ صفحہ نہ چھوڑیں۔",
       collectionTitle: "اینالیٹکس جمع کرنے کی اجازت دیں",
       off: "بند",
@@ -6005,7 +6005,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     },
     analyticsConsentWithdrawal: {
       close: "Funga",
-      collectionDescription: "Inapozimwa, tovuti hii haitumi chochote kuhusu ziara zako, iwe kuna kidakuzi au la. Tovuti hii haina akaunti, kwa hivyo chaguo hili huhifadhiwa katika kivinjari hiki na hutumika hapa pekee. Baada ya kujibu bango, chaguo la vidakuzi vya uchanganuzi linapatikana hapa wakati ukusanyaji umewashwa.",
+      collectionDescription: "Inapozimwa, tovuti hii haitumi chochote kuhusu ziara zako, iwe kuna kidakuzi au la. Tovuti hii haina akaunti, kwa hivyo chaguo hili huhifadhiwa katika kivinjari hiki na hutumika hapa pekee. Baada ya kujibu bango, chaguo la vidakuzi vya uchanganuzi linapatikana hapa wakati ukusanyaji umewashwa. Ikiwa kivinjari chako kinatuma ishara ya Global Privacy Control, tovuti hii haikipi kidakuzi chochote cha uchanganuzi, kwa hivyo hakuna chaguo la vidakuzi la kufanya hapa.",
       collectionStorageError: "Kivinjari hiki hakitakumbuka chaguo hili, kwa hivyo linatumika tu hadi utakapoondoka kwenye ukurasa huu.",
       collectionTitle: "Ruhusu ukusanyaji wa uchanganuzi",
       off: "Imezimwa",
@@ -6156,7 +6156,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     },
     analyticsConsentWithdrawal: {
       close: "Затваряне",
-      collectionDescription: "Когато е изключено, сайтът не изпраща нищо за посещенията ви — със или без бисквитка. Този сайт няма акаунти, затова изборът остава в този браузър и важи само тук. След като отговорите на банера, изборът за аналитичните бисквитки е достъпен тук, докато събирането е включено.",
+      collectionDescription: "Когато е изключено, сайтът не изпраща нищо за посещенията ви — със или без бисквитка. Този сайт няма акаунти, затова изборът остава в този браузър и важи само тук. След като отговорите на банера, изборът за аналитичните бисквитки е достъпен тук, докато събирането е включено. Ако браузърът ви изпраща сигнал Global Privacy Control, сайтът изобщо не му дава аналитична бисквитка, затова тук няма избор за бисквитки.",
       collectionStorageError: "Този браузър няма да запомни избора, затова той важи само докато не напуснете тази страница.",
       collectionTitle: "Разрешаване на събирането на анализи",
       off: "Изкл.",
@@ -6306,7 +6306,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     },
     analyticsConsentWithdrawal: {
       close: "Sulge",
-      collectionDescription: "Kui see on väljas, ei saada see sait sinu külastuste kohta üldse midagi, küpsisega või ilma. Sellel saidil pole kontosid, seega jääb valik sellesse brauserisse ja kehtib ainult siin. Kui oled bännerile vastanud, on analüütikaküpsiste valik saadaval siin, kui kogumine on sees.",
+      collectionDescription: "Kui see on väljas, ei saada see sait sinu külastuste kohta üldse midagi, küpsisega või ilma. Sellel saidil pole kontosid, seega jääb valik sellesse brauserisse ja kehtib ainult siin. Kui oled bännerile vastanud, on analüütikaküpsiste valik saadaval siin, kui kogumine on sees. Kui sinu brauser saadab Global Privacy Control signaali, ei anna see sait talle üldse analüütikaküpsist, seega pole siin küpsiste kohta midagi valida.",
       collectionStorageError: "See brauser ei jäta seda valikut meelde, seega kehtib see ainult kuni sa sellelt lehelt lahkud.",
       collectionTitle: "Luba analüütika kogumine",
       off: "Väljas",
@@ -6456,7 +6456,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     },
     analyticsConsentWithdrawal: {
       close: "Zatvori",
-      collectionDescription: "Kad je ovo isključeno, stranica ne šalje baš ništa o vašim posjetima, s kolačićem ili bez njega. Ova stranica nema račune, pa izbor ostaje u ovom pregledniku i vrijedi samo ovdje. Nakon što odgovorite na banner, izbor o analitičkim kolačićima dostupan je ovdje dok je prikupljanje uključeno.",
+      collectionDescription: "Kad je ovo isključeno, stranica ne šalje baš ništa o vašim posjetima, s kolačićem ili bez njega. Ova stranica nema račune, pa izbor ostaje u ovom pregledniku i vrijedi samo ovdje. Nakon što odgovorite na banner, izbor o analitičkim kolačićima dostupan je ovdje dok je prikupljanje uključeno. Ako vaš preglednik šalje signal Global Privacy Control, ova stranica mu uopće ne daje analitički kolačić, pa nema ni izbora o kolačićima.",
       collectionStorageError: "Ovaj preglednik neće zapamtiti ovaj izbor, pa vrijedi samo dok ne napustite ovu stranicu.",
       collectionTitle: "Dopusti prikupljanje analitike",
       off: "Isklj.",
@@ -6606,7 +6606,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     },
     analyticsConsentWithdrawal: {
       close: "Loka",
-      collectionDescription: "Þegar slökkt er á þessu sendir vefurinn alls ekkert um heimsóknir þínar, með vafraköku eða án hennar. Þessi vefur er ekki með aðganga, svo valið helst í þessum vafra og gildir aðeins hér. Þegar þú hefur svarað borðanum er valið um vafrakökur fyrir greiningu í boði hér á meðan kveikt er á söfnun.",
+      collectionDescription: "Þegar slökkt er á þessu sendir vefurinn alls ekkert um heimsóknir þínar, með vafraköku eða án hennar. Þessi vefur er ekki með aðganga, svo valið helst í þessum vafra og gildir aðeins hér. Þegar þú hefur svarað borðanum er valið um vafrakökur fyrir greiningu í boði hér á meðan kveikt er á söfnun. Ef vafrinn þinn sendir Global Privacy Control-merki gefur þessi vefur honum enga vafraköku fyrir greiningu, svo það er ekkert val um vafrakökur að taka.",
       collectionStorageError: "Þessi vafri man ekki þetta val, svo það gildir aðeins þar til þú ferð af þessari síðu.",
       collectionTitle: "Leyfa söfnun fyrir greiningu",
       off: "Slökkt",
@@ -6756,7 +6756,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     },
     analyticsConsentWithdrawal: {
       close: "Uždaryti",
-      collectionDescription: "Kai tai išjungta, svetainė nesiunčia visiškai nieko apie jūsų apsilankymus – su slapuku ar be jo. Ši svetainė neturi paskyrų, todėl pasirinkimas lieka šioje naršyklėje ir galioja tik čia. Kai atsakysite į reklamjuostę, analitikos slapukų pasirinkimas bus pasiekiamas čia, kol rinkimas įjungtas.",
+      collectionDescription: "Kai tai išjungta, svetainė nesiunčia visiškai nieko apie jūsų apsilankymus – su slapuku ar be jo. Ši svetainė neturi paskyrų, todėl pasirinkimas lieka šioje naršyklėje ir galioja tik čia. Kai atsakysite į reklamjuostę, analitikos slapukų pasirinkimas bus pasiekiamas čia, kol rinkimas įjungtas. Jei jūsų naršyklė siunčia Global Privacy Control signalą, ši svetainė jai iš viso neduoda analitikos slapuko, todėl čia nėra ko pasirinkti dėl slapukų.",
       collectionStorageError: "Ši naršyklė neįsimins šio pasirinkimo, todėl jis galioja tik tol, kol paliksite šį puslapį.",
       collectionTitle: "Leisti analitikos rinkimą",
       off: "Išjungta",
@@ -6906,7 +6906,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     },
     analyticsConsentWithdrawal: {
       close: "Aizvērt",
-      collectionDescription: "Kad tas ir izslēgts, vietne nesūta neko par taviem apmeklējumiem – ar sīkdatni vai bez tās. Šai vietnei nav kontu, tāpēc izvēle paliek šajā pārlūkā un ir spēkā tikai šeit. Kad esi atbildējis uz reklāmkarogu, analītikas sīkdatņu izvēle ir pieejama šeit, kamēr vākšana ir ieslēgta.",
+      collectionDescription: "Kad tas ir izslēgts, vietne nesūta neko par taviem apmeklējumiem – ar sīkdatni vai bez tās. Šai vietnei nav kontu, tāpēc izvēle paliek šajā pārlūkā un ir spēkā tikai šeit. Kad esi atbildējis uz reklāmkarogu, analītikas sīkdatņu izvēle ir pieejama šeit, kamēr vākšana ir ieslēgta. Ja tavs pārlūks sūta Global Privacy Control signālu, šī vietne tam nemaz nedod analītikas sīkdatni, tāpēc te nav ko izvēlēties par sīkdatnēm.",
       collectionStorageError: "Šī pārlūkprogramma šo izvēli neatcerēsies, tāpēc tā ir spēkā tikai līdz brīdim, kad pametīsi šo lapu.",
       collectionTitle: "Atļaut analītikas datu vākšanu",
       off: "Izslēgts",
@@ -7056,7 +7056,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     },
     analyticsConsentWithdrawal: {
       close: "Zavrieť",
-      collectionDescription: "Keď je toto vypnuté, stránka neodosiela o vašich návštevách vôbec nič, s cookie aj bez neho. Táto stránka nemá účty, takže voľba zostáva v tomto prehliadači a platí len tu. Keď odpoviete na banner, voľba analytických cookie je dostupná tu, kým je zber zapnutý.",
+      collectionDescription: "Keď je toto vypnuté, stránka neodosiela o vašich návštevách vôbec nič, s cookie aj bez neho. Táto stránka nemá účty, takže voľba zostáva v tomto prehliadači a platí len tu. Keď odpoviete na banner, voľba analytických cookie je dostupná tu, kým je zber zapnutý. Ak váš prehliadač posiela signál Global Privacy Control, táto stránka mu žiadne analytické cookie nedáva, takže tu nie je čo voliť o cookie.",
       collectionStorageError: "Tento prehliadač si túto voľbu nezapamätá, takže platí len dovtedy, kým neopustíte túto stránku.",
       collectionTitle: "Povoliť zber analytiky",
       off: "Vyp.",
@@ -7206,7 +7206,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     },
     analyticsConsentWithdrawal: {
       close: "Zapri",
-      collectionDescription: "Ko je to izklopljeno, ta stran o vaših obiskih ne pošlje popolnoma ničesar, s piškotkom ali brez njega. Ta stran nima računov, zato izbira ostane v tem brskalniku in velja samo tukaj. Ko odgovorite na pasico, je izbira glede analitičnih piškotkov na voljo tukaj, dokler je zbiranje vklopljeno.",
+      collectionDescription: "Ko je to izklopljeno, ta stran o vaših obiskih ne pošlje popolnoma ničesar, s piškotkom ali brez njega. Ta stran nima računov, zato izbira ostane v tem brskalniku in velja samo tukaj. Ko odgovorite na pasico, je izbira glede analitičnih piškotkov na voljo tukaj, dokler je zbiranje vklopljeno. Če vaš brskalnik pošilja signal Global Privacy Control, ta stran mu sploh ne da analitičnega piškotka, zato tukaj ni nobene izbire glede piškotkov.",
       collectionStorageError: "Ta brskalnik si te izbire ne bo zapomnil, zato velja samo, dokler ne zapustite te strani.",
       collectionTitle: "Dovoli zbiranje analitike",
       off: "Izklopljeno",
@@ -7356,7 +7356,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     },
     analyticsConsentWithdrawal: {
       close: "Vala",
-      collectionDescription: "Uma lokhu kuvaliwe, leli sayithi alithumeli lutho ngokuvakasha kwakho, noma kunekhukhi noma cha. Leli sayithi alinakho ama-akhawunti, ngakho lokhu okukhethiwe kuhlala kulesi siphequluli futhi kusebenza lapha kuphela. Ngemva kokuphendula ibhena, ukukhetha kwamakhukhi okuhlaziya kuyatholakala lapha uma ukuqoqa kuvuliwe.",
+      collectionDescription: "Uma lokhu kuvaliwe, leli sayithi alithumeli lutho ngokuvakasha kwakho, noma kunekhukhi noma cha. Leli sayithi alinakho ama-akhawunti, ngakho lokhu okukhethiwe kuhlala kulesi siphequluli futhi kusebenza lapha kuphela. Ngemva kokuphendula ibhena, ukukhetha kwamakhukhi okuhlaziya kuyatholakala lapha uma ukuqoqa kuvuliwe. Uma isiphequluli sakho sithumela isignali ye-Global Privacy Control, leli sayithi alisiniki nhlobo ikhukhi yokuhlaziya, ngakho ayikho inketho yamakhukhi okufanele uyenze lapha.",
       collectionStorageError: "Lesi siphequluli ngeke sikukhumbule lokhu okukhethile, ngakho kusebenza kuphela uze ushiye leli khasi.",
       collectionTitle: "Vumela ukuqoqwa kokuhlaziya",
       off: "Kuvaliwe",

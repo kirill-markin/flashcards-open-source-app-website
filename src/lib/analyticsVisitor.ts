@@ -11,6 +11,7 @@
  */
 
 import {
+  clearGrantedAnalyticsConsentDecision,
   isAnalyticsIdentityConsented,
   isSiteAnalyticsCollectionEnabled,
   publishAnalyticsConsentJurisdiction,
@@ -69,13 +70,18 @@ export function readAnalyticsVisitorId(): string | null {
 /**
  * The id a reported event may carry, or null where this browser may carry none.
  *
+ * Global Privacy Control is read here as well as where the cookie is cleared. The clear runs at
+ * least once per load, and again on every page view, but `analytics_visitor` is shared with the
+ * hosted web app, which reads no signal and can mint it again between two of them - so an event must
+ * never attach whatever it happens to find, even on a browser this site has already cleared.
+ *
  * There is deliberately no per-tab fallback for a browser that blocks cookies. The app keeps one
  * because a single-page session stays in one document; this site is multi-page, so a fabricated id
  * would be a fresh one on every navigation and would count one visitor many times over - the
  * outcome the contract names and forbids.
  */
 export function readAnalyticsAnonymousId(): string | null {
-  if (isAnalyticsIdentityConsented() === false) {
+  if (hasAnalyticsPrivacySignal() || isAnalyticsIdentityConsented() === false) {
     return null;
   }
 
@@ -235,8 +241,43 @@ async function runVisitorIdentityResolution(): Promise<void> {
  */
 export function resolveAnalyticsVisitorIdentity(): Promise<void> {
   if (hasAnalyticsPrivacySignal()) {
-    // The signal opts out of measurement entirely, so the jurisdiction is never published: the gate
-    // stays shut for the whole load, no banner is shown, and no identity is asked for or attached.
+    // The signal opts out of the identifier, not of measurement, so the jurisdiction is never
+    // published: the gate stays shut for the whole load, no banner is shown, the corner control
+    // leaves the cookie half out, and no identity is asked for. Identity-free events keep reaching
+    // our own collector.
+    //
+    // The identifier this browser may already hold is cleared rather than merely left unattached. A
+    // browser that consented and raised the signal afterwards carries the cookie for 13 months, and
+    // the privacy policy states that a browser exposing Global Privacy Control never carries
+    // `analytics_visitor` - withholding it at attach time would only simulate that sentence. It is
+    // also what leaves the hidden cookie half nothing to withdraw.
+    //
+    // An answer that allowed that cookie is forgotten with it, because the two are one act: a
+    // stored "granted" outliving the identifier it was about is the "on with no identifier" state
+    // this gate exists to forbid, arriving one step later. Without it, a browser that turns the
+    // signal off again lands with a decision that is not null, so the banner cannot ask - and with
+    // no cookie, so `isAnalyticsCookieDecisionRevisitable` offers a switch that reads "On" for an
+    // identity that no longer exists and can only be regained by declining first. Forgetting it
+    // leaves that browser exactly where a first-time visitor is: asked again where asking is
+    // required, and minted where it is not.
+    //
+    // A refusal is kept instead, and `clearGrantedAnalyticsConsentDecision` is what draws that
+    // line. The signal agrees with a refusal rather than overriding it, so forgetting it would end
+    // with the browser holding, where consent is not required, the identifier it had already said
+    // no to - a stronger privacy action buying less privacy than doing nothing. Kept, it still
+    // decides on its own once the signal is gone: the stored "declined" below returns before any
+    // request, in every country, and `readAnalyticsAnonymousId` attaches nothing meanwhile. The
+    // collection switch's own decision is untouched either way.
+    //
+    // Consequence, deliberate rather than overlooked: `analytics_visitor` is scoped to the shared
+    // registrable domain and read by the hosted web app, which reads no signal, so clearing it here
+    // resets that app's visitor continuity too, and an app visit that mints a fresh one is cleared
+    // again by this site's next page load. The policy sentence is about the browser, not about one
+    // origin. Unconditional, unlike the ownership-matched clears below: no request is in flight
+    // here whose cookie could belong to another document.
+    clearAnalyticsVisitorCookie();
+    clearGrantedAnalyticsConsentDecision();
+
     return Promise.resolve();
   }
 
@@ -267,15 +308,21 @@ export function resolveAnalyticsVisitorIdentity(): Promise<void> {
  * `consentRequired` reports the jurisdiction on `POST`, not whether this browser still has to be
  * asked, so a granting European browser is answered `true` beside the id it was just given.
  *
- * The collection switch is checked here rather than only where identity is resolved, because this
- * is the call that actually asks the backend to mint the 13-month shared cookie: a browser that has
- * declared it reports nothing must not walk away holding an identifier for events it will never
- * send. Checked again after the answer lands, because the banner and the corner panel are separate
- * surfaces and one can be answered while the other is open - the switch wins, and the identity that
- * was just minted goes straight back out.
+ * The collection switch and Global Privacy Control are checked here rather than only where identity
+ * is resolved, because this is the call that actually asks the backend to mint the 13-month shared
+ * cookie: a browser that has declared it reports nothing, or that raises the signal, must not walk
+ * away holding an identifier. Neither surface offers the grant in those states - no banner is shown
+ * and the corner control leaves the cookie half out - so this is the backstop rather than the gate,
+ * and it is kept because nothing else stands between a caller of this function and a fresh cookie.
+ * The collection switch is checked again after the answer lands, because the banner and the corner
+ * panel are separate surfaces and one can be answered while the other is open - the switch wins, and
+ * the identity that was just minted goes straight back out.
  */
 export async function grantAnalyticsConsent(): Promise<boolean> {
-  if (isSiteAnalyticsCollectionEnabled() === false) {
+  if (
+    isSiteAnalyticsCollectionEnabled() === false ||
+    hasAnalyticsPrivacySignal()
+  ) {
     return false;
   }
 
