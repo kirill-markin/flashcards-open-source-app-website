@@ -97,6 +97,8 @@ That is why I like cards that connect a cue to a method:
 - What pattern suggests similar triangles might be the right tool?
 - What kind of limit expression usually points toward L'Hopital's rule?
 
+For a focused example, the [recurring decimals to fractions flashcards](/catalog/packages/recurring-decimals-to-fractions-flashcards/) ask you to identify the repeating block, choose powers of ten, and check which decimal tails cancel before finding an exact fraction. Use those decisions in fresh worked problems too.
+
 These are still **math problem solving flashcards**, but they are not trying to memorize a whole solution path. They train recognition. That matters because explanations are cheap now. You can get a walkthrough from a tutor, a video, or an AI tool in minutes. The harder part is seeing the right move before someone shows it to you.
 
 If your raw material mostly comes from corrected homework, quizzes, or mock tests, [How to Turn Practice Questions Into Flashcards in 2026](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/) fits this workflow well.
