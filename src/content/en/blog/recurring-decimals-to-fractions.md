@@ -201,4 +201,6 @@ Keep a review card for the step you missed. These prompts target specific errors
 
 Answer before revealing the back. On another day, solve a fresh example with different digits to check whether you can still choose the multipliers yourself. Our guide to [using flashcards for math](/blog/how-to-use-flashcards-for-math/) explains how to build this kind of review around problem practice.
 
-If simplifying fractions or familiar decimal equivalents slowed you down, the [fractions, decimals, and percentages deck](/catalog/packages/fractions-decimals-percentages-flashcards/) offers foundational practice. It doesn't teach recurring-decimal algebra; use the worked examples and quiz here for that step.
+For more practice with the method, the [recurring decimals to fractions flashcards](/catalog/packages/recurring-decimals-to-fractions-flashcards/) cover repeating blocks, choosing powers of ten, and converting pure and mixed recurring decimals into exact fractions. Work out each answer before checking the algebra on the back.
+
+If simplifying fractions or familiar decimal equivalents slowed you down, the [fractions, decimals, and percentages deck](/catalog/packages/fractions-decimals-percentages-flashcards/) offers foundational practice.
