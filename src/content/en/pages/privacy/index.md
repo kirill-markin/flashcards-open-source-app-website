@@ -80,6 +80,8 @@ OpenAI is the AI provider configured for hosted chat, transcription, and image-g
 
 Hosted AI requests are also observed through Langfuse Cloud for debugging and service-quality analysis. Langfuse traces can include prompts, model responses, tool activity, user, workspace and session identifiers, and operational metadata. The implementation masks email addresses and secret-looking fields; custom transcription traces exclude raw audio bytes and attachment data.
 
+Our administrators can read hosted AI chat content stored in our own database, including your prompts, model responses, and suggested chat prompts, to analyze how the AI features are used and improve them. Access to that content is limited to the operator's administrators.
+
 When you connect Nibomo to an external AI client through the remote MCP service or Agent API, the data you ask that client to retrieve is also processed by the client and its AI or model provider. That separate processing is controlled by the client operator and governed by its terms and privacy policy.
 
 ## Processors and Recipients
@@ -111,7 +113,7 @@ The primary hosted application runs in AWS's EU infrastructure. The configured R
 - The database has 7 days of RDS automated backups and a separate daily AWS Backup plan with 35-day retention. Records deleted from the live service may remain in encrypted recovery backups until those backups expire; backups are used for disaster recovery, not normal service access.
 - API Gateway access logs expire after 7 days. Other CloudWatch application logs currently have no automatic expiry configured and remain until they are manually deleted. We restrict their use to operations, security, and debugging and delete relevant entries when required to honor an applicable data-protection right.
 - The current Sentry Developer plan provides a 30-day event lookback. Resend retains sent-email data for 30 days under its current standard service settings.
-- OpenAI retention is described in the Hosted AI section. The current Langfuse project has no automatic retention period configured, so AI traces remain until they are manually deleted, the project is deleted, or a provider access limit applies. We delete identifiable traces when necessary to honor a valid deletion request.
+- OpenAI retention is described in the Hosted AI section. Langfuse Cloud deletes AI traces after 30 days: the provider access limit on our project removes older traces in a nightly run, and that deletion is irreversible. We delete identifiable traces when necessary to honor a valid deletion request.
 - Support correspondence and records needed for legal or security matters are kept only as long as needed for the relevant purpose. Vercel's visitor hash expires after 24 hours; aggregated website statistics are retained under the Vercel project settings.
 
 Deleting an account does not immediately remove copies already present in a scheduled backup or a provider log. Those copies expire or are deleted according to the periods above, unless a longer period is legally required.
