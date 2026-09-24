@@ -80,6 +80,8 @@ OpenAI ist der konfigurierte Anbieter für gehosteten Chat, Transkription und Bi
 
 Gehostete KI-Anfragen werden außerdem über Langfuse Cloud zur Fehlersuche und Qualitätsanalyse beobachtet. Langfuse-Traces können Prompts, Modellantworten, Tool-Aktivitäten, Nutzer-, Workspace- und Sitzungskennungen sowie Betriebsmetadaten enthalten. Die Implementierung maskiert E-Mail-Adressen und geheimnisähnliche Felder; benutzerdefinierte Transkriptions-Traces schließen rohe Audiodaten und Anhangsdaten aus.
 
+Unsere Administratoren können gehostete KI-Chatinhalte lesen, die in unserer eigenen Datenbank gespeichert sind, einschließlich Ihrer Prompts, Modellantworten und vorgeschlagener Prompts im Chat-Eingabefeld, um zu analysieren, wie die KI-Funktionen genutzt werden, und sie zu verbessern. Der Zugriff auf diese Inhalte ist auf die Administratoren des Betreibers beschränkt.
+
 Wenn Sie Nibomo über den Remote-MCP-Dienst oder die Agent API mit einem externen KI-Client verbinden, verarbeiten auch dieser Client und sein KI- oder Modellanbieter die von Ihnen abgerufenen Daten. Diese separate Verarbeitung wird vom Betreiber des Clients kontrolliert und unterliegt dessen Bedingungen und Datenschutzerklärung.
 
 ## Auftragsverarbeiter und Empfänger
@@ -111,7 +113,7 @@ Die primäre gehostete Anwendung läuft in EU-Infrastruktur von AWS. Auch die ko
 - Für die Datenbank bestehen automatisierte RDS-Backups für 7 Tage sowie ein gesonderter täglicher AWS-Backup-Plan mit 35 Tagen Aufbewahrung. Aus dem Live-Dienst gelöschte Datensätze können bis zum Ablauf in verschlüsselten Wiederherstellungs-Backups verbleiben. Backups dienen der Notfallwiederherstellung, nicht dem normalen Zugriff.
 - API-Gateway-Zugriffsprotokolle verfallen nach 7 Tagen. Andere CloudWatch-Anwendungsprotokolle haben derzeit keine automatische Ablauffrist und bleiben bis zur manuellen Löschung erhalten. Wir beschränken ihre Nutzung auf Betrieb, Sicherheit und Fehlersuche und löschen relevante Einträge, wenn dies zur Erfüllung eines anwendbaren Datenschutzrechts erforderlich ist.
 - Der aktuelle Sentry-Developer-Tarif bietet einen 30-tägigen Ereignisrückblick. Resend bewahrt Daten zu gesendeten E-Mails nach seinen aktuellen Standardeinstellungen 30 Tage auf.
-- Die OpenAI-Aufbewahrung ist im KI-Abschnitt beschrieben. Für das aktuelle Langfuse-Projekt ist keine automatische Aufbewahrungsfrist konfiguriert; Traces bleiben daher bis zur manuellen Löschung, Projektlöschung oder Anwendung einer anbieterseitigen Zugriffsgrenze erhalten. Identifizierbare Traces löschen wir, soweit dies zur Erfüllung eines berechtigten Löschantrags erforderlich ist.
+- Die OpenAI-Aufbewahrung ist im KI-Abschnitt beschrieben. Langfuse Cloud löscht KI-Traces nach 30 Tagen: Die anbieterseitige Zugriffsgrenze für unser Projekt entfernt ältere Traces in einem nächtlichen Lauf, und diese Löschung lässt sich nicht rückgängig machen. Identifizierbare Traces löschen wir, soweit dies zur Erfüllung eines berechtigten Löschantrags erforderlich ist.
 - Supportkorrespondenz sowie für rechtliche oder Sicherheitszwecke erforderliche Unterlagen werden nur so lange aufbewahrt, wie es der jeweilige Zweck erfordert. Der Vercel-Besucher-Hash verfällt nach 24 Stunden; aggregierte Website-Statistiken werden gemäß den Vercel-Projekteinstellungen aufbewahrt.
 
 Durch die Kontolöschung werden Kopien in bereits erstellten planmäßigen Backups oder Anbieterprotokollen nicht sofort entfernt. Sie verfallen oder werden nach den oben genannten Fristen gelöscht, sofern keine längere gesetzliche Aufbewahrungspflicht besteht.
