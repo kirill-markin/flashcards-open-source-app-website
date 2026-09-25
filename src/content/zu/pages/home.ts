@@ -19,7 +19,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
       trustLine: "Alidingeki ikhadi lesikweletu. Azikho izikhangiso. Akukho ukubala kwesikhathi sokuzama.",
       primaryLink: {
         label: "Qala manje",
-        href: "https://app.flashcards-open-source-app.com",
+        href: "https://app.nibomo.com",
       },
       secondaryLink: {
         label: "Buka ku-GitHub",
