@@ -20,6 +20,10 @@ import {
   resolveAnalyticsVisitorIdentity,
 } from "@/lib/analyticsVisitor";
 import type { AppLocale } from "@/lib/i18n";
+import {
+  reportSiteCollectionDisabled,
+  reportSiteCollectionEnabled,
+} from "@/lib/siteConsentEvents";
 import { getUiCopy } from "@/lib/uiCopy";
 import styles from "./AnalyticsConsentWithdrawal.module.css";
 
@@ -246,6 +250,10 @@ export function AnalyticsConsentWithdrawal({
    * the next page. The answer still holds for this document, which is all that can be offered there.
    */
   const changeAnalyticsCollection = (nextEnabled: boolean): void => {
+    if (nextEnabled === false) {
+      reportSiteCollectionDisabled(locale);
+    }
+
     const isStored = recordSiteAnalyticsCollectionDecision(
       nextEnabled ? "enabled" : "disabled",
     );
@@ -255,6 +263,7 @@ export function AnalyticsConsentWithdrawal({
     );
 
     if (nextEnabled) {
+      reportSiteCollectionEnabled(locale);
       void resolveAnalyticsVisitorIdentity();
     }
   };
