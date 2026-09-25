@@ -3,9 +3,9 @@ import { PublicCatalogNavigation } from "@/components/PublicCatalogNavigation";
 import { PublicCatalogPackageCard } from "@/components/PublicCatalogPackageCard";
 import { SiteFrame } from "@/components/SiteFrame";
 import { StructuredDataScript } from "@/components/StructuredDataScript";
+import { TrackedOutboundLink } from "@/components/TrackedOutboundLink";
 import type { AppLocale } from "@/lib/i18n";
 import { getLocalizedPathname } from "@/lib/i18n";
-import { getExternalLinkAttributes } from "@/lib/linkTargets";
 import { getPublicCatalogUiCopy } from "@/lib/publicCatalogCopy";
 import {
   getPublicCatalogDestinationCopy,
@@ -69,13 +69,14 @@ export function PublicCatalogAuthorPageView({
             <p className={styles.bio}>{author.bio}</p>
           )}
           {author.websiteUrl === null ? null : (
-            <a
+            <TrackedOutboundLink
               className={styles.websiteLink}
               href={author.websiteUrl}
-              {...getExternalLinkAttributes(author.websiteUrl)}
-            >
-              {copy.authorWebsiteLabel}
-            </a>
+              label={copy.authorWebsiteLabel}
+              locale={locale}
+              placement="author_page"
+              target="author_website"
+            />
           )}
           <PublicCatalogNavigation currentSection="authors" locale={locale} />
         </header>
