@@ -43,6 +43,7 @@ export function PublicCatalogPackageCard({
         href={packageHref}
         locale={locale}
         packageId={packageMetadata.packageId}
+        packageSlug={packageMetadata.slug}
         placement="card_cover"
         tabIndex={-1}
       >
@@ -61,6 +62,7 @@ export function PublicCatalogPackageCard({
               href={packageHref}
               locale={locale}
               packageId={packageMetadata.packageId}
+              packageSlug={packageMetadata.slug}
               placement="card_title"
               tabIndex={undefined}
             >

@@ -7,6 +7,7 @@ import {
   createPublicCatalogNavigationAnalytics,
   type PublicCatalogNavigationPlacement,
 } from "@/lib/publicCatalogAnalytics";
+import { reportPublicCatalogDeckOpen } from "@/lib/publicCatalogSiteEvents";
 import { trackPublicCatalogEvent } from "@/lib/publicCatalogTracking";
 
 interface TrackedPublicCatalogPackageLinkProps {
@@ -15,6 +16,8 @@ interface TrackedPublicCatalogPackageLinkProps {
   readonly href: string;
   readonly locale: AppLocale;
   readonly packageId: string;
+  // The deck the product collector names, where `packageId` is the one the vendor event names.
+  readonly packageSlug: string;
   readonly placement: PublicCatalogNavigationPlacement;
   readonly tabIndex: number | undefined;
 }
@@ -25,6 +28,7 @@ export function TrackedPublicCatalogPackageLink({
   href,
   locale,
   packageId,
+  packageSlug,
   placement,
   tabIndex,
 }: TrackedPublicCatalogPackageLinkProps): React.JSX.Element {
@@ -33,6 +37,7 @@ export function TrackedPublicCatalogPackageLink({
       "public_catalog_navigation",
       createPublicCatalogNavigationAnalytics(locale, packageId, placement),
     );
+    reportPublicCatalogDeckOpen(locale, packageSlug, placement);
   };
 
   return (
