@@ -47,11 +47,17 @@ const STORE_APP_ENTRY_TARGETS: Readonly<
   ios: "app_store",
 };
 
-/** Reports a click into the web app or a store to the product collector as `site_app_entry_clicked`. */
+/**
+ * Reports a click into the web app or a store to the product collector as `site_app_entry_clicked`.
+ *
+ * A store link offers no choice of way in and so passes no `action`; the property is then left out
+ * of the event rather than sent empty, exactly as the catalog declares it optional.
+ */
 export function reportSiteAppEntryClick(
   target: SiteAppEntryTarget,
   locale: AppLocale,
   placement: string,
+  action?: AppEntryAction,
 ): void {
   sendSiteAnalyticsEvent("site_app_entry_clicked", new Date().toISOString(), locale, {
     target,
@@ -59,6 +65,7 @@ export function reportSiteAppEntryClick(
     placement,
     source: classifySiteSource(document.referrer, window.location.hostname),
     device_category: getSiteDeviceCategory(),
+    ...(action === undefined ? {} : { action }),
   });
 }
 
@@ -79,5 +86,5 @@ export function trackAppEntryClick(
     platform: "web",
     placement,
   });
-  reportSiteAppEntryClick("web_app", locale, placement);
+  reportSiteAppEntryClick("web_app", locale, placement, action);
 }
