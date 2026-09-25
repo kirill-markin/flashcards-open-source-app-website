@@ -207,7 +207,9 @@ export function AnalyticsConsentWithdrawal({
    * take away. Nothing may be minted for a browser that reports nothing, and `grantAnalyticsConsent`
    * refuses outright, so rather than showing a switch that cannot act, the whole block is left out -
    * a disabled control with nothing naming its reason is no answer either. The collection row's own
-   * text says the cookie choice comes back with collection, which is the way back to it.
+   * text says the cookie choice comes back with collection, which is the way back to it, and names
+   * Global Privacy Control too - the other reason this block is absent, and the one with no way back
+   * while the browser raises it.
    */
   const isCookieSwitchOffered = isCollectionEnabled || isAnalyticsAllowed;
 

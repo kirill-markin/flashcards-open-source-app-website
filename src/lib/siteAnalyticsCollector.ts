@@ -1,5 +1,4 @@
 import { isSiteAnalyticsCollectionEnabled } from "./analyticsConsent";
-import { hasAnalyticsPrivacySignal } from "./analyticsPrivacySignal";
 import { readAnalyticsAnonymousId } from "./analyticsVisitor";
 import { resolveLocaleFromPathname, type AppLocale } from "./i18n";
 import { PRODUCT_API_ORIGIN, PRODUCT_ROOT_HOSTNAMES } from "./site";
@@ -595,9 +594,10 @@ async function warnAboutRejectedSiteAnalyticsEvent(
 
 /**
  * Reports one fact to the product's anonymous collector without blocking the caller. Nothing is sent
- * when the browser raises Global Privacy Control or Do Not Track, and nothing when this browser has
- * turned collection off - that switch is an off switch, not a demotion to identity-free reporting,
- * which is what refusing the cookie already gives.
+ * when this browser has turned collection off - that switch is an off switch, not a demotion to
+ * identity-free reporting, which is what refusing the cookie already gives. A browser raising Global
+ * Privacy Control reports here exactly as one that declined the cookie does: the signal points at
+ * the identifier and at the third-party vendor, not at this first-party collector.
  *
  * `credentials: "omit"` stays. The collector reads no credential at all, and its CORS allowlist
  * carries no `Access-Control-Allow-Credentials`, so a credentialed request here would be refused by
@@ -605,8 +605,9 @@ async function warnAboutRejectedSiteAnalyticsEvent(
  * from the cookie the visitor identity route minted on this same registrable domain.
  *
  * `readAnalyticsAnonymousId` answers null for every browser that may not carry one - one that
- * refused, and one whose consent question is still open - so an event that happens before an answer
- * exists is reported here and now with no identifier attached, exactly as a declining browser's is.
+ * refused, one whose consent question is still open, and one raising Global Privacy Control - so an
+ * event that happens before an answer exists is reported here and now with no identifier attached,
+ * exactly as a declining browser's is.
  * Holding it instead would lose it: this site has no durable queue, and the top of the funnel is
  * precisely where a first-time visitor acts before reading a banner.
  */
@@ -616,7 +617,7 @@ export function sendSiteAnalyticsEvent<EventName extends SiteAnalyticsEventName>
   uiLocale: AppLocale,
   properties: SiteAnalyticsEventPropertiesByName[EventName],
 ): void {
-  if (hasAnalyticsPrivacySignal() || isSiteAnalyticsCollectionEnabled() === false) {
+  if (isSiteAnalyticsCollectionEnabled() === false) {
     return;
   }
 

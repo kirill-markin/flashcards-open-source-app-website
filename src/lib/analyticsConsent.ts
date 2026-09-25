@@ -24,6 +24,8 @@
  * it answered said would happen.
  */
 
+import { hasAnalyticsPrivacySignal } from "./analyticsPrivacySignal";
+
 export type AnalyticsConsentChoice = "granted" | "declined";
 export type SiteAnalyticsCollectionChoice = "enabled" | "disabled";
 
@@ -82,6 +84,43 @@ export function recordAnalyticsConsentDecision(
 ): void {
   writeStoredConsentDecision(decision);
   notifyConsentListeners();
+}
+
+/**
+ * Forgets a stored grant, and only a grant. It is right only beside taking the identifier away -
+ * what `resolveAnalyticsVisitorIdentity` does under Global Privacy Control - because a grant is then
+ * an answer about a cookie that no longer exists, and keeping it would let a surface claim an
+ * identity this browser does not have.
+ *
+ * A refusal is deliberately kept. It is a standing preference about a cookie that should never be
+ * minted, and the signal agrees with it rather than overriding it - forgetting it would leave a
+ * browser that raised the signal and later dropped it holding the identifier it had already refused,
+ * wherever consent is not required. Kept, it goes on acting alone: `resolveAnalyticsVisitorIdentity`
+ * returns on a stored refusal before it asks the backend anything, in every country, and
+ * `isAnalyticsIdentityConsented` stays false so no event attaches an identifier either.
+ *
+ * Writes storage and notifies nobody, unlike `recordAnalyticsConsentDecision`. Not because no click
+ * can reach it - the collection switch calls `resolveAnalyticsVisitorIdentity` when it is turned
+ * back on - but because under the signal both surfaces that read this decision are already
+ * suppressed by conditions that do not depend on it: the cookie half of the corner control by
+ * `isAnalyticsCookieDecisionRevisitable`, which reads the signal itself, and the banner by a
+ * jurisdiction `isAnalyticsConsentBannerVisible` is never told under it. There is nothing on screen
+ * a notification could correct.
+ *
+ * The collection switch is a separate decision under its own key and is deliberately untouched: it
+ * is about whether anything is reported at all, which the signal does not decide.
+ */
+export function clearGrantedAnalyticsConsentDecision(): void {
+  if (readStoredConsentDecision() !== "granted") {
+    return;
+  }
+
+  try {
+    window.localStorage.removeItem(CONSENT_DECISION_STORAGE_KEY);
+  } catch {
+    // Storage that refuses the removal is storage that refused the write, so there was no stored
+    // answer to forget. The signal keeps the cookie half out for this load either way.
+  }
 }
 
 /**
@@ -191,13 +230,25 @@ export function isAnalyticsConsentBannerVisible(): boolean {
  * Whether the cookie answer this browser gave is one it can be offered back. False while it is still
  * waiting to be asked: there is nothing to revisit yet, and the banner is the surface that asks.
  *
+ * False too under Global Privacy Control, whatever this browser answered on an earlier visit. That
+ * browser is given no identifier, `resolveAnalyticsVisitorIdentity` clears the one it may still have
+ * been carrying along with an answer that had allowed it, and `grantAnalyticsConsent` refuses
+ * outright - so there is nothing left to withdraw and no move the switch could make. The signal is
+ * read here rather than left to the forgotten answer alone, because this renders at mount beside
+ * that clear rather than after it. Offering it anyway is what the withdrawal control's own rule
+ * forbids: an "On" reading would contradict the privacy policy, which says such a browser never
+ * carries `analytics_visitor`, and an "Off" reading would invite a grant that can only fail.
+ *
  * Only the cookie half of the corner control is conditional. The control itself is on every page in
  * every region unconditionally, because the collection switch it also carries has to be reachable in
  * exactly the states that used to hide it - a first visit with the banner up, and a browser that
  * turned collection off and was therefore never asked anything.
  */
 export function isAnalyticsCookieDecisionRevisitable(): boolean {
-  return isAwaitingAnalyticsConsentDecision() === false;
+  return (
+    hasAnalyticsPrivacySignal() === false &&
+    isAwaitingAnalyticsConsentDecision() === false
+  );
 }
 
 export function subscribeToAnalyticsConsent(listener: () => void): () => void {
