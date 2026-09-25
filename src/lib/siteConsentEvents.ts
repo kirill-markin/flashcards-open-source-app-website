@@ -1,12 +1,16 @@
 "use client";
 
 import type { AppLocale } from "@/lib/i18n";
-import { sendSiteAnalyticsEvent } from "@/lib/siteAnalyticsCollector";
+import {
+  sendSiteAnalyticsEvent,
+  type SiteConsentPlacement,
+} from "@/lib/siteAnalyticsCollector";
 
 /**
  * What this site reports about its own consent banner and its own collection switch: that the
- * banner was shown and what it was answered, and that collection was turned off or back on. Each
- * fact is the decision itself and carries no properties beside it.
+ * banner was shown and what it was answered, and that collection was turned off or back on. The two
+ * answers carry the placement they were given in and nothing else; the other three facts are the
+ * decision itself and carry nothing beside it.
  *
  * Four of the five are identity-free, and nothing here strips an identifier because nothing here
  * attaches one: `sendSiteAnalyticsEvent` reads the visitor id only for a name outside
@@ -27,12 +31,22 @@ export function reportSiteConsentPromptShown(locale: AppLocale): void {
  * false, `readAnalyticsAnonymousId` answers null, and this one event leaves identity-free like the
  * other four.
  */
-export function reportSiteConsentGranted(locale: AppLocale): void {
-  sendSiteAnalyticsEvent("site_consent_granted", new Date().toISOString(), locale, {});
+export function reportSiteConsentGranted(
+  locale: AppLocale,
+  placement: SiteConsentPlacement,
+): void {
+  sendSiteAnalyticsEvent("site_consent_granted", new Date().toISOString(), locale, {
+    placement,
+  });
 }
 
-export function reportSiteConsentDeclined(locale: AppLocale): void {
-  sendSiteAnalyticsEvent("site_consent_declined", new Date().toISOString(), locale, {});
+export function reportSiteConsentDeclined(
+  locale: AppLocale,
+  placement: SiteConsentPlacement,
+): void {
+  sendSiteAnalyticsEvent("site_consent_declined", new Date().toISOString(), locale, {
+    placement,
+  });
 }
 
 /**
