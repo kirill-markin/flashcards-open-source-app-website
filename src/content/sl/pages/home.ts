@@ -19,7 +19,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
       trustLine: "Brez kreditne kartice. Brez oglasov. Brez odštevanja preizkusne dobe.",
       primaryLink: {
         label: "Začnite",
-        href: "https://app.flashcards-open-source-app.com",
+        href: "https://app.nibomo.com",
       },
       secondaryLink: {
         label: "Oglejte si na GitHubu",

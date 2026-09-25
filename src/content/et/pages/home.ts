@@ -19,7 +19,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
       trustLine: "Krediitkaarti pole vaja. Reklaame pole. Prooviaja taimerit pole.",
       primaryLink: {
         label: "Alusta",
-        href: "https://app.flashcards-open-source-app.com",
+        href: "https://app.nibomo.com",
       },
       secondaryLink: {
         label: "Vaata GitHubis",
