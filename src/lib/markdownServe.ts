@@ -23,6 +23,7 @@ import {
 } from "@/lib/content/renderMarkdown";
 import { renderMarkdownLink } from "@/lib/markdownLinks";
 import { PRODUCT_API_ORIGIN, PRODUCT_APP_ORIGIN, SITE_URL } from "@/lib/site";
+import { CANONICAL_APP_STORE_URL, CANONICAL_GOOGLE_PLAY_URL } from "@/lib/humanPlatforms";
 import {
   globalActivitySnapshotUrl,
   type GlobalActivitySnapshot,
@@ -716,7 +717,7 @@ export function renderLlmsText(
 
   return `# Nibomo
 
-> Open-source flashcards app with spaced repetition, web and iOS clients, agent-ready onboarding, and a self-hosted AWS/Postgres deployment path.
+> Open-source flashcards app with spaced repetition, web, iOS, and Android clients, agent-ready onboarding, and a self-hosted AWS/Postgres deployment path.
 
 ## Pages
 
@@ -739,6 +740,8 @@ ${publicActivitySection}
 
 - [GitHub Repository](${SITE_CONTEXT.githubUrl})
 - [Cloud App](${SITE_CONTEXT.appUrl})
+- [iOS App (App Store)](${CANONICAL_APP_STORE_URL})
+- [Android App (Google Play)](${CANONICAL_GOOGLE_PLAY_URL})
 
 ## Markdown Access
 
