@@ -11,26 +11,26 @@ import { sendSiteAnalyticsEvent } from "./siteAnalyticsCollector";
 
 /**
  * The shape the collector accepts for the reported search text, spelled exactly as the catalog's
- * `productAnalyticsSiteSearchQueryPattern` spells it: lowercase letters, caseless letters, digits,
- * spaces and hyphens within 64 characters, with neither end a space nor a hyphen. `\p{Lo}` is what
- * admits the scripts that have no case at all. The privacy policy publishes this bound in every
- * locale the site ships, so one extra character class or a different length would make that promise
- * under-state what is collected.
+ * `productAnalyticsSiteSearchQueryPattern` spells it: lowercase letters, caseless letters, modifier
+ * letters, non-spacing and spacing marks, digits, spaces and hyphens within 64 characters, with
+ * neither end a space nor a hyphen. The two must stay character for character equal: the collector
+ * refuses the whole event when a property misses its pattern, so a site shape wider than the
+ * backend's loses entire searches, and a narrower one drops text the backend would keep. The
+ * privacy policy publishes this bound in every locale the site ships, so one extra character class
+ * or a different length would make that promise under-state what is collected.
  *
- * Those classes are narrow by construction: the shape admits them and nothing else, so anything
- * outside them - a format character such as the U+200C in `کتاب‌ها`, a period, a symbol -
- * makes a query report its length and result count with no text at all, and combining marks and
- * modifier letters (`\p{Lm}`) are the cases ordinary spelling runs into. That is a rule about
- * marks, not about scripts: `किताब` is dropped for its vowel signs, `กรุงเทพ` for its vowel mark,
- * `ラーメン` for the U+30FC modifier letter, any decomposed input for the mark its decomposition
- * produced, and `İstanbul` for the U+0307 that lowercasing a Turkish dotted capital leaves behind -
- * while `कमल`, `ไทย` and `istanbul`, which carry no mark, all report their text. It is not an
- * exclusion of the caseless scripts either: `\p{Lo}` carries Han, Hangul, kana, Arabic and Hebrew
- * through unchanged, and Greek and Cyrillic are `\p{Ll}` once lowercased. A search with no text in
- * the series is one this shape cannot carry, not a malformed query.
+ * Marks (`\p{Mn}`, `\p{Mc}`) and modifier letters (`\p{Lm}`) are inside the bound because across
+ * most scripts they are how an ordinary word is spelled rather than an ornament on one: `किताब`,
+ * `গ্রাম`, `தமிழ்` and `กรุงเทพ` carry vowel signs or a virama, `ラーメン` carries the U+30FC length
+ * mark, any decomposed input carries the mark its decomposition produced, and lowercasing
+ * `İstanbul` leaves a U+0307 combining dot. `\p{Lo}` carries the scripts that have no case at all -
+ * Han, Hangul, kana, Arabic, Hebrew, Thai and the Indic letters themselves - and Greek and Cyrillic
+ * are `\p{Ll}` once lowercased. Format characters stay outside the bound, so the U+200C in `کتاب‌ها`
+ * still makes a query report its length and result count with no text, as do punctuation and
+ * symbols. A search with no text in the series is one this shape cannot carry, not a malformed query.
  */
 const PUBLIC_CATALOG_SEARCH_QUERY_PATTERN =
-  /^[\p{Ll}\p{Lo}\p{Nd}](?:[\p{Ll}\p{Lo}\p{Nd} -]{0,62}[\p{Ll}\p{Lo}\p{Nd}])?$/u;
+  /^[\p{Ll}\p{Lo}\p{Lm}\p{Mn}\p{Mc}\p{Nd}](?:[\p{Ll}\p{Lo}\p{Lm}\p{Mn}\p{Mc}\p{Nd} -]{0,62}[\p{Ll}\p{Lo}\p{Lm}\p{Mn}\p{Mc}\p{Nd}])?$/u;
 
 export interface PublicCatalogSearchQuery {
   readonly queryLength: number;
@@ -42,14 +42,13 @@ export interface PublicCatalogSearchQuery {
  * and has its whitespace runs collapsed, and it is answered only when the result fits the shape
  * above; a query that does not fit answers null and is reported by its length alone, never
  * shortened to fit, because half a query is a different query. The composition form is left as
- * typed. Canonical normalization is a full round trip - it decomposes first and recomposes only
- * what is not a composition exclusion - so it would split precomposed letters the shape admits
- * today (Devanagari U+0958-U+095F, Bengali U+09DC/U+09DD/U+09DF, Gurmukhi
- * U+0A33/U+0A36/U+0A59-U+0A5B/U+0A5E and Oriya U+0B5C/U+0B5D) into a base letter plus a combining
- * mark the shape rejects, losing the text of searches that report it now: `सड़क` reports its text as
- * typed and would report none after `NFC`. The collector holds the text to this same pattern and
- * does not normalize before it does, so a composition form the shape declines here is one ingest
- * would refuse anyway.
+ * typed, and with marks inside the shape every form of a word reports its text: `सड़क` does whether
+ * its second letter arrives as the precomposed U+095C or as U+0921 plus the U+093C nukta, and
+ * `café` does with its `é` precomposed or as `e` plus U+0301. The remaining effect is that one word
+ * typed in two composition forms is stored as two different strings, because the collector does not
+ * normalize either. That is left as typed on purpose: the row records what the visitor searched
+ * for, and folding the forms together belongs to the query that reads the series, which can apply
+ * `NFC` itself without this module deciding for every later reader which form is the word.
  *
  * The two numbers here are not measured on the same string, and on one row they can disagree. The
  * length is the text as typed, counted in code points, which is what the privacy policy promises
