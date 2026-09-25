@@ -5,7 +5,10 @@ import {
   type CopyCodeFieldLabels,
 } from "@/components/CopyCodeField";
 import type { AppLocale } from "@/lib/i18n";
+import { reportSiteCopyAction } from "@/lib/siteInteractionEvents";
 import { trackVercelAnalyticsEvent } from "@/lib/vercelAnalytics";
+
+const MCP_ENDPOINT_COPY_PLACEMENT = "home_agent_access";
 
 interface TrackedMcpEndpointCopyFieldProps {
   readonly caption: string;
@@ -23,8 +26,9 @@ export function TrackedMcpEndpointCopyField({
   const trackCopySuccess = (): void => {
     trackVercelAnalyticsEvent("mcp_endpoint_copy", {
       locale,
-      placement: "home_agent_access",
+      placement: MCP_ENDPOINT_COPY_PLACEMENT,
     });
+    reportSiteCopyAction("mcp_endpoint", locale, MCP_ENDPOINT_COPY_PLACEMENT);
   };
 
   return (
