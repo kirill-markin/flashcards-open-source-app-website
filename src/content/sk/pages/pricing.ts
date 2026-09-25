@@ -27,7 +27,7 @@ export const PRICING_PAGE_CONTENT: PageContent = {
           ],
           cta: {
             label: "Používať hosťovanú aplikáciu zadarmo",
-            href: "https://app.flashcards-open-source-app.com",
+            href: "https://app.nibomo.com",
           },
         },
         {
