@@ -1,11 +1,20 @@
 "use client";
 
 import Link from "next/link";
-import { useEffect, useState } from "react";
+import { useEffect, useState, useSyncExternalStore } from "react";
+import {
+  isSiteAnalyticsCollectionEnabled,
+  subscribeToAnalyticsConsent,
+} from "@/lib/analyticsConsent";
 import { getBrowserPreferredLocale } from "@/lib/browserLocaleMatching";
 import type { AppLocale } from "@/lib/i18n";
 import { getLocaleDirection } from "@/lib/localeConfig";
 import type { LocaleSuggestionTarget } from "@/lib/routeTranslations";
+import type { SiteLocaleSuggestionOutcome } from "@/lib/siteAnalyticsCollector";
+import {
+  reportSiteLocaleSuggestionAnswered,
+  reportSiteLocaleSuggestionShown,
+} from "@/lib/siteInteractionEvents";
 import { getUiCopy } from "@/lib/uiCopy";
 import { trackVercelAnalyticsEvent } from "@/lib/vercelAnalytics";
 import styles from "./LocaleSuggestionBanner.module.css";
@@ -16,6 +25,14 @@ const LOCALE_SUGGESTION_INTERACTION_EVENT =
   "locale_suggestion_banner_interaction";
 
 type LocaleSuggestionInteractionAction = "open" | "dismiss";
+
+/** The vendor's action spelled as the collector's outcome, which is a past fact rather than a verb. */
+const LOCALE_SUGGESTION_OUTCOMES: Readonly<
+  Record<LocaleSuggestionInteractionAction, SiteLocaleSuggestionOutcome>
+> = {
+  dismiss: "dismissed",
+  open: "opened",
+};
 
 interface LocaleSuggestionBannerProps {
   readonly currentLocale: AppLocale;
@@ -102,6 +119,11 @@ function trackLocaleSuggestionInteraction(
     action,
     locale_pair: `${currentLocale}_${targetLocale}`,
   });
+  reportSiteLocaleSuggestionAnswered({
+    suggestedLocale: targetLocale,
+    currentLocale,
+    outcome: LOCALE_SUGGESTION_OUTCOMES[action],
+  });
 }
 
 function findSuggestedTarget(
@@ -165,18 +187,37 @@ export function LocaleSuggestionBanner({
     useState<boolean>(false);
   const [suggestedTarget, setSuggestedTarget] =
     useState<LocaleSuggestionTarget | null>(null);
+  // The banner itself never depends on the collection switch; only the report below does.
+  const isCollectionEnabled = useSyncExternalStore(
+    subscribeToAnalyticsConsent,
+    isSiteAnalyticsCollectionEnabled,
+    () => false
+  );
 
   useEffect(() => {
     const updateSuggestedTarget = (): void => {
-      setSuggestedTarget(
-        getVisibleTarget(
-          navigator.languages,
-          currentLocale,
-          targets,
-          dismissedForSession,
-          Date.now()
-        )
+      const visibleTarget = getVisibleTarget(
+        navigator.languages,
+        currentLocale,
+        targets,
+        dismissedForSession,
+        Date.now()
       );
+
+      setSuggestedTarget(visibleTarget);
+
+      // The switch is read here as well as inside the reporter, the way the page view and app
+      // entry impression trackers read it, so that this effect runs again when it is turned on.
+      // Without that, a visitor who turns collection on with the banner already up would have
+      // their answer reported with no offer for it to answer.
+      if (visibleTarget === null || isCollectionEnabled === false) {
+        return;
+      }
+
+      reportSiteLocaleSuggestionShown({
+        suggestedLocale: visibleTarget.locale,
+        currentLocale,
+      });
     };
 
     updateSuggestedTarget();
@@ -185,7 +226,7 @@ export function LocaleSuggestionBanner({
     return () => {
       window.removeEventListener("languagechange", updateSuggestedTarget);
     };
-  }, [currentLocale, dismissedForSession, targets]);
+  }, [currentLocale, dismissedForSession, isCollectionEnabled, targets]);
 
   if (suggestedTarget === null) {
     return null;
