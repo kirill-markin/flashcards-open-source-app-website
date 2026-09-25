@@ -38,6 +38,12 @@ import {
   type PublicCatalogFilterCategory,
   type PublicCatalogSearchAnalyticsScheduler,
 } from "@/lib/publicCatalogAnalytics";
+import {
+  reportPublicCatalogFilter,
+  reportPublicCatalogPagination,
+  reportPublicCatalogSearch,
+  reportPublicCatalogSort,
+} from "@/lib/publicCatalogSiteEvents";
 import { trackPublicCatalogEvent } from "@/lib/publicCatalogTracking";
 import pageStyles from "@/app/catalog/page.module.css";
 import styles from "./PublicCatalogBrowser.module.css";
@@ -154,13 +160,38 @@ export function PublicCatalogBrowser({
   navigation,
 }: PublicCatalogBrowserProps): React.JSX.Element {
   const searchAnalyticsSchedulerRef = useRef<PublicCatalogSearchAnalyticsScheduler | null>(null);
+  // The text of the search the scheduler is holding. The vendor payload deliberately carries no
+  // query text, and only the product collector may receive the normalized one, so it is kept beside
+  // the scheduler rather than inside it. The two cannot drift: the reschedule path only ever gives
+  // a pending search a new result count, or cancels it outright once the query is empty, so the
+  // query stays the one `updateSearch` scheduled until that same function schedules the next.
+  // A box cleared through the input itself is `updateSearch("")`, which schedules like any other
+  // edit rather than cancelling, so it reports a search with `query_length: 0`, no text and the
+  // count under whichever language, author and collection facets remain - the row the vendor event
+  // carries as `has_query: false`. Clear filters is not that path: it empties the box through
+  // `updateFilter`, whose empty query takes the cancel above, so it reports the filter alone.
+  const settledSearchQueryRef = useRef<string | null>(null);
 
   if (searchAnalyticsSchedulerRef.current === null) {
     searchAnalyticsSchedulerRef.current = createPublicCatalogSearchAnalyticsScheduler(
       PUBLIC_CATALOG_SEARCH_SETTLE_DELAY_MS,
       (callback, delayMilliseconds) => window.setTimeout(callback, delayMilliseconds),
       (timeoutId) => window.clearTimeout(timeoutId),
-      (analytics) => trackPublicCatalogEvent("public_catalog_search", analytics),
+      (analytics) => {
+        trackPublicCatalogEvent("public_catalog_search", analytics);
+
+        const settledSearchQuery = settledSearchQueryRef.current;
+
+        if (settledSearchQuery === null) {
+          throw new Error("Cannot report public catalog search: settled query is missing.");
+        }
+
+        reportPublicCatalogSearch(
+          analytics.locale,
+          settledSearchQuery,
+          analytics.result_count,
+        );
+      },
     );
   }
 
@@ -286,6 +317,7 @@ export function PublicCatalogBrowser({
       throw new Error("Cannot track public catalog search: scheduler is missing.");
     }
 
+    settledSearchQueryRef.current = q;
     searchAnalyticsScheduler.schedule(
       createPublicCatalogSearchAnalytics(locale, q, nextResult.totalCount),
     );
@@ -309,6 +341,13 @@ export function PublicCatalogBrowser({
         nextResult.totalCount,
         selectedCount,
       ),
+    );
+    reportPublicCatalogFilter(
+      locale,
+      category,
+      action,
+      nextResult.totalCount,
+      selectedCount,
     );
   };
   const updateLanguage = (language: string, isSelected: boolean): void => {
@@ -345,6 +384,12 @@ export function PublicCatalogBrowser({
         result.totalPages,
       ),
     );
+    reportPublicCatalogPagination(
+      locale,
+      page,
+      result.totalCount,
+      result.totalPages,
+    );
   };
   const updateSort = (sort: PublicCatalogSort): void => {
     const nextState = { ...state, sort, page: 1 };
@@ -356,6 +401,7 @@ export function PublicCatalogBrowser({
       "public_catalog_sort",
       createPublicCatalogSortAnalytics(locale, sort, nextResult.totalCount),
     );
+    reportPublicCatalogSort(locale, sort, nextResult.totalCount);
   };
   const updateSingleChoiceFilter = (
     category: "author" | "collection",
