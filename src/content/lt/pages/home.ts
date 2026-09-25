@@ -19,7 +19,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
       trustLine: "Nereikia banko kortelės. Jokių reklamų. Jokios bandomojo laikotarpio atgalinės atskaitos.",
       primaryLink: {
         label: "Pradėti",
-        href: "https://app.flashcards-open-source-app.com",
+        href: "https://app.nibomo.com",
       },
       secondaryLink: {
         label: "Peržiūrėti GitHub",

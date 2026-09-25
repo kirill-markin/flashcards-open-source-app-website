@@ -19,7 +19,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
       trustLine: "Bez kredītkartes. Bez reklāmām. Bez izmēģinājuma laika atpakaļskaitīšanas.",
       primaryLink: {
         label: "Sākt lietot",
-        href: "https://app.flashcards-open-source-app.com",
+        href: "https://app.nibomo.com",
       },
       secondaryLink: {
         label: "Skatīt vietnē GitHub",
