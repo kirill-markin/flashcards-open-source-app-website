@@ -1,4 +1,5 @@
-import { getSignupUrl } from "@/lib/auth";
+import { getAppUrl, getSignupUrl } from "@/lib/auth";
+import { getHumanPlatforms } from "@/lib/humanPlatforms";
 import type { AppLocale } from "@/lib/i18n";
 import { localizeInternalLinks } from "@/lib/localizeInternalLinks";
 import {
@@ -65,7 +66,11 @@ function getMaxDailyValue(
   );
 }
 
-function renderHeroSection(section: HeroSection, lines: string[]): void {
+function renderHeroSection(
+  section: HeroSection,
+  locale: AppLocale,
+  lines: string[]
+): void {
   lines.push(`**${section.eyebrow}**`);
   lines.push("");
   lines.push(section.titleLines.join(" "));
@@ -74,6 +79,15 @@ function renderHeroSection(section: HeroSection, lines: string[]): void {
   lines.push("");
   lines.push(`[${section.primaryLink.label}](${section.primaryLink.href})`);
   lines.push(`[${section.secondaryLink.label}](${section.secondaryLink.href})`);
+  // The Markdown copy is generated at build time and has no signed-in state, so the web
+  // entry is the static app URL rather than the HTML hero's auth-aware destination.
+  getHumanPlatforms(getAppUrl(), locale).forEach((platform) => {
+    if (platform.kind !== "active") {
+      return;
+    }
+
+    lines.push(`[${platform.label}](${platform.href})`);
+  });
   lines.push("");
   lines.push(section.trustLine);
   lines.push("");
@@ -223,7 +237,7 @@ function renderPageSections(
   pageContent.sections.forEach((section) => {
     switch (section.type) {
       case "hero":
-        renderHeroSection(section, lines);
+        renderHeroSection(section, locale, lines);
         return;
       case "feature_list":
         renderFeatureListSection(section, pageContent, lines);
