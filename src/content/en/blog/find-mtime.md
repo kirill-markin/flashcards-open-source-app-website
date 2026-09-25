@@ -25,13 +25,13 @@ Without `-daystart`, divide the file's age by 24 hours and round down. Call that
 
 The sign compares that number: no sign means equal, `+` means greater, and `-` means less. These are the [GNU find numeric-test rules](https://man7.org/linux/man-pages/man1/find.1.html).
 
-| Test | Bucket comparison | Example ages that match |
-| --- | --- | --- |
-| `-mtime 0` | Equal to 0 | 12 hours, 23 hours |
-| `-mtime -1` | Less than 1 | 12 hours, 23 hours |
-| `-mtime 1` | Equal to 1 | 25 hours, 47 hours |
-| `-mtime +0` | Greater than 0 | 25 hours, 47 hours, 49 hours |
-| `-mtime +1` | Greater than 1 | 49 hours, 72 hours |
+| GNU find test | Matching buckets and example ages |
+| --- | --- |
+| `-mtime 0` | Bucket 0: 12 hours, 23 hours |
+| `-mtime -1` | Below bucket 1: 12 hours, 23 hours |
+| `-mtime 1` | Bucket 1: 25 hours, 47 hours |
+| `-mtime +0` | Above bucket 0: 25 hours, 47 hours, 49 hours |
+| `-mtime +1` | Above bucket 1: 49 hours, 72 hours |
 
 The same reasoning puts `-mtime +30` at the **31-day threshold**, not the 30-day threshold. A file aged 30 days and 12 hours still has bucket 30.
 
