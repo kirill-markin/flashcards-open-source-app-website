@@ -23,6 +23,8 @@ import type { AppLocale } from "@/lib/i18n";
 import {
   reportSiteCollectionDisabled,
   reportSiteCollectionEnabled,
+  reportSiteConsentDeclined,
+  reportSiteConsentGranted,
 } from "@/lib/siteConsentEvents";
 import { getUiCopy } from "@/lib/uiCopy";
 import styles from "./AnalyticsConsentWithdrawal.module.css";
@@ -225,10 +227,19 @@ export function AnalyticsConsentWithdrawal({
       if (nextAllowed) {
         if ((await grantAnalyticsConsent()) === false) {
           setErrorMessage(copy.analyticsConsentBanner.error);
+
+          return;
         }
+
+        reportSiteConsentGranted(locale, "corner_control");
 
         return;
       }
+
+      // Before the request, on the banner's terms and for its reason: `declineAnalyticsConsent`
+      // stores the refusal synchronously, so a `POST` a content blocker or the network ate still
+      // leaves this browser refused, and reporting on the success path alone would lose that case.
+      reportSiteConsentDeclined(locale, "corner_control");
 
       await declineAnalyticsConsent();
     } catch {

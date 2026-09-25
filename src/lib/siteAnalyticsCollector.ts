@@ -65,8 +65,19 @@ export type SiteCatalogDeckPlacement =
   | "card_title"
   | "related_deck";
 
-/** The consent and collection facts are the decision itself and carry nothing beside it. */
+/** The question put and the collection facts are the fact itself and carry nothing beside it. */
 type SiteEmptyEventProperties = Readonly<Record<string, never>>;
+
+/**
+ * Which of the two places the cookie answer was given in. The backend catalog accepts the property
+ * on the two answers alone, and a value outside the shape it declares refuses the whole event
+ * rather than the property, so the closed set is held here instead of a bare string.
+ */
+export type SiteConsentPlacement = "banner" | "corner_control";
+
+type SiteConsentAnswerEventProperties = Readonly<{
+  placement: SiteConsentPlacement;
+}>;
 
 /**
  * What an app-entry CTA is and where it leads. The click and the impression below share this one
@@ -175,8 +186,8 @@ interface SiteAnalyticsEventPropertiesByName {
    * such in `SITE_IDENTITY_FREE_EVENT_NAMES` below.
    */
   readonly site_consent_prompt_shown: SiteEmptyEventProperties;
-  readonly site_consent_granted: SiteEmptyEventProperties;
-  readonly site_consent_declined: SiteEmptyEventProperties;
+  readonly site_consent_granted: SiteConsentAnswerEventProperties;
+  readonly site_consent_declined: SiteConsentAnswerEventProperties;
   readonly site_collection_disabled: SiteEmptyEventProperties;
   readonly site_collection_enabled: SiteEmptyEventProperties;
   readonly site_outbound_clicked: Readonly<{
