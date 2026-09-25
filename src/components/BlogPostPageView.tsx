@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import { BlogCta, BlogStartSideCta } from "@/components/BlogCta";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { SiteFrame } from "@/components/SiteFrame";
+import { TrackedOutboundLink } from "@/components/TrackedOutboundLink";
 import { getArticleHtmlSegments } from "@/lib/content/getArticleHtmlSegments";
 import {
   getBlogPostImageUrl,
@@ -123,13 +124,14 @@ export async function BlogPostPageView({
               </time>
               <p className={styles.byline}>
                 <span>{uiCopy.blog.byPrefix} </span>
-                <a
+                <TrackedOutboundLink
                   href={STRUCTURED_DATA_AUTHOR_URL}
-                  {...authorLinkAttributes}
+                  label={STRUCTURED_DATA_AUTHOR_NAME}
+                  locale={locale}
+                  placement="blog_byline"
                   rel={authorLinkRel}
-                >
-                  {STRUCTURED_DATA_AUTHOR_NAME}
-                </a>
+                  target="author_website"
+                />
               </p>
             </div>
             <h1 className={styles.title}>{post.title}</h1>

@@ -11,11 +11,11 @@ import {
   formatActivityNumber as formatNumber,
   formatActivityTimestamp,
 } from "@/lib/activityFormatting";
-import { getExternalLinkAttributes } from "@/lib/linkTargets";
 import { getIntlLocale } from "@/lib/localeConfig";
 import { getUiCopy } from "@/lib/uiCopy";
 import { ActivityChartScroller } from "./ActivityChartScroller";
 import { ChartTooltipLayer, type ChartTooltipTarget } from "./ChartTooltipLayer";
+import { TrackedOutboundLink } from "./TrackedOutboundLink";
 import styles from "./PublicActivitySection.module.css";
 
 type MetricCardProps = Readonly<{
@@ -1076,13 +1076,14 @@ export function PublicActivitySection({
   const uiCopy = getUiCopy(locale);
   const activityCopy = uiCopy.home.activity;
   const sourceLink = (
-    <a
-      href={globalActivitySnapshotUrl}
-      {...getExternalLinkAttributes(globalActivitySnapshotUrl)}
+    <TrackedOutboundLink
       className={styles.sourceLink}
-    >
-      {activityCopy.sourceLabel}
-    </a>
+      href={globalActivitySnapshotUrl}
+      label={activityCopy.sourceLabel}
+      locale={locale}
+      placement="home_activity"
+      target="activity_snapshot"
+    />
   );
   const peakDailyReviewEvents = getMaxDailyValue(
     snapshot.days,

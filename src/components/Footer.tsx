@@ -10,7 +10,7 @@ import { isPublicCatalogEnabled } from "@/lib/publicCatalogBuild";
 import { getPublicCatalogUiCopy } from "@/lib/publicCatalogCopy";
 import { getPublicCatalogRootUrl } from "@/lib/publicCatalogUrls";
 import { TrackedAppEntryLink } from "./TrackedAppEntryLink";
-import { TrackedSourceCodeLink } from "./TrackedSourceCodeLink";
+import { TrackedOutboundLink } from "./TrackedOutboundLink";
 import { TrackedStoreLink } from "./TrackedStoreLink";
 import styles from "./Footer.module.css";
 
@@ -71,10 +71,12 @@ export const Footer: React.FC<FooterProps> = ({
           </div>
           <div className={styles.column}>
             <h3>{uiCopy.footer.openSourceHeading}</h3>
-            <TrackedSourceCodeLink
+            <TrackedOutboundLink
               href={sourceCodeHref}
               label="GitHub"
               locale={locale}
+              placement="footer"
+              target="repository"
             />
             <Link
               href={getAvailableLocalizedPathname(locale, "/docs/self-hosting/")}
