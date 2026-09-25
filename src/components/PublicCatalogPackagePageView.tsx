@@ -168,6 +168,7 @@ function PublicCatalogRelatedDecks({
               )}
               locale={locale}
               packageId={packageMetadata.packageId}
+              packageSlug={packageMetadata.slug}
               placement="related_deck"
               tabIndex={undefined}
             >
