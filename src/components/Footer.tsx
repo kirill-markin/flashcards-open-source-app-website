@@ -3,7 +3,6 @@ import { LocaleSwitcher } from "@/components/LocaleSwitcher";
 import { getAppUrl } from "@/lib/auth";
 import type { AppLocale } from "@/lib/i18n";
 import { getHumanPlatforms } from "@/lib/humanPlatforms";
-import { getExternalLinkAttributes } from "@/lib/linkTargets";
 import { getAvailableLocalizedPathname } from "@/lib/routeTranslations";
 import { readGeneratedStoreQrCodes } from "@/lib/storeQrCodes";
 import { getUiCopy } from "@/lib/uiCopy";
@@ -11,6 +10,7 @@ import { isPublicCatalogEnabled } from "@/lib/publicCatalogBuild";
 import { getPublicCatalogUiCopy } from "@/lib/publicCatalogCopy";
 import { getPublicCatalogRootUrl } from "@/lib/publicCatalogUrls";
 import { TrackedAppEntryLink } from "./TrackedAppEntryLink";
+import { TrackedSourceCodeLink } from "./TrackedSourceCodeLink";
 import { TrackedStoreLink } from "./TrackedStoreLink";
 import styles from "./Footer.module.css";
 
@@ -30,7 +30,6 @@ export const Footer: React.FC<FooterProps> = ({
   const storeQrCodes = readGeneratedStoreQrCodes(process.cwd());
   const uiCopy = getUiCopy(locale);
   const sourceCodeHref = "https://github.com/kirill-markin/flashcards-open-source-app";
-  const sourceCodeLinkAttributes = getExternalLinkAttributes(sourceCodeHref);
   const productLinks = [
     {
       href: getAvailableLocalizedPathname(locale, "/features/"),
@@ -72,12 +71,11 @@ export const Footer: React.FC<FooterProps> = ({
           </div>
           <div className={styles.column}>
             <h3>{uiCopy.footer.openSourceHeading}</h3>
-            <a
+            <TrackedSourceCodeLink
               href={sourceCodeHref}
-              {...sourceCodeLinkAttributes}
-            >
-              GitHub
-            </a>
+              label="GitHub"
+              locale={locale}
+            />
             <Link
               href={getAvailableLocalizedPathname(locale, "/docs/self-hosting/")}
             >
