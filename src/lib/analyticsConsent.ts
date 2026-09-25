@@ -67,7 +67,9 @@ function writeStoredConsentDecision(decision: AnalyticsConsentChoice): void {
   try {
     window.localStorage.setItem(CONSENT_DECISION_STORAGE_KEY, decision);
   } catch {
-    // Nothing else can be done, and the answer still holds for the rest of this page load.
+    // Nothing else can be done, and nothing holds the answer either: unlike the collection
+    // decision, which `recordedCollectionDecision` keeps for the rest of this document, this one
+    // has no in-memory holder and is re-read from storage on every call.
   }
 }
 
@@ -118,8 +120,9 @@ export function clearGrantedAnalyticsConsentDecision(): void {
   try {
     window.localStorage.removeItem(CONSENT_DECISION_STORAGE_KEY);
   } catch {
-    // Storage that refuses the removal is storage that refused the write, so there was no stored
-    // answer to forget. The signal keeps the cookie half out for this load either way.
+    // The guard above read a stored grant, which is proof the write succeeded, so a removal that
+    // throws leaves that answer in place rather than proving there was none to forget. The signal
+    // keeps the cookie half out for this load either way, and the next load tries the removal again.
   }
 }
 
@@ -234,9 +237,10 @@ export function isAnalyticsConsentBannerVisible(): boolean {
  * browser is given no identifier, `resolveAnalyticsVisitorIdentity` clears the one it may still have
  * been carrying along with an answer that had allowed it, and `grantAnalyticsConsent` refuses
  * outright - so there is nothing left to withdraw and no move the switch could make. The signal is
- * read here rather than left to the forgotten answer alone, because this renders at mount beside
- * that clear rather than after it. Offering it anyway is what the withdrawal control's own rule
- * forbids: an "On" reading would contradict the privacy policy, which says such a browser never
+ * read here rather than left to the forgotten answer alone, because only a grant is forgotten: a
+ * stored refusal is deliberately kept, so without this conjunct the cookie switch would still be
+ * offered to a browser raising the signal. Offering it anyway is what the withdrawal control's own
+ * rule forbids: an "On" reading would contradict the privacy policy, which says such a browser never
  * carries `analytics_visitor`, and an "Off" reading would invite a grant that can only fail.
  *
  * Only the cookie half of the corner control is conditional. The control itself is on every page in

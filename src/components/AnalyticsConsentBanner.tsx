@@ -11,11 +11,21 @@ import {
   grantAnalyticsConsent,
 } from "@/lib/analyticsVisitor";
 import type { AppLocale } from "@/lib/i18n";
+import {
+  reportSiteConsentDeclined,
+  reportSiteConsentGranted,
+  reportSiteConsentPromptShown,
+} from "@/lib/siteConsentEvents";
 import { getUiCopy } from "@/lib/uiCopy";
 import styles from "./AnalyticsConsentBanner.module.css";
 
 /** Published on `:root`; anything else fixed to the bottom edge reads it as extra clearance. */
 const BANNER_HEIGHT_CUSTOM_PROPERTY = "--analytics-consent-banner-height";
+
+// Module-scoped rather than a ref, so it survives both React strict mode's simulated remount and a
+// layout remount on a locale change: one showing of the strip is one reported question, the way
+// `lastReportedPageUrl` keeps one report per page.
+let hasReportedConsentPromptShowing = false;
 
 interface AnalyticsConsentBannerProps {
   readonly locale: AppLocale;
@@ -46,6 +56,35 @@ export function AnalyticsConsentBanner({
   const [errorMessage, setErrorMessage] = useState<string>("");
   const wrapperRef = useRef<HTMLDivElement | null>(null);
   const copy = getUiCopy(locale).analyticsConsentBanner;
+
+  /**
+   * Reports the question being put, which is the denominator every answer below is a share of -
+   * not one that bounds the ratio at 1. A browser that cannot store its answer is never taken off
+   * the strip by pressing, and this guard still reports the showing once, so that slice can carry
+   * more `site_consent_declined` than `site_consent_prompt_shown`, and a single showing can yield
+   * both a decline and a grant when the person presses Decline, sees the strip remain, then
+   * presses Allow.
+   *
+   * Once per showing rather than once per page or once per browser. The strip is mounted from the
+   * shared layout document and this site navigates client-side, so a visitor who walks five pages
+   * with it still up was asked once, not five times. The guard is reset when it goes down, so a
+   * strip that comes back - collection switched off and on again - is a new question and is
+   * reported again.
+   */
+  useEffect(() => {
+    if (isVisible === false) {
+      hasReportedConsentPromptShowing = false;
+
+      return;
+    }
+
+    if (hasReportedConsentPromptShowing) {
+      return;
+    }
+
+    hasReportedConsentPromptShowing = true;
+    reportSiteConsentPromptShown(locale);
+  }, [isVisible, locale]);
 
   /**
    * Publishes how much of the bottom edge the strip is using, for as long as it is up. It is fixed,
@@ -95,7 +134,10 @@ export function AnalyticsConsentBanner({
     try {
       if ((await grantAnalyticsConsent()) === false) {
         setErrorMessage(copy.error);
+        return;
       }
+
+      reportSiteConsentGranted(locale);
     } catch {
       // The strip stays up with the failure named on it: an answer the server did not record is not
       // an answer, and nothing about analytics may reach the site's other error surfaces.
@@ -108,6 +150,19 @@ export function AnalyticsConsentBanner({
   const declineAnalytics = async (): Promise<void> => {
     setIsSubmitting(true);
     setErrorMessage("");
+
+    // Before the request, on the same terms the refusal is stored on: `declineAnalyticsConsent`
+    // records `declined` synchronously on its first line, so wherever the answer can be stored at
+    // all, a `POST` that a content blocker or the network ate still leaves this browser refused -
+    // and leaves the strip gone, because that stored answer flips its visibility before the throw.
+    // Where the write is refused nothing is stored at all: the consent decision has no in-memory
+    // holder and is re-read from storage on every call, so the strip stays up and a further press
+    // reports again. That browser answering more than once is the same honest un-deduplicated
+    // behaviour it already has everywhere else. Reporting on the success path alone would lose the
+    // eaten-`POST` case entirely, leaving a reported question with no reported answer.
+    // Deliberately not symmetric with the grant, which is reported only once the server has minted
+    // the identity, because only then is anything recorded there.
+    reportSiteConsentDeclined(locale);
 
     try {
       await declineAnalyticsConsent();
