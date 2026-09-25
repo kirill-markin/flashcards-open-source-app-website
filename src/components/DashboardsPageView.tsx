@@ -5,13 +5,13 @@ import {
   PublicActivitySummary,
 } from "@/components/PublicActivitySection";
 import { SiteFrame } from "@/components/SiteFrame";
+import { TrackedOutboundLink } from "@/components/TrackedOutboundLink";
 import {
   globalActivitySnapshotUrl,
   readGeneratedGlobalActivitySnapshot,
 } from "@/lib/globalActivitySnapshot";
 import type { AppLocale } from "@/lib/i18n";
 import { DASHBOARDS_ROUTE_PATHNAME } from "@/lib/dashboardsPage";
-import { getExternalLinkAttributes } from "@/lib/linkTargets";
 import { getUiCopy } from "@/lib/uiCopy";
 import styles from "@/app/dashboards/page.module.css";
 
@@ -35,13 +35,14 @@ export function DashboardsPageView({
             <h1 className={styles.title}>{activityCopy.title}</h1>
             <p className={styles.description}>{activityCopy.description}</p>
           </div>
-          <a
-            href={globalActivitySnapshotUrl}
-            {...getExternalLinkAttributes(globalActivitySnapshotUrl)}
+          <TrackedOutboundLink
             className={styles.sourceLink}
-          >
-            {activityCopy.sourceLabel}
-          </a>
+            href={globalActivitySnapshotUrl}
+            label={activityCopy.sourceLabel}
+            locale={locale}
+            placement="dashboards"
+            target="activity_snapshot"
+          />
         </header>
 
         <PublicActivitySummary locale={locale} snapshot={snapshot} />

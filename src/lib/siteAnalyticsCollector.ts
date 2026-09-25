@@ -39,7 +39,7 @@ export type SiteAppEntryAction = "login" | "signup" | "open_app";
 
 export type SiteInternalCtaTarget = "home";
 
-export type SiteOutboundTarget = "repository";
+export type SiteOutboundTarget = "repository" | "author_website" | "activity_snapshot";
 
 export type SiteCopyTarget = "mcp_endpoint";
 
