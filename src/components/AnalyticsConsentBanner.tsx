@@ -137,7 +137,7 @@ export function AnalyticsConsentBanner({
         return;
       }
 
-      reportSiteConsentGranted(locale);
+      reportSiteConsentGranted(locale, "banner");
     } catch {
       // The strip stays up with the failure named on it: an answer the server did not record is not
       // an answer, and nothing about analytics may reach the site's other error surfaces.
@@ -162,7 +162,7 @@ export function AnalyticsConsentBanner({
     // eaten-`POST` case entirely, leaving a reported question with no reported answer.
     // Deliberately not symmetric with the grant, which is reported only once the server has minted
     // the identity, because only then is anything recorded there.
-    reportSiteConsentDeclined(locale);
+    reportSiteConsentDeclined(locale, "banner");
 
     try {
       await declineAnalyticsConsent();
