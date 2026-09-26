@@ -269,6 +269,8 @@ Microbiology के लिए मैं इन पर bias रखूँगा:
 - defect और consequence
 - ऐसा structure जो एक classic clinical presentation से जुड़ता हो
 
+अगर इन relationships को बताते समय दिशासूचक शब्द गड़बड़ होते हैं, तो [शरीर रचना के दिशासूचक शब्दों वाला डेक](/catalog/packages/anatomical-directional-terms-hi/) 31 कार्ड में 10 बुनियादी शब्द दोहराने में मदद करता है। यह vocabulary का अभ्यास है; इसमें clinical questions नहीं हैं और यह Step 1 के syllabus के अनुरूप होने का दावा नहीं करता।
+
 Behavioral science और biostats के लिए मैं इन पर bias रखूँगा:
 
 - study design clue
