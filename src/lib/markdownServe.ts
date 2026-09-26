@@ -25,6 +25,7 @@ import { renderMarkdownLink } from "@/lib/markdownLinks";
 import { PRODUCT_API_ORIGIN, PRODUCT_APP_ORIGIN, SITE_URL } from "@/lib/site";
 import { CANONICAL_APP_STORE_URL, CANONICAL_GOOGLE_PLAY_URL } from "@/lib/humanPlatforms";
 import {
+  globalActivityPlatforms,
   globalActivitySnapshotUrl,
   type GlobalActivitySnapshot,
   type GlobalActivitySnapshotDay,
@@ -426,6 +427,9 @@ function renderDashboardsMarkdown(
     "",
     activityCopy.platformActivityChartDescription,
     "",
+    ...globalActivityPlatforms.map((platform) =>
+      `- ${activityCopy.platformLabels[platform]}: ${formatActivityNumber(locale, snapshot.totals.reviewEvents.byPlatform[platform])}`),
+    "",
     `${activityCopy.rawSnapshotLabel}:`,
     "",
     "```json",
@@ -710,6 +714,8 @@ export function renderLlmsText(
     `- ${activityCopy.peakDailyUniqueUsersLabel}: ${formatActivityNumber("en", peakDailyUniqueUsers)}`,
     `- ${activityCopy.dailyUniqueUsersChartTitle}: ${activityCopy.dailyUniqueUsersChartDescription}`,
     `- ${activityCopy.platformActivityChartTitle}: ${activityCopy.platformActivityChartDescription}`,
+    ...globalActivityPlatforms.map((platform) =>
+      `- ${activityCopy.platformLabels[platform]}: ${formatActivityNumber("en", globalActivitySnapshot.totals.reviewEvents.byPlatform[platform])}`),
   ].join("\n");
   const publicCatalogSection = publicCatalog === null
     ? ""
