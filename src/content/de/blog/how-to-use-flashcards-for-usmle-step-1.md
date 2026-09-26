@@ -269,6 +269,8 @@ Bei Anatomie und Embryologie würde ich den Schwerpunkt eher legen auf:
 - Defekt und Folge
 - Struktur mit einer klassischen klinischen Präsentation
 
+Wenn du beim Beschreiben dieser Beziehungen die Lagebezeichnungen verwechselst, kannst du mit dem [Deck zu anatomischen Lagebezeichnungen](/catalog/packages/anatomical-directional-terms-de/) 10 Grundbegriffe auf 31 Karten wiederholen. Es dient der Begriffsarbeit und enthält weder klinische Prüfungsfragen noch eine Ausrichtung auf den Step-1-Prüfungsplan.
+
 Bei Verhaltenswissenschaften und Biostatistik würde ich den Schwerpunkt eher legen auf:
 
 - Hinweis auf das Studiendesign

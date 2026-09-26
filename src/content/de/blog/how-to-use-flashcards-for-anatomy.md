@@ -106,6 +106,8 @@ Viele kennen die Namen und verlieren dann trotzdem die Frage, weil sie die räum
 
 Das sind keine Beschriftungsprobleme. Das sind Orientierungsprobleme.
 
+Um die Begriffe vor diesen räumlichen Beziehungen zu festigen, bietet das [Deck zu anatomischen Lagebezeichnungen](/catalog/packages/anatomical-directional-terms-de/) 31 Karten zu 10 Grundbegriffen: Definitionen, Abruf des Begriffs anhand seiner Bedeutung und konkrete Lagebeispiele. Für die Beziehungen innerhalb einzelner Körperregionen erstellst du eigene Karten.
+
 Baue also direkte Beziehungskarten:
 
 - Was liegt lateral der Arteria femoralis?

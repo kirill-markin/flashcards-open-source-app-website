@@ -106,6 +106,8 @@ Students नाम तो याद रखते हैं, लेकिन स�
 
 ये label problems नहीं हैं। ये map problems हैं।
 
+इन relationships से पहले vocabulary मज़बूत करने के लिए [शरीर रचना के दिशासूचक शब्दों वाला डेक](/catalog/packages/anatomical-directional-terms-hi/) इस्तेमाल कर सकते हैं। इसके 31 कार्ड में 10 बुनियादी शब्दों की परिभाषाएँ, अर्थ से शब्द याद करने के सवाल और शरीर के हिस्सों की स्थिति के उदाहरण हैं। हर region की खास relationships के लिए अपने cards बनाएँ।
+
 इसलिए direct map cards बनाइए:
 
 - femoral artery के lateral क्या है?

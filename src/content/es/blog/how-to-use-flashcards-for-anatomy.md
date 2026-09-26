@@ -108,6 +108,8 @@ Los estudiantes recuerdan los nombres y luego fallan la pregunta porque no puede
 
 Esos no son problemas de etiquetas. Son problemas de mapa.
 
+Para afianzar el vocabulario antes de estudiar esas relaciones, el [mazo de términos de orientación anatómica](/catalog/packages/anatomical-directional-terms-es/) reúne 31 tarjetas sobre 10 términos básicos, con definiciones, preguntas del significado al término y ejemplos de ubicación corporal. Las relaciones específicas de cada región quedan para tus propias tarjetas.
+
 Así que crea tarjetas de mapa directas:
 
 - ¿Qué está lateral a la arteria femoral?
