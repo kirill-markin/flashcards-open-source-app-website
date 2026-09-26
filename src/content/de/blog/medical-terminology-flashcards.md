@@ -98,6 +98,8 @@ Quelle: Lehrbuch, Kapitel 8, Seite oder Abschnitt
 
 Die eckigen Klammern markieren Arbeit, die du noch erledigen musst; sie gehören nicht ins fertige Deck. Übernimm die maßgebliche Definition oder fasse sie genau zusammen und gleiche das Ergebnis anschließend mit der Quelle ab. Stopfe nicht Etymologie, Aussprache, Symptome, Untersuchungen, Behandlungen und zwei verwandte Erkrankungen auf dieselbe Rückseite. Der Leitfaden [So erstellst du bessere Flashcards](/de/blog/how-to-make-better-flashcards/) erklärt, wie du eine Karte aufteilst, sobald die Antwort kein einzelnes klares Lernziel mehr hat.
 
+Wenn dein Kurs Lagebezeichnungen behandelt, zeigt das [Deck mit 31 Karten zu anatomischen Lagebezeichnungen](/catalog/packages/anatomical-directional-terms-de/) diese Aufteilung konkret: Es übt die Bedeutung von 10 Begriffen, den Abruf anhand einer Definition und die Anwendung auf Lagebeispiele am Körper getrennt.
+
 ### Rechtschreibung und Aussprache ergänzend zu den Karten üben
 
 Stilles Erkennen kann Lücken bei Rechtschreibung oder Aussprache verdecken. Wenn dein Kurs die Schreibweise prüft, stelle eine eindeutige Frage, bei der du den Begriff selbst schreiben musst:
