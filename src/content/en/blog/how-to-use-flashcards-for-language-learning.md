@@ -112,7 +112,7 @@ Now the card teaches the word and a usable chunk of language at the same time.
 
 That is usually better for **flashcards for vocabulary** than endless translation-only pairs.
 
-For English phrases, the [English phrasal verb flashcards](/catalog/packages/english-phrasal-verbs-flashcards/) pair meaning recall in short contexts with word-order practice, including where object pronouns belong.
+For English phrases, the [English phrasal verb flashcards](/catalog/packages/english-phrasal-verbs-flashcards/) pair meaning recall in short contexts with word-order practice, including where object pronouns belong. For verb forms, the [past simple vs past participle flashcards](/catalog/packages/past-simple-vs-past-participle-flashcards/) give you a base verb and a sentence to complete, with the answer and grammatical clue on the back.
 
 ## Do not let the deck become a museum of words you never plan to use
 
