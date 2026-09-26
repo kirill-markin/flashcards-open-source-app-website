@@ -147,19 +147,28 @@ interface MarkdownAstNode {
 }
 
 const emptyActivitySnapshot: GlobalActivitySnapshot = {
-  schemaVersion: 2,
+  schemaVersion: 3,
   generatedAtUtc: "2026-08-02T12:00:00.000Z",
-  asOfUtc: "2026-08-02T12:00:00.000Z",
-  from: "2026-08-02",
-  to: "2026-08-02",
+  asOfUtc: "2026-08-02T00:00:00.000Z",
+  from: "2026-08-01",
+  to: "2026-08-01",
   totals: {
     uniqueReviewingUsers: 0,
     reviewEvents: {
       total: 0,
-      byPlatform: { web: 0, android: 0, ios: 0 },
+      byPlatform: { web: 0, android: 0, ios: 0, agent: 0, unattributed: 0 },
     },
   },
-  days: [],
+  days: [{
+    date: "2026-08-01",
+    uniqueReviewingUsers: 0,
+    newReviewingUsers: 0,
+    returningReviewingUsers: 0,
+    reviewEvents: {
+      total: 0,
+      byPlatform: { web: 0, android: 0, ios: 0, agent: 0, unattributed: 0 },
+    },
+  }],
 };
 
 const asciiControlCodePoints: ReadonlyArray<number> = [
