@@ -269,6 +269,8 @@ Para anatomía y embriología, yo me inclinaría por:
 - defecto y consecuencia
 - estructura vinculada a una sola presentación clínica clásica
 
+Si confundes los términos al describir esas relaciones, el [mazo de términos de orientación anatómica](/catalog/packages/anatomical-directional-terms-es/) permite repasar 10 conceptos básicos en 31 tarjetas. Es un repaso de vocabulario; no incluye preguntas clínicas ni sigue el programa de Step 1.
+
 Para ciencias del comportamiento y bioestadística, yo me inclinaría por:
 
 - pista del diseño del estudio

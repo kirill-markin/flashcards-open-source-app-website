@@ -98,6 +98,8 @@ Fuente: Libro de texto, capítulo 8, página o sección
 
 Los corchetes indican el contenido que debes completar, no un texto que debas dejar en el mazo. Copia o resume con exactitud la definición que rige el curso y después comprueba la fuente. Evita amontonar en el mismo reverso la etimología, la pronunciación, los síntomas, las pruebas, los tratamientos y dos trastornos relacionados. La guía para [crear mejores flashcards](/es/blog/how-to-make-better-flashcards/) explica cómo dividir una tarjeta cuando la respuesta deja de tener un único objetivo claro.
 
+Si tu curso incluye términos de orientación, el [mazo de orientación anatómica de 31 tarjetas](/catalog/packages/anatomical-directional-terms-es/) ofrece un ejemplo concreto: separa el significado de 10 términos, su evocación a partir de una definición y su uso en ejemplos de ubicación corporal.
+
 ### Practica la ortografía y la pronunciación junto con las tarjetas
 
 El reconocimiento silencioso puede ocultar una laguna ortográfica o de pronunciación. Si el curso evalúa la escritura, incluye una pregunta que exija escribir el término exacto de memoria:
