@@ -2,11 +2,11 @@ import { existsSync, readFileSync } from "fs";
 import { join } from "path";
 import { PRODUCT_API_ORIGIN } from "@/lib/site";
 
-export const globalActivitySnapshotUrl = `${PRODUCT_API_ORIGIN}/v1/global/snapshot`;
+export const globalActivitySnapshotUrl = `${PRODUCT_API_ORIGIN}/v1/global/snapshot?schemaVersion=3`;
 export const globalActivitySnapshotGeneratedFileName = "global-activity-snapshot.json";
-export const globalActivitySnapshotSchemaVersion = 2;
+export const globalActivitySnapshotSchemaVersion = 3;
 
-export const globalActivityPlatforms = ["web", "android", "ios"] as const;
+export const globalActivityPlatforms = ["web", "android", "ios", "agent", "unattributed"] as const;
 
 export type GlobalActivityPlatform = (typeof globalActivityPlatforms)[number];
 
@@ -114,6 +114,8 @@ function parseReviewEventsByPlatform(
     web: assertNonNegativeInteger(record.web, `${context}.web`),
     android: assertNonNegativeInteger(record.android, `${context}.android`),
     ios: assertNonNegativeInteger(record.ios, `${context}.ios`),
+    agent: assertNonNegativeInteger(record.agent, `${context}.agent`),
+    unattributed: assertNonNegativeInteger(record.unattributed, `${context}.unattributed`),
   };
 }
 
@@ -124,7 +126,7 @@ function parseReviewEvents(
   const record = assertRecord(value, context);
   const byPlatform = parseReviewEventsByPlatform(record.byPlatform, `${context}.byPlatform`);
   const total = assertNonNegativeInteger(record.total, `${context}.total`);
-  const platformTotal = byPlatform.web + byPlatform.android + byPlatform.ios;
+  const platformTotal = globalActivityPlatforms.reduce((sum, platform) => sum + byPlatform[platform], 0);
 
   if (total !== platformTotal) {
     throw new Error(
@@ -214,6 +216,8 @@ function sumReviewEventsForDays(
         web: total.byPlatform.web + day.reviewEvents.byPlatform.web,
         android: total.byPlatform.android + day.reviewEvents.byPlatform.android,
         ios: total.byPlatform.ios + day.reviewEvents.byPlatform.ios,
+        agent: total.byPlatform.agent + day.reviewEvents.byPlatform.agent,
+        unattributed: total.byPlatform.unattributed + day.reviewEvents.byPlatform.unattributed,
       },
     }),
     {
@@ -222,6 +226,8 @@ function sumReviewEventsForDays(
         web: 0,
         android: 0,
         ios: 0,
+        agent: 0,
+        unattributed: 0,
       },
     },
   );
@@ -236,22 +242,12 @@ function assertReviewEventTotalsMatchDays(snapshot: GlobalActivitySnapshot): voi
     );
   }
 
-  if (snapshot.totals.reviewEvents.byPlatform.web !== dayReviewEvents.byPlatform.web) {
-    throw new Error(
-      `Global activity snapshot totals.reviewEvents.byPlatform.web must equal the sum of days[].reviewEvents.byPlatform.web. expectedDaySum=${dayReviewEvents.byPlatform.web}, actualRootTotal=${snapshot.totals.reviewEvents.byPlatform.web}.`,
-    );
-  }
-
-  if (snapshot.totals.reviewEvents.byPlatform.android !== dayReviewEvents.byPlatform.android) {
-    throw new Error(
-      `Global activity snapshot totals.reviewEvents.byPlatform.android must equal the sum of days[].reviewEvents.byPlatform.android. expectedDaySum=${dayReviewEvents.byPlatform.android}, actualRootTotal=${snapshot.totals.reviewEvents.byPlatform.android}.`,
-    );
-  }
-
-  if (snapshot.totals.reviewEvents.byPlatform.ios !== dayReviewEvents.byPlatform.ios) {
-    throw new Error(
-      `Global activity snapshot totals.reviewEvents.byPlatform.ios must equal the sum of days[].reviewEvents.byPlatform.ios. expectedDaySum=${dayReviewEvents.byPlatform.ios}, actualRootTotal=${snapshot.totals.reviewEvents.byPlatform.ios}.`,
-    );
+  for (const platform of globalActivityPlatforms) {
+    if (snapshot.totals.reviewEvents.byPlatform[platform] !== dayReviewEvents.byPlatform[platform]) {
+      throw new Error(
+        `Global activity snapshot totals.reviewEvents.byPlatform.${platform} must equal the sum of days[].reviewEvents.byPlatform.${platform}. expectedDaySum=${dayReviewEvents.byPlatform[platform]}, actualRootTotal=${snapshot.totals.reviewEvents.byPlatform[platform]}.`,
+      );
+    }
   }
 }
 
@@ -414,6 +410,23 @@ export function parseGlobalActivitySnapshot(value: unknown): GlobalActivitySnaps
   if (snapshot.days[snapshot.days.length - 1]?.date !== snapshot.to) {
     throw new Error(
       `Global activity snapshot to must equal the last day. to=${snapshot.to}, lastDay=${snapshot.days[snapshot.days.length - 1]?.date ?? "missing"}.`,
+    );
+  }
+
+  const completedDayCutoff = new Date(`${snapshot.to}T00:00:00.000Z`);
+  completedDayCutoff.setUTCDate(completedDayCutoff.getUTCDate() + 1);
+  const generationDayCutoff = `${snapshot.generatedAtUtc.slice(0, 10)}T00:00:00.000Z`;
+
+  if (snapshot.asOfUtc !== completedDayCutoff.toISOString() || snapshot.asOfUtc !== generationDayCutoff) {
+    throw new Error(
+      `Global activity snapshot must cover completed UTC days through to, with asOfUtc at the following midnight on the generation date. to=${snapshot.to}, asOfUtc=${snapshot.asOfUtc}, generatedAtUtc=${snapshot.generatedAtUtc}.`,
+    );
+  }
+
+  const firstReviewers = snapshot.days.reduce((sum, day) => sum + day.newReviewingUsers, 0);
+  if (snapshot.totals.uniqueReviewingUsers !== firstReviewers) {
+    throw new Error(
+      `Global activity snapshot totals.uniqueReviewingUsers must equal the sum of days[].newReviewingUsers. expected=${firstReviewers}, actual=${snapshot.totals.uniqueReviewingUsers}.`,
     );
   }
 
