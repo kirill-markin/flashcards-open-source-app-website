@@ -97,6 +97,6 @@ Give that choice its own card:
 
 Keep the helping verb visible when you're practicing how to choose a form. Include the base verb in brackets so you don't have to guess which word the card asks for. Our [cloze vs basic flashcards guide](/blog/cloze-deletion-vs-basic-flashcards/) explains how to choose between sentence prompts and direct questions.
 
-For form recall, the [English irregular verbs deck](/catalog/packages/english-irregular-verbs-flashcards/) contains 203 cards covering 70 verbs. Pair its form prompts with sentence cards for the patterns you missed here. The [language-learning flashcard guide](/blog/how-to-use-flashcards-for-language-learning/) covers building a broader routine.
+For form recall, the [English irregular verbs deck](/catalog/packages/english-irregular-verbs-flashcards/) contains 203 cards covering 70 verbs. For choosing forms in context, try the [past simple vs past participle sentence-practice deck](/catalog/packages/past-simple-vs-past-participle-flashcards/). Its sentence prompts supply the base verb, and the answers explain the grammatical clue. It also includes verb-form corrections and questions about a form's role in a sentence. The [language-learning flashcard guide](/blog/how-to-use-flashcards-for-language-learning/) covers building a broader routine.
 
 Start with your own errors. On the next review, say the completed sentence and explain why the form fits. Then try a new sentence with the same structure, so you're making the choice again instead of repeating a memorized answer.
