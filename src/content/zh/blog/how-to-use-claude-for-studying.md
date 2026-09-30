@@ -2,7 +2,7 @@
 title: "2026 年如何用 Claude 学习：从资料核查到闪卡复习"
 description: "如何用 Claude 学习：基于自己的笔记逐题主动回忆，核实每次订正，只在课程 AI 规则允许时把薄弱点做成闪卡。"
 date: "2026-05-28"
-updated: "2026-09-14"
+updated: "2026-09-30"
 image: "/blog/how-to-use-claude-for-studying-v2.png"
 keywords:
   - "如何用 Claude 学习"
@@ -211,29 +211,17 @@ Anthropic 的[网页搜索指南](https://support.claude.com/en/articles/1068462
 
 其余候选卡可以舍弃。即使最后没有生成任何卡片，这次 Claude 学习仍然可能很有用。
 
-## 可选：把选中的卡片保存到 Claude 之外
+## 可选：保存卡片，在应用或对话中复习
 
 最简单的数据交接方式适用于任何闪卡应用：让 Claude 只用纯文本的正面/背面区块返回你批准的卡片，再核对一遍，然后复制到你平时使用的复习系统中。
 
-如果你使用 Nibomo，Claude 也可以通过远程自定义连接器保存已经批准的卡片。Anthropic 的[当前自定义连接器指南](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp)说明，Free、Pro、Max、Team 和 Enterprise 套餐都能使用远程连接器；Free 用户可以添加一个。只连接你信任的服务器，并在批准前仔细查看写入操作。
+如果你使用 Nibomo，可以通过 MCP 把 Claude 连接到它，让 Claude 保存你批准的卡片。这里的 MCP 就是助手与 Nibomo 之间的连接。先核对卡片内容和保存位置，再让 Claude 保存。
 
-Nibomo MCP URL 是：
+卡片到了复习时间，你可以打开 [Nibomo 应用](https://app.nibomo.com/)，也可以在通过 MCP 连接到 Nibomo 的 Claude 或 Codex 对话中复习。在对话里，让助手一次只出一道题，等你先尝试作答，再显示答案。看过答案后，由你评价自己这次记得怎么样，助手会把你给出的复习评分记录到 Nibomo。
 
-```text
-https://mcp.nibomo.com/mcp
-```
+无论在哪个界面复习，Nibomo 都会根据这些评分安排后续复习。你可以这次在应用里复习，下次换到对话中，继续使用同一份复习计划。
 
-保存卡片时会用到该连接器的 `list_workspaces`、只读的 `sql_query`、提供写卡规则的 `get_guide`，以及写入工具 `sql_execute`。提示词要把交接范围说清楚：
-
-```text
-Nibomo 连接器只能用于我已经批准的卡片。先列出我的工作区，再问我
-要使用哪一个。写入前，展示完整准确的卡片正面、背面和目标位置。在我
-批准预览之前，不要创建任何内容。写入后，重新读取保存的卡片供我核对。
-```
-
-[Claude 连接器分步指南](/blog/how-to-connect-flashcards-to-claude-with-mcp/)介绍了设置步骤和权限；无需在学习对话中重复整套设置。[MCP 连接器参考文档](/docs/mcp-connector/)记录了当前可用的工具和身份验证方式。
-
-Claude 可以创建已经批准的卡片，但 FSRS 复习安排仍由 Nibomo 负责。卡片到期后，打开 [Web 应用](https://app.nibomo.com/)，先回忆答案，再显示答案，并在那里记录复习结果。如果你不想授予连接器访问权限，手动复制同样是一套完整流程。
+连接设置见 [Claude 连接器分步指南](/blog/how-to-connect-flashcards-to-claude-with-mcp/)和 [MCP 连接器参考文档](/docs/mcp-connector/)。如果不想连接助手，仍然可以手动复制卡片。
 
 ## 这些地方仍然要由你把关
 

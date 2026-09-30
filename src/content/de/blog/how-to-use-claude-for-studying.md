@@ -2,7 +2,7 @@
 title: "Claude 2026 zum Lernen nutzen: Ein praktischer Leitfaden"
 description: "Lerne mit Claude anhand deiner eigenen Unterlagen, beantworte Fragen einzeln, prüfe jede Korrektur und verwandle Wissenslücken in Karteikarten – innerhalb der KI-Regeln deines Kurses."
 date: "2026-05-28"
-updated: "2026-09-14"
+updated: "2026-09-30"
 image: "/blog/how-to-use-claude-for-studying-v2.png"
 keywords:
   - "Claude zum Lernen nutzen"
@@ -226,27 +226,13 @@ Verwirf den Rest. Eine Lernsitzung mit Claude kann auch dann nützlich sein, wen
 
 Die einfachste Übertragung funktioniert mit jeder Karteikarten-App. Lass Claude nur die freigegebenen Karten als schlichte Blöcke mit Vorder- und Rückseite ausgeben, prüfe sie noch einmal und kopiere sie in dein gewohntes Wiederholungssystem.
 
-Wenn du Nibomo nutzt, kann Claude freigegebene Karten auch über seinen Remote Custom Connector speichern. Laut Anthropics [aktueller Anleitung für Custom Connectors](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp) sind Remote Connectors in den Tarifen Free, Pro, Max, Team und Enterprise verfügbar; Nutzer des Tarifs Free können einen hinzufügen. Verbinde nur Server, denen du vertraust, und prüfe Schreibaktionen vor der Freigabe.
+Wenn du Nibomo nutzt, verbinde Claude über MCP damit. MCP stellt die Verbindung zwischen dem Assistenten und Nibomo her. Danach kannst du Claude bitten, die von dir geprüften und freigegebenen Karten zu speichern. Die [Anleitung zum Claude-Connector](/blog/how-to-connect-flashcards-to-claude-with-mcp/) führt durch die Einrichtung; die [MCP-Connector-Referenz](/docs/mcp-connector/) beschreibt die Verbindung mit anderen kompatiblen Assistenten.
 
-Die Nibomo-MCP-URL lautet:
+Fällige Karten kannst du in der [Nibomo-App](https://app.nibomo.com/) oder im Chat mit Claude oder Codex wiederholen, wenn der Assistent über MCP mit Nibomo verbunden ist. In der App versuchst du, dich an die Antwort zu erinnern, deckst sie auf und bewertest, wie gut du sie gewusst hast.
 
-```text
-https://mcp.nibomo.com/mcp
-```
+Im Chat bittest du den Assistenten, deine fälligen Karten einzeln mit dir durchzugehen. Er stellt eine Frage und wartet auf deinen Versuch, bevor er die gespeicherte Antwort zeigt. Dann bittet er dich, deine Erinnerung zu bewerten, und speichert deine gewählte Bewertung in Nibomo. Du erinnerst dich und wählst die Bewertung; der Assistent führt durch das Gespräch.
 
-Zum Speichern von Karten stellt der Connector `list_workspaces`, das Nur-Lese-Tool `sql_query`, `get_guide` für die Regeln zum Schreiben von Karten sowie das Schreib-Tool `sql_execute` bereit. Halte die Übertragung eng begrenzt:
-
-```text
-Verwende den Nibomo-Connector ausschließlich für die von mir freigegebenen
-Karten. Liste zuerst meine Workspaces auf und frage, welchen du verwenden sollst.
-Zeige vor dem Schreiben die genauen Vorderseiten, Rückseiten und das Ziel. Lege
-nichts an, bevor ich die Vorschau freigegeben habe. Lies die gespeicherten
-Karten nach dem Schreibvorgang wieder aus, damit ich sie überprüfen kann.
-```
-
-Die [Schritt-für-Schritt-Anleitung zum Claude-Connector](/blog/how-to-connect-flashcards-to-claude-with-mcp/) erklärt Einrichtung und Berechtigungen; du musst diesen Vorgang in einer Lernsitzung nicht wiederholen. Die [MCP-Connector-Referenz](/docs/mcp-connector/) dokumentiert die aktuellen Tools und die Authentifizierung.
-
-Claude kann die freigegebenen Karten anlegen, doch die Terminplanung nach FSRS bleibt in Nibomo. Öffne die [Web-App](https://app.nibomo.com/), wenn Karten fällig sind, rufe die Antwort aus dem Gedächtnis ab, decke sie auf und erfasse dort die Wiederholung. Wenn du keinen Connector-Zugriff möchtest, bleibt das manuelle Kopieren ein vollständiger Ablauf.
+Nibomo verwaltet einen gemeinsamen Wiederholungsplan für App und Chat. Eine Wiederholung in einer der beiden Oberflächen aktualisiert also, wann die Karte wieder ansteht. Wähle für jede Lernsitzung die passende Variante. Wenn du ohne Connector lernen möchtest, kannst du die Karten weiterhin manuell kopieren.
 
 ## Wo Claude weiter Aufsicht braucht
 

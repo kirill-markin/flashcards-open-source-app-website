@@ -2,7 +2,7 @@
 title: "Kā izmantot Claude mācībām 2026. gadā: praktiska pieeja"
 description: "Mācies ar Claude no saviem pierakstiem, atbildi uz vienu jautājumu reizē, pārbaudi labojumus un veido kartītes par grūtākajām tēmām, ievērojot kursa MI noteikumus."
 date: "2026-05-28"
-updated: "2026-09-14"
+updated: "2026-09-30"
 image: "/blog/how-to-use-claude-for-studying-v2.png"
 keywords:
   - "kā izmantot Claude mācībām"
@@ -219,27 +219,11 @@ Pārējo atmet. Mācību sesija ar Claude var būt noderīga arī tad, ja tajā 
 
 Vienkāršākais pārnešanas veids darbojas ar jebkuru kartīšu lietotni. Lūdz Claude atgriezt tikai apstiprinātās kartītes vienkāršos priekšpuses un aizmugures teksta blokos, pārbaudi tās vēlreiz un iekopē savā ierastajā atkārtošanas sistēmā.
 
-Ja izmanto Nibomo, Claude var arī saglabāt apstiprinātās kartītes ar attālo pielāgoto savienotāju. Anthropic [pašreizējā pielāgoto savienotāju ceļvedī](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp) teikts, ka attālie savienotāji ir pieejami Free, Pro, Max, Team un Enterprise plānos; Free lietotāji var pievienot vienu. Pievieno tikai serverus, kuriem uzticies, un pirms apstiprināšanas pārskati rakstīšanas darbības.
+Ja izmanto Nibomo, savieno Claude ar to, izmantojot MCP — savienojumu starp asistentu un Nibomo. Tad vari lūgt saglabāt kartītes, kuras esi pārskatījis un apstiprinājis. Pirms saglabāšanas pārbaudi to saturu un vietu, kur tās tiks saglabātas.
 
-Nibomo MCP adrese ir:
+Kad pienācis atkārtošanas laiks, vari izmantot [Nibomo tīmekļa lietotni](https://app.nibomo.com/) vai sarunu ar Claude vai Codex, kas savienots ar Nibomo, izmantojot MCP. Sarunā lūdz uzdot vienu jautājumu reizē: asistents nogaida tavu mēģinājumu, pirms parāda atbildi, un pēc tam reģistrē Nibomo tavu vērtējumu par to, cik labi atcerējies atbildi. Nibomo uztur kopīgu atkārtošanas grafiku, tāpēc vari pārslēgties starp lietotni un sarunu.
 
-```text
-https://mcp.nibomo.com/mcp
-```
-
-Kartīšu saglabāšanai savienotājs nodrošina `list_workspaces`, tikai lasīšanai paredzēto `sql_query` un `get_guide` kartīšu rakstīšanas noteikumiem, kā arī rakstīšanas rīku `sql_execute`. Nosaki šauras pārnešanas robežas:
-
-```text
-Izmanto Nibomo savienotāju tikai manis apstiprinātajām kartītēm. Vispirms
-uzskaiti manas darbvietas un pajautā, kuru izmantot. Pirms ierakstīšanas parādi
-precīzu priekšpušu un aizmuguru tekstu un galamērķi. Neko neveido, kamēr neesmu
-apstiprinājis priekšskatījumu. Pēc ierakstīšanas vēlreiz nolasi saglabātās
-kartītes, lai es varu tās pārbaudīt.
-```
-
-[Claude savienotāja ceļvedī soli pa solim](/blog/how-to-connect-flashcards-to-claude-with-mcp/) aprakstīta iestatīšana un atļaujas; šī iestatīšana nav jādublē mācību sesijā. [MCP savienotāja dokumentācijā](/docs/mcp-connector/) aprakstīti pašreizējie rīki un autentifikācija.
-
-Claude var izveidot apstiprinātās kartītes, bet atkārtošanas plānošanu ar FSRS veic Nibomo. Kad pienācis kartīšu atkārtošanas laiks, atver [tīmekļa lietotni](https://app.nibomo.com/), mēģini atcerēties atbildi, atklāj to un reģistrē atkārtojumu tur. Ja nevēlies piešķirt piekļuvi savienotājam, manuāla kopēšana joprojām nodrošina pilnu darba ciklu.
+Savienojuma iestatīšana aprakstīta [Claude savienotāja ceļvedī](/blog/how-to-connect-flashcards-to-claude-with-mcp/) un [MCP savienotāja dokumentācijā](/docs/mcp-connector/); abi materiāli ir angļu valodā. Ja nevēlies savienot asistentu, kartītes joprojām vari kopēt manuāli.
 
 ## Kur Claude joprojām vajadzīga uzraudzība
 

@@ -2,7 +2,7 @@
 title: "Hvernig á að nota Claude við nám árið 2026: hagnýt vinnuaðferð"
 description: "Lærðu út frá eigin glósum með Claude, svaraðu einni spurningu í einu, sannreyndu leiðréttingar og gerðu minniskort úr því sem þú þarft að æfa, í samræmi við reglur námskeiðsins um gervigreind."
 date: "2026-05-28"
-updated: "2026-09-14"
+updated: "2026-09-30"
 image: "/blog/how-to-use-claude-for-studying-v2.png"
 keywords:
   - "hvernig á að nota Claude við nám"
@@ -222,27 +222,11 @@ Slepptu restinni. Námslota með Claude getur verið gagnleg þótt engin kort v
 
 Einfaldasta flutningsleiðin virkar með hvaða minniskortaforriti sem er. Biddu Claude að skila aðeins samþykktu kortunum sem einföldum textablokkum með framhlið og bakhlið, yfirfarðu þau einu sinni enn og afritaðu þau í kerfið sem þú notar venjulega til upprifjunar.
 
-Ef þú notar Nibomo getur Claude líka vistað samþykkt kort í gegnum sérsniðið fjartengi. Í [núverandi leiðbeiningum Anthropic um sérsniðin tengi](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp) segir að fjartengi séu í boði á Free-, Pro-, Max-, Team- og Enterprise-leiðum; Free-notendur geta bætt við einu. Tengdu aðeins þjóna sem þú treystir og yfirfarðu skrifaðgerðir áður en þú samþykkir þær.
+Ef þú notar Nibomo geturðu tengt Claude með MCP, tengingu milli aðstoðarmannsins og Nibomo. Þá geturðu beðið Claude að vista kortin sem þú hefur yfirfarið og samþykkt. Athugaðu innihald þeirra og hvar þau verða vistuð áður en þú samþykkir vistunina.
 
-MCP-slóð Nibomo er:
+Þegar komið er að upprifjun geturðu notað [vefforrit Nibomo](https://app.nibomo.com/) eða spjallað við Claude eða Codex sem hefur verið tengt við Nibomo með MCP. Biddu aðstoðarmanninn í spjallinu að leggja fyrir eina spurningu í einu, bíða eftir tilraun þinni áður en svarið er sýnt og skrá síðan mat þitt á því hversu vel þú mundir svarið í Nibomo. Nibomo heldur utan um sameiginlega upprifjunaráætlun, svo þú getur skipt á milli forritsins og spjallsins.
 
-```text
-https://mcp.nibomo.com/mcp
-```
-
-Til að vista kort býður tengið upp á `list_workspaces`, `sql_query` sem er aðeins til lestrar og `get_guide` fyrir reglur um kortagerð, auk skrifverkfærisins `sql_execute`. Haltu verkefninu afmörkuðu:
-
-```text
-Notaðu Nibomo-tengið aðeins fyrir kortin sem ég samþykkti. Sýndu fyrst
-vinnusvæðin mín og spurðu hvert þeirra eigi að nota. Sýndu nákvæman texta
-framhliða og bakhliða og hvar kortin verða vistuð áður en þú skrifar.
-Ekki búa neitt til fyrr en ég hef samþykkt forskoðunina. Eftir skrifaðgerðina
-skaltu lesa vistuðu kortin aftur svo ég geti sannreynt þau.
-```
-
-[Skrefaskiptar leiðbeiningar um Claude-tengið](/blog/how-to-connect-flashcards-to-claude-with-mcp/) útskýra uppsetningu og heimildir; ekki þarf að endurtaka þá uppsetningu í námslotu. [MCP-tengiskjölunin](/docs/mcp-connector/) lýsir núverandi verkfærum og auðkenningu.
-
-Claude getur búið til samþykktu kortin, en FSRS-tímasetning upprifjunar er áfram í höndum Nibomo. Opnaðu [vefforritið](https://app.nibomo.com/) þegar komið er að upprifjun korta, rifjaðu svarið upp, birtu það og skráðu upprifjunina þar. Ef þú vilt frekar sleppa aðgangi í gegnum tengi er handvirk afritun áfram fullgild vinnuaðferð.
+Sjá [leiðbeiningar um tengingu Claude](/blog/how-to-connect-flashcards-to-claude-with-mcp/) og [skjölun MCP-tengisins](/docs/mcp-connector/) fyrir uppsetningu; hvort tveggja er á ensku. Þú getur áfram afritað kortin handvirkt ef þú vilt ekki tengja aðstoðarmanninn.
 
 ## Hvar Claude þarf enn eftirlit
 

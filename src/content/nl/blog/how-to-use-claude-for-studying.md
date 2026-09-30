@@ -2,7 +2,7 @@
 title: "Studeren met Claude in 2026: een praktische werkwijze"
 description: "Studeer met je eigen aantekeningen in Claude, beantwoord één vraag tegelijk, controleer correcties en maak flashcards van zwakke punten binnen de AI-regels van je vak."
 date: "2026-05-28"
-updated: "2026-09-14"
+updated: "2026-09-30"
 image: "/blog/how-to-use-claude-for-studying-v2.png"
 keywords:
   - "hoe gebruik je Claude om te studeren"
@@ -222,27 +222,13 @@ Laat de rest weg. Een studiesessie met Claude kan nuttig zijn zonder ook maar é
 
 De eenvoudigste overdracht werkt met elke flashcard-app. Vraag Claude om alleen de goedgekeurde kaarten terug te geven als eenvoudige blokken met een voor- en achterkant, controleer ze nog eens en kopieer ze naar het systeem waarin je gewoonlijk herhaalt.
 
-Als je Nibomo gebruikt, kan Claude goedgekeurde kaarten ook opslaan via een externe custom connector. Volgens Anthropics [huidige handleiding voor custom connectors](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp) zijn externe connectors beschikbaar voor Free, Pro, Max, Team en Enterprise; gebruikers van Free kunnen er één toevoegen. Verbind alleen servers die je vertrouwt en controleer schrijfacties voordat je ze goedkeurt.
+Als je Nibomo gebruikt, kun je Claude via MCP verbinden met je kaarten. MCP is hier de verbinding tussen de assistent en Nibomo. Na het instellen kan Claude de kaarten die je hebt gecontroleerd en goedgekeurd direct in Nibomo opslaan. Laat eerst de inhoud en de plek waar ze worden opgeslagen zien, en controleer daarna de opgeslagen kaarten.
 
-De MCP-URL van Nibomo is:
+Wanneer kaarten aan herhaling toe zijn, kun je oefenen in de [webapp](https://app.nibomo.com/) of in een gesprek met Claude of Codex dat via MCP met Nibomo is verbonden. Vraag de assistent om één vraag tegelijk te stellen en op jouw poging te wachten voordat hij het antwoord toont. Daarna geef jij aan hoe goed je het antwoord wist; de assistent legt jouw beoordeling vast in Nibomo.
 
-```text
-https://mcp.nibomo.com/mcp
-```
+Nibomo houdt één herhalingsschema bij, zowel voor de app als voor de gesprekken. Je kunt dus wisselen tussen de app en de assistent en verdergaan met dezelfde kaarten en planning.
 
-Voor het opslaan van kaarten biedt de connector `list_workspaces`, het alleen-lezenhulpmiddel `sql_query` en `get_guide` voor de regels voor het schrijven van kaarten, plus het schrijfhulpmiddel `sql_execute`. Beperk de overdracht tot wat nodig is:
-
-```text
-Gebruik de Nibomo-connector alleen voor de kaarten die ik heb goedgekeurd.
-Toon eerst mijn werkruimtes en vraag welke je moet gebruiken. Laat vóór het
-schrijven de exacte voorkanten, achterkanten en bestemming zien. Maak niets aan
-voordat ik het voorbeeld heb goedgekeurd. Lees na het schrijven de opgeslagen
-kaarten terug, zodat ik ze kan controleren.
-```
-
-De [stapsgewijze handleiding voor de Claude-connector](/blog/how-to-connect-flashcards-to-claude-with-mcp/) behandelt de installatie en machtigingen; je hoeft die stappen niet in elke studiesessie te herhalen. De [MCP-connectorreferentie](/docs/mcp-connector/) beschrijft de huidige hulpmiddelen en authenticatie.
-
-Claude kan de goedgekeurde kaarten aanmaken, maar Nibomo blijft de herhalingen met FSRS plannen. Open de [webapp](https://app.nibomo.com/) wanneer het tijd is om kaarten te herhalen, haal het antwoord uit je geheugen, toon het en leg de herhaling daar vast. Wil je liever geen connectortoegang geven, dan blijft handmatig kopiëren een volwaardige werkwijze.
+Voor het instellen kun je de [handleiding voor de Claude-connector](/blog/how-to-connect-flashcards-to-claude-with-mcp/) en de [MCP-connectorreferentie](/docs/mcp-connector/) gebruiken; beide zijn in het Engels. Handmatig kopiëren blijft een volwaardige optie als je geen verbinding wilt instellen.
 
 ## Waar Claude nog begeleiding nodig heeft
 

@@ -2,7 +2,7 @@
 title: "Cách dùng Claude để học tập năm 2026: Quy trình thực tế"
 description: "Học từ ghi chép của bạn với Claude, trả lời từng câu hỏi, kiểm chứng phần sửa sai và biến điểm yếu thành thẻ ghi nhớ trong phạm vi quy định AI của môn học."
 date: "2026-05-28"
-updated: "2026-09-14"
+updated: "2026-09-30"
 image: "/blog/how-to-use-claude-for-studying-v2.png"
 keywords:
   - "cách dùng Claude để học tập"
@@ -220,27 +220,13 @@ Bỏ những phần còn lại. Một buổi học với Claude vẫn có thể 
 
 Cách chuyển đơn giản nhất dùng được với mọi ứng dụng thẻ ghi nhớ. Yêu cầu Claude chỉ trả về các thẻ đã được duyệt dưới dạng văn bản gồm mặt trước/mặt sau, kiểm tra thêm một lần rồi sao chép vào hệ thống ôn tập bạn thường dùng.
 
-Nếu dùng Nibomo, Claude còn có thể lưu các thẻ đã duyệt qua trình kết nối tùy chỉnh từ xa. [Hướng dẫn hiện tại về trình kết nối tùy chỉnh](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp) của Anthropic cho biết trình kết nối từ xa có trên các gói Free, Pro, Max, Team và Enterprise; người dùng Free có thể thêm một trình kết nối. Chỉ kết nối với máy chủ bạn tin tưởng và kiểm tra các thao tác ghi dữ liệu trước khi phê duyệt.
+Nếu dùng Nibomo, bạn có thể kết nối Claude với các thẻ của mình qua MCP. Ở đây, MCP là cầu nối giữa trợ lý và Nibomo. Sau khi thiết lập kết nối, Claude có thể lưu trực tiếp vào Nibomo những thẻ bạn đã kiểm tra và duyệt. Hãy yêu cầu xem nội dung và nơi lưu trước, rồi kiểm tra lại các thẻ đã lưu.
 
-URL MCP của Nibomo là:
+Khi đến hạn ôn thẻ, bạn có thể dùng [ứng dụng web](https://app.nibomo.com/) hoặc trò chuyện với Claude hay Codex đã kết nối với Nibomo qua MCP. Yêu cầu trợ lý đưa ra từng câu hỏi một và chờ bạn thử trả lời trước khi hiện đáp án. Sau đó, bạn tự đánh giá mức độ nhớ câu trả lời; trợ lý sẽ ghi nhận đánh giá của bạn trong Nibomo.
 
-```text
-https://mcp.nibomo.com/mcp
-```
+Nibomo giữ chung một lịch ôn tập cho cả ứng dụng và các cuộc trò chuyện. Bạn có thể chuyển qua lại giữa ứng dụng và trợ lý mà vẫn dùng cùng các thẻ và lịch ôn.
 
-Để lưu thẻ, trình kết nối cung cấp `list_workspaces`, `sql_query` chỉ đọc và `get_guide` để lấy quy tắc viết thẻ, cùng công cụ ghi dữ liệu `sql_execute`. Giữ phạm vi chuyển thẻ thật hẹp:
-
-```text
-Chỉ dùng trình kết nối Nibomo cho các thẻ tôi đã duyệt. Trước tiên, liệt kê
-các không gian làm việc của tôi và hỏi tôi muốn dùng không gian nào. Cho tôi
-xem chính xác mặt trước, mặt sau và nơi lưu trước khi ghi dữ liệu. Không tạo
-bất cứ thứ gì cho đến khi tôi duyệt bản xem trước. Sau khi ghi, đọc lại các
-thẻ đã lưu để tôi kiểm tra.
-```
-
-[Hướng dẫn từng bước kết nối Claude](/blog/how-to-connect-flashcards-to-claude-with-mcp/) trình bày cách thiết lập và phân quyền; không cần lặp lại việc thiết lập đó trong buổi học. [Tài liệu tham khảo trình kết nối MCP](/docs/mcp-connector/) mô tả các công cụ và cách xác thực hiện tại.
-
-Claude có thể tạo các thẻ đã duyệt, nhưng việc lên lịch FSRS vẫn diễn ra trong Nibomo. Mở [ứng dụng web](https://app.nibomo.com/) khi đến hạn ôn thẻ, tự nhớ lại câu trả lời, xem đáp án rồi ghi nhận lần ôn ngay tại đó. Nếu không muốn cấp quyền truy cập qua trình kết nối, sao chép thủ công vẫn là một quy trình đầy đủ.
+Bạn có thể thiết lập theo [hướng dẫn kết nối Claude](/blog/how-to-connect-flashcards-to-claude-with-mcp/) và [tài liệu trình kết nối MCP](/docs/mcp-connector/), đều bằng tiếng Anh. Nếu không muốn thiết lập kết nối, sao chép thủ công vẫn là một lựa chọn đầy đủ.
 
 ## Những chỗ Claude vẫn cần được giám sát
 

@@ -2,7 +2,7 @@
 title: "Cara Menggunakan Claude untuk Belajar pada 2026: Alur Kerja Praktis"
 description: "Belajar dari catatan sendiri dengan Claude, jawab satu pertanyaan setiap kali, periksa koreksi, dan ubah bagian yang belum dikuasai menjadi flashcard sesuai aturan AI mata kuliah."
 date: "2026-05-28"
-updated: "2026-09-14"
+updated: "2026-09-30"
 image: "/blog/how-to-use-claude-for-studying-v2.png"
 keywords:
   - "cara menggunakan Claude untuk belajar"
@@ -221,31 +221,17 @@ yang sesuai. Jangan simpan apa pun dulu.
 
 Buang sisanya. Sesi belajar dengan Claude tetap bisa berguna meski tidak menghasilkan kartu sama sekali.
 
-## Opsional: pindahkan kartu pilihan dari Claude
+## Opsional: simpan kartu dan ulangi di aplikasi atau percakapan
 
 Cara pemindahan paling sederhana bisa digunakan dengan aplikasi flashcard apa pun. Minta Claude menampilkan hanya kartu yang disetujui sebagai blok teks depan/belakang, periksa sekali lagi, lalu salin ke sistem pengulangan yang biasa Anda gunakan.
 
-Jika Anda memakai Nibomo, Claude juga dapat menyimpan kartu yang disetujui melalui konektor kustom jarak jauh. [Panduan konektor kustom terbaru](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp) dari Anthropic menyatakan bahwa konektor jarak jauh tersedia pada paket Free, Pro, Max, Team, dan Enterprise; pengguna Free dapat menambahkan satu konektor. Hubungkan hanya server yang Anda percayai dan tinjau tindakan penulisan sebelum menyetujuinya.
+Jika Anda memakai Nibomo, Anda dapat menghubungkan Claude melalui MCP dan memintanya menyimpan kartu yang sudah disetujui. Di sini, MCP adalah penghubung antara asisten dan Nibomo. Periksa isi kartu dan tempat penyimpanannya sebelum meminta kartu disimpan.
 
-URL MCP Nibomo adalah:
+Saat kartu perlu diulang, buka [aplikasi Nibomo](https://app.nibomo.com/) atau belajar melalui percakapan dengan Claude atau Codex yang terhubung ke Nibomo melalui MCP. Dalam percakapan, minta asisten memberikan satu pertanyaan setiap kali, menunggu Anda mencoba menjawab, lalu menampilkan jawabannya. Setelah melihat jawaban, Anda menilai seberapa baik Anda mengingatnya, dan asisten mencatat penilaian yang Anda pilih di Nibomo.
 
-```text
-https://mcp.nibomo.com/mcp
-```
+Nibomo menggunakan penilaian tersebut untuk menjadwalkan pengulangan berikutnya, baik Anda belajar di aplikasi maupun dalam percakapan. Anda bisa berpindah di antara keduanya dengan tetap mengikuti jadwal pengulangan yang sama.
 
-Untuk menyimpan kartu, konektor menyediakan `list_workspaces`, `sql_query` yang hanya bisa membaca data, dan `get_guide` untuk aturan penulisan kartu, serta alat untuk menulis data, `sql_execute`. Batasi proses pemindahannya:
-
-```text
-Gunakan konektor Nibomo hanya untuk kartu yang saya setujui. Pertama, tampilkan
-daftar workspace saya dan tanyakan mana yang akan digunakan. Tampilkan isi sisi
-depan, sisi belakang, dan tujuan penyimpanan secara persis sebelum menulis.
-Jangan buat apa pun sampai saya menyetujui pratinjaunya. Setelah penulisan,
-baca kembali kartu yang disimpan agar saya dapat memeriksanya.
-```
-
-[Panduan konektor Claude langkah demi langkah](/blog/how-to-connect-flashcards-to-claude-with-mcp/) membahas pengaturan dan izin; pengaturan itu tidak perlu diulang dalam sesi belajar. [Referensi konektor MCP](/docs/mcp-connector/) mendokumentasikan alat dan autentikasi yang tersedia saat ini.
-
-Claude dapat membuat kartu yang disetujui, tetapi penjadwalan FSRS tetap berjalan di Nibomo. Buka [aplikasi web](https://app.nibomo.com/) saat kartu perlu diulang, ingat kembali jawabannya, tampilkan jawaban, lalu catat hasil pengulangan di sana. Jika Anda memilih untuk tidak memberikan akses konektor, menyalin secara manual tetap merupakan alur yang lengkap.
+Untuk menyiapkan koneksi, lihat [panduan konektor Claude langkah demi langkah](/blog/how-to-connect-flashcards-to-claude-with-mcp/) dan [referensi konektor MCP](/docs/mcp-connector/), keduanya dalam bahasa Inggris. Jika tidak ingin menghubungkan asisten, Anda tetap bisa menyalin kartu secara manual.
 
 ## Bagian yang masih perlu diawasi
 

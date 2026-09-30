@@ -2,7 +2,7 @@
 title: "Kuidas kasutada Claude'i õppimiseks 2026. aastal: praktiline töövoog"
 description: "Õpi Claude'iga oma märkmete põhjal, vasta ühele küsimusele korraga, kontrolli parandusi ja tee lünkadest õpikaarte, järgides kursuse tehisintellekti reegleid."
 date: "2026-05-28"
-updated: "2026-09-14"
+updated: "2026-09-30"
 image: "/blog/how-to-use-claude-for-studying-v2.png"
 keywords:
   - "kuidas kasutada Claude'i õppimiseks"
@@ -219,26 +219,11 @@ midagi salvesta.
 
 Lihtsaim ülekandmisviis töötab iga õpikaardirakendusega. Palu Claude'il esitada ainult heakskiidetud kaardid lihtsate esi- ja tagakülje plokkidena, kontrolli need veel kord üle ning kopeeri oma tavapärasesse kordamissüsteemi.
 
-Kui kasutad Nibomot, saab Claude heakskiidetud kaardid salvestada ka kaugühendusega kohandatud konnektori kaudu. Anthropicu [praegune kohandatud konnektorite juhend](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp) ütleb, et kaugkonnektorid on saadaval Free-, Pro-, Max-, Team- ja Enterprise-pakettides; Free-kasutajad saavad lisada ühe. Ühenda ainult serverid, mida usaldad, ning vaata andmeid muutvad toimingud enne heakskiitmist üle.
+Kui kasutad Nibomot, ühenda see esmalt Claude'iga MCP kaudu. MCP loob ühenduse assistendi ja Nibomo vahel. Palu Claude'il näidata valitud kaarte ja nende salvestuskohta. Pärast sinu heakskiitu saab ta kaardid Nibomosse salvestada.
 
-Nibomo MCP-aadress on:
+Kordamiseks võid kasutada [veebirakendust](https://app.nibomo.com/) või vestelda Claude'i või Codexiga, mis on MCP kaudu Nibomoga ühendatud. Vestluses esitab assistent ühe küsimuse korraga, ootab sinu vastusekatset ja näitab alles seejärel kaardi vastust. Sina hindad, kui lihtne või raske oli vastust meenutada, ning assistent salvestab sinu hinnangu Nibomosse. Nibomo peab mõlema viisi jaoks ühist kordamisgraafikut, nii et saad rakenduse ja vestluse vahel vahetada ning jätkata kaartidega, mille kordamisaeg on kätte jõudnud.
 
-```text
-https://mcp.nibomo.com/mcp
-```
-
-Kaartide salvestamiseks pakub konnektor tööriistu `list_workspaces`, ainult lugemiseks mõeldud `sql_query` ja kaartide koostamise reegleid selgitavat `get_guide` ning kirjutamistööriista `sql_execute`. Piirdu ülekandmisel valitud kaartidega:
-
-```text
-Kasuta Nibomo konnektorit ainult minu heakskiidetud kaartide jaoks. Kõigepealt
-loetle minu tööruumid ja küsi, millist kasutada. Näita enne kirjutamist täpseid
-esi- ja tagakülgi ning sihtkohta. Ära loo midagi enne, kui olen eelvaate heaks
-kiitnud. Pärast kirjutamist loe salvestatud kaardid tagasi, et saaksin neid kontrollida.
-```
-
-[Claude'i konnektori sammhaaval juhend](/blog/how-to-connect-flashcards-to-claude-with-mcp/) käsitleb seadistamist ja õigusi; neid samme pole vaja õppimisvestluses korrata. [MCP-konnektori teatmik](/docs/mcp-connector/) kirjeldab praeguseid tööriistu ja autentimist.
-
-Claude saab heakskiidetud kaardid luua, kuid FSRS-i kordamisgraafiku haldamine jääb Nibomosse. Ava [veebirakendus](https://app.nibomo.com/), kui kaarte on aeg korrata, meenuta vastust, ava see ja märgi kordamise tulemus seal. Kui eelistad konnektorile ligipääsu mitte anda, on käsitsi kopeerimine samuti terviklik töövoog.
+Ühenduse seadistamiseks vaata [Claude'i konnektori juhendit](/blog/how-to-connect-flashcards-to-claude-with-mcp/) ja [MCP-konnektori teatmikku](/docs/mcp-connector/); mõlemad on inglise keeles. Kui sa ei soovi konnektorit kasutada, on käsitsi kopeerimine samuti terviklik töövoog.
 
 ## Kus Claude endiselt järelevalvet vajab
 

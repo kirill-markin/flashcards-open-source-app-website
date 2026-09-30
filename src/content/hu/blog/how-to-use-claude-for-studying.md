@@ -2,7 +2,7 @@
 title: "Tanulás Claude-dal 2026-ban: gyakorlati útmutató"
 description: "Tanulj saját jegyzeteidből Claude-dal: válaszolj egyenként a kérdésekre, ellenőrizd a javításokat, és gyakorold kártyákkal, ami nem ment, a kurzus AI-szabályai szerint."
 date: "2026-05-28"
-updated: "2026-09-14"
+updated: "2026-09-30"
 image: "/blog/how-to-use-claude-for-studying-v2.png"
 keywords:
   - "hogyan tanuljak Claude-dal"
@@ -218,31 +218,15 @@ feladattal. Még ne ments el semmit.
 
 A többit engedd el. Egy Claude-dal töltött tanulási alkalom akkor is hasznos lehet, ha egyetlen kártya sem készül belőle.
 
-## Ha szeretnéd, vidd át a kiválasztott kártyákat Claude-ból
+## Ha szeretnéd, mentsd el és ismételd át a kiválasztott kártyákat
 
 A legegyszerűbb átvitel bármelyik tanulókártya-alkalmazással működik. Kérd meg Claude-ot, hogy csak a jóváhagyott kártyákat adja vissza egyszerű előlap/hátlap blokkokként, nézd át őket még egyszer, majd másold be a megszokott ismétlési rendszeredbe.
 
-Ha Nibomót használsz, Claude a távoli egyéni csatlakozóján keresztül is elmentheti a jóváhagyott kártyákat. Az Anthropic [aktuális útmutatója az egyéni csatlakozókhoz](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp) szerint a távoli csatlakozók a Free, Pro, Max, Team és Enterprise csomagokban is elérhetők; a Free-felhasználók egyet adhatnak hozzá. Csak megbízható szervereket csatlakoztass, és jóváhagyás előtt nézd át az írási műveleteket.
+Ha Nibomót használsz, MCP-n keresztül összekapcsolhatod vele Claude-ot. Az MCP teremti meg a kapcsolatot az asszisztens és a Nibomo között. Kérd meg Claude-ot, hogy mentés előtt mutassa meg a javasolt kártyákat, és csak azokat hagyd jóvá, amelyeket meg akarsz tartani. Claude ezután elmentheti őket a Nibomóba későbbi ismétléshez.
 
-A Nibomo MCP-címe:
+Amikor esedékessé válik az ismétlés, használhatod a [webalkalmazást](https://app.nibomo.com/), vagy gyakorolhatsz Claude-dal vagy Codexszel egy beszélgetésben, miután MCP-n keresztül összekapcsoltad az asszisztenst a Nibomóval. A beszélgetésben az asszisztens egyszerre egy kérdést tesz fel, és megvárja a próbálkozásodat, mielőtt megmutatja a választ. Te értékeled, mennyire sikerült felidézned, az asszisztens pedig rögzíti az értékelésedet a Nibomóban. A Nibomo ugyanazt az ismétlési ütemtervet kezeli, akár az alkalmazásban, akár a beszélgetésben gyakorolsz.
 
-```text
-https://mcp.nibomo.com/mcp
-```
-
-Kártyák mentéséhez a csatlakozó a `list_workspaces`, a csak olvasásra szolgáló `sql_query`, a kártyaírási szabályokat ismertető `get_guide`, valamint az írásra szolgáló `sql_execute` eszközt biztosítja. Pontosan határold be az átvitelt:
-
-```text
-A Nibomo-csatlakozót csak az általam jóváhagyott kártyákhoz használd. Először
-listázd a munkaterületeimet, és kérdezd meg, melyiket használjuk. Írás előtt
-mutasd meg a pontos előlapokat, hátlapokat és a célhelyet. Ne hozz létre semmit,
-amíg nem hagyom jóvá az előnézetet. Írás után olvasd vissza az elmentett
-kártyákat, hogy ellenőrizhessem őket.
-```
-
-A [Claude-csatlakozó lépésről lépésre követhető útmutatója](/blog/how-to-connect-flashcards-to-claude-with-mcp/) leírja a beállítást és az engedélyeket; a tanulóbeszélgetésben nem szükséges megismételni ezeket a beállítási lépéseket. Az [MCP-csatlakozó referenciája](/docs/mcp-connector/) az aktuális eszközöket és a hitelesítést dokumentálja.
-
-Claude létrehozhatja a jóváhagyott kártyákat, de az FSRS szerinti ütemezés a Nibomóban marad. Amikor esedékes az ismétlés, nyisd meg a [webalkalmazást](https://app.nibomo.com/), idézd fel a választ, fedd fel, majd ott rögzítsd az ismétlést. Ha inkább nem adnál csatlakozóhozzáférést, a kézi másolás is teljes értékű megoldás.
+A kapcsolat beállításában a [Claude-csatlakozó útmutatója](/blog/how-to-connect-flashcards-to-claude-with-mcp/) és az [MCP-csatlakozó dokumentációja](/docs/mcp-connector/) segít. Mindkettő angol nyelvű. Ha kényelmesebb, továbbra is másolhatod kézzel a kártyákat.
 
 ## Amiben Claude továbbra is felügyeletet igényel
 

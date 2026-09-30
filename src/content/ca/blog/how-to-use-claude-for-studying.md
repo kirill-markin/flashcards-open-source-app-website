@@ -2,7 +2,7 @@
 title: "Com fer servir Claude per estudiar el 2026: un mètode pràctic"
 description: "Estudia els teus apunts amb Claude, respon una pregunta cada vegada, verifica les correccions i converteix els punts febles en targetes respectant les normes d'IA del curs."
 date: "2026-05-28"
-updated: "2026-09-14"
+updated: "2026-09-30"
 image: "/blog/how-to-use-claude-for-studying-v2.png"
 keywords:
   - "com fer servir Claude per estudiar"
@@ -219,31 +219,17 @@ separada, amb un exercici adequat. Encara no desis res.
 
 Descarta la resta. Una sessió d'estudi amb Claude pot ser útil encara que no produeixi cap targeta.
 
-## Opcional: trasllada les targetes seleccionades fora de Claude
+## Opcional: desa i repassa les targetes seleccionades
 
 La transferència més senzilla funciona amb qualsevol aplicació de targetes d'estudi. Demana a Claude que retorni només les targetes aprovades en blocs de text simples d'anvers i revers, comprova-les una vegada més i copia-les al teu sistema habitual de repàs.
 
-Si fas servir Nibomo, Claude també pot desar les targetes aprovades mitjançant el seu connector personalitzat remot. La [guia actual de connectors personalitzats d'Anthropic](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp) indica que els connectors remots estan disponibles als plans Free, Pro, Max, Team i Enterprise; els usuaris de Free en poden afegir un. Connecta només servidors en els quals confiïs i revisa les accions d'escriptura abans d'aprovar-les.
+Si fas servir Nibomo, un cop hagis connectat Claude mitjançant MCP, li pots demanar que hi desi les targetes aprovades. MCP és la connexió entre l'assistent i Nibomo. Revisa i aprova els anversos, els reversos i el lloc on es desaran abans de guardar-les.
 
-L'URL MCP de Nibomo és:
+Quan toqui repassar, pots fer-ho a l'[aplicació web](https://app.nibomo.com/) o en un xat amb Claude o Codex connectat a Nibomo mitjançant MCP. Al xat, l'assistent et presenta una pregunta cada vegada, espera que intentis respondre i després et mostra la resposta. Tu valores com de fàcil o difícil t'ha estat recordar-la i l'assistent registra aquesta valoració del repàs a Nibomo.
 
-```text
-https://mcp.nibomo.com/mcp
-```
+Nibomo manté un calendari de repassos compartit: tant si repasses a l'aplicació com al xat, els repassos següents es programen a partir del mateix historial. Pots triar l'opció que et vagi millor en cada sessió.
 
-Per desar targetes, el connector ofereix `list_workspaces`, `sql_query` de només lectura i `get_guide` per consultar les normes de creació de targetes, a més de l'eina d'escriptura `sql_execute`. Limita l'abast de la transferència:
-
-```text
-Fes servir el connector de Nibomo només per a les targetes que he aprovat.
-Primer enumera els meus espais de treball i pregunta'm quin vull fer
-servir. Mostra el contingut exacte dels anversos i reversos i la destinació abans d'escriure.
-No creïs res fins que aprovi la previsualització. Després de l'escriptura,
-torna a llegir les targetes desades perquè les pugui verificar.
-```
-
-La [guia pas a pas del connector de Claude](/blog/how-to-connect-flashcards-to-claude-with-mcp/) explica la configuració i els permisos; no cal repetir aquesta configuració dins d'una sessió d'estudi. La [referència del connector MCP](/docs/mcp-connector/) documenta les eines i l'autenticació actuals.
-
-Claude pot crear les targetes aprovades, però la programació dels repassos amb FSRS continua a Nibomo. Obre l'[aplicació web](https://app.nibomo.com/) quan toqui repassar, recorda la resposta, mostra-la i registra-hi el repàs. Si prefereixes evitar l'accés del connector, la còpia manual continua sent un mètode complet.
+Per configurar la connexió, consulta la [guia del connector de Claude](/blog/how-to-connect-flashcards-to-claude-with-mcp/) i la [referència del connector MCP](/docs/mcp-connector/), totes dues en anglès. Si prefereixes no connectar l'assistent, pots continuar copiant les targetes manualment.
 
 ## En què Claude encara necessita supervisió
 

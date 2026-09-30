@@ -2,7 +2,7 @@
 title: "Kako uporabljati Clauda za učenje v letu 2026: praktičen postopek"
 description: "Učite se s Claudom iz svojih zapiskov, odgovarjajte na vprašanja po eno, preverite popravke in vrzeli pretvorite v učne kartice v skladu s pravili predmeta o UI."
 date: "2026-05-28"
-updated: "2026-09-14"
+updated: "2026-09-30"
 image: "/blog/how-to-use-claude-for-studying-v2.png"
 keywords:
   - "kako uporabljati Clauda za učenje"
@@ -220,27 +220,11 @@ Preostalo zavrzite. Učenje s Claudom je lahko koristno tudi, če pri njem ne na
 
 Najpreprostejši prenos deluje s katero koli aplikacijo za učne kartice. Clauda prosite, naj vrne le potrjene kartice kot navadne besedilne bloke s sprednjo in zadnjo stranjo, še enkrat jih preverite in jih kopirajte v svoj običajni sistem za ponavljanje.
 
-Če uporabljate Nibomo, lahko Claude potrjene kartice shrani tudi prek oddaljenega povezovalnika po meri. Anthropicov [trenutni vodič za povezovalnike po meri](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp) navaja, da so oddaljeni povezovalniki na voljo v paketih Free, Pro, Max, Team in Enterprise; uporabniki paketa Free lahko dodajo enega. Povežite le strežnike, ki jim zaupate, in pred odobritvijo preglejte dejanja, ki zapisujejo podatke.
+Če uporabljate Nibomo, Clauda povežite prek MCP, povezave med pomočnikom in Nibomom. Nato ga lahko prosite, naj shrani kartice, ki ste jih pregledali in potrdili. Pred shranjevanjem preverite njihovo vsebino in mesto, kamor bodo shranjene.
 
-URL za Nibomo MCP je:
+Ko je čas za ponavljanje, lahko uporabite [spletno aplikacijo Nibomo](https://app.nibomo.com/) ali pogovor s Claudom ali Codexom, povezanim z Nibomom prek MCP. V pogovoru prosite pomočnika, naj postavi eno vprašanje naenkrat, počaka na vaš poskus in šele nato razkrije odgovor. Nato v Nibomo zabeleži vašo oceno, kako dobro ste se spomnili odgovora. Nibomo vodi skupni urnik ponavljanja, zato lahko prehajate med aplikacijo in pogovorom.
 
-```text
-https://mcp.nibomo.com/mcp
-```
-
-Za shranjevanje kartic povezovalnik ponuja `list_workspaces`, `sql_query` samo za branje in `get_guide` s pravili za pisanje kartic ter orodje za zapisovanje `sql_execute`. Prenos naj ostane ozko omejen:
-
-```text
-Povezovalnik Nibomo uporabi samo za kartice, ki sem jih potrdil. Najprej izpiši
-moje delovne prostore in vprašaj, katerega naj uporabiš. Pred zapisovanjem pokaži
-točno vsebino sprednjih in zadnjih strani ter ciljni prostor. Ne ustvari ničesar,
-dokler ne odobrim predogleda. Po zapisovanju ponovno preberi shranjene kartice,
-da jih lahko preverim.
-```
-
-[Vodič za povezavo s Claudom po korakih](/blog/how-to-connect-flashcards-to-claude-with-mcp/) pokriva nastavitev in dovoljenja; te nastavitve ni treba ponavljati med učenjem. [Dokumentacija povezovalnika MCP](/docs/mcp-connector/) opisuje trenutna orodja in preverjanje pristnosti.
-
-Claude lahko ustvari potrjene kartice, razporejanje po algoritmu FSRS pa ostane v Nibomu. Ko je čas za ponavljanje kartic, odprite [spletno aplikacijo](https://app.nibomo.com/), prikličite odgovor, ga razkrijte in tam zabeležite ponovitev. Če ne želite omogočiti dostopa prek povezovalnika, je ročno kopiranje še vedno celovit postopek.
+Pri povezovanju si pomagajte z [vodičem za povezavo s Claudom](/blog/how-to-connect-flashcards-to-claude-with-mcp/) in [dokumentacijo povezovalnika MCP](/docs/mcp-connector/), ki sta v angleščini. Če pomočnika ne želite povezati, lahko kartice še naprej kopirate ročno.
 
 ## Kje Claude še vedno potrebuje nadzor
 
