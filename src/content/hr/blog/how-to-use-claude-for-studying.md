@@ -2,7 +2,7 @@
 title: "Kako koristiti Claudea za učenje u 2026.: praktičan postupak"
 description: "Učite uz Claudea iz vlastitih bilježaka, odgovarajte na jedno po jedno pitanje, provjerite ispravke i pretvorite slabe točke u kartice, u skladu s pravilima kolegija."
 date: "2026-05-28"
-updated: "2026-09-14"
+updated: "2026-09-30"
 image: "/blog/how-to-use-claude-for-studying-v2.png"
 keywords:
   - "kako koristiti Claudea za učenje"
@@ -220,27 +220,11 @@ Ostalo odbacite. Učenje uz Claudea može biti korisno i kada ne nastane nijedna
 
 Najjednostavniji prijenos funkcionira s bilo kojom aplikacijom za kartice. Zatražite da Claude vrati samo odobrene kartice kao obične blokove s prednjom i stražnjom stranom, provjerite ih još jednom i kopirajte u sustav koji inače koristite za ponavljanje.
 
-Ako koristite Nibomo, Claude može spremiti odobrene kartice i putem udaljenog prilagođenog konektora. Anthropicov [aktualni vodič za prilagođene konektore](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp) navodi da su udaljeni konektori dostupni u planovima Free, Pro, Max, Team i Enterprise; korisnici plana Free mogu dodati jedan. Povezujte samo poslužitelje kojima vjerujete i pregledajte radnje zapisivanja prije nego što ih odobrite.
+Ako koristite Nibomo, povežite Claude putem MCP-a, veze između asistenta i Niboma. Tada možete zatražiti da spremi kartice koje ste pregledali i odobrili. Prije spremanja provjerite njihov sadržaj i mjesto na kojem će biti spremljene.
 
-Nibomo MCP URL je:
+Kad dođe vrijeme za ponavljanje, kartice možete ponavljati u [web-aplikaciji Nibomo](https://app.nibomo.com/) ili u razgovoru s Claudeom ili Codexom povezanim s Nibomom putem MCP-a. U razgovoru zatražite jedno po jedno pitanje: asistent čeka vaš pokušaj prije nego što otkrije odgovor, a zatim u Nibomo bilježi vašu ocjenu koliko ste se dobro prisjetili odgovora. Nibomo vodi zajednički raspored ponavljanja, pa možete prelaziti između aplikacije i razgovora.
 
-```text
-https://mcp.nibomo.com/mcp
-```
-
-Za spremanje kartica konektor nudi `list_workspaces`, alat `sql_query` samo za čitanje i `get_guide` za pravila pisanja kartica, uz alat za zapisivanje `sql_execute`. Ograničite opseg prijenosa:
-
-```text
-Koristi Nibomo konektor samo za kartice koje sam odobrio. Prvo prikaži popis
-mojih radnih prostora i pitaj koji koristiti. Prije zapisivanja pokaži točan
-sadržaj prednjih i stražnjih strana te odredište. Nemoj ništa stvarati dok ne
-odobrim pregled. Nakon zapisivanja ponovno pročitaj spremljene kartice kako
-bih ih mogao provjeriti.
-```
-
-[Vodič za povezivanje Claudea korak po korak](/blog/how-to-connect-flashcards-to-claude-with-mcp/) pokriva postavljanje i dopuštenja; nema potrebe ponavljati taj postupak tijekom učenja. [Referentna dokumentacija MCP konektora](/docs/mcp-connector/) opisuje trenutačne alate i autentifikaciju.
-
-Claude može izraditi odobrene kartice, ali FSRS raspored ponavljanja ostaje u aplikaciji Nibomo. Otvorite [web-aplikaciju](https://app.nibomo.com/) kada dođe vrijeme za ponavljanje, prisjetite se odgovora, otkrijte ga i ondje zabilježite ponavljanje. Ako želite izbjeći pristup putem konektora, ručno kopiranje i dalje je potpun postupak.
+Za povezivanje pogledajte [vodič za Claude](/blog/how-to-connect-flashcards-to-claude-with-mcp/) i [dokumentaciju MCP konektora](/docs/mcp-connector/), oba na engleskom. Ručno kopiranje ostaje dostupno ako ne želite povezivati asistenta.
 
 ## Gdje Claude i dalje treba nadzor
 

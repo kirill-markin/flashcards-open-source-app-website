@@ -2,7 +2,7 @@
 title: "Näin käytät Claudea opiskeluun vuonna 2026: käytännön menetelmä"
 description: "Opiskele omista muistiinpanoistasi Clauden avulla, vastaa kysymys kerrallaan, tarkista korjaukset ja tee osaamisaukoista muistikortteja kurssin tekoälysääntöjen mukaan."
 date: "2026-05-28"
-updated: "2026-09-14"
+updated: "2026-09-30"
 image: "/blog/how-to-use-claude-for-studying-v2.png"
 keywords:
   - "miten käyttää Claudea opiskeluun"
@@ -218,31 +218,15 @@ ja ehdota sopivaa harjoitusta. Älä tallenna vielä mitään.
 
 Jätä loput pois. Opiskelutuokio Clauden kanssa voi olla hyödyllinen, vaikka siitä ei syntyisi yhtään korttia.
 
-## Valinnainen vaihe: siirrä valitut kortit pois Claudesta
+## Valinnainen vaihe: tallenna ja kertaa valitut kortit
 
 Yksinkertaisin siirto toimii minkä tahansa muistikorttisovelluksen kanssa. Pyydä Claudea palauttamaan vain hyväksytyt kortit tavallisina etupuoli–kääntöpuoli-tekstiosioina, tarkista ne vielä kerran ja kopioi ne tavalliseen kertausjärjestelmääsi.
 
-Jos käytät Nibomoa, Claude voi myös tallentaa hyväksytyt kortit mukautetun etäliittimen kautta. Anthropicin [nykyisen mukautettujen liittimien ohjeen](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp) mukaan etäliittimet ovat saatavilla Free-, Pro-, Max-, Team- ja Enterprise-tilauksissa. Free-käyttäjä voi lisätä yhden liittimen. Yhdistä vain palvelimiin, joihin luotat, ja tarkista kirjoitustoiminnot ennen hyväksymistä.
+Jos käytät Nibomoa, voit yhdistää Clauden siihen MCP:n kautta. MCP toimii yhteytenä avustajan ja Nibomon välillä. Pyydä Claudea näyttämään ehdotetut kortit ennen tallentamista ja hyväksy vain ne, jotka haluat säilyttää. Näin valituista heikoista kohdista syntyy kortteja myöhempää kertausta varten.
 
-Nibomon MCP-osoite on:
+Kun on korttien kertauksen aika, voit käyttää [verkkosovellusta](https://app.nibomo.com/) tai keskustella Clauden tai Codexin kanssa, kun olet yhdistänyt sen Nibomoon MCP:n kautta. Keskustelussa avustaja esittää yhden kysymyksen kerrallaan ja odottaa vastausyritystäsi ennen oikean vastauksen näyttämistä. Arvioit itse, miten hyvin muistit vastauksen, ja avustaja kirjaa arviosi Nibomoon. Nibomo ylläpitää samaa kertausaikataulua riippumatta siitä, kertaatko sovelluksessa vai keskustelussa.
 
-```text
-https://mcp.nibomo.com/mcp
-```
-
-Korttien tallentamista varten liitin tarjoaa `list_workspaces`-työkalun, vain lukemiseen tarkoitetun `sql_query`-työkalun, korttien kirjoitussäännöt palauttavan `get_guide`-työkalun sekä kirjoitustyökalun `sql_execute`. Rajaa siirto tarkasti:
-
-```text
-Käytä Nibomo-liitintä vain hyväksymiini kortteihin. Listaa ensin työtilani ja
-kysy, mitä niistä käytetään. Näytä tarkat etupuolet, kääntöpuolet ja
-kohdesijainti ennen kirjoittamista. Älä luo mitään ennen kuin hyväksyn
-esikatselun. Lue tallennetut kortit kirjoittamisen jälkeen takaisin,
-jotta voin tarkistaa ne.
-```
-
-[Vaiheittainen ohje Clauden liittimen käyttöönottoon](/blog/how-to-connect-flashcards-to-claude-with-mcp/) käsittelee asetukset ja käyttöoikeudet. Käyttöönottoa ei tarvitse toistaa opiskelutuokion sisällä. [MCP-liittimen dokumentaatiossa](/docs/mcp-connector/) kuvataan nykyiset työkalut ja tunnistautuminen.
-
-Claude voi luoda hyväksytyt kortit, mutta FSRS-kertausten ajoitus pysyy Nibomossa. Avaa [verkkosovellus](https://app.nibomo.com/), kun kortteja on kerrattavana, palauta vastaus mieleesi, tuo se näkyviin ja kirjaa kertaus siellä. Jos et halua antaa liittimelle pääsyä, voit hoitaa koko siirron kopioimalla kortit käsin.
+Yhteyden käyttöönottoon saat apua [Claude-liittimen ohjeesta](/blog/how-to-connect-flashcards-to-claude-with-mcp/) ja [MCP-liittimen dokumentaatiosta](/docs/mcp-connector/). Molemmat ovat englanniksi. Voit myös jatkaa korttien kopioimista käsin, jos se sopii sinulle paremmin.
 
 ## Missä Claude tarvitsee edelleen valvontaa
 

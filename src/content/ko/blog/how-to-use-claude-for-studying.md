@@ -2,7 +2,7 @@
 title: "2026년 Claude로 공부하는 법: 바로 따라 하는 학습 순서"
 description: "내 학습 자료로 Claude와 공부하고, 한 번에 한 문제씩 답하고, 교정 내용을 검증하세요. 수업의 AI 사용 규정을 지키며 취약한 부분을 플래시카드로 만드는 방법입니다."
 date: "2026-05-28"
-updated: "2026-09-14"
+updated: "2026-09-30"
 image: "/blog/how-to-use-claude-for-studying-v2.png"
 keywords:
   - "Claude로 공부하는 법"
@@ -214,30 +214,17 @@ Anthropic의 [웹 검색 안내](https://support.claude.com/en/articles/10684626
 
 나머지는 버려도 됩니다. 카드를 하나도 만들지 않았더라도 Claude와의 학습 시간은 충분히 유용할 수 있습니다.
 
-## 선택 사항: 고른 카드를 Claude 밖으로 옮기기
+## 선택 사항: 카드를 저장하고 앱이나 채팅에서 복습하기
 
 가장 간단한 방법은 어떤 플래시카드 앱에서든 쓸 수 있습니다. 승인한 카드만 앞면과 뒷면으로 나눈 일반 텍스트로 달라고 하세요. 한 번 더 확인한 뒤 평소 쓰는 복습 도구에 복사하면 됩니다.
 
-Nibomo를 쓴다면 Claude가 원격 맞춤형 커넥터를 통해 승인된 카드를 저장할 수도 있습니다. Anthropic의 [현재 맞춤형 커넥터 안내](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp)에 따르면 Free, Pro, Max, Team, Enterprise 요금제에서 원격 커넥터를 사용할 수 있으며, Free 사용자는 하나를 추가할 수 있습니다. 신뢰하는 서버만 연결하고 쓰기 작업은 내용을 확인한 뒤 승인하세요.
+Nibomo를 쓴다면 MCP로 Claude를 연결해 승인한 카드를 저장해 달라고 할 수 있습니다. 여기서 MCP는 AI 도우미와 Nibomo를 이어 주는 연결 방식입니다. 저장을 요청하기 전에 카드 내용과 저장 위치를 확인하세요.
 
-Nibomo MCP URL은 다음과 같습니다.
+복습할 때가 되면 [Nibomo 앱](https://app.nibomo.com/)을 열거나, MCP로 Nibomo에 연결한 Claude 또는 Codex 채팅에서 복습할 수 있습니다. 채팅에서는 한 번에 한 문제씩 제시하고, 먼저 답을 시도할 때까지 기다린 다음 정답을 보여 달라고 하세요. 정답을 확인한 뒤 얼마나 잘 기억했는지 직접 평가하면, 도우미가 사용자가 선택한 복습 평가를 Nibomo에 기록합니다.
 
-```text
-https://mcp.nibomo.com/mcp
-```
+Nibomo는 앱과 채팅에서 기록한 평가를 모두 반영해 다음 복습 일정을 정합니다. 앱에서 복습하다가 다음에는 채팅으로 옮겨도 같은 복습 일정이 이어집니다.
 
-카드 저장을 위해 커넥터는 `list_workspaces`, 읽기 전용 `sql_query`, 카드 작성 규칙을 확인하는 `get_guide`, 그리고 쓰기 도구 `sql_execute`를 제공합니다. 작업 범위는 좁게 유지하세요.
-
-```text
-내가 승인한 카드에만 Nibomo 커넥터를 사용해 줘. 먼저 내 워크스페이스 목록을
-보여 주고 어느 곳을 사용할지 물어봐 줘. 쓰기 작업 전에 정확한 앞면, 뒷면,
-저장 위치를 보여 줘. 내가 미리보기를 승인하기 전에는 아무것도 생성하지 마.
-저장한 뒤에는 카드를 다시 읽어 와서 내가 확인할 수 있게 해 줘.
-```
-
-[Claude 커넥터 단계별 가이드](/blog/how-to-connect-flashcards-to-claude-with-mcp/)에서 설정과 권한을 설명하므로 학습 대화에서 설정 과정을 되풀이할 필요는 없습니다. [MCP 커넥터 참고 문서](/docs/mcp-connector/)에는 현재 도구와 인증 방식이 정리되어 있습니다.
-
-Claude가 승인된 카드를 만들 수는 있지만, FSRS 복습 일정은 Nibomo가 관리합니다. 복습할 때가 되면 [웹 앱](https://app.nibomo.com/)을 열어 답을 떠올리고, 정답을 확인하고, 그곳에 복습 결과를 기록하세요. 커넥터에 접근 권한을 주고 싶지 않다면 수동 복사만으로도 전체 과정을 진행할 수 있습니다.
+연결 설정은 영어로 된 [Claude 커넥터 단계별 가이드](/blog/how-to-connect-flashcards-to-claude-with-mcp/)와 [MCP 커넥터 참고 문서](/docs/mcp-connector/)를 참고하세요. 도우미를 연결하고 싶지 않다면 계속 카드를 수동으로 복사해도 됩니다.
 
 ## 여전히 직접 살펴봐야 하는 부분
 

@@ -2,7 +2,7 @@
 title: "Ungayisebenzisa kanjani i-Claude ekufundeni ngo-2026: Indlela ongayilandela"
 description: "Funda ngamanothi akho nge-Claude, uphendule umbuzo ngamunye, uhlole izilungiso, uguqule amaphuzu ongakawaqondi abe amakhadi okufunda, ulandela imithetho ye-AI yesifundo sakho."
 date: "2026-05-28"
-updated: "2026-09-14"
+updated: "2026-09-30"
 image: "/blog/how-to-use-claude-for-studying-v2.png"
 keywords:
   - "indlela yokusebenzisa i-Claude ekufundeni"
@@ -226,27 +226,11 @@ Lahla okunye. Ukufunda nge-Claude kungaba wusizo noma kungakhiqizi nelilodwa ikh
 
 Indlela elula yokudlulisa isebenza kunoma yiluphi uhlelo lwamakhadi okufunda. Cela i-Claude ikhiphe kuphela amakhadi owavumile ngamabhulokhi alula engaphambili nengemuva, uwahlole futhi, bese uwakopishela ohlelweni lwakho olujwayelekile lokubuyekeza.
 
-Uma usebenzisa i-Nibomo, i-Claude ingagcina futhi amakhadi owavumile ngesixhumi sayo esenziwe ngokwezifiso esisebenza kude. [Isiqondiso samanje sika-Anthropic sezixhumi ezenziwe ngokwezifiso](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp) sithi izixhumi ezisebenza kude ziyatholakala ezinhlelweni ze-Free, Pro, Max, Team, ne-Enterprise; abasebenzisi be-Free bangafaka esisodwa. Xhuma kuphela kumaseva owethembayo futhi uhlole izenzo zokubhala idatha ngaphambi kokuzivumela.
+Uma usebenzisa i-Nibomo, xhuma i-Claude nge-MCP, okuyindlela yokuxhumanisa umsizi ne-Nibomo. Ungabe usuyicela ukuthi igcine amakhadi osuwahlolile futhi wawavuma. Ngaphambi kokuwagcina, hlola okuqukethwe kuwo nendawo azogcinwa kuyo.
 
-I-URL ye-Nibomo MCP ithi:
+Lapho sekuyisikhathi sokubuyekeza, ungasebenzisa [uhlelo lwewebhu lwe-Nibomo](https://app.nibomo.com/) noma uxoxe ne-Claude noma i-Codex exhunywe ku-Nibomo nge-MCP. Engxoxweni, cela umsizi abuze umbuzo owodwa ngesikhathi, alinde ukuthi uzame ukuphendula, bese kuphela eveza impendulo. Ngemva kwalokho uqopha ku-Nibomo isilinganiso sakho sokuthi uyikhumbule kahle kangakanani impendulo. I-Nibomo igcina uhlelo olulodwa lwezikhathi zokubuyekeza, ngakho ungashintsha phakathi kohlelo lokusebenza nengxoxo.
 
-```text
-https://mcp.nibomo.com/mcp
-```
-
-Ukugcina amakhadi, isixhumi sinikeza i-`list_workspaces`, i-`sql_query` yokufunda kuphela, ne-`get_guide` yemithetho yokubhala amakhadi, kanye nethuluzi lokubhala i-`sql_execute`. Gcina ukudlulisa kunomkhawulo:
-
-```text
-Sebenzisa isixhumi se-Nibomo kuphela emakhadini engiwavumile. Qala ngokubhala uhlu
-lwezindawo zami zokusebenza bese ubuza ukuthi iyiphi okufanele isetshenziswe.
-Ngikhombise ngokuqondile izingaphambili, izingemuva, nendawo okuzogcinwa kuyo
-ngaphambi kokubhala. Ungadali lutho ngize ngivume lokho engikubonisiwe.
-Ngemva kokubhala, funda amakhadi agciniwe futhi ukuze ngiwaqinisekise.
-```
-
-[Isiqondiso sesinyathelo ngesinyathelo sesixhumi se-Claude](/blog/how-to-connect-flashcards-to-claude-with-mcp/) sichaza ukusetha nezimvume; asikho isidingo sokuphinda lokho kusetha engxoxweni yokufunda. [Imibhalo yesixhumi se-MCP](/docs/mcp-connector/) ichaza amathuluzi amanje nokuqinisekisa ubuwena.
-
-I-Claude ingadala amakhadi owavumile, kodwa ukuhlela ukubuyekeza nge-FSRS kuhlala ku-Nibomo. Vula [uhlelo lwewebhu](https://app.nibomo.com/) lapho sekuyisikhathi sokubuyekeza amakhadi, khumbula impendulo, yiveze, bese uqopha ukubuyekeza kwakho lapho. Uma ungathandi ukunikeza isixhumi ukufinyelela, ukukopisha ngesandla kuseyindlela ephelele yokusebenza.
+Ukuze uxhume, bheka [isiqondiso sokuxhuma i-Claude](/blog/how-to-connect-flashcards-to-claude-with-mcp/) kanye [nemibhalo yesixhumi se-MCP](/docs/mcp-connector/); kokubili kungesiNgisi. Uma ungafuni ukuxhuma umsizi, usengawakopisha ngesandla amakhadi.
 
 ## Lapho i-Claude isadinga ukugadwa khona
 
