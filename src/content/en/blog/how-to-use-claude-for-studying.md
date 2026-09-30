@@ -2,7 +2,7 @@
 title: "How to Use Claude for Studying in 2026: A Practical Workflow"
 description: "Study from your own notes with Claude, answer one question at a time, verify corrections, and turn weak spots into flashcards within your course's AI rules."
 date: "2026-05-28"
-updated: "2026-09-14"
+updated: "2026-09-30"
 image: "/blog/how-to-use-claude-for-studying-v2.png"
 keywords:
   - "how to use Claude for studying"
@@ -219,26 +219,13 @@ Discard the rest. A Claude study session can be useful even when it creates no c
 
 The simplest handoff works with any flashcard app. Ask Claude to return only the approved cards as plain front/back blocks, check them once more, and copy them into your usual review system.
 
-If you use Nibomo, Claude can also save approved cards through its remote custom connector. Anthropic's [current custom connector guide](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp) says remote connectors are available on Free, Pro, Max, Team, and Enterprise plans; Free users can add one. Connect only servers you trust and review write actions before approval.
+If you use Nibomo, connect Claude through MCP, the connection between the assistant and Nibomo. You can then ask Claude to save the cards you have checked and approved. The [Claude connector guide](/blog/how-to-connect-flashcards-to-claude-with-mcp/) walks through setup; the [MCP connector reference](/docs/mcp-connector/) covers connecting other compatible assistants.
 
-The Nibomo MCP URL is:
+When cards are due, you can review them in the [Nibomo app](https://app.nibomo.com/) or in a chat with Claude or Codex connected to Nibomo through MCP. In the app, try to recall the answer, reveal it, and rate how well you remembered it.
 
-```text
-https://mcp.nibomo.com/mcp
-```
+In chat, ask the assistant to review your due cards one question at a time. It waits for your attempt before revealing the saved answer, then asks you to rate your recall and records your chosen rating in Nibomo. You do the remembering and choose the rating; the assistant handles the conversation.
 
-For saving cards, the connector exposes `list_workspaces`, read-only `sql_query`, and `get_guide` for the card-writing rules, plus the write tool `sql_execute`. Keep the handoff narrow:
-
-```text
-Use the Nibomo connector for only the cards I approved. First list my
-workspaces and ask which one to use. Show the exact fronts, backs, and destination
-before writing. Create nothing until I approve the preview. After the write,
-read the saved cards back so I can verify them.
-```
-
-The [step-by-step Claude connector guide](/blog/how-to-connect-flashcards-to-claude-with-mcp/) covers setup and permissions; there is no need to duplicate that setup inside a study session. The [MCP connector reference](/docs/mcp-connector/) documents the current tools and authentication.
-
-Claude can create the approved cards, but FSRS scheduling stays in Nibomo. Open the [web app](https://app.nibomo.com/) when cards are due, recall the answer, reveal it, and record the review there. If you would rather avoid connector access, manual copy remains a complete workflow.
+Nibomo keeps the review schedule shared across the app and chat, so a review recorded in either place updates when that card comes up again. Choose whichever interface suits the session. Manual copying remains an option if you prefer to study without a connector.
 
 ## Where Claude still needs supervision
 

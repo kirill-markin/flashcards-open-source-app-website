@@ -2,7 +2,7 @@
 title: "Jak používat Claude při studiu v roce 2026: praktický postup"
 description: "Studujte s Claude z vlastních poznámek, odpovídejte po jedné otázce, ověřujte opravy a převádějte slabá místa na kartičky v mezích pravidel svého kurzu pro AI."
 date: "2026-05-28"
-updated: "2026-09-14"
+updated: "2026-09-30"
 image: "/blog/how-to-use-claude-for-studying-v2.png"
 keywords:
   - "jak používat Claude při studiu"
@@ -215,30 +215,15 @@ cvičením. Zatím nic neukládej.
 
 Zbytek vyřaďte. Studium s Claude může být užitečné, i když při něm nevznikne žádná kartička.
 
-## Volitelně: přeneste vybrané kartičky z Claude
+## Volitelně: uložte si vybrané kartičky a opakujte je
 
 Nejjednodušší přenos funguje s jakoukoli aplikací na kartičky. Požádejte Claude, aby vrátil jen schválené kartičky jako prosté bloky s přední a zadní stranou, ještě jednou je zkontrolujte a zkopírujte do systému, ve kterém obvykle opakujete.
 
-Pokud používáte Nibomo, Claude může schválené kartičky uložit i přes vzdálený vlastní konektor. [Aktuální průvodce vlastními konektory od Anthropic](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp) uvádí, že vzdálené konektory jsou dostupné v tarifech Free, Pro, Max, Team a Enterprise; uživatelé Free mohou přidat jeden. Připojujte pouze servery, kterým důvěřujete, a před schválením zkontrolujte operace zápisu.
+Pokud používáte Nibomo, můžete s ním Claude propojit přes MCP, které zajišťuje spojení mezi asistentem a Nibomo. Nechte si navržené kartičky ukázat před uložením a schvalte jen ty, které si chcete ponechat. Claude je pak může uložit do Nibomo pro pozdější opakování.
 
-Adresa MCP pro Nibomo je:
+Až nastane čas opakování, můžete použít [webovou aplikaci](https://app.nibomo.com/) nebo chat s Claude či Codexem, který jste s Nibomo propojili přes MCP. Asistent v chatu položí vždy jednu otázku a počká na váš pokus, než ukáže odpověď. Sami ohodnotíte, jak dobře jste si odpověď vybavili, a asistent vaše hodnocení zaznamená do Nibomo. Nibomo udržuje společný plán opakování pro aplikaci i chat, takže mezi nimi můžete přecházet.
 
-```text
-https://mcp.nibomo.com/mcp
-```
-
-Pro ukládání kartiček konektor zpřístupňuje `list_workspaces`, `sql_query` pouze pro čtení a `get_guide` s pravidly pro tvorbu kartiček a také nástroj pro zápis `sql_execute`. Rozsah přenosu omezte:
-
-```text
-Použij konektor Nibomo pouze pro kartičky, které jsem schválil. Nejprve vypiš mé
-pracovní prostory a zeptej se, který máš použít. Před zápisem ukaž přesné znění
-předních i zadních stran a cílové umístění. Nic nevytvářej, dokud náhled neschválím.
-Po zápisu uložené kartičky znovu načti, abych je mohl ověřit.
-```
-
-[Návod na připojení Claude krok za krokem](/blog/how-to-connect-flashcards-to-claude-with-mcp/) popisuje nastavení a oprávnění; není potřeba celý postup nastavení znovu probírat ve studijním chatu. [Referenční příručka konektoru MCP](/docs/mcp-connector/) dokumentuje aktuální nástroje a ověřování přístupu.
-
-Claude může vytvořit schválené kartičky, ale plánování opakování pomocí FSRS zůstává v Nibomo. Až nastane čas opakování, otevřete [webovou aplikaci](https://app.nibomo.com/), vybavte si odpověď, zobrazte ji a zaznamenejte tam výsledek opakování. Pokud nechcete udělovat přístup konektoru, ruční kopírování zůstává plnohodnotným postupem.
+S propojením vám pomůže [návod pro Claude](/blog/how-to-connect-flashcards-to-claude-with-mcp/) a [dokumentace konektoru MCP](/docs/mcp-connector/). Oba texty jsou v angličtině. Pokud vám lépe vyhovuje ruční kopírování, můžete u něj zůstat.
 
 ## Kde Claude stále potřebuje dohled
 

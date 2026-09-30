@@ -2,7 +2,7 @@
 title: "Jak używać Claude do nauki w 2026 roku: praktyczny sposób pracy"
 description: "Ucz się z notatek z pomocą Claude: odpowiadaj na pojedyncze pytania, sprawdzaj poprawki i twórz fiszki z luk w wiedzy, zgodnie z zasadami użycia AI na zajęciach."
 date: "2026-05-28"
-updated: "2026-09-14"
+updated: "2026-09-30"
 image: "/blog/how-to-use-claude-for-studying-v2.png"
 keywords:
   - "jak używać Claude do nauki"
@@ -222,26 +222,13 @@ Resztę odrzuć. Sesja nauki z Claude może być przydatna nawet wtedy, gdy nie 
 
 Najprostszy sposób działa z każdą aplikacją do fiszek. Poproś Claude o zwrócenie wyłącznie zatwierdzonych fiszek w prostych blokach przód/tył, sprawdź je jeszcze raz i skopiuj do systemu, w którym zwykle robisz powtórki.
 
-Jeśli używasz Nibomo, Claude może też zapisać zatwierdzone fiszki przez zdalny konektor niestandardowy. [Aktualny poradnik Anthropic dotyczący konektorów niestandardowych](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp) podaje, że zdalne konektory są dostępne w planach Free, Pro, Max, Team i Enterprise; użytkownicy Free mogą dodać jeden. Łącz się tylko z serwerami, którym ufasz, i sprawdzaj operacje zapisu przed ich zatwierdzeniem.
+Jeśli używasz Nibomo, możesz połączyć Claude ze swoimi fiszkami przez MCP. MCP to tutaj połączenie między asystentem a Nibomo. Po jego skonfigurowaniu Claude może zapisać w Nibomo fiszki, które sprawdzisz i zatwierdzisz. Najpierw poproś o pokazanie ich treści i miejsca zapisu, a potem sprawdź zapisane fiszki.
 
-Adres MCP Nibomo:
+Gdy nadejdzie pora powtórki, możesz korzystać z [aplikacji internetowej](https://app.nibomo.com/) albo z rozmowy z Claude lub Codex połączonym z Nibomo przez MCP. Poproś asystenta o zadawanie jednego pytania naraz i czekanie na twoją próbę odpowiedzi przed pokazaniem rozwiązania. Następnie samodzielnie oceń, jak dobrze pamiętasz odpowiedź; asystent zapisze twoją ocenę powtórki w Nibomo.
 
-```text
-https://mcp.nibomo.com/mcp
-```
+Nibomo prowadzi wspólny harmonogram powtórek dla aplikacji i rozmów. Możesz więc przechodzić między aplikacją a asystentem, zachowując te same fiszki i terminy kolejnych powtórek.
 
-Do zapisywania fiszek konektor udostępnia `list_workspaces`, narzędzie tylko do odczytu `sql_query`, `get_guide` z zasadami tworzenia fiszek oraz narzędzie zapisu `sql_execute`. Ogranicz zakres tej operacji:
-
-```text
-Użyj konektora Nibomo tylko do zatwierdzonych przeze mnie fiszek. Najpierw wyświetl
-moje obszary robocze i zapytaj, którego użyć. Przed zapisem pokaż dokładną
-treść przodów i tyłów oraz miejsce docelowe. Niczego nie twórz, dopóki
-nie zatwierdzę podglądu. Po zapisie odczytaj zapisane fiszki, abym mógł je sprawdzić.
-```
-
-[Instrukcja podłączania konektora Claude krok po kroku](/blog/how-to-connect-flashcards-to-claude-with-mcp/) opisuje konfigurację i uprawnienia; nie trzeba powtarzać tej konfiguracji podczas sesji nauki. [Dokumentacja konektora MCP](/docs/mcp-connector/) opisuje aktualne narzędzia i uwierzytelnianie.
-
-Claude może utworzyć zatwierdzone fiszki, ale planowanie powtórek przez FSRS pozostaje w Nibomo. Otwórz [aplikację internetową](https://app.nibomo.com/), gdy nadejdzie pora powtórki, przypomnij sobie odpowiedź, odsłoń ją i zapisz ocenę powtórki w aplikacji. Jeśli wolisz nie udostępniać dostępu przez konektor, ręczne kopiowanie w pełni wystarczy.
+Konfigurację opisują [poradnik podłączania Claude](/blog/how-to-connect-flashcards-to-claude-with-mcp/) oraz [dokumentacja konektora MCP](/docs/mcp-connector/), oba po angielsku. Jeśli nie chcesz konfigurować połączenia, ręczne kopiowanie nadal w pełni wystarczy.
 
 ## Gdzie Claude nadal wymaga nadzoru
 

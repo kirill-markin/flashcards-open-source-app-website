@@ -2,7 +2,7 @@
 title: "2026'da Claude ile Nasıl Ders Çalışılır? Uygulanabilir Bir Yöntem"
 description: "Claude ile kendi notlarınızdan çalışın, soruları tek tek yanıtlayın, düzeltmeleri doğrulayın ve dersinizin yapay zekâ kurallarına uyarak eksiklerinizi bilgi kartlarına dönüştürün."
 date: "2026-05-28"
-updated: "2026-09-14"
+updated: "2026-09-30"
 image: "/blog/how-to-use-claude-for-studying-v2.png"
 keywords:
   - "Claude ile nasıl ders çalışılır"
@@ -214,31 +214,17 @@ eksikleri uygun birer alıştırmayla ayrı bir listeye koy. Henüz hiçbir şey
 
 Geri kalanını eleyin. Claude ile bir çalışma oturumu, hiç kart üretmese de yararlı olabilir.
 
-## İsteğe bağlı: seçtiğiniz kartları Claude'dan aktarın
+## İsteğe bağlı: kartları kaydedin, uygulamada veya sohbette tekrar edin
 
-En basit aktarım yolu her bilgi kartı uygulamasıyla çalışır. Claude'dan yalnızca onayladığınız kartları sade ön yüz/arka yüz blokları olarak vermesini isteyin, bir kez daha kontrol edin ve alıştığınız tekrar sistemine kopyalayın.
+En basit aktarım yolu her bilgi kartı uygulamasıyla çalışır. Claude’dan yalnızca onayladığınız kartları sade ön yüz/arka yüz blokları olarak vermesini isteyin, bir kez daha kontrol edin ve alıştığınız tekrar sistemine kopyalayın.
 
-Nibomo kullanıyorsanız Claude, onayladığınız kartları uzaktan çalışan özel bağlayıcısıyla da kaydedebilir. Anthropic'in [güncel özel bağlayıcı rehberi](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp), uzak bağlayıcıların Free, Pro, Max, Team ve Enterprise planlarında kullanılabildiğini; Free kullanıcılarının bir bağlayıcı ekleyebildiğini söylüyor. Yalnızca güvendiğiniz sunuculara bağlanın ve yazma işlemlerini onaylamadan önce inceleyin.
+Nibomo kullanıyorsanız Claude’u MCP üzerinden bağlayıp onayladığınız kartları kaydetmesini isteyebilirsiniz. Burada MCP, asistan ile Nibomo arasındaki bağlantıdır. Kaydetmesini istemeden önce kartların içeriğini ve nereye kaydedileceğini kontrol edin.
 
-Nibomo MCP adresi:
+Kartların tekrar zamanı geldiğinde [Nibomo uygulamasını](https://app.nibomo.com/) açabilir veya MCP üzerinden Nibomo’ya bağladığınız Claude ya da Codex ile sohbette çalışabilirsiniz. Sohbette asistandan her seferinde tek bir soru sormasını, yanıtlamayı denemenizi beklemesini ve ancak sonra yanıtı göstermesini isteyin. Yanıtı gördükten sonra ne kadar iyi hatırladığınızı siz değerlendirin; asistan seçtiğiniz tekrar değerlendirmesini Nibomo’ya kaydeder.
 
-```text
-https://mcp.nibomo.com/mcp
-```
+Nibomo, ister uygulamada ister sohbette çalışmış olun, bu değerlendirmelerle sonraki tekrarları planlar. Böylece aynı tekrar takvimini koruyarak uygulama ile sohbet arasında geçiş yapabilirsiniz.
 
-Kart kaydetmek için bağlayıcı; `list_workspaces`, salt okunur `sql_query`, kart yazma kuralları için `get_guide` ve yazma aracı `sql_execute` sunar. Aktarımın kapsamını dar tutun:
-
-```text
-Nibomo bağlayıcısını yalnızca onayladığım kartlar için kullan. Önce çalışma
-alanlarımı listele ve hangisini kullanacağını sor. Yazmadan önce ön yüzleri,
-arka yüzleri ve kaydedilecek yeri tam olarak göster. Önizlemeyi onaylayana kadar
-hiçbir şey oluşturma. Yazma işleminden sonra kaydedilen kartları yeniden oku ki
-kontrol edebileyim.
-```
-
-[Adım adım Claude bağlayıcısı rehberi](/blog/how-to-connect-flashcards-to-claude-with-mcp/), kurulumu ve izinleri anlatıyor; bir ders çalışma oturumunda bu kurulumu yeniden anlatmaya gerek yok. [MCP bağlayıcısı başvuru belgesi](/docs/mcp-connector/), güncel araçları ve kimlik doğrulamayı açıklıyor.
-
-Claude onaylanmış kartları oluşturabilir, ancak FSRS tekrar planlaması Nibomo'da kalır. Kartların tekrar zamanı geldiğinde [web uygulamasını](https://app.nibomo.com/) açın, yanıtı hatırlamaya çalışın, ardından yanıtı açıp tekrarınızı orada kaydedin. Bağlayıcı erişimi vermek istemiyorsanız elle kopyalamak da başlı başına eksiksiz bir yöntemdir.
+Bağlantıyı kurmak için İngilizce [adım adım Claude bağlayıcısı rehberine](/blog/how-to-connect-flashcards-to-claude-with-mcp/) ve [MCP bağlayıcısı başvuru belgesine](/docs/mcp-connector/) bakın. Asistanı bağlamak istemiyorsanız kartları elle kopyalamaya devam edebilirsiniz.
 
 ## Claude'un hâlâ gözetim gerektirdiği noktalar
 

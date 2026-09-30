@@ -2,7 +2,7 @@
 title: "Slik bruker du Claude til studier i 2026: en praktisk arbeidsflyt"
 description: "Studer dine egne notater med Claude, svar på ett spørsmål om gangen, kontroller rettelser og lag flashcards av kunnskapshull innenfor emnets KI-regler."
 date: "2026-05-28"
-updated: "2026-09-14"
+updated: "2026-09-30"
 image: "/blog/how-to-use-claude-for-studying-v2.png"
 keywords:
   - "slik bruker du Claude til studier"
@@ -217,31 +217,15 @@ Ikke lagre noe ennå.
 
 Forkast resten. En studieøkt med Claude kan være nyttig selv om den ikke gir et eneste kort.
 
-## Valgfritt: Flytt utvalgte kort ut av Claude
+## Valgfritt: Lagre og repeter utvalgte kort
 
 Den enkleste overføringen fungerer med enhver flashcard-app. Be Claude returnere bare de godkjente kortene som enkle blokker med forside og bakside, kontroller dem én gang til, og kopier dem til systemet du vanligvis bruker til repetisjon.
 
-Hvis du bruker Nibomo, kan Claude også lagre godkjente kort gjennom en egendefinert ekstern tilkobling. Anthropics [gjeldende veiledning for egendefinerte tilkoblinger](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp) sier at eksterne tilkoblinger er tilgjengelige på abonnementene Free, Pro, Max, Team og Enterprise. Gratisbrukere kan legge til én. Koble bare til servere du stoler på, og gjennomgå skrivehandlinger før du godkjenner dem.
+Hvis du bruker Nibomo, kan du koble til Claude via MCP, som er forbindelsen mellom assistenten og Nibomo. Be Claude vise kortforslagene før de lagres, og godkjenn bare dem du vil beholde. Da blir utvalgte kunnskapshull til kort du kan øve på senere.
 
-Nibomos MCP-adresse er:
+Når kortene skal repeteres, kan du bruke [nettappen](https://app.nibomo.com/) eller en samtale med Claude eller Codex som du har koblet til Nibomo via MCP. I samtalen viser assistenten ett spørsmål om gangen og venter på forsøket ditt før den viser svaret. Du vurderer selv hvor godt du husket det, og assistenten registrerer vurderingen din i Nibomo. Nibomo holder styr på den samme repetisjonsplanen enten du øver i appen eller i samtalen.
 
-```text
-https://mcp.nibomo.com/mcp
-```
-
-For lagring av kort tilbyr tilkoblingen `list_workspaces`, `sql_query` med kun lesetilgang og `get_guide` for reglene for kortskriving, samt skriveverktøyet `sql_execute`. Hold overføringen avgrenset:
-
-```text
-Bruk Nibomo-tilkoblingen bare til kortene jeg har godkjent. List først opp
-arbeidsområdene mine og spør hvilket du skal bruke. Vis de nøyaktige forsidene,
-baksidene og hvor kortene skal lagres, før du skriver. Ikke opprett noe før jeg godkjenner
-forhåndsvisningen. Etter skrivingen leser du de lagrede kortene tilbake,
-slik at jeg kan kontrollere dem.
-```
-
-[Den trinnvise veiledningen for Claude-tilkoblingen](/blog/how-to-connect-flashcards-to-claude-with-mcp/) dekker oppsett og tillatelser. Det er ingen grunn til å gjenta dette oppsettet i en studieøkt. [Referansen for MCP-tilkoblingen](/docs/mcp-connector/) dokumenterer de gjeldende verktøyene og autentiseringen.
-
-Claude kan opprette de godkjente kortene, men FSRS-planleggingen skjer fortsatt i Nibomo. Åpne [nettappen](https://app.nibomo.com/) når kortene skal repeteres, hent frem svaret fra hukommelsen, vis det og registrer repetisjonen der. Hvis du foretrekker å unngå tilgang via en tilkobling, er manuell kopiering fortsatt en fullstendig arbeidsflyt.
+[Veiledningen for Claude-tilkoblingen](/blog/how-to-connect-flashcards-to-claude-with-mcp/) og [dokumentasjonen for MCP-tilkoblingen](/docs/mcp-connector/) forklarer hvordan du kobler til. Begge er på engelsk. Du kan fortsatt kopiere kortene manuelt hvis du foretrekker det.
 
 ## Her trenger Claude fortsatt oppfølging
 

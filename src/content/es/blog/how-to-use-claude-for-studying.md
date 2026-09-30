@@ -2,7 +2,7 @@
 title: "Cómo usar Claude para estudiar en 2026: guía práctica"
 description: "Estudia tus apuntes con Claude, responde una pregunta cada vez, comprueba las correcciones y convierte tus dudas en flashcards dentro de las normas de tu curso."
 date: "2026-05-28"
-updated: "2026-09-14"
+updated: "2026-09-30"
 image: "/blog/how-to-use-claude-for-studying-v2.png"
 keywords:
   - "cómo usar Claude para estudiar"
@@ -223,27 +223,13 @@ Descarta el resto. Una sesión de estudio con Claude puede ser útil aunque no p
 
 La opción más sencilla sirve con cualquier aplicación de flashcards. Pide a Claude que devuelva únicamente las tarjetas aprobadas como bloques de anverso y reverso en texto sin formato, compruébalas una vez más y cópialas en tu sistema de repaso habitual.
 
-Si utilizas Nibomo, Claude también puede guardar las tarjetas aprobadas mediante su conector personalizado remoto. La [guía actual de Anthropic sobre conectores personalizados](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp) indica que los conectores remotos están disponibles en los planes Free, Pro, Max, Team y Enterprise; los usuarios del plan Free pueden añadir uno. Conecta únicamente servidores de confianza y revisa las acciones de escritura antes de aprobarlas.
+Si utilizas Nibomo, conecta Claude mediante MCP, la conexión entre el asistente y Nibomo. Después puedes pedirle que guarde las tarjetas que has comprobado y aprobado. La [guía del conector de Claude](/blog/how-to-connect-flashcards-to-claude-with-mcp/) explica la configuración; la [referencia del conector MCP](/docs/mcp-connector/) cubre la conexión de otros asistentes compatibles.
 
-La URL MCP de Nibomo es:
+Cuando llegue el momento de repasar, puedes hacerlo en la [aplicación de Nibomo](https://app.nibomo.com/) o en un chat con Claude o Codex conectado a Nibomo mediante MCP. En la aplicación, intenta recordar la respuesta, muéstrala y valora cuánto te ha costado recordarla.
 
-```text
-https://mcp.nibomo.com/mcp
-```
+En el chat, pide al asistente que repase contigo las tarjetas pendientes, una pregunta cada vez. Espera a que intentes responder antes de mostrar la respuesta guardada; después te pide que valores cómo la has recordado y registra la valoración que elijas en Nibomo. Tú haces el esfuerzo de recordar y eliges la valoración; el asistente lleva la conversación.
 
-Para guardar tarjetas, el conector ofrece `list_workspaces`, la herramienta de solo lectura `sql_query` y `get_guide` con las reglas para redactar tarjetas, además de la herramienta de escritura `sql_execute`. Mantén la transferencia bien acotada:
-
-```text
-Usa el conector de Nibomo únicamente con las tarjetas que he aprobado. Primero,
-consulta mis espacios de trabajo y pregúntame cuál debe usarse. Muestra los anversos,
-los reversos y el destino exactos antes de escribir. No crees nada hasta que apruebe
-la vista previa. Después de escribir, vuelve a consultar las tarjetas guardadas para
-que pueda verificarlas.
-```
-
-La [guía paso a paso del conector de Claude](/blog/how-to-connect-flashcards-to-claude-with-mcp/) explica la configuración y los permisos; no hace falta repetir ese proceso dentro de una sesión de estudio. La [referencia del conector MCP](/docs/mcp-connector/) documenta las herramientas y la autenticación actuales.
-
-Claude puede crear las tarjetas aprobadas, pero la programación con FSRS se queda en Nibomo. Abre la [aplicación web](https://app.nibomo.com/) cuando llegue el momento de repasar, intenta recordar la respuesta, muéstrala y registra allí el resultado. Si prefieres que el conector no tenga acceso, copiar las tarjetas a mano sigue siendo un flujo de trabajo completo.
+Nibomo mantiene un calendario de repaso compartido entre la aplicación y el chat: un repaso registrado en cualquiera de los dos actualiza cuándo volverá a aparecer esa tarjeta. Elige la opción que te venga mejor para cada sesión. Si prefieres estudiar sin conector, puedes seguir copiando las tarjetas a mano.
 
 ## Claude sigue necesitando supervisión
 

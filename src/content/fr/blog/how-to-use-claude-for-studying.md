@@ -2,7 +2,7 @@
 title: "Comment utiliser Claude pour étudier en 2026 : une méthode concrète"
 description: "Révisez vos notes avec Claude, répondez à une question à la fois, vérifiez les corrections et créez des cartes sur vos lacunes, en respectant les règles du cours sur l’IA."
 date: "2026-05-28"
-updated: "2026-09-14"
+updated: "2026-09-30"
 image: "/blog/how-to-use-claude-for-studying-v2.png"
 keywords:
   - "comment utiliser Claude pour étudier"
@@ -218,31 +218,17 @@ un exercice adapté. N’enregistre encore rien.
 
 Écartez le reste. Une séance de révision avec Claude peut être utile même si elle ne produit aucune carte.
 
-## Facultatif : transférer les cartes retenues hors de Claude
+## Facultatif : enregistrer les cartes et réviser dans l’application ou en conversation
 
 Le transfert le plus simple fonctionne avec n’importe quelle application de cartes mémoire. Demandez à Claude de renvoyer uniquement les cartes approuvées sous forme de blocs recto/verso en texte brut, vérifiez-les une dernière fois et copiez-les dans votre outil de révision habituel.
 
-Si vous utilisez Nibomo, Claude peut aussi enregistrer les cartes approuvées au moyen de son connecteur distant personnalisé. Le [guide actuel d’Anthropic sur les connecteurs personnalisés](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp) indique que les connecteurs distants sont disponibles avec les offres Free, Pro, Max, Team et Enterprise ; les utilisateurs de l’offre gratuite peuvent en ajouter un. Ne connectez que des serveurs auxquels vous faites confiance et examinez les actions d’écriture avant de les approuver.
+Si vous utilisez Nibomo, vous pouvez y connecter Claude via MCP pour lui faire enregistrer les cartes approuvées. MCP sert ici de lien entre l’assistant et Nibomo. Vérifiez le contenu des cartes et leur destination avant de demander leur enregistrement.
 
-L’URL MCP de Nibomo est :
+Lorsque des cartes sont à revoir, ouvrez l’[application Nibomo](https://app.nibomo.com/) ou révisez dans une conversation avec Claude ou Codex connecté à Nibomo via MCP. En conversation, demandez à l’assistant de présenter une question à la fois, d’attendre votre tentative, puis de révéler la réponse. Vous évaluez ensuite votre rappel ; l’assistant enregistre dans Nibomo l’évaluation que vous avez choisie pour cette révision.
 
-```text
-https://mcp.nibomo.com/mcp
-```
+Nibomo utilise ces évaluations pour planifier les prochaines révisions, quel que soit l’endroit où vous avez étudié. Vous pouvez passer de l’application à la conversation en conservant le même calendrier de révision.
 
-Pour enregistrer les cartes, le connecteur expose `list_workspaces`, `sql_query` en lecture seule et `get_guide` pour consulter les règles de rédaction des cartes, ainsi que l’outil d’écriture `sql_execute`. Limitez précisément ce transfert :
-
-```text
-Utilise le connecteur Nibomo uniquement pour les cartes que j’ai approuvées.
-Commence par lister mes espaces de travail et demande lequel utiliser. Montre
-les rectos, les versos et la destination exacts avant toute écriture. Ne crée
-rien tant que je n’ai pas approuvé cet aperçu. Après l’écriture, relis les
-cartes enregistrées pour que je puisse les vérifier.
-```
-
-Le [guide pas à pas du connecteur Claude](/fr/blog/how-to-connect-flashcards-to-claude-with-mcp/) détaille la configuration et les autorisations ; inutile de refaire cette configuration au milieu d’une séance. La [documentation du connecteur MCP](/fr/docs/mcp-connector/) décrit les outils et l’authentification actuels.
-
-Claude peut créer les cartes approuvées, mais la planification FSRS reste dans Nibomo. Ouvrez l’[application web](https://app.nibomo.com/) lorsque des cartes sont à revoir, rappelez-vous la réponse, affichez-la et enregistrez votre révision dans l’application. Si vous préférez éviter l’accès par connecteur, la copie manuelle reste une méthode complète.
+Pour établir la connexion, consultez le [guide pas à pas du connecteur Claude](/fr/blog/how-to-connect-flashcards-to-claude-with-mcp/) et la [documentation du connecteur MCP](/fr/docs/mcp-connector/). La copie manuelle reste possible si vous préférez ne pas connecter l’assistant.
 
 ## Ce qui demande encore votre vigilance
 

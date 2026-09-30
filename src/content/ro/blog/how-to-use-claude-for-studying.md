@@ -2,7 +2,7 @@
 title: "Cum să folosești Claude pentru învățare în 2026: un proces practic"
 description: "Învață cu Claude din propriile notițe, răspunde pe rând la întrebări, verifică răspunsurile corectate și creează fișe pentru lacune, respectând regulile cursului privind AI."
 date: "2026-05-28"
-updated: "2026-09-14"
+updated: "2026-09-30"
 image: "/blog/how-to-use-claude-for-studying-v2.png"
 keywords:
   - "cum să folosești Claude pentru învățare"
@@ -218,32 +218,15 @@ Nu salva încă nimic.
 
 Elimină restul. O sesiune de învățare cu Claude poate fi utilă chiar dacă nu produce nicio fișă.
 
-## Opțional: transferă fișele selectate din Claude
+## Opțional: salvează și recapitulează fișele selectate
 
 Cel mai simplu transfer funcționează cu orice aplicație de fișe de învățare. Cere-i lui Claude să returneze doar fișele aprobate, ca blocuri simple față/verso, verifică-le încă o dată și copiază-le în sistemul tău obișnuit de recapitulare.
 
-Dacă folosești Nibomo, Claude poate salva fișele aprobate și prin conectorul personalizat la distanță. [Ghidul actual Anthropic despre conectorii personalizați](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp) precizează că aceștia sunt disponibili pentru planurile Free, Pro, Max, Team și Enterprise; utilizatorii Free pot adăuga unul. Conectează doar servere în care ai încredere și examinează acțiunile de scriere înainte de a le aproba.
+Dacă folosești Nibomo, poți conecta Claude prin MCP, legătura dintre asistent și Nibomo. Cere-i lui Claude să-ți arate fișele propuse înainte de salvare și aprobă doar fișele pe care vrei să le păstrezi. Claude le poate salva apoi în Nibomo pentru recapitulări viitoare.
 
-Adresa MCP pentru Nibomo este:
+Când vine momentul recapitulării, poți folosi [aplicația web](https://app.nibomo.com/) sau o conversație cu Claude ori Codex, după ce ai conectat asistentul la Nibomo prin MCP. În conversație, asistentul îți pune câte o întrebare și așteaptă încercarea ta înainte să dezvăluie răspunsul. Tu evaluezi cât de bine ți-ai amintit răspunsul, iar asistentul înregistrează evaluarea ta în Nibomo. Nibomo păstrează același program de recapitulare, indiferent dacă exersezi în aplicație sau în conversație.
 
-```text
-https://mcp.nibomo.com/mcp
-```
-
-Pentru salvarea fișelor, conectorul oferă `list_workspaces`, `sql_query` doar pentru citire și `get_guide` pentru regulile de redactare a fișelor, plus instrumentul de scriere `sql_execute`. Limitează transferul:
-
-```text
-Folosește conectorul Nibomo doar pentru fișele pe care le-am aprobat. Mai întâi
-listează spațiile mele de lucru și întreabă-mă pe care să-l folosești. Arată-mi
-conținutul exact de pe fața și versoul fiecărei fișe, precum și destinația, înainte
-să salvezi. Nu crea nimic până când
-nu aprob previzualizarea. După scriere, citește din nou fișele salvate ca să le
-pot verifica.
-```
-
-[Ghidul pas cu pas pentru conectorul Claude](/blog/how-to-connect-flashcards-to-claude-with-mcp/) acoperă configurarea și permisiunile; nu este nevoie să repeți configurarea într-o sesiune de învățare. [Documentația conectorului MCP](/docs/mcp-connector/) descrie instrumentele actuale și autentificarea.
-
-Claude poate crea fișele aprobate, dar programarea recapitulărilor prin FSRS rămâne în Nibomo. Deschide [aplicația web](https://app.nibomo.com/) când vine momentul să recapitulezi fișele, amintește-ți răspunsul, afișează-l și înregistrează recapitularea acolo. Dacă preferi să nu oferi acces prin conector, copierea manuală rămâne o metodă completă.
+Pentru conectare, consultă [ghidul pentru Claude](/blog/how-to-connect-flashcards-to-claude-with-mcp/) și [documentația conectorului MCP](/docs/mcp-connector/). Ambele sunt în engleză. Poți în continuare să copiezi fișele manual, dacă preferi.
 
 ## Unde Claude încă are nevoie de supraveghere
 

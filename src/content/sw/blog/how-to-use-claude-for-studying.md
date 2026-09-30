@@ -2,7 +2,7 @@
 title: "Jinsi ya Kutumia Claude Kusoma Mwaka 2026: Mwongozo wa Vitendo"
 description: "Soma kwa kutumia notsi zako na Claude, jibu swali moja kwa wakati, hakiki masahihisho, na geuza maeneo yenye changamoto kuwa kadi kulingana na kanuni za AI za kozi yako."
 date: "2026-05-28"
-updated: "2026-09-14"
+updated: "2026-09-30"
 image: "/blog/how-to-use-claude-for-studying-v2.png"
 keywords:
   - "jinsi ya kutumia Claude kusoma"
@@ -222,27 +222,11 @@ Ondoa yaliyobaki. Kipindi cha kusoma na Claude kinaweza kuwa na manufaa hata kam
 
 Njia rahisi zaidi ya kuhamisha kadi inafanya kazi na programu yoyote ya kadi za kujifunzia. Iombe Claude itoe kadi ulizoidhinisha pekee kama maandishi ya kawaida yaliyogawanywa katika mbele na nyuma, zikague mara moja tena, kisha zinakili kwenye mfumo wako wa kawaida wa marudio.
 
-Ikiwa unatumia Nibomo, Claude inaweza pia kuhifadhi kadi ulizoidhinisha kupitia kiunganishi chake maalumu cha mbali. [Mwongozo wa sasa wa Anthropic kuhusu viunganishi maalumu](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp) unasema viunganishi vya mbali vinapatikana kwenye mipango ya Free, Pro, Max, Team, na Enterprise; watumiaji wa Free wanaweza kuongeza kimoja. Unganisha seva unazoziamini tu na ukague vitendo vya kuandika data kabla ya kuviidhinisha.
+Ikiwa unatumia Nibomo, kwanza iunganishe na Claude kupitia MCP, kiunganishi kati ya msaidizi na Nibomo. Iombe Claude ikuonyeshe kadi ulizochagua na mahali itakapozihifadhi. Baada ya kuziidhinisha, inaweza kuzihifadhi kwenye Nibomo.
 
-URL ya Nibomo MCP ni:
+Unaweza kurudia kadi kwenye [programu ya wavuti](https://app.nibomo.com/) au kwenye mazungumzo na Claude au Codex iliyounganishwa na Nibomo kupitia MCP. Katika mazungumzo, msaidizi anauliza swali moja kwa wakati, anasubiri ujaribu kujibu, kisha anaonyesha jibu la kadi. Wewe unaeleza jinsi ilivyokuwa rahisi au vigumu kukumbuka jibu; msaidizi anarekodi ukadiriaji wako kwenye Nibomo. Nibomo inaweka ratiba moja ya marudio kwa njia zote mbili, hivyo unaweza kubadilisha kati ya programu na mazungumzo na kuendelea na kadi ambazo muda wake wa kurudiwa umefika.
 
-```text
-https://mcp.nibomo.com/mcp
-```
-
-Kwa kuhifadhi kadi, kiunganishi kinatoa `list_workspaces`, `sql_query` ya kusoma tu, na `get_guide` kwa kanuni za kuandika kadi, pamoja na zana ya kuandika data `sql_execute`. Weka mipaka finyu kwa uhamishaji:
-
-```text
-Tumia kiunganishi cha Nibomo kwa kadi nilizoidhinisha pekee. Kwanza orodhesha
-maeneo yangu ya kazi na uniulize lipi litumike. Onyesha maandishi kamili ya mbele,
-nyuma, na mahali pa kuhifadhi kabla ya kuandika data. Usitengeneze chochote hadi
-niidhinishe onyesho hilo la awali. Baada ya kuandika, soma tena kadi zilizohifadhiwa
-ili niweze kuzihakiki.
-```
-
-[Mwongozo wa hatua kwa hatua wa kuunganisha Claude](/blog/how-to-connect-flashcards-to-claude-with-mcp/) unaeleza usanidi na ruhusa; hakuna haja ya kurudia usanidi huo ndani ya kipindi cha kusoma. [Marejeo ya kiunganishi cha MCP](/docs/mcp-connector/) yanaeleza zana za sasa na uthibitishaji wa utambulisho.
-
-Claude inaweza kutengeneza kadi zilizoidhinishwa, lakini upangaji wa ratiba wa FSRS unabaki ndani ya Nibomo. Fungua [programu ya wavuti](https://app.nibomo.com/) muda wa kurudia kadi unapofika, kumbuka jibu, lifunue, na rekodi marudio hapo. Ikiwa ungependa kuepuka kutoa ufikiaji kupitia kiunganishi, kunakili mwenyewe bado ni utaratibu kamili.
+Kwa hatua za kuunganisha, angalia [mwongozo wa kiunganishi cha Claude](/blog/how-to-connect-flashcards-to-claude-with-mcp/) na [marejeo ya kiunganishi cha MCP](/docs/mcp-connector/); yote mawili yako kwa Kiingereza. Ikiwa hutaki kutumia kiunganishi, kunakili mwenyewe bado ni utaratibu kamili.
 
 ## Claude bado inahitaji usimamizi katika maeneo gani?
 
