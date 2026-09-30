@@ -2,7 +2,7 @@
 title: "Come usare Claude per studiare nel 2026: un metodo pratico"
 description: "Studia dai tuoi appunti con Claude: rispondi a una domanda alla volta, verifica le correzioni e crea flashcard sulle lacune, rispettando le regole del corso sull'IA."
 date: "2026-05-28"
-updated: "2026-09-14"
+updated: "2026-09-30"
 image: "/blog/how-to-use-claude-for-studying-v2.png"
 keywords:
   - "come usare Claude per studiare"
@@ -217,30 +217,17 @@ con un esercizio adatto. Non salvare ancora nulla.
 
 Scarta il resto. Una sessione di studio con Claude può essere utile anche quando non produce nessuna scheda.
 
-## Facoltativo: trasferisci le schede selezionate fuori da Claude
+## Facoltativo: salva le schede e ripassa nell’app o in chat
 
 Il trasferimento più semplice funziona con qualsiasi app di flashcard. Chiedi a Claude di restituire solo le schede approvate come semplici blocchi fronte/retro, controllale ancora una volta e copiale nel sistema che usi abitualmente per ripassare.
 
-Se usi Nibomo, Claude può anche salvare le schede approvate tramite il suo connettore personalizzato remoto. La [guida attuale di Anthropic ai connettori personalizzati](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp) indica che i connettori remoti sono disponibili nei piani Free, Pro, Max, Team ed Enterprise; gli utenti Free possono aggiungerne uno. Collega solo server di cui ti fidi ed esamina le operazioni di scrittura prima di approvarle.
+Se usi Nibomo, puoi collegarvi Claude tramite MCP e chiedergli di salvare le schede approvate. Qui MCP è il collegamento tra l’assistente e Nibomo. Controlla il contenuto delle schede e la destinazione prima di chiedere di salvarle.
 
-L'URL MCP di Nibomo è:
+Quando è il momento di ripassare, apri l’[app Nibomo](https://app.nibomo.com/) oppure ripassa in una chat con Claude o Codex collegato a Nibomo tramite MCP. In chat, chiedi all’assistente di presentare una domanda alla volta, aspettare il tuo tentativo e solo dopo mostrare la risposta. A quel punto valuti quanto bene l’hai ricordata, e l’assistente registra in Nibomo la valutazione che hai scelto per quel ripasso.
 
-```text
-https://mcp.nibomo.com/mcp
-```
+Nibomo usa queste valutazioni per programmare i ripassi successivi, ovunque tu abbia studiato. Puoi passare dall’app alla chat mantenendo lo stesso calendario di ripasso.
 
-Per salvare le schede, il connettore espone `list_workspaces`, `sql_query` in sola lettura e `get_guide` per le regole di scrittura delle schede, oltre allo strumento di scrittura `sql_execute`. Limita il trasferimento allo stretto necessario:
-
-```text
-Usa il connettore Nibomo solo per le schede che ho approvato. Per prima cosa,
-elenca i miei spazi di lavoro e chiedimi quale usare. Mostra il contenuto esatto
-del fronte e del retro di ogni scheda e la destinazione prima di scrivere. Non creare nulla finché non approvo
-l'anteprima. Dopo la scrittura, rileggi le schede salvate per permettermi di verificarle.
-```
-
-La [guida passo passo al connettore per Claude](/blog/how-to-connect-flashcards-to-claude-with-mcp/) illustra la configurazione e i permessi; non serve ripetere quella configurazione all'interno di una sessione di studio. La [documentazione di riferimento del connettore MCP](/docs/mcp-connector/) descrive gli strumenti attuali e l'autenticazione.
-
-Claude può creare le schede approvate, ma la programmazione dei ripassi con FSRS resta in Nibomo. Apri l'[app web](https://app.nibomo.com/) quando ci sono schede da ripassare, richiama la risposta a memoria, scoprila e registra lì il ripasso. Se preferisci evitare l'accesso tramite connettore, la copia manuale resta un metodo completo.
+Per configurare il collegamento, consulta la [guida passo passo al connettore per Claude](/blog/how-to-connect-flashcards-to-claude-with-mcp/) e la [documentazione del connettore MCP](/docs/mcp-connector/), entrambe in inglese. Se preferisci non collegare l’assistente, puoi continuare a copiare le schede manualmente.
 
 ## Dove Claude ha ancora bisogno di supervisione
 

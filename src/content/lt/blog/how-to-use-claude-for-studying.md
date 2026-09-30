@@ -2,7 +2,7 @@
 title: "Kaip naudoti Claude mokymuisi 2026 m.: praktinė eiga"
 description: "Mokykitės su Claude iš savo užrašų: atsakykite po vieną klausimą, tikrinkite pataisymus ir paverskite spragas kortelėmis, laikydamiesi kurso DI taisyklių."
 date: "2026-05-28"
-updated: "2026-09-14"
+updated: "2026-09-30"
 image: "/blog/how-to-use-claude-for-studying-v2.png"
 keywords:
   - "kaip naudoti Claude mokymuisi"
@@ -220,27 +220,11 @@ Visa kita atmeskite. Mokymasis su Claude gali būti naudingas ir nesukūrus nė 
 
 Paprasčiausias perkėlimas tinka bet kuriai mokymosi kortelių programėlei. Paprašykite Claude pateikti tik patvirtintas korteles paprastais priekinės ir galinės pusės teksto blokais, dar kartą jas patikrinkite ir nukopijuokite į įprastą kartojimo sistemą.
 
-Jei naudojate Nibomo, Claude taip pat gali išsaugoti patvirtintas korteles per nuotolinę pasirinktinę jungtį. Anthropic [dabartiniame pasirinktinių jungčių vadove](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp) nurodyta, kad nuotolinės jungtys prieinamos Free, Pro, Max, Team ir Enterprise planuose; nemokamo plano naudotojai gali pridėti vieną. Junkitės tik prie serverių, kuriais pasitikite, ir prieš patvirtindami peržiūrėkite duomenų įrašymo veiksmus.
+Jei naudojate Nibomo, prijunkite Claude per MCP – jungtį tarp asistento ir Nibomo. Tuomet galite paprašyti išsaugoti korteles, kurias peržiūrėjote ir patvirtinote. Prieš išsaugodami patikrinkite jų turinį ir išsaugojimo vietą.
 
-Nibomo MCP adresas:
+Atėjus laikui kartoti, galite naudoti [Nibomo žiniatinklio programėlę](https://app.nibomo.com/) arba pokalbį su Claude ar Codex, prijungtu prie Nibomo per MCP. Pokalbyje paprašykite pateikti po vieną klausimą: asistentas palaukia jūsų bandymo prieš parodydamas atsakymą, o tada Nibomo užregistruoja jūsų įvertinimą, kaip gerai atsiminėte atsakymą. Nibomo palaiko bendrą kartojimo tvarkaraštį, tad galite pereiti iš programėlės į pokalbį ir atvirkščiai.
 
-```text
-https://mcp.nibomo.com/mcp
-```
-
-Kortelėms išsaugoti jungtis pateikia `list_workspaces`, tik skaitymui skirtą `sql_query` ir `get_guide`, kuris pateikia kortelių kūrimo taisykles, taip pat rašymo įrankį `sql_execute`. Tiksliai apribokite perkėlimo apimtį:
-
-```text
-Nibomo jungtį naudok tik mano patvirtintoms kortelėms. Pirmiausia išvardyk mano
-darbo sritis ir paklausk, kurią naudoti. Prieš įrašydamas parodyk tikslų
-priekinių ir galinių pusių tekstą bei išsaugojimo vietą. Nieko nekurk, kol
-nepatvirtinsiu peržiūros. Įrašęs dar kartą nuskaityk išsaugotas korteles,
-kad galėčiau jas patikrinti.
-```
-
-[Išsamiame Claude jungties vadove](/blog/how-to-connect-flashcards-to-claude-with-mcp/) aprašyti nustatymas ir leidimai; mokymosi pokalbyje tų pačių nustatymo veiksmų kartoti nereikia. [MCP jungties dokumentacijoje](/docs/mcp-connector/) aprašyti dabartiniai įrankiai ir autentifikavimas.
-
-Claude gali sukurti patvirtintas korteles, tačiau FSRS kartojimo planavimas lieka Nibomo. Kai ateis laikas kartoti, atidarykite [žiniatinklio programėlę](https://app.nibomo.com/), prisiminkite atsakymą, jį atverskite ir užregistruokite kartojimą ten. Jei nenorite suteikti prieigos per jungtį, kopijavimas rankiniu būdu vis tiek leidžia atlikti visą procesą.
+Kaip prisijungti, paaiškinta [Claude prijungimo vadove](/blog/how-to-connect-flashcards-to-claude-with-mcp/) ir [MCP jungties dokumentacijoje](/docs/mcp-connector/); abu tekstai anglų kalba. Jei nenorite prijungti asistento, korteles ir toliau galite kopijuoti rankiniu būdu.
 
 ## Kur Claude vis dar reikia priežiūros
 
