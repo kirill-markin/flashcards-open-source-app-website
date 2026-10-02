@@ -112,7 +112,7 @@ To pause a direction while keeping it, [suspend that card separately from its si
 
 For an optional reverse you intend to remove, clearing **Add Reverse** makes an already generated reverse empty. It doesn't immediately delete that card. **Tools → Empty Cards** is a separate cleanup step with a list to inspect before deletion. [Anki's card-generation and deletion rules](https://docs.ankiweb.net/templates/generation.html#card-generation--deletion) explain why.
 
-The report covers the collection; the batch's Browse search doesn't limit it. Inspect all entries, including unrelated notes, before deciding to remove anything. The [cloze-number guide's empty-card section](/blog/anki-cloze-numbers/#after-renumbering-check-for-empty-cards) explains this scope using Anki's released cleanup implementation.
+The report covers the collection; the batch's Browse search doesn't limit it. Inspect all entries, including unrelated notes, before deciding to remove anything. The [cloze-number guide's empty-card section](/blog/anki-cloze-numbers/) explains this scope using Anki's released cleanup implementation.
 
 Don't use Browser **Delete** to remove one direction: it deletes the note and its cards. [Anki's note deletion action](https://docs.ankiweb.net/browsing.html#notes)
 
