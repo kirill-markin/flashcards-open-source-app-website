@@ -12,7 +12,7 @@ Trenger du hjelp med produktet eller kontoen, eller har du spørsmål om App Sto
 
 ## Sletting av konto
 
-I iOS-appen kan du slette den hostede kontoen din under `Settings > Account Settings > Danger Zone > Delete my account`. Hvis du trenger hjelp med dette, kan du kontakte brukerstøtte på e-post.
+I iOS-appen kan du slette den hostede kontoen din under `Settings > Delete Account > Delete my account`. Hvis du trenger hjelp med dette, kan du kontakte brukerstøtte på e-post.
 
 ## Åpen kildekode og tekniske henvendelser
 

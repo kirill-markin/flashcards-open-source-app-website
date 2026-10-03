@@ -12,7 +12,7 @@ Za podporo pri izdelku, pomoč z računom ali vprašanja o pregledu v App Store 
 
 ## Izbris računa
 
-V aplikaciji za iOS lahko svoj gostovani račun izbrišete v `Settings > Account Settings > Danger Zone > Delete my account`. Če pri tem potrebujete pomoč, se obrnite na podporo po e-pošti.
+V aplikaciji za iOS lahko svoj gostovani račun izbrišete v `Settings > Delete Account > Delete my account`. Če pri tem potrebujete pomoč, se obrnite na podporo po e-pošti.
 
 ## Odprta koda in tehnične prijave
 

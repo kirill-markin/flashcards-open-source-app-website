@@ -12,7 +12,7 @@ Para soporte del producto, ayuda con la cuenta o preguntas sobre reseñas del Ap
 
 ## Eliminacion de cuenta
 
-En la app iOS puedes borrar tu cuenta alojada desde `Settings > Account Settings > Danger Zone > Delete my account`. Si necesitas ayuda con ese flujo, contacta con soporte por correo.
+En la app iOS puedes borrar tu cuenta alojada desde `Settings > Delete Account > Delete my account`. Si necesitas ayuda con ese flujo, contacta con soporte por correo.
 
 ## Codigo abierto e informes tecnicos
 

@@ -12,7 +12,7 @@ Pokud potřebujete podporu k produktu nebo pomoc s účtem, případně máte do
 
 ## Smazání účtu
 
-V aplikaci pro iOS můžete svůj hostovaný účet smazat v `Settings > Account Settings > Danger Zone > Delete my account`. Pokud s tímto postupem potřebujete pomoct, obraťte se e-mailem na podporu.
+V aplikaci pro iOS můžete svůj hostovaný účet smazat v `Settings > Delete Account > Delete my account`. Pokud s tímto postupem potřebujete pomoct, obraťte se e-mailem na podporu.
 
 ## Otevřený zdrojový kód a technická hlášení
 

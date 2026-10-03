@@ -12,7 +12,7 @@ Ukuze uthole usizo ngomkhiqizo, usizo nge-akhawunti, noma ngemibuzo emayelana no
 
 ## Ukususa i-akhawunti
 
-Ohlelweni lwe-iOS, ungasusa i-akhawunti yakho esingathiwe ku-`Settings > Account Settings > Danger Zone > Delete my account`. Uma udinga usizo ngaleyo nqubo, xhumana nosizo nge-imeyili.
+Ohlelweni lwe-iOS, ungasusa i-akhawunti yakho esingathiwe ku-`Settings > Delete Account > Delete my account`. Uma udinga usizo ngaleyo nqubo, xhumana nosizo nge-imeyili.
 
 ## Umthombo ovulekile nemibiko yobuchwepheshe
 

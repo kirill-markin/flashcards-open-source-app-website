@@ -12,7 +12,7 @@ Za podršku pri korištenju proizvoda, pomoć s računom ili pitanja o pregledu 
 
 ## Brisanje računa
 
-U iOS aplikaciji svoj hostirani račun možete izbrisati putem `Settings > Account Settings > Danger Zone > Delete my account`. Ako vam treba pomoć s tim postupkom, obratite se podršci e-poštom.
+U iOS aplikaciji svoj hostirani račun možete izbrisati putem `Settings > Delete Account > Delete my account`. Ako vam treba pomoć s tim postupkom, obratite se podršci e-poštom.
 
 ## Otvoreni kod i tehničke prijave
 

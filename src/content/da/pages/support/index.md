@@ -12,7 +12,7 @@ Har du brug for produktsupport eller hjælp til din konto, eller har du spørgsm
 
 ## Sletning af konto
 
-I iOS-appen kan du slette din hostede konto under `Settings > Account Settings > Danger Zone > Delete my account`. Hvis du har brug for hjælp til det, kan du kontakte supporten på e-mail.
+I iOS-appen kan du slette din hostede konto under `Settings > Delete Account > Delete my account`. Hvis du har brug for hjælp til det, kan du kontakte supporten på e-mail.
 
 ## Open source og tekniske rapporter
 

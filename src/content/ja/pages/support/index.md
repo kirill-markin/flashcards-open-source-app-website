@@ -12,7 +12,7 @@ sections:
 
 ## アカウント削除
 
-iOS アプリでは、`Settings > Account Settings > Danger Zone > Delete my account` からホスト型アカウントを削除できます。この手順でサポートが必要な場合は、メールでお問い合わせください。
+iOS アプリでは、`Settings > Delete Account > Delete my account` からホスト型アカウントを削除できます。この手順でサポートが必要な場合は、メールでお問い合わせください。
 
 ## オープンソース関連・技術的なご報告
 

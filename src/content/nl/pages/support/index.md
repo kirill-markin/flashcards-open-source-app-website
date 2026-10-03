@@ -12,7 +12,7 @@ Mail voor productsupport, hulp bij je account of vragen rond de App Store-review
 
 ## Account verwijderen
 
-In de iOS-app kun je je gehoste account verwijderen via `Settings > Account Settings > Danger Zone > Delete my account`. Heb je daarbij hulp nodig, neem dan per e-mail contact op met support.
+In de iOS-app kun je je gehoste account verwijderen via `Settings > Delete Account > Delete my account`. Heb je daarbij hulp nodig, neem dan per e-mail contact op met support.
 
 ## Open source en technische meldingen
 

@@ -12,7 +12,7 @@ Terméktámogatásért, a fiókoddal kapcsolatos segítségért vagy az App Stor
 
 ## Fiók törlése
 
-Az iOS-alkalmazásban a felhős fiókodat a `Settings > Account Settings > Danger Zone > Delete my account` menüpontban törölheted. Ha ehhez segítség kell, írj e-mailt a támogatásnak.
+Az iOS-alkalmazásban a felhős fiókodat a `Settings > Delete Account > Delete my account` menüpontban törölheted. Ha ehhez segítség kell, írj e-mailt a támogatásnak.
 
 ## Nyílt forráskód és technikai bejelentések
 

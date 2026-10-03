@@ -12,7 +12,7 @@ Ja tev vajadzīgs atbalsts produkta lietošanā, palīdzība ar kontu vai ir jau
 
 ## Konta dzēšana
 
-iOS lietotnē mitināto kontu vari izdzēst sadaļā `Settings > Account Settings > Danger Zone > Delete my account`. Ja šajā procesā vajadzīga palīdzība, sazinies ar atbalstu pa e-pastu.
+iOS lietotnē mitināto kontu vari izdzēst sadaļā `Settings > Delete Account > Delete my account`. Ja šajā procesā vajadzīga palīdzība, sazinies ar atbalstu pa e-pastu.
 
 ## Atvērtais pirmkods un tehniskie ziņojumi
 
