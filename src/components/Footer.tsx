@@ -32,6 +32,7 @@ export const Footer: React.FC<FooterProps> = ({
   const storeQrCodes = readGeneratedStoreQrCodes(process.cwd());
   const uiCopy = getUiCopy(locale);
   const sourceCodeHref = "https://github.com/kirill-markin/flashcards-open-source-app";
+  const smitheryHref = "https://smithery.ai/servers/kirill-fofi/nibomo";
   const productLinks = [
     {
       href: getAvailableLocalizedPathname(locale, "/features/"),
@@ -93,6 +94,12 @@ export const Footer: React.FC<FooterProps> = ({
                 {directory.name} MCP
               </a>
             ))}
+            <a
+              href={smitheryHref}
+              {...getExternalLinkAttributes(smitheryHref)}
+            >
+              Smithery MCP
+            </a>
             {platforms.map((platform) => {
               if (platform.kind === "active") {
                 if (platform.analytics.kind === "store") {
