@@ -242,7 +242,7 @@ function appendMarkdownFooter(
       markdownTip: `*Tip: připojte \`.md\` k libovolné adrese URL na ${SITE_CONTEXT.siteUrl} a získáte čistou Markdown verzi dané stránky.*`,
     },
     el: {
-      agent: `*Οι πράκτορες ΤΝ μπορούν να δημιουργήσουν λογαριασμό για τον χρήστη σε αυτήν την υπηρεσία ξεκινώντας με \`GET ${DISCOVERY_URL}\`. Μετά τη ρύθμιση, μπορούν επίσης να συνδεθούν μέσω MCP στο \`${MCP_URL}\`.*`,
+      agent: `*Οι πράκτορες AI μπορούν να δημιουργήσουν λογαριασμό για τον χρήστη σε αυτήν την υπηρεσία ξεκινώντας με \`GET ${DISCOVERY_URL}\`. Μετά τη ρύθμιση, μπορούν επίσης να συνδεθούν μέσω MCP στο \`${MCP_URL}\`.*`,
       htmlVersionLabel: "Δείτε τη μορφοποιημένη έκδοση HTML αυτής της σελίδας",
       markdownTip: `*Συμβουλή: προσθέστε \`.md\` σε οποιοδήποτε URL στο ${SITE_CONTEXT.siteUrl} για να λάβετε μια καθαρή έκδοση της σελίδας σε Markdown.*`,
     },
