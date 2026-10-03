@@ -38,6 +38,16 @@ Les fonctions d'IA hébergées sont facultatives et utilisent OpenAI. La télém
 
 Lorsque vous autorisez un client IA externe à utiliser le service MCP ou l'API Agent, ce client et son fournisseur de modèle traitent les données que vous demandez selon leurs propres conditions. Nous ne sommes pas responsables du fonctionnement ni des résultats d'un client externe.
 
+## Abonnements Stripe
+
+Lorsque le paiement Stripe est disponible, Nibomo Premium est proposé au prix de base de 6,99 USD par mois, taxes applicables comprises. Stripe Adaptive Pricing peut afficher un prix en devise locale ; Stripe indique le montant final et la devise de facturation avant votre confirmation. L'achat nécessite une connexion à un compte avec une adresse e-mail ; les invités doivent d'abord associer une adresse e-mail.
+
+Les clients Stripe éligibles bénéficient d'un essai gratuit de sept jours nécessitant un moyen de paiement. L'essai est disponible une fois par client Stripe ; les essais Apple ou Google antérieurs n'affectent pas l'éligibilité. Sans résiliation avant la fin de l'essai, votre moyen de paiement est débité du montant de l'abonnement mensuel. Celui-ci se renouvelle ensuite automatiquement chaque mois jusqu'à sa résiliation. Les rappels d'essai indiquent le prix de base mensuel ; Stripe affiche le montant final à payer dans la devise de facturation.
+
+Utilisez les [paramètres d'abonnement](https://app.nibomo.com/settings/subscription) pour ouvrir le portail de facturation Stripe et gérer ou résilier votre abonnement. Une résiliation ordinaire prend effet à la fin de la période d'essai ou de paiement en cours ; l'accès se poursuit jusque-là. Un achat Stripe ne résilie aucun abonnement Apple ou Google distinct et ne remplace pas un accès à vie existant.
+
+La suppression de votre compte Nibomo depuis tout client pris en charge annule, avant l'effacement, les futurs renouvellements de tous les abonnements Nibomo Stripe liés à ce compte et ferme les sessions de paiement Nibomo ouvertes. Si la résiliation ne peut pas être confirmée, la suppression n'aboutit pas ; réessayez ou contactez l'assistance. La suppression du compte ne résilie pas les abonnements Apple ou Google. La résiliation et la suppression du compte ne déclenchent pas automatiquement de remboursement ni d'avoir au prorata. Ces Conditions ne limitent aucun droit impératif des consommateurs, notamment les droits de rétractation ou de remboursement applicables.
+
 ## Disponibilité et modifications
 
 La bêta hébergée est fournie au mieux et peut changer, être suspendue ou être arrêtée sans préavis. Nous ne garantissons ni une disponibilité ininterrompue, ni la conservation de chaque copie locale ou hébergée, ni le maintien de chaque fonctionnalité. Gardez une copie indépendante des contenus que vous ne pouvez pas vous permettre de perdre.
