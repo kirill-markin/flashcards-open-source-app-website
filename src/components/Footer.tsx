@@ -89,17 +89,6 @@ export const Footer: React.FC<FooterProps> = ({
           </div>
           <div className={styles.column}>
             <h3>{uiCopy.footer.appsHeading}</h3>
-            {CONNECTOR_DIRECTORIES.map((directory) => (
-              <a key={directory.href} href={directory.href} {...getExternalLinkAttributes(directory.href)}>
-                {directory.name} MCP
-              </a>
-            ))}
-            <a
-              href={smitheryHref}
-              {...getExternalLinkAttributes(smitheryHref)}
-            >
-              Smithery MCP
-            </a>
             {platforms.map((platform) => {
               if (platform.kind === "active") {
                 if (platform.analytics.kind === "store") {
@@ -139,6 +128,20 @@ export const Footer: React.FC<FooterProps> = ({
                 </span>
               );
             })}
+          </div>
+          <div className={styles.column}>
+            <h3>{uiCopy.footer.mcpsAndPluginsHeading}</h3>
+            {CONNECTOR_DIRECTORIES.map((directory) => (
+              <a key={directory.href} href={directory.href} {...getExternalLinkAttributes(directory.href)}>
+                {directory.name} MCP
+              </a>
+            ))}
+            <a
+              href={smitheryHref}
+              {...getExternalLinkAttributes(smitheryHref)}
+            >
+              Smithery MCP
+            </a>
           </div>
           <div className={styles.column}>
             <h3>{uiCopy.footer.legalHeading}</h3>
