@@ -38,6 +38,16 @@ Hosted AI features are optional and use OpenAI. Related AI telemetry is processe
 
 When you authorize an external AI client to use the MCP service or Agent API, that client and its model provider process the data you request under their own terms. We are not responsible for an external client's operation or output.
 
+## Stripe Subscriptions
+
+When Stripe checkout is available, Nibomo Premium is offered at a base price of USD 6.99 per month, including applicable taxes. Stripe Adaptive Pricing may present a local currency price; Stripe shows the final amount and billing currency before you confirm. Purchasing requires a signed-in account with an email address; guests must link an email first.
+
+Eligible Stripe customers receive a seven-day free trial with a payment method required. The trial is available once per Stripe customer; previous Apple or Google trials do not affect eligibility. Unless you cancel before the trial ends, your payment method is charged for the monthly subscription. It then renews automatically each month until canceled. Trial reminders state the monthly base price; Stripe shows the final charge in the billing currency.
+
+Use [Subscription settings](https://app.nibomo.com/settings/subscription) to open Stripe's billing portal and manage or cancel your subscription. Ordinary cancellation takes effect at the end of the current trial or paid period; access continues until then. A Stripe purchase does not cancel any separate Apple or Google subscription or replace existing lifetime access.
+
+Deleting your Nibomo account from any supported client cancels future renewals of all Nibomo Stripe subscriptions linked to that account and closes open Nibomo checkout sessions before erasure. If cancellation cannot be confirmed, deletion does not complete; retry or contact support. Account deletion does not cancel Apple or Google subscriptions. Cancellation and account deletion do not automatically issue a refund or prorated credit. Nothing in these Terms limits mandatory consumer rights, including any applicable withdrawal or refund rights.
+
 ## Availability and Changes
 
 The hosted beta is provided on a best-effort basis and may change, pause, or be discontinued without notice. We do not guarantee uninterrupted availability, preservation of every local or hosted copy, or that every feature will remain available. Keep an independent copy of content you cannot afford to lose.
