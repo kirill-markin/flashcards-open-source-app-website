@@ -44,6 +44,12 @@ Apple processes payments for App Store purchases; we do not receive your card or
 
 We use these records to verify purchases, provide and restore paid access, handle support, reconcile transactions, maintain accounting records, and analyze product use. Server-side billing records are maintained even when you turn off product analytics in the app.
 
+## Google Play Purchases and Subscriptions
+
+Google processes payments for Google Play purchases; we do not receive your card or bank details through Google billing. We receive and store purchase records, including transaction and product identifiers, purchase tokens and an opaque account identifier linking the purchase to your account, subscription and trial status, renewal and refund information, and relevant dates.
+
+We use these records to verify purchases, provide and restore paid access, handle support, reconcile transactions, maintain accounting records, and analyze product use. Server-side billing records are maintained even when you turn off product analytics in the app. This includes server-recorded billing events.
+
 ## Analytics and Cookies
 
 The marketing website uses Vercel Web Analytics to measure page views and selected site click events. That service operates without analytics cookies, but the website sets one of its own, described below. For page views, Vercel can receive the event time, page URL and filtered query parameters, referrer, approximate location, browser, operating system, and device type. Our custom click events include limited properties such as locale, platform, link placement, or interaction type. We do not intentionally include names, email addresses, card content, or account identifiers in these events. Vercel aggregates the data and does not associate a data point with an individual or IP address; its daily visitor hash is discarded after 24 hours. When your browser exposes Global Privacy Control, the website sends nothing to Vercel Web Analytics at all.
@@ -96,6 +102,7 @@ We use the following service-provider categories for the hosted service:
 
 - Amazon Web Services (AWS) for hosting, Cognito authentication, Postgres, file storage, backups, and operational logs;
 - Apple for App Store payments, purchase verification, and subscription notifications;
+- Google for Google Play payments, purchase verification, and subscription notifications;
 - Resend for transactional authentication emails;
 - OpenAI for optional hosted AI requests;
 - Langfuse Cloud for hosted AI observability;
@@ -113,6 +120,7 @@ The primary hosted application runs in AWS's EU infrastructure. The configured R
 
 - Account and hosted workspace data are kept while your account or the relevant shared workspace remains active. Account deletion removes your current account data, credentials, memberships, and sole-member workspaces from the live database. Content in a workspace that still has other members remains available to those members.
 - Apple billing history remains after account deletion for accounting, reconciliation, and legal claims. We replace internal user identifiers with pseudonymous values and clear stored Apple notification payloads attributable to the deleted account. Necessary purchase and Apple account-attribution identifiers remain; Apple can still link them to you, so this is not full anonymization. Deleting your Nibomo account does not cancel your Apple subscription; manage or cancel it through Apple.
+- Google billing history remains after account deletion for accounting, reconciliation, and legal claims. We replace internal user identifiers with pseudonymous values and clear stored Google notification payloads attributable to the deleted account. Necessary purchase tokens and account-attribution identifiers remain; Google can still link them to you, so this is not full anonymization. Deleting your Nibomo account does not cancel your Google Play subscription; manage or cancel it through [Google Play](https://play.google.com/store/account/subscriptions).
 - Product analytics events remain after account deletion. For events linked to your account and linked guest identities, we replace account identifiers with a random value, remove identity links, and clear installation, session, workspace, request, device-model, operating-system, device-language, interface-language, timezone, and country fields. Associated installation profiles and their country history are deleted. This describes identifier removal, not a guarantee that retained events are anonymous in every context.
 - Account deletion also expires the `analytics_visitor` cookie in the browser the deletion is performed from and resets that browser's analytics session identifier. That browser then continues as a new anonymous visitor under a new identifier unconnected to the previous one, where your analytics choice allows it. This covers that browser only; it does not reach a copy held by another browser or another device, and a browser that blocks the write or is closed before it runs keeps the old identifier until it expires on its own. It also does not change events already collected: events recorded while you were signed out and never linked to your account keep the identifier they were recorded with, and the identity-link removal described above is what stops that identifier resolving back to you.
 - Detailed country periods are excluded from audience reads once their last observation is older than 90 days. Daily cleanup deletes them; physical deletion can lag until a cleanup run succeeds. An unchanged period can start earlier than 90 days, but it is not a daily location record. The first known country is kept separately for the lifetime of the installation profile, until that profile is deleted.
