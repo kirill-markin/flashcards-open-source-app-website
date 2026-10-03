@@ -231,7 +231,7 @@ Nibomo manté un calendari de repassos compartit: tant si repasses a l'aplicaci�
 
 > [Connecta amb Claude](https://claude.ai/directory/nibomo) · [Documentació](/docs/mcp-connector/)
 
-Per configurar la connexió, consulta la [guia del connector de Claude](/blog/how-to-connect-flashcards-to-claude-with-mcp/) i la [referència del connector MCP](/docs/mcp-connector/), totes dues en anglès. Si prefereixes no connectar l'assistent, pots continuar copiant les targetes manualment.
+Per configurar la connexió, consulta la [guia del connector de Claude](/blog/how-to-connect-flashcards-to-claude-with-mcp/), en anglès, i la [referència del connector MCP](/docs/mcp-connector/). Si prefereixes no connectar l'assistent, pots continuar copiant les targetes manualment.
 
 ## En què Claude encara necessita supervisió
 

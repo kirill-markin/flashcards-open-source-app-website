@@ -277,7 +277,7 @@ Fortsätt öva på detta utanför kortleken:
 
 [Nibomo](/sv/features/) stöder vanliga kort med fram- och baksida, kortlekar, taggar och schemalagda repetitioner med FSRS och omdömena `Again`, `Hard`, `Good` och `Easy`. Du kan installera kortleken med 118 grundämnen eller göra en mindre som passar din kurs.
 
-AI-chatt och bifogade filer kan hjälpa dig att ta fram kortförslag utifrån en tabell från undervisningen eller en lista över fel. Kontrollera varje namn, kemiskt tecken, atomnummer, storhetsbeteckning och avrundningsregel mot den källa din kurs använder innan du sparar. Appen har ingen särskild kemigranskning och blandar inte automatiskt ämnesområden åt dig. [Kom igång-guiden](/docs/getting-started/) (på engelska) beskriver hur du skapar kort och börjar repetera dem som är schemalagda.
+AI-chatt och bifogade filer kan hjälpa dig att ta fram kortförslag utifrån en tabell från undervisningen eller en lista över fel. Kontrollera varje namn, kemiskt tecken, atomnummer, storhetsbeteckning och avrundningsregel mot den källa din kurs använder innan du sparar. Appen har ingen särskild kemigranskning och blandar inte automatiskt ämnesområden åt dig. [Kom igång-guiden](/docs/getting-started/) beskriver hur du skapar kort och börjar repetera dem som är schemalagda.
 
 ## Vanliga frågor om periodiska systemet
 

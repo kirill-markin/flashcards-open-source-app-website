@@ -277,7 +277,7 @@ La [guia de targetes per a química avançada](/blog/how-to-use-flashcards-for-a
 
 [Nibomo](/ca/features/) ofereix targetes d'anvers i revers, baralles, etiquetes i repassos programats amb FSRS, amb les valoracions `Again`, `Hard`, `Good` i `Easy`. Pots instal·lar la baralla dels 118 elements o crear-ne una de més petita que s'ajusti al curs.
 
-El xat amb IA i els fitxers adjunts et poden ajudar a preparar propostes de targetes a partir d'una taula de classe o d'una llista d'errors. Abans de desar-les, contrasta cada nom, símbol, nombre atòmic, etiqueta de propietat i regla d'arrodoniment amb la font que regeix el curs. L'aplicació no té un verificador específic de química ni intercala els temes automàticament. La [guia de primers passos](/docs/getting-started/), en anglès, explica com crear targetes i començar els repassos pendents.
+El xat amb IA i els fitxers adjunts et poden ajudar a preparar propostes de targetes a partir d'una taula de classe o d'una llista d'errors. Abans de desar-les, contrasta cada nom, símbol, nombre atòmic, etiqueta de propietat i regla d'arrodoniment amb la font que regeix el curs. L'aplicació no té un verificador específic de química ni intercala els temes automàticament. La [guia de primers passos](/docs/getting-started/) explica com crear targetes i començar els repassos pendents.
 
 ## Preguntes freqüents sobre la taula periòdica
 

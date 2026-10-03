@@ -228,7 +228,7 @@ Nibomo giữ chung một lịch ôn tập cho cả ứng dụng và các cuộc 
 
 > [Kết nối với Claude](https://claude.ai/directory/nibomo) · [Tài liệu](/docs/mcp-connector/)
 
-Bạn có thể thiết lập theo [hướng dẫn kết nối Claude](/blog/how-to-connect-flashcards-to-claude-with-mcp/) và [tài liệu trình kết nối MCP](/docs/mcp-connector/), đều bằng tiếng Anh. Nếu không muốn thiết lập kết nối, sao chép thủ công vẫn là một lựa chọn đầy đủ.
+Bạn có thể thiết lập theo [hướng dẫn kết nối Claude](/blog/how-to-connect-flashcards-to-claude-with-mcp/) (bằng tiếng Anh) và [tài liệu trình kết nối MCP](/docs/mcp-connector/). Nếu không muốn thiết lập kết nối, sao chép thủ công vẫn là một lựa chọn đầy đủ.
 
 ## Những chỗ Claude vẫn cần được giám sát
 

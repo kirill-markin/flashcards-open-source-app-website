@@ -226,7 +226,7 @@ Nibomo מנהל לוח זמנים משותף לחזרות באפליקציה ו�
 
 > [התחברות ל־Claude](https://claude.ai/directory/nibomo) · [תיעוד](/docs/mcp-connector/)
 
-להגדרת החיבור, היעזרו ב[מדריך לחיבור Claude](/blog/how-to-connect-flashcards-to-claude-with-mcp/) וב[תיעוד מחבר ה-MCP](/docs/mcp-connector/), שניהם באנגלית. אם אינכם רוצים להגדיר חיבור, העתקה ידנית נשארת אפשרות מלאה בפני עצמה.
+להגדרת החיבור, היעזרו ב[מדריך לחיבור Claude](/blog/how-to-connect-flashcards-to-claude-with-mcp/) (באנגלית) וב[תיעוד מחבר ה-MCP](/docs/mcp-connector/). אם אינכם רוצים להגדיר חיבור, העתקה ידנית נשארת אפשרות מלאה בפני עצמה.
 
 ## איפה Claude עדיין דורש פיקוח
 

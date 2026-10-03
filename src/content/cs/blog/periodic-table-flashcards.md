@@ -277,7 +277,7 @@ Anglický [průvodce kartičkami pro pokročilou chemii](/blog/how-to-use-flashc
 
 [Nibomo](/cs/features/) podporuje běžné oboustranné kartičky, balíčky, štítky a opakování plánované pomocí FSRS s hodnocením `Again`, `Hard`, `Good` a `Easy`. Můžete si přidat balíček všech 118 prvků nebo vytvořit menší podle požadavků své výuky.
 
-Chat s AI a přílohy mohou pomoci navrhnout kartičky z tabulky z výuky nebo ze seznamu chyb. Před uložením ověřte každý název, značku, protonové číslo, označení veličiny a pravidlo zaokrouhlování podle zdroje, který je pro vaši výuku závazný. Aplikace nemá specializovaný nástroj na ověřování chemických údajů a témata za vás automaticky nestřídá. Tvorbu kartiček a zahájení plánovaného opakování popisuje anglický [průvodce prvními kroky](/docs/getting-started/).
+Chat s AI a přílohy mohou pomoci navrhnout kartičky z tabulky z výuky nebo ze seznamu chyb. Před uložením ověřte každý název, značku, protonové číslo, označení veličiny a pravidlo zaokrouhlování podle zdroje, který je pro vaši výuku závazný. Aplikace nemá specializovaný nástroj na ověřování chemických údajů a témata za vás automaticky nestřídá. Tvorbu kartiček a zahájení plánovaného opakování popisuje [průvodce prvními kroky](/docs/getting-started/).
 
 ## Časté otázky k periodické tabulce
 

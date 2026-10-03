@@ -225,7 +225,7 @@ Až nastane čas opakování, můžete použít [webovou aplikaci](https://app.n
 
 > [Připojit k Claude](https://claude.ai/directory/nibomo) · [Dokumentace](/docs/mcp-connector/)
 
-S propojením vám pomůže [návod pro Claude](/blog/how-to-connect-flashcards-to-claude-with-mcp/) a [dokumentace konektoru MCP](/docs/mcp-connector/). Oba texty jsou v angličtině. Pokud vám lépe vyhovuje ruční kopírování, můžete u něj zůstat.
+S propojením vám pomůže [návod pro Claude](/blog/how-to-connect-flashcards-to-claude-with-mcp/) (v angličtině) a [dokumentace konektoru MCP](/docs/mcp-connector/). Pokud vám lépe vyhovuje ruční kopírování, můžete u něj zůstat.
 
 ## Kde Claude stále potřebuje dohled
 

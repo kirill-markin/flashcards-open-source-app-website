@@ -228,7 +228,7 @@ Kun on korttien kertauksen aika, voit käyttää [verkkosovellusta](https://app.
 
 > [Yhdistä palveluun Claude](https://claude.ai/directory/nibomo) · [Dokumentaatio](/docs/mcp-connector/)
 
-Yhteyden käyttöönottoon saat apua [Claude-liittimen ohjeesta](/blog/how-to-connect-flashcards-to-claude-with-mcp/) ja [MCP-liittimen dokumentaatiosta](/docs/mcp-connector/). Molemmat ovat englanniksi. Voit myös jatkaa korttien kopioimista käsin, jos se sopii sinulle paremmin.
+Yhteyden käyttöönottoon saat apua [Claude-liittimen ohjeesta](/blog/how-to-connect-flashcards-to-claude-with-mcp/) (englanniksi) ja [MCP-liittimen dokumentaatiosta](/docs/mcp-connector/). Voit myös jatkaa korttien kopioimista käsin, jos se sopii sinulle paremmin.
 
 ## Missä Claude tarvitsee edelleen valvontaa
 

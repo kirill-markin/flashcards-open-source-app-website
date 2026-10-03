@@ -228,7 +228,7 @@ Unaweza kurudia kadi kwenye [programu ya wavuti](https://app.nibomo.com/) au kwe
 
 > [Unganisha na Claude](https://claude.ai/directory/nibomo) · [Nyaraka](/docs/mcp-connector/)
 
-Kwa hatua za kuunganisha, angalia [mwongozo wa kiunganishi cha Claude](/blog/how-to-connect-flashcards-to-claude-with-mcp/) na [marejeo ya kiunganishi cha MCP](/docs/mcp-connector/); yote mawili yako kwa Kiingereza. Ikiwa hutaki kutumia kiunganishi, kunakili mwenyewe bado ni utaratibu kamili.
+Kwa hatua za kuunganisha, angalia [mwongozo wa kiunganishi cha Claude](/blog/how-to-connect-flashcards-to-claude-with-mcp/) (kwa Kiingereza) na [marejeo ya kiunganishi cha MCP](/docs/mcp-connector/). Ikiwa hutaki kutumia kiunganishi, kunakili mwenyewe bado ni utaratibu kamili.
 
 ## Claude bado inahitaji usimamizi katika maeneo gani?
 

@@ -277,7 +277,7 @@ Zunaj zbirke še naprej vadite naslednje:
 
 [Nibomo](/sl/features/) podpira običajne kartice s sprednjo in zadnjo stranjo, zbirke, oznake in ponavljanje po razporedu FSRS z ocenami `Again`, `Hard`, `Good` in `Easy`. Namestite lahko zbirko za vseh 118 elementov ali pripravite manjšo zbirko, ki ustreza vašemu predmetu.
 
-Klepet z umetno inteligenco in pripete datoteke lahko pomagajo pripraviti osnutke kartic iz tabele pri pouku ali seznama napak. Pred shranjevanjem preverite vsako ime, simbol, vrstno število, oznako veličine in pravilo zaokroževanja glede na predpisani vir. Aplikacija nima namenskega preverjevalnika za kemijo in ne prepleta tem samodejno. [Vodnik za začetek uporabe](/docs/getting-started/) v angleščini pojasnjuje ustvarjanje kartic in začetek ponavljanja kartic, ki so na vrsti.
+Klepet z umetno inteligenco in pripete datoteke lahko pomagajo pripraviti osnutke kartic iz tabele pri pouku ali seznama napak. Pred shranjevanjem preverite vsako ime, simbol, vrstno število, oznako veličine in pravilo zaokroževanja glede na predpisani vir. Aplikacija nima namenskega preverjevalnika za kemijo in ne prepleta tem samodejno. [Vodnik za začetek uporabe](/docs/getting-started/) pojasnjuje ustvarjanje kartic in začetek ponavljanja kartic, ki so na vrsti.
 
 ## Pogosta vprašanja o periodnem sistemu
 

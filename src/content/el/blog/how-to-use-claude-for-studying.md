@@ -227,7 +227,7 @@ keywords:
 
 > [Σύνδεση με το Claude](https://claude.ai/directory/nibomo) · [Τεκμηρίωση](/docs/mcp-connector/)
 
-Για τη σύνδεση, δες τον [οδηγό για το Claude](/blog/how-to-connect-flashcards-to-claude-with-mcp/) και την [τεκμηρίωση του MCP connector](/docs/mcp-connector/). Και τα δύο κείμενα είναι στα αγγλικά. Η χειροκίνητη αντιγραφή παραμένει διαθέσιμη, αν σε βολεύει περισσότερο.
+Για τη σύνδεση, δες τον [οδηγό για το Claude](/blog/how-to-connect-flashcards-to-claude-with-mcp/) (στα αγγλικά) και την [τεκμηρίωση του MCP connector](/docs/mcp-connector/). Η χειροκίνητη αντιγραφή παραμένει διαθέσιμη, αν σε βολεύει περισσότερο.
 
 ## Πού το Claude εξακολουθεί να χρειάζεται επίβλεψη
 
