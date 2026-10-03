@@ -4,7 +4,7 @@ description: Privacy policy for Nibomo.
 slug: privacy
 sections:
   - type: legal_page
-    lastUpdated: September 2026
+    lastUpdated: October 2026
 ---
 ## Operator and Scope
 
@@ -37,6 +37,12 @@ We process account, workspace, review, file, and requested AI data as necessary 
 We process limited analytics, security, diagnostic, and service-improvement data for our legitimate interests in understanding use, preventing abuse, keeping the service secure, and fixing failures. We balance those interests against your rights and minimize or redact diagnostic data where practical. We may also process data when necessary to comply with a legal obligation or to establish, exercise, or defend legal claims. Where applicable law requires consent for a specific activity, we will rely on consent and you may withdraw it at any time.
 
 We do not sell your personal data or use it for targeted advertising.
+
+## Apple Purchases and Subscriptions
+
+Apple processes payments for App Store purchases; we do not receive your card or bank details through Apple billing. We receive and store purchase records, including transaction and product identifiers, an app account token linking the purchase to your account, subscription and trial status, renewal and refund information, and relevant dates.
+
+We use these records to verify purchases, provide and restore paid access, handle support, reconcile transactions, maintain accounting records, and analyze product use. Server-side billing records are maintained even when you turn off product analytics in the app.
 
 ## Analytics and Cookies
 
@@ -89,6 +95,7 @@ When you connect Nibomo to an external AI client through the remote MCP service 
 We use the following service-provider categories for the hosted service:
 
 - Amazon Web Services (AWS) for hosting, Cognito authentication, Postgres, file storage, backups, and operational logs;
+- Apple for App Store payments, purchase verification, and subscription notifications;
 - Resend for transactional authentication emails;
 - OpenAI for optional hosted AI requests;
 - Langfuse Cloud for hosted AI observability;
@@ -105,6 +112,7 @@ The primary hosted application runs in AWS's EU infrastructure. The configured R
 ## Retention and Deletion
 
 - Account and hosted workspace data are kept while your account or the relevant shared workspace remains active. Account deletion removes your current account data, credentials, memberships, and sole-member workspaces from the live database. Content in a workspace that still has other members remains available to those members.
+- Apple billing history remains after account deletion for accounting, reconciliation, and legal claims. We replace internal user identifiers with pseudonymous values and clear stored Apple notification payloads attributable to the deleted account. Necessary purchase and Apple account-attribution identifiers remain; Apple can still link them to you, so this is not full anonymization. Deleting your Nibomo account does not cancel your Apple subscription; manage or cancel it through Apple.
 - Product analytics events remain after account deletion. For events linked to your account and linked guest identities, we replace account identifiers with a random value, remove identity links, and clear installation, session, workspace, request, device-model, operating-system, device-language, interface-language, timezone, and country fields. Associated installation profiles and their country history are deleted. This describes identifier removal, not a guarantee that retained events are anonymous in every context.
 - Account deletion also expires the `analytics_visitor` cookie in the browser the deletion is performed from and resets that browser's analytics session identifier. That browser then continues as a new anonymous visitor under a new identifier unconnected to the previous one, where your analytics choice allows it. This covers that browser only; it does not reach a copy held by another browser or another device, and a browser that blocks the write or is closed before it runs keeps the old identifier until it expires on its own. It also does not change events already collected: events recorded while you were signed out and never linked to your account keep the identifier they were recorded with, and the identity-link removal described above is what stops that identifier resolving back to you.
 - Detailed country periods are excluded from audience reads once their last observation is older than 90 days. Daily cleanup deletes them; physical deletion can lag until a cleanup run succeeds. An unchanged period can start earlier than 90 days, but it is not a daily location record. The first known country is kept separately for the lifetime of the installation profile, until that profile is deleted.

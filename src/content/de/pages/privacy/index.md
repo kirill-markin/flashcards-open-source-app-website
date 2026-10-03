@@ -4,7 +4,7 @@ description: Datenschutzerklärung für Nibomo.
 slug: privacy
 sections:
   - type: legal_page
-    lastUpdated: September 2026
+    lastUpdated: Oktober 2026
 ---
 ## Verantwortlicher und Geltungsbereich
 
@@ -37,6 +37,12 @@ Wir verarbeiten Konto-, Workspace-, Wiederholungs-, Datei- und angeforderte KI-D
 Begrenzte Analyse-, Sicherheits-, Diagnose- und Verbesserungsdaten verarbeiten wir auf Grundlage unserer berechtigten Interessen, die Nutzung zu verstehen, Missbrauch zu verhindern, den Dienst zu schützen und Fehler zu beheben. Dabei wägen wir diese Interessen gegen Ihre Rechte ab und minimieren oder bereinigen Diagnosedaten, soweit dies praktikabel ist. Daten können außerdem zur Erfüllung gesetzlicher Pflichten oder zur Begründung, Ausübung oder Verteidigung von Rechtsansprüchen verarbeitet werden. Soweit das anwendbare Recht für eine bestimmte Tätigkeit eine Einwilligung verlangt, stützen wir uns darauf; sie kann jederzeit widerrufen werden.
 
 Wir verkaufen keine personenbezogenen Daten und nutzen sie nicht für zielgerichtete Werbung.
+
+## Apple-Käufe und Abonnements
+
+Apple wickelt Zahlungen für Käufe im App Store ab; über die Apple-Abrechnung erhalten wir keine Karten- oder Bankdaten von Ihnen. Wir erhalten und speichern Kaufdaten, darunter Transaktions- und Produktkennungen, ein App-Kontotoken zur Zuordnung des Kaufs zu Ihrem Konto, den Abonnement- und Testphasenstatus, Angaben zu Verlängerungen und Erstattungen sowie die zugehörigen Zeitangaben.
+
+Wir nutzen diese Daten, um Käufe zu prüfen, kostenpflichtigen Zugang bereitzustellen und wiederherzustellen, Support zu leisten, Transaktionen abzugleichen, Buchhaltungsunterlagen zu führen und die Produktnutzung zu analysieren. Serverseitige Abrechnungsdaten werden auch dann geführt, wenn Sie die Produktanalyse in der App deaktivieren.
 
 ## Analyse und Cookies
 
@@ -89,6 +95,7 @@ Wenn Sie Nibomo über den Remote-MCP-Dienst oder die Agent API mit einem externe
 Für den gehosteten Dienst nutzen wir folgende Anbieterkategorien:
 
 - Amazon Web Services (AWS) für Hosting, Cognito-Authentifizierung, Postgres, Dateispeicherung, Backups und Betriebsprotokolle;
+- Apple für App-Store-Zahlungen, Kaufprüfungen und Abonnementbenachrichtigungen;
 - Resend für transaktionale Authentifizierungs-E-Mails;
 - OpenAI für optionale gehostete KI-Anfragen;
 - Langfuse Cloud für KI-Observability;
@@ -105,6 +112,7 @@ Die primäre gehostete Anwendung läuft in EU-Infrastruktur von AWS. Auch die ko
 ## Aufbewahrung und Löschung
 
 - Konto- und gehostete Workspace-Daten werden aufbewahrt, solange das Konto oder der betreffende geteilte Workspace aktiv ist. Bei der Kontolöschung werden aktuelle Kontodaten, Zugangsdaten, Mitgliedschaften und Workspaces mit nur einem Mitglied aus der Live-Datenbank gelöscht. Inhalte eines Workspace mit weiteren Mitgliedern bleiben für diese verfügbar.
+- Der Apple-Abrechnungsverlauf bleibt nach der Kontolöschung für Buchhaltung, Transaktionsabgleich und Rechtsansprüche erhalten. Wir ersetzen interne Nutzerkennungen durch pseudonyme Werte und löschen den Inhalt gespeicherter Apple-Benachrichtigungen, die dem gelöschten Konto zugeordnet werden können. Notwendige Kaufkennungen und Kennungen zur Kontozuordnung bei Apple bleiben erhalten; Apple kann sie weiterhin mit Ihnen verknüpfen. Dies ist daher keine vollständige Anonymisierung. Das Löschen Ihres Nibomo-Kontos kündigt Ihr Apple-Abonnement nicht; verwalten oder kündigen Sie es über Apple.
 - Produktanalyse-Ereignisse bleiben nach der Kontolöschung erhalten. Bei Ereignissen, die mit Ihrem Konto und verknüpften Gastidentitäten verbunden sind, ersetzen wir Kontokennungen durch einen zufälligen Wert, entfernen Identitätsverknüpfungen und leeren die Felder für Installation, Sitzung, Workspace, Anfrage, Gerätemodell, Betriebssystem, Geräte- und Oberflächensprache, Zeitzone und Land. Zugehörige Installationsprofile samt Länderverlauf werden gelöscht. Dies beschreibt die Entfernung von Kennungen und garantiert nicht, dass aufbewahrte Ereignisse in jedem Kontext anonym sind.
 - Die Kontolöschung lässt außerdem das Cookie `analytics_visitor` in dem Browser ablaufen, aus dem die Löschung vorgenommen wird, und setzt die Analyse-Sitzungskennung dieses Browsers zurück. Dieser Browser läuft danach als neuer anonymer Besucher weiter, unter einer neuen Besucherkennung ohne Verbindung zur vorherigen, soweit Ihre Analyse-Entscheidung dies zulässt. Das betrifft nur diesen Browser; eine Kopie in einem anderen Browser oder auf einem anderen Gerät wird nicht erreicht, und ein Browser, der das Schreiben blockiert oder vorher geschlossen wird, behält die alte Besucherkennung, bis sie von selbst abläuft. Bereits erfasste Ereignisse ändert es ebenfalls nicht: Ereignisse, die im abgemeldeten Zustand aufgezeichnet und nie mit Ihrem Konto verknüpft wurden, behalten die Besucherkennung, mit der sie aufgezeichnet wurden, und erst die oben beschriebene Entfernung der Identitätsverknüpfungen verhindert, dass sich diese Kennung zu Ihnen zurückführen lässt.
 - Detaillierte Länderzeiträume werden von Zielgruppenabfragen ausgeschlossen, sobald ihre letzte Beobachtung mehr als 90 Tage zurückliegt. Eine tägliche Bereinigung löscht sie; die physische Löschung kann sich bis zu einem erfolgreichen Lauf verzögern. Ein unveränderter Zeitraum kann früher als vor 90 Tagen beginnen, ist aber kein tägliches Standortprotokoll. Das erste bekannte Land bleibt separat für die Lebensdauer des Installationsprofils gespeichert, bis dieses gelöscht wird.

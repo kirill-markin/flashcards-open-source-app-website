@@ -4,7 +4,7 @@ description: Política de privacidad de Nibomo.
 slug: privacy
 sections:
   - type: legal_page
-    lastUpdated: septiembre de 2026
+    lastUpdated: octubre de 2026
 ---
 ## Responsable y alcance
 
@@ -37,6 +37,12 @@ Tratamos los datos de cuenta, espacio de trabajo, repasos, archivos y las solici
 Tratamos datos limitados de analítica, seguridad, diagnóstico y mejora del servicio por nuestro interés legítimo en entender el uso, evitar abusos, mantener el servicio seguro y corregir fallos. Equilibramos esos intereses con tus derechos y minimizamos o eliminamos datos de los diagnósticos cuando es posible. También podemos tratar datos para cumplir una obligación legal o formular, ejercer o defender reclamaciones. Cuando la ley exija consentimiento para una actividad concreta, nos basaremos en él y podrás retirarlo en cualquier momento.
 
 No vendemos tus datos personales ni los usamos para publicidad dirigida.
+
+## Compras y suscripciones de Apple
+
+Apple procesa los pagos de las compras en el App Store; no recibimos los datos de tu tarjeta ni de tu cuenta bancaria a través de la facturación de Apple. Recibimos y almacenamos registros de compra, incluidos identificadores de transacciones y productos, un token de cuenta de la aplicación que vincula la compra con tu cuenta, el estado de la suscripción y del periodo de prueba, información sobre renovaciones y reembolsos, y las fechas correspondientes.
+
+Usamos estos registros para verificar compras, proporcionar y restaurar el acceso de pago, ofrecer soporte, conciliar transacciones, mantener registros contables y analizar el uso del producto. Los registros de facturación del servidor se mantienen aunque desactives la analítica del producto en la aplicación.
 
 ## Analítica y cookies
 
@@ -89,6 +95,7 @@ Si conectas Nibomo a un cliente externo de IA mediante el servicio MCP remoto o 
 Usamos estas categorías de proveedores para el servicio alojado:
 
 - Amazon Web Services (AWS) para alojamiento, autenticación con Cognito, Postgres, almacenamiento de archivos, copias de seguridad y registros operativos;
+- Apple para los pagos del App Store, la verificación de compras y las notificaciones de suscripciones;
 - Resend para correos transaccionales de autenticación;
 - OpenAI para las solicitudes opcionales de IA alojada;
 - Langfuse Cloud para observabilidad de IA;
@@ -105,6 +112,7 @@ La aplicación alojada principal funciona en infraestructura de AWS en la UE. La
 ## Conservación y eliminación
 
 - Los datos de cuenta y espacio de trabajo se conservan mientras la cuenta o el espacio compartido correspondiente siga activo. Al eliminar la cuenta se borran de la base de datos activa tus datos de cuenta, credenciales, membresías y espacios de los que eras el único miembro. El contenido de un espacio que conserve otros miembros seguirá disponible para ellos.
+- El historial de facturación de Apple se conserva tras eliminar la cuenta para fines contables, de conciliación y de reclamaciones legales. Sustituimos los identificadores internos de usuario por valores seudónimos y borramos el contenido almacenado de las notificaciones de Apple atribuibles a la cuenta eliminada. Se conservan los identificadores necesarios de compra y de atribución de cuenta de Apple; Apple puede seguir vinculándolos contigo, por lo que no se trata de una anonimización completa. Eliminar tu cuenta de Nibomo no cancela tu suscripción de Apple; debes gestionarla o cancelarla a través de Apple.
 - Los eventos de analítica del producto permanecen tras eliminar la cuenta. En los eventos vinculados a tu cuenta y a las identidades de invitado asociadas, sustituimos los identificadores de cuenta por un valor aleatorio, eliminamos los enlaces de identidad y vaciamos los campos de instalación, sesión, espacio de trabajo, solicitud, modelo de dispositivo, sistema operativo, idioma del dispositivo, idioma de interfaz, zona horaria y país. Se eliminan los perfiles de instalación asociados y su historial de países. Esto describe la eliminación de identificadores, no garantiza que los eventos conservados sean anónimos en cualquier contexto.
 - Eliminar la cuenta también caduca la cookie `analytics_visitor` en el navegador desde el que se realiza la eliminación y reinicia el identificador de sesión de analítica de ese navegador. A partir de ahí, ese navegador continúa como un visitante anónimo nuevo, con un identificador nuevo sin relación con el anterior, donde tu elección sobre analítica lo permita. Esto alcanza solo a ese navegador; no llega a una copia guardada en otro navegador ni en otro dispositivo, y un navegador que bloquee la escritura o se cierre antes de que se ejecute conserva el identificador anterior hasta que caduque por sí solo. Tampoco cambia los eventos ya recopilados: los eventos registrados con la sesión cerrada y nunca vinculados a tu cuenta conservan el identificador con el que se registraron, y es la eliminación de los enlaces de identidad descrita arriba lo que impide volver a asociar ese identificador contigo.
 - Los periodos detallados de país se excluyen de las consultas de audiencia cuando su última observación tiene más de 90 días. Una limpieza diaria los elimina; la eliminación física puede demorarse hasta que se complete una ejecución correctamente. Un periodo sin cambios puede haber comenzado hace más de 90 días, pero no es un registro diario de ubicación. El primer país conocido se conserva por separado durante la vida del perfil de instalación, hasta que se elimina ese perfil.
