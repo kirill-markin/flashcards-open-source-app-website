@@ -1,7 +1,21 @@
 ---
 title: MCP Connector
-description: Add the remote Nibomo MCP server as a custom connector, with OAuth for clients, an API key for headless use, and split read and write SQL tools.
+description: "Connect Nibomo through the Claude directory or configure its remote MCP server in Claude Code and other clients, with OAuth and eight tools for flashcards and reviews."
 ---
+
+## Connect through the Claude directory
+
+Open [Nibomo in the Claude directory](https://claude.ai/directory/nibomo), connect it, sign in to your Nibomo account, and authorize access. Nibomo is listed as a Community connector.
+
+For Claude Code, use the same Claude subscription account and check `/mcp` after connecting. API-key and third-party-provider logins do not automatically load your claude.ai connectors.
+
+You can also configure Claude Code directly. Run the command below, then open `/mcp` in Claude Code and complete the browser authorization:
+
+```bash
+claude mcp add --transport http nibomo https://mcp.nibomo.com/mcp
+```
+
+[Claude Code MCP documentation](https://code.claude.com/docs/en/mcp#use-mcp-servers-from-claudeai).
 
 ## Overview
 
@@ -19,11 +33,7 @@ Connect to it at:
 https://mcp.nibomo.com/mcp
 ```
 
-The transport is Streamable HTTP, and the server exposes seven tools: two SQL
-tools over a small, intentionally limited SQL surface, a workspace list, a
-reference guide, and three review tools. It is the same per-user data surface
-as the [API reference](/docs/api/); the MCP server is the connector-friendly way
-to reach it from clients that speak MCP.
+The transport is Streamable HTTP. The server exposes eight tools for workspace discovery, card and deck reads and writes, reference guides, reviews, and account usage.
 
 ## How To Add It In Your Client
 
@@ -43,9 +53,10 @@ After authorizing, call `list_workspaces` once to pick a workspace, then use
 
 ## Tools
 
-The server exposes seven tools. Reads and writes are split on purpose so a single
+The server exposes eight tools. Reads and writes are split on purpose so a single
 tool never mixes safe and destructive operations.
 
+- `get_usage_limits` — strictly read-only account plan, limits, and current monthly AI usage; it does not read or change cards.
 - `sql_query` — strictly read-only access to your cards and decks (`SHOW TABLES`,
   `DESCRIBE`, `SHOW COLUMNS`, `SELECT`).
 - `sql_execute` — write access to your cards and decks (`INSERT`, `UPDATE`,
@@ -154,7 +165,7 @@ parser-enforced dialect rather than arbitrary database access:
   `workspaceId` fails instead of running against your default workspace.
 - **Caps**: up to `100` rows per statement, up to `50` statements per batch, and
   a result cap of roughly `12k` tokens. Mutation batches apply atomically.
-- **Read/write split**: `sql_query`, `list_workspaces`, `get_guide`,
+- **Read/write split**: `get_usage_limits`, `sql_query`, `list_workspaces`, `get_guide`,
   `next_review_card`, and `reveal_answer` are strictly read-only (`readOnlyHint`)
   and never repair data, recalculate scheduling, or change card state.
   `sql_execute` and `submit_review` are the only write tools (`destructiveHint`):

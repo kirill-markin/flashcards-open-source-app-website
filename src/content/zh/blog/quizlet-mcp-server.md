@@ -3,6 +3,7 @@ title: "2026 年 Quizlet 有 MCP 服务器吗？Claude 和 Codex 可用的方案
 description: "截至 2026 年，Quizlet 尚未提供 MCP 服务器的公开文档。本文对比其 ChatGPT 应用、仅限创建者使用的导出功能，以及 Claude 或 Codex 持续访问闪卡的安全方案。"
 image: "/blog/quizlet-mcp-server.png"
 date: "2026-09-12"
+updated: "2026-10-03"
 keywords:
   - "Quizlet MCP"
   - "Quizlet MCP 服务器"
@@ -75,7 +76,11 @@ Nibomo 公布的远程 MCP 端点是：
 
 `https://mcp.nibomo.com/mcp`
 
-[MCP 连接器文档](/docs/mcp-connector/)定义了七个工具：`list_workspaces`、用于读取的 `sql_query`、用于写入的 `sql_execute`、用于获取参考指南的 `get_guide`，以及用于复习的 `next_review_card`、`reveal_answer` 和 `submit_review`。交互式 MCP 客户端可以通过 OAuth 授权。终端中的智能体则可以从 [Agent API 文档](/docs/api/)入手，使用文档中的 HTTP 流程。
+> [连接到 Claude](https://claude.ai/directory/nibomo) · [文档](/docs/mcp-connector/)
+
+[MCP 连接器文档](/docs/mcp-connector/)定义了八个工具：`list_workspaces`、用于读取的 `sql_query`、用于写入的 `sql_execute`、用于获取参考指南的 `get_guide`，以及用于复习的 `next_review_card`、`reveal_answer` 和 `submit_review`。交互式 MCP 客户端可以通过 OAuth 授权。终端中的智能体则可以从 [Agent API 文档](/docs/api/)入手，使用文档中的 HTTP 流程。
+
+`get_usage_limits` — 只读查询账户套餐、限额和本月 AI 用量；不会读取或修改卡片。
 
 这不会让 Nibomo 变成 Quizlet 连接器。受支持的流程是：
 

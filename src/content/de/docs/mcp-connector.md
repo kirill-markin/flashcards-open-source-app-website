@@ -1,7 +1,21 @@
 ---
 title: MCP-Connector
-description: Fuege den entfernten Nibomo-MCP-Server als benutzerdefinierten Connector hinzu, mit OAuth fuer Clients, einem API-Key fuer den Headless-Einsatz und getrennten SQL-Tools fuer Lesen und Schreiben.
+description: "Verbinde Nibomo über das Claude-Verzeichnis oder richte den MCP-Server in Claude Code und anderen Clients ein, mit OAuth und acht Tools für Lernkarten und Wiederholungen."
 ---
+
+## Über das Claude-Verzeichnis verbinden
+
+Öffne [Nibomo im Claude-Verzeichnis](https://claude.ai/directory/nibomo), verbinde den Connector, melde dich bei Nibomo an und erlaube den Zugriff. Nibomo ist als Community-Connector gelistet.
+
+Nutze in Claude Code dasselbe Claude-Abonnementkonto und prüfe nach dem Verbinden `/mcp`. Anmeldungen mit API-Schlüssel oder über Drittanbieter laden die claude.ai-Connectoren nicht automatisch.
+
+Du kannst Claude Code auch direkt konfigurieren. Führe den folgenden Befehl aus, öffne dann `/mcp` in Claude Code und schließe die Autorisierung im Browser ab:
+
+```bash
+claude mcp add --transport http nibomo https://mcp.nibomo.com/mcp
+```
+
+[Claude Code MCP documentation](https://code.claude.com/docs/en/mcp#use-mcp-servers-from-claudeai).
 
 ## Ueberblick
 
@@ -21,12 +35,7 @@ Verbinde dich damit unter:
 https://mcp.nibomo.com/mcp
 ```
 
-Der Transport ist Streamable HTTP, und der Server stellt sieben Tools bereit: zwei
-SQL-Tools ueber eine kleine, absichtlich eingeschraenkte SQL-Oberflaeche, eine
-Workspace-Liste, einen Referenz-Leitfaden und drei Review-Tools. Es ist dieselbe
-Datenoberflaeche pro Nutzer wie in der [API-Referenz](/docs/api/); der MCP-Server
-ist der connector-freundliche Weg, sie von Clients aus zu erreichen, die MCP
-sprechen.
+Der Transport ist Streamable HTTP. Der Server bietet acht Tools für Arbeitsbereiche, das Lesen und Schreiben von Karten und Decks, Referenzhandbücher, Wiederholungen und die Kontonutzung.
 
 ## So fuegst du ihn in deinem Client hinzu
 
@@ -50,9 +59,10 @@ Schreiben von Karten und Decks. Rufe fuer ein Review `next_review_card`, dann
 
 ## Tools
 
-Der Server stellt sieben Tools bereit. Lesen und Schreiben sind bewusst getrennt,
+Der Server stellt acht Tools bereit. Lesen und Schreiben sind bewusst getrennt,
 damit ein einzelnes Tool niemals sichere und destruktive Operationen vermischt.
 
+- `get_usage_limits` — rein lesender Zugriff auf Kontotarif, Limits und aktuelle monatliche KI-Nutzung; liest oder verändert keine Karten.
 - `sql_query` — strikt nur lesender Zugriff auf deine Karten und Decks
   (`SHOW TABLES`, `DESCRIBE`, `SHOW COLUMNS`, `SELECT`).
 - `sql_execute` — Schreibzugriff auf deine Karten und Decks (`INSERT`, `UPDATE`,
@@ -175,7 +185,7 @@ Datenbankzugriff:
 - **Grenzwerte**: bis zu `100` Zeilen pro Anweisung, bis zu `50` Anweisungen pro
   Batch und eine Ergebnisgrenze von etwa `12k` Tokens. Mutations-Batches werden
   atomar angewendet.
-- **Trennung von Lesen und Schreiben**: `sql_query`, `list_workspaces`,
+- **Trennung von Lesen und Schreiben**: `get_usage_limits`, `sql_query`, `list_workspaces`,
   `get_guide`, `next_review_card` und `reveal_answer` sind strikt nur lesend
   (`readOnlyHint`) und reparieren keine Daten, berechnen keine Planung neu und
   aendern keinen Kartenzustand. `sql_execute` und `submit_review` sind die

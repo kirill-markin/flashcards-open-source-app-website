@@ -2,7 +2,7 @@
 title: "Ungayisebenzisa kanjani i-Claude ekufundeni ngo-2026: Indlela ongayilandela"
 description: "Funda ngamanothi akho nge-Claude, uphendule umbuzo ngamunye, uhlole izilungiso, uguqule amaphuzu ongakawaqondi abe amakhadi okufunda, ulandela imithetho ye-AI yesifundo sakho."
 date: "2026-05-28"
-updated: "2026-09-30"
+updated: "2026-10-03"
 image: "/blog/how-to-use-claude-for-studying-v2.png"
 keywords:
   - "indlela yokusebenzisa i-Claude ekufundeni"
@@ -229,6 +229,8 @@ Indlela elula yokudlulisa isebenza kunoma yiluphi uhlelo lwamakhadi okufunda. Ce
 Uma usebenzisa i-Nibomo, xhuma i-Claude nge-MCP, okuyindlela yokuxhumanisa umsizi ne-Nibomo. Ungabe usuyicela ukuthi igcine amakhadi osuwahlolile futhi wawavuma. Ngaphambi kokuwagcina, hlola okuqukethwe kuwo nendawo azogcinwa kuyo.
 
 Lapho sekuyisikhathi sokubuyekeza, ungasebenzisa [uhlelo lwewebhu lwe-Nibomo](https://app.nibomo.com/) noma uxoxe ne-Claude noma i-Codex exhunywe ku-Nibomo nge-MCP. Engxoxweni, cela umsizi abuze umbuzo owodwa ngesikhathi, alinde ukuthi uzame ukuphendula, bese kuphela eveza impendulo. Ngemva kwalokho uqopha ku-Nibomo isilinganiso sakho sokuthi uyikhumbule kahle kangakanani impendulo. I-Nibomo igcina uhlelo olulodwa lwezikhathi zokubuyekeza, ngakho ungashintsha phakathi kohlelo lokusebenza nengxoxo.
+
+> [Xhuma ku-Claude](https://claude.ai/directory/nibomo) · [Imibhalo yokusebenzisa](/docs/mcp-connector/)
 
 Ukuze uxhume, bheka [isiqondiso sokuxhuma i-Claude](/blog/how-to-connect-flashcards-to-claude-with-mcp/) kanye [nemibhalo yesixhumi se-MCP](/docs/mcp-connector/); kokubili kungesiNgisi. Uma ungafuni ukuxhuma umsizi, usengawakopisha ngesandla amakhadi.
 

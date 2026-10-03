@@ -2,6 +2,7 @@
 title: "2026 年如何用 Claude 制作闪卡：Projects、文件上传，以及配合 FSRS 的复习"
 description: "这是一套适用于 2026 年的实用 Claude 闪卡流程：用 Projects 和文件上传先起草更小、更干净的卡片，再把真正值得保留的内容放进 Nibomo，用 FSRS 认真复习。"
 date: "2026-06-11"
+updated: "2026-10-03"
 image: "/blog/how-to-use-claude-to-make-flashcards.png"
 keywords:
   - "如何用 Claude 制作闪卡"
@@ -13,6 +14,8 @@ keywords:
   - "用 Claude 制作 flashcards"
   - "FSRS 闪卡"
 ---
+
+> [连接到 Claude](https://claude.ai/directory/nibomo) · [文档](/docs/mcp-connector/)
 
 昨天我把一份课程提纲和一份乱糟糟的阅读 PDF 扔进 Claude，让它帮我做闪卡。里面确实有几张不错。剩下那些则带着很熟悉的 AI 味道：技术上没错，措辞也很工整，但真到复习时，往往比第一眼看上去更难用。
 
@@ -236,17 +239,11 @@ FSRS 负责处理遗忘。
 
 如果你想更细看排程这一侧，那篇 [2026 年 FSRS vs SM-2](/zh/blog/fsrs-vs-sm-2/) 就是最直接的下一篇。
 
-## 把值得保留的内容移进 Nibomo，不要假装存在什么神奇的 Claude 集成
+## 将确认过的卡片保存到 Nibomo
 
-这里必须说得诚实一点。
+打开 [Claude 目录中的 Nibomo](https://claude.ai/directory/nibomo)，连接它，登录你的 Nibomo 账户并授权访问。Nibomo 以 Community 连接器的身份上架。
 
-这里并没有什么特殊的 Claude-to-Nibomo 按钮，我也不会假装有。真正有用的交接方式更简单：
-
-1. 在 Claude 里起草候选卡
-2. 把弱卡删掉或重写
-3. 把活下来的内容复制进 Nibomo 的 AI chat，或者直接在应用里创建卡片
-4. 用牌组和标签把它们整理好
-5. 用 FSRS 复习最终牌组
+请 Claude 通过 Nibomo 的 MCP 连接器只保存你检查并确认过的卡片。预览目标工作区和写入请求，批准后在 Nibomo 中检查已保存的卡片，再使用 FSRS 复习。你也可以手动复制。
 
 [Nibomo](/zh/) 很适合接这一步，因为现在的产品正好覆盖了 Claude 自己收不了尾的那部分：
 

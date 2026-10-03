@@ -3,6 +3,7 @@ title: "Does Quizlet Have an MCP Server in 2026? What Claude and Codex Can Use"
 description: "Quizlet does not document an MCP server in 2026. Compare its ChatGPT app, creator-only export, and a safe route for recurring Claude or Codex access."
 image: "/blog/quizlet-mcp-server.png"
 date: "2026-09-12"
+updated: "2026-10-03"
 keywords:
   - "Quizlet MCP"
   - "Quizlet MCP server"
@@ -75,7 +76,11 @@ Nibomo publishes a remote MCP endpoint at:
 
 `https://mcp.nibomo.com/mcp`
 
-Its [MCP connector documentation](/docs/mcp-connector/) defines seven tools: `list_workspaces`, `sql_query` for reads, `sql_execute` for writes, `get_guide` for reference guides, plus `next_review_card`, `reveal_answer`, and `submit_review` for reviews. Interactive MCP clients can authorize with OAuth. Terminal agents can instead start from the [Agent API documentation](/docs/api/) and use the published HTTP flow.
+> [Connect to Claude](https://claude.ai/directory/nibomo) · [Documentation](/docs/mcp-connector/)
+
+Its [MCP connector documentation](/docs/mcp-connector/) defines eight tools: `list_workspaces`, `sql_query` for reads, `sql_execute` for writes, `get_guide` for reference guides, plus `next_review_card`, `reveal_answer`, and `submit_review` for reviews. Interactive MCP clients can authorize with OAuth. Terminal agents can instead start from the [Agent API documentation](/docs/api/) and use the published HTTP flow.
+
+`get_usage_limits` — strictly read-only account plan, limits, and current monthly AI usage; it does not read or change cards.
 
 This does not turn Nibomo into a Quizlet connector. The supported workflow is:
 

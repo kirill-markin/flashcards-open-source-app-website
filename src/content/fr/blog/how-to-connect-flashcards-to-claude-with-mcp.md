@@ -2,7 +2,7 @@
 title: "Comment connecter les flashcards Nibomo à Claude avec MCP"
 description: "Connectez Nibomo à Claude Desktop ou à Claude dans le navigateur avec un connecteur MCP distant. Suivez les étapes vérifiées, réglez les autorisations des outils et essayez d’enregistrer votre première carte."
 date: "2026-06-23"
-updated: "2026-09-20"
+updated: "2026-10-03"
 image: "/blog/how-to-connect-nibomo-to-claude-mcp.png"
 keywords:
   - "connecteur Nibomo Claude"
@@ -11,13 +11,21 @@ keywords:
   - "créer des cartes mémoire dans Claude"
 ---
 
-Claude peut enregistrer des cartes mémoire directement dans votre espace de travail Nibomo grâce à un connecteur MCP personnalisé. Vous ajoutez une URL de serveur, vous vous connectez à Nibomo et vous choisissez les actions que Claude peut effectuer sans vous demander votre accord à chaque fois.
+> [Se connecter à Claude](https://claude.ai/directory/nibomo) · [Documentation](/docs/mcp-connector/)
 
-La configuration ci-dessous a été vérifiée dans Claude Desktop le 20 septembre 2026. Elle concerne le connecteur distant utilisé dans les conversations habituelles de Claude, dans l’application de bureau comme dans le navigateur. Pour Claude Code, Codex ou un autre agent en ligne de commande, consultez le [guide de connexion des agents](/blog/claude-code-codex-openclaw-flashcards-login/).
+Claude peut enregistrer des cartes directement dans votre espace de travail Nibomo grâce à son connecteur MCP publié. Connectez Nibomo depuis le répertoire de Claude, identifiez-vous sur Nibomo et choisissez les actions que Claude peut effectuer sans demander votre accord à chaque fois.
+
+Les captures de la configuration manuelle ont été vérifiées dans Claude Desktop le 20 septembre 2026. Pour une connexion via REST et une clé API, consultez le [guide de connexion des agents](/blog/claude-code-codex-openclaw-flashcards-login/).
 
 ![Une remise de documents dans une bibliothèque illustre l’accès en lecture et l’accord requis avant toute modification](/blog/how-to-connect-nibomo-to-claude-mcp.png)
 
-## Ajoutez Nibomo dans les paramètres des connecteurs de Claude
+## Se connecter depuis le répertoire de Claude
+
+Ouvrez [Nibomo dans le répertoire de Claude](https://claude.ai/directory/nibomo), connectez-le, identifiez-vous sur votre compte Nibomo et autorisez l’accès. Nibomo figure comme connecteur Community.
+
+Dans Claude Code, utilisez le même compte avec abonnement Claude et vérifiez `/mcp` après la connexion. Une connexion par clé API ou fournisseur tiers ne charge pas automatiquement les connecteurs claude.ai.
+
+## Alternative : ajouter un connecteur personnalisé
 
 Il vous faut un compte Nibomo et l’accès aux connecteurs personnalisés dans Claude. Nibomo utilise un serveur MCP distant : vous n’avez donc rien à installer en local. Anthropic décrit cette méthode de connexion dans son [guide des connecteurs personnalisés](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp).
 
@@ -45,11 +53,11 @@ Vérifiez que vous connectez le bon compte, puis cliquez sur **Allow access**. Q
 
 ## Soumettez les écritures à votre approbation
 
-Le connecteur propose des outils pour lire vos supports d’étude, les modifier et enregistrer des révisions. Ouvrez Nibomo dans **Settings > Connectors** pour consulter les autorisations de ses outils. Pour reproduire la configuration présentée ici, réglez les cinq outils de lecture sur **Always allow** et gardez les deux outils d’écriture sur **Needs approval** :
+Le connecteur propose des outils pour lire vos supports d’étude, les modifier et enregistrer des révisions. Ouvrez Nibomo dans **Settings > Connectors** pour consulter les autorisations de ses outils. Pour reproduire la configuration présentée ici, réglez les six outils de lecture sur **Always allow** et gardez les deux outils d’écriture sur **Needs approval** :
 
 | Autorisation | Outils |
 | --- | --- |
-| **Always allow** | Get flashcards usage guide; List flashcards workspaces; Next flashcard question; Reveal flashcard answer; Nibomo SQL query (read-only) |
+| **Always allow** | Get flashcards usage guide; `get_usage_limits`; List flashcards workspaces; Next flashcard question; Reveal flashcard answer; Nibomo SQL query (read-only) |
 | **Needs approval** | Nibomo SQL execute (write); Submit flashcard review |
 
 Claude peut ainsi trouver un espace de travail et lire des cartes, tout en demandant votre accord avant de modifier des données ou de soumettre une révision. Vous pouvez choisir des autorisations plus strictes si vous voulez aussi approuver les lectures.

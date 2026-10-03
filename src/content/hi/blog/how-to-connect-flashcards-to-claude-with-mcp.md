@@ -2,7 +2,7 @@
 title: "MCP के ज़रिए Nibomo Flashcards को Claude से कैसे जोड़ें"
 description: "रिमोट MCP कनेक्टर से Nibomo को Claude Desktop या ब्राउज़र से जोड़ें। जाँचे गए चरण अपनाएँ, टूल की अनुमतियाँ तय करें और अपना पहला फ़्लैशकार्ड सहेजकर देखें।"
 date: "2026-06-23"
-updated: "2026-09-20"
+updated: "2026-10-03"
 image: "/blog/how-to-connect-nibomo-to-claude-mcp.png"
 keywords:
   - "Nibomo Claude कनेक्टर"
@@ -11,13 +11,21 @@ keywords:
   - "Claude में फ़्लैशकार्ड बनाएँ"
 ---
 
-Claude एक कस्टम MCP कनेक्टर के ज़रिए सीधे आपके Nibomo वर्कस्पेस में फ़्लैशकार्ड सहेज सकता है। इसके लिए आप एक सर्वर URL जोड़ते हैं, Nibomo में साइन इन करते हैं और तय करते हैं कि Claude कौन-से काम हर बार पूछे बिना कर सकता है।
+> [Claude से कनेक्ट करें](https://claude.ai/directory/nibomo) · [डॉक्यूमेंटेशन](/docs/mcp-connector/)
 
-नीचे दिया गया सेटअप 20 सितंबर 2026 को Claude Desktop में जाँचा गया था। ये निर्देश Desktop और ब्राउज़र में सामान्य Claude चैट के लिए इस्तेमाल होने वाले रिमोट कनेक्टर के हैं। Claude Code, Codex या किसी दूसरे टर्मिनल एजेंट के लिए अलग [एजेंट लॉगिन गाइड](/blog/claude-code-codex-openclaw-flashcards-login/) देखें।
+Claude अपने प्रकाशित MCP connector के ज़रिए सीधे आपके Nibomo workspace में flashcards सहेज सकता है। Claude डायरेक्टरी से Nibomo कनेक्ट करें, Nibomo में साइन इन करें और तय करें कि Claude कौन-से काम हर बार पूछे बिना कर सकता है।
+
+नीचे दिए गए manual setup screenshots को Claude Desktop में 20 सितंबर 2026 को जाँचा गया था। REST और API key से लॉगिन करने के लिए अलग [agent login guide](/blog/claude-code-codex-openclaw-flashcards-login/) देखें।
 
 ![लाइब्रेरी में सामग्री का आदान-प्रदान, जो पढ़ने की अनुमति और बदलाव से पहले मंज़ूरी को दर्शाता है](/blog/how-to-connect-nibomo-to-claude-mcp.png)
 
-## Claude की कनेक्टर सेटिंग में Nibomo जोड़ें
+## Claude डायरेक्टरी से कनेक्ट करें
+
+[Claude डायरेक्टरी में Nibomo](https://claude.ai/directory/nibomo) खोलें, उसे कनेक्ट करें, अपने Nibomo खाते में साइन इन करें और ऐक्सेस की अनुमति दें। Nibomo को Community connector के रूप में सूचीबद्ध किया गया है।
+
+Claude Code में उसी Claude subscription खाते का उपयोग करें और कनेक्ट करने के बाद `/mcp` देखें। API key या किसी बाहरी provider से लॉगिन करने पर claude.ai connectors अपने आप लोड नहीं होते।
+
+## विकल्प: custom connector जोड़ें
 
 आपको Nibomo अकाउंट और Claude में कस्टम कनेक्टर इस्तेमाल करने की सुविधा चाहिए। Nibomo रिमोट MCP सर्वर का उपयोग करता है, इसलिए अपने कंप्यूटर पर कुछ इंस्टॉल करने की ज़रूरत नहीं है। Anthropic की [कस्टम कनेक्टर गाइड](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp) में कनेक्शन के इस तरीके की जानकारी है।
 
@@ -45,11 +53,11 @@ Nibomo का लॉगिन पेज `auth.flashcards-open-source-app.com` �
 
 ## डेटा बदलने वाले कामों के लिए मंज़ूरी ज़रूरी रखें
 
-कनेक्टर में पढ़ाई की सामग्री पढ़ने, उसे बदलने और रिव्यू दर्ज करने के टूल हैं। उनकी अनुमतियाँ देखने के लिए **Settings > Connectors** में Nibomo खोलें। यहाँ दिखाए गए सेटअप में पढ़ने वाले पाँच टूल को **Always allow** पर और डेटा लिखने वाले दो टूल को **Needs approval** पर रखें:
+कनेक्टर में पढ़ाई की सामग्री पढ़ने, उसे बदलने और रिव्यू दर्ज करने के टूल हैं। उनकी अनुमतियाँ देखने के लिए **Settings > Connectors** में Nibomo खोलें। यहाँ दिखाए गए सेटअप में पढ़ने वाले छह टूल को **Always allow** पर और डेटा लिखने वाले दो टूल को **Needs approval** पर रखें:
 
 | अनुमति | टूल |
 | --- | --- |
-| **Always allow** — हमेशा अनुमति दें | Get flashcards usage guide; List flashcards workspaces; Next flashcard question; Reveal flashcard answer; Nibomo SQL query (read-only) |
+| **Always allow** — हमेशा अनुमति दें | Get flashcards usage guide; `get_usage_limits`; List flashcards workspaces; Next flashcard question; Reveal flashcard answer; Nibomo SQL query (read-only) |
 | **Needs approval** — मंज़ूरी ज़रूरी है | Nibomo SQL execute (write); Submit flashcard review |
 
 इससे Claude वर्कस्पेस ढूँढ सकता है और कार्ड पढ़ सकता है, लेकिन डेटा बदलने या रिव्यू दर्ज करने से पहले आपसे पूछेगा। अगर आप चाहते हैं कि Claude डेटा पढ़ने से पहले भी आपकी मंज़ूरी ले, तो अनुमतियाँ उसी हिसाब से सीमित कर सकते हैं।

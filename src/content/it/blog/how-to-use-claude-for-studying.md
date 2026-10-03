@@ -2,7 +2,7 @@
 title: "Come usare Claude per studiare nel 2026: un metodo pratico"
 description: "Studia dai tuoi appunti con Claude: rispondi a una domanda alla volta, verifica le correzioni e crea flashcard sulle lacune, rispettando le regole del corso sull'IA."
 date: "2026-05-28"
-updated: "2026-09-30"
+updated: "2026-10-03"
 image: "/blog/how-to-use-claude-for-studying-v2.png"
 keywords:
   - "come usare Claude per studiare"
@@ -226,6 +226,8 @@ Se usi Nibomo, puoi collegarvi Claude tramite MCP e chiedergli di salvare le sch
 Quando è il momento di ripassare, apri l’[app Nibomo](https://app.nibomo.com/) oppure ripassa in una chat con Claude o Codex collegato a Nibomo tramite MCP. In chat, chiedi all’assistente di presentare una domanda alla volta, aspettare il tuo tentativo e solo dopo mostrare la risposta. A quel punto valuti quanto bene l’hai ricordata, e l’assistente registra in Nibomo la valutazione che hai scelto per quel ripasso.
 
 Nibomo usa queste valutazioni per programmare i ripassi successivi, ovunque tu abbia studiato. Puoi passare dall’app alla chat mantenendo lo stesso calendario di ripasso.
+
+> [Connetti a Claude](https://claude.ai/directory/nibomo) · [Documentazione](/docs/mcp-connector/)
 
 Per configurare il collegamento, consulta la [guida passo passo al connettore per Claude](/blog/how-to-connect-flashcards-to-claude-with-mcp/) e la [documentazione del connettore MCP](/docs/mcp-connector/), entrambe in inglese. Se preferisci non collegare l’assistente, puoi continuare a copiare le schede manualmente.
 

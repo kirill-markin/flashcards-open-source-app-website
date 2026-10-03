@@ -2,7 +2,7 @@
 title: "Tutor de flashcards con IA en 2026: te pregunta tus tarjetas pendientes y guarda repasos de FSRS con MCP"
 description: "Conecta Claude, ChatGPT o Codex a Nibomo por MCP. El tutor con IA te pregunta tus tarjetas pendientes, evalúa cada respuesta y guarda la valoración como un repaso de FSRS."
 date: "2026-07-15"
-updated: "2026-09-16"
+updated: "2026-10-03"
 image: "/blog/ai-flashcard-tutor-due-cards.png"
 keywords:
   - "tutor de flashcards con IA"
@@ -47,6 +47,8 @@ Todos los clientes MCP usan la misma URL de servidor:
 
 `https://mcp.nibomo.com/mcp`
 
+> [Conectar con Claude](https://claude.ai/directory/nibomo) · [Documentación](/docs/mcp-connector/)
+
 Los clientes interactivos inician sesión mediante OAuth 2.1 con PKCE y registro dinámico de clientes (Dynamic Client Registration). Apruebas el acceso en el navegador, sin pegar ninguna clave ni registrar antes una app. En configuraciones sin interfaz (headless), el cliente puede enviar en su lugar una clave de API de agente `fca_` como token Bearer. La [documentación del conector MCP](/es/docs/mcp-connector/) explica las dos vías y el contrato completo de las herramientas.
 
 Dónde se añade la URL depende del cliente:
@@ -59,7 +61,9 @@ También puedes saltarte la conexión por completo. El chat con IA de Nibomo tie
 
 ## Activa solo las herramientas que necesita un repaso
 
-El conector tiene siete herramientas y una sesión de repaso usa cinco: `list_workspaces`, `get_guide`, `next_review_card`, `reveal_answer` y `submit_review`. `sql_query` viene bien si quieres que el tutor busque el nombre de un mazo o de una etiqueta. `sql_execute` crea, edita y elimina tarjetas y mazos. Un repaso nunca la necesita, así que bloquéala durante esta sesión si tu cliente te deja.
+El conector tiene ocho herramientas y una sesión de repaso usa cinco: `list_workspaces`, `get_guide`, `next_review_card`, `reveal_answer` y `submit_review`. `sql_query` viene bien si quieres que el tutor busque el nombre de un mazo o de una etiqueta. `sql_execute` crea, edita y elimina tarjetas y mazos. Un repaso nunca la necesita, así que bloquéala durante esta sesión si tu cliente te deja.
+
+`get_usage_limits` — consulta de solo lectura del plan, los límites y el uso mensual actual de IA; no lee ni modifica tarjetas.
 
 `submit_review` sí tiene que quedarse activada, porque es la única operación de escritura del ciclo. Nibomo la marca como destructiva y no de solo lectura, ya que sobrescribe la fecha de repaso de la tarjeta, sus contadores de repasos y su estado de FSRS. Algunos clientes usan esa marca para decidir cuándo pedirte aprobación, y eso viene bien cuando quieres revisar las valoraciones.
 

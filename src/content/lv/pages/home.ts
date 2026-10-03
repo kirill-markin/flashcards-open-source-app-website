@@ -27,7 +27,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
       },
       agentConnectors: [
         {
-          caption: "Pievieno šo MCP serveri savam MI klientam:",
+          caption: "Vai pievienojiet jebkuru MI klientu, kas atbalsta MCP, izmantojot šo URL:",
           link: {
             label: "https://mcp.nibomo.com/mcp",
             href: "https://mcp.nibomo.com/mcp",

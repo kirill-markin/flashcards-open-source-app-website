@@ -2,6 +2,7 @@
 title: "Как дать Claude Code, Codex или OpenClaw войти в Nibomo за вас"
 description: "Nibomo предоставляет агентам сценарий входа с открытым исходным кодом: одна discovery-ссылка, одноразовый код по email и долгоживущий API-ключ. Дайте агенту один URL, отправьте ему последний 8-значный код из письма, и он сам завершит настройку аккаунта и рабочего пространства."
 date: "2026-03-10"
+updated: "2026-10-03"
 keywords:
   - "claude code login"
   - "codex login"
@@ -10,6 +11,8 @@ keywords:
   - "open source flashcards app"
   - "open source api authentication"
 ---
+
+> [Подключить к Claude](https://claude.ai/directory/nibomo) · [Документация](/docs/mcp-connector/)
 
 Большинство сценариев входа до сих пор устроены так, будто всю подготовку человек должен делать вручную.
 

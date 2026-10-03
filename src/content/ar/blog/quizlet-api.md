@@ -3,6 +3,7 @@ title: "هل لدى Quizlet واجهة API عامة في 2026؟ الوضع ال�
 description: "هل يوفّر Quizlet واجهة API؟ حتى 18 أغسطس 2026، لا توجد واجهة API عامة موثّقة يمكن للمطورين استخدامها بالخدمة الذاتية. تعرّف إلى البدائل المدعومة."
 image: "/blog/quizlet-api.png"
 date: "2026-08-18"
+updated: "2026-10-03"
 keywords:
   - "واجهة API لـ Quizlet"
   - "هل لدى Quizlet واجهة API"
@@ -86,7 +87,9 @@ keywords:
 ينشر Nibomo طريقتين للوصول إلى النطاق المحدود نفسه من البيانات، على مستوى كل مستخدم:
 
 - تبدأ [Agent API الخارجية](/docs/api/) من `GET https://api.nibomo.com/v1/`. وترشد استجابة الاكتشاف الوكيل عبر خطوات تسجيل الدخول باستخدام رمز OTP عبر البريد الإلكتروني، وإنشاء مفتاح API، واختيار مساحة العمل. تستخدم عمليات القراءة مسار استعلام بأسلوب SQL، بينما تستخدم عمليات الكتابة مسار تنفيذ منفصلًا.
-- يتوفر [خادم MCP البعيد](/docs/mcp-connector/) على `https://mcp.nibomo.com/mcp`. ويحصل عملاء MCP على سبع أدوات: `list_workspaces` و`sql_query` و`sql_execute` و`get_guide`، وأدوات المراجعة `next_review_card` و`reveal_answer` و`submit_review`.
+- يتوفر [خادم MCP البعيد](/docs/mcp-connector/) على `https://mcp.nibomo.com/mcp`. ويحصل عملاء MCP على ثماني أدوات: `list_workspaces` و`sql_query` و`sql_execute` و`get_guide`، وأدوات المراجعة `next_review_card` و`reveal_answer` و`submit_review`.
+
+`get_usage_limits` — قراءة فقط لخطة الحساب وحدوده واستخدام الذكاء الاصطناعي في الشهر الحالي؛ لا يقرأ البطاقات ولا يغيّرها.
 
 كلتا الطريقتين محصورتان في نطاق مساحة العمل. والموارد المنشورة هي `workspace` و`cards` و`decks` و`review_events`، مع حد أقصى للنتائج يبلغ 100 صف لكل عبارة. وتستخدم واجهة SQL لهجة محدودة، ولا تتيح وصولًا مباشرًا إلى PostgreSQL. كما لا يتوفر مخطط OpenAPI، لذلك ستحتاج مسارات العمل التي تعتمد على عملاء مولّدين من OpenAPI إلى واجهة أخرى.
 

@@ -2,7 +2,7 @@
 title: "2026 年 AI 闪卡导师：通过 MCP 测验到期卡片，评分保存为 FSRS 复习"
 description: "通过 MCP 把 Claude、ChatGPT 或 Codex 接入 Nibomo。AI 导师拿你的到期卡片测验你，给每次作答评分，再把评分保存为一次 FSRS 复习。"
 date: "2026-07-15"
-updated: "2026-09-16"
+updated: "2026-10-03"
 image: "/blog/ai-flashcard-tutor-due-cards.png"
 keywords:
   - "AI 闪卡导师"
@@ -47,6 +47,8 @@ keywords:
 
 `https://mcp.nibomo.com/mcp`
 
+> [连接到 Claude](https://claude.ai/directory/nibomo) · [文档](/docs/mcp-connector/)
+
 交互式客户端通过 OAuth 2.1 登录，使用 PKCE 和动态客户端注册（Dynamic Client Registration）。你只需在浏览器里批准访问，不用粘贴密钥，也不用事先注册应用。无界面环境则可以改用 `fca_` 智能体 API 密钥，作为 Bearer 令牌发送。[MCP 连接器文档](/zh/docs/mcp-connector/)把这两种方式和完整的工具约定都写清楚了。
 
 这个 URL 加在哪里，要看你用的客户端：
@@ -59,7 +61,9 @@ keywords:
 
 ## 只开启复习需要的工具
 
-连接器一共有七个工具，复习会话用得上其中五个：`list_workspaces`、`get_guide`、`next_review_card`、`reveal_answer` 和 `submit_review`。想让导师帮你查牌组名或标签名时，`sql_query` 能派上用场。`sql_execute` 负责创建、编辑和删除卡片与牌组，复习时根本用不到，所以如果客户端支持，这次会话就把它禁用。
+连接器一共有八个工具，复习会话用得上其中五个：`list_workspaces`、`get_guide`、`next_review_card`、`reveal_answer` 和 `submit_review`。想让导师帮你查牌组名或标签名时，`sql_query` 能派上用场。`sql_execute` 负责创建、编辑和删除卡片与牌组，复习时根本用不到，所以如果客户端支持，这次会话就把它禁用。
+
+`get_usage_limits` — 只读查询账户套餐、限额和本月 AI 用量；不会读取或修改卡片。
 
 `submit_review` 必须保持开启，它是整个循环里唯一的写入操作。因为它会覆盖卡片的到期时间、复习次数和 FSRS 状态，Nibomo 把它标记为破坏性、非只读的工具。有些客户端会根据这个标记决定什么时候请你批准，想核对评分时，这一点正好用得上。
 

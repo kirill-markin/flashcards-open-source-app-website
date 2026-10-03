@@ -2,7 +2,7 @@
 title: "Så använder du Claude för studier 2026: ett praktiskt arbetssätt"
 description: "Studera med Claude utifrån dina egna anteckningar, svara på en fråga i taget, kontrollera rättelser och gör flashcards av kunskapsluckor inom kursens AI-regler."
 date: "2026-05-28"
-updated: "2026-09-30"
+updated: "2026-10-03"
 image: "/blog/how-to-use-claude-for-studying-v2.png"
 keywords:
   - "hur använder man Claude för studier"
@@ -223,6 +223,8 @@ Om du använder Nibomo kan du ansluta Claude till dina kort via MCP. MCP är hä
 När det är dags att repetera kan du använda [webbappen](https://app.nibomo.com/) eller en chatt med Claude eller Codex som är ansluten till Nibomo via MCP. Be assistenten ställa en fråga i taget och vänta på ditt försök innan den visar svaret. Därefter bedömer du själv hur väl du mindes svaret; assistenten registrerar din bedömning i Nibomo.
 
 Nibomo håller ett gemensamt repetitionsschema för appen och chattarna. Du kan alltså växla mellan appen och assistenten och fortsätta med samma kort och schema.
+
+> [Anslut till Claude](https://claude.ai/directory/nibomo) · [Dokumentation](/docs/mcp-connector/)
 
 För att komma igång finns [guiden för att ansluta Claude](/blog/how-to-connect-flashcards-to-claude-with-mcp/) och [referensen för MCP-anslutningen](/docs/mcp-connector/), båda på engelska. Manuell kopiering är fortfarande ett fullständigt alternativ om du inte vill konfigurera en anslutning.
 

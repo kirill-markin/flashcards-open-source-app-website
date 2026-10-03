@@ -2,7 +2,7 @@
 title: "Slik bruker du Claude til studier i 2026: en praktisk arbeidsflyt"
 description: "Studer dine egne notater med Claude, svar på ett spørsmål om gangen, kontroller rettelser og lag flashcards av kunnskapshull innenfor emnets KI-regler."
 date: "2026-05-28"
-updated: "2026-09-30"
+updated: "2026-10-03"
 image: "/blog/how-to-use-claude-for-studying-v2.png"
 keywords:
   - "slik bruker du Claude til studier"
@@ -224,6 +224,8 @@ Den enkleste overføringen fungerer med enhver flashcard-app. Be Claude returner
 Hvis du bruker Nibomo, kan du koble til Claude via MCP, som er forbindelsen mellom assistenten og Nibomo. Be Claude vise kortforslagene før de lagres, og godkjenn bare dem du vil beholde. Da blir utvalgte kunnskapshull til kort du kan øve på senere.
 
 Når kortene skal repeteres, kan du bruke [nettappen](https://app.nibomo.com/) eller en samtale med Claude eller Codex som du har koblet til Nibomo via MCP. I samtalen viser assistenten ett spørsmål om gangen og venter på forsøket ditt før den viser svaret. Du vurderer selv hvor godt du husket det, og assistenten registrerer vurderingen din i Nibomo. Nibomo holder styr på den samme repetisjonsplanen enten du øver i appen eller i samtalen.
+
+> [Koble til Claude](https://claude.ai/directory/nibomo) · [Dokumentasjon](/docs/mcp-connector/)
 
 [Veiledningen for Claude-tilkoblingen](/blog/how-to-connect-flashcards-to-claude-with-mcp/) og [dokumentasjonen for MCP-tilkoblingen](/docs/mcp-connector/) forklarer hvordan du kobler til. Begge er på engelsk. Du kan fortsatt kopiere kortene manuelt hvis du foretrekker det.
 

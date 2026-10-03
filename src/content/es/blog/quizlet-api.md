@@ -3,6 +3,7 @@ title: "¿Quizlet tiene una API pública en 2026? Estado actual y alternativas s
 description: "¿Quizlet tiene una API? A 18 de agosto de 2026, no hay una API pública de autoservicio documentada. Compara las alternativas con soporte oficial."
 image: "/blog/quizlet-api.png"
 date: "2026-08-18"
+updated: "2026-10-03"
 keywords:
   - "API de Quizlet"
   - "Quizlet tiene API"
@@ -86,7 +87,9 @@ La vía segura consiste en utilizar un sistema de flashcards que documente cómo
 Nibomo publica dos vías de acceso al mismo conjunto limitado de datos de cada usuario:
 
 - La [Agent API externa](/docs/api/) empieza en `GET https://api.nibomo.com/v1/`. Su respuesta de descubrimiento guía al agente durante el inicio de sesión mediante OTP por correo electrónico, la creación de una clave de API y la selección del espacio de trabajo. Las lecturas utilizan una ruta de consultas de estilo SQL; las escrituras, una ruta de ejecución independiente.
-- El [servidor MCP remoto](/docs/mcp-connector/) está disponible en `https://mcp.nibomo.com/mcp`. Los clientes MCP disponen de siete herramientas: `list_workspaces`, `sql_query`, `sql_execute`, `get_guide` y las herramientas de repaso `next_review_card`, `reveal_answer` y `submit_review`.
+- El [servidor MCP remoto](/docs/mcp-connector/) está disponible en `https://mcp.nibomo.com/mcp`. Los clientes MCP disponen de ocho herramientas: `list_workspaces`, `sql_query`, `sql_execute`, `get_guide` y las herramientas de repaso `next_review_card`, `reveal_answer` y `submit_review`.
+
+`get_usage_limits` — consulta de solo lectura del plan, los límites y el uso mensual actual de IA; no lee ni modifica tarjetas.
 
 Ambas vías están limitadas al espacio de trabajo. Los recursos publicados son `workspace`, `cards`, `decks` y `review_events`, y los resultados tienen un límite de 100 filas por sentencia. La interfaz de estilo SQL utiliza un dialecto limitado; no proporciona acceso directo a PostgreSQL. Tampoco hay un esquema OpenAPI, así que los flujos que dependan de clientes generados a partir de OpenAPI necesitarán otra interfaz.
 

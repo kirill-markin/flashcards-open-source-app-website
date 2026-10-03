@@ -2,7 +2,7 @@
 title: "Kako uporabljati Clauda za učenje v letu 2026: praktičen postopek"
 description: "Učite se s Claudom iz svojih zapiskov, odgovarjajte na vprašanja po eno, preverite popravke in vrzeli pretvorite v učne kartice v skladu s pravili predmeta o UI."
 date: "2026-05-28"
-updated: "2026-09-30"
+updated: "2026-10-03"
 image: "/blog/how-to-use-claude-for-studying-v2.png"
 keywords:
   - "kako uporabljati Clauda za učenje"
@@ -223,6 +223,8 @@ Najpreprostejši prenos deluje s katero koli aplikacijo za učne kartice. Clauda
 Če uporabljate Nibomo, Clauda povežite prek MCP, povezave med pomočnikom in Nibomom. Nato ga lahko prosite, naj shrani kartice, ki ste jih pregledali in potrdili. Pred shranjevanjem preverite njihovo vsebino in mesto, kamor bodo shranjene.
 
 Ko je čas za ponavljanje, lahko uporabite [spletno aplikacijo Nibomo](https://app.nibomo.com/) ali pogovor s Claudom ali Codexom, povezanim z Nibomom prek MCP. V pogovoru prosite pomočnika, naj postavi eno vprašanje naenkrat, počaka na vaš poskus in šele nato razkrije odgovor. Nato v Nibomo zabeleži vašo oceno, kako dobro ste se spomnili odgovora. Nibomo vodi skupni urnik ponavljanja, zato lahko prehajate med aplikacijo in pogovorom.
+
+> [Poveži z Claude](https://claude.ai/directory/nibomo) · [Dokumentacija](/docs/mcp-connector/)
 
 Pri povezovanju si pomagajte z [vodičem za povezavo s Claudom](/blog/how-to-connect-flashcards-to-claude-with-mcp/) in [dokumentacijo povezovalnika MCP](/docs/mcp-connector/), ki sta v angleščini. Če pomočnika ne želite povezati, lahko kartice še naprej kopirate ročno.
 

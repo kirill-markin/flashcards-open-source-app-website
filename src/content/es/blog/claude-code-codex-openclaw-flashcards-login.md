@@ -2,6 +2,7 @@
 title: "Cómo hacer que Claude Code, Codex u OpenClaw inicien sesión en Nibomo por ti"
 description: "Nibomo ofrece un flujo abierto de inicio de sesión para agentes basado en una sola URL de descubrimiento, un código OTP por correo electrónico y una clave API de larga duración. Dale ese enlace a tu agente, pásale el código de 8 dígitos y deja que complete por sí mismo la configuración de la cuenta y del espacio de trabajo."
 date: "2026-03-10"
+updated: "2026-10-03"
 keywords:
   - "claude code flashcards"
   - "codex flashcards"
@@ -10,6 +11,8 @@ keywords:
   - "flashcards open source"
   - "autenticación api de código abierto"
 ---
+
+> [Conectar con Claude](https://claude.ai/directory/nibomo) · [Documentación](/docs/mcp-connector/)
 
 La mayoría de los flujos de inicio de sesión siguen partiendo de que la persona hará a mano todo el trabajo de configuración.
 

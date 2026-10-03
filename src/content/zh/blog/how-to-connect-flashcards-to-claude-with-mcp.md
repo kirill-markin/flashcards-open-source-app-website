@@ -2,7 +2,7 @@
 title: "如何通过 MCP 将 Nibomo 闪卡连接到 Claude"
 description: "通过远程 MCP 连接器，将 Nibomo 连接到 Claude 桌面版或网页版。按照已验证的步骤完成连接、设置工具权限，并尝试保存第一张闪卡。"
 date: "2026-06-23"
-updated: "2026-09-20"
+updated: "2026-10-03"
 image: "/blog/how-to-connect-nibomo-to-claude-mcp.png"
 keywords:
   - "Nibomo Claude 连接器"
@@ -11,13 +11,21 @@ keywords:
   - "在 Claude 中创建闪卡"
 ---
 
-Claude 可以通过自定义 MCP 连接器，将闪卡直接保存到你的 Nibomo 工作区。添加一个服务器 URL，登录 Nibomo，再选择哪些操作可以让 Claude 直接执行，无需每次询问。
+> [连接到 Claude](https://claude.ai/directory/nibomo) · [文档](/docs/mcp-connector/)
 
-以下设置步骤已于 2026 年 9 月 20 日在 Claude 桌面版中验证。这种远程连接器适用于 Claude 桌面版和网页版中的普通对话。如果你使用 Claude Code、Codex 或其他终端智能体，请参阅单独的[智能体登录指南](/blog/claude-code-codex-openclaw-flashcards-login/)。
+Claude 可以通过已上架的 MCP 连接器，将闪卡直接保存到你的 Nibomo 工作区。从 Claude 目录连接 Nibomo，登录 Nibomo，再选择哪些操作可以让 Claude 直接执行，无需每次询问。
+
+下面的手动设置截图于 2026 年 9 月 20 日在 Claude Desktop 中核验。通过 REST 和 API 密钥登录，请参阅单独的[智能体登录指南](/blog/claude-code-codex-openclaw-flashcards-login/)。
 
 ![通过图书馆交接场景说明：可以读取资料，但修改前需要批准](/blog/how-to-connect-nibomo-to-claude-mcp.png)
 
-## 在 Claude 的连接器设置中添加 Nibomo
+## 通过 Claude 目录连接
+
+打开 [Claude 目录中的 Nibomo](https://claude.ai/directory/nibomo)，连接它，登录你的 Nibomo 账户并授权访问。Nibomo 以 Community 连接器的身份上架。
+
+在 Claude Code 中使用同一个 Claude 订阅账户，连接后查看 `/mcp`。通过 API 密钥或第三方提供商登录时，不会自动加载 claude.ai 连接器。
+
+## 另一种方式：添加自定义连接器
 
 你需要一个 Nibomo 账号，以及 Claude 的自定义连接器使用权限。Nibomo 使用远程 MCP 服务器，因此无需在本地安装任何软件。Anthropic 的[自定义连接器指南](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp)介绍了这种连接方式。
 
@@ -45,7 +53,7 @@ Nibomo 的身份验证页面使用 `auth.flashcards-open-source-app.com` 域名�
 
 ## 写入操作仍需你确认
 
-连接器提供读取学习资料、修改资料和记录复习结果的工具。在 **Settings > Connectors** 中打开 Nibomo，查看各工具的权限。按照本文的设置，将五个读取工具设为 **Always allow**（始终允许），将两个写入工具保留为 **Needs approval**（需要批准）：
+连接器提供读取学习资料、修改资料和记录复习结果的工具。在 **Settings > Connectors** 中打开 Nibomo，查看各工具的权限。按照本文的设置，将六个读取工具设为 **Always allow**（始终允许），将两个写入工具保留为 **Needs approval**（需要批准）：
 
 | 权限 | 工具 |
 | --- | --- |

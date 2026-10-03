@@ -2,6 +2,7 @@
 title: "2026 में Claude से फ़्लैशकार्ड्स कैसे बनाएं: Projects, File Uploads और FSRS Review"
 description: "2026 के लिए Claude फ़्लैशकार्ड workflow का एक व्यावहारिक तरीका: Projects और file uploads से छोटे, साफ़ card drafts बनाइए, फिर सिर्फ़ काम के cards को Nibomo में ले जाकर असली FSRS review कीजिए।"
 date: "2026-06-11"
+updated: "2026-10-03"
 image: "/blog/how-to-use-claude-to-make-flashcards.png"
 keywords:
   - "Claude से फ़्लैशकार्ड्स कैसे बनाएं"
@@ -13,6 +14,8 @@ keywords:
   - "Claude के साथ फ़्लैशकार्ड्स बनाएं"
   - "FSRS flashcards"
 ---
+
+> [Claude से कनेक्ट करें](https://claude.ai/directory/nibomo) · [डॉक्यूमेंटेशन](/docs/mcp-connector/)
 
 कल मैंने एक lecture outline और एक बिखरी हुई reading PDF Claude में डाली और उससे फ़्लैशकार्ड्स बनवाने को कहा। कुछ cards ठीक निकले। बाकी में वही पहचानी हुई AI वाली छाप थी: तकनीकी रूप से सही, ज़रूरत से ज़्यादा polished, और review करते समय जितने आसान दिखते थे उतने आसान नहीं।
 
@@ -236,17 +239,11 @@ FSRS भूलने की समस्या संभालता है।
 
 अगर आपको scheduler side ज़्यादा detail में चाहिए, तो [2026 में FSRS बनाम SM-2](/hi/blog/fsrs-vs-sm-2/) इसका सीधा follow-up है।
 
-## बचे हुए cards को Nibomo में ले जाएँ, किसी magic Claude integration का दिखावा किए बिना
+## मंज़ूर किए गए cards Nibomo में सहेजें
 
-यह हिस्सा ईमानदार रहना चाहिए।
+[Claude डायरेक्टरी में Nibomo](https://claude.ai/directory/nibomo) खोलें, उसे कनेक्ट करें, अपने Nibomo खाते में साइन इन करें और ऐक्सेस की अनुमति दें। Nibomo को Community connector के रूप में सूचीबद्ध किया गया है।
 
-यहाँ कोई special Claude-to-Nibomo button नहीं है, और मैं ऐसा दिखावा नहीं करूँगा। काम की handoff इससे कहीं simpler है:
-
-1. Claude में candidate cards draft करें
-2. कमजोर cards delete या rewrite करें
-3. बचे हुए cards को Nibomo AI chat में copy करें या cards सीधे app में बनाएं
-4. उन्हें decks और tags में organize करें
-5. final deck को FSRS के साथ review करें
+Claude से कहें कि Nibomo के MCP connector के ज़रिए केवल वे cards सहेजे जिन्हें आपने जाँचकर मंज़ूरी दी है। पहले destination workspace और write request देखें, उसे approve करें, फिर FSRS review से पहले Nibomo में सहेजे गए cards जाँचें। आप चाहें तो उन्हें manually copy भी कर सकते हैं।
 
 [Nibomo](/hi/) इस workflow में fit बैठता है, क्योंकि current product उसी हिस्से को cover करती है जिसे Claude अपने-आप पूरा नहीं करता:
 

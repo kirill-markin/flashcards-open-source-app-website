@@ -2,7 +2,7 @@
 title: "كيفية ربط بطاقات Nibomo التعليمية بـ Claude عبر MCP"
 description: "اربط Nibomo بـ Claude Desktop أو المتصفح باستخدام موصّل MCP عن بُعد. اتبع خطوات الربط التي جرى التحقق منها، واضبط أذونات الأدوات، وجرّب حفظ أول بطاقة تعليمية."
 date: "2026-06-23"
-updated: "2026-09-20"
+updated: "2026-10-03"
 image: "/blog/how-to-connect-nibomo-to-claude-mcp.png"
 keywords:
   - "موصّل Nibomo مع Claude"
@@ -11,13 +11,21 @@ keywords:
   - "إنشاء بطاقات تعليمية في Claude"
 ---
 
-يستطيع Claude حفظ البطاقات التعليمية مباشرةً في مساحة عملك على Nibomo عبر موصّل MCP مخصّص. ما عليك سوى إضافة عنوان الخادم، وتسجيل الدخول إلى Nibomo، وتحديد الإجراءات التي يمكن لـ Claude تنفيذها دون طلب موافقتك في كل مرة.
+> [الاتصال بـ Claude](https://claude.ai/directory/nibomo) · [التوثيق](/docs/mcp-connector/)
 
-جرى التحقق من الإعداد الموضّح أدناه في Claude Desktop بتاريخ 20 سبتمبر 2026. وهو يخصّ الموصّل الذي يعمل عن بُعد وتستخدمه محادثات Claude العادية في تطبيق سطح المكتب والمتصفح. أما إذا كنت تستخدم Claude Code أو Codex أو وكيلًا آخر يعمل من الطرفية، فاتبع [دليل تسجيل دخول الوكلاء](/blog/claude-code-codex-openclaw-flashcards-login/) المنفصل.
+يستطيع Claude حفظ البطاقات مباشرةً في مساحة عمل Nibomo عبر موصل MCP المنشور. اتصل بـ Nibomo من دليل Claude، وسجّل الدخول إلى Nibomo، وحدد الإجراءات التي يمكن لـ Claude تنفيذها دون طلب موافقتك في كل مرة.
+
+تم التحقق من لقطات الإعداد اليدوي أدناه في Claude Desktop يوم 20 سبتمبر 2026. لتسجيل الدخول عبر REST ومفتاح API، راجع [دليل تسجيل دخول الوكلاء](/blog/claude-code-codex-openclaw-flashcards-login/).
 
 ![تسليم مواد في مكتبة يوضّح إتاحة القراءة وطلب الموافقة قبل إجراء تغييرات](/blog/how-to-connect-nibomo-to-claude-mcp.png)
 
-## أضف Nibomo من إعدادات الموصّلات في Claude
+## الاتصال من دليل Claude
+
+افتح [Nibomo في دليل Claude](https://claude.ai/directory/nibomo)، واتصل به، ثم سجّل الدخول إلى حساب Nibomo واسمح بالوصول. Nibomo مدرج بصفته موصل Community.
+
+في Claude Code، استخدم حساب اشتراك Claude نفسه وتحقق من `/mcp` بعد الاتصال. تسجيل الدخول بمفتاح API أو عبر مزود خارجي لا يحمّل موصلات claude.ai تلقائيًا.
+
+## بديل: إضافة موصل مخصّص
 
 تحتاج إلى حساب Nibomo وإمكانية استخدام الموصّلات المخصّصة في Claude. يستخدم Nibomo خادم MCP يعمل عن بُعد، لذلك لا تحتاج إلى تثبيت شيء على جهازك. توثّق Anthropic طريقة الربط هذه في [دليل الموصّلات المخصّصة](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp).
 
@@ -45,11 +53,11 @@ keywords:
 
 ## اجعل الكتابة مشروطة بموافقتك
 
-يتضمّن الموصّل أدوات لقراءة مواد الدراسة وتعديلها وتسجيل المراجعات. افتح Nibomo في **Settings > Connectors** لمراجعة أذونات أدواته. للإعداد المعروض هنا، اضبط أدوات القراءة الخمس على **Always allow**، أي السماح دائمًا، وأبقِ أداتي الكتابة على **Needs approval**، أي تتطلّب الموافقة:
+يتضمّن الموصّل أدوات لقراءة مواد الدراسة وتعديلها وتسجيل المراجعات. افتح Nibomo في **Settings > Connectors** لمراجعة أذونات أدواته. للإعداد المعروض هنا، اضبط أدوات القراءة الست على **Always allow**، أي السماح دائمًا، وأبقِ أداتي الكتابة على **Needs approval**، أي تتطلّب الموافقة:
 
 | الإذن | الأدوات |
 | --- | --- |
-| **Always allow** | Get flashcards usage guide; List flashcards workspaces; Next flashcard question; Reveal flashcard answer; Nibomo SQL query (read-only) |
+| **Always allow** | Get flashcards usage guide; `get_usage_limits`; List flashcards workspaces; Next flashcard question; Reveal flashcard answer; Nibomo SQL query (read-only) |
 | **Needs approval** | Nibomo SQL execute (write); Submit flashcard review |
 
 بهذا يستطيع Claude العثور على مساحة عمل وقراءة البطاقات، مع طلب موافقتك قبل تغيير البيانات أو إرسال نتيجة مراجعة. يمكنك اختيار أذونات أكثر تقييدًا إذا أردت الموافقة على عمليات القراءة أيضًا.

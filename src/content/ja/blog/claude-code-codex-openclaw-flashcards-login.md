@@ -2,6 +2,7 @@
 title: "Claude Code、Codex、OpenClaw から Nibomo にログインする方法"
 description: "Nibomo は、1 つのディスカバリー URL とメール OTP、長期利用できる API キーを組み合わせた、オープンソースのエージェント向けログインフローを公開しています。エージェントには URL を 1 つ渡し、メールで届く最新の 8 桁コードを返すだけで、アカウント情報の読み込みからワークスペースの準備まで進められます。"
 date: "2026-03-10"
+updated: "2026-10-03"
 keywords:
   - "Claude Code ログイン"
   - "Codex ログイン"
@@ -10,6 +11,8 @@ keywords:
   - "オープンソース フラッシュカード アプリ"
   - "オープンソース API 認証"
 ---
+
+> [Claude に接続](https://claude.ai/directory/nibomo) · [ドキュメント](/docs/mcp-connector/)
 
 いまでも多くのログインフローは、最初から最後まで人が手でセットアップする前提のままです。
 

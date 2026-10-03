@@ -1,4 +1,7 @@
 import Image from "next/image";
+import Link from "next/link";
+import { AgentDirectoryLinks } from "@/components/AgentDirectoryLinks";
+import { CONNECTOR_DIRECTORIES } from "@/lib/connectorDirectories";
 import { FullAppCtaPanel } from "@/components/AppCtaPanel";
 import { AuthButton } from "@/components/AuthButton";
 import { AuthAwareAppCtaLink } from "@/components/AuthAwareAppCtaLink";
@@ -30,6 +33,7 @@ import {
 } from "@/lib/storeQrCodes";
 import { getLocalizedPathname, type AppLocale } from "@/lib/i18n";
 import { getUiCopy } from "@/lib/uiCopy";
+import { getAvailableLocalizedPathname } from "@/lib/routeTranslations";
 import homeStyles from "@/app/page.module.css";
 import featureStyles from "@/app/features/page.module.css";
 import pricingStyles from "@/app/pricing/page.module.css";
@@ -135,6 +139,7 @@ function renderHomePage(
             <p className={homeStyles.hintDescription}>
               {uiCopy.home.agentHintDescription}
             </p>
+            <AgentDirectoryLinks locale={locale} />
             {heroSection.agentConnectors.map((connector) => (
               <TrackedMcpEndpointCopyField
                 key={connector.link.href}
@@ -144,6 +149,12 @@ function renderHomePage(
                 value={connector.link.href}
               />
             ))}
+            <Link
+              className={homeStyles.agentGuide}
+              href={getAvailableLocalizedPathname(locale, "/docs/mcp-connector/")}
+            >
+              {uiCopy.footer.documentationLabel} <span aria-hidden="true">→</span>
+            </Link>
           </div>
         </div>
       </section>
@@ -210,6 +221,16 @@ function renderFeaturesPage(
                 <p>{item.description}</p>
               </div>
             ))}
+          </div>
+          <div className={featureStyles.connectorLinks}>
+            {CONNECTOR_DIRECTORIES.map((directory) => (
+              <a key={directory.href} href={directory.href} target="_blank" rel="noopener noreferrer">
+                {directory.name} MCP
+              </a>
+            ))}
+            <Link href={getAvailableLocalizedPathname(locale, "/docs/mcp-connector/")}>
+              {uiCopy.footer.documentationLabel}
+            </Link>
           </div>
           <FullAppCtaPanel
             action={

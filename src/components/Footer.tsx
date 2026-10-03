@@ -1,4 +1,6 @@
 import Link from "next/link";
+import { CONNECTOR_DIRECTORIES } from "@/lib/connectorDirectories";
+import { getExternalLinkAttributes } from "@/lib/linkTargets";
 import { LocaleSwitcher } from "@/components/LocaleSwitcher";
 import { getAppUrl } from "@/lib/auth";
 import type { AppLocale } from "@/lib/i18n";
@@ -86,6 +88,11 @@ export const Footer: React.FC<FooterProps> = ({
           </div>
           <div className={styles.column}>
             <h3>{uiCopy.footer.appsHeading}</h3>
+            {CONNECTOR_DIRECTORIES.map((directory) => (
+              <a key={directory.href} href={directory.href} {...getExternalLinkAttributes(directory.href)}>
+                {directory.name} MCP
+              </a>
+            ))}
             {platforms.map((platform) => {
               if (platform.kind === "active") {
                 if (platform.analytics.kind === "store") {

@@ -15,6 +15,8 @@ import {
   formatActivityTimestamp,
 } from "@/lib/activityFormatting";
 import { getUiCopy } from "@/lib/uiCopy";
+import { getAvailableLocalizedPathname } from "@/lib/routeTranslations";
+import { CONNECTOR_DIRECTORIES, getConnectorDirectoryLabel, getOpenAiDirectoryNotice } from "@/lib/connectorDirectories";
 import type {
   FeatureListSection,
   HeroSection,
@@ -92,6 +94,12 @@ function renderHeroSection(
   lines.push("");
   lines.push(section.trustLine);
   lines.push("");
+  lines.push(`OpenAI: ${getOpenAiDirectoryNotice(locale)}`);
+  lines.push("");
+  CONNECTOR_DIRECTORIES.forEach((directory) => {
+    lines.push(`[${getConnectorDirectoryLabel(locale, directory.name)}](${directory.href})`);
+  });
+  lines.push("");
   lines.push("```text");
   section.agentConnectors.forEach((connector, index) => {
     if (index > 0) {
@@ -101,6 +109,8 @@ function renderHeroSection(
     lines.push(connector.link.href);
   });
   lines.push("```");
+  lines.push("");
+  lines.push(`[${getUiCopy(locale).footer.documentationLabel}](${getAvailableLocalizedPathname(locale, "/docs/mcp-connector/")})`);
   lines.push("");
 }
 
@@ -183,6 +193,12 @@ function renderFeatureListSection(
 function renderFeaturesCta(locale: AppLocale, lines: string[]): void {
   const uiCopy = getUiCopy(locale);
 
+  CONNECTOR_DIRECTORIES.forEach((directory) => {
+    lines.push(`[${getConnectorDirectoryLabel(locale, directory.name)}](${directory.href})`);
+  });
+  lines.push("");
+  lines.push(`[${uiCopy.footer.documentationLabel}](${getAvailableLocalizedPathname(locale, "/docs/mcp-connector/")})`);
+  lines.push("");
   lines.push(`## ${uiCopy.cta.featuresHeading}`);
   lines.push("");
   lines.push(

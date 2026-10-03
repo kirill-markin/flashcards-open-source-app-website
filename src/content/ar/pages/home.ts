@@ -28,7 +28,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
       },
       agentConnectors: [
         {
-          caption: "أضف خادم MCP هذا إلى عميل الذكاء الاصطناعي لديك:",
+          caption: "أو اربط أي عميل ذكاء اصطناعي متوافق مع MCP باستخدام هذا الرابط:",
           link: {
             label: "https://mcp.nibomo.com/mcp",
             href: "https://mcp.nibomo.com/mcp",

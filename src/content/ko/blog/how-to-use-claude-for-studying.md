@@ -2,7 +2,7 @@
 title: "2026년 Claude로 공부하는 법: 바로 따라 하는 학습 순서"
 description: "내 학습 자료로 Claude와 공부하고, 한 번에 한 문제씩 답하고, 교정 내용을 검증하세요. 수업의 AI 사용 규정을 지키며 취약한 부분을 플래시카드로 만드는 방법입니다."
 date: "2026-05-28"
-updated: "2026-09-30"
+updated: "2026-10-03"
 image: "/blog/how-to-use-claude-for-studying-v2.png"
 keywords:
   - "Claude로 공부하는 법"
@@ -223,6 +223,8 @@ Nibomo를 쓴다면 MCP로 Claude를 연결해 승인한 카드를 저장해 달
 복습할 때가 되면 [Nibomo 앱](https://app.nibomo.com/)을 열거나, MCP로 Nibomo에 연결한 Claude 또는 Codex 채팅에서 복습할 수 있습니다. 채팅에서는 한 번에 한 문제씩 제시하고, 먼저 답을 시도할 때까지 기다린 다음 정답을 보여 달라고 하세요. 정답을 확인한 뒤 얼마나 잘 기억했는지 직접 평가하면, 도우미가 사용자가 선택한 복습 평가를 Nibomo에 기록합니다.
 
 Nibomo는 앱과 채팅에서 기록한 평가를 모두 반영해 다음 복습 일정을 정합니다. 앱에서 복습하다가 다음에는 채팅으로 옮겨도 같은 복습 일정이 이어집니다.
+
+> [연결: Claude](https://claude.ai/directory/nibomo) · [문서](/docs/mcp-connector/)
 
 연결 설정은 영어로 된 [Claude 커넥터 단계별 가이드](/blog/how-to-connect-flashcards-to-claude-with-mcp/)와 [MCP 커넥터 참고 문서](/docs/mcp-connector/)를 참고하세요. 도우미를 연결하고 싶지 않다면 계속 카드를 수동으로 복사해도 됩니다.
 

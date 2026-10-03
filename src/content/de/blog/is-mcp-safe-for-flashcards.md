@@ -2,6 +2,7 @@
 title: "Ist MCP für Flashcards sicher? Berechtigungen, Datenschutz und Schreibzugriff 2026"
 description: "Ist MCP für Flashcards sicher? Was OAuth schützt, welche Daten KI-Clients lesen oder ändern können und wie du Datenschutz- und Schreibrisiken begrenzt."
 date: "2026-07-12"
+updated: "2026-10-03"
 image: "/blog/is-mcp-safe-for-flashcards.png"
 keywords:
   - "ist MCP für Flashcards sicher"
@@ -49,13 +50,14 @@ Das Blockieren einzelner Tools im Client ist trotzdem sinnvoll. Die OAuth-Freiga
 
 ## Was die Nibomo-MCP-Tools tatsächlich können
 
-Der Connector erlaubt keinen beliebigen PostgreSQL-Zugriff, sondern nur einen vom Parser durchgesetzten SQL-Dialekt. Seine sieben Tools haben klar getrennte Zugriffsbereiche:
+Der Connector erlaubt keinen beliebigen PostgreSQL-Zugriff, sondern nur einen vom Parser durchgesetzten SQL-Dialekt. Seine acht Tools haben klar getrennte Zugriffsbereiche:
 
 | Tool | Zugriff | Ändert Daten? | Vorsichtige Client-Einstellung |
 | --- | --- | --- | --- |
 | `list_workspaces` | Listet bis zu 100 Workspaces auf, auf die der Nutzer zugreifen kann: ID, Name, Anzahl aktiver Karten, letzte Aktivität und Standard-Workspace | Nein | Nur aktivieren, wenn der Client diese Kontometadaten erhalten darf |
 | `sql_query` | Liest `workspace`, `cards`, `decks` und `review_events` innerhalb eines angegebenen Workspaces | Nein | Für eine klar definierte Leseaufgabe aktivieren und nur die benötigten Spalten anfordern |
 | `sql_execute` | Fügt Datensätze in `cards` und `decks` ein, aktualisiert sie oder markiert sie als gelöscht, jeweils innerhalb eines angegebenen Workspaces | Ja | Deaktiviert lassen, sofern der Client Schreibvorgänge nicht auf eine für dich akzeptable Weise begrenzen kann |
+| `get_usage_limits` | rein lesender Zugriff auf Kontotarif, Limits und aktuelle monatliche KI-Nutzung; liest oder verändert keine Karten. | Nein | Nur aktivieren, wenn der Client diese Kontometadaten erhalten darf |
 | `get_guide` | Liefert einen festen Referenz-Leitfaden zum SQL-Dialekt, zum Erstellen von Karten, zum Erstellen vieler Karten auf einmal oder zum Ablauf einer Wiederholung, ohne Workspace-Daten zu lesen | Nein | Aktivieren; das Tool liefert Dokumentation, nicht deine Karten |
 | `next_review_card` | Liefert die Vorderseite der nächsten Karte zur Wiederholung innerhalb eines angegebenen Workspaces | Nein | Für eine Wiederholungssitzung aktivieren und bedenken, dass Kartentext an den Client gelangt |
 | `reveal_answer` | Liefert die Rückseite einer Karte innerhalb eines angegebenen Workspaces | Nein | Zusammen mit `next_review_card` aktivieren |

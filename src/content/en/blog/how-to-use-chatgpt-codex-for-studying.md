@@ -2,6 +2,7 @@
 title: "How to Use ChatGPT and Codex for Studying in 2026: Save Flashcards With MCP"
 description: "Use ChatGPT Study Mode to find weak spots, save selected cards with Codex and Nibomo MCP in the ChatGPT desktop app, then review with FSRS."
 date: "2026-08-02"
+updated: "2026-10-03"
 image: "/blog/how-to-use-chatgpt-codex-for-studying.png"
 keywords:
   - "how to use ChatGPT and Codex for studying"
@@ -107,7 +108,9 @@ read the saved cards back so I can check them.
 
 Codex should start with the read-only workspace tool. Once you choose the workspace and organization, it can prepare the write. Check the workspace, fronts, backs, tags, deck changes, and number of affected records before approving it.
 
-The connector exposes seven tools:
+The connector exposes eight tools:
+
+`get_usage_limits` — strictly read-only account plan, limits, and current monthly AI usage; it does not read or change cards.
 
 | Tool | What it can do | Writes data? |
 | --- | --- | --- |
