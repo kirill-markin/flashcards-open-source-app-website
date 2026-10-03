@@ -27,7 +27,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
       },
       agentConnectors: [
         {
-          caption: "Ongeza seva hii ya MCP kwenye kiteja chako cha AI:",
+          caption: "Au unganisha kiteja chochote cha AI kinachotumia MCP kupitia URL hii:",
           link: {
             label: "https://mcp.nibomo.com/mcp",
             href: "https://mcp.nibomo.com/mcp",

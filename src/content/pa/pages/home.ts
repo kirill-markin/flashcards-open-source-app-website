@@ -27,7 +27,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
       },
       agentConnectors: [
         {
-          caption: "ਆਪਣੇ AI ਕਲਾਇੰਟ ਵਿੱਚ ਇਹ MCP ਸਰਵਰ ਜੋੜੋ:",
+          caption: "ਜਾਂ ਇਸ URL ਰਾਹੀਂ ਕਿਸੇ ਵੀ MCP-ਅਨੁਕੂਲ AI ਕਲਾਇੰਟ ਨੂੰ ਕਨੈਕਟ ਕਰੋ:",
           link: {
             label: "https://mcp.nibomo.com/mcp",
             href: "https://mcp.nibomo.com/mcp",

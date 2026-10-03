@@ -1,7 +1,21 @@
 ---
 title: MCP 连接器
-description: 将远程 Nibomo MCP 服务器添加为自定义连接器，为客户端提供 OAuth、为无界面场景提供 API 密钥，并将读取与写入 SQL 工具拆分开来。
+description: "从 Claude 目录连接 Nibomo，或在 Claude Code 和其他客户端中配置其远程 MCP 服务器，通过 OAuth 使用八个闪卡与复习工具。"
 ---
+
+## 通过 Claude 目录连接
+
+打开 [Claude 目录中的 Nibomo](https://claude.ai/directory/nibomo)，连接它，登录你的 Nibomo 账户并授权访问。Nibomo 以 Community 连接器的身份上架。
+
+在 Claude Code 中使用同一个 Claude 订阅账户，连接后查看 `/mcp`。通过 API 密钥或第三方提供商登录时，不会自动加载 claude.ai 连接器。
+
+你也可以直接配置 Claude Code。运行以下命令，然后在 Claude Code 中打开 `/mcp` 并完成浏览器授权：
+
+```bash
+claude mcp add --transport http nibomo https://mcp.nibomo.com/mcp
+```
+
+[Claude Code MCP documentation](https://code.claude.com/docs/en/mcp#use-mcp-servers-from-claudeai).
 
 ## 概览
 
@@ -19,10 +33,7 @@ AI 智能代理能够读取你的待复习卡片、与你一起逐题复习这�
 https://mcp.nibomo.com/mcp
 ```
 
-传输方式为 Streamable HTTP，服务器公开七个工具：基于一个小而有意受限的 SQL 接口的两个
-SQL 工具、一个工作区列表、一份参考指南，以及三个复习工具。它访问的是与
-[API 参考](/docs/api/) 相同的按用户划分的数据面；MCP 服务器是从支持 MCP 的客户端
-访问该数据面的连接器友好方式。
+传输方式为 Streamable HTTP。服务器提供八个工具，用于工作区发现、卡片和牌组的读写、参考指南、复习以及账户用量查询。
 
 ## 如何在客户端中添加
 
@@ -41,9 +52,10 @@ SQL 工具、一个工作区列表、一份参考指南，以及三个复习工�
 
 ## 工具
 
-服务器公开七个工具。读取与写入被有意拆分，因此单个工具绝不会把安全操作和破坏性操作
+服务器公开八个工具。读取与写入被有意拆分，因此单个工具绝不会把安全操作和破坏性操作
 混在一起。
 
+- `get_usage_limits` — 只读查询账户套餐、限额和本月 AI 用量；不会读取或修改卡片。
 - `sql_query` —— 以严格只读方式访问你的卡片和卡组（`SHOW TABLES`、
   `DESCRIBE`、`SHOW COLUMNS`、`SELECT`）。
 - `sql_execute` —— 以原子批次的形式对你的卡片和卡组进行写入访问（`INSERT`、`UPDATE`、
@@ -144,7 +156,7 @@ Authorization: Bearer fca_ABCDEFGH_0123456789ABCDEFGHJKMNPQRS
   会直接失败，而不会在你的默认工作区上运行。
 - **上限**：每条语句最多 `100` 行，每个批次最多 `50` 条语句，
   结果上限约为 `12k` 个 token。变更批次以原子方式应用。
-- **读写分离**：`sql_query`、`list_workspaces`、`get_guide`、
+- **读写分离**：`get_usage_limits`、`sql_query`、`list_workspaces`、`get_guide`、
   `next_review_card` 和 `reveal_answer` 为严格只读（`readOnlyHint`），
   不会修复数据、重新计算排期或更改卡片状态。
   `sql_execute` 和 `submit_review` 是仅有的写入工具（`destructiveHint`）：

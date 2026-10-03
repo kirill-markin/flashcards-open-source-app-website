@@ -2,7 +2,7 @@
 title: "NibomoのフラッシュカードをMCPでClaudeに接続する方法"
 description: "リモートMCPコネクタでNibomoをClaude Desktopやブラウザ版に接続します。確認済みの接続手順に沿ってツール権限を設定し、最初のフラッシュカードを保存してみましょう。"
 date: "2026-06-23"
-updated: "2026-09-20"
+updated: "2026-10-03"
 image: "/blog/how-to-connect-nibomo-to-claude-mcp.png"
 keywords:
   - "Nibomo Claude コネクタ"
@@ -11,13 +11,21 @@ keywords:
   - "Claudeでフラッシュカードを作成"
 ---
 
-ClaudeはカスタムMCPコネクタを使って、Nibomoのワークスペースにフラッシュカードを直接保存できます。サーバーURLを1つ追加してNibomoにログインし、Claudeが毎回確認せずに実行できる操作を選びます。
+> [Claude に接続](https://claude.ai/directory/nibomo) · [ドキュメント](/docs/mcp-connector/)
 
-以下の設定手順は、2026年9月20日にClaude Desktopで確認しました。対象は、Desktop版とブラウザ版の通常のClaudeチャットで使うリモートコネクタです。Claude Code、Codexなどのターミナルエージェントを使う場合は、別記事の[エージェント用ログインガイド](/blog/claude-code-codex-openclaw-flashcards-login/)を参照してください。
+Claude は公開された MCP コネクタを使って、Nibomo のワークスペースにカードを直接保存できます。Claude のディレクトリから Nibomo に接続し、Nibomo にログインして、毎回確認せずに実行できる操作を選びます。
+
+以下の手動設定のスクリーンショットは、2026年9月20日に Claude Desktop で確認しました。REST と API キーによるログインについては、別の[エージェント向けログインガイド](/blog/claude-code-codex-openclaw-flashcards-login/)を参照してください。
 
 ![資料の閲覧権限と変更前の承認を、図書館での受け渡しで表したイラスト](/blog/how-to-connect-nibomo-to-claude-mcp.png)
 
-## Claudeのコネクタ設定にNibomoを追加する
+## Claude のディレクトリから接続する
+
+[Claude ディレクトリの Nibomo](https://claude.ai/directory/nibomo) を開いて接続し、Nibomo アカウントにログインしてアクセスを許可してください。Nibomo は Community コネクタとして掲載されています。
+
+Claude Code では同じ Claude サブスクリプションのアカウントを使い、接続後に `/mcp` を確認してください。API キーや外部プロバイダーでログインした場合、claude.ai のコネクタは自動で読み込まれません。
+
+## 別の方法：カスタムコネクタを追加する
 
 Nibomoのアカウントと、Claudeのカスタムコネクタを利用できる環境が必要です。NibomoはリモートMCPサーバーを使うため、端末へのインストールは不要です。この接続方法は、Anthropicの[カスタムコネクタガイド](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp)にも記載されています。
 
@@ -45,11 +53,11 @@ Nibomoの認証ページのドメインは `auth.flashcards-open-source-app.com`
 
 ## 書き込みは承認制にしておく
 
-このコネクタには、学習教材の読み取り、変更、復習結果の記録に使うツールがあります。**Settings > Connectors** でNibomoを開き、ツールの権限を確認してください。ここで紹介する設定では、5つの読み取りツールを **Always allow**（常に許可）にし、2つの書き込みツールは **Needs approval**（承認が必要）のままにします。
+このコネクタには、学習教材の読み取り、変更、復習結果の記録に使うツールがあります。**Settings > Connectors** でNibomoを開き、ツールの権限を確認してください。ここで紹介する設定では、6つの読み取りツールを **Always allow**（常に許可）にし、2つの書き込みツールは **Needs approval**（承認が必要）のままにします。
 
 | 権限 | ツール |
 | --- | --- |
-| **Always allow** | Get flashcards usage guide; List flashcards workspaces; Next flashcard question; Reveal flashcard answer; Nibomo SQL query (read-only) |
+| **Always allow** | Get flashcards usage guide; `get_usage_limits`; List flashcards workspaces; Next flashcard question; Reveal flashcard answer; Nibomo SQL query (read-only) |
 | **Needs approval** | Nibomo SQL execute (write); Submit flashcard review |
 
 これでClaudeはワークスペースを探したりカードを読んだりできますが、データの変更や復習結果の送信には承認を求めます。読み取りにも承認を求めたい場合は、読み取りツールも承認が必要な設定にできます。

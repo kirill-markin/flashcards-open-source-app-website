@@ -2,7 +2,7 @@
 title: "Comment utiliser Claude pour étudier en 2026 : une méthode concrète"
 description: "Révisez vos notes avec Claude, répondez à une question à la fois, vérifiez les corrections et créez des cartes sur vos lacunes, en respectant les règles du cours sur l’IA."
 date: "2026-05-28"
-updated: "2026-09-30"
+updated: "2026-10-03"
 image: "/blog/how-to-use-claude-for-studying-v2.png"
 keywords:
   - "comment utiliser Claude pour étudier"
@@ -227,6 +227,8 @@ Si vous utilisez Nibomo, vous pouvez y connecter Claude via MCP pour lui faire e
 Lorsque des cartes sont à revoir, ouvrez l’[application Nibomo](https://app.nibomo.com/) ou révisez dans une conversation avec Claude ou Codex connecté à Nibomo via MCP. En conversation, demandez à l’assistant de présenter une question à la fois, d’attendre votre tentative, puis de révéler la réponse. Vous évaluez ensuite votre rappel ; l’assistant enregistre dans Nibomo l’évaluation que vous avez choisie pour cette révision.
 
 Nibomo utilise ces évaluations pour planifier les prochaines révisions, quel que soit l’endroit où vous avez étudié. Vous pouvez passer de l’application à la conversation en conservant le même calendrier de révision.
+
+> [Se connecter à Claude](https://claude.ai/directory/nibomo) · [Documentation](/docs/mcp-connector/)
 
 Pour établir la connexion, consultez le [guide pas à pas du connecteur Claude](/fr/blog/how-to-connect-flashcards-to-claude-with-mcp/) et la [documentation du connecteur MCP](/fr/docs/mcp-connector/). La copie manuelle reste possible si vous préférez ne pas connecter l’assistant.
 

@@ -2,7 +2,7 @@
 title: "AI Flashcard Tutor in 2026: Quiz Due Cards and Save FSRS Reviews Over MCP"
 description: "Connect Claude, ChatGPT, or Codex to Nibomo over MCP. The AI tutor quizzes your due cards, grades each answer, and saves the rating as an FSRS review."
 date: "2026-07-15"
-updated: "2026-09-16"
+updated: "2026-10-03"
 image: "/blog/ai-flashcard-tutor-due-cards.png"
 keywords:
   - "AI flashcard tutor"
@@ -47,6 +47,8 @@ Every MCP client uses the same server URL:
 
 `https://mcp.nibomo.com/mcp`
 
+> [Connect to Claude](https://claude.ai/directory/nibomo) · [Documentation](/docs/mcp-connector/)
+
 Interactive clients sign in through OAuth 2.1 with PKCE and Dynamic Client Registration. You approve access in the browser and don't paste a key or register an app first. Headless setups can send an `fca_` agent API key as a Bearer token instead. The [MCP connector docs](/docs/mcp-connector/) cover both paths and the full tool contract.
 
 Where you add the URL depends on the client:
@@ -59,7 +61,9 @@ You can also skip the connection entirely. The AI chat inside Nibomo has the sam
 
 ## Turn on only the tools a review needs
 
-The connector has seven tools. A review session uses five of them: `list_workspaces`, `get_guide`, `next_review_card`, `reveal_answer`, and `submit_review`. `sql_query` helps when you want the tutor to look up a deck or tag name. `sql_execute` creates, edits, and deletes cards and decks. A review never needs it, so block it for this session if your client lets you.
+The connector has eight tools. A review session uses five of them: `list_workspaces`, `get_guide`, `next_review_card`, `reveal_answer`, and `submit_review`. `sql_query` helps when you want the tutor to look up a deck or tag name. `sql_execute` creates, edits, and deletes cards and decks. A review never needs it, so block it for this session if your client lets you.
+
+`get_usage_limits` — strictly read-only account plan, limits, and current monthly AI usage; it does not read or change cards.
 
 `submit_review` has to stay on, since it's the only write in the loop. Nibomo marks it as destructive and not read-only, because it overwrites the card's due date, review counts, and FSRS state. Some clients use that marking to decide when to ask for your approval, which becomes useful when you want to check grades.
 

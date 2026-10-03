@@ -44,6 +44,14 @@
   margin-top: 28px;
 }
 
+.connectorLinks {
+  display: grid;
+  gap: 12px;
+  margin-block-start: 20px;
+  max-inline-size: 420px;
+  font-size: 14px;
+}
+
 .card {
   padding: 16px;
   border-radius: var(--radius-lg);

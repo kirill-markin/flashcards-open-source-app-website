@@ -2,6 +2,7 @@
 title: "How to Use Claude to Make Flashcards in 2026: Projects, File Uploads, and FSRS Review"
 description: "A practical 2026 Claude flashcard workflow: use Projects and file uploads to draft smaller, cleaner cards, then move the keepers into Nibomo for real FSRS review."
 date: "2026-06-11"
+updated: "2026-10-03"
 image: "/blog/how-to-use-claude-to-make-flashcards.png"
 keywords:
   - "how to use Claude to make flashcards"
@@ -13,6 +14,8 @@ keywords:
   - "make flashcards with Claude"
   - "FSRS flashcards"
 ---
+
+> [Connect to Claude](https://claude.ai/directory/nibomo) · [Documentation](/docs/mcp-connector/)
 
 Yesterday I dropped one lecture outline and one messy reading PDF into Claude and asked for flashcards. A few were solid. The rest had that familiar AI smell: technically correct, weirdly polished, and much harder to review than they looked on first read.
 
@@ -236,17 +239,11 @@ Those are different jobs.
 
 If you want the scheduler side in more detail, [FSRS vs SM-2 in 2026](/blog/fsrs-vs-sm-2/) is the direct follow-up.
 
-## Move the keepers into Nibomo without pretending there is a magic Claude integration
+## Save approved cards in Nibomo
 
-This part needs to stay honest.
+Open [Nibomo in the Claude directory](https://claude.ai/directory/nibomo), connect it, sign in to your Nibomo account, and authorize access. Nibomo is listed as a Community connector.
 
-There is no special Claude-to-Nibomo button here, and I would not pretend otherwise. The useful handoff is simpler:
-
-1. draft candidate cards in Claude
-2. delete or rewrite the weak ones
-3. copy the survivors into Nibomo AI chat or create the cards directly in the app
-4. organize them into decks and tags
-5. review the final deck with FSRS
+Ask Claude to save only the cards you have checked and approved through Nibomo’s MCP connector. Preview the destination workspace and write request, approve it, then check the saved cards in Nibomo before reviewing them with FSRS. Manual copying remains an option.
 
 [Nibomo](/) fits this workflow because the current product covers the part Claude does not finish on its own:
 
@@ -270,7 +267,7 @@ This is the version I would keep:
 3. Upload one small batch: a lecture, a reading section, or corrected practice questions.
 4. Ask Claude for plain front/back candidates.
 5. Delete or rewrite weak cards immediately.
-6. Move the survivors into Nibomo AI chat or create them directly in the app.
+6. Ask Claude to save only the cards you have checked and approved through Nibomo’s MCP connector. Preview the destination workspace and write request, approve it, then check the saved cards in Nibomo before reviewing them with FSRS. Manual copying remains an option.
 7. Review the final deck with FSRS.
 
 That is a more believable workflow than pretending Claude itself is the place where memory should live.

@@ -56,6 +56,7 @@ Connector मनमाने PostgreSQL की जगह parser से लाग
 | `list_workspaces` | उपयोगकर्ता की पहुँच वाले अधिकतम 100 workspaces की सूची देता है; साथ में ID, नाम, सक्रिय कार्डों की संख्या, पिछली गतिविधि और default workspace बताता है | नहीं | इसे तभी चालू करें जब account-level metadata का client तक जाना स्वीकार्य हो |
 | `sql_query` | माँगे गए एक workspace में `workspace`, `cards`, `decks` और `review_events` पढ़ता है | नहीं | पढ़ने के किसी तय काम के लिए चालू करें और सिर्फ़ ज़रूरी columns माँगें |
 | `sql_execute` | माँगे गए एक workspace में `cards` और `decks` के records जोड़ता, बदलता या deleted के रूप में mark करता है | हाँ | इसे तब तक बंद रखें, जब तक client लिखने की पहुँच को ऐसे सीमित न कर सके जो आपको स्वीकार हो |
+| `get_usage_limits` | केवल पढ़ने के लिए खाते का plan, limits और इस महीने का AI usage; यह cards को नहीं पढ़ता या बदलता। | नहीं | इसे तभी चालू करें जब account-level metadata का client तक जाना स्वीकार्य हो |
 | `get_guide` | SQL dialect, कार्ड लिखने, bulk authoring या review flow पर एक तय reference guide लौटाता है; workspace data नहीं पढ़ता | नहीं | चालू करें; यह documentation लौटाता है, आपके कार्ड नहीं |
 | `next_review_card` | माँगे गए एक workspace में रिव्यू के लिए अगले कार्ड का सामने वाला हिस्सा लौटाता है | नहीं | review session के लिए चालू करें, और याद रखें कि कार्ड का टेक्स्ट client तक पहुँचता है |
 | `reveal_answer` | माँगे गए एक workspace में एक कार्ड का पीछे वाला हिस्सा लौटाता है | नहीं | `next_review_card` के साथ ही चालू करें |

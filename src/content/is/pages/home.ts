@@ -27,7 +27,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
       },
       agentConnectors: [
         {
-          caption: "Bættu þessum MCP-þjóni við gervigreindarbiðlarann þinn:",
+          caption: "Eða tengdu hvaða gervigreindarbiðlara sem styður MCP með þessari vefslóð:",
           link: {
             label: "https://mcp.nibomo.com/mcp",
             href: "https://mcp.nibomo.com/mcp",

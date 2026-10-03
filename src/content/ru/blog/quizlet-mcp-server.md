@@ -3,6 +3,7 @@ title: "Есть ли у Quizlet MCP-сервер в 2026 году? Что до�
 description: "В 2026 году Quizlet не документирует MCP-сервер. Разбираем приложение для ChatGPT, экспорт только для авторов и безопасный путь к регулярному доступу из Claude или Codex."
 image: "/blog/quizlet-mcp-server.png"
 date: "2026-09-12"
+updated: "2026-10-03"
 keywords:
   - "Quizlet MCP"
   - "MCP-сервер Quizlet"
@@ -75,7 +76,11 @@ Nibomo публикует удалённый MCP-эндпоинт по адре�
 
 `https://mcp.nibomo.com/mcp`
 
-В [документации MCP-коннектора](/docs/mcp-connector/) описаны семь инструментов: `list_workspaces`, `sql_query` для чтения, `sql_execute` для записи, `get_guide` для справочных руководств, а также `next_review_card`, `reveal_answer` и `submit_review` для повторений. Интерактивные MCP-клиенты могут авторизоваться через OAuth. Терминальные агенты вместо этого могут начать с [документации Agent API](/docs/api/) и использовать опубликованный HTTP-сценарий.
+> [Подключить к Claude](https://claude.ai/directory/nibomo) · [Документация](/docs/mcp-connector/)
+
+В [документации MCP-коннектора](/docs/mcp-connector/) описаны восемь инструментов: `list_workspaces`, `sql_query` для чтения, `sql_execute` для записи, `get_guide` для справочных руководств, а также `next_review_card`, `reveal_answer` и `submit_review` для повторений. Интерактивные MCP-клиенты могут авторизоваться через OAuth. Терминальные агенты вместо этого могут начать с [документации Agent API](/docs/api/) и использовать опубликованный HTTP-сценарий.
+
+`get_usage_limits` — только чтение тарифа, лимитов и текущего месячного использования ИИ; не читает и не изменяет карточки.
 
 Это не превращает Nibomo в коннектор для Quizlet. Поддерживаемый процесс выглядит так:
 

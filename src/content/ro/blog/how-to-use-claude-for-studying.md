@@ -2,7 +2,7 @@
 title: "Cum să folosești Claude pentru învățare în 2026: un proces practic"
 description: "Învață cu Claude din propriile notițe, răspunde pe rând la întrebări, verifică răspunsurile corectate și creează fișe pentru lacune, respectând regulile cursului privind AI."
 date: "2026-05-28"
-updated: "2026-09-30"
+updated: "2026-10-03"
 image: "/blog/how-to-use-claude-for-studying-v2.png"
 keywords:
   - "cum să folosești Claude pentru învățare"
@@ -225,6 +225,8 @@ Cel mai simplu transfer funcționează cu orice aplicație de fișe de învăța
 Dacă folosești Nibomo, poți conecta Claude prin MCP, legătura dintre asistent și Nibomo. Cere-i lui Claude să-ți arate fișele propuse înainte de salvare și aprobă doar fișele pe care vrei să le păstrezi. Claude le poate salva apoi în Nibomo pentru recapitulări viitoare.
 
 Când vine momentul recapitulării, poți folosi [aplicația web](https://app.nibomo.com/) sau o conversație cu Claude ori Codex, după ce ai conectat asistentul la Nibomo prin MCP. În conversație, asistentul îți pune câte o întrebare și așteaptă încercarea ta înainte să dezvăluie răspunsul. Tu evaluezi cât de bine ți-ai amintit răspunsul, iar asistentul înregistrează evaluarea ta în Nibomo. Nibomo păstrează același program de recapitulare, indiferent dacă exersezi în aplicație sau în conversație.
+
+> [Conectează la Claude](https://claude.ai/directory/nibomo) · [Documentație](/docs/mcp-connector/)
 
 Pentru conectare, consultă [ghidul pentru Claude](/blog/how-to-connect-flashcards-to-claude-with-mcp/) și [documentația conectorului MCP](/docs/mcp-connector/). Ambele sunt în engleză. Poți în continuare să copiezi fișele manual, dacă preferi.
 

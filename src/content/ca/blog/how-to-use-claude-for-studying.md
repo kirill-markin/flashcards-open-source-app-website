@@ -2,7 +2,7 @@
 title: "Com fer servir Claude per estudiar el 2026: un mètode pràctic"
 description: "Estudia els teus apunts amb Claude, respon una pregunta cada vegada, verifica les correccions i converteix els punts febles en targetes respectant les normes d'IA del curs."
 date: "2026-05-28"
-updated: "2026-09-30"
+updated: "2026-10-03"
 image: "/blog/how-to-use-claude-for-studying-v2.png"
 keywords:
   - "com fer servir Claude per estudiar"
@@ -228,6 +228,8 @@ Si fas servir Nibomo, un cop hagis connectat Claude mitjançant MCP, li pots dem
 Quan toqui repassar, pots fer-ho a l'[aplicació web](https://app.nibomo.com/) o en un xat amb Claude o Codex connectat a Nibomo mitjançant MCP. Al xat, l'assistent et presenta una pregunta cada vegada, espera que intentis respondre i després et mostra la resposta. Tu valores com de fàcil o difícil t'ha estat recordar-la i l'assistent registra aquesta valoració del repàs a Nibomo.
 
 Nibomo manté un calendari de repassos compartit: tant si repasses a l'aplicació com al xat, els repassos següents es programen a partir del mateix historial. Pots triar l'opció que et vagi millor en cada sessió.
+
+> [Connecta amb Claude](https://claude.ai/directory/nibomo) · [Documentació](/docs/mcp-connector/)
 
 Per configurar la connexió, consulta la [guia del connector de Claude](/blog/how-to-connect-flashcards-to-claude-with-mcp/) i la [referència del connector MCP](/docs/mcp-connector/), totes dues en anglès. Si prefereixes no connectar l'assistent, pots continuar copiant les targetes manualment.
 

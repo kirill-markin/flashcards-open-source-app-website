@@ -2,6 +2,7 @@
 title: "2026年にClaudeでフラッシュカードを作る方法: Projects、ファイルアップロード、FSRSレビュー"
 description: "2026年版の実践的なClaudeフラッシュカード手順。Projectsとファイルアップロードで、小さく見直しやすいカード案を作り、残す価値があるものだけをNibomoへ移してFSRSで復習します。"
 date: "2026-06-11"
+updated: "2026-10-03"
 image: "/blog/how-to-use-claude-to-make-flashcards.png"
 keywords:
   - "Claudeでフラッシュカードを作る方法"
@@ -13,6 +14,8 @@ keywords:
   - "Claudeでカードを作る"
   - "FSRS フラッシュカード"
 ---
+
+> [Claude に接続](https://claude.ai/directory/nibomo) · [ドキュメント](/docs/mcp-connector/)
 
 昨日、講義のアウトライン1本と、かなり散らかった読書用PDFを1本、Claudeに入れてフラッシュカードを作らせました。いくつかは良かったです。残りは、いかにもAIっぽい感じがありました。内容は正しいのに妙に整いすぎていて、見た目ほど復習向きではない。
 
@@ -236,17 +239,11 @@ FSRSが扱うのは忘却です。
 
 スケジューラ側をもう少し詳しく見たいなら、[2026年のFSRS vs SM-2](/ja/blog/fsrs-vs-sm-2/) がそのまま続きになります。
 
-## Claudeとの魔法みたいな統合を装わず、残すカードだけをNibomoへ移す
+## 確認済みのカードを Nibomo に保存する
 
-ここは率直でいたいです。
+[Claude ディレクトリの Nibomo](https://claude.ai/directory/nibomo) を開いて接続し、Nibomo アカウントにログインしてアクセスを許可してください。Nibomo は Community コネクタとして掲載されています。
 
-特別なClaude-to-Nibomoボタンがあるわけではありません。そこは盛らないほうがいいです。役に立つ受け渡しは、もっと単純です。
-
-1. Claudeでカード候補を下書きする
-2. 弱いものを削るか書き直す
-3. 生き残ったものをNibomoのAIチャットに貼るか、アプリ内で直接カードを作る
-4. デッキとタグで整理する
-5. 最後のデッキをFSRSで復習する
+確認して承認したカードだけを Nibomo の MCP コネクタ経由で保存するよう Claude に依頼してください。保存先のワークスペースと書き込み要求を確認して承認し、FSRS で復習する前に Nibomo で保存結果を確認します。手動でコピーすることもできます。
 
 [Nibomo](/ja/) がこの流れに合うのは、Claudeだけでは終わらない部分を今の製品がきちんと持っているからです。
 

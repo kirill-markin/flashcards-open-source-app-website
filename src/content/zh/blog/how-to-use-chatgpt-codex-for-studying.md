@@ -2,6 +2,7 @@
 title: "2026 年如何用 ChatGPT 和 Codex 学习：通过 MCP 保存闪卡"
 description: "用 ChatGPT Study Mode 找出薄弱点，在 ChatGPT 桌面应用中让 Codex 通过 Nibomo MCP 保存选中的卡片，再用 FSRS 复习。"
 date: "2026-08-02"
+updated: "2026-10-03"
 image: "/blog/how-to-use-chatgpt-codex-for-studying.png"
 keywords:
   - "如何用 ChatGPT 和 Codex 学习"
@@ -106,7 +107,9 @@ https://mcp.nibomo.com/mcp
 
 Codex 应该先调用只读的工作区工具。等你选好工作区和整理方式后，它才能准备写入。批准前，请检查工作区、卡片正面与背面、标签、牌组改动，以及会影响多少条记录。
 
-连接器提供七个工具：
+连接器提供八个工具：
+
+`get_usage_limits` — 只读查询账户套餐、限额和本月 AI 用量；不会读取或修改卡片。
 
 | 工具 | 能做什么 | 会写入数据吗？ |
 | --- | --- | --- |

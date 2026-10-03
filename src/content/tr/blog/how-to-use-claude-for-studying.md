@@ -2,7 +2,7 @@
 title: "2026'da Claude ile Nasıl Ders Çalışılır? Uygulanabilir Bir Yöntem"
 description: "Claude ile kendi notlarınızdan çalışın, soruları tek tek yanıtlayın, düzeltmeleri doğrulayın ve dersinizin yapay zekâ kurallarına uyarak eksiklerinizi bilgi kartlarına dönüştürün."
 date: "2026-05-28"
-updated: "2026-09-30"
+updated: "2026-10-03"
 image: "/blog/how-to-use-claude-for-studying-v2.png"
 keywords:
   - "Claude ile nasıl ders çalışılır"
@@ -223,6 +223,8 @@ Nibomo kullanıyorsanız Claude’u MCP üzerinden bağlayıp onayladığınız 
 Kartların tekrar zamanı geldiğinde [Nibomo uygulamasını](https://app.nibomo.com/) açabilir veya MCP üzerinden Nibomo’ya bağladığınız Claude ya da Codex ile sohbette çalışabilirsiniz. Sohbette asistandan her seferinde tek bir soru sormasını, yanıtlamayı denemenizi beklemesini ve ancak sonra yanıtı göstermesini isteyin. Yanıtı gördükten sonra ne kadar iyi hatırladığınızı siz değerlendirin; asistan seçtiğiniz tekrar değerlendirmesini Nibomo’ya kaydeder.
 
 Nibomo, ister uygulamada ister sohbette çalışmış olun, bu değerlendirmelerle sonraki tekrarları planlar. Böylece aynı tekrar takvimini koruyarak uygulama ile sohbet arasında geçiş yapabilirsiniz.
+
+> [Claude ile bağlan](https://claude.ai/directory/nibomo) · [Dokümantasyon](/docs/mcp-connector/)
 
 Bağlantıyı kurmak için İngilizce [adım adım Claude bağlayıcısı rehberine](/blog/how-to-connect-flashcards-to-claude-with-mcp/) ve [MCP bağlayıcısı başvuru belgesine](/docs/mcp-connector/) bakın. Asistanı bağlamak istemiyorsanız kartları elle kopyalamaya devam edebilirsiniz.
 

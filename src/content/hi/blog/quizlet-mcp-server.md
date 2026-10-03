@@ -3,6 +3,7 @@ title: "क्या 2026 में Quizlet का MCP Server है? Claude औ
 description: "2026 में Quizlet किसी MCP server का दस्तावेज़ीकरण नहीं करता। ChatGPT app, केवल creator के लिए export और Claude या Codex की नियमित पहुँच का सुरक्षित रास्ता समझें।"
 image: "/blog/quizlet-mcp-server.png"
 date: "2026-09-12"
+updated: "2026-10-03"
 keywords:
   - "Quizlet MCP"
   - "Quizlet MCP server"
@@ -74,6 +75,8 @@ Separators, CSV और files से जुड़ी पूरी checklist [2026
 Nibomo का remote MCP endpoint यह है:
 
 `https://mcp.nibomo.com/mcp`
+
+> [Claude से कनेक्ट करें](https://claude.ai/directory/nibomo) · [डॉक्यूमेंटेशन](/docs/mcp-connector/)
 
 उसके [MCP connector के दस्तावेज़ों](/docs/mcp-connector/) में सात tools बताए गए हैं: `list_workspaces`, पढ़ने के लिए `sql_query`, लिखने के लिए `sql_execute`, reference guides के लिए `get_guide`, और reviews के लिए `next_review_card`, `reveal_answer` तथा `submit_review`। Interactive MCP clients OAuth से अनुमति ले सकते हैं। Terminal agents इसके बजाय [Agent API के दस्तावेज़ों](/docs/api/) से शुरुआत करके प्रकाशित HTTP flow इस्तेमाल कर सकते हैं।
 

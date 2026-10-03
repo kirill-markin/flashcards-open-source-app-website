@@ -1,7 +1,21 @@
 ---
 title: MCP कनेक्टर
-description: रिमोट Nibomo MCP सर्वर को कस्टम कनेक्टर के रूप में जोड़ें, क्लाइंट के लिए OAuth, हेडलेस उपयोग के लिए API key, और अलग-अलग पढ़ने व लिखने वाले SQL टूल के साथ.
+description: "Claude डायरेक्टरी से Nibomo कनेक्ट करें या Claude Code और दूसरे clients में उसका remote MCP server सेट करें। OAuth और flashcards व reviews के लिए आठ tools उपलब्ध हैं।"
 ---
+
+## Claude डायरेक्टरी से कनेक्ट करें
+
+[Claude डायरेक्टरी में Nibomo](https://claude.ai/directory/nibomo) खोलें, उसे कनेक्ट करें, अपने Nibomo खाते में साइन इन करें और ऐक्सेस की अनुमति दें। Nibomo को Community connector के रूप में सूचीबद्ध किया गया है।
+
+Claude Code में उसी Claude subscription खाते का उपयोग करें और कनेक्ट करने के बाद `/mcp` देखें। API key या किसी बाहरी provider से लॉगिन करने पर claude.ai connectors अपने आप लोड नहीं होते।
+
+आप Claude Code को सीधे भी कॉन्फ़िगर कर सकते हैं। नीचे दिया गया कमांड चलाएँ, फिर Claude Code में `/mcp` खोलें और ब्राउज़र में authorization पूरा करें:
+
+```bash
+claude mcp add --transport http nibomo https://mcp.nibomo.com/mcp
+```
+
+[Claude Code MCP documentation](https://code.claude.com/docs/en/mcp#use-mcp-servers-from-claudeai).
 
 ## परिचय
 
@@ -19,10 +33,7 @@ MCP क्लाइंट के लिए सबसे अच्छा), या
 https://mcp.nibomo.com/mcp
 ```
 
-ट्रांसपोर्ट Streamable HTTP है, और सर्वर सात टूल उपलब्ध कराता है: एक छोटी, जानबूझकर
-सीमित रखी गई SQL सतह पर दो SQL टूल, एक workspace सूची, एक संदर्भ गाइड, और तीन
-समीक्षा टूल। यह वही प्रति-उपयोगकर्ता डेटा सतह है जो [API संदर्भ](/docs/api/)
-में है; MCP सर्वर इसे MCP बोलने वाले क्लाइंट से पहुँचने का कनेक्टर-अनुकूल तरीका है।
+ट्रांसपोर्ट Streamable HTTP है। सर्वर workspace खोजने, cards और decks पढ़ने व लिखने, reference guides, reviews और खाते के usage के लिए आठ tools उपलब्ध कराता है।
 
 ## इसे अपने क्लाइंट में कैसे जोड़ें
 
@@ -42,9 +53,10 @@ https://mcp.nibomo.com/mcp
 
 ## टूल
 
-सर्वर सात टूल उपलब्ध कराता है। पढ़ने और लिखने को जानबूझकर अलग रखा गया है ताकि कोई एक
+सर्वर आठ टूल उपलब्ध कराता है। पढ़ने और लिखने को जानबूझकर अलग रखा गया है ताकि कोई एक
 टूल कभी सुरक्षित और विनाशकारी कार्यों को आपस में न मिलाए।
 
+- `get_usage_limits` — केवल पढ़ने के लिए खाते का plan, limits और इस महीने का AI usage; यह cards को नहीं पढ़ता या बदलता।
 - `sql_query` — आपके कार्ड और डेक तक सख्ती से केवल पढ़ने की पहुँच
   (`SHOW TABLES`, `DESCRIBE`, `SHOW COLUMNS`, `SELECT`)।
 - `sql_execute` — आपके कार्ड और डेक तक एक परमाणु बैच के रूप में लिखने की पहुँच (`INSERT`, `UPDATE`,
@@ -153,7 +165,7 @@ SQL टूल को अनुमोदित करना सुरक्षि
   वाला `workspaceId` आपके डिफ़ॉल्ट workspace पर चलने के बजाय विफल हो जाता है।
 - **सीमाएँ**: प्रति स्टेटमेंट अधिकतम `100` पंक्तियाँ, प्रति बैच अधिकतम `50` स्टेटमेंट, और
   परिणाम की सीमा लगभग `12k` टोकन। म्यूटेशन बैच परमाणु रूप से लागू होते हैं।
-- **पढ़ने/लिखने का विभाजन**: `sql_query`, `list_workspaces`, `get_guide`,
+- **पढ़ने/लिखने का विभाजन**: `get_usage_limits`, `sql_query`, `list_workspaces`, `get_guide`,
   `next_review_card`, और `reveal_answer` सख्ती से केवल पढ़ने के लिए हैं (`readOnlyHint`)
   और डेटा की मरम्मत, scheduling की पुनर्गणना, या कार्ड state में बदलाव कभी नहीं करते।
   `sql_execute` और `submit_review` ही एकमात्र write tools हैं (`destructiveHint`):

@@ -2,7 +2,7 @@
 title: "2026 年如何用 Claude 学习：从资料核查到闪卡复习"
 description: "如何用 Claude 学习：基于自己的笔记逐题主动回忆，核实每次订正，只在课程 AI 规则允许时把薄弱点做成闪卡。"
 date: "2026-05-28"
-updated: "2026-09-30"
+updated: "2026-10-03"
 image: "/blog/how-to-use-claude-for-studying-v2.png"
 keywords:
   - "如何用 Claude 学习"
@@ -220,6 +220,8 @@ Anthropic 的[网页搜索指南](https://support.claude.com/en/articles/1068462
 卡片到了复习时间，你可以打开 [Nibomo 应用](https://app.nibomo.com/)，也可以在通过 MCP 连接到 Nibomo 的 Claude 或 Codex 对话中复习。在对话里，让助手一次只出一道题，等你先尝试作答，再显示答案。看过答案后，由你评价自己这次记得怎么样，助手会把你给出的复习评分记录到 Nibomo。
 
 无论在哪个界面复习，Nibomo 都会根据这些评分安排后续复习。你可以这次在应用里复习，下次换到对话中，继续使用同一份复习计划。
+
+> [连接到 Claude](https://claude.ai/directory/nibomo) · [文档](/docs/mcp-connector/)
 
 连接设置见 [Claude 连接器分步指南](/blog/how-to-connect-flashcards-to-claude-with-mcp/)和 [MCP 连接器参考文档](/docs/mcp-connector/)。如果不想连接助手，仍然可以手动复制卡片。
 

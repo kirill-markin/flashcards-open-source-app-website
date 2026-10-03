@@ -2,6 +2,7 @@
 title: "كيف تجعل Claude Code أو Codex أو OpenClaw يسجّل الدخول إلى Nibomo بدلًا منك"
 description: "يوفّر Nibomo مسار تسجيل دخول مفتوح المصدر للوكلاء يبدأ من رابط اكتشاف واحد، ورمز تحقق لمرة واحدة عبر البريد الإلكتروني، ومفتاح API طويل الأمد. أعطِ وكيلك رابطًا واحدًا، ثم أرسل له أحدث رمز مكوّن من 8 أرقام من البريد، ودعه يُكمل إعداد الحساب ومساحة العمل بنفسه."
 date: "2026-03-10"
+updated: "2026-10-03"
 keywords:
   - "claude code login"
   - "codex login"
@@ -10,6 +11,8 @@ keywords:
   - "open source flashcards app"
   - "open source api authentication"
 ---
+
+> [الاتصال بـ Claude](https://claude.ai/directory/nibomo) · [التوثيق](/docs/mcp-connector/)
 
 ما تزال معظم مسارات تسجيل الدخول تفترض أن المستخدم هو من سينفّذ كل خطوات الإعداد يدويًا.
 

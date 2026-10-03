@@ -2,6 +2,7 @@
 title: "Cómo usar ChatGPT y Codex para estudiar en 2026: guarda flashcards con MCP"
 description: "Usa ChatGPT Study Mode para detectar puntos débiles, guarda con Codex y Nibomo MCP las tarjetas que elijas en la app de escritorio y repásalas con FSRS."
 date: "2026-08-02"
+updated: "2026-10-03"
 image: "/blog/how-to-use-chatgpt-codex-for-studying.png"
 keywords:
   - "cómo usar ChatGPT y Codex para estudiar"
@@ -109,7 +110,9 @@ guardadas para que pueda comprobarlas.
 
 Codex debería empezar con la herramienta de solo lectura que lista los workspaces. Cuando elijas el workspace y cómo organizar las tarjetas, podrá preparar la escritura. Antes de aprobarla, comprueba el workspace, los anversos, los reversos, las etiquetas, los cambios en los mazos y el número de registros afectados.
 
-El conector ofrece siete herramientas:
+El conector ofrece ocho herramientas:
+
+`get_usage_limits` — consulta de solo lectura del plan, los límites y el uso mensual actual de IA; no lee ni modifica tarjetas.
 
 | Herramienta | Qué puede hacer | ¿Escribe datos? |
 | --- | --- | --- |
