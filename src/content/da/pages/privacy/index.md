@@ -1,0 +1,149 @@
+---
+title: Privatlivspolitik
+description: Privatlivspolitik for Nibomo.
+slug: privacy
+sections:
+  - type: legal_page
+    lastUpdated: oktober 2026
+---
+## Operatør og anvendelsesområde
+
+Den hostede Nibomo-tjeneste drives af SAMO DANNI EOOD, virksomheds-ID 207395566, VAT BG207395566, registreret adresse bulv. Maritza 154, entrance D, floor 6 #14, 4018, Plovdiv, Bulgaria. Nibomo er skabt af Kirill Markin.
+
+Denne politik gælder for det hostede website, de hostede apps, API'et og MCP-tjenesten, som vi driver. En selvhostet instans kontrolleres af sin operatør, som er ansvarlig for, hvordan den håndterer personoplysninger.
+
+## Alder
+
+Den hostede tjeneste er for personer på 13 år eller derover. Hvis loven, hvor du bor, fastsætter en højere minimumsalder for at bruge en onlinetjeneste eller for at give samtykke til databehandling, gælder den højere alder. Hvis du er under 18 år, skal du have tilladelse fra en forælder eller værge.
+
+## Data, vi behandler
+
+Afhængigt af hvordan du bruger den hostede tjeneste, behandler vi:
+
+- konto- og godkendelsesdata, herunder din e-mailadresse, interne bruger-id'er, loginregistreringer og godkendelsestokens;
+- lærings- og arbejdsområdedata, herunder kort, bunker, indstillinger, medlemskaber af arbejdsområder, repetitionshistorik og synkroniseringsmetadata;
+- filer og medier, som du uploader eller opretter, herunder billeder og midlertidige uploaddata;
+- valgfri AI-data, herunder prompts, chathistorik, kontekst fra kort eller arbejdsområder, filer og billeder, der indgår i en forespørgsel, dikteret lyd, transskriptioner, modelsvar og værktøjsaktivitet;
+- support- og feedbackdata, herunder beskeder, din kontakt-e-mail, når du oplyser den, appversion, platform, landestandard og tilhørende statusoplysninger;
+- drifts- og sikkerhedsdata, herunder forespørgsels-id'er, tidsstempler, IP-adresse, user agent, rute, svarstatus, appversion, oplysninger om enhed eller platform samt rensede fejldiagnoser; og
+- data om brug af websitet og produktet i appen, som er beskrevet i afsnittene Analyse og cookies samt Produktanalyse nedenfor.
+
+Der kræves en e-mailadresse for at oprette og logge ind på en hostet konto. Uden den kan vi ikke tilbyde godkendelse via e-mail eller kontobaseret synkronisering. Begrænsede gæstefunktioner eller lokale funktioner kan være tilgængelige uden at være logget ind på en konto.
+
+## Formål og retsgrundlag
+
+Vi behandler konto-, arbejdsområde-, repetitions- og fildata samt de AI-data, du anmoder om, i det omfang det er nødvendigt for at levere den hostede tjeneste og opfylde vores aftale med dig. Vi behandler supporthenvendelser for at svare dig og yde den hjælp, du har bedt om.
+
+Vi behandler begrænsede analyse-, sikkerheds- og diagnosedata samt data til forbedring af tjenesten på grundlag af vores legitime interesser i at forstå brugen, forhindre misbrug, holde tjenesten sikker og rette fejl. Vi afvejer disse interesser mod dine rettigheder og minimerer eller maskerer diagnosedata, hvor det er praktisk muligt. Vi kan også behandle data, når det er nødvendigt for at overholde en retlig forpligtelse eller for at fastlægge, gøre gældende eller forsvare retskrav. Hvor gældende lov kræver samtykke til en bestemt aktivitet, baserer vi os på samtykke, og du kan til enhver tid trække det tilbage.
+
+Vi sælger ikke dine personoplysninger og bruger dem ikke til målrettet annoncering.
+
+## Køb og abonnementer via Apple
+
+Apple behandler betalinger for køb i App Store; vi modtager ikke dine kort- eller bankoplysninger via Apples fakturering. Vi modtager og gemmer købsregistreringer, herunder transaktions- og produkt-id'er, et app-kontotoken, der knytter købet til din konto, abonnements- og prøveperiodestatus, oplysninger om fornyelse og refusion samt relevante datoer.
+
+Vi bruger disse registreringer til at verificere køb, give og gendanne betalt adgang, håndtere support, afstemme transaktioner, føre regnskab og analysere brugen af produktet. Faktureringsregistreringer på serversiden opbevares, selv når du slår produktanalyse fra i appen.
+
+## Analyse og cookies
+
+Marketingwebsitet bruger Vercel Web Analytics til at måle sidevisninger og udvalgte klikhændelser på sitet. Den tjeneste fungerer uden analysecookies, men websitet sætter selv én, som er beskrevet nedenfor. Ved sidevisninger kan Vercel modtage tidspunktet for hændelsen, sidens URL og filtrerede forespørgselsparametre, henvisningskilde, omtrentlig placering, browser, operativsystem og enhedstype. Vores egne klikhændelser indeholder begrænsede egenskaber som landestandard, platform, linkplacering eller interaktionstype. Vi medtager ikke bevidst navne, e-mailadresser, kortindhold eller konto-id'er i disse hændelser. Vercel aggregerer dataene og knytter ikke et datapunkt til en person eller en IP-adresse; dets daglige besøgshash kasseres efter 24 timer. Når din browser sender et Global Privacy Control-signal, sender websitet slet intet til Vercel Web Analytics.
+
+Derudover sender websitet hændelser til vores egen indsamler til produktanalyse: en sidevisningshændelse for hver side, du åbner; en klikhændelse, når du følger et link ind i webappen, til en appbutik eller til installation af en bunke fra kataloget; hvad du søger efter, filtrerer, sorterer, bladrer igennem og åbner i det offentlige katalog over bunker; et klik på et link, der fører væk fra sitet; kopiering af agentens endpoint; at banneret med sprogforslag bliver vist, og dit svar på det; samt cookievalget og indsamlingskontakten, der er beskrevet nedenfor. Afhængigt af hændelsen indeholder de sidetypen, det offentlige versions-id for pakken på katalogets bunkesider og installationslinks, linkplacering, om et klik ind i webappen gjaldt log ind, opret konto eller åbn app, om et cookiesvar blev givet i banneret eller i analysekontrollen i hjørnet, det sprog, banneret med sprogforslag tilbød, sidens grænsefladesprog, browserens enhedssprog, kildekategori, enhedskategori og `analytics_visitor`-identifikatoren, der er beskrevet nedenfor, når din browser har en. En sidevisningshændelse indeholder også værten for det site, du kom fra, angivet ud fra en liste over kendte søge- og sociale sites og som `other` for alt andet, samt parametrene `utm_source`, `utm_medium` og `utm_campaign` fra den adresse, du ankom til. En søgning, et filter, en sortering eller et sideskift i kataloget indeholder, hvor mange resultater du så, og hvad du valgte: filterhandlingen — tilføjelse, valg, fjernelse eller rydning — med dens kategori og hvor mange filtre der er valgt bagefter, sorteringsrækkefølgen eller sidenummeret sammen med det samlede antal sider. Når du åbner en bunke fra kataloget, indeholder hændelsen bunkens offentlige id og det sted på siden, du åbnede den fra, men intet antal resultater. En søgning i kataloget indeholder også længden af det, du skrev, og selve teksten, men kun når den normaliserede tekst er højst 64 tegn lang og udelukkende består af bogstaver, de tegn, der kombineres med dem, cifre, mellemrum og bindestreger; enhver anden søgning angives kun ved sin længde og bliver aldrig forkortet, så den passer. Vores server udleder en landekode på to bogstaver fra den adresse, hver hændelse kommer fra, og gemmer den sammen med hændelsen; den gemmer ingen adresse, og den udleder intet land for de hændelser, der slet ikke indeholder nogen identifikator, som er beskrevet nedenfor. Når din browser sender et Global Privacy Control-signal, anmoder websitet ikke om nogen besøgsidentifikator og viser intet samtykkebanner, mens hændelserne ovenfor stadig når vores egen indsamler uden den identifikator, og alle undtagen de hændelser, der slet ikke indeholder nogen identifikator, får den daglige identifikator, der er beskrevet nedenfor. Vi læser ikke indstillingen Do Not Track.
+
+Den hostede webapp bruger strengt nødvendige cookies som `otp_session`, `session`, `refresh` og `logged_in` til at gennemføre godkendelse, opretholde en session, forny adgang og vise, at du er logget ind. Hvis du deaktiverer disse cookies, virker login-flowet i browseren ikke.
+
+Marketingwebsitet og den hostede webapp deler én førstepartscookie til analyse, `analytics_visitor`. Den indeholder en tilfældig besøgsidentifikator, kan læses af vores egne scripts i browseren og udløber efter 13 måneder. Vi bruger den til at genkende den samme browser på tværs af besøg, så hændelser viser en tilbagevendende besøgende i stedet for en ny hver gang. Den er ikke strengt nødvendig. Dette valg gælder kun, om din browser har den identifikator; om websitet overhovedet indsamler noget, er en separat kontakt, som er beskrevet nedenfor. Hvor der kræves samtykke, herunder i EU/EØS og Storbritannien, sætter vi den først, når du har sagt ja: websitet spørger med et banner, og indtil du svarer, anmoder det ikke om nogen identifikator og knytter ingen til noget af det, det sender, mens de hændelser, der er beskrevet ovenfor, stadig sendes uden den, og alle undtagen de hændelser, der slet ikke indeholder nogen identifikator, får den daglige identifikator, der er beskrevet i næste afsnit. Hvor der ikke kræves samtykke, sætter vi den uden at spørge. Under alle omstændigheder kan du til enhver tid slå den fra via analysekontrollen i hjørnet af hver side på websitet eller i webappens indstillinger; vi fjerner så cookien fra din browser og holder op med at bruge den. Dit svar gemmes i din browser, så du ikke bliver spurgt igen. Når din browser sender et Global Privacy Control-signal, fjerner vi den cookie og dermed også et svar, der havde tilladt den, så browseren behandles som en ny, hvis signalet senere slås fra: den får vist banneret, hvor der kræves samtykke, og får cookien uden at blive spurgt, hvor der ikke kræves samtykke. Et svar, der afviste cookien, bevares og gælder fortsat. Vi registrerer også dette cookievalg som hændelser: at banneret blev vist, og hvad du svarede, uanset hvor du svarede — i banneret eller i analysekontrollen i hjørnet, som rummer det samme valg. Det registrerede svar angiver, hvilket af de to steder det blev givet. Hændelsen for, at banneret blev vist, og hændelsen for et afvisende svar indeholder slet ingen identifikator; hændelsen for et accepterende svar indeholder den identifikator, du netop har tilladt. Selve hændelserne opbevares, så længe vi har brug for dem til de formål, der er beskrevet i denne politik.
+
+Når en hændelse når vores indsamler uden `analytics_visitor`-identifikatoren, for eksempel fordi du afviste cookien, endnu ikke har svaret eller har slået den fra, udleder vores server en midlertidig identifikator fra forespørgslens IP-adresse og browserens user agent kombineret med en tilfældig værdi, der skifter hver UTC-dag og slettes, når dagen er omme. Selve IP-adressen gemmes ikke i vores analysedata. Denne identifikator forbinder kun den pågældende dags hændelser fra den samme browser og IP-adresse. Den gemmes aldrig i din browser, knyttes aldrig til `analytics_visitor`-identifikatoren eller til en konto, knyttes aldrig til en registrering af dit samtykkesvar og kan ikke genberegnes, når dagens tilfældige værdi er slettet. Vi bruger den til at forstå, hvordan besøgende bruger websitet, på grundlag af vores legitime interesse, som er beskrevet i afsnittet Formål og retsgrundlag. En browser, der sender et Global Privacy Control-signal, har aldrig `analytics_visitor`-identifikatoren, så dens hændelser får denne daglige identifikator ligesom enhver anden browser uden den cookie. De hændelser, der slet ikke indeholder nogen identifikator, får hverken denne daglige identifikator eller et land: at samtykkebanneret bliver vist, et afvisende svar samt at dette websites indsamling slås fra eller til igen. De indeholder ingen `analytics_visitor`-identifikator, ingen daglig identifikator og intet land — kun hvad der skete og, for et cookiesvar, hvor du gav det.
+
+Analysekontrollen i hjørnet af hver side på websitet rummer kontakten, der slår dette websites indsamling fra, og ved siden af den samtykket til analysecookien, der er beskrevet ovenfor; når du har svaret på banneret, rummer kontrollen også det cookievalg, så længe indsamlingen er slået til, og tilbyder det igen, når du slår indsamlingen til igen. Når din browser sender et Global Privacy Control-signal, rummer kontrollen kun den kontakt: vi giver slet ikke den browser nogen analysecookie, så der er intet cookievalg at tilbyde. Når du slår den fra, sendes én sidste hændelse, der kun registrerer, at den blev slået fra, og når du slår den til igen, sendes den tilsvarende; ingen af dem indeholder nogen identifikator, nogen daglig identifikator eller noget land. Mens indsamlingen er slået fra, sender websitet ingen andre hændelser om dit besøg, hverken til vores indsamler eller til Vercel Web Analytics, og det anmoder ikke om nogen besøgsidentifikator; da intet andet når vores indsamler, udledes der heller ingen daglig identifikator. Den er slået til, medmindre du slår den fra, på grundlag af den legitime interesse, der er beskrevet i afsnittet Formål og retsgrundlag. Dette website har ingen konti, så dit svar gemmes i den browser og virker kun der; den hostede webapp har sin egen indstilling, og iOS- og Android-apps har den fra den appversion, der indfører den, begge dele beskrevet i afsnittet Produktanalyse.
+
+## Produktanalyse
+
+Den hostede webapp og iOS- og Android-apps sender os hændelser om brugen af produktet. Disse hændelser sendes til vores egen infrastruktur og gemmes i vores egen database; vi bruger ikke nogen ekstern analyseudbyder til dem.
+
+Hændelserne beskriver skærmbilleder, varighed og antal af repetitionssessioner, og om handlinger lykkes eller mislykkes. De kan indeholde installations- og sessions-id'er og, hvor det er relevant, arbejdsområde- og konto-id'er. Disse apphændelser indeholder ikke fritekst, indhold fra kort eller bunker eller din e-mailadresse.
+
+Hvor klientversionen understøtter det, registreres grænsefladesproget, når hver hændelse indtræffer, før den sættes i offline-kø. Enhedssproget er separat og kan afvige fra grænsefladesproget. Installationsprofiler indeholder den aktuelle tekniske kontekst, herunder platform, app- og operativsystemversioner, enhedssprog og tidszone, når klienten leverer dem. Noget teknisk kontekst forbliver også på de enkelte hændelser af hensyn til kompatibilitet. Ældre klienter eller hændelser kan mangle grænsefladesprog; vi udleder ikke manglende værdier fra enhedssprog eller tidszone.
+
+Til analyse af målgruppen anslår vi forbindelseslandet ud fra den IP-adresse, som vores API-gateway modtager ved kvalificerede direkte forespørgsler fra appen, højst én gang pr. installation pr. UTC-dag, når den opretter forbindelse. Vi slår adressen op i en MaxMind GeoLite Country-database, der ligger i vores egen AWS-infrastruktur. Adressen behandles i hukommelsen under forespørgslen, gemmes ikke i produktanalysen og sendes ikke til MaxMind. Vores konfigurerede adgangslogge i API Gateway udelader den rå IP-adresse; netværksinfrastrukturen behandler stadig IP-adresser for at håndtere forespørgsler. Landet er omtrentligt, kan være ukendt eller påvirket af en VPN og identificerer hverken bopæl, nationalitet eller præcis placering. Serverrelæer, AI-klienter og forespørgsler med hændelser fra websitet leverer ikke installationsland. Derudover indeholder en hændelse, der når vores indsamler uden kontolegitimationsoplysninger — hændelserne fra websitet, der er beskrevet ovenfor, hændelser fra den hostede webapp, mens man er logget ud, og hændelser fra vores logintjeneste — en landekode på to bogstaver, som vores server udleder ved modtagelsen fra den adresse, forespørgslen kommer fra, og som kan være et relæs adresse i stedet for din; vi gemmer den kode sammen med hændelsen, gemmer ingen adresse og udleder intet land for de hændelser, der slet ikke indeholder nogen identifikator. Vi anvender ikke landet fra uploadtidspunktet på tidligere offlinehændelser.
+
+Landehistorikken består af spredte observationer, der forlænger en periode, når det registrerede land er uændret, og starter en ny, når det ændrer sig. Periodernes grænser beviser ikke daglig aktivitet eller uafbrudt tilstedeværelse mellem observationerne. Feedback registrerer separat forbindelseslandet, når indsendelsen accepteres første gang, ikke når et offlineudkast blev oprettet.
+
+Dette produkt indeholder GeoLite-data skabt af MaxMind, tilgængelige fra [MaxMind](https://www.maxmind.com).
+
+Analysecookien og produktanalysen er to separate valg, og ingen af dem udledes af den anden. Hvis du afviser analysecookien, der er beskrevet ovenfor, eller senere trækker dit samtykke til den tilbage, stopper det kun den fælles besøgsidentifikator: selve hændelserne indsamles stadig, og mens du er logget ind, forbliver de knyttet til din konto.
+
+Produktanalysen har sin egen indstilling, der slår denne indsamling fra. Mens den er slået fra, registrerer og sender appen ingen hændelser om brugen af produktet, og vores API kasserer enhver batch, der alligevel ankommer for en konto eller gæstesession, der har slået den fra. Den er slået til, medmindre du slår den fra, fordi vi behandler disse hændelser på grundlag af den legitime interesse, der er beskrevet i afsnittet Formål og retsgrundlag, og ikke på grundlag af samtykke; derfor beder vi aldrig om samtykke til den, og en person, der har afvist analysecookien, har den stadig slået til. Den omfatter kun hændelser om brugen af produktet, som apps rapporterer; fejl- og nedbrudsrapportering samt vores egne registreringer på serversiden af det arbejde, tjenesten udfører, ligger uden for den.
+
+I den hostede webapp findes indstillingen i webappens indstillinger: dit svar gemmes i den browser og, mens du er logget ind, også på din konto, og en browser, der har slået den fra, bliver aldrig slået til igen af en konto, der har den slået til. iOS- og Android-apps registrerer svaret på enheden og, så snart der er en konto eller gæstesession at gemme det på, også dér, og de prøver igen, indtil det er gemt; enhedens eget svar afgør, hvad den enhed sender, så et svar, der er registreret et andet sted, ikke kan starte indsamlingen dér igen. I de apps vises indstillingen i appens indstillinger fra den appversion, der indfører den; en appversion, der er udgivet uden den, bliver ved med at sende hændelser, og vores API kasserer enhver batch, der alligevel ankommer for en konto eller gæstesession, der har slået indstillingen fra. Den kassering kræver en konto eller gæstesession, der rummer dit svar, så på en installation, der ikke har nogen af delene, er det enhedens egen registrering, der stopper afsendelsen. Marketingwebsitet har sin egen kontakt, som er beskrevet i afsnittet Analyse og cookies, og den virker kun for den browser.
+
+Når du slår indstillingen fra, stopper fremtidig indsamling. Det sletter ikke hændelser, der allerede er registreret: hændelser i produktanalysen kan kun tilføjes. Sletning af kontoen sletter de tilknyttede installationsprofiler og anonymiserer de opbevarede hændelser i stedet for at slette dem, som beskrevet i afsnittet Opbevaring og sletning.
+
+## Hostet AI og eksterne AI-klienter
+
+OpenAI er den AI-udbyder, der er konfigureret til de hostede funktioner til chat, transskription og billedgenerering. Når du vælger disse funktioner, sender vi OpenAI de forespørgselsdata, der er nødvendige for at udføre dem, hvilket kan omfatte din prompt, relevant kontekst fra chatten og arbejdsområdet, vedhæftede filer eller billeder, dikteret lyd og et pseudonymt sikkerheds-id. Hostede tekstforespørgsler bruger `store: false`, som deaktiverer lagring af svarobjekter til senere hentning. Da disse forespørgsler også bruger prompt caching, kan OpenAI opbevare krypteret applikationstilstand fra cachen i op til 24 timer. Under OpenAI's nuværende API-kontroller kan relevante logge til overvågning af misbrug opbevares i op til 30 dage, mens det for transskriptions-endpointet oplyses, at det hverken opbevarer indhold til overvågning af misbrug eller applikationstilstand. OpenAI bruger ikke API-data til at træne sine modeller, medmindre kontoindehaveren udtrykkeligt tilvælger det.
+
+Hostede AI-forespørgsler overvåges også via Langfuse Cloud til fejlfinding og analyse af tjenestens kvalitet. Langfuse-traces kan indeholde prompts, modelsvar, værktøjsaktivitet, bruger-, arbejdsområde- og sessions-id'er samt driftsmetadata. Implementeringen maskerer e-mailadresser og felter, der ligner hemmeligheder; brugerdefinerede traces af transskription udelader rå lydbytes og data fra vedhæftede filer.
+
+Vores administratorer kan læse indhold fra hostede AI-chats, der er gemt i vores egen database, herunder dine prompts, modelsvar og foreslåede chatprompts, for at analysere, hvordan AI-funktionerne bruges, og forbedre dem. Adgangen til det indhold er begrænset til operatørens administratorer.
+
+Når du forbinder Nibomo til en ekstern AI-klient via den remote MCP-tjeneste eller Agent API, behandles de data, du beder den klient om at hente, også af klienten og dens AI- eller modeludbyder. Den separate behandling kontrolleres af klientens operatør og er underlagt dennes vilkår og privatlivspolitik.
+
+## Databehandlere og modtagere
+
+Vi bruger følgende kategorier af tjenesteudbydere til den hostede tjeneste:
+
+- Amazon Web Services (AWS) til hosting, Cognito-godkendelse, Postgres, fillagring, backups og driftslogge;
+- Apple til betalinger i App Store, verificering af køb og abonnementsnotifikationer;
+- Resend til transaktionelle godkendelsesmails;
+- OpenAI til valgfri hostede AI-forespørgsler;
+- Langfuse Cloud til observerbarhed af hostet AI;
+- Sentry til renset fejl- og diagnoserapportering, når det er aktiveret i den relevante hostede tjeneste eller appbuild;
+- Vercel til marketingwebsitet og dets cookiefri Web Analytics; og
+- Cloudflare til DNS og domæneadministration. Nibomos nuværende DNS-poster er DNS-only, så Cloudflare fungerer ikke som proxy for HTTP-trafik til det hostede website eller den hostede app.
+
+Data kan også videregives til andre medlemmer af et delt arbejdsområde i overensstemmelse med tjenestens samarbejdsfunktioner, til en ekstern klient, du har godkendt, til professionelle rådgivere med tavshedspligt eller til offentlige myndigheder, når videregivelse er lovpligtig.
+
+## Internationale overførsler
+
+Den primære hostede applikation kører i AWS' infrastruktur i EU. Den konfigurerede Resend-e-mailregion, Sentrys dataregion og Langfuse-endpointet er også i Europa. Nogle udbydere, herunder OpenAI og Vercel, kan behandle data uden for dit land eller Det Europæiske Økonomiske Samarbejdsområde. Hvor det er påkrævet, bruger vi gældende tilstrækkelighedsafgørelser, databehandleraftaler og standardkontraktbestemmelser eller tilsvarende garantier for disse overførsler.
+
+## Opbevaring og sletning
+
+- Konto- og arbejdsområdedata i den hostede tjeneste opbevares, så længe din konto eller det relevante delte arbejdsområde er aktivt. Sletning af kontoen fjerner dine nuværende kontodata, legitimationsoplysninger, medlemskaber og arbejdsområder, hvor du er eneste medlem, fra den aktive database. Indhold i et arbejdsområde, der stadig har andre medlemmer, forbliver tilgængeligt for de medlemmer.
+- Faktureringshistorik fra Apple bevares efter sletning af kontoen af hensyn til regnskab, afstemning og retskrav. Vi erstatter interne bruger-id'er med pseudonyme værdier og rydder gemte notifikationsdata fra Apple, der kan henføres til den slettede konto. Nødvendige købs-id'er og id'er til tilknytning til Apple-kontoen bevares; Apple kan stadig knytte dem til dig, så dette er ikke fuld anonymisering. Sletning af din Nibomo-konto opsiger ikke dit Apple-abonnement; administrer eller opsig det via Apple.
+- Hændelser i produktanalysen bevares efter sletning af kontoen. For hændelser, der er knyttet til din konto og tilknyttede gæsteidentiteter, erstatter vi konto-id'er med en tilfældig værdi, fjerner identitetskoblinger og rydder felterne for installation, session, arbejdsområde, forespørgsel, enhedsmodel, operativsystem, enhedssprog, grænsefladesprog, tidszone og land. Tilknyttede installationsprofiler og deres landehistorik slettes. Dette beskriver fjernelse af id'er, ikke en garanti for, at opbevarede hændelser er anonyme i enhver sammenhæng.
+- Sletning af kontoen får også `analytics_visitor`-cookien til at udløbe i den browser, sletningen udføres fra, og nulstiller den browsers sessions-id til analyse. Den browser fortsætter derefter som en ny anonym besøgende under en ny identifikator uden forbindelse til den tidligere, hvor dit analysevalg tillader det. Det gælder kun den browser; det når ikke en kopi, der ligger i en anden browser eller på en anden enhed, og en browser, der blokerer skrivningen eller lukkes, før den udføres, beholder den gamle identifikator, indtil den udløber af sig selv. Det ændrer heller ikke hændelser, der allerede er indsamlet: hændelser, der blev registreret, mens du var logget ud, og som aldrig blev knyttet til din konto, beholder den identifikator, de blev registreret med, og det er fjernelsen af identitetskoblinger, der er beskrevet ovenfor, der forhindrer, at den identifikator kan føres tilbage til dig.
+- Detaljerede landeperioder medtages ikke i opslag til målgruppeanalyse, når deres seneste observation er ældre end 90 dage. En daglig oprydning sletter dem; den fysiske sletning kan blive forsinket, indtil en oprydningskørsel lykkes. En uændret periode kan begynde tidligere end 90 dage, men den er ikke en daglig registrering af placering. Det først kendte land opbevares separat i hele installationsprofilens levetid, indtil profilen slettes.
+- Landet for feedback forbliver i feedbackregistreringen og slettes sammen med den registrering som en del af forløbet ved sletning af kontoen; reglen om 90 dages landehistorik gælder ikke for feedback.
+- Gemte medier opbevares, så længe det tilhørende aktive indhold i arbejdsområdet har brug for dem, og slettes via oprydningsprocessen for lageret, når der ikke længere henvises til dem. Ufuldstændige midlertidige uploads udløber efter 7 dage.
+- Databasen har 7 dages automatiske RDS-backups og en separat daglig AWS Backup-plan med 35 dages opbevaring. Registreringer, der er slettet fra den aktive tjeneste, kan forblive i krypterede gendannelsesbackups, indtil disse backups udløber; backups bruges til katastrofegendannelse, ikke til almindelig adgang til tjenesten.
+- Adgangslogge i API Gateway udløber efter 7 dage. Andre applikationslogge i CloudWatch har i øjeblikket ikke konfigureret automatisk udløb og bevares, indtil de slettes manuelt. Vi begrænser brugen af dem til drift, sikkerhed og fejlfinding og sletter relevante poster, når det er påkrævet for at efterkomme en gældende rettighed inden for databeskyttelse.
+- Den nuværende Sentry Developer-plan giver 30 dages tilbageblik på hændelser. Resend opbevarer data om sendte e-mails i 30 dage under sine nuværende standardindstillinger for tjenesten.
+- OpenAI's opbevaring er beskrevet i afsnittet Hostet AI. Langfuse Cloud sletter AI-traces efter 30 dage: udbyderens adgangsgrænse for vores projekt fjerner ældre traces i en natlig kørsel, og den sletning er uigenkaldelig. Vi sletter identificerbare traces, når det er nødvendigt for at efterkomme en gyldig anmodning om sletning.
+- Supportkorrespondance og registreringer, der er nødvendige i juridiske eller sikkerhedsmæssige sager, opbevares kun så længe, det er nødvendigt til det relevante formål. Vercels besøgshash udløber efter 24 timer; aggregeret statistik for websitet opbevares i henhold til indstillingerne for Vercel-projektet.
+
+Sletning af en konto fjerner ikke straks kopier, der allerede findes i en planlagt backup eller i en udbyders log. Disse kopier udløber eller slettes i henhold til perioderne ovenfor, medmindre en længere periode er lovpligtig.
+
+## Dine rettigheder
+
+Afhængigt af den lov, der gælder for dig, kan du bede os om at give dig indsigt i dine personoplysninger, berigtige dem, slette dem, begrænse brugen af dem eller give dig en kopi i et overførbart format. Du kan også gøre indsigelse mod behandling, der er baseret på legitime interesser, og trække dit samtykke tilbage, hvor behandlingen er baseret på samtykke. Disse rettigheder kan begrænses, hvor loven tillader det, herunder når data skal opbevares på grund af en retlig forpligtelse eller en anden persons rettigheder.
+
+Du kan slette din hostede konto i web-, iOS- eller Android-appen. Ved andre anmodninger skal du kontakte os via adressen nedenfor. Vi kan have brug for at bekræfte din identitet, før vi gennemfører en anmodning.
+
+Du kan klage til databeskyttelsesmyndigheden, hvor du bor eller arbejder, eller hvor du mener, at en overtrædelse har fundet sted. I Bulgarien er tilsynsmyndigheden [Commission for Personal Data Protection](https://cpdp.bg/en/).
+
+## Sikkerhed og open source
+
+Vi bruger adgangskontrol, kryptering under overførsel, krypteret lagring i AWS samt dataminimering eller maskering i diagnosesystemer. Ingen tjeneste kan garantere absolut sikkerhed.
+
+Den offentlige kildekode giver dig mulighed for at undersøge dokumenterede veje for datahåndtering og den konfiguration, der er committet til repositorierne. Offentlig kildekode alene beviser ikke den hostede tjenestes aktuelle konfiguration eller adfærd.
+
+## Kontakt
+
+Skriv til [kirill+flashcards@kirill-markin.com](mailto:kirill+flashcards@kirill-markin.com), eller brug [supportsiden](/support/), hvis du har spørgsmål om privatliv eller vil gøre dine rettigheder gældende.
+
+## Sprog
+
+Denne privatlivspolitik offentliggøres på flere sprog. Hvis en oversættelse afviger fra den engelske version, har den engelske version forrang.
