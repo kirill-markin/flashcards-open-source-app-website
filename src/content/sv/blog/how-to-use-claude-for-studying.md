@@ -226,7 +226,7 @@ Nibomo håller ett gemensamt repetitionsschema för appen och chattarna. Du kan 
 
 > [Anslut till Claude](https://claude.ai/directory/nibomo) · [Dokumentation](/docs/mcp-connector/)
 
-För att komma igång finns [guiden för att ansluta Claude](/blog/how-to-connect-flashcards-to-claude-with-mcp/) och [referensen för MCP-anslutningen](/docs/mcp-connector/), båda på engelska. Manuell kopiering är fortfarande ett fullständigt alternativ om du inte vill konfigurera en anslutning.
+För att komma igång finns [guiden för att ansluta Claude](/blog/how-to-connect-flashcards-to-claude-with-mcp/) (på engelska) och [referensen för MCP-anslutningen](/docs/mcp-connector/). Manuell kopiering är fortfarande ett fullständigt alternativ om du inte vill konfigurera en anslutning.
 
 ## Här behöver Claude fortfarande tillsyn
 

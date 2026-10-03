@@ -277,7 +277,7 @@ Poza talią nadal ćwicz:
 
 [Nibomo](/pl/features/) obsługuje zwykłe fiszki z przodem i tyłem, talie, tagi oraz powtórki planowane przez FSRS z ocenami `Again`, `Hard`, `Good` i `Easy`. Możesz zainstalować talię 118 pierwiastków albo przygotować mniejszą, dopasowaną do programu nauki.
 
-Czat AI i załączniki mogą pomóc przygotować propozycje fiszek na podstawie tabeli z lekcji lub listy błędów. Przed zapisaniem sprawdź każdą nazwę, symbol, liczbę atomową, etykietę wielkości i zasadę zaokrąglania w źródle obowiązującym na twoich zajęciach. Aplikacja nie ma specjalnego narzędzia do weryfikacji treści chemicznych i nie przeplata automatycznie tematów. [Poradnik na początek](/docs/getting-started/) (po angielsku) opisuje tworzenie fiszek i rozpoczynanie zaplanowanych powtórek.
+Czat AI i załączniki mogą pomóc przygotować propozycje fiszek na podstawie tabeli z lekcji lub listy błędów. Przed zapisaniem sprawdź każdą nazwę, symbol, liczbę atomową, etykietę wielkości i zasadę zaokrąglania w źródle obowiązującym na twoich zajęciach. Aplikacja nie ma specjalnego narzędzia do weryfikacji treści chemicznych i nie przeplata automatycznie tematów. [Poradnik na początek](/docs/getting-started/) opisuje tworzenie fiszek i rozpoczynanie zaplanowanych powtórek.
 
 ## Pytania o układ okresowy
 

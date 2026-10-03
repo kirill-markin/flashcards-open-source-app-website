@@ -227,7 +227,7 @@ Anthropic-இன் [இணையத் தேடல் வழிகாட்ட
 
 > [Claude உடன் இணைக்கவும்](https://claude.ai/directory/nibomo) · [ஆவணங்கள்](/docs/mcp-connector/)
 
-இணைப்பை அமைக்க, [Claude connector வழிகாட்டியையும்](/blog/how-to-connect-flashcards-to-claude-with-mcp/) [MCP connector ஆவணத்தையும்](/docs/mcp-connector/) பார்க்கவும்; இரண்டும் ஆங்கிலத்தில் உள்ளன. Connector பயன்படுத்த விரும்பாவிட்டால், கையால் நகலெடுப்பதும் முழுமையான வழிமுறையே.
+இணைப்பை அமைக்க, [Claude connector வழிகாட்டியையும்](/blog/how-to-connect-flashcards-to-claude-with-mcp/) (ஆங்கிலத்தில்) [MCP connector ஆவணத்தையும்](/docs/mcp-connector/) பார்க்கவும். Connector பயன்படுத்த விரும்பாவிட்டால், கையால் நகலெடுப்பதும் முழுமையான வழிமுறையே.
 
 ## Claude-க்கு இன்னும் எங்கு மேற்பார்வை தேவை
 

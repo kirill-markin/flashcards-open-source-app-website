@@ -230,7 +230,7 @@ Nibomo houdt één herhalingsschema bij, zowel voor de app als voor de gesprekke
 
 > [Verbinden met Claude](https://claude.ai/directory/nibomo) · [Documentatie](/docs/mcp-connector/)
 
-Voor het instellen kun je de [handleiding voor de Claude-connector](/blog/how-to-connect-flashcards-to-claude-with-mcp/) en de [MCP-connectorreferentie](/docs/mcp-connector/) gebruiken; beide zijn in het Engels. Handmatig kopiëren blijft een volwaardige optie als je geen verbinding wilt instellen.
+Voor het instellen kun je de [handleiding voor de Claude-connector](/blog/how-to-connect-flashcards-to-claude-with-mcp/) (in het Engels) en de [MCP-connectorreferentie](/docs/mcp-connector/) gebruiken. Handmatig kopiëren blijft een volwaardige optie als je geen verbinding wilt instellen.
 
 ## Waar Claude nog begeleiding nodig heeft
 

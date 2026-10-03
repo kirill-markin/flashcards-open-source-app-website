@@ -228,7 +228,7 @@ Anthropic [వెబ్ శోధన మార్గదర్శకం](https://
 
 > [కనెక్ట్ చేయండి: Claude](https://claude.ai/directory/nibomo) · [డాక్యుమెంటేషన్](/docs/mcp-connector/)
 
-కనెక్షన్ ఏర్పాటు చేయడానికి [Claude కనెక్టర్ మార్గదర్శకం](/blog/how-to-connect-flashcards-to-claude-with-mcp/), [MCP కనెక్టర్ రిఫరెన్స్](/docs/mcp-connector/) చూడండి; రెండూ ఆంగ్లంలో ఉన్నాయి. కనెక్టర్ ఉపయోగించకూడదనుకుంటే, చేతితో కాపీ చేయడమూ పూర్తి విధానమే.
+కనెక్షన్ ఏర్పాటు చేయడానికి [Claude కనెక్టర్ మార్గదర్శకం](/blog/how-to-connect-flashcards-to-claude-with-mcp/) (ఆంగ్లంలో), [MCP కనెక్టర్ రిఫరెన్స్](/docs/mcp-connector/) చూడండి. కనెక్టర్ ఉపయోగించకూడదనుకుంటే, చేతితో కాపీ చేయడమూ పూర్తి విధానమే.
 
 ## Claudeకు ఇంకా పర్యవేక్షణ అవసరమయ్యే చోటులు
 

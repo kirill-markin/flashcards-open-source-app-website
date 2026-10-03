@@ -233,7 +233,7 @@ Nibomo menggunakan penilaian tersebut untuk menjadwalkan pengulangan berikutnya,
 
 > [Hubungkan ke Claude](https://claude.ai/directory/nibomo) · [Dokumentasi](/docs/mcp-connector/)
 
-Untuk menyiapkan koneksi, lihat [panduan konektor Claude langkah demi langkah](/blog/how-to-connect-flashcards-to-claude-with-mcp/) dan [referensi konektor MCP](/docs/mcp-connector/), keduanya dalam bahasa Inggris. Jika tidak ingin menghubungkan asisten, Anda tetap bisa menyalin kartu secara manual.
+Untuk menyiapkan koneksi, lihat [panduan konektor Claude langkah demi langkah](/blog/how-to-connect-flashcards-to-claude-with-mcp/) (dalam bahasa Inggris) dan [referensi konektor MCP](/docs/mcp-connector/). Jika tidak ingin menghubungkan asisten, Anda tetap bisa menyalin kartu secara manual.
 
 ## Bagian yang masih perlu diawasi
 

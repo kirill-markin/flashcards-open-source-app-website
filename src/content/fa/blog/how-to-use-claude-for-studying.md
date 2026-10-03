@@ -226,7 +226,7 @@ Claude ممکن است با وجود بدخواندن فایل، وارد کرد
 
 > [اتصال به Claude](https://claude.ai/directory/nibomo) · [مستندات](/docs/mcp-connector/)
 
-برای راه‌اندازی، [راهنمای اتصال Claude](/blog/how-to-connect-flashcards-to-claude-with-mcp/) و [مرجع اتصال‌دهنده MCP](/docs/mcp-connector/) را ببینید؛ هر دو به انگلیسی‌اند. اگر نمی‌خواهید دستیار را متصل کنید، روش کپی دستی همچنان در دسترس است.
+برای راه‌اندازی، [راهنمای اتصال Claude](/blog/how-to-connect-flashcards-to-claude-with-mcp/) (به انگلیسی) و [مرجع اتصال‌دهنده MCP](/docs/mcp-connector/) را ببینید. اگر نمی‌خواهید دستیار را متصل کنید، روش کپی دستی همچنان در دسترس است.
 
 ## Claude کجا هنوز به نظارت نیاز دارد؟
 

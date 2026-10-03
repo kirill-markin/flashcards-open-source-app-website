@@ -277,7 +277,7 @@ Be kortelių, toliau atlikite šias užduotis:
 
 [„Nibomo“](/lt/features/) palaiko įprastas dvipuses korteles, rinkinius, žymas ir FSRS suplanuotus kartojimus su įvertinimais `Again`, `Hard`, `Good` ir `Easy`. Galite įsidiegti 118 elementų rinkinį arba susikurti mažesnį, atitinkantį jūsų kursą.
 
-Pokalbis su DI ir prisegti failai gali padėti parengti kortelių juodraščius iš pamokos lentelės ar klaidų sąrašo. Prieš išsaugodami pagal pagrindinį kurso šaltinį patikrinkite kiekvieną pavadinimą, simbolį, atominį skaičių, dydžio pavadinimą ir apvalinimo taisyklę. Programėlė neturi specialaus chemijos duomenų tikrintuvo ir automatiškai nekaitalioja temų už jus. [Pradžios vadove](/docs/getting-started/) (anglų kalba) paaiškinama, kaip kurti korteles ir pradėti numatytus kartojimus.
+Pokalbis su DI ir prisegti failai gali padėti parengti kortelių juodraščius iš pamokos lentelės ar klaidų sąrašo. Prieš išsaugodami pagal pagrindinį kurso šaltinį patikrinkite kiekvieną pavadinimą, simbolį, atominį skaičių, dydžio pavadinimą ir apvalinimo taisyklę. Programėlė neturi specialaus chemijos duomenų tikrintuvo ir automatiškai nekaitalioja temų už jus. [Pradžios vadove](/docs/getting-started/) paaiškinama, kaip kurti korteles ir pradėti numatytus kartojimus.
 
 ## Dažniausi klausimai apie periodinę lentelę
 
