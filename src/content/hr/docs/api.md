@@ -185,7 +185,7 @@ SQL sučelje je ograničen dijalekt čija pravila provodi parser, a ne izravan p
 
 - **Zatvoreni popis dopuštenih naredbi**: samo `SHOW TABLES`, `DESCRIBE`, `SHOW COLUMNS` i `SELECT` za čitanje te `INSERT`, `UPDATE` i `DELETE` za pisanje. Sve ostalo odbija se već pri parsiranju.
 - **Ograničeni resursi**: naredbe mogu pristupiti samo resursima `workspace`, `cards`, `decks` i `review_events`.
-- **Ograničenje na radni prostor**: svaka naredba ograničena je na jedan radni prostor kojem imate pristup, bilo `workspaceId` u tijelu zahtjeva bilo vaš odabrani radni prostor, bez pristupa podacima drugih korisnika.
+- **Ograničenje na radni prostor**: svaka naredba ograničena je na jedan radni prostor kojem imate pristup, bilo `workspaceId` u tijelu zahtjeva bilo vaš odabrani radni prostor, bez pristupa drugim radnim prostorima.
 - **Stroga tijela zahtjeva**: SQL rute i rute za ponavljanje odbijaju nepoznato polje u tijelu, pa pogrešno napisan `workspaceId` uzrokuje pogrešku umjesto da se zahtjev izvrši nad odabranim radnim prostorom.
 - **Ograničenja**: do `100` redaka po naredbi, do `50` naredbi po skupu i ograničenje rezultata od otprilike `12k` tokena. Skupovi izmjena primjenjuju se atomarno.
 - **Podjela na čitanje i pisanje**: `sql_query` i `list_workspaces` strogo su samo za čitanje (`readOnlyHint`) i nikad ne popravljaju podatke, ne preračunavaju raspored niti mijenjaju stanje kartica. `sql_execute` je jedini SQL alat za pisanje i izvodi pisanja (`destructiveHint`); jedan poziv mora sadržavati samo čitanja ili samo pisanja. SQL ne može pisati `review_events` ni FSRS stanje raspoređivanja; ponavljanje bilježi samo `POST /v1/agent/reviews/submit` (MCP `submit_review`).
