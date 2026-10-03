@@ -168,7 +168,7 @@ base de données :
   `cards`, `decks` et `review_events`.
 - **Portée par espace de travail** : chaque instruction SQL et chaque révision est
   limitée à un espace de travail auquel vous avez accès, soit le `workspaceId` que
-  vous passez, soit votre espace par défaut sélectionné, sans accès croisé entre comptes.
+  vous passez, soit votre espace par défaut sélectionné, sans accès aux autres espaces de travail.
 - **Arguments stricts** : chaque outil rejette tout argument inconnu, donc un
   `workspaceId` mal orthographié échoue au lieu de s'exécuter sur votre espace de
   travail par défaut.
