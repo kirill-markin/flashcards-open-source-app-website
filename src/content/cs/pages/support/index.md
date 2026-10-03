@@ -4,7 +4,7 @@ description: Možnosti podpory pro Nibomo.
 slug: support
 sections:
   - type: legal_page
-    lastUpdated: březen 2026
+    lastUpdated: říjen 2026
 ---
 ## Kontakt
 
@@ -12,7 +12,11 @@ Pokud potřebujete podporu k produktu nebo pomoc s účtem, případně máte do
 
 ## Smazání účtu
 
-V aplikaci pro iOS můžete svůj hostovaný účet smazat v `Settings > Delete Account > Delete my account`. Pokud s tímto postupem potřebujete pomoct, obraťte se e-mailem na podporu.
+Chcete-li smazat účet Nibomo bez instalace aplikace, otevřete [stránku pro smazání účtu](https://app.nibomo.com/settings/delete-account). Pokud budete vyzváni, přihlaste se stejnou e-mailovou adresou, kterou používáte pro svůj účet. Vyberte `Smazat můj účet`, napište zobrazenou potvrzovací frázi a potvrďte smazání. O smazání účtu můžete také požádat e-mailem na [kirill+flashcards@kirill-markin.com](mailto:kirill+flashcards@kirill-markin.com).
+
+Smazání odstraní z provozní databáze aktuální údaje vašeho účtu, přihlašovací údaje, členství a pracovní prostory, jejichž jste jediným členem. Obsah sdílených pracovních prostorů zůstane dostupný ostatním členům. Nezbytnou historii plateb uchováváme pro účetnictví, párování transakcí a právní nároky. Smazané záznamy mohou zůstat v šifrovaných zálohách pro obnovu až 35 dní. Úplné informace o uchovávání údajů najdete v [Zásadách ochrany osobních údajů](/cs/privacy/).
+
+Smazání účtu Nibomo nezruší vaše předplatné Google Play. [Předplatné spravujte nebo zrušte samostatně prostřednictvím Google Play](https://play.google.com/store/account/subscriptions).
 
 ## Otevřený zdrojový kód a technická hlášení
 

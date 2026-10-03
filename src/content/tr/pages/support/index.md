@@ -4,7 +4,7 @@ description: Nibomo için destek seçenekleri.
 slug: support
 sections:
   - type: legal_page
-    lastUpdated: Mart 2026
+    lastUpdated: Ekim 2026
 ---
 ## İletişim
 
@@ -12,7 +12,11 @@ sections:
 
 ## Hesap Silme
 
-iOS uygulamasında barındırılan hesabınızı `Settings > Delete Account > Delete my account` yolundan silebilirsiniz. Bu akışla ilgili yardıma ihtiyacınız olursa destek ekibine e-postayla ulaşın.
+Uygulamayı yüklemeden Nibomo hesabınızı silmek için [hesap silme sayfasını](https://app.nibomo.com/settings/delete-account) açın. İstenirse hesabınız için kullandığınız e-posta adresiyle oturum açın. `Hesabımı sil` seçeneğini seçin, gösterilen onay ifadesini yazın ve silmeyi onaylayın. Alternatif olarak, [kirill+flashcards@kirill-markin.com](mailto:kirill+flashcards@kirill-markin.com) adresine e-posta göndererek hesabınızın silinmesini isteyebilirsiniz.
+
+Silme işlemi mevcut hesap verilerinizi, giriş bilgilerinizi, üyeliklerinizi ve tek üyesi olduğunuz çalışma alanlarını aktif veritabanından kaldırır. Paylaşılan çalışma alanlarındaki içerikler diğer üyelerin erişimine açık kalır. Gerekli faturalandırma geçmişi muhasebe, mutabakat ve hukuki talepler için saklanır. Silinen kayıtlar, şifrelenmiş kurtarma yedeklerinde 35 güne kadar kalabilir. Saklamayla ilgili tüm ayrıntılar için [Gizlilik Politikamıza](/tr/privacy/) bakın.
+
+Nibomo hesabınızı silmek Google Play aboneliğinizi iptal etmez. [Aboneliğinizi Google Play üzerinden ayrıca yönetin veya iptal edin](https://play.google.com/store/account/subscriptions).
 
 ## Açık Kaynak ve Teknik Bildirimler
 

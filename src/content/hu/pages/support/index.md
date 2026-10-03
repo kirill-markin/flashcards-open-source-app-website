@@ -4,7 +4,7 @@ description: Támogatási lehetőségek a Nibomóhoz.
 slug: support
 sections:
   - type: legal_page
-    lastUpdated: 2026. március
+    lastUpdated: 2026. október
 ---
 ## Kapcsolat
 
@@ -12,7 +12,11 @@ Terméktámogatásért, a fiókoddal kapcsolatos segítségért vagy az App Stor
 
 ## Fiók törlése
 
-Az iOS-alkalmazásban a felhős fiókodat a `Settings > Delete Account > Delete my account` menüpontban törölheted. Ha ehhez segítség kell, írj e-mailt a támogatásnak.
+A Nibomo-fiókod törléséhez az alkalmazás telepítése nélkül nyisd meg a [fióktörlési oldalt](https://app.nibomo.com/settings/delete-account). Ha a rendszer kéri, jelentkezz be a fiókodhoz használt e-mail-címmel. Válaszd a `A fiókom törlése` lehetőséget, gépeld be a megjelenő megerősítő kifejezést, majd erősítsd meg a törlést. A fiók törlését e-mailben is kérheted az [kirill+flashcards@kirill-markin.com](mailto:kirill+flashcards@kirill-markin.com) címen.
+
+A törlés eltávolítja az aktív adatbázisból a jelenlegi fiókadataidat, a bejelentkezési adataidat, a tagságaidat és azokat a munkaterületeket, amelyeknek te vagy az egyetlen tagja. A megosztott munkaterületek tartalma elérhető marad a többi tag számára. A szükséges számlázási előzményeket megőrizzük könyvelés, tranzakcióegyeztetés és jogi igények céljára. A törölt rekordok legfeljebb 35 napig maradhatnak a helyreállításhoz használt titkosított biztonsági másolatokban. A megőrzés részleteit az [Adatvédelmi tájékoztató](/hu/privacy/) tartalmazza.
+
+A Nibomo-fiókod törlése nem mondja le a Google Play-előfizetésedet. [Kezeld vagy mondd le külön a Google Playen](https://play.google.com/store/account/subscriptions).
 
 ## Nyílt forráskód és technikai bejelentések
 
