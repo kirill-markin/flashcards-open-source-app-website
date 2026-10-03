@@ -4,7 +4,7 @@ description: Nibomo के लिए सेवा की शर्तें।
 slug: terms
 sections:
   - type: legal_page
-    lastUpdated: जुलाई 2026
+    lastUpdated: अक्टूबर 2026
 ---
 ## सेवा और प्रदाता
 
@@ -53,3 +53,7 @@ Nibomo ओपन-सोर्स spaced-repetition और flashcards टूल �
 ## सहायता
 
 सहायता या इन शर्तों के बारे में प्रश्नों के लिए [kirill+flashcards@kirill-markin.com](mailto:kirill+flashcards@kirill-markin.com) पर संपर्क करें या [सहायता पेज](/support/) का उपयोग करें।
+
+## भाषा
+
+ये शर्तें कई भाषाओं में प्रकाशित की जाती हैं। यदि कोई अनुवाद अंग्रेज़ी संस्करण से भिन्न है, तो अंग्रेज़ी संस्करण ही मान्य होगा।

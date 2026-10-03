@@ -143,3 +143,7 @@ App Store での購入の決済は Apple が処理し、当社は Apple の課�
 ## お問い合わせ
 
 プライバシーに関する質問や権利の請求は、[kirill+flashcards@kirill-markin.com](mailto:kirill+flashcards@kirill-markin.com) または [サポートページ](/support/) からご連絡ください。
+
+## 言語
+
+本プライバシーポリシーは複数の言語で公開されています。翻訳版と英語版の内容が異なる場合は、英語版が優先されます。

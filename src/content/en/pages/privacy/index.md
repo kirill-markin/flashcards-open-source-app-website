@@ -143,3 +143,7 @@ The public source code lets you inspect documented data-handling paths and the c
 ## Contact
 
 For privacy questions or rights requests, contact [kirill+flashcards@kirill-markin.com](mailto:kirill+flashcards@kirill-markin.com) or use the [support page](/support/).
+
+## Language
+
+This Privacy Policy is published in several languages. If a translation differs from the English version, the English version prevails.

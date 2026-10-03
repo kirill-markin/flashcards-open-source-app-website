@@ -4,7 +4,7 @@ description: Conditions d'utilisation de Nibomo.
 slug: terms
 sections:
   - type: legal_page
-    lastUpdated: juillet 2026
+    lastUpdated: octobre 2026
 ---
 ## Service et fournisseur
 
@@ -53,3 +53,7 @@ Le code source est disponible sous licence MIT. Un déploiement auto-hébergé e
 ## Assistance
 
 Pour une demande d'assistance ou une question sur ces Conditions, écrivez à [kirill+flashcards@kirill-markin.com](mailto:kirill+flashcards@kirill-markin.com) ou utilisez la [page d'assistance](/support/).
+
+## Langue
+
+Ces Conditions sont publiées en plusieurs langues. Si une traduction diffère de la version anglaise, la version anglaise prévaut.

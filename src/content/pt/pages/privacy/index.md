@@ -143,3 +143,7 @@ O código-fonte público permite que você examine os caminhos documentados de t
 ## Contato
 
 Para dúvidas sobre privacidade ou pedidos relacionados a direitos, escreva para [kirill+flashcards@kirill-markin.com](mailto:kirill+flashcards@kirill-markin.com) ou use a [página de suporte](/support/).
+
+## Idioma
+
+Esta política de privacidade é publicada em vários idiomas. Se uma tradução divergir da versão em inglês, prevalece a versão em inglês.

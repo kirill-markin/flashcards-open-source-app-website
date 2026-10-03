@@ -4,7 +4,7 @@ description: شروط خدمة Nibomo.
 slug: terms
 sections:
   - type: legal_page
-    lastUpdated: يوليو 2026
+    lastUpdated: أكتوبر 2026
 ---
 ## الخدمة ومزوّدها
 
@@ -53,3 +53,7 @@ Nibomo أداة مفتوحة المصدر للبطاقات والتكرار ال
 ## الدعم
 
 للدعم أو لطرح أسئلة حول هذه الشروط، تواصل عبر [kirill+flashcards@kirill-markin.com](mailto:kirill+flashcards@kirill-markin.com) أو استخدم [صفحة الدعم](/support/).
+
+## اللغة
+
+تُنشر هذه الشروط بعدة لغات. وإذا اختلفت أي ترجمة عن النسخة الإنجليزية، تسود النسخة الإنجليزية.
