@@ -113,7 +113,7 @@ SQL alate sigurno je odobriti jer je sučelje ograničen dijalekt čija pravila 
 
 - **Zatvoreni popis dopuštenih naredbi**: `sql_query` prihvaća samo `SHOW TABLES`, `DESCRIBE`, `SHOW COLUMNS` i `SELECT`; `sql_execute` prihvaća samo `INSERT`, `UPDATE` i `DELETE`. Sve ostalo odbija se već pri parsiranju.
 - **Ograničeni resursi**: naredbe mogu pristupiti samo resursima `workspace`, `cards`, `decks` i `review_events`.
-- **Ograničenje na radni prostor**: svaka SQL naredba i svako ponavljanje ograničeni su na jedan radni prostor kojem imate pristup, bilo `workspaceId` koji proslijedite bilo vaš odabrani zadani, bez pristupa podacima drugih korisnika.
+- **Ograničenje na radni prostor**: svaka SQL naredba i svako ponavljanje ograničeni su na jedan radni prostor kojem imate pristup, bilo `workspaceId` koji proslijedite bilo vaš odabrani zadani, bez pristupa drugim radnim prostorima.
 - **Strogi argumenti**: svaki alat odbija nepoznati argument, pa pogrešno napisan `workspaceId` uzrokuje pogrešku umjesto da se naredba izvrši nad vašim zadanim radnim prostorom.
 - **Ograničenja**: do `100` redaka po naredbi, do `50` naredbi po skupu i ograničenje rezultata od otprilike `12k` tokena. Skupovi izmjena primjenjuju se atomarno.
 - **Podjela na čitanje i pisanje**: `get_usage_limits`, `sql_query`, `list_workspaces`, `get_guide`, `next_review_card` i `reveal_answer` strogo su samo za čitanje (`readOnlyHint`) i nikad ne popravljaju podatke, ne preračunavaju raspored niti mijenjaju stanje kartica. `sql_execute` i `submit_review` jedini su alati za pisanje (`destructiveHint`): `sql_execute` piše kartice i špilove, a `submit_review` bilježi ponavljanje i pomiče raspored njegove kartice.
