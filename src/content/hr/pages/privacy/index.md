@@ -1,0 +1,149 @@
+---
+title: Pravila privatnosti
+description: Pravila privatnosti za Nibomo.
+slug: privacy
+sections:
+  - type: legal_page
+    lastUpdated: listopad 2026.
+---
+## Pružatelj usluge i opseg
+
+Hostiranom uslugom Nibomo upravlja SAMO DANNI EOOD, identifikacijski broj tvrtke 207395566, PDV identifikacijski broj BG207395566, registrirana adresa bulv. Maritza 154, entrance D, floor 6 #14, 4018, Plovdiv, Bulgaria. Nibomo je izradio Kirill Markin.
+
+Ova pravila primjenjuju se na hostiranu web stranicu, aplikacije, API i MCP uslugu kojima upravljamo. Vlastito hostiranom instancom upravlja njezin operator, koji je odgovoran za njezine prakse zaštite privatnosti.
+
+## Dob
+
+Hostirana usluga namijenjena je osobama od 13 ili više godina. Ako zakon mjesta u kojem živite propisuje višu minimalnu dob za korištenje internetske usluge ili davanje privole za obradu podataka, primjenjuje se ta viša dob. Ako imate manje od 18 godina, morate imati dopuštenje roditelja ili zakonskog skrbnika.
+
+## Podaci koje obrađujemo
+
+Ovisno o tome kako koristite hostiranu uslugu, obrađujemo:
+
+- podatke o računu i autentifikaciji, uključujući vašu adresu e-pošte, interne identifikatore korisnika, zapise o prijavama i tokene za autentifikaciju;
+- podatke o učenju i radnom prostoru, uključujući kartice, špilove, postavke, članstva u radnim prostorima, povijest ponavljanja i metapodatke sinkronizacije;
+- datoteke i medijske sadržaje koje učitate ili izradite, uključujući slike i privremene podatke o učitavanju;
+- neobavezne AI podatke, uključujući upite, povijest razgovora, kontekst kartica ili radnog prostora, datoteke i slike uključene u zahtjev, diktirani zvuk, transkripte, odgovore modela i aktivnost alata;
+- podatke o podršci i povratnim informacijama, uključujući poruke, vašu kontaktnu adresu e-pošte kad je navedete, verziju aplikacije, platformu, jezične postavke i povezane informacije o stanju;
+- operativne i sigurnosne podatke, uključujući identifikatore zahtjeva, vremenske oznake, IP adresu, korisnički agent, rutu, status odgovora, verziju aplikacije, pojedinosti o uređaju ili platformi i dijagnostiku pogrešaka iz koje su uklonjeni osjetljivi podaci; i
+- podatke o korištenju web stranice i proizvoda unutar aplikacije opisane u odjeljcima Analitika i kolačići te Analitika proizvoda u nastavku.
+
+Adresa e-pošte potrebna je za izradu hostiranog računa i prijavu u njega. Bez nje ne možemo pružiti autentifikaciju putem e-pošte ni sinkronizaciju vezanu uz račun. Ograničene značajke za goste ili lokalne značajke mogu biti dostupne i bez prijavljenog računa.
+
+## Svrhe i pravne osnove
+
+Podatke o računu, radnom prostoru, ponavljanju i datotekama te zatražene AI podatke obrađujemo u mjeri u kojoj je to potrebno za pružanje hostirane usluge i izvršenje našeg ugovora s vama. Zahtjeve za podršku obrađujemo kako bismo vam odgovorili i pružili zatraženu pomoć.
+
+Ograničene podatke o analitici, sigurnosti, dijagnostici i poboljšanju usluge obrađujemo na temelju svojih legitimnih interesa da razumijemo korištenje, sprječavamo zlouporabu, održavamo uslugu sigurnom i otklanjamo kvarove. Te interese odvagujemo u odnosu na vaša prava i, kad je to izvedivo, dijagnostičke podatke svodimo na najmanju moguću mjeru ili iz njih uklanjamo osjetljive dijelove. Podatke možemo obrađivati i kad je to potrebno radi ispunjavanja pravne obveze ili radi uspostave, ostvarivanja ili obrane pravnih zahtjeva. Kad mjerodavno pravo za određenu aktivnost zahtijeva privolu, oslanjat ćemo se na privolu, a vi je možete povući u bilo kojem trenutku.
+
+Ne prodajemo vaše osobne podatke niti ih koristimo za ciljano oglašavanje.
+
+## Kupnje i pretplate putem Applea
+
+Apple obrađuje plaćanja za kupnje u App Storeu; putem Appleova sustava naplate ne primamo podatke o vašoj kartici ni bankovne podatke. Primamo i pohranjujemo zapise o kupnjama, uključujući identifikatore transakcija i proizvoda, token računa aplikacije koji povezuje kupnju s vašim računom, status pretplate i probnog razdoblja, informacije o obnovi i povratu novca te relevantne datume.
+
+Te zapise koristimo za provjeru kupnji, pružanje i vraćanje plaćenog pristupa, obradu zahtjeva za podršku, usklađivanje transakcija, vođenje računovodstvenih evidencija i analizu korištenja proizvoda. Zapisi o naplati na poslužitelju vode se i kad u aplikaciji isključite analitiku proizvoda.
+
+## Analitika i kolačići
+
+Marketinška web stranica koristi Vercel Web Analytics za mjerenje pregleda stranica i odabranih događaja klikova na stranici. Ta usluga radi bez analitičkih kolačića, ali web stranica postavlja jedan vlastiti, opisan u nastavku. Za preglede stranica Vercel može primiti vrijeme događaja, URL stranice i filtrirane parametre upita, stranicu s koje ste došli, približnu lokaciju, preglednik, operacijski sustav i vrstu uređaja. Naši prilagođeni događaji klikova uključuju ograničena svojstva kao što su jezične postavke, platforma, položaj poveznice ili vrsta interakcije. U te događaje namjerno ne uključujemo imena, adrese e-pošte, sadržaj kartica ni identifikatore računa. Vercel objedinjuje podatke i ne povezuje pojedini podatak s pojedincem ili IP adresom; njegov dnevni hash posjetitelja odbacuje se nakon 24 sata. Kad vaš preglednik šalje signal Global Privacy Control, web stranica uslugi Vercel Web Analytics ne šalje baš ništa.
+
+Zasebno od toga, web stranica šalje događaje našem vlastitom sustavu za prikupljanje analitike proizvoda: događaj pregleda stranice za svaku stranicu koju otvorite; događaj klika kad slijedite poveznicu prema web aplikaciji, trgovini aplikacija ili instalaciji špila iz kataloga; što pretražujete, filtrirate, razvrstavate, kroz što listate i što otvarate u javnom katalogu špilova; klik na poveznicu koja vodi izvan stranice; kopiranje krajnje točke za agente; prikaz bannera s prijedlogom jezika i vaš odgovor na njega; te odluku o kolačiću i prekidač prikupljanja opisane u nastavku. Ovisno o događaju, oni sadrže vrstu stranice, javni identifikator verzije paketa na stranicama špilova u katalogu i u poveznicama za instalaciju, položaj poveznice, je li klik prema web aplikaciji bio za prijavu, registraciju ili otvaranje aplikacije, je li odgovor o kolačiću dan u banneru ili u kontroli analitike u kutu, jezik koji je banner s prijedlogom ponudio, jezik sučelja stranice, jezik uređaja u pregledniku, kategoriju izvora, kategoriju uređaja i identifikator `analytics_visitor` opisan u nastavku kad ga vaš preglednik ima. Događaj pregleda stranice sadrži i host stranice s koje ste došli, naveden ako je na popisu poznatih tražilica i društvenih mreža, a kao `other` za sve ostalo, kao i parametre `utm_source`, `utm_medium` i `utm_campaign` adrese na koju ste stigli. Pretraživanje, filtriranje, razvrstavanje ili promjena stranice u katalogu sadrži broj rezultata koje ste vidjeli i ono što ste odabrali: radnju filtra — dodavanje, odabir, uklanjanje ili poništavanje — s njegovom kategorijom i brojem odabranih filtara nakon toga, redoslijed razvrstavanja ili broj stranice zajedno s ukupnim brojem stranica. Otvaranje špila iz kataloga sadrži javni identifikator špila i mjesto na stranici s kojeg ste ga otvorili, bez broja rezultata. Pretraživanje kataloga sadrži i duljinu onoga što ste upisali te, samo kad normalizirani tekst ima najviše 64 znaka i sadrži isključivo slova, znakove koji se s njima kombiniraju, znamenke, razmake i crtice, i sam taj tekst; svaki drugi upit prijavljuje se samo svojom duljinom i nikad se ne skraćuje da bi stao. Naš poslužitelj iz adrese s koje svaki događaj stiže određuje dvoslovni kod zemlje i pohranjuje ga uz događaj; ne pohranjuje adresu i ne određuje zemlju za događaje koji uopće ne sadrže identifikator, opisane u nastavku. Kad vaš preglednik šalje signal Global Privacy Control, web stranica ne traži identifikator posjetitelja i ne prikazuje banner za privolu, dok gore navedeni događaji i dalje stižu u naš sustav za prikupljanje bez tog identifikatora, a svi osim događaja koji uopće ne sadrže identifikator dobivaju dnevni identifikator opisan u nastavku. Ne očitavamo postavku Do Not Track.
+
+Hostirana web aplikacija koristi nužno potrebne kolačiće kao što su `otp_session`, `session`, `refresh` i `logged_in` za dovršetak autentifikacije, održavanje sesije, osvježavanje pristupa i prikaz stanja prijave. Onemogućavanjem tih kolačića tok prijave u pregledniku prestaje raditi.
+
+Marketinška web stranica i hostirana web aplikacija dijele jedan analitički kolačić prve strane, `analytics_visitor`. Sadrži nasumični identifikator posjetitelja, mogu ga čitati naše vlastite skripte u pregledniku i istječe nakon 13 mjeseci. Koristimo ga kako bismo prepoznali isti preglednik pri različitim posjetima, pa događaji prikazuju posjetitelja koji se vraća, a ne svaki put novog. Nije nužno potreban. Ova odluka odnosi se samo na to ima li vaš preglednik taj identifikator; prikuplja li web stranica išta uopće zaseban je prekidač, opisan u nastavku. Gdje je potrebna privola, uključujući EU/EGP i Ujedinjenu Kraljevinu, postavljamo ga tek nakon što pristanete: web stranica pita putem bannera, a dok ne odgovorite ne traži identifikator i ne prilaže ga ničemu što šalje, dok se gore opisani događaji i dalje šalju bez njega, a svi osim događaja koji uopće ne sadrže identifikator dobivaju dnevni identifikator opisan u sljedećem odlomku. Gdje privola nije potrebna, postavljamo ga bez pitanja. U oba slučaja možete ga isključiti u bilo kojem trenutku, putem kontrole analitike u kutu svake stranice na web stranici ili u postavkama web aplikacije; tada brišemo kolačić iz vašeg preglednika i prestajemo ga koristiti. Vaš se odgovor pohranjuje u pregledniku kako vas ne bismo ponovno pitali. Kad vaš preglednik šalje signal Global Privacy Control, brišemo taj kolačić, a s njim i odgovor koji ga je dopustio, pa se taj preglednik smatra novim ako se signal kasnije isključi: gdje je potrebna privola, pita ga se putem bannera, a gdje privola nije potrebna, dobiva kolačić bez pitanja. Odgovor kojim je kolačić odbijen zadržava se i nastavlja vrijediti. Ovu odluku o kolačiću bilježimo i kao događaje: da je banner prikazan i što ste odgovorili, gdje god ste odgovorili — u banneru ili u kontroli analitike u kutu koja sadrži isti izbor. Zabilježeni odgovor sadrži podatak o tome na kojem je od ta dva mjesta dan. Događaj prikaza bannera i događaj odbijanja uopće ne sadrže identifikator; događaj pristanka sadrži identifikator koji ste upravo dopustili. Same događaje čuvamo dok su nam potrebni za svrhe opisane u ovim pravilima.
+
+Kad događaj stigne u naš sustav za prikupljanje bez identifikatora `analytics_visitor`, primjerice zato što ste odbili kolačić, još niste odgovorili ili ste ga isključili, naš poslužitelj izvodi privremeni identifikator iz IP adrese i korisničkog agenta preglednika iz zahtjeva, u kombinaciji s nasumičnom vrijednošću koja se mijenja svakog UTC dana i briše se kad taj dan završi. Sama IP adresa ne pohranjuje se u našoj analitici. Ovaj identifikator povezuje samo događaje toga dana iz istog preglednika i s iste IP adrese. Nikad se ne pohranjuje u vašem pregledniku, nikad se ne povezuje s identifikatorom `analytics_visitor` ni s računom, nikad se ne prilaže zapisu vašeg odgovora o privoli i ne može se ponovno izračunati nakon što se nasumična vrijednost toga dana izbriše. Koristimo ga kako bismo razumjeli kako posjetitelji koriste web stranicu, na temelju svog legitimnog interesa opisanog u odjeljku Svrhe i pravne osnove. Preglednik koji šalje signal Global Privacy Control nikad nema identifikator `analytics_visitor`, pa njegovi događaji dobivaju ovaj dnevni identifikator kao i svaki drugi preglednik bez tog kolačića. Događaji koji uopće ne sadrže identifikator ne dobivaju ni ovaj dnevni identifikator ni zemlju: prikaz bannera za privolu, odbijanje kolačića te isključivanje ili ponovno uključivanje prikupljanja na ovoj web stranici. Oni ne sadrže identifikator `analytics_visitor`, dnevni identifikator ni zemlju — samo ono što se dogodilo i, za odgovor o kolačiću, gdje ste ga dali.
+
+Kontrola analitike u kutu svake stranice na web stranici sadrži prekidač kojim se isključuje prikupljanje na ovoj web stranici, a uz njega i gore opisanu privolu za analitički kolačić; nakon što odgovorite na banner, kontrola sadrži i taj izbor o kolačiću dok je prikupljanje uključeno te ga ponovno nudi kad ponovno uključite prikupljanje. Kad vaš preglednik šalje signal Global Privacy Control, kontrola sadrži samo taj prekidač: takvom pregledniku uopće ne dajemo analitički kolačić, pa nema izbora o kolačiću koji bismo ponudili. Isključivanje šalje jedan posljednji događaj koji bilježi samo da je prikupljanje isključeno, a ponovno uključivanje šalje odgovarajući događaj; nijedan od njih ne sadrži identifikator, dnevni identifikator ni zemlju. Dok je prikupljanje isključeno, web stranica ne šalje nijedan drugi događaj o vašem posjetu, ni našem sustavu za prikupljanje ni usluzi Vercel Web Analytics, i ne traži identifikator posjetitelja; budući da ništa drugo ne stiže u naš sustav za prikupljanje, ne izvodi se ni dnevni identifikator. Prikupljanje je uključeno dok ga ne isključite, na temelju legitimnog interesa opisanog u odjeljku Svrhe i pravne osnove. Ova web stranica nema račune, pa se vaš odgovor pohranjuje u tom pregledniku i djeluje samo ondje; hostirana web aplikacija ima vlastitu postavku, a aplikacije za iOS i Android imaju je od verzije aplikacije koja je uvodi, kako je opisano u odjeljku Analitika proizvoda.
+
+## Analitika proizvoda
+
+Hostirana web aplikacija te aplikacije za iOS i Android šalju nam događaje o korištenju proizvoda. Ti događaji idu u našu vlastitu infrastrukturu i pohranjuju se u našoj vlastitoj bazi podataka; za njih ne koristimo vanjskog pružatelja analitike.
+
+Događaji opisuju zaslone, trajanje i broj sesija ponavljanja te jesu li radnje uspjele ili ne. Mogu uključivati identifikatore instalacije i sesije te, gdje je primjenjivo, identifikatore radnog prostora i računa. Ti događaji iz aplikacija ne uključuju slobodan tekst, sadržaj kartica ili špilova ni vašu adresu e-pošte.
+
+Gdje to verzija klijenta podržava, jezik sučelja bilježi se u trenutku svakog događaja, prije stavljanja u red čekanja offline. Jezik uređaja zaseban je podatak i može se razlikovati od jezika sučelja. Profili instalacije sadrže trenutačni tehnički kontekst, uključujući platformu, verzije aplikacije i operacijskog sustava, jezik uređaja i vremensku zonu, kad ih klijent dostavi. Dio tehničkog konteksta radi kompatibilnosti ostaje i na pojedinačnim događajima. Starijim klijentima ili događajima može nedostajati jezik sučelja; vrijednosti koje nedostaju ne izvodimo iz jezika uređaja ni vremenske zone.
+
+Za analizu publike procjenjujemo zemlju veze iz IP adrese koju naš API gateway primi za prihvatljive izravne zahtjeve aplikacije, najviše jednom po instalaciji po UTC danu kad se poveže. Adresu tražimo u bazi podataka MaxMind GeoLite Country koja se nalazi u našoj vlastitoj AWS infrastrukturi. Adresa se obrađuje u memoriji zahtjeva, ne pohranjuje se u analitici proizvoda i ne šalje se MaxMindu. Naši konfigurirani zapisnici pristupa API Gatewaya izostavljaju neobrađenu IP adresu; mrežna infrastruktura i dalje obrađuje IP adrese kako bi obradila zahtjeve. Zemlja je približna, može biti nepoznata ili pod utjecajem VPN-a i ne utvrđuje prebivalište, državljanstvo ni točnu lokaciju. Poslužiteljski posrednici, AI klijenti i zahtjevi događaja s web stranice ne daju zemlju instalacije. Zasebno od toga, događaj koji stigne u naš sustav za prikupljanje bez vjerodajnica računa — gore opisani događaji s web stranice, događaji iz hostirane web aplikacije kad niste prijavljeni i događaji iz naše usluge za prijavu — sadrži dvoslovni kod zemlje koji naš poslužitelj pri prihvatu određuje iz adrese s koje zahtjev stiže, a to može biti adresa posrednika, a ne vaša; taj kod pohranjujemo uz događaj, ne pohranjujemo adresu i ne određujemo zemlju za događaje koji uopće ne sadrže identifikator. Zemlju utvrđenu u trenutku slanja ne primjenjujemo na ranije offline događaje.
+
+Povijest zemalja sastoji se od rijetkih opažanja: razdoblje se produljuje dok je uzorkovana zemlja nepromijenjena, a novo počinje kad se promijeni. Granice razdoblja ne dokazuju dnevnu aktivnost ni neprekidnu prisutnost između opažanja. Povratne informacije zasebno bilježe zemlju veze kad je slanje prvi put prihvaćeno, a ne kad je izrađen offline nacrt.
+
+Ovaj proizvod uključuje GeoLite podatke koje je izradio MaxMind, dostupne na [MaxMind](https://www.maxmind.com).
+
+Analitički kolačić i analitika proizvoda dvije su zasebne odluke i nijedna nije izvedena iz druge. Odbijanje gore opisanog analitičkog kolačića ili kasnije povlačenje privole za njega zaustavlja samo zajednički identifikator posjetitelja: sami događaji i dalje se prikupljaju, a dok ste prijavljeni ostaju povezani s vašim računom.
+
+Analitika proizvoda ima vlastitu postavku kojom se to prikupljanje isključuje. Dok je isključena, aplikacija ne bilježi i ne šalje događaje o korištenju proizvoda, a naš API odbacuje svaki skup koji ipak stigne za račun ili sesiju gosta koji su je isključili. Uključena je dok je ne isključite jer te događaje obrađujemo na temelju legitimnog interesa opisanog u odjeljku Svrhe i pravne osnove, a ne na temelju privole, pa za nju nikad ne pitamo, a onome tko je odbio analitički kolačić ona je i dalje uključena. Obuhvaća samo događaje o korištenju proizvoda koje prijavljuju aplikacije; izvještavanje o pogreškama i rušenjima te naši vlastiti zapisi na poslužitelju o radu usluge izvan su nje.
+
+U hostiranoj web aplikaciji postavka se nalazi u postavkama web aplikacije: vaš se odgovor čuva u tom pregledniku, a dok ste prijavljeni i na vašem računu, pri čemu račun na kojem je uključena nikad ponovno ne uključuje postavku u pregledniku koji ju je isključio. Aplikacije za iOS i Android bilježe odgovor na uređaju i, čim postoji račun ili sesija gosta na kojima se može pohraniti, i na njima, uz ponovne pokušaje dok se ne spremi; o tome što uređaj šalje odlučuje vlastiti odgovor uređaja, pa odgovor zabilježen negdje drugdje ondje ne može ponovno pokrenuti prikupljanje. U tim se aplikacijama postavka pojavljuje u postavkama aplikacije od verzije aplikacije koja je uvodi; verzija aplikacije objavljena bez nje nastavlja slati događaje, a naš API odbacuje svaki skup koji ipak stigne za račun ili sesiju gosta koji su isključili postavku. Za to odbacivanje potreban je račun ili sesija gosta koji sadrže vaš odgovor, pa je na instalaciji koja nema ni jedno ni drugo za zaustavljanje slanja zaslužan zapis na samom uređaju. Marketinška web stranica ima vlastiti prekidač, opisan u odjeljku Analitika i kolačići, koji djeluje samo za taj preglednik.
+
+Isključivanje postavke zaustavlja buduće prikupljanje. Ne briše već zabilježene događaje: događaji analitike proizvoda zapisuju se isključivo dodavanjem. Brisanje računa briše povezane profile instalacije i anonimizira zadržane događaje umjesto da ih izbriše, kako je opisano u odjeljku Zadržavanje i brisanje.
+
+## Hostirani AI i vanjski AI klijenti
+
+OpenAI je pružatelj AI-ja konfiguriran za hostirani razgovor, transkripciju i značajke generiranja slika. Kad odaberete te značajke, OpenAI-ju šaljemo podatke zahtjeva potrebne za njihovo izvođenje, što može uključivati vaš upit, relevantan kontekst razgovora i radnog prostora, privitke ili slike, diktirani zvuk i pseudonimni sigurnosni identifikator. Hostirani tekstualni zahtjevi koriste `store: false`, čime se onemogućuje pohrana objekata odgovora za kasnije dohvaćanje. Budući da ti zahtjevi koriste i predmemoriranje upita, OpenAI može zadržati šifrirano stanje aplikacije u predmemoriji do 24 sata. Prema trenutačnim kontrolama OpenAI API-ja, primjenjivi zapisnici nadzora zlouporabe mogu se zadržati do 30 dana, dok se za krajnju točku za transkripciju navodi da ne zadržava ni sadržaj za nadzor zlouporabe ni stanje aplikacije. OpenAI ne koristi podatke iz API-ja za treniranje svojih modela osim ako se nositelj računa izričito ne odluči za to.
+
+Hostirani AI zahtjevi prate se i putem usluge Langfuse Cloud radi otklanjanja pogrešaka i analize kvalitete usluge. Langfuse tragovi mogu uključivati upite, odgovore modela, aktivnost alata, identifikatore korisnika, radnog prostora i sesije te operativne metapodatke. Implementacija maskira adrese e-pošte i polja koja izgledaju kao tajne; prilagođeni tragovi transkripcije ne sadrže neobrađene bajtove zvuka ni podatke privitaka.
+
+Naši administratori mogu čitati sadržaj hostiranog AI razgovora pohranjen u našoj vlastitoj bazi podataka, uključujući vaše upite, odgovore modela i predložene upite za razgovor, kako bi analizirali kako se AI značajke koriste i poboljšali ih. Pristup tom sadržaju ograničen je na administratore pružatelja usluge.
+
+Kad Nibomo povežete s vanjskim AI klijentom putem udaljene MCP usluge ili Agent API-ja, podatke koje od tog klijenta zatražite da dohvati obrađuju i taj klijent i njegov pružatelj AI-ja ili modela. Tom zasebnom obradom upravlja pružatelj klijenta i ona podliježe njegovim uvjetima i pravilima privatnosti.
+
+## Izvršitelji obrade i primatelji
+
+Za hostiranu uslugu koristimo sljedeće kategorije pružatelja usluga:
+
+- Amazon Web Services (AWS) za hosting, Cognito autentifikaciju, Postgres, pohranu datoteka, sigurnosne kopije i operativne zapisnike;
+- Apple za plaćanja u App Storeu, provjeru kupnji i obavijesti o pretplatama;
+- Resend za transakcijske e-poruke za autentifikaciju;
+- OpenAI za neobavezne hostirane AI zahtjeve;
+- Langfuse Cloud za nadzor hostiranog AI-ja;
+- Sentry za izvještavanje o pogreškama i dijagnostici, iz kojeg su uklonjeni osjetljivi podaci, kad je omogućeno u relevantnoj hostiranoj usluzi ili buildu aplikacije;
+- Vercel za marketinšku web stranicu i njezin Web Analytics bez kolačića; i
+- Cloudflare za DNS i upravljanje domenama. Trenutačni DNS zapisi za Nibomo postavljeni su samo kao DNS, bez posredovanja, pa Cloudflare ne posreduje HTTP promet hostirane web stranice ni aplikacije.
+
+Podaci se mogu otkriti i drugim članovima zajedničkog radnog prostora u skladu sa značajkama suradnje usluge, vanjskom klijentu kojeg ovlastite, profesionalnim savjetnicima koji imaju obvezu povjerljivosti ili tijelima javne vlasti kad je otkrivanje zakonski propisano.
+
+## Međunarodni prijenosi
+
+Glavna hostirana aplikacija radi u AWS-ovoj infrastrukturi u EU-u. Konfigurirana regija e-pošte za Resend, regija podataka za Sentry i krajnja točka za Langfuse također su u Europi. Neki pružatelji, uključujući OpenAI i Vercel, mogu obrađivati podatke izvan vaše zemlje ili Europskog gospodarskog prostora. Kad je to potrebno, za te prijenose koristimo primjenjive odluke o primjerenosti, ugovore o obradi podataka i standardne ugovorne klauzule ili jednakovrijedne zaštitne mjere.
+
+## Zadržavanje i brisanje
+
+- Podaci o računu i hostiranom radnom prostoru čuvaju se dok je vaš račun ili relevantni zajednički radni prostor aktivan. Brisanje računa iz aktivne baze podataka uklanja vaše trenutačne podatke o računu, pristupne podatke, članstva i radne prostore u kojima ste jedini član. Sadržaj u radnom prostoru koji i dalje ima druge članove ostaje dostupan tim članovima.
+- Povijest naplate putem Applea ostaje i nakon brisanja računa radi računovodstva, usklađivanja i pravnih zahtjeva. Interne identifikatore korisnika zamjenjujemo pseudonimnim vrijednostima i brišemo pohranjene sadržaje Appleovih obavijesti koji se mogu pripisati izbrisanom računu. Nužni identifikatori kupnje i pripisivanja Appleovu računu ostaju; Apple ih i dalje može povezati s vama, pa to nije potpuna anonimizacija. Brisanje vašeg Nibomo računa ne otkazuje vašu Appleovu pretplatu; njome upravljajte ili je otkažite putem Applea.
+- Događaji analitike proizvoda ostaju i nakon brisanja računa. Za događaje povezane s vašim računom i povezanim identitetima gosta identifikatore računa zamjenjujemo nasumičnom vrijednošću, uklanjamo veze identiteta i brišemo polja instalacije, sesije, radnog prostora, zahtjeva, modela uređaja, operacijskog sustava, jezika uređaja, jezika sučelja, vremenske zone i zemlje. Povezani profili instalacije i njihova povijest zemalja brišu se. Ovo opisuje uklanjanje identifikatora, a ne jamstvo da su zadržani događaji anonimni u svakom kontekstu.
+- Brisanje računa također postavlja istek kolačića `analytics_visitor` u pregledniku iz kojeg je brisanje izvršeno i poništava identifikator analitičke sesije tog preglednika. Taj preglednik zatim nastavlja kao novi anonimni posjetitelj s novim identifikatorom koji nije povezan s prethodnim, ako to vaš izbor o analitici dopušta. To vrijedi samo za taj preglednik; ne obuhvaća kopiju u drugom pregledniku ili na drugom uređaju, a preglednik koji blokira taj upis ili se zatvori prije nego što se on izvrši zadržava stari identifikator dok sam ne istekne. Ne mijenja ni već prikupljene događaje: događaji zabilježeni dok niste bili prijavljeni i koji nikad nisu povezani s vašim računom zadržavaju identifikator s kojim su zabilježeni, a gore opisano uklanjanje veza identiteta ono je što sprječava da se taj identifikator ponovno poveže s vama.
+- Detaljna razdoblja zemalja isključuju se iz upita za analizu publike čim je njihovo posljednje opažanje starije od 90 dana. Dnevno čišćenje ih briše; fizičko brisanje može kasniti dok se čišćenje uspješno ne izvrši. Nepromijenjeno razdoblje može započeti i prije više od 90 dana, ali nije dnevni zapis lokacije. Prva poznata zemlja čuva se zasebno tijekom cijelog trajanja profila instalacije, dok se taj profil ne izbriše.
+- Zemlja uz povratnu informaciju ostaje uz zapis te povratne informacije i briše se zajedno s tim zapisom kroz životni ciklus brisanja računa; pravilo od 90 dana za povijest zemalja ne primjenjuje se na povratne informacije.
+- Pohranjeni medijski sadržaji čuvaju se dok su potrebni povezanom sadržaju aktivnog radnog prostora i brišu se postupkom čišćenja pohrane nakon što se na njih više ne upućuje. Nedovršena privremena učitavanja istječu nakon 7 dana.
+- Baza podataka ima 7 dana automatskih sigurnosnih kopija RDS-a i zaseban dnevni plan AWS Backupa s rokom čuvanja od 35 dana. Zapisi izbrisani iz aktivne usluge mogu ostati u šifriranim sigurnosnim kopijama za oporavak dok te kopije ne isteknu; sigurnosne kopije koriste se za oporavak od katastrofe, a ne za uobičajeni pristup usluzi.
+- Zapisnici pristupa API Gatewaya istječu nakon 7 dana. Ostali zapisnici aplikacije u CloudWatchu trenutačno nemaju konfiguriran automatski istek i ostaju dok se ručno ne izbrišu. Njihovu upotrebu ograničavamo na rad usluge, sigurnost i otklanjanje pogrešaka te brišemo relevantne unose kad je to potrebno kako bismo poštovali primjenjivo pravo na zaštitu podataka.
+- Trenutačni Sentry plan Developer omogućuje pregled događaja za posljednjih 30 dana. Resend prema svojim trenutačnim standardnim postavkama usluge zadržava podatke o poslanim e-porukama 30 dana.
+- Zadržavanje podataka kod OpenAI-ja opisano je u odjeljku Hostirani AI. Langfuse Cloud briše AI tragove nakon 30 dana: ograničenje pristupa koje je pružatelj postavio za naš projekt uklanja starije tragove u noćnoj obradi, a to je brisanje nepovratno. Tragove koji omogućuju identifikaciju brišemo kad je to potrebno radi ispunjenja valjanog zahtjeva za brisanje.
+- Korespondencija s podrškom i zapisi potrebni za pravna ili sigurnosna pitanja čuvaju se samo onoliko dugo koliko je potrebno za relevantnu svrhu. Vercelov hash posjetitelja istječe nakon 24 sata; objedinjena statistika web stranice zadržava se u skladu s postavkama Vercel projekta.
+
+Brisanje računa ne uklanja odmah kopije koje se već nalaze u zakazanoj sigurnosnoj kopiji ili zapisniku pružatelja usluge. Te kopije istječu ili se brišu u skladu s gore navedenim rokovima, osim ako zakon ne propisuje dulji rok.
+
+## Vaša prava
+
+Ovisno o pravu koje se na vas primjenjuje, od nas možete zatražiti pristup svojim osobnim podacima, njihov ispravak, brisanje, ograničenje njihove upotrebe ili prenosivu kopiju. Također možete uložiti prigovor na obradu koja se temelji na legitimnim interesima i povući privolu kad se obrada temelji na privoli. Ta prava mogu biti ograničena kad to zakon dopušta, uključujući slučajeve kad se podaci moraju zadržati radi pravne obveze ili prava druge osobe.
+
+Svoj hostirani račun možete izbrisati u web aplikaciji ili aplikaciji za iOS ili Android. Za druge zahtjeve obratite nam se na adresu navedenu u nastavku. Prije ispunjenja zahtjeva možda ćemo morati provjeriti vaš identitet.
+
+Pritužbu možete podnijeti tijelu za zaštitu podataka u mjestu u kojem živite ili radite ili u mjestu u kojem smatrate da je došlo do povrede. U Bugarskoj je nadzorno tijelo [Komisija za zaštitu osobnih podataka](https://cpdp.bg/en/).
+
+## Sigurnost i otvoreni kod
+
+Koristimo kontrole pristupa, šifriranje u prijenosu, šifriranu pohranu na AWS-u te smanjenje opsega podataka ili uklanjanje osjetljivih podataka u dijagnostičkim sustavima. Nijedna usluga ne može jamčiti apsolutnu sigurnost.
+
+Javni izvorni kod omogućuje vam da pregledate dokumentirane putove postupanja s podacima i konfiguraciju pohranjenu u repozitorijima. Sam javni izvorni kod ne dokazuje trenutačnu konfiguraciju ni ponašanje hostirane usluge.
+
+## Kontakt
+
+Za pitanja o privatnosti ili zahtjeve za ostvarivanje prava obratite se na [kirill+flashcards@kirill-markin.com](mailto:kirill+flashcards@kirill-markin.com) ili koristite [stranicu podrške](/support/).
+
+## Jezik
+
+Ova Pravila privatnosti objavljena su na više jezika. Ako se prijevod razlikuje od engleske verzije, mjerodavna je engleska verzija.
