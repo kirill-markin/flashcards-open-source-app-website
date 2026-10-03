@@ -12,7 +12,7 @@ Pour une question sur le produit, une aide sur votre compte ou une question lié
 
 ## Suppression du compte
 
-Dans l'application iOS, vous pouvez supprimer votre compte hébergé depuis `Settings > Account Settings > Danger Zone > Delete my account`. Si vous avez besoin d'aide pour cette étape, contactez l'assistance par e-mail.
+Dans l'application iOS, vous pouvez supprimer votre compte hébergé depuis `Settings > Delete Account > Delete my account`. Si vous avez besoin d'aide pour cette étape, contactez l'assistance par e-mail.
 
 ## Open source et rapports techniques
 

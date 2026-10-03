@@ -12,7 +12,7 @@ sections:
 
 ## Hesap Silme
 
-iOS uygulamasında barındırılan hesabınızı `Settings > Account Settings > Danger Zone > Delete my account` yolundan silebilirsiniz. Bu akışla ilgili yardıma ihtiyacınız olursa destek ekibine e-postayla ulaşın.
+iOS uygulamasında barındırılan hesabınızı `Settings > Delete Account > Delete my account` yolundan silebilirsiniz. Bu akışla ilgili yardıma ihtiyacınız olursa destek ekibine e-postayla ulaşın.
 
 ## Açık Kaynak ve Teknik Bildirimler
 

@@ -12,7 +12,7 @@ Ef þú þarft aðstoð við vöruna, hjálp við aðganginn eða hefur spurning
 
 ## Eyðing aðgangs
 
-Í iOS-forritinu getur þú eytt hýsta aðganginum þínum undir `Settings > Account Settings > Danger Zone > Delete my account`. Ef þú þarft hjálp við það ferli skaltu hafa samband við aðstoð í tölvupósti.
+Í iOS-forritinu getur þú eytt hýsta aðganginum þínum undir `Settings > Delete Account > Delete my account`. Ef þú þarft hjálp við það ferli skaltu hafa samband við aðstoð í tölvupósti.
 
 ## Opinn hugbúnaður og tæknilegar tilkynningar
 

@@ -12,7 +12,7 @@ Ak potrebujete podporu k produktu alebo pomoc s účtom, prípadne máte otázky
 
 ## Odstránenie účtu
 
-V aplikácii pre iOS môžete svoj hosťovaný účet odstrániť cez `Settings > Account Settings > Danger Zone > Delete my account`. Ak s týmto postupom potrebujete pomoc, kontaktujte podporu e-mailom.
+V aplikácii pre iOS môžete svoj hosťovaný účet odstrániť cez `Settings > Delete Account > Delete my account`. Ak s týmto postupom potrebujete pomoc, kontaktujte podporu e-mailom.
 
 ## Otvorený zdrojový kód a technické hlásenia
 
