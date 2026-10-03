@@ -1,0 +1,149 @@
+---
+title: Zásady ochrany osobných údajov
+description: Zásady ochrany osobných údajov pre Nibomo.
+slug: privacy
+sections:
+  - type: legal_page
+    lastUpdated: október 2026
+---
+## Prevádzkovateľ a rozsah
+
+Hosťovanú službu Nibomo prevádzkuje SAMO DANNI EOOD, IČO 207395566, VAT BG207395566, sídlo bulv. Maritza 154, entrance D, floor 6 #14, 4018, Plovdiv, Bulgaria. Nibomo vytvoril Kirill Markin.
+
+Tieto zásady sa vzťahujú na hosťovanú webovú stránku, aplikácie, API a službu MCP, ktoré prevádzkujeme. Inštanciu s vlastným hosťovaním riadi jej prevádzkovateľ, ktorý zodpovedá za jej postupy ochrany súkromia.
+
+## Vek
+
+Hosťovaná služba je určená osobám vo veku 13 rokov a starším. Ak právo krajiny, v ktorej žijete, stanovuje vyšší minimálny vek na používanie online služby alebo na udelenie súhlasu so spracúvaním údajov, platí tento vyšší vek. Ak máte menej ako 18 rokov, potrebujete povolenie rodiča alebo zákonného zástupcu.
+
+## Údaje, ktoré spracúvame
+
+V závislosti od toho, ako hosťovanú službu používate, spracúvame:
+
+- údaje o účte a autentifikácii vrátane vašej e-mailovej adresy, interných identifikátorov používateľa, záznamov o prihlásení a autentifikačných tokenov;
+- údaje o učení a pracovnom priestore vrátane kartičiek, balíčkov, nastavení, členstiev v pracovných priestoroch, histórie opakovania a metadát synchronizácie;
+- súbory a médiá, ktoré nahráte alebo vytvoríte, vrátane obrázkov a dočasných údajov nahrávania;
+- voliteľné údaje AI vrátane zadaní, histórie chatu, kontextu kartičky alebo pracovného priestoru, súborov a obrázkov zahrnutých v požiadavke, diktovaného zvuku, prepisov, odpovedí modelu a aktivity nástrojov;
+- údaje podpory a spätnej väzby vrátane správ, vášho kontaktného e-mailu, ak ho uvediete, verzie aplikácie, platformy, jazykového nastavenia a súvisiacich informácií o stave;
+- prevádzkové a bezpečnostné údaje vrátane identifikátorov požiadaviek, časových pečiatok, IP adresy, identifikačného reťazca prehliadača, trasy, stavu odpovede, verzie aplikácie, podrobností o zariadení alebo platforme a očistenej diagnostiky chýb; a
+- údaje o používaní webovej stránky a produktu v aplikácii opísané nižšie v častiach Analytika a súbory cookie a Produktová analytika.
+
+Na vytvorenie hosťovaného účtu a prihlásenie doň je potrebná e-mailová adresa. Bez nej vám nemôžeme poskytnúť e-mailovú autentifikáciu ani synchronizáciu založenú na účte. Bez prihláseného účtu môžu byť dostupné obmedzené funkcie pre hostí alebo lokálne funkcie.
+
+## Účely a právne základy
+
+Údaje o účte, pracovnom priestore, opakovaní, súboroch a vyžiadané údaje AI spracúvame v rozsahu potrebnom na poskytovanie hosťovanej služby a plnenie našej zmluvy s vami. Žiadosti o podporu spracúvame, aby sme vám odpovedali a poskytli požadovanú pomoc.
+
+Obmedzené analytické, bezpečnostné, diagnostické údaje a údaje na zlepšovanie služby spracúvame na základe našich oprávnených záujmov spočívajúcich v pochopení používania, predchádzaní zneužitiu, udržiavaní bezpečnosti služby a odstraňovaní porúch. Tieto záujmy porovnávame s vašimi právami a diagnostické údaje minimalizujeme alebo maskujeme, kde je to prakticky možné. Údaje môžeme spracúvať aj vtedy, keď je to potrebné na splnenie zákonnej povinnosti alebo na preukázanie, uplatnenie či obhajobu právnych nárokov. Ak príslušné právo vyžaduje na konkrétnu činnosť súhlas, budeme sa opierať o súhlas a vy ho môžete kedykoľvek odvolať.
+
+Vaše osobné údaje nepredávame ani ich nepoužívame na cielenú reklamu.
+
+## Nákupy a predplatné cez Apple
+
+Platby za nákupy v App Store spracúva Apple; cez fakturáciu Apple nedostávame údaje o vašej platobnej karte ani bankovom účte. Prijímame a uchovávame záznamy o nákupoch vrátane identifikátorov transakcie a produktu, tokenu účtu aplikácie, ktorý prepája nákup s vaším účtom, stavu predplatného a skúšobného obdobia, informácií o obnovení a vrátení peňazí a príslušných dátumov.
+
+Tieto záznamy používame na overenie nákupov, poskytovanie a obnovenie plateného prístupu, vybavovanie požiadaviek podpory, zosúlaďovanie transakcií, vedenie účtovných záznamov a analýzu používania produktu. Záznamy o fakturácii na strane servera vedieme aj vtedy, keď v aplikácii vypnete produktovú analytiku.
+
+## Analytika a súbory cookie
+
+Marketingová webová stránka používa Vercel Web Analytics na meranie zobrazení stránok a vybraných udalostí kliknutí na stránke. Táto služba funguje bez analytických súborov cookie, webová stránka však nastavuje jeden vlastný, opísaný nižšie. Pri zobrazeniach stránok môže Vercel dostať čas udalosti, URL adresu stránky a filtrované parametre dotazu, odkazujúcu stránku, približnú polohu, prehliadač, operačný systém a typ zariadenia. Naše vlastné udalosti kliknutí obsahujú obmedzené vlastnosti, ako je jazykové nastavenie, platforma, umiestnenie odkazu alebo typ interakcie. Do týchto udalostí zámerne nezahŕňame mená, e-mailové adresy, obsah kartičiek ani identifikátory účtov. Vercel údaje agreguje a jednotlivý údajový bod nespája s konkrétnou osobou ani IP adresou; jeho denný hash návštevníka sa po 24 hodinách zahodí. Keď váš prehliadač posiela signál Global Privacy Control, webová stránka do Vercel Web Analytics neposiela vôbec nič.
+
+Okrem toho webová stránka posiela udalosti do nášho vlastného zberača produktovej analytiky: udalosť zobrazenia stránky pre každú stránku, ktorú otvoríte; udalosť kliknutia, keď prejdete odkazom do webovej aplikácie, obchodu s aplikáciami alebo na inštaláciu balíčka z katalógu; čo vo verejnom katalógu balíčkov hľadáte, filtrujete, triedite, ktorými stránkami listujete a čo otvoríte; kliknutie na odkaz, ktorý vedie mimo stránky; skopírovanie koncového bodu pre agentov; zobrazenie bannera s návrhom jazyka a vašu odpoveď naň; a rozhodnutie o súbore cookie a prepínač zberu opísané nižšie. V závislosti od udalosti obsahujú typ stránky, verejný identifikátor verzie balíka na stránkach balíčkov v katalógu a v inštalačných odkazoch, umiestnenie odkazu, či kliknutie do webovej aplikácie smerovalo na prihlásenie, registráciu alebo otvorenie aplikácie, či bola odpoveď o súbore cookie daná v banneri alebo v ovládacom prvku analytiky v rohu, jazyk, ktorý banner s návrhom ponúkol, jazyk rozhrania stránky, jazyk zariadenia v prehliadači, kategóriu zdroja, kategóriu zariadenia a identifikátor `analytics_visitor` opísaný nižšie, ak ho váš prehliadač má. Udalosť zobrazenia stránky obsahuje aj hostiteľa stránky, z ktorej ste prišli, uvedeného podľa zoznamu známych vyhľadávačov a sociálnych sietí a ako `other` pre všetko ostatné, a parametre `utm_source`, `utm_medium` a `utm_campaign` adresy, na ktorú ste prišli. Vyhľadávanie, filtrovanie, triedenie alebo zmena stránky v katalógu obsahuje, koľko výsledkov ste videli a čo ste zvolili: akciu filtra — pridanie, výber, odstránenie alebo vymazanie — s jeho kategóriou a počtom filtrov vybraných po nej, poradie triedenia alebo číslo stránky spolu s celkovým počtom stránok. Otvorenie balíčka z katalógu obsahuje verejný identifikátor balíčka a miesto na stránke, odkiaľ ste ho otvorili, a žiadny počet výsledkov. Vyhľadávanie v katalógu obsahuje aj dĺžku toho, čo ste napísali, a samotný text iba vtedy, keď má normalizovaný text najviac 64 znakov a obsahuje výlučne písmená, znamienka, ktoré sa s nimi kombinujú, číslice, medzery a spojovníky; akýkoľvek iný dotaz sa uvádza iba svojou dĺžkou a nikdy sa neskracuje, aby sa zmestil. Náš server z adresy, z ktorej každá udalosť prichádza, odvodí dvojpísmenový kód krajiny a uloží ho s udalosťou; adresu neukladá a pre udalosti, ktoré nenesú vôbec žiadny identifikátor, opísané nižšie, krajinu neodvodzuje. Keď váš prehliadač posiela signál Global Privacy Control, webová stránka nežiada žiadny identifikátor návštevníka a nezobrazuje žiadny banner so súhlasom, pričom uvedené udalosti sa do nášho vlastného zberača naďalej dostávajú bez tohto identifikátora a všetky okrem udalostí, ktoré nenesú vôbec žiadny identifikátor, dostanú denný identifikátor opísaný nižšie. Nastavenie Do Not Track nečítame.
+
+Hosťovaná webová aplikácia používa nevyhnutne potrebné súbory cookie, ako sú `otp_session`, `session`, `refresh` a `logged_in`, na dokončenie autentifikácie, udržiavanie relácie, obnovovanie prístupu a zobrazenie stavu prihlásenia. Ak tieto súbory cookie zakážete, prihlásenie v prehliadači nebude fungovať.
+
+Marketingová webová stránka a hosťovaná webová aplikácia zdieľajú jeden analytický súbor cookie prvej strany, `analytics_visitor`. Obsahuje náhodný identifikátor návštevníka, môžu ho čítať naše vlastné skripty v prehliadači a jeho platnosť vyprší po 13 mesiacoch. Používame ho na rozpoznanie toho istého prehliadača pri ďalších návštevách, aby udalosti ukazovali vracajúceho sa návštevníka namiesto vždy nového. Nie je nevyhnutne potrebný. Toto rozhodnutie sa týka iba toho, či váš prehliadač nesie tento identifikátor; to, či webová stránka vôbec niečo zbiera, je samostatný prepínač opísaný nižšie. Tam, kde sa vyžaduje súhlas, vrátane EÚ/EHP a Spojeného kráľovstva, ho nastavíme až po vašom súhlase: webová stránka sa pýta cez banner a kým neodpoviete, nežiada žiadny identifikátor a k ničomu, čo posiela, ho nepripája, pričom udalosti opísané vyššie sa naďalej posielajú bez neho a všetky okrem udalostí, ktoré nenesú vôbec žiadny identifikátor, dostanú denný identifikátor opísaný v nasledujúcom odseku. Tam, kde sa súhlas nevyžaduje, ho nastavíme bez pýtania. V oboch prípadoch ho môžete kedykoľvek vypnúť v ovládacom prvku analytiky v rohu každej stránky webu alebo v nastaveniach webovej aplikácie; potom tento súbor cookie z vášho prehliadača vymažeme a prestaneme ho používať. Vaša odpoveď sa uloží vo vašom prehliadači, aby sme sa vás nepýtali znova. Keď váš prehliadač posiela signál Global Privacy Control, tento súbor cookie vymažeme a spolu s ním aj odpoveď, ktorá ho povolila, takže ak sa signál neskôr vypne, s prehliadačom sa zaobchádza ako s novým: tam, kde sa vyžaduje súhlas, dostane otázku v banneri, a tam, kde sa súhlas nevyžaduje, dostane súbor cookie bez pýtania. Odpoveď, ktorá súbor cookie odmietla, sa zachová a naďalej platí. Toto rozhodnutie o súbore cookie zaznamenávame aj ako udalosti: že sa banner zobrazil a čo ste odpovedali, nech ste odpovedali kdekoľvek — v banneri alebo v ovládacom prvku analytiky v rohu, ktorý obsahuje tú istú voľbu. Zaznamenaná odpoveď obsahuje, na ktorom z týchto dvoch miest bola daná. Udalosť zobrazenia bannera a udalosť odmietavej odpovede nenesú vôbec žiadny identifikátor; udalosť súhlasnej odpovede nesie identifikátor, ktorý ste práve povolili. Samotné udalosti uchovávame, kým ich potrebujeme na účely opísané v týchto zásadách.
+
+Keď udalosť dorazí do nášho zberača bez identifikátora `analytics_visitor`, napríklad preto, že ste súbor cookie odmietli, ešte ste neodpovedali alebo ste ho vypli, náš server odvodí dočasný identifikátor z IP adresy požiadavky a identifikačného reťazca prehliadača v kombinácii s náhodnou hodnotou, ktorá sa mení každý deň podľa UTC a po skončení daného dňa sa vymaže. Samotná IP adresa sa v našej analytike neukladá. Tento identifikátor spája iba udalosti z toho istého prehliadača a IP adresy v rámci daného dňa. Nikdy sa neukladá vo vašom prehliadači, nikdy sa nespája s identifikátorom `analytics_visitor` ani s účtom, nikdy sa nepripája k záznamu vašej odpovede o súhlase a po vymazaní náhodnej hodnoty daného dňa ho nemožno znova vypočítať. Používame ho na pochopenie toho, ako návštevníci webovú stránku používajú, na základe nášho oprávneného záujmu opísaného v časti Účely a právne základy. Prehliadač, ktorý posiela signál Global Privacy Control, nikdy nenesie identifikátor `analytics_visitor`, takže jeho udalosti dostanú tento denný identifikátor ako každý iný prehliadač bez tohto súboru cookie. Udalosti, ktoré nenesú vôbec žiadny identifikátor, nedostanú ani tento denný identifikátor, ani krajinu: zobrazenie bannera so súhlasom, odmietavá odpoveď a vypnutie alebo opätovné zapnutie zberu na tejto webovej stránke. Nenesú identifikátor `analytics_visitor`, denný identifikátor ani krajinu — iba to, čo sa stalo, a pri odpovedi o súbore cookie aj miesto, kde ste ju dali.
+
+Ovládací prvok analytiky v rohu každej stránky webu obsahuje prepínač, ktorý vypína zber na tejto webovej stránke, a vedľa neho súhlas s analytickým súborom cookie opísaný vyššie; keď ste už na banner odpovedali, ovládací prvok obsahuje aj túto voľbu súboru cookie, kým je zber zapnutý, a ponúkne ju znova, keď zber opäť zapnete. Keď váš prehliadač posiela signál Global Privacy Control, ovládací prvok obsahuje iba tento prepínač: takémuto prehliadaču nedávame vôbec žiadny analytický súbor cookie, takže nie je čo ponúknuť na výber. Vypnutie pošle jednu poslednú udalosť, ktorá zaznamená iba to, že bol zber vypnutý, a opätovné zapnutie pošle zodpovedajúcu udalosť; ani jedna nenesie identifikátor, denný identifikátor ani krajinu. Kým je zber vypnutý, webová stránka neposiela o vašej návšteve žiadnu inú udalosť, ani do nášho zberača, ani do Vercel Web Analytics, a nežiada žiadny identifikátor návštevníka; keďže do nášho zberača nič iné nedorazí, neodvodzuje sa ani denný identifikátor. Zber je zapnutý, kým ho nevypnete, na základe oprávneného záujmu opísaného v časti Účely a právne základy. Táto webová stránka nemá účty, preto sa vaša odpoveď ukladá v danom prehliadači a platí iba tam; hosťovaná webová aplikácia má vlastné nastavenie a aplikácie pre iOS a Android ho majú od verzie aplikácie, ktorá ho zavádza, pričom obe sú opísané v časti Produktová analytika.
+
+## Produktová analytika
+
+Hosťovaná webová aplikácia a aplikácie pre iOS a Android nám posielajú udalosti o používaní produktu. Tieto udalosti smerujú do našej vlastnej infraštruktúry a ukladajú sa v našej vlastnej databáze; na ne nepoužívame analytického poskytovateľa tretej strany.
+
+Udalosti opisujú obrazovky, trvanie a počty relácií opakovania a to, či akcie uspeli alebo zlyhali. Môžu obsahovať identifikátory inštalácie a relácie a, ak je to relevantné, identifikátory pracovného priestoru a účtu. Tieto udalosti z aplikácií neobsahujú voľný text, obsah kartičiek ani balíčkov, ani vašu e-mailovú adresu.
+
+Ak to verzia klienta podporuje, jazyk rozhrania sa zaznamená v okamihu vzniku každej udalosti, pred zaradením do offline fronty. Jazyk zariadenia je samostatný údaj a môže sa od jazyka rozhrania líšiť. Profily inštalácií obsahujú aktuálny technický kontext vrátane platformy, verzií aplikácie a operačného systému, jazyka zariadenia a časového pásma, ak ich klient poskytne. Časť technického kontextu z dôvodu kompatibility zostáva aj pri jednotlivých udalostiach. Starším klientom alebo udalostiam môže jazyk rozhrania chýbať; chýbajúce hodnoty neodvodzujeme z jazyka zariadenia ani z časového pásma.
+
+Na analýzu publika odhadujeme krajinu pripojenia z IP adresy, ktorú prijme naša brána API pri oprávnených priamych požiadavkách z aplikácie, najviac raz za inštaláciu a deň podľa UTC, keď sa pripojí. Adresu vyhľadáme v databáze MaxMind GeoLite Country uloženej v našej vlastnej infraštruktúre AWS. Adresa sa spracúva v pamäti požiadavky, neukladá sa v produktovej analytike a neposiela sa spoločnosti MaxMind. Naše nakonfigurované prístupové logy API Gateway neobsahujú nespracovanú IP adresu; sieťová infraštruktúra však IP adresy na vybavenie požiadaviek naďalej spracúva. Krajina je približná, môže byť neznáma alebo ovplyvnená sieťou VPN a neurčuje bydlisko, štátnu príslušnosť ani presnú polohu. Serverové sprostredkovateľské uzly, AI klienti a požiadavky s udalosťami z webovej stránky krajinu inštalácie neposkytujú. Okrem toho udalosť, ktorá dorazí do nášho zberača bez prihlasovacích údajov účtu — udalosti z webovej stránky opísané vyššie, udalosti z hosťovanej webovej aplikácie bez prihlásenia a udalosti z našej prihlasovacej služby — nesie dvojpísmenový kód krajiny, ktorý náš server odvodí pri príjme z adresy, z ktorej požiadavka prichádza, a ktorá môže byť adresou sprostredkovateľského uzla, a nie vašou; tento kód ukladáme s udalosťou, adresu neukladáme a pre udalosti, ktoré nenesú vôbec žiadny identifikátor, krajinu neodvodzujeme. Krajinu zistenú pri nahrávaní nepriraďujeme starším udalostiam zaznamenaným offline.
+
+História krajín pozostáva z riedkych pozorovaní: obdobie sa predlžuje, kým sa vzorkovaná krajina nemení, a pri zmene sa začína nové. Hranice období nedokazujú dennú aktivitu ani nepretržitú prítomnosť medzi pozorovaniami. Spätná väzba samostatne zaznamenáva krajinu pripojenia v čase, keď je odoslanie prvýkrát prijaté, nie v čase vytvorenia offline konceptu.
+
+Tento produkt obsahuje údaje GeoLite vytvorené spoločnosťou MaxMind, dostupné na [MaxMind](https://www.maxmind.com).
+
+Analytický súbor cookie a produktová analytika sú dve samostatné rozhodnutia a ani jedno sa neodvodzuje od druhého. Odmietnutie analytického súboru cookie opísaného vyššie alebo neskoršie odvolanie súhlasu s ním zastaví iba zdieľaný identifikátor návštevníka: samotné udalosti sa naďalej zbierajú a kým ste prihlásení, zostávajú prepojené s vaším účtom.
+
+Produktová analytika má vlastné nastavenie, ktoré tento zber vypína. Kým je vypnuté, aplikácia nezaznamenáva ani neposiela žiadne udalosti o používaní produktu a naše API zahodí každú dávku, ktorá napriek tomu dorazí pre účet alebo reláciu hosťa, ktorá ho vypla. Nastavenie je zapnuté, kým ho nevypnete, pretože tieto udalosti spracúvame na základe oprávneného záujmu opísaného v časti Účely a právne základy, a nie na základe súhlasu, preto oň nikdy nežiadame a ten, kto odmietol analytický súbor cookie, ho má stále zapnuté. Vzťahuje sa iba na udalosti o používaní produktu, ktoré hlásia aplikácie; hlásenie chýb a pádov ani naše vlastné serverové záznamy o práci, ktorú služba vykonáva, doň nepatria.
+
+V hosťovanej webovej aplikácii je toto nastavenie v nastaveniach webovej aplikácie: vaša odpoveď sa uchováva v danom prehliadači a, kým ste prihlásení, aj vo vašom účte, pričom účet, ktorý má nastavenie zapnuté, nikdy znova nezapne prehliadač, v ktorom bolo vypnuté. Aplikácie pre iOS a Android zaznamenávajú odpoveď v zariadení a, keď existuje účet alebo relácia hosťa, kde ju možno uložiť, aj tam, pričom to skúšajú znova, kým sa neuloží; o tom, čo zariadenie posiela, rozhoduje jeho vlastná odpoveď, takže odpoveď zaznamenaná inde tam zber znova spustiť nemôže. V týchto aplikáciách sa nastavenie zobrazuje v nastaveniach aplikácie od verzie, ktorá ho zavádza; verzia aplikácie vydaná bez neho udalosti naďalej posiela a naše API zahodí každú dávku, ktorá napriek tomu dorazí pre účet alebo reláciu hosťa, ktorá nastavenie vypla. Na takéto zahodenie je potrebný účet alebo relácia hosťa s vašou odpoveďou, takže pri inštalácii, ktorá nemá ani jedno, zastaví posielanie vlastný záznam zariadenia. Marketingová webová stránka má vlastný prepínač opísaný v časti Analytika a súbory cookie, ktorý platí iba pre daný prehliadač.
+
+Vypnutím nastavenia sa zastaví budúci zber. Už zaznamenané udalosti sa tým neodstránia: udalosti produktovej analytiky sa ukladajú v režime iba na pridávanie. Odstránenie účtu vymaže súvisiace profily inštalácií a uchovávané udalosti anonymizuje, namiesto toho, aby ich vymazalo, ako je opísané v časti Uchovávanie a odstraňovanie.
+
+## Hosťovaná AI a externí AI klienti
+
+OpenAI je poskytovateľ AI nakonfigurovaný pre hosťované funkcie chatu, prepisu a generovania obrázkov. Keď tieto funkcie použijete, pošleme spoločnosti OpenAI údaje požiadavky potrebné na ich vykonanie, ktoré môžu zahŕňať vaše zadanie, relevantný kontext chatu a pracovného priestoru, prílohy alebo obrázky, diktovaný zvuk a pseudonymný bezpečnostný identifikátor. Hosťované textové požiadavky používajú `store: false`, čo vypína ukladanie objektov odpovede na neskoršie načítanie. Keďže tieto požiadavky používajú aj ukladanie zadaní do vyrovnávacej pamäte, OpenAI môže uchovávať šifrovaný aplikačný stav vyrovnávacej pamäte až 24 hodín. Podľa aktuálnych nastavení API spoločnosti OpenAI sa príslušné logy monitorovania zneužitia môžu uchovávať až 30 dní, pričom pri koncovom bode na prepis sa uvádza, že neuchováva obsah monitorovania zneužitia ani aplikačný stav. OpenAI nepoužíva údaje z API na trénovanie svojich modelov, ak to držiteľ účtu výslovne nepovolí.
+
+Hosťované požiadavky AI sa na ladenie a analýzu kvality služby sledujú aj cez Langfuse Cloud. Záznamy Langfuse môžu obsahovať zadania, odpovede modelu, aktivitu nástrojov, identifikátory používateľa, pracovného priestoru a relácie a prevádzkové metadáta. Implementácia maskuje e-mailové adresy a polia, ktoré vyzerajú ako tajné údaje; vlastné záznamy prepisu vynechávajú nespracované bajty zvuku a údaje príloh.
+
+Naši administrátori môžu čítať obsah hosťovaného AI chatu uložený v našej vlastnej databáze vrátane vašich zadaní, odpovedí modelu a navrhnutých zadaní pre chat, aby analyzovali, ako sa funkcie AI používajú, a zlepšovali ich. Prístup k tomuto obsahu majú iba administrátori prevádzkovateľa.
+
+Keď Nibomo pripojíte k externému AI klientovi cez vzdialenú službu MCP alebo Agent API, údaje, ktoré od tohto klienta požadujete načítať, spracúva aj klient a jeho poskytovateľ AI alebo modelu. Toto samostatné spracúvanie riadi prevádzkovateľ klienta a vzťahujú sa naň jeho podmienky a zásady ochrany osobných údajov.
+
+## Sprostredkovatelia a príjemcovia
+
+Pre hosťovanú službu využívame tieto kategórie poskytovateľov služieb:
+
+- Amazon Web Services (AWS) na hosťovanie, autentifikáciu Cognito, Postgres, ukladanie súborov, zálohy a prevádzkové logy;
+- Apple na platby v App Store, overovanie nákupov a oznámenia o predplatnom;
+- Resend na transakčné autentifikačné e-maily;
+- OpenAI na voliteľné hosťované požiadavky AI;
+- Langfuse Cloud na sledovanie hosťovanej AI;
+- Sentry na hlásenie očistených chýb a diagnostiky, ak je zapnuté v príslušnej hosťovanej službe alebo zostavení aplikácie;
+- Vercel na marketingovú webovú stránku a jej Web Analytics bez súborov cookie; a
+- Cloudflare na DNS a správu domén. Aktuálne DNS záznamy Nibomo sú v režime iba DNS, takže Cloudflare nesprostredkúva HTTP prevádzku hosťovanej webovej stránky ani aplikácie.
+
+Údaje môžu byť sprístupnené aj ďalším členom zdieľaného pracovného priestoru v súlade s funkciami spolupráce služby, externému klientovi, ktorého autorizujete, odborným poradcom viazaným povinnosťou mlčanlivosti alebo orgánom verejnej moci, keď to vyžaduje zákon.
+
+## Medzinárodné prenosy
+
+Hlavná hosťovaná aplikácia beží v infraštruktúre AWS v EÚ. Nakonfigurovaný región e-mailov Resend, dátový región Sentry a koncový bod Langfuse sú tiež v Európe. Niektorí poskytovatelia vrátane OpenAI a Vercel môžu spracúvať údaje mimo vašej krajiny alebo Európskeho hospodárskeho priestoru. Ak sa to vyžaduje, pri týchto prenosoch využívame príslušné rozhodnutia o primeranosti, zmluvy o spracúvaní údajov a štandardné zmluvné doložky alebo rovnocenné záruky.
+
+## Uchovávanie a odstraňovanie
+
+- Údaje účtu a hosťovaného pracovného priestoru sa uchovávajú, kým je váš účet alebo príslušný zdieľaný pracovný priestor aktívny. Odstránenie účtu odstráni z produkčnej databázy vaše aktuálne údaje účtu, prihlasovacie údaje, členstvá a pracovné priestory, v ktorých ste jediným členom. Obsah v pracovnom priestore, ktorý má ešte ďalších členov, zostáva týmto členom dostupný.
+- História fakturácie Apple zostáva aj po odstránení účtu na účely účtovníctva, zosúladenia a právnych nárokov. Interné identifikátory používateľa nahrádzame pseudonymnými hodnotami a vymažeme uložené dáta oznámení od Apple, ktoré možno priradiť k odstránenému účtu. Potrebné identifikátory nákupov a priradenia k účtu Apple zostávajú; Apple ich s vami stále dokáže spojiť, takže nejde o úplnú anonymizáciu. Odstránenie účtu Nibomo nezruší vaše predplatné Apple; spravujte ho alebo ho zrušte cez Apple.
+- Udalosti produktovej analytiky zostávajú aj po odstránení účtu. Pri udalostiach prepojených s vaším účtom a prepojenými identitami hosťa nahradíme identifikátory účtu náhodnou hodnotou, odstránime prepojenia identít a vymažeme polia inštalácie, relácie, pracovného priestoru, požiadavky, modelu zariadenia, operačného systému, jazyka zariadenia, jazyka rozhrania, časového pásma a krajiny. Súvisiace profily inštalácií a ich história krajín sa vymažú. Opisuje to odstránenie identifikátorov, nie záruku, že uchovávané udalosti sú anonymné v každom kontexte.
+- Odstránenie účtu tiež ukončí platnosť súboru cookie `analytics_visitor` v prehliadači, z ktorého sa odstránenie vykonáva, a resetuje identifikátor analytickej relácie tohto prehliadača. Tento prehliadač potom pokračuje ako nový anonymný návštevník s novým identifikátorom bez spojenia s predchádzajúcim, ak to vaša voľba analytiky umožňuje. Týka sa to iba tohto prehliadača; nevzťahuje sa na kópiu v inom prehliadači alebo na inom zariadení a prehliadač, ktorý zápis zablokuje alebo sa zavrie skôr, ako sa vykoná, si ponechá starý identifikátor, kým jeho platnosť sama nevyprší. Nemení ani už zozbierané udalosti: udalosti zaznamenané, keď ste neboli prihlásení, a nikdy neprepojené s vaším účtom si ponechávajú identifikátor, s ktorým boli zaznamenané, a to, aby sa tento identifikátor nedal spätne priradiť k vám, zabezpečuje odstránenie prepojení identít opísané vyššie.
+- Podrobné obdobia krajín sa vylúčia z dotazov na analýzu publika, keď je ich posledné pozorovanie staršie ako 90 dní. Denné čistenie ich vymaže; fyzické vymazanie sa môže oneskoriť, kým čistenie úspešne neprebehne. Nezmenené obdobie môže začínať skôr ako pred 90 dňami, nie je to však denný záznam polohy. Prvá známa krajina sa uchováva samostatne počas celej existencie profilu inštalácie, kým sa tento profil nevymaže.
+- Krajina spätnej väzby zostáva pri svojom zázname spätnej väzby a vymaže sa spolu s ním v rámci postupu odstránenia účtu; pravidlo 90 dní pre históriu krajín sa na spätnú väzbu nevzťahuje.
+- Uložené médiá sa uchovávajú, kým ich potrebuje súvisiaci obsah aktívneho pracovného priestoru, a keď už na ne nič neodkazuje, vymažú sa v rámci procesu čistenia úložiska. Neúplné dočasné nahrávania vypršia po 7 dňoch.
+- Databáza má 7 dní automatických záloh RDS a samostatný denný plán AWS Backup s uchovávaním 35 dní. Záznamy odstránené zo živej služby môžu zostať v šifrovaných záložných kópiách na obnovu, kým tieto zálohy nevypršia; zálohy sa používajú na obnovu po havárii, nie na bežný prístup k službe.
+- Prístupové logy API Gateway vypršia po 7 dňoch. Ostatné aplikačné logy CloudWatch momentálne nemajú nastavené automatické vypršanie a zostávajú, kým sa ručne nevymažú. Ich použitie obmedzujeme na prevádzku, bezpečnosť a ladenie a príslušné záznamy vymažeme, keď je to potrebné na rešpektovanie príslušného práva na ochranu údajov.
+- Aktuálny plán Sentry Developer poskytuje 30-dňový spätný prehľad udalostí. Resend podľa svojich aktuálnych štandardných nastavení služby uchováva údaje o odoslaných e-mailoch 30 dní.
+- Uchovávanie v OpenAI je opísané v časti o hosťovanej AI. Langfuse Cloud vymazáva záznamy AI po 30 dňoch: limit prístupu poskytovateľa pre náš projekt odstraňuje staršie záznamy pri nočnom behu a toto vymazanie je nevratné. Identifikovateľné záznamy vymažeme, keď je to potrebné na vybavenie platnej žiadosti o vymazanie.
+- Korešpondencia podpory a záznamy potrebné na právne alebo bezpečnostné záležitosti sa uchovávajú len tak dlho, ako je to potrebné na príslušný účel. Hash návštevníka vo Vercel vyprší po 24 hodinách; agregované štatistiky webovej stránky sa uchovávajú podľa nastavení projektu vo Vercel.
+
+Odstránenie účtu okamžite neodstráni kópie, ktoré sa už nachádzajú v plánovanej zálohe alebo v logu poskytovateľa. Tieto kópie vypršia alebo sa vymažú podľa uvedených lehôt, pokiaľ zákon nevyžaduje dlhšiu lehotu.
+
+## Vaše práva
+
+V závislosti od práva, ktoré sa na vás vzťahuje, nás môžete požiadať o prístup k svojim osobným údajom, ich opravu, vymazanie, obmedzenie ich použitia alebo o poskytnutie ich prenosnej kópie. Môžete tiež namietať proti spracúvaniu založenému na oprávnených záujmoch a odvolať súhlas, ak je spracúvanie založené na súhlase. Tieto práva môžu byť obmedzené, ak to zákon umožňuje, vrátane prípadov, keď sa údaje musia uchovať z dôvodu zákonnej povinnosti alebo práv inej osoby.
+
+Svoj hosťovaný účet môžete odstrániť vo webovej aplikácii alebo v aplikácii pre iOS či Android. S inou žiadosťou nás kontaktujte na adrese uvedenej nižšie. Pred vybavením žiadosti môžeme potrebovať overiť vašu totožnosť.
+
+Sťažnosť môžete podať dozornému orgánu na ochranu údajov v mieste, kde žijete alebo pracujete, alebo kde sa podľa vás porušenie stalo. V Bulharsku je dozorným orgánom [Komisia na ochranu osobných údajov](https://cpdp.bg/en/).
+
+## Bezpečnosť a otvorený zdrojový kód
+
+Používame riadenie prístupu, šifrovanie pri prenose, šifrované úložisko AWS a minimalizáciu alebo maskovanie údajov v diagnostických systémoch. Žiadna služba nemôže zaručiť absolútnu bezpečnosť.
+
+Verejný zdrojový kód vám umožňuje preskúmať zdokumentované postupy nakladania s údajmi a konfiguráciu uloženú v repozitároch. Samotný verejný zdrojový kód nepreukazuje aktuálnu konfiguráciu ani správanie hosťovanej služby.
+
+## Kontakt
+
+S otázkami o ochrane súkromia alebo žiadosťami o uplatnenie práv sa obráťte na [kirill+flashcards@kirill-markin.com](mailto:kirill+flashcards@kirill-markin.com) alebo použite [stránku podpory](/support/).
+
+## Jazyk
+
+Tieto Zásady ochrany osobných údajov sú zverejnené vo viacerých jazykoch. Ak sa preklad líši od anglickej verzie, prednosť má anglická verzia.
