@@ -127,6 +127,8 @@ Examples:
 
 This is how **AP Biology flashcards** stop being mini-essays and start acting like memory tools.
 
+For focused mitosis and meiosis practice, try the [Chromosome and Chromatid Counting Flashcards](/catalog/packages/chromosome-chromatid-counting-flashcards/). Work out chromosome and DNA-molecule counts for a specified cell, nucleus, or pole, then return to your course questions.
+
 ## Experimental design and graph interpretation deserve their own deck slice
 
 AP Biology is one of those subjects where students can know plenty of biology and still get pushed around by data.

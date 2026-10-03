@@ -158,6 +158,8 @@ If you missed a question, save the decision that went wrong. A card asking “Ex
 
 Put the phase and boundary on the front of every counting card. “How many chromosomes?” is an incomplete prompt. “For 2n = 8, how many chromosomes move toward each pole in mitotic anaphase?” has a checkable answer.
 
+For more practice, use the [Chromosome and Chromatid Counting Flashcards](/catalog/packages/chromosome-chromatid-counting-flashcards/). The deck asks you to calculate counts for stated boundaries, work backward from given counts, and correct common counting mistakes.
+
 You can keep these prompts on paper or add the ones you need to a Nibomo deck. [Turning practice questions into flashcards](/blog/how-to-turn-practice-questions-into-flashcards/) explains how to preserve the reasoning without copying a whole worksheet, and [making better flashcards](/blog/how-to-make-better-flashcards/) covers keeping each prompt focused.
 
 On your next review, change the starting chromosome number and solve a fresh question before looking at the table. Write the boundary beside the answer. If you can explain what separated and whether DNA was copied, you can rebuild the counts without memorizing a row of numbers.
