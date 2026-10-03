@@ -98,7 +98,7 @@ I servizi usano questi indirizzi locali:
 | PostgreSQL | `localhost:5432` |
 | Auth, se configurato | `http://localhost:8081` |
 | API di backend | `http://localhost:8080/v1` |
-| Web app | `http://localhost:3000` |
+| App web | `http://localhost:3000` |
 | App admin | `http://localhost:3001` |
 
 Arresta PostgreSQL e il container delle migrazioni con:

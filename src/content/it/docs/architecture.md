@@ -17,12 +17,12 @@ Apex fallback                   -> <domain>      -> CloudFront redirect -> app.<
 1. Domini pubblici separati per `app`, `api` e `auth`
 2. Postgres è la fonte di verità
 3. Il client iOS è offline-first, con SQLite locale e sincronizzazione
-4. La web app, l'app iOS e la superficie per gli agenti esterni condividono lo stesso modello di spazio di lavoro
+4. L'app web, l'app iOS e la superficie per gli agenti esterni condividono lo stesso modello di spazio di lavoro
 5. Gli agenti esterni partono da `GET https://api.nibomo.com/v1/`
 
 ## Client supportati
 
-- Web app su `app.nibomo.com`
+- App web su `app.nibomo.com`
 - App iOS nel repository principale, con archiviazione SQLite locale
 - App Android su Google Play
 - Client di agenti esterni tramite discovery, inizializzazione con OTP e `Authorization: ApiKey`
@@ -44,7 +44,7 @@ Apex fallback                   -> <domain>      -> CloudFront redirect -> app.<
 ### Web
 
 1. Il browser accede tramite `auth.<domain>`.
-2. La web app carica i dati dello spazio di lavoro da `api.<domain>`.
+2. L'app web carica i dati dello spazio di lavoro da `api.<domain>`.
 3. Le richieste alla chat con l'AI passano da `/chat/local-turn`.
 4. L'invio di un ripasso aggiorna lo stato dello scheduler al momento della scrittura.
 
@@ -70,7 +70,7 @@ Nibomo usa FSRS come scheduler dei ripassi.
 Note di implementazione:
 
 - backend e iOS mantengono implementazioni FSRS speculari
-- la web app rispecchia il contratto dei dati di pianificazione, ma non include una terza copia dello scheduler
+- l'app web rispecchia il contratto dei dati di pianificazione, ma non include una terza copia dello scheduler
 - le impostazioni dello scheduler a livello di spazio di lavoro includono ritenzione desiderata, passi di apprendimento, passi di riapprendimento, intervallo massimo e fuzz
 - il timestamp reale del ripasso proviene da `reviewedAtClient`
 
@@ -79,7 +79,7 @@ Per il contratto dettagliato, consulta la [logica di pianificazione FSRS nel rep
 ## Autenticazione
 
 - OTP via email tramite Cognito
-- Cookie di sessione del browser su dominio condiviso per la web app ospitata
+- Cookie di sessione del browser su dominio condiviso per l'app web ospitata
 - Inizializzazione con OTP per gli agenti su `auth.<domain>`, che restituisce una ApiKey a lunga durata
 - `AUTH_MODE=none` per lo sviluppo locale
 - `AUTH_MODE=cognito` per un'autenticazione simile a quella di produzione
