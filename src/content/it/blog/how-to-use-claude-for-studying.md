@@ -229,7 +229,7 @@ Nibomo usa queste valutazioni per programmare i ripassi successivi, ovunque tu a
 
 > [Connetti a Claude](https://claude.ai/directory/nibomo) · [Documentazione](/docs/mcp-connector/)
 
-Per configurare il collegamento, consulta la [guida passo passo al connettore per Claude](/blog/how-to-connect-flashcards-to-claude-with-mcp/) e la [documentazione del connettore MCP](/docs/mcp-connector/), entrambe in inglese. Se preferisci non collegare l’assistente, puoi continuare a copiare le schede manualmente.
+Per configurare il collegamento, consulta la [guida passo passo al connettore per Claude](/blog/how-to-connect-flashcards-to-claude-with-mcp/), in inglese, e la [documentazione del connettore MCP](/docs/mcp-connector/). Se preferisci non collegare l’assistente, puoi continuare a copiare le schede manualmente.
 
 ## Dove Claude ha ancora bisogno di supervisione
 

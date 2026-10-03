@@ -228,7 +228,7 @@ Claudeને આખો ડેક તૈયાર કરવાનું કહે
 
 > [Claude સાથે જોડાઓ](https://claude.ai/directory/nibomo) · [દસ્તાવેજીકરણ](/docs/mcp-connector/)
 
-જોડાણના સેટઅપ માટે [Claude કનેક્ટરની માર્ગદર્શિકા](/blog/how-to-connect-flashcards-to-claude-with-mcp/) અને [MCP કનેક્ટર સંદર્ભ](/docs/mcp-connector/) જુઓ; બંને અંગ્રેજીમાં છે. સહાયકને જોડવો ન હોય તો કાર્ડ જાતે કૉપી કરવાની રીત પણ વાપરી શકો છો.
+જોડાણના સેટઅપ માટે [Claude કનેક્ટરની માર્ગદર્શિકા](/blog/how-to-connect-flashcards-to-claude-with-mcp/) (અંગ્રેજીમાં) અને [MCP કનેક્ટર સંદર્ભ](/docs/mcp-connector/) જુઓ. સહાયકને જોડવો ન હોય તો કાર્ડ જાતે કૉપી કરવાની રીત પણ વાપરી શકો છો.
 
 ## Claude પર હજી ક્યાં દેખરેખ જરૂરી છે
 

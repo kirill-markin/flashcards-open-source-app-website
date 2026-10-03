@@ -226,7 +226,7 @@ Nibomo, ister uygulamada ister sohbette çalışmış olun, bu değerlendirmeler
 
 > [Claude ile bağlan](https://claude.ai/directory/nibomo) · [Dokümantasyon](/docs/mcp-connector/)
 
-Bağlantıyı kurmak için İngilizce [adım adım Claude bağlayıcısı rehberine](/blog/how-to-connect-flashcards-to-claude-with-mcp/) ve [MCP bağlayıcısı başvuru belgesine](/docs/mcp-connector/) bakın. Asistanı bağlamak istemiyorsanız kartları elle kopyalamaya devam edebilirsiniz.
+Bağlantıyı kurmak için [adım adım Claude bağlayıcısı rehberine](/blog/how-to-connect-flashcards-to-claude-with-mcp/) (İngilizce) ve [MCP bağlayıcısı başvuru belgesine](/docs/mcp-connector/) bakın. Asistanı bağlamak istemiyorsanız kartları elle kopyalamaya devam edebilirsiniz.
 
 ## Claude'un hâlâ gözetim gerektirdiği noktalar
 

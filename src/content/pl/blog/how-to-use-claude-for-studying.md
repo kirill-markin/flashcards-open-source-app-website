@@ -230,7 +230,7 @@ Nibomo prowadzi wspólny harmonogram powtórek dla aplikacji i rozmów. Możesz 
 
 > [Połącz z Claude](https://claude.ai/directory/nibomo) · [Dokumentacja](/docs/mcp-connector/)
 
-Konfigurację opisują [poradnik podłączania Claude](/blog/how-to-connect-flashcards-to-claude-with-mcp/) oraz [dokumentacja konektora MCP](/docs/mcp-connector/), oba po angielsku. Jeśli nie chcesz konfigurować połączenia, ręczne kopiowanie nadal w pełni wystarczy.
+Konfigurację opisują [poradnik podłączania Claude](/blog/how-to-connect-flashcards-to-claude-with-mcp/) (po angielsku) oraz [dokumentacja konektora MCP](/docs/mcp-connector/). Jeśli nie chcesz konfigurować połączenia, ręczne kopiowanie nadal w pełni wystarczy.
 
 ## Gdzie Claude nadal wymaga nadzoru
 

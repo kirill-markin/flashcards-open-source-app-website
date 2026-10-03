@@ -228,7 +228,7 @@ Când vine momentul recapitulării, poți folosi [aplicația web](https://app.ni
 
 > [Conectează la Claude](https://claude.ai/directory/nibomo) · [Documentație](/docs/mcp-connector/)
 
-Pentru conectare, consultă [ghidul pentru Claude](/blog/how-to-connect-flashcards-to-claude-with-mcp/) și [documentația conectorului MCP](/docs/mcp-connector/). Ambele sunt în engleză. Poți în continuare să copiezi fișele manual, dacă preferi.
+Pentru conectare, consultă [ghidul pentru Claude](/blog/how-to-connect-flashcards-to-claude-with-mcp/) (în engleză) și [documentația conectorului MCP](/docs/mcp-connector/). Poți în continuare să copiezi fișele manual, dacă preferi.
 
 ## Unde Claude încă are nevoie de supraveghere
 

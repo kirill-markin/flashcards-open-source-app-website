@@ -226,7 +226,7 @@ Nibomo는 앱과 채팅에서 기록한 평가를 모두 반영해 다음 복습
 
 > [연결: Claude](https://claude.ai/directory/nibomo) · [문서](/docs/mcp-connector/)
 
-연결 설정은 영어로 된 [Claude 커넥터 단계별 가이드](/blog/how-to-connect-flashcards-to-claude-with-mcp/)와 [MCP 커넥터 참고 문서](/docs/mcp-connector/)를 참고하세요. 도우미를 연결하고 싶지 않다면 계속 카드를 수동으로 복사해도 됩니다.
+연결 설정은 [Claude 커넥터 단계별 가이드](/blog/how-to-connect-flashcards-to-claude-with-mcp/)(영어)와 [MCP 커넥터 참고 문서](/docs/mcp-connector/)를 참고하세요. 도우미를 연결하고 싶지 않다면 계속 카드를 수동으로 복사해도 됩니다.
 
 ## 여전히 직접 살펴봐야 하는 부분
 

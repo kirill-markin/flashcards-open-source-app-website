@@ -277,7 +277,7 @@ Englanninkielinen [vaativamman kemian opiskelukorttiopas](/blog/how-to-use-flash
 
 [Nibomo](/fi/features/) tukee tavallisia kaksipuolisia kortteja, pakkoja, tunnisteita ja FSRS:n ajoittamia kertauksia, joiden arviot ovat `Again`, `Hard`, `Good` ja `Easy`. Voit asentaa 118 alkuaineen pakan tai tehdä pienemmän pakan kurssisi tarpeisiin.
 
-Tekoälychat ja tiedostoliitteet voivat auttaa laatimaan korttiehdotuksia oppitunnin taulukosta tai omien virheiden luettelosta. Tarkista jokainen nimi, merkki, järjestysluku, suureen nimi ja pyöristyssääntö kurssin määräämästä lähteestä ennen tallentamista. Sovelluksessa ei ole erillistä kemian tietojen tarkistinta, eikä se vuorottele aiheita puolestasi automaattisesti. Englanninkielinen [Getting Started -opas](/docs/getting-started/) kertoo korttien luomisesta ja erääntyneiden korttien kertaamisen aloittamisesta.
+Tekoälychat ja tiedostoliitteet voivat auttaa laatimaan korttiehdotuksia oppitunnin taulukosta tai omien virheiden luettelosta. Tarkista jokainen nimi, merkki, järjestysluku, suureen nimi ja pyöristyssääntö kurssin määräämästä lähteestä ennen tallentamista. Sovelluksessa ei ole erillistä kemian tietojen tarkistinta, eikä se vuorottele aiheita puolestasi automaattisesti. [Getting Started -opas](/docs/getting-started/) kertoo korttien luomisesta ja erääntyneiden korttien kertaamisen aloittamisesta.
 
 ## Usein kysyttyä jaksollisesta järjestelmästä
 

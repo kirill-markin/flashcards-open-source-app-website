@@ -227,7 +227,7 @@ Når kortene skal repeteres, kan du bruke [nettappen](https://app.nibomo.com/) e
 
 > [Koble til Claude](https://claude.ai/directory/nibomo) · [Dokumentasjon](/docs/mcp-connector/)
 
-[Veiledningen for Claude-tilkoblingen](/blog/how-to-connect-flashcards-to-claude-with-mcp/) og [dokumentasjonen for MCP-tilkoblingen](/docs/mcp-connector/) forklarer hvordan du kobler til. Begge er på engelsk. Du kan fortsatt kopiere kortene manuelt hvis du foretrekker det.
+[Veiledningen for Claude-tilkoblingen](/blog/how-to-connect-flashcards-to-claude-with-mcp/) (på engelsk) og [dokumentasjonen for MCP-tilkoblingen](/docs/mcp-connector/) forklarer hvordan du kobler til. Du kan fortsatt kopiere kortene manuelt hvis du foretrekker det.
 
 ## Her trenger Claude fortsatt oppfølging
 

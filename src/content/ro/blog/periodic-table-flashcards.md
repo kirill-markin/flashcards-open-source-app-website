@@ -277,7 +277,7 @@ Continuă să lucrezi separat de set:
 
 [Nibomo](/ro/features/) oferă fișe obișnuite cu față și verso, seturi, etichete și recapitulări programate prin FSRS, cu evaluările `Again`, `Hard`, `Good` și `Easy`. Poți instala setul cu 118 elemente sau poți crea unul mai mic, adaptat cursului tău.
 
-Chatul cu AI și fișierele atașate te pot ajuta să schițezi fișe pornind de la un tabel din lecție sau o listă de greșeli. Înainte să le salvezi, verifică fiecare denumire, simbol, număr atomic, etichetă a mărimii și regulă de rotunjire folosind sursa cerută la curs. Aplicația nu are un instrument dedicat verificării informațiilor de chimie și nu alternează automat temele pentru tine. [Ghidul de început](/docs/getting-started/) (în engleză) explică cum să creezi fișe și să începi recapitulările scadente.
+Chatul cu AI și fișierele atașate te pot ajuta să schițezi fișe pornind de la un tabel din lecție sau o listă de greșeli. Înainte să le salvezi, verifică fiecare denumire, simbol, număr atomic, etichetă a mărimii și regulă de rotunjire folosind sursa cerută la curs. Aplicația nu are un instrument dedicat verificării informațiilor de chimie și nu alternează automat temele pentru tine. [Ghidul de început](/docs/getting-started/) explică cum să creezi fișe și să începi recapitulările scadente.
 
 ## Întrebări frecvente despre tabelul periodic
 

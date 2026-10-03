@@ -229,7 +229,7 @@ Claude ला तयार डेक देण्याऐवजी संभा
 
 > [Claude शी कनेक्ट करा](https://claude.ai/directory/nibomo) · [दस्तऐवजीकरण](/docs/mcp-connector/)
 
-जोडणी करण्यासाठी [Claude कनेक्टरचा मार्गदर्शक](/blog/how-to-connect-flashcards-to-claude-with-mcp/) आणि [MCP कनेक्टर संदर्भ](/docs/mcp-connector/) पाहा; दोन्ही इंग्रजीत आहेत. सहाय्यक जोडायचा नसेल, तर कार्ड्स हाताने कॉपी करण्याची पद्धतही वापरू शकता.
+जोडणी करण्यासाठी [Claude कनेक्टरचा मार्गदर्शक](/blog/how-to-connect-flashcards-to-claude-with-mcp/) (इंग्रजीत) आणि [MCP कनेक्टर संदर्भ](/docs/mcp-connector/) पाहा. सहाय्यक जोडायचा नसेल, तर कार्ड्स हाताने कॉपी करण्याची पद्धतही वापरू शकता.
 
 ## Claude च्या कामावर अजूनही कुठे लक्ष ठेवावे लागते
 
