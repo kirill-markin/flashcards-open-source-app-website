@@ -4,7 +4,7 @@ description: Termos de serviço do Nibomo.
 slug: terms
 sections:
   - type: legal_page
-    lastUpdated: julho de 2026
+    lastUpdated: outubro de 2026
 ---
 ## Serviço e fornecedor
 
@@ -53,3 +53,7 @@ O código-fonte está disponível sob a licença MIT. Uma implantação auto-hos
 ## Suporte
 
 Para suporte ou dúvidas sobre estes Termos, escreva para [kirill+flashcards@kirill-markin.com](mailto:kirill+flashcards@kirill-markin.com) ou use a [página de suporte](/support/).
+
+## Idioma
+
+Estes Termos são publicados em vários idiomas. Se uma tradução divergir da versão em inglês, prevalece a versão em inglês.

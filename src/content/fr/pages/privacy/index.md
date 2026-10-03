@@ -143,3 +143,7 @@ Le code source public vous permet d'inspecter les chemins de traitement des donn
 ## Contact
 
 Pour une question de confidentialité ou une demande d'exercice de vos droits, écrivez à [kirill+flashcards@kirill-markin.com](mailto:kirill+flashcards@kirill-markin.com) ou utilisez la [page d'assistance](/support/).
+
+## Langue
+
+Cette politique de confidentialité est publiée en plusieurs langues. Si une traduction diffère de la version anglaise, la version anglaise prévaut.

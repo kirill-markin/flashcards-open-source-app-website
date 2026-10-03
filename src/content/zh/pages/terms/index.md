@@ -4,7 +4,7 @@ description: Nibomo 的服务条款。
 slug: terms
 sections:
   - type: legal_page
-    lastUpdated: 2026年7月
+    lastUpdated: 2026年10月
 ---
 ## 服务与提供方
 
@@ -53,3 +53,7 @@ Nibomo 是一款开源的间隔重复与抽认卡工具。本条款仅适用于 
 ## 支持
 
 如需支持或对本条款有疑问，请发送邮件至 [kirill+flashcards@kirill-markin.com](mailto:kirill+flashcards@kirill-markin.com)，或使用[支持页面](/support/)。
+
+## 语言
+
+本条款以多种语言发布。如译文与英文版本不一致，以英文版本为准。

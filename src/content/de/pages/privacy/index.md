@@ -143,3 +143,7 @@ Anhand des öffentlichen Quellcodes können dokumentierte Datenpfade und die in 
 ## Kontakt
 
 Bei Datenschutzfragen oder zur Ausübung Ihrer Rechte kontaktieren Sie [kirill+flashcards@kirill-markin.com](mailto:kirill+flashcards@kirill-markin.com) oder nutzen Sie die [Support-Seite](/support/).
+
+## Sprache
+
+Diese Datenschutzerklärung wird in mehreren Sprachen veröffentlicht. Weicht eine Übersetzung von der englischen Fassung ab, ist die englische Fassung maßgeblich.
