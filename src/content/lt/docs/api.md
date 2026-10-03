@@ -183,7 +183,7 @@ curl -X POST https://api.nibomo.com/v1/agent/sql/execute \
   }'
 ```
 
-Taip pat veikia nuotolinis MCP serveris adresu `https://mcp.nibomo.com/mcp`, naudojantis OAuth 2.1 (Dynamic Client Registration + PKCE). Jame SQL taip pat atskirta į `sql_query` (griežtai tik skaitymas) ir `sql_execute` (rašymas), be to, yra `list_workspaces`, `get_guide` ir kartojimo įrankius `next_review_card`, `reveal_answer` bei `submit_review`; žr. [MCP jungtį](/docs/mcp-connector/).
+Taip pat veikia nuotolinis MCP serveris adresu `https://mcp.nibomo.com/mcp`, naudojantis OAuth 2.1 (Dynamic Client Registration + PKCE). Jame SQL taip pat atskirta į `sql_query` (griežtai tik skaitymas) ir `sql_execute` (rašymas), be to, yra `list_workspaces`, `get_guide` ir kartojimo įrankiai `next_review_card`, `reveal_answer` bei `submit_review`; žr. [MCP jungtį](/docs/mcp-connector/).
 
 ### Saugumas ir apimtis
 

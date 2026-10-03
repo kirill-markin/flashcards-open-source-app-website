@@ -36,7 +36,7 @@ Možemo suspendirati ili ukinuti pristup kad je to razumno potrebno radi zaštit
 
 Hostirane AI značajke neobavezne su i koriste OpenAI. Povezana AI telemetrija obrađuje se putem Langfusea radi otklanjanja pogrešaka i analize kvalitete usluge. AI rezultati mogu biti netočni, nepotpuni ili neprikladni. Odgovorni ste za provjeru rezultata prije nego što se na njih oslonite, podijelite ih ili primijenite promjene.
 
-Kad ovlastite vanjski AI klijent da koristi MCP uslugu ili Agent API, taj klijent i njegov pružatelj modela obrađuju podatke koje zatražite prema vlastitim uvjetima. Nismo odgovorni za rad ni rezultate vanjskog klijenta.
+Kad ovlastite vanjski AI klijent da koristi MCP uslugu ili Agent API, taj klijent i njegov pružatelj modela obrađuju prema vlastitim uvjetima podatke koje zatražite. Nismo odgovorni za rad ni rezultate vanjskog klijenta.
 
 ## Dostupnost i promjene
 

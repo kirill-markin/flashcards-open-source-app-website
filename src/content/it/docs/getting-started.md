@@ -1,11 +1,11 @@
 ---
 title: Primi passi
-description: Inizia dalla web app ospitata, collega un agente tramite l'URL di discovery oppure esegui tu stesso lo stack in locale.
+description: Inizia dall'app web ospitata, collega un agente tramite l'URL di discovery oppure esegui tu stesso lo stack in locale.
 ---
 
-## Web app ospitata
+## App web ospitata
 
-Il modo più rapido per iniziare è la web app ospitata:
+Il modo più rapido per iniziare è l'app web ospitata:
 
 1. Apri [app.nibomo.com](https://app.nibomo.com)
 2. Accedi con la tua email tramite OTP senza password
@@ -31,7 +31,7 @@ Se preferisci eseguire una tua istanza, consulta la [Guida al self-hosting](/doc
 
 ## Cosa trovi oggi
 
-- Web app ospitata per carte, ripassi e chat con l'AI
+- App web ospitata per carte, ripassi e chat con l'AI
 - Client iOS nel repository principale, con SQLite locale e sincronizzazione offline-first
 - Servizi di backend e di autenticazione condivisi, su domini `api` e `auth` separati
 - Onboarding degli agenti esterni tramite discovery, OTP e autenticazione ApiKey
@@ -41,4 +41,4 @@ Se preferisci eseguire una tua istanza, consulta la [Guida al self-hosting](/doc
 
 Il progetto è offline-first.
 
-Oggi il repository include la web app, l'app iOS, il servizio di autenticazione, l'API di backend, il flusso per gli agenti esterni e l'app Android pubblicata su Google Play.
+Oggi il repository include l'app web, l'app iOS, il servizio di autenticazione, l'API di backend, il flusso per gli agenti esterni e l'app Android pubblicata su Google Play.
