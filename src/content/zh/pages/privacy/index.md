@@ -143,3 +143,7 @@ OpenAI 是为托管聊天、语音转录和图片生成功能配置的 AI 提供
 ## 联系方式
 
 如有隐私问题或权利请求，请发送邮件至 [kirill+flashcards@kirill-markin.com](mailto:kirill+flashcards@kirill-markin.com)，或使用[支持页面](/support/)。
+
+## 语言
+
+本隐私政策以多种语言发布。如译文与英文版本不一致，以英文版本为准。

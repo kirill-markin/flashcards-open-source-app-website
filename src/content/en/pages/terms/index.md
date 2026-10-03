@@ -4,7 +4,7 @@ description: Terms of service for Nibomo.
 slug: terms
 sections:
   - type: legal_page
-    lastUpdated: July 2026
+    lastUpdated: October 2026
 ---
 ## Service and Provider
 
@@ -53,3 +53,7 @@ The source code is available under the MIT license. A self-hosted deployment is 
 ## Support
 
 For support or questions about these Terms, contact [kirill+flashcards@kirill-markin.com](mailto:kirill+flashcards@kirill-markin.com) or use the [support page](/support/).
+
+## Language
+
+These Terms are published in several languages. If a translation differs from the English version, the English version prevails.
