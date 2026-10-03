@@ -1,0 +1,149 @@
+---
+title: Privātuma politika
+description: Nibomo privātuma politika.
+slug: privacy
+sections:
+  - type: legal_page
+    lastUpdated: 2026. gada oktobris
+---
+## Uzturētājs un darbības joma
+
+Mitināto Nibomo pakalpojumu uztur SAMO DANNI EOOD, uzņēmuma ID 207395566, VAT BG207395566, juridiskā adrese bulv. Maritza 154, entrance D, floor 6 #14, 4018, Plovdiv, Bulgaria. Nibomo izveidoja Kirill Markin.
+
+Šī politika attiecas uz mitināto vietni, lietotnēm, API un MCP pakalpojumu, ko uzturam mēs. Savā serverī darbinātu instanci pārvalda tās uzturētājs, kas ir atbildīgs par tās privātuma praksi.
+
+## Vecums
+
+Mitinātais pakalpojums ir paredzēts personām no 13 gadu vecuma. Ja tavas dzīvesvietas tiesību akti nosaka augstāku minimālo vecumu tiešsaistes pakalpojuma lietošanai vai piekrišanas došanai datu apstrādei, piemēro šo augstāko vecumu. Ja tu vēl neesi sasniedzis 18 gadu vecumu, tev nepieciešama vecāka vai likumiskā aizbildņa atļauja.
+
+## Kādus datus mēs apstrādājam
+
+Atkarībā no tā, kā tu izmanto mitināto pakalpojumu, mēs apstrādājam:
+
+- konta un autentifikācijas datus, tostarp tavu e-pasta adresi, iekšējos lietotāja identifikatorus, pieteikšanās ierakstus un autentifikācijas marķierus;
+- mācību un darbvietas datus, tostarp kartītes, kartīšu komplektus, iestatījumus, dalību darbvietās, atkārtošanas vēsturi un sinhronizācijas metadatus;
+- failus un multividi, ko tu augšupielādē vai izveido, tostarp attēlus un pagaidu augšupielādes datus;
+- neobligātus MI datus, tostarp uzvednes, sarunu vēsturi, kartītes vai darbvietas kontekstu, pieprasījumā iekļautos failus un attēlus, diktētu audio, transkriptus, modeļa atbildes un rīku aktivitāti;
+- atbalsta un atsauksmju datus, tostarp ziņojumus, tavu kontaktu e-pasta adresi, ja tā norādīta, lietotnes versiju, platformu, lokalizāciju un saistīto statusa informāciju;
+- darbības un drošības datus, tostarp pieprasījumu identifikatorus, laikspiedolus, IP adresi, lietotāja aģentu, maršrutu, atbildes statusu, lietotnes versiju, ierīces vai platformas informāciju un attīrītu kļūdu diagnostiku; un
+- vietnes un lietotnes produkta lietojuma datus, kas aprakstīti tālāk sadaļās „Analītika un sīkdatnes” un „Produkta analītika”.
+
+E-pasta adrese ir nepieciešama, lai izveidotu mitināto kontu un tajā pieteiktos. Bez tās mēs nevaram nodrošināt autentifikāciju ar e-pastu vai uz kontu balstītu sinhronizāciju. Dažas ierobežotas viesa vai lokālās funkcijas var būt pieejamas arī bez pieteikšanās kontā.
+
+## Nolūki un tiesiskais pamats
+
+Konta, darbvietas, atkārtošanas un failu datus, kā arī pieprasītos MI datus mēs apstrādājam, ciktāl tas nepieciešams mitinātā pakalpojuma nodrošināšanai un ar tevi noslēgtā līguma izpildei. Atbalsta pieprasījumus mēs apstrādājam, lai tev atbildētu un sniegtu pieprasīto palīdzību.
+
+Ierobežotus analītikas, drošības, diagnostikas un pakalpojuma uzlabošanas datus mēs apstrādājam, pamatojoties uz mūsu leģitīmajām interesēm saprast, kā pakalpojums tiek lietots, novērst ļaunprātīgu izmantošanu, uzturēt pakalpojuma drošību un labot kļūmes. Mēs izvērtējam šīs intereses attiecībā pret tavām tiesībām un, ja iespējams, minimizējam vai aizklājam diagnostikas datus. Mēs varam apstrādāt datus arī tad, ja tas nepieciešams, lai izpildītu juridisku pienākumu vai celtu, īstenotu vai aizstāvētu likumīgas prasības. Ja piemērojamie tiesību akti konkrētai darbībai prasa piekrišanu, mēs balstīsimies uz piekrišanu, un tu to vari jebkurā laikā atsaukt.
+
+Mēs nepārdodam tavus personas datus un neizmantojam tos mērķētai reklāmai.
+
+## Apple pirkumi un abonementi
+
+Apple apstrādā maksājumus par App Store pirkumiem; caur Apple norēķiniem mēs nesaņemam tavas kartes vai bankas datus. Mēs saņemam un glabājam pirkumu ierakstus, tostarp darījumu un produktu identifikatorus, lietotnes konta marķieri, kas sasaista pirkumu ar tavu kontu, abonementa un izmēģinājuma statusu, pagarināšanas un atmaksas informāciju un attiecīgos datumus.
+
+Šos ierakstus mēs izmantojam, lai pārbaudītu pirkumus, nodrošinātu un atjaunotu maksas piekļuvi, sniegtu atbalstu, saskaņotu darījumus, kārtotu grāmatvedības uzskaiti un analizētu produkta lietojumu. Servera puses norēķinu ieraksti tiek uzturēti arī tad, ja tu lietotnē izslēdz produkta analītiku.
+
+## Analītika un sīkdatnes
+
+Mārketinga vietne izmanto Vercel Web Analytics, lai mērītu lapu skatījumus un atsevišķus klikšķu notikumus vietnē. Šis pakalpojums darbojas bez analītikas sīkdatnēm, taču vietne iestata vienu savu sīkdatni, kas aprakstīta tālāk. Par lapu skatījumiem Vercel var saņemt notikuma laiku, lapas URL un filtrētus vaicājuma parametrus, atsauces lapu, aptuveno atrašanās vietu, pārlūku, operētājsistēmu un ierīces veidu. Mūsu pielāgotie klikšķu notikumi ietver ierobežotus rekvizītus, piemēram, lokalizāciju, platformu, saites izvietojumu vai mijiedarbības veidu. Mēs apzināti neiekļaujam šajos notikumos vārdus, e-pasta adreses, kartīšu saturu vai kontu identifikatorus. Vercel apkopo datus un nesaista datu punktu ar konkrētu personu vai IP adresi; Vercel ikdienas apmeklētāju jaucējkods tiek dzēsts pēc 24 stundām. Ja tavs pārlūks sūta Global Privacy Control signālu, vietne uz Vercel Web Analytics nesūta vispār neko.
+
+Turklāt vietne atsevišķi sūta notikumus mūsu pašu produkta analītikas datu vācējam: lapas skatījuma notikumu par katru lapu, ko tu atver; klikšķa notikumu, kad tu seko saitei uz tīmekļa lietotni, lietotņu veikalu vai kartīšu komplekta instalēšanu no kataloga; to, ko tu meklē, filtrē, kārto, pārlapo un atver publiskajā kartīšu komplektu katalogā; klikšķi uz saites, kas ved ārpus vietnes; aģenta galapunkta kopēšanu; valodas ieteikuma reklāmkaroga parādīšanu un tavu atbildi uz to; kā arī sīkdatņu lēmumu un tālāk aprakstīto datu vākšanas slēdzi. Atkarībā no notikuma tie satur lapas veidu, publiskās pakotnes versijas identifikatoru kataloga kartīšu komplektu lapās un instalēšanas saitēs, saites izvietojumu, to, vai klikšķis uz tīmekļa lietotni bija paredzēts pieteikšanās, reģistrēšanās vai lietotnes atvēršanai, to, vai atbilde par sīkdatni tika sniegta reklāmkarogā vai analītikas vadīklā stūrī, valodu, ko piedāvāja ieteikuma reklāmkarogs, lapas saskarnes valodu, pārlūka ierīces valodu, avota kategoriju, ierīces kategoriju un tālāk aprakstīto `analytics_visitor` identifikatoru, ja tavs pārlūks tādu satur. Lapas skatījuma notikums satur arī tās vietnes resursdatora nosaukumu, no kuras tu atnāci (zināmām meklētājprogrammām un sociālo tīklu vietnēm — no saraksta, visām pārējām — kā `other`), kā arī adreses, uz kuru tu atnāci, parametrus `utm_source`, `utm_medium` un `utm_campaign`. Kataloga meklēšana, filtrēšana, kārtošana vai lapas maiņa satur to, cik rezultātu tu redzēji un ko izvēlējies: filtra darbību — pievienošanu, atlasīšanu, noņemšanu vai notīrīšanu — ar tā kategoriju un pēc tam atlasīto filtru skaitu, kārtošanas secību vai lapas numuru kopā ar kopējo lapu skaitu. Kartīšu komplekta atvēršana no kataloga satur komplekta publisko identifikatoru un vietu lapā, no kuras tu to atvēri, bet ne rezultātu skaitu. Kataloga meklēšana satur arī ievadītā teksta garumu, bet pašu tekstu — tikai tad, ja normalizētais teksts nav garāks par 64 rakstzīmēm un satur tikai burtus, zīmes, kas ar tiem apvienojas, ciparus, atstarpes un defises; jebkurš cits vaicājums tiek reģistrēts tikai pēc tā garuma un nekad netiek saīsināts, lai iekļautos ierobežojumā. Mūsu serveris no adreses, no kuras pienāk katrs notikums, atvasina divburtu valsts kodu un saglabā to kopā ar notikumu; tas nesaglabā adresi un neatvasina valsti notikumiem, kuriem nav nekāda identifikatora, kā aprakstīts tālāk. Ja tavs pārlūks sūta Global Privacy Control signālu, vietne nepieprasa apmeklētāja identifikatoru un nerāda piekrišanas reklāmkarogu, taču iepriekš minētie notikumi joprojām nonāk mūsu datu vācējā bez šī identifikatora, un visi tie, izņemot notikumus, kuriem nav nekāda identifikatora, saņem tālāk aprakstīto dienas identifikatoru. Mēs nenolasām iestatījumu Do Not Track.
+
+Mitinātā tīmekļa lietotne izmanto obligāti nepieciešamas sīkdatnes, piemēram, `otp_session`, `session`, `refresh` un `logged_in`, lai pabeigtu autentifikāciju, uzturētu sesiju, atjaunotu piekļuvi un parādītu pieteikšanās stāvokli. Ja šīs sīkdatnes atspējo, pieteikšanās plūsma pārlūkā nedarbojas.
+
+Mārketinga vietne un mitinātā tīmekļa lietotne izmanto vienu kopīgu pirmās puses analītikas sīkdatni `analytics_visitor`. Tajā glabājas nejaušs apmeklētāja identifikators, to var nolasīt mūsu pašu skripti pārlūkā, un tās derīgums beidzas pēc 13 mēnešiem. Mēs to izmantojam, lai atpazītu to pašu pārlūku dažādos apmeklējumos, tāpēc notikumi rāda atgriezušos apmeklētāju, nevis katru reizi jaunu. Tā nav obligāti nepieciešama. Šis lēmums nosaka tikai to, vai tavs pārlūks satur šo identifikatoru; tas, vai vietne vispār kaut ko vāc, ir atsevišķs slēdzis, kas aprakstīts tālāk. Ja ir nepieciešama piekrišana, tostarp ES/EEZ un Apvienotajā Karalistē, mēs to iestatām tikai pēc tam, kad tu piekrīti: vietne to jautā ar reklāmkarogu, un, kamēr tu neesi atbildējis, tā nepieprasa identifikatoru un nepievieno to nekam, ko sūta, taču iepriekš aprakstītie notikumi joprojām tiek sūtīti bez tā, un visi tie, izņemot notikumus, kuriem nav nekāda identifikatora, saņem nākamajā rindkopā aprakstīto dienas identifikatoru. Ja piekrišana nav nepieciešama, mēs to iestatām, nejautājot. Abos gadījumos tu vari to jebkurā laikā izslēgt analītikas vadīklā katras vietnes lapas stūrī vai tīmekļa lietotnes iestatījumos; pēc tam mēs notīrām sīkdatni no tava pārlūka un pārtraucam to izmantot. Tava atbilde tiek saglabāta tavā pārlūkā, lai tev to nejautātu atkārtoti. Ja tavs pārlūks sūta Global Privacy Control signālu, mēs notīrām šo sīkdatni un līdz ar to arī atbildi, kas to bija atļāvusi, tāpēc, ja signālu vēlāk izslēdz, šis pārlūks tiek uzskatīts par jaunu: tur, kur piekrišana ir nepieciešama, tam jautā ar reklāmkarogu, bet tur, kur piekrišana nav nepieciešama, sīkdatni iestata, nejautājot. Atbilde, kas sīkdatni noraidīja, tiek saglabāta un joprojām ir spēkā. Šo sīkdatnes lēmumu mēs reģistrējam arī kā notikumus: to, ka reklāmkarogs tika parādīts, un to, ko tu atbildēji, neatkarīgi no tā, kur tu atbildēji, — reklāmkarogā vai analītikas vadīklā stūrī, kurā ir tā pati izvēle. Reģistrētā atbilde norāda, kurā no šīm divām vietām tā sniegta. Notikums par reklāmkaroga parādīšanu un notikums par noraidošu atbildi nesatur nekādu identifikatoru; notikums par piekrītošu atbildi satur identifikatoru, ko tu tikko atļāvi. Pašus notikumus mēs glabājam tik ilgi, cik tie mums nepieciešami šajā politikā aprakstītajiem nolūkiem.
+
+Ja notikums nonāk mūsu datu vācējā bez `analytics_visitor` identifikatora, piemēram, tāpēc, ka tu noraidīji sīkdatni, vēl neesi atbildējis vai to izslēdzi, mūsu serveris atvasina pagaidu identifikatoru no pieprasījuma IP adreses un pārlūka lietotāja aģenta kopā ar nejaušu vērtību, kas mainās katru UTC dienu un tiek dzēsta, kad šī diena beidzas. Pati IP adrese mūsu analītikā netiek glabāta. Šis identifikators sasaista tikai vienas dienas notikumus no viena un tā paša pārlūka un IP adreses. Tas nekad netiek glabāts tavā pārlūkā, nekad netiek sasaistīts ar `analytics_visitor` identifikatoru vai kontu, nekad netiek pievienots ierakstam par tavu piekrišanas atbildi, un to nav iespējams aprēķināt atkārtoti pēc tam, kad šīs dienas nejaušā vērtība ir dzēsta. Mēs to izmantojam, lai saprastu, kā apmeklētāji lieto vietni, pamatojoties uz mūsu leģitīmajām interesēm, kas aprakstītas sadaļā „Nolūki un tiesiskais pamats”. Pārlūks, kas sūta Global Privacy Control signālu, nekad nesatur `analytics_visitor` identifikatoru, tāpēc tā notikumi saņem šo dienas identifikatoru tāpat kā jebkura cita pārlūka notikumi bez šīs sīkdatnes. Notikumi, kuriem nav nekāda identifikatora, nesaņem ne šo dienas identifikatoru, ne valsti: tie ir piekrišanas reklāmkaroga parādīšana, noraidoša atbilde un šīs vietnes datu vākšanas izslēgšana vai atkārtota ieslēgšana. Tie nesatur ne `analytics_visitor` identifikatoru, ne dienas identifikatoru, ne valsti — tikai to, kas notika, un, ja tā ir atbilde par sīkdatni, vietu, kur tu to sniedzi.
+
+Analītikas vadīklā katras vietnes lapas stūrī ir slēdzis, kas izslēdz šīs vietnes datu vākšanu, un līdzās tam iepriekš aprakstītā piekrišana analītikas sīkdatnei; kad esi atbildējis uz reklāmkarogu, vadīklā ir arī šī sīkdatnes izvēle, kamēr datu vākšana ir ieslēgta, un tā tiek piedāvāta atkal, kad datu vākšanu ieslēdz no jauna. Ja tavs pārlūks sūta Global Privacy Control signālu, vadīklā ir tikai šis slēdzis: šim pārlūkam mēs nemaz nepiešķiram analītikas sīkdatni, tāpēc nav sīkdatnes izvēles, ko piedāvāt. Izslēdzot slēdzi, tiek nosūtīts viens pēdējais notikums, kas reģistrē tikai to, ka tas tika izslēgts, bet, ieslēdzot to atkal, tiek nosūtīts atbilstošs notikums; neviens no tiem nesatur ne identifikatoru, ne dienas identifikatoru, ne valsti. Kamēr datu vākšana ir izslēgta, vietne nesūta nekādus citus notikumus par tavu apmeklējumu ne mūsu datu vācējam, ne Vercel Web Analytics un nepieprasa apmeklētāja identifikatoru; tā kā nekas cits nenonāk mūsu datu vācējā, netiek atvasināts arī dienas identifikators. Datu vākšana ir ieslēgta, ja vien tu to neizslēdz; tās pamatā ir leģitīmās intereses, kas aprakstītas sadaļā „Nolūki un tiesiskais pamats”. Šai vietnei nav kontu, tāpēc tava atbilde tiek saglabāta šajā pārlūkā un ir spēkā tikai tajā; mitinātajai tīmekļa lietotnei ir savs iestatījums, un iOS un Android lietotnēs tas ir pieejams, sākot ar lietotnes versiju, kurā tas ieviests, — abi ir aprakstīti sadaļā „Produkta analītika”.
+
+## Produkta analītika
+
+Mitinātā tīmekļa lietotne, iOS un Android lietotne mums sūta produkta lietojuma notikumus. Šie notikumi nonāk mūsu pašu infrastruktūrā un tiek glabāti mūsu pašu datubāzē; šiem notikumiem mēs neizmantojam trešās puses analītikas pakalpojumu sniedzēju.
+
+Notikumi apraksta ekrānus, atkārtošanas sesiju ilgumu un skaitu, kā arī to, vai darbības izdodas vai neizdodas. Tie var ietvert instalācijas un sesijas identifikatorus un attiecīgā gadījumā darbvietas un konta identifikatorus. Šie lietotņu notikumi neietver brīvu tekstu, kartīšu vai kartīšu komplektu saturu vai tavu e-pasta adresi.
+
+Ja klienta versija to atbalsta, saskarnes valoda tiek fiksēta brīdī, kad notiek katrs notikums, pirms tas tiek ievietots bezsaistes rindā. Ierīces valoda ir atsevišķa un var atšķirties no saskarnes valodas. Instalācijas profilos glabājas pašreizējais tehniskais konteksts, tostarp platforma, lietotnes un operētājsistēmas versijas, ierīces valoda un laika josla, ja klients tos sniedz. Saderības nolūkā daļa tehniskā konteksta paliek arī atsevišķos notikumos. Vecākiem klientiem vai notikumiem saskarnes valoda var nebūt norādīta; trūkstošās vērtības mēs neatvasinām no ierīces valodas vai laika joslas.
+
+Auditorijas analīzei mēs nosakām aptuvenu savienojuma valsti pēc IP adreses, ko mūsu API vārteja saņem atbilstošiem tiešiem lietotnes pieprasījumiem, ne biežāk kā reizi UTC dienā katrai instalācijai, kad tā izveido savienojumu. Mēs meklējam adresi MaxMind GeoLite Country datubāzē, kas glabājas mūsu pašu AWS infrastruktūrā. Adrese tiek apstrādāta pieprasījuma atmiņā, netiek glabāta produkta analītikā un netiek nosūtīta MaxMind. Mūsu konfigurētie API Gateway piekļuves žurnāli neietver neapstrādāto IP adresi; tīkla infrastruktūra joprojām apstrādā IP adreses, lai apkalpotu pieprasījumus. Valsts ir aptuvena, var būt nezināma vai VPN ietekmēta, un tā nenosaka dzīvesvietu, pilsonību vai precīzu atrašanās vietu. Servera starpnieki, MI klienti un vietnes notikumu pieprasījumi nesniedz instalācijas valsti. Turklāt notikums, kas nonāk mūsu datu vācējā bez konta piekļuves datiem, — iepriekš aprakstītie vietnes notikumi, mitinātās tīmekļa lietotnes notikumi, kad neesi pieteicies, un mūsu pieteikšanās pakalpojuma notikumi — satur divburtu valsts kodu, ko mūsu serveris saņemšanas brīdī atvasina no adreses, no kuras pienāk pieprasījums un kas var būt starpnieka, nevis tava adrese; mēs saglabājam šo kodu kopā ar notikumu, nesaglabājam adresi un neatvasinām valsti notikumiem, kuriem nav nekāda identifikatora. Augšupielādes laikā noteikto valsti mēs nepiemērojam agrākiem bezsaistes notikumiem.
+
+Valsts vēsture sastāv no retiem novērojumiem: periods tiek pagarināts, kamēr izlasē noteiktā valsts nemainās, un tiek sākts jauns, kad tā mainās. Perioda robežas nepierāda ikdienas aktivitāti vai nepārtrauktu klātbūtni starp novērojumiem. Atsauksmēm savienojuma valsts tiek reģistrēta atsevišķi — brīdī, kad iesniegums pirmo reizi tiek pieņemts, nevis tad, kad tika izveidots bezsaistes melnraksts.
+
+Šis produkts ietver MaxMind izveidotus GeoLite datus, kas pieejami vietnē [MaxMind](https://www.maxmind.com).
+
+Analītikas sīkdatne un produkta analītika ir divi atsevišķi lēmumi, un neviens no tiem neizriet no otra. Ja noraidi iepriekš aprakstīto analītikas sīkdatni vai vēlāk atsauc piekrišanu tai, tiek apturēts tikai kopīgais apmeklētāja identifikators: paši notikumi joprojām tiek vākti, un, kamēr esi pieteicies, tie paliek saistīti ar tavu kontu.
+
+Produkta analītikai ir savs iestatījums, kas izslēdz šo datu vākšanu. Kamēr tas ir izslēgts, lietotne nereģistrē un nesūta produkta lietojuma notikumus, un mūsu API atmet jebkuru paketi, kas tomēr pienāk no konta vai viesa sesijas, kurā tas ir izslēgts. Tas ir ieslēgts, ja vien tu to neizslēdz, jo šos notikumus mēs apstrādājam, pamatojoties uz sadaļā „Nolūki un tiesiskais pamats” aprakstītajām leģitīmajām interesēm, nevis uz piekrišanu, tāpēc mēs to nekad neprasām, un tam, kurš noraidījis analītikas sīkdatni, tas joprojām ir ieslēgts. Tas attiecas tikai uz lietotņu ziņotajiem produkta lietojuma notikumiem; kļūdu un avāriju ziņošana, kā arī mūsu pašu servera puses ieraksti par pakalpojuma veikto darbu uz to neattiecas.
+
+Mitinātajā tīmekļa lietotnē šis iestatījums atrodas tīmekļa lietotnes iestatījumos: tava atbilde tiek glabāta šajā pārlūkā un, kamēr esi pieteicies, arī tavā kontā, un pārlūku, kurā tas izslēgts, nekad no jauna neieslēdz konts, kurā tas ir ieslēgts. iOS un Android lietotnes reģistrē atbildi ierīcē un, tiklīdz ir konts vai viesa sesija, kurā to glabāt, arī tajā, mēģinot atkārtoti, līdz tā ir saglabāta; ierīces pašas atbilde nosaka, ko šī ierīce sūta, tāpēc citur reģistrēta atbilde nevar tajā atkal sākt datu vākšanu. Šajās lietotnēs iestatījums parādās lietotnes iestatījumos, sākot ar lietotnes versiju, kurā tas ieviests; lietotnes versija, kas izlaista bez tā, turpina sūtīt notikumus, un mūsu API atmet jebkuru paketi, kas tomēr pienāk no konta vai viesa sesijas, kurā iestatījums ir izslēgts. Šai atmešanai nepieciešams konts vai viesa sesija, kurā glabājas tava atbilde, tāpēc instalācijā, kurai nav ne viena, ne otra, sūtīšanu aptur ierīces pašas ieraksts. Mārketinga vietnei ir savs slēdzis, kas aprakstīts sadaļā „Analītika un sīkdatnes” un darbojas tikai attiecīgajā pārlūkā.
+
+Iestatījuma izslēgšana aptur turpmāko datu vākšanu. Tā neizdzēš jau reģistrētos notikumus: produkta analītikas notikumi ir tikai papildināmi. Konta dzēšana izdzēš saistītos instalācijas profilus un anonimizē saglabātos notikumus, nevis tos izdzēš, kā aprakstīts sadaļā „Glabāšana un dzēšana”.
+
+## Mitinātais MI un ārējie MI klienti
+
+OpenAI ir MI pakalpojumu sniedzējs, kas konfigurēts mitinātajām sarunu, transkripcijas un attēlu ģenerēšanas funkcijām. Kad tu izvēlies šīs funkcijas, mēs nosūtām OpenAI to veikšanai nepieciešamos pieprasījuma datus, kas var ietvert tavu uzvedni, attiecīgo sarunas un darbvietas kontekstu, pielikumus vai attēlus, diktētu audio un pseidonīmu drošības identifikatoru. Mitinātie teksta pieprasījumi izmanto `store: false`, kas atspējo atbilžu objektu glabāšanu vēlākai izgūšanai. Tā kā šie pieprasījumi izmanto arī uzvedņu kešatmiņu, OpenAI var glabāt šifrētu kešatmiņas lietojumprogrammas stāvokli līdz 24 stundām. Saskaņā ar OpenAI pašreizējiem API kontroles mehānismiem piemērojamie ļaunprātīgas izmantošanas uzraudzības žurnāli var tikt glabāti līdz 30 dienām, savukārt par transkripcijas galapunktu norādīts, ka tas neglabā ne ļaunprātīgas izmantošanas uzraudzības saturu, ne lietojumprogrammas stāvokli. OpenAI neizmanto API datus savu modeļu apmācībai, ja vien konta turētājs tam skaidri nepiekrīt.
+
+Mitinātie MI pieprasījumi tiek uzraudzīti arī ar Langfuse Cloud palīdzību atkļūdošanas un pakalpojuma kvalitātes analīzes nolūkā. Langfuse trasējumi var ietvert uzvednes, modeļa atbildes, rīku aktivitāti, lietotāja, darbvietas un sesijas identifikatorus un darbības metadatus. Implementācija maskē e-pasta adreses un laukus, kas izskatās pēc noslēpumiem; pielāgotie transkripcijas trasējumi neietver neapstrādātus audio baitus un pielikumu datus.
+
+Mūsu administratori var lasīt mūsu pašu datubāzē glabāto mitinātā MI sarunu saturu, tostarp tavas uzvednes, modeļa atbildes un ieteiktās sarunas uzvednes, lai analizētu, kā tiek izmantotas MI funkcijas, un tās uzlabotu. Piekļuve šim saturam ir tikai uzturētāja administratoriem.
+
+Kad tu pieslēdz Nibomo ārējam MI klientam caur attālo MCP pakalpojumu vai Agent API, datus, kurus tu lūdz šim klientam izgūt, apstrādā arī klients un tā MI vai modeļu pakalpojumu sniedzējs. Šo atsevišķo apstrādi kontrolē klienta uzturētājs, un to reglamentē tā noteikumi un privātuma politika.
+
+## Apstrādātāji un saņēmēji
+
+Mitinātajam pakalpojumam mēs izmantojam šādu kategoriju pakalpojumu sniedzējus:
+
+- Amazon Web Services (AWS) mitināšanai, Cognito autentifikācijai, Postgres, failu glabāšanai, dublējumkopijām un darbības žurnāliem;
+- Apple App Store maksājumiem, pirkumu pārbaudei un abonementu paziņojumiem;
+- Resend transakciju e-pastiem autentifikācijai;
+- OpenAI neobligātiem mitinātā MI pieprasījumiem;
+- Langfuse Cloud mitinātā MI novērojamībai;
+- Sentry attīrītu kļūdu un diagnostikas datu ziņošanai, ja tā ir ieslēgta attiecīgajā mitinātajā pakalpojumā vai lietotnes būvējumā;
+- Vercel mārketinga vietnei un tās Web Analytics bez sīkdatnēm; un
+- Cloudflare DNS un domēnu pārvaldībai. Pašreizējie Nibomo DNS ieraksti darbojas tikai DNS režīmā, tāpēc Cloudflare nedarbojas kā starpnieks mitinātās vietnes vai lietotnes HTTP datplūsmai.
+
+Datus var izpaust arī citiem kopīgas darbvietas dalībniekiem atbilstoši pakalpojuma sadarbības funkcijām, ārējam klientam, kuru tu autorizē, profesionāliem konsultantiem, kuriem ir konfidencialitātes pienākums, vai valsts iestādēm, ja izpaušanu prasa tiesību akti.
+
+## Starptautiska datu nosūtīšana
+
+Galvenā mitinātā lietotne darbojas AWS infrastruktūrā ES. Konfigurētais Resend e-pasta reģions, Sentry datu reģions un Langfuse galapunkts arī atrodas Eiropā. Daži pakalpojumu sniedzēji, tostarp OpenAI un Vercel, var apstrādāt datus ārpus tavas valsts vai Eiropas Ekonomikas zonas. Ja nepieciešams, šādai nosūtīšanai mēs izmantojam piemērojamos lēmumus par aizsardzības līmeņa pietiekamību, datu apstrādes līgumus un līguma standartklauzulas vai līdzvērtīgus aizsardzības pasākumus.
+
+## Glabāšana un dzēšana
+
+- Konta un mitinātās darbvietas dati tiek glabāti, kamēr tavs konts vai attiecīgā kopīgā darbvieta ir aktīva. Konta dzēšana no aktīvās datubāzes izdzēš tava konta pašreizējos datus, piekļuves datus, dalību darbvietās un darbvietas, kurās tu esi vienīgais dalībnieks. Saturs darbvietā, kurai joprojām ir citi dalībnieki, paliek pieejams šiem dalībniekiem.
+- Apple norēķinu vēsture pēc konta dzēšanas tiek saglabāta grāmatvedības, saskaņošanas un juridisku prasību nolūkā. Mēs aizstājam iekšējos lietotāja identifikatorus ar pseidonīmām vērtībām un notīrām saglabātos Apple paziņojumu datus, kas attiecināmi uz dzēsto kontu. Nepieciešamie pirkumu un Apple konta piesaistes identifikatori tiek saglabāti; Apple joprojām var tos saistīt ar tevi, tāpēc tā nav pilnīga anonimizācija. Nibomo konta dzēšana neatceļ tavu Apple abonementu; pārvaldi vai atcel to, izmantojot Apple.
+- Produkta analītikas notikumi pēc konta dzēšanas tiek saglabāti. Notikumiem, kas saistīti ar tavu kontu un saistītajām viesa identitātēm, mēs aizstājam konta identifikatorus ar nejaušu vērtību, noņemam identitāšu saites un notīrām instalācijas, sesijas, darbvietas, pieprasījuma, ierīces modeļa, operētājsistēmas, ierīces valodas, saskarnes valodas, laika joslas un valsts laukus. Saistītie instalācijas profili un to valsts vēsture tiek izdzēsti. Tas apraksta identifikatoru noņemšanu, nevis garantiju, ka saglabātie notikumi ir anonīmi jebkurā kontekstā.
+- Konta dzēšana arī izbeidz `analytics_visitor` sīkdatnes derīgumu pārlūkā, no kura dzēšana tiek veikta, un atiestata šī pārlūka analītikas sesijas identifikatoru. Pēc tam šis pārlūks turpina darboties kā jauns anonīms apmeklētājs ar jaunu identifikatoru, kas nav saistīts ar iepriekšējo, ja tava analītikas izvēle to atļauj. Tas attiecas tikai uz šo pārlūku; tas neietekmē kopiju, kas glabājas citā pārlūkā vai citā ierīcē, un pārlūks, kas bloķē ierakstīšanu vai tiek aizvērts, pirms tā notiek, saglabā veco identifikatoru, līdz tā derīguma termiņš beidzas pats no sevis. Tas arī nemaina jau savāktos notikumus: notikumi, kas reģistrēti, kamēr nebiji pieteicies, un nekad nav tikuši saistīti ar tavu kontu, saglabā identifikatoru, ar kuru tie tika reģistrēti, un tieši iepriekš aprakstītā identitāšu saišu noņemšana neļauj šim identifikatoram atkal norādīt uz tevi.
+- Detalizētie valsts periodi tiek izslēgti no auditorijas datu nolasīšanas, kad to pēdējais novērojums ir vecāks par 90 dienām. Ikdienas tīrīšana tos izdzēš; fiziskā dzēšana var aizkavēties, līdz tīrīšana tiek sekmīgi izpildīta. Nemainīgs periods var būt sācies agrāk nekā pirms 90 dienām, taču tas nav ikdienas atrašanās vietas ieraksts. Pirmā zināmā valsts tiek glabāta atsevišķi visu instalācijas profila pastāvēšanas laiku, līdz šis profils tiek izdzēsts.
+- Atsauksmes valsts paliek kopā ar atsauksmes ierakstu un tiek izdzēsta kopā ar šo ierakstu konta dzēšanas procesā; 90 dienu valsts vēstures noteikums uz atsauksmēm neattiecas.
+- Saglabātā multivide tiek glabāta, kamēr tā nepieciešama saistītajam aktīvās darbvietas saturam, un pēc tam, kad uz to vairs netiek atsaukts, tā tiek izdzēsta krātuves tīrīšanas procesā. Nepabeigto pagaidu augšupielāžu derīgums beidzas pēc 7 dienām.
+- Datubāzei ir 7 dienu RDS automātiskās dublējumkopijas un atsevišķs ikdienas AWS Backup plāns ar 35 dienu glabāšanas laiku. Ieraksti, kas izdzēsti no aktīvā pakalpojuma, var saglabāties šifrētās atkopšanas dublējumkopijās, līdz šo dublējumkopiju derīgums beidzas; dublējumkopijas tiek izmantotas avārijas atkopšanai, nevis parastai piekļuvei pakalpojumam.
+- API Gateway piekļuves žurnālu derīgums beidzas pēc 7 dienām. Citiem CloudWatch lietotņu žurnāliem pašlaik nav konfigurēts automātisks derīguma termiņš, un tie tiek glabāti, līdz tos izdzēš manuāli. Mēs tos izmantojam tikai darbības nodrošināšanai, drošībai un atkļūdošanai un izdzēšam attiecīgos ierakstus, ja tas nepieciešams, lai nodrošinātu piemērojamās datu aizsardzības tiesības.
+- Pašreizējais Sentry Developer plāns nodrošina 30 dienu notikumu vēsturi. Resend saskaņā ar saviem pašreizējiem standarta pakalpojuma iestatījumiem glabā nosūtīto e-pastu datus 30 dienas.
+- OpenAI datu glabāšana ir aprakstīta sadaļā par mitināto MI. Langfuse Cloud izdzēš MI trasējumus pēc 30 dienām: pakalpojuma sniedzēja piekļuves ierobežojums mūsu projektam katru nakti noņem vecākus trasējumus, un šī dzēšana ir neatgriezeniska. Identificējamus trasējumus mēs izdzēšam, ja tas nepieciešams, lai izpildītu pamatotu dzēšanas pieprasījumu.
+- Atbalsta sarakste un ieraksti, kas nepieciešami juridiskiem vai drošības jautājumiem, tiek glabāti tikai tik ilgi, cik tas nepieciešams attiecīgajam nolūkam. Vercel apmeklētāja jaucējkoda derīgums beidzas pēc 24 stundām; apkopotā vietnes statistika tiek glabāta atbilstoši Vercel projekta iestatījumiem.
+
+Konta dzēšana nekavējoties neizdzēš kopijas, kas jau ir ieplānotā dublējumkopijā vai pakalpojuma sniedzēja žurnālā. Šo kopiju derīgums beidzas vai tās tiek izdzēstas atbilstoši iepriekš minētajiem termiņiem, ja vien tiesību akti neprasa ilgāku termiņu.
+
+## Tavas tiesības
+
+Atkarībā no tiesību aktiem, kas uz tevi attiecas, tu vari lūgt mums piekļuvi saviem personas datiem, to labošanu, dzēšanu, to izmantošanas ierobežošanu vai pārnesamas kopijas sniegšanu. Tu vari arī iebilst pret apstrādi, kas balstīta uz leģitīmajām interesēm, un atsaukt piekrišanu, ja apstrāde balstīta uz piekrišanu. Šīs tiesības var tikt ierobežotas, ciktāl to pieļauj tiesību akti, tostarp gadījumos, kad dati jāglabā juridiska pienākuma izpildei vai citas personas tiesību aizsardzībai.
+
+Mitināto kontu vari izdzēst tīmekļa, iOS vai Android lietotnē. Citiem pieprasījumiem sazinies ar mums, izmantojot tālāk norādīto adresi. Pirms pieprasījuma izpildes mums var būt nepieciešams pārbaudīt tavu identitāti.
+
+Tu vari iesniegt sūdzību datu aizsardzības uzraudzības iestādē valstī, kurā dzīvo vai strādā, vai kurā, tavuprāt, noticis pārkāpums. Bulgārijā uzraudzības iestāde ir [Personas datu aizsardzības komisija](https://cpdp.bg/en/).
+
+## Drošība un atvērtais pirmkods
+
+Mēs izmantojam piekļuves kontroli, šifrēšanu pārsūtīšanas laikā, šifrētu AWS krātuvi un datu minimizēšanu vai aizklāšanu diagnostikas sistēmās. Neviens pakalpojums nevar garantēt absolūtu drošību.
+
+Publiskais pirmkods ļauj pārbaudīt dokumentētos datu apstrādes ceļus un repozitorijos ievietoto konfigurāciju. Publiskais pirmkods pats par sevi nepierāda mitinātā pakalpojuma pašreizējo konfigurāciju vai darbību.
+
+## Saziņa
+
+Ar jautājumiem par privātumu vai pieprasījumiem saistībā ar savām tiesībām raksti uz [kirill+flashcards@kirill-markin.com](mailto:kirill+flashcards@kirill-markin.com) vai izmanto [atbalsta lapu](/support/).
+
+## Valoda
+
+Šī privātuma politika ir publicēta vairākās valodās. Ja tulkojums atšķiras no versijas angļu valodā, noteicošā ir versija angļu valodā.
