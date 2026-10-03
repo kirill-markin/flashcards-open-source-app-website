@@ -2,7 +2,7 @@
 title: "Tanulás Claude-dal 2026-ban: gyakorlati útmutató"
 description: "Tanulj saját jegyzeteidből Claude-dal: válaszolj egyenként a kérdésekre, ellenőrizd a javításokat, és gyakorold kártyákkal, ami nem ment, a kurzus AI-szabályai szerint."
 date: "2026-05-28"
-updated: "2026-09-30"
+updated: "2026-10-03"
 image: "/blog/how-to-use-claude-for-studying-v2.png"
 keywords:
   - "hogyan tanuljak Claude-dal"
@@ -225,6 +225,8 @@ A legegyszerűbb átvitel bármelyik tanulókártya-alkalmazással működik. K�
 Ha Nibomót használsz, MCP-n keresztül összekapcsolhatod vele Claude-ot. Az MCP teremti meg a kapcsolatot az asszisztens és a Nibomo között. Kérd meg Claude-ot, hogy mentés előtt mutassa meg a javasolt kártyákat, és csak azokat hagyd jóvá, amelyeket meg akarsz tartani. Claude ezután elmentheti őket a Nibomóba későbbi ismétléshez.
 
 Amikor esedékessé válik az ismétlés, használhatod a [webalkalmazást](https://app.nibomo.com/), vagy gyakorolhatsz Claude-dal vagy Codexszel egy beszélgetésben, miután MCP-n keresztül összekapcsoltad az asszisztenst a Nibomóval. A beszélgetésben az asszisztens egyszerre egy kérdést tesz fel, és megvárja a próbálkozásodat, mielőtt megmutatja a választ. Te értékeled, mennyire sikerült felidézned, az asszisztens pedig rögzíti az értékelésedet a Nibomóban. A Nibomo ugyanazt az ismétlési ütemtervet kezeli, akár az alkalmazásban, akár a beszélgetésben gyakorolsz.
+
+> [Csatlakozás a következőhöz: Claude](https://claude.ai/directory/nibomo) · [Dokumentáció](/docs/mcp-connector/)
 
 A kapcsolat beállításában a [Claude-csatlakozó útmutatója](/blog/how-to-connect-flashcards-to-claude-with-mcp/) és az [MCP-csatlakozó dokumentációja](/docs/mcp-connector/) segít. Mindkettő angol nyelvű. Ha kényelmesebb, továbbra is másolhatod kézzel a kártyákat.
 

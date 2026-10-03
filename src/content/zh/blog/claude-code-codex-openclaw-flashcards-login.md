@@ -2,6 +2,7 @@
 title: "如何让 Claude Code、Codex 或 OpenClaw 帮你登录 Nibomo"
 description: "Nibomo 提供了一套开源的代理登录流程：一个 discovery URL、邮箱 OTP，以及长期有效的 API key。你只要把链接交给代理，再把邮件里的最新 8 位验证码发给它，它就能自己完成账户和工作区的初始化。"
 date: "2026-03-10"
+updated: "2026-10-03"
 keywords:
   - "claude code login"
   - "codex login"
@@ -10,6 +11,8 @@ keywords:
   - "open source flashcards app"
   - "open source api authentication"
 ---
+
+> [连接到 Claude](https://claude.ai/directory/nibomo) · [文档](/docs/mcp-connector/)
 
 现在大多数登录流程，依然默认所有初始化步骤都要由人亲手完成。
 

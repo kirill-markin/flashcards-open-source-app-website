@@ -1,7 +1,21 @@
 ---
 title: Connecteur MCP
-description: Ajoutez le serveur MCP distant de Nibomo comme connecteur personnalisé, avec OAuth pour les clients, une clé API pour l'usage sans interface, et des outils SQL de lecture et d'écriture séparés.
+description: "Connectez Nibomo depuis le répertoire de Claude ou configurez son serveur MCP dans Claude Code et d’autres clients, avec OAuth et huit outils pour les cartes et révisions."
 ---
+
+## Se connecter depuis le répertoire de Claude
+
+Ouvrez [Nibomo dans le répertoire de Claude](https://claude.ai/directory/nibomo), connectez-le, identifiez-vous sur votre compte Nibomo et autorisez l’accès. Nibomo figure comme connecteur Community.
+
+Dans Claude Code, utilisez le même compte avec abonnement Claude et vérifiez `/mcp` après la connexion. Une connexion par clé API ou fournisseur tiers ne charge pas automatiquement les connecteurs claude.ai.
+
+Vous pouvez aussi configurer Claude Code directement. Exécutez la commande suivante, ouvrez `/mcp` dans Claude Code et terminez l’autorisation dans le navigateur :
+
+```bash
+claude mcp add --transport http nibomo https://mcp.nibomo.com/mcp
+```
+
+[Claude Code MCP documentation](https://code.claude.com/docs/en/mcp#use-mcp-servers-from-claudeai).
 
 ## Vue d'ensemble
 
@@ -20,12 +34,7 @@ Connectez-vous à cette adresse :
 https://mcp.nibomo.com/mcp
 ```
 
-Le transport est Streamable HTTP, et le serveur expose sept outils : deux outils
-SQL sur une surface SQL réduite et volontairement limitée, une liste des espaces de
-travail, un guide de référence et trois outils de révision. C'est la même surface de
-données propre à l'utilisateur que dans la [référence de l'API](/docs/api/) ; le
-serveur MCP est la voie adaptée aux connecteurs pour l'atteindre depuis les clients
-qui parlent MCP.
+Le transport est Streamable HTTP. Le serveur propose huit outils pour les espaces de travail, la lecture et l’écriture de cartes et paquets, les guides, les révisions et l’utilisation du compte.
 
 ## Comment l'ajouter dans votre client
 
@@ -46,9 +55,10 @@ puis `submit_review`.
 
 ## Outils
 
-Le serveur expose sept outils. Les lectures et les écritures sont séparées
+Le serveur expose huit outils. Les lectures et les écritures sont séparées
 volontairement, pour qu'un même outil ne mélange jamais opérations sûres et destructrices.
 
+- `get_usage_limits` — lecture seule du forfait, des limites et de l’utilisation mensuelle actuelle de l’IA ; ne lit ni ne modifie les cartes.
 - `sql_query` — accès strictement en lecture seule à vos cartes et paquets (`SHOW TABLES`,
   `DESCRIBE`, `SHOW COLUMNS`, `SELECT`).
 - `sql_execute` — accès en écriture à vos cartes et paquets (`INSERT`, `UPDATE`,
@@ -165,7 +175,7 @@ base de données :
 - **Plafonds** : jusqu'à `100` lignes par instruction, jusqu'à `50` instructions par
   lot, et une limite de résultat d'environ `12k` tokens. Les lots de modifications
   s'appliquent de façon atomique.
-- **Séparation lecture/écriture** : `sql_query`, `list_workspaces`, `get_guide`,
+- **Séparation lecture/écriture** : `get_usage_limits`, `sql_query`, `list_workspaces`, `get_guide`,
   `next_review_card` et `reveal_answer` sont strictement en lecture seule
   (`readOnlyHint`) et ne réparent jamais de données, ne recalculent jamais la
   planification et ne modifient jamais l'état d'une carte. `sql_execute` et

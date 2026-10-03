@@ -118,6 +118,15 @@
   text-align: start;
 }
 
+.agentGuide {
+  justify-self: start;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--text-secondary);
+  font-size: 13px;
+}
+
 .appShowcase {
   padding: 16px;
   display: grid;

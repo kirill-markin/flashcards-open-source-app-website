@@ -1,7 +1,21 @@
 ---
 title: Conector MCP
-description: Añada el servidor MCP remoto de Nibomo como un conector personalizado, con OAuth para clientes, una clave API para uso headless y herramientas SQL de lectura y escritura separadas.
+description: "Conecta Nibomo desde el directorio de Claude o configura su servidor MCP en Claude Code y otros clientes, con OAuth y ocho herramientas para tarjetas y repasos."
 ---
+
+## Conectar desde el directorio de Claude
+
+Abre [Nibomo en el directorio de Claude](https://claude.ai/directory/nibomo), conéctalo, inicia sesión en tu cuenta de Nibomo y autoriza el acceso. Nibomo aparece como conector Community.
+
+En Claude Code, usa la misma cuenta con suscripción de Claude y comprueba `/mcp` después de conectar. El inicio de sesión con una clave API o un proveedor externo no carga automáticamente los conectores de claude.ai.
+
+También puedes configurar Claude Code directamente. Ejecuta el siguiente comando, abre `/mcp` en Claude Code y completa la autorización en el navegador:
+
+```bash
+claude mcp add --transport http nibomo https://mcp.nibomo.com/mcp
+```
+
+[Claude Code MCP documentation](https://code.claude.com/docs/en/mcp#use-mcp-servers-from-claudeai).
 
 ## Descripción general
 
@@ -21,11 +35,7 @@ Conéctese a él en:
 https://mcp.nibomo.com/mcp
 ```
 
-El transporte es Streamable HTTP, y el servidor expone siete herramientas: dos
-herramientas SQL sobre una superficie SQL pequeña e intencionalmente limitada,
-una lista de espacios de trabajo, una guía de referencia y tres herramientas de
-repaso. Es la misma superficie de datos por usuario que la [referencia de API](/docs/api/); el servidor MCP es la
-forma compatible con conectores de alcanzarla desde clientes que hablan MCP.
+El transporte es Streamable HTTP. El servidor ofrece ocho herramientas para descubrir espacios de trabajo, leer y escribir tarjetas y mazos, consultar guías, repasar y comprobar el uso de la cuenta.
 
 ## Cómo añadirlo en su cliente
 
@@ -47,10 +57,11 @@ tarjetas y mazos. Para repasar, llame a `next_review_card`, luego a
 
 ## Herramientas
 
-El servidor expone siete herramientas. Las lecturas y las escrituras están
+El servidor expone ocho herramientas. Las lecturas y las escrituras están
 separadas a propósito para que una sola herramienta nunca mezcle operaciones
 seguras y destructivas.
 
+- `get_usage_limits` — consulta de solo lectura del plan, los límites y el uso mensual actual de IA; no lee ni modifica tarjetas.
 - `sql_query` — acceso estrictamente de solo lectura a sus tarjetas y mazos
   (`SHOW TABLES`, `DESCRIBE`, `SHOW COLUMNS`, `SELECT`).
 - `sql_execute` — acceso de escritura a sus tarjetas y mazos (`INSERT`, `UPDATE`,
@@ -171,7 +182,7 @@ de datos:
 - **Límites**: hasta `100` filas por instrucción, hasta `50` instrucciones por lote
   y un límite de resultados de aproximadamente `12k` tokens. Los lotes de mutación
   se aplican de forma atómica.
-- **División de lectura/escritura**: `sql_query`, `list_workspaces`, `get_guide`,
+- **División de lectura/escritura**: `get_usage_limits`, `sql_query`, `list_workspaces`, `get_guide`,
   `next_review_card` y `reveal_answer` son estrictamente de solo lectura
   (`readOnlyHint`) y nunca reparan datos, recalculan la programación ni cambian el
   estado de las tarjetas. `sql_execute` y `submit_review` son las únicas

@@ -27,7 +27,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
       },
       agentConnectors: [
         {
-          caption: "Adaugă acest server MCP în clientul tău AI:",
+          caption: "Sau conectează orice client AI compatibil cu MCP folosind acest URL:",
           link: {
             label: "https://mcp.nibomo.com/mcp",
             href: "https://mcp.nibomo.com/mcp",

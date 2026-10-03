@@ -27,7 +27,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
       },
       agentConnectors: [
         {
-          caption: "این سرور MCP را به کلاینت هوش مصنوعی خود اضافه کنید:",
+          caption: "یا هر کلاینت هوش مصنوعی سازگار با MCP را با این نشانی متصل کنید:",
           link: {
             label: "https://mcp.nibomo.com/mcp",
             href: "https://mcp.nibomo.com/mcp",

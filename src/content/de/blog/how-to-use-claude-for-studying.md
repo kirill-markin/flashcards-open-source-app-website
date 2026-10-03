@@ -2,7 +2,7 @@
 title: "Claude 2026 zum Lernen nutzen: Ein praktischer Leitfaden"
 description: "Lerne mit Claude anhand deiner eigenen Unterlagen, beantworte Fragen einzeln, prüfe jede Korrektur und verwandle Wissenslücken in Karteikarten – innerhalb der KI-Regeln deines Kurses."
 date: "2026-05-28"
-updated: "2026-09-30"
+updated: "2026-10-03"
 image: "/blog/how-to-use-claude-for-studying-v2.png"
 keywords:
   - "Claude zum Lernen nutzen"
@@ -225,6 +225,8 @@ Verwirf den Rest. Eine Lernsitzung mit Claude kann auch dann nützlich sein, wen
 ## Optional: Ausgewählte Karten aus Claude übertragen
 
 Die einfachste Übertragung funktioniert mit jeder Karteikarten-App. Lass Claude nur die freigegebenen Karten als schlichte Blöcke mit Vorder- und Rückseite ausgeben, prüfe sie noch einmal und kopiere sie in dein gewohntes Wiederholungssystem.
+
+> [Mit Claude verbinden](https://claude.ai/directory/nibomo) · [Dokumentation](/docs/mcp-connector/)
 
 Wenn du Nibomo nutzt, verbinde Claude über MCP damit. MCP stellt die Verbindung zwischen dem Assistenten und Nibomo her. Danach kannst du Claude bitten, die von dir geprüften und freigegebenen Karten zu speichern. Die [Anleitung zum Claude-Connector](/blog/how-to-connect-flashcards-to-claude-with-mcp/) führt durch die Einrichtung; die [MCP-Connector-Referenz](/docs/mcp-connector/) beschreibt die Verbindung mit anderen kompatiblen Assistenten.
 

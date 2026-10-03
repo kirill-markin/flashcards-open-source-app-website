@@ -27,7 +27,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
       },
       agentConnectors: [
         {
-          caption: "Pridėkite šį MCP serverį prie savo DI kliento:",
+          caption: "Arba šiuo URL prijunkite bet kurį MCP palaikantį DI klientą:",
           link: {
             label: "https://mcp.nibomo.com/mcp",
             href: "https://mcp.nibomo.com/mcp",

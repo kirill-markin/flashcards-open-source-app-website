@@ -29,8 +29,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
       },
       agentConnectors: [
         {
-          caption:
-            "Προσθέστε αυτόν τον διακομιστή MCP στον πελάτη ΤΝ που χρησιμοποιείτε:",
+          caption: "Ή συνδέστε οποιονδήποτε πελάτη AI συμβατό με MCP μέσω αυτού του URL:",
           link: {
             label: "https://mcp.nibomo.com/mcp",
             href: "https://mcp.nibomo.com/mcp",

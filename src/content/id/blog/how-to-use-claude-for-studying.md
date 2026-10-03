@@ -2,7 +2,7 @@
 title: "Cara Menggunakan Claude untuk Belajar pada 2026: Alur Kerja Praktis"
 description: "Belajar dari catatan sendiri dengan Claude, jawab satu pertanyaan setiap kali, periksa koreksi, dan ubah bagian yang belum dikuasai menjadi flashcard sesuai aturan AI mata kuliah."
 date: "2026-05-28"
-updated: "2026-09-30"
+updated: "2026-10-03"
 image: "/blog/how-to-use-claude-for-studying-v2.png"
 keywords:
   - "cara menggunakan Claude untuk belajar"
@@ -230,6 +230,8 @@ Jika Anda memakai Nibomo, Anda dapat menghubungkan Claude melalui MCP dan memint
 Saat kartu perlu diulang, buka [aplikasi Nibomo](https://app.nibomo.com/) atau belajar melalui percakapan dengan Claude atau Codex yang terhubung ke Nibomo melalui MCP. Dalam percakapan, minta asisten memberikan satu pertanyaan setiap kali, menunggu Anda mencoba menjawab, lalu menampilkan jawabannya. Setelah melihat jawaban, Anda menilai seberapa baik Anda mengingatnya, dan asisten mencatat penilaian yang Anda pilih di Nibomo.
 
 Nibomo menggunakan penilaian tersebut untuk menjadwalkan pengulangan berikutnya, baik Anda belajar di aplikasi maupun dalam percakapan. Anda bisa berpindah di antara keduanya dengan tetap mengikuti jadwal pengulangan yang sama.
+
+> [Hubungkan ke Claude](https://claude.ai/directory/nibomo) · [Dokumentasi](/docs/mcp-connector/)
 
 Untuk menyiapkan koneksi, lihat [panduan konektor Claude langkah demi langkah](/blog/how-to-connect-flashcards-to-claude-with-mcp/) dan [referensi konektor MCP](/docs/mcp-connector/), keduanya dalam bahasa Inggris. Jika tidak ingin menghubungkan asisten, Anda tetap bisa menyalin kartu secara manual.
 

@@ -27,7 +27,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
       },
       agentConnectors: [
         {
-          caption: "Dodajte ovaj MCP poslužitelj u svoj AI klijent:",
+          caption: "Ili povežite bilo koji AI klijent koji podržava MCP putem ovog URL-a:",
           link: {
             label: "https://mcp.nibomo.com/mcp",
             href: "https://mcp.nibomo.com/mcp",

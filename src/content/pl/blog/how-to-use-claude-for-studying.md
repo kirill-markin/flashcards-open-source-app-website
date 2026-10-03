@@ -2,7 +2,7 @@
 title: "Jak używać Claude do nauki w 2026 roku: praktyczny sposób pracy"
 description: "Ucz się z notatek z pomocą Claude: odpowiadaj na pojedyncze pytania, sprawdzaj poprawki i twórz fiszki z luk w wiedzy, zgodnie z zasadami użycia AI na zajęciach."
 date: "2026-05-28"
-updated: "2026-09-30"
+updated: "2026-10-03"
 image: "/blog/how-to-use-claude-for-studying-v2.png"
 keywords:
   - "jak używać Claude do nauki"
@@ -227,6 +227,8 @@ Jeśli używasz Nibomo, możesz połączyć Claude ze swoimi fiszkami przez MCP.
 Gdy nadejdzie pora powtórki, możesz korzystać z [aplikacji internetowej](https://app.nibomo.com/) albo z rozmowy z Claude lub Codex połączonym z Nibomo przez MCP. Poproś asystenta o zadawanie jednego pytania naraz i czekanie na twoją próbę odpowiedzi przed pokazaniem rozwiązania. Następnie samodzielnie oceń, jak dobrze pamiętasz odpowiedź; asystent zapisze twoją ocenę powtórki w Nibomo.
 
 Nibomo prowadzi wspólny harmonogram powtórek dla aplikacji i rozmów. Możesz więc przechodzić między aplikacją a asystentem, zachowując te same fiszki i terminy kolejnych powtórek.
+
+> [Połącz z Claude](https://claude.ai/directory/nibomo) · [Dokumentacja](/docs/mcp-connector/)
 
 Konfigurację opisują [poradnik podłączania Claude](/blog/how-to-connect-flashcards-to-claude-with-mcp/) oraz [dokumentacja konektora MCP](/docs/mcp-connector/), oba po angielsku. Jeśli nie chcesz konfigurować połączenia, ręczne kopiowanie nadal w pełni wystarczy.
 

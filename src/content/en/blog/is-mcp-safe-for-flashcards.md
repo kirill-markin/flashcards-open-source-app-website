@@ -2,6 +2,7 @@
 title: "Is MCP Safe for Flashcards? Permissions, Privacy, and Write Access in 2026"
 description: "Is MCP safe for flashcards? See what OAuth secures, what AI clients can read or change, and how to limit privacy and write risks before connecting."
 date: "2026-07-12"
+updated: "2026-10-03"
 image: "/blog/is-mcp-safe-for-flashcards.png"
 keywords:
   - "is MCP safe for flashcards"
@@ -49,13 +50,14 @@ Client-side tool blocking is a useful operational control. The OAuth grant remai
 
 ## What the Nibomo MCP tools can actually do
 
-The connector exposes a parser-enforced SQL dialect rather than arbitrary PostgreSQL. Its seven tools have distinct surfaces:
+The connector exposes a parser-enforced SQL dialect rather than arbitrary PostgreSQL. Its eight tools have distinct surfaces:
 
 | Tool | Current access | Changes data? | Conservative client setting |
 | --- | --- | --- | --- |
 | `list_workspaces` | Lists up to 100 workspaces the user can access, including ID, name, active-card count, last activity, and which one is the default | No | Enable only if this account-level metadata is acceptable to return to the client |
 | `sql_query` | Reads `workspace`, `cards`, `decks`, and `review_events` in one requested workspace | No | Enable for a defined read task and request only the columns needed |
 | `sql_execute` | Inserts, updates, or marks records deleted in `cards` and `decks` in one requested workspace | Yes | Keep disabled unless the client can constrain writes in a way you accept |
+| `get_usage_limits` | strictly read-only account plan, limits, and current monthly AI usage; it does not read or change cards. | No | Enable only if this account-level metadata is acceptable to return to the client |
 | `get_guide` | Returns one fixed reference guide on the SQL dialect, card authoring, bulk authoring, or the review flow, without reading workspace data | No | Enable; it returns documentation, not your cards |
 | `next_review_card` | Returns the front of the next card to review in one requested workspace | No | Enable for a review session and remember that card text reaches the client |
 | `reveal_answer` | Returns the back of one card in one requested workspace | No | Enable together with `next_review_card` |

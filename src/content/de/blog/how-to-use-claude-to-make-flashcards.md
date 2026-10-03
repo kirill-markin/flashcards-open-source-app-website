@@ -2,6 +2,7 @@
 title: "So erstellst du 2026 mit Claude Lernkarten: Projects, Datei-Uploads und FSRS-Wiederholung"
 description: "Ein praktischer Claude-Flashcards-Workflow für 2026: Nutze Projects und Datei-Uploads für kleinere, sauberere Kartenentwürfe und verschiebe dann nur die brauchbaren Karten in Nibomo für echte FSRS-Wiederholung."
 date: "2026-06-11"
+updated: "2026-10-03"
 image: "/blog/how-to-use-claude-to-make-flashcards.png"
 keywords:
   - "claude lernkarten erstellen"
@@ -13,6 +14,8 @@ keywords:
   - "flashcards mit claude"
   - "fsrs flashcards"
 ---
+
+> [Mit Claude verbinden](https://claude.ai/directory/nibomo) · [Dokumentation](/docs/mcp-connector/)
 
 Gestern habe ich eine Vorlesungsgliederung und eine chaotische PDF aus einer Lektüre in Claude geworfen und um Lernkarten gebeten. Ein paar waren stark. Der Rest hatte diesen typischen KI-Geruch: technisch korrekt, seltsam glatt und deutlich schwerer zu wiederholen, als es auf den ersten Blick aussah.
 
@@ -234,17 +237,11 @@ Das sind unterschiedliche Aufgaben.
 
 Wenn du die Scheduling-Seite ausführlicher willst, ist [FSRS vs SM-2 im Jahr 2026](/de/blog/fsrs-vs-sm-2/) der direkte Begleitartikel.
 
-## Verschiebe die guten Karten in Nibomo, ohne so zu tun, als gäbe es eine magische Claude-Integration
+## Geprüfte Karten in Nibomo speichern
 
-Dieser Teil muss ehrlich bleiben.
+Öffne [Nibomo im Claude-Verzeichnis](https://claude.ai/directory/nibomo), verbinde den Connector, melde dich bei Nibomo an und erlaube den Zugriff. Nibomo ist als Community-Connector gelistet.
 
-Es gibt hier keinen besonderen Claude-zu-Nibomo-Button, und ich würde auch nicht so tun, als gäbe es ihn. Die nützliche Übergabe ist einfacher:
-
-1. Entwirf Kartenkandidaten in Claude.
-2. Lösche oder überarbeite die schwachen Karten.
-3. Kopiere die Überlebenden in den Nibomo-KI-Chat oder erstelle sie direkt in der App.
-4. Organisiere sie in Decks und Tags.
-5. Wiederhole das fertige Deck mit FSRS.
+Bitte Claude, nur die von dir geprüften und freigegebenen Karten über den MCP-Connector von Nibomo zu speichern. Prüfe den Zielarbeitsbereich und den Schreibaufruf, genehmige ihn und kontrolliere die gespeicherten Karten in Nibomo, bevor du sie mit FSRS wiederholst. Manuelles Kopieren bleibt möglich.
 
 [Nibomo](/de/) passt gut zu diesem Workflow, weil das aktuelle Produkt genau den Teil abdeckt, den Claude nicht selbst fertigstellt:
 
@@ -268,7 +265,7 @@ Diese Version würde ich behalten:
 3. Lade einen kleinen Batch hoch: eine Vorlesung, einen Lektüreabschnitt oder korrigierte Übungsfragen.
 4. Bitte Claude um schlichte Vorder-/Rückseiten-Kandidaten.
 5. Lösche oder überarbeite schwache Karten sofort.
-6. Verschiebe die Überlebenden in den Nibomo-KI-Chat oder erstelle sie direkt in der App.
+6. Bitte Claude, nur die von dir geprüften und freigegebenen Karten über den MCP-Connector von Nibomo zu speichern. Prüfe den Zielarbeitsbereich und den Schreibaufruf, genehmige ihn und kontrolliere die gespeicherten Karten in Nibomo, bevor du sie mit FSRS wiederholst. Manuelles Kopieren bleibt möglich.
 7. Wiederhole das fertige Deck mit FSRS.
 
 Das ist ein glaubwürdigerer Workflow, als so zu tun, als wäre Claude selbst der Ort für langfristiges Behalten.

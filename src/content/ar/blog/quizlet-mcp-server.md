@@ -3,6 +3,7 @@ title: "هل لدى Quizlet خادم MCP في 2026؟ وما المتاح لـ Cl
 description: "لا يوثّق Quizlet خادم MCP في 2026. تعرّف إلى الفرق بين تطبيق Quizlet في ChatGPT، والتصدير المتاح لمنشئ المجموعة فقط، والمسار الآمن لوصول Claude أو Codex المتكرر."
 image: "/blog/quizlet-mcp-server.png"
 date: "2026-09-12"
+updated: "2026-10-03"
 keywords:
   - "Quizlet MCP"
   - "خادم MCP لـ Quizlet"
@@ -75,7 +76,11 @@ keywords:
 
 `https://mcp.nibomo.com/mcp`
 
-تحدّد [وثائق موصل MCP](/docs/mcp-connector/) سبع أدوات: `list_workspaces`، و`sql_query` للقراءة، و`sql_execute` للكتابة، و`get_guide` للأدلة المرجعية، إضافةً إلى `next_review_card` و`reveal_answer` و`submit_review` للمراجعات. ويمكن لعملاء MCP التفاعليين إجراء التفويض عبر OAuth. أما وكلاء الطرفية، فيمكنهم البدء بدلًا من ذلك من [وثائق Agent API](/docs/api/) واستخدام مسار HTTP المنشور.
+> [الاتصال بـ Claude](https://claude.ai/directory/nibomo) · [التوثيق](/docs/mcp-connector/)
+
+تحدّد [وثائق موصل MCP](/docs/mcp-connector/) ثماني أدوات: `list_workspaces`، و`sql_query` للقراءة، و`sql_execute` للكتابة، و`get_guide` للأدلة المرجعية، إضافةً إلى `next_review_card` و`reveal_answer` و`submit_review` للمراجعات. ويمكن لعملاء MCP التفاعليين إجراء التفويض عبر OAuth. أما وكلاء الطرفية، فيمكنهم البدء بدلًا من ذلك من [وثائق Agent API](/docs/api/) واستخدام مسار HTTP المنشور.
+
+`get_usage_limits` — قراءة فقط لخطة الحساب وحدوده واستخدام الذكاء الاصطناعي في الشهر الحالي؛ لا يقرأ البطاقات ولا يغيّرها.
 
 لا يحوّل ذلك Nibomo إلى موصل لـ Quizlet. المسار المدعوم هو:
 

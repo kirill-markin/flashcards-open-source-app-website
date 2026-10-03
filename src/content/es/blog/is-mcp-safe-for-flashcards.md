@@ -2,6 +2,7 @@
 title: "¿Es seguro usar MCP con flashcards? Permisos, privacidad y acceso de escritura en 2026"
 description: "¿Es seguro usar MCP con flashcards? Revisa qué protege OAuth, qué puede leer o cambiar un cliente de IA y cómo reducir los riesgos antes de conectarte."
 date: "2026-07-12"
+updated: "2026-10-03"
 image: "/blog/is-mcp-safe-for-flashcards.png"
 keywords:
   - "es seguro usar MCP con flashcards"
@@ -49,13 +50,14 @@ Bloquear herramientas en el cliente es un control operativo útil. La concesión
 
 ## Qué pueden hacer realmente las herramientas MCP de Nibomo
 
-El conector no acepta PostgreSQL arbitrario. Expone un dialecto SQL cuyas reglas aplica un analizador. Cada una de sus siete herramientas tiene un alcance distinto:
+El conector no acepta PostgreSQL arbitrario. Expone un dialecto SQL cuyas reglas aplica un analizador. Cada una de sus ocho herramientas tiene un alcance distinto:
 
 | Herramienta | Alcance actual | ¿Modifica datos? | Ajuste prudente en el cliente |
 | --- | --- | --- | --- |
 | `list_workspaces` | Muestra hasta 100 espacios de trabajo a los que puede acceder el usuario, junto con su ID, nombre, número de tarjetas activas y última actividad; también indica cuál es el predeterminado | No | Actívala solo si aceptas que el cliente reciba estos metadatos de la cuenta |
 | `sql_query` | Lee `workspace`, `cards`, `decks` y `review_events` en el espacio de trabajo solicitado | No | Actívala para una tarea de lectura bien delimitada y solicita solo las columnas necesarias |
 | `sql_execute` | Inserta, actualiza o marca como eliminados registros de `cards` y `decks` en el espacio de trabajo solicitado | Sí | Déjala desactivada salvo que el cliente pueda limitar las escrituras de una forma que consideres aceptable |
+| `get_usage_limits` | consulta de solo lectura del plan, los límites y el uso mensual actual de IA; no lee ni modifica tarjetas. | No | Actívala solo si aceptas que el cliente reciba estos metadatos de la cuenta |
 | `get_guide` | Devuelve una guía de referencia fija sobre el dialecto SQL, la creación de tarjetas, la creación masiva de tarjetas o el flujo de repaso, sin leer datos del espacio de trabajo | No | Actívala; devuelve documentación, no tus tarjetas |
 | `next_review_card` | Devuelve el anverso de la siguiente tarjeta que toca repasar en el espacio de trabajo solicitado | No | Actívala para una sesión de repaso y recuerda que el texto de la tarjeta llega al cliente |
 | `reveal_answer` | Devuelve el reverso de una tarjeta en el espacio de trabajo solicitado | No | Actívala junto con `next_review_card` |

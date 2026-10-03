@@ -2,7 +2,7 @@
 title: "Hvernig á að nota Claude við nám árið 2026: hagnýt vinnuaðferð"
 description: "Lærðu út frá eigin glósum með Claude, svaraðu einni spurningu í einu, sannreyndu leiðréttingar og gerðu minniskort úr því sem þú þarft að æfa, í samræmi við reglur námskeiðsins um gervigreind."
 date: "2026-05-28"
-updated: "2026-09-30"
+updated: "2026-10-03"
 image: "/blog/how-to-use-claude-for-studying-v2.png"
 keywords:
   - "hvernig á að nota Claude við nám"
@@ -225,6 +225,8 @@ Einfaldasta flutningsleiðin virkar með hvaða minniskortaforriti sem er. Biddu
 Ef þú notar Nibomo geturðu tengt Claude með MCP, tengingu milli aðstoðarmannsins og Nibomo. Þá geturðu beðið Claude að vista kortin sem þú hefur yfirfarið og samþykkt. Athugaðu innihald þeirra og hvar þau verða vistuð áður en þú samþykkir vistunina.
 
 Þegar komið er að upprifjun geturðu notað [vefforrit Nibomo](https://app.nibomo.com/) eða spjallað við Claude eða Codex sem hefur verið tengt við Nibomo með MCP. Biddu aðstoðarmanninn í spjallinu að leggja fyrir eina spurningu í einu, bíða eftir tilraun þinni áður en svarið er sýnt og skrá síðan mat þitt á því hversu vel þú mundir svarið í Nibomo. Nibomo heldur utan um sameiginlega upprifjunaráætlun, svo þú getur skipt á milli forritsins og spjallsins.
+
+> [Tengjast Claude](https://claude.ai/directory/nibomo) · [Skjölun](/docs/mcp-connector/)
 
 Sjá [leiðbeiningar um tengingu Claude](/blog/how-to-connect-flashcards-to-claude-with-mcp/) og [skjölun MCP-tengisins](/docs/mcp-connector/) fyrir uppsetningu; hvort tveggja er á ensku. Þú getur áfram afritað kortin handvirkt ef þú vilt ekki tengja aðstoðarmanninn.
 

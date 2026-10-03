@@ -2,7 +2,7 @@
 title: "2026年版 AIフラッシュカードチューター: MCPで復習対象カードを出題し、評価をFSRSの復習として保存"
 description: "Claude、ChatGPT、CodexをMCPでNibomoに接続すると、AIチューターが復習対象カードを出題し、答えを1問ずつ採点して、その評価をFSRSの復習として保存します。"
 date: "2026-07-15"
-updated: "2026-09-16"
+updated: "2026-10-03"
 image: "/blog/ai-flashcard-tutor-due-cards.png"
 keywords:
   - "AIフラッシュカードチューター"
@@ -46,6 +46,8 @@ MCPでNibomoにつないだ**AIフラッシュカードチューター**は、�
 どのMCPクライアントでも、サーバーURLは同じです。
 
 `https://mcp.nibomo.com/mcp`
+
+> [Claude に接続](https://claude.ai/directory/nibomo) · [ドキュメント](/docs/mcp-connector/)
 
 対話型のクライアントは、PKCEとDynamic Client Registrationを使ったOAuth 2.1でサインインします。ブラウザでアクセスを承認するだけで、キーを貼り付けたり、事前にアプリを登録したりする必要はありません。ヘッドレス環境では、代わりに`fca_`エージェントAPIキーをBearerトークンとして送れます。どちらの方法も、ツール仕様の全体と合わせて[MCPコネクタのドキュメント](/ja/docs/mcp-connector/)にまとめています。
 

@@ -2,7 +2,7 @@
 title: "2026 में AI Flashcard Tutor: MCP से due कार्ड पर quiz करवाएँ और FSRS रिव्यू सेव करें"
 description: "Claude, ChatGPT या Codex को MCP के ज़रिए Nibomo से जोड़ें। AI tutor आपके due कार्ड पर quiz लेता है, हर जवाब grade करता है और rating को FSRS रिव्यू के रूप में सेव कर देता है।"
 date: "2026-07-15"
-updated: "2026-09-16"
+updated: "2026-10-03"
 image: "/blog/ai-flashcard-tutor-due-cards.png"
 keywords:
   - "AI flashcard tutor"
@@ -46,6 +46,8 @@ Grading के नियम Nibomo से आते हैं, इसलिए t
 हर MCP client एक ही server URL इस्तेमाल करता है:
 
 `https://mcp.nibomo.com/mcp`
+
+> [Claude से कनेक्ट करें](https://claude.ai/directory/nibomo) · [डॉक्यूमेंटेशन](/docs/mcp-connector/)
 
 Interactive clients OAuth 2.1 से sign in करते हैं, जिसमें PKCE और Dynamic Client Registration शामिल हैं। आप browser में access approve करते हैं; पहले कोई key paste करने या app register करने की ज़रूरत नहीं पड़ती। Headless setups इसकी जगह `fca_` agent API key को Bearer token की तरह भेज सकते हैं। [MCP connector के दस्तावेज़](/hi/docs/mcp-connector/) दोनों रास्ते और पूरा tool contract बताते हैं।
 

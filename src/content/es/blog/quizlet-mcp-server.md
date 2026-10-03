@@ -3,6 +3,7 @@ title: "¿Existe un servidor MCP de Quizlet en 2026? Opciones para Claude y Code
 description: "Quizlet no documenta ningún servidor MCP en 2026. Compara su aplicación para ChatGPT, la exportación disponible solo para el creador y una vía segura para dar acceso recurrente a Claude o Codex."
 image: "/blog/quizlet-mcp-server.png"
 date: "2026-09-12"
+updated: "2026-10-03"
 keywords:
   - "Quizlet MCP"
   - "servidor MCP de Quizlet"
@@ -75,7 +76,11 @@ Nibomo ofrece este endpoint MCP remoto:
 
 `https://mcp.nibomo.com/mcp`
 
-Su [documentación del conector MCP](/docs/mcp-connector/) define siete herramientas: `list_workspaces`, `sql_query` para leer, `sql_execute` para escribir, `get_guide` para consultar guías de referencia, además de `next_review_card`, `reveal_answer` y `submit_review` para repasar. Los clientes MCP interactivos pueden autorizar la conexión mediante OAuth. Los agentes que funcionan desde un terminal pueden consultar la [documentación de Agent API](/docs/api/) y utilizar el flujo HTTP publicado.
+> [Conectar con Claude](https://claude.ai/directory/nibomo) · [Documentación](/docs/mcp-connector/)
+
+Su [documentación del conector MCP](/docs/mcp-connector/) define ocho herramientas: `list_workspaces`, `sql_query` para leer, `sql_execute` para escribir, `get_guide` para consultar guías de referencia, además de `next_review_card`, `reveal_answer` y `submit_review` para repasar. Los clientes MCP interactivos pueden autorizar la conexión mediante OAuth. Los agentes que funcionan desde un terminal pueden consultar la [documentación de Agent API](/docs/api/) y utilizar el flujo HTTP publicado.
+
+`get_usage_limits` — consulta de solo lectura del plan, los límites y el uso mensual actual de IA; no lee ni modifica tarjetas.
 
 Esto no convierte Nibomo en un conector de Quizlet. El flujo con soporte es este:
 

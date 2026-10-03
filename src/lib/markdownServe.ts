@@ -1,4 +1,5 @@
 import { DOC_SLUGS } from "@/data/docs";
+import { CONNECTOR_DIRECTORIES } from "@/lib/connectorDirectories";
 import { listBlogPosts, readBlogPost } from "@/lib/blog";
 import { getDocs, readDoc } from "@/lib/docs";
 import {
@@ -724,6 +725,14 @@ export function renderLlmsText(
   return `# Nibomo
 
 > Open-source flashcards app with spaced repetition, web, iOS, and Android clients, agent-ready onboarding, and a self-hosted AWS/Postgres deployment path.
+
+## MCP integrations
+
+${CONNECTOR_DIRECTORIES.map((directory) => `- [Nibomo in the ${directory.name} directory](${directory.href})`).join("\n")}
+- Remote MCP endpoint: https://mcp.nibomo.com/mcp (Streamable HTTP).
+- Requires a Nibomo account and OAuth authorization; create cards, manage decks, and review due cards with spaced repetition.
+- [Connection instructions](${SITE_CONTEXT.siteUrl}/docs/mcp-connector/).
+- Claude Code: authorized claude.ai connectors are available when using the same Claude subscription login; check /mcp. Direct MCP configuration is also supported.
 
 ## Pages
 

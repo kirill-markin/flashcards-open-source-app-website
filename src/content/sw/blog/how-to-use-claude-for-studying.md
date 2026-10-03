@@ -2,7 +2,7 @@
 title: "Jinsi ya Kutumia Claude Kusoma Mwaka 2026: Mwongozo wa Vitendo"
 description: "Soma kwa kutumia notsi zako na Claude, jibu swali moja kwa wakati, hakiki masahihisho, na geuza maeneo yenye changamoto kuwa kadi kulingana na kanuni za AI za kozi yako."
 date: "2026-05-28"
-updated: "2026-09-30"
+updated: "2026-10-03"
 image: "/blog/how-to-use-claude-for-studying-v2.png"
 keywords:
   - "jinsi ya kutumia Claude kusoma"
@@ -225,6 +225,8 @@ Njia rahisi zaidi ya kuhamisha kadi inafanya kazi na programu yoyote ya kadi za 
 Ikiwa unatumia Nibomo, kwanza iunganishe na Claude kupitia MCP, kiunganishi kati ya msaidizi na Nibomo. Iombe Claude ikuonyeshe kadi ulizochagua na mahali itakapozihifadhi. Baada ya kuziidhinisha, inaweza kuzihifadhi kwenye Nibomo.
 
 Unaweza kurudia kadi kwenye [programu ya wavuti](https://app.nibomo.com/) au kwenye mazungumzo na Claude au Codex iliyounganishwa na Nibomo kupitia MCP. Katika mazungumzo, msaidizi anauliza swali moja kwa wakati, anasubiri ujaribu kujibu, kisha anaonyesha jibu la kadi. Wewe unaeleza jinsi ilivyokuwa rahisi au vigumu kukumbuka jibu; msaidizi anarekodi ukadiriaji wako kwenye Nibomo. Nibomo inaweka ratiba moja ya marudio kwa njia zote mbili, hivyo unaweza kubadilisha kati ya programu na mazungumzo na kuendelea na kadi ambazo muda wake wa kurudiwa umefika.
+
+> [Unganisha na Claude](https://claude.ai/directory/nibomo) · [Nyaraka](/docs/mcp-connector/)
 
 Kwa hatua za kuunganisha, angalia [mwongozo wa kiunganishi cha Claude](/blog/how-to-connect-flashcards-to-claude-with-mcp/) na [marejeo ya kiunganishi cha MCP](/docs/mcp-connector/); yote mawili yako kwa Kiingereza. Ikiwa hutaki kutumia kiunganishi, kunakili mwenyewe bado ni utaratibu kamili.
 

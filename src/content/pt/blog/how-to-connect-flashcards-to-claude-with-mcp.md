@@ -2,7 +2,7 @@
 title: "Como conectar os flashcards do Nibomo ao Claude com MCP"
 description: "Conecte o Nibomo ao Claude Desktop ou à versão para navegador com um conector MCP remoto. Siga os passos verificados, ajuste as permissões e tente salvar seu primeiro flashcard."
 date: "2026-06-23"
-updated: "2026-09-20"
+updated: "2026-10-03"
 image: "/blog/how-to-connect-nibomo-to-claude-mcp.png"
 keywords:
   - "conector Nibomo Claude"
@@ -11,13 +11,21 @@ keywords:
   - "criar flashcards no Claude"
 ---
 
-O Claude pode salvar flashcards diretamente no seu espaço de trabalho do Nibomo por meio de um conector MCP personalizado. Você adiciona a URL do servidor, entra no Nibomo e escolhe quais ações o Claude pode executar sem pedir autorização a cada vez.
+> [Conectar ao Claude](https://claude.ai/directory/nibomo) · [Documentação](/docs/mcp-connector/)
 
-A configuração abaixo foi verificada no Claude Desktop em 20 de setembro de 2026. Ela usa o conector remoto disponível nas conversas comuns do Claude, tanto no Desktop quanto no navegador. Para Claude Code, Codex ou outro agente de terminal, siga o [guia de login para agentes](/blog/claude-code-codex-openclaw-flashcards-login/).
+O Claude pode salvar flashcards diretamente no seu espaço de trabalho do Nibomo pelo conector MCP publicado. Conecte Nibomo pelo diretório do Claude, entre no Nibomo e escolha quais ações o Claude pode executar sem pedir autorização a cada vez.
+
+As capturas da configuração manual foram verificadas no Claude Desktop em 20 de setembro de 2026. Para entrar por REST e chave API, consulte o [guia de login para agentes](/blog/claude-code-codex-openclaw-flashcards-login/).
 
 ![Uma entrega de materiais em uma biblioteca ilustra o acesso de leitura e a necessidade de aprovação antes de fazer alterações](/blog/how-to-connect-nibomo-to-claude-mcp.png)
 
-## Adicione o Nibomo nas configurações de conectores do Claude
+## Conectar pelo diretório do Claude
+
+Abra [Nibomo no diretório do Claude](https://claude.ai/directory/nibomo), conecte-o, entre na sua conta Nibomo e autorize o acesso. Nibomo está listado como conector Community.
+
+No Claude Code, use a mesma conta com assinatura Claude e confira `/mcp` depois de conectar. O login por chave API ou provedor externo não carrega automaticamente os conectores do claude.ai.
+
+## Alternativa: adicionar um conector personalizado
 
 Você precisa de uma conta no Nibomo e de acesso a conectores personalizados no Claude. O Nibomo usa um servidor MCP remoto, então não há nada para instalar localmente. A Anthropic documenta esse tipo de conexão no [guia de conectores personalizados](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp).
 
@@ -45,11 +53,11 @@ Confira se você está conectando a conta certa e clique em **Allow access**. Qu
 
 ## Exija aprovação para gravar dados
 
-O conector tem ferramentas para ler seu material de estudo, alterá-lo e registrar revisões. Abra o Nibomo em **Settings > Connectors** para conferir as permissões das ferramentas. Para seguir a configuração mostrada aqui, defina as cinco ferramentas de leitura como **Always allow** e mantenha as duas ferramentas de escrita em **Needs approval**:
+O conector tem ferramentas para ler seu material de estudo, alterá-lo e registrar revisões. Abra o Nibomo em **Settings > Connectors** para conferir as permissões das ferramentas. Para seguir a configuração mostrada aqui, defina as seis ferramentas de leitura como **Always allow** e mantenha as duas ferramentas de escrita em **Needs approval**:
 
 | Permissão | Ferramentas |
 | --- | --- |
-| **Always allow** | Get flashcards usage guide; List flashcards workspaces; Next flashcard question; Reveal flashcard answer; Nibomo SQL query (read-only) |
+| **Always allow** | Get flashcards usage guide; `get_usage_limits`; List flashcards workspaces; Next flashcard question; Reveal flashcard answer; Nibomo SQL query (read-only) |
 | **Needs approval** | Nibomo SQL execute (write); Submit flashcard review |
 
 Assim, o Claude pode encontrar um espaço de trabalho e ler cartões, mas precisa pedir autorização antes de alterar dados ou registrar uma revisão. Você pode escolher permissões mais restritas se também quiser aprovar as leituras.

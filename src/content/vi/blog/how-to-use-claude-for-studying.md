@@ -2,7 +2,7 @@
 title: "Cách dùng Claude để học tập năm 2026: Quy trình thực tế"
 description: "Học từ ghi chép của bạn với Claude, trả lời từng câu hỏi, kiểm chứng phần sửa sai và biến điểm yếu thành thẻ ghi nhớ trong phạm vi quy định AI của môn học."
 date: "2026-05-28"
-updated: "2026-09-30"
+updated: "2026-10-03"
 image: "/blog/how-to-use-claude-for-studying-v2.png"
 keywords:
   - "cách dùng Claude để học tập"
@@ -225,6 +225,8 @@ Nếu dùng Nibomo, bạn có thể kết nối Claude với các thẻ của m�
 Khi đến hạn ôn thẻ, bạn có thể dùng [ứng dụng web](https://app.nibomo.com/) hoặc trò chuyện với Claude hay Codex đã kết nối với Nibomo qua MCP. Yêu cầu trợ lý đưa ra từng câu hỏi một và chờ bạn thử trả lời trước khi hiện đáp án. Sau đó, bạn tự đánh giá mức độ nhớ câu trả lời; trợ lý sẽ ghi nhận đánh giá của bạn trong Nibomo.
 
 Nibomo giữ chung một lịch ôn tập cho cả ứng dụng và các cuộc trò chuyện. Bạn có thể chuyển qua lại giữa ứng dụng và trợ lý mà vẫn dùng cùng các thẻ và lịch ôn.
+
+> [Kết nối với Claude](https://claude.ai/directory/nibomo) · [Tài liệu](/docs/mcp-connector/)
 
 Bạn có thể thiết lập theo [hướng dẫn kết nối Claude](/blog/how-to-connect-flashcards-to-claude-with-mcp/) và [tài liệu trình kết nối MCP](/docs/mcp-connector/), đều bằng tiếng Anh. Nếu không muốn thiết lập kết nối, sao chép thủ công vẫn là một lựa chọn đầy đủ.
 

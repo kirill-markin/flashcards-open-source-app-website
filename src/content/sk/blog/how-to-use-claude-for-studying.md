@@ -2,7 +2,7 @@
 title: "Ako používať Claude pri učení v roku 2026: praktický postup"
 description: "Učte sa s Claude z vlastných poznámok, odpovedajte na otázky po jednej, overujte opravy a premieňajte slabé miesta na kartičky v súlade s pravidlami kurzu pre AI."
 date: "2026-05-28"
-updated: "2026-09-30"
+updated: "2026-10-03"
 image: "/blog/how-to-use-claude-for-studying-v2.png"
 keywords:
   - "ako používať Claude pri učení"
@@ -224,6 +224,8 @@ Najjednoduchší prenos funguje s akoukoľvek aplikáciou s kartičkami. Požiad
 Ak používate Nibomo, pripojte Claude cez MCP, teda spojenie medzi asistentom a Nibomo. Potom ho môžete požiadať o uloženie kartičiek, ktoré ste skontrolovali a schválili. Pred uložením si overte ich obsah aj miesto, kam sa uložia.
 
 Keď príde čas opakovať, môžete použiť [webovú aplikáciu Nibomo](https://app.nibomo.com/) alebo chat s Claude či Codexom pripojeným k Nibomo cez MCP. V chate požiadajte asistenta o jednu otázku naraz: počká na váš pokus, až potom odhalí odpoveď a následne do Nibomo zapíše vaše hodnotenie toho, ako dobre ste si odpoveď vybavili. Nibomo vedie spoločný plán opakovania, takže môžete prechádzať medzi aplikáciou a chatom.
+
+> [Pripojiť k Claude](https://claude.ai/directory/nibomo) · [Dokumentácia](/docs/mcp-connector/)
 
 S pripojením pomôže [návod pre Claude](/blog/how-to-connect-flashcards-to-claude-with-mcp/) a [dokumentácia konektora MCP](/docs/mcp-connector/), oba v angličtine. Ak asistenta nechcete pripájať, kartičky môžete naďalej kopírovať ručne.
 

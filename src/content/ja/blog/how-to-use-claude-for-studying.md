@@ -2,7 +2,7 @@
 title: "Claudeを勉強に使う方法：2026年版の実践ワークフロー"
 description: "自分のノートをClaudeで復習し、1問ずつ答えて訂正の根拠を確認し、授業のAI利用ルールを守りながら弱点をフラッシュカードにする方法を解説します。"
 date: "2026-05-28"
-updated: "2026-09-30"
+updated: "2026-10-03"
 image: "/blog/how-to-use-claude-for-studying-v2.png"
 keywords:
   - "Claudeを勉強に使う方法"
@@ -215,6 +215,8 @@ Anthropicの[ウェブ検索ガイド](https://support.claude.com/en/articles/10
 ## 必要なら、選んだカードをClaudeの外へ移す
 
 最も簡単な移行方法は、どのフラッシュカードアプリでも使えます。承認したカードだけを、表面と裏面に分けたプレーンテキストで返すようClaudeに頼み、もう一度確認してから、普段使っている復習システムにコピーします。
+
+> [Claude に接続](https://claude.ai/directory/nibomo) · [ドキュメント](/docs/mcp-connector/)
 
 Nibomoを使っている場合は、MCPでClaudeと接続します。MCPはアシスタントとNibomoをつなぐ仕組みです。接続後は、自分で確認して承認したカードを保存するようClaudeに頼めます。設定手順は[Claudeコネクタのガイド](/blog/how-to-connect-flashcards-to-claude-with-mcp/)に、ほかの対応アシスタントの接続方法は[MCPコネクタのリファレンス](/docs/mcp-connector/)にあります。
 

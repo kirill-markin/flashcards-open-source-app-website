@@ -2,7 +2,7 @@
 title: "How to Use Claude for Studying in 2026: A Practical Workflow"
 description: "Study from your own notes with Claude, answer one question at a time, verify corrections, and turn weak spots into flashcards within your course's AI rules."
 date: "2026-05-28"
-updated: "2026-09-30"
+updated: "2026-10-03"
 image: "/blog/how-to-use-claude-for-studying-v2.png"
 keywords:
   - "how to use Claude for studying"
@@ -218,6 +218,8 @@ Discard the rest. A Claude study session can be useful even when it creates no c
 ## Optional: move selected cards out of Claude
 
 The simplest handoff works with any flashcard app. Ask Claude to return only the approved cards as plain front/back blocks, check them once more, and copy them into your usual review system.
+
+> [Connect to Claude](https://claude.ai/directory/nibomo) · [Documentation](/docs/mcp-connector/)
 
 If you use Nibomo, connect Claude through MCP, the connection between the assistant and Nibomo. You can then ask Claude to save the cards you have checked and approved. The [Claude connector guide](/blog/how-to-connect-flashcards-to-claude-with-mcp/) walks through setup; the [MCP connector reference](/docs/mcp-connector/) covers connecting other compatible assistants.
 

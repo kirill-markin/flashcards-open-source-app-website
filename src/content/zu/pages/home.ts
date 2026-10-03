@@ -27,7 +27,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
       },
       agentConnectors: [
         {
-          caption: "Engeza le seva ye-MCP kuklayenti lakho le-AI:",
+          caption: "Noma xhuma noma yiliphi iklayenti le-AI elisekela i-MCP ngale URL:",
           link: {
             label: "https://mcp.nibomo.com/mcp",
             href: "https://mcp.nibomo.com/mcp",
