@@ -4,7 +4,7 @@ description: Nibomon tukivaihtoehdot.
 slug: support
 sections:
   - type: legal_page
-    lastUpdated: maaliskuu 2026
+    lastUpdated: lokakuu 2026
 ---
 ## Yhteystiedot
 
@@ -12,7 +12,11 @@ Tuotetukea, tiliin liittyvää apua tai App Store -tarkastukseen liittyviä kysy
 
 ## Tilin poistaminen
 
-iOS-sovelluksessa voit poistaa isännöidyn tilisi kohdasta `Settings > Delete Account > Delete my account`. Jos tarvitset apua tilin poistamisessa, ota yhteyttä tukeen sähköpostitse.
+Voit poistaa Nibomo-tilisi asentamatta sovellusta avaamalla [tilin poistosivun](https://app.nibomo.com/settings/delete-account). Kirjaudu pyydettäessä samalla sähköpostiosoitteella, jota käytät tililläsi. Valitse `Poista tilini`, kirjoita näytetty vahvistuslause ja vahvista poisto. Voit myös pyytää tilin poistamista sähköpostitse osoitteeseen [kirill+flashcards@kirill-markin.com](mailto:kirill+flashcards@kirill-markin.com).
+
+Poisto poistaa käytössä olevasta tietokannasta nykyiset tilitietosi, kirjautumistietosi, jäsenyytesi sekä työtilat, joiden ainoa jäsen olet. Jaettujen työtilojen sisältö säilyy muiden jäsenten käytettävissä. Tarvittava laskutushistoria säilytetään kirjanpitoa, maksujen täsmäytystä ja oikeusvaateita varten. Poistetut tietueet voivat säilyä salatuissa palautusvarmuuskopioissa enintään 35 päivää. Katso kaikki säilytystä koskevat tiedot [tietosuojaselosteestamme](/fi/privacy/).
+
+Nibomo-tilin poistaminen ei peruuta Google Play -tilaustasi. [Hallinnoi tai peruuta tilaus erikseen Google Playssa](https://play.google.com/store/account/subscriptions).
 
 ## Avoin lähdekoodi ja tekniset raportit
 

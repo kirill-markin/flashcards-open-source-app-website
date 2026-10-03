@@ -4,7 +4,7 @@ description: Support options for Nibomo.
 slug: support
 sections:
   - type: legal_page
-    lastUpdated: March 2026
+    lastUpdated: October 2026
 ---
 ## Contact
 
@@ -12,7 +12,11 @@ For product support, account help, or App Store review questions, email [kirill+
 
 ## Account Deletion
 
-In the iOS app, you can delete your hosted account from `Settings > Delete Account > Delete my account`. If you need help with that flow, contact support by email.
+To delete your Nibomo account without installing the app, open the [account deletion page](https://app.nibomo.com/settings/delete-account). If prompted, sign in with the same email address you use for your account. Choose `Delete my account`, type the confirmation phrase shown, and confirm deletion. Alternatively, request account deletion by emailing [kirill+flashcards@kirill-markin.com](mailto:kirill+flashcards@kirill-markin.com).
+
+Deletion removes your current account data, credentials, memberships, and workspaces where you are the only member from the live database. Shared workspace content remains available to other members. Necessary billing history is retained for accounting, reconciliation, and legal claims. Deleted records may remain in encrypted recovery backups for up to 35 days. See our [Privacy Policy](/privacy/) for full retention details.
+
+Deleting your Nibomo account does not cancel your Google Play subscription. [Manage or cancel it separately through Google Play](https://play.google.com/store/account/subscriptions).
 
 ## Open Source And Technical Reports
 
