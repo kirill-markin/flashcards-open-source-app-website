@@ -4,7 +4,7 @@ description: Nibomo の利用規約。
 slug: terms
 sections:
   - type: legal_page
-    lastUpdated: 2026年7月
+    lastUpdated: 2026年10月
 ---
 ## サービスと提供者
 
@@ -53,3 +53,7 @@ Nibomo はオープンソースの間隔反復型フラッシュカードツー�
 ## サポート
 
 サポートまたは本規約に関する質問は、[kirill+flashcards@kirill-markin.com](mailto:kirill+flashcards@kirill-markin.com) または [サポートページ](/support/) からご連絡ください。
+
+## 言語
+
+本規約は複数の言語で公開されています。翻訳版と英語版の内容が異なる場合は、英語版が優先されます。

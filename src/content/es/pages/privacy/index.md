@@ -143,3 +143,7 @@ El código fuente público permite inspeccionar las rutas de tratamiento documen
 ## Contacto
 
 Para consultas de privacidad o solicitudes de derechos, escribe a [kirill+flashcards@kirill-markin.com](mailto:kirill+flashcards@kirill-markin.com) o usa la [página de soporte](/es/support/).
+
+## Idioma
+
+Esta política de privacidad se publica en varios idiomas. Si una traducción difiere de la versión en inglés, prevalece la versión en inglés.
