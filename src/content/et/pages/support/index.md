@@ -12,7 +12,7 @@ Tootetoe, kontoga seotud abi või App Store'i läbivaatusega seotud küsimuste k
 
 ## Konto kustutamine
 
-iOS-i rakenduses saad oma majutatud konto kustutada menüüs `Settings > Account Settings > Danger Zone > Delete my account`. Kui vajad selle toiminguga abi, võta toega ühendust e-posti teel.
+iOS-i rakenduses saad oma majutatud konto kustutada menüüs `Settings > Delete Account > Delete my account`. Kui vajad selle toiminguga abi, võta toega ühendust e-posti teel.
 
 ## Avatud lähtekood ja tehnilised teated
 

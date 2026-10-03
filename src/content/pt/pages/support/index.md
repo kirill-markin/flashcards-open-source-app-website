@@ -12,7 +12,7 @@ Para suporte ao produto, ajuda com a conta ou dúvidas da revisão da App Store,
 
 ## Exclusão de conta
 
-No app para iOS, você pode excluir sua conta hospedada em `Settings > Account Settings > Danger Zone > Delete my account`. Se precisar de ajuda com esse fluxo, fale com o suporte por e-mail.
+No app para iOS, você pode excluir sua conta hospedada em `Settings > Delete Account > Delete my account`. Se precisar de ajuda com esse fluxo, fale com o suporte por e-mail.
 
 ## Código aberto e relatos técnicos
 

@@ -12,7 +12,7 @@ Per a assistència amb el producte, ajuda amb el compte o preguntes sobre la rev
 
 ## Supressió del compte
 
-A l'app d'iOS, pots suprimir el teu compte allotjat des de `Settings > Account Settings > Danger Zone > Delete my account`. Si necessites ajuda amb aquest procés, contacta amb l'assistència per correu electrònic.
+A l'app d'iOS, pots suprimir el teu compte allotjat des de `Settings > Delete Account > Delete my account`. Si necessites ajuda amb aquest procés, contacta amb l'assistència per correu electrònic.
 
 ## Codi obert i informes tècnics
 

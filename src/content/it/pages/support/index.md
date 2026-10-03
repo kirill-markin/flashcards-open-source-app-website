@@ -12,7 +12,7 @@ Per assistenza sul prodotto, aiuto con l'account o domande relative alla revisio
 
 ## Eliminazione dell'account
 
-Nell'app iOS puoi eliminare il tuo account ospitato da `Settings > Account Settings > Danger Zone > Delete my account`. Se ti serve aiuto con questa procedura, contatta il supporto via email.
+Nell'app iOS puoi eliminare il tuo account ospitato da `Settings > Delete Account > Delete my account`. Se ti serve aiuto con questa procedura, contatta il supporto via email.
 
 ## Open source e segnalazioni tecniche
 

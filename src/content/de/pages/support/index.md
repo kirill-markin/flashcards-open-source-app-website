@@ -12,7 +12,7 @@ Fuer Produktsupport, Hilfe zum Konto oder Fragen zu App-Store-Reviews schreibe a
 
 ## Kontoloeschung
 
-In der iOS-App kannst du dein gehostetes Konto unter `Settings > Account Settings > Danger Zone > Delete my account` loeschen. Wenn du dabei Hilfe brauchst, kontaktiere den Support per E-Mail.
+In der iOS-App kannst du dein gehostetes Konto unter `Settings > Delete Account > Delete my account` loeschen. Wenn du dabei Hilfe brauchst, kontaktiere den Support per E-Mail.
 
 ## Open Source und technische Meldungen
 

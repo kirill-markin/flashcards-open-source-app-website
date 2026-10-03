@@ -12,7 +12,7 @@ Kwa msaada kuhusu bidhaa au akaunti, au kwa maswali kuhusu ukaguzi wa App Store,
 
 ## Kufuta akaunti
 
-Katika programu ya iOS, unaweza kufuta akaunti yako iliyopangishwa kupitia `Settings > Account Settings > Danger Zone > Delete my account`. Ikiwa unahitaji msaada katika hatua hizo, wasiliana na timu ya msaada kwa barua pepe.
+Katika programu ya iOS, unaweza kufuta akaunti yako iliyopangishwa kupitia `Settings > Delete Account > Delete my account`. Ikiwa unahitaji msaada katika hatua hizo, wasiliana na timu ya msaada kwa barua pepe.
 
 ## Chanzo huria na ripoti za kiufundi
 

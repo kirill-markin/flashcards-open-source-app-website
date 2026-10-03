@@ -12,7 +12,7 @@ Dėl pagalbos naudojantis produktu, paskyros ar App Store peržiūros klausimų 
 
 ## Paskyros ištrynimas
 
-iOS programėlėje mūsų talpinamą paskyrą galite ištrinti skiltyje `Settings > Account Settings > Danger Zone > Delete my account`. Jei reikia pagalbos atliekant šiuos veiksmus, parašykite pagalbos tarnybai el. paštu.
+iOS programėlėje mūsų talpinamą paskyrą galite ištrinti skiltyje `Settings > Delete Account > Delete my account`. Jei reikia pagalbos atliekant šiuos veiksmus, parašykite pagalbos tarnybai el. paštu.
 
 ## Atvirasis kodas ir techniniai pranešimai
 

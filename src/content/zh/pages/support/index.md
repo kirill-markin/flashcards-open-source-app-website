@@ -12,7 +12,7 @@ sections:
 
 ## 账户删除
 
-在 iOS 应用中，你可以前往 `Settings > Account Settings > Danger Zone > Delete my account` 删除你的托管账户。如果在这一流程中遇到问题，请通过电子邮件联系支持。
+在 iOS 应用中，你可以前往 `Settings > Delete Account > Delete my account` 删除你的托管账户。如果在这一流程中遇到问题，请通过电子邮件联系支持。
 
 ## 开源与技术反馈
 

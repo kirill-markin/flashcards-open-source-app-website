@@ -12,7 +12,7 @@ sections:
 
 ## Xóa tài khoản
 
-Trong ứng dụng iOS, bạn có thể xóa tài khoản trên dịch vụ lưu trữ sẵn tại `Settings > Account Settings > Danger Zone > Delete my account`. Nếu cần trợ giúp với các bước này, hãy liên hệ bộ phận hỗ trợ qua email.
+Trong ứng dụng iOS, bạn có thể xóa tài khoản trên dịch vụ lưu trữ sẵn tại `Settings > Delete Account > Delete my account`. Nếu cần trợ giúp với các bước này, hãy liên hệ bộ phận hỗ trợ qua email.
 
 ## Mã nguồn mở và báo cáo kỹ thuật
 

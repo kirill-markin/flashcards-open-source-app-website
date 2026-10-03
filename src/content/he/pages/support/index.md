@@ -12,7 +12,7 @@ sections:
 
 ## מחיקת חשבון
 
-באפליקציית iOS אפשר למחוק את החשבון המתארח דרך `Settings > Account Settings > Danger Zone > Delete my account`. אם אתה צריך עזרה בתהליך הזה, פנה לתמיכה באימייל.
+באפליקציית iOS אפשר למחוק את החשבון המתארח דרך `Settings > Delete Account > Delete my account`. אם אתה צריך עזרה בתהליך הזה, פנה לתמיכה באימייל.
 
 ## קוד פתוח ודיווחים טכניים
 

@@ -12,7 +12,7 @@ Jeśli potrzebujesz pomocy z produktem lub kontem albo masz pytania związane z 
 
 ## Usuwanie konta
 
-W aplikacji iOS możesz usunąć swoje konto w usłudze hostowanej w `Settings > Account Settings > Danger Zone > Delete my account`. Jeśli potrzebujesz pomocy z tym procesem, napisz do pomocy technicznej.
+W aplikacji iOS możesz usunąć swoje konto w usłudze hostowanej w `Settings > Delete Account > Delete my account`. Jeśli potrzebujesz pomocy z tym procesem, napisz do pomocy technicznej.
 
 ## Open source i zgłoszenia techniczne
 

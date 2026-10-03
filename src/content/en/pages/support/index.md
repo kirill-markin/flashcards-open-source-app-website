@@ -12,7 +12,7 @@ For product support, account help, or App Store review questions, email [kirill+
 
 ## Account Deletion
 
-In the iOS app, you can delete your hosted account from `Settings > Account Settings > Danger Zone > Delete my account`. If you need help with that flow, contact support by email.
+In the iOS app, you can delete your hosted account from `Settings > Delete Account > Delete my account`. If you need help with that flow, contact support by email.
 
 ## Open Source And Technical Reports
 

@@ -12,7 +12,7 @@ sections:
 
 ## 계정 삭제
 
-iOS 앱에서는 `Settings > Account Settings > Danger Zone > Delete my account`에서 호스팅 계정을 삭제할 수 있습니다. 이 과정에서 도움이 필요하면 이메일로 지원팀에 문의하세요.
+iOS 앱에서는 `Settings > Delete Account > Delete my account`에서 호스팅 계정을 삭제할 수 있습니다. 이 과정에서 도움이 필요하면 이메일로 지원팀에 문의하세요.
 
 ## 오픈 소스와 기술 문제 보고
 
