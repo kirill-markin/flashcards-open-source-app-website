@@ -218,6 +218,8 @@ const platformColors: Readonly<Record<GlobalActivityPlatform, string>> = {
   web: "#4e79a7",
   android: "#59a14f",
   ios: "#f28e2b",
+  agent: "#b07aa1",
+  unattributed: "#8a8f98",
 };
 
 function formatCompactDate(locale: AppLocale, value: string): string {
@@ -595,32 +597,41 @@ export function PublicActivitySummary({
   locale,
   snapshot,
 }: PublicActivitySummaryProps): React.JSX.Element {
-  const activityCopy = getUiCopy(locale).home.activity;
-
   return (
     <div className={styles.summary}>
       <div className={styles.summaryTotals}>
         <ActivityTotalMetricCards locale={locale} snapshot={snapshot} />
       </div>
-      <dl className={styles.summaryMetadata}>
-        <div className={styles.summaryMetadataItem}>
-          <dt className={styles.summaryMetadataLabel}>
-            {activityCopy.dateRangeLabel}
-          </dt>
-          <dd className={styles.summaryMetadataValue}>
-            {formatActivityDateRange(locale, snapshot.from, snapshot.to)}
-          </dd>
-        </div>
-        <div className={styles.summaryMetadataItem}>
-          <dt className={styles.summaryMetadataLabel}>
-            {activityCopy.lastUpdatedLabel}
-          </dt>
-          <dd className={styles.summaryMetadataValue}>
-            {formatActivityTimestamp(locale, snapshot.generatedAtUtc)}
-          </dd>
-        </div>
-      </dl>
+      <ActivityCoverage locale={locale} snapshot={snapshot} />
     </div>
+  );
+}
+
+function ActivityCoverage({
+  locale,
+  snapshot,
+}: PublicActivitySummaryProps): React.JSX.Element {
+  const activityCopy = getUiCopy(locale).home.activity;
+
+  return (
+    <dl className={styles.summaryMetadata}>
+      <div className={styles.summaryMetadataItem}>
+        <dt className={styles.summaryMetadataLabel}>
+          {activityCopy.dateRangeLabel}
+        </dt>
+        <dd className={styles.summaryMetadataValue}>
+          {formatActivityDateRange(locale, snapshot.from, snapshot.to)}
+        </dd>
+      </div>
+      <div className={styles.summaryMetadataItem}>
+        <dt className={styles.summaryMetadataLabel}>
+          {activityCopy.lastUpdatedLabel}
+        </dt>
+        <dd className={styles.summaryMetadataValue}>
+          {formatActivityTimestamp(locale, snapshot.generatedAtUtc)}
+        </dd>
+      </div>
+    </dl>
   );
 }
 
@@ -796,10 +807,14 @@ function ChartFrame({
       />
       <ActivityChartScroller
         className={styles.chartPlotScroller}
+        ariaLabel={ariaLabel}
+        earlierDatesLabel={getUiCopy(locale).home.activity.earlierDatesLabel}
+        laterDatesLabel={getUiCopy(locale).home.activity.laterDatesLabel}
+        latestDatesLabel={getUiCopy(locale).home.activity.latestDatesLabel}
         latestDate={latestDate}
       >
         {/*
-          The surface carries the accessible name because the SVG now holds only
+          The surface carries the accessible name because the SVG holds only
           the decorative grid. The role must not be `img`: `img` is presentational
           for its children, which would prune the tooltip hit targets that expose
           the per-day values.
@@ -1124,6 +1139,8 @@ export function PublicActivitySection({
           value={formatNumber(locale, peakDailyUniqueUsers)}
         />
       </div>
+
+      <ActivityCoverage locale={locale} snapshot={snapshot} />
 
       <PublicActivityCharts
         chartTitleTag="h3"

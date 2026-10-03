@@ -3,6 +3,7 @@ import { getHumanPlatforms } from "@/lib/humanPlatforms";
 import type { AppLocale } from "@/lib/i18n";
 import { localizeInternalLinks } from "@/lib/localizeInternalLinks";
 import {
+  globalActivityPlatforms,
   globalActivitySnapshotUrl,
   serializeGlobalActivitySnapshot,
   type GlobalActivitySnapshot,
@@ -146,6 +147,10 @@ function renderPublicActivitySection(
   lines.push(`### ${uiCopy.home.activity.platformActivityChartTitle}`);
   lines.push("");
   lines.push(uiCopy.home.activity.platformActivityChartDescription);
+  lines.push("");
+  for (const platform of globalActivityPlatforms) {
+    lines.push(`- ${uiCopy.home.activity.platformLabels[platform]}: ${formatNumber(locale, snapshot.totals.reviewEvents.byPlatform[platform])}`);
+  }
   lines.push("");
   lines.push(`${uiCopy.home.activity.rawSnapshotLabel}:`);
   lines.push("");
