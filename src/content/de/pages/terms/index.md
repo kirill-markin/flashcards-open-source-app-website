@@ -38,6 +38,16 @@ Gehostete KI-Funktionen sind optional und nutzen OpenAI. Zugehörige KI-Telemetr
 
 Wenn Sie einen externen KI-Client zur Nutzung des MCP-Dienstes oder der Agent API autorisieren, verarbeiten dieser Client und sein Modellanbieter die abgerufenen Daten nach ihren eigenen Bedingungen. Wir sind für deren Betrieb oder Ergebnisse nicht verantwortlich.
 
+## Stripe-Abonnements
+
+Wenn der Stripe-Checkout verfügbar ist, wird Nibomo Premium zu einem Basispreis von 6,99 USD pro Monat einschließlich anwendbarer Steuern angeboten. Stripe Adaptive Pricing kann einen Preis in lokaler Währung anzeigen; Stripe zeigt den endgültigen Betrag und die Abrechnungswährung vor Ihrer Bestätigung. Für den Kauf benötigen Sie ein angemeldetes Konto mit E-Mail-Adresse; Gäste müssen zuerst eine E-Mail-Adresse verknüpfen.
+
+Berechtigte Stripe-Kunden erhalten eine siebentägige kostenlose Testphase, für die eine Zahlungsmethode erforderlich ist. Die Testphase ist einmal pro Stripe-Kunde verfügbar; frühere Apple- oder Google-Testphasen beeinflussen die Berechtigung nicht. Wenn Sie nicht vor Ablauf der Testphase kündigen, wird Ihre Zahlungsmethode mit dem monatlichen Abonnementpreis belastet. Das Abonnement verlängert sich danach jeden Monat automatisch bis zur Kündigung. Erinnerungen an das Testende nennen den monatlichen Basispreis; Stripe zeigt den endgültigen Zahlbetrag in der Abrechnungswährung.
+
+Öffnen Sie über die [Abonnementeinstellungen](https://app.nibomo.com/settings/subscription) das Stripe-Kundenportal, um Ihr Abonnement zu verwalten oder zu kündigen. Eine reguläre Kündigung wird zum Ende der aktuellen Test- oder bezahlten Periode wirksam; bis dahin bleibt der Zugang bestehen. Ein Stripe-Kauf kündigt kein separates Apple- oder Google-Abonnement und ersetzt keinen bestehenden lebenslangen Zugang.
+
+Wenn Sie Ihr Nibomo-Konto in einem unterstützten Client löschen, werden vor der Löschung künftige Verlängerungen aller mit diesem Konto verknüpften Nibomo-Stripe-Abonnements beendet und offene Nibomo-Checkout-Sitzungen geschlossen. Kann die Kündigung nicht bestätigt werden, wird die Kontolöschung nicht abgeschlossen; versuchen Sie es erneut oder kontaktieren Sie den Support. Die Kontolöschung kündigt keine Apple- oder Google-Abonnements. Kündigung und Kontolöschung lösen keine automatische Erstattung oder anteilige Gutschrift aus. Diese Bedingungen schränken zwingende Verbraucherrechte, einschließlich anwendbarer Widerrufs- oder Erstattungsrechte, nicht ein.
+
 ## Verfügbarkeit und Änderungen
 
 Die gehostete Beta wird nach bestem Bemühen bereitgestellt und kann ohne Ankündigung geändert, pausiert oder eingestellt werden. Wir garantieren weder ununterbrochene Verfügbarkeit noch den Erhalt jeder lokalen oder gehosteten Kopie oder den dauerhaften Bestand jeder Funktion. Bewahren Sie eine unabhängige Kopie unersetzlicher Inhalte auf.

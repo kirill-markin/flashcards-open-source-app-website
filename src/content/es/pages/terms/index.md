@@ -38,6 +38,16 @@ Las funciones de IA alojadas son opcionales y usan OpenAI. La telemetría relaci
 
 Si autorizas a un cliente externo de IA a usar el servicio MCP o la Agent API, ese cliente y su proveedor de modelos tratan los datos solicitados bajo sus propias condiciones. No somos responsables de su funcionamiento ni de sus resultados.
 
+## Suscripciones de Stripe
+
+Cuando el pago mediante Stripe esté disponible, Nibomo Premium se ofrece a un precio base de 6,99 USD al mes, incluidos los impuestos aplicables. Stripe Adaptive Pricing puede mostrar un precio en moneda local; Stripe muestra el importe final y la moneda de facturación antes de que confirmes. Para comprar necesitas una cuenta con sesión iniciada y dirección de correo; los invitados deben vincular primero un correo.
+
+Los clientes de Stripe que cumplan los requisitos reciben una prueba gratuita de siete días que requiere un método de pago. La prueba está disponible una vez por cliente de Stripe; las pruebas anteriores de Apple o Google no afectan a la elegibilidad. Si no cancelas antes de que termine la prueba, se cobrará la suscripción mensual en tu método de pago. Después se renueva automáticamente cada mes hasta que la canceles. Los recordatorios de la prueba indican el precio base mensual; Stripe muestra el cargo final en la moneda de facturación.
+
+Usa los [ajustes de suscripción](https://app.nibomo.com/settings/subscription) para abrir el portal de facturación de Stripe y gestionar o cancelar tu suscripción. La cancelación ordinaria surte efecto al terminar el período de prueba o de pago actual; el acceso continúa hasta entonces. Una compra de Stripe no cancela ninguna suscripción independiente de Apple o Google ni sustituye el acceso vitalicio existente.
+
+Al eliminar tu cuenta de Nibomo desde cualquier cliente compatible, se cancelan las futuras renovaciones de todas las suscripciones de Nibomo en Stripe vinculadas a esa cuenta y se cierran las sesiones de pago de Nibomo abiertas antes de borrar los datos. Si no se puede confirmar la cancelación, la eliminación no se completa; inténtalo de nuevo o contacta con soporte. Eliminar la cuenta no cancela suscripciones de Apple o Google. La cancelación y la eliminación de la cuenta no generan automáticamente un reembolso ni un abono proporcional. Estos Términos no limitan los derechos irrenunciables del consumidor, incluidos los derechos de desistimiento o reembolso que correspondan.
+
 ## Disponibilidad y cambios
 
 La beta alojada se presta según el mejor esfuerzo y puede cambiar, pausarse o dejar de ofrecerse sin aviso. No garantizamos disponibilidad ininterrumpida, la conservación de todas las copias locales o alojadas ni que todas las funciones permanezcan. Guarda una copia independiente del contenido que no puedas permitirte perder.

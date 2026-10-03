@@ -38,6 +38,16 @@ Os recursos de IA hospedados são opcionais e usam a OpenAI. A telemetria de IA 
 
 Quando você autoriza um cliente de IA externo a usar o serviço MCP ou a Agent API, esse cliente e o provedor de modelo dele processam os dados solicitados sob os próprios termos. Não somos responsáveis pela operação nem pela saída de um cliente externo.
 
+## Assinaturas do Stripe
+
+Quando o checkout do Stripe estiver disponível, o Nibomo Premium é oferecido pelo preço base de US$ 6,99 por mês, incluindo os impostos aplicáveis. O Stripe Adaptive Pricing pode apresentar um preço em moeda local; o Stripe mostra o valor final e a moeda de cobrança antes da confirmação. A compra exige uma conta conectada com endereço de e-mail; convidados precisam vincular um e-mail primeiro.
+
+Clientes elegíveis do Stripe recebem um teste gratuito de sete dias que exige um método de pagamento. O teste está disponível uma vez por cliente do Stripe; testes anteriores da Apple ou do Google não afetam a elegibilidade. Se você não cancelar antes do fim do teste, o valor da assinatura mensal será cobrado no seu método de pagamento. Depois, ela se renova automaticamente a cada mês até ser cancelada. Os lembretes do teste informam o preço base mensal; o Stripe mostra a cobrança final na moeda de faturamento.
+
+Use as [configurações de assinatura](https://app.nibomo.com/settings/subscription) para abrir o portal de cobrança do Stripe e gerenciar ou cancelar sua assinatura. O cancelamento normal entra em vigor ao fim do período de teste ou pago atual; o acesso continua até lá. Uma compra pelo Stripe não cancela nenhuma assinatura separada da Apple ou do Google nem substitui um acesso vitalício existente.
+
+A exclusão da conta Nibomo em qualquer cliente compatível cancela as futuras renovações de todas as assinaturas Nibomo do Stripe vinculadas à conta e encerra as sessões de checkout Nibomo abertas antes de apagar os dados. Se não for possível confirmar o cancelamento, a exclusão não será concluída; tente novamente ou fale com o suporte. Excluir a conta não cancela assinaturas da Apple ou do Google. O cancelamento e a exclusão da conta não geram automaticamente reembolso nem crédito proporcional. Estes Termos não limitam direitos obrigatórios do consumidor, incluindo direitos de arrependimento ou reembolso aplicáveis.
+
 ## Disponibilidade e mudanças
 
 O beta hospedado é fornecido na medida do possível e pode mudar, ser pausado ou ser descontinuado sem aviso. Não garantimos disponibilidade ininterrupta, preservação de cada cópia local ou hospedada, nem que todo recurso continuará disponível. Guarde uma cópia independente do conteúdo que você não pode perder.
