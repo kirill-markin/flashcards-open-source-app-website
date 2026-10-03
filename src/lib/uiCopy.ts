@@ -1857,7 +1857,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       error: "처리하지 못했습니다. 다시 시도해 주세요.",
       label: "분석 쿠키",
       message: "사이트가 어떻게 사용되는지 측정하기 위해 쿠키와 브라우저 저장소를 사용합니다. 선택하기 전까지는 이 기기에 아무것도 저장하지 않고, 신원을 알 수 있는 정보도 보내지 않습니다.",
-      privacyPolicy: "개인정보 처리방침",
+      privacyPolicy: "개인정보처리방침",
     },
     analyticsConsentWithdrawal: {
       close: "닫기",
@@ -1908,7 +1908,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       comingSoonDescription: "이 문서 페이지는 작성 중입니다.",
       comingSoonTitle: "준비 중",
       metaDescription:
-        "시작 가이드, 셀프 호스팅 가이드, API 레퍼런스, 아키텍처 개요.",
+        "시작하기, 셀프 호스팅 가이드, API 레퍼런스, 아키텍처 개요.",
       title: "문서",
     },
     footer: {
@@ -2632,7 +2632,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       error: "Thao tác không thành công. Vui lòng thử lại.",
       label: "Cookie phân tích",
       message: "Chúng tôi dùng cookie và bộ nhớ trình duyệt khác để đo cách trang web được sử dụng. Cho đến khi bạn chọn, trang web không lưu gì trên thiết bị này và không gửi bất kỳ thông tin nào nhận dạng bạn.",
-      privacyPolicy: "Chính sách quyền riêng tư",
+      privacyPolicy: "Chính sách bảo mật",
     },
     analyticsConsentWithdrawal: {
       close: "Đóng",
@@ -2993,7 +2993,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       comingSoonDescription: "Ця сторінка документації зараз готується.",
       comingSoonTitle: "Незабаром",
       metaDescription:
-        "Швидкий старт, посібник із self-hosting, довідник API та огляд архітектури.",
+        "Початок роботи, посібник із self-hosting, довідник API та огляд архітектури.",
       title: "Документація",
     },
     footer: {
