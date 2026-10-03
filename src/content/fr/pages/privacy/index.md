@@ -4,7 +4,7 @@ description: Politique de confidentialité de Nibomo.
 slug: privacy
 sections:
   - type: legal_page
-    lastUpdated: septembre 2026
+    lastUpdated: octobre 2026
 ---
 ## Responsable et champ d'application
 
@@ -37,6 +37,12 @@ Nous traitons les données de compte, d'espace de travail, de révision, de fich
 Nous traitons des données limitées d'analyse, de sécurité, de diagnostic et d'amélioration du service au titre de nos intérêts légitimes à comprendre l'usage, prévenir les abus, maintenir la sécurité du service et corriger les défaillances. Nous mettons ces intérêts en balance avec vos droits et nous minimisons ou masquons les données de diagnostic lorsque c'est possible. Nous pouvons aussi traiter des données lorsque cela est nécessaire pour respecter une obligation légale ou pour constater, exercer ou défendre un droit en justice. Lorsque la loi applicable exige le consentement pour une activité précise, nous nous fondons sur le consentement et vous pouvez le retirer à tout moment.
 
 Nous ne vendons pas vos données personnelles et nous ne les utilisons pas à des fins de publicité ciblée.
+
+## Achats et abonnements Apple
+
+Apple traite les paiements des achats sur l’App Store ; nous ne recevons pas vos coordonnées de carte ou de compte bancaire par l’intermédiaire de la facturation Apple. Nous recevons et conservons des données d’achat, notamment les identifiants de transaction et de produit, un jeton de compte de l’application reliant l’achat à votre compte, l’état de l’abonnement et de la période d’essai, les informations de renouvellement et de remboursement, ainsi que les dates correspondantes.
+
+Nous utilisons ces données pour vérifier les achats, fournir et restaurer l’accès payant, assurer l’assistance, rapprocher les transactions, tenir les registres comptables et analyser l’utilisation du produit. Les données de facturation côté serveur sont conservées même lorsque vous désactivez l’analyse produit dans l’application.
 
 ## Analyse d'audience et cookies
 
@@ -89,6 +95,7 @@ Lorsque vous connectez Nibomo à un client IA externe via le service MCP distant
 Nous utilisons les catégories de prestataires suivantes pour le service hébergé :
 
 - Amazon Web Services (AWS) pour l'hébergement, l'authentification Cognito, Postgres, le stockage de fichiers, les sauvegardes et les journaux opérationnels ;
+- Apple pour les paiements sur l’App Store, la vérification des achats et les notifications d’abonnement ;
 - Resend pour les e-mails transactionnels d'authentification ;
 - OpenAI pour les requêtes d'IA hébergées facultatives ;
 - Langfuse Cloud pour l'observabilité de l'IA hébergée ;
@@ -105,6 +112,7 @@ L'application hébergée principale fonctionne sur l'infrastructure AWS de l'UE.
 ## Conservation et suppression
 
 - Les données de compte et d'espace de travail hébergé sont conservées tant que votre compte ou l'espace de travail partagé concerné reste actif. La suppression du compte retire de la base de données active vos données de compte actuelles, vos identifiants de connexion, vos appartenances et les espaces de travail dont vous êtes le seul membre. Le contenu d'un espace de travail qui compte encore d'autres membres reste accessible à ces membres.
+- L’historique de facturation Apple est conservé après la suppression du compte à des fins de comptabilité, de rapprochement et de gestion des réclamations juridiques. Nous remplaçons les identifiants internes d’utilisateur par des valeurs pseudonymes et effaçons le contenu des notifications Apple stockées attribuables au compte supprimé. Les identifiants nécessaires d’achat et d’attribution au compte Apple sont conservés ; Apple peut toujours les relier à vous, il ne s’agit donc pas d’une anonymisation complète. La suppression de votre compte Nibomo ne résilie pas votre abonnement Apple ; gérez-le ou résiliez-le auprès d’Apple.
 - Les événements d'analyse produit sont conservés après la suppression du compte. Pour les événements liés à votre compte et aux identités invité associées, nous remplaçons les identifiants de compte par une valeur aléatoire, supprimons les liens d'identité et effaçons les champs d'installation, de session, d'espace de travail, de requête, de modèle d'appareil, de système d'exploitation, de langue de l'appareil, de langue d'interface, de fuseau horaire et de pays. Les profils d'installation associés et leur historique de pays sont supprimés. Il s'agit d'une suppression d'identifiants, non d'une garantie que les événements conservés sont anonymes dans tous les contextes.
 - La suppression du compte fait aussi expirer le cookie `analytics_visitor` dans le navigateur depuis lequel elle est effectuée et réinitialise l'identifiant de session d'analyse de ce navigateur. Ce navigateur poursuit ensuite comme un nouveau visiteur anonyme, sous un nouvel identifiant sans lien avec le précédent, là où votre choix en matière d'analyse le permet. Cela ne concerne que ce navigateur ; une copie conservée dans un autre navigateur ou sur un autre appareil n'est pas atteinte, et un navigateur qui bloque l'écriture ou qui est fermé avant son exécution conserve l'ancien identifiant jusqu'à son expiration naturelle. Cela ne modifie pas non plus les événements déjà collectés : les événements enregistrés alors que vous n'étiez pas connecté et jamais liés à votre compte conservent l'identifiant avec lequel ils ont été enregistrés, et c'est la suppression des liens d'identité décrite ci-dessus qui empêche de rattacher cet identifiant à vous.
 - Les périodes de pays détaillées sont exclues des lectures d'audience dès que leur dernière observation date de plus de 90 jours. Un nettoyage quotidien les supprime ; la suppression physique peut être retardée jusqu'à ce qu'un nettoyage aboutisse. Une période inchangée peut commencer plus tôt que 90 jours, mais elle ne constitue pas un relevé de localisation quotidien. Le premier pays connu est conservé séparément pendant toute la durée de vie du profil d'installation, jusqu'à la suppression de ce profil.
