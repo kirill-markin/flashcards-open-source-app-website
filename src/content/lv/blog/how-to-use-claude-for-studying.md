@@ -2,7 +2,7 @@
 title: "Kā izmantot Claude mācībām 2026. gadā: praktiska pieeja"
 description: "Mācies ar Claude no saviem pierakstiem, atbildi uz vienu jautājumu reizē, pārbaudi labojumus un veido kartītes par grūtākajām tēmām, ievērojot kursa MI noteikumus."
 date: "2026-05-28"
-updated: "2026-09-30"
+updated: "2026-10-03"
 image: "/blog/how-to-use-claude-for-studying-v2.png"
 keywords:
   - "kā izmantot Claude mācībām"
@@ -222,6 +222,8 @@ Vienkāršākais pārnešanas veids darbojas ar jebkuru kartīšu lietotni. Lūd
 Ja izmanto Nibomo, savieno Claude ar to, izmantojot MCP — savienojumu starp asistentu un Nibomo. Tad vari lūgt saglabāt kartītes, kuras esi pārskatījis un apstiprinājis. Pirms saglabāšanas pārbaudi to saturu un vietu, kur tās tiks saglabātas.
 
 Kad pienācis atkārtošanas laiks, vari izmantot [Nibomo tīmekļa lietotni](https://app.nibomo.com/) vai sarunu ar Claude vai Codex, kas savienots ar Nibomo, izmantojot MCP. Sarunā lūdz uzdot vienu jautājumu reizē: asistents nogaida tavu mēģinājumu, pirms parāda atbildi, un pēc tam reģistrē Nibomo tavu vērtējumu par to, cik labi atcerējies atbildi. Nibomo uztur kopīgu atkārtošanas grafiku, tāpēc vari pārslēgties starp lietotni un sarunu.
+
+> [Savienot ar Claude](https://claude.ai/directory/nibomo) · [Dokumentācija](/docs/mcp-connector/)
 
 Savienojuma iestatīšana aprakstīta [Claude savienotāja ceļvedī](/blog/how-to-connect-flashcards-to-claude-with-mcp/) un [MCP savienotāja dokumentācijā](/docs/mcp-connector/); abi materiāli ir angļu valodā. Ja nevēlies savienot asistentu, kartītes joprojām vari kopēt manuāli.
 

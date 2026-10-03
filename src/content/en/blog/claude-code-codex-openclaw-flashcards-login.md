@@ -2,6 +2,7 @@
 title: "How to Let Claude Code, Codex, or OpenClaw Log In to Nibomo for You"
 description: "Nibomo exposes an open-source agent login flow built around one discovery URL, email OTP, and a long-lived API key. Give your agent one link, send back the 8-digit email code, and let it finish account and workspace setup."
 date: "2026-03-10"
+updated: "2026-10-03"
 keywords:
   - "claude code login"
   - "codex login"
@@ -10,6 +11,8 @@ keywords:
   - "open source flashcards app"
   - "open source api authentication"
 ---
+
+> [Connect to Claude](https://claude.ai/directory/nibomo) · [Documentation](/docs/mcp-connector/)
 
 Most login flows still assume the human will do all the setup work by hand.
 

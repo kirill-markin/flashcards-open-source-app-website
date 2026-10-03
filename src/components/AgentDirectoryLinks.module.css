@@ -1,0 +1,82 @@
+.directories {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.entry {
+  position: relative;
+  min-width: 0;
+}
+
+.directory {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+  min-height: 44px;
+  padding: 10px 12px;
+  border: 1px solid var(--border-strong);
+  border-radius: var(--radius-md);
+  background: var(--surface-hover);
+  color: var(--text);
+  font: inherit;
+  font-size: 14px;
+  font-weight: 650;
+  line-height: 1.4;
+  text-decoration: none;
+  transition: border-color 140ms ease, background 140ms ease;
+}
+
+a.directory:hover,
+.directory:focus-visible {
+  border-color: var(--accent-strong);
+  background: var(--surface);
+}
+
+.unavailable {
+  color: var(--text-tertiary);
+  border-color: var(--border);
+  background: transparent;
+  cursor: not-allowed;
+}
+
+.logo {
+  flex: 0 0 auto;
+  object-fit: contain;
+  filter: invert(1);
+}
+
+.unavailable .logo {
+  opacity: 0.45;
+}
+
+.tooltip {
+  position: absolute;
+  z-index: 10;
+  inset-block-start: calc(100% + 6px);
+  inset-inline-start: 0;
+  width: max-content;
+  max-width: min(280px, calc(200% + 10px));
+  padding: 10px 12px;
+  border: 1px solid var(--border-strong);
+  border-radius: var(--radius-md);
+  background: var(--bg);
+  box-shadow: var(--shadow-soft);
+  color: var(--text-secondary);
+  font-size: 12px;
+  line-height: 1.5;
+  text-align: start;
+  visibility: hidden;
+}
+
+.entry:last-child .tooltip {
+  inset-inline-start: auto;
+  inset-inline-end: 0;
+}
+
+.entry:hover .tooltip,
+.entry:focus-within .tooltip {
+  visibility: visible;
+}

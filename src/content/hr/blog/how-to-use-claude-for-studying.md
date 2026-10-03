@@ -2,7 +2,7 @@
 title: "Kako koristiti Claudea za učenje u 2026.: praktičan postupak"
 description: "Učite uz Claudea iz vlastitih bilježaka, odgovarajte na jedno po jedno pitanje, provjerite ispravke i pretvorite slabe točke u kartice, u skladu s pravilima kolegija."
 date: "2026-05-28"
-updated: "2026-09-30"
+updated: "2026-10-03"
 image: "/blog/how-to-use-claude-for-studying-v2.png"
 keywords:
   - "kako koristiti Claudea za učenje"
@@ -223,6 +223,8 @@ Najjednostavniji prijenos funkcionira s bilo kojom aplikacijom za kartice. Zatra
 Ako koristite Nibomo, povežite Claude putem MCP-a, veze između asistenta i Niboma. Tada možete zatražiti da spremi kartice koje ste pregledali i odobrili. Prije spremanja provjerite njihov sadržaj i mjesto na kojem će biti spremljene.
 
 Kad dođe vrijeme za ponavljanje, kartice možete ponavljati u [web-aplikaciji Nibomo](https://app.nibomo.com/) ili u razgovoru s Claudeom ili Codexom povezanim s Nibomom putem MCP-a. U razgovoru zatražite jedno po jedno pitanje: asistent čeka vaš pokušaj prije nego što otkrije odgovor, a zatim u Nibomo bilježi vašu ocjenu koliko ste se dobro prisjetili odgovora. Nibomo vodi zajednički raspored ponavljanja, pa možete prelaziti između aplikacije i razgovora.
+
+> [Poveži s uslugom Claude](https://claude.ai/directory/nibomo) · [Dokumentacija](/docs/mcp-connector/)
 
 Za povezivanje pogledajte [vodič za Claude](/blog/how-to-connect-flashcards-to-claude-with-mcp/) i [dokumentaciju MCP konektora](/docs/mcp-connector/), oba na engleskom. Ručno kopiranje ostaje dostupno ako ne želite povezivati asistenta.
 

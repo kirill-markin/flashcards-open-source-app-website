@@ -2,6 +2,7 @@
 title: "Cómo usar Claude para crear flashcards en 2026: Projects, carga de archivos y repaso con FSRS"
 description: "Un flujo práctico para crear flashcards con Claude en 2026: usa Projects y la carga de archivos para redactar tarjetas más pequeñas y limpias, y luego pasa las que de verdad valen la pena a Nibomo para repasarlas con FSRS."
 date: "2026-06-11"
+updated: "2026-10-03"
 image: "/blog/how-to-use-claude-to-make-flashcards.png"
 keywords:
   - "cómo usar Claude para crear flashcards"
@@ -13,6 +14,8 @@ keywords:
   - "crear flashcards con Claude"
   - "flashcards con FSRS"
 ---
+
+> [Conectar con Claude](https://claude.ai/directory/nibomo) · [Documentación](/docs/mcp-connector/)
 
 Ayer subí a Claude el esquema de una clase y un PDF de lectura bastante caótico para que me sacara flashcards. Algunas quedaron bien. El resto tenía ese olor conocido a IA: técnicamente correctas, demasiado pulidas y bastante más pesadas de repasar de lo que parecían a primera vista.
 
@@ -236,17 +239,11 @@ Son trabajos distintos.
 
 Si quieres profundizar más en la parte del planificador, [FSRS vs SM-2 en 2026](/es/blog/fsrs-vs-sm-2/) es el siguiente artículo directo.
 
-## Pasa las que sobrevivan a Nibomo sin fingir que existe una integración mágica con Claude
+## Guarda las tarjetas aprobadas en Nibomo
 
-Aquí conviene ser honestos.
+Abre [Nibomo en el directorio de Claude](https://claude.ai/directory/nibomo), conéctalo, inicia sesión en tu cuenta de Nibomo y autoriza el acceso. Nibomo aparece como conector Community.
 
-No hay ningún botón especial de Claude a Nibomo, y no voy a fingir lo contrario. El relevo útil es más simple:
-
-1. redacta tarjetas candidatas en Claude
-2. borra o reescribe las flojas
-3. copia las que sobrevivan al chat con IA de Nibomo o crea las tarjetas directamente en la app
-4. organízalas en mazos y etiquetas
-5. repasa el mazo final con FSRS
+Pide a Claude que guarde mediante el conector MCP de Nibomo solo las tarjetas que hayas revisado y aprobado. Comprueba el espacio de trabajo de destino y la solicitud de escritura, apruébala y verifica las tarjetas guardadas en Nibomo antes de repasarlas con FSRS. También puedes copiarlas manualmente.
 
 [Nibomo](/es/) encaja bien en este flujo porque el producto actual cubre justo la parte que Claude no termina por sí solo:
 

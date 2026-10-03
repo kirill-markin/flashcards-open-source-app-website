@@ -2,7 +2,7 @@
 title: "Cómo usar Claude para estudiar en 2026: guía práctica"
 description: "Estudia tus apuntes con Claude, responde una pregunta cada vez, comprueba las correcciones y convierte tus dudas en flashcards dentro de las normas de tu curso."
 date: "2026-05-28"
-updated: "2026-09-30"
+updated: "2026-10-03"
 image: "/blog/how-to-use-claude-for-studying-v2.png"
 keywords:
   - "cómo usar Claude para estudiar"
@@ -222,6 +222,8 @@ Descarta el resto. Una sesión de estudio con Claude puede ser útil aunque no p
 ## Opcional: pasa las tarjetas seleccionadas a otra herramienta
 
 La opción más sencilla sirve con cualquier aplicación de flashcards. Pide a Claude que devuelva únicamente las tarjetas aprobadas como bloques de anverso y reverso en texto sin formato, compruébalas una vez más y cópialas en tu sistema de repaso habitual.
+
+> [Conectar con Claude](https://claude.ai/directory/nibomo) · [Documentación](/docs/mcp-connector/)
 
 Si utilizas Nibomo, conecta Claude mediante MCP, la conexión entre el asistente y Nibomo. Después puedes pedirle que guarde las tarjetas que has comprobado y aprobado. La [guía del conector de Claude](/blog/how-to-connect-flashcards-to-claude-with-mcp/) explica la configuración; la [referencia del conector MCP](/docs/mcp-connector/) cubre la conexión de otros asistentes compatibles.
 

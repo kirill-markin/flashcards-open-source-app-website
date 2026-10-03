@@ -2,7 +2,7 @@
 title: "KI-Tutor für Karteikarten 2026: Fällige Karten per MCP abfragen lassen und FSRS-Wiederholungen speichern"
 description: "Verbinde Claude, ChatGPT oder Codex per MCP mit Nibomo. Der KI-Tutor fragt deine fälligen Karten ab, beurteilt jede Antwort und speichert die Bewertung als FSRS-Wiederholung."
 date: "2026-07-15"
-updated: "2026-09-16"
+updated: "2026-10-03"
 image: "/blog/ai-flashcard-tutor-due-cards.png"
 keywords:
   - "KI-Tutor für Karteikarten"
@@ -47,6 +47,8 @@ Alle MCP-Clients verwenden dieselbe Server-URL:
 
 `https://mcp.nibomo.com/mcp`
 
+> [Mit Claude verbinden](https://claude.ai/directory/nibomo) · [Dokumentation](/docs/mcp-connector/)
+
 Interaktive Clients melden sich über OAuth 2.1 mit PKCE und Dynamic Client Registration an. Du bestätigst den Zugriff im Browser und musst vorher weder einen Key einfügen noch eine App registrieren. Headless-Setups können stattdessen einen `fca_`-Agent-API-Key als Bearer-Token senden. Die [Dokumentation zum MCP-Connector](/de/docs/mcp-connector/) beschreibt beide Wege und die genaue Schnittstelle aller Tools.
 
 Wo du die URL einträgst, hängt vom Client ab:
@@ -59,7 +61,9 @@ Du kannst dir die Verbindung auch ganz sparen. Der KI-Chat in Nibomo hat dieselb
 
 ## Aktiviere nur die Tools, die du zum Wiederholen brauchst
 
-Der Connector hat sieben Tools. Eine Wiederholungssitzung nutzt fünf davon: `list_workspaces`, `get_guide`, `next_review_card`, `reveal_answer` und `submit_review`. `sql_query` hilft, wenn der Tutor den Namen eines Decks oder Tags nachschlagen soll. `sql_execute` erstellt, bearbeitet und löscht Karten und Decks. Zum Wiederholen brauchst du es nie, also blockiere es für diese Sitzung, wenn dein Client das erlaubt.
+Der Connector hat acht Tools. Eine Wiederholungssitzung nutzt fünf davon: `list_workspaces`, `get_guide`, `next_review_card`, `reveal_answer` und `submit_review`. `sql_query` hilft, wenn der Tutor den Namen eines Decks oder Tags nachschlagen soll. `sql_execute` erstellt, bearbeitet und löscht Karten und Decks. Zum Wiederholen brauchst du es nie, also blockiere es für diese Sitzung, wenn dein Client das erlaubt.
+
+`get_usage_limits` — rein lesender Zugriff auf Kontotarif, Limits und aktuelle monatliche KI-Nutzung; liest oder verändert keine Karten.
 
 `submit_review` muss eingeschaltet bleiben, denn es ist der einzige Schreibzugriff im Ablauf. Nibomo kennzeichnet es als destruktiv und nicht als nur lesend, weil es den Fälligkeitstermin, die Wiederholungszähler und den FSRS-Zustand der Karte überschreibt. Manche Clients entscheiden anhand dieser Kennzeichnung, wann sie dich um eine Freigabe bitten, und genau das hilft, wenn du Bewertungen prüfen willst.
 

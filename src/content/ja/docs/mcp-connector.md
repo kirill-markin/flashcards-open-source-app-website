@@ -1,7 +1,21 @@
 ---
 title: MCP コネクタ
-description: リモートの Nibomo MCP サーバーをカスタムコネクタとして追加します。クライアント向けの OAuth、ヘッドレス用途向けの API キー、読み取りと書き込みに分割された SQL ツールを備えています。
+description: "Claude のディレクトリから Nibomo に接続するか、Claude Code などでリモート MCP サーバーを設定します。OAuth とカード・復習用の8つのツールに対応。"
 ---
+
+## Claude のディレクトリから接続する
+
+[Claude ディレクトリの Nibomo](https://claude.ai/directory/nibomo) を開いて接続し、Nibomo アカウントにログインしてアクセスを許可してください。Nibomo は Community コネクタとして掲載されています。
+
+Claude Code では同じ Claude サブスクリプションのアカウントを使い、接続後に `/mcp` を確認してください。API キーや外部プロバイダーでログインした場合、claude.ai のコネクタは自動で読み込まれません。
+
+Claude Code を直接設定することもできます。以下のコマンドを実行してから Claude Code で `/mcp` を開き、ブラウザで認証を完了してください。
+
+```bash
+claude mcp add --transport http nibomo https://mcp.nibomo.com/mcp
+```
+
+[Claude Code MCP documentation](https://code.claude.com/docs/en/mcp#use-mcp-servers-from-claudeai).
 
 ## 概要
 
@@ -15,7 +29,7 @@ Nibomo はリモートの MCP（Model Context Protocol）サーバーを動か�
 https://mcp.nibomo.com/mcp
 ```
 
-トランスポートは Streamable HTTP で、サーバーは 7 つのツールを公開します。内訳は、小さく意図的に制限された SQL サーフェスを扱う 2 つの SQL ツール、ワークスペース一覧、リファレンスガイド、3 つの復習ツールです。これは [API リファレンス](/docs/api/) と同じユーザーごとのデータサーフェスであり、MCP サーバーは MCP を話すクライアントからそこに到達するためのコネクタに適した方法です。
+トランスポートは Streamable HTTP です。サーバーは、ワークスペース、カードとデッキの読み書き、参考ガイド、復習、アカウント使用量のための 8 つのツールを提供します。
 
 ## クライアントへの追加方法
 
@@ -30,8 +44,9 @@ https://mcp.nibomo.com/mcp
 
 ## ツール
 
-サーバーは 7 つのツールを公開します。読み取りと書き込みは意図的に分割されており、1 つのツールが安全な操作と破壊的な操作を混在させることはありません。
+サーバーは 8 つのツールを公開します。読み取りと書き込みは意図的に分割されており、1 つのツールが安全な操作と破壊的な操作を混在させることはありません。
 
+- `get_usage_limits` — アカウントのプラン、制限、今月の AI 使用量を読み取り専用で確認します。カードは読み取らず、変更もしません。
 - `sql_query` — カードとデッキへの厳密な読み取り専用アクセス（`SHOW TABLES`、`DESCRIBE`、`SHOW COLUMNS`、`SELECT`）。
 - `sql_execute` — カードとデッキへの書き込みアクセス（`INSERT`、`UPDATE`、`DELETE`）をアトミックなバッチとして実行します。
 - `list_workspaces` — アクセスできるワークスペースの一覧を厳密な読み取り専用で返します。各ワークスペースには `workspaceId`、名前、アクティブなカード数、最終アクティビティ、そして現在選択中のデフォルトかどうかが含まれます。返された `workspaceId` を、SQL ツールと復習ツールのオプションの `workspaceId` 引数に使います。
@@ -101,6 +116,6 @@ SQL ツールは承認しても安全です。なぜなら、このサーフェ�
 - **ワークスペース単位の範囲**: すべての SQL 文と復習は、アクセスできる 1 つのワークスペース（渡した `workspaceId`、または選択中のデフォルト）に限定され、テナント間アクセスはできません。
 - **厳格な引数**: すべてのツールは未知の引数を拒否します。そのため、`workspaceId` のスペルを誤ると、デフォルトのワークスペースで実行されるのではなく失敗します。
 - **上限**: 1 文あたり最大 `100` 行、1 バッチあたり最大 `50` 文、結果の上限はおよそ `12k` トークンです。変更バッチはアトミックに適用されます。
-- **読み取り／書き込みの分離**: `sql_query`、`list_workspaces`、`get_guide`、`next_review_card`、`reveal_answer` は厳密な読み取り専用（`readOnlyHint`）であり、データを修復したり、スケジュールを再計算したり、カード状態を変更したりすることはありません。書き込みツールは `sql_execute` と `submit_review` だけです（`destructiveHint`）。`sql_execute` はカードとデッキを書き込み、`submit_review` は復習を記録してそのカードのスケジュールを進めます。
+- **読み取り／書き込みの分離**: `get_usage_limits`、`sql_query`、`list_workspaces`、`get_guide`、`next_review_card`、`reveal_answer` は厳密な読み取り専用（`readOnlyHint`）であり、データを修復したり、スケジュールを再計算したり、カード状態を変更したりすることはありません。書き込みツールは `sql_execute` と `submit_review` だけです（`destructiveHint`）。`sql_execute` はカードとデッキを書き込み、`submit_review` は復習を記録してそのカードのスケジュールを進めます。
 
 スタック全体 — アプリ、バックエンド、インフラ — はオープンソースであり、[セルフホスト](/docs/self-hosting/)できます。そのため、同じコネクタを自分のデプロイ環境に対して動かすことができます。

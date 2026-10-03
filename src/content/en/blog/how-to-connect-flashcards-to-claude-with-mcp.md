@@ -2,7 +2,7 @@
 title: "How to Connect Nibomo Flashcards to Claude with MCP"
 description: "Connect Nibomo to Claude Desktop or the browser with a remote MCP connector. Follow the verified connection steps, set tool permissions, and try saving your first flashcard."
 date: "2026-06-23"
-updated: "2026-09-20"
+updated: "2026-10-03"
 image: "/blog/how-to-connect-nibomo-to-claude-mcp.png"
 keywords:
   - "Nibomo Claude connector"
@@ -11,13 +11,21 @@ keywords:
   - "create flashcards in Claude"
 ---
 
-Claude can save flashcards directly to your Nibomo workspace through a custom MCP connector. You add one server URL, sign in to Nibomo, and choose which actions Claude can run without asking each time.
+> [Connect to Claude](https://claude.ai/directory/nibomo) · [Documentation](/docs/mcp-connector/)
 
-The setup below was checked in Claude Desktop on September 20, 2026. It covers the remote connector used by regular Claude chats in Desktop and the browser. For Claude Code, Codex, or another terminal agent, use the separate [agent login guide](/blog/claude-code-codex-openclaw-flashcards-login/).
+Claude can save flashcards directly to your Nibomo workspace through its listed MCP connector. Connect Nibomo from the Claude directory, sign in to Nibomo, and choose which actions Claude can run without asking each time.
+
+The manual setup screenshots below were checked in Claude Desktop on September 20, 2026. For REST/API-key onboarding, see the separate [agent login guide](/blog/claude-code-codex-openclaw-flashcards-login/).
 
 ![A library handover illustrating access to read material and approval before changes](/blog/how-to-connect-nibomo-to-claude-mcp.png)
 
-## Add Nibomo in Claude's connector settings
+## Connect through the Claude directory
+
+Open [Nibomo in the Claude directory](https://claude.ai/directory/nibomo), connect it, sign in to your Nibomo account, and authorize access. Nibomo is listed as a Community connector.
+
+For Claude Code, use the same Claude subscription account and check `/mcp` after connecting. API-key and third-party-provider logins do not automatically load your claude.ai connectors.
+
+## Alternative: add a custom connector
 
 You'll need a Nibomo account and access to custom connectors in Claude. Nibomo uses a remote MCP server, so there's nothing to install locally. Anthropic documents this connection method in its [custom connector guide](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp).
 
@@ -45,11 +53,11 @@ Check that you're connecting the intended account, then click **Allow access**. 
 
 ## Keep writes on approval
 
-The connector has tools for reading your study material, changing it, and recording reviews. Open Nibomo in **Settings > Connectors** to review its tool permissions. For the setup shown here, set the five read tools to **Always allow** and keep the two write tools on **Needs approval**:
+The connector has tools for reading your study material, changing it, and recording reviews. Open Nibomo in **Settings > Connectors** to review its tool permissions. For the setup shown here, set the six read tools to **Always allow** and keep the two write tools on **Needs approval**:
 
 | Permission | Tools |
 | --- | --- |
-| **Always allow** | Get flashcards usage guide; List flashcards workspaces; Next flashcard question; Reveal flashcard answer; Nibomo SQL query (read-only) |
+| **Always allow** | Get flashcards usage guide; `get_usage_limits`; List flashcards workspaces; Next flashcard question; Reveal flashcard answer; Nibomo SQL query (read-only) |
 | **Needs approval** | Nibomo SQL execute (write); Submit flashcard review |
 
 This lets Claude find a workspace and read cards while asking before it changes data or submits a review. You can choose stricter permissions if you want to approve reads too.

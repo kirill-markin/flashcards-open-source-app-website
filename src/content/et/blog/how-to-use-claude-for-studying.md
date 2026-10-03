@@ -2,7 +2,7 @@
 title: "Kuidas kasutada Claude'i õppimiseks 2026. aastal: praktiline töövoog"
 description: "Õpi Claude'iga oma märkmete põhjal, vasta ühele küsimusele korraga, kontrolli parandusi ja tee lünkadest õpikaarte, järgides kursuse tehisintellekti reegleid."
 date: "2026-05-28"
-updated: "2026-09-30"
+updated: "2026-10-03"
 image: "/blog/how-to-use-claude-for-studying-v2.png"
 keywords:
   - "kuidas kasutada Claude'i õppimiseks"
@@ -222,6 +222,8 @@ Lihtsaim ülekandmisviis töötab iga õpikaardirakendusega. Palu Claude'il esit
 Kui kasutad Nibomot, ühenda see esmalt Claude'iga MCP kaudu. MCP loob ühenduse assistendi ja Nibomo vahel. Palu Claude'il näidata valitud kaarte ja nende salvestuskohta. Pärast sinu heakskiitu saab ta kaardid Nibomosse salvestada.
 
 Kordamiseks võid kasutada [veebirakendust](https://app.nibomo.com/) või vestelda Claude'i või Codexiga, mis on MCP kaudu Nibomoga ühendatud. Vestluses esitab assistent ühe küsimuse korraga, ootab sinu vastusekatset ja näitab alles seejärel kaardi vastust. Sina hindad, kui lihtne või raske oli vastust meenutada, ning assistent salvestab sinu hinnangu Nibomosse. Nibomo peab mõlema viisi jaoks ühist kordamisgraafikut, nii et saad rakenduse ja vestluse vahel vahetada ning jätkata kaartidega, mille kordamisaeg on kätte jõudnud.
+
+> [Ühenda teenusega Claude](https://claude.ai/directory/nibomo) · [Dokumentatsioon](/docs/mcp-connector/)
 
 Ühenduse seadistamiseks vaata [Claude'i konnektori juhendit](/blog/how-to-connect-flashcards-to-claude-with-mcp/) ja [MCP-konnektori teatmikku](/docs/mcp-connector/); mõlemad on inglise keeles. Kui sa ei soovi konnektorit kasutada, on käsitsi kopeerimine samuti terviklik töövoog.
 

@@ -2,7 +2,7 @@
 title: "Näin käytät Claudea opiskeluun vuonna 2026: käytännön menetelmä"
 description: "Opiskele omista muistiinpanoistasi Clauden avulla, vastaa kysymys kerrallaan, tarkista korjaukset ja tee osaamisaukoista muistikortteja kurssin tekoälysääntöjen mukaan."
 date: "2026-05-28"
-updated: "2026-09-30"
+updated: "2026-10-03"
 image: "/blog/how-to-use-claude-for-studying-v2.png"
 keywords:
   - "miten käyttää Claudea opiskeluun"
@@ -225,6 +225,8 @@ Yksinkertaisin siirto toimii minkä tahansa muistikorttisovelluksen kanssa. Pyyd
 Jos käytät Nibomoa, voit yhdistää Clauden siihen MCP:n kautta. MCP toimii yhteytenä avustajan ja Nibomon välillä. Pyydä Claudea näyttämään ehdotetut kortit ennen tallentamista ja hyväksy vain ne, jotka haluat säilyttää. Näin valituista heikoista kohdista syntyy kortteja myöhempää kertausta varten.
 
 Kun on korttien kertauksen aika, voit käyttää [verkkosovellusta](https://app.nibomo.com/) tai keskustella Clauden tai Codexin kanssa, kun olet yhdistänyt sen Nibomoon MCP:n kautta. Keskustelussa avustaja esittää yhden kysymyksen kerrallaan ja odottaa vastausyritystäsi ennen oikean vastauksen näyttämistä. Arvioit itse, miten hyvin muistit vastauksen, ja avustaja kirjaa arviosi Nibomoon. Nibomo ylläpitää samaa kertausaikataulua riippumatta siitä, kertaatko sovelluksessa vai keskustelussa.
+
+> [Yhdistä palveluun Claude](https://claude.ai/directory/nibomo) · [Dokumentaatio](/docs/mcp-connector/)
 
 Yhteyden käyttöönottoon saat apua [Claude-liittimen ohjeesta](/blog/how-to-connect-flashcards-to-claude-with-mcp/) ja [MCP-liittimen dokumentaatiosta](/docs/mcp-connector/). Molemmat ovat englanniksi. Voit myös jatkaa korttien kopioimista käsin, jos se sopii sinulle paremmin.
 

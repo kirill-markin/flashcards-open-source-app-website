@@ -3,6 +3,7 @@ title: "QuizletにMCPサーバーはある？ Claude・Codexで使える方法�
 description: "2026年現在、Quizletの公開ドキュメントにMCPサーバーの記載はありません。公式ChatGPTアプリ、作成者限定のエクスポート、ClaudeやCodexで継続利用する安全な手順を比較します。"
 image: "/blog/quizlet-mcp-server.png"
 date: "2026-09-12"
+updated: "2026-10-03"
 keywords:
   - "Quizlet MCP"
   - "Quizlet MCP サーバー"
@@ -75,7 +76,11 @@ NibomoのリモートMCPエンドポイントは、次のとおりです。
 
 `https://mcp.nibomo.com/mcp`
 
-[MCPコネクターのドキュメント](/docs/mcp-connector/)では、`list_workspaces`、読み取り用の`sql_query`、書き込み用の`sql_execute`、リファレンスガイド用の`get_guide`に加え、復習用の`next_review_card`、`reveal_answer`、`submit_review`という7つのツールを定義しています。対話型MCPクライアントではOAuthで認証できます。ターミナルで動くエージェントは、代わりに[Agent APIのドキュメント](/docs/api/)から始め、公開されているHTTPフローを利用できます。
+> [Claude に接続](https://claude.ai/directory/nibomo) · [ドキュメント](/docs/mcp-connector/)
+
+[MCPコネクターのドキュメント](/docs/mcp-connector/)では、`list_workspaces`、読み取り用の`sql_query`、書き込み用の`sql_execute`、リファレンスガイド用の`get_guide`に加え、復習用の`next_review_card`、`reveal_answer`、`submit_review`という8つのツールを定義しています。対話型MCPクライアントではOAuthで認証できます。ターミナルで動くエージェントは、代わりに[Agent APIのドキュメント](/docs/api/)から始め、公開されているHTTPフローを利用できます。
+
+`get_usage_limits` — アカウントのプラン、制限、今月の AI 使用量を読み取り専用で確認します。カードは読み取らず、変更もしません。
 
 この仕組みを使っても、NibomoがQuizletコネクターになるわけではありません。正式に対応している手順は次のとおりです。
 

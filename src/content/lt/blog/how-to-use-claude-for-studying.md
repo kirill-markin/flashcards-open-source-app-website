@@ -2,7 +2,7 @@
 title: "Kaip naudoti Claude mokymuisi 2026 m.: praktinė eiga"
 description: "Mokykitės su Claude iš savo užrašų: atsakykite po vieną klausimą, tikrinkite pataisymus ir paverskite spragas kortelėmis, laikydamiesi kurso DI taisyklių."
 date: "2026-05-28"
-updated: "2026-09-30"
+updated: "2026-10-03"
 image: "/blog/how-to-use-claude-for-studying-v2.png"
 keywords:
   - "kaip naudoti Claude mokymuisi"
@@ -223,6 +223,8 @@ Paprasčiausias perkėlimas tinka bet kuriai mokymosi kortelių programėlei. Pa
 Jei naudojate Nibomo, prijunkite Claude per MCP – jungtį tarp asistento ir Nibomo. Tuomet galite paprašyti išsaugoti korteles, kurias peržiūrėjote ir patvirtinote. Prieš išsaugodami patikrinkite jų turinį ir išsaugojimo vietą.
 
 Atėjus laikui kartoti, galite naudoti [Nibomo žiniatinklio programėlę](https://app.nibomo.com/) arba pokalbį su Claude ar Codex, prijungtu prie Nibomo per MCP. Pokalbyje paprašykite pateikti po vieną klausimą: asistentas palaukia jūsų bandymo prieš parodydamas atsakymą, o tada Nibomo užregistruoja jūsų įvertinimą, kaip gerai atsiminėte atsakymą. Nibomo palaiko bendrą kartojimo tvarkaraštį, tad galite pereiti iš programėlės į pokalbį ir atvirkščiai.
+
+> [Prisijungti prie Claude](https://claude.ai/directory/nibomo) · [Dokumentacija](/docs/mcp-connector/)
 
 Kaip prisijungti, paaiškinta [Claude prijungimo vadove](/blog/how-to-connect-flashcards-to-claude-with-mcp/) ir [MCP jungties dokumentacijoje](/docs/mcp-connector/); abu tekstai anglų kalba. Jei nenorite prijungti asistento, korteles ir toliau galite kopijuoti rankiniu būdu.
 

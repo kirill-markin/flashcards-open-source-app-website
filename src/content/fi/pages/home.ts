@@ -27,7 +27,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
       },
       agentConnectors: [
         {
-          caption: "Lisää tämä MCP-palvelin tekoälysovellukseesi:",
+          caption: "Tai yhdistä mikä tahansa MCP-yhteensopiva tekoälysovellus tällä URL-osoitteella:",
           link: {
             label: "https://mcp.nibomo.com/mcp",
             href: "https://mcp.nibomo.com/mcp",

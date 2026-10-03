@@ -3,6 +3,7 @@ title: "Hat Quizlet 2026 eine öffentliche API? Aktueller Stand und sichere Alte
 description: "Hat Quizlet eine API? Stand 18. August 2026 gibt es keine dokumentierte öffentliche Self-Service-API. Hier findest du die unterstützten Alternativen."
 image: "/blog/quizlet-api.png"
 date: "2026-08-18"
+updated: "2026-10-03"
 keywords:
   - "Quizlet API"
   - "hat Quizlet eine API"
@@ -86,7 +87,9 @@ Der sichere Weg ist ein Karteikartensystem, das ausdrücklich dokumentiert, wie 
 Nibomo veröffentlicht zwei Zugangswege zu derselben begrenzten Schnittstelle für die Daten des jeweiligen Nutzers:
 
 - Die [externe Agent API](/docs/api/) beginnt bei `GET https://api.nibomo.com/v1/`. Ihre Discovery-Antwort führt einen Agenten durch die Anmeldung per E-Mail-OTP, das Erstellen eines API-Keys und die Auswahl eines Arbeitsbereichs. Für Lesezugriffe gibt es eine SQL-ähnliche Abfrageroute, für Schreibzugriffe eine separate Ausführungsroute.
-- Der [Remote-MCP-Server](/docs/mcp-connector/) ist unter `https://mcp.nibomo.com/mcp` verfügbar. MCP-Clients erhalten sieben Tools: `list_workspaces`, `sql_query`, `sql_execute`, `get_guide` sowie die Wiederholungs-Tools `next_review_card`, `reveal_answer` und `submit_review`.
+- Der [Remote-MCP-Server](/docs/mcp-connector/) ist unter `https://mcp.nibomo.com/mcp` verfügbar. MCP-Clients erhalten acht Tools: `list_workspaces`, `sql_query`, `sql_execute`, `get_guide` sowie die Wiederholungs-Tools `next_review_card`, `reveal_answer` und `submit_review`.
+
+`get_usage_limits` — rein lesender Zugriff auf Kontotarif, Limits und aktuelle monatliche KI-Nutzung; liest oder verändert keine Karten.
 
 Beide Zugangswege sind auf einen Arbeitsbereich begrenzt. Die veröffentlichten Ressourcen sind `workspace`, `cards`, `decks` und `review_events`. Die Ergebnisse sind pro SQL-Anweisung auf 100 Zeilen begrenzt. Die SQL-ähnliche Schnittstelle ist ein eingeschränkter Dialekt und kein direkter PostgreSQL-Zugriff. Es gibt kein OpenAPI-Schema. Arbeitsabläufe, die auf generierte OpenAPI-Clients angewiesen sind, benötigen daher eine andere Schnittstelle.
 

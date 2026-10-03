@@ -2,6 +2,7 @@
 title: "So lässt du Claude Code, Codex oder OpenClaw die Anmeldung bei Nibomo für dich übernehmen"
 description: "Nibomo bietet einen Open-Source-Anmeldeablauf für Agenten: eine Discovery-URL, E-Mail-OTP und ein langlebiger API-Key. Gib deinem Agenten den Link, schick den aktuellen 8-stelligen Code zurück und lass ihn Konto- und Workspace-Einrichtung selbst abschließen."
 date: "2026-03-10"
+updated: "2026-10-03"
 keywords:
   - "claude code anmeldung"
   - "codex anmeldung"
@@ -10,6 +11,8 @@ keywords:
   - "flashcards open-source-app"
   - "open-source-api-authentifizierung"
 ---
+
+> [Mit Claude verbinden](https://claude.ai/directory/nibomo) · [Dokumentation](/docs/mcp-connector/)
 
 Bei den meisten Anmeldeabläufen wird immer noch vorausgesetzt, dass ein Mensch die komplette Einrichtung von Hand übernimmt.
 
