@@ -12,7 +12,7 @@ Pentru asistență legată de produs, ajutor cu contul sau întrebări legate de
 
 ## Ștergerea contului
 
-În aplicația iOS, îți poți șterge contul găzduit din `Settings > Account Settings > Danger Zone > Delete my account`. Dacă ai nevoie de ajutor cu acest proces, contactează asistența prin e-mail.
+În aplicația iOS, îți poți șterge contul găzduit din `Settings > Delete Account > Delete my account`. Dacă ai nevoie de ajutor cu acest proces, contactează asistența prin e-mail.
 
 ## Open source și rapoarte tehnice
 

@@ -12,7 +12,7 @@ Tuotetukea, tiliin liittyvää apua tai App Store -tarkastukseen liittyviä kysy
 
 ## Tilin poistaminen
 
-iOS-sovelluksessa voit poistaa isännöidyn tilisi kohdasta `Settings > Account Settings > Danger Zone > Delete my account`. Jos tarvitset apua tilin poistamisessa, ota yhteyttä tukeen sähköpostitse.
+iOS-sovelluksessa voit poistaa isännöidyn tilisi kohdasta `Settings > Delete Account > Delete my account`. Jos tarvitset apua tilin poistamisessa, ota yhteyttä tukeen sähköpostitse.
 
 ## Avoin lähdekoodi ja tekniset raportit
 

@@ -12,7 +12,7 @@ För produktsupport, hjälp med kontot eller frågor om App Store-granskningen, 
 
 ## Radering av konto
 
-I iOS-appen kan du radera ditt molnkonto under `Settings > Account Settings > Danger Zone > Delete my account`. Om du behöver hjälp med det flödet kan du kontakta supporten via e-post.
+I iOS-appen kan du radera ditt molnkonto under `Settings > Delete Account > Delete my account`. Om du behöver hjälp med det flödet kan du kontakta supporten via e-post.
 
 ## Öppen källkod och tekniska rapporter
 

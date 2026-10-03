@@ -12,7 +12,7 @@ sections:
 
 ## حذف الحساب
 
-في تطبيق iOS يمكنك حذف حسابك المستضاف من `Settings > Account Settings > Danger Zone > Delete my account`. إذا احتجت مساعدة في هذا التدفق، تواصل مع الدعم عبر البريد.
+في تطبيق iOS يمكنك حذف حسابك المستضاف من `Settings > Delete Account > Delete my account`. إذا احتجت مساعدة في هذا التدفق، تواصل مع الدعم عبر البريد.
 
 ## المصدر المفتوح والتقارير التقنية
 

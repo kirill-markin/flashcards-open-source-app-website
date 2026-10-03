@@ -12,7 +12,7 @@ Untuk dukungan produk, bantuan akun, atau pertanyaan terkait peninjauan App Stor
 
 ## Penghapusan Akun
 
-Di aplikasi iOS, Anda dapat menghapus akun terkelola Anda melalui `Settings > Account Settings > Danger Zone > Delete my account`. Jika Anda membutuhkan bantuan dengan proses tersebut, hubungi dukungan lewat email.
+Di aplikasi iOS, Anda dapat menghapus akun terkelola Anda melalui `Settings > Delete Account > Delete my account`. Jika Anda membutuhkan bantuan dengan proses tersebut, hubungi dukungan lewat email.
 
 ## Open Source dan Laporan Teknis
 
