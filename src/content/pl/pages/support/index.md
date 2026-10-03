@@ -4,7 +4,7 @@ description: Dostępne formy wsparcia w Nibomo.
 slug: support
 sections:
   - type: legal_page
-    lastUpdated: marzec 2026
+    lastUpdated: październik 2026
 ---
 ## Kontakt
 
@@ -12,7 +12,11 @@ Jeśli potrzebujesz pomocy z produktem lub kontem albo masz pytania związane z 
 
 ## Usuwanie konta
 
-W aplikacji iOS możesz usunąć swoje konto w usłudze hostowanej w `Settings > Delete Account > Delete my account`. Jeśli potrzebujesz pomocy z tym procesem, napisz do pomocy technicznej.
+Aby usunąć konto Nibomo bez instalowania aplikacji, otwórz [stronę usuwania konta](https://app.nibomo.com/settings/delete-account). Jeśli pojawi się taka prośba, zaloguj się tym samym adresem e-mail, którego używasz do swojego konta. Wybierz `Usuń moje konto`, wpisz wyświetloną frazę potwierdzającą i potwierdź usunięcie. Możesz też poprosić o usunięcie konta, pisząc na [kirill+flashcards@kirill-markin.com](mailto:kirill+flashcards@kirill-markin.com).
+
+Usunięcie kasuje z aktywnej bazy danych bieżące dane konta, dane logowania, członkostwa oraz obszary robocze, których jesteś jedynym członkiem. Zawartość współdzielonych obszarów roboczych pozostaje dostępna dla pozostałych członków. Niezbędna historia rozliczeń jest przechowywana do celów księgowych, uzgadniania transakcji i roszczeń prawnych. Usunięte rekordy mogą pozostawać w zaszyfrowanych kopiach zapasowych służących do odzyskiwania danych przez maksymalnie 35 dni. Pełne informacje o przechowywaniu znajdziesz w naszej [Polityce prywatności](/pl/privacy/).
+
+Usunięcie konta Nibomo nie anuluje subskrypcji Google Play. [Zarządzaj nią lub anuluj ją oddzielnie w Google Play](https://play.google.com/store/account/subscriptions).
 
 ## Open source i zgłoszenia techniczne
 

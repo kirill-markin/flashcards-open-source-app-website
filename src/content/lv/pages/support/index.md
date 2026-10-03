@@ -4,7 +4,7 @@ description: Nibomo atbalsta iespējas.
 slug: support
 sections:
   - type: legal_page
-    lastUpdated: 2026. gada marts
+    lastUpdated: 2026. gada oktobris
 ---
 ## Saziņa
 
@@ -12,7 +12,11 @@ Ja tev vajadzīgs atbalsts produkta lietošanā, palīdzība ar kontu vai ir jau
 
 ## Konta dzēšana
 
-iOS lietotnē mitināto kontu vari izdzēst sadaļā `Settings > Delete Account > Delete my account`. Ja šajā procesā vajadzīga palīdzība, sazinies ar atbalstu pa e-pastu.
+Lai dzēstu savu Nibomo kontu, neinstalējot lietotni, atver [konta dzēšanas lapu](https://app.nibomo.com/settings/delete-account). Ja tiek prasīts, pieraksties ar to pašu e-pasta adresi, kuru izmanto savam kontam. Izvēlies `Dzēst manu kontu`, ieraksti parādīto apstiprinājuma frāzi un apstiprini dzēšanu. Konta dzēšanu vari arī pieprasīt, rakstot uz [kirill+flashcards@kirill-markin.com](mailto:kirill+flashcards@kirill-markin.com).
+
+Dzēšot kontu, no aktīvās datubāzes tiek noņemti pašreizējie konta dati, pieteikšanās dati, dalība darbvietās un darbvietas, kurās esi vienīgais dalībnieks. Koplietoto darbvietu saturs paliek pieejams citiem dalībniekiem. Nepieciešamā norēķinu vēsture tiek saglabāta grāmatvedībai, darījumu salīdzināšanai un juridiskām prasībām. Dzēstie ieraksti var palikt šifrētās atkopšanas rezerves kopijās līdz 35 dienām. Pilnu informāciju par glabāšanu skati mūsu [Privātuma politikā](/lv/privacy/).
+
+Nibomo konta dzēšana neatceļ tavu Google Play abonementu. [Pārvaldi vai atcel to atsevišķi pakalpojumā Google Play](https://play.google.com/store/account/subscriptions).
 
 ## Atvērtais pirmkods un tehniskie ziņojumi
 

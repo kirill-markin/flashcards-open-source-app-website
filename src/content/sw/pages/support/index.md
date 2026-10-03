@@ -4,7 +4,7 @@ description: Njia za kupata msaada kwa Nibomo.
 slug: support
 sections:
   - type: legal_page
-    lastUpdated: Machi 2026
+    lastUpdated: Oktoba 2026
 ---
 ## Mawasiliano
 
@@ -12,7 +12,11 @@ Kwa msaada kuhusu bidhaa au akaunti, au kwa maswali kuhusu ukaguzi wa App Store,
 
 ## Kufuta akaunti
 
-Katika programu ya iOS, unaweza kufuta akaunti yako iliyopangishwa kupitia `Settings > Delete Account > Delete my account`. Ikiwa unahitaji msaada katika hatua hizo, wasiliana na timu ya msaada kwa barua pepe.
+Ili kufuta akaunti yako ya Nibomo bila kusakinisha programu, fungua [ukurasa wa kufuta akaunti](https://app.nibomo.com/settings/delete-account). Ukiombwa kuingia, tumia anwani ileile ya barua pepe unayotumia kwa akaunti yako. Chagua `Futa akaunti yangu`, andika kifungu cha uthibitisho kinachoonyeshwa, kisha uthibitishe kufuta. Unaweza pia kuomba akaunti ifutwe kwa kutuma barua pepe kwa [kirill+flashcards@kirill-markin.com](mailto:kirill+flashcards@kirill-markin.com).
+
+Kufuta huondoa data ya sasa ya akaunti yako, taarifa za kuingia, uanachama na maeneo ya kazi ambayo wewe ndiye mwanachama pekee kutoka kwenye hifadhidata inayotumika. Maudhui ya maeneo ya kazi yanayoshirikiwa hubaki kwa wanachama wengine. Historia muhimu ya malipo huhifadhiwa kwa uhasibu, kulinganisha miamala na madai ya kisheria. Rekodi zilizofutwa zinaweza kubaki katika nakala rudufu zilizosimbwa kwa ajili ya urejeshaji kwa hadi siku 35. Angalia [Sera yetu ya faragha](/sw/privacy/) kwa maelezo kamili ya uhifadhi.
+
+Kufuta akaunti yako ya Nibomo hakughairi usajili wako wa Google Play. [Simamia au ughairi usajili huo kando kupitia Google Play](https://play.google.com/store/account/subscriptions).
 
 ## Chanzo huria na ripoti za kiufundi
 

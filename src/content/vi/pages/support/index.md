@@ -4,7 +4,7 @@ description: Các cách nhận hỗ trợ cho Nibomo.
 slug: support
 sections:
   - type: legal_page
-    lastUpdated: tháng 3 năm 2026
+    lastUpdated: tháng 10 năm 2026
 ---
 ## Liên hệ
 
@@ -12,7 +12,11 @@ sections:
 
 ## Xóa tài khoản
 
-Trong ứng dụng iOS, bạn có thể xóa tài khoản trên dịch vụ lưu trữ sẵn tại `Settings > Delete Account > Delete my account`. Nếu cần trợ giúp với các bước này, hãy liên hệ bộ phận hỗ trợ qua email.
+Để xóa tài khoản Nibomo mà không cần cài ứng dụng, hãy mở [trang xóa tài khoản](https://app.nibomo.com/settings/delete-account). Nếu được yêu cầu, hãy đăng nhập bằng đúng địa chỉ email bạn dùng cho tài khoản đó. Chọn `Xóa tài khoản của tôi`, nhập cụm từ xác nhận được hiển thị rồi xác nhận xóa. Bạn cũng có thể yêu cầu xóa tài khoản bằng cách gửi email tới [kirill+flashcards@kirill-markin.com](mailto:kirill+flashcards@kirill-markin.com).
+
+Việc xóa sẽ loại bỏ dữ liệu tài khoản hiện tại, thông tin đăng nhập, tư cách thành viên và các không gian làm việc mà bạn là thành viên duy nhất khỏi cơ sở dữ liệu đang hoạt động. Nội dung trong không gian làm việc chung vẫn có sẵn cho các thành viên khác. Lịch sử thanh toán cần thiết được giữ lại để kế toán, đối soát giao dịch và xử lý các yêu cầu pháp lý. Các bản ghi đã xóa có thể còn trong bản sao lưu khôi phục được mã hóa tối đa 35 ngày. Xem [Chính sách bảo mật](/vi/privacy/) để biết đầy đủ chi tiết về việc lưu giữ dữ liệu.
+
+Xóa tài khoản Nibomo không hủy gói thuê bao Google Play của bạn. [Hãy quản lý hoặc hủy gói đó riêng qua Google Play](https://play.google.com/store/account/subscriptions).
 
 ## Mã nguồn mở và báo cáo kỹ thuật
 

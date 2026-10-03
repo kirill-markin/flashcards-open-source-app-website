@@ -4,7 +4,7 @@ description: Leiðir til að fá aðstoð við Nibomo.
 slug: support
 sections:
   - type: legal_page
-    lastUpdated: mars 2026
+    lastUpdated: október 2026
 ---
 ## Samband
 
@@ -12,7 +12,11 @@ Ef þú þarft aðstoð við vöruna, hjálp við aðganginn eða hefur spurning
 
 ## Eyðing aðgangs
 
-Í iOS-forritinu getur þú eytt hýsta aðganginum þínum undir `Settings > Delete Account > Delete my account`. Ef þú þarft hjálp við það ferli skaltu hafa samband við aðstoð í tölvupósti.
+Til að eyða Nibomo-aðganginum þínum án þess að setja upp forritið skaltu opna [síðuna fyrir eyðingu aðgangs](https://app.nibomo.com/settings/delete-account). Ef þess er óskað skaltu skrá þig inn með sama netfangi og þú notar fyrir aðganginn. Veldu `Eyða aðganginum mínum`, sláðu inn staðfestingartextann sem birtist og staðfestu eyðinguna. Þú getur einnig óskað eftir eyðingu aðgangs með tölvupósti á [kirill+flashcards@kirill-markin.com](mailto:kirill+flashcards@kirill-markin.com).
+
+Eyðingin fjarlægir núverandi aðgangsgögn, innskráningarupplýsingar, aðildir og vinnusvæði þar sem þú ert eini meðlimurinn úr virka gagnagrunninum. Efni á sameiginlegum vinnusvæðum er áfram aðgengilegt öðrum meðlimum. Nauðsynlegur greiðsluferill er varðveittur vegna bókhalds, afstemmingar og réttarkrafna. Eyddar færslur geta verið í dulkóðuðum öryggisafritum til endurheimtar í allt að 35 daga. Sjá [persónuverndarstefnu](/is/privacy/) okkar fyrir allar upplýsingar um varðveislu.
+
+Eyðing Nibomo-aðgangsins segir ekki upp Google Play-áskriftinni þinni. [Stjórnaðu henni eða segðu henni upp sérstaklega í Google Play](https://play.google.com/store/account/subscriptions).
 
 ## Opinn hugbúnaður og tæknilegar tilkynningar
 
