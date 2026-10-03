@@ -232,7 +232,7 @@ Lapho sekuyisikhathi sokubuyekeza, ungasebenzisa [uhlelo lwewebhu lwe-Nibomo](ht
 
 > [Xhuma ku-Claude](https://claude.ai/directory/nibomo) · [Imibhalo yokusebenzisa](/docs/mcp-connector/)
 
-Ukuze uxhume, bheka [isiqondiso sokuxhuma i-Claude](/blog/how-to-connect-flashcards-to-claude-with-mcp/) kanye [nemibhalo yesixhumi se-MCP](/docs/mcp-connector/); kokubili kungesiNgisi. Uma ungafuni ukuxhuma umsizi, usengawakopisha ngesandla amakhadi.
+Ukuze uxhume, bheka [isiqondiso sokuxhuma i-Claude](/blog/how-to-connect-flashcards-to-claude-with-mcp/) (ngesiNgisi) kanye [nemibhalo yesixhumi se-MCP](/docs/mcp-connector/). Uma ungafuni ukuxhuma umsizi, usengawakopisha ngesandla amakhadi.
 
 ## Lapho i-Claude isadinga ukugadwa khona
 

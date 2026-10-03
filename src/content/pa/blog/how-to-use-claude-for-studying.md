@@ -226,7 +226,7 @@ Claude ਤੋਂ ਸੁਝਾਏ ਕਾਰਡ ਮੰਗੋ, ਤਿਆਰ ਡੈ�
 
 > [Claude ਨਾਲ ਜੁੜੋ](https://claude.ai/directory/nibomo) · [ਦਸਤਾਵੇਜ਼](/docs/mcp-connector/)
 
-ਜੋੜਨ ਦੇ ਕਦਮਾਂ ਲਈ [Claude ਕਨੈਕਟਰ ਦੀ ਗਾਈਡ](/blog/how-to-connect-flashcards-to-claude-with-mcp/) ਅਤੇ [MCP ਕਨੈਕਟਰ ਹਵਾਲਾ ਦਸਤਾਵੇਜ਼](/docs/mcp-connector/) ਵੇਖੋ; ਦੋਵੇਂ ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ ਹਨ। ਜੇ ਤੁਸੀਂ ਕਨੈਕਟਰ ਨਹੀਂ ਵਰਤਣਾ ਚਾਹੁੰਦੇ, ਤਾਂ ਹੱਥੀਂ ਕਾਪੀ ਕਰਨਾ ਵੀ ਪੂਰਾ ਤਰੀਕਾ ਹੈ।
+ਜੋੜਨ ਦੇ ਕਦਮਾਂ ਲਈ [Claude ਕਨੈਕਟਰ ਦੀ ਗਾਈਡ](/blog/how-to-connect-flashcards-to-claude-with-mcp/) (ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ) ਅਤੇ [MCP ਕਨੈਕਟਰ ਹਵਾਲਾ ਦਸਤਾਵੇਜ਼](/docs/mcp-connector/) ਵੇਖੋ। ਜੇ ਤੁਸੀਂ ਕਨੈਕਟਰ ਨਹੀਂ ਵਰਤਣਾ ਚਾਹੁੰਦੇ, ਤਾਂ ਹੱਥੀਂ ਕਾਪੀ ਕਰਨਾ ਵੀ ਪੂਰਾ ਤਰੀਕਾ ਹੈ।
 
 ## Claude ਨੂੰ ਹਾਲੇ ਕਿੱਥੇ ਨਿਗਰਾਨੀ ਦੀ ਲੋੜ ਹੈ
 

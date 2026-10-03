@@ -226,7 +226,7 @@ Ko je čas za ponavljanje, lahko uporabite [spletno aplikacijo Nibomo](https://a
 
 > [Poveži z Claude](https://claude.ai/directory/nibomo) · [Dokumentacija](/docs/mcp-connector/)
 
-Pri povezovanju si pomagajte z [vodičem za povezavo s Claudom](/blog/how-to-connect-flashcards-to-claude-with-mcp/) in [dokumentacijo povezovalnika MCP](/docs/mcp-connector/), ki sta v angleščini. Če pomočnika ne želite povezati, lahko kartice še naprej kopirate ročno.
+Pri povezovanju si pomagajte z [vodičem za povezavo s Claudom](/blog/how-to-connect-flashcards-to-claude-with-mcp/) (v angleščini) in [dokumentacijo povezovalnika MCP](/docs/mcp-connector/). Če pomočnika ne želite povezati, lahko kartice še naprej kopirate ročno.
 
 ## Kje Claude še vedno potrebuje nadzor
 

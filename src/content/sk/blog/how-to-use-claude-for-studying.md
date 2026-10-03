@@ -227,7 +227,7 @@ Keď príde čas opakovať, môžete použiť [webovú aplikáciu Nibomo](https:
 
 > [Pripojiť k Claude](https://claude.ai/directory/nibomo) · [Dokumentácia](/docs/mcp-connector/)
 
-S pripojením pomôže [návod pre Claude](/blog/how-to-connect-flashcards-to-claude-with-mcp/) a [dokumentácia konektora MCP](/docs/mcp-connector/), oba v angličtine. Ak asistenta nechcete pripájať, kartičky môžete naďalej kopírovať ručne.
+S pripojením pomôže [návod pre Claude](/blog/how-to-connect-flashcards-to-claude-with-mcp/) (v angličtine) a [dokumentácia konektora MCP](/docs/mcp-connector/). Ak asistenta nechcete pripájať, kartičky môžete naďalej kopírovať ručne.
 
 ## Kde Claude stále potrebuje dohľad
 

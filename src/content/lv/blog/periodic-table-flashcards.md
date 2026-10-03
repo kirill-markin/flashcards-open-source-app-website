@@ -277,7 +277,7 @@ Turpini ārpus kartītēm:
 
 [Nibomo](/lv/features/) piedāvā parastas kartītes ar priekšpusi un aizmuguri, komplektus, birkas un FSRS plānotos atkārtojumus ar vērtējumiem `Again`, `Hard`, `Good` un `Easy`. Vari pievienot 118 elementu komplektu vai izveidot mazāku komplektu, kas atbilst tavam kursam.
 
-MI tērzēšana un failu pielikumi var palīdzēt sagatavot kartīšu melnrakstus no stundā izmantotas tabulas vai kļūdu saraksta. Pirms saglabāšanas salīdzini katru nosaukumu, simbolu, atomskaitli, lieluma apzīmējumu un noapaļošanas kārtību ar kursā noteikto atsauces avotu. Lietotnē nav īpaša ķīmijas datu pārbaudītāja, un tā automātiski nemaina vingrināmo tēmu secību tavā vietā. [Darba sākšanas ceļvedī](/docs/getting-started/) angļu valodā ir aprakstīta kartīšu veidošana un ieplānoto atkārtojumu sākšana.
+MI tērzēšana un failu pielikumi var palīdzēt sagatavot kartīšu melnrakstus no stundā izmantotas tabulas vai kļūdu saraksta. Pirms saglabāšanas salīdzini katru nosaukumu, simbolu, atomskaitli, lieluma apzīmējumu un noapaļošanas kārtību ar kursā noteikto atsauces avotu. Lietotnē nav īpaša ķīmijas datu pārbaudītāja, un tā automātiski nemaina vingrināmo tēmu secību tavā vietā. [Darba sākšanas ceļvedī](/docs/getting-started/) ir aprakstīta kartīšu veidošana un ieplānoto atkārtojumu sākšana.
 
 ## Biežākie jautājumi par periodisko tabulu
 

@@ -225,7 +225,7 @@ Kordamiseks võid kasutada [veebirakendust](https://app.nibomo.com/) või vestel
 
 > [Ühenda teenusega Claude](https://claude.ai/directory/nibomo) · [Dokumentatsioon](/docs/mcp-connector/)
 
-Ühenduse seadistamiseks vaata [Claude'i konnektori juhendit](/blog/how-to-connect-flashcards-to-claude-with-mcp/) ja [MCP-konnektori teatmikku](/docs/mcp-connector/); mõlemad on inglise keeles. Kui sa ei soovi konnektorit kasutada, on käsitsi kopeerimine samuti terviklik töövoog.
+Ühenduse seadistamiseks vaata [Claude'i konnektori juhendit](/blog/how-to-connect-flashcards-to-claude-with-mcp/) (inglise keeles) ja [MCP-konnektori teatmikku](/docs/mcp-connector/). Kui sa ei soovi konnektorit kasutada, on käsitsi kopeerimine samuti terviklik töövoog.
 
 ## Kus Claude endiselt järelevalvet vajab
 

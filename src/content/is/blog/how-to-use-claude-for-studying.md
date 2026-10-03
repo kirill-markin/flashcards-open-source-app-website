@@ -228,7 +228,7 @@ Ef þú notar Nibomo geturðu tengt Claude með MCP, tengingu milli aðstoðarma
 
 > [Tengjast Claude](https://claude.ai/directory/nibomo) · [Skjölun](/docs/mcp-connector/)
 
-Sjá [leiðbeiningar um tengingu Claude](/blog/how-to-connect-flashcards-to-claude-with-mcp/) og [skjölun MCP-tengisins](/docs/mcp-connector/) fyrir uppsetningu; hvort tveggja er á ensku. Þú getur áfram afritað kortin handvirkt ef þú vilt ekki tengja aðstoðarmanninn.
+Sjá [leiðbeiningar um tengingu Claude](/blog/how-to-connect-flashcards-to-claude-with-mcp/) (á ensku) og [skjölun MCP-tengisins](/docs/mcp-connector/) fyrir uppsetningu. Þú getur áfram afritað kortin handvirkt ef þú vilt ekki tengja aðstoðarmanninn.
 
 ## Hvar Claude þarf enn eftirlit
 

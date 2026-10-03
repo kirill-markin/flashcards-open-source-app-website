@@ -227,7 +227,7 @@ Nibomo ব্যবহার করলে MCP দিয়ে Claude-কে স�
 
 > [সংযোগ করুন: Claude](https://claude.ai/directory/nibomo) · [ডকুমেন্টেশন](/docs/mcp-connector/)
 
-সংযোগের সেটআপের জন্য [Claude কানেক্টর নির্দেশিকা](/blog/how-to-connect-flashcards-to-claude-with-mcp/) ও [MCP কানেক্টর রেফারেন্স](/docs/mcp-connector/) দেখুন; দুটিই ইংরেজিতে। সহকারীকে সংযুক্ত করতে না চাইলে হাতে কপি করার পদ্ধতিও ব্যবহার করতে পারেন।
+সংযোগের সেটআপের জন্য [Claude কানেক্টর নির্দেশিকা](/blog/how-to-connect-flashcards-to-claude-with-mcp/) (ইংরেজিতে) ও [MCP কানেক্টর রেফারেন্স](/docs/mcp-connector/) দেখুন। সহকারীকে সংযুক্ত করতে না চাইলে হাতে কপি করার পদ্ধতিও ব্যবহার করতে পারেন।
 
 ## যেসব জায়গায় Claude-এর কাজ এখনও নজরে রাখা দরকার
 

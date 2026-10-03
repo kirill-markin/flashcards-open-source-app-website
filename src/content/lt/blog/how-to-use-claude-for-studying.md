@@ -226,7 +226,7 @@ Atėjus laikui kartoti, galite naudoti [Nibomo žiniatinklio programėlę](https
 
 > [Prisijungti prie Claude](https://claude.ai/directory/nibomo) · [Dokumentacija](/docs/mcp-connector/)
 
-Kaip prisijungti, paaiškinta [Claude prijungimo vadove](/blog/how-to-connect-flashcards-to-claude-with-mcp/) ir [MCP jungties dokumentacijoje](/docs/mcp-connector/); abu tekstai anglų kalba. Jei nenorite prijungti asistento, korteles ir toliau galite kopijuoti rankiniu būdu.
+Kaip prisijungti, paaiškinta [Claude prijungimo vadove](/blog/how-to-connect-flashcards-to-claude-with-mcp/) (anglų kalba) ir [MCP jungties dokumentacijoje](/docs/mcp-connector/). Jei nenorite prijungti asistento, korteles ir toliau galite kopijuoti rankiniu būdu.
 
 ## Kur Claude vis dar reikia priežiūros
 

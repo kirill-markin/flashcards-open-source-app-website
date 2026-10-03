@@ -228,7 +228,7 @@ Amikor esedékessé válik az ismétlés, használhatod a [webalkalmazást](http
 
 > [Csatlakozás a következőhöz: Claude](https://claude.ai/directory/nibomo) · [Dokumentáció](/docs/mcp-connector/)
 
-A kapcsolat beállításában a [Claude-csatlakozó útmutatója](/blog/how-to-connect-flashcards-to-claude-with-mcp/) és az [MCP-csatlakozó dokumentációja](/docs/mcp-connector/) segít. Mindkettő angol nyelvű. Ha kényelmesebb, továbbra is másolhatod kézzel a kártyákat.
+A kapcsolat beállításában a [Claude-csatlakozó útmutatója](/blog/how-to-connect-flashcards-to-claude-with-mcp/) (angol nyelvű) és az [MCP-csatlakozó dokumentációja](/docs/mcp-connector/) segít. Ha kényelmesebb, továbbra is másolhatod kézzel a kártyákat.
 
 ## Amiben Claude továbbra is felügyeletet igényel
 

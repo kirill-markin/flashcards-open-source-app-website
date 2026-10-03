@@ -225,7 +225,7 @@ Kad pienācis atkārtošanas laiks, vari izmantot [Nibomo tīmekļa lietotni](ht
 
 > [Savienot ar Claude](https://claude.ai/directory/nibomo) · [Dokumentācija](/docs/mcp-connector/)
 
-Savienojuma iestatīšana aprakstīta [Claude savienotāja ceļvedī](/blog/how-to-connect-flashcards-to-claude-with-mcp/) un [MCP savienotāja dokumentācijā](/docs/mcp-connector/); abi materiāli ir angļu valodā. Ja nevēlies savienot asistentu, kartītes joprojām vari kopēt manuāli.
+Savienojuma iestatīšana aprakstīta [Claude savienotāja ceļvedī](/blog/how-to-connect-flashcards-to-claude-with-mcp/) (angļu valodā) un [MCP savienotāja dokumentācijā](/docs/mcp-connector/). Ja nevēlies savienot asistentu, kartītes joprojām vari kopēt manuāli.
 
 ## Kur Claude joprojām vajadzīga uzraudzība
 

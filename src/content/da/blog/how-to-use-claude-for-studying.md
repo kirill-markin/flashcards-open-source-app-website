@@ -226,7 +226,7 @@ Når det er tid til repetition, kan du bruge [webappen](https://app.nibomo.com/)
 
 > [Forbind til Claude](https://claude.ai/directory/nibomo) · [Dokumentation](/docs/mcp-connector/)
 
-Se [vejledningen til Claude-connectoren](/blog/how-to-connect-flashcards-to-claude-with-mcp/) og [MCP-connectorens dokumentation](/docs/mcp-connector/) for hjælp til at oprette forbindelsen. Begge er på engelsk. Manuel kopiering er stadig en mulighed, hvis du foretrækker det.
+Se [vejledningen til Claude-connectoren](/blog/how-to-connect-flashcards-to-claude-with-mcp/) (på engelsk) og [MCP-connectorens dokumentation](/docs/mcp-connector/) for hjælp til at oprette forbindelsen. Manuel kopiering er stadig en mulighed, hvis du foretrækker det.
 
 ## Hvor Claude stadig har brug for opsyn
 
