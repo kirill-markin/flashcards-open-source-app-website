@@ -4,7 +4,7 @@ description: Možnosti podpore za Nibomo.
 slug: support
 sections:
   - type: legal_page
-    lastUpdated: marec 2026
+    lastUpdated: oktober 2026
 ---
 ## Stik
 
@@ -12,7 +12,11 @@ Za podporo pri izdelku, pomoč z računom ali vprašanja o pregledu v App Store 
 
 ## Izbris računa
 
-V aplikaciji za iOS lahko svoj gostovani račun izbrišete v `Settings > Delete Account > Delete my account`. Če pri tem potrebujete pomoč, se obrnite na podporo po e-pošti.
+Če želite izbrisati račun Nibomo brez namestitve aplikacije, odprite [stran za izbris računa](https://app.nibomo.com/settings/delete-account). Če ste pozvani, se prijavite z istim e-poštnim naslovom, ki ga uporabljate za svoj račun. Izberite `Izbriši moj račun`, vtipkajte prikazano potrditveno besedilo in potrdite izbris. Izbris računa lahko zahtevate tudi po e-pošti na [kirill+flashcards@kirill-markin.com](mailto:kirill+flashcards@kirill-markin.com).
+
+Izbris iz aktivne podatkovne zbirke odstrani trenutne podatke vašega računa, podatke za prijavo, članstva in delovne prostore, v katerih ste edini član. Vsebina skupnih delovnih prostorov ostane dostopna drugim članom. Potrebna zgodovina obračunavanja se hrani za računovodstvo, usklajevanje transakcij in pravne zahtevke. Izbrisani zapisi lahko ostanejo v šifriranih varnostnih kopijah za obnovitev do 35 dni. Vse podrobnosti o hrambi najdete v naši [Politiki zasebnosti](/sl/privacy/).
+
+Izbris računa Nibomo ne prekliče vaše naročnine Google Play. [Upravljajte ali prekličite jo ločeno prek storitve Google Play](https://play.google.com/store/account/subscriptions).
 
 ## Odprta koda in tehnične prijave
 

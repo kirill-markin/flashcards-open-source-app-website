@@ -4,7 +4,7 @@ description: Nibomo tugivõimalused.
 slug: support
 sections:
   - type: legal_page
-    lastUpdated: märts 2026
+    lastUpdated: oktoober 2026
 ---
 ## Kontakt
 
@@ -12,7 +12,11 @@ Tootetoe, kontoga seotud abi või App Store'i läbivaatusega seotud küsimuste k
 
 ## Konto kustutamine
 
-iOS-i rakenduses saad oma majutatud konto kustutada menüüs `Settings > Delete Account > Delete my account`. Kui vajad selle toiminguga abi, võta toega ühendust e-posti teel.
+Nibomo konto kustutamiseks ilma rakendust paigaldamata ava [konto kustutamise leht](https://app.nibomo.com/settings/delete-account). Kui seda palutakse, logi sisse sama e-posti aadressiga, mida kasutad oma konto jaoks. Vali `Kustuta minu konto`, sisesta kuvatud kinnitusfraas ja kinnita kustutamine. Konto kustutamist võid taotleda ka e-kirjaga aadressil [kirill+flashcards@kirill-markin.com](mailto:kirill+flashcards@kirill-markin.com).
+
+Kustutamine eemaldab aktiivsest andmebaasist sinu praegused kontoandmed, sisselogimisandmed, liikmesused ja tööruumid, mille ainus liige oled sina. Jagatud tööruumide sisu jääb teistele liikmetele kättesaadavaks. Vajalik arveldusajalugu säilitatakse raamatupidamise, tehingute võrdlemise ja õigusnõuete jaoks. Kustutatud kirjed võivad säilida krüpteeritud taastevarukoopiates kuni 35 päeva. Kõik säilitamise üksikasjad leiad meie [privaatsuspoliitikast](/et/privacy/).
+
+Nibomo konto kustutamine ei tühista sinu Google Play tellimust. [Halda või tühista see eraldi Google Plays](https://play.google.com/store/account/subscriptions).
 
 ## Avatud lähtekood ja tehnilised teated
 

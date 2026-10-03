@@ -4,7 +4,7 @@ description: Izindlela zokuthola usizo nge-Nibomo.
 slug: support
 sections:
   - type: legal_page
-    lastUpdated: Mashi 2026
+    lastUpdated: Okthoba 2026
 ---
 ## Xhumana nathi
 
@@ -12,7 +12,11 @@ Ukuze uthole usizo ngomkhiqizo, usizo nge-akhawunti, noma ngemibuzo emayelana no
 
 ## Ukususa i-akhawunti
 
-Ohlelweni lwe-iOS, ungasusa i-akhawunti yakho esingathiwe ku-`Settings > Delete Account > Delete my account`. Uma udinga usizo ngaleyo nqubo, xhumana nosizo nge-imeyili.
+Ukuze ususe i-akhawunti yakho ye-Nibomo ngaphandle kokufaka uhlelo lokusebenza, vula [ikhasi lokususa i-akhawunti](https://app.nibomo.com/settings/delete-account). Uma ucelwa ukungena ngemvume, sebenzisa ikheli le-imeyili elifanayo olisebenzisela i-akhawunti yakho. Khetha okuthi `Susa i-akhawunti yami`, thayipha ibinzana lokuqinisekisa elibonisiwe, bese uqinisekisa ukususa. Ungacela nokususwa kwe-akhawunti ngokuthumela i-imeyili ku-[kirill+flashcards@kirill-markin.com](mailto:kirill+flashcards@kirill-markin.com).
+
+Ukususa kukhipha idatha yamanje ye-akhawunti yakho, imininingwane yokungena ngemvume, ubulungu nezindawo zokusebenza lapho uwena wedwa oyilungu kusizindalwazi esisebenzayo. Okuqukethwe kwezindawo zokusebenza ezabiwe kuhlala kutholakala kwamanye amalungu. Umlando wokukhokha odingekayo ugcinelwa ukubalwa kwezimali, ukuqhathanisa amarekhodi ezinkokhelo nezimangalo zomthetho. Amarekhodi asusiwe angahlala kumakhophi ayisipele abethelwe okubuyisela idatha izinsuku ezingafika ku-35. Bheka [Inqubomgomo Yobumfihlo](/zu/privacy/) ukuze uthole yonke imininingwane yokugcinwa kwedatha.
+
+Ukususa i-akhawunti yakho ye-Nibomo akukhanseli ukubhalisa kwakho kwe-Google Play. [Kuphathe noma ukukhansele ngokwehlukana nge-Google Play](https://play.google.com/store/account/subscriptions).
 
 ## Umthombo ovulekile nemibiko yobuchwepheshe
 
