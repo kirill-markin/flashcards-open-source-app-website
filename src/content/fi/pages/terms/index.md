@@ -38,6 +38,16 @@ Isännöidyt tekoälyominaisuudet ovat valinnaisia ja käyttävät OpenAI:ta. Ni
 
 Kun valtuutat ulkoisen tekoälyasiakkaan käyttämään MCP-palvelua tai Agent API:a, kyseinen asiakas ja sen mallintarjoaja käsittelevät pyytämääsi dataa omien ehtojensa mukaisesti. Emme vastaa ulkoisen asiakkaan toiminnasta tai tuotoksesta.
 
+## Stripe-tilaukset
+
+Kun Stripe-maksu on saatavilla, Nibomo Premiumia tarjotaan perushintaan 6,99 USD kuukaudessa sovellettavine veroineen. Stripe Adaptive Pricing voi näyttää hinnan paikallisessa valuutassa; Stripe näyttää lopullisen summan ja laskutusvaluutan ennen kuin vahvistat ostoksen. Ostaminen edellyttää kirjautumista tiliin, johon on liitetty sähköpostiosoite; vieraskäyttäjien on ensin liitettävä sähköpostiosoite.
+
+Ehdot täyttävät Stripe-asiakkaat saavat seitsemän päivän ilmaisen kokeilujakson, johon tarvitaan maksutapa. Kokeilujakso on saatavilla kerran Stripe-asiakasta kohden; aiemmat Applen tai Googlen kokeilujaksot eivät vaikuta oikeuteen saada se. Ellet peruuta ennen kokeilujakson päättymistä, maksutapaasi veloitetaan kuukausitilauksesta. Sen jälkeen tilaus uusiutuu automaattisesti joka kuukausi, kunnes se peruutetaan. Kokeilujakson muistutuksissa ilmoitetaan kuukausittainen perushinta; Stripe näyttää lopullisen veloituksen laskutusvaluutassa.
+
+Avaa Stripen laskutusportaali [tilausasetuksista](https://app.nibomo.com/settings/subscription) ja hallitse tai peruuta tilauksesi siellä. Tavallinen peruutus tulee voimaan meneillään olevan kokeilujakson tai maksetun jakson lopussa; käyttöoikeus jatkuu siihen asti. Stripe-osto ei peruuta erillistä Apple- tai Google-tilausta eikä korvaa olemassa olevaa elinikäistä käyttöoikeutta.
+
+Nibomo-tilin poistaminen mistä tahansa tuetusta asiakassovelluksesta peruuttaa kaikkien tiliin liitettyjen Nibomon Stripe-tilausten tulevat uusinnat ja sulkee avoimet Nibomon maksuistunnot ennen tietojen pysyvää poistamista. Jos peruutusta ei voida vahvistaa, tilin poistoa ei viedä loppuun; yritä uudelleen tai ota yhteyttä tukeen. Tilin poistaminen ei peruuta Applen tai Googlen tilauksia. Peruutus ja tilin poistaminen eivät automaattisesti johda maksun palautukseen tai suhteutettuun hyvitykseen. Mikään näissä ehdoissa ei rajoita kuluttajan pakottavia oikeuksia, mukaan lukien mahdollisesti sovellettavia peruuttamis- tai palautusoikeuksia.
+
 ## Saatavuus ja muutokset
 
 Isännöity beeta tarjotaan parhaan kyvyn mukaan, ja sitä voidaan muuttaa, se voidaan keskeyttää tai sen tarjoaminen voidaan lopettaa ilman ennakkoilmoitusta. Emme takaa keskeytyksetöntä saatavuutta, jokaisen paikallisen tai isännöidyn kopion säilymistä emmekä sitä, että jokainen ominaisuus pysyy saatavilla. Pidä itsenäinen kopio sisällöstä, jota sinulla ei ole varaa menettää.

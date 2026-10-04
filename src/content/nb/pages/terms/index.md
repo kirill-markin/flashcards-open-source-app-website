@@ -38,6 +38,16 @@ Hostede AI-funksjoner er valgfrie og bruker OpenAI. Tilhørende AI-telemetri beh
 
 Når du gir en ekstern AI-klient tillatelse til å bruke MCP-tjenesten eller Agent API, behandler klienten og modelleverandøren dens dataene du ber om, i henhold til sine egne vilkår. Vi er ikke ansvarlige for driften av eller resultatene fra en ekstern klient.
 
+## Stripe-abonnementer
+
+Når Stripe-betaling er tilgjengelig, tilbys Nibomo Premium til en grunnpris på USD 6,99 per måned, inkludert gjeldende skatter og avgifter. Stripe Adaptive Pricing kan vise en pris i lokal valuta; Stripe viser det endelige beløpet og faktureringsvalutaen før du bekrefter. For å kjøpe må du være logget på en konto med e-postadresse; gjester må først knytte til en e-postadresse.
+
+Kvalifiserte Stripe-kunder får en gratis prøveperiode på sju dager, som krever en betalingsmetode. Prøveperioden er tilgjengelig én gang per Stripe-kunde; tidligere prøveperioder hos Apple eller Google påvirker ikke om du er kvalifisert. Med mindre du avslutter abonnementet før prøveperioden utløper, belastes betalingsmetoden din for månedsabonnementet. Deretter fornyes det automatisk hver måned til det avsluttes. Påminnelser om prøveperioden oppgir den månedlige grunnprisen; Stripe viser det endelige beløpet som trekkes, i faktureringsvalutaen.
+
+Bruk [abonnementsinnstillingene](https://app.nibomo.com/settings/subscription) til å åpne Stripes faktureringsportal og administrere eller avslutte abonnementet ditt. Vanlig avslutning trer i kraft ved slutten av den gjeldende prøveperioden eller betalte perioden; tilgangen fortsetter frem til da. Et kjøp via Stripe avslutter ikke et separat Apple- eller Google-abonnement og erstatter ikke eksisterende livstidstilgang.
+
+Sletting av Nibomo-kontoen din fra en hvilken som helst støttet klient avslutter fremtidige fornyelser av alle Nibomo-abonnementer hos Stripe som er knyttet til kontoen, og lukker åpne Nibomo-betalingsøkter før dataene slettes. Hvis avslutningen ikke kan bekreftes, fullføres ikke slettingen; prøv igjen eller kontakt brukerstøtte. Sletting av kontoen avslutter ikke Apple- eller Google-abonnementer. Avslutning av abonnementet og sletting av kontoen gir ikke automatisk refusjon eller forholdsmessig kreditt. Ingenting i disse vilkårene begrenser ufravikelige forbrukerrettigheter, inkludert eventuell gjeldende angrerett eller rett til refusjon.
+
 ## Tilgjengelighet og endringer
 
 Den hostede betaen leveres etter beste evne og kan endres, settes på pause eller avvikles uten varsel. Vi garanterer ikke uavbrutt tilgjengelighet, at hver lokale eller hostede kopi blir bevart, eller at alle funksjoner forblir tilgjengelige. Ta vare på en uavhengig kopi av innhold du ikke har råd til å miste.
