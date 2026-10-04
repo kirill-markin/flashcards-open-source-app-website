@@ -33,6 +33,7 @@ export const Footer: React.FC<FooterProps> = ({
   const storeQrCodes = readGeneratedStoreQrCodes(process.cwd());
   const uiCopy = getUiCopy(locale);
   const sourceCodeHref = "https://github.com/kirill-markin/flashcards-open-source-app";
+  const claudePluginHref = "https://claude.ai/customize/plugins/id/d8c1028d-4318-4da5-8514-1ed3e0b9a09e%40anthropic-plugin-directory";
   const smitheryHref = "https://smithery.ai/servers/kirill-fofi/nibomo";
   const glamaHref = "https://glama.ai/mcp/connectors/com.nibomo/flashcards";
   const geminiCliHref = "https://geminicli.com/extensions/?name=kirill-markinnibomo-plugins";
@@ -140,6 +141,12 @@ export const Footer: React.FC<FooterProps> = ({
                 {directory.name} MCP
               </a>
             ))}
+            <a
+              href={claudePluginHref}
+              {...getExternalLinkAttributes(claudePluginHref)}
+            >
+              {uiCopy.footer.claudePluginLabel}
+            </a>
             <a
               href={smitheryHref}
               {...getExternalLinkAttributes(smitheryHref)}
