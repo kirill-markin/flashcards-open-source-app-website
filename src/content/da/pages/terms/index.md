@@ -38,6 +38,16 @@ De hostede AI-funktioner er valgfrie og bruger OpenAI. Tilhørende AI-telemetri 
 
 Når du giver en ekstern AI-klient tilladelse til at bruge MCP-tjenesten eller Agent API, behandler den klient og dens modeludbyder de data, du anmoder om, i henhold til deres egne vilkår. Vi er ikke ansvarlige for en ekstern klients drift eller output.
 
+## Stripe-abonnementer
+
+Når Stripe-checkout er tilgængelig, tilbydes Nibomo Premium til en basispris på 6,99 USD om måneden inklusive gældende skatter og afgifter. Stripe Adaptive Pricing kan vise en pris i lokal valuta; Stripe viser det endelige beløb og faktureringsvalutaen, før du bekræfter. For at købe skal du være logget ind på en konto med en e-mailadresse; gæster skal først tilknytte en e-mailadresse.
+
+Kvalificerede Stripe-kunder får en gratis prøveperiode på syv dage, som kræver en betalingsmetode. Prøveperioden er tilgængelig én gang pr. Stripe-kunde; tidligere prøveperioder via Apple eller Google påvirker ikke, om du er kvalificeret. Medmindre du opsiger, før prøveperioden slutter, trækkes betalingen for månedsabonnementet på din betalingsmetode. Derefter fornyes abonnementet automatisk hver måned, indtil det opsiges. Påmindelser om prøveperioden angiver den månedlige basispris; Stripe viser den endelige opkrævning i faktureringsvalutaen.
+
+Brug [abonnementsindstillingerne](https://app.nibomo.com/settings/subscription) til at åbne Stripes faktureringsportal og administrere eller opsige dit abonnement. Almindelig opsigelse får virkning ved udgangen af den aktuelle prøveperiode eller betalte periode; indtil da har du fortsat adgang. Et køb via Stripe opsiger ikke et separat Apple- eller Google-abonnement og erstatter ikke eksisterende livstidsadgang.
+
+Når du sletter din Nibomo-konto fra en understøttet klient, opsiges fremtidige fornyelser af alle Nibomo-abonnementer hos Stripe, der er knyttet til kontoen, og åbne Nibomo-checkoutsessioner lukkes, før dataene slettes. Hvis opsigelsen ikke kan bekræftes, gennemføres sletningen ikke; prøv igen, eller kontakt support. Sletning af kontoen opsiger ikke Apple- eller Google-abonnementer. Opsigelse og sletning af kontoen medfører ikke automatisk refusion eller forholdsmæssig kreditering. Intet i disse vilkår begrænser ufravigelige forbrugerrettigheder, herunder eventuel gældende fortrydelsesret eller ret til refusion.
+
 ## Tilgængelighed og ændringer
 
 Den hostede beta leveres efter bedste evne og kan ændres, sættes på pause eller indstilles uden varsel. Vi garanterer ikke uafbrudt tilgængelighed, at enhver lokal eller hostet kopi bevares, eller at alle funktioner forbliver tilgængelige. Gem en selvstændig kopi af indhold, du ikke har råd til at miste.

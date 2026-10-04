@@ -38,6 +38,16 @@ De molndrivna AI-funktionerna är valfria och använder OpenAI. Tillhörande AI-
 
 När du ger en extern AI-klient behörighet att använda MCP-tjänsten eller Agent API behandlar den klienten och dess modelleverantör de data du begär enligt sina egna villkor. Vi ansvarar inte för en extern klients funktion eller det den genererar.
 
+## Prenumerationer via Stripe
+
+När betalning via Stripe är tillgänglig erbjuds Nibomo Premium till ett grundpris av 6,99 USD per månad inklusive tillämpliga skatter. Stripe Adaptive Pricing kan visa ett pris i lokal valuta; Stripe visar det slutliga beloppet och faktureringsvalutan innan du bekräftar. För att köpa måste du vara inloggad på ett konto med en e-postadress; gäster måste först koppla en e-postadress.
+
+Berättigade Stripe-kunder får en kostnadsfri provperiod på sju dagar, som kräver en betalningsmetod. Provperioden är tillgänglig en gång per Stripe-kund; tidigare provperioder via Apple eller Google påverkar inte rätten till den. Om du inte avslutar prenumerationen innan provperioden löper ut debiteras din betalningsmetod för månadsprenumerationen. Därefter förnyas den automatiskt varje månad tills den avslutas. Påminnelser om provperioden anger det månatliga grundpriset; Stripe visar den slutliga debiteringen i faktureringsvalutan.
+
+Använd [prenumerationsinställningarna](https://app.nibomo.com/settings/subscription) för att öppna Stripes faktureringsportal och hantera eller avsluta din prenumeration. En vanlig avslutning av prenumerationen får verkan vid slutet av den pågående provperioden eller betalda perioden; åtkomsten fortsätter fram till dess. Ett köp via Stripe avslutar inte en separat prenumeration hos Apple eller Google och ersätter inte befintlig livstidsåtkomst.
+
+Om du raderar ditt Nibomo-konto från en klient som stöds avslutas framtida förnyelser av alla Nibomo-prenumerationer hos Stripe som är kopplade till kontot, och öppna betalningssessioner för Nibomo stängs, innan uppgifterna raderas slutgiltigt. Om avslutningen inte kan bekräftas slutförs inte raderingen; försök igen eller kontakta supporten. Att radera kontot avslutar inte prenumerationer hos Apple eller Google. Avslutning av prenumerationen och radering av kontot medför inte automatiskt någon återbetalning eller proportionell kreditering. Ingenting i dessa villkor begränsar tvingande konsumenträttigheter, däribland tillämplig ångerrätt eller rätt till återbetalning.
+
 ## Tillgänglighet och ändringar
 
 Den molndrivna betan tillhandahålls i mån av möjlighet och kan ändras, pausas eller läggas ned utan förvarning. Vi garanterar inte oavbruten tillgänglighet, att varje lokal eller molnlagrad kopia bevaras eller att varje funktion förblir tillgänglig. Spara en egen kopia av innehåll som du inte har råd att förlora.

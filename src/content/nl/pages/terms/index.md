@@ -38,6 +38,16 @@ Gehoste AI-functies zijn optioneel en gebruiken OpenAI. Bijbehorende AI-telemetr
 
 Wanneer je een externe AI-client toestemming geeft om de MCP-dienst of de Agent API te gebruiken, verwerken die client en zijn modelprovider de gegevens die je opvraagt onder hun eigen voorwaarden. We zijn niet verantwoordelijk voor de werking of de uitvoer van een externe client.
 
+## Stripe-abonnementen
+
+Wanneer afrekenen via Stripe beschikbaar is, wordt Nibomo Premium aangeboden voor een basisprijs van USD 6,99 per maand, inclusief toepasselijke belastingen. Stripe Adaptive Pricing kan een prijs in lokale valuta tonen; Stripe toont het definitieve bedrag en de factureringsvaluta voordat je bevestigt. Voor een aankoop heb je een account nodig waarop je bent ingelogd en dat een e-mailadres heeft; gasten moeten eerst een e-mailadres koppelen.
+
+In aanmerking komende Stripe-klanten krijgen een gratis proefperiode van zeven dagen, waarvoor een betaalmethode vereist is. De proefperiode is één keer per Stripe-klant beschikbaar; eerdere proefperiodes via Apple of Google hebben geen invloed op de vraag of je ervoor in aanmerking komt. Tenzij je opzegt voordat de proefperiode afloopt, wordt het maandabonnement via je betaalmethode in rekening gebracht. Daarna wordt het abonnement elke maand automatisch verlengd totdat het wordt opgezegd. Herinneringen over de proefperiode vermelden de maandelijkse basisprijs; Stripe toont het definitieve bedrag van de afschrijving in de factureringsvaluta.
+
+Gebruik de [abonnementsinstellingen](https://app.nibomo.com/settings/subscription) om het factureringsportaal van Stripe te openen en je abonnement te beheren of op te zeggen. Een gewone opzegging gaat in aan het einde van de lopende proefperiode of betaalde periode; tot dan behoud je toegang. Een aankoop via Stripe zegt geen afzonderlijk Apple- of Google-abonnement op en vervangt geen bestaande levenslange toegang.
+
+Als je je Nibomo-account verwijdert vanuit een ondersteunde client, worden vóór het wissen van de gegevens de toekomstige verlengingen van alle Nibomo-abonnementen bij Stripe die aan dat account zijn gekoppeld, opgezegd en openstaande afrekensessies van Nibomo gesloten. Als de opzegging niet kan worden bevestigd, wordt de verwijdering niet voltooid; probeer het opnieuw of neem contact op met support. Het verwijderen van je account zegt geen Apple- of Google-abonnementen op. Opzegging en het verwijderen van je account leiden niet automatisch tot een terugbetaling of een naar rato berekend tegoed. Niets in deze voorwaarden beperkt dwingende consumentenrechten, waaronder een toepasselijk herroepingsrecht of recht op terugbetaling.
+
 ## Beschikbaarheid en wijzigingen
 
 De gehoste bèta wordt naar beste vermogen aangeboden en kan zonder kennisgeving worden gewijzigd, onderbroken of stopgezet. We garanderen geen ononderbroken beschikbaarheid, niet dat elke lokale of gehoste kopie behouden blijft en niet dat elke functie beschikbaar blijft. Bewaar een onafhankelijke kopie van inhoud die je niet kunt missen.
