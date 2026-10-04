@@ -38,6 +38,16 @@ A felhős AI-funkciók használata nem kötelező, és ezek az OpenAI-t használ
 
 Ha egy külső AI-kliensnek engedélyezed az MCP-szolgáltatás vagy az Agent API használatát, az a kliens és a modellszolgáltatója a saját feltételei szerint dolgozza fel az általad kért adatokat. Nem vállalunk felelősséget egy külső kliens működéséért vagy kimenetéért.
 
+## Stripe-előfizetések
+
+Ha elérhető a Stripe-os fizetés, a Nibomo Premiumot havi 6,99 USD alapáron kínáljuk, amely az alkalmazandó adókat is tartalmazza. A Stripe Adaptive Pricing helyi pénznemben is megjelenítheti az árat; a végső összeget és a számlázási pénznemet a Stripe a megerősítés előtt megmutatja. A vásárláshoz be kell jelentkezned egy e-mail-címmel rendelkező fiókba; a vendégeknek előbb e-mail-címet kell csatolniuk.
+
+A jogosult Stripe-ügyfelek hétnapos ingyenes próbaidőszakot kapnak, amelyhez fizetési mód megadása szükséges. A próbaidőszak Stripe-ügyfelenként egyszer vehető igénybe; a korábbi Apple- vagy Google-próbaidőszakok nem befolyásolják a jogosultságot. Ha a próbaidőszak vége előtt nem mondod le az előfizetést, a fizetési módodat megterheljük a havi előfizetés díjával. Ezt követően az előfizetés havonta automatikusan megújul, amíg le nem mondod. A próbaidőszakról szóló emlékeztetők a havi alapárat tüntetik fel; a végső terhelést a Stripe a számlázási pénznemben mutatja meg.
+
+Az [előfizetési beállításokban](https://app.nibomo.com/settings/subscription) megnyithatod a Stripe számlázási portálját, ahol kezelheted vagy lemondhatod az előfizetésedet. A szokásos lemondás az aktuális próbaidőszak vagy fizetett időszak végén lép hatályba; addig a hozzáférésed megmarad. A Stripe-os vásárlás nem mondja le az esetleges különálló Apple- vagy Google-előfizetéseidet, és nem váltja fel a meglévő élethosszig tartó hozzáférést.
+
+Ha bármely támogatott kliensből törlöd a Nibomo-fiókodat, az adatok végleges törlése előtt lemondjuk a fiókhoz kapcsolt összes Nibomo Stripe-előfizetés jövőbeli megújításait, és lezárjuk a nyitott Nibomo fizetési munkameneteket. Ha a lemondás nem erősíthető meg, a törlés nem fejeződik be; próbáld újra, vagy fordulj a támogatáshoz. A fiók törlése nem mondja le az Apple- vagy Google-előfizetéseket. A lemondás és a fiók törlése nem jár automatikusan visszatérítéssel vagy időarányos jóváírással. Ezek a Feltételek semmilyen módon nem korlátozzák a fogyasztók kötelező érvényű jogait, ideértve az esetlegesen alkalmazandó elállási vagy visszatérítési jogokat is.
+
 ## Rendelkezésre állás és változások
 
 A felhős bétát a legjobb tudásunk szerint nyújtjuk, és előzetes értesítés nélkül megváltozhat, szünetelhet vagy megszűnhet. Nem garantáljuk a megszakítás nélküli rendelkezésre állást, minden helyi vagy felhős másolat megőrzését, sem azt, hogy minden funkció elérhető marad. Tarts független másolatot azokról a tartalmakról, amelyek elvesztését nem engedheted meg magadnak.

@@ -38,6 +38,16 @@ Barındırılan AI özellikleri isteğe bağlıdır ve OpenAI kullanır. İlgili
 
 Harici bir AI istemcisine MCP hizmetini veya Agent API'yi kullanma yetkisi verdiğinizde, o istemci ve model sağlayıcısı talep ettiğiniz verileri kendi koşulları kapsamında işler. Harici bir istemcinin işleyişinden veya çıktısından sorumlu değiliz.
 
+## Stripe Abonelikleri
+
+Stripe ile ödeme yapılabildiğinde Nibomo Premium, geçerli vergiler dahil aylık 6,99 USD taban fiyatla sunulur. Stripe Adaptive Pricing yerel para biriminde bir fiyat gösterebilir; Stripe, siz onaylamadan önce nihai tutarı ve faturalandırma para birimini gösterir. Satın alma yapabilmek için e-posta adresi olan bir hesapta oturum açmış olmanız gerekir; misafir kullanıcıların önce bir e-posta adresi bağlaması gerekir.
+
+Uygun Stripe müşterileri, ödeme yöntemi eklenmesini gerektiren yedi günlük ücretsiz deneme süresinden yararlanır. Deneme her Stripe müşterisi için bir kez kullanılabilir; önceki Apple veya Google denemeleri uygunluğu etkilemez. Deneme sona ermeden önce iptal etmezseniz ödeme yönteminizden aylık abonelik ücreti tahsil edilir. Ardından abonelik, iptal edilene kadar her ay otomatik olarak yenilenir. Deneme hatırlatmaları aylık taban fiyatı belirtir; Stripe nihai tahsilat tutarını faturalandırma para biriminde gösterir.
+
+Stripe'ın faturalandırma portalını açmak ve aboneliğinizi yönetmek veya iptal etmek için [Abonelik ayarlarını](https://app.nibomo.com/settings/subscription) kullanın. Olağan iptal, mevcut deneme veya ücretli dönemin sonunda yürürlüğe girer; erişiminiz o zamana kadar devam eder. Stripe üzerinden yapılan bir satın alma, ayrı bir Apple veya Google aboneliğini iptal etmez ve mevcut ömür boyu erişimin yerini almaz.
+
+Nibomo hesabınızı desteklenen herhangi bir istemciden silmek, veriler kalıcı olarak silinmeden önce bu hesaba bağlı tüm Nibomo Stripe aboneliklerinin gelecekteki yenilemelerini iptal eder ve açık Nibomo ödeme oturumlarını kapatır. İptal doğrulanamazsa silme işlemi tamamlanmaz; yeniden deneyin veya destekle iletişime geçin. Hesap silme, Apple veya Google aboneliklerini iptal etmez. İptal ve hesap silme, otomatik olarak para iadesiyle veya kalan süreyle orantılı alacak tanımlanmasıyla sonuçlanmaz. Bu Koşullardaki hiçbir hüküm, geçerli cayma veya iade hakları dahil olmak üzere tüketicilerin emredici hükümlerden doğan haklarını sınırlamaz.
+
 ## Kullanılabilirlik ve Değişiklikler
 
 Barındırılan beta, elden gelenin en iyisi yapılarak sağlanır ve önceden bildirim yapılmaksızın değiştirilebilir, duraklatılabilir veya sonlandırılabilir. Kesintisiz kullanılabilirliği, her yerel veya barındırılan kopyanın korunacağını ya da her özelliğin kullanılabilir kalacağını garanti etmiyoruz. Kaybetmeyi göze alamayacağınız içeriğin bağımsız bir kopyasını saklayın.
