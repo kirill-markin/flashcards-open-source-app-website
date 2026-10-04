@@ -1,32 +1,51 @@
 import type { PageContent } from "@/lib/content/types";
 
 export const PRICING_PAGE_CONTENT: PageContent = {
-  title: "Kullanımı ücretsiz. Kendi sunucunuzda barındırmak da ücretsiz.",
+  title: "Ücretsiz başlayın. Daha fazla yapay zekâ için Premium.",
   description:
-    "Barındırılan uygulamayı ücretsiz kullanın; beta boyunca AI ve senkronizasyon dahil. Ya da açık kaynak yığını kendi AWS altyapınızda çalıştırın.",
+    "Barındırılan uygulamada ücretsiz başlayın, daha fazla yapay zekâ sohbeti için aylık USD 6.99 karşılığında Premium'a geçin ya da açık kaynak yığını kendi AWS altyapınızda çalıştırın.",
   slug: "pricing",
   sections: [
     {
       type: "pricing_tiers",
-      title: "Kullanımı ücretsiz. Kendi sunucunuzda barındırmak da ücretsiz.",
+      title: "Ücretsiz başlayın. Daha fazla yapay zekâ için Premium.",
       intro:
-        "Barındırılan uygulamayı kredi kartı olmadan ücretsiz kullanın veya açık kaynak yığını kendi AWS altyapınızda çalıştırın.",
+        "Barındırılan uygulamada kredi kartı olmadan ücretsiz başlayın, daha fazla yapay zekâ sohbeti için Premium ekleyin veya açık kaynak yığını kendi AWS altyapınızda ücretsiz çalıştırın.",
       tiers: [
         {
           type: "auth_tier",
-          name: "Barındırılan",
+          name: "Ücretsiz",
           price: "Ücretsiz",
           highlighted: true,
           bullets: [
-            "Beta boyunca AI özellikleri dahil",
+            "Ayda 50 yapay zekâ sohbet mesajı",
+            "Kendi OpenAI API anahtarınızı kullanın; bu anahtarla yapılan kullanım aylık sınıra dahil edilmez",
             "Web, iOS ve Android arasında senkronizasyon dahil",
-            "Beta boyunca kart, dosya veya toplam depolama için plana bağlı kota yok; olağan dosya ve işlem başına teknik sınırlar geçerlidir",
+            "Kart, dosya veya toplam depolama için plana bağlı kota yok; olağan dosya ve işlem başına teknik sınırlar geçerlidir",
             "Barındırılan ve kendi sunucunuzdaki kurulumlar arasında kart, etiket ve medya içe/dışa aktarma",
             "E-postayla gelen tek kullanımlık kodla parolasız giriş",
-            "Temel kart oluşturma ve tekrar ücretsiz kalacak; yoğun AI kullanımı ileride kendi sağlayıcı API anahtarınızı veya ücretli bir seçeneği gerektirebilir",
           ],
           cta: {
             label: "Barındırılan uygulamayı ücretsiz kullan",
+            href: "https://app.nibomo.com",
+          },
+        },
+        {
+          type: "auth_tier",
+          name: "Premium",
+          price: "$6.99/ay",
+          highlighted: false,
+          bullets: [
+            "Uygun yeni aboneler için 7 günlük ücretsiz deneme; ödeme yöntemi gereklidir",
+            "Ayda 1000 yapay zekâ sohbet mesajı",
+            "Özel vurgu renkleri",
+            "Ücretsiz plandaki her şey",
+            "Web, iOS ve Android'de hesabınız için tek abonelik",
+            "Fiyat USD cinsindendir ve vergiler dahildir; ödeme sayfasında yerel para biriminde fiyat gösterilebilir",
+            "Her ay yenilenir; istediğiniz zaman iptal edin, erişiminiz dönem sonuna kadar sürer",
+          ],
+          cta: {
+            label: "7 günlük ücretsiz denemeyi başlat",
             href: "https://app.nibomo.com",
           },
         },
@@ -38,7 +57,7 @@ export const PRICING_PAGE_CONTENT: PageContent = {
           bullets: [
             "Açık kaynak uygulama ve AWS CDK altyapısı",
             "Eksiksiz AWS dağıtım yolu ve yerel Docker/Postgres geliştirme kurulumu",
-            "Altyapıyı, e-postayı, izlemeyi ve AI kimlik bilgilerini siz sağlar ve siz yönetirsiniz",
+            "Altyapıyı, e-postayı, izlemeyi ve yapay zekâ kimlik bilgilerini siz sağlar ve siz yönetirsiniz",
             "Altyapı ve üçüncü taraf sağlayıcı masraflarını siz ödersiniz",
             "Barındırılan ve kendi sunucunuzdaki kurulumlar arasında kart, etiket ve medya içe/dışa aktarma",
           ],

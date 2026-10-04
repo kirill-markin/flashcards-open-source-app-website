@@ -1,32 +1,51 @@
 import type { PageContent } from "@/lib/content/types";
 
 export const PRICING_PAGE_CONTENT: PageContent = {
-  title: "Gratis dipakai. Gratis di-hosting sendiri.",
+  title: "Gratis untuk memulai. Premium untuk lebih banyak AI.",
   description:
-    "Gunakan aplikasi terkelola tanpa biaya, lengkap dengan AI dan sinkronisasi selama beta, atau jalankan stack open source-nya di infrastruktur AWS Anda sendiri.",
+    "Mulai gratis di aplikasi terkelola, tingkatkan ke Premium seharga USD 6.99/bulan untuk lebih banyak obrolan AI, atau jalankan stack open source-nya di infrastruktur AWS Anda sendiri.",
   slug: "pricing",
   sections: [
     {
       type: "pricing_tiers",
-      title: "Gratis dipakai. Gratis di-hosting sendiri.",
+      title: "Gratis untuk memulai. Premium untuk lebih banyak AI.",
       intro:
-        "Gunakan aplikasi terkelola tanpa biaya dan tanpa kartu kredit, atau jalankan stack open source-nya di infrastruktur AWS Anda sendiri.",
+        "Mulai gratis di aplikasi terkelola tanpa kartu kredit, tambahkan Premium untuk lebih banyak obrolan AI, atau jalankan stack open source-nya secara gratis di infrastruktur AWS Anda sendiri.",
       tiers: [
         {
           type: "auth_tier",
-          name: "Terkelola",
+          name: "Gratis",
           price: "Gratis",
           highlighted: true,
           bullets: [
-            "Fitur AI termasuk selama beta",
+            "50 pesan obrolan AI per bulan",
+            "Gunakan kunci API OpenAI Anda sendiri; penggunaannya tidak dihitung dalam batas bulanan",
             "Sinkronisasi antara web, iOS, dan Android termasuk",
-            "Tidak ada kuota berbasis paket untuk kartu, berkas, atau total penyimpanan selama beta; batas teknis biasa per berkas dan per operasi tetap berlaku",
+            "Tidak ada kuota berbasis paket untuk kartu, berkas, atau total penyimpanan; batas teknis biasa per berkas dan per operasi tetap berlaku",
             "Impor dan ekspor kartu, tag, serta media antara instalasi terkelola dan self-hosted",
             "Masuk tanpa kata sandi dengan kode sekali pakai lewat email",
-            "Pembuatan dan tinjauan kartu tetap gratis; penggunaan AI yang lebih besar nanti bisa memerlukan kunci API penyedia Anda sendiri atau opsi berbayar",
           ],
           cta: {
             label: "Pakai aplikasi terkelola gratis",
+            href: "https://app.nibomo.com",
+          },
+        },
+        {
+          type: "auth_tier",
+          name: "Premium",
+          price: "$6.99/bulan",
+          highlighted: false,
+          bullets: [
+            "Uji coba gratis 7 hari untuk pelanggan baru yang memenuhi syarat; metode pembayaran wajib disertakan",
+            "1000 pesan obrolan AI per bulan",
+            "Warna aksen khusus",
+            "Semua yang ada di paket Gratis",
+            "Satu langganan untuk akun Anda di web, iOS, dan Android",
+            "Harga dalam USD sudah termasuk pajak; halaman pembayaran mungkin menampilkan harga dalam mata uang lokal",
+            "Diperpanjang setiap bulan; batalkan kapan saja dan akses tetap berlaku hingga akhir periode",
+          ],
+          cta: {
+            label: "Mulai uji coba gratis 7 hari",
             href: "https://app.nibomo.com",
           },
         },
