@@ -34,6 +34,7 @@ export const Footer: React.FC<FooterProps> = ({
   const sourceCodeHref = "https://github.com/kirill-markin/flashcards-open-source-app";
   const smitheryHref = "https://smithery.ai/servers/kirill-fofi/nibomo";
   const glamaHref = "https://glama.ai/mcp/connectors/com.nibomo/flashcards";
+  const geminiCliHref = "https://geminicli.com/extensions/?name=kirill-markinnibomo-plugins";
   const productLinks = [
     {
       href: getAvailableLocalizedPathname(locale, "/features/"),
@@ -148,6 +149,12 @@ export const Footer: React.FC<FooterProps> = ({
               {...getExternalLinkAttributes(glamaHref)}
             >
               Glama MCP
+            </a>
+            <a
+              href={geminiCliHref}
+              {...getExternalLinkAttributes(geminiCliHref)}
+            >
+              Gemini CLI
             </a>
           </div>
           <div className={styles.column}>
