@@ -38,6 +38,16 @@ Les funcions d'IA allotjades són opcionals i fan servir OpenAI. La telemetria d
 
 Quan autoritzes un client d'IA extern a fer servir el servei MCP o l'Agent API, aquest client i el seu proveïdor de models tracten les dades que sol·licites segons les seves pròpies condicions. No som responsables del funcionament ni dels resultats d'un client extern.
 
+## Subscripcions de Stripe
+
+Quan el pagament amb Stripe està disponible, Nibomo Premium s'ofereix a un preu base de 6,99 USD al mes, impostos aplicables inclosos. Stripe Adaptive Pricing pot mostrar un preu en moneda local; Stripe mostra l'import final i la moneda de facturació abans que confirmis. Per comprar cal haver iniciat la sessió amb un compte que tingui una adreça de correu electrònic; els convidats primer han de vincular una adreça de correu electrònic.
+
+Els clients de Stripe que compleixin els requisits tenen un període de prova gratuït de set dies, per al qual cal indicar un mètode de pagament. El període de prova només està disponible una vegada per client de Stripe; els períodes de prova anteriors d'Apple o de Google no afecten aquests requisits. Tret que cancel·lis abans que acabi el període de prova, es carregarà la subscripció mensual al teu mètode de pagament. A partir d'aleshores, la subscripció es renova automàticament cada mes fins que es cancel·li. Els recordatoris del període de prova indiquen el preu base mensual; Stripe mostra el càrrec final en la moneda de facturació.
+
+Fes servir la [configuració de la subscripció](https://app.nibomo.com/settings/subscription) per obrir el portal de facturació de Stripe i gestionar o cancel·lar la teva subscripció. La cancel·lació ordinària té efecte al final del període de prova o del període de pagament en curs, i fins aleshores conserves l'accés. Una compra amb Stripe no cancel·la cap subscripció independent d'Apple o de Google ni substitueix l'accés vitalici que ja tinguis.
+
+Quan suprimeixes el teu compte de Nibomo des de qualsevol client compatible, abans d'esborrar les dades es cancel·len les renovacions futures de totes les subscripcions de Nibomo a Stripe vinculades a aquest compte i es tanquen les sessions de pagament de Nibomo obertes. Si no es pot confirmar la cancel·lació, la supressió no es completa; torna-ho a provar o contacta amb l'assistència. La supressió del compte no cancel·la les subscripcions d'Apple ni de Google. Ni la cancel·lació ni la supressió del compte comporten automàticament cap reemborsament ni cap crèdit prorratejat. Res d'aquestes Condicions limita els drets imperatius dels consumidors, inclosos els drets de desistiment o de reemborsament aplicables.
+
 ## Disponibilitat i canvis
 
 La beta allotjada es proporciona en la mesura del possible i pot canviar, aturar-se o deixar d'oferir-se sense avís previ. No garantim una disponibilitat ininterrompuda, la conservació de totes les còpies locals o allotjades ni que totes les funcions continuïn disponibles. Conserva una còpia independent del contingut que no et puguis permetre perdre.

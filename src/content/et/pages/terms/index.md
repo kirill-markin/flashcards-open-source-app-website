@@ -38,6 +38,16 @@ Majutatud AI-funktsioonid on valikulised ja kasutavad OpenAI teenust. Nendega se
 
 Kui volitad välist AI-klienti kasutama MCP-teenust või Agent API-t, töötlevad see klient ja selle mudelipakkuja sinu taotletud andmeid oma tingimuste alusel. Me ei vastuta välise kliendi toimimise ega väljundi eest.
 
+## Stripe'i tellimused
+
+Kui Stripe'i kaudu maksmine on saadaval, pakutakse Nibomo Premiumit baashinnaga 6,99 USD kuus koos kohaldatavate maksudega. Stripe Adaptive Pricing võib kuvada hinna kohalikus vääringus; Stripe näitab lõplikku summat ja arveldusvääringut enne, kui sa ostu kinnitad. Ostmiseks on vaja sisselogitud kontot, millel on e-posti aadress; külalised peavad esmalt siduma e-posti aadressi.
+
+Tingimustele vastavad Stripe'i kliendid saavad seitsmepäevase tasuta prooviperioodi, mille jaoks on nõutav makseviis. Prooviperiood on saadaval üks kord Stripe'i kliendi kohta; varasemad Apple'i või Google’i prooviperioodid ei mõjuta selle saamise õigust. Kui sa ei tühista tellimust enne prooviperioodi lõppu, võetakse sinu makseviisilt tasu kuutellimuse eest. Seejärel uueneb tellimus automaatselt iga kuu, kuni see tühistatakse. Prooviperioodi meeldetuletustes on märgitud kuu baashind; Stripe näitab lõplikku tasu arveldusvääringus.
+
+Kasuta [tellimuse seadeid](https://app.nibomo.com/settings/subscription), et avada Stripe'i arveldusportaal ning hallata või tühistada oma tellimust. Tavaline tühistamine jõustub käimasoleva prooviperioodi või tasulise perioodi lõpus; seni säilib sinu juurdepääs. Stripe'i kaudu tehtud ost ei tühista eraldi Apple'i ega Google’i tellimust ega asenda olemasolevat eluaegset juurdepääsu.
+
+Kui kustutad oma Nibomo konto mis tahes toetatud kliendis, tühistatakse enne andmete lõplikku kustutamist kõigi selle kontoga seotud Nibomo Stripe'i tellimuste edasised uuendamised ja suletakse avatud Nibomo makseseansid. Kui tühistamist ei saa kinnitada, kustutamist lõpule ei viida; proovi uuesti või võta ühendust toega. Konto kustutamine ei tühista Apple'i ega Google’i tellimusi. Tühistamine ja konto kustutamine ei too automaatselt kaasa tagasimakset ega proportsionaalset krediiti. Miski nendes tingimustes ei piira tarbija õigusi, mida ei saa lepinguga välistada, sealhulgas kohaldatavat taganemis- või tagasimakseõigust.
+
 ## Kättesaadavus ja muudatused
 
 Majutatud beetaversiooni pakutakse võimaluste piires ning seda võidakse muuta, peatada või lõpetada ette teatamata. Me ei garanteeri katkematut kättesaadavust, iga kohaliku või majutatud koopia säilimist ega seda, et iga funktsioon jääb kättesaadavaks. Hoia sõltumatut koopiat sisust, mille kaotamist sa endale lubada ei saa.

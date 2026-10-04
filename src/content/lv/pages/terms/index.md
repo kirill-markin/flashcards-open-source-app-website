@@ -38,6 +38,16 @@ Mitinātās MI funkcijas nav obligātas, un tās izmanto OpenAI. Saistītā MI t
 
 Ja tu atļauj ārējam MI klientam izmantot MCP pakalpojumu vai Agent API, šis klients un tā modeļu pakalpojumu sniedzējs apstrādā tevis pieprasītos datus saskaņā ar saviem noteikumiem. Mēs neesam atbildīgi par ārēja klienta darbību vai tā rezultātiem.
 
+## Stripe abonementi
+
+Kad ir pieejama apmaksa ar Stripe, Nibomo Premium tiek piedāvāts par pamatcenu USD 6,99 mēnesī, ieskaitot piemērojamos nodokļus. Stripe Adaptive Pricing var parādīt cenu vietējā valūtā; Stripe parāda galīgo summu un norēķinu valūtu, pirms tu apstiprini pirkumu. Lai iegādātos, nepieciešams konts, kurā esi pieteicies un kuram ir e-pasta adrese; viesiem vispirms jāpiesaista e-pasta adrese.
+
+Atbilstošie Stripe klienti saņem septiņu dienu bezmaksas izmēģinājumu, kam jānorāda maksājuma veids. Izmēģinājums ir pieejams vienu reizi katram Stripe klientam; iepriekšējie Apple vai Google izmēģinājumi neietekmē tiesības uz to. Ja neatcelsi abonementu pirms izmēģinājuma beigām, no tava maksājuma veida tiks iekasēta maksa par mēneša abonementu. Pēc tam tas automātiski pagarinās katru mēnesi, līdz tiek atcelts. Atgādinājumos par izmēģinājumu norādīta mēneša pamatcena; galīgo maksu norēķinu valūtā parāda Stripe.
+
+Izmanto [abonementa iestatījumus](https://app.nibomo.com/settings/subscription), lai atvērtu Stripe norēķinu portālu un pārvaldītu vai atceltu savu abonementu. Parasta atcelšana stājas spēkā pašreizējā izmēģinājuma vai apmaksātā perioda beigās; līdz tam piekļuve saglabājas. Pirkums ar Stripe neatceļ nevienu atsevišķu Apple vai Google abonementu un neaizstāj esošo mūža piekļuvi.
+
+Ja dzēs savu Nibomo kontu jebkurā atbalstītā klientā, pirms datu galīgas dzēšanas tiek atcelta visu ar šo kontu saistīto Nibomo Stripe abonementu turpmākā pagarināšana un slēgtas atvērtās Nibomo apmaksas sesijas. Ja atcelšanu nevar apstiprināt, dzēšana netiek pabeigta; mēģini vēlreiz vai sazinies ar atbalstu. Konta dzēšana neatceļ Apple vai Google abonementus. Atcelšana un konta dzēšana automātiski nenodrošina atmaksu vai proporcionālu kredītu. Nekas šajos noteikumos neierobežo obligātās patērētāju tiesības, tostarp piemērojamās atteikuma vai atmaksas tiesības.
+
 ## Pieejamība un izmaiņas
 
 Mitinātā beta versija tiek nodrošināta pēc labākajām iespējām, un to var mainīt, apturēt vai pārtraukt bez iepriekšēja paziņojuma. Mēs negarantējam nepārtrauktu pieejamību, katras lokālās vai mitinātās kopijas saglabāšanu, kā arī to, ka katra funkcija paliks pieejama. Glabā neatkarīgu kopiju saturam, kura zaudējumu nevari atļauties.
