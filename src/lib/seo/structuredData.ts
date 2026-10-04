@@ -2,7 +2,11 @@ import {
   CANONICAL_APP_STORE_URL,
   CANONICAL_GOOGLE_PLAY_URL,
 } from "@/lib/humanPlatforms";
-import type { AppLocale } from "@/lib/i18n";
+import {
+  getAbsoluteUrl,
+  getLocalizedPathname,
+  type AppLocale,
+} from "@/lib/i18n";
 import { PRODUCT_APP_ORIGIN, SITE_NAME, SITE_URL } from "@/lib/site";
 
 export const STRUCTURED_DATA_ENTITY_IDS = {
@@ -56,6 +60,7 @@ export interface FreeOfferStructuredData {
   readonly name: "Free";
   readonly price: "0";
   readonly priceCurrency: "USD";
+  readonly url: string;
 }
 
 export interface MonthlyPriceSpecificationStructuredData {
@@ -63,6 +68,7 @@ export interface MonthlyPriceSpecificationStructuredData {
   readonly billingDuration: "P1M";
   readonly price: "6.99";
   readonly priceCurrency: "USD";
+  readonly valueAddedTaxIncluded: true;
 }
 
 export interface PremiumOfferStructuredData {
@@ -71,7 +77,18 @@ export interface PremiumOfferStructuredData {
   readonly price: "6.99";
   readonly priceCurrency: "USD";
   readonly priceSpecification: MonthlyPriceSpecificationStructuredData;
+  readonly url: string;
 }
+
+export type ProductOfferStructuredData =
+  | FreeOfferStructuredData
+  | PremiumOfferStructuredData;
+
+/**
+ * Every offer must match prices visible on the page that carries it: only the
+ * pricing page shows the Premium price.
+ */
+export type ProductOfferNames = readonly ["Free"] | readonly ["Free", "Premium"];
 
 export interface WebSiteStructuredData {
   readonly "@id": typeof STRUCTURED_DATA_ENTITY_IDS.website;
@@ -88,26 +105,27 @@ export interface WebSiteStructuredData {
 
 export interface SoftwareApplicationStructuredData {
   readonly "@id": typeof STRUCTURED_DATA_ENTITY_IDS.software;
-  readonly "@type": "SoftwareApplication";
+  readonly "@type": readonly ["WebApplication", "MobileApplication"];
   readonly applicationCategory: "EducationalApplication";
   readonly creator: StructuredDataEntityReference;
   readonly description: string;
   readonly image: typeof FLASHCARDS_LOGO_URL;
   readonly installUrl: readonly [
+    typeof PRODUCT_APP_ORIGIN,
     typeof CANONICAL_APP_STORE_URL,
     typeof CANONICAL_GOOGLE_PLAY_URL,
   ];
   readonly isAccessibleForFree: true;
   readonly license: "https://opensource.org/licenses/MIT";
   readonly name: typeof SITE_NAME;
-  readonly offers: readonly [FreeOfferStructuredData, PremiumOfferStructuredData];
+  readonly offers: readonly ProductOfferStructuredData[];
   readonly operatingSystem: "Web, iOS, Android";
   readonly publisher: StructuredDataEntityReference;
   readonly sameAs: readonly [
     typeof CANONICAL_APP_STORE_URL,
     typeof CANONICAL_GOOGLE_PLAY_URL,
   ];
-  readonly url: typeof PRODUCT_APP_ORIGIN;
+  readonly url: typeof SITE_HOME_URL;
 }
 
 export interface SoftwareSourceCodeStructuredData {
@@ -119,21 +137,34 @@ export interface SoftwareSourceCodeStructuredData {
   readonly targetProduct: StructuredDataEntityReference;
 }
 
-export type SiteApplicationGraphEntity =
+export type SiteGraphEntity =
   | WebSiteStructuredData
-  | SoftwareApplicationStructuredData
-  | SoftwareSourceCodeStructuredData
   | PersonStructuredData
   | OrganizationStructuredData;
 
-export interface SiteApplicationJsonLdGraph {
+export interface SiteJsonLdGraph {
   readonly "@context": "https://schema.org";
-  readonly "@graph": readonly SiteApplicationGraphEntity[];
+  readonly "@graph": readonly SiteGraphEntity[];
 }
 
-export interface CreateSiteApplicationJsonLdGraphParams {
+export interface CreateSiteJsonLdGraphParams {
   readonly description: string;
   readonly locale: AppLocale;
+}
+
+export type ProductGraphEntity =
+  | SoftwareApplicationStructuredData
+  | SoftwareSourceCodeStructuredData;
+
+export interface ProductJsonLdGraph {
+  readonly "@context": "https://schema.org";
+  readonly "@graph": readonly ProductGraphEntity[];
+}
+
+export interface CreateProductJsonLdGraphParams {
+  readonly description: string;
+  readonly locale: AppLocale;
+  readonly offerNames: ProductOfferNames;
 }
 
 export const CREATOR_REFERENCE: StructuredDataEntityReference = {
@@ -165,7 +196,7 @@ const PUBLISHER_ENTITY: OrganizationStructuredData = {
 };
 
 function createWebsiteStructuredData(
-  params: CreateSiteApplicationJsonLdGraphParams
+  params: CreateSiteJsonLdGraphParams
 ): WebSiteStructuredData {
   return {
     "@id": STRUCTURED_DATA_ENTITY_IDS.website,
@@ -185,26 +216,21 @@ function createWebsiteStructuredData(
   };
 }
 
-function createSoftwareApplicationStructuredData(
-  params: CreateSiteApplicationJsonLdGraphParams
-): SoftwareApplicationStructuredData {
-  return {
-    "@id": STRUCTURED_DATA_ENTITY_IDS.software,
-    "@type": "SoftwareApplication",
-    name: SITE_NAME,
-    description: params.description,
-    applicationCategory: "EducationalApplication",
-    operatingSystem: "Web, iOS, Android",
-    license: "https://opensource.org/licenses/MIT",
-    isAccessibleForFree: true,
-    offers: [
-      {
+function createOfferStructuredData(
+  name: ProductOfferNames[number],
+  pricingPageUrl: string
+): ProductOfferStructuredData {
+  switch (name) {
+    case "Free":
+      return {
         "@type": "Offer",
         name: "Free",
         price: "0",
         priceCurrency: "USD",
-      },
-      {
+        url: pricingPageUrl,
+      };
+    case "Premium":
+      return {
         "@type": "Offer",
         name: "Premium",
         price: "6.99",
@@ -214,14 +240,33 @@ function createSoftwareApplicationStructuredData(
           price: "6.99",
           priceCurrency: "USD",
           billingDuration: "P1M",
+          valueAddedTaxIncluded: true,
         },
-      },
-    ],
+        url: pricingPageUrl,
+      };
+  }
+}
+
+function createSoftwareApplicationStructuredData(
+  params: CreateProductJsonLdGraphParams
+): SoftwareApplicationStructuredData {
+  const pricingPageUrl = getAbsoluteUrl(getLocalizedPathname(params.locale, "/pricing/"));
+
+  return {
+    "@id": STRUCTURED_DATA_ENTITY_IDS.software,
+    "@type": ["WebApplication", "MobileApplication"],
+    name: SITE_NAME,
+    description: params.description,
+    applicationCategory: "EducationalApplication",
+    operatingSystem: "Web, iOS, Android",
+    license: "https://opensource.org/licenses/MIT",
+    isAccessibleForFree: true,
+    offers: params.offerNames.map((name) => createOfferStructuredData(name, pricingPageUrl)),
     image: FLASHCARDS_LOGO_URL,
     creator: CREATOR_REFERENCE,
     publisher: PUBLISHER_REFERENCE,
-    url: PRODUCT_APP_ORIGIN,
-    installUrl: [CANONICAL_APP_STORE_URL, CANONICAL_GOOGLE_PLAY_URL],
+    url: SITE_HOME_URL,
+    installUrl: [PRODUCT_APP_ORIGIN, CANONICAL_APP_STORE_URL, CANONICAL_GOOGLE_PLAY_URL],
     sameAs: [CANONICAL_APP_STORE_URL, CANONICAL_GOOGLE_PLAY_URL],
   };
 }
@@ -237,17 +282,29 @@ function createSoftwareSourceCodeStructuredData(): SoftwareSourceCodeStructuredD
   };
 }
 
-export function createSiteApplicationJsonLdGraph(
-  params: CreateSiteApplicationJsonLdGraphParams
-): SiteApplicationJsonLdGraph {
+/** Sitewide entities; they refer to the product only by `@id`. */
+export function createSiteJsonLdGraph(
+  params: CreateSiteJsonLdGraphParams
+): SiteJsonLdGraph {
   return {
     "@context": "https://schema.org",
     "@graph": [
       createWebsiteStructuredData(params),
-      createSoftwareApplicationStructuredData(params),
-      createSoftwareSourceCodeStructuredData(),
       CREATOR_ENTITY,
       PUBLISHER_ENTITY,
+    ],
+  };
+}
+
+/** Full product markup, rendered only on pages that show the offered prices. */
+export function createProductJsonLdGraph(
+  params: CreateProductJsonLdGraphParams
+): ProductJsonLdGraph {
+  return {
+    "@context": "https://schema.org",
+    "@graph": [
+      createSoftwareApplicationStructuredData(params),
+      createSoftwareSourceCodeStructuredData(),
     ],
   };
 }
