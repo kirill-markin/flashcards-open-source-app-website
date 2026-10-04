@@ -153,6 +153,8 @@ Examples:
 - What makes a control a **negative control** instead of a positive one?
 - When does an AP Biology setup support a claim about **cause** instead of only a pattern?
 
+For general study-design practice, the [Random Sampling vs Random Assignment Flashcards](/catalog/packages/random-sampling-vs-random-assignment-flashcards/) ask which conclusions a short study supports, including whether its design permits a causal comparison. Apply that distinction again in your biology practice questions.
+
 If your best card source is what you missed in practice, [How to Turn Practice Questions Into Flashcards in 2026](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/) fits directly here.
 
 ## FRQ prep works better when the card stores the reasoning move

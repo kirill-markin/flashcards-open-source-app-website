@@ -174,6 +174,8 @@ The definition is short enough to memorize. The useful practice is recognizing w
 | Randomized groups differ in prior knowledge. Does that prove the procedure failed? | No. Chance imbalance is possible; randomization doesn't guarantee identical groups. |
 | Both sampling and assignment are random, but no scores exist. Can we name a better treatment? | No. The design supports an investigation; results and analysis must supply the evidence. |
 
+Use the [Random Sampling vs Random Assignment Flashcards](/catalog/packages/random-sampling-vs-random-assignment-flashcards/) to identify study procedures, judge the scope of a conclusion, and correct unsupported claims.
+
 Keep the full scenarios for written practice. Use the cards to target a recurring error, then return to a new scenario and justify the scope in complete sentences. The [AP Statistics flashcard guide](/blog/ap-statistics-flashcards/) covers fitting these cards into course study; the guide to [making better flashcards](/blog/how-to-make-better-flashcards/) helps keep each prompt focused.
 
 On the next study-design question, mark three things before writing a conclusion: the list or process that supplied the participants, the process that supplied their treatments, and the outcome evidence actually given. Those details determine what you can claim.
