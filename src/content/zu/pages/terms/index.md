@@ -38,6 +38,16 @@ Izici ze-AI ezisingathiwe ungazisebenzisa uma uthanda, futhi zisebenzisa i-OpenA
 
 Uma ugunyaza iklayenti le-AI langaphandle ukuthi lisebenzise isevisi ye-MCP noma i-Agent API, lelo klayenti nomhlinzeki walo wemodeli bacubungula idatha oyicelayo ngaphansi kwemigomo yabo. Asinasibopho ngokusebenza noma ngokukhishwa yiklayenti langaphandle.
 
+## Ukubhalisela nge-Stripe
+
+Lapho ukukhokha nge-Stripe kutholakala, i-Nibomo Premium inikezwa ngentengo eyisisekelo ye-USD 6.99 ngenyanga, kuhlanganise nentela esebenzayo. I-Stripe Adaptive Pricing ingabonisa intengo ngohlobo lwemali lwasendaweni; i-Stripe ibonisa inani lokugcina nohlobo lwemali yokukhokha ngaphambi kokuthi uqinisekise. Ukuze uthenge, kufanele ungene ku-akhawunti enekheli le-imeyili; izivakashi kufanele ziqale zixhumanise i-imeyili.
+
+Amakhasimende e-Stripe afanelekayo athola isikhathi sokuzama samahhala sezinsuku eziyisikhombisa, esidinga ukuthi ufake indlela yokukhokha. Isikhathi sokuzama sitholakala kanye kuphela ekhasimendeni ngalinye le-Stripe; izikhathi zokuzama zangaphambilini ze-Apple noma ze-Google azithinti ukufaneleka. Uma ungakhanseli ngaphambi kokuba isikhathi sokuzama siphele, indlela yakho yokukhokha izokhokhiswa imali yokubhalisela kwanyanga zonke. Ngemva kwalokho ukubhalisela kuzivuselela ngokuzenzakalela inyanga ngayinye kuze kukhanselwe. Izikhumbuzo zesikhathi sokuzama zisho intengo eyisisekelo yanyanga zonke; i-Stripe ibonisa inkokhelo yokugcina ngohlobo lwemali yokukhokha.
+
+Sebenzisa [Izilungiselelo zokubhalisela](https://app.nibomo.com/settings/subscription) ukuze uvule iphothali yezinkokhelo ye-Stripe futhi uphathe noma ukhansele ukubhalisela kwakho. Ukukhansela okujwayelekile kuqala ukusebenza ekupheleni kwesikhathi sokuzama samanje noma senkathi ekhokhelwe yamanje; ukufinyelela kuqhubeka kuze kube yileso sikhathi. Ukuthenga nge-Stripe akukhanseli noma yikuphi ukubhalisela okuhlukile kwe-Apple noma kwe-Google futhi akuthathi indawo yokufinyelela kwempilo yonke osunakho.
+
+Uma ususa i-akhawunti yakho ye-Nibomo kunoma yiliphi iklayenti elisekelwayo, ngaphambi kokusulwa kwedatha kukhanselwa ukuvuselelwa kwesikhathi esizayo kwakho konke ukubhalisela kwe-Nibomo nge-Stripe okuxhunyaniswe naleyo akhawunti, futhi kuvalwe amaseshini okukhokha e-Nibomo avulekile. Uma ukukhansela kungeke kuqinisekiswe, ukususwa ngeke kuqedwe; zama futhi noma uxhumane nosizo. Ukususwa kwe-akhawunti akukhanseli ukubhalisela kwe-Apple noma kwe-Google. Ukukhansela nokususwa kwe-akhawunti akukhiphi ngokuzenzakalela imali ebuyiselwayo noma ikhredithi ehambisana nesikhathi esisele. Akukho kule Migomo okunciphisa amalungelo abathengi aphoqelekile, kuhlanganise nanoma yimaphi amalungelo asebenzayo okuhoxa noma okubuyiselwa kwemali.
+
 ## Ukutholakala nezinguquko
 
 I-beta esingathiwe ihlinzekwa ngokwenza okusemandleni futhi ingashintsha, ime okwesikhashana, noma iyekwe ngaphandle kwesaziso. Asiqinisekisi ukutholakala okungaphazanyiswa, ukulondolozwa kwazo zonke izikhophi zasendaweni noma ezisingathiwe, noma ukuthi zonke izici zizohlala zitholakala. Gcina ikhophi ezimele yokuqukethwe ongeke ukwazi ukulahlekelwa yikho.
