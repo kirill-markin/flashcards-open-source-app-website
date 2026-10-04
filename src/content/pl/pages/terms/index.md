@@ -38,6 +38,16 @@ Hostowane funkcje AI są opcjonalne i korzystają z OpenAI. Powiązana z nimi te
 
 Gdy upoważnisz zewnętrznego klienta AI do korzystania z usługi MCP lub Agent API, ten klient i dostawca jego modelu przetwarzają dane, o które prosisz, zgodnie z własnymi warunkami. Nie odpowiadamy za działanie ani wyniki zewnętrznego klienta.
 
+## Subskrypcje Stripe
+
+Gdy dostępna jest płatność przez Stripe, oferujemy Nibomo Premium w cenie bazowej 6,99 USD miesięcznie, łącznie z obowiązującymi podatkami. Stripe Adaptive Pricing może wyświetlić cenę w walucie lokalnej; Stripe pokazuje ostateczną kwotę i walutę rozliczenia, zanim potwierdzisz zakup. Zakupu można dokonać tylko po zalogowaniu się na konto z adresem e-mail; goście muszą najpierw powiązać adres e-mail.
+
+Uprawnieni klienci Stripe otrzymują siedmiodniowy bezpłatny okres próbny, który wymaga podania metody płatności. Okres próbny jest dostępny raz na klienta Stripe; wcześniejsze okresy próbne w Apple lub Google nie wpływają na uprawnienie do niego. Jeśli nie anulujesz subskrypcji przed końcem okresu próbnego, Twoja metoda płatności zostanie obciążona opłatą za subskrypcję miesięczną. Następnie subskrypcja odnawia się automatycznie co miesiąc aż do anulowania. Przypomnienia o okresie próbnym podają miesięczną cenę bazową; Stripe pokazuje ostateczną kwotę obciążenia w walucie rozliczenia.
+
+Skorzystaj z [ustawień subskrypcji](https://app.nibomo.com/settings/subscription), aby otworzyć portal rozliczeniowy Stripe i zarządzać subskrypcją lub ją anulować. Zwykłe anulowanie staje się skuteczne z końcem bieżącego okresu próbnego lub opłaconego okresu; do tego czasu dostęp pozostaje aktywny. Zakup przez Stripe nie anuluje żadnej odrębnej subskrypcji Apple lub Google ani nie zastępuje istniejącego dożywotniego dostępu.
+
+Usunięcie konta Nibomo z dowolnego obsługiwanego klienta anuluje przyszłe odnowienia wszystkich subskrypcji Nibomo w Stripe powiązanych z tym kontem i zamyka otwarte sesje płatności Nibomo przed trwałym usunięciem danych. Jeśli anulowania nie można potwierdzić, usunięcie nie zostaje dokończone; spróbuj ponownie lub skontaktuj się ze wsparciem. Usunięcie konta nie anuluje subskrypcji Apple ani Google. Anulowanie i usunięcie konta nie powodują automatycznego zwrotu pieniędzy ani proporcjonalnego uznania na koncie. Żadne postanowienie niniejszych Warunków nie ogranicza bezwzględnie obowiązujących praw konsumenta, w tym ewentualnego prawa do odstąpienia od umowy lub do zwrotu pieniędzy.
+
 ## Dostępność i zmiany
 
 Hostowana wersja beta jest udostępniana w miarę możliwości i może zostać zmieniona, wstrzymana lub wycofana bez uprzedzenia. Nie gwarantujemy nieprzerwanej dostępności, zachowania każdej lokalnej lub hostowanej kopii ani tego, że każda funkcja pozostanie dostępna. Przechowuj niezależną kopię treści, na których utratę nie możesz sobie pozwolić.

@@ -38,6 +38,16 @@ Hosťované funkcie AI sú voliteľné a využívajú OpenAI. Súvisiaca telemet
 
 Keď autorizujete externého AI klienta na používanie služby MCP alebo Agent API, tento klient a poskytovateľ jeho modelu spracúvajú údaje, ktoré si vyžiadate, podľa vlastných podmienok. Za fungovanie ani výstup externého klienta nezodpovedáme.
 
+## Predplatné cez Stripe
+
+Keď je dostupná platba cez Stripe, Nibomo Premium sa ponúka za základnú cenu 6,99 USD mesačne vrátane príslušných daní. Stripe Adaptive Pricing môže zobraziť cenu v miestnej mene; Stripe vám pred potvrdením zobrazí konečnú sumu a menu fakturácie. Na nákup musíte byť prihlásení do účtu s e-mailovou adresou; hostia musia najprv prepojiť e-mail.
+
+Oprávnení zákazníci Stripe dostanú sedemdňové bezplatné skúšobné obdobie, na ktoré je potrebné zadať spôsob platby. Skúšobné obdobie je dostupné raz na zákazníka Stripe; predchádzajúce skúšobné obdobia cez Apple alebo Google nemajú na nárok vplyv. Ak predplatné nezrušíte pred koncom skúšobného obdobia, z vášho spôsobu platby sa strhne platba za mesačné predplatné. Potom sa predplatné automaticky obnovuje každý mesiac, kým ho nezrušíte. Pripomienky skúšobného obdobia uvádzajú mesačnú základnú cenu; konečnú účtovanú sumu v mene fakturácie zobrazuje Stripe.
+
+V [nastaveniach predplatného](https://app.nibomo.com/settings/subscription) otvoríte fakturačný portál Stripe, kde môžete predplatné spravovať alebo zrušiť. Bežné zrušenie nadobúda účinnosť na konci aktuálneho skúšobného alebo zaplateného obdobia; dovtedy máte naďalej prístup. Nákup cez Stripe neruší žiadne samostatné predplatné cez Apple alebo Google ani nenahrádza existujúci doživotný prístup.
+
+Odstránenie účtu Nibomo z ktoréhokoľvek podporovaného klienta pred vymazaním údajov zruší budúce obnovenia všetkých predplatných Nibomo cez Stripe prepojených s týmto účtom a zatvorí otvorené platobné relácie Nibomo. Ak zrušenie nemožno potvrdiť, odstránenie sa nedokončí; skúste to znova alebo kontaktujte podporu. Odstránenie účtu neruší predplatné cez Apple ani Google. Zrušením predplatného ani odstránením účtu nedochádza automaticky k vráteniu peňazí ani k pripísaniu pomerného kreditu. Nič v týchto Podmienkach neobmedzuje kogentné práva spotrebiteľov vrátane prípadného práva na odstúpenie od zmluvy alebo na vrátenie peňazí.
+
 ## Dostupnosť a zmeny
 
 Hosťovaná beta sa poskytuje podľa našich možností a môže sa zmeniť, pozastaviť alebo ukončiť bez upozornenia. Nezaručujeme nepretržitú dostupnosť, zachovanie každej lokálnej alebo hosťovanej kópie ani to, že každá funkcia zostane dostupná. Obsah, o ktorý si nemôžete dovoliť prísť, si uchovávajte aj v nezávislej kópii.
