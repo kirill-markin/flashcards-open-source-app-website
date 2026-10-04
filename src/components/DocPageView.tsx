@@ -6,7 +6,8 @@ import type { AppLocale } from "@/lib/i18n";
 import { getAbsoluteUrl, getLocalizedPathname } from "@/lib/i18n";
 import {
   CREATOR_ENTITY,
-  CREATOR_REFERENCE,
+  PUBLISHER_REFERENCE,
+  serializeStructuredData,
   type PersonStructuredData,
   type StructuredDataEntityReference,
 } from "@/lib/seo/structuredData";
@@ -73,7 +74,7 @@ export async function DocPageView({
     },
     url: articleUrl,
     author: CREATOR_ENTITY,
-    publisher: CREATOR_REFERENCE,
+    publisher: PUBLISHER_REFERENCE,
   };
 
   return (
@@ -81,7 +82,7 @@ export async function DocPageView({
       <article className={styles.container} aria-labelledby="doc-title">
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+          dangerouslySetInnerHTML={{ __html: serializeStructuredData(articleSchema) }}
         />
         <div className={styles.articlePanel}>
           <header className={styles.intro}>

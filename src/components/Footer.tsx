@@ -9,6 +9,7 @@ import { getAvailableLocalizedPathname } from "@/lib/routeTranslations";
 import { readGeneratedStoreQrCodes } from "@/lib/storeQrCodes";
 import { getUiCopy } from "@/lib/uiCopy";
 import { isPublicCatalogEnabled } from "@/lib/publicCatalogBuild";
+import { STRUCTURED_DATA_PUBLISHER_URL } from "@/lib/seo/structuredData";
 import { getPublicCatalogUiCopy } from "@/lib/publicCatalogCopy";
 import { getPublicCatalogRootUrl } from "@/lib/publicCatalogUrls";
 import { TrackedAppEntryLink } from "./TrackedAppEntryLink";
@@ -187,7 +188,12 @@ export const Footer: React.FC<FooterProps> = ({
                 {uiCopy.footer.builtByLabel}
               </span>
               <span className={styles.attributionLine}>
-                {uiCopy.footer.operatedByLabel}
+                <a
+                  href={STRUCTURED_DATA_PUBLISHER_URL}
+                  {...getExternalLinkAttributes(STRUCTURED_DATA_PUBLISHER_URL)}
+                >
+                  {uiCopy.footer.operatedByLabel}
+                </a>
               </span>
             </div>
           </div>
