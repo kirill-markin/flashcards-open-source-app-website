@@ -38,6 +38,16 @@ Funcțiile AI găzduite sunt opționale și folosesc OpenAI. Telemetria AI afere
 
 Când autorizezi un client AI extern să folosească serviciul MCP sau Agent API, acel client și furnizorul modelului său prelucrează datele pe care le soliciți, conform propriilor termeni. Nu suntem responsabili pentru funcționarea sau rezultatele unui client extern.
 
+## Abonamente Stripe
+
+Când plata prin Stripe este disponibilă, Nibomo Premium este oferit la un preț de bază de 6,99 USD pe lună, cu taxele aplicabile incluse. Stripe Adaptive Pricing poate afișa un preț în moneda locală; Stripe îți arată suma finală și moneda de facturare înainte să confirmi. Pentru a cumpăra, trebuie să fii autentificat într-un cont cu adresă de e-mail; vizitatorii trebuie mai întâi să asocieze o adresă de e-mail.
+
+Clienții Stripe eligibili beneficiază de o perioadă de probă gratuită de șapte zile, pentru care este necesară o metodă de plată. Perioada de probă este disponibilă o singură dată pentru fiecare client Stripe; perioadele de probă anterioare prin Apple sau Google nu afectează eligibilitatea. Dacă nu anulezi înainte de încheierea perioadei de probă, metoda ta de plată va fi debitată cu prețul abonamentului lunar. Abonamentul se reînnoiește apoi automat în fiecare lună până la anulare. Mementourile privind perioada de probă indică prețul de bază lunar; Stripe afișează suma finală debitată în moneda de facturare.
+
+Folosește [setările abonamentului](https://app.nibomo.com/settings/subscription) pentru a deschide portalul de facturare Stripe și a-ți gestiona sau anula abonamentul. Anularea obișnuită produce efecte la sfârșitul perioadei curente de probă sau plătite; până atunci îți păstrezi accesul. O achiziție prin Stripe nu anulează niciun abonament separat Apple sau Google și nu înlocuiește accesul pe viață existent.
+
+Ștergerea contului tău Nibomo din orice client acceptat anulează, înainte de ștergerea definitivă a datelor, reînnoirile viitoare ale tuturor abonamentelor Nibomo prin Stripe asociate acelui cont și închide sesiunile de plată Nibomo deschise. Dacă anularea nu poate fi confirmată, ștergerea nu se finalizează; încearcă din nou sau contactează asistența. Ștergerea contului nu anulează abonamentele Apple sau Google. Anularea și ștergerea contului nu generează automat o rambursare sau un credit proporțional. Nicio prevedere din acești Termeni nu limitează drepturile consumatorilor care decurg din dispoziții legale imperative, inclusiv eventualele drepturi aplicabile de retragere sau de rambursare.
+
 ## Disponibilitate și modificări
 
 Versiunea beta găzduită este furnizată în limita posibilităților și poate fi modificată, suspendată sau întreruptă fără notificare prealabilă. Nu garantăm disponibilitatea neîntreruptă, păstrarea fiecărei copii locale sau găzduite și nici faptul că fiecare funcție va rămâne disponibilă. Păstrează o copie independentă a conținutului pe care nu îți permiți să îl pierzi.
