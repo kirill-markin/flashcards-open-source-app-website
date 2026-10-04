@@ -38,6 +38,16 @@ Le funzioni AI ospitate sono facoltative e usano OpenAI. La relativa telemetria 
 
 Quando autorizzi un client AI esterno a usare il servizio MCP o l'Agent API, quel client e il relativo fornitore del modello trattano i dati che richiedi secondo i propri termini. Non siamo responsabili del funzionamento o dell'output di un client esterno.
 
+## Abbonamenti Stripe
+
+Quando il checkout di Stripe è disponibile, Nibomo Premium è offerto a un prezzo base di 6,99 USD al mese, imposte applicabili incluse. Stripe Adaptive Pricing può mostrare un prezzo in valuta locale; Stripe mostra l'importo finale e la valuta di fatturazione prima che tu confermi. Per acquistare devi aver effettuato l'accesso con un account dotato di indirizzo email; gli ospiti devono prima collegare un indirizzo email.
+
+I clienti Stripe idonei ricevono una prova gratuita di sette giorni, per la quale è richiesto un metodo di pagamento. La prova è disponibile una sola volta per cliente Stripe; eventuali prove gratuite precedenti su Apple o Google non incidono sull'idoneità. Se non annulli prima della fine della prova, al tuo metodo di pagamento viene addebitato l'abbonamento mensile. L'abbonamento si rinnova poi automaticamente ogni mese fino al suo annullamento. I promemoria della prova indicano il prezzo base mensile; Stripe mostra l'addebito finale nella valuta di fatturazione.
+
+Usa le [impostazioni dell'abbonamento](https://app.nibomo.com/settings/subscription) per aprire il portale di fatturazione di Stripe e gestire o annullare il tuo abbonamento. L'annullamento ordinario ha effetto alla fine del periodo di prova o del periodo a pagamento in corso; fino ad allora l'accesso continua. Un acquisto tramite Stripe non annulla eventuali abbonamenti Apple o Google separati né sostituisce un accesso a vita già esistente.
+
+L'eliminazione del tuo account Nibomo da qualsiasi client supportato annulla, prima della cancellazione dei dati, i rinnovi futuri di tutti gli abbonamenti Stripe di Nibomo collegati a quell'account e chiude le sessioni di checkout Nibomo aperte. Se l'annullamento non può essere confermato, l'eliminazione non viene completata; riprova o contatta il supporto. L'eliminazione dell'account non annulla gli abbonamenti Apple o Google. L'annullamento e l'eliminazione dell'account non comportano automaticamente un rimborso o un credito pro rata. Nulla nei presenti Termini limita i diritti inderogabili dei consumatori, compresi gli eventuali diritti di recesso o di rimborso applicabili.
+
 ## Disponibilità e modifiche
 
 La beta ospitata è fornita al meglio delle nostre possibilità e può essere modificata, sospesa o interrotta definitivamente senza preavviso. Non garantiamo una disponibilità ininterrotta, la conservazione di ogni copia locale o ospitata, né che ogni funzione resti disponibile. Conserva una copia indipendente dei contenuti che non puoi permetterti di perdere.

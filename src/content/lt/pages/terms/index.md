@@ -38,6 +38,16 @@ Talpinamos DI funkcijos yra neprivalomos ir naudoja OpenAI. Susijusi DI telemetr
 
 Kai leidžiate išoriniam DI klientui naudotis MCP paslauga ar Agent API, tas klientas ir jo modelio teikėjas tvarko jūsų prašomus duomenis pagal savo sąlygas. Mes neatsakome už išorinio kliento veikimą ar jo pateikiamus rezultatus.
 
+## Stripe prenumeratos
+
+Kai galima apmokėti per Stripe, Nibomo Premium siūloma už bazinę 6,99 USD per mėnesį kainą, įskaitant taikomus mokesčius. Stripe Adaptive Pricing gali rodyti kainą vietos valiuta; Stripe parodo galutinę sumą ir atsiskaitymo valiutą prieš jums patvirtinant. Norint pirkti, reikia būti prisijungus prie paskyros su el. pašto adresu; svečiai pirmiausia turi susieti el. pašto adresą.
+
+Reikalavimus atitinkantys Stripe klientai gauna septynių dienų nemokamą bandomąjį laikotarpį, kuriam reikia nurodyti mokėjimo būdą. Bandomasis laikotarpis suteikiamas vieną kartą kiekvienam Stripe klientui; ankstesni Apple ar Google bandomieji laikotarpiai neturi įtakos teisei jį gauti. Jei neatšauksite prenumeratos iki bandomojo laikotarpio pabaigos, iš jūsų mokėjimo būdo bus nuskaičiuotas mokestis už mėnesio prenumeratą. Vėliau ji automatiškai pratęsiama kas mėnesį, kol bus atšaukta. Priminimuose apie bandomąjį laikotarpį nurodoma mėnesio bazinė kaina; galutinę nuskaičiuojamą sumą atsiskaitymo valiuta parodo Stripe.
+
+Naudokite [prenumeratos nustatymus](https://app.nibomo.com/settings/subscription), kad atidarytumėte Stripe atsiskaitymo portalą ir valdytumėte arba atšauktumėte prenumeratą. Įprastas atšaukimas įsigalioja pasibaigus dabartiniam bandomajam arba apmokėtam laikotarpiui; iki tol prieiga išlieka. Pirkimas per Stripe neatšaukia jokios atskiros Apple ar Google prenumeratos ir nepakeičia esamos prieigos visam laikui.
+
+Ištrynus Nibomo paskyrą bet kuriame palaikomame kliente, prieš galutinai ištrinant duomenis atšaukiami visų su ta paskyra susietų Nibomo Stripe prenumeratų būsimi pratęsimai ir uždaromos atviros Nibomo apmokėjimo sesijos. Jei atšaukimo nepavyksta patvirtinti, ištrynimas neužbaigiamas; bandykite dar kartą arba susisiekite su pagalbos tarnyba. Ištrynus paskyrą, Apple ar Google prenumeratos neatšaukiamos. Atšaukus prenumeratą ar ištrynus paskyrą, pinigai automatiškai negrąžinami ir proporcinga kreditinė suma nesuteikiama. Niekas šiose sąlygose neriboja privalomų vartotojų teisių, įskaitant taikomas teises atsisakyti sutarties ar susigrąžinti pinigus.
+
 ## Pasiekiamumas ir pakeitimai
 
 Talpinama beta versija teikiama pagal galimybes ir be įspėjimo gali būti keičiama, laikinai sustabdyta arba nutraukta. Negarantuojame nepertraukiamo pasiekiamumo, kad bus išsaugota kiekviena vietinė ar talpinama kopija, ar kad kiekviena funkcija liks prieinama. Turinio, kurio negalite sau leisti prarasti, pasidarykite nepriklausomą kopiją.
