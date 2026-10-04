@@ -9,6 +9,7 @@ import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { HumanPlatformLinks } from "@/components/HumanPlatformLinks";
 import { PublicActivitySection } from "@/components/PublicActivitySection";
 import { SiteFrame } from "@/components/SiteFrame";
+import { StructuredDataScript } from "@/components/StructuredDataScript";
 import { TrackedMcpEndpointCopyField } from "@/components/TrackedMcpEndpointCopyField";
 import { TrackedSelfHostCtaLink } from "@/components/TrackedSelfHostCtaLink";
 import { renderMarkdownToHtml } from "@/lib/content/renderMarkdownToHtml";
@@ -32,6 +33,10 @@ import {
   type StoreQrCodes,
 } from "@/lib/storeQrCodes";
 import { getLocalizedPathname, type AppLocale } from "@/lib/i18n";
+import {
+  createProductJsonLdGraph,
+  type ProductOfferNames,
+} from "@/lib/seo/structuredData";
 import { getUiCopy } from "@/lib/uiCopy";
 import { getAvailableLocalizedPathname } from "@/lib/routeTranslations";
 import homeStyles from "@/app/page.module.css";
@@ -70,6 +75,21 @@ function renderMarketingBreadcrumbs(
           href: getLocalizedPathname(locale, getMarketingRoutePathname(slug)),
         },
       ]}
+    />
+  );
+}
+
+function renderProductStructuredData(
+  locale: AppLocale,
+  offerNames: ProductOfferNames
+): React.JSX.Element {
+  return (
+    <StructuredDataScript
+      value={createProductJsonLdGraph({
+        description: readPageContent("home", locale).description,
+        locale,
+        offerNames,
+      })}
     />
   );
 }
@@ -351,9 +371,11 @@ export async function MarketingPageView({
   const breadcrumb = renderMarketingBreadcrumbs(locale, slug, pageContent.title);
 
   let page: React.JSX.Element;
+  let productStructuredData: React.JSX.Element | null;
 
   switch (slug) {
     case "home":
+      productStructuredData = renderProductStructuredData(locale, ["Free"]);
       page = renderHomePage(
         locale,
         getSectionByType(pageContent.sections, "hero"),
@@ -363,6 +385,7 @@ export async function MarketingPageView({
       );
       break;
     case "features":
+      productStructuredData = renderProductStructuredData(locale, ["Free"]);
       page = renderFeaturesPage(
         locale,
         pageContent.title,
@@ -371,6 +394,7 @@ export async function MarketingPageView({
       );
       break;
     case "pricing":
+      productStructuredData = renderProductStructuredData(locale, ["Free", "Premium"]);
       page = renderPricingPage(
         locale,
         pageContent.title,
@@ -381,6 +405,7 @@ export async function MarketingPageView({
     case "privacy":
     case "support":
     case "terms":
+      productStructuredData = null;
       page = await renderLegalPage(
         locale,
         pageContent.title,
@@ -395,6 +420,7 @@ export async function MarketingPageView({
 
   return (
     <SiteFrame locale={locale} routePathname={routePathname}>
+      {productStructuredData}
       {page}
     </SiteFrame>
   );

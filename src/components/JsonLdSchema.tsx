@@ -1,7 +1,7 @@
 import type { AppLocale } from "@/lib/i18n";
 import { readPageContent } from "@/lib/content/readPageContent";
 import {
-  createSiteApplicationJsonLdGraph,
+  createSiteJsonLdGraph,
   serializeStructuredData,
 } from "@/lib/seo/structuredData";
 
@@ -13,7 +13,7 @@ export function JsonLdSchema({
   locale,
 }: JsonLdSchemaProps): React.JSX.Element {
   const homePageContent = readPageContent("home", locale);
-  const siteApplicationGraph = createSiteApplicationJsonLdGraph({
+  const siteGraph = createSiteJsonLdGraph({
     description: homePageContent.description,
     locale,
   });
@@ -21,7 +21,7 @@ export function JsonLdSchema({
   return (
     <script
       type="application/ld+json"
-      dangerouslySetInnerHTML={{ __html: serializeStructuredData(siteApplicationGraph) }}
+      dangerouslySetInnerHTML={{ __html: serializeStructuredData(siteGraph) }}
     />
   );
 }
