@@ -1,32 +1,51 @@
 import type { PageContent } from "@/lib/content/types";
 
 export const PRICING_PAGE_CONTENT: PageContent = {
-  title: "Brezplačna uporaba. Brezplačno lastno gostovanje.",
+  title: "Začnite brezplačno. Premium za več AI.",
   description:
-    "Gostovano aplikacijo uporabljajte brez stroškov, med beta različico sta vključena AI in sinhronizacija, ali pa odprtokodni sistem gostite na lastni infrastrukturi AWS.",
+    "Začnite brezplačno v gostovani aplikaciji, za več klepeta z AI preidite na Premium za USD 6.99 na mesec ali pa odprtokodni sistem gostite na lastni infrastrukturi AWS.",
   slug: "pricing",
   sections: [
     {
       type: "pricing_tiers",
-      title: "Brezplačna uporaba. Brezplačno lastno gostovanje.",
+      title: "Začnite brezplačno. Premium za več AI.",
       intro:
-        "Gostovano aplikacijo uporabljajte brez stroškov in brez kreditne kartice ali pa odprtokodni sistem poženite na lastni infrastrukturi AWS.",
+        "Gostovano aplikacijo začnite uporabljati brezplačno in brez kreditne kartice, za več klepeta z AI dodajte Premium ali pa odprtokodni sistem brezplačno gostite na lastni infrastrukturi AWS.",
       tiers: [
         {
           type: "auth_tier",
-          name: "Gostovano",
+          name: "Brezplačno",
           price: "Brezplačno",
           highlighted: true,
           bullets: [
-            "Funkcije AI so med beta različico vključene",
+            "50 sporočil v klepetu z AI na mesec",
+            "Uporabite lasten ključ OpenAI API; njegova poraba se ne šteje v mesečno omejitev",
             "Vključena sinhronizacija med spletom, iOS-om in Androidom",
-            "Med beta različico ni omejitev paketa glede števila kartic, datotek ali skupne shrambe; veljajo običajne tehnične omejitve na datoteko in na operacijo",
+            "Ni omejitev paketa glede števila kartic, datotek ali skupne shrambe; veljajo običajne tehnične omejitve na datoteko in na operacijo",
             "Uvoz in izvoz kartic, oznak in predstavnosti med gostovano namestitvijo in namestitvijo na lastnem strežniku",
             "Prijava brez gesla z enkratno kodo po e-pošti",
-            "Osnovno ustvarjanje in ponavljanje kartic bo ostalo brezplačno; večja poraba AI bo pozneje morda zahtevala lasten ključ API pri ponudniku ali plačljivo možnost",
           ],
           cta: {
             label: "Brezplačno uporabite gostovano aplikacijo",
+            href: "https://app.nibomo.com",
+          },
+        },
+        {
+          type: "auth_tier",
+          name: "Premium",
+          price: "$6.99/mesec",
+          highlighted: false,
+          bullets: [
+            "7-dnevno brezplačno preizkusno obdobje za upravičene nove naročnike; potreben je način plačila",
+            "1000 sporočil v klepetu z AI na mesec",
+            "Barve poudarka po meri",
+            "Vse iz brezplačnega paketa",
+            "Ena naročnina za vaš račun v spletu, iOS-u in Androidu",
+            "Cena v USD z vključenimi davki; ob plačilu je lahko prikazana cena v lokalni valuti",
+            "Naročnina se obnavlja mesečno; prekličete jo lahko kadar koli, dostop pa ohranite do konca obdobja",
+          ],
+          cta: {
+            label: "Začnite 7-dnevno brezplačno preizkusno obdobje",
             href: "https://app.nibomo.com",
           },
         },
