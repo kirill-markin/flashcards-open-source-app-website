@@ -38,6 +38,16 @@ Fitur AI terkelola bersifat opsional dan menggunakan OpenAI. Telemetri AI terkai
 
 Saat Anda mengizinkan klien AI eksternal menggunakan layanan MCP atau Agent API, klien tersebut dan penyedia modelnya memproses data yang Anda minta berdasarkan ketentuan mereka sendiri. Kami tidak bertanggung jawab atas pengoperasian atau output klien eksternal.
 
+## Langganan Stripe
+
+Jika checkout Stripe tersedia, Nibomo Premium ditawarkan dengan harga dasar USD 6.99 per bulan, sudah termasuk pajak yang berlaku. Stripe Adaptive Pricing dapat menampilkan harga dalam mata uang lokal; Stripe menampilkan jumlah akhir dan mata uang penagihan sebelum Anda mengonfirmasi. Untuk membeli, Anda harus masuk ke akun yang memiliki alamat email; pengguna tamu harus menautkan email terlebih dahulu.
+
+Pelanggan Stripe yang memenuhi syarat mendapatkan uji coba gratis tujuh hari dengan syarat menambahkan metode pembayaran. Uji coba tersedia satu kali per pelanggan Stripe; uji coba Apple atau Google sebelumnya tidak memengaruhi kelayakan. Jika Anda tidak membatalkan sebelum uji coba berakhir, biaya langganan bulanan akan ditagihkan ke metode pembayaran Anda. Setelah itu, langganan diperpanjang otomatis setiap bulan hingga dibatalkan. Pengingat uji coba mencantumkan harga dasar bulanan; Stripe menampilkan tagihan akhir dalam mata uang penagihan.
+
+Gunakan [Pengaturan langganan](https://app.nibomo.com/settings/subscription) untuk membuka portal penagihan Stripe serta mengelola atau membatalkan langganan Anda. Pembatalan biasa berlaku pada akhir periode uji coba atau periode berbayar yang sedang berjalan; akses tetap berlanjut hingga saat itu. Pembelian melalui Stripe tidak membatalkan langganan Apple atau Google terpisah mana pun dan tidak menggantikan akses seumur hidup yang sudah ada.
+
+Sebelum data dihapus, penghapusan akun Nibomo Anda dari klien mana pun yang didukung akan membatalkan perpanjangan mendatang untuk semua langganan Stripe Nibomo yang tertaut ke akun tersebut dan menutup sesi checkout Nibomo yang masih terbuka. Jika pembatalan tidak dapat dikonfirmasi, penghapusan tidak akan diselesaikan; coba lagi atau hubungi dukungan. Penghapusan akun tidak membatalkan langganan Apple atau Google. Pembatalan dan penghapusan akun tidak secara otomatis memberikan pengembalian dana atau kredit prorata. Tidak ada bagian dari Ketentuan ini yang membatasi hak konsumen yang bersifat wajib, termasuk hak penarikan diri atau pengembalian dana yang berlaku.
+
 ## Ketersediaan dan Perubahan
 
 Beta terkelola disediakan berdasarkan upaya terbaik dan dapat berubah, dijeda, atau dihentikan tanpa pemberitahuan. Kami tidak menjamin ketersediaan tanpa gangguan, terjaganya setiap salinan lokal atau terkelola, atau bahwa setiap fitur akan tetap tersedia. Simpan salinan independen dari konten yang tidak boleh hilang.

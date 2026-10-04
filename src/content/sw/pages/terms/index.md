@@ -38,6 +38,16 @@ Vipengele vya AI vilivyopangishwa ni vya hiari na hutumia OpenAI. Telemetria ina
 
 Unapoidhinisha kiteja cha nje cha AI kutumia huduma ya MCP au Agent API, kiteja hicho na mtoa huduma wake wa modeli huchakata data unayoiomba chini ya masharti yao wenyewe. Hatuwajibiki kwa uendeshaji au matokeo ya kiteja cha nje.
 
+## Usajili wa Stripe
+
+Malipo kupitia Stripe yanapopatikana, Nibomo Premium hutolewa kwa bei ya msingi ya USD 6.99 kwa mwezi, ikijumuisha kodi zinazotumika. Stripe Adaptive Pricing inaweza kuonyesha bei kwa sarafu ya ndani; Stripe huonyesha kiasi cha mwisho na sarafu ya malipo kabla hujathibitisha. Ili kununua, lazima uwe umeingia kwenye akaunti yenye anwani ya barua pepe; watumiaji wageni lazima kwanza waunganishe barua pepe.
+
+Wateja wa Stripe wanaostahiki hupata kipindi cha majaribio bila malipo cha siku saba, ambacho kinahitaji uweke njia ya malipo. Kipindi cha majaribio kinapatikana mara moja kwa kila mteja wa Stripe; vipindi vya majaribio vya awali vya Apple au Google haviathiri ustahiki. Usipoghairi kabla ya kipindi cha majaribio kuisha, njia yako ya malipo itatozwa kwa usajili wa kila mwezi. Baada ya hapo usajili husasishwa kiotomatiki kila mwezi hadi utakapoghairiwa. Vikumbusho vya kipindi cha majaribio hutaja bei ya msingi ya kila mwezi; Stripe huonyesha kiasi cha mwisho cha kutozwa kwa sarafu ya malipo.
+
+Tumia [Mipangilio ya usajili](https://app.nibomo.com/settings/subscription) kufungua lango la malipo la Stripe na kusimamia au kughairi usajili wako. Kughairi kwa kawaida huanza kutumika mwishoni mwa kipindi cha sasa cha majaribio au cha kulipia; ufikiaji unaendelea hadi wakati huo. Ununuzi kupitia Stripe haughairi usajili wowote tofauti wa Apple au Google wala hauchukui nafasi ya ufikiaji wa maisha yote uliopo.
+
+Unapofuta akaunti yako ya Nibomo kutoka kwa kiteja chochote kinachoungwa mkono, usasishaji wa baadaye wa usajili wote wa Stripe wa Nibomo uliounganishwa na akaunti hiyo hughairiwa, na vipindi vya malipo vya Nibomo vilivyo wazi hufungwa, kabla ya data kufutwa. Ikiwa kughairi hakuwezi kuthibitishwa, ufutaji hautakamilika; jaribu tena au wasiliana na msaada. Kufuta akaunti hakughairi usajili wa Apple au Google. Kughairi na kufuta akaunti hakutoi kiotomatiki marejesho ya pesa au salio linalolingana na muda uliobaki. Hakuna chochote katika Masharti haya kinachowekea mipaka haki za lazima za mlaji, zikiwemo haki zozote zinazotumika za kujitoa au za kurejeshewa pesa.
+
 ## Upatikanaji na mabadiliko
 
 Beta iliyopangishwa hutolewa kwa juhudi bora kadri inavyowezekana na inaweza kubadilika, kusitishwa kwa muda au kukomeshwa bila taarifa. Hatuhakikishi upatikanaji usiokatizwa, kuhifadhiwa kwa kila nakala ya ndani au iliyopangishwa, wala kwamba kila kipengele kitaendelea kupatikana. Weka nakala yako tofauti ya maudhui ambayo huwezi kumudu kuyapoteza.
