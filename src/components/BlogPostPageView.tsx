@@ -17,9 +17,10 @@ import { getAbsoluteUrl, getLocalizedPathname } from "@/lib/i18n";
 import { getExternalLinkAttributes } from "@/lib/linkTargets";
 import {
   CREATOR_ENTITY,
-  CREATOR_REFERENCE,
+  PUBLISHER_REFERENCE,
   STRUCTURED_DATA_AUTHOR_NAME,
   STRUCTURED_DATA_AUTHOR_URL,
+  serializeStructuredData,
   type PersonStructuredData,
   type StructuredDataEntityReference,
 } from "@/lib/seo/structuredData";
@@ -79,7 +80,7 @@ export async function BlogPostPageView({
     },
     url: articleUrl,
     author: CREATOR_ENTITY,
-    publisher: CREATOR_REFERENCE,
+    publisher: PUBLISHER_REFERENCE,
   };
   const recommendedPosts = getRecommendedBlogPosts(locale, slug, 4);
   const localizedContentHtml = await renderMarkdownToHtml(
@@ -98,7 +99,7 @@ export async function BlogPostPageView({
       <article className={styles.container}>
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+          dangerouslySetInnerHTML={{ __html: serializeStructuredData(articleSchema) }}
         />
         <div className={styles.startCtaRail}>
           <BlogStartSideCta locale={locale} />

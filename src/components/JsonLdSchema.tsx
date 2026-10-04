@@ -1,6 +1,9 @@
 import type { AppLocale } from "@/lib/i18n";
 import { readPageContent } from "@/lib/content/readPageContent";
-import { createSiteApplicationJsonLdGraph } from "@/lib/seo/structuredData";
+import {
+  createSiteApplicationJsonLdGraph,
+  serializeStructuredData,
+} from "@/lib/seo/structuredData";
 
 interface JsonLdSchemaProps {
   readonly locale: AppLocale;
@@ -18,7 +21,7 @@ export function JsonLdSchema({
   return (
     <script
       type="application/ld+json"
-      dangerouslySetInnerHTML={{ __html: JSON.stringify(siteApplicationGraph) }}
+      dangerouslySetInnerHTML={{ __html: serializeStructuredData(siteApplicationGraph) }}
     />
   );
 }
