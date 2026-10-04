@@ -1,32 +1,51 @@
 import type { PageContent } from "@/lib/content/types";
 
 export const PRICING_PAGE_CONTENT: PageContent = {
-  title: "Bez maksas lietot. Bez maksas darbināt savā serverī.",
+  title: "Sāc bez maksas. Vairāk MI ar Premium.",
   description:
-    "Lieto mitināto lietotni bez maksas — beta versijas laikā MI un sinhronizācija ir iekļauti — vai darbini atvērtā pirmkoda sistēmu savā AWS infrastruktūrā.",
+    "Sāc bez maksas mitinātajā lietotnē, pārej uz Premium par USD 6.99/mēnesī, lai iegūtu vairāk MI sarunu, vai darbini atvērtā pirmkoda sistēmu savā AWS infrastruktūrā.",
   slug: "pricing",
   sections: [
     {
       type: "pricing_tiers",
-      title: "Bez maksas lietot. Bez maksas darbināt savā serverī.",
+      title: "Sāc bez maksas. Vairāk MI ar Premium.",
       intro:
-        "Lieto mitināto lietotni bez maksas un bez kredītkartes vai darbini atvērtā pirmkoda sistēmu savā AWS infrastruktūrā.",
+        "Sāc lietot mitināto lietotni bez maksas un bez kredītkartes, pievieno Premium, lai iegūtu vairāk MI sarunu, vai bez maksas darbini atvērtā pirmkoda sistēmu savā AWS infrastruktūrā.",
       tiers: [
         {
           type: "auth_tier",
-          name: "Mitinātā versija",
+          name: "Bezmaksas",
           price: "Bez maksas",
           highlighted: true,
           bullets: [
-            "Beta versijas laikā MI funkcijas ir iekļautas",
+            "50 MI sarunu ziņu mēnesī",
+            "Izmanto savu OpenAI API atslēgu; tās lietojums netiek ieskaitīts mēneša limitā",
             "Sinhronizācija starp tīmekli, iOS un Android ir iekļauta",
-            "Beta versijas laikā nav plāna kvotu kartītēm, failiem vai kopējai krātuvei; spēkā ir parastie tehniskie ierobežojumi vienam failam un vienai darbībai",
+            "Nav plāna kvotu kartītēm, failiem vai kopējai krātuvei; spēkā ir parastie tehniskie ierobežojumi vienam failam un vienai darbībai",
             "Kartīšu, birku un multivides imports un eksports starp mitināto un savā serverī darbināto instalāciju",
             "Pieteikšanās bez paroles ar vienreizēju kodu e-pastā",
-            "Kartīšu veidošanas un atkārtošanas pamatfunkcijas paliks bez maksas; lielākam MI lietojumam vēlāk var būt vajadzīga sava pakalpojumu sniedzēja API atslēga vai maksas variants",
           ],
           cta: {
             label: "Lietot mitināto lietotni bez maksas",
+            href: "https://app.nibomo.com",
+          },
+        },
+        {
+          type: "auth_tier",
+          name: "Premium",
+          price: "$6.99/mēnesī",
+          highlighted: false,
+          bullets: [
+            "7 dienu bezmaksas izmēģinājums jauniem abonentiem, kas atbilst nosacījumiem; nepieciešams maksāšanas veids",
+            "1000 MI sarunu ziņu mēnesī",
+            "Pielāgotas akcenta krāsas",
+            "Viss, kas ir plānā „Bezmaksas“",
+            "Viens abonements tavam kontam tīmeklī, iOS un Android",
+            "Cena ASV dolāros ar iekļautiem nodokļiem; norēķinoties var tikt parādīta cena vietējā valūtā",
+            "Abonements tiek atjaunots katru mēnesi; atcel jebkurā laikā, un piekļuve saglabājas līdz perioda beigām",
+          ],
+          cta: {
+            label: "Izmēģini 7 dienas bez maksas",
             href: "https://app.nibomo.com",
           },
         },

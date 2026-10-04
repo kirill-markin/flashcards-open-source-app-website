@@ -1,32 +1,51 @@
 import type { PageContent } from "@/lib/content/types";
 
 export const PRICING_PAGE_CONTENT: PageContent = {
-  title: "Ilmainen käyttää. Ilmainen ylläpitää itse.",
+  title: "Aloita ilmaiseksi. Premiumilla enemmän tekoälyä.",
   description:
-    "Käytä isännöityä sovellusta maksutta – tekoäly ja synkronointi sisältyvät beetan ajan – tai ylläpidä avoimen lähdekoodin pinoa itse omassa AWS-infrastruktuurissasi.",
+    "Aloita isännöidyssä sovelluksessa ilmaiseksi, päivitä Premiumiin hintaan USD 6.99 kuukaudessa saadaksesi enemmän tekoälykeskusteluja tai ylläpidä avoimen lähdekoodin pinoa itse omassa AWS-infrastruktuurissasi.",
   slug: "pricing",
   sections: [
     {
       type: "pricing_tiers",
-      title: "Ilmainen käyttää. Ilmainen ylläpitää itse.",
+      title: "Aloita ilmaiseksi. Premiumilla enemmän tekoälyä.",
       intro:
-        "Käytä isännöityä sovellusta maksutta ilman luottokorttia tai aja avoimen lähdekoodin pinoa omassa AWS-infrastruktuurissasi.",
+        "Aloita isännöidyssä sovelluksessa ilmaiseksi ilman luottokorttia, lisää Premium saadaksesi enemmän tekoälykeskusteluja tai ylläpidä avoimen lähdekoodin pinoa itse ilmaiseksi omassa AWS-infrastruktuurissasi.",
       tiers: [
         {
           type: "auth_tier",
-          name: "Isännöity",
+          name: "Ilmainen",
           price: "Ilmainen",
           highlighted: true,
           bullets: [
-            "Tekoälyominaisuudet sisältyvät beetan ajan",
+            "50 tekoälykeskusteluviestiä kuukaudessa",
+            "Käytä omaa OpenAI API -avaintasi; sen käyttö ei kuluta kuukausirajaa",
             "Synkronointi verkon, iOS:n ja Androidin välillä sisältyy",
-            "Beetan aikana ei ole tilaustasoon sidottuja kiintiöitä korteille, tiedostoille tai kokonaistallennustilalle; tavanomaiset tiedosto- ja toimintokohtaiset tekniset rajat ovat voimassa",
+            "Ei tilaustasoon sidottuja kiintiöitä korteille, tiedostoille tai kokonaistallennustilalle; tavanomaiset tiedosto- ja toimintokohtaiset tekniset rajat ovat voimassa",
             "Tuo ja vie kortteja, tunnisteita ja mediaa isännöidyn ja itse ylläpidetyn asennuksen välillä",
             "Salasanaton kirjautuminen kertakäyttöisellä sähköpostikoodilla",
-            "Korttien luonti ja kertaaminen pysyvät ilmaisina; runsaampi tekoälyn käyttö voi myöhemmin vaatia oman palveluntarjoajan API-avaimen tai maksullisen vaihtoehdon",
           ],
           cta: {
             label: "Käytä isännöityä sovellusta ilmaiseksi",
+            href: "https://app.nibomo.com",
+          },
+        },
+        {
+          type: "auth_tier",
+          name: "Premium",
+          price: "$6.99/kk",
+          highlighted: false,
+          bullets: [
+            "7 päivän ilmainen kokeilujakso ehdot täyttäville uusille tilaajille; maksutapa vaaditaan",
+            "1000 tekoälykeskusteluviestiä kuukaudessa",
+            "Mukautetut korostusvärit",
+            "Kaikki Ilmainen-paketin ominaisuudet",
+            "Yksi tilaus tilillesi verkossa, iOS:ssä ja Androidissa",
+            "Hinta USD:nä, sisältää verot; maksun yhteydessä hinta voidaan näyttää paikallisessa valuutassa",
+            "Uusiutuu kuukausittain; voit peruuttaa milloin tahansa, ja käyttöoikeus säilyy jakson loppuun",
+          ],
+          cta: {
+            label: "Aloita 7 päivän ilmainen kokeilujakso",
             href: "https://app.nibomo.com",
           },
         },

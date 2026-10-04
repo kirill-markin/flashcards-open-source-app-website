@@ -1,32 +1,51 @@
 import type { PageContent } from "@/lib/content/types";
 
 export const PRICING_PAGE_CONTENT: PageContent = {
-  title: "Grátis para usar. Grátis para hospedar você mesmo.",
+  title: "Grátis para começar. Premium para mais IA.",
   description:
-    "Use o app hospedado sem custo, com IA e sincronização incluídas durante o beta, ou hospede a stack de código aberto na sua própria infraestrutura AWS.",
+    "Comece grátis no app hospedado, assine o Premium por US$ 6,99/mês para ter mais chat com IA ou hospede a stack de código aberto na sua própria infraestrutura AWS.",
   slug: "pricing",
   sections: [
     {
       type: "pricing_tiers",
-      title: "Grátis para usar. Grátis para hospedar você mesmo.",
+      title: "Grátis para começar. Premium para mais IA.",
       intro:
-        "Use o app hospedado sem custo e sem precisar de cartão de crédito, ou rode a stack de código aberto na sua própria infraestrutura AWS.",
+        "Comece grátis no app hospedado, sem precisar de cartão de crédito, adicione o Premium para ter mais chat com IA ou rode a stack de código aberto na sua própria infraestrutura AWS, também de graça.",
       tiers: [
         {
           type: "auth_tier",
-          name: "Hospedado",
+          name: "Grátis",
           price: "Grátis",
           highlighted: true,
           bullets: [
-            "Recursos de IA incluídos durante o beta",
+            "50 mensagens de chat com IA por mês",
+            "Use sua própria chave da OpenAI API; o uso com ela não conta no limite mensal",
             "Sincronização entre web, iOS e Android incluída",
-            "Sem cotas de plano para cartões, arquivos ou armazenamento total durante o beta; valem os limites técnicos normais por arquivo e por operação",
+            "Sem cotas de plano para cartões, arquivos ou armazenamento total; valem os limites técnicos normais por arquivo e por operação",
             "Importe e exporte cartões, tags e mídias entre instalações hospedadas e auto-hospedadas",
             "Login sem senha, com um código de uso único enviado por e-mail",
-            "A criação e a revisão de cartões vão continuar gratuitas; um uso maior de IA pode exigir mais adiante a sua própria chave de API do provedor ou uma opção paga",
           ],
           cta: {
             label: "Usar o app hospedado de graça",
+            href: "https://app.nibomo.com",
+          },
+        },
+        {
+          type: "auth_tier",
+          name: "Premium",
+          price: "US$ 6,99/mês",
+          highlighted: false,
+          bullets: [
+            "Teste gratuito de 7 dias para novos assinantes elegíveis; é preciso informar uma forma de pagamento",
+            "1000 mensagens de chat com IA por mês",
+            "Cores de destaque personalizadas",
+            "Tudo o que o plano Grátis oferece",
+            "Uma única assinatura para sua conta na web, no iOS e no Android",
+            "Preço em dólares americanos, impostos incluídos; no checkout, o valor pode aparecer em moeda local",
+            "Renovação mensal; cancele quando quiser e mantenha o acesso até o fim do período",
+          ],
+          cta: {
+            label: "Testar grátis por 7 dias",
             href: "https://app.nibomo.com",
           },
         },

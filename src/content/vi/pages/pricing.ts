@@ -1,32 +1,51 @@
 import type { PageContent } from "@/lib/content/types";
 
 export const PRICING_PAGE_CONTENT: PageContent = {
-  title: "Miễn phí để dùng. Miễn phí để tự lưu trữ.",
+  title: "Bắt đầu miễn phí. Premium để dùng AI nhiều hơn.",
   description:
-    "Dùng ứng dụng đã được lưu trữ sẵn mà không mất phí, có AI và đồng bộ trong giai đoạn beta, hoặc tự lưu trữ toàn bộ mã nguồn mở trên hạ tầng AWS của bạn.",
+    "Bắt đầu miễn phí với bản lưu trữ sẵn, nâng cấp lên Premium với giá USD 6.99 mỗi tháng để trò chuyện với AI nhiều hơn, hoặc tự lưu trữ toàn bộ mã nguồn mở trên hạ tầng AWS của bạn.",
   slug: "pricing",
   sections: [
     {
       type: "pricing_tiers",
-      title: "Miễn phí để dùng. Miễn phí để tự lưu trữ.",
+      title: "Bắt đầu miễn phí. Premium để dùng AI nhiều hơn.",
       intro:
-        "Dùng ứng dụng đã được lưu trữ sẵn mà không mất phí và không cần thẻ tín dụng, hoặc tự chạy toàn bộ mã nguồn mở trên hạ tầng AWS của bạn.",
+        "Bắt đầu miễn phí với ứng dụng đã được lưu trữ sẵn mà không cần thẻ tín dụng, thêm Premium để trò chuyện với AI nhiều hơn, hoặc tự lưu trữ miễn phí toàn bộ mã nguồn mở trên hạ tầng AWS của bạn.",
       tiers: [
         {
           type: "auth_tier",
-          name: "Lưu trữ sẵn",
+          name: "Miễn phí",
           price: "Miễn phí",
           highlighted: true,
           bullets: [
-            "Tính năng AI có sẵn trong giai đoạn beta",
+            "50 tin nhắn trò chuyện AI mỗi tháng",
+            "Dùng khóa OpenAI API của riêng bạn; mức sử dụng qua khóa này không tính vào giới hạn hằng tháng",
             "Đồng bộ giữa web, iOS và Android đã bao gồm",
-            "Không giới hạn theo gói về thẻ, tệp hay tổng dung lượng trong giai đoạn beta; vẫn áp dụng các giới hạn kỹ thuật thông thường cho từng tệp và từng thao tác",
+            "Không giới hạn theo gói về thẻ, tệp hay tổng dung lượng; vẫn áp dụng các giới hạn kỹ thuật thông thường cho từng tệp và từng thao tác",
             "Nhập và xuất thẻ, nhãn và media giữa bản lưu trữ sẵn và bản tự lưu trữ",
             "Đăng nhập không cần mật khẩu bằng mã dùng một lần gửi qua email",
-            "Việc tạo và ôn tập thẻ cơ bản sẽ luôn miễn phí; mức dùng AI cao hơn sau này có thể cần khóa API riêng của bạn hoặc một tùy chọn trả phí",
           ],
           cta: {
             label: "Dùng bản lưu trữ sẵn miễn phí",
+            href: "https://app.nibomo.com",
+          },
+        },
+        {
+          type: "auth_tier",
+          name: "Premium",
+          price: "$6.99/tháng",
+          highlighted: false,
+          bullets: [
+            "Dùng thử miễn phí 7 ngày cho người đăng ký mới đủ điều kiện; cần có phương thức thanh toán",
+            "1000 tin nhắn trò chuyện AI mỗi tháng",
+            "Màu nhấn tùy chỉnh",
+            "Mọi thứ trong gói Miễn phí",
+            "Một gói đăng ký cho tài khoản của bạn trên web, iOS và Android",
+            "Giá niêm yết bằng USD, đã bao gồm thuế; trang thanh toán có thể hiển thị giá bằng nội tệ",
+            "Tự động gia hạn hằng tháng; hủy bất cứ lúc nào và vẫn dùng được đến hết kỳ hiện tại",
+          ],
+          cta: {
+            label: "Bắt đầu dùng thử miễn phí 7 ngày",
             href: "https://app.nibomo.com",
           },
         },

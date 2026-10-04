@@ -1,32 +1,51 @@
 import type { PageContent } from "@/lib/content/types";
 
 export const PRICING_PAGE_CONTENT: PageContent = {
-  title: "Gratuït per fer-lo servir. Gratuït per autoallotjar-lo.",
+  title: "Gratuït per començar. Premium per a més IA.",
   description:
-    "Fes servir l'app allotjada sense cost, amb IA i sincronització incloses durant la beta, o autoallotja la pila de codi obert a la teva pròpia infraestructura d'AWS.",
+    "Comença gratis a l'app allotjada, passa a Premium per USD 6.99 al mes i xateja més amb la IA, o autoallotja la pila de codi obert a la teva pròpia infraestructura d'AWS.",
   slug: "pricing",
   sections: [
     {
       type: "pricing_tiers",
-      title: "Gratuït per fer-lo servir. Gratuït per autoallotjar-lo.",
+      title: "Gratuït per començar. Premium per a més IA.",
       intro:
-        "Fes servir l'app allotjada sense cost i sense targeta de crèdit, o executa la pila de codi obert a la teva pròpia infraestructura d'AWS.",
+        "Comença a l'app allotjada de franc i sense targeta de crèdit, afegeix Premium per xatejar més amb la IA, o autoallotja de franc la pila de codi obert a la teva pròpia infraestructura d'AWS.",
       tiers: [
         {
           type: "auth_tier",
-          name: "Allotjat",
+          name: "Gratuït",
           price: "Gratuït",
           highlighted: true,
           bullets: [
-            "Funcions d'IA incloses durant la beta",
+            "50 missatges al xat amb IA al mes",
+            "Fes servir la teva pròpia clau de l'API d'OpenAI; el seu ús no compta dins del límit mensual",
             "Sincronització entre el web, iOS i Android inclosa",
-            "Sense quotes per pla en targetes, fitxers ni emmagatzematge total durant la beta; s'apliquen els límits tècnics habituals per fitxer i per operació",
+            "Sense quotes per pla en targetes, fitxers ni emmagatzematge total; s'apliquen els límits tècnics habituals per fitxer i per operació",
             "Importa i exporta targetes, etiquetes i contingut multimèdia entre instal·lacions allotjades i autoallotjades",
             "Inici de sessió sense contrasenya amb un codi d'un sol ús per correu electrònic",
-            "La creació i el repàs bàsics de targetes seguiran sent gratuïts; un ús més intens de la IA pot requerir més endavant la teva pròpia clau API de proveïdor o una opció de pagament",
           ],
           cta: {
             label: "Fes servir l'app allotjada de franc",
+            href: "https://app.nibomo.com",
+          },
+        },
+        {
+          type: "auth_tier",
+          name: "Premium",
+          price: "$6.99/mes",
+          highlighted: false,
+          bullets: [
+            "Prova gratuïta de 7 dies per a subscriptors nous que compleixin els requisits; cal un mètode de pagament",
+            "1000 missatges al xat amb IA al mes",
+            "Colors d'accent personalitzats",
+            "Tot el que inclou el pla Gratuït",
+            "Una sola subscripció per al teu compte al web, iOS i Android",
+            "Preu en USD amb impostos inclosos; en el pagament pot aparèixer un preu en moneda local",
+            "Es renova cada mes; cancel·la quan vulguis i conserva l'accés fins al final del període",
+          ],
+          cta: {
+            label: "Comença la prova gratuïta de 7 dies",
             href: "https://app.nibomo.com",
           },
         },

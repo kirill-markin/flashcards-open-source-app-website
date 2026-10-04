@@ -1,32 +1,51 @@
 import type { PageContent } from "@/lib/content/types";
 
 export const PRICING_PAGE_CONTENT: PageContent = {
-  title: "Ókeypis í notkun. Ókeypis í eigin hýsingu.",
+  title: "Ókeypis til að byrja. Premium fyrir meiri gervigreind.",
   description:
-    "Notaðu hýstu útgáfuna án endurgjalds, með gervigreind og samstillingu innifalinni á beta-tímabilinu, eða hýstu opna hugbúnaðinn á eigin AWS-innviðum.",
+    "Byrjaðu ókeypis í hýstu útgáfunni, uppfærðu í Premium fyrir USD 6.99 á mánuði og fáðu meira gervigreindarspjall, eða hýstu opna hugbúnaðinn á eigin AWS-innviðum.",
   slug: "pricing",
   sections: [
     {
       type: "pricing_tiers",
-      title: "Ókeypis í notkun. Ókeypis í eigin hýsingu.",
+      title: "Ókeypis til að byrja. Premium fyrir meiri gervigreind.",
       intro:
-        "Notaðu hýstu útgáfuna án endurgjalds og án kreditkorts, eða keyrðu opna hugbúnaðinn á eigin AWS-innviðum.",
+        "Byrjaðu ókeypis í hýstu útgáfunni án kreditkorts, bættu við Premium fyrir meira gervigreindarspjall, eða hýstu opna hugbúnaðinn ókeypis á eigin AWS-innviðum.",
       tiers: [
         {
           type: "auth_tier",
-          name: "Hýst",
+          name: "Ókeypis",
           price: "Ókeypis",
           highlighted: true,
           bullets: [
-            "Gervigreindareiginleikar innifaldir á beta-tímabilinu",
+            "50 skilaboð í gervigreindarspjalli á mánuði",
+            "Notaðu þinn eigin OpenAI API-lykil; notkun hans telst ekki með í mánaðarlega hámarkinu",
             "Samstilling milli vefs, iOS og Android innifalin",
-            "Engir áskriftarbundnir kvótar á spjöld, skrár eða heildargeymslu á beta-tímabilinu; venjuleg tæknileg mörk á hverja skrá og hverja aðgerð gilda áfram",
+            "Engir áskriftarbundnir kvótar á spjöld, skrár eða heildargeymslu; venjuleg tæknileg mörk á hverja skrá og hverja aðgerð gilda áfram",
             "Flyttu spjöld, merki og miðla inn og út milli hýstra og sjálfhýstra uppsetninga",
             "Innskráning án lykilorðs með einnota kóða í tölvupósti",
-            "Grunnvinna við spjaldagerð og upprifjun verður áfram ókeypis; meiri notkun gervigreindar gæti síðar krafist eigin API-lykils hjá þjónustuaðila eða greiddrar leiðar",
           ],
           cta: {
             label: "Nota hýstu útgáfuna ókeypis",
+            href: "https://app.nibomo.com",
+          },
+        },
+        {
+          type: "auth_tier",
+          name: "Premium",
+          price: "$6.99/mán.",
+          highlighted: false,
+          bullets: [
+            "7 daga ókeypis prufa fyrir nýja áskrifendur sem uppfylla skilyrði; greiðslumáti er nauðsynlegur",
+            "1000 skilaboð í gervigreindarspjalli á mánuði",
+            "Sérsniðnir áherslulitir",
+            "Allt sem er innifalið í ókeypis leiðinni",
+            "Ein áskrift fyrir aðganginn þinn á vefnum, iOS og Android",
+            "Verð í USD, skattar innifaldir; við greiðslu getur verð birst í staðbundnum gjaldmiðli",
+            "Endurnýjast mánaðarlega; segðu upp hvenær sem er og haltu aðgangi til loka tímabilsins",
+          ],
+          cta: {
+            label: "Hefja 7 daga ókeypis prufu",
             href: "https://app.nibomo.com",
           },
         },

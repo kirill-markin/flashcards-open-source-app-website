@@ -1,32 +1,51 @@
 import type { PageContent } from "@/lib/content/types";
 
 export const PRICING_PAGE_CONTENT: PageContent = {
-  title: "Kostenlos nutzen. Kostenlos selbst hosten.",
+  title: "Kostenlos starten. Premium für mehr KI.",
   description:
-    "Nutze die gehostete App in der Beta kostenlos mit KI und Synchronisierung oder hoste den Open-Source-Stack in deiner eigenen AWS-Infrastruktur.",
+    "Starte kostenlos mit der gehosteten App, wechsle für 6,99 USD pro Monat zu Premium und chatte mehr mit der KI oder hoste den Open-Source-Stack selbst in deiner eigenen AWS-Infrastruktur.",
   slug: "pricing",
   sections: [
     {
       type: "pricing_tiers",
-      title: "Kostenlos nutzen. Kostenlos selbst hosten.",
+      title: "Kostenlos starten. Premium für mehr KI.",
       intro:
-        "Nutze die gehostete App kostenlos und ohne Kreditkarte oder betreibe den Open-Source-Stack in deiner eigenen AWS-Infrastruktur.",
+        "Starte kostenlos und ohne Kreditkarte mit der gehosteten App, buche Premium für mehr KI-Chat dazu oder hoste den Open-Source-Stack kostenlos selbst in deiner eigenen AWS-Infrastruktur.",
       tiers: [
         {
           type: "auth_tier",
-          name: "Gehostet",
+          name: "Kostenlos",
           price: "Kostenlos",
           highlighted: true,
           bullets: [
-            "KI-Funktionen während der Beta inklusive",
+            "50 KI-Chatnachrichten pro Monat",
+            "Nutze deinen eigenen OpenAI-API-Schlüssel; diese Nutzung zählt nicht zum monatlichen Limit",
             "Synchronisierung zwischen Web, iOS und Android inklusive",
-            "Keine tarifabhängigen Kontingente für Karten, Dateien oder Gesamtspeicher während der Beta; normale technische Limits pro Datei und Vorgang gelten",
+            "Keine tarifabhängigen Kontingente für Karten, Dateien oder Gesamtspeicher; normale technische Limits pro Datei und Vorgang gelten",
             "Import und Export von Karten, Tags und Medien zwischen gehosteten und selbst gehosteten Installationen",
             "Passwortlose Anmeldung mit einem Einmalcode per E-Mail",
-            "Das Erstellen und Wiederholen von Karten bleibt kostenlos; höhere KI-Nutzung kann später einen eigenen Anbieter-API-Schlüssel oder eine kostenpflichtige Option erfordern",
           ],
           cta: {
             label: "Gehostete App kostenlos nutzen",
+            href: "https://app.nibomo.com",
+          },
+        },
+        {
+          type: "auth_tier",
+          name: "Premium",
+          price: "6,99 $/Monat",
+          highlighted: false,
+          bullets: [
+            "7-tägige kostenlose Testphase für berechtigte Neuabonnenten; Zahlungsmethode erforderlich",
+            "1.000 KI-Chatnachrichten pro Monat",
+            "Eigene Akzentfarben",
+            "Alles aus dem kostenlosen Tarif",
+            "Ein Abonnement für dein Konto im Web, auf iOS und Android",
+            "Preis in USD inklusive Steuern; beim Checkout kann ein Preis in lokaler Währung angezeigt werden",
+            "Verlängert sich monatlich; jederzeit kündbar, der Zugang bleibt bis zum Ende des Zeitraums bestehen",
+          ],
+          cta: {
+            label: "7-tägige kostenlose Testphase starten",
             href: "https://app.nibomo.com",
           },
         },

@@ -1,32 +1,51 @@
 import type { PageContent } from "@/lib/content/types";
 
 export const PRICING_PAGE_CONTENT: PageContent = {
-  title: "Ni bure kutumia. Ni bure kujipangia mwenyewe.",
+  title: "Anza bila malipo. Premium kwa AI zaidi.",
   description:
-    "Tumia programu iliyopangishwa bila gharama, ikijumuisha AI na usawazishaji wakati wa beta, au jipangie mwenyewe mrundikano wa chanzo huria kwenye miundombinu yako ya AWS.",
+    "Anza bila malipo kwenye programu iliyopangishwa, pandisha hadi Premium kwa USD 6.99 kwa mwezi upate gumzo zaidi la AI, au jipangie mwenyewe mrundikano wa chanzo huria kwenye miundombinu yako ya AWS.",
   slug: "pricing",
   sections: [
     {
       type: "pricing_tiers",
-      title: "Ni bure kutumia. Ni bure kujipangia mwenyewe.",
+      title: "Anza bila malipo. Premium kwa AI zaidi.",
       intro:
-        "Tumia programu iliyopangishwa bila gharama na bila kadi ya mkopo, au endesha mrundikano wa chanzo huria kwenye miundombinu yako ya AWS.",
+        "Anza kwenye programu iliyopangishwa bila malipo na bila kadi ya mkopo, ongeza Premium upate gumzo zaidi la AI, au jipangie mwenyewe mrundikano wa chanzo huria kwenye miundombinu yako ya AWS bila malipo.",
       tiers: [
         {
           type: "auth_tier",
-          name: "Iliyopangishwa",
+          name: "Bila malipo",
           price: "Bila malipo",
           highlighted: true,
           bullets: [
-            "Vipengele vya AI vimejumuishwa wakati wa beta",
+            "Ujumbe 50 wa gumzo la AI kwa mwezi",
+            "Tumia ufunguo wako mwenyewe wa OpenAI API; matumizi yake hayahesabiwi kwenye kikomo cha kila mwezi",
             "Usawazishaji kati ya wavuti, iOS na Android umejumuishwa",
-            "Hakuna mgao unaotegemea mpango kwa kadi, faili au hifadhi yote wakati wa beta; mipaka ya kawaida ya kiufundi kwa kila faili na kila operesheni inatumika",
+            "Hakuna mgao unaotegemea mpango kwa kadi, faili au hifadhi yote; mipaka ya kawaida ya kiufundi kwa kila faili na kila operesheni inatumika",
             "Leta na utoe kadi, lebo na maudhui kati ya usakinishaji uliopangishwa na ule uliojipangia mwenyewe",
             "Kuingia bila nenosiri kwa msimbo wa mara moja unaotumwa kwa barua pepe",
-            "Utengenezaji wa kadi na marudio ya msingi vitabaki bila malipo; matumizi makubwa zaidi ya AI yanaweza baadaye kuhitaji ufunguo wako wa API wa mtoa huduma au chaguo la kulipia",
           ],
           cta: {
             label: "Tumia programu iliyopangishwa bila malipo",
+            href: "https://app.nibomo.com",
+          },
+        },
+        {
+          type: "auth_tier",
+          name: "Premium",
+          price: "$6.99/mwezi",
+          highlighted: false,
+          bullets: [
+            "Majaribio ya siku 7 bila malipo kwa wanaojisajili wapya wanaostahiki; njia ya malipo inahitajika",
+            "Ujumbe 1000 wa gumzo la AI kwa mwezi",
+            "Rangi maalumu za msisitizo",
+            "Kila kitu kilicho kwenye mpango wa Bila malipo",
+            "Usajili mmoja kwa akaunti yako kwenye wavuti, iOS na Android",
+            "Bei iko katika USD ikijumuisha kodi; wakati wa kulipa unaweza kuona bei kwa sarafu ya nchi yako",
+            "Hujisasisha kila mwezi; ghairi wakati wowote na uendelee kuwa na ufikiaji hadi mwisho wa kipindi",
+          ],
+          cta: {
+            label: "Anza majaribio ya siku 7 bila malipo",
             href: "https://app.nibomo.com",
           },
         },

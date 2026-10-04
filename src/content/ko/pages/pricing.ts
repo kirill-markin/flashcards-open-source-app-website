@@ -1,32 +1,51 @@
 import type { PageContent } from "@/lib/content/types";
 
 export const PRICING_PAGE_CONTENT: PageContent = {
-  title: "쓰는 것도 무료. 직접 호스팅해도 무료.",
+  title: "시작은 무료. 더 많은 AI는 Premium.",
   description:
-    "베타 기간 동안 AI와 동기화가 포함된 호스팅 앱을 무료로 쓰거나, 오픈 소스 스택을 직접 운영하는 AWS 인프라에 올리세요.",
+    "호스팅 앱을 무료로 시작하고, 월 USD 6.99의 Premium으로 업그레이드해 AI 채팅을 더 많이 쓰거나, 오픈 소스 스택을 직접 운영하는 AWS 인프라에 셀프 호스팅하세요.",
   slug: "pricing",
   sections: [
     {
       type: "pricing_tiers",
-      title: "쓰는 것도 무료. 직접 호스팅해도 무료.",
+      title: "시작은 무료. 더 많은 AI는 Premium.",
       intro:
-        "신용카드 없이 호스팅 앱을 무료로 쓰거나, 오픈 소스 스택을 직접 운영하는 AWS 인프라에서 돌리세요.",
+        "신용카드 없이 호스팅 앱을 무료로 시작하고, Premium을 추가해 AI 채팅을 더 많이 쓰거나, 오픈 소스 스택을 직접 운영하는 AWS 인프라에서 무료로 셀프 호스팅하세요.",
       tiers: [
         {
           type: "auth_tier",
-          name: "호스팅",
+          name: "무료",
           price: "무료",
           highlighted: true,
           bullets: [
-            "베타 기간 동안 AI 기능 포함",
+            "월 AI 채팅 메시지 50개",
+            "내 OpenAI API 키 사용 가능. 이 사용량은 월간 한도에 포함되지 않습니다",
             "웹, iOS, Android 간 동기화 포함",
-            "베타 기간 동안 카드, 파일, 전체 저장 용량에 요금제 할당량 없음. 파일 단위와 작업 단위의 일반 기술 제한은 적용됩니다",
+            "카드, 파일, 전체 저장 용량에 요금제 할당량 없음. 파일 단위와 작업 단위의 일반 기술 제한은 적용됩니다",
             "호스팅 설치와 셀프 호스팅 설치 사이에서 카드, 태그, 미디어를 가져오고 내보내기",
             "이메일 일회용 코드로 비밀번호 없이 로그인",
-            "카드 작성과 복습의 핵심 기능은 앞으로도 무료입니다. AI를 많이 쓰면 나중에 직접 준비한 제공업체 API 키나 유료 옵션이 필요할 수 있습니다",
           ],
           cta: {
             label: "호스팅 앱 무료로 쓰기",
+            href: "https://app.nibomo.com",
+          },
+        },
+        {
+          type: "auth_tier",
+          name: "Premium",
+          price: "$6.99/월",
+          highlighted: false,
+          bullets: [
+            "조건을 충족하는 신규 구독자에게 7일 무료 체험 제공. 결제 수단 등록 필요",
+            "월 AI 채팅 메시지 1000개",
+            "사용자 지정 강조 색상",
+            "무료 요금제의 모든 기능",
+            "웹, iOS, Android 어디서나 계정 하나에 구독 하나",
+            "USD 기준 세금 포함 가격. 결제 시 현지 통화 가격이 표시될 수 있습니다",
+            "매월 갱신. 언제든 취소할 수 있으며 기간이 끝날 때까지 이용 가능",
+          ],
+          cta: {
+            label: "7일 무료 체험 시작",
             href: "https://app.nibomo.com",
           },
         },

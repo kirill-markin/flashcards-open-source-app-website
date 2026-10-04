@@ -1,32 +1,51 @@
 import type { PageContent } from "@/lib/content/types";
 
 export const PRICING_PAGE_CONTENT: PageContent = {
-  title: "Mahhala ukusebenzisa. Mahhala nokuzisingathela.",
+  title: "Qala mahhala. I-Premium ukuze uthole i-AI eningi.",
   description:
-    "Sebenzisa uhlelo olusingathiwe ngaphandle kwenkokhelo, nge-AI nokuvumelanisa okufakiwe ngesikhathi se-beta, noma uzisingathele isistimu enomthombo ovulekile kwingqalasizinda yakho ye-AWS.",
+    "Qala mahhala ohlelweni olusingathiwe, thuthukela ku-Premium nge-USD 6.99 ngenyanga ukuze uthole ingxoxo ye-AI eyengeziwe, noma uzisingathele isistimu enomthombo ovulekile kwingqalasizinda yakho ye-AWS.",
   slug: "pricing",
   sections: [
     {
       type: "pricing_tiers",
-      title: "Mahhala ukusebenzisa. Mahhala nokuzisingathela.",
+      title: "Qala mahhala. I-Premium ukuze uthole i-AI eningi.",
       intro:
-        "Sebenzisa uhlelo olusingathiwe ngaphandle kwenkokhelo, kungadingeki ikhadi lesikweletu, noma usebenzise isistimu enomthombo ovulekile kwingqalasizinda yakho ye-AWS.",
+        "Qala ohlelweni olusingathiwe mahhala, kungadingeki ikhadi lesikweletu, engeza i-Premium ukuze uthole ingxoxo ye-AI eyengeziwe, noma uzisingathele mahhala isistimu enomthombo ovulekile kwingqalasizinda yakho ye-AWS.",
       tiers: [
         {
           type: "auth_tier",
-          name: "Okusingathiwe",
+          name: "Mahhala",
           price: "Mahhala",
           highlighted: true,
           bullets: [
-            "Izici ze-AI zifakiwe ngesikhathi se-beta",
+            "Imilayezo yengxoxo ye-AI engu-50 ngenyanga",
+            "Sebenzisa ukhiye wakho we-OpenAI API; ukusetshenziswa kwawo akubalwa emkhawulweni wanyanga zonke",
             "Ukuvumelanisa phakathi kwewebhu, i-iOS ne-Android kufakiwe",
-            "Ayikho imikhawulo yohlelo lwentengo kumakhadi, kumafayela noma kusikhala sokugcina sesamba ngesikhathi se-beta; kusebenza imikhawulo evamile yobuchwepheshe yefayela ngalinye neyomsebenzi ngamunye",
+            "Ayikho imikhawulo yohlelo lwentengo kumakhadi, kumafayela noma kusikhala sokugcina sesamba; kusebenza imikhawulo evamile yobuchwepheshe yefayela ngalinye neyomsebenzi ngamunye",
             "Ngenisa futhi ukhiphe amakhadi, amathegi nemidiya phakathi kohlelo olusingathiwe nolusingathwe nguwe",
             "Ukungena ngaphandle kwephasiwedi usebenzisa ikhodi ye-imeyili yesikhathi esisodwa",
-            "Ukudala nokubuyekeza amakhadi okuyisisekelo kuzohlala kumahhala; ukusetshenziswa okukhulu kwe-AI kungase kudinge kamuva ukhiye wakho we-API womhlinzeki noma inketho ekhokhelwayo",
           ],
           cta: {
             label: "Sebenzisa uhlelo olusingathiwe mahhala",
+            href: "https://app.nibomo.com",
+          },
+        },
+        {
+          type: "auth_tier",
+          name: "Premium",
+          price: "$6.99/inyanga",
+          highlighted: false,
+          bullets: [
+            "Isivivinyo samahhala sezinsuku ezingu-7 sababhalisi abasha abafanelekayo; kudingeka indlela yokukhokha",
+            "Imilayezo yengxoxo ye-AI engu-1000 ngenyanga",
+            "Imibala yokugqamisa oyikhethayo",
+            "Konke okusohlelweni lwamahhala",
+            "Ukubhalisa okukodwa kwe-akhawunti yakho kuwebhu, i-iOS ne-Android",
+            "Intengo ikhonjiswa nge-USD kuhlanganise nezintela; ekukhokheni kungase kuboniswe intengo ngemali yasekhaya",
+            "Kuvuselelwa njalo ngenyanga; khansela noma nini futhi ugcine ukufinyelela kuze kuphele isikhathi samanje",
+          ],
+          cta: {
+            label: "Qala isivivinyo samahhala sezinsuku ezingu-7",
             href: "https://app.nibomo.com",
           },
         },
