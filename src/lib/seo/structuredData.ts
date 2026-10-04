@@ -9,11 +9,17 @@ export const STRUCTURED_DATA_ENTITY_IDS = {
   website: `${SITE_URL}/#website`,
   software: `${SITE_URL}/#software`,
   sourceCode: `${SITE_URL}/#source-code`,
-  creator: `${SITE_URL}/#kirill-markin`,
+  creator: "https://kirill-markin.com/#person",
+  organization: "https://kirill-markin.com/samo-danni-eood/#organization",
 } as const;
 
 export const STRUCTURED_DATA_AUTHOR_NAME = "Kirill Markin";
 export const STRUCTURED_DATA_AUTHOR_URL = "https://kirill-markin.com/";
+export const STRUCTURED_DATA_PUBLISHER_NAME = "SAMO DANNI EOOD";
+export const STRUCTURED_DATA_PUBLISHER_URL = "https://kirill-markin.com/samo-danni-eood/";
+export const STRUCTURED_DATA_PUBLISHER_LOGO_URL =
+  "https://kirill-markin.com/samo-danni-eood/google-play-developer/logo.png";
+const SITE_HOME_URL = `${SITE_URL}/` as const;
 export const FLASHCARDS_REPOSITORY_URL =
   "https://github.com/kirill-markin/flashcards-open-source-app";
 export const FLASHCARDS_LOGO_URL = `${SITE_URL}/logo-512.png`;
@@ -36,10 +42,35 @@ export interface PersonStructuredData {
   readonly url: typeof STRUCTURED_DATA_AUTHOR_URL;
 }
 
-export interface OfferStructuredData {
+export interface OrganizationStructuredData {
+  readonly "@id": typeof STRUCTURED_DATA_ENTITY_IDS.organization;
+  readonly "@type": "Organization";
+  readonly legalName: typeof STRUCTURED_DATA_PUBLISHER_NAME;
+  readonly logo: typeof STRUCTURED_DATA_PUBLISHER_LOGO_URL;
+  readonly name: typeof STRUCTURED_DATA_PUBLISHER_NAME;
+  readonly url: typeof STRUCTURED_DATA_PUBLISHER_URL;
+}
+
+export interface FreeOfferStructuredData {
   readonly "@type": "Offer";
+  readonly name: "Free";
   readonly price: "0";
   readonly priceCurrency: "USD";
+}
+
+export interface MonthlyPriceSpecificationStructuredData {
+  readonly "@type": "UnitPriceSpecification";
+  readonly billingDuration: "P1M";
+  readonly price: "6.99";
+  readonly priceCurrency: "USD";
+}
+
+export interface PremiumOfferStructuredData {
+  readonly "@type": "Offer";
+  readonly name: "Premium";
+  readonly price: "6.99";
+  readonly priceCurrency: "USD";
+  readonly priceSpecification: MonthlyPriceSpecificationStructuredData;
 }
 
 export interface WebSiteStructuredData {
@@ -51,7 +82,8 @@ export interface WebSiteStructuredData {
   readonly description: string;
   readonly inLanguage: AppLocale;
   readonly name: typeof SITE_NAME;
-  readonly url: typeof SITE_URL;
+  readonly publisher: StructuredDataEntityReference;
+  readonly url: typeof SITE_HOME_URL;
 }
 
 export interface SoftwareApplicationStructuredData {
@@ -68,8 +100,9 @@ export interface SoftwareApplicationStructuredData {
   readonly isAccessibleForFree: true;
   readonly license: "https://opensource.org/licenses/MIT";
   readonly name: typeof SITE_NAME;
-  readonly offers: OfferStructuredData;
+  readonly offers: readonly [FreeOfferStructuredData, PremiumOfferStructuredData];
   readonly operatingSystem: "Web, iOS, Android";
+  readonly publisher: StructuredDataEntityReference;
   readonly sameAs: readonly [
     typeof CANONICAL_APP_STORE_URL,
     typeof CANONICAL_GOOGLE_PLAY_URL,
@@ -90,7 +123,8 @@ export type SiteApplicationGraphEntity =
   | WebSiteStructuredData
   | SoftwareApplicationStructuredData
   | SoftwareSourceCodeStructuredData
-  | PersonStructuredData;
+  | PersonStructuredData
+  | OrganizationStructuredData;
 
 export interface SiteApplicationJsonLdGraph {
   readonly "@context": "https://schema.org";
@@ -106,6 +140,10 @@ export const CREATOR_REFERENCE: StructuredDataEntityReference = {
   "@id": STRUCTURED_DATA_ENTITY_IDS.creator,
 };
 
+export const PUBLISHER_REFERENCE: StructuredDataEntityReference = {
+  "@id": STRUCTURED_DATA_ENTITY_IDS.organization,
+};
+
 export const SOFTWARE_REFERENCE: StructuredDataEntityReference = {
   "@id": STRUCTURED_DATA_ENTITY_IDS.software,
 };
@@ -117,13 +155,22 @@ export const CREATOR_ENTITY: PersonStructuredData = {
   url: STRUCTURED_DATA_AUTHOR_URL,
 };
 
+const PUBLISHER_ENTITY: OrganizationStructuredData = {
+  "@id": STRUCTURED_DATA_ENTITY_IDS.organization,
+  "@type": "Organization",
+  name: STRUCTURED_DATA_PUBLISHER_NAME,
+  legalName: STRUCTURED_DATA_PUBLISHER_NAME,
+  url: STRUCTURED_DATA_PUBLISHER_URL,
+  logo: STRUCTURED_DATA_PUBLISHER_LOGO_URL,
+};
+
 function createWebsiteStructuredData(
   params: CreateSiteApplicationJsonLdGraphParams
 ): WebSiteStructuredData {
   return {
     "@id": STRUCTURED_DATA_ENTITY_IDS.website,
     "@type": "WebSite",
-    url: SITE_URL,
+    url: SITE_HOME_URL,
     name: SITE_NAME,
     alternateName: [
       "Flashcards Open Source App",
@@ -134,6 +181,7 @@ function createWebsiteStructuredData(
     inLanguage: params.locale,
     about: SOFTWARE_REFERENCE,
     creator: CREATOR_REFERENCE,
+    publisher: PUBLISHER_REFERENCE,
   };
 }
 
@@ -149,13 +197,29 @@ function createSoftwareApplicationStructuredData(
     operatingSystem: "Web, iOS, Android",
     license: "https://opensource.org/licenses/MIT",
     isAccessibleForFree: true,
-    offers: {
-      "@type": "Offer",
-      price: "0",
-      priceCurrency: "USD",
-    },
+    offers: [
+      {
+        "@type": "Offer",
+        name: "Free",
+        price: "0",
+        priceCurrency: "USD",
+      },
+      {
+        "@type": "Offer",
+        name: "Premium",
+        price: "6.99",
+        priceCurrency: "USD",
+        priceSpecification: {
+          "@type": "UnitPriceSpecification",
+          price: "6.99",
+          priceCurrency: "USD",
+          billingDuration: "P1M",
+        },
+      },
+    ],
     image: FLASHCARDS_LOGO_URL,
     creator: CREATOR_REFERENCE,
+    publisher: PUBLISHER_REFERENCE,
     url: PRODUCT_APP_ORIGIN,
     installUrl: [CANONICAL_APP_STORE_URL, CANONICAL_GOOGLE_PLAY_URL],
     sameAs: [CANONICAL_APP_STORE_URL, CANONICAL_GOOGLE_PLAY_URL],
@@ -183,6 +247,7 @@ export function createSiteApplicationJsonLdGraph(
       createSoftwareApplicationStructuredData(params),
       createSoftwareSourceCodeStructuredData(),
       CREATOR_ENTITY,
+      PUBLISHER_ENTITY,
     ],
   };
 }
