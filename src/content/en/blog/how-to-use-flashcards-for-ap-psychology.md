@@ -145,6 +145,8 @@ I would build prompts such as:
 
 That last one matters more on a digital exam than students expect. A graph, table, or short article excerpt can feel harder on-screen simply because the wording and layout are unfamiliar. Good cards train the stable idea underneath the new wording.
 
+For practice separating recruitment from treatment allocation, use the [Random Sampling vs Random Assignment Flashcards](/catalog/packages/random-sampling-vs-random-assignment-flashcards/). The short scenarios ask you to identify study procedures and judge what a conclusion can claim.
+
 If your practice sets keep exposing repeatable misses, [How to Turn Practice Questions Into Flashcards in 2026](https://nibomo.com/blog/how-to-turn-practice-questions-into-flashcards/) fits directly here.
 
 ## FRQ prep works better when the card stores the reasoning move
