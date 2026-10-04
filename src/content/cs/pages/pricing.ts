@@ -1,32 +1,51 @@
 import type { PageContent } from "@/lib/content/types";
 
 export const PRICING_PAGE_CONTENT: PageContent = {
-  title: "Zdarma k používání. Zdarma k vlastnímu hostování.",
+  title: "Začněte zdarma. Premium pro víc AI.",
   description:
-    "Používejte hostovanou aplikaci bez placení, s AI a synchronizací zahrnutými během bety, nebo si otevřený systém hostujte na vlastní infrastruktuře AWS.",
+    "Začněte zdarma v hostované aplikaci, přejděte na Premium za USD 6.99 měsíčně a získejte víc AI chatu, nebo si otevřený systém hostujte na vlastní infrastruktuře AWS.",
   slug: "pricing",
   sections: [
     {
       type: "pricing_tiers",
-      title: "Zdarma k používání. Zdarma k vlastnímu hostování.",
+      title: "Začněte zdarma. Premium pro víc AI.",
       intro:
-        "Používejte hostovanou aplikaci bez placení a bez platební karty, nebo si otevřený systém spusťte na vlastní infrastruktuře AWS.",
+        "Začněte v hostované aplikaci zdarma a bez platební karty, přidejte Premium pro víc AI chatu, nebo si otevřený systém zdarma hostujte na vlastní infrastruktuře AWS.",
       tiers: [
         {
           type: "auth_tier",
-          name: "Hostovaná",
+          name: "Zdarma",
           price: "Zdarma",
           highlighted: true,
           bullets: [
-            "Funkce AI jsou během bety v ceně",
+            "50 zpráv v AI chatu měsíčně",
+            "Použijte vlastní klíč k OpenAI API; jeho využití se nezapočítává do měsíčního limitu",
             "Synchronizace mezi webem, iOS a Androidem v ceně",
-            "Během bety žádné tarifní kvóty na kartičky, soubory ani celkové úložiště; platí běžné technické limity na jeden soubor a na jednu operaci",
+            "Žádné tarifní kvóty na kartičky, soubory ani celkové úložiště; platí běžné technické limity na jeden soubor a na jednu operaci",
             "Import a export kartiček, štítků a médií mezi hostovanou a vlastní instalací",
             "Přihlášení bez hesla jednorázovým kódem z e-mailu",
-            "Základní tvorba a opakování kartiček zůstanou zdarma; vyšší využití AI může později vyžadovat vlastní API klíč poskytovatele nebo placenou variantu",
           ],
           cta: {
             label: "Používat hostovanou aplikaci zdarma",
+            href: "https://app.nibomo.com",
+          },
+        },
+        {
+          type: "auth_tier",
+          name: "Premium",
+          price: "$6.99/měsíc",
+          highlighted: false,
+          bullets: [
+            "7denní zkušební období zdarma pro nové předplatitele, kteří splňují podmínky; je vyžadována platební metoda",
+            "1000 zpráv v AI chatu měsíčně",
+            "Vlastní barvy zvýraznění",
+            "Vše z tarifu Zdarma",
+            "Jedno předplatné pro váš účet na webu, v iOS i Androidu",
+            "Cena v USD včetně daní; při platbě se může zobrazit cena v místní měně",
+            "Obnovuje se měsíčně; zrušit ho můžete kdykoli a přístup vám zůstane do konce období",
+          ],
+          cta: {
+            label: "Zahájit 7denní zkušební období zdarma",
             href: "https://app.nibomo.com",
           },
         },

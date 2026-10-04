@@ -1,32 +1,51 @@
 import type { PageContent } from "@/lib/content/types";
 
 export const PRICING_PAGE_CONTENT: PageContent = {
-  title: "Tasuta kasutada. Tasuta ise majutada.",
+  title: "Alusta tasuta. Premiumiga rohkem AI-d.",
   description:
-    "Kasuta majutatud rakendust tasuta, beetaperioodil koos AI ja sünkroonimisega, või majuta avatud lähtekoodiga lahendust ise oma AWS-i taristus.",
+    "Alusta majutatud rakenduses tasuta, mine üle Premiumile hinnaga USD 6.99 kuus, et AI-ga rohkem vestelda, või majuta avatud lähtekoodiga lahendust ise oma AWS-i taristus.",
   slug: "pricing",
   sections: [
     {
       type: "pricing_tiers",
-      title: "Tasuta kasutada. Tasuta ise majutada.",
+      title: "Alusta tasuta. Premiumiga rohkem AI-d.",
       intro:
-        "Kasuta majutatud rakendust tasuta ja ilma krediitkaardita või käivita avatud lähtekoodiga lahendus oma AWS-i taristus.",
+        "Alusta majutatud rakenduses tasuta ja ilma krediitkaardita, lisa rohkema AI-vestluse jaoks Premium või majuta avatud lähtekoodiga lahendust ise ja tasuta oma AWS-i taristus.",
       tiers: [
         {
           type: "auth_tier",
-          name: "Majutatud",
+          name: "Tasuta",
           price: "Tasuta",
           highlighted: true,
           bullets: [
-            "AI-funktsioonid on beetaperioodil kaasas",
+            "50 AI-vestlussõnumit kuus",
+            "Kasuta oma OpenAI API võtit; selle kasutust kuulimiidi hulka ei arvestata",
             "Sünkroonimine veebi, iOS-i ja Androidi vahel on kaasas",
-            "Beetaperioodil ei ole paketipõhiseid piiranguid kaartidele, failidele ega kogumahule; kehtivad tavapärased faili- ja toimingupõhised tehnilised piirid",
+            "Paketipõhiseid piiranguid kaartidele, failidele ega kogumahule ei ole; kehtivad tavapärased faili- ja toimingupõhised tehnilised piirid",
             "Kaartide, siltide ja meedia import ja eksport majutatud ja ise majutatud paigalduste vahel",
             "Paroolita sisselogimine ühekordse e-posti koodiga",
-            "Kaartide loomine ja kordamine jäävad tasuta; suurem AI kasutus võib edaspidi eeldada sinu enda teenusepakkuja API-võtit või tasulist valikut",
           ],
           cta: {
             label: "Kasuta majutatud rakendust tasuta",
+            href: "https://app.nibomo.com",
+          },
+        },
+        {
+          type: "auth_tier",
+          name: "Premium",
+          price: "$6.99/kuu",
+          highlighted: false,
+          bullets: [
+            "7-päevane tasuta prooviperiood tingimustele vastavatele uutele tellijatele; makseviis on nõutav",
+            "1000 AI-vestlussõnumit kuus",
+            "Kohandatud rõhuvärvid",
+            "Kõik, mis on paketis Tasuta",
+            "Üks tellimus sinu kontole veebis, iOS-is ja Androidis",
+            "Hind USD-s koos maksudega; maksmisel võidakse näidata hinda kohalikus valuutas",
+            "Uueneb igakuiselt; saad igal ajal tühistada ja ligipääs säilib perioodi lõpuni",
+          ],
+          cta: {
+            label: "Alusta 7-päevast tasuta prooviperioodi",
             href: "https://app.nibomo.com",
           },
         },
