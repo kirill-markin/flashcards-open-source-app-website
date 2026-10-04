@@ -38,6 +38,16 @@ Hostirane AI značajke neobavezne su i koriste OpenAI. Povezana AI telemetrija o
 
 Kad ovlastite vanjski AI klijent da koristi MCP uslugu ili Agent API, taj klijent i njegov pružatelj modela obrađuju prema vlastitim uvjetima podatke koje zatražite. Nismo odgovorni za rad ni rezultate vanjskog klijenta.
 
+## Pretplate putem Stripea
+
+Kad je dostupno plaćanje putem Stripea, Nibomo Premium nudi se po osnovnoj cijeni od 6,99 USD mjesečno, uključujući primjenjive poreze. Stripe Adaptive Pricing može prikazati cijenu u lokalnoj valuti; Stripe prikazuje konačni iznos i valutu naplate prije nego što potvrdite. Za kupnju morate biti prijavljeni u račun s adresom e-pošte; gosti najprije moraju povezati adresu e-pošte.
+
+Kupci u Stripeu koji ispunjavaju uvjete dobivaju besplatno probno razdoblje od sedam dana uz obvezno navođenje načina plaćanja. Probno razdoblje dostupno je jednom po kupcu u Stripeu; prethodna probna razdoblja putem Applea ili Googlea ne utječu na pravo na njega. Ako ne otkažete prije isteka probnog razdoblja, s vašeg će se načina plaćanja naplatiti mjesečna pretplata. Pretplata se zatim automatski obnavlja svaki mjesec dok je ne otkažete. Podsjetnici o probnom razdoblju navode mjesečnu osnovnu cijenu; Stripe prikazuje konačni iznos terećenja u valuti naplate.
+
+Putem [postavki pretplate](https://app.nibomo.com/settings/subscription) otvorite Stripeov portal za naplatu kako biste upravljali pretplatom ili je otkazali. Uobičajeno otkazivanje stupa na snagu na kraju tekućeg probnog ili plaćenog razdoblja; do tada zadržavate pristup. Kupnja putem Stripea ne otkazuje nijednu zasebnu pretplatu putem Applea ili Googlea niti zamjenjuje postojeći doživotni pristup.
+
+Brisanje vašeg Nibomo računa iz bilo kojeg podržanog klijenta prije trajnog brisanja podataka otkazuje buduće obnove svih Nibomo pretplata putem Stripea povezanih s tim računom i zatvara otvorene Nibomo sesije plaćanja. Ako se otkazivanje ne može potvrditi, brisanje se ne dovršava; pokušajte ponovno ili se obratite podršci. Brisanje računa ne otkazuje pretplate putem Applea ili Googlea. Otkazivanje i brisanje računa ne dovode automatski do povrata novca ni razmjernog odobrenja. Ništa u ovim Uvjetima ne ograničava obvezna prava potrošača, uključujući primjenjiva prava na jednostrani raskid ugovora ili povrat novca.
+
 ## Dostupnost i promjene
 
 Hostirana beta verzija pruža se prema mogućnostima i može se promijeniti, pauzirati ili ukinuti bez najave. Ne jamčimo neprekidnu dostupnost, očuvanje svake lokalne ili hostirane kopije ni da će svaka značajka ostati dostupna. Čuvajte neovisnu kopiju sadržaja čiji si gubitak ne možete dopustiti.

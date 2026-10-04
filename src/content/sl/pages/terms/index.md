@@ -38,6 +38,16 @@ Gostovane funkcije AI so neobvezne in uporabljajo OpenAI. Povezana telemetrija A
 
 Ko zunanjemu odjemalcu AI dovolite uporabo storitve MCP ali Agent API, ta odjemalec in njegov ponudnik modela obdelujeta podatke, ki jih zahtevate, po lastnih pogojih. Za delovanje ali rezultate zunanjega odjemalca nismo odgovorni.
 
+## Naročnine Stripe
+
+Kadar je na voljo plačilo prek storitve Stripe, se Nibomo Premium ponuja po osnovni ceni 6,99 USD na mesec, vključno z veljavnimi davki. Stripe Adaptive Pricing lahko prikaže ceno v lokalni valuti; Stripe pred vašo potrditvijo prikaže končni znesek in valuto obračuna. Za nakup morate biti prijavljeni v račun z e-poštnim naslovom; gostje morajo najprej povezati e-poštni naslov.
+
+Upravičene stranke storitve Stripe prejmejo sedemdnevno brezplačno preizkusno obdobje, za katero morate navesti način plačila. Preizkusno obdobje je na voljo enkrat na stranko storitve Stripe; prejšnja preizkusna obdobja prek Appla ali Googla ne vplivajo na upravičenost. Če naročnine ne prekličete pred koncem preizkusnega obdobja, se mesečna naročnina zaračuna prek vašega načina plačila. Nato se naročnina samodejno podaljšuje vsak mesec, dokler je ne prekličete. Opomniki o preizkusnem obdobju navajajo mesečno osnovno ceno; Stripe prikaže končni znesek bremenitve v valuti obračuna.
+
+V [nastavitvah naročnine](https://app.nibomo.com/settings/subscription) odprite portal za obračunavanje Stripe, kjer lahko naročnino upravljate ali jo prekličete. Običajni preklic začne veljati ob koncu tekočega preizkusnega ali plačanega obdobja; do takrat ohranite dostop. Nakup prek storitve Stripe ne prekliče nobene ločene naročnine Apple ali Google in ne nadomesti obstoječega dosmrtnega dostopa.
+
+Če račun Nibomo izbrišete v katerem koli podprtem odjemalcu, se pred dokončnim izbrisom podatkov prekličejo prihodnja podaljšanja vseh naročnin Nibomo prek storitve Stripe, povezanih s tem računom, in zaprejo odprte seje plačila Nibomo. Če preklica ni mogoče potrditi, se izbris ne dokonča; poskusite znova ali se obrnite na podporo. Izbris računa ne prekliče naročnin Apple ali Google. Preklic in izbris računa ne povzročita samodejnega vračila denarja ali sorazmernega dobropisa. Nič v teh pogojih ne omejuje pravic potrošnikov, ki izhajajo iz kogentnih predpisov, vključno z morebitnimi veljavnimi pravicami do odstopa od pogodbe ali vračila denarja.
+
 ## Razpoložljivost in spremembe
 
 Gostovana različica beta se zagotavlja po najboljših močeh in se lahko brez obvestila spremeni, začasno ustavi ali ukine. Ne zagotavljamo neprekinjene razpoložljivosti, ohranitve vsake lokalne ali gostovane kopije niti tega, da bo vsaka funkcija ostala na voljo. Za vsebino, ki si je ne morete privoščiti izgubiti, hranite neodvisno kopijo.
