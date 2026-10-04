@@ -166,6 +166,8 @@ Suppose you treated an observed association as proof of causation:
 
 Do not paste the whole missed question into the deck. Save the rule that transfers to the next problem.
 
+If sampling and assignment keep getting mixed up, the [Random Sampling vs Random Assignment Flashcards](/catalog/packages/random-sampling-vs-random-assignment-flashcards/) give focused practice with study scenarios and the conclusions they support.
+
 ## Turn mistakes into cards without turning every mistake into a card
 
 After an MCQ set or FRQ, label each miss:
