@@ -38,6 +38,16 @@ Các tính năng AI trên dịch vụ lưu trữ sẵn là tùy chọn và sử 
 
 Khi bạn cho phép một client AI bên ngoài sử dụng dịch vụ MCP hoặc Agent API, client đó và nhà cung cấp mô hình của nó xử lý dữ liệu bạn yêu cầu theo điều khoản riêng của họ. Chúng tôi không chịu trách nhiệm về hoạt động hoặc kết quả của client bên ngoài.
 
+## Gói đăng ký qua Stripe
+
+Khi thanh toán qua Stripe khả dụng, Nibomo Premium được cung cấp với giá cơ bản USD 6.99 mỗi tháng, đã bao gồm các loại thuế hiện hành. Stripe Adaptive Pricing có thể hiển thị giá bằng nội tệ; Stripe hiển thị số tiền cuối cùng và đơn vị tiền tệ thanh toán trước khi bạn xác nhận. Để mua, bạn cần đăng nhập vào một tài khoản có địa chỉ email; người dùng khách phải liên kết email trước.
+
+Khách hàng Stripe đủ điều kiện được dùng thử miễn phí bảy ngày và phải cung cấp phương thức thanh toán. Mỗi khách hàng Stripe chỉ được dùng thử một lần; các lần dùng thử trước đây qua Apple hoặc Google không ảnh hưởng đến điều kiện được dùng thử. Nếu bạn không hủy trước khi thời gian dùng thử kết thúc, phí gói đăng ký hằng tháng sẽ được tính vào phương thức thanh toán của bạn. Sau đó, gói đăng ký tự động gia hạn mỗi tháng cho đến khi bị hủy. Thông báo nhắc về thời gian dùng thử nêu giá cơ bản hằng tháng; Stripe hiển thị khoản phí cuối cùng bằng đơn vị tiền tệ thanh toán.
+
+Dùng [Cài đặt gói đăng ký](https://app.nibomo.com/settings/subscription) để mở cổng thanh toán của Stripe và quản lý hoặc hủy gói đăng ký của bạn. Việc hủy thông thường có hiệu lực vào cuối thời gian dùng thử hoặc kỳ đã thanh toán hiện tại; bạn vẫn có quyền truy cập cho đến lúc đó. Việc mua qua Stripe không hủy bất kỳ gói đăng ký riêng nào qua Apple hoặc Google và không thay thế quyền truy cập trọn đời hiện có.
+
+Khi bạn xóa tài khoản Nibomo từ bất kỳ client nào được hỗ trợ, trước khi dữ liệu bị xóa, hệ thống sẽ hủy các lần gia hạn trong tương lai của tất cả gói đăng ký Nibomo qua Stripe được liên kết với tài khoản đó và đóng các phiên thanh toán Nibomo đang mở. Nếu không thể xác nhận việc hủy, việc xóa sẽ không hoàn tất; hãy thử lại hoặc liên hệ bộ phận hỗ trợ. Việc xóa tài khoản không hủy gói đăng ký qua Apple hoặc Google. Việc hủy và xóa tài khoản không tự động dẫn đến hoàn tiền hoặc khoản tín dụng theo tỷ lệ. Không có nội dung nào trong các Điều khoản này hạn chế các quyền bắt buộc của người tiêu dùng, bao gồm mọi quyền rút khỏi hợp đồng hoặc quyền hoàn tiền hiện hành.
+
 ## Tính khả dụng và thay đổi
 
 Bản beta của dịch vụ lưu trữ sẵn được cung cấp trong khả năng tốt nhất có thể và có thể thay đổi, tạm dừng hoặc ngừng hoạt động mà không cần thông báo. Chúng tôi không đảm bảo dịch vụ khả dụng liên tục, không đảm bảo giữ lại mọi bản sao cục bộ hoặc bản sao trên dịch vụ lưu trữ sẵn, và không đảm bảo mọi tính năng sẽ tiếp tục được cung cấp. Hãy giữ một bản sao độc lập của những nội dung mà bạn không thể để mất.
