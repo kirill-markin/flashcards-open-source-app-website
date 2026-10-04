@@ -33,6 +33,7 @@ export const Footer: React.FC<FooterProps> = ({
   const uiCopy = getUiCopy(locale);
   const sourceCodeHref = "https://github.com/kirill-markin/flashcards-open-source-app";
   const smitheryHref = "https://smithery.ai/servers/kirill-fofi/nibomo";
+  const glamaHref = "https://glama.ai/mcp/connectors/com.nibomo/flashcards";
   const productLinks = [
     {
       href: getAvailableLocalizedPathname(locale, "/features/"),
@@ -141,6 +142,12 @@ export const Footer: React.FC<FooterProps> = ({
               {...getExternalLinkAttributes(smitheryHref)}
             >
               Smithery MCP
+            </a>
+            <a
+              href={glamaHref}
+              {...getExternalLinkAttributes(glamaHref)}
+            >
+              Glama MCP
             </a>
           </div>
           <div className={styles.column}>
