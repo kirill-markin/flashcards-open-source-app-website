@@ -44,6 +44,10 @@ Usa la dirección completa, incluido el `/mcp` final. La descripción es opciona
 
 Lee la advertencia sobre servidores personalizados, marca la casilla de aceptación si quieres continuar y pulsa **Create**. El botón está debajo de la zona visible en la captura. Esto añade tu conexión personalizada; no significa que OpenAI haya revisado Nibomo ni que figure en su directorio público.
 
+La página del plugin de Nibomo guardado muestra **Try in chat** y el menú **…**. Todavía tienes que terminar de iniciar sesión en tu cuenta de Nibomo.
+
+![Página del plugin personalizado de Nibomo guardado en ChatGPT, con Try in chat y el menú de acciones](/blog/chatgpt-mcp-nibomo-plugin-card.png)
+
 ## Termina de iniciar sesión en Nibomo
 
 En **Add Nibomo to ChatGPT**, selecciona **Sign in with Nibomo** y completa la autorización con la cuenta de Nibomo donde tienes tus tarjetas.
@@ -53,6 +57,10 @@ En **Add Nibomo to ChatGPT**, selecciona **Sign in with Nibomo** y completa la a
 El servicio de autenticación de Nibomo usa `auth.flashcards-open-source-app.com`. Es normal ver ese dominio durante el inicio de sesión, aunque la dirección MCP use `mcp.nibomo.com`.
 
 Si no se abre ninguna ventana de inicio de sesión, prueba a seguir los pasos en tu navegador habitual. Para volver a iniciar sesión, abre **Nibomo → Plugin actions (…) → Manage → Connect another account**. Después, comprueba la lista de espacios de trabajo como se explica más abajo para confirmar que ChatGPT puede acceder a tu cuenta.
+
+En la pantalla de ajustes que capturamos antes de iniciar sesión, **Connected accounts** no muestra ninguna cuenta y ofrece **Connect another account**. En **Actions**, aparece **No app actions available yet** (aún no hay acciones disponibles).
+
+![Ajustes del plugin de Nibomo en ChatGPT antes de iniciar sesión, con Connect another account y sin acciones disponibles todavía](/blog/chatgpt-mcp-nibomo-settings-before-sign-in.png)
 
 ## Decide cuándo debe pedir permiso ChatGPT
 

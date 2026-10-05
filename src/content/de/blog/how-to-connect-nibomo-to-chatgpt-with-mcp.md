@@ -44,6 +44,10 @@ Verwende die vollständige Adresse einschließlich `/mcp` am Ende. Die Beschreib
 
 Lies den Warnhinweis zu benutzerdefinierten Servern, bestätige ihn, wenn du fortfahren möchtest, und klicke auf **Create**. Die Schaltfläche befindet sich unterhalb des im Screenshot sichtbaren Bereichs. Dadurch wird deine benutzerdefinierte Verbindung angelegt. Das bedeutet nicht, dass OpenAI Nibomo geprüft oder in sein öffentliches Verzeichnis aufgenommen hat.
 
+Die Seite des gespeicherten Nibomo-Plugins zeigt **Try in chat** und das Menü **…**. Du musst dich noch vollständig bei deinem Nibomo-Konto anmelden.
+
+![Seite des gespeicherten benutzerdefinierten Nibomo-Plugins in ChatGPT mit Try in chat und dem Aktionsmenü](/blog/chatgpt-mcp-nibomo-plugin-card.png)
+
 ## Schließe die Anmeldung bei Nibomo ab
 
 Wähle bei **Add Nibomo to ChatGPT** die Schaltfläche **Sign in with Nibomo** und erteile die Zugriffsfreigabe über das Nibomo-Konto, in dem deine Karten gespeichert sind.
@@ -53,6 +57,10 @@ Wähle bei **Add Nibomo to ChatGPT** die Schaltfläche **Sign in with Nibomo** u
 Der Authentifizierungsdienst von Nibomo verwendet `auth.flashcards-open-source-app.com`. Es ist daher normal, dass bei der Anmeldung dieser Hostname erscheint, obwohl die MCP-Adresse `mcp.nibomo.com` verwendet.
 
 Wenn sich kein Anmeldefenster öffnet, versuche es in deinem normalen Browser. Um die Anmeldung erneut zu starten, öffne **Nibomo → Plugin actions (…) → Manage → Connect another account**. Mit der unten beschriebenen Workspace-Abfrage prüfst du anschließend, ob ChatGPT auf dein Konto zugreifen kann.
+
+In den Einstellungen, die wir vor der Anmeldung aufgenommen haben, ist unter **Connected accounts** kein Konto aufgeführt. Dort steht **Connect another account** zur Verfügung. Unter **Actions** steht **No app actions available yet** (noch keine App-Aktionen verfügbar).
+
+![Einstellungen des Nibomo-Plugins in ChatGPT vor der Anmeldung mit Connect another account und noch keinen verfügbaren App-Aktionen](/blog/chatgpt-mcp-nibomo-settings-before-sign-in.png)
 
 ## Lege fest, wann ChatGPT um Erlaubnis fragen soll
 
