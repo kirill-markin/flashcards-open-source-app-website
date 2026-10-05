@@ -44,6 +44,10 @@ keywords:
 
 阅读自定义服务器的风险提示；如果决定继续，请勾选确认框，然后点击 **Create**（创建）。这个按钮位于截图所示区域的下方。这一步会添加你的自定义连接，并不代表 Nibomo 已通过 OpenAI 审核或已上架其公开目录。
 
+保存后的 Nibomo 插件页面会显示 **Try in chat**（在聊天中试用）按钮和 **…** 菜单。你仍需完成 Nibomo 账号的登录。
+
+![ChatGPT 中保存后的 Nibomo 自定义插件页面，显示 Try in chat 按钮和操作菜单](/blog/chatgpt-mcp-nibomo-plugin-card.png)
+
 ## 完成 Nibomo 登录
 
 在 **Add Nibomo to ChatGPT**（将 Nibomo 添加到 ChatGPT）界面，选择 **Sign in with Nibomo**（使用 Nibomo 登录），用存有你闪卡的 Nibomo 账号完成授权。
@@ -53,6 +57,10 @@ keywords:
 Nibomo 的身份验证服务使用 `auth.flashcards-open-source-app.com`。因此，即使 MCP 地址是 `mcp.nibomo.com`，登录时仍会用到 `auth.flashcards-open-source-app.com`，这是正常的。
 
 如果没有打开登录窗口，可以在平时使用的浏览器中再试一次。要重新开始登录，请打开 **Nibomo → Plugin actions (…) → Manage → Connect another account**（Nibomo → 插件操作 → 管理 → 连接另一个账号）。完成后，按下文的方法列出工作区，确认 ChatGPT 能否访问你的账号。
+
+我们截取的登录前设置界面中，**Connected accounts**（已连接账号）下没有列出任何账号，只显示 **Connect another account**（连接另一个账号）入口。**Actions**（操作）下显示 **No app actions available yet**（尚无可用的应用操作）。
+
+![ChatGPT 中登录前的 Nibomo 插件设置，显示 Connect another account 入口，且尚无可用的应用操作](/blog/chatgpt-mcp-nibomo-settings-before-sign-in.png)
 
 ## 设置哪些操作需要你批准
 
