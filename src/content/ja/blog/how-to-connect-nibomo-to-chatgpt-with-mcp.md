@@ -44,6 +44,10 @@ ChatGPTで **Settings → Security and login → Developer mode**（設定 → �
 
 カスタムサーバーについての注意事項を読み、接続を進める場合は確認欄にチェックを入れて **Create** をクリックします。このボタンはスクリーンショットに写っている範囲より下にあります。これで自分用のカスタム接続が追加されますが、NibomoがOpenAIの審査を受けた、あるいは公開ディレクトリに掲載されたという意味ではありません。
 
+保存されたNibomoプラグインのページには、**Try in chat**（チャットで試す）ボタンと **…** メニューが表示されます。Nibomoアカウントへのログインは、まだ完了する必要があります。
+
+![ChatGPTに保存されたNibomoカスタムプラグインのページ。Try in chatボタンと操作メニューが表示されている](/blog/chatgpt-mcp-nibomo-plugin-card.png)
+
 ## Nibomoへのログインを完了する
 
 **Add Nibomo to ChatGPT** の画面で **Sign in with Nibomo** を選び、カードを保存しているNibomoのアカウントでログインし、アクセスを許可します。
@@ -53,6 +57,10 @@ ChatGPTで **Settings → Security and login → Developer mode**（設定 → �
 Nibomoの認証サービスは `auth.flashcards-open-source-app.com` を使っています。MCPのアドレスが `mcp.nibomo.com` でも、ログイン時にこのホスト名が表示されるのは正常です。
 
 ログイン用のウィンドウが開かない場合は、普段使っているブラウザーで同じ手順を試してください。ログインをやり直すには、**Nibomo → Plugin actions (…) → Manage → Connect another account**（プラグインの操作 → 管理 → 別のアカウントを接続）の順に開きます。ChatGPTがアカウントにアクセスできるかどうかは、後述のワークスペース一覧の取得で確認できます。
+
+今回撮影したログイン前の設定画面では、**Connected accounts**（接続済みアカウント）にアカウントは表示されておらず、**Connect another account**（別のアカウントを接続）を選べます。**Actions**（操作）には **No app actions available yet**（まだ利用できるアプリの操作はありません）と表示されています。
+
+![ログイン前のChatGPTのNibomoプラグイン設定。Connect another accountが表示され、利用できるアプリの操作はまだない](/blog/chatgpt-mcp-nibomo-settings-before-sign-in.png)
 
 ## ChatGPTが操作の許可を求めるタイミングを決める
 
