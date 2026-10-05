@@ -184,6 +184,8 @@ Compound prefixes are not permitted. Attach one prefix to a unit rather than sta
 
 These conventions are good recall targets, but the exponent handling still needs written practice. Include square and cubic units in that practice before an exam makes the distinction expensive.
 
+The [Squared and Cubed Unit Conversion Flashcards](/catalog/packages/squared-cubed-unit-conversion-flashcards/) give you short area, volume, and liter prompts to check the factor and catch common setup errors. Keep working fresh written problems too; recognizing a card's answer does not establish conversion fluency.
+
 ## Keep SI decimal prefixes separate from IEC binary prefixes
 
 SI prefixes represent powers of 10, not powers of 2. Kilo, `k`, means `10^3`, so one kilobit is 1000 bits. It does not mean 1024 bits.
