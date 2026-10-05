@@ -155,4 +155,6 @@ If you missed a name or symbol, a short recall card fits: “SI unit of electric
 
 The [SI Units Flashcards deck](/catalog/packages/si-units-flashcards/) covers the seven base units and 22 named derived units, including quantity–unit recall and the named derived units' base-unit expressions. Use it for that reference knowledge. Prefixes, conversions, unnamed derived units, and worked physics problems need separate practice.
 
+If the unit identities are familiar but converting area or volume still trips you up, the [Squared and Cubed Unit Conversion Flashcards](/catalog/packages/squared-cubed-unit-conversion-flashcards/) give you short factor setups and error checks. Work fresh written problems as well, so you can use those steps with unfamiliar values.
+
 After reviewing a missed card, close it and redo the corresponding question with different numbers. The [algebra-based physics study guide](/blog/how-to-use-flashcards-for-algebra-based-physics-1/) shows how to combine that recall work with full problems.
