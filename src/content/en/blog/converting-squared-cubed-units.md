@@ -197,4 +197,6 @@ If you missed a question, first classify the error: prefix recall, factor direct
 
 If prefix names and powers are the missing facts, the [Metric Prefix Flashcards deck](/catalog/packages/metric-prefix-flashcards/) covers that recall layer. It doesn't replace conversion practice.
 
+For more short setups and error repairs, try the [Squared and Cubed Unit Conversion Flashcards](/catalog/packages/squared-cubed-unit-conversion-flashcards/). They cover area, cubic volume, and liter conversions, including common mistakes with factors and unit cancellation.
+
 After reviewing a missed distinction, close the answer and solve a new problem with different numbers. Then reverse the conversion. Write the factor each time, so you can see whether you've learned the setup or just remembered an answer.
