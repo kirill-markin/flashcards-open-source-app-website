@@ -44,6 +44,10 @@ Use the full address, including the final `/mcp`. The description is optional; i
 
 Read the custom-server warning, acknowledge it if you want to proceed, and click **Create**. The button is below the area shown in the screenshot. This adds your custom connection; it doesn't mean Nibomo has been reviewed or listed in OpenAI's public directory.
 
+The saved Nibomo plugin page shows **Try in chat** and the **…** menu. You still need to finish signing in to your Nibomo account.
+
+![Saved custom Nibomo plugin page in ChatGPT with Try in chat and the actions menu](/blog/chatgpt-mcp-nibomo-plugin-card.png)
+
 ## Finish signing in to Nibomo
 
 At **Add Nibomo to ChatGPT**, select **Sign in with Nibomo** and complete the authorization flow using the Nibomo account that holds your cards.
@@ -53,6 +57,10 @@ At **Add Nibomo to ChatGPT**, select **Sign in with Nibomo** and complete the au
 Nibomo's authentication service uses `auth.flashcards-open-source-app.com`. Seeing that hostname during sign-in is expected, even though the MCP address uses `mcp.nibomo.com`.
 
 If no sign-in window opens, try the flow in your regular browser. To restart sign-in, open **Nibomo → Plugin actions (…) → Manage → Connect another account**. Use the workspace check below to confirm that ChatGPT can access your account.
+
+In the settings screen we captured before sign-in, **Connected accounts** has no account listed and offers **Connect another account**. Under **Actions**, it says **No app actions available yet**.
+
+![Nibomo plugin settings in ChatGPT before sign-in, with Connect another account and no app actions available yet](/blog/chatgpt-mcp-nibomo-settings-before-sign-in.png)
 
 ## Decide when ChatGPT should ask permission
 

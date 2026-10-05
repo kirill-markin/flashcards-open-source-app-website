@@ -44,6 +44,10 @@ ChatGPT में **Settings → Security and login → Developer mode** खो�
 
 कस्टम सर्वर से जुड़ी चेतावनी पढ़ें। अगर आगे बढ़ना चाहते हैं, तो उसे स्वीकार करें और **Create** पर क्लिक करें। यह बटन स्क्रीनशॉट में दिख रहे हिस्से के नीचे है। इससे आपका कस्टम कनेक्शन जुड़ता है; इसका मतलब यह नहीं है कि OpenAI ने Nibomo की समीक्षा की है या उसे अपनी सार्वजनिक डायरेक्टरी में शामिल किया है।
 
+सेव किए गए Nibomo प्लगइन के पेज पर **Try in chat** (चैट में आज़माएँ) बटन और **…** मेन्यू दिखते हैं। आपको अपने Nibomo खाते में साइन इन अभी पूरा करना है।
+
+![ChatGPT में सेव किए गए Nibomo कस्टम प्लगइन का पेज, जिसमें Try in chat बटन और ऐक्शन मेन्यू दिख रहे हैं](/blog/chatgpt-mcp-nibomo-plugin-card.png)
+
 ## Nibomo में साइन इन पूरा करें
 
 **Add Nibomo to ChatGPT** स्क्रीन पर **Sign in with Nibomo** चुनें। जिस Nibomo खाते में आपके कार्ड हैं, उससे साइन इन करके पहुँच की अनुमति दें।
@@ -53,6 +57,10 @@ ChatGPT में **Settings → Security and login → Developer mode** खो�
 Nibomo में साइन इन करने की सेवा `auth.flashcards-open-source-app.com` पर चलती है। साइन इन के दौरान यह पता दिखना सामान्य है, भले ही MCP का पता `mcp.nibomo.com` हो।
 
 अगर साइन इन की विंडो नहीं खुलती है, तो अपने सामान्य ब्राउज़र में यह प्रक्रिया आज़माएँ। साइन इन दोबारा शुरू करने के लिए **Nibomo → Plugin actions (…) → Manage → Connect another account** खोलें। इसके बाद नीचे बताए गए तरीके से वर्कस्पेस की सूची मँगाकर जाँचें कि ChatGPT आपके खाते तक पहुँच पा रहा है।
+
+साइन इन से पहले लिए गए हमारे सेटिंग्स स्क्रीनशॉट में **Connected accounts** (जुड़े हुए खाते) के नीचे कोई खाता नहीं है और **Connect another account** (दूसरा खाता जोड़ें) विकल्प दिखता है। **Actions** के नीचे **No app actions available yet** (अभी ऐप का कोई ऐक्शन उपलब्ध नहीं है) लिखा है।
+
+![साइन इन से पहले ChatGPT में Nibomo प्लगइन की सेटिंग्स, जिसमें Connect another account दिखता है और अभी ऐप का कोई ऐक्शन उपलब्ध नहीं है](/blog/chatgpt-mcp-nibomo-settings-before-sign-in.png)
 
 ## तय करें कि ChatGPT कब अनुमति माँगे
 

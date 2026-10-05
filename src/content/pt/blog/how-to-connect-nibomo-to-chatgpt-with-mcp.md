@@ -44,6 +44,10 @@ Use o endereço completo, incluindo `/mcp` no final. A descrição é opcional e
 
 Leia o aviso sobre servidores personalizados, marque a confirmação se quiser continuar e clique em **Create** (criar). O botão fica abaixo da área visível na captura de tela. Isso adiciona sua conexão personalizada; não significa que o Nibomo tenha sido avaliado ou listado no diretório público da OpenAI.
 
+A página do plugin do Nibomo salvo mostra **Try in chat** e o menu **…**. Você ainda precisa concluir o login na sua conta do Nibomo.
+
+![Página do plugin personalizado do Nibomo salvo no ChatGPT, com Try in chat e o menu de ações](/blog/chatgpt-mcp-nibomo-plugin-card.png)
+
 ## Conclua o login no Nibomo
 
 Na tela **Add Nibomo to ChatGPT** (adicionar o Nibomo ao ChatGPT), selecione **Sign in with Nibomo** (entrar com o Nibomo) e conclua a autorização usando a conta do Nibomo que contém seus cartões.
@@ -53,6 +57,10 @@ Na tela **Add Nibomo to ChatGPT** (adicionar o Nibomo ao ChatGPT), selecione **S
 O serviço de autenticação do Nibomo usa `auth.flashcards-open-source-app.com`. Esse domínio pode aparecer normalmente durante o login, mesmo que o endereço MCP use `mcp.nibomo.com`.
 
 Se a janela de login não abrir, tente fazer o processo no navegador que você usa normalmente. Para tentar entrar novamente, abra **Nibomo → Plugin actions (…) → Manage → Connect another account** (ações do plugin → gerenciar → conectar outra conta). Para confirmar que o ChatGPT consegue acessar sua conta, peça a lista de espaços de trabalho conforme as instruções mais adiante.
+
+Na tela de configurações que capturamos antes do login, **Connected accounts** não lista nenhuma conta e oferece **Connect another account**. Em **Actions**, aparece **No app actions available yet** (nenhuma ação do aplicativo disponível ainda).
+
+![Configurações do plugin do Nibomo no ChatGPT antes do login, com Connect another account e nenhuma ação do aplicativo disponível ainda](/blog/chatgpt-mcp-nibomo-settings-before-sign-in.png)
 
 ## Escolha quando o ChatGPT deve pedir permissão
 

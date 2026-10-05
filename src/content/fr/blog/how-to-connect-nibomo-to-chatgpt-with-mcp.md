@@ -44,6 +44,10 @@ Utilisez l’adresse complète, y compris le `/mcp` final. La description est fa
 
 Lisez l’avertissement concernant les serveurs personnalisés, confirmez en avoir pris connaissance si vous souhaitez continuer, puis cliquez sur **Create** (« Créer »). Le bouton se trouve sous la zone visible dans la capture. La connexion personnalisée est alors ajoutée à votre compte. Sa présence ne signifie pas que Nibomo a été examiné ou référencé dans l’annuaire public d’OpenAI.
 
+La page du plugin Nibomo enregistré affiche **Try in chat** et le menu **…**. Vous devez encore terminer la connexion à votre compte Nibomo.
+
+![Page du plugin personnalisé Nibomo enregistré dans ChatGPT, avec Try in chat et le menu des actions](/blog/chatgpt-mcp-nibomo-plugin-card.png)
+
 ## Terminer la connexion à Nibomo
 
 Dans la fenêtre **Add Nibomo to ChatGPT** (« Ajouter Nibomo à ChatGPT »), cliquez sur **Sign in with Nibomo** (« Se connecter avec Nibomo »), puis terminez la procédure d’autorisation avec le compte Nibomo qui contient vos cartes.
@@ -53,6 +57,10 @@ Dans la fenêtre **Add Nibomo to ChatGPT** (« Ajouter Nibomo à ChatGPT »), cl
 Le service d’authentification de Nibomo utilise `auth.flashcards-open-source-app.com`. Il est normal de voir ce nom de domaine pendant la connexion, même si l’adresse MCP utilise `mcp.nibomo.com`.
 
 Si aucune fenêtre de connexion ne s’ouvre, essayez la procédure dans votre navigateur habituel. Pour relancer la connexion, ouvrez **Nibomo → Plugin actions (…) → Manage → Connect another account** (« Connecter un autre compte »). Utilisez ensuite la vérification des espaces de travail décrite ci-dessous pour confirmer que ChatGPT peut accéder à votre compte.
+
+Dans les paramètres que nous avons capturés avant la connexion, **Connected accounts** ne contient aucun compte et propose **Connect another account**. Sous **Actions**, le message **No app actions available yet** indique qu’aucune action n’est encore disponible.
+
+![Paramètres du plugin Nibomo dans ChatGPT avant la connexion, avec Connect another account et aucune action encore disponible](/blog/chatgpt-mcp-nibomo-settings-before-sign-in.png)
 
 ## Choisir quand ChatGPT doit demander votre accord
 
