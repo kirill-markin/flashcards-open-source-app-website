@@ -38,6 +38,7 @@ export const Footer: React.FC<FooterProps> = ({
   const glamaHref = "https://glama.ai/mcp/connectors/com.nibomo/flashcards";
   const geminiCliHref = "https://geminicli.com/extensions/?name=kirill-markinnibomo-plugins";
   const executorHref = "https://v2.executor.sh/apps/nibomo/nibomo";
+  const cursorDirectoryHref = "https://cursor.directory/plugins/nibomo";
   const productLinks = [
     {
       href: getAvailableLocalizedPathname(locale, "/features/"),
@@ -170,6 +171,12 @@ export const Footer: React.FC<FooterProps> = ({
               {...getExternalLinkAttributes(executorHref)}
             >
               Executor
+            </a>
+            <a
+              href={cursorDirectoryHref}
+              {...getExternalLinkAttributes(cursorDirectoryHref)}
+            >
+              Cursor Directory
             </a>
           </div>
           <div className={styles.column}>
