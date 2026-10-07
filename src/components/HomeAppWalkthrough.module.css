@@ -1,0 +1,99 @@
+.walkthrough {
+  inline-size: min(100%, 871px);
+  margin-inline: auto;
+  padding-block: 56px 160px;
+  display: grid;
+  row-gap: 160px;
+  color: #fff;
+  letter-spacing: 0;
+}
+
+.step {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 291px;
+  grid-template-areas: "copy preview";
+  column-gap: clamp(40px, calc(50vw - 360px), 120px);
+  align-items: center;
+}
+
+.step:nth-child(even) {
+  grid-template-columns: 291px minmax(0, 1fr);
+  grid-template-areas: "preview copy";
+}
+
+.copy {
+  grid-area: copy;
+  min-inline-size: 0;
+  display: grid;
+  gap: 16px;
+  text-align: start;
+}
+
+.label {
+  color: var(--accent);
+  font-size: 12px;
+  font-weight: 500;
+  font-style: italic;
+  line-height: 15px;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 39px;
+  letter-spacing: 0;
+}
+
+.title span {
+  display: block;
+}
+
+.description,
+.link {
+  max-inline-size: 454px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+}
+
+.description {
+  opacity: 0.6;
+}
+
+.link a,
+.link a:hover {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.link a:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 4px;
+  border-radius: 2px;
+}
+
+.preview {
+  grid-area: preview;
+  display: block;
+  inline-size: 291px;
+  max-inline-size: 100%;
+  block-size: auto;
+}
+
+@media (max-width: 768px) {
+  .walkthrough {
+    padding-block: 48px 72px;
+    row-gap: 80px;
+  }
+
+  .step,
+  .step:nth-child(even) {
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-areas: "copy" "preview";
+    gap: 32px;
+  }
+
+  .preview {
+    justify-self: center;
+  }
+}
