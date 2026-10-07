@@ -101,6 +101,102 @@
   color: var(--text);
 }
 
+.footer.homeDesign {
+  --text: #232525;
+  --text-secondary: #909090;
+  --text-tertiary: #7a7a7a;
+  --border: #e3e3e3;
+  --border-strong: #b9b9b9;
+  --surface: #fff;
+  --shadow-soft: 0 12px 30px rgb(0 0 0 / 10%);
+  margin-block-start: 0;
+  padding: 0;
+  background: #f6f6f6;
+  color: var(--text);
+  color-scheme: light;
+}
+
+.homeDesign .inner {
+  inline-size: 100%;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+}
+
+.homeDesign .columns {
+  inline-size: min(calc(100% - 80px), 1120px);
+  margin-inline: auto;
+  margin-block-end: 0;
+  padding-block: 16px 96px;
+  column-gap: 32px;
+}
+
+.homeDesign .column h3 {
+  color: var(--text);
+  font-weight: 400;
+}
+
+.homeDesign .column a:hover,
+.homeDesign .attributionLine a:hover {
+  color: var(--text);
+  text-decoration: underline;
+  text-underline-offset: 0.18em;
+}
+
+.homeDesign .bottom {
+  padding-block: 24px;
+  padding-inline: max(40px, calc((100% - 1120px) / 2));
+  align-items: center;
+}
+
+.homeDesign .bottomMeta,
+.homeDesign .attribution {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.homeDesign .localePicker {
+  align-self: center;
+}
+
+.homeDesign .localePicker summary {
+  border-color: transparent;
+  background: #eee;
+}
+
+.homeDesign .localePicker summary:hover,
+.homeDesign .localePicker details[open] summary {
+  background: #e8e8e8;
+}
+
+.homeDesign .localePicker summary svg {
+  stroke: var(--text);
+}
+
+.homeDesign .localePicker details > div {
+  inset-inline-end: max(40px, calc((100% - 1120px) / 2));
+  inline-size: min(calc(100% - 80px), 64rem);
+}
+
+.homeDesign .localePicker summary [aria-hidden="true"] {
+  color: var(--text);
+}
+
+.homeDesign .localePicker [aria-current="true"],
+.homeDesign .localePicker ul a:hover {
+  background: #eee;
+}
+
+@media (max-width: 960px) {
+  .homeDesign .columns {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    row-gap: 40px;
+  }
+}
+
 @media (max-width: 900px) {
   .columns {
     grid-template-columns: 1fr;
@@ -125,5 +221,48 @@
   .localePicker {
     position: relative;
     justify-content: stretch;
+  }
+
+  .homeDesign .bottomMeta,
+  .homeDesign .attribution {
+    flex-wrap: wrap;
+    row-gap: 12px;
+  }
+
+  .homeDesign .localePicker {
+    justify-content: end;
+  }
+
+  .homeDesign .localePicker details {
+    min-inline-size: 0;
+  }
+
+  .homeDesign .localePicker summary {
+    inline-size: auto;
+  }
+
+  .homeDesign .localePicker details > div {
+    inset-inline-end: 0;
+    inline-size: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .homeDesign .columns {
+    inline-size: calc(100% - 48px);
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    column-gap: 28px;
+    padding-block: 0 64px;
+  }
+
+  .homeDesign .bottom {
+    padding-inline: 24px;
+    row-gap: 24px;
+  }
+
+  .homeDesign .bottomMeta,
+  .homeDesign .attribution {
+    flex-direction: column;
+    align-items: start;
   }
 }

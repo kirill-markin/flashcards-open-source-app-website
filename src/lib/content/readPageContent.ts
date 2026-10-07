@@ -14,6 +14,7 @@ import {
 } from "@/lib/i18n";
 import type {
   AgentConnectorHint,
+  AppWalkthroughSection,
   AuthPricingTier,
   ContentLink,
   FeatureItem,
@@ -27,6 +28,7 @@ import type {
   PricingTier,
   PricingTiersSection,
   PublicActivityPageSection,
+  ReviewCtaSection,
   SimpleMarkdownPageSection,
 } from "./types";
 
@@ -216,6 +218,42 @@ function validatePublicActivityPageSection(): PublicActivityPageSection {
   };
 }
 
+function validateAppWalkthroughSection(
+  section: AppWalkthroughSection,
+  slug: MarketingPageSlug
+): AppWalkthroughSection {
+  if (!Array.isArray(section.items) || section.items.length !== 4) {
+    throw new Error(`app_walkthrough must contain four steps for page: ${slug}`);
+  }
+
+  return {
+    type: "app_walkthrough",
+    title: assertNonEmptyString(section.title, "app_walkthrough.title", slug),
+    items: section.items.map((item, index) => {
+      const fieldName = `app_walkthrough.items[${index}]`;
+      return {
+        label: assertNonEmptyString(item.label, `${fieldName}.label`, slug),
+        titleLines: assertStringArray(item.titleLines, `${fieldName}.titleLines`, slug),
+        description: assertNonEmptyString(item.description, `${fieldName}.description`, slug),
+        linkLabel: assertNonEmptyString(item.linkLabel, `${fieldName}.linkLabel`, slug),
+        imagePath: assertNonEmptyString(item.imagePath, `${fieldName}.imagePath`, slug),
+        imageAlt: assertNonEmptyString(item.imageAlt, `${fieldName}.imageAlt`, slug),
+      };
+    }),
+  };
+}
+
+function validateReviewCtaSection(
+  section: ReviewCtaSection,
+  slug: MarketingPageSlug
+): ReviewCtaSection {
+  return {
+    type: "review_cta",
+    titleLines: assertStringArray(section.titleLines, "review_cta.titleLines", slug),
+    description: assertNonEmptyString(section.description, "review_cta.description", slug),
+  };
+}
+
 function validatePricingTier(
   tier: PricingTier,
   slug: MarketingPageSlug
@@ -304,6 +342,10 @@ function validateSection(
       return validateFeatureListSection(section, slug);
     case "public_activity":
       return validatePublicActivityPageSection();
+    case "app_walkthrough":
+      return validateAppWalkthroughSection(section, slug);
+    case "review_cta":
+      return validateReviewCtaSection(section, slug);
     case "pricing_tiers":
       return validatePricingTiersSection(section, slug);
     case "legal_page":
@@ -321,16 +363,21 @@ function validatePageStructure(pageContent: PageContent): PageContent {
   }
 
   switch (pageContent.slug) {
-    case "home":
+    case "home": {
+      const hasWalkthrough = pageContent.sections[1]?.type === "app_walkthrough";
+      const activityIndex = hasWalkthrough ? 2 : 1;
+      const hasActivity = pageContent.sections[activityIndex]?.type === "public_activity";
+      const featureIndex = hasActivity ? activityIndex + 1 : activityIndex;
+      const hasReviewCta = pageContent.sections[featureIndex + 1]?.type === "review_cta";
       if (
-        pageContent.sections.length !== 3 ||
+        pageContent.sections.length !== featureIndex + (hasReviewCta ? 2 : 1) ||
         pageContent.sections[0].type !== "hero" ||
-        pageContent.sections[1].type !== "public_activity" ||
-        pageContent.sections[2].type !== "feature_list"
+        pageContent.sections[featureIndex].type !== "feature_list"
       ) {
-        throw new Error("Home page content must contain hero, public_activity, and feature_list sections");
+        throw new Error("Home page content must contain hero, optional app_walkthrough, optional public_activity, feature_list, and optional review_cta sections in order");
       }
       return pageContent;
+    }
     case "features":
       if (
         pageContent.sections.length !== 1 ||
