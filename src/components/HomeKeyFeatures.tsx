@@ -3,14 +3,14 @@ import styles from "./HomeKeyFeatures.module.css";
 
 type FeatureIconName = "reviews" | "cards" | "offline" | "data" | "agents" | "server";
 
-const FEATURE_ICONS_BY_TITLE: Readonly<Record<string, FeatureIconName>> = {
-  "Smarter Reviews": "reviews",
-  "AI-Assisted Card Creation": "cards",
-  "Offline Study with Automatic Sync": "offline",
-  "Import, Export Own Your Data": "data",
-  "Works with AI Agents": "agents",
-  "Free and Self-Hostable": "server",
-};
+const FEATURE_ICONS: ReadonlyArray<FeatureIconName> = [
+  "reviews",
+  "cards",
+  "offline",
+  "data",
+  "agents",
+  "server",
+];
 
 const ICON_CONTENT: Readonly<Record<FeatureIconName, React.ReactNode>> = {
   reviews: (
@@ -79,6 +79,10 @@ function FeatureIcon({ name }: { readonly name: FeatureIconName }): React.JSX.El
 export function HomeKeyFeatures({
   section,
 }: { readonly section: FeatureListSection }): React.JSX.Element {
+  if (section.items.length !== FEATURE_ICONS.length) {
+    throw new Error(`Home features require ${FEATURE_ICONS.length} items; received ${section.items.length}`);
+  }
+
   return (
     <section
       className={styles.section}
@@ -88,8 +92,8 @@ export function HomeKeyFeatures({
       <div className={styles.inner}>
         <h2 className={styles.title} id="home-key-features-title">{section.title}</h2>
         <div className={styles.grid}>
-          {section.items.map((item) => {
-            const icon = FEATURE_ICONS_BY_TITLE[item.title];
+          {section.items.map((item, index) => {
+            const icon = FEATURE_ICONS[index];
             if (icon === undefined) {
               throw new Error(`Missing home feature icon for: ${item.title}`);
             }

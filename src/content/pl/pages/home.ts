@@ -36,7 +36,51 @@ export const HOME_PAGE_CONTENT: PageContent = {
       ],
     },
     {
-      type: "public_activity",
+      type: "app_walkthrough",
+      title: "Jak działa Nibomo",
+      items: [
+        {
+          label: "01 · FISZKI Z AI",
+          titleLines: [
+            "Powiedz AI, czego chcesz się nauczyć.",
+          ],
+          description: "Opisz temat lub dołącz notatki. AI pomoże zamienić Twoje materiały w fiszki z pytaniami i odpowiedziami.",
+          linkLabel: "Twórz fiszki",
+          imagePath: "/home/ai-flashcards.png",
+          imageAlt: "Czat AI w Nibomo tworzący fiszki z tematu lub załączonych notatek",
+        },
+        {
+          label: "02 · ZACZNIJ NAUKĘ",
+          titleLines: [
+            "Jedno pytanie na raz.",
+          ],
+          description: "Otwórz fiszkę i spróbuj przypomnieć sobie odpowiedź, zanim ją wyświetlisz. Ucz się w swoim tempie, po jednej fiszce.",
+          linkLabel: "Zacznij naukę",
+          imagePath: "/home/start-learning.png",
+          imageAlt: "Fiszka do powtórek w Nibomo z przyciskiem wyświetlania odpowiedzi",
+        },
+        {
+          label: "03 · INTELIGENTNE POWTÓRKI",
+          titleLines: [
+            "Sprawdź odpowiedź.",
+            "Oceń, jak dobrze pamiętasz.",
+          ],
+          description: "Wyświetl odpowiedź i zaznacz, jak łatwo udało Ci się ją przypomnieć. Nibomo pokazuje trudne fiszki wcześniej, a znajome później.",
+          linkLabel: "Powtarzaj fiszki",
+          imagePath: "/home/smart-reviews.png",
+          imageAlt: "Fiszka Nibomo z widoczną odpowiedzią i ocenami zapamiętania",
+        },
+        {
+          label: "04 · TWOJE POSTĘPY",
+          titleLines: [
+            "Zamień naukę w nawyk.",
+          ],
+          description: "Zobacz dni nauki w kalendarzu i utrzymuj serię. Każda powtórka to kolejny krok do Twojego celu.",
+          linkLabel: "Zobacz postępy",
+          imagePath: "/home/your-progress.png",
+          imageAlt: "Ekran postępów Nibomo z kalendarzem serii dni nauki i rankingiem",
+        }
+      ],
     },
     {
       type: "feature_list",
@@ -57,7 +101,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
         {
           title: "Nauka offline z automatyczną synchronizacją",
           description:
-            "Powtarzaj na telefonie także bez internetu. Zmiany synchronizują się automatycznie, więc możesz kontynuować w przeglądarce, na iOS lub Androidzie.",
+            "Powtarzaj na urządzeniu mobilnym bez połączenia z internetem. Zmiany synchronizują się automatycznie.",
         },
         {
           title: "Import, eksport i kontrola nad danymi",
@@ -75,6 +119,14 @@ export const HOME_PAGE_CONTENT: PageContent = {
             "Korzystaj z hostowanej aplikacji za darmo, przejrzyj kod open source lub uruchom ją na własnej infrastrukturze.",
         },
       ],
+    },
+    {
+      type: "review_cta",
+      titleLines: [
+        "Niech Nibomo zaplanuje Twoje powtórki.",
+        "Ty skup się na nauce.",
+      ],
+      description: "Zamieniaj to, czego się uczysz, w fiszki, powtarzaj w odpowiednim momencie i zapamiętuj więcej.",
     },
   ],
   body: "",

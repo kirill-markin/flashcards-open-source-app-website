@@ -36,7 +36,51 @@ export const HOME_PAGE_CONTENT: PageContent = {
       ],
     },
     {
-      type: "public_activity",
+      type: "app_walkthrough",
+      title: "Näin Nibomo toimii",
+      items: [
+        {
+          label: "01 · TEKOÄLYN LUOMAT OPISKELUKORTIT",
+          titleLines: [
+            "Kerro tekoälylle, mitä haluat oppia.",
+          ],
+          description: "Kuvaile aihe tai liitä muistiinpanosi. Tekoäly auttaa muuttamaan aineistosi opiskelukorteiksi, joissa on kysymyksiä ja vastauksia.",
+          linkLabel: "Luo opiskelukortteja",
+          imagePath: "/home/ai-flashcards.png",
+          imageAlt: "Nibomon tekoälykeskustelu luo opiskelukortteja aiheesta tai liitetyistä muistiinpanoista",
+        },
+        {
+          label: "02 · ALOITA OPISKELU",
+          titleLines: [
+            "Yksi kysymys kerrallaan.",
+          ],
+          description: "Avaa opiskelukortti ja yritä muistaa vastaus ennen sen näyttämistä. Opi omaan tahtiisi, yksi kortti kerrallaan.",
+          linkLabel: "Aloita opiskelu",
+          imagePath: "/home/start-learning.png",
+          imageAlt: "Nibomon kertauskortti, jossa on painike vastauksen näyttämiseen",
+        },
+        {
+          label: "03 · ÄLYKÄS KERTAUS",
+          titleLines: [
+            "Tarkista vastauksesi.",
+            "Arvioi, miten hyvin muistit.",
+          ],
+          description: "Näytä vastaus ja merkitse, miten helposti muistit sen. Nibomo näyttää vaikeat kortit uudelleen aiemmin ja tutut kortit myöhemmin.",
+          linkLabel: "Kertaa opiskelukortteja",
+          imagePath: "/home/smart-reviews.png",
+          imageAlt: "Nibomon kortti, jossa näkyvät vastaus ja muistamisen arviointivaihtoehdot",
+        },
+        {
+          label: "04 · EDISTYMISESI",
+          titleLines: [
+            "Tee oppimisesta tapa.",
+          ],
+          description: "Katso opiskelupäivät kalenterista ja pidä opiskelujakso katkeamattomana. Jokainen kertaus on uusi askel kohti tavoitettasi.",
+          linkLabel: "Katso edistymisesi",
+          imagePath: "/home/your-progress.png",
+          imageAlt: "Nibomon edistymisnäkymä, jossa on peräkkäisten opiskelupäivien kalenteri ja tulostaulukko",
+        }
+      ],
     },
     {
       type: "feature_list",
@@ -57,7 +101,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
         {
           title: "Offline-opiskelu ja automaattinen synkronointi",
           description:
-            "Jatka kertaamista mobiililaitteellasi ilman internet-yhteyttä. Muutokset synkronoituvat automaattisesti, joten voit jatkaa verkossa, iOS:ssä tai Androidilla.",
+            "Jatka kertaamista mobiililaitteellasi ilman internetyhteyttä. Muutokset synkronoituvat automaattisesti.",
         },
         {
           title: "Tuo, vie ja omista datasi",
@@ -75,6 +119,14 @@ export const HOME_PAGE_CONTENT: PageContent = {
             "Käytä isännöityä sovellusta ilmaiseksi, tarkastele avointa lähdekoodia tai aja sitä omassa infrastruktuurissasi.",
         },
       ],
+    },
+    {
+      type: "review_cta",
+      titleLines: [
+        "Anna Nibomon suunnitella kertauksesi.",
+        "Sinä keskityt oppimiseen.",
+      ],
+      description: "Muuta oppimasi asiat opiskelukorteiksi, kertaa oikeaan aikaan ja muista enemmän.",
     },
   ],
   body: "",

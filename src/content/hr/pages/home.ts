@@ -36,7 +36,51 @@ export const HOME_PAGE_CONTENT: PageContent = {
       ],
     },
     {
-      type: "public_activity",
+      type: "app_walkthrough",
+      title: "Kako Nibomo radi",
+      items: [
+        {
+          label: "01 · KARTICE ZA UČENJE UZ AI",
+          titleLines: [
+            "Recite AI-ju što želite naučiti.",
+          ],
+          description: "Opišite temu ili priložite svoje bilješke. AI pomaže pretvoriti vaš materijal u kartice za učenje s pitanjima i odgovorima.",
+          linkLabel: "Izradite kartice",
+          imagePath: "/home/ai-flashcards.png",
+          imageAlt: "AI razgovor u Nibomu izrađuje kartice iz teme ili priloženih bilježaka",
+        },
+        {
+          label: "02 · POČNITE UČITI",
+          titleLines: [
+            "Jedno pitanje odjednom.",
+          ],
+          description: "Otvorite karticu i pokušajte se prisjetiti odgovora prije nego što ga prikažete. Učite vlastitim tempom, jednu karticu odjednom.",
+          linkLabel: "Počnite učiti",
+          imagePath: "/home/start-learning.png",
+          imageAlt: "Kartica za ponavljanje u Nibomu s gumbom za prikaz odgovora",
+        },
+        {
+          label: "03 · PAMETNO PONAVLJANJE",
+          titleLines: [
+            "Provjerite odgovor.",
+            "Ocijenite koliko ste zapamtili.",
+          ],
+          description: "Prikažite odgovor i označite koliko ste ga se lako prisjetili. Nibomo teške kartice ponovno prikazuje ranije, a poznate kasnije.",
+          linkLabel: "Ponovite kartice",
+          imagePath: "/home/smart-reviews.png",
+          imageAlt: "Kartica Nibomo s prikazanim odgovorom i mogućnostima procjene prisjećanja",
+        },
+        {
+          label: "04 · VAŠ NAPREDAK",
+          titleLines: [
+            "Pretvorite učenje u naviku.",
+          ],
+          description: "Pratite dane učenja u kalendaru i održavajte niz. Svako ponavljanje još je jedan korak prema vašem cilju.",
+          linkLabel: "Pogledajte napredak",
+          imagePath: "/home/your-progress.png",
+          imageAlt: "Prikaz napretka u Nibomu s kalendarom uzastopnih dana učenja i ljestvicom",
+        }
+      ],
     },
     {
       type: "feature_list",
@@ -57,7 +101,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
         {
           title: "Učenje offline uz automatsku sinkronizaciju",
           description:
-            "Ponavljajte na mobitelu i bez internetske veze. Promjene se sinkroniziraju automatski pa možete nastaviti na webu, iOS-u ili Androidu.",
+            "Nastavite ponavljati na mobilnom uređaju bez internetske veze. Promjene se automatski sinkroniziraju.",
         },
         {
           title: "Uvoz, izvoz i vlasništvo nad podacima",
@@ -75,6 +119,14 @@ export const HOME_PAGE_CONTENT: PageContent = {
             "Koristite hostiranu aplikaciju besplatno, pregledajte otvoreni kod ili je pokrenite na vlastitoj infrastrukturi.",
         },
       ],
+    },
+    {
+      type: "review_cta",
+      titleLines: [
+        "Prepustite Nibomu planiranje ponavljanja.",
+        "Vi se usredotočite na učenje.",
+      ],
+      description: "Pretvorite ono što učite u kartice, ponavljajte u pravo vrijeme i zapamtite više.",
     },
   ],
   body: "",

@@ -36,7 +36,51 @@ export const HOME_PAGE_CONTENT: PageContent = {
       ],
     },
     {
-      type: "public_activity",
+      type: "app_walkthrough",
+      title: "Sådan fungerer Nibomo",
+      items: [
+        {
+          label: "01 · LÆRINGSKORT MED AI",
+          titleLines: [
+            "Fortæl AI, hvad du vil lære.",
+          ],
+          description: "Beskriv et emne, eller vedhæft dine noter. AI hjælper dig med at omdanne materialet til læringskort med spørgsmål og svar.",
+          linkLabel: "Opret læringskort",
+          imagePath: "/home/ai-flashcards.png",
+          imageAlt: "Nibomos AI-chat opretter læringskort fra et emne eller vedhæftede noter",
+        },
+        {
+          label: "02 · BEGYND AT LÆRE",
+          titleLines: [
+            "Ét spørgsmål ad gangen.",
+          ],
+          description: "Åbn et læringskort, og prøv at huske svaret, før du viser det. Lær i dit eget tempo, ét kort ad gangen.",
+          linkLabel: "Begynd at lære",
+          imagePath: "/home/start-learning.png",
+          imageAlt: "Et repetitionskort i Nibomo med en knap til at vise svaret",
+        },
+        {
+          label: "03 · SMART REPETITION",
+          titleLines: [
+            "Tjek dit svar.",
+            "Vurder, hvor godt du husker.",
+          ],
+          description: "Vis svaret, og angiv, hvor let du huskede det. Nibomo viser svære kort igen tidligere og velkendte kort senere.",
+          linkLabel: "Repeter læringskort",
+          imagePath: "/home/smart-reviews.png",
+          imageAlt: "Et Nibomo-kort med vist svar og muligheder for at vurdere hukommelsen",
+        },
+        {
+          label: "04 · DINE FREMSKRIDT",
+          titleLines: [
+            "Gør læring til en vane.",
+          ],
+          description: "Se dine studiedage i kalenderen, og hold din stime i gang. Hver repetition er endnu et skridt mod dit mål.",
+          linkLabel: "Se dine fremskridt",
+          imagePath: "/home/your-progress.png",
+          imageAlt: "Nibomos fremskridtsskærm med kalender over sammenhængende studiedage og rangliste",
+        }
+      ],
     },
     {
       type: "feature_list",
@@ -57,7 +101,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
         {
           title: "Offline læring med automatisk synkronisering",
           description:
-            "Bliv ved med at repetere på din mobil uden internetforbindelse. Ændringer synkroniseres automatisk, så du kan fortsætte på web, iOS eller Android.",
+            "Fortsæt med at repetere på din mobile enhed uden internetforbindelse. Ændringer synkroniseres automatisk.",
         },
         {
           title: "Import, eksport og dine egne data",
@@ -75,6 +119,14 @@ export const HOME_PAGE_CONTENT: PageContent = {
             "Brug den hostede app gratis, gennemse open source-koden, eller kør den på din egen infrastruktur.",
         },
       ],
+    },
+    {
+      type: "review_cta",
+      titleLines: [
+        "Lad Nibomo planlægge dine repetitioner.",
+        "Du fokuserer på at lære.",
+      ],
+      description: "Lav det, du lærer, om til læringskort, repeter på det rette tidspunkt, og husk mere.",
     },
   ],
   body: "",

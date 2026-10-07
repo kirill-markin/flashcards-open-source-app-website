@@ -36,7 +36,51 @@ export const HOME_PAGE_CONTENT: PageContent = {
       ],
     },
     {
-      type: "public_activity",
+      type: "app_walkthrough",
+      title: "Nibomo 如何运作",
+      items: [
+        {
+          label: "01 · AI 闪卡",
+          titleLines: [
+            "告诉 AI 你想学什么。",
+          ],
+          description: "描述一个主题或上传笔记。AI 帮你把学习材料转化为包含问题和答案的闪卡。",
+          linkLabel: "创建闪卡",
+          imagePath: "/home/ai-flashcards.png",
+          imageAlt: "Nibomo AI 聊天根据主题或上传的笔记创建闪卡",
+        },
+        {
+          label: "02 · 开始学习",
+          titleLines: [
+            "一次专注一个问题。",
+          ],
+          description: "打开闪卡，在查看答案前先尝试回忆。按自己的节奏学习，一次一张卡片。",
+          linkLabel: "开始学习",
+          imagePath: "/home/start-learning.png",
+          imageAlt: "带有显示答案按钮的 Nibomo 复习闪卡",
+        },
+        {
+          label: "03 · 智能复习",
+          titleLines: [
+            "核对答案。",
+            "评价回忆的难易程度。",
+          ],
+          description: "查看答案，并选择回忆起来有多容易。Nibomo 会更早让你复习困难的卡片，更晚再次展示熟悉的卡片。",
+          linkLabel: "复习闪卡",
+          imagePath: "/home/smart-reviews.png",
+          imageAlt: "显示答案和回忆难易评价选项的 Nibomo 闪卡",
+        },
+        {
+          label: "04 · 你的进度",
+          titleLines: [
+            "让学习成为习惯。",
+          ],
+          description: "在日历中查看学习日期，保持连续学习。每次复习都让你离目标更近一步。",
+          linkLabel: "查看进度",
+          imagePath: "/home/your-progress.png",
+          imageAlt: "Nibomo 进度页面，显示连续学习日历和排行榜",
+        }
+      ],
     },
     {
       type: "feature_list",
@@ -57,7 +101,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
         {
           title: "离线学习与自动同步",
           description:
-            "没有网络时也能在移动设备上继续复习。更改会自动同步，让你可以在 Web、iOS 或 Android 上接着学习。",
+            "没有网络连接，也能在移动设备上继续复习。更改会自动同步。",
         },
         {
           title: "导入、导出并掌控数据",
@@ -75,6 +119,14 @@ export const HOME_PAGE_CONTENT: PageContent = {
             "免费使用托管版应用、查看开源代码，或在自己的基础设施上运行。",
         },
       ],
+    },
+    {
+      type: "review_cta",
+      titleLines: [
+        "让 Nibomo 规划你的复习。",
+        "你只需专注学习。",
+      ],
+      description: "把正在学习的内容做成闪卡，在合适的时间复习，记住更多。",
     },
   ],
   body: "",

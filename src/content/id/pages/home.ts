@@ -36,7 +36,51 @@ export const HOME_PAGE_CONTENT: PageContent = {
       ],
     },
     {
-      type: "public_activity",
+      type: "app_walkthrough",
+      title: "Cara kerja Nibomo",
+      items: [
+        {
+          label: "01 · FLASHCARD DENGAN AI",
+          titleLines: [
+            "Beri tahu AI apa yang ingin kamu pelajari.",
+          ],
+          description: "Jelaskan topik atau lampirkan catatanmu. AI membantu mengubah materimu menjadi flashcard berisi pertanyaan dan jawaban.",
+          linkLabel: "Buat flashcard",
+          imagePath: "/home/ai-flashcards.png",
+          imageAlt: "Obrolan AI Nibomo yang membuat flashcard dari topik atau catatan terlampir",
+        },
+        {
+          label: "02 · MULAI BELAJAR",
+          titleLines: [
+            "Satu pertanyaan setiap kali.",
+          ],
+          description: "Buka flashcard dan coba ingat jawabannya sebelum menampilkannya. Belajar sesuai kecepatanmu, satu kartu setiap kali.",
+          linkLabel: "Mulai belajar",
+          imagePath: "/home/start-learning.png",
+          imageAlt: "Flashcard ulasan Nibomo dengan tombol untuk menampilkan jawaban",
+        },
+        {
+          label: "03 · ULASAN CERDAS",
+          titleLines: [
+            "Periksa jawabanmu.",
+            "Nilai daya ingatmu.",
+          ],
+          description: "Tampilkan jawaban dan tandai seberapa mudah kamu mengingatnya. Nibomo menampilkan kembali kartu sulit lebih cepat dan kartu yang sudah dikenal lebih lambat.",
+          linkLabel: "Ulas flashcard",
+          imagePath: "/home/smart-reviews.png",
+          imageAlt: "Flashcard Nibomo dengan jawaban terbuka dan pilihan penilaian daya ingat",
+        },
+        {
+          label: "04 · KEMAJUANMU",
+          titleLines: [
+            "Jadikan belajar sebagai kebiasaan.",
+          ],
+          description: "Lihat hari belajarmu di kalender dan pertahankan rangkaian hari belajarmu. Setiap ulasan membawamu selangkah lebih dekat ke tujuan.",
+          linkLabel: "Lihat kemajuanmu",
+          imagePath: "/home/your-progress.png",
+          imageAlt: "Layar kemajuan Nibomo dengan kalender rangkaian hari belajar dan papan peringkat",
+        }
+      ],
     },
     {
       type: "feature_list",
@@ -57,7 +101,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
         {
           title: "Belajar Offline dengan Sinkronisasi Otomatis",
           description:
-            "Lanjutkan meninjau di perangkat seluler tanpa koneksi internet. Perubahan tersinkron otomatis, jadi Anda bisa melanjutkan di web, iOS, atau Android.",
+            "Terus mengulas di perangkat seluler tanpa koneksi internet. Perubahan disinkronkan secara otomatis.",
         },
         {
           title: "Impor, Ekspor, dan Miliki Data Anda",
@@ -75,6 +119,14 @@ export const HOME_PAGE_CONTENT: PageContent = {
             "Gunakan aplikasi terkelola secara gratis, periksa kode open source-nya, atau jalankan di infrastruktur Anda sendiri.",
         },
       ],
+    },
+    {
+      type: "review_cta",
+      titleLines: [
+        "Biarkan Nibomo merencanakan ulasanmu.",
+        "Kamu fokus belajar.",
+      ],
+      description: "Ubah apa yang kamu pelajari menjadi flashcard, ulas pada waktu yang tepat, dan ingat lebih banyak.",
     },
   ],
   body: "",

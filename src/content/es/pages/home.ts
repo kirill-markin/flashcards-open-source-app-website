@@ -36,7 +36,51 @@ export const HOME_PAGE_CONTENT: PageContent = {
       ],
     },
     {
-      type: "public_activity",
+      type: "app_walkthrough",
+      title: "Cómo funciona Nibomo",
+      items: [
+        {
+          label: "01 · TARJETAS CON IA",
+          titleLines: [
+            "Dile a la IA qué quieres aprender.",
+          ],
+          description: "Describe un tema o adjunta tus apuntes. La IA te ayuda a convertir tu material en tarjetas con preguntas y respuestas.",
+          linkLabel: "Crear tarjetas",
+          imagePath: "/home/ai-flashcards.png",
+          imageAlt: "Chat de IA de Nibomo que crea tarjetas a partir de un tema o de apuntes adjuntos",
+        },
+        {
+          label: "02 · EMPIEZA A APRENDER",
+          titleLines: [
+            "Una pregunta a la vez.",
+          ],
+          description: "Abre una tarjeta e intenta recordar la respuesta antes de mostrarla. Aprende a tu ritmo, una tarjeta a la vez.",
+          linkLabel: "Empezar a aprender",
+          imagePath: "/home/start-learning.png",
+          imageAlt: "Tarjeta de repaso de Nibomo con un botón para mostrar la respuesta",
+        },
+        {
+          label: "03 · REPASOS INTELIGENTES",
+          titleLines: [
+            "Comprueba tu respuesta.",
+            "Evalúa cuánto recuerdas.",
+          ],
+          description: "Muestra la respuesta e indica con qué facilidad la recordaste. Nibomo vuelve a mostrar antes las tarjetas difíciles y más tarde las que ya conoces.",
+          linkLabel: "Repasar tarjetas",
+          imagePath: "/home/smart-reviews.png",
+          imageAlt: "Tarjeta de Nibomo con la respuesta visible y opciones para evaluar el recuerdo",
+        },
+        {
+          label: "04 · TU PROGRESO",
+          titleLines: [
+            "Convierte el aprendizaje en un hábito.",
+          ],
+          description: "Consulta tus días de estudio en el calendario y mantén tu racha. Cada repaso es un paso más hacia tu objetivo.",
+          linkLabel: "Ver tu progreso",
+          imagePath: "/home/your-progress.png",
+          imageAlt: "Pantalla de progreso de Nibomo con el calendario de la racha de estudio y la clasificación",
+        }
+      ],
     },
     {
       type: "feature_list",
@@ -57,7 +101,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
         {
           title: "Estudio sin conexión con sincronización automática",
           description:
-            "Sigue repasando sin conexión en tu móvil. Los cambios se sincronizan automáticamente para que continúes en la web, iOS o Android.",
+            "Sigue repasando en tu dispositivo móvil sin conexión a internet. Los cambios se sincronizan automáticamente.",
         },
         {
           title: "Importa, exporta y controla tus datos",
@@ -75,6 +119,14 @@ export const HOME_PAGE_CONTENT: PageContent = {
             "Usa gratis la app alojada, consulta el código abierto o ejecútala en tu propia infraestructura.",
         },
       ],
+    },
+    {
+      type: "review_cta",
+      titleLines: [
+        "Deja que Nibomo planifique tus repasos.",
+        "Tú céntrate en aprender.",
+      ],
+      description: "Convierte lo que aprendes en tarjetas, repasa en el momento adecuado y recuerda más.",
     },
   ],
   body: "",
