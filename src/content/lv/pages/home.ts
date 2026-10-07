@@ -36,7 +36,51 @@ export const HOME_PAGE_CONTENT: PageContent = {
       ],
     },
     {
-      type: "public_activity",
+      type: "app_walkthrough",
+      title: "Kā darbojas Nibomo",
+      items: [
+        {
+          label: "01 · MĀCĪBU KARTĪTES AR MI",
+          titleLines: [
+            "Pastāstiet MI, ko vēlaties apgūt.",
+          ],
+          description: "Aprakstiet tēmu vai pievienojiet savas piezīmes. MI palīdz pārvērst materiālus mācību kartītēs ar jautājumiem un atbildēm.",
+          linkLabel: "Izveidot kartītes",
+          imagePath: "/home/ai-flashcards.png",
+          imageAlt: "Nibomo MI saruna veido mācību kartītes no tēmas vai pievienotām piezīmēm",
+        },
+        {
+          label: "02 · SĀCIET MĀCĪTIES",
+          titleLines: [
+            "Viens jautājums vienlaikus.",
+          ],
+          description: "Atveriet kartīti un mēģiniet atcerēties atbildi, pirms to parādāt. Mācieties savā tempā, pa vienai kartītei.",
+          linkLabel: "Sākt mācīties",
+          imagePath: "/home/start-learning.png",
+          imageAlt: "Nibomo atkārtošanas kartīte ar atbildes parādīšanas pogu",
+        },
+        {
+          label: "03 · GUDRA ATKĀRTOŠANA",
+          titleLines: [
+            "Pārbaudiet atbildi.",
+            "Novērtējiet, cik labi atcerējāties.",
+          ],
+          description: "Parādiet atbildi un norādiet, cik viegli to atcerējāties. Nibomo grūtās kartītes parāda atkārtoti agrāk, bet pazīstamās vēlāk.",
+          linkLabel: "Atkārtot kartītes",
+          imagePath: "/home/smart-reviews.png",
+          imageAlt: "Nibomo kartīte ar parādītu atbildi un atcerēšanās novērtēšanas iespējām",
+        },
+        {
+          label: "04 · JŪSU PROGRESS",
+          titleLines: [
+            "Pārvērtiet mācīšanos par ieradumu.",
+          ],
+          description: "Skatiet mācību dienas kalendārā un turpiniet savu dienu virkni. Katra atkārtošana ir vēl viens solis pretī mērķim.",
+          linkLabel: "Skatīt progresu",
+          imagePath: "/home/your-progress.png",
+          imageAlt: "Nibomo progresa ekrāns ar secīgu mācību dienu kalendāru un reitingu tabulu",
+        }
+      ],
     },
     {
       type: "feature_list",
@@ -57,7 +101,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
         {
           title: "Mācīšanās bezsaistē ar automātisku sinhronizāciju",
           description:
-            "Atkārto telefonā arī bez interneta savienojuma. Izmaiņas sinhronizējas automātiski, tāpēc vari turpināt tīmeklī, iOS vai Android.",
+            "Turpiniet atkārtot mobilajā ierīcē bez interneta savienojuma. Izmaiņas tiek sinhronizētas automātiski.",
         },
         {
           title: "Imports, eksports un dati, kas pieder tev",
@@ -75,6 +119,14 @@ export const HOME_PAGE_CONTENT: PageContent = {
             "Izmanto mitināto lietotni bez maksas, izpēti atvērto pirmkodu vai darbini to savā infrastruktūrā.",
         },
       ],
+    },
+    {
+      type: "review_cta",
+      titleLines: [
+        "Ļaujiet Nibomo plānot atkārtošanu.",
+        "Jūs koncentrējieties uz mācīšanos.",
+      ],
+      description: "Pārvērtiet apgūstamo mācību kartītēs, atkārtojiet īstajā brīdī un atcerieties vairāk.",
     },
   ],
   body: "",

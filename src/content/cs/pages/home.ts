@@ -36,7 +36,51 @@ export const HOME_PAGE_CONTENT: PageContent = {
       ],
     },
     {
-      type: "public_activity",
+      type: "app_walkthrough",
+      title: "Jak Nibomo funguje",
+      items: [
+        {
+          label: "01 · KARTIČKY S AI",
+          titleLines: [
+            "Řekněte AI, co se chcete naučit.",
+          ],
+          description: "Popište téma nebo přiložte své poznámky. AI vám pomůže proměnit materiály v kartičky s otázkami a odpověďmi.",
+          linkLabel: "Vytvořit kartičky",
+          imagePath: "/home/ai-flashcards.png",
+          imageAlt: "AI chat Nibomo vytváří kartičky z tématu nebo přiložených poznámek",
+        },
+        {
+          label: "02 · ZAČNĚTE SE UČIT",
+          titleLines: [
+            "Jedna otázka po druhé.",
+          ],
+          description: "Otevřete kartičku a zkuste si vybavit odpověď, než ji zobrazíte. Učte se vlastním tempem, jednu kartičku po druhé.",
+          linkLabel: "Začít se učit",
+          imagePath: "/home/start-learning.png",
+          imageAlt: "Opakovací kartička Nibomo s tlačítkem pro zobrazení odpovědi",
+        },
+        {
+          label: "03 · CHYTRÉ OPAKOVÁNÍ",
+          titleLines: [
+            "Zkontrolujte odpověď.",
+            "Ohodnoťte, jak dobře si pamatujete.",
+          ],
+          description: "Zobrazte odpověď a označte, jak snadno jste si ji vybavili. Nibomo ukazuje obtížné kartičky dříve a známé později.",
+          linkLabel: "Opakovat kartičky",
+          imagePath: "/home/smart-reviews.png",
+          imageAlt: "Kartička Nibomo se zobrazenou odpovědí a hodnocením zapamatování",
+        },
+        {
+          label: "04 · VÁŠ POKROK",
+          titleLines: [
+            "Proměňte učení v návyk.",
+          ],
+          description: "Sledujte dny učení v kalendáři a udržujte svou sérii. Každé opakování je dalším krokem k vašemu cíli.",
+          linkLabel: "Zobrazit pokrok",
+          imagePath: "/home/your-progress.png",
+          imageAlt: "Obrazovka pokroku Nibomo s kalendářem série dnů učení a žebříčkem",
+        }
+      ],
     },
     {
       type: "feature_list",
@@ -57,7 +101,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
         {
           title: "Učení offline s automatickou synchronizací",
           description:
-            "Opakujte na mobilu i bez připojení k internetu. Změny se synchronizují automaticky, takže můžete pokračovat na webu, iOS nebo Androidu.",
+            "Pokračujte v opakování na mobilním zařízení bez připojení k internetu. Změny se synchronizují automaticky.",
         },
         {
           title: "Import, export a vlastnictví vašich dat",
@@ -75,6 +119,14 @@ export const HOME_PAGE_CONTENT: PageContent = {
             "Používejte hostovanou aplikaci zdarma, prohlédněte si otevřený zdrojový kód nebo ji spusťte na vlastní infrastruktuře.",
         },
       ],
+    },
+    {
+      type: "review_cta",
+      titleLines: [
+        "Nechte Nibomo naplánovat vaše opakování.",
+        "Vy se soustřeďte na učení.",
+      ],
+      description: "Proměňte to, co se učíte, v kartičky, opakujte ve správný čas a zapamatujte si více.",
     },
   ],
   body: "",

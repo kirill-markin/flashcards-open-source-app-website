@@ -82,7 +82,8 @@ a.directory:hover,
 }
 
 .homeDesign {
-  grid-template-columns: repeat(3, max-content);
+  display: flex;
+  flex-wrap: wrap;
   gap: 8px;
 }
 
@@ -108,11 +109,11 @@ a.directory:hover,
 }
 
 @media (max-width: 500px) {
-  .directories.homeDesign {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+  .homeDesign .entry {
+    flex: 1 1 120px;
   }
 
   .homeDesign .documentation {
-    grid-column: 1 / -1;
+    flex-basis: 100%;
   }
 }

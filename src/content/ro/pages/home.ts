@@ -36,7 +36,51 @@ export const HOME_PAGE_CONTENT: PageContent = {
       ],
     },
     {
-      type: "public_activity",
+      type: "app_walkthrough",
+      title: "Cum funcționează Nibomo",
+      items: [
+        {
+          label: "01 · FIȘE CU AI",
+          titleLines: [
+            "Spune-i AI ce vrei să înveți.",
+          ],
+          description: "Descrie un subiect sau atașează notițele tale. AI te ajută să transformi materialul în fișe cu întrebări și răspunsuri.",
+          linkLabel: "Creează fișe",
+          imagePath: "/home/ai-flashcards.png",
+          imageAlt: "Chatul AI din Nibomo creează fișe dintr-un subiect sau din notițe atașate",
+        },
+        {
+          label: "02 · ÎNCEPE SĂ ÎNVEȚI",
+          titleLines: [
+            "Câte o întrebare pe rând.",
+          ],
+          description: "Deschide o fișă și încearcă să-ți amintești răspunsul înainte de a-l afișa. Învață în ritmul tău, câte o fișă pe rând.",
+          linkLabel: "Începe să înveți",
+          imagePath: "/home/start-learning.png",
+          imageAlt: "Fișă de recapitulare Nibomo cu un buton pentru afișarea răspunsului",
+        },
+        {
+          label: "03 · RECAPITULĂRI INTELIGENTE",
+          titleLines: [
+            "Verifică răspunsul.",
+            "Evaluează cât de bine ți-ai amintit.",
+          ],
+          description: "Afișează răspunsul și indică cât de ușor ți l-ai amintit. Nibomo readuce fișele dificile mai devreme și pe cele familiare mai târziu.",
+          linkLabel: "Recapitulează fișele",
+          imagePath: "/home/smart-reviews.png",
+          imageAlt: "Fișă Nibomo cu răspunsul afișat și opțiuni de evaluare a memorării",
+        },
+        {
+          label: "04 · PROGRESUL TĂU",
+          titleLines: [
+            "Transformă învățarea într-un obicei.",
+          ],
+          description: "Vezi zilele de studiu în calendar și continuă seria. Fiecare recapitulare este încă un pas spre obiectivul tău.",
+          linkLabel: "Vezi progresul",
+          imagePath: "/home/your-progress.png",
+          imageAlt: "Ecranul de progres Nibomo cu un calendar al zilelor consecutive de studiu și un clasament",
+        }
+      ],
     },
     {
       type: "feature_list",
@@ -57,7 +101,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
         {
           title: "Studiu offline cu sincronizare automată",
           description:
-            "Continuă să recapitulezi pe telefon fără conexiune la internet. Modificările se sincronizează automat, ca să poți continua pe web, iOS sau Android.",
+            "Continuă să recapitulezi pe dispozitivul mobil fără conexiune la internet. Modificările se sincronizează automat.",
         },
         {
           title: "Importă, exportă și deține datele tale",
@@ -75,6 +119,14 @@ export const HOME_PAGE_CONTENT: PageContent = {
             "Folosește gratuit aplicația găzduită, inspectează codul open source sau rulează-l pe propria infrastructură.",
         },
       ],
+    },
+    {
+      type: "review_cta",
+      titleLines: [
+        "Lasă Nibomo să-ți planifice recapitulările.",
+        "Tu concentrează-te pe învățare.",
+      ],
+      description: "Transformă ceea ce înveți în fișe, recapitulează la momentul potrivit și ține minte mai mult.",
     },
   ],
   body: "",

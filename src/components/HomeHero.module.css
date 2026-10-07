@@ -14,7 +14,7 @@
   flex-direction: column;
   min-inline-size: 0;
   padding-block: 52px 40px;
-  padding-inline-start: 40px;
+  padding-inline: 40px 16px;
 }
 
 .eyebrow {
@@ -51,6 +51,7 @@
 
 .cta {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   gap: 16px;
   margin-block-start: auto;

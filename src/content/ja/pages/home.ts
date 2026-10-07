@@ -37,7 +37,51 @@ export const HOME_PAGE_CONTENT: PageContent = {
       ],
     },
     {
-      type: "public_activity",
+      type: "app_walkthrough",
+      title: "Nibomoの使い方",
+      items: [
+        {
+          label: "01 · AIフラッシュカード",
+          titleLines: [
+            "学びたいことをAIに伝えましょう。",
+          ],
+          description: "テーマを説明するか、ノートを添付してください。AIが教材を質問と答えのあるフラッシュカードにするお手伝いをします。",
+          linkLabel: "フラッシュカードを作成",
+          imagePath: "/home/ai-flashcards.png",
+          imageAlt: "テーマや添付したノートからフラッシュカードを作成するNibomoのAIチャット",
+        },
+        {
+          label: "02 · 学習を始める",
+          titleLines: [
+            "一問ずつ、着実に。",
+          ],
+          description: "フラッシュカードを開き、答えを表示する前に思い出してみましょう。一枚ずつ、自分のペースで学習できます。",
+          linkLabel: "学習を始める",
+          imagePath: "/home/start-learning.png",
+          imageAlt: "答えを表示するボタンがあるNibomoの復習用フラッシュカード",
+        },
+        {
+          label: "03 · スマートな復習",
+          titleLines: [
+            "答えを確認。",
+            "思い出しやすさを評価。",
+          ],
+          description: "答えを表示し、どのくらい簡単に思い出せたかを選びましょう。Nibomoは難しいカードを早めに、覚えているカードを後で再び表示します。",
+          linkLabel: "フラッシュカードを復習",
+          imagePath: "/home/smart-reviews.png",
+          imageAlt: "答えと思い出しやすさの評価ボタンが表示されたNibomoのフラッシュカード",
+        },
+        {
+          label: "04 · 学習の進捗",
+          titleLines: [
+            "学習を習慣にしましょう。",
+          ],
+          description: "カレンダーで学習した日を確認し、連続学習を続けましょう。復習を重ねるたびに、目標に一歩近づきます。",
+          linkLabel: "進捗を確認",
+          imagePath: "/home/your-progress.png",
+          imageAlt: "連続学習カレンダーとランキングがあるNibomoの進捗画面",
+        }
+      ],
     },
     {
       type: "feature_list",
@@ -58,7 +102,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
         {
           title: "オフライン学習と自動同期",
           description:
-            "インターネットがなくてもモバイル端末で復習できます。変更は自動で同期され、Web・iOS・Android のどこからでも続けられます。",
+            "インターネット接続がなくても、モバイル端末で復習を続けられます。変更は自動で同期されます。",
         },
         {
           title: "データをインポート・エクスポートして自分で管理",
@@ -76,6 +120,14 @@ export const HOME_PAGE_CONTENT: PageContent = {
             "ホスト版を無料で使う、オープンソースのコードを確認する、自分の環境で運用するという選択ができます。",
         },
       ],
+    },
+    {
+      type: "review_cta",
+      titleLines: [
+        "復習の計画はNibomoにおまかせ。",
+        "あなたは学習に集中しましょう。",
+      ],
+      description: "学んでいることをフラッシュカードにして、最適なタイミングで復習し、もっと覚えましょう。",
     },
   ],
   body: "",
