@@ -1,5 +1,11 @@
 @import "tailwindcss";
 
+@theme inline {
+  --font-sans: var(--ui-font-family);
+  --font-serif: var(--ui-font-family);
+  --font-mono: var(--ui-font-family);
+}
+
 :root {
   color-scheme: dark;
   --bg: #161718;
@@ -30,8 +36,7 @@
   --radius-xl: 32px;
   --radius-pill: 999px;
   --content-width: 1240px;
-  --ui-font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", system-ui, sans-serif;
-  --reading-serif-font-family: var(--font-source-serif), Georgia, Cambria, "Times New Roman", Times, serif;
+  --ui-font-family: var(--font-inter), sans-serif;
   --reading-width: 728px;
   --reading-font-size: 20px;
   --reading-line-height: 1.6;

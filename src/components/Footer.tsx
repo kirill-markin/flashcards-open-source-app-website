@@ -3,7 +3,6 @@ import { CONNECTOR_DIRECTORIES } from "@/lib/connectorDirectories";
 import { getExternalLinkAttributes } from "@/lib/linkTargets";
 import { LocaleSwitcher } from "@/components/LocaleSwitcher";
 import { getAppUrl } from "@/lib/auth";
-import { homeDesignFont } from "@/lib/homeDesignFont";
 import type { AppLocale } from "@/lib/i18n";
 import { getHumanPlatforms } from "@/lib/humanPlatforms";
 import { getAvailableLocalizedPathname } from "@/lib/routeTranslations";
@@ -92,7 +91,7 @@ export const Footer: React.FC<FooterProps> = ({
     <footer
       id="site-footer"
       className={isHomeDesign
-        ? `${styles.footer} ${styles.homeDesign} ${homeDesignFont.className}`
+        ? `${styles.footer} ${styles.homeDesign}`
         : styles.footer}
     >
       <div className={styles.inner}>
