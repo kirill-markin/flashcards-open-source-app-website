@@ -3,6 +3,7 @@ import { CONNECTOR_DIRECTORIES } from "@/lib/connectorDirectories";
 import { getExternalLinkAttributes } from "@/lib/linkTargets";
 import { LocaleSwitcher } from "@/components/LocaleSwitcher";
 import { getAppUrl } from "@/lib/auth";
+import { homeDesignFont } from "@/lib/homeDesignFont";
 import type { AppLocale } from "@/lib/i18n";
 import { getHumanPlatforms } from "@/lib/humanPlatforms";
 import { getAvailableLocalizedPathname } from "@/lib/routeTranslations";
@@ -38,6 +39,7 @@ export const Footer: React.FC<FooterProps> = ({
   routeLocales,
   routePathname,
 }) => {
+  const isHomeDesign = locale === "en" && routePathname === "/";
   const year = new Date().getFullYear();
   const platforms = getHumanPlatforms(getAppUrl(), locale);
   const storeQrCodes = readGeneratedStoreQrCodes(process.cwd());
@@ -75,9 +77,24 @@ export const Footer: React.FC<FooterProps> = ({
       ]
       : []),
   ];
+  const operatedByAttribution = (
+    <span className={styles.attributionLine}>
+      <a
+        href={STRUCTURED_DATA_PUBLISHER_URL}
+        {...getExternalLinkAttributes(STRUCTURED_DATA_PUBLISHER_URL)}
+      >
+        {uiCopy.footer.operatedByLabel}
+      </a>
+    </span>
+  );
 
   return (
-    <footer className={styles.footer}>
+    <footer
+      id="site-footer"
+      className={isHomeDesign
+        ? `${styles.footer} ${styles.homeDesign} ${homeDesignFont.className}`
+        : styles.footer}
+    >
       <div className={styles.inner}>
         <div className={styles.columns}>
           <div className={styles.column}>
@@ -213,20 +230,15 @@ export const Footer: React.FC<FooterProps> = ({
         <div className={styles.bottom}>
           <div className={styles.bottomMeta}>
             <span className={styles.copyright}>
+              {isHomeDesign ? "© " : null}
               {year} {uiCopy.footer.copyrightLabel}
             </span>
             <div className={styles.attribution}>
+              {isHomeDesign ? operatedByAttribution : null}
               <span className={styles.attributionLine}>
                 {uiCopy.footer.builtByLabel}
               </span>
-              <span className={styles.attributionLine}>
-                <a
-                  href={STRUCTURED_DATA_PUBLISHER_URL}
-                  {...getExternalLinkAttributes(STRUCTURED_DATA_PUBLISHER_URL)}
-                >
-                  {uiCopy.footer.operatedByLabel}
-                </a>
-              </span>
+              {isHomeDesign ? null : operatedByAttribution}
             </div>
           </div>
           <div className={styles.localePicker}>

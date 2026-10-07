@@ -9,6 +9,7 @@ import {
 } from "@/lib/appEntryTracking";
 import {
   getHumanPlatforms,
+  type HumanPlatform,
   type StoreAnalyticsPlatform,
 } from "@/lib/humanPlatforms";
 import { getAppUrl, getLoginUrl } from "@/lib/auth";
@@ -61,11 +62,23 @@ function WebIcon() {
 interface HumanPlatformLinksProps {
   readonly locale: AppLocale;
   readonly storeQrCodes: StoreQrCodes;
+  readonly appearance?: "cards" | "badges";
+}
+
+function getBadgeOrder(platform: HumanPlatform): number {
+  if (platform.kind === "disabled") {
+    return 3;
+  }
+  if (platform.analytics.kind === "store") {
+    return platform.analytics.platform === "android" ? 0 : 1;
+  }
+  return 2;
 }
 
 export const HumanPlatformLinks: React.FC<HumanPlatformLinksProps> = ({
   locale,
   storeQrCodes,
+  appearance = "cards",
 }) => {
   const uiCopy = getUiCopy(locale);
   const loggedIn = useLoggedInCookie();
@@ -74,10 +87,15 @@ export const HumanPlatformLinks: React.FC<HumanPlatformLinksProps> = ({
     : getLoginUrl(getLocalizedPathname(locale, "/"));
   const webEntryAction = loggedIn ? "open_app" : "login";
   const platforms = getHumanPlatforms(webEntryHref, locale);
+  const orderedPlatforms = appearance === "badges"
+    ? platforms.toSorted((first, second) => getBadgeOrder(first) - getBadgeOrder(second))
+    : platforms;
 
   return (
-    <div className={styles.platformList}>
-      {platforms.map((platform) => {
+    <div className={appearance === "badges"
+      ? `${styles.platformList} ${styles.badges}`
+      : styles.platformList}>
+      {orderedPlatforms.map((platform) => {
         if (platform.kind === "active") {
           const externalLinkAttributes = getExternalLinkAttributes(platform.href);
           const trackPlatformClick = (): void => {
@@ -92,7 +110,19 @@ export const HumanPlatformLinks: React.FC<HumanPlatformLinksProps> = ({
               "home_human_access",
             );
           };
-          const platformContent = platform.image ? (
+          const platformContent = appearance === "badges" &&
+            platform.analytics.kind === "store" &&
+            platform.analytics.platform === "android" ? (
+            <>
+              <span className={styles.playMark}>
+                <Image src="/home/google-play-lockup.png" alt="" width={300} height={61} />
+              </span>
+              <span className={styles.badgeText}>
+                <span className={styles.badgeCaption}>GET IT ON</span>
+                <span className={styles.badgeName}>{platform.label}</span>
+              </span>
+            </>
+          ) : platform.image ? (
             <Image
               src={platform.image.src}
               alt={platform.image.alt}
@@ -103,7 +133,14 @@ export const HumanPlatformLinks: React.FC<HumanPlatformLinksProps> = ({
           ) : (
             <>
               <WebIcon />
-              <span className={styles.platformLabel}>{platform.label}</span>
+              {appearance === "badges" ? (
+                <span className={styles.badgeText}>
+                  <span className={styles.badgeCaption}>Try it on</span>
+                  <span className={styles.badgeName}>{platform.label}</span>
+                </span>
+              ) : (
+                <span className={styles.platformLabel}>{platform.label}</span>
+              )}
             </>
           );
 

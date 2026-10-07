@@ -7,6 +7,10 @@ import { AuthButton } from "@/components/AuthButton";
 import { AuthAwareAppCtaLink } from "@/components/AuthAwareAppCtaLink";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { HumanPlatformLinks } from "@/components/HumanPlatformLinks";
+import { HomeAppWalkthrough } from "@/components/HomeAppWalkthrough";
+import { HomeHero } from "@/components/HomeHero";
+import { HomeKeyFeatures } from "@/components/HomeKeyFeatures";
+import { HomeReviewCta } from "@/components/HomeReviewCta";
 import { PublicActivitySection } from "@/components/PublicActivitySection";
 import { SiteFrame } from "@/components/SiteFrame";
 import { StructuredDataScript } from "@/components/StructuredDataScript";
@@ -15,6 +19,7 @@ import { TrackedSelfHostCtaLink } from "@/components/TrackedSelfHostCtaLink";
 import { renderMarkdownToHtml } from "@/lib/content/renderMarkdownToHtml";
 import { readPageContent } from "@/lib/content/readPageContent";
 import type {
+  AppWalkthroughSection,
   FeatureListSection,
   HeroSection,
   LegalPageSection,
@@ -22,6 +27,7 @@ import type {
   PageSection,
   PricingTier,
   PricingTiersSection,
+  ReviewCtaSection,
 } from "@/lib/content/types";
 import {
   readGeneratedGlobalActivitySnapshot,
@@ -114,106 +120,126 @@ function renderHomePage(
   locale: AppLocale,
   heroSection: HeroSection,
   featureSection: FeatureListSection,
-  activitySnapshot: GlobalActivitySnapshot,
+  walkthroughSection: AppWalkthroughSection | null,
+  reviewCtaSection: ReviewCtaSection | null,
+  activitySnapshot: GlobalActivitySnapshot | null,
   storeQrCodes: StoreQrCodes
 ): React.JSX.Element {
   const uiCopy = getUiCopy(locale);
 
   return (
-    <div className={homeStyles.page}>
-      <section className={homeStyles.hero}>
-        <div className={homeStyles.heroMain}>
-          <div className={homeStyles.heroHeading}>
-            <p className={homeStyles.eyebrow}>{heroSection.eyebrow}</p>
-            <h1 className={homeStyles.title}>
-              {heroSection.titleLines.map((line, index) => (
-                <span key={line}>
-                  {line}
-                  {index < heroSection.titleLines.length - 1 ? <br /> : null}
-                </span>
-              ))}
-            </h1>
-          </div>
-          <p className={homeStyles.subtitle}>{heroSection.subtitle}</p>
-          <div className={homeStyles.cta}>
-            <AuthButton
-              locale={locale}
-              placement="home_hero"
-              signupLabel={uiCopy.auth.startStudyingFree}
-            />
-            <p className={homeStyles.trustLine}>{heroSection.trustLine}</p>
-          </div>
-        </div>
-        <div className={homeStyles.heroHint}>
-          <div className={homeStyles.humanAccess}>
-            <h2 className={homeStyles.hintTitle}>
-              {uiCopy.home.humanSectionLabel}
-            </h2>
-            <HumanPlatformLinks locale={locale} storeQrCodes={storeQrCodes} />
-          </div>
-          <div className={homeStyles.hintDivider} />
-          <div className={homeStyles.agentAccess}>
-            <h2 className={homeStyles.hintTitle}>
-              {uiCopy.home.aiAgentSectionLabel}
-            </h2>
-            <p className={homeStyles.hintDescription}>
-              {uiCopy.home.agentHintDescription}
-            </p>
-            <AgentDirectoryLinks locale={locale} />
-            {heroSection.agentConnectors.map((connector) => (
-              <TrackedMcpEndpointCopyField
-                key={connector.link.href}
-                caption={connector.caption}
-                labels={uiCopy.copyCodeField}
-                locale={locale}
-                value={connector.link.href}
-              />
-            ))}
-            <Link
-              className={homeStyles.agentGuide}
-              href={getAvailableLocalizedPathname(locale, "/docs/mcp-connector/")}
-            >
-              {uiCopy.footer.documentationLabel} <span aria-hidden="true">→</span>
-            </Link>
-          </div>
-        </div>
-      </section>
-
-      <section
-        className={homeStyles.appShowcase}
-        aria-label={uiCopy.home.appPreviewAriaLabel}
-      >
-        <p className={homeStyles.appShowcaseLabel}>
-          {uiCopy.home.appPreviewLabel}
-        </p>
-        <div className={homeStyles.appShowcaseFrame}>
-          <Image
-            src={getHomeShowcaseImagePath(locale)}
-            alt={uiCopy.home.appPreviewAlt}
-            width={7140}
-            height={3018}
-            priority
-            sizes="(max-width: 768px) calc(100vw - 28px), (max-width: 1280px) calc(100vw - 40px), 1240px"
-            className={homeStyles.appShowcaseImage}
-          />
-        </div>
-      </section>
-
-      <PublicActivitySection locale={locale} snapshot={activitySnapshot} />
-
-      <section className={homeStyles.features}>
-        <div className={homeStyles.featuresInner}>
-          <div className={homeStyles.featureGrid}>
-            {featureSection.items.map((item) => (
-              <div key={item.title} className={homeStyles.featureCard}>
-                <h3>{item.title}</h3>
-                <p>{item.description}</p>
+    <>
+      <div className={homeStyles.page}>
+        {locale === "en" ? (
+          <HomeHero locale={locale} section={heroSection} storeQrCodes={storeQrCodes} />
+        ) : (
+          <section className={homeStyles.hero}>
+            <div className={homeStyles.heroMain}>
+              <div className={homeStyles.heroHeading}>
+                <p className={homeStyles.eyebrow}>{heroSection.eyebrow}</p>
+                <h1 className={homeStyles.title}>
+                  {heroSection.titleLines.map((line, index) => (
+                    <span key={line}>
+                      {line}
+                      {index < heroSection.titleLines.length - 1 ? <br /> : null}
+                    </span>
+                  ))}
+                </h1>
               </div>
-            ))}
-          </div>
-        </div>
-      </section>
-    </div>
+              <p className={homeStyles.subtitle}>{heroSection.subtitle}</p>
+              <div className={homeStyles.cta}>
+                <AuthButton
+                  locale={locale}
+                  placement="home_hero"
+                  signupLabel={uiCopy.auth.startStudyingFree}
+                />
+                <p className={homeStyles.trustLine}>{heroSection.trustLine}</p>
+              </div>
+            </div>
+            <div className={homeStyles.heroHint}>
+              <div className={homeStyles.humanAccess}>
+                <h2 className={homeStyles.hintTitle}>
+                  {uiCopy.home.humanSectionLabel}
+                </h2>
+                <HumanPlatformLinks locale={locale} storeQrCodes={storeQrCodes} />
+              </div>
+              <div className={homeStyles.hintDivider} />
+              <div className={homeStyles.agentAccess}>
+                <h2 className={homeStyles.hintTitle}>
+                  {uiCopy.home.aiAgentSectionLabel}
+                </h2>
+                <p className={homeStyles.hintDescription}>
+                  {uiCopy.home.agentHintDescription}
+                </p>
+                <AgentDirectoryLinks locale={locale} />
+                {heroSection.agentConnectors.map((connector) => (
+                  <TrackedMcpEndpointCopyField
+                    key={connector.link.href}
+                    caption={connector.caption}
+                    labels={uiCopy.copyCodeField}
+                    locale={locale}
+                    value={connector.link.href}
+                  />
+                ))}
+                <Link
+                  className={homeStyles.agentGuide}
+                  href={getAvailableLocalizedPathname(locale, "/docs/mcp-connector/")}
+                >
+                  {uiCopy.footer.documentationLabel} <span aria-hidden="true">→</span>
+                </Link>
+              </div>
+            </div>
+          </section>
+        )}
+
+        {walkthroughSection !== null ? (
+          <HomeAppWalkthrough locale={locale} section={walkthroughSection} />
+        ) : (
+          <section
+            className={homeStyles.appShowcase}
+            aria-label={uiCopy.home.appPreviewAriaLabel}
+          >
+            <p className={homeStyles.appShowcaseLabel}>
+              {uiCopy.home.appPreviewLabel}
+            </p>
+            <div className={homeStyles.appShowcaseFrame}>
+              <Image
+                src={getHomeShowcaseImagePath(locale)}
+                alt={uiCopy.home.appPreviewAlt}
+                width={7140}
+                height={3018}
+                priority
+                sizes="(max-width: 768px) calc(100vw - 28px), (max-width: 1280px) calc(100vw - 40px), 1240px"
+                className={homeStyles.appShowcaseImage}
+              />
+            </div>
+          </section>
+        )}
+
+        {activitySnapshot !== null ? (
+          <PublicActivitySection locale={locale} snapshot={activitySnapshot} />
+        ) : null}
+
+        {locale !== "en" ? (
+          <section className={homeStyles.features}>
+            <div className={homeStyles.featuresInner}>
+              <div className={homeStyles.featureGrid}>
+                {featureSection.items.map((item) => (
+                  <div key={item.title} className={homeStyles.featureCard}>
+                    <h3>{item.title}</h3>
+                    <p>{item.description}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </section>
+        ) : null}
+      </div>
+      {locale === "en" ? <HomeKeyFeatures section={featureSection} /> : null}
+      {reviewCtaSection !== null ? (
+        <HomeReviewCta locale={locale} section={reviewCtaSection} />
+      ) : null}
+    </>
   );
 }
 
@@ -380,7 +406,15 @@ export async function MarketingPageView({
         locale,
         getSectionByType(pageContent.sections, "hero"),
         getSectionByType(pageContent.sections, "feature_list"),
-        readGeneratedGlobalActivitySnapshot(process.cwd()),
+        locale === "en"
+          ? getSectionByType(pageContent.sections, "app_walkthrough")
+          : null,
+        locale === "en"
+          ? getSectionByType(pageContent.sections, "review_cta")
+          : null,
+        pageContent.sections.some((section) => section.type === "public_activity")
+          ? readGeneratedGlobalActivitySnapshot(process.cwd())
+          : null,
         readGeneratedStoreQrCodes(process.cwd())
       );
       break;

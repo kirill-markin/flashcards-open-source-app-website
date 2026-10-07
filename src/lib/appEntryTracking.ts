@@ -32,6 +32,8 @@ export const APP_ENTRY_PLACEMENTS = [
   "header_mobile",
   "home_human_access",
   "home_hero",
+  "home_walkthrough",
+  "home_review_cta",
   "footer",
   "pricing",
   "features_end",

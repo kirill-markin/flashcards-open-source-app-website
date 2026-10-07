@@ -18,6 +18,7 @@ import { getUiCopy } from "@/lib/uiCopy";
 import { getAvailableLocalizedPathname } from "@/lib/routeTranslations";
 import { CONNECTOR_DIRECTORIES, getConnectorDirectoryLabel, getOpenAiDirectoryNotice } from "@/lib/connectorDirectories";
 import type {
+  AppWalkthroughSection,
   FeatureListSection,
   HeroSection,
   LegalPageSection,
@@ -25,6 +26,7 @@ import type {
   PageContent,
   PricingTier,
   PricingTiersSection,
+  ReviewCtaSection,
 } from "./types";
 import { getMarketingPagePath } from "./readPageContent";
 
@@ -112,6 +114,28 @@ function renderHeroSection(
   lines.push("");
   lines.push(`[${getUiCopy(locale).footer.documentationLabel}](${getAvailableLocalizedPathname(locale, "/docs/mcp-connector/")})`);
   lines.push("");
+}
+
+function renderAppWalkthroughSection(
+  section: AppWalkthroughSection,
+  lines: string[]
+): void {
+  lines.push(`## ${section.title}`, "");
+  section.items.forEach((item) => {
+    lines.push(`### ${item.titleLines.join(" ")}`, "");
+    lines.push(item.description, "");
+    lines.push(`[${item.linkLabel}](${getAppUrl()})`, "");
+  });
+}
+
+function renderReviewCtaSection(
+  section: ReviewCtaSection,
+  locale: AppLocale,
+  lines: string[]
+): void {
+  lines.push(`## ${section.titleLines.join(" ")}`, "");
+  lines.push(section.description, "");
+  lines.push(`[${getUiCopy(locale).auth.startStudyingFree}](${getSignupUrl()})`, "");
 }
 
 function renderPublicActivitySection(
@@ -268,6 +292,12 @@ function renderPageSections(
         return;
       case "public_activity":
         renderPublicActivitySection(pageContent, locale, context, lines);
+        return;
+      case "app_walkthrough":
+        renderAppWalkthroughSection(section, lines);
+        return;
+      case "review_cta":
+        renderReviewCtaSection(section, locale, lines);
         return;
       case "pricing_tiers":
         renderPricingTiersSection(section, pageContent, lines);
