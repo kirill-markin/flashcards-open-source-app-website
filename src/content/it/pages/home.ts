@@ -36,7 +36,51 @@ export const HOME_PAGE_CONTENT: PageContent = {
       ],
     },
     {
-      type: "public_activity",
+      type: "app_walkthrough",
+      title: "Come funziona Nibomo",
+      items: [
+        {
+          label: "01 · FLASHCARD CON IA",
+          titleLines: [
+            "Di’ all’IA cosa vuoi imparare.",
+          ],
+          description: "Descrivi un argomento o allega i tuoi appunti. L’IA ti aiuta a trasformare il materiale in flashcard con domande e risposte.",
+          linkLabel: "Crea flashcard",
+          imagePath: "/home/ai-flashcards.png",
+          imageAlt: "Chat IA di Nibomo che crea flashcard da un argomento o da appunti allegati",
+        },
+        {
+          label: "02 · INIZIA A IMPARARE",
+          titleLines: [
+            "Una domanda alla volta.",
+          ],
+          description: "Apri una flashcard e prova a ricordare la risposta prima di mostrarla. Impara al tuo ritmo, una carta alla volta.",
+          linkLabel: "Inizia a imparare",
+          imagePath: "/home/start-learning.png",
+          imageAlt: "Flashcard di ripasso Nibomo con un pulsante per mostrare la risposta",
+        },
+        {
+          label: "03 · RIPASSI INTELLIGENTI",
+          titleLines: [
+            "Controlla la risposta.",
+            "Valuta quanto ricordi.",
+          ],
+          description: "Mostra la risposta e indica con quanta facilità l’hai ricordata. Nibomo ripropone prima le carte difficili e più tardi quelle familiari.",
+          linkLabel: "Ripassa le flashcard",
+          imagePath: "/home/smart-reviews.png",
+          imageAlt: "Flashcard Nibomo con la risposta visibile e le opzioni per valutare il ricordo",
+        },
+        {
+          label: "04 · I TUOI PROGRESSI",
+          titleLines: [
+            "Trasforma lo studio in un’abitudine.",
+          ],
+          description: "Guarda i tuoi giorni di studio nel calendario e mantieni la serie. Ogni ripasso è un passo in più verso il tuo obiettivo.",
+          linkLabel: "Guarda i progressi",
+          imagePath: "/home/your-progress.png",
+          imageAlt: "Schermata dei progressi Nibomo con il calendario dei giorni di studio consecutivi e la classifica",
+        }
+      ],
     },
     {
       type: "feature_list",
@@ -57,7 +101,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
         {
           title: "Studio offline con sincronizzazione automatica",
           description:
-            "Continua a ripassare sul telefono anche senza connessione. Le modifiche si sincronizzano da sole, così puoi proseguire sul web, su iOS o su Android.",
+            "Continua a ripassare sul tuo dispositivo mobile senza connessione a Internet. Le modifiche si sincronizzano automaticamente.",
         },
         {
           title: "Importa, esporta e possiedi i tuoi dati",
@@ -75,6 +119,14 @@ export const HOME_PAGE_CONTENT: PageContent = {
             "Usa gratis l'app ospitata, ispeziona il codice open source oppure eseguila sulla tua infrastruttura.",
         },
       ],
+    },
+    {
+      type: "review_cta",
+      titleLines: [
+        "Lascia che Nibomo pianifichi i tuoi ripassi.",
+        "Tu concentrati sull’apprendimento.",
+      ],
+      description: "Trasforma ciò che impari in flashcard, ripassa al momento giusto e ricorda di più.",
     },
   ],
   body: "",

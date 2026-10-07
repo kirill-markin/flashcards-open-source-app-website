@@ -36,7 +36,51 @@ export const HOME_PAGE_CONTENT: PageContent = {
       ],
     },
     {
-      type: "public_activity",
+      type: "app_walkthrough",
+      title: "So funktioniert Nibomo",
+      items: [
+        {
+          label: "01 · KI-LERNKARTEN",
+          titleLines: [
+            "Sag der KI, was du lernen möchtest.",
+          ],
+          description: "Beschreibe ein Thema oder füge deine Notizen hinzu. Die KI hilft dir, dein Material in Lernkarten mit Fragen und Antworten umzuwandeln.",
+          linkLabel: "Lernkarten erstellen",
+          imagePath: "/home/ai-flashcards.png",
+          imageAlt: "Nibomo-KI-Chat, der Lernkarten aus einem Thema oder angehängten Notizen erstellt",
+        },
+        {
+          label: "02 · MIT DEM LERNEN BEGINNEN",
+          titleLines: [
+            "Eine Frage nach der anderen.",
+          ],
+          description: "Öffne eine Lernkarte und versuche, dich an die Antwort zu erinnern, bevor du sie aufdeckst. Lerne in deinem Tempo, Karte für Karte.",
+          linkLabel: "Mit dem Lernen beginnen",
+          imagePath: "/home/start-learning.png",
+          imageAlt: "Eine Nibomo-Lernkarte mit einer Schaltfläche zum Anzeigen der Antwort",
+        },
+        {
+          label: "03 · INTELLIGENT WIEDERHOLEN",
+          titleLines: [
+            "Prüfe deine Antwort.",
+            "Bewerte deine Erinnerung.",
+          ],
+          description: "Decke die Antwort auf und gib an, wie leicht du dich erinnert hast. Nibomo zeigt schwierige Karten früher und vertraute Karten später erneut.",
+          linkLabel: "Lernkarten wiederholen",
+          imagePath: "/home/smart-reviews.png",
+          imageAlt: "Aufgedeckte Nibomo-Lernkarte mit Bewertungen für die Erinnerung",
+        },
+        {
+          label: "04 · DEIN FORTSCHRITT",
+          titleLines: [
+            "Mach Lernen zur Gewohnheit.",
+          ],
+          description: "Sieh deine Lerntage im Kalender und halte deine Lernserie aufrecht. Jede Wiederholung bringt dich deinem Ziel einen Schritt näher.",
+          linkLabel: "Fortschritt ansehen",
+          imagePath: "/home/your-progress.png",
+          imageAlt: "Nibomo-Fortschrittsansicht mit Lernserien-Kalender und Rangliste",
+        }
+      ],
     },
     {
       type: "feature_list",
@@ -57,7 +101,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
         {
           title: "Offline lernen mit automatischer Synchronisierung",
           description:
-            "Lerne auf deinem Mobilgerät auch ohne Internet weiter. Änderungen werden automatisch synchronisiert, damit du im Web, auf iOS oder Android weitermachen kannst.",
+            "Wiederhole auf deinem Mobilgerät auch ohne Internetverbindung. Änderungen werden automatisch synchronisiert.",
         },
         {
           title: "Daten importieren, exportieren und selbst verwalten",
@@ -75,6 +119,14 @@ export const HOME_PAGE_CONTENT: PageContent = {
             "Nutze die gehostete App kostenlos, sieh dir den Open-Source-Code an oder betreibe sie auf deiner eigenen Infrastruktur.",
         },
       ],
+    },
+    {
+      type: "review_cta",
+      titleLines: [
+        "Lass Nibomo deine Wiederholungen planen.",
+        "Konzentriere dich aufs Lernen.",
+      ],
+      description: "Verwandle deinen Lernstoff in Lernkarten, wiederhole zur richtigen Zeit und merke dir mehr.",
     },
   ],
   body: "",

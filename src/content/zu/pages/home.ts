@@ -36,7 +36,51 @@ export const HOME_PAGE_CONTENT: PageContent = {
       ],
     },
     {
-      type: "public_activity",
+      type: "app_walkthrough",
+      title: "Indlela i-Nibomo esebenza ngayo",
+      items: [
+        {
+          label: "01 · AMAKHADI OKUFUNDA NGE-AI",
+          titleLines: [
+            "Tshela i-AI ukuthi ufuna ukufunda ini.",
+          ],
+          description: "Chaza isihloko noma unamathisele amanothi akho. I-AI ikusiza ukuguqula izinto zakho zokufunda zibe amakhadi anemibuzo nezimpendulo.",
+          linkLabel: "Dala amakhadi okufunda",
+          imagePath: "/home/ai-flashcards.png",
+          imageAlt: "Ingxoxo ye-AI ye-Nibomo edala amakhadi ngesihloko noma ngamanothi anamathiselwe",
+        },
+        {
+          label: "02 · QALA UKUFUNDA",
+          titleLines: [
+            "Umbuzo owodwa ngesikhathi.",
+          ],
+          description: "Vula ikhadi bese uzama ukukhumbula impendulo ngaphambi kokuyiveza. Funda ngejubane lakho, ikhadi elilodwa ngesikhathi.",
+          linkLabel: "Qala ukufunda",
+          imagePath: "/home/start-learning.png",
+          imageAlt: "Ikhadi lokubuyekeza le-Nibomo elinenkinobho yokuveza impendulo",
+        },
+        {
+          label: "03 · UKUBUYEKEZA OKUHLAKANIPHILE",
+          titleLines: [
+            "Hlola impendulo yakho.",
+            "Linganisa ukuthi ukhumbule kangakanani.",
+          ],
+          description: "Veza impendulo bese ubika ukuthi kube lula kangakanani ukuyikhumbula. I-Nibomo ibuyisa amakhadi anzima ngokushesha, ajwayelekile kamuva.",
+          linkLabel: "Buyekeza amakhadi",
+          imagePath: "/home/smart-reviews.png",
+          imageAlt: "Ikhadi le-Nibomo eliveza impendulo nezinketho zokulinganisa ukukhumbula",
+        },
+        {
+          label: "04 · INQUBEKELA PHAMBILI YAKHO",
+          titleLines: [
+            "Yenza ukufunda kube umkhuba.",
+          ],
+          description: "Bheka izinsuku zakho zokufunda ekhalendeni bese uqhubeka nokufunda izinsuku ezilandelanayo. Ukubuyekeza ngakunye kuyisinyathelo esengeziwe esiya enhlosweni yakho.",
+          linkLabel: "Bheka inqubekela phambili",
+          imagePath: "/home/your-progress.png",
+          imageAlt: "Isikrini senqubekela phambili se-Nibomo esinekhalenda lezinsuku zokufunda ezilandelanayo nohlu lwamazinga",
+        }
+      ],
     },
     {
       type: "feature_list",
@@ -57,7 +101,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
         {
           title: "Funda ngaphandle kwe-inthanethi, kuvumelaniswe ngokuzenzakalela",
           description:
-            "Qhubeka ubuyekeze kudivayisi yakho yeselula ngaphandle koxhumano lwe-inthanethi. Izinguquko zivumelaniswa ngokuzenzakalela ukuze uqhubeke kuwebhu, ku-iOS noma ku-Android.",
+            "Qhubeka nokubuyekeza kudivayisi yakho yeselula ngaphandle kokuxhumeka ku-inthanethi. Izinguquko zivunyelaniswa ngokuzenzakalelayo.",
         },
         {
           title: "Ngenisa, ukhiphe, futhi ube ngumnikazi wedatha yakho",
@@ -75,6 +119,14 @@ export const HOME_PAGE_CONTENT: PageContent = {
             "Sebenzisa uhlelo olusingathiwe mahhala, uhlole ikhodi enomthombo ovulekile, noma ulusebenzise kwingqalasizinda yakho.",
         },
       ],
+    },
+    {
+      type: "review_cta",
+      titleLines: [
+        "Vumela i-Nibomo ihlele ukubuyekeza kwakho.",
+        "Wena gxila ekufundeni.",
+      ],
+      description: "Guqula okufundayo kube amakhadi, buyekeza ngesikhathi esifanele futhi ukhumbule okuningi.",
     },
   ],
   body: "",

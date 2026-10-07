@@ -36,7 +36,51 @@ export const HOME_PAGE_CONTENT: PageContent = {
       ],
     },
     {
-      type: "public_activity",
+      type: "app_walkthrough",
+      title: "Com funciona Nibomo",
+      items: [
+        {
+          label: "01 · TARGETES AMB IA",
+          titleLines: [
+            "Digues a la IA què vols aprendre.",
+          ],
+          description: "Descriu un tema o adjunta els teus apunts. La IA t’ajuda a convertir el material en targetes amb preguntes i respostes.",
+          linkLabel: "Crear targetes",
+          imagePath: "/home/ai-flashcards.png",
+          imageAlt: "Xat d’IA de Nibomo que crea targetes a partir d’un tema o d’apunts adjunts",
+        },
+        {
+          label: "02 · COMENÇA A APRENDRE",
+          titleLines: [
+            "Una pregunta cada vegada.",
+          ],
+          description: "Obre una targeta i intenta recordar la resposta abans de mostrar-la. Aprèn al teu ritme, una targeta cada vegada.",
+          linkLabel: "Començar a aprendre",
+          imagePath: "/home/start-learning.png",
+          imageAlt: "Targeta de repàs de Nibomo amb un botó per mostrar la resposta",
+        },
+        {
+          label: "03 · REPASSOS INTEL·LIGENTS",
+          titleLines: [
+            "Comprova la resposta.",
+            "Valora com la recordes.",
+          ],
+          description: "Mostra la resposta i indica amb quina facilitat l’has recordada. Nibomo torna a mostrar abans les targetes difícils i més tard les que ja coneixes.",
+          linkLabel: "Repassar targetes",
+          imagePath: "/home/smart-reviews.png",
+          imageAlt: "Targeta de Nibomo amb la resposta visible i opcions per valorar el record",
+        },
+        {
+          label: "04 · EL TEU PROGRÉS",
+          titleLines: [
+            "Converteix l’aprenentatge en un hàbit.",
+          ],
+          description: "Consulta els dies d’estudi al calendari i mantén la ratxa. Cada repàs és un pas més cap al teu objectiu.",
+          linkLabel: "Veure el progrés",
+          imagePath: "/home/your-progress.png",
+          imageAlt: "Pantalla de progrés de Nibomo amb el calendari de la ratxa d’estudi i la classificació",
+        }
+      ],
     },
     {
       type: "feature_list",
@@ -57,7 +101,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
         {
           title: "Estudi fora de línia amb sincronització automàtica",
           description:
-            "Continua repassant al mòbil sense connexió a Internet. Els canvis se sincronitzen automàticament perquè puguis continuar al web, a iOS o a Android.",
+            "Continua repassant al dispositiu mòbil sense connexió a internet. Els canvis se sincronitzen automàticament.",
         },
         {
           title: "Importa, exporta i sigues l'amo de les teves dades",
@@ -75,6 +119,14 @@ export const HOME_PAGE_CONTENT: PageContent = {
             "Fes servir l'app allotjada de franc, inspecciona el codi obert o executa'l a la teva pròpia infraestructura.",
         },
       ],
+    },
+    {
+      type: "review_cta",
+      titleLines: [
+        "Deixa que Nibomo planifiqui els teus repassos.",
+        "Tu centra’t a aprendre.",
+      ],
+      description: "Converteix el que aprens en targetes, repassa en el moment adequat i recorda més.",
     },
   ],
   body: "",

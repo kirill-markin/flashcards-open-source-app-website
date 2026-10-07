@@ -89,7 +89,8 @@
 }
 
 .badges {
-  grid-template-columns: repeat(3, 120px);
+  display: flex;
+  flex-wrap: wrap;
   gap: 6px;
 }
 
@@ -97,7 +98,9 @@
 .badges .platformDisabled {
   flex-direction: row;
   gap: 6px;
-  inline-size: 120px;
+  inline-size: auto;
+  min-inline-size: 120px;
+  max-inline-size: 100%;
   block-size: 40px;
   min-block-size: 40px;
   padding: 5px;
@@ -107,7 +110,7 @@
   color: #fff;
 }
 
-.badges .platformLink[data-site-app-entry-target="app_store"] {
+.badges .platformLink:has(> .platformBadge) {
   padding: 0;
   border: 0;
 }
@@ -125,6 +128,7 @@
 }
 
 .playMark {
+  direction: ltr;
   flex: none;
   inline-size: 22px;
   block-size: 24px;
@@ -150,11 +154,15 @@
   line-height: 9px;
 }
 
+.badgeText {
+  min-inline-size: 0;
+}
+
 .badgeName {
   font-size: 16px;
   line-height: 17px;
   letter-spacing: -0.5px;
-  white-space: nowrap;
+  overflow-wrap: anywhere;
 }
 
 @media (hover: hover) and (pointer: fine) {
@@ -168,22 +176,5 @@
 @media (max-width: 768px) {
   .platformList {
     grid-template-columns: 1fr;
-  }
-
-  .platformList.badges {
-    grid-template-columns: repeat(3, 120px);
-  }
-}
-
-@media (max-width: 500px) {
-  .platformList.badges {
-    grid-template-columns: repeat(2, 120px);
-    row-gap: 10px;
-  }
-}
-
-@media (max-width: 360px) {
-  .platformList.badges {
-    grid-template-columns: 120px;
   }
 }

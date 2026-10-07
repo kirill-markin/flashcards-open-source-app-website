@@ -36,7 +36,51 @@ export const HOME_PAGE_CONTENT: PageContent = {
       ],
     },
     {
-      type: "public_activity",
+      type: "app_walkthrough",
+      title: "Kaip veikia Nibomo",
+      items: [
+        {
+          label: "01 · MOKYMOSI KORTELĖS SU DI",
+          titleLines: [
+            "Pasakykite DI, ko norite išmokti.",
+          ],
+          description: "Aprašykite temą arba pridėkite savo užrašus. DI padeda paversti jūsų medžiagą mokymosi kortelėmis su klausimais ir atsakymais.",
+          linkLabel: "Kurti mokymosi korteles",
+          imagePath: "/home/ai-flashcards.png",
+          imageAlt: "Nibomo DI pokalbis kuria mokymosi korteles iš temos arba pridėtų užrašų",
+        },
+        {
+          label: "02 · PRADĖKITE MOKYTIS",
+          titleLines: [
+            "Po vieną klausimą.",
+          ],
+          description: "Atverkite mokymosi kortelę ir pabandykite prisiminti atsakymą prieš jį parodydami. Mokykitės savo tempu, po vieną kortelę.",
+          linkLabel: "Pradėti mokytis",
+          imagePath: "/home/start-learning.png",
+          imageAlt: "Nibomo kartojimo kortelė su atsakymo parodymo mygtuku",
+        },
+        {
+          label: "03 · IŠMANUS KARTOJIMAS",
+          titleLines: [
+            "Patikrinkite atsakymą.",
+            "Įvertinkite, kaip gerai prisiminėte.",
+          ],
+          description: "Parodykite atsakymą ir pažymėkite, kaip lengvai jį prisiminėte. Nibomo sudėtingas korteles vėl parodo anksčiau, o pažįstamas — vėliau.",
+          linkLabel: "Kartoti mokymosi korteles",
+          imagePath: "/home/smart-reviews.png",
+          imageAlt: "Nibomo kortelė su parodytu atsakymu ir prisiminimo vertinimo parinktimis",
+        },
+        {
+          label: "04 · JŪSŲ PAŽANGA",
+          titleLines: [
+            "Paverskite mokymąsi įpročiu.",
+          ],
+          description: "Kalendoriuje matykite mokymosi dienas ir išlaikykite nenutrūkstamą jų seką. Kiekvienas kartojimas — dar vienas žingsnis jūsų tikslo link.",
+          linkLabel: "Peržiūrėti pažangą",
+          imagePath: "/home/your-progress.png",
+          imageAlt: "Nibomo pažangos ekranas su iš eilės einančių mokymosi dienų kalendoriumi ir reitingų lentele",
+        }
+      ],
     },
     {
       type: "feature_list",
@@ -57,7 +101,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
         {
           title: "Mokymasis neprisijungus su automatiniu sinchronizavimu",
           description:
-            "Kartokite telefone ir be interneto ryšio. Pakeitimai sinchronizuojami automatiškai, todėl galite tęsti naršyklėje, iOS ar Android.",
+            "Kartokite mobiliajame įrenginyje be interneto ryšio. Pakeitimai sinchronizuojami automatiškai.",
         },
         {
           title: "Importas, eksportas ir duomenys, kurie priklauso jums",
@@ -75,6 +119,14 @@ export const HOME_PAGE_CONTENT: PageContent = {
             "Naudokitės mūsų talpinama programėle nemokamai, peržiūrėkite atvirąjį kodą arba paleiskite ją savo infrastruktūroje.",
         },
       ],
+    },
+    {
+      type: "review_cta",
+      titleLines: [
+        "Leiskite Nibomo planuoti jūsų kartojimus.",
+        "Jūs susitelkite į mokymąsi.",
+      ],
+      description: "Paverskite tai, ko mokotės, mokymosi kortelėmis, kartokite tinkamu metu ir prisiminkite daugiau.",
     },
   ],
   body: "",

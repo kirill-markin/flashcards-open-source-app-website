@@ -36,7 +36,51 @@ export const HOME_PAGE_CONTENT: PageContent = {
       ],
     },
     {
-      type: "public_activity",
+      type: "app_walkthrough",
+      title: "Kuidas Nibomo töötab",
+      items: [
+        {
+          label: "01 · TEHISINTELLEKTIGA ÕPIKAARDID",
+          titleLines: [
+            "Ütle tehisintellektile, mida tahad õppida.",
+          ],
+          description: "Kirjelda teemat või lisa oma märkmed. Tehisintellekt aitab muuta materjali küsimuste ja vastustega õpikaartideks.",
+          linkLabel: "Loo õpikaardid",
+          imagePath: "/home/ai-flashcards.png",
+          imageAlt: "Nibomo tehisintellekti vestlus loob õpikaarte teemast või lisatud märkmetest",
+        },
+        {
+          label: "02 · ALUSTA ÕPPIMIST",
+          titleLines: [
+            "Üks küsimus korraga.",
+          ],
+          description: "Ava õpikaart ja proovi vastust meenutada, enne kui seda näitad. Õpi omas tempos, üks kaart korraga.",
+          linkLabel: "Alusta õppimist",
+          imagePath: "/home/start-learning.png",
+          imageAlt: "Nibomo kordamiskaart vastuse kuvamise nupuga",
+        },
+        {
+          label: "03 · NUTIKAS KORDAMINE",
+          titleLines: [
+            "Kontrolli vastust.",
+            "Hinda, kui hästi mäletad.",
+          ],
+          description: "Näita vastust ja märgi, kui kergesti see meelde tuli. Nibomo näitab raskeid kaarte uuesti varem ja tuttavaid hiljem.",
+          linkLabel: "Korda õpikaarte",
+          imagePath: "/home/smart-reviews.png",
+          imageAlt: "Nibomo õpikaart nähtava vastuse ja meenutamise hindamise valikutega",
+        },
+        {
+          label: "04 · SINU EDUSAMMUD",
+          titleLines: [
+            "Muuda õppimine harjumuseks.",
+          ],
+          description: "Vaata oma õppepäevi kalendris ja hoia järjestikuste õppepäevade seeriat. Iga kordamine on uus samm sinu eesmärgi poole.",
+          linkLabel: "Vaata edusamme",
+          imagePath: "/home/your-progress.png",
+          imageAlt: "Nibomo edusammude vaade järjestikuste õppepäevade kalendri ja edetabeliga",
+        }
+      ],
     },
     {
       type: "feature_list",
@@ -57,7 +101,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
         {
           title: "Õppimine võrguühenduseta ja automaatne sünkroonimine",
           description:
-            "Jätka kordamist mobiilis ka ilma internetiühenduseta. Muudatused sünkroonitakse automaatselt, nii et saad jätkata veebis, iOS-is või Androidis.",
+            "Jätka kordamist mobiiliseadmes ilma internetiühenduseta. Muudatused sünkroonitakse automaatselt.",
         },
         {
           title: "Impordi, ekspordi ja oma andmed enda käes",
@@ -75,6 +119,14 @@ export const HOME_PAGE_CONTENT: PageContent = {
             "Kasuta majutatud rakendust tasuta, uuri avatud lähtekoodi või käivita see oma taristus.",
         },
       ],
+    },
+    {
+      type: "review_cta",
+      titleLines: [
+        "Lase Nibomol kordamised planeerida.",
+        "Sina keskendu õppimisele.",
+      ],
+      description: "Muuda õpitav õpikaartideks, korda õigel ajal ja jäta rohkem meelde.",
     },
   ],
   body: "",

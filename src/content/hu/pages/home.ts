@@ -36,7 +36,51 @@ export const HOME_PAGE_CONTENT: PageContent = {
       ],
     },
     {
-      type: "public_activity",
+      type: "app_walkthrough",
+      title: "Így működik a Nibomo",
+      items: [
+        {
+          label: "01 · TANULÓKÁRTYÁK MI-VEL",
+          titleLines: [
+            "Mondd el az MI-nek, mit szeretnél tanulni.",
+          ],
+          description: "Írj le egy témát, vagy csatold a jegyzeteidet. Az MI segít kérdéseket és válaszokat tartalmazó tanulókártyákká alakítani az anyagodat.",
+          linkLabel: "Tanulókártyák készítése",
+          imagePath: "/home/ai-flashcards.png",
+          imageAlt: "A Nibomo MI-csevegése tanulókártyákat készít egy témából vagy csatolt jegyzetekből",
+        },
+        {
+          label: "02 · KEZDJ TANULNI",
+          titleLines: [
+            "Egyszerre egy kérdés.",
+          ],
+          description: "Nyiss meg egy tanulókártyát, és próbáld felidézni a választ, mielőtt megjeleníted. Tanulj a saját tempódban, kártyáról kártyára.",
+          linkLabel: "Tanulás indítása",
+          imagePath: "/home/start-learning.png",
+          imageAlt: "Nibomo-ismétlőkártya a válasz megjelenítésére szolgáló gombbal",
+        },
+        {
+          label: "03 · OKOS ISMÉTLÉS",
+          titleLines: [
+            "Ellenőrizd a válaszod.",
+            "Értékeld, mennyire emlékeztél.",
+          ],
+          description: "Jelenítsd meg a választ, és jelöld, milyen könnyen idézted fel. A Nibomo a nehéz kártyákat hamarabb, az ismerőseket később mutatja újra.",
+          linkLabel: "Tanulókártyák ismétlése",
+          imagePath: "/home/smart-reviews.png",
+          imageAlt: "Nibomo-kártya a megjelenített válasszal és a felidézés értékelési lehetőségeivel",
+        },
+        {
+          label: "04 · A HALADÁSOD",
+          titleLines: [
+            "Tedd szokássá a tanulást.",
+          ],
+          description: "Nézd meg a tanulási napokat a naptárban, és tartsd fenn a sorozatodat. Minden ismétlés újabb lépés a célod felé.",
+          linkLabel: "Haladás megtekintése",
+          imagePath: "/home/your-progress.png",
+          imageAlt: "A Nibomo haladási képernyője tanulási sorozatot mutató naptárral és ranglistával",
+        }
+      ],
     },
     {
       type: "feature_list",
@@ -57,7 +101,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
         {
           title: "Offline tanulás automatikus szinkronizálással",
           description:
-            "Ismételj a mobilodon internetkapcsolat nélkül is. A változások automatikusan szinkronizálódnak, így folytathatod a weben, iOS-en vagy Androidon.",
+            "Folytasd az ismétlést a mobileszközödön internetkapcsolat nélkül is. A módosítások automatikusan szinkronizálódnak.",
         },
         {
           title: "Importálás, exportálás és a saját adataid",
@@ -75,6 +119,14 @@ export const HOME_PAGE_CONTENT: PageContent = {
             "Használd ingyen a felhős alkalmazást, nézd át a nyílt forráskódot, vagy futtasd a saját infrastruktúrádon.",
         },
       ],
+    },
+    {
+      type: "review_cta",
+      titleLines: [
+        "Bízd a Nibomóra az ismétlések tervezését.",
+        "Te koncentrálj a tanulásra.",
+      ],
+      description: "Alakítsd tanulókártyákká, amit tanulsz, ismételj a megfelelő időben, és jegyezz meg többet.",
     },
   ],
   body: "",

@@ -37,7 +37,51 @@ export const HOME_PAGE_CONTENT: PageContent = {
       ],
     },
     {
-      type: "public_activity",
+      type: "app_walkthrough",
+      title: "Nibomo nasıl çalışır?",
+      items: [
+        {
+          label: "01 · YAPAY ZEKÂ İLE BİLGİ KARTLARI",
+          titleLines: [
+            "Yapay zekâya ne öğrenmek istediğini söyle.",
+          ],
+          description: "Bir konuyu anlat veya notlarını ekle. Yapay zekâ, materyalini sorular ve cevaplar içeren bilgi kartlarına dönüştürmene yardımcı olur.",
+          linkLabel: "Bilgi kartları oluştur",
+          imagePath: "/home/ai-flashcards.png",
+          imageAlt: "Bir konudan veya eklenen notlardan bilgi kartları oluşturan Nibomo yapay zekâ sohbeti",
+        },
+        {
+          label: "02 · ÖĞRENMEYE BAŞLA",
+          titleLines: [
+            "Her seferinde bir soru.",
+          ],
+          description: "Bir bilgi kartını aç ve cevabı göstermeden önce hatırlamaya çalış. Her seferinde bir kartla, kendi hızında öğren.",
+          linkLabel: "Öğrenmeye başla",
+          imagePath: "/home/start-learning.png",
+          imageAlt: "Cevabı gösterme düğmesi olan Nibomo tekrar kartı",
+        },
+        {
+          label: "03 · AKILLI TEKRARLAR",
+          titleLines: [
+            "Cevabını kontrol et.",
+            "Hatırlamanı değerlendir.",
+          ],
+          description: "Cevabı göster ve ne kadar kolay hatırladığını belirt. Nibomo zor kartları daha erken, bildiğin kartları ise daha geç tekrar gösterir.",
+          linkLabel: "Bilgi kartlarını tekrar et",
+          imagePath: "/home/smart-reviews.png",
+          imageAlt: "Cevabı açık ve hatırlama değerlendirme seçenekleri olan Nibomo bilgi kartı",
+        },
+        {
+          label: "04 · İLERLEMEN",
+          titleLines: [
+            "Öğrenmeyi alışkanlığa dönüştür.",
+          ],
+          description: "Çalıştığın günleri takvimde gör ve çalışma serini sürdür. Her tekrar, hedefine doğru atılan yeni bir adımdır.",
+          linkLabel: "İlerlemeni gör",
+          imagePath: "/home/your-progress.png",
+          imageAlt: "Çalışma serisi takvimi ve sıralama tablosu içeren Nibomo ilerleme ekranı",
+        }
+      ],
     },
     {
       type: "feature_list",
@@ -58,7 +102,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
         {
           title: "Otomatik Senkronizasyonla Çevrimdışı Çalışma",
           description:
-            "İnternet bağlantısı olmadan mobil cihazınızda tekrar etmeyi sürdürün. Değişiklikler otomatik senkronize olur; web'de, iOS'ta veya Android'de kaldığınız yerden devam edersiniz.",
+            "İnternet bağlantısı olmadan mobil cihazında tekrar yapmaya devam et. Değişiklikler otomatik olarak eşitlenir.",
         },
         {
           title: "İçe Aktarın, Dışa Aktarın, Verileriniz Sizde Kalsın",
@@ -76,6 +120,14 @@ export const HOME_PAGE_CONTENT: PageContent = {
             "Barındırılan uygulamayı ücretsiz kullanın, açık kaynak kodu inceleyin veya kendi altyapınızda çalıştırın.",
         },
       ],
+    },
+    {
+      type: "review_cta",
+      titleLines: [
+        "Tekrarlarını Nibomo planlasın.",
+        "Sen öğrenmeye odaklan.",
+      ],
+      description: "Öğrendiklerini bilgi kartlarına dönüştür, doğru zamanda tekrar et ve daha fazlasını hatırla.",
     },
   ],
   body: "",

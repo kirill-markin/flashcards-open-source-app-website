@@ -36,7 +36,51 @@ export const HOME_PAGE_CONTENT: PageContent = {
       ],
     },
     {
-      type: "public_activity",
+      type: "app_walkthrough",
+      title: "Så fungerar Nibomo",
+      items: [
+        {
+          label: "01 · KUNSKAPSKORT MED AI",
+          titleLines: [
+            "Berätta för AI vad du vill lära dig.",
+          ],
+          description: "Beskriv ett ämne eller bifoga dina anteckningar. AI hjälper dig att omvandla materialet till kunskapskort med frågor och svar.",
+          linkLabel: "Skapa kunskapskort",
+          imagePath: "/home/ai-flashcards.png",
+          imageAlt: "Nibomos AI-chatt skapar kunskapskort från ett ämne eller bifogade anteckningar",
+        },
+        {
+          label: "02 · BÖRJA LÄRA DIG",
+          titleLines: [
+            "En fråga i taget.",
+          ],
+          description: "Öppna ett kunskapskort och försök minnas svaret innan du visar det. Lär dig i din egen takt, ett kort i taget.",
+          linkLabel: "Börja lära dig",
+          imagePath: "/home/start-learning.png",
+          imageAlt: "Ett repetitionskort i Nibomo med en knapp för att visa svaret",
+        },
+        {
+          label: "03 · SMART REPETITION",
+          titleLines: [
+            "Kontrollera svaret.",
+            "Bedöm hur väl du minns.",
+          ],
+          description: "Visa svaret och ange hur lätt du kom ihåg det. Nibomo visar svåra kort igen tidigare och välbekanta kort senare.",
+          linkLabel: "Repetera kunskapskort",
+          imagePath: "/home/smart-reviews.png",
+          imageAlt: "Ett Nibomo-kort med synligt svar och alternativ för att bedöma minnet",
+        },
+        {
+          label: "04 · DINA FRAMSTEG",
+          titleLines: [
+            "Gör lärandet till en vana.",
+          ],
+          description: "Se dina studiedagar i kalendern och håll din svit igång. Varje repetition är ännu ett steg mot ditt mål.",
+          linkLabel: "Se dina framsteg",
+          imagePath: "/home/your-progress.png",
+          imageAlt: "Nibomos framstegsvy med kalender över sammanhängande studiedagar och topplista",
+        }
+      ],
     },
     {
       type: "feature_list",
@@ -57,7 +101,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
         {
           title: "Plugga offline med automatisk synk",
           description:
-            "Fortsätt repetera i mobilen utan internetanslutning. Ändringarna synkas automatiskt så att du kan fortsätta på webben, iOS eller Android.",
+            "Fortsätt repetera på din mobila enhet utan internetanslutning. Ändringar synkroniseras automatiskt.",
         },
         {
           title: "Importera, exportera och äg dina data",
@@ -75,6 +119,14 @@ export const HOME_PAGE_CONTENT: PageContent = {
             "Använd den molndrivna appen gratis, granska koden med öppen källkod eller kör den på din egen infrastruktur.",
         },
       ],
+    },
+    {
+      type: "review_cta",
+      titleLines: [
+        "Låt Nibomo planera dina repetitioner.",
+        "Du fokuserar på att lära dig.",
+      ],
+      description: "Gör det du lär dig till kunskapskort, repetera vid rätt tillfälle och kom ihåg mer.",
     },
   ],
   body: "",

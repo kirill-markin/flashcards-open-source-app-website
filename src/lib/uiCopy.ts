@@ -144,6 +144,8 @@ interface AppUiCopy {
     readonly pricing: string;
   };
   readonly platforms: {
+    readonly downloadBadgeCaption: string;
+    readonly tryBadgeCaption: string;
     readonly appStore: string;
     readonly googlePlay: string;
     readonly scanQrHint: string;
@@ -304,6 +306,8 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       pricing: "Pricing",
     },
     platforms: {
+      downloadBadgeCaption: "GET IT ON",
+      tryBadgeCaption: "Try it on",
       appStore: "App Store",
       googlePlay: "Google Play",
       scanQrHint: "Scan it from your phone",
@@ -462,6 +466,8 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       pricing: "Precios",
     },
     platforms: {
+      downloadBadgeCaption: "Descárgalo en",
+      tryBadgeCaption: "Pruébala",
       appStore: "App Store",
       googlePlay: "Google Play",
       scanQrHint: "Escanéalo desde tu teléfono",
@@ -619,6 +625,8 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       pricing: "الأسعار",
     },
     platforms: {
+      downloadBadgeCaption: "تنزيل من",
+      tryBadgeCaption: "جرّبه",
       appStore: "App Store",
       googlePlay: "Google Play",
       scanQrHint: "امسحه ضوئيًا من هاتفك",
@@ -777,6 +785,8 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       pricing: "Preise",
     },
     platforms: {
+      downloadBadgeCaption: "Laden bei",
+      tryBadgeCaption: "Ausprobieren",
       appStore: "App Store",
       googlePlay: "Google Play",
       scanQrHint: "Mit dem Handy scannen",
@@ -935,6 +945,8 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       pricing: "कीमत",
     },
     platforms: {
+      downloadBadgeCaption: "यहां से डाउनलोड करें",
+      tryBadgeCaption: "आज़माएं",
       appStore: "App Store",
       googlePlay: "Google Play",
       scanQrHint: "इसे अपने फ़ोन से स्कैन करें",
@@ -1093,6 +1105,8 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       pricing: "料金",
     },
     platforms: {
+      downloadBadgeCaption: "ダウンロード",
+      tryBadgeCaption: "試してみる",
       appStore: "App Store",
       googlePlay: "Google Play",
       scanQrHint: "スマホで読み取ってください",
@@ -1251,6 +1265,8 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       pricing: "Tarifs",
     },
     platforms: {
+      downloadBadgeCaption: "Télécharger sur",
+      tryBadgeCaption: "Essayez",
       appStore: "App Store",
       googlePlay: "Google Play",
       scanQrHint: "Scannez-le depuis votre téléphone",
@@ -1409,6 +1425,8 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       pricing: "Preços",
     },
     platforms: {
+      downloadBadgeCaption: "Baixe no",
+      tryBadgeCaption: "Experimente",
       appStore: "App Store",
       googlePlay: "Google Play",
       scanQrHint: "Escaneie com o celular",
@@ -1567,6 +1585,8 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       pricing: "Цены",
     },
     platforms: {
+      downloadBadgeCaption: "Загрузите из",
+      tryBadgeCaption: "Попробуйте",
       appStore: "App Store",
       googlePlay: "Google Play",
       scanQrHint: "Отсканируйте с телефона",
@@ -1722,6 +1742,8 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       pricing: "价格",
     },
     platforms: {
+      downloadBadgeCaption: "下载于",
+      tryBadgeCaption: "立即体验",
       appStore: "App Store",
       googlePlay: "Google Play",
       scanQrHint: "用手机扫描",
@@ -1880,6 +1902,8 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       pricing: "Prezzi",
     },
     platforms: {
+      downloadBadgeCaption: "Scarica su",
+      tryBadgeCaption: "Prova",
       appStore: "App Store",
       googlePlay: "Google Play",
       scanQrHint: "Scansiona dal telefono",
@@ -2038,6 +2062,8 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       pricing: "요금",
     },
     platforms: {
+      downloadBadgeCaption: "다운로드",
+      tryBadgeCaption: "사용해 보기",
       appStore: "App Store",
       googlePlay: "Google Play",
       scanQrHint: "휴대폰으로 스캔하세요",
@@ -2196,6 +2222,8 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       pricing: "Harga",
     },
     platforms: {
+      downloadBadgeCaption: "Unduh di",
+      tryBadgeCaption: "Coba",
       appStore: "App Store",
       googlePlay: "Google Play",
       scanQrHint: "Pindai dari ponsel Anda",
@@ -2354,6 +2382,8 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       pricing: "Fiyatlandırma",
     },
     platforms: {
+      downloadBadgeCaption: "İndirin",
+      tryBadgeCaption: "Deneyin",
       appStore: "App Store",
       googlePlay: "Google Play",
       scanQrHint: "Telefonunuzla tarayın",
@@ -2512,6 +2542,8 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       pricing: "Prijzen",
     },
     platforms: {
+      downloadBadgeCaption: "Download via",
+      tryBadgeCaption: "Probeer",
       appStore: "App Store",
       googlePlay: "Google Play",
       scanQrHint: "Scan met je telefoon",
@@ -2670,6 +2702,8 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       pricing: "Cennik",
     },
     platforms: {
+      downloadBadgeCaption: "Pobierz z",
+      tryBadgeCaption: "Wypróbuj",
       appStore: "App Store",
       googlePlay: "Google Play",
       scanQrHint: "Zeskanuj telefonem",
@@ -2828,6 +2862,8 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       pricing: "Giá",
     },
     platforms: {
+      downloadBadgeCaption: "Tải trên",
+      tryBadgeCaption: "Dùng thử",
       appStore: "App Store",
       googlePlay: "Google Play",
       scanQrHint: "Quét bằng điện thoại của bạn",
@@ -2986,6 +3022,8 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       pricing: "ราคา",
     },
     platforms: {
+      downloadBadgeCaption: "ดาวน์โหลดที่",
+      tryBadgeCaption: "ลองใช้",
       appStore: "App Store",
       googlePlay: "Google Play",
       scanQrHint: "สแกนจากมือถือของคุณ",
@@ -3144,6 +3182,8 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       pricing: "Ціни",
     },
     platforms: {
+      downloadBadgeCaption: "Завантажте з",
+      tryBadgeCaption: "Спробуйте",
       appStore: "App Store",
       googlePlay: "Google Play",
       scanQrHint: "Відскануйте з телефона",
@@ -3302,6 +3342,8 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       pricing: "תמחור",
     },
     platforms: {
+      downloadBadgeCaption: "להורדה דרך",
+      tryBadgeCaption: "נסו",
       appStore: "App Store",
       googlePlay: "Google Play",
       scanQrHint: "סרוק מהטלפון",
@@ -3460,6 +3502,8 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       pricing: "Priser",
     },
     platforms: {
+      downloadBadgeCaption: "Hämta på",
+      tryBadgeCaption: "Prova",
       appStore: "App Store",
       googlePlay: "Google Play",
       scanQrHint: "Skanna med telefonen",
@@ -3618,6 +3662,8 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       pricing: "Priser",
     },
     platforms: {
+      downloadBadgeCaption: "Hent på",
+      tryBadgeCaption: "Prøv",
       appStore: "App Store",
       googlePlay: "Google Play",
       scanQrHint: "Scan den med din telefon",
@@ -3776,6 +3822,8 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       pricing: "Priser",
     },
     platforms: {
+      downloadBadgeCaption: "Last ned fra",
+      tryBadgeCaption: "Prøv",
       appStore: "App Store",
       googlePlay: "Google Play",
       scanQrHint: "Skann den med mobilen",
@@ -3934,6 +3982,8 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       pricing: "Hinnoittelu",
     },
     platforms: {
+      downloadBadgeCaption: "Lataa",
+      tryBadgeCaption: "Kokeile",
       appStore: "App Store",
       googlePlay: "Google Play",
       scanQrHint: "Skannaa se puhelimellasi",
@@ -4092,6 +4142,8 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       pricing: "Ceny",
     },
     platforms: {
+      downloadBadgeCaption: "Stáhnout z",
+      tryBadgeCaption: "Vyzkoušejte",
       appStore: "App Store",
       googlePlay: "Google Play",
       scanQrHint: "Naskenujte ho telefonem",
@@ -4250,6 +4302,8 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       pricing: "Τιμολόγηση",
     },
     platforms: {
+      downloadBadgeCaption: "Λήψη από",
+      tryBadgeCaption: "Δοκιμάστε",
       appStore: "App Store",
       googlePlay: "Google Play",
       scanQrHint: "Σαρώστε τον από το κινητό σας",
@@ -4408,6 +4462,8 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       pricing: "Prețuri",
     },
     platforms: {
+      downloadBadgeCaption: "Descarcă din",
+      tryBadgeCaption: "Încearcă",
       appStore: "App Store",
       googlePlay: "Google Play",
       scanQrHint: "Scanează-l de pe telefon",
@@ -4566,6 +4622,8 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       pricing: "Árak",
     },
     platforms: {
+      downloadBadgeCaption: "Letöltés innen",
+      tryBadgeCaption: "Próbáld ki",
       appStore: "App Store",
       googlePlay: "Google Play",
       scanQrHint: "Szkenneld be a telefonoddal",
@@ -4724,6 +4782,8 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       pricing: "قیمت‌گذاری",
     },
     platforms: {
+      downloadBadgeCaption: "دانلود از",
+      tryBadgeCaption: "امتحان کنید",
       appStore: "App Store",
       googlePlay: "Google Play",
       scanQrHint: "با گوشی خود آن را اسکن کنید",
@@ -4882,6 +4942,8 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       pricing: "Preus",
     },
     platforms: {
+      downloadBadgeCaption: "Baixa a",
+      tryBadgeCaption: "Prova-la",
       appStore: "App Store",
       googlePlay: "Google Play",
       scanQrHint: "Escaneja'l des del mòbil",
@@ -5039,6 +5101,8 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       pricing: "দাম",
     },
     platforms: {
+      downloadBadgeCaption: "এখান থেকে ডাউনলোড করুন",
+      tryBadgeCaption: "চেষ্টা করুন",
       appStore: "App Store",
       googlePlay: "Google Play",
       scanQrHint: "ফোন থেকে স্ক্যান করুন",
@@ -5197,6 +5261,8 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       pricing: "કિંમત",
     },
     platforms: {
+      downloadBadgeCaption: "અહીંથી ડાઉનલોડ કરો",
+      tryBadgeCaption: "અજમાવો",
       appStore: "App Store",
       googlePlay: "Google Play",
       scanQrHint: "તમારા ફોનથી સ્કૅન કરો",
@@ -5355,6 +5421,8 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       pricing: "ಬೆಲೆ",
     },
     platforms: {
+      downloadBadgeCaption: "ಇಲ್ಲಿ ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ",
+      tryBadgeCaption: "ಪ್ರಯತ್ನಿಸಿ",
       appStore: "App Store",
       googlePlay: "Google Play",
       scanQrHint: "ನಿಮ್ಮ ಫೋನ್‌ನಿಂದ ಸ್ಕ್ಯಾನ್ ಮಾಡಿ",
@@ -5517,6 +5585,8 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       pricing: "വില",
     },
     platforms: {
+      downloadBadgeCaption: "ഇവിടെ ഡൗൺലോഡ് ചെയ്യൂ",
+      tryBadgeCaption: "പരീക്ഷിക്കൂ",
       appStore: "App Store",
       googlePlay: "Google Play",
       scanQrHint: "നിങ്ങളുടെ ഫോണിൽ നിന്ന് സ്കാൻ ചെയ്യുക",
@@ -5674,6 +5744,8 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       pricing: "किंमत",
     },
     platforms: {
+      downloadBadgeCaption: "येथून डाउनलोड करा",
+      tryBadgeCaption: "वापरून पाहा",
       appStore: "App Store",
       googlePlay: "Google Play",
       scanQrHint: "तुमच्या फोनवरून स्कॅन करा",
@@ -5831,6 +5903,8 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       pricing: "ਕੀਮਤ",
     },
     platforms: {
+      downloadBadgeCaption: "ਇੱਥੋਂ ਡਾਊਨਲੋਡ ਕਰੋ",
+      tryBadgeCaption: "ਅਜ਼ਮਾਓ",
       appStore: "App Store",
       googlePlay: "Google Play",
       scanQrHint: "ਆਪਣੇ ਫ਼ੋਨ ਤੋਂ ਸਕੈਨ ਕਰੋ",
@@ -5991,6 +6065,8 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       pricing: "விலை",
     },
     platforms: {
+      downloadBadgeCaption: "இங்கே பதிவிறக்கவும்",
+      tryBadgeCaption: "முயற்சிக்கவும்",
       appStore: "App Store",
       googlePlay: "Google Play",
       scanQrHint: "உங்கள் தொலைபேசியில் இருந்து ஸ்கேன் செய்யுங்கள்",
@@ -6150,6 +6226,8 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       pricing: "ధర",
     },
     platforms: {
+      downloadBadgeCaption: "ఇక్కడ డౌన్‌లోడ్ చేయండి",
+      tryBadgeCaption: "ప్రయత్నించండి",
       appStore: "App Store",
       googlePlay: "Google Play",
       scanQrHint: "మీ ఫోన్ నుండి స్కాన్ చేయండి",
@@ -6308,6 +6386,8 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       pricing: "قیمت",
     },
     platforms: {
+      downloadBadgeCaption: "یہاں سے ڈاؤن لوڈ کریں",
+      tryBadgeCaption: "آزمائیں",
       appStore: "App Store",
       googlePlay: "Google Play",
       scanQrHint: "اپنے فون سے اسکین کریں",
@@ -6467,6 +6547,8 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       pricing: "Bei",
     },
     platforms: {
+      downloadBadgeCaption: "Pakua kwenye",
+      tryBadgeCaption: "Jaribu",
       appStore: "App Store",
       googlePlay: "Google Play",
       scanQrHint: "Iskani kwa simu yako",
@@ -6625,6 +6707,8 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       pricing: "Цени",
     },
     platforms: {
+      downloadBadgeCaption: "Изтеглете от",
+      tryBadgeCaption: "Опитайте",
       appStore: "App Store",
       googlePlay: "Google Play",
       scanQrHint: "Сканирайте го от телефона си",
@@ -6783,6 +6867,8 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       pricing: "Hinnad",
     },
     platforms: {
+      downloadBadgeCaption: "Laadi alla",
+      tryBadgeCaption: "Proovi",
       appStore: "App Store",
       googlePlay: "Google Play",
       scanQrHint: "Skanni see telefoniga",
@@ -6941,6 +7027,8 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       pricing: "Cijene",
     },
     platforms: {
+      downloadBadgeCaption: "Preuzmite iz",
+      tryBadgeCaption: "Isprobajte",
       appStore: "App Store",
       googlePlay: "Google Play",
       scanQrHint: "Skenirajte ga mobitelom",
@@ -7099,6 +7187,8 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       pricing: "Verð",
     },
     platforms: {
+      downloadBadgeCaption: "Sækja í",
+      tryBadgeCaption: "Prófaðu",
       appStore: "App Store",
       googlePlay: "Google Play",
       scanQrHint: "Skannaðu hann í símanum",
@@ -7257,6 +7347,8 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       pricing: "Kainos",
     },
     platforms: {
+      downloadBadgeCaption: "Atsisiųskite iš",
+      tryBadgeCaption: "Išbandykite",
       appStore: "App Store",
       googlePlay: "Google Play",
       scanQrHint: "Nuskaitykite jį telefonu",
@@ -7415,6 +7507,8 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       pricing: "Cenas",
     },
     platforms: {
+      downloadBadgeCaption: "Lejupielādēt no",
+      tryBadgeCaption: "Izmēģiniet",
       appStore: "App Store",
       googlePlay: "Google Play",
       scanQrHint: "Noskenē to ar telefonu",
@@ -7573,6 +7667,8 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       pricing: "Cenník",
     },
     platforms: {
+      downloadBadgeCaption: "Stiahnuť z",
+      tryBadgeCaption: "Vyskúšajte",
       appStore: "App Store",
       googlePlay: "Google Play",
       scanQrHint: "Naskenujte ho telefónom",
@@ -7731,6 +7827,8 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       pricing: "Cenik",
     },
     platforms: {
+      downloadBadgeCaption: "Prenesite iz",
+      tryBadgeCaption: "Preizkusite",
       appStore: "App Store",
       googlePlay: "Google Play",
       scanQrHint: "Skenirajte ga s telefonom",
@@ -7889,6 +7987,8 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       pricing: "Amanani",
     },
     platforms: {
+      downloadBadgeCaption: "Landa ku",
+      tryBadgeCaption: "Zama",
       appStore: "App Store",
       googlePlay: "Google Play",
       scanQrHint: "Skena ngefoni yakho",

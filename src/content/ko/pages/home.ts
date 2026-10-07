@@ -36,7 +36,51 @@ export const HOME_PAGE_CONTENT: PageContent = {
       ],
     },
     {
-      type: "public_activity",
+      type: "app_walkthrough",
+      title: "Nibomo 사용 방법",
+      items: [
+        {
+          label: "01 · AI 플래시카드",
+          titleLines: [
+            "배우고 싶은 것을 AI에게 알려 주세요.",
+          ],
+          description: "주제를 설명하거나 노트를 첨부하세요. AI가 학습 자료를 질문과 답변이 있는 플래시카드로 만드는 데 도움을 줍니다.",
+          linkLabel: "플래시카드 만들기",
+          imagePath: "/home/ai-flashcards.png",
+          imageAlt: "주제나 첨부한 노트로 플래시카드를 만드는 Nibomo AI 채팅",
+        },
+        {
+          label: "02 · 학습 시작",
+          titleLines: [
+            "한 번에 한 문제씩.",
+          ],
+          description: "플래시카드를 열고 답을 보기 전에 먼저 떠올려 보세요. 한 번에 한 카드씩, 자신의 속도로 학습하세요.",
+          linkLabel: "학습 시작하기",
+          imagePath: "/home/start-learning.png",
+          imageAlt: "답을 보여 주는 버튼이 있는 Nibomo 복습 플래시카드",
+        },
+        {
+          label: "03 · 스마트 복습",
+          titleLines: [
+            "답을 확인하세요.",
+            "얼마나 잘 기억했는지 평가하세요.",
+          ],
+          description: "답을 확인하고 얼마나 쉽게 기억했는지 표시하세요. Nibomo는 어려운 카드를 더 빨리, 익숙한 카드를 더 나중에 다시 보여 줍니다.",
+          linkLabel: "플래시카드 복습하기",
+          imagePath: "/home/smart-reviews.png",
+          imageAlt: "답변과 기억 정도 평가 버튼이 표시된 Nibomo 플래시카드",
+        },
+        {
+          label: "04 · 나의 진도",
+          titleLines: [
+            "학습을 습관으로 만드세요.",
+          ],
+          description: "달력에서 학습한 날짜를 확인하고 연속 학습을 이어 가세요. 복습할 때마다 목표에 한 걸음 더 가까워집니다.",
+          linkLabel: "진도 확인하기",
+          imagePath: "/home/your-progress.png",
+          imageAlt: "연속 학습 달력과 순위표가 있는 Nibomo 진도 화면",
+        }
+      ],
     },
     {
       type: "feature_list",
@@ -57,7 +101,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
         {
           title: "오프라인 학습과 자동 동기화",
           description:
-            "인터넷 없이도 모바일 기기에서 복습을 이어 가세요. 변경 사항은 자동으로 동기화되어 웹, iOS, Android에서 계속할 수 있습니다.",
+            "인터넷 연결 없이도 모바일 기기에서 계속 복습할 수 있습니다. 변경 사항은 자동으로 동기화됩니다.",
         },
         {
           title: "가져오기, 내보내기, 내 데이터는 내 것",
@@ -75,6 +119,14 @@ export const HOME_PAGE_CONTENT: PageContent = {
             "호스팅된 앱을 무료로 쓰거나, 오픈 소스 코드를 살펴보거나, 직접 인프라에서 운영하세요.",
         },
       ],
+    },
+    {
+      type: "review_cta",
+      titleLines: [
+        "복습 계획은 Nibomo에 맡기세요.",
+        "학습에만 집중하세요.",
+      ],
+      description: "배우는 내용을 플래시카드로 만들고, 알맞은 때에 복습해 더 많이 기억하세요.",
     },
   ],
   body: "",

@@ -36,7 +36,51 @@ export const HOME_PAGE_CONTENT: PageContent = {
       ],
     },
     {
-      type: "public_activity",
+      type: "app_walkthrough",
+      title: "Svona virkar Nibomo",
+      items: [
+        {
+          label: "01 · NÁMSKORT MEÐ GERVIGREIND",
+          titleLines: [
+            "Segðu gervigreindinni hvað þú vilt læra.",
+          ],
+          description: "Lýstu efni eða hengdu glósurnar þínar við. Gervigreind hjálpar þér að breyta efninu í námskort með spurningum og svörum.",
+          linkLabel: "Búa til námskort",
+          imagePath: "/home/ai-flashcards.png",
+          imageAlt: "Gervigreindarspjall Nibomo býr til námskort úr viðfangsefni eða viðhengdum glósum",
+        },
+        {
+          label: "02 · BYRJAÐU AÐ LÆRA",
+          titleLines: [
+            "Ein spurning í einu.",
+          ],
+          description: "Opnaðu námskort og reyndu að rifja upp svarið áður en þú birtir það. Lærðu á þínum hraða, eitt kort í einu.",
+          linkLabel: "Byrja að læra",
+          imagePath: "/home/start-learning.png",
+          imageAlt: "Upprifjunarkort í Nibomo með hnappi til að birta svarið",
+        },
+        {
+          label: "03 · SNJÖLL UPPRIFJUN",
+          titleLines: [
+            "Athugaðu svarið þitt.",
+            "Metðu hversu vel þú mundir.",
+          ],
+          description: "Birtu svarið og merktu hversu auðveldlega þú mundir það. Nibomo sýnir erfið kort aftur fyrr og kunnugleg kort síðar.",
+          linkLabel: "Rifja upp námskort",
+          imagePath: "/home/smart-reviews.png",
+          imageAlt: "Námskort í Nibomo með sýnilegu svari og valkostum til að meta minni",
+        },
+        {
+          label: "04 · FRAMFARIR ÞÍNAR",
+          titleLines: [
+            "Gerðu nám að vana.",
+          ],
+          description: "Sjáðu námsdagana í dagatalinu og haltu námslotunni gangandi. Hver upprifjun er enn eitt skref í átt að markmiðinu þínu.",
+          linkLabel: "Skoða framfarir",
+          imagePath: "/home/your-progress.png",
+          imageAlt: "Framfaraskjár Nibomo með dagatali samfelldra námsdaga og stigatöflu",
+        }
+      ],
     },
     {
       type: "feature_list",
@@ -57,7 +101,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
         {
           title: "Nám án nettengingar með sjálfvirkri samstillingu",
           description:
-            "Haltu áfram að rifja upp í farsímanum þínum án nettengingar. Breytingar samstillast sjálfkrafa svo þú getir haldið áfram á vefnum, í iOS eða Android.",
+            "Haltu áfram að rifja upp í farsímanum án nettengingar. Breytingar samstillast sjálfkrafa.",
         },
         {
           title: "Innflutningur, útflutningur og eignarhald á gögnunum",
@@ -75,6 +119,14 @@ export const HOME_PAGE_CONTENT: PageContent = {
             "Notaðu hýstu útgáfuna ókeypis, skoðaðu opna kóðann eða keyrðu forritið á eigin innviðum.",
         },
       ],
+    },
+    {
+      type: "review_cta",
+      titleLines: [
+        "Leyfðu Nibomo að skipuleggja upprifjunina.",
+        "Þú einbeitir þér að náminu.",
+      ],
+      description: "Breyttu því sem þú lærir í námskort, rifjaðu upp á réttum tíma og mundu meira.",
     },
   ],
   body: "",
