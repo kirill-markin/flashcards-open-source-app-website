@@ -1,6 +1,6 @@
 .section {
   padding-inline: 80px;
-  padding-block-end: 80px;
+  padding-block: 40px 120px;
   background: #f6f6f6;
   color: #fff;
   color-scheme: light;
@@ -75,7 +75,7 @@
 @media (max-width: 600px) {
   .section {
     padding-inline: 24px;
-    padding-block-end: 64px;
+    padding-block: 24px 88px;
   }
 
   .panel {
