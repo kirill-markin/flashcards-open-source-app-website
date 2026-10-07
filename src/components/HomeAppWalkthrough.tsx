@@ -3,7 +3,6 @@ import { TrackedAppEntryLink } from "@/components/TrackedAppEntryLink";
 import { getAppUrl } from "@/lib/auth";
 import type { AppWalkthroughSection } from "@/lib/content/types";
 import type { AppLocale } from "@/lib/i18n";
-import { homeDesignFont } from "@/lib/homeDesignFont";
 import styles from "./HomeAppWalkthrough.module.css";
 
 interface HomeAppWalkthroughProps {
@@ -17,7 +16,7 @@ export function HomeAppWalkthrough({
 }: HomeAppWalkthroughProps): React.JSX.Element {
   return (
     <section
-      className={`${styles.walkthrough} ${homeDesignFont.className}`}
+      className={styles.walkthrough}
       aria-label={section.title}
       id="how-nibomo-works"
     >

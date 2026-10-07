@@ -1,6 +1,5 @@
 import { AuthAwareAppCtaLink } from "@/components/AuthAwareAppCtaLink";
 import type { ReviewCtaSection } from "@/lib/content/types";
-import { homeDesignFont } from "@/lib/homeDesignFont";
 import type { AppLocale } from "@/lib/i18n";
 import styles from "./HomeReviewCta.module.css";
 
@@ -16,7 +15,7 @@ export function HomeReviewCta({
   return (
     <section
       id="start-studying"
-      className={`${styles.section} ${homeDesignFont.className}`}
+      className={styles.section}
       aria-labelledby="home-review-cta-title"
     >
       <div className={styles.panel}>

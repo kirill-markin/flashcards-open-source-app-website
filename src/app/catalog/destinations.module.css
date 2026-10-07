@@ -209,7 +209,7 @@
 .markdown {
   max-width: var(--reading-width);
   color: var(--text);
-  font-family: var(--reading-serif-font-family);
+  font-family: var(--ui-font-family);
   font-size: var(--reading-font-size);
   line-height: var(--reading-line-height);
   letter-spacing: var(--reading-letter-spacing);

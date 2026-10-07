@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import { Source_Serif_4 } from "next/font/google";
 import { SiteVercelAnalytics } from "@/components/SiteVercelAnalytics";
 import { readPageContent } from "@/lib/content/readPageContent";
 import { getLanguageAlternates } from "@/lib/routeTranslations";
@@ -11,13 +10,7 @@ import {
 } from "@/lib/i18n";
 import { getLocaleDirection } from "@/lib/localeConfig";
 import { SITE_NAME, SITE_URL } from "@/lib/site";
-
-const sourceSerif = Source_Serif_4({
-  subsets: ["latin", "cyrillic"],
-  weight: ["400", "600", "700"],
-  display: "swap",
-  variable: "--font-source-serif",
-});
+import { siteFont } from "@/lib/siteFont";
 
 export function createLocaleLayoutMetadata(locale: AppLocale): Metadata {
   const homePageContent = readPageContent("home", locale);
@@ -64,7 +57,7 @@ export function RootDocument({
     <html
       lang={lang}
       dir={getLocaleDirection(lang)}
-      className={sourceSerif.variable}
+      className={siteFont.variable}
     >
       <body>
         {children}

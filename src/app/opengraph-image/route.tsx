@@ -1,9 +1,10 @@
 import { ImageResponse } from "next/og";
+import { readSocialImageFonts } from "@/lib/socialImageFonts";
 
 const size = { width: 1200, height: 630 };
 export const dynamic = "force-static";
 
-export function GET(): ImageResponse {
+export async function GET(): Promise<ImageResponse> {
   return new ImageResponse(
     (
       <div
@@ -15,7 +16,7 @@ export function GET(): ImageResponse {
           alignItems: "center",
           justifyContent: "center",
           backgroundColor: "#232323",
-          fontFamily: "monospace",
+          fontFamily: "Inter",
         }}
       >
         <div
@@ -73,6 +74,6 @@ export function GET(): ImageResponse {
         </div>
       </div>
     ),
-    { ...size },
+    { ...size, fonts: await readSocialImageFonts() },
   );
 }
