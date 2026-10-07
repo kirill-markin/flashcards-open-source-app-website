@@ -1,0 +1,222 @@
+.hero {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  inline-size: calc(100vw - 160px);
+  min-block-size: 700px;
+  margin-inline: calc(50% - 50vw + 80px);
+  border-radius: 32px;
+  background: #232525;
+  color: #eee;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  min-inline-size: 0;
+  padding-block: 52px 40px;
+  padding-inline-start: 40px;
+}
+
+.eyebrow {
+  color: #ff6719;
+  font-size: 12px;
+  font-weight: 760;
+  line-height: 14.4px;
+  letter-spacing: 1.44px;
+  text-transform: uppercase;
+}
+
+.message {
+  margin-block-start: 112px;
+}
+
+.title {
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 1.189;
+  letter-spacing: 0;
+}
+
+.title span {
+  display: block;
+}
+
+.description,
+.agentDescription {
+  color: #b7b7b7;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.25;
+  letter-spacing: 0;
+}
+
+.description {
+  max-inline-size: 484px;
+  margin-block-start: 24px;
+}
+
+.cta {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-block-start: auto;
+}
+
+.trustLine {
+  color: #777;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.aside {
+  display: flex;
+  flex-direction: column;
+  min-inline-size: 0;
+  margin-block: 12px;
+  margin-inline-end: 12px;
+  padding-block: 40px 28px;
+  padding-inline: 40px 32px;
+  border-radius: 32px;
+  background: #1f1f1f;
+}
+
+.humanAccess {
+  display: grid;
+  gap: 40px;
+}
+
+.hintTitle {
+  font-size: 12px;
+  font-weight: 760;
+  line-height: 14.4px;
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
+
+.agentAccess {
+  margin-block-start: 184px;
+}
+
+.agentDescription {
+  margin-block: 36px 24px;
+}
+
+.endpoint {
+  margin-block-start: auto;
+}
+
+.endpoint > div {
+  gap: 0;
+}
+
+.endpoint span {
+  padding-inline: 14px;
+}
+
+.endpoint > div > div {
+  grid-template-columns: minmax(0, 1fr) auto;
+}
+
+@media (max-width: 1080px) {
+  .hero {
+    grid-template-columns: minmax(0, 1fr);
+    min-block-size: 0;
+  }
+
+  .main {
+    padding: 40px;
+  }
+
+  .message {
+    margin-block-start: 48px;
+  }
+
+  .cta {
+    margin-block-start: 48px;
+    flex-wrap: wrap;
+  }
+
+  .aside {
+    margin-inline-start: 12px;
+    padding: 40px;
+  }
+
+  .agentAccess {
+    margin-block-start: 56px;
+  }
+
+  .agentDescription {
+    max-inline-size: 484px;
+    margin-block-start: 24px;
+  }
+
+  .endpoint {
+    margin-block-start: 48px;
+  }
+}
+
+@media (max-width: 600px) {
+  .hero {
+    inline-size: 100%;
+    margin-inline: 0;
+    border-radius: 24px;
+  }
+
+  .main {
+    padding: 32px 24px;
+  }
+
+  .message {
+    margin-block-start: 40px;
+  }
+
+  .title {
+    font-size: 36px;
+  }
+
+  .cta {
+    gap: 12px;
+    margin-block-start: 40px;
+  }
+
+  .cta > :first-child {
+    inline-size: 100%;
+  }
+
+  .trustLine {
+    inline-size: 100%;
+    text-align: center;
+  }
+
+  .aside {
+    padding: 32px 24px;
+    border-radius: 24px;
+  }
+
+  .humanAccess {
+    gap: 24px;
+  }
+
+  .agentAccess {
+    margin-block-start: 48px;
+  }
+
+  .endpoint {
+    margin-block-start: 40px;
+  }
+
+  .endpoint span {
+    padding-inline: 0;
+    margin-block-end: 8px;
+  }
+}
+
+@media (max-width: 380px) {
+  .endpoint > div > div {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .title {
+    font-size: 32px;
+  }
+}

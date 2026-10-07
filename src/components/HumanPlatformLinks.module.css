@@ -88,6 +88,75 @@
     transform 140ms ease;
 }
 
+.badges {
+  grid-template-columns: repeat(3, 120px);
+  gap: 6px;
+}
+
+.badges .platformLink,
+.badges .platformDisabled {
+  flex-direction: row;
+  gap: 6px;
+  inline-size: 120px;
+  block-size: 40px;
+  min-block-size: 40px;
+  padding: 5px;
+  border: 1px solid #a6a6a6;
+  border-radius: 6px;
+  background: #000;
+  color: #fff;
+}
+
+.badges .platformLink[data-site-app-entry-target="app_store"] {
+  padding: 0;
+  border: 0;
+}
+
+.badges .platformBadge {
+  inline-size: 120px;
+  block-size: 40px;
+  max-inline-size: none;
+}
+
+.badges .platformIcon {
+  flex: none;
+  inline-size: 24px;
+  block-size: 24px;
+}
+
+.playMark {
+  flex: none;
+  inline-size: 22px;
+  block-size: 24px;
+  overflow: hidden;
+}
+
+.playMark img {
+  display: block;
+  inline-size: 118px;
+  max-inline-size: none;
+  block-size: 24px;
+}
+
+.badgeText {
+  display: grid;
+  justify-items: start;
+  font-family: Arial, sans-serif;
+  text-align: start;
+}
+
+.badgeCaption {
+  font-size: 8px;
+  line-height: 9px;
+}
+
+.badgeName {
+  font-size: 16px;
+  line-height: 17px;
+  letter-spacing: -0.5px;
+  white-space: nowrap;
+}
+
 @media (hover: hover) and (pointer: fine) {
   .platformDisabled:hover::after,
   .platformDisabled:focus-visible::after {
@@ -99,5 +168,22 @@
 @media (max-width: 768px) {
   .platformList {
     grid-template-columns: 1fr;
+  }
+
+  .platformList.badges {
+    grid-template-columns: repeat(3, 120px);
+  }
+}
+
+@media (max-width: 500px) {
+  .platformList.badges {
+    grid-template-columns: repeat(2, 120px);
+    row-gap: 10px;
+  }
+}
+
+@media (max-width: 360px) {
+  .platformList.badges {
+    grid-template-columns: 120px;
   }
 }

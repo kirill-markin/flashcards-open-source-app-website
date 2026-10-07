@@ -43,6 +43,27 @@ export interface PublicActivityPageSection {
   readonly type: "public_activity";
 }
 
+export interface AppWalkthroughItem {
+  readonly label: string;
+  readonly titleLines: ReadonlyArray<string>;
+  readonly description: string;
+  readonly linkLabel: string;
+  readonly imagePath: string;
+  readonly imageAlt: string;
+}
+
+export interface AppWalkthroughSection {
+  readonly type: "app_walkthrough";
+  readonly title: string;
+  readonly items: ReadonlyArray<AppWalkthroughItem>;
+}
+
+export interface ReviewCtaSection {
+  readonly type: "review_cta";
+  readonly titleLines: ReadonlyArray<string>;
+  readonly description: string;
+}
+
 export interface LinkPricingTier {
   readonly type: "link_tier";
   readonly name: string;
@@ -83,6 +104,8 @@ export type PageSection =
   | HeroSection
   | FeatureListSection
   | PublicActivityPageSection
+  | AppWalkthroughSection
+  | ReviewCtaSection
   | PricingTiersSection
   | LegalPageSection
   | SimpleMarkdownPageSection;
