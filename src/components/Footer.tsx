@@ -17,6 +17,16 @@ import { TrackedOutboundLink } from "./TrackedOutboundLink";
 import { TrackedStoreLink } from "./TrackedStoreLink";
 import styles from "./Footer.module.css";
 
+const SOCIAL_LINKS: ReadonlyArray<{
+  readonly href: string;
+  readonly label: string;
+}> = [
+  {
+    href: "https://www.linkedin.com/company/nibomo/",
+    label: "LinkedIn",
+  },
+];
+
 interface FooterProps {
   readonly locale: AppLocale;
   readonly routeLocales: ReadonlyArray<AppLocale>;
@@ -178,6 +188,14 @@ export const Footer: React.FC<FooterProps> = ({
             >
               Cursor Directory
             </a>
+          </div>
+          <div className={styles.column}>
+            <h3>{uiCopy.footer.followUsHeading}</h3>
+            {SOCIAL_LINKS.map((link) => (
+              <a key={link.href} href={link.href} {...getExternalLinkAttributes(link.href)}>
+                {link.label}
+              </a>
+            ))}
           </div>
           <div className={styles.column}>
             <h3>{uiCopy.footer.legalHeading}</h3>
