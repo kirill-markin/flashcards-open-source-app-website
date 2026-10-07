@@ -3,7 +3,6 @@ import { AuthButton } from "@/components/AuthButton";
 import { HumanPlatformLinks } from "@/components/HumanPlatformLinks";
 import { TrackedMcpEndpointCopyField } from "@/components/TrackedMcpEndpointCopyField";
 import type { HeroSection } from "@/lib/content/types";
-import { homeDesignFont } from "@/lib/homeDesignFont";
 import type { AppLocale } from "@/lib/i18n";
 import { getAvailableLocalizedPathname } from "@/lib/routeTranslations";
 import type { StoreQrCodes } from "@/lib/storeQrCodes";
@@ -27,7 +26,7 @@ export function HomeHero({
     <section
       id="home-hero"
       aria-labelledby="home-hero-title"
-      className={`${styles.hero} ${homeDesignFont.className}`}
+      className={styles.hero}
     >
       <div className={styles.main}>
         <p className={styles.eyebrow}>{section.eyebrow}</p>

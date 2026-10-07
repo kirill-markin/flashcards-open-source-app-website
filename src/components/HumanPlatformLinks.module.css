@@ -141,7 +141,7 @@
 .badgeText {
   display: grid;
   justify-items: start;
-  font-family: Arial, sans-serif;
+  font-family: var(--ui-font-family);
   text-align: start;
 }
 
