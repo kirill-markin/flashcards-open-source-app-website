@@ -5,7 +5,7 @@ import { CONNECTOR_DIRECTORIES } from "@/lib/connectorDirectories";
 import { FullAppCtaPanel } from "@/components/AppCtaPanel";
 import { AuthButton } from "@/components/AuthButton";
 import { AuthAwareAppCtaLink } from "@/components/AuthAwareAppCtaLink";
-import { Breadcrumbs } from "@/components/Breadcrumbs";
+import { BreadcrumbStructuredData } from "@/components/BreadcrumbStructuredData";
 import { HumanPlatformLinks } from "@/components/HumanPlatformLinks";
 import { HomeAppWalkthrough } from "@/components/HomeAppWalkthrough";
 import { HomeHero } from "@/components/HomeHero";
@@ -63,7 +63,7 @@ function getMarketingRoutePathname(slug: MarketingPageSlug): string {
   return `/${slug}/`;
 }
 
-function renderMarketingBreadcrumbs(
+function renderMarketingBreadcrumbStructuredData(
   locale: AppLocale,
   slug: MarketingPageSlug,
   title: string
@@ -73,7 +73,7 @@ function renderMarketingBreadcrumbs(
   }
 
   return (
-    <Breadcrumbs
+    <BreadcrumbStructuredData
       locale={locale}
       items={[
         {
@@ -136,7 +136,6 @@ function renderHomePage(
           <section className={homeStyles.hero}>
             <div className={homeStyles.heroMain}>
               <div className={homeStyles.heroHeading}>
-                <p className={homeStyles.eyebrow}>{heroSection.eyebrow}</p>
                 <h1 className={homeStyles.title}>
                   {heroSection.titleLines.map((line, index) => (
                     <span key={line}>
@@ -145,6 +144,7 @@ function renderHomePage(
                     </span>
                   ))}
                 </h1>
+                <p className={homeStyles.eyebrow}>{heroSection.eyebrow}</p>
               </div>
               <p className={homeStyles.subtitle}>{heroSection.subtitle}</p>
               <div className={homeStyles.cta}>
@@ -246,7 +246,7 @@ function renderHomePage(
 function renderFeaturesPage(
   locale: AppLocale,
   title: string,
-  breadcrumb: React.ReactNode,
+  breadcrumbStructuredData: React.ReactNode,
   featureSection: FeatureListSection
 ): React.JSX.Element {
   const uiCopy = getUiCopy(locale);
@@ -255,7 +255,7 @@ function renderFeaturesPage(
     <div className={featureStyles.container}>
       <div className={featureStyles.pagePanel}>
         <header className={featureStyles.intro}>
-          {breadcrumb}
+          {breadcrumbStructuredData}
           <h1 className={featureStyles.title}>{title}</h1>
           <p className={featureStyles.subtitle}>{featureSection.intro}</p>
         </header>
@@ -298,14 +298,14 @@ function renderFeaturesPage(
 function renderPricingPage(
   locale: AppLocale,
   title: string,
-  breadcrumb: React.ReactNode,
+  breadcrumbStructuredData: React.ReactNode,
   pricingSection: PricingTiersSection
 ): React.JSX.Element {
   return (
     <div className={pricingStyles.container}>
       <div className={pricingStyles.pagePanel}>
         <header className={pricingStyles.intro}>
-          {breadcrumb}
+          {breadcrumbStructuredData}
           <h1 className={pricingStyles.title}>{title}</h1>
           <p className={pricingStyles.subtitle}>{pricingSection.intro}</p>
         </header>
@@ -360,7 +360,7 @@ function renderPricingTier(
 async function renderLegalPage(
   locale: AppLocale,
   title: string,
-  breadcrumb: React.ReactNode,
+  breadcrumbStructuredData: React.ReactNode,
   body: string,
   legalSection: LegalPageSection
 ): Promise<React.JSX.Element> {
@@ -371,7 +371,7 @@ async function renderLegalPage(
     <div className={legalStyles.container}>
       <div className={legalStyles.pagePanel}>
         <header className={legalStyles.intro}>
-          {breadcrumb}
+          {breadcrumbStructuredData}
           <h1 className={legalStyles.title}>{title}</h1>
         </header>
         <section className={legalStyles.contentPanel}>
@@ -394,7 +394,11 @@ export async function MarketingPageView({
 }: MarketingPageViewProps): Promise<React.JSX.Element> {
   const pageContent = readPageContent(slug, locale);
   const routePathname = getMarketingRoutePathname(slug);
-  const breadcrumb = renderMarketingBreadcrumbs(locale, slug, pageContent.title);
+  const breadcrumbStructuredData = renderMarketingBreadcrumbStructuredData(
+    locale,
+    slug,
+    pageContent.title
+  );
 
   let page: React.JSX.Element;
   let productStructuredData: React.JSX.Element | null;
@@ -423,7 +427,7 @@ export async function MarketingPageView({
       page = renderFeaturesPage(
         locale,
         pageContent.title,
-        breadcrumb,
+        breadcrumbStructuredData,
         getSectionByType(pageContent.sections, "feature_list")
       );
       break;
@@ -432,7 +436,7 @@ export async function MarketingPageView({
       page = renderPricingPage(
         locale,
         pageContent.title,
-        breadcrumb,
+        breadcrumbStructuredData,
         getSectionByType(pageContent.sections, "pricing_tiers")
       );
       break;
@@ -443,7 +447,7 @@ export async function MarketingPageView({
       page = await renderLegalPage(
         locale,
         pageContent.title,
-        breadcrumb,
+        breadcrumbStructuredData,
         pageContent.body,
         getSectionByType(pageContent.sections, "legal_page")
       );

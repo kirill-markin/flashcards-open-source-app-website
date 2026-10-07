@@ -1,4 +1,4 @@
-import { Breadcrumbs } from "@/components/Breadcrumbs";
+import { BreadcrumbStructuredData } from "@/components/BreadcrumbStructuredData";
 import { PublicCatalogNavigation } from "@/components/PublicCatalogNavigation";
 import { PublicCatalogPackageCard } from "@/components/PublicCatalogPackageCard";
 import { SiteFrame } from "@/components/SiteFrame";
@@ -55,7 +55,7 @@ export function PublicCatalogFacetPageView({
       />
       <div className={styles.container}>
         <header className={styles.panel}>
-          <Breadcrumbs
+          <BreadcrumbStructuredData
             items={[
               {
                 label: catalogCopy.breadcrumbLabel,

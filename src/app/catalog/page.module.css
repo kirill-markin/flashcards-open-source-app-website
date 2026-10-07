@@ -10,9 +10,6 @@
 
 .title {
   margin: 0;
-  font-size: clamp(2rem, 4vw, 3.25rem);
-  line-height: 1.02;
-  letter-spacing: -0.04em;
 }
 
 .intro {

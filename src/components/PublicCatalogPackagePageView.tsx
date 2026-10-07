@@ -1,6 +1,6 @@
 import "katex/dist/katex.min.css";
 import Link from "next/link";
-import { AncestorBreadcrumbs } from "@/components/Breadcrumbs";
+import { AncestorBreadcrumbStructuredData } from "@/components/BreadcrumbStructuredData";
 import { PublicCatalogCover } from "@/components/PublicCatalogCover";
 import { SiteFrameForRouteLocales } from "@/components/SiteFrame";
 import { StructuredDataScript } from "@/components/StructuredDataScript";
@@ -287,7 +287,7 @@ export async function PublicCatalogPackagePageView({
           value={createPublicCatalogPackageJsonLd(collections, locale, packageView)}
         />
         <section className={styles.packagePanel}>
-          <AncestorBreadcrumbs
+          <AncestorBreadcrumbStructuredData
             ancestors={[
               {
                 label: copy.breadcrumbLabel,

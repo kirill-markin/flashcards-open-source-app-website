@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Breadcrumbs } from "@/components/Breadcrumbs";
+import { BreadcrumbStructuredData } from "@/components/BreadcrumbStructuredData";
 import { PublicCatalogCover } from "@/components/PublicCatalogCover";
 import { PublicCatalogNavigation } from "@/components/PublicCatalogNavigation";
 import { SiteFrame } from "@/components/SiteFrame";
@@ -40,7 +40,7 @@ export function PublicCatalogCollectionsPageView({
       <StructuredDataScript value={createPublicCatalogCollectionsJsonLd(catalog, locale)} />
       <div className={styles.container}>
         <header className={styles.panel}>
-          <Breadcrumbs
+          <BreadcrumbStructuredData
             items={[
               {
                 label: catalogCopy.breadcrumbLabel,

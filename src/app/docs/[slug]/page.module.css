@@ -22,9 +22,6 @@
 
 .title {
   margin: 0;
-  font-size: clamp(1.9rem, 3.2vw, 2.5rem);
-  letter-spacing: -0.035em;
-  line-height: 1.05;
   overflow-wrap: anywhere;
 }
 
