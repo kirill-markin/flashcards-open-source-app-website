@@ -36,7 +36,51 @@ export const HOME_PAGE_CONTENT: PageContent = {
       ],
     },
     {
-      type: "public_activity",
+      type: "app_walkthrough",
+      title: "Zo werkt Nibomo",
+      items: [
+        {
+          label: "01 · FLASHCARDS MET AI",
+          titleLines: [
+            "Vertel AI wat je wilt leren.",
+          ],
+          description: "Beschrijf een onderwerp of voeg je notities toe. AI helpt je materiaal om te zetten in flashcards met vragen en antwoorden.",
+          linkLabel: "Flashcards maken",
+          imagePath: "/home/ai-flashcards.png",
+          imageAlt: "Nibomo AI-chat die flashcards maakt van een onderwerp of bijgevoegde notities",
+        },
+        {
+          label: "02 · BEGIN MET LEREN",
+          titleLines: [
+            "Eén vraag tegelijk.",
+          ],
+          description: "Open een flashcard en probeer het antwoord te herinneren voordat je het toont. Leer in je eigen tempo, één kaart tegelijk.",
+          linkLabel: "Begin met leren",
+          imagePath: "/home/start-learning.png",
+          imageAlt: "Een Nibomo-herhaalkaart met een knop om het antwoord te tonen",
+        },
+        {
+          label: "03 · SLIM HERHALEN",
+          titleLines: [
+            "Controleer je antwoord.",
+            "Beoordeel je herinnering.",
+          ],
+          description: "Toon het antwoord en geef aan hoe gemakkelijk je het herinnerde. Nibomo laat moeilijke kaarten eerder en bekende kaarten later terugkomen.",
+          linkLabel: "Flashcards herhalen",
+          imagePath: "/home/smart-reviews.png",
+          imageAlt: "Een Nibomo-flashcard met zichtbaar antwoord en beoordelingsopties voor herinnering",
+        },
+        {
+          label: "04 · JE VOORTGANG",
+          titleLines: [
+            "Maak van leren een gewoonte.",
+          ],
+          description: "Bekijk je studiedagen in de kalender en houd je reeks vol. Elke herhaling brengt je een stap dichter bij je doel.",
+          linkLabel: "Je voortgang bekijken",
+          imagePath: "/home/your-progress.png",
+          imageAlt: "Nibomo-voortgangsscherm met een kalender van opeenvolgende studiedagen en een ranglijst",
+        }
+      ],
     },
     {
       type: "feature_list",
@@ -57,7 +101,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
         {
           title: "Offline leren met automatische synchronisatie",
           description:
-            "Blijf herhalen op je mobiele apparaat, ook zonder internet. Wijzigingen synchroniseren automatisch, zodat je verder kunt op het web, iOS of Android.",
+            "Blijf herhalen op je mobiele apparaat zonder internetverbinding. Wijzigingen worden automatisch gesynchroniseerd.",
         },
         {
           title: "Importeren, exporteren en je data in eigen hand",
@@ -75,6 +119,14 @@ export const HOME_PAGE_CONTENT: PageContent = {
             "Gebruik de gehoste app gratis, bekijk de open-source code of draai hem op je eigen infrastructuur.",
         },
       ],
+    },
+    {
+      type: "review_cta",
+      titleLines: [
+        "Laat Nibomo je herhalingen plannen.",
+        "Jij concentreert je op leren.",
+      ],
+      description: "Zet wat je leert om in flashcards, herhaal op het juiste moment en onthoud meer.",
     },
   ],
   body: "",

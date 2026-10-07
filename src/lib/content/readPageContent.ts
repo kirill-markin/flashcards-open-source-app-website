@@ -364,17 +364,12 @@ function validatePageStructure(pageContent: PageContent): PageContent {
 
   switch (pageContent.slug) {
     case "home": {
-      const hasWalkthrough = pageContent.sections[1]?.type === "app_walkthrough";
-      const activityIndex = hasWalkthrough ? 2 : 1;
-      const hasActivity = pageContent.sections[activityIndex]?.type === "public_activity";
-      const featureIndex = hasActivity ? activityIndex + 1 : activityIndex;
-      const hasReviewCta = pageContent.sections[featureIndex + 1]?.type === "review_cta";
+      const requiredSectionTypes = ["hero", "app_walkthrough", "feature_list", "review_cta"];
       if (
-        pageContent.sections.length !== featureIndex + (hasReviewCta ? 2 : 1) ||
-        pageContent.sections[0].type !== "hero" ||
-        pageContent.sections[featureIndex].type !== "feature_list"
+        pageContent.sections.length !== requiredSectionTypes.length ||
+        pageContent.sections.some((section, index) => section.type !== requiredSectionTypes[index])
       ) {
-        throw new Error("Home page content must contain hero, optional app_walkthrough, optional public_activity, feature_list, and optional review_cta sections in order");
+        throw new Error("Home page content must contain hero, app_walkthrough, feature_list, and review_cta sections in order");
       }
       return pageContent;
     }

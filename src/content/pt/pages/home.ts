@@ -36,7 +36,51 @@ export const HOME_PAGE_CONTENT: PageContent = {
       ],
     },
     {
-      type: "public_activity",
+      type: "app_walkthrough",
+      title: "Como o Nibomo funciona",
+      items: [
+        {
+          label: "01 · FLASHCARDS COM IA",
+          titleLines: [
+            "Diga à IA o que você quer aprender.",
+          ],
+          description: "Descreva um assunto ou anexe suas anotações. A IA ajuda a transformar seu material em flashcards com perguntas e respostas.",
+          linkLabel: "Criar flashcards",
+          imagePath: "/home/ai-flashcards.png",
+          imageAlt: "Chat de IA do Nibomo criando flashcards a partir de um assunto ou de anotações anexadas",
+        },
+        {
+          label: "02 · COMECE A APRENDER",
+          titleLines: [
+            "Uma pergunta de cada vez.",
+          ],
+          description: "Abra um flashcard e tente lembrar a resposta antes de revelá-la. Aprenda no seu ritmo, um cartão de cada vez.",
+          linkLabel: "Começar a aprender",
+          imagePath: "/home/start-learning.png",
+          imageAlt: "Flashcard de revisão do Nibomo com um botão para mostrar a resposta",
+        },
+        {
+          label: "03 · REVISÕES INTELIGENTES",
+          titleLines: [
+            "Confira sua resposta.",
+            "Avalie sua lembrança.",
+          ],
+          description: "Revele a resposta e indique com que facilidade você se lembrou dela. O Nibomo traz os cartões difíceis de volta mais cedo e os conhecidos mais tarde.",
+          linkLabel: "Revisar flashcards",
+          imagePath: "/home/smart-reviews.png",
+          imageAlt: "Flashcard do Nibomo com a resposta revelada e opções para avaliar a lembrança",
+        },
+        {
+          label: "04 · SEU PROGRESSO",
+          titleLines: [
+            "Transforme o aprendizado em um hábito.",
+          ],
+          description: "Veja seus dias de estudo no calendário e mantenha sua sequência. Cada revisão é mais um passo em direção ao seu objetivo.",
+          linkLabel: "Ver seu progresso",
+          imagePath: "/home/your-progress.png",
+          imageAlt: "Tela de progresso do Nibomo com calendário de dias consecutivos de estudo e classificação",
+        }
+      ],
     },
     {
       type: "feature_list",
@@ -57,7 +101,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
         {
           title: "Estudo offline com sincronização automática",
           description:
-            "Continue revisando no celular sem conexão com a internet. As mudanças sincronizam sozinhas para você seguir na web, no iOS ou no Android.",
+            "Continue revisando no seu dispositivo móvel sem conexão com a internet. As alterações são sincronizadas automaticamente.",
         },
         {
           title: "Importe, exporte e seja dono dos seus dados",
@@ -75,6 +119,14 @@ export const HOME_PAGE_CONTENT: PageContent = {
             "Use o app hospedado de graça, examine o código aberto ou rode tudo na sua própria infraestrutura.",
         },
       ],
+    },
+    {
+      type: "review_cta",
+      titleLines: [
+        "Deixe o Nibomo planejar suas revisões.",
+        "Você se concentra em aprender.",
+      ],
+      description: "Transforme o que está aprendendo em flashcards, revise no momento certo e lembre mais.",
     },
   ],
   body: "",

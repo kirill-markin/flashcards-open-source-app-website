@@ -36,7 +36,51 @@ export const HOME_PAGE_CONTENT: PageContent = {
       ],
     },
     {
-      type: "public_activity",
+      type: "app_walkthrough",
+      title: "Jinsi Nibomo inavyofanya kazi",
+      items: [
+        {
+          label: "01 · KADI ZA KUJIFUNZA KWA AI",
+          titleLines: [
+            "Iambie AI unachotaka kujifunza.",
+          ],
+          description: "Eleza mada au ambatisha maelezo yako. AI husaidia kubadilisha nyenzo zako kuwa kadi za kujifunza zenye maswali na majibu.",
+          linkLabel: "Unda kadi za kujifunza",
+          imagePath: "/home/ai-flashcards.png",
+          imageAlt: "Mazungumzo ya AI ya Nibomo yanayounda kadi kutoka kwenye mada au maelezo yaliyoambatishwa",
+        },
+        {
+          label: "02 · ANZA KUJIFUNZA",
+          titleLines: [
+            "Swali moja kwa wakati.",
+          ],
+          description: "Fungua kadi na ujaribu kukumbuka jibu kabla ya kulionyesha. Jifunze kwa kasi yako, kadi moja kwa wakati.",
+          linkLabel: "Anza kujifunza",
+          imagePath: "/home/start-learning.png",
+          imageAlt: "Kadi ya marudio ya Nibomo yenye kitufe cha kuonyesha jibu",
+        },
+        {
+          label: "03 · MARUDIO MAHIRI",
+          titleLines: [
+            "Kagua jibu lako.",
+            "Tathmini jinsi ulivyokumbuka.",
+          ],
+          description: "Onyesha jibu na uweke alama ya jinsi ilivyokuwa rahisi kulikumbuka. Nibomo hurudisha kadi ngumu mapema na zinazofahamika baadaye.",
+          linkLabel: "Rudia kadi za kujifunza",
+          imagePath: "/home/smart-reviews.png",
+          imageAlt: "Kadi ya Nibomo yenye jibu lililoonyeshwa na chaguo za kutathmini kukumbuka",
+        },
+        {
+          label: "04 · MAENDELEO YAKO",
+          titleLines: [
+            "Fanya kujifunza kuwa mazoea.",
+          ],
+          description: "Angalia siku zako za kujifunza kwenye kalenda na uendeleze mfululizo wako. Kila marudio ni hatua nyingine kuelekea lengo lako.",
+          linkLabel: "Angalia maendeleo yako",
+          imagePath: "/home/your-progress.png",
+          imageAlt: "Skrini ya maendeleo ya Nibomo yenye kalenda ya siku mfululizo za kujifunza na orodha ya viwango",
+        }
+      ],
     },
     {
       type: "feature_list",
@@ -57,7 +101,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
         {
           title: "Kusoma bila intaneti, usawazishaji wa kiotomatiki",
           description:
-            "Endelea na marudio kwenye simu yako hata bila muunganisho wa intaneti. Mabadiliko husawazishwa yenyewe, hivyo unaweza kuendelea kwenye wavuti, iOS au Android.",
+            "Endelea kurudia kwenye kifaa chako cha mkononi bila muunganisho wa intaneti. Mabadiliko husawazishwa kiotomatiki.",
         },
         {
           title: "Leta, toa na umiliki data yako",
@@ -75,6 +119,14 @@ export const HOME_PAGE_CONTENT: PageContent = {
             "Tumia programu iliyopangishwa bila malipo, kagua msimbo wa chanzo huria, au iendeshe kwenye miundombinu yako mwenyewe.",
         },
       ],
+    },
+    {
+      type: "review_cta",
+      titleLines: [
+        "Acha Nibomo ipange marudio yako.",
+        "Wewe zingatia kujifunza.",
+      ],
+      description: "Geuza unachojifunza kuwa kadi, rudia kwa wakati unaofaa na ukumbuke zaidi.",
     },
   ],
   body: "",

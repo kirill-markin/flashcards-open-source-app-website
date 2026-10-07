@@ -36,7 +36,51 @@ export const HOME_PAGE_CONTENT: PageContent = {
       ],
     },
     {
-      type: "public_activity",
+      type: "app_walkthrough",
+      title: "Cách Nibomo hoạt động",
+      items: [
+        {
+          label: "01 · THẺ GHI NHỚ VỚI AI",
+          titleLines: [
+            "Cho AI biết bạn muốn học gì.",
+          ],
+          description: "Mô tả một chủ đề hoặc đính kèm ghi chú. AI giúp biến tài liệu của bạn thành thẻ ghi nhớ có câu hỏi và câu trả lời.",
+          linkLabel: "Tạo thẻ ghi nhớ",
+          imagePath: "/home/ai-flashcards.png",
+          imageAlt: "Trò chuyện AI của Nibomo tạo thẻ ghi nhớ từ một chủ đề hoặc ghi chú đính kèm",
+        },
+        {
+          label: "02 · BẮT ĐẦU HỌC",
+          titleLines: [
+            "Mỗi lần một câu hỏi.",
+          ],
+          description: "Mở một thẻ ghi nhớ và thử nhớ lại câu trả lời trước khi xem đáp án. Học theo nhịp độ của bạn, từng thẻ một.",
+          linkLabel: "Bắt đầu học",
+          imagePath: "/home/start-learning.png",
+          imageAlt: "Thẻ ôn tập Nibomo có nút hiển thị đáp án",
+        },
+        {
+          label: "03 · ÔN TẬP THÔNG MINH",
+          titleLines: [
+            "Kiểm tra câu trả lời.",
+            "Đánh giá khả năng nhớ lại.",
+          ],
+          description: "Xem đáp án và đánh dấu mức độ dễ dàng khi nhớ lại. Nibomo đưa các thẻ khó trở lại sớm hơn và các thẻ quen thuộc muộn hơn.",
+          linkLabel: "Ôn tập thẻ ghi nhớ",
+          imagePath: "/home/smart-reviews.png",
+          imageAlt: "Thẻ Nibomo với đáp án và các lựa chọn đánh giá khả năng nhớ lại",
+        },
+        {
+          label: "04 · TIẾN ĐỘ CỦA BẠN",
+          titleLines: [
+            "Biến việc học thành thói quen.",
+          ],
+          description: "Xem các ngày học trên lịch và duy trì chuỗi ngày học. Mỗi lần ôn tập là một bước nữa đến mục tiêu của bạn.",
+          linkLabel: "Xem tiến độ",
+          imagePath: "/home/your-progress.png",
+          imageAlt: "Màn hình tiến độ Nibomo với lịch chuỗi ngày học và bảng xếp hạng",
+        }
+      ],
     },
     {
       type: "feature_list",
@@ -57,7 +101,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
         {
           title: "Học ngoại tuyến với đồng bộ tự động",
           description:
-            "Tiếp tục ôn tập trên điện thoại ngay cả khi không có Internet. Thay đổi được đồng bộ tự động để bạn học tiếp trên web, iOS hoặc Android.",
+            "Tiếp tục ôn tập trên thiết bị di động mà không cần kết nối internet. Các thay đổi được đồng bộ tự động.",
         },
         {
           title: "Nhập, xuất và sở hữu dữ liệu của bạn",
@@ -75,6 +119,14 @@ export const HOME_PAGE_CONTENT: PageContent = {
             "Dùng ứng dụng đã được lưu trữ sẵn miễn phí, xem mã nguồn mở, hoặc tự chạy trên hạ tầng của bạn.",
         },
       ],
+    },
+    {
+      type: "review_cta",
+      titleLines: [
+        "Để Nibomo lên lịch ôn tập cho bạn.",
+        "Bạn tập trung vào việc học.",
+      ],
+      description: "Biến nội dung đang học thành thẻ ghi nhớ, ôn tập đúng lúc và nhớ được nhiều hơn.",
     },
   ],
   body: "",

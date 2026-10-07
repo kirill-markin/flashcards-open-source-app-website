@@ -38,7 +38,7 @@ export const Footer: React.FC<FooterProps> = ({
   routeLocales,
   routePathname,
 }) => {
-  const isHomeDesign = locale === "en" && routePathname === "/";
+  const isHomeDesign = routePathname === "/";
   const year = new Date().getFullYear();
   const platforms = getHumanPlatforms(getAppUrl(), locale);
   const storeQrCodes = readGeneratedStoreQrCodes(process.cwd());

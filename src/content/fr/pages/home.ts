@@ -36,7 +36,51 @@ export const HOME_PAGE_CONTENT: PageContent = {
       ],
     },
     {
-      type: "public_activity",
+      type: "app_walkthrough",
+      title: "Comment fonctionne Nibomo",
+      items: [
+        {
+          label: "01 · CARTES AVEC L’IA",
+          titleLines: [
+            "Dites à l’IA ce que vous voulez apprendre.",
+          ],
+          description: "Décrivez un sujet ou joignez vos notes. L’IA vous aide à transformer votre contenu en cartes avec des questions et des réponses.",
+          linkLabel: "Créer des cartes",
+          imagePath: "/home/ai-flashcards.png",
+          imageAlt: "Chat IA de Nibomo créant des cartes à partir d’un sujet ou de notes jointes",
+        },
+        {
+          label: "02 · COMMENCEZ À APPRENDRE",
+          titleLines: [
+            "Une question à la fois.",
+          ],
+          description: "Ouvrez une carte et essayez de vous rappeler la réponse avant de l’afficher. Apprenez à votre rythme, une carte à la fois.",
+          linkLabel: "Commencer à apprendre",
+          imagePath: "/home/start-learning.png",
+          imageAlt: "Carte de révision Nibomo avec un bouton pour afficher la réponse",
+        },
+        {
+          label: "03 · RÉVISIONS INTELLIGENTES",
+          titleLines: [
+            "Vérifiez votre réponse.",
+            "Évaluez votre mémorisation.",
+          ],
+          description: "Affichez la réponse et indiquez avec quelle facilité vous vous en êtes souvenu. Nibomo vous repropose les cartes difficiles plus tôt et les cartes familières plus tard.",
+          linkLabel: "Réviser les cartes",
+          imagePath: "/home/smart-reviews.png",
+          imageAlt: "Carte Nibomo affichant la réponse et les options d’évaluation de la mémorisation",
+        },
+        {
+          label: "04 · VOTRE PROGRESSION",
+          titleLines: [
+            "Faites de l’apprentissage une habitude.",
+          ],
+          description: "Consultez vos jours d’étude dans le calendrier et poursuivez votre série. Chaque révision vous rapproche de votre objectif.",
+          linkLabel: "Voir votre progression",
+          imagePath: "/home/your-progress.png",
+          imageAlt: "Écran de progression Nibomo avec le calendrier des jours d’étude consécutifs et le classement",
+        }
+      ],
     },
     {
       type: "feature_list",
@@ -57,7 +101,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
         {
           title: "Étude hors ligne avec synchronisation automatique",
           description:
-            "Continuez à réviser sur votre mobile sans connexion internet. Les modifications se synchronisent automatiquement pour reprendre sur le web, iOS ou Android.",
+            "Continuez à réviser sur votre appareil mobile sans connexion Internet. Les modifications se synchronisent automatiquement.",
         },
         {
           title: "Importez, exportez et gardez vos données",
@@ -75,6 +119,14 @@ export const HOME_PAGE_CONTENT: PageContent = {
             "Utilisez gratuitement l'application hébergée, consultez le code open source ou exécutez-la sur votre propre infrastructure.",
         },
       ],
+    },
+    {
+      type: "review_cta",
+      titleLines: [
+        "Laissez Nibomo planifier vos révisions.",
+        "Concentrez-vous sur l’apprentissage.",
+      ],
+      description: "Transformez ce que vous apprenez en cartes, révisez au bon moment et retenez davantage.",
     },
   ],
   body: "",
