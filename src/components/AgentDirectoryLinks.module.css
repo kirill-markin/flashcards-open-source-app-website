@@ -98,7 +98,7 @@ a.directory:hover,
 }
 
 .homeDesign .logo {
-  filter: none;
+  filter: brightness(0) invert(1);
   opacity: 1;
 }
 
