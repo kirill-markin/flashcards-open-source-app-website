@@ -2,7 +2,7 @@ import { Fragment } from "react";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { BlogCta, BlogStartSideCta } from "@/components/BlogCta";
-import { Breadcrumbs } from "@/components/Breadcrumbs";
+import { BreadcrumbStructuredData } from "@/components/BreadcrumbStructuredData";
 import { SiteFrame } from "@/components/SiteFrame";
 import { TrackedOutboundLink } from "@/components/TrackedOutboundLink";
 import { getArticleHtmlSegments } from "@/lib/content/getArticleHtmlSegments";
@@ -101,12 +101,9 @@ export async function BlogPostPageView({
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: serializeStructuredData(articleSchema) }}
         />
-        <div className={styles.startCtaRail}>
-          <BlogStartSideCta locale={locale} />
-        </div>
         <div className={styles.articlePanel}>
           <header className={styles.intro}>
-            <Breadcrumbs
+            <BreadcrumbStructuredData
               items={[
                 {
                   label: uiCopy.blog.breadcrumbLabel,
@@ -119,6 +116,7 @@ export async function BlogPostPageView({
               ]}
               locale={locale}
             />
+            <h1 className={styles.title}>{post.title}</h1>
             <div className={styles.meta} aria-label="Article metadata">
               <time className={styles.date} dateTime={post.date}>
                 {post.date}
@@ -135,7 +133,6 @@ export async function BlogPostPageView({
                 />
               </p>
             </div>
-            <h1 className={styles.title}>{post.title}</h1>
           </header>
           <section className={styles.contentPanel}>
             {chunks.map((chunkHtml, index) => (
@@ -151,6 +148,9 @@ export async function BlogPostPageView({
             ))}
             <BlogCta locale={locale} placement="article_end" />
           </section>
+        </div>
+        <div className={styles.startCtaRail}>
+          <BlogStartSideCta locale={locale} />
         </div>
         {recommendedPosts.length > 0 ? (
           <section className={styles.relatedPanel}>

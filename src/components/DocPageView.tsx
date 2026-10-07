@@ -1,4 +1,4 @@
-import { Breadcrumbs } from "@/components/Breadcrumbs";
+import { BreadcrumbStructuredData } from "@/components/BreadcrumbStructuredData";
 import { SiteFrame } from "@/components/SiteFrame";
 import { renderMarkdownToHtml } from "@/lib/content/renderMarkdownToHtml";
 import { readDoc } from "@/lib/docs";
@@ -86,7 +86,7 @@ export async function DocPageView({
         />
         <div className={styles.articlePanel}>
           <header className={styles.intro}>
-            <Breadcrumbs
+            <BreadcrumbStructuredData
               items={[
                 {
                   label: uiCopy.docs.breadcrumbLabel,
