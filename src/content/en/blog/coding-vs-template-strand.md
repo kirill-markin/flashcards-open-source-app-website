@@ -166,6 +166,8 @@ Record the failed step after a missed question. These cards target different err
 | Coding DNA is 5′–TCGACATG–3′. Write the unprocessed RNA segment 5′→3′. | 5′–UCGACAUG–3′. Keep the order and replace T with U; coding DNA matches RNA rather than pairing with it. |
 | A transcribed DNA segment is 5′–ATGCCATC–3′. Is that enough to identify its RNA sequence? | No. You need its coding/template role or transcription information that determines it. ATG alone doesn't supply the missing role. |
 
+For more practice, try [Coding vs Template Strand Flashcards: Transcription Practice](/catalog/packages/coding-template-strand-transcription-flashcards/). Convert labeled coding and template DNA segments into initial RNA before processing, choose the template from polymerase direction, and repair common strand or orientation mistakes.
+
 Keep roles and ends on conversion-card fronts, and put the answer plus a short reason on the back. Try fresh sequences and mix input types so you must choose the operation each time. The guide to [turning practice questions into flashcards](/blog/how-to-turn-practice-questions-into-flashcards/) covers this workflow; [making better flashcards](/blog/how-to-make-better-flashcards/) helps keep prompts focused.
 
 Above your next answer space, write **strand role → input ends → RNA 5′→3′**. Make the copying, complementing, or reversing decision before starting the sequence.
