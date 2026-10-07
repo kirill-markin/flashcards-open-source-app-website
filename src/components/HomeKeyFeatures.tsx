@@ -1,5 +1,4 @@
 import type { FeatureListSection } from "@/lib/content/types";
-import { homeDesignFont } from "@/lib/homeDesignFont";
 import styles from "./HomeKeyFeatures.module.css";
 
 type FeatureIconName = "reviews" | "cards" | "offline" | "data" | "agents" | "server";
@@ -82,7 +81,7 @@ export function HomeKeyFeatures({
 }: { readonly section: FeatureListSection }): React.JSX.Element {
   return (
     <section
-      className={`${styles.section} ${homeDesignFont.className}`}
+      className={styles.section}
       aria-labelledby="home-key-features-title"
       id="key-features"
     >
