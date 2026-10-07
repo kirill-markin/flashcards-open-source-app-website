@@ -37,6 +37,7 @@
   --radius-pill: 999px;
   --content-width: 1240px;
   --ui-font-family: var(--font-inter), sans-serif;
+  --page-title-font-size: 40px;
   --reading-width: 728px;
   --reading-font-size: 20px;
   --reading-line-height: 1.6;
@@ -105,8 +106,18 @@ main {
   min-height: calc(100vh - 240px);
 }
 
+main h1 {
+  font-family: var(--ui-font-family);
+  font-size: var(--page-title-font-size);
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0;
+  overflow-wrap: anywhere;
+}
+
 @media (max-width: 768px) {
   :root {
+    --page-title-font-size: 32px;
     --reading-font-size: 18px;
   }
 }

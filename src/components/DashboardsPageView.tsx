@@ -31,8 +31,8 @@ export function DashboardsPageView({
       <div className={styles.page}>
         <header className={styles.header}>
           <div className={styles.intro}>
-            <p className={styles.eyebrow}>{activityCopy.eyebrow}</p>
             <h1 className={styles.title}>{activityCopy.title}</h1>
+            <p className={styles.eyebrow}>{activityCopy.eyebrow}</p>
             <p className={styles.description}>{activityCopy.description}</p>
           </div>
           <TrackedOutboundLink

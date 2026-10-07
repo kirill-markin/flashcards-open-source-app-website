@@ -29,11 +29,11 @@ export function HomeHero({
       className={styles.hero}
     >
       <div className={styles.main}>
-        <p className={styles.eyebrow}>{section.eyebrow}</p>
-        <div className={styles.message}>
+        <div>
           <h1 id="home-hero-title" className={styles.title}>
             {section.titleLines.map((line) => <span key={line}>{line}</span>)}
           </h1>
+          <p className={styles.eyebrow}>{section.eyebrow}</p>
           <p className={styles.description}>{section.subtitle}</p>
         </div>
         <div className={styles.cta}>

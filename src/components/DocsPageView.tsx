@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Breadcrumbs } from "@/components/Breadcrumbs";
+import { BreadcrumbStructuredData } from "@/components/BreadcrumbStructuredData";
 import { SiteFrame } from "@/components/SiteFrame";
 import { DOC_SLUGS } from "@/data/docs";
 import { getDocs } from "@/lib/docs";
@@ -23,7 +23,7 @@ export function DocsPageView({
       <div className={styles.container}>
         <div className={styles.pagePanel}>
           <header className={styles.intro}>
-            <Breadcrumbs
+            <BreadcrumbStructuredData
               items={[
                 {
                   label: uiCopy.docs.breadcrumbLabel,

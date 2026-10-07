@@ -16,10 +16,7 @@
 }
 
 .title {
-  margin: 0 0 10px;
-  font-size: clamp(2rem, 3.6vw, 3rem);
-  letter-spacing: -0.04em;
-  line-height: 1;
+  margin: 0;
 }
 
 .subtitle {

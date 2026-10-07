@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Breadcrumbs } from "@/components/Breadcrumbs";
+import { BreadcrumbStructuredData } from "@/components/BreadcrumbStructuredData";
 import { SiteFrame } from "@/components/SiteFrame";
 import { listBlogPosts } from "@/lib/blog";
 import type { AppLocale } from "@/lib/i18n";
@@ -22,7 +22,7 @@ export function BlogPageView({
       <div className={styles.container}>
         <div className={styles.pagePanel}>
           <header className={styles.intro}>
-            <Breadcrumbs
+            <BreadcrumbStructuredData
               items={[
                 {
                   label: uiCopy.blog.breadcrumbLabel,
