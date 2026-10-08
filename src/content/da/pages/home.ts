@@ -46,7 +46,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "Beskriv et emne, eller vedhæft dine noter. AI hjælper dig med at omdanne materialet til læringskort med spørgsmål og svar.",
           linkLabel: "Opret læringskort",
-          imagePath: "/home/ai-flashcards.png",
+          imagePath: "/home/ai-flashcards-da.png",
           imageAlt: "Nibomos AI-chat opretter læringskort fra et emne eller vedhæftede noter",
         },
         {
@@ -56,7 +56,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "Åbn et læringskort, og prøv at huske svaret, før du viser det. Lær i dit eget tempo, ét kort ad gangen.",
           linkLabel: "Begynd at lære",
-          imagePath: "/home/start-learning.png",
+          imagePath: "/home/start-learning-da.png",
           imageAlt: "Et repetitionskort i Nibomo med en knap til at vise svaret",
         },
         {
@@ -67,7 +67,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "Vis svaret, og angiv, hvor let du huskede det. Nibomo viser svære kort igen tidligere og velkendte kort senere.",
           linkLabel: "Repeter læringskort",
-          imagePath: "/home/smart-reviews.png",
+          imagePath: "/home/smart-reviews-da.png",
           imageAlt: "Et Nibomo-kort med vist svar og muligheder for at vurdere hukommelsen",
         },
         {
@@ -77,7 +77,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "Se dine studiedage i kalenderen, og hold din stime i gang. Hver repetition er endnu et skridt mod dit mål.",
           linkLabel: "Se dine fremskridt",
-          imagePath: "/home/your-progress.png",
+          imagePath: "/home/your-progress-da.png",
           imageAlt: "Nibomos fremskridtsskærm med kalender over sammenhængende studiedage og rangliste",
         }
       ],

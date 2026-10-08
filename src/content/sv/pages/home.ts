@@ -46,7 +46,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "Beskriv ett ämne eller bifoga dina anteckningar. AI hjälper dig att omvandla materialet till kunskapskort med frågor och svar.",
           linkLabel: "Skapa kunskapskort",
-          imagePath: "/home/ai-flashcards.png",
+          imagePath: "/home/ai-flashcards-sv.png",
           imageAlt: "Nibomos AI-chatt skapar kunskapskort från ett ämne eller bifogade anteckningar",
         },
         {
@@ -56,7 +56,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "Öppna ett kunskapskort och försök minnas svaret innan du visar det. Lär dig i din egen takt, ett kort i taget.",
           linkLabel: "Börja lära dig",
-          imagePath: "/home/start-learning.png",
+          imagePath: "/home/start-learning-sv.png",
           imageAlt: "Ett repetitionskort i Nibomo med en knapp för att visa svaret",
         },
         {
@@ -67,7 +67,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "Visa svaret och ange hur lätt du kom ihåg det. Nibomo visar svåra kort igen tidigare och välbekanta kort senare.",
           linkLabel: "Repetera kunskapskort",
-          imagePath: "/home/smart-reviews.png",
+          imagePath: "/home/smart-reviews-sv.png",
           imageAlt: "Ett Nibomo-kort med synligt svar och alternativ för att bedöma minnet",
         },
         {
@@ -77,7 +77,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "Se dina studiedagar i kalendern och håll din svit igång. Varje repetition är ännu ett steg mot ditt mål.",
           linkLabel: "Se dina framsteg",
-          imagePath: "/home/your-progress.png",
+          imagePath: "/home/your-progress-sv.png",
           imageAlt: "Nibomos framstegsvy med kalender över sammanhängande studiedagar och topplista",
         }
       ],

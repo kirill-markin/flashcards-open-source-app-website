@@ -48,7 +48,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "Опишіть тему або прикріпіть свої нотатки. ШІ допоможе перетворити матеріал на картки із запитаннями та відповідями.",
           linkLabel: "Створити картки",
-          imagePath: "/home/ai-flashcards.png",
+          imagePath: "/home/ai-flashcards-uk.png",
           imageAlt: "Чат зі ШІ в Nibomo створює картки за темою або прикріпленими нотатками",
         },
         {
@@ -58,7 +58,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "Відкрийте картку й спробуйте пригадати відповідь, перш ніж показати її. Навчайтеся у своєму темпі, по одній картці за раз.",
           linkLabel: "Почати навчання",
-          imagePath: "/home/start-learning.png",
+          imagePath: "/home/start-learning-uk.png",
           imageAlt: "Картка для повторення в Nibomo з кнопкою показу відповіді",
         },
         {
@@ -69,7 +69,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "Покажіть відповідь і позначте, наскільки легко ви її пригадали. Nibomo повертає складні картки раніше, а знайомі — пізніше.",
           linkLabel: "Повторити картки",
-          imagePath: "/home/smart-reviews.png",
+          imagePath: "/home/smart-reviews-uk.png",
           imageAlt: "Картка Nibomo з відкритою відповіддю та кнопками оцінки запам’ятовування",
         },
         {
@@ -79,7 +79,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "Переглядайте дні занять у календарі та підтримуйте серію. Кожне повторення — ще один крок до вашої мети.",
           linkLabel: "Переглянути прогрес",
-          imagePath: "/home/your-progress.png",
+          imagePath: "/home/your-progress-uk.png",
           imageAlt: "Екран прогресу Nibomo з календарем серії занять і таблицею рейтингу",
         }
       ],

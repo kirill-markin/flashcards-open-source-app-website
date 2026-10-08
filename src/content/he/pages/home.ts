@@ -46,7 +46,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "תארו נושא או צרפו את ההערות שלכם. הבינה המלאכותית עוזרת להפוך את החומר לכרטיסיות עם שאלות ותשובות.",
           linkLabel: "יצירת כרטיסיות",
-          imagePath: "/home/ai-flashcards.png",
+          imagePath: "/home/ai-flashcards-he.png",
           imageAlt: "צ’אט הבינה המלאכותית של Nibomo יוצר כרטיסיות מנושא או מהערות מצורפות",
         },
         {
@@ -56,7 +56,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "פתחו כרטיסייה ונסו להיזכר בתשובה לפני שתחשפו אותה. למדו בקצב שלכם, כרטיסייה אחת בכל פעם.",
           linkLabel: "התחלת הלמידה",
-          imagePath: "/home/start-learning.png",
+          imagePath: "/home/start-learning-he.png",
           imageAlt: "כרטיסיית חזרה ב-Nibomo עם כפתור להצגת התשובה",
         },
         {
@@ -67,7 +67,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "חשפו את התשובה וסמנו באיזו קלות נזכרתם בה. Nibomo מציג שוב כרטיסיות קשות מוקדם יותר וכרטיסיות מוכרות מאוחר יותר.",
           linkLabel: "חזרה על כרטיסיות",
-          imagePath: "/home/smart-reviews.png",
+          imagePath: "/home/smart-reviews-he.png",
           imageAlt: "כרטיסיית Nibomo עם תשובה גלויה ואפשרויות לדירוג הזכירה",
         },
         {
@@ -77,7 +77,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "ראו את ימי הלמידה בלוח השנה ושמרו על הרצף. כל חזרה היא עוד צעד בדרך למטרה שלכם.",
           linkLabel: "צפייה בהתקדמות",
-          imagePath: "/home/your-progress.png",
+          imagePath: "/home/your-progress-he.png",
           imageAlt: "מסך ההתקדמות של Nibomo עם לוח שנה של רצף הלמידה וטבלת דירוג",
         }
       ],

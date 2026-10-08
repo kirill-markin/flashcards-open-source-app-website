@@ -46,7 +46,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "موضوعی را توضیح دهید یا یادداشت‌هایتان را پیوست کنید. هوش مصنوعی کمک می‌کند مطالب شما به فلش‌کارت‌هایی با پرسش و پاسخ تبدیل شوند.",
           linkLabel: "ساخت فلش‌کارت",
-          imagePath: "/home/ai-flashcards.png",
+          imagePath: "/home/ai-flashcards-fa.png",
           imageAlt: "گفت‌وگوی هوش مصنوعی Nibomo که از موضوع یا یادداشت‌های پیوست‌شده فلش‌کارت می‌سازد",
         },
         {
@@ -56,7 +56,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "فلش‌کارتی را باز کنید و پیش از نمایش پاسخ، سعی کنید آن را به یاد بیاورید. با سرعت خودتان، هر بار یک کارت یاد بگیرید.",
           linkLabel: "شروع یادگیری",
-          imagePath: "/home/start-learning.png",
+          imagePath: "/home/start-learning-fa.png",
           imageAlt: "فلش‌کارت مرور Nibomo با دکمه نمایش پاسخ",
         },
         {
@@ -67,7 +67,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "پاسخ را نمایش دهید و مشخص کنید چقدر آسان آن را به یاد آوردید. Nibomo کارت‌های دشوار را زودتر و کارت‌های آشنا را دیرتر دوباره نشان می‌دهد.",
           linkLabel: "مرور فلش‌کارت‌ها",
-          imagePath: "/home/smart-reviews.png",
+          imagePath: "/home/smart-reviews-fa.png",
           imageAlt: "فلش‌کارت Nibomo با پاسخ آشکار و گزینه‌های ارزیابی یادآوری",
         },
         {
@@ -77,7 +77,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "روزهای مطالعه را در تقویم ببینید و زنجیره روزهای مطالعه‌تان را ادامه دهید. هر مرور گامی دیگر به سوی هدفتان است.",
           linkLabel: "مشاهده پیشرفت",
-          imagePath: "/home/your-progress.png",
+          imagePath: "/home/your-progress-fa.png",
           imageAlt: "صفحه پیشرفت Nibomo با تقویم روزهای مطالعه پیوسته و جدول رتبه‌بندی",
         }
       ],

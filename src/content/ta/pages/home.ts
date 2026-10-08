@@ -46,7 +46,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "ஒரு தலைப்பை விவரியுங்கள் அல்லது உங்கள் குறிப்புகளை இணைக்கவும். உங்கள் பாடப்பொருளைக் கேள்வி மற்றும் பதில்களுடன் கூடிய ஃபிளாஷ்கார்டுகளாக மாற்ற AI உதவுகிறது.",
           linkLabel: "ஃபிளாஷ்கார்டுகளை உருவாக்குங்கள்",
-          imagePath: "/home/ai-flashcards.png",
+          imagePath: "/home/ai-flashcards-ta.png",
           imageAlt: "தலைப்பு அல்லது இணைக்கப்பட்ட குறிப்புகளிலிருந்து ஃபிளாஷ்கார்டுகளை உருவாக்கும் Nibomo AI அரட்டை",
         },
         {
@@ -56,7 +56,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "ஃபிளாஷ்கார்டைத் திறந்து, பதிலைப் பார்ப்பதற்கு முன் அதை நினைவுகூர முயலுங்கள். உங்கள் வேகத்தில், ஒரு நேரத்தில் ஒரு அட்டையாகக் கற்றுக்கொள்ளுங்கள்.",
           linkLabel: "கற்கத் தொடங்குங்கள்",
-          imagePath: "/home/start-learning.png",
+          imagePath: "/home/start-learning-ta.png",
           imageAlt: "பதிலைக் காட்டும் பொத்தானுடன் கூடிய Nibomo மீள்பார்வை ஃபிளாஷ்கார்டு",
         },
         {
@@ -67,7 +67,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "பதிலைப் பார்த்து, எவ்வளவு எளிதாக நினைவுக்கு வந்தது எனக் குறிப்பிடுங்கள். கடினமான அட்டைகளை Nibomo விரைவிலும் பழக்கமான அட்டைகளைத் தாமதமாகவும் மீண்டும் காட்டும்.",
           linkLabel: "ஃபிளாஷ்கார்டுகளை மீள்பாருங்கள்",
-          imagePath: "/home/smart-reviews.png",
+          imagePath: "/home/smart-reviews-ta.png",
           imageAlt: "பதிலும் நினைவுகூரலை மதிப்பிடும் விருப்பங்களும் உள்ள Nibomo ஃபிளாஷ்கார்டு",
         },
         {
@@ -77,7 +77,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "நாட்காட்டியில் படித்த நாட்களைப் பார்த்து, தொடர்ச்சியைத் தக்கவையுங்கள். ஒவ்வொரு மீள்பார்வையும் உங்கள் இலக்கை நோக்கிய மற்றொரு படி.",
           linkLabel: "உங்கள் முன்னேற்றத்தைப் பாருங்கள்",
-          imagePath: "/home/your-progress.png",
+          imagePath: "/home/your-progress-ta.png",
           imageAlt: "தொடர்ச்சியான படிப்பு நாட்களின் நாட்காட்டி மற்றும் தரவரிசையுடன் கூடிய Nibomo முன்னேற்றத் திரை",
         }
       ],

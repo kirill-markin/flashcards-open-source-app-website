@@ -46,7 +46,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "Aprakstiet tēmu vai pievienojiet savas piezīmes. MI palīdz pārvērst materiālus mācību kartītēs ar jautājumiem un atbildēm.",
           linkLabel: "Izveidot kartītes",
-          imagePath: "/home/ai-flashcards.png",
+          imagePath: "/home/ai-flashcards-lv.png",
           imageAlt: "Nibomo MI saruna veido mācību kartītes no tēmas vai pievienotām piezīmēm",
         },
         {
@@ -56,7 +56,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "Atveriet kartīti un mēģiniet atcerēties atbildi, pirms to parādāt. Mācieties savā tempā, pa vienai kartītei.",
           linkLabel: "Sākt mācīties",
-          imagePath: "/home/start-learning.png",
+          imagePath: "/home/start-learning-lv.png",
           imageAlt: "Nibomo atkārtošanas kartīte ar atbildes parādīšanas pogu",
         },
         {
@@ -67,7 +67,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "Parādiet atbildi un norādiet, cik viegli to atcerējāties. Nibomo grūtās kartītes parāda atkārtoti agrāk, bet pazīstamās vēlāk.",
           linkLabel: "Atkārtot kartītes",
-          imagePath: "/home/smart-reviews.png",
+          imagePath: "/home/smart-reviews-lv.png",
           imageAlt: "Nibomo kartīte ar parādītu atbildi un atcerēšanās novērtēšanas iespējām",
         },
         {
@@ -77,7 +77,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "Skatiet mācību dienas kalendārā un turpiniet savu dienu virkni. Katra atkārtošana ir vēl viens solis pretī mērķim.",
           linkLabel: "Skatīt progresu",
-          imagePath: "/home/your-progress.png",
+          imagePath: "/home/your-progress-lv.png",
           imageAlt: "Nibomo progresa ekrāns ar secīgu mācību dienu kalendāru un reitingu tabulu",
         }
       ],

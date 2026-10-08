@@ -46,7 +46,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "Beschreibe ein Thema oder füge deine Notizen hinzu. Die KI hilft dir, dein Material in Lernkarten mit Fragen und Antworten umzuwandeln.",
           linkLabel: "Lernkarten erstellen",
-          imagePath: "/home/ai-flashcards.png",
+          imagePath: "/home/ai-flashcards-de.png",
           imageAlt: "Nibomo-KI-Chat, der Lernkarten aus einem Thema oder angehängten Notizen erstellt",
         },
         {
@@ -56,7 +56,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "Öffne eine Lernkarte und versuche, dich an die Antwort zu erinnern, bevor du sie aufdeckst. Lerne in deinem Tempo, Karte für Karte.",
           linkLabel: "Mit dem Lernen beginnen",
-          imagePath: "/home/start-learning.png",
+          imagePath: "/home/start-learning-de.png",
           imageAlt: "Eine Nibomo-Lernkarte mit einer Schaltfläche zum Anzeigen der Antwort",
         },
         {
@@ -67,7 +67,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "Decke die Antwort auf und gib an, wie leicht du dich erinnert hast. Nibomo zeigt schwierige Karten früher und vertraute Karten später erneut.",
           linkLabel: "Lernkarten wiederholen",
-          imagePath: "/home/smart-reviews.png",
+          imagePath: "/home/smart-reviews-de.png",
           imageAlt: "Aufgedeckte Nibomo-Lernkarte mit Bewertungen für die Erinnerung",
         },
         {
@@ -77,7 +77,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "Sieh deine Lerntage im Kalender und halte deine Lernserie aufrecht. Jede Wiederholung bringt dich deinem Ziel einen Schritt näher.",
           linkLabel: "Fortschritt ansehen",
-          imagePath: "/home/your-progress.png",
+          imagePath: "/home/your-progress-de.png",
           imageAlt: "Nibomo-Fortschrittsansicht mit Lernserien-Kalender und Rangliste",
         }
       ],

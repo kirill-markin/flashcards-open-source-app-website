@@ -47,7 +47,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "Bir konuyu anlat veya notlarını ekle. Yapay zekâ, materyalini sorular ve cevaplar içeren bilgi kartlarına dönüştürmene yardımcı olur.",
           linkLabel: "Bilgi kartları oluştur",
-          imagePath: "/home/ai-flashcards.png",
+          imagePath: "/home/ai-flashcards-tr.png",
           imageAlt: "Bir konudan veya eklenen notlardan bilgi kartları oluşturan Nibomo yapay zekâ sohbeti",
         },
         {
@@ -57,7 +57,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "Bir bilgi kartını aç ve cevabı göstermeden önce hatırlamaya çalış. Her seferinde bir kartla, kendi hızında öğren.",
           linkLabel: "Öğrenmeye başla",
-          imagePath: "/home/start-learning.png",
+          imagePath: "/home/start-learning-tr.png",
           imageAlt: "Cevabı gösterme düğmesi olan Nibomo tekrar kartı",
         },
         {
@@ -68,7 +68,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "Cevabı göster ve ne kadar kolay hatırladığını belirt. Nibomo zor kartları daha erken, bildiğin kartları ise daha geç tekrar gösterir.",
           linkLabel: "Bilgi kartlarını tekrar et",
-          imagePath: "/home/smart-reviews.png",
+          imagePath: "/home/smart-reviews-tr.png",
           imageAlt: "Cevabı açık ve hatırlama değerlendirme seçenekleri olan Nibomo bilgi kartı",
         },
         {
@@ -78,7 +78,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "Çalıştığın günleri takvimde gör ve çalışma serini sürdür. Her tekrar, hedefine doğru atılan yeni bir adımdır.",
           linkLabel: "İlerlemeni gör",
-          imagePath: "/home/your-progress.png",
+          imagePath: "/home/your-progress-tr.png",
           imageAlt: "Çalışma serisi takvimi ve sıralama tablosu içeren Nibomo ilerleme ekranı",
         }
       ],

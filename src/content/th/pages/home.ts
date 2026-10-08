@@ -46,7 +46,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "อธิบายหัวข้อหรือแนบโน้ตของคุณ AI ช่วยเปลี่ยนเนื้อหาเป็นแฟลชการ์ดที่มีคำถามและคำตอบ",
           linkLabel: "สร้างแฟลชการ์ด",
-          imagePath: "/home/ai-flashcards.png",
+          imagePath: "/home/ai-flashcards-th.png",
           imageAlt: "แชต AI ของ Nibomo สร้างแฟลชการ์ดจากหัวข้อหรือโน้ตที่แนบมา",
         },
         {
@@ -56,7 +56,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "เปิดแฟลชการ์ดแล้วลองนึกคำตอบก่อนเฉลย เรียนตามจังหวะของคุณเองทีละใบ",
           linkLabel: "เริ่มเรียนรู้",
-          imagePath: "/home/start-learning.png",
+          imagePath: "/home/start-learning-th.png",
           imageAlt: "แฟลชการ์ดทบทวนของ Nibomo พร้อมปุ่มแสดงคำตอบ",
         },
         {
@@ -67,7 +67,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "ดูเฉลยแล้วระบุว่าคุณนึกคำตอบได้ง่ายเพียงใด Nibomo จะนำการ์ดที่ยากกลับมาเร็วกว่า และการ์ดที่คุ้นเคยกลับมาช้ากว่า",
           linkLabel: "ทบทวนแฟลชการ์ด",
-          imagePath: "/home/smart-reviews.png",
+          imagePath: "/home/smart-reviews-th.png",
           imageAlt: "แฟลชการ์ด Nibomo ที่แสดงคำตอบและตัวเลือกประเมินการจำ",
         },
         {
@@ -77,7 +77,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "ดูวันที่เรียนบนปฏิทินและรักษาสถิติการเรียนต่อเนื่อง การทบทวนแต่ละครั้งพาคุณเข้าใกล้เป้าหมายอีกหนึ่งก้าว",
           linkLabel: "ดูความก้าวหน้า",
-          imagePath: "/home/your-progress.png",
+          imagePath: "/home/your-progress-th.png",
           imageAlt: "หน้าความก้าวหน้าของ Nibomo พร้อมปฏิทินการเรียนต่อเนื่องและตารางอันดับ",
         }
       ],
