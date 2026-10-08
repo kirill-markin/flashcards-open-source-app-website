@@ -15,7 +15,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
         "Mundu meira.",
       ],
       subtitle:
-        "Ókeypis námskort í opnum hugbúnaði sem tímasetja hverja upprifjun á réttum tíma, virka án nettengingar og samstillast milli vefsins, iOS og Android. Notaðu gervigreind þegar þú vilt hjálp við að búa til eða bæta spjöld. Nibomo hét áður Flashcards Open Source App.",
+        "Ókeypis námskort sem tímasetja hverja upprifjun á réttum tíma, virka án nettengingar og samstillast milli vefsins, iOS og Android. Notaðu gervigreind þegar þú vilt hjálp við að búa til eða bæta spjöld.",
       trustLine: "Ekkert kreditkort. Engar auglýsingar. Engin niðurtalning á prufutíma.",
       primaryLink: {
         label: "Byrja núna",

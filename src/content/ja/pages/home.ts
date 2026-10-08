@@ -15,7 +15,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
         "もっと覚える。",
       ],
       subtitle:
-        "復習に最適なタイミングを知らせ、オフラインでも使え、Web・iOS・Android 間で同期できる、無料・オープンソースのフラッシュカードアプリです。フラッシュカードの作成や改善には、必要なときだけ AI を活用できます。Nibomo は以前 Flashcards Open Source App という名前でした。",
+        "復習に最適なタイミングを知らせ、オフラインでも使え、Web・iOS・Android 間で同期できる、無料のフラッシュカードアプリです。フラッシュカードの作成や改善には、必要なときだけ AI を活用できます。",
       trustLine:
         "クレジットカード不要。広告なし。トライアルのカウントダウンなし。",
       primaryLink: {

@@ -15,7 +15,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
         "Jäta rohkem meelde.",
       ],
       subtitle:
-        "Tasuta avatud lähtekoodiga õpikaardid, mis ajastavad iga kordamise õigeks hetkeks, töötavad võrguühenduseta ja sünkroonivad veebi, iOS-i ja Androidi vahel. Kasuta AI-d, kui tahad abi kaartide loomisel või parandamisel. Nibomo varasem nimi oli Flashcards Open Source App.",
+        "Tasuta õpikaardid, mis ajastavad iga kordamise õigeks hetkeks, töötavad võrguühenduseta ja sünkroonivad veebi, iOS-i ja Androidi vahel. Kasuta AI-d, kui tahad abi kaartide loomisel või parandamisel.",
       trustLine: "Krediitkaarti pole vaja. Reklaame pole. Prooviaja taimerit pole.",
       primaryLink: {
         label: "Alusta",

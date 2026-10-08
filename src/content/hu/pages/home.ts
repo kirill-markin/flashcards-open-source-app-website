@@ -15,7 +15,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
         "Jegyezz meg többet.",
       ],
       subtitle:
-        "Ingyenes, nyílt forráskódú tanulókártyák, amelyek minden ismétlést a megfelelő időre ütemeznek, offline is működnek, és szinkronizálnak a weben, iOS-en és Androidon. Használd az AI-t, ha segítség kell a kártyák elkészítéséhez vagy javításához. A Nibomo korábbi neve Flashcards Open Source App volt.",
+        "Ingyenes tanulókártyák, amelyek minden ismétlést a megfelelő időre ütemeznek, offline is működnek, és szinkronizálnak a weben, iOS-en és Androidon. Használd az AI-t, ha segítség kell a kártyák elkészítéséhez vagy javításához.",
       trustLine: "Nincs bankkártya. Nincsenek hirdetések. Nincs lejáró próbaidő.",
       primaryLink: {
         label: "Kezdés",

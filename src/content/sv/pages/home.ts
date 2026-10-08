@@ -15,7 +15,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
         "Kom ihåg mer.",
       ],
       subtitle:
-        "Gratis flashcards med öppen källkod som schemalägger varje repetition till rätt tidpunkt, fungerar offline och synkar mellan webben, iOS och Android. Använd AI när du vill ha hjälp att skapa eller förbättra kort. Nibomo hette tidigare Flashcards Open Source App.",
+        "Gratis flashcards som schemalägger varje repetition till rätt tidpunkt, fungerar offline och synkar mellan webben, iOS och Android. Använd AI när du vill ha hjälp att skapa eller förbättra kort.",
       trustLine: "Inget kreditkort. Inga annonser. Ingen provperiod som tickar ner.",
       primaryLink: {
         label: "Kom igång",

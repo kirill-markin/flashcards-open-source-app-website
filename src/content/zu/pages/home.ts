@@ -15,7 +15,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
         "Khumbula okwengeziwe.",
       ],
       subtitle:
-        "Amakhadi okufunda amahhala anomthombo ovulekile, ahlelela ukubuyekezwa ngakunye ngesikhathi esifanele, asebenza ngaphandle kwe-inthanethi futhi avumelaniswe kuwebhu, ku-iOS naku-Android. Sebenzisa i-AI lapho udinga usizo lokudala noma lokuthuthukisa amakhadi. I-Nibomo yayibizwa ngaphambilini ngokuthi yi-Flashcards Open Source App.",
+        "Amakhadi okufunda amahhala, ahlelela ukubuyekezwa ngakunye ngesikhathi esifanele, asebenza ngaphandle kwe-inthanethi futhi avumelaniswe kuwebhu, ku-iOS naku-Android. Sebenzisa i-AI lapho udinga usizo lokudala noma lokuthuthukisa amakhadi.",
       trustLine: "Alidingeki ikhadi lesikweletu. Azikho izikhangiso. Akukho ukubala kwesikhathi sokuzama.",
       primaryLink: {
         label: "Qala manje",
