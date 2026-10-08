@@ -137,6 +137,8 @@ A balanced subnetting block can look like this:
 
 If you keep forgetting that a `/26` advances in blocks of 64, that fact belongs on a card. If you understand the block size but lose track of boundaries under time pressure, more calculation is the repair.
 
+The [IPv4 subnetting practice deck](/catalog/packages/ipv4-subnetting-practice-flashcards/) offers focused boundary, host-range, capacity, and error-repair prompts as a general networking companion. Pair it with fresh subnet calculations and labs, and keep the current N10-009 objectives as your exam-scope check.
+
 ## Command cards should retrieve the tool before the syntax
 
 The objectives list software tools such as a protocol analyzer, `ping`, `traceroute` or `tracert`, `nslookup`, `tcpdump`, `dig`, `netstat`, `ip`, `ifconfig`, `ipconfig`, `arp`, and Nmap. They also list hardware tools and basic device commands such as `show route`, `show interface`, `show config`, `show arp`, and `show vlan`.
