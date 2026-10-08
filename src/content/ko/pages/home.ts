@@ -46,7 +46,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "주제를 설명하거나 노트를 첨부하세요. AI가 학습 자료를 질문과 답변이 있는 플래시카드로 만드는 데 도움을 줍니다.",
           linkLabel: "플래시카드 만들기",
-          imagePath: "/home/ai-flashcards.png",
+          imagePath: "/home/ai-flashcards-ko.png",
           imageAlt: "주제나 첨부한 노트로 플래시카드를 만드는 Nibomo AI 채팅",
         },
         {
@@ -56,7 +56,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "플래시카드를 열고 답을 보기 전에 먼저 떠올려 보세요. 한 번에 한 카드씩, 자신의 속도로 학습하세요.",
           linkLabel: "학습 시작하기",
-          imagePath: "/home/start-learning.png",
+          imagePath: "/home/start-learning-ko.png",
           imageAlt: "답을 보여 주는 버튼이 있는 Nibomo 복습 플래시카드",
         },
         {
@@ -67,7 +67,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "답을 확인하고 얼마나 쉽게 기억했는지 표시하세요. Nibomo는 어려운 카드를 더 빨리, 익숙한 카드를 더 나중에 다시 보여 줍니다.",
           linkLabel: "플래시카드 복습하기",
-          imagePath: "/home/smart-reviews.png",
+          imagePath: "/home/smart-reviews-ko.png",
           imageAlt: "답변과 기억 정도 평가 버튼이 표시된 Nibomo 플래시카드",
         },
         {
@@ -77,7 +77,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "달력에서 학습한 날짜를 확인하고 연속 학습을 이어 가세요. 복습할 때마다 목표에 한 걸음 더 가까워집니다.",
           linkLabel: "진도 확인하기",
-          imagePath: "/home/your-progress.png",
+          imagePath: "/home/your-progress-ko.png",
           imageAlt: "연속 학습 달력과 순위표가 있는 Nibomo 진도 화면",
         }
       ],

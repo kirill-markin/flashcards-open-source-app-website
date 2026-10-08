@@ -46,7 +46,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "描述一个主题或上传笔记。AI 帮你把学习材料转化为包含问题和答案的闪卡。",
           linkLabel: "创建闪卡",
-          imagePath: "/home/ai-flashcards.png",
+          imagePath: "/home/ai-flashcards-zh.png",
           imageAlt: "Nibomo AI 聊天根据主题或上传的笔记创建闪卡",
         },
         {
@@ -56,7 +56,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "打开闪卡，在查看答案前先尝试回忆。按自己的节奏学习，一次一张卡片。",
           linkLabel: "开始学习",
-          imagePath: "/home/start-learning.png",
+          imagePath: "/home/start-learning-zh.png",
           imageAlt: "带有显示答案按钮的 Nibomo 复习闪卡",
         },
         {
@@ -67,7 +67,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "查看答案，并选择回忆起来有多容易。Nibomo 会更早让你复习困难的卡片，更晚再次展示熟悉的卡片。",
           linkLabel: "复习闪卡",
-          imagePath: "/home/smart-reviews.png",
+          imagePath: "/home/smart-reviews-zh.png",
           imageAlt: "显示答案和回忆难易评价选项的 Nibomo 闪卡",
         },
         {
@@ -77,7 +77,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "在日历中查看学习日期，保持连续学习。每次复习都让你离目标更近一步。",
           linkLabel: "查看进度",
-          imagePath: "/home/your-progress.png",
+          imagePath: "/home/your-progress-zh.png",
           imageAlt: "Nibomo 进度页面，显示连续学习日历和排行榜",
         }
       ],

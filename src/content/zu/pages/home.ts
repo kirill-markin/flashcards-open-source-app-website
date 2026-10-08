@@ -46,7 +46,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "Chaza isihloko noma unamathisele amanothi akho. I-AI ikusiza ukuguqula izinto zakho zokufunda zibe amakhadi anemibuzo nezimpendulo.",
           linkLabel: "Dala amakhadi okufunda",
-          imagePath: "/home/ai-flashcards.png",
+          imagePath: "/home/ai-flashcards-zu.png",
           imageAlt: "Ingxoxo ye-AI ye-Nibomo edala amakhadi ngesihloko noma ngamanothi anamathiselwe",
         },
         {
@@ -56,7 +56,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "Vula ikhadi bese uzama ukukhumbula impendulo ngaphambi kokuyiveza. Funda ngejubane lakho, ikhadi elilodwa ngesikhathi.",
           linkLabel: "Qala ukufunda",
-          imagePath: "/home/start-learning.png",
+          imagePath: "/home/start-learning-zu.png",
           imageAlt: "Ikhadi lokubuyekeza le-Nibomo elinenkinobho yokuveza impendulo",
         },
         {
@@ -67,7 +67,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "Veza impendulo bese ubika ukuthi kube lula kangakanani ukuyikhumbula. I-Nibomo ibuyisa amakhadi anzima ngokushesha, ajwayelekile kamuva.",
           linkLabel: "Buyekeza amakhadi",
-          imagePath: "/home/smart-reviews.png",
+          imagePath: "/home/smart-reviews-zu.png",
           imageAlt: "Ikhadi le-Nibomo eliveza impendulo nezinketho zokulinganisa ukukhumbula",
         },
         {
@@ -77,7 +77,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "Bheka izinsuku zakho zokufunda ekhalendeni bese uqhubeka nokufunda izinsuku ezilandelanayo. Ukubuyekeza ngakunye kuyisinyathelo esengeziwe esiya enhlosweni yakho.",
           linkLabel: "Bheka inqubekela phambili",
-          imagePath: "/home/your-progress.png",
+          imagePath: "/home/your-progress-zu.png",
           imageAlt: "Isikrini senqubekela phambili se-Nibomo esinekhalenda lezinsuku zokufunda ezilandelanayo nohlu lwamazinga",
         }
       ],

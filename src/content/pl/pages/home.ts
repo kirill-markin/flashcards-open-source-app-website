@@ -46,7 +46,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "Opisz temat lub dołącz notatki. AI pomoże zamienić Twoje materiały w fiszki z pytaniami i odpowiedziami.",
           linkLabel: "Twórz fiszki",
-          imagePath: "/home/ai-flashcards.png",
+          imagePath: "/home/ai-flashcards-pl.png",
           imageAlt: "Czat AI w Nibomo tworzący fiszki z tematu lub załączonych notatek",
         },
         {
@@ -56,7 +56,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "Otwórz fiszkę i spróbuj przypomnieć sobie odpowiedź, zanim ją wyświetlisz. Ucz się w swoim tempie, po jednej fiszce.",
           linkLabel: "Zacznij naukę",
-          imagePath: "/home/start-learning.png",
+          imagePath: "/home/start-learning-pl.png",
           imageAlt: "Fiszka do powtórek w Nibomo z przyciskiem wyświetlania odpowiedzi",
         },
         {
@@ -67,7 +67,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "Wyświetl odpowiedź i zaznacz, jak łatwo udało Ci się ją przypomnieć. Nibomo pokazuje trudne fiszki wcześniej, a znajome później.",
           linkLabel: "Powtarzaj fiszki",
-          imagePath: "/home/smart-reviews.png",
+          imagePath: "/home/smart-reviews-pl.png",
           imageAlt: "Fiszka Nibomo z widoczną odpowiedzią i ocenami zapamiętania",
         },
         {
@@ -77,7 +77,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "Zobacz dni nauki w kalendarzu i utrzymuj serię. Każda powtórka to kolejny krok do Twojego celu.",
           linkLabel: "Zobacz postępy",
-          imagePath: "/home/your-progress.png",
+          imagePath: "/home/your-progress-pl.png",
           imageAlt: "Ekran postępów Nibomo z kalendarzem serii dni nauki i rankingiem",
         }
       ],

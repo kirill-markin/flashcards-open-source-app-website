@@ -46,7 +46,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "Opišite temu ili priložite svoje bilješke. AI pomaže pretvoriti vaš materijal u kartice za učenje s pitanjima i odgovorima.",
           linkLabel: "Izradite kartice",
-          imagePath: "/home/ai-flashcards.png",
+          imagePath: "/home/ai-flashcards-hr.png",
           imageAlt: "AI razgovor u Nibomu izrađuje kartice iz teme ili priloženih bilježaka",
         },
         {
@@ -56,7 +56,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "Otvorite karticu i pokušajte se prisjetiti odgovora prije nego što ga prikažete. Učite vlastitim tempom, jednu karticu odjednom.",
           linkLabel: "Počnite učiti",
-          imagePath: "/home/start-learning.png",
+          imagePath: "/home/start-learning-hr.png",
           imageAlt: "Kartica za ponavljanje u Nibomu s gumbom za prikaz odgovora",
         },
         {
@@ -67,7 +67,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "Prikažite odgovor i označite koliko ste ga se lako prisjetili. Nibomo teške kartice ponovno prikazuje ranije, a poznate kasnije.",
           linkLabel: "Ponovite kartice",
-          imagePath: "/home/smart-reviews.png",
+          imagePath: "/home/smart-reviews-hr.png",
           imageAlt: "Kartica Nibomo s prikazanim odgovorom i mogućnostima procjene prisjećanja",
         },
         {
@@ -77,7 +77,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "Pratite dane učenja u kalendaru i održavajte niz. Svako ponavljanje još je jedan korak prema vašem cilju.",
           linkLabel: "Pogledajte napredak",
-          imagePath: "/home/your-progress.png",
+          imagePath: "/home/your-progress-hr.png",
           imageAlt: "Prikaz napretka u Nibomu s kalendarom uzastopnih dana učenja i ljestvicom",
         }
       ],

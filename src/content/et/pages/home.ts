@@ -46,7 +46,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "Kirjelda teemat või lisa oma märkmed. Tehisintellekt aitab muuta materjali küsimuste ja vastustega õpikaartideks.",
           linkLabel: "Loo õpikaardid",
-          imagePath: "/home/ai-flashcards.png",
+          imagePath: "/home/ai-flashcards-et.png",
           imageAlt: "Nibomo tehisintellekti vestlus loob õpikaarte teemast või lisatud märkmetest",
         },
         {
@@ -56,7 +56,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "Ava õpikaart ja proovi vastust meenutada, enne kui seda näitad. Õpi omas tempos, üks kaart korraga.",
           linkLabel: "Alusta õppimist",
-          imagePath: "/home/start-learning.png",
+          imagePath: "/home/start-learning-et.png",
           imageAlt: "Nibomo kordamiskaart vastuse kuvamise nupuga",
         },
         {
@@ -67,7 +67,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "Näita vastust ja märgi, kui kergesti see meelde tuli. Nibomo näitab raskeid kaarte uuesti varem ja tuttavaid hiljem.",
           linkLabel: "Korda õpikaarte",
-          imagePath: "/home/smart-reviews.png",
+          imagePath: "/home/smart-reviews-et.png",
           imageAlt: "Nibomo õpikaart nähtava vastuse ja meenutamise hindamise valikutega",
         },
         {
@@ -77,7 +77,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "Vaata oma õppepäevi kalendris ja hoia järjestikuste õppepäevade seeriat. Iga kordamine on uus samm sinu eesmärgi poole.",
           linkLabel: "Vaata edusamme",
-          imagePath: "/home/your-progress.png",
+          imagePath: "/home/your-progress-et.png",
           imageAlt: "Nibomo edusammude vaade järjestikuste õppepäevade kalendri ja edetabeliga",
         }
       ],

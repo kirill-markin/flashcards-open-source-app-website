@@ -46,7 +46,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "Jelaskan topik atau lampirkan catatanmu. AI membantu mengubah materimu menjadi flashcard berisi pertanyaan dan jawaban.",
           linkLabel: "Buat flashcard",
-          imagePath: "/home/ai-flashcards.png",
+          imagePath: "/home/ai-flashcards-id.png",
           imageAlt: "Obrolan AI Nibomo yang membuat flashcard dari topik atau catatan terlampir",
         },
         {
@@ -56,7 +56,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "Buka flashcard dan coba ingat jawabannya sebelum menampilkannya. Belajar sesuai kecepatanmu, satu kartu setiap kali.",
           linkLabel: "Mulai belajar",
-          imagePath: "/home/start-learning.png",
+          imagePath: "/home/start-learning-id.png",
           imageAlt: "Flashcard ulasan Nibomo dengan tombol untuk menampilkan jawaban",
         },
         {
@@ -67,7 +67,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "Tampilkan jawaban dan tandai seberapa mudah kamu mengingatnya. Nibomo menampilkan kembali kartu sulit lebih cepat dan kartu yang sudah dikenal lebih lambat.",
           linkLabel: "Ulas flashcard",
-          imagePath: "/home/smart-reviews.png",
+          imagePath: "/home/smart-reviews-id.png",
           imageAlt: "Flashcard Nibomo dengan jawaban terbuka dan pilihan penilaian daya ingat",
         },
         {
@@ -77,7 +77,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "Lihat hari belajarmu di kalender dan pertahankan rangkaian hari belajarmu. Setiap ulasan membawamu selangkah lebih dekat ke tujuan.",
           linkLabel: "Lihat kemajuanmu",
-          imagePath: "/home/your-progress.png",
+          imagePath: "/home/your-progress-id.png",
           imageAlt: "Layar kemajuan Nibomo dengan kalender rangkaian hari belajar dan papan peringkat",
         }
       ],

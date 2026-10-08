@@ -46,7 +46,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "Opíšte tému alebo priložte svoje poznámky. AI pomôže premeniť materiály na kartičky s otázkami a odpoveďami.",
           linkLabel: "Vytvoriť kartičky",
-          imagePath: "/home/ai-flashcards.png",
+          imagePath: "/home/ai-flashcards-sk.png",
           imageAlt: "AI chat Nibomo vytvára kartičky z témy alebo priložených poznámok",
         },
         {
@@ -56,7 +56,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "Otvorte kartičku a skúste si spomenúť na odpoveď skôr, ako ju zobrazíte. Učte sa vlastným tempom, jednu kartičku po druhej.",
           linkLabel: "Začať sa učiť",
-          imagePath: "/home/start-learning.png",
+          imagePath: "/home/start-learning-sk.png",
           imageAlt: "Opakovacia kartička Nibomo s tlačidlom na zobrazenie odpovede",
         },
         {
@@ -67,7 +67,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "Zobrazte odpoveď a označte, ako ľahko ste si na ňu spomenuli. Nibomo zobrazuje náročné kartičky skôr a známe neskôr.",
           linkLabel: "Opakovať kartičky",
-          imagePath: "/home/smart-reviews.png",
+          imagePath: "/home/smart-reviews-sk.png",
           imageAlt: "Kartička Nibomo so zobrazenou odpoveďou a hodnotením zapamätania",
         },
         {
@@ -77,7 +77,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "Sledujte dni učenia v kalendári a udržiavajte svoju sériu. Každé opakovanie je ďalším krokom k vášmu cieľu.",
           linkLabel: "Zobraziť pokrok",
-          imagePath: "/home/your-progress.png",
+          imagePath: "/home/your-progress-sk.png",
           imageAlt: "Obrazovka pokroku Nibomo s kalendárom série dní učenia a rebríčkom",
         }
       ],

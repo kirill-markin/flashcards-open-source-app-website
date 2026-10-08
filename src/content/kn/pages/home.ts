@@ -46,7 +46,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "ಒಂದು ವಿಷಯವನ್ನು ವಿವರಿಸಿ ಅಥವಾ ನಿಮ್ಮ ಟಿಪ್ಪಣಿಗಳನ್ನು ಲಗತ್ತಿಸಿ. ನಿಮ್ಮ ಸಾಮಗ್ರಿಯನ್ನು ಪ್ರಶ್ನೆ ಮತ್ತು ಉತ್ತರಗಳಿರುವ ಫ್ಲ್ಯಾಶ್‌ಕಾರ್ಡ್‌ಗಳಾಗಿ ಪರಿವರ್ತಿಸಲು AI ಸಹಾಯ ಮಾಡುತ್ತದೆ.",
           linkLabel: "ಫ್ಲ್ಯಾಶ್‌ಕಾರ್ಡ್‌ಗಳನ್ನು ರಚಿಸಿ",
-          imagePath: "/home/ai-flashcards.png",
+          imagePath: "/home/ai-flashcards-kn.png",
           imageAlt: "ವಿಷಯ ಅಥವಾ ಲಗತ್ತಿಸಿದ ಟಿಪ್ಪಣಿಗಳಿಂದ ಫ್ಲ್ಯಾಶ್‌ಕಾರ್ಡ್‌ಗಳನ್ನು ರಚಿಸುವ Nibomo AI ಚಾಟ್",
         },
         {
@@ -56,7 +56,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "ಫ್ಲ್ಯಾಶ್‌ಕಾರ್ಡ್ ತೆರೆಯಿರಿ ಮತ್ತು ಉತ್ತರವನ್ನು ನೋಡುವ ಮೊದಲು ಅದನ್ನು ನೆನಪಿಸಿಕೊಳ್ಳಲು ಪ್ರಯತ್ನಿಸಿ. ನಿಮ್ಮದೇ ವೇಗದಲ್ಲಿ, ಒಮ್ಮೆ ಒಂದು ಕಾರ್ಡ್ ಕಲಿಯಿರಿ.",
           linkLabel: "ಕಲಿಯಲು ಪ್ರಾರಂಭಿಸಿ",
-          imagePath: "/home/start-learning.png",
+          imagePath: "/home/start-learning-kn.png",
           imageAlt: "ಉತ್ತರವನ್ನು ತೋರಿಸುವ ಬಟನ್ ಹೊಂದಿರುವ Nibomo ರಿವ್ಯೂ ಫ್ಲ್ಯಾಶ್‌ಕಾರ್ಡ್",
         },
         {
@@ -67,7 +67,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "ಉತ್ತರವನ್ನು ನೋಡಿ ಮತ್ತು ಎಷ್ಟು ಸುಲಭವಾಗಿ ನೆನಪಾಯಿತು ಎಂದು ಸೂಚಿಸಿ. Nibomo ಕಷ್ಟದ ಕಾರ್ಡ್‌ಗಳನ್ನು ಬೇಗನೆ ಮತ್ತು ಪರಿಚಿತ ಕಾರ್ಡ್‌ಗಳನ್ನು ತಡವಾಗಿ ಮತ್ತೆ ತೋರಿಸುತ್ತದೆ.",
           linkLabel: "ಫ್ಲ್ಯಾಶ್‌ಕಾರ್ಡ್‌ಗಳನ್ನು ರಿವ್ಯೂ ಮಾಡಿ",
-          imagePath: "/home/smart-reviews.png",
+          imagePath: "/home/smart-reviews-kn.png",
           imageAlt: "ಉತ್ತರ ಮತ್ತು ನೆನಪಿನ ಮೌಲ್ಯಮಾಪನ ಆಯ್ಕೆಗಳಿರುವ Nibomo ಫ್ಲ್ಯಾಶ್‌ಕಾರ್ಡ್",
         },
         {
@@ -77,7 +77,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "ಕ್ಯಾಲೆಂಡರ್‌ನಲ್ಲಿ ಅಧ್ಯಯನದ ದಿನಗಳನ್ನು ನೋಡಿ ಮತ್ತು ಸತತ ಕಲಿಕೆಯನ್ನು ಮುಂದುವರಿಸಿ. ಪ್ರತಿ ರಿವ್ಯೂ ನಿಮ್ಮ ಗುರಿಯತ್ತ ಇನ್ನೊಂದು ಹೆಜ್ಜೆ.",
           linkLabel: "ನಿಮ್ಮ ಪ್ರಗತಿಯನ್ನು ನೋಡಿ",
-          imagePath: "/home/your-progress.png",
+          imagePath: "/home/your-progress-kn.png",
           imageAlt: "ಸತತ ಅಧ್ಯಯನದ ದಿನಗಳ ಕ್ಯಾಲೆಂಡರ್ ಮತ್ತು ಶ್ರೇಯಾಂಕ ಪಟ್ಟಿ ಇರುವ Nibomo ಪ್ರಗತಿ ಪರದೆ",
         }
       ],

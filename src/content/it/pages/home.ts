@@ -46,7 +46,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "Descrivi un argomento o allega i tuoi appunti. L’IA ti aiuta a trasformare il materiale in flashcard con domande e risposte.",
           linkLabel: "Crea flashcard",
-          imagePath: "/home/ai-flashcards.png",
+          imagePath: "/home/ai-flashcards-it.png",
           imageAlt: "Chat IA di Nibomo che crea flashcard da un argomento o da appunti allegati",
         },
         {
@@ -56,7 +56,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "Apri una flashcard e prova a ricordare la risposta prima di mostrarla. Impara al tuo ritmo, una carta alla volta.",
           linkLabel: "Inizia a imparare",
-          imagePath: "/home/start-learning.png",
+          imagePath: "/home/start-learning-it.png",
           imageAlt: "Flashcard di ripasso Nibomo con un pulsante per mostrare la risposta",
         },
         {
@@ -67,7 +67,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "Mostra la risposta e indica con quanta facilità l’hai ricordata. Nibomo ripropone prima le carte difficili e più tardi quelle familiari.",
           linkLabel: "Ripassa le flashcard",
-          imagePath: "/home/smart-reviews.png",
+          imagePath: "/home/smart-reviews-it.png",
           imageAlt: "Flashcard Nibomo con la risposta visibile e le opzioni per valutare il ricordo",
         },
         {
@@ -77,7 +77,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "Guarda i tuoi giorni di studio nel calendario e mantieni la serie. Ogni ripasso è un passo in più verso il tuo obiettivo.",
           linkLabel: "Guarda i progressi",
-          imagePath: "/home/your-progress.png",
+          imagePath: "/home/your-progress-it.png",
           imageAlt: "Schermata dei progressi Nibomo con il calendario dei giorni di studio consecutivi e la classifica",
         }
       ],

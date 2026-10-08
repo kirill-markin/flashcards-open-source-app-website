@@ -46,7 +46,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "Eleza mada au ambatisha maelezo yako. AI husaidia kubadilisha nyenzo zako kuwa kadi za kujifunza zenye maswali na majibu.",
           linkLabel: "Unda kadi za kujifunza",
-          imagePath: "/home/ai-flashcards.png",
+          imagePath: "/home/ai-flashcards-sw.png",
           imageAlt: "Mazungumzo ya AI ya Nibomo yanayounda kadi kutoka kwenye mada au maelezo yaliyoambatishwa",
         },
         {
@@ -56,7 +56,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "Fungua kadi na ujaribu kukumbuka jibu kabla ya kulionyesha. Jifunze kwa kasi yako, kadi moja kwa wakati.",
           linkLabel: "Anza kujifunza",
-          imagePath: "/home/start-learning.png",
+          imagePath: "/home/start-learning-sw.png",
           imageAlt: "Kadi ya marudio ya Nibomo yenye kitufe cha kuonyesha jibu",
         },
         {
@@ -67,7 +67,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "Onyesha jibu na uweke alama ya jinsi ilivyokuwa rahisi kulikumbuka. Nibomo hurudisha kadi ngumu mapema na zinazofahamika baadaye.",
           linkLabel: "Rudia kadi za kujifunza",
-          imagePath: "/home/smart-reviews.png",
+          imagePath: "/home/smart-reviews-sw.png",
           imageAlt: "Kadi ya Nibomo yenye jibu lililoonyeshwa na chaguo za kutathmini kukumbuka",
         },
         {
@@ -77,7 +77,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "Angalia siku zako za kujifunza kwenye kalenda na uendeleze mfululizo wako. Kila marudio ni hatua nyingine kuelekea lengo lako.",
           linkLabel: "Angalia maendeleo yako",
-          imagePath: "/home/your-progress.png",
+          imagePath: "/home/your-progress-sw.png",
           imageAlt: "Skrini ya maendeleo ya Nibomo yenye kalenda ya siku mfululizo za kujifunza na orodha ya viwango",
         }
       ],
