@@ -15,7 +15,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
         "Kumbuka zaidi.",
       ],
       subtitle:
-        "Kadi za kujifunzia bila malipo na za chanzo huria zinazopanga kila marudio kwa wakati unaofaa, hufanya kazi bila intaneti na husawazishwa kwenye wavuti, iOS na Android. Tumia AI unapohitaji msaada wa kutengeneza au kuboresha kadi. Nibomo hapo awali ilijulikana kama Flashcards Open Source App.",
+        "Kadi za kujifunzia bila malipo zinazopanga kila marudio kwa wakati unaofaa, hufanya kazi bila intaneti na husawazishwa kwenye wavuti, iOS na Android. Tumia AI unapohitaji msaada wa kutengeneza au kuboresha kadi.",
       trustLine: "Hakuna kadi ya mkopo. Hakuna matangazo. Hakuna kuhesabu siku za majaribio.",
       primaryLink: {
         label: "Anza sasa",

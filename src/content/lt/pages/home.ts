@@ -15,7 +15,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
         "Prisiminkite daugiau.",
       ],
       subtitle:
-        "Nemokamos atvirojo kodo mokymosi kortelės, kurios kiekvieną kartojimą suplanuoja tinkamu metu, veikia neprisijungus ir sinchronizuojasi tarp naršyklės, iOS ir Android. Pasitelkite DI, kai reikia pagalbos kuriant ar tobulinant korteles. Anksčiau Nibomo vadinosi Flashcards Open Source App.",
+        "Nemokamos mokymosi kortelės, kurios kiekvieną kartojimą suplanuoja tinkamu metu, veikia neprisijungus ir sinchronizuojasi tarp naršyklės, iOS ir Android. Pasitelkite DI, kai reikia pagalbos kuriant ar tobulinant korteles.",
       trustLine: "Nereikia banko kortelės. Jokių reklamų. Jokios bandomojo laikotarpio atgalinės atskaitos.",
       primaryLink: {
         label: "Pradėti",

@@ -15,7 +15,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
         "Zapamätajte si viac.",
       ],
       subtitle:
-        "Bezplatné kartičky s otvoreným zdrojovým kódom, ktoré naplánujú každé opakovanie na správny čas, fungujú offline a synchronizujú sa medzi webom, iOS a Androidom. Ak potrebujete pomoc s tvorbou alebo vylepšením kartičiek, využite AI. Nibomo sa predtým volalo Flashcards Open Source App.",
+        "Bezplatné kartičky, ktoré naplánujú každé opakovanie na správny čas, fungujú offline a synchronizujú sa medzi webom, iOS a Androidom. Ak potrebujete pomoc s tvorbou alebo vylepšením kartičiek, využite AI.",
       trustLine: "Žiadna platobná karta. Žiadne reklamy. Žiadne odpočítavanie skúšobnej verzie.",
       primaryLink: {
         label: "Začať",

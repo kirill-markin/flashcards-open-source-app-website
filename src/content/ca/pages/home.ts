@@ -15,7 +15,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
         "Recorda més.",
       ],
       subtitle:
-        "Targetes d'estudi gratuïtes i de codi obert que programen cada repàs per al moment adequat, funcionen fora de línia i se sincronitzen entre el web, iOS i Android. Fes servir la IA quan vulguis ajuda per crear o millorar targetes. Nibomo abans es deia Flashcards Open Source App.",
+        "Targetes d'estudi gratuïtes que programen cada repàs per al moment adequat, funcionen fora de línia i se sincronitzen entre el web, iOS i Android. Fes servir la IA quan vulguis ajuda per crear o millorar targetes.",
       trustLine: "Sense targeta de crèdit. Sense anuncis. Sense compte enrere de prova.",
       primaryLink: {
         label: "Comença ara",
