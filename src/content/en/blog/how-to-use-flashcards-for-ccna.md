@@ -91,6 +91,8 @@ Examples:
 
 If one subnet size keeps slowing you down, it deserves a card. If it is already automatic, it does not need more review just because it looked official on a study outline.
 
+For focused review of these basics, try the [IPv4 Subnetting Practice flashcards](/catalog/packages/ipv4-subnetting-practice-flashcards/). Their short boundary, host-range, capacity, and mistake-repair prompts supplement fresh calculations and labs; the current Cisco blueprint still sets your exam scope.
+
 ### 2. Protocol contrast cards
 
 CCNA is full of close neighbors:

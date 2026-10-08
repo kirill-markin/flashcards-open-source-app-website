@@ -209,6 +209,8 @@ These four narrow cards repair the mistakes in this set:
 | Does a final IPv4 octet of `.0` prove the address is a network address? | No. Check whether every host bit under the supplied mask is zero. |
 | A requirement lists end-device interfaces plus a gateway interface. What count should subnet capacity cover? | Their sum. The gateway consumes a usable host address too. |
 
+For a ready-made review companion, the [IPv4 Subnetting Practice flashcards](/catalog/packages/ipv4-subnetting-practice-flashcards/) cover boundaries, host ranges, capacity, and common mistakes in short prompts. Use them for recall and error repair between fresh calculations.
+
 The [guide to better flashcards](/blog/how-to-make-better-flashcards/) explains how to keep each prompt small enough to grade. For a broader study plan, the [Network+ flashcards guide](/blog/comptia-network-plus-flashcards/) separates facts worth reviewing from calculations and labs worth doing.
 
 Save the rules that slowed you down in your study deck. Then change the input addresses and calculate again with the answers hidden. For each calculation, check that the full block contains `2^(32 − p)` addresses and that the input lies between its endpoints. Explain the boundary before calling the answer finished.
