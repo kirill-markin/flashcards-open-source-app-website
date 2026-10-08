@@ -15,7 +15,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
         "Muista enemmän.",
       ],
       subtitle:
-        "Ilmaiset avoimen lähdekoodin muistikortit, jotka ajoittavat jokaisen kertauksen oikeaan hetkeen, toimivat ilman verkkoyhteyttä ja synkronoituvat verkon, iOS:n ja Androidin välillä. Käytä tekoälyä, kun haluat apua korttien luomiseen tai parantamiseen. Nibomon aiempi nimi oli Flashcards Open Source App.",
+        "Ilmaiset muistikortit, jotka ajoittavat jokaisen kertauksen oikeaan hetkeen, toimivat ilman verkkoyhteyttä ja synkronoituvat verkon, iOS:n ja Androidin välillä. Käytä tekoälyä, kun haluat apua korttien luomiseen tai parantamiseen.",
       trustLine: "Ei luottokorttia. Ei mainoksia. Ei kokeilujakson laskuria.",
       primaryLink: {
         label: "Aloita käyttö",

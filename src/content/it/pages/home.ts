@@ -15,7 +15,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
         "Ricorda di più.",
       ],
       subtitle:
-        "Flashcard gratuite e open source che programmano ogni ripasso al momento giusto, funzionano offline e si sincronizzano su web, iOS e Android. Usa l'AI quando vuoi una mano a creare o migliorare le carte. Nibomo prima si chiamava Flashcards Open Source App.",
+        "Flashcard gratuite che programmano ogni ripasso al momento giusto, funzionano offline e si sincronizzano su web, iOS e Android. Usa l'AI quando vuoi una mano a creare o migliorare le carte.",
       trustLine: "Senza carta di credito. Senza pubblicità. Senza prova a tempo.",
       primaryLink: {
         label: "Inizia ora",

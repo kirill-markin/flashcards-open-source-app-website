@@ -15,7 +15,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
         "Zapamtite više.",
       ],
       subtitle:
-        "Besplatne kartice za učenje otvorenog koda koje svako ponavljanje zakazuju za pravi trenutak, rade offline i sinkroniziraju se između weba, iOS-a i Androida. Kad vam treba pomoć pri izradi ili doradi kartica, uključite AI. Nibomo se prije zvao Flashcards Open Source App.",
+        "Besplatne kartice za učenje koje svako ponavljanje zakazuju za pravi trenutak, rade offline i sinkroniziraju se između weba, iOS-a i Androida. Kad vam treba pomoć pri izradi ili doradi kartica, uključite AI.",
       trustLine: "Bez kreditne kartice. Bez oglasa. Bez odbrojavanja probnog razdoblja.",
       primaryLink: {
         label: "Započnite",
