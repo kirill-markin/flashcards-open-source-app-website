@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { CONNECTOR_DIRECTORIES } from "@/lib/connectorDirectories";
+import { SOFTWARE_DIRECTORIES } from "@/lib/softwareDirectories";
 import { getExternalLinkAttributes } from "@/lib/linkTargets";
 import { LocaleSwitcher } from "@/components/LocaleSwitcher";
 import { getAppUrl } from "@/lib/auth";
@@ -210,6 +211,14 @@ export const Footer: React.FC<FooterProps> = ({
             {SOCIAL_LINKS.map((link) => (
               <a key={link.href} href={link.href} {...getExternalLinkAttributes(link.href)}>
                 {link.label}
+              </a>
+            ))}
+          </div>
+          <div className={styles.column}>
+            <h3>{uiCopy.footer.listedOnHeading}</h3>
+            {SOFTWARE_DIRECTORIES.map((directory) => (
+              <a key={directory.href} href={directory.href} {...getExternalLinkAttributes(directory.href)}>
+                {directory.name}
               </a>
             ))}
           </div>
