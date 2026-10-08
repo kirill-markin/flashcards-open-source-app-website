@@ -15,7 +15,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
         "Mehr behalten.",
       ],
       subtitle:
-        "Eine kostenlose Open-Source-Lernkarten-App, die jede Wiederholung zum richtigen Zeitpunkt plant, offline funktioniert und über Web, iOS und Android synchronisiert. Nutze KI, wenn du Hilfe beim Erstellen oder Verbessern von Karten möchtest. Nibomo hieß früher Flashcards Open Source App.",
+        "Eine kostenlose Lernkarten-App, die jede Wiederholung zum richtigen Zeitpunkt plant, offline funktioniert und über Web, iOS und Android synchronisiert. Nutze KI, wenn du Hilfe beim Erstellen oder Verbessern von Karten möchtest.",
       trustLine: "Keine Kreditkarte. Keine Werbung. Kein Testzeitraum.",
       primaryLink: {
         label: "Loslegen",

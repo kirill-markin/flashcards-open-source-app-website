@@ -15,7 +15,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
         "Retenez plus.",
       ],
       subtitle:
-        "Des cartes mémoire gratuites et open source qui programment chaque révision au bon moment, fonctionnent hors ligne et se synchronisent sur le web, iOS et Android. Utilisez l'IA quand vous voulez de l'aide pour créer ou améliorer des cartes. Nibomo s'appelait auparavant Flashcards Open Source App.",
+        "Des cartes mémoire gratuites qui programment chaque révision au bon moment, fonctionnent hors ligne et se synchronisent sur le web, iOS et Android. Utilisez l'IA quand vous voulez de l'aide pour créer ou améliorer des cartes.",
       trustLine: "Sans carte bancaire. Sans publicité. Sans compte à rebours d'essai.",
       primaryLink: {
         label: "Commencer",

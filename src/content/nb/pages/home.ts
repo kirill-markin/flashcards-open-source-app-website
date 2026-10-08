@@ -15,7 +15,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
         "Husk mer.",
       ],
       subtitle:
-        "Gratis læringskort med åpen kildekode som planlegger hver repetisjon til rett tid, virker uten nett og synkroniserer på tvers av web, iOS og Android. Bruk AI når du vil ha hjelp til å lage eller forbedre kort. Nibomo het tidligere Flashcards Open Source App.",
+        "Gratis læringskort som planlegger hver repetisjon til rett tid, virker uten nett og synkroniserer på tvers av web, iOS og Android. Bruk AI når du vil ha hjelp til å lage eller forbedre kort.",
       trustLine: "Ingen kredittkort. Ingen reklame. Ingen nedtelling på prøveperiode.",
       primaryLink: {
         label: "Kom i gang",

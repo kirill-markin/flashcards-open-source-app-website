@@ -15,7 +15,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
         "Nhớ được nhiều hơn.",
       ],
       subtitle:
-        "Thẻ ghi nhớ miễn phí, mã nguồn mở, tự xếp lịch mỗi lượt ôn tập vào đúng thời điểm, dùng được khi ngoại tuyến và đồng bộ giữa web, iOS và Android. Dùng AI khi bạn cần hỗ trợ tạo hoặc cải thiện thẻ. Nibomo trước đây có tên là Flashcards Open Source App.",
+        "Thẻ ghi nhớ miễn phí, tự xếp lịch mỗi lượt ôn tập vào đúng thời điểm, dùng được khi ngoại tuyến và đồng bộ giữa web, iOS và Android. Dùng AI khi bạn cần hỗ trợ tạo hoặc cải thiện thẻ.",
       trustLine: "Không cần thẻ tín dụng. Không quảng cáo. Không đếm ngược dùng thử.",
       primaryLink: {
         label: "Bắt đầu",

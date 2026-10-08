@@ -15,7 +15,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
         "더 오래 기억하세요.",
       ],
       subtitle:
-        "복습마다 알맞은 시점을 잡아 주고, 오프라인에서도 동작하며, 웹, iOS, Android 사이에서 동기화되는 무료 오픈 소스 플래시카드입니다. 카드를 만들거나 다듬을 때 도움이 필요하면 AI를 쓰세요. Nibomo는 이전에 Flashcards Open Source App이라는 이름이었습니다.",
+        "복습마다 알맞은 시점을 잡아 주고, 오프라인에서도 동작하며, 웹, iOS, Android 사이에서 동기화되는 무료 플래시카드입니다. 카드를 만들거나 다듬을 때 도움이 필요하면 AI를 쓰세요.",
       trustLine: "신용카드 없음. 광고 없음. 체험 기간 카운트다운 없음.",
       primaryLink: {
         label: "시작하기",

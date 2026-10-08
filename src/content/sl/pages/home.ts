@@ -15,7 +15,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
         "Zapomnite si več.",
       ],
       subtitle:
-        "Brezplačne odprtokodne učne kartice, ki vsako ponovitev načrtujejo za pravi trenutek, delujejo brez povezave in se sinhronizirajo med spletom, iOS-om in Androidom. Kadar želite pomoč pri ustvarjanju ali izboljšanju kartic, uporabite AI. Nibomo se je prej imenoval Flashcards Open Source App.",
+        "Brezplačne učne kartice, ki vsako ponovitev načrtujejo za pravi trenutek, delujejo brez povezave in se sinhronizirajo med spletom, iOS-om in Androidom. Kadar želite pomoč pri ustvarjanju ali izboljšanju kartic, uporabite AI.",
       trustLine: "Brez kreditne kartice. Brez oglasov. Brez odštevanja preizkusne dobe.",
       primaryLink: {
         label: "Začnite",

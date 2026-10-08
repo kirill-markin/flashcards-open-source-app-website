@@ -15,7 +15,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
         "Zapamiętuj więcej.",
       ],
       subtitle:
-        "Darmowe fiszki open source, które planują każdą powtórkę na właściwy moment, działają offline i synchronizują się między wersją webową, iOS i Androidem. Skorzystaj z AI, gdy chcesz pomocy przy tworzeniu lub poprawianiu kart. Nibomo było wcześniej znane jako Flashcards Open Source App.",
+        "Darmowe fiszki, które planują każdą powtórkę na właściwy moment, działają offline i synchronizują się między wersją webową, iOS i Androidem. Skorzystaj z AI, gdy chcesz pomocy przy tworzeniu lub poprawianiu kart.",
       trustLine: "Bez karty kredytowej. Bez reklam. Bez odliczania okresu próbnego.",
       primaryLink: {
         label: "Zacznij teraz",

@@ -15,7 +15,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
         "Remember more.",
       ],
       subtitle:
-        "Free, open-source flashcards that schedule each review for the right time, work offline, and sync across the web, iOS, and Android. Nibomo was formerly known as Flashcards Open Source App.",
+        "Free flashcards that schedule each review for the right time, work offline, and sync across the web, iOS, and Android.",
       trustLine: "No credit card. No ads. No trial.",
       primaryLink: {
         label: "Get Started",

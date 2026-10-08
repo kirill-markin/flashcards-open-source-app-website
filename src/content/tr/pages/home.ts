@@ -16,7 +16,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
         "Daha çok hatırlayın.",
       ],
       subtitle:
-        "Her tekrarı doğru zamana planlayan, çevrimdışı çalışan ve web, iOS ile Android arasında senkronize olan ücretsiz, açık kaynak bilgi kartları. Kart oluştururken veya iyileştirirken yardım için AI kullanın. Nibomo'nun eski adı Flashcards Open Source App'tir.",
+        "Her tekrarı doğru zamana planlayan, çevrimdışı çalışan ve web, iOS ile Android arasında senkronize olan ücretsiz bilgi kartları. Kart oluştururken veya iyileştirirken yardım için AI kullanın.",
       trustLine: "Kredi kartı yok. Reklam yok. Deneme süresi geri sayımı yok.",
       primaryLink: {
         label: "Başlayın",

@@ -15,7 +15,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
         "Reține mai mult.",
       ],
       subtitle:
-        "Fișe gratuite și open source care programează fiecare recapitulare la momentul potrivit, funcționează offline și se sincronizează pe web, iOS și Android. Folosește AI când vrei ajutor la crearea sau îmbunătățirea fișelor. Nibomo s-a numit anterior Flashcards Open Source App.",
+        "Fișe gratuite care programează fiecare recapitulare la momentul potrivit, funcționează offline și se sincronizează pe web, iOS și Android. Folosește AI când vrei ajutor la crearea sau îmbunătățirea fișelor.",
       trustLine: "Fără card de credit. Fără reclame. Fără perioadă de probă.",
       primaryLink: {
         label: "Începe acum",

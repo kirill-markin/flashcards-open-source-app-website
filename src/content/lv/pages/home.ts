@@ -15,7 +15,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
         "Atceries vairāk.",
       ],
       subtitle:
-        "Bezmaksas atvērtā pirmkoda mācību kartītes, kas katru atkārtojumu ieplāno īstajā laikā, strādā bezsaistē un sinhronizējas starp tīmekli, iOS un Android. Kad vajag palīdzību kartīšu veidošanā vai uzlabošanā, izmanto MI. Nibomo agrāk saucās Flashcards Open Source App.",
+        "Bezmaksas mācību kartītes, kas katru atkārtojumu ieplāno īstajā laikā, strādā bezsaistē un sinhronizējas starp tīmekli, iOS un Android. Kad vajag palīdzību kartīšu veidošanā vai uzlabošanā, izmanto MI.",
       trustLine: "Bez kredītkartes. Bez reklāmām. Bez izmēģinājuma laika atpakaļskaitīšanas.",
       primaryLink: {
         label: "Sākt lietot",

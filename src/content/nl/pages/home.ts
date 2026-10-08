@@ -15,7 +15,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
         "Meer onthouden.",
       ],
       subtitle:
-        "Gratis open-source flashcards die elke herhaling op het juiste moment inplannen, offline werken en synchroniseren tussen web, iOS en Android. Gebruik AI wanneer je hulp wilt bij het maken of verbeteren van kaarten. Nibomo heette voorheen Flashcards Open Source App.",
+        "Gratis flashcards die elke herhaling op het juiste moment inplannen, offline werken en synchroniseren tussen web, iOS en Android. Gebruik AI wanneer je hulp wilt bij het maken of verbeteren van kaarten.",
       trustLine: "Geen creditcard. Geen advertenties. Geen proefperiode.",
       primaryLink: {
         label: "Aan de slag",

@@ -15,7 +15,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
         "Ingat lebih banyak.",
       ],
       subtitle:
-        "Kartu gratis dan open source yang menjadwalkan setiap tinjauan pada waktu yang tepat, bekerja offline, dan tersinkron di web, iOS, dan Android. Gunakan AI saat Anda butuh bantuan membuat atau memperbaiki kartu. Nibomo sebelumnya dikenal sebagai Flashcards Open Source App.",
+        "Kartu gratis yang menjadwalkan setiap tinjauan pada waktu yang tepat, bekerja offline, dan tersinkron di web, iOS, dan Android. Gunakan AI saat Anda butuh bantuan membuat atau memperbaiki kartu.",
       trustLine: "Tanpa kartu kredit. Tanpa iklan. Tanpa hitung mundur uji coba.",
       primaryLink: {
         label: "Mulai Sekarang",
