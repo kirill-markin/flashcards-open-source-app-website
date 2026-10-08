@@ -46,7 +46,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "Kuvaile aihe tai liitä muistiinpanosi. Tekoäly auttaa muuttamaan aineistosi opiskelukorteiksi, joissa on kysymyksiä ja vastauksia.",
           linkLabel: "Luo opiskelukortteja",
-          imagePath: "/home/ai-flashcards.png",
+          imagePath: "/home/ai-flashcards-fi.png",
           imageAlt: "Nibomon tekoälykeskustelu luo opiskelukortteja aiheesta tai liitetyistä muistiinpanoista",
         },
         {
@@ -56,7 +56,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "Avaa opiskelukortti ja yritä muistaa vastaus ennen sen näyttämistä. Opi omaan tahtiisi, yksi kortti kerrallaan.",
           linkLabel: "Aloita opiskelu",
-          imagePath: "/home/start-learning.png",
+          imagePath: "/home/start-learning-fi.png",
           imageAlt: "Nibomon kertauskortti, jossa on painike vastauksen näyttämiseen",
         },
         {
@@ -67,7 +67,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "Näytä vastaus ja merkitse, miten helposti muistit sen. Nibomo näyttää vaikeat kortit uudelleen aiemmin ja tutut kortit myöhemmin.",
           linkLabel: "Kertaa opiskelukortteja",
-          imagePath: "/home/smart-reviews.png",
+          imagePath: "/home/smart-reviews-fi.png",
           imageAlt: "Nibomon kortti, jossa näkyvät vastaus ja muistamisen arviointivaihtoehdot",
         },
         {
@@ -77,7 +77,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "Katso opiskelupäivät kalenterista ja pidä opiskelujakso katkeamattomana. Jokainen kertaus on uusi askel kohti tavoitettasi.",
           linkLabel: "Katso edistymisesi",
-          imagePath: "/home/your-progress.png",
+          imagePath: "/home/your-progress-fi.png",
           imageAlt: "Nibomon edistymisnäkymä, jossa on peräkkäisten opiskelupäivien kalenteri ja tulostaulukko",
         }
       ],

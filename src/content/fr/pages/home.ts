@@ -46,7 +46,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "Décrivez un sujet ou joignez vos notes. L’IA vous aide à transformer votre contenu en cartes avec des questions et des réponses.",
           linkLabel: "Créer des cartes",
-          imagePath: "/home/ai-flashcards.png",
+          imagePath: "/home/ai-flashcards-fr.png",
           imageAlt: "Chat IA de Nibomo créant des cartes à partir d’un sujet ou de notes jointes",
         },
         {
@@ -56,7 +56,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "Ouvrez une carte et essayez de vous rappeler la réponse avant de l’afficher. Apprenez à votre rythme, une carte à la fois.",
           linkLabel: "Commencer à apprendre",
-          imagePath: "/home/start-learning.png",
+          imagePath: "/home/start-learning-fr.png",
           imageAlt: "Carte de révision Nibomo avec un bouton pour afficher la réponse",
         },
         {
@@ -67,7 +67,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "Affichez la réponse et indiquez avec quelle facilité vous vous en êtes souvenu. Nibomo vous repropose les cartes difficiles plus tôt et les cartes familières plus tard.",
           linkLabel: "Réviser les cartes",
-          imagePath: "/home/smart-reviews.png",
+          imagePath: "/home/smart-reviews-fr.png",
           imageAlt: "Carte Nibomo affichant la réponse et les options d’évaluation de la mémorisation",
         },
         {
@@ -77,7 +77,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "Consultez vos jours d’étude dans le calendrier et poursuivez votre série. Chaque révision vous rapproche de votre objectif.",
           linkLabel: "Voir votre progression",
-          imagePath: "/home/your-progress.png",
+          imagePath: "/home/your-progress-fr.png",
           imageAlt: "Écran de progression Nibomo avec le calendrier des jours d’étude consécutifs et le classement",
         }
       ],

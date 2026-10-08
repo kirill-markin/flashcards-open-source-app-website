@@ -46,7 +46,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "Descriu un tema o adjunta els teus apunts. La IA t’ajuda a convertir el material en targetes amb preguntes i respostes.",
           linkLabel: "Crear targetes",
-          imagePath: "/home/ai-flashcards.png",
+          imagePath: "/home/ai-flashcards-ca.png",
           imageAlt: "Xat d’IA de Nibomo que crea targetes a partir d’un tema o d’apunts adjunts",
         },
         {
@@ -56,7 +56,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "Obre una targeta i intenta recordar la resposta abans de mostrar-la. Aprèn al teu ritme, una targeta cada vegada.",
           linkLabel: "Començar a aprendre",
-          imagePath: "/home/start-learning.png",
+          imagePath: "/home/start-learning-ca.png",
           imageAlt: "Targeta de repàs de Nibomo amb un botó per mostrar la resposta",
         },
         {
@@ -67,7 +67,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "Mostra la resposta i indica amb quina facilitat l’has recordada. Nibomo torna a mostrar abans les targetes difícils i més tard les que ja coneixes.",
           linkLabel: "Repassar targetes",
-          imagePath: "/home/smart-reviews.png",
+          imagePath: "/home/smart-reviews-ca.png",
           imageAlt: "Targeta de Nibomo amb la resposta visible i opcions per valorar el record",
         },
         {
@@ -77,7 +77,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "Consulta els dies d’estudi al calendari i mantén la ratxa. Cada repàs és un pas més cap al teu objectiu.",
           linkLabel: "Veure el progrés",
-          imagePath: "/home/your-progress.png",
+          imagePath: "/home/your-progress-ca.png",
           imageAlt: "Pantalla de progrés de Nibomo amb el calendari de la ratxa d’estudi i la classificació",
         }
       ],

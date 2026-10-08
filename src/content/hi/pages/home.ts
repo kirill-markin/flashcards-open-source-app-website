@@ -47,7 +47,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "किसी विषय का वर्णन करें या अपने नोट्स संलग्न करें। AI आपकी सामग्री को सवालों और जवाबों वाले फ़्लैशकार्ड में बदलने में मदद करता है।",
           linkLabel: "फ़्लैशकार्ड बनाएं",
-          imagePath: "/home/ai-flashcards.png",
+          imagePath: "/home/ai-flashcards-hi.png",
           imageAlt: "Nibomo का AI चैट किसी विषय या संलग्न नोट्स से फ़्लैशकार्ड बनाता है",
         },
         {
@@ -57,7 +57,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "फ़्लैशकार्ड खोलें और जवाब देखने से पहले उसे याद करने की कोशिश करें। अपनी गति से सीखें, एक बार में एक कार्ड।",
           linkLabel: "सीखना शुरू करें",
-          imagePath: "/home/start-learning.png",
+          imagePath: "/home/start-learning-hi.png",
           imageAlt: "जवाब दिखाने के बटन वाला Nibomo रिव्यू फ़्लैशकार्ड",
         },
         {
@@ -68,7 +68,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "जवाब देखें और बताएं कि उसे याद करना कितना आसान था। Nibomo मुश्किल कार्ड जल्दी और परिचित कार्ड बाद में दोबारा दिखाता है।",
           linkLabel: "फ़्लैशकार्ड रिव्यू करें",
-          imagePath: "/home/smart-reviews.png",
+          imagePath: "/home/smart-reviews-hi.png",
           imageAlt: "जवाब और याद करने की आसानी के विकल्पों वाला Nibomo फ़्लैशकार्ड",
         },
         {
@@ -78,7 +78,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "कैलेंडर में अपने पढ़ाई के दिन देखें और लगातार सीखने का सिलसिला बनाए रखें। हर रिव्यू आपको अपने लक्ष्य के एक कदम और करीब लाता है।",
           linkLabel: "अपनी प्रगति देखें",
-          imagePath: "/home/your-progress.png",
+          imagePath: "/home/your-progress-hi.png",
           imageAlt: "पढ़ाई के लगातार दिनों के कैलेंडर और रैंकिंग वाली Nibomo प्रगति स्क्रीन",
         }
       ],

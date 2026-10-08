@@ -46,7 +46,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "ഒരു വിഷയം വിവരിക്കുകയോ നിങ്ങളുടെ കുറിപ്പുകൾ അറ്റാച്ച് ചെയ്യുകയോ ചെയ്യൂ. ചോദ്യങ്ങളും ഉത്തരങ്ങളും അടങ്ങിയ ഫ്ലാഷ്‌കാർഡുകളായി നിങ്ങളുടെ പഠനസാമഗ്രികൾ മാറ്റാൻ AI സഹായിക്കുന്നു.",
           linkLabel: "ഫ്ലാഷ്‌കാർഡുകൾ സൃഷ്ടിക്കൂ",
-          imagePath: "/home/ai-flashcards.png",
+          imagePath: "/home/ai-flashcards-ml.png",
           imageAlt: "ഒരു വിഷയത്തിൽ നിന്നോ അറ്റാച്ച് ചെയ്ത കുറിപ്പുകളിൽ നിന്നോ ഫ്ലാഷ്‌കാർഡുകൾ സൃഷ്ടിക്കുന്ന Nibomo AI ചാറ്റ്",
         },
         {
@@ -56,7 +56,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "ഒരു ഫ്ലാഷ്‌കാർഡ് തുറന്ന് ഉത്തരം കാണുന്നതിന് മുമ്പ് അത് ഓർത്തെടുക്കാൻ ശ്രമിക്കൂ. നിങ്ങളുടെ വേഗത്തിൽ, ഒരു സമയം ഒരു കാർഡ് പഠിക്കൂ.",
           linkLabel: "പഠനം തുടങ്ങൂ",
-          imagePath: "/home/start-learning.png",
+          imagePath: "/home/start-learning-ml.png",
           imageAlt: "ഉത്തരം കാണിക്കാനുള്ള ബട്ടണുള്ള Nibomo റിവ്യൂ ഫ്ലാഷ്‌കാർഡ്",
         },
         {
@@ -67,7 +67,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "ഉത്തരം കാണിച്ച് എത്ര എളുപ്പത്തിൽ ഓർത്തെടുത്തു എന്ന് രേഖപ്പെടുത്തൂ. ബുദ്ധിമുട്ടുള്ള കാർഡുകൾ Nibomo നേരത്തെയും പരിചിതമായവ വൈകിയും വീണ്ടും കാണിക്കുന്നു.",
           linkLabel: "ഫ്ലാഷ്‌കാർഡുകൾ റിവ്യൂ ചെയ്യൂ",
-          imagePath: "/home/smart-reviews.png",
+          imagePath: "/home/smart-reviews-ml.png",
           imageAlt: "ഉത്തരവും ഓർമ്മ വിലയിരുത്താനുള്ള ഓപ്ഷനുകളും ഉള്ള Nibomo ഫ്ലാഷ്‌കാർഡ്",
         },
         {
@@ -77,7 +77,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "പഠിച്ച ദിവസങ്ങൾ കലണ്ടറിൽ നോക്കി തുടർച്ച നിലനിർത്തൂ. ഓരോ റിവ്യൂവും നിങ്ങളുടെ ലക്ഷ്യത്തിലേക്കുള്ള മറ്റൊരു ചുവടാണ്.",
           linkLabel: "നിങ്ങളുടെ പുരോഗതി കാണൂ",
-          imagePath: "/home/your-progress.png",
+          imagePath: "/home/your-progress-ml.png",
           imageAlt: "തുടർച്ചയായ പഠനദിവസങ്ങളുടെ കലണ്ടറും റാങ്കിങ്ങും ഉള്ള Nibomo പുരോഗതി സ്ക്രീൻ",
         }
       ],

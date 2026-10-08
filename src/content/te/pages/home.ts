@@ -46,7 +46,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "ఒక అంశాన్ని వివరించండి లేదా మీ నోట్స్‌ను జత చేయండి. మీ పాఠ్యాంశాలను ప్రశ్నలు, సమాధానాలు ఉన్న ఫ్లాష్‌కార్డులుగా మార్చడానికి AI సహాయపడుతుంది.",
           linkLabel: "ఫ్లాష్‌కార్డులు సృష్టించండి",
-          imagePath: "/home/ai-flashcards.png",
+          imagePath: "/home/ai-flashcards-te.png",
           imageAlt: "అంశం లేదా జత చేసిన నోట్స్‌ నుంచి ఫ్లాష్‌కార్డులను సృష్టించే Nibomo AI చాట్",
         },
         {
@@ -56,7 +56,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "ఫ్లాష్‌కార్డు తెరిచి, సమాధానం చూసే ముందు దాన్ని గుర్తు చేసుకోవడానికి ప్రయత్నించండి. మీ వేగంతో, ఒకసారి ఒక కార్డు నేర్చుకోండి.",
           linkLabel: "నేర్చుకోవడం ప్రారంభించండి",
-          imagePath: "/home/start-learning.png",
+          imagePath: "/home/start-learning-te.png",
           imageAlt: "సమాధానాన్ని చూపించే బటన్ ఉన్న Nibomo రివ్యూ ఫ్లాష్‌కార్డు",
         },
         {
@@ -67,7 +67,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "సమాధానం చూసి, ఎంత సులభంగా గుర్తొచ్చిందో తెలియజేయండి. Nibomo కష్టమైన కార్డులను త్వరగా, పరిచయమైన కార్డులను ఆలస్యంగా మళ్లీ చూపిస్తుంది.",
           linkLabel: "ఫ్లాష్‌కార్డులను రివ్యూ చేయండి",
-          imagePath: "/home/smart-reviews.png",
+          imagePath: "/home/smart-reviews-te.png",
           imageAlt: "సమాధానం మరియు గుర్తు చేసుకోవడాన్ని అంచనా వేసే ఎంపికలతో ఉన్న Nibomo ఫ్లాష్‌కార్డు",
         },
         {
@@ -77,7 +77,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "క్యాలెండర్‌లో చదివిన రోజులను చూడండి, వరుసగా నేర్చుకోవడం కొనసాగించండి. ప్రతి రివ్యూ మీ లక్ష్యం వైపు మరో అడుగు.",
           linkLabel: "మీ పురోగతిని చూడండి",
-          imagePath: "/home/your-progress.png",
+          imagePath: "/home/your-progress-te.png",
           imageAlt: "వరుస అధ్యయన రోజుల క్యాలెండర్, ర్యాంకింగ్ ఉన్న Nibomo పురోగతి స్క్రీన్",
         }
       ],

@@ -47,7 +47,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "صِف موضوعًا أو أرفق ملاحظاتك. يساعدك الذكاء الاصطناعي على تحويل موادك إلى بطاقات تحتوي على أسئلة وأجوبة.",
           linkLabel: "إنشاء بطاقات",
-          imagePath: "/home/ai-flashcards.png",
+          imagePath: "/home/ai-flashcards-ar.png",
           imageAlt: "محادثة الذكاء الاصطناعي في Nibomo تنشئ بطاقات من موضوع أو ملاحظات مرفقة",
         },
         {
@@ -57,7 +57,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "افتح بطاقة وحاول تذكّر الإجابة قبل إظهارها. تعلّم بالوتيرة التي تناسبك، بطاقة واحدة في كل مرة.",
           linkLabel: "بدء التعلّم",
-          imagePath: "/home/start-learning.png",
+          imagePath: "/home/start-learning-ar.png",
           imageAlt: "بطاقة مراجعة في Nibomo مع زر لإظهار الإجابة",
         },
         {
@@ -68,7 +68,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "أظهر الإجابة وحدّد مدى سهولة تذكّرها. يعرض Nibomo البطاقات الصعبة مجددًا في وقت أقرب، والبطاقات المألوفة في وقت لاحق.",
           linkLabel: "مراجعة البطاقات",
-          imagePath: "/home/smart-reviews.png",
+          imagePath: "/home/smart-reviews-ar.png",
           imageAlt: "بطاقة في Nibomo تعرض الإجابة وخيارات لتقييم التذكّر",
         },
         {
@@ -78,7 +78,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "شاهد أيام دراستك على التقويم وحافظ على سلسلة أيام التعلّم. كل مراجعة خطوة أخرى نحو هدفك.",
           linkLabel: "عرض تقدّمك",
-          imagePath: "/home/your-progress.png",
+          imagePath: "/home/your-progress-ar.png",
           imageAlt: "شاشة التقدّم في Nibomo مع تقويم أيام الدراسة المتتالية ولوحة الترتيب",
         }
       ],

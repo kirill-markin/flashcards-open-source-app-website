@@ -46,7 +46,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "Describe un tema o adjunta tus apuntes. La IA te ayuda a convertir tu material en tarjetas con preguntas y respuestas.",
           linkLabel: "Crear tarjetas",
-          imagePath: "/home/ai-flashcards.png",
+          imagePath: "/home/ai-flashcards-es.png",
           imageAlt: "Chat de IA de Nibomo que crea tarjetas a partir de un tema o de apuntes adjuntos",
         },
         {
@@ -56,7 +56,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "Abre una tarjeta e intenta recordar la respuesta antes de mostrarla. Aprende a tu ritmo, una tarjeta a la vez.",
           linkLabel: "Empezar a aprender",
-          imagePath: "/home/start-learning.png",
+          imagePath: "/home/start-learning-es.png",
           imageAlt: "Tarjeta de repaso de Nibomo con un botón para mostrar la respuesta",
         },
         {
@@ -67,7 +67,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "Muestra la respuesta e indica con qué facilidad la recordaste. Nibomo vuelve a mostrar antes las tarjetas difíciles y más tarde las que ya conoces.",
           linkLabel: "Repasar tarjetas",
-          imagePath: "/home/smart-reviews.png",
+          imagePath: "/home/smart-reviews-es.png",
           imageAlt: "Tarjeta de Nibomo con la respuesta visible y opciones para evaluar el recuerdo",
         },
         {
@@ -77,7 +77,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "Consulta tus días de estudio en el calendario y mantén tu racha. Cada repaso es un paso más hacia tu objetivo.",
           linkLabel: "Ver tu progreso",
-          imagePath: "/home/your-progress.png",
+          imagePath: "/home/your-progress-es.png",
           imageAlt: "Pantalla de progreso de Nibomo con el calendario de la racha de estudio y la clasificación",
         }
       ],

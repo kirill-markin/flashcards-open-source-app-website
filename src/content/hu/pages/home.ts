@@ -46,7 +46,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "Írj le egy témát, vagy csatold a jegyzeteidet. Az MI segít kérdéseket és válaszokat tartalmazó tanulókártyákká alakítani az anyagodat.",
           linkLabel: "Tanulókártyák készítése",
-          imagePath: "/home/ai-flashcards.png",
+          imagePath: "/home/ai-flashcards-hu.png",
           imageAlt: "A Nibomo MI-csevegése tanulókártyákat készít egy témából vagy csatolt jegyzetekből",
         },
         {
@@ -56,7 +56,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "Nyiss meg egy tanulókártyát, és próbáld felidézni a választ, mielőtt megjeleníted. Tanulj a saját tempódban, kártyáról kártyára.",
           linkLabel: "Tanulás indítása",
-          imagePath: "/home/start-learning.png",
+          imagePath: "/home/start-learning-hu.png",
           imageAlt: "Nibomo-ismétlőkártya a válasz megjelenítésére szolgáló gombbal",
         },
         {
@@ -67,7 +67,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "Jelenítsd meg a választ, és jelöld, milyen könnyen idézted fel. A Nibomo a nehéz kártyákat hamarabb, az ismerőseket később mutatja újra.",
           linkLabel: "Tanulókártyák ismétlése",
-          imagePath: "/home/smart-reviews.png",
+          imagePath: "/home/smart-reviews-hu.png",
           imageAlt: "Nibomo-kártya a megjelenített válasszal és a felidézés értékelési lehetőségeivel",
         },
         {
@@ -77,7 +77,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "Nézd meg a tanulási napokat a naptárban, és tartsd fenn a sorozatodat. Minden ismétlés újabb lépés a célod felé.",
           linkLabel: "Haladás megtekintése",
-          imagePath: "/home/your-progress.png",
+          imagePath: "/home/your-progress-hu.png",
           imageAlt: "A Nibomo haladási képernyője tanulási sorozatot mutató naptárral és ranglistával",
         }
       ],

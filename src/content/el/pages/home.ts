@@ -48,7 +48,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "Περίγραψε ένα θέμα ή επισύναψε τις σημειώσεις σου. Η ΤΝ σε βοηθά να μετατρέψεις το υλικό σου σε κάρτες με ερωτήσεις και απαντήσεις.",
           linkLabel: "Δημιουργία καρτών",
-          imagePath: "/home/ai-flashcards.png",
+          imagePath: "/home/ai-flashcards-el.png",
           imageAlt: "Συνομιλία ΤΝ του Nibomo που δημιουργεί κάρτες από ένα θέμα ή συνημμένες σημειώσεις",
         },
         {
@@ -58,7 +58,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "Άνοιξε μια κάρτα και προσπάθησε να θυμηθείς την απάντηση πριν την εμφανίσεις. Μάθε με τον δικό σου ρυθμό, μία κάρτα τη φορά.",
           linkLabel: "Ξεκίνα τη μάθηση",
-          imagePath: "/home/start-learning.png",
+          imagePath: "/home/start-learning-el.png",
           imageAlt: "Κάρτα επανάληψης του Nibomo με κουμπί εμφάνισης της απάντησης",
         },
         {
@@ -69,7 +69,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "Εμφάνισε την απάντηση και σημείωσε πόσο εύκολα τη θυμήθηκες. Το Nibomo επαναφέρει τις δύσκολες κάρτες νωρίτερα και τις γνώριμες αργότερα.",
           linkLabel: "Επανάληψη καρτών",
-          imagePath: "/home/smart-reviews.png",
+          imagePath: "/home/smart-reviews-el.png",
           imageAlt: "Κάρτα Nibomo με εμφανή απάντηση και επιλογές αξιολόγησης της ανάκλησης",
         },
         {
@@ -79,7 +79,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "Δες τις ημέρες μελέτης στο ημερολόγιο και διατήρησε το σερί σου. Κάθε επανάληψη είναι ένα ακόμη βήμα προς τον στόχο σου.",
           linkLabel: "Δες την πρόοδό σου",
-          imagePath: "/home/your-progress.png",
+          imagePath: "/home/your-progress-el.png",
           imageAlt: "Οθόνη προόδου του Nibomo με ημερολόγιο συνεχόμενων ημερών μελέτης και κατάταξη",
         }
       ],

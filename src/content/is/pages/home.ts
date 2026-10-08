@@ -46,7 +46,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "Lýstu efni eða hengdu glósurnar þínar við. Gervigreind hjálpar þér að breyta efninu í námskort með spurningum og svörum.",
           linkLabel: "Búa til námskort",
-          imagePath: "/home/ai-flashcards.png",
+          imagePath: "/home/ai-flashcards-is.png",
           imageAlt: "Gervigreindarspjall Nibomo býr til námskort úr viðfangsefni eða viðhengdum glósum",
         },
         {
@@ -56,7 +56,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "Opnaðu námskort og reyndu að rifja upp svarið áður en þú birtir það. Lærðu á þínum hraða, eitt kort í einu.",
           linkLabel: "Byrja að læra",
-          imagePath: "/home/start-learning.png",
+          imagePath: "/home/start-learning-is.png",
           imageAlt: "Upprifjunarkort í Nibomo með hnappi til að birta svarið",
         },
         {
@@ -67,7 +67,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "Birtu svarið og merktu hversu auðveldlega þú mundir það. Nibomo sýnir erfið kort aftur fyrr og kunnugleg kort síðar.",
           linkLabel: "Rifja upp námskort",
-          imagePath: "/home/smart-reviews.png",
+          imagePath: "/home/smart-reviews-is.png",
           imageAlt: "Námskort í Nibomo með sýnilegu svari og valkostum til að meta minni",
         },
         {
@@ -77,7 +77,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "Sjáðu námsdagana í dagatalinu og haltu námslotunni gangandi. Hver upprifjun er enn eitt skref í átt að markmiðinu þínu.",
           linkLabel: "Skoða framfarir",
-          imagePath: "/home/your-progress.png",
+          imagePath: "/home/your-progress-is.png",
           imageAlt: "Framfaraskjár Nibomo með dagatali samfelldra námsdaga og stigatöflu",
         }
       ],

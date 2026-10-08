@@ -46,7 +46,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "Descrie un subiect sau atașează notițele tale. AI te ajută să transformi materialul în fișe cu întrebări și răspunsuri.",
           linkLabel: "Creează fișe",
-          imagePath: "/home/ai-flashcards.png",
+          imagePath: "/home/ai-flashcards-ro.png",
           imageAlt: "Chatul AI din Nibomo creează fișe dintr-un subiect sau din notițe atașate",
         },
         {
@@ -56,7 +56,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "Deschide o fișă și încearcă să-ți amintești răspunsul înainte de a-l afișa. Învață în ritmul tău, câte o fișă pe rând.",
           linkLabel: "Începe să înveți",
-          imagePath: "/home/start-learning.png",
+          imagePath: "/home/start-learning-ro.png",
           imageAlt: "Fișă de recapitulare Nibomo cu un buton pentru afișarea răspunsului",
         },
         {
@@ -67,7 +67,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "Afișează răspunsul și indică cât de ușor ți l-ai amintit. Nibomo readuce fișele dificile mai devreme și pe cele familiare mai târziu.",
           linkLabel: "Recapitulează fișele",
-          imagePath: "/home/smart-reviews.png",
+          imagePath: "/home/smart-reviews-ro.png",
           imageAlt: "Fișă Nibomo cu răspunsul afișat și opțiuni de evaluare a memorării",
         },
         {
@@ -77,7 +77,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "Vezi zilele de studiu în calendar și continuă seria. Fiecare recapitulare este încă un pas spre obiectivul tău.",
           linkLabel: "Vezi progresul",
-          imagePath: "/home/your-progress.png",
+          imagePath: "/home/your-progress-ro.png",
           imageAlt: "Ecranul de progres Nibomo cu un calendar al zilelor consecutive de studiu și un clasament",
         }
       ],
