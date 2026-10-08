@@ -47,7 +47,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "テーマを説明するか、ノートを添付してください。AIが教材を質問と答えのあるフラッシュカードにするお手伝いをします。",
           linkLabel: "フラッシュカードを作成",
-          imagePath: "/home/ai-flashcards.png",
+          imagePath: "/home/ai-flashcards-ja.png",
           imageAlt: "テーマや添付したノートからフラッシュカードを作成するNibomoのAIチャット",
         },
         {
@@ -57,7 +57,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "フラッシュカードを開き、答えを表示する前に思い出してみましょう。一枚ずつ、自分のペースで学習できます。",
           linkLabel: "学習を始める",
-          imagePath: "/home/start-learning.png",
+          imagePath: "/home/start-learning-ja.png",
           imageAlt: "答えを表示するボタンがあるNibomoの復習用フラッシュカード",
         },
         {
@@ -68,7 +68,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "答えを表示し、どのくらい簡単に思い出せたかを選びましょう。Nibomoは難しいカードを早めに、覚えているカードを後で再び表示します。",
           linkLabel: "フラッシュカードを復習",
-          imagePath: "/home/smart-reviews.png",
+          imagePath: "/home/smart-reviews-ja.png",
           imageAlt: "答えと思い出しやすさの評価ボタンが表示されたNibomoのフラッシュカード",
         },
         {
@@ -78,7 +78,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "カレンダーで学習した日を確認し、連続学習を続けましょう。復習を重ねるたびに、目標に一歩近づきます。",
           linkLabel: "進捗を確認",
-          imagePath: "/home/your-progress.png",
+          imagePath: "/home/your-progress-ja.png",
           imageAlt: "連続学習カレンダーとランキングがあるNibomoの進捗画面",
         }
       ],

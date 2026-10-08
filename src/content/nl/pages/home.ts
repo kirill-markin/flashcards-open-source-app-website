@@ -46,7 +46,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "Beschrijf een onderwerp of voeg je notities toe. AI helpt je materiaal om te zetten in flashcards met vragen en antwoorden.",
           linkLabel: "Flashcards maken",
-          imagePath: "/home/ai-flashcards.png",
+          imagePath: "/home/ai-flashcards-nl.png",
           imageAlt: "Nibomo AI-chat die flashcards maakt van een onderwerp of bijgevoegde notities",
         },
         {
@@ -56,7 +56,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "Open een flashcard en probeer het antwoord te herinneren voordat je het toont. Leer in je eigen tempo, één kaart tegelijk.",
           linkLabel: "Begin met leren",
-          imagePath: "/home/start-learning.png",
+          imagePath: "/home/start-learning-nl.png",
           imageAlt: "Een Nibomo-herhaalkaart met een knop om het antwoord te tonen",
         },
         {
@@ -67,7 +67,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "Toon het antwoord en geef aan hoe gemakkelijk je het herinnerde. Nibomo laat moeilijke kaarten eerder en bekende kaarten later terugkomen.",
           linkLabel: "Flashcards herhalen",
-          imagePath: "/home/smart-reviews.png",
+          imagePath: "/home/smart-reviews-nl.png",
           imageAlt: "Een Nibomo-flashcard met zichtbaar antwoord en beoordelingsopties voor herinnering",
         },
         {
@@ -77,7 +77,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "Bekijk je studiedagen in de kalender en houd je reeks vol. Elke herhaling brengt je een stap dichter bij je doel.",
           linkLabel: "Je voortgang bekijken",
-          imagePath: "/home/your-progress.png",
+          imagePath: "/home/your-progress-nl.png",
           imageAlt: "Nibomo-voortgangsscherm met een kalender van opeenvolgende studiedagen en een ranglijst",
         }
       ],

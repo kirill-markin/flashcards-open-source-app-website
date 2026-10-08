@@ -46,7 +46,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "Mô tả một chủ đề hoặc đính kèm ghi chú. AI giúp biến tài liệu của bạn thành thẻ ghi nhớ có câu hỏi và câu trả lời.",
           linkLabel: "Tạo thẻ ghi nhớ",
-          imagePath: "/home/ai-flashcards.png",
+          imagePath: "/home/ai-flashcards-vi.png",
           imageAlt: "Trò chuyện AI của Nibomo tạo thẻ ghi nhớ từ một chủ đề hoặc ghi chú đính kèm",
         },
         {
@@ -56,7 +56,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "Mở một thẻ ghi nhớ và thử nhớ lại câu trả lời trước khi xem đáp án. Học theo nhịp độ của bạn, từng thẻ một.",
           linkLabel: "Bắt đầu học",
-          imagePath: "/home/start-learning.png",
+          imagePath: "/home/start-learning-vi.png",
           imageAlt: "Thẻ ôn tập Nibomo có nút hiển thị đáp án",
         },
         {
@@ -67,7 +67,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "Xem đáp án và đánh dấu mức độ dễ dàng khi nhớ lại. Nibomo đưa các thẻ khó trở lại sớm hơn và các thẻ quen thuộc muộn hơn.",
           linkLabel: "Ôn tập thẻ ghi nhớ",
-          imagePath: "/home/smart-reviews.png",
+          imagePath: "/home/smart-reviews-vi.png",
           imageAlt: "Thẻ Nibomo với đáp án và các lựa chọn đánh giá khả năng nhớ lại",
         },
         {
@@ -77,7 +77,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "Xem các ngày học trên lịch và duy trì chuỗi ngày học. Mỗi lần ôn tập là một bước nữa đến mục tiêu của bạn.",
           linkLabel: "Xem tiến độ",
-          imagePath: "/home/your-progress.png",
+          imagePath: "/home/your-progress-vi.png",
           imageAlt: "Màn hình tiến độ Nibomo với lịch chuỗi ngày học và bảng xếp hạng",
         }
       ],

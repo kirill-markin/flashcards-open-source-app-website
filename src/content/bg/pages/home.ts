@@ -47,7 +47,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "Опишете тема или прикачете бележките си. AI помага да превърнете материала в карти с въпроси и отговори.",
           linkLabel: "Създайте карти",
-          imagePath: "/home/ai-flashcards.png",
+          imagePath: "/home/ai-flashcards-bg.png",
           imageAlt: "AI чатът на Nibomo създава карти от тема или прикачени бележки",
         },
         {
@@ -57,7 +57,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "Отворете карта и се опитайте да си спомните отговора, преди да го покажете. Учете със свое темпо, карта по карта.",
           linkLabel: "Започнете да учите",
-          imagePath: "/home/start-learning.png",
+          imagePath: "/home/start-learning-bg.png",
           imageAlt: "Карта за преговор в Nibomo с бутон за показване на отговора",
         },
         {
@@ -68,7 +68,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "Покажете отговора и отбележете колко лесно сте си го спомнили. Nibomo връща трудните карти по-рано, а познатите — по-късно.",
           linkLabel: "Преговорете картите",
-          imagePath: "/home/smart-reviews.png",
+          imagePath: "/home/smart-reviews-bg.png",
           imageAlt: "Карта на Nibomo с показан отговор и опции за оценка на запомнянето",
         },
         {
@@ -78,7 +78,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "Вижте дните си на учене в календара и поддържайте поредицата. Всеки преговор е още една стъпка към вашата цел.",
           linkLabel: "Вижте напредъка си",
-          imagePath: "/home/your-progress.png",
+          imagePath: "/home/your-progress-bg.png",
           imageAlt: "Екран за напредъка в Nibomo с календар на поредните дни на учене и класация",
         }
       ],

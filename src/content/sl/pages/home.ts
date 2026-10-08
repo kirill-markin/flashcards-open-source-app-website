@@ -46,7 +46,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "Opišite temo ali priložite svoje zapiske. UI vam pomaga gradivo pretvoriti v učne kartice z vprašanji in odgovori.",
           linkLabel: "Ustvarite učne kartice",
-          imagePath: "/home/ai-flashcards.png",
+          imagePath: "/home/ai-flashcards-sl.png",
           imageAlt: "Klepet z UI v Nibomu ustvari učne kartice iz teme ali priloženih zapiskov",
         },
         {
@@ -56,7 +56,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "Odprite učno kartico in poskusite priklicati odgovor, preden ga prikažete. Učite se v svojem tempu, po eno kartico naenkrat.",
           linkLabel: "Začnite se učiti",
-          imagePath: "/home/start-learning.png",
+          imagePath: "/home/start-learning-sl.png",
           imageAlt: "Kartica za ponavljanje v Nibomu z gumbom za prikaz odgovora",
         },
         {
@@ -67,7 +67,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "Prikažite odgovor in označite, kako zlahka ste ga priklicali. Nibomo težke kartice znova pokaže prej, znane pa pozneje.",
           linkLabel: "Ponovite učne kartice",
-          imagePath: "/home/smart-reviews.png",
+          imagePath: "/home/smart-reviews-sl.png",
           imageAlt: "Kartica Nibomo s prikazanim odgovorom in možnostmi za oceno priklica",
         },
         {
@@ -77,7 +77,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "Oglejte si učne dni v koledarju in nadaljujte svoj niz. Vsako ponavljanje je še en korak proti vašemu cilju.",
           linkLabel: "Oglejte si napredek",
-          imagePath: "/home/your-progress.png",
+          imagePath: "/home/your-progress-sl.png",
           imageAlt: "Prikaz napredka v Nibomu s koledarjem zaporednih učnih dni in lestvico",
         }
       ],

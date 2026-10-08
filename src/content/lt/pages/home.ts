@@ -46,7 +46,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "Aprašykite temą arba pridėkite savo užrašus. DI padeda paversti jūsų medžiagą mokymosi kortelėmis su klausimais ir atsakymais.",
           linkLabel: "Kurti mokymosi korteles",
-          imagePath: "/home/ai-flashcards.png",
+          imagePath: "/home/ai-flashcards-lt.png",
           imageAlt: "Nibomo DI pokalbis kuria mokymosi korteles iš temos arba pridėtų užrašų",
         },
         {
@@ -56,7 +56,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "Atverkite mokymosi kortelę ir pabandykite prisiminti atsakymą prieš jį parodydami. Mokykitės savo tempu, po vieną kortelę.",
           linkLabel: "Pradėti mokytis",
-          imagePath: "/home/start-learning.png",
+          imagePath: "/home/start-learning-lt.png",
           imageAlt: "Nibomo kartojimo kortelė su atsakymo parodymo mygtuku",
         },
         {
@@ -67,7 +67,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "Parodykite atsakymą ir pažymėkite, kaip lengvai jį prisiminėte. Nibomo sudėtingas korteles vėl parodo anksčiau, o pažįstamas — vėliau.",
           linkLabel: "Kartoti mokymosi korteles",
-          imagePath: "/home/smart-reviews.png",
+          imagePath: "/home/smart-reviews-lt.png",
           imageAlt: "Nibomo kortelė su parodytu atsakymu ir prisiminimo vertinimo parinktimis",
         },
         {
@@ -77,7 +77,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "Kalendoriuje matykite mokymosi dienas ir išlaikykite nenutrūkstamą jų seką. Kiekvienas kartojimas — dar vienas žingsnis jūsų tikslo link.",
           linkLabel: "Peržiūrėti pažangą",
-          imagePath: "/home/your-progress.png",
+          imagePath: "/home/your-progress-lt.png",
           imageAlt: "Nibomo pažangos ekranas su iš eilės einančių mokymosi dienų kalendoriumi ir reitingų lentele",
         }
       ],

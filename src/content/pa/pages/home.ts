@@ -46,7 +46,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "ਕਿਸੇ ਵਿਸ਼ੇ ਦਾ ਵਰਣਨ ਕਰੋ ਜਾਂ ਆਪਣੇ ਨੋਟ ਜੋੜੋ। AI ਤੁਹਾਡੀ ਸਮੱਗਰੀ ਨੂੰ ਸਵਾਲਾਂ ਅਤੇ ਜਵਾਬਾਂ ਵਾਲੇ ਫਲੈਸ਼ਕਾਰਡਾਂ ਵਿੱਚ ਬਦਲਣ ਵਿੱਚ ਮਦਦ ਕਰਦਾ ਹੈ।",
           linkLabel: "ਫਲੈਸ਼ਕਾਰਡ ਬਣਾਓ",
-          imagePath: "/home/ai-flashcards.png",
+          imagePath: "/home/ai-flashcards-pa.png",
           imageAlt: "ਵਿਸ਼ੇ ਜਾਂ ਜੋੜੇ ਨੋਟਾਂ ਤੋਂ ਫਲੈਸ਼ਕਾਰਡ ਬਣਾਉਂਦੀ Nibomo ਦੀ AI ਚੈਟ",
         },
         {
@@ -56,7 +56,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "ਫਲੈਸ਼ਕਾਰਡ ਖੋਲ੍ਹੋ ਅਤੇ ਜਵਾਬ ਦੇਖਣ ਤੋਂ ਪਹਿਲਾਂ ਉਸ ਨੂੰ ਯਾਦ ਕਰਨ ਦੀ ਕੋਸ਼ਿਸ਼ ਕਰੋ। ਆਪਣੀ ਰਫ਼ਤਾਰ ਨਾਲ ਸਿੱਖੋ, ਇੱਕ ਵਾਰ ਵਿੱਚ ਇੱਕ ਕਾਰਡ।",
           linkLabel: "ਸਿੱਖਣਾ ਸ਼ੁਰੂ ਕਰੋ",
-          imagePath: "/home/start-learning.png",
+          imagePath: "/home/start-learning-pa.png",
           imageAlt: "ਜਵਾਬ ਦਿਖਾਉਣ ਦੇ ਬਟਨ ਵਾਲਾ Nibomo ਰਿਵਿਊ ਫਲੈਸ਼ਕਾਰਡ",
         },
         {
@@ -67,7 +67,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "ਜਵਾਬ ਦੇਖੋ ਅਤੇ ਦੱਸੋ ਕਿ ਉਹ ਕਿੰਨੀ ਆਸਾਨੀ ਨਾਲ ਯਾਦ ਆਇਆ। Nibomo ਔਖੇ ਕਾਰਡ ਜਲਦੀ ਅਤੇ ਜਾਣੇ-ਪਛਾਣੇ ਕਾਰਡ ਬਾਅਦ ਵਿੱਚ ਦੁਬਾਰਾ ਦਿਖਾਉਂਦਾ ਹੈ।",
           linkLabel: "ਫਲੈਸ਼ਕਾਰਡ ਰਿਵਿਊ ਕਰੋ",
-          imagePath: "/home/smart-reviews.png",
+          imagePath: "/home/smart-reviews-pa.png",
           imageAlt: "ਜਵਾਬ ਅਤੇ ਯਾਦ ਕਰਨ ਦਾ ਮੁਲਾਂਕਣ ਕਰਨ ਦੇ ਵਿਕਲਪਾਂ ਵਾਲਾ Nibomo ਫਲੈਸ਼ਕਾਰਡ",
         },
         {
@@ -77,7 +77,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "ਕੈਲੰਡਰ ਵਿੱਚ ਪੜ੍ਹਾਈ ਦੇ ਦਿਨ ਦੇਖੋ ਅਤੇ ਲਗਾਤਾਰ ਸਿੱਖਣ ਦਾ ਸਿਲਸਿਲਾ ਜਾਰੀ ਰੱਖੋ। ਹਰ ਰਿਵਿਊ ਤੁਹਾਡੇ ਟੀਚੇ ਵੱਲ ਇੱਕ ਹੋਰ ਕਦਮ ਹੈ।",
           linkLabel: "ਆਪਣੀ ਤਰੱਕੀ ਦੇਖੋ",
-          imagePath: "/home/your-progress.png",
+          imagePath: "/home/your-progress-pa.png",
           imageAlt: "ਲਗਾਤਾਰ ਪੜ੍ਹਾਈ ਦੇ ਦਿਨਾਂ ਦੇ ਕੈਲੰਡਰ ਅਤੇ ਦਰਜਾਬੰਦੀ ਵਾਲੀ Nibomo ਤਰੱਕੀ ਸਕ੍ਰੀਨ",
         }
       ],

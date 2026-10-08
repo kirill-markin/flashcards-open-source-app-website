@@ -46,7 +46,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "کسی موضوع کی وضاحت کریں یا اپنے نوٹس منسلک کریں۔ AI آپ کے مواد کو سوالات اور جوابات والے فلیش کارڈز میں بدلنے میں مدد کرتا ہے۔",
           linkLabel: "فلیش کارڈز بنائیں",
-          imagePath: "/home/ai-flashcards.png",
+          imagePath: "/home/ai-flashcards-ur.png",
           imageAlt: "Nibomo کی AI چیٹ موضوع یا منسلک نوٹس سے فلیش کارڈز بناتی ہے",
         },
         {
@@ -56,7 +56,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "فلیش کارڈ کھولیں اور جواب دیکھنے سے پہلے اسے یاد کرنے کی کوشش کریں۔ اپنی رفتار سے سیکھیں، ایک وقت میں ایک کارڈ۔",
           linkLabel: "سیکھنا شروع کریں",
-          imagePath: "/home/start-learning.png",
+          imagePath: "/home/start-learning-ur.png",
           imageAlt: "جواب دکھانے کے بٹن والا Nibomo ریویو فلیش کارڈ",
         },
         {
@@ -67,7 +67,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "جواب دیکھیں اور بتائیں کہ اسے یاد کرنا کتنا آسان تھا۔ Nibomo مشکل کارڈز جلد اور مانوس کارڈز بعد میں دوبارہ دکھاتا ہے۔",
           linkLabel: "فلیش کارڈز کا ریویو کریں",
-          imagePath: "/home/smart-reviews.png",
+          imagePath: "/home/smart-reviews-ur.png",
           imageAlt: "جواب اور یاد کرنے کی آسانی کے انتخاب والا Nibomo فلیش کارڈ",
         },
         {
@@ -77,7 +77,7 @@ export const HOME_PAGE_CONTENT: PageContent = {
           ],
           description: "کیلنڈر میں پڑھائی کے دن دیکھیں اور مسلسل سیکھنے کا سلسلہ برقرار رکھیں۔ ہر ریویو آپ کے مقصد کی طرف ایک اور قدم ہے۔",
           linkLabel: "اپنی پیش رفت دیکھیں",
-          imagePath: "/home/your-progress.png",
+          imagePath: "/home/your-progress-ur.png",
           imageAlt: "مسلسل پڑھائی کے دنوں کے کیلنڈر اور درجہ بندی والی Nibomo پیش رفت کی اسکرین",
         }
       ],
