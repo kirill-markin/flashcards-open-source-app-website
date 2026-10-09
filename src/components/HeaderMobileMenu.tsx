@@ -11,11 +11,15 @@ import styles from "./Header.module.css";
 interface HeaderMobileMenuProps {
   readonly headerLinks: ReadonlyArray<HeaderLink>;
   readonly locale: AppLocale;
+  readonly signupLabel: string;
+  readonly hideLogin: boolean;
 }
 
 export const HeaderMobileMenu: React.FC<HeaderMobileMenuProps> = ({
   headerLinks,
   locale,
+  signupLabel,
+  hideLogin,
 }) => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState<boolean>(false);
   const uiCopy = getUiCopy(locale);
@@ -53,7 +57,8 @@ export const HeaderMobileMenu: React.FC<HeaderMobileMenuProps> = ({
             <AuthButton
               locale={locale}
               placement="header_mobile"
-              signupLabel={uiCopy.auth.signUpFree}
+              signupLabel={signupLabel}
+              hideLogin={hideLogin}
             />
           </div>
         </nav>

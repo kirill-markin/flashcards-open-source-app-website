@@ -13,12 +13,15 @@ import styles from "./AgentDirectoryLinks.module.css";
 interface AgentDirectoryLinksProps {
   readonly locale: AppLocale;
   readonly documentationLink?: ContentLink;
+  readonly appearance?: "default" | "home";
 }
 
 export function AgentDirectoryLinks({
   locale,
   documentationLink,
+  appearance = "default",
 }: AgentDirectoryLinksProps): React.JSX.Element {
+  const homeAppearance = appearance === "home" || documentationLink !== undefined;
   const openAiEntry = (
     <div className={styles.entry}>
       <button
@@ -56,12 +59,13 @@ export function AgentDirectoryLinks({
   ));
 
   return (
-    <div className={documentationLink === undefined
-      ? styles.directories
-      : `${styles.directories} ${styles.homeDesign}`}>
-      {documentationLink === undefined ? null : connectorEntries}
+    <div className={homeAppearance
+      ? `${styles.directories} ${styles.homeDesign}`
+      : styles.directories}>
+      {homeAppearance ? connectorEntries : null}
       {openAiEntry}
-      {documentationLink === undefined ? connectorEntries : (
+      {homeAppearance ? null : connectorEntries}
+      {documentationLink === undefined ? null : (
         <Link href={documentationLink.href} className={`${styles.directory} ${styles.documentation}`}>
           {documentationLink.label}
         </Link>
