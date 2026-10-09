@@ -2,7 +2,7 @@
   padding-inline: 80px;
   padding-block: 40px 120px;
   background: #f6f6f6;
-  color: #fff;
+  color: var(--text);
   color-scheme: light;
 }
 
