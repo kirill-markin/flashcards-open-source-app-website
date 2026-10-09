@@ -61,7 +61,7 @@ P(B | A) means “the probability of B given A.” For P(A) > 0, calculate it as
 
 **P(B | A) = P(A ∩ B) / P(A) = (6/30) / (10/30) = 6/10.**
 
-Use ten as the count denominator because the given information restricts your attention to red tokens. Using 6/30 would answer a different question: the probability of selecting a token that is both red and round before learning its color.
+Use ten as the count denominator because the given information restricts your attention to red tokens. Using 6/30 would answer a different question: the probability of selecting a token that is both red and round before learning its color. If choosing the given group is the missed step, use the [conditional probability two-way table flashcards](/catalog/packages/conditional-probability-two-way-table-flashcards/) for focused denominator practice.
 
 Independence describes a relationship between probabilities. It doesn't establish a causal claim about color or shape.
 
