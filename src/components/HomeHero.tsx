@@ -1,8 +1,9 @@
+import Image from "next/image";
+import Link from "next/link";
 import { AgentDirectoryLinks } from "@/components/AgentDirectoryLinks";
-import { AuthButton } from "@/components/AuthButton";
 import { HumanPlatformLinks } from "@/components/HumanPlatformLinks";
 import { TrackedMcpEndpointCopyField } from "@/components/TrackedMcpEndpointCopyField";
-import type { HeroSection } from "@/lib/content/types";
+import type { AppWalkthroughSection, HeroSection } from "@/lib/content/types";
 import type { AppLocale } from "@/lib/i18n";
 import { getAvailableLocalizedPathname } from "@/lib/routeTranslations";
 import type { StoreQrCodes } from "@/lib/storeQrCodes";
@@ -13,57 +14,64 @@ interface HomeHeroProps {
   readonly locale: AppLocale;
   readonly section: HeroSection;
   readonly storeQrCodes: StoreQrCodes;
+  readonly walkthrough: AppWalkthroughSection;
 }
 
-export function HomeHero({
-  locale,
-  section,
-  storeQrCodes,
-}: HomeHeroProps): React.JSX.Element {
+export function HomeHero(props: HomeHeroProps): React.JSX.Element {
+  const { locale, section, storeQrCodes, walkthrough } = props;
   const uiCopy = getUiCopy(locale);
 
   return (
     <section
       id="home-hero"
       aria-labelledby="home-hero-title"
-      className={styles.hero}
+      className={`${styles.hero} ${styles.screensVariant}`}
     >
-      <div className={styles.main}>
-        <div>
-          <h1 id="home-hero-title" className={styles.title}>
-            {section.titleLines.map((line) => <span key={line}>{line}</span>)}
-          </h1>
+      <div className={styles.intro}>
+        <div className={styles.main}>
           <p className={styles.eyebrow}>{section.eyebrow}</p>
+          <h1 id="home-hero-title" className={styles.title}>
+            {section.titleLines.map((line) => <span key={line}>{line}{" "}</span>)}
+          </h1>
           <p className={styles.description}>{section.subtitle}</p>
+          <div className={styles.humanAccess}>
+            <HumanPlatformLinks
+              locale={locale}
+              storeQrCodes={storeQrCodes}
+              appearance="badges"
+            />
+          </div>
         </div>
-        <div className={styles.cta}>
-          <AuthButton
-            locale={locale}
-            placement="home_hero"
-            signupLabel={uiCopy.auth.startStudyingFree}
-          />
-          <p className={styles.trustLine}>{section.trustLine}</p>
-        </div>
+        <figure className={styles.preview} aria-label={uiCopy.home.appPreviewAriaLabel}>
+          <div className={styles.screens}>
+            {walkthrough.items.filter((_, index) => index === 0 || index === 2).map((item) => (
+              <Image
+                key={item.imagePath}
+                className={styles.screen}
+                src={item.imagePath}
+                alt={item.imageAlt}
+                width={582}
+                height={858}
+                sizes="(max-width: 700px) 42vw, (max-width: 960px) 230px, 260px"
+                loading="eager"
+              />
+            ))}
+          </div>
+        </figure>
       </div>
       <div className={styles.aside}>
-        <div className={styles.humanAccess}>
-          <h2 className={styles.hintTitle}>{uiCopy.home.humanSectionLabel}</h2>
-          <HumanPlatformLinks
-            locale={locale}
-            storeQrCodes={storeQrCodes}
-            appearance="badges"
-          />
-        </div>
         <div className={styles.agentAccess}>
           <h2 className={styles.hintTitle}>{uiCopy.home.aiAgentSectionLabel}</h2>
           <p className={styles.agentDescription}>{uiCopy.home.agentHintDescription}</p>
-          <AgentDirectoryLinks
-            locale={locale}
-            documentationLink={{
-              label: uiCopy.footer.documentationLabel,
-              href: getAvailableLocalizedPathname(locale, "/docs/mcp-connector/"),
-            }}
-          />
+        </div>
+        <Link
+          className={styles.documentation}
+          href={getAvailableLocalizedPathname(locale, "/docs/mcp-connector/")}
+        >
+          {uiCopy.footer.documentationLabel}<span aria-hidden="true"> →</span>
+        </Link>
+        <div className={styles.agentLinks}>
+          <AgentDirectoryLinks locale={locale} appearance="home" />
         </div>
         <div className={styles.endpoint}>
           {section.agentConnectors.map((connector) => (
