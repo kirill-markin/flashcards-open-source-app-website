@@ -2,6 +2,7 @@ import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
 import { LocaleSuggestionBanner } from "@/components/LocaleSuggestionBanner";
 import type { AppLocale } from "@/lib/i18n";
+import { getUiCopy } from "@/lib/uiCopy";
 import {
   getLocaleSuggestionTargetsForLocales,
   getRouteLocales,
@@ -31,9 +32,16 @@ function SiteFrameLayout({
   routeLocales,
   routePathname,
 }: SiteFrameLayoutProps): React.JSX.Element {
+  const isHomePage = routePathname === "/";
+  const uiCopy = getUiCopy(locale);
+
   return (
     <>
-      <Header locale={locale} />
+      <Header
+        locale={locale}
+        signupLabel={isHomePage ? uiCopy.auth.tryNow : undefined}
+        hideLogin={isHomePage}
+      />
       <main>{children}</main>
       <Footer
         locale={locale}

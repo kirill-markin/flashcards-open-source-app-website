@@ -9,11 +9,14 @@ import styles from "./Header.module.css";
 
 interface HeaderProps {
   readonly locale: AppLocale;
+  readonly signupLabel?: string;
+  readonly hideLogin?: boolean;
 }
 
-export const Header: React.FC<HeaderProps> = ({ locale }) => {
+export const Header: React.FC<HeaderProps> = ({ locale, signupLabel, hideLogin = false }) => {
   const headerLinks = getHeaderLinks(locale);
   const uiCopy = getUiCopy(locale);
+  const resolvedSignupLabel = signupLabel ?? uiCopy.auth.signUpFree;
 
   return (
     <header className={styles.header}>
@@ -33,11 +36,17 @@ export const Header: React.FC<HeaderProps> = ({ locale }) => {
           <AuthButton
             locale={locale}
             placement="header_desktop"
-            signupLabel={uiCopy.auth.signUpFree}
+            signupLabel={resolvedSignupLabel}
+            hideLogin={hideLogin}
           />
         </div>
 
-        <HeaderMobileMenu locale={locale} headerLinks={headerLinks} />
+        <HeaderMobileMenu
+          locale={locale}
+          headerLinks={headerLinks}
+          signupLabel={resolvedSignupLabel}
+          hideLogin={hideLogin}
+        />
       </div>
     </header>
   );
