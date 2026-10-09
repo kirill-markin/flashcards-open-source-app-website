@@ -117,7 +117,12 @@ function renderHomePage(
   return (
     <>
       <div className={homeStyles.page}>
-        <HomeHero locale={locale} section={heroSection} storeQrCodes={storeQrCodes} />
+        <HomeHero
+          locale={locale}
+          section={heroSection}
+          storeQrCodes={storeQrCodes}
+          walkthrough={walkthroughSection}
+        />
         <HomeAppWalkthrough locale={locale} section={walkthroughSection} />
       </div>
       <HomeKeyFeatures section={featureSection} />

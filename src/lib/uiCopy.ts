@@ -25,6 +25,7 @@ interface AppUiCopy {
     readonly openApp: string;
     readonly signUpFree: string;
     readonly startStudyingFree: string;
+    readonly tryNow: string;
   };
   readonly blog: {
     readonly breadcrumbLabel: string;
@@ -176,6 +177,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       toggleTitle: "Allow analytics cookies",
     },
     auth: {
+      tryNow: "Try Now",
       logIn: "Log In",
       openApp: "Open App",
       signUpFree: "Sign Up Free",
@@ -337,6 +339,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       toggleTitle: "Permitir cookies de analítica",
     },
     auth: {
+      tryNow: "Pruébalo ahora",
       logIn: "Iniciar sesión",
       openApp: "Abrir app",
       signUpFree: "Registrarse gratis",
@@ -498,6 +501,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       toggleTitle: "السماح بملفات تعريف الارتباط للتحليلات",
     },
     auth: {
+      tryNow: "جرّب الآن",
       logIn: "تسجيل الدخول",
       openApp: "فتح التطبيق",
       signUpFree: "التسجيل مجانًا",
@@ -658,6 +662,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       toggleTitle: "Analyse-Cookies erlauben",
     },
     auth: {
+      tryNow: "Jetzt ausprobieren",
       logIn: "Anmelden",
       openApp: "App öffnen",
       signUpFree: "Kostenlos starten",
@@ -819,6 +824,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       toggleTitle: "एनालिटिक्स कुकीज़ की अनुमति दें",
     },
     auth: {
+      tryNow: "अभी आज़माएँ",
       logIn: "लॉग इन",
       openApp: "ऐप खोलें",
       signUpFree: "मुफ़्त शुरू करें",
@@ -980,6 +986,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       toggleTitle: "分析用Cookieを許可",
     },
     auth: {
+      tryNow: "今すぐ試す",
       logIn: "ログイン",
       openApp: "アプリを開く",
       signUpFree: "無料で始める",
@@ -1141,6 +1148,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       toggleTitle: "Autoriser les cookies de mesure",
     },
     auth: {
+      tryNow: "Essayer maintenant",
       logIn: "Se connecter",
       openApp: "Ouvrir l'app",
       signUpFree: "S'inscrire gratuitement",
@@ -1302,6 +1310,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       toggleTitle: "Permitir cookies de análise",
     },
     auth: {
+      tryNow: "Experimente agora",
       logIn: "Entrar",
       openApp: "Abrir o app",
       signUpFree: "Criar conta grátis",
@@ -1463,6 +1472,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       toggleTitle: "Разрешить аналитические cookie",
     },
     auth: {
+      tryNow: "Попробовать",
       logIn: "Войти",
       openApp: "Открыть приложение",
       signUpFree: "Начать бесплатно",
@@ -1624,6 +1634,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       toggleTitle: "允许分析 Cookie",
     },
     auth: {
+      tryNow: "立即体验",
       logIn: "登录",
       openApp: "打开应用",
       signUpFree: "免费开始",
@@ -1782,6 +1793,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       toggleTitle: "Consenti i cookie di analisi",
     },
     auth: {
+      tryNow: "Prova ora",
       logIn: "Accedi",
       openApp: "Apri l'app",
       signUpFree: "Registrati gratis",
@@ -1943,6 +1955,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       toggleTitle: "분석 쿠키 허용",
     },
     auth: {
+      tryNow: "지금 사용해 보기",
       logIn: "로그인",
       openApp: "앱 열기",
       signUpFree: "무료로 가입",
@@ -2104,6 +2117,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       toggleTitle: "Izinkan cookie analitik",
     },
     auth: {
+      tryNow: "Coba sekarang",
       logIn: "Masuk",
       openApp: "Buka Aplikasi",
       signUpFree: "Daftar Gratis",
@@ -2265,6 +2279,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       toggleTitle: "Analiz çerezlerine izin ver",
     },
     auth: {
+      tryNow: "Şimdi deneyin",
       logIn: "Giriş Yap",
       openApp: "Uygulamayı Aç",
       signUpFree: "Ücretsiz Kaydol",
@@ -2426,6 +2441,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       toggleTitle: "Analytische cookies toestaan",
     },
     auth: {
+      tryNow: "Probeer nu",
       logIn: "Aanmelden",
       openApp: "App openen",
       signUpFree: "Gratis registreren",
@@ -2587,6 +2603,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       toggleTitle: "Zezwalaj na analityczne pliki cookie",
     },
     auth: {
+      tryNow: "Wypróbuj teraz",
       logIn: "Zaloguj się",
       openApp: "Otwórz aplikację",
       signUpFree: "Załóż darmowe konto",
@@ -2748,6 +2765,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       toggleTitle: "Cho phép cookie phân tích",
     },
     auth: {
+      tryNow: "Thử ngay",
       logIn: "Đăng nhập",
       openApp: "Mở ứng dụng",
       signUpFree: "Đăng ký miễn phí",
@@ -2909,6 +2927,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       toggleTitle: "อนุญาตคุกกี้วิเคราะห์",
     },
     auth: {
+      tryNow: "ลองเลย",
       logIn: "เข้าสู่ระบบ",
       openApp: "เปิดแอป",
       signUpFree: "สมัครใช้งานฟรี",
@@ -3070,6 +3089,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       toggleTitle: "Дозволити аналітичні cookie",
     },
     auth: {
+      tryNow: "Спробувати",
       logIn: "Увійти",
       openApp: "Відкрити застосунок",
       signUpFree: "Почати безкоштовно",
@@ -3231,6 +3251,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       toggleTitle: "לאפשר עוגיות ניתוח",
     },
     auth: {
+      tryNow: "נסו עכשיו",
       logIn: "התחברות",
       openApp: "פתיחת האפליקציה",
       signUpFree: "הרשמה בחינם",
@@ -3392,6 +3413,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       toggleTitle: "Tillåt analyscookies",
     },
     auth: {
+      tryNow: "Prova nu",
       logIn: "Logga in",
       openApp: "Öppna appen",
       signUpFree: "Skapa gratiskonto",
@@ -3553,6 +3575,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       toggleTitle: "Tillad analysecookies",
     },
     auth: {
+      tryNow: "Prøv nu",
       logIn: "Log ind",
       openApp: "Åbn app",
       signUpFree: "Opret gratis konto",
@@ -3714,6 +3737,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       toggleTitle: "Tillat informasjonskapsler for analyse",
     },
     auth: {
+      tryNow: "Prøv nå",
       logIn: "Logg inn",
       openApp: "Åpne appen",
       signUpFree: "Registrer deg gratis",
@@ -3875,6 +3899,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       toggleTitle: "Salli analytiikkaevästeet",
     },
     auth: {
+      tryNow: "Kokeile nyt",
       logIn: "Kirjaudu sisään",
       openApp: "Avaa sovellus",
       signUpFree: "Rekisteröidy ilmaiseksi",
@@ -4036,6 +4061,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       toggleTitle: "Povolit analytické cookies",
     },
     auth: {
+      tryNow: "Vyzkoušet",
       logIn: "Přihlásit se",
       openApp: "Otevřít aplikaci",
       signUpFree: "Zaregistrovat se zdarma",
@@ -4197,6 +4223,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       toggleTitle: "Να επιτρέπονται τα cookies ανάλυσης",
     },
     auth: {
+      tryNow: "Δοκιμάστε τώρα",
       logIn: "Σύνδεση",
       openApp: "Άνοιγμα εφαρμογής",
       signUpFree: "Δωρεάν εγγραφή",
@@ -4358,6 +4385,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       toggleTitle: "Permite cookie-urile de analiză",
     },
     auth: {
+      tryNow: "Încearcă acum",
       logIn: "Autentificare",
       openApp: "Deschide aplicația",
       signUpFree: "Înregistrare gratuită",
@@ -4519,6 +4547,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       toggleTitle: "Analitikai sütik engedélyezése",
     },
     auth: {
+      tryNow: "Próbáld ki",
       logIn: "Bejelentkezés",
       openApp: "Alkalmazás megnyitása",
       signUpFree: "Ingyenes regisztráció",
@@ -4680,6 +4709,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       toggleTitle: "اجازهٔ کوکی‌های تحلیلی",
     },
     auth: {
+      tryNow: "همین حالا امتحان کنید",
       logIn: "ورود",
       openApp: "باز کردن برنامه",
       signUpFree: "ثبت‌نام رایگان",
@@ -4841,6 +4871,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       toggleTitle: "Permet les galetes d'analítica",
     },
     auth: {
+      tryNow: "Prova-ho ara",
       logIn: "Inicia la sessió",
       openApp: "Obre l'app",
       signUpFree: "Registra't gratis",
@@ -5002,6 +5033,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       toggleTitle: "অ্যানালিটিক্স কুকির অনুমতি দিন",
     },
     auth: {
+      tryNow: "এখনই চেষ্টা করুন",
       logIn: "লগ ইন",
       openApp: "অ্যাপ খুলুন",
       signUpFree: "ফ্রি সাইন আপ",
@@ -5162,6 +5194,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       toggleTitle: "એનાલિટિક્સ કૂકીઝને મંજૂરી આપો",
     },
     auth: {
+      tryNow: "હમણાં અજમાવો",
       logIn: "લૉગ ઇન",
       openApp: "ઍપ ખોલો",
       signUpFree: "મફત નોંધણી",
@@ -5323,6 +5356,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       toggleTitle: "ಅನಾಲಿಟಿಕ್ಸ್ ಕುಕೀಗಳನ್ನು ಅನುಮತಿಸಿ",
     },
     auth: {
+      tryNow: "ಈಗ ಪ್ರಯತ್ನಿಸಿ",
       logIn: "ಲಾಗ್ ಇನ್",
       openApp: "ಆ್ಯಪ್ ತೆರೆಯಿರಿ",
       signUpFree: "ಉಚಿತ ನೋಂದಣಿ",
@@ -5484,6 +5518,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       toggleTitle: "അനലിറ്റിക്സ് കുക്കികൾ അനുവദിക്കുക",
     },
     auth: {
+      tryNow: "ഇപ്പോൾ പരീക്ഷിക്കൂ",
       logIn: "ലോഗ് ഇൻ",
       openApp: "ആപ്പ് തുറക്കുക",
       signUpFree: "സൗജന്യമായി രജിസ്റ്റർ ചെയ്യുക",
@@ -5649,6 +5684,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       toggleTitle: "ॲनालिटिक्स कुकीजना परवानगी द्या",
     },
     auth: {
+      tryNow: "आता वापरून पहा",
       logIn: "लॉग इन",
       openApp: "ॲप उघडा",
       signUpFree: "मोफत नोंदणी",
@@ -5809,6 +5845,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       toggleTitle: "ਐਨਾਲਿਟਿਕਸ ਕੂਕੀਜ਼ ਦੀ ਇਜਾਜ਼ਤ ਦਿਓ",
     },
     auth: {
+      tryNow: "ਹੁਣੇ ਅਜ਼ਮਾਓ",
       logIn: "ਲੌਗ ਇਨ",
       openApp: "ਐਪ ਖੋਲ੍ਹੋ",
       signUpFree: "ਮੁਫ਼ਤ ਸਾਈਨ ਅੱਪ",
@@ -5969,6 +6006,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       toggleTitle: "பகுப்பாய்வு குக்கீகளை அனுமதி",
     },
     auth: {
+      tryNow: "இப்போதே முயற்சிக்கவும்",
       logIn: "உள்நுழை",
       openApp: "செயலியைத் திற",
       signUpFree: "இலவசமாகப் பதிவு செய்",
@@ -6132,6 +6170,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       toggleTitle: "అనలిటిక్స్ కుకీలను అనుమతించండి",
     },
     auth: {
+      tryNow: "ఇప్పుడే ప్రయత్నించండి",
       logIn: "లాగ్ ఇన్",
       openApp: "యాప్ తెరువు",
       signUpFree: "ఉచితంగా నమోదు",
@@ -6294,6 +6333,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       toggleTitle: "اینالیٹکس کوکیز کی اجازت دیں",
     },
     auth: {
+      tryNow: "ابھی آزمائیں",
       logIn: "لاگ اِن",
       openApp: "ایپ کھولیں",
       signUpFree: "مفت سائن اَپ",
@@ -6455,6 +6495,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       toggleTitle: "Ruhusu vidakuzi vya uchanganuzi",
     },
     auth: {
+      tryNow: "Jaribu sasa",
       logIn: "Ingia",
       openApp: "Fungua programu",
       signUpFree: "Jisajili bila malipo",
@@ -6617,6 +6658,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       toggleTitle: "Разрешаване на аналитични бисквитки",
     },
     auth: {
+      tryNow: "Изпробвайте сега",
       logIn: "Вход",
       openApp: "Отваряне на приложението",
       signUpFree: "Безплатна регистрация",
@@ -6778,6 +6820,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       toggleTitle: "Luba analüütikaküpsised",
     },
     auth: {
+      tryNow: "Proovi kohe",
       logIn: "Logi sisse",
       openApp: "Ava rakendus",
       signUpFree: "Registreeru tasuta",
@@ -6939,6 +6982,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       toggleTitle: "Dopusti kolačiće za analitiku",
     },
     auth: {
+      tryNow: "Isprobajte sada",
       logIn: "Prijava",
       openApp: "Otvori aplikaciju",
       signUpFree: "Besplatna registracija",
@@ -7100,6 +7144,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       toggleTitle: "Leyfa greiningarvafrakökur",
     },
     auth: {
+      tryNow: "Prófaðu núna",
       logIn: "Skrá inn",
       openApp: "Opna forritið",
       signUpFree: "Stofna ókeypis aðgang",
@@ -7261,6 +7306,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       toggleTitle: "Leisti analitikos slapukus",
     },
     auth: {
+      tryNow: "Išbandykite dabar",
       logIn: "Prisijungti",
       openApp: "Atidaryti programėlę",
       signUpFree: "Registruotis nemokamai",
@@ -7422,6 +7468,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       toggleTitle: "Atļaut analītikas sīkdatnes",
     },
     auth: {
+      tryNow: "Izmēģini tagad",
       logIn: "Pieteikties",
       openApp: "Atvērt lietotni",
       signUpFree: "Reģistrēties bez maksas",
@@ -7583,6 +7630,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       toggleTitle: "Povoliť analytické cookies",
     },
     auth: {
+      tryNow: "Vyskúšať",
       logIn: "Prihlásiť sa",
       openApp: "Otvoriť aplikáciu",
       signUpFree: "Zaregistrovať sa zadarmo",
@@ -7744,6 +7792,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       toggleTitle: "Dovoli analitične piškotke",
     },
     auth: {
+      tryNow: "Preizkusite zdaj",
       logIn: "Prijava",
       openApp: "Odpri aplikacijo",
       signUpFree: "Brezplačna registracija",
@@ -7905,6 +7954,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       toggleTitle: "Vumela amakhukhi okuhlaziya",
     },
     auth: {
+      tryNow: "Zama manje",
       logIn: "Ngena",
       openApp: "Vula uhlelo",
       signUpFree: "Bhalisa mahhala",

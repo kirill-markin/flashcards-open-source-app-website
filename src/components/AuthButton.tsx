@@ -16,12 +16,14 @@ interface AuthButtonProps {
   readonly locale: AppLocale;
   readonly placement: AppEntryPlacement;
   readonly signupLabel: string;
+  readonly hideLogin?: boolean;
 }
 
 export const AuthButton: React.FC<AuthButtonProps> = ({
   locale,
   placement,
   signupLabel,
+  hideLogin = false,
 }) => {
   const loggedIn = useLoggedInCookie();
   const uiCopy = getUiCopy(locale);
@@ -35,9 +37,9 @@ export const AuthButton: React.FC<AuthButtonProps> = ({
   const handleSignupClick = (): void => {
     trackAppEntryClick("signup", locale, placement);
   };
-  // The two anchors of the signed-out state, log in and sign up, sit side by side and both carry
-  // the mark, so they resolve to one impression key and the placement reports once rather than
-  // twice. The header renders this component twice, once per placement, and those two never share
+  // Signed-out links share one impression key, so the placement reports once even when both
+  // log in and sign up are shown. The header renders this component twice, once per placement,
+  // and those two never share
   // a key: `header_desktop` is in every document and a media query hides it below 900px, while
   // `header_mobile` is in the document only while the menu is open, so each reports exactly where
   // it is displayed.
@@ -58,14 +60,16 @@ export const AuthButton: React.FC<AuthButtonProps> = ({
 
   return (
     <div className={styles.buttonGroup}>
-      <a
-        href={getLoginUrl(loginRedirectPath)}
-        className={styles.loginButton}
-        {...impressionAttributes}
-        onClick={handleLoginClick}
-      >
-        {uiCopy.auth.logIn}
-      </a>
+      {!hideLogin && (
+        <a
+          href={getLoginUrl(loginRedirectPath)}
+          className={styles.loginButton}
+          {...impressionAttributes}
+          onClick={handleLoginClick}
+        >
+          {uiCopy.auth.logIn}
+        </a>
+      )}
       <a
         href={getSignupUrl()}
         className={styles.signupButton}
