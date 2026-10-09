@@ -4,7 +4,7 @@
   padding-block: 56px 160px;
   display: grid;
   row-gap: 160px;
-  color: #fff;
+  color: var(--text);
   letter-spacing: 0;
 }
 
