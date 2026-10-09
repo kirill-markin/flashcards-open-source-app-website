@@ -89,7 +89,7 @@ When H₀ covers a range, such as Δ ≤ 0, rejection probabilities can differ w
 
 Now reverse the ledger's condition: among the **440 rejections**, 40 came from the null row. That fraction is **40 / 440 ≈ 9.1%**. It isn't alpha. It describes the rejected runs in this particular ledger, whose mixture of null and alternative settings we chose. Changing that mixture can change this fraction even if each row's rejection rate stays the same. It doesn't give the probability that H₀ is true in an unrelated study.
 
-If the reversal feels slippery, practice choosing the given group with the [conditional-probability two-way tables worksheet](/blog/conditional-probability-two-way-tables/).
+If the reversal feels slippery, practice choosing the given group with the [conditional-probability two-way tables worksheet](/blog/conditional-probability-two-way-tables/). Use the [conditional probability two-way table flashcards](/catalog/packages/conditional-probability-two-way-table-flashcards/) to review given-group and reverse-condition decisions before returning to the error-rate examples.
 
 ## Keep a p-value separate from alpha
 

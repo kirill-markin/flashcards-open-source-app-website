@@ -142,7 +142,7 @@ Store the parts a complete interpretation needs, then write the full sentence in
 
 **Back:** The predicted change in the response variable for a one-unit increase in the explanatory variable, with the direction, both variables, and their units stated in context.
 
-Use separate cards for a standard deviation, residual, probability, confidence interval, and p-value. One combined answer makes retrieval muddy.
+Use separate cards for a standard deviation, residual, probability, confidence interval, and p-value. One combined answer makes retrieval muddy. For focused probability review, the [conditional probability two-way table flashcards](/catalog/packages/conditional-probability-two-way-table-flashcards/) practice given-group and denominator choices before you return to fresh problems.
 
 ### 5. Claim-and-evidence cards
 
