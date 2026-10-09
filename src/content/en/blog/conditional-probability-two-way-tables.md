@@ -201,7 +201,7 @@ The completed columns also check: 18 + 6 + 16 = 40, and 12 + 30 + 18 = 60. Among
 
 ## Make a card for the step you missed
 
-If you found the right group but simplified the fraction incorrectly, practice the calculation. If you repeatedly chose the wrong group, a small retrieval prompt can target that decision.
+If you found the right group but simplified the fraction incorrectly, practice the calculation. If you repeatedly chose the wrong group, a small retrieval prompt can target that decision. Use the [conditional probability two-way table flashcards](/catalog/packages/conditional-probability-two-way-table-flashcards/) to review given groups, short count ratios, and denominator mistakes.
 
 | Flashcard front | Flashcard back |
 |---|---|

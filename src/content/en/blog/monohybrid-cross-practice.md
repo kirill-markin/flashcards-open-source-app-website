@@ -218,7 +218,7 @@ For HH × Hh, P(Hh) = 1/2 and P(ridged) = 1. Every offspring is already in the r
 
 **P(Hh | ridged) = (1/2) / 1 = 1/2.**
 
-Changing a parent changed the genotype distribution. The word “ridged” didn't change, but the proportions of HH and Hh within that group did. The [conditional probability practice](/blog/conditional-probability-two-way-tables/) develops the same step of restricting the group before dividing.
+Changing a parent changed the genotype distribution. The word “ridged” didn't change, but the proportions of HH and Hh within that group did. The [conditional probability practice](/blog/conditional-probability-two-way-tables/) develops the same step of restricting the group before dividing. For short count-table drills on that denominator choice, use the [conditional probability two-way table flashcards](/catalog/packages/conditional-probability-two-way-table-flashcards/).
 
 ## Make a flashcard for the missed decision
 
