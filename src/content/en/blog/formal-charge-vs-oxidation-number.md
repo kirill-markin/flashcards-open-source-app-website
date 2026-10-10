@@ -127,3 +127,5 @@ Keep full calculations in your paper practice. For recurring mistakes, review th
 | Both columns sum to the species charge. Does that prove the formal-charge and oxidation-number labels are correct? | No. Both methods must pass that check. Inspect how the bonding electrons were assigned. |
 
 Use these on paper or add them to Nibomo with the [getting-started guide](/docs/getting-started/). For more ideas, see the [chemistry flashcard guide](/blog/how-to-use-flashcards-for-advanced-chemistry/). Then return to a fresh structure and calculate both quantities without the answer visible.
+
+The [formal charge vs oxidation number flashcards](/catalog/packages/formal-charge-vs-oxidation-number-flashcards/) mix electron-allocation decisions, short Lewis-structure calculations, charge checks, and repairs of common counting mistakes.

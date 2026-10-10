@@ -36,6 +36,8 @@ For example, finding the conjugate acid of SO₄²⁻ gives HSO₄⁻: one added
 
 The charge here belongs to the **whole molecule or ion**. Don't substitute an individual atom's formal charge or oxidation number. If those labels keep getting mixed together, work through the separate [formal charge vs oxidation number examples](/blog/formal-charge-vs-oxidation-number/).
 
+The [formal charge vs oxidation number flashcards](/catalog/packages/formal-charge-vs-oxidation-number-flashcards/) include prompts that separate an atom's bookkeeping result from the whole species' charge.
+
 This method checks proton bookkeeping for a specified acid–base step. With a more complicated structure, you may also need to identify which site gains or loses the proton; a molecular formula alone doesn't always locate it.
 
 ## Match each reactant to its own product
