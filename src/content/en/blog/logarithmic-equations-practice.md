@@ -226,7 +226,7 @@ Make a short flashcard for a rule you couldn't recall, then use it before solvin
 | Front | Back |
 | --- | --- |
 | What domain must survive when combining log₂(x − 2) + log₂(x − 5)? | x > 5. Each original argument must be positive. |
-| Can ln(x²) be replaced by 2ln(x) for negative x? | No. ln(x²) is defined for x ≠ 0; 2ln(x) needs x > 0. Use 2ln(|x|) for x ≠ 0. |
+| Can ln(x²) be replaced by 2ln(x) for negative x? | No. ln(x²) is defined for x ≠ 0; 2ln(x) needs x > 0. Use 2ln(\|x\|) for x ≠ 0. |
 | Should a negative candidate x automatically be rejected? | No. Evaluate every original log argument and check the equation. |
 
 Our guides to [using flashcards for math](/blog/how-to-use-flashcards-for-math/) and [turning practice questions into flashcards](/blog/how-to-turn-practice-questions-into-flashcards/) explain how to separate short recall prompts from full written practice.
