@@ -2,8 +2,8 @@ import type { MetadataRoute } from "next";
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: "Nibomo",
-    short_name: "Nibomo",
+    name: "Nibomo Flashcards",
+    short_name: "Nibomo Flashcards",
     description:
       "Open-source flashcards app with spaced repetition and self-hosting support.",
     start_url: "/",
