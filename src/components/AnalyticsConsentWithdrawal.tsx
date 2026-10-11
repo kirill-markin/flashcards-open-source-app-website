@@ -87,7 +87,7 @@ function AnalyticsDecisionToggle({
  * first load with the banner still up. The off switch would otherwise be missing from exactly the
  * moments it is wanted: while a first-time visitor is being asked about the cookie and is already
  * being counted, and on a browser that turned collection off and, having asked the backend nothing
- * since, counts as never asked. The strip publishes its height and this sits directly above it, so
+ * since, counts as never asked. This publishes its height and the strip sits directly above it, so
  * the two share the bottom edge rather than the same corner.
  *
  * Only the cookie half is conditional, on there being an answer to revisit and a move it can still
@@ -178,8 +178,8 @@ export function AnalyticsConsentWithdrawal({
    * per-orientation, so the measurement is republished rather than taken once.
    *
    * The reserve is the link's own height and never the strip's as well, even while both are up: the
-   * container is lifted by the strip's published height in CSS rather than growing by it, so the
-   * page below adds the two without ever counting the strip twice.
+   * strip is lifted by this published height in CSS rather than this container growing by the
+   * strip's, so the page below adds the two without ever counting the strip twice.
    */
   useEffect(() => {
     const container = containerRef.current;
