@@ -413,6 +413,10 @@
   border-radius: 6px;
 }
 
+.hero.screensVariant .humanAccess a:has(> img) {
+  padding: 0;
+}
+
 .hero.screensVariant .humanAccess a > img {
   inline-size: 120px;
   block-size: 40px;
