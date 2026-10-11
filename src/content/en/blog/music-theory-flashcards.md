@@ -116,6 +116,8 @@ Good **circle of fifths flashcards** retrieve relationships: the next accidental
 
 For a ready-made text set, the [Circle of Fifths flashcard deck](/catalog/packages/circle-of-fifths-flashcards/) has 87 cards. It practices circle rules, all 15 conventional key signatures from key name to spelling and back, all 15 relative major/minor pairs in both directions, neighboring major-key moves, and the spelling distinctions between B and C♭, F♯ and G♭, and C♯ and D♭. It excludes staff-image recognition, ear training, chord progressions, and exhaustive scale spelling.
 
+For scale work, the [relative vs parallel minor flashcards](/catalog/packages/relative-vs-parallel-minor-flashcards/) practice choosing relative or parallel relationships, changing one scale degree at a time, and repairing accidental errors.
+
 ### Chord and Roman-numeral flashcards
 
 Chord prompts need enough context to have one answer. State the bass note if inversion matters. State the key if harmonic function or a Roman numeral matters.
