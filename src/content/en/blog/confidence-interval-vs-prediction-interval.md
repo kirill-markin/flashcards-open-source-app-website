@@ -27,7 +27,7 @@ Suppose a machine cuts spacers. Assume historical and future lengths are **indep
 - **x̄ = 50 mm**, the sample mean;
 - **s = 2 mm**, the sample standard deviation.
 
-For a two-sided 95% interval, use the supplied **t* = 2.064**, rounded from the upper 97.5th percentile of a t distribution with **n − 1 = 24** degrees of freedom. The rounded multiplier makes the numerical intervals approximate.
+For a two-sided 95% interval, use the supplied **t⋆ = 2.064**, rounded from the upper 97.5th percentile of a t distribution with **n − 1 = 24** degrees of freedom. The rounded multiplier makes the numerical intervals approximate.
 
 | Question | Target | Procedure |
 | --- | --- | --- |
@@ -43,7 +43,7 @@ If s and s / √n still feel interchangeable, work through the [standard deviati
 
 Under the stated model, use the one-sample t interval:
 
-**x̄ ± t* × s / √n**
+**x̄ ± t⋆ × s / √n**
 
 [NIST's confidence limits for the mean](https://www.itl.nist.gov/div898/handbook/eda/section3/eda352.htm) give this formula. For the spacer history:
 
@@ -61,7 +61,7 @@ This interval estimates μ. Individual spacer lengths can fall outside it.
 
 For one independent future observation from the same population, use:
 
-**x̄ ± t* × s × √(1 + 1/n)**
+**x̄ ± t⋆ × s × √(1 + 1/n)**
 
 This is the m = 1 case of [NIST's prediction interval for new observations](https://www.itl.nist.gov/div898/software/dataplot/refman1/auxillar/predlimi.htm).
 
@@ -80,7 +80,7 @@ For the same history and confidence level, this prediction interval is wider tha
 
 Keep **n** for the historical sample size. Use **m** for the number of future observations being averaged:
 
-**x̄ ± t* × s × √(1/n + 1/m)**
+**x̄ ± t⋆ × s × √(1/n + 1/m)**
 
 [NIST gives this future-mean formula](https://www.itl.nist.gov/div898/software/dataplot/refman1/auxillar/predlimi.htm). The multiplier still uses **n − 1** degrees of freedom because s comes from the history.
 
@@ -108,7 +108,7 @@ A particular PI doesn't guarantee that 95% of all future spacers fall inside it.
 
 Compare two hypothetical histories with the same x̄ = 50 mm and s = 2 mm. Use the supplied rounded 95% multipliers:
 
-| Historical n | t* | Mean CI | Single future PI |
+| Historical n | t⋆ | Mean CI | Single future PI |
 | --- | --- | --- | --- |
 | 25 | 2.064 | 49.17–50.83 mm | 45.79–54.21 mm |
 | 100 | 1.984 | 49.60–50.40 mm | 46.01–53.99 mm |
@@ -122,8 +122,8 @@ We hold s fixed to isolate the formula's behavior. Actual new samples can have d
 For questions 1–6, use the independent, unchanged normal-population model. Give the target as well as any calculation. Try the questions before reading the answers.
 
 1. Using the original spacer history, a manager asks for the population mean length. Another asks for the next spacer's length. Which interval fits each request?
-2. A different history has x̄ = 80 mm, s = 4 mm, and n = 16. Use t* = 2.131 for 95% intervals. Calculate the mean CI and the PI for one new length.
-3. Return to x̄ = 50 mm, s = 2 mm, n = 25, and t* = 2.064. Predict the average of **four** future spacers. Which number is n, and which is m?
+2. A different history has x̄ = 80 mm, s = 4 mm, and n = 16. Use t⋆ = 2.131 for 95% intervals. Calculate the mean CI and the PI for one new length.
+3. Return to x̄ = 50 mm, s = 2 mm, n = 25, and t⋆ = 2.064. Predict the average of **four** future spacers. Which number is n, and which is m?
 4. For the original history, someone reports the single-observation PI's “width” as 4.21 mm. Find the full width and explain the mistake.
 5. Does increasing historical n from 25 to 100, while holding s fixed, make the next spacer four times less variable?
 6. Rewrite this interpretation: “Our 95% mean CI means 95% of spacers are between 49.17 and 50.83 mm.”
@@ -156,7 +156,7 @@ After a missed question, save the distinction that caused the mistake. Keep the 
 
 Use the [flashcard-writing guide](/blog/how-to-make-better-flashcards/) to keep each card answerable without seeing the original worksheet.
 
-Then try a fresh problem. An unchanged normal process produces paper strips. Independent historical and future lengths come from the same population, whose mean and variance are unknown. The history has **x̄ = 120 cm, s = 3 cm, n = 36**. Use **t* = 2.030** for 95% intervals. Find intervals for the population mean, one new strip, and the average of six new strips. Name each target before checking the answers below.
+Then try a fresh problem. An unchanged normal process produces paper strips. Independent historical and future lengths come from the same population, whose mean and variance are unknown. The history has **x̄ = 120 cm, s = 3 cm, n = 36**. Use **t⋆ = 2.030** for 95% intervals. Find intervals for the population mean, one new strip, and the average of six new strips. Name each target before checking the answers below.
 
 | Target | Margin (cm) | Interval (cm) |
 | --- | --- | --- |
