@@ -151,6 +151,8 @@ A wrong answer tells you what to practice. Confusing the two relationships calls
 | Misread “lower” | Lower F♯ by one semitone, keeping the letter. | F natural. |
 | Guessed from the signature | One flat: which major/minor pair? | F major and D minor; musical context distinguishes them. |
 
+The [relative vs parallel minor flashcards](/catalog/packages/relative-vs-parallel-minor-flashcards/) mix relationship choices, single-note changes between parallel major and natural minor scales, and repairs of common spelling mistakes.
+
 Make a small mixed set from your mistakes. Answer each card before revealing it, including the reason. After an error, correct it and solve the same kind of question with a different starting key. In your next study session, shuffle the prompts so their order doesn't give away the rule. The [music theory flashcards guide](/blog/music-theory-flashcards/) extends this approach to notation, intervals, and chords.
 
 Then take one pair to your instrument. Use D major and B minor to practice changing the tonic with a shared signature, or D major and D minor to keep the tonic while changing the scale. A written answer checks the relationship and spelling; playing and listening give you another way to recognize what changed.
