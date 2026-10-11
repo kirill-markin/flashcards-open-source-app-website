@@ -154,4 +154,6 @@ In your next study session, mix the prompts so their order doesn't reveal which 
 
 Keep minor transfer limited at first: reconstruct a major signature, then identify its relative minor while keeping that signature. For example, E♭ major and C minor share three flats. Use the [relative versus parallel minor lesson](/blog/relative-vs-parallel-minor/) when you need to distinguish a shared signature from a shared tonic. Minor-scale alterations in a passage don't automatically replace its key signature.
 
+For the next written step, use the [relative vs parallel minor flashcards](/catalog/packages/relative-vs-parallel-minor-flashcards/) to choose the relationship and practice individual note changes between parallel major and natural minor scales.
+
 Once the letter lists are reliable, move to a staff. Use [musictheory.net's key-signature exercise](https://www.musictheory.net/exercises/keysig) to practice reading signatures in notation, and write them in the clefs your course uses. Text reconstruction won't teach their staff positions or how a key sounds. Return to a score, instrument, or listening exercise to practice those parts.
