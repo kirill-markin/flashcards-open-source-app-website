@@ -70,7 +70,7 @@ function getBadgeOrder(platform: HumanPlatform): number {
     return 3;
   }
   if (platform.analytics.kind === "store") {
-    return platform.analytics.platform === "android" ? 0 : 1;
+    return platform.analytics.platform === "ios" ? 0 : 1;
   }
   return 2;
 }
