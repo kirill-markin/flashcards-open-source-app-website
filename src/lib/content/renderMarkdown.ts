@@ -16,7 +16,7 @@ import {
 } from "@/lib/activityFormatting";
 import { getUiCopy } from "@/lib/uiCopy";
 import { getAvailableLocalizedPathname } from "@/lib/routeTranslations";
-import { CONNECTOR_DIRECTORIES, getConnectorDirectoryLabel, getOpenAiDirectoryNotice } from "@/lib/connectorDirectories";
+import { CONNECTOR_DIRECTORIES, getConnectorDirectoryLabel } from "@/lib/connectorDirectories";
 import type {
   AppWalkthroughSection,
   FeatureListSection,
@@ -95,8 +95,6 @@ function renderHeroSection(
   });
   lines.push("");
   lines.push(section.trustLine);
-  lines.push("");
-  lines.push(`OpenAI: ${getOpenAiDirectoryNotice(locale)}`);
   lines.push("");
   CONNECTOR_DIRECTORIES.forEach((directory) => {
     lines.push(`[${getConnectorDirectoryLabel(locale, directory.name)}](${directory.href})`);

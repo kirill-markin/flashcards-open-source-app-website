@@ -4,7 +4,6 @@ import type { ContentLink } from "@/lib/content/types";
 import {
   CONNECTOR_DIRECTORIES,
   getConnectorDirectoryLabel,
-  getOpenAiDirectoryNotice,
 } from "@/lib/connectorDirectories";
 import type { AppLocale } from "@/lib/i18n";
 import { getExternalLinkAttributes } from "@/lib/linkTargets";
@@ -22,23 +21,6 @@ export function AgentDirectoryLinks({
   appearance = "default",
 }: AgentDirectoryLinksProps): React.JSX.Element {
   const homeAppearance = appearance === "home" || documentationLink !== undefined;
-  const openAiEntry = (
-    <div className={styles.entry}>
-      <button
-        type="button"
-        className={`${styles.directory} ${styles.unavailable}`}
-        aria-disabled="true"
-        aria-describedby="openai-directory-notice"
-        data-testid="openai-directory-unavailable"
-      >
-        <Image src="/brands/openai.svg" width={20} height={20} alt="" className={styles.logo} />
-        <span>OpenAI</span>
-      </button>
-      <span id="openai-directory-notice" role="tooltip" className={styles.tooltip}>
-        {getOpenAiDirectoryNotice(locale)}
-      </span>
-    </div>
-  );
   const connectorEntries = CONNECTOR_DIRECTORIES.map((directory) => (
     <div key={directory.href} className={styles.entry}>
       <a
@@ -53,7 +35,7 @@ export function AgentDirectoryLinks({
         <span>{directory.providerName}</span>
       </a>
       <span id={`${directory.provider}-directory-products`} role="tooltip" className={styles.tooltip}>
-        Claude · Claude Code
+        {directory.products}
       </span>
     </div>
   ));
@@ -62,9 +44,7 @@ export function AgentDirectoryLinks({
     <div className={homeAppearance
       ? `${styles.directories} ${styles.homeDesign}`
       : styles.directories}>
-      {homeAppearance ? connectorEntries : null}
-      {openAiEntry}
-      {homeAppearance ? null : connectorEntries}
+      {connectorEntries}
       {documentationLink === undefined ? null : (
         <Link href={documentationLink.href} className={`${styles.directory} ${styles.documentation}`}>
           {documentationLink.label}
