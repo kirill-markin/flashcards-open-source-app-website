@@ -35,21 +35,10 @@ a.directory:hover,
   background: var(--surface);
 }
 
-.unavailable {
-  color: var(--text-tertiary);
-  border-color: var(--border);
-  background: transparent;
-  cursor: not-allowed;
-}
-
 .logo {
   flex: 0 0 auto;
   object-fit: contain;
   filter: invert(1);
-}
-
-.unavailable .logo {
-  opacity: 0.45;
 }
 
 .tooltip {
@@ -92,10 +81,6 @@ a.directory:hover,
   min-block-size: 44px;
   padding: 10px 16px;
   font-weight: 600;
-}
-
-.homeDesign .unavailable {
-  color: var(--text);
 }
 
 .homeDesign .logo {
