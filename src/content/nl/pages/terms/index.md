@@ -34,7 +34,7 @@ We kunnen de toegang opschorten of beëindigen wanneer dat redelijkerwijs nodig 
 
 ## AI-functies
 
-Gehoste AI-functies zijn optioneel en gebruiken OpenAI. Bijbehorende AI-telemetrie wordt via Langfuse verwerkt voor debugging en analyse van de kwaliteit van de dienst. AI-uitvoer kan onjuist, onvolledig of ongeschikt zijn. Je bent er zelf verantwoordelijk voor de uitvoer te controleren voordat je erop vertrouwt, die deelt of wijzigingen doorvoert.
+Gehoste AI-functies zijn optioneel en gebruiken OpenAI om verzoekgegevens te verwerken zoals beschreven in ons [Privacybeleid](/nl/privacy/). In Apple-appversies met versiegebonden toestemming kunt u AI-gegevensdeling intrekken in Instellingen. AI-uitvoer kan onjuist, onvolledig of ongeschikt zijn. U moet deze beoordelen voordat u erop vertrouwt, deze deelt of wijzigingen toepast.
 
 Wanneer je een externe AI-client toestemming geeft om de MCP-dienst of de Agent API te gebruiken, verwerken die client en zijn modelprovider de gegevens die je opvraagt onder hun eigen voorwaarden. We zijn niet verantwoordelijk voor de werking of de uitvoer van een externe client.
 

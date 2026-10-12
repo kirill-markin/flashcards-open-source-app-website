@@ -98,7 +98,11 @@ Iestatījuma izslēgšana aptur turpmāko datu vākšanu. Tā neizdzēš jau re�
 
 OpenAI ir MI pakalpojumu sniedzējs, kas konfigurēts mitinātajām sarunu, transkripcijas un attēlu ģenerēšanas funkcijām. Kad tu izvēlies šīs funkcijas, mēs nosūtām OpenAI to veikšanai nepieciešamos pieprasījuma datus, kas var ietvert tavu uzvedni, attiecīgo sarunas un darbvietas kontekstu, pielikumus vai attēlus, diktētu audio un pseidonīmu drošības identifikatoru. Mitinātie teksta pieprasījumi izmanto `store: false`, kas atspējo atbilžu objektu glabāšanu vēlākai izgūšanai. Tā kā šie pieprasījumi izmanto arī uzvedņu kešatmiņu, OpenAI var glabāt šifrētu kešatmiņas lietojumprogrammas stāvokli līdz 24 stundām. Saskaņā ar OpenAI pašreizējiem API kontroles mehānismiem piemērojamie ļaunprātīgas izmantošanas uzraudzības žurnāli var tikt glabāti līdz 30 dienām, savukārt par transkripcijas galapunktu norādīts, ka tas neglabā ne ļaunprātīgas izmantošanas uzraudzības saturu, ne lietojumprogrammas stāvokli. OpenAI neizmanto API datus savu modeļu apmācībai, ja vien konta turētājs tam skaidri nepiekrīt.
 
-Mitinātie MI pieprasījumi tiek uzraudzīti arī ar Langfuse Cloud palīdzību atkļūdošanas un pakalpojuma kvalitātes analīzes nolūkā. Langfuse trasējumi var ietvert uzvednes, modeļa atbildes, rīku aktivitāti, lietotāja, darbvietas un sesijas identifikatorus un darbības metadatus. Implementācija maskē e-pasta adreses un laukus, kas izskatās pēc noslēpumiem; pielāgotie transkripcijas trasējumi neietver neapstrādātus audio baitus un pielikumu datus.
+Kopš integrācijas noņemšanas izvietošanas 2026. gada 12. oktobrī nesūtām jaunus datus uz Langfuse Cloud. Esošās trasēšanas pēdas joprojām tiek dzēstas pēc 30 dienām nakts dzēšanas darbā; integrācijas noņemšana tās neizdzēsa uzreiz. Langfuse trasējumi var ietvert uzvednes, modeļa atbildes, rīku aktivitāti, lietotāja, darbvietas un sesijas identifikatorus un darbības metadatus. Implementācija maskē e-pasta adreses un laukus, kas izskatās pēc noslēpumiem; pielāgotie transkripcijas trasējumi neietver neapstrādātus audio baitus un pielikumu datus. Šīs vēsturiskās pēdas izmantoja atkļūdošanai un pakalpojuma kvalitātes analīzei.
+
+OpenAI nosūtītais darbvietas konteksts var ietvert mācību kartītes, atkārtojumu vēsturi un rīku rezultātus; attēli var ietvert jūsu izvēlētas fotogrāfijas. OpenAI glabāšanas termiņiem piemēro [OpenAI juridiskos un drošības izņēmumus](https://developers.openai.com/api/docs/guides/your-data), tostarp atzīmētu attēlu glabāšanu pārbaudei.
+
+Apple lietotnes versijas, kas atbalsta MI piekrišanu ar versijai piesaistītu paziņojumu, lūdz atļauju pirms datu kopīgošanas ar OpenAI. To var atsaukt Iestatījumos, lai apturētu jaunus MI pieprasījumus no šīs instalācijas; jau nosūtītie var tikt pabeigti. Atsevišķi juridiski pierādījumi par piekrišanu un atsaukšanu tiek reģistrēti arī ar izslēgtu produkta analītiku: precīzs parādītais teksts, versija un valoda; nemainīgs notikuma ID un augošs lēmumu kārtas numurs; sākotnējais autentificētais darbības veicējs, pašreizējais konta vai viesa īpašnieks un instalācijas identifikatori; lietotnes versija, būvējums un platforma; darbības un servera saņemšanas laiks. Pēc atsaukšanas vēsture paliek konta vai viesa pastāvēšanas laikā. To dzēšana noņem arī pārsūtīto viesa vēsturi.
 
 Mūsu administratori var lasīt mūsu pašu datubāzē glabāto mitinātā MI sarunu saturu, tostarp tavas uzvednes, modeļa atbildes un ieteiktās sarunas uzvednes, lai analizētu, kā tiek izmantotas MI funkcijas, un tās uzlabotu. Piekļuve šim saturam ir tikai uzturētāja administratoriem.
 
@@ -114,16 +118,17 @@ Mitinātajam pakalpojumam mēs izmantojam šādu kategoriju pakalpojumu sniedzē
 - Stripe tīmekļa abonementu maksājumiem, norēķinu pārvaldībai, nodokļu aprēķinam un maksājumu paziņojumiem;
 - Resend transakciju e-pastiem autentifikācijai un norēķiniem;
 - OpenAI neobligātiem mitinātā MI pieprasījumiem;
-- Langfuse Cloud mitinātā MI novērojamībai;
 - Sentry attīrītu kļūdu un diagnostikas datu ziņošanai, ja tā ir ieslēgta attiecīgajā mitinātajā pakalpojumā vai lietotnes būvējumā;
 - Vercel mārketinga vietnei un tās Web Analytics bez sīkdatnēm; un
 - Cloudflare DNS un domēnu pārvaldībai. Pašreizējie Nibomo DNS ieraksti darbojas tikai DNS režīmā, tāpēc Cloudflare nedarbojas kā starpnieks mitinātās vietnes vai lietotnes HTTP datplūsmai.
+
+Pieprasām, lai apstrādātāji, kas darbojas mūsu vārdā, nodrošina tādu pašu vai līdzvērtīgu kopīgoto lietotāju datu aizsardzību saskaņā ar šo politiku un piemērojamiem tiesību aktiem. OpenAI [Datu apstrādes papildinājums](https://openai.com/policies/data-processing-addendum/) ir Pakalpojumu līguma daļa un prasa ierobežotu apstrādi, konfidencialitāti, drošības pasākumus un aizsardzību starptautiskai nosūtīšanai.
 
 Datus var izpaust arī citiem kopīgas darbvietas dalībniekiem atbilstoši pakalpojuma sadarbības funkcijām, ārējam klientam, kuru tu autorizē, profesionāliem konsultantiem, kuriem ir konfidencialitātes pienākums, vai valsts iestādēm, ja izpaušanu prasa tiesību akti.
 
 ## Starptautiska datu nosūtīšana
 
-Galvenā mitinātā lietotne darbojas AWS infrastruktūrā ES. Konfigurētais Resend e-pasta reģions, Sentry datu reģions un Langfuse galapunkts arī atrodas Eiropā. Daži pakalpojumu sniedzēji, tostarp OpenAI un Vercel, var apstrādāt datus ārpus tavas valsts vai Eiropas Ekonomikas zonas. Ja nepieciešams, šādai nosūtīšanai mēs izmantojam piemērojamos lēmumus par aizsardzības līmeņa pietiekamību, datu apstrādes līgumus un līguma standartklauzulas vai līdzvērtīgus aizsardzības pasākumus.
+Galvenā mitinātā lietotne darbojas AWS infrastruktūrā ES. Konfigurētais Resend e-pasta reģions un Sentry datu reģions arī atrodas Eiropā. Daži pakalpojumu sniedzēji, tostarp OpenAI un Vercel, var apstrādāt datus ārpus tavas valsts vai Eiropas Ekonomikas zonas. Ja nepieciešams, šādai nosūtīšanai mēs izmantojam piemērojamos lēmumus par aizsardzības līmeņa pietiekamību, datu apstrādes līgumus un līguma standartklauzulas vai līdzvērtīgus aizsardzības pasākumus.
 
 ## Glabāšana un dzēšana
 

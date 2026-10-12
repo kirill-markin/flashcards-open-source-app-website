@@ -34,7 +34,7 @@ Vi kan suspendere eller ophæve adgangen, når det er rimeligt nødvendigt for a
 
 ## AI-funktioner
 
-De hostede AI-funktioner er valgfrie og bruger OpenAI. Tilhørende AI-telemetri behandles via Langfuse til fejlfinding og analyse af tjenestens kvalitet. AI-output kan være unøjagtigt, ufuldstændigt eller uegnet. Du er ansvarlig for at gennemgå output, før du forlader dig på det, deler det eller anvender ændringer.
+Hostede AI-funktioner er valgfrie og bruger OpenAI til at behandle anmodningsdata som beskrevet i vores [privatlivspolitik](/da/privacy/). I Apple-appversioner med versioneret samtykke kan du trække AI-datadeling tilbage i Indstillinger. AI-output kan være forkert, ufuldstændigt eller uegnet. Du skal gennemgå det, før du stoler på det, deler det eller anvender ændringer.
 
 Når du giver en ekstern AI-klient tilladelse til at bruge MCP-tjenesten eller Agent API, behandler den klient og dens modeludbyder de data, du anmoder om, i henhold til deres egne vilkår. Vi er ikke ansvarlige for en ekstern klients drift eller output.
 

@@ -98,7 +98,11 @@ Notkunargreining hefur sína eigin stillingu sem slekkur á þessari söfnun. Á
 
 OpenAI er gervigreindarþjónustan sem er stillt fyrir hýst spjall, uppskrift og myndgerð. Þegar þú velur þessa eiginleika sendum við OpenAI þau beiðnigögn sem þarf til að framkvæma þá, sem geta innihaldið fyrirmæli þín, viðeigandi samhengi úr spjalli og vinnusvæði, viðhengi eða myndir, hljóðupptökur af tali og dulnefnt öryggisauðkenni. Hýstar textabeiðnir nota `store: false`, sem kemur í veg fyrir að svarhlutir séu geymdir til að sækja síðar. Þar sem þessar beiðnir nota einnig skyndiminni fyrir fyrirmæli getur OpenAI varðveitt dulkóðaða stöðu forrits í skyndiminni í allt að 24 klukkustundir. Samkvæmt núverandi API-stýringum OpenAI geta viðeigandi skrár vegna eftirlits með misnotkun verið varðveittar í allt að 30 daga, en um uppskriftarendapunktinn kemur fram að hann varðveiti hvorki efni vegna eftirlits með misnotkun né stöðu forrits. OpenAI notar ekki API-gögn til að þjálfa líkön sín nema reikningshafi samþykki það sérstaklega.
 
-Hýstar gervigreindarbeiðnir eru einnig vaktaðar með Langfuse Cloud til villuleitar og greiningar á gæðum þjónustunnar. Rakningar í Langfuse geta innihaldið fyrirmæli, svör líkans, virkni tóla, auðkenni notanda, vinnusvæðis og lotu og rekstrarlýsigögn. Útfærslan felur netföng og reiti sem líkjast leyndarmálum; sérsniðnar rakningar á uppskrift undanskilja hrá hljóðbæti og gögn viðhengja.
+Frá innleiðingunni sem fjarlægði samþættinguna 12. október 2026 sendum við engin ný gögn til Langfuse Cloud. Fyrirliggjandi rekjanir eru enn eyddar eftir 30 daga í næturkeyrslu; brottnám samþættingarinnar eyddi þeim ekki strax. Rakningar í Langfuse geta innihaldið fyrirmæli, svör líkans, virkni tóla, auðkenni notanda, vinnusvæðis og lotu og rekstrarlýsigögn. Útfærslan felur netföng og reiti sem líkjast leyndarmálum; sérsniðnar rakningar á uppskrift undanskilja hrá hljóðbæti og gögn viðhengja. Þessar eldri rekjanir voru notaðar við villuleit og greiningu á gæðum þjónustunnar.
+
+Samhengi vinnusvæðis sem sent er til OpenAI getur innihaldið spjöld, yfirferðarferil og niðurstöður verkfæra; myndir geta meðal annars verið ljósmyndir sem þú velur. Varðveislutímabil OpenAI eru háð [lagalegum undantekningum og öryggisundantekningum OpenAI](https://developers.openai.com/api/docs/guides/your-data), þar á meðal varðveislu merktra mynda til skoðunar.
+
+Útgáfur Apple-forritsins sem styðja AI-samþykki með útgáfumerktum upplýsingatexta biðja um leyfi áður en gögn eru send til OpenAI. Þú getur afturkallað það í Stillingum til að stöðva nýjar AI-beiðnir frá þeirri uppsetningu; þegar sendar beiðnir geta lokið. Aðskilin lagaleg sönnunargögn um samþykki og afturköllun eru skráð þótt notkunargreining sé óvirk: nákvæmur birtur texti, útgáfa og tungumál; óbreytanlegt atburðaauðkenni og hækkandi röð ákvarðana; upphaflegur auðkenndur gerandi, núverandi eigandi reiknings eða gests og uppsetningarauðkenni; forritsútgáfa, smíði og stýrikerfisvettvangur; tími aðgerðar og móttöku á netþjóni. Eftir afturköllun er ferillinn varðveittur á líftíma reiknings eða gests. Eyðing þeirra fjarlægir hann, þar með talinn yfirfærðan gestsferil.
 
 Stjórnendur okkar geta lesið efni úr hýsta gervigreindarspjallinu sem geymt er í okkar eigin gagnagrunni, þar á meðal fyrirmæli þín, svör líkans og tillögur að fyrirmælum í spjallinu, til að greina hvernig gervigreindareiginleikarnir eru notaðir og bæta þá. Aðgangur að því efni er takmarkaður við stjórnendur rekstraraðilans.
 
@@ -114,16 +118,17 @@ Við notum eftirfarandi flokka þjónustuveitenda fyrir hýstu þjónustuna:
 - Stripe fyrir greiðslur vefáskrifta, umsýslu innheimtu, útreikning skatta og tilkynningar um greiðslur;
 - Resend fyrir tölvupósta sem tengjast auðkenningu og greiðslum;
 - OpenAI fyrir valfrjálsar hýstar gervigreindarbeiðnir;
-- Langfuse Cloud fyrir eftirlit með hýstri gervigreind;
 - Sentry fyrir skýrslur um hreinsaðar villur og villugreiningar þegar það er virkjað í viðkomandi hýstu þjónustu eða smíð forritsins;
 - Vercel fyrir markaðsvefinn og Web Analytics án vafrakaka; og
 - Cloudflare fyrir DNS og umsýslu léna. Núverandi DNS-færslur Nibomo eru stilltar eingöngu sem DNS, svo Cloudflare miðlar ekki HTTP-umferð hýsta vefsins eða forritsins.
+
+Við krefjumst þess að vinnsluaðilar fyrir okkar hönd veiti samnýttum notandagögnum sömu eða jafngilda vernd samkvæmt þessari stefnu og gildandi lögum. [Gagnavinnsluviðauki](https://openai.com/policies/data-processing-addendum/) OpenAI er hluti af þjónustusamningi þess og krefst takmarkaðrar vinnslu, trúnaðar, öryggisráðstafana og verndar við alþjóðlegan flutning.
 
 Gögn geta einnig verið afhent öðrum meðlimum sameiginlegs vinnusvæðis í samræmi við samstarfseiginleika þjónustunnar, ytri biðlara sem þú veitir heimild, faglegum ráðgjöfum sem bundnir eru trúnaðarskyldu eða opinberum yfirvöldum þegar lög krefjast afhendingar.
 
 ## Flutningur milli landa
 
-Aðalforrit hýstu þjónustunnar keyrir á innviðum AWS innan ESB. Stillt tölvupóstsvæði Resend, gagnasvæði Sentry og endapunktur Langfuse eru einnig í Evrópu. Sumir þjónustuveitendur, þar á meðal OpenAI og Vercel, kunna að vinna með gögn utan þíns lands eða Evrópska efnahagssvæðisins. Þar sem þess er krafist notum við viðeigandi ákvarðanir um fullnægjandi vernd, vinnslusamninga og stöðluð samningsákvæði eða sambærilegar verndarráðstafanir fyrir slíkan flutning.
+Aðalforrit hýstu þjónustunnar keyrir á innviðum AWS innan ESB. Stillt tölvupóstsvæði Resend og gagnasvæði Sentry eru einnig í Evrópu. Sumir þjónustuveitendur, þar á meðal OpenAI og Vercel, kunna að vinna með gögn utan þíns lands eða Evrópska efnahagssvæðisins. Þar sem þess er krafist notum við viðeigandi ákvarðanir um fullnægjandi vernd, vinnslusamninga og stöðluð samningsákvæði eða sambærilegar verndarráðstafanir fyrir slíkan flutning.
 
 ## Varðveisla og eyðing
 

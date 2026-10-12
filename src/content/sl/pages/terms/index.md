@@ -34,7 +34,7 @@ Dostop lahko začasno ali trajno onemogočimo, kadar je to razumno potrebno za z
 
 ## Funkcije AI
 
-Gostovane funkcije AI so neobvezne in uporabljajo OpenAI. Povezana telemetrija AI se obdeluje prek Langfuse za odpravljanje napak in analizo kakovosti storitve. Rezultati AI so lahko netočni, nepopolni ali neprimerni. Za to, da rezultate pregledate, preden se nanje zanesete, jih delite ali uveljavite spremembe, ste odgovorni sami.
+Gostovane funkcije AI so izbirne in uporabljajo OpenAI za obdelavo podatkov zahteve po naši [Politiki zasebnosti](/sl/privacy/). V različicah aplikacije Apple z različico soglasja lahko deljenje podatkov AI prekličete v Nastavitvah. Rezultati so lahko napačni, nepopolni ali neprimerni. Preveriti jih morate pred uporabo, deljenjem ali uveljavljanjem sprememb.
 
 Ko zunanjemu odjemalcu AI dovolite uporabo storitve MCP ali Agent API, ta odjemalec in njegov ponudnik modela obdelujeta podatke, ki jih zahtevate, po lastnih pogojih. Za delovanje ali rezultate zunanjega odjemalca nismo odgovorni.
 

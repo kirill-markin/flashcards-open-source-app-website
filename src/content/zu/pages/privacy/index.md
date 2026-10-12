@@ -98,7 +98,11 @@ Ukuvala isilungiselelo kumisa ukuqoqa kwesikhathi esizayo. Akuyisusi imicimbi es
 
 I-OpenAI ingumhlinzeki we-AI olungiselelwe izici ezisingathiwe zengxoxo, zokuloba umsindo ube umbhalo, nezokudala izithombe. Uma ukhetha lezo zici, sithumela ku-OpenAI idatha yesicelo edingekayo ukuzenza, engafaka umyalo wakho, umongo ofanele wengxoxo nowendawo yokusebenza, okunamathiselwe noma izithombe, umsindo okhulunyiwe, nesihlonzi sokuphepha esingakuhlonzi ngqo. Izicelo zombhalo ezisingathiwe zisebenzisa i-`store: false`, evala ukugcinwa kwezinto zezimpendulo ukuze zilandwe kamuva. Ngenxa yokuthi lezi zicelo ziphinde zigcine imiyalo kwi-cache, i-OpenAI ingase igcine isimo sohlelo se-cache esibethelwe isikhathi esifika emahoreni angu-24. Ngaphansi kwezilawuli zamanje ze-API ye-OpenAI, amarekhodi okuqapha ukusetshenziswa kabi asebenzayo angagcinwa isikhathi esifika ezinsukwini ezingu-30, kanti i-endpoint yokuloba umsindo ithi ayigcini okuqukethwe kokuqapha ukusetshenziswa kabi noma isimo sohlelo. I-OpenAI ayiyisebenzisi idatha ye-API ukuqeqesha amamodeli ayo ngaphandle uma umnikazi we-akhawunti evuma ngokucacile.
 
-Izicelo ze-AI ezisingathiwe ziphinde zibhekwe nge-Langfuse Cloud ukuze kulungiswe amaphutha futhi kuhlaziywe izinga lesevisi. Imikhondo ye-Langfuse ingafaka imiyalo, izimpendulo zemodeli, umsebenzi wamathuluzi, izihlonzi zomsebenzisi, zendawo yokusebenza nezeseshini, nemethadatha yokusebenza. Ukwakhiwa kwesistimu kufihla amakheli e-imeyili nezinkambu ezibukeka njengezimfihlo; imikhondo yangokwezifiso yokuloba umsindo ayifaki ama-byte omsindo aluhlaza nedatha yokunamathiselwe.
+Kusukela ekufakweni koshintsho olususe ukuhlanganiswa ngomhla ka-12 Okthoba 2026, asithumeli idatha entsha ku-Langfuse Cloud. Imikhondo ekhona isasuswa ngemva kwezinsuku ezingu-30 ngenqubo yasebusuku; ukususa ukuhlanganiswa akuzange kuyisule ngokushesha. Imikhondo ye-Langfuse ingafaka imiyalo, izimpendulo zemodeli, umsebenzi wamathuluzi, izihlonzi zomsebenzisi, zendawo yokusebenza nezeseshini, nemethadatha yokusebenza. Ukwakhiwa kwesistimu kufihla amakheli e-imeyili nezinkambu ezibukeka njengezimfihlo; imikhondo yangokwezifiso yokuloba umsindo ayifaki ama-byte omsindo aluhlaza nedatha yokunamathiselwe. Le mikhondo yakudala yayisetshenziselwa ukulungisa amaphutha nokuhlaziya izinga lesevisi.
+
+Ulwazi lwendawo yokusebenza oluthunyelwa ku-OpenAI lungafaka amakhadi, umlando wokubuyekeza nemiphumela yamathuluzi; izithombe zingafaka izithombe ozikhethayo. Izikhathi zokugcina idatha ze-OpenAI zilawulwa [okuhlukile kwezomthetho nezokuphepha kwe-OpenAI](https://developers.openai.com/api/docs/guides/your-data), kuhlanganise nokugcina izithombe ezimakiwe ukuze ahlolwe.
+
+Izinguqulo zohlelo lwe-Apple ezisekela imvume ye-AI enombhalo onenombolo yenguqulo zicela imvume ngaphambi kokwabelana ngedatha ne-OpenAI. Ungayihoxisa kokuthi Izilungiselelo ukuze umise izicelo ezintsha ze-AI ezivela kulokho kufakwa; ezithunyelwe kakade zingaqedwa. Ubufakazi bezomthetho obuhlukene bokuvuma nokuhoxisa buqoshwa noma ukuhlaziywa komkhiqizo kuvaliwe: umbhalo oqondile obonisiwe, inguqulo nolimi; i-ID yomcimbi engashintshi nokulandelana kwezinqumo okukhulayo; umuntu wokuqala oqinisekisiwe owenza isenzo, umnikazi wamanje we-akhawunti noma wesivakashi nezihlonzi zokufakwa; inguqulo yohlelo, i-build nenkundla; isikhathi sesenzo nesokwamukelwa yiseva. Ngemva kokuhoxisa, umlando ugcinwa ngesikhathi i-akhawunti noma isivakashi sisekhona. Ukususa i-akhawunti noma isivakashi kuyawususa, kuhlanganise nomlando wesivakashi odlulisiwe.
 
 Abaphathi bethu bangafunda okuqukethwe kwengxoxo ne-AI esingathiwe okugcinwe esizindalwazini sethu, kuhlanganise nemiyalo yakho, izimpendulo zemodeli, nemiyalo yengxoxo ephakanyisiwe, ukuze bahlaziye ukuthi izici ze-AI zisetshenziswa kanjani futhi bazithuthukise. Ukufinyelela kulokho okuqukethwe kukhawulelwe kubaphathi bomqhubi.
 
@@ -114,16 +118,17 @@ Sisebenzisa lezi zigaba zabahlinzeki besevisi kusevisi esingathiwe:
 - I-Stripe yezinkokhelo zokubhalisela kwewebhu, ukuphathwa kwezinkokhelo, ukubalwa kwentela, nezaziso zokukhokha;
 - I-Resend yama-imeyili okuqinisekisa ubuwena nawezinkokhelo athunyelwa ngokuzenzakalela;
 - I-OpenAI yezicelo ze-AI ezisingathiwe ezingaphoqelekile;
-- I-Langfuse Cloud yokuqapha i-AI esingathiwe;
 - I-Sentry yokubika amaphutha nemininingwane yokuhlola ehlanziwe lapho kuvuliwe kusevisi esingathiwe efanele noma ekwakhiweni kohlelo;
 - I-Vercel yewebhusayithi yokumaketha ne-Web Analytics yayo engenamakhukhi; futhi
 - I-Cloudflare ye-DNS nokuphathwa kwezizinda. Amarekhodi amanje e-DNS e-Nibomo asebenza njenge-DNS kuphela, ngakho i-Cloudflare ayisebenzi njenge-proxy yethrafikhi ye-HTTP yewebhusayithi esingathiwe noma yohlelo.
+
+Sifuna ukuthi abacubunguli abasebenza egameni lethu banikeze idatha yabasebenzisi eyabiwayo ukuvikelwa okufanayo noma okulinganayo ngaphansi kwale nqubomgomo nomthetho osebenzayo. [Isengezo Sokucubungula Idatha](https://openai.com/policies/data-processing-addendum/) se-OpenAI siyingxenye yeSivumelwano sayo Sezinsizakalo futhi sidinga ukucubungula okunqunyiwe, ubumfihlo, izinyathelo zokuphepha nezivikelo zokudluliselwa kwamazwe ngamazwe.
 
 Idatha ingaphinde idalulwe kwamanye amalungu endawo yokusebenza okwabelwana ngayo ngokuvumelana nezici zokusebenzisana zesevisi, kuklayenti langaphandle oligunyazayo, kubeluleki abangochwepheshe abanezibopho zokugcina imfihlo, noma kweziphathimandla zikahulumeni lapho ukudalula kudingwa ngumthetho.
 
 ## Ukudluliselwa kwamazwe ngamazwe
 
-Uhlelo oluyinhloko olusingathiwe lusebenza kwingqalasizinda ye-AWS e-EU. Isifunda se-imeyili se-Resend esilungiselelwe, isifunda sedatha se-Sentry, ne-endpoint ye-Langfuse nakho kuseYurophu. Abanye abahlinzeki, kuhlanganise ne-OpenAI ne-Vercel, bangacubungula idatha ngaphandle kwezwe lakho noma kweNdawo Yezomnotho YaseYurophu. Lapho kudingeka, sisebenzisa izinqumo zokwanela ezisebenzayo, izivumelwano zokucubungula idatha, kanye neMigomo Yezinkontileka Ejwayelekile noma izivikelo ezilinganayo kulokho kudluliselwa.
+Uhlelo oluyinhloko olusingathiwe lusebenza kwingqalasizinda ye-AWS e-EU. Isifunda se-imeyili se-Resend esilungiselelwe nesifunda sedatha se-Sentry nakho kuseYurophu. Abanye abahlinzeki, kuhlanganise ne-OpenAI ne-Vercel, bangacubungula idatha ngaphandle kwezwe lakho noma kweNdawo Yezomnotho YaseYurophu. Lapho kudingeka, sisebenzisa izinqumo zokwanela ezisebenzayo, izivumelwano zokucubungula idatha, kanye neMigomo Yezinkontileka Ejwayelekile noma izivikelo ezilinganayo kulokho kudluliselwa.
 
 ## Ukugcinwa nokususwa
 
