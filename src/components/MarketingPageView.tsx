@@ -159,7 +159,7 @@ function renderFeaturesPage(
           <div className={featureStyles.connectorLinks}>
             {CONNECTOR_DIRECTORIES.map((directory) => (
               <a key={directory.href} href={directory.href} target="_blank" rel="noopener noreferrer">
-                {directory.name} MCP
+                {directory.linkLabel}
               </a>
             ))}
             <Link href={getAvailableLocalizedPathname(locale, "/docs/mcp-connector/")}>

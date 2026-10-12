@@ -166,7 +166,7 @@ export const Footer: React.FC<FooterProps> = ({
             <h3>{uiCopy.footer.mcpsAndPluginsHeading}</h3>
             {CONNECTOR_DIRECTORIES.map((directory) => (
               <a key={directory.href} href={directory.href} {...getExternalLinkAttributes(directory.href)}>
-                {directory.name} MCP
+                {directory.linkLabel}
               </a>
             ))}
             <a
