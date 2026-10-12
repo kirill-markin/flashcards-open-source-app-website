@@ -34,7 +34,7 @@ Kami dapat menangguhkan atau menghentikan akses jika hal itu secara wajar diperl
 
 ## Fitur AI
 
-Fitur AI terkelola bersifat opsional dan menggunakan OpenAI. Telemetri AI terkait diproses melalui Langfuse untuk debugging dan analisis kualitas layanan. Output AI mungkin tidak akurat, tidak lengkap, atau tidak sesuai. Anda bertanggung jawab meninjau output sebelum mengandalkannya, membagikannya, atau menerapkan perubahan.
+Fitur AI terkelola bersifat opsional dan menggunakan OpenAI untuk memproses data permintaan sebagaimana dijelaskan dalam [Kebijakan Privasi](/id/privacy/) kami. Pada versi aplikasi Apple yang mendukung persetujuan berversi, Anda dapat mencabut berbagi data AI di Pengaturan. Keluaran AI dapat salah, tidak lengkap, atau tidak sesuai. Anda bertanggung jawab meninjaunya sebelum mengandalkan, membagikan, atau menerapkan perubahan.
 
 Saat Anda mengizinkan klien AI eksternal menggunakan layanan MCP atau Agent API, klien tersebut dan penyedia modelnya memproses data yang Anda minta berdasarkan ketentuan mereka sendiri. Kami tidak bertanggung jawab atas pengoperasian atau output klien eksternal.
 

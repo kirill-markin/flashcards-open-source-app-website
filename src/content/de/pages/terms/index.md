@@ -34,7 +34,7 @@ Wir können den Zugang aussetzen oder beenden, wenn dies zum Schutz von Nutzern 
 
 ## KI-Funktionen
 
-Gehostete KI-Funktionen sind optional und nutzen OpenAI. Zugehörige KI-Telemetrie wird über Langfuse zur Fehlersuche und Qualitätsanalyse verarbeitet. Ergebnisse können falsch, unvollständig oder ungeeignet sein. Prüfen Sie sie, bevor Sie sich darauf verlassen, sie teilen oder Änderungen übernehmen.
+Gehostete KI-Funktionen sind optional und verarbeiten Anfragedaten mit OpenAI wie in unserer [Datenschutzerklärung](/de/privacy/) beschrieben. In Apple-App-Versionen mit versionierter Einwilligung können Sie die KI-Datenweitergabe in den Einstellungen widerrufen. KI-Ausgaben können falsch, unvollständig oder ungeeignet sein. Prüfen Sie sie, bevor Sie sich darauf verlassen, sie teilen oder Änderungen anwenden.
 
 Wenn Sie einen externen KI-Client zur Nutzung des MCP-Dienstes oder der Agent API autorisieren, verarbeiten dieser Client und sein Modellanbieter die abgerufenen Daten nach ihren eigenen Bedingungen. Wir sind für deren Betrieb oder Ergebnisse nicht verantwortlich.
 

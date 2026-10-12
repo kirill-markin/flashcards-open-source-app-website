@@ -34,7 +34,7 @@ Podemos suspender ou encerrar o acesso quando isso for razoavelmente necessário
 
 ## Recursos de IA
 
-Os recursos de IA hospedados são opcionais e usam a OpenAI. A telemetria de IA relacionada é processada pelo Langfuse para depuração e análise de qualidade do serviço. A saída da IA pode ser imprecisa, incompleta ou inadequada. Você é responsável por revisar a saída antes de confiar nela, compartilhá-la ou aplicar mudanças.
+Os recursos de IA hospedada são opcionais e usam a OpenAI para processar dados da solicitação conforme nossa [Política de Privacidade](/pt/privacy/). Nas versões do app Apple que oferecem consentimento versionado, você pode retirar o compartilhamento de dados de IA nos Ajustes. Os resultados podem estar incorretos, incompletos ou ser inadequados. Você deve revisá-los antes de confiar neles, compartilhá-los ou aplicar alterações.
 
 Quando você autoriza um cliente de IA externo a usar o serviço MCP ou a Agent API, esse cliente e o provedor de modelo dele processam os dados solicitados sob os próprios termos. Não somos responsáveis pela operação nem pela saída de um cliente externo.
 

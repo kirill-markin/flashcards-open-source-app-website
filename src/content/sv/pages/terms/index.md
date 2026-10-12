@@ -34,7 +34,7 @@ Vi kan stänga av eller avsluta åtkomsten när det är rimligen nödvändigt f�
 
 ## AI-funktioner
 
-De molndrivna AI-funktionerna är valfria och använder OpenAI. Tillhörande AI-telemetri behandlas genom Langfuse för felsökning och analys av tjänstens kvalitet. AI-genererat innehåll kan vara felaktigt, ofullständigt eller olämpligt. Du ansvarar för att granska det innan du förlitar dig på det, delar det eller genomför ändringar.
+Värdbaserade AI-funktioner är frivilliga och använder OpenAI för att behandla förfrågningsdata enligt vår [integritetspolicy](/sv/privacy/). I Apple-appversioner som stöder versionshanterat samtycke kan du återkalla AI-datadelning i Inställningar. AI-resultat kan vara felaktiga, ofullständiga eller olämpliga. Du ansvarar för att granska dem innan du förlitar dig på dem, delar dem eller tillämpar ändringar.
 
 När du ger en extern AI-klient behörighet att använda MCP-tjänsten eller Agent API behandlar den klienten och dess modelleverantör de data du begär enligt sina egna villkor. Vi ansvarar inte för en extern klients funktion eller det den genererar.
 

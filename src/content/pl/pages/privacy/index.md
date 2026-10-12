@@ -98,7 +98,11 @@ Wyłączenie ustawienia zatrzymuje przyszłe zbieranie. Nie usuwa już zarejestr
 
 OpenAI jest dostawcą AI skonfigurowanym dla hostowanych funkcji czatu, transkrypcji i generowania obrazów. Gdy wybierasz te funkcje, wysyłamy do OpenAI dane żądania potrzebne do ich wykonania, które mogą obejmować Twój prompt, odpowiedni kontekst czatu i obszaru roboczego, załączniki lub obrazy, dyktowane nagrania audio oraz pseudonimowy identyfikator bezpieczeństwa. Hostowane żądania tekstowe używają `store: false`, co wyłącza przechowywanie obiektów odpowiedzi do późniejszego pobrania. Ponieważ te żądania korzystają też z buforowania promptów, OpenAI może przechowywać zaszyfrowany stan aplikacji w pamięci podręcznej przez maksymalnie 24 godziny. Zgodnie z obecnymi mechanizmami kontroli API OpenAI odpowiednie logi monitorowania nadużyć mogą być przechowywane przez maksymalnie 30 dni, natomiast w przypadku endpointu transkrypcji OpenAI deklaruje, że nie przechowuje ani treści do monitorowania nadużyć, ani stanu aplikacji. OpenAI nie wykorzystuje danych z API do trenowania swoich modeli, chyba że posiadacz konta wyraźnie się na to zgodzi.
 
-Hostowane żądania AI są też obserwowane za pośrednictwem Langfuse Cloud na potrzeby debugowania i analizy jakości usługi. Ślady Langfuse mogą zawierać prompty, odpowiedzi modelu, aktywność narzędzi, identyfikatory użytkownika, obszaru roboczego i sesji oraz metadane operacyjne. Implementacja maskuje adresy e-mail i pola wyglądające na sekrety; niestandardowe ślady transkrypcji nie zawierają surowych bajtów audio ani danych załączników.
+Od wdrożenia usuwającego integrację 12 października 2026 r. nie wysyłamy nowych danych do Langfuse Cloud. Istniejące ślady nadal są usuwane po 30 dniach w ramach nocnego zadania; usunięcie integracji nie skasowało ich od razu. Ślady Langfuse mogą zawierać prompty, odpowiedzi modelu, aktywność narzędzi, identyfikatory użytkownika, obszaru roboczego i sesji oraz metadane operacyjne. Implementacja maskuje adresy e-mail i pola wyglądające na sekrety; niestandardowe ślady transkrypcji nie zawierają surowych bajtów audio ani danych załączników. Te historyczne ślady służyły do debugowania i analizy jakości usługi.
+
+Kontekst przestrzeni roboczej wysyłany do OpenAI może obejmować fiszki, historię powtórek i wyniki narzędzi; obrazy mogą obejmować wybrane przez Ciebie zdjęcia. Okresy przechowywania danych przez OpenAI podlegają [wyjątkom prawnym i bezpieczeństwa OpenAI](https://developers.openai.com/api/docs/guides/your-data), w tym przechowywaniu oznaczonych obrazów do weryfikacji.
+
+Wersje aplikacji Apple obsługujące zgodę AI z wersjonowaną informacją pytają o pozwolenie przed udostępnieniem danych OpenAI. Możesz ją wycofać w Ustawieniach, aby zatrzymać nowe żądania AI z tej instalacji; już wysłane mogą zostać ukończone. Oddzielne dowody prawne udzielenia i wycofania zgody są zapisywane także przy wyłączonej analityce produktu: dokładny wyświetlony tekst, wersja i język; niezmienny identyfikator zdarzenia i rosnący numer decyzji; pierwotna uwierzytelniona osoba wykonująca działanie, obecny właściciel konta lub sesji gościa i identyfikatory instalacji; wersja, kompilacja i platforma aplikacji; czas działania i odbioru przez serwer. Po wycofaniu zgody historia pozostaje przez okres istnienia konta lub sesji gościa. Ich usunięcie kasuje ją wraz z przeniesioną historią gościa.
 
 Nasi administratorzy mogą odczytywać treść hostowanego czatu AI przechowywaną w naszej własnej bazie danych, w tym Twoje prompty, odpowiedzi modelu i sugerowane prompty czatu, aby analizować sposób korzystania z funkcji AI i je ulepszać. Dostęp do tej treści mają wyłącznie administratorzy operatora.
 
@@ -114,16 +118,17 @@ W usłudze hostowanej korzystamy z następujących kategorii usługodawców:
 - Stripe do płatności za subskrypcje internetowe, zarządzania rozliczeniami, obliczania podatków i powiadomień o płatnościach;
 - Resend do transakcyjnych e-maili uwierzytelniających i rozliczeniowych;
 - OpenAI do opcjonalnych hostowanych żądań AI;
-- Langfuse Cloud do obserwowalności hostowanej AI;
 - Sentry do oczyszczonych raportów o błędach i diagnostyki, gdy jest włączony w danej usłudze hostowanej lub kompilacji aplikacji;
 - Vercel do obsługi witryny marketingowej i jej Web Analytics bez plików cookie; oraz
 - Cloudflare do DNS i zarządzania domenami. Obecne rekordy DNS Nibomo są typu DNS-only, więc Cloudflare nie pośredniczy w ruchu HTTP hostowanej witryny ani aplikacji.
+
+Wymagamy od podmiotów przetwarzających w naszym imieniu takiej samej lub równoważnej ochrony udostępnionych danych użytkowników zgodnie z tą polityką i obowiązującym prawem. [Aneks dotyczący przetwarzania danych](https://openai.com/policies/data-processing-addendum/) OpenAI stanowi część Umowy o świadczenie usług i wymaga ograniczonego przetwarzania, poufności, środków bezpieczeństwa oraz zabezpieczeń transferów międzynarodowych.
 
 Dane mogą być również ujawniane innym członkom współdzielonego obszaru roboczego zgodnie z funkcjami współpracy w usłudze, zewnętrznemu klientowi, którego upoważnisz, doradcom zawodowym zobowiązanym do zachowania poufności lub organom publicznym, gdy ujawnienie jest wymagane przez prawo.
 
 ## Międzynarodowe przekazywanie danych
 
-Główna hostowana aplikacja działa w infrastrukturze AWS w UE. Skonfigurowany region wysyłki e-maili w Resend, region danych Sentry i endpoint Langfuse również znajdują się w Europie. Niektórzy dostawcy, w tym OpenAI i Vercel, mogą przetwarzać dane poza Twoim krajem lub Europejskim Obszarem Gospodarczym. Tam, gdzie jest to wymagane, w przypadku takiego przekazywania stosujemy mające zastosowanie decyzje stwierdzające odpowiedni stopień ochrony, umowy powierzenia przetwarzania danych oraz standardowe klauzule umowne lub równoważne zabezpieczenia.
+Główna hostowana aplikacja działa w infrastrukturze AWS w UE. Skonfigurowany region poczty Resend i region danych Sentry również znajdują się w Europie. Niektórzy dostawcy, w tym OpenAI i Vercel, mogą przetwarzać dane poza Twoim krajem lub Europejskim Obszarem Gospodarczym. Tam, gdzie jest to wymagane, w przypadku takiego przekazywania stosujemy mające zastosowanie decyzje stwierdzające odpowiedni stopień ochrony, umowy powierzenia przetwarzania danych oraz standardowe klauzule umowne lub równoważne zabezpieczenia.
 
 ## Przechowywanie i usuwanie danych
 

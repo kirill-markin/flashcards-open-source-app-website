@@ -34,7 +34,7 @@ Við getum lokað fyrir aðgang tímabundið eða varanlega þegar sanngjarnt er
 
 ## Gervigreindareiginleikar
 
-Hýstir gervigreindareiginleikar eru valfrjálsir og nota OpenAI. Tengd fjarmælingagögn gervigreindar eru unnin í gegnum Langfuse til villuleitar og greiningar á gæðum þjónustunnar. Úttak gervigreindar getur verið ónákvæmt, ófullnægjandi eða óhentugt. Þú berð ábyrgð á að fara yfir úttakið áður en þú reiðir þig á það, deilir því eða framkvæmir breytingar.
+Hýstir AI-eiginleikar eru valfrjálsir og nota OpenAI til vinnslu beiðnigagna samkvæmt [persónuverndarstefnu okkar](/is/privacy/). Í útgáfum Apple-forritsins með útgáfumerktu samþykki getur þú afturkallað AI-gagnadeilingu í Stillingum. Niðurstöður geta verið rangar, ófullkomnar eða óviðeigandi. Þú verður að yfirfara þær áður en þú treystir þeim, deilir þeim eða beitir breytingum.
 
 Þegar þú veitir ytri gervigreindarbiðlara heimild til að nota MCP-þjónustuna eða Agent API vinna sá biðlari og líkanaveitandi hans með gögnin sem þú biður um samkvæmt eigin skilmálum. Við berum ekki ábyrgð á virkni eða úttaki ytri biðlara.
 

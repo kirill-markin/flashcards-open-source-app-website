@@ -34,7 +34,7 @@ Võime juurdepääsu peatada või lõpetada, kui see on mõistlikult vajalik kas
 
 ## AI-funktsioonid
 
-Majutatud AI-funktsioonid on valikulised ja kasutavad OpenAI teenust. Nendega seotud AI telemeetriat töödeldakse silumise ja teenuse kvaliteedi analüüsimise eesmärgil Langfuse'i kaudu. AI väljund võib olla ebatäpne, puudulik või sobimatu. Vastutad väljundi ülevaatamise eest enne, kui sellele tugined, seda jagad või muudatusi rakendad.
+Majutatud AI funktsioonid on valikulised ja kasutavad OpenAI-d päringuandmete töötlemiseks meie [privaatsuspoliitika](/et/privacy/) kohaselt. Versioonitud nõusolekut toetavates Apple’i rakenduse versioonides saad AI andmete jagamise seadetes tagasi võtta. Väljund võib olla vale, puudulik või sobimatu. Pead seda kontrollima enne sellele tuginemist, jagamist või muudatuste rakendamist.
 
 Kui volitad välist AI-klienti kasutama MCP-teenust või Agent API-t, töötlevad see klient ja selle mudelipakkuja sinu taotletud andmeid oma tingimuste alusel. Me ei vastuta välise kliendi toimimise ega väljundi eest.
 

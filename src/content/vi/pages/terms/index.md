@@ -34,7 +34,7 @@ Chúng tôi có thể tạm ngừng hoặc chấm dứt quyền truy cập khi �
 
 ## Tính năng AI
 
-Các tính năng AI trên dịch vụ lưu trữ sẵn là tùy chọn và sử dụng OpenAI. Dữ liệu đo lường từ xa liên quan đến AI được xử lý qua Langfuse để gỡ lỗi và phân tích chất lượng dịch vụ. Kết quả do AI tạo ra có thể không chính xác, không đầy đủ hoặc không phù hợp. Bạn chịu trách nhiệm xem xét kết quả trước khi dựa vào, chia sẻ hoặc áp dụng các thay đổi từ kết quả đó.
+Tính năng AI trên dịch vụ lưu trữ sẵn là tùy chọn và dùng OpenAI để xử lý dữ liệu yêu cầu theo [Chính sách quyền riêng tư](/vi/privacy/) của chúng tôi. Với phiên bản ứng dụng Apple hỗ trợ sự đồng ý có phiên bản, bạn có thể rút lại việc chia sẻ dữ liệu AI trong Cài đặt. Kết quả AI có thể sai, thiếu hoặc không phù hợp. Bạn chịu trách nhiệm xem xét trước khi dựa vào, chia sẻ hoặc áp dụng thay đổi.
 
 Khi bạn cho phép một client AI bên ngoài sử dụng dịch vụ MCP hoặc Agent API, client đó và nhà cung cấp mô hình của nó xử lý dữ liệu bạn yêu cầu theo điều khoản riêng của họ. Chúng tôi không chịu trách nhiệm về hoạt động hoặc kết quả của client bên ngoài.
 

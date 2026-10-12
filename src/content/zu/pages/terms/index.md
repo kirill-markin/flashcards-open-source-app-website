@@ -34,7 +34,7 @@ Singamisa okwesikhashana noma sinqamule ukufinyelela lapho kudingeka ngokunengqo
 
 ## Izici ze-AI
 
-Izici ze-AI ezisingathiwe ungazisebenzisa uma uthanda, futhi zisebenzisa i-OpenAI. I-telemetry ye-AI ehlobene nazo icutshungulwa nge-Langfuse ukuze kulungiswe amaphutha futhi kuhlaziywe izinga lesevisi. Okukhishwa yi-AI kungase kungabi nembile, kungaphelele, noma kungafaneleki. Wena unesibopho sokuhlola okukhishwayo ngaphambi kokuthembela kukho, ukwabelana ngakho, noma ukusebenzisa izinguquko.
+Izici ze-AI ezisingathiwe ziyakhethwa futhi zisebenzisa i-OpenAI ukucubungula idatha yesicelo njengoba kuchazwe [kuNqubomgomo yethu Yobumfihlo](/zu/privacy/). Ezinguqulweni zohlelo lwe-Apple ezisekela imvume enenombolo yenguqulo, ungahoxisa ukwabelana ngedatha ye-AI kokuthi Izilungiselelo. Imiphumela ingaba nephutha, ingaphelele noma ingafaneleki. Kufanele uyihlole ngaphambi kokuthembela kuyo, ukwabelana ngayo noma ukusebenzisa izinguquko.
 
 Uma ugunyaza iklayenti le-AI langaphandle ukuthi lisebenzise isevisi ye-MCP noma i-Agent API, lelo klayenti nomhlinzeki walo wemodeli bacubungula idatha oyicelayo ngaphansi kwemigomo yabo. Asinasibopho ngokusebenza noma ngokukhishwa yiklayenti langaphandle.
 

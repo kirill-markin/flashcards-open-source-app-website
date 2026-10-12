@@ -98,7 +98,11 @@ Kuzima mpangilio huu husimamisha ukusanyaji wa siku zijazo. Hakufuti matukio amb
 
 OpenAI ndiye mtoa huduma wa AI aliyesanidiwa kwa vipengele vya gumzo, unukuzi wa sauti, na utengenezaji wa picha vilivyopangishwa. Unapochagua vipengele hivyo, tunatuma kwa OpenAI data ya ombi inayohitajika kuvitekeleza, ambayo inaweza kujumuisha agizo lako, muktadha husika wa gumzo na wa nafasi ya kazi, viambatisho au picha, sauti iliyotamkwa, na kitambulisho cha usalama kisichokutaja kwa jina. Maombi ya maandishi yaliyopangishwa hutumia `store: false`, ambayo huzima uhifadhi wa vitu vya majibu kwa ajili ya kuvipata baadaye. Kwa kuwa maombi haya pia hutumia uhifadhi wa muda wa maagizo, OpenAI inaweza kuhifadhi hali ya programu ya akiba iliyosimbwa kwa njia fiche kwa hadi saa 24. Chini ya vidhibiti vya sasa vya API vya OpenAI, kumbukumbu husika za ufuatiliaji wa matumizi mabaya zinaweza kuhifadhiwa kwa hadi siku 30, ilhali sehemu ya unukuzi wa sauti inaeleza kwamba haihifadhi maudhui ya ufuatiliaji wa matumizi mabaya wala hali ya programu. OpenAI haitumii data ya API kufunza modeli zake isipokuwa mmiliki wa akaunti akubali waziwazi.
 
-Maombi ya AI yaliyopangishwa pia hufuatiliwa kupitia Langfuse Cloud kwa ajili ya kutatua hitilafu na kuchanganua ubora wa huduma. Rekodi za ufuatiliaji za Langfuse zinaweza kujumuisha maagizo, majibu ya modeli, shughuli za zana, vitambulisho vya mtumiaji, nafasi ya kazi na kipindi, na metadata ya uendeshaji. Utekelezaji huficha anwani za barua pepe na sehemu zinazoonekana kuwa siri; rekodi maalum za ufuatiliaji wa unukuzi wa sauti haziweki baiti ghafi za sauti wala data ya viambatisho.
+Tangu uwekaji wa mabadiliko yaliyoondoa muunganisho tarehe 12 Oktoba 2026, hatutumi data mpya kwa Langfuse Cloud. Trace zilizopo bado hufutwa baada ya siku 30 kupitia ufutaji wa kila usiku; kuondoa muunganisho hakukuzifuta mara moja. Rekodi za ufuatiliaji za Langfuse zinaweza kujumuisha maagizo, majibu ya modeli, shughuli za zana, vitambulisho vya mtumiaji, nafasi ya kazi na kipindi, na metadata ya uendeshaji. Utekelezaji huficha anwani za barua pepe na sehemu zinazoonekana kuwa siri; rekodi maalum za ufuatiliaji wa unukuzi wa sauti haziweki baiti ghafi za sauti wala data ya viambatisho. Trace hizi za zamani zilitumika kutatua hitilafu na kuchanganua ubora wa huduma.
+
+Muktadha wa nafasi ya kazi unaotumwa kwa OpenAI unaweza kujumuisha kadi, historia ya marudio na matokeo ya zana; picha zinaweza kujumuisha picha unazochagua. Vipindi vya kuhifadhi data vya OpenAI vinategemea [masharti ya kipekee ya kisheria na usalama ya OpenAI](https://developers.openai.com/api/docs/guides/your-data), yakiwemo kuhifadhi picha zilizowekewa alama kwa ukaguzi.
+
+Matoleo ya programu ya Apple yanayounga mkono ridhaa ya AI yenye maelezo ya toleo huomba ruhusa kabla ya kushiriki data na OpenAI. Unaweza kuiondoa kwenye Mipangilio ili kusimamisha maombi mapya ya AI kutoka usakinishaji huo; yaliyotumwa tayari yanaweza kukamilika. Ushahidi tofauti wa kisheria wa kutoa na kuondoa ridhaa huandikwa hata takwimu za matumizi ya bidhaa zikiwa zimezimwa: maandishi halisi yaliyoonyeshwa, toleo na lugha; kitambulisho kisichobadilika cha tukio na mfuatano unaoongezeka wa maamuzi; mhusika wa awali aliyethibitishwa, mmiliki wa sasa wa akaunti au mgeni na vitambulisho vya usakinishaji; toleo, build na jukwaa la programu; wakati wa tendo na wa kupokewa na seva. Baada ya kuondoa ridhaa, historia huhifadhiwa kwa muda wa maisha ya akaunti au mgeni. Kufuta akaunti au mgeni huiondoa, pamoja na historia ya mgeni iliyohamishwa.
 
 Wasimamizi wetu wanaweza kusoma maudhui ya gumzo la AI lililopangishwa yaliyohifadhiwa katika hifadhidata yetu wenyewe, ikiwemo maagizo yako, majibu ya modeli, na mapendekezo ya maagizo ya gumzo, ili kuchanganua jinsi vipengele vya AI vinavyotumika na kuviboresha. Ufikiaji wa maudhui hayo umewekewa mipaka kwa wasimamizi wa mwendeshaji pekee.
 
@@ -114,16 +118,17 @@ Tunatumia aina zifuatazo za watoa huduma kwa huduma iliyopangishwa:
 - Stripe kwa malipo ya usajili wa wavuti, usimamizi wa malipo, ukokotoaji wa kodi, na arifa za malipo;
 - Resend kwa barua pepe za kimiamala za uthibitishaji na za malipo;
 - OpenAI kwa maombi ya hiari ya AI iliyopangishwa;
-- Langfuse Cloud kwa ufuatiliaji wa AI iliyopangishwa;
 - Sentry kwa kuripoti hitilafu na taarifa za uchunguzi zilizosafishwa pale inapowezeshwa katika huduma husika iliyopangishwa au toleo husika la programu;
 - Vercel kwa tovuti ya masoko na Web Analytics yake isiyotumia vidakuzi; na
 - Cloudflare kwa DNS na usimamizi wa vikoa. Rekodi za sasa za DNS za Nibomo ni za DNS pekee, kwa hivyo Cloudflare haipitishi trafiki ya HTTP ya tovuti au ya programu iliyopangishwa.
+
+Tunawataka wachakataji wanaotenda kwa niaba yetu kutoa ulinzi uleule au sawa kwa data ya watumiaji inayoshirikiwa chini ya sera hii na sheria inayotumika. [Nyongeza ya Uchakataji wa Data](https://openai.com/policies/data-processing-addendum/) ya OpenAI ni sehemu ya Makubaliano yake ya Huduma na inahitaji uchakataji uliowekewa mipaka, usiri, hatua za usalama na ulinzi wa uhamisho wa kimataifa.
 
 Data inaweza pia kufichuliwa kwa wanachama wengine wa nafasi ya kazi inayoshirikiwa kulingana na vipengele vya ushirikiano vya huduma, kwa kiteja cha nje unachokiidhinisha, kwa washauri wa kitaaluma walio chini ya wajibu wa usiri, au kwa mamlaka za umma pale ufichuzi unapohitajika kisheria.
 
 ## Uhamishaji wa data kimataifa
 
-Programu kuu iliyopangishwa huendeshwa katika miundombinu ya AWS iliyo Umoja wa Ulaya. Eneo la barua pepe la Resend lililosanidiwa, eneo la data la Sentry, na sehemu ya kuunganishia ya Langfuse pia viko Ulaya. Baadhi ya watoa huduma, wakiwemo OpenAI na Vercel, wanaweza kuchakata data nje ya nchi yako au nje ya Eneo la Kiuchumi la Ulaya. Pale inapohitajika, tunatumia maamuzi husika ya utoshelevu, mikataba ya uchakataji wa data, na Vifungu vya Kawaida vya Mkataba au kinga sawa nazo kwa uhamishaji huo.
+Programu kuu iliyopangishwa huendeshwa katika miundombinu ya AWS iliyo Umoja wa Ulaya. Eneo la barua pepe la Resend lililosanidiwa na eneo la data la Sentry pia yako Ulaya. Baadhi ya watoa huduma, wakiwemo OpenAI na Vercel, wanaweza kuchakata data nje ya nchi yako au nje ya Eneo la Kiuchumi la Ulaya. Pale inapohitajika, tunatumia maamuzi husika ya utoshelevu, mikataba ya uchakataji wa data, na Vifungu vya Kawaida vya Mkataba au kinga sawa nazo kwa uhamishaji huo.
 
 ## Uhifadhi na ufutaji
 

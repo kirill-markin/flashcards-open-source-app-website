@@ -98,7 +98,11 @@ Desligar a configuração interrompe a coleta futura. Isso não apaga os eventos
 
 A OpenAI é o provedor de IA configurado para os recursos hospedados de conversa, transcrição e geração de imagens. Quando você escolhe esses recursos, enviamos à OpenAI os dados da solicitação necessários para executá-los, o que pode incluir seu prompt, o contexto relevante da conversa e do espaço de trabalho, anexos ou imagens, áudio ditado e um identificador pseudônimo de segurança. As solicitações de texto hospedadas usam `store: false`, o que desativa o armazenamento dos objetos de resposta para consulta posterior. Como essas solicitações também usam cache de prompt, a OpenAI pode reter por até 24 horas o estado criptografado de aplicação em cache. Pelos controles atuais da API da OpenAI, os logs aplicáveis de monitoramento de abuso podem ser retidos por até 30 dias, enquanto o endpoint de transcrição declara que não retém nem conteúdo de monitoramento de abuso nem estado de aplicação. A OpenAI não usa dados da API para treinar seus modelos, a menos que o titular da conta opte expressamente por isso.
 
-As solicitações de IA hospedadas também são observadas pelo Langfuse Cloud para depuração e análise de qualidade do serviço. Os traces do Langfuse podem incluir prompts, respostas do modelo, atividade de ferramentas, identificadores de usuário, espaço de trabalho e sessão, além de metadados operacionais. A implementação mascara endereços de e-mail e campos com aparência de segredo; os traces personalizados de transcrição excluem os bytes brutos de áudio e os dados de anexos.
+Desde a implantação que removeu a integração em 12 de outubro de 2026, não enviamos novos dados ao Langfuse Cloud. Os traces existentes continuam sendo excluídos após 30 dias na rotina noturna; remover a integração não os apagou imediatamente. Os traces do Langfuse podem incluir prompts, respostas do modelo, atividade de ferramentas, identificadores de usuário, espaço de trabalho e sessão, além de metadados operacionais. A implementação mascara endereços de e-mail e campos com aparência de segredo; os traces personalizados de transcrição excluem os bytes brutos de áudio e os dados de anexos. Esses traces históricos eram usados para depuração e análise da qualidade do serviço.
+
+O contexto do espaço de trabalho enviado à OpenAI pode incluir cartões, histórico de revisões e resultados de ferramentas; as imagens podem incluir fotos que você selecionar. Os prazos de retenção da OpenAI estão sujeitos às [exceções legais e de segurança da OpenAI](https://developers.openai.com/api/docs/guides/your-data), incluindo a retenção de imagens sinalizadas para análise.
+
+As versões do app Apple que oferecem consentimento de IA com texto versionado pedem sua autorização antes de compartilhar dados com a OpenAI. Você pode retirá-la nos Ajustes para interromper novas solicitações de IA dessa instalação; as já enviadas podem ser concluídas. Registramos comprovantes legais separados de concessão e retirada mesmo com a análise do produto desativada: texto exato exibido, versão e idioma; ID de evento imutável e sequência crescente de decisões; autor autenticado original, titular atual da conta ou sessão de convidado e identificadores de instalação; versão, build e plataforma do app; horário da ação e do recebimento pelo servidor. A retirada mantém esse histórico durante a vida da conta ou sessão de convidado. A exclusão da conta ou sessão de convidado o remove, inclusive o histórico de convidado transferido.
 
 Nossos administradores podem ler o conteúdo dos chats de IA hospedados guardado no nosso próprio banco de dados, incluindo seus prompts, as respostas do modelo e as sugestões de prompts do campo de entrada do chat, para analisar como os recursos de IA são usados e melhorá-los. O acesso a esse conteúdo é restrito aos administradores do operador.
 
@@ -114,16 +118,17 @@ Usamos as seguintes categorias de prestadores de serviço para o serviço hosped
 - Stripe para pagamentos de assinaturas web, gestão de cobrança, cálculo de impostos e notificações de pagamento;
 - Resend para e-mails transacionais de autenticação e cobrança;
 - OpenAI para as solicitações opcionais de IA hospedada;
-- Langfuse Cloud para observabilidade da IA hospedada;
 - Sentry para relatórios higienizados de erro e diagnóstico, quando ativado no serviço hospedado ou na build do aplicativo em questão;
 - Vercel para o site de divulgação e para o Web Analytics sem cookies dele; e
 - Cloudflare para DNS e gestão de domínios. Os registros DNS atuais do Nibomo são somente DNS, então a Cloudflare não faz proxy do tráfego HTTP do site nem do aplicativo hospedado.
+
+Exigimos que os operadores que atuam em nosso nome ofereçam proteção igual ou equivalente aos dados compartilhados conforme esta política e a lei aplicável. O [Adendo de Processamento de Dados](https://openai.com/policies/data-processing-addendum/) da OpenAI integra seu Contrato de Serviços e exige processamento restrito, confidencialidade, medidas de segurança e salvaguardas para transferências internacionais.
 
 Os dados também podem ser divulgados a outros membros de um espaço de trabalho compartilhado conforme os recursos de colaboração do serviço, a um cliente externo que você autorize, a consultores profissionais sujeitos a dever de sigilo ou a autoridades públicas quando a divulgação for exigida por lei.
 
 ## Transferências internacionais
 
-O aplicativo hospedado principal roda na infraestrutura da AWS na União Europeia. A região de e-mail configurada no Resend, a região de dados do Sentry e o endpoint do Langfuse também ficam na Europa. Alguns provedores, incluindo a OpenAI e a Vercel, podem tratar dados fora do seu país ou do Espaço Econômico Europeu. Quando é exigido, usamos as decisões de adequação aplicáveis, acordos de tratamento de dados e Cláusulas Contratuais Padrão ou salvaguardas equivalentes para essas transferências.
+O aplicativo hospedado principal roda na infraestrutura da AWS na União Europeia. A região de e-mail configurada no Resend e a região de dados do Sentry também ficam na Europa. Alguns provedores, incluindo a OpenAI e a Vercel, podem tratar dados fora do seu país ou do Espaço Econômico Europeu. Quando é exigido, usamos as decisões de adequação aplicáveis, acordos de tratamento de dados e Cláusulas Contratuais Padrão ou salvaguardas equivalentes para essas transferências.
 
 ## Retenção e exclusão
 

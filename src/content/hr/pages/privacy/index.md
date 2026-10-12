@@ -98,7 +98,11 @@ Isključivanje postavke zaustavlja buduće prikupljanje. Ne briše već zabilje�
 
 OpenAI je pružatelj AI-ja konfiguriran za hostirani razgovor, transkripciju i značajke generiranja slika. Kad odaberete te značajke, OpenAI-ju šaljemo podatke zahtjeva potrebne za njihovo izvođenje, što može uključivati vaš upit, relevantan kontekst razgovora i radnog prostora, privitke ili slike, diktirani zvuk i pseudonimni sigurnosni identifikator. Hostirani tekstualni zahtjevi koriste `store: false`, čime se onemogućuje pohrana objekata odgovora za kasnije dohvaćanje. Budući da ti zahtjevi koriste i predmemoriranje upita, OpenAI može zadržati šifrirano stanje aplikacije u predmemoriji do 24 sata. Prema trenutačnim kontrolama OpenAI API-ja, primjenjivi zapisnici nadzora zlouporabe mogu se zadržati do 30 dana, dok se za krajnju točku za transkripciju navodi da ne zadržava ni sadržaj za nadzor zlouporabe ni stanje aplikacije. OpenAI ne koristi podatke iz API-ja za treniranje svojih modela osim ako se nositelj računa izričito ne odluči za to.
 
-Hostirani AI zahtjevi prate se i putem usluge Langfuse Cloud radi otklanjanja pogrešaka i analize kvalitete usluge. Langfuse tragovi mogu uključivati upite, odgovore modela, aktivnost alata, identifikatore korisnika, radnog prostora i sesije te operativne metapodatke. Implementacija maskira adrese e-pošte i polja koja izgledaju kao tajne; prilagođeni tragovi transkripcije ne sadrže neobrađene bajtove zvuka ni podatke privitaka.
+Od uvođenja promjene koja je uklonila integraciju 12. listopada 2026. ne šaljemo nove podatke u Langfuse Cloud. Postojeći tragovi i dalje se brišu nakon 30 dana tijekom noćnog brisanja; uklanjanje integracije nije ih odmah izbrisalo. Langfuse tragovi mogu uključivati upite, odgovore modela, aktivnost alata, identifikatore korisnika, radnog prostora i sesije te operativne metapodatke. Implementacija maskira adrese e-pošte i polja koja izgledaju kao tajne; prilagođeni tragovi transkripcije ne sadrže neobrađene bajtove zvuka ni podatke privitaka. Ti povijesni tragovi koristili su se za otklanjanje pogrešaka i analizu kvalitete usluge.
+
+Kontekst radnog prostora koji se šalje OpenAI-ju može sadržavati kartice za učenje, povijest ponavljanja i rezultate alata; slike mogu uključivati fotografije koje odaberete. Razdoblja čuvanja podataka OpenAI-ja podliježu [pravnim i sigurnosnim iznimkama OpenAI-ja](https://developers.openai.com/api/docs/guides/your-data), uključujući čuvanje označenih slika radi provjere.
+
+Verzije aplikacije Apple koje podržavaju pristanak za AI s verzioniranom obavijesti traže dopuštenje prije dijeljenja podataka s OpenAI-jem. Možete ga povući u Postavkama kako biste zaustavili nove zahtjeve iz te instalacije; već poslani zahtjevi mogu se dovršiti. Zasebni pravni dokazi o davanju i povlačenju pristanka bilježe se i kad je analitika proizvoda isključena: točan prikazani tekst, verzija i jezik; nepromjenjivi ID događaja i rastući redni broj odluke; izvorni autentificirani izvršitelj, trenutačni vlasnik računa ili gosta i identifikatori instalacije; verzija, međuverzija i platforma aplikacije; vrijeme radnje i primitka na poslužitelju. Nakon povlačenja povijest ostaje tijekom postojanja računa ili gosta. Njihovo brisanje uklanja je, uključujući prenesenu povijest gosta.
 
 Naši administratori mogu čitati sadržaj hostiranog AI razgovora pohranjen u našoj vlastitoj bazi podataka, uključujući vaše upite, odgovore modela i predložene upite za razgovor, kako bi analizirali kako se AI značajke koriste i poboljšali ih. Pristup tom sadržaju ograničen je na administratore pružatelja usluge.
 
@@ -114,16 +118,17 @@ Za hostiranu uslugu koristimo sljedeće kategorije pružatelja usluga:
 - Stripe za plaćanja web-pretplata, upravljanje naplatom, izračun poreza i obavijesti o plaćanjima;
 - Resend za transakcijske e-poruke za autentifikaciju i naplatu;
 - OpenAI za neobavezne hostirane AI zahtjeve;
-- Langfuse Cloud za nadzor hostiranog AI-ja;
 - Sentry za izvještavanje o pogreškama i dijagnostici, iz kojeg su uklonjeni osjetljivi podaci, kad je omogućeno u relevantnoj hostiranoj usluzi ili buildu aplikacije;
 - Vercel za marketinšku web stranicu i njezin Web Analytics bez kolačića; i
 - Cloudflare za DNS i upravljanje domenama. Trenutačni DNS zapisi za Nibomo postavljeni su samo kao DNS, bez posredovanja, pa Cloudflare ne posreduje HTTP promet hostirane web stranice ni aplikacije.
+
+Od izvršitelja obrade koji djeluju u naše ime zahtijevamo istu ili jednakovrijednu zaštitu dijeljenih korisničkih podataka prema ovim pravilima i važećem pravu. OpenAI-jev [Dodatak o obradi podataka](https://openai.com/policies/data-processing-addendum/) dio je ugovora o uslugama i zahtijeva ograničenu obradu, povjerljivost, sigurnosne mjere i zaštitu pri međunarodnim prijenosima.
 
 Podaci se mogu otkriti i drugim članovima zajedničkog radnog prostora u skladu sa značajkama suradnje usluge, vanjskom klijentu kojeg ovlastite, profesionalnim savjetnicima koji imaju obvezu povjerljivosti ili tijelima javne vlasti kad je otkrivanje zakonski propisano.
 
 ## Međunarodni prijenosi
 
-Glavna hostirana aplikacija radi u AWS-ovoj infrastrukturi u EU-u. Konfigurirana regija e-pošte za Resend, regija podataka za Sentry i krajnja točka za Langfuse također su u Europi. Neki pružatelji, uključujući OpenAI i Vercel, mogu obrađivati podatke izvan vaše zemlje ili Europskog gospodarskog prostora. Kad je to potrebno, za te prijenose koristimo primjenjive odluke o primjerenosti, ugovore o obradi podataka i standardne ugovorne klauzule ili jednakovrijedne zaštitne mjere.
+Glavna hostirana aplikacija radi u AWS-ovoj infrastrukturi u EU-u. Konfigurirana regija e-pošte Resend i regija podataka Sentry također su u Europi. Neki pružatelji, uključujući OpenAI i Vercel, mogu obrađivati podatke izvan vaše zemlje ili Europskog gospodarskog prostora. Kad je to potrebno, za te prijenose koristimo primjenjive odluke o primjerenosti, ugovore o obradi podataka i standardne ugovorne klauzule ili jednakovrijedne zaštitne mjere.
 
 ## Zadržavanje i brisanje
 

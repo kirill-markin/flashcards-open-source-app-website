@@ -98,7 +98,11 @@ Menonaktifkan pengaturan ini menghentikan pengumpulan di masa mendatang. Tindaka
 
 OpenAI adalah penyedia AI yang dikonfigurasi untuk fitur obrolan, transkripsi, dan pembuatan gambar terkelola. Saat Anda memilih fitur tersebut, kami mengirimkan kepada OpenAI data permintaan yang diperlukan untuk menjalankannya, yang dapat mencakup prompt Anda, konteks obrolan dan ruang kerja yang relevan, lampiran atau gambar, audio yang didiktekan, dan pengenal keamanan berbentuk pseudonim. Permintaan teks terkelola menggunakan `store: false`, yang menonaktifkan penyimpanan objek respons untuk diambil kemudian. Karena permintaan ini juga menggunakan prompt caching, OpenAI dapat menyimpan status aplikasi cache yang terenkripsi hingga 24 jam. Berdasarkan kontrol API OpenAI saat ini, log pemantauan penyalahgunaan yang berlaku dapat disimpan hingga 30 hari, sementara endpoint transkripsi menyatakan bahwa endpoint tersebut tidak menyimpan konten pemantauan penyalahgunaan maupun status aplikasi. OpenAI tidak menggunakan data API untuk melatih modelnya kecuali pemegang akun secara eksplisit memilih ikut serta.
 
-Permintaan AI terkelola juga diamati melalui Langfuse Cloud untuk debugging dan analisis kualitas layanan. Trace Langfuse dapat mencakup prompt, respons model, aktivitas alat, pengenal pengguna, ruang kerja, dan sesi, serta metadata operasional. Implementasinya menyamarkan alamat email dan field yang tampak seperti rahasia; trace transkripsi kustom tidak menyertakan byte audio mentah dan data lampiran.
+Sejak penerapan yang menghapus integrasi pada 12 Oktober 2026, kami tidak mengirim data baru ke Langfuse Cloud. Trace yang ada tetap dihapus setelah 30 hari melalui penghapusan setiap malam; penghapusan integrasi tidak langsung menghapusnya. Trace Langfuse dapat mencakup prompt, respons model, aktivitas alat, pengenal pengguna, ruang kerja, dan sesi, serta metadata operasional. Implementasinya menyamarkan alamat email dan field yang tampak seperti rahasia; trace transkripsi kustom tidak menyertakan byte audio mentah dan data lampiran. Trace historis ini digunakan untuk debugging dan analisis kualitas layanan.
+
+Konteks ruang kerja yang dikirim ke OpenAI dapat mencakup kartu, riwayat ulasan, dan hasil alat; gambar dapat mencakup foto yang Anda pilih. Jangka waktu penyimpanan OpenAI tunduk pada [pengecualian hukum dan keamanan OpenAI](https://developers.openai.com/api/docs/guides/your-data), termasuk penyimpanan gambar yang ditandai untuk ditinjau.
+
+Versi aplikasi Apple yang mendukung persetujuan AI dengan pemberitahuan berversi meminta izin sebelum berbagi data dengan OpenAI. Anda dapat mencabutnya di Pengaturan untuk menghentikan permintaan AI baru dari instalasi tersebut; permintaan yang sudah dikirim dapat selesai. Bukti hukum terpisah atas pemberian dan pencabutan persetujuan dicatat meskipun analitik produk dinonaktifkan: teks persis yang ditampilkan, versi dan bahasa; ID peristiwa yang tidak dapat diubah dan urutan keputusan yang meningkat; pelaku asli yang terautentikasi, pemilik akun atau sesi tamu saat ini dan pengenal instalasi; versi, build dan platform aplikasi; waktu tindakan dan penerimaan server. Pencabutan tetap menyimpan riwayat ini sepanjang masa akun atau sesi tamu. Penghapusan akun atau sesi tamu menghapusnya, termasuk riwayat tamu yang dipindahkan.
 
 Administrator kami dapat membaca konten obrolan AI terkelola yang disimpan di database kami sendiri, termasuk prompt Anda, respons model, dan prompt obrolan yang disarankan, untuk menganalisis cara fitur AI digunakan dan meningkatkannya. Akses ke konten tersebut terbatas pada administrator operator.
 
@@ -114,16 +118,17 @@ Kami menggunakan kategori penyedia layanan berikut untuk layanan terkelola:
 - Stripe untuk pembayaran langganan web, pengelolaan penagihan, perhitungan pajak, dan notifikasi pembayaran;
 - Resend untuk email transaksional autentikasi dan penagihan;
 - OpenAI untuk permintaan AI terkelola yang opsional;
-- Langfuse Cloud untuk observabilitas AI terkelola;
 - Sentry untuk pelaporan error dan diagnostik yang telah disanitasi jika diaktifkan di layanan terkelola atau build aplikasi yang relevan;
 - Vercel untuk situs web pemasaran dan Web Analytics-nya yang bebas cookie; dan
 - Cloudflare untuk DNS dan pengelolaan domain. Record DNS Nibomo saat ini bersifat DNS-only, sehingga Cloudflare tidak mem-proxy lalu lintas HTTP situs web atau aplikasi terkelola.
+
+Kami mewajibkan pemroses yang bertindak atas nama kami memberikan perlindungan yang sama atau setara untuk data pengguna yang dibagikan menurut kebijakan ini dan hukum yang berlaku. [Adendum Pemrosesan Data](https://openai.com/policies/data-processing-addendum/) OpenAI menjadi bagian dari Perjanjian Layanannya dan mewajibkan pemrosesan terbatas, kerahasiaan, langkah keamanan, serta perlindungan untuk transfer internasional.
 
 Data juga dapat diungkapkan kepada anggota lain dari ruang kerja bersama sesuai fitur kolaborasi layanan, kepada klien eksternal yang Anda otorisasi, kepada penasihat profesional yang terikat kewajiban kerahasiaan, atau kepada otoritas publik jika pengungkapan diwajibkan oleh hukum.
 
 ## Transfer Internasional
 
-Aplikasi terkelola utama berjalan di infrastruktur AWS di UE. Region email Resend, region data Sentry, dan endpoint Langfuse yang dikonfigurasi juga berada di Eropa. Beberapa penyedia, termasuk OpenAI dan Vercel, dapat memproses data di luar negara Anda atau Wilayah Ekonomi Eropa. Jika diwajibkan, kami menggunakan keputusan kecukupan yang berlaku, perjanjian pemrosesan data, dan Klausul Kontrak Standar atau perlindungan setara untuk transfer tersebut.
+Aplikasi terkelola utama berjalan di infrastruktur AWS di UE. Region email Resend dan region data Sentry yang dikonfigurasi juga berada di Eropa. Beberapa penyedia, termasuk OpenAI dan Vercel, dapat memproses data di luar negara Anda atau Wilayah Ekonomi Eropa. Jika diwajibkan, kami menggunakan keputusan kecukupan yang berlaku, perjanjian pemrosesan data, dan Klausul Kontrak Standar atau perlindungan setara untuk transfer tersebut.
 
 ## Penyimpanan dan Penghapusan
 

@@ -34,7 +34,7 @@ Felfüggeszthetjük vagy megszüntethetjük a hozzáférést, ha ez észszerűen
 
 ## AI-funkciók
 
-A felhős AI-funkciók használata nem kötelező, és ezek az OpenAI-t használják. A kapcsolódó AI-telemetriát a Langfuse dolgozza fel hibakeresés és a szolgáltatás minőségének elemzése céljából. Az AI kimenete pontatlan, hiányos vagy alkalmatlan lehet. Te felelsz azért, hogy a kimenetet átnézd, mielőtt támaszkodnál rá, megosztanád, vagy alkalmaznád az általa javasolt módosításokat.
+A hosztolt AI-funkciók opcionálisak, és az OpenAI dolgozza fel a kérés adatait az [Adatvédelmi szabályzatunk](/hu/privacy/) szerint. A verziózott hozzájárulást támogató Apple-appverziókban a Beállításokban visszavonhatod az AI-adatmegosztást. A kimenet hibás, hiányos vagy nem megfelelő lehet. Felhasználás, megosztás vagy módosítások alkalmazása előtt kötelességed ellenőrizni.
 
 Ha egy külső AI-kliensnek engedélyezed az MCP-szolgáltatás vagy az Agent API használatát, az a kliens és a modellszolgáltatója a saját feltételei szerint dolgozza fel az általad kért adatokat. Nem vállalunk felelősséget egy külső kliens működéséért vagy kimenetéért.
 
