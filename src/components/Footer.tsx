@@ -49,7 +49,7 @@ export const Footer: React.FC<FooterProps> = ({
   const smitheryHref = "https://smithery.ai/servers/kirill-fofi/nibomo";
   const glamaHref = "https://glama.ai/mcp/connectors/com.nibomo/flashcards";
   const geminiCliHref = "https://geminicli.com/extensions/?name=kirill-markinnibomo-plugins";
-  const executorHref = "https://v2.executor.sh/apps/nibomo/nibomo";
+  const executorHref = "https://executor.sh/apps/nibomo.executor.community/nibomo";
   const cursorDirectoryHref = "https://cursor.directory/plugins/nibomo";
   const productLinks = [
     {
