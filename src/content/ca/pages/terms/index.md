@@ -34,7 +34,7 @@ Podem suspendre l'accés o posar-hi fi quan sigui raonablement necessari per pro
 
 ## Funcions d'IA
 
-Les funcions d'IA allotjades són opcionals i fan servir OpenAI. La telemetria d'IA relacionada es tracta a través de Langfuse per a la depuració i l'anàlisi de la qualitat del servei. Els resultats de la IA poden ser inexactes, incomplets o inadequats. Ets responsable de revisar-los abans de confiar-hi, compartir-los o aplicar-ne els canvis.
+Les funcions d’IA allotjades són opcionals i fan servir OpenAI per tractar les dades de la sol·licitud segons la nostra [Política de privacitat](/ca/privacy/). En les versions de l’app d’Apple amb consentiment versionat, pots retirar la compartició de dades d’IA a Configuració. Els resultats poden ser incorrectes, incomplets o inadequats. Cal revisar-los abans de fer-los servir, compartir-los o aplicar canvis.
 
 Quan autoritzes un client d'IA extern a fer servir el servei MCP o l'Agent API, aquest client i el seu proveïdor de models tracten les dades que sol·licites segons les seves pròpies condicions. No som responsables del funcionament ni dels resultats d'un client extern.
 

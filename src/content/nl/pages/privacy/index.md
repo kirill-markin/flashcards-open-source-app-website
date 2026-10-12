@@ -98,7 +98,11 @@ Het uitschakelen van de instelling stopt toekomstig verzamelen. Het verwijdert g
 
 OpenAI is de AI-provider die is geconfigureerd voor de gehoste functies voor chat, transcriptie en het genereren van afbeeldingen. Wanneer je die functies kiest, sturen we OpenAI de verzoekgegevens die nodig zijn om ze uit te voeren; dat kunnen onder meer je prompt, relevante chat- en werkruimtecontext, bijlagen of afbeeldingen, gedicteerde audio en een pseudonieme veiligheidsidentificatie zijn. Gehoste tekstverzoeken gebruiken `store: false`, waardoor het opslaan van responsobjecten om ze later op te halen is uitgeschakeld. Omdat deze verzoeken ook prompt caching gebruiken, kan OpenAI versleutelde applicatiestatus in de cache tot 24 uur bewaren. Onder de huidige API-instellingen van OpenAI kunnen toepasselijke logs voor misbruikmonitoring tot 30 dagen worden bewaard, terwijl voor het transcriptie-endpoint wordt aangegeven dat het noch inhoud voor misbruikmonitoring noch applicatiestatus bewaart. OpenAI gebruikt API-gegevens niet om zijn modellen te trainen, tenzij de accounthouder daar uitdrukkelijk voor kiest.
 
-Gehoste AI-verzoeken worden ook gevolgd via Langfuse Cloud voor debugging en analyse van de kwaliteit van de dienst. Langfuse-traces kunnen prompts, modelantwoorden, toolactiviteit, gebruikers-, werkruimte- en sessie-identificaties en operationele metadata bevatten. De implementatie maskeert e-mailadressen en velden die op geheimen lijken; aangepaste traces van transcripties bevatten geen ruwe audiobytes en geen gegevens van bijlagen.
+Sinds de uitrol waarbij de integratie op 12 oktober 2026 is verwijderd, sturen we geen nieuwe gegevens naar Langfuse Cloud. Bestaande traces worden nog steeds na 30 dagen tijdens de nachtelijke verwijdering gewist; het verwijderen van de integratie heeft ze niet meteen gewist. Langfuse-traces kunnen prompts, modelantwoorden, toolactiviteit, gebruikers-, werkruimte- en sessie-identificaties en operationele metadata bevatten. De implementatie maskeert e-mailadressen en velden die op geheimen lijken; aangepaste traces van transcripties bevatten geen ruwe audiobytes en geen gegevens van bijlagen. Deze historische traces werden gebruikt voor foutopsporing en analyse van de servicekwaliteit.
+
+Werkruimtecontext die naar OpenAI wordt gestuurd kan kaarten, herhalingsgeschiedenis en toolresultaten bevatten; afbeeldingen kunnen door u gekozen foto’s omvatten. De bewaartermijnen van OpenAI zijn onderworpen aan [OpenAI’s wettelijke en veiligheidsuitzonderingen](https://developers.openai.com/api/docs/guides/your-data), waaronder het bewaren van gemarkeerde afbeeldingen voor beoordeling.
+
+Apple-appversies die AI-toestemming met een versiegebonden toelichting ondersteunen, vragen toestemming voordat gegevens met OpenAI worden gedeeld. U kunt deze in Instellingen intrekken om nieuwe AI-verzoeken vanuit die installatie te stoppen; al verzonden verzoeken kunnen worden afgerond. Afzonderlijke juridische bewijsstukken voor toestemming en intrekking worden ook opgeslagen als productanalyses uitstaan: exact getoonde tekst, versie en taal; onveranderlijke gebeurtenis-ID en oplopende beslisvolgorde; oorspronkelijk geauthenticeerde handelende gebruiker, huidige account- of gasteigenaar en installatie-identificatoren; appversie, build en platform; tijdstip van de handeling en serverontvangst. Na intrekking blijft deze geschiedenis bewaard zolang het account of de gast bestaat. Verwijdering van het account of de gast wist deze, inclusief overgedragen gastgeschiedenis.
 
 Onze beheerders kunnen de inhoud van gehoste AI-chats lezen die in onze eigen database is opgeslagen, waaronder je prompts, modelantwoorden en voorgestelde chatprompts, om te analyseren hoe de AI-functies worden gebruikt en om ze te verbeteren. Toegang tot die inhoud is beperkt tot de beheerders van de exploitant.
 
@@ -114,16 +118,17 @@ We gebruiken de volgende categorieën dienstverleners voor de gehoste dienst:
 - Stripe voor betalingen van webabonnementen, factureringsbeheer, belastingberekening en meldingen over betalingen;
 - Resend voor transactionele authenticatie- en factureringsmails;
 - OpenAI voor optionele gehoste AI-verzoeken;
-- Langfuse Cloud voor observeerbaarheid van gehoste AI;
 - Sentry voor opgeschoonde fout- en diagnostische rapportage wanneer dat is ingeschakeld in de betreffende gehoste dienst of app-build;
 - Vercel voor de marketingwebsite en de cookievrije Web Analytics daarvan; en
 - Cloudflare voor DNS en domeinbeheer. De huidige DNS-records van Nibomo zijn ingesteld als alleen DNS (DNS-only), dus Cloudflare fungeert niet als proxy voor HTTP-verkeer van de gehoste website of app.
+
+Wij verlangen dat verwerkers die namens ons handelen gedeelde gebruikersgegevens volgens dit beleid en de toepasselijke wetgeving dezelfde of gelijkwaardige bescherming bieden. OpenAI’s [Gegevensverwerkingsaddendum](https://openai.com/policies/data-processing-addendum/) maakt deel uit van de Dienstenovereenkomst en vereist beperkte verwerking, vertrouwelijkheid, beveiligingsmaatregelen en waarborgen voor internationale doorgifte.
 
 Gegevens kunnen ook worden verstrekt aan andere leden van een gedeelde werkruimte volgens de samenwerkingsfuncties van de dienst, aan een externe client die je autoriseert, aan professionele adviseurs met een geheimhoudingsplicht, of aan overheidsinstanties wanneer verstrekking wettelijk verplicht is.
 
 ## Internationale doorgifte
 
-De primaire gehoste applicatie draait in de EU-infrastructuur van AWS. De geconfigureerde e-mailregio van Resend, de dataregio van Sentry en het endpoint van Langfuse bevinden zich ook in Europa. Sommige providers, waaronder OpenAI en Vercel, kunnen gegevens verwerken buiten je land of buiten de Europese Economische Ruimte. Waar vereist, gebruiken we voor die doorgiften toepasselijke adequaatheidsbesluiten, verwerkersovereenkomsten en standaardcontractbepalingen of gelijkwaardige waarborgen.
+De primaire gehoste applicatie draait in de EU-infrastructuur van AWS. De ingestelde Resend-e-mailregio en Sentry-gegevensregio bevinden zich ook in Europa. Sommige providers, waaronder OpenAI en Vercel, kunnen gegevens verwerken buiten je land of buiten de Europese Economische Ruimte. Waar vereist, gebruiken we voor die doorgiften toepasselijke adequaatheidsbesluiten, verwerkersovereenkomsten en standaardcontractbepalingen of gelijkwaardige waarborgen.
 
 ## Bewaring en verwijdering
 

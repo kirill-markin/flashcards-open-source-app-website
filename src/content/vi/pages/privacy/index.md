@@ -98,7 +98,11 @@ Tắt thiết lập sẽ ngừng việc thu thập trong tương lai. Việc nà
 
 OpenAI là nhà cung cấp AI được cấu hình cho các tính năng chat, chép lời và tạo hình ảnh trên dịch vụ lưu trữ sẵn. Khi bạn chọn dùng các tính năng đó, chúng tôi gửi cho OpenAI dữ liệu yêu cầu cần thiết để thực hiện chúng, có thể bao gồm câu lệnh của bạn, ngữ cảnh chat và không gian làm việc liên quan, tệp đính kèm hoặc hình ảnh, âm thanh đọc chính tả và một mã định danh an toàn dưới dạng bí danh. Các yêu cầu văn bản trên dịch vụ lưu trữ sẵn dùng `store: false`, tùy chọn này tắt việc lưu trữ các đối tượng phản hồi để truy xuất sau. Vì các yêu cầu này cũng dùng bộ nhớ đệm câu lệnh (prompt caching), OpenAI có thể giữ trạng thái ứng dụng của bộ nhớ đệm đã được mã hóa trong tối đa 24 giờ. Theo các cơ chế kiểm soát API hiện tại của OpenAI, nhật ký giám sát lạm dụng có liên quan có thể được lưu giữ tối đa 30 ngày, trong khi endpoint chép lời cho biết không lưu giữ nội dung giám sát lạm dụng lẫn trạng thái ứng dụng. OpenAI không dùng dữ liệu API để huấn luyện mô hình của mình trừ khi chủ tài khoản đồng ý tham gia một cách rõ ràng.
 
-Các yêu cầu AI trên dịch vụ lưu trữ sẵn cũng được giám sát qua Langfuse Cloud để gỡ lỗi và phân tích chất lượng dịch vụ. Trace của Langfuse có thể bao gồm câu lệnh, phản hồi của mô hình, hoạt động của công cụ, mã định danh người dùng, không gian làm việc và phiên, cùng siêu dữ liệu vận hành. Phần triển khai che địa chỉ email và các trường trông giống thông tin bí mật; các trace chép lời tùy chỉnh không chứa byte âm thanh thô và dữ liệu tệp đính kèm.
+Kể từ lần triển khai gỡ bỏ tích hợp ngày 12 tháng 10 năm 2026, chúng tôi không gửi dữ liệu mới đến Langfuse Cloud. Các trace hiện có vẫn được xóa sau 30 ngày qua tác vụ hằng đêm; việc gỡ tích hợp không xóa chúng ngay lập tức. Trace của Langfuse có thể bao gồm câu lệnh, phản hồi của mô hình, hoạt động của công cụ, mã định danh người dùng, không gian làm việc và phiên, cùng siêu dữ liệu vận hành. Phần triển khai che địa chỉ email và các trường trông giống thông tin bí mật; các trace chép lời tùy chỉnh không chứa byte âm thanh thô và dữ liệu tệp đính kèm. Các trace lịch sử này được dùng để gỡ lỗi và phân tích chất lượng dịch vụ.
+
+Ngữ cảnh không gian làm việc gửi đến OpenAI có thể gồm thẻ, lịch sử ôn tập và kết quả của công cụ; hình ảnh có thể gồm ảnh bạn chọn. Thời hạn lưu giữ của OpenAI chịu [ngoại lệ pháp lý và an toàn của OpenAI](https://developers.openai.com/api/docs/guides/your-data), bao gồm việc lưu giữ hình ảnh bị gắn cờ để xem xét.
+
+Các phiên bản ứng dụng Apple hỗ trợ sự đồng ý AI với thông báo có phiên bản sẽ xin phép trước khi chia sẻ dữ liệu với OpenAI. Bạn có thể rút lại trong Cài đặt để dừng yêu cầu AI mới từ bản cài đặt đó; yêu cầu đã gửi có thể hoàn tất. Bằng chứng pháp lý riêng về đồng ý và rút lại vẫn được ghi khi tắt phân tích sản phẩm: văn bản chính xác đã hiển thị, phiên bản và ngôn ngữ; mã sự kiện không thể thay đổi và số thứ tự quyết định tăng dần; người thực hiện ban đầu đã xác thực, chủ tài khoản hoặc khách hiện tại và mã cài đặt; phiên bản, bản dựng và nền tảng ứng dụng; thời điểm thao tác và máy chủ nhận. Sau khi rút lại, lịch sử được giữ trong suốt thời gian tài khoản hoặc khách tồn tại. Xóa tài khoản hoặc khách sẽ xóa lịch sử này, kể cả lịch sử khách đã chuyển.
 
 Quản trị viên của chúng tôi có thể đọc nội dung chat AI của dịch vụ lưu trữ sẵn nằm trong cơ sở dữ liệu của chính chúng tôi, bao gồm câu lệnh của bạn, phản hồi của mô hình và các câu lệnh chat được gợi ý, để phân tích cách các tính năng AI được sử dụng và cải thiện chúng. Quyền truy cập nội dung đó chỉ giới hạn cho quản trị viên của đơn vị vận hành.
 
@@ -114,16 +118,17 @@ Chúng tôi sử dụng các nhóm nhà cung cấp dịch vụ sau cho dịch v�
 - Stripe cho thanh toán gói đăng ký trên web, quản lý thanh toán, tính thuế và thông báo thanh toán;
 - Resend cho email xác thực và email thanh toán mang tính giao dịch;
 - OpenAI cho các yêu cầu AI tùy chọn trên dịch vụ lưu trữ sẵn;
-- Langfuse Cloud cho việc giám sát (observability) AI trên dịch vụ lưu trữ sẵn;
 - Sentry cho báo cáo lỗi và chẩn đoán đã được làm sạch khi được bật trong dịch vụ lưu trữ sẵn hoặc bản build ứng dụng tương ứng;
 - Vercel cho trang web marketing và Web Analytics không dùng cookie của nó; và
 - Cloudflare cho DNS và quản lý tên miền. Các bản ghi DNS hiện tại của Nibomo chỉ dùng DNS (DNS-only), nên Cloudflare không làm proxy cho lưu lượng HTTP của trang web hoặc ứng dụng được lưu trữ sẵn.
+
+Chúng tôi yêu cầu bên xử lý thay mặt mình bảo vệ dữ liệu người dùng được chia sẻ ở mức tương tự hoặc tương đương theo chính sách này và pháp luật áp dụng. [Phụ lục xử lý dữ liệu](https://openai.com/policies/data-processing-addendum/) của OpenAI là một phần của Thỏa thuận dịch vụ và yêu cầu xử lý hạn chế, bảo mật, biện pháp an ninh và bảo đảm cho chuyển dữ liệu quốc tế.
 
 Dữ liệu cũng có thể được tiết lộ cho các thành viên khác của một không gian làm việc dùng chung theo các tính năng cộng tác của dịch vụ, cho một client bên ngoài mà bạn cho phép, cho các cố vấn chuyên môn có nghĩa vụ bảo mật, hoặc cho cơ quan nhà nước khi pháp luật yêu cầu phải tiết lộ.
 
 ## Chuyển dữ liệu quốc tế
 
-Ứng dụng chính của dịch vụ lưu trữ sẵn chạy trên hạ tầng của AWS tại EU. Vùng email Resend, vùng dữ liệu Sentry và endpoint Langfuse được cấu hình cũng đều ở châu Âu. Một số nhà cung cấp, bao gồm OpenAI và Vercel, có thể xử lý dữ liệu bên ngoài quốc gia của bạn hoặc bên ngoài Khu vực Kinh tế Châu Âu. Khi được yêu cầu, chúng tôi sử dụng các quyết định về mức độ bảo vệ đầy đủ hiện hành, thỏa thuận xử lý dữ liệu và Điều khoản Hợp đồng Tiêu chuẩn hoặc các biện pháp bảo vệ tương đương cho những lần chuyển dữ liệu đó.
+Ứng dụng chính của dịch vụ lưu trữ sẵn chạy trên hạ tầng của AWS tại EU. Vùng email Resend và vùng dữ liệu Sentry được cấu hình cũng ở châu Âu. Một số nhà cung cấp, bao gồm OpenAI và Vercel, có thể xử lý dữ liệu bên ngoài quốc gia của bạn hoặc bên ngoài Khu vực Kinh tế Châu Âu. Khi được yêu cầu, chúng tôi sử dụng các quyết định về mức độ bảo vệ đầy đủ hiện hành, thỏa thuận xử lý dữ liệu và Điều khoản Hợp đồng Tiêu chuẩn hoặc các biện pháp bảo vệ tương đương cho những lần chuyển dữ liệu đó.
 
 ## Lưu giữ và xóa
 

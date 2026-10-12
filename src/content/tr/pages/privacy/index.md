@@ -98,7 +98,11 @@ Ayarı kapatmak gelecekteki toplamayı durdurur. Daha önce kaydedilmiş olaylar
 
 OpenAI, barındırılan sohbet, transkripsiyon ve görsel oluşturma özellikleri için yapılandırılmış AI sağlayıcısıdır. Bu özellikleri seçtiğinizde OpenAI'a, bunları gerçekleştirmek için gereken istek verilerini göndeririz; bu veriler isteminizi, ilgili sohbet ve çalışma alanı bağlamını, ekleri veya görselleri, dikte edilen sesi ve takma adlı bir güvenlik tanımlayıcısını içerebilir. Barındırılan metin istekleri `store: false` kullanır; bu, yanıt nesnelerinin daha sonra alınmak üzere saklanmasını devre dışı bırakır. Bu istekler istem önbelleğe almayı da kullandığından OpenAI, şifrelenmiş önbellek uygulama durumunu 24 saate kadar saklayabilir. OpenAI'ın güncel API denetimleri kapsamında, geçerli kötüye kullanım izleme günlükleri 30 güne kadar saklanabilir; transkripsiyon uç noktası ise ne kötüye kullanım izleme içeriğini ne de uygulama durumunu sakladığını belirtir. OpenAI, hesap sahibi açıkça katılmayı seçmedikçe API verilerini modellerini eğitmek için kullanmaz.
 
-Barındırılan AI istekleri, hata ayıklama ve hizmet kalitesi analizi için Langfuse Cloud aracılığıyla da izlenir. Langfuse izleri istemleri, model yanıtlarını, araç etkinliğini, kullanıcı, çalışma alanı ve oturum tanımlayıcılarını ve operasyonel meta verileri içerebilir. Uygulama, e-posta adreslerini ve gizli bilgiye benzeyen alanları maskeler; özel transkripsiyon izleri ham ses baytlarını ve ek verilerini içermez.
+Entegrasyonu kaldıran 12 Ekim 2026 tarihli dağıtımdan bu yana Langfuse Cloud’a yeni veri göndermiyoruz. Mevcut izler gece çalışan silme işlemiyle 30 gün sonra silinmeye devam eder; entegrasyonun kaldırılması onları hemen silmedi. Langfuse izleri istemleri, model yanıtlarını, araç etkinliğini, kullanıcı, çalışma alanı ve oturum tanımlayıcılarını ve operasyonel meta verileri içerebilir. Uygulama, e-posta adreslerini ve gizli bilgiye benzeyen alanları maskeler; özel transkripsiyon izleri ham ses baytlarını ve ek verilerini içermez. Bu geçmiş izler hata ayıklama ve hizmet kalitesi analizi için kullanılıyordu.
+
+OpenAI’a gönderilen ilgili çalışma alanı bağlamı kartları, tekrar geçmişini ve araç sonuçlarını içerebilir; görseller seçtiğiniz fotoğrafları da kapsayabilir. OpenAI’ın saklama süreleri, inceleme için işaretlenen görsellerin saklanması dahil [OpenAI’ın hukuki ve güvenlik istisnalarına](https://developers.openai.com/api/docs/guides/your-data) tabidir.
+
+Sürümlendirilmiş AI onayını destekleyen Apple uygulaması sürümleri, OpenAI ile veri paylaşmadan önce izin ister. Bu kurulumdan yeni AI isteklerini durdurmak için Ayarlar’dan onayınızı geri çekebilirsiniz; gönderilmiş istekler tamamlanabilir. Ürün analitiği kapalı olsa bile onay verme ve geri çekmeye ilişkin ayrı hukuki kayıtlar tutulur: gösterilen tam metin, sürüm ve dil; değiştirilemez olay kimliği ve artan karar sırası; ilk doğrulanmış işlem sahibi, mevcut hesap veya misafir sahibi ve kurulum kimlikleri; uygulama sürümü, derlemesi ve platformu; işlem zamanı ve sunucuya ulaşma zamanı. Onay geri çekildikten sonra geçmiş, hesabın veya misafir oturumunun ömrü boyunca saklanır. Hesap veya misafir silindiğinde aktarılan misafir geçmişi dahil bu kayıtlar silinir.
 
 Yöneticilerimiz, AI özelliklerinin nasıl kullanıldığını analiz etmek ve bunları iyileştirmek için kendi veritabanımızda saklanan barındırılan AI sohbet içeriğini (istemleriniz, model yanıtları ve önerilen sohbet istemleri dahil) okuyabilir. Bu içeriğe erişim, işletmecinin yöneticileriyle sınırlıdır.
 
@@ -114,16 +118,17 @@ Barındırılan hizmet için aşağıdaki hizmet sağlayıcı kategorilerini kul
 - web aboneliği ödemeleri, faturalandırma yönetimi, vergi hesaplama ve ödeme bildirimleri için Stripe;
 - işlemsel kimlik doğrulama ve faturalandırma e-postaları için Resend;
 - isteğe bağlı barındırılan AI istekleri için OpenAI;
-- barındırılan AI gözlemlenebilirliği için Langfuse Cloud;
 - ilgili barındırılan hizmette veya uygulama derlemesinde etkinleştirildiğinde arındırılmış hata ve tanılama raporlaması için Sentry;
 - pazarlama web sitesi ve onun çerezsiz Web Analytics hizmeti için Vercel; ve
 - DNS ve alan adı yönetimi için Cloudflare. Mevcut Nibomo DNS kayıtları yalnızca DNS modundadır; bu nedenle Cloudflare, barındırılan web sitesi veya uygulama HTTP trafiğine vekil sunucu olarak aracılık etmez.
+
+Adımıza çalışan veri işleyenlerden, bu politika ve geçerli hukuk kapsamında paylaşılan kullanıcı verilerine aynı veya eşdeğer korumayı sağlamalarını isteriz. OpenAI’ın [Veri İşleme Eki](https://openai.com/policies/data-processing-addendum/), Hizmet Sözleşmesinin parçasıdır ve sınırlı işleme, gizlilik, güvenlik önlemleri ve uluslararası aktarımlar için güvenceler gerektirir.
 
 Veriler ayrıca hizmetin iş birliği özelliklerine uygun olarak paylaşılan bir çalışma alanının diğer üyelerine, yetkilendirdiğiniz harici bir istemciye, gizlilik yükümlülüğü altındaki profesyonel danışmanlara veya ifşa yasal olarak zorunlu olduğunda kamu makamlarına açıklanabilir.
 
 ## Uluslararası Aktarımlar
 
-Birincil barındırılan uygulama AWS'nin AB altyapısında çalışır. Yapılandırılmış Resend e-posta bölgesi, Sentry veri bölgesi ve Langfuse uç noktası da Avrupa'dadır. OpenAI ve Vercel dahil bazı sağlayıcılar verileri ülkenizin veya Avrupa Ekonomik Alanı'nın dışında işleyebilir. Gerektiğinde bu aktarımlar için geçerli yeterlilik kararlarını, veri işleme sözleşmelerini ve Standart Sözleşme Maddelerini veya eşdeğer güvenceleri kullanırız.
+Birincil barındırılan uygulama AWS'nin AB altyapısında çalışır. Yapılandırılan Resend e-posta bölgesi ve Sentry veri bölgesi de Avrupa’dadır. OpenAI ve Vercel dahil bazı sağlayıcılar verileri ülkenizin veya Avrupa Ekonomik Alanı'nın dışında işleyebilir. Gerektiğinde bu aktarımlar için geçerli yeterlilik kararlarını, veri işleme sözleşmelerini ve Standart Sözleşme Maddelerini veya eşdeğer güvenceleri kullanırız.
 
 ## Saklama ve Silme
 

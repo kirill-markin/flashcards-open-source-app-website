@@ -34,7 +34,7 @@ Possiamo sospendere o interrompere l'accesso quando è ragionevolmente necessari
 
 ## Funzioni AI
 
-Le funzioni AI ospitate sono facoltative e usano OpenAI. La relativa telemetria dell'AI viene trattata tramite Langfuse per il debug e l'analisi della qualità del servizio. L'output dell'AI può essere inesatto, incompleto o inadatto. Sei responsabile di verificare l'output prima di farvi affidamento, condividerlo o applicare modifiche.
+Le funzioni di IA ospitata sono facoltative e usano OpenAI per trattare i dati della richiesta come descritto nella nostra [Informativa sulla privacy](/it/privacy/). Nelle versioni dell’app Apple con consenso versionato puoi revocare la condivisione dei dati IA nelle Impostazioni. I risultati possono essere inesatti, incompleti o inadatti. Devi verificarli prima di utilizzarli, condividerli o applicare modifiche.
 
 Quando autorizzi un client AI esterno a usare il servizio MCP o l'Agent API, quel client e il relativo fornitore del modello trattano i dati che richiedi secondo i propri termini. Non siamo responsabili del funzionamento o dell'output di un client esterno.
 

@@ -98,7 +98,11 @@ Att stänga av inställningen stoppar framtida insamling. Det raderar inte händ
 
 OpenAI är den AI-leverantör som är konfigurerad för de molndrivna funktionerna för chatt, transkription och bildgenerering. När du väljer de funktionerna skickar vi OpenAI de uppgifter i förfrågan som behövs för att utföra dem, vilket kan omfatta din prompt, relevant kontext från chatten och arbetsytan, bilagor eller bilder, dikterat ljud och en pseudonym säkerhetsidentifierare. Molndrivna textförfrågningar använder `store: false`, vilket inaktiverar lagring av svarsobjekt för senare hämtning. Eftersom dessa förfrågningar också använder promptcachning kan OpenAI behålla krypterat applikationstillstånd för cachen i upp till 24 timmar. Enligt OpenAI:s nuvarande API-kontroller kan tillämpliga loggar för missbruksövervakning sparas i upp till 30 dagar, medan transkriptionsendpointen enligt OpenAI varken sparar innehåll för missbruksövervakning eller applikationstillstånd. OpenAI använder inte API-data för att träna sina modeller om inte kontoinnehavaren uttryckligen väljer att delta.
 
-Molndrivna AI-förfrågningar observeras också genom Langfuse Cloud för felsökning och analys av tjänstens kvalitet. Langfuse-spår kan innehålla prompter, modellsvar, verktygsaktivitet, identifierare för användare, arbetsyta och session samt driftmetadata. Implementeringen maskerar e-postadresser och fält som ser ut att innehålla hemligheter; anpassade transkriptionsspår utesluter råa ljudbytes och bilagedata.
+Sedan driftsättningen som tog bort integrationen den 12 oktober 2026 skickar vi inga nya uppgifter till Langfuse Cloud. Befintliga spår raderas fortfarande efter 30 dagar vid den nattliga raderingen; borttagningen av integrationen raderade dem inte omedelbart. Langfuse-spår kan innehålla prompter, modellsvar, verktygsaktivitet, identifierare för användare, arbetsyta och session samt driftmetadata. Implementeringen maskerar e-postadresser och fält som ser ut att innehålla hemligheter; anpassade transkriptionsspår utesluter råa ljudbytes och bilagedata. Dessa historiska spår användes för felsökning och analys av tjänstens kvalitet.
+
+Arbetsytekontext som skickas till OpenAI kan innehålla kort, repetitionshistorik och verktygsresultat; bilder kan omfatta foton som du väljer. OpenAI:s lagringstider omfattas av [OpenAI:s juridiska och säkerhetsrelaterade undantag](https://developers.openai.com/api/docs/guides/your-data), bland annat lagring av flaggade bilder för granskning.
+
+Apple-appversioner som stöder AI-samtycke med versionshanterad information frågar innan uppgifter delas med OpenAI. Du kan återkalla det i Inställningar för att stoppa nya AI-förfrågningar från den installationen; redan skickade förfrågningar kan slutföras. Separata rättsliga bevis för samtycke och återkallelse registreras även när produktanalys är avstängd: exakt visad text, version och språk; oföränderligt händelse-ID och stigande beslutsnummer; ursprunglig autentiserad aktör, nuvarande konto- eller gästägare och installationsidentifierare; appversion, build och plattform; tid för åtgärden och mottagandet på servern. Efter återkallelse sparas historiken under kontots eller gästens livstid. Radering av kontot eller gästen tar bort den, inklusive överförd gästhistorik.
 
 Våra administratörer kan läsa innehåll från den molndrivna AI-chatten som lagras i vår egen databas, däribland dina prompter, modellsvar och föreslagna chattprompter, för att analysera hur AI-funktionerna används och förbättra dem. Åtkomsten till det innehållet är begränsad till operatörens administratörer.
 
@@ -114,16 +118,17 @@ Vi använder följande kategorier av tjänsteleverantörer för den molndrivna t
 - Stripe för betalningar av webbprenumerationer, hantering av fakturering, skatteberäkning och aviseringar om betalningar;
 - Resend för transaktionella e-postmeddelanden för autentisering och fakturering;
 - OpenAI för valfria molndrivna AI-förfrågningar;
-- Langfuse Cloud för observerbarhet av den molndrivna AI:n;
 - Sentry för rensad fel- och diagnostikrapportering när det är aktiverat i den aktuella molndrivna tjänsten eller appversionen;
 - Vercel för marknadsföringswebbplatsen och dess cookiefria Web Analytics; och
 - Cloudflare för DNS och domänhantering. Nibomos nuvarande DNS-poster är inställda på endast DNS, så Cloudflare fungerar inte som proxy för HTTP-trafik till den molndrivna webbplatsen eller appen.
+
+Vi kräver att personuppgiftsbiträden som agerar för vår räkning ger delade användaruppgifter samma eller likvärdigt skydd enligt denna policy och tillämplig lag. OpenAI:s [personuppgiftsbiträdesavtal](https://openai.com/policies/data-processing-addendum/) ingår i dess tjänsteavtal och kräver begränsad behandling, sekretess, säkerhetsåtgärder och skydd vid internationella överföringar.
 
 Uppgifter kan också lämnas ut till andra medlemmar i en delad arbetsyta enligt tjänstens samarbetsfunktioner, till en extern klient som du ger behörighet, till professionella rådgivare med tystnadsplikt eller till myndigheter när utlämnandet krävs enligt lag.
 
 ## Överföringar till andra länder
 
-Den primära molndrivna applikationen körs i AWS-infrastruktur i EU. Den konfigurerade e-postregionen hos Resend, Sentrys dataregion och Langfuse-endpointen finns också i Europa. Vissa leverantörer, däribland OpenAI och Vercel, kan behandla uppgifter utanför ditt land eller Europeiska ekonomiska samarbetsområdet. Där det krävs använder vi tillämpliga beslut om adekvat skyddsnivå, personuppgiftsbiträdesavtal och standardavtalsklausuler eller motsvarande skyddsåtgärder för dessa överföringar.
+Den primära molndrivna applikationen körs i AWS-infrastruktur i EU. Den konfigurerade e-postregionen för Resend och dataregionen för Sentry ligger också i Europa. Vissa leverantörer, däribland OpenAI och Vercel, kan behandla uppgifter utanför ditt land eller Europeiska ekonomiska samarbetsområdet. Där det krävs använder vi tillämpliga beslut om adekvat skyddsnivå, personuppgiftsbiträdesavtal och standardavtalsklausuler eller motsvarande skyddsåtgärder för dessa överföringar.
 
 ## Lagring och radering
 

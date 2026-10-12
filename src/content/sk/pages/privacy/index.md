@@ -98,7 +98,11 @@ Vypnutím nastavenia sa zastaví budúci zber. Už zaznamenané udalosti sa tým
 
 OpenAI je poskytovateľ AI nakonfigurovaný pre hosťované funkcie chatu, prepisu a generovania obrázkov. Keď tieto funkcie použijete, pošleme spoločnosti OpenAI údaje požiadavky potrebné na ich vykonanie, ktoré môžu zahŕňať vaše zadanie, relevantný kontext chatu a pracovného priestoru, prílohy alebo obrázky, diktovaný zvuk a pseudonymný bezpečnostný identifikátor. Hosťované textové požiadavky používajú `store: false`, čo vypína ukladanie objektov odpovede na neskoršie načítanie. Keďže tieto požiadavky používajú aj ukladanie zadaní do vyrovnávacej pamäte, OpenAI môže uchovávať šifrovaný aplikačný stav vyrovnávacej pamäte až 24 hodín. Podľa aktuálnych nastavení API spoločnosti OpenAI sa príslušné logy monitorovania zneužitia môžu uchovávať až 30 dní, pričom pri koncovom bode na prepis sa uvádza, že neuchováva obsah monitorovania zneužitia ani aplikačný stav. OpenAI nepoužíva údaje z API na trénovanie svojich modelov, ak to držiteľ účtu výslovne nepovolí.
 
-Hosťované požiadavky AI sa na ladenie a analýzu kvality služby sledujú aj cez Langfuse Cloud. Záznamy Langfuse môžu obsahovať zadania, odpovede modelu, aktivitu nástrojov, identifikátory používateľa, pracovného priestoru a relácie a prevádzkové metadáta. Implementácia maskuje e-mailové adresy a polia, ktoré vyzerajú ako tajné údaje; vlastné záznamy prepisu vynechávajú nespracované bajty zvuku a údaje príloh.
+Od nasadenia, ktoré odstránilo integráciu 12. októbra 2026, neposielame do Langfuse Cloud nové údaje. Existujúce stopy sa naďalej mažú po 30 dňoch počas nočného mazania; odstránenie integrácie ich nevymazalo okamžite. Záznamy Langfuse môžu obsahovať zadania, odpovede modelu, aktivitu nástrojov, identifikátory používateľa, pracovného priestoru a relácie a prevádzkové metadáta. Implementácia maskuje e-mailové adresy a polia, ktoré vyzerajú ako tajné údaje; vlastné záznamy prepisu vynechávajú nespracované bajty zvuku a údaje príloh. Tieto historické stopy slúžili na ladenie a analýzu kvality služby.
+
+Kontext pracovného priestoru odoslaný OpenAI môže obsahovať kartičky, históriu opakovania a výsledky nástrojov; obrázky môžu zahŕňať vami vybrané fotografie. Lehoty uchovávania údajov u OpenAI podliehajú [právnym a bezpečnostným výnimkám OpenAI](https://developers.openai.com/api/docs/guides/your-data), vrátane uchovávania označených obrázkov na preverenie.
+
+Verzie aplikácie Apple podporujúce súhlas s AI s verziovaným informačným textom žiadajú povolenie pred zdieľaním údajov s OpenAI. Môžete ho odvolať v Nastaveniach a zastaviť nové požiadavky z tejto inštalácie; už odoslané sa môžu dokončiť. Samostatné právne doklady o udelení a odvolaní súhlasu sa zaznamenávajú aj pri vypnutej produktovej analytike: presne zobrazený text, verzia a jazyk; nemenné ID udalosti a rastúce poradové číslo rozhodnutia; pôvodný overený konajúci používateľ, súčasný vlastník účtu alebo hosťa a identifikátory inštalácie; verzia aplikácie, zostava a platforma; čas úkonu a prijatia serverom. Po odvolaní zostáva história počas existencie účtu či hosťa. Ich odstránenie ju vymaže vrátane prenesenej histórie hosťa.
 
 Naši administrátori môžu čítať obsah hosťovaného AI chatu uložený v našej vlastnej databáze vrátane vašich zadaní, odpovedí modelu a navrhnutých zadaní pre chat, aby analyzovali, ako sa funkcie AI používajú, a zlepšovali ich. Prístup k tomuto obsahu majú iba administrátori prevádzkovateľa.
 
@@ -114,16 +118,17 @@ Pre hosťovanú službu využívame tieto kategórie poskytovateľov služieb:
 - Stripe na platby za webové predplatné, správu fakturácie, výpočet daní a oznámenia o platbách;
 - Resend na transakčné autentifikačné a fakturačné e-maily;
 - OpenAI na voliteľné hosťované požiadavky AI;
-- Langfuse Cloud na sledovanie hosťovanej AI;
 - Sentry na hlásenie očistených chýb a diagnostiky, ak je zapnuté v príslušnej hosťovanej službe alebo zostavení aplikácie;
 - Vercel na marketingovú webovú stránku a jej Web Analytics bez súborov cookie; a
 - Cloudflare na DNS a správu domén. Aktuálne DNS záznamy Nibomo sú v režime iba DNS, takže Cloudflare nesprostredkúva HTTP prevádzku hosťovanej webovej stránky ani aplikácie.
+
+Od sprostredkovateľov konajúcich v našom mene vyžadujeme rovnakú alebo rovnocennú ochranu zdieľaných používateľských údajov podľa týchto zásad a platného práva. [Dodatok o spracúvaní údajov](https://openai.com/policies/data-processing-addendum/) OpenAI je súčasťou zmluvy o službách a vyžaduje obmedzené spracúvanie, dôvernosť, bezpečnostné opatrenia a záruky pri medzinárodných prenosoch.
 
 Údaje môžu byť sprístupnené aj ďalším členom zdieľaného pracovného priestoru v súlade s funkciami spolupráce služby, externému klientovi, ktorého autorizujete, odborným poradcom viazaným povinnosťou mlčanlivosti alebo orgánom verejnej moci, keď to vyžaduje zákon.
 
 ## Medzinárodné prenosy
 
-Hlavná hosťovaná aplikácia beží v infraštruktúre AWS v EÚ. Nakonfigurovaný región e-mailov Resend, dátový región Sentry a koncový bod Langfuse sú tiež v Európe. Niektorí poskytovatelia vrátane OpenAI a Vercel môžu spracúvať údaje mimo vašej krajiny alebo Európskeho hospodárskeho priestoru. Ak sa to vyžaduje, pri týchto prenosoch využívame príslušné rozhodnutia o primeranosti, zmluvy o spracúvaní údajov a štandardné zmluvné doložky alebo rovnocenné záruky.
+Hlavná hosťovaná aplikácia beží v infraštruktúre AWS v EÚ. Nastavený e-mailový región Resend a dátový región Sentry sú tiež v Európe. Niektorí poskytovatelia vrátane OpenAI a Vercel môžu spracúvať údaje mimo vašej krajiny alebo Európskeho hospodárskeho priestoru. Ak sa to vyžaduje, pri týchto prenosoch využívame príslušné rozhodnutia o primeranosti, zmluvy o spracúvaní údajov a štandardné zmluvné doložky alebo rovnocenné záruky.
 
 ## Uchovávanie a odstraňovanie
 

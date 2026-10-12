@@ -98,7 +98,11 @@ Sätte väljalülitamine peatab edaspidise kogumise. See ei kustuta juba salvest
 
 OpenAI on AI-teenuse pakkuja, mis on seadistatud majutatud vestluse, transkribeerimise ja piltide loomise funktsioonide jaoks. Kui valid need funktsioonid, saadame OpenAI-le nende täitmiseks vajalikud päringuandmed, mis võivad sisaldada sinu viipa, asjakohast vestluse ja tööruumi konteksti, manuseid või pilte, dikteeritud heli ning pseudonüümset turvaidentifikaatorit. Majutatud tekstipäringud kasutavad sätet `store: false`, mis keelab vastuseobjektide salvestamise hilisemaks kättesaamiseks. Kuna need päringud kasutavad ka viipade vahemälu, võib OpenAI säilitada krüpteeritud vahemälu rakenduse olekut kuni 24 tundi. OpenAI praeguste API andmehalduse sätete kohaselt võidakse kohaldatavaid kuritarvituste jälgimise logisid säilitada kuni 30 päeva, samas kui transkribeerimise lõpp-punkti kohta on märgitud, et see ei säilita ei kuritarvituste jälgimise sisu ega rakenduse olekut. OpenAI ei kasuta API andmeid oma mudelite treenimiseks, välja arvatud juhul, kui kontoomanik on sellega selgesõnaliselt nõustunud.
 
-Majutatud AI päringuid jälgitakse silumise ja teenuse kvaliteedi analüüsimise eesmärgil ka Langfuse Cloudi kaudu. Langfuse'i jäljed võivad sisaldada viipasid, mudeli vastuseid, tööriistade tegevust, kasutaja-, tööruumi- ja seansiidentifikaatoreid ning tegevuse metaandmeid. Teostus maskeerib e-posti aadressid ja saladustena näivad väljad; kohandatud transkribeerimise jäljed ei sisalda tooreid helibaite ega manuste andmeid.
+Alates integratsiooni eemaldanud juurutusest 12. oktoobril 2026 ei saada me Langfuse Cloudi uusi andmeid. Olemasolevad jäljed kustutatakse endiselt 30 päeva järel öise kustutustööga; integratsiooni eemaldamine ei kustutanud neid kohe. Langfuse'i jäljed võivad sisaldada viipasid, mudeli vastuseid, tööriistade tegevust, kasutaja-, tööruumi- ja seansiidentifikaatoreid ning tegevuse metaandmeid. Teostus maskeerib e-posti aadressid ja saladustena näivad väljad; kohandatud transkribeerimise jäljed ei sisalda tooreid helibaite ega manuste andmeid. Neid varasemaid jälgi kasutati silumiseks ja teenuse kvaliteedi analüüsiks.
+
+OpenAI-le saadetav tööruumi kontekst võib sisaldada õpikaarte, kordamisajalugu ja tööriistade tulemusi; pildid võivad hõlmata sinu valitud fotosid. OpenAI säilitustähtaegadele kehtivad [OpenAI õiguslikud ja ohutusega seotud erandid](https://developers.openai.com/api/docs/guides/your-data), sealhulgas märgistatud piltide säilitamine kontrolliks.
+
+Apple’i rakenduse versioonid, mis toetavad versioonitud teatega AI nõusolekut, küsivad luba enne andmete jagamist OpenAI-ga. Saad selle seadetes tagasi võtta, et peatada uued AI päringud sellest paigaldusest; juba saadetud päringud võivad lõpule jõuda. Nõusoleku andmise ja tagasivõtmise kohta talletatakse eraldi õiguslikud tõendid ka väljalülitatud tooteanalüütikaga: täpne kuvatud tekst, versioon ja keel; muutumatu sündmuse ID ja kasvav otsuse järjekorranumber; algne autenditud tegutseja, praegune konto või külalise omanik ja paigalduse tunnused; rakenduse versioon, järk ja platvorm; toimingu aeg ja serveri vastuvõtuaeg. Tagasivõtmise järel säilib ajalugu konto või külalise olemasolu vältel. Konto või külalise kustutamine eemaldab selle, kaasa arvatud üle kantud külalise ajaloo.
 
 Meie administraatorid saavad lugeda meie enda andmebaasis salvestatud majutatud AI-vestluse sisu, sealhulgas sinu viipasid, mudeli vastuseid ja soovitatud vestlusviipasid, et analüüsida, kuidas AI-funktsioone kasutatakse, ja neid parandada. Juurdepääs sellele sisule on piiratud teenuse haldaja administraatoritega.
 
@@ -114,16 +118,17 @@ Kasutame majutatud teenuse jaoks järgmisi teenusepakkujate kategooriaid:
 - Stripe veebitellimuste maksete, arvelduse haldamise, maksude arvutamise ja makseteavituste jaoks;
 - Resend autentimise ja arveldusega seotud teenuskirjade saatmiseks;
 - OpenAI valikuliste majutatud AI päringute jaoks;
-- Langfuse Cloud majutatud AI jälgitavuse jaoks;
 - Sentry puhastatud vea- ja diagnostikaaruannete jaoks, kui see on asjakohases majutatud teenuses või rakenduse järgus lubatud;
 - Vercel turundusveebisaidi ja selle küpsisteta Web Analyticsi jaoks; ning
 - Cloudflare DNS-i ja domeenide haldamiseks. Nibomo praegused DNS-kirjed on ainult DNS-režiimis, seega Cloudflare ei vahenda majutatud veebisaidi ega rakenduse HTTP-liiklust.
+
+Nõuame meie nimel tegutsevatelt volitatud töötlejatelt jagatud kasutajaandmetele sama või samaväärset kaitset selle poliitika ja kohaldatava õiguse alusel. OpenAI [andmetöötluse lisa](https://openai.com/policies/data-processing-addendum/) kuulub teenuselepingusse ning nõuab piiratud töötlemist, konfidentsiaalsust, turvameetmeid ja rahvusvahelise edastamise kaitsemeetmeid.
 
 Andmeid võidakse avaldada ka jagatud tööruumi teistele liikmetele vastavalt teenuse koostööfunktsioonidele, sinu volitatud välisele kliendile, konfidentsiaalsuskohustusega seotud professionaalsetele nõustajatele või ametiasutustele, kui avaldamine on seadusega nõutud.
 
 ## Rahvusvahelised edastused
 
-Peamine majutatud rakendus töötab AWS-i ELi taristus. Ka seadistatud Resendi e-posti piirkond, Sentry andmepiirkond ja Langfuse'i lõpp-punkt asuvad Euroopas. Mõned teenusepakkujad, sealhulgas OpenAI ja Vercel, võivad töödelda andmeid väljaspool sinu riiki või Euroopa Majanduspiirkonda. Kui see on nõutav, kasutame nende edastuste puhul kohaldatavaid kaitse piisavuse otsuseid, andmetöötluslepinguid ja lepingu tüüptingimusi või samaväärseid kaitsemeetmeid.
+Peamine majutatud rakendus töötab AWS-i ELi taristus. Seadistatud Resendi e-posti piirkond ja Sentry andmepiirkond asuvad samuti Euroopas. Mõned teenusepakkujad, sealhulgas OpenAI ja Vercel, võivad töödelda andmeid väljaspool sinu riiki või Euroopa Majanduspiirkonda. Kui see on nõutav, kasutame nende edastuste puhul kohaldatavaid kaitse piisavuse otsuseid, andmetöötluslepinguid ja lepingu tüüptingimusi või samaväärseid kaitsemeetmeid.
 
 ## Säilitamine ja kustutamine
 

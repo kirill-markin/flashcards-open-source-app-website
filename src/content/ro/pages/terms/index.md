@@ -34,7 +34,7 @@ Putem suspenda sau înceta accesul atunci când este în mod rezonabil necesar p
 
 ## Funcțiile AI
 
-Funcțiile AI găzduite sunt opționale și folosesc OpenAI. Telemetria AI aferentă este prelucrată prin Langfuse pentru depanare și analiza calității serviciului. Rezultatele generate de AI pot fi inexacte, incomplete sau nepotrivite. Ești responsabil să verifici rezultatele înainte să te bazezi pe ele, să le partajezi sau să aplici modificări.
+Funcțiile AI găzduite sunt opționale și folosesc OpenAI pentru prelucrarea datelor cererii conform [Politicii de confidențialitate](/ro/privacy/). În versiunile aplicației Apple cu consimțământ versionat, poți retrage partajarea datelor AI din Setări. Rezultatele pot fi greșite, incomplete sau nepotrivite. Trebuie să le verifici înainte de a te baza pe ele, a le distribui sau a aplica modificări.
 
 Când autorizezi un client AI extern să folosească serviciul MCP sau Agent API, acel client și furnizorul modelului său prelucrează datele pe care le soliciți, conform propriilor termeni. Nu suntem responsabili pentru funcționarea sau rezultatele unui client extern.
 

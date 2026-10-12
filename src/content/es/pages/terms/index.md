@@ -34,7 +34,7 @@ Podemos suspender o terminar el acceso cuando sea razonablemente necesario para 
 
 ## Funciones de IA
 
-Las funciones de IA alojadas son opcionales y usan OpenAI. La telemetría relacionada se trata mediante Langfuse para depuración y análisis de calidad. Los resultados pueden ser incorrectos, incompletos o inadecuados. Debes revisarlos antes de usarlos, compartirlos o aplicar cambios.
+Las funciones de IA alojadas son opcionales y usan OpenAI para tratar los datos de la solicitud conforme a nuestra [Política de privacidad](/es/privacy/). En las versiones de la app de Apple compatibles con el consentimiento versionado, puedes retirar el permiso para compartir datos de IA en Ajustes. Los resultados pueden ser incorrectos, incompletos o inadecuados. Debes revisarlos antes de usarlos, compartirlos o aplicar cambios.
 
 Si autorizas a un cliente externo de IA a usar el servicio MCP o la Agent API, ese cliente y su proveedor de modelos tratan los datos solicitados bajo sus propias condiciones. No somos responsables de su funcionamiento ni de sus resultados.
 

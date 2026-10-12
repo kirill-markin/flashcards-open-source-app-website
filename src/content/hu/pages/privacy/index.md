@@ -98,7 +98,11 @@ A beállítás kikapcsolása a jövőbeli gyűjtést állítja le. A már rögz�
 
 A felhős csevegési, hangátírási és képgenerálási funkciókhoz beállított AI-szolgáltató az OpenAI. Ha ezeket a funkciókat választod, elküldjük az OpenAI-nak a végrehajtásukhoz szükséges kérésadatokat, amelyek tartalmazhatják a promptodat, a vonatkozó csevegési és munkaterület-kontextust, a mellékleteket vagy képeket, a diktált hanganyagot és egy álnevesített biztonsági azonosítót. A felhős szöveges kérések a `store: false` beállítást használják, amely letiltja a válaszobjektumok későbbi lekérés céljából történő tárolását. Mivel ezek a kérések prompt-gyorsítótárazást is használnak, az OpenAI legfeljebb 24 óráig megőrizheti a gyorsítótár titkosított alkalmazásállapotát. Az OpenAI jelenlegi API-beállításai szerint a vonatkozó visszaélés-figyelési naplók legfeljebb 30 napig őrizhetők meg, a hangátírási végpont leírása szerint viszont az sem visszaélés-figyelési tartalmat, sem alkalmazásállapotot nem őriz meg. Az OpenAI nem használja az API-adatokat a modelljei tanítására, hacsak a fióktulajdonos ehhez kifejezetten hozzá nem járul.
 
-A felhős AI-kéréseket hibakeresés és a szolgáltatás minőségének elemzése céljából a Langfuse Cloudon keresztül is megfigyeljük. A Langfuse-nyomkövetések tartalmazhatnak promptokat, modellválaszokat, eszközhasználati tevékenységet, felhasználói, munkaterület- és munkamenet-azonosítókat, valamint üzemeltetési metaadatokat. A megvalósítás kitakarja az e-mail-címeket és a titoknak tűnő mezőket; az egyéni hangátírási nyomkövetések nem tartalmazzák a nyers hangbájtokat és a mellékletadatokat.
+A 2026. október 12-i, integrációt eltávolító élesítés óta nem küldünk új adatokat a Langfuse Cloudnak. A meglévő nyomkövetések továbbra is 30 nap után törlődnek az éjszakai folyamatban; az integráció eltávolítása nem törölte őket azonnal. A Langfuse-nyomkövetések tartalmazhatnak promptokat, modellválaszokat, eszközhasználati tevékenységet, felhasználói, munkaterület- és munkamenet-azonosítókat, valamint üzemeltetési metaadatokat. A megvalósítás kitakarja az e-mail-címeket és a titoknak tűnő mezőket; az egyéni hangátírási nyomkövetések nem tartalmazzák a nyers hangbájtokat és a mellékletadatokat. Ezeket a korábbi nyomkövetéseket hibakeresésre és a szolgáltatás minőségének elemzésére használtuk.
+
+Az OpenAI-nak küldött munkaterületi kontextus kártyákat, ismétlési előzményeket és eszközeredményeket is tartalmazhat; a képek között az általad kiválasztott fényképek is lehetnek. Az OpenAI adatmegőrzési időtartamaira az [OpenAI jogi és biztonsági kivételei](https://developers.openai.com/api/docs/guides/your-data) vonatkoznak, köztük az ellenőrzésre megjelölt képek megőrzése.
+
+A verziózott AI-tájékoztatáshoz kötött hozzájárulást támogató Apple-appverziók engedélyt kérnek az OpenAI-jal történő adatmegosztás előtt. A Beállításokban visszavonhatod, hogy leállítsd az adott telepítésből indított új AI-kéréseket; a már elküldött kérések befejeződhetnek. Külön jogi bizonyítékot rögzítünk a hozzájárulásról és visszavonásról kikapcsolt termékanalitika mellett is: a pontos megjelenített szöveget, verziót és nyelvet; változtathatatlan eseményazonosítót és növekvő döntési sorszámot; eredeti hitelesített cselekvő személyt, jelenlegi fiók- vagy vendégtulajdonost és telepítési azonosítókat; appverziót, buildet és platformot; a művelet és a szerverhez érkezés idejét. Visszavonás után az előzmény a fiók vagy vendég fennállásáig megmarad. Törlésük eltávolítja, az átvitt vendégelőzményekkel együtt.
 
 Adminisztrátoraink elolvashatják a saját adatbázisunkban tárolt felhős AI-csevegési tartalmat, ideértve a promptjaidat, a modellválaszokat és a javasolt csevegési promptokat, hogy elemezzék az AI-funkciók használatát, és fejlesszék azokat. Ehhez a tartalomhoz csak az üzemeltető adminisztrátorai férhetnek hozzá.
 
@@ -114,16 +118,17 @@ A felhős szolgáltatáshoz a következő szolgáltatókategóriákat vesszük i
 - Stripe a webes előfizetések fizetéséhez, a számlázás kezeléséhez, az adószámításhoz és a fizetési értesítésekhez;
 - Resend a hitelesítéssel és a számlázással kapcsolatos tranzakciós e-mailekhez;
 - OpenAI az opcionális felhős AI-kérésekhez;
-- Langfuse Cloud a felhős AI megfigyelhetőségéhez;
 - Sentry a megtisztított hiba- és diagnosztikai jelentésekhez, ha az adott felhős szolgáltatásban vagy alkalmazásbuildben engedélyezve van;
 - Vercel a marketingweboldalhoz és annak sütimentes Web Analytics szolgáltatásához; valamint
 - Cloudflare a DNS- és domainkezeléshez. A Nibomo jelenlegi DNS-rekordjai csak DNS-funkciójúak (DNS-only), így a Cloudflare nem proxyzza a felhős weboldal vagy alkalmazás HTTP-forgalmát.
+
+Elvárjuk a nevünkben eljáró adatfeldolgozóktól, hogy a megosztott felhasználói adatokat e szabályzat és az alkalmazandó jog szerint azonos vagy egyenértékű védelemmel kezeljék. Az OpenAI [adatfeldolgozási kiegészítése](https://openai.com/policies/data-processing-addendum/) a szolgáltatási megállapodás része, és korlátozott feldolgozást, titoktartást, biztonsági intézkedéseket és nemzetközi adattovábbítási garanciákat ír elő.
 
 Az adatokat a szolgáltatás együttműködési funkcióinak megfelelően egy közös munkaterület többi tagjával, az általad engedélyezett külső klienssel, titoktartási kötelezettség alatt álló szakmai tanácsadókkal, illetve – ha a közlést jogszabály írja elő – hatóságokkal is közölhetjük.
 
 ## Nemzetközi adattovábbítás
 
-Az elsődleges felhős alkalmazás az AWS uniós infrastruktúráján fut. A beállított Resend e-mail-régió, a Sentry adatrégiója és a Langfuse végpontja szintén Európában van. Egyes szolgáltatók, köztük az OpenAI és a Vercel, az országodon vagy az Európai Gazdasági Térségen kívül is kezelhetnek adatokat. Ahol szükséges, ezekhez az adattovábbításokhoz a vonatkozó megfelelőségi határozatokat, adatfeldolgozási megállapodásokat és általános adatvédelmi kikötéseket (Standard Contractual Clauses) vagy ezekkel egyenértékű garanciákat alkalmazunk.
+Az elsődleges felhős alkalmazás az AWS uniós infrastruktúráján fut. A beállított Resend-emailrégió és Sentry-adatrégió szintén Európában van. Egyes szolgáltatók, köztük az OpenAI és a Vercel, az országodon vagy az Európai Gazdasági Térségen kívül is kezelhetnek adatokat. Ahol szükséges, ezekhez az adattovábbításokhoz a vonatkozó megfelelőségi határozatokat, adatfeldolgozási megállapodásokat és általános adatvédelmi kikötéseket (Standard Contractual Clauses) vagy ezekkel egyenértékű garanciákat alkalmazunk.
 
 ## Megőrzés és törlés
 
