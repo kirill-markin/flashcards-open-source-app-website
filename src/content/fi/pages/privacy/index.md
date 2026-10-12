@@ -98,7 +98,11 @@ Asetuksen poistaminen käytöstä lopettaa tulevan keruun. Se ei poista jo talle
 
 OpenAI on isännöityjen chat-, litterointi- ja kuvanluontiominaisuuksien määritetty tekoälypalveluntarjoaja. Kun päätät käyttää näitä ominaisuuksia, lähetämme OpenAI:lle niiden suorittamiseen tarvittavat pyyntötiedot, joihin voi sisältyä kehotteesi, asiaankuuluva chat- ja työtilakonteksti, liitteet tai kuvat, saneltu ääni ja pseudonyyminen turvallisuustunniste. Isännöidyt tekstipyynnöt käyttävät asetusta `store: false`, joka estää vastausolioiden tallentamisen myöhempää hakua varten. Koska näissä pyynnöissä käytetään myös kehotteiden välimuistia, OpenAI voi säilyttää salattua välimuistin sovellustilaa enintään 24 tuntia. OpenAI:n nykyisten API-hallintakeinojen mukaan sovellettavia väärinkäytösten valvontalokeja voidaan säilyttää enintään 30 päivää, kun taas litterointipäätepisteen osalta ilmoitetaan, ettei se säilytä väärinkäytösten valvontaan liittyvää sisältöä eikä sovellustilaa. OpenAI ei käytä API-dataa mallien kouluttamiseen, ellei tilin haltija nimenomaisesti anna siihen lupaa.
 
-Isännöityjä tekoälypyyntöjä seurataan myös Langfuse Cloudin kautta virheiden selvittämistä ja palvelun laadun analysointia varten. Langfusen jäljet voivat sisältää kehotteita, mallin vastauksia, työkalujen toimintaa, käyttäjä-, työtila- ja istuntotunnisteita sekä toiminnallisia metatietoja. Toteutus peittää sähköpostiosoitteet ja salaisuuksilta näyttävät kentät; mukautetut litterointijäljet eivät sisällä raakoja äänitavuja eivätkä liitetietoja.
+Langfuse Cloudiin ei ole lähetetty uusia tietoja 12. lokakuuta 2026 tehdyn integraation poistavan käyttöönoton jälkeen. Olemassa olevat jäljet poistetaan edelleen 30 päivän kuluttua öisessä poistossa; integraation poistaminen ei poistanut niitä heti. Langfusen jäljet voivat sisältää kehotteita, mallin vastauksia, työkalujen toimintaa, käyttäjä-, työtila- ja istuntotunnisteita sekä toiminnallisia metatietoja. Toteutus peittää sähköpostiosoitteet ja salaisuuksilta näyttävät kentät; mukautetut litterointijäljet eivät sisällä raakoja äänitavuja eivätkä liitetietoja. Näitä aiempia jälkiä käytettiin virheiden selvittämiseen ja palvelun laadun analysointiin.
+
+OpenAI:lle lähetettävä työtilan asiayhteys voi sisältää kortteja, kertaushistoriaa ja työkalujen tuloksia; kuvat voivat sisältää valitsemiasi valokuvia. OpenAI:n säilytysaikoihin sovelletaan [OpenAI:n lakisääteisiä ja turvallisuutta koskevia poikkeuksia](https://developers.openai.com/api/docs/guides/your-data), kuten tarkistettaviksi merkittyjen kuvien säilyttämistä.
+
+Apple-sovelluksen versiot, jotka tukevat tekoälysuostumusta versioidulla tiedotteella, pyytävät luvan ennen tietojen jakamista OpenAI:lle. Voit perua sen Asetuksissa kyseisestä asennuksesta tulevien uusien tekoälypyyntöjen lopettamiseksi; jo lähetetyt pyynnöt voivat valmistua. Erilliset oikeudelliset todisteet suostumuksesta ja perumisesta tallennetaan myös tuoteanalytiikan ollessa pois käytöstä: täsmällinen näytetty teksti, versio ja kieli; muuttumaton tapahtumatunniste ja kasvava päätösjärjestys; alkuperäinen todennettu toimija, nykyinen tilin tai vieraan omistaja ja asennustunnisteet; sovellusversio, koontiversio ja alusta; toiminnon aika ja palvelimen vastaanottoaika. Peruminen säilyttää historian tilin tai vieraan olemassaolon ajan. Tilin tai vieraan poistaminen poistaa sen, myös siirretyn vierashistorian.
 
 Pääkäyttäjämme voivat lukea omaan tietokantaamme tallennettua isännöidyn tekoälychatin sisältöä, mukaan lukien kehotteesi, mallin vastaukset ja ehdotetut chat-kehotteet, analysoidakseen tekoälyominaisuuksien käyttöä ja parantaakseen niitä. Pääsy tähän sisältöön on rajattu palvelun ylläpitäjän pääkäyttäjiin.
 
@@ -114,16 +118,17 @@ Käytämme isännöidyssä palvelussa seuraavia palveluntarjoajaluokkia:
 - Stripe verkkotilausten maksuihin, laskutuksen hallintaan, verojen laskemiseen ja maksuilmoituksiin;
 - Resend tunnistautumiseen ja laskutukseen liittyvien palveluviestien lähettämiseen;
 - OpenAI valinnaisiin isännöityihin tekoälypyyntöihin;
-- Langfuse Cloud isännöidyn tekoälyn seurantaan;
 - Sentry puhdistettuun virhe- ja diagnostiikkaraportointiin, kun se on käytössä kyseisessä isännöidyssä palvelussa tai sovelluksen käännöksessä;
 - Vercel markkinointisivustoon ja sen evästeettömään Web Analyticsiin; sekä
 - Cloudflare DNS:ään ja verkkotunnusten hallintaan. Nibomon nykyiset DNS-tietueet ovat pelkkiä DNS-tietueita (DNS-only), joten Cloudflare ei välitä isännöidyn verkkosivuston tai sovelluksen HTTP-liikennettä.
+
+Edellytämme puolestamme toimivilta henkilötietojen käsittelijöiltä jaetuille käyttäjätiedoille samaa tai vastaavaa suojaa tämän käytännön ja sovellettavan lain mukaan. OpenAI:n [tietojenkäsittelyliite](https://openai.com/policies/data-processing-addendum/) on osa sen palvelusopimusta ja edellyttää rajattua käsittelyä, salassapitoa, turvatoimia ja kansainvälisten siirtojen suojatoimia.
 
 Tietoja voidaan luovuttaa myös jaetun työtilan muille jäsenille palvelun yhteistyöominaisuuksien mukaisesti, valtuuttamallesi ulkoiselle asiakkaalle, salassapitovelvollisille ammatillisille neuvonantajille tai viranomaisille, kun luovuttaminen on lakisääteisesti pakollista.
 
 ## Kansainväliset siirrot
 
-Ensisijainen isännöity sovellus toimii AWS:n EU-infrastruktuurissa. Myös määritetty Resendin sähköpostialue, Sentryn data-alue ja Langfusen päätepiste sijaitsevat Euroopassa. Jotkin palveluntarjoajat, kuten OpenAI ja Vercel, voivat käsitellä tietoja asuinmaasi tai Euroopan talousalueen ulkopuolella. Tarvittaessa käytämme näissä siirroissa sovellettavia tietosuojan riittävyyttä koskevia päätöksiä, tietojenkäsittelysopimuksia ja vakiosopimuslausekkeita tai vastaavia suojatoimia.
+Ensisijainen isännöity sovellus toimii AWS:n EU-infrastruktuurissa. Määritetty Resend-sähköpostialue ja Sentry-tietoalue sijaitsevat myös Euroopassa. Jotkin palveluntarjoajat, kuten OpenAI ja Vercel, voivat käsitellä tietoja asuinmaasi tai Euroopan talousalueen ulkopuolella. Tarvittaessa käytämme näissä siirroissa sovellettavia tietosuojan riittävyyttä koskevia päätöksiä, tietojenkäsittelysopimuksia ja vakiosopimuslausekkeita tai vastaavia suojatoimia.
 
 ## Säilyttäminen ja poistaminen
 

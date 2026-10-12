@@ -98,7 +98,11 @@ Desactivar el ajuste detiene la recopilación futura. No elimina los eventos ya 
 
 OpenAI es el proveedor configurado para las funciones alojadas de chat, transcripción y generación de imágenes. Si decides usarlas, enviamos a OpenAI los datos necesarios para la solicitud, que pueden incluir tu prompt, el contexto relevante del chat y del espacio de trabajo, archivos o imágenes, audio dictado y un identificador de seguridad seudónimo. Las solicitudes de texto alojadas usan `store: false`, lo que desactiva el almacenamiento de objetos de respuesta para recuperarlos más adelante. Como estas solicitudes también usan caché de prompts, OpenAI puede conservar el estado de aplicación cifrado de esa caché durante un máximo de 24 horas. Con los controles actuales de su API, los registros de supervisión de abusos aplicables pueden conservarse hasta 30 días; para el endpoint de transcripción, OpenAI indica que no conserva contenido de supervisión de abusos ni estado de aplicación. OpenAI no usa los datos de la API para entrenar sus modelos salvo que el titular de la cuenta lo autorice expresamente.
 
-Las solicitudes de IA alojada también se observan mediante Langfuse Cloud para depuración y análisis de calidad. Sus trazas pueden incluir prompts, respuestas del modelo, actividad de herramientas, identificadores de usuario, espacio de trabajo y sesión, y metadatos operativos. La implementación oculta correos y campos con apariencia de secreto; las trazas personalizadas de transcripción excluyen el audio y los datos de archivos adjuntos.
+Desde el despliegue que eliminó la integración el 12 de octubre de 2026, no enviamos datos nuevos a Langfuse Cloud. Las trazas existentes siguen caducando a los 30 días mediante el borrado nocturno; la eliminación de la integración no las borró de inmediato. Sus trazas pueden incluir prompts, respuestas del modelo, actividad de herramientas, identificadores de usuario, espacio de trabajo y sesión, y metadatos operativos. La implementación oculta correos y campos con apariencia de secreto; las trazas personalizadas de transcripción excluyen el audio y los datos de archivos adjuntos. Estas trazas históricas se usaban para depuración y análisis de calidad del servicio.
+
+El contexto del espacio de trabajo enviado a OpenAI puede incluir tarjetas, historial de repasos y resultados de herramientas; las imágenes pueden incluir fotos que elijas. Los plazos de conservación de OpenAI están sujetos a las [excepciones legales y de seguridad de OpenAI](https://developers.openai.com/api/docs/guides/your-data), incluida la conservación de imágenes marcadas para revisión.
+
+Las versiones de la app de Apple compatibles con el consentimiento de IA versionado te preguntan antes de compartir datos con OpenAI. Puedes retirar el consentimiento en Ajustes para detener nuevas solicitudes de IA de esa instalación; las ya enviadas pueden completarse. Guardamos comprobantes legales independientes de concesión y retirada aunque la analítica del producto esté desactivada: texto exacto mostrado, versión e idioma; identificador inmutable del evento y secuencia creciente de decisiones; actor autenticado original, titular actual de la cuenta o sesión de invitado e identificadores de instalación; versión, compilación y plataforma de la app; hora de la acción y de recepción en el servidor. Tras retirarlo, el historial se conserva durante la vida de la cuenta o sesión de invitado. Al eliminar la cuenta o sesión de invitado se borra, incluido el historial de invitado transferido.
 
 Nuestros administradores pueden leer el contenido de los chats de IA alojados guardado en nuestra propia base de datos, incluidos tus prompts, las respuestas del modelo y las sugerencias de prompts del campo de entrada del chat, para analizar cómo se usan las funciones de IA y mejorarlas. El acceso a ese contenido se limita a los administradores del operador.
 
@@ -114,16 +118,17 @@ Usamos estas categorías de proveedores para el servicio alojado:
 - Stripe para pagos de suscripciones web, gestión de facturación, cálculo de impuestos y notificaciones de pago;
 - Resend para correos transaccionales de autenticación y facturación;
 - OpenAI para las solicitudes opcionales de IA alojada;
-- Langfuse Cloud para observabilidad de IA;
 - Sentry para informes depurados de errores y diagnóstico cuando esté activado en el servicio o la compilación correspondiente;
 - Vercel para el sitio web de marketing y su Web Analytics sin cookies; y
 - Cloudflare para DNS y gestión de dominios. Los registros DNS actuales de Nibomo son de tipo DNS-only, por lo que Cloudflare no actúa como proxy del tráfico HTTP del sitio o las aplicaciones.
+
+Exigimos que los encargados que actúan por nuestra cuenta ofrezcan una protección igual o equivalente para los datos compartidos conforme a esta política y la ley aplicable. El [Anexo de tratamiento de datos](https://openai.com/policies/data-processing-addendum/) de OpenAI forma parte de su Acuerdo de servicios y exige tratamiento limitado, confidencialidad, medidas de seguridad y garantías para las transferencias internacionales.
 
 Los datos también pueden mostrarse a otros miembros de un espacio de trabajo compartido, transmitirse a un cliente externo que autorices, comunicarse a asesores profesionales sujetos a confidencialidad o a autoridades públicas cuando la ley lo exija.
 
 ## Transferencias internacionales
 
-La aplicación alojada principal funciona en infraestructura de AWS en la UE. La región configurada de Resend, la región de datos de Sentry y el endpoint de Langfuse también están en Europa. Algunos proveedores, como OpenAI y Vercel, pueden tratar datos fuera de tu país o del Espacio Económico Europeo. Cuando corresponde, usamos decisiones de adecuación, acuerdos de tratamiento y Cláusulas Contractuales Tipo o garantías equivalentes.
+La aplicación alojada principal funciona en infraestructura de AWS en la UE. La región de correo configurada de Resend y la región de datos de Sentry también están en Europa. Algunos proveedores, como OpenAI y Vercel, pueden tratar datos fuera de tu país o del Espacio Económico Europeo. Cuando corresponde, usamos decisiones de adecuación, acuerdos de tratamiento y Cláusulas Contractuales Tipo o garantías equivalentes.
 
 ## Conservación y eliminación
 

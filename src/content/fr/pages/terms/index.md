@@ -34,7 +34,7 @@ Nous pouvons suspendre ou résilier l'accès lorsque cela est raisonnablement n�
 
 ## Fonctions d'IA
 
-Les fonctions d'IA hébergées sont facultatives et utilisent OpenAI. La télémétrie d'IA associée est traitée via Langfuse à des fins de débogage et d'analyse de la qualité du service. Les résultats de l'IA peuvent être inexacts, incomplets ou inadaptés. Il vous revient de vérifier ces résultats avant de vous y fier, de les partager ou d'appliquer des modifications.
+Les fonctions d’IA hébergée sont facultatives et utilisent OpenAI pour traiter les données de requête selon notre [Politique de confidentialité](/fr/privacy/). Dans les versions de l’app Apple prenant en charge le consentement versionné, vous pouvez retirer le partage de données IA dans les réglages. Les résultats peuvent être inexacts, incomplets ou inadaptés. Vous devez les vérifier avant de vous y fier, de les partager ou d’appliquer des changements.
 
 Lorsque vous autorisez un client IA externe à utiliser le service MCP ou l'API Agent, ce client et son fournisseur de modèle traitent les données que vous demandez selon leurs propres conditions. Nous ne sommes pas responsables du fonctionnement ni des résultats d'un client externe.
 

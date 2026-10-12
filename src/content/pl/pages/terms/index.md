@@ -34,7 +34,7 @@ Możemy zawiesić lub zakończyć dostęp, jeśli jest to racjonalnie niezbędne
 
 ## Funkcje AI
 
-Hostowane funkcje AI są opcjonalne i korzystają z OpenAI. Powiązana z nimi telemetria AI jest przetwarzana za pośrednictwem Langfuse na potrzeby debugowania i analizy jakości usługi. Wyniki generowane przez AI mogą być niedokładne, niepełne lub nieodpowiednie. Odpowiadasz za sprawdzenie wyniku, zanim zaczniesz na nim polegać, udostępnisz go lub zastosujesz zmiany.
+Hostowane funkcje AI są opcjonalne i wykorzystują OpenAI do przetwarzania danych żądania zgodnie z naszą [Polityką prywatności](/pl/privacy/). W wersjach aplikacji Apple obsługujących wersjonowaną zgodę możesz wycofać udostępnianie danych AI w Ustawieniach. Wyniki AI mogą być błędne, niepełne lub nieodpowiednie. Odpowiadasz za ich sprawdzenie przed wykorzystaniem, udostępnieniem lub zastosowaniem zmian.
 
 Gdy upoważnisz zewnętrznego klienta AI do korzystania z usługi MCP lub Agent API, ten klient i dostawca jego modelu przetwarzają dane, o które prosisz, zgodnie z własnymi warunkami. Nie odpowiadamy za działanie ani wyniki zewnętrznego klienta.
 

@@ -34,7 +34,7 @@ Kullanıcıları veya hizmeti korumak, bir ihlali soruşturmak ya da yasalara uy
 
 ## AI Özellikleri
 
-Barındırılan AI özellikleri isteğe bağlıdır ve OpenAI kullanır. İlgili AI telemetrisi, hata ayıklama ve hizmet kalitesi analizi için Langfuse aracılığıyla işlenir. AI çıktısı yanlış, eksik veya uygunsuz olabilir. Çıktıya güvenmeden, onu paylaşmadan veya değişiklikleri uygulamadan önce gözden geçirmek sizin sorumluluğunuzdadır.
+Barındırılan AI özellikleri isteğe bağlıdır ve [Gizlilik Politikamızda](/tr/privacy/) açıklandığı şekilde istek verilerini işlemek için OpenAI kullanır. Sürümlendirilmiş onayı destekleyen Apple uygulaması sürümlerinde AI veri paylaşımını Ayarlar’dan geri çekebilirsiniz. AI çıktısı yanlış, eksik veya uygunsuz olabilir. Çıktıya güvenmeden, paylaşmadan veya değişiklikleri uygulamadan önce incelemek sizin sorumluluğunuzdadır.
 
 Harici bir AI istemcisine MCP hizmetini veya Agent API'yi kullanma yetkisi verdiğinizde, o istemci ve model sağlayıcısı talep ettiğiniz verileri kendi koşulları kapsamında işler. Harici bir istemcinin işleyişinden veya çıktısından sorumlu değiliz.
 

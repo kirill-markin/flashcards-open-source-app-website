@@ -34,7 +34,7 @@ Voimme keskeyttää tai lopettaa käyttöoikeuden, kun se on kohtuudella tarpeen
 
 ## Tekoälyominaisuudet
 
-Isännöidyt tekoälyominaisuudet ovat valinnaisia ja käyttävät OpenAI:ta. Niihin liittyvää tekoälytelemetriaa käsitellään Langfusen kautta virheiden selvittämistä ja palvelun laadun analysointia varten. Tekoälyn tuottama sisältö voi olla epätarkkaa, puutteellista tai sopimatonta. Olet vastuussa tuotoksen tarkistamisesta ennen kuin luotat siihen, jaat sen tai otat muutokset käyttöön.
+Isännöidyt tekoälytoiminnot ovat valinnaisia ja käyttävät OpenAI:ta pyyntötietojen käsittelyyn [tietosuojakäytäntömme](/fi/privacy/) mukaisesti. Versioitua suostumusta tukevissa Apple-sovelluksen versioissa voit perua tekoälytietojen jakamisen Asetuksissa. Tulokset voivat olla virheellisiä, puutteellisia tai sopimattomia. Sinun on tarkistettava ne ennen niihin luottamista, jakamista tai muutosten tekemistä.
 
 Kun valtuutat ulkoisen tekoälyasiakkaan käyttämään MCP-palvelua tai Agent API:a, kyseinen asiakas ja sen mallintarjoaja käsittelevät pyytämääsi dataa omien ehtojensa mukaisesti. Emme vastaa ulkoisen asiakkaan toiminnasta tai tuotoksesta.
 

@@ -98,7 +98,11 @@ Når du slår av innstillingen, stopper fremtidig innsamling. Hendelser som alle
 
 OpenAI er AI-leverandøren som er konfigurert for de hostede funksjonene for chat, transkripsjon og bildegenerering. Når du velger å bruke disse funksjonene, sender vi OpenAI forespørselsdataene som trengs for å utføre dem, som kan omfatte prompten din, relevant kontekst fra chatten og arbeidsområdet, vedlegg eller bilder, diktert lyd og en pseudonym sikkerhetsidentifikator. Hostede tekstforespørsler bruker `store: false`, som slår av lagring av svarobjekter for senere henting. Fordi disse forespørslene også bruker hurtigbufring av prompter, kan OpenAI oppbevare kryptert applikasjonstilstand for hurtigbufferen i opptil 24 timer. Under OpenAIs nåværende API-kontroller kan relevante logger for misbruksovervåking oppbevares i opptil 30 dager, mens transkripsjonsendepunktet oppgir at det verken oppbevarer innhold for misbruksovervåking eller applikasjonstilstand. OpenAI bruker ikke API-data til å trene modellene sine med mindre kontoinnehaveren uttrykkelig samtykker til det.
 
-Hostede AI-forespørsler observeres også via Langfuse Cloud for feilsøking og analyse av tjenestekvaliteten. Langfuse-sporinger kan inneholde prompter, modellsvar, verktøyaktivitet, identifikatorer for bruker, arbeidsområde og økt samt driftsmetadata. Implementasjonen maskerer e-postadresser og felt som ser ut som hemmeligheter; egendefinerte sporinger for transkripsjon utelater rå lydbytes og vedleggsdata.
+Siden utrullingen som fjernet integrasjonen 12. oktober 2026, sender vi ingen nye data til Langfuse Cloud. Eksisterende spor slettes fortsatt etter 30 dager ved den nattlige slettingen; fjerning av integrasjonen slettet dem ikke umiddelbart. Langfuse-sporinger kan inneholde prompter, modellsvar, verktøyaktivitet, identifikatorer for bruker, arbeidsområde og økt samt driftsmetadata. Implementasjonen maskerer e-postadresser og felt som ser ut som hemmeligheter; egendefinerte sporinger for transkripsjon utelater rå lydbytes og vedleggsdata. Disse historiske sporene ble brukt til feilsøking og analyse av tjenestekvalitet.
+
+Arbeidsområdekontekst som sendes til OpenAI, kan omfatte kort, repetisjonshistorikk og verktøyresultater; bilder kan omfatte fotografier du velger. OpenAIs lagringsperioder er underlagt [OpenAIs juridiske unntak og sikkerhetsunntak](https://developers.openai.com/api/docs/guides/your-data), blant annet lagring av merkede bilder for gjennomgang.
+
+Apple-appversjoner som støtter AI-samtykke med versjonert informasjon, ber om tillatelse før data deles med OpenAI. Du kan trekke det tilbake i Innstillinger for å stoppe nye AI-forespørsler fra den installasjonen; forespørsler som allerede er sendt, kan fullføres. Separate juridiske bevis for samtykke og tilbaketrekking registreres selv når produktanalyse er slått av: nøyaktig vist tekst, versjon og språk; uforanderlig hendelses-ID og stigende beslutningsnummer; opprinnelig autentisert aktør, nåværende konto- eller gjesteeier og installasjonsidentifikatorer; appversjon, build og plattform; tidspunkt for handlingen og mottak på serveren. Etter tilbaketrekking beholdes historikken i kontoens eller gjestens levetid. Sletting av kontoen eller gjesten fjerner den, inkludert overført gjestehistorikk.
 
 Administratorene våre kan lese innhold fra hostet AI-chat som er lagret i vår egen database, inkludert promptene dine, modellsvar og foreslåtte chatprompter, for å analysere hvordan AI-funksjonene brukes, og forbedre dem. Tilgangen til dette innholdet er begrenset til operatørens administratorer.
 
@@ -114,16 +118,17 @@ Vi bruker følgende kategorier av tjenesteleverandører for den hostede tjeneste
 - Stripe for betalinger av nettabonnementer, administrasjon av fakturering, beregning av skatter og avgifter og varsler om betalinger;
 - Resend for transaksjonelle e-poster for autentisering og fakturering;
 - OpenAI for valgfrie hostede AI-forespørsler;
-- Langfuse Cloud for observerbarhet i hostet AI;
 - Sentry for rensede feil- og diagnoserapporter når dette er aktivert i den aktuelle hostede tjenesten eller det aktuelle appbygget;
 - Vercel for markedsføringsnettstedet og Web Analytics uten informasjonskapsler; og
 - Cloudflare for DNS og domeneadministrasjon. De nåværende DNS-postene til Nibomo er rene DNS-poster, så Cloudflare fungerer ikke som mellomtjener (proxy) for HTTP-trafikken til det hostede nettstedet eller appen.
+
+Vi krever at databehandlere som handler på våre vegne, gir delte brukerdata samme eller likeverdig beskyttelse etter denne policyen og gjeldende lov. OpenAIs [databehandlingstillegg](https://openai.com/policies/data-processing-addendum/) inngår i tjenesteavtalen og krever begrenset behandling, konfidensialitet, sikkerhetstiltak og vern ved internasjonale overføringer.
 
 Data kan også utleveres til andre medlemmer av et delt arbeidsområde i samsvar med tjenestens samarbeidsfunksjoner, til en ekstern klient du autoriserer, til profesjonelle rådgivere med taushetsplikt, eller til offentlige myndigheter når utlevering er lovpålagt.
 
 ## Internasjonale overføringer
 
-Den primære hostede applikasjonen kjører i AWS' infrastruktur i EU. Den konfigurerte e-postregionen hos Resend, dataregionen hos Sentry og endepunktet hos Langfuse er også i Europa. Noen leverandører, inkludert OpenAI og Vercel, kan behandle data utenfor landet ditt eller Det europeiske økonomiske samarbeidsområdet. Der det kreves, bruker vi gjeldende beslutninger om tilstrekkelig beskyttelsesnivå, databehandleravtaler og standard personvernbestemmelser eller tilsvarende garantier for disse overføringene.
+Den primære hostede applikasjonen kjører i AWS' infrastruktur i EU. Den konfigurerte Resend-e-postregionen og Sentry-dataregionen ligger også i Europa. Noen leverandører, inkludert OpenAI og Vercel, kan behandle data utenfor landet ditt eller Det europeiske økonomiske samarbeidsområdet. Der det kreves, bruker vi gjeldende beslutninger om tilstrekkelig beskyttelsesnivå, databehandleravtaler og standard personvernbestemmelser eller tilsvarende garantier for disse overføringene.
 
 ## Oppbevaring og sletting
 

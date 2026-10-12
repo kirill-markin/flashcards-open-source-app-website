@@ -34,7 +34,7 @@ Tunaweza kusimamisha au kusitisha ufikiaji pale inapohitajika kwa kiasi kinachoe
 
 ## Vipengele vya AI
 
-Vipengele vya AI vilivyopangishwa ni vya hiari na hutumia OpenAI. Telemetria inayohusiana na AI huchakatwa kupitia Langfuse kwa ajili ya kutatua hitilafu na kuchanganua ubora wa huduma. Matokeo ya AI yanaweza kuwa yasiyo sahihi, yasiyokamilika au yasiyofaa. Unawajibika kukagua matokeo kabla ya kuyategemea, kuyashiriki au kutekeleza mabadiliko.
+Vipengele vya AI vilivyopangishwa ni vya hiari na hutumia OpenAI kuchakata data ya ombi kama ilivyoelezwa katika [Sera yetu ya Faragha](/sw/privacy/). Katika matoleo ya programu ya Apple yanayounga mkono ridhaa yenye toleo, unaweza kuondoa kushiriki data ya AI kwenye Mipangilio. Matokeo yanaweza kuwa si sahihi, hayajakamilika au hayafai. Ni jukumu lako kuyakagua kabla ya kuyategemea, kuyashiriki au kutumia mabadiliko.
 
 Unapoidhinisha kiteja cha nje cha AI kutumia huduma ya MCP au Agent API, kiteja hicho na mtoa huduma wake wa modeli huchakata data unayoiomba chini ya masharti yao wenyewe. Hatuwajibiki kwa uendeshaji au matokeo ya kiteja cha nje.
 

@@ -34,7 +34,7 @@ Galime sustabdyti arba nutraukti prieigą, kai tai pagrįstai būtina siekiant a
 
 ## DI funkcijos
 
-Talpinamos DI funkcijos yra neprivalomos ir naudoja OpenAI. Susijusi DI telemetrija tvarkoma per Langfuse derinimo ir paslaugos kokybės analizės tikslais. DI rezultatai gali būti netikslūs, neišsamūs ar netinkami. Jūs atsakote už rezultatų peržiūrą prieš jais remdamiesi, jais dalydamiesi ar taikydami pakeitimus.
+Talpinamos DI funkcijos yra neprivalomos ir naudoja OpenAI užklausų duomenims tvarkyti pagal mūsų [Privatumo politiką](/lt/privacy/). Apple programos versijose su versijuotu sutikimu galite atšaukti DI duomenų bendrinimą Nustatymuose. Rezultatai gali būti klaidingi, neišsamūs ar netinkami. Privalote juos patikrinti prieš jais remdamiesi, dalydamiesi ar taikydami pakeitimus.
 
 Kai leidžiate išoriniam DI klientui naudotis MCP paslauga ar Agent API, tas klientas ir jo modelio teikėjas tvarko jūsų prašomus duomenis pagal savo sąlygas. Mes neatsakome už išorinio kliento veikimą ar jo pateikiamus rezultatus.
 

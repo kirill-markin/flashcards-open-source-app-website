@@ -34,7 +34,7 @@ We may suspend or terminate access when reasonably necessary to protect users or
 
 ## AI Features
 
-Hosted AI features are optional and use OpenAI. Related AI telemetry is processed through Langfuse for debugging and service-quality analysis. AI output may be inaccurate, incomplete, or unsuitable. You are responsible for reviewing output before relying on it, sharing it, or applying changes.
+Hosted AI features are optional and use OpenAI to process request data as described in our [Privacy Policy](/privacy/). In Apple app versions supporting versioned consent, you can withdraw AI data sharing in Settings. AI output may be inaccurate, incomplete, or unsuitable. You are responsible for reviewing output before relying on it, sharing it, or applying changes.
 
 When you authorize an external AI client to use the MCP service or Agent API, that client and its model provider process the data you request under their own terms. We are not responsible for an external client's operation or output.
 

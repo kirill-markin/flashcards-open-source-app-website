@@ -98,7 +98,11 @@ Turning the setting off stops future collection. It does not delete events alrea
 
 OpenAI is the AI provider configured for hosted chat, transcription, and image-generation features. When you choose those features, we send OpenAI the request data needed to perform them, which may include your prompt, relevant chat and workspace context, attachments or images, dictated audio, and a pseudonymous safety identifier. Hosted text requests use `store: false`, which disables storage of response objects for later retrieval. Because these requests also use prompt caching, OpenAI may retain encrypted cache application state for up to 24 hours. Under OpenAI's current API controls, applicable abuse-monitoring logs may be retained for up to 30 days, while the transcription endpoint states that it retains neither abuse-monitoring content nor application state. OpenAI does not use API data to train its models unless the account holder explicitly opts in.
 
-Hosted AI requests are also observed through Langfuse Cloud for debugging and service-quality analysis. Langfuse traces can include prompts, model responses, tool activity, user, workspace and session identifiers, and operational metadata. The implementation masks email addresses and secret-looking fields; custom transcription traces exclude raw audio bytes and attachment data.
+Since the removal deployment on 12 October 2026, we send no new data to Langfuse Cloud. Existing traces still expire after 30 days through nightly deletion; removal did not immediately erase them. Langfuse traces can include prompts, model responses, tool activity, user, workspace and session identifiers, and operational metadata. The implementation masks email addresses and secret-looking fields; custom transcription traces exclude raw audio bytes and attachment data. These historical traces were used for debugging and service-quality analysis.
+
+Relevant workspace context sent to OpenAI can include cards, review history, and tool results; images can include photos you select. OpenAI’s retention periods are subject to OpenAI’s [legal and safety exceptions](https://developers.openai.com/api/docs/guides/your-data), including retention of flagged images for review.
+
+Apple app versions supporting versioned AI consent ask before sharing data with OpenAI. You can withdraw sharing in Settings to stop new AI requests from that installation; requests already sent may finish. Separate legal receipts for grants and withdrawals are recorded even when product analytics is off: exact displayed text, version and language; immutable event ID and increasing decision sequence; original authenticated actor, current account or guest owner and installation identifiers; app version, build and platform; action time and server receipt time. Withdrawal retains this history for the account or guest lifetime. Account or guest deletion removes it, including transferred guest history.
 
 Our administrators can read hosted AI chat content stored in our own database, including your prompts, model responses, and suggested chat prompts, to analyze how the AI features are used and improve them. Access to that content is limited to the operator's administrators.
 
@@ -114,16 +118,17 @@ We use the following service-provider categories for the hosted service:
 - Stripe for web subscription payments, billing management, tax calculation, and payment notifications;
 - Resend for transactional authentication and billing emails;
 - OpenAI for optional hosted AI requests;
-- Langfuse Cloud for hosted AI observability;
 - Sentry for sanitized error and diagnostic reporting when enabled in the relevant hosted service or app build;
 - Vercel for the marketing website and its cookie-free Web Analytics; and
 - Cloudflare for DNS and domain management. Current Nibomo DNS records are DNS-only, so Cloudflare does not proxy hosted website or app HTTP traffic.
+
+We require processors acting on our behalf to provide the same or equal protection for shared user data under this policy and applicable law. OpenAI’s [Data Processing Addendum](https://openai.com/policies/data-processing-addendum/) is incorporated into its Services Agreement and requires restricted processing, confidentiality, security measures, and safeguards for international transfers.
 
 Data can also be disclosed to other members of a shared workspace according to the service's collaboration features, to an external client you authorize, to professional advisers under confidentiality duties, or to public authorities when disclosure is legally required.
 
 ## International Transfers
 
-The primary hosted application runs in AWS's EU infrastructure. The configured Resend email region, Sentry data region, and Langfuse endpoint are also in Europe. Some providers, including OpenAI and Vercel, may process data outside your country or the European Economic Area. Where required, we use applicable adequacy decisions, data-processing agreements, and Standard Contractual Clauses or equivalent safeguards for those transfers.
+The primary hosted application runs in AWS's EU infrastructure. The configured Resend email region and Sentry data region are also in Europe. Some providers, including OpenAI and Vercel, may process data outside your country or the European Economic Area. Where required, we use applicable adequacy decisions, data-processing agreements, and Standard Contractual Clauses or equivalent safeguards for those transfers.
 
 ## Retention and Deletion
 

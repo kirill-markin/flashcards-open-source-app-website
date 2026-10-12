@@ -98,7 +98,11 @@ Das Ausschalten der Einstellung beendet die künftige Erfassung. Bereits aufgeze
 
 OpenAI ist der konfigurierte Anbieter für gehosteten Chat, Transkription und Bilderzeugung. Wenn Sie diese Funktionen nutzen, senden wir die dafür notwendigen Daten an OpenAI. Dazu können Prompt, relevanter Chat- und Workspace-Kontext, Anhänge oder Bilder, diktierte Audiodaten und eine pseudonyme Sicherheitskennung gehören. Gehostete Textanfragen verwenden `store: false`; damit werden Antwortobjekte nicht zur späteren Abfrage gespeichert. Da diese Anfragen außerdem Prompt-Caching verwenden, kann OpenAI verschlüsselten Anwendungszustand des Caches bis zu 24 Stunden aufbewahren. Nach den aktuellen API-Einstellungen können einschlägige Protokolle zur Missbrauchsüberwachung bis zu 30 Tage aufbewahrt werden; für den Transkriptions-Endpunkt gibt OpenAI an, weder Inhalte zur Missbrauchsüberwachung noch Anwendungszustand zu speichern. API-Daten werden nicht zum Training von OpenAI-Modellen genutzt, sofern der Kontoinhaber dem nicht ausdrücklich zustimmt.
 
-Gehostete KI-Anfragen werden außerdem über Langfuse Cloud zur Fehlersuche und Qualitätsanalyse beobachtet. Langfuse-Traces können Prompts, Modellantworten, Tool-Aktivitäten, Nutzer-, Workspace- und Sitzungskennungen sowie Betriebsmetadaten enthalten. Die Implementierung maskiert E-Mail-Adressen und geheimnisähnliche Felder; benutzerdefinierte Transkriptions-Traces schließen rohe Audiodaten und Anhangsdaten aus.
+Seit der Bereitstellung zur Entfernung der Integration am 12. Oktober 2026 senden wir keine neuen Daten an Langfuse Cloud. Vorhandene Traces werden weiterhin nach 30 Tagen durch die nächtliche Löschung entfernt; die Entfernung der Integration hat sie nicht sofort gelöscht. Langfuse-Traces können Prompts, Modellantworten, Tool-Aktivitäten, Nutzer-, Workspace- und Sitzungskennungen sowie Betriebsmetadaten enthalten. Die Implementierung maskiert E-Mail-Adressen und geheimnisähnliche Felder; benutzerdefinierte Transkriptions-Traces schließen rohe Audiodaten und Anhangsdaten aus. Diese historischen Traces dienten der Fehlersuche und der Analyse der Servicequalität.
+
+Der an OpenAI gesendete Workspace-Kontext kann Karten, Wiederholungsverlauf und Tool-Ergebnisse enthalten; Bilder können von Ihnen ausgewählte Fotos umfassen. OpenAIs Aufbewahrungsfristen unterliegen den [gesetzlichen und sicherheitsbezogenen Ausnahmen von OpenAI](https://developers.openai.com/api/docs/guides/your-data), einschließlich der Aufbewahrung markierter Bilder zur Prüfung.
+
+Apple-App-Versionen, die eine Einwilligung mit versioniertem KI-Hinweis unterstützen, fragen vor der Datenweitergabe an OpenAI. Sie können diese in den Einstellungen widerrufen, um neue KI-Anfragen dieser Installation zu stoppen; bereits gesendete Anfragen können noch abgeschlossen werden. Unabhängige rechtliche Nachweise für Einwilligungen und Widerrufe werden auch bei ausgeschalteter Produktanalyse gespeichert: genauer angezeigter Text, Version und Sprache; unveränderliche Ereignis-ID und aufsteigende Entscheidungsfolge; ursprünglich authentifizierte handelnde Person, aktuelle Konto- oder Gastzuordnung und Installationskennungen; App-Version, Build und Plattform; Zeitpunkt der Handlung und des Servereingangs. Nach einem Widerruf bleibt der Verlauf für die Lebensdauer des Kontos oder Gastzugangs erhalten. Die Löschung des Kontos oder Gastzugangs entfernt ihn einschließlich übertragener Gastnachweise.
 
 Unsere Administratoren können gehostete KI-Chatinhalte lesen, die in unserer eigenen Datenbank gespeichert sind, einschließlich Ihrer Prompts, Modellantworten und vorgeschlagener Prompts im Chat-Eingabefeld, um zu analysieren, wie die KI-Funktionen genutzt werden, und sie zu verbessern. Der Zugriff auf diese Inhalte ist auf die Administratoren des Betreibers beschränkt.
 
@@ -114,16 +118,17 @@ Für den gehosteten Dienst nutzen wir folgende Anbieterkategorien:
 - Stripe für Zahlungen von Web-Abonnements, Abrechnungsverwaltung, Steuerberechnung und Zahlungsbenachrichtigungen;
 - Resend für transaktionale Authentifizierungs- und Abrechnungs-E-Mails;
 - OpenAI für optionale gehostete KI-Anfragen;
-- Langfuse Cloud für KI-Observability;
 - Sentry für bereinigte Fehler- und Diagnoseberichte, soweit dies im jeweiligen gehosteten Dienst oder App-Build aktiviert ist;
 - Vercel für die Marketing-Website und deren cookie-freie Web Analytics; sowie
 - Cloudflare für DNS und Domainverwaltung. Die aktuellen Nibomo-DNS-Einträge sind „DNS-only“, sodass Cloudflare den HTTP-Verkehr von Website und Apps nicht als Proxy verarbeitet.
+
+Wir verpflichten Auftragsverarbeiter, die für uns handeln, zum gleichen oder gleichwertigen Schutz geteilter Nutzerdaten nach dieser Richtlinie und dem geltenden Recht. OpenAIs [Auftragsverarbeitungsvereinbarung](https://openai.com/policies/data-processing-addendum/) ist Teil des Dienstleistungsvertrags und verlangt beschränkte Verarbeitung, Vertraulichkeit, Sicherheitsmaßnahmen und Schutzvorkehrungen für internationale Übermittlungen.
 
 Daten können außerdem entsprechend den Zusammenarbeitsfunktionen anderen Mitgliedern eines geteilten Workspace, einem von Ihnen autorisierten externen Client, zur Vertraulichkeit verpflichteten Beratern oder bei gesetzlicher Verpflichtung Behörden offengelegt werden.
 
 ## Internationale Übermittlungen
 
-Die primäre gehostete Anwendung läuft in EU-Infrastruktur von AWS. Auch die konfigurierte Resend-Region, die Sentry-Datenregion und der Langfuse-Endpunkt befinden sich in Europa. Einige Anbieter, darunter OpenAI und Vercel, können Daten außerhalb Ihres Landes oder des Europäischen Wirtschaftsraums verarbeiten. Soweit erforderlich, verwenden wir Angemessenheitsbeschlüsse, Auftragsverarbeitungsverträge und Standardvertragsklauseln oder gleichwertige Garantien.
+Die primäre gehostete Anwendung läuft in EU-Infrastruktur von AWS. Auch die konfigurierte Resend-E-Mail-Region und die Sentry-Datenregion befinden sich in Europa. Einige Anbieter, darunter OpenAI und Vercel, können Daten außerhalb Ihres Landes oder des Europäischen Wirtschaftsraums verarbeiten. Soweit erforderlich, verwenden wir Angemessenheitsbeschlüsse, Auftragsverarbeitungsverträge und Standardvertragsklauseln oder gleichwertige Garantien.
 
 ## Aufbewahrung und Löschung
 

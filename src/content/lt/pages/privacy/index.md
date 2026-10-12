@@ -98,7 +98,11 @@ Išjungus nustatymą, sustabdomas būsimas rinkimas. Jau užregistruoti įvykiai
 
 OpenAI yra DI teikėjas, sukonfigūruotas talpinamo pokalbio, transkripcijos ir vaizdų generavimo funkcijoms. Kai pasirenkate šias funkcijas, siunčiame OpenAI joms atlikti reikalingus užklausos duomenis, kurie gali apimti jūsų užklausą, susijusį pokalbio ir darbo srities kontekstą, priedus ar vaizdus, padiktuotą garsą ir pseudoniminį saugumo identifikatorių. Talpinamos tekstinės užklausos naudoja `store: false`, o tai išjungia atsakymo objektų saugojimą vėlesniam gavimui. Kadangi šios užklausos taip pat naudoja užklausų podėlį, OpenAI gali iki 24 valandų saugoti šifruotą podėlio programos būseną. Pagal dabartines OpenAI API kontrolės priemones taikomi piktnaudžiavimo stebėsenos žurnalai gali būti saugomi iki 30 dienų, o transkripcijos galiniame taške nurodyta, kad jis nesaugo nei piktnaudžiavimo stebėsenos turinio, nei programos būsenos. OpenAI nenaudoja API duomenų savo modeliams mokyti, nebent paskyros savininkas aiškiai tam pritaria.
 
-Talpinamos DI užklausos taip pat stebimos per Langfuse Cloud derinimo ir paslaugos kokybės analizės tikslais. Langfuse pėdsakuose gali būti užklausos, modelio atsakymai, įrankių veikla, naudotojo, darbo srities ir sesijos identifikatoriai bei operaciniai metaduomenys. Įgyvendinimas užmaskuoja el. pašto adresus ir laukus, panašius į slaptus duomenis; pasirinktiniuose transkripcijos pėdsakuose nėra neapdorotų garso baitų ir priedų duomenų.
+Nuo integraciją pašalinusio diegimo 2026 m. spalio 12 d. nesiunčiame naujų duomenų į Langfuse Cloud. Esami įrašai vis dar ištrinami po 30 dienų per naktinį trynimą; integracijos pašalinimas jų neištrynė iškart. Langfuse pėdsakuose gali būti užklausos, modelio atsakymai, įrankių veikla, naudotojo, darbo srities ir sesijos identifikatoriai bei operaciniai metaduomenys. Įgyvendinimas užmaskuoja el. pašto adresus ir laukus, panašius į slaptus duomenis; pasirinktiniuose transkripcijos pėdsakuose nėra neapdorotų garso baitų ir priedų duomenų. Šie ankstesni pėdsakai buvo naudojami klaidoms šalinti ir paslaugos kokybei analizuoti.
+
+OpenAI siunčiamas darbo srities kontekstas gali apimti mokymosi korteles, kartojimų istoriją ir įrankių rezultatus; vaizdai gali apimti jūsų pasirinktas nuotraukas. OpenAI duomenų saugojimo laikotarpiams taikomos [OpenAI teisinės ir saugos išimtys](https://developers.openai.com/api/docs/guides/your-data), įskaitant pažymėtų vaizdų saugojimą patikrai.
+
+Apple programos versijos, palaikančios DI sutikimą su versijuotu informaciniu tekstu, prašo leidimo prieš dalijantis duomenimis su OpenAI. Jį galite atšaukti Nustatymuose, kad sustabdytumėte naujas DI užklausas iš šios įdiegtos programos; jau išsiųstos gali būti baigtos. Atskiri teisiniai sutikimo ir atšaukimo įrodymai registruojami ir išjungus produkto analitiką: tikslus rodytas tekstas, versija ir kalba; nekintamas įvykio ID ir didėjantis sprendimo eilės numeris; pradinis autentifikuotas veiksmą atlikęs asmuo, dabartinis paskyros ar svečio savininkas ir diegimo identifikatoriai; programos versija, komponavimo numeris ir platforma; veiksmo ir serverio gavimo laikas. Atšaukus, istorija lieka paskyros ar svečio gyvavimo laikotarpiu. Juos ištrynus, ji pašalinama, įskaitant perkeltą svečio istoriją.
 
 Mūsų administratoriai gali skaityti mūsų pačių duomenų bazėje saugomą talpinamo DI pokalbio turinį, įskaitant jūsų užklausas, modelio atsakymus ir siūlomas pokalbio užklausas, kad analizuotų, kaip naudojamasi DI funkcijomis, ir jas tobulintų. Prieiga prie šio turinio suteikiama tik operatoriaus administratoriams.
 
@@ -114,16 +118,17 @@ Talpinamai paslaugai naudojame šių kategorijų paslaugų teikėjus:
 - Stripe – interneto prenumeratų mokėjimams, atsiskaitymų valdymui, mokesčių apskaičiavimui ir mokėjimų pranešimams;
 - Resend – sisteminiams autentifikavimo ir atsiskaitymo el. laiškams;
 - OpenAI – neprivalomoms talpinamo DI užklausoms;
-- Langfuse Cloud – talpinamo DI stebimumui;
 - Sentry – išvalytoms klaidų ir diagnostikos ataskaitoms, kai tai įjungta atitinkamoje talpinamoje paslaugoje ar programėlės versijoje;
 - Vercel – rinkodaros svetainei ir jos Web Analytics be slapukų; ir
 - Cloudflare – DNS ir domenų valdymui. Dabartiniai Nibomo DNS įrašai yra tik DNS, todėl Cloudflare neperduoda talpinamos svetainės ar programėlės HTTP srauto per savo tarpinį serverį.
+
+Reikalaujame, kad mūsų vardu veikiantys duomenų tvarkytojai užtikrintų tokią pačią ar lygiavertę bendrinamų naudotojų duomenų apsaugą pagal šią politiką ir taikomus įstatymus. OpenAI [Duomenų tvarkymo priedas](https://openai.com/policies/data-processing-addendum/) yra Paslaugų sutarties dalis ir reikalauja riboto tvarkymo, konfidencialumo, saugumo priemonių ir tarptautinio perdavimo apsaugos.
 
 Duomenys taip pat gali būti atskleisti kitiems bendros darbo srities nariams pagal paslaugos bendradarbiavimo funkcijas, jūsų įgaliotam išoriniam klientui, konfidencialumo pareigų saistomiems profesionaliems patarėjams arba valdžios institucijoms, kai atskleisti reikalaujama pagal įstatymus.
 
 ## Tarptautiniai perdavimai
 
-Pagrindinė talpinama programa veikia AWS ES infrastruktūroje. Sukonfigūruotas Resend el. pašto regionas, Sentry duomenų regionas ir Langfuse galinis taškas taip pat yra Europoje. Kai kurie teikėjai, įskaitant OpenAI ir Vercel, gali tvarkyti duomenis už jūsų šalies ar Europos ekonominės erdvės ribų. Kai reikia, tokiems perdavimams taikome atitinkamus sprendimus dėl tinkamumo, duomenų tvarkymo sutartis ir standartines sutarčių sąlygas ar lygiavertes apsaugos priemones.
+Pagrindinė talpinama programa veikia AWS ES infrastruktūroje. Sukonfigūruotas Resend el. pašto regionas ir Sentry duomenų regionas taip pat yra Europoje. Kai kurie teikėjai, įskaitant OpenAI ir Vercel, gali tvarkyti duomenis už jūsų šalies ar Europos ekonominės erdvės ribų. Kai reikia, tokiems perdavimams taikome atitinkamus sprendimus dėl tinkamumo, duomenų tvarkymo sutartis ir standartines sutarčių sąlygas ar lygiavertes apsaugos priemones.
 
 ## Saugojimas ir ištrynimas
 

@@ -34,7 +34,7 @@ Přístup můžeme pozastavit nebo ukončit, pokud je to rozumně nezbytné k oc
 
 ## Funkce AI
 
-Hostované funkce AI jsou volitelné a využívají OpenAI. Související telemetrie AI se zpracovává prostřednictvím Langfuse pro účely ladění a analýzy kvality služby. Výstup AI může být nepřesný, neúplný nebo nevhodný. Odpovídáte za to, že výstup zkontrolujete dříve, než se na něj spolehnete, začnete ho sdílet nebo provedete změny.
+Hostované funkce AI jsou volitelné a využívají OpenAI ke zpracování dat požadavku podle našich [Zásad ochrany osobních údajů](/cs/privacy/). Ve verzích aplikace Apple s verzovaným souhlasem můžete sdílení dat AI odvolat v Nastavení. Výstupy mohou být nesprávné, neúplné či nevhodné. Odpovídáte za jejich kontrolu před použitím, sdílením nebo provedením změn.
 
 Když externímu AI klientovi povolíte používat službu MCP nebo Agent API, zpracovávají tento klient a poskytovatel jeho modelu data, o která požádáte, podle svých vlastních podmínek. Za fungování ani výstup externího klienta neodpovídáme.
 

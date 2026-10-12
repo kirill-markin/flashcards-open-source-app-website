@@ -34,7 +34,7 @@ Mēs varam apturēt vai izbeigt piekļuvi, ja tas ir pamatoti nepieciešams, lai
 
 ## MI funkcijas
 
-Mitinātās MI funkcijas nav obligātas, un tās izmanto OpenAI. Saistītā MI telemetrija tiek apstrādāta ar Langfuse atkļūdošanas un pakalpojuma kvalitātes analīzes nolūkā. MI rezultāti var būt neprecīzi, nepilnīgi vai nepiemēroti. Tu esi atbildīgs par rezultātu pārbaudi, pirms uz tiem paļaujies, tos kopīgo vai piemēro izmaiņas.
+Mitinātās MI funkcijas ir izvēles un izmanto OpenAI pieprasījumu datu apstrādei saskaņā ar mūsu [Privātuma politiku](/lv/privacy/). Apple lietotnes versijās ar versijai piesaistītu piekrišanu MI datu kopīgošanu var atsaukt Iestatījumos. Rezultāti var būt nepareizi, nepilnīgi vai nepiemēroti. Jums tie jāpārbauda pirms paļaušanās uz tiem, kopīgošanas vai izmaiņu piemērošanas.
 
 Ja tu atļauj ārējam MI klientam izmantot MCP pakalpojumu vai Agent API, šis klients un tā modeļu pakalpojumu sniedzējs apstrādā tevis pieprasītos datus saskaņā ar saviem noteikumiem. Mēs neesam atbildīgi par ārēja klienta darbību vai tā rezultātiem.
 

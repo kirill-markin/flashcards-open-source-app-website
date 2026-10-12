@@ -98,7 +98,11 @@ Izklop nastavitve ustavi prihodnje zbiranje. Že zabeleženih dogodkov ne izbri�
 
 OpenAI je ponudnik AI, nastavljen za gostovane funkcije klepeta, prepisovanja govora in ustvarjanja slik. Ko izberete te funkcije, družbi OpenAI pošljemo podatke zahteve, potrebne za njihovo izvedbo, kar lahko vključuje vaš poziv, ustrezen kontekst klepeta in delovnega prostora, priloge ali slike, narekovani zvok in psevdonimni varnostni identifikator. Gostovane besedilne zahteve uporabljajo `store: false`, kar onemogoči shranjevanje objektov odgovorov za poznejši priklic. Ker te zahteve uporabljajo tudi predpomnjenje pozivov, lahko OpenAI šifrirano stanje aplikacije v predpomnilniku hrani do 24 ur. V skladu s trenutnimi kontrolami API družbe OpenAI se lahko veljavni dnevniki nadzora zlorab hranijo do 30 dni, za končno točko za prepisovanje pa je navedeno, da ne hrani ne vsebine za nadzor zlorab ne stanja aplikacije. OpenAI podatkov API ne uporablja za učenje svojih modelov, razen če se imetnik računa za to izrecno odloči.
 
-Gostovane zahteve AI se za odpravljanje napak in analizo kakovosti storitve spremljajo tudi prek Langfuse Cloud. Sledi Langfuse lahko vključujejo pozive, odgovore modela, dejavnost orodij, identifikatorje uporabnika, delovnega prostora in seje ter operativne metapodatke. Izvedba prikrije e-poštne naslove in polja, ki so videti kot skrivnosti; sledi prepisovanja po meri ne vsebujejo ne neobdelanih bajtov zvoka ne podatkov prilog.
+Od uvedbe, ki je odstranila integracijo 12. oktobra 2026, v Langfuse Cloud ne pošiljamo novih podatkov. Obstoječe sledi se še vedno izbrišejo po 30 dneh v nočnem opravilu; odstranitev integracije jih ni izbrisala takoj. Sledi Langfuse lahko vključujejo pozive, odgovore modela, dejavnost orodij, identifikatorje uporabnika, delovnega prostora in seje ter operativne metapodatke. Izvedba prikrije e-poštne naslove in polja, ki so videti kot skrivnosti; sledi prepisovanja po meri ne vsebujejo ne neobdelanih bajtov zvoka ne podatkov prilog. Te pretekle sledi so se uporabljale za odpravljanje napak in analizo kakovosti storitve.
+
+Kontekst delovnega prostora, poslan OpenAI, lahko vsebuje učne kartice, zgodovino ponavljanja in rezultate orodij; slike lahko vključujejo fotografije, ki jih izberete. Obdobja hrambe OpenAI so predmet [pravnih in varnostnih izjem OpenAI](https://developers.openai.com/api/docs/guides/your-data), vključno s hrambo označenih slik za pregled.
+
+Različice aplikacije Apple, ki podpirajo soglasje za AI z različico obvestila, zahtevajo dovoljenje pred deljenjem podatkov z OpenAI. V Nastavitvah ga lahko prekličete in ustavite nove zahteve iz te namestitve; že poslane se lahko dokončajo. Ločena pravna dokazila o soglasju in preklicu se beležijo tudi ob izklopljeni analitiki izdelka: natančno prikazano besedilo, različica in jezik; nespremenljiv ID dogodka in naraščajoča zaporedna številka odločitve; prvotni overjeni izvajalec dejanja, trenutni lastnik računa ali gosta in identifikatorji namestitve; različica, gradnja in platforma aplikacije; čas dejanja in prejema na strežniku. Po preklicu zgodovina ostane v času obstoja računa ali gosta. Njun izbris jo odstrani, vključno s preneseno zgodovino gosta.
 
 Naši skrbniki lahko berejo vsebino gostovanega klepeta z AI, shranjeno v naši lastni zbirki podatkov, vključno z vašimi pozivi, odgovori modela in predlaganimi pozivi za klepet, da analizirajo, kako se funkcije AI uporabljajo, in jih izboljšajo. Dostop do te vsebine je omejen na skrbnike upravljavca.
 
@@ -114,16 +118,17 @@ Za gostovano storitev uporabljamo naslednje kategorije ponudnikov storitev:
 - Stripe za plačila spletnih naročnin, upravljanje obračunavanja, izračun davkov in obvestila o plačilih;
 - Resend za transakcijska e-poštna sporočila za preverjanje pristnosti in obračunavanje;
 - OpenAI za neobvezne gostovane zahteve AI;
-- Langfuse Cloud za opazljivost gostovanega AI;
 - Sentry za prečiščeno poročanje o napakah in diagnostiko, kadar je omogočeno v ustrezni gostovani storitvi ali gradnji aplikacije;
 - Vercel za marketinško spletno mesto in njegovo storitev Web Analytics brez piškotkov; in
 - Cloudflare za DNS in upravljanje domen. Trenutni zapisi DNS za Nibomo so nastavljeni samo za DNS, zato Cloudflare ne posreduje prometa HTTP gostovanega spletnega mesta ali aplikacije.
+
+Od obdelovalcev, ki delujejo v našem imenu, zahtevamo enako ali enakovredno varstvo deljenih uporabniških podatkov po tej politiki in veljavnem pravu. [Dodatek o obdelavi podatkov](https://openai.com/policies/data-processing-addendum/) OpenAI je del pogodbe o storitvah in zahteva omejeno obdelavo, zaupnost, varnostne ukrepe in zaščito pri mednarodnih prenosih.
 
 Podatki se lahko razkrijejo tudi drugim članom skupnega delovnega prostora v skladu s funkcijami storitve za sodelovanje, zunanjemu odjemalcu, ki ga pooblastite, strokovnim svetovalcem, ki jih zavezuje dolžnost zaupnosti, ali javnim organom, kadar je razkritje zakonsko zahtevano.
 
 ## Mednarodni prenosi
 
-Glavna gostovana aplikacija deluje v infrastrukturi AWS v EU. Nastavljena regija e-pošte Resend, podatkovna regija Sentry in končna točka Langfuse so prav tako v Evropi. Nekateri ponudniki, vključno z OpenAI in Vercel, lahko podatke obdelujejo zunaj vaše države ali Evropskega gospodarskega prostora. Kjer je potrebno, za te prenose uporabljamo veljavne sklepe o ustreznosti, pogodbe o obdelavi podatkov in standardne pogodbene klavzule ali enakovredne zaščitne ukrepe.
+Glavna gostovana aplikacija deluje v infrastrukturi AWS v EU. Nastavljena e-poštna regija Resend in podatkovna regija Sentry sta prav tako v Evropi. Nekateri ponudniki, vključno z OpenAI in Vercel, lahko podatke obdelujejo zunaj vaše države ali Evropskega gospodarskega prostora. Kjer je potrebno, za te prenose uporabljamo veljavne sklepe o ustreznosti, pogodbe o obdelavi podatkov in standardne pogodbene klavzule ali enakovredne zaščitne ukrepe.
 
 ## Hramba in izbris
 
