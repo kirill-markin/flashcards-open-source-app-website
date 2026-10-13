@@ -116,6 +116,8 @@ If you want a ready-made set for that retrieval job, [this 180-card MCAT physics
 
 When the unit relationship itself is the gap, [SI Units Flashcards: 7 Base Units & 22 Named Derived Units](/catalog/packages/si-units-flashcards/) practices quantities, unit names, and symbols in both directions for all seven base units and all 22 named derived units, plus the named derived units' coherent base-unit expressions. It leaves equations, conversions, and MCAT passage work out, so it fits as a reference-recall layer rather than a full MCAT deck.
 
+For a smaller equation-check task, [these dimensional analysis flashcards](/catalog/packages/dimensional-analysis-equation-flashcards/) practice matching term dimensions and deriving coefficient units. They offer general physics practice; return to MCAT passages for exam-specific application.
+
 This is also where people accidentally make flashcards do too much. If a problem really depends on multi-step algebra, graph interpretation, or passage-specific reasoning, solve more problems. If the issue is that you repeatedly forget what changes in a direct versus inverse relationship, that is strong flashcard material.
 
 ## Psych/soc cards should focus on confusable concepts, not glossary copying
