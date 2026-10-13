@@ -57,7 +57,6 @@ export const Footer: React.FC<FooterProps> = ({
   routeLocales,
   routePathname,
 }) => {
-  const isHomeDesign = routePathname === "/";
   const year = new Date().getFullYear();
   const platforms = getHumanPlatforms(getAppUrl(), locale);
   const storeQrCodes = readGeneratedStoreQrCodes(process.cwd());
@@ -103,9 +102,7 @@ export const Footer: React.FC<FooterProps> = ({
   return (
     <footer
       id="site-footer"
-      className={isHomeDesign
-        ? `${styles.footer} ${styles.homeDesign}`
-        : styles.footer}
+      className={styles.footer}
     >
       <div className={styles.inner}>
         <div className={styles.columns}>
@@ -250,16 +247,14 @@ export const Footer: React.FC<FooterProps> = ({
         <div className={styles.bottom}>
           <div className={styles.bottomMeta}>
             <span className={styles.copyright}>
-              {isHomeDesign ? "© " : null}
-              {year} {uiCopy.footer.copyrightLabel}
+              © {year} {uiCopy.footer.copyrightLabel}
             </span>
             <div className={styles.attribution}>
-              {isHomeDesign ? operatedByAttribution : null}
+              {operatedByAttribution}
               {renderAttributionLine(
                 uiCopy.footer.builtBy,
                 STRUCTURED_DATA_AUTHOR_URL,
               )}
-              {isHomeDesign ? null : operatedByAttribution}
             </div>
           </div>
           <div className={styles.localePicker}>
