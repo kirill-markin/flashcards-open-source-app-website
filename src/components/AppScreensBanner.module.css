@@ -1,0 +1,44 @@
+.banner {
+  container-type: inline-size;
+  inline-size: 100%;
+  aspect-ratio: 1580 / 407;
+  overflow: hidden;
+  border-radius: clamp(10px, 2.6vw, 40px);
+  background-color: var(--accent);
+  background-image: url("/features/cta-background.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.screens {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 1.3cqi;
+  inline-size: 88.5%;
+  margin-inline: auto;
+  margin-block-start: 5.2cqi;
+  direction: ltr;
+}
+
+.phone {
+  padding: 0.75cqi 0.75cqi 0;
+  border-radius: 2.4cqi 2.4cqi 0 0;
+  background: #393a34;
+}
+
+.screen {
+  position: relative;
+  overflow: hidden;
+  aspect-ratio: 1284 / 2778;
+  border-radius: 1.7cqi 1.7cqi 0 0;
+}
+
+.image {
+  /* Crop each screen from the localized strip without its outer gutters. */
+  position: absolute;
+  display: block;
+  inline-size: calc(100% * 7140 / 1284);
+  max-inline-size: none;
+  block-size: auto;
+  inset-block-start: calc(-100% * 120 / 2778);
+}

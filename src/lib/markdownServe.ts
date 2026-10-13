@@ -37,7 +37,7 @@ import {
   formatActivityNumber,
   formatActivityTimestamp,
 } from "@/lib/activityFormatting";
-import { getSignupUrl } from "@/lib/auth";
+import { getHomeShowcaseImagePath } from "@/lib/homeShowcaseImage";
 import {
   DASHBOARDS_ROUTE_PATHNAME,
   getDashboardsPageDescription,
@@ -437,9 +437,7 @@ function renderDashboardsMarkdown(
     serializeGlobalActivitySnapshot(snapshot).trim(),
     "```",
     "",
-    `## ${uiCopy.cta.activityHeading}`,
-    "",
-    `[${uiCopy.auth.startStudyingFree}](${getSignupUrl()})`,
+    `![${uiCopy.home.appPreviewAlt}](${getHomeShowcaseImagePath(locale)})`,
   ];
 
   return {

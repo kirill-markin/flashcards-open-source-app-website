@@ -1,5 +1,4 @@
-import { FullAppCtaPanel } from "@/components/AppCtaPanel";
-import { AuthAwareAppCtaLink } from "@/components/AuthAwareAppCtaLink";
+import { AppScreensBanner } from "@/components/AppScreensBanner";
 import {
   PublicActivityCharts,
   PublicActivitySummary,
@@ -53,17 +52,9 @@ export function DashboardsPageView({
           snapshot={snapshot}
         />
 
-        <FullAppCtaPanel
-          action={
-            <AuthAwareAppCtaLink
-              locale={locale}
-              placement="activity_end"
-            />
-          }
-          className={styles.cta}
-          heading={uiCopy.cta.activityHeading}
-          locale={locale}
-        />
+        <div className={styles.cta}>
+          <AppScreensBanner locale={locale} />
+        </div>
       </div>
     </SiteFrame>
   );

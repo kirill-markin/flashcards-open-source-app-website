@@ -100,116 +100,14 @@
 }
 
 .cta {
-  position: relative;
-  isolation: isolate;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  overflow: hidden;
   margin-block-start: 96px;
-  border-radius: var(--radius-xl);
-  background-color: var(--accent);
-  color: #fff;
-  text-align: center;
   scroll-margin-block-start: 112px;
-}
-
-.cta::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  z-index: -1;
-  background-image: url("/features/cta-background.png");
-  background-position: center;
-  background-size: cover;
-}
-
-.ctaCopy {
-  inline-size: 100%;
-  padding-block-start: 56px;
-  padding-inline: 24px;
-}
-
-.ctaTitle {
-  margin: 0;
-  font-size: 40px;
-  font-weight: 500;
-  line-height: 1.2;
-  letter-spacing: 0;
-  text-wrap: balance;
-}
-
-.ctaAction {
-  margin-block-start: 32px;
-}
-
-.ctaAction > a {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  min-block-size: 44px;
-  padding: 12px 18px;
-  border-radius: var(--radius-pill);
-  background: #fff;
-  color: #171717;
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 1.4;
-  text-align: center;
-  transition: background 140ms ease;
-}
-
-.ctaAction > a:hover {
-  background: #f2f2f2;
-}
-
-.ctaAction > a:focus-visible {
-  outline: 2px solid #171717;
-  outline-offset: 4px;
-}
-
-.ctaScreens {
-  display: grid;
-  grid-template-columns: repeat(5, minmax(0, 1fr));
-  gap: 16px;
-  inline-size: max(88.5%, 640px);
-  block-size: clamp(180px, 20vw, 232px);
-  margin-block-start: 52px;
-  direction: ltr;
-}
-
-.ctaPhone {
-  align-self: start;
-  padding: 8px 8px 0;
-  border-radius: 28px 28px 0 0;
-  background: #393a34;
-}
-
-.ctaScreen {
-  position: relative;
-  overflow: hidden;
-  aspect-ratio: 1284 / 2778;
-  border-radius: 20px 20px 0 0;
-}
-
-.ctaImage {
-  /* Crop one screen from the shared localized strip, excluding its 120px gutters. */
-  position: absolute;
-  display: block;
-  inline-size: calc(100% * 7140 / 1284);
-  max-inline-size: none;
-  block-size: auto;
-  inset-block-start: calc(-100% * 120 / 2778);
 }
 
 @media (max-width: 980px) {
   .grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
     column-gap: 32px;
-  }
-
-  .ctaTitle {
-    font-size: 32px;
   }
 }
 
@@ -240,34 +138,5 @@
 
   .cta {
     margin-block-start: 64px;
-    border-radius: 24px;
-  }
-
-  .ctaCopy {
-    padding-block-start: 36px;
-    padding-inline: 20px;
-  }
-
-  .ctaTitle {
-    font-size: 28px;
-  }
-
-  .ctaAction {
-    margin-block-start: 24px;
-  }
-
-  .ctaScreens {
-    gap: 12px;
-    block-size: 168px;
-    margin-block-start: 36px;
-  }
-
-  .ctaPhone {
-    padding: 6px 6px 0;
-    border-radius: 22px 22px 0 0;
-  }
-
-  .ctaScreen {
-    border-radius: 16px 16px 0 0;
   }
 }
