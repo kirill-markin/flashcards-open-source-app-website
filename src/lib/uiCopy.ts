@@ -1,5 +1,12 @@
 import type { AppLocale } from "@/lib/localeConfig";
 
+/** Footer attribution split around the linked name; prefix + name + suffix is the visible text. */
+export interface FooterAttributionCopy {
+  readonly prefix: string;
+  readonly name: string;
+  readonly suffix: string;
+}
+
 interface AppUiCopy {
   readonly analyticsConsentBanner: {
     readonly allow: string;
@@ -62,7 +69,7 @@ interface AppUiCopy {
   readonly footer: {
     readonly appsHeading: string;
     readonly blogLabel: string;
-    readonly builtByLabel: string;
+    readonly builtBy: FooterAttributionCopy;
     readonly claudePluginLabel: string;
     readonly copyrightLabel: string;
     readonly documentationLabel: string;
@@ -73,7 +80,7 @@ interface AppUiCopy {
     readonly listedOnHeading: string;
     readonly mcpsAndPluginsHeading: string;
     readonly openSourceHeading: string;
-    readonly operatedByLabel: string;
+    readonly operatedBy: FooterAttributionCopy;
     readonly pricingLabel: string;
     readonly privacyPolicyLabel: string;
     readonly productHeading: string;
@@ -221,7 +228,11 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     footer: {
       appsHeading: "Apps",
       blogLabel: "Blog",
-      builtByLabel: "Built by Kirill Markin",
+      builtBy: {
+        prefix: "Built by ",
+        name: "Kirill Markin",
+        suffix: "",
+      },
       claudePluginLabel: "Claude Plugin",
       copyrightLabel: "Nibomo",
       documentationLabel: "Documentation",
@@ -232,7 +243,11 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       listedOnHeading: "Listed on",
       mcpsAndPluginsHeading: "MCPs and plugins",
       openSourceHeading: "Open Source",
-      operatedByLabel: "Operated by SAMO DANNI EOOD",
+      operatedBy: {
+        prefix: "Operated by ",
+        name: "SAMO DANNI EOOD",
+        suffix: "",
+      },
       pricingLabel: "Pricing",
       privacyPolicyLabel: "Privacy Policy",
       productHeading: "Product",
@@ -383,7 +398,11 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     footer: {
       appsHeading: "Apps",
       blogLabel: "Blog",
-      builtByLabel: "Creado por Kirill Markin",
+      builtBy: {
+        prefix: "Creado por ",
+        name: "Kirill Markin",
+        suffix: "",
+      },
       claudePluginLabel: "Plugin de Claude",
       copyrightLabel: "Nibomo",
       documentationLabel: "Documentación",
@@ -394,7 +413,11 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       listedOnHeading: "Presentes en",
       mcpsAndPluginsHeading: "MCP y plugins",
       openSourceHeading: "Código abierto",
-      operatedByLabel: "Operado por SAMO DANNI EOOD",
+      operatedBy: {
+        prefix: "Operado por ",
+        name: "SAMO DANNI EOOD",
+        suffix: "",
+      },
       pricingLabel: "Precios",
       privacyPolicyLabel: "Política de privacidad",
       productHeading: "Producto",
@@ -544,7 +567,11 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     footer: {
       appsHeading: "التطبيقات",
       blogLabel: "المدونة",
-      builtByLabel: "بناء Kirill Markin",
+      builtBy: {
+        prefix: "بناء ",
+        name: "Kirill Markin",
+        suffix: "",
+      },
       claudePluginLabel: "إضافة Claude",
       copyrightLabel: "Nibomo",
       documentationLabel: "التوثيق",
@@ -555,7 +582,11 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       listedOnHeading: "مدرجون في",
       mcpsAndPluginsHeading: "MCP والإضافات",
       openSourceHeading: "مفتوح المصدر",
-      operatedByLabel: "تديره SAMO DANNI EOOD",
+      operatedBy: {
+        prefix: "تديره ",
+        name: "SAMO DANNI EOOD",
+        suffix: "",
+      },
       pricingLabel: "الأسعار",
       privacyPolicyLabel: "سياسة الخصوصية",
       productHeading: "المنتج",
@@ -706,7 +737,11 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     footer: {
       appsHeading: "Apps",
       blogLabel: "Blog",
-      builtByLabel: "Entwickelt von Kirill Markin",
+      builtBy: {
+        prefix: "Entwickelt von ",
+        name: "Kirill Markin",
+        suffix: "",
+      },
       claudePluginLabel: "Claude-Plugin",
       copyrightLabel: "Nibomo",
       documentationLabel: "Dokumentation",
@@ -717,7 +752,11 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       listedOnHeading: "Gelistet auf",
       mcpsAndPluginsHeading: "MCPs und Plugins",
       openSourceHeading: "Open Source",
-      operatedByLabel: "Betrieben von SAMO DANNI EOOD",
+      operatedBy: {
+        prefix: "Betrieben von ",
+        name: "SAMO DANNI EOOD",
+        suffix: "",
+      },
       pricingLabel: "Preise",
       privacyPolicyLabel: "Datenschutz",
       productHeading: "Produkt",
@@ -868,7 +907,11 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     footer: {
       appsHeading: "ऐप्स",
       blogLabel: "ब्लॉग",
-      builtByLabel: "Kirill Markin द्वारा बनाया गया",
+      builtBy: {
+        prefix: "",
+        name: "Kirill Markin",
+        suffix: " द्वारा बनाया गया",
+      },
       claudePluginLabel: "Claude प्लगइन",
       copyrightLabel: "Nibomo",
       documentationLabel: "डॉक्यूमेंटेशन",
@@ -879,7 +922,11 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       listedOnHeading: "यहाँ सूचीबद्ध",
       mcpsAndPluginsHeading: "MCP और प्लगइन्स",
       openSourceHeading: "ओपन सोर्स",
-      operatedByLabel: "SAMO DANNI EOOD द्वारा संचालित",
+      operatedBy: {
+        prefix: "",
+        name: "SAMO DANNI EOOD",
+        suffix: " द्वारा संचालित",
+      },
       pricingLabel: "कीमत",
       privacyPolicyLabel: "प्राइवेसी पॉलिसी",
       productHeading: "प्रोडक्ट",
@@ -1030,7 +1077,11 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     footer: {
       appsHeading: "アプリ",
       blogLabel: "ブログ",
-      builtByLabel: "Kirill Markin が開発",
+      builtBy: {
+        prefix: "",
+        name: "Kirill Markin",
+        suffix: " が開発",
+      },
       claudePluginLabel: "Claude プラグイン",
       copyrightLabel: "Nibomo",
       documentationLabel: "ドキュメント",
@@ -1041,7 +1092,11 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       listedOnHeading: "掲載サイト",
       mcpsAndPluginsHeading: "MCPとプラグイン",
       openSourceHeading: "オープンソース",
-      operatedByLabel: "SAMO DANNI EOOD が運営",
+      operatedBy: {
+        prefix: "",
+        name: "SAMO DANNI EOOD",
+        suffix: " が運営",
+      },
       pricingLabel: "料金",
       privacyPolicyLabel: "プライバシーポリシー",
       productHeading: "プロダクト",
@@ -1192,7 +1247,11 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     footer: {
       appsHeading: "Applications",
       blogLabel: "Blog",
-      builtByLabel: "Créé par Kirill Markin",
+      builtBy: {
+        prefix: "Créé par ",
+        name: "Kirill Markin",
+        suffix: "",
+      },
       claudePluginLabel: "Plugin Claude",
       copyrightLabel: "Nibomo",
       documentationLabel: "Documentation",
@@ -1203,7 +1262,11 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       listedOnHeading: "Répertorié sur",
       mcpsAndPluginsHeading: "MCP et plugins",
       openSourceHeading: "Open source",
-      operatedByLabel: "Exploité par SAMO DANNI EOOD",
+      operatedBy: {
+        prefix: "Exploité par ",
+        name: "SAMO DANNI EOOD",
+        suffix: "",
+      },
       pricingLabel: "Tarifs",
       privacyPolicyLabel: "Politique de confidentialité",
       productHeading: "Produit",
@@ -1354,7 +1417,11 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     footer: {
       appsHeading: "Apps",
       blogLabel: "Blog",
-      builtByLabel: "Criado por Kirill Markin",
+      builtBy: {
+        prefix: "Criado por ",
+        name: "Kirill Markin",
+        suffix: "",
+      },
       claudePluginLabel: "Plugin do Claude",
       copyrightLabel: "Nibomo",
       documentationLabel: "Documentação",
@@ -1365,7 +1432,11 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       listedOnHeading: "Listado em",
       mcpsAndPluginsHeading: "MCPs e plugins",
       openSourceHeading: "Código aberto",
-      operatedByLabel: "Operado por SAMO DANNI EOOD",
+      operatedBy: {
+        prefix: "Operado por ",
+        name: "SAMO DANNI EOOD",
+        suffix: "",
+      },
       pricingLabel: "Preços",
       privacyPolicyLabel: "Política de Privacidade",
       productHeading: "Produto",
@@ -1516,7 +1587,11 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     footer: {
       appsHeading: "Приложения",
       blogLabel: "Блог",
-      builtByLabel: "Создано Кириллом Маркиным",
+      builtBy: {
+        prefix: "Создано ",
+        name: "Кириллом Маркиным",
+        suffix: "",
+      },
       claudePluginLabel: "Плагин Claude",
       copyrightLabel: "Nibomo",
       documentationLabel: "Документация",
@@ -1527,7 +1602,11 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       listedOnHeading: "Мы в каталогах",
       mcpsAndPluginsHeading: "MCP и плагины",
       openSourceHeading: "Open Source",
-      operatedByLabel: "Сервисом управляет SAMO DANNI EOOD",
+      operatedBy: {
+        prefix: "Сервисом управляет ",
+        name: "SAMO DANNI EOOD",
+        suffix: "",
+      },
       pricingLabel: "Цены",
       privacyPolicyLabel: "Политика конфиденциальности",
       productHeading: "Продукт",
@@ -1675,7 +1754,11 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     footer: {
       appsHeading: "应用",
       blogLabel: "博客",
-      builtByLabel: "由 Kirill Markin 构建",
+      builtBy: {
+        prefix: "由 ",
+        name: "Kirill Markin",
+        suffix: " 构建",
+      },
       claudePluginLabel: "Claude 插件",
       copyrightLabel: "Nibomo",
       documentationLabel: "文档",
@@ -1686,7 +1769,11 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       listedOnHeading: "收录平台",
       mcpsAndPluginsHeading: "MCP 和插件",
       openSourceHeading: "开源",
-      operatedByLabel: "由 SAMO DANNI EOOD 运营",
+      operatedBy: {
+        prefix: "由 ",
+        name: "SAMO DANNI EOOD",
+        suffix: " 运营",
+      },
       pricingLabel: "价格",
       privacyPolicyLabel: "隐私政策",
       productHeading: "产品",
@@ -1837,7 +1924,11 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     footer: {
       appsHeading: "App",
       blogLabel: "Blog",
-      builtByLabel: "Creato da Kirill Markin",
+      builtBy: {
+        prefix: "Creato da ",
+        name: "Kirill Markin",
+        suffix: "",
+      },
       claudePluginLabel: "Plugin di Claude",
       copyrightLabel: "Nibomo",
       documentationLabel: "Documentazione",
@@ -1848,7 +1939,11 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       listedOnHeading: "Presente su",
       mcpsAndPluginsHeading: "MCP e plugin",
       openSourceHeading: "Open Source",
-      operatedByLabel: "Gestito da SAMO DANNI EOOD",
+      operatedBy: {
+        prefix: "Gestito da ",
+        name: "SAMO DANNI EOOD",
+        suffix: "",
+      },
       pricingLabel: "Prezzi",
       privacyPolicyLabel: "Informativa sulla privacy",
       productHeading: "Prodotto",
@@ -1999,7 +2094,11 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     footer: {
       appsHeading: "앱",
       blogLabel: "블로그",
-      builtByLabel: "Kirill Markin 제작",
+      builtBy: {
+        prefix: "",
+        name: "Kirill Markin",
+        suffix: " 제작",
+      },
       claudePluginLabel: "Claude 플러그인",
       copyrightLabel: "Nibomo",
       documentationLabel: "문서",
@@ -2010,7 +2109,11 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       listedOnHeading: "등록된 사이트",
       mcpsAndPluginsHeading: "MCP 및 플러그인",
       openSourceHeading: "오픈 소스",
-      operatedByLabel: "SAMO DANNI EOOD 운영",
+      operatedBy: {
+        prefix: "",
+        name: "SAMO DANNI EOOD",
+        suffix: " 운영",
+      },
       pricingLabel: "요금",
       privacyPolicyLabel: "개인정보처리방침",
       productHeading: "제품",
@@ -2161,7 +2264,11 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     footer: {
       appsHeading: "Aplikasi",
       blogLabel: "Blog",
-      builtByLabel: "Dibuat oleh Kirill Markin",
+      builtBy: {
+        prefix: "Dibuat oleh ",
+        name: "Kirill Markin",
+        suffix: "",
+      },
       claudePluginLabel: "Plugin Claude",
       copyrightLabel: "Nibomo",
       documentationLabel: "Dokumentasi",
@@ -2172,7 +2279,11 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       listedOnHeading: "Terdaftar di",
       mcpsAndPluginsHeading: "MCP dan plugin",
       openSourceHeading: "Open Source",
-      operatedByLabel: "Dioperasikan oleh SAMO DANNI EOOD",
+      operatedBy: {
+        prefix: "Dioperasikan oleh ",
+        name: "SAMO DANNI EOOD",
+        suffix: "",
+      },
       pricingLabel: "Harga",
       privacyPolicyLabel: "Kebijakan Privasi",
       productHeading: "Produk",
@@ -2323,7 +2434,11 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     footer: {
       appsHeading: "Uygulamalar",
       blogLabel: "Blog",
-      builtByLabel: "Kirill Markin tarafından geliştirildi",
+      builtBy: {
+        prefix: "",
+        name: "Kirill Markin",
+        suffix: " tarafından geliştirildi",
+      },
       claudePluginLabel: "Claude eklentisi",
       copyrightLabel: "Nibomo",
       documentationLabel: "Dokümantasyon",
@@ -2334,7 +2449,11 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       listedOnHeading: "Listelendiğimiz siteler",
       mcpsAndPluginsHeading: "MCP ve eklentiler",
       openSourceHeading: "Açık Kaynak",
-      operatedByLabel: "SAMO DANNI EOOD tarafından işletiliyor",
+      operatedBy: {
+        prefix: "",
+        name: "SAMO DANNI EOOD",
+        suffix: " tarafından işletiliyor",
+      },
       pricingLabel: "Fiyatlandırma",
       privacyPolicyLabel: "Gizlilik Politikası",
       productHeading: "Ürün",
@@ -2485,7 +2604,11 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     footer: {
       appsHeading: "Apps",
       blogLabel: "Blog",
-      builtByLabel: "Gemaakt door Kirill Markin",
+      builtBy: {
+        prefix: "Gemaakt door ",
+        name: "Kirill Markin",
+        suffix: "",
+      },
       claudePluginLabel: "Claude-plug-in",
       copyrightLabel: "Nibomo",
       documentationLabel: "Documentatie",
@@ -2496,7 +2619,11 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       listedOnHeading: "Vermeld op",
       mcpsAndPluginsHeading: "MCP’s en plug-ins",
       openSourceHeading: "Open Source",
-      operatedByLabel: "Beheerd door SAMO DANNI EOOD",
+      operatedBy: {
+        prefix: "Beheerd door ",
+        name: "SAMO DANNI EOOD",
+        suffix: "",
+      },
       pricingLabel: "Prijzen",
       privacyPolicyLabel: "Privacybeleid",
       productHeading: "Product",
@@ -2647,7 +2774,11 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     footer: {
       appsHeading: "Aplikacje",
       blogLabel: "Blog",
-      builtByLabel: "Twórca: Kirill Markin",
+      builtBy: {
+        prefix: "Twórca: ",
+        name: "Kirill Markin",
+        suffix: "",
+      },
       claudePluginLabel: "Wtyczka Claude",
       copyrightLabel: "Nibomo",
       documentationLabel: "Dokumentacja",
@@ -2658,7 +2789,11 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       listedOnHeading: "Znajdziesz nas na",
       mcpsAndPluginsHeading: "MCP i wtyczki",
       openSourceHeading: "Open Source",
-      operatedByLabel: "Operatorem jest SAMO DANNI EOOD",
+      operatedBy: {
+        prefix: "Operatorem jest ",
+        name: "SAMO DANNI EOOD",
+        suffix: "",
+      },
       pricingLabel: "Cennik",
       privacyPolicyLabel: "Polityka prywatności",
       productHeading: "Produkt",
@@ -2809,7 +2944,11 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     footer: {
       appsHeading: "Ứng dụng",
       blogLabel: "Blog",
-      builtByLabel: "Được xây dựng bởi Kirill Markin",
+      builtBy: {
+        prefix: "Được xây dựng bởi ",
+        name: "Kirill Markin",
+        suffix: "",
+      },
       claudePluginLabel: "Plugin Claude",
       copyrightLabel: "Nibomo",
       documentationLabel: "Tài liệu",
@@ -2820,7 +2959,11 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       listedOnHeading: "Có mặt trên",
       mcpsAndPluginsHeading: "MCP và plugin",
       openSourceHeading: "Mã nguồn mở",
-      operatedByLabel: "Vận hành bởi SAMO DANNI EOOD",
+      operatedBy: {
+        prefix: "Vận hành bởi ",
+        name: "SAMO DANNI EOOD",
+        suffix: "",
+      },
       pricingLabel: "Giá",
       privacyPolicyLabel: "Chính sách bảo mật",
       productHeading: "Sản phẩm",
@@ -2971,7 +3114,11 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     footer: {
       appsHeading: "แอป",
       blogLabel: "บล็อก",
-      builtByLabel: "สร้างโดย Kirill Markin",
+      builtBy: {
+        prefix: "สร้างโดย ",
+        name: "Kirill Markin",
+        suffix: "",
+      },
       claudePluginLabel: "ปลั๊กอิน Claude",
       copyrightLabel: "Nibomo",
       documentationLabel: "เอกสารประกอบ",
@@ -2982,7 +3129,11 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       listedOnHeading: "พบเราได้ที่",
       mcpsAndPluginsHeading: "MCP และปลั๊กอิน",
       openSourceHeading: "โอเพนซอร์ส",
-      operatedByLabel: "ดำเนินการโดย SAMO DANNI EOOD",
+      operatedBy: {
+        prefix: "ดำเนินการโดย ",
+        name: "SAMO DANNI EOOD",
+        suffix: "",
+      },
       pricingLabel: "ราคา",
       privacyPolicyLabel: "นโยบายความเป็นส่วนตัว",
       productHeading: "ผลิตภัณฑ์",
@@ -3133,7 +3284,11 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     footer: {
       appsHeading: "Застосунки",
       blogLabel: "Блог",
-      builtByLabel: "Створив Kirill Markin",
+      builtBy: {
+        prefix: "Створив ",
+        name: "Kirill Markin",
+        suffix: "",
+      },
       claudePluginLabel: "Плагін Claude",
       copyrightLabel: "Nibomo",
       documentationLabel: "Документація",
@@ -3144,7 +3299,11 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       listedOnHeading: "Ми в каталогах",
       mcpsAndPluginsHeading: "MCP і плагіни",
       openSourceHeading: "Open Source",
-      operatedByLabel: "Сервісом керує SAMO DANNI EOOD",
+      operatedBy: {
+        prefix: "Сервісом керує ",
+        name: "SAMO DANNI EOOD",
+        suffix: "",
+      },
       pricingLabel: "Ціни",
       privacyPolicyLabel: "Політика конфіденційності",
       productHeading: "Продукт",
@@ -3295,7 +3454,11 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     footer: {
       appsHeading: "אפליקציות",
       blogLabel: "בלוג",
-      builtByLabel: "נבנה על ידי Kirill Markin",
+      builtBy: {
+        prefix: "נבנה על ידי ",
+        name: "Kirill Markin",
+        suffix: "",
+      },
       claudePluginLabel: "תוסף Claude",
       copyrightLabel: "Nibomo",
       documentationLabel: "תיעוד",
@@ -3306,7 +3469,11 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       listedOnHeading: "מופיעים ב־",
       mcpsAndPluginsHeading: "MCP ותוספים",
       openSourceHeading: "קוד פתוח",
-      operatedByLabel: "מופעל על ידי SAMO DANNI EOOD",
+      operatedBy: {
+        prefix: "מופעל על ידי ",
+        name: "SAMO DANNI EOOD",
+        suffix: "",
+      },
       pricingLabel: "תמחור",
       privacyPolicyLabel: "מדיניות פרטיות",
       productHeading: "מוצר",
@@ -3457,7 +3624,11 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     footer: {
       appsHeading: "Appar",
       blogLabel: "Blogg",
-      builtByLabel: "Byggd av Kirill Markin",
+      builtBy: {
+        prefix: "Byggd av ",
+        name: "Kirill Markin",
+        suffix: "",
+      },
       claudePluginLabel: "Insticksprogram för Claude",
       copyrightLabel: "Nibomo",
       documentationLabel: "Dokumentation",
@@ -3468,7 +3639,11 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       listedOnHeading: "Listad på",
       mcpsAndPluginsHeading: "MCP och insticksprogram",
       openSourceHeading: "Öppen källkod",
-      operatedByLabel: "Drivs av SAMO DANNI EOOD",
+      operatedBy: {
+        prefix: "Drivs av ",
+        name: "SAMO DANNI EOOD",
+        suffix: "",
+      },
       pricingLabel: "Priser",
       privacyPolicyLabel: "Integritetspolicy",
       productHeading: "Produkt",
@@ -3619,7 +3794,11 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     footer: {
       appsHeading: "Apps",
       blogLabel: "Blog",
-      builtByLabel: "Bygget af Kirill Markin",
+      builtBy: {
+        prefix: "Bygget af ",
+        name: "Kirill Markin",
+        suffix: "",
+      },
       claudePluginLabel: "Plugin til Claude",
       copyrightLabel: "Nibomo",
       documentationLabel: "Dokumentation",
@@ -3630,7 +3809,11 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       listedOnHeading: "Opført på",
       mcpsAndPluginsHeading: "MCP og plugins",
       openSourceHeading: "Open Source",
-      operatedByLabel: "Drevet af SAMO DANNI EOOD",
+      operatedBy: {
+        prefix: "Drevet af ",
+        name: "SAMO DANNI EOOD",
+        suffix: "",
+      },
       pricingLabel: "Priser",
       privacyPolicyLabel: "Privatlivspolitik",
       productHeading: "Produkt",
@@ -3781,7 +3964,11 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     footer: {
       appsHeading: "Apper",
       blogLabel: "Blogg",
-      builtByLabel: "Laget av Kirill Markin",
+      builtBy: {
+        prefix: "Laget av ",
+        name: "Kirill Markin",
+        suffix: "",
+      },
       claudePluginLabel: "Programtillegg for Claude",
       copyrightLabel: "Nibomo",
       documentationLabel: "Dokumentasjon",
@@ -3792,7 +3979,11 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       listedOnHeading: "Oppført på",
       mcpsAndPluginsHeading: "MCP og programtillegg",
       openSourceHeading: "Åpen kildekode",
-      operatedByLabel: "Drives av SAMO DANNI EOOD",
+      operatedBy: {
+        prefix: "Drives av ",
+        name: "SAMO DANNI EOOD",
+        suffix: "",
+      },
       pricingLabel: "Priser",
       privacyPolicyLabel: "Personvernerklæring",
       productHeading: "Produkt",
@@ -3943,7 +4134,11 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     footer: {
       appsHeading: "Sovellukset",
       blogLabel: "Blogi",
-      builtByLabel: "Tekijä Kirill Markin",
+      builtBy: {
+        prefix: "Tekijä ",
+        name: "Kirill Markin",
+        suffix: "",
+      },
       claudePluginLabel: "Claude-lisäosa",
       copyrightLabel: "Nibomo",
       documentationLabel: "Dokumentaatio",
@@ -3954,7 +4149,11 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       listedOnHeading: "Listattu palveluissa",
       mcpsAndPluginsHeading: "MCP:t ja lisäosat",
       openSourceHeading: "Avoin lähdekoodi",
-      operatedByLabel: "Ylläpitäjä SAMO DANNI EOOD",
+      operatedBy: {
+        prefix: "Ylläpitäjä ",
+        name: "SAMO DANNI EOOD",
+        suffix: "",
+      },
       pricingLabel: "Hinnoittelu",
       privacyPolicyLabel: "Tietosuojaseloste",
       productHeading: "Tuote",
@@ -4105,7 +4304,11 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     footer: {
       appsHeading: "Aplikace",
       blogLabel: "Blog",
-      builtByLabel: "Vytvořil Kirill Markin",
+      builtBy: {
+        prefix: "Vytvořil ",
+        name: "Kirill Markin",
+        suffix: "",
+      },
       claudePluginLabel: "Plugin pro Claude",
       copyrightLabel: "Nibomo",
       documentationLabel: "Dokumentace",
@@ -4116,7 +4319,11 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       listedOnHeading: "Najdete nás na",
       mcpsAndPluginsHeading: "MCP a pluginy",
       openSourceHeading: "Otevřený zdrojový kód",
-      operatedByLabel: "Provozuje SAMO DANNI EOOD",
+      operatedBy: {
+        prefix: "Provozuje ",
+        name: "SAMO DANNI EOOD",
+        suffix: "",
+      },
       pricingLabel: "Ceny",
       privacyPolicyLabel: "Zásady ochrany osobních údajů",
       productHeading: "Produkt",
@@ -4267,7 +4474,11 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     footer: {
       appsHeading: "Εφαρμογές",
       blogLabel: "Ιστολόγιο",
-      builtByLabel: "Δημιουργήθηκε από τον Kirill Markin",
+      builtBy: {
+        prefix: "Δημιουργήθηκε από τον ",
+        name: "Kirill Markin",
+        suffix: "",
+      },
       claudePluginLabel: "Πρόσθετο Claude",
       copyrightLabel: "Nibomo",
       documentationLabel: "Τεκμηρίωση",
@@ -4278,7 +4489,11 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       listedOnHeading: "Καταχωρισμένο σε",
       mcpsAndPluginsHeading: "MCP και πρόσθετα",
       openSourceHeading: "Ανοιχτός κώδικας",
-      operatedByLabel: "Λειτουργεί από τη SAMO DANNI EOOD",
+      operatedBy: {
+        prefix: "Λειτουργεί από τη ",
+        name: "SAMO DANNI EOOD",
+        suffix: "",
+      },
       pricingLabel: "Τιμολόγηση",
       privacyPolicyLabel: "Πολιτική απορρήτου",
       productHeading: "Προϊόν",
@@ -4429,7 +4644,11 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     footer: {
       appsHeading: "Aplicații",
       blogLabel: "Blog",
-      builtByLabel: "Creat de Kirill Markin",
+      builtBy: {
+        prefix: "Creat de ",
+        name: "Kirill Markin",
+        suffix: "",
+      },
       claudePluginLabel: "Plugin pentru Claude",
       copyrightLabel: "Nibomo",
       documentationLabel: "Documentație",
@@ -4440,7 +4659,11 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       listedOnHeading: "Listat pe",
       mcpsAndPluginsHeading: "MCP și pluginuri",
       openSourceHeading: "Open Source",
-      operatedByLabel: "Operat de SAMO DANNI EOOD",
+      operatedBy: {
+        prefix: "Operat de ",
+        name: "SAMO DANNI EOOD",
+        suffix: "",
+      },
       pricingLabel: "Prețuri",
       privacyPolicyLabel: "Politica de confidențialitate",
       productHeading: "Produs",
@@ -4591,7 +4814,11 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     footer: {
       appsHeading: "Alkalmazások",
       blogLabel: "Blog",
-      builtByLabel: "Készítette: Kirill Markin",
+      builtBy: {
+        prefix: "Készítette: ",
+        name: "Kirill Markin",
+        suffix: "",
+      },
       claudePluginLabel: "Claude-bővítmény",
       copyrightLabel: "Nibomo",
       documentationLabel: "Dokumentáció",
@@ -4602,7 +4829,11 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       listedOnHeading: "Itt is megtalálható",
       mcpsAndPluginsHeading: "MCP-k és bővítmények",
       openSourceHeading: "Nyílt forráskód",
-      operatedByLabel: "Üzemelteti: SAMO DANNI EOOD",
+      operatedBy: {
+        prefix: "Üzemelteti: ",
+        name: "SAMO DANNI EOOD",
+        suffix: "",
+      },
       pricingLabel: "Árak",
       privacyPolicyLabel: "Adatvédelmi tájékoztató",
       productHeading: "Termék",
@@ -4753,7 +4984,11 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     footer: {
       appsHeading: "برنامه‌ها",
       blogLabel: "وبلاگ",
-      builtByLabel: "ساختهٔ Kirill Markin",
+      builtBy: {
+        prefix: "ساختهٔ ",
+        name: "Kirill Markin",
+        suffix: "",
+      },
       claudePluginLabel: "افزونهٔ Claude",
       copyrightLabel: "Nibomo",
       documentationLabel: "مستندات",
@@ -4764,7 +4999,11 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       listedOnHeading: "فهرست‌شده در",
       mcpsAndPluginsHeading: "MCP و افزونه‌ها",
       openSourceHeading: "متن‌باز",
-      operatedByLabel: "اداره‌شده توسط SAMO DANNI EOOD",
+      operatedBy: {
+        prefix: "اداره‌شده توسط ",
+        name: "SAMO DANNI EOOD",
+        suffix: "",
+      },
       pricingLabel: "قیمت‌گذاری",
       privacyPolicyLabel: "سیاست حریم خصوصی",
       productHeading: "محصول",
@@ -4915,7 +5154,11 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     footer: {
       appsHeading: "Apps",
       blogLabel: "Blog",
-      builtByLabel: "Creat per Kirill Markin",
+      builtBy: {
+        prefix: "Creat per ",
+        name: "Kirill Markin",
+        suffix: "",
+      },
       claudePluginLabel: "Connector de Claude",
       copyrightLabel: "Nibomo",
       documentationLabel: "Documentació",
@@ -4926,7 +5169,11 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       listedOnHeading: "Presents a",
       mcpsAndPluginsHeading: "MCP i connectors",
       openSourceHeading: "Codi obert",
-      operatedByLabel: "Operat per SAMO DANNI EOOD",
+      operatedBy: {
+        prefix: "Operat per ",
+        name: "SAMO DANNI EOOD",
+        suffix: "",
+      },
       pricingLabel: "Preus",
       privacyPolicyLabel: "Política de privadesa",
       productHeading: "Producte",
@@ -5076,7 +5323,11 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     footer: {
       appsHeading: "অ্যাপ",
       blogLabel: "ব্লগ",
-      builtByLabel: "তৈরি করেছেন Kirill Markin",
+      builtBy: {
+        prefix: "তৈরি করেছেন ",
+        name: "Kirill Markin",
+        suffix: "",
+      },
       claudePluginLabel: "Claude প্লাগইন",
       copyrightLabel: "Nibomo",
       documentationLabel: "ডকুমেন্টেশন",
@@ -5087,7 +5338,11 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       listedOnHeading: "তালিকাভুক্ত সাইট",
       mcpsAndPluginsHeading: "MCP ও প্লাগইন",
       openSourceHeading: "ওপেন সোর্স",
-      operatedByLabel: "পরিচালনায় SAMO DANNI EOOD",
+      operatedBy: {
+        prefix: "পরিচালনায় ",
+        name: "SAMO DANNI EOOD",
+        suffix: "",
+      },
       pricingLabel: "দাম",
       privacyPolicyLabel: "প্রাইভেসি পলিসি",
       productHeading: "প্রোডাক্ট",
@@ -5237,7 +5492,11 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     footer: {
       appsHeading: "ઍપ",
       blogLabel: "બ્લૉગ",
-      builtByLabel: "Kirill Markin દ્વારા બનાવેલું",
+      builtBy: {
+        prefix: "",
+        name: "Kirill Markin",
+        suffix: " દ્વારા બનાવેલું",
+      },
       claudePluginLabel: "Claude પ્લગઇન",
       copyrightLabel: "Nibomo",
       documentationLabel: "દસ્તાવેજીકરણ",
@@ -5248,7 +5507,11 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       listedOnHeading: "અહીં સૂચિબદ્ધ",
       mcpsAndPluginsHeading: "MCP અને પ્લગઇન્સ",
       openSourceHeading: "ઓપન સોર્સ",
-      operatedByLabel: "SAMO DANNI EOOD દ્વારા સંચાલિત",
+      operatedBy: {
+        prefix: "",
+        name: "SAMO DANNI EOOD",
+        suffix: " દ્વારા સંચાલિત",
+      },
       pricingLabel: "કિંમત",
       privacyPolicyLabel: "ગોપનીયતા નીતિ",
       productHeading: "પ્રોડક્ટ",
@@ -5400,7 +5663,11 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     footer: {
       appsHeading: "ಆ್ಯಪ್‌ಗಳು",
       blogLabel: "ಬ್ಲಾಗ್",
-      builtByLabel: "Kirill Markin ನಿರ್ಮಿಸಿದ್ದು",
+      builtBy: {
+        prefix: "",
+        name: "Kirill Markin",
+        suffix: " ನಿರ್ಮಿಸಿದ್ದು",
+      },
       claudePluginLabel: "Claude ಪ್ಲಗಿನ್",
       copyrightLabel: "Nibomo",
       documentationLabel: "ದಾಖಲೆಗಳು",
@@ -5411,7 +5678,11 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       listedOnHeading: "ಇಲ್ಲಿ ಪಟ್ಟಿ ಮಾಡಲಾಗಿದೆ",
       mcpsAndPluginsHeading: "MCP ಮತ್ತು ಪ್ಲಗಿನ್‌ಗಳು",
       openSourceHeading: "ಓಪನ್ ಸೋರ್ಸ್",
-      operatedByLabel: "SAMO DANNI EOOD ನಿರ್ವಹಿಸುತ್ತದೆ",
+      operatedBy: {
+        prefix: "",
+        name: "SAMO DANNI EOOD",
+        suffix: " ನಿರ್ವಹಿಸುತ್ತದೆ",
+      },
       pricingLabel: "ಬೆಲೆ",
       privacyPolicyLabel: "ಗೌಪ್ಯತಾ ನೀತಿ",
       productHeading: "ಉತ್ಪನ್ನ",
@@ -5563,7 +5834,11 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     footer: {
       appsHeading: "ആപ്പുകൾ",
       blogLabel: "ബ്ലോഗ്",
-      builtByLabel: "Kirill Markin നിർമ്മിച്ചത്",
+      builtBy: {
+        prefix: "",
+        name: "Kirill Markin",
+        suffix: " നിർമ്മിച്ചത്",
+      },
       claudePluginLabel: "Claude പ്ലഗിൻ",
       copyrightLabel: "Nibomo",
       documentationLabel: "രേഖകൾ",
@@ -5574,7 +5849,11 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       listedOnHeading: "ലിസ്റ്റ് ചെയ്ത സൈറ്റുകൾ",
       mcpsAndPluginsHeading: "MCPകളും പ്ലഗിനുകളും",
       openSourceHeading: "ഓപ്പൺ സോഴ്സ്",
-      operatedByLabel: "SAMO DANNI EOOD നടത്തുന്നത്",
+      operatedBy: {
+        prefix: "",
+        name: "SAMO DANNI EOOD",
+        suffix: " നടത്തുന്നത്",
+      },
       pricingLabel: "വില",
       privacyPolicyLabel: "സ്വകാര്യതാ നയം",
       productHeading: "ഉൽപ്പന്നം",
@@ -5727,7 +6006,11 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     footer: {
       appsHeading: "ॲप्स",
       blogLabel: "ब्लॉग",
-      builtByLabel: "Kirill Markin यांनी बनवले",
+      builtBy: {
+        prefix: "",
+        name: "Kirill Markin",
+        suffix: " यांनी बनवले",
+      },
       claudePluginLabel: "Claude प्लगइन",
       copyrightLabel: "Nibomo",
       documentationLabel: "दस्तऐवजीकरण",
@@ -5738,7 +6021,11 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       listedOnHeading: "येथे सूचीबद्ध",
       mcpsAndPluginsHeading: "MCP आणि प्लगइन्स",
       openSourceHeading: "ओपन सोर्स",
-      operatedByLabel: "SAMO DANNI EOOD द्वारे चालवले जाते",
+      operatedBy: {
+        prefix: "",
+        name: "SAMO DANNI EOOD",
+        suffix: " द्वारे चालवले जाते",
+      },
       pricingLabel: "किंमत",
       privacyPolicyLabel: "गोपनीयता धोरण",
       productHeading: "उत्पादन",
@@ -5887,7 +6174,11 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     footer: {
       appsHeading: "ਐਪਾਂ",
       blogLabel: "ਬਲੌਗ",
-      builtByLabel: "Kirill Markin ਵੱਲੋਂ ਬਣਾਇਆ",
+      builtBy: {
+        prefix: "",
+        name: "Kirill Markin",
+        suffix: " ਵੱਲੋਂ ਬਣਾਇਆ",
+      },
       claudePluginLabel: "Claude ਪਲੱਗਇਨ",
       copyrightLabel: "Nibomo",
       documentationLabel: "ਦਸਤਾਵੇਜ਼",
@@ -5898,7 +6189,11 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       listedOnHeading: "ਇੱਥੇ ਸੂਚੀਬੱਧ",
       mcpsAndPluginsHeading: "MCP ਅਤੇ ਪਲੱਗਇਨ",
       openSourceHeading: "ਓਪਨ ਸੋਰਸ",
-      operatedByLabel: "SAMO DANNI EOOD ਵੱਲੋਂ ਸੰਚਾਲਿਤ",
+      operatedBy: {
+        prefix: "",
+        name: "SAMO DANNI EOOD",
+        suffix: " ਵੱਲੋਂ ਸੰਚਾਲਿਤ",
+      },
       pricingLabel: "ਕੀਮਤ",
       privacyPolicyLabel: "ਪਰਾਈਵੇਸੀ ਨੀਤੀ",
       productHeading: "ਉਤਪਾਦ",
@@ -6051,7 +6346,11 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     footer: {
       appsHeading: "செயலிகள்",
       blogLabel: "வலைப்பதிவு",
-      builtByLabel: "Kirill Markin உருவாக்கியது",
+      builtBy: {
+        prefix: "",
+        name: "Kirill Markin",
+        suffix: " உருவாக்கியது",
+      },
       claudePluginLabel: "Claude செருகுநிரல்",
       copyrightLabel: "Nibomo",
       documentationLabel: "ஆவணங்கள்",
@@ -6062,7 +6361,11 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       listedOnHeading: "பட்டியலிடப்பட்ட தளங்கள்",
       mcpsAndPluginsHeading: "MCP மற்றும் செருகுநிரல்கள்",
       openSourceHeading: "திறந்த மூலம்",
-      operatedByLabel: "SAMO DANNI EOOD நடத்துகிறது",
+      operatedBy: {
+        prefix: "",
+        name: "SAMO DANNI EOOD",
+        suffix: " நடத்துகிறது",
+      },
       pricingLabel: "விலை",
       privacyPolicyLabel: "தனியுரிமைக் கொள்கை",
       productHeading: "தயாரிப்பு",
@@ -6214,7 +6517,11 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     footer: {
       appsHeading: "యాప్‌లు",
       blogLabel: "బ్లాగ్",
-      builtByLabel: "Kirill Markin రూపొందించారు",
+      builtBy: {
+        prefix: "",
+        name: "Kirill Markin",
+        suffix: " రూపొందించారు",
+      },
       claudePluginLabel: "Claude ప్లగిన్",
       copyrightLabel: "Nibomo",
       documentationLabel: "డాక్యుమెంటేషన్",
@@ -6225,7 +6532,11 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       listedOnHeading: "జాబితా చేసిన సైట్‌లు",
       mcpsAndPluginsHeading: "MCP మరియు ప్లగిన్‌లు",
       openSourceHeading: "ఓపెన్ సోర్స్",
-      operatedByLabel: "SAMO DANNI EOOD నిర్వహిస్తోంది",
+      operatedBy: {
+        prefix: "",
+        name: "SAMO DANNI EOOD",
+        suffix: " నిర్వహిస్తోంది",
+      },
       pricingLabel: "ధర",
       privacyPolicyLabel: "గోప్యతా విధానం",
       productHeading: "ఉత్పత్తి",
@@ -6376,7 +6687,11 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     footer: {
       appsHeading: "ایپس",
       blogLabel: "بلاگ",
-      builtByLabel: "Kirill Markin نے بنایا",
+      builtBy: {
+        prefix: "",
+        name: "Kirill Markin",
+        suffix: " نے بنایا",
+      },
       claudePluginLabel: "Claude پلگ ان",
       copyrightLabel: "Nibomo",
       documentationLabel: "دستاویزات",
@@ -6387,7 +6702,11 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       listedOnHeading: "یہاں درج ہیں",
       mcpsAndPluginsHeading: "MCP اور پلگ انز",
       openSourceHeading: "اوپن سورس",
-      operatedByLabel: "SAMO DANNI EOOD چلاتا ہے",
+      operatedBy: {
+        prefix: "",
+        name: "SAMO DANNI EOOD",
+        suffix: " چلاتا ہے",
+      },
       pricingLabel: "قیمت",
       privacyPolicyLabel: "رازداری کی پالیسی",
       productHeading: "مصنوعات",
@@ -6539,7 +6858,11 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     footer: {
       appsHeading: "Programu",
       blogLabel: "Blogu",
-      builtByLabel: "Imetengenezwa na Kirill Markin",
+      builtBy: {
+        prefix: "Imetengenezwa na ",
+        name: "Kirill Markin",
+        suffix: "",
+      },
       claudePluginLabel: "Programu-jalizi ya Claude",
       copyrightLabel: "Nibomo",
       documentationLabel: "Nyaraka",
@@ -6550,7 +6873,11 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       listedOnHeading: "Imeorodheshwa kwenye",
       mcpsAndPluginsHeading: "MCP na programu-jalizi",
       openSourceHeading: "Chanzo huria",
-      operatedByLabel: "Inaendeshwa na SAMO DANNI EOOD",
+      operatedBy: {
+        prefix: "Inaendeshwa na ",
+        name: "SAMO DANNI EOOD",
+        suffix: "",
+      },
       pricingLabel: "Bei",
       privacyPolicyLabel: "Sera ya faragha",
       productHeading: "Bidhaa",
@@ -6702,7 +7029,11 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     footer: {
       appsHeading: "Приложения",
       blogLabel: "Блог",
-      builtByLabel: "Създадено от Kirill Markin",
+      builtBy: {
+        prefix: "Създадено от ",
+        name: "Kirill Markin",
+        suffix: "",
+      },
       claudePluginLabel: "Плъгин за Claude",
       copyrightLabel: "Nibomo",
       documentationLabel: "Документация",
@@ -6713,7 +7044,11 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       listedOnHeading: "Включени в",
       mcpsAndPluginsHeading: "MCP и плъгини",
       openSourceHeading: "Отворен код",
-      operatedByLabel: "Управлявано от SAMO DANNI EOOD",
+      operatedBy: {
+        prefix: "Управлявано от ",
+        name: "SAMO DANNI EOOD",
+        suffix: "",
+      },
       pricingLabel: "Цени",
       privacyPolicyLabel: "Политика за поверителност",
       productHeading: "Продукт",
@@ -6864,7 +7199,11 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     footer: {
       appsHeading: "Rakendused",
       blogLabel: "Blogi",
-      builtByLabel: "Teinud Kirill Markin",
+      builtBy: {
+        prefix: "Teinud ",
+        name: "Kirill Markin",
+        suffix: "",
+      },
       claudePluginLabel: "Claude’i pistikprogramm",
       copyrightLabel: "Nibomo",
       documentationLabel: "Dokumentatsioon",
@@ -6875,7 +7214,11 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       listedOnHeading: "Leiate meid siit",
       mcpsAndPluginsHeading: "MCP-d ja pistikprogrammid",
       openSourceHeading: "Avatud lähtekood",
-      operatedByLabel: "Haldab SAMO DANNI EOOD",
+      operatedBy: {
+        prefix: "Haldab ",
+        name: "SAMO DANNI EOOD",
+        suffix: "",
+      },
       pricingLabel: "Hinnad",
       privacyPolicyLabel: "Privaatsuspoliitika",
       productHeading: "Toode",
@@ -7026,7 +7369,11 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     footer: {
       appsHeading: "Aplikacije",
       blogLabel: "Blog",
-      builtByLabel: "Izradio Kirill Markin",
+      builtBy: {
+        prefix: "Izradio ",
+        name: "Kirill Markin",
+        suffix: "",
+      },
       claudePluginLabel: "Dodatak za Claude",
       copyrightLabel: "Nibomo",
       documentationLabel: "Dokumentacija",
@@ -7037,7 +7384,11 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       listedOnHeading: "Navedeni na",
       mcpsAndPluginsHeading: "MCP i dodaci",
       openSourceHeading: "Otvoreni kod",
-      operatedByLabel: "Uslugu pruža SAMO DANNI EOOD",
+      operatedBy: {
+        prefix: "Uslugu pruža ",
+        name: "SAMO DANNI EOOD",
+        suffix: "",
+      },
       pricingLabel: "Cijene",
       privacyPolicyLabel: "Pravila privatnosti",
       productHeading: "Proizvod",
@@ -7188,7 +7539,11 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     footer: {
       appsHeading: "Forrit",
       blogLabel: "Blogg",
-      builtByLabel: "Gert af Kirill Markin",
+      builtBy: {
+        prefix: "Gert af ",
+        name: "Kirill Markin",
+        suffix: "",
+      },
       claudePluginLabel: "Viðbót fyrir Claude",
       copyrightLabel: "Nibomo",
       documentationLabel: "Skjölun",
@@ -7199,7 +7554,11 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       listedOnHeading: "Skráð á",
       mcpsAndPluginsHeading: "MCP og viðbætur",
       openSourceHeading: "Opinn hugbúnaður",
-      operatedByLabel: "Rekið af SAMO DANNI EOOD",
+      operatedBy: {
+        prefix: "Rekið af ",
+        name: "SAMO DANNI EOOD",
+        suffix: "",
+      },
       pricingLabel: "Verð",
       privacyPolicyLabel: "Persónuverndarstefna",
       productHeading: "Vara",
@@ -7350,7 +7709,11 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     footer: {
       appsHeading: "Programėlės",
       blogLabel: "Tinklaraštis",
-      builtByLabel: "Sukūrė Kirill Markin",
+      builtBy: {
+        prefix: "Sukūrė ",
+        name: "Kirill Markin",
+        suffix: "",
+      },
       claudePluginLabel: "Claude įskiepis",
       copyrightLabel: "Nibomo",
       documentationLabel: "Dokumentacija",
@@ -7361,7 +7724,11 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       listedOnHeading: "Įtraukta į",
       mcpsAndPluginsHeading: "MCP ir įskiepiai",
       openSourceHeading: "Atvirasis kodas",
-      operatedByLabel: "Paslaugą teikia SAMO DANNI EOOD",
+      operatedBy: {
+        prefix: "Paslaugą teikia ",
+        name: "SAMO DANNI EOOD",
+        suffix: "",
+      },
       pricingLabel: "Kainos",
       privacyPolicyLabel: "Privatumo politika",
       productHeading: "Produktas",
@@ -7512,7 +7879,11 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     footer: {
       appsHeading: "Lietotnes",
       blogLabel: "Blogs",
-      builtByLabel: "Veidojis Kirill Markin",
+      builtBy: {
+        prefix: "Veidojis ",
+        name: "Kirill Markin",
+        suffix: "",
+      },
       claudePluginLabel: "Claude spraudnis",
       copyrightLabel: "Nibomo",
       documentationLabel: "Dokumentācija",
@@ -7523,7 +7894,11 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       listedOnHeading: "Atrodami šeit",
       mcpsAndPluginsHeading: "MCP un spraudņi",
       openSourceHeading: "Atvērtais pirmkods",
-      operatedByLabel: "Uztur SAMO DANNI EOOD",
+      operatedBy: {
+        prefix: "Uztur ",
+        name: "SAMO DANNI EOOD",
+        suffix: "",
+      },
       pricingLabel: "Cenas",
       privacyPolicyLabel: "Privātuma politika",
       productHeading: "Produkts",
@@ -7674,7 +8049,11 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     footer: {
       appsHeading: "Aplikácie",
       blogLabel: "Blog",
-      builtByLabel: "Vytvoril Kirill Markin",
+      builtBy: {
+        prefix: "Vytvoril ",
+        name: "Kirill Markin",
+        suffix: "",
+      },
       claudePluginLabel: "Doplnok pre Claude",
       copyrightLabel: "Nibomo",
       documentationLabel: "Dokumentácia",
@@ -7685,7 +8064,11 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       listedOnHeading: "Nájdete nás na",
       mcpsAndPluginsHeading: "MCP a doplnky",
       openSourceHeading: "Otvorený zdrojový kód",
-      operatedByLabel: "Prevádzkuje SAMO DANNI EOOD",
+      operatedBy: {
+        prefix: "Prevádzkuje ",
+        name: "SAMO DANNI EOOD",
+        suffix: "",
+      },
       pricingLabel: "Cenník",
       privacyPolicyLabel: "Zásady ochrany osobných údajov",
       productHeading: "Produkt",
@@ -7836,7 +8219,11 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     footer: {
       appsHeading: "Aplikacije",
       blogLabel: "Blog",
-      builtByLabel: "Ustvaril Kirill Markin",
+      builtBy: {
+        prefix: "Ustvaril ",
+        name: "Kirill Markin",
+        suffix: "",
+      },
       claudePluginLabel: "Vtičnik za Claude",
       copyrightLabel: "Nibomo",
       documentationLabel: "Dokumentacija",
@@ -7847,7 +8234,11 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       listedOnHeading: "Najdete nas na",
       mcpsAndPluginsHeading: "MCP in vtičniki",
       openSourceHeading: "Odprta koda",
-      operatedByLabel: "Upravlja SAMO DANNI EOOD",
+      operatedBy: {
+        prefix: "Upravlja ",
+        name: "SAMO DANNI EOOD",
+        suffix: "",
+      },
       pricingLabel: "Cenik",
       privacyPolicyLabel: "Politika zasebnosti",
       productHeading: "Izdelek",
@@ -7998,7 +8389,11 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     footer: {
       appsHeading: "Izinhlelo zokusebenza",
       blogLabel: "Ibhulogi",
-      builtByLabel: "Yakhiwe ngu-Kirill Markin",
+      builtBy: {
+        prefix: "Yakhiwe ngu-",
+        name: "Kirill Markin",
+        suffix: "",
+      },
       claudePluginLabel: "I-plugin ye-Claude",
       copyrightLabel: "Nibomo",
       documentationLabel: "Imibhalo yokusebenzisa",
@@ -8009,7 +8404,11 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
       listedOnHeading: "Isohlwini ku",
       mcpsAndPluginsHeading: "Ama-MCP nama-plugin",
       openSourceHeading: "Umthombo Ovulekile",
-      operatedByLabel: "Iqhutshwa yi-SAMO DANNI EOOD",
+      operatedBy: {
+        prefix: "Iqhutshwa yi-",
+        name: "SAMO DANNI EOOD",
+        suffix: "",
+      },
       pricingLabel: "Amanani",
       privacyPolicyLabel: "Inqubomgomo Yobumfihlo",
       productHeading: "Umkhiqizo",
