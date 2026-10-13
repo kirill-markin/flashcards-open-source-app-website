@@ -6,10 +6,7 @@ import { AuthButton } from "@/components/AuthButton";
 import { AppScreensBanner } from "@/components/AppScreensBanner";
 import { BreadcrumbStructuredData } from "@/components/BreadcrumbStructuredData";
 import { FeatureIcon, FEATURE_ICON_NAMES } from "@/components/FeatureIcon";
-import { HomeAppWalkthrough } from "@/components/HomeAppWalkthrough";
-import { HomeHero } from "@/components/HomeHero";
-import { HomeKeyFeatures } from "@/components/HomeKeyFeatures";
-import { HomeReviewCta } from "@/components/HomeReviewCta";
+import { HomeLanding } from "@/components/HomeLanding";
 import { SiteFrame } from "@/components/SiteFrame";
 import { StructuredDataScript } from "@/components/StructuredDataScript";
 import { TrackedSelfHostCtaLink } from "@/components/TrackedSelfHostCtaLink";
@@ -24,7 +21,6 @@ import type {
   PageSection,
   PricingTier,
   PricingTiersSection,
-  ReviewCtaSection,
 } from "@/lib/content/types";
 import {
   readGeneratedStoreQrCodes,
@@ -37,7 +33,7 @@ import {
 } from "@/lib/seo/structuredData";
 import { getUiCopy } from "@/lib/uiCopy";
 import { getAvailableLocalizedPathname } from "@/lib/routeTranslations";
-import homeStyles from "@/app/page.module.css";
+import homeStyles from "./HomeLanding.module.css";
 import featureStyles from "@/app/features/page.module.css";
 import pricingStyles from "@/app/pricing/page.module.css";
 import legalStyles from "@/app/privacy/page.module.css";
@@ -113,23 +109,10 @@ function renderHomePage(
   heroSection: HeroSection,
   featureSection: FeatureListSection,
   walkthroughSection: AppWalkthroughSection,
-  reviewCtaSection: ReviewCtaSection,
   storeQrCodes: StoreQrCodes
 ): React.JSX.Element {
   return (
-    <>
-      <div className={homeStyles.page}>
-        <HomeHero
-          locale={locale}
-          section={heroSection}
-          storeQrCodes={storeQrCodes}
-          walkthrough={walkthroughSection}
-        />
-        <HomeAppWalkthrough locale={locale} section={walkthroughSection} />
-      </div>
-      <HomeKeyFeatures section={featureSection} />
-      <HomeReviewCta locale={locale} section={reviewCtaSection} />
-    </>
+    <HomeLanding locale={locale} hero={heroSection} walkthrough={walkthroughSection} features={featureSection} storeQrCodes={storeQrCodes} />
   );
 }
 
@@ -339,7 +322,6 @@ export async function MarketingPageView({
         getSectionByType(pageContent.sections, "hero"),
         getSectionByType(pageContent.sections, "feature_list"),
         getSectionByType(pageContent.sections, "app_walkthrough"),
-        getSectionByType(pageContent.sections, "review_cta"),
         readGeneratedStoreQrCodes(process.cwd())
       );
       break;
@@ -378,10 +360,11 @@ export async function MarketingPageView({
       throw new Error(`Unsupported marketing page slug: ${slug}`);
   }
 
-  return (
-    <SiteFrame locale={locale} routePathname={routePathname}>
+  const frame = (
+    <SiteFrame locale={locale} routePathname={routePathname} footerCtaTitle={slug === "home" ? getSectionByType(pageContent.sections, "review_cta").titleLines.join(" ") : undefined}>
       {productStructuredData}
       {page}
     </SiteFrame>
   );
+  return slug === "home" ? <div className={homeStyles.preview}>{frame}</div> : frame;
 }

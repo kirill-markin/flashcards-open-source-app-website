@@ -12,6 +12,7 @@ interface SiteFrameProps {
   readonly children: React.ReactNode;
   readonly locale: AppLocale;
   readonly routePathname: string;
+  readonly footerCtaTitle?: string;
 }
 
 interface SiteFrameForRouteLocalesProps extends SiteFrameProps {
@@ -27,6 +28,7 @@ interface SiteFrameLayoutProps extends SiteFrameProps {
 
 function SiteFrameLayout({
   children,
+  footerCtaTitle,
   locale,
   localeSuggestionTargets,
   routeLocales,
@@ -44,6 +46,7 @@ function SiteFrameLayout({
       />
       <main>{children}</main>
       <Footer
+        ctaTitle={footerCtaTitle}
         locale={locale}
         routeLocales={routeLocales}
         routePathname={routePathname}
@@ -58,6 +61,7 @@ function SiteFrameLayout({
 
 export function SiteFrame({
   children,
+  footerCtaTitle,
   locale,
   routePathname,
 }: SiteFrameProps): React.JSX.Element {
@@ -70,6 +74,7 @@ export function SiteFrame({
 
   return (
     <SiteFrameLayout
+      footerCtaTitle={footerCtaTitle}
       locale={locale}
       localeSuggestionTargets={localeSuggestionTargets}
       routeLocales={routeLocales}
@@ -82,6 +87,7 @@ export function SiteFrame({
 
 export function SiteFrameForRouteLocales({
   children,
+  footerCtaTitle,
   locale,
   routeLocales,
   routePathname,
@@ -94,6 +100,7 @@ export function SiteFrameForRouteLocales({
 
   return (
     <SiteFrameLayout
+      footerCtaTitle={footerCtaTitle}
       locale={locale}
       localeSuggestionTargets={localeSuggestionTargets}
       routeLocales={routeLocales}

@@ -12,7 +12,7 @@ import styles from "./AgentDirectoryLinks.module.css";
 interface AgentDirectoryLinksProps {
   readonly locale: AppLocale;
   readonly documentationLink?: ContentLink;
-  readonly appearance?: "default" | "home";
+  readonly appearance?: "default" | "home" | "hero";
 }
 
 export function AgentDirectoryLinks({
@@ -20,7 +20,7 @@ export function AgentDirectoryLinks({
   documentationLink,
   appearance = "default",
 }: AgentDirectoryLinksProps): React.JSX.Element {
-  const homeAppearance = appearance === "home" || documentationLink !== undefined;
+  const homeAppearance = appearance !== "default" || documentationLink !== undefined;
   const connectorEntries = CONNECTOR_DIRECTORIES.map((directory) => (
     <div key={directory.href} className={styles.entry}>
       <a
@@ -42,7 +42,7 @@ export function AgentDirectoryLinks({
 
   return (
     <div className={homeAppearance
-      ? `${styles.directories} ${styles.homeDesign}`
+      ? `${styles.directories} ${styles.homeDesign}${appearance === "hero" ? ` ${styles.heroDesign}` : ""}`
       : styles.directories}>
       {connectorEntries}
       {documentationLink === undefined ? null : (

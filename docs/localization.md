@@ -27,6 +27,8 @@ File-backed routes (docs, privacy, terms, support) prerender through `getTransla
 
 ## Translation rules
 
+The homepage headings, example flashcards, recall controls, and compact agent hint are localized in [src/lib/homeExperienceCopy.ts](../src/lib/homeExperienceCopy.ts). Every supported locale has a complete entry; there is no English fallback. [src/lib/content/homeExperienceContent.ts](../src/lib/content/homeExperienceContent.ts) composes this copy with the locale's existing home content for both HTML and generated Markdown. The walkthrough and supporting feature descriptions remain in `src/content/<locale>/pages/home.ts`.
+
 - Translate "spaced repetition" per the rule in [AGENTS.md](../AGENTS.md#rules).
 - Terms and Privacy end with a translated Language section stating that the English version prevails.
 - In marketing prose, the shipped Google Play listing for that language governs product naming, such as the AI noun. For in-app wording, the app's iOS strings govern. Where they disagree, the site follows Play.

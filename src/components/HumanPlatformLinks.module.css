@@ -165,6 +165,28 @@
   overflow-wrap: anywhere;
 }
 
+.heroBadges { gap: 10px; align-items: stretch; }
+.heroBadges .platformLink {
+  gap: 8px;
+  inline-size: auto;
+  flex: 1 1 0;
+  min-inline-size: 0;
+  block-size: auto;
+  min-block-size: 56px;
+  padding: 8px;
+  border: 1px solid rgb(255 255 255 / 20%);
+  border-radius: 8px;
+}
+.heroBadges .platformIcon { inline-size: 32px; block-size: 36px; }
+.heroBadges .playMark { inline-size: 32px; block-size: 36px; }
+.heroBadges .playMark img { inline-size: 177px; block-size: 36px; }
+.heroBadges .badgeCaption { font-size: 12px; line-height: 13px; }
+.heroBadges .badgeName { font-size: clamp(18px,1.6vw,24px); line-height: 1.05; letter-spacing: -.6px; white-space: normal; overflow-wrap: anywhere; }
+
+@media (max-width: 700px) {
+  .heroBadges .platformLink { flex: 1 1 160px; max-inline-size: 100%; }
+}
+
 @media (hover: hover) and (pointer: fine) {
   .platformDisabled:hover::after,
   .platformDisabled:focus-visible::after {

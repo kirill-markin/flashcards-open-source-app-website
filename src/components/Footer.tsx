@@ -49,12 +49,14 @@ function renderAttributionLine(
 }
 
 interface FooterProps {
+  readonly ctaTitle?: string;
   readonly locale: AppLocale;
   readonly routeLocales: ReadonlyArray<AppLocale>;
   readonly routePathname: string;
 }
 
 export const Footer: React.FC<FooterProps> = ({
+  ctaTitle,
   locale,
   routeLocales,
   routePathname,
@@ -106,7 +108,7 @@ export const Footer: React.FC<FooterProps> = ({
     >
       <section className={styles.cta} aria-labelledby="footer-cta-title">
         <h2 id="footer-cta-title" className={styles.ctaTitle}>
-          {ctaCopy.title}
+          {ctaTitle === undefined ? ctaCopy.title : ctaTitle}
         </h2>
         <p className={styles.ctaDescription}>
           {ctaCopy.descriptionLines[0]}<br />
