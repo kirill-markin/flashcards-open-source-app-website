@@ -15,6 +15,7 @@ interface TrackedMcpEndpointCopyFieldProps {
   readonly labels: CopyCodeFieldLabels;
   readonly locale: AppLocale;
   readonly value: string;
+  readonly appearance?: "default" | "compact";
 }
 
 export function TrackedMcpEndpointCopyField({
@@ -22,6 +23,7 @@ export function TrackedMcpEndpointCopyField({
   labels,
   locale,
   value,
+  appearance = "default",
 }: TrackedMcpEndpointCopyFieldProps): React.JSX.Element {
   const trackCopySuccess = (): void => {
     trackVercelAnalyticsEvent("mcp_endpoint_copy", {
@@ -37,6 +39,7 @@ export function TrackedMcpEndpointCopyField({
       labels={labels}
       onCopySuccess={trackCopySuccess}
       value={value}
+      appearance={appearance}
     />
   );
 }

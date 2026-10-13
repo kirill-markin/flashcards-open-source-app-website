@@ -1,5 +1,6 @@
 import { existsSync, readFileSync } from "fs";
 import matter from "gray-matter";
+import { applyHomeExperienceContent } from "./homeExperienceContent";
 import { STRUCTURED_PAGE_CONTENT_BY_LOCALE } from "@/content/structuredPageModules";
 import {
   getMarkdownMarketingPageFilePath,
@@ -488,7 +489,7 @@ export function readPageContent(
       throw new Error(`Missing structured page content for page: ${slug}, locale: ${locale}`);
     }
 
-    return validatePageStructure({
+    const page = validatePageStructure({
       title: assertNonEmptyString(
         structuredPageContent.title,
         "title",
@@ -505,6 +506,7 @@ export function readPageContent(
       ),
       body: structuredPageContent.body.trim(),
     });
+    return slug === "home" ? applyHomeExperienceContent(page, locale) : page;
   }
 
   const markdownBackedSlug = slug as MarkdownBackedPageSlug;
