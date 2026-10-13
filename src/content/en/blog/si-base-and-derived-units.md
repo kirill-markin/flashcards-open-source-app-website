@@ -125,6 +125,8 @@ Use a dot or space for multiplication: `N·m` or `N m`. Write a denominator clea
 
 Units also need quantity context. Energy and torque both reduce to `kg·m²/s²`; that doesn't make them the same quantity. [NIST specifies newton meters for torque, not joules](https://www.nist.gov/pml/special-publication-330/sp-330-section-2). A dimensional check can catch an incompatible unit, but matching dimensions alone cannot prove that an equation describes the right physics.
 
+To apply familiar units to short physics expressions, try the [dimensional analysis equation flashcards](/catalog/packages/dimensional-analysis-equation-flashcards/). They practice checking complete terms, finding unknown coefficient units, and recognizing what matching dimensions can establish.
+
 ## SI units practice: try these before reading the answers
 
 Write each answer on paper. For questions involving derived units, include the substitution step so you can locate any mistake.

@@ -173,6 +173,8 @@ Each of those can become a short **physics error card**. For example:
 
 That last distinction matters. Some misses are retrieval failures. Others are setup, execution, or communication failures. Flashcards help directly with retrieval. Fresh problems are the honest check for everything else.
 
+For repeated unit-check errors, [these dimensional analysis flashcards](/catalog/packages/dimensional-analysis-equation-flashcards/) practice matching complete terms and finding coefficient units in short scalar physics expressions. Use them between full problems, then check the same habit in an unfamiliar setup.
+
 If most of your raw material comes from corrections, [How to Turn Practice Questions Into Flashcards in 2026](/blog/how-to-turn-practice-questions-into-flashcards/) goes deeper on that workflow.
 
 ## Use AI to process mistakes, not to skip the physics
