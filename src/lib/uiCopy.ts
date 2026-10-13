@@ -215,7 +215,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
         "Learn more and forget less with free spaced-repetition flashcards",
       buttonLabel: "See how it works",
       featuresHeading:
-        "Create better cards and review them at the right time.",
+        "Create better cards and review them.",
     },
     docs: {
       breadcrumbLabel: "Docs",
