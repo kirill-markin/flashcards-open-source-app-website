@@ -40,28 +40,28 @@ export const HOME_PAGE_CONTENT: PageContent = {
       title: "How Nibomo works",
       items: [
         {
-          label: "01 · AI FLASHCARDS",
-          titleLines: ["Tell AI what you want to learn."],
+          label: "01 / MAKE IT YOURS",
+          titleLines: ["Bring what you’re learning"],
           description:
-            "Describe a topic or attach your notes. AI helps turn your material into flashcards with questions and answers.",
+            "Attach your notes or describe a topic. Ask AI to help turn it into questions and answers, then decide what to save.",
           linkLabel: "Create flashcards",
           imagePath: "/home/ai-flashcards.png",
           imageAlt: "Nibomo AI chat creating flashcards from a topic or attached notes",
         },
         {
-          label: "02 · START LEARNING",
-          titleLines: ["One question at a time."],
+          label: "02 / GIVE IT A MOMENT",
+          titleLines: ["Try before you turn it over"],
           description:
-            "Open a flashcard and try to recall the answer before revealing it. Learn at your own pace, one card at a time.",
+            "One question. A moment to think. Reveal the answer and rate how easily you remembered it.",
           linkLabel: "Start learning",
           imagePath: "/home/start-learning.png",
           imageAlt: "A Nibomo review flashcard with a Show answer button",
         },
         {
-          label: "03 · SMART REVIEWS",
-          titleLines: ["Check your answer.", "Rate your recall."],
+          label: "03 / LET IT STICK",
+          titleLines: ["Come back at the right time"],
           description:
-            "Reveal the answer and mark how easily you remembered it. Nibomo brings difficult cards back sooner and familiar ones later.",
+            "Your rating helps schedule the next review. Difficult cards return sooner; familiar ones get more breathing room.",
           linkLabel: "Review flashcards",
           imagePath: "/home/smart-reviews.png",
           imageAlt: "A revealed Nibomo flashcard with Again, Hard, Good, and Easy review ratings",
@@ -89,29 +89,29 @@ export const HOME_PAGE_CONTENT: PageContent = {
             "Review the cards that are due today. FSRS brings difficult cards back sooner and waits longer before showing familiar ones again.",
         },
         {
-          title: "AI-Assisted Card Creation",
+          title: "A hand with the first draft.",
           description:
-            "Ask AI to help create cards, improve their wording, or clarify an answer. You stay in control of what gets saved.",
+            "Turn notes into a draft. Edit each card before saving.",
         },
         {
-          title: "Offline Study with Automatic Sync",
+          title: "No signal? Keep going.",
           description:
-            "Keep reviewing on your mobile device without an internet connection. Changes sync automatically.",
+            "Review offline on your phone. Sync when you’re back online.",
         },
         {
-          title: "Import, Export Own Your Data",
+          title: "Your cards can come with you.",
           description:
-            "Move your learning materials in or out whenever you like. Portable exports include your cards, tags, and related media.",
+            "Import and export cards, tags, and media.",
         },
         {
-          title: "Works with AI Agents",
+          title: "Your agent can lend a hand.",
           description:
-            "Connect through MCP or the Agent API so AI agents can help create, improve, and organize your cards.",
+            "Create, edit, and organize cards over MCP or the Agent API.",
         },
         {
-          title: "Free and Self-Hostable",
+          title: "Free. Open. Yours.",
           description:
-            "Use the hosted app for free, inspect the open-source code, or run it on your own infrastructure.",
+            "Study for free, read the code, or host Nibomo yourself.",
         },
       ],
     },

@@ -16,6 +16,7 @@ import {
   formatActivityTimestamp,
 } from "@/lib/activityFormatting";
 import { getUiCopy } from "@/lib/uiCopy";
+import { getHomeExperienceCopy } from "@/lib/homeExperienceCopy";
 import { getAvailableLocalizedPathname } from "@/lib/routeTranslations";
 import { CONNECTOR_DIRECTORIES, getConnectorDirectoryLabel } from "@/lib/connectorDirectories";
 import type {
@@ -83,8 +84,6 @@ function renderHeroSection(
   lines.push("");
   lines.push(section.subtitle);
   lines.push("");
-  lines.push(`[${section.primaryLink.label}](${section.primaryLink.href})`);
-  lines.push(`[${section.secondaryLink.label}](${section.secondaryLink.href})`);
   // The Markdown copy is generated at build time and has no signed-in state, so the web
   // entry is the static app URL rather than the HTML hero's auth-aware destination.
   getHumanPlatforms(getAppUrl(), locale).forEach((platform) => {
@@ -95,8 +94,10 @@ function renderHeroSection(
     lines.push(`[${platform.label}](${platform.href})`);
   });
   lines.push("");
-  lines.push(section.trustLine);
-  lines.push("");
+  const copy = getHomeExperienceCopy(locale);
+  lines.push(`**${copy.controls[0]}:** ${copy.heroCard[1].replace(/\n/g," ")}`, "");
+  lines.push(`**${copy.controls[1]}:** ${copy.heroCard[2]}`, "");
+  lines.push(`## ${copy.agents[0]}`, "", copy.agents[1], "");
   CONNECTOR_DIRECTORIES.forEach((directory) => {
     lines.push(`[${getConnectorDirectoryLabel(locale, directory.name)}](${directory.href})`);
   });
@@ -123,7 +124,7 @@ function renderAppWalkthroughSection(
   section.items.forEach((item) => {
     lines.push(`### ${item.titleLines.join(" ")}`, "");
     lines.push(item.description, "");
-    lines.push(`[${item.linkLabel}](${getAppUrl()})`, "");
+    lines.push(`![${item.imageAlt}](${item.imagePath})`, "");
   });
 }
 
@@ -134,7 +135,7 @@ function renderReviewCtaSection(
 ): void {
   lines.push(`## ${section.titleLines.join(" ")}`, "");
   lines.push(section.description, "");
-  lines.push(`[${getUiCopy(locale).auth.startStudyingFree}](${getSignupUrl()})`, "");
+  lines.push(`[${getUiCopy(locale).auth.tryNow}](${getSignupUrl()})`, "");
 }
 
 function renderPublicActivitySection(
@@ -280,6 +281,14 @@ function renderPageSections(
         return;
       case "feature_list":
         renderFeatureListSection(section, pageContent, lines);
+        if (pageContent.slug === "home") {
+          const copy = getHomeExperienceCopy(locale);
+          lines.push(`**${copy.controls[0]}:** ${copy.reviewCard[1]}`, "");
+          lines.push(`**${copy.controls[1]}:** ${copy.reviewCard[2]}`, "");
+          lines.push(copy.recall[0], "");
+          copy.ratings.forEach((rating,index)=>lines.push(`- **${rating}:** ${copy.outcomes[index]}`));
+          lines.push("");
+        }
         if (pageContent.slug === "features") {
           renderFeaturesResources(locale, lines);
         }

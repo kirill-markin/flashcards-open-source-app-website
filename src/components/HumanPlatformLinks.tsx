@@ -62,7 +62,7 @@ function WebIcon() {
 interface HumanPlatformLinksProps {
   readonly locale: AppLocale;
   readonly storeQrCodes: StoreQrCodes;
-  readonly appearance?: "cards" | "badges";
+  readonly appearance?: "cards" | "badges" | "hero-badges";
 }
 
 function getBadgeOrder(platform: HumanPlatform): number {
@@ -87,13 +87,14 @@ export const HumanPlatformLinks: React.FC<HumanPlatformLinksProps> = ({
     : getLoginUrl(getLocalizedPathname(locale, "/"));
   const webEntryAction = loggedIn ? "open_app" : "login";
   const platforms = getHumanPlatforms(webEntryHref, locale);
-  const orderedPlatforms = appearance === "badges"
+  const showBadges = appearance !== "cards";
+  const orderedPlatforms = showBadges
     ? platforms.toSorted((first, second) => getBadgeOrder(first) - getBadgeOrder(second))
     : platforms;
 
   return (
-    <div className={appearance === "badges"
-      ? `${styles.platformList} ${styles.badges}`
+    <div className={showBadges
+      ? `${styles.platformList} ${styles.badges}${appearance === "hero-badges" ? ` ${styles.heroBadges}` : ""}`
       : styles.platformList}>
       {orderedPlatforms.map((platform) => {
         if (platform.kind === "active") {
@@ -110,7 +111,7 @@ export const HumanPlatformLinks: React.FC<HumanPlatformLinksProps> = ({
               "home_human_access",
             );
           };
-          const platformContent = appearance === "badges" &&
+          const platformContent = showBadges &&
             platform.analytics.kind === "store" &&
             platform.analytics.platform === "android" ? (
             <>
@@ -122,7 +123,7 @@ export const HumanPlatformLinks: React.FC<HumanPlatformLinksProps> = ({
                 <span className={styles.badgeName}>{platform.label}</span>
               </span>
             </>
-          ) : appearance === "badges" && locale !== "en" &&
+          ) : showBadges && (locale !== "en" || appearance === "hero-badges") &&
             platform.analytics.kind === "store" &&
             platform.analytics.platform === "ios" ? (
             <>
@@ -131,7 +132,7 @@ export const HumanPlatformLinks: React.FC<HumanPlatformLinksProps> = ({
                 <path d="M22.03725,12.21089a4.87248,4.87248,0,0,0,1.11452-3.49062,4.95746,4.95746,0,0,0-3.20758,1.65961,4.63634,4.63634,0,0,0-1.14371,3.36139A4.09905,4.09905,0,0,0,22.03725,12.21089Z" />
               </svg>
               <span className={styles.badgeText}>
-                <span className={styles.badgeCaption}>{uiCopy.platforms.downloadBadgeCaption}</span>
+                <span className={styles.badgeCaption}>{locale === "en" ? "Download on the" : uiCopy.platforms.downloadBadgeCaption}</span>
                 <span className={styles.badgeName}>{platform.label}</span>
               </span>
             </>
@@ -146,7 +147,7 @@ export const HumanPlatformLinks: React.FC<HumanPlatformLinksProps> = ({
           ) : (
             <>
               <WebIcon />
-              {appearance === "badges" ? (
+              {showBadges ? (
                 <span className={styles.badgeText}>
                   <span className={styles.badgeCaption}>{uiCopy.platforms.tryBadgeCaption}</span>
                   <span className={styles.badgeName}>{platform.label}</span>

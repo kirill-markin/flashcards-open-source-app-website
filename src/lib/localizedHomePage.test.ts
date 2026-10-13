@@ -5,6 +5,7 @@ import test from "node:test";
 import { readPageContent } from "./content/readPageContent";
 import { SUPPORTED_LOCALES } from "./localeConfig";
 import { getUiCopy } from "./uiCopy";
+import { getHomeExperienceCopy } from "./homeExperienceCopy";
 
 const englishHome = readPageContent("home", "en");
 const englishWalkthrough = englishHome.sections.find((section) => section.type === "app_walkthrough");
@@ -24,8 +25,19 @@ for (const locale of SUPPORTED_LOCALES) {
     assert.ok(walkthrough);
     assert.ok(features);
     assert.ok(cta);
-    assert.equal(walkthrough.items.length, 4);
-    assert.equal(features.items.length, 6);
+    assert.equal(walkthrough.items.length, 3);
+    assert.equal(features.items.length, 5);
+    const hero = home.sections.find(section=>section.type === "hero");
+    assert.ok(hero);
+    const copy = getHomeExperienceCopy(locale);
+    assert.deepEqual(hero.titleLines,[copy.heading[0],copy.heading.slice(1).join("")]);
+    assert.equal(features.title,copy.features[1]);
+    assert.deepEqual(cta.titleLines,[copy.footerTitle]);
+    for(const field of [copy.flow,copy.story,copy.features,copy.heroCard,copy.reviewCard,copy.controls,copy.recall,copy.ratings,copy.outcomes,copy.agents]){
+      assert.ok(field.every(value=>typeof value === "string" && value.trim().length>0));
+    }
+    assert.equal(copy.ratings.length,4);
+    assert.equal(copy.outcomes.length,4);
     walkthrough.items.forEach((item, index) => {
       assert.ok(existsSync(join(process.cwd(), "public", item.imagePath)));
       if (locale !== "en") {
@@ -38,6 +50,11 @@ for (const locale of SUPPORTED_LOCALES) {
       }
     });
     if (locale !== "en") {
+      const englishCopy = getHomeExperienceCopy("en");
+      assert.notDeepEqual(copy.heading,englishCopy.heading);
+      assert.notDeepEqual(copy.controls,englishCopy.controls);
+      assert.notDeepEqual(copy.ratings,englishCopy.ratings);
+      assert.notDeepEqual(copy.outcomes,englishCopy.outcomes);
       assert.notEqual(walkthrough.title, englishWalkthrough.title);
       assert.notDeepEqual(cta.titleLines, englishCta.titleLines);
       assert.notEqual(cta.description, englishCta.description);

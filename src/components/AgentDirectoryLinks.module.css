@@ -93,6 +93,13 @@ a.directory:hover,
   border-color: var(--border);
 }
 
+.heroDesign { flex-wrap: nowrap; gap: 8px; }
+.heroDesign .entry { flex: none; }
+.heroDesign .directory { inline-size: 44px; block-size: 44px; min-block-size: 44px; padding: 10px; border: 0; border-radius: 12px; background: var(--accent); }
+.heroDesign .directory[data-testid="openai-directory-link"] { background: #00a67e; }
+.heroDesign .directory > span { display: none; }
+.heroDesign .logo { inline-size: 26px; block-size: 26px; }
+
 @media (max-width: 500px) {
   .homeDesign .entry {
     flex: 1 1 120px;
