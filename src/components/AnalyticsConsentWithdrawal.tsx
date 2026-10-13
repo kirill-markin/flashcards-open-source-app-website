@@ -29,10 +29,6 @@ import {
 import { getUiCopy } from "@/lib/uiCopy";
 import styles from "./AnalyticsConsentWithdrawal.module.css";
 
-/** Published on `:root`; anything fixed to the bottom edge reads it as extra clearance. */
-const WITHDRAWAL_HEIGHT_CUSTOM_PROPERTY =
-  "--analytics-consent-withdrawal-height";
-
 interface AnalyticsConsentWithdrawalProps {
   readonly locale: AppLocale;
 }
@@ -76,24 +72,7 @@ function AnalyticsDecisionToggle({
   );
 }
 
-/**
- * The way back from an answer already given, and the way out of being measured at all.
- *
- * It carries both decisions, because they are two: the cookie the banner asks about, and whether
- * anything is collected from this browser at all. Refusing the cookie leaves visits counted
- * identity-free, so the second switch is the only one that stops collection.
- *
- * The control itself is unconditional - every page, every region, every consent state, including the
- * first load with the banner still up. The off switch would otherwise be missing from exactly the
- * moments it is wanted: while a first-time visitor is being asked about the cookie and is already
- * being counted, and on a browser that turned collection off and, having asked the backend nothing
- * since, counts as never asked. This publishes its height and the strip sits directly above it, so
- * the two share the bottom edge rather than the same corner.
- *
- * Only the cookie half is conditional, on there being an answer to revisit and a move it can still
- * make: the privacy policy describes withdrawal with no qualifier, and a banner that can be answered
- * but not revisited leaves the person who accepted with nothing but clearing browser storage.
- */
+/** Lets visitors change cookie consent and disable collection from the Privacy page. */
 export function AnalyticsConsentWithdrawal({
   locale,
 }: AnalyticsConsentWithdrawalProps): React.JSX.Element {
@@ -128,7 +107,7 @@ export function AnalyticsConsentWithdrawal({
 
   /**
    * Escape closes the panel and hands focus back to the link that opened it, because the panel is
-   * the only thing on this site a keyboard visitor can open from a corner with nothing else in it.
+   * a disclosure within the Privacy page.
    */
   useEffect(() => {
     if (isOpen === false) {
@@ -165,46 +144,6 @@ export function AnalyticsConsentWithdrawal({
       document.removeEventListener("pointerdown", closeOnOutsidePointer);
     };
   }, [closePanel, isOpen]);
-
-  /**
-   * Publishes how much of the bottom corner the link occupies, the way the strip publishes its own.
-   * It is fixed and has no background, so nothing in the layout would otherwise know it is there,
-   * and what it would silently cover is the end of every page - the footer, and whatever call to
-   * action sits above it.
-   *
-   * The border box, not the default content box: almost all of this height is padding, so a
-   * safe-area inset changing on an orientation change resizes nothing a content-box observer can
-   * see and would leave the stale reserve behind. The label's length is per-locale and the inset is
-   * per-orientation, so the measurement is republished rather than taken once.
-   *
-   * The reserve is the link's own height and never the strip's as well, even while both are up: the
-   * strip is lifted by this published height in CSS rather than this container growing by the
-   * strip's, so the page below adds the two without ever counting the strip twice.
-   */
-  useEffect(() => {
-    const container = containerRef.current;
-    const rootStyle = document.documentElement.style;
-
-    if (container === null) {
-      return;
-    }
-
-    const publishWithdrawalHeight = (): void => {
-      rootStyle.setProperty(
-        WITHDRAWAL_HEIGHT_CUSTOM_PROPERTY,
-        `${container.offsetHeight}px`,
-      );
-    };
-
-    publishWithdrawalHeight();
-    const observer = new ResizeObserver(publishWithdrawalHeight);
-    observer.observe(container, { box: "border-box" });
-
-    return (): void => {
-      observer.disconnect();
-      rootStyle.removeProperty(WITHDRAWAL_HEIGHT_CUSTOM_PROPERTY);
-    };
-  }, []);
 
   const isAnalyticsAllowed = decision !== "declined";
 
@@ -280,7 +219,7 @@ export function AnalyticsConsentWithdrawal({
   };
 
   return (
-    <div ref={containerRef} className={styles.container}>
+    <div ref={containerRef} className={styles.container} id="analytics-settings">
       {isOpen ? (
         <div
           className={styles.panel}

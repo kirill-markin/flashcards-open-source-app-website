@@ -1,20 +1,5 @@
-/* The bottom-start corner, on every page and in every region, including while the consent strip is
-   up - the off switch it opens has to be reachable while the strip is still asking about the
-   cookie. The link keeps the corner and the strip stands on top of it, lifted by the height this
-   publishes, and the page below adds both reserves, so neither edge is counted twice.
-
-   The container is what the published reserve measures, so the panel is taken out of its flow
-   below: an open panel must not inflate the space the page beneath is asked to keep clear. Dropping
-   pointer events keeps the transparent padding from catching a click it never showed anything for,
-   and the link and panel take them back for themselves. */
 .container {
-  position: fixed;
-  inset-inline-start: 0;
-  inset-block-end: 0;
-  z-index: 90;
-  padding-inline: 20px;
-  padding-block: 8px calc(8px + env(safe-area-inset-bottom));
-  pointer-events: none;
+  margin-block: 24px;
 }
 
 .link {
@@ -31,23 +16,16 @@
   pointer-events: auto;
 }
 
-/* Out of the container's flow, so the reserve stays the height of the link alone. */
 .panel {
-  position: absolute;
-  inset-block-end: 100%;
-  inset-inline-start: 20px;
   display: flex;
   flex-direction: column;
   gap: 12px;
-  inline-size: min(320px, calc(100vw - 40px));
-  margin-block-end: 8px;
+  inline-size: min(100%, 480px);
+  margin-block-end: 12px;
   padding: 16px;
   border: 1px solid var(--border);
   border-radius: var(--radius-lg);
-  background: var(--surface-glass);
-  box-shadow: var(--shadow-soft);
-  backdrop-filter: var(--blur);
-  pointer-events: auto;
+  background: var(--surface);
 }
 
 /* One decision and its switch. The second is ruled off from the first so neither switch can be read
@@ -161,16 +139,5 @@
   .link:hover,
   .close:hover {
     color: var(--text);
-  }
-}
-
-@media (max-width: 640px) {
-  .container {
-    padding-inline: 12px;
-  }
-
-  .panel {
-    inset-inline-start: 12px;
-    inline-size: min(320px, calc(100vw - 24px));
   }
 }
