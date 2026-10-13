@@ -3,7 +3,7 @@ import Link from "next/link";
 import { CONNECTOR_DIRECTORIES } from "@/lib/connectorDirectories";
 import { AnalyticsConsentWithdrawal } from "@/components/AnalyticsConsentWithdrawal";
 import { AuthButton } from "@/components/AuthButton";
-import { AuthAwareAppCtaLink } from "@/components/AuthAwareAppCtaLink";
+import { AppScreensBanner } from "@/components/AppScreensBanner";
 import { BreadcrumbStructuredData } from "@/components/BreadcrumbStructuredData";
 import { FeatureIcon, FEATURE_ICON_NAMES } from "@/components/FeatureIcon";
 import { HomeAppWalkthrough } from "@/components/HomeAppWalkthrough";
@@ -35,7 +35,6 @@ import {
   createProductJsonLdGraph,
   type ProductOfferNames,
 } from "@/lib/seo/structuredData";
-import { getHomeShowcaseImagePath } from "@/lib/homeShowcaseImage";
 import { getUiCopy } from "@/lib/uiCopy";
 import { getAvailableLocalizedPathname } from "@/lib/routeTranslations";
 import homeStyles from "@/app/page.module.css";
@@ -47,9 +46,6 @@ interface MarketingPageViewProps {
   readonly locale: AppLocale;
   readonly slug: MarketingPageSlug;
 }
-
-// Source strip order: question, answer, progress, AI, cards.
-const FEATURE_CTA_SCREEN_ORDER: ReadonlyArray<number> = [3, 0, 1, 2, 4];
 
 function getMarketingRoutePathname(slug: MarketingPageSlug): string {
   if (slug === "home") {
@@ -218,33 +214,9 @@ function renderFeaturesPage(
           <span aria-hidden="true">↗</span>
         </Link>
       </div>
-      <aside id="start-studying" className={featureStyles.cta} aria-labelledby="features-cta-title">
-        <div className={featureStyles.ctaCopy}>
-          <h2 className={featureStyles.ctaTitle} id="features-cta-title">
-            {uiCopy.cta.featuresHeading}
-          </h2>
-          <div className={featureStyles.ctaAction}>
-            <AuthAwareAppCtaLink locale={locale} placement="features_end" />
-          </div>
-        </div>
-        <div className={featureStyles.ctaScreens} role="img" aria-label={uiCopy.home.appPreviewAlt}>
-          {FEATURE_CTA_SCREEN_ORDER.map((screenIndex) => (
-            <div className={featureStyles.ctaPhone} key={screenIndex}>
-              <div className={featureStyles.ctaScreen}>
-                <Image
-                  src={getHomeShowcaseImagePath(locale)}
-                  alt=""
-                  width={7140}
-                  height={3018}
-                  sizes="(max-width: 640px) 640px, (max-width: 1240px) 100vw, 1200px"
-                  className={featureStyles.ctaImage}
-                  style={{ insetInlineStart: `${-100 * (120 + screenIndex * 1404) / 1284}%` }}
-                />
-              </div>
-            </div>
-          ))}
-        </div>
-      </aside>
+      <div id="start-studying" className={featureStyles.cta}>
+        <AppScreensBanner locale={locale} />
+      </div>
     </div>
   );
 }
