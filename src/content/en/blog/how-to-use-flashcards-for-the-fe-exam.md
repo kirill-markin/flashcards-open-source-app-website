@@ -118,6 +118,8 @@ Those are more useful than memorizing labels.
 
 The exact content changes by discipline. The rule for writing the cards does not.
 
+For general physics equation checks, [these dimensional analysis flashcards](/catalog/packages/dimensional-analysis-equation-flashcards/) focus on term consistency and coefficient units. Keep your discipline's handbook and problem sets alongside them.
+
 ## Unit-conversion cards are boring and high value
 
 This is the least glamorous part of FE prep and one of the best uses of flashcards.
