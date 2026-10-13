@@ -1,6 +1,8 @@
 import Link from "next/link";
-import { CONNECTOR_DIRECTORIES } from "@/lib/connectorDirectories";
+import { AuthButton } from "@/components/AuthButton";
 import { SOFTWARE_DIRECTORIES } from "@/lib/softwareDirectories";
+import { getFooterCtaCopy } from "@/lib/footerCtaCopy";
+import { CONNECTOR_DIRECTORIES } from "@/lib/connectorDirectories";
 import { getExternalLinkAttributes } from "@/lib/linkTargets";
 import { LocaleSwitcher } from "@/components/LocaleSwitcher";
 import { getAppUrl } from "@/lib/auth";
@@ -61,13 +63,13 @@ export const Footer: React.FC<FooterProps> = ({
   const platforms = getHumanPlatforms(getAppUrl(), locale);
   const storeQrCodes = readGeneratedStoreQrCodes(process.cwd());
   const uiCopy = getUiCopy(locale);
+  const ctaCopy = getFooterCtaCopy(locale);
   const sourceCodeHref = "https://github.com/kirill-markin/flashcards-open-source-app";
   const claudePluginHref = "https://claude.ai/customize/plugins/id/d8c1028d-4318-4da5-8514-1ed3e0b9a09e%40anthropic-plugin-directory";
   const smitheryHref = "https://smithery.ai/servers/kirill-fofi/nibomo";
   const glamaHref = "https://glama.ai/mcp/connectors/com.nibomo/flashcards";
   const geminiCliHref = "https://geminicli.com/extensions/?name=kirill-markinnibomo-plugins";
   const executorHref = "https://executor.sh/apps/nibomo.executor.community/nibomo";
-  const cursorDirectoryHref = "https://cursor.directory/plugins/nibomo";
   const productLinks = [
     {
       href: getAvailableLocalizedPathname(locale, "/features/"),
@@ -86,12 +88,10 @@ export const Footer: React.FC<FooterProps> = ({
       label: uiCopy.footer.blogLabel,
     },
     ...(isPublicCatalogEnabled()
-      ? [
-        {
+      ? [{
           href: getPublicCatalogRootUrl(locale),
           label: getPublicCatalogUiCopy(locale).navigationLabel,
-        },
-      ]
+        }]
       : []),
   ];
   const operatedByAttribution = renderAttributionLine(
@@ -104,31 +104,25 @@ export const Footer: React.FC<FooterProps> = ({
       id="site-footer"
       className={styles.footer}
     >
+      <section className={styles.cta} aria-labelledby="footer-cta-title">
+        <h2 id="footer-cta-title" className={styles.ctaTitle}>
+          {ctaCopy.title}
+        </h2>
+        <p className={styles.ctaDescription}>
+          {ctaCopy.descriptionLines[0]}<br />
+          {ctaCopy.descriptionLines[1]}
+        </p>
+        <div className={styles.ctaAction}>
+          <AuthButton
+            locale={locale}
+            placement="footer"
+            signupLabel={uiCopy.auth.tryNow}
+            hideLogin
+          />
+        </div>
+      </section>
       <div className={styles.inner}>
         <div className={styles.columns}>
-          <div className={styles.column}>
-            <h3>{uiCopy.footer.productHeading}</h3>
-            {productLinks.map((link) => (
-              <Link key={link.href} href={link.href}>
-                {link.label}
-              </Link>
-            ))}
-          </div>
-          <div className={styles.column}>
-            <h3>{uiCopy.footer.openSourceHeading}</h3>
-            <TrackedOutboundLink
-              href={sourceCodeHref}
-              label="GitHub"
-              locale={locale}
-              placement="footer"
-              target="repository"
-            />
-            <Link
-              href={getAvailableLocalizedPathname(locale, "/docs/self-hosting/")}
-            >
-              {uiCopy.footer.selfHostingGuideLabel}
-            </Link>
-          </div>
           <div className={styles.column}>
             <h3>{uiCopy.footer.appsHeading}</h3>
             {platforms.map((platform) => {
@@ -172,6 +166,29 @@ export const Footer: React.FC<FooterProps> = ({
             })}
           </div>
           <div className={styles.column}>
+            <h3>{uiCopy.footer.productHeading}</h3>
+            {productLinks.map((link) => (
+              <Link key={link.href} href={link.href}>
+                {link.label}
+              </Link>
+            ))}
+          </div>
+          <div className={styles.column}>
+            <h3>{uiCopy.footer.openSourceHeading}</h3>
+            <TrackedOutboundLink
+              href={sourceCodeHref}
+              label="GitHub"
+              locale={locale}
+              placement="footer"
+              target="repository"
+            />
+            <Link
+              href={getAvailableLocalizedPathname(locale, "/docs/self-hosting/")}
+            >
+              {uiCopy.footer.selfHostingGuideLabel}
+            </Link>
+          </div>
+          <div className={styles.column}>
             <h3>{uiCopy.footer.mcpsAndPluginsHeading}</h3>
             {CONNECTOR_DIRECTORIES.map((directory) => (
               <a key={directory.href} href={directory.href} {...getExternalLinkAttributes(directory.href)}>
@@ -208,28 +225,6 @@ export const Footer: React.FC<FooterProps> = ({
             >
               Executor
             </a>
-            <a
-              href={cursorDirectoryHref}
-              {...getExternalLinkAttributes(cursorDirectoryHref)}
-            >
-              Cursor Directory
-            </a>
-          </div>
-          <div className={styles.column}>
-            <h3>{uiCopy.footer.followUsHeading}</h3>
-            {SOCIAL_LINKS.map((link) => (
-              <a key={link.href} href={link.href} {...getExternalLinkAttributes(link.href)}>
-                {link.label}
-              </a>
-            ))}
-          </div>
-          <div className={styles.column}>
-            <h3>{uiCopy.footer.listedOnHeading}</h3>
-            {SOFTWARE_DIRECTORIES.map((directory) => (
-              <a key={directory.href} href={directory.href} {...getExternalLinkAttributes(directory.href)}>
-                {directory.name}
-              </a>
-            ))}
           </div>
           <div className={styles.column}>
             <h3>{uiCopy.footer.legalHeading}</h3>
@@ -243,6 +238,20 @@ export const Footer: React.FC<FooterProps> = ({
               {uiCopy.footer.termsOfServiceLabel}
             </Link>
           </div>
+          <div className={styles.column}>
+            <h3>{uiCopy.footer.followUsHeading}</h3>
+            {SOCIAL_LINKS.map((link) => (
+              <a key={link.href} href={link.href} {...getExternalLinkAttributes(link.href)}>
+                {link.label}
+              </a>
+            ))}
+            <h3 className={styles.subheading}>{uiCopy.footer.listedOnHeading}</h3>
+            {SOFTWARE_DIRECTORIES.map((directory) => (
+              <a key={directory.href} href={directory.href} {...getExternalLinkAttributes(directory.href)}>
+                {directory.name}
+              </a>
+            ))}
+          </div>
         </div>
         <div className={styles.bottom}>
           <div className={styles.bottomMeta}>
@@ -251,10 +260,7 @@ export const Footer: React.FC<FooterProps> = ({
             </span>
             <div className={styles.attribution}>
               {operatedByAttribution}
-              {renderAttributionLine(
-                uiCopy.footer.builtBy,
-                STRUCTURED_DATA_AUTHOR_URL,
-              )}
+              {renderAttributionLine(uiCopy.footer.builtBy, STRUCTURED_DATA_AUTHOR_URL)}
             </div>
           </div>
           <div className={styles.localePicker}>
@@ -265,6 +271,31 @@ export const Footer: React.FC<FooterProps> = ({
             />
           </div>
         </div>
+      </div>
+      <div className={styles.brand} aria-hidden="true">
+        <svg className={styles.wordmark} viewBox="0 0 1200 240" focusable="false">
+          <defs>
+            <linearGradient id="nibomo-footer-wordmark-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+              <stop offset="0%" stopColor="#0b0b0b" />
+              <stop offset="18%" stopColor="#8f3b13" />
+              <stop offset="40%" stopColor="#ff6719" />
+              <stop offset="60%" stopColor="#ff6719" />
+              <stop offset="82%" stopColor="#8f3b13" />
+              <stop offset="100%" stopColor="#0b0b0b" />
+            </linearGradient>
+          </defs>
+          <text
+            x="0"
+            y="235"
+            fontSize="320"
+            fontWeight="850"
+            textLength="1200"
+            lengthAdjust="spacingAndGlyphs"
+            fill="url(#nibomo-footer-wordmark-gradient)"
+          >
+            NIBOMO
+          </text>
+        </svg>
       </div>
     </footer>
   );

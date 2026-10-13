@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { CONNECTOR_DIRECTORIES } from "@/lib/connectorDirectories";
+import { AnalyticsConsentWithdrawal } from "@/components/AnalyticsConsentWithdrawal";
 import { AuthButton } from "@/components/AuthButton";
 import { AuthAwareAppCtaLink } from "@/components/AuthAwareAppCtaLink";
 import { BreadcrumbStructuredData } from "@/components/BreadcrumbStructuredData";
@@ -312,6 +313,7 @@ function renderPricingTier(
 
 async function renderLegalPage(
   locale: AppLocale,
+  slug: "privacy" | "support" | "terms",
   title: string,
   breadcrumbStructuredData: React.ReactNode,
   body: string,
@@ -333,6 +335,7 @@ async function renderLegalPage(
               <strong>{uiCopy.legal.lastUpdatedLabel}:</strong>{" "}
               {legalSection.lastUpdated}
             </p>
+            {slug === "privacy" && <AnalyticsConsentWithdrawal locale={locale} />}
             <div dangerouslySetInnerHTML={{ __html: contentHtml }} />
           </div>
         </section>
@@ -392,6 +395,7 @@ export async function MarketingPageView({
       productStructuredData = null;
       page = await renderLegalPage(
         locale,
+        slug,
         pageContent.title,
         breadcrumbStructuredData,
         pageContent.body,
