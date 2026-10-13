@@ -1,9 +1,10 @@
+import Image from "next/image";
 import Link from "next/link";
 import { CONNECTOR_DIRECTORIES } from "@/lib/connectorDirectories";
-import { FullAppCtaPanel } from "@/components/AppCtaPanel";
 import { AuthButton } from "@/components/AuthButton";
 import { AuthAwareAppCtaLink } from "@/components/AuthAwareAppCtaLink";
 import { BreadcrumbStructuredData } from "@/components/BreadcrumbStructuredData";
+import { FeatureIcon, FEATURE_ICON_NAMES } from "@/components/FeatureIcon";
 import { HomeAppWalkthrough } from "@/components/HomeAppWalkthrough";
 import { HomeHero } from "@/components/HomeHero";
 import { HomeKeyFeatures } from "@/components/HomeKeyFeatures";
@@ -33,6 +34,7 @@ import {
   createProductJsonLdGraph,
   type ProductOfferNames,
 } from "@/lib/seo/structuredData";
+import { getHomeShowcaseImagePath } from "@/lib/homeShowcaseImage";
 import { getUiCopy } from "@/lib/uiCopy";
 import { getAvailableLocalizedPathname } from "@/lib/routeTranslations";
 import homeStyles from "@/app/page.module.css";
@@ -44,6 +46,9 @@ interface MarketingPageViewProps {
   readonly locale: AppLocale;
   readonly slug: MarketingPageSlug;
 }
+
+// Source strip order: question, answer, progress, AI, cards.
+const FEATURE_CTA_SCREEN_ORDER: ReadonlyArray<number> = [3, 0, 1, 2, 4];
 
 function getMarketingRoutePathname(slug: MarketingPageSlug): string {
   if (slug === "home") {
@@ -139,46 +144,106 @@ function renderFeaturesPage(
 ): React.JSX.Element {
   const uiCopy = getUiCopy(locale);
 
+  if (featureSection.items.length !== FEATURE_ICON_NAMES.length) {
+    throw new Error(`Features page requires ${FEATURE_ICON_NAMES.length} items; received ${featureSection.items.length} for ${locale}`);
+  }
+
   return (
     <div className={featureStyles.container}>
-      <div className={featureStyles.pagePanel}>
-        <header className={featureStyles.intro}>
-          {breadcrumbStructuredData}
-          <h1 className={featureStyles.title}>{title}</h1>
-          <p className={featureStyles.subtitle}>{featureSection.intro}</p>
-        </header>
-        <section className={featureStyles.gridPanel}>
-          <div className={featureStyles.grid}>
-            {featureSection.items.map((item) => (
-              <div key={item.title} className={featureStyles.card}>
+      <header className={featureStyles.intro}>
+        {breadcrumbStructuredData}
+        <h1 className={featureStyles.title}>{title}</h1>
+        <p className={featureStyles.subtitle}>{featureSection.intro}</p>
+      </header>
+      <section aria-label={featureSection.title}>
+        <div className={featureStyles.grid}>
+          {featureSection.items.map((item, index) => {
+            const icon = FEATURE_ICON_NAMES[index];
+            if (icon === undefined) {
+              throw new Error(`Missing feature icon for: ${item.title}`);
+            }
+
+            return (
+              <article key={item.title} className={featureStyles.card}>
+                <span className={featureStyles.icon}>
+                  <FeatureIcon name={icon} />
+                </span>
                 <h2>{item.title}</h2>
                 <p>{item.description}</p>
-              </div>
-            ))}
-          </div>
-          <div className={featureStyles.connectorLinks}>
-            {CONNECTOR_DIRECTORIES.map((directory) => (
-              <a key={directory.href} href={directory.href} target="_blank" rel="noopener noreferrer">
-                {directory.linkLabel}
-              </a>
-            ))}
-            <Link href={getAvailableLocalizedPathname(locale, "/docs/mcp-connector/")}>
-              {uiCopy.footer.documentationLabel}
-            </Link>
-          </div>
-          <FullAppCtaPanel
-            action={
-              <AuthAwareAppCtaLink
-                locale={locale}
-                placement="features_end"
-              />
-            }
-            className={featureStyles.cta}
-            heading={uiCopy.cta.featuresHeading}
-            locale={locale}
-          />
-        </section>
+              </article>
+            );
+          })}
+        </div>
+      </section>
+      <div className={featureStyles.connectorLinks}>
+        {CONNECTOR_DIRECTORIES.map((directory) => (
+          <a
+            key={directory.href}
+            href={directory.href}
+            target="_blank"
+            rel="noopener noreferrer"
+            className={featureStyles.resourceLink}
+          >
+            <Image
+              src={`/brands/${directory.provider}.svg`}
+              width={20}
+              height={20}
+              alt=""
+              className={featureStyles.connectorLogo}
+            />
+            {directory.linkLabel}
+            <span aria-hidden="true">↗</span>
+          </a>
+        ))}
+        <Link
+          className={featureStyles.resourceLink}
+          href={getAvailableLocalizedPathname(locale, "/docs/mcp-connector/")}
+        >
+          <svg
+            width="20"
+            height="20"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="1.6"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            aria-hidden="true"
+            focusable="false"
+          >
+            <path d="M12 7v14m0-14C9 4.5 5 4 2 5v14c3-1 7-.5 10 2m0-14c3-2.5 7-3 10-2v14c-3-1-7-.5-10 2" />
+          </svg>
+          {uiCopy.footer.documentationLabel}
+          <span aria-hidden="true">↗</span>
+        </Link>
       </div>
+      <aside id="start-studying" className={featureStyles.cta} aria-labelledby="features-cta-title">
+        <div className={featureStyles.ctaCopy}>
+          <h2 className={featureStyles.ctaTitle} id="features-cta-title">
+            {uiCopy.cta.featuresHeading}
+          </h2>
+          <div className={featureStyles.ctaAction}>
+            <AuthAwareAppCtaLink locale={locale} placement="features_end" />
+          </div>
+        </div>
+        <div className={featureStyles.ctaScreens} role="img" aria-label={uiCopy.home.appPreviewAlt}>
+          {FEATURE_CTA_SCREEN_ORDER.map((screenIndex) => (
+            <div className={featureStyles.ctaPhone} key={screenIndex}>
+              <div className={featureStyles.ctaScreen}>
+                <Image
+                  src={getHomeShowcaseImagePath(locale)}
+                  alt=""
+                  width={7140}
+                  height={3018}
+                  sizes="(max-width: 640px) 640px, (max-width: 1240px) 100vw, 1200px"
+                  className={featureStyles.ctaImage}
+                  style={{ insetInlineStart: `${-100 * (120 + screenIndex * 1404) / 1284}%` }}
+                />
+              </div>
+            </div>
+          ))}
+        </div>
+      </aside>
     </div>
   );
 }
