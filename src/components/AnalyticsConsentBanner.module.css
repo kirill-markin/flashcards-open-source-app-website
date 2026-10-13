@@ -1,8 +1,7 @@
 .wrapper {
   position: fixed;
   inset-inline: 0;
-  /* Stands on top of the corner analytics control, which keeps the bottom-start corner. */
-  inset-block-end: var(--analytics-consent-withdrawal-height, 0px);
+  inset-block-end: 0;
   z-index: 90;
   padding-inline: 20px;
   padding-block-end: 20px;
