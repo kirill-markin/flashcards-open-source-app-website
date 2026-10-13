@@ -138,6 +138,8 @@ These exercises are written for this worksheet; the linked sources explain the u
 
 Classify a miss before adding another formula to your notes: incompatible sum, lost exponent, coefficient units, dimensional function input, or a physical error that survived the check.
 
+For more short prompts, the [dimensional analysis flashcards](/catalog/packages/dimensional-analysis-equation-flashcards/) practice term-by-term equation checks, unknown coefficient units, dimensionless function inputs, and the limits of a dimensional pass. Rebuild the ledger before revealing each answer.
+
 A useful short card asks, “In `F = αv + βv²`, must `α` and `β` have the same units?” Its answer explains that the complete terms must match, giving `kg/s` and `kg/m`. Then close the card and derive the coefficients for a new expression, such as `F = Av² + Bv³`.
 
 The [practice-questions-to-flashcards workflow](/blog/how-to-turn-practice-questions-into-flashcards/) helps isolate that reusable mistake. Keep full derivations and unfamiliar problems alongside review, as the [algebra-based physics guide](/blog/how-to-use-flashcards-for-algebra-based-physics-1/) recommends. The next problem should test whether you can rebuild the ledger without seeing the answer.
