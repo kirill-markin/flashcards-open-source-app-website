@@ -219,6 +219,10 @@
     min-inline-size: 0;
   }
 
+  .localePicker details > div {
+    max-block-size: calc(100dvh - 240px);
+  }
+
   .localePicker summary {
     inline-size: auto;
   }
