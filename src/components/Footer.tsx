@@ -8,9 +8,12 @@ import type { AppLocale } from "@/lib/i18n";
 import { getHumanPlatforms } from "@/lib/humanPlatforms";
 import { getAvailableLocalizedPathname } from "@/lib/routeTranslations";
 import { readGeneratedStoreQrCodes } from "@/lib/storeQrCodes";
-import { getUiCopy } from "@/lib/uiCopy";
+import { getUiCopy, type FooterAttributionCopy } from "@/lib/uiCopy";
 import { isPublicCatalogEnabled } from "@/lib/publicCatalogBuild";
-import { STRUCTURED_DATA_PUBLISHER_URL } from "@/lib/seo/structuredData";
+import {
+  STRUCTURED_DATA_AUTHOR_URL,
+  STRUCTURED_DATA_PUBLISHER_URL,
+} from "@/lib/seo/structuredData";
 import { getPublicCatalogUiCopy } from "@/lib/publicCatalogCopy";
 import { getPublicCatalogRootUrl } from "@/lib/publicCatalogUrls";
 import { TrackedAppEntryLink } from "./TrackedAppEntryLink";
@@ -27,6 +30,21 @@ const SOCIAL_LINKS: ReadonlyArray<{
     label: "LinkedIn",
   },
 ];
+
+function renderAttributionLine(
+  attribution: FooterAttributionCopy,
+  href: string,
+): React.ReactNode {
+  return (
+    <span className={styles.attributionLine}>
+      {attribution.prefix}
+      <a href={href} {...getExternalLinkAttributes(href)}>
+        {attribution.name}
+      </a>
+      {attribution.suffix}
+    </span>
+  );
+}
 
 interface FooterProps {
   readonly locale: AppLocale;
@@ -77,15 +95,9 @@ export const Footer: React.FC<FooterProps> = ({
       ]
       : []),
   ];
-  const operatedByAttribution = (
-    <span className={styles.attributionLine}>
-      <a
-        href={STRUCTURED_DATA_PUBLISHER_URL}
-        {...getExternalLinkAttributes(STRUCTURED_DATA_PUBLISHER_URL)}
-      >
-        {uiCopy.footer.operatedByLabel}
-      </a>
-    </span>
+  const operatedByAttribution = renderAttributionLine(
+    uiCopy.footer.operatedBy,
+    STRUCTURED_DATA_PUBLISHER_URL,
   );
 
   return (
@@ -243,9 +255,10 @@ export const Footer: React.FC<FooterProps> = ({
             </span>
             <div className={styles.attribution}>
               {isHomeDesign ? operatedByAttribution : null}
-              <span className={styles.attributionLine}>
-                {uiCopy.footer.builtByLabel}
-              </span>
+              {renderAttributionLine(
+                uiCopy.footer.builtBy,
+                STRUCTURED_DATA_AUTHOR_URL,
+              )}
               {isHomeDesign ? null : operatedByAttribution}
             </div>
           </div>
