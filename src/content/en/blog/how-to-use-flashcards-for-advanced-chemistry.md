@@ -172,6 +172,8 @@ Usually it is one of these:
 
 If the repeated miss is SI-prefix recall, [Metric Prefix Flashcards: All 24 SI Names, Symbols & Powers of Ten](/catalog/packages/metric-prefix-flashcards/) drills the current SI prefix names, case-sensitive symbols, and powers of ten. It does not teach unit conversions or chemistry problems, so keep those in separate practice.
 
+For early-rounding mistakes and final reporting limits, use the [significant figures mixed-operations flashcards](/catalog/packages/significant-figures-mixed-operations-flashcards/). The short calculations and repair prompts follow introductory classroom rules; return to full chemistry problems to practice the setup and chemical reasoning.
+
 Those are strong card targets.
 
 Examples:
