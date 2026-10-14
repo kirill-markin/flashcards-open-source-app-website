@@ -1,19 +1,20 @@
 .header {
   position: sticky;
-  top: 0;
+  inset-block-start: 0;
   z-index: 100;
-  padding: 16px 20px 0;
+  min-block-size: var(--site-header-height);
+  padding-block: 16px 0;
   background: var(--bg);
 }
 
 .inner {
-  width: min(100%, var(--content-width));
-  margin: 0 auto;
+  inline-size: var(--site-content-width);
+  margin-inline: auto;
   display: flex;
   align-items: center;
   gap: 12px;
   flex-wrap: wrap;
-  padding: 10px 12px;
+  padding-block: 10px;
   background: transparent;
 }
 
@@ -21,8 +22,8 @@
   display: inline-flex;
   align-items: center;
   min-height: 42px;
-  padding: 0 14px;
-  border: 1px solid transparent;
+  padding-inline: 0;
+  border: 0;
   border-radius: var(--radius-pill);
   font-size: 15px;
   font-weight: 650;
@@ -180,15 +181,15 @@
 
 @media (max-width: 768px) {
   .header {
-    padding: 14px 14px 0;
+    padding-block: 14px 0;
   }
 
   .inner {
-    padding: 8px;
+    padding-block: 8px;
   }
 
   .logo {
     min-height: 38px;
-    padding-inline: 12px;
+    padding-inline: 0;
   }
 }

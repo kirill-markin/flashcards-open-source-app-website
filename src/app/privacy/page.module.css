@@ -1,12 +1,13 @@
 .container {
-  width: min(100%, var(--reading-width));
-  margin: 0 auto;
-  padding: 36px 0 0;
+  inline-size: var(--site-content-width);
+  margin-inline: auto;
+  padding-block-start: 36px;
   display: grid;
   gap: 16px;
 }
 
 .intro {
+  max-inline-size: var(--reading-width);
   padding-block-end: clamp(8px, 1.6vw, 14px);
 }
 
@@ -15,6 +16,7 @@
 }
 
 .contentPanel {
+  max-inline-size: var(--reading-width);
   padding-block-end: clamp(20px, 3vw, 28px);
 }
 
@@ -127,8 +129,8 @@
 
 @media (max-width: 768px) {
   .container {
-    width: 100%;
-    padding-inline: 20px;
+    inline-size: var(--site-content-width);
+    padding-inline: 0;
     padding-top: 26px;
   }
 

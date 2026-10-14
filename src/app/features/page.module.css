@@ -1,9 +1,9 @@
 .container {
-  inline-size: min(100%, var(--content-width));
+  inline-size: var(--site-content-width);
   margin-inline: auto;
   padding-block-start: 36px;
   padding-block-end: 40px;
-  padding-inline: 20px;
+  padding-inline: 0;
 }
 
 .intro {
