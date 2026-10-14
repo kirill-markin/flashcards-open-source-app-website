@@ -53,9 +53,9 @@ const publicCatalogUrlChangeEvent = "public-catalog-url-change";
 interface PublicCatalogBrowserProps {
   readonly copy: PublicCatalogUiCopy;
   readonly data: PublicCatalogBrowseData;
+  readonly heading: React.ReactNode;
   readonly initialSearch: string;
   readonly locale: AppLocale;
-  readonly navigation: React.ReactNode;
 }
 
 function getBrowserSearch(): string {
@@ -155,9 +155,9 @@ function formatPageStatus(
 export function PublicCatalogBrowser({
   copy,
   data,
+  heading,
   initialSearch,
   locale,
-  navigation,
 }: PublicCatalogBrowserProps): React.JSX.Element {
   const searchAnalyticsSchedulerRef = useRef<PublicCatalogSearchAnalyticsScheduler | null>(null);
   // The text of the search the scheduler is holding. The vendor payload deliberately carries no
@@ -425,8 +425,8 @@ export function PublicCatalogBrowser({
 
   return (
     <>
-      <div className={styles.toolbar}>
-        {navigation}
+      <header className={styles.toolbar}>
+        {heading}
         <div className={styles.sortControl}>
           <span>{copy.browse.sortLabel}</span>
           <div className={styles.sortPicker} data-testid="catalog-sort">
@@ -443,7 +443,7 @@ export function PublicCatalogBrowser({
             />
           </div>
         </div>
-      </div>
+      </header>
       <div className={styles.browser} data-testid="catalog-browser">
         <details className={styles.filtersDetails} open>
           <summary className={styles.filtersSummary}>{copy.browse.showFiltersLabel}</summary>
