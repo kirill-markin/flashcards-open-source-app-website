@@ -1,6 +1,5 @@
 export type MarketingPageSlug =
   | "home"
-  | "features"
   | "pricing"
   | "privacy"
   | "support"

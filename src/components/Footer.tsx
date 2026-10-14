@@ -75,10 +75,6 @@ export const Footer: React.FC<FooterProps> = ({
   const executorHref = "https://executor.sh/apps/nibomo.executor.community/nibomo";
   const productLinks = [
     {
-      href: getAvailableLocalizedPathname(locale, "/features/"),
-      label: uiCopy.footer.featuresLabel,
-    },
-    {
       href: getAvailableLocalizedPathname(locale, "/pricing/"),
       label: uiCopy.footer.pricingLabel,
     },

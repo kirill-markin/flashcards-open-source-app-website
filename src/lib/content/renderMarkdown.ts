@@ -1,5 +1,4 @@
 import { getAppUrl, getSignupUrl } from "@/lib/auth";
-import { getHomeShowcaseImagePath } from "@/lib/homeShowcaseImage";
 import { getHumanPlatforms } from "@/lib/humanPlatforms";
 import type { AppLocale } from "@/lib/i18n";
 import { localizeInternalLinks } from "@/lib/localizeInternalLinks";
@@ -214,18 +213,6 @@ function renderFeatureListSection(
   lines.push("");
 }
 
-function renderFeaturesResources(locale: AppLocale, lines: string[]): void {
-  const uiCopy = getUiCopy(locale);
-
-  CONNECTOR_DIRECTORIES.forEach((directory) => {
-    lines.push(`[${getConnectorDirectoryLabel(locale, directory.name)}](${directory.href})`);
-  });
-  lines.push("");
-  lines.push(`[${uiCopy.footer.documentationLabel}](${getAvailableLocalizedPathname(locale, "/docs/mcp-connector/")})`);
-  lines.push("");
-  lines.push(`![${uiCopy.home.appPreviewAlt}](${getHomeShowcaseImagePath(locale)})`, "");
-}
-
 function renderPricingTier(tier: PricingTier, lines: string[]): void {
   lines.push(`## ${tier.name} - ${tier.price}`);
   lines.push("");
@@ -288,9 +275,6 @@ function renderPageSections(
           lines.push(copy.recall[0], "");
           copy.ratings.forEach((rating,index)=>lines.push(`- **${rating}:** ${copy.outcomes[index]}`));
           lines.push("");
-        }
-        if (pageContent.slug === "features") {
-          renderFeaturesResources(locale, lines);
         }
         return;
       case "public_activity":

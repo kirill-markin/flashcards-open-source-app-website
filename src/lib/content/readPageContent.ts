@@ -33,11 +33,10 @@ import type {
   SimpleMarkdownPageSection,
 } from "./types";
 
-type StructuredMarketingPageSlug = "home" | "features" | "pricing";
+type StructuredMarketingPageSlug = "home" | "pricing";
 type MarkdownBackedPageSlug = "privacy" | "support" | "terms";
 const STRUCTURED_PAGE_SLUGS: ReadonlyArray<StructuredMarketingPageSlug> = [
   "home",
-  "features",
   "pricing",
 ] as const;
 
@@ -48,7 +47,6 @@ const STRUCTURED_PAGE_SOURCE_FILE_PATHS: Readonly<
     locale,
     {
       home: getStructuredMarketingPageFilePath(locale, "home"),
-      features: getStructuredMarketingPageFilePath(locale, "features"),
       pricing: getStructuredMarketingPageFilePath(locale, "pricing"),
     },
   ])
@@ -58,7 +56,6 @@ const STRUCTURED_PAGE_SOURCE_FILE_PATHS: Readonly<
 
 export const MARKETING_PAGE_SLUGS: ReadonlyArray<MarketingPageSlug> = [
   "home",
-  "features",
   "pricing",
   "privacy",
   "support",
@@ -374,14 +371,6 @@ function validatePageStructure(pageContent: PageContent): PageContent {
       }
       return pageContent;
     }
-    case "features":
-      if (
-        pageContent.sections.length !== 1 ||
-        pageContent.sections[0].type !== "feature_list"
-      ) {
-        throw new Error("Features page content must contain one feature_list section");
-      }
-      return pageContent;
     case "pricing":
       if (
         pageContent.sections.length !== 1 ||
