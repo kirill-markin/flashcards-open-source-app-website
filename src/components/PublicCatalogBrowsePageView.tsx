@@ -1,6 +1,5 @@
 import { BreadcrumbStructuredData } from "@/components/BreadcrumbStructuredData";
 import { PublicCatalogBrowser } from "@/components/PublicCatalogBrowser";
-import { PublicCatalogNavigation } from "@/components/PublicCatalogNavigation";
 import { SiteFrame } from "@/components/SiteFrame";
 import { MarketingHeading, getMarketingHeadingBadge } from "@/components/MarketingHeading";
 import { StructuredDataScript } from "@/components/StructuredDataScript";
@@ -32,25 +31,21 @@ export function PublicCatalogBrowsePageView({
     <SiteFrame locale={locale} routePathname={PUBLIC_CATALOG_ROUTE_PATHNAME}>
       <StructuredDataScript value={createPublicCatalogRootJsonLd(catalog, locale)} />
       <div className={styles.container}>
-        <header className={styles.introPanel}>
-          <BreadcrumbStructuredData
-            items={[
-              {
-                label: copy.breadcrumbLabel,
-                href: getPublicCatalogRootUrl(locale),
-              },
-            ]}
-            locale={locale}
-          />
-          <MarketingHeading badge={getMarketingHeadingBadge(locale, "catalog")} title={copy.title} />
-          <p className={styles.intro}>{copy.intro}</p>
-        </header>
+        <BreadcrumbStructuredData
+          items={[
+            {
+              label: copy.breadcrumbLabel,
+              href: getPublicCatalogRootUrl(locale),
+            },
+          ]}
+          locale={locale}
+        />
         <PublicCatalogBrowser
           copy={copy}
           data={browseData}
+          heading={<MarketingHeading badge={getMarketingHeadingBadge(locale, "catalog")} title={copy.title} />}
           initialSearch={getPublicCatalogRootSearch(locale)}
           locale={locale}
-          navigation={<PublicCatalogNavigation currentSection="packages" locale={locale} />}
         />
       </div>
     </SiteFrame>
