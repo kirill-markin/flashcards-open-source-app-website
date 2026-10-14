@@ -32,7 +32,6 @@ export function DashboardsPageView({
         <header className={styles.header}>
           <div className={styles.intro}>
             <MarketingHeading badge={getMarketingHeadingBadge(locale, "activity")} title={activityCopy.title} />
-            <p className={styles.description}>{activityCopy.description}</p>
           </div>
           <TrackedOutboundLink
             className={styles.sourceLink}
