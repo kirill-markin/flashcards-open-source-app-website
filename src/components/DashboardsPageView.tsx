@@ -3,6 +3,7 @@ import {
   PublicActivityCharts,
   PublicActivitySummary,
 } from "@/components/PublicActivitySection";
+import { MarketingHeading, getMarketingHeadingBadge } from "@/components/MarketingHeading";
 import { SiteFrame } from "@/components/SiteFrame";
 import { TrackedOutboundLink } from "@/components/TrackedOutboundLink";
 import {
@@ -30,8 +31,7 @@ export function DashboardsPageView({
       <div className={styles.page}>
         <header className={styles.header}>
           <div className={styles.intro}>
-            <h1 className={styles.title}>{activityCopy.title}</h1>
-            <p className={styles.eyebrow}>{activityCopy.eyebrow}</p>
+            <MarketingHeading badge={getMarketingHeadingBadge(locale, "activity")} title={activityCopy.title} />
             <p className={styles.description}>{activityCopy.description}</p>
           </div>
           <TrackedOutboundLink

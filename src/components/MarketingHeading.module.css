@@ -1,0 +1,45 @@
+.heading {
+  min-inline-size: 0;
+  text-align: start;
+}
+
+.badge {
+  position: relative;
+  display: flex;
+  inline-size: fit-content;
+  padding-block: 4px;
+  padding-inline: 10px;
+  border: 1px solid transparent;
+  border-radius: var(--radius-pill);
+  background: rgb(255 103 25 / 10%);
+  background-clip: padding-box;
+  color: var(--accent);
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 15px;
+  letter-spacing: 0;
+}
+
+.badge::before {
+  content: "";
+  position: absolute;
+  inset: -1px;
+  padding: 1px;
+  border-radius: inherit;
+  background: linear-gradient(90deg, var(--accent), rgb(255 103 25 / 10%));
+  mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  mask-composite: exclude;
+  pointer-events: none;
+}
+
+.title {
+  margin: 0;
+}
+
+.badge + .title {
+  margin-block-start: var(--heading-badge-gap);
+}
+
+.line {
+  display: block;
+}

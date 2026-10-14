@@ -1,6 +1,8 @@
 import Link from "next/link";
 import { BreadcrumbStructuredData } from "@/components/BreadcrumbStructuredData";
 import { SiteFrame } from "@/components/SiteFrame";
+import { MarketingHeading, getMarketingHeadingBadge } from "@/components/MarketingHeading";
+import { formatHeadingText } from "@/lib/headingText";
 import { listBlogPosts } from "@/lib/blog";
 import type { AppLocale } from "@/lib/i18n";
 import { getLocalizedPathname } from "@/lib/i18n";
@@ -31,7 +33,7 @@ export function BlogPageView({
               ]}
               locale={locale}
             />
-            <h1 className={styles.title}>{uiCopy.blog.title}</h1>
+            <MarketingHeading badge={getMarketingHeadingBadge(locale, "blog")} title={uiCopy.blog.title} />
           </header>
           <section className={styles.listPanel}>
             {posts.length === 0 ? (
@@ -48,7 +50,7 @@ export function BlogPageView({
                       <time className={styles.date} dateTime={post.date}>
                         {post.date}
                       </time>
-                      <h2 className={styles.cardTitle}>{post.title}</h2>
+                      <h2 className={styles.cardTitle}>{formatHeadingText(post.title)}</h2>
                     </header>
                     <p>{post.description}</p>
                   </Link>

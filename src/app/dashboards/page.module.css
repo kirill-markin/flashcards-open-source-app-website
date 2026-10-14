@@ -1,7 +1,7 @@
 .page {
   inline-size: var(--site-content-width);
   margin-inline: auto;
-  padding-block-start: 36px;
+  padding-block-start: var(--page-intro-offset);
   padding-inline: 0;
   display: grid;
   gap: 18px;
@@ -54,7 +54,7 @@
   border-radius: var(--radius-pill);
   background: rgba(255, 255, 255, 0.04);
   color: var(--text);
-  font-size: 13px;
+  font-size: 14px;
   font-weight: 650;
   text-align: center;
   flex: 0 0 auto;
@@ -84,7 +84,7 @@
 
 @media (max-width: 768px) {
   .page {
-    padding-block-start: 26px;
+    padding-block-start: var(--page-intro-offset);
     padding-inline: 0;
     gap: 16px;
   }

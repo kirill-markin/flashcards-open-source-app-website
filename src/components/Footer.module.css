@@ -13,16 +13,13 @@
 }
 
 .cta {
-  padding-block: clamp(88px, 10vw, 200px) clamp(120px, 14vw, 280px);
+  padding-block: var(--page-intro-offset) clamp(120px, 14vw, 280px);
   padding-inline: var(--footer-gutter);
   text-align: center;
 }
 
-.ctaTitle {
-  font-size: clamp(32px, 2.85vw, 56px);
-  font-weight: 600;
-  line-height: 1.2;
-  letter-spacing: -0.025em;
+.cta .ctaTitle {
+  text-align: center;
 }
 
 .ctaDescription {
@@ -82,7 +79,7 @@
 .column h3 {
   margin-block-end: 4px;
   color: #c8c8c8;
-  font-size: clamp(11px, 0.8vw, 16px);
+  font-size: clamp(12px, 0.8vw, 16px);
   font-weight: 400;
   line-height: 1.4;
   letter-spacing: 0.12em;
@@ -140,7 +137,7 @@
 .copyright,
 .attributionLine {
   color: var(--text-secondary);
-  font-size: clamp(13px, 0.95vw, 19px);
+  font-size: clamp(14px, 0.95vw, 19px);
   line-height: 1.5;
 }
 
@@ -230,8 +227,9 @@
 
 @media (max-width: 600px) {
   .cta {
-    padding-block: 80px 96px;
+    padding-block: var(--page-intro-offset) 96px;
   }
+
 
   .ctaTitle {
     max-inline-size: 320px;
