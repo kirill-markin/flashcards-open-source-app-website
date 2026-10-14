@@ -175,6 +175,8 @@ That last distinction matters. Some misses are retrieval failures. Others are se
 
 For repeated unit-check errors, [these dimensional analysis flashcards](/catalog/packages/dimensional-analysis-equation-flashcards/) practice matching complete terms and finding coefficient units in short scalar physics expressions. Use them between full problems, then check the same habit in an unfamiliar setup.
 
+If you round too early or report too many digits, the [significant figures mixed-operations flashcards](/catalog/packages/significant-figures-mixed-operations-flashcards/) practice carrying extra digits and tracking reporting limits through short calculations. They use introductory classroom rules; keep physics modeling and full uncertainty analysis in your problem and lab work.
+
 If most of your raw material comes from corrections, [How to Turn Practice Questions Into Flashcards in 2026](/blog/how-to-turn-practice-questions-into-flashcards/) goes deeper on that workflow.
 
 ## Use AI to process mistakes, not to skip the physics

@@ -106,3 +106,5 @@ A useful review card preserves enough context to answer without this article. Ch
 | Does a sample mean matching the reference prove high trueness? | No. One finite sample doesn't establish where the average over indefinitely many repetitions would lie. |
 
 When you return to a numerical problem, write the reference beside the readings. Check the individual differences and the spread before trusting the average.
+
+Reporting a calculated result is a separate skill. The [significant figures mixed-operations flashcards](/catalog/packages/significant-figures-mixed-operations-flashcards/) practice carrying extra digits and choosing the final reporting limit under introductory classroom rules. Those rules do not establish measurement accuracy or agreement across repeated readings.
