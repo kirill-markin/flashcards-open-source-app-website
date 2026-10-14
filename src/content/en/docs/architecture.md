@@ -1,6 +1,6 @@
 ---
 title: Architecture
-description: System overview, public domains, supported clients, and the current offline-first data flow.
+description: Explore the system, supported clients, and offline-first data flow.
 ---
 
 ## System Overview
