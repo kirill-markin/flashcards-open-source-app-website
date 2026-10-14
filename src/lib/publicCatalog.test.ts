@@ -1946,8 +1946,8 @@ test("builds canonical catalog destinations and identifies current catalog pages
     ["en", "es"],
   );
   assert.equal(
-    getLocaleSwitcherEntries("/features/").find((entry) => entry.locale === "es")?.href,
-    "/es/features/",
+    getLocaleSwitcherEntries("/pricing/").find((entry) => entry.locale === "es")?.href,
+    "/es/pricing/",
   );
   assert.equal(isPublicCatalogPageRoutePathname("/catalog/"), true);
   assert.equal(
