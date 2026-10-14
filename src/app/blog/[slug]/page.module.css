@@ -115,7 +115,7 @@
   gap: 10px;
   min-width: 0;
   padding: 16px;
-  border-radius: var(--radius-lg);
+  border-radius: var(--radius-card);
   background: var(--surface);
   text-decoration: none;
   transition:

@@ -3,8 +3,7 @@
   display: grid;
   place-items: center;
   min-block-size: 148px;
-  border: 1px solid var(--border);
-  border-radius: var(--radius-lg);
+  border-radius: var(--radius-card);
   background:
     radial-gradient(circle at 30% 20%, var(--accent-muted), transparent 48%),
     rgba(255, 255, 255, 0.035);

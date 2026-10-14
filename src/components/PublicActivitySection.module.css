@@ -1,6 +1,6 @@
 .section {
   border: 1px solid var(--border);
-  border-radius: var(--radius-xl);
+  border-radius: var(--radius-card);
   background: var(--surface);
   box-shadow: var(--shadow-soft);
   padding: 18px;
@@ -102,7 +102,7 @@
   margin: 0;
   padding-block: 16px;
   padding-inline: 16px;
-  border-radius: var(--radius-lg);
+  border-radius: var(--radius-card);
   background: var(--surface);
   display: grid;
   gap: 14px;
@@ -131,7 +131,7 @@
 }
 
 .metricCard {
-  border-radius: var(--radius-lg);
+  border-radius: var(--radius-card);
   background: var(--surface);
   padding: 16px;
   display: grid;
@@ -162,7 +162,7 @@
 }
 
 .chartShell {
-  border-radius: var(--radius-lg);
+  border-radius: var(--radius-card);
   background: var(--surface);
   overflow: hidden;
 }
@@ -475,7 +475,6 @@
   .section {
     padding: 14px;
     gap: 14px;
-    border-radius: 20px;
   }
 
   .metricGrid {
