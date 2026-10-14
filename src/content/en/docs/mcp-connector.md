@@ -1,6 +1,6 @@
 ---
 title: MCP Connector
-description: "Connect Nibomo through the Claude directory or configure its remote MCP server in Claude Code and other clients, with OAuth and eight tools for flashcards and reviews."
+description: Use Nibomo with Claude, Claude Code, and other MCP clients.
 ---
 
 ## Connect through the Claude directory

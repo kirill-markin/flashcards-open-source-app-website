@@ -1,6 +1,6 @@
 ---
 title: API Reference
-description: External agent API for discovery, OTP bootstrap, workspace setup, and the published read and write SQL surfaces.
+description: Connect AI agents to your flashcards with the external API.
 ---
 
 ## Overview
