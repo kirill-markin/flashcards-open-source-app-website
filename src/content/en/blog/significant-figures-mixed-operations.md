@@ -109,4 +109,4 @@ Keep full calculations as written practice. For recall, turn a specific missed d
 | What must you identify before adding an intermediate product? | The decimal place of its last reportable significant digit. |
 | Does dividing by an exact count of four restrict the result to one significant figure? | No. The measured quantities set the limit. |
 
-The [guide to making better flashcards](/blog/how-to-make-better-flashcards/) explains how to keep each prompt focused. After reviewing a missed rule, try a new calculation with different numbers and write the reporting limit before revealing the answer.
+The [guide to making better flashcards](/blog/how-to-make-better-flashcards/) explains how to keep each prompt focused. After reviewing a missed rule, try a new calculation with different numbers and write the reporting limit before revealing the answer. For more short calculations and mistake-repair prompts, use the [significant figures mixed-operations flashcards](/catalog/packages/significant-figures-mixed-operations-flashcards/) to practice carrying extra digits and choosing the final reporting limit.
