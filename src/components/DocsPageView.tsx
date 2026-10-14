@@ -1,6 +1,8 @@
 import Link from "next/link";
 import { BreadcrumbStructuredData } from "@/components/BreadcrumbStructuredData";
 import { SiteFrame } from "@/components/SiteFrame";
+import { MarketingHeading, getMarketingHeadingBadge } from "@/components/MarketingHeading";
+import { formatHeadingText } from "@/lib/headingText";
 import { DOC_SLUGS } from "@/data/docs";
 import { getDocs } from "@/lib/docs";
 import type { AppLocale } from "@/lib/i18n";
@@ -32,7 +34,7 @@ export function DocsPageView({
               ]}
               locale={locale}
             />
-            <h1 className={styles.title}>{uiCopy.docs.title}</h1>
+            <MarketingHeading badge={getMarketingHeadingBadge(locale, "docs")} title={uiCopy.docs.title} />
           </header>
           <section className={styles.gridPanel}>
             <div className={styles.grid}>
@@ -42,7 +44,7 @@ export function DocsPageView({
                   href={getLocalizedPathname(locale, `/docs/${doc.slug}/`)}
                   className={styles.card}
                 >
-                  <h2>{doc.title}</h2>
+                  <h2>{formatHeadingText(doc.title)}</h2>
                   <p>{doc.description}</p>
                 </Link>
               ))}

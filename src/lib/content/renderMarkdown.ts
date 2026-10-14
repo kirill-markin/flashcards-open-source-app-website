@@ -1,3 +1,6 @@
+import { getPricingCards, getPricingTerms } from "@/lib/pricingCards";
+import { getPricingExperienceCopy } from "@/lib/pricingExperienceCopy";
+import { formatHeadingText } from "@/lib/headingText";
 import { getAppUrl, getSignupUrl } from "@/lib/auth";
 import { getHumanPlatforms } from "@/lib/humanPlatforms";
 import type { AppLocale } from "@/lib/i18n";
@@ -25,7 +28,6 @@ import type {
   LegalPageSection,
   MarketingPageSlug,
   PageContent,
-  PricingTier,
   PricingTiersSection,
   ReviewCtaSection,
 } from "./types";
@@ -213,32 +215,20 @@ function renderFeatureListSection(
   lines.push("");
 }
 
-function renderPricingTier(tier: PricingTier, lines: string[]): void {
-  lines.push(`## ${tier.name} - ${tier.price}`);
-  lines.push("");
-
-  tier.bullets.forEach((bullet) => {
-    lines.push(`- ${bullet}`);
-  });
-
-  lines.push("");
-  lines.push(`[${tier.cta.label}](${tier.cta.href})`);
-  lines.push("");
-}
-
 function renderPricingTiersSection(
   section: PricingTiersSection,
-  pageContent: PageContent,
+  locale: AppLocale,
   lines: string[]
 ): void {
-  if (section.title !== pageContent.title) {
-    lines.push(`## ${section.title}`);
-    lines.push("");
-  }
-
-  lines.push(section.intro);
-  lines.push("");
-  section.tiers.forEach((tier) => renderPricingTier(tier, lines));
+  const copy = getPricingExperienceCopy(locale);
+  lines.push(`## ${copy.heading.map(formatHeadingText).join(" ")}`, "");
+  getPricingCards(section, locale).forEach(card => {
+    lines.push(`### ${formatHeadingText(card.tier.name)} — ${card.amount}${card.period === null ? "" : ` ${card.period}`}`, "");
+    lines.push(card.description, "");
+    card.features.forEach(feature => lines.push(`- ${feature}`));
+    lines.push("", `[${card.actionLabel}](${card.tier.cta.href})`, "");
+  });
+  lines.push(getPricingTerms(section, locale), "");
 }
 
 function renderLegalPageSection(
@@ -287,7 +277,7 @@ function renderPageSections(
         renderReviewCtaSection(section, locale, lines);
         return;
       case "pricing_tiers":
-        renderPricingTiersSection(section, pageContent, lines);
+        renderPricingTiersSection(section, locale, lines);
         return;
       case "legal_page":
         renderLegalPageSection(section, pageContent, locale, lines);

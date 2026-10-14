@@ -35,10 +35,6 @@
 
 .hero .heroTitle {
   margin-block-start: 24px;
-  font-size: 60px;
-  font-weight: 600;
-  line-height: 73px;
-  letter-spacing: 0;
   overflow-wrap: normal;
 }
 
@@ -67,7 +63,7 @@
 .flipper[data-revealed="true"] { transform: rotateY(180deg); }
 .cardFront, .cardBack { position: absolute; inset: 0; display: flex; flex-direction: column; padding: 30px; border: 1px solid rgb(255 255 255 / 8%); border-radius: 32px; background: var(--surface); backface-visibility: hidden; }
 .cardBack { transform: rotateY(180deg); }
-.cardMeta { display: flex; justify-content: space-between; color: var(--text-tertiary); font-size: 11px; }
+.cardMeta { display: flex; justify-content: space-between; color: var(--text-tertiary); font-size: 12px; }
 .cardMeta span:first-child { color: var(--accent); }
 .cardLabel { margin-block-start: 38px; color: var(--text-tertiary); font-size: 10px; letter-spacing: .1em; text-transform: uppercase; }
 .cardQuestion { margin-block-start: 12px; font-size: clamp(24px, 2.5vw, 32px); font-weight: 450; line-height: 1.25; letter-spacing: -.025em; white-space: pre-line; }
@@ -82,7 +78,7 @@
   isolation: isolate;
   inline-size: var(--story-width);
   margin-inline-start: calc((100% - var(--story-width)) / 2);
-  padding-block: 100px;
+  padding-block: var(--page-intro-offset) 100px;
   color: #fff;
   scroll-margin-block-start: var(--site-header-height);
 }
@@ -123,8 +119,7 @@
   mask-composite: exclude;
   pointer-events: none;
 }
-.page h2 { font-size: clamp(30px, 3.3vw, 42px); font-weight: 500; line-height: 1.15; letter-spacing: -.03em; }
-.sectionIntro h2 { margin-block-start: 24px; font-size: 40px; font-weight: 600; line-height: 48px; letter-spacing: 0; }
+.sectionIntro h2 { margin-block-start: var(--heading-badge-gap); }
 .steps { display: grid; grid-template-columns: repeat(3, minmax(0,1fr)); grid-template-rows: repeat(4,auto); column-gap: 32px; margin-block-start: 80px; }
 .step { display: grid; grid-row: span 4; grid-template-rows: subgrid; min-inline-size: 0; }
 .stepLabel { color: var(--accent); font-size: 12px; font-weight: 500; font-style: italic; line-height: 15px; letter-spacing: 0; }
@@ -147,9 +142,9 @@
 .screenImage { position: absolute; display: block; inline-size: calc(100% * 7140 / 1284); max-inline-size: none; block-size: auto; inset-block-start: calc(-100% * 120 / 2778); }
 
 .features { position: relative; isolation: isolate; display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); grid-template-rows: auto auto; inline-size: 100vw; margin-inline-start: calc((100% - 100vw) / 2); padding-block-end: 48px; color: #fff; scroll-margin-block-start: var(--site-header-height); }
-.featurePrimary { display: grid; grid-column: 1; grid-row: 1 / span 2; grid-template-rows: subgrid; min-inline-size: 0; padding-block: 100px 90px; padding-inline-start: var(--site-content-gutter); padding-inline-end: 80px; border-end-end-radius: 80px; background: var(--surface); }
-.featurePrimary h2 { margin-block-start: 24px; font-size: 40px; font-weight: 600; line-height: 48px; letter-spacing: 0; }
-.featureSecondary { display: grid; grid-column: 2; grid-row: 1 / span 2; grid-template-rows: subgrid; align-items: start; min-inline-size: 0; padding-block: 100px 90px; padding-inline-start: 72px; padding-inline-end: var(--site-content-gutter); border-end-start-radius: 80px; background: var(--preview-panel-background); }
+.featurePrimary { display: grid; grid-column: 1; grid-row: 1 / span 2; grid-template-rows: subgrid; min-inline-size: 0; padding-block: var(--page-intro-offset) 90px; padding-inline-start: var(--site-content-gutter); padding-inline-end: 80px; border-end-end-radius: 80px; background: var(--surface); }
+.featurePrimary h2 { margin-block-start: var(--heading-badge-gap); }
+.featureSecondary { display: grid; grid-column: 2; grid-row: 1 / span 2; grid-template-rows: subgrid; align-items: start; min-inline-size: 0; padding-block: var(--page-intro-offset) 90px; padding-inline-start: 72px; padding-inline-end: var(--site-content-gutter); border-end-start-radius: 80px; background: var(--preview-panel-background); }
 .leadFeature { inline-size: min(100%,550px); min-inline-size: 0; margin-block-start: 50px; margin-inline: auto; }
 .icon { display: grid; place-items: center; flex: 0 0 44px; inline-size: 44px; block-size: 44px; border-radius: 14px; background: var(--accent-soft); color: var(--accent); }
 .rhythmPerspective { margin-block-end: 70px; }
@@ -200,12 +195,11 @@
 
 @media (max-width: 980px) {
   .hero { gap: 64px; grid-template-columns: minmax(0,1fr); padding-block: 80px; }
-  .hero .heroTitle { font-size: 52px; line-height: 1.2; }
   .storeLinks { margin-block-start: 48px; }
   .demo { gap: 56px; }
   .features { grid-template-columns: minmax(0,1fr); }
   .featurePrimary, .featureSecondary { display: block; grid-column: auto; grid-row: auto; padding-inline: 32px; }
-  .featurePrimary { padding-block: 64px 80px; }
+  .featurePrimary { padding-block: var(--page-intro-offset) 80px; }
   .featureSecondary { padding-block: 64px 80px; }
   .supportingFeatures { inline-size: min(100%,550px); margin-block-start: 0; margin-inline: auto; }
   .steps { column-gap: 24px; }
@@ -217,7 +211,6 @@
 @media (max-width: 700px) {
   .hero { grid-template-columns: minmax(0,1fr); }
   .hero { gap: 64px; padding-block: 48px 64px; }
-  .hero .heroTitle { font-size: clamp(32px, 8.4vw, 55px); }
   .heroDescription { font-size: 16px; }
   .flowLine { display: grid; grid-template-columns: 38px minmax(0,1fr); }
   .flowLine:first-child > span:first-child { grid-column: 1 / -1; }
@@ -228,14 +221,12 @@
   .cardQuestion { font-size: 28px; }
   .cardLabel { margin-block-start: 24px; }
   .cardAnswer { font-size: 18px; }
-  .story { padding-block: 64px; }
-  .sectionIntro h2 { font-size: 32px; line-height: 1.2; }
+  .story { padding-block: var(--page-intro-offset) 64px; }
   .steps { grid-template-columns: minmax(0,1fr); grid-template-rows: none; gap: 48px; margin-block-start: 48px; }
   .step { display: block; grid-row: auto; }
   .step h3 { min-block-size: 0; }
   .stepDescription { min-block-size: 0; }
   .featurePrimary, .featureSecondary { padding-inline: 24px; }
-  .featurePrimary h2 { font-size: 32px; line-height: 1.2; }
   .leadFeature { margin-block-start: 40px; }
   .rhythmFlipper { min-block-size: 280px; block-size: auto; }
   .rhythmFace { padding-block: 22px 88px; padding-inline: 22px; }
