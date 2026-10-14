@@ -34,15 +34,14 @@ function SiteFrameLayout({
   routeLocales,
   routePathname,
 }: SiteFrameLayoutProps): React.JSX.Element {
-  const isHomePage = routePathname === "/";
   const uiCopy = getUiCopy(locale);
 
   return (
     <>
       <Header
         locale={locale}
-        signupLabel={isHomePage ? uiCopy.auth.tryNow : undefined}
-        hideLogin={isHomePage}
+        signupLabel={uiCopy.auth.tryNow}
+        hideLogin
       />
       <main>{children}</main>
       <Footer

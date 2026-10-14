@@ -3,9 +3,9 @@
   --blog-start-cta-width: 180px;
 
   position: relative;
-  width: min(100%, var(--reading-width));
-  margin: 0 auto;
-  padding: 36px 0 0;
+  inline-size: var(--site-content-width);
+  margin-inline: auto;
+  padding-block-start: 36px;
   display: flex;
   flex-direction: column;
   gap: 16px;
@@ -16,7 +16,7 @@
 }
 
 .articlePanel {
-  width: 100%;
+  inline-size: min(100%, var(--reading-width));
   max-width: 100%;
   min-width: 0;
 }
@@ -313,9 +313,7 @@
   .startCtaRail {
     position: absolute;
     inset-block-start: 36px;
-    inset-inline-start: calc(
-      -1 * (var(--blog-start-cta-width) + var(--blog-start-cta-gap))
-    );
+    inset-inline-start: calc(var(--reading-width) + var(--blog-start-cta-gap));
     display: block;
     inline-size: var(--blog-start-cta-width);
   }
@@ -323,8 +321,8 @@
 
 @media (max-width: 768px) {
   .container {
-    width: 100%;
-    padding-inline: 20px;
+    inline-size: var(--site-content-width);
+    padding-inline: 0;
     padding-top: 26px;
   }
 

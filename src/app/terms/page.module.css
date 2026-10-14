@@ -1,7 +1,7 @@
 .container {
-  width: min(100%, 980px);
-  margin: 0 auto;
-  padding: 36px 20px 0;
+  inline-size: var(--site-content-width);
+  margin-inline: auto;
+  padding-block-start: 36px;
   display: grid;
   gap: 16px;
 }
@@ -66,7 +66,7 @@
 
 @media (max-width: 768px) {
   .container {
-    padding-inline: 14px;
+    padding-inline: 0;
     padding-top: 26px;
   }
 
