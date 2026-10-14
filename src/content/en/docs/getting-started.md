@@ -1,6 +1,6 @@
 ---
 title: Getting Started
-description: Start with the hosted web app, connect an agent through the discovery URL, or run the local stack yourself.
+description: Get set up with the web app, an AI agent, or the local stack.
 ---
 
 ## Hosted Web App
