@@ -11,186 +11,204 @@ keywords:
   - "frameshift practice"
 ---
 
-The sequence **5′–AUGCUAAGGUGA–3′** contains the letters `UAA`. Yet, starting at its first AUG, it produces **Met–Leu–Arg** before stopping at UGA. The UAA crosses a codon boundary. Finding three familiar letters somewhere in a sequence isn't enough; they have to sit in the frame you're translating.
+Changing **GAA to GAG** leaves Glu in a translated sequence. Changing the same GAA to UAA ends translation at that position. Neither edit shifts the reading frame. A mutation's effect takes two checks: what happened to the triplet boundaries, and what the new codons actually specify.
 
-To translate mRNA into an amino acid sequence, choose the specified start, draw the triplets, and keep their boundaries. The three worked examples below show the method; seven practice questions let you check it. All sequences are original, artificial classroom examples.
+This mRNA translation practice compares substitutions, insertions, and deletions of one artificial sequence, then gives seven mutation-only questions with explained answers. If grouping an unchanged sequence is still difficult, start with the [codon vs anticodon and reading-frame lesson](/blog/codon-vs-anticodon-practice/). Here, the work begins when the bases change.
 
 ![A person feeds a punched paper melody strip into a hand-cranked music box](/blog/mrna-translation-practice.png)
 
-## Set the rules before translating
+## Keep one baseline while changing the bases
 
-For every problem here, use the **standard genetic code** and the **initiation AUG specified by the exercise**. Treat each input as a segment of already mature mRNA; there's no splicing step to infer. Write the newly translated amino acid sequence, counting the initial methionine. We aren't predicting later protein processing or identifying real genes.
+Use the **standard genetic code**, mature mRNA written **5′→3′**, and the specified initiation AUG at **bases 1–3**. All edits retain that AUG. Count the initial Met and report the newly translated sequence before later processing. Stop at the first in-frame stop; if none is supplied, report only the translated fragment. These are classroom models, not real genes.
 
-A **codon** is a group of three nucleotides that specifies an amino acid or a stop signal ([NHGRI's codon definition](https://www.genome.gov/genetics-glossary/Codon)). Read the mRNA **5′→3′**. Once initiation establishes the frame, use consecutive, non-overlapping triplets. The resulting amino acid sequence runs from its N terminus toward its C terminus ([OpenStax on translation](https://openstax.org/books/biology-2e/pages/15-5-ribosomes-and-protein-synthesis)).
+AUG specifies Met; UAA, UAG, and UGA are stops under [NCBI's standard code, table 1](https://www.ncbi.nlm.nih.gov/Taxonomy/Utils/wprintgc.cgi#SG1). Its compact table uses T where an RNA chart uses U. The supplied start avoids having to infer initiation from biological context, discussed in [OpenStax's protein synthesis chapter](https://openstax.org/books/biology-2e/pages/15-5-ribosomes-and-protein-synthesis).
 
-In this model, **AUG gives Met**, and **UAA, UAG, and UGA are stops**. A stop adds no amino acid. A later in-frame AUG adds another Met; it doesn't reset the frame. These assignments use [NCBI's standard code, table 1](https://www.ncbi.nlm.nih.gov/Taxonomy/Utils/wprintgc.cgi#SG1). Its compact table prints T; use U for the corresponding RNA codon.
-
-The start is given deliberately. Real initiation depends on biological context; finding the first AUG or the longest open reading frame in arbitrary letters doesn't establish a real gene. [OpenStax discusses initiation context](https://openstax.org/books/biology-2e/pages/15-5-ribosomes-and-protein-synthesis).
-
-If you still need to get RNA from DNA, do that separately with the [coding vs template strand practice](/blog/coding-vs-template-strand/). Those transcription examples stop before RNA processing and don't specify a translation frame; don't silently treat them as complete mature mRNAs.
-
-## Work it out with a sequence ledger
-
-Before opening a codon chart, put the sequence in 5′→3′ order. Mark the specified start. Split off any prefix, then group triplets from that AUG. Look up each complete codon in that order, stopping at the first in-frame stop. Keep downstream bases visible, but leave them out of this translation product.
-
-### 1. A prefix and a stop both stay outside the amino acid count
-
-**Given:** `5′–CCAUGGCUUUUUAGGGA–3′`. Initiation is at the AUG beginning at base 3, counting from the 5′ end as base 1.
+Our baseline has 15 bases and gives four residues:
 
 ```text
-5′–CC | AUG GCU UUU | UAG | GGA–3′
- prefix   residues   stop  downstream
+Base positions:  1–3   4–6   7–9  10–12  13–15
+Baseline:        AUG   GAA   CCU   GGC    UAA
+Translation:     Met   Glu   Pro   Gly    stop
+Joined sequence: 5′–AUGGAACCUGGCUAA–3′
 ```
 
-| Part | Bases | Positions in the supplied segment | What to record |
-| --- | --- | --- | --- |
-| Prefix before the selected start | CC | 1–2 | Outside this translation product |
-| Initiation codon | AUG | 3–5 | Met, residue 1 |
-| Next complete triplet | GCU | 6–8 | Ala, residue 2 |
-| Next complete triplet | UUU | 9–11 | Phe, residue 3 |
-| First in-frame stop | UAG | 12–14 | Stop; no residue |
-| Bases after that stop | GGA | 15–17 | Outside this translation product |
+Every variant below starts from that baseline independently. Positions refer to the **original** sequence, so inserting bases doesn't change the meaning of the next row's instructions.
 
-**Answer: Met–Ala–Phe, three amino acid residues.** You can write `AUG GCU UUU UAG` as the codon sequence, including its termination signal. For the amino acid sequence, write only the three residues.
+### Write the edit before redrawing the triplets
 
-The two-base prefix doesn't need to form a triplet. The first translated codon starts at base 3 because that's the specified initiation site. Grouping the whole segment from base 1 would put the bars in the wrong places.
+First record the edit location and write the complete edited sequence without spaces. Only then group from the retained AUG. This makes it easier to catch a base accidentally dropped or duplicated during an insertion.
 
-### 2. The UAA you can see isn't in the frame
-
-**Given:** `5′–AUGCUAAGGUGA–3′`. Initiation is at the first AUG.
-
-```text
-Selected frame:  AUG | CUA | AGG | UGA
-Translation:    Met   Leu   Arg   stop
-```
-
-The apparent UAA uses bases **5–7**: the U and A at the end of CUA, plus the first A of AGG. The selected frame instead groups bases 4–6 as CUA and bases 7–9 as AGG.
-
-**Answer: Met–Leu–Arg, three residues.** The first stop in those triplets is UGA. Circling every UAA, UAG, or UGA substring before marking the frame would give the wrong answer here.
-
-For reading frame practice, make the bars part of your answer. They show why a stop counts, or why it doesn't.
-
-### 3. Change the same sequence in three different ways
-
-Start with this baseline, initiating at its first AUG:
-
-```text
-5′–AUG GAA CCU GGC UAA–3′
-    Met Glu Pro Gly stop
-```
-
-Its product is **Met–Glu–Pro–Gly**. Each row below makes one independent change to that baseline; the changes don't accumulate.
-
-| Change | Triplets from the same initiation AUG | Result |
+| Variant | Independent edit to the baseline | Edited sequence, 5′→3′, before grouping |
 | --- | --- | --- |
-| Replace the middle A in GAA with U | AUG GUA CCU GGC UAA | Met–Val–Pro–Gly |
-| Insert one U immediately after AUG | AUG UGA ACC UGG CUA, then one leftover A | Met, then stop at the second codon |
-| Insert UUU immediately after AUG | AUG UUU GAA CCU GGC UAA | Met–Phe–Glu–Pro–Gly |
+| S1 | Replace A at base 6 with G: GAA → GAG | `AUGGAGCCUGGCUAA` |
+| S2 | Replace A at base 5 with U: GAA → GUA | `AUGGUACCUGGCUAA` |
+| S3 | Replace G at base 4 with U: GAA → UAA | `AUGUAACCUGGCUAA` |
+| I1 | Insert U between original bases 3 and 4, just after AUG | `AUGUGAACCUGGCUAA` |
+| I3-boundary | Insert UUU between original bases 3 and 4 | `AUGUUUGAACCUGGCUAA` |
+| I3-inside | Insert UUU between original bases 4 and 5, after the G inside GAA | `AUGGUUUAACCUGGCUAA` |
+| D1 | Delete G at original base 4 | `AUGAACCUGGCUAA` |
+| D3 | Delete original bases 4–6, the whole GAA | `AUGCCUGGCUAA` |
 
-The **substitution** changes GAA to GUA without moving the boundaries. Here, Glu becomes Val. A substitution can also leave the encoded amino acid unchanged or turn an amino-acid codon into a stop. Replacing one base with another keeps the triplet alignment.
+The following ledger draws a triplet grid across each edited segment. **Groups after the first stop are shown only to audit the sequence; they aren't translated.** A final one- or two-base group is the remainder of that grid.
 
-For the one-base insertion, write the joined sequence before regrouping:
+| Variant | Triplet grid from the retained AUG | Translation and residue count |
+| --- | --- | --- |
+| Baseline | `AUG / GAA / CCU / GGC / UAA` | Met–Glu–Pro–Gly; 4, then stop |
+| S1 | `AUG / GAG / CCU / GGC / UAA` | Met–Glu–Pro–Gly; 4, then stop |
+| S2 | `AUG / GUA / CCU / GGC / UAA` | Met–Val–Pro–Gly; 4, then stop |
+| S3 | `AUG / UAA / CCU / GGC / UAA` | Met; 1, then stop |
+| I1 | `AUG / UGA / ACC / UGG / CUA / A` | Met; 1, then stop |
+| I3-boundary | `AUG / UUU / GAA / CCU / GGC / UAA` | Met–Phe–Glu–Pro–Gly; 5, then stop |
+| I3-inside | `AUG / GUU / UAA / CCU / GGC / UAA` | Met–Val; 2, then stop |
+| D1 | `AUG / AAC / CUG / GCU / AA` | Met–Asn–Leu–Ala; 4 in the supplied fragment, no stop shown |
+| D3 | `AUG / CCU / GGC / UAA` | Met–Pro–Gly; 3, then stop |
 
-```text
-Baseline:   AUG +     GAACCUGGCUAA
-Insert U:   AUG + U + GAACCUGGCUAA
-Regroup:    AUG | UGA | ACC | UGG | CUA | A
-```
+### A substitution keeps the frame, but its outcome can differ
 
-The new second codon is UGA, so translation stops after the initial Met. The later groups show the changed alignment, but they aren't translated in this product. Inserting or deleting a number of coding-region bases that isn't divisible by three changes the downstream frame—a **frameshift** ([NHGRI's frameshift definition](https://www.genome.gov/genetics-glossary/Frameshift-Mutation)).
+S1 is **synonymous**: GAA and GAG both specify Glu. S2 is **missense**: GUA specifies Val, replacing Glu. S3 is **nonsense**: UAA replaces an amino-acid codon with a stop. [OpenStax mutation types](https://openstax.org/books/biology-2e/pages/14-6-dna-repair) explains these coding outcomes, calling a substitution with no amino acid change “silent.”
 
-The three-base insertion adds a complete UUU at a codon boundary. Every original downstream triplet keeps its grouping, and Phe is added after Met. This is an **in-frame insertion**. A three-base insertion within a codon would also preserve the downstream frame, but you would need to regroup the codons around the insertion site. Neither case establishes how a real protein would function. [OpenStax's genetic-code explanation](https://openstax.org/books/biology-2e/pages/15-1-the-genetic-code) gives the triplet basis for comparing these changes.
+All three variants still contain 15 bases with the same triplet boundaries. In S3, however, translation ends at the second codon. The nine bases `CCUGGCUAA` after that new stop contribute no residues. An unchanged frame doesn't guarantee an unchanged amino acid sequence or length.
 
-## Seven practice questions
+### Inserting three bases inside a codon needs a closer look
 
-Try these before reading the answer key. Use a standard-code chart if needed. For each translation, show the codon boundaries and give the amino acid sequence. Include the initial Met, exclude the stop, and say when the supplied segment is incomplete. All initiation sites are specified below.
+I1 has 16 bases. The one-base insertion shifts the downstream grid and creates UGA immediately after AUG. Translation gives only Met. The ten bases after UGA are untranslated in this model; the final A is merely the remainder of the displayed grid.
 
-1. **Prefix and counting.** Translate `5′–GGAAUGACCUACUGACCC–3′`, initiating at the AUG beginning at base 4. How many residues are produced?
-2. **A selected later start.** Translate `5′–AUGGCCAUGUCUAAAUAG–3′`, initiating at the **second AUG**, bases 7–9. Which bases are the prefix for this translation?
-3. **A false early stop.** For `5′–AUGGUAACCUAG–3′`, initiating at the first AUG, a student says, “There is UAA, so stop before translating ACC.” Is that correct? Show the frame.
-4. **RNA printed backward.** The same mRNA segment is printed `3′–AGUCCUGUA–5′`. Rewrite it 5′→3′, then initiate at the AUG at its 5′ end. You already have RNA; no complementary strand is requested.
-5. **No supplied stop.** Translate the complete codons in `5′–AUGAACGGUCA–3′`, initiating at the first AUG. What can you conclude about the last two bases and the completeness of the product?
-6. **A substitution creates a stop.** The baseline is `5′–AUG UAC GAA UGA–3′`. Change the C in UAC to A, retaining the initial AUG as the initiation site. Give both amino acid sequences and say whether the frame shifts.
-7. **One-base vs three-base deletion.** Start from `5′–AUG GAA CCU GGC UAA–3′` and retain its initiation AUG. In separate variants, (a) delete the first G immediately after AUG; (b) delete the entire GAA triplet. Regroup both sequences. Which shifts the frame, and does either supplied variant lack an in-frame stop?
+An insertion or deletion whose size isn't divisible by three shifts the downstream reading frame in a coding sequence ([NHGRI's frameshift definition](https://www.genome.gov/genetics-glossary/Frameshift-Mutation)). Adding or removing three bases preserves downstream alignment. The codons touching the edit still need to be rebuilt.
 
-## Answer key: check the boundaries first
-
-### 1. Met–Thr–Tyr; three residues
-
-```text
-5′–GGA | AUG ACC UAC UGA | CCC–3′
-```
-
-The prefix GGA is outside the selected translation. AUG, ACC, and UAC give three residues; UGA terminates it. The downstream CCC adds none.
-
-### 2. Met–Ser–Lys
+Both three-base insertions have 18 bases, but placement changes the result:
 
 ```text
-5′–AUGGCC | AUG UCU AAA UAG–3′
+At the boundary: AUG + UUU + GAACCUGGCUAA
+Inside GAA:     AUGG + UUU + AACCUGGCUAA
 ```
 
-The prefix is **AUGGCC**, bases 1–6. This exercise explicitly selects the second AUG. If initiation had instead been specified at base 1, the product would be **Met–Ala–Met–Ser–Lys**: the second AUG would add an internal Met. Both readings preserve triplet boundaries here, but only the specified start answers this question.
+At the boundary, UUU adds Phe and leaves every baseline codon intact. Inside GAA, the original G joins two inserted Us to form **GUU**. The remaining inserted U joins the original AA to form **UAA**. The later CCU, GGC, and UAA retain their original grouping, but translation has already stopped after Met–Val.
 
-### 3. The student's stop is out of frame
+**Preserving the downstream frame doesn't mean adding exactly one amino acid.** In this inside-codon example, a three-base insertion produces an earlier stop and a shorter sequence.
+
+### A deletion can also remove the supplied stop from the frame
+
+D1 contains 14 bases. Removing the first G after AUG gives `AAC / CUG / GCU`, followed by **AA**. Those complete codons specify Asn, Leu, and Ala. No in-frame stop appears in the supplied variant, so **Met–Asn–Leu–Ala is a fragment**, with two remaining bases. The original terminal UAA no longer occupies a single triplet.
+
+D3 contains 12 bases. Removing the whole GAA at its boundary removes Glu while retaining CCU, GGC, and UAA. Its product is Met–Pro–Gly, three residues, then stop.
+
+These comparisons establish sequences under the exercise rules. They don't establish normal protein function, disease effects, or later processing. Even “same amino acid sequence” is a narrower result than “no biological effect.”
+
+## Seven mutation questions to try yourself
+
+Use this **new baseline** for every question:
 
 ```text
-AUG | GUA | ACC | UAG
-Met   Val   Thr   stop
+5′–AUG UAC GGU AAA UGA–3′
+    Met Tyr Gly Lys stop
 ```
 
-The product is **Met–Val–Thr**. UAA spans bases 5–7, crossing the GUA/ACC boundary. The in-frame stop is UAG.
+It has 15 bases and four residues. Initiation stays at bases 1–3. Make each edit independently; base numbers refer to the original baseline. For each variant, write the joined sequence, regroup it, give the translated sequence and residue count, and classify the change. State any incomplete final group or early stop.
 
-### 4. Reverse the order, then translate
+1. Replace U at **base 9**, the last base of GGU, with C. Has the amino acid sequence changed? Has the frame shifted?
+2. Replace A at **base 11**, the middle base of AAA, with C. Identify the altered residue and explain whether a shorter product follows from this edit.
+3. Replace C at **base 6**, the last base of UAC, with A. A learner keeps translating GGU and AAA afterward. Correct their product and classify the substitution.
+4. Insert **C between original bases 3 and 4**, immediately after AUG. Find the new stop and explain what happens to the original terminal UGA.
+5. Compare two independent insertions of **GGC**: (a) between original bases 6 and 7, after UAC; (b) between original bases 4 and 5, after the U inside UAC. Do both preserve the downstream frame? Do both simply add Gly?
+6. Delete **U at original base 4**. Does retaining the original terminal letters UGA mean this supplied variant still has an in-frame stop?
+7. Delete **original bases 4–6**, the whole UAC. Compare its frame and product with question 6. A learner calls this “normal function restored.” What does your sequence comparison actually establish?
+
+## Answers with the edit visible
+
+### 1. A synonymous substitution: four unchanged residues
 
 ```text
-As printed:  3′–AGUCCUGUA–5′
-Reordered:   5′–AUG UCC UGA–3′
-Translation:    Met Ser stop
+Edit:    AUGUACGG + C + AAAUGA
+Joined:  AUGUACGGCAAAUGA
+Grouped: AUG / UAC / GGC / AAA / UGA
+Product: Met–Tyr–Gly–Lys
 ```
 
-The answer is **Met–Ser**. Reversing the displayed RNA changes its reading order. Complementing it would create a different strand and wouldn't solve this problem.
+GGU and GGC both specify Gly. The sequence has 15 bases, no grid remainder, and four residues before the terminal stop. Neither the frame nor the amino acid sequence changes under this model.
 
-### 5. Met–Asn–Gly is only the translated fragment
+### 2. A missense substitution: Lys becomes Thr
 
 ```text
-AUG | AAC | GGU | CA
-Met   Asn   Gly   incomplete triplet
+Edit:    AUGUACGGUA + C + AUGA
+Joined:  AUGUACGGUACAUGA
+Grouped: AUG / UAC / GGU / ACA / UGA
+Product: Met–Tyr–Gly–Thr
 ```
 
-CA contains two bases, so it can't specify another residue on its own. No in-frame stop is supplied. Report **Met–Asn–Gly for the complete codons shown**, with two leftover bases; don't claim that the full translation product ends at Gly. The segment may continue beyond what you've been given.
+ACA specifies Thr. This 15-base variant preserves the frame and terminal stop, giving four residues. A changed amino acid doesn't itself imply a shorter product; here the length stays the same.
 
-### 6. Met–Tyr–Glu becomes Met, then stop
+### 3. A nonsense substitution: one residue before the new stop
 
 ```text
-Baseline:  AUG | UAC | GAA | UGA
-Variant:   AUG | UAA | GAA | UGA
+Edit:    AUGUA + A + GGUAAAUGA
+Joined:  AUGUAAGGUAAAUGA
+Grouped: AUG / UAA / GGU / AAA / UGA
+Product: Met
 ```
 
-The substitution changes UAC to UAA, producing an earlier stop. It's a **nonsense substitution**: a codon that specified an amino acid now specifies termination. The reading frame stays the same. GAA remains downstream of the new stop and adds no Glu to this variant's product.
+Replacing UAC with UAA creates a stop at bases 4–6 of the variant. The frame remains unchanged and the sequence still has 15 bases. The nine downstream bases add no Gly or Lys, so the product contains only the initial Met.
 
-### 7. Only the one-base deletion shifts the downstream frame
+### 4. A one-base insertion: three residues, then an earlier stop
 
 ```text
-(a) Delete one G:  AUG | AAC | CUG | GCU | AA
-(b) Delete GAA:    AUG | CCU | GGC | UAA
+Edit:    AUG + C + UACGGUAAAUGA
+Joined:  AUGCUACGGUAAAUGA
+Grouped: AUG / CUA / CGG / UAA / AUG / A
+Product: Met–Leu–Arg
 ```
 
-Variant (a) gives the fragment **Met–Asn–Leu–Ala**, then two leftover bases. It's a frameshift, and **no in-frame stop appears in the supplied segment**. The original UAA letters at the end no longer form a complete codon in the selected frame.
+CUA specifies Leu and CGG specifies Arg. This **frameshift insertion** makes a 16-base variant and shifts the downstream frame. Its first stop is UAA at variant bases 10–12. The remaining four bases, `AUGA`, aren't translated; the final A is the grid remainder. The original terminal UGA letters now cross the last AUG/A boundary and don't form a stop codon in this frame.
 
-Variant (b) gives **Met–Pro–Gly**, then stops. Removing three bases at this codon boundary removes Glu while preserving the later triplets. It's an in-frame deletion.
+### 5. Both insertions preserve the downstream frame; their local codons differ
 
-## Turn the mistake into a decision card
+```text
+(a) Boundary edit: AUGUAC + GGC + GGUAAAUGA
+    Joined:        AUGUACGGCGGUAAAUGA
+    Grouped:       AUG / UAC / GGC / GGU / AAA / UGA
+    Product:       Met–Tyr–Gly–Gly–Lys
 
-If you missed a question, save the decision that failed. A whole worksheet on one flashcard makes it hard to tell what you've actually recalled. The [practice-question-to-flashcard guide](/blog/how-to-turn-practice-questions-into-flashcards/) explains how to split a missed problem into a short prompt and a checkable answer.
+(b) Inside edit:   AUGU + GGC + ACGGUAAAUGA
+    Joined:        AUGUGGCACGGUAAAUGA
+    Grouped:       AUG / UGG / CAC / GGU / AAA / UGA
+    Product:       Met–Trp–His–Gly–Lys
+```
+
+Each variant has 18 bases, no grid remainder, and five residues before the terminal stop. Both are **in-frame insertions** that preserve the original GGU, AAA, and UGA downstream. Variant (a) adds Gly at a boundary. Variant (b) rebuilds the edited region as UGG and CAC, specifying Trp and His in place of the original Tyr. Neither the inserted letters' appearance as GGC nor their total of three bases tells you those local codons without regrouping.
+
+### 6. A one-base deletion: four residues in an incomplete fragment
+
+```text
+Edit:    AUG + ACGGUAAAUGA
+Joined:  AUGACGGUAAAUGA
+Grouped: AUG / ACG / GUA / AAU / GA
+Fragment: Met–Thr–Val–Asn
+```
+
+The 14-base variant has four complete sense codons, followed by two bases, GA. ACG specifies Thr, GUA specifies Val, and AAU specifies Asn. This **frameshift deletion** shifts the downstream frame; the terminal UGA letters cross the AAU/GA boundary. No in-frame stop is supplied, so four is the number of residues decoded from this fragment, not an established full product length.
+
+### 7. A three-base deletion: Tyr is removed and the terminal stop stays
+
+```text
+Edit:    AUG + GGUAAAUGA
+Joined:  AUGGGUAAAUGA
+Grouped: AUG / GGU / AAA / UGA
+Product: Met–Gly–Lys
+```
+
+This 12-base variant has no grid remainder. The **in-frame deletion** of UAC at a boundary preserves the downstream frame and removes Tyr, giving three residues before the retained stop. Question 6's one-base deletion instead changes the downstream codons and leaves no supplied stop. Here, “frame preserved” and “Tyr removed” are supported; a claim about normal function isn't.
+
+## Make cards for mutation decisions
+
+Choose a decision you missed and keep its baseline, edit, and start instruction together. The [practice-question-to-flashcard guide](/blog/how-to-turn-practice-questions-into-flashcards/) explains how to split a longer problem into checkable prompts.
 
 | Card front | Card back |
 | --- | --- |
-| In AUG CUA AGG UGA, does the visible UAA terminate translation from the first AUG? | No. It crosses the CUA/AGG boundary. The in-frame UGA stops translation after Met–Leu–Arg. |
-| A sequence has two AUGs. Which one should this classroom exercise use? | The specified initiation AUG. If the instruction doesn't establish a start or frame, ask for that information rather than inventing a real gene prediction. |
-| Does a stop codon count as an amino acid residue? | No. Count the initial Met and subsequent sense codons up to the first in-frame stop. |
-| Insert one base vs three bases after the start: what should you check first? | Redraw the triplets. One base shifts downstream boundaries; three preserve the downstream frame, though the sequence can still change. |
-| What can you report from AUG AAC GGU CA with no supplied stop? | Met–Asn–Gly from the complete codons, plus two leftover bases. It's a fragment, not an established full product. |
+| Standard code; start at the retained first AUG. In AUG GAA CCU GGC UAA, change GAA to GAG. Classify the substitution and give the product. | Synonymous; Met–Glu–Pro–Gly, four residues. GAG still specifies Glu and the frame stays the same. |
+| Standard code; start at the retained first AUG. Insert UUU after the G inside GAA in AUG GAA CCU GGC UAA. Does a three-base insertion guarantee one extra residue? | No. AUG GUU UAA CCU GGC UAA gives Met–Val, then stop. The downstream frame is preserved, but the local edit creates UAA. |
+| In a coding sequence with a retained start, does an unchanged reading frame establish an unchanged product? | No. A substitution can change a residue or create a stop; a three-base insertion or deletion can alter local codons. Retranslate the edited sequence. |
+| After an edit, the supplied sequence has no in-frame stop and ends with two bases. What product length can you report? | Count only residues from the complete codons shown and call the result a fragment. Neither the two bases nor the missing continuation establishes its full length. |
+| A mutation preserves the downstream frame. Does that establish normal protein function? | No. Frame alignment, amino acid sequence, and biological function are separate claims. These classroom sequences establish only the modeled translation. |
 
-Keep the cards in a notebook or, optionally, as text cards in [Nibomo](/). On the next attempt, use a fresh sequence so you have to make the decision again. If the amino acid abbreviations are slowing you down, the [amino acid side chain chart](/blog/amino-acid-side-chain-chart/) pairs the three-letter and one-letter codes.
+Use paper or, optionally, text cards in [Nibomo](/). If amino acid abbreviations are slowing the comparison down, the [amino acid side-chain chart](/blog/amino-acid-side-chain-chart/) pairs three-letter and one-letter codes. On a fresh attempt, record **edit → joined sequence → new triplets → first stop → product comparison**.
 
 *This article was produced with AI-assisted research and writing. The artificial examples were checked against the cited standard genetic code; they are classroom models, not laboratory results or predictions for real genes.*
