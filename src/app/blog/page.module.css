@@ -1,7 +1,7 @@
 .container {
-  width: min(100%, var(--reading-width));
-  margin: 0 auto;
-  padding: 36px 0 0;
+  inline-size: var(--site-content-width);
+  margin-inline: auto;
+  padding-block-start: 36px;
 }
 
 .intro {
@@ -89,8 +89,8 @@
 
 @media (max-width: 768px) {
   .container {
-    width: 100%;
-    padding-inline: 20px;
+    inline-size: var(--site-content-width);
+    padding-inline: 0;
     padding-top: 26px;
   }
 

@@ -1,13 +1,13 @@
 .container {
-  width: min(100%, var(--content-width));
-  margin: 0 auto;
-  padding: 36px 20px 0;
+  inline-size: var(--site-content-width);
+  margin-inline: auto;
+  padding-block-start: 36px;
 }
 
 .narrowContainer {
-  width: min(100%, 980px);
-  margin: 0 auto;
-  padding: 36px 20px 0;
+  inline-size: var(--site-content-width);
+  margin-inline: auto;
+  padding-block-start: 36px;
 }
 
 .panel {
@@ -267,7 +267,7 @@
 @media (max-width: 700px) {
   .container,
   .narrowContainer {
-    padding-inline: 20px;
+    padding-inline: 0;
     padding-top: 26px;
   }
 

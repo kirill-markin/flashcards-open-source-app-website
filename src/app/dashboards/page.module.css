@@ -1,8 +1,8 @@
 .page {
-  width: min(100%, var(--content-width));
-  margin: 0 auto;
+  inline-size: var(--site-content-width);
+  margin-inline: auto;
   padding-block-start: 36px;
-  padding-inline: 20px;
+  padding-inline: 0;
   display: grid;
   gap: 18px;
 }
@@ -85,7 +85,7 @@
 @media (max-width: 768px) {
   .page {
     padding-block-start: 26px;
-    padding-inline: 14px;
+    padding-inline: 0;
     gap: 16px;
   }
 }

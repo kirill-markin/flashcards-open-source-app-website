@@ -1,7 +1,7 @@
 .page {
-  width: min(100%, var(--content-width));
-  margin: 0 auto;
-  padding: 36px 20px 0;
+  inline-size: var(--site-content-width);
+  margin-inline: auto;
+  padding-block-start: 36px;
   display: grid;
   grid-template-columns: minmax(0, 1fr);
   gap: 22px;
@@ -9,7 +9,7 @@
 
 @media (max-width: 768px) {
   .page {
-    padding-inline: 14px;
+    padding-inline: 0;
     padding-top: 26px;
     gap: 16px;
   }
