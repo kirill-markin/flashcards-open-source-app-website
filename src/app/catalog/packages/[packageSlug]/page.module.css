@@ -86,9 +86,8 @@
 .cardListCtaCover {
   aspect-ratio: 16 / 9;
   min-width: 0;
-  border: 1px solid var(--border);
-  border-radius: var(--radius-lg);
-  background: rgba(255, 255, 255, 0.035);
+  border-radius: var(--radius-card);
+  background: var(--surface);
   overflow: hidden;
 }
 
@@ -102,7 +101,7 @@
   height: 100%;
   min-block-size: 0;
   border: 0;
-  border-radius: calc(var(--radius-lg) - 5px);
+  border-radius: var(--radius-card);
   background: transparent;
 }
 
@@ -479,9 +478,8 @@
 .card {
   min-width: 0;
   padding: 18px;
-  border: 1px solid var(--border);
-  border-radius: var(--radius-lg);
-  background: rgba(255, 255, 255, 0.035);
+  border-radius: var(--radius-card);
+  background: var(--surface);
 }
 
 .cardHeading {
@@ -503,7 +501,7 @@
 .cardSide {
   min-width: 0;
   padding: 24px;
-  border-radius: var(--radius-md);
+  border-radius: var(--radius-card);
   background: rgba(0, 0, 0, 0.18);
 }
 
@@ -559,9 +557,8 @@
 .empty {
   margin: 0;
   padding: 22px;
-  border: 1px solid var(--border);
-  border-radius: var(--radius-lg);
-  background: rgba(255, 255, 255, 0.035);
+  border-radius: var(--radius-card);
+  background: var(--surface);
   color: var(--text-secondary);
   text-align: center;
 }

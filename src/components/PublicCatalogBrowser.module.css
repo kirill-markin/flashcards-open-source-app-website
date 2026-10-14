@@ -19,8 +19,7 @@
   display: grid;
   gap: 10px;
   padding: 18px;
-  border: 1px solid var(--border);
-  border-radius: var(--radius-lg);
+  border-radius: var(--radius-card);
   background: var(--surface);
 }
 
@@ -58,7 +57,7 @@
 .clearButton {
   border: 0;
   background: transparent;
-  color: #ffd6c9;
+  color: #ef6262;
   cursor: pointer;
   font-size: 13px;
   text-decoration: underline;
