@@ -12,7 +12,7 @@ import {
 } from "@/lib/localeConfig";
 import { DASHBOARDS_ROUTE_PATHNAME } from "@/lib/dashboardsPage";
 
-type StructuredMarketingPageSlug = "home" | "features" | "pricing";
+type StructuredMarketingPageSlug = "home" | "pricing";
 type MarkdownBackedMarketingPageSlug = "privacy" | "support" | "terms";
 type MarketingPageSlug =
   | StructuredMarketingPageSlug
@@ -20,7 +20,6 @@ type MarketingPageSlug =
 
 const STRUCTURED_MARKETING_PAGE_SLUGS: ReadonlyArray<StructuredMarketingPageSlug> = [
   "home",
-  "features",
   "pricing",
 ] as const;
 

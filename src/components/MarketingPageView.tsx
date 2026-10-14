@@ -1,11 +1,7 @@
-import Image from "next/image";
-import Link from "next/link";
-import { CONNECTOR_DIRECTORIES } from "@/lib/connectorDirectories";
 import { AnalyticsConsentWithdrawal } from "@/components/AnalyticsConsentWithdrawal";
 import { AuthButton } from "@/components/AuthButton";
 import { AppScreensBanner } from "@/components/AppScreensBanner";
 import { BreadcrumbStructuredData } from "@/components/BreadcrumbStructuredData";
-import { FeatureIcon, FEATURE_ICON_NAMES } from "@/components/FeatureIcon";
 import { HomeLanding } from "@/components/HomeLanding";
 import { SiteFrame } from "@/components/SiteFrame";
 import { StructuredDataScript } from "@/components/StructuredDataScript";
@@ -32,9 +28,7 @@ import {
   type ProductOfferNames,
 } from "@/lib/seo/structuredData";
 import { getUiCopy } from "@/lib/uiCopy";
-import { getAvailableLocalizedPathname } from "@/lib/routeTranslations";
 import homeStyles from "./HomeLanding.module.css";
-import featureStyles from "@/app/features/page.module.css";
 import pricingStyles from "@/app/pricing/page.module.css";
 import legalStyles from "@/app/privacy/page.module.css";
 
@@ -113,94 +107,6 @@ function renderHomePage(
 ): React.JSX.Element {
   return (
     <HomeLanding locale={locale} hero={heroSection} walkthrough={walkthroughSection} features={featureSection} storeQrCodes={storeQrCodes} />
-  );
-}
-
-function renderFeaturesPage(
-  locale: AppLocale,
-  title: string,
-  breadcrumbStructuredData: React.ReactNode,
-  featureSection: FeatureListSection
-): React.JSX.Element {
-  const uiCopy = getUiCopy(locale);
-
-  if (featureSection.items.length !== FEATURE_ICON_NAMES.length) {
-    throw new Error(`Features page requires ${FEATURE_ICON_NAMES.length} items; received ${featureSection.items.length} for ${locale}`);
-  }
-
-  return (
-    <div className={featureStyles.container}>
-      <header className={featureStyles.intro}>
-        {breadcrumbStructuredData}
-        <h1 className={featureStyles.title}>{title}</h1>
-        <p className={featureStyles.subtitle}>{featureSection.intro}</p>
-      </header>
-      <section aria-label={featureSection.title}>
-        <div className={featureStyles.grid}>
-          {featureSection.items.map((item, index) => {
-            const icon = FEATURE_ICON_NAMES[index];
-            if (icon === undefined) {
-              throw new Error(`Missing feature icon for: ${item.title}`);
-            }
-
-            return (
-              <article key={item.title} className={featureStyles.card}>
-                <span className={featureStyles.icon}>
-                  <FeatureIcon name={icon} />
-                </span>
-                <h2>{item.title}</h2>
-                <p>{item.description}</p>
-              </article>
-            );
-          })}
-        </div>
-      </section>
-      <div className={featureStyles.connectorLinks}>
-        {CONNECTOR_DIRECTORIES.map((directory) => (
-          <a
-            key={directory.href}
-            href={directory.href}
-            target="_blank"
-            rel="noopener noreferrer"
-            className={featureStyles.resourceLink}
-          >
-            <Image
-              src={`/brands/${directory.provider}.svg`}
-              width={20}
-              height={20}
-              alt=""
-              className={featureStyles.connectorLogo}
-            />
-            {directory.linkLabel}
-            <span aria-hidden="true">↗</span>
-          </a>
-        ))}
-        <Link
-          className={featureStyles.resourceLink}
-          href={getAvailableLocalizedPathname(locale, "/docs/mcp-connector/")}
-        >
-          <svg
-            width="20"
-            height="20"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            strokeWidth="1.6"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            aria-hidden="true"
-            focusable="false"
-          >
-            <path d="M12 7v14m0-14C9 4.5 5 4 2 5v14c3-1 7-.5 10 2m0-14c3-2.5 7-3 10-2v14c-3-1-7-.5-10 2" />
-          </svg>
-          {uiCopy.footer.documentationLabel}
-          <span aria-hidden="true">↗</span>
-        </Link>
-      </div>
-      <div id="start-studying" className={featureStyles.cta}>
-        <AppScreensBanner locale={locale} />
-      </div>
-    </div>
   );
 }
 
@@ -323,15 +229,6 @@ export async function MarketingPageView({
         getSectionByType(pageContent.sections, "feature_list"),
         getSectionByType(pageContent.sections, "app_walkthrough"),
         readGeneratedStoreQrCodes(process.cwd())
-      );
-      break;
-    case "features":
-      productStructuredData = renderProductStructuredData(locale, ["Free"]);
-      page = renderFeaturesPage(
-        locale,
-        pageContent.title,
-        breadcrumbStructuredData,
-        getSectionByType(pageContent.sections, "feature_list")
       );
       break;
     case "pricing":

@@ -59,7 +59,7 @@ Marketing website for Nibomo. Static Next.js site deployed on Vercel.
 
 ## Project Structure
 
-- `src/app/`: landing, features, pricing, docs, blog, privacy, terms
+- `src/app/`: landing, pricing, docs, blog, privacy, terms
 - `src/components/`: shared components (`Header`, `Footer`, `AuthButton`)
 - `src/content/<locale>/pages/`: locale-rooted marketing page content modules plus markdown-backed legal pages
 - `src/content/<locale>/docs/`: locale-rooted documentation markdown files
@@ -93,7 +93,6 @@ The site has zero auth logic. It only checks whether the `logged_in` cookie is p
 
 Typed content modules power composed/list pages:
 - `src/content/en/pages/home.ts`
-- `src/content/en/pages/features.ts`
 - `src/content/en/pages/pricing.ts`
 
 Mostly text pages stay Markdown-backed:
