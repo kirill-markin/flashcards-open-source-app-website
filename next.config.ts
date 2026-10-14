@@ -79,7 +79,7 @@ function createRetiredFeaturesRedirects(): Array<PermanentRedirect> {
       },
       {
         source: `${localePrefix}/features.md`,
-        destination: `${localePrefix}/.md`,
+        destination: locale === DEFAULT_LOCALE ? "/.md" : `${localePrefix}.md`,
         permanent: true,
       },
     ];
