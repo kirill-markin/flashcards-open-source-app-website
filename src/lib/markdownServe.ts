@@ -759,7 +759,7 @@ ${publicActivitySection}
 ## Markdown Access
 
 Any page on this site is available as clean Markdown for LLM consumption:
-- Append \`.md\` to any URL (e.g. ${SITE_CONTEXT.siteUrl}/.md, ${SITE_CONTEXT.siteUrl}/features.md, ${SITE_CONTEXT.siteUrl}/docs/api.md)
+- Append \`.md\` to any URL (e.g. ${SITE_CONTEXT.siteUrl}/.md, ${SITE_CONTEXT.siteUrl}/pricing.md, ${SITE_CONTEXT.siteUrl}/docs/api.md)
 - Or send the HTTP header \`Accept: text/markdown\` to get Markdown from the original URL`;
 }
 

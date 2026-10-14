@@ -51,7 +51,6 @@ function getMarketingPriority(
   switch (slug) {
     case "home":
       return 1;
-    case "features":
     case "pricing":
       return 0.8;
     case "privacy":
@@ -69,7 +68,6 @@ function getMarketingChangeFrequency(
   switch (slug) {
     case "home":
       return "weekly";
-    case "features":
     case "pricing":
       return "monthly";
     case "privacy":

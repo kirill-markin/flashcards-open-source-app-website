@@ -29,10 +29,6 @@ export function getHeaderLinks(locale: AppLocale): ReadonlyArray<HeaderLink> {
     },
     ...catalogLinks,
     {
-      href: getAvailableLocalizedPathname(locale, "/features/"),
-      label: uiCopy.navigation.features,
-    },
-    {
       href: getAvailableLocalizedPathname(locale, "/pricing/"),
       label: uiCopy.navigation.pricing,
     },

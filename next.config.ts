@@ -67,6 +67,25 @@ function createPermanentCatalogPackageRedirects(): Array<PermanentRedirect> {
   );
 }
 
+function createRetiredFeaturesRedirects(): Array<PermanentRedirect> {
+  return SUPPORTED_LOCALES.flatMap((locale) => {
+    const localePrefix = locale === DEFAULT_LOCALE ? "" : `/${locale}`;
+
+    return [
+      {
+        source: `${localePrefix}/features/`,
+        destination: `${localePrefix}/`,
+        permanent: true,
+      },
+      {
+        source: `${localePrefix}/features.md`,
+        destination: `${localePrefix}/.md`,
+        permanent: true,
+      },
+    ];
+  });
+}
+
 function readMarkdownAssetManifest(): string {
   const filePath = join(process.cwd(), MARKDOWN_MANIFEST_FILE_PATH);
   let serialized: string;
@@ -169,7 +188,10 @@ const nextConfig: NextConfig = {
     return headers;
   },
   async redirects() {
-    return createPermanentCatalogPackageRedirects();
+    return [
+      ...createPermanentCatalogPackageRedirects(),
+      ...createRetiredFeaturesRedirects(),
+    ];
   },
 };
 

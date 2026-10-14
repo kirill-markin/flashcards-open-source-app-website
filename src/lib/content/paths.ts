@@ -3,7 +3,7 @@ import type { AppLocale } from "@/lib/i18n";
 
 const CONTENT_ROOT_DIR = join(process.cwd(), "src/content");
 
-type StructuredMarketingPageSlug = "features" | "home" | "pricing";
+type StructuredMarketingPageSlug = "home" | "pricing";
 type MarkdownBackedPageSlug = "privacy" | "support" | "terms";
 
 function getPagesDirectory(locale: AppLocale): string {
