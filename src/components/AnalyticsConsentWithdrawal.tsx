@@ -1,8 +1,10 @@
 "use client";
 
+import { autoUpdate, flip, offset, shift, useFloating } from "@floating-ui/react-dom";
 import {
   useCallback,
   useEffect,
+  useId,
   useRef,
   useState,
   useSyncExternalStore,
@@ -31,6 +33,7 @@ import styles from "./AnalyticsConsentWithdrawal.module.css";
 
 interface AnalyticsConsentWithdrawalProps {
   readonly locale: AppLocale;
+  readonly placement?: "privacy" | "footer";
 }
 
 interface AnalyticsDecisionToggleProps {
@@ -72,9 +75,10 @@ function AnalyticsDecisionToggle({
   );
 }
 
-/** Lets visitors change cookie consent and disable collection from the Privacy page. */
+/** Lets visitors change cookie consent and collection from the footer or Privacy page. */
 export function AnalyticsConsentWithdrawal({
   locale,
+  placement = "privacy",
 }: AnalyticsConsentWithdrawalProps): React.JSX.Element {
   const isCookieDecisionRevisitable = useSyncExternalStore(
     subscribeToAnalyticsConsent,
@@ -98,6 +102,23 @@ export function AnalyticsConsentWithdrawal({
     useState<string>("");
   const containerRef = useRef<HTMLDivElement | null>(null);
   const triggerRef = useRef<HTMLButtonElement | null>(null);
+  const panelRef = useRef<HTMLDivElement | null>(null);
+  const panelId = useId();
+  const isFooter = placement === "footer";
+  const { floatingStyles, refs } = useFloating({
+    middleware: [offset(12), flip({ padding: 24 }), shift({ padding: 24, crossAxis: true })],
+    placement: "top-start",
+    strategy: "fixed",
+    whileElementsMounted: autoUpdate,
+  });
+  const setTriggerRef = useCallback((element: HTMLButtonElement | null): void => {
+    triggerRef.current = element;
+    refs.setReference(element);
+  }, [refs]);
+  const setPanelRef = useCallback((element: HTMLDivElement | null): void => {
+    panelRef.current = element;
+    refs.setFloating(element);
+  }, [refs]);
   const copy = getUiCopy(locale);
   const withdrawalCopy = copy.analyticsConsentWithdrawal;
 
@@ -107,12 +128,14 @@ export function AnalyticsConsentWithdrawal({
 
   /**
    * Escape closes the panel and hands focus back to the link that opened it, because the panel is
-   * a disclosure within the Privacy page.
+   * a disclosure beside the settings link.
    */
   useEffect(() => {
     if (isOpen === false) {
       return;
     }
+
+    panelRef.current?.focus({ preventScroll: true });
 
     const closeOnEscape = (event: KeyboardEvent): void => {
       if (event.key !== "Escape") {
@@ -219,10 +242,18 @@ export function AnalyticsConsentWithdrawal({
   };
 
   return (
-    <div ref={containerRef} className={styles.container} id="analytics-settings">
+    <div
+      ref={containerRef}
+      className={isFooter ? `${styles.container} ${styles.footer}` : styles.container}
+      id={isFooter ? "cookie-settings" : "analytics-settings"}
+    >
       {isOpen ? (
         <div
+          ref={setPanelRef}
+          id={panelId}
           className={styles.panel}
+          style={isFooter ? floatingStyles : undefined}
+          tabIndex={-1}
           role="dialog"
           aria-label={withdrawalCopy.title}
           data-testid="analytics-consent-withdrawal-panel"
@@ -292,16 +323,20 @@ export function AnalyticsConsentWithdrawal({
           <button
             className={styles.close}
             type="button"
-            onClick={closePanel}
+            onClick={() => {
+              closePanel();
+              triggerRef.current?.focus();
+            }}
           >
             {withdrawalCopy.close}
           </button>
         </div>
       ) : null}
       <button
-        ref={triggerRef}
+        ref={setTriggerRef}
         className={styles.link}
         type="button"
+        aria-controls={isOpen ? panelId : undefined}
         aria-expanded={isOpen}
         aria-haspopup="dialog"
         data-testid="analytics-consent-withdrawal-link"

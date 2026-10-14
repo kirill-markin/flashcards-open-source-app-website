@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { AnalyticsConsentWithdrawal } from "@/components/AnalyticsConsentWithdrawal";
 import { AuthButton } from "@/components/AuthButton";
 import { SOFTWARE_DIRECTORIES } from "@/lib/softwareDirectories";
 import { getFooterCtaCopy } from "@/lib/footerCtaCopy";
@@ -263,6 +264,7 @@ export const Footer: React.FC<FooterProps> = ({
             <div className={styles.attribution}>
               {operatedByAttribution}
               {renderAttributionLine(uiCopy.footer.builtBy, STRUCTURED_DATA_AUTHOR_URL)}
+              <AnalyticsConsentWithdrawal locale={locale} placement="footer" />
             </div>
           </div>
           <div className={styles.localePicker}>
