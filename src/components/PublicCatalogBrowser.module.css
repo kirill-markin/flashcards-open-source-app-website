@@ -59,7 +59,7 @@
   background: transparent;
   color: #ef6262;
   cursor: pointer;
-  font-size: 13px;
+  font-size: 14px;
   text-decoration: underline;
   text-underline-offset: 0.16em;
 }
@@ -72,12 +72,12 @@
 
 .resultsCount {
   color: var(--text-secondary);
-  font-size: 13px;
+  font-size: 14px;
 }
 
 .controlLabel {
   color: var(--text-secondary);
-  font-size: 13px;
+  font-size: 14px;
   font-weight: 650;
 }
 
@@ -126,7 +126,7 @@
   gap: 8px;
   min-inline-size: 0;
   color: var(--text-secondary);
-  font-size: 13px;
+  font-size: 14px;
   white-space: nowrap;
 }
 

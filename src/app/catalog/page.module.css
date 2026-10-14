@@ -1,7 +1,7 @@
 .container {
   inline-size: var(--site-content-width);
   margin-inline: auto;
-  padding-block-start: 36px;
+  padding-block-start: var(--page-intro-offset);
 }
 
 .introPanel {
@@ -42,7 +42,7 @@
 @media (max-width: 640px) {
   .container {
     padding-inline: 0;
-    padding-top: 26px;
+    padding-block-start: var(--page-intro-offset);
   }
 
   .grid {

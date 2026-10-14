@@ -1,3 +1,4 @@
+import { formatHeadingText } from "@/lib/headingText";
 import Link from "next/link";
 import { AnalyticsConsentWithdrawal } from "@/components/AnalyticsConsentWithdrawal";
 import { AuthButton } from "@/components/AuthButton";
@@ -104,8 +105,8 @@ export const Footer: React.FC<FooterProps> = ({
       className={styles.footer}
     >
       <section className={styles.cta} aria-labelledby="footer-cta-title">
-        <h2 id="footer-cta-title" className={styles.ctaTitle}>
-          {ctaTitle === undefined ? ctaCopy.title : ctaTitle}
+        <h2 id="footer-cta-title" className={`marketingHeading ${styles.ctaTitle}`}>
+          {formatHeadingText(ctaTitle === undefined ? ctaCopy.title : ctaTitle)}
         </h2>
         <p className={styles.ctaDescription}>
           {ctaCopy.descriptionLines[0]}<br />

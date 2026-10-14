@@ -1,11 +1,10 @@
+import { PricingCards } from "@/components/PricingCards";
+import { formatHeadingText } from "@/lib/headingText";
 import { AnalyticsConsentWithdrawal } from "@/components/AnalyticsConsentWithdrawal";
-import { AuthButton } from "@/components/AuthButton";
-import { AppScreensBanner } from "@/components/AppScreensBanner";
 import { BreadcrumbStructuredData } from "@/components/BreadcrumbStructuredData";
 import { HomeLanding } from "@/components/HomeLanding";
 import { SiteFrame } from "@/components/SiteFrame";
 import { StructuredDataScript } from "@/components/StructuredDataScript";
-import { TrackedSelfHostCtaLink } from "@/components/TrackedSelfHostCtaLink";
 import { renderMarkdownToHtml } from "@/lib/content/renderMarkdownToHtml";
 import { readPageContent } from "@/lib/content/readPageContent";
 import type {
@@ -15,8 +14,6 @@ import type {
   LegalPageSection,
   MarketingPageSlug,
   PageSection,
-  PricingTier,
-  PricingTiersSection,
 } from "@/lib/content/types";
 import {
   readGeneratedStoreQrCodes,
@@ -29,7 +26,6 @@ import {
 } from "@/lib/seo/structuredData";
 import { getUiCopy } from "@/lib/uiCopy";
 import homeStyles from "./HomeLanding.module.css";
-import pricingStyles from "@/app/pricing/page.module.css";
 import legalStyles from "@/app/privacy/page.module.css";
 
 interface MarketingPageViewProps {
@@ -110,68 +106,6 @@ function renderHomePage(
   );
 }
 
-function renderPricingPage(
-  locale: AppLocale,
-  title: string,
-  breadcrumbStructuredData: React.ReactNode,
-  pricingSection: PricingTiersSection
-): React.JSX.Element {
-  return (
-    <div className={pricingStyles.container}>
-      <div className={pricingStyles.pagePanel}>
-        <header className={pricingStyles.intro}>
-          {breadcrumbStructuredData}
-          <h1 className={pricingStyles.title}>{title}</h1>
-          <p className={pricingStyles.subtitle}>{pricingSection.intro}</p>
-        </header>
-
-        <section className={pricingStyles.tiersPanel}>
-          <div className={pricingStyles.grid}>
-            {pricingSection.tiers.map((tier) => renderPricingTier(locale, tier))}
-          </div>
-        </section>
-      </div>
-    </div>
-  );
-}
-
-function renderPricingTier(
-  locale: AppLocale,
-  tier: PricingTier
-): React.JSX.Element {
-  const cardClassName = tier.highlighted
-    ? `${pricingStyles.card} ${pricingStyles.highlighted}`
-    : pricingStyles.card;
-
-  return (
-    <div key={tier.name} className={cardClassName}>
-      <h2>{tier.name}</h2>
-      <div className={pricingStyles.price}>{tier.price}</div>
-      <ul className={pricingStyles.features}>
-        {tier.bullets.map((bullet) => (
-          <li key={bullet}>{bullet}</li>
-        ))}
-      </ul>
-      {tier.type === "auth_tier" ? (
-        <div className={pricingStyles.ctaWrapper}>
-          <AuthButton
-            locale={locale}
-            placement="pricing"
-            signupLabel={tier.cta.label}
-          />
-        </div>
-      ) : (
-        <TrackedSelfHostCtaLink
-          className={pricingStyles.secondaryButton}
-          href={tier.cta.href}
-          label={tier.cta.label}
-          locale={locale}
-        />
-      )}
-    </div>
-  );
-}
-
 async function renderLegalPage(
   locale: AppLocale,
   slug: "privacy" | "support" | "terms",
@@ -188,7 +122,7 @@ async function renderLegalPage(
       <div className={legalStyles.pagePanel}>
         <header className={legalStyles.intro}>
           {breadcrumbStructuredData}
-          <h1 className={legalStyles.title}>{title}</h1>
+          <h1 className={legalStyles.title}>{formatHeadingText(title)}</h1>
         </header>
         <section className={legalStyles.contentPanel}>
           <div className={legalStyles.content}>
@@ -233,12 +167,11 @@ export async function MarketingPageView({
       break;
     case "pricing":
       productStructuredData = renderProductStructuredData(locale, ["Free", "Premium"]);
-      page = renderPricingPage(
-        locale,
-        pageContent.title,
-        breadcrumbStructuredData,
-        getSectionByType(pageContent.sections, "pricing_tiers")
-      );
+      page = <PricingCards
+        locale={locale}
+        section={getSectionByType(pageContent.sections, "pricing_tiers")}
+        breadcrumbStructuredData={breadcrumbStructuredData}
+      />;
       break;
     case "privacy":
     case "support":

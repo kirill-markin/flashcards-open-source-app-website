@@ -2,6 +2,7 @@ import { BreadcrumbStructuredData } from "@/components/BreadcrumbStructuredData"
 import { PublicCatalogBrowser } from "@/components/PublicCatalogBrowser";
 import { PublicCatalogNavigation } from "@/components/PublicCatalogNavigation";
 import { SiteFrame } from "@/components/SiteFrame";
+import { MarketingHeading, getMarketingHeadingBadge } from "@/components/MarketingHeading";
 import { StructuredDataScript } from "@/components/StructuredDataScript";
 import type { AppLocale } from "@/lib/i18n";
 import { getPublicCatalogUiCopy } from "@/lib/publicCatalogCopy";
@@ -41,7 +42,7 @@ export function PublicCatalogBrowsePageView({
             ]}
             locale={locale}
           />
-          <h1 className={styles.title}>{copy.title}</h1>
+          <MarketingHeading badge={getMarketingHeadingBadge(locale, "catalog")} title={copy.title} />
           <p className={styles.intro}>{copy.intro}</p>
         </header>
         <PublicCatalogBrowser
