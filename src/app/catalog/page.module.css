@@ -27,8 +27,7 @@
 
 .empty {
   padding: 28px;
-  border: 1px solid var(--border);
-  border-radius: var(--radius-xl);
+  border-radius: var(--radius-card);
   background: var(--surface);
   color: var(--text-secondary);
   text-align: center;
