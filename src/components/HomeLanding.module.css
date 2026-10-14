@@ -35,6 +35,8 @@
 
 .hero .heroTitle {
   margin-block-start: 24px;
+  font-size: 60px;
+  line-height: 73px;
   overflow-wrap: normal;
 }
 
@@ -195,6 +197,7 @@
 
 @media (max-width: 980px) {
   .hero { gap: 64px; grid-template-columns: minmax(0,1fr); padding-block: 80px; }
+  .hero .heroTitle { font-size: 52px; line-height: 1.2; }
   .storeLinks { margin-block-start: 48px; }
   .demo { gap: 56px; }
   .features { grid-template-columns: minmax(0,1fr); }
@@ -211,6 +214,7 @@
 @media (max-width: 700px) {
   .hero { grid-template-columns: minmax(0,1fr); }
   .hero { gap: 64px; padding-block: 48px 64px; }
+  .hero .heroTitle { font-size: clamp(32px, 8.4vw, 55px); }
   .heroDescription { font-size: 16px; }
   .flowLine { display: grid; grid-template-columns: 38px minmax(0,1fr); }
   .flowLine:first-child > span:first-child { grid-column: 1 / -1; }
