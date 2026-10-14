@@ -80,8 +80,7 @@
 .entityCard,
 .collectionCard {
   min-width: 0;
-  border: 1px solid var(--border);
-  border-radius: var(--radius-xl);
+  border-radius: var(--radius-card);
   background: var(--surface);
   overflow: hidden;
 }
@@ -196,9 +195,8 @@
 .empty {
   margin: 0;
   padding: 22px;
-  border: 1px solid var(--border);
-  border-radius: var(--radius-lg);
-  background: rgba(255, 255, 255, 0.035);
+  border-radius: var(--radius-card);
+  background: var(--surface);
   color: var(--text-secondary);
   text-align: center;
 }
