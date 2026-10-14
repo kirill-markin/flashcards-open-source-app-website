@@ -55,8 +55,8 @@ export function HomeLanding({ locale, hero, walkthrough, features, storeQrCodes 
             <p className={styles.flowLine}><span>{copy.flow[0]}</span><FlowArrow /><span>{copy.flow[1]}</span></p>
             <p className={styles.flowLine}><FlowArrow /><span>{copy.flow[2]}</span></p>
           </div>
+          <div className={styles.storeLinks}><HumanPlatformLinks locale={locale} storeQrCodes={storeQrCodes} appearance="hero-badges" /></div>
         </div>
-        <div className={styles.storeLinks}><HumanPlatformLinks locale={locale} storeQrCodes={storeQrCodes} appearance="hero-badges" /></div>
         <HomeFlashcardDemo example={copy.heroCard} controls={copy.controls} />
       </section>
       <div className={styles.agentBand}>
