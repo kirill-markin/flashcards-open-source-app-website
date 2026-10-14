@@ -1,108 +1,194 @@
 .container {
   inline-size: var(--site-content-width);
+  max-inline-size: 960px;
   margin-inline: auto;
-  padding-block-start: var(--page-intro-offset);
+  padding-block: var(--page-intro-offset) 64px;
 }
 
 .intro {
-  padding-block-end: 14px;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: end;
+  gap: 20px 16px;
+  margin-block-end: 28px;
 }
 
-.title {
+.count {
+  justify-self: end;
   margin: 0;
-}
-
-.listPanel {
-  padding-block-end: clamp(20px, 3vw, 28px);
+  padding-block-end: 12px;
+  color: var(--text-secondary);
+  font-size: 14px;
+  text-align: end;
 }
 
 .empty {
   margin: 0;
-  font-size: 15px;
+  padding-block: 32px;
+  border-block-start: 1px solid var(--border-strong);
   color: var(--text-secondary);
+  font-size: 16px;
+}
+
+.results {
+  scroll-margin-block-start: 32px;
+}
+
+.results:focus {
+  outline: none;
 }
 
 .list {
   display: grid;
-  gap: 10px;
+  border-block-start: 1px solid var(--border-strong);
+}
+
+.list[hidden] {
+  display: none;
+}
+
+.article {
+  min-inline-size: 0;
+  border-block-end: 1px solid var(--border-strong);
 }
 
 .card {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-  padding: 16px;
+  display: grid;
+  grid-template-columns: 118px minmax(0, 1fr) 24px;
+  align-items: start;
+  gap: 24px;
+  padding-block: 32px;
   border-radius: var(--radius-card);
-  background: var(--surface);
   color: inherit;
   text-decoration: none;
-  transition: background 140ms ease;
 }
 
-.card:hover,
-.card:focus-visible {
-  background: var(--surface-hover);
-}
-
-.card:focus-visible {
-  outline: 2px solid rgba(255, 214, 201, 0.42);
-  outline-offset: 3px;
-}
-
-.cardHeader {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-
-.cardHeader .date {
-  align-self: flex-start;
+.card:focus-visible,
+.pagination button:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 5px;
 }
 
 .date {
-  display: inline-flex;
-  align-items: center;
-  min-height: 22px;
-  padding-inline: 9px;
-  border-radius: var(--radius-pill);
-  background: var(--accent-soft);
-  color: var(--accent-strong);
-  font-size: 12px;
-  font-weight: 700;
-  letter-spacing: 0.09em;
-  text-transform: uppercase;
+  padding-block-start: 5px;
+  color: var(--text-secondary);
+  font-size: 14px;
 }
 
 .cardTitle {
   margin: 0;
-  font-size: 20px;
-  line-height: 1.3;
-  letter-spacing: -0.02em;
+  color: #f3f3f3;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 1.4;
+  overflow-wrap: anywhere;
+  transition: color 140ms ease;
 }
 
-.card p {
-  margin: 0;
-  font-size: 14px;
-  line-height: 1.6;
+.card:hover .cardTitle,
+.card:focus-visible .cardTitle {
+  color: var(--accent-strong);
+}
+
+.cardCopy p {
+  max-inline-size: 65ch;
+  margin-block-start: 12px;
+  color: #bfc0c2;
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+.arrow {
+  inline-size: 20px;
+  block-size: 20px;
+  margin-block-start: 4px;
   color: var(--text-secondary);
 }
 
-@media (max-width: 768px) {
+.arrow:dir(rtl) {
+  transform: scaleX(-1);
+}
+
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-block-start: 32px;
+  padding-block-start: 28px;
+  border-block-start: 1px solid var(--border-strong);
+  color: var(--text-secondary);
+  font-size: 14px;
+}
+
+.pagination > div {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.pagination button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-block-size: 44px;
+  padding-inline: 16px;
+  border: 1px solid var(--border-strong);
+  border-radius: 10px;
+  background: var(--surface);
+  color: #f3f3f3;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.pagination button:disabled {
+  opacity: 0.4;
+  cursor: default;
+}
+
+.pagination button:hover:enabled {
+  background: var(--surface-hover);
+}
+
+.pagination .arrow {
+  margin-block-start: 0;
+}
+
+@media (max-width: 700px) {
   .container {
-    inline-size: var(--site-content-width);
-    padding-inline: 0;
-    padding-block-start: var(--page-intro-offset);
+    padding-block-end: 40px;
   }
 
-  .intro {
-    padding-block-end: 16px;
-  }
-
-  .listPanel {
-    padding-block-end: 20px;
+  .count {
+    padding-block-end: 8px;
   }
 
   .card {
-    padding: 14px;
+    grid-template-columns: minmax(0, 1fr) 20px;
+    gap: 10px 16px;
+    padding-block: 28px;
+  }
+
+  .date {
+    grid-column: 1 / -1;
+    padding-block-start: 0;
+  }
+
+  .cardTitle {
+    font-size: 20px;
+  }
+
+  .pagination > div {
+    inline-size: 100%;
+    justify-content: space-between;
+    gap: 10px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cardTitle {
+    transition: none;
   }
 }
