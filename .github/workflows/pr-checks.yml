@@ -58,3 +58,30 @@ jobs:
             exit 1
           fi
           echo "Catalog suite reported $passed passing tests."
+
+  media_guard:
+    name: Media Git guard
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    env:
+      BASE_SHA: ${{ github.event.pull_request.base.sha || github.event.before }}
+      HEAD_SHA: ${{ github.event.pull_request.head.sha || github.sha }}
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: ${{ github.event.pull_request.head.sha || github.sha }}
+          fetch-depth: 0
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 24
+      - name: Fetch explicit event base
+        run: |
+          if [[ ! "$BASE_SHA" =~ ^[a-f0-9]{40}$ || "$BASE_SHA" =~ ^0+$ ]]; then
+            echo "::error::Media guard requires the event's full nonzero base SHA. Restore the event base; do not substitute HEAD~1."
+            exit 1
+          fi
+          git fetch --no-tags origin "$BASE_SHA"
+      - name: Test Git guard integration
+        run: node --test scripts/checkMediaGit.test.mjs
+      - name: Check every introduced commit
+        run: npm run media:check -- commits "$BASE_SHA" "$HEAD_SHA"
