@@ -71,3 +71,11 @@ export function parseMediaManifest(value: unknown): readonly MarketingMedia[] {
 }
 
 export const marketingMediaManifest = parseMediaManifest(manifest);
+
+export function getMarketingMediaUrl(publicPath: string): string {
+  const media = marketingMediaManifest.find((entry) => entry.publicPath === publicPath);
+  if (media === undefined) {
+    throw new Error(`Missing managed marketing media: ${publicPath}. Publish it with npm run media:add and commit src/content/media-manifest.json.`);
+  }
+  return media.url;
+}

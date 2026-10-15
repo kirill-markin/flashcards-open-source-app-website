@@ -183,6 +183,7 @@ const nextConfig: NextConfig = {
         source: "/:directory(blog|home|features)/:image(.*\\.(?:png|jpe?g|webp|avif|gif|tiff?))",
         headers: [
           { key: "x-vercel-enable-rewrite-caching", value: "1" },
+          { key: "Cache-Control", value: "public, max-age=0, must-revalidate" },
           { key: "Vercel-CDN-Cache-Control", value: "public, max-age=86400" },
         ],
       },

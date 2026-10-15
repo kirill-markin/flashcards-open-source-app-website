@@ -60,6 +60,7 @@ function WebIcon() {
 }
 
 interface HumanPlatformLinksProps {
+  readonly googlePlayImageUrl: string;
   readonly locale: AppLocale;
   readonly storeQrCodes: StoreQrCodes;
   readonly appearance?: "cards" | "badges" | "hero-badges";
@@ -76,6 +77,7 @@ function getBadgeOrder(platform: HumanPlatform): number {
 }
 
 export const HumanPlatformLinks: React.FC<HumanPlatformLinksProps> = ({
+  googlePlayImageUrl,
   locale,
   storeQrCodes,
   appearance = "cards",
@@ -116,7 +118,7 @@ export const HumanPlatformLinks: React.FC<HumanPlatformLinksProps> = ({
             platform.analytics.platform === "android" ? (
             <>
               <span className={styles.playMark}>
-                <Image src="/home/google-play-lockup.png" alt="" width={300} height={61} />
+                <Image src={googlePlayImageUrl} alt="" width={300} height={61} />
               </span>
               <span className={styles.badgeText}>
                 <span className={styles.badgeCaption}>{uiCopy.platforms.downloadBadgeCaption}</span>
@@ -138,7 +140,9 @@ export const HumanPlatformLinks: React.FC<HumanPlatformLinksProps> = ({
             </>
           ) : platform.image ? (
             <Image
-              src={platform.image.src}
+              src={platform.analytics.kind === "store" && platform.analytics.platform === "android"
+                ? googlePlayImageUrl
+                : platform.image.src}
               alt={platform.image.alt}
               width={platform.image.width}
               height={platform.image.height}
