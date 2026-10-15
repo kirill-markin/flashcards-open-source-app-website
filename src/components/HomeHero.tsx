@@ -5,6 +5,7 @@ import { HumanPlatformLinks } from "@/components/HumanPlatformLinks";
 import { TrackedMcpEndpointCopyField } from "@/components/TrackedMcpEndpointCopyField";
 import type { AppWalkthroughSection, HeroSection } from "@/lib/content/types";
 import type { AppLocale } from "@/lib/i18n";
+import { getMarketingMediaUrl } from "@/lib/marketingMedia";
 import { getAvailableLocalizedPathname } from "@/lib/routeTranslations";
 import type { StoreQrCodes } from "@/lib/storeQrCodes";
 import { getUiCopy } from "@/lib/uiCopy";
@@ -36,6 +37,7 @@ export function HomeHero(props: HomeHeroProps): React.JSX.Element {
           <p className={styles.description}>{section.subtitle}</p>
           <div className={styles.humanAccess}>
             <HumanPlatformLinks
+              googlePlayImageUrl={getMarketingMediaUrl("/home/google-play-lockup.png")}
               locale={locale}
               storeQrCodes={storeQrCodes}
               appearance="badges"

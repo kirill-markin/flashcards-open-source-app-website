@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { getHomeShowcaseImagePath } from "@/lib/homeShowcaseImage";
+import { getMarketingMediaUrl } from "@/lib/marketingMedia";
 import type { AppLocale } from "@/lib/i18n";
 import { getUiCopy } from "@/lib/uiCopy";
 import styles from "./AppCtaPanel.module.css";
@@ -29,7 +30,7 @@ function AppCtaPanelContent({
   return (
     <aside className={`${styles.panel} ${variantClassName} ${className}`}>
       <Image
-        src={getHomeShowcaseImagePath(locale)}
+        src={getMarketingMediaUrl(getHomeShowcaseImagePath(locale))}
         alt={uiCopy.home.appPreviewAlt}
         width={7140}
         height={3018}
