@@ -98,7 +98,7 @@ That is much more useful than a card that says:
 - Front: `Comma rules`
 - Back: a paragraph
 
-The Digital SAT rewards quick recognition of the thing that is off. Your grammar deck should train that same reflex.
+The Digital SAT rewards quick recognition of the thing that is off. Your grammar deck should train that same reflex. If joining clauses is a recurring problem, [comma splice and fused sentence flashcards](/catalog/packages/comma-splice-fused-sentence-flashcards/) offer focused general English diagnosis and repair practice alongside your SAT materials.
 
 If card quality is the bigger problem than SAT-specific strategy, read this next:
 

@@ -122,7 +122,7 @@ For each item, identify the error and rewrite the sentence to match the instruct
 
 ## Save the decision you keep missing
 
-Retry missed items before making cards. If the same mistake returns, put a short sentence on the front and its diagnosis, repair, and reason on the back. You can use these in Nibomo or another flashcard tool.
+Retry missed items before making cards. If the same mistake returns, put a short sentence on the front and its diagnosis, repair, and reason on the back. You can use these in Nibomo or another flashcard tool. For more practice, the [Comma Splice & Fused Sentence Flashcards deck](/catalog/packages/comma-splice-fused-sentence-flashcards/) asks you to diagnose sentence boundaries and produce repairs under stated constraints.
 
 | Recurring mistake | Card front | Card back |
 | --- | --- | --- |

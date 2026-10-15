@@ -102,7 +102,7 @@ For a restrictive clause, leave both boundaries unmarked:
 
 This version uses opening time to identify the entrance. Adding a single comma before *is* would separate the whole subject, *the entrance that opens at nine*, from its main verb.
 
-These commas set off a description within a sentence. Joining two independent clauses is a different task. Compare “The entrance opens at nine, it is beside the ticket office”: the comma joins two complete statements incorrectly. See [comma splice vs fused sentence](/blog/comma-splice-vs-fused-sentence/) for repairs at that boundary.
+These commas set off a description within a sentence. Joining two independent clauses is a different task. Compare “The entrance opens at nine, it is beside the ticket office”: the comma joins two complete statements incorrectly. See [comma splice vs fused sentence](/blog/comma-splice-vs-fused-sentence/) for repairs at that boundary, then use the [comma splice and fused sentence flashcards](/catalog/packages/comma-splice-fused-sentence-flashcards/) for focused practice diagnosing and repairing those joins.
 
 ## Who, that, and which don't replace context
 

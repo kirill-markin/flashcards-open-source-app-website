@@ -91,6 +91,8 @@ Useful card prompts are small:
 - What is the difference between the author's claim and one detail that supports it?
 - What makes a pronoun reference unclear?
 
+For extra work on that comma-splice pattern, [comma splice and fused sentence flashcards](/catalog/packages/comma-splice-fused-sentence-flashcards/) offer general English diagnosis and repair practice. Apply the same clause check to fresh RLA questions afterward.
+
 This is also where adult learners often waste time being too polite with bad cards. If a reading card needs the whole passage to make sense, it is not a flashcard yet. It is a note pretending to be a flashcard.
 
 For RLA, I would also keep a short tag or filtered group just for repeat traps like `rla-evidence` or `rla-grammar`. That gives you something useful to open when you only have ten minutes before work.

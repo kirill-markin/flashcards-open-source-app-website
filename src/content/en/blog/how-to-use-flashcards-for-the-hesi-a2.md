@@ -150,6 +150,8 @@ Good grammar cards:
 - When should a semicolon replace a comma?
 - What kind of error happens when a modifier points at the wrong subject?
 
+If your school requires Grammar and clause joins are a weak spot, [comma splice and fused sentence flashcards](/catalog/packages/comma-splice-fused-sentence-flashcards/) offer focused general English diagnosis and repair practice alongside your school-approved materials.
+
 Good vocabulary cards:
 
 - What does `benign` mean in a healthcare context?
