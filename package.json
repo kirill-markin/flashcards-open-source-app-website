@@ -19,7 +19,9 @@
     "test:catalog": "tsx --test \"**/*.test.ts\" \"**/*.test.tsx\"",
     "media:add": "tsx scripts/addMedia.ts",
     "media:replace": "tsx scripts/replaceMedia.ts",
-    "media:migrate": "tsx scripts/migrateMedia.ts"
+    "media:migrate": "tsx scripts/migrateMedia.ts",
+    "media:check": "node scripts/checkMediaGit.ts",
+    "media:hooks": "node scripts/installMediaHooks.ts"
   },
   "dependencies": {
     "@floating-ui/react-dom": "^2.1.9",

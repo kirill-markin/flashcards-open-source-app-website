@@ -15,6 +15,7 @@ Marketing website for Nibomo. Static Next.js site deployed on Vercel.
 - Avoid fallback logic unless explicitly requested.
 - Raise explicit, actionable errors with context.
 - Keep changes minimal and scoped to the current request.
+- Publish marketing images with `npm run media:add -- /absolute/path/image.png`; commit the manifest and use the printed Blob URL. Keep media binaries out of Git; see [media workflow](docs/media.md).
 - UI text sizes: use 12px instead of 11px and 14px instead of 13px.
 - Main page and marketing section headings share the global `main h1` / `.marketingHeading` typography tokens. Use `MarketingHeading` for page intros, 1–2 word badges, and `--page-intro-offset` for spacing below the site header. Do not override their typography in page styles or add sentence-ending periods to headings.
 - The homepage hero title is the typography exception: keep its larger responsive size (60px on desktop, 52px on tablets, 32–55px on phones). All other headings retain the shared tokens.
