@@ -1,6 +1,7 @@
 import Image from "next/image";
 import type { AppLocale } from "@/lib/i18n";
 import { getHomeShowcaseImagePath } from "@/lib/homeShowcaseImage";
+import { getMarketingMediaUrl } from "@/lib/marketingMedia";
 import { getUiCopy } from "@/lib/uiCopy";
 import styles from "./AppScreensBanner.module.css";
 
@@ -24,7 +25,7 @@ export function AppScreensBanner({ locale }: AppScreensBannerProps): React.JSX.E
           <div className={styles.phone} key={screenIndex}>
             <div className={styles.screen}>
               <Image
-                src={getHomeShowcaseImagePath(locale)}
+                src={getMarketingMediaUrl(getHomeShowcaseImagePath(locale))}
                 alt=""
                 width={7140}
                 height={3018}
