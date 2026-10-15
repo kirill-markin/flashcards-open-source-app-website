@@ -3,6 +3,20 @@
   "framework": "nextjs",
   "routes": [
     {
+      "src": "/(?:blog|home|features)/.*\\.(?:png|jpe?g|webp|avif|gif|tiff?)$",
+      "transforms": [
+        {
+          "type": "response.headers",
+          "op": "set",
+          "target": {
+            "key": "cache-control"
+          },
+          "args": "public, max-age=0, must-revalidate"
+        }
+      ],
+      "continue": true
+    },
+    {
       "src": "/.*",
       "transforms": [
         {
