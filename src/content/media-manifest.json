@@ -1752,6 +1752,21 @@
     "bytes": 2314285
   },
   {
+    "publicPath": "/blog/mochi-share-decks.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/1a34583d0d84acc65168cba18414d791f3f27f4f6e18b729cc41dfff3d84cba3.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "1a34583d0d84acc65168cba18414d791f3f27f4f6e18b729cc41dfff3d84cba3",
+    "bytes": 155778,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/2df1efbd844fa2f7880464f8f1aaab01bc188fb0320baa79713629103c0681c4.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "2df1efbd844fa2f7880464f8f1aaab01bc188fb0320baa79713629103c0681c4",
+      "bytes": 2262128
+    }
+  },
+  {
     "publicPath": "/blog/mochi-tags-inline-metadata.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/cc9e6f25f8edfab2418c52ea756a11d25f50e6623a9a0c7f723824214a47814a.png",
     "width": 1672,
