@@ -56,7 +56,7 @@ test("staged guard reads the index, allows old media deletion and text, rejects 
     save(root, path, data);
     writeFileSync(join(root, path), "unstaged text");
     expect(run(root, ["staged"], ""), 1);
-    git(root, "rm", "--cached", path);
+    git(root, "rm", "--cached", "--force", path);
   }
   save(root, "public/logo-512.png", png);
   expect(run(root, ["staged"], ""), 0);
