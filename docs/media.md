@@ -14,9 +14,9 @@ npm run media:replace -- /absolute/path/updated-panel.png /home/new-panel.png
 
 Add defaults to `/blog/<filename>.webp`; the optional second argument selects a logical path under `/blog`, `/home` or `/features`. Add rejects occupied paths with different source bytes. Replace requires an existing path and updates only that mapping. Both preserve the exact original in Blob and publish an auto-oriented WebP at quality 85 without resizing. Animated and multipage inputs are rejected by add and replace.
 
-The printed JSON includes the immediately usable public `url`, dimensions, SHA-256 and byte count, plus `original` when delivery differs. Use the Blob `url` in new content. Existing `/blog`, `/home` and `/features` image URLs are served through exact external rewrites generated from the manifest. Their original imported bytes live in Blob; the checkout retains logos, SVGs and other small brand assets.
+The printed JSON includes the immediately usable public `url`, dimensions, SHA-256 and byte count, plus `original` when delivery differs. Use the Blob `url` in new content. Existing `/blog`, `/home` and `/features` image URLs issue temporary 307 redirects to immutable Blob URLs from the manifest. Their original imported bytes live in Blob; the checkout retains logos, SVGs and other small brand assets.
 
-For Next Image, use the immutable Blob `url` or resolve a managed public path with `getMarketingMediaUrl` in a Server Component before passing the URL to a client component. This changes optimized `src` and `srcset` URLs on replacement; stable compatibility paths can leave optimized images cached with old bytes.
+The normal renderer resolves managed public paths with `getMarketingMediaUrl` in Server Components before passing immutable Blob URLs to Next Image or client components. Use the same helper or an immutable Blob `url` for new Next Image sources so replacement changes optimized `src` and `srcset` URLs.
 
 Every object uses a content-hash pathname, disallows overwrites and has a one-year cache lifetime. Replacement retains prior objects and URLs. Commit the sorted `src/content/media-manifest.json` with the content change. Keep source files outside Git. Concurrent upload commands are rejected; after an interrupted process, remove `.generated/media-publishing.lock` only after confirming that process has stopped.
 
@@ -30,7 +30,7 @@ Import recursively publishes raster files under `public/blog`, `public/home` and
 
 ## CDN behavior
 
-Logical paths can be replaced, so browsers revalidate them while Vercel caches external responses for one day. One shared raster header rule enables [external rewrite caching](https://vercel.com/docs/routing/rewrites#caching-rewrites-to-external-origins). Immutable Blob URLs retain their one-year cache lifetime. The existing `Vary: Accept` behavior and Markdown negotiation remain in place. Each manifest entry consumes one rewrite; account for existing redirects and generated platform routes before approaching Vercel’s 1,024-route limit.
+Compatibility redirects use `Cache-Control: public, max-age=0, must-revalidate` so browsers revalidate the pointer. Replacement publishes a new immutable URL; deploying the updated manifest changes the redirect destination. Blob CDN serves the final image with a one-year cache lifetime. The existing `Vary: Accept` behavior and Markdown negotiation remain in place. Each manifest entry consumes one redirect; account for existing redirects and generated platform routes before approaching Vercel’s 1,024-route limit.
 
 ## Regenerate localized walkthroughs
 
