@@ -2288,6 +2288,36 @@
     "bytes": 2142130
   },
   {
+    "publicPath": "/blog/velocity-time-graph-practice-chart.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/0e7a43499940c4d3b011592fa72d29794bfe28b76e0d6f8ad14d8944006d96c9.webp",
+    "width": 1920,
+    "height": 1080,
+    "sha256": "0e7a43499940c4d3b011592fa72d29794bfe28b76e0d6f8ad14d8944006d96c9",
+    "bytes": 50932,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/1c2220289465465f83f26c6dc789efcf4adf5f05963dc0da68e287c4d73a9b26.png",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "1c2220289465465f83f26c6dc789efcf4adf5f05963dc0da68e287c4d73a9b26",
+      "bytes": 120981
+    }
+  },
+  {
+    "publicPath": "/blog/velocity-time-graph-practice.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/302ad61704ac6b7c0bfd81782717057998b5221fa68112ca3eaae4892897dc42.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "302ad61704ac6b7c0bfd81782717057998b5221fa68112ca3eaae4892897dc42",
+    "bytes": 324464,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/af0d4a19e9576af3bd9d0a935e1ad0bd5ed095088daa066329c9d8396868e515.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "af0d4a19e9576af3bd9d0a935e1ad0bd5ed095088daa066329c9d8396868e515",
+      "bytes": 3101113
+    }
+  },
+  {
     "publicPath": "/blog/vlsm-practice.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/ef4aa1c852293079c750cda8946212043395fc3a1c47d41da2d3b1a33a1fc4e0.png",
     "width": 1672,
