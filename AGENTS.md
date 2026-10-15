@@ -2,9 +2,9 @@
 
 Marketing website for Nibomo. Static Next.js site deployed on Vercel.
 
-**Git Workflow**: work through a pull request; deploy is automatic after merge. The required check neither typechecks nor renders pages, so a green check is not a working build: merge only after the Vercel preview deployment succeeds.
+**Git Workflow**: work through a pull request; deploy is automatic after merge. The required GitHub checks neither typecheck nor render pages, so green checks are not a working build: merge only after the Vercel preview deployment succeeds.
 
-**CI**: `.github/workflows/pr-checks.yml` runs `npm run test:catalog` on pull requests and on pushes to `main`. Its `Catalog test suite` job is a required status check for merging a pull request into `main`; the branch need not be up to date. A direct push to `main` by an admin bypasses the check: the run reports after the commit has landed and Vercel has started deploying it, so it detects a broken commit rather than blocking one.
+**CI**: `.github/workflows/pr-checks.yml` runs catalog tests and the media guard on pull requests and on pushes to `main`. Follow the [required checks and branch protection](docs/media.md#git-media-guard), including for admins.
 
 ## Rules
 
@@ -15,6 +15,7 @@ Marketing website for Nibomo. Static Next.js site deployed on Vercel.
 - Avoid fallback logic unless explicitly requested.
 - Raise explicit, actionable errors with context.
 - Keep changes minimal and scoped to the current request.
+- Publish marketing images with `npm run media:add -- /absolute/path/image.png`; commit the manifest and use the printed Blob URL. Keep media binaries out of Git; see [media workflow](docs/media.md).
 - UI text sizes: use 12px instead of 11px and 14px instead of 13px.
 - Main page and marketing section headings share the global `main h1` / `.marketingHeading` typography tokens. Use `MarketingHeading` for page intros, 1–2 word badges, and `--page-intro-offset` for spacing below the site header. Do not override their typography in page styles or add sentence-ending periods to headings.
 - The homepage hero title is the typography exception: keep its larger responsive size (60px on desktop, 52px on tablets, 32–55px on phones). All other headings retain the shared tokens.
