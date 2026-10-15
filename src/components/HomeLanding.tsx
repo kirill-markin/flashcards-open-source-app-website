@@ -9,6 +9,7 @@ import { TrackedMcpEndpointCopyField } from "./TrackedMcpEndpointCopyField";
 import type { AppWalkthroughSection, FeatureListSection, HeroSection } from "@/lib/content/types";
 import { getHomeExperienceCopy } from "@/lib/homeExperienceCopy";
 import { getHomeShowcaseImagePath } from "@/lib/homeShowcaseImage";
+import { getMarketingMediaUrl } from "@/lib/marketingMedia";
 import type { AppLocale } from "@/lib/i18n";
 import type { StoreQrCodes } from "@/lib/storeQrCodes";
 import { getUiCopy } from "@/lib/uiCopy";
@@ -35,9 +36,9 @@ function StudyPreview({ locale, index, alt }: { readonly locale: AppLocale; read
   const cropStyle: CSSProperties = { insetInlineStart: `${-100 * (120 + screenIndex * 1404) / 1284}%` };
   return (
     <div className={styles.stepPreview}>
-      <Image className={styles.stepFrame} src={index === 2 ? "/home/ai-flashcards.png" : "/home/start-learning.png"} alt="" width={582} height={858} sizes="(max-width: 700px) calc(100vw - 48px), 410px" />
+      <Image className={styles.stepFrame} src={getMarketingMediaUrl(index === 2 ? "/home/ai-flashcards.png" : "/home/start-learning.png")} alt="" width={582} height={858} sizes="(max-width: 700px) calc(100vw - 48px), 410px" />
       <div className={styles.stepScreen}>
-        <Image src={getHomeShowcaseImagePath(locale)} alt={alt} width={7140} height={3018} className={styles.screenImage} style={cropStyle} sizes="(max-width: 700px) 350vw, 1500px" />
+        <Image src={getMarketingMediaUrl(getHomeShowcaseImagePath(locale))} alt={alt} width={7140} height={3018} className={styles.screenImage} style={cropStyle} sizes="(max-width: 700px) 350vw, 1500px" />
       </div>
     </div>
   );
@@ -57,7 +58,7 @@ export function HomeLanding({ locale, hero, walkthrough, features, storeQrCodes 
             <p className={styles.flowLine}><span>{copy.flow[0]}</span><FlowArrow /><span>{copy.flow[1]}</span></p>
             <p className={styles.flowLine}><FlowArrow /><span>{copy.flow[2]}</span></p>
           </div>
-          <div className={styles.storeLinks}><HumanPlatformLinks locale={locale} storeQrCodes={storeQrCodes} appearance="hero-badges" /></div>
+          <div className={styles.storeLinks}><HumanPlatformLinks locale={locale} storeQrCodes={storeQrCodes} appearance="hero-badges" googlePlayImageUrl={getMarketingMediaUrl("/home/google-play-lockup.png")} /></div>
         </div>
         <HomeFlashcardDemo example={copy.heroCard} controls={copy.controls} />
       </section>
