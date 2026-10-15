@@ -159,6 +159,8 @@ For contextual tense choice, [Spanish Preterite vs. Imperfect Flashcards: Tense 
 
 The [English Irregular Verb Flashcards deck](/catalog/packages/english-irregular-verbs-flashcards/) follows the same narrow approach: 203 short prompts practice 70 common verbs from the base form to past simple and past participle, with reverse recall for distinctive past forms.
 
+For written English, [comma splice and fused sentence flashcards](/catalog/packages/comma-splice-fused-sentence-flashcards/) apply this approach to sentence boundaries: diagnose the join, then produce a repair that meets the prompt's constraint.
+
 ## FSRS is a strong fit for language learning because vocab gets weird over time
 
 Some words stick immediately.

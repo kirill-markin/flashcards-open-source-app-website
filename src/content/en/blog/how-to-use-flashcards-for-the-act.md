@@ -71,7 +71,7 @@ Some concrete examples:
 - Front: On ACT English, when should `however` replace `furthermore`?
 - Back: When the relationship is contrast, not addition.
 
-If your English deck starts sounding like a textbook table of contents, make it smaller until each card asks for one decision you can actually make under time pressure.
+If your English deck starts sounding like a textbook table of contents, make it smaller until each card asks for one decision you can actually make under time pressure. For extra work on the clause joins above, [comma splice and fused sentence flashcards](/catalog/packages/comma-splice-fused-sentence-flashcards/) offer general English diagnosis and repair practice alongside official ACT questions.
 
 If card quality is the bigger problem, read [How to Make Better Flashcards in 2026](/blog/how-to-make-better-flashcards/).
 

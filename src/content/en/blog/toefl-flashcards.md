@@ -98,6 +98,8 @@ Useful cards make you produce the structure:
 
 Keep one clean answer, or a very small set of acceptable answers, on the back. A whole email is too large for one card and too easy to grade vaguely.
 
+If your writing joins complete clauses with only a comma or no punctuation, [comma splice and fused sentence flashcards](/catalog/packages/comma-splice-fused-sentence-flashcards/) offer focused general English diagnosis and repair practice. Return to current ETS tasks to apply that sentence-level work.
+
 For Write an Email and Write for an Academic Discussion, use checklist prompts instead of complete scripts:
 
 - Who is the audience, and what tone fits?

@@ -178,7 +178,7 @@ Good prompts stay small:
 - When should a semicolon replace a comma?
 - What kind of modifier error happens when the descriptive phrase points at the wrong subject?
 
-Bad prompts usually try to swallow a whole grammar chapter.
+Bad prompts usually try to swallow a whole grammar chapter. If comma splices are the pattern you keep missing, [comma splice and fused sentence flashcards](/catalog/packages/comma-splice-fused-sentence-flashcards/) provide focused general English diagnosis and repair practice alongside your TEAS prep.
 
 This section is also a good reminder that **TEAS 7 flashcards** should not be all science. Science gets the biggest share. It does not get the whole deck.
 

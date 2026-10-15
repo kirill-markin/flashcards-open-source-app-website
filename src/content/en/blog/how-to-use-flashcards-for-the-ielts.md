@@ -163,6 +163,8 @@ Examples:
 
 For General Training, swap the chart-heavy cards for letter purpose, tone, and request-response patterns. Same logic, different surface.
 
+If your drafts join complete clauses with only a comma or no punctuation, [comma splice and fused sentence flashcards](/catalog/packages/comma-splice-fused-sentence-flashcards/) provide focused general English diagnosis and repair practice alongside your IELTS writing work.
+
 If your writing cards start looking like full model answers, cut them down until they become reusable. If past forms and participles keep causing mistakes, the [past simple vs past participle sentence-practice deck](/catalog/packages/past-simple-vs-past-participle-flashcards/) offers focused general English practice alongside your IELTS work.
 
 ## Official practice and your own misses are the best card source
