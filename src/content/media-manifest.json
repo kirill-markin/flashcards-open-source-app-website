@@ -1647,6 +1647,21 @@
     "bytes": 2424924
   },
   {
+    "publicPath": "/blog/minimal-pair-flashcards.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/3e8d9c2ede11cc31fa1829194151d4b3531270f708381722dc03caab9c012ce4.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "3e8d9c2ede11cc31fa1829194151d4b3531270f708381722dc03caab9c012ce4",
+    "bytes": 98532,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/8da99a8f08911bf0556d648f31a3b902c2afa29d2ae77e15243a0e3763c84ac0.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "8da99a8f08911bf0556d648f31a3b902c2afa29d2ae77e15243a0e3763c84ac0",
+      "bytes": 2022013
+    }
+  },
+  {
     "publicPath": "/blog/mochi-alternative-v2.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/2d9e91e29742f65e4e7332c57308d245657bb6afe762a369b46720fdcf99652e.png",
     "width": 1536,
