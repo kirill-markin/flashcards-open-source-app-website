@@ -1583,6 +1583,21 @@
     "bytes": 2423832
   },
   {
+    "publicPath": "/blog/ksp-molar-solubility-practice.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/2920ac871b845f21d6d8015b31d1ba6b84cfacd814e9efd34212420df1c4dd54.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "2920ac871b845f21d6d8015b31d1ba6b84cfacd814e9efd34212420df1c4dd54",
+    "bytes": 192620,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/5bd53e1ba26b89bf23749b85780be3ed7657af31cbfa5dc0ecf38d4c4e82381a.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "5bd53e1ba26b89bf23749b85780be3ed7657af31cbfa5dc0ecf38d4c4e82381a",
+      "bytes": 2413806
+    }
+  },
+  {
     "publicPath": "/blog/leading-vs-lagging-strand.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/61b128d9e62e265e1e9dd665cea53bac325e9bf8fc9ae1a793920c1166a543ea.png",
     "width": 1672,
