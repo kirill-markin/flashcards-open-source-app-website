@@ -64,6 +64,21 @@
     "bytes": 2212603
   },
   {
+    "publicPath": "/blog/anki-audio-not-playing.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/01927c20975c605469a3d34c314733f1cba6aa8a18edbcf0fc97e1ac2b7dee6f.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "01927c20975c605469a3d34c314733f1cba6aa8a18edbcf0fc97e1ac2b7dee6f",
+    "bytes": 131866,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/b7b6e888f59cf29e86daf4006a1a13f54877687bd816b48fb14203b662b331c3.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "b7b6e888f59cf29e86daf4006a1a13f54877687bd816b48fb14203b662b331c3",
+      "bytes": 2212747
+    }
+  },
+  {
     "publicPath": "/blog/anki-basic-to-cloze.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/0a62db5e1564cb9661f817b8da351b4faccc4aedc9cf3eb932f5875385e75731.png",
     "width": 1672,
