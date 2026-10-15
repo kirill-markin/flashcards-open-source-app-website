@@ -1,11 +1,13 @@
 import assert from "node:assert/strict";
-import { existsSync } from "node:fs";
-import { join } from "node:path";
 import test from "node:test";
 import { readPageContent } from "./content/readPageContent";
 import { SUPPORTED_LOCALES } from "./localeConfig";
 import { getUiCopy } from "./uiCopy";
 import { getHomeExperienceCopy } from "./homeExperienceCopy";
+import { marketingMediaManifest } from "./marketingMedia";
+import { getHomeShowcaseImagePath } from "./homeShowcaseImage";
+
+const mediaPaths = new Set(marketingMediaManifest.map(({ publicPath }) => publicPath));
 
 const englishHome = readPageContent("home", "en");
 const englishWalkthrough = englishHome.sections.find((section) => section.type === "app_walkthrough");
@@ -15,6 +17,7 @@ assert.ok(englishCta);
 
 for (const locale of SUPPORTED_LOCALES) {
   test(`${locale} home ships the complete redesigned layout with localized copy`, () => {
+    assert.ok(mediaPaths.has(getHomeShowcaseImagePath(locale)), `Missing showcase source for ${locale}`);
     const home = readPageContent("home", locale);
     assert.deepEqual(home.sections.map((section) => section.type), [
       "hero", "app_walkthrough", "feature_list", "review_cta",
@@ -39,7 +42,7 @@ for (const locale of SUPPORTED_LOCALES) {
     assert.equal(copy.ratings.length,4);
     assert.equal(copy.outcomes.length,4);
     walkthrough.items.forEach((item, index) => {
-      assert.ok(existsSync(join(process.cwd(), "public", item.imagePath)));
+      assert.ok(mediaPaths.has(item.imagePath), `Missing published image: ${item.imagePath}`);
       if (locale !== "en") {
         const englishItem = englishWalkthrough.items[index];
         assert.notEqual(item.label, englishItem.label);
