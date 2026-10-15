@@ -16,7 +16,10 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint .",
-    "test:catalog": "tsx --test \"**/*.test.ts\" \"**/*.test.tsx\""
+    "test:catalog": "tsx --test \"**/*.test.ts\" \"**/*.test.tsx\"",
+    "media:add": "tsx scripts/addMedia.ts",
+    "media:replace": "tsx scripts/replaceMedia.ts",
+    "media:migrate": "tsx scripts/migrateMedia.ts"
   },
   "dependencies": {
     "@floating-ui/react-dom": "^2.1.9",
@@ -45,6 +48,7 @@
     "@types/qrcode": "^1.5.6",
     "@types/react": "^19.2.18",
     "@types/react-dom": "^19.2.5",
+    "@vercel/blob": "2.8.2",
     "eslint": "^9.39.5",
     "eslint-config-next": "16.4.0",
     "postcss": "^8.5.26",
