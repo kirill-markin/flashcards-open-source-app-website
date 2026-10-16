@@ -173,6 +173,6 @@ Keep full calculations as practice problems. When a setup error repeats, use a s
 | One result is copied exactly onto a second screen. How should you count it? | Use the original result once. The copy adds no information. |
 | What does 1 − P(B \| defect) calculate? | P(not B \| defect). The given evidence remains “defect.” |
 
-Paper cards work for these prompts. You can also use ordinary cards in Nibomo; the [getting started guide](/docs/getting-started/) covers setup. After recalling a repair card, solve a fresh problem with different numbers and write every denominator branch explicitly.
+Paper cards work for these prompts. For ready-made prompts on base rates, prior–likelihood weights, complete evidence totals, and conditionally independent updates, use the [Bayes' theorem flashcards](/catalog/packages/bayes-theorem-base-rate-flashcards/). You can also make ordinary cards in Nibomo; the [getting started guide](/docs/getting-started/) covers setup. After recalling a repair card, solve a fresh problem with different numbers and write every denominator branch explicitly.
 
 *Drafted and rewritten through AI editorial passes. The examples are invented probability models; their calculations were checked directly.*
