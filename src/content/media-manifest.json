@@ -892,6 +892,21 @@
     "bytes": 2025603
   },
   {
+    "publicPath": "/blog/half-life-practice-problems.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/1744cc49c9f2ec24078a8618aaeaa84508777952dfb090cb32dd6cc2696cde6d.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "1744cc49c9f2ec24078a8618aaeaa84508777952dfb090cb32dd6cc2696cde6d",
+    "bytes": 211306,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/0b3d73be62b29162c5b23ef52026883c41b1df97e54758741fd980b1e4fe01c1.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "0b3d73be62b29162c5b23ef52026883c41b1df97e54758741fd980b1e4fe01c1",
+      "bytes": 2619109
+    }
+  },
+  {
     "publicPath": "/blog/ham-radio-technician-flashcards.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/2c29eed7d7c6e0901b34f13f2322a44f5d17baaf163aec8dfe12165101ead221.png",
     "width": 1672,
