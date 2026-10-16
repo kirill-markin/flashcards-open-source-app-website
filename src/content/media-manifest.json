@@ -159,6 +159,36 @@
     "bytes": 2762439
   },
   {
+    "publicPath": "/blog/anki-image-occlusion-modes.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/cbfd18c939166ed531395ca7851e1f90cb7f7e01edc8b48280a30318926b8e62.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "cbfd18c939166ed531395ca7851e1f90cb7f7e01edc8b48280a30318926b8e62",
+    "bytes": 121990,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/28b30582916a6fd21e100691137e376b20807fc85d08ac2b6046cc85f519f556.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "28b30582916a6fd21e100691137e376b20807fc85d08ac2b6046cc85f519f556",
+      "bytes": 2220511
+    }
+  },
+  {
+    "publicPath": "/blog/anki-image-occlusion-practice.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/f4ff0375684fcfbec1c373d9695af03092bc042c3cb719df7cf11b6989dbf403.webp",
+    "width": 1800,
+    "height": 650,
+    "sha256": "f4ff0375684fcfbec1c373d9695af03092bc042c3cb719df7cf11b6989dbf403",
+    "bytes": 29592,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/48a2c85fb103697f7a57d09a3f6a033d1efb5d255fd1aee56aab5abd7de256e4.png",
+      "width": 1800,
+      "height": 650,
+      "sha256": "48a2c85fb103697f7a57d09a3f6a033d1efb5d255fd1aee56aab5abd7de256e4",
+      "bytes": 45316
+    }
+  },
+  {
     "publicPath": "/blog/anki-images-not-showing.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/600a8a25228016d4df22ba1c7de6b5d843e8521325ed5f3b471d928181c8998c.png",
     "width": 1672,
