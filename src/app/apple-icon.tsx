@@ -7,7 +7,7 @@ export default function AppleIcon(): ImageResponse {
   return new ImageResponse(
     (
       <svg width="180" height="180" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
-        <rect width="1024" height="1024" rx="200" fill="#161718" />
+        <rect width="1024" height="1024" fill="#161718" />
         <rect x="220" y="201" width="367" height="490" rx="71.3019" fill="white" />
         <rect x="437" y="334" width="367" height="490" rx="71.3019" fill="#FF6719" />
       </svg>
