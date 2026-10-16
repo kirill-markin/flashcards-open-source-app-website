@@ -2034,6 +2034,21 @@
     "bytes": 2338090
   },
   {
+    "publicPath": "/blog/pronoun-reference-practice.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/e78c0e5ef48a2cf4671fed35c672f081eaf7b65ea5884ba810cb2b5849c1eb07.webp",
+    "width": 1672,
+    "height": 940,
+    "sha256": "e78c0e5ef48a2cf4671fed35c672f081eaf7b65ea5884ba810cb2b5849c1eb07",
+    "bytes": 164928,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/3db9afa8635723d7591983b1745c4e2f9ac2f9fe75b1f6c003b40cfa419c954c.png",
+      "width": 1672,
+      "height": 940,
+      "sha256": "3db9afa8635723d7591983b1745c4e2f9ac2f9fe75b1f6c003b40cfa419c954c",
+      "bytes": 2446663
+    }
+  },
+  {
     "publicPath": "/blog/quizlet-alternative.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/1da1d9cd77cc2e0192ff642f6560aefccd7d867d8e0f896059a148b41a38d4ce.png",
     "width": 1672,
