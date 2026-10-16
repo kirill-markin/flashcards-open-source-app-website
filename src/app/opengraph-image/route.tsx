@@ -30,25 +30,12 @@ export async function GET(): Promise<ImageResponse> {
           <svg
             width="108"
             height="108"
-            viewBox="0 0 512 512"
+            viewBox="0 0 1024 1024"
             xmlns="http://www.w3.org/2000/svg"
           >
-            <rect
-              x="104"
-              y="92"
-              width="184"
-              height="264"
-              rx="32"
-              fill="#f8f3ec"
-            />
-            <rect
-              x="212"
-              y="156"
-              width="196"
-              height="272"
-              rx="32"
-              fill="#c44b2d"
-            />
+            <rect width="1024" height="1024" rx="200" fill="#161718" />
+            <rect x="220" y="201" width="367" height="490" rx="71.3019" fill="white" />
+            <rect x="437" y="334" width="367" height="490" rx="71.3019" fill="#FF6719" />
           </svg>
         </div>
         <div
