@@ -2068,6 +2068,21 @@
     "bytes": 2220856
   },
   {
+    "publicPath": "/blog/recursion-tracing-practice.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/88d1c9e546b7ae5e871c335a2529408912cdf356a493b956dd7e410f5d2831b3.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "88d1c9e546b7ae5e871c335a2529408912cdf356a493b956dd7e410f5d2831b3",
+    "bytes": 150440,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/4a5342a9510c316382e7394a8ff59795d1750fa4ef9f322802af934678f8d202.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "4a5342a9510c316382e7394a8ff59795d1750fa4ef9f322802af934678f8d202",
+      "bytes": 2255526
+    }
+  },
+  {
     "publicPath": "/blog/relative-vs-parallel-minor.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/f69920750867e6a9fe89e9a3dca41fe1f46f7de3be77c686dbd56143fb4e2a6d.png",
     "width": 1672,
