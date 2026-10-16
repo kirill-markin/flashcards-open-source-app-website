@@ -717,6 +717,21 @@
     "bytes": 1918215
   },
   {
+    "publicPath": "/blog/duplicate-anki-deck.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/22c0be912d056fccce744a81f3c313f0f91d7a68780aeefd5f96c22ccbcaaa76.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "22c0be912d056fccce744a81f3c313f0f91d7a68780aeefd5f96c22ccbcaaa76",
+    "bytes": 162514,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/85f6003bd1ba8c784e0695423cee0545bccaa86bf0b067df2fb4c5936edefbf9.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "85f6003bd1ba8c784e0695423cee0545bccaa86bf0b067df2fb4c5936edefbf9",
+      "bytes": 2325413
+    }
+  },
+  {
     "publicPath": "/blog/ed-ing-adjectives-practice.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/f733c20058942d1de0cf0286a1812c597c4853b5a63ccf17654c33916d2ecdc9.png",
     "width": 1672,
