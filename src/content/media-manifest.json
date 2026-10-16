@@ -2334,6 +2334,21 @@
     "bytes": 442139
   },
   {
+    "publicPath": "/blog/sql-left-join-on-vs-where.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/31de3c4badb52027979212df13b2a86d84f9845f233c86c45ae0d74b4de269d0.webp",
+    "width": 1672,
+    "height": 940,
+    "sha256": "31de3c4badb52027979212df13b2a86d84f9845f233c86c45ae0d74b4de269d0",
+    "bytes": 179664,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/9265baf46325390405d4dfc0d11253708cc06c1f97957deb004e9348446db1aa.png",
+      "width": 1672,
+      "height": 940,
+      "sha256": "9265baf46325390405d4dfc0d11253708cc06c1f97957deb004e9348446db1aa",
+      "bytes": 2342462
+    }
+  },
+  {
     "publicPath": "/blog/sql-null-not-in-practice.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/46edd735c34118a9cb6b79933c2c047aab86a3ef12e1a0bebfd1e3a3dd4bbf08.png",
     "width": 1672,
