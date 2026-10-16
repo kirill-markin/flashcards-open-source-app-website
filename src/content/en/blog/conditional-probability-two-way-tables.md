@@ -105,7 +105,7 @@ There are 120 collected parcels, including 48 express parcels:
 
 **P(express | collected) = 48/120 = 2/5 = 40%.**
 
-The original conditional was 48/60 = 80%. The joint probability is 48/240 = 20%. The table connects all three without changing what the supplied percentages mean.
+The original conditional was 48/60 = 80%. The joint probability is 48/240 = 20%. The table connects all three without changing what the supplied percentages mean. For the next step—finding a hidden source from its base rate and result rate—the [Bayes' theorem flashcards](/catalog/packages/bayes-theorem-base-rate-flashcards/) practice prior × likelihood weights and the complete evidence total.
 
 Multiplying 80% by 240 would produce 192 express-and-collected parcels, even though only 60 parcels are express. That contradiction catches the wrong percentage base immediately.
 
