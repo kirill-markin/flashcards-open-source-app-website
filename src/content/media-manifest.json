@@ -2064,6 +2064,21 @@
     "bytes": 2338090
   },
   {
+    "publicPath": "/blog/probability-without-replacement.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/6605a99195a3cb5c4152d0cacb5030ba90bac626153ae647ea9d4670d7e53677.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "6605a99195a3cb5c4152d0cacb5030ba90bac626153ae647ea9d4670d7e53677",
+    "bytes": 185454,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/974590f3c117af820b2fb7867f3c0574f36653955fa8e104da2e82f70ab44078.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "974590f3c117af820b2fb7867f3c0574f36653955fa8e104da2e82f70ab44078",
+      "bytes": 2445966
+    }
+  },
+  {
     "publicPath": "/blog/pronoun-reference-practice.webp",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/e78c0e5ef48a2cf4671fed35c672f081eaf7b65ea5884ba810cb2b5849c1eb07.webp",
     "width": 1672,
