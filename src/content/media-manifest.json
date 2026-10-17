@@ -930,6 +930,21 @@
     "bytes": 2198839
   },
   {
+    "publicPath": "/blog/hardy-weinberg-practice-problems.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/f0c9713d09f0ffbe6a2435094fa9018388fd0e8e096e716b2a19334060eabdea.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "f0c9713d09f0ffbe6a2435094fa9018388fd0e8e096e716b2a19334060eabdea",
+    "bytes": 124920,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/bc5b4e3fe7718e525a4ac7d3f8617b6ad68a25ae02c0d6332261e0e7b16a4708.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "bc5b4e3fe7718e525a4ac7d3f8617b6ad68a25ae02c0d6332261e0e7b16a4708",
+      "bytes": 2097558
+    }
+  },
+  {
     "publicPath": "/blog/harmonic-vs-melodic-minor.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/23908342cdf3213c85efd30c576d3cfc44bd04c5fc653788a958e6f37234ddce.png",
     "width": 1672,
