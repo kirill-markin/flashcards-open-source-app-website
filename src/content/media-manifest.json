@@ -2322,6 +2322,21 @@
     "bytes": 2571894
   },
   {
+    "publicPath": "/blog/remnote-table-flashcards.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/8c137fa8d00c27e812d1284e1b8fbf3ace1c005fdc0fe95113f0a20f70f230c8.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "8c137fa8d00c27e812d1284e1b8fbf3ace1c005fdc0fe95113f0a20f70f230c8",
+    "bytes": 179410,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/ba30655a8fb522c2b9137b24bb0617c4e7257862f9561900b0224e2843f4912d.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "ba30655a8fb522c2b9137b24bb0617c4e7257862f9561900b0224e2843f4912d",
+      "bytes": 2363620
+    }
+  },
+  {
     "publicPath": "/blog/remnote-tags-flashcards.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/48923f7118fd49501fa450d66a944cd375ae07a4b461403a15eb46d998463de9.png",
     "width": 1672,
