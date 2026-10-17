@@ -211,7 +211,7 @@ const chartBarSlotFill = 0.72;
 const chartBarTopRadius = "4px";
 const chartBarSquareRadius = "0";
 const reviewUserCohortColors: Readonly<Record<ReviewUserCohort, string>> = {
-  returning: "#c44b2d",
+  returning: "#ff6719",
   new: "#4e79a7",
 };
 const platformColors: Readonly<Record<GlobalActivityPlatform, string>> = {
