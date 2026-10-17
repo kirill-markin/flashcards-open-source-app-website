@@ -780,6 +780,21 @@
     "bytes": 2117201
   },
   {
+    "publicPath": "/blog/export-selected-anki-cards.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/cab529222c52a44a9ece1298849d839e0cc1c3d954f493324fd96ae0a4bc21a6.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "cab529222c52a44a9ece1298849d839e0cc1c3d954f493324fd96ae0a4bc21a6",
+    "bytes": 183138,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/5e77a46b5bdac60f3d23ffffcf9698d9e9edae512495b3c9b674f3e1577ad3ad.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "5e77a46b5bdac60f3d23ffffcf9698d9e9edae512495b3c9b674f3e1577ad3ad",
+      "bytes": 2390315
+    }
+  },
+  {
     "publicPath": "/blog/faa-part-107-flashcards.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/df07dca22999dad78216be0318b2bf589e2c2e8310c890cdf9fa7a86bd583d12.png",
     "width": 1672,
