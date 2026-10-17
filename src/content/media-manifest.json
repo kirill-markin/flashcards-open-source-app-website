@@ -883,6 +883,21 @@
     "bytes": 1975312
   },
   {
+    "publicPath": "/blog/german-verb-second-word-order.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/9cef0683bec5da1e31c16d4b511efdcb844217f7bd58b41b6478eedbcbbe4557.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "9cef0683bec5da1e31c16d4b511efdcb844217f7bd58b41b6478eedbcbbe4557",
+    "bytes": 246026,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/a3c42ffad0e783c82304ac0909e6780479aab79c06ff533ff483d4496cc24f5e.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "a3c42ffad0e783c82304ac0909e6780479aab79c06ff533ff483d4496cc24f5e",
+      "bytes": 2751471
+    }
+  },
+  {
     "publicPath": "/blog/gizmo-alternative-v2.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/1f6bf9e0cdbc164c6bdc620139201ef32bd987f331703904447c40e5f93aa03b.png",
     "width": 1672,
