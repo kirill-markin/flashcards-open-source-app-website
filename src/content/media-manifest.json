@@ -2472,6 +2472,21 @@
     "bytes": 2519643
   },
   {
+    "publicPath": "/blog/three-set-venn-diagram-problems.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/96677b7f7c945be838719c7de0c1f464cac75fbb053b94a1df3ecd92e768f3a5.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "96677b7f7c945be838719c7de0c1f464cac75fbb053b94a1df3ecd92e768f3a5",
+    "bytes": 168992,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/b49774406beb862f843e76cb17a13943e16de344eb3b3fcaaca1d0f2978ab8aa.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "b49774406beb862f843e76cb17a13943e16de344eb3b3fcaaca1d0f2978ab8aa",
+      "bytes": 2288829
+    }
+  },
+  {
     "publicPath": "/blog/toefl-flashcards.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/2e6272704a76bdfad228edb74e6597ee71224d317994bc1916f485e47e938a00.png",
     "width": 1672,
