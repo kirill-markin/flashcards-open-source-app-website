@@ -2169,6 +2169,21 @@
     }
   },
   {
+    "publicPath": "/blog/python-shallow-vs-deep-copy-practice.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/2f12c6702300b9f5ceb273d066c916c95076e0c3044e94da99131381eec200c3.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "2f12c6702300b9f5ceb273d066c916c95076e0c3044e94da99131381eec200c3",
+    "bytes": 213962,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/9753951e4ede42eb1ef8bf3aa34158646154057a2dc7e61f0103eaea9cc16875.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "9753951e4ede42eb1ef8bf3aa34158646154057a2dc7e61f0103eaea9cc16875",
+      "bytes": 2448799
+    }
+  },
+  {
     "publicPath": "/blog/quizlet-alternative.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/1da1d9cd77cc2e0192ff642f6560aefccd7d867d8e0f896059a148b41a38d4ce.png",
     "width": 1672,
