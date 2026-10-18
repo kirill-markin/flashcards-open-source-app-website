@@ -2075,6 +2075,21 @@
     "bytes": 2221623
   },
   {
+    "publicPath": "/blog/peptide-net-charge-practice.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/2588edf9be959642565afbad4edb04c26da17fcb11da5f52e44e076c8116f047.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "2588edf9be959642565afbad4edb04c26da17fcb11da5f52e44e076c8116f047",
+    "bytes": 205602,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/c0986fb4fd57922a434d68ddcf75163941f6ffa4e35a63e2b209c6fbe6054bf5.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "c0986fb4fd57922a434d68ddcf75163941f6ffa4e35a63e2b209c6fbe6054bf5",
+      "bytes": 2596531
+    }
+  },
+  {
     "publicPath": "/blog/percentage-points-vs-percent-change.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/219f337c38d1fc76fc92aff058c00acd5dce57e61dbf82dc3d947d0d3ea70c14.png",
     "width": 1672,
