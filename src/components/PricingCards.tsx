@@ -20,7 +20,7 @@ function PlanCard({ card, locale }: { readonly card: PricingCard; readonly local
       <p className={styles.planDescription}>{card.description}</p>
       <div className={`${styles.action} ${premium ? "" : styles.subtleAction}`}>
         {card.tier.type === "auth_tier" ? (
-          <AuthButton locale={locale} placement="pricing" signupLabel={card.actionLabel} hideLogin />
+          <AuthButton locale={locale} placement="pricing" label={card.actionLabel} />
         ) : (
           <TrackedSelfHostCtaLink locale={locale} className={styles.repositoryButton} href={card.tier.cta.href} label={card.actionLabel} />
         )}

@@ -2,7 +2,6 @@ import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
 import { LocaleSuggestionBanner } from "@/components/LocaleSuggestionBanner";
 import type { AppLocale } from "@/lib/i18n";
-import { getUiCopy } from "@/lib/uiCopy";
 import {
   getLocaleSuggestionTargetsForLocales,
   getRouteLocales,
@@ -34,15 +33,9 @@ function SiteFrameLayout({
   routeLocales,
   routePathname,
 }: SiteFrameLayoutProps): React.JSX.Element {
-  const uiCopy = getUiCopy(locale);
-
   return (
     <>
-      <Header
-        locale={locale}
-        signupLabel={uiCopy.auth.tryNow}
-        hideLogin
-      />
+      <Header locale={locale} />
       <main>{children}</main>
       <Footer
         ctaTitle={footerCtaTitle}

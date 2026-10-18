@@ -72,7 +72,7 @@ Marketing website for Nibomo. Static Next.js site deployed on Vercel.
 
 ## Auth Integration
 
-The site has zero auth logic. It only checks whether the `logged_in` cookie is present to switch between "Log In / Sign Up" and "Open App" buttons. There is no JWT verification. The backend scopes every cookie it writes, `logged_in` and the shared `analytics_visitor` analytics cookie alike, to the domain of the host the request arrived on, resolved per request against the `COOKIE_DOMAIN` candidate list, so a response from `auth.nibomo.com` or `api.nibomo.com` sets it for `nibomo.com` and this site reads it. A session established on the legacy domain stays invisible here until it is re-established; that degradation is accepted and no cross-domain session check is added. This scoping rule is stated here and nowhere else; code that depends on it points back to this paragraph instead of naming a domain of its own.
+Human app-entry links use `src/lib/auth.ts` and open the app directly with a site `locale` query hint; optional sign-in and locale resolution belong to the app. Do not add site auth checks. The backend scopes the shared `analytics_visitor` cookie to the request host’s domain, resolved against `COOKIE_DOMAIN`; this site reads the cookie written by `PRODUCT_API_ORIGIN`. Keep this scoping rule here; dependent code links to this paragraph.
 
 ## Domain Layout
 

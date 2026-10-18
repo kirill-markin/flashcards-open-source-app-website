@@ -953,7 +953,7 @@ test("never renders or indexes an older emitted package version", () => {
   assert.deepEqual(packageView.latestVersion.languageTags, ["en", "es"]);
   assert.match(
     markdown,
-    new RegExp(`https://app\\.flashcards-open-source-app\\.com/catalog/import/${fixtureLatestVersionId}`),
+    new RegExp(`https://app\\.nibomo\\.com/catalog/import/${fixtureLatestVersionId}\\?locale=en`),
   );
   assert.match(
     markdown,
@@ -2033,7 +2033,7 @@ test("renders useful localized catalog Markdown from the public read model", () 
   );
   assert.match(
     packageDocument.markdown,
-    new RegExp(`https://app\\.flashcards-open-source-app\\.com/catalog/import/${fixtureLatestVersionId}`),
+    new RegExp(`https://app\\.nibomo\\.com/catalog/import/${fixtureLatestVersionId}\\?locale=es`),
   );
   assert.match(packageDocument.markdown, /Canonical \*\*package\*\* description/);
   assert.match(packageDocument.markdown, /First \*\*front\*\*/);
@@ -2282,7 +2282,9 @@ test("renders safe canonical links for authored URLs and catalog facet paths", (
   assert.ok(websiteUrl);
   assert.ok(installUrl);
   assert.ok(renderedLinks.includes(websiteUrl));
-  assert.ok(renderedLinks.includes(installUrl));
+  assert.ok(renderedLinks.includes(
+    "https://app.nibomo.com/catalog/import/version%202)%3E%25?locale=en",
+  ));
   assert.ok(renderedLinks.includes(
     `https://nibomo.com/${languagePagePath}/`,
   ));

@@ -31,7 +31,7 @@ export function HomeAppWalkthrough({
             <div className={styles.link}>
               <TrackedAppEntryLink
                 action="open_app"
-                href={getAppUrl()}
+                href={getAppUrl("/", locale)}
                 label={`${item.linkLabel} →`}
                 locale={locale}
                 placement="home_walkthrough"
