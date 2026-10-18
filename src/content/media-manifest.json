@@ -2484,6 +2484,21 @@
     "bytes": 442139
   },
   {
+    "publicPath": "/blog/sql-group-by-having-practice.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/3094f87c34fde7afe8cf7c0291ad869e3ac7039e5d014765dece2be1a006ba56.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "3094f87c34fde7afe8cf7c0291ad869e3ac7039e5d014765dece2be1a006ba56",
+    "bytes": 136248,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/5929a06213cfa742a8293401fe0b0ef0dce62bcd0ac0e7fc6c337cbb4e9e9348.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "5929a06213cfa742a8293401fe0b0ef0dce62bcd0ac0e7fc6c337cbb4e9e9348",
+      "bytes": 2259353
+    }
+  },
+  {
     "publicPath": "/blog/sql-left-join-on-vs-where.webp",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/31de3c4badb52027979212df13b2a86d84f9845f233c86c45ae0d74b4de269d0.webp",
     "width": 1672,
