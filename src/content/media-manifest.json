@@ -2398,6 +2398,21 @@
     "bytes": 2351276
   },
   {
+    "publicPath": "/blog/resonance-structures-practice.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/3284a7093e3a5e2b9d09cd113e1bf6482a15f473720074eee84d8a48fa806c14.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "3284a7093e3a5e2b9d09cd113e1bf6482a15f473720074eee84d8a48fa806c14",
+    "bytes": 221716,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/a8816c734f66b93e45d2a8134cb8a7f2a964ce6452d986c78924ed29c1f1ea3c.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "a8816c734f66b93e45d2a8134cb8a7f2a964ce6452d986c78924ed29c1f1ea3c",
+      "bytes": 2604084
+    }
+  },
+  {
     "publicPath": "/blog/restrictive-vs-nonrestrictive-clauses.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/1ef9695160c684971c417cbae88195d04789a21199e4b9a26317e83c1fa78687.png",
     "width": 1672,
