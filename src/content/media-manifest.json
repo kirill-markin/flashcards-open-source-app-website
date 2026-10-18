@@ -772,6 +772,21 @@
     "bytes": 2312258
   },
   {
+    "publicPath": "/blog/enzyme-inhibition-practice-problems.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/fd2bb652d94d39980d576e84d2434aff215ba84c5cb0822922ade4ad7dc4d219.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "fd2bb652d94d39980d576e84d2434aff215ba84c5cb0822922ade4ad7dc4d219",
+    "bytes": 172282,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/0e775f6e92b07e094ec0b252a718e951d370212f86df2c95a35c90d61df8fade.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "0e775f6e92b07e094ec0b252a718e951d370212f86df2c95a35c90d61df8fade",
+      "bytes": 2279702
+    }
+  },
+  {
     "publicPath": "/blog/eu-ai-act-2026-flashcards.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/49d3d5050c62435b7f309c19d67f7ae774aa97c780ceaea0f46200bd2bb1d5c9.png",
     "width": 1672,
