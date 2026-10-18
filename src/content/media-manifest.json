@@ -1726,6 +1726,21 @@
     "bytes": 2486656
   },
   {
+    "publicPath": "/blog/lie-vs-lay-practice.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/b4ba23075ea7e5d1d5ff89b62bcf33449015a3d727f3062a86f165d16227dc2c.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "b4ba23075ea7e5d1d5ff89b62bcf33449015a3d727f3062a86f165d16227dc2c",
+    "bytes": 210736,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/57ce203d8211eff8a69af3ccff8eb4a149dffcfe74efcfd39461df8855863754.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "57ce203d8211eff8a69af3ccff8eb4a149dffcfe74efcfd39461df8855863754",
+      "bytes": 2560733
+    }
+  },
+  {
     "publicPath": "/blog/limiting-reactant-practice.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/4e8fdd7ca3cd5f11bef2eea5b5232faf01fa090285328d00e0154f635f221111.png",
     "width": 1672,
