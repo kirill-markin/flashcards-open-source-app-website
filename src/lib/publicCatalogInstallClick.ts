@@ -1,4 +1,5 @@
 import type { AppLocale } from "./i18n";
+import { CATALOG_APP_HOSTNAMES } from "./site";
 import type { PublicCatalogInstallPlacement } from "./publicCatalogAnalytics";
 import {
   classifySiteSource,
@@ -7,13 +8,6 @@ import {
   warnAboutSiteAnalyticsFailure,
 } from "./siteAnalyticsCollector";
 
-// Both app host families. The catalog install links the backend renders move to the new host at the
-// web cutover, and a validator naming only one of them would reject every link on one side of that
-// day and silently stop reporting the funnel step this whole path exists for.
-const CATALOG_APP_HOSTNAMES: ReadonlyArray<string> = [
-  "app.nibomo.com",
-  "app.flashcards-open-source-app.com",
-];
 const UUID_PATTERN =
   /^[0-9a-f]{8}-[0-9a-f]{4}-[1-8][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i;
 const PACKAGE_VERSION_PATH_PATTERN =

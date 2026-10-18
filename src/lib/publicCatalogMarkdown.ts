@@ -1,3 +1,4 @@
+import { getAppUrl } from "./auth";
 import type { AppLocale } from "./i18n";
 import {
   getAbsoluteUrl,
@@ -298,7 +299,7 @@ function renderPackageDetail(
       getPublicCatalogAuthorRoutePathname(author.slug),
     )}`,
     "",
-    createMarkdownLink(copy.installLabel, latestVersion.installUrl),
+    createMarkdownLink(copy.installLabel, getAppUrl(latestVersion.installUrl, locale)),
     "",
     escapeMarkdownText(copy.installHelper),
     "",

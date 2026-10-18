@@ -1,7 +1,7 @@
 import { getPricingCards, getPricingTerms } from "@/lib/pricingCards";
 import { getPricingExperienceCopy } from "@/lib/pricingExperienceCopy";
 import { formatHeadingText } from "@/lib/headingText";
-import { getAppUrl, getSignupUrl } from "@/lib/auth";
+import { getAppUrl } from "@/lib/auth";
 import { getHumanPlatforms } from "@/lib/humanPlatforms";
 import type { AppLocale } from "@/lib/i18n";
 import { localizeInternalLinks } from "@/lib/localizeInternalLinks";
@@ -85,9 +85,7 @@ function renderHeroSection(
   lines.push("");
   lines.push(section.subtitle);
   lines.push("");
-  // The Markdown copy is generated at build time and has no signed-in state, so the web
-  // entry is the static app URL rather than the HTML hero's auth-aware destination.
-  getHumanPlatforms(getAppUrl(), locale).forEach((platform) => {
+  getHumanPlatforms(getAppUrl("/", locale), locale).forEach((platform) => {
     if (platform.kind !== "active") {
       return;
     }
@@ -136,7 +134,7 @@ function renderReviewCtaSection(
 ): void {
   lines.push(`## ${section.titleLines.join(" ")}`, "");
   lines.push(section.description, "");
-  lines.push(`[${getUiCopy(locale).auth.tryNow}](${getSignupUrl()})`, "");
+  lines.push(`[${getUiCopy(locale).auth.tryNow}](${getAppUrl("/", locale)})`, "");
 }
 
 function renderPublicActivitySection(
@@ -226,7 +224,10 @@ function renderPricingTiersSection(
     lines.push(`### ${formatHeadingText(card.tier.name)} — ${card.amount}${card.period === null ? "" : ` ${card.period}`}`, "");
     lines.push(card.description, "");
     card.features.forEach(feature => lines.push(`- ${feature}`));
-    lines.push("", `[${card.actionLabel}](${card.tier.cta.href})`, "");
+    const href = card.tier.type === "auth_tier"
+      ? getAppUrl(card.tier.cta.href, locale)
+      : card.tier.cta.href;
+    lines.push("", `[${card.actionLabel}](${href})`, "");
   });
   lines.push(getPricingTerms(section, locale), "");
 }

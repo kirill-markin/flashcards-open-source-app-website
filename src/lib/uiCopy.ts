@@ -28,9 +28,7 @@ interface AppUiCopy {
     readonly toggleTitle: string;
   };
   readonly auth: {
-    readonly logIn: string;
     readonly openApp: string;
-    readonly signUpFree: string;
     readonly startStudyingFree: string;
     readonly tryNow: string;
   };
@@ -185,9 +183,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     },
     auth: {
       tryNow: "Try Now",
-      logIn: "Log In",
       openApp: "Open App",
-      signUpFree: "Sign Up Free",
       startStudyingFree: "Start studying free",
     },
     blog: {
@@ -355,9 +351,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     },
     auth: {
       tryNow: "Pruébalo ahora",
-      logIn: "Iniciar sesión",
       openApp: "Abrir app",
-      signUpFree: "Registrarse gratis",
       startStudyingFree: "Empieza a estudiar gratis",
     },
     blog: {
@@ -525,9 +519,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     },
     auth: {
       tryNow: "جرّب الآن",
-      logIn: "تسجيل الدخول",
       openApp: "فتح التطبيق",
-      signUpFree: "التسجيل مجانًا",
       startStudyingFree: "ابدأ الدراسة مجانًا",
     },
     blog: {
@@ -694,9 +686,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     },
     auth: {
       tryNow: "Jetzt ausprobieren",
-      logIn: "Anmelden",
       openApp: "App öffnen",
-      signUpFree: "Kostenlos starten",
       startStudyingFree: "Kostenlos lernen",
     },
     blog: {
@@ -864,9 +854,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     },
     auth: {
       tryNow: "अभी आज़माएँ",
-      logIn: "लॉग इन",
       openApp: "ऐप खोलें",
-      signUpFree: "मुफ़्त शुरू करें",
       startStudyingFree: "मुफ़्त पढ़ाई शुरू करें",
     },
     blog: {
@@ -1034,9 +1022,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     },
     auth: {
       tryNow: "今すぐ試す",
-      logIn: "ログイン",
       openApp: "アプリを開く",
-      signUpFree: "無料で始める",
       startStudyingFree: "無料で学習を始める",
     },
     blog: {
@@ -1204,9 +1190,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     },
     auth: {
       tryNow: "Essayer maintenant",
-      logIn: "Se connecter",
       openApp: "Ouvrir l'app",
-      signUpFree: "S'inscrire gratuitement",
       startStudyingFree: "Commencer gratuitement",
     },
     blog: {
@@ -1374,9 +1358,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     },
     auth: {
       tryNow: "Experimente agora",
-      logIn: "Entrar",
       openApp: "Abrir o app",
-      signUpFree: "Criar conta grátis",
       startStudyingFree: "Comece a estudar grátis",
     },
     blog: {
@@ -1544,9 +1526,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     },
     auth: {
       tryNow: "Попробовать",
-      logIn: "Войти",
       openApp: "Открыть приложение",
-      signUpFree: "Начать бесплатно",
       startStudyingFree: "Начать учиться бесплатно",
     },
     blog: {
@@ -1714,9 +1694,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     },
     auth: {
       tryNow: "立即体验",
-      logIn: "登录",
       openApp: "打开应用",
-      signUpFree: "免费开始",
       startStudyingFree: "免费开始学习",
     },
     blog: {
@@ -1881,9 +1859,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     },
     auth: {
       tryNow: "Prova ora",
-      logIn: "Accedi",
       openApp: "Apri l'app",
-      signUpFree: "Registrati gratis",
       startStudyingFree: "Inizia a studiare gratis",
     },
     blog: {
@@ -2051,9 +2027,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     },
     auth: {
       tryNow: "지금 사용해 보기",
-      logIn: "로그인",
       openApp: "앱 열기",
-      signUpFree: "무료로 가입",
       startStudyingFree: "무료로 학습 시작",
     },
     blog: {
@@ -2221,9 +2195,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     },
     auth: {
       tryNow: "Coba sekarang",
-      logIn: "Masuk",
       openApp: "Buka Aplikasi",
-      signUpFree: "Daftar Gratis",
       startStudyingFree: "Mulai belajar gratis",
     },
     blog: {
@@ -2391,9 +2363,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     },
     auth: {
       tryNow: "Şimdi deneyin",
-      logIn: "Giriş Yap",
       openApp: "Uygulamayı Aç",
-      signUpFree: "Ücretsiz Kaydol",
       startStudyingFree: "Ücretsiz çalışmaya başla",
     },
     blog: {
@@ -2561,9 +2531,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     },
     auth: {
       tryNow: "Probeer nu",
-      logIn: "Aanmelden",
       openApp: "App openen",
-      signUpFree: "Gratis registreren",
       startStudyingFree: "Gratis beginnen met leren",
     },
     blog: {
@@ -2731,9 +2699,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     },
     auth: {
       tryNow: "Wypróbuj teraz",
-      logIn: "Zaloguj się",
       openApp: "Otwórz aplikację",
-      signUpFree: "Załóż darmowe konto",
       startStudyingFree: "Zacznij się uczyć za darmo",
     },
     blog: {
@@ -2901,9 +2867,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     },
     auth: {
       tryNow: "Thử ngay",
-      logIn: "Đăng nhập",
       openApp: "Mở ứng dụng",
-      signUpFree: "Đăng ký miễn phí",
       startStudyingFree: "Học miễn phí ngay",
     },
     blog: {
@@ -3071,9 +3035,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     },
     auth: {
       tryNow: "ลองเลย",
-      logIn: "เข้าสู่ระบบ",
       openApp: "เปิดแอป",
-      signUpFree: "สมัครใช้งานฟรี",
       startStudyingFree: "เริ่มเรียนฟรี",
     },
     blog: {
@@ -3241,9 +3203,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     },
     auth: {
       tryNow: "Спробувати",
-      logIn: "Увійти",
       openApp: "Відкрити застосунок",
-      signUpFree: "Почати безкоштовно",
       startStudyingFree: "Почати навчання безкоштовно",
     },
     blog: {
@@ -3411,9 +3371,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     },
     auth: {
       tryNow: "נסו עכשיו",
-      logIn: "התחברות",
       openApp: "פתיחת האפליקציה",
-      signUpFree: "הרשמה בחינם",
       startStudyingFree: "להתחיל ללמוד בחינם",
     },
     blog: {
@@ -3581,9 +3539,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     },
     auth: {
       tryNow: "Prova nu",
-      logIn: "Logga in",
       openApp: "Öppna appen",
-      signUpFree: "Skapa gratiskonto",
       startStudyingFree: "Börja plugga gratis",
     },
     blog: {
@@ -3751,9 +3707,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     },
     auth: {
       tryNow: "Prøv nu",
-      logIn: "Log ind",
       openApp: "Åbn app",
-      signUpFree: "Opret gratis konto",
       startStudyingFree: "Begynd at lære gratis",
     },
     blog: {
@@ -3921,9 +3875,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     },
     auth: {
       tryNow: "Prøv nå",
-      logIn: "Logg inn",
       openApp: "Åpne appen",
-      signUpFree: "Registrer deg gratis",
       startStudyingFree: "Begynn å studere gratis",
     },
     blog: {
@@ -4091,9 +4043,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     },
     auth: {
       tryNow: "Kokeile nyt",
-      logIn: "Kirjaudu sisään",
       openApp: "Avaa sovellus",
-      signUpFree: "Rekisteröidy ilmaiseksi",
       startStudyingFree: "Aloita opiskelu ilmaiseksi",
     },
     blog: {
@@ -4261,9 +4211,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     },
     auth: {
       tryNow: "Vyzkoušet",
-      logIn: "Přihlásit se",
       openApp: "Otevřít aplikaci",
-      signUpFree: "Zaregistrovat se zdarma",
       startStudyingFree: "Začít se učit zdarma",
     },
     blog: {
@@ -4431,9 +4379,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     },
     auth: {
       tryNow: "Δοκιμάστε τώρα",
-      logIn: "Σύνδεση",
       openApp: "Άνοιγμα εφαρμογής",
-      signUpFree: "Δωρεάν εγγραφή",
       startStudyingFree: "Ξεκινήστε να μελετάτε δωρεάν",
     },
     blog: {
@@ -4601,9 +4547,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     },
     auth: {
       tryNow: "Încearcă acum",
-      logIn: "Autentificare",
       openApp: "Deschide aplicația",
-      signUpFree: "Înregistrare gratuită",
       startStudyingFree: "Începe să studiezi gratuit",
     },
     blog: {
@@ -4771,9 +4715,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     },
     auth: {
       tryNow: "Próbáld ki",
-      logIn: "Bejelentkezés",
       openApp: "Alkalmazás megnyitása",
-      signUpFree: "Ingyenes regisztráció",
       startStudyingFree: "Kezdj el tanulni ingyen",
     },
     blog: {
@@ -4941,9 +4883,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     },
     auth: {
       tryNow: "همین حالا امتحان کنید",
-      logIn: "ورود",
       openApp: "باز کردن برنامه",
-      signUpFree: "ثبت‌نام رایگان",
       startStudyingFree: "رایگان شروع به مطالعه کنید",
     },
     blog: {
@@ -5111,9 +5051,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     },
     auth: {
       tryNow: "Prova-ho ara",
-      logIn: "Inicia la sessió",
       openApp: "Obre l'app",
-      signUpFree: "Registra't gratis",
       startStudyingFree: "Comença a estudiar gratis",
     },
     blog: {
@@ -5281,9 +5219,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     },
     auth: {
       tryNow: "এখনই চেষ্টা করুন",
-      logIn: "লগ ইন",
       openApp: "অ্যাপ খুলুন",
-      signUpFree: "ফ্রি সাইন আপ",
       startStudyingFree: "ফ্রিতে পড়া শুরু করুন",
     },
     blog: {
@@ -5450,9 +5386,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     },
     auth: {
       tryNow: "હમણાં અજમાવો",
-      logIn: "લૉગ ઇન",
       openApp: "ઍપ ખોલો",
-      signUpFree: "મફત નોંધણી",
       startStudyingFree: "મફત અભ્યાસ શરૂ કરો",
     },
     blog: {
@@ -5620,9 +5554,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     },
     auth: {
       tryNow: "ಈಗ ಪ್ರಯತ್ನಿಸಿ",
-      logIn: "ಲಾಗ್ ಇನ್",
       openApp: "ಆ್ಯಪ್ ತೆರೆಯಿರಿ",
-      signUpFree: "ಉಚಿತ ನೋಂದಣಿ",
       startStudyingFree: "ಉಚಿತವಾಗಿ ಅಧ್ಯಯನ ಆರಂಭಿಸಿ",
     },
     blog: {
@@ -5790,9 +5722,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     },
     auth: {
       tryNow: "ഇപ്പോൾ പരീക്ഷിക്കൂ",
-      logIn: "ലോഗ് ഇൻ",
       openApp: "ആപ്പ് തുറക്കുക",
-      signUpFree: "സൗജന്യമായി രജിസ്റ്റർ ചെയ്യുക",
       startStudyingFree: "സൗജന്യമായി പഠനം തുടങ്ങുക",
     },
     blog: {
@@ -5964,9 +5894,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     },
     auth: {
       tryNow: "आता वापरून पहा",
-      logIn: "लॉग इन",
       openApp: "ॲप उघडा",
-      signUpFree: "मोफत नोंदणी",
       startStudyingFree: "मोफत अभ्यास सुरू करा",
     },
     blog: {
@@ -6133,9 +6061,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     },
     auth: {
       tryNow: "ਹੁਣੇ ਅਜ਼ਮਾਓ",
-      logIn: "ਲੌਗ ਇਨ",
       openApp: "ਐਪ ਖੋਲ੍ਹੋ",
-      signUpFree: "ਮੁਫ਼ਤ ਸਾਈਨ ਅੱਪ",
       startStudyingFree: "ਮੁਫ਼ਤ ਪੜ੍ਹਾਈ ਸ਼ੁਰੂ ਕਰੋ",
     },
     blog: {
@@ -6302,9 +6228,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     },
     auth: {
       tryNow: "இப்போதே முயற்சிக்கவும்",
-      logIn: "உள்நுழை",
       openApp: "செயலியைத் திற",
-      signUpFree: "இலவசமாகப் பதிவு செய்",
       startStudyingFree: "இலவசமாகப் படிக்கத் தொடங்கு",
     },
     blog: {
@@ -6474,9 +6398,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     },
     auth: {
       tryNow: "ఇప్పుడే ప్రయత్నించండి",
-      logIn: "లాగ్ ఇన్",
       openApp: "యాప్ తెరువు",
-      signUpFree: "ఉచితంగా నమోదు",
       startStudyingFree: "ఉచితంగా అధ్యయనం మొదలుపెట్టండి",
     },
     blog: {
@@ -6645,9 +6567,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     },
     auth: {
       tryNow: "ابھی آزمائیں",
-      logIn: "لاگ اِن",
       openApp: "ایپ کھولیں",
-      signUpFree: "مفت سائن اَپ",
       startStudyingFree: "مفت مطالعہ شروع کریں",
     },
     blog: {
@@ -6815,9 +6735,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     },
     auth: {
       tryNow: "Jaribu sasa",
-      logIn: "Ingia",
       openApp: "Fungua programu",
-      signUpFree: "Jisajili bila malipo",
       startStudyingFree: "Anza kusoma bila malipo",
     },
     blog: {
@@ -6986,9 +6904,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     },
     auth: {
       tryNow: "Изпробвайте сега",
-      logIn: "Вход",
       openApp: "Отваряне на приложението",
-      signUpFree: "Безплатна регистрация",
       startStudyingFree: "Започнете да учите безплатно",
     },
     blog: {
@@ -7156,9 +7072,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     },
     auth: {
       tryNow: "Proovi kohe",
-      logIn: "Logi sisse",
       openApp: "Ava rakendus",
-      signUpFree: "Registreeru tasuta",
       startStudyingFree: "Alusta tasuta õppimist",
     },
     blog: {
@@ -7326,9 +7240,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     },
     auth: {
       tryNow: "Isprobajte sada",
-      logIn: "Prijava",
       openApp: "Otvori aplikaciju",
-      signUpFree: "Besplatna registracija",
       startStudyingFree: "Počnite učiti besplatno",
     },
     blog: {
@@ -7496,9 +7408,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     },
     auth: {
       tryNow: "Prófaðu núna",
-      logIn: "Skrá inn",
       openApp: "Opna forritið",
-      signUpFree: "Stofna ókeypis aðgang",
       startStudyingFree: "Byrja að læra ókeypis",
     },
     blog: {
@@ -7666,9 +7576,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     },
     auth: {
       tryNow: "Išbandykite dabar",
-      logIn: "Prisijungti",
       openApp: "Atidaryti programėlę",
-      signUpFree: "Registruotis nemokamai",
       startStudyingFree: "Pradėti mokytis nemokamai",
     },
     blog: {
@@ -7836,9 +7744,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     },
     auth: {
       tryNow: "Izmēģini tagad",
-      logIn: "Pieteikties",
       openApp: "Atvērt lietotni",
-      signUpFree: "Reģistrēties bez maksas",
       startStudyingFree: "Sāc mācīties bez maksas",
     },
     blog: {
@@ -8006,9 +7912,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     },
     auth: {
       tryNow: "Vyskúšať",
-      logIn: "Prihlásiť sa",
       openApp: "Otvoriť aplikáciu",
-      signUpFree: "Zaregistrovať sa zadarmo",
       startStudyingFree: "Začať sa učiť zadarmo",
     },
     blog: {
@@ -8176,9 +8080,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     },
     auth: {
       tryNow: "Preizkusite zdaj",
-      logIn: "Prijava",
       openApp: "Odpri aplikacijo",
-      signUpFree: "Brezplačna registracija",
       startStudyingFree: "Začnite se učiti brezplačno",
     },
     blog: {
@@ -8346,9 +8248,7 @@ const UI_COPY_BY_LOCALE: Readonly<Record<AppLocale, AppUiCopy>> = {
     },
     auth: {
       tryNow: "Zama manje",
-      logIn: "Ngena",
       openApp: "Vula uhlelo",
-      signUpFree: "Bhalisa mahhala",
       startStudyingFree: "Qala ukufunda mahhala",
     },
     blog: {

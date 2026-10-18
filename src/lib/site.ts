@@ -12,7 +12,10 @@ export const SITE_NAME = "Nibomo";
  */
 export const PRODUCT_API_ORIGIN = "https://api.nibomo.com";
 export const PRODUCT_APP_ORIGIN = "https://app.nibomo.com";
-export const PRODUCT_AUTH_ORIGIN = "https://auth.nibomo.com";
+export const CATALOG_APP_HOSTNAMES: ReadonlyArray<string> = [
+  new URL(PRODUCT_APP_ORIGIN).hostname,
+  "app.flashcards-open-source-app.com",
+];
 export const OPEN_GRAPH_IMAGE_URL = `${SITE_URL}/opengraph-image`;
 export const TWITTER_IMAGE_URL = `${SITE_URL}/twitter-image`;
 // The product answers on `SITE_URL`'s subdomains and keeps answering on the former product

@@ -1,6 +1,7 @@
 import type { AppLocale } from "./localeConfig";
 import type { PricingTier, PricingTiersSection } from "./content/types";
 import { getPricingExperienceCopy } from "./pricingExperienceCopy";
+import { getUiCopy } from "./uiCopy";
 
 export type PricingPlanKind = "free" | "premium" | "selfHosted";
 
@@ -32,7 +33,7 @@ export function getPricingCards(section: PricingTiersSection, locale: AppLocale)
   return [
     {
       kind: "free", tier: free, label: copy.labels[0], description: copy.descriptions[0],
-      amount: "$0", period: null, actionLabel: copy.heading[0],
+      amount: "$0", period: null, actionLabel: getUiCopy(locale).auth.startStudyingFree,
       features: locale === "en"
         ? ["50 AI chat messages / month", "Web, iOS & Android sync", copy.ownApiKey]
         : [requireBullet(free, 0, locale), requireBullet(free, 2, locale), copy.ownApiKey],
@@ -40,7 +41,7 @@ export function getPricingCards(section: PricingTiersSection, locale: AppLocale)
     {
       kind: "premium", tier: premium, label: copy.labels[1], description: copy.descriptions[1],
       amount: new Intl.NumberFormat(locale, { style: "currency", currency: "USD" }).format(6.99),
-      period: copy.period, actionLabel: copy.tryPremium,
+      period: copy.period, actionLabel: getUiCopy(locale).auth.openApp,
       features: [locale === "en" ? "1,000 AI chat messages / month" : requireBullet(premium, 1, locale), requireBullet(premium, 3, locale), requireBullet(premium, 2, locale)],
     },
     {

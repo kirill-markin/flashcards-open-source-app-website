@@ -1,15 +1,13 @@
 "use client";
 
-import { getAppUrl, getSignupUrl } from "@/lib/auth";
+import { getAppUrl } from "@/lib/auth";
 import { getSiteAppEntryImpressionAttributes } from "@/lib/appEntryImpressionAttributes";
 import {
   trackAppEntryClick,
-  type AppEntryAction,
   type AppEntryPlacement,
 } from "@/lib/appEntryTracking";
 import type { AppLocale } from "@/lib/i18n";
 import { getUiCopy } from "@/lib/uiCopy";
-import { useLoggedInCookie } from "@/lib/useLoggedInCookie";
 
 interface AuthAwareAppCtaLinkProps {
   readonly locale: AppLocale;
@@ -20,24 +18,18 @@ export function AuthAwareAppCtaLink({
   locale,
   placement,
 }: AuthAwareAppCtaLinkProps): React.JSX.Element {
-  const loggedIn = useLoggedInCookie();
   const uiCopy = getUiCopy(locale);
-  const action: AppEntryAction = loggedIn ? "open_app" : "signup";
-  const href = loggedIn ? getAppUrl() : getSignupUrl();
-  const label = loggedIn
-    ? uiCopy.auth.openApp
-    : uiCopy.auth.startStudyingFree;
   const handleClick = (): void => {
-    trackAppEntryClick(action, locale, placement);
+    trackAppEntryClick("open_app", locale, placement);
   };
 
   return (
     <a
-      href={href}
+      href={getAppUrl("/", locale)}
       {...getSiteAppEntryImpressionAttributes("web_app", placement)}
       onClick={handleClick}
     >
-      {label}
+      {uiCopy.auth.startStudyingFree}
     </a>
   );
 }

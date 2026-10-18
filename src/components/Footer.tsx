@@ -64,7 +64,7 @@ export const Footer: React.FC<FooterProps> = ({
   routePathname,
 }) => {
   const year = new Date().getFullYear();
-  const platforms = getHumanPlatforms(getAppUrl(), locale);
+  const platforms = getHumanPlatforms(getAppUrl("/", locale), locale);
   const storeQrCodes = readGeneratedStoreQrCodes(process.cwd());
   const uiCopy = getUiCopy(locale);
   const ctaCopy = getFooterCtaCopy(locale);
@@ -116,8 +116,7 @@ export const Footer: React.FC<FooterProps> = ({
           <AuthButton
             locale={locale}
             placement="footer"
-            signupLabel={uiCopy.auth.tryNow}
-            hideLogin
+            label={uiCopy.auth.tryNow}
           />
         </div>
       </section>

@@ -1,3 +1,4 @@
+import { getAppUrl } from "@/lib/auth";
 import "katex/dist/katex.min.css";
 import Link from "next/link";
 import { AncestorBreadcrumbStructuredData } from "@/components/BreadcrumbStructuredData";
@@ -259,7 +260,7 @@ export async function PublicCatalogPackagePageView({
   );
   const studyCtaProps: PublicCatalogStudyCtaProps = {
     helper: copy.installHelper,
-    href: latestVersion.installUrl,
+    href: getAppUrl(latestVersion.installUrl, locale),
     label: copy.installLabel,
     locale,
     packageId: packageMetadata.packageId,

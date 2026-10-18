@@ -12,13 +12,11 @@ import {
   type HumanPlatform,
   type StoreAnalyticsPlatform,
 } from "@/lib/humanPlatforms";
-import { getAppUrl, getLoginUrl } from "@/lib/auth";
+import { getAppUrl } from "@/lib/auth";
 import type { AppLocale } from "@/lib/i18n";
-import { getLocalizedPathname } from "@/lib/i18n";
 import { getExternalLinkAttributes } from "@/lib/linkTargets";
 import type { StoreQrCodes } from "@/lib/storeQrCodes";
 import { getUiCopy } from "@/lib/uiCopy";
-import { useLoggedInCookie } from "@/lib/useLoggedInCookie";
 import { trackVercelAnalyticsEvent } from "@/lib/vercelAnalytics";
 import { StoreQrHoverLink } from "./StoreQrHoverLink";
 import styles from "./HumanPlatformLinks.module.css";
@@ -83,12 +81,7 @@ export const HumanPlatformLinks: React.FC<HumanPlatformLinksProps> = ({
   appearance = "cards",
 }) => {
   const uiCopy = getUiCopy(locale);
-  const loggedIn = useLoggedInCookie();
-  const webEntryHref = loggedIn
-    ? getAppUrl()
-    : getLoginUrl(getLocalizedPathname(locale, "/"));
-  const webEntryAction = loggedIn ? "open_app" : "login";
-  const platforms = getHumanPlatforms(webEntryHref, locale);
+  const platforms = getHumanPlatforms(getAppUrl("/", locale), locale);
   const showBadges = appearance !== "cards";
   const orderedPlatforms = showBadges
     ? platforms.toSorted((first, second) => getBadgeOrder(first) - getBadgeOrder(second))
@@ -108,7 +101,7 @@ export const HumanPlatformLinks: React.FC<HumanPlatformLinksProps> = ({
             }
 
             trackAppEntryClick(
-              webEntryAction,
+              "open_app",
               locale,
               "home_human_access",
             );
