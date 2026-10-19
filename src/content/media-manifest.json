@@ -833,6 +833,21 @@
     "bytes": 2307450
   },
   {
+    "publicPath": "/blog/find-exec-vs-xargs.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/912b3a32bed5bca8b637fa54e79a6efee1361a05c2d5acec24454a9a0a09384e.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "912b3a32bed5bca8b637fa54e79a6efee1361a05c2d5acec24454a9a0a09384e",
+    "bytes": 176758,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/5ac455cb902eb1399fa3ffa166c9161513a6d9da3d166f4801bc45fbc33e8d29.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "5ac455cb902eb1399fa3ffa166c9161513a6d9da3d166f4801bc45fbc33e8d29",
+      "bytes": 2427663
+    }
+  },
+  {
     "publicPath": "/blog/find-mtime.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/100382186cde189b771ab2788e0f29698f422d6b8d5708587e546653208031ce.png",
     "width": 1672,
