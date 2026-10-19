@@ -2475,6 +2475,21 @@
     "bytes": 2162582
   },
   {
+    "publicPath": "/blog/simpsons-paradox-practice.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/b3d5ad9a0d52ad962cd3be7551b7bbae20498b2702624b46c6257166947c450b.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "b3d5ad9a0d52ad962cd3be7551b7bbae20498b2702624b46c6257166947c450b",
+    "bytes": 207386,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/9b3c43fb25785a64cb40f74ae78b9704571134c7b8d121859ea9e82ca4ba23a2.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "9b3c43fb25785a64cb40f74ae78b9704571134c7b8d121859ea9e82ca4ba23a2",
+      "bytes": 2451696
+    }
+  },
+  {
     "publicPath": "/blog/sliding-window-negative-numbers.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/0cbe8cc07553da1d032a21bdffc46188364b948f2fcb815ae1cce89d53ceb429.png",
     "width": 1672,
