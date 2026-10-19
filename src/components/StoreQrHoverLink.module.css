@@ -1,7 +1,7 @@
 .card {
   /* Cosmetic hint width only. The QR itself is sized by the width/height attributes the
      generator emits, so this value cannot shrink a rendered code below the scan floor.
-     Track storeQrCodeSvgOptions.width in scripts/generateStaticContent.ts to keep the
+     Track storeQrCodeSvgOptions.width in scripts/generateStoreQrCodes.ts to keep the
      hint as wide as the code. */
   --store-qr-size: 228px;
 

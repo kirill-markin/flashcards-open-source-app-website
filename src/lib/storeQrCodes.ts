@@ -1,10 +1,10 @@
 import { existsSync, readFileSync } from "fs";
 import { join } from "path";
-import type { StoreAnalyticsPlatform } from "@/lib/humanPlatforms";
+import type { StoreQrCodeTarget } from "@/lib/humanPlatforms";
 
 export const storeQrCodesGeneratedFileName = "store-qr-codes.json";
 
-export type StoreQrCodes = Readonly<Record<StoreAnalyticsPlatform, string>>;
+export type StoreQrCodes = Readonly<Record<StoreQrCodeTarget, string>>;
 
 function assertSvgMarkup(value: unknown, context: string): string {
   if (typeof value !== "string" || value.startsWith("<svg") === false) {
@@ -34,6 +34,8 @@ export function parseStoreQrCodes(value: unknown): StoreQrCodes {
   return {
     android: assertSvgMarkup(record.android, "android"),
     ios: assertSvgMarkup(record.ios, "ios"),
+    iphone: assertSvgMarkup(record.iphone, "iphone"),
+    ipad: assertSvgMarkup(record.ipad, "ipad"),
   };
 }
 

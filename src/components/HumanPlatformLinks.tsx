@@ -23,7 +23,7 @@ import styles from "./HumanPlatformLinks.module.css";
 
 const STORE_LINK_PLACEMENT = "home_human_access";
 
-function trackStoreLinkClick(
+export function trackStoreLinkClick(
   platform: StoreAnalyticsPlatform,
   locale: AppLocale,
 ): void {
