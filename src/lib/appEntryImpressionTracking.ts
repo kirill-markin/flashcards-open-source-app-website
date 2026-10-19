@@ -56,13 +56,6 @@ const IMPRESSION_DWELL_MS = 1000;
  * so it survives React strict mode's simulated remount and the frame remount a back navigation
  * causes: a remounted CTA re-runs the dwell delay and would otherwise report a second impression
  * under a key this document has already reported.
- *
- * Every property a click can vary on has to be in the key or the clicks differing on the missing
- * one join to nothing. A placement is a container - the footer and the home platform grid each
- * offer the web app, the App Store and Google Play side by side - so `target` varies inside one
- * placement, and a client-side navigation varies `page_kind` under a CTA that never moved. The
- * remaining two properties are derived from the document's own referrer and user agent, so neither
- * can change inside one document load and neither belongs in the key.
  */
 const reportedImpressionKeys = new Set<string>();
 
