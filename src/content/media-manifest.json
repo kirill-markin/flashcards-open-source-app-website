@@ -56,6 +56,21 @@
     "bytes": 2179830
   },
   {
+    "publicPath": "/blog/anki-add-field-existing-notes.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/e0088d2ea8ea46fcb4e1b64f17079d36d2e24a221d3206b5024e6474a7804c54.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "e0088d2ea8ea46fcb4e1b64f17079d36d2e24a221d3206b5024e6474a7804c54",
+    "bytes": 119118,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/dcfd17c6a677da977857446f6dfa15b0b2a2e2508fbbc54ebb110410d2d03145.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "dcfd17c6a677da977857446f6dfa15b0b2a2e2508fbbc54ebb110410d2d03145",
+      "bytes": 2134386
+    }
+  },
+  {
     "publicPath": "/blog/anki-apkg-vs-colpkg.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/c790f75e31be3296a13ac7b94e71c69e7c03ca73f92187fee4a43fdddc8b0ec8.png",
     "width": 1672,
