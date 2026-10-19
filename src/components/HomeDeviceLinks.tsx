@@ -1,7 +1,7 @@
 "use client";
 
 import { getSiteAppEntryImpressionAttributes } from "@/lib/appEntryImpressionAttributes";
-import { getStoreAppEntryTarget, trackAppEntryClick } from "@/lib/appEntryTracking";
+import { getStoreAppEntryTarget, trackAppEntryClick, type AppEntryPlacement } from "@/lib/appEntryTracking";
 import { getAppUrl } from "@/lib/auth";
 import { getHomeDeviceCopy } from "@/lib/homeDeviceCopy";
 import { getHumanDevicePlatforms, type HumanDevice, type HumanDevicePlatform } from "@/lib/humanPlatforms";
@@ -34,13 +34,14 @@ interface DeviceFilterLinkProps {
 function DeviceFilterLink({ locale, platform, storeQrCodes }: DeviceFilterLinkProps): React.JSX.Element {
   const content = <><DeviceIcon device={platform.device} /><span>{platform.label}</span></>;
   const target = platform.analytics.kind === "store" ? getStoreAppEntryTarget(platform.analytics.platform) : "web_app";
-  const impressionAttributes = getSiteAppEntryImpressionAttributes(target, "home_human_access");
+  const placement: AppEntryPlacement = `home_device_${platform.device}`;
+  const impressionAttributes = getSiteAppEntryImpressionAttributes(target, placement);
   const onClick = (): void => {
     if (platform.analytics.kind === "store") {
-      trackStoreLinkClick(platform.analytics.platform, locale);
+      trackStoreLinkClick(platform.analytics.platform, locale, placement);
       return;
     }
-    trackAppEntryClick("open_app", locale, "home_human_access");
+    trackAppEntryClick("open_app", locale, placement);
   };
 
   if (platform.device === "mac" || platform.device === "web") {
@@ -61,7 +62,7 @@ function DeviceFilterLink({ locale, platform, storeQrCodes }: DeviceFilterLinkPr
         impressionAttributes={impressionAttributes}
         locale={locale}
         onClick={onClick}
-        placement="home_human_access"
+        placement={placement}
         qrSvgMarkup={storeQrCodes[platform.device]}
         target={platform.device === "android" ? "google_play" : "app_store"}
       >

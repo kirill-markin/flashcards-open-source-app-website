@@ -6,6 +6,7 @@ import {
   getStoreAppEntryTarget,
   reportSiteAppEntryClick,
   trackAppEntryClick,
+  type AppEntryPlacement,
 } from "@/lib/appEntryTracking";
 import {
   getHumanPlatforms,
@@ -21,20 +22,19 @@ import { trackVercelAnalyticsEvent } from "@/lib/vercelAnalytics";
 import { StoreQrHoverLink } from "./StoreQrHoverLink";
 import styles from "./HumanPlatformLinks.module.css";
 
-const STORE_LINK_PLACEMENT = "home_human_access";
-
 export function trackStoreLinkClick(
   platform: StoreAnalyticsPlatform,
   locale: AppLocale,
+  placement: AppEntryPlacement,
 ): void {
   trackVercelAnalyticsEvent("store_link_click", {
     platform,
-    placement: STORE_LINK_PLACEMENT,
+    placement,
   });
   reportSiteAppEntryClick(
     getStoreAppEntryTarget(platform),
     locale,
-    STORE_LINK_PLACEMENT,
+    placement,
   );
 }
 
@@ -94,16 +94,19 @@ export const HumanPlatformLinks: React.FC<HumanPlatformLinksProps> = ({
       {orderedPlatforms.map((platform) => {
         if (platform.kind === "active") {
           const externalLinkAttributes = getExternalLinkAttributes(platform.href);
+          const placement: AppEntryPlacement = platform.analytics.kind === "store"
+            ? platform.analytics.platform === "ios" ? "home_main_app_store" : "home_main_google_play"
+            : "home_main_web";
           const trackPlatformClick = (): void => {
             if (platform.analytics.kind === "store") {
-              trackStoreLinkClick(platform.analytics.platform, locale);
+              trackStoreLinkClick(platform.analytics.platform, locale, placement);
               return;
             }
 
             trackAppEntryClick(
               "open_app",
               locale,
-              "home_human_access",
+              placement,
             );
           };
           const platformContent = showBadges &&
@@ -167,11 +170,11 @@ export const HumanPlatformLinks: React.FC<HumanPlatformLinksProps> = ({
                 href={platform.href}
                 impressionAttributes={getSiteAppEntryImpressionAttributes(
                   storeTarget,
-                  STORE_LINK_PLACEMENT,
+                  placement,
                 )}
                 locale={locale}
                 onClick={trackPlatformClick}
-                placement={STORE_LINK_PLACEMENT}
+                placement={placement}
                 qrSvgMarkup={storeQrCodes[platform.analytics.platform]}
                 target={storeTarget}
               >
@@ -187,7 +190,7 @@ export const HumanPlatformLinks: React.FC<HumanPlatformLinksProps> = ({
               {...externalLinkAttributes}
               className={styles.platformLink}
               aria-label={platform.label}
-              {...getSiteAppEntryImpressionAttributes("web_app", "home_human_access")}
+              {...getSiteAppEntryImpressionAttributes("web_app", placement)}
               onClick={trackPlatformClick}
             >
               {platformContent}

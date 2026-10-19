@@ -13,24 +13,20 @@ import {
 } from "@/lib/siteAnalyticsCollector";
 import { trackVercelAnalyticsEvent } from "@/lib/vercelAnalytics";
 
-/**
- * The same union the contract already holds, under the name this module's callers use. It aliases
- * the contract type rather than repeating its literals, so the action a CTA reports and the action
- * `site_app_entry_clicked` accepts cannot drift apart; the collector cannot reach the other way,
- * because this module imports it.
- */
 export type AppEntryAction = SiteAppEntryAction;
 
-/**
- * Every place a CTA into the product can sit. A runtime list rather than a bare union, because the
- * impression observer reads the placement back out of the DOM and has to be able to refuse a value
- * the collector's own pattern would refuse; deriving the type from the list keeps the two from
- * drifting apart.
- */
 export const APP_ENTRY_PLACEMENTS = [
   "header_desktop",
   "header_mobile",
   "home_human_access",
+  "home_main_app_store",
+  "home_main_google_play",
+  "home_main_web",
+  "home_device_iphone",
+  "home_device_ipad",
+  "home_device_mac",
+  "home_device_android",
+  "home_device_web",
   "home_hero",
   "home_walkthrough",
   "home_review_cta",
@@ -49,12 +45,6 @@ const STORE_APP_ENTRY_TARGETS: Readonly<
   ios: "app_store",
 };
 
-/**
- * Reports a click into the web app or a store to the product collector as `site_app_entry_clicked`.
- *
- * A store link offers no choice of way in and so passes no `action`; the property is then left out
- * of the event rather than sent empty, exactly as the catalog declares it optional.
- */
 export function reportSiteAppEntryClick(
   target: SiteAppEntryTarget,
   locale: AppLocale,
