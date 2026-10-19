@@ -2080,6 +2080,21 @@
     "bytes": 2854226
   },
   {
+    "publicPath": "/blog/newtons-third-law-practice.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/ef37b2c61157732a8d1cd74b58a2cef88c74709375dd99c2b315e9eeb84273f5.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "ef37b2c61157732a8d1cd74b58a2cef88c74709375dd99c2b315e9eeb84273f5",
+    "bytes": 194430,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/bfd6b612fb5a1074c79cec6adca8522b03aa30a5b78746487b653db2d5a377cd.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "bfd6b612fb5a1074c79cec6adca8522b03aa30a5b78746487b653db2d5a377cd",
+      "bytes": 2401334
+    }
+  },
+  {
     "publicPath": "/blog/nondisjunction-meiosis-1-vs-2.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/9c2f6c64a35f1d4ef7bcb4660639ba96f5d2287438b6d3d988fb22c0ffcd179a.png",
     "width": 1672,
