@@ -45,6 +45,10 @@ export type SiteCopyTarget = "mcp_endpoint";
 
 export type SiteLocaleSuggestionOutcome = "opened" | "dismissed";
 
+export type SiteAutomation = "webdriver" | "none";
+
+export type SiteScreenWidthBucket = "xs" | "sm" | "md" | "lg" | "xl" | "xxl";
+
 /**
  * The catalog vocabularies as the backend catalog spells them, rather than the site's own browse
  * and install types they happen to equal today. The collector refuses a value the catalog does not
@@ -117,6 +121,9 @@ interface SiteAnalyticsEventPropertiesByName {
    * only sorts into six buckets. They are optional the way `page_path` is: a direct visit has no
    * referrer, an uncampaigned link has no `utm_*`, and a value outside its shape is left out rather
    * than trimmed into one. They sit here alone because a visit begins once.
+   *
+   * `time_zone`, `automation` and `screen_width_bucket` are browser signals that tell a reader from
+   * a scraper; the zone is optional because a browser can fail to name one.
    */
   readonly site_page_viewed: Readonly<{
     page_kind: SitePageKind;
@@ -128,6 +135,14 @@ interface SiteAnalyticsEventPropertiesByName {
     utm_source?: string;
     utm_medium?: string;
     utm_campaign?: string;
+    time_zone?: string;
+    automation: SiteAutomation;
+    screen_width_bucket: SiteScreenWidthBucket;
+  }>;
+  /** Carries the page view's own `page_kind` and `device_category`, value for value. */
+  readonly site_page_engaged: Readonly<{
+    page_kind: SitePageKind;
+    device_category: SiteDeviceCategory;
   }>;
   /**
    * `action` is added on top of the shared app-entry map rather than into it, so the impression
@@ -450,6 +465,49 @@ export function getSiteDeviceCategory(): SiteDeviceCategory {
   return "desktop";
 }
 
+/**
+ * The browser's IANA zone, or null when it names none. `Etc/Unknown` is what a browser answers when
+ * the OS zone is unknown, and the collector refuses the whole page view on a zone it cannot resolve.
+ */
+export function getSiteTimeZone(): string | null {
+  const timeZone: string | undefined = Intl.DateTimeFormat().resolvedOptions().timeZone;
+  if (timeZone === undefined || timeZone === "" || timeZone === "Etc/Unknown") {
+    return null;
+  }
+
+  return timeZone;
+}
+
+export function getSiteAutomation(): SiteAutomation {
+  return navigator.webdriver === true ? "webdriver" : "none";
+}
+
+/** `window.screen.width` in CSS px; unlike the viewport it does not change with the window. */
+export function getSiteScreenWidthBucket(): SiteScreenWidthBucket {
+  const screenWidth = window.screen.width;
+  if (screenWidth < 480) {
+    return "xs";
+  }
+
+  if (screenWidth < 768) {
+    return "sm";
+  }
+
+  if (screenWidth < 1024) {
+    return "md";
+  }
+
+  if (screenWidth < 1440) {
+    return "lg";
+  }
+
+  if (screenWidth < 1920) {
+    return "xl";
+  }
+
+  return "xxl";
+}
+
 /** Locale prefixes are stripped first, so every locale copy of a route has one kind. */
 export function getSitePageKind(pathname: string): SitePageKind {
   const { routePathname } = resolveLocaleFromPathname(pathname);
@@ -628,14 +686,38 @@ export function sendSiteAnalyticsEvent<EventName extends SiteAnalyticsEventName>
   uiLocale: AppLocale,
   properties: SiteAnalyticsEventPropertiesByName[EventName],
 ): void {
+  sendSiteAnalyticsEventWithIdentity(
+    eventName,
+    clientOccurredAt,
+    uiLocale,
+    properties,
+    (currentAnonymousId) => currentAnonymousId,
+  );
+}
+
+/** The identity a sent event carried; null in place of this when nothing was sent. */
+export type SiteAnalyticsSentIdentity = Readonly<{ anonymousId: string | null }>;
+
+/**
+ * `sendSiteAnalyticsEvent` with the identity decided by the caller from the visitor id current now,
+ * for an event that must carry the same identity as an earlier one. The collection switch and the
+ * identity-free list still apply: an identity-free event never reads the id or asks the caller.
+ */
+export function sendSiteAnalyticsEventWithIdentity<EventName extends SiteAnalyticsEventName>(
+  eventName: EventName,
+  clientOccurredAt: string,
+  uiLocale: AppLocale,
+  properties: SiteAnalyticsEventPropertiesByName[EventName],
+  chooseAnonymousId: (currentAnonymousId: string | null) => string | null,
+): SiteAnalyticsSentIdentity | null {
   if (isSiteAnalyticsCollectionEnabled() === false) {
-    return;
+    return null;
   }
 
   try {
     const anonymousId = SITE_IDENTITY_FREE_EVENT_NAMES.includes(eventName)
       ? null
-      : readAnalyticsAnonymousId();
+      : chooseAnonymousId(readAnalyticsAnonymousId());
     const body = {
       eventId: createUuidV7(),
       eventName,
@@ -660,7 +742,11 @@ export function sendSiteAnalyticsEvent<EventName extends SiteAnalyticsEventName>
     }).catch(() => {
       warnAboutSiteAnalyticsFailure(eventName, "NETWORK_ERROR", null, null);
     });
+
+    return { anonymousId };
   } catch {
     warnAboutSiteAnalyticsFailure(eventName, "CLIENT_SETUP_ERROR", null, null);
+
+    return null;
   }
 }
