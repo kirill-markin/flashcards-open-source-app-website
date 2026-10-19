@@ -1781,6 +1781,21 @@
     "bytes": 2574080
   },
   {
+    "publicPath": "/blog/merge-anki-decks.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/0472ef2ba2e1a403dc430da7a85f22afa98f43fe5dc308caddd2925aecc58e86.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "0472ef2ba2e1a403dc430da7a85f22afa98f43fe5dc308caddd2925aecc58e86",
+    "bytes": 183608,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/1bf42cef335ddebac43aef244ad9a0be10e8715be4b34ea1083e810f25050571.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "1bf42cef335ddebac43aef244ad9a0be10e8715be4b34ea1083e810f25050571",
+      "bytes": 2372505
+    }
+  },
+  {
     "publicPath": "/blog/metric-prefixes-flashcards.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/56a8290e67d297f12507dc531f1da4abb500e6e155b125e5c56bd16a68b19a61.png",
     "width": 1536,
