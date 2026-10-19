@@ -5,6 +5,7 @@ import { FeatureIcon, FEATURE_ICON_NAMES } from "./FeatureIcon";
 import { HomeFlashcardDemo } from "./HomeFlashcardDemo";
 import { HomeReviewRhythm } from "./HomeReviewRhythm";
 import { HumanPlatformLinks } from "./HumanPlatformLinks";
+import { HomeDeviceLinks } from "./HomeDeviceLinks";
 import { TrackedMcpEndpointCopyField } from "./TrackedMcpEndpointCopyField";
 import type { AppWalkthroughSection, FeatureListSection, HeroSection } from "@/lib/content/types";
 import { getHomeExperienceCopy } from "@/lib/homeExperienceCopy";
@@ -58,7 +59,10 @@ export function HomeLanding({ locale, hero, walkthrough, features, storeQrCodes 
             <p className={styles.flowLine}><span>{copy.flow[0]}</span><FlowArrow /><span>{copy.flow[1]}</span></p>
             <p className={styles.flowLine}><FlowArrow /><span>{copy.flow[2]}</span></p>
           </div>
-          <div className={styles.storeLinks}><HumanPlatformLinks locale={locale} storeQrCodes={storeQrCodes} appearance="hero-badges" googlePlayImageUrl={getMarketingMediaUrl("/home/google-play-lockup.png")} /></div>
+          <div className={styles.storeLinks}>
+            <HumanPlatformLinks locale={locale} storeQrCodes={storeQrCodes} appearance="hero-badges" googlePlayImageUrl={getMarketingMediaUrl("/home/google-play-lockup.png")} />
+            <HomeDeviceLinks locale={locale} storeQrCodes={storeQrCodes} />
+          </div>
         </div>
         <HomeFlashcardDemo example={copy.heroCard} controls={copy.controls} />
       </section>

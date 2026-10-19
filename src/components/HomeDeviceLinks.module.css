@@ -1,0 +1,45 @@
+.deviceFilters {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-block-start: 12px;
+}
+
+.deviceFilterLabel {
+  flex: none;
+  color: var(--text-secondary);
+  font-size: 12px;
+}
+
+.deviceFilterLinks {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+}
+
+.deviceFilterLinks a {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  min-block-size: 36px;
+  padding: 5px 9px;
+  border: 1px solid var(--border-strong);
+  border-radius: 6px;
+  color: var(--text);
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.deviceFilterLinks a:hover { border-color: var(--accent); }
+.deviceFilterLinks a:focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; }
+.deviceFilterLinks svg { inline-size: 16px; block-size: 18px; }
+.qrDeviceLink { display: contents; }
+
+@media (max-width: 700px) {
+  .deviceFilters { align-items: center; flex-direction: column; gap: 8px; }
+  .deviceFilterLinks { inline-size: 100%; }
+  .deviceFilterLinks a { min-block-size: 44px; padding-inline: 10px; }
+}
