@@ -2614,6 +2614,21 @@
     "bytes": 2857378
   },
   {
+    "publicPath": "/blog/subject-verb-agreement-practice.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/68b0e1e37f9a780fc595db8d84e63babba255e7ad234b7e0bfb0e41f74dfa6c3.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "68b0e1e37f9a780fc595db8d84e63babba255e7ad234b7e0bfb0e41f74dfa6c3",
+    "bytes": 188860,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/8383a094d0232e2fcd2fa7e5d2da52aaa6cdc13ae70fd5596570ec95c5a5f1de.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "8383a094d0232e2fcd2fa7e5d2da52aaa6cdc13ae70fd5596570ec95c5a5f1de",
+      "bytes": 2388698
+    }
+  },
+  {
     "publicPath": "/blog/tcp-sequence-acknowledgment-numbers.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/7953e4daaea9d1e78ad2a80258566fc31f01de74fc80f2f84381ea5bc0cd89e4.png",
     "width": 1672,
