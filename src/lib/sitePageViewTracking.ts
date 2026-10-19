@@ -11,19 +11,29 @@ import type { AppLocale } from "./i18n";
 import {
   classifySiteReferrerHost,
   classifySiteSource,
+  getSiteAutomation,
   getSiteDeviceCategory,
   getSitePageKind,
   getSitePagePath,
+  getSiteScreenWidthBucket,
+  getSiteTimeZone,
   readSiteCampaignParameters,
-  sendSiteAnalyticsEvent,
+  sendSiteAnalyticsEventWithIdentity,
   SITE_PACKAGE_VERSION_ID_ATTRIBUTE,
+  type SiteAutomation,
   type SiteCampaignParameters,
   type SiteDeviceCategory,
   type SitePageKind,
   type SiteReferrerHost,
+  type SiteScreenWidthBucket,
   type SiteSource,
   warnAboutSiteAnalyticsFailure,
 } from "./siteAnalyticsCollector";
+import {
+  releaseSitePageEngagement,
+  startSitePageEngagementTracking,
+  stopSitePageEngagementTracking,
+} from "./sitePageEngagementTracking";
 
 // Module-scoped rather than a ref, so it survives both React strict mode's simulated remount and a
 // layout remount on a locale change: the same URL is never reported twice in a row, and the page a
@@ -45,6 +55,9 @@ interface SitePageViewDraft {
   readonly deviceCategory: SiteDeviceCategory;
   readonly referrerHost: SiteReferrerHost | null;
   readonly campaign: SiteCampaignParameters;
+  readonly timeZone: string | null;
+  readonly automation: SiteAutomation;
+  readonly screenWidthBucket: SiteScreenWidthBucket;
 }
 
 // The page view still waiting for this load's identity resolution. At most one exists: a newer
@@ -75,8 +88,9 @@ function takePendingSitePageView(): SitePageViewDraft | null {
 }
 
 /**
- * Sends the pending draft exactly once. `sendSiteAnalyticsEvent` reads the visitor cookie at this
- * moment, so a draft sent before identity resolution settles goes out identity-free.
+ * Sends the pending draft exactly once. The collector reads the visitor cookie at this moment, so a
+ * draft sent before identity resolution settles goes out identity-free. The identity it carried is
+ * handed to the page view's engagement tracking, which sends nothing before this.
  */
 function sendPendingSitePageView(): void {
   const draft = takePendingSitePageView();
@@ -84,17 +98,29 @@ function sendPendingSitePageView(): void {
     return;
   }
 
-  sendSiteAnalyticsEvent("site_page_viewed", draft.clientOccurredAt, draft.locale, {
-    page_kind: draft.pageKind,
-    ...(draft.pagePath === null ? {} : { page_path: draft.pagePath }),
-    ...(draft.packageVersionId === null ? {} : { package_version_id: draft.packageVersionId }),
-    source: draft.source,
-    device_category: draft.deviceCategory,
-    ...(draft.referrerHost === null ? {} : { referrer_host: draft.referrerHost }),
-    ...(draft.campaign.utmSource === null ? {} : { utm_source: draft.campaign.utmSource }),
-    ...(draft.campaign.utmMedium === null ? {} : { utm_medium: draft.campaign.utmMedium }),
-    ...(draft.campaign.utmCampaign === null ? {} : { utm_campaign: draft.campaign.utmCampaign }),
-  });
+  const sentIdentity = sendSiteAnalyticsEventWithIdentity(
+    "site_page_viewed",
+    draft.clientOccurredAt,
+    draft.locale,
+    {
+      page_kind: draft.pageKind,
+      ...(draft.pagePath === null ? {} : { page_path: draft.pagePath }),
+      ...(draft.packageVersionId === null ? {} : { package_version_id: draft.packageVersionId }),
+      source: draft.source,
+      device_category: draft.deviceCategory,
+      ...(draft.referrerHost === null ? {} : { referrer_host: draft.referrerHost }),
+      ...(draft.campaign.utmSource === null ? {} : { utm_source: draft.campaign.utmSource }),
+      ...(draft.campaign.utmMedium === null ? {} : { utm_medium: draft.campaign.utmMedium }),
+      ...(draft.campaign.utmCampaign === null ? {} : { utm_campaign: draft.campaign.utmCampaign }),
+      ...(draft.timeZone === null ? {} : { time_zone: draft.timeZone }),
+      automation: draft.automation,
+      screen_width_bucket: draft.screenWidthBucket,
+    },
+    (currentAnonymousId) => currentAnonymousId,
+  );
+  if (sentIdentity !== null) {
+    releaseSitePageEngagement(sentIdentity);
+  }
 }
 
 function sendPendingSitePageViewWhenHidden(): void {
@@ -146,6 +172,8 @@ function reportSitePageView(locale: AppLocale, pageUrl: string): void {
     }
   }
 
+  const deviceCategory = getSiteDeviceCategory();
+
   sendPendingSitePageView();
   pendingSitePageView = {
     locale,
@@ -154,19 +182,24 @@ function reportSitePageView(locale: AppLocale, pageUrl: string): void {
     pagePath,
     packageVersionId,
     source: classifySiteSource(referrer, window.location.hostname),
-    deviceCategory: getSiteDeviceCategory(),
+    deviceCategory,
     referrerHost: classifySiteReferrerHost(referrer, window.location.hostname),
     campaign: readSiteCampaignParameters(window.location.search),
+    timeZone: getSiteTimeZone(),
+    automation: getSiteAutomation(),
+    screenWidthBucket: getSiteScreenWidthBucket(),
   };
   window.addEventListener("pagehide", sendPendingSitePageView);
   document.addEventListener("visibilitychange", sendPendingSitePageViewWhenHidden);
+  startSitePageEngagementTracking(locale, pageKind, deviceCategory);
 
   void resolveAnalyticsVisitorIdentity().then(sendPendingSitePageView);
 }
 
 /**
  * Reports `site_page_viewed` once for the first page of a load and once per client-side navigation
- * to a new pathname. Query-only changes, such as catalog filters, are not page views.
+ * to a new pathname, each followed by at most one `site_page_engaged`. Query-only changes, such as
+ * catalog filters, are not page views.
  *
  * The collection switch is read here as well as inside the collector so that switching it off takes
  * effect at once: nothing is reported while it is off, and the draft waiting for this load's
@@ -189,14 +222,15 @@ export function useSitePageViewTracking(locale: AppLocale): void {
 
   useEffect(() => {
     if (isCollectionEnabled === false) {
-      // A draft parked before the switch went off is dropped here, listeners and all, so that
-      // nothing about this visit can leave afterwards.
+      // A draft parked before the switch went off is dropped here, listeners and all, and so is
+      // the page view's engagement tracking, so that nothing about this visit can leave afterwards.
       //
       // `getServerSnapshot` answers off, so this branch also runs once on the first post-hydration
       // pass of every load, before the real value arrives. It stays cheap on purpose: with no draft
-      // parked yet it reads one module variable and returns, touching neither the DOM nor the
+      // parked yet it reads two module variables and returns, touching neither the DOM nor the
       // network.
       takePendingSitePageView();
+      stopSitePageEngagementTracking();
 
       return;
     }
