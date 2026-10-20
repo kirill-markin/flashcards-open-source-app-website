@@ -1,7 +1,6 @@
 import { existsSync, readdirSync } from "fs";
 import { STRUCTURED_PAGE_CONTENT_BY_LOCALE } from "@/content/structuredPageModules";
 import {
-  getBlogDirectory,
   getDocsDirectory,
   getMarkdownMarketingPageFilePath,
 } from "@/lib/content/paths";
@@ -11,6 +10,7 @@ import {
   type AppLocale,
 } from "@/lib/localeConfig";
 import { DASHBOARDS_ROUTE_PATHNAME } from "@/lib/dashboardsPage";
+import { listPublishedBlogPostSlugs } from "@/lib/blogPublication";
 
 type StructuredMarketingPageSlug = "home" | "pricing";
 type MarkdownBackedMarketingPageSlug = "privacy" | "support" | "terms";
@@ -141,7 +141,7 @@ function listTranslatedDocSlugs(locale: AppLocale): ReadonlyArray<string> {
 }
 
 function listTranslatedBlogPostSlugs(locale: AppLocale): ReadonlyArray<string> {
-  return listMarkdownSlugs(getBlogDirectory(locale));
+  return listPublishedBlogPostSlugs(locale);
 }
 
 function listTranslatedContentRoutePathnames(
@@ -168,8 +168,7 @@ function listTranslatedRoutePathnames(locale: AppLocale): ReadonlyArray<string> 
     ...listTranslatedContentRoutePathnames("/docs/", translatedDocSlugs),
     // The blog listing page is surrounding UI copy rather than article content,
     // so it counts as translated in every locale and renders a localized empty
-    // state where no posts exist. Individual articles stay translated only in
-    // the locales whose article file exists.
+    // state where no posts exist.
     "/blog/",
     ...translatedBlogPostSlugs.map((slug) => `/blog/${slug}/`),
   ];
@@ -179,9 +178,7 @@ export const DOC_SLUGS: ReadonlyArray<string> = orderCanonicalDocSlugs(
   listMarkdownSlugs(getDocsDirectory(DEFAULT_LOCALE))
 );
 
-export const BLOG_POST_SLUGS: ReadonlyArray<string> = listMarkdownSlugs(
-  getBlogDirectory(DEFAULT_LOCALE)
-);
+export const BLOG_POST_SLUGS: ReadonlyArray<string> = listPublishedBlogPostSlugs(DEFAULT_LOCALE);
 
 export const TRANSLATED_DOC_SLUGS_BY_LOCALE: Readonly<
   Record<AppLocale, ReadonlyArray<string>>

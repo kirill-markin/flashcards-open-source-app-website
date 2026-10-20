@@ -6,6 +6,7 @@ import { isSupportedLocale } from "./localeConfig";
 export interface MarkdownAssetManifest {
   readonly facets: Readonly<Record<string, string>>;
   readonly markdown: Readonly<Record<string, string>>;
+  readonly retired: ReadonlyArray<string>;
 }
 
 const internalFacetPathnamePattern =
@@ -60,6 +61,15 @@ function parseStringRecord(
   return Object.fromEntries(entries);
 }
 
+function parseRetiredPathnames(value: unknown): ReadonlyArray<string> {
+  if (!Array.isArray(value) || value.some((entry) =>
+    typeof entry !== "string" || !isCanonicalPagePathname(entry)
+  )) {
+    throw new Error("Markdown asset manifest retired must be an array of canonical page pathnames.");
+  }
+  return [...new Set(value as string[])];
+}
+
 export function parseMarkdownAssetManifest(serialized: string): MarkdownAssetManifest {
   let parsed: unknown;
 
@@ -76,6 +86,7 @@ export function parseMarkdownAssetManifest(serialized: string): MarkdownAssetMan
   const record = parsed as Record<string, unknown>;
 
   return {
+    retired: parseRetiredPathnames(record.retired),
     facets: parseStringRecord(
       record.facets,
       "facet",
@@ -103,6 +114,7 @@ export function serializeMarkdownAssetManifest(
   manifest: MarkdownAssetManifest,
 ): string {
   return `${JSON.stringify({
+    retired: [...new Set(manifest.retired)].sort(),
     facets: sortRecord(manifest.facets),
     markdown: sortRecord(manifest.markdown),
   })}\n`;
