@@ -2078,6 +2078,21 @@
     "bytes": 2195312
   },
   {
+    "publicPath": "/blog/muscle-origin-vs-insertion.webp",
+    "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/55040815019c36991138fcafb0457163c8c89bd4830dad5598dcd44dcb2ebb2c.webp",
+    "width": 1672,
+    "height": 941,
+    "sha256": "55040815019c36991138fcafb0457163c8c89bd4830dad5598dcd44dcb2ebb2c",
+    "bytes": 233654,
+    "original": {
+      "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/790e1ff55e827bd006e14697fea2a9c280cf60030c1bc8ca44be9bc1d3bfd004.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "790e1ff55e827bd006e14697fea2a9c280cf60030c1bc8ca44be9bc1d3bfd004",
+      "bytes": 2681529
+    }
+  },
+  {
     "publicPath": "/blog/music-theory-flashcards.png",
     "url": "https://czaixyl0esghkd4s.public.blob.vercel-storage.com/marketing/2bbb44ba9154b56adecb6f30b6b9b3224aeedb3166978a98b69c949df54a5e6f.png",
     "width": 1672,
